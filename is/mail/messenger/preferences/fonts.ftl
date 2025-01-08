@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Leturgerðir
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Sjálfgefið ({ $name })
 fonts-label-default-unnamed =
     .label = Sjálfgefið
-fonts-encoding-dialog-title =
-    .title = Leturgerð og stafatöflur
 fonts-language-legend =
     .value = Letur fyrir:
     .accesskey = t

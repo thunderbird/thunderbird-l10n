@@ -320,8 +320,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Serrin prenestr / ivinell ar gemennadenn goude an dilec'hiañ pe an dilemel
     .accesskey = S
-display-name-label =
-    .value = Anv da skrammañ:
 condensed-addresses-label =
     .label = Diskouez an anv evit an den eus ma c'harned chomlec'hioù nemetken
     .accesskey = D
@@ -461,18 +459,12 @@ passwords-button =
     .label = Gerioù-tremen enrollet…
     .accesskey = e
 junk-description = Kefluniañ arventennoù ar posteloù lastez dre ziouer. Kefluniet e vez ur gont evit ar posteloù lastez e Arventennoù ar gont.
-junk-label =
-    .label = Pa verkan kemennadennoù evel lastez :
-    .accesskey = v
 junk-move-label =
     .label = Dilec'hiañ anezho betek teuliad "Lastez" ar gont
     .accesskey = b
 junk-delete-label =
     .label = Dilemel anezho
     .accesskey = D
-junk-read-label =
-    .label = Merkañ evel bet lennet ar c'hemennadennoù despizet evel lastez
-    .accesskey = M
 junk-log-label =
     .label = Gweredekaat ar c'herzhlevr evit sil azasaus al lastez
     .accesskey = G
@@ -599,3 +591,6 @@ chat-variant-label =
 ## Sync Tab
 
 sync-pane-cancel = Dilezel
+
+## Mobile QR Export Pane
+

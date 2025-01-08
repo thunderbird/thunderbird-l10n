@@ -36,8 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "v">
 <!ENTITY helpButton.label "Ohje">
 <!ENTITY helpButton.accesskey "O">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Etsi suodatinta nimellä…">
-
-
-

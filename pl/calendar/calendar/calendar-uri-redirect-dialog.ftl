@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-uri-redirect-window =
-    .title = Przekierowanie adresu URI kalendarza
 calendar-uri-redirect-window-title = Przekierowanie adresu URI kalendarza
+# Variables:
+# $calendarName (String) - Display name of the calendar.
 calendar-uri-redirect-description =
     Serwer przekierowuje adres URI kalendarza „{ $calendarName }”.
     Czy zaakceptować przekierowanie i zacząć używać nowego adresu URI dla tego kalendarza?

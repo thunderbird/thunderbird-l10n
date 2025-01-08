@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Remover le agenda eligite…">
 <!ENTITY calendar.removecalendar.accesskey      "R">
 
-
-<!ENTITY calendar.menu.customize.label          "Personalisar…">
-<!ENTITY calendar.menu.customize.accesskey      "P">
-
 <!ENTITY showUnifinderCmd.label                 "Trovar eventos">
 <!ENTITY showUnifinderCmd.accesskey             "T">
 <!ENTITY showUnifinderCmd.tooltip               "Mutar le quadro trova eventos">

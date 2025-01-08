@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Išči
-search-bar-item =
-    .label = Išči:
 search-bar-item2 =
     .label = Išči
 search-bar-placeholder = Išči …
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Samo besedilo
 customize-cancel = Prekliči
 customize-save = Shrani
 customize-unsaved-changes = Neshranjene spremembe pri drugih komponentah
-customize-search-bar =
-    .label = Iskanje gumbov orodne vrstice …
 customize-search-bar2 =
     .label = Iskanje gumbov orodne vrstice
     .placeholder = Iskanje gumbov orodne vrstice …

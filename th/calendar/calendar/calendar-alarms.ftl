@@ -10,12 +10,6 @@ reminder-title-at-start-event = ช่วงเวลาที่เหตุก
 reminder-title-at-start-task = ช่วงเวลาที่งานเริ่ม
 reminder-title-at-end-event = ช่วงเวลาที่เหตุการณ์สิ้นสุด
 reminder-title-at-end-task = ช่วงเวลาที่งานสิ้นสุด
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = เลื่อนการเตือนเป็นเวลา { $unit }
 reminder-custom-origin-begin-before-event = ก่อนเหตุการณ์เริ่ม
 reminder-custom-origin-begin-after-event = หลังเหตุการณ์เริ่ม
 reminder-custom-origin-end-before-event = ก่อนเหตุการณ์สิ้นสุด

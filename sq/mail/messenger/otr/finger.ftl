@@ -3,18 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-finger-title = Shenja Gishtash OTR Parë Më Herët
-
 finger-intro = Shenja gishtash OTR prej bisedash të mëparshme të fshehtëzuara skaj-më-skaj.
-
 finger-screen-name =
     .label = Kontakt
 finger-verified =
     .label = Gjendje Verifikimi
 finger-fingerprint =
     .label = Shenja gishtash
-
 finger-remove =
     .label = Hiq të Përzgjedhurën
-
 finger-remove-all =
     .label = Hiqi Krejt

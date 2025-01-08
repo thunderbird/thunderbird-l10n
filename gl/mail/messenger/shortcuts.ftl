@@ -4,9 +4,6 @@
 
 
 ## Shortcuts
-
-
-## Shortcuts
 ## Variables:
 ##  $key (String) - The shortcut key.
 

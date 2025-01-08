@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Retirar calendario seleccionado…">
 <!ENTITY calendar.removecalendar.accesskey      "R">
 
-
-<!ENTITY calendar.menu.customize.label          "Personalizar…">
-<!ENTITY calendar.menu.customize.accesskey      "P">
-
 <!ENTITY showUnifinderCmd.label                 "Atopar eventos">
 <!ENTITY showUnifinderCmd.accesskey             "A">
 <!ENTITY showUnifinderCmd.tooltip               "Activar/desactivar o panel de atopar eventos">

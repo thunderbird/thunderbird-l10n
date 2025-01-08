@@ -13,86 +13,15 @@
 
 <!ENTITY calendar.today.button.label          "Tänään">
 <!ENTITY calendar.tomorrow.button.label       "Huomenna">
-<!ENTITY calendar.upcoming.button.label       "Tulevat">
 
-<!ENTITY calendar.events.filter.all.label "Kaikki tapahtumat">
-<!ENTITY calendar.events.filter.today.label "Tämän päivän tapahtumat">
-<!ENTITY calendar.events.filter.future.label "Kaikki tulevat tapahtumat">
-<!ENTITY calendar.events.filter.current.label "Valittuna oleva päivä">
-<!ENTITY calendar.events.filter.currentview.label "Tapahtumat nykyisessä näkymässä">
-<!ENTITY calendar.events.filter.next7Days.label "Seuraavien 7 päivän tapahtumat">
-<!ENTITY calendar.events.filter.next14Days.label "Seuraavien 14 päivän tapahtumat">
-<!ENTITY calendar.events.filter.next31Days.label "Seuraavien 31 päivän tapahtumat">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Tämän kalenterikuukauden tapahtumat">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Suoritettu">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Lajittele suoritustilan mukaan">
-<!ENTITY calendar.unifinder.tree.priority.label            "Tärkeysaste">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Lajittele tärkeysasteen mukaan">
-<!ENTITY calendar.unifinder.tree.title.label               "Otsikko">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Lajittele otsikon mukaan">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#37; suoritettu">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Lajittele sen mukaan, montako prosenttia on valmiina">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Alkaa">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Lajittele aloituspäivän mukaan">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Päättyy">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Lajittele päättymispäivän mukaan">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Eräpäivä">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Lajittele eräpäivän mukaan">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Suoritettu">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Lajittele suorituspäivän mukaan">
-<!ENTITY calendar.unifinder.tree.categories.label          "Luokka">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Lajittele luokan mukaan">
-<!ENTITY calendar.unifinder.tree.location.label            "Sijainti">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Lajittele sijainnin mukaan">
-<!ENTITY calendar.unifinder.tree.status.label              "Tila">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Lajittele tilan mukaan">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Kalenteri">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Lajittele kalenterin nimen mukaan">
-<!ENTITY calendar.unifinder.tree.duration.label            "Valmis">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Lajittele sen mukaan milloin tehtävän tulee olla valmis">
-<!ENTITY calendar.unifinder.close.tooltip                  "Sulje tapahtumahaku ja -luettelo">
 
 <!ENTITY calendar.today.button.tooltip          "Siirry tähän päivään" >
 <!ENTITY calendar.todaypane.button.tooltip      "Näytä tänään-ruutu" >
 
-<!ENTITY calendar.day.button.tooltip            "Siirry päivänäkymään" >
-<!ENTITY calendar.week.button.tooltip           "Siirry viikkonäkymään" >
-<!ENTITY calendar.month.button.tooltip          "Siirry kuukausinäkymään" >
-<!ENTITY calendar.multiweek.button.tooltip      "Siirry moniviikkonäkymään" >
-
-<!ENTITY calendar.nextday.label                 "Seuraava päivä" >
-<!ENTITY calendar.prevday.label                 "Edellinen päivä" >
-<!ENTITY calendar.nextday.accesskey             "S" >
-<!ENTITY calendar.prevday.accesskey             "E" >
-<!ENTITY calendar.nextweek.label                "Seuraava viikko" >
-<!ENTITY calendar.prevweek.label                "Edellinen viikko" >
-<!ENTITY calendar.nextweek.accesskey            "S" >
-<!ENTITY calendar.prevweek.accesskey            "E" >
-<!ENTITY calendar.nextmonth.label               "Seuraava kuukausi" >
-<!ENTITY calendar.prevmonth.label               "Edellinen kuukausi" >
-<!ENTITY calendar.nextmonth.accesskey           "S" >
-<!ENTITY calendar.prevmonth.accesskey           "E" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Siirry päivä eteenpäin" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Siirry päivä taaksepäin" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Siirry viikko eteenpäin" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Siirry viikko taaksepäin" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Siirry seuraavaan kuukauteen" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Siirry edelliseen kuukauteen" >
-
 <!ENTITY calendar.newevent.button.label         "Uusi tapahtuma" >
 <!ENTITY calendar.newtask.button.label          "Uusi tehtävä" >
-<!ENTITY calendar.print.button.label            "Tulosta" >
-<!ENTITY calendar.print.button.accesskey        "u">
 
-<!ENTITY calendar.day.button.label              "Päivä" >
-<!ENTITY calendar.week.button.label             "Viikko" >
-<!ENTITY calendar.month.button.label            "Kuukausi" >
-<!ENTITY calendar.multiweek.button.label        "Moniviikko" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "Vain työpäivät" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "V" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Näkymässä olevat tehtävät" >
@@ -277,8 +206,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "i">
 <!ENTITY calendar.context.unsubscribeserver.label      "Peru kalenterin tilaus…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "r">
-<!ENTITY calendar.context.synccalendars.label          "Synkronoi kalenterit">
-<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "Julkaise kalenteri…">
 <!ENTITY calendar.context.publish.accesskey            "J">
 <!ENTITY calendar.context.export.label                 "Vie kalenteri…">
@@ -372,27 +299,8 @@
 <!ENTITY calendar.publish.publish.button      "Julkaise">
 <!ENTITY calendar.publish.close.button      "Sulje">
 
-<!ENTITY calendar.publish.example.url.description   "Esimerkiksi http://www.palvelin.fi/webdav/testi.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "Valitse kalenteri">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "Tulosta kalenteri">
-<!ENTITY calendar.print.title.label "Otsikko:">
-<!ENTITY calendar.print.layout.label "Asettelu:">
-<!ENTITY calendar.print.range.label "Mitä tulostetaan">
-<!ENTITY calendar.print.currentView2.label "Nykyinen näkymä">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "Valitut tapahtumat tai tehtävät">
-<!ENTITY calendar.print.tasks.label "Tehtävät">
-<!ENTITY calendar.print.events.label "Tapahtumat">
-<!ENTITY calendar.print.custom.label "Valitse:">
-<!ENTITY calendar.print.from.label "Alku:">
-<!ENTITY calendar.print.to.label "Loppu:">
-<!ENTITY calendar.print.settingsGroup.label "Tulostusasetukset">
-<!ENTITY calendar.print.optionsGroup.label "Valinnat">
-<!ENTITY calendar.print.taskswithnoduedate.label "Tehtävät ilman valmistumispäivää">
-<!ENTITY calendar.print.completedtasks.label "Suoritetut tehtävät">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Lisätiedot…">

@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Tilin ohjattu luominen">
-<!ENTITY accountWizard.size "width: 42em; height: 40em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Kirjoita keskusteluryhmäpalvelimesi (NNTP) nimi (esimerkiksi &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Keskusteluryhmäpalvelin:">
 <!ENTITY newsServerLabel.accesskey "e">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

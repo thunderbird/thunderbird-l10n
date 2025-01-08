@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Variables:
-# $organizer (String) - The participant that created the original invitation.
-calendar-invitation-panel-intro = { $organizer } te ha invitado a:
 calendar-invitation-panel-status-new = Ha sido invitado a este evento.
 calendar-invitation-panel-status-processed = Este evento ya ha sido añadido a su calendario.
 calendar-invitation-panel-status-updateminor = Este mensaje contiene una actualización para este evento.
@@ -17,14 +14,12 @@ calendar-invitation-panel-intro-cancel = { $organizer } ha cancelado:
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
-calendar-invitation-panel-action-button = Guardar
 calendar-invitation-panel-view-button = Ver
 calendar-invitation-panel-update-button = Actualizar
 calendar-invitation-panel-delete-button = Eliminar
 calendar-invitation-panel-accept-button = Sí
 calendar-invitation-panel-decline-button = No
 calendar-invitation-panel-tentative-button = Tal vez
-calendar-invitation-panel-reply-status = * Aún no has decidido ni respondido
 calendar-invitation-panel-more-button = Más
 calendar-invitation-panel-menu-item-save-copy =
     .label = Guardar una copia
@@ -32,14 +27,6 @@ calendar-invitation-panel-menu-item-toggle-changes =
     .label = Mostrar cambios
 calendar-invitation-panel-prop-title-when = Cuándo:
 calendar-invitation-panel-prop-title-location = Ubicación:
-# Variables:
-# $dayOfWeek (String) - The day of the week for a given date.
-# $date (String) - The date example: Tuesday, February 24, 2022.
-calendar-invitation-datetime-date = { $dayOfWeek }, { $date }
-# Variables:
-# $time (String) - The time part of a datetime using the "short" timeStyle.
-# $timezone (String) - The timezone info for the datetime.
-calendar-invitation-datetime-time = { $time } ({ $timezone })
 # Example: Friday, September 16, 2022
 # Variables:
 # $startDate (String) - The date (without time) the event starts on.

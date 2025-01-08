@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Variables:
+## $count (Number) - Number of events selected for deletion.
+
 calendar-delete-event-prompt-title =
     { $count ->
         [one] Tšojenje wulašowaś
@@ -16,6 +20,10 @@ calendar-delete-event-prompt-message =
         [few] Cośo napšawdu toś te { $count } tšojenja wulašowaś?
        *[other] Cośo napšawdu toś te { $count } tšojenjow wulašowaś?
     }
+
+## Variables:
+## $count (Number) - Number of tasks selected for deletion.
+
 calendar-delete-task-prompt-title =
     { $count ->
         [one] Nadawk wulašowaś
@@ -30,6 +38,10 @@ calendar-delete-task-prompt-message =
         [few] Cośo napšawdu toś te { $count } nadawki wulašowaś?
        *[other] Cośo napšawdu toś te { $count } nadawkow wulašowaś?
     }
+
+## Variables:
+## $count (Number) - Number of items selected for deletion.
+
 calendar-delete-item-prompt-title =
     { $count ->
         [one] Zapisk lašowaś
@@ -44,4 +56,7 @@ calendar-delete-item-prompt-message =
         [few] Cośo napšawdu toś te { $count } zapiski wulašowaś?
        *[other] Cośo napšawdu toś te { $count } zapiskow wulašowaś?
     }
+
+##
+
 calendar-delete-prompt-disable-message = Wěcej se njepšašaś.

@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "W">
 <!ENTITY newVirtualFolderCmd.label "Պահպանված որոնում...">
 <!ENTITY newVirtualFolderCmd.accesskey "S">
-<!ENTITY newCreateEmailAccountCmd.label "យក​គណនី​អ៊ីមែល​ថ្មី…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "G">
-<!ENTITY newExistingEmailAccountCmd.label "គណនី​អ៊ីមែល​ដែល​មាន​ស្រាប់…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "E">
 <!ENTITY newIMAccountCmd.label "គណនី​ជជែក…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "គណនី​អត្ថបទ​ព័ត៌មាន…">
@@ -77,18 +73,6 @@
 <!ENTITY printCmd.key "Տ">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Ջնջել նամակը">
-<!ENTITY deleteMsgCmd.accesskey "D">
-<!ENTITY undeleteMsgCmd.label "Ետարկել ջնջումը">
-<!ENTITY undeleteMsgCmd.accesskey "d">
-<!ENTITY deleteMsgsCmd.label "Ջնջել ընտրված նամակները">
-<!ENTITY deleteMsgsCmd.accesskey "D">
-<!ENTITY undeleteMsgsCmd.label "Ետարկել ընտրված նամակները">
-<!ENTITY undeleteMsgsCmd.accesskey "d">
-<!ENTITY deleteFolderCmd.label "Ջնջել">
-<!ENTITY deleteFolderCmd.accesskey "D">
-<!ENTITY unsubscribeNewsgroupCmd.label "Չբաժանորդագրվել">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "b">
 <!ENTITY selectMenu.label "Ընտրել">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Բոլորը">
@@ -100,10 +84,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "S">
 <!ENTITY menuFavoriteFolder.label "Ընտրյալ թղթապանակը">
 <!ENTITY menuFavoriteFolder.accesskey "v">
-<!ENTITY folderPropsCmd2.label "លក្ខណសម្បត្តិ">
-<!ENTITY folderPropsFolderCmd2.label "លក្ខណសម្បត្តិ​ថត">
-<!ENTITY folderPropsNewsgroupCmd2.label "លក្ខណសម្បត្តិ​វេទិកា​ព័ត៌មាន…">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Undo Delete Message">
 <!ENTITY redoDeleteMsgCmd.label "Redo Delete Message">
 <!ENTITY undoMoveMsgCmd.label "Undo Move Message">
@@ -135,8 +115,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "ផ្ទាំង​ថត">
 <!ENTITY showFolderPaneCmd.accesskey "F">
-<!ENTITY showFolderPaneColsCmd.label "ថត ផ្ទាំង​ជួរឈរ">
-<!ENTITY showFolderPaneColsCmd.accesskey "ផ">
 <!ENTITY showMessageCmd.label "Նամակի վահանակը">
 <!ENTITY showMessageCmd.accesskey "M">
 
@@ -350,6 +328,7 @@
 <!ENTITY editAsNewMsgCmd.label "កែសម្រួល​ជា​សារ​ថ្មី">
 <!ENTITY editAsNewMsgCmd.accesskey "E">
 <!ENTITY editAsNewMsgCmd.key "e">
+<!-- do not change "VK_RETURN" -->
 <!ENTITY createFilter.label "Ստեղծել ֆիլտր նամակից...">
 <!ENTITY createFilter.accesskey "a">
 <!ENTITY moveMsgToMenu.label "Տեղափոխել՝">
@@ -478,13 +457,6 @@
 <!ENTITY errorConsoleCmd.accesskey "E">
 <!ENTITY errorConsoleCmd.commandkey "j">
 
-<!--LOCALIZATION NOTE (scratchpadCmd.keycode):
-    This should be a key code constant as per
-    https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#Constants_for_keyCode_value
-    (but without the DOM_ prefix) -->
-<!--LOCALIZATION NOTE (scratchpadCmd.keytext):
-    This should be the text printed on the key defined in the previous string. -->
-
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton1.label "យក​សារ">
 <!ENTITY newMsgButton.label "Write">
@@ -570,10 +542,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "សារ​ថ្មី">
 <!ENTITY appmenuNewContactCmd.label "ទំនាក់ទំនង​សៀវភៅ​អាសយដ្ឋាន…">
-<!ENTITY appmenuEditMenu.label "កែសម្រួល​">
 <!ENTITY appmenuToolbarLayout.label "ប្លង់​របារ​ឧបករណ៍…">
-<!ENTITY appmenuSelectThread.label "ជ្រើស​​ប្រធានបទ​តែមួយ">
-<!ENTITY appmenuSelectFlagged.label "ជ្រើស​សារ​ដែល​បាន​ដាក់​ផ្កាយ">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Նոր պիտակ...">
@@ -612,8 +581,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "U">
 <!ENTITY folderContextMarkNewsgroupRead.label "Նշել որպես կարդացած">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "k">
-<!ENTITY folderContextMarkMailFolderRead.label "Նշել որպես կարդացած">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "k">
 <!ENTITY folderContextSubscribe.label "Բաժանորդագրվել...">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "ស្វែងរក​សារ...">
@@ -689,10 +656,10 @@
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextOpenNewWindow.label "Նամակը բացլ նոր պատուհանում">
 <!ENTITY contextOpenNewWindow.accesskey "W">
-<!-- The key potentially conflicts with cutCmd.accessKey which is defined in
-     textcontext.dtd from toolkit. Right now, both menu items can't be visible
-     at the same time, but should someone enable copy/paste of message, this key
-     would probably need to be changed. -->
+<!-- The contextOpenNewTab.accesskey ("T") potentially conflicts with
+     cutCmd.accessKey which is defined in textcontext.dtd from toolkit. Right
+     now, both menu items can't be visible at the same time, but should someone
+     enable copy/paste of message, this key would probably need to be changed. -->
 <!ENTITY contextOpenNewTab.label "Նամակը բացլ նոր էջում">
 <!ENTITY contextOpenNewTab.accesskey "T">
 <!ENTITY contextOpenConversation.label "Բացել նամակը երկխոսությունում">
@@ -711,16 +678,6 @@
 <!ENTITY contextReplyAll.accesskey "A">
 <!ENTITY contextReplyList.label "Պատասխանել ցանկում">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextForward.label "Փոխանցել">
-<!ENTITY contextForward.accesskey "F">
-<!ENTITY contextForwardAsMenu.label "បញ្ជូន​បន្ត​ជា">
-<!ENTITY contextForwardAsMenu.accesskey "o">
-<!ENTITY contextForwardAsInline.label "ក្នុង​តួ">
-<!ENTITY contextForwardAsInline.accesskey "I">
-<!ENTITY contextForwardAsAttachmentItem.label "​ឯកសារ​ភ្ជាប់">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "A">
-<!ENTITY contextMultiForwardAsAttachment.label "បញ្ជូន​បន្ត​ជា​ឯកសារ​ភ្ជាប់">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "o">
 <!ENTITY contextMoveMsgMenu.label "Տեղափոխել՝">
 <!ENTITY contextMoveMsgMenu.accesskey "M">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Վերջին">
@@ -741,8 +698,6 @@
 <!ENTITY contextPrint.accesskey "P">
 <!ENTITY contextPrintPreview.label "Նախնական դիտում">
 <!ENTITY contextPrintPreview.accesskey "v">
-
-<!-- Thread Pane Column Picker -->
 
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
@@ -784,7 +739,6 @@
   -->
 <!ENTITY columnPicker.thisFolder.label "Այս թղթապանակը">
 
-
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label "Խաղարկել">
 <!ENTITY contextPlay.accesskey "P">
@@ -802,7 +756,7 @@
   -->
 <!ENTITY quickSearchCmd.key "k">
 <!-- LOCALIZATION NOTE (search.label.base1):
-      This is the base of the empty text for the global search box. We replace
+     This is the base of the empty text for the global search box. We replace
      #1 with the contents of the appropriate search.keyLabel.* value for the
      platform.
      The goal is to convey to the user that typing in the box will allow them
@@ -862,10 +816,6 @@
 <!ENTITY copyImageAllCmd.accesskey "I">
 <!ENTITY copyEmailCmd.label "Պատճենել փոստի հասցեն">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY stopCmd.label "Կանգնեցնել">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Կրկնել">
-<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY openInBrowser.label "Բացել դիտարկիչում">
 <!ENTITY openInBrowser.accesskey "O">
 <!ENTITY openLinkInBrowser.label "Հղումը բացել դիտարկիչում">
@@ -896,3 +846,4 @@
 <!-- Mac OS X Dock Icon pop-up menu -->
 <!ENTITY dockOptions.label              "ជម្រើស​រូបតំណាង​កម្មវិធី…">
 
+<!-- Content tab Navigation buttons -->

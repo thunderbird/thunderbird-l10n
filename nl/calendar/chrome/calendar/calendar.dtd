@@ -13,86 +13,15 @@
 
 <!ENTITY calendar.today.button.label          "Vandaag">
 <!ENTITY calendar.tomorrow.button.label       "Morgen">
-<!ENTITY calendar.upcoming.button.label       "Aanstaand">
 
-<!ENTITY calendar.events.filter.all.label "Alle gebeurtenissen">
-<!ENTITY calendar.events.filter.today.label "Gebeurtenissen van vandaag">
-<!ENTITY calendar.events.filter.future.label "Alle komende gebeurtenissen">
-<!ENTITY calendar.events.filter.current.label "Momenteel geselecteerde dag">
-<!ENTITY calendar.events.filter.currentview.label "Gebeurtenissen in huidige overzicht">
-<!ENTITY calendar.events.filter.next7Days.label "Gebeurtenissen in de komende 7 dagen">
-<!ENTITY calendar.events.filter.next14Days.label "Gebeurtenissen in de komende 14 dagen">
-<!ENTITY calendar.events.filter.next31Days.label "Gebeurtenissen in de komende 31 dagen">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Gebeurtenissen in deze kalendermaand">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Gereed">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Sorteren op voltooiing">
-<!ENTITY calendar.unifinder.tree.priority.label            "Prioriteit">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Sorteren op prioriteit">
-<!ENTITY calendar.unifinder.tree.title.label               "Titel">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Sorteren op titel">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#37; voltooid">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Sorteren op &#37; voltooid">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Begin">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Sorteren op begindatum">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Einde">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Sorteren op einde">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Einddatum">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Sorteren op einddatum">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Voltooid">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Sorteren op voltooiingsdatum">
-<!ENTITY calendar.unifinder.tree.categories.label          "Categorie">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Sorteren op categorie">
-<!ENTITY calendar.unifinder.tree.location.label            "Locatie">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Sorteren op locatie">
-<!ENTITY calendar.unifinder.tree.status.label              "Status">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Sorteren op status">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Agendanaam">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Sorteren op agendanaam">
-<!ENTITY calendar.unifinder.tree.duration.label            "Einddatum over">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Sorteren op tijd tot einddatum">
-<!ENTITY calendar.unifinder.close.tooltip                  "Gebeurtenissen zoeken en gebeurtenissenlijst sluiten">
 
 <!ENTITY calendar.today.button.tooltip          "Naar vandaag gaan" >
 <!ENTITY calendar.todaypane.button.tooltip      "Paneel Vandaag tonen" >
 
-<!ENTITY calendar.day.button.tooltip            "Wisselen naar dagoverzicht" >
-<!ENTITY calendar.week.button.tooltip           "Wisselen naar weekoverzicht" >
-<!ENTITY calendar.month.button.tooltip          "Wisselen naar maandoverzicht" >
-<!ENTITY calendar.multiweek.button.tooltip      "Wisselen naar overzicht van meerdere weken" >
-
-<!ENTITY calendar.nextday.label                 "Volgende dag" >
-<!ENTITY calendar.prevday.label                 "Vorige dag" >
-<!ENTITY calendar.nextday.accesskey             "V" >
-<!ENTITY calendar.prevday.accesskey             "o" >
-<!ENTITY calendar.nextweek.label                "Volgende week" >
-<!ENTITY calendar.prevweek.label                "Vorige week" >
-<!ENTITY calendar.nextweek.accesskey            "V" >
-<!ENTITY calendar.prevweek.accesskey            "o" >
-<!ENTITY calendar.nextmonth.label               "Volgende maand" >
-<!ENTITY calendar.prevmonth.label               "Vorige maand" >
-<!ENTITY calendar.nextmonth.accesskey           "V" >
-<!ENTITY calendar.prevmonth.accesskey           "o" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Eén dag vooruit" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Eén dag terug" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Eén week vooruit" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Eén week terug" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Eén maand vooruit" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Eén maand terug" >
-
 <!ENTITY calendar.newevent.button.label         "Nieuwe gebeurtenis" >
 <!ENTITY calendar.newtask.button.label          "Nieuwe taak" >
-<!ENTITY calendar.print.button.label            "Afdrukken" >
-<!ENTITY calendar.print.button.accesskey        "d">
 
-<!ENTITY calendar.day.button.label              "Dag" >
-<!ENTITY calendar.week.button.label             "Week" >
-<!ENTITY calendar.month.button.label            "Maand" >
-<!ENTITY calendar.multiweek.button.label        "Meerdere weken" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "Alleen werkdagen" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "r" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Taken in overzicht" >
@@ -277,8 +206,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "r">
 <!ENTITY calendar.context.unsubscribeserver.label      "Agenda afmelden…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "f">
-<!ENTITY calendar.context.synccalendars.label          "Agenda’s synchroniseren">
-<!ENTITY calendar.context.synccalendars.accesskey      "c">
 <!ENTITY calendar.context.publish.label                "Agenda publiceren">
 <!ENTITY calendar.context.publish.accesskey            "u">
 <!ENTITY calendar.context.export.label                 "Agenda exporteren…">
@@ -372,27 +299,8 @@
 <!ENTITY calendar.publish.publish.button      "Publiceren">
 <!ENTITY calendar.publish.close.button      "Sluiten">
 
-<!ENTITY calendar.publish.example.url.description   "Zoiets als http://www.myserver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "Agenda selecteren">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "Een agenda afdrukken">
-<!ENTITY calendar.print.title.label "Titel:">
-<!ENTITY calendar.print.layout.label "Lay-out:">
-<!ENTITY calendar.print.range.label "Af te drukken">
-<!ENTITY calendar.print.currentView2.label "Huidige overzicht">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "Geselecteerde gebeurtenissen/taken">
-<!ENTITY calendar.print.tasks.label "Taken">
-<!ENTITY calendar.print.events.label "Gebeurtenissen">
-<!ENTITY calendar.print.custom.label "Aangepast datumbereik:">
-<!ENTITY calendar.print.from.label "Van:">
-<!ENTITY calendar.print.to.label "Tot:">
-<!ENTITY calendar.print.settingsGroup.label "Afdrukinstellingen">
-<!ENTITY calendar.print.optionsGroup.label "Opties">
-<!ENTITY calendar.print.taskswithnoduedate.label "Taken zonder einddatum">
-<!ENTITY calendar.print.completedtasks.label "Voltooide taken">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Details…">

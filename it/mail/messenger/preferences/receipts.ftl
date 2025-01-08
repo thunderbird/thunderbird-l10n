@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-receipts-dialog-window =
-    .title = Ricevute di ritorno
 receipts-dialog-title = Ricevute di ritorno
 return-receipt-checkbox-control =
     .label = Quando si spediscono i messaggi chiedere sempre la ricevuta di ritorno

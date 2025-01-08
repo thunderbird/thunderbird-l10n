@@ -10,12 +10,6 @@ reminder-title-at-start-event = Op het moment dat de gebeurtenis begint
 reminder-title-at-start-task = Op het moment dat de taak begint
 reminder-title-at-end-event = Op het moment dat de gebeurtenis eindigt
 reminder-title-at-end-task = Op het moment dat de taak eindigt
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Herinnering uitstellen voor { $unit }
 reminder-custom-origin-begin-before-event = voordat de gebeurtenis begint
 reminder-custom-origin-begin-after-event = nadat de gebeurtenis begint
 reminder-custom-origin-end-before-event = voordat de gebeurtenis eindigt

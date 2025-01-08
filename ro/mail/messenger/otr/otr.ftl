@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 error-enc = A apărut o eroare la criptarea mesajului.
-
 error-unreadable = Ai transmis un mesaj criptat ilizibil.
 error-malformed = Ai transmis un mesaj de date de format necorespunzător.
-
 resent = [retransmis]
-
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 tlv-disconnected = { $name } a încheiat conversația criptată cu tine; ar trebui să faci la fel.
-
 # Do not translate "Off-the-Record" and "OTR" which is the name of an encryption protocol
 # Make sure that this string does NOT contain any numbers, e.g. like "3".
 # Variables:

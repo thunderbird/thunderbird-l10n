@@ -2,14 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-main.xul -->
-
 <!-- extracted from am-main.xhtml -->
 
 <!ENTITY accountTitle.label "ਅਕਾਊਂਟ ਸੈਟਿੰਗ">
 <!ENTITY accountName.label "ਅਕਾਊਂਟ ਨਾਂ:">
 <!ENTITY accountName.accesskey "N">
-
 <!ENTITY identityTitle.label "ਡਿਫਾਲਟ ਪਛਾਣ">
 <!ENTITY identityDesc.label "ਹਰ ਅਕਾਊਂਟ ਦੀ ਇੱਕ ਪਛਾਣ ਹੁੰਦੀ ਹੈ, ਜੋ ਕਿ ਜਾਣਕਾਰੀ ਹੈ , ਜਿਸ ਨੂੰ  ਹੋਰ ਲੋਕ ਤੁਹਾਡੀ ਮੇਲ ਪੜ੍ਹਨ ਦੌਰਾਨ ਵੇਖ ਸਕਦੇ ਹਨ।">
 <!ENTITY name.label "ਤੁਹਾਡਾ ਨਾਂ:">

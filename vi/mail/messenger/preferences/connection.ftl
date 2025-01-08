@@ -18,8 +18,6 @@ connection-dns-over-https-url-custom =
         Nhập URL ưa thích của bạn để giải quyết DNS qua HTTPS
         Nhập URL ưa thích của bạn để xử lí DNS qua HTTPS
 connection-dns-over-https-custom-label = Tùy chỉnh
-connection-dialog-window2 =
-    .title = Cài đặt kết nối
 connection-dialog-title = Cài đặt kết nối
 disable-extension-button = Vô hiệu hóa tiện ích mở rộng
 # Variables:

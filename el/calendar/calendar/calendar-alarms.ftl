@@ -10,12 +10,6 @@ reminder-title-at-start-event = Στιγμή έναρξης εκδήλωσης
 reminder-title-at-start-task = Στιγμή έναρξης εργασίας
 reminder-title-at-end-event = Στιγμή λήξης εκδήλωσης
 reminder-title-at-end-task = Στιγμή λήξης εργασίας
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Αναβολή υπενθύμισης για { $unit }
 reminder-custom-origin-begin-before-event = πριν από την έναρξη της εκδήλωσης
 reminder-custom-origin-begin-after-event = μετά την έναρξη της εκδήλωσης
 reminder-custom-origin-end-before-event = πριν από τη λήξη της εκδήλωσης

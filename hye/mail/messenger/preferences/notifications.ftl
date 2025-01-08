@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Անհատականացրեք Նոր փոստի ազդանշանը
 notifications-dialog-title = Անհատականացրեք Նոր փոստի ազդանշանը
 customize-alert-description = Ընտրեք, թէ որ դաշտերը պէտք է ցուցադրուեն ազդարարման ծանուցման մէջ.
 preview-text-checkbox =

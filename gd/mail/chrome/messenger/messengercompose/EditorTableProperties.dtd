@@ -64,8 +64,8 @@
 <!ENTITY cellAlignJustify.label           "Blocaich">
 <!ENTITY cellInheritColor.label           "(Leig le dath a' chlàir a thighinn troimhe)">
 <!ENTITY cellUseCheckboxHelp.label        "Tagh na roghainnean a thèid a chur an sàs airson nan ceallan a thagh thu le cromagan sna bogsaichean">
-<!-- Used in both Table and Cell panels  -->
 
+<!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "Meud">
 <!ENTITY pixels.label                     "pixel">
 <!ENTITY backgroundColor.label            "Dath a' chùlaibh:">

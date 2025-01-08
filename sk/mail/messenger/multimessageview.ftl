@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Súhrn správy
-selected-messages-label =
-    .label = Označené správy
 multi-message-archive-button =
     .label = Archivovať
     .tooltiptext = Archivovať

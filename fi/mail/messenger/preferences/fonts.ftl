@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Kirjasimet
-fonts-window-close =
-    .key = s
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Oletus ({ $name })
 fonts-label-default-unnamed =
     .label = Oletus
-fonts-encoding-dialog-title =
-    .title = Kirjasinlajit ja merkistökoodaukset
 fonts-language-legend =
     .value = Merkistö:
     .accesskey = M

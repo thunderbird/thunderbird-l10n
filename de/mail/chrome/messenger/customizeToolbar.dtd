@@ -2,7 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- DE: # Forked from toolkit/chrome/global/customizeToolbar.dtd -->
 <!ENTITY dialog.title             "Symbolleiste anpassen">
 <!ENTITY dialog.dimensions        "width: 92ch; height: 36em;">
 <!ENTITY instructions.description "Ziehen Sie Symbole in die Symbolleiste oder heraus, um sie hinzuzufügen oder zu entfernen.">
@@ -14,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "kleine Symbole">
 <!ENTITY restoreDefaultSet.label  "Standard wiederherstellen">
 <!ENTITY showTitlebar2.label      "Titelleiste">
-<!ENTITY extraDragSpace2.label    "Fläche zum Ziehen">
 <!ENTITY saveChanges.label        "Fertig">
 <!ENTITY undoChanges.label        "Änderungen verwerfen">

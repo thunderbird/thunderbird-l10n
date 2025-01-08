@@ -14,82 +14,14 @@
 <!ENTITY calendar.today.button.label          "Í dag">
 <!ENTITY calendar.tomorrow.button.label       "Á morgun">
 
-<!ENTITY calendar.events.filter.all.label "Allir atburðir">
-<!ENTITY calendar.events.filter.today.label "Atburðir dagsins">
-<!ENTITY calendar.events.filter.future.label "Atburðir í framtíðinni">
-<!ENTITY calendar.events.filter.current.label "Núverandi valinn dagur">
-<!ENTITY calendar.events.filter.currentview.label "Atburðir í núverandi sýn">
-<!ENTITY calendar.events.filter.next7Days.label "Atburðir næstu 7 daga">
-<!ENTITY calendar.events.filter.next14Days.label "Atburðir næstu 14 daga">
-<!ENTITY calendar.events.filter.next31Days.label "Atburðir næsta 31 dag">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Atburðir í þessum mánuði">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Ljúka">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Raða eftir lokið">
-<!ENTITY calendar.unifinder.tree.priority.label            "Forgangur">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Raða eftir forgangi">
-<!ENTITY calendar.unifinder.tree.title.label               "Titill">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Raða eftir titli">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#37; Lokið">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Raða eftir &#37; lokið">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Byrjar">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Raða eftir upphafsdagsetningu">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Endar">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Raða eftir lokadagsetningu">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Lokadagur">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Raða eftir framkvæmist fyrir">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Lokið">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Raða eftir lokadagsetningu">
-<!ENTITY calendar.unifinder.tree.categories.label          "Flokkur">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Raða eftir flokk">
-<!ENTITY calendar.unifinder.tree.location.label            "Staðsetning">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Raða eftir staðsetningu">
-<!ENTITY calendar.unifinder.tree.status.label              "Staða">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Raða eftir stöðu">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Nafn dagatals">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Raða eftir nafni dagatals">
-<!ENTITY calendar.unifinder.tree.duration.label            "Framkvæmist fyrir">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Raða eftir framkvæmist fyrir">
-<!ENTITY calendar.unifinder.close.tooltip                  "Loka atburðaleit og atburðalista">
 
 <!ENTITY calendar.today.button.tooltip          "Hoppa á daginn í dag" >
 <!ENTITY calendar.todaypane.button.tooltip      "Sýn dagsins í dag" >
 
-<!ENTITY calendar.day.button.tooltip            "Skipta yfir í dagsýn" >
-<!ENTITY calendar.week.button.tooltip           "Skipta yfir í vikusýn" >
-<!ENTITY calendar.month.button.tooltip          "Skipta yfir í mánaðarsýn" >
-<!ENTITY calendar.multiweek.button.tooltip      "Skipta yfir í margra vikna sýn" >
-
-<!ENTITY calendar.nextday.label                 "Næsti dagur" >
-<!ENTITY calendar.prevday.label                 "Fyrri dagur" >
-<!ENTITY calendar.nextday.accesskey             "æ" >
-<!ENTITY calendar.prevday.accesskey             "F" >
-<!ENTITY calendar.nextweek.label                "Næsta vika" >
-<!ENTITY calendar.prevweek.label                "Fyrri vika" >
-<!ENTITY calendar.nextweek.accesskey            "æ" >
-<!ENTITY calendar.prevweek.accesskey            "F" >
-<!ENTITY calendar.nextmonth.label               "Næsti mánuður" >
-<!ENTITY calendar.prevmonth.label               "Fyrri mánuður" >
-<!ENTITY calendar.nextmonth.accesskey           "æ" >
-<!ENTITY calendar.prevmonth.accesskey           "F" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Einn dag áfram" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Einn dag til baka" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Eina viku áfram" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Eina viku til baka" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Einn mánuð áfram" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Einn mánuð til baka" >
-
 <!ENTITY calendar.newevent.button.label         "Nýr atburður" >
 <!ENTITY calendar.newtask.button.label          "Nýtt verkefni" >
 
-<!ENTITY calendar.day.button.label              "Dagur" >
-<!ENTITY calendar.week.button.label             "Vika" >
-<!ENTITY calendar.month.button.label            "Mánuður" >
-<!ENTITY calendar.multiweek.button.label        "Margar vikur" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "Aðeins vinnudagar" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "A" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Verkefni í sýn" >
@@ -274,8 +206,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "r">
 <!ENTITY calendar.context.unsubscribeserver.label      "Hætta í áskrift að dagatali…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "æ">
-<!ENTITY calendar.context.synccalendars.label          "Samstilla dagatöl">
-<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "Gefa út dagatal…">
 <!ENTITY calendar.context.publish.accesskey            "G">
 <!ENTITY calendar.context.export.label                 "Flytja út dagatal…">

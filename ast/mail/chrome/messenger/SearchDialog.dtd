@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- for SearchDialog.xul -->
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "Guetar mensaxes en:">
 <!ENTITY searchHeading.accesskey     "G">
 <!ENTITY searchSubfolders.label      "Guetar subcarpetes">
@@ -19,13 +19,13 @@
 <!ENTITY results.label               "Resultaos">
 <!ENTITY moveButton.label            "Mover a">
 <!ENTITY moveButton.accesskey        "M">
-<!ENTITY closeCmd.key                "W"> 
+<!ENTITY closeCmd.key                "W">
 <!ENTITY openInFolder.label          "Abrir en carpeta">
 <!ENTITY openInFolder.accesskey      "i">
 <!ENTITY saveAsVFButton.label        "Guardar como carpeta de gueta">
 <!ENTITY saveAsVFButton.accesskey    "G">
 
-<!-- for ABSearchDialog.xul -->
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "Guetar en:">
 <!ENTITY abSearchHeading.accesskey   "n">
 <!ENTITY propertiesButton.label      "Propiedaes">
@@ -35,4 +35,3 @@
 <!ENTITY deleteCardButton.label      "Desaniciar">
 <!ENTITY deleteCardButton.accesskey  "D">
 <!ENTITY abSearchDialogTitle.label   "Gueta avanzada na llibreta de direiciones">
-

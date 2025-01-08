@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-
 <!ENTITY title.label "Xabar xavfsizligi">
 <!ENTITY subject.plaintextWarning "Diqqat qiling; E-pochta xabarlarining mavzulari hech qachon shifrlanmaydi.">
 <!ENTITY status.heading "Xabaringiz tarkibi quyidagi kabi jo‘natiladi:">

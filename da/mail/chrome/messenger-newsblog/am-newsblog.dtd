@@ -7,8 +7,8 @@
 
 <!ENTITY newFeedSettings.label         "Standardindstillinger for feeds">
 
-<!ENTITY manageSubscriptions.label "Håndter abonnementer…">
+<!ENTITY manageSubscriptions.label     "Håndter abonnementer…">
 <!ENTITY manageSubscriptions.accesskey "H">
 
-<!ENTITY feedWindowTitle.label "Guiden Feed-konto">
-<!ENTITY feeds.accountName "Feeds &amp; blogs">
+<!ENTITY feedWindowTitle.label         "Guiden Feed-konto">
+<!ENTITY feeds.accountName             "Feeds &amp; blogs">

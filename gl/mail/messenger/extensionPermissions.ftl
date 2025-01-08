@@ -27,7 +27,6 @@ webext-perms-description-messagesModify = Consultar e modificar as súas mensaxe
 webext-perms-description-messagesModifyPermanent = Modificar permanentemente a orixe das súas mensaxes (incluíndo cabeceiras, corpo e anexos)
 webext-perms-description-messagesMove = Copiar ou mover as súas mensaxes de correo electrónico (incluído o movemento ao cartafol do lixo)
 webext-perms-description-messagesDelete = Eliminar permanentemente as súas mensaxes de correo electrónico
-webext-perms-description-messagesRead = Consultar as súas mensaxes de correo electrónico e marcalas ou etiquetalas
 webext-perms-description-messagesRead2 = Le as súas mensaxes de correo electrónico
 webext-perms-description-messagesUpdate = Modifique as propiedades e as etiquetas das súas mensaxes de correo electrónico
 webext-perms-description-messagesTags = Crear, modificar e eliminar etiquetas de mensaxes

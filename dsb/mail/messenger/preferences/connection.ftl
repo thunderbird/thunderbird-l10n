@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = S
     .tooltiptext = Zapodajće swój preferowany URL za rozpušćenje DNS přez HTTPS
 connection-dns-over-https-custom-label = Swójski
-connection-dialog-window2 =
-    .title = Nastajenja zwiskow
 connection-dialog-title = Nastajenja zwiskow
 disable-extension-button = Rozšyrjenje znjemóžniś
 # Variables:

@@ -13,20 +13,19 @@
 <!ENTITY junkFolderOn.accesskey "J">
 <!ENTITY otherFolder.label "기타:">
 <!ENTITY otherFolder.accesskey "O">
-
 <!ENTITY purge1.label "스팸 메일 자동 삭제">
 <!ENTITY purge1.accesskey "u">
 <!ENTITY purge2.label "일 이전">
 
 <!ENTITY whitelistHeader.label "보낸 사람이 아래의 리스트에 있으면 스팸 메일 표시하지 않음:">
-<!ENTITY whitelistHeader.accesskey	"D">
+<!ENTITY whitelistHeader.accesskey "D">
 
-<!ENTITY ispHeadersWarning.label	"활성화하면, &brandShortName; 프로그램을 통해 스팸 메일로 분류된 메일을 자동적으로 표시합니다.">
+<!ENTITY ispHeadersWarning.label "활성화하면, &brandShortName; 프로그램을 통해 스팸 메일로 분류된 메일을 자동적으로 표시합니다.">
 <!ENTITY ispHeaders.label "다음 스팸 메일 헤더는 신뢰함: ">
 <!ENTITY ispHeaders.accesskey "T">
 
-<!ENTITY junkClassification.label	"선택">
-<!ENTITY junkActions.label		"이동처와 저장 기간">
+<!ENTITY junkClassification.label "선택">
+<!ENTITY junkActions.label "이동처와 저장 기간">
 
 <!ENTITY globalJunkPrefs.label "전역 스팸 설정…">
 <!ENTITY globalJunkPrefs.accesskey "G">

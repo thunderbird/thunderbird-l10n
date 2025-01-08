@@ -46,8 +46,6 @@ toolbar-junk-label = זבל
 toolbar-junk =
     .title = סימון ההודעות המסומנות כזבל
 toolbar-delete-label = מחיקה
-toolbar-delete =
-    .title = מחיקת ההודעות או תיקייה המסומנים
 toolbar-compact-label = כווץ
 toolbar-compact =
     .title = הסר הודעות שנמחקו מתיקייה מסומנת
@@ -119,3 +117,6 @@ toolbar-stop =
 toolbar-throbber-label = מחוון פעילות
 toolbar-throbber =
     .title = מחוון פעילות
+
+## New Address Book popup items
+

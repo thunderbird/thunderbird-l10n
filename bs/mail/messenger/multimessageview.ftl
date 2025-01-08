@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Sažetak poruke
-selected-messages-label =
-    .label = Označene poruke
 multi-message-archive-button =
     .label = Arhiviraj
     .tooltiptext = Arhiviraj

@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Limpiar">
 <!ENTITY encryption.certificate_clear.accesskey "m">
 <!ENTITY signingGroupTitle.label "Firmado digital">
-
 <!ENTITY signingCert2.message "Certificado personal para la firma digital:">
 
 <!ENTITY sendingDefaults.label "Configuración predeterminada para el envío de mensajes">
@@ -37,8 +36,9 @@
 
 <!ENTITY openpgpKeys.label "OpenPGP">
 
+<!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Seleccione certificado">
-<!ENTITY certPicker.info "Certificado:">
+<!ENTITY certPicker.info  "Certificado:">
 <!ENTITY certPicker.detailsLabel "Detalles del certificado seleccionado:">
 
 <!ENTITY openpgpKey.message "Clave personal para firma digital y cifrado:">

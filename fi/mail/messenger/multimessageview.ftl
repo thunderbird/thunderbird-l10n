@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Viestiyhteenveto
-selected-messages-label =
-    .label = Valitut viestit
 multi-message-archive-button =
     .label = Arkistoi
     .tooltiptext = Arkistoi

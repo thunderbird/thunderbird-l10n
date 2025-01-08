@@ -36,8 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "å">
 <!ENTITY helpButton.label "Hjälp">
 <!ENTITY helpButton.accesskey "H">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Sök filter efter namn…">
-
-
-

@@ -14,5 +14,5 @@
 <!ENTITY tabCSS.label                   "Vložený štýl">
 <!ENTITY tabJSE.label                   "Udalosti JavaScriptu">
 
-<!ENTITY editAttribute.label            "Kliknutím upravíte hodnotu položky">
-<!ENTITY removeAttribute.label          "Odstrániť">
+<!ENTITY editAttribute.label    "Kliknutím upravíte hodnotu položky">
+<!ENTITY removeAttribute.label  "Odstrániť">

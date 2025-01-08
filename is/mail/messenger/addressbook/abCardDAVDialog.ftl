@@ -3,11 +3,9 @@
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
 carddav-window-title = Ný CardDAV-nafnaskrá
-
 carddav-dialog =
     .buttonlabelaccept = Halda áfram
     .buttonaccesskeyaccept = C
-
 carddav-username-label =
     .value = Notandanafn:
     .accesskey = o
@@ -16,11 +14,11 @@ carddav-location-label =
     .accesskey = g
 carddav-location =
     .default-placeholder = Vefslóð eða hýsingarheiti dagatalsþjónsins
-
 carddav-loading = Leita að uppsetningu…
+# Variables:
+# $url (String) - CardDAV endpoint hostname. For example "example.com".
 carddav-known-incompatible = Vitað er að { $url } er ósamhæft við { -brand-short-name }.
 carddav-connection-error = Ekki tókst að tengjast.
 carddav-none-found = Fann engar nafnaskrár til að bæta við uppgefinn reikning.
 carddav-already-added = Öllum nafnaskrám fyrir uppgefinn reikning hefur þegar verið bætt við.
-
 carddav-available-books = Tiltækar nafnaskrár:

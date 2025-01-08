@@ -6,6 +6,6 @@
 <!ENTITY  newMessageCmd.key               "M">
 <!ENTITY  newMessageCmd.label             "Melding">
 <!ENTITY  newMessageCmd.accesskey         "M">
- 
+
 <!ENTITY  newContactCmd.label             "Kontakt …">
 <!ENTITY  newContactCmd.accesskey         "K">

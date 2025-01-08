@@ -36,6 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "w">
 <!ENTITY helpButton.label "Tallalt">
 <!ENTITY helpButton.accesskey "l">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Nadi imzizdigen s yisem...">
-

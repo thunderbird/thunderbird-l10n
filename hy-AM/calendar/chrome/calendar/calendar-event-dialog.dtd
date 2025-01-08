@@ -324,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "Հոկտեմբեր" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "Նոյեմբեր" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "Դեկտեմբեր" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Ամեն">
 <!ENTITY event.recurrence.yearly.first.label                 "Առաջին">
 <!ENTITY event.recurrence.yearly.second.label                "Երկրորդ">
@@ -340,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Շաբաթ" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "օր" >
 <!ENTITY event.recurrence.of.label                           "հետևյալից" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Հունվար" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Փետրվար" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Մարտ" >

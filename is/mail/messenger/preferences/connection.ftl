@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = S
     .tooltiptext = Settu inn valda URL-slóð til að leysa DNS yfirr HTTPS
 connection-dns-over-https-custom-label = Sérsniðið
-connection-dialog-window2 =
-    .title = Stillingar tengingar
 connection-dialog-title = Stillingar tengingar
 disable-extension-button = Slökkva á viðbót
 # Variables:

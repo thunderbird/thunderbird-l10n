@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Konec platnosti
 openpgp-key-id-label =
     .label = ID klíče
-openpgp-cannot-change-expiry = Toto je klíč se složitou strukturou, změna data konce jeho platnosti není podporována.
-openpgp-key-man-title =
-    .title = Správce klíčů OpenPGP
 openpgp-key-man-dialog-title = Správce klíčů OpenPGP
 openpgp-key-man-generate =
     .label = Nový pár klíčů
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Revokační certifikát
     .accesskey = R
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Vytvoří a uloží revokační certifikát
 openpgp-key-man-gen-revocation =
     .label = Uložit zneplatnění certifikátu do souboru
     .accesskey = U
@@ -504,8 +499,6 @@ filter-encrypt-label = Šifrovat do klíče (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Import klíčů proběhl úspěšně!
 import-info-dialog-title = Import klíčů proběhl úspěšně!
 import-info-bits = Bitů
 import-info-created = Vytvořen
@@ -664,9 +657,6 @@ no-update-found = Klíče objevené online už máte.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Chyba: Extrahování klíče selhalo
@@ -797,15 +787,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Nastavili jste zalamování řádků na { $width } znaků. Pro správné šifrování a podepisování musí být tato hodnota nejméně 68.
     Přejete si nyní změnit zalamování řádků na 68 znaků?
-sending-news =
-    Odesílání zašifrované zprávy bylo přerušeno.
-    Tato zpráva nemůže být šifrována, protože obsahuje adresáty z diskusní skupiny. Odešlete prosím zprávu bez šifrování.
-send-to-news-warning =
-    VAROVÁNÍ: Chystáte se odeslat zašifrovaný e-mail do diskusní skupiny.
-    To se nedoporučuje, protože to má smysl pouze tehdy, když mohou zprávu dešifrovat všichni členové skupiny, tj. zpráva musí být zašifrována pomocí klíčů všech účastníků skupiny. Odešlete prosím tuto zprávu pouze pokud přesně víte, co děláte.
-    Opravdu chcete pokračovat?
 save-attachment-header = Uložit dešifrovanou přílohu
-possibly-pgp-mime = Tato zpráva je možná zašifrovaná nebo podepsaná pomocí PGP/MIME. Ověřit si to můžete pomocí funkce „Dešifrovat“ nebo „Ověřit“.
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Tuto zprávu nelze digitálně podepsat, protože jste pro <{ $key }> dosud nenastavili koncové šifrování
@@ -859,20 +841,6 @@ debug-log-title = Protokol ladění OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix =
-    Toto upozornění se zobrazí ještě { $count ->
-        [one] jednou
-        [few] { $count }krát
-       *[other] { $count }krát
-    }.
-repeat-suffix-singular = { "" }
-repeat-suffix-plural = { "" }
-no-repeat = Toto upozornění se už nezobrazí.
-dlg-keep-setting = Pamatovat si odpověď a už se neptat
 
 ## Strings used in dialog.sys.mjs
 
@@ -882,8 +850,6 @@ dlg-button-cancel = &Zrušit
 dlg-no-prompt = Tento dialog příště nezobrazovat
 enig-prompt = Výzva - OpenPGP
 enig-confirm = Potvrzení - OpenPGP
-enig-alert = Upozornění - OpenPGP
-enig-info = Informace - OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 

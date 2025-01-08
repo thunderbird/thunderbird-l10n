@@ -10,18 +10,22 @@
 <!ENTITY fccMailFolder.accesskey "P">
 <!ENTITY fccReplyFollowsParent.label "Salva le risposte nella cartella del messaggio a cui si è risposto">
 <!ENTITY fccReplyFollowsParent.accesskey "u">
+<!-- LOCALIZATION NOTE (ccAddress.label): do not translate "Cc" in below line -->
 <!ENTITY ccAddress.label "Cc a questi indirizzi di posta:">
 <!ENTITY ccAddress.accesskey "C">
 <!ENTITY ccAddressList.placeholder "Separare gli indirizzi con virgole">
+<!-- LOCALIZATION NOTE (bccAddress.label): do not translate "Bcc" in below line -->
 <!ENTITY bccAddress.label "Copia nascosta a questi indirizzi di posta:">
 <!ENTITY bccAddress.accesskey "n">
 <!ENTITY bccAddressList.placeholder "Separare gli indirizzi con virgole">
 <!ENTITY saveMessageDlg.label "Chiedi conferma quando si salvano i messaggi">
 <!ENTITY saveMessageDlg.accesskey "h">
+<!-- LOCALIZATION NOTE (sentFolderOn.label): OK to translate this, bug #57440 -->
 <!ENTITY sentFolderOn.label "cartella &quot;Posta inviata&quot; su:">
 <!ENTITY sentFolderOn.accesskey "o">
 <!ENTITY sentInOtherFolder.label "altra:">
 <!ENTITY sentInOtherFolder.accesskey "t">
+<!-- LOCALIZATION NOTE (archivesFolderOn.label): OK to translate this, bug #57440 -->
 <!ENTITY archivesTitle.label "Archivi messaggi">
 <!ENTITY keepArchives.label "Conserva gli archivi dei messaggi in:">
 <!ENTITY keepArchives.accesskey "C">
@@ -33,11 +37,13 @@
 <!ENTITY archiveInOtherFolder.accesskey "a">
 <!ENTITY specialFolders.label "Bozze e modelli">
 <!ENTITY keepDrafts2.label "Mantenere le bozze in:">
+<!-- LOCALIZATION NOTE (draftsFolderOn.label): OK to translate this, bug #57440 -->
 <!ENTITY draftsFolderOn.label "cartella &quot;Bozze&quot; su:">
 <!ENTITY draftsFolderOn.accesskey "B">
 <!ENTITY draftInOtherFolder.label "altra:">
 <!ENTITY draftInOtherFolder.accesskey "l">
 <!ENTITY keepTemplates.label "Tenere i modelli di messaggio in:">
+<!-- LOCALIZATION NOTE (templatesFolderOn.label): OK to translate this, bug #57440 -->
 <!ENTITY templatesFolderOn.label "cartella &quot;Modelli&quot; su:">
 <!ENTITY templatesFolderOn.accesskey "m">
 <!ENTITY templateInOtherFolder.label "altra:">

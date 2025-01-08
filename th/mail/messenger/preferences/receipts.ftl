@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-receipts-dialog-window =
-    .title = การแจ้งเตือนการเปิดอ่าน
 receipts-dialog-title = การแจ้งเตือนการเปิดอ่าน
 return-receipt-checkbox-control =
     .label = เมื่อส่งข้อความ ให้ขอการแจ้งเตือนการเปิดอ่านเสมอ

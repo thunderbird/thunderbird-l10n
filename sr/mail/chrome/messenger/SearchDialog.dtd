@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- for SearchDialog.xul -->
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "Тражи поруке у:">
 <!ENTITY searchHeading.accesskey     "и">
 <!ENTITY searchSubfolders.label      "Претражи подфасцикле">
@@ -19,13 +19,13 @@
 <!ENTITY results.label               "Резултати">
 <!ENTITY moveButton.label            "Помери у">
 <!ENTITY moveButton.accesskey        "м">
-<!ENTITY closeCmd.key                "W"> 
+<!ENTITY closeCmd.key                "W">
 <!ENTITY openInFolder.label          "Отвори у фасцикли">
 <!ENTITY openInFolder.accesskey      "л">
 <!ENTITY saveAsVFButton.label        "Сачувај као претраживачку фасциклу">
 <!ENTITY saveAsVFButton.accesskey    "ц">
 
-<!-- for ABSearchDialog.xul -->
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "Тражи у:">
 <!ENTITY abSearchHeading.accesskey   "и">
 <!ENTITY propertiesButton.label      "Својства">
@@ -35,4 +35,3 @@
 <!ENTITY deleteCardButton.label      "Обриши">
 <!ENTITY deleteCardButton.accesskey  "б">
 <!ENTITY abSearchDialogTitle.label   "Напредна претрага именика">
-

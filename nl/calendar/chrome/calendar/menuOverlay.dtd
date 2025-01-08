@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Geselecteerde agenda verwijderen…">
 <!ENTITY calendar.removecalendar.accesskey      "v">
 
-
-<!ENTITY calendar.menu.customize.label          "Aanpassen…">
-<!ENTITY calendar.menu.customize.accesskey      "A">
-
 <!ENTITY showUnifinderCmd.label                 "Gebeurtenissen zoeken">
 <!ENTITY showUnifinderCmd.accesskey             "z">
 <!ENTITY showUnifinderCmd.tooltip               "Het paneel Gebeurtenissen zoeken in-/uitschakelen">

@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "r">
 <!ENTITY deleteCmd.label          "Dilemel">
 <!ENTITY deleteCmd.accesskey        "D">
-
 <!ENTITY customizeCmd.label "Personelaat">
 <!ENTITY customizeCmd.accesskey "t">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Serriñ">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "S">
-
-<!ENTITY quitApplicationCmd.label  "Kuitaat">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "K">
-
-<!ENTITY quitApplicationCmdUnix.label  "Kuitaat">
-<!ENTITY quitApplicationCmdUnix.accesskey  "K">
-
-<!ENTITY quitApplicationCmdMac.label  "Kuitaat &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "K">

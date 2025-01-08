@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Հաշվի Օգնական">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Նշեք նորությունների սպասարկիչի անունը (NNTP) (օրինակ՝ &quot;news.example.net&quot;)։">
 <!ENTITY newsServerLabel.label "Լուրախմբերի սպասարկիչ.">
 <!ENTITY newsServerLabel.accesskey "ս">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

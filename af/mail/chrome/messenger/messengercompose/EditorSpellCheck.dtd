@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- Window title -->
 
+<!-- Window title -->
 <!ENTITY windowTitle.label "Toets spelling">
 
 <!ENTITY misspelledWord.label "Spelfout:">
@@ -20,16 +20,12 @@
 <!ENTITY replaceButton.accessKey "V">
 <!ENTITY replaceAllButton.label "Vervang alles">
 <!ENTITY replaceAllButton.accessKey "a">
-
-
 <!ENTITY userDictionary.label "Persoonlike subgids:">
 <!ENTITY moreDictionaries.label "Laai nog woordeboeke af…">
 <!ENTITY addToUserDictionaryButton.label "Voeg woord by">
 <!ENTITY addToUserDictionaryButton.accessKey "o">
 <!ENTITY editUserDictionaryButton.label "Redigeer…">
 <!ENTITY editUserDictionaryButton.accessKey "e">
-
-
 <!ENTITY closeButton.label "Sluit">
 <!ENTITY closeButton.accessKey "S">
 <!ENTITY sendButton.label "Stuur">

@@ -109,3 +109,6 @@ toolbar-stop =
 toolbar-throbber-label = مبيّن النشاط
 toolbar-throbber =
     .title = مبيّن النشاط
+
+## New Address Book popup items
+

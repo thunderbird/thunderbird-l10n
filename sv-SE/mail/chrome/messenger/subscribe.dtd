@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Konto:">
 <!ENTITY server.accesskey             "K">
 <!ENTITY subscribedHeader.label       "Prenumerera">
-<!-- commenting out until bug 38906 is fixed 
-<!ENTITY messagesHeader.label         "Meddelanden"> -->
+<!-- commenting out until bug 38906 is fixed
+<!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Visa de som innehåller:">
 <!ENTITY namefield.accesskey          "V">

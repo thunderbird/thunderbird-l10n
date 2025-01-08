@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Маленькие значки">
 <!ENTITY restoreDefaultSet.label  "Восстановить по умолчанию">
 <!ENTITY showTitlebar2.label      "Заголовок">
-<!ENTITY extraDragSpace2.label    "Место для перетаскивания">
 <!ENTITY saveChanges.label        "Готово">
 <!ENTITY undoChanges.label        "Отменить изменения">

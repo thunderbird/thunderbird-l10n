@@ -6,15 +6,12 @@ calendar-print-layout-label = Layout
 calendar-print-layout-list = Liste
 calendar-print-layout-month-grid = Monatsübersicht
 calendar-print-layout-week-planner = Wochenplanung
-
 calendar-print-filter-label = Druckauswahl
 calendar-print-filter-events = Termine
 calendar-print-filter-tasks = Aufgaben
 calendar-print-filter-completedtasks = Abgeschlossene Aufgaben
 calendar-print-filter-taskswithnoduedate = Aufgaben ohne Fälligkeitsdatum
-
 calendar-print-range-from = Beginn
 calendar-print-range-to = Ende
-
 calendar-print-back-button = Zurück
 calendar-print-next-button = Weiter

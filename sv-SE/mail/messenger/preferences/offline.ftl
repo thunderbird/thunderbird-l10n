@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-offline-dialog-window =
-    .title = Inställningar för nedkopplat läge
 offline-dialog-title = Inställningar för nedkopplat läge
 autodetect-online-label =
     .label = Följ automatiskt detekterat uppkopplat tillstånd

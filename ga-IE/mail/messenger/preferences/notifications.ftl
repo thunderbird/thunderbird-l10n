@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Saincheap Airdeall an Ríomhphoist Nua
 notifications-dialog-title = Saincheap Airdeall an Ríomhphoist Nua
 customize-alert-description = Roghnaigh na réimsí a thaispeánfar sa bhfógra airdill:
 preview-text-checkbox =

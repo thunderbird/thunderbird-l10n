@@ -81,19 +81,6 @@ quick-filter-bar-results =
         [many] { $count } a gemennadennoù
        *[other] { $count } kemennadenn
     }
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Silañ ar c'hemennadennoù-mañ… <{ quick-filter-bar-textbox-shortcut }>
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Mod silañ dre verkoù
@@ -162,8 +149,6 @@ threadpane-column-header-sender = Kaser
     .title = Rummañ dre gaser
 threadpane-column-label-sender =
     .label = Kaser
-threadpane-cell-sender =
-    .aria-label = A-berzh
 threadpane-column-header-recipient = Degemerer
     .title = Rummañ dre zegemerer
 threadpane-column-label-recipient =
@@ -176,8 +161,6 @@ threadpane-column-header-subject = Danvez
     .title = Rummañ dre zanvez
 threadpane-column-label-subject =
     .label = Danvez
-threadpane-cell-subject =
-    .aria-label = Danvez
 threadpane-column-header-date = Deiziad
     .title = Rummañ dre zeiziad
 threadpane-column-label-date =

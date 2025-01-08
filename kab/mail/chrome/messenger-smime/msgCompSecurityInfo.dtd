@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-
 <!ENTITY title.label "Taɣellist n yizen">
 <!ENTITY subject.plaintextWarning "Ma ulac aɣilif wali: Izirigen n usentel n yeznan n yimayl werǧin ttwawgelhenen">
 <!ENTITY status.heading "Igburen n yizen-inek ad yettwazen am akka:">

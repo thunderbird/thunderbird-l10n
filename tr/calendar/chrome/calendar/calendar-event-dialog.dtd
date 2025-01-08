@@ -324,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "Ekim" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "Kasım" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "Aralık" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Her">
 <!ENTITY event.recurrence.yearly.first.label                 "Birinci">
 <!ENTITY event.recurrence.yearly.second.label                "İkinci">
@@ -340,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Cumartesi" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "günde bir" >
 <!ENTITY event.recurrence.of.label                           "-" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Ocak" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Şubat" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Mart" >

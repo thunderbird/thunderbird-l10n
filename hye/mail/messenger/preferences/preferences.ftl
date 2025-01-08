@@ -124,6 +124,8 @@ remove-search-engine =
 add-opensearch-provider-title = Աւելացնել OpenSearch մատակարարին
 add-opensearch-provider-text = Աւելացնելու համար մուտքագրէք OpenSearch մատակարարի URL֊ը: Աւգտագործէք OpenSearch նկարագրության նիշի ուղղակի URL-ը, կամ URL, որտեղ այն կարող է ինքնաշխատ կերպով յայտնաբերուել:
 adding-opensearch-provider-failed-title = OpenSearch մատակարար աւելացնելիս սխալ առաջացաւ
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Չստացուեց աւելացնել OpenSearch-ի մատակարար { $url }֊ի համար։
 minimize-to-tray-label =
     .label = Երբ { -brand-short-name }-ը նուազեցուի, տեղափոխէք այն համակարգային սկուտեղի մէջ
@@ -374,8 +376,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Փակել նամակի էջը/պատուհանը ջնջելուց յետոյ
     .accesskey = Փ
-display-name-label =
-    .value = Ցուցադրուող անունը․
 condensed-addresses-label =
     .label = Ցոյց տալ միայն Ձեր հասցէագրքում գտնուող մարդկանց ցուցադրուող անունը
     .accesskey = Ց
@@ -521,23 +521,12 @@ third-party-never =
     .label = Երբեք
 third-party-visited =
     .label = Այցելածներից
-keep-label =
-    .value = Պահել մինչև՝
-    .accesskey = Պ
-keep-expire =
-    .label = դրանք սպառուում են
-keep-close =
-    .label = Ես փակում եմ { -brand-short-name }֊ը
-keep-ask =
-    .label = Ամէն անգամ հարցնել ինձ
 cookies-button =
     .label = Ցուցարել նշոցիկները
     .accesskey = Ց
 do-not-track-label =
     .label = Ուղարկել կայքերին “Չյետագծել“ ազդանշանը, որ դուք չէք ցանկանում յետագծուել
     .accesskey = ր
-learn-button =
-    .label = Իմանալ աւելին
 dnt-learn-more-button =
     .value = Իմանալ աւելին
 passwords-description = { -brand-short-name }֊ը կարող է յիշել Ձեր բոլոր հաշիւների գաղտնաբառերը։
@@ -554,18 +543,12 @@ primary-password-button =
 forms-primary-pw-fips-title = Դուք գտնուում էք FIPS աշխատակերպի մէջ։ FIPS֊ը պահանջում է ոչ֊դատարկ հիմնական գաղտնաբառ։
 forms-master-pw-fips-desc = Գաղտնաբառի փոփոխումը ձախողուեց
 junk-description = Սահմանէք Ձեր սկզբնադիր անպէտք փոստի կարգաւորումները: Հաշուի յատուկ անպէտք փոստի կարգաւորումները կարող են կարգաբերուել հաշուի կարգաւորումներում:
-junk-label =
-    .label = Երբ ես նշեմ նամակները, որպէս անպիտան՝
-    .accesskey = Ե
 junk-move-label =
     .label = Տեղափոխել դրանք փոստարկղի "Թափաւն" թղթապանակ
     .accesskey = ե
 junk-delete-label =
     .label = Ջնջել դրանց
     .accesskey = Ջ
-junk-read-label =
-    .label = Անպէտք հաղորդագրութիւնները նշել որպէս ընթերցուած
-    .accesskey = ն
 junk-log-label =
     .label = Միացնել թափաւնի յարմարողական զտիչի մատեանը
     .accesskey = Մ
@@ -708,4 +691,7 @@ search-results-empty-message2 =
 search-results-help-link = Աւգնութիւ՞ն է պէտք: Այցելէք <a data-l10n-name="url">{ -brand-short-name } Աջակցում</a>
 
 ## Sync Tab
+
+
+## Mobile QR Export Pane
 

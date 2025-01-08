@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = { $identity } үшін жеке OpenPGP кілтін қосу
-key-wizard-button =
-    .buttonlabelaccept = Жалғастыру
-    .buttonlabelhelp = Артқа өту
 key-wizard-dialog =
     .buttonlabelaccept = Жалғастыру
     .buttonlabelextra1 = Артқа
@@ -106,8 +103,6 @@ openpgp-import-key-list-caption = Жеке кілттер ретінде қар�
 openpgp-import-keep-passphrases =
     .label = Импортталған құпия кілттер үшін кілттік фразамен қорғанысты сақтау
 openpgp-passphrase-prompt-title = Кілттік фраза керек
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Келесі кілтті босату ашу үшін кілттік фразаны енгізіңіз: { $key }
 openpgp-import-key-button =
     .label = Импорттау үшін файлды таңдау…
     .accesskey = т

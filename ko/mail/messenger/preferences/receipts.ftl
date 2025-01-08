@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-receipts-dialog-window =
-    .title = 수신 확인 메시지 설정
 receipts-dialog-title = 수신 확인 메시지 설정
 return-receipt-checkbox-control =
     .label = 메시지를 보낼 때 항상 수신 확인을 요청하기

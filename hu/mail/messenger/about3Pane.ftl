@@ -104,19 +104,6 @@ quick-filter-bar-results =
         [one] { $count } üzenet
        *[other] { $count } üzenet
     }
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Ezen üzenetek szűrése… <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search2 =
     .label = Üzenetek szűrése
 quick-filter-bar-searching =
@@ -278,8 +265,6 @@ threadpane-column-header-sender = Feladó
     .title = Rendezés feladó szerint
 threadpane-column-label-sender =
     .label = Feladó
-threadpane-cell-sender =
-    .aria-label = Ettől:
 # Variables:
 # $title (String) - Message sender for tooltip.
 threadpane-cell-sender-title =
@@ -289,8 +274,6 @@ threadpane-column-header-recipient = Címzett
     .title = Rendezés címzett szerint
 threadpane-column-label-recipient =
     .label = Címzett
-threadpane-cell-recipient =
-    .aria-label = Címzett
 # Variables:
 # $title (String) - Message recipient for tooltip.
 threadpane-cell-recipient-title =
@@ -300,8 +283,6 @@ threadpane-column-header-correspondents = Szerkesztők
     .title = Rendezés szerkesztők szerint
 threadpane-column-label-correspondents =
     .label = Szerkesztők
-threadpane-cell-correspondents =
-    .aria-label = Szerkesztők
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
@@ -311,8 +292,6 @@ threadpane-column-header-subject = Tárgy
     .title = Rendezés tárgy szerint
 threadpane-column-label-subject =
     .label = Tárgy
-threadpane-cell-subject =
-    .aria-label = Tárgy
 # Variables:
 # $title (String) - Message subject for tooltip.
 threadpane-cell-subject-title =
@@ -322,8 +301,6 @@ threadpane-column-header-date = Dátum
     .title = Rendezés dátum szerint
 threadpane-column-label-date =
     .label = Dátum
-threadpane-cell-date =
-    .aria-label = Dátum
 # Variables:
 # $title (String) - Message date for tooltip.
 threadpane-cell-date-title =
@@ -333,8 +310,6 @@ threadpane-column-header-received = Beérkezés
     .title = Rendezés beérkezés szerint
 threadpane-column-label-received =
     .label = Beérkezés
-threadpane-cell-received =
-    .aria-label = Beérkezés dátuma
 # Variables:
 # $title (String) - Message received date for tooltip.
 threadpane-cell-received-title =
@@ -344,8 +319,6 @@ threadpane-column-header-status = Állapot
     .title = Rendezés állapot szerint
 threadpane-column-label-status =
     .label = Állapot
-threadpane-cell-status =
-    .aria-label = Állapot
 # Variables:
 # $title (String) - Message status for tooltip.
 threadpane-cell-status-title =
@@ -355,8 +328,6 @@ threadpane-column-header-size = Méret
     .title = Rendezés méret szerint
 threadpane-column-label-size =
     .label = Méret
-threadpane-cell-size =
-    .aria-label = Méret
 # Variables:
 # $title (String) - Message size for tooltip.
 threadpane-cell-size-title =
@@ -366,8 +337,6 @@ threadpane-column-header-tags = Címke
     .title = Rendezés címkék szerint
 threadpane-column-label-tags =
     .label = Címke
-threadpane-cell-tags =
-    .aria-label = Címkék
 # Variables:
 # $title (String) - Tags for tooltip.
 threadpane-cell-tags-title =
@@ -377,8 +346,6 @@ threadpane-column-header-account = Postafiók
     .title = Rendezés postafiók szerint
 threadpane-column-label-account =
     .label = Postafiók
-threadpane-cell-account =
-    .aria-label = Fiók
 # Variables:
 # $title (String) - Message account for tooltip.
 threadpane-cell-account-title =
@@ -388,8 +355,6 @@ threadpane-column-header-priority = Sürgősség
     .title = Rendezés sürgősség szerint
 threadpane-column-label-priority =
     .label = Sürgősség
-threadpane-cell-priority =
-    .aria-label = Prioritás
 # Variables:
 # $title (String) - Priority for tooltip.
 threadpane-cell-priority-title =
@@ -399,8 +364,6 @@ threadpane-column-header-unread = Olvasatlan
     .title = A témacsoport olvasatlan üzeneteinek száma
 threadpane-column-label-unread =
     .label = Olvasatlan
-threadpane-cell-unread =
-    .aria-label = Üzenetek száma
 # Variables:
 # $title (String) - Number of unread messages for tooltip.
 threadpane-cell-unread-title =
@@ -410,8 +373,6 @@ threadpane-column-header-total = Összesen
     .title = A témacsoport üzeneteinek száma
 threadpane-column-label-total =
     .label = Összesen
-threadpane-cell-total =
-    .aria-label = Összes üzenet száma
 # Variables:
 # $title (String) - Total messages for tooltip.
 threadpane-cell-total-title =
@@ -421,8 +382,6 @@ threadpane-column-header-location = Hely
     .title = Rendezés hely szerint
 threadpane-column-label-location =
     .label = Hely
-threadpane-cell-location =
-    .aria-label = Hely
 # Variables:
 # $title (String) - Message location for tooltip.
 threadpane-cell-location-title =
@@ -432,8 +391,6 @@ threadpane-column-header-id = Érkezési sorrend
     .title = Rendezés beérkezés szerint
 threadpane-column-label-id =
     .label = Érkezési sorrend
-threadpane-cell-id =
-    .aria-label = Érkezési sorrend
 # Variables:
 # $title (String) - Message id for tooltip.
 threadpane-cell-id-title =

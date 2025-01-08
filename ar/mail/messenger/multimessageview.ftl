@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = ملخص الرسائل
-selected-messages-label =
-    .label = الرسائل المختارة
 multi-message-archive-button =
     .label = أرشِف
     .tooltiptext = أرشِف

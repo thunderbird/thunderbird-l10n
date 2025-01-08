@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "R">
 <!ENTITY deleteCmd.label          "Xóa">
 <!ENTITY deleteCmd.accesskey        "D">
-
 <!ENTITY customizeCmd.label "Tùy biến">
 <!ENTITY customizeCmd.accesskey "t">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Đóng">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "C">
-
-<!ENTITY quitApplicationCmd.label  "Thoát">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "x">
-
-<!ENTITY quitApplicationCmdUnix.label  "Thoát">
-<!ENTITY quitApplicationCmdUnix.accesskey  "Q">
-
-<!ENTITY quitApplicationCmdMac.label  "Thoát &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "Q">

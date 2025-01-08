@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = პაროლი
     .accesskey = პ
     .title = არასავალდებული, მხოლოდ სახელის დასამოწმებლად
-account-provisioner-button = ელფოსტის ახალი მისამართის მიღება
-    .accesskey = ღ
 account-setup-password-toggle-show =
     .title = პაროლის ღიად ჩვენება
 account-setup-password-toggle-hide =
@@ -146,7 +144,6 @@ account-setup-credentials-incomplete = შესვლა ვერ მოხე
 account-setup-credentials-wrong = შესვლა ვერ მოხერხდა. გთხოვთ, გადაამოწმოთ სახელი და პაროლი
 account-setup-find-settings-failed = { -brand-short-name } ვერ ახერხებს პარამეტრების მოძიებას, თქვენი ელფოსტის ანგარიშისთვის.
 account-setup-exchange-config-unverifiable = გამართვის პარამეტრების დამოწმება ვერ მოხერხდა. თუ თქვენი სახელი და პაროლი სწორია, შესაძლოა სერვერის ხელმძღვანელობამ გათიშა აღნიშნული პარამეტრები თქვენი ანგარიშისთვის. სცადეთ სხვა ოქმის მითითება.
-account-setup-provisioner-error = შეცდომა წარმოიშვა, როცა { -brand-short-name } ახალ ანგარიშს აყენებდა. გთხოვთ, ხელით გამართოთ საკუთარი მონაცემებით.
 
 ## Manual configuration area
 

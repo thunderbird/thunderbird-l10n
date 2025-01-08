@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-offline-dialog-window =
-    .title = Socruithe As Líne
 offline-dialog-title = Socruithe As Líne
 autodetect-online-label =
     .label = Faigh amach an staid ar líne go huathoibríoch

@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Assistent per contos">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Endatescha il num da tes server da novitads (NNTP) (per exempel, &quot;news.exempel.ch&quot;).">
 <!ENTITY newsServerLabel.label "Server da novitads:">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

@@ -64,8 +64,8 @@
 <!ENTITY cellAlignJustify.label           "ساوِ">
 <!ENTITY cellInheritColor.label           "(اجعل لون الجدول شفافا)">
 <!ENTITY cellUseCheckboxHelp.label        "استخدم صناديق الاختيار لتحديد أي الخصائص ستطبق على كل الخلايا المحددة">
-<!-- Used in both Table and Cell panels  -->
 
+<!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "المقاس">
 <!ENTITY pixels.label                     "بكسل">
 <!ENTITY backgroundColor.label            "لون الخلفية:">

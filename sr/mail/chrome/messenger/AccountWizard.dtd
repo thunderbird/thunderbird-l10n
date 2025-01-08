@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Чаробњак за налоге">
-<!ENTITY accountWizard.size "width: 45em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Унесите име вашег новинског сервера (NNTP) (на пример, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Сервер новинских група:">
 <!ENTITY newsServerLabel.accesskey "С">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

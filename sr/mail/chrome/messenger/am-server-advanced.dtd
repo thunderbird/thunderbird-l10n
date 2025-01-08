@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "Д">
 <!ENTITY overrideNamespaces.label "Дозволи серверу да премости ове именске просторе">
 <!ENTITY overrideNamespaces.accesskey "о">
-<!ENTITY pop3DeferringDesc.label "Приликом преузимања порука са сервера овог налога, користи следећу фасциклу за складиштење нових порука:" >
+<!ENTITY pop3DeferringDesc.label "Приликом преузимања порука са сервера овог налога, користи следећу фасциклу за складиштење нових порука:">
 <!ENTITY accountInbox.label "Долазно сандуче за овај налог">
 <!ENTITY accountInbox.accesskey "з">
 <!ENTITY deferToServer.label "Долазно сандуче другог налога">

@@ -36,6 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "K">
 <!ENTITY helpButton.label "Súgó">
 <!ENTITY helpButton.accesskey "S">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Szűrők keresése név szerint…">
-

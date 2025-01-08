@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Powěźenku wó nowem posće pśiměriś
 notifications-dialog-title = Powěźenku wó nowem posće pśiměriś
 customize-alert-description = Póla wubraś, kótarež deje se w powěźeńce pokazaś:
 preview-text-checkbox =

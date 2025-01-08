@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY identitiesListManageDesc.label "Administre las identidades de esta cuenta. Se usa por omisión la primera identidad.">
-<!ENTITY identitiesListAdd.label "Añadir…">
-<!ENTITY identitiesListAdd.accesskey "A">
+<!ENTITY identitiesListAdd.label  "Añadir…">
+<!ENTITY identitiesListAdd.accesskey  "A">
 <!ENTITY identitiesListEdit.label "Editar…">
 <!ENTITY identitiesListEdit.accesskey "E">
 <!ENTITY identitiesListDefault.label "Establecer predet.">

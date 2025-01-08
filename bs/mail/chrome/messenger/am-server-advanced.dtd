@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "O">
 <!ENTITY overrideNamespaces.label "Dozvoli serveru da premosti ove imenske prostore">
 <!ENTITY overrideNamespaces.accesskey "D">
-<!ENTITY pop3DeferringDesc.label "Prilikom preuzimanja pošte sa servera ovog računa, koristi sljedeću fasciklu za pohranu novih poruka:" >
+<!ENTITY pop3DeferringDesc.label "Prilikom preuzimanja pošte sa servera ovog računa, koristi sljedeću fasciklu za pohranu novih poruka:">
 <!ENTITY accountInbox.label "Primljena pošta za ovaj račun">
 <!ENTITY accountInbox.accesskey "s">
 <!ENTITY deferToServer.label "Primljena pošta za drugi račun">

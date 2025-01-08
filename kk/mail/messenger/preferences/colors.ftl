@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Түстер
 colors-dialog-title = Түстер
 colors-dialog-legend = Мәтін мен аясы
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Ашылған сілтемелер:
     .accesskey = ш
-underline-link-checkbox =
-    .label = Сілтемелердің астын сызу
-    .accesskey = С
 always-underline-links =
     .label = Сілтемелер астын әрқашан сызу
     .accesskey = ы

@@ -16,6 +16,7 @@
 <!ENTITY deleteAddrBookCard.label           "Desaniciar">
 <!ENTITY deleteAddrBookCard.accesskey       "D">
 
+
 <!ENTITY toButton.label                     "Amestar a Pa:">
 <!ENTITY toButton.accesskey                 "A">
 <!ENTITY ccButton.label                     "Amestar a Cc:">

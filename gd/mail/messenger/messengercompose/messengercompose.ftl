@@ -194,8 +194,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Manaidsear nan iuchraichean
     .accesskey = M
-openpgp-key-issue-notification-one = Airson crioptachadh ceann ri ceann, feumaidh tu na duilgheadasan a th’ aig na h-iuchraichean airson { $addr } a chur ceart
-smime-cert-issue-notification-one = Airson crioptachadh ceann ri ceann, feumaidh tu na duilgheadasan a th’ aig na teisteanasan airson { $addr } a chur ceart.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.

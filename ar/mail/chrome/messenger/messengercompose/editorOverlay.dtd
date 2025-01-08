@@ -3,18 +3,15 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Attn: Localization - some of the menus in this dialog directly affect mail also. -->
-<!-- File menu items -->
-
 
 <!-- Edit menu items -->
-
 <!ENTITY pasteNoFormatting.label "ألصق بلا تنسيق">
 <!ENTITY pasteNoFormatting.accesskey "ب">
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "ألصق كاقتباس">
 <!ENTITY pasteAsQuotationCmd.accesskey "ت">
-<!-- Insert menu items -->
 
+<!-- Insert menu items -->
 <!ENTITY insertMenu.label "أدرج">
 <!ENTITY insertMenu.accesskey "د">
 <!ENTITY insertLinkCmd2.label "رابط…">
@@ -36,14 +33,14 @@
 <!ENTITY insertCharsCmd.accesskey "ح">
 <!ENTITY insertBreakAllCmd.label "فاصل تحت الصور">
 <!ENTITY insertBreakAllCmd.accesskey "ف">
-<!-- Used just in context popup. -->
 
+<!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "أنشئ رابطًا…">
 <!ENTITY createLinkCmd.accesskey "ش">
 <!ENTITY editLinkCmd.label "حرّر الرابط في محرر جديد">
 <!ENTITY editLinkCmd.accesskey "ف">
-<!-- Font Face SubMenu -->
 
+<!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "اختر خطا">
 <!ENTITY fontfaceMenu.label "الخط">
 <!ENTITY fontfaceMenu.accesskey "خ">
@@ -58,21 +55,17 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-<!-- Font Size SubMenu -->
 
+<!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "اختر حجم الخط">
 <!ENTITY decreaseFontSize.label "أصغر">
 <!ENTITY decreaseFontSize.accesskey "ر">
 <!ENTITY decrementFontSize.key "&lt;">
-<!-- < is above this key on many keyboards -->
-<!ENTITY decrementFontSize.key2 "ج"> 
+<!ENTITY decrementFontSize.key2 "ج"> <!-- < is above this key on many keyboards -->
 <!ENTITY increaseFontSize.label "أكبر">
 <!ENTITY increaseFontSize.accesskey "ك">
 <!ENTITY incrementFontSize.key "&gt;">
-<!-- > is above this key on many keyboards -->
-<!ENTITY incrementFontSize.key2 "د"> 
-
-<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 "د"> <!-- > is above this key on many keyboards -->
 
 <!ENTITY fontSizeMenu.label "الحجم">
 <!ENTITY fontSizeMenu.accesskey "ج">
@@ -88,8 +81,8 @@
 <!ENTITY size-extraLargeCmd.accesskey "د">
 <!ENTITY size-hugeCmd.label "ضخم">
 <!ENTITY size-hugeCmd.accesskey "ض">
-<!-- Font Style SubMenu -->
 
+<!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "طراز النص">
 <!ENTITY fontStyleMenu.accesskey "ط">
 <!ENTITY styleBoldCmd.label "عريض">
@@ -157,8 +150,8 @@
 <!ENTITY paragraphAddressCmd.accesskey "ع">
 <!ENTITY paragraphPreformatCmd.label "تنسيق مُسبق">
 <!ENTITY paragraphPreformatCmd.accesskey "ق">
-<!-- List menu items -->
 
+<!-- List menu items -->
 <!ENTITY formatlistMenu.label "قائمة">
 <!ENTITY formatlistMenu.accesskey "ق">
 <!ENTITY noneCmd.label "لا شيء">
@@ -178,8 +171,8 @@
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "متن النص">
 <!ENTITY bodyTextCmd.accesskey "ن">
-<!-- Align menu items -->
 
+<!-- Align menu items -->
 <!ENTITY alignMenu.label "حاذِ">
 <!ENTITY alignMenu.accesskey "ح">
 <!ENTITY alignLeft.label "يسارا">
@@ -194,7 +187,6 @@
 <!ENTITY alignJustify.label "ساوِ">
 <!ENTITY alignJustify.accesskey "س">
 <!ENTITY alignJustify.tooltip "حاذِ مساوي">
-<!-- Layer toolbar items -->
 
 <!ENTITY increaseIndent.label "زِد الإزاحة">
 <!ENTITY increaseIndent.accesskey "ز">
@@ -205,12 +197,12 @@
 
 <!ENTITY colorsAndBackground.label "ألوان وخلفية الصفحة…">
 <!ENTITY colorsAndBackground.accesskey "خ">
-<!-- Table Menu -->
 
+<!-- Table Menu -->
 <!ENTITY tableMenu.label "جدول">
 <!ENTITY tableMenu.accesskey "ج">
-<!-- Select Submenu -->
 
+<!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "اختر">
 <!ENTITY tableSelectMenu.accesskey "خ">
 
@@ -220,8 +212,8 @@
 <!ENTITY tableInsertMenu2.accesskey "د">
 <!ENTITY tableDeleteMenu2.label "حذف جدول">
 <!ENTITY tableDeleteMenu2.accesskey "ذ">
-<!-- Insert SubMenu -->
 
+<!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "إدراج">
 <!ENTITY tableInsertMenu.accesskey "د">
 <!ENTITY tableTable.label "جدول">
@@ -254,12 +246,12 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "احذف">
 <!ENTITY tableDeleteMenu.accesskey "ح">
+
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
      But value must be set here for accesskey to draw properly
 -->
-
 <!ENTITY tableJoinCells.label "ض">
 <!ENTITY tableJoinCells.accesskey "ض">
 <!ENTITY tableSplitCell.label "اقسم الخلية">
@@ -268,8 +260,8 @@
 <!ENTITY convertToTable.accesskey "ج">
 <!ENTITY tableProperties.label "خصائص الجدول…">
 <!ENTITY tableProperties.accesskey "خ">
-<!-- Toolbar-only items -->
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "صورة">
 <!ENTITY imageToolbarCmd.tooltip "أدرج صورة جديدة أو حرر خصائص الصورة المختارة">
 <!ENTITY hruleToolbarCmd.label "خط أفقي">
@@ -282,8 +274,8 @@
 <!ENTITY anchorToolbarCmd.tooltip "أدرج مربطا مسمًى جديدا أو حرر خصائص المربط المختار">
 <!ENTITY TextColorButton.tooltip "اختر لون النص">
 <!ENTITY BackgroundColorButton.tooltip "اختر لون الخلفية">
-<!-- Editor toolbar -->
 
+<!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "حدد حجم الخط">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "خط أصغر">
 <!ENTITY increaseFontSizeToolbarCmd.tooltip "خط أكبر">
@@ -300,10 +292,8 @@
 <!ENTITY alignCenterButton.tooltip "حاذِ النص مُوسّطا">
 <!ENTITY alignRightButton.tooltip "حاذِ النص قبالة الهامش الأيمن">
 <!ENTITY alignJustifyButton.tooltip "حاذِ النص مراعيًا الهامشين الأيمن والأيسر">
-<!-- Structure Toolbar Context Menu items -->
 
 <!-- TOC manipulation -->
-
 <!ENTITY insertTOC.label          "أدرج">
 <!ENTITY insertTOC.accesskey      "د">
 <!ENTITY updateTOC.label          "حدّث">

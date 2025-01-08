@@ -10,12 +10,6 @@ reminder-title-at-start-event = ღონისძიების დაწყ�
 reminder-title-at-start-task = დავალების დაწყების დრო
 reminder-title-at-end-event = ღონისძიების დასრულების დრო
 reminder-title-at-end-task = დავალების დასრულების დრო
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = შეხსენების გადადება { $unit }
 reminder-custom-origin-begin-before-event = ღონისძიების დაწყებამდე
 reminder-custom-origin-begin-after-event = ღონისძიების დაწყების შემდეგ
 reminder-custom-origin-end-before-event = ღონისძიების დასრულებამდე

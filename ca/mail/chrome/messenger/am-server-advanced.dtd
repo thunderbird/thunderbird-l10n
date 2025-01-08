@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "u">
 <!ENTITY overrideNamespaces.label "Permet que el servidor substitueixi aquests espais de noms">
 <!ENTITY overrideNamespaces.accesskey "a">
-<!ENTITY pop3DeferringDesc.label "En baixar el correu del servidor d'aquest compte, utilitza la carpeta següent per emmagatzemar els missatges nous:" >
+<!ENTITY pop3DeferringDesc.label "En baixar el correu del servidor d'aquest compte, utilitza la carpeta següent per emmagatzemar els missatges nous:">
 <!ENTITY accountInbox.label "Safata d'entrada d'aquest compte">
 <!ENTITY accountInbox.accesskey "S">
 <!ENTITY deferToServer.label "Safata d'entrada d'un altre compte">

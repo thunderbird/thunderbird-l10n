@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-uri-redirect-window =
-    .title = Kalenterin URI-uudelleenohjaus
 calendar-uri-redirect-window-title = Kalenterin URI-uudelleenohjaus
+# Variables:
+# $calendarName (String) - Display name of the calendar.
 calendar-uri-redirect-description =
     Palvelin ohjaa kalenterin "{ $calendarName }" toiselle sivustolle.
     Hyväksytkö uudelleenohjauksen ja aloitatko uuden kalenterin käytön?

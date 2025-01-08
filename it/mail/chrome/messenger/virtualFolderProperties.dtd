@@ -3,10 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY virtualFolderProperties.title "Cartella ricerca appena salvata">
-<!ENTITY name.label "Nome:">
-<!ENTITY name.accesskey "N">
-<!ENTITY description.label "Crea come sottocartella di:">
-<!ENTITY description.accesskey "e">
+<!ENTITY name.label                 "Nome:">
+<!ENTITY name.accesskey             "N">
+<!ENTITY description.label          "Crea come sottocartella di:">
+<!ENTITY description.accesskey      "e">
 
 <!ENTITY searchTermCaption.label "Configurare il criterio di ricerca utilizzato per questa cartella di ricerca salvata: ">
 
@@ -16,7 +16,7 @@
 
 <!ENTITY searchOnline.label "Ricerca in linea (fornisce risultati aggiornati per le cartelle IMAP o di news ma aumenta il tempo necessario per aprire la cartella)">
 <!ENTITY searchOnline.accesskey "S">
-<!ENTITY newFolderButton.label "Creare">
-<!ENTITY newFolderButton.accesskey "r">
-<!ENTITY editFolderButton.label "Aggiorna">
-<!ENTITY editFolderButton.accesskey "A">
+<!ENTITY newFolderButton.label       "Creare">
+<!ENTITY newFolderButton.accesskey   "r">
+<!ENTITY editFolderButton.label      "Aggiorna">
+<!ENTITY editFolderButton.accesskey  "A">

@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Limpiar">
 <!ENTITY encryption.certificate_clear.accesskey "e">
 <!ENTITY signingGroupTitle.label "Firma digital">
-
 <!ENTITY signingCert2.message "Certificado personal para firma digital:">
 
 <!ENTITY sendingDefaults.label "Configuración predeterminada para envío de mensajes">

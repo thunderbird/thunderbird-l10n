@@ -3,17 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 
-
-
-
-
-
-
-
 <!ENTITY addressbookPicker.label            "Manzil kitobi:">
 <!ENTITY addressbookPicker.accesskey        "k">
-
-
 <!ENTITY SearchNameOrEmail.label            "Nomi yoki e-pochtasi">
 
 <!ENTITY addtoToFieldMenu.label             "Qabul qiluvchi maydoniga qo‘shish">
@@ -24,17 +15,6 @@
 <!ENTITY addtoBccFieldMenu.accesskey        "B">
 <!ENTITY deleteAddrBookCard.label           "O‘chirish">
 <!ENTITY deleteAddrBookCard.accesskey       "O">
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!ENTITY toButton.label                     "Qabul qiluvchiga qo‘shish:">

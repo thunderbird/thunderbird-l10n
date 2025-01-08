@@ -36,6 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "C">
 <!ENTITY helpButton.label "Cobhair">
 <!ENTITY helpButton.accesskey "h">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Lorg criathragan a-rèir ainm…">
-

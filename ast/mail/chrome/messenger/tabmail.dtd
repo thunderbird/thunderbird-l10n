@@ -2,6 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY closeTab.label "Zarrar llingüeta">
-<!ENTITY listAllTabs.label "Llistar toles llingüetes">
-<!ENTITY defaultTabTitle.label "Aniciu">
+<!ENTITY  closeTab.label           "Zarrar llingüeta">
+<!ENTITY  listAllTabs.label        "Llistar toles llingüetes">
+<!-- LOCALIZATION NOTE(defaultTabTitle.label): This is the default tab
+     title to show when the tab has no title. -->
+<!ENTITY  defaultTabTitle.label    "Aniciu">

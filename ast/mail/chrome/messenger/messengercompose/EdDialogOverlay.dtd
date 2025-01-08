@@ -9,7 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "a">
 <!ENTITY chooseFileLinkButton.label "Esbillar ficheru...">
 <!ENTITY chooseFileLinkButton.accessKey "u">
-<!ENTITY makeUrlRelative.label "La URL ye rellativa a la ruta de la páxina">
-<!ENTITY makeUrlRelative.accessKey "r">
-<!ENTITY makeUrlRelative.tooltip "Alterna ente URL absoluta y rellativa. Tienes de guardar previamente la páxina pa camudar esta propiedá.">
 
+
+<!-- Shared by Link and Image dialogs -->

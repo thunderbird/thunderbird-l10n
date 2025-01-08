@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-offline-dialog-window =
-    .title = Lineaz kanpoko ezarpenak
 offline-dialog-title = Lineaz kanpoko ezarpenak
 autodetect-online-label =
     .label = Automatikoki jarraitu atzemandako lineako egoera

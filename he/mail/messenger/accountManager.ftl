@@ -3,6 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 open-preferences-sidebar-button2 = הגדרות של { -brand-short-name }
-
 open-addons-sidebar-button = תוספות וערכות נושא
-

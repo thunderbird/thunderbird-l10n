@@ -13,86 +13,15 @@
 
 <!ENTITY calendar.today.button.label          "Այսաւր">
 <!ENTITY calendar.tomorrow.button.label       "Վաղը">
-<!ENTITY calendar.upcoming.button.label       "Առաջիկայ">
 
-<!ENTITY calendar.events.filter.all.label "Բոլոր իրադարձութիւնները">
-<!ENTITY calendar.events.filter.today.label "Այսաւրուայ իրադարձութիւնները">
-<!ENTITY calendar.events.filter.future.label "Բոլոր յետագայ իրադարձութիւնները">
-<!ENTITY calendar.events.filter.current.label "Տուեալ աւրուայ համար">
-<!ENTITY calendar.events.filter.currentview.label "Իրադարձութիւններն ընթացիկ տեսարանում">
-<!ENTITY calendar.events.filter.next7Days.label "Իրադարձութիւններն յաջորդ 7 աւրում">
-<!ENTITY calendar.events.filter.next14Days.label "Իրադարձութիւններ յաջորդ 14 աւրում">
-<!ENTITY calendar.events.filter.next31Days.label "Իրադարձութիւններ յաջորդ 31 աւրում">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Տուեալ ամսի իրադարձութիւնները">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Աւարտ">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Խմբաւորել ըստ կատարուելիքի">
-<!ENTITY calendar.unifinder.tree.priority.label            "Առաջնահերթութիւն">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Խմբաւորել ըստ առաջնահերթութեան">
-<!ENTITY calendar.unifinder.tree.title.label               "Վերնագիր">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Խմբաւորել ըստ վերնագրի">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#37; Կատարեալ">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Խմբաւորել ըստ &#37; աւարտի">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Սկսել">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Խմբաւորել ըստ մեկնարկի աւրուայ">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Աւարտ">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Սկզբնաւորել ըստ վերջին աւրուայ">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Ժամկէտ">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Խմբաւորել ըստ ժամկէտի">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Աւարտուած">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Տեսակաւորել ըստ կատարման ամսաթուի">
-<!ENTITY calendar.unifinder.tree.categories.label          "Շարակարգ">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Տեսակաւորել ըստ շարակարգի">
-<!ENTITY calendar.unifinder.tree.location.label            "Տեղ">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Տեսակաւորել ըստ տեղի">
-<!ENTITY calendar.unifinder.tree.status.label              "Կարգավիճակ">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Տեսակաւորել ըստ կարգավիճակի">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Աւրացոյցի անուն">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Տեսակաւորել ըստ աւրացոյցի անուան">
-<!ENTITY calendar.unifinder.tree.duration.label            "Վերջինը">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Տեսակաւորել ըստ ժամանակի մինչ լրանալը">
-<!ENTITY calendar.unifinder.close.tooltip                  "Փակել իրադարձութիւնների որոնումը եւ իրադարձութիւնների ցուցակը">
 
 <!ENTITY calendar.today.button.tooltip          "Տեղափոխուել այսաւր" >
 <!ENTITY calendar.todaypane.button.tooltip      "Ցուցադրել այսաւրուայ վահանակը" >
 
-<!ENTITY calendar.day.button.tooltip            "Փոխել աւրուայ տեսքին" >
-<!ENTITY calendar.week.button.tooltip           "Փոխել շաբաթուայ տեսքին" >
-<!ENTITY calendar.month.button.tooltip          "Փոխել ամսուայ տեսքին" >
-<!ENTITY calendar.multiweek.button.tooltip      "Փոխել բազմաշաբաթ տեսքին" >
-
-<!ENTITY calendar.nextday.label                 "Յաջորդ աւրը" >
-<!ENTITY calendar.prevday.label                 "Նախորդ աւրը" >
-<!ENTITY calendar.nextday.accesskey             "x" >
-<!ENTITY calendar.prevday.accesskey             "s" >
-<!ENTITY calendar.nextweek.label                "Յաջորդ շաբաթ" >
-<!ENTITY calendar.prevweek.label                "Նախորդ շաբաթ" >
-<!ENTITY calendar.nextweek.accesskey            "x" >
-<!ENTITY calendar.prevweek.accesskey            "s" >
-<!ENTITY calendar.nextmonth.label               "Յաջորդ ամիս" >
-<!ENTITY calendar.prevmonth.label               "Նախորդ ամիս" >
-<!ENTITY calendar.nextmonth.accesskey           "x" >
-<!ENTITY calendar.prevmonth.accesskey           "s" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Մեկ աւր առաջ" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Մեկ աւր յետոյ" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Մեկ շաբաթ առաջ" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Մեկ շաբաթ յետոյ" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Մեկ ամիս առաջ" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Մեկ ամիս յետ" >
-
 <!ENTITY calendar.newevent.button.label         "Նոր իրադարձութիւն" >
 <!ENTITY calendar.newtask.button.label          "Նոր առաջադրանք" >
-<!ENTITY calendar.print.button.label            "Տպել" >
-<!ENTITY calendar.print.button.accesskey        "P">
 
-<!ENTITY calendar.day.button.label              "Աւր" >
-<!ENTITY calendar.week.button.label             "Շաբաթ" >
-<!ENTITY calendar.month.button.label            "Ամիս" >
-<!ENTITY calendar.multiweek.button.label        "Բազմաշաբաթ" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "Միայն աշխատանքային աւրեր" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "r" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Առաջադրանքների դիտում" >
@@ -277,8 +206,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "R">
 <!ENTITY calendar.context.unsubscribeserver.label      "Ապաբաժանորդագրուել աւրացոյցից…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "U">
-<!ENTITY calendar.context.synccalendars.label          "Համաժամեցնել աւրացոյցերը">
-<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "Հրապարակել աւրացոյցը…">
 <!ENTITY calendar.context.publish.accesskey            "b">
 <!ENTITY calendar.context.export.label                 "Արտածել աւրացոյցը…">
@@ -372,27 +299,8 @@
 <!ENTITY calendar.publish.publish.button      "Հրապարակել">
 <!ENTITY calendar.publish.close.button      "Փակել">
 
-<!ENTITY calendar.publish.example.url.description   "Նմանատիպ http://www.myserver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "Ընտրել Աւրացոյցը">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "Պատճենել Աւրացոյցը">
-<!ENTITY calendar.print.title.label "Վերնագիր՝">
-<!ENTITY calendar.print.layout.label "Շարակարգ">
-<!ENTITY calendar.print.range.label "Ինչ Տպել">
-<!ENTITY calendar.print.currentView2.label "Ընթացիկ տեսք">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "Նշուած իրադարձութիւններ/առաջադրանքներ">
-<!ENTITY calendar.print.tasks.label "Առաջադրանքներ">
-<!ENTITY calendar.print.events.label "Իրադարձութիւններ">
-<!ENTITY calendar.print.custom.label "Ընտրել տուեալային ընդգրկոյթ՝">
-<!ENTITY calendar.print.from.label "Որտեղից՝">
-<!ENTITY calendar.print.to.label "Դէպի՝">
-<!ENTITY calendar.print.settingsGroup.label "Պատճենման կարգաւորումներ">
-<!ENTITY calendar.print.optionsGroup.label "Ընտրանքներ">
-<!ENTITY calendar.print.taskswithnoduedate.label "Առաջադրանքներ առանց վերջնաժամկէտի">
-<!ENTITY calendar.print.completedtasks.label "Կատարուած առաջադրանքներ">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Մանրամասներ…">

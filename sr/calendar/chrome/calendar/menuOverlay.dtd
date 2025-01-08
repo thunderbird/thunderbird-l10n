@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Уклони изабрани календар…">
 <!ENTITY calendar.removecalendar.accesskey      "л">
 
-
-<!ENTITY calendar.menu.customize.label          "Прилагоди…">
-<!ENTITY calendar.menu.customize.accesskey      "г">
-
 <!ENTITY showUnifinderCmd.label                 "Нађи догађаје">
 <!ENTITY showUnifinderCmd.accesskey             "ј">
 <!ENTITY showUnifinderCmd.tooltip               "Укључи или искључи површ за проналажење догађаја">

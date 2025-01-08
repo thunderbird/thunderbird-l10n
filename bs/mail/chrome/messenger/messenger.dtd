@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "W">
 <!ENTITY newVirtualFolderCmd.label "Sačuvane pretrage…">
 <!ENTITY newVirtualFolderCmd.accesskey "S">
-<!ENTITY newCreateEmailAccountCmd.label "Napravi novi račun e-pošte…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "G">
-<!ENTITY newExistingEmailAccountCmd.label "Postojeći račun e-pošte…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "E">
 <!ENTITY newIMAccountCmd.label "Račun razgovora…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "Račun kanala…">
@@ -81,18 +77,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Izbriši poruku">
-<!ENTITY deleteMsgCmd.accesskey "D">
-<!ENTITY undeleteMsgCmd.label "Vrati izbrisanu poruku">
-<!ENTITY undeleteMsgCmd.accesskey "d">
-<!ENTITY deleteMsgsCmd.label "Izbriši odabrane poruke">
-<!ENTITY deleteMsgsCmd.accesskey "D">
-<!ENTITY undeleteMsgsCmd.label "Vrati odabrane izbrisane poruke">
-<!ENTITY undeleteMsgsCmd.accesskey "d">
-<!ENTITY deleteFolderCmd.label "Izbriši direktorij">
-<!ENTITY deleteFolderCmd.accesskey "D">
-<!ENTITY unsubscribeNewsgroupCmd.label "Otkaži pretplatu">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "b">
 <!ENTITY selectMenu.label "Odaberi">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Sve">
@@ -104,10 +88,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "S">
 <!ENTITY menuFavoriteFolder.label "Omiljeni direktorij">
 <!ENTITY menuFavoriteFolder.accesskey "v">
-<!ENTITY folderPropsCmd2.label "Svojstva">
-<!ENTITY folderPropsFolderCmd2.label "Svojstva direktorija">
-<!ENTITY folderPropsNewsgroupCmd2.label "Svojstva novinske grupe">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Vrati izbrisanu poruku">
 <!ENTITY redoDeleteMsgCmd.label "Ponovi brisanje poruke">
 <!ENTITY undoMoveMsgCmd.label "Vrati premještenu poruku">
@@ -139,8 +119,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Okno direktorija">
 <!ENTITY showFolderPaneCmd.accesskey "F">
-<!ENTITY showFolderPaneColsCmd.label "Kolone okkna direktorija">
-<!ENTITY showFolderPaneColsCmd.accesskey "P">
 <!ENTITY showMessageCmd.label "Okno poruke">
 <!ENTITY showMessageCmd.accesskey "M">
 
@@ -582,10 +560,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nova poruka">
 <!ENTITY appmenuNewContactCmd.label "Kontakt u imeniku…">
-<!ENTITY appmenuEditMenu.label "Uredi">
 <!ENTITY appmenuToolbarLayout.label "Raspored alatne trake…">
-<!ENTITY appmenuSelectThread.label "Označi skup poruka">
-<!ENTITY appmenuSelectFlagged.label "Označi poruke sa zvijezdicom">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nova oznaka…">
@@ -628,8 +603,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "U">
 <!ENTITY folderContextMarkNewsgroupRead.label "Označi novinsku grupu pročitanom">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "k">
-<!ENTITY folderContextMarkMailFolderRead.label "Označi direktorij pročitanim">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "k">
 <!ENTITY folderContextSubscribe.label "Pretplati se…">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "Pretraži poruke…">
@@ -731,16 +704,6 @@
 <!ENTITY contextReplyAll.accesskey "A">
 <!ENTITY contextReplyList.label "Odgovori na listu">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextForward.label "Proslijedi">
-<!ENTITY contextForward.accesskey "F">
-<!ENTITY contextForwardAsMenu.label "Proslijedi kao">
-<!ENTITY contextForwardAsMenu.accesskey "o">
-<!ENTITY contextForwardAsInline.label "Sadržaj unutar poruke">
-<!ENTITY contextForwardAsInline.accesskey "I">
-<!ENTITY contextForwardAsAttachmentItem.label "Prilog">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "A">
-<!ENTITY contextMultiForwardAsAttachment.label "Proslijedi kao prilog">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "o">
 <!ENTITY contextMoveMsgMenu.label "Premjesti u">
 <!ENTITY contextMoveMsgMenu.accesskey "M">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Nedavno">
@@ -763,8 +726,6 @@
 <!ENTITY contextPrint.accesskey "P">
 <!ENTITY contextPrintPreview.label "Pregled prije štampanja">
 <!ENTITY contextPrintPreview.accesskey "v">
-
-<!-- Thread Pane Column Picker -->
 
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
@@ -805,7 +766,6 @@
      "File here" option for the move to/copy to widget.
   -->
 <!ENTITY columnPicker.thisFolder.label "Ovaj direktorij">
-
 
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label "Reproduciraj">
@@ -887,10 +847,6 @@
 <!ENTITY copyImageAllCmd.accesskey "I">
 <!ENTITY copyEmailCmd.label "Kopiraj adresu e-pošte">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY stopCmd.label "Zaustavi">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Učitaj ponovo">
-<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY openInBrowser.label "Otvori u pretraživaču">
 <!ENTITY openInBrowser.accesskey "O">
 <!ENTITY openLinkInBrowser.label "Otvori link u pretraživaču">
@@ -923,3 +879,4 @@
 <!ENTITY writeNewMessageDock.label      "Piši novu poruku">
 <!ENTITY openAddressBookDock.label      "Otvori imenik">
 
+<!-- Content tab Navigation buttons -->

@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Búa til, endurnefna eða eyða möppum póstreikninganna þinna
 webext-perms-description-accountsIdentities = Búa til, breyta eða eyða auðkennum póstreikninganna þinna
 webext-perms-description-accountsRead = Skoða póstreikninga þína, auðkenni þeirra og möppur
@@ -20,7 +27,6 @@ webext-perms-description-messagesModify = Lesa og breyta tölvupóstskilaboðum 
 webext-perms-description-messagesModifyPermanent = Breyta varanlega upprunaefni skilaboðanna þinna (þar á meðal hausum, meginmáli og viðhengjum)
 webext-perms-description-messagesMove = Afrita eða færa tölvupóstskeytin þín (þar á meðal að færa þau í ruslið)
 webext-perms-description-messagesDelete = Eyða tölvupóstskilaboðum þínum varanlega
-webext-perms-description-messagesRead = Lesa tölvupóstinn þinn og merkja skilaboð
 webext-perms-description-messagesRead2 = Lesa tölvupóstinn þinn
 webext-perms-description-messagesUpdate = Breyta eiginleikum og merkjum tölvupósta hjá þér
 webext-perms-description-messagesTags = Búa til, breyta og eyða merkingum skilaboða

@@ -152,20 +152,6 @@ mail-context-menu-forward-forward =
     .accesskey = d
 context-menu-redirect-msg =
     .label = Suuna ümber
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Kustuta kiri
-           *[other] Kustuta valitud kirjad
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Taasta kiri
-           *[other] Taasta valitud kirjad
-        }
 
 ## Message header pane
 
@@ -220,9 +206,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Kas eemaldada lisa { $name }?
 addon-removal-confirmation-button = Eemalda
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Kas eemaldada lisa { $name } koos selle konfiguratsiooni ja andmetega { -brand-short-name }ist?
 caret-browsing-prompt-title = Kursoriga lehitsemine
 caret-browsing-prompt-text = F7 vajutamisega lülitatakse kursoriga lehitsemine sisse või välja. See lahendus paigutab osale sisule liigutatava kursori, mis võimaldab teksti valimist klaviatuuri abil. Kas soovid kursoriga lehitsemise sisse lülitada?
@@ -234,6 +222,8 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Vastust ei toetata
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Vastusaadress ({ $email }) ei tundu olevat jälgitav aadress. Sellele aadressile saadetud kirju ei loe tõenäoliselt keegi.
 no-reply-reply-anyway-button = Vasta igal juhul
 
@@ -332,7 +322,7 @@ quick-filter-bar-toggle =
     .label = Kiirfiltri riba
     .accesskey = K
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

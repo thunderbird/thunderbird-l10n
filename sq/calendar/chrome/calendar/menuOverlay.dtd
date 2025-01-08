@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Hiqeni Kalendarin e Përzgjedhur…">
 <!ENTITY calendar.removecalendar.accesskey      "H">
 
-
-<!ENTITY calendar.menu.customize.label          "Përshtateni…">
-<!ENTITY calendar.menu.customize.accesskey      "a">
-
 <!ENTITY showUnifinderCmd.label                 "Gjeni Veprimtari">
 <!ENTITY showUnifinderCmd.accesskey             "G">
 <!ENTITY showUnifinderCmd.tooltip               "Hapni/mbyllni kuadratin e gjetjes së veprimtarive">

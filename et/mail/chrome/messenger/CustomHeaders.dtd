@@ -2,10 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY window.title           "Kohandatud päised">
-<!ENTITY addButton.label        "Lisa">
-<!ENTITY addButton.accesskey    "L">
-<!ENTITY removeButton.label     "Eemalda">
+<!ENTITY window.title "Kohandatud päised">
+<!ENTITY addButton.label "Lisa">
+<!ENTITY addButton.accesskey "L">
+<!ENTITY removeButton.label "Eemalda">
 <!ENTITY removeButton.accesskey "E">
-<!ENTITY newMsgHeader.label     "Uus kirja päis:">
+<!ENTITY newMsgHeader.label "Uus kirja päis:">
 <!ENTITY newMsgHeader.accesskey "k">

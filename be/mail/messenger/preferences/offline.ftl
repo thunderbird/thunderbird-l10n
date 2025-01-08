@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-offline-dialog-window =
-    .title = Наладжванні працы па-за сеткаю
 offline-dialog-title = Наладжванні працы па-за сеткаю
 status-radio-remember =
     .label = Памятаць папярэдні стан злучэння з сеткаю

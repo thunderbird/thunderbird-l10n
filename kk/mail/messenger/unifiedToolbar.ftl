@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Іздеу
-search-bar-item =
-    .label = Іздеу:
 search-bar-item2 =
     .label = Іздеу
 search-bar-placeholder = Іздеу…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Тек мәтін
 customize-cancel = Бас тарту
 customize-save = Сақтау
 customize-unsaved-changes = Басқа кеңістіктердегі сақталмаған өзгерістер
-customize-search-bar =
-    .label = Іздеу панелінің батырмалары…
 customize-search-bar2 =
     .label = Іздеу панелінің батырмалары
     .placeholder = Іздеу панелінің батырмалары…

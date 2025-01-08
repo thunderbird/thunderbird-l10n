@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Üzenet-összefoglaló
-selected-messages-label =
-    .label = Kijelölt üzenetek
 multi-message-archive-button =
     .label = Archiválás
     .tooltiptext = Archiválás

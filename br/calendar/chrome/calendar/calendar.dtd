@@ -14,82 +14,13 @@
 <!ENTITY calendar.today.button.label          "Hiziv">
 <!ENTITY calendar.tomorrow.button.label       "Warc'hoazh">
 
-<!ENTITY calendar.events.filter.all.label "An holl darvoudoù">
-<!ENTITY calendar.events.filter.today.label "Darvoudoù hiziv">
-<!ENTITY calendar.events.filter.future.label "An holl darvoudoù da zont">
-<!ENTITY calendar.events.filter.current.label "Devezh diuzet er mare-mañ">
-<!ENTITY calendar.events.filter.currentview.label "Darvoudoù er gwel bremanel">
-<!ENTITY calendar.events.filter.next7Days.label "Darvoudoù er 7 devezh o tont">
-<!ENTITY calendar.events.filter.next14Days.label "Darvoudoù er 14 devezh o tont">
-<!ENTITY calendar.events.filter.next31Days.label "Darvoudoù en 31 devezh o tont">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Darvoudoù er miz deiziataer-mañ">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Graet">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Urzhiañ dre klokadur">
-<!ENTITY calendar.unifinder.tree.priority.label            "Tevet">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Urzhiañ dre tevet">
-<!ENTITY calendar.unifinder.tree.title.label               "Titl">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Urzhiañ dre titl">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#037; Echu">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Urzhiañ dre &#037; echu">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Deraouiñ">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Urzhiañ dre deiziad deraouiñ">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Dibenn">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Urzhiañ dre deiziad dibenn">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Dleet">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Urzhiañ dre deiziad dleet">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Klokaet">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Urzhian dre deiziad klokaet">
-<!ENTITY calendar.unifinder.tree.categories.label          "Rummad">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Urzhiañ dre rummad">
-<!ENTITY calendar.unifinder.tree.location.label            "Lec'hiadur">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Urzhiañ dre lec'hiadur">
-<!ENTITY calendar.unifinder.tree.status.label              "Stad">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Urzhiañ dre stad">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Anv an deiziataer">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Urzhian dre anv an deiziataer">
-<!ENTITY calendar.unifinder.tree.duration.label            "Dleet a-benn">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Urzhiañ dre an amzer a-raok ma vefe dleet">
-<!ENTITY calendar.unifinder.close.tooltip                  "Serriñ an enklask darvoudoù hag ar roll darvoudoù">
 
 <!ENTITY calendar.today.button.tooltip          "Mont da Hiziv" >
 <!ENTITY calendar.todaypane.button.tooltip      "Diskouez Panell Hiziv" >
 
-<!ENTITY calendar.day.button.tooltip            "Tremen d'ar gwel devezh" >
-<!ENTITY calendar.week.button.tooltip           "Tremen d'ar gwel sizhun" >
-<!ENTITY calendar.month.button.tooltip          "Tremen d'ar gwel miz" >
-<!ENTITY calendar.multiweek.button.tooltip      "Tremen d'ar gwel lies-sizhun" >
-
-<!ENTITY calendar.nextday.label                 "Devezh o-tont" >
-<!ENTITY calendar.prevday.label                 "Devezh a-raok" >
-<!ENTITY calendar.nextday.accesskey             "D" >
-<!ENTITY calendar.prevday.accesskey             "a" >
-<!ENTITY calendar.nextweek.label                "Ar sizhun a-zeu" >
-<!ENTITY calendar.prevweek.label                "Ar sizhun a-raok" >
-<!ENTITY calendar.nextweek.accesskey            "s" >
-<!ENTITY calendar.prevweek.accesskey            "r" >
-<!ENTITY calendar.nextmonth.label               "Ar miz a zeu" >
-<!ENTITY calendar.prevmonth.label               "Ar miz a-raok" >
-<!ENTITY calendar.nextmonth.accesskey           "a" >
-<!ENTITY calendar.prevmonth.accesskey           "r" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Un devezh war-raok" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Un devezh kent" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Ur sizhun war-raok" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Ur sizhun kent" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Ur miz war-raok" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Ur miz kent" >
-
 <!ENTITY calendar.newevent.button.label         "Darvoud nevez" >
 <!ENTITY calendar.newtask.button.label          "Trevell nevez" >
-
-<!ENTITY calendar.day.button.label              "Devezh" >
-<!ENTITY calendar.week.button.label             "Sizhun" >
-<!ENTITY calendar.month.button.label            "Miz" >
-<!ENTITY calendar.multiweek.button.label        "Lies-sizhun" >
 
 <!ENTITY calendar.onlyworkday.checkbox.label    "Devezhioù labour nemetken" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "l" >
@@ -275,8 +206,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "L">
 <!ENTITY calendar.context.unsubscribeserver.label      "Digoumanantin d'un deiziataer...">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "g">
-<!ENTITY calendar.context.synccalendars.label          "Goubredañ deiziataerioù">
-<!ENTITY calendar.context.synccalendars.accesskey      "b">
 <!ENTITY calendar.context.publish.label                "Embann an deiziataer…">
 <!ENTITY calendar.context.publish.accesskey            "b">
 <!ENTITY calendar.context.export.label                 "Ezporzhiañ deiziataerioù...">

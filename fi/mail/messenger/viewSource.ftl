@@ -5,15 +5,12 @@
 context-text-action-find =
     .label = Etsi
     .accesskey = F
-
 context-text-action-find-again =
     .label = Etsi uudelleen
     .accesskey = g
-
 text-action-find =
     .label = Etsi
     .accesskey = F
-
 text-action-find-again =
     .label = Etsi uudelleen
     .accesskey = g

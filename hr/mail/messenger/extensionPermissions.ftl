@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Stvorite, preimenujte ili obrišite mape vašeg računa e-pošte
 webext-perms-description-accountsIdentities = Stvara, uređuje ili briše identitete vašeg računa e-pošte
 webext-perms-description-accountsRead = Vidi vaše račune e-pošte, njihove identitete i mape
@@ -20,7 +27,6 @@ webext-perms-description-messagesModify = Pročitajte i uređujte svoje poruke e
 webext-perms-description-messagesModifyPermanent = Trajno izmijenite izvor svojih poruka (uključujući zaglavlja, tijelo i privitke)
 webext-perms-description-messagesMove = Kopira ili premješta poruke e-pošte (uključujući i premještanje u mapu smeća)
 webext-perms-description-messagesDelete = Trajno briše vaše poruke e-pošte
-webext-perms-description-messagesRead = Pročitajte svoje poruke e-pošte i označite ih
 webext-perms-description-messagesRead2 = Čitati vaše poruke e-pošte
 webext-perms-description-messagesUpdate = Mijenjati svojstva i oznake vaših poruka e-pošte
 webext-perms-description-messagesTags = Stvorite, mijenjajte i brišite oznake poruka

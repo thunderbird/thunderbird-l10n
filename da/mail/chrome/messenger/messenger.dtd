@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "F">
 <!ENTITY newVirtualFolderCmd.label "Virtuel mappe…">
 <!ENTITY newVirtualFolderCmd.accesskey "t">
-<!ENTITY newCreateEmailAccountCmd.label "Ny mailkonto…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "N">
-<!ENTITY newExistingEmailAccountCmd.label "Eksisterende mailkonto…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "E">
 <!ENTITY newIMAccountCmd.label "Chat-konto…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "Feed-konto…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Slet meddelelsen">
-<!ENTITY deleteMsgCmd.accesskey "S">
-<!ENTITY undeleteMsgCmd.label "Gendan meddelelsen">
-<!ENTITY undeleteMsgCmd.accesskey "G">
-<!ENTITY deleteMsgsCmd.label "Slet de valgte meddelelser">
-<!ENTITY deleteMsgsCmd.accesskey "S">
-<!ENTITY undeleteMsgsCmd.label "Fortryd sletning af valgte meddelelser">
-<!ENTITY undeleteMsgsCmd.accesskey "F">
-<!ENTITY deleteFolderCmd.label "Slet mappe">
-<!ENTITY deleteFolderCmd.accesskey "S">
-<!ENTITY unsubscribeNewsgroupCmd.label "Fjern abonnement">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "j">
 <!ENTITY selectMenu.label "Marker">
 <!ENTITY selectMenu.accesskey "m">
 <!ENTITY all.label "Alle">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "S">
 <!ENTITY menuFavoriteFolder.label "Favoritmappe">
 <!ENTITY menuFavoriteFolder.accesskey "a">
-<!ENTITY folderPropsCmd2.label "Egenskaber">
-<!ENTITY folderPropsFolderCmd2.label "Mappeegenskaber">
-<!ENTITY folderPropsNewsgroupCmd2.label "Nyhedsgruppens egenskaber">
-<!ENTITY folderPropsCmd.accesskey "E">
 <!ENTITY undoDeleteMsgCmd.label "Fortryd slet meddelelsen">
 <!ENTITY redoDeleteMsgCmd.label "Gentag slet meddelelsen">
 <!ENTITY undoMoveMsgCmd.label "Fortryd flyt meddelelsen">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "L">
 <!ENTITY showFolderPaneCmd.label "Mapperude">
 <!ENTITY showFolderPaneCmd.accesskey "a">
-<!ENTITY showFolderPaneColsCmd.label "Mapperudekolonner">
-<!ENTITY showFolderPaneColsCmd.accesskey "p">
 <!ENTITY showMessageCmd.label "Meddelelsesrude">
 <!ENTITY showMessageCmd.accesskey "M">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Ny meddelelse">
 <!ENTITY appmenuNewContactCmd.label "Kontakt…">
-<!ENTITY appmenuEditMenu.label "Rediger">
 <!ENTITY appmenuToolbarLayout.label "Tilpas værktøjslinje…">
-<!ENTITY appmenuSelectThread.label "Marker tråd">
-<!ENTITY appmenuSelectFlagged.label "Marker stjernemarkerede meddelelser">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nyt mærkat…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "j">
 <!ENTITY folderContextMarkNewsgroupRead.label "Marker nyhedsgruppe som læst">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "l">
-<!ENTITY folderContextMarkMailFolderRead.label "Marker mappen som læst">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "l">
 <!ENTITY folderContextSubscribe.label "Abonner…">
 <!ENTITY folderContextSubscribe.accesskey "A">
 <!ENTITY folderContextSearchForMessages.label "Søg i meddelelser…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Svar til liste">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextForward.label "Videresend">
-<!ENTITY contextForward.accesskey "V">
-<!ENTITY contextForwardAsMenu.label "Videresend som">
-<!ENTITY contextForwardAsMenu.accesskey "o">
-<!ENTITY contextForwardAsInline.label "En del af selve meddelelsen">
-<!ENTITY contextForwardAsInline.accesskey "d">
-<!ENTITY contextForwardAsAttachmentItem.label "Vedhæftet fil">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "V">
-<!ENTITY contextMultiForwardAsAttachment.label "Videresend som vedhæftede filer">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "æ">
 <!ENTITY contextMoveMsgMenu.label "Flyt til">
 <!ENTITY contextMoveMsgMenu.accesskey "F">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Seneste">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "p">
 <!ENTITY copyEmailCmd.label "Kopier mailadresse">
 <!ENTITY copyEmailCmd.accesskey "m">
-<!ENTITY stopCmd.label "Stop">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Genindlæs">
-<!ENTITY reloadCmd.accesskey "G">
 <!ENTITY openInBrowser.label "Åbn i browser">
 <!ENTITY openInBrowser.accesskey "Å">
 <!ENTITY openLinkInBrowser.label "Åbn link i browser">

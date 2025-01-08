@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "使用小图标">
 <!ENTITY restoreDefaultSet.label  "恢复默认设置">
 <!ENTITY showTitlebar2.label      "标题栏">
-<!ENTITY extraDragSpace2.label    "窗口拖拽区">
 <!ENTITY saveChanges.label        "完成">
 <!ENTITY undoChanges.label        "撤销更改">

@@ -37,8 +37,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Parola
     .accesskey = P
     .title = İsteğe bağlı, yalnızca kullanıcı adını doğrulamak için kullanılır
-account-provisioner-button = Yeni bir e-posta adresi al
-    .accesskey = a
 account-setup-password-toggle-show =
     .title = Parolayı açık metin olarak göster
 account-setup-password-toggle-hide =
@@ -148,7 +146,6 @@ account-setup-credentials-incomplete = Kimlik doğrulama başarısız oldu. Giri
 account-setup-credentials-wrong = Kimlik doğrulama başarısız oldu. Lütfen kullanıcı adını ve parolayı kontrol edin
 account-setup-find-settings-failed = { -brand-short-name }, e-posta hesabınızın ayarlarını bulamadı
 account-setup-exchange-config-unverifiable = Yapılandırma doğrulanamadı. Kullanıcı adınız ve parolanız doğruysa sunucu yöneticisi hesabınız için seçili yapılandırmayı devre dışı bırakmış olabilir. Başka bir protokol seçmeyi deneyin.
-account-setup-provisioner-error = Yeni { -brand-short-name } hesabınız oluşturulurken bir hata meydana geldi. Lütfen hesabınızı manuel olarak ayarlamayı deneyin.
 
 ## Manual configuration area
 

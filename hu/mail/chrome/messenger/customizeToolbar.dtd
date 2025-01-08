@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Kis ikonok használata">
 <!ENTITY restoreDefaultSet.label  "Alapértelmezett készlet visszaállítása">
 <!ENTITY showTitlebar2.label      "Címsor">
-<!ENTITY extraDragSpace2.label    "Húzási terület">
 <!ENTITY saveChanges.label        "Kész">
 <!ENTITY undoChanges.label        "Visszavonás">

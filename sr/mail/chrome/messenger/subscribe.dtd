@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Налог:">
 <!ENTITY server.accesskey             "а">
 <!ENTITY subscribedHeader.label       "Претплати се">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Прикажи ставке које садрже:">
 <!ENTITY namefield.accesskey          "к">

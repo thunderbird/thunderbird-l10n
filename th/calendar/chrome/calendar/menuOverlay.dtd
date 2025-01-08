@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "เอาปฏิทินที่เลือกออก…">
 <!ENTITY calendar.removecalendar.accesskey      "อ">
 
-
-<!ENTITY calendar.menu.customize.label          "ปรับแต่ง…">
-<!ENTITY calendar.menu.customize.accesskey      "ป">
-
 <!ENTITY showUnifinderCmd.label                 "ค้นหาเหตุการณ์">
 <!ENTITY showUnifinderCmd.accesskey             "ค">
 <!ENTITY showUnifinderCmd.tooltip               "เปิด/ปิดบานหน้าต่างการค้นหาเหตุการณ์">

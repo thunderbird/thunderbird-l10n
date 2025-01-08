@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Variables:
+## $count (Number) - Number of events selected for deletion.
+
 calendar-delete-event-prompt-title =
     { $count ->
         [one] Excluir evento
@@ -12,6 +16,10 @@ calendar-delete-event-prompt-message =
         [one] Quer mesmo excluir este evento?
        *[other] Quer mesmo excluir esses { $count } eventos?
     }
+
+## Variables:
+## $count (Number) - Number of tasks selected for deletion.
+
 calendar-delete-task-prompt-title =
     { $count ->
         [one] Excluir tarefa
@@ -22,6 +30,10 @@ calendar-delete-task-prompt-message =
         [one] Quer mesmo excluir esta tarefa?
        *[other] Quer mesmo excluir essas { $count } tarefas?
     }
+
+## Variables:
+## $count (Number) - Number of items selected for deletion.
+
 calendar-delete-item-prompt-title =
     { $count ->
         [one] Excluir item
@@ -32,4 +44,7 @@ calendar-delete-item-prompt-message =
         [one] Quer mesmo excluir este item?
        *[other] Quer mesmo excluir esses { $count } itens?
     }
+
+##
+
 calendar-delete-prompt-disable-message = Não perguntar novamente.

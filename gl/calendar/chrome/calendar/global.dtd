@@ -15,11 +15,6 @@
 <!ENTITY month.11.name "Novembro" >
 <!ENTITY month.12.name "Decembro" >
 
-<!ENTITY onemonthbackward.tooltip "Retroceder un mes" >
-<!ENTITY onemonthforward.tooltip "Avanzar un mes" >
-<!ENTITY oneyearbackward.tooltip "Recuar un ano" >
-<!ENTITY oneyearforward.tooltip "Avanzar un ano" >
-
 <!ENTITY showToday.tooltip "Ir ao día actual">
 <!ENTITY onedayforward.tooltip "Avanzar un día">
 <!ENTITY onedaybackward.tooltip "Retroceder un día">

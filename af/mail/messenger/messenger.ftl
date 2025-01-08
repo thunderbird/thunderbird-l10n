@@ -71,14 +71,6 @@ menu-edit-undelete-messages =
 mail-context-menu-forward-forward =
     .label = Aanstuur
     .accesskey = A
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Ontskrap boodskap
-           *[other] Ontskrap gemerkte boodskappe
-        }
 
 ## Message header pane
 

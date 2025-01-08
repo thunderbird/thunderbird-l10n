@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "в">
 <!ENTITY deleteCmd.label          "Видалити">
 <!ENTITY deleteCmd.accesskey        "В">
-
 <!ENTITY customizeCmd.label "Налаштувати">
 <!ENTITY customizeCmd.accesskey "т">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Закрити">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "к">
-
-<!ENTITY quitApplicationCmd.label  "Вихід">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "х">
-
-<!ENTITY quitApplicationCmdUnix.label  "Вихід">
-<!ENTITY quitApplicationCmdUnix.accesskey  "х">
-
-<!ENTITY quitApplicationCmdMac.label  "Закрити &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "З">

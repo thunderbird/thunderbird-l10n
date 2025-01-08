@@ -27,7 +27,6 @@ webext-perms-description-messagesModify = Læse og tilpasse dine mails, når de 
 webext-perms-description-messagesModifyPermanent = Lave permanente ændringer i kilden til dine meddelelser (herunder meddelelseshoveder, meddelelsesindhold og vedhæftede filer)
 webext-perms-description-messagesMove = Kopiere eller flytte dine mails (herunder flytte dem til mappen Papirkurv)
 webext-perms-description-messagesDelete = Permanent slette dine mails
-webext-perms-description-messagesRead = Læse dine mails og markere eller sætte mærkater på dem
 webext-perms-description-messagesRead2 = Læse dine mails
 webext-perms-description-messagesUpdate = Skifte egenskaber og mærkater for dine mails
 webext-perms-description-messagesTags = Oprette, ændre og slette meddelelsesmærkater

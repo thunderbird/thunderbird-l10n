@@ -21,6 +21,4 @@ otr-require-encryption-info =
     neće biti prikazane kao dio redovnog razgovora i neće biti zabilježene.
 otr-verify-nudge =
     .label = Uvijek me podsjeti potvrditi neprovjereni kontakt
-
 otr-not-yet-available = Još nije dostupno
-

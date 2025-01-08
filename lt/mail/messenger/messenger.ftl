@@ -118,14 +118,6 @@ appmenu-addons-and-themes =
 mail-context-menu-forward-forward =
     .label = Persiųsti
     .accesskey = P
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Atšaukti laiško šalinimą
-           *[other] Atšaukti pažymėtų laiškų šalinimą
-        }
 
 ## Message header pane
 
@@ -148,9 +140,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Pašalinti „{ $name }“?
 addon-removal-confirmation-button = Pašalinti
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Pašalinti „{ $name }“ ir jo konfigūraciją bei duomenis iš „{ -brand-short-name }“?
 
 ## no-reply handling
@@ -176,7 +170,7 @@ quick-filter-bar-toggle =
     .label = Sparčiojo filtro juosta
     .accesskey = S
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

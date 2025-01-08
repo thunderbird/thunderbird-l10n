@@ -366,8 +366,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Perkėlus ar pašalinus laišką, užverti langą ar kortelę su juo
     .accesskey = v
-display-name-label =
-    .value = Rodomas vardas:
 condensed-addresses-label =
     .label = Jei asmens duomenys įrašyti į adresų knygą, tai rodyti tik jo asmenvardį (be adreso)
     .accesskey = a
@@ -497,23 +495,12 @@ third-party-never =
     .label = niekada
 third-party-visited =
     .label = tik lankytų
-keep-label =
-    .value = Laikyti iki:
-    .accesskey = k
-keep-expire =
-    .label = jų galiojimo laiko pabaigos
-keep-close =
-    .label = „{ -brand-short-name }“ seanso pabaigos
-keep-ask =
-    .label = klausti prieš priimant slapuką
 cookies-button =
     .label = Rodyti slapukus…
     .accesskey = R
 do-not-track-label =
     .label = Siųsti svetainėms „Do Not Track“ signalą, nurodantį jūsų pageidavimą nebūti sekamiems
     .accesskey = n
-learn-button =
-    .label = Sužinokite daugiau
 dnt-learn-more-button =
     .value = Sužinokite daugiau
 passwords-description = Programa „{ -brand-short-name }“ gali įsiminti visų paskyrų slaptažodžius.
@@ -530,18 +517,12 @@ primary-password-button =
 forms-primary-pw-fips-title = Šiuo metu pasirinkta FIPS veiksena. Jai reikia pagrindinio slaptažodžio.
 forms-master-pw-fips-desc = Slaptažodžio pakeisti nepavyko
 junk-description = Brukalo kontrolės nuostatos atskiroms paskyroms parenkamos paskyrų nuostatų lange.
-junk-label =
-    .label = Pažymėjus, kad laiškai yra brukalas:
-    .accesskey = P
 junk-move-label =
     .label = perkelti juos į paskyros aplanką „Brukalas“
     .accesskey = k
 junk-delete-label =
     .label = pašalinti juos
     .accesskey = š
-junk-read-label =
-    .label = Laiškus, įgijusius brukalo statusą, žymėti kaip skaitytus
-    .accesskey = L
 junk-log-label =
     .label = Įrašyti adaptyviojo brukalo filtro veiksmus
     .accesskey = r
@@ -665,4 +646,7 @@ search-results-header = Paieškos rezultatai
 search-results-help-link = Reikia pagalbos? Aplankykite <a data-l10n-name="url">„{ -brand-short-name }“</a>
 
 ## Sync Tab
+
+
+## Mobile QR Export Pane
 

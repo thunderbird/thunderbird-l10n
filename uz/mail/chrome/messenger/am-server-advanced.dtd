@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "o">
 <!ENTITY overrideNamespaces.label "Serverga nom maydonchalarini almashtirishga ruxsat berish">
 <!ENTITY overrideNamespaces.accesskey "r">
-<!ENTITY pop3DeferringDesc.label "Ushbu hisobning serveridan xatni yuklab olayotganda yangi xabarlarni saqlash uchun quyidagi jilddan foydalaning:" >
+<!ENTITY pop3DeferringDesc.label "Ushbu hisobning serveridan xatni yuklab olayotganda yangi xabarlarni saqlash uchun quyidagi jilddan foydalaning:">
 <!ENTITY accountInbox.label "Ushbu hisob uchun Kiruvchi xatlar">
 <!ENTITY accountInbox.accesskey "U">
 <!ENTITY deferToServer.label "Boshqa hisob uchun &quot;Kiruvchi xatlar&quot;">

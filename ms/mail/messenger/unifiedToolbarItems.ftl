@@ -107,3 +107,6 @@ toolbar-stop =
 toolbar-throbber-label = Penunjuk Aktiviti
 toolbar-throbber =
     .title = Penunjuk Aktiviti
+
+## New Address Book popup items
+

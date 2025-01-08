@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-receipts-dialog-window =
-    .title = Confermas da retschavida (MDN)
 receipts-dialog-title = Confermas da retschavida (MDN)
 return-receipt-checkbox-control =
     .label = Adina pretender ina conferma da retschavida cura ch'in messadi vegn tramess

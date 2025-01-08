@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = 為 { $identity } 新增一把 OpenPGP 個人金鑰
-key-wizard-button =
-    .buttonlabelaccept = 繼續
-    .buttonlabelhelp = 返回
 key-wizard-dialog =
     .buttonlabelaccept = 繼續
     .buttonlabelextra1 = 返回
@@ -105,8 +102,6 @@ openpgp-import-key-list-caption = 標示為「個人金鑰」的金鑰，將列�
 openpgp-import-keep-passphrases =
     .label = 保留匯入私鑰的密語保護
 openpgp-passphrase-prompt-title = 請輸入密語
-#   $key (String) - the id of the key being imported
-openpgp-passphrase-prompt = 請輸入用來解開下列金鑰的密語: { $key }
 openpgp-import-key-button =
     .label = 選擇要匯入的檔案…
     .accesskey = S

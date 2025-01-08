@@ -9,9 +9,8 @@
 <!ENTITY chooseFileButton.accessKey "F">
 <!ENTITY chooseFileLinkButton.label "Pilih Fail...">
 <!ENTITY chooseFileLinkButton.accessKey "l">
-<!ENTITY makeUrlRelative.label "URL adalah relatif kepada lokasi halaman">
-<!ENTITY makeUrlRelative.accessKey "r">
-<!ENTITY makeUrlRelative.tooltip "Tukar antara URL relatif dengan muktamad. Anda perlu simpan halaman dahulu untuk menukarkan ini.">
 
+
+<!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Masukkan lokasi halaman web, fail lokal, atau pilih Nama Labuh atau Tajuk daripada medan menu konteks:">
 <!ENTITY LinkURLEditField2.accessKey "w">

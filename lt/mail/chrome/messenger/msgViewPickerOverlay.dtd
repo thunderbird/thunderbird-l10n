@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 
-
 <!ENTITY viewPicker.label "Rodomi laiškai:">
 <!ENTITY viewPicker.accesskey "d">
 <!ENTITY viewAll.label "Visi">

@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = { -brand-short-name } мәселелерді шешу режимі
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = { -brand-short-name } мәселелерді шешу режимі
 troubleshoot-mode-description = Мәселелерді диагностикалау үшін осы { -brand-short-name } жөндеу режимін қолданыңыз. Кеңейтулер мен өзгертілген баптаулар уақытша сөндіріледі.
 troubleshoot-mode-description2 = Бұл өзгерістердің кейбіреулерін немесе барлығын тұрақты қыла аласыз:

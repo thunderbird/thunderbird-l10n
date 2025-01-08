@@ -13,86 +13,15 @@
 
 <!ENTITY calendar.today.button.label          "Hôm nay">
 <!ENTITY calendar.tomorrow.button.label       "Ngày mai">
-<!ENTITY calendar.upcoming.button.label       "Sắp tới">
 
-<!ENTITY calendar.events.filter.all.label "Tất cả sự kiện">
-<!ENTITY calendar.events.filter.today.label "Sự kiện hôm nay">
-<!ENTITY calendar.events.filter.future.label "Tất cả các sự kiện trong tương lai">
-<!ENTITY calendar.events.filter.current.label "Ngày được chọn">
-<!ENTITY calendar.events.filter.currentview.label "Sự kiện trong chế độ xem hiện tại">
-<!ENTITY calendar.events.filter.next7Days.label "Sự kiện trong 7 ngày tới">
-<!ENTITY calendar.events.filter.next14Days.label "Sự kiện trong 14 ngày tới">
-<!ENTITY calendar.events.filter.next31Days.label "Sự kiện trong 31 ngày tới">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Sự kiện trong tháng này">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Xong">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Sắp xếp theo hoàn thành">
-<!ENTITY calendar.unifinder.tree.priority.label            "Ưu tiên">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Sắp xếp theo mức độ ưu tiên">
-<!ENTITY calendar.unifinder.tree.title.label               "Tiêu đề">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Sắp xếp theo tiêu đề">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "Hoàn tất &#37;">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Sắp xếp theo hoàn tất &#37;">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Bắt đầu">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Sắp xếp theo ngày bắt đầu">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Kết thúc">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Sắp xếp theo ngày kết thúc">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Đến hạn">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Sắp xếp theo ngày đến hạn">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Hoàn tất">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Sắp xếp theo ngày hoàn tất">
-<!ENTITY calendar.unifinder.tree.categories.label          "Danh mục">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Sắp xếp theo danh mục">
-<!ENTITY calendar.unifinder.tree.location.label            "Địa điểm">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Sắp xếp theo địa chỉ">
-<!ENTITY calendar.unifinder.tree.status.label              "Trạng thái">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Sắp xếp theo trạng thái">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Tên Lịch">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Sắp xếp theo tên lịch">
-<!ENTITY calendar.unifinder.tree.duration.label            "Đến hạn trong">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Sắp xếp theo thời gian cho đến khi đến hạn">
-<!ENTITY calendar.unifinder.close.tooltip                  "Đóng tìm kiếm và danh sách sự kiện">
 
 <!ENTITY calendar.today.button.tooltip          "Đi đến hôm nay" >
 <!ENTITY calendar.todaypane.button.tooltip      "Hiển thị bảng hôm nay" >
 
-<!ENTITY calendar.day.button.tooltip            "Chuyển sang xem theo ngày" >
-<!ENTITY calendar.week.button.tooltip           "Chuyển sang xem theo tuần" >
-<!ENTITY calendar.month.button.tooltip          "Chuyển sang xem theo tháng" >
-<!ENTITY calendar.multiweek.button.tooltip      "Chuyển sang xem theo nhiều tuần" >
-
-<!ENTITY calendar.nextday.label                 "Ngày sau" >
-<!ENTITY calendar.prevday.label                 "Ngày trước" >
-<!ENTITY calendar.nextday.accesskey             "x" >
-<!ENTITY calendar.prevday.accesskey             "s" >
-<!ENTITY calendar.nextweek.label                "Tuần sau" >
-<!ENTITY calendar.prevweek.label                "Tuần trước" >
-<!ENTITY calendar.nextweek.accesskey            "x" >
-<!ENTITY calendar.prevweek.accesskey            "s" >
-<!ENTITY calendar.nextmonth.label               "Tháng sau" >
-<!ENTITY calendar.prevmonth.label               "Tháng trước" >
-<!ENTITY calendar.nextmonth.accesskey           "x" >
-<!ENTITY calendar.prevmonth.accesskey           "s" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Tiến một ngày" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Lùi một ngày" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Tiến một tuần" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Lùi một tuần" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Tiến một tháng" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Lùi một tháng" >
-
 <!ENTITY calendar.newevent.button.label         "Sự kiện mới" >
 <!ENTITY calendar.newtask.button.label          "Tác vụ mới" >
-<!ENTITY calendar.print.button.label            "In" >
-<!ENTITY calendar.print.button.accesskey        "P">
 
-<!ENTITY calendar.day.button.label              "Ngày" >
-<!ENTITY calendar.week.button.label             "Tuần" >
-<!ENTITY calendar.month.button.label            "Tháng" >
-<!ENTITY calendar.multiweek.button.label        "Nhiều tuần" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "Chỉ hiện các ngày làm việc" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "l" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Tác vụ trong chế độ xem" >
@@ -277,8 +206,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "R">
 <!ENTITY calendar.context.unsubscribeserver.label      "Hủy đăng ký lịch…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "U">
-<!ENTITY calendar.context.synccalendars.label          "Đồng bộ hóa lịch">
-<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "Xuất bản lịch…">
 <!ENTITY calendar.context.publish.accesskey            "b">
 <!ENTITY calendar.context.export.label                 "Xuất lịch…">
@@ -372,27 +299,8 @@
 <!ENTITY calendar.publish.publish.button      "Xuất bản">
 <!ENTITY calendar.publish.close.button      "Đóng">
 
-<!ENTITY calendar.publish.example.url.description   "Một cái gì đó như http://www.myserver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "Chọn lịch">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "In lịch">
-<!ENTITY calendar.print.title.label "Tiêu đề:">
-<!ENTITY calendar.print.layout.label "Bố cục:">
-<!ENTITY calendar.print.range.label "Những gì để in">
-<!ENTITY calendar.print.currentView2.label "Chế độ xem hiện tại">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "Tác vụ/sự kiện đã chọn">
-<!ENTITY calendar.print.tasks.label "Tác vụ">
-<!ENTITY calendar.print.events.label "Sự kiện">
-<!ENTITY calendar.print.custom.label "Khoảng ngày tùy biến:">
-<!ENTITY calendar.print.from.label "Từ:">
-<!ENTITY calendar.print.to.label "Tới:">
-<!ENTITY calendar.print.settingsGroup.label "Cài đặt in">
-<!ENTITY calendar.print.optionsGroup.label "Tùy chọn">
-<!ENTITY calendar.print.taskswithnoduedate.label "Tác vụ không có ngày đến hạn">
-<!ENTITY calendar.print.completedtasks.label "Tác vụ đã hoàn tất">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Chi tiết…">

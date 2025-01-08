@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Մաքրել">
 <!ENTITY encryption.certificate_clear.accesskey "Մ">
 <!ENTITY signingGroupTitle.label "Թվային ստորագր.">
-
 <!ENTITY signingCert2.message "Գաղտնագրման համար անձնական վկայագիր.">
 
 <!ENTITY sendingDefaults.label "Սկզբնադիր կարգավորումներ նոր շղթաների համար">

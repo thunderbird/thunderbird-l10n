@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Caracteristicas da la tabella…">
 <!ENTITY tableProperties.accesskey "C">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Grafica">
 <!ENTITY imageToolbarCmd.tooltip "Inserir ina nova grafica u modifitgar las caracteristicas da la grafica selecziunada">
 <!ENTITY hruleToolbarCmd.label "Lingia">

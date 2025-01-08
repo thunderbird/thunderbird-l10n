@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Teckensnitt
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Standard ({ $name })
 fonts-label-default-unnamed =
     .label = Standard
-fonts-encoding-dialog-title =
-    .title = Teckensnitt & teckenuppsättningar
 fonts-language-legend =
     .value = Teckensnitt för:
     .accesskey = c

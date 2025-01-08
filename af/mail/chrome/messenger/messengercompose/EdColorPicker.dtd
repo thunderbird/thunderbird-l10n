@@ -5,7 +5,6 @@
 <!ENTITY windowTitle.label "Kleur">
 <!ENTITY lastPickedColor.label "Mees onlangs gekose kleur">
 <!ENTITY lastPickedColor.accessKey "M">
-
 <!ENTITY default.label "Verstek">
 <!ENTITY default.accessKey "V">
 <!ENTITY palette.label "Palet:">

@@ -26,7 +26,6 @@
 <!ENTITY connectionSecurity.label "კავშირის უსაფრთხოება:">
 <!ENTITY connectionSecurity.accesskey "უ">
 <!ENTITY connectionSecurityType-0.label "არა">
-<!ENTITY connectionSecurityType-1.label "STARTTLS, თუ მისაწვდომია">
 <!ENTITY connectionSecurityType-2.label "STARTTLS">
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY authMethod.label "ანგარიშზე შესვლის უსაფრთხო მეთოდი:">

@@ -97,18 +97,6 @@ mail-context-menu-forward-forward =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Dilezel ar gemennadenn
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [1] Dizilemel ar gemennadenn
-            [one] Dizilemel ar c’hemennadennoù diuzet
-            [two] Dizilemel ar c’hemennadennoù diuzet
-            [few] Dizilemel ar c’hemennadennoù diuzet
-            [many] Dizilemel ar c’hemennadennoù diuzet
-           *[other] Dizilemel ar c’hemennadennoù diuzet
-        }
 
 ## Message header pane
 

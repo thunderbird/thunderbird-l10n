@@ -2,13 +2,18 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY matchAll.label "Адпавядаюць усім з наступных">
+<!ENTITY matchAll.label     "Адпавядаюць усім з наступных">
 <!ENTITY matchAll.accesskey "у">
-<!ENTITY matchAny.label "Адпавядаюць якому-небудзь з наступных">
+<!ENTITY matchAny.label     "Адпавядаюць якому-небудзь з наступных">
 <!ENTITY matchAny.accesskey "я">
-<!ENTITY matchAllMsgs.label "Адпавядаюць усім лістам">
+<!ENTITY matchAllMsgs.label     "Адпавядаюць усім лістам">
 <!ENTITY matchAllMsgs.accesskey "А">
 
+<!-- LOCALIZATION NOTE
+  The values below are used to control the widths of the search widgets.
+  Change the values only when the localized strings in the popup menus
+  are truncated in the widgets.
+ -->
 <!ENTITY searchTermListAttributesFlexValue "6">
 <!ENTITY searchTermListOperatorsFlexValue "6">
 <!ENTITY searchTermListValueFlexValue "6">

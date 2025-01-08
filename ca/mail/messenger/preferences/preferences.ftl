@@ -397,8 +397,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Tanca la finestra o la pestanya de missatges quan se suprimeixi o es mogui
     .accesskey = T
-display-name-label =
-    .value = Nom a mostrar:
 address-display-legend = Llista de missatges
 address-display-description = Format preferit de visualització de l'adreça:
 address-display-full =
@@ -580,9 +578,6 @@ primary-password-button =
 forms-primary-pw-fips-title = Us trobeu en mode FIPS. El FIPS requereix una contrasenya principal que no sigui buida.
 forms-master-pw-fips-desc = El canvi de contrasenya ha fallat
 junk-description = Definiu els paràmetres de correu brossa per defecte. Els paràmetres específics de cada compte poden configurar-se des dels Paràmetres dels comptes.
-junk-label =
-    .label = Quan marqui els missatges com a brossa:
-    .accesskey = Q
 junk-marked-label =
     .label = Quan marqui els missatges com a brossa:
     .accesskey = Q
@@ -592,9 +587,6 @@ junk-move-label =
 junk-delete-label =
     .label = Suprimeix-los
     .accesskey = x
-junk-read-label =
-    .label = Marca els missatges determinats com a brossa com a llegits
-    .accesskey = c
 junk-read-description = Marca els missatges com a llegits
 junk-read-manual-label =
     .label = Quan els marqui manualment com a brossa
@@ -800,3 +792,6 @@ synced-acount-item-filters = Filtres
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sincronitzeu els vostres comptes de correu, llibretes d'adreces, calendaris i identitats en tots els vostres dispositius.
 sync-disconnected-turn-on-sync = Activa la sincronització…
+
+## Mobile QR Export Pane
+

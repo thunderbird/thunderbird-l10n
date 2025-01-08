@@ -10,12 +10,6 @@ reminder-title-at-start-event = Med det same hendinga startar
 reminder-title-at-start-task = Med det same oppgåva startar
 reminder-title-at-end-event = Med det same hendinga sluttar
 reminder-title-at-end-task = Med det same hendinga sluttar
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Utsett påminninga i { $unit }
 reminder-custom-origin-begin-before-event = før hendinga startar
 reminder-custom-origin-begin-after-event = etter hendinga startar
 reminder-custom-origin-end-before-event = før hendinga sluttar

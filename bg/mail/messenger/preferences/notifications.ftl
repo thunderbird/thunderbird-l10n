@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Известяване за нова поща по избор
 notifications-dialog-title = Известяване за нова поща по избор
 customize-alert-description = Изберете кои полета да се показват при известяване:
 preview-text-checkbox =

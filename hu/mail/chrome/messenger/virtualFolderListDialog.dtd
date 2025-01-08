@@ -4,7 +4,5 @@
 
 <!ENTITY virtualFolderListTitle.title        "Mappák kijelölése">
 <!ENTITY virtualFolderDesc.label       "Keresés a következő mappákban:">
-
-
 <!ENTITY folderName.label "Mappa neve">
 <!ENTITY folderSearch.label "Keresés">

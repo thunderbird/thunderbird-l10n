@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Dùng các biểu tượng nhỏ">
 <!ENTITY restoreDefaultSet.label  "Khôi phục về mặc định">
 <!ENTITY showTitlebar2.label      "Thanh tiêu đề">
-<!ENTITY extraDragSpace2.label    "Kéo khoảng trắng">
 <!ENTITY saveChanges.label        "Xong">
 <!ENTITY undoChanges.label        "Hoàn tác các thay đổi">

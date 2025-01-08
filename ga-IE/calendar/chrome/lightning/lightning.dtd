@@ -1,45 +1,51 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- WARNING! This file contains UTF-8 encoded characters!
    - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
    - your editor isn't using UTF-8 encoding and may munge up the document!
   -->
+
 <!-- Tools menu -->
-
-
 <!ENTITY lightning.preferencesLabel "Féilire">
-<!-- New menu popup in File menu -->
 
+<!-- New menu popup in File menu -->
 <!ENTITY lightning.menupopup.new.event.label    "Imeacht…">
 <!ENTITY lightning.menupopup.new.event.accesskey "e">
 <!ENTITY lightning.menupopup.new.task.label     "Tasc…">
 <!ENTITY lightning.menupopup.new.task.accesskey "T">
 <!ENTITY lightning.menupopup.new.calendar.label "Féilire…">
 <!ENTITY lightning.menupopup.new.calendar.accesskey "F">
-<!-- Open menu popup in File menu -->
 
-<!ENTITY lightning.menupopup.open.label               "Oscail">
-<!ENTITY lightning.menupopup.open.accesskey           "O">
-<!ENTITY lightning.menupopup.open.message.label       "Teachtaireacht Sábháilte…">
-<!ENTITY lightning.menupopup.open.message.accesskey   "T">
+<!-- Open menu popup in File menu -->
 <!ENTITY lightning.menupopup.open.calendar.label      "Comhad Féilire…">
 <!ENTITY lightning.menupopup.open.calendar.accesskey  "C">
-<!-- View Menu -->
 
+<!-- View Menu -->
 <!ENTITY lightning.menu.view.calendar.label            "Féilire">
 <!ENTITY lightning.menu.view.calendar.accesskey        "F">
 <!ENTITY lightning.menu.view.tasks.label               "Tascanna">
 <!ENTITY lightning.menu.view.tasks.accesskey           "c">
-<!-- Events and Tasks menu -->
 
+<!-- Events and Tasks menu -->
 <!ENTITY lightning.menu.eventtask.label                "Imeachtaí agus Tascanna">
 <!ENTITY lightning.menu.eventtask.accesskey            "m">
+
 <!-- properties dialog, calendar creation wizard -->
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.email.label,
+     lightning.calendarproperties.forceEmailScheduling.label)
+     These strings are used in the calendar wizard and the calendar properties dialog, but are only
+     displayed when setting/using a caldav calendar -->
+<!ENTITY lightning.calendarproperties.email.label                           "Ríomhphost:">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
+     lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
+     - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 
-<!ENTITY lightning.calendarproperties.email.label               "Ríomhphost:">
+<!-- The notifications settings in the properties dialog -->
+
 <!-- iMIP Bar (meeting support) -->
-
 <!ENTITY lightning.imipbar.btnAccept.label                                  "Glac Leis">
 <!ENTITY lightning.imipbar.btnAccept2.tooltiptext                           "Glac leis an gcuireadh">
 <!ENTITY lightning.imipbar.btnAcceptRecurrences.label                       "Glac le gach ceann">
@@ -71,17 +77,16 @@
 <!ENTITY lightning.imipbar.btnUpdate.label                                  "Nuashonrú">
 <!ENTITY lightning.imipbar.btnUpdate.tooltiptext                            "Nuashonraigh an t-imeacht sa bhféilire">
 <!ENTITY lightning.imipbar.description                                      "Tá cuireadh d'imeacht sa teachtaireacht seo.">
-<!-- Lightning specific keybindings -->
 
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
+
+<!-- Lightning specific keybindings -->
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
+
 <!-- Account Central page -->
-
 <!ENTITY lightning.acctCentral.newCalendar.label "Cruthaigh féilire nua">
-<!-- today-pane-specific -->
 
+<!-- today-pane-specific -->
 <!ENTITY todaypane.showMinimonth.label "Taispeáin Mion-Mhí">
 <!ENTITY todaypane.showMinimonth.accesskey "M">
 <!ENTITY todaypane.showMiniday.label "Taispeáin Mion-Lá">

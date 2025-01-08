@@ -80,14 +80,6 @@ menu-edit-newsgroup-properties =
 mail-context-menu-forward-forward =
     .label = Proslijedi
     .accesskey = F
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Vrati izbrisanu poruku
-           *[other] Vrati odabrane izbrisane poruke
-        }
 
 ## Message header pane
 
@@ -127,7 +119,7 @@ quick-filter-bar-toggle =
     .label = Traka brzog filtriranja
     .accesskey = b
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

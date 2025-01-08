@@ -30,13 +30,3 @@
 <!ENTITY closeCmd.label      "Zavřít">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "Z">
-
-<!ENTITY quitApplicationCmd.label  "Ukončit">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "k">
-
-<!ENTITY quitApplicationCmdUnix.label  "Ukončit">
-<!ENTITY quitApplicationCmdUnix.accesskey  "k">
-
-<!ENTITY quitApplicationCmdMac.label  "Ukončit &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "k">

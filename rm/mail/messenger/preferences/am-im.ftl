@@ -4,14 +4,14 @@
 
 account-settings-title = Parameters d'autentificaziun
 account-channel-title = Chanals predefinids
-
 chat-autologin =
     .label = S'annunziar cun aviar
-
 chat-encryption-generic = Generic
 chat-encryption-log =
     .label = Includer messadis criptads da-fin-a-fin en la cronologia da las conversaziuns
 chat-encryption-label = Criptadi da-fin-a-fin nativ
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } porscha in criptadi da-fin-a-fin per messadis da chat. Quai evitescha che terzas partidas possian spiunar ina conversaziun. Eventualmain è ina configuraziun supplementara necessaria sutvart per ch'il criptadi funcziunia.
 chat-encryption-status = Status dal criptadi
 chat-encryption-placeholder = Il criptadi n'è betg inizialisà.

@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "선택한 캘린더 제거…">
 <!ENTITY calendar.removecalendar.accesskey      "R">
 
-
-<!ENTITY calendar.menu.customize.label          "사용자 설정…">
-<!ENTITY calendar.menu.customize.accesskey      "C">
-
 <!ENTITY showUnifinderCmd.label                 "이벤트 찾기">
 <!ENTITY showUnifinderCmd.accesskey             "F">
 <!ENTITY showUnifinderCmd.tooltip               "이벤트 찾기 창 표시">
@@ -43,8 +39,8 @@
 <!ENTITY goTodayCmd.label                       "오늘로 가기">
 <!ENTITY goTodayCmd.accesskey                   "T">
 
-<!-- Toolbar items -->
 <!ENTITY showCurrentView.label                  "현재 보기">
 <!ENTITY showCurrentView.accesskey              "V">
+
 <!ENTITY calendar.properties.label              "캘린더 속성…">
 <!ENTITY calendar.properties.accesskey          "C">

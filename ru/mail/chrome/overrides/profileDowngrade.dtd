@@ -10,7 +10,6 @@
  given Thunderbird channel". These terms are not synonymous.
 -->
 <!ENTITY window.title "Вы запустили устаревшую версию &brandProductName;">
-<!ENTITY window.style "width: 490px;">
 
 <!ENTITY window.nosync2 "Более новая версия &brandProductName;, возможно, внесла изменения в ваш профиль, которые более не совместимы с этой старой версией. Используйте этот профиль только с той более новой версией или создайте новый профиль для этой установки &brandShortName;. Создание нового профиля требует повторной настройки учётных записей, календарей и дополнений.">
 

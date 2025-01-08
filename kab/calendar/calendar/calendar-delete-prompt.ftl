@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Variables:
+## $count (Number) - Number of events selected for deletion.
+
 calendar-delete-event-prompt-title =
     { $count ->
         [one] Kkes aneḍru
@@ -12,6 +16,10 @@ calendar-delete-event-prompt-message =
         [one] Tebɣiḍ s tidet ad tekkseḍ aneḍru-a?
        *[other] Tebɣiḍ s tidet ad tekkseḍ { $count } agi n yineḍruyen?
     }
+
+## Variables:
+## $count (Number) - Number of tasks selected for deletion.
+
 calendar-delete-task-prompt-title =
     { $count ->
         [one] Kkes tawuri
@@ -22,6 +30,10 @@ calendar-delete-task-prompt-message =
         [one] Tebɣiḍ s tidet ad tekkseḍ { $count } twuri-a?
        *[other] Tebɣiḍ s tidet ad tekkseḍ { $count } twuriwin-a?
     }
+
+## Variables:
+## $count (Number) - Number of items selected for deletion.
+
 calendar-delete-item-prompt-title =
     { $count ->
         [one] Kkes aferdis
@@ -32,4 +44,7 @@ calendar-delete-item-prompt-message =
         [one] Tebɣiḍ s tidet ad tekkseḍ { $count } uferdisa-a?
        *[other] Tebɣiḍ s tidet ad tekkseḍ { $count } yiferdisen-a?
     }
+
+##
+
 calendar-delete-prompt-disable-message = Ur y-id-sutur ara tikkelt-nniḍen.

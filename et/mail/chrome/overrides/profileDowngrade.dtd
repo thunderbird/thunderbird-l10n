@@ -10,7 +10,6 @@
  given Thunderbird channel". These terms are not synonymous.
 -->
 <!ENTITY window.title "Käivitatud on &brandProductName;i vanem versioon">
-<!ENTITY window.style "width: 490px;">
 
 <!ENTITY window.nosync2 "Uuem &brandProductName;i versioon on muutnud sinu profiili ja see pole enam vanema versiooniga ühilduv. Kasuta seda profiili vaid uuema versiooniga või loo selle &brandShortName; paigalduse jaoks uus profiil. Uue profiili loomisel pead kontod, kalendrid ja lisad uuesti seadistama.">
 

@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgReadSecurityInfo.dtd UI for viewing security status when reading a received message -->
 
-
 <!ENTITY status.label "Xabar xavfsizligi">
 <!ENTITY signatureCert.label "Sertifikat imzosini ko‘rish">
 <!ENTITY encryptionCert.label "Shifrlash sertifikatini ko‘rish">
@@ -14,3 +13,4 @@
 <!ENTITY email.address "E-pochta manzili">
 <!ENTITY issuer.name "Sertikat egasi:">
 
+<!-- LOCALIZATION NOTE(SMIME.label): This a name for a technical standard. You should not translate it, but if applicable, you may write it using localized characters. -->

@@ -37,7 +37,6 @@ import-label = Tuonti
     .aria-label = Tuo tietoja muista ohjelmista
 about-paragraph = Thunderbird on johtava avoimen lähdekoodin ja kaikkien alustojen sähköposti- ja kalenteriohjelma. Se on ilmainen niin yrityskäyttöön kuin yksityiskäyttöön. Haluamme pitää sen turvallisena ja kehittää siitä entistä paremman. Lahjoitus auttaa meitä palkkaamaan kehittäjiä, rahoittamaan infrastruktuuria ja jatkamaan kehitystyötä.
 about-paragraph-consider-donation = <b>Thunderbirdia rahoittavat kaltaisesi käyttäjät! Jos Thunderbird on mieleesi, harkitse lahjoituksen antamista.</b> Paras tapa taata Thunderbirdin olemassaolo on <a data-l10n-name="donation-link"> tehdä lahjoitus</a>.
-explore-link = Tutustu ominaisuuksiin
 support-link = Tuki
 involved-link = Tule mukaan
 developer-link = Kehittäjien dokumentaatio

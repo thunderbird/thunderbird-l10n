@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Thêm Khóa OpenPGP Cá nhân cho { $identity }
-key-wizard-button =
-    .buttonlabelaccept = Tiếp tục
-    .buttonlabelhelp = Quay lại
 key-wizard-dialog =
     .buttonlabelaccept = Tiếp tục
     .buttonlabelextra1 = Quay lại
@@ -105,8 +102,6 @@ openpgp-import-key-list-caption = Các khóa được đánh dấu được coi 
 openpgp-import-keep-passphrases =
     .label = Giữ bảo vệ cụm mật khẩu cho các khóa bí mật đã nhập
 openpgp-passphrase-prompt-title = Yêu cầu cụm mật khẩu
-#   $key (String) - the id of the key being imported
-openpgp-passphrase-prompt = Vui lòng nhập cụm mật khẩu để mở khóa sau: { $key }
 openpgp-import-key-button =
     .label = Chọn tập tin để nhập…
     .accesskey = S

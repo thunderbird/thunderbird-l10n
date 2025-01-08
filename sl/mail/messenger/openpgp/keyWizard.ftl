@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Dodaj osebni ključ OpenPGP za  { $identity }
-key-wizard-button =
-    .buttonlabelaccept = Nadaljuj
-    .buttonlabelhelp = Pojdi nazaj
 key-wizard-dialog =
     .buttonlabelaccept = Nadaljuj
     .buttonlabelextra1 = Pojdi nazaj
@@ -108,8 +105,6 @@ openpgp-import-key-list-caption = Ključi, označeni za obravnavo kot osebni klj
 openpgp-import-keep-passphrases =
     .label = Obdrži zaščito uvoženih skrivnih ključev z geslom
 openpgp-passphrase-prompt-title = Zahtevano je geslo
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Vnesite geslo za odklepanje naslednjega ključa: { $key }
 openpgp-import-key-button =
     .label = Izberi datoteko za uvoz …
     .accesskey = I

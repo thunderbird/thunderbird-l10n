@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- these things need to move into utilityOverlay.xul -->
-
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
 
 <!ENTITY fileMenu.label          "ਫਾਇਲ">
@@ -30,13 +28,3 @@
 <!ENTITY closeCmd.label      "ਬੰਦ">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "c">
-
-<!ENTITY quitApplicationCmd.label  "ਬੰਦ ਕਰੋ">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "x">
-
-<!ENTITY quitApplicationCmdUnix.label  "ਬੰਦ ਕਰੋ">
-<!ENTITY quitApplicationCmdUnix.accesskey  "q">
-
-<!ENTITY quitApplicationCmdMac.label  "&brandShortName; ਬੰਦ ਕਰੋ">
-<!ENTITY quitApplicationCmdMac.accesskey  "q">

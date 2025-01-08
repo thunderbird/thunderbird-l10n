@@ -81,14 +81,6 @@ menu-edit-newsgroup-properties =
 mail-context-menu-forward-forward =
     .label = Pārsūtīt
     .accesskey = P
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Atdzēst vēstuli
-           *[other] Atdzēst atlasītās vēstules
-        }
 
 ## Message header pane
 
@@ -128,7 +120,7 @@ quick-filter-bar-toggle =
     .label = Ātro filtru josla
     .accesskey = t
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

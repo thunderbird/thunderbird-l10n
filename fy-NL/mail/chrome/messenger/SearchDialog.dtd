@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- for SearchDialog.xul -->
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "Berjochten sykje yn:">
 <!ENTITY searchHeading.accesskey     "k">
 <!ENTITY searchSubfolders.label      "Yn submappen sykje">
@@ -19,13 +19,13 @@
 <!ENTITY results.label               "Resultaten">
 <!ENTITY moveButton.label            "Ferpleats nei">
 <!ENTITY moveButton.accesskey        "n">
-<!ENTITY closeCmd.key                "W"> 
+<!ENTITY closeCmd.key                "W">
 <!ENTITY openInFolder.label          "Iepenje yn map">
 <!ENTITY openInFolder.accesskey      "m">
 <!ENTITY saveAsVFButton.label        "Bewarje as sykmap">
 <!ENTITY saveAsVFButton.accesskey    "s">
 
-<!-- for ABSearchDialog.xul -->
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "Adressen sykje yn:">
 <!ENTITY abSearchHeading.accesskey   "k">
 <!ENTITY propertiesButton.label      "Eigenskippen">
@@ -35,4 +35,3 @@
 <!ENTITY deleteCardButton.label      "Fuortsmite">
 <!ENTITY deleteCardButton.accesskey  "F">
 <!ENTITY abSearchDialogTitle.label   "Adresboek wiidweidich trochsykje">
-

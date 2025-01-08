@@ -4,11 +4,7 @@
 
 openpgp-import-sender-key =
     .label = Tijik' pe…
-
 openpgp-search-signature-key =
     .label = Discover…
-
 openpgp-broken-exchange-wait = Tawoyob'ej…
-
 openpgp-partial-verify-button = Tinik'öx
-

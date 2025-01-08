@@ -3,10 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY virtualFolderProperties.title "Ny virtuel mappe">
-<!ENTITY name.label "Navn:">
-<!ENTITY name.accesskey "N">
-<!ENTITY description.label "Opret som en undermappe til:">
-<!ENTITY description.accesskey "O">
+<!ENTITY name.label                 "Navn:">
+<!ENTITY name.accesskey             "N">
+<!ENTITY description.label          "Opret som en undermappe til:">
+<!ENTITY description.accesskey      "O">
 
 <!ENTITY searchTermCaption.label "Indstil søgekriterierne for denne virtuelle mappe:">
 

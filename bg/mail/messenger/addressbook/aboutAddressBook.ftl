@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Добавяне на CardDAV адресник
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Добавяне на LDAP адресник
-about-addressbook-toolbar-new-contact =
-    .label = Нов контакт
-about-addressbook-toolbar-new-list =
-    .label = Нов списък
-about-addressbook-toolbar-import =
-    .label = Внасяне
 books-pane-create-contact-button = Нов контакт
     .title = Създаване на нов контакт
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Сигурни ли сте, че 
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Търсене { $name }
-about-addressbook-search-all =
-    .placeholder = Търсене във всички адресници
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -280,7 +268,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Редактиране на снимка на контакта
 about-addressbook-new-contact-header = Нов контакт
-about-addressbook-prefer-display-name = Винаги се предпочита изобразявано име над заглавката
 about-addressbook-write-action-button = Писане
 about-addressbook-event-action-button = Събитие
 about-addressbook-search-action-button = Търсене

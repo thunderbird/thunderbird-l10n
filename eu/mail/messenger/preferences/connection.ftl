@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = P
     .tooltiptext = Sartu zure gogoko URL HTTPSn DNSak ebazteko
 connection-dns-over-https-custom-label = Pertsonalizatua
-connection-dialog-window2 =
-    .title = Konexio-ezarpenak
 connection-dialog-title = Konexio-ezarpenak
 disable-extension-button = Desgaitu hedapena
 # Variables:

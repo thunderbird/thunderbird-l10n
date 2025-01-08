@@ -12,4 +12,3 @@ view-fingerprint-button =
     .label = Կառավարել կոնտակտների մատնահետքերը
     .accesskey = F
 otr-settings-title = OTR կարգավորումներ
-

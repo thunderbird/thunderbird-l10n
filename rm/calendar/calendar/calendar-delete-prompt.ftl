@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Variables:
+## $count (Number) - Number of events selected for deletion.
+
 calendar-delete-event-prompt-title =
     { $count ->
         [one] Stizzar l'eveniment
@@ -12,6 +16,10 @@ calendar-delete-event-prompt-message =
         [one] Vuls ti propi stizzar quest eveniment?
        *[other] Vuls ti propi stizzar quests { $count } eveniments?
     }
+
+## Variables:
+## $count (Number) - Number of tasks selected for deletion.
+
 calendar-delete-task-prompt-title =
     { $count ->
         [one] Stizzar l'incumbensa
@@ -22,6 +30,10 @@ calendar-delete-task-prompt-message =
         [one] Vuls ti propi stizzar questa incumbensa?
        *[other] Vuls ti propi stizzar questas { $count } incumbensas?
     }
+
+## Variables:
+## $count (Number) - Number of items selected for deletion.
+
 calendar-delete-item-prompt-title =
     { $count ->
         [one] Stizzar l'element
@@ -32,4 +44,7 @@ calendar-delete-item-prompt-message =
         [one] Vuls ti propi stizzar quest element?
        *[other] Vuls ti propi stizzar quests { $count } elements?
     }
+
+##
+
 calendar-delete-prompt-disable-message = Betg pli ma dumandar.

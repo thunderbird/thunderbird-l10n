@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Contraseña
     .accesskey = o
     .title = Opcional, solo se usará para validar el nombre de usuario
-account-provisioner-button = Obtener una nueva dirección de correo electrónico
-    .accesskey = b
 account-setup-password-toggle-show =
     .title = Mostrar la contraseña en texto sin cifrar
 account-setup-password-toggle-hide =
@@ -146,7 +144,6 @@ account-setup-credentials-incomplete = Falló la autenticación. O las credencia
 account-setup-credentials-wrong = Falló la autenticación. Verifique el nombre de usuario y la contraseña
 account-setup-find-settings-failed = { -brand-short-name } no pudo encontrar la configuración de la cuenta de correo electrónico
 account-setup-exchange-config-unverifiable = No se pudo verificar la configuración. Si su nombre de usuario y contraseña son correctos, es probable que el administrador del servidor haya deshabilitado la configuración seleccionada para su cuenta. Intente seleccionar otro protocolo.
-account-setup-provisioner-error = Ocurrió un error al configurar la nueva cuenta en { -brand-short-name }. Intente configurar manualmente la cuenta con sus credenciales.
 
 ## Manual configuration area
 

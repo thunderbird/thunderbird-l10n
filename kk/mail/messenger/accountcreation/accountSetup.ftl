@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Пароль
     .accesskey = а
     .title = Міндетті емес, тек пайдаланушы атын растауға қолданылады
-account-provisioner-button = Жаңа эл. пошта адресін алу
-    .accesskey = л
 account-setup-password-toggle-show =
     .title = Парольді ашық мәтінмен көрсету
 account-setup-password-toggle-hide =
@@ -145,7 +143,6 @@ account-setup-credentials-incomplete = Аутентификация сәтсіз
 account-setup-credentials-wrong = Аутентификация сәтсіз аяқталды. Пайдаланушы атын мен парольді тексеріңіз
 account-setup-find-settings-failed = { -brand-short-name } сіздің эл. пошта тіркелгісі үшін баптауларды таба алмады.
 account-setup-exchange-config-unverifiable = Баптауларды растау мүмкін емес. Пайдаланушы аты мен пароліңіз дұрыс болса, бұл сервер әкімшісі сіздің тіркелгіңіз үшін таңдалған баптауды сөндіргенін білдіруі мүмкін. Басқа хаттаманы таңдап көріңіз.
-account-setup-provisioner-error = { -brand-short-name } ішінде жаңа тіркелгіні баптау кезінде қате орын алды. Тіркелгіңізді тіркелгі деректерімен қолмен баптап көріңіз.
 
 ## Manual configuration area
 
@@ -276,6 +273,8 @@ account-setup-calendar-name-input =
 account-setup-calendar-color-label = Түс
 account-setup-calendar-refresh-label = Жаңарту
 account-setup-calendar-refresh-manual = Қолмен
+# Variables:
+# $count (Number) - Number of minutes in the calendar refresh interval.
 account-setup-calendar-refresh-interval =
     { $count ->
        *[other] Әр { $count } минут сайын

@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Lejárat
 openpgp-key-id-label =
     .label = Kulcsazonosító
-openpgp-cannot-change-expiry = Ez egy komplex felépítésű kulcs, lejárati idejének megváltoztatása nem támogatott.
-openpgp-key-man-title =
-    .title = OpenPGP-kulcskezelő
 openpgp-key-man-dialog-title = OpenPGP-kulcskezelő
 openpgp-key-man-generate =
     .label = Új kulcspár
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Visszavonási tanúsítvány
     .accesskey = V
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Visszavonási tanúsítvány létrehozása és mentése
 openpgp-key-man-gen-revocation =
     .label = Visszavonási tanúsítvány fájlba mentése
     .accesskey = t
@@ -489,8 +484,6 @@ filter-encrypt-label = Titkosítás a kulcshoz (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Sikeres! Kulcsok importálva
 import-info-dialog-title = Sikeres! Kulcsok importálva
 import-info-bits = Bitek
 import-info-created = Létrehozva
@@ -780,15 +773,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     { $width } karakteresre állította a sortördelést. A helyes titkosításhoz és aláíráshoz ennek az értéknek legalább 68-nak kell lennie.
     68 karakteresre állítja a sortördelést?
-sending-news =
-    A titkosított küldési művelet megszakítva.
-    Ezt az üzenetet nem lehet titkosítani, mert vannak hírcsoport-címzettek. Küldje el újra az üzenetet titkosítás nélkül.
-send-to-news-warning =
-    Figyelmeztetés: arra készül, hogy titkosított üzenetet küljdön egy hírcsoportnak.
-    Ez nem javasolt, mert csak akkor van értelme, ha a csoport összes tagja vissza tudja fejteni az üzenetet, azaz az üzenetet az összes résztvevő kulcsával titkosítani kell. Csak akkor küldje el ezt a levelet, ha pontosan tudja mit csinál.
-    Folytatja?
 save-attachment-header = Visszafejtett melléklet mentése
-possibly-pgp-mime = Lehet, hogy PGP/MIME segítségével titkosított vagy aláírt üzenet; az ellenőrzéshez használja a „Visszafejtés/Ellenőrzés” funkciót
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Nem lehet digitálisan aláírni ezt az üzenetet, mert még nem állította be a végpontok közti titkosítást a(z) <{ $key }> számára
@@ -842,15 +827,6 @@ debug-log-title = OpenPGP hibakeresési napló
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Ez a figyelmeztetés { $count }
-repeat-suffix-singular = alkalommal meg lesz ismételve.
-repeat-suffix-plural = alkalommal meg lesz ismételve.
-no-repeat = Ez a figyelmeztetés nem jelenik meg újra.
-dlg-keep-setting = Jegyezze meg a válaszomat, és ne kérdezze meg újra
 
 ## Strings used in dialog.sys.mjs
 
@@ -860,8 +836,6 @@ dlg-button-cancel = &Mégse
 dlg-no-prompt = Ne jelenjen meg többet ez a párbeszédablak
 enig-prompt = OpenPGP kérdés
 enig-confirm = OpenPGP megerősítés
-enig-alert = OpenPGP figyelmeztetés
-enig-info = OpenPGP információ
 
 ## Strings used in persistentCrypto.jsm
 

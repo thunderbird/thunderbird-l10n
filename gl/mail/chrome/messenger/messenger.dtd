@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "h">
 <!ENTITY newVirtualFolderCmd.label "Busca gardada…">
 <!ENTITY newVirtualFolderCmd.accesskey "B">
-<!ENTITY newCreateEmailAccountCmd.label "Obter unha nova conta de correo…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "b">
-<!ENTITY newExistingEmailAccountCmd.label "Conta de correo existente…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "e">
 <!ENTITY newIMAccountCmd.label "Conta de conversas…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "Conta de fontes…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Eliminar mensaxe">
-<!ENTITY deleteMsgCmd.accesskey "s">
-<!ENTITY undeleteMsgCmd.label "Restaurar mensaxe">
-<!ENTITY undeleteMsgCmd.accesskey "t">
-<!ENTITY deleteMsgsCmd.label "Eliminar as mensaxes seleccionadas">
-<!ENTITY deleteMsgsCmd.accesskey "s">
-<!ENTITY undeleteMsgsCmd.label "Restaurar as mensaxes seleccionadas">
-<!ENTITY undeleteMsgsCmd.accesskey "t">
-<!ENTITY deleteFolderCmd.label "Eliminar o cartafol">
-<!ENTITY deleteFolderCmd.accesskey "t">
-<!ENTITY unsubscribeNewsgroupCmd.label "Cancelar subscrición">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "b">
 <!ENTITY selectMenu.label "Seleccionar">
 <!ENTITY selectMenu.accesskey "n">
 <!ENTITY all.label "Todas">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "n">
 <!ENTITY menuFavoriteFolder.label "Cartafol favorito">
 <!ENTITY menuFavoriteFolder.accesskey "a">
-<!ENTITY folderPropsCmd2.label "Propiedades">
-<!ENTITY folderPropsFolderCmd2.label "Propiedades do cartafol">
-<!ENTITY folderPropsNewsgroupCmd2.label "Propiedades do grupo de noticias">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Desfacer Eliminar mensaxe">
 <!ENTITY redoDeleteMsgCmd.label "Refacer Eliminar mensaxe">
 <!ENTITY undoMoveMsgCmd.label "Desfacer Mover mensaxe">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "c">
 <!ENTITY showFolderPaneCmd.label "Panel do cartafol">
 <!ENTITY showFolderPaneCmd.accesskey "f">
-<!ENTITY showFolderPaneColsCmd.label "Columnas do panel de cartafoles">
-<!ENTITY showFolderPaneColsCmd.accesskey "p">
 <!ENTITY showMessageCmd.label "Panel da mensaxe">
 <!ENTITY showMessageCmd.accesskey "x">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nova mensaxe">
 <!ENTITY appmenuNewContactCmd.label "Contacto da axenda de enderezos…">
-<!ENTITY appmenuEditMenu.label "Editar">
 <!ENTITY appmenuToolbarLayout.label "Disposición da barra de ferramentas…">
-<!ENTITY appmenuSelectThread.label "Seleccionar fío">
-<!ENTITY appmenuSelectFlagged.label "Seleccionar as mensaxes con estrela">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nova etiqueta…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "u">
 <!ENTITY folderContextMarkNewsgroupRead.label "Marcar grupo de noticias como lido">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "c">
-<!ENTITY folderContextMarkMailFolderRead.label "Marcar o cartafol lido">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "c">
 <!ENTITY folderContextSubscribe.label "Subscribir…">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "Buscar nas mensaxes…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "t">
 <!ENTITY contextReplyList.label "Responder á lista">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextForward.label "Reenviar">
-<!ENTITY contextForward.accesskey "r">
-<!ENTITY contextForwardAsMenu.label "Reenviar como">
-<!ENTITY contextForwardAsMenu.accesskey "o">
-<!ENTITY contextForwardAsInline.label "Inserida">
-<!ENTITY contextForwardAsInline.accesskey "I">
-<!ENTITY contextForwardAsAttachmentItem.label "Anexo">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "A">
-<!ENTITY contextMultiForwardAsAttachment.label "Reenviar como anexos">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "o">
 <!ENTITY contextMoveMsgMenu.label "Mover a">
 <!ENTITY contextMoveMsgMenu.accesskey "M">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Recente">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "x">
 <!ENTITY copyEmailCmd.label "Copiar correo electrónico">
 <!ENTITY copyEmailCmd.accesskey "a">
-<!ENTITY stopCmd.label "Deter">
-<!ENTITY stopCmd.accesskey "t">
-<!ENTITY reloadCmd.label "Recargar">
-<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY openInBrowser.label "Abrir no navegador">
 <!ENTITY openInBrowser.accesskey "o">
 <!ENTITY openLinkInBrowser.label "Abrir ligazón no navegador">

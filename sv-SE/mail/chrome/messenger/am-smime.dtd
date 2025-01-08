@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Rensa">
 <!ENTITY encryption.certificate_clear.accesskey "e">
 <!ENTITY signingGroupTitle.label "Digital signering">
-
 <!ENTITY signingCert2.message "Personligt certifikat för digital signering:">
 
 <!ENTITY sendingDefaults.label "Standardinställningar för att skicka meddelanden">

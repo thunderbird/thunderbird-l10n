@@ -113,19 +113,6 @@ quick-filter-bar-results =
         [many] { $count } dteachtaireacht
        *[other] { $count } teachtaireacht
     }
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Scag na teachtaireachtaí seo <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search2 =
     .label = Scag teachtaireachtaí
 quick-filter-bar-searching =
@@ -220,8 +207,6 @@ threadpane-column-header-correspondents = Comhfhreagraithe
     .title = Sórtáil de réir comhfhreagraithe
 threadpane-column-label-correspondents =
     .label = Comhfhreagraithe
-threadpane-cell-correspondents =
-    .aria-label = Comhfhreagraithe
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
@@ -231,8 +216,6 @@ threadpane-column-header-subject = Ábhar
     .title = Sórtáil de réir ábhair
 threadpane-column-label-subject =
     .label = Ábhar
-threadpane-cell-subject =
-    .aria-label = Ábhar
 # Variables:
 # $title (String) - Message subject for tooltip.
 threadpane-cell-subject-title =
@@ -242,8 +225,6 @@ threadpane-column-header-date = Dáta
     .title = Sórtáil de réir dáta
 threadpane-column-label-date =
     .label = Dáta
-threadpane-cell-date =
-    .aria-label = Dáta
 # Variables:
 # $title (String) - Message date for tooltip.
 threadpane-cell-date-title =
@@ -253,8 +234,6 @@ threadpane-column-header-received = Faighte
     .title = Sórtáil de réir dáta faighte
 threadpane-column-label-received =
     .label = Faighte
-threadpane-cell-received =
-    .aria-label = Dáta faighte
 # Variables:
 # $title (String) - Message received date for tooltip.
 threadpane-cell-received-title =
@@ -264,8 +243,6 @@ threadpane-column-header-status = Stádas
     .title = Sórtáil de réir stádais
 threadpane-column-label-status =
     .label = Stádas
-threadpane-cell-status =
-    .aria-label = Stádas
 # Variables:
 # $title (String) - Message status for tooltip.
 threadpane-cell-status-title =
@@ -275,8 +252,6 @@ threadpane-column-header-size = Méid
     .title = Sórtáil de réir méide
 threadpane-column-label-size =
     .label = Méid
-threadpane-cell-size =
-    .aria-label = Méid
 # Variables:
 # $title (String) - Message size for tooltip.
 threadpane-cell-size-title =

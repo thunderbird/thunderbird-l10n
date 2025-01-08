@@ -10,12 +10,6 @@ reminder-title-at-start-event = Thời điểm sự kiện bắt đầu
 reminder-title-at-start-task = Thời điểm nhiệm vụ bắt đầu
 reminder-title-at-end-event = Thời điểm sự kiện kết thúc
 reminder-title-at-end-task = Thời điểm nhiệm vụ kết thúc
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Lời nhắc báo lại cho { $unit }
 reminder-custom-origin-begin-before-event = trước khi sự kiện bắt đầu
 reminder-custom-origin-begin-after-event = sau khi sự kiện bắt đầu
 reminder-custom-origin-end-before-event = trước khi sự kiện kết thúc

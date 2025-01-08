@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## View Menu
-
 ## Tools Menu
 
 
@@ -20,7 +18,11 @@ menu-view-repair-text-encoding =
     .label = Repară codarea de text
     .accesskey = c
 
+## View / Folders
+
+
 ## View / Layout
+
 
 ## File
 

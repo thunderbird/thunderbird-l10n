@@ -5,11 +5,9 @@
 carddav-url-label =
     .value = CardDAV ბმული:
     .accesskey = V
-
 carddav-refreshinterval-label =
     .label = დასინქრონება:
     .accesskey = ქ
-
 # Variables:
 #   $minutes (integer) - Number of minutes between address book synchronizations
 carddav-refreshinterval-minutes-value =
@@ -18,7 +16,6 @@ carddav-refreshinterval-minutes-value =
             [one] ყოველ წუთში
            *[other] ყოველ { $minutes } წუთში
         }
-
 # Variables:
 #   $hours (integer) - Number of hours between address book synchronizations
 carddav-refreshinterval-hours-value =
@@ -27,7 +24,6 @@ carddav-refreshinterval-hours-value =
             [one] ყოველ საათში
            *[other] ყოველ { $hours } საათში
         }
-
 carddav-readonly-label =
     .label = მხოლოდ წასაკითხი
     .accesskey = ხ

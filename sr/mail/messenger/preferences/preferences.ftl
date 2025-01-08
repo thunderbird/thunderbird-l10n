@@ -392,8 +392,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Затвори прозор/језичак поруке при померању или брисању
     .accesskey = З
-display-name-label =
-    .value = Име за приказ:
 condensed-addresses-label =
     .label = Прикажи само име за приказ за људе у мом именику
     .accesskey = П
@@ -560,18 +558,12 @@ primary-password-button =
     .accesskey = з
 forms-master-pw-fips-desc = Промена лозинке није успела
 junk-description = Поставите ваша подразумевана подешавања непожељне поште. Специфична подешавања за сваки налог понаособ можете поставити у подешавањима тог налога.
-junk-label =
-    .label = Када означим поруке као непожељне:
-    .accesskey = К
 junk-move-label =
     .label = Помери их у фасциклу "Непожељно" тог налога
     .accesskey = о
 junk-delete-label =
     .label = Обриши их
     .accesskey = б
-junk-read-label =
-    .label = Означи поруке за које је утврђено да су непожељне као прочитане
-    .accesskey = О
 junk-read-description = Означи поруке као прочитане
 junk-log-label =
     .label = Омогући записивање адаптивног филтрирања непожељног
@@ -769,3 +761,6 @@ synced-acount-item-filters = Филтери
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Синхронизујте налоге е-поште, именике, календаре и идентитете на свим вашим уређајима.
 sync-disconnected-turn-on-sync = Укључи синхронизацију…
+
+## Mobile QR Export Pane
+

@@ -25,6 +25,5 @@ webext-perms-description-messagesImport = Kter tugniwin ɣer Thunderbird
 webext-perms-description-messagesModify = Ɣeṛ tesnifleḍ iznan n yimal-ik.im mi ara ak.am-d-ttbanen.
 webext-perms-description-messagesMove = Nɣel neɣ senkez iznan-ik·im n yimayl (akked tririt-nsen ɣer tqecwalt n yikaramen)
 webext-perms-description-messagesDelete = Kkes i lebda iznan-ik·im n yimayl
-webext-perms-description-messagesRead = Ɣer iznan n yimayl-ik sakin creḍ-iten
 webext-perms-description-messagesTags = Rnu, beddel, kkes tiberninin n yizen
 webext-perms-description-messagesTagsList = Bder-d tibzimin n yiznan

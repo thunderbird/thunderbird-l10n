@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Sykje
-search-bar-item =
-    .label = Sykje:
 search-bar-item2 =
     .label = Sykje
 search-bar-placeholder = Sykje…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Allinnich tekst
 customize-cancel = Annulearje
 customize-save = Bewarje
 customize-unsaved-changes = Net-bewarre wizigingen yn oare funksjes
-customize-search-bar =
-    .label = Sykbalkknoppen…
 customize-search-bar2 =
     .label = Sykbalkknoppen
     .placeholder = Sykbalkknoppen…

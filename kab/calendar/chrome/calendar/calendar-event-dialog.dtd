@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "ayagi ymmal-d ma yella ur tqebbleḍ ara asumer n umesmiḍan">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Kkes…">
 <!ENTITY  event.menu.item.delete.accesskey                "K">
-<!ENTITY  event.menu.item.page.setup.label                "Asbadu n usebter">
-<!ENTITY  event.menu.item.page.setup.accesskey            "b">
-<!ENTITY  event.menu.item.print.label                     "Siggez">
-<!ENTITY  event.menu.item.print.accesskey                 "S">
 
 <!ENTITY  event.menu.edit.label                           "Ẓreg">
 <!ENTITY  event.menu.edit.accesskey                       "Ẓ">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "A">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Sagen…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "S">
-<!ENTITY  event.menu.view.showlink.label                  "Sken aseɣwen icudden">
-<!ENTITY  event.menu.view.showlink.accesskey              "d">
 
 <!ENTITY  event.menu.options.label                            "Iɣewwaṛen">
 <!ENTITY  event.menu.options.accesskey                        "w">
@@ -333,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "Tubeṛ" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "Wambeṛ" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "Dujambeṛ" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Yal">
 <!ENTITY event.recurrence.yearly.first.label                 "Amezwaru">
 <!ENTITY event.recurrence.yearly.second.label                "Wis sin">
@@ -349,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Sed" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "Ass" >
 <!ENTITY event.recurrence.of.label                           "si" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Yennayer" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Fuṛaṛ" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Meɣres" >
@@ -367,7 +360,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Snulfu" >
 <!ENTITY event.recurrence.appointments.label            "Ttiɛad" >
 <!ENTITY event.repeat.until.label                       "Ales alamma" >
-<!ENTITY event.recurrence.preview.label                 "Taskant">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Ɛṛeḍ-d imttekkiyen">

@@ -349,8 +349,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Închide fereastra sau fila cu mesajul la mutare sau ștergere
     .accesskey = c
-display-name-label =
-    .value = Nume afișat:
 condensed-addresses-label =
     .label = Afișează numai numele de afișaj ale persoanelor din agenda mea de contacte
     .accesskey = S
@@ -480,23 +478,12 @@ third-party-never =
     .label = Niciodată
 third-party-visited =
     .label = De la site-urile vizitate
-keep-label =
-    .value = Păstrează-le până când:
-    .accesskey = K
-keep-expire =
-    .label = expiră
-keep-close =
-    .label = Închid { -brand-short-name }
-keep-ask =
-    .label = întreabă de fiecare dată
 cookies-button =
     .label = Afișează cookie-urile…
     .accesskey = S
 do-not-track-label =
     .label = Trimite site-urilor web un semnal „Nu urmări” pentru a indica faptul că nu vrei să fii urmărit
     .accesskey = n
-learn-button =
-    .label = Află mai multe
 dnt-learn-more-button =
     .value = Află mai multe
 passwords-description = { -brand-short-name } poate reține parolele tuturor conturilor tale.
@@ -513,18 +500,12 @@ primary-password-button =
 forms-primary-pw-fips-title = Acum ești în modul FIPS. FIPS nu permite inexistența unei parole primare.
 forms-master-pw-fips-desc = Schimbarea parolei a eșuat
 junk-description = Definește setările implicite pentru mesaje nesolicitate. Setările specifice contului pentru mesaje nesolicitate pot fi configurate în setările contului.
-junk-label =
-    .label = Când marchez mesaje ca nesolicitate:
-    .accesskey = C
 junk-move-label =
     .label = Mută-le în dosarul cu mesaje nesolicitate al contului
     .accesskey = o
 junk-delete-label =
     .label = Șterge-le
     .accesskey = t
-junk-read-label =
-    .label = Marchează mesajele detectate ca nesolicitate ca fiind citite
-    .accesskey = M
 junk-log-label =
     .label = Activează jurnalizarea filtrării adaptive de mesaje nesolicitate
     .accesskey = e
@@ -648,4 +629,7 @@ search-results-header = Rezultatele căutării
 search-results-help-link = Ai nevoie de ajutor? Intră pe <a data-l10n-name="url">Asistență { -brand-short-name }</a>
 
 ## Sync Tab
+
+
+## Mobile QR Export Pane
 

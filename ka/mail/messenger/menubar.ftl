@@ -29,9 +29,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = ხარვეზის აღმოფხვრის რეჟიმის გამორთვა
     .accesskey = გ
-menu-help-more-troubleshooting-info =
-    .label = ხარვეზის აღმოფხვრის ვრცელი მონაცემები
-    .accesskey = ნ
 
 ## Mail Toolbar
 
@@ -77,12 +74,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = შეკუმშული
     .accesskey = კ
-mail-uidensity-normal =
-    .label = ჩვეულებრივი
-    .accesskey = ჩ
-mail-uidensity-touch =
-    .label = შეხებისთვის
-    .accesskey = ხ
 menu-spaces-toolbar-button =
     .label = არეების ზოლი
     .accesskey = ე

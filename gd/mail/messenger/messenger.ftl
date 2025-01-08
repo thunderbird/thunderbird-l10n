@@ -195,24 +195,6 @@ mail-context-menu-forward-forward =
     .accesskey = A
 context-menu-redirect-msg =
     .label = Ath-stiùirich
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Sguab na teachdaireachdan a thagh thu às
-            [two] Sguab na teachdaireachdan a thagh thu às
-            [few] Sguab na teachdaireachdan a thagh thu às
-           *[other] Sguab na teachdaireachdan a thagh thu às
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Neo-dhèan sguabadh às na teachdaireachd
-           *[other] Neo-dhèan sguabadh às nan teachdaireachdan
-        }
 context-menu-decrypt-to-folder2 =
     .label = Cruthaich lethbhreac dì-chrioptaichte an-seo:
     .accesskey = r

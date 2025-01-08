@@ -5,10 +5,6 @@
 <!ENTITY folderProps.windowtitle.label           "Eienskappe">
 
 <!ENTITY generalInfo.label                       "Algemene inligting">
-
-
-
-
 <!ENTITY folderRebuildSummaryFileTip2.label      "Herbou opsomminglêerindeks">
 <!ENTITY folderRebuildSummaryFile2.label         "Herstel vouer">
 <!ENTITY folderRebuildSummaryFile2.accesskey     "r">
@@ -63,6 +59,4 @@
 <!ENTITY folderQuotaStatus.label                 "Status:">
 
 <!-- LOCALIZATION NOTE: When the number of messages can't be determined, this string is displayed as the number -->
-
 <!-- LOCALIZATION NOTE: When the size can't be determined, this string is displayed as the size -->
-

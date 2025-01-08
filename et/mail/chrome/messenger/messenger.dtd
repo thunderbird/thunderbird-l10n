@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "L">
 <!ENTITY newVirtualFolderCmd.label "Salvestatud otsing...">
 <!ENTITY newVirtualFolderCmd.accesskey "S">
-<!ENTITY newCreateEmailAccountCmd.label "Hangi uus e-posti konto…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "H">
-<!ENTITY newExistingEmailAccountCmd.label "Olemasolev e-posti konto…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "E">
 <!ENTITY newIMAccountCmd.label "Kiirsuhtluse konto…">
 <!ENTITY newIMAccountCmd.accesskey "K">
 <!ENTITY newFeedAccountCmd.label "Uudistevoogude konto…">
@@ -87,20 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Kustuta kiri">
-<!ENTITY deleteMsgCmd.accesskey "I">
-<!ENTITY undeleteMsgCmd.label "Taasta kiri">
-<!ENTITY undeleteMsgCmd.accesskey "T">
-<!ENTITY deleteMsgsCmd.label "Kustuta valitud kirjad">
-<!ENTITY deleteMsgsCmd.accesskey "d">
-<!ENTITY undeleteMsgsCmd.label "Taasta valitud kirjad">
-<!ENTITY undeleteMsgsCmd.accesskey "a">
-<!ENTITY deleteFolderCmd.label "Kustuta kaust">
-<!ENTITY deleteFolderCmd.accesskey "K">
-<!ENTITY unsubscribeNewsgroupCmd.label "Tühista tellimus">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "m">
-
-<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Vali">
 <!ENTITY selectMenu.accesskey "V">
 <!ENTITY all.label "Kõik">
@@ -112,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "h">
 <!ENTITY menuFavoriteFolder.label "Lemmikkaust">
 <!ENTITY menuFavoriteFolder.accesskey "l">
-<!ENTITY folderPropsCmd2.label "Omadused">
-<!ENTITY folderPropsFolderCmd2.label "Kausta omadused">
-<!ENTITY folderPropsNewsgroupCmd2.label "Uudistegrupi omadused">
-<!ENTITY folderPropsCmd.accesskey "e">
 <!ENTITY undoDeleteMsgCmd.label "Tühista kirja kustutamine">
 <!ENTITY redoDeleteMsgCmd.label "Korda kirja kustutamist">
 <!ENTITY undoMoveMsgCmd.label "Tühista kirja liigutamine">
@@ -147,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Kaustade paneel">
 <!ENTITY showFolderPaneCmd.accesskey "a">
-<!ENTITY showFolderPaneColsCmd.label "Kaustade paneeli veerud">
-<!ENTITY showFolderPaneColsCmd.accesskey "u">
 <!ENTITY showMessageCmd.label "Kirja teksti paneel">
 <!ENTITY showMessageCmd.accesskey "i">
 
@@ -598,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Uus kiri">
 <!ENTITY appmenuNewContactCmd.label "Aadressiraamatu kontakt…">
-<!ENTITY appmenuEditMenu.label "Redigeerimine">
 <!ENTITY appmenuToolbarLayout.label "Kohanda tööriistariba…">
-<!ENTITY appmenuSelectThread.label "Vali lõim">
-<!ENTITY appmenuSelectFlagged.label "Vali tähistatud kirjad">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Uus silt…">
@@ -644,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "K">
 <!ENTITY folderContextMarkNewsgroupRead.label "Märgi uudistegrupp loetuks">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "u">
-<!ENTITY folderContextMarkMailFolderRead.label "Märgi kaust loetuks">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "r">
 <!ENTITY folderContextSubscribe.label "Telli...">
 <!ENTITY folderContextSubscribe.accesskey "l">
 <!ENTITY folderContextSearchForMessages.label "Otsi kirju...">
@@ -751,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "s">
 <!ENTITY contextReplyList.label "Vasta listile">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextForward.label "Edasta">
-<!ENTITY contextForward.accesskey "d">
-<!ENTITY contextForwardAsMenu.label "Edasta">
-<!ENTITY contextForwardAsMenu.accesskey "E">
-<!ENTITY contextForwardAsInline.label "lihttekstina">
-<!ENTITY contextForwardAsInline.accesskey "i">
-<!ENTITY contextForwardAsAttachmentItem.label "manusena">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "m">
-<!ENTITY contextMultiForwardAsAttachment.label "Edasta manustena">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "t">
 <!ENTITY contextMoveMsgMenu.label "Liiguta kausta">
 <!ENTITY contextMoveMsgMenu.accesskey "L">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Hiljutised">
@@ -906,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "p">
 <!ENTITY copyEmailCmd.label "Kopeeri e-posti aadress">
 <!ENTITY copyEmailCmd.accesskey "e">
-<!ENTITY stopCmd.label "Peata">
-<!ENTITY stopCmd.accesskey "t">
-<!ENTITY reloadCmd.label "Laadi uuesti">
-<!ENTITY reloadCmd.accesskey "d">
 <!ENTITY openInBrowser.label "Ava brauseris">
 <!ENTITY openInBrowser.accesskey "u">
 <!ENTITY openLinkInBrowser.label "Ava link brauseris">

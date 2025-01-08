@@ -37,7 +37,6 @@ import-label = Importer
     .aria-label = Importer des données depuis d’autres programmes
 about-paragraph = Thunderbird domine le marché de la messagerie électronique et des agendas open source, multi-plateformes et gratuits pour les particuliers et les professionnels. Nous voulons maintenir la sécurité du logiciel et l’améliorer davantage. Un don nous permettra d’embaucher des développeurs, payer pour les infrastructures et poursuivre nos améliorations.
 about-paragraph-consider-donation = <b>Thunderbird est financé par des utilisatrices et utilisateurs comme vous ! Si vous aimez Thunderbird, pensez à faire un don.</b> La meilleure façon pour vous de garantir la disponibilité de Thunderbird est de <a data-l10n-name="donation-link">faire un don</a>.
-explore-link = Découvrir les fonctionnalités
 support-link = Assistance
 involved-link = Contribuer
 developer-link = Documentation pour les développeurs

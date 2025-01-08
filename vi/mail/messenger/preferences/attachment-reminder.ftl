@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = Từ khóa lời nhắc về đính kèm
 attachment-reminder-dialog-title = Từ khóa lời nhắc về đính kèm
 attachment-reminder-label = { -brand-short-name } sẽ cảnh báo bạn về các tập tin đính kèm bị thiếu nếu bạn sắp gửi e-mail chứa một trong những từ khóa này.
 keyword-new-button =

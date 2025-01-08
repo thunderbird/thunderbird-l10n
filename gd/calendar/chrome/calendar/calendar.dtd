@@ -14,82 +14,13 @@
 <!ENTITY calendar.today.button.label          "An-diugh">
 <!ENTITY calendar.tomorrow.button.label       "A-màireach">
 
-<!ENTITY calendar.events.filter.all.label "Gach tachartas">
-<!ENTITY calendar.events.filter.today.label "Tachartasan an-diugh">
-<!ENTITY calendar.events.filter.future.label "Gach tachartas san àm ri teachd">
-<!ENTITY calendar.events.filter.current.label "An latha a thagh thu">
-<!ENTITY calendar.events.filter.currentview.label "Tachartasan san t-sealladh làithreach">
-<!ENTITY calendar.events.filter.next7Days.label "Tachartasan anns na 7 làithean seo tighinn">
-<!ENTITY calendar.events.filter.next14Days.label "Tachartasan sa chola-deug seo tighinn">
-<!ENTITY calendar.events.filter.next31Days.label "Tachartasan san 31 latha seo tighinn">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Tachartasan sa mhìos mhìosachain seo">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Dèanta">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Seòrsaich a-rèir coileanaidh">
-<!ENTITY calendar.unifinder.tree.priority.label            "Prìomhachas">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Seòrsaich a-rèir prìomhachais">
-<!ENTITY calendar.unifinder.tree.title.label               "Tiotal">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Seòrsaich a-rèir tiotail">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#037; deiseil">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Seòrsaich a-rèir ceudad coileanaidh">
-<!ENTITY calendar.unifinder.tree.startdate.label           "A' tòiseachadh">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Seòrsaich a-rèir latha tòiseachaidh">
-<!ENTITY calendar.unifinder.tree.enddate.label             "A' crìochnachadh">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Seòrsaich a-rèir latha crìochnachaidh">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Ceann-ama">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Seòrsaich a-rèir latha libhrigidh">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Deiseil">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Seòrsaich a-rèir latha coileanaidh">
-<!ENTITY calendar.unifinder.tree.categories.label          "Roinn-seòrsa">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Seòrsaich a-rèir roinn-seòrsa">
-<!ENTITY calendar.unifinder.tree.location.label            "Àite">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Seòrsaich a-rèir ionaid">
-<!ENTITY calendar.unifinder.tree.status.label              "Staid">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Seòrsaich a-rèir staid">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Ainm a' mhìosachain">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Seòrsaich a-rèir ainm a' mhìosachain">
-<!ENTITY calendar.unifinder.tree.duration.label            "Feum air ann an">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Seòrsaich a-rèir ùine gu libhrigeadh">
-<!ENTITY calendar.unifinder.close.tooltip                  "Dùin lorg is liosta nan tachartasan">
 
 <!ENTITY calendar.today.button.tooltip          "Rach gun latha an-diugh" >
 <!ENTITY calendar.todaypane.button.tooltip      "Seall leòsan an latha" >
 
-<!ENTITY calendar.day.button.tooltip            "Na seall dhomh ach aon latha" >
-<!ENTITY calendar.week.button.tooltip           "Seall dhomh an t-seachdain air fad" >
-<!ENTITY calendar.month.button.tooltip          "Seall dhomh mìos air fad" >
-<!ENTITY calendar.multiweek.button.tooltip      "Seall dhomh iomadh seachdain còmhla" >
-
-<!ENTITY calendar.nextday.label                 "An ath-latha" >
-<!ENTITY calendar.prevday.label                 "An latha roimhe" >
-<!ENTITY calendar.nextday.accesskey             "A" >
-<!ENTITY calendar.prevday.accesskey             "A" >
-<!ENTITY calendar.nextweek.label                "An ath-sheachdain" >
-<!ENTITY calendar.prevweek.label                "An t-seachdain roimhe" >
-<!ENTITY calendar.nextweek.accesskey            "A" >
-<!ENTITY calendar.prevweek.accesskey            "s" >
-<!ENTITY calendar.nextmonth.label               "An ath-mhìos" >
-<!ENTITY calendar.prevmonth.label               "Am mìos roimhe" >
-<!ENTITY calendar.nextmonth.accesskey           "A" >
-<!ENTITY calendar.prevmonth.accesskey           "s" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Latha air adhart" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Latha air ais" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Seachdain air adhart" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Seachdain air ais" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Mìos air adhart" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Mìos air ais" >
-
 <!ENTITY calendar.newevent.button.label         "Tachartas ùr" >
 <!ENTITY calendar.newtask.button.label          "Saothair ùr" >
-
-<!ENTITY calendar.day.button.label              "Latha" >
-<!ENTITY calendar.week.button.label             "Seachdain" >
-<!ENTITY calendar.month.button.label            "Mìos" >
-<!ENTITY calendar.multiweek.button.label        "Iomadh s." >
 
 <!ENTITY calendar.onlyworkday.checkbox.label    "Làithean-obrach na seachdaine a-mhàin" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "r" >
@@ -275,8 +206,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "T">
 <!ENTITY calendar.context.unsubscribeserver.label      "Crìochnaich fo-sgrìobhadh do mhìosachan...">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "o">
-<!ENTITY calendar.context.synccalendars.label          "Sioncronaich na mìosachain">
-<!ENTITY calendar.context.synccalendars.accesskey      "m">
 <!ENTITY calendar.context.publish.label                "Foillsich mìosachan…">
 <!ENTITY calendar.context.publish.accesskey            "F">
 <!ENTITY calendar.context.export.label                 "Às-phortaich mìosachan…">

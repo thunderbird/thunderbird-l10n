@@ -64,8 +64,8 @@
 <!ENTITY cellAlignJustify.label           "Comhfhadaithe">
 <!ENTITY cellInheritColor.label           "(Lig le dath an tábla bheith le feiceáil)">
 <!ENTITY cellUseCheckboxHelp.label        "Úsáid ticbhoscaí le socrú cad iad na hairíonna a chuirtear i bhfeidhm ar gach cill roghnaithe">
-<!-- Used in both Table and Cell panels  -->
 
+<!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "Méid">
 <!ENTITY pixels.label                     "picteilíní">
 <!ENTITY backgroundColor.label            "Dath an Chúlra:">

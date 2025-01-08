@@ -4,7 +4,5 @@
 
 <!ENTITY virtualFolderListTitle.title        "Виберіть теку(и)">
 <!ENTITY virtualFolderDesc.label       "Виберіть теки, в яких буде проводиться пошук:">
-
-
 <!ENTITY folderName.label "Назва теки">
 <!ENTITY folderSearch.label "Пошук">

@@ -30,7 +30,6 @@ button-finish = დასრულება
 app-name-thunderbird = Thunderbird
 app-name-seamonkey = SeaMonkey
 app-name-outlook = Outlook
-app-name-becky = Becky! Internet Mail
 app-name-apple-mail = Apple Mail
 
 ## Import from file selections
@@ -61,8 +60,6 @@ addr-book-directories-pane-source = წყაროს ფაილი:
 
 import-from-calendar-file-desc = აირჩიეთ ფაილი iCalendar (.ics), რომლის გადმოტანაც გსურთ.
 calendar-items-loading = იტვირთება ჩანაწერები…
-calendar-items-filter-input =
-    .placeholder = ჩანაწერების გამორჩევა…
 calendar-select-all-items = ყველას მონიშვნა
 calendar-deselect-all-items = მონიშვნის გაუქმება
 

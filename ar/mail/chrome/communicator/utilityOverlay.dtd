@@ -4,7 +4,6 @@
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
 
-
 <!ENTITY fileMenu.label          "ملف">
 <!ENTITY fileMenu.accesskey        "م">
 <!ENTITY newMenu.label            "جديد">
@@ -29,13 +28,3 @@
 <!ENTITY closeCmd.label      "أغلق">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "غ">
-
-<!ENTITY quitApplicationCmd.label  "اخرج">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "ج">
-
-<!ENTITY quitApplicationCmdUnix.label  "أنهِ">
-<!ENTITY quitApplicationCmdUnix.accesskey  "ن">
-
-<!ENTITY quitApplicationCmdMac.label  "أنهِ &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "ه">

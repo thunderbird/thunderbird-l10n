@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Clirio">
 <!ENTITY encryption.certificate_clear.accesskey "l">
 <!ENTITY signingGroupTitle.label "Llofnodi Digidol">
-
 <!ENTITY signingCert2.message "Tystysgrif bersonol ar gyfer amgryptio:">
 
 <!ENTITY sendingDefaults.label "Gosodiadau rhagosodedig ar gyfer anfon negeseuon">

@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = Modus za rozwězowanje problemow { -brand-short-name }
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = Modus za rozwězowanje problemow { -brand-short-name }
 troubleshoot-mode-description = Wužywajśo modus za rozwězowanje problemow { -brand-short-name }, aby problemy diagnosticěrował. Waše dodanki a pśiměrjenja se nachylu znjemóžniju.
 troubleshoot-mode-description2 = Móžośo někotre abo wšykne ze slědujucych nastajenjow na pśecej wustajiś:

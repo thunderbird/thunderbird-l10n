@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = E
     .tooltiptext = Adja meg az előnyben részesített URL-t a HTTPS feletti DNS feloldáshoz
 connection-dns-over-https-custom-label = Egyéni
-connection-dialog-window2 =
-    .title = Kapcsolat beállításai
 connection-dialog-title = Kapcsolat beállításai
 disable-extension-button = Kiegészítő letiltása
 # Variables:

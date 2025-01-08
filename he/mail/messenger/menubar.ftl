@@ -8,7 +8,6 @@
 menu-tools-settings =
     .label = הגדרות
     .accesskey = ה
-
 menu-addons-and-themes =
     .label = תוספות וערכות נושא
     .accesskey = ת
@@ -18,14 +17,9 @@ menu-addons-and-themes =
 menu-help-enter-troubleshoot-mode =
     .label = מצב לפתרון בעיות…
     .accesskey = מ
-
 menu-help-exit-troubleshoot-mode =
     .label = כיבוי מצב לפתרון בעיות
     .accesskey = כ
-
-menu-help-more-troubleshooting-info =
-    .label = מידע נוסף לפתרון בעיות
-    .accesskey = פ
 
 ## Mail Toolbar
 
@@ -48,23 +42,17 @@ menu-view-repair-text-encoding =
     .label = תיקון קידוד טקסט
     .accesskey = ת
 
+## View / Folders
+
+
 ## View / Layout
 
 mail-uidensity-label =
     .label = צפיפות
     .accesskey = צ
-
 mail-uidensity-compact =
     .label = צפופה
     .accesskey = צ
-
-mail-uidensity-normal =
-    .label = רגילה
-    .accesskey = ר
-
-mail-uidensity-touch =
-    .label = מגע
-    .accesskey = מ
 
 ## File
 

@@ -15,15 +15,6 @@ room-name-empty = Leeg gesprek
 room-name-empty-had-name = Leeg gesprek (was { $oldName })
 # Variables:
 #  $participant (String) - The name of one participant that isn't the user.
-#  $otherParticipantsCount (Number) - The count of other participants apart from
-#    the user and $participant.
-room-name-others =
-    { $otherParticipantsCount ->
-        [one] { $participant } en { $otherParticipantCount } ander
-       *[other] { $participant } en { $otherParticipantCount } anderen
-    }
-# Variables:
-#  $participant (String) - The name of one participant that isn't the user.
 #  $otherParticipantCount (Number) - The count of other participants apart from
 #    the user and $participant.
 room-name-others2 =

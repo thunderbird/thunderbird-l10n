@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "θ">
 <!ENTITY newVirtualFolderCmd.label "Αποθηκευμένη αναζήτηση…">
 <!ENTITY newVirtualFolderCmd.accesskey "θ">
-<!ENTITY newCreateEmailAccountCmd.label "Απόκτηση νέου λογαριασμού email…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "γ">
-<!ENTITY newExistingEmailAccountCmd.label "Υπάρχων λογαριασμός email…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "Υ">
 <!ENTITY newIMAccountCmd.label "Λογαριασμός συνομιλίας…">
 <!ENTITY newIMAccountCmd.accesskey "σ">
 <!ENTITY newFeedAccountCmd.label "Λογαριασμός ροής…">
@@ -621,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "Κ">
 <!ENTITY folderContextMarkNewsgroupRead.label "Επισήμανση ομάδας συζητήσεων ως αναγνωσμένης">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "γ">
-<!ENTITY folderContextMarkMailFolderRead.label "Επισήμανση φακέλου ως αναγνωσμένου">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "κ">
 <!ENTITY folderContextSubscribe.label "Συνδρομή…">
 <!ENTITY folderContextSubscribe.accesskey "μ">
 <!ENTITY folderContextSearchForMessages.label "Αναζήτηση μηνυμάτων…">
@@ -728,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "υ">
 <!ENTITY contextReplyList.label "Απάντηση στη λίστα">
 <!ENTITY contextReplyList.accesskey "λ">
-<!ENTITY contextForward.label "Προώθηση">
-<!ENTITY contextForward.accesskey "θ">
-<!ENTITY contextForwardAsMenu.label "Προώθηση ως">
-<!ENTITY contextForwardAsMenu.accesskey "ο">
-<!ENTITY contextForwardAsInline.label "Ενσωμάτωση">
-<!ENTITY contextForwardAsInline.accesskey "Μ">
-<!ENTITY contextForwardAsAttachmentItem.label "Συνημμένο">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "Σ">
-<!ENTITY contextMultiForwardAsAttachment.label "Προώθηση ως συνημμένα">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "σ">
 <!ENTITY contextMoveMsgMenu.label "Μετακίνηση σε">
 <!ENTITY contextMoveMsgMenu.accesskey "Μ">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Πρόσφατα">

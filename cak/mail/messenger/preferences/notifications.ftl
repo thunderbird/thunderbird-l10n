@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Tichinäx K'ak'a' Rutzijol Taqoya'l
 notifications-dialog-title = Tichinäx K'ak'a' Rutzijol Taqoya'l
 customize-alert-description = Ticha' achike taq k'ojlib'äl yek'ut pa ri rutzijol k'ayewal:
 preview-text-checkbox =

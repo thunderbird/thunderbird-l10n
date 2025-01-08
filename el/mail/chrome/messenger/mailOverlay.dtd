@@ -6,6 +6,6 @@
 <!ENTITY  newMessageCmd.key               "M">
 <!ENTITY  newMessageCmd.label             "Μήνυμα">
 <!ENTITY  newMessageCmd.accesskey         "Μ">
- 
+
 <!ENTITY  newContactCmd.label             "Επαφή ευρετηρίου…">
 <!ENTITY  newContactCmd.accesskey         "φ">

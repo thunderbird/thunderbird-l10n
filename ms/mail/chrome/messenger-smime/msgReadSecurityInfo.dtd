@@ -13,3 +13,4 @@
 <!ENTITY email.address "Alamat e-mel:">
 <!ENTITY issuer.name "Sijil dikeluarkan oleh:">
 
+<!-- LOCALIZATION NOTE(SMIME.label): This a name for a technical standard. You should not translate it, but if applicable, you may write it using localized characters. -->

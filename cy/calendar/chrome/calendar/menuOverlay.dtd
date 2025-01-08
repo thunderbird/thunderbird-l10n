@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Tynnu Calendrau Penodol…">
 <!ENTITY calendar.removecalendar.accesskey      "T">
 
-
-<!ENTITY calendar.menu.customize.label          "Cyfaddasu…">
-<!ENTITY calendar.menu.customize.accesskey      "f">
-
 <!ENTITY showUnifinderCmd.label                 "Canfod Digwyddiadau">
 <!ENTITY showUnifinderCmd.accesskey             "f">
 <!ENTITY showUnifinderCmd.tooltip               "Newid y paen canfod digwyddiadau">

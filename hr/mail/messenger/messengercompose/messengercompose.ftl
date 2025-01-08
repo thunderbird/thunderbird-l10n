@@ -189,10 +189,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Upravitelj ključeva
     .accesskey = t
-openpgp-key-issue-notification-one = Obostrano šifriranje zahtjeva rješavanje ključnih problema za { $addr }
-openpgp-key-issue-notification-many = Obostrano šifriranje zahtjeva rješavanje ključnih problema za { $count } primatelja.
-smime-cert-issue-notification-one = Obostrano šifriranje zahtjeva rješavanje problema s certifikatima za { $addr }.
-smime-cert-issue-notification-many = Obostrano šifriranje zahtjeva rješavanje problema s certifikatima za { $count } primatelja.
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
@@ -282,13 +278,6 @@ show-bcc-row-button = Bcc
     .title = Prikaži Bcc polje ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Ostala polja adresiranja za prikaz
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Vaša poruka ima { $count } javnog primatelja, koji će moći vidjeti sve druge primatelje. Ukoliko želite veću privatnost, možete izbjeći otkrivanje primatelja ukoliko koristite Bcc polje.
-        [few] Vaša poruka ima { $count } javna primatelja, koji će moći vidjeti sve druge primatelje. Ukoliko želite veću privatnost, možete izbjeći otkrivanje primatelja ukoliko koristite Bcc polje.
-       *[other] Vaša poruka ima { $count } javnih primatelja, koji će moći vidjeti sve druge primatelje. Ukoliko želite veću privatnost, možete izbjeći otkrivanje primatelja ukoliko koristite Bcc polje.
-    }
 public-recipients-notice-single = Vaša poruka ima javnog primatelja. Možete izbjeći otkrivanje primatelja korištenjem Bcc polja.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.

@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = Hesła za přiwěškowe napominje
 attachment-reminder-dialog-title = Hesła za přiwěškowe napominje
 attachment-reminder-label = { -brand-short-name } budźe was wo falowacych přiwěškach warnować, jeli chceće e-mejlku pósłać, kotraž jedne z tutych hesłow wobsahuje.
 keyword-new-button =

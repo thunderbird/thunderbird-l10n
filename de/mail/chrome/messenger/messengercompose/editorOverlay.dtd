@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Tabellen-Eigenschaften…">
 <!ENTITY tableProperties.accesskey "i">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Grafik">
 <!ENTITY imageToolbarCmd.tooltip "Neue Grafik einfügen oder Eigenschaften der gewählten Grafik bearbeiten">
 <!ENTITY hruleToolbarCmd.label "H.Linie">

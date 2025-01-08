@@ -312,8 +312,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Titz'apïx rutzuwäch/tab rutzijol toq nisilöx o niyuj
     .accesskey = T
-display-name-label =
-    .value = Tik'ut b'i'aj:
 condensed-addresses-label =
     .label = Titz'et xa xe ri b'i'aj xtik'ut chi kiwäch ri winaqi' pa kitz'ib'awuj wochochib'al
     .accesskey = T
@@ -443,23 +441,12 @@ third-party-never =
     .label = Majub'ey
 third-party-visited =
     .label = Etz'eton
-keep-label =
-    .value = Tik'oje' k'a:
-    .accesskey = k
-keep-expire =
-    .label = tik'o kiq'ij
-keep-close =
-    .label = Tintz'apij { -brand-short-name }
-keep-ask =
-    .label = junelïk tik'utüx pe chwe
 cookies-button =
     .label = Kek'ut taq Kaxlanwey…
     .accesskey = k
 do-not-track-label =
     .label = Ketaq ri taq ruxaq ajk'amaya'l jun “Mani Tojqäx” raqän kumal chi man nojowäx ta chi tikanöx
     .accesskey = t
-learn-button =
-    .label = Tetamäx ch'aqa' chik
 dnt-learn-more-button =
     .value = Tetamäx ch'aqa' chik
 passwords-description = { -brand-short-name } nitikïr yerunataj ri ewan taq atzij kichin konojel ri taq rub'i' ataqoya'l.
@@ -467,18 +454,12 @@ passwords-button =
     .label = Xeyak taq Ewan Tzij…
     .accesskey = X
 junk-description = Runuk'ulem k'o wi pa seq' taqoya'l. Ri taq runuk'ulem chi kijujunal ri taq taqoya'l k'o chi yeb'an pa Kinuk'ulem Rub'i' Taqoya'l.
-junk-label =
-    .label = Toq ninya' ketal taq rutzijol achi'el seq':
-    .accesskey = T
 junk-move-label =
     .label = Kesilöx pa kiyakwuj "Seq'" rub'i' taqoya'l
     .accesskey = o
 junk-delete-label =
     .label = Keyuj
     .accesskey = K
-junk-read-label =
-    .label = Tiya' ketal ri taq rutzijol yetz'et chi e Seq' achi'el esik'in chik
-    .accesskey = T
 junk-log-label =
     .label = Titzij ri kitz'ib'axik ruchayub'al k'amonel seq'
     .accesskey = T
@@ -600,4 +581,7 @@ chat-variant-label =
 
 
 ## Sync Tab
+
+
+## Mobile QR Export Pane
 

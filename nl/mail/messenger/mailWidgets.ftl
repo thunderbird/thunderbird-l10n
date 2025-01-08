@@ -4,7 +4,6 @@
 
 apply-current-view-to-menu =
     .label = Huidige weergave toepassen op…
-
 threadpane-apply-changes-prompt-title = Wijzigingen toepassen?
 # Variables:
 #  $name (String): The name of the folder to apply to.
@@ -12,4 +11,3 @@ threadpane-apply-changes-prompt-no-children-text = De weergave van de huidige ma
 # Variables:
 #  $name (String): The name of the folder to apply to.
 threadpane-apply-changes-prompt-with-children-text = De weergave van de huidige map toepassen op { $name } en de submappen?
-

@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = P
     .tooltiptext = Insere tu URL preferite pro resolver DNS super HTTPS
 connection-dns-over-https-custom-label = Personalisate
-connection-dialog-window2 =
-    .title = Parametros de connexion
 connection-dialog-title = Parametros de connexion
 disable-extension-button = Disactivar le extension
 # Variables:

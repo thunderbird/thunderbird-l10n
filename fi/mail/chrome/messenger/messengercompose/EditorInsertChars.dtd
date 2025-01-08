@@ -4,16 +4,16 @@
 
 
 <!-- Window title -->
-<!ENTITY windowTitle.label  "Lisää merkki">
-<!ENTITY category.label  "Luokka">
-<!ENTITY letter.label  "Kirjain:">
-<!ENTITY letter.accessKey  "K">
-<!ENTITY character.label  "Merkki:">
-<!ENTITY character.accessKey  "M">
-<!ENTITY accentUpper.label  "Aksentti, iso kirjain">
-<!ENTITY accentLower.label  "Aksentti, pieni kirjain">
-<!ENTITY otherUpper.label  "Muu merkki, iso kirjain">
-<!ENTITY otherLower.label  "Muu merkki, pieni kirjain">
-<!ENTITY commonSymbols.label  "Yleiset symbolit">
-<!ENTITY insertButton.label  "Lisää">
-<!ENTITY closeButton.label  "Sulje">
+<!ENTITY windowTitle.label "Lisää merkki">
+<!ENTITY category.label "Luokka">
+<!ENTITY letter.label "Kirjain:">
+<!ENTITY letter.accessKey "K">
+<!ENTITY character.label "Merkki:">
+<!ENTITY character.accessKey "M">
+<!ENTITY accentUpper.label "Aksentti, iso kirjain">
+<!ENTITY accentLower.label "Aksentti, pieni kirjain">
+<!ENTITY otherUpper.label "Muu merkki, iso kirjain">
+<!ENTITY otherLower.label "Muu merkki, pieni kirjain">
+<!ENTITY commonSymbols.label "Yleiset symbolit">
+<!ENTITY insertButton.label "Lisää">
+<!ENTITY closeButton.label "Sulje">

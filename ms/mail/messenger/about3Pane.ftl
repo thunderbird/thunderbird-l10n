@@ -61,19 +61,6 @@ quick-filter-bar-no-results = Tiada keputusan
 # Variables:
 # $count (Number) - The number of messages that match selected filters.
 quick-filter-bar-results = { $count } mesej
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Tapis mesej berikut <{ quick-filter-bar-textbox-shortcut }>
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Mod menapis tag
@@ -211,3 +198,6 @@ apply-current-columns-to-folder-message = Terapkan lajur folder semasa ke { $nam
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Terapkan lajur folder semasa ke { $name } dan folder di dalamnya?
+
+## Folder pane context menu
+

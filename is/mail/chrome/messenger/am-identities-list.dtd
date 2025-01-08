@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY identitiesListManageDesc.label "Sýsla með auðkenni fyrir þennan reikning. Sjálfgefið er að fyrsta auðkenni sé notað.">
-<!ENTITY identitiesListAdd.label "Bæta við…">
-<!ENTITY identitiesListAdd.accesskey "B">
+<!ENTITY identitiesListAdd.label  "Bæta við…">
+<!ENTITY identitiesListAdd.accesskey  "B">
 <!ENTITY identitiesListEdit.label "Breyta…">
 <!ENTITY identitiesListEdit.accesskey "B">
 <!ENTITY identitiesListDefault.label "Setja sem sjálfgefið">

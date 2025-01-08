@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = ก
     .tooltiptext = ป้อน URL ที่คุณต้องการสำหรับแปลงที่อยู่ DNS ผ่าน HTTPS
 connection-dns-over-https-custom-label = กำหนดเอง
-connection-dialog-window2 =
-    .title = การตั้งค่าการเชื่อมต่อ
 connection-dialog-title = การตั้งค่าการเชื่อมต่อ
 disable-extension-button = ปิดใช้งานส่วนขยาย
 # Variables:

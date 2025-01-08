@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = Речи које покрећу подсетник о прилогу
 attachment-reminder-dialog-title = Речи које покрећу подсетник о прилогу
 attachment-reminder-label = { -brand-short-name } ће вас упозорити о прилозима који недостају ако пробате да пошаљете поруку која садржи једну од ових речи.
 keyword-new-button =

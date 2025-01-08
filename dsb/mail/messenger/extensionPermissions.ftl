@@ -27,7 +27,6 @@ webext-perms-description-messagesModify = Cytajśo a změńśo swóje mejlki ako
 webext-perms-description-messagesModifyPermanent = Žrědło wašych powěsćow na pśecej změniś (mjazy nimi głowy, wopśimjeśe a pśidanki)
 webext-perms-description-messagesMove = Kopěrujśo abo pśesuńśo swóje e-mailowe powěsći (inkluziwnje jich pśesunjenje do zarědnika papjernika)
 webext-perms-description-messagesDelete = Waše e-mailowe powěsći na pśecej wulašowaś
-webext-perms-description-messagesRead = Cytajśo swóje e-mailowe powěsći a markěrujśo abo wóznamjeńśo je
 webext-perms-description-messagesRead2 = Waše mejlki cytaś
 webext-perms-description-messagesUpdate = Kakosći a wobznamjenja wašych e-mailowych powěsćow změniś
 webext-perms-description-messagesTags = Powěsćowe wobznamjenja napóraś, změniś a lašowaś

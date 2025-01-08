@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Właściwości tabeli…">
 <!ENTITY tableProperties.accesskey "t">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Obraz">
 <!ENTITY imageToolbarCmd.tooltip "Wstaw nowy obraz lub edytuj właściwości wybranego obrazu">
 <!ENTITY hruleToolbarCmd.label "Linia pozioma">

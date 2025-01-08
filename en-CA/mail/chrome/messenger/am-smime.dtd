@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Clear">
 <!ENTITY encryption.certificate_clear.accesskey "e">
 <!ENTITY signingGroupTitle.label "Digital Signing">
-
 <!ENTITY signingCert2.message "Personal certificate for digital signing:">
 
 <!ENTITY sendingDefaults.label "Default settings for sending messages">

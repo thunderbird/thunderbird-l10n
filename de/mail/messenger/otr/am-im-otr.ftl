@@ -13,13 +13,9 @@ view-fingerprint-button =
     .label = Fingerabdrücke von Kontakten verwalten
     .accesskey = F
 otr-settings-title = OTR-Einstellungen
-
 otr-require-encryption =
     .label = Ende-zu-Ende-Verschlüsselung für Gespräche mit einer Person verlangen
-otr-require-encryption-info =
-    Falls Ende-zu-Ende-Verschlüsselung für Gespräche mit jeweils einer Person verlangt wird, können Nachrichten in diesen 1:1-Gesprächen nur gesendet werden, falls ihre Verschlüsselung möglich ist. Empfangene unverschlüsselte Nachrichten werden nicht als Teil des normalen Gesprächs angezeigt und auch nicht protokolliert.
+otr-require-encryption-info = Falls Ende-zu-Ende-Verschlüsselung für Gespräche mit jeweils einer Person verlangt wird, können Nachrichten in diesen 1:1-Gesprächen nur gesendet werden, falls ihre Verschlüsselung möglich ist. Empfangene unverschlüsselte Nachrichten werden nicht als Teil des normalen Gesprächs angezeigt und auch nicht protokolliert.
 otr-verify-nudge =
     .label = Immer erinnern, neue Kontakte zu bestätigen
-
 otr-not-yet-available = noch nicht verfügbar
-

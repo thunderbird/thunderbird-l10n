@@ -8,4 +8,3 @@
 <!ENTITY converterDialog.finishButton "Slutför">
 <!ENTITY converterDialog.complete "Konverteringen är klar. &brandShortName; kommer nu att starta om.">
 <!ENTITY converterDialog.error "Konverteringen misslyckades.">
-

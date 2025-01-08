@@ -14,8 +14,6 @@ auth-your-fp-value = Votre empreinte, { $own_name } :
 # Variables:
 #   $their_name (String) - the screen name of a chat contact
 auth-their-fp-value = L’empreinte de { $their_name } :
-auth-help = Vérifier l’identité d’un contact permet de s’assurer que la conversation est réellement privée, ce qui rend difficile pour un tiers d’espionner ou manipuler la conversation.
-auth-help-title = Aide à la vérification
 auth-question-received = Voici la question posée par votre contact :
 auth-yes =
     .label = Oui

@@ -6,6 +6,6 @@
 <!ENTITY  newMessageCmd.key               "M">
 <!ENTITY  newMessageCmd.label             "Mesazh">
 <!ENTITY  newMessageCmd.accesskey         "M">
- 
+
 <!ENTITY  newContactCmd.label             "Kontakt Nga Libër Adresash…">
 <!ENTITY  newContactCmd.accesskey         "L">

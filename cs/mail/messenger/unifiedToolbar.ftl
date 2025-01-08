@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Hledat
-search-bar-item =
-    .label = Hledat:
 search-bar-item2 =
     .label = Hledat
 search-bar-placeholder = Hledat…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Pouze text
 customize-cancel = Zrušit
 customize-save = Uložit
 customize-unsaved-changes = Neuložené změny v jiných panelech
-customize-search-bar =
-    .label = Vyhledávání tlačítek pro lišty…
 customize-search-bar2 =
     .label = Vyhledávání tlačítek pro lišty
     .placeholder = Najít tlačítka pro lišty…

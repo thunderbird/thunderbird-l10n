@@ -381,8 +381,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Fechar janela/separador de mensagem ao mover ou apagar
     .accesskey = F
-display-name-label =
-    .value = Nome de apresentação:
 condensed-addresses-label =
     .label = Mostrar apenas o nome para pessoas nos meus contactos
     .accesskey = m
@@ -534,18 +532,12 @@ primary-password-button =
 forms-primary-pw-fips-title = Atualmente, está no modo FIPS. Este modo requer uma palavra-passe principal não vazia.
 forms-master-pw-fips-desc = Falha ao alterar palavra-passe
 junk-description = Configure as predefinições para o lixo eletrónico. As definições específicas de lixo eletrónico podem ser efetuadas nas definições da conta.
-junk-label =
-    .label = Ao marcar uma mensagem como lixo eletrónico:
-    .accesskey = A
 junk-move-label =
     .label = Mover para a pasta "Lixo eletrónico"
     .accesskey = o
 junk-delete-label =
     .label = Apagar
     .accesskey = A
-junk-read-label =
-    .label = Marcar mensagens consideradas lixo eletrónico como lidas
-    .accesskey = m
 junk-log-label =
     .label = Ativar registo inteligente do filtro do lixo eletrónico
     .accesskey = x
@@ -694,3 +686,6 @@ sync-signedout-description = Sincronize as suas contas, livros de endereço, cal
 sync-signedin-login-failure = Por favor, inicie a sessão para reassociar “{ $userEmail }”
 show-synced-item-address = Livros de Endereços
 show-synced-item-calendar = Calendários
+
+## Mobile QR Export Pane
+

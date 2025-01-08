@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "s">
 <!ENTITY deleteCmd.label          "Pašalinti">
 <!ENTITY deleteCmd.accesskey        "š">
-
 <!ENTITY customizeCmd.label "Tinkinimas">
 <!ENTITY customizeCmd.accesskey "t">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Užverti">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "U">
-
-<!ENTITY quitApplicationCmd.label  "Baigti darbą">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "B">
-
-<!ENTITY quitApplicationCmdUnix.label  "Baigti darbą">
-<!ENTITY quitApplicationCmdUnix.accesskey  "B">
-
-<!ENTITY quitApplicationCmdMac.label  "Baigti darbą su „&brandShortName;“">
-<!ENTITY quitApplicationCmdMac.accesskey  "B">

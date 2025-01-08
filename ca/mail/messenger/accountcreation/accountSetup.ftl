@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Contrasenya
     .accesskey = C
     .title = Opcional, només es farà servir per validar el vostre usuari
-account-provisioner-button = Obtén una adreça electrònica nova
-    .accesskey = O
 account-setup-password-toggle-show =
     .title = Mostra la contrasenya
 account-setup-password-toggle-hide =
@@ -146,7 +144,6 @@ account-setup-credentials-incomplete = L'autenticació ha fallat. O bé les cred
 account-setup-credentials-wrong = L'autenticació ha fallat. Comproveu el nom d'usuari i la contrasenya
 account-setup-find-settings-failed = El { -brand-short-name } no ha pogut trobar els paràmetres per al vostre compte de correu.
 account-setup-exchange-config-unverifiable = No s'ha pogut verificar la configuració. Si el vostre nom d'usuari i contrasenya són correctes, és probable que l'administrador del servidor hagi desactivat la configuració seleccionada per al vostre compte. Proveu de seleccionar un altre protocol.
-account-setup-provisioner-error = S'ha produït un error en configurar el vostre compte en el { -brand-short-name }. Proveu de configurar-lo manualment amb les vostres credencials.
 
 ## Manual configuration area
 

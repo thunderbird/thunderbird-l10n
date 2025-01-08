@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Variables:
-# $organizer (String) - The participant that created the original invitation.
-calendar-invitation-panel-intro = { $organizer } đã mời bạn đến:
 calendar-invitation-panel-status-new = Bạn đã được mời đến sự kiện này.
 calendar-invitation-panel-status-processed = Sự kiện này đã được thêm vào lịch của bạn.
 calendar-invitation-panel-status-updateminor = Thư này chứa một bản cập nhật cho sự kiện này.
@@ -17,14 +14,12 @@ calendar-invitation-panel-intro-cancel = { $organizer } đã hủy:
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
-calendar-invitation-panel-action-button = Lưu
 calendar-invitation-panel-view-button = Xem
 calendar-invitation-panel-update-button = Cập nhật
 calendar-invitation-panel-delete-button = Xóa
 calendar-invitation-panel-accept-button = Có
 calendar-invitation-panel-decline-button = Không
 calendar-invitation-panel-tentative-button = Phân vân
-calendar-invitation-panel-reply-status = * Bạn vẫn chưa quyết định hoặc chưa trả lời
 calendar-invitation-panel-more-button = Thêm
 calendar-invitation-panel-menu-item-save-copy =
     .label = Lưu bản sao
@@ -32,14 +27,6 @@ calendar-invitation-panel-menu-item-toggle-changes =
     .label = Hiển thị thay đổi
 calendar-invitation-panel-prop-title-when = Lúc:
 calendar-invitation-panel-prop-title-location = Địa chỉ:
-# Variables:
-# $dayOfWeek (String) - The day of the week for a given date.
-# $date (String) - The date example: Tuesday, February 24, 2022.
-calendar-invitation-datetime-date = { $dayOfWeek }, { $date }
-# Variables:
-# $time (String) - The time part of a datetime using the "short" timeStyle.
-# $timezone (String) - The timezone info for the datetime.
-calendar-invitation-datetime-time = { $time } ({ $timezone })
 # Example: Friday, September 16, 2022
 # Variables:
 # $startDate (String) - The date (without time) the event starts on.

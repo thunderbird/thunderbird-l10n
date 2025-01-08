@@ -111,3 +111,6 @@ toolbar-stop =
 toolbar-throbber-label = Meneger oberiantiz
 toolbar-throbber =
     .title = Meneger oberiantiz
+
+## New Address Book popup items
+

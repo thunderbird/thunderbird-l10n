@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-uri-redirect-window =
-    .title = Ath-stiùireadh URI a’ mhìosachain
 calendar-uri-redirect-window-title = Ath-stiùireadh URI a’ mhìosachain
+# Variables:
+# $calendarName (String) - Display name of the calendar.
 calendar-uri-redirect-description =
     Tha am frithealaichte ag ath-stiùireadh an URI aig a’ mhìosachan “{ $calendarName }”.
     A bheil thu airson gabhail ris an ath-stiùireadh agus an URI ùr aig a’ mhìosachan seo a chleachdadh?

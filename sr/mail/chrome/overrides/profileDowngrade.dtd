@@ -10,7 +10,6 @@
  given Thunderbird channel". These terms are not synonymous.
 -->
 <!ENTITY window.title "Покренули сте старије издање програма &brandProductName;">
-<!ENTITY window.style "width: 490px;">
 
 <!ENTITY window.nosync2 "Новија &brandProductName; верзија је можда направила измене на вашем профилу које више нису компатибилне са овом старијом верзијом. Користите овај профил само са овом новијом верзијом или направите нови профил за ову &brandShortName; инсталацију. Стварање новог профила захтева реконфигурисање налога, календара и додатака.">
 

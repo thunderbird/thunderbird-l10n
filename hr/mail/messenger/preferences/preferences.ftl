@@ -397,8 +397,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Zatvori prozor/karticu poruke prilikom premještanja ili brisanja
     .accesskey = Z
-display-name-label =
-    .value = Ime za prikaz:
 condensed-addresses-label =
     .label = Prikaži samo ime za prikaz osoba iz mojeg adresara
     .accesskey = P
@@ -566,9 +564,6 @@ primary-password-button =
 forms-primary-pw-fips-title = Trenutačno ste u FIPS načinu rada. FIPS ne dopušta praznu glavnu lozinku.
 forms-master-pw-fips-desc = Promjena lozinke nije uspjela
 junk-description = Postavite svoje zadane postavke neželjene pošte. Specifične postavke za pojedini račun se mogu podesiti u postavkama računa.
-junk-label =
-    .label = Kada označim poruke kao neželjenu poštu:
-    .accesskey = K
 junk-marked-label =
     .label = Kada su poruke označene kao neželjena pošta:
     .accesskey = z
@@ -578,9 +573,6 @@ junk-move-label =
 junk-delete-label =
     .label = Obriši ih
     .accesskey = O
-junk-read-label =
-    .label = Poruke za koje se utvrdi da su neželjena pošta označi kao pročitane
-    .accesskey = u
 junk-read-description = Označi poruke kao pročitane
 junk-read-manual-label =
     .label = Kada su ručno označene kao neželjena pošta
@@ -786,3 +778,6 @@ synced-acount-item-filters = Filteri
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sinkronizirajte svoje račune e-pošte, adresare, kalendare i identitete kroz sve svoje uređaje.
 sync-disconnected-turn-on-sync = Uključi sinkronizaciju…
+
+## Mobile QR Export Pane
+

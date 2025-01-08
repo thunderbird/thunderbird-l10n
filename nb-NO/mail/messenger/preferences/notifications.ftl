@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Tilpass varsling om ny e-post
 notifications-dialog-title = Tilpass varsling om ny e-post
 customize-alert-description = Velg hva beskjeden skal inneholde:
 preview-text-checkbox =

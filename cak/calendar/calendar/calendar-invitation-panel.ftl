@@ -5,7 +5,6 @@
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
-calendar-invitation-panel-action-button = Tiyak
 calendar-invitation-panel-view-button = Titz'et
 calendar-invitation-panel-update-button = Tik'ex
 calendar-invitation-panel-delete-button = Tiyuj
@@ -19,14 +18,6 @@ calendar-invitation-panel-menu-item-toggle-changes =
     .label = Kek'ut taq Jaloj
 calendar-invitation-panel-prop-title-when = Jampe':
 calendar-invitation-panel-prop-title-location = Ochochib'al:
-# Variables:
-# $dayOfWeek (String) - The day of the week for a given date.
-# $date (String) - The date example: Tuesday, February 24, 2022.
-calendar-invitation-datetime-date = { $dayOfWeek }, { $date }
-# Variables:
-# $time (String) - The time part of a datetime using the "short" timeStyle.
-# $timezone (String) - The timezone info for the datetime.
-calendar-invitation-datetime-time = { $time } ({ $timezone })
 # Example: Friday, September 16, 2022
 # Variables:
 # $startDate (String) - The date (without time) the event starts on.

@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Czcionki
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Domyślna ({ $name })
 fonts-label-default-unnamed =
     .label = Domyślna
-fonts-encoding-dialog-title =
-    .title = Czcionki i zestawy znaków
 fonts-language-legend =
     .value = Czcionki:
     .accesskey = C

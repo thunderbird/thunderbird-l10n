@@ -324,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "Oktober" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "November" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "Dezember" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Jeden">
 <!ENTITY event.recurrence.yearly.first.label                 "Am ersten">
 <!ENTITY event.recurrence.yearly.second.label                "Am zweiten">
@@ -340,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Samstag" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "Tag" >
 <!ENTITY event.recurrence.of.label                           "im" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Januar" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Februar" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "März" >
@@ -358,7 +360,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Erstelle" >
 <!ENTITY event.recurrence.appointments.label            "Termin(e)" >
 <!ENTITY event.repeat.until.label                       "Wiederhole bis" >
-<!ENTITY event.recurrence.preview.label                 "Vorschau">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Teilnehmer einladen">

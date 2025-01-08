@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = 到期日
 openpgp-key-id-label =
     .label = 密钥 ID
-openpgp-cannot-change-expiry = 该密钥结构复杂，不支持更改到期日。
-openpgp-key-man-title =
-    .title = OpenPGP 密钥管理器
 openpgp-key-man-dialog-title = OpenPGP 密钥管理器
 openpgp-key-man-generate =
     .label = 生成新密钥对
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = 吊销证书
     .accesskey = R
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = 生成并保存吊销证书
 openpgp-key-man-gen-revocation =
     .label = 保存吊销证书至文件
     .accesskey = C
@@ -469,8 +464,6 @@ filter-encrypt-label = 使用密钥加密（OpenPGP）
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = 成功！已导入密钥
 import-info-dialog-title = 成功！已导入密钥
 import-info-bits = 位
 import-info-created = 创建于
@@ -610,9 +603,6 @@ no-update-found = 您已经拥有网络上找到的密钥。
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = 错误 - 密钥提取命令运行失败
@@ -735,10 +725,7 @@ quoted-printable-warn = 您选择使用“quoted-printable”编码方式来发�
 # Variables:
 # $width (Number) - Number of characters per line.
 minimal-line-wrapping = 您将换行长度设为 { $width } 个字符。若需正确进行加密或签名，此长度须至少为 68。您现在要将换行长度改为 68 个字符吗？
-sending-news = 加密发送操作中断。因为有新闻组收件人，无法加密此消息。请解除加密再重新发送。
-send-to-news-warning = 警告：您即将发送加密的邮件到新闻组中。不鼓励这样做，因为只有在群组中的所有成员都能够解密消息时才能阅读（也就是说，必须使用群组中的所有成员的密钥加密消息）。请只在您确切知道自己在做什么时才发送。确定要继续吗？
 save-attachment-header = 保存解密附件
-possibly-pgp-mime = 可能是 PGP/MIME 加密或签名过的消息，请使用“解密 / 验证”功能来验证
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = 由于您还没有配置<{ $key }>的端到端加密，无法数字签名此消息
@@ -788,15 +775,6 @@ debug-log-title = OpenPGP 调试日志
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = 此警报将重复 { $count }
-repeat-suffix-singular = 次。
-repeat-suffix-plural = 次。
-no-repeat = 将不再显示该警报。
-dlg-keep-setting = 记住我的答案，不要再问我
 
 ## Strings used in dialog.sys.mjs
 
@@ -806,8 +784,6 @@ dlg-button-cancel = 取消(&C)
 dlg-no-prompt = 不再显示此对话框。
 enig-prompt = OpenPGP 提示
 enig-confirm = OpenPGP 确认
-enig-alert = OpenPGP 警报
-enig-info = OpenPGP 信息
 
 ## Strings used in persistentCrypto.jsm
 

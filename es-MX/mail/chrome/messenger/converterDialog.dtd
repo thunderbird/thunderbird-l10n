@@ -8,4 +8,3 @@
 <!ENTITY converterDialog.finishButton "Finalizar">
 <!ENTITY converterDialog.complete "La conversión está completa, &brandShortName; se reiniciará.">
 <!ENTITY converterDialog.error "La conversión ha fallado.">
-

@@ -141,3 +141,6 @@ apply-current-columns-to-folder-message = Pas die huidige vouer se kolomme toe o
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Pas die huidige vouer se kolomme toe op { $name } en sy kinders?
+
+## Folder pane context menu
+

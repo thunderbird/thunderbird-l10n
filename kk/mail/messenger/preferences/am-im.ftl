@@ -10,6 +10,8 @@ chat-encryption-generic = Жалпы
 chat-encryption-log =
     .label = Өтпелі шифрленген хабарламаларды сөйлесулер журналдарына қосу
 chat-encryption-label = Ендірілген өтпелі шифрлеу
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } чат хабарламалары үшін өтпелі шифрлеуді қамтамасыз етеді. Бұл үшінші тараптардың әңгімені тыңдауын болдырмайды. Шифрлеу жұмыс істеуі үшін төмендегі қосымша баптаулар қажет болуы мүмкін.
 chat-encryption-status = Шифрлеу күйі
 chat-encryption-placeholder = Шифрлеу инициализацияланбаған.

@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Account:">
 <!ENTITY server.accesskey             "A">
 <!ENTITY subscribedHeader.label       "Abonnearje">
-<!-- commenting out until bug 38906 is fixed 
-<!ENTITY messagesHeader.label         "Berjochten"> -->
+<!-- commenting out until bug 38906 is fixed
+<!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Nijsgroepen toane mei de tekst:">
 <!ENTITY namefield.accesskey          "t">

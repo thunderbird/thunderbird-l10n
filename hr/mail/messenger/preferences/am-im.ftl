@@ -4,14 +4,14 @@
 
 account-settings-title = Postavke autentifikacije
 account-channel-title = Zadani kanali
-
 chat-autologin =
     .label = Prijavi se prilikom pokretanja
-
 chat-encryption-generic = Općenito
 chat-encryption-log =
     .label = Uključi obostrano šifrirane poruke u zapis razgovora
 chat-encryption-label = Izvorno obostrano šifriranje
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } pruža obostrano šifriranje za poruke razgovora. Ovo onemogućava treće strane u prisluškivanju razgovora. Dodatno postavljanje će možda biti potrebno za funkcioniranje šifriranja.
 chat-encryption-status = Status šifriranja
 chat-encryption-placeholder = Šifriranje nije inicijalizirano.

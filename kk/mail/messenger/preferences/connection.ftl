@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = д
     .tooltiptext = HTTPS арқылы DNS шешу үшін өзіңіздің URL-ын енгізіңіз
 connection-dns-over-https-custom-label = Таңдауыңызша
-connection-dialog-window2 =
-    .title = Байланыс баптаулары
 connection-dialog-title = Байланыс баптаулары
 disable-extension-button = Кеңейтуді сөндіру
 # Variables:

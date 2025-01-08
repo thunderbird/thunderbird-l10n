@@ -4,7 +4,5 @@
 
 <!ENTITY virtualFolderListTitle.title        "Vælg mapper">
 <!ENTITY virtualFolderDesc.label       "Vælg mapper at søge i:">
-
-
 <!ENTITY folderName.label "Mappenavn">
 <!ENTITY folderSearch.label "Søg">

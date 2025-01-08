@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "გასუფთავება">
 <!ENTITY encryption.certificate_clear.accesskey "უ">
 <!ENTITY signingGroupTitle.label "ციფრული ხელმოწერა">
-
 <!ENTITY signingCert2.message "პირადი სერტიფიკატი ციფრული ხელმოწერისთვის:">
 
 <!ENTITY sendingDefaults.label "ნაგულისხმევი პარამეტრები, წერილების გასაგზავნად">

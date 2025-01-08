@@ -7,7 +7,6 @@
 <!-- XXX rearrange entities to match physical layout when l10n isn't an issue -->
 <!-- LOCALIZATION NOTE (clearTimeDuration.*): "Time range to clear" dropdown.
      See UI mockup at bug 480169 -->
-
 <!ENTITY clearTimeDuration.label          "Mare da skarzhañ :">
 <!ENTITY clearTimeDuration.accesskey      "s">
 <!ENTITY clearTimeDuration.lastHour       "An eurvezh tremenet">
@@ -18,9 +17,7 @@
 <!-- Localization note (clearTimeDuration.suffix) - trailing entity for languages
 that require it.  -->
 <!ENTITY clearTimeDuration.suffix         "">
-<!-- LOCALIZATION NOTE (detailsProgressiveDisclosure.*): Labels and accesskeys
-     of the "Details" progressive disclosure button.  See UI mockup at bug
-     480169 -->
+
 
 
 <!ENTITY itemHistory.label                 "Roll istor ar merdeiñ">
@@ -29,10 +26,9 @@ that require it.  -->
 <!ENTITY itemCookies.accesskey             "o">
 <!ENTITY itemCache.label                   "Krubuilh">
 <!ENTITY itemCache.accesskey               "r">
+
 <!-- LOCALIZATION NOTE (sanitizeEverythingUndoWarning): Second warning paragraph
      that appears when "Time range to clear" is set to "Everything".  See UI
      mockup at bug 480169 -->
-
 <!ENTITY sanitizeEverythingUndoWarning     "Ne c'haller ket dizober ar gwezh-mañ..">
 
-<!ENTITY dialog.width                 "28em">

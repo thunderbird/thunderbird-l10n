@@ -30,13 +30,3 @@
 <!ENTITY closeCmd.label      "Loka">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "L">
-
-<!ENTITY quitApplicationCmd.label  "Hætta">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "H">
-
-<!ENTITY quitApplicationCmdUnix.label  "Hætta">
-<!ENTITY quitApplicationCmdUnix.accesskey  "H">
-
-<!ENTITY quitApplicationCmdMac.label  "Hætta í &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "H">

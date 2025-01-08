@@ -30,13 +30,3 @@
 <!ENTITY closeCmd.label      "Dùin">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "D">
-
-<!ENTITY quitApplicationCmd.label  "Fàg an-seo">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "F">
-
-<!ENTITY quitApplicationCmdUnix.label  "Fàg an-seo">
-<!ENTITY quitApplicationCmdUnix.accesskey  "F">
-
-<!ENTITY quitApplicationCmdMac.label  "Fàg &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "F">

@@ -10,6 +10,3 @@ migration-progress-header = { -brand-short-name } voorbereiden…
 # These strings are displayed to the user if a migration is taking a long time.
 # They should be short (no more than a handful of words) and in the present tense.
 
-migration-task-test-fast = Een snelle verandering testen
-migration-task-test-slow = Een langzame verandering testen
-migration-task-test-progress = De voortgangsbalk testen

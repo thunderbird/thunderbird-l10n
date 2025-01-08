@@ -3,7 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY window.title "Filterreëls">
-
 <!ENTITY filterName.label "Filternaam:">
 <!ENTITY filterName.accesskey "l">
 
@@ -17,28 +16,16 @@
 <!ENTITY highestPriorityCmd.label "Hoogste">
 
 
-
-
-
-
-
-
-
-
-
-
 <!ENTITY filterActionDesc.label "Doen hierdie aksies:">
 <!ENTITY filterActionDesc.accesskey "D">
 
 
 <!-- New Style Filter Rule Actions -->
-
 <!ENTITY moveMessage.label "Verskuif boodskap na">
 <!ENTITY copyMessage.label "Kopieer boodskap na">
 <!ENTITY forwardTo.label "Stuur boodskap aan na">
 <!ENTITY replyWithTemplate.label "Antwoord met sjabloon">
 <!ENTITY markMessageRead.label "Merk as gelees">
-
 <!ENTITY markMessageStarred.label "Voeg vlag by">
 <!ENTITY setPriority.label "Stel prioriteit op as">
 <!ENTITY addTag.label "Merk boodskap aan">
@@ -58,4 +45,3 @@
      are truncated in the widgets.
   -->
 <!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
-

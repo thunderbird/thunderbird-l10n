@@ -16,4 +16,3 @@ file names and tall enough to hint that there are more activities in the list --
 <!ENTITY cmd.clearList.label              "Limpar lista">
 <!ENTITY cmd.clearList.tooltip            "Remove da lista itens concluídos, cancelados e com falha">
 <!ENTITY cmd.clearList.accesskey          "L">
-

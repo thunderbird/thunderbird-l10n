@@ -73,22 +73,22 @@
 <!ENTITY startExpandedCmd.accesskey    "B">
 
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label "Openen">
-<!ENTITY openAttachmentCmd.accesskey "O">
-<!ENTITY saveAsAttachmentCmd.label "Opslaan als…">
-<!ENTITY saveAsAttachmentCmd.accesskey "l">
-<!ENTITY detachAttachmentCmd.label "Ontkoppelen…">
+<!ENTITY openAttachmentCmd.label    "Openen">
+<!ENTITY openAttachmentCmd.accesskey    "O">
+<!ENTITY saveAsAttachmentCmd.label    "Opslaan als…">
+<!ENTITY saveAsAttachmentCmd.accesskey    "l">
+<!ENTITY detachAttachmentCmd.label    "Ontkoppelen…">
 <!ENTITY detachAttachmentCmd.accesskey    "t">
-<!ENTITY deleteAttachmentCmd.label "Verwijderen">
+<!ENTITY deleteAttachmentCmd.label    "Verwijderen">
 <!ENTITY deleteAttachmentCmd.accesskey    "w">
 <!ENTITY openAllAttachmentsCmd.label    "Alles openen…">
 <!ENTITY openAllAttachmentsCmd.accesskey    "O">
-<!ENTITY saveAllAttachmentsCmd.label "Alles opslaan…">
-<!ENTITY saveAllAttachmentsCmd.accesskey "s">
-<!ENTITY detachAllAttachmentsCmd.label "Alles ontkoppelen…">
-<!ENTITY detachAllAttachmentsCmd.accesskey "k">
-<!ENTITY deleteAllAttachmentsCmd.label "Alles verwijderen…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey "v">
+<!ENTITY saveAllAttachmentsCmd.label    "Alles opslaan…">
+<!ENTITY saveAllAttachmentsCmd.accesskey    "s">
+<!ENTITY detachAllAttachmentsCmd.label    "Alles ontkoppelen…">
+<!ENTITY detachAllAttachmentsCmd.accesskey    "k">
+<!ENTITY deleteAllAttachmentsCmd.label    "Alles verwijderen…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey    "v">
 
 <!ENTITY openAttachment.tooltip "Het gekoppelde bestand openen">
 
@@ -103,8 +103,8 @@
 <!ENTITY saveAllAttachmentsButton1.label   "Alles opslaan">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Alle bijlagen opslaan">
 
-<!ENTITY copyLinkCmd.label "Koppelingslocatie kopiëren">
-<!ENTITY copyLinkCmd.accesskey "k">
+<!ENTITY copyLinkCmd.label        "Koppelingslocatie kopiëren">
+<!ENTITY copyLinkCmd.accesskey    "k">
 
 <!ENTITY CopyMessageId.label "Bericht-ID kopiëren">
 <!ENTITY CopyMessageId.accesskey "k">

@@ -34,7 +34,7 @@
 <!ENTITY tableCaptionLeft.label           "Tabelist vasakul">
 <!ENTITY tableCaptionRight.label          "Tabelist paremal">
 <!ENTITY tableCaptionNone.label           "Puudub">
-<!ENTITY tableInheritColor.label          "(Lehe värv paistab läbi)">
+<!ENTITY tableInheritColor.label           "(Lehe värv paistab läbi)">
 
 <!ENTITY cellSelection.label              "Valik">
 <!ENTITY cellSelectCell.label             "Lahter">

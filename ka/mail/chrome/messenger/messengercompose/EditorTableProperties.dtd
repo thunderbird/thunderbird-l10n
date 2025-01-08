@@ -44,7 +44,7 @@
 <!ENTITY cellSelectNext.accessKey         "N">
 <!ENTITY cellSelectPrevious.label         "წინა">
 <!ENTITY cellSelectPrevious.accessKey     "P">
-<!ENTITY applyBeforeChange.label         "არსებული ცვლილებები გააქტივდება მონიშვნის შეცვლამდე">
+<!ENTITY applyBeforeChange.label          "არსებული ცვლილებები გააქტივდება მონიშვნის შეცვლამდე">
 <!ENTITY cellContentAlignment.label       "შიგთავსის განთავსება">
 <!ENTITY cellHorizontal.label             "ჰორიზოტული:">
 <!ENTITY cellHorizontal.accessKey         "Z">

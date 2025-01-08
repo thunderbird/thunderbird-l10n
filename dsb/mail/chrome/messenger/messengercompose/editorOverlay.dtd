@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Kakosći tabele…">
 <!ENTITY tableProperties.accesskey "K">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Wobraz">
 <!ENTITY imageToolbarCmd.tooltip "Nowy wobraz zasajźiś abo kakosći wubranego wobraza wobźěłaś">
 <!ENTITY hruleToolbarCmd.label "Horicontalna linija">

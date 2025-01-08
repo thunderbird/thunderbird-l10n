@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = 创建、重命名或删除您的邮件账户文件夹
 webext-perms-description-accountsIdentities = 创建、修改或删除您的邮件账户身份
 webext-perms-description-accountsRead = 查看您的邮件账户、身份及邮件夹
@@ -20,7 +27,6 @@ webext-perms-description-messagesModify = 阅读并修改向您显示的电子�
 webext-perms-description-messagesModifyPermanent = 永久修改您消息的源代码（包括头、正文和附件）
 webext-perms-description-messagesMove = 复制或移动您的邮件消息（包含将消息移动到垃圾箱）
 webext-perms-description-messagesDelete = 永久删除您的邮件消息
-webext-perms-description-messagesRead = 阅读您的邮件消息，并给其做标记或添加标签
 webext-perms-description-messagesRead2 = 读取邮件
 webext-perms-description-messagesUpdate = 更改邮件的属性和标签
 webext-perms-description-messagesTags = 创建、修改或删除消息标签

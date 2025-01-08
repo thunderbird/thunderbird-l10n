@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "n">
 <!ENTITY newVirtualFolderCmd.label "Kayıtlı arama…">
 <!ENTITY newVirtualFolderCmd.accesskey "a">
-<!ENTITY newCreateEmailAccountCmd.label "Yeni e-posta hesabı al…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "Y">
-<!ENTITY newExistingEmailAccountCmd.label "Mevcut e-posta hesabı…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "M">
 <!ENTITY newIMAccountCmd.label "Sohbet hesabı…">
 <!ENTITY newIMAccountCmd.accesskey "o">
 <!ENTITY newFeedAccountCmd.label "Besleme hesabı…">
@@ -621,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "b">
 <!ENTITY folderContextMarkNewsgroupRead.label "Haber grubunu okundu olarak işaretle">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "o">
-<!ENTITY folderContextMarkMailFolderRead.label "Klasörü okundu olarak işaretle">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "D">
 <!ENTITY folderContextSubscribe.label "Abone ol…">
 <!ENTITY folderContextSubscribe.accesskey "A">
 <!ENTITY folderContextSearchForMessages.label "İletilerde ara…">
@@ -728,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "H">
 <!ENTITY contextReplyList.label "Listeyi yanıtla">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextForward.label "İlet">
-<!ENTITY contextForward.accesskey "e">
-<!ENTITY contextForwardAsMenu.label "Farklı ilet">
-<!ENTITY contextForwardAsMenu.accesskey "F">
-<!ENTITY contextForwardAsInline.label "İleti içinde">
-<!ENTITY contextForwardAsInline.accesskey "d">
-<!ENTITY contextForwardAsAttachmentItem.label "Ek olarak ilet">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "r">
-<!ENTITY contextMultiForwardAsAttachment.label "Ek olarak ilet">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "o">
 <!ENTITY contextMoveMsgMenu.label "Taşı">
 <!ENTITY contextMoveMsgMenu.accesskey "T">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Son kullanılanlar">

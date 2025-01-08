@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "მითითებული კალენდრის წაშლა…">
 <!ENTITY calendar.removecalendar.accesskey      "წ">
 
-
-<!ENTITY calendar.menu.customize.label          "მორგება…">
-<!ENTITY calendar.menu.customize.accesskey      "C">
-
 <!ENTITY showUnifinderCmd.label                 "ღონისძიების მონახვა">
 <!ENTITY showUnifinderCmd.accesskey             "F">
 <!ENTITY showUnifinderCmd.tooltip               "ღონისძიების საძიებო არის გახსნა/დახურვა">

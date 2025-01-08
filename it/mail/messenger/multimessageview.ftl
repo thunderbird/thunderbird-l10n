@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Riepilogo messaggio
-selected-messages-label =
-    .label = Messaggi selezionati
 multi-message-archive-button =
     .label = Archivia
     .tooltiptext = Archivia

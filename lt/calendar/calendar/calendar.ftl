@@ -464,7 +464,7 @@ event-details-end-date = Pabaiga:
 #    $timezone will be replaced with the name of the timezone
 datetime-with-timezone = { $datetime }, { $timezone }
 # LOCALIZATION NOTE (single-long-calendar-week):
-# used for display of calendar weeks in short form like 'Calendar Week 43'
+# used for display of calendar weeks in long form like 'Calendar Week 43'
 #    $index will be replaced with the index of the week
 single-long-calendar-week = { $index } kalendorinė savaitė
 # LOCALIZATION NOTE (single-calendar-week):
@@ -496,18 +496,6 @@ due-in-hours =
        *[other] { $count } valandų
     }
 due-in-less-than-one-hour = mažiau nei valanda
-# LOCALIZATION NOTE (month-in-year):
-# used for display of Month-dates like 'December 2008'
-#    $month will be replaced with name of the month
-#    $year will be replaced with the year
-month-in-year = { $year } m. { $month }
-month-in-year-label =
-    .aria-label = { $year } m. { $month }
-# LOCALIZATION NOTE (month-in-year-month-format):
-# If your language requires a different declension, change this to
-# one of the values specified in dateFormat.properties.
-# In any case, DO NOT TRANSLATE.
-month-in-year-month-format = nominative
 # LOCALIZATION NOTE (format-date-long):
 # used for display dates in long format like 'Mon 15 Oct 2008' when it's
 # impossible to retrieve the formatatted date from the OS.
@@ -527,73 +515,6 @@ format-date-long = { $year } { $monthName } { $dayIndex }, { $dayName }
 day-header = { $dayName }, { $dayIndex }
 day-header-elem =
     .label = { day-header }
-# LOCALIZATION NOTE (days-interval-in-month):
-# used for display of intervals in the form of 'March 3 - 9, 2008'
-#    $startMonth will be replaced with name of the month of the start date
-#    $startDayIndex will be replaced with the day-index of the start date possibly followed by an ordinal symbol
-#    $endDayIndex will be replaced with the day-index of the end date possibly followed by an ordinal symbol
-#    $year will be replaced with the common year of both dates
-# The presence of the ordinal symbol in the day-indexes depends on the string
-# dayOrdinalSymbol in dateFormat.properties
-days-interval-in-month = { $year } m. { $startMonth } { $startDayIndex } — { $endDayIndex } d.
-# LOCALIZATION NOTE (days-interval-in-month-month-format):
-# If your language requires a different declension, change this to
-# one of the values specified in dateFormat.properties.
-# In any case, DO NOT TRANSLATE.
-days-interval-in-month-month-format = genitive
-# LOCALIZATION NOTE (days-interval-between-months):
-# used for display of intervals in the form 'September 29 - October 5, 2008'
-#    $startMonth will be replaced with name of the month of the start date
-#    $startDayIndex will be replaced with the day-index of the start date possibly followed by an ordinal symbol
-#    $endMonth will be replaced with name of the month of the end date
-#    $endDayIndex will be replaced with the day-index of the end date possibly followed by an ordinal symbol
-#    $year will be replaced with the common year of both dates
-# The presence of the ordinal symbol in the day-indexes depends on the string
-# dayOrdinalSymbol in dateFormat.properties
-days-interval-between-months = { $year } m. { $startMonth } { $startDayIndex } — { $endMonth } { $endDayIndex } d.
-# LOCALIZATION NOTE (days-interval-between-months-month-format):
-# If your language requires a different declension, change this to
-# one of the values specified in dateFormat.properties.
-# In any case, DO NOT TRANSLATE.
-days-interval-between-months-month-format = genitive
-# LOCALIZATION NOTE (days-interval-between-years):
-# used for display of intervals in the form 'December 29, 2008 - January 4, 2009'
-#    $startMonth will be replaced with name of the month of the start date
-#    $startDayIndex will be replaced with the day-index of the start date possibly followed by an ordinal symbol
-#    $startYear will be replaced with the year of the start date
-#    $endMonth will be replaced with name of the month of the end date
-#    $endDayIndex will be replaced with the day-index of the end date possibly followed by an ordinal symbol
-#    $endYear will be replaced with the year of the end date
-# The presence of the ordinal symbol in the day-indexes depends on the string
-# dayOrdinalSymbol in dateFormat.properties
-days-interval-between-years = { $startYear } m. { $startMonth } { $startDayIndex } — { $endYear } m. { $endMonth } { $endDayIndex } d.
-# LOCALIZATION NOTE (days-interval-between-years-month-format):
-# If your language requires a different declension, change this to
-# one of the values specified in dateFormat.properties.
-# In any case, DO NOT TRANSLATE.
-days-interval-between-years-month-format = genitive
-# LOCALIZATION NOTE (datetime-interval-on-same-date-time):
-# used for intervals where end is equals to start
-# displayed form is '5 Jan 2006 13:00'
-#    $startDate will be replaced with the date of the start date
-#    $startTime will be replaced with the time of the start date
-datetime-interval-on-same-date-time = { $startDate } { $startTime }
-# LOCALIZATION NOTE (datetime-interval-on-same-day):
-# used for intervals where end is on the same day as start, so we can leave out the
-# end date but still include end time
-# displayed form is '5 Jan 2006 13:00 - 17:00'
-#    $startDate will be replaced with the date of the start date
-#    $startTime will be replaced with the time of the start date
-#    $endTime will be replaced with the time of the end date
-datetime-interval-on-same-day = { $startDate } { $startTime } — { $endTime }
-# LOCALIZATION NOTE (datetime-interval-on-several-days):
-# used for intervals spanning multiple days by including date and time
-# displayed form is '5 Jan 2006 13:00 - 7 Jan 2006 9:00'
-#    $startDate will be replaced with the date of the start date
-#    $startTime will be replaced with the time of the start date
-#    $endDate will be replaced with the date of the end date
-#    $endTime will be replaced with the time of the end date
-datetime-interval-on-several-days = { $startDate } { $startTime } — { $endDate } { $endTime }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)
@@ -644,30 +565,32 @@ extract-using = Naudojama kalba – { $languageName }
 #    $languageName will be replaced with language name from languageNames.properties
 #    $region will be replaced with region like US in en-US
 extract-using-region = Naudojama kalba – { $languageName } ({ $region })
-# LOCALIZATION NOTE (unit)
-# Used to determine the correct plural form of a unit
-# $count count
+# Variables:
+# $count (Number) - Number of minutes, also used to determine the correct plural form.
 unit-minutes =
     { $count ->
         [one] { $count } minutė
         [few] { $count } minutės
        *[other] { $count } minučių
     }
-# $count count
+# Variables:
+# $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
     { $count ->
         [one] { $count } valanda
         [few] { $count } valandos
        *[other] { $count } valandų
     }
-# $count count
+# Variables:
+# $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
     { $count ->
         [one] { $count } diena
         [few] { $count } dienos
        *[other] { $count } dienų
     }
-# $count count
+# Variables:
+# $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
     { $count ->
         [one] { $count } savaitė

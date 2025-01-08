@@ -152,20 +152,6 @@ mail-context-menu-forward-forward =
     .accesskey = Փ
 context-menu-redirect-msg =
     .label = Վերայղում
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Ջնջել հաղորդագրութիւնը
-           *[other] Ջնջել ընտրուած հաղորդագրութիւնները
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Յետարկել հաղորդագրութեան ջնջումը
-           *[other] Յետարկել ընտրուած նամակների ջնջումը
-        }
 
 ## Message header pane
 
@@ -206,9 +192,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Հեռացնե՞լ { $name }-ը:
 addon-removal-confirmation-button = Հեռացնել
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Հեռացնե՞լ { $name }-ը, ինչպէս նաեւ դրա կազմաձեւումն ու տուեալները { -brand-short-name }-ից:
 caret-browsing-prompt-title = Ստեղնային դիտարկում
 caret-browsing-prompt-text = Սեղմելով F7-ը միացնում կամ անջատում է ստեղնային դիտարկումը: Այս յատկութիւնը տեղաւորում է շարժական նշորդը որոշ բովանդակութեան մէջ՝ թոյղ տալով ընտրել գրոյթը ստեղնաշարով: Ցանկանու՞մ էք միացնել ստեղնային դիտարկումը:
@@ -220,6 +208,8 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Պատասխանը չի աջակցուում
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Պատասխանի հասցէն ({ $email }) կարծէս վերահսկուող հասցէ չէ: Այս հասցէին ուղղուած հաղորդագրութիւնները հաւանաբար ոչ ոք չի կարդայ:
 no-reply-reply-anyway-button = Պատասխանել ամէն դէպքում
 
@@ -306,7 +296,7 @@ quick-filter-bar-toggle =
     .label = Արագ զտիչի վահանակ
     .accesskey = Ա
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

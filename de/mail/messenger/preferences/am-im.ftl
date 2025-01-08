@@ -4,14 +4,14 @@
 
 account-settings-title = Authentifizierungs-Einstellungen
 account-channel-title = Standardräume
-
 chat-autologin =
     .label = Automatisches Verbinden beim Start
-
 chat-encryption-generic = Allgemein
 chat-encryption-log =
     .label = Ende-zu-Ende-verschlüsselte Nachrichten ebenfalls in Gesprächsprotokoll aufnehmen
 chat-encryption-label = Eingebaute Ende-zu-Ende-Verschlüsselung
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } unterstützt die Ende-zu-Ende-Verschlüsselung von Chat-Nachrichten. Dies verhindert das Mitlesen der Nachrichten durch Dritte. Zur Unterstützung der Verschlüsselung ist eventuell unten eine Einrichtung nötig.
 chat-encryption-status = Verschlüsselungsstatus
 chat-encryption-placeholder = Verschlüsselung wurde nicht gestartet.

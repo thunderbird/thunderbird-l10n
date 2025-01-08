@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Použiť malé ikony">
 <!ENTITY restoreDefaultSet.label  "Obnoviť predvolenú sadu">
 <!ENTITY showTitlebar2.label      "Panel s titulkom okna">
-<!ENTITY extraDragSpace2.label    "Priestor na presunutie">
 <!ENTITY saveChanges.label        "Hotovo">
 <!ENTITY undoChanges.label        "Zrušiť zmeny">

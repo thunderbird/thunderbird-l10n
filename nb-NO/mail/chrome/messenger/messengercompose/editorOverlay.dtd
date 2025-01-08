@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Tabellegenskaper …">
 <!ENTITY tableProperties.accesskey "T">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Bilde">
 <!ENTITY imageToolbarCmd.tooltip "Sett inn nytt bilde eller rediger det valgte bildets egenskaper">
 <!ENTITY hruleToolbarCmd.label "Horisontal linje">

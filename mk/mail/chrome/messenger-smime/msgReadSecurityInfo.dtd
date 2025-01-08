@@ -13,3 +13,4 @@
 <!ENTITY email.address "Адреса за е-пошта:">
 <!ENTITY issuer.name "Сертификатот е издаден од:">
 
+<!-- LOCALIZATION NOTE(SMIME.label): This a name for a technical standard. You should not translate it, but if applicable, you may write it using localized characters. -->

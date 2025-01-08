@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Poista valittu kalenteri…">
 <!ENTITY calendar.removecalendar.accesskey      "P">
 
-
-<!ENTITY calendar.menu.customize.label          "Muokkaa…">
-<!ENTITY calendar.menu.customize.accesskey      "M">
-
 <!ENTITY showUnifinderCmd.label                 "Etsi tapahtumia">
 <!ENTITY showUnifinderCmd.accesskey             "E">
 <!ENTITY showUnifinderCmd.tooltip               "Näytä/piilota Etsi tapahtumia -paneeli">

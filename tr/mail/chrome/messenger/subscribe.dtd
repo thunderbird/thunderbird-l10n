@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Hesap:">
 <!ENTITY server.accesskey             "a">
 <!ENTITY subscribedHeader.label       "Abone ol">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "İçerenleri göster:">
 <!ENTITY namefield.accesskey          "e">

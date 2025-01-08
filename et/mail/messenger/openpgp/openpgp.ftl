@@ -31,9 +31,6 @@ openpgp-key-expiry-label =
     .label = Aegumine
 openpgp-key-id-label =
     .label = Võtme ID
-openpgp-cannot-change-expiry = See võti on keerulise struktuuriga, selle aegumise muutmine pole toetatud.
-openpgp-key-man-title =
-    .title = OpenPGP võtmehaldur
 openpgp-key-man-dialog-title = OpenPGP võtmehaldur
 openpgp-key-man-generate =
     .label = Uus võtmepaar
@@ -41,8 +38,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Tühistussert
     .accesskey = T
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Loo ja salvesta tühistussert
 openpgp-key-man-file-menu =
     .label = Fail
     .accesskey = F
@@ -97,6 +92,8 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Saada avalik võti e-postiga
     .accesskey = d
+# Variables:
+# $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
@@ -104,6 +101,8 @@ openpgp-key-man-copy-key-ids =
            *[other] Kopeeri võtme ID'd vahemällu
         }
     .accesskey = o
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
@@ -111,6 +110,8 @@ openpgp-key-man-copy-fprs =
            *[other] Kopeeri sõrmejäljed vahemällu
         }
     .accesskey = j
+# Variables:
+# $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
@@ -118,11 +119,11 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Kopeeri avalikud võtmed vahemällu
         }
     .accesskey = p
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Ekspordi võtmed faili
 openpgp-key-man-ctx-copy =
     .label = Kopeeri
     .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
@@ -130,6 +131,8 @@ openpgp-key-man-ctx-copy-fprs =
            *[other] Sõrmejäljed
         }
     .accesskey = S
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
@@ -137,6 +140,8 @@ openpgp-key-man-ctx-copy-key-ids =
            *[other] Võtme ID'd
         }
     .accesskey = t
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -294,9 +299,9 @@ openpgp-radio-none-desc = OpenPGPd selle identiteedi jaoks ei kasutata.
 openpgp-radio-key-not-usable = See võti pole isikliku võtmena kasutatav, sest puudub salajane võti.
 openpgp-radio-key-not-accepted = Selle võtme kasutamiseks pead tunnustama seda isikliku võtmena.
 openpgp-radio-key-not-found = Seda võtit ei leitud. Selle kasutamiseks pead selle { -brand-short-name }i importima.
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Aegub: { $date }
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Aegus: { $date }
 openpgp-key-expires-within-6-months-icon =
     .title = Võti aegub vähem kui 6 kuu pärast
@@ -318,7 +323,6 @@ key-external-label = Väline GnuPG võti
 
 ## Strings in keyDetailsDlg.xhtml
 
-# Strings in keyDetailsDlg.xhtml
 key-type-public = avalik võti
 key-type-primary = peamine võti
 key-type-subkey = alamvõti
@@ -329,21 +333,28 @@ key-usage-sign = Allkirjastamine
 key-usage-certify = Sertifitseerimine
 key-usage-authentication = Autentimine
 key-does-not-expire = Võti ei aegu
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = Võti aegus { $keyExpiry }
 key-expired-simple = Võti on aegunud
 key-revoked-simple = Võti tühistati
 key-do-you-accept = Kas tunnustad seda võtit digiallkirjade kontrollimiseks ja kirjade krüptimiseks?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
 key-verification = Kontrolli võtme sõrmejälge, kasutades muud turvalist sidekanalit peale e-posti, veendumaks, et see on tõesti aadressi { $addr } võti.
 
 ## Strings enigmailMsgComposeOverlay.js
 
-# Strings enigmailMsgComposeOverlay.js
+# Variables:
+# $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Kirja saatmine pole võimalik, sest esineb probleem sinu isikliku võtmega. { $problem }
 window-locked = Koostamise aken on lukus, saatmine katkestati
 
 ## Strings in keyserver.jsm
 
-# Strings in keyserver.jsm
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Katkestatud
 keyserver-error-unknown = Esines tundmatu viga
 keyserver-error-server-error = Võtmeserver teatas veast.
@@ -355,7 +366,9 @@ keyserver-error-unsupported = Võtmeserver pole toetatud.
 
 ## Strings in mimeWkdHandler.jsm
 
-# Strings in mimeWkdHandler.jsm
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Sinu e-posti teenusepakkuja töötles sinu taotluse avaliku võtme üleslaadimiseks OpenPGP veebis olevasse võtmete kataloogi. 
     Lõpetamiseks kinnita palun avaliku võtme avalikustamine.
@@ -365,7 +378,11 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
-# Strings in persistentCrypto.jsm
+
+## Strings in persistentCrypto.sys.mjs
+
+# Variables:
+# $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
     Kirja pealkirjaga { $subject }
     polnud võimalik dekrüptida.
@@ -373,30 +390,35 @@ converter-decrypt-body-failed =
 
 ## Strings filters.jsm
 
-# Strings filters.jsm
+
+## Strings filters.sys.mjs
+
 filter-folder-required = Sa pead valima sihtkausta.
 filter-decrypt-move-warn-experimental =
     Hoiatus - filtri tegevus "Dekrüpti jäädavalt" võib viia kirjade hävitamiseni.
     Me soovitame tungivalt, et proovid kõigepealt filtrit "Loo dekrüptitud koopia", testid seda põhjalikult ja ainult siis alustad selle filtri kasutamist, kui oled tulemustega rahul.
 filter-term-pgpencrypted-label = OpenPGPga krüptitud
 filter-key-required = Sa pead valima saaja võtme.
+# Variables:
+# $desc (String) - Email address to look for a key of.
 filter-key-not-found = Krüpteerimisvõtit ‘{ $desc }’ jaoks ei leitud.
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     Hoiatus - filtri tegevus "Krüpteeri võtmega" asendab saajad.
     Kui sul puudub ‘{ $desc }’ jaoks salajane võti, siis pole sul enam võimalik neid kirju lugeda.
 
 ## Strings filtersWrapper.jsm
 
-# Strings filtersWrapper.jsm
+
+## Strings filtersWrapper.sys.mjs
+
 filter-decrypt-move-label = Dekrüpti jäädavalt (OpenPGP)
 filter-decrypt-copy-label = Loo dekrüpteeritud koopia (OpenPGP)
 filter-encrypt-label = Krüpteeri võtmega (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-# Strings in enigmailKeyImportInfo.js
-import-info-title =
-    .title = Võtmete importimine õnnestus!
 import-info-dialog-title = Võtmete importimine õnnestus!
 import-info-bits = Bitid
 import-info-created = Loodud
@@ -406,11 +428,12 @@ import-info-no-keys = Võtmeid ei imporditud.
 
 ## Strings in enigmailKeyManager.js
 
-# Strings in enigmailKeyManager.js
 import-from-clip = Kas soovid importida mõned võtmed vahemälust?
 import-from-url = Laadi avalik võti alla järgnevalt URLilt:
 copy-to-clipbrd-failed = Valitud võtmeid polnud võimalik vahemällu kopeerida.
 copy-to-clipbrd-ok = Võtmed kopeeriti vahemällu
+# Variables:
+# $userId (String) - User id of the key.
 delete-secret-key =
     HOIATUS: oled kustutamas salajast võtit!
     
@@ -422,6 +445,8 @@ delete-mix =
     HOIATUS: oled kustutamas salajasi võtmeid!
     Kui sa kustutad oma salajase võtme, siis pole sul võimalik enam dekrüptida sellele võtmele krüptitud kirju.
     Kas soovid kindlasti kustutada nii valitud salajased kui avalikud võtmed?
+# Variables:
+# $userId (String) - User id of the key.
 delete-pub-key = Kas soovid kustutada avaliku võtme ‘{ $userId }’?
 delete-selected-pub-key = Kas soovid kustutada avalikud võtmed?
 refresh-all-question = Sa ei valinud ühtki võtit. Kas soovid uuendada KÕIKI võtmeid?
@@ -440,6 +465,8 @@ default-pub-key-filename = Eksporditud-avalikud-võtmed
 default-pub-sec-key-filename = Salajaste-võtmete-varukoopia
 refresh-key-warn = Hoiatus: sõltuvalt võtmete arvust ja ühenduse kiirusest võib kõigi võtmete uuendamine olla üsna pikk protsess!
 preview-failed = Avaliku võtme faili pole võimalik lugeda.
+# Variables:
+# $reason (String) - Error description.
 general-error = Viga: { $reason }
 dlg-button-delete = &Kustuta
 
@@ -455,7 +482,12 @@ openpgp-export-secret-fail = <b>Valitud salajast võtit pole võimalik eksportid
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
-# Strings in keyObj.jsm
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Võti { $userId } (võtme ID { $keyId }) on tühistatud.
 key-ring-pub-key-expired = Võti { $userId } (võtme ID { $keyId }) on aegunud.
 key-ring-no-secret-key = Sinu võtmerõngal ei näi olevat salajast võtit võtme { $userId } (võtme ID { $keyId }) jaoks; seda võtit pole võimalik allkirjastamiseks kasutada.
@@ -468,13 +500,17 @@ key-ring-enc-sub-keys-expired = Kõik võtme { $userId } (võtme ID { $keyId }) 
 
 ## Strings in gnupg-keylist.jsm
 
-# Strings in gnupg-keylist.jsm
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Pilt
 user-att-photo = Kasutaja atribuut (JPEG-pilt)
 
 ## Strings in key.jsm
 
-# Strings in key.jsm
+
+## Strings in key.sys.mjs
+
 already-revoked = See võti on juba tühistatud.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
@@ -497,7 +533,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
-# Strings in keyRing.jsm & decryption.jsm
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Impordi
 delete-key-title = Kustuta OpenPGP võti
 delete-external-key-title = Eemalda väline GnuPG võti
@@ -508,41 +546,59 @@ revoke-key-in-use-description = Pole võimalik jätkata! Võti, mille valisid t�
 
 ## Strings used in errorHandling.jsm
 
-# Strings used in errorHandling.jsm
+
+## Strings used in errorHandling.sys.mjs
+
+# Variables:
+# $keySpec (String) - Email address.
 key-error-key-spec-not-found = E-posti aadressi ‘{ $keySpec }’ pole võimalik sobitada ühegi võtmega sinu võtmerõngal.
+# $keySpec (String) - Key id.
 key-error-key-id-not-found = Seadistatud võtit ‘{ $keySpec }’ pole võimalik sinu võtmerõngalt leida.
+# $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Sa pole kinnitanud, et võti IDga ‘{ $keySpec }’ on sinu isiklik võti.
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
-# Strings used in enigmailKeyManager.js & windows.jsm
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Valitud funktsionaalsus pole võrguta režiimis saadaval. Palun ühendu võrku ja proovi siis uuesti.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
 
-# Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
+
 no-key-found2 = Me ei leidnud otsingule vastavat kasutatavat võtit.
 no-update-found = Sul on juba võrgust leitud võtmed olemas.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
-# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Viga - võtme eksportimise käsk ebaõnnestus
 
 ## Strings used in keyRing.jsm
 
-# Strings used in keyRing.jsm
+
+## Strings used in keyRing.sys.mjs
+
 fail-cancel = Viga - võtme vastuvõtmine katkestati kasutaja poolt
 not-first-block = Viga - esimene OpenPGP plokk pole avaliku võtme plokk
 import-key-confirm = Kas importida kirjas sisalduvad avalikud võtmed?
 fail-key-import = Viga - võtme importimine ebaõnnestus
+# Variables:
+# $output (String) - File that writing was attempted to.
 file-write-failed = Faili { $output } kirjutamine ebaõnnestus
 no-pgp-block = Viga - kehtivat soomustatud OpenPGP andmete plokki ei leitud
 confirm-permissive-import = Importimine ebaõnnestus. Imporditav võti võib olla rikutud või kasutab tundmatuid atribuute. Kas soovid proovida importida korrektsed osad? See võib kaasa tuua mittetäielike ja kasutuskõlbmatute võtmete importimise.
 
 ## Strings used in trust.jsm
 
-# Strings used in trust.jsm
+
+## Strings used in trust.sys.mjs
+
 key-valid-unknown = tundmatu
 key-valid-invalid = vigane
 key-valid-disabled = keelatud
@@ -556,7 +612,6 @@ key-trust-group = (grupp)
 
 ## Strings used in commonWorkflows.js
 
-# Strings used in commonWorkflows.js
 import-key-file = Impordi OpenPGP võtmefail
 import-rev-file = Impordi OpenPGP tühistusfail
 gnupg-file = GnuPG failid
@@ -565,7 +620,6 @@ file-to-big-to-import = Fail on liiga suur. Palun ära impordi suurt arvu võtme
 
 ## Strings used in enigmailKeygen.js
 
-# Strings used in enigmailKeygen.js
 save-revoke-cert-as = Loo ja salvesta tühistussert
 revoke-cert-ok = Tühistussert on edukalt loodud. Sa võid seda kasutada, et tunnistada oma avalik võti kehtetuks, nt juhul kui oled kaotanud oma salajase võtme.
 revoke-cert-failed = Tühistusserti polnud võimalik luua.
@@ -573,6 +627,8 @@ gen-going = Võtme genereerimine juba käib!
 keygen-missing-user-name = Valitud konto/identiteedi jaoks pole nime määratud. Palun sisesta konto sätetes väärtus väljale “Sinu nimi”.
 expiry-too-short = Võti peab kehtima vähemalt ühe päeva.
 expiry-too-long = Üle 100 aasta kehtivat võtit pole võimalik luua.
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
 key-confirm = Kas genereerida identiteedi ‘{ $id }’ jaoks avalik ja salajane võti?
 key-man-button-generate-key = &Genereeri võti
 key-abort = Kas katkestada võtme genereerimine?
@@ -583,9 +639,17 @@ key-man-button-generate-key-continue = &Jätka võtme genereerimist
 
 failed-decrypt = Viga - dekrüptimine ebaõnnestus
 fix-broken-exchange-msg-failed = Seda kirja pole võimalik parandada.
+# Variables:
+# $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Allkirjafaili ‘{ $attachment }’ polnud võimalik manusega sobitada
+# Variables:
+# $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Manust ‘{ $attachment }’ polnud võimalik allkirjafailiga sobitada
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verified-ok = Manuse { $attachment } allkiri kinnitati edukalt
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verify-failed = Manuse { $attachment } allkirja polnud võimalik kontrollida
 decrypt-ok-no-sig =
     Hoiatus
@@ -595,14 +659,21 @@ enig-content-note = *Selle kirja manuseid pole allkirjastatud ega krüptitud*
 
 ## Strings used in enigmailMsgComposeOverlay.js
 
-# Strings used in enigmailMsgComposeOverlay.js
 msg-compose-button-send = &Saada kiri
 msg-compose-details-button-label = Üksikasjad…
 msg-compose-details-button-access-key = k
 send-aborted = Saatmisoperatsioon katkestati.
+# Variables:
+# $key (String) - Key id.
 key-not-trusted = Võtme ‘{ $key }’ usaldus pole piisav
+# Variables:
+# $key (String) - Key id.
 key-not-found = Võtit ‘{ $key }’ ei leitud
+# Variables:
+# $key (String) - Key id.
 key-revoked = Võti ‘{ $key }’ tühstati
+# Variables:
+# $key (String) - Key id.
 key-expired = Võti ‘{ $key }’ aegus
 msg-compose-internal-error = Esines sisemine viga.
 keys-to-export = Vali sisestatavad OpenPGP võtmed
@@ -614,80 +685,84 @@ msg-compose-partially-encrypted-short = Hoidu tundliku info lekitamisest - osali
 quoted-printable-warn =
     Oled kirjade saatmiseks lubanud kodeeringu ‘tsiteeritud-prinditav’. See võib põhjustada sinu kirja vale dekrüptimist ja/või kontrollimist.
     Kas soovid ‘tsiteeritud-prinditav’ kirjade saatmise praegu välja lülitada?
+# Variables:
+# $width (Number) - Number of characters per line.
 minimal-line-wrapping =
     Sa oled määranud reamurdmise { $width } märgi peale. Korrektse krüptimise ja/või allkirjastamise jaoks peab see väärtus olema vähemalt 68.
     Kas soovid reamurdmise muuta 68 märgi peale?
-sending-news =
-    Krüptitud saatmise toiming katkestati.
-    Seda kirja polnud võimalik krüptida, sest sellel on uudistegrupi adressaate. Palun proovi kirja uuesti saata ilma krüptimiseta.
-send-to-news-warning =
-    Hoiatus: oled saatmas krüptitud kirja uudistegrupile.
-    Seda ei soovitata teha, sest see on mõttekas ainult siis, kui kõik grupi liikmed saavad kirja dekrüptida (st, et kiri peaks olema krüptitud kõigi grupiliikmete võtmetega). Palun saada see kiri ainult siis, kui tead, mida teed.
-    Kas jätkata?
 save-attachment-header = Salvesta dekrüptitud manus
-possibly-pgp-mime = Võimalik PGP/MIME krüptitud või allkirjastatud kiri, kontrollimiseks kasuta ‘dekrüptimise/kontrollimise’ funktsionaalsust
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Seda kirja pole võimalik digitaalselt allkirjastada, sest sa pole veel seadistanud otspunktkrüptimist võtme <{ $key }> jaoks
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Seda kirja pole võimalik krüptitult saata, sest sa pole veel seadistanud otspunktkrüptimist võtme <{ $key }> jaoks
 
 ## Strings used in decryption.jsm
 
-# Strings used in decryption.jsm
+
+## Strings used in decryption.sys.mjs
+
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     Kas importida järgnevad võtmed?
     { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
 do-import-one = Kas importida { $name } ({ $id })?
 cant-import = Viga avaliku võtme importimisel
 unverified-reply = Tõenäoliselt muudeti taandega kirja osa (vastust)
 key-in-message-body = Kirja sisust leiti võti. Importimiseks klõpsa ‘Impordi võti’
 sig-mismatch = Viga - allkirja mittevastavus
 invalid-email = Viga - mittekorrektsed e-posti aadressid
+# Variables:
+# $name (String) - File name of the attachment.
 attachment-pgp-key =
     Avatav manus ‘{ $name }’ tundub olevat OpenPGP võtmefail.
     Võtmete importimiseks klõpsa ‘Impordi’ või faili sisu avamiseks brauseris klõpsa ‘Vaata’
 dlg-button-view = &Vaata
 
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-# Strings used in enigmailMsgHdrViewOverlay.js
-decrypted-msg-with-format-error = Dekrüptitud kiri (taastatud katkise PGP e-kirja formaat, mille põhjustas tõenäoliselt vana Exhange'i server, nii et tulemus ei pruugi olla lugemiseks kõlblik)
-
 ## Strings used in encryption.jsm
 
-# Strings used in encryption.jsm
+
+## Strings used in encryption.sys.mjs
+
 not-required = Viga - krüptimine pole nõutud
 
 ## Strings used in windows.jsm
 
-# Strings used in windows.jsm
+
+## Strings used in windows.sys.mjs
+
 no-photo-available = Pilt pole saadaval
+# Variables:
+# $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = Pildi asukoht ‘{ $photo }’ pole loetav
 debug-log-title = OpenPGP silumislogi
 
 ## Strings used in dialog.jsm
 
-# Strings used in dialog.jsm
-repeat-prefix = See hoiatus kordub { $count }
-repeat-suffix-singular = kord veel.
-repeat-suffix-plural = korda veel.
-no-repeat = Seda hoiatust enam ei kuvata.
-dlg-keep-setting = Vastus peetakse meeles ja rohkem enam ei küsita
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &Sobib
 dlg-button-close = S&ulge
 dlg-button-cancel = &Loobu
 dlg-no-prompt = Seda akent rohkem ei näidata
 enig-prompt = OpenPGP dialoog
 enig-confirm = OpenPGP kinnitus
-enig-alert = OpenPGP hoiatus
-enig-info = OpenPGP teave
 
 ## Strings used in persistentCrypto.jsm
 
-# Strings used in persistentCrypto.jsm
+
+## Strings used in persistentCrypto.sys.mjs
+
 dlg-button-retry = &Proovi uuesti
 dlg-button-skip = &Jäta vahele
 
 ## Strings used in enigmailMsgBox.js
 
-# Strings used in enigmailMsgBox.js
 enig-alert-title =
     .title = OpenPGP hoiatus

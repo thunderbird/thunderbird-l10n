@@ -10,6 +10,3 @@ migration-progress-header = Припрема се { -brand-short-name }…
 # These strings are displayed to the user if a migration is taking a long time.
 # They should be short (no more than a handful of words) and in the present tense.
 
-migration-task-test-fast = Тестирање брзе промене
-migration-task-test-slow = Тестирање споре промене
-migration-task-test-progress = Тестирање траке напретка

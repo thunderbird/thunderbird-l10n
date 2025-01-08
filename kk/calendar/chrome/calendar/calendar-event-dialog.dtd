@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Кері ұсыныстарды қабылдамайтыныңызды көрсетеді">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Өшіру…">
 <!ENTITY  event.menu.item.delete.accesskey                "ш">
-<!ENTITY  event.menu.item.page.setup.label                "Парақ баптаулары">
-<!ENTITY  event.menu.item.page.setup.accesskey            "р">
-<!ENTITY  event.menu.item.print.label                     "Баспаға шығару">
-<!ENTITY  event.menu.item.print.accesskey                 "ш">
 
 <!ENTITY  event.menu.edit.label                           "Түзету">
 <!ENTITY  event.menu.edit.accesskey                       "Т">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "О">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Баптау…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "а">
-<!ENTITY  event.menu.view.showlink.label                  "Қатысты сілтемені көрсету">
-<!ENTITY  event.menu.view.showlink.accesskey              "ы">
 
 <!ENTITY  event.menu.options.label                            "Опциялар">
 <!ENTITY  event.menu.options.accesskey                        "ц">
@@ -333,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "Қазан" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "Қараша" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "Желтоқсан" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Әрбір">
 <!ENTITY event.recurrence.yearly.first.label                 "Бірінші">
 <!ENTITY event.recurrence.yearly.second.label                "Екінші">
@@ -349,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Сенбі" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "күн" >
 <!ENTITY event.recurrence.of.label                           "барлығы" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Қаңтар" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Ақпан" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Наурыз" >
@@ -367,7 +360,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Жасау" >
 <!ENTITY event.recurrence.appointments.label            "Кездесу(лер)" >
 <!ENTITY event.repeat.until.label                       "Келесіге дейін қайталау" >
-<!ENTITY event.recurrence.preview.label                 "Алдын-ала қарап шығу">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Қатысушыларды шақыру">
@@ -407,11 +399,6 @@
 <!ENTITY read.only.location.label        "Орналасуы:">
 <!ENTITY read.only.category.label        "Санаты:">
 <!ENTITY read.only.organizer.label       "Ұйымдастырушы:">
-<!ENTITY read.only.reply.label           "Жауап:">
-<!ENTITY read.only.accept.label          "Мен қатысамын">
-<!ENTITY read.only.decline.label         "Мен қатыспаймын">
-<!ENTITY read.only.tentative.label       "Менің қатысуым мүмкін">
-<!ENTITY read.only.needs.action.label    "Мен кейінірек растаймын">
 <!ENTITY read.only.reminder.label        "Еске салу:">
 <!ENTITY read.only.attachments.label     "Салынымдар:">
 <!ENTITY read.only.attendees.label       "Қатысушылар">

@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Elimină calendarul selectat…">
 <!ENTITY calendar.removecalendar.accesskey      "r">
 
-
-<!ENTITY calendar.menu.customize.label          "Personalizează…">
-<!ENTITY calendar.menu.customize.accesskey      "P">
-
 <!ENTITY showUnifinderCmd.label                 "Caută evenimente">
 <!ENTITY showUnifinderCmd.accesskey             "G">
 <!ENTITY showUnifinderCmd.tooltip               "Comută panoul pentru găsirea evenimentelor">

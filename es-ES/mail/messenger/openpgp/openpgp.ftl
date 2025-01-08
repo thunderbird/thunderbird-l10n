@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Caducidad
 openpgp-key-id-label =
     .label = ID de clave
-openpgp-cannot-change-expiry = Esta es una clave con una estructura compleja, no se admite cambiar su fecha de caducidad.
-openpgp-key-man-title =
-    .title = Administrador de claves OpenPGP
 openpgp-key-man-dialog-title = Administrador de claves OpenPGP
 openpgp-key-man-generate =
     .label = Nuevo par de claves
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Certificado de revocación
     .accesskey = r
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Generar y guardar certificado de revocación
 openpgp-key-man-gen-revocation =
     .label = Guardar el certificado de revocación en un archivo
     .accesskey = c
@@ -489,8 +484,6 @@ filter-encrypt-label = Cifrar a clave (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = ¡Claves importadas correctamente!
 import-info-dialog-title = ¡Claves importadas correctamente!
 import-info-bits = Bits
 import-info-created = Creado
@@ -650,9 +643,6 @@ no-update-found = Ya tiene las claves que fueron descubiertas en línea.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Error - el comando de extracción de clave falló
@@ -783,15 +773,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Ha configurado el ajuste de línea en { $width } caracteres. Para un correcto cifrado y/o firma correcta, este valor debe ser al menos de 68.
     ¿Quiere cambiar ahora el ajuste de línea a 68 caracteres?
-sending-news =
-    Se abortó la operación de envío cifrado.
-    Este mensaje no se puede cifrar porque hay destinatarios de grupos de noticias. Vuelva a enviar el mensaje sin cifrar.
-send-to-news-warning =
-    Advertencia: está a punto de enviar un correo electrónico cifrado a un grupo de noticias.
-    Esto se desaconseja porque solo tiene sentido si todos los miembros del grupo pueden descifrar el mensaje, es decir, el mensaje debe cifrarse con las claves de todos los participantes del grupo. Envíe este mensaje solo si sabe exactamente lo que está haciendo.
-    ¿Continuar?
 save-attachment-header = Guardar adjunto descifrado
-possibly-pgp-mime = Posiblemente un mensaje cifrado o firmado PGP/MIME; use la función 'Descifrar/Verificar' para verificar
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = No se puede firmar digitalmente este mensaje porque todavía no ha configurado el cifrado extremo a extremo para <{ $key }>
@@ -845,15 +827,6 @@ debug-log-title = Registro de depuración de OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Esta alerta se repetirá { $count }
-repeat-suffix-singular = más tiempo.
-repeat-suffix-plural = más veces.
-no-repeat = Esta alerta no se volverá a mostrar.
-dlg-keep-setting = Recordar mi respuesta y no volver a preguntarme
 
 ## Strings used in dialog.sys.mjs
 
@@ -863,8 +836,6 @@ dlg-button-cancel = &Cancelar
 dlg-no-prompt = No volver a mostrarme esta diálogo.
 enig-prompt = Aviso de OpenPGP
 enig-confirm = Confirmación de OpenPGP
-enig-alert = Alerta de OpenPGP
-enig-info = Información de OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 

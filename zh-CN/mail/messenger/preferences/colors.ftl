@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = 颜色
 colors-dialog-title = 颜色
 colors-dialog-legend = 文字和背景
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = 已访问的链接
     .accesskey = V
-underline-link-checkbox =
-    .label = 为链接添加下划线
-    .accesskey = U
 always-underline-links =
     .label = 总是为链接添加下划线
     .accesskey = U

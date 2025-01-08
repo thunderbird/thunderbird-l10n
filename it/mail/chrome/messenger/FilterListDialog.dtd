@@ -36,8 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "i">
 <!ENTITY helpButton.label "?">
 <!ENTITY helpButton.accesskey "?">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Cerca filtri per nome…">
-
-
-

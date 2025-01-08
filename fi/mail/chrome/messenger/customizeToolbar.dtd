@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Käytä pieniä kuvakkeita">
 <!ENTITY restoreDefaultSet.label  "Palauta oletusasetukset">
 <!ENTITY showTitlebar2.label      "Otsikkopalkki">
-<!ENTITY extraDragSpace2.label    "Lisää tyhjää tilaa">
 <!ENTITY saveChanges.label        "Valmis">
 <!ENTITY undoChanges.label        "Peruuta muutokset">

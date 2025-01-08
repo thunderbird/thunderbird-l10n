@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Bestari Akaun">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Masukkan nama pelayan berita (NNTP) (sebagai contoh, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Pelayan Kumpulan berita:">
 <!ENTITY newsServerLabel.accesskey "K">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

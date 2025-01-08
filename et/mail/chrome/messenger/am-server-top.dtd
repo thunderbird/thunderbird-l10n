@@ -26,7 +26,6 @@
 <!ENTITY connectionSecurity.label "Ühenduse turvalisus:">
 <!ENTITY connectionSecurity.accesskey "h">
 <!ENTITY connectionSecurityType-0.label "Puudub">
-<!ENTITY connectionSecurityType-1.label "STARTTLS, kui võimalik">
 <!ENTITY connectionSecurityType-2.label "STARTTLS">
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY authMethod.label "Autentimise viis:">

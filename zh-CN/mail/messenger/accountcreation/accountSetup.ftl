@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = 密码
     .accesskey = P
     .title = 可选，仅用于验证用户名
-account-provisioner-button = 注册新的电子邮件地址…
-    .accesskey = G
 account-setup-password-toggle-show =
     .title = 以明文形式显示密码
 account-setup-password-toggle-hide =
@@ -145,7 +143,6 @@ account-setup-credentials-incomplete = 验证失败。可能是您输入的凭�
 account-setup-credentials-wrong = 验证失败。请检查用户名和密码
 account-setup-find-settings-failed = { -brand-short-name } 未能找到你的邮件账户设置
 account-setup-exchange-config-unverifiable = 无法验证配置。如果您的用户名和密码确认无误，则可能是服务器管理员已禁用了您为账户所选的配置。请尝试选择其他协议。
-account-setup-provisioner-error = 设置 { -brand-short-name } 新账户时出错，请尝试使用您的登录信息手动设置。
 
 ## Manual configuration area
 

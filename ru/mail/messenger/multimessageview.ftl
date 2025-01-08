@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Информация о сообщении
-selected-messages-label =
-    .label = Выбранные сообщения
 multi-message-archive-button =
     .label = Архивировать
     .tooltiptext = Архивировать

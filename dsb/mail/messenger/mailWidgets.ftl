@@ -4,7 +4,6 @@
 
 apply-current-view-to-menu =
     .label = Aktualny nagłěd nałožyś na …
-
 threadpane-apply-changes-prompt-title = Změny nałožyś?
 # Variables:
 #  $name (String): The name of the folder to apply to.
@@ -12,4 +11,3 @@ threadpane-apply-changes-prompt-no-children-text = Naglěd aktualnego zarědnika
 # Variables:
 #  $name (String): The name of the folder to apply to.
 threadpane-apply-changes-prompt-with-children-text = Naglěd aktualnego zarědnika na { $name } a jogo źiśi nałožyś?
-

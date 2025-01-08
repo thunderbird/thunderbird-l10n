@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-receipts-dialog-window =
-    .title = Αποδεικτικά προβολής
 receipts-dialog-title = Αποδεικτικά ανάγνωσης
 return-receipt-checkbox-control =
     .label = Κατά την αποστολή μηνυμάτων, να ζητείται πάντα αποδεικτικό προβολής

@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Usar micre icones">
 <!ENTITY restoreDefaultSet.label  "Restaurar le parametros">
 <!ENTITY showTitlebar2.label      "Barra de titulo">
-<!ENTITY extraDragSpace2.label    "Spatio de traction">
 <!ENTITY saveChanges.label        "Facite">
 <!ENTITY undoChanges.label        "Disfacer le cambios">

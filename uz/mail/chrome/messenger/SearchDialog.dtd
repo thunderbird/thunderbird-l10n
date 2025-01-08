@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- for SearchDialog.xul -->
 
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "Xabarlarni izlash:">
 <!ENTITY searchHeading.accesskey     "i">
 <!ENTITY searchSubfolders.label      "Qyi jildlarni izlash">
@@ -19,13 +19,13 @@
 <!ENTITY results.label               "Natijalar">
 <!ENTITY moveButton.label            "Ko‘chirish">
 <!ENTITY moveButton.accesskey        "K">
-<!ENTITY closeCmd.key                "W"> 
+<!ENTITY closeCmd.key                "W">
 <!ENTITY openInFolder.label          "Jildda ochish">
 <!ENTITY openInFolder.accesskey      "J">
 <!ENTITY saveAsVFButton.label        "Qidiruv jildi sifatida saqlash">
 <!ENTITY saveAsVFButton.accesskey    "s">
-<!-- for ABSearchDialog.xul -->
 
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "Izlash:">
 <!ENTITY abSearchHeading.accesskey   "I">
 <!ENTITY propertiesButton.label      "Xossalari">
@@ -35,7 +35,3 @@
 <!ENTITY deleteCardButton.label      "O‘chirish">
 <!ENTITY deleteCardButton.accesskey  "O">
 <!ENTITY abSearchDialogTitle.label   "Qo‘shimcha manzillar kitobidan izlash">
-<!-- Thread Pane -->
-
-<!-- Thread Pane Tooltips -->
-

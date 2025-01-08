@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = 메시지 요약
-selected-messages-label =
-    .label = 선택된 메시지
 multi-message-archive-button =
     .label = 보관
     .tooltiptext = 보관

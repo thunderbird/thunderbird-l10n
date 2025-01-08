@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "u">
 <!ENTITY deleteCmd.label          "Verwijderen">
 <!ENTITY deleteCmd.accesskey        "V">
-
 <!ENTITY customizeCmd.label "Aanpassen">
 <!ENTITY customizeCmd.accesskey "p">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Sluiten">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "S">
-
-<!ENTITY quitApplicationCmd.label  "Afsluiten">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "A">
-
-<!ENTITY quitApplicationCmdUnix.label  "Afsluiten">
-<!ENTITY quitApplicationCmdUnix.accesskey  "A">
-
-<!ENTITY quitApplicationCmdMac.label  "&brandShortName; afsluiten">
-<!ENTITY quitApplicationCmdMac.accesskey  "a">

@@ -391,8 +391,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = 이동시 또는 삭제시 메시지 창 또는 탭 닫기
     .accesskey = C
-display-name-label =
-    .value = 표시 이름:
 condensed-addresses-label =
     .label = 주소록에서 사람에 대한 표시명만 보이기
     .accesskey = S
@@ -547,18 +545,12 @@ primary-password-button =
 forms-primary-pw-fips-title = 현재 FIPS 모드입니다. FIPS는 기본 비밀번호가 설정되어야 합니다.
 forms-master-pw-fips-desc = 비밀번호 변경 실패
 junk-description = 기본 스팸 메일 설정을 하시기 바랍니다. 각 계정마다 스팸 메일 설정을 별도로 하실 수 있습니다.
-junk-label =
-    .label = 스팸으로 선택할 때:
-    .accesskey = W
 junk-move-label =
     .label = 계정 내 "스팸" 폴더로 이동
     .accesskey = o
 junk-delete-label =
     .label = 바로 삭제
     .accesskey = D
-junk-read-label =
-    .label = 스팸으로 표시된 메시지는 읽은 것으로 표시
-    .accesskey = M
 junk-log-label =
     .label = 스팸 메일 적응 필터 기록 사용함
     .accesskey = E
@@ -731,3 +723,6 @@ show-synced-item-passwords = 비밀번호
 show-synced-change = 변경…
 synced-acount-item-server-config = 서버 구성
 synced-acount-item-filters = 필터
+
+## Mobile QR Export Pane
+

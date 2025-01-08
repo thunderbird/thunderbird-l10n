@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Жаңа пошта туралы хабарлауды баптау
 notifications-dialog-title = Жаңа пошта туралы хабарлауды баптау
 customize-alert-description = Ескерту хабарламасында қандай өрістерді қолдануды таңдау:
 preview-text-checkbox =

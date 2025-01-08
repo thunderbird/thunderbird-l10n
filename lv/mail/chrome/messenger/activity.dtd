@@ -16,4 +16,3 @@ file names and tall enough to hint that there are more activities in the list --
 <!ENTITY cmd.clearList.label              "Notīrīt sarakstu">
 <!ENTITY cmd.clearList.tooltip            "Noņem pabeigtos, atceltos un neizdevušos vienumus no saraksta">
 <!ENTITY cmd.clearList.accesskey          "N">
-

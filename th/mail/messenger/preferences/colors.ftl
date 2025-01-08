@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = สี
 colors-dialog-title = สี
 colors-dialog-legend = ข้อความและพื้นหลัง
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = ลิงก์ที่เยี่ยมชมแล้ว:
     .accesskey = ล
-underline-link-checkbox =
-    .label = ขีดเส้นใต้ลิงก์
-    .accesskey = ด
 always-underline-links =
     .label = ขีดเส้นใต้ลิงก์เสมอ
     .accesskey = ข

@@ -8,4 +8,3 @@
 <!ENTITY converterDialog.finishButton "완료">
 <!ENTITY converterDialog.complete "변환이 종료되었습니다. &brandShortName;가 재시작 됩니다.">
 <!ENTITY converterDialog.error "변환에 실패했습니다.">
-

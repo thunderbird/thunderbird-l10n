@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Ստեղծէք, վերանուանէք կամ ջնջէք Ձեր փոստի հաշուի պանակները
 webext-perms-description-accountsIdentities = Ստեղծէք, ձեւափոխէք կամ ջնջէք Ձեր ելեկտրոնային հաշիւների նոյնականացումները
 webext-perms-description-accountsRead = Տեսնել Ձեր ելեկտրոնային հասցէները, դրանց նոյնականացումները եւ պանակները
@@ -17,5 +24,4 @@ webext-perms-description-experiment = Ամբողջական, անարգել հա�
 webext-perms-description-messagesModify = Կարդացէք եւ փոփոխէք ձեր եղեկտրոնային հասցէի հաղորդագրութիւնները, երբ դրանք ցուցադրուում էն Ձեզ
 webext-perms-description-messagesMove = Պատճէնէք կամ տեղափոխէք Ձեր եղեկտրոնային հասցէի հաղորդագրութիւնները (ներառեալ դրանք աղբարկղ տեղափոխելը)
 webext-perms-description-messagesDelete = Ընդմիշտ ջնջել եղեկտրոնային հասցէի հաղորդագրութիւնները
-webext-perms-description-messagesRead = Կարդացէք եղեկտրոնային հասցէի հաղորդագրութիւնները, եւ նշանակէք կամ պիտակաւորէք դրանք
 webext-perms-description-messagesTags = Ստեղծել, փոփոխել եւ ջնջել հաղորդագրութեան պիտակները

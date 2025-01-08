@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Datum spadnjenja
 openpgp-key-id-label =
     .label = ID kluča
-openpgp-cannot-change-expiry = To je kluč z kompleksnej strukturu, změnjenje jeho datuma spadnjenja so njepodpěruje.
-openpgp-key-man-title =
-    .title = Zrjadowak OpenPGP-klučow
 openpgp-key-man-dialog-title = Zrjadowak OpenPGP-klučow
 openpgp-key-man-generate =
     .label = Nowy klučowy por
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Wotwołanski certifikat
     .accesskey = o
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Wotwołanski certifikat wutworić a składować
 openpgp-key-man-gen-revocation =
     .label = Wotwołanski certifikat do dataje składować
     .accesskey = c
@@ -503,8 +498,6 @@ filter-encrypt-label = Z klučom zaklučować (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Wuspěch! Kluče su so importowali
 import-info-dialog-title = Wuspěch! Kluče su so importowali
 import-info-bits = Bity
 import-info-created = Wutworjeny
@@ -664,9 +657,6 @@ no-update-found = Maće hižo kluče, kotrež su so online namakali.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Zmylk - přikaz klučoweje ekstrakcije njeje so poradźił
@@ -797,15 +787,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Sće linkowe łamanje pola { $width } znamješkow nastajił. Za korektne zaklučowanje a/abo signowanje, dyrbi tuta hódnota znamjeńša 68 być.
     Chceće nětko linkowe łamanje do 68 znamješkow změnić?
-sending-news =
-    Zaklučowane słanje je so přetorhnyło.
-    Tuta powěsć njeda so zaklučować, dokelž přijimarjo diskusijneje skupiny njejsu. Prošu sćelće powěsć znowa bjez zaklučowanja.
-send-to-news-warning =
-    Warnowanje: Chceće zaklučowanu mejlku na diskusijnu skupinu pósłać.
-    Wot toho so wotradźa, dokelž to je jenož zmysłapołne, jeli wšitcy čłonojo skupiny móža powěsć dešifrować, t. r. powěsć dyrbi so z klučemi wšěch wobdźělnikow skupiny zaklučować. Prošu sćelće tutu powěsć jenož, jeli wěsće, štož činiće.
-    Pokročować?
 save-attachment-header = Dešifrowany přiwěšk składować
-possibly-pgp-mime = Powěsć je snano z PGP/MIME zaklučowana abo signowana; wužiwajće funkciju ‚Dešifrować/Přepruwować‘, zo byšće to přepruwował
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Tuta powěsć njeda so digitalnje signować, dokelž hišće njejsće zaklučowanje kónc do kónca za <{ $key }> konfigurował
@@ -859,15 +841,6 @@ debug-log-title = Zmylkowy protokol OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Tuta zdźělenka so hišće { $count }
-repeat-suffix-singular = króć wospjetuje.
-repeat-suffix-plural = króć wospjetuje.
-no-repeat = Tuta zdźělenka njebudźe so hižo pokazać.
-dlg-keep-setting = Moju wotmołwu sej spomjatkować a hižo so njeprašeć
 
 ## Strings used in dialog.sys.mjs
 
@@ -877,8 +850,6 @@ dlg-button-cancel = &Přetorhnyć
 dlg-no-prompt = Tutón dialog wjace njepokazać.
 enig-prompt = OpenPGP-namołwa
 enig-confirm = OpenPGP-wobkrućenje
-enig-alert = OpenPGP-zdźělenka
-enig-info = OpenPGP-informacije
 
 ## Strings used in persistentCrypto.jsm
 

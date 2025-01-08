@@ -21,6 +21,4 @@ otr-require-encryption-info =
     prikazana kot del običajnega pogovora, niti ne bodo beležena.
 otr-verify-nudge =
     .label = Vedno me opomni, naj preverim nepreverjen stik
-
 otr-not-yet-available = še ni na voljo
-

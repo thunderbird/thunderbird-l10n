@@ -324,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "Octubre" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "Noviembre" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "Diciembre" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Cada">
 <!ENTITY event.recurrence.yearly.first.label                 "Primero">
 <!ENTITY event.recurrence.yearly.second.label                "Segundo">
@@ -340,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Sábado" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "día" >
 <!ENTITY event.recurrence.of.label                           "de" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Enero" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Febrero" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Marzo" >
@@ -358,7 +360,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Crear" >
 <!ENTITY event.recurrence.appointments.label            "Cita(s)" >
 <!ENTITY event.repeat.until.label                       "Repetir hasta" >
-<!ENTITY event.recurrence.preview.label                 "Vista previa">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Invitar participantes">

@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Tha seo a’ comharradh nach gabh thu ri frith-mholaidhean">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Sguab às…">
 <!ENTITY  event.menu.item.delete.accesskey                "S">
-<!ENTITY  event.menu.item.page.setup.label                "Roghainnean na duilleige">
-<!ENTITY  event.menu.item.page.setup.accesskey            "u">
-<!ENTITY  event.menu.item.print.label                     "Clò-bhuail">
-<!ENTITY  event.menu.item.print.accesskey                 "C">
 
 <!ENTITY  event.menu.edit.label                           "Deasaich">
 <!ENTITY  event.menu.edit.accesskey                       "e">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "e">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Gnàthaich…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "c">
-<!ENTITY  event.menu.view.showlink.label                  "Seall an ceangal a tha co-cheangailte ris">
-<!ENTITY  event.menu.view.showlink.accesskey              "r">
 
 <!ENTITY  event.menu.options.label                            "Roghainnean">
 <!ENTITY  event.menu.options.accesskey                        "o">
@@ -333,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "Dàmhair" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "Samhain" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "Dùbhlachd" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Gach">
 <!ENTITY event.recurrence.yearly.first.label                 "A' chiad">
 <!ENTITY event.recurrence.yearly.second.label                "An dàrna">
@@ -349,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "DiSathairne" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "latha" >
 <!ENTITY event.recurrence.of.label                           "a-mach à" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Faoilleach" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Gearran" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Màrt" >
@@ -367,7 +360,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Cruthaich" >
 <!ENTITY event.recurrence.appointments.label            "Coinneamh(an)" >
 <!ENTITY event.repeat.until.label                       "Dèan a-rithist gu ruige" >
-<!ENTITY event.recurrence.preview.label                 "Ro-sheall">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Thoir cuireadh do dhaoine">

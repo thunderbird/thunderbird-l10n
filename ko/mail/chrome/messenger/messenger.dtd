@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "W">
 <!ENTITY newVirtualFolderCmd.label "저장된 메시지 검색…">
 <!ENTITY newVirtualFolderCmd.accesskey "S">
-<!ENTITY newCreateEmailAccountCmd.label "새 메일 계정…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "G">
-<!ENTITY newExistingEmailAccountCmd.label "기존 메일 계정…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "E">
 <!ENTITY newIMAccountCmd.label "채팅 계정…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "피드 계정…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "메시지 삭제">
-<!ENTITY deleteMsgCmd.accesskey "D">
-<!ENTITY undeleteMsgCmd.label "메시지 삭제 취소">
-<!ENTITY undeleteMsgCmd.accesskey "d">
-<!ENTITY deleteMsgsCmd.label "선택한 메시지 삭제">
-<!ENTITY deleteMsgsCmd.accesskey "D">
-<!ENTITY undeleteMsgsCmd.label "선택한 메시지 삭제 취소">
-<!ENTITY undeleteMsgsCmd.accesskey "d">
-<!ENTITY deleteFolderCmd.label "폴더 삭제">
-<!ENTITY deleteFolderCmd.accesskey "D">
-<!ENTITY unsubscribeNewsgroupCmd.label "구독 해지">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "b">
 <!ENTITY selectMenu.label "선택">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "모두">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "S">
 <!ENTITY menuFavoriteFolder.label "즐겨찾기 폴더">
 <!ENTITY menuFavoriteFolder.accesskey "v">
-<!ENTITY folderPropsCmd2.label "속성…">
-<!ENTITY folderPropsFolderCmd2.label "폴더 속성…">
-<!ENTITY folderPropsNewsgroupCmd2.label "뉴스 그룹 속성…">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "삭제 실행 취소">
 <!ENTITY redoDeleteMsgCmd.label "삭제 재실행">
 <!ENTITY undoMoveMsgCmd.label "이동 실행 취소">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "폴더 창">
 <!ENTITY showFolderPaneCmd.accesskey "F">
-<!ENTITY showFolderPaneColsCmd.label "폴더 열">
-<!ENTITY showFolderPaneColsCmd.accesskey "P">
 <!ENTITY showMessageCmd.label "메시지 창">
 <!ENTITY showMessageCmd.accesskey "M">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "새 메시지">
 <!ENTITY appmenuNewContactCmd.label "주소록 연락처…">
-<!ENTITY appmenuEditMenu.label "수정">
 <!ENTITY appmenuToolbarLayout.label "툴바 레이아웃…">
-<!ENTITY appmenuSelectThread.label "글타래 선택">
-<!ENTITY appmenuSelectFlagged.label "별표 메시지 선택">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "새 태그…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "U">
 <!ENTITY folderContextMarkNewsgroupRead.label "읽은 뉴스 그룹 표시">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "k">
-<!ENTITY folderContextMarkMailFolderRead.label "폴더 읽음 표시">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "k">
 <!ENTITY folderContextSubscribe.label "구독…">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "메시지 검색…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "A">
 <!ENTITY contextReplyList.label "리스트로 회신">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextForward.label "전달">
-<!ENTITY contextForward.accesskey "F">
-<!ENTITY contextForwardAsMenu.label "다른 이름으로 전달 ">
-<!ENTITY contextForwardAsMenu.accesskey "o">
-<!ENTITY contextForwardAsInline.label "인라인 전달">
-<!ENTITY contextForwardAsInline.accesskey "I">
-<!ENTITY contextForwardAsAttachmentItem.label "첨부">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "A">
-<!ENTITY contextMultiForwardAsAttachment.label "첨부로 전달">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "o">
 <!ENTITY contextMoveMsgMenu.label "이동">
 <!ENTITY contextMoveMsgMenu.accesskey "M">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "최근">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "I">
 <!ENTITY copyEmailCmd.label "메일 주소 복사">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY stopCmd.label "중지">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "새로 고침">
-<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY openInBrowser.label "브라우저로 열기">
 <!ENTITY openInBrowser.accesskey "O">
 <!ENTITY openLinkInBrowser.label "브라우저로 링크 열기">

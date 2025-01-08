@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = Stikkorð fyrir viðhengis áminningu
 attachment-reminder-dialog-title = Stikkorð fyrir viðhengis áminningu
 attachment-reminder-label = { -brand-short-name } mun vara þig við ef þú hefur gleymt að bæta við viðhengi í póst sem inniheldur eitthvað af þessum stikkorðum.
 keyword-new-button =

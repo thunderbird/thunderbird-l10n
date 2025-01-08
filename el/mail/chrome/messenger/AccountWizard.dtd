@@ -5,7 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Βοηθός λογαριασμών">
-<!ENTITY accountWizard.size "width: 55em; height: 37em;">
 
 <!-- Entities for Identity page -->
 

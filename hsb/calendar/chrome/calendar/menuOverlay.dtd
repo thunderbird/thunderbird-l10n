@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- Event Menu -->
 
+<!-- Event Menu -->
 <!ENTITY event.new.event                        "Nowy podawk…">
 <!ENTITY event.new.event.accesskey              "N">
 
@@ -22,16 +22,12 @@
 <!ENTITY calendar.deletecalendar.accesskey      "h">
 <!ENTITY calendar.unsubscribecalendar.label     "Wubranu protyku wotskazać…">
 <!ENTITY calendar.unsubscribecalendar.accesskey "s">
+
 <!-- LOCALIZATION NOTE (calendar.removecalendar.label): Removing the calendar
       is the general action of removing it, while deleting means to clear the
       data and unsubscribing means just taking it out of the calendar list. -->
-
 <!ENTITY calendar.removecalendar.label          "Wubranu protyku wotstronić…">
 <!ENTITY calendar.removecalendar.accesskey      "u">
-
-
-<!ENTITY calendar.menu.customize.label          "Přiměrić…">
-<!ENTITY calendar.menu.customize.accesskey      "P">
 
 <!ENTITY showUnifinderCmd.label                 "Podawki namakać">
 <!ENTITY showUnifinderCmd.accesskey             "m">

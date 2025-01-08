@@ -16,4 +16,3 @@ file names and tall enough to hint that there are more activities in the list --
 <!ENTITY cmd.clearList.label              "Очисти списак">
 <!ENTITY cmd.clearList.tooltip            "Уклања завршене, отказане и неуспешне ставке са списка">
 <!ENTITY cmd.clearList.accesskey          "т">
-

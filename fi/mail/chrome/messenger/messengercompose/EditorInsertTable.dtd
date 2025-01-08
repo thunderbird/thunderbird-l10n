@@ -3,16 +3,16 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label  "Lisää taulukko">
+<!ENTITY windowTitle.label "Lisää taulukko">
 
-<!ENTITY size.label  "Koko">
-<!ENTITY numRowsEditField.label  "Rivejä:">
-<!ENTITY numRowsEditField.accessKey  "R">
-<!ENTITY numColumnsEditField.label  "Sarakkeita:">
-<!ENTITY numColumnsEditField.accessKey  "S">
-<!ENTITY widthEditField.label  "Leveys:">
-<!ENTITY widthEditField.accessKey  "L">
-<!ENTITY borderEditField.label  "Reunus:">
-<!ENTITY borderEditField.accessKey  "e">
-<!ENTITY borderEditField.tooltip  "Anna luku reunuksen koolle tai 0, jos et halua reunusta.">
-<!ENTITY pixels.label  "kuvapistettä">
+<!ENTITY size.label "Koko">
+<!ENTITY numRowsEditField.label "Rivejä:">
+<!ENTITY numRowsEditField.accessKey "R">
+<!ENTITY numColumnsEditField.label "Sarakkeita:">
+<!ENTITY numColumnsEditField.accessKey "S">
+<!ENTITY widthEditField.label "Leveys:">
+<!ENTITY widthEditField.accessKey "L">
+<!ENTITY borderEditField.label "Reunus:">
+<!ENTITY borderEditField.accessKey "e">
+<!ENTITY borderEditField.tooltip "Anna luku reunuksen koolle tai 0, jos et halua reunusta.">
+<!ENTITY pixels.label "kuvapistettä">

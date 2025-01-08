@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Määrab, et sa ei aktsepteeri vastuettepanekuid">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Kustuta…">
 <!ENTITY  event.menu.item.delete.accesskey                "K">
-<!ENTITY  event.menu.item.page.setup.label                "Lehekülje häälestus">
-<!ENTITY  event.menu.item.page.setup.accesskey            "h">
-<!ENTITY  event.menu.item.print.label                     "Prindi">
-<!ENTITY  event.menu.item.print.accesskey                 "P">
 
 <!ENTITY  event.menu.edit.label                           "Redigeerimine">
 <!ENTITY  event.menu.edit.accesskey                       "R">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "S">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Kohanda…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "K">
-<!ENTITY  event.menu.view.showlink.label                  "Näita seotud viidet">
-<!ENTITY  event.menu.view.showlink.accesskey              "i">
 
 <!ENTITY  event.menu.options.label                            "Valikud">
 <!ENTITY  event.menu.options.accesskey                        "V">
@@ -333,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "oktoobril" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "novembril" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "detsembril" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "igal">
 <!ENTITY event.recurrence.yearly.first.label                 "esimesel">
 <!ENTITY event.recurrence.yearly.second.label                "teisel">
@@ -349,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "laupäeval" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "päeval" >
 <!ENTITY event.recurrence.of.label                           "" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "jaanuari" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "veebruari" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "märtsi" >
@@ -367,7 +360,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Kohtumisi kokku" >
 <!ENTITY event.recurrence.appointments.label            "" >
 <!ENTITY event.repeat.until.label                       "Korratakse kuni" >
-<!ENTITY event.recurrence.preview.label                 "Eelvaade">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Osalejate kutsumine">

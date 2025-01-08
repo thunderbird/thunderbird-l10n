@@ -11,9 +11,3 @@
 <!-- Calendar Invitations List -->
 <!ENTITY calendar.invitations.list.accept.button.label                  "Onartu">
 <!ENTITY calendar.invitations.list.decline.button.label                 "Baztertu">
-<!ENTITY calendar.invitations.list.recurrentevent.text                  "Errepikatuko den gertaera">
-<!ENTITY calendar.invitations.list.alldayevent.text                     "Egun osoko gertaera">
-<!ENTITY calendar.invitations.list.location.text                        "Kokapena: ">
-<!ENTITY calendar.invitations.list.organizer.text                       "Antolatzailea: ">
-<!ENTITY calendar.invitations.list.attendee.text                        "Bertaratzea: ">
-<!ENTITY calendar.invitations.list.none.text                            "Bat ere ez">

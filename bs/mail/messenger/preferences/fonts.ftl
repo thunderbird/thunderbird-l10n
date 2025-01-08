@@ -8,14 +8,9 @@ fonts-label-default =
     .label = Izvorno ({ $name })
 fonts-label-default-unnamed =
     .label = Izvorno
-
-fonts-encoding-dialog-title =
-    .title = Fontovi i kodiranja
-
 fonts-language-legend =
     .value = Fontovi za:
     .accesskey = t
-
 fonts-proportional-label =
     .value = Proporcionalan:
     .accesskey = P
@@ -86,41 +81,32 @@ font-language-group-tibetan =
 
 default-font-serif =
     .label = Serif
-
 default-font-sans-serif =
     .label = Sans Serif
-
 font-size-monospace-label =
     .value = Veličina:
     .accesskey = i
-
 font-serif-label =
     .value = Serif:
     .accesskey = S
-
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
-
 font-monospace-label =
     .value = Monospace:
     .accesskey = M
-
 font-min-size-label =
     .value = Minimalna veličina fonta:
     .accesskey = z
-
 min-size-none =
     .label = Ništa
 
 ## Fonts in message
 
 font-control-legend = Upravljanje fontovima
-
 use-document-fonts-checkbox =
     .label = Dopusti porukama korištenje drugih fontova
     .accesskey = o
-
 use-fixed-width-plain-checkbox =
     .label = Koristi font fiksne širine za poruke s običnim tekstom
     .accesskey = x
@@ -128,17 +114,13 @@ use-fixed-width-plain-checkbox =
 ## Language settings
 
 text-encoding-legend = Kodiranje teksta
-
 text-encoding-description = Postavite zadano kodiranje teksta za slanje i primanje pošte
-
 font-outgoing-email-label =
     .value = Odlazna pošta:
     .accesskey = u
-
 font-incoming-email-label =
     .value = Dolazna pošta:
     .accesskey = I
-
 default-font-reply-checkbox =
     .label = Kada je moguće, koristi zadano kodiranje teksta u odgovorima
     .accesskey = h

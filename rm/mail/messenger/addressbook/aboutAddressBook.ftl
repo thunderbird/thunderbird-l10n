@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Agiuntar in cudeschet d'adressas CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Agiuntar in cudeschet d'adressas LDAP
-about-addressbook-toolbar-new-contact =
-    .label = Nov contact
-about-addressbook-toolbar-new-list =
-    .label = Nova glista
-about-addressbook-toolbar-import =
-    .label = Importar
 books-pane-create-contact-button = Nov contact
     .title = Crear in nov contact
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Vuls ti propi allontanar { $name 
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Tschertgar { $name }
-about-addressbook-search-all =
-    .placeholder = Tschertgar en tut ils cudeschets d'adressas
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -280,7 +268,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Modifitgar la fotografia dal contact
 about-addressbook-new-contact-header = Nov contact
-about-addressbook-prefer-display-name = Da preferenza mussar il 'num per mussar' empè dal chau dal messadi
 about-addressbook-write-action-button = Scriver
 about-addressbook-event-action-button = Eveniment
 about-addressbook-search-action-button = Tschertgar

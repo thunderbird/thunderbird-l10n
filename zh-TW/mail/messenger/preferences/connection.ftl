@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = C
     .tooltiptext = 輸入您想要用來解析 DNS over HTTPS 的網址
 connection-dns-over-https-custom-label = 自訂
-connection-dialog-window2 =
-    .title = 連線設定
 connection-dialog-title = 連線設定
 disable-extension-button = 停用擴充套件
 # Variables:

@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = 为 { $identity } 新建 OpenPGP 个人密钥
-key-wizard-button =
-    .buttonlabelaccept = 继续
-    .buttonlabelhelp = 返回
 key-wizard-dialog =
     .buttonlabelaccept = 继续
     .buttonlabelextra1 = 返回
@@ -105,8 +102,6 @@ openpgp-import-key-list-caption = 标记为“个人密钥”的密钥，将列�
 openpgp-import-keep-passphrases =
     .label = 对导入的密钥进行密码保护
 openpgp-passphrase-prompt-title = 请输入密语
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = 请输入用于解密下列密钥的密语：{ $key }
 openpgp-import-key-button =
     .label = 选择要导入的文件…
     .accesskey = S

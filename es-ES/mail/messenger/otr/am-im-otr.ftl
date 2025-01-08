@@ -22,6 +22,4 @@ otr-require-encryption-info =
     ni tampoco serán registrados.
 otr-verify-nudge =
     .label = Siempre recordarme verificar un contacto no verificado
-
 otr-not-yet-available = no disponible todavía
-

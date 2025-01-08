@@ -3,14 +3,13 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- These strings are for use specifically in the editor's image and form image dialogs. -->
+
 <!-- Window title -->
-
-
 <!ENTITY windowTitle.label "Paveikslo savybės">
 
 <!ENTITY pixelsPopup.value "taškų">
-<!-- These are in the Location tab panel -->
 
+<!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Paveikslo URL:">
 <!ENTITY locationEditField.accessKey "U">
 <!ENTITY locationEditField.tooltip "Surinkite paveikslo vardą arba nurodykite jo vietą">
@@ -28,7 +27,6 @@
 
 <!-- These controls are in the Dimensions tab panel -->
 <!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
-
 <!ENTITY actualSize.label "Originalus dydis:">
 <!ENTITY actualSizeRadio.label "Originalus dydis">
 <!ENTITY actualSizeRadio.accessKey "O">
@@ -43,21 +41,21 @@
 <!ENTITY constrainCheckbox.label "Išlaikyti proporcijas">
 <!ENTITY constrainCheckbox.accessKey "c">
 <!ENTITY constrainCheckbox.tooltip "Išlaikyti paveikslo matmenų proporcijas">
-<!-- These controls are in the Image Map box of the expanded area -->
 
+<!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Paveikslo planas">
 <!ENTITY removeImageMapButton.label "Pašalinti">
 <!ENTITY removeImageMapButton.accessKey "š">
-<!-- These are the options for image alignment -->
 
+<!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Teksto išdėstymas paveikslo atžvilgiu">
 <!ENTITY bottomPopup.value "Apačioje">
 <!ENTITY topPopup.value "Viršuje">
 <!ENTITY centerPopup.value "Centre">
 <!ENTITY wrapRightPopup.value "Apeiti iš dešinės">
 <!ENTITY wrapLeftPopup.value "Apeiti iš kairės">
-<!-- These controls are in the Spacing Box -->
 
+<!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Protarpiai">
 <!ENTITY leftRightEditField.label "Iš kairės ir iš dešinės:">
 <!ENTITY leftRightEditField.accessKey "k">
@@ -65,15 +63,15 @@
 <!ENTITY topBottomEditField.accessKey "v">
 <!ENTITY borderEditField.label "Rėmelis:">
 <!ENTITY borderEditField.accessKey "R">
-<!-- These controls are in the Link Box -->
 
+<!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Aplink paveikslą su saitu rodyti rėmelį">
 <!ENTITY showImageLinkBorder.accessKey "ė">
 <!ENTITY LinkAdvancedEditButton.label "Saito papildoma taisa…">
 <!ENTITY LinkAdvancedEditButton.accessKey "p">
 <!ENTITY LinkAdvancedEditButton.tooltip "Pridėti ar keisti HTML požymius, stilių ir „JavaScript“ įvykius">
-<!-- These tabs are currently used in the image input dialog -->
 
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Forma">
 <!ENTITY imageLocationTab.label "Paveikslas">
 <!ENTITY imageDimensionsTab.label "Matmenys">

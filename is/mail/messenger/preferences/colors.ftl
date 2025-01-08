@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Litir
 colors-dialog-title = Litir
 colors-dialog-legend = Texti og Bakgrunnur
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Notaðir tenglar:
     .accesskey = N
-underline-link-checkbox =
-    .label = Undirstrika tengla
-    .accesskey = U
 always-underline-links =
     .label = Alltaf undirstrika tengla
     .accesskey = u

@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- for SearchDialog.xul -->
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "Hledat zprávy ve složce:">
 <!ENTITY searchHeading.accesskey     "z">
 <!ENTITY searchSubfolders.label      "Hledat v podsložkách">
@@ -19,13 +19,13 @@
 <!ENTITY results.label               "Nalezené položky:">
 <!ENTITY moveButton.label            "Přesunout do">
 <!ENTITY moveButton.accesskey        "p">
-<!ENTITY closeCmd.key                "W"> 
+<!ENTITY closeCmd.key                "W">
 <!ENTITY openInFolder.label          "Otevřít ve složce">
 <!ENTITY openInFolder.accesskey      "v">
 <!ENTITY saveAsVFButton.label        "Uložit hledání jako složku…">
 <!ENTITY saveAsVFButton.accesskey    "a">
 
-<!-- for ABSearchDialog.xul -->
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "Hledat v:">
 <!ENTITY abSearchHeading.accesskey   "H">
 <!ENTITY propertiesButton.label      "Vlastnosti">
@@ -35,4 +35,3 @@
 <!ENTITY deleteCardButton.label      "Smazat">
 <!ENTITY deleteCardButton.accesskey  "S">
 <!ENTITY abSearchDialogTitle.label   "Rozšířené hledání v kontaktech">
-

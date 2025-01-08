@@ -90,14 +90,6 @@ appmenu-addons-and-themes =
 mail-context-menu-forward-forward =
     .label = Փոխանցել
     .accesskey = F
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Ետարկել ջնջումը
-           *[other] Ետարկել ընտրված նամակները
-        }
 
 ## Message header pane
 
@@ -137,7 +129,7 @@ quick-filter-bar-toggle =
     .label = Արագ զտիչի վահանակ
     .accesskey = Ա
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

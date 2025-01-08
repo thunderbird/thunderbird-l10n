@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Variables:
+## $count (Number) - Number of events selected for deletion.
+
 calendar-delete-event-prompt-title =
     { $count ->
         [one] Ջնջել իրադարձութիւնը
@@ -12,6 +16,10 @@ calendar-delete-event-prompt-message =
         [one] Ջնջե՞լ այս իրադարձութիւնը։
        *[other] Ջնջե՞լ այս { $count } իրադարձութիւնները։
     }
+
+## Variables:
+## $count (Number) - Number of tasks selected for deletion.
+
 calendar-delete-task-prompt-title =
     { $count ->
         [one] Ջնջել առաջադրանքը
@@ -22,6 +30,10 @@ calendar-delete-task-prompt-message =
         [one] Ջնջե՞լ այս առաջադրանքը։
        *[other] Ջնջե՞լ այս { $count } առաջադրանքները։
     }
+
+## Variables:
+## $count (Number) - Number of items selected for deletion.
+
 calendar-delete-item-prompt-title =
     { $count ->
         [one] Ջնջել տարրը
@@ -32,4 +44,7 @@ calendar-delete-item-prompt-message =
         [one] Ջնջե՞լ այս տարրը։
        *[other] Ջնջե՞լ այս { $count } տարրերը։
     }
+
+##
+
 calendar-delete-prompt-disable-message = Այղեւս չհարցնել։

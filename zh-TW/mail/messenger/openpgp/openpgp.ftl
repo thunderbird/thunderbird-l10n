@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = 到期日
 openpgp-key-id-label =
     .label = 金鑰 ID
-openpgp-cannot-change-expiry = 這是一把複雜結構的金鑰，不支援更改到期日。
-openpgp-key-man-title =
-    .title = OpenPGP 金鑰管理員
 openpgp-key-man-dialog-title = OpenPGP 金鑰管理員
 openpgp-key-man-generate =
     .label = 產生新金鑰對
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = 撤銷憑證
     .accesskey = R
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = 產生並儲存撤銷憑證
 openpgp-key-man-gen-revocation =
     .label = 將撤銷憑證另存為檔案
     .accesskey = C
@@ -469,8 +464,6 @@ filter-encrypt-label = 使用金鑰加密（OpenPGP）
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = 成功！已匯入金鑰
 import-info-dialog-title = 成功！已匯入金鑰
 import-info-bits = 位元
 import-info-created = 建立於
@@ -610,9 +603,6 @@ no-update-found = 您已經擁有在網路上找到的金鑰。
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = 錯誤 - 金鑰抽取指令執行失敗
@@ -735,10 +725,7 @@ quoted-printable-warn = 您選擇使用「quoted-printable」編碼方式來寄�
 # Variables:
 # $width (Number) - Number of characters per line.
 minimal-line-wrapping = 您將換行長度設為 { $width } 字元。若需正確進行加密或簽署，這個長度必須至少為 68。您要現在將換行長度設為 68 字元嗎？
-sending-news = 加密傳送操作中斷。因為有新聞群組收件者，無法加密此訊息。請解除加密再重新寄出。
-send-to-news-warning = 警告: 您即將傳送加密的郵件到新聞群組中。由於只有在群組中的所有成員都能夠解密訊息時才能閱讀（也就是說，必須使用群組中的所有成員的金鑰加密訊息），否則這個動作並不合理。請只在您真的知道現在在做什麼的時候才寄出這封信。確定要繼續嗎？
 save-attachment-header = 儲存解密附件
-possibly-pgp-mime = 可能是 PGP/MIME 加密或簽署過的訊息，請使用「解密 / 驗證」功能來驗證
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = 由於您還沒有設定 <{ $key }> 的端到端加密，無法數位簽署此訊息
@@ -788,15 +775,6 @@ debug-log-title = OpenPGP 除錯紀錄
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = 此警示將再重複 { $count }
-repeat-suffix-singular = 次。
-repeat-suffix-plural = 次。
-no-repeat = 將不再顯示此警示。
-dlg-keep-setting = 記住我的答案，不要再問我
 
 ## Strings used in dialog.sys.mjs
 
@@ -806,8 +784,6 @@ dlg-button-cancel = 取消 (&C)
 dlg-no-prompt = 下次不要再顯示此對話方塊。
 enig-prompt = OpenPGP Prompt
 enig-confirm = OpenPGP 確認
-enig-alert = OpenPGP 警示
-enig-info = OpenPGP 資訊
 
 ## Strings used in persistentCrypto.jsm
 

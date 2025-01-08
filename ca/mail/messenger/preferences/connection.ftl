@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = P
     .tooltiptext = Introduïu el vostre URL preferit per resoldre DNS sobre HTTPS
 connection-dns-over-https-custom-label = Personalitzat
-connection-dialog-window2 =
-    .title = Paràmetres de connexió
 connection-dialog-title = Paràmetres de connexió
 disable-extension-button = Inhabilita l'extensió
 # Variables:

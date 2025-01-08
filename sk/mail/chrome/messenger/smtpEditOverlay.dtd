@@ -15,7 +15,6 @@
 <!ENTITY connectionSecurity.label "Zabezpečenie pripojenia:">
 <!ENTITY connectionSecurity.accesskey "a">
 <!ENTITY connectionSecurityType-0.label "žiadne">
-<!ENTITY connectionSecurityType-1.label "STARTTLS, ak je k dispozícii">
 <!ENTITY connectionSecurityType-2.label "STARTTLS">
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY smtpEditTitle.label "Server SMTP">

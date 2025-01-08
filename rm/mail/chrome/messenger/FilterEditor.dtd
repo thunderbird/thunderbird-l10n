@@ -26,7 +26,6 @@
 <!ENTITY contextOutgoing.accesskey "S">
 <!ENTITY contextArchive.label "Archivar">
 <!ENTITY contextArchive.accesskey "A">
-
 <!ENTITY contextPeriodic.accesskey "e">
 
 <!ENTITY filterActionDesc.label "Exequir questas acziuns:">

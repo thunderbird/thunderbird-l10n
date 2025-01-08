@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Perzhioù an daolenn…">
 <!ENTITY tableProperties.accesskey "o">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Skeudenn">
 <!ENTITY imageToolbarCmd.tooltip "Enlakaat ur skeudenn nevez pe embann perzhioù ar skeudenn diuzet">
 <!ENTITY hruleToolbarCmd.label "Linenn a-blaen">

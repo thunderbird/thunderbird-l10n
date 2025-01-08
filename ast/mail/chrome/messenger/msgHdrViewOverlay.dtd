@@ -92,6 +92,7 @@
 
 <!ENTITY openAttachment.tooltip "Abrir el ficheru axuntu">
 
+
 <!-- Attachment toolbar items -->
 <!ENTITY saveAttachmentButton1.label       "Guardar">
 <!ENTITY saveAttachmentButton1.tooltip     "Guardar el ficheru axuntu">

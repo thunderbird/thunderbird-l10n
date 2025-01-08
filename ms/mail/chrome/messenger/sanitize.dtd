@@ -19,6 +19,7 @@ that require it.  -->
 <!ENTITY clearTimeDuration.suffix         "">
 
 
+
 <!ENTITY itemHistory.label                 "Sejarah Pelayaran">
 <!ENTITY itemHistory.accesskey             "P">
 <!ENTITY itemCookies.label                 "Kuki">
@@ -31,4 +32,3 @@ that require it.  -->
      mockup at bug 480169 -->
 <!ENTITY sanitizeEverythingUndoWarning     "Tindakan ini tidak boleh dibatalkan.">
 
-<!ENTITY dialog.width                 "28em">

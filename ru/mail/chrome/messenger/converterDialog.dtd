@@ -8,4 +8,3 @@
 <!ENTITY converterDialog.finishButton "Готово">
 <!ENTITY converterDialog.complete "Преобразование завершено. Сейчас произойдёт перезапуск &brandShortName;.">
 <!ENTITY converterDialog.error "Преобразование не удалось.">
-

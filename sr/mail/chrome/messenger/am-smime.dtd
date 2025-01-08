@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Очисти">
 <!ENTITY encryption.certificate_clear.accesskey "т">
 <!ENTITY signingGroupTitle.label "Дигитално потписивање">
-
 <!ENTITY signingCert2.message "Лични сертификат за дигитално потписивање:">
 
 <!ENTITY sendingDefaults.label "Подразумевана подешавања слања порука">

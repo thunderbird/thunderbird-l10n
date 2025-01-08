@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Жарамдылық мерзімі
 openpgp-key-id-label =
     .label = Кілт идентификаторы
-openpgp-cannot-change-expiry = Бұл күрделі құрылымы бар кілт, оның жарамдылық мерзімін өзгертуге қолдау көрсетілмейді.
-openpgp-key-man-title =
-    .title = OpenPGP кілттер басқарушысы
 openpgp-key-man-dialog-title = OpenPGP кілттер басқарушысы
 openpgp-key-man-generate =
     .label = Жаңа кілттер жұбы
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Қайта шақыру сертификаты
     .accesskey = р
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Қайта шақыру сертификатын жасау және сақтау
 openpgp-key-man-gen-revocation =
     .label = Қайта шақыру сертификатын файлға сақтау
     .accesskey = с
@@ -486,8 +481,6 @@ filter-encrypt-label = Кілтпен шифрлеу (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Кілттер сәтті импортталды
 import-info-dialog-title = Кілттер сәтті импортталды
 import-info-bits = Бит
 import-info-created = Жасалған
@@ -649,9 +642,6 @@ no-update-found = Онлайн табылған кілттер сізде бар
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Қате - кілтті шығару командасы сәтсіз аяқталды
@@ -782,15 +772,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Сіз жолды тасымалдау { $width } таңбаға орнаттыңыз. Дұрыс шифрлеу және/немесе қолтаңба қою үшін бұл мән кемінде 68 болуы керек.
     Жолды тасымалдау қазір 68 таңбаға өзгерткіңіз келе ме?
-sending-news =
-    Шифрленген жіберу әрекеті үзілді.
-    Бұл хабарламаны шифрлеу мүмкін емес, себебі жаңалықтар тобының алушылары бар. Хабарламаны шифрлеусіз қайта жіберіңіз.
-send-to-news-warning =
-    Ескерту: сіз жаңалықтар тобына шифрленген электрондық хабарлама жібергелі тұрсыз.
-    Бұл ұсынылмайды, өйткені топтың барлық мүшелері хабарды дешифрлей алатын болса ғана мағынасы бар, яғни хабарламаны топтың барлық қатысушыларының кілттерімен шифрленуі керек. Бұл хабарламаны не істеп жатқаныңызды нақты білсеңіз ғана жіберіңіз.
-    Жалғастыру керек пе?
 save-attachment-header = Дешифрленген салынымды сақтау
-possibly-pgp-mime = PGP/MIME шифрленген немесе қолтаңба қойылған хабарлама болуы мүмкін; тексеру үшін "Дешифрлеу/тексеру" функциясын пайдаланыңыз
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Бұл хабарламаға цифрлық қолтаңба қою мүмкін емес, себебі сіз <{ $key }> кілті үшін өтпелі шифрлеуді әлі баптаған жоқсыз
@@ -844,15 +826,6 @@ debug-log-title = OpenPGP жөндеу журналы
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Бұл ескерту тағы { $count } рет
-repeat-suffix-singular = қайталанады.
-repeat-suffix-plural = қайталанады.
-no-repeat = Бұл ескерту қайта көрсетілмейді.
-dlg-keep-setting = Жауабымды есте сақтап, менен келесіде сұрамау
 
 ## Strings used in dialog.sys.mjs
 
@@ -862,8 +835,6 @@ dlg-button-cancel = Ба&с тарту
 dlg-no-prompt = Осы сұхбат терезесін маған келесі ретте көрсетпеу
 enig-prompt = OpenPGP сұрауы
 enig-confirm = OpenPGP растауы
-enig-alert = OpenPGP ескертуі
-enig-info = OpenPGP ақпараты
 
 ## Strings used in persistentCrypto.jsm
 

@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Шрифты
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = По умолчанию ({ $name })
 fonts-label-default-unnamed =
     .label = По умолчанию
-fonts-encoding-dialog-title =
-    .title = Шрифты и кодировки
 fonts-language-legend =
     .value = Шрифты для набора символов:
     .accesskey = ф

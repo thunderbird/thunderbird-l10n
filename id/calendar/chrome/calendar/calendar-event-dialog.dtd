@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Menunjukkan bahwa Anda tidak akan menerima proposal tandingan">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "l">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Hapus…">
 <!ENTITY  event.menu.item.delete.accesskey                "H">
-<!ENTITY  event.menu.item.page.setup.label                "Tata Laman">
-<!ENTITY  event.menu.item.page.setup.accesskey            "L">
-<!ENTITY  event.menu.item.print.label                     "Cetak">
-<!ENTITY  event.menu.item.print.accesskey                 "C">
 
 <!ENTITY  event.menu.edit.label                           "Sunting">
 <!ENTITY  event.menu.edit.accesskey                       "S">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "B">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Ubahsuai…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "U">
-<!ENTITY  event.menu.view.showlink.label                  "Tampilkan Tautan Terkait">
-<!ENTITY  event.menu.view.showlink.accesskey              "T">
 
 <!ENTITY  event.menu.options.label                            "Opsi">
 <!ENTITY  event.menu.options.accesskey                        "O">
@@ -333,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "Oktober" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "November" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "Desember" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Tiap">
 <!ENTITY event.recurrence.yearly.first.label                 "Pertama">
 <!ENTITY event.recurrence.yearly.second.label                "Kedua">
@@ -349,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Sabtu" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "hari" >
 <!ENTITY event.recurrence.of.label                           "dari" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Januari" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Februari" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Maret" >
@@ -367,7 +360,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Buat" >
 <!ENTITY event.recurrence.appointments.label            "Janji" >
 <!ENTITY event.repeat.until.label                       "Ulang hingga" >
-<!ENTITY event.recurrence.preview.label                 "Pratinjau">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Undang Peserta">

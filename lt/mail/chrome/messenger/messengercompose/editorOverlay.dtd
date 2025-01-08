@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Lentelės savybės…">
 <!ENTITY tableProperties.accesskey "v">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Paveikslas">
 <!ENTITY imageToolbarCmd.tooltip "Įterpti paveikslą arba taisyti pažymėto paveikslo savybes">
 <!ENTITY hruleToolbarCmd.label "Horizontalė">

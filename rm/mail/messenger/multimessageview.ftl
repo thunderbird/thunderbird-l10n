@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Resumaziun da messadi
-selected-messages-label =
-    .label = Messadis selecziunads
 multi-message-archive-button =
     .label = Archivar
     .tooltiptext = Archivar

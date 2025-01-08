@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-uri-redirect-window =
-    .title = Přesměrování URI kalendáře
 calendar-uri-redirect-window-title = Přesměrování URI kalendáře
+# Variables:
+# $calendarName (String) - Display name of the calendar.
 calendar-uri-redirect-description =
     Server zadanou URI kalendáře „{ $calendarName }“ přesměrovává na jinou.
     Chcete přesměrování následovat a začít používat pro tento kalendář novou URI?

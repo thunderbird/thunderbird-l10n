@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Variables:
+## $count (Number) - Number of events selected for deletion.
+
 calendar-delete-event-prompt-title =
     { $count ->
         [one] Ezabatu gertaera
@@ -12,6 +16,10 @@ calendar-delete-event-prompt-message =
         [one] Ziur zaude gertaera hau ezabatu nahi duzula?
        *[other] Ziur zaude gertaera hauek ezabatu nahi dituzula?
     }
+
+## Variables:
+## $count (Number) - Number of tasks selected for deletion.
+
 calendar-delete-task-prompt-title =
     { $count ->
         [one] Ezabatu zeregina
@@ -22,6 +30,10 @@ calendar-delete-task-prompt-message =
         [one] Ziur zaude gertaera hau ezabatu nahi duzula?
        *[other] Ziur zaude { $count } gertaera hauek ezabatu nahi dituzula?
     }
+
+## Variables:
+## $count (Number) - Number of items selected for deletion.
+
 calendar-delete-item-prompt-title =
     { $count ->
         [one] Ezabatu elementua
@@ -32,4 +44,7 @@ calendar-delete-item-prompt-message =
         [one] Ziur zaude elementu hau ezabatu nahi duzula?
        *[other] Ziur zaude { $count } elementu hauek ezabatu nahi dituzula?
     }
+
+##
+
 calendar-delete-prompt-disable-message = Ez galdetu berriz.

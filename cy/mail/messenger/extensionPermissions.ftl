@@ -27,7 +27,6 @@ webext-perms-description-messagesModify = Darllenwch ac addaswch eich negeseuon 
 webext-perms-description-messagesModifyPermanent = Addaswch ffynhonnell eich negeseuon yn barhaol (gan gynnwys penawdau, corff ac atodiadau)
 webext-perms-description-messagesMove = Copïo neu symud eich negeseuon e-bost (gan gynnwys eu symud i'r ffolder sbwriel)
 webext-perms-description-messagesDelete = Dileu eich negeseuon e-bost yn barhaol
-webext-perms-description-messagesRead = Darllenwch eich negeseuon e-bost a'u marcio neu eu tagio
 webext-perms-description-messagesRead2 = Darllenwch eich negeseuon e-bost
 webext-perms-description-messagesUpdate = Newidiwch briodweddau a thagiau eich negeseuon e-bost
 webext-perms-description-messagesTags = Creu, addasu a dileu tagiau neges

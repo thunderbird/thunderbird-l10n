@@ -37,7 +37,6 @@ import-label = İçe aktar
     .aria-label = Diğer programlardan verileri içe aktarma
 about-paragraph = Thunderbird, hem iş hem de kişisel amaçlı kullanım için ücretsiz, açık kaynaklı ve her platformda çalışan lider e-posta ve takvim istemcisidir. Thunderbird’ün güvenli kalmasını ve daha da gelişmesini istiyoruz. Bağış; geliştiricileri işe almamızı, altyapı maliyetlerimizi karşılamamızı ve iyileştirmelere devam edebilmemizi sağlayacaktır.
 about-paragraph-consider-donation = <b>Thunderbird sizin gibi kullanıcıların desteğiyle finanse ediliyor. Thunderbird’ü seviyorsanız lütfen bağış yapmayı düşünün.</b> Thunderbird’ün hayatta kalmasını sağlamanın en iyi yolu <a data-l10n-name="donation-link">bağış yapmaktır</a>.
-explore-link = Özellikleri keşfedin
 support-link = Destek
 involved-link = Bize katılın
 developer-link = Geliştirici belgeleri

@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = יצירה, שינוי שם או מחיקת תיקיות חשבון הדואר שלך
 webext-perms-description-accountsIdentities = יצירה, שינוי או מחיקת זהויות חשבון הדואר שלך
 webext-perms-description-accountsRead = צפייה בחשבונוות הדואר שלך, הזהויות והתיקיות שלהם
@@ -16,4 +23,3 @@ webext-perms-description-experiment = קבלת גישה מלאה ולא מוגב
 webext-perms-description-messagesModify = קריאה ועריכת הודעות הדוא״ל שלך כפי שהן מוצגות לך
 webext-perms-description-messagesMove = העתקה או העברת הודעות הדוא״ל שלך (לרבות העברתן לתיקיית האשפה)
 webext-perms-description-messagesDelete = מחיקת הודעות הדוא״ל שלך לצמיתות
-webext-perms-description-messagesRead = קריאת הודעות הדוא״ל שלך והיכולת לסמן או לתייג אותן

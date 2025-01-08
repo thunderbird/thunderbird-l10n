@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Prispôsobenie upozornenia na novú správu
 notifications-dialog-title = Prispôsobenie upozornenia na novú správu
 customize-alert-description = Vyberte, ktoré položky sa majú v upozornení zobraziť:
 preview-text-checkbox =

@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "ตัวช่วยบัญชี">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "ป้อนชื่อเซิร์ฟเวอร์ข่าวของคุณ (NNTP) (ตัวอย่างเช่น &quot;news.example.net&quot;)">
 <!ENTITY newsServerLabel.label "เซิร์ฟเวอร์กลุ่มข่าว:">
 <!ENTITY newsServerLabel.accesskey "เ">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

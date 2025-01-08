@@ -4,14 +4,14 @@
 
 account-settings-title = Ustawienia uwierzytelniania
 account-channel-title = Domyślne kanały
-
 chat-autologin =
     .label = Loguj po uruchomieniu
-
 chat-encryption-generic = Ogólne
 chat-encryption-log =
     .label = Umieszczaj zaszyfrowane rozmowy w dziennikach rozmów
 chat-encryption-label = Natywne szyfrowanie „end-to-end”
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } zapewnia szyfrowanie typu „end-to-end” dla wiadomości komunikatora. Uniemożliwia to podsłuchiwanie osobom trzecim. Do działania może być wymagana dodatkowa konfiguracja.
 chat-encryption-status = Stan szyfrowania
 chat-encryption-placeholder = Szyfrowanie nie zostało zainicjowane.

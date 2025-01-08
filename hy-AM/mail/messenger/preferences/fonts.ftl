@@ -2,23 +2,15 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-fonts-window-close =
-    .key = w
-
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Լռելյայն ({ $name })
 fonts-label-default-unnamed =
     .label = Լռելյայն
-
-fonts-encoding-dialog-title =
-    .title = Տառատեսակներ և կոդավորումներ
-
 fonts-language-legend =
     .value = Տառատեսակներ՝
     .accesskey = t
-
 fonts-proportional-label =
     .value = Բաշխված.
     .accesskey = P
@@ -89,41 +81,32 @@ font-language-group-tibetan =
 
 default-font-serif =
     .label = Հստակ
-
 default-font-sans-serif =
     .label = Գծիկավոր
-
 font-size-monospace-label =
     .value = Չափը.
     .accesskey = i
-
 font-serif-label =
     .value = Գծիկավոր.
     .accesskey = S
-
 font-sans-serif-label =
     .value = Հստակ-գծիկավոր.
     .accesskey = n
-
 font-monospace-label =
     .value = Համաչափ.
     .accesskey = M
-
 font-min-size-label =
     .value = Առնվազն տառաչափը.
     .accesskey = z
-
 min-size-none =
     .label = Ոչ մեկը
 
 ## Fonts in message
 
 font-control-legend = Կառավարում
-
 use-document-fonts-checkbox =
     .label = Օգտագործել նաև այլ տառատեսակներ
     .accesskey = o
-
 use-fixed-width-plain-checkbox =
     .label = Օգտ. տառի ֆիկսված չափ տեքս. նամակների համար
     .accesskey = x
@@ -131,17 +114,13 @@ use-fixed-width-plain-checkbox =
 ## Language settings
 
 text-encoding-legend = Տեքստի կոդավորումը
-
 text-encoding-description = Գրանշանների ծրագրային կոդավորումը՝ նամակի ուղարկելիս կամ ստանալիս
-
 font-outgoing-email-label =
     .value = Ելքային նամակ.
     .accesskey = u
-
 font-incoming-email-label =
     .value = Մուտքային նամակ.
     .accesskey = I
-
 default-font-reply-checkbox =
     .label = Հնարավորության դեպքում պատասխանելիս օգտ. ծրագրային կոդավորումը.
     .accesskey = ր

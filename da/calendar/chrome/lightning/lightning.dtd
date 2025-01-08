@@ -94,8 +94,6 @@
 <!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Skift din deltagerstatus for hele rækken uden at sende et svar til arrangøren">
 
 <!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "K">
-<!ENTITY lightning.keys.event.showTasks.key "O">
 <!ENTITY lightning.keys.event.new "B">
 <!ENTITY lightning.keys.todo.new "O">
 

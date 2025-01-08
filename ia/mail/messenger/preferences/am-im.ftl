@@ -4,14 +4,14 @@
 
 account-settings-title = Parametros de authentication
 account-channel-title = Canales predefinite
-
 chat-autologin =
     .label = Authentication al initio
-
 chat-encryption-generic = Generic
 chat-encryption-log =
     .label = includer messages cryptate extremo-a-extremo in le registros de conversation
 chat-encryption-label = Cryptation extremo-a-extremo native
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } offere cryptation extremo-a-extremo pro messages de chat. Isto impedi al tertie partes de spiar un conversation. Altere configuration pote esser necessari infra pro que le cryptation sia operative.
 chat-encryption-status = Stato de cryptation
 chat-encryption-placeholder = Cryptation non initialisate.

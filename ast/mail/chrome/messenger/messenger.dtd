@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "v">
 <!ENTITY newVirtualFolderCmd.label "Gueta guardada…">
 <!ENTITY newVirtualFolderCmd.accesskey "G">
-<!ENTITY newCreateEmailAccountCmd.label "Obtener cuenta de corréu nueva…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "O">
-<!ENTITY newExistingEmailAccountCmd.label "Cuenta de corréu esistente…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "e">
 <!ENTITY newIMAccountCmd.label "Cuenta de chat…">
 <!ENTITY newIMAccountCmd.accesskey "h">
 <!ENTITY newFeedAccountCmd.label "Cuenta de canales web…">
@@ -77,18 +73,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Desaniciar mensaxe">
-<!ENTITY deleteMsgCmd.accesskey "r">
-<!ENTITY undeleteMsgCmd.label "Restaurar mensaxe">
-<!ENTITY undeleteMsgCmd.accesskey "x">
-<!ENTITY deleteMsgsCmd.label "Desaniciar mensaxes esbillaos">
-<!ENTITY deleteMsgsCmd.accesskey "D">
-<!ENTITY undeleteMsgsCmd.label "Restaurar mensaxes esbillaos">
-<!ENTITY undeleteMsgsCmd.accesskey "t">
-<!ENTITY deleteFolderCmd.label "Desaniciar carpeta">
-<!ENTITY deleteFolderCmd.accesskey "r">
-<!ENTITY unsubscribeNewsgroupCmd.label "Encaboxar soscripción">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "n">
 <!ENTITY selectMenu.label "Esbillar">
 <!ENTITY selectMenu.accesskey "l">
 <!ENTITY all.label "Toos">
@@ -100,10 +84,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "s">
 <!ENTITY menuFavoriteFolder.label "Carpeta favorita">
 <!ENTITY menuFavoriteFolder.accesskey "v">
-<!ENTITY folderPropsCmd2.label "Propiedaes">
-<!ENTITY folderPropsFolderCmd2.label "Propiedaes de carpeta">
-<!ENTITY folderPropsNewsgroupCmd2.label "Propiedaes del grupu">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Desfacer 'Desaniciar mensaxe'">
 <!ENTITY redoDeleteMsgCmd.label "Refacer 'Desaniciar mensaxe'">
 <!ENTITY undoMoveMsgCmd.label "Desfacer 'Mover mensaxe'">
@@ -135,8 +115,6 @@
 <!ENTITY messagePaneVertical.accesskey "v">
 <!ENTITY showFolderPaneCmd.label "Carpeta de panel">
 <!ENTITY showFolderPaneCmd.accesskey "r">
-<!ENTITY showFolderPaneColsCmd.label "Columnes del panel de carpetes">
-<!ENTITY showFolderPaneColsCmd.accesskey "P">
 <!ENTITY showMessageCmd.label "Mensaxe">
 <!ENTITY showMessageCmd.accesskey "e">
 
@@ -352,6 +330,7 @@
 <!ENTITY editAsNewMsgCmd.key "e">
 <!ENTITY editDraftMsgCmd.label "Editar mensaxe de borrador">
 <!ENTITY editDraftMsgCmd.accesskey "B">
+<!-- do not change "VK_RETURN" -->
 <!ENTITY createFilter.label "Crear filtru a partir del mensaxe…">
 <!ENTITY createFilter.accesskey "a">
 <!ENTITY moveMsgToMenu.label "Mover a">
@@ -571,10 +550,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Mensaxe nuevu">
 <!ENTITY appmenuNewContactCmd.label "Contautu de la llibreta de direiciones…">
-<!ENTITY appmenuEditMenu.label "Editar">
 <!ENTITY appmenuToolbarLayout.label "Disposición de la barra de ferramientes…">
-<!ENTITY appmenuSelectThread.label "Seleicionar conversación">
-<!ENTITY appmenuSelectFlagged.label "Seleicionar mensaxes con estrella">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Etiqueta nueva…">
@@ -613,8 +589,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "o">
 <!ENTITY folderContextMarkNewsgroupRead.label "Conseñar grupu de noticies como lleíu">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "g">
-<!ENTITY folderContextMarkMailFolderRead.label "Conseñar carpeta como lleída">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "l">
 <!ENTITY folderContextSubscribe.label "Soscribise…">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "Guetar mensaxes…">
@@ -690,10 +664,10 @@
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextOpenNewWindow.label "Abrir el mensaxe nuna ventana nueva">
 <!ENTITY contextOpenNewWindow.accesskey "A">
-<!-- The key potentially conflicts with cutCmd.accessKey which is defined in
-     textcontext.dtd from toolkit. Right now, both menu items can't be visible
-     at the same time, but should someone enable copy/paste of message, this key
-     would probably need to be changed. -->
+<!-- The contextOpenNewTab.accesskey ("T") potentially conflicts with
+     cutCmd.accessKey which is defined in textcontext.dtd from toolkit. Right
+     now, both menu items can't be visible at the same time, but should someone
+     enable copy/paste of message, this key would probably need to be changed. -->
 <!ENTITY contextOpenNewTab.label "Abrir el mensaxe nuna llingüeta nueva">
 <!ENTITY contextOpenNewTab.accesskey "b">
 <!ENTITY contextOpenConversation.label "Abrir mensaxe na conversación">
@@ -713,16 +687,6 @@
 <!ENTITY contextReplyAll.accesskey "t">
 <!ENTITY contextReplyList.label "Responder a la llista">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextForward.label "Reunviar">
-<!ENTITY contextForward.accesskey "n">
-<!ENTITY contextForwardAsMenu.label "Reunviar como">
-<!ENTITY contextForwardAsMenu.accesskey "o">
-<!ENTITY contextForwardAsInline.label "Incorporáu">
-<!ENTITY contextForwardAsInline.accesskey "I">
-<!ENTITY contextForwardAsAttachmentItem.label "Axuntu">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "A">
-<!ENTITY contextMultiForwardAsAttachment.label "Reunviar como axuntos">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "o">
 <!ENTITY contextMoveMsgMenu.label "Mover a">
 <!ENTITY contextMoveMsgMenu.accesskey "m">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Reciente">
@@ -745,8 +709,6 @@
 <!ENTITY contextPrint.accesskey "m">
 <!ENTITY contextPrintPreview.label "Vista preliminar">
 <!ENTITY contextPrintPreview.accesskey "V">
-
-<!-- Thread Pane Column Picker -->
 
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
@@ -788,7 +750,6 @@
   -->
 <!ENTITY columnPicker.thisFolder.label "Esta carpeta">
 
-
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label "Reproducir">
 <!ENTITY contextPlay.accesskey "P">
@@ -806,7 +767,7 @@
   -->
 <!ENTITY quickSearchCmd.key "k">
 <!-- LOCALIZATION NOTE (search.label.base1):
-      This is the base of the empty text for the global search box. We replace
+     This is the base of the empty text for the global search box. We replace
      #1 with the contents of the appropriate search.keyLabel.* value for the
      platform.
      The goal is to convey to the user that typing in the box will allow them
@@ -869,10 +830,6 @@
 <!ENTITY copyImageAllCmd.accesskey "i">
 <!ENTITY copyEmailCmd.label "Copiar direición de corréu-e">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY stopCmd.label "Parar">
-<!ENTITY stopCmd.accesskey "P">
-<!ENTITY reloadCmd.label "Recargar">
-<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY openInBrowser.label "Abrir nel navegador">
 <!ENTITY openInBrowser.accesskey "A">
 <!ENTITY openLinkInBrowser.label "Abrir enllaz nel navegador">
@@ -903,3 +860,4 @@
 <!-- Mac OS X Dock Icon pop-up menu -->
 <!ENTITY dockOptions.label              "Opciones del iconu de l'aplicación…">
 
+<!-- Content tab Navigation buttons -->

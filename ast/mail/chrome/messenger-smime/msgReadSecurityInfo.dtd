@@ -13,3 +13,4 @@
 <!ENTITY email.address "Direiciones de corréu-e:">
 <!ENTITY issuer.name "Certificáu emitíu por:">
 
+<!-- LOCALIZATION NOTE(SMIME.label): This a name for a technical standard. You should not translate it, but if applicable, you may write it using localized characters. -->

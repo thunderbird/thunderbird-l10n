@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "O">
 <!ENTITY overrideNamespaces.label "Permitir que o servidor ignore estes espazos de nome">
 <!ENTITY overrideNamespaces.accesskey "n">
-<!ENTITY pop3DeferringDesc.label "Ao descargar correos deste servidor da conta, usar o cartafol seguinte para gardar as novas mensaxes:" >
+<!ENTITY pop3DeferringDesc.label "Ao descargar correos deste servidor da conta, usar o cartafol seguinte para gardar as novas mensaxes:">
 <!ENTITY accountInbox.label "Caixa de entrada desta conta">
 <!ENTITY accountInbox.accesskey "t">
 <!ENTITY deferToServer.label "Caixa de entrada para outra conta">

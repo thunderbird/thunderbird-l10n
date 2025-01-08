@@ -15,15 +15,6 @@ room-name-empty = Бос сөйлесу
 room-name-empty-had-name = Бос әңгіме ({ $oldName } болған)
 # Variables:
 #  $participant (String) - The name of one participant that isn't the user.
-#  $otherParticipantsCount (Number) - The count of other participants apart from
-#    the user and $participant.
-room-name-others =
-    { $otherParticipantsCount ->
-        [one] { $participant } және { $otherParticipantCount } басқа
-       *[other] { $participant } және { $otherParticipantCount } басқа
-    }
-# Variables:
-#  $participant (String) - The name of one participant that isn't the user.
 #  $otherParticipantCount (Number) - The count of other participants apart from
 #    the user and $participant.
 room-name-others2 =

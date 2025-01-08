@@ -15,11 +15,6 @@
 <!ENTITY month.11.name "November" >
 <!ENTITY month.12.name "December" >
 
-<!ENTITY onemonthbackward.tooltip "Jeden mesiac dozadu" >
-<!ENTITY onemonthforward.tooltip "Jeden mesiac dopredu" >
-<!ENTITY oneyearbackward.tooltip "Jeden rok dozadu" >
-<!ENTITY oneyearforward.tooltip "Jeden rok dopredu" >
-
 <!ENTITY showToday.tooltip "Prejsť na dnešný deň">
 <!ENTITY onedayforward.tooltip "Jeden deň dopredu">
 <!ENTITY onedaybackward.tooltip "Jeden deň dozadu">

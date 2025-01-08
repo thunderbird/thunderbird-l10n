@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Effacer">
 <!ENTITY encryption.certificate_clear.accesskey "r">
 <!ENTITY signingGroupTitle.label "Signature">
-
 <!ENTITY signingCert2.message "Certificat personnel pour la signature numérique :">
 
 <!ENTITY sendingDefaults.label "Paramètres par défaut pour l’envoi de messages">

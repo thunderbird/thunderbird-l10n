@@ -9,92 +9,19 @@
 <!ENTITY calendar.newevent.button.tooltip         "Opret en ny begivenhed" >
 <!ENTITY calendar.newtask.button.tooltip          "Opret en ny opgave" >
 
-<!ENTITY calendar.unifinder.todoitems.label       "Opgaver" >
-
 <!ENTITY calendar.unifinder.showcompletedtodos.label "Vis fuldførte opgaver">
 
 <!ENTITY calendar.today.button.label          "I dag">
 <!ENTITY calendar.tomorrow.button.label       "I morgen">
-<!ENTITY calendar.upcoming.button.label       "Kommende">
 
-<!ENTITY calendar.events.filter.all.label "Alle begivenheder">
-<!ENTITY calendar.events.filter.today.label "Begivenheder i dag">
-<!ENTITY calendar.events.filter.future.label "Alle fremtidige begivenheder">
-<!ENTITY calendar.events.filter.current.label "Aktuel markeret dag">
-<!ENTITY calendar.events.filter.currentview.label "Begivenheder i aktuel visning">
-<!ENTITY calendar.events.filter.next7Days.label "Begivenheder i de næste 7 dage">
-<!ENTITY calendar.events.filter.next14Days.label "Begivenheder i de næste 14 dage">
-<!ENTITY calendar.events.filter.next31Days.label "Begivenheder i de næste 31 dage">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Begivenheder for denne kalendermåned">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Færdig">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Sorter efter færdig">
-<!ENTITY calendar.unifinder.tree.priority.label            "Prioritet">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Sorter efter prioritet">
-<!ENTITY calendar.unifinder.tree.title.label               "Titel">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Sorter efter titel">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#037; færdig">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Sorter efter &#37; færdig">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Start">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Sorter efter start">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Slut">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Sorter efter slut">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Forfalder">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Sorter efter forfalder">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Færdiggjort">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Sorter efter færdiggjort">
-<!ENTITY calendar.unifinder.tree.categories.label          "Kategori">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Sorter efter kategori">
-<!ENTITY calendar.unifinder.tree.location.label            "Sted">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Sorter efter sted">
-<!ENTITY calendar.unifinder.tree.status.label              "Status">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Sorter efter status">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Kalendernavn">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Sorter efter kalendernavn">
-<!ENTITY calendar.unifinder.tree.duration.label            "Varighed">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Sorter efter varighed">
-<!ENTITY calendar.unifinder.close.tooltip                  "Luk begivenhedssøgning og begivenhedsoversigten">
 
 <!ENTITY calendar.today.button.tooltip          "Gå til i dag" >
 <!ENTITY calendar.todaypane.button.tooltip      "Vis i dag-panel" >
 
-<!ENTITY calendar.day.button.tooltip            "Skift til dagsoversigt" >
-<!ENTITY calendar.week.button.tooltip           "Skift til ugeoversigt" >
-<!ENTITY calendar.month.button.tooltip          "Skift til månedoversigt" >
-<!ENTITY calendar.multiweek.button.tooltip      "Skift til multiugeoversigt" >
-
-<!ENTITY calendar.nextday.label                 "Næste dag" >
-<!ENTITY calendar.prevday.label                 "Forrige dag" >
-<!ENTITY calendar.nextday.accesskey             "æ" >
-<!ENTITY calendar.prevday.accesskey             "F" >
-<!ENTITY calendar.nextweek.label                "Næste uge" >
-<!ENTITY calendar.prevweek.label                "Forrige uge" >
-<!ENTITY calendar.nextweek.accesskey            "æ" >
-<!ENTITY calendar.prevweek.accesskey            "F" >
-<!ENTITY calendar.nextmonth.label               "Næste måned" >
-<!ENTITY calendar.prevmonth.label               "Forrige måned" >
-<!ENTITY calendar.nextmonth.accesskey           "æ" >
-<!ENTITY calendar.prevmonth.accesskey           "F" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "En dag frem" >
-<!ENTITY calendar.navigation.prevday.tooltip    "En dag tilbage" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "En uge frem" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "En uge tilbage" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "En måned frem" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "En måned tilbage" >
-
 <!ENTITY calendar.newevent.button.label         "Ny begivenhed" >
 <!ENTITY calendar.newtask.button.label          "Ny opgave" >
-<!ENTITY calendar.print.button.label            "Udskriv" >
-<!ENTITY calendar.print.button.accesskey        "U">
 
-<!ENTITY calendar.day.button.label              "Dag" >
-<!ENTITY calendar.week.button.label             "Uge" >
-<!ENTITY calendar.month.button.label            "Måned" >
-<!ENTITY calendar.multiweek.button.label        "Multiuge" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "Kun arbejdsdage" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "a" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Vis opgaver" >
@@ -279,8 +206,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "F">
 <!ENTITY calendar.context.unsubscribeserver.label      "Stop abonnement på kalender…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "t">
-<!ENTITY calendar.context.synccalendars.label          "Synkroniser kalendere">
-<!ENTITY calendar.context.synccalendars.accesskey      "y">
 <!ENTITY calendar.context.publish.label                "Udgiv hele kalenderen">
 <!ENTITY calendar.context.publish.accesskey            "U">
 <!ENTITY calendar.context.export.label                 "Eksporter kalender…">
@@ -355,7 +280,6 @@
 <!ENTITY calendarproperties.color.label                    "Farve:">
 <!ENTITY calendarproperties.webdav.label                   "WebDAV">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
-<!ENTITY calendarproperties.wcap.label                     "Sun Java System Calendar Server (WCAP)">
 <!ENTITY calendarproperties.format.label                   "Format:">
 <!ENTITY calendarproperties.location.label                 "Adresse:">
 <!ENTITY calendarproperties.refreshInterval.label          "Opdater kalender:">
@@ -364,7 +288,6 @@
 <!ENTITY calendarproperties.readonly.label                 "Skrivebeskyttet">
 <!ENTITY calendarproperties.firealarms.label               "Vis alarmer">
 <!ENTITY calendarproperties.cache3.label                   "Offline-understøttelse">
-<!ENTITY calendarproperties.enabled.label                  "Slå denne kalender til">
 <!ENTITY calendarproperties.enabled2.label                 "Aktiver denne kalender">
 <!ENTITY calendarproperties.forceDisabled.label            "Kunne ikke finde kalenderens udgiver. Dette kan ofte ske, hvis du afinstallerer eller slår en bestemt udvidelse fra.">
 <!ENTITY calendarproperties.unsubscribe.label              "Stop abonnement">
@@ -376,27 +299,8 @@
 <!ENTITY calendar.publish.publish.button      "Udgiv">
 <!ENTITY calendar.publish.close.button      "Luk">
 
-<!ENTITY calendar.publish.example.url.description   "Fx http://www.eksempel.dk/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "Vælg kalender">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "Udskriv en kalender">
-<!ENTITY calendar.print.title.label "Titel:">
-<!ENTITY calendar.print.layout.label "Layout:">
-<!ENTITY calendar.print.range.label "Hvad der skal udskrives">
-<!ENTITY calendar.print.currentView2.label "Aktuel visning">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "Valgte begivenheder/opgaver">
-<!ENTITY calendar.print.tasks.label "Opgaver">
-<!ENTITY calendar.print.events.label "Begivenheder">
-<!ENTITY calendar.print.custom.label "Valgfrit tidsrum">
-<!ENTITY calendar.print.from.label "Fra:">
-<!ENTITY calendar.print.to.label "Til:">
-<!ENTITY calendar.print.settingsGroup.label "Sideopsætning">
-<!ENTITY calendar.print.optionsGroup.label "Indstillinger">
-<!ENTITY calendar.print.taskswithnoduedate.label "Opgaver uden sluttid">
-<!ENTITY calendar.print.completedtasks.label "Afsluttede opgaver">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Detaljer…">

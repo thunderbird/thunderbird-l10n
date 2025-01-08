@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Nadi
-search-bar-item =
-    .label = Nadi:
 search-bar-item2 =
     .label = Nadi
 search-bar-placeholder = Nadi…
@@ -58,8 +56,6 @@ customize-button-style-icons-only-option = Tignitin kan
 customize-button-style-text-only-option = Aḍris kan
 customize-cancel = Sefsex
 customize-save = Sekles
-customize-search-bar =
-    .label = Nadi tiqeffalin n ufeggag n yifecka…
 customize-search-bar2 =
     .label = Nadi tiqeffalin n ufeggag n yifecka…
     .placeholder = Nadi tiqeffalin n ufeggag n yifecka…

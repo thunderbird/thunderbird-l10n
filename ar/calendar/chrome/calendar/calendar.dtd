@@ -13,86 +13,15 @@
 
 <!ENTITY calendar.today.button.label          "اليوم">
 <!ENTITY calendar.tomorrow.button.label       "الغد">
-<!ENTITY calendar.upcoming.button.label       "الآتية">
 
-<!ENTITY calendar.events.filter.all.label "كل الأحداث">
-<!ENTITY calendar.events.filter.today.label "أحداث اليوم">
-<!ENTITY calendar.events.filter.future.label "كل الأحداث الآتية">
-<!ENTITY calendar.events.filter.current.label "اليوم المحدد حاليا">
-<!ENTITY calendar.events.filter.currentview.label "الأحداث في المنظور الحالي">
-<!ENTITY calendar.events.filter.next7Days.label "الأحداث في السبع أيّام القادمة">
-<!ENTITY calendar.events.filter.next14Days.label "الأحداث في الأربعة عشر يوما القادمة">
-<!ENTITY calendar.events.filter.next31Days.label "الأحداث في الإحدى والثلاثين يوما القادمة">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "أحداث هذا الشهر">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "تم">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "رتّب بالإتمام">
-<!ENTITY calendar.unifinder.tree.priority.label            "الأولوية">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "رتّب بالأولوية">
-<!ENTITY calendar.unifinder.tree.title.label               "العنوان">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "رتّب بالعنوان">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "نسبة الاكتمال">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "رتّب بنسبة الاكتمال">
-<!ENTITY calendar.unifinder.tree.startdate.label           "البدء">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "رتّب بتاريخ البدء">
-<!ENTITY calendar.unifinder.tree.enddate.label             "الانتهاء">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "رتّب بتاريخ الانتهاء">
-<!ENTITY calendar.unifinder.tree.duedate.label             "الاستحقاق">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "رتّب بتاريخ الاستحقاق">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "الاكتمال">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "رتّب بتاريخ الاكتمال">
-<!ENTITY calendar.unifinder.tree.categories.label          "الفئة">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "رتّب بالفئة">
-<!ENTITY calendar.unifinder.tree.location.label            "المكان">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "رتّب بالمكان">
-<!ENTITY calendar.unifinder.tree.status.label              "الحالة">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "رتّب بالحالة">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "اسم التقويم">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "رتّب باسم التقويم">
-<!ENTITY calendar.unifinder.tree.duration.label            "وقت الاستحقاق">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "رتّب بالوقت حتى الاستحقاق">
-<!ENTITY calendar.unifinder.close.tooltip                  "أغلق قائمة الأحداث وكذلك مربع البحث">
 
 <!ENTITY calendar.today.button.tooltip          "اذهب الى اليوم" >
 <!ENTITY calendar.todaypane.button.tooltip      "أظهر لوحة اليوم" >
 
-<!ENTITY calendar.day.button.tooltip            "انتقل إلى منظور اليوم" >
-<!ENTITY calendar.week.button.tooltip           "انتقل إلى منظور الأسبوع" >
-<!ENTITY calendar.month.button.tooltip          "انتقل إلى منظور الشهر" >
-<!ENTITY calendar.multiweek.button.tooltip      "انتقل إلى منظور الأسابيع المتعددة" >
-
-<!ENTITY calendar.nextday.label                 "اليوم التالي" >
-<!ENTITY calendar.prevday.label                 "اليوم السابق" >
-<!ENTITY calendar.nextday.accesskey             "ت" >
-<!ENTITY calendar.prevday.accesskey             "س" >
-<!ENTITY calendar.nextweek.label                "الأسبوع القادم" >
-<!ENTITY calendar.prevweek.label                "الأسبوع الماضي" >
-<!ENTITY calendar.nextweek.accesskey            "ق" >
-<!ENTITY calendar.prevweek.accesskey            "ض" >
-<!ENTITY calendar.nextmonth.label               "الشهر القادم" >
-<!ENTITY calendar.prevmonth.label               "الشهر الماضي" >
-<!ENTITY calendar.nextmonth.accesskey           "د" >
-<!ENTITY calendar.prevmonth.accesskey           "م" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "تقدّم يوما واحدا" >
-<!ENTITY calendar.navigation.prevday.tooltip    "ارجع يوما واحدا" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "تقدّم أسبوعا واحدا" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "ارجع أسبوعا واحدا" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "تقدّم شهرا واحدا" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "ارجع شهرا واحدا" >
-
 <!ENTITY calendar.newevent.button.label         "حدث جديد" >
 <!ENTITY calendar.newtask.button.label          "مهمة جديدة" >
-<!ENTITY calendar.print.button.label            "اطبع" >
-<!ENTITY calendar.print.button.accesskey        "ط">
 
-<!ENTITY calendar.day.button.label              "اليوم" >
-<!ENTITY calendar.week.button.label             "الأسبوع" >
-<!ENTITY calendar.month.button.label            "الشهر" >
-<!ENTITY calendar.multiweek.button.label        "الأسابيع المتعددة" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "أيام العطل فقط" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "ع" >
 <!ENTITY calendar.displaytodos.checkbox.label   "المهام في المنظور" >
@@ -277,8 +206,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "ز">
 <!ENTITY calendar.context.unsubscribeserver.label      "ألغ الاشتراك مع التقويم…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "ش">
-<!ENTITY calendar.context.synccalendars.label          "زامن التقويمات">
-<!ENTITY calendar.context.synccalendars.accesskey      "ز">
 <!ENTITY calendar.context.publish.label                "انشر التقويم…">
 <!ENTITY calendar.context.publish.accesskey            "ش">
 <!ENTITY calendar.context.export.label                 "صدّر التقويم…">
@@ -372,27 +299,8 @@
 <!ENTITY calendar.publish.publish.button      "انشر">
 <!ENTITY calendar.publish.close.button      "أغلق">
 
-<!ENTITY calendar.publish.example.url.description   "رابط يشبه http://www.myserver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "اختر تقويمًا">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "طباعة تقويم">
-<!ENTITY calendar.print.title.label "العنوان:">
-<!ENTITY calendar.print.layout.label "التخطيط:">
-<!ENTITY calendar.print.range.label "ما يجب طباعته">
-<!ENTITY calendar.print.currentView2.label "المنظور الحالي">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "الأحداث/المهام المحددة">
-<!ENTITY calendar.print.tasks.label "المهام">
-<!ENTITY calendar.print.events.label "الأحداث">
-<!ENTITY calendar.print.custom.label "مدى تاريخ مخصّص:">
-<!ENTITY calendar.print.from.label "من:">
-<!ENTITY calendar.print.to.label "إلى:">
-<!ENTITY calendar.print.settingsGroup.label "إعدادات الطباعة">
-<!ENTITY calendar.print.optionsGroup.label "خيارات">
-<!ENTITY calendar.print.taskswithnoduedate.label "المهام بلا وقت استحقاق">
-<!ENTITY calendar.print.completedtasks.label "المهام المكتملة">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "التفاصيل…">

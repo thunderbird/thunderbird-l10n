@@ -71,14 +71,6 @@ menu-edit-undelete-messages =
 mail-context-menu-forward-forward =
     .label = Препрати
     .accesskey = р
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Одбриши ја пораката
-           *[other] Одбриши ги избраните пораки
-        }
 
 ## Message header pane
 

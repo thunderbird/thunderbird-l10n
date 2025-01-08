@@ -10,7 +10,6 @@
  given Thunderbird channel". These terms are not synonymous.
 -->
 <!ENTITY window.title "Jūs paleidote senesnę „&brandProductName;“ laidą">
-<!ENTITY window.style "width: 490px;">
 
 <!ENTITY window.nosync2 'Gali būti kad naujesnė „&brandProductName;" atliko pakeitimus jūsų profilyje, kurie nėra suderinami su šia senesne versija. Šį profilį naudokite tik su naujesne versija arba sukurkite naują profilį, skirtą diegti „&brandShortName;“. Kurdami naują profilį, vėl turėsite nustatyti savo paskyras, kalendorius ir priedus.'>
 

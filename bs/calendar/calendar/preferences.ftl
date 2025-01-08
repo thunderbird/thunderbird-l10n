@@ -92,12 +92,6 @@ previous-weeks-label =
     .value = Prethodne sedmice za prikazati:
     .accesskey = P
 todaypane-legend = Današnji događaji
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = Nadolazeća sekcija prikazuje:
-    .accesskey = U
 event-task-legend = Događaji i zadaci
 task-start-label =
     .value = Datum početka:
@@ -122,10 +116,6 @@ task-due-label =
 edit-intab-label =
     .label = Uredite događaje i zadatke u kartici umjesto u iskočnom prozoru.
     .accesskey = t
-accessibility-legend = Pristupačnost
-accessibility-colors-label =
-    .label = Optimiziraj boje za pristupačnost
-    .accesskey = c
 reminder-legend = Kada je podsjetnik dospio:
 reminder-play-checkbox =
     .label = Reprodukuj zvuk

@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "A">
 <!ENTITY deleteCmd.label          "Dileu">
 <!ENTITY deleteCmd.accesskey        "D">
-
 <!ENTITY customizeCmd.label "Cyfaddasu">
 <!ENTITY customizeCmd.accesskey "f">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Cau">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "u">
-
-<!ENTITY quitApplicationCmd.label  "Gadael">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "G">
-
-<!ENTITY quitApplicationCmdUnix.label  "Gadael">
-<!ENTITY quitApplicationCmdUnix.accesskey  "G">
-
-<!ENTITY quitApplicationCmdMac.label  "Gadael &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "G">

@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Обліковий запис:">
 <!ENTITY server.accesskey             "О">
 <!ENTITY subscribedHeader.label       "Підписка">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Показати елементи, що містять:">
 <!ENTITY namefield.accesskey          "е">

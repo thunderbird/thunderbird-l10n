@@ -9,9 +9,7 @@
 <!ENTITY chooseFileButton.accessKey "V">
 <!ENTITY chooseFileLinkButton.label "Valitse tiedosto...">
 <!ENTITY chooseFileLinkButton.accessKey "a">
-<!ENTITY makeUrlRelative.label "URL on suhteessa sivun sijaintiin">
-<!ENTITY makeUrlRelative.accessKey "U">
-<!ENTITY makeUrlRelative.tooltip "Vaihda suhteellisen ja absoluuttisen URL:n välillä. Sinun täytyy ensin tallentaa sivu muuttaaksesi tämän.">
+
 
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Syötä kelvollinen verkkosivuston osoite, paikallinen tiedosto tai valitse kentän pikavalikosta nimetty ankkuri tai otsikko:">

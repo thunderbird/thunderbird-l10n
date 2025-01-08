@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Powěsćowe zespominanje
-selected-messages-label =
-    .label = Wubrane powěsći
 multi-message-archive-button =
     .label = Archiwěrowaś
     .tooltiptext = Archiwěrowaś

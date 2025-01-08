@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY identitiesListManageDesc.label "Gestione identità per questo account. La prima identità è la predefinita.">
-<!ENTITY identitiesListAdd.label "Aggiungi…">
-<!ENTITY identitiesListAdd.accesskey "A">
+<!ENTITY identitiesListAdd.label  "Aggiungi…">
+<!ENTITY identitiesListAdd.accesskey  "A">
 <!ENTITY identitiesListEdit.label "Modifica…">
 <!ENTITY identitiesListEdit.accesskey "M">
 <!ENTITY identitiesListDefault.label "Imposta predefinito">

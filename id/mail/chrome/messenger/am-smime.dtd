@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Bersihkan">
 <!ENTITY encryption.certificate_clear.accesskey "h">
 <!ENTITY signingGroupTitle.label "Tandatangan Dijital">
-
 <!ENTITY signingCert2.message "Sertifikat pribadi untuk penandatanganan digital:">
 
 <!ENTITY sendingDefaults.label "Pengaturan tetap untuk mengirim pesan">

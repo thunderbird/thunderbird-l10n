@@ -6,4 +6,3 @@
 <!ENTITY anchorNameEditField.label "Naziv anchora:">
 <!ENTITY anchorNameEditField.accessKey "N">
 <!ENTITY nameInput.tooltip "Unesite jedinstveni naziv za ovaj anchor (cilj)">
-

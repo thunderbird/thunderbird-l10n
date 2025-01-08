@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Otsi
-search-bar-item =
-    .label = Otsi:
 search-bar-placeholder = Otsi…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -54,8 +52,6 @@ customize-button-style-label = Nupu stiil:
 customize-button-style-icons-beside-text-option = Ikoonid teksti kõrval
 customize-cancel = Loobu
 customize-save = Salvesta
-customize-search-bar =
-    .label = Otsi tööriistariba nuppe…
 customize-spaces-tabs =
     .aria-label = Tühimikud
 customize-main-toolbar-target =

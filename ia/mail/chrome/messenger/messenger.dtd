@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "F">
 <!ENTITY newVirtualFolderCmd.label "Recerca salvate…">
 <!ENTITY newVirtualFolderCmd.accesskey "S">
-<!ENTITY newCreateEmailAccountCmd.label "Crear un nove conto email…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "C">
-<!ENTITY newExistingEmailAccountCmd.label "Conto email existente…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "e">
 <!ENTITY newIMAccountCmd.label "Conto chat…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "Conto de fluxo…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Deler message">
-<!ENTITY deleteMsgCmd.accesskey "D">
-<!ENTITY undeleteMsgCmd.label "Recuperar message">
-<!ENTITY undeleteMsgCmd.accesskey "c">
-<!ENTITY deleteMsgsCmd.label "Deler imagines selecte">
-<!ENTITY deleteMsgsCmd.accesskey "D">
-<!ENTITY undeleteMsgsCmd.label "Recuperar messages selecte">
-<!ENTITY undeleteMsgsCmd.accesskey "c">
-<!ENTITY deleteFolderCmd.label "Deler dossier">
-<!ENTITY deleteFolderCmd.accesskey "D">
-<!ENTITY unsubscribeNewsgroupCmd.label "Disabonar se">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "c">
 <!ENTITY selectMenu.label "Seliger">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Toto">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "s">
 <!ENTITY menuFavoriteFolder.label "Dossier favorite">
 <!ENTITY menuFavoriteFolder.accesskey "v">
-<!ENTITY folderPropsCmd2.label "Proprietates">
-<!ENTITY folderPropsFolderCmd2.label "Proprietates del dossier">
-<!ENTITY folderPropsNewsgroupCmd2.label "Proprietates del gruppo">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Disfacer deler message">
 <!ENTITY redoDeleteMsgCmd.label "Refacer deler message">
 <!ENTITY undoMoveMsgCmd.label "Disfacer mover message">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "v">
 <!ENTITY showFolderPaneCmd.label "Pannello de dossiers">
 <!ENTITY showFolderPaneCmd.accesskey "o">
-<!ENTITY showFolderPaneColsCmd.label "Columnas del pannello de dossiers">
-<!ENTITY showFolderPaneColsCmd.accesskey "p">
 <!ENTITY showMessageCmd.label "Pannello de message">
 <!ENTITY showMessageCmd.accesskey "m">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nove message">
 <!ENTITY appmenuNewContactCmd.label "Contacto del libro de adresses…">
-<!ENTITY appmenuEditMenu.label "Rediger">
 <!ENTITY appmenuToolbarLayout.label "Arrangiar le barras de instrumentos…">
-<!ENTITY appmenuSelectThread.label "Discussion eligite">
-<!ENTITY appmenuSelectFlagged.label "Eliger messages stellate">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nove tag…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "C">
 <!ENTITY folderContextMarkNewsgroupRead.label "Marcar le gruppo como legite">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "l">
-<!ENTITY folderContextMarkMailFolderRead.label "Marcar dossier como legite">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "l">
 <!ENTITY folderContextSubscribe.label "Subscriber…">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "Cercar messages…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "A">
 <!ENTITY contextReplyList.label "Responder al lista">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextForward.label "Inviar ultra">
-<!ENTITY contextForward.accesskey "u">
-<!ENTITY contextForwardAsMenu.label "Inviar ultra como">
-<!ENTITY contextForwardAsMenu.accesskey "o">
-<!ENTITY contextForwardAsInline.label "In message">
-<!ENTITY contextForwardAsInline.accesskey "I">
-<!ENTITY contextForwardAsAttachmentItem.label "Annexo">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "A">
-<!ENTITY contextMultiForwardAsAttachment.label "Inviar ultra como annexos">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "x">
 <!ENTITY contextMoveMsgMenu.label "Mover a">
 <!ENTITY contextMoveMsgMenu.accesskey "M">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Recente">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "i">
 <!ENTITY copyEmailCmd.label "Copiar le adresse email">
 <!ENTITY copyEmailCmd.accesskey "a">
-<!ENTITY stopCmd.label "Stoppar">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Recargar">
-<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY openInBrowser.label "Aperir in navigator">
 <!ENTITY openInBrowser.accesskey "A">
 <!ENTITY openLinkInBrowser.label "Aperir ligamine in navigator">

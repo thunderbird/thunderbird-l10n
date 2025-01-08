@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "D">
 <!ENTITY overrideNamespaces.label "Serweroju dowóliś toś te mjenjowe rumy pśepisaś">
 <!ENTITY overrideNamespaces.accesskey "m">
-<!ENTITY pop3DeferringDesc.label "Gaž ześěgujośo e-mail wót serwera toś togo konta, wužywajśo slědujucy zarědnik, aby nowe powěsći składował:" >
+<!ENTITY pop3DeferringDesc.label "Gaž ześěgujośo e-mail wót serwera toś togo konta, wužywajśo slědujucy zarědnik, aby nowe powěsći składował:">
 <!ENTITY accountInbox.label "Dochad posta za toś to konto">
 <!ENTITY accountInbox.accesskey "t">
 <!ENTITY deferToServer.label "Postowy kašćik za druge konto">

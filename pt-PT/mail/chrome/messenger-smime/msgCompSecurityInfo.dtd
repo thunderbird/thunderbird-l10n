@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-
 <!ENTITY title.label "Segurança da mensagem">
 <!ENTITY subject.plaintextWarning "Nota: as linhas de assunto das mensagens eletrónicas nunca são encriptadas.">
 <!ENTITY status.heading "O conteúdo da sua mensagem será enviado da seguinte forma:">

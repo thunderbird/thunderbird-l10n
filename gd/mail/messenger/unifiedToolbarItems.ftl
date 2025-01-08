@@ -109,3 +109,6 @@ toolbar-stop =
 toolbar-throbber-label = Tosgair gnìomhachd
 toolbar-throbber =
     .title = Tosgair gnìomhachd
+
+## New Address Book popup items
+

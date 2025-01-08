@@ -32,8 +32,8 @@
 
 <!ENTITY filterActionOrderWarning.label "Eslatma: filterlash amallari boshqa tartibda ishga tushiriladi.">
 <!ENTITY filterActionOrder.label "Bajarish tartibini ko‘rish">
-<!-- New Style Filter Rule Actions -->
 
+<!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Xabarni ko‘chirish">
 <!ENTITY copyMessage.label "Xabardan nusxa ko‘chirish">
 <!ENTITY forwardTo.label "Xabarni uzatish">
@@ -61,6 +61,5 @@
      are truncated in the widgets.
   -->
 <!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
-
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

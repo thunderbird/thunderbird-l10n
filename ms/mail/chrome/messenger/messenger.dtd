@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "T">
 <!ENTITY newVirtualFolderCmd.label "Carian Tersimpan…">
 <!ENTITY newVirtualFolderCmd.accesskey "C">
-<!ENTITY newCreateEmailAccountCmd.label "Dapatkan Akaun Mel Baru…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "D">
-<!ENTITY newExistingEmailAccountCmd.label "Akaun Mel Sedia ada…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "S">
 <!ENTITY newIMAccountCmd.label "Akaun Sembang…">
 <!ENTITY newIMAccountCmd.accesskey "S">
 <!ENTITY newFeedAccountCmd.label "Akaun Suapan…">
@@ -85,18 +81,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Buang Mesej">
-<!ENTITY deleteMsgCmd.accesskey "B">
-<!ENTITY undeleteMsgCmd.label "Batal buang Mesej">
-<!ENTITY undeleteMsgCmd.accesskey "b">
-<!ENTITY deleteMsgsCmd.label "Buang Mesej yang Dipilih">
-<!ENTITY deleteMsgsCmd.accesskey "B">
-<!ENTITY undeleteMsgsCmd.label "Batal buang Mesej yang Dipilih">
-<!ENTITY undeleteMsgsCmd.accesskey "b">
-<!ENTITY deleteFolderCmd.label "Buang Folder">
-<!ENTITY deleteFolderCmd.accesskey "B">
-<!ENTITY unsubscribeNewsgroupCmd.label "Batal langganan">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "l">
 <!ENTITY selectMenu.label "Pilih">
 <!ENTITY selectMenu.accesskey "P">
 <!ENTITY all.label "Semua">
@@ -108,10 +92,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "B">
 <!ENTITY menuFavoriteFolder.label "Folder Kegemaran">
 <!ENTITY menuFavoriteFolder.accesskey "r">
-<!ENTITY folderPropsCmd2.label "Sifat">
-<!ENTITY folderPropsFolderCmd2.label "Sifat Folder">
-<!ENTITY folderPropsNewsgroupCmd2.label "Sifat Kumpulan berita">
-<!ENTITY folderPropsCmd.accesskey "u">
 <!ENTITY undoDeleteMsgCmd.label "Batal Membuang Mesej">
 <!ENTITY redoDeleteMsgCmd.label "Ulang Buang Mesej">
 <!ENTITY undoMoveMsgCmd.label "Batal Memindahkan Mesej">
@@ -143,8 +123,6 @@
 <!ENTITY messagePaneVertical.accesskey "P">
 <!ENTITY showFolderPaneCmd.label "Anak tetingkap Folder">
 <!ENTITY showFolderPaneCmd.accesskey "F">
-<!ENTITY showFolderPaneColsCmd.label "Lajur Anak tetingkap Folder">
-<!ENTITY showFolderPaneColsCmd.accesskey "A">
 <!ENTITY showMessageCmd.label "Anak tetingkap Mesej">
 <!ENTITY showMessageCmd.accesskey "M">
 
@@ -589,10 +567,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Mesej Baru">
 <!ENTITY appmenuNewContactCmd.label "Kenalan Buku Alamat…">
-<!ENTITY appmenuEditMenu.label "Edit">
 <!ENTITY appmenuToolbarLayout.label "Susun atur Bar alatan…">
-<!ENTITY appmenuSelectThread.label "Pilih Thread">
-<!ENTITY appmenuSelectFlagged.label "Pilih Mesej Berbintang">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Tag Baru…">
@@ -635,8 +610,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "B">
 <!ENTITY folderContextMarkNewsgroupRead.label "Tandakan Kumpulan berita sudah Dibaca">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "k">
-<!ENTITY folderContextMarkMailFolderRead.label "Tandakan Folder sudah Dibaca">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "k">
 <!ENTITY folderContextSubscribe.label "Langgan…">
 <!ENTITY folderContextSubscribe.accesskey "g">
 <!ENTITY folderContextSearchForMessages.label "Cari Mesej…">
@@ -738,16 +711,6 @@
 <!ENTITY contextReplyAll.accesskey "S">
 <!ENTITY contextReplyList.label "Balas mengikut Senarai">
 <!ENTITY contextReplyList.accesskey "S">
-<!ENTITY contextForward.label "Kirim semula">
-<!ENTITY contextForward.accesskey "K">
-<!ENTITY contextForwardAsMenu.label "Kirim Semula Sebagai">
-<!ENTITY contextForwardAsMenu.accesskey "i">
-<!ENTITY contextForwardAsInline.label "Sebaris">
-<!ENTITY contextForwardAsInline.accesskey "S">
-<!ENTITY contextForwardAsAttachmentItem.label "Lampiran">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "L">
-<!ENTITY contextMultiForwardAsAttachment.label "Kirim semula sebagai Lampiran">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "i">
 <!ENTITY contextMoveMsgMenu.label "Pindah Ke">
 <!ENTITY contextMoveMsgMenu.accesskey "P">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Terbaru">
@@ -770,8 +733,6 @@
 <!ENTITY contextPrint.accesskey "C">
 <!ENTITY contextPrintPreview.label "Previu Cetakan">
 <!ENTITY contextPrintPreview.accesskey "v">
-
-<!-- Thread Pane Column Picker -->
 
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
@@ -812,7 +773,6 @@
      "File here" option for the move to/copy to widget.
   -->
 <!ENTITY columnPicker.thisFolder.label "Folder ini">
-
 
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label "Main">
@@ -894,10 +854,6 @@
 <!ENTITY copyImageAllCmd.accesskey "I">
 <!ENTITY copyEmailCmd.label "Salin Alamat E-mel">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY stopCmd.label "Berhenti">
-<!ENTITY stopCmd.accesskey "B">
-<!ENTITY reloadCmd.label "Muat semula">
-<!ENTITY reloadCmd.accesskey "M">
 <!ENTITY openInBrowser.label "Buka dalam Pelayar">
 <!ENTITY openInBrowser.accesskey "B">
 <!ENTITY openLinkInBrowser.label "Buka Pautan dalam Pelayar">
@@ -930,3 +886,4 @@
 <!ENTITY writeNewMessageDock.label      "Tulis Mesej Baru">
 <!ENTITY openAddressBookDock.label      "Buka Buku Alamat">
 
+<!-- Content tab Navigation buttons -->

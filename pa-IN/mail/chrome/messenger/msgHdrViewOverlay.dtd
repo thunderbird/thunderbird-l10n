@@ -89,6 +89,7 @@
 
 <!ENTITY openAttachment.tooltip "Open the attached file">
 
+
 <!-- Attachment toolbar items -->
 <!ENTITY saveAttachmentButton1.label       "Save">
 <!ENTITY saveAttachmentButton1.tooltip     "Save the attached file">

@@ -25,14 +25,14 @@
 <!ENTITY newevent.status.needsaction.label        "Kerakli amallar" >
 <!ENTITY newevent.status.inprogress.label         "Amalda" >
 <!ENTITY newevent.status.completed.label          "Tugagan" >
-<!-- The following entity is for New Task dialog only -->
 
+<!-- The following entity is for New Task dialog only -->
 <!ENTITY newtodo.percentcomplete.label      "&#037; tugadi">
+
 <!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label,
      event.attendees.disallowcounter.label)
    - These three labels are displayed side by side in the event dialog, make sure
    - they still fit in. -->
-
 <!ENTITY event.attendees.notify.label                "Ishtirokchilarga xabar berish">
 <!ENTITY event.attendees.notify.accesskey            "I">
 <!ENTITY event.attendees.notifyundisclosed.label     "Har bir ishtirokchiga alohida taklif">
@@ -42,22 +42,18 @@
 <!ENTITY event.attendees.disallowcounter.accesskey   "a">
 
 <!-- Keyboard Shortcuts -->
-
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
 <!ENTITY event.dialog.copy.key                    "C">
 <!ENTITY event.dialog.paste.key                   "V">
 <!ENTITY event.dialog.select.all.key              "A">
-<!-- Menubar -->
 
+<!-- Menubar -->
 <!ENTITY  event.menu.item.new.label                       "Yangi">
 <!ENTITY  event.menu.item.new.accesskey                   "Y">
 <!ENTITY  event.menu.item.new.event.label                 "Tadbir">
@@ -70,12 +66,12 @@
 <!ENTITY  event.menu.item.new.contact.accesskey           "K">
 <!ENTITY  event.menu.item.close.label                     "Yopish">
 <!ENTITY  event.menu.item.close.accesskey                 "Y">
+
 <!-- LOCALIZATION NOTE
    - event.menu.item.save.accesskey is used for the "Save" menu item
    - when editing events/tasks in a dialog window.
    - event.menu.item.save.tab.accesskey is used for the "Save" menu item
    - when editing events/tasks in a tab. -->
-
 <!ENTITY  event.menu.item.save.label                      "Saqlash">
 <!ENTITY  event.menu.item.save.accesskey                  "S">
 
@@ -84,17 +80,11 @@
     - menu item when editing events/tasks in a dialog window.
     - event.menu.item.saveandclose.tab.accesskey is used for "Save and Close"
     - when editing events/tasks in a tab. -->
-
 <!ENTITY  event.menu.item.saveandclose.label              "Saqlash va Yopish">
 <!ENTITY  event.menu.item.saveandclose.accesskey          "Y">
 
-
 <!ENTITY  event.menu.item.delete.label                    "O‘chirish…">
 <!ENTITY  event.menu.item.delete.accesskey                "O">
-<!ENTITY  event.menu.item.page.setup.label                "Sahifa sozlamalari">
-<!ENTITY  event.menu.item.page.setup.accesskey            "m">
-<!ENTITY  event.menu.item.print.label                     "Chop qilish">
-<!ENTITY  event.menu.item.print.accesskey                 "C">
 
 <!ENTITY  event.menu.edit.label                           "Tahrirlash">
 <!ENTITY  event.menu.edit.accesskey                       "T">
@@ -119,8 +109,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "T">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Qulaylashtirish…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "Q">
-<!ENTITY  event.menu.view.showlink.label                  "Aloqador havolani ko‘rsatish">
-<!ENTITY  event.menu.view.showlink.accesskey              "A">
 
 <!ENTITY  event.menu.options.label                            "Moslamalar">
 <!ENTITY  event.menu.options.accesskey                        "M">
@@ -163,12 +151,11 @@
 <!ENTITY event.remove.attendees.accesskey                 "r">
 <!ENTITY event.remove.attendee.label                      "Ishtirokchini olib tashlash">
 <!ENTITY event.remove.attendee.accesskey                  "o">
-<!-- Toolbar -->
 
+<!-- Toolbar -->
 <!ENTITY  event.toolbar.delete.label                      "O‘chirish">
 <!ENTITY  event.toolbar.attendees.label                   "Ishtirokchilarni taklif qilish">
 <!ENTITY  event.toolbar.privacy.label                     "&amp;Maxfiylik">
-
 
 <!ENTITY  event.toolbar.delete.tooltip                    "O‘chirish">
 <!ENTITY  event.toolbar.attendees.tooltip                 "Ishtirokchilarni taklif qilish">
@@ -177,6 +164,7 @@
 <!ENTITY  event.toolbar.priority.tooltip                  "Muhimligini o‘zgartrisih">
 <!ENTITY  event.toolbar.status.tooltip                    "Holatini o‘zgartirish">
 <!ENTITY  event.toolbar.freebusy.tooltip                  "Bo‘sh/band vaqtni o‘zgartirish">
+
 <!-- Counter box -->
 <!-- LOCALIZATON NOTE(counter.button.*)
    - This is only visible in the UI if you have received a counterproposal before and are going to
@@ -185,12 +173,7 @@
    - the imip bar. Rescheduling will happen after clicking on save&close as usual. This screenshot
    - illustrates how it might look like: https://bugzilla.mozilla.org/attachment.cgi?id=8810121 -->
 
-
-
-
-
 <!-- Main page -->
-
 <!ENTITY event.title.textbox.label                        "Sarlavha:" >
 <!ENTITY event.title.textbox.accesskey                    "i">
 <!ENTITY event.location.label                             "Joylashuvi:" >
@@ -256,8 +239,8 @@
 
 <!ENTITY event.statusbarpanel.freebusy.label              "Vaqt:">
 <!ENTITY event.statusbarpanel.privacy.label               "Maxfiylik:">
-<!-- Recurrence dialog -->
 
+<!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label                         "Qaytishni tahrirlash">
 
 <!ENTITY event.repeat.does.not.repeat.label             "Takrorlanmadi">
@@ -306,6 +289,7 @@
 <!ENTITY event.recurrence.every.label                        "Har:" >
 <!ENTITY repeat.units.years.both                             "Yil(lar)" >
 <!ENTITY event.recurrence.pattern.yearly.every.month.label   "Har" >
+
 <!-- LOCALIZATON NOTE
      Some languages use a preposition when describing dates:
      Portuguese: 6 de Setembro
@@ -313,7 +297,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly
 -->
-
 <!ENTITY event.recurrence.pattern.yearly.of.label            "" >
 
 <!ENTITY event.recurrence.pattern.yearly.month.1.label       "Yanvar" >
@@ -328,6 +311,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "Oktabr" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "Noyabr" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "Dekabr" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Har">
 <!ENTITY event.recurrence.yearly.first.label                 "Birinchi">
 <!ENTITY event.recurrence.yearly.second.label                "Ikkinchi">
@@ -344,6 +328,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Shanba" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "kun" >
 <!ENTITY event.recurrence.of.label                           "/" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Yanvar" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Fevral" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Mart" >
@@ -362,9 +347,8 @@
 <!ENTITY event.recurrence.repeat.for.label              "Yaratish" >
 <!ENTITY event.recurrence.appointments.label            "Belgilangan uchrashuv(lar)" >
 <!ENTITY event.repeat.until.label                       "Ushbugacha takrorlash" >
-<!ENTITY event.recurrence.preview.label                 "Oldindan ko‘rish">
-<!-- Attendees dialog -->
 
+<!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Ishtirokchilarni taklif qilish">
 <!ENTITY event.organizer.label                  "Tashkilotchi">
 <!ENTITY event.freebusy.suggest.slot            "Vaqtinchalik intervalni taklif qilish">
@@ -385,12 +369,12 @@
 <!ENTITY event.attendee.usertype.resource       "Manba">
 <!ENTITY event.attendee.usertype.room           "Xona">
 <!ENTITY event.attendee.usertype.unknown        "Noma’lum">
-<!-- Timezone dialog -->
 
+<!-- Timezone dialog -->
 <!ENTITY timezone.title.label            "Vaqt hududini ko‘rsating">
 <!ENTITY event.timezone.custom.label     "Boshqa vaqt hududlari…">
-<!-- Read-Only dialog -->
 
+<!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "Umumiy">
 <!ENTITY read.only.title.label           "Nomi:">
 <!ENTITY read.only.event.start.label     "Boshlanish sanasi:">
@@ -401,13 +385,9 @@
 <!ENTITY read.only.location.label        "Joylashuvi:">
 <!ENTITY read.only.category.label        "Turkum:">
 <!ENTITY read.only.organizer.label       "Tashkilotchi:">
-<!ENTITY read.only.reply.label           "Javob qaytarish:">
-<!ENTITY read.only.accept.label          "Ishtirok etaman">
-<!ENTITY read.only.decline.label         "Ishtirok etmayman">
-<!ENTITY read.only.tentative.label       "Ishtirok etishim mumkin">
-<!ENTITY read.only.needs.action.label    "Keyinroq tasdiqlayman">
 <!ENTITY read.only.reminder.label        "Eslatgich:">
-
 <!ENTITY read.only.attendees.label       "Ishtirokchilar">
 <!ENTITY read.only.description.label     "Ta’rifi">
 <!ENTITY read.only.link.label            "Aloqador havola">
+
+<!-- Summary dialog -->

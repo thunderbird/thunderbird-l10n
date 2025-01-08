@@ -324,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "október" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "nóvember" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "desember" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Hvern">
 <!ENTITY event.recurrence.yearly.first.label                 "Fyrsta">
 <!ENTITY event.recurrence.yearly.second.label                "Annan">
@@ -340,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "laugardag" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "dagur" >
 <!ENTITY event.recurrence.of.label                           "í" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "janúar" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "febrúar" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "mars" >
@@ -358,7 +360,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Búa til" >
 <!ENTITY event.recurrence.appointments.label            "Atburði" >
 <!ENTITY event.repeat.until.label                       "Endurtaka þangað til" >
-<!ENTITY event.recurrence.preview.label                 "Forskoða">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Bjóða þátttakendum">

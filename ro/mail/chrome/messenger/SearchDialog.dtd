@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- for SearchDialog.xul -->
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "Caută mesaje în:">
 <!ENTITY searchHeading.accesskey     "C">
 <!ENTITY searchSubfolders.label      "Caută în subdosare">
@@ -25,7 +25,7 @@
 <!ENTITY saveAsVFButton.label        "Salvează ca Dosar de căutare">
 <!ENTITY saveAsVFButton.accesskey    "a">
 
-<!-- for ABSearchDialog.xul -->
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "Caută în:">
 <!ENTITY abSearchHeading.accesskey   "C">
 <!ENTITY propertiesButton.label      "Proprietăți">
@@ -35,4 +35,3 @@
 <!ENTITY deleteCardButton.label      "Șterge">
 <!ENTITY deleteCardButton.accesskey  "g">
 <!ENTITY abSearchDialogTitle.label   "Căutare avansată în agenda de contacte">
-

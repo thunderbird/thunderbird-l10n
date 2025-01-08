@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Lastnosti tabele …">
 <!ENTITY tableProperties.accesskey "L">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Slika">
 <!ENTITY imageToolbarCmd.tooltip "Vstavi novo sliko ali uredi lastnosti izbrane slike">
 <!ENTITY hruleToolbarCmd.label "Vod. črta">

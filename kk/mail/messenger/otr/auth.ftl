@@ -14,8 +14,6 @@ auth-your-fp-value = { $own_name }, сіз үшін баспа:
 # Variables:
 #   $their_name (String) - the screen name of a chat contact
 auth-their-fp-value = { $their_name } үшін баспа:
-auth-help = Контактінің жеке басын растау сөйлесудің шынайы болуын қамтамасыз етуге көмектеседі, бұл үшінші тарапқа сөйлесуді тыңдап немесе басқаруды қиындатады.
-auth-help-title = Растау бойынша анықтама
 auth-question-received = Бұл сіздің контакті қойған сұрақ:
 auth-yes =
     .label = Иә

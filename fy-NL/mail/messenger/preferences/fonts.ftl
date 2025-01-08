@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Lettertypen
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Standert ({ $name })
 fonts-label-default-unnamed =
     .label = Standert
-fonts-encoding-dialog-title =
-    .title = Lettertypen & tekensets
 fonts-language-legend =
     .value = Lettertypen foar:
     .accesskey = L

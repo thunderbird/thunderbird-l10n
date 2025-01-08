@@ -104,19 +104,6 @@ quick-filter-bar-results =
         [one] { $count } ileti
        *[other] { $count } ileti
     }
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Bu iletileri süz <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search2 =
     .label = İletileri süz
 quick-filter-bar-searching =
@@ -278,8 +265,6 @@ threadpane-column-header-sender = Gönderen
     .title = Gönderene göre sırala
 threadpane-column-label-sender =
     .label = Gönderen
-threadpane-cell-sender =
-    .aria-label = Gönderen
 # Variables:
 # $title (String) - Message sender for tooltip.
 threadpane-cell-sender-title =
@@ -289,8 +274,6 @@ threadpane-column-header-recipient = Alıcı
     .title = Alıcıya göre sırala
 threadpane-column-label-recipient =
     .label = Alıcı
-threadpane-cell-recipient =
-    .aria-label = Alıcı
 # Variables:
 # $title (String) - Message recipient for tooltip.
 threadpane-cell-recipient-title =
@@ -300,8 +283,6 @@ threadpane-column-header-correspondents = Yazanlar
     .title = Yazanlara göre sırala
 threadpane-column-label-correspondents =
     .label = Yazanlar
-threadpane-cell-correspondents =
-    .aria-label = Yazanlar
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
@@ -311,8 +292,6 @@ threadpane-column-header-subject = Konu
     .title = Konuya göre sırala
 threadpane-column-label-subject =
     .label = Konu
-threadpane-cell-subject =
-    .aria-label = Konu
 # Variables:
 # $title (String) - Message subject for tooltip.
 threadpane-cell-subject-title =
@@ -322,8 +301,6 @@ threadpane-column-header-date = Tarih
     .title = Tarihe göre sırala
 threadpane-column-label-date =
     .label = Tarih
-threadpane-cell-date =
-    .aria-label = Tarih
 # Variables:
 # $title (String) - Message date for tooltip.
 threadpane-cell-date-title =
@@ -333,8 +310,6 @@ threadpane-column-header-received = Alınma tarihi
     .title = Alınış tarihine göre sırala
 threadpane-column-label-received =
     .label = Alınma tarihi
-threadpane-cell-received =
-    .aria-label = Alındığı tarih
 # Variables:
 # $title (String) - Message received date for tooltip.
 threadpane-cell-received-title =
@@ -344,8 +319,6 @@ threadpane-column-header-status = Durum
     .title = Duruma göre sırala
 threadpane-column-label-status =
     .label = Durum
-threadpane-cell-status =
-    .aria-label = Durum
 # Variables:
 # $title (String) - Message status for tooltip.
 threadpane-cell-status-title =
@@ -355,8 +328,6 @@ threadpane-column-header-size = Boyut
     .title = Boyuta göre sırala
 threadpane-column-label-size =
     .label = Boyut
-threadpane-cell-size =
-    .aria-label = Boyut
 # Variables:
 # $title (String) - Message size for tooltip.
 threadpane-cell-size-title =
@@ -366,8 +337,6 @@ threadpane-column-header-tags = Etiket
     .title = Etiketlere göre sırala
 threadpane-column-label-tags =
     .label = Etiket
-threadpane-cell-tags =
-    .aria-label = Etiketler
 # Variables:
 # $title (String) - Tags for tooltip.
 threadpane-cell-tags-title =
@@ -377,8 +346,6 @@ threadpane-column-header-account = Hesap
     .title = Hesaba göre sırala
 threadpane-column-label-account =
     .label = Hesap
-threadpane-cell-account =
-    .aria-label = Hesap
 # Variables:
 # $title (String) - Message account for tooltip.
 threadpane-cell-account-title =
@@ -388,8 +355,6 @@ threadpane-column-header-priority = Öncelik
     .title = Önceliğe göre sırala
 threadpane-column-label-priority =
     .label = Öncelik
-threadpane-cell-priority =
-    .aria-label = Öncelik
 # Variables:
 # $title (String) - Priority for tooltip.
 threadpane-cell-priority-title =
@@ -399,8 +364,6 @@ threadpane-column-header-unread = Okunmadı
     .title = Dizideki okunmamış iletilerin sayısı
 threadpane-column-label-unread =
     .label = Okunmadı
-threadpane-cell-unread =
-    .aria-label = Okunmamış ileti sayısı
 # Variables:
 # $title (String) - Number of unread messages for tooltip.
 threadpane-cell-unread-title =
@@ -410,8 +373,6 @@ threadpane-column-header-total = Toplam
     .title = Dizideki iletilerin toplam sayısı
 threadpane-column-label-total =
     .label = Toplam
-threadpane-cell-total =
-    .aria-label = Toplam ileti sayısı
 # Variables:
 # $title (String) - Total messages for tooltip.
 threadpane-cell-total-title =
@@ -421,8 +382,6 @@ threadpane-column-header-location = Konum
     .title = Konuma göre sırala
 threadpane-column-label-location =
     .label = Konum
-threadpane-cell-location =
-    .aria-label = Konum
 # Variables:
 # $title (String) - Message location for tooltip.
 threadpane-cell-location-title =
@@ -432,8 +391,6 @@ threadpane-column-header-id = Alınma sırası
     .title = Alınış sırasına göre sırala
 threadpane-column-label-id =
     .label = Alınma sırası
-threadpane-cell-id =
-    .aria-label = Alınma sırası
 # Variables:
 # $title (String) - Message id for tooltip.
 threadpane-cell-id-title =

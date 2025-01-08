@@ -33,4 +33,3 @@ that require it.  -->
      mockup at bug 480169 -->
 <!ENTITY sanitizeEverythingUndoWarning     "Seda tegevust pole võimalik tagasi võtta.">
 
-<!ENTITY dialog.width                 "28em">

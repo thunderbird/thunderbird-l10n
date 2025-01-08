@@ -37,8 +37,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Contrasinal
     .accesskey = a
     .title = Opcional, só será usado para validar o nome de usuario
-account-provisioner-button = Obter un novo enderezo de correo electrónico
-    .accesskey = n
 account-setup-password-toggle-show =
     .title = Amosar o contrasinal
 account-setup-password-toggle-hide =
@@ -148,7 +146,6 @@ account-setup-credentials-incomplete = Fallou a autenticación. Ou as credenciai
 account-setup-credentials-wrong = Fallou a autenticación. Comprobe o nome de usuario e o contrasinal
 account-setup-find-settings-failed = O { -brand-short-name } non atopou a configuración da súa conta de correo electrónico
 account-setup-exchange-config-unverifiable = Non se puido verificar a configuración. Se o seu nome de usuario e contrasinal son correctos, é probábel que o administrador do servidor desactivase a configuración seleccionada para a súa conta. Probe a seleccionar outro protocolo.
-account-setup-provisioner-error = Produciuse un erro ao configurar a nova conta en { -brand-short-name }. Tente configurar manualmente a conta coas correspondentes credenciais.
 
 ## Manual configuration area
 

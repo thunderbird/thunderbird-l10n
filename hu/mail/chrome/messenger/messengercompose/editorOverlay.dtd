@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Táblázat tulajdonságai…">
 <!ENTITY tableProperties.accesskey "u">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Kép">
 <!ENTITY imageToolbarCmd.tooltip "Új kép beszúrása vagy a kijelölt tulajdonságainak módosítása">
 <!ENTITY hruleToolbarCmd.label "Vízszintes vonal">

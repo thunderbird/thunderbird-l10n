@@ -18,9 +18,6 @@ account-hub-release-notes = Ruch'utitzijol re ruwäch re'
 account-hub-support = To'ïk
 account-hub-donate = Kasipan
 
-## Start page
-
-
 ## Initial setup page
 
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
@@ -32,3 +29,9 @@ account-hub-email-cancel-button = Tiq'at
 account-hub-email-back-button = Chi rij
 account-hub-email-continue-button = Titikïr chik el
 account-hub-email-confirm-button = Tijikib'äx
+
+## Incoming/Outgoing SSL Authentication options
+
+
+## Incoming/Outgoing SSL options
+

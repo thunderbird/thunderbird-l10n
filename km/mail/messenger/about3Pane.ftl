@@ -61,13 +61,6 @@ quick-filter-bar-no-results = No results
 # Variables:
 # $count (Number) - The number of messages that match selected filters.
 quick-filter-bar-results = { $count } message
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = របៀប​តម្រង​ស្លាក
@@ -205,3 +198,6 @@ apply-current-columns-to-folder-message = អនុវត្ត​ជួរឈ�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = អនុវត្ត​ជួរឈរ​របស់​ថត​​បច្ចុប្បន្ន​ទៅ { $name } និង​ថត​តូចៗ​របស់​វា​ឬ?
+
+## Folder pane context menu
+

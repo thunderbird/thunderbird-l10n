@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Színek
 colors-dialog-title = Színek
 colors-dialog-legend = Szöveg és háttér
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Látogatott hivatkozások:
     .accesskey = L
-underline-link-checkbox =
-    .label = Hivatkozások aláhúzása
-    .accesskey = a
 always-underline-links =
     .label = Hivatkozások aláhúzása mindig
     .accesskey = H

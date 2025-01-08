@@ -2,14 +2,16 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY pref.ldap.window.title "Serwery usług katalogowych LDAP">
-
-<!ENTITY directories.label "Serwer usług katalogowych LDAP:">
-<!ENTITY directoriesText.label "Wybierz serwer usług katalogowych LDAP:">
+<!-- LOCALIZATION NOTE (window.title) : do not translate "LDAP" in below line -->
+<!ENTITY pref.ldap.window.title    "Serwery usług katalogowych LDAP">
+<!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
+<!ENTITY directories.label         "Serwer usług katalogowych LDAP:">
+<!-- LOCALIZATION NOTE (directoriesText.label) : do not translate "LDAP" in below line -->
+<!ENTITY directoriesText.label     "Wybierz serwer usług katalogowych LDAP:">
 <!ENTITY directoriesText.accesskey "s">
-<!ENTITY addDirectory.label "Dodaj">
-<!ENTITY addDirectory.accesskey "a">
-<!ENTITY editDirectory.label "Edytuj">
-<!ENTITY editDirectory.accesskey "E">
-<!ENTITY deleteDirectory.label "Usuń">
+<!ENTITY addDirectory.label        "Dodaj">
+<!ENTITY addDirectory.accesskey    "a">
+<!ENTITY editDirectory.label       "Edytuj">
+<!ENTITY editDirectory.accesskey   "E">
+<!ENTITY deleteDirectory.label     "Usuń">
 <!ENTITY deleteDirectory.accesskey "U">

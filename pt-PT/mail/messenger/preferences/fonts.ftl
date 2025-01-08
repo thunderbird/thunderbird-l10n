@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Tipos de letra
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Predefinido ({ $name })
 fonts-label-default-unnamed =
     .label = Predefinido
-fonts-encoding-dialog-title =
-    .title = Tipos de letra e codificação
 fonts-language-legend =
     .value = Tipos de letra para:
     .accesskey = T

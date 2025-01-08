@@ -4,7 +4,5 @@
 
 <!ENTITY virtualFolderListTitle.title        "Volba složek">
 <!ENTITY virtualFolderDesc.label       "Zvolte složky k prohledávání:">
-
-
 <!ENTITY folderName.label "Název složky">
 <!ENTITY folderSearch.label "Hledat">

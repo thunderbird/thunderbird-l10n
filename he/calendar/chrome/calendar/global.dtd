@@ -15,10 +15,6 @@
 <!ENTITY month.11.name "נובמבר" >
 <!ENTITY month.12.name "דצמבר" >
 
-<!ENTITY onemonthbackward.tooltip "חודש אחד אחורה" >
-<!ENTITY onemonthforward.tooltip "חודש אחד קדימה" >
-<!ENTITY oneyearbackward.tooltip "שנה אחת אחורה" >
-<!ENTITY oneyearforward.tooltip "שנה אחת קדימה" >
 <!ENTITY showToday.tooltip "עבור להיום">
 <!ENTITY onedayforward.tooltip "יום אחד קדימה">
 <!ENTITY onedaybackward.tooltip "יום אחד אחורה">

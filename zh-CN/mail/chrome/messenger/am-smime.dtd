@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "清空">
 <!ENTITY encryption.certificate_clear.accesskey "e">
 <!ENTITY signingGroupTitle.label "数字签名">
-
 <!ENTITY signingCert2.message "个人数字签名证书：">
 
 <!ENTITY sendingDefaults.label "发送消息时的默认设置">

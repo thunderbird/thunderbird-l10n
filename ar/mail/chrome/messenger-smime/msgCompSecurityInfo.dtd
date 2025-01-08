@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-
 <!ENTITY title.label "سرّية الرّسالة">
 <!ENTITY subject.plaintextWarning "رجاءً لاحظ: سطر موضوع الرّسالة لا يُعمّى مطلقًا.">
 <!ENTITY status.heading "سترسل محتويات رسالتك كما يلي:">

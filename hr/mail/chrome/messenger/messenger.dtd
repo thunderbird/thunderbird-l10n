@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "r">
 <!ENTITY newVirtualFolderCmd.label "Spremljene pretrage…">
 <!ENTITY newVirtualFolderCmd.accesskey "S">
-<!ENTITY newCreateEmailAccountCmd.label "Napravi novi račun e-pošte…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "a">
-<!ENTITY newExistingEmailAccountCmd.label "Postojeći račun e-pošte…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "e">
 <!ENTITY newIMAccountCmd.label "Račun razgovora…">
 <!ENTITY newIMAccountCmd.accesskey "z">
 <!ENTITY newFeedAccountCmd.label "Račun kanala…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Obriši poruku">
-<!ENTITY deleteMsgCmd.accesskey "O">
-<!ENTITY undeleteMsgCmd.label "Vrati obrisanu poruku">
-<!ENTITY undeleteMsgCmd.accesskey "r">
-<!ENTITY deleteMsgsCmd.label "Obriši odabrane poruke">
-<!ENTITY deleteMsgsCmd.accesskey "O">
-<!ENTITY undeleteMsgsCmd.label "Vrati odabrane poruke">
-<!ENTITY undeleteMsgsCmd.accesskey "r">
-<!ENTITY deleteFolderCmd.label "Obriši mapu">
-<!ENTITY deleteFolderCmd.accesskey "O">
-<!ENTITY unsubscribeNewsgroupCmd.label "Otkaži pretplatu">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "k">
 <!ENTITY selectMenu.label "Odaberi">
 <!ENTITY selectMenu.accesskey "a">
 <!ENTITY all.label "Sve">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "s">
 <!ENTITY menuFavoriteFolder.label "Omiljena mapa">
 <!ENTITY menuFavoriteFolder.accesskey "m">
-<!ENTITY folderPropsCmd2.label "Postavke">
-<!ENTITY folderPropsFolderCmd2.label "Postavke mape">
-<!ENTITY folderPropsNewsgroupCmd2.label "Postavke interesne grupe">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Poništi brisanje poruke">
 <!ENTITY redoDeleteMsgCmd.label "Ponovi brisanje poruke">
 <!ENTITY undoMoveMsgCmd.label "Poništi premještanje poruke">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "O">
 <!ENTITY showFolderPaneCmd.label "Okno mapa">
 <!ENTITY showFolderPaneCmd.accesskey "m">
-<!ENTITY showFolderPaneColsCmd.label "Stupci okna mapa">
-<!ENTITY showFolderPaneColsCmd.accesskey "p">
 <!ENTITY showMessageCmd.label "Okno poruke">
 <!ENTITY showMessageCmd.accesskey "n">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nova poruka">
 <!ENTITY appmenuNewContactCmd.label "Kontakt u adresaru…">
-<!ENTITY appmenuEditMenu.label "Uredi">
 <!ENTITY appmenuToolbarLayout.label "Raspored alatne trake…">
-<!ENTITY appmenuSelectThread.label "Označi skup poruka">
-<!ENTITY appmenuSelectFlagged.label "Označi poruke sa zvijezdicom">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nova oznaka…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "u">
 <!ENTITY folderContextMarkNewsgroupRead.label "Označi interesnu grupu pročitanom">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "z">
-<!ENTITY folderContextMarkMailFolderRead.label "Označi mapu pročitanom">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "z">
 <!ENTITY folderContextSubscribe.label "Pretplati se…">
 <!ENTITY folderContextSubscribe.accesskey "e">
 <!ENTITY folderContextSearchForMessages.label "Pretraži poruke…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Odgovori na listu">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextForward.label "Proslijedi">
-<!ENTITY contextForward.accesskey "P">
-<!ENTITY contextForwardAsMenu.label "Proslijedi kao">
-<!ENTITY contextForwardAsMenu.accesskey "i">
-<!ENTITY contextForwardAsInline.label "Ugrađeno">
-<!ENTITY contextForwardAsInline.accesskey "g">
-<!ENTITY contextForwardAsAttachmentItem.label "Privitak">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "v">
-<!ENTITY contextMultiForwardAsAttachment.label "Proslijedi kao privitke">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "j">
 <!ENTITY contextMoveMsgMenu.label "Premjesti u">
 <!ENTITY contextMoveMsgMenu.accesskey "m">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Nedavno">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "i">
 <!ENTITY copyEmailCmd.label "Kopiraj adresu e-pošte">
 <!ENTITY copyEmailCmd.accesskey "e">
-<!ENTITY stopCmd.label "Stani">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Osvježi">
-<!ENTITY reloadCmd.accesskey "j">
 <!ENTITY openInBrowser.label "Otvori u pregledniku">
 <!ENTITY openInBrowser.accesskey "O">
 <!ENTITY openLinkInBrowser.label "Otvori poveznicu u pregledniku">

@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Pridať adresár typu CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Pridať adresár LDAP
-about-addressbook-toolbar-new-contact =
-    .label = Nový kontakt
-about-addressbook-toolbar-new-list =
-    .label = Nový zoznam
-about-addressbook-toolbar-import =
-    .label = Importovať
 books-pane-create-contact-button = Nový kontakt
     .title = Vytvoriť nový kontakt
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Naozaj chcete odstrániť adresá
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Hľadať v adresári { $name }
-about-addressbook-search-all =
-    .placeholder = Hľadať vo všetkých adresároch
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -294,7 +282,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Upraviť fotografiu kontaktu
 about-addressbook-new-contact-header = Nový kontakt
-about-addressbook-prefer-display-name = Uprednostniť Zobrazované meno namiesto mena z hlavičky správy
 about-addressbook-write-action-button = Napísať správu
 about-addressbook-event-action-button = Udalosť
 about-addressbook-search-action-button = Hľadať

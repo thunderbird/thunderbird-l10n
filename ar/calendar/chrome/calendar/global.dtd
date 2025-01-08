@@ -15,10 +15,6 @@
 <!ENTITY month.11.name "نوفمبر" >
 <!ENTITY month.12.name "ديسمبر" >
 
-<!ENTITY onemonthbackward.tooltip "ارجع شهرا واحدا" >
-<!ENTITY onemonthforward.tooltip "تقدّم شهرا واحدا" >
-<!ENTITY oneyearbackward.tooltip "ارجع سنة واحدة" >
-<!ENTITY oneyearforward.tooltip "تقدّم سنة واحدة" >
 <!ENTITY showToday.tooltip "اذهب إلى اليوم">
 <!ENTITY onedayforward.tooltip "تقدّم يوما واحدا">
 <!ENTITY onedaybackward.tooltip "ارجع يوما واحدا">

@@ -30,13 +30,3 @@
 <!ENTITY closeCmd.label      "Stäng">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "ä">
-
-<!ENTITY quitApplicationCmd.label  "Avsluta">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "A">
-
-<!ENTITY quitApplicationCmdUnix.label  "Avsluta">
-<!ENTITY quitApplicationCmdUnix.accesskey  "A">
-
-<!ENTITY quitApplicationCmdMac.label  "Avsluta &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "A">

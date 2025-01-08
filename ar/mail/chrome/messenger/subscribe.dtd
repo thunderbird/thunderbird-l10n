@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "الحساب:">
 <!ENTITY server.accesskey             "ح">
 <!ENTITY subscribedHeader.label       "اشترِك">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "اعرض العناصر التي تحتوي:">
 <!ENTITY namefield.accesskey          "ع">

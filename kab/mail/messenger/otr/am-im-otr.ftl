@@ -21,6 +21,4 @@ otr-require-encryption-info =
     ur d-ttwaskanen ara deg udiwenni amagnu yerna ur ttwaseklasen ara.
 otr-verify-nudge =
     .label = Smektay-iyi-d yal tikkelt ɣef usenqed n unermas ur nettwasenqed ara
-
 otr-not-yet-available = Ulac akka tura
-

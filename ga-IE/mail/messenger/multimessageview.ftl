@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Achoimre Teachtaireachta
-selected-messages-label =
-    .label = Teachtaireachtaí Roghnaithe
 multi-message-archive-button =
     .label = Cuir sa Chartlann
     .tooltiptext = Cuir sa Chartlann

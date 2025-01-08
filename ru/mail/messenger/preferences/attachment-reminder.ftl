@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = Ключевые слова для напоминания о вложении
 attachment-reminder-dialog-title = Ключевые слова для напоминания о вложении
 attachment-reminder-label = { -brand-short-name } будет предупреждать вас о том, что вы забыли вложить файл, если вы попробуете отправить письмо, содержащее одно из этих ключевых слов.
 keyword-new-button =

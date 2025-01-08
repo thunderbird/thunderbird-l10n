@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = Modus per schliar problems da { -brand-short-name }
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = Modus per schliar problems da { -brand-short-name }
 troubleshoot-mode-description = Utilisescha il modus per schliar problems da { -brand-short-name } per analisar sbagls. Tes supplements e tias persunalisaziuns vegnan deactivadas temporarmain.
 troubleshoot-mode-description2 = Ti pos far daventar permanentas intginas u tuttas questas midadas:

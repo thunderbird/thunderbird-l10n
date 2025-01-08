@@ -5,7 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Konten-Assistent">
-<!ENTITY accountWizard.size "width: 50em; height: 40em;">
 
 <!-- Entities for Identity page -->
 

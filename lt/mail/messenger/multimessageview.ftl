@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Laiškų santrauka
-selected-messages-label =
-    .label = Pažymėti laiškai
 multi-message-archive-button =
     .label = Archyvuoti
     .tooltiptext = Archyvuoti

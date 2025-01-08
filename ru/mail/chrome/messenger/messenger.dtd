@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "м">
 <!ENTITY newVirtualFolderCmd.label "Виртуальную папку…">
 <!ENTITY newVirtualFolderCmd.accesskey "В">
-<!ENTITY newCreateEmailAccountCmd.label "Получить новую учётную запись почты…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "л">
-<!ENTITY newExistingEmailAccountCmd.label "Настроить мою учётную запись почты…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "и">
 <!ENTITY newIMAccountCmd.label "Учётная запись чата…">
 <!ENTITY newIMAccountCmd.accesskey "а">
 <!ENTITY newFeedAccountCmd.label "Учётная запись лент новостей…">
@@ -621,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "О">
 <!ENTITY folderContextMarkNewsgroupRead.label "Отметить группу новостей как прочитанную">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "м">
-<!ENTITY folderContextMarkMailFolderRead.label "Отметить папку как прочитанную">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "ч">
 <!ENTITY folderContextSubscribe.label "Подписаться…">
 <!ENTITY folderContextSubscribe.accesskey "д">
 <!ENTITY folderContextSearchForMessages.label "Поиск сообщений…">
@@ -728,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "в">
 <!ENTITY contextReplyList.label "Ответить в рассылку">
 <!ENTITY contextReplyList.accesskey "р">
-<!ENTITY contextForward.label "Переслать">
-<!ENTITY contextForward.accesskey "П">
-<!ENTITY contextForwardAsMenu.label "Переслать как">
-<!ENTITY contextForwardAsMenu.accesskey "е">
-<!ENTITY contextForwardAsInline.label "Внутри сообщения">
-<!ENTITY contextForwardAsInline.accesskey "н">
-<!ENTITY contextForwardAsAttachmentItem.label "Вложение">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "ж">
-<!ENTITY contextMultiForwardAsAttachment.label "Переслать как вложения">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "е">
 <!ENTITY contextMoveMsgMenu.label "Переместить в папку">
 <!ENTITY contextMoveMsgMenu.accesskey "е">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Недавно открытые">

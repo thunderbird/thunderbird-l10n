@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Přehled zpráv
-selected-messages-label =
-    .label = Vybrané zprávy
 multi-message-archive-button =
     .label = Archivovat
     .tooltiptext = Archivovat

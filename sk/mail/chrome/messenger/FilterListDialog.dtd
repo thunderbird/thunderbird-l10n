@@ -36,8 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "v">
 <!ENTITY helpButton.label "Pomocník">
 <!ENTITY helpButton.accesskey "P">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Hľadať filtre podľa názvu…">
-
-
-

@@ -10,12 +10,6 @@ reminder-title-at-start-event = Початок події
 reminder-title-at-start-task = Початок завдання
 reminder-title-at-end-event = Закінчення події
 reminder-title-at-end-task = Закінчення завдання
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Дрімотне нагадування за { $unit }
 reminder-custom-origin-begin-before-event = до початку події
 reminder-custom-origin-begin-after-event = після початку події
 reminder-custom-origin-end-before-event = перед завершенням події

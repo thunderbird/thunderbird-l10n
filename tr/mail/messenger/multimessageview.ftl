@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = İleti Özeti
-selected-messages-label =
-    .label = Seçili iletiler
 multi-message-archive-button =
     .label = Arşivle
     .tooltiptext = Arşivle

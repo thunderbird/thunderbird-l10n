@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Tiyuj ri Cholq'ij Cha'on">
 <!ENTITY calendar.removecalendar.accesskey      "R">
 
-
-<!ENTITY calendar.menu.customize.label          "Tichinäx…">
-<!ENTITY calendar.menu.customize.accesskey      "C">
-
 <!ENTITY showUnifinderCmd.label                 "Kekanöx taq Molojri'ïl">
 <!ENTITY showUnifinderCmd.accesskey             "n">
 <!ENTITY showUnifinderCmd.tooltip               "Tijalwachij ri panel richin tikanoj molojri'ïl">

@@ -44,8 +44,7 @@
 <!ENTITY cellSelectNext.accessKey         "N">
 <!ENTITY cellSelectPrevious.label         "이전">
 <!ENTITY cellSelectPrevious.accessKey     "P">
-<!-- LOCALIZATION NOTE Next 2 form 1 sentence (we don't want to use HTML tag to wrap) -->
-<!ENTITY applyBeforeChange.label         "선택 대상을 변경하면 현재 설정을 적용합니다.">
+<!ENTITY applyBeforeChange.label          "선택 대상을 변경하면 현재 설정을 적용합니다.">
 <!ENTITY cellContentAlignment.label       "정렬 방향:">
 <!ENTITY cellHorizontal.label             "수평:">
 <!ENTITY cellHorizontal.accessKey         "Z">

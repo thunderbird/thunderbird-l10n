@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Προσθήκη ευρετηρίου CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Προσθήκη ευρετηρίου LDAP
-about-addressbook-toolbar-new-contact =
-    .label = Νέα επαφή
-about-addressbook-toolbar-new-list =
-    .label = Νέα λίστα
-about-addressbook-toolbar-import =
-    .label = Εισαγωγή
 books-pane-create-contact-button = Νέα επαφή
     .title = Δημιουργία νέας επαφής
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Θέλετε σίγουρα να 
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Αναζήτηση σε { $name }
-about-addressbook-search-all =
-    .placeholder = Αναζήτηση σε όλα τα ευρετήρια
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -277,7 +265,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Επεξεργασία φωτογραφίας επαφής
 about-addressbook-new-contact-header = Νέα επαφή
-about-addressbook-prefer-display-name = Να προτιμηθεί η εμφάνιση ονόματος στην κεφαλίδα του μηνύματος
 about-addressbook-write-action-button = Σύνταξη
 about-addressbook-event-action-button = Εκδήλωση
 about-addressbook-search-action-button = Αναζήτηση

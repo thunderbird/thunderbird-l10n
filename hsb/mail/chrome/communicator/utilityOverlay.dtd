@@ -30,13 +30,3 @@
 <!ENTITY closeCmd.label      "Začinić">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "Z">
-
-<!ENTITY quitApplicationCmd.label  "Skónčić">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "S">
-
-<!ENTITY quitApplicationCmdUnix.label  "Wopušćić">
-<!ENTITY quitApplicationCmdUnix.accesskey  "p">
-
-<!ENTITY quitApplicationCmdMac.label  "&brandShortName; skónčić">
-<!ENTITY quitApplicationCmdMac.accesskey  "k">

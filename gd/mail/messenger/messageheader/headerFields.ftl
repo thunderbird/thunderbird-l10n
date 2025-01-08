@@ -20,7 +20,6 @@ message-header-tags-list-name = Tagaichean
 message-header-author-field = An t-ùghdar<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Am buidheann<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = An cuspair<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Iar-theachdaireachdan gu<span data-l10n-name="field-separator">:</span>
 message-header-date-field = An ceann-là<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Àidseant cleachdaiche<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Reifreansan<span data-l10n-name="field-separator">:</span>

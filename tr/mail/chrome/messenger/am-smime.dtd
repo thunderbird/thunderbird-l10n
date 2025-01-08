@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Temizle">
 <!ENTITY encryption.certificate_clear.accesskey "z">
 <!ENTITY signingGroupTitle.label "Sayısal imza">
-
 <!ENTITY signingCert2.message "Dijital imza için kişisel sertifika:">
 
 <!ENTITY sendingDefaults.label "Varsayılan ileti gönderme ayarları">

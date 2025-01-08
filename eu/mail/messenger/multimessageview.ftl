@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Mezuaren laburpena
-selected-messages-label =
-    .label = Hautatutako mezuak
 multi-message-archive-button =
     .label = Artxibatu
     .tooltiptext = Artxibatu

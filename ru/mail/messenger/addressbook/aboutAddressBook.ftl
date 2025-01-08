@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Добавить адресную книгу CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Добавить адресную книгу LDAP
-about-addressbook-toolbar-new-contact =
-    .label = Новый контакт
-about-addressbook-toolbar-new-list =
-    .label = Новый список
-about-addressbook-toolbar-import =
-    .label = Импорт
 books-pane-create-contact-button = Новый контакт
     .title = Создать новый контакт
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Вы уверены, что хо�
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Поиск в { $name }
-about-addressbook-search-all =
-    .placeholder = Поиск во всех адресных книгах
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -289,7 +277,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Изменить фото контакта
 about-addressbook-new-contact-header = Новый контакт
-about-addressbook-prefer-display-name = Использовать отображаемое имя вместо имени из заголовка сообщения
 about-addressbook-write-action-button = Написать
 about-addressbook-event-action-button = Событие
 about-addressbook-search-action-button = Поиск

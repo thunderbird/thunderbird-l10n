@@ -4,14 +4,14 @@
 
 account-settings-title = Awtentificěrowańske nastajenja
 account-channel-title = Standardne kanale
-
 chat-autologin =
     .label = Za start pśizjawiś
-
 chat-encryption-generic = Powšykny
 chat-encryption-log =
     .label = Powěsći skoděrowane kóńc do kóńca do rozgronowych protokolow zapśimjeś
 chat-encryption-label = Natiwne koděrowanje wót kóńca do kóńca
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } koděrowanje kóńć do kóńca za chatpowěsći bitujo. To tomu zajźujo, až tśeśe rozgrono wobsłuchuju. Pśidatna konfiguracija jo snaź dołojce trjebna, aby koděrowanje funkcioněrowało.
 chat-encryption-status = Koděrowański status
 chat-encryption-placeholder = Koděrowanje njejo inicializěrowane.

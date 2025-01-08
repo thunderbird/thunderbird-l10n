@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Пошта тіркелгіңіздің бумаларын жасау, атын ауыстыру немесе өшіру
 webext-perms-description-accountsIdentities = Пошта тіркелгілерін жасау, өзгерту немесе өшіру
 webext-perms-description-accountsRead = Пошта тіркелгілеріңізді, олардың жеке мәліметтерін және бумаларын қарау
@@ -20,7 +27,6 @@ webext-perms-description-messagesModify = Электрондық пошта ха
 webext-perms-description-messagesModifyPermanent = Хабарламаларыңыздың қайнар көзін тұрақты өзгерту (соның ішінде хабарлама тақырыптамалары, денесі және салынымдары)
 webext-perms-description-messagesMove = Эл. пошта хабарламаларын көшіру немесе жылжыту (оларды қоқыс бумасына жылжытуды қоса)
 webext-perms-description-messagesDelete = Эл. пошта хабарламаларыңызды біржола өшіру
-webext-perms-description-messagesRead = Пошта хабарламаларыңызды оқу және оларға белгілерді қосу
 webext-perms-description-messagesRead2 = Эл. пошта хабарламаларыңызды оқу
 webext-perms-description-messagesUpdate = Электрондық пошта хабарламаларының қасиеттері мен тегтерін өзгерту
 webext-perms-description-messagesTags = Хабарлама тегтерін жасау, өзгерту және өшіру

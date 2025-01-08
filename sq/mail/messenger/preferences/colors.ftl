@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Ngjyra
 colors-dialog-title = Ngjyra
 colors-dialog-legend = Tekst dhe Sfond
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Lidhje të Vizituara:
     .accesskey = V
-underline-link-checkbox =
-    .label = Nënvijëzoji lidhjet
-    .accesskey = N
 always-underline-links =
     .label = Lidhjet nënvijëzoji përherë
     .accesskey = L

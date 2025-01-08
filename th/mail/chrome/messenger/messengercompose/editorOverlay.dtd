@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "คุณสมบัติตาราง…">
 <!ENTITY tableProperties.accesskey "ค">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "ภาพ">
 <!ENTITY imageToolbarCmd.tooltip "แทรกภาพใหม่หรือแก้ไขคุณสมบัติของภาพที่เลือก">
 <!ENTITY hruleToolbarCmd.label "เส้นแนวนอน">

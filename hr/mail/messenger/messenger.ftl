@@ -244,24 +244,6 @@ context-menu-cancel-msg =
     .label = Otkaži poruku
 # Variables:
 # $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Obriši odabrane poruke
-            [few] Obriši odabrane poruke
-           *[other] Obriši odabrane poruke
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Vrati odabrane poruke
-            [few] Vrati odabrane poruke
-           *[other] Vrati odabrane poruke
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
 mail-context-messages-delete =
     .label =
         { $count ->

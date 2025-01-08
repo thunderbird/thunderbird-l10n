@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Variables:
-# $organizer (String) - The participant that created the original invitation.
-calendar-invitation-panel-intro = { $organizer } jo was pśepšosył do:
 calendar-invitation-panel-status-new = Maśo pšepšosenje na toś to tšojenje.
 calendar-invitation-panel-status-processed = Toś to tšojenje jo se južo pśidało wašomu kalendarjoju.
 calendar-invitation-panel-status-updateminor = Toś ta powěsć aktualizaciju za toś to tšojenje wopśimujo.
@@ -17,14 +14,12 @@ calendar-invitation-panel-intro-cancel = { $organizer } jo pśetergnuł:
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
-calendar-invitation-panel-action-button = Składowaś
 calendar-invitation-panel-view-button = Naglěd
 calendar-invitation-panel-update-button = Aktualizěrowaś
 calendar-invitation-panel-delete-button = Lašowaś
 calendar-invitation-panel-accept-button = Jo
 calendar-invitation-panel-decline-button = Ně
 calendar-invitation-panel-tentative-button = Snaź
-calendar-invitation-panel-reply-status = * Hyšći njejsćo rozsuźił abo wótegronił
 calendar-invitation-panel-more-button = Wěcej
 calendar-invitation-panel-menu-item-save-copy =
     .label = Kopiju składowaś
@@ -32,14 +27,6 @@ calendar-invitation-panel-menu-item-toggle-changes =
     .label = Změny pokazaś
 calendar-invitation-panel-prop-title-when = Gdy:
 calendar-invitation-panel-prop-title-location = Městno:
-# Variables:
-# $dayOfWeek (String) - The day of the week for a given date.
-# $date (String) - The date example: Tuesday, February 24, 2022.
-calendar-invitation-datetime-date = { $dayOfWeek }, { $date }
-# Variables:
-# $time (String) - The time part of a datetime using the "short" timeStyle.
-# $timezone (String) - The timezone info for the datetime.
-calendar-invitation-datetime-time = { $time } ({ $timezone })
 # Example: Friday, September 16, 2022
 # Variables:
 # $startDate (String) - The date (without time) the event starts on.

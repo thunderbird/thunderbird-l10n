@@ -10,12 +10,6 @@ reminder-title-at-start-event = Imir mi tekker tedyant
 reminder-title-at-start-task = Imir mi tekker twuri
 reminder-title-at-end-event = Imir mi tfuk tedyant
 reminder-title-at-end-task = Imir mi tfuk twuri
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Qqen tiṭ kra n { $unit }
 reminder-custom-origin-begin-before-event = send ad tekker tedyant
 reminder-custom-origin-begin-after-event = seld ad tekker tedyant
 reminder-custom-origin-end-before-event = send ad tfak tedyant

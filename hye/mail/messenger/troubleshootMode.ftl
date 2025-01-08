@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = { -brand-short-name }-ի խափանաշտկող ռեժիմ
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = { -brand-short-name }-ի խափանաշտկող ռեժիմ
 troubleshoot-mode-description = Աւգտագործէք { -brand-short-name }-ի խափաշտկող ռեժիմը խնդիրների բացայայտման համար։ Ձեր ընդլայնումները եւ յարմարեցումները ժամանակաւորապէս կանջատուեն:
 troubleshoot-mode-description2 = Դուք կարող էք այս փոփոխութիւններից մի քանիսը կամ բոլորը մշտական դարձնել.

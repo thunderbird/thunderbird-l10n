@@ -15,10 +15,6 @@
 <!ENTITY month.11.name "Tháng mười một" >
 <!ENTITY month.12.name "Tháng mười hai" >
 
-<!ENTITY onemonthbackward.tooltip "Lùi một tháng" >
-<!ENTITY onemonthforward.tooltip "Tiến một tháng" >
-<!ENTITY oneyearbackward.tooltip "Một năm trước" >
-<!ENTITY oneyearforward.tooltip "Một năm tiếp" >
 <!ENTITY showToday.tooltip "Đi đến hôm nay">
 <!ENTITY onedayforward.tooltip "Tiến một ngày">
 <!ENTITY onedaybackward.tooltip "Lùi một ngày">

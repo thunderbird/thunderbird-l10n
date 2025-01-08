@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = Mots-clés de rappel pour les pièces jointes
 attachment-reminder-dialog-title = Mots-clés de rappel pour les pièces jointes
 attachment-reminder-label = { -brand-short-name } vous avertira de l’absence de pièces jointes si vous êtes sur le point d’envoyer un e-mail contenant l’un de ces mots-clés.
 keyword-new-button =

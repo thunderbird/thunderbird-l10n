@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Variables:
+## $count (Number) - Number of events selected for deletion.
+
 calendar-delete-event-prompt-title =
     { $count ->
         [one] Видалити подію
@@ -14,6 +18,10 @@ calendar-delete-event-prompt-message =
         [few] Ви справді бажаєте видалити ці { $count } події?
        *[many] Ви справді бажаєте видалити ці { $count } подій?
     }
+
+## Variables:
+## $count (Number) - Number of tasks selected for deletion.
+
 calendar-delete-task-prompt-title =
     { $count ->
         [one] Видалити завдання
@@ -26,6 +34,10 @@ calendar-delete-task-prompt-message =
         [few] Ви справді бажаєте видалити ці { $count } завдання?
        *[many] Ви справді бажаєте видалити ці { $count } завдань?
     }
+
+## Variables:
+## $count (Number) - Number of items selected for deletion.
+
 calendar-delete-item-prompt-title =
     { $count ->
         [one] Видалити елемент
@@ -38,4 +50,7 @@ calendar-delete-item-prompt-message =
         [few] Ви справді бажаєте видалити ці { $count } елементи?
        *[many] Ви справді бажаєте видалити ці { $count } елементів?
     }
+
+##
+
 calendar-delete-prompt-disable-message = Не питати знову.

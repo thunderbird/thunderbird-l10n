@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "პატარა ხატულები">
 <!ENTITY restoreDefaultSet.label  "ნაგულისხმევის აღდგენა">
 <!ENTITY showTitlebar2.label      "სათაურის ზოლი">
-<!ENTITY extraDragSpace2.label    "ზემოთ სივრცე გადასაადგილებლად">
 <!ENTITY saveChanges.label        "მზადაა">
 <!ENTITY undoChanges.label        "ცვლილებების გაუქმება">

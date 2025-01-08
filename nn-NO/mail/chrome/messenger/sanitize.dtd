@@ -33,4 +33,3 @@ that require it.  -->
      mockup at bug 480169 -->
 <!ENTITY sanitizeEverythingUndoWarning     "Denne handlinga kan ikkje angrast.">
 
-<!ENTITY dialog.width                 "28em">

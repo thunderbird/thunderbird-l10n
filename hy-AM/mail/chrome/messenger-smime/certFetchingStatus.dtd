@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE shown while obtaining certificates from a directory -->
 
-
 <!ENTITY title.label "Բեռնվում են հավաստագրերը">
 <!ENTITY info.message "Որոնում է վկայագրերի թղթապանակը: Կարող է ժամանակ տևել:">
 <!ENTITY stop.label "Կանգնեցնել որոնումը">

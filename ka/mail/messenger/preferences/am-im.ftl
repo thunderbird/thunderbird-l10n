@@ -4,14 +4,14 @@
 
 account-settings-title = ანგარიშზე შესვლის პარამეტრები
 account-channel-title = ნაგულისხმევი არხები
-
 chat-autologin =
     .label = შესვლა ჩართვისას
-
 chat-encryption-generic = ძირითადი
 chat-encryption-log =
     .label = გამჭოლი დაშიფვრის მქონე წერილის ჩართვა საუბრის ჩანაწერებში
 chat-encryption-label = საკუთარი სახის გამჭოლი დაშიფვრა
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } გთავაზობთ გამჭოლ დაშიფვრას სასაუბროს წერილებისთვის. ეს საშუალებას არ მისცემს გარეშე პირებს, მიაყურადონ თქვენს საუბარს. დამატებითი გამართვა იქნება საჭირო ქვემოთ, დაშიფვრის ასამოქმედებლად.
 chat-encryption-status = დაშიფვრის მდგომარეობა
 chat-encryption-placeholder = დაშიფვრა არ წამოწყებულა.

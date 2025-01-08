@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-uri-redirect-window =
-    .title = Naptár URI átirányítás
 calendar-uri-redirect-window-title = Naptár URI átirányítás
+# Variables:
+# $calendarName (String) - Display name of the calendar.
 calendar-uri-redirect-description =
     A kiszolgáló átirányítja a(z) „{ $calendarName }” naptár URI-ját.
     Elfogadja az átirányítást, és elkezdi használni a naptár új URI-ját?

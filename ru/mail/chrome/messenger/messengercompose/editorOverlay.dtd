@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Свойства таблицы…">
 <!ENTITY tableProperties.accesskey "в">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Изображение">
 <!ENTITY imageToolbarCmd.tooltip "Вставить новое изображение или изменить свойства выделенного">
 <!ENTITY hruleToolbarCmd.label "Разделитель">

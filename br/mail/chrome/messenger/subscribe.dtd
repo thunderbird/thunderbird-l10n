@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Kont :">
 <!ENTITY server.accesskey             "K">
 <!ENTITY subscribedHeader.label       "Koumanantiñ">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Diskouez an elfennoù a vez kavet enno :">
 <!ENTITY namefield.accesskey          "n">

@@ -10,8 +10,5 @@
 <!ENTITY chooseFileLinkButton.label "Выбраць файл...">
 <!ENTITY chooseFileLinkButton.accessKey "В">
 
-<!ENTITY makeUrlRelative.label "Адносны URL">
-<!ENTITY makeUrlRelative.accessKey "А">
-<!ENTITY makeUrlRelative.tooltip "Змяніць адносны URL на абсалютны і наадварот. Перад гэтым дзеяннем вам спачатку трэба захаваць старонку.">
 
 <!-- Shared by Link and Image dialogs -->

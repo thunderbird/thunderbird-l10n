@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Waarschuwing bij nieuwe e-mail aanpassen
 notifications-dialog-title = Waarschuwing bij nieuwe e-mail aanpassen
 customize-alert-description = Kies welke velden worden getoond in de waarschuwingsnotificatie:
 preview-text-checkbox =

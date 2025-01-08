@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "S">
 <!ENTITY newVirtualFolderCmd.label "Chwilio a Gadwyd…">
 <!ENTITY newVirtualFolderCmd.accesskey "w">
-<!ENTITY newCreateEmailAccountCmd.label "Estyn Cyfrif E-bost Newydd…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "E">
-<!ENTITY newExistingEmailAccountCmd.label "Cyfrif E-bost Cyfredol…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "C">
 <!ENTITY newIMAccountCmd.label "Cyfrif Sgwrsio…">
 <!ENTITY newIMAccountCmd.accesskey "S">
 <!ENTITY newFeedAccountCmd.label "Cyfrif Llif…">
@@ -621,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "D">
 <!ENTITY folderContextMarkNewsgroupRead.label "Marcio Grŵp Newyddion Wedi'i Ddarllen">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "G">
-<!ENTITY folderContextMarkMailFolderRead.label "Marcio Ffolder Wedi'i Ddarllen">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "W">
 <!ENTITY folderContextSubscribe.label "Tanysgrifio…">
 <!ENTITY folderContextSubscribe.accesskey "T">
 <!ENTITY folderContextSearchForMessages.label "Chwilio Negeseuon…">
@@ -728,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "B">
 <!ENTITY contextReplyList.label "Ateb i'r Rhestr">
 <!ENTITY contextReplyList.accesskey "R">
-<!ENTITY contextForward.label "Ymlaen">
-<!ENTITY contextForward.accesskey "Y">
-<!ENTITY contextForwardAsMenu.label "Anfon Ymlaen Fel">
-<!ENTITY contextForwardAsMenu.accesskey "Y">
-<!ENTITY contextForwardAsInline.label "Mewnlin">
-<!ENTITY contextForwardAsInline.accesskey "M">
-<!ENTITY contextForwardAsAttachmentItem.label "Atodiad">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "A">
-<!ENTITY contextMultiForwardAsAttachment.label "Ymlaen fel Atodiadau">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "A">
 <!ENTITY contextMoveMsgMenu.label "Symud i">
 <!ENTITY contextMoveMsgMenu.accesskey "S">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Diweddar">

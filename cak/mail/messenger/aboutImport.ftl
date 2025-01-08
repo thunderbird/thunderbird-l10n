@@ -21,7 +21,6 @@ button-finish = Tik'is
 app-name-thunderbird = Thunderbird
 app-name-seamonkey = SeaMonkey
 app-name-outlook = Outlook
-app-name-becky = ¡Becky! Internet Mail
 app-name-apple-mail = Apple Mail
 
 ## Import from file selections
@@ -37,8 +36,6 @@ items-pane-checkbox-calendars = Cholb'äl q'ij
 ## Import from calendar file steps
 
 calendar-items-loading = Yesamajïx taq ch'akulal…
-calendar-items-filter-input =
-    .placeholder = Kechayüx taq ch'akulal…
 calendar-select-all-items = Ticha' ronojel
 calendar-deselect-all-items = Timecha' ronojel
 

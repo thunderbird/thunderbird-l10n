@@ -2,6 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- Window title -->
 <!ENTITY windowTitle.label "Sprawdź pisownię">
 
 <!ENTITY misspelledWord.label "Błędne słowo:">
@@ -25,8 +26,8 @@
 <!ENTITY moreDictionaries.label "Pobierz więcej">
 <!ENTITY addToUserDictionaryButton.label "Dodaj słowo">
 <!ENTITY addToUserDictionaryButton.accessKey "D">
-<!ENTITY editUserDictionaryButton.label      "Edytuj…">
-<!ENTITY editUserDictionaryButton.accessKey  "E">
+<!ENTITY editUserDictionaryButton.label "Edytuj…">
+<!ENTITY editUserDictionaryButton.accessKey "E">
 <!ENTITY recheckButton2.label "Sprawdź ponownie">
 <!ENTITY recheckButton2.accessKey "p">
 <!ENTITY closeButton.label "Zamknij">

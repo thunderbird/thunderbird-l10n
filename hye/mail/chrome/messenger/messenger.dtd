@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "W">
 <!ENTITY newVirtualFolderCmd.label "Պահպանուած որոնում…">
 <!ENTITY newVirtualFolderCmd.accesskey "S">
-<!ENTITY newCreateEmailAccountCmd.label "Ստեղծել նոր փոստային հաշիւ…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "Ս">
-<!ENTITY newExistingEmailAccountCmd.label "Առկայ փոստային հաշիւ…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "Ա">
 <!ENTITY newIMAccountCmd.label "Զրոյցի հաշիւ…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.accesskey "d">
@@ -86,18 +82,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Ջնջել նամակը">
-<!ENTITY deleteMsgCmd.accesskey "Ջ">
-<!ENTITY undeleteMsgCmd.label "Յետարկել հաղորդագրութեան ջնջումը">
-<!ENTITY undeleteMsgCmd.accesskey "ր">
-<!ENTITY deleteMsgsCmd.label "Ջնջել ընտրուած նամակները">
-<!ENTITY deleteMsgsCmd.accesskey "Ջ">
-<!ENTITY undeleteMsgsCmd.label "Յետարկել ընտրուած նամակների ջնջումը">
-<!ENTITY undeleteMsgsCmd.accesskey "ա">
-<!ENTITY deleteFolderCmd.label "Ջնջել թղթապանակը">
-<!ENTITY deleteFolderCmd.accesskey "Ջ">
-<!ENTITY unsubscribeNewsgroupCmd.label "Բաժանորդագրութիւնն աւարտել">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "ն">
 <!ENTITY selectMenu.label "Ընտրել">
 <!ENTITY selectMenu.accesskey "Ը">
 <!ENTITY all.label "Բոլորը">
@@ -109,10 +93,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "Ա">
 <!ENTITY menuFavoriteFolder.label "Ընտրեալ թղթապանակ">
 <!ENTITY menuFavoriteFolder.accesskey "տ">
-<!ENTITY folderPropsCmd2.label "Յատկութիւններ...">
-<!ENTITY folderPropsFolderCmd2.label "Թղթապանակի յատկութիւնները">
-<!ENTITY folderPropsNewsgroupCmd2.label "Տեղեկատուախմբերի յատկութիւնները">
-<!ENTITY folderPropsCmd.accesskey "տ">
 <!ENTITY undoDeleteMsgCmd.label "Յետ ջնջել նամակը">
 <!ENTITY redoDeleteMsgCmd.label "Վերարկել՝ ջնջել նամակը">
 <!ENTITY undoMoveMsgCmd.label "Յետ՝ տեղափոխել նամակը">
@@ -144,8 +124,6 @@
 <!ENTITY messagePaneVertical.accesskey "Ո">
 <!ENTITY showFolderPaneCmd.label "Թղթապանակի փեղկ">
 <!ENTITY showFolderPaneCmd.accesskey "Թ">
-<!ENTITY showFolderPaneColsCmd.label "Թղթապանակի վահանակի սիւներ">
-<!ENTITY showFolderPaneColsCmd.accesskey "վ">
 <!ENTITY showMessageCmd.label "Նամակի վահանակ">
 <!ENTITY showMessageCmd.accesskey "Ն">
 
@@ -594,10 +572,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Նոր նամակ">
 <!ENTITY appmenuNewContactCmd.label "Հասցէագրքի կապորդ…">
-<!ENTITY appmenuEditMenu.label "Խմբագրել">
 <!ENTITY appmenuToolbarLayout.label "Գործիքագաւտու դասաւորութիւնը…">
-<!ENTITY appmenuSelectThread.label "Ընտրել թեմայն">
-<!ENTITY appmenuSelectFlagged.label "Ընտրել աստղանշուած նամակները">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Նոր պիտակ…">
@@ -640,8 +615,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "Չ">
 <!ENTITY folderContextMarkNewsgroupRead.label "Նշել տեղեկատուախումբը որպէս ընթերցուած">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "լ">
-<!ENTITY folderContextMarkMailFolderRead.label "Նշել թղթապանակը, որպէս ընթերցուած">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "լ">
 <!ENTITY folderContextSubscribe.label "Բաժանորդագրուել…">
 <!ENTITY folderContextSubscribe.accesskey "ժ">
 <!ENTITY folderContextSearchForMessages.label "Նամակների որոնում…">
@@ -747,16 +720,6 @@
 <!ENTITY contextReplyAll.accesskey "Բ">
 <!ENTITY contextReplyList.label "Պատասխանել ցանկին">
 <!ENTITY contextReplyList.accesskey "Ց">
-<!ENTITY contextForward.label "Փոխանցել">
-<!ENTITY contextForward.accesskey "Փ">
-<!ENTITY contextForwardAsMenu.label "Փոխանցել որպէս">
-<!ENTITY contextForwardAsMenu.accesskey "ո">
-<!ENTITY contextForwardAsInline.label "Ներտող">
-<!ENTITY contextForwardAsInline.accesskey "Ն">
-<!ENTITY contextForwardAsAttachmentItem.label "Կցորդ">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "Կ">
-<!ENTITY contextMultiForwardAsAttachment.label "Փոխանցել որպէս կցորդ">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "ո">
 <!ENTITY contextMoveMsgMenu.label "Տեղափոխել՝">
 <!ENTITY contextMoveMsgMenu.accesskey "Տ">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Վերջին">
@@ -902,10 +865,6 @@
 <!ENTITY copyImageAllCmd.accesskey "Ն">
 <!ENTITY copyEmailCmd.label "Պատճենել ել. հասցէն">
 <!ENTITY copyEmailCmd.accesskey "Ե">
-<!ENTITY stopCmd.label "Կանգնեցնել">
-<!ENTITY stopCmd.accesskey "Կ">
-<!ENTITY reloadCmd.label "Կրկնել">
-<!ENTITY reloadCmd.accesskey "Կ">
 <!ENTITY openInBrowser.label "Բացել դիտարկիչում">
 <!ENTITY openInBrowser.accesskey "Բ">
 <!ENTITY openLinkInBrowser.label "Բացել յղումը դիտարկիչում">

@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Asistente de cuentas">
-<!ENTITY accountWizard.size "width: 42em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Ingrese el nombre de su servidor de noticias (NNTP) (por ejemplo &quot;news.ejemplo.net&quot;).">
 <!ENTITY newsServerLabel.label "Servidor de noticias:">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

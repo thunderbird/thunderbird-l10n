@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Meldingsoppsummering
-selected-messages-label =
-    .label = Valde meldingar
 multi-message-archive-button =
     .label = Arkiver
     .tooltiptext = Arkiver

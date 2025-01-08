@@ -324,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "Octobre" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "Novembre" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "Decembre" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Cata">
 <!ENTITY event.recurrence.yearly.first.label                 "Le prime">
 <!ENTITY event.recurrence.yearly.second.label                "Le secunde">
@@ -340,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "sabbato" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "die" >
 <!ENTITY event.recurrence.of.label                           "de" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Januario" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Februario" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Martio" >
@@ -358,7 +360,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Crear" >
 <!ENTITY event.recurrence.appointments.label            "Appunctamento(s)" >
 <!ENTITY event.repeat.until.label                       "Repeter usque" >
-<!ENTITY event.recurrence.preview.label                 "Vista preliminar">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Invitar participantes">

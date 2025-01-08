@@ -10,12 +10,6 @@ about-addressbook-toolbar-new-address-book =
     .label = Նոր Հասցեագիրք
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Հավելել CardDAV Հասցեագիրք
-about-addressbook-toolbar-new-contact =
-    .label = Նոր կոնտակտ
-about-addressbook-toolbar-new-list =
-    .label = Նոր ցանկ
-about-addressbook-toolbar-import =
-    .label = Ներմուծել
 
 ## Books
 
@@ -68,33 +62,6 @@ about-addressbook-sort-email-descending =
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Անուն
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = էլ­. փոստի հասցեներ
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-nickname = Ծածկանուն
-about-addressbook-column-label-nickname =
-    .label = { about-addressbook-column-header-nickname }
-about-addressbook-column-header-phonenumbers = Հեռախոսահամարներ
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Հասցեներ
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Անվանում
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Բաժին
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Կազմակերպություն
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Հասցեագիրք
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-cards-context-write =
     .label = Գրել
 

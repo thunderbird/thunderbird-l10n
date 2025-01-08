@@ -4,14 +4,14 @@
 
 account-settings-title = Nastavenia overenia
 account-channel-title = Predvolené kanály
-
 chat-autologin =
     .label = Pripojiť pri spustení
-
 chat-encryption-generic = Všeobecné
 chat-encryption-log =
     .label = Zahrnúť obojsmerne šifrované správy v protokoloch konverzácií
 chat-encryption-label = Natívne obojstranné šifrovanie
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } poskytuje obokstranné šifrovanie pre správy rozhovoru. To zabraňuje tretím stranám odpočúvať konverzáciu. Aby bolo šifrovanie funkčné, nižšie môže byť potrebné ďalšie nastavenie.
 chat-encryption-status = Stav šifrovania
 chat-encryption-placeholder = Šifrovanie nebolo inicializované.

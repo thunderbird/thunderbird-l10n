@@ -41,8 +41,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Heslo
     .accesskey = H
     .title = Potřeba pouze pro ověření vašeho uživatelského jména
-account-provisioner-button = Získat novou e-mailovou adresu
-    .accesskey = Z
 account-setup-password-toggle-show =
     .title = Zobrazit heslo viditelně
 account-setup-password-toggle-hide =
@@ -165,11 +163,6 @@ account-setup-find-settings-failed =
        *[no-cases] Aplikaci { -brand-short-name } se nepodařilo najít nastavení vašeho e-mailového účtu
     }
 account-setup-exchange-config-unverifiable = Konfiguraci nelze ověřit. Pokud jsou vaše uživatelské jméno a heslo správně, je pravděpodobné, že správce serveru zvolenou konfiguraci vašeho účtu zakázal. Zkuste vybrat jiný protokol.
-account-setup-provisioner-error =
-    { -brand-short-name.case-status ->
-        [with-cases] Při nastavování vašeho nového účtu došlo v { -brand-short-name(case: "loc") } k chybě. Zkuste prosím nastavit svůj účet ručně pomocí svých přihlašovacích údajů.
-       *[no-cases] Při nastavování vašeho nového účtu došlo v aplikaci { -brand-short-name } k chybě. Zkuste prosím nastavit svůj účet ručně pomocí svých přihlašovacích údajů.
-    }
 
 ## Manual configuration area
 

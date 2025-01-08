@@ -9,9 +9,7 @@
 <!ENTITY chooseFileButton.accessKey "f">
 <!ENTITY chooseFileLinkButton.label "Trieu un fitxer...">
 <!ENTITY chooseFileLinkButton.accessKey "r">
-<!ENTITY makeUrlRelative.label "L'URL és relatiu a la ubicació de la pàgina">
-<!ENTITY makeUrlRelative.accessKey "R">
-<!ENTITY makeUrlRelative.tooltip "Canvia entre URL relatiu i absolut. Per canviar-ho, cal que deseu primer la pàgina.">
+
 
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Introduïu la ubicació d'una pàgina web, un fitxer local, o seleccioneu una àncora amb nom o capçalera des del menú contextual del camp:">

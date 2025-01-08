@@ -5,14 +5,11 @@
 carddav-dialog =
     .buttonlabelaccept = Շարունակել
     .buttonaccesskeyaccept = C
-
 carddav-username-label =
     .value = Օգտվողի անուն.
     .accesskey = U
-
 carddav-loading = Փնտրվում է կազմաձևումը…
 carddav-connection-error = Կապակցումը ձախողվեց
 carddav-none-found = Չհաջողվեց գտնել հասցեների գրքեր նշված հաշվին ավելացնելու համար:
 carddav-already-added = Նշված հաշվի բոլոր հասցեների գրքերն արդեն ավելացվել են:
-
 carddav-available-books = Հասցեների մատչելի գրքերը.

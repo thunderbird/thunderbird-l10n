@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "s">
 <!ENTITY deleteCmd.label          "Stizzar">
 <!ENTITY deleteCmd.accesskey        "S">
-
 <!ENTITY customizeCmd.label "Persunalisar">
 <!ENTITY customizeCmd.accesskey "l">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Serrar">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "r">
-
-<!ENTITY quitApplicationCmd.label  "Terminar">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "e">
-
-<!ENTITY quitApplicationCmdUnix.label  "Terminar">
-<!ENTITY quitApplicationCmdUnix.accesskey  "e">
-
-<!ENTITY quitApplicationCmdMac.label  "Terminar &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "e">

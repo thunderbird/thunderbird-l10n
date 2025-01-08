@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Նամակի հանրագումարը
-selected-messages-label =
-    .label = Ընտրված նամակներ
 multi-message-archive-button =
     .label = Արխիվ
     .tooltiptext = Արխիվ

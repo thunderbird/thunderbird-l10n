@@ -26,7 +26,6 @@
 <!ENTITY contextOutgoing.accesskey "D">
 <!ENTITY contextArchive.label "Arkivohet">
 <!ENTITY contextArchive.accesskey "A">
-
 <!ENTITY contextPeriodic.accesskey "e">
 
 <!ENTITY filterActionDesc.label "Kryej këto veprime:">

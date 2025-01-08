@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Kajkosće tabele…">
 <!ENTITY tableProperties.accesskey "K">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Wobraz">
 <!ENTITY imageToolbarCmd.tooltip "Nowy wobraz zasadźić abo kajkosće wubraneho wobraza wobdźěłać">
 <!ENTITY hruleToolbarCmd.label "Horicontalna linija">

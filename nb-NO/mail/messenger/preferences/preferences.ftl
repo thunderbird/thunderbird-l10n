@@ -397,8 +397,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Lukk meldingsvindu/fane ved flytting eller sletting
     .accesskey = L
-display-name-label =
-    .value = Visningsnavn:
 condensed-addresses-label =
     .label = Vis bare visningsnavnet for personer i adresseboken
     .accesskey = V
@@ -560,18 +558,12 @@ primary-password-button =
 forms-primary-pw-fips-title = Du er for tiden i FIPS-modus. FIPS krever at du bruker et hovedpassord.
 forms-master-pw-fips-desc = Passordendring mislyktes
 junk-description = Angi standard oppførsel for uønsket e-post. Konto-spesifikke innstillinger for uønsket e-post kan angis i Kontoinnstillinger.
-junk-label =
-    .label = Når jeg markerer meldinger som uønskede:
-    .accesskey = N
 junk-move-label =
     .label = Flytt dem til kontoens «Uønsket»-mappe
     .accesskey = F
 junk-delete-label =
     .label = Slett dem
     .accesskey = S
-junk-read-label =
-    .label = Marker uønskede meldinger som lest
-    .accesskey = M
 junk-log-label =
     .label = Slå på logging for adaptiv filter for uønsket e-post
     .accesskey = l
@@ -731,3 +723,6 @@ show-synced-item-identity = Identiteter
 show-synced-item-passwords = Passord
 show-synced-change = Endre …
 synced-acount-item-filters = Filtre
+
+## Mobile QR Export Pane
+

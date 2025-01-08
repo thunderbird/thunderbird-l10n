@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xul -->
-
 <!-- extracted from am-addressing.xhtml -->
 
 <!ENTITY addressing.label          "ਲਿਖਣ ਅਤੇ ਐਡਰੈੱਸ">
@@ -19,16 +17,15 @@
 <!ENTITY directories.accesskey     "d">
 <!ENTITY directoriesNone.label     "ਕੋਈ ਨਹੀਂ">
 
-<!-- am-addressing.xul -->
-
 <!-- am-addressing.xhtml -->
 
-<!ENTITY compositionGroupTitle.label "ਲਿਖਣ">
+<!ENTITY compositionGroupTitle.label          "ਲਿਖਣ">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label                        "ਸੁਨੇਹਾ HTML ਫਾਰਮੈਟ ਵਿੱਚ ਲਿਖੋ">
 <!ENTITY useHtml.accesskey                    "C">
 <!ENTITY autoQuote.label                      "ਜਵਾਬ ਦੇਣ ਸਮੇਂ ਅਸਲੀ ਸੁਨੇਹੇ ਨੂੰ ਖੁਦ ਹੀ ਹਵਾਲੇ ਵਜੋਂ ਇਸਤੇਮਾਲ ਕਰੋ">
 <!ENTITY autoQuote.accesskey                  "q">
+<!-- LOCALIZATION NOTE (quoting.label): This will concatenate with the 4 strings that follow. -->
 <!ENTITY aboveQuote.label                     "ਮੇਰਾ ਜਵਾਬ ਹਵਾਲੇ ਦੇ ਉੱਤੇ ਸ਼ੁਰੂ ਕਰੋ">
 <!ENTITY belowQuote.label                     "ਮੇਰਾ ਜਵਾਬ ਹਵਾਲੇ ਦੇ ਹੇਠਾਂ ਸ਼ੁਰੂ ਕਰੋ">
 <!ENTITY selectAndQuote.label                 "ਹਵਾਲਾ ਚੁਣੋ">

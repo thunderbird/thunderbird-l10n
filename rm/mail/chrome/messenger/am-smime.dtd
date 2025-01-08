@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Stizzar">
 <!ENTITY encryption.certificate_clear.accesskey "r">
 <!ENTITY signingGroupTitle.label "Suttascripziun digitala">
-
 <!ENTITY signingCert2.message "Certificat persunal per la suttascripziun digitala:">
 
 <!ENTITY sendingDefaults.label "Configuraziun da standard per trametter messadis">

@@ -64,8 +64,8 @@
 <!ENTITY cellAlignJustify.label           "Justifikatu">
 <!ENTITY cellInheritColor.label           "(Utzi taularen kolorea zeharkatzea)">
 <!ENTITY cellUseCheckboxHelp.label        "Hautatutako gelaxken propietateak zehazteko kontrol-laukiak erabili">
-<!-- Used in both Table and Cell panels  -->
 
+<!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "Tamaina">
 <!ENTITY pixels.label                     "pixel">
 <!ENTITY backgroundColor.label            "Atzeko planoko kolorea:">

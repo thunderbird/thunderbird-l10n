@@ -3,14 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 finger-intro = OTR ստեղնաշարի մատնահետքեր նախորդ վերջավոր գաղտնագրված զրույցներից:
-
 finger-verified =
     .label = Ստուգման վիճակը
 finger-fingerprint =
     .label = Մատնահետք
-
 finger-remove =
     .label = Հեռացնել ընտրվածը
-
 finger-remove-all =
     .label = Հեռացնել բոլորը

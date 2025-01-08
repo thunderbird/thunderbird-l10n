@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Etsi
-search-bar-item =
-    .label = Etsi:
 search-bar-item2 =
     .label = Etsi
 search-bar-placeholder = Etsi…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Vain teksti
 customize-cancel = Peruuta
 customize-save = Tallenna
 customize-unsaved-changes = Tallentamattomia muutoksia muissa näkymissä
-customize-search-bar =
-    .label = Etsi työkalupalkin painikkeita…
 customize-search-bar2 =
     .label = Etsi työkalupalkin painikkeita
     .placeholder = Etsi työkalupalkin painikkeita…

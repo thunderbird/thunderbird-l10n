@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Tschertgar
-search-bar-item =
-    .label = Tschertgar:
 search-bar-item2 =
     .label = Tschertgar
 search-bar-placeholder = Tschertgar…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Mo text
 customize-cancel = Interrumper
 customize-save = Memorisar
 customize-unsaved-changes = Modificaziuns betg memorisadas en auters spazis
-customize-search-bar =
-    .label = Tschertgar en ils buttuns da la trav d'utensils…
 customize-search-bar2 =
     .label = Tschertgar en ils buttuns da la trav d’utensils
     .placeholder = Tschertgar en ils buttuns da la trav d’utensils…

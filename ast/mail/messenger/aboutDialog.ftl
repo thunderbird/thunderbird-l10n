@@ -19,22 +19,6 @@ update-unsupported = Nun pues facer más anovamientos nesti sistema.<a data-l10n
 channel-description = Anguaño tas na canal d'anovamientos <span data-l10n-name="current-channel">{ $channel }</span> .
 warning-desc-version = { -brand-short-name } ye esperimental y quiciabes seya inestable.
 warning-desc-telemetry = Unvia automáticamente información tocante al rindimientu, hardware, usu y personalizaciones a { -vendor-short-name } p'ameyorar { -brand-short-name }.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     ye una <a data-l10n-name="community-exp-credits-link">
-    comunidá global</a>
-     que trabaya xunida pa caltener la Web abierta, pública y accesible pa toos.
-community-2 =
-    { -brand-short-name } ta diseñáu por <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , una <a data-l10n-name="community-credits-link">
-    comunidá global</a>
-     que trabaya xunida pa caltener la Web abierta, pública y accesible pa toos.
-about-helpus =
-    ¿Quies ayudar? <a data-l10n-name="helpus-donate-link">
-    ¡Fai una donación</a> or <a data-l10n-name="helpus-get-involved-link">
-    involúcrate!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> ye una <a data-l10n-name="community-exp-credits-link">comunidá global</a> que trabaya xunida pa caltener la Web abierta, pública y accesible pa toos.
 community-desc = { -brand-short-name } ta diseñáu por <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, una <a data-l10n-name="community-credits-link">comunidá global</a> que trabaya xunida pa caltener la Web abierta, pública y accesible pa toos.
 about-donation = ¿Quies ayudar? <a data-l10n-name="helpus-donate-link">¡Fai una donación</a> or <a data-l10n-name="helpus-get-involved-link">involúcrate!</a>

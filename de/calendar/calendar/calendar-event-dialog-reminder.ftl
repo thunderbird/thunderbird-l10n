@@ -3,10 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-event-reminder-icon-display =
-  .alt = Erinnerung anzeigen
-
+    .alt = Erinnerung anzeigen
 calendar-event-reminder-icon-email =
-  .alt = E-Mail senden
-
+    .alt = E-Mail senden
 calendar-event-reminder-icon-audio =
-  .alt = Klang zur Erinnerung wiedergeben
+    .alt = Klang zur Erinnerung wiedergeben

@@ -23,9 +23,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Faigh cobhair
     .accesskey = h
-menu-help-explore-features =
-    .label = Fidir na gleusan
-    .accesskey = F
 menu-help-shortcuts =
     .label = Ath-ghoiridean a’ mheur-chlàir
     .accesskey = m
@@ -43,9 +40,6 @@ menu-help-enter-troubleshoot-mode =
     .accesskey = m
 menu-help-exit-troubleshoot-mode =
     .label = Cuir am modh fuasgladh dhuilgheadasan dheth
-    .accesskey = m
-menu-help-more-troubleshooting-info =
-    .label = Barrachd fiosrachaidh mu fhuasgladh dhuilgheadasan
     .accesskey = m
 menu-help-troubleshooting-info =
     .label = Fiosrachadh mu fhuasgladh dhuilgheadasan
@@ -68,6 +62,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Fàg { -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -121,12 +118,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Dùmhail
     .accesskey = m
-mail-uidensity-normal =
-    .label = Àbhaisteach
-    .accesskey = b
-mail-uidensity-touch =
-    .label = Suathadh
-    .accesskey = S
 mail-uidensity-default =
     .label = Bun-roghainn
     .accesskey = u

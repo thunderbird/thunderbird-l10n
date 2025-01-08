@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Krennadur ar gemennadenn
-selected-messages-label =
-    .label = Kemennadennoù diuzet
 multi-message-archive-button =
     .label = Diellaouiñ
     .tooltiptext = Diellaouiñ

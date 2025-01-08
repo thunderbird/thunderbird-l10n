@@ -8,4 +8,3 @@
 <!ENTITY converterDialog.finishButton "Končaj">
 <!ENTITY converterDialog.complete "Pretvorba je dokončana. &brandShortName; se bo sedaj znova zagnal.">
 <!ENTITY converterDialog.error "Pretvorba ni uspela.">
-

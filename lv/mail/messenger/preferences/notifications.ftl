@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Pielāgot jauna pasta ziņojumu
 notifications-dialog-title = Pielāgot jauna pasta ziņojumu
 customize-alert-description = Izvēlieties paziņojumā rādāmos laukus:
 preview-text-checkbox =

@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Thuộc tính bảng…">
 <!ENTITY tableProperties.accesskey "o">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Hình">
 <!ENTITY imageToolbarCmd.tooltip "Chèn hình mới hoặc chỉnh sửa thuộc tính của hình">
 <!ENTITY hruleToolbarCmd.label "Đ.Ngang">

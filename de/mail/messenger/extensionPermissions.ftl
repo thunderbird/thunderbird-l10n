@@ -27,7 +27,6 @@ webext-perms-description-messagesModify = Lesen von E-Mail-Nachrichten sowie Ver
 webext-perms-description-messagesModifyPermanent = Die Quelle Ihrer Nachrichten dauerhaft verändern (einschließlich Kopfzeilen, Nachrichtentext und Anhänge)
 webext-perms-description-messagesMove = Kopieren und Verschieben von E-Mail-Nachrichten (einschließlich in den Papierkorb)
 webext-perms-description-messagesDelete = E-Mail-Nachrichten dauerhaft löschen
-webext-perms-description-messagesRead = Lesen von E-Mail-Nachrichten und diese markieren oder mit Schlagwörtern versehen
 webext-perms-description-messagesRead2 = Ihre E-Mails lesen
 webext-perms-description-messagesUpdate = Eigenschaften und Schlagwörter Ihrer E-Mail-Nachrichten ändern
 webext-perms-description-messagesTags = Erstellen, Bearbeiten und Löschen von Schlagwörtern für Nachrichten

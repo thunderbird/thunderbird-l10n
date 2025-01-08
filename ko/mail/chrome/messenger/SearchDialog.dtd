@@ -2,10 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- for SearchDialog.xul -->
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "검색:">
 <!ENTITY searchHeading.accesskey     "h">
-<!ENTITY searchSubfolders.label 		 "하위 폴더 검색">
+<!ENTITY searchSubfolders.label      "하위 폴더 검색">
 <!ENTITY searchSubfolders.accesskey  "e">
 <!ENTITY searchOnServer.label        "서버에서 검색 실행">
 <!ENTITY searchOnServer.accesskey    "u">
@@ -25,7 +25,7 @@
 <!ENTITY saveAsVFButton.label        "검색 폴더를 새 이름으로 저장">
 <!ENTITY saveAsVFButton.accesskey    "v">
 
-<!-- for ABSearchDialog.xul -->
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "검색:">
 <!ENTITY abSearchHeading.accesskey   "h">
 <!ENTITY propertiesButton.label      "속성">
@@ -35,4 +35,3 @@
 <!ENTITY deleteCardButton.label      "삭제">
 <!ENTITY deleteCardButton.accesskey  "D">
 <!ENTITY abSearchDialogTitle.label   "주소록 검색">
-

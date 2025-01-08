@@ -4,7 +4,6 @@
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
 
-
 <!ENTITY fileMenu.label          "Fayl">
 <!ENTITY fileMenu.accesskey        "F">
 <!ENTITY newMenu.label            "Yangi">
@@ -29,13 +28,3 @@
 <!ENTITY closeCmd.label      "Yopish">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "Y">
-
-<!ENTITY quitApplicationCmd.label  "Chiqish">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "q">
-
-<!ENTITY quitApplicationCmdUnix.label  "Chiqish">
-<!ENTITY quitApplicationCmdUnix.accesskey  "q">
-
-<!ENTITY quitApplicationCmdMac.label  "&brandShortName;dan chiqish">
-<!ENTITY quitApplicationCmdMac.accesskey  "c">

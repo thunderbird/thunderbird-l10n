@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-
 <!ENTITY title.label "Diogelwch Neges">
 <!ENTITY subject.plaintextWarning "Sylw: Nid yw llinellau pwnc neges e-bost byth yn cael eu hamgryptio.">
 <!ENTITY status.heading "Bydd cynnwys eich neges yn cael ei hanfon fel a ganlyn:">

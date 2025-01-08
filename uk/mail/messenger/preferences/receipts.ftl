@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-receipts-dialog-window =
-    .title = Сповіщення про отримання
 receipts-dialog-title = Звіти про прочитання
 return-receipt-checkbox-control =
     .label = Завжди вимагати звіт про прочитання під час надсилання повідомлень

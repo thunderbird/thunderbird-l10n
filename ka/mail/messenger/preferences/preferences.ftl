@@ -380,8 +380,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = წერილის ფანჯრის/ჩანართის დახურვა ან გადატანა, ან წაშლა
     .accesskey = ხ
-display-name-label =
-    .value = გამოსაჩენი სახელი:
 condensed-addresses-label =
     .label = წიგნაკში, მხოლოდ გამოსაჩენი სახელების ჩვენება
     .accesskey = წ
@@ -549,18 +547,12 @@ primary-password-button =
 forms-primary-pw-fips-title = თქვენ FIPS-რეჟიმში იმყოფებით. FIPS-ს ესაჭიროება მთავარი პაროლი.
 forms-master-pw-fips-desc = პაროლის შეცვლა ვერ მოხერხდა
 junk-description = მიუთითეთ ჯართის პარამეტრები. ჯართის ანგარიშზე დამოკიდებული პარამეტრების მითითება შესაძლებელია ანგარიშის პარამეტრების სექციაში.
-junk-label =
-    .label = გზავნილების ჯართად მონიშვნისას:
-    .accesskey = ჯ
 junk-move-label =
     .label = მათი გადატანა ანგარიშის "ჯართის" საქაღალდეში
     .accesskey = გ
 junk-delete-label =
     .label = მათი წაშლა
     .accesskey = წ
-junk-read-label =
-    .label = ჯართად მიჩნეული წერილების წაკითხულად მონიშვნა
-    .accesskey = კ
 junk-log-label =
     .label = ჯართის მოქნილი ფილტრის აღრიცხვის ჩართვა
     .accesskey = ღ
@@ -703,4 +695,7 @@ search-results-empty-message2 =
 search-results-help-link = გესაჭიროებათ დახმარება? ეწვიეთ <a data-l10n-name="url">{ -brand-short-name } მხარდაჭერის გვერდს</a>
 
 ## Sync Tab
+
+
+## Mobile QR Export Pane
 

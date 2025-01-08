@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Κατάργηση του επιλεγμένου ημερολογίου…">
 <!ENTITY calendar.removecalendar.accesskey      "Α">
 
-
-<!ENTITY calendar.menu.customize.label          "Προσαρμογή…">
-<!ENTITY calendar.menu.customize.accesskey      "Π">
-
 <!ENTITY showUnifinderCmd.label                 "Εύρεση εκδηλώσεων">
 <!ENTITY showUnifinderCmd.accesskey             "Ε">
 <!ENTITY showUnifinderCmd.tooltip               "Εναλλαγή παραθύρου εύρεσης εκδηλώσεων">

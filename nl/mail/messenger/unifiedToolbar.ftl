@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Zoeken
-search-bar-item =
-    .label = Zoeken:
 search-bar-item2 =
     .label = Zoeken
 search-bar-placeholder = Zoeken…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Alleen tekst
 customize-cancel = Annuleren
 customize-save = Opslaan
 customize-unsaved-changes = Niet-opgeslagen wijzigingen in andere functies
-customize-search-bar =
-    .label = Zoekbalkknoppen…
 customize-search-bar2 =
     .label = Zoekbalkknoppen
     .placeholder = Zoekbalkknoppen…

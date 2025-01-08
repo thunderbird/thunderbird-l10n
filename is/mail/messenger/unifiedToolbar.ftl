@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Leita
-search-bar-item =
-    .label = Leita:
 search-bar-item2 =
     .label = Leita
 search-bar-placeholder = Leita…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Einungis texti
 customize-cancel = Hætta við
 customize-save = Vista
 customize-unsaved-changes = Óvistaðar breytingar á öðrum svæðum
-customize-search-bar =
-    .label = Hnappar á leitarstiku...
 customize-search-bar2 =
     .label = Hnappar á leitarstiku
     .placeholder = Hnappar á leitarstiku…

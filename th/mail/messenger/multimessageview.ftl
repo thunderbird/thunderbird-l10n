@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = บทสรุปข้อความ
-selected-messages-label =
-    .label = ข้อความที่เลือก
 multi-message-archive-button =
     .label = เก็บถาวร
     .tooltiptext = เก็บถาวร

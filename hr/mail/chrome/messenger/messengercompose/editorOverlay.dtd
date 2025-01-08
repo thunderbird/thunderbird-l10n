@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Postavke tablice…">
 <!ENTITY tableProperties.accesskey "o">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Slika">
 <!ENTITY imageToolbarCmd.tooltip "Umetni novu sliku ili uredi postavke odabrane slike">
 <!ENTITY hruleToolbarCmd.label "Vod.Linija">

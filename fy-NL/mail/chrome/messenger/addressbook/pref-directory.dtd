@@ -9,7 +9,6 @@
 <!-- LOCALIZATION NOTE (directoriesText.label) : do not translate "LDAP" in below line -->
 <!ENTITY directoriesText.label     "Selektearje in LDAP-mapserver:">
 <!ENTITY directoriesText.accesskey "S">
-<!-- LOCALIZATION NOTE (autocomplete.title) : do not translate "LDAP" in below line -->
 <!ENTITY addDirectory.label        "Tafoegje">
 <!ENTITY addDirectory.accesskey    "T">
 <!ENTITY editDirectory.label       "Bewurkje">

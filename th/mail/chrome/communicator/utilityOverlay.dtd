@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "ท">
 <!ENTITY deleteCmd.label          "ลบ">
 <!ENTITY deleteCmd.accesskey        "บ">
-
 <!ENTITY customizeCmd.label "ปรับแต่ง">
 <!ENTITY customizeCmd.accesskey "ป">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "ปิด">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "ป">
-
-<!ENTITY quitApplicationCmd.label  "ออก">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "อ">
-
-<!ENTITY quitApplicationCmdUnix.label  "ออก">
-<!ENTITY quitApplicationCmdUnix.accesskey  "อ">
-
-<!ENTITY quitApplicationCmdMac.label  "ออกจาก &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "อ">

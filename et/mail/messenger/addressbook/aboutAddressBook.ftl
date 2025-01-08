@@ -12,12 +12,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Lisa CardDAVi aadressiraamat
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Lisa LDAPi aadressiraamat
-about-addressbook-toolbar-new-contact =
-    .label = Uus kontakt
-about-addressbook-toolbar-new-list =
-    .label = Uus list
-about-addressbook-toolbar-import =
-    .label = Impordi
 
 ## Books
 
@@ -49,12 +43,6 @@ about-addressbook-confirm-remove-remote-book = Kas oled kindel, et soovid eemald
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Otsi aadressiraamatust { $name }
-about-addressbook-search-all =
-    .placeholder = Otsi kõigist aadressiraamatutest
 about-addressbook-sort-button2 =
     .title = Nimekirja kuvamise valikud
 about-addressbook-name-format-display =
@@ -71,38 +59,10 @@ about-addressbook-sort-email-ascending =
     .label = Sordi e-posti aadressi järgi (A > Y)
 about-addressbook-sort-email-descending =
     .label = Sordi e-posti aadressi järgi (Y > A)
-about-addressbook-horizontal-layout =
-    .label = Lülitu horisontaalsele paigutusele
-about-addressbook-vertical-layout =
-    .label = Lülitu vertikaalsele paigutusele
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Nimi
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = E-posti aadressid
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Telefoninumbrid
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Aadressid
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = Pealkiri
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Osakond
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Organisatsioon
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Aadressiraamat
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Nimi
     .title = Sordi nime alusel
 about-addressbook-column-label-generatedname2 =
@@ -164,28 +124,11 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Eemalda kontaktid
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] Kas oled kindel, et soovid eemaldada kontakti { $name } listist { $list }?
-       *[other] Kas oled kindel, et soovid need { $count } kontakti listist { $list } eemaldada?
-    }
-# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Kustuta kontakt
        *[other] Kustuta kontaktid
-    }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] Kas oled kindel, et soovid kustutada kontakti { $name }?
-       *[other] Kas oled kindel, et soovid kustutada need { $count } kontakti?
     }
 
 ## Card list placeholder
@@ -199,7 +142,6 @@ about-addressbook-placeholder-no-search-results = Kontakte ei leitud
 
 ## Details
 
-about-addressbook-prefer-display-name = Kuvatavat nime eelistatakse kirja päistes olevale
 about-addressbook-write-action-button = Kirjuta
 about-addressbook-event-action-button = Sündmus
 about-addressbook-search-action-button = Otsi

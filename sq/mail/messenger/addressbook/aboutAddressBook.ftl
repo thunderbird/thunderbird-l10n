@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Shtoni Libër Adresash CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Shtoni Libër Adresash LDAP
-about-addressbook-toolbar-new-contact =
-    .label = Kontakt i Ri
-about-addressbook-toolbar-new-list =
-    .label = Listë e Re
-about-addressbook-toolbar-import =
-    .label = Importo
 books-pane-create-contact-button = Kontakt i Ri
     .title = Krijoni një kontakt të ri
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Jeni i sigurt se doni të hiqet {
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Kërko për { $name }
-about-addressbook-search-all =
-    .placeholder = Kërko në krejt librat e adresave
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -280,7 +268,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Përpunoni foto kontakti
 about-addressbook-new-contact-header = Kontakt i Ri
-about-addressbook-prefer-display-name = Parapëlqe emër në ekran në vend se krye mesazhi
 about-addressbook-write-action-button = Shkruani
 about-addressbook-event-action-button = Veprimtari
 about-addressbook-search-action-button = Kërko

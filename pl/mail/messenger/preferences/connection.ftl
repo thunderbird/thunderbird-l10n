@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = W
     .tooltiptext = Podaj adres wybranego serwera DNS udostępnionego poprzez HTTPS
 connection-dns-over-https-custom-label = Własny adres:
-connection-dialog-window2 =
-    .title = Ustawienia połączenia
 connection-dialog-title = Ustawienia połączenia
 disable-extension-button = Wyłącz rozszerzenie
 # Variables:

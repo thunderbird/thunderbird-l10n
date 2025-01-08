@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "R">
 <!ENTITY deleteCmd.label          "Supprimer">
 <!ENTITY deleteCmd.accesskey        "E">
-
 <!ENTITY customizeCmd.label "Personnaliser">
 <!ENTITY customizeCmd.accesskey "P">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Fermer">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "F">
-
-<!ENTITY quitApplicationCmd.label  "Quitter">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "Q">
-
-<!ENTITY quitApplicationCmdUnix.label  "Quitter">
-<!ENTITY quitApplicationCmdUnix.accesskey  "Q">
-
-<!ENTITY quitApplicationCmdMac.label  "Quitter &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "Q">

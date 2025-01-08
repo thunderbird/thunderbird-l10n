@@ -5,11 +5,9 @@
 carddav-url-label =
     .value = CardDAV vefslóð:
     .accesskey = V
-
 carddav-refreshinterval-label =
     .label = Samstilla
     .accesskey = S
-
 # Variables:
 #   $minutes (integer) - Number of minutes between address book synchronizations
 carddav-refreshinterval-minutes-value =
@@ -18,7 +16,6 @@ carddav-refreshinterval-minutes-value =
             [one] á mínútu fresti
            *[other] á { $minutes } mínútna fresti
         }
-
 # Variables:
 #   $hours (integer) - Number of hours between address book synchronizations
 carddav-refreshinterval-hours-value =
@@ -27,7 +24,6 @@ carddav-refreshinterval-hours-value =
             [one] á klukkustundar fresti
            *[other] á { $hours } klukkustunda fresti
         }
-
 carddav-readonly-label =
     .label = Skrifvarið
     .accesskey = r

@@ -59,6 +59,8 @@ openpgp-key-assistant-this-key-accepted-expired = Khóa này trước đây đã
 openpgp-key-assistant-key-unaccepted-expired-one = Khóa hết hạn vào { $date }.
 openpgp-key-assistant-key-unaccepted-expired-many = Nhiều khóa đã hết hạn.
 openpgp-key-assistant-key-fingerprint = Vân tay
+# Variables:
+# $count (Number) - Number of key sources.
 openpgp-key-assistant-key-source =
     { $count ->
        *[other] Nguồn
@@ -68,6 +70,8 @@ openpgp-key-assistant-key-collected-attachment = tập tin đính kèm email
 openpgp-key-assistant-key-collected-autocrypt = Tiêu đề tự động mã hóa
 # Web Key Directory (WKD) is a concept.
 openpgp-key-assistant-key-collected-wkd = Thư mục khoá Web
+# Variables:
+# $count (Number) - Number of found keys.
 openpgp-key-assistant-keys-has-collected =
     { $count ->
        *[other] Nhiều khóa đã được tìm thấy, nhưng chưa có khóa nào được chấp nhận.

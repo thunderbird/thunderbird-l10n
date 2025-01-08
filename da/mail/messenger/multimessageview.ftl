@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Meddelelsesoversigt
-selected-messages-label =
-    .label = Udvalgte meddelelser
 multi-message-archive-button =
     .label = Arkiver
     .tooltiptext = Arkiver

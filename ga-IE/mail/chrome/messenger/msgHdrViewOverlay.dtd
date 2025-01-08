@@ -67,12 +67,12 @@
 <!ENTITY viewSourceMenuItem1.accesskey "A">
 <!ENTITY otherActionsPrint1.label "Priontáil…">
 <!ENTITY otherActionsPrint1.accesskey "P">
-<!-- Attachment bar context menu items -->
 
+<!-- Attachment bar context menu items -->
 <!ENTITY startExpandedCmd.label    "Taispeáin an pána iatáin i dtosach báire">
 <!ENTITY startExpandedCmd.accesskey    "T">
-<!-- Attachment context menu items -->
 
+<!-- Attachment context menu items -->
 <!ENTITY openAttachmentCmd.label    "Oscail">
 <!ENTITY openAttachmentCmd.accesskey    "O">
 <!ENTITY saveAsAttachmentCmd.label    "Sábháil Mar…">
@@ -91,8 +91,9 @@
 <!ENTITY deleteAllAttachmentsCmd.accesskey    "c">
 
 <!ENTITY openAttachment.tooltip "Oscail an comhad ceangailte">
-<!-- Attachment toolbar items -->
 
+
+<!-- Attachment toolbar items -->
 <!ENTITY saveAttachmentButton1.label       "Sábháil">
 <!ENTITY saveAttachmentButton1.tooltip     "Sábháil an comhad ceangailte">
 <!ENTITY saveAllAttachmentsButton1.label   "Sábháil Uile">

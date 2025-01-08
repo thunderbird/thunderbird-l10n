@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = e
     .tooltiptext = Adresse für das Auflösen von DNS über HTTPS eingeben
 connection-dns-over-https-custom-label = Benutzerdefiniert
-connection-dialog-window2 =
-    .title = Verbindungseinstellungen
 connection-dialog-title = Verbindungseinstellungen
 disable-extension-button = Erweiterung deaktivieren
 # Variables:

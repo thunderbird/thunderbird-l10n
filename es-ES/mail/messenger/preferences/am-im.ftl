@@ -4,14 +4,14 @@
 
 account-settings-title = Configuración de autenticación
 account-channel-title = Canales predeterminados
-
 chat-autologin =
     .label = Iniciar sesión al inicio
-
 chat-encryption-generic = Genérico
 chat-encryption-log =
     .label = Incluir mensajes cifrados de extremo a extremo en los registros de conversaciones
 chat-encryption-label = Cifrado de extremo a extremo nativo
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } proporciona cifrado de extremo a extremo para mensajes de chat. Esto evita que terceros espíen la conversación. Es posible que se necesite una configuración adicional a continuación para que el cifrado sea operativo.
 chat-encryption-status = Estado del cifrado
 chat-encryption-placeholder = Cifrado no inicializado.

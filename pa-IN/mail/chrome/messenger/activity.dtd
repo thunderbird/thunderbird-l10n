@@ -16,4 +16,3 @@ file names and tall enough to hint that there are more activities in the list --
 <!ENTITY cmd.clearList.label              "ਲਿਸਟ ਸਾਫ਼ ਕਰੋ">
 <!ENTITY cmd.clearList.tooltip            "ਲਿਸਟ ਵਿੱਚੋਂ ਪੂਰੀਆਂ ਹੋਈਆਂ, ਰੱਦ ਕੀਤੀਆਂ ਜਾਂ ਫੇਲ੍ਹ ਹੋਈਆਂ ਆਈਟਮਾਂ ਹਟਾਓ">
 <!ENTITY cmd.clearList.accesskey          "C">
-

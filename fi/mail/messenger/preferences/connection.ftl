@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = M
     .tooltiptext = Kirjoita ensisijainen osoite nimipalvelukyselyjen tekemiseksi HTTPS:n yli
 connection-dns-over-https-custom-label = Mukautettu
-connection-dialog-window2 =
-    .title = Yhteysasetukset
 connection-dialog-title = Yhteysasetukset
 disable-extension-button = Poista laajennus käytöstä
 # Variables:

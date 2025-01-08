@@ -3,16 +3,16 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label  "Käyttäjäkohtainen sanakirja">
+<!ENTITY windowTitle.label "Käyttäjäkohtainen sanakirja">
 
-<!ENTITY wordEditField.label  "Uusi sana:">
-<!ENTITY wordEditField.accessKey  "U">
-<!ENTITY AddButton.label  "Lisää">
-<!ENTITY AddButton.accessKey  "L">
-<!ENTITY DictionaryList.label  "Sanoja sanastossa:">
-<!ENTITY DictionaryList.accessKey  "s">
-<!ENTITY RemoveButton.label  "Poista">
-<!ENTITY RemoveButton.accessKey  "P">
+<!ENTITY wordEditField.label "Uusi sana:">
+<!ENTITY wordEditField.accessKey "U">
+<!ENTITY AddButton.label "Lisää">
+<!ENTITY AddButton.accessKey "L">
+<!ENTITY DictionaryList.label "Sanoja sanastossa:">
+<!ENTITY DictionaryList.accessKey "s">
+<!ENTITY RemoveButton.label "Poista">
+<!ENTITY RemoveButton.accessKey "P">
 
-<!ENTITY CloseButton.label  "Sulje">
-<!ENTITY CloseButton.accessKey  "S">
+<!ENTITY CloseButton.label "Sulje">
+<!ENTITY CloseButton.accessKey "S">

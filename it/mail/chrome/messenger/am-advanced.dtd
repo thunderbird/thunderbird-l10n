@@ -4,12 +4,14 @@
 
 <!-- extracted from am-advanced.xhtml -->
 
+<!-- LOCALIZATION NOTE (smtpServer.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpServer.label "Impostazioni server (SMTP) in uscita">
 
+<!-- LOCALIZATION NOTE (smtpDescription.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpDescription.label "Nella gestione delle proprie identità è possibile utilizzare un server della lista seguente selezionandolo come Server in uscita (SMTP) o lasciare il predefinito selezionando &quot;Server predefinito&quot;.">
 
-<!ENTITY smtpListAdd.label "Aggiungi…">
-<!ENTITY smtpListAdd.accesskey "g">
+<!ENTITY smtpListAdd.label  "Aggiungi…">
+<!ENTITY smtpListAdd.accesskey  "g">
 <!ENTITY smtpListEdit.label "Modifica…">
 <!ENTITY smtpListEdit.accesskey "M">
 <!ENTITY smtpListDelete.label "Elimina">
@@ -21,6 +23,6 @@
 <!ENTITY serverDescription.label "Descrizione: ">
 <!ENTITY serverName.label "Nome server: ">
 <!ENTITY serverPort.label "Porta: ">
-<!ENTITY userName.label "Nome utente: ">
+<!ENTITY userName.label   "Nome utente: ">
 <!ENTITY connectionSecurity.label "Sicurezza della connessione: ">
-<!ENTITY authMethod.label "Metodo di autenticazione: ">
+<!ENTITY authMethod.label   "Metodo di autenticazione: ">

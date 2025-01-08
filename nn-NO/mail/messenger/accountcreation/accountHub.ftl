@@ -39,7 +39,6 @@ account-hub-sync-button = Logg inn for å synkronisere…
 
 ## Email page
 
-account-hub-email-title = Set opp ein e-postkonto
 account-hub-add-email-title = Legg til kontoen din
 account-hub-manually-configure-email-title = Set opp ein kontokonfigurasjon
 account-hub-email-cancel-button = Avbryt

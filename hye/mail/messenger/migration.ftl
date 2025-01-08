@@ -10,6 +10,3 @@ migration-progress-header = Պատրաստուում է { -brand-short-name } �
 # These strings are displayed to the user if a migration is taking a long time.
 # They should be short (no more than a handful of words) and in the present tense.
 
-migration-task-test-fast = Արագ փոփոխութեան փորձարկում
-migration-task-test-slow = Դանդաղ փոփոխութեան փորձարկում
-migration-task-test-progress = Առաջընթացի սանդղակի փորձարկում

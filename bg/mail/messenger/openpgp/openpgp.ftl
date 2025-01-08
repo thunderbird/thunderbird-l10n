@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Изтича на
 openpgp-key-id-label =
     .label = Идентификатор на ключ
-openpgp-cannot-change-expiry = Това е ключ със сложна структура, не се поддържа промяна на датата му на валидност.
-openpgp-key-man-title =
-    .title = Управление на OpenPGP ключове
 openpgp-key-man-dialog-title = Управление на OpenPGP ключове
 openpgp-key-man-generate =
     .label = Нова двойка ключове
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Удостоверение за анулиране
     .accesskey = У
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Генериране и запазване на сертификат за анулиране
 openpgp-key-man-gen-revocation =
     .label = Запазване на сертификата за анулиране във файл
     .accesskey = а
@@ -489,8 +484,6 @@ filter-encrypt-label = Шифроване към ключ (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Успех! Ключовете са внесени
 import-info-dialog-title = Успех! Ключовете са внесени
 import-info-bits = Бита
 import-info-created = Дата на създаване
@@ -780,15 +773,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Задали сте пренасяне на ред на { $width } знака. За правилно шифроване и/или подписване тази стойност трябва да бъде поне 68.
     Искате ли да промените пренасянето на редове на 68 знака?
-sending-news =
-    Операцията за шифровано изпращане е прекратена.
-    Това съобщение не може да бъде шифровано, защото има получатели от дискусионна група. Моля, изпратете отново съобщението без шифроване.
-send-to-news-warning =
-    Предупреждение: Вие сте на път да изпратите шифрован имейл до дискусионна група.
-    Това не се препоръчва, защото има смисъл само ако всички членове на групата могат да дешифрират съобщението, т.е. съобщението трябва да бъде шифрирано с ключовете на всички участници в групата. Моля, изпратете това съобщение само ако знаете точно какво правите.
-    Продължаване?
 save-attachment-header = Запазване на дешифриран прикачен файл
-possibly-pgp-mime = Възможно PGP/MIME криптирано или подписано съобщение; използвайте функцията „Дешифроване/Проверяване“, за да потвърдите
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Не може да се подпише цифрово това съобщение, защото все още не сте конфигурирали шифроване от край до край за <{ $key }>
@@ -842,15 +827,6 @@ debug-log-title = Дневник за отстраняване на грешки
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Този сигнал ще се повтори { $count }
-repeat-suffix-singular = повече време.
-repeat-suffix-plural = повече пъти.
-no-repeat = Това предупреждение няма да се показва отново.
-dlg-keep-setting = Запомнете отговора ми и не ме питайте отново
 
 ## Strings used in dialog.sys.mjs
 
@@ -860,8 +836,6 @@ dlg-button-cancel = &Отказ
 dlg-no-prompt = Не ми показвай този диалогов прозорец отново
 enig-prompt = Подкана за OpenPGP
 enig-confirm = OpenPGP потвърждение
-enig-alert = Сигнал за OpenPGP
-enig-info = Информация за OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 

@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "b">
 <!ENTITY overrideNamespaces.label "Server tastean om dizze namespaces te negearjen">
 <!ENTITY overrideNamespaces.accesskey "T">
-<!ENTITY pop3DeferringDesc.label "By it downloaden fan e-mail fan dizze POP3-server, de folgjende map foar nije e-mail brûke:" >
+<!ENTITY pop3DeferringDesc.label "By it downloaden fan e-mail fan dizze POP3-server, de folgjende map foar nije e-mail brûke:">
 <!ENTITY accountInbox.label "Postfek YN fan dizze account">
 <!ENTITY accountInbox.accesskey "P">
 <!ENTITY deferToServer.label "Postfek YN fan in oar account">

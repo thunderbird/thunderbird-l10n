@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Értesítés új üzenetről
 notifications-dialog-title = Értesítés új üzenetről
 customize-alert-description = Az értesítésben a következő mezők szerepeljenek:
 preview-text-checkbox =

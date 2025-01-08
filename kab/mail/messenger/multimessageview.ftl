@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Agzul n yizen
-selected-messages-label =
-    .label = Iznan yettwafernen
 multi-message-archive-button =
     .label = Aɣbaṛ
     .tooltiptext = Aɣbaṛ

@@ -15,10 +15,6 @@
 <!ENTITY month.11.name "Nóvember" >
 <!ENTITY month.12.name "Desember" >
 
-<!ENTITY onemonthbackward.tooltip "Einn mánuð til baka" >
-<!ENTITY onemonthforward.tooltip "Einn mánuð áfram" >
-<!ENTITY oneyearbackward.tooltip "Eitt ár til baka" >
-<!ENTITY oneyearforward.tooltip "Eitt ár áfram" >
 <!ENTITY showToday.tooltip "Hoppa á daginn í dag">
 <!ENTITY onedayforward.tooltip "Einn dag áfram">
 <!ENTITY onedaybackward.tooltip "Einn dag til baka">

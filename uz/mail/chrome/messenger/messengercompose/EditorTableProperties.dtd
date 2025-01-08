@@ -64,8 +64,8 @@
 <!ENTITY cellAlignJustify.label           "Moslashtirish">
 <!ENTITY cellInheritColor.label           "(Jadvalni quyidagi orqali rangli ko‘rsatish)">
 <!ENTITY cellUseCheckboxHelp.label        "Barcha tanlangan kataklar uchun qo‘llangan xossalarni aniqlash uchun tanlash tugmalaridan foydalaning">
-<!-- Used in both Table and Cell panels  -->
 
+<!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "Hajmi">
 <!ENTITY pixels.label                     "piksel">
 <!ENTITY backgroundColor.label            "Orqa fon rangi:">

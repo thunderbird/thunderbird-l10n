@@ -15,10 +15,6 @@
 <!ENTITY month.11.name "Tachwedd" >
 <!ENTITY month.12.name "Rhagfyr" >
 
-<!ENTITY onemonthbackward.tooltip "Un Mis Nôl" >
-<!ENTITY onemonthforward.tooltip "Un Mis Ymlaen" >
-<!ENTITY oneyearbackward.tooltip "Nôl Un Flwyddyn" >
-<!ENTITY oneyearforward.tooltip "Ymlaen Un Flwyddyn" >
 <!ENTITY showToday.tooltip "Mynd i Heddiw">
 <!ENTITY onedayforward.tooltip "Ymlaen Un Diwrnod">
 <!ENTITY onedaybackward.tooltip "Nôl Un Diwrnod">

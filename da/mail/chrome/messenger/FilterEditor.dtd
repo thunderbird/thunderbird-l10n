@@ -26,7 +26,6 @@
 <!ENTITY contextOutgoing.accesskey "f">
 <!ENTITY contextArchive.label "Arkivering">
 <!ENTITY contextArchive.accesskey "r">
-
 <!ENTITY contextPeriodic.accesskey "p">
 
 <!ENTITY filterActionDesc.label "Udfør disse handlinger:">

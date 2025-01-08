@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-
 <!ENTITY title.label "Wěstota powěsći">
 <!ENTITY subject.plaintextWarning "Glědajśo pšosym: Temowe smužki e-mailowych powěsćow se nigdy nješifrěruju.">
 <!ENTITY status.heading "Wopśimjeśe wašeje powěsći pósćelo se kaž slědujo:">

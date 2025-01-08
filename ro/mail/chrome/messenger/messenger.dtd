@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "W">
 <!ENTITY newVirtualFolderCmd.label "Dosar virtual din rezultatele unei căutări">
 <!ENTITY newVirtualFolderCmd.accesskey "s">
-<!ENTITY newCreateEmailAccountCmd.label "Obține un cont nou de e-mail…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "O">
-<!ENTITY newExistingEmailAccountCmd.label "Cont existent de e-mail…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "e">
 <!ENTITY newIMAccountCmd.label "Cont de chat…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "Cont de flux…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "P">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Șterge mesajul">
-<!ENTITY deleteMsgCmd.accesskey "g">
-<!ENTITY undeleteMsgCmd.label "Recuperează mesajul șters">
-<!ENTITY undeleteMsgCmd.accesskey "j">
-<!ENTITY deleteMsgsCmd.label "Șterge mesajele selectate">
-<!ENTITY deleteMsgsCmd.accesskey "D">
-<!ENTITY undeleteMsgsCmd.label "Recuperează mesajele selectate">
-<!ENTITY undeleteMsgsCmd.accesskey "d">
-<!ENTITY deleteFolderCmd.label "Șterge dosar">
-<!ENTITY deleteFolderCmd.accesskey "d">
-<!ENTITY unsubscribeNewsgroupCmd.label "Dezabonare">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "n">
 <!ENTITY selectMenu.label "Selectează">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Toate">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "s">
 <!ENTITY menuFavoriteFolder.label "Dosar favorit">
 <!ENTITY menuFavoriteFolder.accesskey "a">
-<!ENTITY folderPropsCmd2.label "Proprietăți">
-<!ENTITY folderPropsFolderCmd2.label "Proprietăți dosar">
-<!ENTITY folderPropsNewsgroupCmd2.label "Proprietăți grup de discuții">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Anulează ștergerea mesajului">
 <!ENTITY redoDeleteMsgCmd.label "Șterge mesajul din nou">
 <!ENTITY undoMoveMsgCmd.label "Anulează mutarea mesajului">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Panoul cu dosare">
 <!ENTITY showFolderPaneCmd.accesskey "P">
-<!ENTITY showFolderPaneColsCmd.label "Coloanele panoului pentru dosar">
-<!ENTITY showFolderPaneColsCmd.accesskey "p">
 <!ENTITY showMessageCmd.label "Panoul de mesaj">
 <!ENTITY showMessageCmd.accesskey "m">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Mesaj nou">
 <!ENTITY appmenuNewContactCmd.label "Contact în agendă…">
-<!ENTITY appmenuEditMenu.label "Editare">
 <!ENTITY appmenuToolbarLayout.label "Aranjamentul barei de unelte…">
-<!ENTITY appmenuSelectThread.label "Selectează conversația">
-<!ENTITY appmenuSelectFlagged.label "Selectează mesajele cu steluță">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Etichetă nouă…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "z">
 <!ENTITY folderContextMarkNewsgroupRead.label "Marchează grupul de discuții ca citit">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "h">
-<!ENTITY folderContextMarkMailFolderRead.label "Marchează dosarul ca citit">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "z">
 <!ENTITY folderContextSubscribe.label "Abonare…">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "Caută mesaje…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "s">
 <!ENTITY contextReplyList.label "Răspunde listei">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextForward.label "Redirecționează">
-<!ENTITY contextForward.accesskey "a">
-<!ENTITY contextForwardAsMenu.label "Redirecționează ca">
-<!ENTITY contextForwardAsMenu.accesskey "n">
-<!ENTITY contextForwardAsInline.label "Integrat">
-<!ENTITY contextForwardAsInline.accesskey "i">
-<!ENTITY contextForwardAsAttachmentItem.label "Atașament">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "A">
-<!ENTITY contextMultiForwardAsAttachment.label "Redirecționează ca atașamente">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "o">
 <!ENTITY contextMoveMsgMenu.label "Mută în">
 <!ENTITY contextMoveMsgMenu.accesskey "M">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Recente">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "i">
 <!ENTITY copyEmailCmd.label "Copiază adresa de e-mail">
 <!ENTITY copyEmailCmd.accesskey "e">
-<!ENTITY stopCmd.label "Oprește">
-<!ENTITY stopCmd.accesskey "O">
-<!ENTITY reloadCmd.label "Reîncarcă">
-<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY openInBrowser.label "Deschide în browser">
 <!ENTITY openInBrowser.accesskey "o">
 <!ENTITY openLinkInBrowser.label "Deschide linkul în browser">

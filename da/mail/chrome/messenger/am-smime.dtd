@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Ryd">
 <!ENTITY encryption.certificate_clear.accesskey "y">
 <!ENTITY signingGroupTitle.label "Digital signatur">
-
 <!ENTITY signingCert2.message "Personligt certifikat til digital signering:">
 
 <!ENTITY sendingDefaults.label "Standardindstillinger for afsendelse af meddelelser">

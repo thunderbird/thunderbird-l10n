@@ -4,8 +4,8 @@
 
 <!ENTITY titledefault.label "&brandFullName;">
 <!ENTITY titleSeparator.label " - ">
-<!-- File Menu -->
 
+<!-- File Menu -->
 <!ENTITY newFolderCmd.label "Jild…">
 <!ENTITY newFolderCmd.accesskey "J">
 <!ENTITY closeTabCmd2.label "Ichki oynani yopish">
@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "y">
 <!ENTITY newVirtualFolderCmd.label "Saqlangan qidiruv…">
 <!ENTITY newVirtualFolderCmd.accesskey "S">
-<!ENTITY newCreateEmailAccountCmd.label "Yangi e-pochta hisobi olish…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "o">
-<!ENTITY newExistingEmailAccountCmd.label "Mavjud e-pochta hisobi…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "M">
 <!ENTITY newIMAccountCmd.label "Chat hisobi…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "Tasma hisobi…">
@@ -47,8 +43,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "B">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Joriy hisob">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "J">
-
-
 <!ENTITY sendUnsentCmd.label "Jo‘natilmagan xabarlarni jo‘natish">
 <!ENTITY sendUnsentCmd.accesskey "j">
 <!ENTITY subscribeCmd.label "Obuna bo‘lish…">
@@ -77,20 +71,8 @@
 <!ENTITY printCmd.label "Chop qilish…">
 <!ENTITY printCmd.accesskey "p">
 <!ENTITY printCmd.key "p">
-<!-- Edit Menu -->
 
-<!ENTITY deleteMsgCmd.label "Xabarni o‘chirish">
-<!ENTITY deleteMsgCmd.accesskey "o">
-<!ENTITY undeleteMsgCmd.label "Xabarni o‘chirishni bekor qilish">
-<!ENTITY undeleteMsgCmd.accesskey "d">
-<!ENTITY deleteMsgsCmd.label "Tanlangan xabarlarni o‘chirish">
-<!ENTITY deleteMsgsCmd.accesskey "o">
-<!ENTITY undeleteMsgsCmd.label "Tanlangan xabarlarni o‘chirishni bekor qilish">
-<!ENTITY undeleteMsgsCmd.accesskey "b">
-<!ENTITY deleteFolderCmd.label "Jildni o‘chirish">
-<!ENTITY deleteFolderCmd.accesskey "o">
-<!ENTITY unsubscribeNewsgroupCmd.label "Obunadan voz kechish">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "v">
+<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Tanlash">
 <!ENTITY selectMenu.accesskey "T">
 <!ENTITY all.label "Barchasi">
@@ -102,10 +84,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "Y">
 <!ENTITY menuFavoriteFolder.label "Sevimli jild">
 <!ENTITY menuFavoriteFolder.accesskey "S">
-<!ENTITY folderPropsCmd2.label "Xossalari">
-<!ENTITY folderPropsFolderCmd2.label "Jild xossalari">
-<!ENTITY folderPropsNewsgroupCmd2.label "Yangiliklar to‘plami xossalari">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Xabarni o‘chirishni bekor qilish">
 <!ENTITY redoDeleteMsgCmd.label "Xabarni o‘chirishni qaytarish">
 <!ENTITY undoMoveMsgCmd.label "Xabarni ko‘chirishni bekor qilish">
@@ -118,8 +96,8 @@
 <!ENTITY undoDefaultCmd.accesskey "b">
 <!ENTITY redoDefaultCmd.label "Amalni qaytarish">
 <!ENTITY redoDefaultCmd.accesskey "q">
-<!-- View Menu -->
 
+<!-- View Menu -->
 <!ENTITY menubarCmd.label "Menyu paneli">
 <!ENTITY menubarCmd.accesskey "M">
 <!ENTITY showMessengerToolbarCmd.label "Xat asboblar paneli">
@@ -137,8 +115,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Jild yon oynasi">
 <!ENTITY showFolderPaneCmd.accesskey "J">
-<!ENTITY showFolderPaneColsCmd.label "Jild yon oynasi ustunlari">
-<!ENTITY showFolderPaneColsCmd.accesskey "y">
 <!ENTITY showMessageCmd.label "Xabar yon oynasi">
 <!ENTITY showMessageCmd.accesskey "X">
 
@@ -156,8 +132,8 @@
 <!ENTITY recentFolders.accesskey "S">
 <!ENTITY compactVersion.label "Ixcham ko‘rinish">
 <!ENTITY compactVersion.accesskey "I">
-<!-- Sort Menu -->
 
+<!-- Sort Menu -->
 <!ENTITY sortMenu.label "Saralash">
 <!ENTITY sortMenu.accesskey "S">
 <!ENTITY sortByDateCmd.label "Sana">
@@ -255,8 +231,8 @@
 <!ENTITY pageSourceCmd.key "u">
 <!ENTITY getNewMessagesCmd.key "y">
 <!ENTITY getAllNewMessagesCmd.key "Y">
-<!-- Search Menu -->
 
+<!-- Search Menu -->
 <!ENTITY findMenu.label "Topish">
 <!ENTITY findMenu.accesskey "T">
 <!ENTITY findCmd.label "Xabar ichidan topish…">
@@ -273,8 +249,8 @@
 <!ENTITY searchMailCmd.key "f">
 <!ENTITY searchAddressesCmd.label "Manzillarni izlash…">
 <!ENTITY searchAddressesCmd.accesskey "i">
-<!-- Go Menu -->
 
+<!-- Go Menu -->
 <!ENTITY goMenu.label "O‘tish">
 <!ENTITY goMenu.accesskey "t">
 <!ENTITY nextMenu.label "Keyingi">
@@ -314,8 +290,8 @@
 <!ENTITY goRecentlyClosedTabs.accesskey "Y">
 <!ENTITY startPageCmd.label "Pochta bosh sahifasi">
 <!ENTITY startPageCmd.accesskey "b">
-<!-- Message Menu -->
 
+<!-- Message Menu -->
 <!ENTITY msgMenu.label "Xabar">
 <!ENTITY msgMenu.accesskey "X">
 <!ENTITY newMsgCmd.label "Yangi xabar">
@@ -354,6 +330,7 @@
 <!ENTITY editAsNewMsgCmd.key "e">
 <!ENTITY editDraftMsgCmd.label "Qoralama xabarni tahrirlash">
 <!ENTITY editDraftMsgCmd.accesskey "Q">
+<!-- do not change "VK_RETURN" -->
 <!ENTITY createFilter.label "Xabardan filter yaratish…">
 <!ENTITY createFilter.accesskey "y">
 <!ENTITY moveMsgToMenu.label "Ko‘chirish">
@@ -428,11 +405,11 @@
 <!ENTITY openFeedSummary.accesskey "N">
 <!ENTITY openFeedWebPageInMP.label "Xabar yon oynasidagi veb sahifa va natijaga o‘tish">
 <!ENTITY openFeedWebPageInMP.accesskey "T">
+
 <!-- Windows Menu -->
-
 <!ENTITY windowMenu.label "Oyna">
-<!-- Tools Menu -->
 
+<!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Asboblar">
 <!ENTITY tasksMenu.accesskey "A">
 <!ENTITY messengerCmd.label "Xat va yangiliklar to‘plami">
@@ -476,8 +453,8 @@
      on Unix systems
   -->
 <!ENTITY accountManagerCmdUnix2.accesskey "A">
-<!-- Developer Tools Submenu -->
 
+<!-- Developer Tools Submenu -->
 <!ENTITY devtoolsMenu.label "Dasturchi asboblari">
 <!ENTITY devtoolsMenu.accesskey "D">
 <!ENTITY devToolboxCmd.label "Das&amp;turchi asboblari paneli">
@@ -486,13 +463,8 @@
 <!ENTITY errorConsoleCmd.label "Xato terminali">
 <!ENTITY errorConsoleCmd.accesskey "t">
 <!ENTITY errorConsoleCmd.commandkey "j">
-<!--LOCALIZATION NOTE (scratchpadCmd.keycode):
-    This should be a key code constant as per
-    https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode#Constants_for_keyCode_value
-    (but without the DOM_ prefix) -->
 
 <!-- Mail Toolbar -->
-
 <!ENTITY getMsgButton1.label "Xabarlarni yuklab olish">
 <!ENTITY newMsgButton.label "Yozish">
 <!ENTITY replyButton.label "Javob qaytarish">
@@ -525,8 +497,8 @@
 <!ENTITY tagButton.label "Teg">
 <!ENTITY compactButton.label "Ixcham">
 <!ENTITY appmenuButton.label "AppMenu">
-<!-- Mail Toolbar Tooltips-->
 
+<!-- Mail Toolbar Tooltips-->
 <!ENTITY advancedButton.tooltip "Qo‘shimcha xabar qidiruvi">
 <!ENTITY getMsgButton.tooltip "Yangi xabarlarni yuklab olish">
 <!ENTITY getAllNewMsgCmd.label "Barcha yangi xabarlarni yuklab olish">
@@ -554,48 +526,45 @@
 <!ENTITY tagButton.tooltip "Xabarlarni teglash">
 <!ENTITY compactButton.tooltip "O‘chirilgan xabarlarni tanlangan jilddan olib tashlash">
 <!ENTITY appmenuButton1.tooltip "&brandShortName; menyusini ko‘rsatish">
-<!-- Toolbar Button Popup -->
 
+<!-- Toolbar Button Popup -->
 <!ENTITY buttonMenuForwardAsInline.label "Gap ichida shaklida uzatish">
 <!ENTITY buttonMenuForwardAsAttachment.label "Ilova sifatida uzatish">
-<!-- Remote Content Button Popup -->
 
+<!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "Bu xabardagi masofadagi kontentni ko‘rsatish">
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey "k">
 <!ENTITY editRemoteContentSettings.label "Masofadagi kontentni tahrirlash…">
 <!ENTITY editRemoteContentSettings.accesskey "t">
 <!ENTITY editRemoteContentSettingsUnix.label "Masofadagi kontent parametrlarini tahrirlash…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "t">
-<!-- Phishing Button Popup -->
 
+<!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label "Bu xabar uchun ogohlantirishlarni e’tiborsiz qoldirish">
 <!ENTITY phishingOptionIgnore.accesskey "e">
 <!ENTITY phishingOptionSettings.label "Tovlamachilikni aniqlash parametrlarini tahrirlash…">
 <!ENTITY phishingOptionSettings.accesskey "t">
 <!ENTITY phishingOptionSettingsUnix.label "Tovlamachilikni aniqlash parametrlarini tahrirlash…">
 <!ENTITY phishingOptionSettingsUnix.accesskey "t">
-<!-- AppMenu Popup -->
 
+<!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Yangi xabar">
 <!ENTITY appmenuNewContactCmd.label "Manzillar kitobidagi kontakt…">
-<!ENTITY appmenuEditMenu.label "Tahrirlash">
 <!ENTITY appmenuToolbarLayout.label "Asboblar paneli joylashuvi…">
-<!ENTITY appmenuSelectThread.label "Yozishmani tanlash">
-<!ENTITY appmenuSelectFlagged.label "Yulduz qo‘yilgan xabarlarni tanlash">
-<!-- Tags Menu Popup -->
 
+<!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Yangi teg…">
 <!ENTITY addNewTag.accesskey "Y">
 <!ENTITY manageTags.label "Teglarni boshqarish…">
 <!ENTITY manageTags.accesskey "b">
-<!-- Folder Pane -->
 
+<!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nomi">
 <!ENTITY folderUnreadColumn.label "O‘qilmagan">
 <!ENTITY folderTotalColumn.label "Jami">
 <!ENTITY folderSizeColumn.label "Hajmi">
-<!-- Folder Pane Context Menu -->
 
+<!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "Xabarlarni yuklab olish">
 <!ENTITY folderContextGetMessages.accesskey "y">
 <!ENTITY folderContextPauseAllUpdates.label "Barcha yangilanishlarni pauza qilish">
@@ -623,8 +592,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "u">
 <!ENTITY folderContextMarkNewsgroupRead.label "Yangiliklar guruhini o‘qilgan sifatida belgilash">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "k">
-<!ENTITY folderContextMarkMailFolderRead.label "Jildni o‘qilgan sifatida belgilash">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "b">
 <!ENTITY folderContextSubscribe.label "Obuna bo‘lish…">
 <!ENTITY folderContextSubscribe.accesskey "O">
 <!ENTITY folderContextSearchForMessages.label "Xabarlarni izlash…">
@@ -635,15 +602,15 @@
 <!ENTITY folderContextFavoriteFolder.accesskey "S">
 <!ENTITY folderContextSettings2.label "Sozlamalar">
 <!ENTITY folderContextSettings2.accesskey "S">
-<!-- Search Bar -->
 
+<!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label "Nomi yoi xat mazmuni:">
 <!ENTITY SearchNameOrEmail.accesskey "N">
+
 <!-- Gloda Search Bar -->
-
 <!ENTITY glodaSearchBar.placeholder "Xabarlarni izlash…">
-<!-- Quick Search Menu Bar -->
 
+<!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label "Mavzu">
 <!ENTITY searchFromMenu.label "Xat jo‘natuvchi">
 <!ENTITY searchSubjectOrFromMenu.label "Mavzu yoki jo‘natuvchi">
@@ -651,8 +618,8 @@
 <!ENTITY searchSubjectOrRecipientMenu.label "Mavzu, qabul qiluvchi yoki Cc">
 <!ENTITY searchMessageBody.label "Butun xabar">
 <!ENTITY saveAsVirtualFolderMenu.label "Qidiruvni Jild sifatida saqlash…">
-<!-- Thread Pane -->
 
+<!-- Thread Pane -->
 <!ENTITY threadColumn.label "Yozishma">
 <!ENTITY fromColumn.label "Jo‘natuvchi">
 <!ENTITY recipientColumn.label "Qabul qiluvchi">
@@ -673,8 +640,8 @@
 <!ENTITY locationColumn.label "Manzili">
 <!ENTITY idColumn.label "Qabul qilish tartibi">
 <!ENTITY attachmentColumn.label "Ilovalar">
-<!-- Thread Pane Tooltips -->
 
+<!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip "Ko‘rsatish uchun ustunlarni tanlang">
 <!ENTITY threadColumn2.tooltip "Xabar yozishmalarini ko‘rsatish">
 <!ENTITY fromColumn2.tooltip "Quyidagicha saralash">
@@ -696,14 +663,14 @@
 <!ENTITY locationColumn2.tooltip "Manzil bo‘yicha saralash">
 <!ENTITY idColumn2.tooltip "Qabul qilingan tartibi bo‘yicha saralash">
 <!ENTITY attachmentColumn2.tooltip "Ilovalar bo‘yicha saralash">
-<!-- Thread Pane Context Menu -->
 
+<!-- Thread Pane Context Menu -->
 <!ENTITY contextOpenNewWindow.label "Xabarni yangi oynada ochish">
 <!ENTITY contextOpenNewWindow.accesskey "o">
-<!-- The key potentially conflicts with cutCmd.accessKey which is defined in
-     textcontext.dtd from toolkit. Right now, both menu items can't be visible
-     at the same time, but should someone enable copy/paste of message, this key
-     would probably need to be changed. -->
+<!-- The contextOpenNewTab.accesskey ("T") potentially conflicts with
+     cutCmd.accessKey which is defined in textcontext.dtd from toolkit. Right
+     now, both menu items can't be visible at the same time, but should someone
+     enable copy/paste of message, this key would probably need to be changed. -->
 <!ENTITY contextOpenNewTab.label "Xabarni yangi ichki oynada ochish">
 <!ENTITY contextOpenNewTab.accesskey "i">
 <!ENTITY contextOpenConversation.label "Xabarni suhbatlarda ochish">
@@ -723,16 +690,6 @@
 <!ENTITY contextReplyAll.accesskey "B">
 <!ENTITY contextReplyList.label "Ro‘yxatga javob yozish">
 <!ENTITY contextReplyList.accesskey "R">
-<!ENTITY contextForward.label "Uzatish">
-<!ENTITY contextForward.accesskey "U">
-<!ENTITY contextForwardAsMenu.label "Ba’zilarga uzatish">
-<!ENTITY contextForwardAsMenu.accesskey "u">
-<!ENTITY contextForwardAsInline.label "Gap ichida">
-<!ENTITY contextForwardAsInline.accesskey "G">
-<!ENTITY contextForwardAsAttachmentItem.label "Ilova">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "I">
-<!ENTITY contextMultiForwardAsAttachment.label "Ilova sifatida uzatish">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "u">
 <!ENTITY contextMoveMsgMenu.label "Ko‘chirish">
 <!ENTITY contextMoveMsgMenu.accesskey "K">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "So‘nggi">
@@ -755,11 +712,6 @@
 <!ENTITY contextPrint.accesskey "p">
 <!ENTITY contextPrintPreview.label "Chop qilishni ko‘rish">
 <!ENTITY contextPrintPreview.accesskey "n">
-<!-- Thread Pane Column Picker -->
-<!-- LOCALIZATION NOTE (columnPicker.resetToInbox.label):
-     This option in the thread pane column picker causes us to reset the
-     customizations for the thread pane columns in this folder to their default.
-  -->
 
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
@@ -800,9 +752,8 @@
      "File here" option for the move to/copy to widget.
   -->
 <!ENTITY columnPicker.thisFolder.label "Bu jild">
+
 <!-- Media (video/audio) controls -->
-
-
 <!ENTITY contextPlay.label "Ijro etish">
 <!ENTITY contextPlay.accesskey "I">
 <!ENTITY contextPause.label "Pauza">
@@ -817,10 +768,9 @@
      This is actually the key used for the global message search box; we have
      not changed
   -->
-
 <!ENTITY quickSearchCmd.key "k">
 <!-- LOCALIZATION NOTE (search.label.base1):
-      This is the base of the empty text for the global search box. We replace
+     This is the base of the empty text for the global search box. We replace
      #1 with the contents of the appropriate search.keyLabel.* value for the
      platform.
      The goal is to convey to the user that typing in the box will allow them
@@ -841,8 +791,8 @@
      above, the letter should match it.
   -->
 <!ENTITY search.keyLabel.mac "&lt;&#x2318;K&gt;">
-<!-- Message Header Context Menu -->
 
+<!-- Message Header Context Menu -->
 <!ENTITY AddToAddressBook.label "Manzillar daftariga qoʻshish…">
 <!ENTITY AddToAddressBook.accesskey "d">
 <!ENTITY AddDirectlyToAddressBook.label "Manzillar daftariga qoʻshish">
@@ -867,12 +817,12 @@
 <!ENTITY CreateFilterFrom.accesskey "F">
 <!ENTITY reportPhishingURL.label "E-pochta tovlamachiligi haqida xabar berish">
 <!ENTITY reportPhishingURL.accesskey "o">
-<!-- Spell checker context menu items -->
 
+<!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Kataloglarni qo‘shish…">
 <!ENTITY spellAddDictionaries.accesskey "q">
-<!-- Content Pane Context Menu -->
 
+<!-- Content Pane Context Menu -->
 <!ENTITY saveLinkAsCmd.label "Havolani saqlash…">
 <!ENTITY saveLinkAsCmd.accesskey "H">
 <!ENTITY saveImageAsCmd.label "Rasmni saqlash…">
@@ -883,25 +833,21 @@
 <!ENTITY copyImageAllCmd.accesskey "u">
 <!ENTITY copyEmailCmd.label "E-pochta manzilidan nusxa olish">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY stopCmd.label "To‘xtatish">
-<!ENTITY stopCmd.accesskey "T">
-<!ENTITY reloadCmd.label "Qaytadan yuklash">
-<!ENTITY reloadCmd.accesskey "y">
 <!ENTITY openInBrowser.label "Brauzerda ochish">
 <!ENTITY openInBrowser.accesskey "o">
 <!ENTITY openLinkInBrowser.label "Havolani brauzerda ochish">
 <!ENTITY openLinkInBrowser.accesskey "o">
+
 <!-- Statusbar -->
-
 <!ENTITY statusText.label "Tayyor">
-<!-- Mac OS X Window Menu -->
 
+<!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "Yig‘ish">
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY bringAllToFront.label "Barchasini oldinga o‘tkazish">
 <!ENTITY zoomWindow.label "Masshtab">
-<!-- Mac OS X Application Menu (Cocoa widgets) -->
 
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label       "Parametrlar">
 <!ENTITY preferencesCmdMac.commandkey   ",">
 <!ENTITY preferencesCmdMac.modifiers    "tezlatkich">
@@ -913,7 +859,8 @@
 <!ENTITY hideOtherAppsCmdMac.commandkey "H">
 <!ENTITY hideOtherAppsCmdMac.modifiers  "accel,alt">
 <!ENTITY showAllAppsCmdMac.label        "Barchasini koʻrsatish">
-<!-- Mac OS X Dock Icon pop-up menu -->
 
+<!-- Mac OS X Dock Icon pop-up menu -->
 <!ENTITY dockOptions.label              "Ilova dastur &amp;nishonchasi parametrlari…">
 
+<!-- Content tab Navigation buttons -->

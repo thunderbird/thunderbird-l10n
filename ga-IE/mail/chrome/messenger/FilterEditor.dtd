@@ -32,8 +32,8 @@
 
 <!ENTITY filterActionOrderWarning.label "Nóta: Cuirfear na scagairí i bhfeidhm in ord difriúil.">
 <!ENTITY filterActionOrder.label "Féach ar ord curtha i bhfeidhm">
-<!-- New Style Filter Rule Actions -->
 
+<!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Bog an teachtaireacht go">
 <!ENTITY copyMessage.label "Cóipeáil an teachtaireacht go">
 <!ENTITY forwardTo.label "Cuir an teachtaireacht ar aghaidh chuig">
@@ -61,6 +61,5 @@
      are truncated in the widgets.
   -->
 <!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
-
 <!ENTITY filterActionTypeFlexValue "11">
 <!ENTITY filterActionTargetFlexValue "4">

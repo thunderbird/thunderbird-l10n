@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "M">
 <!ENTITY overrideNamespaces.label "Serveril lubatakse neid nimeruume mitte kasutada">
 <!ENTITY overrideNamespaces.accesskey "a">
-<!ENTITY pop3DeferringDesc.label "Selle konto serverist kirjade allalaadimisel kasutatakse uute kirjade salvestamiseks järgnevat kausta:" >
+<!ENTITY pop3DeferringDesc.label "Selle konto serverist kirjade allalaadimisel kasutatakse uute kirjade salvestamiseks järgnevat kausta:">
 <!ENTITY accountInbox.label "Selle konto saabuvate kirjade kaust">
 <!ENTITY accountInbox.accesskey "b">
 <!ENTITY deferToServer.label "Mõne muu konto saabuvate kirjade kaust">

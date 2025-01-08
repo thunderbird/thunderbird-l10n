@@ -152,20 +152,6 @@ mail-context-menu-forward-forward =
     .accesskey = დ
 context-menu-redirect-msg =
     .label = გადამისამართება
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] წერილების წაშლა
-           *[other] შერჩეული წერილების წაშლა
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] წერილის აღდგენა
-           *[other] შერჩეული წერილების აღდგენა
-        }
 
 ## Message header pane
 
@@ -220,9 +206,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = მოცილდეს { $name }?
 addon-removal-confirmation-button = მოცილება
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = მოცილდეს { $name } და გასუფთავდეს { -brand-short-name } მისი პარამეტრებისგან?
 caret-browsing-prompt-title = მაჩვენებლით გადაადგილება
 caret-browsing-prompt-text = F7 ღილაკით ჩაირთვება ტექსტში მაჩვენებლის გამოყენების შესაძლებლობა. შედეგად, სხვადასხვა ტექსტში გამოჩნდება მოციმციმე მაჩვენებელი, რომ შეიძლებოდეს კლავიატურით მონიშვნა. გსურთ, ტექსტებში მაჩვენებლის გამოყენება?
@@ -234,6 +222,8 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = პასუხის გაცემა მხარდაუჭერელია
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = ჩანს, რომ მისამართი ({ $email }) ზედამხედველობის ქვეშ არაა. ამ მისამართზე გაგზავნილ პასუხებს, აღარავინ წაიკითხავს.
 no-reply-reply-anyway-button = პასუხის მიწერა მაინც
 
@@ -320,7 +310,7 @@ quick-filter-bar-toggle =
     .label = სწრაფი გაფილტვრის პანელი
     .accesskey = წ
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

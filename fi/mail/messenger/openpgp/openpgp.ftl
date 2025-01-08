@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Vanheneminen
 openpgp-key-id-label =
     .label = Avaimen tunniste (ID)
-openpgp-cannot-change-expiry = Tämä on avain, jolla on monimutkainen rakenne. Sen voimassaoloajan muuttamista ei tueta.
-openpgp-key-man-title =
-    .title = OpenPGP-avainhallinta
 openpgp-key-man-dialog-title = OpenPGP-avainhallinta
 openpgp-key-man-generate =
     .label = Uusi avainpari
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Kumoamisvarmenne
     .accesskey = K
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Luo ja tallenna kumoamisvarmenne
 openpgp-key-man-gen-revocation =
     .label = Tallenna kumoamisvarmenne tiedostoon
     .accesskey = T
@@ -489,8 +484,6 @@ filter-encrypt-label = Salaa avaimeen (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Onnistui! Avaimet tuotu
 import-info-dialog-title = Onnistui! Avaimet tuotu
 import-info-bits = Bittiä
 import-info-created = Luotu
@@ -780,15 +773,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Olet asettanut rivityksen { $width } merkkiin. Oikeaoppisen salauksen ja/tai allekirjoituksen vuoksi tämän arvon tulee olla vähintään 68.
     Haluatko muuttaa rivityksen arvon 68 merkkiin?
-sending-news =
-    Salattu lähetys keskeytetty.
-    Tätä viestiä ei voi salata, koska vastaanottajissa on uutisryhmiä. Lähetä tämä viesti uudelleen ilman salausta.
-send-to-news-warning =
-    Varoitus: olet aikeissa lähettää salatun sähköpostin uutisryhmään.
-    Tämä ei ole suositeltavaa, koska siinä on järkeä vain jos kaikilla ryhmän jäsenillä on mahdollisuus purkaa viestin salaus. Toisin sanoen viesti tulee olla salattu kaikkien ryhmän jäsenten avaimilla. Lähetä tämä viesti vain, jos tiedät tarkalleen mitä olet tekemässä.
-    Haluatko jatkaa?
 save-attachment-header = Tallenna salauksesta purettu liite
-possibly-pgp-mime = Mahdollisesti PGP/MIME-salattu tai allekirjoitettu viesti; käytä "Pura salaus/Vahvista'-toimintoa vahvistaaksesi
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Tätä viestiä ei voi digitaalisesti allekirjoittaa, koska et ole vielä määrittänyt päästä päähän -salausta avaimelle <{ $key }>
@@ -842,15 +827,6 @@ debug-log-title = OpenPGP-vianjäljitysloki
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Tämä hälytys toistetaan { $count }
-repeat-suffix-singular = kerran.
-repeat-suffix-plural = kertaa.
-no-repeat = Tätä hälytystä ei näytetä uudelleen.
-dlg-keep-setting = Muista vastaukseni, älä kysy uudestaan
 
 ## Strings used in dialog.sys.mjs
 
@@ -860,8 +836,6 @@ dlg-button-cancel = &Peruuta
 dlg-no-prompt = Älä näytä tätä ikkunaa uudestaan
 enig-prompt = OpenPGP-kehote
 enig-confirm = OpenPGP-vahvistus
-enig-alert = OpenPGP-hälytys
-enig-info = OpenPGP-tiedot
 
 ## Strings used in persistentCrypto.jsm
 

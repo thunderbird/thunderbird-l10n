@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Резиме поруке
-selected-messages-label =
-    .label = Изабране поруке
 multi-message-archive-button =
     .label = Архивирај
     .tooltiptext = Архивирај

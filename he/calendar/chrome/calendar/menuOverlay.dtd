@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "הסרת היומן הנבחר…">
 <!ENTITY calendar.removecalendar.accesskey      "ס">
 
-
-<!ENTITY calendar.menu.customize.label          "התאמה אישית…">
-<!ENTITY calendar.menu.customize.accesskey      "ה">
-
 <!ENTITY showUnifinderCmd.label                 "מצא אירועים">
 <!ENTITY showUnifinderCmd.accesskey             "מ">
 <!ENTITY showUnifinderCmd.tooltip               "החלפת מצב חלונית חיפוש אירועים">

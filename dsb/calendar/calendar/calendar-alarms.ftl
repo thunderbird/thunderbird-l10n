@@ -10,12 +10,6 @@ reminder-title-at-start-event = Wokognuśe, w kótaremž tšojenje se zachopina
 reminder-title-at-start-task = Wokognuśe, w kótaremž nadawk se zachopina
 reminder-title-at-end-event = Wokognuśe, w kótaremž tšojenje se kóńcy
 reminder-title-at-end-task = Wokognuśe, w kótaremž nadawk se kóńcy
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Dopomnjeśe wó { $unit } wótstarcyś
 reminder-custom-origin-begin-before-event = nježli až tšojenje se zachopijo
 reminder-custom-origin-begin-after-event = za tym až tšojenje se zachopijo
 reminder-custom-origin-end-before-event = nježli až tšojenje se skóńcyjo

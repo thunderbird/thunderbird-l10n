@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Betűkészletek
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Alapértelmezett ({ $name })
 fonts-label-default-unnamed =
     .label = Alapértelmezett
-fonts-encoding-dialog-title =
-    .title = Betűk és kódolások
 fonts-language-legend =
     .value = Kódolás:
     .accesskey = K

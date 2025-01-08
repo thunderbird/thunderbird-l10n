@@ -4,9 +4,9 @@
 
 
 ## Shortcuts
+## Variables:
+##  $key (String) - The shortcut key.
 
-# Variables:
-#  $key (String) - The shortcut key.
 shortcut-key = { $key }
 meta-shortcut-key =
     { PLATFORM() ->
@@ -83,6 +83,9 @@ meta-ctrl-shift-alt-shortcut-key2 =
         [macos] ⌃ ⌥ ⇧ ⌘ { $key }
        *[other] Meta+Ctrl+Alt+Shift+{ $key }
     }
+
+## Shortcut and label combined strings
+
 # Variables:
 #  $title (String): The title coming from the original element.
 #  $shortcut (String): The shortcut generated from the keystroke combination.

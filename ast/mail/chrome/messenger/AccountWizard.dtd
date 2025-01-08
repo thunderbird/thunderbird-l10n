@@ -5,16 +5,18 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Encontu pa cuentes">
-<!ENTITY accountWizard.size "width: 45em; height: 42em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
 <!ENTITY identityTitle.label "Identidá">
 <!ENTITY identityDesc.label "Cada cuenta tien una identidá, que ye la información que t'identifica énte otros cuando ellos reciben los tos mensaxes.">
 
+<!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Introduz el nome que quies qu'apaeza nel campu &quot;De&quot; al unviar mensaxes">
+<!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
+  1, do not translate two of "&quot;"
+  2, Use localized full name instead of "John Smith"
+-->
 <!ENTITY fullnameExample.label "(por exemplu, &quot;Xune Fueyo&quot;).">
 <!ENTITY fullnameLabel.label "Nome:">
 <!ENTITY fullnameLabel.accesskey "N">
@@ -26,15 +28,15 @@
 
 <!ENTITY incomingTitle.label "Información del sirvidor entrante">
 <!ENTITY incomingUsername.label "Nome d'usuariu:">
+<!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Introduz el nome del to sirvidor de noticies (NNTP) (por exemplu, &quot;news.exemplu.net&quot;).">
 <!ENTITY newsServerLabel.label "Sirvidor de noticies:">
 <!ENTITY newsServerLabel.accesskey "n">
 
-<!-- Entities for Outgoing Server page -->
-
 <!-- Entities for Account name page -->
 
 <!ENTITY accnameTitle.label "Nome de la cuenta">
+<!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Introduz el nome pol que quies referite a esta cuenta (por exemplu, &quot;Cuenta del trabayu&quot;, &quot;Cuenta de casa&quot; o &quot;Cuenta de noticies&quot;).">
 <!ENTITY accnameLabel.label "Nome de la cuenta:">
 <!ENTITY accnameLabel.accesskey "A">

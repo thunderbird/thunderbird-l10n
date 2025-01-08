@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "A">
 <!ENTITY overrideNamespaces.label "Permetter al server da remplazzar quests spazis da nums">
 <!ENTITY overrideNamespaces.accesskey "P">
-<!ENTITY pop3DeferringDesc.label "Memorisar novs messadis telechargiads dal server da quest conto en suandant ordinatur:" >
+<!ENTITY pop3DeferringDesc.label "Memorisar novs messadis telechargiads dal server da quest conto en suandant ordinatur:">
 <!ENTITY accountInbox.label "Posta entrada per quest conto">
 <!ENTITY accountInbox.accesskey "s">
 <!ENTITY deferToServer.label "Posta entrada d'in auter conto">

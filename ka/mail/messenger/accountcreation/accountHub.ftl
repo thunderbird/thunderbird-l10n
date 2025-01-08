@@ -40,8 +40,13 @@ account-hub-sync-button = შედით სინქრონიზაცი�
 
 ## Email page
 
-account-hub-email-title = ელფოსტის ანგარიშის გამართვა:
 account-hub-email-cancel-button = გაუქმება
 account-hub-email-back-button = უკან
 account-hub-email-continue-button = განაგრძეთ
 account-hub-email-confirm-button = დასტური
+
+## Incoming/Outgoing SSL Authentication options
+
+
+## Incoming/Outgoing SSL options
+

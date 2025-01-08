@@ -324,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "十月" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "十一月" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "十二月" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "每">
 <!ENTITY event.recurrence.yearly.first.label                 "第一">
 <!ENTITY event.recurrence.yearly.second.label                "第二">
@@ -340,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "星期六" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "日" >
 <!ENTITY event.recurrence.of.label                           "之" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "一月" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "二月" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "三月" >

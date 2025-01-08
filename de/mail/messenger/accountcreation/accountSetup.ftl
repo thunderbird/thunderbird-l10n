@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Passwort
     .accesskey = P
     .title = Freiwillig, wird zur Bestätigung des Benutzernamens verwendet
-account-provisioner-button = Neue E-Mail-Adresse erhalten
-    .accesskey = u
 account-setup-password-toggle-show =
     .title = Passwort anzeigen
 account-setup-password-toggle-hide =
@@ -146,7 +144,6 @@ account-setup-credentials-incomplete = Anmeldung fehlgeschlagen. Entweder stimme
 account-setup-credentials-wrong = Anmeldung fehlgeschlagen. Bitte überprüfen Sie Benutername und Passwort.
 account-setup-find-settings-failed = { -brand-short-name } konnte keine Einstellungen für Ihr E-Mail-Konto finden.
 account-setup-exchange-config-unverifiable = Konfiguration konnte nicht überprüft werden. Falls der Benutzername und das Passwort korrekt sind, hat der Server-Administrator vermutlich die gewählte Konfiguration für Ihr Konto deaktiviert. Versuchen Sie, ein anderes Protokoll zu verwenden.
-account-setup-provisioner-error = Während des Einrichten des neuen Kontos in { -brand-short-name } trat ein Fehler auf. Bitte versuchen Sie das Konto manuell mit den Ihnen bekannten Zugangsdaten hinzuzufügen.
 
 ## Manual configuration area
 

@@ -16,4 +16,3 @@ file names and tall enough to hint that there are more activities in the list --
 <!ENTITY cmd.clearList.label              "Vider la liste">
 <!ENTITY cmd.clearList.tooltip            "Retirer les téléchargements terminés, annulés et ayant échoué de la liste">
 <!ENTITY cmd.clearList.accesskey          "V">
-

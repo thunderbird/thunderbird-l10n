@@ -80,14 +80,6 @@ menu-edit-newsgroup-properties =
 mail-context-menu-forward-forward =
     .label = Reunviar
     .accesskey = n
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Restaurar mensaxe
-           *[other] Restaurar mensaxes esbillaos
-        }
 
 ## Message header pane
 
@@ -127,7 +119,7 @@ quick-filter-bar-toggle =
     .label = Barra de filtráu rápidu
     .accesskey = B
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

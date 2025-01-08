@@ -10,12 +10,6 @@ reminder-title-at-start-event = Nuair a thòisicheas an tachartas
 reminder-title-at-start-task = Nuair a thòisicheas an t-saothair
 reminder-title-at-end-event = Nuair a chrìochnaicheas an tachartas
 reminder-title-at-end-task = Nuair a chrìochnaicheas an t-saothair
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Cuir 'nam chuimhne fad dùsail rè { $unit }
 reminder-custom-origin-begin-before-event = mus tòisich an tachartas
 reminder-custom-origin-begin-after-event = às dèidh dhan tachartas tòiseachadh
 reminder-custom-origin-end-before-event = mus crìochnaich an tachartas

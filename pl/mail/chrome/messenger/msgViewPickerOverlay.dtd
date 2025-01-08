@@ -6,7 +6,6 @@
 
 <!ENTITY viewPicker.label "Wyświetlaj:">
 <!ENTITY viewPicker.accesskey "i">
-
 <!ENTITY viewAll.label "Wszystkie">
 <!ENTITY viewAll.accesskey "W">
 <!ENTITY viewUnread.label "Nieprzeczytane">

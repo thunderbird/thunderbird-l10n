@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = A
     .tooltiptext = Een URL van uw voorkeur voor het omzetten van DNS over HTTPS invoeren
 connection-dns-over-https-custom-label = Aangepast
-connection-dialog-window2 =
-    .title = Verbindingsinstellingen
 connection-dialog-title = Verbindingsinstellingen
 disable-extension-button = Extensie uitschakelen
 # Variables:

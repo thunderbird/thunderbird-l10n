@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Hết hạn
 openpgp-key-id-label =
     .label = ID khóa
-openpgp-cannot-change-expiry = Đây là khóa có cấu trúc phức tạp, việc thay đổi ngày hết hạn không được hỗ trợ.
-openpgp-key-man-title =
-    .title = Trình quản lý khóa OpenPGP
 openpgp-key-man-dialog-title = Trình quản lý khóa OpenPGP
 openpgp-key-man-generate =
     .label = Cặp khóa mới
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Chứng nhận thu hồi
     .accesskey = R
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Tạo & lưu chứng nhận thu hồi
 openpgp-key-man-file-menu =
     .label = Tập tin
     .accesskey = F
@@ -462,8 +457,6 @@ filter-encrypt-label = Mã hóa thành khóa (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Thành công! Các khóa đã được nhập
 import-info-dialog-title = Thành công! Các khóa đã được nhập
 import-info-bits = Bit
 import-info-created = Đã tạo
@@ -606,9 +599,6 @@ no-update-found = Bạn đã có các khóa được phát hiện trực tuyến
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 
@@ -729,15 +719,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Bạn đã đặt số lượng ký tự trong một dòng là { $width } kí tự. Để mã hóa và/hoặc ký chính xác, giá trị này ít nhất phải là 68.
     Bạn có muốn đặt lại giá trị của nó thành 68 kí tự ngay bây giờ không?
-sending-news =
-    Thao tác gửi được mã hóa đã bị hủy bỏ.
-    Không thể mã hóa thư này vì có người nhận trong nhóm tin. Vui lòng gửi lại tin nhắn mà không mã hóa.
-send-to-news-warning =
-    Cảnh báo: bạn sắp gửi một email được mã hóa đến một nhóm tin.
-    Điều này không được khuyến khích vì nó chỉ có ý nghĩa nếu tất cả các thành viên trong nhóm có thể giải mã thông điệp, tức là tin nhắn cần được mã hóa bằng khóa của tất cả những người tham gia nhóm. Vui lòng chỉ gửi tin nhắn này nếu bạn biết chính xác những gì bạn đang làm.
-    Tiếp tục?
 save-attachment-header = Lưu tập tin đính kèm được giải mã
-possibly-pgp-mime = Có thể thư được mã hóa hoặc ký tên PGP/MIME; sử dụng chức năng 'Giải mã/Xác minh' để xác minh
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Không thể ký điện tử thông báo này vì bạn chưa định cấu hình mã hóa đầu cuối cho <{ $key }>
@@ -791,15 +773,6 @@ debug-log-title = Nhật ký gỡ lỗi OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Cảnh báo này sẽ lặp lại { $count }
-repeat-suffix-singular = lần nữa.
-repeat-suffix-plural = lần nữa.
-no-repeat = Cảnh báo này sẽ không được hiển thị lại.
-dlg-keep-setting = Nhớ câu trả lời của tôi và không hỏi lại tôi
 
 ## Strings used in dialog.sys.mjs
 
@@ -809,8 +782,6 @@ dlg-button-cancel = &Hủy bỏ
 dlg-no-prompt = Không hiện lại hộp thoại này
 enig-prompt = Lời nhắc OpenPGP
 enig-confirm = Xác nhận OpenPGP
-enig-alert = Cảnh báo OpenPGP
-enig-info = Thông tin OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 

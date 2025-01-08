@@ -10,6 +10,3 @@ migration-progress-header = Geri { -brand-short-name } tilbúið...
 # These strings are displayed to the user if a migration is taking a long time.
 # They should be short (no more than a handful of words) and in the present tense.
 
-migration-task-test-fast = Er að prófa hraða breytingu
-migration-task-test-slow = Er að prófa hæga breytingu
-migration-task-test-progress = Er að prófa framvindustikuna

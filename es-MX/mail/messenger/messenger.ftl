@@ -160,22 +160,6 @@ mail-context-menu-forward-forward =
     .accesskey = R
 context-menu-redirect-msg =
     .label = Redirigir
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Eliminar mensaje
-           *[other] Eliminar mensajes seleccionados
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Recuperar mensaje eliminado
-           *[other] Recuperar mensajes seleccionados
-        }
 
 ## Message header pane
 
@@ -349,7 +333,7 @@ quick-filter-bar-toggle =
     .label = Barra de Filtro Rápido
     .accesskey = Q
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

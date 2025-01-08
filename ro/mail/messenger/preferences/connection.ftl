@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = C
     .tooltiptext = Introdu URL-ul preferat pentru rezolvarea DNS over HTTPS
 connection-dns-over-https-custom-label = Personalizat
-connection-dialog-window2 =
-    .title = Setările conexiunii
 connection-dialog-title = Setările conexiunii
 disable-extension-button = Dezactivează extensia
 # Variables:

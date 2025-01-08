@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = { -brand-short-name } Felsökningsläge
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = { -brand-short-name } Felsökningsläge
 troubleshoot-mode-description = Använd { -brand-short-name } felsökningsläge för att diagnostisera problem. Dina tillägg och anpassningar kommer att inaktiveras tillfälligt.
 troubleshoot-mode-description2 = Du kan göra några eller alla av dessa ändringar permanenta:

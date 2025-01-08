@@ -7,7 +7,6 @@
 <!-- XXX rearrange entities to match physical layout when l10n isn't an issue -->
 <!-- LOCALIZATION NOTE (clearTimeDuration.*): "Time range to clear" dropdown.
      See UI mockup at bug 480169 -->
-
 <!ENTITY clearTimeDuration.label          "ជួរ​ពេលវេលា​ត្រូវ​សម្អាត៖">
 <!ENTITY clearTimeDuration.accesskey      "T">
 <!ENTITY clearTimeDuration.lastHour       "ម៉ោង​ចុងក្រោយ">
@@ -18,9 +17,7 @@
 <!-- Localization note (clearTimeDuration.suffix) - trailing entity for languages
 that require it.  -->
 <!ENTITY clearTimeDuration.suffix         "កុំ​ផ្ញើ​ត្រឡប់​ទៅ​អ្នក​ទទួល">
-<!-- LOCALIZATION NOTE (detailsProgressiveDisclosure.*): Labels and accesskeys
-     of the "Details" progressive disclosure button.  See UI mockup at bug
-     480169 -->
+
 
 
 <!ENTITY itemHistory.label                 "ប្រវត្តិ​រុករក">
@@ -29,10 +26,9 @@ that require it.  -->
 <!ENTITY itemCookies.accesskey             "C">
 <!ENTITY itemCache.label                   "ឃ្លាំង​សម្ងាត់">
 <!ENTITY itemCache.accesskey               "a">
+
 <!-- LOCALIZATION NOTE (sanitizeEverythingUndoWarning): Second warning paragraph
      that appears when "Time range to clear" is set to "Everything".  See UI
      mockup at bug 480169 -->
-
 <!ENTITY sanitizeEverythingUndoWarning     "សកម្មភាព​នេះ​មិន​អាច​មិន​ធ្វើ​ឡើងវិញ​បាន​ទេ។">
 
-<!ENTITY dialog.width                 "28em">

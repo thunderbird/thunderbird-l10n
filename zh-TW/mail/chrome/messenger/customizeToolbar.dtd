@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "使用小圖示">
 <!ENTITY restoreDefaultSet.label  "回復預設設定">
 <!ENTITY showTitlebar2.label      "標題列">
-<!ENTITY extraDragSpace2.label    "拖曳空間">
 <!ENTITY saveChanges.label        "完成">
 <!ENTITY undoChanges.label        "取消變更">

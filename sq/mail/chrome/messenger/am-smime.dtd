@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Spastroje">
 <!ENTITY encryption.certificate_clear.accesskey "a">
 <!ENTITY signingGroupTitle.label "Nënshkrim Numerik">
-
 <!ENTITY signingCert2.message "Dëshmi personale për nënshkrim dixhital:">
 
 <!ENTITY sendingDefaults.label "Rregullime parazgjedhje për dërgim mesazhesh">

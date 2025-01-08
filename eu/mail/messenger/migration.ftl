@@ -10,6 +10,3 @@ migration-progress-header = { -brand-short-name } lortzeko prest…
 # These strings are displayed to the user if a migration is taking a long time.
 # They should be short (no more than a handful of words) and in the present tense.
 
-migration-task-test-fast = Aldaketa azkarra probatzen
-migration-task-test-slow = Aldaketa geldoa probatzen
-migration-task-test-progress = Aurrerapen barra probatzen

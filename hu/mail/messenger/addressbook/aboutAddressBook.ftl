@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = CardDAV-címjegyzék hozzáadása
 about-addressbook-toolbar-add-ldap-address-book =
     .label = LDAP-címjegyzék hozzáadása
-about-addressbook-toolbar-new-contact =
-    .label = Új névjegy
-about-addressbook-toolbar-new-list =
-    .label = Új lista
-about-addressbook-toolbar-import =
-    .label = Importálás
 books-pane-create-contact-button = Új névjegy
     .title = Új névjegy létrehozása
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Biztos, hogy törli a(z) { $name 
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Keresés ebben: { $name }
-about-addressbook-search-all =
-    .placeholder = Keresés az összes címjegyzékben
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -280,7 +268,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Névjegyfotó szerkesztése
 about-addressbook-new-contact-header = Új névjegy
-about-addressbook-prefer-display-name = Megjelenő név előnyben részesítése az üzenetfejlécben levő helyett
 about-addressbook-write-action-button = Írás
 about-addressbook-event-action-button = Esemény
 about-addressbook-search-action-button = Keresés

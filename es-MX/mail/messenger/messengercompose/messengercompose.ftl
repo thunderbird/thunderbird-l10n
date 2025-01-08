@@ -184,18 +184,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Gestor de claves
     .accesskey = G
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = El cifrado de extremo a extremo requiere resolver problemas clave para { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = El cifrado de extremo a extremo requiere resolver problemas de claves para { $count } destinatarios.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = El cifrado de extremo a extremo requiere resolver problemas de certificados para { $addr }.
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = El cifrado de extremo a extremo requiere resolver problemas de certificados para { $count } destinatarios.
 key-notification-disable-encryption =
     .label = No cifrar
     .accesskey = N
@@ -259,12 +247,6 @@ show-bcc-row-button = Cco
     .title = Mostrar campo Cco ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Otros campos de direcciones para mostrar
-#   $count (Number) - the count of addresses in the "To" and "Cc" fields.
-many-public-recipients-notice =
-    { $count ->
-        [one] Tu mensaje tiene un destinatario público. Puedes evitar la divulgación de destinatarios utilizando Cco en su lugar.
-       *[other] Los destinatarios de { $count } en Para y Cc verán la dirección de cada uno. Puedes evitar la divulgación de destinatarios utilizando Cco en su lugar.
-    }
 many-public-recipients-bcc =
     .label = Utiliza Cco en su lugar
     .accesskey = U

@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "작은 아이콘 사용">
 <!ENTITY restoreDefaultSet.label  "기본 설정 복원">
 <!ENTITY showTitlebar2.label      "제목 표시 줄">
-<!ENTITY extraDragSpace2.label    "드래그 공간">
 <!ENTITY saveChanges.label        "완료">
 <!ENTITY undoChanges.label        "변경사항 취소">

@@ -27,7 +27,6 @@ webext-perms-description-messagesModify = Irakurri eta aldatu zure posta elektro
 webext-perms-description-messagesModifyPermanent = Aldatu betirako zure mezuen iturria (goiburuak, gorputza eta eranskinak barne)
 webext-perms-description-messagesMove = Kopiatu edo mugitu zure posta mezuak (hauek zakarrontzi karpetara mugitzea barne)
 webext-perms-description-messagesDelete = Betirako ezabatu zure posta mezuak
-webext-perms-description-messagesRead = Irakurri zure posta elektroniko mezuak eta horiek markatu edo etiketatu
 webext-perms-description-messagesRead2 = Zure mezuak irakurri
 webext-perms-description-messagesUpdate = Zure mezuen propietate eta etiketak aldatu
 webext-perms-description-messagesTags = Sortu, aldatu eta ezabatu mezu etiketak

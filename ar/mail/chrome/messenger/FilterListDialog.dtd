@@ -36,8 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "م">
 <!ENTITY helpButton.label "مساعدة">
 <!ENTITY helpButton.accesskey "م">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "ابحث في المُرشّحات بالاسم…">
-
-
-

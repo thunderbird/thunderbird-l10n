@@ -11,9 +11,3 @@
 <!-- Calendar Invitations List -->
 <!ENTITY calendar.invitations.list.accept.button.label                  "허가">
 <!ENTITY calendar.invitations.list.decline.button.label                 "거절">
-<!ENTITY calendar.invitations.list.recurrentevent.text                  "이벤트 반복">
-<!ENTITY calendar.invitations.list.alldayevent.text                     "종일">
-<!ENTITY calendar.invitations.list.location.text                        "장소: ">
-<!ENTITY calendar.invitations.list.organizer.text                       "주최자: ">
-<!ENTITY calendar.invitations.list.attendee.text                        "참가자: ">
-<!ENTITY calendar.invitations.list.none.text                            "없음">

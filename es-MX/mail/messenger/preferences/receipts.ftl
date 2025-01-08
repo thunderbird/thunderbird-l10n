@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-receipts-dialog-window =
-    .title = Acuses de recibido
 receipts-dialog-title = Acuses de recibido
 return-receipt-checkbox-control =
     .label = Cuando se envíen mensajes, siempre solicitar un acuse de recibido

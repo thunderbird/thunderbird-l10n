@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "T">
 <!ENTITY newVirtualFolderCmd.label "Xyak Kanoxïk…">
 <!ENTITY newVirtualFolderCmd.accesskey "y">
-<!ENTITY newCreateEmailAccountCmd.label "Tik'ul jun K'ak'a' Rub'i' Taqoya'l…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "T">
-<!ENTITY newExistingEmailAccountCmd.label "Rub'i' Taqoya'l E K'o…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "K">
 <!ENTITY newIMAccountCmd.label "Rub'i' Rutaqoya'l Chat…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "Rub'i' Rutaqoya'l B'ey…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Tiyuj Tzijol">
-<!ENTITY deleteMsgCmd.accesskey "y">
-<!ENTITY undeleteMsgCmd.label "Man Tiyuj Rutzijol">
-<!ENTITY undeleteMsgCmd.accesskey "y">
-<!ENTITY deleteMsgsCmd.label "Keyuj Cha'on taq Tzijol">
-<!ENTITY deleteMsgsCmd.accesskey "K">
-<!ENTITY undeleteMsgsCmd.label "Man Keyuj Cha'on taq Tzijol">
-<!ENTITY undeleteMsgsCmd.accesskey "y">
-<!ENTITY deleteFolderCmd.label "Tiyuj ri Yakwuj">
-<!ENTITY deleteFolderCmd.accesskey "y">
-<!ENTITY unsubscribeNewsgroupCmd.label "Tiq'at rutz'ib'axik b'i'aj">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "b">
 <!ENTITY selectMenu.label "Ticha'">
 <!ENTITY selectMenu.accesskey "c">
 <!ENTITY all.label "Ronojel">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "Y">
 <!ENTITY menuFavoriteFolder.label "Ajowanel Yakwuj">
 <!ENTITY menuFavoriteFolder.accesskey "w">
-<!ENTITY folderPropsCmd2.label "Taq ichinil">
-<!ENTITY folderPropsFolderCmd2.label "Kichinil Yakwuj">
-<!ENTITY folderPropsNewsgroupCmd2.label "Kichinil Kimolaj Tzijol">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Titzolïx Tiyuj Rutzijol">
 <!ENTITY redoDeleteMsgCmd.label "Tikamulüx chik Tiyuj Rutzijol">
 <!ENTITY undoMoveMsgCmd.label "Titzolïx Tisilöx Rutzijol">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "P">
 <!ENTITY showFolderPaneCmd.label "Ruyakwuj Pas">
 <!ENTITY showFolderPaneCmd.accesskey "R">
-<!ENTITY showFolderPaneColsCmd.label "Ruche'el Ruyakwuj Pas">
-<!ENTITY showFolderPaneColsCmd.accesskey "P">
 <!ENTITY showMessageCmd.label "Rupas Tzijol">
 <!ENTITY showMessageCmd.accesskey "T">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "K'ak'a' Rutzijol">
 <!ENTITY appmenuNewContactCmd.label "Kib'i' Achib'il pa Kitz'ib'awuj Ochochib'äl…">
-<!ENTITY appmenuEditMenu.label "Tinuk'">
 <!ENTITY appmenuToolbarLayout.label "Ruwachib'enïk Rukajtz'ik Samajib'äl…">
-<!ENTITY appmenuSelectThread.label "Ticha' Tzijonem">
-<!ENTITY appmenuSelectFlagged.label "Kecha' taq Tzijol K'o Kiq'ij">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "K'ak'a' Etal…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "T">
 <!ENTITY folderContextMarkNewsgroupRead.label "Tiya' Retal Kimolaj Tzijol achi'el Sik'in">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "t">
-<!ENTITY folderContextMarkMailFolderRead.label "Tiya' Retal Yakwuj Sik'in">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "t">
 <!ENTITY folderContextSubscribe.label "Titz'ib'äx nub'i'…">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "Kekanöx Tzijol…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "K">
 <!ENTITY contextReplyList.label "Titzolïx tzij chi re ri Cholb'äl">
 <!ENTITY contextReplyList.accesskey "C">
-<!ENTITY contextForward.label "Jun chik">
-<!ENTITY contextForward.accesskey "J">
-<!ENTITY contextForwardAsMenu.label "Titaq chik Achi'el">
-<!ENTITY contextForwardAsMenu.accesskey "e">
-<!ENTITY contextForwardAsInline.label "Pa k'amab'ey">
-<!ENTITY contextForwardAsInline.accesskey "P">
-<!ENTITY contextForwardAsAttachmentItem.label "Taqoj">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "T">
-<!ENTITY contextMultiForwardAsAttachment.label "Titaq chik achi'el taq taqoj">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "a">
 <!ENTITY contextMoveMsgMenu.label "Tiq'asäx Pa">
 <!ENTITY contextMoveMsgMenu.accesskey "T">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "K'ak'a'">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "W">
 <!ENTITY copyEmailCmd.label "Tiwachib'ëx Rochochib'al Taqoya'l">
 <!ENTITY copyEmailCmd.accesskey "T">
-<!ENTITY stopCmd.label "Tiq'at">
-<!ENTITY stopCmd.accesskey "q">
-<!ENTITY reloadCmd.label "Tisamajïx chik">
-<!ENTITY reloadCmd.accesskey "s">
 <!ENTITY openInBrowser.label "Tijaq Pan Okik'amaya'l">
 <!ENTITY openInBrowser.accesskey "T">
 <!ENTITY openLinkInBrowser.label "Tijaq Ximonel Pan Okik'amaya'l">

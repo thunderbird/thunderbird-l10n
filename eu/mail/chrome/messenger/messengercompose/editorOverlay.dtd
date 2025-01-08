@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Taularen propietateak…">
 <!ENTITY tableProperties.accesskey "o">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Irudia">
 <!ENTITY imageToolbarCmd.tooltip "Txertatu irudi berria edo aldatu hautatutako irudiaren propietateak">
 <!ENTITY hruleToolbarCmd.label "Lerro horizontala">

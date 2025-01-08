@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Barve
 colors-dialog-title = Barve
 colors-dialog-legend = Besedilo in ozadje
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Obiskane povezave:
     .accesskey = s
-underline-link-checkbox =
-    .label = Podčrtaj povezave
-    .accesskey = P
 always-underline-links =
     .label = Vedno podčrtaj povezave
     .accesskey = V

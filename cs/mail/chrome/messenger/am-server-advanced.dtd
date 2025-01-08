@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "u">
 <!ENTITY overrideNamespaces.label "Povolit serveru přepsat tyto jmenné prostory">
 <!ENTITY overrideNamespaces.accesskey "P">
-<!ENTITY pop3DeferringDesc.label "Staženou poštu ze serveru tohoto účtu uložit v následující složce:" >
+<!ENTITY pop3DeferringDesc.label "Staženou poštu ze serveru tohoto účtu uložit v následující složce:">
 <!ENTITY accountInbox.label "Doručená pošta v tomto účtu">
 <!ENTITY accountInbox.accesskey "d">
 <!ENTITY deferToServer.label "Doručená pošta v jiném účtu">

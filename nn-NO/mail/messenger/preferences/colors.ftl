@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Fargar
 colors-dialog-title = Fargar
 colors-dialog-legend = Tekst og bakgrunn
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Besøkte lenker:
     .accesskey = s
-underline-link-checkbox =
-    .label = Understrek lenker
-    .accesskey = U
 override-color-label =
     .value = Overstyr fargane spesifiserte av innhaldet med vala mine ovanfor:
     .accesskey = O

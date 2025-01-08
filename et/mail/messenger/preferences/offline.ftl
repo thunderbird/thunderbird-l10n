@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-offline-dialog-window =
-    .title = Võrguta režiimi sätted
 offline-dialog-title = Võrguta režiimi sätted
 autodetect-online-label =
     .label = Järgitakse automaatselt tuvastatud võrgurežiimi

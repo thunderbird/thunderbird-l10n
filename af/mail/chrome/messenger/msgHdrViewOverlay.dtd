@@ -6,40 +6,11 @@
 <!ENTITY fromField4.label "Van">
 <!ENTITY senderField4.label "Afsender">
 
-
-
-
 <!ENTITY ccField4.label "CC">
 <!ENTITY bccField4.label "BCC">
-
-
-
 <!ENTITY dateField4.label "Datum">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!ENTITY hdrTrashButton1.label "Skrap">
-
 
 <!ENTITY hdrViewToolbarShowFull.label "Wys ikone en teks">
 <!ENTITY hdrViewToolbarShowFull.accesskey "e">
@@ -52,36 +23,11 @@
 
 <!ENTITY otherActionsButton2.label "Meer">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- Attachment bar context menu items -->
 
 <!-- Attachment context menu items -->
-
 <!ENTITY openAttachmentCmd.label    "Open">
 <!ENTITY openAttachmentCmd.accesskey    "O">
-
-
-
-
-
-
-
-
 <!ENTITY saveAllAttachmentsCmd.label    "Stoor alle…">
 <!ENTITY saveAllAttachmentsCmd.accesskey    "S">
 <!ENTITY detachAllAttachmentsCmd.label    "Afheg alle…">
@@ -89,18 +35,11 @@
 <!ENTITY deleteAllAttachmentsCmd.label    "Skrap alle…">
 <!ENTITY deleteAllAttachmentsCmd.accesskey    "S">
 
+
+
 <!-- Attachment toolbar items -->
-
 <!ENTITY saveAttachmentButton1.label       "Stoor">
-
-
-
 
 <!ENTITY copyLinkCmd.label        "Kopieer skakelligging">
 <!ENTITY copyLinkCmd.accesskey    "K">
-
-
-
-
-
 

@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Variables:
-# $organizer (String) - The participant that created the original invitation.
-calendar-invitation-panel-intro = { $organizer } zaprasza Cię na wydarzenie:
 calendar-invitation-panel-status-new = Masz zaproszenie na to wydarzenie.
 calendar-invitation-panel-status-processed = To wydarzenie zostało już dodane do kalendarza.
 calendar-invitation-panel-status-updateminor = Ta wiadomość zawiera aktualizację tego wydarzenia.
@@ -17,31 +14,19 @@ calendar-invitation-panel-intro-cancel = { $organizer } odwołuje:
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
-calendar-invitation-panel-action-button = Zapisz
 calendar-invitation-panel-view-button = Wyświetl
 calendar-invitation-panel-update-button = Uaktualnij
 calendar-invitation-panel-delete-button = Usuń
 calendar-invitation-panel-accept-button = Tak
 calendar-invitation-panel-decline-button = Nie
 calendar-invitation-panel-tentative-button = Może
-calendar-invitation-panel-reply-status = * Jeszcze nie podjęto decyzji ani nie odpowiedziano
 calendar-invitation-panel-more-button = Więcej
-calendar-invitation-panel-menu-item-save =
-    .label = Zachowaj w kalendarzu
 calendar-invitation-panel-menu-item-save-copy =
     .label = Zachowaj kopię
 calendar-invitation-panel-menu-item-toggle-changes =
     .label = Pokaż zmiany
 calendar-invitation-panel-prop-title-when = Kiedy:
 calendar-invitation-panel-prop-title-location = Miejsce:
-# Variables:
-# $dayOfWeek (String) - The day of the week for a given date.
-# $date (String) - The date example: Tuesday, February 24, 2022.
-calendar-invitation-datetime-date = { $dayOfWeek }, { $date }
-# Variables:
-# $time (String) - The time part of a datetime using the "short" timeStyle.
-# $timezone (String) - The timezone info for the datetime.
-calendar-invitation-datetime-time = { $time } ({ $timezone })
 # Example: Friday, September 16, 2022
 # Variables:
 # $startDate (String) - The date (without time) the event starts on.

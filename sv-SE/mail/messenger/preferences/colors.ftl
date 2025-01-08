@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Färger
 colors-dialog-title = Färger
 colors-dialog-legend = Text och bakgrund
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Besökta länkar:
     .accesskey = b
-underline-link-checkbox =
-    .label = Understrukna länkar
-    .accesskey = u
 always-underline-links =
     .label = Stryk alltid under länkar
     .accesskey = u

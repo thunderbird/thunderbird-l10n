@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-
 <!ENTITY title.label "Slándáil na dTeachtaireachtaí">
 <!ENTITY subject.plaintextWarning "Tabhair faoi deara: ní dhéantar criptiúchán riamh ar línte ábhair na dteachtaireachtaí ríomhphoist.">
 <!ENTITY status.heading "Seolfar inneachar do theachtaireachta mar seo:">

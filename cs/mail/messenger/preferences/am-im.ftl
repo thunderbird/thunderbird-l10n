@@ -4,14 +4,14 @@
 
 account-settings-title = Nastavení ověřování
 account-channel-title = Výchozí kanály
-
 chat-autologin =
     .label = Připojit při startu
-
 chat-encryption-generic = Obecné
 chat-encryption-log =
     .label = Zahrnout koncově šifrované zprávy do protokolů konverzací
 chat-encryption-label = Nativní koncové šifrování
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = Protokol { $protocol } umožňuje koncové šifrování chatových zpráv jako ochranu před sledování vašich konverzací třetími stranami. Pro fungování tohoto šifrování může být potřeba dodatečné nastavení níže.
 chat-encryption-status = Stav šifrování
 chat-encryption-placeholder = Šifrování nebylo zahájeno.

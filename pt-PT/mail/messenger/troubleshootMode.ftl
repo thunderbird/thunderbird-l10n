@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = Modo de diagnóstico do { -brand-short-name }
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = Modo de diagnóstico do { -brand-short-name }
 troubleshoot-mode-description = Utilizar este modo de diagnóstico do { -brand-short-name } para identificar problemas. As suas extensões e personalizações serão temporariamente desativadas.
 troubleshoot-mode-description2 = Pode tornar permanentes algumas ou todas as alterações:

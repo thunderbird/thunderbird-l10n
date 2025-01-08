@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 
-<!ENTITY manageSubscriptions.label "…ਮੈਂਬਰੀ ਪਰਬੰਧ"> 
+
+<!ENTITY manageSubscriptions.label     "…ਮੈਂਬਰੀ ਪਰਬੰਧ">
 <!ENTITY manageSubscriptions.accesskey "M">
 
-<!-- entities from rss.rdf -->
-<!ENTITY feeds.accountName "ਬਲੌਗ ਤੇ ਨਿਊਜ਼ ਫੀਡ">
+<!ENTITY feeds.accountName             "ਬਲੌਗ ਤੇ ਨਿਊਜ਼ ਫੀਡ">

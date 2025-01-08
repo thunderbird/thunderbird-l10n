@@ -21,22 +21,6 @@ update-unsupported = Ne možete vršiti dodatni update na ovom sistemu. <a data-
 channel-description = Trenutno ste na <span data-l10n-name="current-channel">{ $channel }</span> update kanalu.
 warning-desc-version = { -brand-short-name } je eksperimentalna verzija i može biti nestabilna.
 warning-desc-telemetry = Automatski { -vendor-short-name }-i šalje informacije o performansama, hadrveru i upotrebi kako bi učinio { -brand-short-name } boljim.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     je <a data-l10n-name="community-exp-credits-link">
-    globalna zajednica</a>
-     koja nastoji zadržati Web otvorenim, javnim i dostupnim svima.
-community-2 =
-    { -brand-short-name } je dizajnirala <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , <a data-l10n-name="community-credits-link">
-    globalna zajednica</a>
-     koja nastoji zadržati Web otvorenim, javnim i dostupnim svima.
-about-helpus =
-    Želite li pomoći? <a data-l10n-name="helpus-donate-link">
-    Donirajte</a> or <a data-l10n-name="helpus-get-involved-link">
-    se uključite!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> je <a data-l10n-name="community-exp-credits-link">globalna zajednica</a> koja nastoji zadržati Web otvorenim, javnim i dostupnim svima.
 community-desc = { -brand-short-name } je dizajnirala <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, <a data-l10n-name="community-credits-link">globalna zajednica</a> koja nastoji zadržati Web otvorenim, javnim i dostupnim svima.
 about-donation = Želite li pomoći? <a data-l10n-name="helpus-donate-link">Donirajte</a> or <a data-l10n-name="helpus-get-involved-link">se uključite!</a>

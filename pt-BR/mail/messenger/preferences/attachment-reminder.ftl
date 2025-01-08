@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = Palavras-chave do lembrete de anexos
 attachment-reminder-dialog-title = Palavras-chave do lembrete de anexos
 attachment-reminder-label = O { -brand-short-name } lhe avisa sobre a falta de anexos quando você for enviar um email contendo uma dessas palavras-chave.
 keyword-new-button =

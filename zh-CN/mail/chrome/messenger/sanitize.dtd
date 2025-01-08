@@ -33,4 +33,3 @@ that require it.  -->
      mockup at bug 480169 -->
 <!ENTITY sanitizeEverythingUndoWarning     "此操作不可撤销。">
 
-<!ENTITY dialog.width                 "32em">

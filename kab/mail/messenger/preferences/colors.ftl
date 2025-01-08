@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Initen
 colors-dialog-title = Initen
 colors-dialog-legend = Aḍris d ugilal
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Iseɣwan iţwarzan:
     .accesskey = I
-underline-link-checkbox =
-    .label = Derrer iseɣwan
-    .accesskey = D
 override-color-label =
     .value = Seεfej initen i d-yemmal ugbur s wid yettwafernen nnig-a:
     .accesskey = ɛ

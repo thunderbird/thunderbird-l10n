@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = 新增 CardDAV 通訊錄
 about-addressbook-toolbar-add-ldap-address-book =
     .label = 新增 LDAP 通訊錄
-about-addressbook-toolbar-new-contact =
-    .label = 新增連絡人
-about-addressbook-toolbar-new-list =
-    .label = 新增群組名單
-about-addressbook-toolbar-import =
-    .label = 匯入
 books-pane-create-contact-button = 新增聯絡人
     .title = 建立新聯絡人
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = 您確定要刪除 { $name } 嗎�
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = 搜尋 { $name }
-about-addressbook-search-all =
-    .placeholder = 搜尋所有通訊錄
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -272,7 +260,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = 編輯連絡人相片
 about-addressbook-new-contact-header = 新連絡人
-about-addressbook-prefer-display-name = 在郵件檔頭上方顯示姓名
 about-addressbook-write-action-button = 寫信
 about-addressbook-event-action-button = 事件
 about-addressbook-search-action-button = 搜尋

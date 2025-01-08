@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "g">
 <!ENTITY newVirtualFolderCmd.label "Vistuð leit…">
 <!ENTITY newVirtualFolderCmd.accesskey "V">
-<!ENTITY newCreateEmailAccountCmd.label "Búa til nýjan póstreikning…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "g">
-<!ENTITY newExistingEmailAccountCmd.label "Póstreikningur sem er þegar til…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "e">
 <!ENTITY newIMAccountCmd.label "Spjallreikningur…">
 <!ENTITY newIMAccountCmd.accesskey "S">
 <!ENTITY newFeedAccountCmd.label "Streymisreikningur…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Eyða pósti">
-<!ENTITY deleteMsgCmd.accesskey "y">
-<!ENTITY undeleteMsgCmd.label "Endurheimta póst">
-<!ENTITY undeleteMsgCmd.accesskey "d">
-<!ENTITY deleteMsgsCmd.label "Eyða völdum póstum">
-<!ENTITY deleteMsgsCmd.accesskey "E">
-<!ENTITY undeleteMsgsCmd.label "Endurheimta valinn póst">
-<!ENTITY undeleteMsgsCmd.accesskey "d">
-<!ENTITY deleteFolderCmd.label "Eyða möppu">
-<!ENTITY deleteFolderCmd.accesskey "E">
-<!ENTITY unsubscribeNewsgroupCmd.label "Afpanta áskrift">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "n">
 <!ENTITY selectMenu.label "Velja">
 <!ENTITY selectMenu.accesskey "V">
 <!ENTITY all.label "Allt">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "S">
 <!ENTITY menuFavoriteFolder.label "Eftirlætismappa">
 <!ENTITY menuFavoriteFolder.accesskey "t">
-<!ENTITY folderPropsCmd2.label "Eiginleikar">
-<!ENTITY folderPropsFolderCmd2.label "Eiginleikar möppu">
-<!ENTITY folderPropsNewsgroupCmd2.label "Eiginleikar fréttahóps">
-<!ENTITY folderPropsCmd.accesskey "g">
 <!ENTITY undoDeleteMsgCmd.label "Hætta við að eyða pósti">
 <!ENTITY redoDeleteMsgCmd.label "Eyða aftur pósti">
 <!ENTITY undoMoveMsgCmd.label "Hætta við að færa póst">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "ð">
 <!ENTITY showFolderPaneCmd.label "Möppuspjald">
 <!ENTITY showFolderPaneCmd.accesskey "f">
-<!ENTITY showFolderPaneColsCmd.label "Dálkar á möppuspjaldi">
-<!ENTITY showFolderPaneColsCmd.accesskey "p">
 <!ENTITY showMessageCmd.label "Lestrarspjald">
 <!ENTITY showMessageCmd.accesskey "L">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nýr póstur">
 <!ENTITY appmenuNewContactCmd.label "Tengiliður í nafnaskrá…">
-<!ENTITY appmenuEditMenu.label "Breyta">
 <!ENTITY appmenuToolbarLayout.label "Útlit verkfærastiku…">
-<!ENTITY appmenuSelectThread.label "Velja umræðu">
-<!ENTITY appmenuSelectFlagged.label "Velja stjörnumerkt skilaboð">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nýtt merki…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "A">
 <!ENTITY folderContextMarkNewsgroupRead.label "Merkja fréttahóp sem lesinn">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "k">
-<!ENTITY folderContextMarkMailFolderRead.label "Merkja möppu sem lesna">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "k">
 <!ENTITY folderContextSubscribe.label "Gerast áskrifandi…">
 <!ENTITY folderContextSubscribe.accesskey "e">
 <!ENTITY folderContextSearchForMessages.label "Leita í pósti…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "ö">
 <!ENTITY contextReplyList.label "Svara póstlista">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextForward.label "Áfram">
-<!ENTITY contextForward.accesskey "m">
-<!ENTITY contextForwardAsMenu.label "Áframsenda sem">
-<!ENTITY contextForwardAsMenu.accesskey "f">
-<!ENTITY contextForwardAsInline.label "Innfellt">
-<!ENTITY contextForwardAsInline.accesskey "I">
-<!ENTITY contextForwardAsAttachmentItem.label "Viðhengi">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "V">
-<!ENTITY contextMultiForwardAsAttachment.label "Áframsenda sem viðhengi">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "f">
 <!ENTITY contextMoveMsgMenu.label "Færa í">
 <!ENTITY contextMoveMsgMenu.accesskey "F">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Nýlegt">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "i">
 <!ENTITY copyEmailCmd.label "Afrita póstfang">
 <!ENTITY copyEmailCmd.accesskey "p">
-<!ENTITY stopCmd.label "Stöðva">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Endurnýja">
-<!ENTITY reloadCmd.accesskey "E">
 <!ENTITY openInBrowser.label "Opna í vafra">
 <!ENTITY openInBrowser.accesskey "O">
 <!ENTITY openLinkInBrowser.label "Opna tengil í vafra">

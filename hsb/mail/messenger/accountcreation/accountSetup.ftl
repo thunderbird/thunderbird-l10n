@@ -37,8 +37,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Hesło
     .accesskey = H
     .title = Opcionalne, wužiwa so jenož, zo by so wužiwarske mjeno přepruwowało
-account-provisioner-button = Wobstarajće sej e-mejlowu adresu
-    .accesskey = b
 account-setup-password-toggle-show =
     .title = Hesło lutym teksće pokazać
 account-setup-password-toggle-hide =
@@ -150,7 +148,6 @@ account-setup-credentials-incomplete = Awtentifikacija je so nimokuliła. Pak th
 account-setup-credentials-wrong = Awtentifikacija je so nimokuliła. Prošu přepruwujće wužiwarske mjeno a hesło
 account-setup-find-settings-failed = { -brand-short-name } njemóžeše nastajenja za waše e-mejlowe konto namakać.
 account-setup-exchange-config-unverifiable = Konfiguracija njeda so přepruwować. Jeli waše wužiwarske mjeno a waše hesło stej korektnej, je najskerje serwerowy adminsitrator wubranu konfiguraciju za waše konto znjemóžnił. Wubjerće druhi protokol.
-account-setup-provisioner-error = Zmylk je nastał, mjeztym zo sće swoje nowe konto w { -brand-short-name } konfigurował. Prošu spytajće swoje konto ze swojimi přizjewjenskimi datami manuelnje konfigurować.
 
 ## Manual configuration area
 

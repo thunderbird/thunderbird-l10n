@@ -66,12 +66,12 @@
 <!ENTITY viewSourceMenuItem1.accesskey "V">
 <!ENTITY otherActionsPrint1.label "Տպել…">
 <!ENTITY otherActionsPrint1.accesskey "P">
-<!-- Attachment bar context menu items -->
 
+<!-- Attachment bar context menu items -->
 <!ENTITY startExpandedCmd.label    "ដំបូង​បង្ហាញ​បន្ទះ​ភ្ជាប់">
 <!ENTITY startExpandedCmd.accesskey    "S">
-<!-- Attachment context menu items -->
 
+<!-- Attachment context menu items -->
 <!ENTITY openAttachmentCmd.label    "Բացել">
 <!ENTITY openAttachmentCmd.accesskey    "O">
 <!ENTITY saveAsAttachmentCmd.label    "Պահպանել որպես…">
@@ -90,8 +90,9 @@
 <!ENTITY deleteAllAttachmentsCmd.accesskey    "e">
 
 <!ENTITY openAttachment.tooltip "បើក​ឯកសារ​ភ្ជាប់">
-<!-- Attachment toolbar items -->
 
+
+<!-- Attachment toolbar items -->
 <!ENTITY saveAttachmentButton1.label       "រក្សាទុក​">
 <!ENTITY saveAttachmentButton1.tooltip     "រក្សាទុក​ឯកសារ​ភ្ជាប់">
 <!ENTITY saveAllAttachmentsButton1.label   "រក្សាទុក​ទាំងអស់​">

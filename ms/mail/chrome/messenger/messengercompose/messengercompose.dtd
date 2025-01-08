@@ -205,12 +205,13 @@
 <!ENTITY printButton.tooltip "Cetak mesej ini">
 
 <!-- Headers -->
-<!-- Headers -->
+<!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
+    Subject: rows. It should be larger than the largest Header label  -->
 <!ENTITY fromAddr.accesskey "r">
 <!ENTITY subject.accesskey "S">
 <!ENTITY attachmentBucketCloseButton.tooltip "Sorok anak tetingkap lampiran">
 
-<!-- Format Toolbar, imported from editorAppShell.xul -->
+<!-- Format Toolbar, imported from editorAppShell.xhtml -->
 <!ENTITY SmileButton.tooltip "Sisip wajah senyuman">
 <!ENTITY smiley1Cmd.label "Senyum">
 <!ENTITY smiley2Cmd.label "Berkerut">

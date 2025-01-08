@@ -10,12 +10,6 @@ reminder-title-at-start-event = Այն պահին, երբ իրադարձութի
 reminder-title-at-start-task = Այն պահին, երբ առաջադրանքը սկսուում է
 reminder-title-at-end-event = Իրադարձութեան աւարտի պահին
 reminder-title-at-end-task = Առաջադրանքի աւարտի պահին
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Ննջեցնել { $unit } ֊ի համար յիշեցումը
 reminder-custom-origin-begin-before-event = մինչ իրադարձութեան սկսուելը
 reminder-custom-origin-begin-after-event = իրադարձութեան սկսուելուց յետոյ
 reminder-custom-origin-end-before-event = մինչ իրադարձութեան աւարտը

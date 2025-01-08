@@ -10,6 +10,3 @@ migration-progress-header = Preparaziun da { -brand-short-name }…
 # These strings are displayed to the user if a migration is taking a long time.
 # They should be short (no more than a handful of words) and in the present tense.
 
-migration-task-test-fast = Test dad ina midada svelta
-migration-task-test-slow = Test dad ina midada plauna
-migration-task-test-progress = Test da la trav da progress

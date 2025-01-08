@@ -2,9 +2,3 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-openpgp-compose-key-status-recipient =
-    .label = K'ulunel
-openpgp-compose-key-status-status =
-    .label = B'anikil
-openpgp-recip-good = ütz
-openpgp-compose-general-info-alias-learn-more = Tetamäx ch'aqa' chik

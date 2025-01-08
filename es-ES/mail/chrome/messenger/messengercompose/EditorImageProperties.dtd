@@ -4,10 +4,12 @@
 
 <!-- These strings are for use specifically in the editor's image and form image dialogs. -->
 
+<!-- Window title -->
 <!ENTITY windowTitle.label "Propiedades de la imagen">
 
 <!ENTITY pixelsPopup.value "píxeles">
 
+<!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "URL de la imagen:">
 <!ENTITY locationEditField.accessKey "L">
 <!ENTITY locationEditField.tooltip "Teclee el nombre de archivo de la imagen o su ubicación">
@@ -24,7 +26,7 @@
 <!ENTITY previewBox.label "Vista preliminar">
 
 <!-- These controls are in the Dimensions tab panel -->
-<!-- These controls are in the Dimensions tab panel -->
+<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Tamaño real:">
 <!ENTITY actualSizeRadio.label "Tamaño real">
 <!ENTITY actualSizeRadio.accessKey "A">
@@ -40,10 +42,12 @@
 <!ENTITY constrainCheckbox.accessKey "C">
 <!ENTITY constrainCheckbox.tooltip "Mantener la proporción en el aspecto de la imagen">
 
+<!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Mapa de imagen">
 <!ENTITY removeImageMapButton.label "Eliminar">
 <!ENTITY removeImageMapButton.accessKey "R">
 
+<!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Alinear el texto con la imagen">
 <!ENTITY bottomPopup.value "En la parte inferior">
 <!ENTITY topPopup.value "En la parte superior
@@ -52,6 +56,7 @@
 <!ENTITY wrapRightPopup.value "El texto fluye por la derecha">
 <!ENTITY wrapLeftPopup.value "El texto fluye por la izquierda">
 
+<!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Espacio">
 <!ENTITY leftRightEditField.label "Izquierda y derecha:">
 <!ENTITY leftRightEditField.accessKey "I">
@@ -60,12 +65,14 @@
 <!ENTITY borderEditField.label "Borde sólido:">
 <!ENTITY borderEditField.accessKey "B">
 
+<!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Mostrar el borde alrededor de la imagen-enlace">
 <!ENTITY showImageLinkBorder.accessKey "B">
 <!ENTITY LinkAdvancedEditButton.label "Edición avanzada del enlace…">
 <!ENTITY LinkAdvancedEditButton.accessKey "E">
 <!ENTITY LinkAdvancedEditButton.tooltip "Añada o modifique atributos HTML, atributos de estilo y JavaScript">
 
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Formulario">
 <!ENTITY imageLocationTab.label "Ubicación">
 <!ENTITY imageDimensionsTab.label "Dimensiones">

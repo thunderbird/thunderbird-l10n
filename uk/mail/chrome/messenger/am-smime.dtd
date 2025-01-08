@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Очистити">
 <!ENTITY encryption.certificate_clear.accesskey "и">
 <!ENTITY signingGroupTitle.label "Цифровий підпис">
-
 <!ENTITY signingCert2.message "Особистий сертифікат для цифрового підпису:">
 
 <!ENTITY sendingDefaults.label "Типові параметри надсилання повідомлень">

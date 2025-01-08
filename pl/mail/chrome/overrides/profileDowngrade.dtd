@@ -10,7 +10,6 @@
  given Thunderbird channel". These terms are not synonymous.
 -->
 <!ENTITY window.title "Uruchomiono starszą wersję programu &brandProductName;">
-<!ENTITY window.style "width: 490px;">
 
 <!ENTITY window.nosync2 "Nowsza wersja programu &brandProductName; mogła wprowadzić zmiany w profilu, które nie są zgodne z tą starszą wersją. Używaj tego profilu tylko w tej nowszej wersji lub utwórz nowy profil dla tej instalacji programu &brandShortName;. Utworzenie nowego profilu spowoduje konieczność ponownego skonfigurowania kont, kalendarzy i dodatków.">
 

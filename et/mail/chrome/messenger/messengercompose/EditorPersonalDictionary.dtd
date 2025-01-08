@@ -2,18 +2,17 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
-<!ENTITY windowTitle.label        "Isiklik sõnaraamat">
+<!ENTITY windowTitle.label "Isiklik sõnaraamat">
 
-<!ENTITY wordEditField.label      "Uus sõna:">
-<!ENTITY wordEditField.accessKey  "U">
-<!ENTITY AddButton.label          "Lisa">
-<!ENTITY AddButton.accessKey      "L">
-<!ENTITY DictionaryList.label     "Sõnad sõnaraamatus:">
+<!ENTITY wordEditField.label "Uus sõna:">
+<!ENTITY wordEditField.accessKey "U">
+<!ENTITY AddButton.label "Lisa">
+<!ENTITY AddButton.accessKey "L">
+<!ENTITY DictionaryList.label "Sõnad sõnaraamatus:">
 <!ENTITY DictionaryList.accessKey "n">
-<!ENTITY RemoveButton.label       "Eemalda">
-<!ENTITY RemoveButton.accessKey   "E">
+<!ENTITY RemoveButton.label "Eemalda">
+<!ENTITY RemoveButton.accessKey "E">
 
-<!ENTITY CloseButton.label        "Sulge">
-<!ENTITY CloseButton.accessKey    "u">
+<!ENTITY CloseButton.label "Sulge">
+<!ENTITY CloseButton.accessKey "u">

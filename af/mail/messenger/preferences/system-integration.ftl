@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-system-integration-title =
-    .title = Stelselintegrasie
 system-integration-dialog-title = Stelselintegrasie
 default-client-intro = Gebruik { -brand-short-name } as die verstekkliënt vir:
 checkbox-email-label =

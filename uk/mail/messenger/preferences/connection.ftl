@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = В
     .tooltiptext = Введіть бажаний URL для розв'язання DNS через HTTPS
 connection-dns-over-https-custom-label = Власний
-connection-dialog-window2 =
-    .title = Параметри з’єднання
 connection-dialog-title = Параметри з’єднання
 disable-extension-button = Вимкнути розширення
 # Variables:

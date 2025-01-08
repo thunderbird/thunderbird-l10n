@@ -20,7 +20,6 @@ message-header-tags-list-name = Ознаке
 message-header-author-field = Аутор<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = Организација<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Наслов<span data-l10n-name="field-separator">:</span>
-message-header-followup-to-field = Наставак на<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Датум<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Кориснички агент<span data-l10n-name="field-separator">:</span>
 message-header-references-field = Референце<span data-l10n-name="field-separator">:</span>

@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Претрага
-search-bar-item =
-    .label = Претражи:
 search-bar-placeholder = Претрага…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -58,8 +56,6 @@ customize-button-style-text-only-option = Само текст
 customize-cancel = Откажи
 customize-save = Сачувај
 customize-unsaved-changes = Несачуване промене у другим просторима
-customize-search-bar =
-    .label = Претражи дугмад на алатним тракама……
 customize-spaces-tabs =
     .aria-label = Простори
 customize-main-toolbar-target =

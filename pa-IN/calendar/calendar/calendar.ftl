@@ -418,7 +418,7 @@ event-details-end-date = ਖ਼ਤਮ:
 #    $timezone will be replaced with the name of the timezone
 datetime-with-timezone = { $datetime }, { $timezone }
 # LOCALIZATION NOTE (single-long-calendar-week):
-# used for display of calendar weeks in short form like 'Calendar Week 43'
+# used for display of calendar weeks in long form like 'Calendar Week 43'
 #    $index will be replaced with the index of the week
 single-long-calendar-week = ਕੈਲੰਡਰ ਹਫ਼ਤਾ: { $index }
 # LOCALIZATION NOTE (single-calendar-week):
@@ -448,42 +448,8 @@ due-in-hours =
        *[other] { $count } ਘੰਟੇ
     }
 due-in-less-than-one-hour = < 1 ਘੰਟਾ
-# LOCALIZATION NOTE (month-in-year):
-# used for display of Month-dates like 'December 2008'
-#    $month will be replaced with name of the month
-#    $year will be replaced with the year
-month-in-year = { $month } { $year }
-month-in-year-label =
-    .aria-label = { $month } { $year }
-# LOCALIZATION NOTE (month-in-year-month-format):
-# If your language requires a different declension, change this to
-# one of the values specified in dateFormat.properties.
-# In any case, DO NOT TRANSLATE.
-month-in-year-month-format = nominative
 day-header-elem =
     .label = { day-header }
-# LOCALIZATION NOTE (datetime-interval-on-same-date-time):
-# used for intervals where end is equals to start
-# displayed form is '5 Jan 2006 13:00'
-#    $startDate will be replaced with the date of the start date
-#    $startTime will be replaced with the time of the start date
-datetime-interval-on-same-date-time = { $startDate } { $startTime }
-# LOCALIZATION NOTE (datetime-interval-on-same-day):
-# used for intervals where end is on the same day as start, so we can leave out the
-# end date but still include end time
-# displayed form is '5 Jan 2006 13:00 - 17:00'
-#    $startDate will be replaced with the date of the start date
-#    $startTime will be replaced with the time of the start date
-#    $endTime will be replaced with the time of the end date
-datetime-interval-on-same-day = { $startDate } { $startTime } – { $endTime }
-# LOCALIZATION NOTE (datetime-interval-on-several-days):
-# used for intervals spanning multiple days by including date and time
-# displayed form is '5 Jan 2006 13:00 - 7 Jan 2006 9:00'
-#    $startDate will be replaced with the date of the start date
-#    $startTime will be replaced with the time of the start date
-#    $endDate will be replaced with the date of the end date
-#    $endTime will be replaced with the time of the end date
-datetime-interval-on-several-days = { $startDate } { $startTime } – { $endDate } { $endTime }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)

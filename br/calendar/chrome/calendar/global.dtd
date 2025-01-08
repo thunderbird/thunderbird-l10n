@@ -15,10 +15,6 @@
 <!ENTITY month.11.name "Du" >
 <!ENTITY month.12.name "Kerzu" >
 
-<!ENTITY onemonthbackward.tooltip "Ur miz kent" >
-<!ENTITY onemonthforward.tooltip "Ur miz war-raok" >
-<!ENTITY oneyearbackward.tooltip "Ur bloavezh kent" >
-<!ENTITY oneyearforward.tooltip "Ur bloavezh war-raok" >
 <!ENTITY showToday.tooltip "Mont da Hiziv">
 <!ENTITY onedayforward.tooltip "Un devezh war-raok">
 <!ENTITY onedaybackward.tooltip "Un devezh kent">

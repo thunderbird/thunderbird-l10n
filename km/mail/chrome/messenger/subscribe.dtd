@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Փոստարկղը.">
 <!ENTITY server.accesskey             "A">
 <!ENTITY subscribedHeader.label       "Բաժանորդագրվել">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Ցուցադրել նրանք, որոնք պարունակում են՝">
 <!ENTITY namefield.accesskey          "o">

@@ -27,7 +27,6 @@ webext-perms-description-messagesModify = Read and modify your email messages as
 webext-perms-description-messagesModifyPermanent = Permanently modify the source of your messages (including headers, body and attachments)
 webext-perms-description-messagesMove = Copy or move your email messages (including moving them to the trash folder)
 webext-perms-description-messagesDelete = Permanently delete your email messages
-webext-perms-description-messagesRead = Read your email messages and mark or tag them
 webext-perms-description-messagesRead2 = Read your email messages
 webext-perms-description-messagesUpdate = Change properties and tags of your email messages
 webext-perms-description-messagesTags = Create, modify and delete message tags

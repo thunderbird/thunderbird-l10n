@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Powěsćowe zjeće
-selected-messages-label =
-    .label = Wubrane powěsće
 multi-message-archive-button =
     .label = Archiwować
     .tooltiptext = Archiwować

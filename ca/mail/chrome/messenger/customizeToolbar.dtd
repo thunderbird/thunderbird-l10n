@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Icones petites">
 <!ENTITY restoreDefaultSet.label  "Configuració per defecte">
 <!ENTITY showTitlebar2.label      "Barra de títol">
-<!ENTITY extraDragSpace2.label    "Espai per arrossegar la finestra">
 <!ENTITY saveChanges.label        "Fet">
 <!ENTITY undoChanges.label        "Desfés els canvis">

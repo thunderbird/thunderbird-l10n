@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Wygasanie
 openpgp-key-id-label =
     .label = Identyfikator klucza
-openpgp-cannot-change-expiry = To klucz o złożonej strukturze, zmiana jego daty wygaśnięcia nie jest obsługiwana.
-openpgp-key-man-title =
-    .title = Menedżer kluczy OpenPGP
 openpgp-key-man-dialog-title = Menedżer kluczy OpenPGP
 openpgp-key-man-generate =
     .label = Nowa para kluczy
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Certyfikat unieważnienia
     .accesskey = C
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Wygeneruj i zapisz certyfikat unieważnienia
 openpgp-key-man-gen-revocation =
     .label = Zapisz certyfikat unieważnienia do pliku
     .accesskey = c
@@ -496,8 +491,6 @@ filter-encrypt-label = Zaszyfruj do klucza (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Pomyślnie zaimportowano klucze
 import-info-dialog-title = Pomyślnie zaimportowano klucze
 import-info-bits = Bity
 import-info-created = Utworzono
@@ -657,9 +650,6 @@ no-update-found = Masz już klucze, które zostały wykryte w Internecie.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Błąd: polecenie odczytu klucza się nie powiodło
@@ -790,15 +780,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Ustawiono zawijanie wierszy na taką liczbę znaków: { $width }. Aby zapewnić poprawne szyfrowanie i podpisywanie, ta wartość musi wynosić co najmniej 68.
     Czy zmienić teraz zawijanie wierszy na 68 znaków?
-sending-news =
-    Przerwano zaszyfrowane działanie wysyłania.
-    Nie można zaszyfrować tej wiadomości, ponieważ ma ona odbiorców będących grupami dyskusyjnymi. Wyślij wiadomość ponownie bez szyfrowania.
-send-to-news-warning =
-    Ostrzeżenie: za chwilę zostanie wysłana zaszyfrowana wiadomość na grupę dyskusyjną.
-    Jest to niezalecane, ponieważ ma to sens tylko wtedy, gdy wszyscy członkowie grupy mogą odszyfrować wiadomość, tzn. wiadomość musi zostać zaszyfrowana za pomocą kluczy wszystkich uczestników grupy. Wyślij tę wiadomość tylko wtedy, gdy dobrze wiesz, co robisz.
-    Kontynuować?
 save-attachment-header = Zapisz odszyfrowany załącznik
-possibly-pgp-mime = Wiadomość prawdopodobnie zaszyfrowana lub podpisana za pomocą PGP/MIME; użyj funkcji „Odszyfruj/zweryfikuj” do weryfikacji
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Nie można podpisać cyfrowo tej wiadomości, ponieważ nie skonfigurowano jeszcze szyfrowania typu „end-to-end” dla <{ $key }>
@@ -852,15 +834,6 @@ debug-log-title = Dziennik debugowania OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Ten komunikat będzie powtarzany { $count }
-repeat-suffix-singular = jeszcze raz.
-repeat-suffix-plural = razy więcej.
-no-repeat = Ten komunikat nie będzie wyświetlany ponownie.
-dlg-keep-setting = Zapamiętaj moją odpowiedź i nie pytaj więcej
 
 ## Strings used in dialog.sys.mjs
 
@@ -870,8 +843,6 @@ dlg-button-cancel = &Anuluj
 dlg-no-prompt = Nie wyświetlaj więcej tego okna dialogowego
 enig-prompt = Monit OpenPGP
 enig-confirm = Potwierdzenie OpenPGP
-enig-alert = Komunikat OpenPGP
-enig-info = Informacje OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 

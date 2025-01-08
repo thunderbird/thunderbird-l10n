@@ -4,14 +4,10 @@
 
 <!-- Attn: Localization - some of the menus in this dialog directly affect mail also. -->
 
-
 <!-- Edit menu items -->
-
 <!ENTITY pasteNoFormatting.label "ਬਿਨਾਂ ਫਾਰਮੈਟ ਦੇ ਹੀ ਚੇਪੋ">
 <!ENTITY pasteNoFormatting.accesskey "n">
 <!ENTITY pasteNoFormatting.key "V">
-
-
 <!ENTITY pasteAsQuotationCmd.label "ਹਵਾਲੇ ਵਜੋਂ ਚੇਪੋ">
 <!ENTITY pasteAsQuotationCmd.accesskey "Q">
 
@@ -39,7 +35,6 @@
 <!ENTITY editLinkCmd.label "ਨਵੀਂ ਲਿਖਣ ਵਿੰਡੋ ਵਿੱਚ ਲਿੰਕ ਸੋਧੋ">
 <!ENTITY editLinkCmd.accesskey "i">
 
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "ਫੋਂਟ ਚੁਣੋ">
 <!ENTITY fontfaceMenu.label "ਫੋਂਟ">
@@ -66,7 +61,6 @@
 <!ENTITY increaseFontSize.accesskey "g">
 <!ENTITY incrementFontSize.key "&gt;">
 <!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
 
 <!ENTITY fontSizeMenu.label "ਆਕਾਰ">
 <!ENTITY fontSizeMenu.accesskey "z">
@@ -125,10 +119,9 @@
 <!ENTITY formatRemoveNamedAnchors.accesskey "R">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
 
-
 <!ENTITY paragraphMenu.label "ਪ੍ਹੈਰਾ">
 <!ENTITY paragraphMenu.accesskey "P">
-<!ENTITY paragraphParagraphCmd.label "ਪ੍ਹੈਰਾਗਰਾਫ਼">  
+<!ENTITY paragraphParagraphCmd.label "ਪ੍ਹੈਰਾਗਰਾਫ਼">
 <!ENTITY paragraphParagraphCmd.accesskey "P">
 <!ENTITY heading1Cmd.label "ਹੈਡਿੰਗ 1">
 <!ENTITY heading1Cmd.accesskey "1">
@@ -243,7 +236,7 @@
 <!ENTITY tableDeleteMenu.label "ਹਟਾਓ">
 <!ENTITY tableDeleteMenu.accesskey "D">
 
-<!-- text for "Join Cells" is in editor.properties 
+<!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
      But value must be set here for accesskey to draw properly
@@ -257,8 +250,7 @@
 <!ENTITY tableProperties.label "ਟੇਬਲ ਵਿਸ਼ੇਸ਼ਤਾ…">
 <!ENTITY tableProperties.accesskey "o">
 
-
-
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "ਚਿੱਤਰ">
 <!ENTITY imageToolbarCmd.tooltip "Insert new image or edit selected image's properties">
 <!ENTITY hruleToolbarCmd.label "ਲੇਟਵੀਂ ਲਾਈਨ">
@@ -298,4 +290,3 @@
 <!ENTITY removeTOC.accesskey      "r">
 <!ENTITY tocMenu.label            "ਤਤਕਰਾ…">
 <!ENTITY tocMenu.accesskey        "b">
-

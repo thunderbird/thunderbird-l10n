@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- for SearchDialog.xul -->
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "在以下文件夹中搜索消息:">
 <!ENTITY searchHeading.accesskey     "h">
 <!ENTITY searchSubfolders.label      "搜索子文件夹">
@@ -25,7 +25,7 @@
 <!ENTITY saveAsVFButton.label        "将搜索结果保存作为文件夹">
 <!ENTITY saveAsVFButton.accesskey    "v">
 
-<!-- for ABSearchDialog.xul -->
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "搜索在:">
 <!ENTITY abSearchHeading.accesskey   "h">
 <!ENTITY propertiesButton.label      "属性">
@@ -35,4 +35,3 @@
 <!ENTITY deleteCardButton.label      "删除">
 <!ENTITY deleteCardButton.accesskey  "D">
 <!ENTITY abSearchDialogTitle.label   "通讯录高级搜索">
-

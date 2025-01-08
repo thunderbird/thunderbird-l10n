@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = Palabras clave para el recordatorio de adjuntos
 attachment-reminder-dialog-title = Palabras clave para el recordatorio de adjuntos
 attachment-reminder-label = { -brand-short-name } le advertirá sobre adjuntos olvidados si va a enviar un mensaje de correo electrónico que contenga alguna de estas palabras.
 keyword-new-button =

@@ -15,15 +15,6 @@ room-name-empty = Üres beszélgetés
 room-name-empty-had-name = Üres beszélgetés (ez volt: { $oldName })
 # Variables:
 #  $participant (String) - The name of one participant that isn't the user.
-#  $otherParticipantsCount (Number) - The count of other participants apart from
-#    the user and $participant.
-room-name-others =
-    { $otherParticipantsCount ->
-        [one] { $participant } és még { $otherParticipantCount } másik
-       *[other] { $participant } és még { $otherParticipantCount } másik
-    }
-# Variables:
-#  $participant (String) - The name of one participant that isn't the user.
 #  $otherParticipantCount (Number) - The count of other participants apart from
 #    the user and $participant.
 room-name-others2 =

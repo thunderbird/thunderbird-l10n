@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Bruk små ikon">
 <!ENTITY restoreDefaultSet.label  "Bruk standardsett">
 <!ENTITY showTitlebar2.label      "Tittellinje">
-<!ENTITY extraDragSpace2.label    "Dra-og-slepp-område">
 <!ENTITY saveChanges.label        "Ferdig">
 <!ENTITY undoChanges.label        "Angre endringar">

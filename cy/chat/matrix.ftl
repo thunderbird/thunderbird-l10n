@@ -15,19 +15,6 @@ room-name-empty = Sgwrs wag
 room-name-empty-had-name = Sgwrs wag (oedd yn { $oldName } )
 # Variables:
 #  $participant (String) - The name of one participant that isn't the user.
-#  $otherParticipantsCount (Number) - The count of other participants apart from
-#    the user and $participant.
-room-name-others =
-    { $otherParticipantsCount ->
-        [zero] { $participant } a { $otherParticipantCount } arall
-        [one] { $participant } a { $otherParticipantCount } arall
-        [two] { $participant } a { $otherParticipantCount } arall
-        [few] { $participant } a { $otherParticipantCount } arall
-        [many] { $participant } a { $otherParticipantCount } arall
-       *[other] { $participant } a { $otherParticipantCount } arall
-    }
-# Variables:
-#  $participant (String) - The name of one participant that isn't the user.
 #  $otherParticipantCount (Number) - The count of other participants apart from
 #    the user and $participant.
 room-name-others2 =

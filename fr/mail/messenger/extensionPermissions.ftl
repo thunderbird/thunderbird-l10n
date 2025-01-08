@@ -27,7 +27,6 @@ webext-perms-description-messagesModify = Lire et modifier vos messages au momen
 webext-perms-description-messagesModifyPermanent = Modifier définitivement la source de vos messages (y compris les en-têtes, le corps et les pièces jointes)
 webext-perms-description-messagesMove = Copier ou déplacer vos messages (y compris pour les mettre dans la corbeille)
 webext-perms-description-messagesDelete = Supprimer définitivement vos e-mails
-webext-perms-description-messagesRead = Lire vos e-mails et les marquer ou leur attribuer des étiquettes
 webext-perms-description-messagesRead2 = Lire vos messages électroniques
 webext-perms-description-messagesUpdate = Modifier les propriétés et les étiquettes de vos messages
 webext-perms-description-messagesTags = Créer, modifier et supprimer des étiquettes de messages

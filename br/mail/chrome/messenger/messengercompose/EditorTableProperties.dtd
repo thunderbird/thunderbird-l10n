@@ -64,8 +64,8 @@
 <!ENTITY cellAlignJustify.label           "Marzekaat">
 <!ENTITY cellInheritColor.label           "(Leuskel taolennad al livioù treuzwelus)">
 <!ENTITY cellUseCheckboxHelp.label        "Arverañ ar boestadoù kevaskañ evit despizañ peseurt perzhioù a vo arloet d'an holl gelligoù bet diuzet">
-<!-- Used in both Table and Cell panels  -->
 
+<!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "Ment">
 <!ENTITY pixels.label                     "a bikselioù">
 <!ENTITY backgroundColor.label            "Liv an drekleur :">

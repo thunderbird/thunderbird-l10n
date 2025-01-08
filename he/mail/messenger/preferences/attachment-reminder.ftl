@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = מילות מפתח לתזכורת צירוף קבצים
 attachment-reminder-dialog-title = מילות מפתח לתזכורת צירוף קבצים
 attachment-reminder-label = { -brand-short-name } יזהיר אותך על קבצים מצורפים חסרים אם אתה עומד לשלוח הודעת דוא״ל המכילה אחת או יותר ממילות המפתח הבאות.
 keyword-new-button =

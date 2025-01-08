@@ -10,12 +10,6 @@ reminder-title-at-start-event = Az esemény kezdetén
 reminder-title-at-start-task = A feladat kezdetén
 reminder-title-at-end-event = Az esemény végén
 reminder-title-at-end-task = A feladat végén
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Szundi emlékeztető erre: { $unit }
 reminder-custom-origin-begin-before-event = az esemény kezdete előtt
 reminder-custom-origin-begin-after-event = az esemény kezdete után
 reminder-custom-origin-end-before-event = az esemény vége előtt

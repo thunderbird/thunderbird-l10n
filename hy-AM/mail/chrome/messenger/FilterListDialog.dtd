@@ -36,6 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "ր">
 <!ENTITY helpButton.label "Օգնություն">
 <!ENTITY helpButton.accesskey "H">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Search filters by name…">
-

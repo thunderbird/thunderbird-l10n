@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Skadim
 openpgp-key-id-label =
     .label = ID Kyçi
-openpgp-cannot-change-expiry = Ky është një kyç me një strukturë komplekse, nuk mbulohet ndryshimi i datës së skadimit të tij.
-openpgp-key-man-title =
-    .title = Përgjegjës Kyçesh OpenPGP
 openpgp-key-man-dialog-title = Përgjegjës Kyçesh OpenPGP
 openpgp-key-man-generate =
     .label = Çift i Ri Kyçesh
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Dëshmi Shfuqizimi
     .accesskey = S
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Prodho & Ruaj Dëshmi Shfuqizimi
 openpgp-key-man-gen-revocation =
     .label = Ruaje Dëshminë e Shfuqizimit Në Kartelë
     .accesskey = R
@@ -489,8 +484,6 @@ filter-encrypt-label = Fshehtëzoje sipas kyçi (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Sukses! Kyçet u importuan
 import-info-dialog-title = Sukses! Kyçet u importuan
 import-info-bits = Bite
 import-info-created = Krijuar më
@@ -651,9 +644,6 @@ no-update-found = Keni tashmë kyçet që u zbuluan në internet.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Gabim - urdhri për përftim kyçi dështoi
@@ -784,15 +774,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Keni ujdisur mbështjellje rreshtash pas { $width } shenjash. Për fshehtëzim dhe/ose nënshkrim të saktë, kjo vlerë lypset të jetë të paktën 68.
     Doni të ndryshohet tani vlera për mbështjellje rreshtash në 68 shenja?
-sending-news =
-    Veprimi i dërgimit të fshehtëzuar dështoi.
-    Ky mesazh s’mund të fshehtëzohet, ngaqë ka marrës në grupe lajmesh. Ju lutemi, dërgojeni këtë mesazh pa fshehtëzim.
-send-to-news-warning =
-    Kujdes: ju ndan një hap nga dërgimi i një mesazhi të fshehtëzuar te një grup lajmesh.
-    Kjo nuk këshillohet, ngaqë ka kuptim vetëm nëse krejt anëtarët e grupit munden të fshehtëzojnë mesazhin, d.m.th., mesazhi lypset të fshetëzohet me kyçet e krejt pjesëmarrësve në grup. Ju lutemi, dërgojeni këtë mesazh vetëm nëse e dini saktësisht se ç’po bëni.
-    Të vazhdohet?
 save-attachment-header = Ruaje bashkëngjitjen e shfshehtëzuar
-possibly-pgp-mime = Mesazh mundet i fshehtëzuar ose nënshkruar me PGP/MIME; përdorni funksionin 'Shfshehtëzoje/Verifikoje' për ta verifkuar
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = S’nënshkruhet dot në mënyrë dixhitale ky mesazh, ngaqë s’keni formësuar ende fshehtëzim skaj-më-skaj për <{ $key }>
@@ -846,15 +828,6 @@ debug-log-title = Regjistër Diagnostikimi OpenPGP-je
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Ky sinjalizim do të përsëritet { $count }
-repeat-suffix-singular = herë tjetër
-repeat-suffix-plural = herë të tjera
-no-repeat = Ky sinjalizim s’do të shfaqet më.
-dlg-keep-setting = Mba mend përgjigjen time dhe mos pyet më
 
 ## Strings used in dialog.sys.mjs
 
@@ -864,8 +837,6 @@ dlg-button-cancel = &Anuloje
 dlg-no-prompt = Mos ma shfaq më këtë dialog
 enig-prompt = Kërkesë OpenPGP
 enig-confirm = Ripohim OpenPGP
-enig-alert = Sinjalizim OpenPGP
-enig-info = Hollësi OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 

@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = Z
     .tooltiptext = Unesite željeni URL za DNS preko HTTPS
 connection-dns-over-https-custom-label = Zadano
-connection-dialog-window2 =
-    .title = Postavke spajanja
 connection-dialog-title = Postavke spajanja
 disable-extension-button = Onemogući dodatak
 # Variables:

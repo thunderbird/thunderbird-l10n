@@ -103,19 +103,6 @@ quick-filter-bar-results =
         [one] { $count } mesazh
        *[other] { $count } mesazhe
     }
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Filtrojini këto mesazhe <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search2 =
     .label = Filtroni mesazhe
 quick-filter-bar-searching =
@@ -277,8 +264,6 @@ threadpane-column-header-sender = Nga
     .title = Renditi sipas nga-ve
 threadpane-column-label-sender =
     .label = Nga
-threadpane-cell-sender =
-    .aria-label = Nga
 # Variables:
 # $title (String) - Message sender for tooltip.
 threadpane-cell-sender-title =
@@ -288,8 +273,6 @@ threadpane-column-header-recipient = Marrës
     .title = Renditi sipas marrësit
 threadpane-column-label-recipient =
     .label = Marrës
-threadpane-cell-recipient =
-    .aria-label = Marrës
 # Variables:
 # $title (String) - Message recipient for tooltip.
 threadpane-cell-recipient-title =
@@ -299,8 +282,6 @@ threadpane-column-header-correspondents = Korrespondentë
     .title = Renditi sipas korrespondentësh
 threadpane-column-label-correspondents =
     .label = Korrespondentë
-threadpane-cell-correspondents =
-    .aria-label = Korrespondentë
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
@@ -310,8 +291,6 @@ threadpane-column-header-subject = Subjekt
     .title = Renditi sipas subjektesh
 threadpane-column-label-subject =
     .label = Subjekt
-threadpane-cell-subject =
-    .aria-label = Subjekt
 # Variables:
 # $title (String) - Message subject for tooltip.
 threadpane-cell-subject-title =
@@ -321,8 +300,6 @@ threadpane-column-header-date = Datë
     .title = Renditi sipas datash
 threadpane-column-label-date =
     .label = Datë
-threadpane-cell-date =
-    .aria-label = Datë
 # Variables:
 # $title (String) - Message date for tooltip.
 threadpane-cell-date-title =
@@ -332,8 +309,6 @@ threadpane-column-header-received = Të marrë
     .title = Renditi sipas datës së marrjes
 threadpane-column-label-received =
     .label = Të marrë
-threadpane-cell-received =
-    .aria-label = Datë kur u mor
 # Variables:
 # $title (String) - Message received date for tooltip.
 threadpane-cell-received-title =
@@ -343,8 +318,6 @@ threadpane-column-header-status = Gjendje
     .title = Renditi sipas gjendjesh
 threadpane-column-label-status =
     .label = Gjendje
-threadpane-cell-status =
-    .aria-label = Gjendje
 # Variables:
 # $title (String) - Message status for tooltip.
 threadpane-cell-status-title =
@@ -354,8 +327,6 @@ threadpane-column-header-size = Madhësi
     .title = Renditi sipas madhësish
 threadpane-column-label-size =
     .label = Madhësi
-threadpane-cell-size =
-    .aria-label = Madhësi
 # Variables:
 # $title (String) - Message size for tooltip.
 threadpane-cell-size-title =
@@ -365,8 +336,6 @@ threadpane-column-header-tags = Etiketë
     .title = Renditi sipas etiketash
 threadpane-column-label-tags =
     .label = Etiketë
-threadpane-cell-tags =
-    .aria-label = Etiketa
 # Variables:
 # $title (String) - Tags for tooltip.
 threadpane-cell-tags-title =
@@ -376,8 +345,6 @@ threadpane-column-header-account = Llogari
     .title = Renditi sipas llogarish
 threadpane-column-label-account =
     .label = Llogari
-threadpane-cell-account =
-    .aria-label = Llogari
 # Variables:
 # $title (String) - Message account for tooltip.
 threadpane-cell-account-title =
@@ -387,8 +354,6 @@ threadpane-column-header-priority = Përparësi
     .title = Renditi sipas përparësish
 threadpane-column-label-priority =
     .label = Përparësi
-threadpane-cell-priority =
-    .aria-label = Përparësi
 # Variables:
 # $title (String) - Priority for tooltip.
 threadpane-cell-priority-title =
@@ -398,8 +363,6 @@ threadpane-column-header-unread = Të palexuar
     .title = Numër mesazesh të palexuar në rrjedhë
 threadpane-column-label-unread =
     .label = Të palexuar
-threadpane-cell-unread =
-    .aria-label = Numër mesazhesh të palexuar
 # Variables:
 # $title (String) - Number of unread messages for tooltip.
 threadpane-cell-unread-title =
@@ -409,8 +372,6 @@ threadpane-column-header-total = Gjithsej
     .title = Numër mesazesh gjithsej në rrjedhë
 threadpane-column-label-total =
     .label = Gjithsej
-threadpane-cell-total =
-    .aria-label = Numër mesazhesh gjithsej
 # Variables:
 # $title (String) - Total messages for tooltip.
 threadpane-cell-total-title =
@@ -420,8 +381,6 @@ threadpane-column-header-location = Vendndodhje
     .title = Renditi sipas vendndodhjesh
 threadpane-column-label-location =
     .label = Vendndodhje
-threadpane-cell-location =
-    .aria-label = Vendndodhje
 # Variables:
 # $title (String) - Message location for tooltip.
 threadpane-cell-location-title =
@@ -431,8 +390,6 @@ threadpane-column-header-id = Radhë sipas Marrjes
     .title = Renditi sipas radhe marrjeje
 threadpane-column-label-id =
     .label = Radhë sipas Marrjes
-threadpane-cell-id =
-    .aria-label = Renditje sipas marrjes
 # Variables:
 # $title (String) - Message id for tooltip.
 threadpane-cell-id-title =

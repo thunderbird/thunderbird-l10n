@@ -262,6 +262,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "Rulaj ik'" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "Rujulaj ik'" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "Rukab'laj ik'" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Jujun">
 <!ENTITY event.recurrence.yearly.first.label                 "Ri Nab'ey">
 <!ENTITY event.recurrence.yearly.second.label                "Ri Ruka'n">
@@ -278,6 +279,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Saq'ij" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "q'ij" >
 <!ENTITY event.recurrence.of.label                           "richin" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Nab'ey ik'" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Ruka'n ik'" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Rox ik'" >
@@ -292,7 +294,6 @@
 <!ENTITY event.recurrence.pattern.yearly.month2.12.label     "Rukab'laj ik'" >
 
 <!ENTITY event.recurrence.repeat.for.label              "Titz'uk" >
-<!ENTITY event.recurrence.preview.label                 "Nab'ey tzub'al">
 
 <!-- Attendees dialog -->
 <!ENTITY event.organizer.label                  "Ticholajïx">

@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Timeẓliyin n tfelwit…">
 <!ENTITY tableProperties.accesskey "e">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Tugna">
 <!ENTITY imageToolbarCmd.tooltip "Ger tugna tamaynut neɣ ẓreg timeẓliyin n tugna yettwafernen">
 <!ENTITY hruleToolbarCmd.label "Izirig aglawan">

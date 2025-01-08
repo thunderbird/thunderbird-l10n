@@ -11,8 +11,8 @@
 <!ENTITY editContactEmail.label "메일주소:">
 <!ENTITY editContactEmail.accesskey "E">
 
-<!ENTITY editContactAddressBook.label			"주소록:">
-<!ENTITY editContactAddressBook.accesskey		"A">
+<!ENTITY editContactAddressBook.label "주소록:">
+<!ENTITY editContactAddressBook.accesskey "A">
 
 <!ENTITY editContactPanelDone.label "완료">
 <!ENTITY editContactPanelDone.accesskey "D">

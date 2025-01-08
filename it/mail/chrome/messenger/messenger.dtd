@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "S">
 <!ENTITY newVirtualFolderCmd.label "Ricerche salvate…">
 <!ENTITY newVirtualFolderCmd.accesskey "S">
-<!ENTITY newCreateEmailAccountCmd.label "Crea un nuovo account email">
-<!ENTITY newCreateEmailAccountCmd.accesskey "r">
-<!ENTITY newExistingEmailAccountCmd.label "Account email esistente…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "n">
 <!ENTITY newIMAccountCmd.label "Account di Chat…">
 <!ENTITY newIMAccountCmd.accesskey "o">
 <!ENTITY newFeedAccountCmd.label "Account di feed…">
@@ -621,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "A">
 <!ENTITY folderContextMarkNewsgroupRead.label "Segna il gruppo di discussione come già letto">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "c">
-<!ENTITY folderContextMarkMailFolderRead.label "Segna la cartella come già letta">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "M">
 <!ENTITY folderContextSubscribe.label "Sottoscrivi…">
 <!ENTITY folderContextSubscribe.accesskey "v">
 <!ENTITY folderContextSearchForMessages.label "Cerca messaggi…">
@@ -728,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "T">
 <!ENTITY contextReplyList.label "Rispondi alla lista">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextForward.label "Inoltra">
-<!ENTITY contextForward.accesskey "I">
-<!ENTITY contextForwardAsMenu.label "Inoltra come">
-<!ENTITY contextForwardAsMenu.accesskey "o">
-<!ENTITY contextForwardAsInline.label "Corpo del messaggio">
-<!ENTITY contextForwardAsInline.accesskey "C">
-<!ENTITY contextForwardAsAttachmentItem.label "Allegato">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "A">
-<!ENTITY contextMultiForwardAsAttachment.label "Inoltra come allegati">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "o">
 <!ENTITY contextMoveMsgMenu.label "Sposta in">
 <!ENTITY contextMoveMsgMenu.accesskey "p">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Recenti">

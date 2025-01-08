@@ -10,12 +10,6 @@ reminder-title-at-start-event = 이벤트 시작할 때
 reminder-title-at-start-task = 태스크 시작할 때
 reminder-title-at-end-event = 이벤트 종료할 때
 reminder-title-at-end-task = 태스크 종료할 때
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = { $unit }후에 다시 알람으로 통지합니다.
 reminder-custom-origin-begin-before-event = 이벤트 시작 전
 reminder-custom-origin-begin-after-event = 이벤트 시작 후
 reminder-custom-origin-end-before-event = 이벤트 종료 전

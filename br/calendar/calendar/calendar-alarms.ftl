@@ -10,12 +10,6 @@ reminder-title-at-start-event = Pegoulz e krog an darvoud?
 reminder-title-at-start-task = Pegoulz e krog an trevell?
 reminder-title-at-end-event = Pegoulz ec'h echu an darvoud?
 reminder-title-at-end-task = Pegoulz ec'h echu an darvoud?
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Gortoz { $unit } a-raok addegas da soñj
 reminder-custom-origin-begin-before-event = a-raok na grogfe an darvoud
 reminder-custom-origin-begin-after-event = goude ma krogfe an darvoud
 reminder-custom-origin-end-before-event = a-raok na echufe an darvoud

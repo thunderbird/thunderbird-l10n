@@ -18,22 +18,6 @@ update-unsupported = Siz tizimda keyingi yangilanishlarni ham amalga oshirishing
 channel-description = Siz hozirda<span data-l10n-name="current-channel">{ $channel }</span> yangilash kanalidasiz.
 warning-desc-version = { -brand-short-name } hali sinov bosqichida, shuning uchun yaxshi ishlamasligi mumkin.
 warning-desc-telemetry = U avtomatik tarzda ishlash samaradorligi, qurilma, foydalanish va moslash haqidagi ma’lumotlarni { -vendor-short-name } kompaniyasiga { -brand-short-name } dasturini yaxshilashda yordam berish uchun jo‘natib turadi.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     – <a data-l10n-name="community-exp-credits-link">
-    global jamiyati</a>
-    internetni hamma uchun ochiq va qulay saqlab qolish uchun birgalikda ishlaydi.
-community-2 =
-    { -brand-short-name } – <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name } tomonidan tuzilgan</a>
-    , <a data-l10n-name="community-credits-link">
-    global jamiyat</a>
-     internetni hamma uchun ochiq va qulay saqlab qolish uchun birgalikda ishlaydi.
-about-helpus =
-    Yordam bermoqchimisiz? <a data-l10n-name="helpus-donate-link">
-    Xayriya qiling</a> or <a data-l10n-name="helpus-get-involved-link">
-    jamiyatga qo‘shiling!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> – <a data-l10n-name="community-exp-credits-link">global jamiyati</a>internetni hamma uchun ochiq va qulay saqlab qolish uchun birgalikda ishlaydi.
 community-desc = { -brand-short-name } – <a data-l10n-name="community-mozilla-link">{ -vendor-short-name } tomonidan tuzilgan</a>, <a data-l10n-name="community-credits-link">global jamiyat</a> internetni hamma uchun ochiq va qulay saqlab qolish uchun birgalikda ishlaydi.
 about-donation = Yordam bermoqchimisiz? <a data-l10n-name="helpus-donate-link">Xayriya qiling</a> or <a data-l10n-name="helpus-get-involved-link">jamiyatga qo‘shiling!</a>

@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Polices de caractères
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Par défaut ({ $name })
 fonts-label-default-unnamed =
     .label = Par défaut
-fonts-encoding-dialog-title =
-    .title = Polices et encodages
 fonts-language-legend =
     .value = Polices pour :
     .accesskey = o

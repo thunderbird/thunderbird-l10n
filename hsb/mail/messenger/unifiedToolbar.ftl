@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Pytać
-search-bar-item =
-    .label = Pytać:
 search-bar-item2 =
     .label = Pytać
 search-bar-placeholder = Pytać…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Jenož tekst
 customize-cancel = Přetorhnyć
 customize-save = Składować
 customize-unsaved-changes = Njeskładowane změny w druhich rumach
-customize-search-bar =
-    .label = Tłóčatka symbolowej lajsty pytać…
 customize-search-bar2 =
     .label = Tłóčatka symbolowej lajsty pytać
     .placeholder = Tłóčatka symbolowej lajsty pytać…

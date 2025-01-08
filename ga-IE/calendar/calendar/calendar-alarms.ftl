@@ -10,12 +10,6 @@ reminder-title-at-start-event = Chomh luath is a thosaíonn an t-imeacht
 reminder-title-at-start-task = Chomh luath is a thosaíonn an tasc
 reminder-title-at-end-event = Chomh luath is a chríochnaíonn an t-imeacht
 reminder-title-at-end-task = Chomh luath is a chríochnaíonn an tasc
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Meabhrúchán néil chodlata le haghaidh { $unit }
 reminder-custom-origin-begin-before-event = roimh thús an imeachta
 reminder-custom-origin-begin-after-event = tar éis thús an imeachta
 reminder-custom-origin-end-before-event = roimh dheireadh an imeachta

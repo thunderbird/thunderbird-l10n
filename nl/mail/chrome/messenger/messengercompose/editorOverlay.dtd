@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Tabeleigenschappen…">
 <!ENTITY tableProperties.accesskey "e">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Afbeelding">
 <!ENTITY imageToolbarCmd.tooltip "Nieuwe afbeelding invoegen of eigenschappen van geselecteerde afbeelding bewerken">
 <!ENTITY hruleToolbarCmd.label "H.lijn">

@@ -13,11 +13,9 @@
 <!ENTITY subscribeFeeds.label         "Bestuur intekeninge">
 
 
-
 <!ENTITY accountsSectionHdr.label     "Rekeninge">
 <!ENTITY subscribeImapFolders.label   "Bestuur vouerintekeninge">
 <!ENTITY settingsLink.label           "Bekyk opstelling vir hierdie rekening">
-
 
 <!ENTITY advFeaturesSectionHdr.label  "Gevorderde kenmerke">
 <!ENTITY searchMsgsLink.label         "Deursoek boodskappe">

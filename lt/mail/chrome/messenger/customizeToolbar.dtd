@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Mažos piktogramos">
 <!ENTITY restoreDefaultSet.label  "Numatytoji struktūra">
 <!ENTITY showTitlebar2.label      "Antraštės juosta">
-<!ENTITY extraDragSpace2.label    "Vieta tempti">
 <!ENTITY saveChanges.label        "Atlikta">
 <!ENTITY undoChanges.label        "Atšaukti pakeitimus">

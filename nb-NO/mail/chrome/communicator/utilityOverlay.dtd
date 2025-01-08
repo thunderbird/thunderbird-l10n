@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "G">
 <!ENTITY deleteCmd.label          "Slett">
 <!ENTITY deleteCmd.accesskey        "S">
-
 <!ENTITY customizeCmd.label "Tilpass">
 <!ENTITY customizeCmd.accesskey "p">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Lukk">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "L">
-
-<!ENTITY quitApplicationCmd.label  "Avslutt">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "v">
-
-<!ENTITY quitApplicationCmdUnix.label  "Avslutt">
-<!ENTITY quitApplicationCmdUnix.accesskey  "A">
-
-<!ENTITY quitApplicationCmdMac.label  "Avslutt &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "A">

@@ -14,46 +14,7 @@
 <!ENTITY calendar.today.button.label          "Bugün">
 <!ENTITY calendar.tomorrow.button.label       "Yarın">
 
-<!ENTITY calendar.events.filter.all.label "Tüm etkinlikler">
-<!ENTITY calendar.events.filter.today.label "Bugünkü etkinlikler">
-<!ENTITY calendar.events.filter.future.label "Gelecekteki tüm etkinlikler">
-<!ENTITY calendar.events.filter.current.label "Seçilmiş gün">
-<!ENTITY calendar.events.filter.currentview.label "Mevcut görünümdeki etkinlikler">
-<!ENTITY calendar.events.filter.next7Days.label "7 gün içindeki etkinlikler">
-<!ENTITY calendar.events.filter.next14Days.label "14 gün içindeki etkinlikler">
-<!ENTITY calendar.events.filter.next31Days.label "31 gün içindeki etkinlikler">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Bu takvim ayındaki etkinlikler">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Tamamlanmış">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Tamamlanmaya göre sırala">
-<!ENTITY calendar.unifinder.tree.priority.label            "Öncelik">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Önceliğe göre sırala">
-<!ENTITY calendar.unifinder.tree.title.label               "Başlık">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Başlığa göre sırala">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#037; Tamamla">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Tamamlanma &#037;’sine göre sırala">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Başlangıç">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Başlangıç tarihine göre sırala">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Bitiş">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Bitiş tarihine göre sırala">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Süre">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Bitiş tarihine göre sırala">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Tamamlanmış">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Tamamlanma tarihine göre sırala">
-<!ENTITY calendar.unifinder.tree.categories.label          "Kategoriler">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Kategoriye göre sırala">
-<!ENTITY calendar.unifinder.tree.location.label            "Konum">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Konuma göre sırala">
-<!ENTITY calendar.unifinder.tree.status.label              "Durum">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Duruma göre sırala">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Takvim adı">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Takvim adına göre sırala">
-<!ENTITY calendar.unifinder.tree.duration.label            "Süresi">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Kalan zamana göre sırala">
-<!ENTITY calendar.unifinder.close.tooltip                  "Etkinlik aramayı ve etkinlik listesini kapat">
 
 <!ENTITY calendar.today.button.tooltip          "Bugüne git" >
 <!ENTITY calendar.todaypane.button.tooltip      "Bugün panelini göster" >

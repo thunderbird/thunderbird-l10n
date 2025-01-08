@@ -10,7 +10,6 @@
  given Thunderbird channel". These terms are not synonymous.
 -->
 <!ENTITY window.title "您启动了旧版的 &brandProductName;">
-<!ENTITY window.style "width: 490px;">
 
 <!ENTITY window.nosync2 "新版本的 &brandProductName; 可能已对您的个人资料进行了不再与此旧版本兼容的修改。此配置文件现在只能搭配较新的版本使用，您或者可以为此 &brandShortName; 版本创建一个全新的配置文件。创建新的配置文件需要重新设定您的账户、日历和附加组件。">
 

@@ -10,12 +10,6 @@ reminder-title-at-start-event = Yr amser mae'r digwyddiad yn cychwyn
 reminder-title-at-start-task = Yr amser mae'r dasg yn cychwyn
 reminder-title-at-end-event = Yr amser mae'r digwyddiad yn gorffen
 reminder-title-at-end-task = Yr amser mae'r dasg yn gorffen
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Atgoffwr cysgu { $unit }
 reminder-custom-origin-begin-before-event = cyn i'r digwyddiad gychwyn
 reminder-custom-origin-begin-after-event = ar ôl i'r digwyddiad gychwyn
 reminder-custom-origin-end-before-event = cyn diwedd y digwyddiad

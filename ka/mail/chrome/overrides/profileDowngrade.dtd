@@ -10,7 +10,6 @@
  given Thunderbird channel". These terms are not synonymous.
 -->
 <!ENTITY window.title "თქვენ გაუშვით ძველი ვერსიის &brandProductName;">
-<!ENTITY window.style "width: 490px;">
 
 <!ENTITY window.nosync2 "ახალი ვერსიის &brandProductName; პროფილის ფაილებზე შეიძლება ასრულებდეს ისეთ მოქმედებებს, რომლებიც აღარ იყოს ძველ ვერსიასთან თავსებადი. ეს პროფილი გამოიყენეთ მხოლოდ იმ ახალ ვერსიასთან ან შექმენით ახალი პროფილი, მოცემული &brandShortName; იმუშავებს. ახალი პროფილის შექმნა საჭიროებს ანგარიშების, კალენდრებისა და დამატებების ხელახლა გამართვას.">
 

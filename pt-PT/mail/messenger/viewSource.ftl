@@ -5,15 +5,12 @@
 context-text-action-find =
     .label = Localizar
     .accesskey = L
-
 context-text-action-find-again =
     .label = Localizar novamente
     .accesskey = n
-
 text-action-find =
     .label = Localizar
     .accesskey = L
-
 text-action-find-again =
     .label = Localizar novamente
     .accesskey = n

@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Wiskje">
 <!ENTITY encryption.certificate_clear.accesskey "e">
 <!ENTITY signingGroupTitle.label "Digitale ûndertekening">
-
 <!ENTITY signingCert2.message "Persoanlik sertifikaat foar digitaal ûndertekenjen:">
 
 <!ENTITY sendingDefaults.label "Standertynstellingen foar it ferstjoeren fan berjochten">

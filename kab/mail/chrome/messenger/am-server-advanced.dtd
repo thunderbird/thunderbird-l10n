@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "d">
 <!ENTITY overrideNamespaces.label "Sireg aqeddac ad isnifel tallunt-agi n yesmawen">
 <!ENTITY overrideNamespaces.accesskey "g">
-<!ENTITY pop3DeferringDesc.label "Ticki tisidireḍ-d tirawt si uqeddac n umiḍan, seqdec akaram-agi akked ad tesseklseḍ iznan imaynuten:" >
+<!ENTITY pop3DeferringDesc.label "Ticki tisidireḍ-d tirawt si uqeddac n umiḍan, seqdec akaram-agi akked ad tesseklseḍ iznan imaynuten:">
 <!ENTITY accountInbox.label "Tirawt n urmas i umiḍan-agi">
 <!ENTITY accountInbox.accesskey "m">
 <!ENTITY deferToServer.label "Tirawt n urmas nniḍen i umiḍan-agi">

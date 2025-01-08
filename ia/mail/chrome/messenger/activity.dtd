@@ -16,4 +16,3 @@ file names and tall enough to hint that there are more activities in the list --
 <!ENTITY cmd.clearList.label              "Rader le lista">
 <!ENTITY cmd.clearList.tooltip            "Remove entratas terminate, cancellate e fallite del lista">
 <!ENTITY cmd.clearList.accesskey          "t">
-

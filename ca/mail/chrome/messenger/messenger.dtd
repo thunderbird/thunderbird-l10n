@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "f">
 <!ENTITY newVirtualFolderCmd.label "Cerca desada…">
 <!ENTITY newVirtualFolderCmd.accesskey "d">
-<!ENTITY newCreateEmailAccountCmd.label "Obtén un compte nou de correu…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "O">
-<!ENTITY newExistingEmailAccountCmd.label "Compte de correu existent…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "e">
 <!ENTITY newIMAccountCmd.label "Compte de xat…">
 <!ENTITY newIMAccountCmd.accesskey "x">
 <!ENTITY newFeedAccountCmd.label "Compte de canals d'informació…">
@@ -621,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "u">
 <!ENTITY folderContextMarkNewsgroupRead.label "Marca el grup de discussió com a llegit">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "l">
-<!ENTITY folderContextMarkMailFolderRead.label "Marca la carpeta com a llegida">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "l">
 <!ENTITY folderContextSubscribe.label "Gestiona les subscripcions…">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "Cerca missatges…">
@@ -728,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "p">
 <!ENTITY contextReplyList.label "Respon a la llista">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextForward.label "Reenvia">
-<!ENTITY contextForward.accesskey "v">
-<!ENTITY contextForwardAsMenu.label "Reenvia com a">
-<!ENTITY contextForwardAsMenu.accesskey "e">
-<!ENTITY contextForwardAsInline.label "Text en el cos">
-<!ENTITY contextForwardAsInline.accesskey "T">
-<!ENTITY contextForwardAsAttachmentItem.label "Adjunció">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "A">
-<!ENTITY contextMultiForwardAsAttachment.label "Reenvia com a adjuncions">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "a">
 <!ENTITY contextMoveMsgMenu.label "Mou a">
 <!ENTITY contextMoveMsgMenu.accesskey "o">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Recent">

@@ -5,11 +5,11 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Převádění na tabulku">
-<!ENTITY instructions1.label "Editor vytvoří nový řádek tabulky pro každý odstavec ve výběru.">
-<!ENTITY instructions2.label "Vyberte znak, kterým se oddělují jednotlivé sloupce:">
-<!ENTITY commaRadio.label "Čárka">
-<!ENTITY spaceRadio.label "Mezera">
-<!ENTITY otherRadio.label "Jiný znak:">
+<!ENTITY instructions1.label   "Editor vytvoří nový řádek tabulky pro každý odstavec ve výběru.">
+<!ENTITY instructions2.label   "Vyberte znak, kterým se oddělují jednotlivé sloupce:">
+<!ENTITY commaRadio.label      "Čárka">
+<!ENTITY spaceRadio.label      "Mezera">
+<!ENTITY otherRadio.label      "Jiný znak:">
 <!ENTITY deleteCharCheck.label "Smazat oddělující znak">
-<!ENTITY collapseSpaces.label "Ignorovat nadbytečné mezery">
+<!ENTITY collapseSpaces.label  "Ignorovat nadbytečné mezery">
 <!ENTITY collapseSpaces.tooltip "Převede přiléhající mezery na jeden oddělovač">

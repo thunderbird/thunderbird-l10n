@@ -68,9 +68,6 @@ openpgp-key-expiry-label =
     .label = Iraungitze-data
 openpgp-key-id-label =
     .label = Gako IDa
-openpgp-cannot-change-expiry = Hau egitura konplexuko gakoa da, bere iraungitze data aldaketa ez da onartzen.
-openpgp-key-man-title =
-    .title = OpenPGP gako kudeatzailea
 openpgp-key-man-dialog-title = OpenPGP gako kudeatzailea
 openpgp-key-man-generate =
     .label = Gako pare berria
@@ -78,8 +75,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Ukatze ziurtagiria
     .accesskey = U
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Ukatze ziurtagiria sortu eta gorde
 openpgp-key-man-gen-revocation =
     .label = Gorde ezeztapen ziurtagiria fitxategian
     .accesskey = e
@@ -491,8 +486,6 @@ filter-encrypt-label = Zifratu gakora (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Eginda! gakoak inportatuta
 import-info-dialog-title = Eginda! gakoak inportatuta
 import-info-bits = bit
 import-info-created = Sortuta
@@ -784,15 +777,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Lerro egokitzea { $width } karakteretan ezarria daukazu. Zifraketa edo/eta sinatze zuzenerako balio hau gutxienez 68 izan beharko luke.
     Nahi duzu orain lerro egokitzea 68 karakteretan ezartzea?
-sending-news =
-    Zifratutako bidalketa eragiketa abortatua.
-    Mezu hau ezin da zifratu berri-taldeak daudelako hartzaileen artean. Mesedez birbidali mezua zifratu gabe.
-send-to-news-warning =
-    Abisua: Berri-talde batera mezu zifratu bat bidaltzear zaude.
-    Hau ez da gomendagarria, zentsua izan dezan berri-taldeko kide guztiek gai izan behar dutelako mezua deszifratzeko. Adibidez, taldeko kide diren gako guztiekin zifratu beharko litzateke mezua. Mesedez bidali mezua zertan ari zaren ondo badakizu bakarrik.
-    Jarraitu?
 save-attachment-header = Gorde zifratutako eranskina
-possibly-pgp-mime = Agian PGP/MIME zifratutako edo sinatutako mezua; erabili 'Deszifratu/egiaztatu' funtzioa egiaztatzeko
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Ezinda digitalki sinatu mezu hau, oraindik ez daukazulako <{ $key }> gakoa muturretik-muturrera konfiguratuta
@@ -846,15 +831,6 @@ debug-log-title = OpenPGP arazketa egunkaria
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Alerta hau errepikatuko da: { $count }
-repeat-suffix-singular = aldi baten.
-repeat-suffix-plural = alditan.
-no-repeat = Alerta hau ez da berriz erakutsiko.
-dlg-keep-setting = Gogoratu nire erantzuna eta ez galdetu berriz.
 
 ## Strings used in dialog.sys.mjs
 
@@ -864,8 +840,6 @@ dlg-button-cancel = &Utzi
 dlg-no-prompt = Ez erakutsi berriro elkarrizketa-koadro hau.
 enig-prompt = OpenPGP gonbita
 enig-confirm = OpenPGP berrespena
-enig-alert = OpenPGP alerta
-enig-info = OpenPGP informazioa
 
 ## Strings used in persistentCrypto.jsm
 

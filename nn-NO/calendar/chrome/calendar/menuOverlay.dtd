@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Fjern vald kalender…">
 <!ENTITY calendar.removecalendar.accesskey      "F">
 
-
-<!ENTITY calendar.menu.customize.label          "Tilpass…">
-<!ENTITY calendar.menu.customize.accesskey      "T">
-
 <!ENTITY showUnifinderCmd.label                 "Finn hendingar">
 <!ENTITY showUnifinderCmd.accesskey             "F">
 <!ENTITY showUnifinderCmd.tooltip               "Slå søk i hendingar av eller på">

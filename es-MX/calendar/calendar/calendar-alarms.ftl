@@ -10,12 +10,6 @@ reminder-title-at-start-event = El momento en que comienza el evento
 reminder-title-at-start-task = El momento en el que la tarea comienza
 reminder-title-at-end-event = El momento en el que el evento termina
 reminder-title-at-end-task = El momento en el que la tarea termina
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Recordatorio de silenciar para { $unit }
 reminder-custom-origin-begin-before-event = antes que el evento inicie
 reminder-custom-origin-begin-after-event = después que el evento inicie
 reminder-custom-origin-end-before-event = antes que el evento termine

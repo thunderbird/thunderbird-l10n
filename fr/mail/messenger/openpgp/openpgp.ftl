@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Date d’expiration
 openpgp-key-id-label =
     .label = Identifiant de clé
-openpgp-cannot-change-expiry = La structure de cette clé est complexe, la modification de sa date d’expiration n’est pas prise en charge.
-openpgp-key-man-title =
-    .title = Gestionnaire de clés OpenPGP
 openpgp-key-man-dialog-title = Gestionnaire de clés OpenPGP
 openpgp-key-man-generate =
     .label = Nouvelle paire de clés
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Certificat de révocation
     .accesskey = C
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Générer et enregistrer un certificat de révocation
 openpgp-key-man-gen-revocation =
     .label = Enregistrer le certificat de révocation dans un fichier
     .accesskey = E
@@ -489,8 +484,6 @@ filter-encrypt-label = Chiffrer avec la clé (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Clés correctement importées
 import-info-dialog-title = Clés correctement importées
 import-info-bits = Bits
 import-info-created = Date de création
@@ -779,15 +772,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Vous avez défini le retour à la ligne automatique à { $width } caractères. Pour un chiffrement ou une signature corrects, cette valeur doit être d’au moins 68.
     Souhaitez-vous définir le retour à la ligne automatique à 68 caractères maintenant ?
-sending-news =
-    L’opération d’envoi chiffré a été annulée.
-    Cet e-mail ne peut pas être chiffré, car certains destinataires sont des forums. Veuillez renvoyer l’e-mail sans chiffrement.
-send-to-news-warning =
-    Avertissement : vous êtes sur le point d’envoyer un e-mail chiffré à un forum.
-    Cela est déconseillé, car il ne serait logique de le faire que si tous les membres du forum peuvent déchiffrer l’e-mail, c.-à-d. que l’e-mail doit être chiffré avec les clés de tous les membres du forum. Veuillez n’envoyer cet e-mail que si vous savez exactement ce que vous faites.
-    Continuer ?
 save-attachment-header = Enregistrer la pièce jointe déchiffrée
-possibly-pgp-mime = Message potentiellement chiffré ou signé via PGP/MIME ; utilisez la fonction « Déchiffrer/Vérifier » pour vous en assurer
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Impossible de signer numériquement ce message, car vous n’avez pas encore configuré le chiffrement de bout en bout pour <{ $key }>
@@ -839,15 +824,6 @@ debug-log-title = Journal de débogage OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Cette alerte sera répétée { $count }
-repeat-suffix-singular = fois.
-repeat-suffix-plural = fois.
-no-repeat = Cette alerte ne sera plus affichée.
-dlg-keep-setting = Se souvenir de ma réponse et ne plus me demander
 
 ## Strings used in dialog.sys.mjs
 
@@ -857,8 +833,6 @@ dlg-button-cancel = &Annuler
 dlg-no-prompt = Ne plus afficher ce dialogue à l’avenir
 enig-prompt = Boîte de dialogue OpenPGP
 enig-confirm = Confirmation OpenPGP
-enig-alert = Alerte OpenPGP
-enig-info = Information OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 

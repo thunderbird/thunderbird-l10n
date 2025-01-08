@@ -324,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "Oktober" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "November" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "December" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Varje">
 <!ENTITY event.recurrence.yearly.first.label                 "Den första">
 <!ENTITY event.recurrence.yearly.second.label                "Den andra">
@@ -340,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Lördag" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "dag" >
 <!ENTITY event.recurrence.of.label                           "på" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Januari" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Februari" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Mars" >

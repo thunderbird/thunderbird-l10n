@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Thêm sổ địa chỉ CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Thêm sổ địa chỉ LDAP
-about-addressbook-toolbar-new-contact =
-    .label = Liên hệ mới
-about-addressbook-toolbar-new-list =
-    .label = Danh sách mới
-about-addressbook-toolbar-import =
-    .label = Nhập
 books-pane-create-contact-button = Liên hệ mới
     .title = Tạo một liên hệ mới
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Bạn có chắc chắn muốn x�
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Tìm kiếm { $name }
-about-addressbook-search-all =
-    .placeholder = Tìm kiếm tất cả các sổ địa chỉ
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -256,7 +244,6 @@ about-addressbook-selection-lists-header2 = { $count } danh sách đã chọn
 about-addressbook-details-edit-photo =
     .title = Chỉnh sửa ảnh liên hệ
 about-addressbook-new-contact-header = Liên hệ mới
-about-addressbook-prefer-display-name = Ưu tiên tên hiển thị hơn header thư
 about-addressbook-write-action-button = Viết thư
 about-addressbook-event-action-button = Sự kiện
 about-addressbook-search-action-button = Tìm kiếm

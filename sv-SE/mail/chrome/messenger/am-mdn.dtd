@@ -14,7 +14,7 @@
 <!ENTITY receiptArrive.label          "När ett kvitto anländer:">
 <!ENTITY leaveIt.label                "Lämna det i Inkorgen">
 <!ENTITY leaveIt.accesskey            "d">
-<!-- LOCALIZATION NOTE moveToSent.label Translate: 'Sent Mail' according to Netscape glossary -->
+<!-- LOCALIZATION NOTE moveToSent.label Translate: 'Sent' according to Netscape glossary -->
 <!ENTITY moveToSent.label             "Flytta det till mappen ”Skickat”">
 <!ENTITY moveToSent.accesskey         "F">
 <!ENTITY requestMDN.label             "När mottagningskvitto begärs:">

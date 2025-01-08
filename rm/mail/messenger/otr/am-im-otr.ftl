@@ -21,6 +21,4 @@ otr-require-encryption-info =
     na vegnan betg mussads sco part da la conversaziun regulara e n'era betg protocollads.
 otr-verify-nudge =
     .label = Adina ma regurdar da verifitgar in contact betg verifitgà
-
 otr-not-yet-available = anc betg disponibel
-

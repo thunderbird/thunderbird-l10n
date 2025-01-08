@@ -59,8 +59,6 @@ toolbar-junk-label = Basura
 toolbar-junk =
     .title = Marcar los mensajes seleccionados como basura
 toolbar-delete-label = Eliminar
-toolbar-delete =
-    .title = Eliminar mensajes o carpetas seleccionadas
 toolbar-compact-label = Compactar
 toolbar-compact =
     .title = Quitar mensajes borrados de la carpeta seleccionada
@@ -139,3 +137,6 @@ toolbar-stop =
 toolbar-throbber-label = Indicador de actividad
 toolbar-throbber =
     .title = Indicador de actividad
+
+## New Address Book popup items
+

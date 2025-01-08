@@ -10,12 +10,6 @@ reminder-title-at-start-event = V momente začatia udalosti
 reminder-title-at-start-task = V momente začatia úlohy
 reminder-title-at-end-event = V momente ukončenia udalosti
 reminder-title-at-end-task = V momente ukončenia úlohy
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Odložiť pripomienku o { $unit }
 reminder-custom-origin-begin-before-event = pred začiatkom udalosti
 reminder-custom-origin-begin-after-event = po začatí udalosti
 reminder-custom-origin-end-before-event = pred skončením udalosti

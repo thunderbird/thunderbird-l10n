@@ -64,8 +64,8 @@
 <!ENTITY cellAlignJustify.label           "Blokowa sadźba">
 <!ENTITY cellInheritColor.label           "(Barbu tabele přeswěćić dać)">
 <!ENTITY cellUseCheckboxHelp.label        "Kontrolne kašćiki wužiwać, zo by so postajiło, kotre kajkosće so na wšě wubrane cele nałožuja">
-<!-- Used in both Table and Cell panels  -->
 
+<!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "Wulkosć">
 <!ENTITY pixels.label                     "pikselow">
 <!ENTITY backgroundColor.label            "Pozadkowa barba:">

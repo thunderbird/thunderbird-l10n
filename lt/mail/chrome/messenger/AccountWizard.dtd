@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Paskyros vediklis">
-<!ENTITY accountWizard.size "width: 50em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Įveskite naujienų (NNTP) serverio vardą (pvz., „news.example.net“).">
 <!ENTITY newsServerLabel.label "Naujienų serveris:">
 <!ENTITY newsServerLabel.accesskey "s">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

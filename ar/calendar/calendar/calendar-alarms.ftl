@@ -10,12 +10,6 @@ reminder-title-at-start-event = لحظة بدء الحدث
 reminder-title-at-start-task = لحظة بدء المهمة
 reminder-title-at-end-event = لحظة انتهاء الحدث
 reminder-title-at-end-task = لحظة انتهاء المهمة
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = غفوة لمدة { $unit }
 reminder-custom-origin-begin-before-event = قبل بدء الحدث
 reminder-custom-origin-begin-after-event = بعد بدء الحدث
 reminder-custom-origin-end-before-event = قبل انتهاء الحدث

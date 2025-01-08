@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE shown while obtaining certificates from a directory -->
 
-
 <!ENTITY title.label "Ześěgnjenje certifikatow">
 <!ENTITY info.message "Zapis pśepytujo se za certifikatami za dostawarjow. To móžo někotare minuty traś.">
 <!ENTITY stop.label "Pytanje zastajiś">

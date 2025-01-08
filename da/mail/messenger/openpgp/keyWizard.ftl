@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Føj en personlig OpenPGP-nøgle til { $identity }
-key-wizard-button =
-    .buttonlabelaccept = Fortsæt
-    .buttonlabelhelp = Gå tilbage
 key-wizard-dialog =
     .buttonlabelaccept = Fortsæt
     .buttonlabelextra1 = Gå tilbage
@@ -106,8 +103,6 @@ openpgp-import-key-list-caption = Nøgler der er markeret som personlige nøgler
 openpgp-import-keep-passphrases =
     .label = Behold beskyttelse med adgangsudtryk for importerede hemmelige nøgler
 openpgp-passphrase-prompt-title = Adgangsudtryk påkrævet
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Indtast adgangsudtrykket for at låse følgende nøgle op: { $key }
 openpgp-import-key-button =
     .label = Vælg fil til import…
     .accesskey = V

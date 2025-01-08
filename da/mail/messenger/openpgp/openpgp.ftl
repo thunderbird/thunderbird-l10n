@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Udløbsdato
 openpgp-key-id-label =
     .label = Nøgle-id
-openpgp-cannot-change-expiry = Dette er en nøgle med en kompleks struktur. Ændring af udløbsdato understøttes ikke.
-openpgp-key-man-title =
-    .title = OpenPGP Nøgleadministration
 openpgp-key-man-dialog-title = OpenPGP Nøgleadministration
 openpgp-key-man-generate =
     .label = Nye nøglepar
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Tilbagekaldelsescertifikat
     .accesskey = T
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Generer & gem tilbagekaldelsescertifikat
 openpgp-key-man-gen-revocation =
     .label = Gem tilbagekaldelsescertifikat til fil
     .accesskey = c
@@ -489,8 +484,6 @@ filter-encrypt-label = Krypter til nøgle (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Succes! Nøgler importeret
 import-info-dialog-title = Succes! Nøgler importeret
 import-info-bits = Bits
 import-info-created = Oprettet
@@ -650,9 +643,6 @@ no-update-found = Du har allerede de nøgler, der blev fundet online.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Fejl - kommandoen til nøgleudtrækning mislykkedes
@@ -783,15 +773,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Du har indstillet linjeombrydning til { $width } tegn. For korrekt kryptering og/eller signering skal denne værdi være mindst 68.
     Ønsker du at ændre linjeombrydning til 68 tegn nu?
-sending-news =
-    Krypteret sendehandling blev afbrudt.
-    Denne meddelelse kan ikke krypteres, fordi den indeholder nyhedsgruppemodtagere. Send beskeden igen uden kryptering.
-send-to-news-warning =
-    Advarsel: Du er ved at sende en krypteret mail til en nyhedsgruppe.
-    Dette frarådes, fordi det kun giver mening, hvis alle medlemmer af gruppen kan dekryptere meddelelsen, dvs. meddelelsen skal krypteres med nøglerne til alle gruppedeltagere. Send kun denne meddelelse, hvis du ved præcis, hvad du laver.
-    Fortsæt?
 save-attachment-header = Gem dekrypteret vedhæftet fil
-possibly-pgp-mime = Mulig PGP/MIME-krypteret eller underskrevet meddelelse; brug funktionen 'Dekrypter/Verificer' for at verificere
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Kan ikke signere denne meddelelse digitalt, fordi du endnu ikke har konfigureret end to end-kryptering for <{ $key }>
@@ -845,15 +827,6 @@ debug-log-title = OpenPGP fejllog
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Denne advarsel gentages { $count }
-repeat-suffix-singular = gang mere.
-repeat-suffix-plural = gange mere.
-no-repeat = Denne advarsel vises ikke igen.
-dlg-keep-setting = Husk mit svar og spørg mig ikke igen
 
 ## Strings used in dialog.sys.mjs
 
@@ -863,8 +836,6 @@ dlg-button-cancel = &Annuller
 dlg-no-prompt = Vis ikke denne dialogboks igen.
 enig-prompt = OpenPGP-prompt
 enig-confirm = OpenPGP-bekræftelse
-enig-alert = OpenPGP-advarsel
-enig-info = OpenPGP-oplysninger
 
 ## Strings used in persistentCrypto.jsm
 

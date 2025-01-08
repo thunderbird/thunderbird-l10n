@@ -3,10 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY virtualFolderProperties.title "Nije firtuele sykmap">
-<!ENTITY name.label "Namme:">
-<!ENTITY name.accesskey "N">
-<!ENTITY description.label "Meitsje as in submap fan:">
-<!ENTITY description.accesskey "M">
+<!ENTITY name.label                 "Namme:">
+<!ENTITY name.accesskey             "N">
+<!ENTITY description.label          "Meitsje as in submap fan:">
+<!ENTITY description.accesskey      "M">
 
 <!ENTITY searchTermCaption.label "Konfigurearje de brûkte sykkritearia foar dizze firtuele sykmap:">
 

@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Cuntas:">
 <!ENTITY server.accesskey             "C">
 <!ENTITY subscribedHeader.label       "Liostáil">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Taispeáin míreanna ina bhfuil:">
 <!ENTITY namefield.accesskey          "m">

@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = Fjalëkyçe Kujtuesi Bashkëngjitjesh
 attachment-reminder-dialog-title = Fjalëkyçe Kujtuesi Bashkëngjitjesh
 attachment-reminder-label = { -brand-short-name }-i do t'ju sinjalizojë rreth bashkëngjitjesh që mungojnë, po qe se jeni duke dërguar një email që përmban ndonjë nga këta fjalëkyçe.
 keyword-new-button =

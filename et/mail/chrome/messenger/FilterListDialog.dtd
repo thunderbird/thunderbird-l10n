@@ -36,8 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "i">
 <!ENTITY helpButton.label "Abi">
 <!ENTITY helpButton.accesskey "A">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Otsi filtrit nime järgi…">
-
-
-

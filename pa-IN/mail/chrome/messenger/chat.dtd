@@ -36,7 +36,6 @@
 <!ENTITY joinChatButton.label          "Join Chat">
 <!ENTITY chatAccountsButton.label      "Show Accounts">
 
-
 <!ENTITY status.available          "Available">
 <!ENTITY status.unavailable        "Unavailable">
 <!ENTITY status.offline            "Offline">

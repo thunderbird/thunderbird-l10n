@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Προσαρμογή ειδοποίησης νέων email
 notifications-dialog-title = Προσαρμογή ειδοποίησης νέων email
 customize-alert-description = Επιλέξτε ποια πεδία θα εμφανίζονται στην ειδοποίηση:
 preview-text-checkbox =

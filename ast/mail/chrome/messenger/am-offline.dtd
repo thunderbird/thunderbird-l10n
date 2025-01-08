@@ -36,13 +36,19 @@
 <!ENTITY syncGroupTitle.label "Sincronización de mensaxes">
 <!ENTITY diskspaceGroupTitle.label "Espaciu en discu">
 
-<!ENTITY allAutosync.label "Sincronizar tolos mensaxes llocalmente ensin importar l'antigüedá">
-<!ENTITY allAutosync.accesskey "t">
-<!ENTITY ageAutosyncBefore.label "Sincronizar los ">
-<!ENTITY ageAutosync.accesskey "z">
-<!ENTITY ageAutosyncMiddle.label "">
-<!ENTITY dayAgeInterval.label "Díes">
-<!ENTITY weekAgeInterval.label "Selmanes">
-<!ENTITY monthAgeInterval.label "Meses">
-<!ENTITY yearAgeInterval.label "Años">
-<!ENTITY ageAutosyncAfter.label "más recientes">
+<!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
+  The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
+  on a single line within the scope of useAutosync.ByAge as follows:
+
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
+-->
+<!ENTITY allAutosync.label               "Sincronizar tolos mensaxes llocalmente ensin importar l'antigüedá">
+<!ENTITY allAutosync.accesskey           "t">
+<!ENTITY ageAutosyncBefore.label         "Sincronizar los ">
+<!ENTITY ageAutosync.accesskey           "z">
+<!ENTITY ageAutosyncMiddle.label         "">
+<!ENTITY dayAgeInterval.label            "Díes">
+<!ENTITY weekAgeInterval.label           "Selmanes">
+<!ENTITY monthAgeInterval.label          "Meses">
+<!ENTITY yearAgeInterval.label           "Años">
+<!ENTITY ageAutosyncAfter.label          "más recientes">

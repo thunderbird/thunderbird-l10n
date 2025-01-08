@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Personalització de l'avís de nou correu
 notifications-dialog-title = Personalització de l'avís de nou correu
 customize-alert-description = Trieu quins camps es mostraran en les notificacions d'avís:
 preview-text-checkbox =

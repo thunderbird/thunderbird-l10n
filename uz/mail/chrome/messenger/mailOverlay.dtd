@@ -6,6 +6,6 @@
 <!ENTITY  newMessageCmd.key               "M">
 <!ENTITY  newMessageCmd.label             "Xabar">
 <!ENTITY  newMessageCmd.accesskey         "X">
- 
+
 <!ENTITY  newContactCmd.label             "Manzillar kitobi va Kontakt…">
 <!ENTITY  newContactCmd.accesskey         "K">

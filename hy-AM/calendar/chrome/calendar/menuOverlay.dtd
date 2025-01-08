@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Հեռացնել նշված օրացույցը…">
 <!ENTITY calendar.removecalendar.accesskey      "R">
 
-
-<!ENTITY calendar.menu.customize.label          "Կարգավորել…">
-<!ENTITY calendar.menu.customize.accesskey      "C">
-
 <!ENTITY showUnifinderCmd.label                 "Գտնել միջոցառումներ">
 <!ENTITY showUnifinderCmd.accesskey             "F">
 <!ENTITY showUnifinderCmd.tooltip               "Փոխարկել գտնված միջոցառումների փեղկը">

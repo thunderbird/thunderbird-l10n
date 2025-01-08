@@ -4,9 +4,7 @@
 
 <!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 
-
 <!ENTITY mailViewSetupTitle.label "Mezuen ikuspegien konfigurazioa">
 <!ENTITY mailViewHeading.label "Mezu-ikuspegiaren izena:">
 <!ENTITY mailViewHeading.accesskey "e">
 <!ENTITY searchTermCaption.label "Ikuspegi hau hautatuta dagoenean, bistaratu honekin bat datozen mezuak soilik:">
-

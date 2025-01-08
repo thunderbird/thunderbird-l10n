@@ -22,6 +22,4 @@ otr-require-encryption-info =
     standardowej rozmowy, ani zapisywane w dzienniku.
 otr-verify-nudge =
     .label = Zawsze przypominaj o zweryfikowaniu niezweryfikowanego kontaktu
-
 otr-not-yet-available = jeszcze niedostępne
-

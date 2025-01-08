@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Crie, renomeie ou exclua pastas da sua conta de email
 webext-perms-description-accountsIdentities = Crie, modifique ou exclua suas identidades de conta de email
 webext-perms-description-accountsRead = Veja suas contas de email, com suas identidades e pastas
@@ -20,7 +27,6 @@ webext-perms-description-messagesModify = Ler e modificar suas mensagens de emai
 webext-perms-description-messagesModifyPermanent = Modificar permanentemente a origem de suas mensagens (incluindo cabeçalhos, corpo e anexos)
 webext-perms-description-messagesMove = Copie ou mova suas mensagens de email (incluindo mover para a pasta de lixo)
 webext-perms-description-messagesDelete = Exclua permanentemente suas mensagens de email
-webext-perms-description-messagesRead = Leia suas mensagens e as marque ou coloque etiquetas
 webext-perms-description-messagesRead2 = Ler suas mensagens de email
 webext-perms-description-messagesUpdate = Alterar propriedades e etiquetas de suas mensagens de email
 webext-perms-description-messagesTags = Criar, modificar e excluir etiquetas de mensagens

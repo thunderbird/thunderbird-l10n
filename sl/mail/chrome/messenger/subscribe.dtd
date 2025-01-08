@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Račun:">
 <!ENTITY server.accesskey             "R">
 <!ENTITY subscribedHeader.label       "Naroči se">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Pokaži predmete, ki vsebujejo:">
 <!ENTITY namefield.accesskey          "P">

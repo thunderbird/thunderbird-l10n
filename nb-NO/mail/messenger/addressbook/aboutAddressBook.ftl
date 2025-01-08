@@ -8,10 +8,6 @@ about-addressbook-title = Adressebok
 
 about-addressbook-toolbar-new-address-book =
     .label = Ny adressebok
-about-addressbook-toolbar-new-contact =
-    .label = Ny kontakt
-about-addressbook-toolbar-new-list =
-    .label = Ny liste
 
 ## Books
 
@@ -28,10 +24,6 @@ about-addressbook-confirm-delete-book-title = Slett adressebok
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Søk i { $name }
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.

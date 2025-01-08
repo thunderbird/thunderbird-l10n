@@ -14,8 +14,6 @@ auth-your-fp-value = Ihr { $own_name }-Fingerabdruck:
 # Variables:
 #   $their_name (String) - the screen name of a chat contact
 auth-their-fp-value = Fingerabdruck für { $their_name }:
-auth-help = Das Bestätigen der Identität eines Kontaktes hilft beim Sicherstellen, dass ein Gespräch wirklich privat ist, und erschwert das Abhören oder Manipulieren des Gesprächs durch Andere sehr.
-auth-help-title = Hilfe zur Bestätigung
 auth-question-received = Von Ihrem Kontakt gestellte Frage:
 auth-yes =
     .label = Ja

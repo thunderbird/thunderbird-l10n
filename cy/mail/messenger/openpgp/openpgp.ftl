@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Dod i ben
 openpgp-key-id-label =
     .label = ID Allwedd
-openpgp-cannot-change-expiry = Mae hwn yn allwedd gyda strwythur cymhleth, nid yw newid ei ddyddiad dod i ben yn cael ei gefnogi.
-openpgp-key-man-title =
-    .title = Rheolwr Allweddi OpenPGP
 openpgp-key-man-dialog-title = Rheolwr Allweddi OpenPGP
 openpgp-key-man-generate =
     .label = Pâr Allweddi Newydd
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Tystysgrif Dirymu
     .accesskey = D
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Cynhyrchu a Chadw Tystysgrif Dirymu
 openpgp-key-man-gen-revocation =
     .label = Cadw Tystysgrif Dirymu i Ffeil
     .accesskey = C
@@ -517,8 +512,6 @@ filter-encrypt-label = Amgryptio i allwedd (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Llwyddiant! Allweddi wedi'u mewnforio
 import-info-dialog-title = Llwyddiant! Allweddi wedi'u mewnforio
 import-info-bits = Didau
 import-info-created = Crëwyd
@@ -678,9 +671,6 @@ no-update-found = Mae gennych eisoes yr allweddi a ddarganfuwyd ar-lein.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Gwall - methodd y gorchymyn echdynnu allwedd
@@ -811,15 +801,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Rydych chi wedi gosod lapio llinell i nodau { $width }. Ar gyfer amgryptio a/neu lofnodi cywir, mae angen i'r gwerth hwn fod yn 68 o leiaf.
     Ydych chi am newid amlapio llinell i 68 nod nawr?
-sending-news =
-    Ataliwyd gweithrediad anfon wedi'i amgryptio.
-    Nid oes modd amgryptio'r neges hon oherwydd bod derbynwyr grwpiau newyddion. Ail-anfonwch y neges heb amgryptio.
-send-to-news-warning =
-    Rhybudd: rydych chi ar fin anfon e-bost wedi'i amgryptio i grŵp newyddion.
-    Nid yw hyn yn cael ei annog oherwydd nad yw ond yn gwneud synnwyr os yw pob aelod o'r grŵp yn gallu dadgryptio'r neges, h.y. mae angen amgryptio'r neges gydag allweddi holl gyfranogwyr y grŵp. Anfonwch y neges hon dim ond os ydych chi'n gwybod yn union beth rydych chi'n ei wneud.
-    Parhau?
 save-attachment-header = Cadw atodiad wedi'i ddadgryptio
-possibly-pgp-mime = Neges wedi'i hamgryptio neu wedi'i llofnodi gan PGP/MIME o bosibl; defnyddiwch swyddogaeth 'Dadgryptio/Gwirio' i wirio
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Methu llofnodi'r neges hon yn ddigidol, oherwydd nid ydych eto wedi ffurfweddu amgryptio pen-i-ben ar gyfer <{ $key }>
@@ -873,15 +855,6 @@ debug-log-title = Cofnod Dadfygio OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Bydd y rhybudd hwn yn ailadrodd { $count }
-repeat-suffix-singular = rhagor o amser.
-repeat-suffix-plural = rhagor o amser.
-no-repeat = Ni fydd y rhybudd hwn yn cael ei ddangos eto.
-dlg-keep-setting = Cofiwch fy ateb a pheidiwch â gofyn imi eto
 
 ## Strings used in dialog.sys.mjs
 
@@ -891,8 +864,6 @@ dlg-button-cancel = &Diddymu
 dlg-no-prompt = Peidio dangos y blwch deialog eto.
 enig-prompt = Anogwr OpenPGP
 enig-confirm = Cadarnhad OpenPGP
-enig-alert = Rhybudd OpenPGP
-enig-info = Manylion OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 

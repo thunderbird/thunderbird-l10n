@@ -4,14 +4,14 @@
 
 account-settings-title = Налаштування автентифікації
 account-channel-title = Типові канали
-
 chat-autologin =
     .label = Вхід під час запуску
-
 chat-encryption-generic = Загальне
 chat-encryption-log =
     .label = Включати наскрізно зашифровані повідомлення до журналів бесід
 chat-encryption-label = Вбудоване наскрізне шифрування
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } забезпечує наскрізне шифрування повідомлень чату. Це запобігає прочитання розмов сторонніми. Може знадобитися додаткове налаштування внизу, щоб шифрування працювало.
 chat-encryption-status = Стан шифрування
 chat-encryption-placeholder = Шифрування не ініціалізовано.

@@ -3,19 +3,19 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label       "Matemaatiliste valemite sisestamine">
+<!ENTITY windowTitle.label "Matemaatiliste valemite sisestamine">
 
-<!ENTITY sourceEditField.label   "Sisesta LaTeXi lähtekood:">
+<!ENTITY sourceEditField.label "Sisesta LaTeXi lähtekood:">
 
-<!ENTITY options.label           "Valikud">
-<!ENTITY optionInline.label      "Rea sees">
-<!ENTITY optionInline.accesskey  "R">
-<!ENTITY optionDisplay.label     "Eraldi real">
+<!ENTITY options.label "Valikud">
+<!ENTITY optionInline.label "Rea sees">
+<!ENTITY optionInline.accesskey "R">
+<!ENTITY optionDisplay.label "Eraldi real">
 <!ENTITY optionDisplay.accesskey "E">
-<!ENTITY optionLTR.label         "Suunaga vasakult paremale">
-<!ENTITY optionLTR.accesskey     "v">
-<!ENTITY optionRTL.label         "Suunaga paremalt vasakule">
-<!ENTITY optionRTL.accesskey     "p">
+<!ENTITY optionLTR.label "Suunaga vasakult paremale">
+<!ENTITY optionLTR.accesskey "v">
+<!ENTITY optionRTL.label "Suunaga paremalt vasakule">
+<!ENTITY optionRTL.accesskey "p">
 
-<!ENTITY insertButton.label      "Sisesta">
-<!ENTITY insertButton.accesskey  "S">
+<!ENTITY insertButton.label "Sisesta">
+<!ENTITY insertButton.accesskey "S">

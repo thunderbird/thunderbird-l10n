@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Тазарту">
 <!ENTITY encryption.certificate_clear.accesskey "е">
 <!ENTITY signingGroupTitle.label "Цифрлық қолтаңбаларды қою">
-
 <!ENTITY signingCert2.message "Цифрлық қолтаңба қою үшін жеке сертификат:">
 
 <!ENTITY sendingDefaults.label "Хабарламаларды жіберу үшін үнсіз келісім баптаулары">

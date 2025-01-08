@@ -10,7 +10,6 @@
  given Thunderbird channel". These terms are not synonymous.
 -->
 <!ENTITY window.title "Sćo startował staršu wersiju &brandProductName;">
-<!ENTITY window.style "width: 490px;">
 
 <!ENTITY window.nosync2 "Nowša wersija &brandProductName; jo pśewjadła změny na wašom profilu, kótarež wěcej njejsu kompatiblene z toś teju staršeju wersiju. Wužywajśo toś ten profil jano z nowšeju wersiju abo załožćo nowy profil za toś tu instalaciju &brandShortName;. Gaž nowy profil załožyjośo, musyśo swóje konta, kalendarje a dodanki znowego konfigurěrowaś.">
 

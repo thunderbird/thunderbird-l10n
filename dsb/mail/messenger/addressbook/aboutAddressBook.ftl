@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = CardDAV-adresnik pśidaś
 about-addressbook-toolbar-add-ldap-address-book =
     .label = LDAP-adresnik pśidaś
-about-addressbook-toolbar-new-contact =
-    .label = Nowy kontakt
-about-addressbook-toolbar-new-list =
-    .label = Nowa lisćina
-about-addressbook-toolbar-import =
-    .label = Importěrowaś
 books-pane-create-contact-button = Nowy kontakt
     .title = Nowy kontakt napóraś
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Cośo napšawdu { $name } wótwó
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = { $name } pśepytaś
-about-addressbook-search-all =
-    .placeholder = Wšykne adresniki pśepytaś
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -298,7 +286,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Kontaktowe foto wobźěłaś
 about-addressbook-new-contact-header = Nowy kontakt
-about-addressbook-prefer-display-name = Zwobraznjone mě nad hłowu powěsći lubjej wužywaś
 about-addressbook-write-action-button = Pisaś
 about-addressbook-event-action-button = Tšojenje
 about-addressbook-search-action-button = Pytaś

@@ -59,9 +59,6 @@ openpgp-key-expiry-label =
     .label = Süre sonu
 openpgp-key-id-label =
     .label = Anahtar kimliği
-openpgp-cannot-change-expiry = Bu karmaşık yapıya sahip bir anahtar. Son kullanma tarihinin değiştirilmesi desteklenmiyor.
-openpgp-key-man-title =
-    .title = OpenPGP Anahtar Yöneticisi
 openpgp-key-man-dialog-title = OpenPGP Anahtar Yöneticisi
 openpgp-key-man-generate =
     .label = Yeni anahtar çifti
@@ -69,8 +66,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = İptal sertifikası
     .accesskey = İ
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = İptal sertifikası oluştur ve kaydet
 openpgp-key-man-gen-revocation =
     .label = İptal sertifikasını dosyaya kaydet
     .accesskey = s
@@ -474,8 +469,6 @@ filter-encrypt-label = Anahtara şifrele (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Anahtarlar başarıyla içe aktarıldı!
 import-info-dialog-title = Anahtarlar başarıyla içe aktarıldı!
 import-info-bits = Bit
 import-info-created = Oluşturma
@@ -612,9 +605,6 @@ no-update-found = Çevrimiçi keşfedilmiş anahtarlara zaten sahipsiniz.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Hata - Anahtar çıkarma komutu başarısız oldu
@@ -736,11 +726,7 @@ msg-compose-partially-encrypted-short = Hassas bilgilerin sızmasına karşı di
 minimal-line-wrapping =
     Satır kaydırmayı { $width } karakter olarak ayarladınız. Doğru şifreleme ve/veya imzalama için bu değer en az 68 karakter olmalıdır.
     Satır kaydırmayı 68 karakter olarak değiştirmek ister misiniz?
-sending-news =
-    Şifrelenmiş gönderme işlemi iptal edildi.
-    Alıcılar arasında haber grubu alıcıları olduğu için bu ileti şifrelenemez. Lütfen iletiyi şifrelemeden tekrar gönderin.
 save-attachment-header = Şifresi çözülmüş eki kaydet
-possibly-pgp-mime = Büyük olasılıkla PGP/MIME şifreli veya imzalı ileti. Doğrulamak için ‘Şifreyi çöz/Doğrula’ işlevini kullanın
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = <{ $key }> için uçtan uca şifrelemeyi henüz yapılandırmadığınız için bu iletiyi dijital olarak imzalayamazsınız
@@ -794,15 +780,6 @@ debug-log-title = OpenPGP hata ayıklama günlüğü
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Bu uyarı { $count }
-repeat-suffix-singular = kere daha tekrarlanacak.
-repeat-suffix-plural = kere daha tekrarlanacak.
-no-repeat = Bu uyarı bir daha gösterilmeyecek.
-dlg-keep-setting = Yanıtımı hatırla ve bir daha sorma
 
 ## Strings used in dialog.sys.mjs
 
@@ -812,8 +789,6 @@ dlg-button-cancel = &Vazgeç
 dlg-no-prompt = Bu iletişim kutusunu bir daha gösterme
 enig-prompt = OpenPGP İstemi
 enig-confirm = OpenPGP Onayı
-enig-alert = OpenPGP Uyarısı
-enig-info = OpenPGP Bilgilendirmesi
 
 ## Strings used in persistentCrypto.jsm
 

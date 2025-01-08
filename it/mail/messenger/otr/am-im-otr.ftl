@@ -18,6 +18,4 @@ otr-require-encryption =
 otr-require-encryption-info = Se si imposta il requisito della crittografia end-to-end, i messaggi in una conversazioni a due verranno inviati esclusivamente se è possibile crittarli. Eventuali messaggi non crittati ricevuti non verranno visualizzati nella conversazione, né registrarti.
 otr-verify-nudge =
     .label = Ricordami sempre di verificare un contatto non verificato
-
 otr-not-yet-available = non ancora disponibile
-

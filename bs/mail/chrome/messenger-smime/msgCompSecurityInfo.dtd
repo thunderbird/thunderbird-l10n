@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-
 <!ENTITY title.label "Sigurnost poruke">
 <!ENTITY subject.plaintextWarning "Napomena: naslovi e-mail poruka nisu nikada enkriptovani.">
 <!ENTITY status.heading "Sadržaj vaše poruke će biti poslan na sljedeći način:">

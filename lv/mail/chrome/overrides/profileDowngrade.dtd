@@ -10,7 +10,6 @@
  given Thunderbird channel". These terms are not synonymous.
 -->
 <!ENTITY window.title "Jūs esat palaidis vecāku &brandProductName; versiju">
-<!ENTITY window.style "width: 490px;">
 
 <!ENTITY window.nosync2 "Jaunāka &brandProductName; versija, iespējams, jūsu profilā ir veikusi izmaiņas, kas vairs nav saderīgas ar šo vecāko versiju. Izmantojiet šo profilu tikai ar jaunāko versiju vai izveidojiet jaunu profilu šai &brandShortName; versijai. Lai izveidotu jaunu profilu, ir vēlreiz jāiestata konti, kalendāri un papildinājumi.">
 

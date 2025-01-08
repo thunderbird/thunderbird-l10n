@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Variables:
+## $count (Number) - Number of events selected for deletion.
+
 calendar-delete-event-prompt-title =
     { $count ->
         [one] Sguab às an tachartas
@@ -16,6 +20,10 @@ calendar-delete-event-prompt-message =
         [few] A bheil thu cinnteach gu bheil thu airson an { $count } tachartasan seo a sguabadh às?
        *[other] A bheil thu cinnteach gu bheil thu airson an { $count } tachartas seo a sguabadh às?
     }
+
+## Variables:
+## $count (Number) - Number of tasks selected for deletion.
+
 calendar-delete-task-prompt-title =
     { $count ->
         [one] Sguab às an t-saothair
@@ -30,6 +38,10 @@ calendar-delete-task-prompt-message =
         [few] A bheil thu cinnteach gu bheil thu airson na { $count } saothraichean seo a sguabadh às?
        *[other] A bheil thu cinnteach gu bheil thu airson na { $count } saothair seo a sguabadh às?
     }
+
+## Variables:
+## $count (Number) - Number of items selected for deletion.
+
 calendar-delete-item-prompt-title =
     { $count ->
         [one] Sguab às an nì
@@ -44,4 +56,7 @@ calendar-delete-item-prompt-message =
         [few] A bheil thu cinnteach gu bheil thu airson na { $count } nithean seo a sguabadh às?
        *[other] A bheil thu cinnteach gu bheil thu airson na { $count } nì seo a sguabadh às?
     }
+
+##
+
 calendar-delete-prompt-disable-message = Na faighnich dhìom a-rithist.

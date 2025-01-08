@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Dewin Cyfrif">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Rhowch enw eich gweinydd newyddion (NNTP). (e.e., &quot;news.esiampl.net&quot;).">
 <!ENTITY newsServerLabel.label "Gweinydd Grŵp Newyddion:">
 <!ENTITY newsServerLabel.accesskey "G">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Cores
 colors-dialog-title = Cores
 colors-dialog-legend = Texto e fondo
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Ligazóns visitadas:
     .accesskey = v
-underline-link-checkbox =
-    .label = Subliñar as ligazóns
-    .accesskey = u
 always-underline-links =
     .label = Subliñar sempre as ligazóns
     .accesskey = S

@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = { -brand-short-name }-Fehlerbehebungsmodus
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = { -brand-short-name }-Fehlerbehebungsmodus
 troubleshoot-mode-description = Nutzen Sie den Fehlerbehebungsmodus von { -brand-short-name }, um Probleme zu diagnostizieren. Ihre Erweiterungen und Anpassungen werden vorübergehend deaktiviert.
 troubleshoot-mode-description2 = Sie können alle oder einige dieser Änderungen auch dauerhaft beibehalten:

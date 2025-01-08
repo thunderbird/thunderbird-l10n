@@ -5,12 +5,6 @@
 
 ## Toolbar
 
-about-addressbook-toolbar-new-contact =
-    .label = איש קשר חדש
-about-addressbook-toolbar-new-list =
-    .label = רשימה חדשה
-about-addressbook-toolbar-import =
-    .label = ייבוא
 
 ## Books
 
@@ -26,7 +20,6 @@ about-addressbook-books-context-delete =
     .label = מחיקה
 about-addressbook-books-context-remove =
     .label = הסרה
-
 # Variables:
 # $name (String) - Name of the address book to be deleted.
 about-addressbook-confirm-delete-book = למחוק את { $name } ואת כל אנשי הקשר שבו?
@@ -36,11 +29,6 @@ about-addressbook-confirm-remove-remote-book = להסיר את { $name }?
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = חיפוש { $name }
-
 about-addressbook-name-format-display =
     .label = שם תצוגה
 
@@ -49,7 +37,6 @@ about-addressbook-name-format-display =
 
 about-addressbook-cards-context-write =
     .label = כתיבה
-
 about-addressbook-confirm-delete-mixed-title = מחיקת אנשי קשר ורשימות
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
@@ -77,44 +64,28 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] הסרת אנשי קשר
     }
 # Variables:
-# $count (Number) - The number of contacts to be removed.
-# $name (String) - The name of the contact to be removed, if $count is 1.
-# $list (String) - The name of the list that contacts will be removed from.
-about-addressbook-confirm-remove-contacts =
-    { $count ->
-        [one] להסיר את { $name } מתוך { $list }?
-       *[other] להסיר את { $count } אנשי הקשר האלו מתוך { $list }?
-    }
-# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] מחיקת איש קשר
        *[other] מחיקת אנשי קשר
     }
-# Variables:
-# $count (Number) - The number of contacts to be deleted.
-# $name (String) - The name of the contact to be deleted, if $count is 1.
-about-addressbook-confirm-delete-contacts =
-    { $count ->
-        [one] למחוק את איש הקשר { $name }?
-       *[other] למחוק את { $count } אנשי הקשר האלו?
-    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
+
 
 ## Details
 
 about-addressbook-begin-edit-contact-button = עריכה
 about-addressbook-cancel-edit-contact-button = ביטול
 about-addressbook-save-edit-contact-button = שמירה
-
 about-addressbook-details-email-addresses-header = כתובות דוא״ל
 about-addressbook-details-phone-numbers-header = מספרי טלפון
 about-addressbook-details-other-info-header = מידע אחר
 
 # Photo dialog
+
 
 # Keyboard shortcuts
 

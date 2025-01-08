@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Een persoonlijke OpenPGP-sleutel voor { $identity } toevoegen
-key-wizard-button =
-    .buttonlabelaccept = Doorgaan
-    .buttonlabelhelp = Terug
 key-wizard-dialog =
     .buttonlabelaccept = Doorgaan
     .buttonlabelextra1 = Teruggaan
@@ -106,8 +103,6 @@ openpgp-import-key-list-caption = Sleutels die worden gemarkeerd om als persoonl
 openpgp-import-keep-passphrases =
     .label = Wachtwoordzinbeveiliging voor geïmporteerde geheime sleutels behouden
 openpgp-passphrase-prompt-title = Wachtwoordzin vereist
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Voer de wachtwoordzin in om de volgende sleutel te ontgrendelen: { $key }
 openpgp-import-key-button =
     .label = Selecteer te importeren bestand…
     .accesskey = S

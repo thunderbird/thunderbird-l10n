@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Cuir iuchair phearsanta OpenPGP ris airson { $identity }
-key-wizard-button =
-    .buttonlabelaccept = Air adhart
-    .buttonlabelhelp = Air ais
 key-wizard-dialog =
     .buttonlabelaccept = Air adhart
     .buttonlabelextra1 = Air ais
@@ -102,8 +99,6 @@ openpgp-import-key-list-caption = Ma chuir thu comharra ri iuchraichean gun tèi
 openpgp-import-keep-passphrases =
     .label = Cùm an dìon le abairtean-faire airson iuchraichean rùin a chaidh ion-phortadh
 openpgp-passphrase-prompt-title = Tha feum air abairt-fhaire
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Cuir a-steach an abairt-fhaire airson a’ ghlas a thoirt far na h-iuchrach a leanas: { $key }
 openpgp-import-key-button =
     .label = Tagh faidhle airson ion-phortadh…
     .accesskey = s

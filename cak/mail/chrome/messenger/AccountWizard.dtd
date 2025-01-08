@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Ruto'onel Rub'i' Taqoya'l">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Tatz'ib'aj rub'i' ri ruk'uxasamaj atzijol (NNTP) (achi'el, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "K'uxasamaj Tzijol:">
 <!ENTITY newsServerLabel.accesskey "s">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

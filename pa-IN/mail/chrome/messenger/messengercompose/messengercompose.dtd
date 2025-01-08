@@ -6,7 +6,7 @@
 <!ENTITY msgComposeWindow.title "ਲਿਖੋ: (ਵਿਸ਼ਾ ਨਹੀਂ)">
 
 <!-- File Menu -->
-<!ENTITY fileMenu.label "ਫਾਇਲ"> 
+<!ENTITY fileMenu.label "ਫਾਇਲ">
 <!ENTITY fileMenu.accesskey "f">
 <!ENTITY newMenu.label "ਨਵਾਂ">
 <!ENTITY newMenu.accesskey "N">
@@ -45,16 +45,16 @@
 <!ENTITY printCmd.accesskey "P">
 
 <!-- Edit Menu -->
-<!ENTITY editMenu.label "ਸੋਧ"> 
+<!ENTITY editMenu.label "ਸੋਧ">
 <!ENTITY editMenu.accesskey "e">
 <!ENTITY undoCmd.label "ਵਾਪਿਸ">
 <!ENTITY undoCmd.key "Z">
-<!ENTITY undoCmd.accesskey "u"> 
+<!ENTITY undoCmd.accesskey "u">
 <!ENTITY redoCmd.label "ਪਰਤਾਓ">
 <!ENTITY redoCmd.key "Y">
-<!ENTITY redoCmd.accesskey "r"> 
-<!ENTITY cutCmd.key "X"> 
-<!ENTITY copyCmd.key "C"> 
+<!ENTITY redoCmd.accesskey "r">
+<!ENTITY cutCmd.key "X">
+<!ENTITY copyCmd.key "C">
 <!ENTITY pasteCmd.key "V">
 <!ENTITY pasteNoFormattingCmd.key "V">
 <!ENTITY pasteAsQuotationCmd.key "o">
@@ -65,21 +65,29 @@
 <!ENTITY editRewrapCmd.key "R">
 <!ENTITY renameAttachmentCmd.label "ਅਟੈਚਮੈਂਟ ਨਾਂ ਬਦਲੋ…">
 <!ENTITY renameAttachmentCmd.accesskey "e">
-<!ENTITY selectAllCmd.accesskey "a"> 
+<!ENTITY selectAllCmd.accesskey "a">
 <!ENTITY findAgainCmd.label "ਅੱਗੇ ਖੋਜ">
 <!ENTITY findAgainCmd.accesskey "g">
 <!ENTITY findAgainCmd.key "G">
 <!ENTITY findAgainCmd.key2 "VK_F3">
 <!ENTITY findPrevCmd.label "ਪਿੱਛੇ ਖੋਜ">
-<!ENTITY findPrevCmd.accesskey "v"> 
-
+<!ENTITY findPrevCmd.accesskey "v">
 <!ENTITY findPrevCmd.key "G">
 <!ENTITY findPrevCmd.key2 "VK_F3">
 
+<!-- Reorder Attachment Panel -->
+
+<!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.Sort.AZ.label):
+     Please ensure that this translation matches
+     sortAttachmentsPanelBtn.Sort.ZA.label, except for the sort direction. -->
+<!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.SortSelection.AZ.label):
+     Please ensure that this translation matches
+     sortAttachmentsPanelBtn.SortSelection.ZA.label, except for the sort direction. -->
+
 <!-- View Menu -->
-<!ENTITY viewMenu.label "ਵੇਖੋ"> 
+<!ENTITY viewMenu.label "ਵੇਖੋ">
 <!ENTITY viewMenu.accesskey "v">
-<!ENTITY viewToolbarsMenuNew.label "ਟੂਲਬਾਰ"> 
+<!ENTITY viewToolbarsMenuNew.label "ਟੂਲਬਾਰ">
 <!ENTITY viewToolbarsMenuNew.accesskey "T">
 <!ENTITY menubarCmd.label "ਮੇਨੂ ਪੱਟੀ">
 <!ENTITY menubarCmd.accesskey "M">
@@ -92,8 +100,8 @@
 <!ENTITY customizeToolbar.label "ਕਸਟਮਾਈਜ਼…">
 <!ENTITY customizeToolbar.accesskey "C">
 
-<!ENTITY addressSidebar.label "ਸੰਪਰਕ ਬਾਹੀ"> 
-<!ENTITY addressSidebar.accesskey "o"> 
+<!ENTITY addressSidebar.label "ਸੰਪਰਕ ਬਾਹੀ">
+<!ENTITY addressSidebar.accesskey "o">
 
 <!-- Format Menu -->
 <!ENTITY formatMenu.label "ਫਾਰਮੈਟ">
@@ -144,13 +152,13 @@
 <!ENTITY messengerCmd.commandkey "1">
 <!ENTITY addressBookCmd.label "ਐਡਰੈੱਸ ਬੁੱਕ">
 <!ENTITY addressBookCmd.accesskey "a">
-<!ENTITY addressBookCmd.key "B"> 
+<!ENTITY addressBookCmd.key "B">
 
 <!--  Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY minimizeWindow.label "ਘੱਟੋ-ਘੱਟ">
 <!ENTITY bringAllToFront.label "ਸਭ ਅੱਗੇ ਲਿਆਓ">
-<!ENTITY zoomWindow.label "ਜ਼ੂਮ"> 
+<!ENTITY zoomWindow.label "ਜ਼ੂਮ">
 <!ENTITY windowMenu.label "ਵਿੰਡੋ">
 
 <!-- Mail Toolbar -->
@@ -161,10 +169,10 @@
 <!ENTITY saveButton.label "ਸੰਭਾਲੋ">
 
 <!-- Mail Toolbar Tooltips -->
-<!ENTITY sendButton.tooltip "ਇਹ ਸੁਨੇਹਾ ਹੁਣੇ ਭੇਜੋ"> 
-<!ENTITY sendlaterButton.tooltip "ਇਹ ਸੁਨੇਹਾ ਬਾਅਦ ਵਿੱਚ ਭੇਜੋ"> 
-<!ENTITY quoteButton.tooltip "ਪਿਛਲੇ ਸੁਨੇਹਾ ਦਾ ਹਵਾਲਾ"> 
-<!ENTITY addressButton.tooltip "ਪ੍ਰਾਪਤ ਕਰਤਾ ਨੂੰ ਐਡਰੈਸ ਬੁੱਕ ਤੋਂ ਚੁਣੋ"> 
+<!ENTITY sendButton.tooltip "ਇਹ ਸੁਨੇਹਾ ਹੁਣੇ ਭੇਜੋ">
+<!ENTITY sendlaterButton.tooltip "ਇਹ ਸੁਨੇਹਾ ਬਾਅਦ ਵਿੱਚ ਭੇਜੋ">
+<!ENTITY quoteButton.tooltip "ਪਿਛਲੇ ਸੁਨੇਹਾ ਦਾ ਹਵਾਲਾ">
+<!ENTITY addressButton.tooltip "ਪ੍ਰਾਪਤ ਕਰਤਾ ਨੂੰ ਐਡਰੈਸ ਬੁੱਕ ਤੋਂ ਚੁਣੋ">
 <!ENTITY spellingButton.tooltip "ਚੋਣ ਜਾਂ ਪੂਰੇ ਸੁਨੇਹੇ ਲਈ ਸਪੈੱਲ ਚੈੱਕ ਕਰੋ">
 <!ENTITY saveButton.tooltip "ਇਹ ਸੁਨੇਹਾ ਸੰਭਾਲੋ">
 <!ENTITY cutButton.tooltip              "ਕੱਟੋ">
@@ -172,11 +180,12 @@
 <!ENTITY pasteButton.tooltip            "ਚੇਪੋ">
 
 <!-- Headers -->
-<!-- Headers -->
-<!ENTITY fromAddr.accesskey "r"> 
+<!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
+    Subject: rows. It should be larger than the largest Header label  -->
+<!ENTITY fromAddr.accesskey "r">
 <!ENTITY subject.accesskey "S">
 
-<!-- Format Toolbar, imported from editorAppShell.xul -->
+<!-- Format Toolbar, imported from editorAppShell.xhtml -->
 <!ENTITY SmileButton.tooltip "ਇੱਕ ਹੱਸਦਾ ਚੇਹਰਾ ਸ਼ਾਮਲ">
 <!ENTITY smiley1Cmd.label "ਖੁਸ਼">
 <!ENTITY smiley2Cmd.label "Frown">
@@ -212,6 +221,7 @@
 <!ENTITY pasteQuote.label "ਹਵਾਲੇ ਵਾਂਗ ਚੇਪੋ">
 <!ENTITY pasteQuote.accesskey "Q">
 
+<!-- Attachment Item and List Context Menus -->
 <!ENTITY openAttachment.label "ਖੋਲ੍ਹੋ">
 <!ENTITY openAttachment.accesskey "O">
 <!ENTITY delete.label "ਹਟਾਓ">
@@ -234,6 +244,9 @@
 <!ENTITY attachPage.accesskey "W">
 
 <!-- Attachment Pane Header Bar Context Menu -->
+<!-- LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
+     Should use the same wording as startExpandedCmd.label
+     in msgHdrViewOverlay.dtd. -->
 
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "ਡਿਕਸ਼ਨਰੀਆਂ ਸ਼ਾਮਲ…">
@@ -242,3 +255,8 @@
 <!-- Title for the address picker panel -->
 <!ENTITY addressesSidebarTitle.label "ਸੰਪਰਕ">
 
+<!-- Identity popup customize menuitem -->
+
+<!-- Accessibility name for the document -->
+
+<!-- Status Bar -->

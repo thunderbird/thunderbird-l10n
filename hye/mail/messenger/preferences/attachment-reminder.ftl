@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = Կցորդի յիշեցման հիմնաբառեր
 attachment-reminder-dialog-title = Կցորդի յիշեցման հիմնաբառեր
 attachment-reminder-label = { -brand-short-name }-ը կը յայտնի Ձեզ կցորդների բացակայութեան մասին, եթե ցանկանում էք ուղարկել եղ․ փոստ ներառելով այս հիմնաբառերից մեկը։
 keyword-new-button =

@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Термін дії
 openpgp-key-id-label =
     .label = ID ключа
-openpgp-cannot-change-expiry = Це ключ зі складною структурою, зміна його терміну дії не підтримується.
-openpgp-key-man-title =
-    .title = Менеджер ключів OpenPGP
 openpgp-key-man-dialog-title = Менеджер ключів OpenPGP
 openpgp-key-man-generate =
     .label = Додавання пов'язаного ключа
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Сертифікат про відкликання
     .accesskey = в
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Створити та зберегти сертифікат про відкликання
 openpgp-key-man-gen-revocation =
     .label = Зберегти сертифікат відкликання у файл
     .accesskey = б
@@ -496,8 +491,6 @@ filter-encrypt-label = Захистити ключ (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Ключі успішно імпортовано
 import-info-dialog-title = Ключі успішно імпортовано
 import-info-bits = біт
 import-info-created = Створено
@@ -787,15 +780,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Ви налаштували загортання рядків понад { $width } символів. Для правильного шифрування та/або підписання це значення повинно бути не менше 68.
     Бажаєте змінити згортання рядків на 68 символів зараз?
-sending-news =
-    Зашифроване надсилання скасовано.
-    Це повідомлення не можна зашифрувати, оскільки є отримувачі у групі новин. Будь ласка, повторно надішліть це повідомлення без шифрування.
-send-to-news-warning =
-    Попередження: ви збираєтесь надіслати захищений електронний лист до групи новин.
-    Це не рекомендовано, оскільки це має сенс лише у випадку, коли всі члени групи можуть розшифрувати повідомлення, тобто повідомлення потрібно захистити ключами всіх учасників групи. Надішліть це повідомлення лише за умови, що ви впевнені у своїх діях.
-    Продовжити?
 save-attachment-header = Зберегти розшифроване вкладення
-possibly-pgp-mime = Можливо, повідомлення захищене або підписане за допомогою PGP/MIME; скористайтеся функцією 'Розшифрувати/Верифікувати' для підтвердження
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Не вдається підписати це повідомлення цифровим підписом, оскільки ви ще не налаштували наскрізне шифрування для <{ $key }>
@@ -849,15 +834,6 @@ debug-log-title = Журнал налагодження OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Це сповіщення повторюватиметься { $count }
-repeat-suffix-singular = раз.
-repeat-suffix-plural = разів.
-no-repeat = Це попередження більше не з'являтиметься.
-dlg-keep-setting = Запам’ятати моє рішення і більше не запитувати
 
 ## Strings used in dialog.sys.mjs
 
@@ -867,8 +843,6 @@ dlg-button-cancel = &Скасувати
 dlg-no-prompt = Більше не показувати це вікно.
 enig-prompt = Підказка OpenPGP
 enig-confirm = Підтвердження OpenPGP
-enig-alert = Сповіщення OpenPGP
-enig-info = Відомості OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 

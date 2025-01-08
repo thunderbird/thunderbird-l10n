@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "W">
 <!ENTITY deleteCmd.label          "Wulašowaś">
 <!ENTITY deleteCmd.accesskey        "l">
-
 <!ENTITY customizeCmd.label "Pśiměriś">
 <!ENTITY customizeCmd.accesskey "m">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Zacyniś">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "c">
-
-<!ENTITY quitApplicationCmd.label  "Skóńcyś">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "S">
-
-<!ENTITY quitApplicationCmdUnix.label  "Skóńcyś">
-<!ENTITY quitApplicationCmdUnix.accesskey  "S">
-
-<!ENTITY quitApplicationCmdMac.label  "&brandShortName; spušćiś">
-<!ENTITY quitApplicationCmdMac.accesskey  "u">

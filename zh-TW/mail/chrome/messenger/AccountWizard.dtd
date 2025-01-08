@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "帳號管理精靈">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "請輸入您的新聞群組伺服器 (NNTP) 的名稱。（例:「news.example.net」）。">
 <!ENTITY newsServerLabel.label "新聞群組伺服器:">
 <!ENTITY newsServerLabel.accesskey "s">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

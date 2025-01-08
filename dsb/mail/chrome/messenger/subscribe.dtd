@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Konto:">
 <!ENTITY server.accesskey             "K">
 <!ENTITY subscribedHeader.label       "Aboněrowaś">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Zapiski pokazaś, kótarež wopśimuju:">
 <!ENTITY namefield.accesskey          "Z">

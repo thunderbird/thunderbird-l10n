@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = z
     .tooltiptext = Ingresar URL preferida para resolver DNS sobre HTTPS
 connection-dns-over-https-custom-label = Personalizada
-connection-dialog-window2 =
-    .title = Opciones de conexión
 connection-dialog-title = Opciones de conexión
 disable-extension-button = Deshabilitar el complemento
 # Variables:

@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "b">
 <!ENTITY overrideNamespaces.label "Tillat serveren å overstyre disse navnerommene">
 <!ENTITY overrideNamespaces.accesskey "a">
-<!ENTITY pop3DeferringDesc.label "Ved nedlasting av e-post fra denne kontoens server, bruk denne mappen for å lagre nye meldinger:" >
+<!ENTITY pop3DeferringDesc.label "Ved nedlasting av e-post fra denne kontoens server, bruk denne mappen for å lagre nye meldinger:">
 <!ENTITY accountInbox.label "Innboks for denne kontoen">
 <!ENTITY accountInbox.accesskey "s">
 <!ENTITY deferToServer.label "Innboks i en annen konto">

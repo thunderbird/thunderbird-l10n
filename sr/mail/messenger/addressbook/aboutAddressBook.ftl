@@ -8,12 +8,6 @@ about-addressbook-title = Именик
 
 about-addressbook-toolbar-new-address-book =
     .label = Нови именик
-about-addressbook-toolbar-new-contact =
-    .label = Нови контакт
-about-addressbook-toolbar-new-list =
-    .label = Нови списак
-about-addressbook-toolbar-import =
-    .label = Увези
 
 ## Books
 
@@ -46,12 +40,6 @@ about-addressbook-confirm-remove-remote-book-title = Уклони именик
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Претражи { $name }
-about-addressbook-search-all =
-    .placeholder = Претражи све именике
 about-addressbook-sort-button2 =
     .title = Прикажи опције приказа
 about-addressbook-name-format-display =

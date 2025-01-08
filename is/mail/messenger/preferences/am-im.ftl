@@ -4,14 +4,14 @@
 
 account-settings-title = Stillingar auðkenningar
 account-channel-title = Sjálfgefnar spjallrásir
-
 chat-autologin =
     .label = Skrá inn í ræsingu
-
 chat-encryption-generic = Almennt
 chat-encryption-log =
     .label = Hafa enda-í-enda dulrituð skilaboð með í samtalaskrám
 chat-encryption-label = Innbyggð enda-í-enda dulritun
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } veitir enda-í-enda dulritun fyrir spjallskilaboð. Þetta kemur í veg fyrir að utanaðkomandi aðilar geti hlerað samtöl. Viðbótaruppsetning gæti reynst nauðsynleg hér fyrir neðan til að dulritunin virki rétt.
 chat-encryption-status = Staða dulritunar
 chat-encryption-placeholder = Dulritun ekki frumstillt.

@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Shkronja
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Parazgjedhje ({ $name })
 fonts-label-default-unnamed =
     .label = Parazgjedhje
-fonts-encoding-dialog-title =
-    .title = Shkronja & Kodime
 fonts-language-legend =
     .value = Shkronja për:
     .accesskey = S

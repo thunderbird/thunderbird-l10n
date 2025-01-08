@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = CardDAV adres defteri ekle
 about-addressbook-toolbar-add-ldap-address-book =
     .label = LDAP adres defteri ekle
-about-addressbook-toolbar-new-contact =
-    .label = Yeni kişi
-about-addressbook-toolbar-new-list =
-    .label = Yeni liste
-about-addressbook-toolbar-import =
-    .label = İçe aktar
 books-pane-create-contact-button = Yeni kişi
     .title = Yeni kişi oluştur
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = { $name } adres defterini kaldır
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = { $name } defterinde ara
-about-addressbook-search-all =
-    .placeholder = Tüm adres defterlerinde ara
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -280,7 +268,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Kişi fotoğrafını düzenle
 about-addressbook-new-contact-header = Yeni kişi
-about-addressbook-prefer-display-name = İleti başlığında görünen adı tercih et
 about-addressbook-write-action-button = Yaz
 about-addressbook-event-action-button = Etkinlik
 about-addressbook-search-action-button = Ara

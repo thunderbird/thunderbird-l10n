@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Barwy
 colors-dialog-title = Barwy
 colors-dialog-legend = Tekst a slězyna
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Woglědane wótkaze:
     .accesskey = W
-underline-link-checkbox =
-    .label = Wótkaze pódšmarnuś
-    .accesskey = k
 always-underline-links =
     .label = Wótkaze pśecej pódšmarnuś
     .accesskey = m

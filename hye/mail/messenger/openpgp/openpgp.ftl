@@ -31,9 +31,6 @@ openpgp-key-expiry-label =
     .label = Ժամկետի աւարտ
 openpgp-key-id-label =
     .label = բանալու ID
-openpgp-cannot-change-expiry = Սա բարդ կառուցուածքով բանալի է, որի պիտանելիութեան ժամկէտը փոխելը չի ​​աջակցուում:
-openpgp-key-man-title =
-    .title = OpenPGP բանալիների կառաւարիչ
 openpgp-key-man-dialog-title = OpenPGP բանալիների կառաւարիչ
 openpgp-key-man-generate =
     .label = Նոր բանալիների զոյգ
@@ -41,8 +38,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Չեղեալ համարելու վկայական
     .accesskey = Չ
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Ստեղծել եւ պահպանել չեղեալ համարուած վկայականը
 openpgp-key-man-file-menu =
     .label = Նիշ
     .accesskey = Ն
@@ -97,6 +92,8 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Ուղարկել հանրային բանալին եղ. փոստով
     .accesskey = Ո
+# Variables:
+# $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
@@ -104,6 +101,8 @@ openpgp-key-man-copy-key-ids =
            *[other] Պատճէնել բանալու ID֊ն սեղմատախտակի վրայ
         }
     .accesskey = բ
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
@@ -111,6 +110,8 @@ openpgp-key-man-copy-fprs =
            *[other] Պատճէնել մատնահետքերը սեղմատախտակի վրայ
         }
     .accesskey = մ
+# Variables:
+# $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
@@ -118,11 +119,11 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Պատճէնել հանրային բանալիները սեղմատախտակի վրայ
         }
     .accesskey = հ
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Արտածել բանալիները դէպի նիշ
 openpgp-key-man-ctx-copy =
     .label = Պատճէնել
     .accesskey = Պ
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
@@ -130,6 +131,8 @@ openpgp-key-man-ctx-copy-fprs =
            *[other] Մատնահետքեր
         }
     .accesskey = Մ
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
@@ -137,6 +140,8 @@ openpgp-key-man-ctx-copy-key-ids =
            *[other] Բանալու ID֊ներ
         }
     .accesskey = Բ
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -292,9 +297,9 @@ openpgp-radio-none-desc = Մի՛ աւգտագործէք OpenPGP ֊ն այս ին
 openpgp-radio-key-not-usable = Այս բանալին աւգտագործելի չէ, որպէս անձնական բանալի, քանի որ գաղտնի բանալին բացակայում է։
 openpgp-radio-key-not-accepted = Այս բանալին աւգտագործելուց նախ եւ առաջ դուք պէտք է դա հաստատէք որպէս անձնական բանալի։
 openpgp-radio-key-not-found = Այս բանալին չյաջողուեց գտնել։ Եթե ցանկանում էք դա աւգտագործել, պէտք է դա ներմուծել { -brand-short-name } ֊ում։
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Ժամկէտը կը լրանա․ { $date }֊ին
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Ժամկէտը լրացել է․ { $date }֊ին
 openpgp-key-expires-within-6-months-icon =
     .title = Բանալու ժամկէտը կը լրանա աւելի քիչ, քան 6 ամսից
@@ -316,7 +321,6 @@ key-external-label = Արտաքին GnuPG բանալի
 
 ## Strings in keyDetailsDlg.xhtml
 
-# Strings in keyDetailsDlg.xhtml
 key-type-public = հանրային բանալի
 key-type-primary = առաջնային բանալի
 key-type-subkey = ենթաբանալի
@@ -327,21 +331,28 @@ key-usage-sign = Ստորագրել
 key-usage-certify = Հաւաստագրել
 key-usage-authentication = Վաւերացում
 key-does-not-expire = Բանալին չի սպառուում
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = Բանալին սպառուել է { $keyExpiry }֊ին
 key-expired-simple = Բանալին ժամկէտանց է
 key-revoked-simple = Բանալին մերժուած է
 key-do-you-accept = Ընդունու՞մ էք այս բանալին թուային ստորագրութիւնները ստուգելու եւ հաղորդագրութիւնների ծածկագրման համար:
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
 key-verification = Ստուգէք բանալու մատնահետքը՝ աւգտագործելով անվտանգ հաղորդակցման ալիք, բացի եղ․փոստից, համոզուելու համար, որ դա իսկապէս { $addr }-ի բանալին է
 
 ## Strings enigmailMsgComposeOverlay.js
 
-# Strings enigmailMsgComposeOverlay.js
+# Variables:
+# $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Հնարաւոր չէ ուղարկել հաղորդագրութիւնը, քանի որ խնդիր կայ Ձեր անձնական բանալու հետ: { $problem }
 window-locked = Կազմելու պատուհանը կողպուած է; ուղարկումը չեկարկուել է
 
 ## Strings in keyserver.jsm
 
-# Strings in keyserver.jsm
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Ընդհատուած
 keyserver-error-unknown = Տեղի ունեցաւ անյայտ սխալ
 keyserver-error-server-error = Բանալիների սպասարկիչը յայտնել է սխալի մասին:
@@ -353,7 +364,9 @@ keyserver-error-unsupported = Բանալու սպասարկիչը չի աջակ�
 
 ## Strings in mimeWkdHandler.jsm
 
-# Strings in mimeWkdHandler.jsm
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Ձեր եղ․ փոստի մատակարարը մշակել է Ձեր հանրային բանալին OpenPGP վեբ բանալիների գրացուցակ վերբեռնելու Ձեր հարցումը:
     Խնդրում ենք հաստատել՝ Ձեր հանրային բանալու հրապարակումն աւարտելու համար:
@@ -363,7 +376,11 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
-# Strings in persistentCrypto.jsm
+
+## Strings in persistentCrypto.sys.mjs
+
+# Variables:
+# $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
     Չի յաջողուել վերծանել թեմայի հաղորդագրութիւնը
     { $subject }.
@@ -371,30 +388,35 @@ converter-decrypt-body-failed =
 
 ## Strings filters.jsm
 
-# Strings filters.jsm
+
+## Strings filters.sys.mjs
+
 filter-folder-required = Դուք պէտք է ընտրէք թիրախային թղթապանակ:
 filter-decrypt-move-warn-experimental =
     Զգուշացում. «մշտապէս վերծանել» զտիչի գործողութիւնը կարող է յանգեցնել հաղորդագրութիւնների ոչնչացմանը:
     Մենք խստաւրէն խորհուրդ ենք տալիս նախ փորձել «ստեղծել վերծանուած պատճէն» զտիչը, ուշադիր ստուգել արդիւնքը եւ ապա սկսել աւգտագործել այս զտիչը միայն արդիւնքից գոհ լինելուց յետոյ:
 filter-term-pgpencrypted-label = OpenPGP֊ն գաղտնագրուած է
 filter-key-required = Նշէք ընդունիչ բանալին։
+# Variables:
+# $desc (String) - Email address to look for a key of.
 filter-key-not-found = Չյաջողուեց գտնել «{ $desc }»-ի կոդաւորման բանալին:
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     Զգուշացում. «ծածկագրել բանալուն» զտիչի գործողութիւնը փոխարինում է ստացողներին:
     Եթե չունէք «{ $desc }»-ի գաղտնի բանալին, այղեւս չէք կարողանայ կարդալ հաղորդագրութիւնները:
 
 ## Strings filtersWrapper.jsm
 
-# Strings filtersWrapper.jsm
+
+## Strings filtersWrapper.sys.mjs
+
 filter-decrypt-move-label = Մշտապէս վերծանել (OpenPGP)
 filter-decrypt-copy-label = Ստեղծել գաղտնազերծուած պատճէն (OpenPGP)
 filter-encrypt-label = Ծածկագրել բանալին (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-# Strings in enigmailKeyImportInfo.js
-import-info-title =
-    .title = Յաջողուե՜ց։ Բանալիները ներմուծուած են
 import-info-dialog-title = Յաջողուե՜ց։ Բանալիները ներմուծուած են
 import-info-bits = Բիթեր
 import-info-created = Ստեղծուել է
@@ -404,11 +426,12 @@ import-info-no-keys = Ներմուծուած բանալիներ չկայն:
 
 ## Strings in enigmailKeyManager.js
 
-# Strings in enigmailKeyManager.js
 import-from-clip = Ցանկանու՞մ եք որոշ բանալի(ներ) ներմուծել սեղմատախտակից:
 import-from-url = Ներբեռնեք հանրային բանալին այս URL-ից.
 copy-to-clipbrd-failed = Չյաջողուեց պատճէնել ընտրուած ստեղն(երը) սեղմատախտակին:
 copy-to-clipbrd-ok = Բանալին(երը) պատճէնուել է(են) սեղմատախտակին
+# Variables:
+# $userId (String) - User id of the key.
 delete-secret-key =
     ԶԳՈՒՇԱՑՈՒՄ. Դուք պատրաստուում էք ջնջել գաղտնի բանալին:
     
@@ -420,6 +443,8 @@ delete-mix =
     ԶԳՈՒՇԱՑՈՒՄ. Դուք պատրաստուում էք ջնջել գաղտնի բանալիները:
     Եթե ջնջէք Ձեր գաղտնի բանալին, այղեւս չէք կարողանայ վերծանել այդ բանալու համար ծածկագրուած որեւէ հաղորդագրութիւն:
     Իսկապէ՞ս ցանկանում էք ջնջել ԵՐԿՈՒՍՆ էլ՝ ընտրուած գաղտնի եւ հանրային բանալիները:
+# Variables:
+# $userId (String) - User id of the key.
 delete-pub-key =
     Ցանկանու՞մ էք ջնջել հանրային բանալին։
     ‘{ $userId }’
@@ -440,6 +465,8 @@ default-pub-key-filename = Արտահանուած հանրային բանալի�
 default-pub-sec-key-filename = Գաղտնի բանալիների կրկնաւրինակում
 refresh-key-warn = Զգուշացում․ կախուած բանալիների քանակից եւ կապի արագութիւնից, բոլոր բանալիների թարմացումը կարող է բաւականին երկար գործընթաց լինել։
 preview-failed = Հնարաւոր չէ կարդալ հանրային բանալու նիշը։
+# Variables:
+# $reason (String) - Error description.
 general-error = Սխալ․ { $reason }
 dlg-button-delete = &Ջնջել
 
@@ -455,7 +482,12 @@ openpgp-export-secret-fail = <b>Հնարավոր չէ արտահանել ընտ�
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
-# Strings in keyObj.jsm
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Բանալին { $userId } (բանալու ID { $keyId }) չեղեալ է յայտարարուել:
 key-ring-pub-key-expired = Բանալին { $userId } (բանալու ID { $keyId }) ժամկէտանց է:
 key-ring-no-secret-key = Դուք, կարծէս, չունէք { $userId }-ի (բանալու ID { $keyId }յ) գաղտնի բանալի Ձեր ստեղնաշարի վրայ; դուք չէք կարող աւգտագործել բանալին ստորագրման համար:
@@ -468,13 +500,17 @@ key-ring-enc-sub-keys-expired = Բանալու { $userId } (բանալու ID { 
 
 ## Strings in gnupg-keylist.jsm
 
-# Strings in gnupg-keylist.jsm
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Լուսանկար
 user-att-photo = Աւգտագործողի յատկանիշ (JPEG պատկեր)
 
 ## Strings in key.jsm
 
-# Strings in key.jsm
+
+## Strings in key.sys.mjs
+
 already-revoked = Այս բանալին արդէն յետ է կանչուել:
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
@@ -496,7 +532,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
-# Strings in keyRing.jsm & decryption.jsm
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Ներմուծել
 delete-key-title = Ջնջել OpenPGP բանալին
 delete-external-key-title = Հեռացնել արտաքին GnuPG բանալին
@@ -507,41 +545,59 @@ revoke-key-in-use-description = Անհնար է շարունակել։ Բանա�
 
 ## Strings used in errorHandling.jsm
 
-# Strings used in errorHandling.jsm
+
+## Strings used in errorHandling.sys.mjs
+
+# Variables:
+# $keySpec (String) - Email address.
 key-error-key-spec-not-found = Եղ․փոստի հասցէն «{ $keySpec }» չի համընկնում Ձեր ստեղնաշարի բանալիի հետ:
+# $keySpec (String) - Key id.
 key-error-key-id-not-found = Կազմաձեւուած բանալու ID-ն «{ $keySpec }» չի գտնուել Ձեր ստեղնաշարի վրայ:
+# $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Դուք չէք հաստատել, որ «{ $keySpec }» ID-ով բանալին Ձեր անձնականն է:
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
-# Strings used in enigmailKeyManager.js & windows.jsm
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Ձեր ընտրած գործառոյթը հասանելի չէ ցանցից դուրս։ Խնդրում ենք միանալ ցանցին եւ կրկին փորձել։
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
 
-# Strings used in keyRing.jsm & keyLookupHelper.jsm
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
+
 no-key-found2 = Մենք չկարողացանք գտնել որեւէ պէտքական բանալի, որը համապատասխանում է նշուած որոնման չափանիշներին:
 no-update-found = Դուք արդէն ունէք առցանց յայտնաբերուած բանալիները:
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
-# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Սխալ․ բանալիների արտահանման հրամանը ձախողուեց
 
 ## Strings used in keyRing.jsm
 
-# Strings used in keyRing.jsm
+
+## Strings used in keyRing.sys.mjs
+
 fail-cancel = Խափանում ֊ բանալու ստացումը չեղարկուեց աւգտատիրոջ կողմից
 not-first-block = Խափանում ֊ առաջին OpenPGP արգելափակման ոչ հանրային բանալու արգելափակում
 import-key-confirm = Ներմուծե՞լ հասարակական բանալի(ները) ներմուծուած հաղորդագրութեան մէջ։
 fail-key-import = Խափանում ֊ բանալու ներածումը խափանուեց
+# Variables:
+# $output (String) - File that writing was attempted to.
 file-write-failed = Չյաջողուեց գրել նիշում { $output }
 no-pgp-block = Խափանում ֊ չկայ զրահապատ OpenPGP տուեալների բլոկ
 confirm-permissive-import = Ներածումը չյաջողուեց: Բանալին, որը փորձում էք ներմուծել, կարող է վնասուած լինել կամ աւգտագործել անյայտ յատկանիշներ: Ցանկանու՞մ էք փորձել ներմուծել այն մասերը, որոնք ճիշտ են։ Սա կարող է յանգեցնել թերի եւ անաւգտագործելի բանալիների ներմուծմանը:
 
 ## Strings used in trust.jsm
 
-# Strings used in trust.jsm
+
+## Strings used in trust.sys.mjs
+
 key-valid-unknown = անյայտ
 key-valid-invalid = անվաւեր
 key-valid-disabled = անջատուած
@@ -555,7 +611,6 @@ key-trust-group = (խումբ)
 
 ## Strings used in commonWorkflows.js
 
-# Strings used in commonWorkflows.js
 import-key-file = Ներածէք OpenPGP բանալի նիշը
 import-rev-file = Ներածէք OpenPGP խափանուած նիշը
 gnupg-file = GnuPG նիշեր
@@ -564,7 +619,6 @@ file-to-big-to-import = Այս նիշը չափից դուրս մեծ է։ Խնդ
 
 ## Strings used in enigmailKeygen.js
 
-# Strings used in enigmailKeygen.js
 save-revoke-cert-as = Ստեղծել եւ պահպանել յետկանչման վկայականը
 revoke-cert-ok = Չեղեալ յայտարարման վկայականը յաջողութեամբ ստեղծուել է: Դուք կարող էք այն աւգտագործել Ձեր հանրային բանալին անվաւեր ճանաչելու համար, աւրինակ. եթե դուք կորցնէք Ձեր գաղտնի բանալին:
 revoke-cert-failed = Չեղեալ յայտարարման վկայականը չյաջողուեց ստեղծել:
@@ -572,6 +626,8 @@ gen-going = Բանալիների ստեղծումն արդէն ընթացքի մ
 keygen-missing-user-name = Ընտրուած հաշուի/ինքնութեան համար անուն նշուած չէ: Խնդրում ենք մուտքագրել արժէք «Ձեր անունը» դաշտում՝ հաշուի կարգաւորումներում:
 expiry-too-short = Ձեր բանալին պէտք է վաւեր լինի առնուազն մեկ աւրով:
 expiry-too-long = Դուք չէք կարող ստեղծել բանալի, որի ժամկէտը լրանում է աւելի քան 100 տարուց:
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
 key-confirm = Ստեղծե՞լ հանրային եւ գաղտնի բանալի «{ $id }»-ի համար:
 key-man-button-generate-key = &Ստեղծել բանալի
 key-abort = Չեղարկե՞լ բանալիների ստեղծումը։
@@ -582,9 +638,17 @@ key-man-button-generate-key-continue = &Շարունակել բանալիներ�
 
 failed-decrypt = Սխալ. վերծանումը ձախողուեց
 fix-broken-exchange-msg-failed = Չյաջողուեց վերանորոգել այս հաղորդագրութիւնը:
+# Variables:
+# $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Չյաջողուեց «{ $attachment }» նիշը համապատասխանեցնել կցորդին
+# Variables:
+# $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Չյաջողուեց «{ $attachment }» կցորդը համապատասխանեցնել նիշին
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verified-ok = { $attachment } կցորդի նշանը յաջողութեամբ հաստատուեց
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verify-failed = { $attachment } կցորդի նշանը չյաջողուեց հաստատել
 decrypt-ok-no-sig =
     Զգուշացում
@@ -594,14 +658,21 @@ enig-content-note = *Այս հաղորդագրութեան կցորդները ն
 
 ## Strings used in enigmailMsgComposeOverlay.js
 
-# Strings used in enigmailMsgComposeOverlay.js
 msg-compose-button-send = &Ուղարկել հաղորդագրութիւն
 msg-compose-details-button-label = Մանրամասներ…
 msg-compose-details-button-access-key = Մ
 send-aborted = Ուղարկելու գործողութիւնը ընդհատուել է:
+# Variables:
+# $key (String) - Key id.
 key-not-trusted = «{ $key }» բանալին անվստահելի է
+# Variables:
+# $key (String) - Key id.
 key-not-found = «{ $key }» բանալին չի գտնուել
+# Variables:
+# $key (String) - Key id.
 key-revoked = «{ $key }» բանալին չեղարկուած է
+# Variables:
+# $key (String) - Key id.
 key-expired = «{ $key }» բանալու ժամկէտը սպառուել է։
 msg-compose-internal-error = Տեղի է ունեցել ներքին սխալ:
 keys-to-export = Տեղադրելու համար ընտրէք OpenPGP բանալին
@@ -613,80 +684,84 @@ msg-compose-partially-encrypted-short = Զգուշացէք զգայուն տեղ
 quoted-printable-warn =
     Դուք միացրել էք «մէջբերուած-տպուող» կոդաւորումը հաղորդագրութիւններ ուղարկելու համար: Սա կարող է յանգեցնել Ձեր հաղորդագրութեան սխալ վերծանման եւ/կամ հաստատման:
     Ցանկանու՞մ էք այժմ անջատել «մէջբերուած-տպուող» հաղորդագրութիւնների ուղարկումը:
+# Variables:
+# $width (Number) - Number of characters per line.
 minimal-line-wrapping =
     Դուք սահմանել էք ինքնաշխատ կերպով նոր տող անցումը { $width } նիշից յետոյ: Ճիշտ կոդաւորման եւ/կամ ստորագրման համար այս արժէքը պէտք է լինի առնուազն 68 նիշ:
     Ցանկանու՞մ էք փոխել նոր տող անցումը 68 նիշից յետոյ:
-sending-news =
-    Կոդաւորուած ուղարկումը ընդհատուեց:
-    Այս հաղորդագրութիւնը չի կարող գաղտնագրուել, քանի որ կան լրախմբերի հասցէատէրեր: Խնդրում ենք նորից ուղարկել հաղորդագրութիւնը առանց կոդաւորման:
-send-to-news-warning =
-    Զգուշացում. դուք պատրաստուում էք գաղտնագրուած նամակ ուղարկել լրախմբին:
-    Սա իմաստ ունի միայն այն դէպքում, եթե խմբի բոլոր անդամները կարողանան վերծանել հաղորդագրութիւնը, այսինքն՝ հաղորդագրութիւնը պէտք է գաղտնագրուի խմբի բոլոր մասնակիցների բանալիներով: Խնդրում ենք ուղարկել այս հաղորդագրութիւնը միայն այն դէպքում, եթե յստակ գիտէք, թե ինչ էք անում:
-    Շարունակել?
 save-attachment-header = Պահպանել կոդաւորուած կցորդը
-possibly-pgp-mime = Հաղորդագրութիւնը կարող է գաղտնագրուած կամ ստորագրուած լինել PGP/MIME-ով, ստուգելու համար աւգտագործէք «Decrypt/Verify» գործառոյթը
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Հնարաւոր չէ թուային ստորագրել այս հաղորդագրութիւնը, քանի որ Դուք դեռ չէք կարգաբերել ծայրէծայր գաղտնագրումը { $key }֊ի համար
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Հնարաւոր չէ ծածկագրուած ուղարկել այս հաղորդագրութիւնը, քանի որ Դուք դեռ չէք կարգաբերել ծայրէծայր գաղտնագրումը { $key }֊ի համար
 
 ## Strings used in decryption.jsm
 
-# Strings used in decryption.jsm
+
+## Strings used in decryption.sys.mjs
+
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     Ներածե՞լ հետեւեալ բանալիները՝
     { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
 do-import-one = Ներածե՞լ { $name } ({ $id })։
 cant-import = Հանրային բանալին ներածելու սխալ
 unverified-reply = Հաղորդագրութեան (պատասխանի) հատուածը հաւանաբար փոփոխուել է
 key-in-message-body = Հաղորդագրութեան մարմնում բանալի է յայտնաբերուել: Բանալին ներածելու համար սեղմէք «Import Key» :
 sig-mismatch = Սխալ․ ստորագրութիւնը չի համապատասխանում
 invalid-email = Սխալ․ անվաւեր եղ․հասցէ(ներ)
+# Variables:
+# $name (String) - File name of the attachment.
 attachment-pgp-key =
     «{ $name }» յաւելուածը, որը Դուք բացում էք, կարծես թե OpenPGP բանալի նիշ է:
     Սեղմէք «ներածել»՝ պարունակուող ստեղները ներմուծելու համար, կամ ՝ «դիտել»  դիտարկիչի պատուհանում նիշի բովանդակութիւնը դիտելու համար
 dlg-button-view = &Դիտել
 
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-# Strings used in enigmailMsgHdrViewOverlay.js
-decrypted-msg-with-format-error = Ապակոդաւորուած հաղորդագրութիւն (վերականգնուած կոտրուած PGP եղ․փոստի ձեւաչափը, հաւանաբար, առաջացել է հին փոխանակման սպասարկչի կողմից, այնպէս որ արդիւնքը կարող է կատարեալ չլինել կարդալու համար)
-
 ## Strings used in encryption.jsm
 
-# Strings used in encryption.jsm
+
+## Strings used in encryption.sys.mjs
+
 not-required = Սխալ. գաղտնագրում չի պահանջուում
 
 ## Strings used in windows.jsm
 
-# Strings used in windows.jsm
+
+## Strings used in windows.sys.mjs
+
 no-photo-available = Լուսանկար չկայ
+# Variables:
+# $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = «{ $photo }» լուսանկարի ուղին ընթեռնելի չէ
 debug-log-title = OpenPGP վրիպազերծման գրանցամատեան
 
 ## Strings used in dialog.jsm
 
-# Strings used in dialog.jsm
-repeat-prefix = Այս ահազանգը կը կրկնուի { $count }
-repeat-suffix-singular = աւելի շատ ժամանակ:
-repeat-suffix-plural = Շատ անգամներ
-no-repeat = Այս զգուշացումն այղեւս չի ցուցադրուի:
-dlg-keep-setting = Հիշէք իմ պատասխանը եւ այղեւս մի հարցրէք ինձ
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &Լաւ
 dlg-button-close = &Փակել
 dlg-button-cancel = &Չեղարկել
 dlg-no-prompt = Այղեւս ցոյց մի տուէք ինձ այս երկխաւսութիւնը
 enig-prompt = OpenPGP հուշուածք
 enig-confirm = OpenPGP հաստատում
-enig-alert = OpenPGP զգուշացում
-enig-info = OpenPGP տեղեկութիւն
 
 ## Strings used in persistentCrypto.jsm
 
-# Strings used in persistentCrypto.jsm
+
+## Strings used in persistentCrypto.sys.mjs
+
 dlg-button-retry = &վերափորձել
 dlg-button-skip = &բաց թողնել
 
 ## Strings used in enigmailMsgBox.js
 
-# Strings used in enigmailMsgBox.js
 enig-alert-title =
     .title = OpenPGP զգուշացում

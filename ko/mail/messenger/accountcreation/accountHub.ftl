@@ -40,7 +40,6 @@ account-hub-sync-button = Sync에 로그인…
 
 ## Email page
 
-account-hub-email-title = 이메일 계정 설정
 account-hub-add-email-title = 계정 추가
 account-hub-manually-configure-email-title = 계정 설정
 account-hub-email-cancel-button = 취소
@@ -78,4 +77,3 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-label = 인증 방법
 account-hub-username-label = 사용자명
 account-hub-adding-account-title = 계정 추가
-account-hub-account-added-title = 계정 추가됨

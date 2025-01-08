@@ -64,8 +64,8 @@
 <!ENTITY cellAlignJustify.label           "Justifica">
 <!ENTITY cellInheritColor.label           "(Permet que el color de la taula sigui transparent)">
 <!ENTITY cellUseCheckboxHelp.label        "Utilitza caselles de selecció per determinar quines propietats s'apliquen a totes les cel·les seleccionades ">
-<!-- Used in both Table and Cell panels  -->
 
+<!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "Mida">
 <!ENTITY pixels.label                     "píxels">
 <!ENTITY backgroundColor.label            "Color de fons:">

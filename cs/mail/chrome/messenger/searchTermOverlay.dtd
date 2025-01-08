@@ -2,11 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY matchAll.label "Odpovídající všem pravidlům">
+<!ENTITY matchAll.label     "Odpovídající všem pravidlům">
 <!ENTITY matchAll.accesskey "O">
-<!ENTITY matchAny.label "Odpovídající některému pravidlu">
+<!ENTITY matchAny.label     "Odpovídající některému pravidlu">
 <!ENTITY matchAny.accesskey "d">
-<!ENTITY matchAllMsgs.label "Odpovídající všem zprávám">
+<!ENTITY matchAllMsgs.label     "Odpovídající všem zprávám">
 <!ENTITY matchAllMsgs.accesskey "v">
 
 <!-- LOCALIZATION NOTE

@@ -10,12 +10,6 @@ reminder-title-at-start-event = Când începe evenimentul
 reminder-title-at-start-task = Când începe sarcina
 reminder-title-at-end-event = Când se termină evenimentul
 reminder-title-at-end-task = Când se termină sarcina
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Amână mementoul pentru { $unit }
 reminder-custom-origin-begin-before-event = înainte de începerea evenimentului
 reminder-custom-origin-begin-after-event = după începerea evenimentului
 reminder-custom-origin-end-before-event = înainte de sfârșitul evenimentului

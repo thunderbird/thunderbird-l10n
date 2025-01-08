@@ -5,15 +5,12 @@
 context-text-action-find =
     .label = Trovar
     .accesskey = T
-
 context-text-action-find-again =
     .label = Trovar ancora
     .accesskey = a
-
 text-action-find =
     .label = Trovar
     .accesskey = T
-
 text-action-find-again =
     .label = Trovar ancora
     .accesskey = a

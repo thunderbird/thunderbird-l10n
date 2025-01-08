@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Propiedades de tabla…">
 <!ENTITY tableProperties.accesskey "o">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Imagen">
 <!ENTITY imageToolbarCmd.tooltip "Insertar nueva imagen o editar propiedades de la imagen seleccionada">
 <!ENTITY hruleToolbarCmd.label "Línea H">

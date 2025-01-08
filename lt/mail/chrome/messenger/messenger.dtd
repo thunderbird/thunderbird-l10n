@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "l">
 <!ENTITY newVirtualFolderCmd.label "Paieška įrašant radinius…">
 <!ENTITY newVirtualFolderCmd.accesskey "P">
-<!ENTITY newCreateEmailAccountCmd.label "Kurti naują el. pašto paskyrą…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "e">
-<!ENTITY newExistingEmailAccountCmd.label "Registruoti turimą el. pašto paskyrą…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "R">
 <!ENTITY newIMAccountCmd.label "Pokalbių paskyra…">
 <!ENTITY newIMAccountCmd.accesskey "o">
 <!ENTITY newFeedAccountCmd.label "Sklaidos kanalų paskyra…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Pašalinti laišką">
-<!ENTITY deleteMsgCmd.accesskey "š">
-<!ENTITY undeleteMsgCmd.label "Atšaukti laiško šalinimą">
-<!ENTITY undeleteMsgCmd.accesskey "t">
-<!ENTITY deleteMsgsCmd.label "Pašalinti pažymėtus laiškus">
-<!ENTITY deleteMsgsCmd.accesskey "ž">
-<!ENTITY undeleteMsgsCmd.label "Atšaukti pažymėtų laiškų šalinimą">
-<!ENTITY undeleteMsgsCmd.accesskey "u">
-<!ENTITY deleteFolderCmd.label "Pašalinti aplanką">
-<!ENTITY deleteFolderCmd.accesskey "p">
-<!ENTITY unsubscribeNewsgroupCmd.label "Atsisakyti prenumeratos">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "t">
 <!ENTITY selectMenu.label "Pažymėti">
 <!ENTITY selectMenu.accesskey "ž">
 <!ENTITY all.label "Viską">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "Ž">
 <!ENTITY menuFavoriteFolder.label "Parankinis aplankas">
 <!ENTITY menuFavoriteFolder.accesskey "P">
-<!ENTITY folderPropsCmd2.label "Savybės">
-<!ENTITY folderPropsFolderCmd2.label "Aplanko savybės">
-<!ENTITY folderPropsNewsgroupCmd2.label "Naujienų grupės savybės">
-<!ENTITY folderPropsCmd.accesskey "v">
 <!ENTITY undoDeleteMsgCmd.label "Atšaukti laiško šalinimą">
 <!ENTITY redoDeleteMsgCmd.label "Atstatyti laiško šalinimą">
 <!ENTITY undoMoveMsgCmd.label "Atšaukti laiško perkėlimą">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Aplankų sąrašas">
 <!ENTITY showFolderPaneCmd.accesskey "A">
-<!ENTITY showFolderPaneColsCmd.label "Aplankų sąrašo stulpeliai">
-<!ENTITY showFolderPaneColsCmd.accesskey "s">
 <!ENTITY showMessageCmd.label "Laiško teksto polangis">
 <!ENTITY showMessageCmd.accesskey "L">
 
@@ -594,10 +572,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Naujas laiškas">
 <!ENTITY appmenuNewContactCmd.label "Adresatas…">
-<!ENTITY appmenuEditMenu.label "Taisa">
 <!ENTITY appmenuToolbarLayout.label "Tvarkyti priemonių juostas…">
-<!ENTITY appmenuSelectThread.label "Pažymėti giją">
-<!ENTITY appmenuSelectFlagged.label "Pažymėti laiškus su žvaigždute">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nauja gairė…">
@@ -640,8 +615,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "t">
 <!ENTITY folderContextMarkNewsgroupRead.label "Pažymėti naujienų laiškus kaip skaitytus">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "ž">
-<!ENTITY folderContextMarkMailFolderRead.label "Pažymėti aplanko laiškus kaip skaitytus">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "k">
 <!ENTITY folderContextSubscribe.label "Prenumeruoti…">
 <!ENTITY folderContextSubscribe.accesskey "P">
 <!ENTITY folderContextSearchForMessages.label "Ieškoti laiškų…">
@@ -747,16 +720,6 @@
 <!ENTITY contextReplyAll.accesskey "v">
 <!ENTITY contextReplyList.label "Atsakyti el. pašto grupei">
 <!ENTITY contextReplyList.accesskey "g">
-<!ENTITY contextForward.label "Persiųsti">
-<!ENTITY contextForward.accesskey "P">
-<!ENTITY contextForwardAsMenu.label "Persiųsti kitaip">
-<!ENTITY contextForwardAsMenu.accesskey "i">
-<!ENTITY contextForwardAsInline.label "Tiesiogiai">
-<!ENTITY contextForwardAsInline.accesskey "T">
-<!ENTITY contextForwardAsAttachmentItem.label "Priedu">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "P">
-<!ENTITY contextMultiForwardAsAttachment.label "Persiųsti kaip priedus">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "P">
 <!ENTITY contextMoveMsgMenu.label "Perkelti į">
 <!ENTITY contextMoveMsgMenu.accesskey "e">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Paskiausi">
@@ -902,10 +865,6 @@
 <!ENTITY copyImageAllCmd.accesskey "p">
 <!ENTITY copyEmailCmd.label "Kopijuoti el. pašto adresą">
 <!ENTITY copyEmailCmd.accesskey "e">
-<!ENTITY stopCmd.label "Stabdyti">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Atsiųsti iš naujo">
-<!ENTITY reloadCmd.accesskey "n">
 <!ENTITY openInBrowser.label "Atverti naršyklėje">
 <!ENTITY openInBrowser.accesskey "a">
 <!ENTITY openLinkInBrowser.label "Atverti saistomą objektą naršyklėje">

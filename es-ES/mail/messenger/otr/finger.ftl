@@ -3,18 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-finger-title = Huellas digitales OTR vistas previamente
-
 finger-intro = Huellas de claves OTR de conversaciones cifradas extremo-a-extremo anteriores.
-
 finger-screen-name =
     .label = Contacto
 finger-verified =
     .label = Estado de verificación
 finger-fingerprint =
     .label = Huella
-
 finger-remove =
     .label = Eliminar seleccionadas
-
 finger-remove-all =
     .label = Eliminar todas

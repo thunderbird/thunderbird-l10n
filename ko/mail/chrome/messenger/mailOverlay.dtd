@@ -7,5 +7,5 @@
 <!ENTITY  newMessageCmd.label             "메시지">
 <!ENTITY  newMessageCmd.accesskey         "m">
 
-<!ENTITY  newContactCmd.label                "주소록 연락처…">
-<!ENTITY  newContactCmd.accesskey            "C">
+<!ENTITY  newContactCmd.label             "주소록 연락처…">
+<!ENTITY  newContactCmd.accesskey         "C">

@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Lösenord
     .accesskey = L
     .title = Valfritt, kommer endast att användas för att validera användarnamnet
-account-provisioner-button = Skapa en ny e-postadress
-    .accesskey = S
 account-setup-password-toggle-show =
     .title = Visa lösenord i klartext
 account-setup-password-toggle-hide =
@@ -146,7 +144,6 @@ account-setup-credentials-incomplete = Autentisering misslyckades. Antingen är 
 account-setup-credentials-wrong = Autentisering misslyckades. Kontrollera användarnamnet och lösenordet
 account-setup-find-settings-failed = { -brand-short-name } misslyckades med att hitta inställningarna för ditt e-postkonto
 account-setup-exchange-config-unverifiable = Konfigurationen kunde inte verifieras. Om ditt användarnamn och lösenord är korrekt är det troligt att serveradministratören har inaktiverat den valda konfigurationen för ditt konto. Försök att välja ett annat protokoll.
-account-setup-provisioner-error = Ett fel uppstod när ditt nya konto skulle konfigureras i { -brand-short-name }. Försök att konfigurera ditt konto manuellt med dina  	autentiseringsuppgifter.
 
 ## Manual configuration area
 

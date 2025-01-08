@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-itip-identity-dialog-title = Ikke innbydd?
-calendar-itip-identity-warning = Du er ikke på gjestelisten ennå.
 calendar-itip-identity-dialog-box-title = Ubuden gjest
 calendar-itip-identity-warning-body = E-postadressen tilknyttet kalenderen du importerer denne invitasjonen til, er ikke på gjestelisten.
 calendar-itip-identity-label = Svar som:

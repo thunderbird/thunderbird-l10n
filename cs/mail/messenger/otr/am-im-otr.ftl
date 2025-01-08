@@ -21,6 +21,4 @@ otr-require-encryption-info =
     nebudou zobrazeny jako součást standardní konverzace a nebudou ani zaneseny do protokolu.
 otr-verify-nudge =
     .label = Vždy připomenout ověření dříve neověřeného kontaktu
-
 otr-not-yet-available = zatím není k dispozici
-

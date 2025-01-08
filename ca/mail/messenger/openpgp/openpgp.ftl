@@ -34,16 +34,31 @@ key-type-primary = clau principal
 ## Strings in keyserver.jsm
 
 
+## Strings in keyserver.sys.mjs
+
+
 ## Strings in mimeWkdHandler.jsm
+
+
+## Strings in mimeWkdHandler.sys.mjs
 
 
 ## Strings in persistentCrypto.jsm
 
 
+## Strings in persistentCrypto.sys.mjs
+
+
 ## Strings filters.jsm
 
 
+## Strings filters.sys.mjs
+
+
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 
 ## Strings in enigmailKeyImportInfo.js
@@ -61,31 +76,64 @@ key-type-primary = clau principal
 ## $keyId (String) - Key id for the key entry.
 
 
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
+
 ## Strings in gnupg-keylist.jsm
+
+
+## Strings in gnupg-keylist.sys.mjs
 
 
 ## Strings in key.jsm
 
 
+## Strings in key.sys.mjs
+
+
 ## Strings in keyRing.jsm & decryption.jsm
+
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 
 ## Strings used in errorHandling.jsm
 
 
+## Strings used in errorHandling.sys.mjs
+
+
 ## Strings used in enigmailKeyManager.js & windows.jsm
+
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
 
 
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
+
+
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 
 ## Strings used in keyRing.jsm
 
 
+## Strings used in keyRing.sys.mjs
+
+
 ## Strings used in trust.jsm
+
+
+## Strings used in trust.sys.mjs
 
 
 ## Strings used in commonWorkflows.js
@@ -102,25 +150,37 @@ key-type-primary = clau principal
 
 ## Strings used in decryption.jsm
 
+
+## Strings used in decryption.sys.mjs
+
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     Voleu importar les claus següents?
     { $key }
 
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-
 ## Strings used in encryption.jsm
+
+
+## Strings used in encryption.sys.mjs
 
 
 ## Strings used in windows.jsm
 
 
+## Strings used in windows.sys.mjs
+
+
 ## Strings used in dialog.jsm
 
 
+## Strings used in dialog.sys.mjs
+
+
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 
 ## Strings used in enigmailMsgBox.js

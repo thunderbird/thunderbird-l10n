@@ -32,8 +32,8 @@
 
 <!ENTITY filterActionOrderWarning.label "ملاحظة: ستُنفّذ إجراءات المرشِّح بترتيب مختلف.">
 <!ENTITY filterActionOrder.label "اطّلع على ترتيب التنفيذ">
-<!-- New Style Filter Rule Actions -->
 
+<!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "انقل الرسالة إلى">
 <!ENTITY copyMessage.label "انسخ الرسالة إلى">
 <!ENTITY forwardTo.label "مرِّر الرسالة إلى">
@@ -61,6 +61,5 @@
      are truncated in the widgets.
   -->
 <!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
-
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

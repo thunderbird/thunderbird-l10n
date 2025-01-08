@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Ychwanegu Llyfr Cyfeiriadau CardDAV
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Ychwanegu Llyfr Cyfeiriadau LDAP
-about-addressbook-toolbar-new-contact =
-    .label = Cysylltiad Newydd
-about-addressbook-toolbar-new-list =
-    .label = Rhestr Newydd
-about-addressbook-toolbar-import =
-    .label = Mewnforio
 books-pane-create-contact-button = Cysylltiad Newydd
     .title = Creu cysylltiad newydd
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Ydych chi'n siŵr eich bod chi am
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Chwilio { $name }
-about-addressbook-search-all =
-    .placeholder = Chwilio'r holl lyfrau cyfeiriadau
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -316,7 +304,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Golygu llun cyswllt
 about-addressbook-new-contact-header = Cysylltiad Newydd
-about-addressbook-prefer-display-name = Dewis enw dangos o flaen pennyn neges
 about-addressbook-write-action-button = Ysgrifennu
 about-addressbook-event-action-button = Digwyddiad
 about-addressbook-search-action-button = Chwilio

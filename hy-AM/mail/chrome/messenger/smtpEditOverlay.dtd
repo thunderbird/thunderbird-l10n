@@ -15,7 +15,6 @@
 <!ENTITY connectionSecurity.label "Կապակցվելու անվտանգությունը.">
 <!ENTITY connectionSecurity.accesskey "ց">
 <!ENTITY connectionSecurityType-0.label "Չկա">
-<!ENTITY connectionSecurityType-1.label "STARTTLS, եթե հասանելի է">
 <!ENTITY connectionSecurityType-2.label "STARTTLS">
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY smtpEditTitle.label "SMTP սպասարկիչ">

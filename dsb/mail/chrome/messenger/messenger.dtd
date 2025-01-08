@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "w">
 <!ENTITY newVirtualFolderCmd.label "Skłaźone pytanje…">
 <!ENTITY newVirtualFolderCmd.accesskey "S">
-<!ENTITY newCreateEmailAccountCmd.label "Nowe e-mailowe konto wobstaraś…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "N">
-<!ENTITY newExistingEmailAccountCmd.label "Eksistěrujuce e-mailowe konto…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "E">
 <!ENTITY newIMAccountCmd.label "Chatowe konto…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "Kanalowe konto…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Powěsć lašowaś">
-<!ENTITY deleteMsgCmd.accesskey "l">
-<!ENTITY undeleteMsgCmd.label "Powěsć wótnowiś">
-<!ENTITY undeleteMsgCmd.accesskey "o">
-<!ENTITY deleteMsgsCmd.label "Wubrane powěsći lašowaś">
-<!ENTITY deleteMsgsCmd.accesskey "b">
-<!ENTITY undeleteMsgsCmd.label "Wubrane powěsći wótnowiś">
-<!ENTITY undeleteMsgsCmd.accesskey "u">
-<!ENTITY deleteFolderCmd.label "Zarědnik lašowaś">
-<!ENTITY deleteFolderCmd.accesskey "Z">
-<!ENTITY unsubscribeNewsgroupCmd.label "Wótskazaś">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "s">
 <!ENTITY selectMenu.label "Wubraś">
 <!ENTITY selectMenu.accesskey "b">
 <!ENTITY all.label "Wšykne">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "g">
 <!ENTITY menuFavoriteFolder.label "Faworizěrowany zarědnik">
 <!ENTITY menuFavoriteFolder.accesskey "F">
-<!ENTITY folderPropsCmd2.label "Kakosći">
-<!ENTITY folderPropsFolderCmd2.label "Kakosći zarědnika">
-<!ENTITY folderPropsNewsgroupCmd2.label "Kakosći diskusijneje kupki">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Lašowanje powěsći slědk wześ">
 <!ENTITY redoDeleteMsgCmd.label "Lašowanje powěsći wóspjetowaś">
 <!ENTITY undoMoveMsgCmd.label "Pśesunjenje powěsći slědk wześ">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "W">
 <!ENTITY showFolderPaneCmd.label "Zarědnikowe pólo">
 <!ENTITY showFolderPaneCmd.accesskey "Z">
-<!ENTITY showFolderPaneColsCmd.label "Słupy wobcerka zarědnikow">
-<!ENTITY showFolderPaneColsCmd.accesskey "z">
 <!ENTITY showMessageCmd.label "Powěsćowe pólo">
 <!ENTITY showMessageCmd.accesskey "P">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nowa powěsć">
 <!ENTITY appmenuNewContactCmd.label "Kontakt adresnika…">
-<!ENTITY appmenuEditMenu.label "Wobźěłaś">
 <!ENTITY appmenuToolbarLayout.label "Wugótowanje symboloweje rědki…">
-<!ENTITY appmenuSelectThread.label "Nitku wubraś">
-<!ENTITY appmenuSelectFlagged.label "Powěsći z gwězdkami wubraś">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nowe wobznamjenje…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "k">
 <!ENTITY folderContextMarkNewsgroupRead.label "Diskusijnu kupku ako pśecytanu markěrowaś">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "D">
-<!ENTITY folderContextMarkMailFolderRead.label "Zarědnik ako pśecytany markěrowaś">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "r">
 <!ENTITY folderContextSubscribe.label "Aboněrowaś…">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "Powěsći pytaś…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "w">
 <!ENTITY contextReplyList.label "Lisćinje wótegroniś">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextForward.label "Dalej pósrědniś">
-<!ENTITY contextForward.accesskey "l">
-<!ENTITY contextForwardAsMenu.label "Dalej pósrědniś ako">
-<!ENTITY contextForwardAsMenu.accesskey "l">
-<!ENTITY contextForwardAsInline.label "Zasajźony">
-<!ENTITY contextForwardAsInline.accesskey "Z">
-<!ENTITY contextForwardAsAttachmentItem.label "Pśidank">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "d">
-<!ENTITY contextMultiForwardAsAttachment.label "Ako pśidanki dalej pósrědniś">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "A">
 <!ENTITY contextMoveMsgMenu.label "Pśesunuś do">
 <!ENTITY contextMoveMsgMenu.accesskey "P">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Nejnowše">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "W">
 <!ENTITY copyEmailCmd.label "E-mailowu adresu kopěrowaś">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY stopCmd.label "Stoj">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Znowego zacytaś">
-<!ENTITY reloadCmd.accesskey "Z">
 <!ENTITY openInBrowser.label "We wobglědowaku wócyniś">
 <!ENTITY openInBrowser.accesskey "o">
 <!ENTITY openLinkInBrowser.label "Wótkaz we wobglědowaku wócyniś">

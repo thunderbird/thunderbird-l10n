@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = { -brand-short-name } 排障模式
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = { -brand-short-name } 排障模式
 troubleshoot-mode-description = 使用 { -brand-short-name } 的排障模式来诊断问题。您的附加组件和自定义设置将被暂时禁用。
 troubleshoot-mode-description2 = 您可以将这些更改部分或全部保存:

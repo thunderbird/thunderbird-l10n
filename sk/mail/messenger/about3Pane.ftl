@@ -109,19 +109,6 @@ quick-filter-bar-results =
         [few] { $count } správy
        *[other] { $count } správ
     }
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Filtrovať tieto správy <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search2 =
     .label = Filtrovať správy
 quick-filter-bar-searching =
@@ -287,8 +274,6 @@ threadpane-column-header-sender = Od
     .title = Usporiadať podľa stĺpca Od
 threadpane-column-label-sender =
     .label = Od
-threadpane-cell-sender =
-    .aria-label = Odosielateľ
 # Variables:
 # $title (String) - Message sender for tooltip.
 threadpane-cell-sender-title =
@@ -298,8 +283,6 @@ threadpane-column-header-recipient = Adresát
     .title = Usporiadať podľa adresáta
 threadpane-column-label-recipient =
     .label = Adresát
-threadpane-cell-recipient =
-    .aria-label = Adresát
 # Variables:
 # $title (String) - Message recipient for tooltip.
 threadpane-cell-recipient-title =
@@ -309,8 +292,6 @@ threadpane-column-header-correspondents = Korešpondenti
     .title = Usporiadať podľa korešpondentov
 threadpane-column-label-correspondents =
     .label = Korešpondenti
-threadpane-cell-correspondents =
-    .aria-label = Korešpondenti
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
@@ -320,8 +301,6 @@ threadpane-column-header-subject = Predmet
     .title = Usporiadať podľa predmetu
 threadpane-column-label-subject =
     .label = Predmet
-threadpane-cell-subject =
-    .aria-label = Predmet
 # Variables:
 # $title (String) - Message subject for tooltip.
 threadpane-cell-subject-title =
@@ -331,8 +310,6 @@ threadpane-column-header-date = Dátum
     .title = Usporiadať podľa dátumu
 threadpane-column-label-date =
     .label = Dátum
-threadpane-cell-date =
-    .aria-label = Dátum
 # Variables:
 # $title (String) - Message date for tooltip.
 threadpane-cell-date-title =
@@ -342,8 +319,6 @@ threadpane-column-header-received = Prijaté
     .title = Usporiadať podľa dátumu prijatia
 threadpane-column-label-received =
     .label = Prijaté
-threadpane-cell-received =
-    .aria-label = Dátum prijatia
 # Variables:
 # $title (String) - Message received date for tooltip.
 threadpane-cell-received-title =
@@ -353,8 +328,6 @@ threadpane-column-header-status = Stav
     .title = Usporiadať podľa stavu
 threadpane-column-label-status =
     .label = Stav
-threadpane-cell-status =
-    .aria-label = Stav
 # Variables:
 # $title (String) - Message status for tooltip.
 threadpane-cell-status-title =
@@ -364,8 +337,6 @@ threadpane-column-header-size = Veľkosť
     .title = Usporiadať podľa veľkosti
 threadpane-column-label-size =
     .label = Veľkosť
-threadpane-cell-size =
-    .aria-label = Veľkosť
 # Variables:
 # $title (String) - Message size for tooltip.
 threadpane-cell-size-title =
@@ -375,8 +346,6 @@ threadpane-column-header-tags = Štítky
     .title = Usporiadať podľa štítkov
 threadpane-column-label-tags =
     .label = Štítky
-threadpane-cell-tags =
-    .aria-label = Štítky
 # Variables:
 # $title (String) - Tags for tooltip.
 threadpane-cell-tags-title =
@@ -386,8 +355,6 @@ threadpane-column-header-account = Účet
     .title = Usporiadať podľa účtov
 threadpane-column-label-account =
     .label = Účet
-threadpane-cell-account =
-    .aria-label = Účet
 # Variables:
 # $title (String) - Message account for tooltip.
 threadpane-cell-account-title =
@@ -397,8 +364,6 @@ threadpane-column-header-priority = Priorita
     .title = Usporiadať podľa priority
 threadpane-column-label-priority =
     .label = Priorita
-threadpane-cell-priority =
-    .aria-label = Priorita
 # Variables:
 # $title (String) - Priority for tooltip.
 threadpane-cell-priority-title =
@@ -408,8 +373,6 @@ threadpane-column-header-unread = Neprečítané
     .title = Počet nečítaných správ vo vlákne
 threadpane-column-label-unread =
     .label = Neprečítané
-threadpane-cell-unread =
-    .aria-label = Počet neprečítaných správ
 # Variables:
 # $title (String) - Number of unread messages for tooltip.
 threadpane-cell-unread-title =
@@ -419,8 +382,6 @@ threadpane-column-header-total = Celkovo
     .title = Celkový počet správ vo vlákne
 threadpane-column-label-total =
     .label = Celkovo
-threadpane-cell-total =
-    .aria-label = Celkový počet správ
 # Variables:
 # $title (String) - Total messages for tooltip.
 threadpane-cell-total-title =
@@ -430,8 +391,6 @@ threadpane-column-header-location = Umiestnenie
     .title = Usporiadať podľa umiestnenia
 threadpane-column-label-location =
     .label = Umiestnenie
-threadpane-cell-location =
-    .aria-label = Umiestnenie
 # Variables:
 # $title (String) - Message location for tooltip.
 threadpane-cell-location-title =
@@ -441,8 +400,6 @@ threadpane-column-header-id = Poradie prijatia
     .title = Usporiadať podľa poradia, v akom boli správy prijaté
 threadpane-column-label-id =
     .label = Poradie prijatia
-threadpane-cell-id =
-    .aria-label = Poradie prijatia
 # Variables:
 # $title (String) - Message id for tooltip.
 threadpane-cell-id-title =

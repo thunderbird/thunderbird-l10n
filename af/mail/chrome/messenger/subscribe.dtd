@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Rekening:">
 <!ENTITY server.accesskey             "R">
 <!ENTITY subscribedHeader.label       "Inteken">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Wys items wat dit bevat:">
 <!ENTITY namefield.accesskey          "y">

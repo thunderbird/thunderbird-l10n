@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "T">
 <!ENTITY deleteCmd.label          "Tiyuj">
 <!ENTITY deleteCmd.accesskey        "y">
-
 <!ENTITY customizeCmd.label "Tichinäx">
 <!ENTITY customizeCmd.accesskey "c">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Titz'apïx">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "t">
-
-<!ENTITY quitApplicationCmd.label  "Tel">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "l">
-
-<!ENTITY quitApplicationCmdUnix.label  "Tel">
-<!ENTITY quitApplicationCmdUnix.accesskey  "T">
-
-<!ENTITY quitApplicationCmdMac.label  "Tel pa &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "T">

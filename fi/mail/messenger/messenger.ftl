@@ -237,22 +237,6 @@ context-menu-cancel-msg =
     .label = Peruuta viesti
 # Variables:
 # $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Poista valittu viesti
-           *[other] Poista valitut viestit
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Kumoa viestin poisto
-           *[other] Kumoa valittujen viestien poisto
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
 mail-context-messages-delete =
     .label =
         { $count ->

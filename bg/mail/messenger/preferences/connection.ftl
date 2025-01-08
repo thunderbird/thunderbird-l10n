@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = п
     .tooltiptext = Въведете предпочитания от вас адрес за запитвания на DNS през HTTPS
 connection-dns-over-https-custom-label = По избор
-connection-dialog-window2 =
-    .title = Настройки на свързване
 connection-dialog-title = Настройки на свързване
 disable-extension-button = Изключване на разширението
 # Variables:

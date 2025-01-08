@@ -22,22 +22,6 @@ update-restarting = Se repornește…
 channel-description = Acum folosești <span data-l10n-name="current-channel">{ $channel }</span> drept canal de actualizare.
 warning-desc-version = { -brand-short-name } este experimental și poate fi instabil.
 warning-desc-telemetry = Trimite automat informații despre performanță, hardware, utilizare și personalizări către { -vendor-short-name } pentru a ajuta la crearea unui { -brand-short-name } mai bun.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     este o <a data-l10n-name="community-exp-credits-link">
-    comunitate globală</a>
-     care lucrează pentru a păstra webul deschis, public și accesibil tuturor.
-community-2 =
-    { -brand-short-name } este conceput de <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , o <a data-l10n-name="community-credits-link">
-    comunitate globală</a>
-     care lucrează pentru a păstra webul deschis, public și accesibil tuturor.
-about-helpus =
-    Vrei să ajuți? <a data-l10n-name="helpus-donate-link">
-    Donează</a> or <a data-l10n-name="helpus-get-involved-link">
-    implică-te!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> este o <a data-l10n-name="community-exp-credits-link">comunitate globală</a> care lucrează pentru a păstra webul deschis, public și accesibil tuturor.
 community-desc = { -brand-short-name } este conceput de <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, o <a data-l10n-name="community-credits-link">comunitate globală</a> care lucrează pentru a păstra webul deschis, public și accesibil tuturor.
 about-donation = Vrei să ajuți? <a data-l10n-name="helpus-donate-link">Donează</a> or <a data-l10n-name="helpus-get-involved-link">implică-te!</a>

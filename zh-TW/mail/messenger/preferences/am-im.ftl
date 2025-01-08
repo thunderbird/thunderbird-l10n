@@ -4,14 +4,14 @@
 
 account-settings-title = 驗證設定
 account-channel-title = 預設頻道
-
 chat-autologin =
     .label = 啟動時登入
-
 chat-encryption-generic = 一般
 chat-encryption-log =
     .label = 在對話紀錄當中包含端到端加密過的訊息
 chat-encryption-label = 原生端到端加密
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } 可對聊天訊息進行端到端加密，如此可以防止第三方竊聽對話內容。可能需要在下方進行更多設定才能開啟加密功能。
 chat-encryption-status = 加密狀態
 chat-encryption-placeholder = 加密機制尚未初始化。

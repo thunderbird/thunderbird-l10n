@@ -43,6 +43,8 @@
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 
+<!-- The notifications settings in the properties dialog -->
+
 <!-- iMIP Bar (meeting support) -->
 <!ENTITY lightning.imipbar.btnAccept.label                                  "اقبل">
 <!ENTITY lightning.imipbar.btnAccept2.tooltiptext                           "اقبل دعوة الحدث">
@@ -87,8 +89,6 @@
 <!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "غيّر حالة المشاركة على السلسلة بدون إرسال ردّ إلى المنظّم">
 
 <!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
 

@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "S">
 <!ENTITY newVirtualFolderCmd.label "Tallennettu haku…">
 <!ENTITY newVirtualFolderCmd.accesskey "h">
-<!ENTITY newCreateEmailAccountCmd.label "Hanki uusi sähköpostitili…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "H">
-<!ENTITY newExistingEmailAccountCmd.label "Olemassa oleva sähköpostitili…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "O">
 <!ENTITY newIMAccountCmd.label "Pikaviestitili…">
 <!ENTITY newIMAccountCmd.accesskey "v">
 <!ENTITY newFeedAccountCmd.label "Syötetili…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Poista viesti">
-<!ENTITY deleteMsgCmd.accesskey "o">
-<!ENTITY undeleteMsgCmd.label "Kumoa viestin poisto">
-<!ENTITY undeleteMsgCmd.accesskey "m">
-<!ENTITY deleteMsgsCmd.label "Poista valitut viestit">
-<!ENTITY deleteMsgsCmd.accesskey "o">
-<!ENTITY undeleteMsgsCmd.label "Kumoa valittujen viestien poisto">
-<!ENTITY undeleteMsgsCmd.accesskey "m">
-<!ENTITY deleteFolderCmd.label "Poista kansio">
-<!ENTITY deleteFolderCmd.accesskey "o">
-<!ENTITY unsubscribeNewsgroupCmd.label "Peruuta tilaus">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "P">
 <!ENTITY selectMenu.label "Valitse">
 <!ENTITY selectMenu.accesskey "V">
 <!ENTITY all.label "Kaikki">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "T">
 <!ENTITY menuFavoriteFolder.label "Merkitse suosikkikansioksi">
 <!ENTITY menuFavoriteFolder.accesskey "r">
-<!ENTITY folderPropsCmd2.label "Ominaisuudet">
-<!ENTITY folderPropsFolderCmd2.label "Kansion ominaisuudet">
-<!ENTITY folderPropsNewsgroupCmd2.label "Keskusteluryhmän ominaisuudet">
-<!ENTITY folderPropsCmd.accesskey "O">
 <!ENTITY undoDeleteMsgCmd.label "Kumoa Poista viesti">
 <!ENTITY redoDeleteMsgCmd.label "Tee uudelleen Poista viesti">
 <!ENTITY undoMoveMsgCmd.label "Kumoa Siirrä viesti">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "s">
 <!ENTITY showFolderPaneCmd.label "Kansiopaneeli">
 <!ENTITY showFolderPaneCmd.accesskey "K">
-<!ENTITY showFolderPaneColsCmd.label "Kansiopaneelin sarakkeet">
-<!ENTITY showFolderPaneColsCmd.accesskey "s">
 <!ENTITY showMessageCmd.label "Viestipaneeli">
 <!ENTITY showMessageCmd.accesskey "V">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Uusi viesti">
 <!ENTITY appmenuNewContactCmd.label "Osoitekirjan yhteyshenkilö…">
-<!ENTITY appmenuEditMenu.label "Muokkaa">
 <!ENTITY appmenuToolbarLayout.label "Työkalupalkin asettelu…">
-<!ENTITY appmenuSelectThread.label "Valitse viestiketju">
-<!ENTITY appmenuSelectFlagged.label "Valitse tähdellä merkityt viestit">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Uusi tunnus…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "P">
 <!ENTITY folderContextMarkNewsgroupRead.label "Merkitse ryhmä luetuksi">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "e">
-<!ENTITY folderContextMarkMailFolderRead.label "Merkitse kansio luetuksi">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "e">
 <!ENTITY folderContextSubscribe.label "Tilaa…">
 <!ENTITY folderContextSubscribe.accesskey "T">
 <!ENTITY folderContextSearchForMessages.label "Etsi viesteistä…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Vastaa listalle">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextForward.label "Välitä">
-<!ENTITY contextForward.accesskey "ä">
-<!ENTITY contextForwardAsMenu.label "Välitä">
-<!ENTITY contextForwardAsMenu.accesskey "V">
-<!ENTITY contextForwardAsInline.label "Rungossa">
-<!ENTITY contextForwardAsInline.accesskey "R">
-<!ENTITY contextForwardAsAttachmentItem.label "Liitteenä">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "L">
-<!ENTITY contextMultiForwardAsAttachment.label "Välitä liitteinä">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "i">
 <!ENTITY contextMoveMsgMenu.label "Siirrä kansioon">
 <!ENTITY contextMoveMsgMenu.accesskey "S">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Nykyinen">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "I">
 <!ENTITY copyEmailCmd.label "Kopioi sähköpostiosoite">
 <!ENTITY copyEmailCmd.accesskey "s">
-<!ENTITY stopCmd.label "Pysäytä">
-<!ENTITY stopCmd.accesskey "P">
-<!ENTITY reloadCmd.label "Päivitä">
-<!ENTITY reloadCmd.accesskey "ä">
 <!ENTITY openInBrowser.label "Avaa selaimessa">
 <!ENTITY openInBrowser.accesskey "s">
 <!ENTITY openLinkInBrowser.label "Avaa linkki selaimessa">

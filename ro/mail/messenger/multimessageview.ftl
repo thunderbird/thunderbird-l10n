@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Sumarul mesajului
-selected-messages-label =
-    .label = Mesaje selectate
 multi-message-archive-button =
     .label = Arhivează
     .tooltiptext = Arhivează

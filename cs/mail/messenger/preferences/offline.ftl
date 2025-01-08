@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-offline-dialog-window =
-    .title = Nastavení režimu offline
 offline-dialog-title = Nastavení režimu offline
 autodetect-online-label =
     .label = Automaticky sledovat změnu stavu online

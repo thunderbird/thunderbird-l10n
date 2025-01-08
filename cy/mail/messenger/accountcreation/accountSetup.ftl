@@ -37,8 +37,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Cyfrinair
     .accesskey = y
     .title = Yn ddewisol, dim ond i'w ddefnyddio i ddilysu'r enw defnyddiwr
-account-provisioner-button = Cael cyfeiriad e-bost newydd
-    .accesskey = n
 account-setup-password-toggle-show =
     .title = Dangos cyfrinair mewn testun clir
 account-setup-password-toggle-hide =
@@ -152,7 +150,6 @@ account-setup-credentials-incomplete = Methodd y dilysu. Naill ai mae'r manylion
 account-setup-credentials-wrong = Methodd y dilysu. Gwiriwch yr enw defnyddiwr a'r cyfrinair
 account-setup-find-settings-failed = Methodd { -brand-short-name } â dod o hyd i'r gosodiadau ar gyfer eich cyfrif e-bost
 account-setup-exchange-config-unverifiable = Nid oedd modd dilysu eich ffurfweddiad. Os yw'ch enw defnyddiwr a'ch cyfrinair yn gywir, mae'n debygol bod gweinyddwr y gweinydd wedi analluogi'r ffurfweddiad a ddewiswyd ar gyfer eich cyfrif. Ceisiwch ddewis protocol arall.
-account-setup-provisioner-error = Digwyddodd gwall wrth osod eich cyfrif newydd yn { -brand-short-name }. Ceisiwch osod eich cyfrif gyda'ch manylion, â llaw.
 
 ## Manual configuration area
 

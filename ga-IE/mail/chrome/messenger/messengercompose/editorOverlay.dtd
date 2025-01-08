@@ -3,18 +3,15 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Attn: Localization - some of the menus in this dialog directly affect mail also. -->
-<!-- File menu items -->
-
 
 <!-- Edit menu items -->
-
 <!ENTITY pasteNoFormatting.label "Greamaigh Gan Formáidiú">
 <!ENTITY pasteNoFormatting.accesskey "n">
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "Greamaigh mar Athfhriotal">
 <!ENTITY pasteAsQuotationCmd.accesskey "A">
-<!-- Insert menu items -->
 
+<!-- Insert menu items -->
 <!ENTITY insertMenu.label "Ionsáigh">
 <!ENTITY insertMenu.accesskey "I">
 <!ENTITY insertLinkCmd2.label "Nasc…">
@@ -36,14 +33,14 @@
 <!ENTITY insertCharsCmd.accesskey "C">
 <!ENTITY insertBreakAllCmd.label "Bris faoi Íomhá(nna)">
 <!ENTITY insertBreakAllCmd.accesskey "s">
-<!-- Used just in context popup. -->
 
+<!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Cruthaigh Nasc…">
 <!ENTITY createLinkCmd.accesskey "N">
 <!ENTITY editLinkCmd.label "Cuir Nasc in Eagar i gCumadóir Nua">
 <!ENTITY editLinkCmd.accesskey "i">
-<!-- Font Face SubMenu -->
 
+<!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Roghnaigh cló">
 <!ENTITY fontfaceMenu.label "Cló">
 <!ENTITY fontfaceMenu.accesskey "C">
@@ -58,21 +55,17 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-<!-- Font Size SubMenu -->
 
+<!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Roghnaigh clómhéid">
 <!ENTITY decreaseFontSize.label "Níos Lú">
 <!ENTITY decreaseFontSize.accesskey "s">
 <!ENTITY decrementFontSize.key "&lt;">
-<!-- < is above this key on many keyboards -->
-<!ENTITY decrementFontSize.key2 ","> 
+<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
 <!ENTITY increaseFontSize.label "Níos Mó">
 <!ENTITY increaseFontSize.accesskey "M">
 <!ENTITY incrementFontSize.key "&gt;">
-<!-- > is above this key on many keyboards -->
-<!ENTITY incrementFontSize.key2 "."> 
-
-<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
 
 <!ENTITY fontSizeMenu.label "Méid">
 <!ENTITY fontSizeMenu.accesskey "d">
@@ -88,8 +81,8 @@
 <!ENTITY size-extraLargeCmd.accesskey "A">
 <!ENTITY size-hugeCmd.label "Ollmhór">
 <!ENTITY size-hugeCmd.accesskey "O">
-<!-- Font Style SubMenu -->
 
+<!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Stíl Téacs">
 <!ENTITY fontStyleMenu.accesskey "S">
 <!ENTITY styleBoldCmd.label "Trom">
@@ -157,8 +150,8 @@
 <!ENTITY paragraphAddressCmd.accesskey "a">
 <!ENTITY paragraphPreformatCmd.label "Réamhfhormáidiú">
 <!ENTITY paragraphPreformatCmd.accesskey "f">
-<!-- List menu items -->
 
+<!-- List menu items -->
 <!ENTITY formatlistMenu.label "Liosta">
 <!ENTITY formatlistMenu.accesskey "L">
 <!ENTITY noneCmd.label "Dada">
@@ -178,8 +171,8 @@
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Príomhthéacs">
 <!ENTITY bodyTextCmd.accesskey "t">
-<!-- Align menu items -->
 
+<!-- Align menu items -->
 <!ENTITY alignMenu.label "Ailínigh">
 <!ENTITY alignMenu.accesskey "A">
 <!ENTITY alignLeft.label "Ar Chlé">
@@ -194,7 +187,6 @@
 <!ENTITY alignJustify.label "Comhfhadaigh">
 <!ENTITY alignJustify.accesskey "C">
 <!ENTITY alignJustify.tooltip "Ailínigh Comhfhadaithe">
-<!-- Layer toolbar items -->
 
 <!ENTITY increaseIndent.label "Méadaigh Eang">
 <!ENTITY increaseIndent.accesskey "i">
@@ -205,12 +197,12 @@
 
 <!ENTITY colorsAndBackground.label "Dathanna an Leathanaigh agus Cúlra…">
 <!ENTITY colorsAndBackground.accesskey "C">
-<!-- Table Menu -->
 
+<!-- Table Menu -->
 <!ENTITY tableMenu.label "Tábla">
 <!ENTITY tableMenu.accesskey "b">
-<!-- Select Submenu -->
 
+<!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Roghnaigh">
 <!ENTITY tableSelectMenu.accesskey "R">
 
@@ -220,8 +212,8 @@
 <!ENTITY tableInsertMenu2.accesskey "I">
 <!ENTITY tableDeleteMenu2.label "Scriosadh Tábla">
 <!ENTITY tableDeleteMenu2.accesskey "d">
-<!-- Insert SubMenu -->
 
+<!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Ionsáigh">
 <!ENTITY tableInsertMenu.accesskey "I">
 <!ENTITY tableTable.label "Tábla">
@@ -254,12 +246,12 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Scrios">
 <!ENTITY tableDeleteMenu.accesskey "S">
+
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
      But value must be set here for accesskey to draw properly
 -->
-
 <!ENTITY tableJoinCells.label "j">
 <!ENTITY tableJoinCells.accesskey "j">
 <!ENTITY tableSplitCell.label "Roinn Cill">
@@ -268,8 +260,8 @@
 <!ENTITY convertToTable.accesskey "r">
 <!ENTITY tableProperties.label "Airíonna an Tábla…">
 <!ENTITY tableProperties.accesskey "o">
-<!-- Toolbar-only items -->
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Íomhá">
 <!ENTITY imageToolbarCmd.tooltip "Ionsáigh íomhá nua nó cuir airíonna na híomhá roghnaithe in eagar">
 <!ENTITY hruleToolbarCmd.label "Líne Ch.">
@@ -282,8 +274,8 @@
 <!ENTITY anchorToolbarCmd.tooltip "Ionsáigh ancaire nua nó cuir airíonna an ancaire roghnaithe in eagar">
 <!ENTITY TextColorButton.tooltip "Roghnaigh dath an téacs">
 <!ENTITY BackgroundColorButton.tooltip "Roghnaigh dath an chúlra">
-<!-- Editor toolbar -->
 
+<!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "Socraigh clómhéid">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Clómhéid níos lú">
 <!ENTITY increaseFontSizeToolbarCmd.tooltip "Clómhéid níos mó">
@@ -300,10 +292,8 @@
 <!ENTITY alignCenterButton.tooltip "Ailínigh téacs sa lár">
 <!ENTITY alignRightButton.tooltip "Ailínigh téacs ar an imeall deas">
 <!ENTITY alignJustifyButton.tooltip "Ailínigh téacs ar na himill chlé agus dheas">
-<!-- Structure Toolbar Context Menu items -->
 
 <!-- TOC manipulation -->
-
 <!ENTITY insertTOC.label          "Ionsáigh">
 <!ENTITY insertTOC.accesskey      "I">
 <!ENTITY updateTOC.label          "Nuashonraigh">

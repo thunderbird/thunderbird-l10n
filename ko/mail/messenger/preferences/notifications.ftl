@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = 새 메일 알림 설정
 notifications-dialog-title = 새 메일 알림 설정
 customize-alert-description = 경고 알람을 사용할 필드 선택:
 preview-text-checkbox =

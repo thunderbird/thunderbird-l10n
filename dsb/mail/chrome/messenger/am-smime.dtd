@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Wuprozniś">
 <!ENTITY encryption.certificate_clear.accesskey "o">
 <!ENTITY signingGroupTitle.label "Digitalny pódpis">
-
 <!ENTITY signingCert2.message "Wósobinski certifikat za digitalne koděrowanje:">
 
 <!ENTITY sendingDefaults.label "Standardne nastajenja za słanje powěsćow">

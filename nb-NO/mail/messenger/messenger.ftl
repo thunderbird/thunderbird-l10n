@@ -150,22 +150,6 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Avbryt melding
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Slett meldingen
-           *[other] Slett de valgte meldingene
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Angre sletting av melding
-           *[other] Angre sletting av valgte meldinger
-        }
 context-menu-decrypt-to-folder2 =
     .label = Lag dekryptert kopi i
     .accesskey = a

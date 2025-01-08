@@ -364,8 +364,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Dùin uinneag/taba na teachdaireachd nuair a sguabas mi às fear no ma ghluaiseas mi fear
     .accesskey = c
-display-name-label =
-    .value = Ainm-taisbeanaidh:
 condensed-addresses-label =
     .label = Na seall ach an t-ainm-taisbeanaidh airson nan daoine ann an leabhar nan seòladh agam
     .accesskey = s
@@ -495,23 +493,12 @@ third-party-never =
     .label = Chan ann idir
 third-party-visited =
     .label = O fheadhainn air an deach tadhal
-keep-label =
-    .value = Cum gus:
-    .accesskey = C
-keep-expire =
-    .label = am falbh an ùine orra
-keep-close =
-    .label = an dùin mi { -brand-short-name }
-keep-ask =
-    .label = faighnich dhìom gach turas
 cookies-button =
     .label = Seall na briosgaidean…
     .accesskey = S
 do-not-track-label =
     .label = Cuir sanas “Na dèan tracadh orm” gu làraichean-lìn a dh’innseas nach eil thu ag iarraidh gun dèanar tracadh ort
     .accesskey = N
-learn-button =
-    .label = Barrachd fiosrachaidh
 dnt-learn-more-button =
     .value = Barrachd fiosrachaidh
 passwords-description = 'S urrainn do { -brand-short-name } na faclan-faire airson gach cunntas agad a chumail 'na chuimhne.
@@ -528,18 +515,12 @@ primary-password-button =
 forms-primary-pw-fips-title = Tha thu ann am modh FIPS an-dràsta. Feumaidh FIPS prìomh fhacal-faire nach eil falamh.
 forms-master-pw-fips-desc = Dh’fhàillig atharrachadh an fhacail-fhaire
 junk-description = Suidhich na roghainnean bunaiteach agad airson post-truilleis. 'S urrainn dhut roghainnean a shònrachadh ann an "Roghainnean nan cunntasan" aig am bi buaidh air cunntasan fa leth.
-junk-label =
-    .label = Nuair a chuireas mi comharra gu bheil teachdaireachd 'na phost-truilleis:
-    .accesskey = N
 junk-move-label =
     .label = Gluais iad gu pasgan "Truilleis" a' chunntais sin
     .accesskey = G
 junk-delete-label =
     .label = Sguab às iad
     .accesskey = d
-junk-read-label =
-    .label = Cuir comharra mar gum biodh teachdaireachd air a leughadh ma tha comharra truilleis ris
-    .accesskey = m
 junk-log-label =
     .label = Cuir an comas logadh criathradh glic na truilleis
     .accesskey = e
@@ -663,4 +644,7 @@ search-results-header = Toraidhean luirg
 search-results-help-link = A bheil cobhair a dhìth ort? Tadhail air <a data-l10n-name="url">Taic { -brand-short-name }</a>
 
 ## Sync Tab
+
+
+## Mobile QR Export Pane
 

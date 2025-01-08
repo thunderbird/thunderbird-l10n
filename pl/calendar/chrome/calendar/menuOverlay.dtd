@@ -18,15 +18,16 @@
 <!ENTITY calendar.publish.label                 "Publikuj…">
 <!ENTITY calendar.publish.accesskey             "b">
 
-<!ENTITY calendar.deletecalendar.label "Usuń wybrany kalendarz…">
-<!ENTITY calendar.deletecalendar.accesskey "U">
-<!ENTITY calendar.unsubscribecalendar.label "Zrezygnuj z subskrypcji wybranego kalendarza…">
+<!ENTITY calendar.deletecalendar.label          "Usuń wybrany kalendarz…">
+<!ENTITY calendar.deletecalendar.accesskey      "U">
+<!ENTITY calendar.unsubscribecalendar.label     "Zrezygnuj z subskrypcji wybranego kalendarza…">
 <!ENTITY calendar.unsubscribecalendar.accesskey "Z">
-<!ENTITY calendar.removecalendar.label "Usuń wybrany kalendarz…">
-<!ENTITY calendar.removecalendar.accesskey "U">
 
-<!ENTITY calendar.menu.customize.label          "Dostosuj…">
-<!ENTITY calendar.menu.customize.accesskey      "D">
+<!-- LOCALIZATION NOTE (calendar.removecalendar.label): Removing the calendar
+      is the general action of removing it, while deleting means to clear the
+      data and unsubscribing means just taking it out of the calendar list. -->
+<!ENTITY calendar.removecalendar.label          "Usuń wybrany kalendarz…">
+<!ENTITY calendar.removecalendar.accesskey      "U">
 
 <!ENTITY showUnifinderCmd.label                 "Znajdź wydarzenia">
 <!ENTITY showUnifinderCmd.accesskey             "d">
@@ -40,5 +41,6 @@
 
 <!ENTITY showCurrentView.label                  "Bieżący widok">
 <!ENTITY showCurrentView.accesskey              "B">
+
 <!ENTITY calendar.properties.label              "Właściwości kalendarza…">
 <!ENTITY calendar.properties.accesskey          "W">

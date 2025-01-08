@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Tóm tắt Thư
-selected-messages-label =
-    .label = Các thư Đã chọn
 multi-message-archive-button =
     .label = Lưu trữ
     .tooltiptext = Lưu trữ

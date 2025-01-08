@@ -14,46 +14,7 @@
 <!ENTITY calendar.today.button.label          "Źinsa">
 <!ENTITY calendar.tomorrow.button.label       "Witśe">
 
-<!ENTITY calendar.events.filter.all.label "Wšykne tšojenja">
-<!ENTITY calendar.events.filter.today.label "Źinsajšne tšojenja">
-<!ENTITY calendar.events.filter.future.label "Wšykne pśichodne tšojenja">
-<!ENTITY calendar.events.filter.current.label "Tuchylu wubrany źeń">
-<!ENTITY calendar.events.filter.currentview.label "Tšojenja w aktualnem naglěźe">
-<!ENTITY calendar.events.filter.next7Days.label "Tšojenja pśiducych 7 dnjow">
-<!ENTITY calendar.events.filter.next14Days.label "Tšojenja pśiducych 14 dnjow">
-<!ENTITY calendar.events.filter.next31Days.label "Tšojenja pśiducych 31 dnjow">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Tšojenja w toś tom kalenderowem mjasecu">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Dokóńcone">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Pó dokóńcenju sortěrowaś">
-<!ENTITY calendar.unifinder.tree.priority.label            "Priorita">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Pó prioriśe sortěrowaś">
-<!ENTITY calendar.unifinder.tree.title.label               "Titel">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Pó titelu sortěrowaś">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#037; dokóńcone">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Pó &#037; dokóńcone sortěrowaś">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Zachopjeńk">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Pó zachopnem datumje sortěrowaś">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Kóńc">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Pó kóńcnem datumje sortěrowaś">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Termin">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Pó terminje sortěrowaś">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Dokóńcone">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Pó datumje dokóńcenja">
-<!ENTITY calendar.unifinder.tree.categories.label          "Kategorija">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Pó kategoriji sortěrowaś">
-<!ENTITY calendar.unifinder.tree.location.label            "Městno">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Pó městnje sortěrowaś">
-<!ENTITY calendar.unifinder.tree.status.label              "Status">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Pó statusu sortěrowaś">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Mě kalendera">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Pó mjenju kalendera sortěrowaś">
-<!ENTITY calendar.unifinder.tree.duration.label            "Termin">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Pó casu trjebnego dokóńcenja sortěrowaś">
-<!ENTITY calendar.unifinder.close.tooltip                  "Pytanje tšojenjow a lisćinu tšojenjow zacyniś">
 
 <!ENTITY calendar.today.button.tooltip          "K źinsnajšnemu dnju" >
 <!ENTITY calendar.todaypane.button.tooltip      "Źinsajšny źeń pokazaś" >

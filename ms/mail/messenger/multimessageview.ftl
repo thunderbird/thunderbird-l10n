@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Ringkasan Mesej
-selected-messages-label =
-    .label = Mesej yang Dipilih
 multi-message-archive-button =
     .label = Arkib
     .tooltiptext = Arkib

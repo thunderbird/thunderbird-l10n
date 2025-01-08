@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-offline-dialog-window =
-    .title = Darbo neprisijungus prie tinklo nuostatos
 offline-dialog-title = Darbo neprisijungus prie tinklo nuostatos
 autodetect-online-label =
     .label = Automatiškai taikyti surastą ryšio būseną

@@ -315,8 +315,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Dún fuinneog/cluaisín na teachtaireachta tar éis a bhogtha nó scriosta
     .accesskey = c
-display-name-label =
-    .value = Ainm taispeána:
 condensed-addresses-label =
     .label = Ná taispeáin ach an t-ainm taispeána le haghaidh daoine atá i mo leabhar seoltaí
     .accesskey = s
@@ -438,15 +436,6 @@ third-party-never =
     .label = Riamh
 third-party-visited =
     .label = Ó shuímh fheicthe
-keep-label =
-    .value = Coinnigh:
-    .accesskey = o
-keep-expire =
-    .label = go dtí go mbeidh siad caite
-keep-close =
-    .label = go dtí go ndúnaim { -brand-short-name }
-keep-ask =
-    .label = fiafraigh díom i gcónaí
 cookies-button =
     .label = Taispeáin Fianáin…
     .accesskey = s
@@ -455,18 +444,12 @@ passwords-button =
     .label = Focail Fhaire Sábháilte…
     .accesskey = S
 junk-description = Socraigh na réamhshocruithe dramhphoist. Téigh go Socruithe an Chuntais chun socruithe dramhphoist do chuntas áirithe a chumrú.
-junk-label =
-    .label = Agus teachtaireachtaí marcáilte mar dhramhphost agam:
-    .accesskey = A
 junk-move-label =
     .label = Bog go dtí fillteán "Dramhphost" an chuntais iad
     .accesskey = o
 junk-delete-label =
     .label = Scrios iad
     .accesskey = d
-junk-read-label =
-    .label = Marcáil teachtaireachtaí ar Dramhphost iad mar léite
-    .accesskey = M
 junk-log-label =
     .label = Cumasaigh logáil don scagaire dramhphoist
     .accesskey = C
@@ -561,3 +544,9 @@ preview-label = Réamhamharc:
 ## Settings UI Search Results
 
 search-results-header = Torthaí an Chuardaigh
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+

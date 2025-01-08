@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Añadir una clave OpenPGP personal para { $identity }
-key-wizard-button =
-    .buttonlabelaccept = Continuar
-    .buttonlabelhelp = Atrás
 key-wizard-dialog =
     .buttonlabelaccept = Continuar
     .buttonlabelextra1 = Retroceder
@@ -106,8 +103,6 @@ openpgp-import-key-list-caption = Las claves marcadas para ser utilizadas como c
 openpgp-import-keep-passphrases =
     .label = Mantener la protección de frase de contraseña para las claves secretas importadas
 openpgp-passphrase-prompt-title = Se requiere frase de acceso.
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Introduzca la frase de acceso para desbloquear la siguiente clave: { $key }
 openpgp-import-key-button =
     .label = Seleccionar archivo para importar…
     .accesskey = S

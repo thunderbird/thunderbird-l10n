@@ -1,7 +1,7 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-   
+
 <!-- Labels -->
 <!ENTITY newFolderDialog.title      "新資料夾">
 <!ENTITY name.label                 "名稱:">
@@ -14,4 +14,3 @@
 <!ENTITY messagesOnly.label         "只有訊息">
 <!ENTITY accept.label               "建立資料夾">
 <!ENTITY accept.accesskey           "r">
-

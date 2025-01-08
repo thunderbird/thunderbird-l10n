@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-receipts-dialog-window =
-    .title = 返回回执
 receipts-dialog-title = 回执
 return-receipt-checkbox-control =
     .label = 发送消息时，一律要求得到邮件回执

@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-uri-redirect-window =
-    .title = Ailgyfeirio URI Calendr
 calendar-uri-redirect-window-title = Ailgyfeirio URI Calendr
+# Variables:
+# $calendarName (String) - Display name of the calendar.
 calendar-uri-redirect-description =
     Mae'r gweinydd yn ailgyfeirio URI calendr "{ $calendarName }".
     Derbyn yr ailgyfeirio a dechrau defnyddio'r URI newydd ar gyfer y calendr hwn?

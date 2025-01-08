@@ -14,46 +14,7 @@
 <!ENTITY calendar.today.button.label          "ਅੱਜ">
 <!ENTITY calendar.tomorrow.button.label       "ਭਲਕ">
 
-<!ENTITY calendar.events.filter.all.label "ਸਾਰੇ ਈਵੈਂਟ">
-<!ENTITY calendar.events.filter.today.label "ਅੱਜ ਦੇ ਈਵੈਂਟ">
-<!ENTITY calendar.events.filter.future.label "ਸਾਰੇ ਭਵਿੱਖ ਦੇ ਈਵੈਂਟ">
-<!ENTITY calendar.events.filter.current.label "ਇਸ ਵੇਲੇ ਚੁਣਿਆ ਦਿਨ">
-<!ENTITY calendar.events.filter.currentview.label "ਮੌਜੂਦਾ ਝਲਕ ਵਿੱਚ ਈਵੈਂਟ">
-<!ENTITY calendar.events.filter.next7Days.label "ਅਗਲੇ 7 ਦਿਨਾਂ ਵਿੱਚ ਈਵੈਂਟ">
-<!ENTITY calendar.events.filter.next14Days.label "ਅਗਲੇ 14 ਦਿਨਾਂ ਵਿੱਚ ਈਵੈਂਟ">
-<!ENTITY calendar.events.filter.next31Days.label "ਅਗਲੇ 31 ਦਿਨਾਂ ਵਿੱਚ ਈਵੈਂਟ">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "ਇਸ ਕੈਲੰਡਰ ਮਹੀਨੇ ਵਿੱਚ ਈਵੈਂਟ">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "ਮੁਕੰਮਲ">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "ਪੂਰਨਤਾ ਰਾਹੀਂ ਲੜੀਬੱਧ">
-<!ENTITY calendar.unifinder.tree.priority.label            "ਤਰਜੀਹ">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "ਤਰਜੀਹ ਮੁਤਾਬਕ ਲੜੀਬੱਧ">
-<!ENTITY calendar.unifinder.tree.title.label               "ਟਾਈਟਲ">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "ਟਾਈਟਲ ਰਾਹੀਂ ਲੜੀਬੱਧ">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#37; ਪੂਰਾ">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "">
-<!ENTITY calendar.unifinder.tree.startdate.label           "ਸ਼ੁਰੂ">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "ਸ਼ੁਰੂ ਤਾਰੀਖ ਰਾਹੀਂ ਲੜੀਬੱਧ">
-<!ENTITY calendar.unifinder.tree.enddate.label             "ਆਖਰੀ">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "ਅੰਤ ਤਾਰੀਖ ਰਾਹੀਂ ਲੜੀਬੱਧ">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Due">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Sort by due date">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "ਪੂਰਾ">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "ਪੂਰਾ ਕਰਨ ਤਾਰੀਖ ਰਾਹੀਂ ਲੜੀਬੱਧ">
-<!ENTITY calendar.unifinder.tree.categories.label          "ਕੈਟਾਗਰੀ">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "ਕੈਟਾਗਰੀ ਰਾਹੀਂ ਲੜੀਬੱਧ">
-<!ENTITY calendar.unifinder.tree.location.label            "ਟਿਕਾਣਾ">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "ਟਿਕਾਣੇ ਰਾਹੀਂ ਲੜੀਬੱਧ">
-<!ENTITY calendar.unifinder.tree.status.label              "ਸਥਿਤੀ">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "ਸਥਿਤੀ ਰਾਹੀਂ ਲੜੀਬੱਧ">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "ਕੈਲੰਡਰ ਦਾ ਨਾਂ">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "ਕੈਲੰਡਰ ਨਾਂ ਰਾਹੀਂ ਲੜੀਬੱਧ">
-<!ENTITY calendar.unifinder.tree.duration.label            "ਇਸ ਵਿੱਚ ਪੂਰਾ">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Sort by time until due">
-<!ENTITY calendar.unifinder.close.tooltip                  "Close event search and event list">
 
 <!ENTITY calendar.today.button.tooltip          "ਅੱਜ ਉੱਤੇ ਜਾਓ" >
 <!ENTITY calendar.todaypane.button.tooltip      "ਅੱਜ ਦਾ ਖਾਕਾ ਵੇਖਾਓ" >

@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = Ö
     .tooltiptext = HTTPS üzerinden DNS'i çözümlemek için tercih ettiğiniz URL'i girin
 connection-dns-over-https-custom-label = Özel
-connection-dialog-window2 =
-    .title = Bağlantı ayarları
 connection-dialog-title = Bağlantı ayarları
 disable-extension-button = Uzantıyı etkisizleştir
 # Variables:

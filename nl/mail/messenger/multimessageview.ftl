@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Berichtsamenvatting
-selected-messages-label =
-    .label = Geselecteerde berichten
 multi-message-archive-button =
     .label = Archiveren
     .tooltiptext = Archiveren

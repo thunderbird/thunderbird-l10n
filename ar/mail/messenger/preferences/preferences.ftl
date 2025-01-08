@@ -411,20 +411,9 @@ third-party-never =
     .label = أبدًا
 third-party-visited =
     .label = من المواقع المُزارة
-keep-label =
-    .value = احتفظ بها حتى:
-    .accesskey = ف
-keep-expire =
-    .label = تنتهي صلاحيتها
-keep-close =
-    .label = أُغلق { -brand-short-name }
-keep-ask =
-    .label = اسألني كل مرة
 cookies-button =
     .label = أظهِر الكعكات…
     .accesskey = ظ
-learn-button =
-    .label = اطّلع على المزيد
 dnt-learn-more-button =
     .value = اطّلع على المزيد
 passwords-description = يستطيع { -brand-short-name } تذكر معلومات كلمة السر لكل حساباتك لذا لن تحتاج إلى إعادة إدخال بيانات الولوج.
@@ -432,18 +421,12 @@ passwords-button =
     .label = كلمات السر المحفوظة…
     .accesskey = س
 junk-description = اضبط إعدادات السخام الافتراضيَّة. يمكن ضبط إعدادات السخام الخاصة بالحساب في إعدادات الحساب.
-junk-label =
-    .label = عند تأشير الرسائل كسخام:
-    .accesskey = ئ
 junk-move-label =
     .label = انقلها إلى مجلد ”السخام“
     .accesskey = ن
 junk-delete-label =
     .label = احذفهم
     .accesskey = ذ
-junk-read-label =
-    .label = أشِّر الرسائل السخام كمقروءة
-    .accesskey = ء
 junk-log-label =
     .label = فعل تسجيل مرشّح السّخام التكيّفي
     .accesskey = ف
@@ -559,4 +542,7 @@ chat-variant-label =
 
 
 ## Sync Tab
+
+
+## Mobile QR Export Pane
 

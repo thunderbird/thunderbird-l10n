@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "O">
 <!ENTITY overrideNamespaces.label "Permitir que el servidor reemplace estos espacios de nombres">
 <!ENTITY overrideNamespaces.accesskey "A">
-<!ENTITY pop3DeferringDesc.label "Cuando se descargue correo desde esta cuenta del servidor, usa la siguiente carpeta para almacenar nuevos mensajes:" >
+<!ENTITY pop3DeferringDesc.label "Cuando se descargue correo desde esta cuenta del servidor, usa la siguiente carpeta para almacenar nuevos mensajes:">
 <!ENTITY accountInbox.label "Bandeja de entrada para esta cuenta">
 <!ENTITY accountInbox.accesskey "s">
 <!ENTITY deferToServer.label "Bandeja de entrada para diferente cuenta">

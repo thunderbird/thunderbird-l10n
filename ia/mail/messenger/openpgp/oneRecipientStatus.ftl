@@ -2,49 +2,28 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-openpgp-one-recipient-status-title =
-    .title = Securitate del message OpenPGP
-openpgp-one-recipient-status-status =
-    .label = Stato
-openpgp-one-recipient-status-key-id =
-    .label = ID de clave
-openpgp-one-recipient-status-created-date =
-    .label = Create
-openpgp-one-recipient-status-expires-date =
-    .label = Expira
-openpgp-one-recipient-status-open-details =
-    .label = Aperir le detalios e rediger le acceptation…
-openpgp-one-recipient-status-discover =
-    .label = Discoperir claves nove o actualisate
-
-openpgp-one-recipient-status-instruction1 = Pro inviar un message cryptate end-to-end a un destinatario, tu debe obtener su clave public OpenPGP e marcar lo como acceptate.
-openpgp-one-recipient-status-instruction2 = Pro obtener su clave public, importa lo ab le e-mail que illes te ha inviate e que include illo. In alternativa, tu pote tentar de discoperir lor clave public sur un directorio.
-
-openpgp-key-own = Acceptate (clave personal)
-openpgp-key-secret-not-personal = Non usabile
-openpgp-key-verified = Acceptate (verificate)
 openpgp-key-unverified = Acceptate (non-verificate)
 openpgp-key-undecided = Non acceptate (non-decidite)
-openpgp-key-rejected = Non acceptate (rejectate)
-openpgp-key-expired = Expirate
-
-openpgp-intro = Activar claves public pro { $key }
-
+# Variables:
+# $kid (String) - Public key id to import.
 openpgp-pubkey-import-id = ID: { $kid }
+# Variables:
+# $fpr (String) - Fingerprint of the public key to import.
 openpgp-pubkey-import-fpr = Dactylogramma: { $fpr }
-
+# Variables:
+# $num (Number) - Number of public keys contained in the key file.
 openpgp-pubkey-import-intro =
     { $num ->
         [one] Le file contine un clave public como monstrate infra:
        *[other] Le file contine { $num } claves public como monstrate infra:
     }
-
+# Variables:
+# $num (Number) - Number of keys to accept.
 openpgp-pubkey-import-accept =
     { $num ->
         [one] Accepta tu iste clave pro verificar firmas digital e pro cryptar messages, pro tote le adresses email monstrate?
        *[other] Accepta tu iste claves pro verificar firmas digital e pro cryptar messages, pro tote le adresses email monstrate?
     }
-
 pubkey-import-button =
     .buttonlabelaccept = Importar
     .buttonaccesskeyaccept = I

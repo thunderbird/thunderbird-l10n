@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Scrittiras
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Predefinì ({ $name })
 fonts-label-default-unnamed =
     .label = Predefinì
-fonts-encoding-dialog-title =
-    .title = Scrittiras & codaziuns
 fonts-language-legend =
     .value = Scrittiras per:
     .accesskey = t

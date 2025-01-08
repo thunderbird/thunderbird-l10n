@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = e
     .tooltiptext = Angiv den URL, du foretrækker til DNS-opslag over HTTPS
 connection-dns-over-https-custom-label = Tilpasset
-connection-dialog-window2 =
-    .title = Forbindelsesindstillinger
 connection-dialog-title = Forbindelsesindstillinger
 disable-extension-button = Deaktiver udvidelse
 # Variables:

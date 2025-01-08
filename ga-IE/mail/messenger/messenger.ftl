@@ -118,14 +118,6 @@ appmenu-settings =
 mail-context-menu-forward-forward =
     .label = Cuir Ar Aghaidh
     .accesskey = C
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Díscrios Teachtaireacht
-           *[other] Díscrios Teachtaireachtaí Roghnaithe
-        }
 
 ## Message header pane
 
@@ -189,7 +181,7 @@ quick-filter-bar-toggle =
     .label = Barra Mearscagairí
     .accesskey = B
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
 

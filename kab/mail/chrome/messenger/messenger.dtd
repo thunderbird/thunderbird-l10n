@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "m">
 <!ENTITY newVirtualFolderCmd.label "Anadi yettwaskelsen">
 <!ENTITY newVirtualFolderCmd.accesskey "n">
-<!ENTITY newCreateEmailAccountCmd.label "Awid amiḍan n tirawt amaynut…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "A">
-<!ENTITY newExistingEmailAccountCmd.label "Amiḍan n tirawt yellan">
-<!ENTITY newExistingEmailAccountCmd.accesskey "m">
 <!ENTITY newIMAccountCmd.label "Amiḍan n tirawt tusriṭ…">
 <!ENTITY newIMAccountCmd.accesskey "s">
 <!ENTITY newFeedAccountCmd.label "Amiḍan n usuddem...">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Kkes izen">
-<!ENTITY deleteMsgCmd.accesskey "K">
-<!ENTITY undeleteMsgCmd.label "Sefsex tukksa n yizen">
-<!ENTITY undeleteMsgCmd.accesskey "f">
-<!ENTITY deleteMsgsCmd.label "Sefsex iznan yettwafernen">
-<!ENTITY deleteMsgsCmd.accesskey "f">
-<!ENTITY undeleteMsgsCmd.label "Sefsex tukksa n yiznan yettwafernen">
-<!ENTITY undeleteMsgsCmd.accesskey "k">
-<!ENTITY deleteFolderCmd.label "Kkes akaram">
-<!ENTITY deleteFolderCmd.accesskey "K">
-<!ENTITY unsubscribeNewsgroupCmd.label "Ffeɣ seg ujerred">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "j">
 <!ENTITY selectMenu.label "Fren">
 <!ENTITY selectMenu.accesskey "n">
 <!ENTITY all.label "Akk">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "n">
 <!ENTITY menuFavoriteFolder.label "Akaram anurif">
 <!ENTITY menuFavoriteFolder.accesskey "r">
-<!ENTITY folderPropsCmd2.label "Timeẓliyin">
-<!ENTITY folderPropsFolderCmd2.label "Timeẓliyin n ukaram">
-<!ENTITY folderPropsNewsgroupCmd2.label "Timeẓliyin n isallen nugraw">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Sefsex tukksa n yizen">
 <!ENTITY redoDeleteMsgCmd.label "Uɣal ɣer tukksa n yizen">
 <!ENTITY undoMoveMsgCmd.label "Sefsex asenkez n yizen">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "m">
 <!ENTITY showFolderPaneCmd.label "Agalis n ukaram">
 <!ENTITY showFolderPaneCmd.accesskey "l">
-<!ENTITY showFolderPaneColsCmd.label "Tigejda n ugalis n ukaram">
-<!ENTITY showFolderPaneColsCmd.accesskey "k">
 <!ENTITY showMessageCmd.label "Agalis n yizen">
 <!ENTITY showMessageCmd.accesskey "g">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Izen amaynut">
 <!ENTITY appmenuNewContactCmd.label "Anermis n imedlis n tensa…">
-<!ENTITY appmenuEditMenu.label "Ẓreg">
 <!ENTITY appmenuToolbarLayout.label "Aseflu n ifeggagen n ifecka…">
-<!ENTITY appmenuSelectThread.label "Fren asqerdec">
-<!ENTITY appmenuSelectFlagged.label "Sefsex tukksa n yizen yettwafernen">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Tabzimt tamaynut…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "F">
 <!ENTITY folderContextMarkNewsgroupRead.label "Creḍ agraw n isallen amzun yettwaɣra">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "r">
-<!ENTITY folderContextMarkMailFolderRead.label "Cṛeḍ akaram amzun yettwaɣra">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "C">
 <!ENTITY folderContextSubscribe.label "Multeɣ…">
 <!ENTITY folderContextSubscribe.accesskey "l">
 <!ENTITY folderContextSearchForMessages.label "Nadi iznan…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Err i tebdart">
 <!ENTITY contextReplyList.accesskey "b">
-<!ENTITY contextForward.label "Ɣer zdat">
-<!ENTITY contextForward.accesskey "z">
-<!ENTITY contextForwardAsMenu.label "Welleh am">
-<!ENTITY contextForwardAsMenu.accesskey "W">
-<!ENTITY contextForwardAsInline.label "Deg umnaḍ">
-<!ENTITY contextForwardAsInline.accesskey "g">
-<!ENTITY contextForwardAsAttachmentItem.label "Taceqquf yeddan">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "T">
-<!ENTITY contextMultiForwardAsAttachment.label "Welleh am imeddayen">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "W">
 <!ENTITY contextMoveMsgMenu.label "Senkez ɣer">
 <!ENTITY contextMoveMsgMenu.accesskey "k">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Melmi kan">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "n">
 <!ENTITY copyEmailCmd.label "Nɣel tansa imayl">
 <!ENTITY copyEmailCmd.accesskey "t">
-<!ENTITY stopCmd.label "Rken">
-<!ENTITY stopCmd.accesskey "R">
-<!ENTITY reloadCmd.label "Smiren">
-<!ENTITY reloadCmd.accesskey "m">
 <!ENTITY openInBrowser.label "Ldi deg iminig">
 <!ENTITY openInBrowser.accesskey "L">
 <!ENTITY openLinkInBrowser.label "Ldi aseɣwen deg iminig">

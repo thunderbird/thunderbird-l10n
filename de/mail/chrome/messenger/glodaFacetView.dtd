@@ -15,7 +15,7 @@
      there are no results that match the search query. -->
 <!ENTITY glodaFacetView.empty.label "Die Suche ergab keine Ergebnisse">
 
-<!-- LOCALIZATION NOTE (glodaFacetView.showMore.label): Label at the bottom
+<!-- LOCALIZATION NOTE (glodaFacetView.pageMore.label): Label at the bottom
      of the results list to show more hits. -->
 <!ENTITY glodaFacetView.pageMore.label "Mehr &#187;">
 

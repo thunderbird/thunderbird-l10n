@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-receipts-dialog-window =
-    .title = Alındı Onayları
 receipts-dialog-title = Alındı onayları
 return-receipt-checkbox-control =
     .label = Her ileti gönderiminde alındı onayı iste

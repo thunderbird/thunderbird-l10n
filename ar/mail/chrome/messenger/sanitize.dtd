@@ -19,6 +19,7 @@ that require it.  -->
 <!ENTITY clearTimeDuration.suffix         "">
 
 
+
 <!ENTITY itemHistory.label                 "تأريخ التصفح">
 <!ENTITY itemHistory.accesskey             "ص">
 <!ENTITY itemCookies.label                 "الكعكات">
@@ -31,4 +32,3 @@ that require it.  -->
      mockup at bug 480169 -->
 <!ENTITY sanitizeEverythingUndoWarning     "لا يمكن التراجع عن هذا الإجراء.">
 
-<!ENTITY dialog.width                 "28em">

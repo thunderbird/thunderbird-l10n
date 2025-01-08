@@ -37,8 +37,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Gronidło
     .accesskey = G
     .title = Opcionalne, buźo so jano wužywaś, aby se wužywaŕske mě pśespytało
-account-provisioner-button = Wobstarajśo se e-mailowu adresu
-    .accesskey = b
 account-setup-password-toggle-show =
     .title = Gronidło w lutnem teksće pokazaś
 account-setup-password-toggle-hide =
@@ -150,7 +148,6 @@ account-setup-credentials-incomplete = Awtentifikacija njejo se raźiła. Pak za
 account-setup-credentials-wrong = Awtentifikacija njejo se raźiła. Pšosym pśeglědajśo wužywaŕske mě a gronidło
 account-setup-find-settings-failed = { -brand-short-name } njejo mógał nastajenja za wašo e-mailowe konto namakaś.
 account-setup-exchange-config-unverifiable = Konfiguracija njedajo se pśeglědowaś. Jolic wašo wužywaŕske mě a wašo gronidło stej korektnej, jo nejskerjej serwerowy adminsitrator wubranu konfiguraciju za wašo konto znjemóžnił. Wubjeŕśo drugi protokol.
-account-setup-provisioner-error = Zmólka jo nastała, mjaztym až sćo konfigurěrował swójo nowe konto w { -brand-short-name }. Pšosym wopytajśo swójo konto ze swójimi pśizjawjeńskimi datami manuelnje konfigurěrowaś.
 
 ## Manual configuration area
 

@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Cercar
-search-bar-item =
-    .label = Cercar:
 search-bar-item2 =
     .label = Cercar
 search-bar-placeholder = Cercante…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Solo texto
 customize-cancel = Cancellar
 customize-save = Salvar
 customize-unsaved-changes = Cambiamentos non salvate in altere spatios
-customize-search-bar =
-    .label = Buttones del barra del instrumentos de recerca
 customize-search-bar2 =
     .label = Buttones del barra del instrumentos de recerca
     .placeholder = Buttones del barra del instrumentos de recerca…

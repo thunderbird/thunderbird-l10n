@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Crear, renumnar u stizzar ordinaturs da tes conto dad e-mail
 webext-perms-description-accountsIdentities = Crear, modifitgar u stizzar identitads da tes conto dad e-mail
 webext-perms-description-accountsRead = Visualisar tes contos, lur identitads e lur ordinaturs
@@ -20,7 +27,6 @@ webext-perms-description-messagesModify = Legia e modifitgescha tes messadis dad
 webext-perms-description-messagesModifyPermanent = Modifitgar permanentamain la funtauna da tes messadis (inclusivamain chaus-pagina, body ed agiuntas)
 webext-perms-description-messagesMove = Copiar u spustar tes messadis dad e-mail (inclus il spustament en il chanaster da palpiri)
 webext-perms-description-messagesDelete = Stizzar definitivamain tes messadis dad e-mail
-webext-perms-description-messagesRead = Legia tes messadis dad e-mail ed als marchescha u etichettescha
 webext-perms-description-messagesRead2 = Leger tes messadis dad e-mail
 webext-perms-description-messagesUpdate = Midar las caracteristicas e las etichettas da tes messadis dad e-mail
 webext-perms-description-messagesTags = Crear, modifitgar e stizzar etichettas da messadis

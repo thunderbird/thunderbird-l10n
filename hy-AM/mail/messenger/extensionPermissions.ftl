@@ -7,9 +7,15 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Ստեղծեք, վերանվանեք կամ ջնջեք ձեր փոստի հաշվի պանակները
 webext-perms-description-addressBooks = Կարդացեք և փոփոխեք ձեր հասցեի գրքերը և կոնտակտները
 webext-perms-description-compose = Կարդացեք և փոփոխեք ձեր էլ. նամակները, երբ կազմեք և ուղարկեք դրանք
 webext-perms-description-experiment = Ունեն լիարժեք, անսահմանափակ մուտք դեպի { -brand-short-name } և ձեր համակարգիչ
 webext-perms-description-messagesImport = Ներմուծեք հաղորդագրություններ Thunderbird-ում
-webext-perms-description-messagesRead = Կարդացեք ձեր էլփոստի հաղորդագրությունները և նշեք կամ նշեք դրանք

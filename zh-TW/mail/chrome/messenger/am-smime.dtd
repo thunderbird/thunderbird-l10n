@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "清除">
 <!ENTITY encryption.certificate_clear.accesskey "e">
 <!ENTITY signingGroupTitle.label "數位簽章">
-
 <!ENTITY signingCert2.message "用來簽章的個人憑證:">
 
 <!ENTITY sendingDefaults.label "傳送訊息時的預設設定">

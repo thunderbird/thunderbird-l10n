@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = Askar n usellek { -brand-short-name }
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = Askar n usellek { -brand-short-name }
 troubleshoot-mode-description = Seqdec askar n usellek n { -brand-short-name } i tifin n wuguren. Izegrar-inek·inem d wagganen ad ttwasensen i kra n wakud.
 troubleshoot-mode-description2 = Tzemreḍ ad terred kra n yesnifal-inek d imeɣlal

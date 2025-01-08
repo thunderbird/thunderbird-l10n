@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Indicates that you will not accept counterproposals">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Delete…">
 <!ENTITY  event.menu.item.delete.accesskey                "D">
-<!ENTITY  event.menu.item.page.setup.label                "Page Setup">
-<!ENTITY  event.menu.item.page.setup.accesskey            "u">
-<!ENTITY  event.menu.item.print.label                     "Print">
-<!ENTITY  event.menu.item.print.accesskey                 "P">
 
 <!ENTITY  event.menu.edit.label                           "Edit">
 <!ENTITY  event.menu.edit.accesskey                       "E">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "E">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Customize…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "C">
-<!ENTITY  event.menu.view.showlink.label                  "Show Related Link">
-<!ENTITY  event.menu.view.showlink.accesskey              "R">
 
 <!ENTITY  event.menu.options.label                            "Options">
 <!ENTITY  event.menu.options.accesskey                        "O">
@@ -333,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "October" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "November" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "December" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Every">
 <!ENTITY event.recurrence.yearly.first.label                 "The First">
 <!ENTITY event.recurrence.yearly.second.label                "The Second">
@@ -349,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Saturday" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "day" >
 <!ENTITY event.recurrence.of.label                           "of" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "January" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "February" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "March" >
@@ -367,7 +360,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Create" >
 <!ENTITY event.recurrence.appointments.label            "Appointment(s)" >
 <!ENTITY event.repeat.until.label                       "Repeat until" >
-<!ENTITY event.recurrence.preview.label                 "Preview">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Invite Attendees">

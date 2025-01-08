@@ -64,8 +64,8 @@
 <!ENTITY cellAlignJustify.label           "Pagal abu kraštus">
 <!ENTITY cellInheritColor.label           "(Langelio fonas toks pat, kaip lentelės fonas)">
 <!ENTITY cellUseCheckboxHelp.label        "Parinkite savybes, kurias turės visi pažymėti lentelės langeliai.">
-<!-- Used in both Table and Cell panels  -->
 
+<!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "Dydis">
 <!ENTITY pixels.label                     "taškai(-ų)">
 <!ENTITY backgroundColor.label            "Fono spalva:">

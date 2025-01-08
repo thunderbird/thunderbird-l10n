@@ -3,7 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY junkSettings.label "Configuración de corréu non deseáu">
-
 <!ENTITY trainingDescription.label "Si ta activáu, primero vas tener que deprender a &brandShortName; a identificar el corréu puxarra usando'l botón Puxarra de la barra de ferramientes pa conseñar los mensaxes que son corréu puxarra y los que non. Necesites identificar unos y otros como parte del deprendizax. Tres d'ello, &brandShortName; va ser a identificar el corréu puxarra automáticamente.">
 <!ENTITY level.label "Activar los controles adautativos de corréu non deseáu pa esta cuenta">
 <!ENTITY level.accesskey "A">

@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-system-integration-title =
-    .title = Integraziun en il sistem
 system-integration-dialog-title = Integraziun en il sistem
 system-integration-dialog =
     .buttonlabelaccept = Definir sco standard

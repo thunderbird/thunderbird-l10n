@@ -5,11 +5,9 @@
 carddav-url-label =
     .value = CardDAV URL.
     .accesskey = Վ
-
 carddav-refreshinterval-label =
     .label = Համաժամեցնել.
     .accesskey = Հ
-
 # Variables:
 #   $minutes (integer) - Number of minutes between address book synchronizations
 carddav-refreshinterval-minutes-value =
@@ -18,7 +16,6 @@ carddav-refreshinterval-minutes-value =
             [one] ամէն րոպէ
            *[other] իւրաքանչիւր { $minutes } րոպէն մեկ
         }
-
 # Variables:
 #   $hours (integer) - Number of hours between address book synchronizations
 carddav-refreshinterval-hours-value =
@@ -27,7 +24,6 @@ carddav-refreshinterval-hours-value =
             [one] ամէն ժամ
            *[other] իւրաքանչիւր { $hours } ժամը մեկ
         }
-
 carddav-readonly-label =
     .label = Միայն֊կարդալու
     .accesskey = Ը

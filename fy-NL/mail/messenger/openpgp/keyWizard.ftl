@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = In persoanlike OpenPGP-kaai foar { $identity } tafoegje
-key-wizard-button =
-    .buttonlabelaccept = Trochgean
-    .buttonlabelhelp = Tebek
 key-wizard-dialog =
     .buttonlabelaccept = Trochgean
     .buttonlabelextra1 = Tebekgean
@@ -106,8 +103,6 @@ openpgp-import-key-list-caption = Kaaien dy’t markearre wurde om as persoanlik
 openpgp-import-keep-passphrases =
     .label = Wachtwurdsinbefeiliging foar ymportearre geheime kaaien behâlde
 openpgp-passphrase-prompt-title = Wachtwurdsin fereaske
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Fier de wachtwurdsin yn om de folgjende kaai te ûntskoatteljen: { $key }
 openpgp-import-key-button =
     .label = Selektearje te ymportearjen bestân…
     .accesskey = S

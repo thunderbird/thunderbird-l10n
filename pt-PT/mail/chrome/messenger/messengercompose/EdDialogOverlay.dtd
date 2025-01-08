@@ -9,9 +9,7 @@
 <!ENTITY chooseFileButton.accessKey "f">
 <!ENTITY chooseFileLinkButton.label "Escolher ficheiro...">
 <!ENTITY chooseFileLinkButton.accessKey "o">
-<!ENTITY makeUrlRelative.label "O URL é relativo à localização da página">
-<!ENTITY makeUrlRelative.accessKey "r">
-<!ENTITY makeUrlRelative.tooltip "Alterar entre URL relativo e absoluto. Tem de guardar a página para poder alterar.">
+
 
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Digite um endereço da página da Internet, um ficheiro local, ou selecione uma âncora ou cabeçalho do menu de contexto do campo:">

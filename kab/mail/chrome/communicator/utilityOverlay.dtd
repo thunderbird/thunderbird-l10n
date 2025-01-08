@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "E">
 <!ENTITY deleteCmd.label          "Kkes">
 <!ENTITY deleteCmd.accesskey        "K">
-
 <!ENTITY customizeCmd.label "Sagen">
 <!ENTITY customizeCmd.accesskey "t">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Mdel">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "M">
-
-<!ENTITY quitApplicationCmd.label  "Ffeɣ">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "ɣ">
-
-<!ENTITY quitApplicationCmdUnix.label  "Ffeɣ">
-<!ENTITY quitApplicationCmdUnix.accesskey  "f">
-
-<!ENTITY quitApplicationCmdMac.label  "Ffeɣ si &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "f">

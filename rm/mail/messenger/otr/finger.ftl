@@ -3,18 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-finger-title = Improntas OTR gia consultadas
-
 finger-intro = Improntas da clavs OTR dad anteriuras conversaziuns criptadas da fin-a-fin
-
 finger-screen-name =
     .label = Contact
 finger-verified =
     .label = Status da verificaziun
 finger-fingerprint =
     .label = Impronta
-
 finger-remove =
     .label = Stizzar ils elements tschernids
-
 finger-remove-all =
     .label = Stizzar tut

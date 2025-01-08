@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "W">
 <!ENTITY newVirtualFolderCmd.label "Պահպանված որոնում...">
 <!ENTITY newVirtualFolderCmd.accesskey "Պ">
-<!ENTITY newCreateEmailAccountCmd.label "Ստեղծել նոր Փոստարկղ">
-<!ENTITY newCreateEmailAccountCmd.accesskey "Ս">
-<!ENTITY newExistingEmailAccountCmd.label "Առկա փոստարկղ...">
-<!ENTITY newExistingEmailAccountCmd.accesskey "Ա">
 <!ENTITY newIMAccountCmd.label "Զրույցի հաշիվ...">
 <!ENTITY newIMAccountCmd.accesskey "Զ">
 <!ENTITY newFeedAccountCmd.label "Սնման հաշիվ…">
@@ -621,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "U">
 <!ENTITY folderContextMarkNewsgroupRead.label "Նշել որպես ընթերցված">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "լ">
-<!ENTITY folderContextMarkMailFolderRead.label "Նշել որպես ընթերցված">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "k">
 <!ENTITY folderContextSubscribe.label "Բաժանորդագրվել...">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "Նամակների որոնում...">
@@ -728,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "A">
 <!ENTITY contextReplyList.label "Պատասխանել ցանկով">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextForward.label "Փոխանցել">
-<!ENTITY contextForward.accesskey "F">
-<!ENTITY contextForwardAsMenu.label "Փոխանցել որպես">
-<!ENTITY contextForwardAsMenu.accesskey "ո">
-<!ENTITY contextForwardAsInline.label "Ներտող">
-<!ENTITY contextForwardAsInline.accesskey "Ն">
-<!ENTITY contextForwardAsAttachmentItem.label "Կցորդ">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "Կ">
-<!ENTITY contextMultiForwardAsAttachment.label "Փոխանցել որպես կցորդ">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "ո">
 <!ENTITY contextMoveMsgMenu.label "Տեղափոխել՝">
 <!ENTITY contextMoveMsgMenu.accesskey "M">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Վերջին">

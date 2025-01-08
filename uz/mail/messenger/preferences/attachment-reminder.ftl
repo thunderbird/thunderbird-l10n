@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = Biriktirmani eslatkich uchun kalit so‘zlar
 attachment-reminder-dialog-title = Biriktirmani eslatkich uchun kalit so‘zlar
 attachment-reminder-label = Xatni jo‘natish vaqtida ushbu kalit so‘zlardan birortasi bo‘lsa, { -brand-short-name } qo‘shilmagan biriktirmalar haqida xabar beradi.
 keyword-remove-button =

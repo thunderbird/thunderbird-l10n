@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "移除選擇的行事曆…">
 <!ENTITY calendar.removecalendar.accesskey      "R">
 
-
-<!ENTITY calendar.menu.customize.label          "自訂…">
-<!ENTITY calendar.menu.customize.accesskey      "C">
-
 <!ENTITY showUnifinderCmd.label                 "尋找事件">
 <!ENTITY showUnifinderCmd.accesskey             "F">
 <!ENTITY showUnifinderCmd.tooltip               "切換尋找事件窗格">
@@ -48,4 +44,3 @@
 
 <!ENTITY calendar.properties.label              "行事曆屬性…">
 <!ENTITY calendar.properties.accesskey          "C">
-

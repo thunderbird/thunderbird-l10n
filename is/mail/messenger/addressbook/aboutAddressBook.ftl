@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Bæta við CardDAV-nafnaskrá
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Bæta við LDAP-nafnaskrá
-about-addressbook-toolbar-new-contact =
-    .label = Nýr tengiliður
-about-addressbook-toolbar-new-list =
-    .label = Nýr listi
-about-addressbook-toolbar-import =
-    .label = Flytja inn
 books-pane-create-contact-button = Nýr tengiliður
     .title = Búa til nýjan tengilið
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Ertu viss um að þú viljir fjar
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Leita í { $name }
-about-addressbook-search-all =
-    .placeholder = Leita í öllum nafnaskrám
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -280,7 +268,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Breyta tengiliðamynd
 about-addressbook-new-contact-header = Nýr tengiliður
-about-addressbook-prefer-display-name = Kjósa birtingarnafn fram yfir það sem stendur í haus skilaboða
 about-addressbook-write-action-button = Skrifa
 about-addressbook-event-action-button = Atburður
 about-addressbook-search-action-button = Leita

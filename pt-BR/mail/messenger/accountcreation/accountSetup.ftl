@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Senha
     .accesskey = S
     .title = Opcional, será usada apenas para validar o nome de usuário
-account-provisioner-button = Obter um novo endereço de email
-    .accesskey = O
 account-setup-password-toggle-show =
     .title = Exibir senha
 account-setup-password-toggle-hide =
@@ -146,7 +144,6 @@ account-setup-credentials-incomplete = Falha na autenticação. As credenciais i
 account-setup-credentials-wrong = Falha na autenticação. Verifique o nome de usuário e a senha
 account-setup-find-settings-failed = O { -brand-short-name } não conseguiu encontrar as configurações de sua conta de email
 account-setup-exchange-config-unverifiable = A configuração não pôde ser verificada. Se o nome de usuário e a senha estão corretos, é provável que o administrador do servidor tenha desativado a configuração selecionada em sua conta. Experimente selecionando outro protocolo.
-account-setup-provisioner-error = Ocorreu um erro ao configurar sua nova conta no { -brand-short-name }. Tente configurar a conta manualmente usando suas credenciais.
 
 ## Manual configuration area
 

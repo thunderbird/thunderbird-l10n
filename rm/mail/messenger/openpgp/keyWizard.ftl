@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Agiuntar ina clav OpenPGP persunala per { $identity }
-key-wizard-button =
-    .buttonlabelaccept = Cuntinuar
-    .buttonlabelhelp = Turnar
 key-wizard-dialog =
     .buttonlabelaccept = Cuntinuar
     .buttonlabelextra1 = Turnar
@@ -106,8 +103,6 @@ openpgp-import-key-list-caption = Las clavs marcadas sco clavs persunalas vegnan
 openpgp-import-keep-passphrases =
     .label = Mantegnair la protecziun cun la frasa-clav per las clavs secretas importadas
 openpgp-passphrase-prompt-title = Frasa-clav obligatorica
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Endatescha per plaschair la frasa-clav per debloccar la suandanta clav: { $key }
 openpgp-import-key-button =
     .label = Tscherna la datoteca che duai vegnir importada…
     .accesskey = T

@@ -3,8 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY window.title "Правила за филтрите">
-<!-- LOCALIZATION NOTE (cc.label): DONT_TRANSLATE -->
-
 <!ENTITY filterName.label "Име на филтер:">
 <!ENTITY filterName.accesskey "И">
 
@@ -17,11 +15,12 @@
 <!ENTITY highPriorityCmd.label "Високо">
 <!ENTITY highestPriorityCmd.label "Највисок">
 
+
 <!ENTITY filterActionDesc.label "Изврши ги следниве дејствија:">
 <!ENTITY filterActionDesc.accesskey "р">
 
-<!-- New Style Filter Rule Actions -->
 
+<!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Премести ја пораката во">
 <!ENTITY copyMessage.label "Копирај ја пораката во">
 <!ENTITY forwardTo.label "Препрати ја пораката до">
@@ -37,8 +36,10 @@
 <!ENTITY ignoreThread.label "Игнорирај ја нишката">
 <!ENTITY watchThread.label "Следи ја нишката">
 
+
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
   -->
+<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->

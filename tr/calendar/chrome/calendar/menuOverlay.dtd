@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Seçilen takvimi sil…">
 <!ENTITY calendar.removecalendar.accesskey      "s">
 
-
-<!ENTITY calendar.menu.customize.label          "Özelleştir…">
-<!ENTITY calendar.menu.customize.accesskey      "z">
-
 <!ENTITY showUnifinderCmd.label                 "Etkinlikleri bul">
 <!ENTITY showUnifinderCmd.accesskey             "b">
 <!ENTITY showUnifinderCmd.tooltip               "Etkinlik bulma bölmesini açar/kapatır">

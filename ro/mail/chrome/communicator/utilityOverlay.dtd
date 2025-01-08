@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "R">
 <!ENTITY deleteCmd.label          "Șterge">
 <!ENTITY deleteCmd.accesskey        "g">
-
 <!ENTITY customizeCmd.label "Personalizează">
 <!ENTITY customizeCmd.accesskey "t">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Închide">
 <!ENTITY closeCmd.key      "w">
 <!ENTITY closeCmd.accesskey    "c">
-
-<!ENTITY quitApplicationCmd.label  "Ieșire">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "I">
-
-<!ENTITY quitApplicationCmdUnix.label  "Ieșire">
-<!ENTITY quitApplicationCmdUnix.accesskey  "e">
-
-<!ENTITY quitApplicationCmdMac.label  "Ieșire din &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "I">

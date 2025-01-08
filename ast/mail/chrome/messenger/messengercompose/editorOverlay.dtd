@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Propiedaes de la tabla…">
 <!ENTITY tableProperties.accesskey "o">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Imaxe">
 <!ENTITY imageToolbarCmd.tooltip "Inxerta una nueva imaxe o edita les propiedaes de la imaxe esbillada">
 <!ENTITY hruleToolbarCmd.label "Llinia horiz.">

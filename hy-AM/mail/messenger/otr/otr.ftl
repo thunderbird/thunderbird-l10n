@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 error-enc = Սխալ՝ հաղորդագրությունը գաղտնագրելիս:
-
 error-unreadable = Դուք փոխանցել եք չընթերցվող գաղտնագրված հաղորդագրություն:
 error-malformed = Դուք փոխանցել եք տվյալների սխալ ձևակերպված հաղորդագրություն:
-
 resent = [վրդովված]
-
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 tlv-disconnected = { $name }-ն ավարտեց Ձեզ հետ գաղտնագրված զրույցը; դուք նույնպես պետք է անեք նույնը:
-
 # Do not translate "Off-the-Record" and "OTR" which is the name of an encryption protocol
 # Make sure that this string does NOT contain any numbers, e.g. like "3".
 # Variables:

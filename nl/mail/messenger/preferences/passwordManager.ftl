@@ -2,10 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-saved-logins =
-    .title = Opgeslagen aanmeldingen
-window-close =
-    .key = w
 saved-logins-title = Opgeslagen aanmeldingen
 focus-search-primary-shortcut =
     .key = f

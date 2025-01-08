@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-
 <!ENTITY title.label "Նամակի անվտանգությունը">
 <!ENTITY subject.plaintextWarning "Հիշեք. Նամակի բովանդակության տողերը չեն կոդավորվել:">
 <!ENTITY status.heading "Նամակի բովանդակությունը կուղարկվի որպես`">

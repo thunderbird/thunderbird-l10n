@@ -10,12 +10,6 @@ reminder-title-at-start-event = Tadbir boshlanadigan lahza
 reminder-title-at-start-task = Vazifa boshlanadigan lahza
 reminder-title-at-end-event = Tadbir tugaydigan lahza
 reminder-title-at-end-task = Vazifa tugaydigan lahza
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = { $unit } uchun eslatkichni orqaga surish
 reminder-custom-origin-begin-before-event = tadbir boshlanishidan oldin
 reminder-custom-origin-begin-after-event = tadbir boshlanishidan keyin
 reminder-custom-origin-end-before-event = tadbir tugashidan oldin

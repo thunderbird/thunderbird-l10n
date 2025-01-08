@@ -125,3 +125,6 @@ toolbar-stop =
 toolbar-throbber-label = Aktiivsuse indikaator
 toolbar-throbber =
     .title = Aktiivsuse indikaator
+
+## New Address Book popup items
+

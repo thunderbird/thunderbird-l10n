@@ -5,21 +5,19 @@
 carddav-dialog =
     .buttonlabelaccept = Tęsti
     .buttonaccesskeyaccept = T
-
 carddav-username-label =
     .value = Naudotojo vardas:
     .accesskey = u
-
 carddav-location-label =
     .value = Vieta:
     .accesskey = V
 carddav-location =
     .default-placeholder = Adresų knygos serverio pavadinimas arba URL
-
 carddav-loading = Ieškoma konfigūracija …
+# Variables:
+# $url (String) - CardDAV endpoint hostname. For example "example.com".
 carddav-known-incompatible = Žinoma, kad { $url } nesuderinamas su { -brand-short-name }.
 carddav-connection-error = Prisijungti nepavyko.
 carddav-none-found = Nurodytoje paskyroje adresų knygų nėra.
 carddav-already-added = Visos nurodytos paskyros adresų knygos jau pridėtos.
-
 carddav-available-books = Galimos adresų knygos:

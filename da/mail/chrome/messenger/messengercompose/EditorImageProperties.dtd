@@ -67,7 +67,6 @@
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Farvet kant rundt om billeder der er link">
 <!ENTITY showImageLinkBorder.accessKey "U">
-
 <!ENTITY LinkAdvancedEditButton.label "Avanceret linkredigering…">
 <!ENTITY LinkAdvancedEditButton.accessKey "l">
 <!ENTITY LinkAdvancedEditButton.tooltip "Tilføj eller rediger HTML-attributter, CSS-attributter og JavaScript">

@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = Mode de dépannage de { -brand-short-name }
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = Mode de dépannage de { -brand-short-name }
 troubleshoot-mode-description = Utilisez le mode de dépannage de { -brand-short-name } pour diagnostiquer les problèmes. Vos personnalisations et vos modules complémentaires seront temporairement désactivés.
 troubleshoot-mode-description2 = Il est possible de rendre tout ou partie de ces changements permanents :

@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Боје
 colors-dialog-title = Боје
 colors-dialog-legend = Текст и позадина
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Посећене везе:
     .accesskey = с
-underline-link-checkbox =
-    .label = Подвуци везе
-    .accesskey = в
 override-color-label =
     .value = Премости боје наведене у садржају са мојим изборима испод:
     .accesskey = м

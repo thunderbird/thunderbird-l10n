@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "O">
 <!ENTITY overrideNamespaces.label "允許伺服器強制蓋掉這些命名空間">
 <!ENTITY overrideNamespaces.accesskey "A">
-<!ENTITY pop3DeferringDesc.label "自此帳號伺服器下載郵件時，使用下列資料夾來儲存新訊息:" >
+<!ENTITY pop3DeferringDesc.label "自此帳號伺服器下載郵件時，使用下列資料夾來儲存新訊息:">
 <!ENTITY accountInbox.label "此帳號的收件匣">
 <!ENTITY accountInbox.accesskey "s">
 <!ENTITY deferToServer.label "不同帳號的「收件匣」">

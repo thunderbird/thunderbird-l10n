@@ -5,14 +5,11 @@
 carddav-dialog =
     .buttonlabelaccept = Continuă
     .buttonaccesskeyaccept = C
-
 carddav-username-label =
     .value = Nume de utilizator:
     .accesskey = u
-
 carddav-loading = Se caută configurația…
 carddav-connection-error = Conectare eșuată.
 carddav-none-found = Nu s-au găsit agende de contacte de adăugat pentru contul specificat.
 carddav-already-added = Toate agendele de contacte pentru contul specificat au fost deja adăugate.
-
 carddav-available-books = Agende de contacte disponibile:

@@ -4,7 +4,5 @@
 
 <!ENTITY virtualFolderListTitle.title        "Ordner auswählen">
 <!ENTITY virtualFolderDesc.label       "Diese Ordner durchsuchen:">
-
-
 <!ENTITY folderName.label "Ordnername">
 <!ENTITY folderSearch.label "Suchen">

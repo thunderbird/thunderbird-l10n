@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Gearr-chunntas na teachdaireachd
-selected-messages-label =
-    .label = Teachdaireachdan a chaidh a thaghadh
 multi-message-archive-button =
     .label = Tasg-lann
     .tooltiptext = Tasg-lann

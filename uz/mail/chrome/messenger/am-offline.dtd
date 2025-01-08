@@ -35,13 +35,13 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "Q">
 <!ENTITY syncGroupTitle.label "Xabarni sinxronlash">
 <!ENTITY diskspaceGroupTitle.label "Diskdagi joy">
+
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
   &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
 -->
-
 <!ENTITY allAutosync.label               "Muddatidan qat’i nazar kompyuterdagi barcha xabarlar sinxronlansin">
 <!ENTITY allAutosync.accesskey           "s">
 <!ENTITY ageAutosyncBefore.label         "Eng so‘nggi xabarlar sinxronlansin">

@@ -3,10 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY virtualFolderProperties.title "Ný vistuð leit">
-<!ENTITY name.label "Nafn:">
-<!ENTITY name.accesskey "n">
-<!ENTITY description.label "Búa til sem undirmöppu af:">
-<!ENTITY description.accesskey "B">
+<!ENTITY name.label                 "Nafn:">
+<!ENTITY name.accesskey             "n">
+<!ENTITY description.label          "Búa til sem undirmöppu af:">
+<!ENTITY description.accesskey      "B">
 
 <!ENTITY searchTermCaption.label "Stilltu leitarskilyrðin fyrir vistaða leit: ">
 
@@ -16,7 +16,7 @@
 
 <!ENTITY searchOnline.label "Leitar á netinu (Skilar uppfærðum niðurstöðum fyrir IMAP og fréttamöppur en lengir tímann sem tekur að opna möppu)">
 <!ENTITY searchOnline.accesskey "o">
-<!ENTITY newFolderButton.label "Búa til">
-<!ENTITY newFolderButton.accesskey "a">
-<!ENTITY editFolderButton.label "Uppfæra">
-<!ENTITY editFolderButton.accesskey "U">
+<!ENTITY newFolderButton.label       "Búa til">
+<!ENTITY newFolderButton.accesskey   "a">
+<!ENTITY editFolderButton.label      "Uppfæra">
+<!ENTITY editFolderButton.accesskey  "U">

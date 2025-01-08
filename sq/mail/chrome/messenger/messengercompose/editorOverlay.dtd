@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Veti Tabele…">
 <!ENTITY tableProperties.accesskey "v">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Figurë">
 <!ENTITY imageToolbarCmd.tooltip "Futni figurë të re ose përpunoni vetitë e figurës së përzgjedhur">
 <!ENTITY hruleToolbarCmd.label "Rresht H.">

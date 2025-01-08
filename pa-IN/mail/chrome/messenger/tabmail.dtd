@@ -4,3 +4,5 @@
 
 <!ENTITY  closeTab.label           "ਟੈਬ ਬੰਦ ਕਰੋ">
 <!ENTITY  listAllTabs.label        "ਸਭ ਟੈਬਾਂ ਵੇਖੋ">
+<!-- LOCALIZATION NOTE(defaultTabTitle.label): This is the default tab
+     title to show when the tab has no title. -->

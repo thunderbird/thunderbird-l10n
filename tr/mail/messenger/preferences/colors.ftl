@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Renkler
 colors-dialog-title = Renkler
 colors-dialog-legend = Metin ve Arka Plan
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Ziyaret edilmiş bağlantılar:
     .accesskey = Z
-underline-link-checkbox =
-    .label = Bağlantıların altını çiz
-    .accesskey = n
 always-underline-links =
     .label = Her zaman bağlantıların altını çiz
     .accesskey = H

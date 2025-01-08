@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Δημιουργία, μετονομασία ή διαγραφή φακέλων λογαριασμών email
 webext-perms-description-accountsIdentities = Δημιουργία, τροποποίηση ή διαγραφή ταυτοτήτων λογαριασμών email
 webext-perms-description-accountsRead = Προβολή λογαριασμών email, ταυτοτήτων και των φακέλων τους
@@ -20,7 +27,6 @@ webext-perms-description-messagesModify = Ανάγνωση και τροποπο
 webext-perms-description-messagesModifyPermanent = Μόνιμη τροποποίηση της πηγής των μηνυμάτων σας (συμπεριλαμβανομένων των επικεφαλίδων, του κυρίως κειμένου και των συνημμένων)
 webext-perms-description-messagesMove = Αντιγραφή ή μετακίνηση μηνυμάτων email (και μετακίνηση στον φάκελο απορριμμάτων)
 webext-perms-description-messagesDelete = Οριστική διαγραφή email
-webext-perms-description-messagesRead = Ανάγνωση, επισήμανση και προσθήκη ετικετών σε email
 webext-perms-description-messagesRead2 = Ανάγνωση των μηνυμάτων email σας
 webext-perms-description-messagesUpdate = Αλλαγή των ιδιοτήτων και των ετικετών των μηνυμάτων email σας
 webext-perms-description-messagesTags = Δημιουργία, τροποποίηση και διαγραφή ετικετών μηνυμάτων

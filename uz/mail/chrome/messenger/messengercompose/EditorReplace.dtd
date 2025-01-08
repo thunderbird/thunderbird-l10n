@@ -1,8 +1,6 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- extracted from EdReplace.xul -->
-
 
 <!-- extracted from EdReplace.xhtml -->
 
@@ -11,8 +9,6 @@
 <!ENTITY findField.accesskey "M">
 <!ENTITY replaceField.label "Almashtirish:">
 <!ENTITY replaceField.accesskey "A">
-
-
 <!ENTITY wrapCheckbox.label "Atrofga moslash">
 <!ENTITY wrapCheckbox.accesskey "m">
 <!ENTITY backwardsCheckbox.label "Orqaroqdan izlash">
@@ -25,5 +21,3 @@
 <!ENTITY replaceAndFindButton.accesskey "v">
 <!ENTITY replaceAllButton.label "Barchasini almashtirish">
 <!ENTITY replaceAllButton.accesskey "B">
-
-

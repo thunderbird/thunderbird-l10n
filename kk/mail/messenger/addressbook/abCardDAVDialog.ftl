@@ -15,6 +15,8 @@ carddav-location-label =
 carddav-location =
     .default-placeholder = Адрестік кітапша серверінің URL немесе хост аты
 carddav-loading = Баптауларды іздеу…
+# Variables:
+# $url (String) - CardDAV endpoint hostname. For example "example.com".
 carddav-known-incompatible = { $url } қызметі { -brand-short-name } өнімімен үйлесімсіз екені белгілі.
 carddav-connection-error = Байланысты орнату сәтсіз аяқталды.
 carddav-none-found = Көрсетілген тіркелгіге қосатын адрестік кітапшалар табылмады.

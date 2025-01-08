@@ -8,9 +8,6 @@ openpgp-key-expiry-label =
     .label = Derīgums
 openpgp-key-id-label =
     .label = Atslēgas ID
-openpgp-cannot-change-expiry = Šai atslēgai ir sarežģīta struktūra un tās derīguma maiņa nav atbalstīta.
-openpgp-key-man-title =
-    .title = OpenPGP atslēgu pārvaldnieks
 openpgp-key-man-dialog-title = OpenPGP atslēgu pārvaldnieks
 openpgp-key-man-generate =
     .label = Jauns atslēgu pāris
@@ -18,8 +15,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Atsaukšanas sertifikāts
     .accesskey = A
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Ģenerēt un saglabāt atsaukšanas sertifikātu
 openpgp-key-man-file-menu =
     .label = Fails
     .accesskey = F
@@ -74,6 +69,8 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Sūtīt publisko atslēgu pa epastu
     .accesskey = S
+# Variables:
+# $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
@@ -82,6 +79,8 @@ openpgp-key-man-copy-key-ids =
            *[other] Kopēt atslēgu ID uz starpliktuvi
         }
     .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
@@ -90,6 +89,8 @@ openpgp-key-man-copy-fprs =
            *[other] Kopēt pirkstu nospiedumus uz starpliktuvi
         }
     .accesskey = n
+# Variables:
+# $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
@@ -98,11 +99,11 @@ openpgp-key-man-copy-to-clipboard =
            *[other] Kopēt publiskās atslēgas uz starpliktuvi
         }
     .accesskey = p
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Eksportēt atslēgas failā
 openpgp-key-man-ctx-copy =
     .label = Kopēt
     .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
@@ -111,6 +112,8 @@ openpgp-key-man-ctx-copy-fprs =
            *[other] Pirkstu nospiedumi
         }
     .accesskey = n
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
@@ -119,6 +122,8 @@ openpgp-key-man-ctx-copy-key-ids =
            *[other] Atslēgu ID
         }
     .accesskey = I
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -246,9 +251,9 @@ openpgp-keygen-external-success = Ārējas GnuPG atslēgas ID ir saglabāts!
 openpgp-radio-none =
     .label = Nav
 openpgp-radio-none-desc = Neizmantot OpenPGP šai identitātei.
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Derīgums: { $date }
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Nederīga no: { $date }
 openpgp-key-expand-section =
     .tooltiptext = Papildu informācija
@@ -266,7 +271,6 @@ key-external-label = Ārēja GnuPG atslēga
 
 ## Strings in keyDetailsDlg.xhtml
 
-# Strings in keyDetailsDlg.xhtml
 key-type-public = publiskā atslēga
 key-type-primary = primārā atslēga
 key-type-subkey = apakšatslēga
@@ -277,6 +281,8 @@ key-usage-sign = Parakstīt
 key-usage-certify = Apliecināt
 key-usage-authentication = Autentifikācija
 key-does-not-expire = Atslēga der mūžīgi
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = Atslēgas derīgums beidzās: { $keyExpiry }
 key-expired-simple = Atslēga ir beigusies
 key-revoked-simple = Atslēga ir atsaukta
@@ -284,13 +290,16 @@ key-do-you-accept = Vai jūs pieņemat šo atslēgu digitālo parakstu pārbaude
 
 ## Strings enigmailMsgComposeOverlay.js
 
-# Strings enigmailMsgComposeOverlay.js
+# Variables:
+# $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Neizdevās nosūtīt vēstuli, jo radās problēma ar jūsu personīgo atslēgu. { $problem }
 window-locked = Salikšanas logs ir bloķēts; sūtīšana atcelta
 
 ## Strings in keyserver.jsm
 
-# Strings in keyserver.jsm
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Pārtraukts
 keyserver-error-unknown = Radās nezināma kļūda
 keyserver-error-server-error = Atslēgu serveris ziņoja par kļūdu.
@@ -302,7 +311,9 @@ keyserver-error-unsupported = Atslēgu serveris nav atbalstīts.
 
 ## Strings in mimeWkdHandler.jsm
 
-# Strings in mimeWkdHandler.jsm
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Jūsu epasta pakalpojumu sniedzējs apstrādāja jūsu pieprasījumu augšuplādēt publisko atslēgu OpenPGP tīmekļa atslēgu katalogā.
     Lūdzu, apstipriniet publiskās atslēgas publicēšanu.
@@ -312,7 +323,11 @@ wkd-message-body-process =
 
 ## Strings in persistentCrypto.jsm
 
-# Strings in persistentCrypto.jsm
+
+## Strings in persistentCrypto.sys.mjs
+
+# Variables:
+# $subject (String) - Subject of the message.
 converter-decrypt-body-failed =
     Neizdevās atšifrēt ziņojumu ar tēmu
     { $subject }.
@@ -320,30 +335,35 @@ converter-decrypt-body-failed =
 
 ## Strings filters.jsm
 
-# Strings filters.jsm
+
+## Strings filters.sys.mjs
+
 filter-folder-required = Jums jāizvēlas mērķa mape.
 filter-decrypt-move-warn-experimental =
     Brīdinājums - filtrēšanas darbība "Atšifrēt pastāvīgi" var izraisīt vēstules iznīcināšanu.
     Mēs iesakām vispirms izmēģināt filtru "Izveidot atšifrētu kopiju", rūpīgi pārbaudīt rezultātu un sākt lietot šo filtru tikai tad, kad esat apmierināts ar rezultātu.
 filter-term-pgpencrypted-label = OpenPGP šifrēts
 filter-key-required = Jums jāizvēlas adresāta atslēga.
+# Variables:
+# $desc (String) - Email address to look for a key of.
 filter-key-not-found = Neizdevās atrast '{ $desc }' šifrēšanas atslēgu.
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     Brīdinājums - filtrēšanas darbība "Šifrēt uz atslēgu" aizstāj adresātus.
     Ja jums nav slepenās atslēgas priekš '{ $desc }', jūs vairs nevarēsiet lasīt šos epastus.
 
 ## Strings filtersWrapper.jsm
 
-# Strings filtersWrapper.jsm
+
+## Strings filtersWrapper.sys.mjs
+
 filter-decrypt-move-label = Atšifrēt pastāvīgi (OpenPGP)
 filter-decrypt-copy-label = Izveidot atšifrētu kopiju (OpenPGP)
 filter-encrypt-label = Šifrēt uz atslēgu (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-# Strings in enigmailKeyImportInfo.js
-import-info-title =
-    .title = Atslēgas importētas veiksmīgi!
 import-info-dialog-title = Atslēgas importētas veiksmīgi!
 import-info-bits = Biti
 import-info-created = Izveidots
@@ -353,11 +373,12 @@ import-info-no-keys = Nav importētu atslēgu.
 
 ## Strings in enigmailKeyManager.js
 
-# Strings in enigmailKeyManager.js
 import-from-clip = Vai vēlaties importēt dažas atslēgas no starpliktuves?
 import-from-url = Lejuplādēt publisko atslēgu no šī URL:
 copy-to-clipbrd-failed = Neizdevās nokopēt atlasītās atslēgas uz starpliktuvi.
 copy-to-clipbrd-ok = Atslēga(-s) iekopēta(-s) starpliktuvē
+# Variables:
+# $userId (String) - User id of the key.
 delete-secret-key =
     BRĪDINĀJUMS: Jūs gatavojaties izdzēst slepeno atslēgu!
     
@@ -371,6 +392,8 @@ delete-mix =
     Izdzēšot slepeno atslēgu, jūs vairs nevarēsit atšifrēt nevienu šai atslēgai šifrētu vēstuli.
     
     Vai tiešām vēlaties izdzēst ABAS: slepeno un publisko atslēgu?
+# Variables:
+# $userId (String) - User id of the key.
 delete-pub-key =
     Vai vēlaties izdzēst publisko atslēgu
     '{ $userId }'?
@@ -391,6 +414,8 @@ default-pub-key-filename = Eksportētās-publiskās-atslēgas
 default-pub-sec-key-filename = Slepeno-atslēgu-dublējums
 refresh-key-warn = Brīdinājums: atkarībā no atslēgu skaita un savienojuma ātruma visu atslēgu atsvaidzināšana var būt diezgan ilgs process!
 preview-failed = Neizdevās nolasīt publiskās atslēgas failu.
+# Variables:
+# $reason (String) - Error description.
 general-error = Kļūda: { $reason }
 dlg-button-delete = &Dzēst
 
@@ -406,7 +431,12 @@ openpgp-export-secret-fail = <b>Neizdevās eksportēt atlasīto slepeno atslēgu
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
 ## $keyId (String) - Key id for the key entry.
 
-# Strings in keyObj.jsm
+
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
 key-ring-pub-key-revoked = Atslēga { $userId } (atslēgas ID { $keyId }) ir atsaukta.
 key-ring-pub-key-expired = Atslēga { $userId } (atslēgas ID { $keyId }) ir beigusies.
 key-ring-no-secret-key = Šķiet, ka jūsu atslēgu saišķī nav { $userId } (atslēgas ID { $keyId }) slepenās atslēgas; jūs nevarat to izmantot parakstīšanai.
@@ -419,13 +449,17 @@ key-ring-enc-sub-keys-expired = Visas atslēgas { $userId } (atslēgas ID { $key
 
 ## Strings in gnupg-keylist.jsm
 
-# Strings in gnupg-keylist.jsm
+
+## Strings in gnupg-keylist.sys.mjs
+
 keyring-photo = Foto
 user-att-photo = Lietotāja atribūts (JPEG attēls)
 
 ## Strings in key.jsm
 
-# Strings in key.jsm
+
+## Strings in key.sys.mjs
+
 already-revoked = Šī atslēga jau ir atsaukta.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
@@ -448,7 +482,9 @@ after-revoke-info =
 
 ## Strings in keyRing.jsm & decryption.jsm
 
-# Strings in keyRing.jsm & decryption.jsm
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
+
 key-man-button-import = &Importēt
 delete-key-title = Dzēst OpenPGP atslēgu
 delete-external-key-title = Noņemt ārēju GnuPG atslēgu
@@ -459,38 +495,57 @@ revoke-key-in-use-description = Nevar turpināt! Šī identitāte pašlaik izman
 
 ## Strings used in errorHandling.jsm
 
-# Strings used in errorHandling.jsm
+
+## Strings used in errorHandling.sys.mjs
+
+# Variables:
+# $keySpec (String) - Email address.
 key-error-key-spec-not-found = Epasta adrese '{ $keySpec }' neatbilst nevienai atslēgai jūsu atslēgu saišķī.
+# $keySpec (String) - Key id.
 key-error-key-id-not-found = Iestatītais atslēgas ID '{ $keySpec }' jūsu atslēgu saišķī nav atrodams.
+# $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Jūs neesat apstiprinājis, ka atslēga ar ID '{ $keySpec }' ir jūsu personīgā atslēga.
 
 ## Strings used in enigmailKeyManager.js & windows.jsm
 
-# Strings used in enigmailKeyManager.js & windows.jsm
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
 need-online = Jūsu izvēlētā darbība nav pieejama nesaistes režīmā. Lūdzu, dodieties tiešsaistē un mēģiniet vēlreiz.
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
 
 
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
+
+
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
-# Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+## Strings used in keyRing.sys.mjs
+
 fail-key-extract = Kļūda - atslēgas izvilkšanas komanda neizdevās
 
 ## Strings used in keyRing.jsm
 
-# Strings used in keyRing.jsm
+
+## Strings used in keyRing.sys.mjs
+
 fail-cancel = Kļūda - lietotājs atcēla atslēgas saņemšanu
 not-first-block = Kļūda - pirmais OpenPGP bloks nav publiskās atslēgas bloks
 import-key-confirm = Vai importēt vēstulē iekļauto(-ās) publisko(-ās) atslēgu(-as)?
 fail-key-import = Kļūda - atslēgas importēšana neizdevās
+# Variables:
+# $output (String) - File that writing was attempted to.
 file-write-failed = Neizdevās rakstīt failā { $output }
 no-pgp-block = Kļūda - nav atrasts derīgs bruņots OpenPGP datu bloks
 confirm-permissive-import = Importēšana neizdevās. Importējamā atslēga var būt bojāta vai izmantot nezināmus atribūtus. Vai vēlaties mēģināt importēt pareizās daļas? Var gadīties, ka tad tiks importētas nepilnīgas un nelietojamas atslēgas.
 
 ## Strings used in trust.jsm
 
-# Strings used in trust.jsm
+
+## Strings used in trust.sys.mjs
+
 key-valid-unknown = nezināms
 key-valid-invalid = nederīgs
 key-valid-disabled = liegts
@@ -504,7 +559,6 @@ key-trust-group = (grupa)
 
 ## Strings used in commonWorkflows.js
 
-# Strings used in commonWorkflows.js
 import-key-file = Importēt OpenPGP atslēgas failu
 import-rev-file = Importēt OpenPGP atsaukšanas failu
 gnupg-file = GnuPG faili
@@ -513,7 +567,6 @@ file-to-big-to-import = Šis fails ir pārāk liels. Lūdzu, neimportējiet uzre
 
 ## Strings used in enigmailKeygen.js
 
-# Strings used in enigmailKeygen.js
 save-revoke-cert-as = Izveidot un saglabāt atsaukšanas sertifikātu
 revoke-cert-ok = Atsaukšanas sertifikāts ir veiksmīgi izveidots. Varat to izmantot, lai noliegtu savu publisko atslēgu, piem., gadījumā, kad jūs pazaudējat slepeno atslēgu.
 revoke-cert-failed = Atsaukšanas sertifikātu neizdevās izveidot.
@@ -521,6 +574,8 @@ gen-going = Atslēgu ģenerēšana jau notiek!
 keygen-missing-user-name = Atlasītajam kontam/identitātei nav norādīts nosaukums. Lūdzu, ievadiet vērtību konta iestatījumu laukā "Jūsu vārds".
 expiry-too-short = Jūsu atslēgai jābūt derīgai vismaz vienu dienu.
 expiry-too-long = Jūs nevarat izveidot atslēgu, kuras derīguma termiņš ir ilgāks par 100 gadiem.
+# Variables:
+# $id (String) - Name and/or email address to generate keys for.
 key-confirm = Vai ģenerēt '{ $id }' publisko un slepeno atslēgu?
 key-man-button-generate-key = &Ģenerēt atslēgu
 key-abort = Pārtraukt atslēgu ģenerēšanu?
@@ -531,9 +586,17 @@ key-man-button-generate-key-continue = &Turpināt atslēgu ģenerēšanu
 
 failed-decrypt = Kļūda - atšifrēšana neizdevās
 fix-broken-exchange-msg-failed = Neizdevās izlabot šo vēstuli.
+# Variables:
+# $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Neizdevās pielikumā pievienot paraksta failu '{ $attachment }'
+# Variables:
+# $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Neizdevās piemērot pielikumu '{ $attachment }' paraksta failam
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verified-ok = Pielikuma { $attachment } paraksts ir veiksmīgi pārbaudīts
+# Variables:
+# $attachment (String) - File name of the attachment
 signature-verify-failed = Neizdevās pārbaudīt parakstu pielikumam { $attachment }
 decrypt-ok-no-sig =
     Brīdinājums!
@@ -543,14 +606,21 @@ enig-content-note = *Pielikumi šai vēstulei nav parakstīti un šifrēti*
 
 ## Strings used in enigmailMsgComposeOverlay.js
 
-# Strings used in enigmailMsgComposeOverlay.js
 msg-compose-button-send = &Sūtīt vēstuli
 msg-compose-details-button-label = Detaļas…
 msg-compose-details-button-access-key = D
 send-aborted = Sūtīšana ir pārtraukta.
+# Variables:
+# $key (String) - Key id.
 key-not-trusted = Nepietiek uzticības atslēgai '{ $key }'
+# Variables:
+# $key (String) - Key id.
 key-not-found = Atslēga '{ $key }' nav atrasta
+# Variables:
+# $key (String) - Key id.
 key-revoked = Atslēga '{ $key }' ir atsaukta
+# Variables:
+# $key (String) - Key id.
 key-expired = Atslēga '{ $key }' ir beigusies
 msg-compose-internal-error = Radās iekšēja kļūda.
 keys-to-export = Atlasiet ievietojamās OpenPGP atslēgas
@@ -562,75 +632,80 @@ msg-compose-partially-encrypted-short = Sargieties no privātas informācijas no
 quoted-printable-warn =
     Vēstules sūtīšanai esat ieslēdzis 'citētu-izdrukājamu' kodējumu. Tas var izraisīt nepareizu vēstules atšifrēšanu un/vai pārbaudi.
     Vai vēlaties izslēgt  'citētu-izdrukājamu' vēstuļu sūtīšanu?
+# Variables:
+# $width (Number) - Number of characters per line.
 minimal-line-wrapping =
     Jūs esat iestatījis rindu aplaušana pie { $width } rakstzīmēm. Lai pareizi šifrētu un/vai parakstītu, šai vērtībai jābūt vismaz 68.
     Vai vēlaties mainīt rindu aplaušanu uz 68 rakstzīmēm?
-sending-news =
-    Šifrētā sūtīšanas darbība ir pārtraukta.
-    Šo vēstuli nevar šifrēt, jo tai ir ziņu grupas adresāti. Lūdzu, nosūtiet vēstuli vēlreiz bez šifrēšanas.
-send-to-news-warning =
-    Brīdinājums: jūs gatavojaties nosūtīt šifrētu epastu ziņu grupai.
-    Tas nav ieteicams, jo tam ir jēga tikai tad, ja visi grupas dalībnieki var to atšifrēt, t.i., vēstule ir jāšifrē ar visu grupas dalībnieku atslēgām. Lūdzu, nosūtiet šo vēstuli tikai tad, ja skaidri zināt, ko darāt.
-    Turpināt?
 save-attachment-header = Saglabāt atšifrēto pielikumu
-possibly-pgp-mime = Iespējams, ar PGP/MIME šifrēta vai parakstīt vēstule; lai pārbaudītu, izmantojiet "Atšifrēt/Pārbaudīt" darbību
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Šo vēstuli nevar digitāli parakstīt, jo vēl neesat iestatījis tiešās saziņas šifrēšanu priekš <{ $key }>
+# Variables:
+# $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Šo vēstuli nevar nosūtīt šifrētu, jo vēl neesat iestatījis tiešās saziņas šifrēšanu priekš <{ $key }>
 
 ## Strings used in decryption.jsm
 
-# Strings used in decryption.jsm
+
+## Strings used in decryption.sys.mjs
+
+# Variables:
+# $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
     Vai importēt šīs atslēgas?
     { $key }
+# Variables:
+# $name (String) - Name and/or email address mentioned in the key.
+# $id (String) - Key id of the key.
 do-import-one = Vai importēt { $name } ({ $id })?
 cant-import = Importējot publisko atslēgu, radās kļūda
 unverified-reply = Iespējams, vēstules atkāptā (atbildes) daļa ir mainīta
 key-in-message-body = Vēstules tekstā ir atrasta atslēga. Lai importētu atslēgu, klikšķiniet uz 'Importēt atslēgu'.
 sig-mismatch = Kļūda - parakstu neatbilstība
 invalid-email = Kļūda - nederīga(-as) epasta adrese(-es)
+# Variables:
+# $name (String) - File name of the attachment.
 attachment-pgp-key =
     Šķiet, ka atveramais pielikums '{ $name }' ir OpenPGP atslēgas fails.
     Lai importētu ietvertās atslēgas, klikšķiniet 'Importēt', vai 'Skatīt', lai skatītu faila saturu pārlūkā.
 dlg-button-view = &Skatīt
 
-## Strings used in enigmailMsgHdrViewOverlay.js
-
-# Strings used in enigmailMsgHdrViewOverlay.js
-decrypted-msg-with-format-error = Atšifrētā vēstule (atjaunots bojāts PGP epasta formāts, ko, iespējams, izraisījis vecs Exchange serveris, tāpēc rezultāts varētu nebūt ideāls lasīšanai)
-
 ## Strings used in encryption.jsm
 
-# Strings used in encryption.jsm
+
+## Strings used in encryption.sys.mjs
+
 not-required = Kļūda - šifrēšana nav nepieciešama
 
 ## Strings used in windows.jsm
 
-# Strings used in windows.jsm
+
+## Strings used in windows.sys.mjs
+
 no-photo-available = Foto nav pieejams
+# Variables:
+# $photo (String) - Path of the photo in the key.
 error-photo-path-not-readable = Foto ceļš '{ $photo }' nav lasāms
 debug-log-title = OpenPGP atkļūdošanas žurnāls
 
 ## Strings used in dialog.jsm
 
-# Strings used in dialog.jsm
-repeat-prefix = Šis brīdinājums atkārtosies { $count }
-repeat-suffix-singular = reizi.
-repeat-suffix-plural = reizes.
-no-repeat = Šis brīdinājums vairs netiks rādīts.
-dlg-keep-setting = Atcerēties atbildi un vairs nejautāt
+
+## Strings used in dialog.sys.mjs
+
 dlg-button-ok = &LABI
 dlg-button-close = &Aizvērt
 dlg-button-cancel = At&celt
 dlg-no-prompt = Turpmāk vairs nerādīt šo dialogu.
 enig-prompt = OpenPGP uzvedne
 enig-confirm = OpenPGP apstiprinājums
-enig-alert = OpenPGP brīdinājums
-enig-info = OpenPGP informācija
 
 ## Strings used in persistentCrypto.jsm
 
-# Strings used in persistentCrypto.jsm
+
+## Strings used in persistentCrypto.sys.mjs
+
 dlg-button-retry = &Atkārtot
 dlg-button-skip = &Izlaist
 

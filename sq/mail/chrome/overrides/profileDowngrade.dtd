@@ -10,7 +10,6 @@
  given Thunderbird channel". These terms are not synonymous.
 -->
 <!ENTITY window.title "Nisët një version të vjetër të &brandProductName;-it">
-<!ENTITY window.style "width: 490px;">
 
 <!ENTITY window.nosync2 "Një version më i ri i &brandProductName;-it mund të ketë bërë te profili juaj ndryshime që s’janë më të përputhshme me këtë version më të vjetër. Përdoreni këtë profil vetëm me atë version të ri, ose krijoni një profil të ri për këtë instalim të &brandShortName;-it. Krijimi i një profili të ri lyp ujdisjen sërish të llogarive tuaja, kalendarëve dhe shtesave.">
 

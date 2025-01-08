@@ -21,22 +21,6 @@ update-unsupported = Anda tidak boleh lagi melaksanakan kemaskini dalam sistem i
 channel-description = Anda sedang berada dalam <span data-l10n-name="current-channel">{ $channel }</span> saluran kemaskini.
 warning-desc-version = { -brand-short-name } masih dalam percubaan dan mungkin tidak stabil.
 warning-desc-telemetry = Maklumat prestasi, perkakasan, penggunaan dan penyesuaian dihantar secara automatik ke { -vendor-short-name } untuk membantu menjadikan { -brand-short-name } lebih baik.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     adalah <a data-l10n-name="community-exp-credits-link">
-    komuniti global</a>
-     bekerjasama supaya Web ini terbuka kepada umum dan boleh diakses oleh semua.
-community-2 =
-    { -brand-short-name } direka oleh <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , sebuah <a data-l10n-name="community-credits-link">
-    komuniti global</a>
-     bekerjasama supaya Web ini terbuka kepada umum dan boleh diakses oleh semua.
-about-helpus =
-    Mahu membantu? <a data-l10n-name="helpus-donate-link">
-    Hulurkan sumbangan</a> or <a data-l10n-name="helpus-get-involved-link">
-    sertainya!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> adalah <a data-l10n-name="community-exp-credits-link">komuniti global</a> bekerjasama supaya Web ini terbuka kepada umum dan boleh diakses oleh semua.
 community-desc = { -brand-short-name } direka oleh <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, sebuah <a data-l10n-name="community-credits-link">komuniti global</a> bekerjasama supaya Web ini terbuka kepada umum dan boleh diakses oleh semua.
 about-donation = Mahu membantu? <a data-l10n-name="helpus-donate-link">Hulurkan sumbangan</a> or <a data-l10n-name="helpus-get-involved-link">sertainya!</a>

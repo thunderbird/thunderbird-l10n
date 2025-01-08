@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Skoazeller kontoù">
-<!ENTITY accountWizard.size "width: 50em; height: 40em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Roit anv ho tafariad strolladoù-keleier (NNTP) (&quot;news.skouer.net&quot; da skouer).">
 <!ENTITY newsServerLabel.label "Dafariad strolladoù-keleier :">
 <!ENTITY newsServerLabel.accesskey "D">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

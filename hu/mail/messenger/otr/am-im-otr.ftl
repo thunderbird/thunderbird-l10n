@@ -21,6 +21,4 @@ otr-require-encryption-info =
     üzenetek nem jelennek meg a szokásos beszélgetés részeként, és nem lesznek naplózva.
 otr-verify-nudge =
     .label = Mindig emlékeztessen az ellenőrizetlen kapcsolatok ellenőrzésére
-
 otr-not-yet-available = még nem érhető el
-

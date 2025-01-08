@@ -4,20 +4,14 @@
 
 <!-- Entities for AccountWizard -->
 
-
 <!ENTITY windowTitle.label "Hisob ustasi">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
-
-<!-- Entities for Account Type page -->
-
 
 <!-- Entities for Identity page -->
 
-
 <!ENTITY identityTitle.label "Tasdiqdan o‘tkazish">
 <!ENTITY identityDesc.label "Har bir hisobda boshqalar sizning xabarlaringizni olganga sizni tanishtiradigan ma’lumot – ya’ni shaxsiyatingiz haqida ma’lumotlar bor.">
-<!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 
+<!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Chiquvchi xabarlar uchun &quot;Jo‘natuvchi&quot; maydonida ko‘rinadigan nomingizni kiriting.">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
@@ -32,7 +26,6 @@
 
 <!-- Entities for Incoming Server page -->
 
-
 <!ENTITY incomingTitle.label "Kiruvchi server ma’lumoti">
 <!ENTITY incomingUsername.label "Foydalanuvchi nomi:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
@@ -40,15 +33,7 @@
 <!ENTITY newsServerLabel.label "Yangiliklar to‘plami serveri:">
 <!ENTITY newsServerLabel.accesskey "s">
 
-<!-- Entities for Outgoing Server page -->
-
-
-<!-- LOCALIZATION NOTE (modifyOutgoing.suffix) : This string will be appended after each of
-     haveSmtp1.suffix3, haveSmtp2.suffix3, haveSmtp3.suffix3 .
--->
-
 <!-- Entities for Account name page -->
-
 
 <!ENTITY accnameTitle.label "Hisob nomi">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
@@ -57,7 +42,6 @@
 <!ENTITY accnameLabel.accesskey "n">
 
 <!-- Entities for Done (Congratulations) page -->
-
 
 <!ENTITY completionTitle.label "Tabriklaymiz!">
 <!ENTITY completionText.label "Quyida keltirilgan ma’lumotning to‘g‘ri ekanligiga ishonch hosil qiling.">

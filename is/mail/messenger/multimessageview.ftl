@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Póstsamantekt
-selected-messages-label =
-    .label = Valinn póstur
 multi-message-archive-button =
     .label = Skjalageymsla
     .tooltiptext = Skjalageymsla

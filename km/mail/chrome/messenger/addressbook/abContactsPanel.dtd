@@ -16,6 +16,7 @@
 <!ENTITY deleteAddrBookCard.label           "លុប​">
 <!ENTITY deleteAddrBookCard.accesskey       "D">
 
+
 <!ENTITY toButton.label                     "Add to To:">
 <!ENTITY toButton.accesskey                 "A">
 <!ENTITY ccButton.label                     "Add to Cc:">

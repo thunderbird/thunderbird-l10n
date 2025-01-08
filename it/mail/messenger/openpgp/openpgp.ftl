@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Scadenza
 openpgp-key-id-label =
     .label = ID chiave
-openpgp-cannot-change-expiry = Questa chiave ha una struttura complessa, la modifica della data di scadenza non è supportata.
-openpgp-key-man-title =
-    .title = Gestore delle chiavi OpenPGP
 openpgp-key-man-dialog-title = Gestore delle chiavi OpenPGP
 openpgp-key-man-generate =
     .label = Nuova coppia di chiavi
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Certificato di revoca
     .accesskey = r
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Genera e salva il certificato di revoca
 openpgp-key-man-gen-revocation =
     .label = Salva certificato di revoca in un file
     .accesskey = S
@@ -489,8 +484,6 @@ filter-encrypt-label = Critta su chiave (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Chiavi importate correttamente.
 import-info-dialog-title = Chiavi importate correttamente.
 import-info-bits = Bit
 import-info-created = Data di creazione
@@ -649,9 +642,6 @@ no-update-found = Hai già le chiavi che sono state trovate online.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Errore: comando di estrazione chiave non riuscito
@@ -782,15 +772,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Il ritorno a capo è impostato a { $width } caratteri. Per crittare o firmare correttamente, questo valore deve essere di almeno 68 caratteri.
     Impostare il ritorno a capo a 68 caratteri?
-sending-news =
-    Operazione di invio crittato interrotta.
-    Questo messaggio non può essere crittato perché sono presenti destinatari di un newsgroup. Si prega di inviare nuovamente il messaggio senza crittografia.
-send-to-news-warning =
-    Attenzione: si sta per inviare un’email crittata a un newsgroup.
-    Questo operazione è sconsigliata perché ha senso solo se tutti i membri del gruppo possono decrittare il messaggio, ovvero il messaggio deve essere crittato con le chiavi di tutti i partecipanti al gruppo. Inviare questo messaggio solo se si sa esattamente che cosa si sta facendo.
-    Continuare?
 save-attachment-header = Salva allegato decrittato
-possibly-pgp-mime = Probabilmente il messaggio è crittato o firmato con PGP/MIME: utilizzare la funzione “Decritta/Verifica“
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Impossibile firmare digitalmente questo messaggio perché non è stata ancora configurata la crittografia end-to-end per <{ $key }>
@@ -844,15 +826,6 @@ debug-log-title = Log di debug OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Questo avviso verrà ripetuto { $count }
-repeat-suffix-singular = altra volta.
-repeat-suffix-plural = altre volte.
-no-repeat = Questo avviso non verrà più visualizzato.
-dlg-keep-setting = Ricorda la risposta e non chiedere nuovamente
 
 ## Strings used in dialog.sys.mjs
 
@@ -862,8 +835,6 @@ dlg-button-cancel = &Annulla
 dlg-no-prompt = Non mostrare questa richiesta in futuro
 enig-prompt = Richiesta OpenPGP
 enig-confirm = Conferma OpenPGP
-enig-alert = Avviso OpenPGP
-enig-info = Informazioni OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 

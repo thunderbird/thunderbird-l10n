@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "V">
 <!ENTITY newVirtualFolderCmd.label "Opgeslagen zoekopdracht…">
 <!ENTITY newVirtualFolderCmd.accesskey "O">
-<!ENTITY newCreateEmailAccountCmd.label "Nieuwe e-mailaccount verkrijgen…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "N">
-<!ENTITY newExistingEmailAccountCmd.label "Bestaande e-mailaccount…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "e">
 <!ENTITY newIMAccountCmd.label "Chataccount…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "Feedaccount…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Bericht verwijderen">
-<!ENTITY deleteMsgCmd.accesskey "v">
-<!ENTITY undeleteMsgCmd.label "Bericht verwijderen ongedaan maken">
-<!ENTITY undeleteMsgCmd.accesskey "V">
-<!ENTITY deleteMsgsCmd.label "Geselecteerde berichten verwijderen">
-<!ENTITY deleteMsgsCmd.accesskey "w">
-<!ENTITY undeleteMsgsCmd.label "Verwijderen van geselecteerde berichten ongedaan maken">
-<!ENTITY undeleteMsgsCmd.accesskey "V">
-<!ENTITY deleteFolderCmd.label "Map verwijderen">
-<!ENTITY deleteFolderCmd.accesskey "M">
-<!ENTITY unsubscribeNewsgroupCmd.label "Abonnement opzeggen">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "A">
 <!ENTITY selectMenu.label "Selecteren">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Alle">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "s">
 <!ENTITY menuFavoriteFolder.label "Favoriete map">
 <!ENTITY menuFavoriteFolder.accesskey "F">
-<!ENTITY folderPropsCmd2.label "Eigenschappen">
-<!ENTITY folderPropsFolderCmd2.label "Mapeigenschappen">
-<!ENTITY folderPropsNewsgroupCmd2.label "Nieuwsgroepeigenschappen">
-<!ENTITY folderPropsCmd.accesskey "E">
 <!ENTITY undoDeleteMsgCmd.label "Bericht verwijderen ongedaan maken">
 <!ENTITY redoDeleteMsgCmd.label "Bericht verwijderen opnieuw uitvoeren">
 <!ENTITY undoMoveMsgCmd.label "Bericht verplaatsen ongedaan maken">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Mappenpaneel">
 <!ENTITY showFolderPaneCmd.accesskey "M">
-<!ENTITY showFolderPaneColsCmd.label "Mappenpaneelkolommen">
-<!ENTITY showFolderPaneColsCmd.accesskey "o">
 <!ENTITY showMessageCmd.label "Berichtpaneel">
 <!ENTITY showMessageCmd.accesskey "e">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nieuw bericht">
 <!ENTITY appmenuNewContactCmd.label "Adresboekcontact…">
-<!ENTITY appmenuEditMenu.label "Bewerken">
 <!ENTITY appmenuToolbarLayout.label "Werkbalkindeling…">
-<!ENTITY appmenuSelectThread.label "Conversatie selecteren">
-<!ENTITY appmenuSelectFlagged.label "Berichten met ster selecteren">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nieuw label…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "p">
 <!ENTITY folderContextMarkNewsgroupRead.label "Nieuwsgroep als gelezen markeren">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "m">
-<!ENTITY folderContextMarkMailFolderRead.label "Map als gelezen markeren">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "m">
 <!ENTITY folderContextSubscribe.label "Abonneren…">
 <!ENTITY folderContextSubscribe.accesskey "A">
 <!ENTITY folderContextSearchForMessages.label "Berichten zoeken…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "e">
 <!ENTITY contextReplyList.label "Lijst beantwoorden">
 <!ENTITY contextReplyList.accesskey "i">
-<!ENTITY contextForward.label "Doorsturen">
-<!ENTITY contextForward.accesskey "s">
-<!ENTITY contextForwardAsMenu.label "Doorsturen als">
-<!ENTITY contextForwardAsMenu.accesskey "t">
-<!ENTITY contextForwardAsInline.label "In het bericht">
-<!ENTITY contextForwardAsInline.accesskey "I">
-<!ENTITY contextForwardAsAttachmentItem.label "Bijlage">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "B">
-<!ENTITY contextMultiForwardAsAttachment.label "Doorsturen als bijlagen">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "s">
 <!ENTITY contextMoveMsgMenu.label "Verplaatsen naar">
 <!ENTITY contextMoveMsgMenu.accesskey "r">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Recent">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "o">
 <!ENTITY copyEmailCmd.label "E-mailadres kopiëren">
 <!ENTITY copyEmailCmd.accesskey "m">
-<!ENTITY stopCmd.label "Stoppen">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Vernieuwen">
-<!ENTITY reloadCmd.accesskey "V">
 <!ENTITY openInBrowser.label "Openen in browser">
 <!ENTITY openInBrowser.accesskey "O">
 <!ENTITY openLinkInBrowser.label "Koppeling openen in browser">

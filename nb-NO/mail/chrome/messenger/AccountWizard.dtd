@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Kontoveiviser">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Skriv inn navnet på nyhetsgruppeserveren (NNTP) (for eksempel «news.example.net»).">
 <!ENTITY newsServerLabel.label "Nyhetsgruppeserver:">
 <!ENTITY newsServerLabel.accesskey "s">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

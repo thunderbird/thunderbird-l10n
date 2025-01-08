@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Čarobnjak za postavljanje računa">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Upišite ime poslužitelja interesnih grupa (NNTP) (na primjer, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Poslužitelj interesnih grupa:">
 <!ENTITY newsServerLabel.accesskey "n">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

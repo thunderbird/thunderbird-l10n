@@ -6,6 +6,6 @@
 <!ENTITY  newMessageCmd.key               "M">
 <!ENTITY  newMessageCmd.label             "Mezua">
 <!ENTITY  newMessageCmd.accesskey         "M">
- 
+
 <!ENTITY  newContactCmd.label             "Helbide-liburu kontaktua…">
 <!ENTITY  newContactCmd.accesskey         "k">

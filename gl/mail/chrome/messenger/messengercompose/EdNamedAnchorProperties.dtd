@@ -6,5 +6,3 @@
 <!ENTITY anchorNameEditField.label "Nome da áncora:">
 <!ENTITY anchorNameEditField.accessKey "N">
 <!ENTITY nameInput.tooltip "Introducir un nome único para esta áncora con nome (destino)">
-
-

@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Lisää henkilökohtainen OpenPGP-avain osoitteelle { $identity }
-key-wizard-button =
-    .buttonlabelaccept = Jatka
-    .buttonlabelhelp = Takaisin
 key-wizard-dialog =
     .buttonlabelaccept = Jatka
     .buttonlabelextra1 = Takaisin
@@ -106,8 +103,6 @@ openpgp-import-key-list-caption = Avaimet, jotka on merkitty käsiteltäväksi h
 openpgp-import-keep-passphrases =
     .label = Säilytä tunnuslausesuojaus tuoduille salaisille avaimille
 openpgp-passphrase-prompt-title = Salalause vaaditaan
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Kirjoita salalause avataksesi seuraavan avaimen: { $key }
 openpgp-import-key-button =
     .label = Valitse tuotava tiedosto…
     .accesskey = V

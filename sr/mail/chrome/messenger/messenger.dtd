@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "и">
 <!ENTITY newVirtualFolderCmd.label "Сачувана претрага…">
 <!ENTITY newVirtualFolderCmd.accesskey "а">
-<!ENTITY newCreateEmailAccountCmd.label "Набавите нови е-налог…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "г">
-<!ENTITY newExistingEmailAccountCmd.label "Постојећи е-налог…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "П">
 <!ENTITY newIMAccountCmd.label "Налог за ћаскање…">
 <!ENTITY newIMAccountCmd.accesskey "л">
 <!ENTITY newFeedAccountCmd.label "Налог за довод…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Обриши поруку">
-<!ENTITY deleteMsgCmd.accesskey "О">
-<!ENTITY undeleteMsgCmd.label "Врати обрисану поруку">
-<!ENTITY undeleteMsgCmd.accesskey "т">
-<!ENTITY deleteMsgsCmd.label "Обриши изабране поруке">
-<!ENTITY deleteMsgsCmd.accesskey "О">
-<!ENTITY undeleteMsgsCmd.label "Врати изабране обрисане поруке">
-<!ENTITY undeleteMsgsCmd.accesskey "т">
-<!ENTITY deleteFolderCmd.label "Обриши фасциклу">
-<!ENTITY deleteFolderCmd.accesskey "О">
-<!ENTITY unsubscribeNewsgroupCmd.label "Укини претплату">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "к">
 <!ENTITY selectMenu.label "Изабери">
 <!ENTITY selectMenu.accesskey "И">
 <!ENTITY all.label "Све">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "з">
 <!ENTITY menuFavoriteFolder.label "Омиљена фасцикла">
 <!ENTITY menuFavoriteFolder.accesskey "ц">
-<!ENTITY folderPropsCmd2.label "Својства">
-<!ENTITY folderPropsFolderCmd2.label "Својства фасцикле">
-<!ENTITY folderPropsNewsgroupCmd2.label "Својства новинске групе">
-<!ENTITY folderPropsCmd.accesskey "о">
 <!ENTITY undoDeleteMsgCmd.label "Опозови брисање поруке">
 <!ENTITY redoDeleteMsgCmd.label "Понови брисање поруке">
 <!ENTITY undoMoveMsgCmd.label "Опозови померање поруке">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "В">
 <!ENTITY showFolderPaneCmd.label "Окно фасцикле">
 <!ENTITY showFolderPaneCmd.accesskey "ф">
-<!ENTITY showFolderPaneColsCmd.label "Колоне окна фасцикле">
-<!ENTITY showFolderPaneColsCmd.accesskey "о">
 <!ENTITY showMessageCmd.label "Окно поруке">
 <!ENTITY showMessageCmd.accesskey "О">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Нова порука">
 <!ENTITY appmenuNewContactCmd.label "Контакт у именику…">
-<!ENTITY appmenuEditMenu.label "Уреди">
 <!ENTITY appmenuToolbarLayout.label "Распоред алатних трака…">
-<!ENTITY appmenuSelectThread.label "Изабери нит">
-<!ENTITY appmenuSelectFlagged.label "Изабери поруке са звездицом">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Нова ознака…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "У">
 <!ENTITY folderContextMarkNewsgroupRead.label "Обележи новинску групу као прочитану">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "б">
-<!ENTITY folderContextMarkMailFolderRead.label "Обележи фасциклу као прочитану">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "ф">
 <!ENTITY folderContextSubscribe.label "Претплати се…">
 <!ENTITY folderContextSubscribe.accesskey "т">
 <!ENTITY folderContextSearchForMessages.label "Претражи поруке…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "в">
 <!ENTITY contextReplyList.label "Одговори на листу">
 <!ENTITY contextReplyList.accesskey "л">
-<!ENTITY contextForward.label "Проследи">
-<!ENTITY contextForward.accesskey "р">
-<!ENTITY contextForwardAsMenu.label "Проследи као">
-<!ENTITY contextForwardAsMenu.accesskey "к">
-<!ENTITY contextForwardAsInline.label "Текст унутар поруке">
-<!ENTITY contextForwardAsInline.accesskey "Т">
-<!ENTITY contextForwardAsAttachmentItem.label "Прилог">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "П">
-<!ENTITY contextMultiForwardAsAttachment.label "Проследи као прилоге">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "о">
 <!ENTITY contextMoveMsgMenu.label "Помери у">
 <!ENTITY contextMoveMsgMenu.accesskey "П">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Скорашње">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "л">
 <!ENTITY copyEmailCmd.label "Копирај мејл адресу">
 <!ENTITY copyEmailCmd.accesskey "е">
-<!ENTITY stopCmd.label "Прекини">
-<!ENTITY stopCmd.accesskey "П">
-<!ENTITY reloadCmd.label "Поново учитај">
-<!ENTITY reloadCmd.accesskey "у">
 <!ENTITY openInBrowser.label "Отвори у прегледачу">
 <!ENTITY openInBrowser.accesskey "О">
 <!ENTITY openLinkInBrowser.label "Отвори везу у прегледачу">

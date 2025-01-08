@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "제거">
 <!ENTITY encryption.certificate_clear.accesskey "e">
 <!ENTITY signingGroupTitle.label "디지털 서명">
-
 <!ENTITY signingCert2.message "디지털 서명을 위한 개인 인증서:">
 
 <!ENTITY sendingDefaults.label "메시지 전송을 위한 기본 설정">

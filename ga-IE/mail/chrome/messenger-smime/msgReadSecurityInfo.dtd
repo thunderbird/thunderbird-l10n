@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgReadSecurityInfo.dtd UI for viewing security status when reading a received message -->
 
-
 <!ENTITY status.label "Slándáil na dTeachtaireachtaí">
 <!ENTITY signatureCert.label "Amharc ar Shíniú Teastais">
 <!ENTITY encryptionCert.label "Amharc ar Theastas Criptiúcháin">
@@ -14,3 +13,4 @@
 <!ENTITY email.address "Seoladh Ríomhphoist:">
 <!ENTITY issuer.name "Teastas eisithe ag:">
 
+<!-- LOCALIZATION NOTE(SMIME.label): This a name for a technical standard. You should not translate it, but if applicable, you may write it using localized characters. -->

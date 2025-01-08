@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = Pielikuma atgādinājuma atslēgvārdi
 attachment-reminder-dialog-title = Pielikuma atgādinājuma atslēgvārdi
 attachment-reminder-label = Ja mēģināsiet nosūtīt epastu ar kādu no šiem atslēgvārdiem, { -brand-short-name } brīdinās par trūkstošajiem pielikumiem.
 keyword-new-button =

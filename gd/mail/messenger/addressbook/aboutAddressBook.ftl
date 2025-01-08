@@ -12,12 +12,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Cuir leabhar-sheòlaidhean CardDAV ris
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Cuir leabhar-sheòlaidhean LDAP ris
-about-addressbook-toolbar-new-contact =
-    .label = Neach-aithne ùr
-about-addressbook-toolbar-new-list =
-    .label = Liosta ùr
-about-addressbook-toolbar-import =
-    .label = Ion-phortaich
 
 ## Books
 
@@ -60,12 +54,6 @@ about-addressbook-confirm-remove-remote-book = A bheil thu cinnteach gu bheil th
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Lorg { $name }
-about-addressbook-search-all =
-    .placeholder = Lorg anns gach leabhar-sheòlaidhean
 about-addressbook-sort-button2 =
     .title = Roghainnean taisbeanadh na liosta
 about-addressbook-name-format-display =
@@ -82,40 +70,12 @@ about-addressbook-sort-email-ascending =
     .label = Seòrsaich a-rèir seòladh a’ phuist-d (A > Z)
 about-addressbook-sort-email-descending =
     .label = Seòrsaich a-rèir seòladh a’ phuist-d (Z > A)
-about-addressbook-horizontal-layout =
-    .label = Cleachd a’ cho-dhealbhachd chòmhnard
-about-addressbook-vertical-layout =
-    .label = Cleachd a’ cho-dhealbhachd inghearach
 about-addressbook-table-layout =
     .label = Co-dhealbhachd mar chlàr
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = Ainm
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Seòlaidhean puist-d
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Àireamhan-fòn
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Seòlaidhean
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = An tiotal
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = An roinn
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Am buidheann
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Leabhar nan seòladh
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-header-generatedname2 = Ainm
     .title = Seòrsaich a-rèir ainm
 about-addressbook-column-label-generatedname2 =
@@ -259,7 +219,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Deasaich dealbh an neach-aithne
 about-addressbook-new-contact-header = Neach-aithne ùr
-about-addressbook-prefer-display-name = B’ fheàrr leam an t-ainm-taisbeanaidh seach bann-cinn na teachdaireachd an-còmhnaidh
 about-addressbook-write-action-button = Sgrìobh
 about-addressbook-event-action-button = Tachartas
 about-addressbook-search-action-button = Lorg

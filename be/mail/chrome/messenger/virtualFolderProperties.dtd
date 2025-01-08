@@ -3,10 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY virtualFolderProperties.title "Новая папка захованага пошуку">
-<!ENTITY name.label "Назва:">
-<!ENTITY name.accesskey "н">
-<!ENTITY description.label "Стварыць як падпапку:">
-<!ENTITY description.accesskey "а">
+<!ENTITY name.label                 "Назва:">
+<!ENTITY name.accesskey             "н">
+<!ENTITY description.label          "Стварыць як падпапку:">
+<!ENTITY description.accesskey      "а">
 
 <!ENTITY searchTermCaption.label "Наладзіць меркі пошуку, якія ўжываюцца для гэтага захованага пошуку:">
 
@@ -16,7 +16,7 @@
 
 <!ENTITY searchOnline.label "Сеткавы пошук (дае найноўшыя вынікі IMAP папак і папак навінаў, аднак павялічвае час адкрыцця папкі)">
 <!ENTITY searchOnline.accesskey "С">
-<!ENTITY newFolderButton.label "Стварыць">
-<!ENTITY newFolderButton.accesskey "т">
-<!ENTITY editFolderButton.label "Абнавіць">
-<!ENTITY editFolderButton.accesskey "А">
+<!ENTITY newFolderButton.label       "Стварыць">
+<!ENTITY newFolderButton.accesskey   "т">
+<!ENTITY editFolderButton.label      "Абнавіць">
+<!ENTITY editFolderButton.accesskey  "А">

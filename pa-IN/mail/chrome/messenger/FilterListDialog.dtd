@@ -11,7 +11,6 @@
 <!ENTITY editButton.accesskey "E">
 <!ENTITY deleteButton.label "ਹਟਾਓ">
 <!ENTITY deleteButton.accesskey "t">
-
 <!ENTITY reorderTopButton "Move to Top">
 <!ENTITY reorderTopButton.accessKey "o">
 <!ENTITY reorderTopButton.toolTip "Rearrange filter so it executes before all others">
@@ -35,7 +34,5 @@
 <!ENTITY folderPickerPrefix.accesskey "c">
 <!ENTITY helpButton.label "ਮੱਦਦ">
 <!ENTITY helpButton.accesskey "H">
-<!ENTITY closeCmd.key "W"> 
-
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Search filters by name…">
-

@@ -11,7 +11,7 @@
 <!ENTITY folderRebuildSummaryFile.explanation    "Sometimes the folder index (.msf) file becomes damaged and messages may appear missing or deleted messages continue showing; repairing the folder may fix these issues.">
 <!ENTITY folderIncludeInGlobalSearch.label       "Include messages in this folder in Global Search results">
 <!ENTITY folderIncludeInGlobalSearch.accesskey   "G">
-     
+
 <!ENTITY retention.label "Retention Policy">
 <!ENTITY retentionUseAccount.label  "Use my account settings">
 <!ENTITY retentionUseAccount.accesskey "U">
@@ -64,4 +64,3 @@
 <!ENTITY sizeOnDisk.label                        "ਡਿਸਕ ਉੱਤੇ ਆਕਾਰ:">
 <!-- LOCALIZATION NOTE: When the size can't be determined, this string is displayed as the size -->
 <!ENTITY sizeUnknown.label                       "ਅਣਜਾਣ">
-

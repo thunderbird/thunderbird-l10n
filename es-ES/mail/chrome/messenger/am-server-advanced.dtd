@@ -3,6 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY serverAdvanced.label "Configuración avanzada de cuentas">
+<!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
 <!ENTITY serverDirectory.label "directorio del servidor IMAP:">
 <!ENTITY serverDirectory.accesskey "d">
 <!ENTITY usingSubscription.label "Mostrar sólo las carpetas suscritas">
@@ -11,6 +12,7 @@
 <!ENTITY dualUseFolders.accesskey "g">
 <!ENTITY maximumConnectionsNumber.label "Número máximo de conexiones del servidor a la caché">
 <!ENTITY maximumConnectionsNumber.accesskey "M">
+<!-- LOCALIZATION NOTE (namespaceDesc.label): Do not translate "IMAP" -->
 <!ENTITY namespaceDesc.label "Estas preferencias especifican los espacios de nombres en su servidor IMAP">
 <!ENTITY personalNamespace.label "Espacio de nombres personal:">
 <!ENTITY personalNamespace.accesskey "P">

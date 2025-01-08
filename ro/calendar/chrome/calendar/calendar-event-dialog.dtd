@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Indică faptul că nu vei accepta contrapropuneri">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Șterge…">
 <!ENTITY  event.menu.item.delete.accesskey                "g">
-<!ENTITY  event.menu.item.page.setup.label                "Aranjare în pagină">
-<!ENTITY  event.menu.item.page.setup.accesskey            "A">
-<!ENTITY  event.menu.item.print.label                     "Tipărește">
-<!ENTITY  event.menu.item.print.accesskey                 "p">
 
 <!ENTITY  event.menu.edit.label                           "Editare">
 <!ENTITY  event.menu.edit.accesskey                       "E">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "e">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Personalizează…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "P">
-<!ENTITY  event.menu.view.showlink.label                  "Afișează linkul asociat">
-<!ENTITY  event.menu.view.showlink.accesskey              "r">
 
 <!ENTITY  event.menu.options.label                            "Opțiuni">
 <!ENTITY  event.menu.options.accesskey                        "O">
@@ -333,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "octombrie" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "noiembrie" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "decembrie" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "La fiecare">
 <!ENTITY event.recurrence.yearly.first.label                 "Prima">
 <!ENTITY event.recurrence.yearly.second.label                "A doua">
@@ -349,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "sâmbătă" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "zi" >
 <!ENTITY event.recurrence.of.label                           "din" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "ianuarie" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "februarie" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "martie" >
@@ -367,7 +360,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Creează" >
 <!ENTITY event.recurrence.appointments.label            "Întâlnire(i)" >
 <!ENTITY event.repeat.until.label                       "Repetă până la/în" >
-<!ENTITY event.recurrence.preview.label                 "Previzualizează">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Invitare participanți">

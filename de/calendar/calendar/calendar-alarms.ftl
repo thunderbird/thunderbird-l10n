@@ -10,12 +10,6 @@ reminder-title-at-start-event = Sobald der Termin beginnt
 reminder-title-at-start-task = Sobald die Aufgabe beginnt
 reminder-title-at-end-event = Sobald der Termin endet
 reminder-title-at-end-task = Sobald die Aufgabe endet
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Zurückstellen für { $unit }
 reminder-custom-origin-begin-before-event = vor Terminbeginn
 reminder-custom-origin-begin-after-event = nach Terminbeginn
 reminder-custom-origin-end-before-event = vor Terminende

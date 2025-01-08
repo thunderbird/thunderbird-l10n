@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Pytaś
-search-bar-item =
-    .label = Pytaś:
 search-bar-item2 =
     .label = Pytaś
 search-bar-placeholder = Pytaś…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Jano tekst
 customize-cancel = Pśetergnuś
 customize-save = Składowaś
 customize-unsaved-changes = Njeskłaźone změny w drugich rumach
-customize-search-bar =
-    .label = Tłocaški symbolowej rědki pytaś…
 customize-search-bar2 =
     .label = Tłocaški symbolowej rědki pytaś
     .placeholder = Tłocaški symbolowej rědki pytaś…

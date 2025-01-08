@@ -383,8 +383,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Kustutamisel või liigutamisel kirja aken/kaart suletakse
     .accesskey = K
-display-name-label =
-    .value = Kuvatav nimi:
 condensed-addresses-label =
     .label = Aadressiraamatus olevate kontaktide puhul näidatakse ainult kuvatavat nime
     .accesskey = k
@@ -530,23 +528,12 @@ third-party-never =
     .label = mitte kunagi
 third-party-visited =
     .label = varem külastatud saitidelt
-keep-label =
-    .value = Säilitatakse kuni:
-    .accesskey = l
-keep-expire =
-    .label = nad aeguvad
-keep-close =
-    .label = { -brand-short-name } suletakse
-keep-ask =
-    .label = küsitakse iga kord
 cookies-button =
     .label = Näita küpsiseid…
     .accesskey = S
 do-not-track-label =
     .label = Saitidele saadetakse signaal, et sa ei soovi olla jälitatud
     .accesskey = s
-learn-button =
-    .label = Rohkem teavet
 dnt-learn-more-button =
     .value = Rohkem teavet
 passwords-description = { -brand-short-name } võib paroolide infot meeles pidada, et sa ei peaks logimisel neid uuesti sisestama.
@@ -563,18 +550,12 @@ primary-password-button =
 forms-primary-pw-fips-title = Sa oled FIPS-režiimis. See eeldab, et sinu ülemparool ei oleks tühi.
 forms-master-pw-fips-desc = Parooli muutmine ebaõnnestus
 junk-description = Määra oma vaikimisi rämpsposti sätted. Kontopõhiseid rämpsposti sätteid saab häälestada konto sätetes.
-junk-label =
-    .label = Kui kirjad märgitakse rämpspostiks:
-    .accesskey = K
 junk-move-label =
     .label = liigutatakse nad konto "Rämpspost" kausta
     .accesskey = l
 junk-delete-label =
     .label = need kustutatakse
     .accesskey = t
-junk-read-label =
-    .label = Rämpspostiks määratud kirjad märgitakse loetuks
-    .accesskey = k
 junk-log-label =
     .label = Kohastuva rämpsposti filtri logimine lubatakse
     .accesskey = f
@@ -717,4 +698,7 @@ search-results-empty-message2 =
 search-results-help-link = Vajad abi? Külasta lehte <a data-l10n-name="url">{ -brand-short-name }i abi</a>
 
 ## Sync Tab
+
+
+## Mobile QR Export Pane
 

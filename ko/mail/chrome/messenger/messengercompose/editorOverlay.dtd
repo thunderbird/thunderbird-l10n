@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "표 설정…">
 <!ENTITY tableProperties.accesskey "o">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "이미지">
 <!ENTITY imageToolbarCmd.tooltip "새 이미지을 삽입하거나 선택된 이미지 편집">
 <!ENTITY hruleToolbarCmd.label "가로선">

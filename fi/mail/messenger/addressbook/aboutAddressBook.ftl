@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Lisää CardDAV-osoitekirja
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Lisää LDAP-osoitekirja
-about-addressbook-toolbar-new-contact =
-    .label = Uusi yhteyshenkilö
-about-addressbook-toolbar-new-list =
-    .label = Uusi lista
-about-addressbook-toolbar-import =
-    .label = Tuo
 books-pane-create-contact-button = Uusi yhteyshenkilö
     .title = Luo uusi yhteyshenkilö
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Haluatko varmasti poistaa osoitek
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Hae osoitekirjasta { $name }
-about-addressbook-search-all =
-    .placeholder = Hae kaikista osoitekirjoista
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -280,7 +268,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Muokkaa yhteyshenkilön kuvaa
 about-addressbook-new-contact-header = Uusi yhteyshenkilö
-about-addressbook-prefer-display-name = Suosi näyttönimeä viestin otsikon sijaan
 about-addressbook-write-action-button = Kirjoita viesti
 about-addressbook-event-action-button = Tapahtuma
 about-addressbook-search-action-button = Etsi

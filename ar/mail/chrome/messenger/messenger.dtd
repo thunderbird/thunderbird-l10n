@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "ذ">
 <!ENTITY newVirtualFolderCmd.label "بحث محفوظ…">
 <!ENTITY newVirtualFolderCmd.accesskey "ح">
-<!ENTITY newCreateEmailAccountCmd.label "احصل على حساب بريد جديد…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "س">
-<!ENTITY newExistingEmailAccountCmd.label "حساب بريد موجود…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "و">
 <!ENTITY newIMAccountCmd.label "حساب دردشة…">
 <!ENTITY newIMAccountCmd.accesskey "ش">
 <!ENTITY newFeedAccountCmd.label "حساب تلقيمات…">
@@ -85,18 +81,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "احذف الرسالة">
-<!ENTITY deleteMsgCmd.accesskey "ح">
-<!ENTITY undeleteMsgCmd.label "ألغِ حذف الرسالة">
-<!ENTITY undeleteMsgCmd.accesskey "ل">
-<!ENTITY deleteMsgsCmd.label "احذف الرسائل المختارة">
-<!ENTITY deleteMsgsCmd.accesskey "ف">
-<!ENTITY undeleteMsgsCmd.label "ألغِ حذف الرسائل المختارة">
-<!ENTITY undeleteMsgsCmd.accesskey "ذ">
-<!ENTITY deleteFolderCmd.label "احذف المجلد">
-<!ENTITY deleteFolderCmd.accesskey "د">
-<!ENTITY unsubscribeNewsgroupCmd.label "ألغِ الاشتراك">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "ت">
 <!ENTITY selectMenu.label "اختر">
 <!ENTITY selectMenu.accesskey "خ">
 <!ENTITY all.label "الكل">
@@ -108,10 +92,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "ة">
 <!ENTITY menuFavoriteFolder.label "مجلد المفضّلات">
 <!ENTITY menuFavoriteFolder.accesskey "ف">
-<!ENTITY folderPropsCmd2.label "الخصائص">
-<!ENTITY folderPropsFolderCmd2.label "خصائص المجلد">
-<!ENTITY folderPropsNewsgroupCmd2.label "خصائص مجموعة البريد">
-<!ENTITY folderPropsCmd.accesskey "م">
 <!ENTITY undoDeleteMsgCmd.label "ألغِ حذف الرسالة">
 <!ENTITY redoDeleteMsgCmd.label "أعِد حذف الرسالة">
 <!ENTITY undoMoveMsgCmd.label "ألغِ نقل الرسالة">
@@ -143,8 +123,6 @@
 <!ENTITY messagePaneVertical.accesskey "ر">
 <!ENTITY showFolderPaneCmd.label "لوحة المجلدات">
 <!ENTITY showFolderPaneCmd.accesskey "م">
-<!ENTITY showFolderPaneColsCmd.label "أعمدة لوحة المجلد">
-<!ENTITY showFolderPaneColsCmd.accesskey "ح">
 <!ENTITY showMessageCmd.label "لوح الرسائل">
 <!ENTITY showMessageCmd.accesskey "ح">
 
@@ -588,10 +566,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "رسالة جديدة">
 <!ENTITY appmenuNewContactCmd.label "جهة اتصال دفتر العناوين…">
-<!ENTITY appmenuEditMenu.label "تحرير">
 <!ENTITY appmenuToolbarLayout.label "تنسيق شريط الأدوات…">
-<!ENTITY appmenuSelectThread.label "اختر نقاشًا">
-<!ENTITY appmenuSelectFlagged.label "اختر الرسائل ذات النجمة">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "وسم جديد…">
@@ -634,8 +609,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "ل">
 <!ENTITY folderContextMarkNewsgroupRead.label "أشِّر المجموعة البريديّة كمقروءة">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "م">
-<!ENTITY folderContextMarkMailFolderRead.label "أشِّر المجلد كمقروء">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "ق">
 <!ENTITY folderContextSubscribe.label "اشترك…">
 <!ENTITY folderContextSubscribe.accesskey "ش">
 <!ENTITY folderContextSearchForMessages.label "ابحث في الرسائل…">
@@ -738,16 +711,6 @@
 <!ENTITY contextReplyAll.accesskey "ر">
 <!ENTITY contextReplyList.label "ردّ على القائمة">
 <!ENTITY contextReplyList.accesskey "ق">
-<!ENTITY contextForward.label "إلى الأمام">
-<!ENTITY contextForward.accesskey "م">
-<!ENTITY contextForwardAsMenu.label "مرّر ك‍">
-<!ENTITY contextForwardAsMenu.accesskey "ك">
-<!ENTITY contextForwardAsInline.label "ضمن المتن">
-<!ENTITY contextForwardAsInline.accesskey "ض">
-<!ENTITY contextForwardAsAttachmentItem.label "مُرفقة">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "م">
-<!ENTITY contextMultiForwardAsAttachment.label "مرِّر كمرفقات">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "م">
 <!ENTITY contextMoveMsgMenu.label "انقل إلى">
 <!ENTITY contextMoveMsgMenu.accesskey "ن">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "حديث">
@@ -892,10 +855,6 @@
 <!ENTITY copyImageAllCmd.accesskey "ص">
 <!ENTITY copyEmailCmd.label "انسخ عنوان البريد الإلكتروني">
 <!ENTITY copyEmailCmd.accesskey "خ">
-<!ENTITY stopCmd.label "أوقِف">
-<!ENTITY stopCmd.accesskey "ف">
-<!ENTITY reloadCmd.label "أعِد التحميل">
-<!ENTITY reloadCmd.accesskey "ح">
 <!ENTITY openInBrowser.label "افتح في المتصفح">
 <!ENTITY openInBrowser.accesskey "ت">
 <!ENTITY openLinkInBrowser.label "افتح الرابط في المتصفح">
@@ -929,4 +888,3 @@
 <!ENTITY openAddressBookDock.label      "افتح دفتر العناوين">
 
 <!-- Content tab Navigation buttons -->
-

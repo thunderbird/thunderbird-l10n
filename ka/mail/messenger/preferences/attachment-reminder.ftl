@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = დანართის შეხსენების საკვანძო სიტყვები
 attachment-reminder-dialog-title = დანართის შეხსენების საკვანძო სიტყვები
 attachment-reminder-label = { -brand-short-name } შეგახსენებთ, გამოტოვებული დანართების შესახებ, თუ რომელიმე ამ საკვანძო სიტყვის შემცველი წერილის გაგზავნას დააპირებთ.
 keyword-new-button =

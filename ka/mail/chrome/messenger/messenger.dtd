@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "კ">
 <!ENTITY newVirtualFolderCmd.label "შენახული ძიება…">
 <!ENTITY newVirtualFolderCmd.accesskey "ძ">
-<!ENTITY newCreateEmailAccountCmd.label "ახალი საფოსტო ანგარიშის შექმნა…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "ფ">
-<!ENTITY newExistingEmailAccountCmd.label "არსებული საფოსტო ანგარიშები…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "ე">
 <!ENTITY newIMAccountCmd.label "სასაუბროს ანგარიში…">
 <!ENTITY newIMAccountCmd.accesskey "ს">
 <!ENTITY newFeedAccountCmd.label "არხის ანგარიში…">
@@ -621,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "უ">
 <!ENTITY folderContextMarkNewsgroupRead.label "ჯგუფის მონიშვნა წაკითხულად">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "კ">
-<!ENTITY folderContextMarkMailFolderRead.label "საქაღალდის მონიშვნა წაკითხულად">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "ქ">
 <!ENTITY folderContextSubscribe.label "გამოწერა…">
 <!ENTITY folderContextSubscribe.accesskey "ო">
 <!ENTITY folderContextSearchForMessages.label "წერილების ძიება…">
@@ -728,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "ყ">
 <!ENTITY contextReplyList.label "პასუხი ჯგუფს">
 <!ENTITY contextReplyList.accesskey "ს">
-<!ENTITY contextForward.label "გადაგზავნა">
-<!ENTITY contextForward.accesskey "დ">
-<!ENTITY contextForwardAsMenu.label "გადაგზავნა როგორც">
-<!ENTITY contextForwardAsMenu.accesskey "ზ">
-<!ENTITY contextForwardAsInline.label "შიდა ტექსტი">
-<!ENTITY contextForwardAsInline.accesskey "ი">
-<!ENTITY contextForwardAsAttachmentItem.label "დანართი">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "დ">
-<!ENTITY contextMultiForwardAsAttachment.label "გადაგზავნა დანართების სახით">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "ზ">
 <!ENTITY contextMoveMsgMenu.label "გადატანა">
 <!ENTITY contextMoveMsgMenu.accesskey "ტ">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "ბოლო">

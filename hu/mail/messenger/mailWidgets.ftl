@@ -4,7 +4,6 @@
 
 apply-current-view-to-menu =
     .label = Jelenlegi nézet alkalmazása…
-
 threadpane-apply-changes-prompt-title = Alkalmazza a módosításokat?
 # Variables:
 #  $name (String): The name of the folder to apply to.
@@ -12,4 +11,3 @@ threadpane-apply-changes-prompt-no-children-text = Alkalmazza a jelenlegi mappa 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 threadpane-apply-changes-prompt-with-children-text = Alkalmazza az aktuális mappa nézetét a(z) { $name } mappára és a gyermekeire?
-

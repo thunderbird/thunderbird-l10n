@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Datum spadnjenja
 openpgp-key-id-label =
     .label = ID kluca
-openpgp-cannot-change-expiry = To jo kluc z kompleksneju strukturu, změnjanje jogo datuma spadnjenja se njepódpěra.
-openpgp-key-man-title =
-    .title = Zastojnik OpenPGP-klucow
 openpgp-key-man-dialog-title = Zastojnik OpenPGP-klucow
 openpgp-key-man-generate =
     .label = Nowy klucowy por
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Wótwołański certifikat
     .accesskey = o
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Wótwołański certifikat napóraś a składowaś
 openpgp-key-man-gen-revocation =
     .label = Zastajeński certifikat do dataje składowaś
     .accesskey = Z
@@ -503,8 +498,6 @@ filter-encrypt-label = Z klucom koděrowaś (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Wuspěch! Kluce su se importěrowali
 import-info-dialog-title = Wuspěch! Kluce su se importěrowali
 import-info-bits = Bity
 import-info-created = Napórany
@@ -664,9 +657,6 @@ no-update-found = Maśo južo kluce, kótarež su se namakali online.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Zmólka - pśikaz klucoweje ekstrakcije njejo se raźił
@@ -797,15 +787,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Sćo nastajił smužkowe łamanje pla { $width } znamuškow. Za korektne koděrowanje a/abo signěrowanje, musy toś ta gódnota nanejmjenjej 68 byś.
     Cośo něnto smužkowe łamanje do 68 znamuškow změniś?
-sending-news =
-    Skoděrowane słanje jo se pśetergnuło.
-    Toś ta powěsć njedajo se koděrowaś, dokulaž njedaju dostowarje diskusijneje kupki. Pšosym sćelśo powěsć znowego bźez skoděrowanja.
-send-to-news-warning =
-    Warnowanje: Cośo skoděrowanu mejlku na diskusijnu kupku pósłaś.
-    Wót togo se wótraźujo, dokulaž to jo jano zmysłapołne, jolic wšykne cłonki kupki mógu powěsć dešifrěrowaś, t. gr. powěsć musy se z klucami wšych wobźělnikow kupki koděrowaś. Pšosym sćelśo toś tu powěsć jano, jolic wěsćo, což cyniśo.
-    Pókšacowaś?
 save-attachment-header = Dešifrěrowany pśidank składowaś
-possibly-pgp-mime = Powěsć jo snaź z PGP/MIME skoděrowana abo signěrowana; wužywajśo funkciju ‚Dešifrěrowaś/Pśeglědowaś‘, aby to pśeglědował
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Toś ta powěsć njedajo se digitalnje signěrowaś, dokulaž hyšći njejsćo konfigurěrował koděrowanje kóńc do kóńca za <{ $key }>
@@ -859,15 +841,6 @@ debug-log-title = Zmólkowy protokol OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Toś ta powěźeńka se hyšći { $count }
-repeat-suffix-singular = raz wóspjetujo.
-repeat-suffix-plural = razow wóspjetujo.
-no-repeat = Toś ta powěźeńka njebuźo se wěcej pokazaś.
-dlg-keep-setting = Mójo wótegrono se spomnjeś a wěcej se njepšašaś
 
 ## Strings used in dialog.sys.mjs
 
@@ -877,8 +850,6 @@ dlg-button-cancel = &Pśetergnuś
 dlg-no-prompt = Toś ten dialog wěcej njepokazaś
 enig-prompt = OpenPGP-napominanje
 enig-confirm = OpenPGP-wobkšuśenje
-enig-alert = OpenPGP-powěźeńka
-enig-info = OpenPGP-informacije
 
 ## Strings used in persistentCrypto.jsm
 

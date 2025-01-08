@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "n">
 <!ENTITY newVirtualFolderCmd.label "Tschertga memorisada…">
 <!ENTITY newVirtualFolderCmd.accesskey "S">
-<!ENTITY newCreateEmailAccountCmd.label "Ir per in nov conto…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "R">
-<!ENTITY newExistingEmailAccountCmd.label "In conto dad e-mail existent…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "E">
 <!ENTITY newIMAccountCmd.label "Conto da chat…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "Conto da feeds…">
@@ -87,20 +83,6 @@
 <!ENTITY printCmd.key "P">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Stizzar il messadi">
-<!ENTITY deleteMsgCmd.accesskey "z">
-<!ENTITY undeleteMsgCmd.label "Restaurar il messadi">
-<!ENTITY undeleteMsgCmd.accesskey "R">
-<!ENTITY deleteMsgsCmd.label "Stizzar ils messadis marcads">
-<!ENTITY deleteMsgsCmd.accesskey "i">
-<!ENTITY undeleteMsgsCmd.label "Restaurar ils messadis marcads">
-<!ENTITY undeleteMsgsCmd.accesskey "c">
-<!ENTITY deleteFolderCmd.label "Stizzar l'ordinatur">
-<!ENTITY deleteFolderCmd.accesskey "z">
-<!ENTITY unsubscribeNewsgroupCmd.label "Annullar l'abunament">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "A">
-
-<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Tscherner">
 <!ENTITY selectMenu.accesskey "h">
 <!ENTITY all.label "Tuts">
@@ -112,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "S">
 <!ENTITY menuFavoriteFolder.label "Ordinatur da favurits">
 <!ENTITY menuFavoriteFolder.accesskey "v">
-<!ENTITY folderPropsCmd2.label "Caracteristicas">
-<!ENTITY folderPropsFolderCmd2.label "Caracteristicas da l'ordinatur">
-<!ENTITY folderPropsNewsgroupCmd2.label "Caracteristicas da la gruppa da discussiun">
-<!ENTITY folderPropsCmd.accesskey "r">
 <!ENTITY undoDeleteMsgCmd.label "Revocar: Stizzar il messadi">
 <!ENTITY redoDeleteMsgCmd.label "Repeter: Stizzar il messadi">
 <!ENTITY undoMoveMsgCmd.label "Revocar: Spustar il messadi">
@@ -147,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "3">
 <!ENTITY showFolderPaneCmd.label "Trav dad ordinaturs">
 <!ENTITY showFolderPaneCmd.accesskey "T">
-<!ENTITY showFolderPaneColsCmd.label "Colonnas en la trav dad ordinaturs">
-<!ENTITY showFolderPaneColsCmd.accesskey "v">
 <!ENTITY showMessageCmd.label "Zona da prevista dals messadis">
 <!ENTITY showMessageCmd.accesskey "p">
 
@@ -598,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nov messadi">
 <!ENTITY appmenuNewContactCmd.label "Contact en il cudeschet d'adressas…">
-<!ENTITY appmenuEditMenu.label "Modifitgar">
 <!ENTITY appmenuToolbarLayout.label "Design da las travs d'utensils…">
-<!ENTITY appmenuSelectThread.label "Tscherner in tema">
-<!ENTITY appmenuSelectFlagged.label "Tscherner messadis cun staila">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nova etichetta…">
@@ -644,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "U">
 <!ENTITY folderContextMarkNewsgroupRead.label "Marcar la gruppa da discussiun sco legida">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "g">
-<!ENTITY folderContextMarkMailFolderRead.label "Marcar l'ordinatur sco legì">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "M">
 <!ENTITY folderContextSubscribe.label "Abunar…">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "Tschertgar messadis…">
@@ -751,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Respunder a la glista">
 <!ENTITY contextReplyList.accesskey "g">
-<!ENTITY contextForward.label "Renviar">
-<!ENTITY contextForward.accesskey "F">
-<!ENTITY contextForwardAsMenu.label "Renviar sco">
-<!ENTITY contextForwardAsMenu.accesskey "o">
-<!ENTITY contextForwardAsInline.label "Integrà">
-<!ENTITY contextForwardAsInline.accesskey "I">
-<!ENTITY contextForwardAsAttachmentItem.label "Agiunta">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "A">
-<!ENTITY contextMultiForwardAsAttachment.label "Renviar sco agiuntas">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "o">
 <!ENTITY contextMoveMsgMenu.label "Spustar a">
 <!ENTITY contextMoveMsgMenu.accesskey "p">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Ultims ordinaturs">
@@ -906,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "I">
 <!ENTITY copyEmailCmd.label "Copiar l'adressa dad e-mail">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY stopCmd.label "Fermar">
-<!ENTITY stopCmd.accesskey "F">
-<!ENTITY reloadCmd.label "Rechargiar">
-<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY openInBrowser.label "Avrir en il navigatur">
 <!ENTITY openInBrowser.accesskey "A">
 <!ENTITY openLinkInBrowser.label "Avrir la colliaziun en il navigatur">

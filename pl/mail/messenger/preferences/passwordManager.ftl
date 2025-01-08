@@ -2,10 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-saved-logins =
-    .title = Zachowane dane logowania
-window-close =
-    .key = w
 saved-logins-title = Zachowane dane logowania
 focus-search-primary-shortcut =
     .key = f

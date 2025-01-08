@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "ח">
 <!ENTITY newVirtualFolderCmd.label "חיפוש שמור…">
 <!ENTITY newVirtualFolderCmd.accesskey "פ">
-<!ENTITY newCreateEmailAccountCmd.label "קבלת חשבון דואר חדש…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "ח">
-<!ENTITY newExistingEmailAccountCmd.label "חשבון דואר קיים…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "ק">
 <!ENTITY newIMAccountCmd.label "חשבון צ׳אט…">
 <!ENTITY newIMAccountCmd.accesskey "צ">
 <!ENTITY newFeedAccountCmd.label "חשבון הזנה…">
@@ -604,8 +600,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "U">
 <!ENTITY folderContextMarkNewsgroupRead.label "סמן קבוצת דיון כנקרא">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "ס">
-<!ENTITY folderContextMarkMailFolderRead.label "סמן תיקייה כנקראת">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "ס">
 <!ENTITY folderContextSubscribe.label "הירשם כמנוי…">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "חיפוש הודעות…">
@@ -703,14 +697,6 @@
 <!ENTITY contextReplyAll.accesskey "כ">
 <!ENTITY contextReplyList.label "השב לרשימה">
 <!ENTITY contextReplyList.accesskey "ר">
-<!ENTITY contextForward.label "העבר">
-<!ENTITY contextForward.accesskey "ע">
-<!ENTITY contextForwardAsMenu.label "העברה בתור">
-<!ENTITY contextForwardAsMenu.accesskey "ע">
-<!ENTITY contextForwardAsAttachmentItem.label "קובץ מצורף">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "צ">
-<!ENTITY contextMultiForwardAsAttachment.label "העברה כקבצים מצורפים">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "ק">
 <!ENTITY contextMoveMsgMenu.label "העבר אל">
 <!ENTITY contextMoveMsgMenu.accesskey "ע">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "אחרונים">

@@ -4,14 +4,14 @@
 
 account-settings-title = Ρυθμίσεις ταυτοποίησης
 account-channel-title = Προεπιλεγμένα κανάλια
-
 chat-autologin =
     .label = Σύνδεση κατά την εκκίνηση
-
 chat-encryption-generic = Γενικά
 chat-encryption-log =
     .label = Συμπερίληψη διατερματικά κρυπτογραφημένων μηνυμάτων σε αρχεία συνομιλιών
 chat-encryption-label = Εγγενής διατερματική κρυπτογράφηση
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = Το { $protocol } παρέχει διατερματική κρυπτογράφηση για μηνύματα συνομιλιών. Αυτό εμποδίζει την παρακολούθηση των συνομιλιών από τρίτους. Ίσως χρειαστούν περαιτέρω ρυθμίσεις παρακάτω για να λειτουργήσει η κρυπτογράφηση.
 chat-encryption-status = Κατάσταση κρυπτογράφησης
 chat-encryption-placeholder = Η κρυπτογράφηση δεν έχει αρχικοποιηθεί.

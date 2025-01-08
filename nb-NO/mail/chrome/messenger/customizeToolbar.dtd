@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Bruk små ikoner">
 <!ENTITY restoreDefaultSet.label  "Gjenopprett standardsett">
 <!ENTITY showTitlebar2.label      "Tittellinje">
-<!ENTITY extraDragSpace2.label    "Dra-og-slipp-område">
 <!ENTITY saveChanges.label        "Ferdig">
 <!ENTITY undoChanges.label        "Angre endringer">

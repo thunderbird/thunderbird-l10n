@@ -8,15 +8,10 @@ about-addressbook-title = Adresų knyga
 
 about-addressbook-toolbar-new-address-book =
     .label = Nauja adresų knyga
-about-addressbook-toolbar-new-contact =
-    .label = Naujas adresatas
-about-addressbook-toolbar-new-list =
-    .label = Naujas sąrašas
 
 ## Books
 
 all-address-books = Visos adresų knygos
-
 about-addressbook-books-context-properties =
     .label = Savybės
 about-addressbook-books-context-synchronize =
@@ -28,20 +23,12 @@ about-addressbook-books-context-delete =
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Ieškoti „{ $name }“
-about-addressbook-search-all =
-    .placeholder = Ieškoti visose adresų knygose
-
 about-addressbook-name-format-display =
     .label = Rodomas vardas
 about-addressbook-name-format-firstlast =
     .label = Vardas pavardė
 about-addressbook-name-format-lastfirst =
     .label = Pavardė, vardas
-
 about-addressbook-sort-name-ascending =
     .label = Rikiuoti pagal vardą (A > Z)
 about-addressbook-sort-name-descending =
@@ -54,20 +41,22 @@ about-addressbook-sort-email-descending =
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+
 ## Card list placeholder
 ## Shown when there are no cards in the list
+
 
 ## Details
 
 about-addressbook-begin-edit-contact-button = Redaguoti
 about-addressbook-cancel-edit-contact-button = Atšaukti
 about-addressbook-save-edit-contact-button = Įrašyti
-
 about-addressbook-details-email-addresses-header = El. paštas
 about-addressbook-details-phone-numbers-header = Telefonų numeriai
 about-addressbook-details-other-info-header = Kita informacija
 
 # Photo dialog
+
 
 # Keyboard shortcuts
 

@@ -7,7 +7,6 @@
 <!-- XXX rearrange entities to match physical layout when l10n isn't an issue -->
 <!-- LOCALIZATION NOTE (clearTimeDuration.*): "Time range to clear" dropdown.
      See UI mockup at bug 480169 -->
-
 <!ENTITY clearTimeDuration.label          "Vremensko razdoblje za brisanje: ">
 <!ENTITY clearTimeDuration.accesskey      "V">
 <!ENTITY clearTimeDuration.lastHour       "Zadnji sat">
@@ -18,9 +17,7 @@
 <!-- Localization note (clearTimeDuration.suffix) - trailing entity for languages
 that require it.  -->
 <!ENTITY clearTimeDuration.suffix         "">
-<!-- LOCALIZATION NOTE (detailsProgressiveDisclosure.*): Labels and accesskeys
-     of the "Details" progressive disclosure button.  See UI mockup at bug
-     480169 -->
+
 
 
 <!ENTITY itemHistory.label                 "Historija surfanja">
@@ -29,10 +26,9 @@ that require it.  -->
 <!ENTITY itemCookies.accesskey             "K">
 <!ENTITY itemCache.label                   "Keš">
 <!ENTITY itemCache.accesskey               "e">
+
 <!-- LOCALIZATION NOTE (sanitizeEverythingUndoWarning): Second warning paragraph
      that appears when "Time range to clear" is set to "Everything".  See UI
      mockup at bug 480169 -->
-
 <!ENTITY sanitizeEverythingUndoWarning     "Ova radnja se ne može poništiti.">
 
-<!ENTITY dialog.width                 "28em">

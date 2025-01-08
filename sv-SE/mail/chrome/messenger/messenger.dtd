@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "F">
 <!ENTITY newVirtualFolderCmd.label "Ny sparad sökning…">
 <!ENTITY newVirtualFolderCmd.accesskey "s">
-<!ENTITY newCreateEmailAccountCmd.label "Skapa ett nytt e-postkonto…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "S">
-<!ENTITY newExistingEmailAccountCmd.label "Existerande e-postkonto…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "E">
 <!ENTITY newIMAccountCmd.label "Chattkonto…">
 <!ENTITY newIMAccountCmd.accesskey "c">
 <!ENTITY newFeedAccountCmd.label "RSS-kanalkonto…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Ta bort meddelande">
-<!ENTITY deleteMsgCmd.accesskey "T">
-<!ENTITY undeleteMsgCmd.label "Återställ borttaget meddelande">
-<!ENTITY undeleteMsgCmd.accesskey "b">
-<!ENTITY deleteMsgsCmd.label "Ta bort markerade meddelanden">
-<!ENTITY deleteMsgsCmd.accesskey "T">
-<!ENTITY undeleteMsgsCmd.label "Återställ markerade borttagna meddelanden">
-<!ENTITY undeleteMsgsCmd.accesskey "b">
-<!ENTITY deleteFolderCmd.label "Ta bort mapp">
-<!ENTITY deleteFolderCmd.accesskey "r">
-<!ENTITY unsubscribeNewsgroupCmd.label "Avsluta prenumeration">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "n">
 <!ENTITY selectMenu.label "Markera">
 <!ENTITY selectMenu.accesskey "M">
 <!ENTITY all.label "Alla">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "M">
 <!ENTITY menuFavoriteFolder.label "Favoritmapp">
 <!ENTITY menuFavoriteFolder.accesskey "F">
-<!ENTITY folderPropsCmd2.label "Egenskaper">
-<!ENTITY folderPropsFolderCmd2.label "Mappegenskaper">
-<!ENTITY folderPropsNewsgroupCmd2.label "Diskussionsgruppsegenskaper">
-<!ENTITY folderPropsCmd.accesskey "E">
 <!ENTITY undoDeleteMsgCmd.label "Ångra borttagning av meddelande">
 <!ENTITY redoDeleteMsgCmd.label "Gör om borttagning av meddelande">
 <!ENTITY undoMoveMsgCmd.label "Ångra flytt av meddelande">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Mappfönstret">
 <!ENTITY showFolderPaneCmd.accesskey "M">
-<!ENTITY showFolderPaneColsCmd.label "Kolumner mappfönstret">
-<!ENTITY showFolderPaneColsCmd.accesskey "o">
 <!ENTITY showMessageCmd.label "Förhandsgranskning">
 <!ENTITY showMessageCmd.accesskey "F">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nytt meddelande">
 <!ENTITY appmenuNewContactCmd.label "Ny adressbokskontakt…">
-<!ENTITY appmenuEditMenu.label "Redigera">
 <!ENTITY appmenuToolbarLayout.label "Layout verktygsfält…">
-<!ENTITY appmenuSelectThread.label "Välj tråd">
-<!ENTITY appmenuSelectFlagged.label "Välj stjärnmärkta meddelanden">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Ny etikett…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "r">
 <!ENTITY folderContextMarkNewsgroupRead.label "Märk diskussionsgrupp som läst">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "M">
-<!ENTITY folderContextMarkMailFolderRead.label "Märk mapp som läst">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "M">
 <!ENTITY folderContextSubscribe.label "Prenumerera…">
 <!ENTITY folderContextSubscribe.accesskey "p">
 <!ENTITY folderContextSearchForMessages.label "Sök meddelanden…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "A">
 <!ENTITY contextReplyList.label "Svara till listan">
 <!ENTITY contextReplyList.accesskey "t">
-<!ENTITY contextForward.label "Vidarebefordra">
-<!ENTITY contextForward.accesskey "V">
-<!ENTITY contextForwardAsMenu.label "Vidarebefordra som">
-<!ENTITY contextForwardAsMenu.accesskey "d">
-<!ENTITY contextForwardAsInline.label "Infogad text">
-<!ENTITY contextForwardAsInline.accesskey "t">
-<!ENTITY contextForwardAsAttachmentItem.label "Bilaga">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "B">
-<!ENTITY contextMultiForwardAsAttachment.label "Vidarbefordra som bilagor">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "d">
 <!ENTITY contextMoveMsgMenu.label "Flytta till">
 <!ENTITY contextMoveMsgMenu.accesskey "F">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Tidigare">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "o">
 <!ENTITY copyEmailCmd.label "Kopiera e-postadress">
 <!ENTITY copyEmailCmd.accesskey "e">
-<!ENTITY stopCmd.label "Stopp">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Uppdatera">
-<!ENTITY reloadCmd.accesskey "U">
 <!ENTITY openInBrowser.label "Öppna i webbläsare">
 <!ENTITY openInBrowser.accesskey "Ö">
 <!ENTITY openLinkInBrowser.label "Öppna länk i webbläsare">

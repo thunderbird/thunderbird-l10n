@@ -15,7 +15,6 @@
 <!ENTITY connectionSecurity.label "Защита на връзка:">
 <!ENTITY connectionSecurity.accesskey "ъ">
 <!ENTITY connectionSecurityType-0.label "Без">
-<!ENTITY connectionSecurityType-1.label "STARTTLS, ако е налично">
 <!ENTITY connectionSecurityType-2.label "STARTTLS">
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY smtpEditTitle.label "SMTP сървър">

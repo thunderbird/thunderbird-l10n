@@ -15,10 +15,6 @@
 <!ENTITY month.11.name "Νοέμβριος" >
 <!ENTITY month.12.name "Δεκέμβριος" >
 
-<!ENTITY onemonthbackward.tooltip "Ένα μήνα πίσω" >
-<!ENTITY onemonthforward.tooltip "Ένα μήνα μπροστά" >
-<!ENTITY oneyearbackward.tooltip "Ένα έτος πριν" >
-<!ENTITY oneyearforward.tooltip "Ένα έτος μετά" >
 <!ENTITY showToday.tooltip "Μετάβαση στη σημερινή ημέρα">
 <!ENTITY onedayforward.tooltip "Μία ημέρα μπροστά">
 <!ENTITY onedaybackward.tooltip "Μία ημέρα πίσω">

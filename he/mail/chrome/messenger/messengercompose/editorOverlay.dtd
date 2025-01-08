@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "מאפייני הטבלה...">
 <!ENTITY tableProperties.accesskey "o">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "תמונה">
 <!ENTITY imageToolbarCmd.tooltip "הכנס תמונה חדשה או ערוך מאפייני תמונה נבחרת">
 <!ENTITY hruleToolbarCmd.label "קו אופקי">

@@ -2,11 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-permissions-reminder-window2 =
-    .title = Eccezioni
 permissions-dialog-title = Eccezioni
-permission-preferences-close-window =
-    .key = w
 website-address-label =
     .value = Indirizzo del sito:
     .accesskey = I

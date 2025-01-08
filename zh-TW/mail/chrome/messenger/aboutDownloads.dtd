@@ -21,4 +21,3 @@
 <!ENTITY cmd.clearList.tooltip                     "除了正在下載中的項目之外，清除清單中的所有項目。">
 <!ENTITY cmd.searchDownloads.label                 "搜尋…">
 <!ENTITY cmd.searchDownloads.key                   "F">
-

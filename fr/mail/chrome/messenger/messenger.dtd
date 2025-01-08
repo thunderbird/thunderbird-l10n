@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "B">
 <!ENTITY newVirtualFolderCmd.label "Dossier virtuel…">
 <!ENTITY newVirtualFolderCmd.accesskey "v">
-<!ENTITY newCreateEmailAccountCmd.label "Obtenir un nouveau compte courrier…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "b">
-<!ENTITY newExistingEmailAccountCmd.label "Compte courrier existant…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "e">
 <!ENTITY newIMAccountCmd.label "Compte de messagerie instantanée…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "Compte de flux…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Supprimer le message">
-<!ENTITY deleteMsgCmd.accesskey "S">
-<!ENTITY undeleteMsgCmd.label "Restaurer le message">
-<!ENTITY undeleteMsgCmd.accesskey "R">
-<!ENTITY deleteMsgsCmd.label "Supprimer les messages sélectionnés">
-<!ENTITY deleteMsgsCmd.accesskey "S">
-<!ENTITY undeleteMsgsCmd.label "Restaurer les messages sélectionnés">
-<!ENTITY undeleteMsgsCmd.accesskey "R">
-<!ENTITY deleteFolderCmd.label "Supprimer le dossier">
-<!ENTITY deleteFolderCmd.accesskey "d">
-<!ENTITY unsubscribeNewsgroupCmd.label "Se désabonner">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "n">
 <!ENTITY selectMenu.label "Sélectionner">
 <!ENTITY selectMenu.accesskey "t">
 <!ENTITY all.label "Tout">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "u">
 <!ENTITY menuFavoriteFolder.label "Dossier préféré">
 <!ENTITY menuFavoriteFolder.accesskey "D">
-<!ENTITY folderPropsCmd2.label "Propriétés du dossier">
-<!ENTITY folderPropsFolderCmd2.label "Propriétés du dossier">
-<!ENTITY folderPropsNewsgroupCmd2.label "Propriétés du groupe">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Annuler l’effacement">
 <!ENTITY redoDeleteMsgCmd.label "Restaurer le message effacé">
 <!ENTITY undoMoveMsgCmd.label "Annuler le déplacement de message">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Panneau des dossiers">
 <!ENTITY showFolderPaneCmd.accesskey "o">
-<!ENTITY showFolderPaneColsCmd.label "Colonnes du panneau des dossiers">
-<!ENTITY showFolderPaneColsCmd.accesskey "e">
 <!ENTITY showMessageCmd.label "Panneau d’affichage des messages">
 <!ENTITY showMessageCmd.accesskey "n">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nouveau message">
 <!ENTITY appmenuNewContactCmd.label "Contact du carnet d’adresses…">
-<!ENTITY appmenuEditMenu.label "Édition">
 <!ENTITY appmenuToolbarLayout.label "Personnaliser les barres d’outils…">
-<!ENTITY appmenuSelectThread.label "Sélectionner la discussion">
-<!ENTITY appmenuSelectFlagged.label "Sélectionner les messages suivis">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nouvelle étiquette…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "u">
 <!ENTITY folderContextMarkNewsgroupRead.label "Marquer le groupe comme lu">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "q">
-<!ENTITY folderContextMarkMailFolderRead.label "Marquer le dossier comme lu">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "d">
 <!ENTITY folderContextSubscribe.label "S’abonner…">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "Rechercher dans les messages…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "t">
 <!ENTITY contextReplyList.label "Répondre à la liste">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextForward.label "Transférer">
-<!ENTITY contextForward.accesskey "f">
-<!ENTITY contextForwardAsMenu.label "Transférer au format">
-<!ENTITY contextForwardAsMenu.accesskey "m">
-<!ENTITY contextForwardAsInline.label "Intégré">
-<!ENTITY contextForwardAsInline.accesskey "I">
-<!ENTITY contextForwardAsAttachmentItem.label "Pièce jointe">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "P">
-<!ENTITY contextMultiForwardAsAttachment.label "Transférer au format pièce jointe">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "p">
 <!ENTITY contextMoveMsgMenu.label "Déplacer vers">
 <!ENTITY contextMoveMsgMenu.accesskey "D">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Récent">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "m">
 <!ENTITY copyEmailCmd.label "Copier l’adresse e-mail">
 <!ENTITY copyEmailCmd.accesskey "e">
-<!ENTITY stopCmd.label "Arrêter">
-<!ENTITY stopCmd.accesskey "r">
-<!ENTITY reloadCmd.label "Actualiser">
-<!ENTITY reloadCmd.accesskey "c">
 <!ENTITY openInBrowser.label "Ouvrir dans le navigateur">
 <!ENTITY openInBrowser.accesskey "n">
 <!ENTITY openLinkInBrowser.label "Ouvrir le lien dans le navigateur">

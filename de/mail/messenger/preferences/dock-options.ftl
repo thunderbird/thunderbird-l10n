@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-dock-options-window-dialog2 =
-    .title = Optionen für App-Symbol
 dock-options-dialog-title = Optionen für App-Symbol
 dock-options-show-badge =
     .label = Zähler am App-Symbol anzeigen

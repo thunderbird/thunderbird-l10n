@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "й">
 <!ENTITY deleteCmd.label          "Өшіру">
 <!ENTITY deleteCmd.accesskey        "ш">
-
 <!ENTITY customizeCmd.label "Баптау">
 <!ENTITY customizeCmd.accesskey "т">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Жабу">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "Ж">
-
-<!ENTITY quitApplicationCmd.label  "Шығу">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "ы">
-
-<!ENTITY quitApplicationCmdUnix.label  "Шығу">
-<!ENTITY quitApplicationCmdUnix.accesskey  "Ш">
-
-<!ENTITY quitApplicationCmdMac.label  "&brandShortName; жұмысын аяқтау">
-<!ENTITY quitApplicationCmdMac.accesskey  "я">

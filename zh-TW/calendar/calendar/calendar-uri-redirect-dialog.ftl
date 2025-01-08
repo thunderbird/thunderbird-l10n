@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-uri-redirect-window =
-    .title = Calendar URI 重新導向
 calendar-uri-redirect-window-title = Calendar URI 重新導向
+# Variables:
+# $calendarName (String) - Display name of the calendar.
 calendar-uri-redirect-description =
     此伺服器重新導向了行事曆「{ $calendarName }」的 URI。
     要接受更改為使用新的 URI 嗎？

@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Հաղորդագրութեան սեղմագիր
-selected-messages-label =
-    .label = Ընտրուած հաղորդագրութիւններ
 multi-message-archive-button =
     .label = Արխիւ
     .tooltiptext = Արխիւ

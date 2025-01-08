@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Hapus Kalender yang Dipilih…">
 <!ENTITY calendar.removecalendar.accesskey      "R">
 
-
-<!ENTITY calendar.menu.customize.label          "Suka-suka…">
-<!ENTITY calendar.menu.customize.accesskey      "S">
-
 <!ENTITY showUnifinderCmd.label                 "Cari Acara">
 <!ENTITY showUnifinderCmd.accesskey             "a">
 <!ENTITY showUnifinderCmd.tooltip               "Alihkan panel temukan acara">

@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = 消息摘要
-selected-messages-label =
-    .label = 已选中消息
 multi-message-archive-button =
     .label = 归档
     .tooltiptext = 归档

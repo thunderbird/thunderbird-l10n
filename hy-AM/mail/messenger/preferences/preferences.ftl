@@ -343,8 +343,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Փակել նամակի էջը/պատուհանը ջնջելուց հետո
     .accesskey = C
-display-name-label =
-    .value = Ցուցադրել անունը․
 condensed-addresses-label =
     .label = Հասցեագրքում ցուցադրել միայն մարդկանց ցուցադրվող անունը
     .accesskey = S
@@ -474,23 +472,12 @@ third-party-never =
     .label = Երբեք
 third-party-visited =
     .label = Այցելածներից
-keep-label =
-    .value = Պահել մինչև՝
-    .accesskey = Պ
-keep-expire =
-    .label = ավարտման ժամկերը
-keep-close =
-    .label = { -brand-short-name }-ի փակումը
-keep-ask =
-    .label = հարցնել ամեն անգամ
 cookies-button =
     .label = Ցուցադրել Cookie-ները...
     .accesskey = S
 do-not-track-label =
     .label = Ուղարկել կայքերին “Չհետագծել“ ազդանշանը, որ դուք չեք ցանկանում հետագծվել
     .accesskey = n
-learn-button =
-    .label = Իմանալ ավելին
 dnt-learn-more-button =
     .value = Իմանալ ավելին
 passwords-description = { -brand-short-name }-ը կարող է հիշել Ձեր բոլոր փոստարկղերի գաղտնաբառերը։
@@ -498,18 +485,12 @@ passwords-button =
     .label = Պահպանված գաղտնաբառեր…
     .accesskey = S
 junk-description = Նշեք փոստաղբի հիմնական կարգավորումները փոստարկղի կարգավորումներում։
-junk-label =
-    .label = Երբ ես նշում եմ նամակը որպես թափոն՝
-    .accesskey = W
 junk-move-label =
     .label = Տեղափոխել փոստարկղի "Թափոն" թղթապանակ
     .accesskey = o
 junk-delete-label =
     .label = Ջնջել դրանք
     .accesskey = D
-junk-read-label =
-    .label = Նշել թափոն նամակները որպես ընթերցված
-    .accesskey = M
 junk-log-label =
     .label = Միացնել թափոնի հարմարողական զտիչի մատյանը
     .accesskey = Մ
@@ -633,4 +614,7 @@ search-results-header = Որոնման արդյունքներ
 search-results-help-link = Օգնությո՞ւն է պետք: Այցելեք { -brand-short-name }-ի աջակցում</a>
 
 ## Sync Tab
+
+
+## Mobile QR Export Pane
 

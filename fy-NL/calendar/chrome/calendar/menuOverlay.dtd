@@ -12,8 +12,8 @@
 <!ENTITY calendar.import.label                  "Ymportearje…">
 <!ENTITY calendar.import.accesskey              "Y">
 
-<!ENTITY calendar.export.label         			"Eksportearje…">
-<!ENTITY calendar.export.accesskey     			"E">
+<!ENTITY calendar.export.label                  "Eksportearje…">
+<!ENTITY calendar.export.accesskey              "E">
 
 <!ENTITY calendar.publish.label                 "Publisearje…">
 <!ENTITY calendar.publish.accesskey             "b">
@@ -28,10 +28,6 @@
       data and unsubscribing means just taking it out of the calendar list. -->
 <!ENTITY calendar.removecalendar.label          "Selektearre aginda fuortsmite…">
 <!ENTITY calendar.removecalendar.accesskey      "f">
-
-
-<!ENTITY calendar.menu.customize.label          "Oanpasse…">
-<!ENTITY calendar.menu.customize.accesskey      "O">
 
 <!ENTITY showUnifinderCmd.label                 "Barren sykje">
 <!ENTITY showUnifinderCmd.accesskey             "s">

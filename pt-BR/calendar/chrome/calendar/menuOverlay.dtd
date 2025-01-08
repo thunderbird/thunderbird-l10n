@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Remover agenda selecionada…">
 <!ENTITY calendar.removecalendar.accesskey      "R">
 
-
-<!ENTITY calendar.menu.customize.label          "Personalizar…">
-<!ENTITY calendar.menu.customize.accesskey      "z">
-
 <!ENTITY showUnifinderCmd.label                 "Procurar eventos">
 <!ENTITY showUnifinderCmd.accesskey             "o">
 <!ENTITY showUnifinderCmd.tooltip               "Alternar o painel de procurar eventos">

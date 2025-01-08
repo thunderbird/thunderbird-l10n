@@ -14,46 +14,7 @@
 <!ENTITY calendar.today.button.label          "Oz">
 <!ENTITY calendar.tomorrow.button.label       "Damaun">
 
-<!ENTITY calendar.events.filter.all.label "Tut ils eveniments">
-<!ENTITY calendar.events.filter.today.label "Ils eveniments dad oz">
-<!ENTITY calendar.events.filter.future.label "Tut ils eveniments en il futur">
-<!ENTITY calendar.events.filter.current.label "Il di tschernì actualmain">
-<!ENTITY calendar.events.filter.currentview.label "Eveniments dal di tschernì">
-<!ENTITY calendar.events.filter.next7Days.label "Eveniments en ils proxims 7 dis">
-<!ENTITY calendar.events.filter.next14Days.label "Eveniments en ils proxims 14 dis">
-<!ENTITY calendar.events.filter.next31Days.label "Eveniments en ils proxims 31 dis">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Eveniments en quest mais da chalender">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Finì">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Zavrar tenor cumplettaziun">
-<!ENTITY calendar.unifinder.tree.priority.label            "Prioritad">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Zavrar tenor prioritad">
-<!ENTITY calendar.unifinder.tree.title.label               "Titel">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Zavrar tenor titel">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#037; cumplet">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Zavrar tenor &#037; cumplet">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Cumenzament">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Zavrar tenor data da cumenzament">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Finiziun">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Zavrar tenor data da finiziun">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Scadenza">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Zavrar tenor data da scadenza">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Cumplettà">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Zavrar tenor data da cumplettaziun">
-<!ENTITY calendar.unifinder.tree.categories.label          "Categoria">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Zavrar tenor categoria">
-<!ENTITY calendar.unifinder.tree.location.label            "Lieu">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Zavrar tenor lieu">
-<!ENTITY calendar.unifinder.tree.status.label              "Status">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Zavrar tenor status">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Num dal chalender">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Zavrar tenor num da chalender">
-<!ENTITY calendar.unifinder.tree.duration.label            "Scada en">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Temp enfin la scadenza">
-<!ENTITY calendar.unifinder.close.tooltip                  "Serrar la tschertga dad eveniments e la glista dad eveniments">
 
 <!ENTITY calendar.today.button.tooltip          "Siglir ad oz" >
 <!ENTITY calendar.todaypane.button.tooltip      "Mussar la lastra dad oz" >

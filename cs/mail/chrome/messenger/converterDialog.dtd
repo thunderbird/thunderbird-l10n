@@ -8,4 +8,3 @@
 <!ENTITY converterDialog.finishButton "Dokončit">
 <!ENTITY converterDialog.complete "Převod dokončen. &brandShortName; se nyní restartuje.">
 <!ENTITY converterDialog.error "Převod selhal.">
-

@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE shown while obtaining certificates from a directory -->
 
-
 <!ENTITY title.label "Preuzimanje certifikata">
 <!ENTITY info.message "Pretraživanje direktorija za certifikate primatelja. Ovo može potrajati nekoliko minuta.">
 <!ENTITY stop.label "Zaustavi pretragu">

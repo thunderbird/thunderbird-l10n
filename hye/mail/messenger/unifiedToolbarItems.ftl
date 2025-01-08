@@ -45,8 +45,6 @@ toolbar-junk-label = Թափաւն
 toolbar-junk =
     .title = Նշել ընտրուած հաղորդագրութիւնները որպէս թափաւն
 toolbar-delete-label = Ջնջել
-toolbar-delete =
-    .title = Ջնջել ընտրուած հաղորդագրութիւնները կամ պանակը
 toolbar-compact-label = Սեղմել
 toolbar-compact =
     .title = Հեռացնել ջնջուած նամակները ընտրուած թղթապանակից
@@ -94,3 +92,6 @@ toolbar-stop =
 toolbar-throbber-label = Ակտիւութեան ցուցիչ
 toolbar-throbber =
     .title = Ակտիւութեան ցուցիչ
+
+## New Address Book popup items
+

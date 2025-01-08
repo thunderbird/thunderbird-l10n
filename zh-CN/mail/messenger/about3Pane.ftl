@@ -92,19 +92,6 @@ quick-filter-bar-no-results = 没有结果
 # Variables:
 # $count (Number) - The number of messages that match selected filters.
 quick-filter-bar-results = { $count } 条消息
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = 过滤符合条件的消息 <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search2 =
     .label = 筛选消息
 quick-filter-bar-searching =
@@ -258,8 +245,6 @@ threadpane-column-header-sender = 来自
     .title = 按来自排序
 threadpane-column-label-sender =
     .label = 来自
-threadpane-cell-sender =
-    .aria-label = 发件人
 # Variables:
 # $title (String) - Message sender for tooltip.
 threadpane-cell-sender-title =
@@ -269,8 +254,6 @@ threadpane-column-header-recipient = 收件人
     .title = 按收件人排序
 threadpane-column-label-recipient =
     .label = 收件人
-threadpane-cell-recipient =
-    .aria-label = 收件人
 # Variables:
 # $title (String) - Message recipient for tooltip.
 threadpane-cell-recipient-title =
@@ -280,8 +263,6 @@ threadpane-column-header-correspondents = 通信者
     .title = 按通信者排序
 threadpane-column-label-correspondents =
     .label = 通信者
-threadpane-cell-correspondents =
-    .aria-label = 联系人
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
@@ -291,8 +272,6 @@ threadpane-column-header-subject = 主题
     .title = 按主题排序
 threadpane-column-label-subject =
     .label = 主题
-threadpane-cell-subject =
-    .aria-label = 主题
 # Variables:
 # $title (String) - Message subject for tooltip.
 threadpane-cell-subject-title =
@@ -302,8 +281,6 @@ threadpane-column-header-date = 日期
     .title = 按日期排序
 threadpane-column-label-date =
     .label = 日期
-threadpane-cell-date =
-    .aria-label = 日期
 # Variables:
 # $title (String) - Message date for tooltip.
 threadpane-cell-date-title =
@@ -313,8 +290,6 @@ threadpane-column-header-received = 接收时间
     .title = 按接收日期排序
 threadpane-column-label-received =
     .label = 接收时间
-threadpane-cell-received =
-    .aria-label = 接收日期
 # Variables:
 # $title (String) - Message received date for tooltip.
 threadpane-cell-received-title =
@@ -324,8 +299,6 @@ threadpane-column-header-status = 状态
     .title = 按状态排序
 threadpane-column-label-status =
     .label = 状态
-threadpane-cell-status =
-    .aria-label = 状态
 # Variables:
 # $title (String) - Message status for tooltip.
 threadpane-cell-status-title =
@@ -335,8 +308,6 @@ threadpane-column-header-size = 大小
     .title = 按大小排序
 threadpane-column-label-size =
     .label = 大小
-threadpane-cell-size =
-    .aria-label = 大小
 # Variables:
 # $title (String) - Message size for tooltip.
 threadpane-cell-size-title =
@@ -346,8 +317,6 @@ threadpane-column-header-tags = 标签
     .title = 按标签排序
 threadpane-column-label-tags =
     .label = 标签
-threadpane-cell-tags =
-    .aria-label = 标签
 # Variables:
 # $title (String) - Tags for tooltip.
 threadpane-cell-tags-title =
@@ -357,8 +326,6 @@ threadpane-column-header-account = 账户
     .title = 按账户排序
 threadpane-column-label-account =
     .label = 账户
-threadpane-cell-account =
-    .aria-label = 账户
 # Variables:
 # $title (String) - Message account for tooltip.
 threadpane-cell-account-title =
@@ -368,8 +335,6 @@ threadpane-column-header-priority = 优先级
     .title = 按优先级排序
 threadpane-column-label-priority =
     .label = 优先级
-threadpane-cell-priority =
-    .aria-label = 优先级
 # Variables:
 # $title (String) - Priority for tooltip.
 threadpane-cell-priority-title =
@@ -379,8 +344,6 @@ threadpane-column-header-unread = 未读
     .title = 话题中未读的消息数
 threadpane-column-label-unread =
     .label = 未读
-threadpane-cell-unread =
-    .aria-label = 未读消息数
 # Variables:
 # $title (String) - Number of unread messages for tooltip.
 threadpane-cell-unread-title =
@@ -390,8 +353,6 @@ threadpane-column-header-total = 总计
     .title = 话题中消息的总数
 threadpane-column-label-total =
     .label = 总计
-threadpane-cell-total =
-    .aria-label = 消息总数
 # Variables:
 # $title (String) - Total messages for tooltip.
 threadpane-cell-total-title =
@@ -401,8 +362,6 @@ threadpane-column-header-location = 位置
     .title = 按位置排序
 threadpane-column-label-location =
     .label = 位置
-threadpane-cell-location =
-    .aria-label = 位置
 # Variables:
 # $title (String) - Message location for tooltip.
 threadpane-cell-location-title =
@@ -412,8 +371,6 @@ threadpane-column-header-id = 接收顺序
     .title = 按接收顺序排序
 threadpane-column-label-id =
     .label = 接收顺序
-threadpane-cell-id =
-    .aria-label = 接收顺序
 # Variables:
 # $title (String) - Message id for tooltip.
 threadpane-cell-id-title =

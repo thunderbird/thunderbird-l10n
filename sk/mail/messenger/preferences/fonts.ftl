@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Písma
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Predvolený ({ $name })
 fonts-label-default-unnamed =
     .label = Predvolený
-fonts-encoding-dialog-title =
-    .title = Písma a kódovanie
 fonts-language-legend =
     .value = Písma pre:
     .accesskey = m

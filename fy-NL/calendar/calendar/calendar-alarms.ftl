@@ -10,12 +10,6 @@ reminder-title-at-start-event = As it barren start
 reminder-title-at-start-task = As de taak start
 reminder-title-at-end-event = As it barren einiget
 reminder-title-at-end-task = As de taak einiget
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Omtinken slommerje foar { $unit }
 reminder-custom-origin-begin-before-event = foar it barren start
 reminder-custom-origin-begin-after-event = nei it barren start
 reminder-custom-origin-end-before-event = foar it barren einiget

@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Chwilio
-search-bar-item =
-    .label = Chwilio:
 search-bar-item2 =
     .label = Chwilio
 search-bar-placeholder = Chwilio…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Testun yn unig
 customize-cancel = Diddymu
 customize-save = Cadw
 customize-unsaved-changes = Newidiadau heb eu cadw mewn mannau eraill
-customize-search-bar =
-    .label = Chwilio am fotymau'r bar offer…
 customize-search-bar2 =
     .label = Chwilio botymau'r bar offer
     .placeholder = Chwilio botymau'r bar offer

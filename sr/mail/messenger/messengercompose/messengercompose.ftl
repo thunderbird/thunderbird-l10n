@@ -189,18 +189,6 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Управљач кључевима
     .accesskey = У
-# Variables:
-# $addr (String) - Email address with key issues.
-openpgp-key-issue-notification-one = Шифровање с краја на крај захтева решавање проблема са кључем за { $addr }
-# Variables:
-# $count (Number) - Number of recipients with key issues.
-openpgp-key-issue-notification-many = Шифровање с краја на крај захтева решавање проблема са кључем за { $count } прималаца.
-# Variables:
-# $addr (String) - Email address with certificate issues.
-smime-cert-issue-notification-one = Шифровање с краја на крај захтева решавање проблема са сертификатом за { $addr }.
-# Variables:
-# $count (Number) - Number of recipients with certificate issues.
-smime-cert-issue-notification-many = Шифровање с краја на крај захтева решавање проблема са сертификатом за { $count } прималаца.
 key-notification-disable-encryption =
     .label = Немој шифровати
     .accesskey = Н

@@ -9,9 +9,8 @@
 <!ENTITY chooseFileButton.accessKey "F">
 <!ENTITY chooseFileLinkButton.label "選擇檔案…">
 <!ENTITY chooseFileLinkButton.accessKey "o">
-<!ENTITY makeUrlRelative.label "網址 URL 是相對於此網頁位置">
-<!ENTITY makeUrlRelative.accessKey "r">
-<!ENTITY makeUrlRelative.tooltip "相對與絕對路徑的轉換。您要先存檔才能改變此頁。">
 
+
+<!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "輸入網址、本機檔案路徑，或從右鍵選單中選擇一個錨點或是標題:">
 <!ENTITY LinkURLEditField2.accessKey "w">

@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Ychwanegu Allwedd OpenPGP Personol ar gyfer { $identity }
-key-wizard-button =
-    .buttonlabelaccept = Parhau
-    .buttonlabelhelp = Mynd nôl
 key-wizard-dialog =
     .buttonlabelaccept = Parhau
     .buttonlabelextra1 = Mynd nôl
@@ -110,8 +107,6 @@ openpgp-import-key-list-caption = Bydd allweddi sydd wedi'u marcio i'w trin fel 
 openpgp-import-keep-passphrases =
     .label = Cadw diogelu cyfrinymadrodd ar gyfer allweddi cyfrinachol wedi'u mewnforio
 openpgp-passphrase-prompt-title = Mae angen cyfrinymadrodd
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Rhowch y cyfrinymadrodd i ddatgloi'r allwedd ganlynol: { $key }
 openpgp-import-key-button =
     .label = Dewis Ffeil i'w Mewnforio ...
     .accesskey = D

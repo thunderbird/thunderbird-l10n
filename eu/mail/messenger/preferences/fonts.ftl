@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Letra-tipoak
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Lehenetsia ({ $name })
 fonts-label-default-unnamed =
     .label = Lehenetsia
-fonts-encoding-dialog-title =
-    .title = Letra-tipoak eta kodeketak
 fonts-language-legend =
     .value = Letra-tipoa:
     .accesskey = t

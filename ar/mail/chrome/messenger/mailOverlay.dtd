@@ -6,6 +6,6 @@
 <!ENTITY  newMessageCmd.key               "M">
 <!ENTITY  newMessageCmd.label             "رسالة">
 <!ENTITY  newMessageCmd.accesskey         "ر">
- 
+
 <!ENTITY  newContactCmd.label             "جهة اتصال دفتر العناوين…">
 <!ENTITY  newContactCmd.accesskey         "ت">

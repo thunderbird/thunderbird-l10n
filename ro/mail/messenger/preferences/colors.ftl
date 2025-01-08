@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Culori
 colors-dialog-title = Culori
 colors-dialog-legend = Text și fundal
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Linkuri vizitate:
     .accesskey = v
-underline-link-checkbox =
-    .label = Subliniază linkurile
-    .accesskey = u
 always-underline-links =
     .label = Subliniază întotdeauna linkurile
     .accesskey = U

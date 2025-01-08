@@ -10,12 +10,6 @@ reminder-title-at-start-event = Wokomik, w kotrymž podawk so započina
 reminder-title-at-start-task = Wokomik, w kotrymž nadawk so započina
 reminder-title-at-end-event = Wokomik, w kotrymž podawk so kónči
 reminder-title-at-end-task = Wokomik, w kotrymž nadawk so kónči
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Dopomnjeće wo { $unit } přestorčić
 reminder-custom-origin-begin-before-event = prjedy hač podawk so započina
 reminder-custom-origin-begin-after-event = po tym zo podawk so započina
 reminder-custom-origin-end-before-event = prjedy hač podawk so kónči

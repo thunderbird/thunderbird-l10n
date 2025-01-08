@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "Z">
 <!ENTITY deleteCmd.label          "Odstrániť">
 <!ENTITY deleteCmd.accesskey        "O">
-
 <!ENTITY customizeCmd.label "Prispôsobiť">
 <!ENTITY customizeCmd.accesskey "ť">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Zavrieť">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "Z">
-
-<!ENTITY quitApplicationCmd.label  "Koniec">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "K">
-
-<!ENTITY quitApplicationCmdUnix.label  "Koniec">
-<!ENTITY quitApplicationCmdUnix.accesskey  "K">
-
-<!ENTITY quitApplicationCmdMac.label  "Ukončiť &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "k">

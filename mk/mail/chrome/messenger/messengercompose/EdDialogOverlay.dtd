@@ -5,8 +5,6 @@
 <!ENTITY AdvancedEditButton.label "Напредно уредување…">
 <!ENTITY AdvancedEditButton.accessKey "е">
 <!ENTITY AdvancedEditButton.tooltip "Додавајте или променувајте HTML атрибути, атрибути за стил и JavaScript">
-<!ENTITY makeUrlRelative.label "УРЛ-то е релативно кон локацијата на страницата">
-<!ENTITY makeUrlRelative.accessKey "Р">
-<!ENTITY makeUrlRelative.tooltip "Промена помеѓу релативното и апсолутното URL. За да го смените ова, прво мора да ја снимите страницата.">
-<!-- Shared by Link and Image dialogs -->
 
+
+<!-- Shared by Link and Image dialogs -->

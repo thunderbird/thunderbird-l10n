@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = คำสำคัญคำเตือนไฟล์แนบ
 attachment-reminder-dialog-title = คำสำคัญคำเตือนไฟล์แนบ
 attachment-reminder-label = { -brand-short-name } จะเตือนคุณเกี่ยวกับไฟล์แนบที่หายไปหากคุณกำลังจะส่งอีเมลที่มีคำสำคัญคำใดคำหนึ่งเหล่านี้
 keyword-new-button =

@@ -10,12 +10,6 @@ reminder-title-at-start-event = Gertaera hasiko den unea
 reminder-title-at-start-task = Zeregina hasiko den unea
 reminder-title-at-end-event = Gertaeraren amaiera unea
 reminder-title-at-end-task = Zereginaren amaiera unea
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Atzeratu gogorarazlea { $unit }
 reminder-custom-origin-begin-before-event = gertaera hasi aurretik
 reminder-custom-origin-begin-after-event = gertaera hasi ondoren
 reminder-custom-origin-end-before-event = gertaera amaitu aurretik

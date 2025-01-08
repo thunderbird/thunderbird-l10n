@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Facal-faire
     .accesskey = F
     .title = Roghainneil, cha tèid a chleachdadh ach airson an t-ainm-cleachdaiche a dhearbhadh
-account-provisioner-button = Faigh seòladh puist-d ùr
-    .accesskey = F
 account-setup-password-toggle-show =
     .title = Seall am facal-faire ann an teacsa soilleir
 account-setup-password-toggle-hide =
@@ -148,7 +146,6 @@ account-setup-credentials-incomplete = Dh’fhàillig an dearbhadh. Tha na chuir
 account-setup-credentials-wrong = Dh’fhàillig an dearbhadh. Thoir sùil air an ainm-chleachdaiche ’s air an fhacal-fhaire
 account-setup-find-settings-failed = Cha b’ urrainn dha { -brand-short-name } na roghainnean airson cunntas a’ phuist-d agad a lorg
 account-setup-exchange-config-unverifiable = Cha b’ urrainn dhuinn an rèiteachadh a dhearbhadh. Ma tha an t-ainm-cleachdaiche ’s am facal-faire agad ceart, ’s mathaid gun do chuir rianaire an fhrithealaiche an rèiteachadh a thagh thu dhan chunntas agad à comas. Feuch pròtacal eile.
-account-setup-provisioner-error = Thachair mearachd fhad ’s a bha sinn a’ suidheachadh a’ chunntais ùir agad ann an { -brand-short-name }. Feuch is suidhich an cunntas agad de làimh.
 
 ## Manual configuration area
 

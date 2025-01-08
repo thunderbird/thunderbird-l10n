@@ -4,14 +4,14 @@
 
 account-settings-title = Hitelesítési beállítások
 account-channel-title = Alapértelmezett csatornák
-
 chat-autologin =
     .label = Bejelentkezés indításkor
-
 chat-encryption-generic = Általános
 chat-encryption-log =
     .label = A végpontok közötti titkosít üzenetek felvétele a beszélgetési naplókba
 chat-encryption-label = Natív végpontok közötti titkosítás
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = A(z) { $protocol } végpontok közti titkosítást kínál a csevegőüzenetekhez. Ez megakadályozza hogy harmadik felek lehallgassák a beszélgetést. További beállításokra lehet szükség, hogy a titkosítás működőképes legyen.
 chat-encryption-status = Titkosítási állapot
 chat-encryption-placeholder = A titkosítás nincs előkészítve.

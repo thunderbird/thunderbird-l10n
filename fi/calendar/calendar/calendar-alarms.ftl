@@ -10,12 +10,6 @@ reminder-title-at-start-event = Hetki, jolloin tapahtuma alkaa
 reminder-title-at-start-task = Hetki, jolloin tehtävä alkaa
 reminder-title-at-end-event = Hetki, jolloin tapahtuma päättyy
 reminder-title-at-end-task = Hetki, jolloin tehtävä päättyy
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Lykkää muistutusta { $unit }
 reminder-custom-origin-begin-before-event = Tapahtuman alkuun
 reminder-custom-origin-begin-after-event = Tapahtuman alusta
 reminder-custom-origin-end-before-event = Tapahtuman loppuun on

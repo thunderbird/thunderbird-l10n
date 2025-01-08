@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Variables:
-# $organizer (String) - The participant that created the original invitation.
-calendar-invitation-panel-intro = Thug { $organizer } cuireadh dhut gu:
 calendar-invitation-panel-status-new = Fhuair thu cuireadh gun tachartas seo.
 calendar-invitation-panel-status-processed = Chaidh an tachartas a chur ris a’ mhìosachan agad mu thràth.
 calendar-invitation-panel-status-updateminor = Tha ùrachadh air an tachartas seo san teachdaireachd seo.
@@ -17,31 +14,19 @@ calendar-invitation-panel-intro-cancel = Chuir { $organizer } na leanas gu neoin
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
-calendar-invitation-panel-action-button = Sàbhail
 calendar-invitation-panel-view-button = Seall
 calendar-invitation-panel-update-button = Ùraich
 calendar-invitation-panel-delete-button = Sguab às
 calendar-invitation-panel-accept-button = Tha
 calendar-invitation-panel-decline-button = Chan eil
 calendar-invitation-panel-tentative-button = ’S dòcha
-calendar-invitation-panel-reply-status = * Cha do chuir thu romhad e no cha do fhreagair thu fhathast
 calendar-invitation-panel-more-button = Barrachd
-calendar-invitation-panel-menu-item-save =
-    .label = Sàbhail sa mhìosachan
 calendar-invitation-panel-menu-item-save-copy =
     .label = Sàbhail lethbhreac dheth
 calendar-invitation-panel-menu-item-toggle-changes =
     .label = Seall na h-atharraichean
 calendar-invitation-panel-prop-title-when = Cuin:
 calendar-invitation-panel-prop-title-location = Ionad:
-# Variables:
-# $dayOfWeek (String) - The day of the week for a given date.
-# $date (String) - The date example: Tuesday, February 24, 2022.
-calendar-invitation-datetime-date = { $dayOfWeek }, { $date }
-# Variables:
-# $time (String) - The time part of a datetime using the "short" timeStyle.
-# $timezone (String) - The timezone info for the datetime.
-calendar-invitation-datetime-time = { $time } ({ $timezone })
 # Example: Friday, September 16, 2022
 # Variables:
 # $startDate (String) - The date (without time) the event starts on.

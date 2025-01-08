@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Sagen alɣu n yimayl amaynut
 notifications-dialog-title = Sagen alɣu n yimayl amaynut
 customize-alert-description = Fren anwa urtan ad sekneḍ deg ulɣu:
 preview-text-checkbox =

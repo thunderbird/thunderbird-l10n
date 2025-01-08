@@ -7,12 +7,6 @@
 
 about-addressbook-toolbar-new-address-book =
     .label = Karned chomlec’hioù nevez
-about-addressbook-toolbar-new-contact =
-    .label = Darempred nevez
-about-addressbook-toolbar-new-list =
-    .label = Roll nevez
-about-addressbook-toolbar-import =
-    .label = Enporzhiañ
 
 ## Books
 
@@ -22,12 +16,6 @@ all-address-books = An holl garnedoù chomlec’hioù
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Klask { $name }
-about-addressbook-search-all =
-    .placeholder = Klask en holl garnedoù chomlec’hioù
 about-addressbook-sort-button2 =
     .title = Dibarzhioù ar roll diskouez
 about-addressbook-name-format-display =

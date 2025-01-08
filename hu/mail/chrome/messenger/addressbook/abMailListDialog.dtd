@@ -1,11 +1,11 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!-- Title -->
-
 <!ENTITY mailListWindowAdd.title        "Új levelezőlista">
-<!-- Labels and Access Keys -->
 
+<!-- Labels and Access Keys -->
 <!ENTITY addToAddressBook.label         "Hozzáadás: ">
 <!ENTITY addToAddressBook.accesskey     "H">
 <!ENTITY ListName.label                 "Lista neve: ">
@@ -19,4 +19,3 @@
 <!ENTITY AddressTitle.accesskey         "m">
 <!ENTITY UpButton.label                 "Mozgatás felfelé">
 <!ENTITY DownButton.label               "Mozgatás lefelé">
-

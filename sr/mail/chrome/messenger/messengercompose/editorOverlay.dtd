@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Својства табеле…">
 <!ENTITY tableProperties.accesskey "о">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Слика">
 <!ENTITY imageToolbarCmd.tooltip "Убаци нову слику или уреди својства изабране слике">
 <!ENTITY hruleToolbarCmd.label "В.Линија">

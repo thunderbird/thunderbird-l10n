@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Variables:
-# $organizer (String) - The participant that created the original invitation.
-calendar-invitation-panel-intro = { $organizer } t'ha envidà a:
 calendar-invitation-panel-status-new = Ti has retschavì ina invitaziun per quest eveniment.
 calendar-invitation-panel-status-processed = Quest eveniment è gia vegnì agiuntà a tes chalender.
 calendar-invitation-panel-status-updateminor = Quest messadi cuntegna ina actualisaziun per quest eveniment.
@@ -17,14 +14,12 @@ calendar-invitation-panel-intro-cancel = { $organizer } ha annullà:
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
-calendar-invitation-panel-action-button = Memorisar
 calendar-invitation-panel-view-button = Mussar
 calendar-invitation-panel-update-button = Actualisar
 calendar-invitation-panel-delete-button = Stizzar
 calendar-invitation-panel-accept-button = Gea
 calendar-invitation-panel-decline-button = Na
 calendar-invitation-panel-tentative-button = Forsa
-calendar-invitation-panel-reply-status = * Ti n'has anc betg decidì u respundì
 calendar-invitation-panel-more-button = Dapli
 calendar-invitation-panel-menu-item-save-copy =
     .label = Memorisar ina copia
@@ -32,14 +27,6 @@ calendar-invitation-panel-menu-item-toggle-changes =
     .label = Mussar las modificaziuns
 calendar-invitation-panel-prop-title-when = Cura:
 calendar-invitation-panel-prop-title-location = Lieu:
-# Variables:
-# $dayOfWeek (String) - The day of the week for a given date.
-# $date (String) - The date example: Tuesday, February 24, 2022.
-calendar-invitation-datetime-date = { $dayOfWeek }, ils { $date }
-# Variables:
-# $time (String) - The time part of a datetime using the "short" timeStyle.
-# $timezone (String) - The timezone info for the datetime.
-calendar-invitation-datetime-time = { $time } ({ $timezone })
 # Example: Friday, September 16, 2022
 # Variables:
 # $startDate (String) - The date (without time) the event starts on.

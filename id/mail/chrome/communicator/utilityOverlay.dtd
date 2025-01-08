@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "U">
 <!ENTITY deleteCmd.label          "Hapus">
 <!ENTITY deleteCmd.accesskey        "H">
-
 <!ENTITY customizeCmd.label "Ubahsuai">
 <!ENTITY customizeCmd.accesskey "t">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Tutup">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "T">
-
-<!ENTITY quitApplicationCmd.label  "Keluar">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "K">
-
-<!ENTITY quitApplicationCmdUnix.label  "Keluar">
-<!ENTITY quitApplicationCmdUnix.accesskey  "K">
-
-<!ENTITY quitApplicationCmdMac.label  "Keluar dari &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "K">

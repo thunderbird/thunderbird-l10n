@@ -48,8 +48,6 @@ toolbar-junk-label = Brukalas
 toolbar-junk =
     .title = Pasirinktas pranešimas bus pažymėtas kaip brukalas
 toolbar-delete-label = Pašalinti
-toolbar-delete =
-    .title = Pašalinti pasirinktą pranešimą ar katalogą
 toolbar-compact-label = Suglaudinti
 toolbar-compact =
     .title = Sunaikinti pašalintus laiškus iš pažymėto aplanko
@@ -115,3 +113,6 @@ toolbar-stop =
 toolbar-throbber-label = Aktyvumo rodiklis
 toolbar-throbber =
     .title = Aktyvumo rodiklis
+
+## New Address Book popup items
+

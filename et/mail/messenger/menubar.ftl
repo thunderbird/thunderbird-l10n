@@ -26,9 +26,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Lülita probleemide lahendamise režiim välja
     .accesskey = L
-menu-help-more-troubleshooting-info =
-    .label = Rohkem probleemide lahendamise teavet
-    .accesskey = R
 # These menu-quit strings are only used on Windows and Linux.
 menu-quit =
     .label =
@@ -44,6 +41,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Välju { -brand-shorter-name }ist
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -97,12 +97,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Kompaktne
     .accesskey = m
-mail-uidensity-normal =
-    .label = Tavaline
-    .accesskey = T
-mail-uidensity-touch =
-    .label = Puutetundlikule ekraanile
-    .accesskey = d
 mail-uidensity-default =
     .label = Vaikimisi
     .accesskey = V

@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Prilagodi obavijest o novoj poruci
 notifications-dialog-title = Prilagodi obavijest o novoj poruci
 customize-alert-description = Odaberite koja će se polja prikazivati u obavijesti:
 preview-text-checkbox =

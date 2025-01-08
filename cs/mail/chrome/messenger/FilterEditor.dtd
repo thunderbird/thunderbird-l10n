@@ -26,7 +26,6 @@
 <!ENTITY contextOutgoing.accesskey "s">
 <!ENTITY contextArchive.label "Archivaci">
 <!ENTITY contextArchive.accesskey "A">
-
 <!ENTITY contextPeriodic.accesskey "p">
 
 <!ENTITY filterActionDesc.label "Provést tyto akce:">

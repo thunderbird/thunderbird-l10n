@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = P
     .tooltiptext = Vnesite želeni URL za razreševanje DNS preko HTTPS
 connection-dns-over-https-custom-label = Po meri
-connection-dialog-window2 =
-    .title = Nastavitve povezave
 connection-dialog-title = Nastavitve povezave
 disable-extension-button = Onemogoči razširitev
 # Variables:

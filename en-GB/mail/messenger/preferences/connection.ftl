@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = C
     .tooltiptext = Enter your preferred URL for resolving DNS over HTTPS
 connection-dns-over-https-custom-label = Custom
-connection-dialog-window2 =
-    .title = Connection Settings
 connection-dialog-title = Connection Settings
 disable-extension-button = Disable Extension
 # Variables:

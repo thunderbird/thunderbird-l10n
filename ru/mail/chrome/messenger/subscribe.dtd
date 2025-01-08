@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Учётная запись:">
 <!ENTITY server.accesskey             "У">
 <!ENTITY subscribedHeader.label       "Подписка">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Показать элементы, содержащие:">
 <!ENTITY namefield.accesskey          "э">

@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "D">
 <!ENTITY newVirtualFolderCmd.label "Enrollañ disoc'h ar c'hlask">
 <!ENTITY newVirtualFolderCmd.accesskey "s">
-<!ENTITY newCreateEmailAccountCmd.label "Kaout ur gont postel nevez…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "K">
-<!ENTITY newExistingEmailAccountCmd.label "Ur gont postel zo anezhi endeo…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "U">
 <!ENTITY newIMAccountCmd.label "Kont postelerezh prim…">
 <!ENTITY newIMAccountCmd.accesskey "p">
 <!ENTITY newFeedAccountCmd.label "Kont lanv…">
@@ -85,20 +81,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Dilemel ar gemennadenn">
-<!ENTITY deleteMsgCmd.accesskey "D">
-<!ENTITY undeleteMsgCmd.label "Adsevel ar gemennadenn">
-<!ENTITY undeleteMsgCmd.accesskey "d">
-<!ENTITY deleteMsgsCmd.label "Dilemel ar c'hemennadennoù diuzet">
-<!ENTITY deleteMsgsCmd.accesskey "D">
-<!ENTITY undeleteMsgsCmd.label "Dizilemel ar c'hemennadennoù diuzet">
-<!ENTITY undeleteMsgsCmd.accesskey "D">
-<!ENTITY deleteFolderCmd.label "Dilemel an teuliad">
-<!ENTITY deleteFolderCmd.accesskey "D">
-<!ENTITY unsubscribeNewsgroupCmd.label "Digoumanantiñ">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "n">
-
-<!-- Edit Menu -->
 <!ENTITY selectMenu.label "Diuzañ">
 <!ENTITY selectMenu.accesskey "D">
 <!ENTITY all.label "Pep tra">
@@ -110,10 +92,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "s">
 <!ENTITY menuFavoriteFolder.label "Teuliad gwell ganin">
 <!ENTITY menuFavoriteFolder.accesskey "a">
-<!ENTITY folderPropsCmd2.label "Perzhioù…">
-<!ENTITY folderPropsFolderCmd2.label "Perzhioù an teuliad">
-<!ENTITY folderPropsNewsgroupCmd2.label "Perzhioù ar strollad-keleier">
-<!ENTITY folderPropsCmd.accesskey "s">
 <!ENTITY undoDeleteMsgCmd.label "Dizober Dilemel ar gemennadenn">
 <!ENTITY redoDeleteMsgCmd.label "Adober Dilemel ar gemennadenn">
 <!ENTITY undoMoveMsgCmd.label "Dizober Dilec'hiañ ar gemennadenn">
@@ -145,8 +123,6 @@
 <!ENTITY messagePaneVertical.accesskey "s">
 <!ENTITY showFolderPaneCmd.label "Penel an teuliadoù">
 <!ENTITY showFolderPaneCmd.accesskey "t">
-<!ENTITY showFolderPaneColsCmd.label "Bannoù Penel an Teuliadoù">
-<!ENTITY showFolderPaneColsCmd.accesskey "P">
 <!ENTITY showMessageCmd.label "Penel ar c'hemennadennoù">
 <!ENTITY showMessageCmd.accesskey "m">
 
@@ -592,10 +568,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Kemennadenn nevez">
 <!ENTITY appmenuNewContactCmd.label "Darempred ar c'harned chomlec'hioù …">
-<!ENTITY appmenuEditMenu.label "Embann">
 <!ENTITY appmenuToolbarLayout.label "Aozadur ar varrenn ostilhoù…">
-<!ENTITY appmenuSelectThread.label "Diuzañ an neudenn">
-<!ENTITY appmenuSelectFlagged.label "Diuzañ ar c’hemennadennoù gant ur steredenn">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Merk nevez…">
@@ -638,8 +611,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "u">
 <!ENTITY folderContextMarkNewsgroupRead.label "Merkañ ar strollad-keleier evel Lennet">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "s">
-<!ENTITY folderContextMarkMailFolderRead.label "Merkañ an teuliad evel Lennet">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "t">
 <!ENTITY folderContextSubscribe.label "Koumanantiñ…">
 <!ENTITY folderContextSubscribe.accesskey "o">
 <!ENTITY folderContextSearchForMessages.label "Klask kemennadennoù…">
@@ -742,16 +713,6 @@
 <!ENTITY contextReplyAll.accesskey "R">
 <!ENTITY contextReplyList.label "Respont d'ar roll">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextForward.label "Treuzkas">
-<!ENTITY contextForward.accesskey "e">
-<!ENTITY contextForwardAsMenu.label "Treuzkas evel">
-<!ENTITY contextForwardAsMenu.accesskey "u">
-<!ENTITY contextForwardAsInline.label "Testenn enkorfet">
-<!ENTITY contextForwardAsInline.accesskey "f">
-<!ENTITY contextForwardAsAttachmentItem.label "Kenstagadur">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "a">
-<!ENTITY contextMultiForwardAsAttachment.label "Treuzkas evel kenstagadurioù">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "s">
 <!ENTITY contextMoveMsgMenu.label "Dilec'hiañ etrezek">
 <!ENTITY contextMoveMsgMenu.accesskey "D">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Nevesañ">
@@ -897,10 +858,6 @@
 <!ENTITY copyImageAllCmd.accesskey "E">
 <!ENTITY copyEmailCmd.label "Eilañ ar chomlec'h postel">
 <!ENTITY copyEmailCmd.accesskey "o">
-<!ENTITY stopCmd.label "Paouez">
-<!ENTITY stopCmd.accesskey "z">
-<!ENTITY reloadCmd.label "Adkargañ">
-<!ENTITY reloadCmd.accesskey "r">
 <!ENTITY openInBrowser.label "Digeriñ e-barzh ar merdeer">
 <!ENTITY openInBrowser.accesskey "m">
 <!ENTITY openLinkInBrowser.label "Digeriñ an ere e-barzh ar merdeer">

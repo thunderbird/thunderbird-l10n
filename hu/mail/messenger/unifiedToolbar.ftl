@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Keresés
-search-bar-item =
-    .label = Keresés:
 search-bar-item2 =
     .label = Keresés
 search-bar-placeholder = Keresés…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Csak szöveg
 customize-cancel = Mégse
 customize-save = Mentés
 customize-unsaved-changes = Nem mentett módosítások más helyeken
-customize-search-bar =
-    .label = Keresési eszköztár gombjai…
 customize-search-bar2 =
     .label = Keresési eszköztár gombjai
     .placeholder = Keresési eszköztár gombjai…

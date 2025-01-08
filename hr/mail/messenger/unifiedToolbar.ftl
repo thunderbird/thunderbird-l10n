@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Traži
-search-bar-item =
-    .label = Traži:
 search-bar-placeholder = Traži…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
@@ -58,8 +56,6 @@ customize-button-style-text-only-option = Samo tekst
 customize-cancel = Odustani
 customize-save = Spremi
 customize-unsaved-changes = Nespremljene promjene u drugim prostorima
-customize-search-bar =
-    .label = Tipke alatne trake za pretraživanje…
 customize-spaces-tabs =
     .aria-label = Prostori
 customize-main-toolbar-target =

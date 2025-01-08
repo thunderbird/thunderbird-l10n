@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- for SearchDialog.xul -->
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "წერილების ძიების არე:">
 <!ENTITY searchHeading.accesskey     "ძ">
 <!ENTITY searchSubfolders.label      "ძიება ქვესაქაღალდეებში">
@@ -25,7 +25,7 @@
 <!ENTITY saveAsVFButton.label        "საქაღლდის სახით შენახვა">
 <!ENTITY saveAsVFButton.accesskey    "ხ">
 
-<!-- for ABSearchDialog.xul -->
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "ძიების არე:">
 <!ENTITY abSearchHeading.accesskey   "რ">
 <!ENTITY propertiesButton.label      "პარამეტრები">

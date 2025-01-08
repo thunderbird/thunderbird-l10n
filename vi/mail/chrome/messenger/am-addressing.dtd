@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xul -->
-
 <!-- extracted from am-addressing.xhtml -->
 
 <!ENTITY addressing.label          "Soạn thảo &amp; xác định địa chỉ">
@@ -18,8 +16,6 @@
 <!ENTITY directories.label         "Dùng một máy chủ LDAP khác:">
 <!ENTITY directories.accesskey     "m">
 <!ENTITY directoriesNone.label     "Không có">
-
-<!-- am-addressing.xul -->
 
 <!-- am-addressing.xhtml -->
 

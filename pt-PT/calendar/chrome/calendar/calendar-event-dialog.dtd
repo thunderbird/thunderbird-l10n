@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "Indica que não irá aceitar contrapropostas">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "I">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "Apagar…">
 <!ENTITY  event.menu.item.delete.accesskey                "A">
-<!ENTITY  event.menu.item.page.setup.label                "Configurar página">
-<!ENTITY  event.menu.item.page.setup.accesskey            "u">
-<!ENTITY  event.menu.item.print.label                     "Imprimir">
-<!ENTITY  event.menu.item.print.accesskey                 "I">
 
 <!ENTITY  event.menu.edit.label                           "Editar">
 <!ENTITY  event.menu.edit.accesskey                       "E">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "e">
 <!ENTITY  event.menu.view.toolbars.customize.label        "Personalizar…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "P">
-<!ENTITY  event.menu.view.showlink.label                  "Mostrar ligações relacionadas">
-<!ENTITY  event.menu.view.showlink.accesskey              "r">
 
 <!ENTITY  event.menu.options.label                            "Opções">
 <!ENTITY  event.menu.options.accesskey                        "O">
@@ -333,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "outubro" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "novembro" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "dezembro" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "A cada">
 <!ENTITY event.recurrence.yearly.first.label                 "Primeiro">
 <!ENTITY event.recurrence.yearly.second.label                "Segundo">
@@ -349,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "sábado" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "dia" >
 <!ENTITY event.recurrence.of.label                           "de" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "janeiro" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "fevereiro" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "março" >
@@ -367,7 +360,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "Criar" >
 <!ENTITY event.recurrence.appointments.label            "Compromissos(s)" >
 <!ENTITY event.repeat.until.label                       "Repetir até" >
-<!ENTITY event.recurrence.preview.label                 "Pré-visualizar">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Convidar participantes">

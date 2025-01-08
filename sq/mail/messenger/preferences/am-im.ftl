@@ -4,14 +4,14 @@
 
 account-settings-title = Rregullime Mirëfilltësimi
 account-channel-title = Kanale Parazgjedhje
-
 chat-autologin =
     .label = Regjistrim gjatë nisjes
-
 chat-encryption-generic = Elementar
 chat-encryption-log =
     .label = Përfshi në regjistra bisedash mesazhe të fshehtëzuar skaj-më-skaj
 chat-encryption-label = Fshehtëzim Skaj-Më-Skaj i Brendshëm
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } furnizon fshehtëzim skaj-më-skaj për mesazhe fjalosjesh. Kjo i pengon palët e treta të përgjojnë një bisedë. Mund të duhet ujdisje shtesë ,ë poshtë, që fshehtëzimi të jetë funksional.
 chat-encryption-status = Gjendje Fshehtëzimi
 chat-encryption-placeholder = Fshehtëzimi s’është gatitur.

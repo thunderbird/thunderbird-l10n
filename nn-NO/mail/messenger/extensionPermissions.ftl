@@ -23,5 +23,4 @@ webext-perms-description-experiment = Har full, uavgrensa tilgang til { -brand-s
 webext-perms-description-messagesImport = Importer meldingar til Thunderbird
 webext-perms-description-messagesModify = Les og endre e-postmeldingane dine slik dei er viste for deg
 webext-perms-description-messagesDelete = Slett e-postmeldingane dine permanent
-webext-perms-description-messagesRead = Les e-postmeldingane dine og marker eller set etikettar på dei
 webext-perms-description-messagesRead2 = Les e-postmeldingane dine

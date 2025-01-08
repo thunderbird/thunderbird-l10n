@@ -15,15 +15,6 @@ room-name-empty = Boş yazışma
 room-name-empty-had-name = Boş yazışma (eski adı { $oldName })
 # Variables:
 #  $participant (String) - The name of one participant that isn't the user.
-#  $otherParticipantsCount (Number) - The count of other participants apart from
-#    the user and $participant.
-room-name-others =
-    { $otherParticipantsCount ->
-        [one] { $participant } ve { $otherParticipantCount } kişi daha
-       *[other] { $participant } ve { $otherParticipantCount } kişi daha
-    }
-# Variables:
-#  $participant (String) - The name of one participant that isn't the user.
 #  $otherParticipantCount (Number) - The count of other participants apart from
 #    the user and $participant.
 room-name-others2 =

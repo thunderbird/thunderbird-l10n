@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = ปรับแต่งการแจ้งเตือนจดหมายใหม่
 notifications-dialog-title = ปรับแต่งการแจ้งเตือนจดหมายใหม่
 customize-alert-description = เลือกข้อมูลที่จะแสดงในข้อความแจ้งเตือน:
 preview-text-checkbox =

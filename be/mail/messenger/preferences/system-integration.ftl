@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-system-integration-title =
-    .title = Узаемадзеянне з сістэмай
 system-integration-dialog-title = Узаемадзеянне з сістэмай
 default-client-intro = Выкарыстоўваць { -brand-short-name } як прадвызначаны кліент для:
 checkbox-email-label =

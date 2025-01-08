@@ -324,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "Октябрь" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "Ноябрь " >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "Декабрь" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Каждый">
 <!ENTITY event.recurrence.yearly.first.label                 "первый">
 <!ENTITY event.recurrence.yearly.second.label                "второй">
@@ -340,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Суббота" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "день" >
 <!ENTITY event.recurrence.of.label                           "" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Январь" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Февраль" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "Март" >

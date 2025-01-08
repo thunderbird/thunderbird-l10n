@@ -7,8 +7,14 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Creează, redenumește sau șterge dosarele contului de e-mail
 webext-perms-description-addressBooks = Să citească și să îți modifice agenda și contactele
 webext-perms-description-compose = Citești și modifici mesajele pe e-mail pe măsură ce le compui și le trimiți
 webext-perms-description-experiment = Acces complet, nerestricționat la { -brand-short-name } și la calculator
-webext-perms-description-messagesRead = Să îți citească mesajele de e-mail și să le marcheze sau să le eticheteze

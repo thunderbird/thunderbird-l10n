@@ -4,4 +4,3 @@
 
 # Don't translate the terms "OpenPGP" and "MS-Exchange"
 openpgp-broken-exchange-opened = Bu OpenPGP xabari boʻlib, uni MS-Exchange buzgan va uni tuzatib boʻlmaydi, chunki u mahalliy fayldan ochilgan. Avtomatik tuzatishni sinab koʻrish uchun xabarni pochta jildiga nusxalang.
-

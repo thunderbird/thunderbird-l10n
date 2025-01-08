@@ -4,9 +4,7 @@
 
 <!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 
-
 <!ENTITY mailViewSetupTitle.label "Připrawjenje powěsćoweho napohlada">
 <!ENTITY mailViewHeading.label "Mjeno powěsćoweho napohlada:">
 <!ENTITY mailViewHeading.accesskey "e">
 <!ENTITY searchTermCaption.label "Hdyž je tutón napohlad wubrany, jenož powěsće pokazać, kotrež hodźa so na:">
-

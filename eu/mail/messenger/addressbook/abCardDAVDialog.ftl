@@ -3,11 +3,9 @@
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
 carddav-window-title = CardDAV helbide-liburu berria
-
 carddav-dialog =
     .buttonlabelaccept = Jarraitu
     .buttonaccesskeyaccept = J
-
 carddav-username-label =
     .value = Erabiltzailea:
     .accesskey = E
@@ -16,11 +14,11 @@ carddav-location-label =
     .accesskey = K
 carddav-location =
     .default-placeholder = Helbide liburuaren URL edo ostalari izena
-
 carddav-loading = Konfigurazioa bilatzen…
+# Variables:
+# $url (String) - CardDAV endpoint hostname. For example "example.com".
 carddav-known-incompatible = { $url } eta { -brand-short-name } bateragarriak ez direla ezaguna da.
 carddav-connection-error = Huts konektatzerakoan.
 carddav-none-found = Ez da helbide-libururik aurkitu gehitzeko zehaztutako kontuan.
 carddav-already-added = Zehaztutako kontuko helbide-liburu guztiak gehitu dira.
-
 carddav-available-books = Helbide-liburu eskuragarriak

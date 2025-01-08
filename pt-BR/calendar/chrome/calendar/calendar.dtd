@@ -14,82 +14,13 @@
 <!ENTITY calendar.today.button.label          "Hoje">
 <!ENTITY calendar.tomorrow.button.label       "Amanhã">
 
-<!ENTITY calendar.events.filter.all.label "Todos os eventos">
-<!ENTITY calendar.events.filter.today.label "Eventos de hoje">
-<!ENTITY calendar.events.filter.future.label "Todos os eventos futuros">
-<!ENTITY calendar.events.filter.current.label "Dia selecionado">
-<!ENTITY calendar.events.filter.currentview.label "Eventos na visão atual">
-<!ENTITY calendar.events.filter.next7Days.label "Eventos nos próximos 7 dias">
-<!ENTITY calendar.events.filter.next14Days.label "Eventos nos próximos 14 dias">
-<!ENTITY calendar.events.filter.next31Days.label "Eventos nos próximos 31 dias">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Eventos neste mês">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Concluída">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Ordenar por conclusão">
-<!ENTITY calendar.unifinder.tree.priority.label            "Prioridade">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Ordenar por prioridade">
-<!ENTITY calendar.unifinder.tree.title.label               "Título">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Ordenar por título">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#037; conclusão">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Ordenar por &#037; conclusão">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Início">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Ordenar por data de início">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Fim">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Ordenar por data de término">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Prazo">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Ordenar pelo prazo">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Conclusão">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Ordenar por data de conclusão">
-<!ENTITY calendar.unifinder.tree.categories.label          "Categoria">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Ordenar por categoria">
-<!ENTITY calendar.unifinder.tree.location.label            "Local">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Ordenar por local">
-<!ENTITY calendar.unifinder.tree.status.label              "Estado">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Ordenar por estado">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Nome da agenda">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Ordenar por nome da agenda">
-<!ENTITY calendar.unifinder.tree.duration.label            "Vencimento">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Ordenar por tempo até o vencimento">
-<!ENTITY calendar.unifinder.close.tooltip                  "Fechar busca e lista de eventos">
 
 <!ENTITY calendar.today.button.tooltip          "Ir para hoje" >
 <!ENTITY calendar.todaypane.button.tooltip      "Exibir painel hoje" >
 
-<!ENTITY calendar.day.button.tooltip            "Mudar para exibição do dia" >
-<!ENTITY calendar.week.button.tooltip           "Mudar para exibição da semana" >
-<!ENTITY calendar.month.button.tooltip          "Mudar para exibição do mês" >
-<!ENTITY calendar.multiweek.button.tooltip      "Mudar para exibição semanal" >
-
-<!ENTITY calendar.nextday.label                 "Próximo dia" >
-<!ENTITY calendar.prevday.label                 "Dia anterior" >
-<!ENTITY calendar.nextday.accesskey             "x" >
-<!ENTITY calendar.prevday.accesskey             "n" >
-<!ENTITY calendar.nextweek.label                "Próxima semana" >
-<!ENTITY calendar.prevweek.label                "Semana anterior" >
-<!ENTITY calendar.nextweek.accesskey            "x" >
-<!ENTITY calendar.prevweek.accesskey            "n" >
-<!ENTITY calendar.nextmonth.label               "Próximo mês" >
-<!ENTITY calendar.prevmonth.label               "Mês anterior" >
-<!ENTITY calendar.nextmonth.accesskey           "x" >
-<!ENTITY calendar.prevmonth.accesskey           "n" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Avançar um dia" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Recuar um dia" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Avançar uma semana" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Recuar uma semana" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Avançar um mês" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Recuar um mês" >
-
 <!ENTITY calendar.newevent.button.label         "Novo evento" >
 <!ENTITY calendar.newtask.button.label          "Nova tarefa" >
-
-<!ENTITY calendar.day.button.label              "Dia" >
-<!ENTITY calendar.week.button.label             "Semana" >
-<!ENTITY calendar.month.button.label            "Mês" >
-<!ENTITY calendar.multiweek.button.label        "Semanal" >
 
 <!ENTITY calendar.onlyworkday.checkbox.label    "Somente dias úteis" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "o" >
@@ -275,8 +206,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "R">
 <!ENTITY calendar.context.unsubscribeserver.label      "Cancelar inscrição em agenda…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "n">
-<!ENTITY calendar.context.synccalendars.label          "Sincronizar agendas">
-<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "Publicar agenda…">
 <!ENTITY calendar.context.publish.accesskey            "u">
 <!ENTITY calendar.context.export.label                 "Exportar agenda…">

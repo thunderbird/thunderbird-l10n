@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-
 <!ENTITY title.label "Tèarainteachd na teachdaireachd">
 <!ENTITY subject.plaintextWarning "An aire: Cha bhi loidhnichean cuspair de theachdaireachdan puist-dhealain air an crioptachadh idir.">
 <!ENTITY status.heading "Thàid susbaint do theachdaireachd a chur mar seo:">

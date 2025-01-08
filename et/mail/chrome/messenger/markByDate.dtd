@@ -2,8 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY messageMarkByDate.label   "Kirjad märgitakse loetuks kuupäeva järgi">
-<!ENTITY markByDateLower.label     "Kirjad märgitakse loetuks alates:">
+<!ENTITY messageMarkByDate.label "Kirjad märgitakse loetuks kuupäeva järgi">
+<!ENTITY markByDateLower.label "Kirjad märgitakse loetuks alates:">
 <!ENTITY markByDateLower.accesskey "l">
-<!ENTITY markByDateUpper.label     "kuni:">
+<!ENTITY markByDateUpper.label "kuni:">
 <!ENTITY markByDateUpper.accesskey "K">

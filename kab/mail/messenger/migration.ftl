@@ -10,6 +10,3 @@ migration-progress-header = Aheyyi n { -brand-short-name }…
 # These strings are displayed to the user if a migration is taking a long time.
 # They should be short (no more than a handful of words) and in the present tense.
 
-migration-task-test-fast = Asekyed n usnifel arurad
-migration-task-test-slow = Asekyed n usnifel ẓẓayen
-migration-task-test-progress = Asekyed n ufeggag n tiddin

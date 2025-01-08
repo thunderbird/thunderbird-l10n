@@ -6,6 +6,6 @@
 <!ENTITY  newMessageCmd.key               "M">
 <!ENTITY  newMessageCmd.label             "Laiškas">
 <!ENTITY  newMessageCmd.accesskey         "L">
- 
+
 <!ENTITY  newContactCmd.label             "Adresatas">
 <!ENTITY  newContactCmd.accesskey         "A">

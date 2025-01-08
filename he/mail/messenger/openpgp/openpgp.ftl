@@ -5,9 +5,6 @@
 e2e-advanced-section = הגדרות מתקדמות
 openpgp-key-id-label =
     .label = מזהה מפתח
-openpgp-cannot-change-expiry = זהו מפתח עם מבנה מורכב, שינוי תאריך התפוגה שלו אינו נתמך.
-openpgp-key-man-title =
-    .title = מנהל מפתחות OpenPGP
 openpgp-key-man-dialog-title = מנהל מפתחות OpenPGP
 openpgp-key-man-file-menu =
     .label = קובץ
@@ -24,6 +21,8 @@ openpgp-key-man-generate-menu =
 openpgp-key-man-ctx-copy =
     .label = העתקה
     .accesskey = ה
+# Variables:
+# $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
     .label =
         { $count ->
@@ -31,6 +30,8 @@ openpgp-key-man-ctx-copy-fprs =
            *[other] טביעות אצבע
         }
     .accesskey = ט
+# Variables:
+# $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
     .label =
         { $count ->
@@ -38,6 +39,8 @@ openpgp-key-man-ctx-copy-key-ids =
            *[other] מזהי מפתח
         }
     .accesskey = מ
+# Variables:
+# $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
     .label =
         { $count ->
@@ -134,9 +137,9 @@ openpgp-radio-none-desc = לא להשתמש ב־OpenPGP עבור זהות זו.
 openpgp-radio-key-not-usable = מפתח זה אינו שמיש כמפתח אישי, כי המפתח הסודי חסר!
 openpgp-radio-key-not-accepted = כדי להשתמש במפתח זה עליך לאשר אותו כמפתח אישי!
 openpgp-radio-key-not-found = מפתח זה לא נמצא! אם ברצונך להשתמש בו, עליך לייבא אותו אל { -brand-short-name }.
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = יפוג בתאריך: { $date }
-#   $key (String) - the expiration date of the OpenPGP key
+#   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = פג בתאריך: { $date }
 openpgp-key-expires-within-6-months-icon =
     .title = תוקף המפתח יפוג בעוד פחות מ־6 חודשים
@@ -153,10 +156,11 @@ key-external-label = מפתח GnuPG חיצוני
 
 ## Strings in keyDetailsDlg.xhtml
 
-# Strings in keyDetailsDlg.xhtml
 key-type-public = מפתח ציבורי
 key-type-primary = מפתח ראשי
 key-type-subkey = מפתח משנה
+# Variables:
+# $keyExpiry (String) - Date the key expired on.
 key-expired-date = תוקף המפתח פג ב־{ $keyExpiry }
 key-expired-simple = פג תוקף המפתח
 
@@ -166,16 +170,31 @@ key-expired-simple = פג תוקף המפתח
 ## Strings in keyserver.jsm
 
 
+## Strings in keyserver.sys.mjs
+
+
 ## Strings in mimeWkdHandler.jsm
+
+
+## Strings in mimeWkdHandler.sys.mjs
 
 
 ## Strings in persistentCrypto.jsm
 
 
+## Strings in persistentCrypto.sys.mjs
+
+
 ## Strings filters.jsm
 
 
+## Strings filters.sys.mjs
+
+
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 
 ## Strings in enigmailKeyImportInfo.js
@@ -193,31 +212,64 @@ key-expired-simple = פג תוקף המפתח
 ## $keyId (String) - Key id for the key entry.
 
 
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
+
 ## Strings in gnupg-keylist.jsm
+
+
+## Strings in gnupg-keylist.sys.mjs
 
 
 ## Strings in key.jsm
 
 
+## Strings in key.sys.mjs
+
+
 ## Strings in keyRing.jsm & decryption.jsm
+
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 
 ## Strings used in errorHandling.jsm
 
 
+## Strings used in errorHandling.sys.mjs
+
+
 ## Strings used in enigmailKeyManager.js & windows.jsm
+
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
 
 
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
+
+
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 
 ## Strings used in keyRing.jsm
 
 
+## Strings used in keyRing.sys.mjs
+
+
 ## Strings used in trust.jsm
+
+
+## Strings used in trust.sys.mjs
 
 
 ## Strings used in commonWorkflows.js
@@ -236,19 +288,31 @@ expiry-too-long = לא ניתן ליצור מפתח שתוקפו יפוג בעו
 ## Strings used in decryption.jsm
 
 
-## Strings used in enigmailMsgHdrViewOverlay.js
+## Strings used in decryption.sys.mjs
 
 
 ## Strings used in encryption.jsm
 
 
+## Strings used in encryption.sys.mjs
+
+
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 
 ## Strings used in dialog.jsm
 
 
+## Strings used in dialog.sys.mjs
+
+
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 
 ## Strings used in enigmailMsgBox.js

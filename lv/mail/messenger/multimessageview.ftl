@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Vēstules kopsavilkums
-selected-messages-label =
-    .label = Atlasītās vēstules
 multi-message-archive-button =
     .label = Arhivēt
     .tooltiptext = Arhivēt

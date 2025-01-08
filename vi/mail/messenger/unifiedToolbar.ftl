@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Tìm kiếm
-search-bar-item =
-    .label = Tìm kiếm:
 search-bar-item2 =
     .label = Tìm kiếm
 search-bar-placeholder = Tìm kiếm…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Chỉ văn bản
 customize-cancel = Hủy bỏ
 customize-save = Lưu
 customize-unsaved-changes = Các thay đổi chưa được lưu trong các không gian khác
-customize-search-bar =
-    .label = Các nút trên thanh công cụ tìm kiếm…
 customize-search-bar2 =
     .label = Các nút trên thanh công cụ tìm kiếm
     .placeholder = Các nút trên thanh công cụ tìm kiếm…

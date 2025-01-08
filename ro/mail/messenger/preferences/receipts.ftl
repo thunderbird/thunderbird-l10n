@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-receipts-dialog-window =
-    .title = Confirmări de primire
 receipts-dialog-title = Confirmări de primire
 receipt-arrive-label = Când sosește o confirmare:
 receipt-request-label = Când mi se cere confirmare de primire:

@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Lykilorð
     .accesskey = k
     .title = Valkvætt, verður einungis notað til að fullgilda notandanafnið
-account-provisioner-button = Fáðu nýtt netfang
-    .accesskey = F
 account-setup-password-toggle-show =
     .title = Sýna lykilorð í hreinum texta
 account-setup-password-toggle-hide =
@@ -146,7 +144,6 @@ account-setup-credentials-incomplete = Auðkenning mistókst. Annaðhvort eru vi
 account-setup-credentials-wrong = Auðkenning mistókst. Athugaðu notandanafnið og lykilorðið
 account-setup-find-settings-failed = { -brand-short-name } fann ekki stillingarnar fyrir tölvupóstreikninginn þinn
 account-setup-exchange-config-unverifiable = Ekki var hægt að staðfesta uppsetningu. Ef notendanafnið þitt og lykilorðið þitt er rétt er líklegt að kerfisstjóri netþjónsins hafi gert valda uppsetningu fyrir reikninginn þinn óvirka. Prófaðu að velja aðra samskiptareglu.
-account-setup-provisioner-error = Villa kom upp við að setja upp nýja reikninginn þinn í { -brand-short-name }. Reyndu að setja upp reikninginn þinn handvirkt með auðkennum þínum.
 
 ## Manual configuration area
 
@@ -277,6 +274,8 @@ account-setup-calendar-name-input =
 account-setup-calendar-color-label = Litur
 account-setup-calendar-refresh-label = Endurlesa
 account-setup-calendar-refresh-manual = Handvirkt
+# Variables:
+# $count (Number) - Number of minutes in the calendar refresh interval.
 account-setup-calendar-refresh-interval =
     { $count ->
         [one] Á mínútu fresti

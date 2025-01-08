@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Tyhjennä">
 <!ENTITY encryption.certificate_clear.accesskey "y">
 <!ENTITY signingGroupTitle.label "Digitaalinen allekirjoittaminen">
-
 <!ENTITY signingCert2.message "Henkilökohtainen varmenne digitaaliseen allekirjoittamiseen:">
 
 <!ENTITY sendingDefaults.label "Viestien lähettämisen oletusasetukset">

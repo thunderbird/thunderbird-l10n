@@ -7,8 +7,6 @@
 
 tree-list-view-column-picker =
     .title = Изаберите које колоне треба приказати
-tree-list-view-column-picker-restore =
-    .label = Врати редослед колона
 tree-list-view-row-flagged =
     .alt = Показивач порука са звездицом
     .title = Порука има звездицу

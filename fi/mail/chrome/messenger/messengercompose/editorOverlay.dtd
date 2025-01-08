@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Taulukon ominaisuudet…">
 <!ENTITY tableProperties.accesskey "T">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Kuva">
 <!ENTITY imageToolbarCmd.tooltip "Lisää uusi kuva tai muokkaa valitun kuvan ominaisuuksia">
 <!ENTITY hruleToolbarCmd.label "Vaakaviiva">

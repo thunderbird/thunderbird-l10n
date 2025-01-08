@@ -3,8 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY identitiesListManageDesc.label "Správa identít pre tento účet. Ako predvolená sa používa prvá identita.">
-<!ENTITY identitiesListAdd.label "Pridať…">
-<!ENTITY identitiesListAdd.accesskey "P">
+<!ENTITY identitiesListAdd.label  "Pridať…">
+<!ENTITY identitiesListAdd.accesskey  "P">
 <!ENTITY identitiesListEdit.label "Upraviť…">
 <!ENTITY identitiesListEdit.accesskey "U">
 <!ENTITY identitiesListDefault.label "Nastaviť ako predvolenú">

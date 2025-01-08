@@ -10,12 +10,6 @@ reminder-title-at-start-event = Çasti kur fillon veprimtaria
 reminder-title-at-start-task = Çasti kur fillon puna
 reminder-title-at-end-event = Çasti kur veprimtaria përfundon
 reminder-title-at-end-task = Çasti kur puna përfundon
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Ripërsërite kujtuesin pas { $unit }
 reminder-custom-origin-begin-before-event = përpara se të fillojë veprimtaria
 reminder-custom-origin-begin-after-event = pasi të fillojë veprimtaria
 reminder-custom-origin-end-before-event = përpara se të përfundojë veprimtaria

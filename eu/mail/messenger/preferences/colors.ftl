@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Koloreak
 colors-dialog-title = Koloreak
 colors-dialog-legend = Testua eta atzeko planoa
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Bisitatutako loturak:
     .accesskey = B
-underline-link-checkbox =
-    .label = Azpimarratu loturak
-    .accesskey = z
 always-underline-links =
     .label = Beti azpimarratu loturak
     .accesskey = t

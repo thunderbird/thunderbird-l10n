@@ -36,6 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "R">
 <!ENTITY helpButton.label "Cymorth">
 <!ENTITY helpButton.accesskey "y">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Chwilio yn ôl enw…">
-

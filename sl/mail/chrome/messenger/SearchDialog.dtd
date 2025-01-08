@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- for SearchDialog.xul -->
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "Išči po sporočilih v:">
 <!ENTITY searchHeading.accesskey     "č">
 <!ENTITY searchSubfolders.label      "Išči v podmapah">
@@ -25,7 +25,7 @@
 <!ENTITY saveAsVFButton.label        "Shrani kot iskalno mapo">
 <!ENTITY saveAsVFButton.accesskey    "S">
 
-<!-- for ABSearchDialog.xul -->
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "Išči v:">
 <!ENTITY abSearchHeading.accesskey   "š">
 <!ENTITY propertiesButton.label      "Lastnosti">
@@ -35,4 +35,3 @@
 <!ENTITY deleteCardButton.label      "Izbriši">
 <!ENTITY deleteCardButton.accesskey  "b">
 <!ENTITY abSearchDialogTitle.label   "Napredno iskanje v imeniku">
-

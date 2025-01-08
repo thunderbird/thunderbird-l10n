@@ -11,9 +11,3 @@
 <!-- Calendar Invitations List -->
 <!ENTITY calendar.invitations.list.accept.button.label                  "Acceptera">
 <!ENTITY calendar.invitations.list.decline.button.label                 "Neka">
-<!ENTITY calendar.invitations.list.recurrentevent.text                  "Återkommande händelse">
-<!ENTITY calendar.invitations.list.alldayevent.text                     "Heldagshändelse">
-<!ENTITY calendar.invitations.list.location.text                        "Plats: ">
-<!ENTITY calendar.invitations.list.organizer.text                       "Organisatör: ">
-<!ENTITY calendar.invitations.list.attendee.text                        "Deltagare: ">
-<!ENTITY calendar.invitations.list.none.text                            "Ingen">

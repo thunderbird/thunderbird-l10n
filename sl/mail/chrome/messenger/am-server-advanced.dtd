@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "D">
 <!ENTITY overrideNamespaces.label "Omogoči strežniku, da razveljavi ta imenski prostor">
 <!ENTITY overrideNamespaces.accesskey "č">
-<!ENTITY pop3DeferringDesc.label "Ob prenašanju pošte iz strežnika tega računa uporabi naslednjo mapo za shranjevanje novih sporočil:" >
+<!ENTITY pop3DeferringDesc.label "Ob prenašanju pošte iz strežnika tega računa uporabi naslednjo mapo za shranjevanje novih sporočil:">
 <!ENTITY accountInbox.label "Prejeto za ta račun">
 <!ENTITY accountInbox.accesskey "a">
 <!ENTITY deferToServer.label "Prejeto za drug račun">

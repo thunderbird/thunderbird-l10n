@@ -14,5 +14,5 @@
 <!ENTITY tabCSS.label                   "Inline styl">
 <!ENTITY tabJSE.label                   "JavaSkript-aksjes">
 
-<!ENTITY editAttribute.label    		"Klik op in ûnderdiel hjirboppe om de wearde oan te passen">
-<!ENTITY removeAttribute.label  		"Fuortsmite">
+<!ENTITY editAttribute.label    "Klik op in ûnderdiel hjirboppe om de wearde oan te passen">
+<!ENTITY removeAttribute.label  "Fuortsmite">

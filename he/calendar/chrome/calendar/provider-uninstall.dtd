@@ -10,4 +10,3 @@
 <!ENTITY providerUninstall.preName.label                   "ביקשת להסיר או לנטרל:">
 <!ENTITY providerUninstall.postName.label                  "פעולה זו תרגום לנטרול היומנים שלהלן.">
 <!ENTITY providerUninstall.reinstallNote.label             "אלא אם כן אתה מתכנן להתקין ספק זה מחדש, תוכל לבחור בביטול המינוי מהיומנים של ספק זה.">
-

@@ -42,8 +42,6 @@ toolbar-junk-label = Draza
 toolbar-junk =
     .title = Atzīmēt atlasītās vēstules kā drazu
 toolbar-delete-label = Dzēst
-toolbar-delete =
-    .title = Dzēst mapē atlasītās vēstules
 toolbar-compact-label = Saspiest
 toolbar-compact =
     .title = Noņemt dzēstās vēstules no atlasītās mapes
@@ -79,3 +77,6 @@ toolbar-stop =
 toolbar-throbber-label = Darbību rādītājs
 toolbar-throbber =
     .title = Darbību rādītājs
+
+## New Address Book popup items
+

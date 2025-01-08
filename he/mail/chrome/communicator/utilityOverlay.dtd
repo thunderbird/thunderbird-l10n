@@ -30,13 +30,3 @@
 <!ENTITY closeCmd.label      "סגירה">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "ג">
-
-<!ENTITY quitApplicationCmd.label  "יציאה">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "צ">
-
-<!ENTITY quitApplicationCmdUnix.label  "יציאה">
-<!ENTITY quitApplicationCmdUnix.accesskey  "צ">
-
-<!ENTITY quitApplicationCmdMac.label  "יציאה מ־&brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "q">

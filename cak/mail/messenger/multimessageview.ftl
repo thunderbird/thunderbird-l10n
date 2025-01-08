@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Kich'utitzijol Tzijol
-selected-messages-label =
-    .label = Cha'on taq Tzijol
 multi-message-archive-button =
     .label = Tiyak
     .tooltiptext = Tiyak

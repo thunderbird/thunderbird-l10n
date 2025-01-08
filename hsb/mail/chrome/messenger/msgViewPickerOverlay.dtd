@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 
-
 <!ENTITY viewPicker.label "Napohlad:">
 <!ENTITY viewPicker.accesskey "N">
 <!ENTITY viewAll.label "Wšě">

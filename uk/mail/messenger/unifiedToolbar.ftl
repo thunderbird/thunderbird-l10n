@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Пошук
-search-bar-item =
-    .label = Пошук:
 search-bar-item2 =
     .label = Пошук
 search-bar-placeholder = Пошук…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Тільки текст
 customize-cancel = Скасувати
 customize-save = Зберегти
 customize-unsaved-changes = Незбережені зміни в інших місцях
-customize-search-bar =
-    .label = Шукати кнопки панелі інструментів…
 customize-search-bar2 =
     .label = Кнопки панелі пошуку
     .placeholder = Кнопки панелі пошуку…

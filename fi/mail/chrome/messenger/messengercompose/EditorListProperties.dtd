@@ -4,17 +4,17 @@
 
 
 <!-- Window title -->
-<!ENTITY windowTitle.label  "Listan ominaisuudet">
+<!ENTITY windowTitle.label "Listan ominaisuudet">
 
-<!ENTITY ListType.label  "Listan tyyppi">
-<!ENTITY bulletStyle.label  "Numeroimaton tyyli:">
-<!ENTITY startingNumber.label  "Aloita kohdasta:">
-<!ENTITY startingNumber.accessKey  "A">
-<!ENTITY none.value  "Ei mitään">
-<!ENTITY bulletList.value  "Numeroimaton lista">
-<!ENTITY numberList.value  "Numeroitu lista">
-<!ENTITY definitionList.value  "Määritelmälista">
-<!ENTITY changeEntireListRadio.label  "Vaihda koko lista">
-<!ENTITY changeEntireListRadio.accessKey  "V">
-<!ENTITY changeSelectedRadio.label  "Vaihda vain valitut kohdat">
-<!ENTITY changeSelectedRadio.accessKey  "a">
+<!ENTITY ListType.label "Listan tyyppi">
+<!ENTITY bulletStyle.label "Numeroimaton tyyli:">
+<!ENTITY startingNumber.label "Aloita kohdasta:">
+<!ENTITY startingNumber.accessKey "A">
+<!ENTITY none.value "Ei mitään">
+<!ENTITY bulletList.value "Numeroimaton lista">
+<!ENTITY numberList.value "Numeroitu lista">
+<!ENTITY definitionList.value "Määritelmälista">
+<!ENTITY changeEntireListRadio.label "Vaihda koko lista">
+<!ENTITY changeEntireListRadio.accessKey "V">
+<!ENTITY changeSelectedRadio.label "Vaihda vain valitut kohdat">
+<!ENTITY changeSelectedRadio.accessKey "a">

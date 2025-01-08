@@ -6,5 +6,3 @@
 <!ENTITY anchorNameEditField.label "Nom de l’ancre :">
 <!ENTITY anchorNameEditField.accessKey "N">
 <!ENTITY nameInput.tooltip "Choisissez un nom unique pour cette ancre nommée (cible)">
-
-

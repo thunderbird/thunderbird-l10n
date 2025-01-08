@@ -121,14 +121,6 @@ appmenu-addons-and-themes =
 mail-context-menu-forward-forward =
     .label = העבר
     .accesskey = ע
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] בטל מחיקת הודעה
-           *[other] בטל מחיקת הודעות נבחרות
-        }
 
 ## Message header pane
 
@@ -151,9 +143,11 @@ toolbar-context-menu-remove-extension =
 ## Add-on removal warning
 
 # Variables:
-#  $name (String): The name of the addon that will be removed.
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-title = להסיר את { $name }?
 addon-removal-confirmation-button = הסרה
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = להסיר את { $name } לרבות הגדרות התצורה והנתונים שלה מ־{ -brand-short-name }?
 caret-browsing-prompt-title = דפדוף בעזרת סמן
 caret-browsing-prompt-text = לחיצה על F7 מפעילה או מכבה את הדפדוף בעזרת הסמן. תכונה זו ממקמת את הסמן בתוך תכנים מסויימים, ומאפשרת לך לסמן טקסט באמצעות המקלדת. האם ברצונך להפעיל את הדפדוף בעזרת הסמן?
@@ -185,7 +179,7 @@ quick-filter-bar-toggle =
     .label = סרגל סינון מהיר
     .accesskey = ס
 # This is the key used to show the quick filter bar.
-# This should match quick-filter-bar-textbox-shortcut in about3Pane.ftl.
+# This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = ס
 

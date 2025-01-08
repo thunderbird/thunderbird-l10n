@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Пароль
     .accesskey = П
     .title = Необов’язково, потрібен лише для перевірки імені користувача
-account-provisioner-button = Отримати нову електронну адресу
-    .accesskey = О
 account-setup-password-toggle-show =
     .title = Показати пароль відкритим текстом
 account-setup-password-toggle-hide =
@@ -147,7 +145,6 @@ account-setup-credentials-incomplete = Помилка автентифікаці
 account-setup-credentials-wrong = Помилка автентифікації. Перевірте ім’я користувача та пароль
 account-setup-find-settings-failed = { -brand-short-name } не може знайти налаштування для вашого облікового запису електронної пошти
 account-setup-exchange-config-unverifiable = Не вдалося перевірити конфігурацію. Якщо ваше ім’я користувача та пароль правильні, ймовірно, що адміністратор сервера вимкнув вибрану конфігурацію для вашого облікового запису. Спробуйте вибрати інший протокол.
-account-setup-provisioner-error = Під час налаштування нового облікового запису в { -brand-short-name } сталася помилка. Будь ласка, спробуйте вручну налаштувати свій обліковий запис за допомогою своїх облікових даних.
 
 ## Manual configuration area
 

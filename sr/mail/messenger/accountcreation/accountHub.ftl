@@ -40,7 +40,6 @@ account-hub-sync-button = Пријавите се на Sync…
 
 ## Email page
 
-account-hub-email-title = Подесите налог за е-пошту
 account-hub-email-cancel-button = Откажи
 account-hub-email-stop-button = Заустави
 account-hub-email-back-button = Назад
@@ -75,4 +74,3 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-label = Начин пријаве
 account-hub-username-label = Корисничко име
 account-hub-adding-account-title = Додајем налог
-account-hub-account-added-title = Налог је додат

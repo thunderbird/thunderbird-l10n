@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Scadenza
 openpgp-key-id-label =
     .label = ID da clav
-openpgp-cannot-change-expiry = Quai è ina clav cun ina structura cumplexa. La midada da sia data da scadenza na vegn betg sustegnida.
-openpgp-key-man-title =
-    .title = Administraziun da clavs OpenPGP
 openpgp-key-man-dialog-title = Administraziun da clavs OpenPGP
 openpgp-key-man-generate =
     .label = Nov pèr da clavs
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Certificat da revocaziun
     .accesskey = r
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Generar e memorisar in certificat da revocaziun
 openpgp-key-man-gen-revocation =
     .label = Memorisar il certificat da revocaziun en ina datoteca
     .accesskey = c
@@ -489,8 +484,6 @@ filter-encrypt-label = Criptar cun la clav (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Importà las clavs cun success
 import-info-dialog-title = Importà las clavs cun success
 import-info-bits = Bits
 import-info-created = Creà
@@ -650,9 +643,6 @@ no-update-found = Ti has gia las clavs ch'èn vegnidas chattadas online.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Errur – il cumond d'extracziun da la clav n'è betg reussì
@@ -783,15 +773,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Ti has definì il sigl da lingia suenter { $width } caracters. Per criptar e signar correctamain sto questa valur esser almain 68.
     Vuls ti ussa definir il sigl da lingia suenter 68 caracters?
-sending-news =
-    Annullà l'operaziun da spediziun criptada.
-    Quest messadi na po betg vegnir criptà perquai ch'el cuntegna destinaturs ch'èn gruppas da discussiun. Trametta per plaschair anc ina giada il messadi senza criptadi.
-send-to-news-warning =
-    Attenziun! Ti londervi da trametter in e-mail criptà ad ina gruppa da discussiun.
-    Quai n'è betg recumandabel, perquai ch'i ha mo senn sche tut ils commembers da la gruppa pon decriptar il messadi. Damai sto il messadi esser criptà cun las clavs da tut ils commembers da la gruppa. Trametta per plaschair mo quest messadi sche ti sas exact tge che ti fas.
-    Cuntinuar?
 save-attachment-header = Memorisar l'agiunta decriptada
-possibly-pgp-mime = Il messadi è probablamain criptà u signà cun PGP/MIME: utilisar la funcziun «Decriptar/verifitgar»
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Impussibel da signar digitalmain quest messadi perquai che ti n'has anc betg configurà il criptadi da fin a fin per <{ $key }>
@@ -845,15 +827,6 @@ debug-log-title = Log da debugadi OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Quest avertiment vegn repetì { $count }
-repeat-suffix-singular = giada.
-repeat-suffix-plural = giadas.
-no-repeat = Quest avertiment na vegn betg pli mussà.
-dlg-keep-setting = Tegnair endament mia resposta e betg pli ma dumandar
 
 ## Strings used in dialog.sys.mjs
 
@@ -863,8 +836,6 @@ dlg-button-cancel = &Interrumper
 dlg-no-prompt = Betg pli ma mussar quest dialog
 enig-prompt = Dialog OpenPGP
 enig-confirm = Conferma OpenPGP
-enig-alert = Avertiment OpenPGP
-enig-info = Infurmaziun OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 

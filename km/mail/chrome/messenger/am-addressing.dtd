@@ -2,9 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xul -->
-
-
 <!-- extracted from am-addressing.xhtml -->
 
 <!ENTITY addressing.label          "Composition &amp; Addressing">
@@ -20,9 +17,6 @@
 <!ENTITY directories.accesskey     "d">
 <!ENTITY directoriesNone.label     "Ոչինչ">
 
-<!-- am-addressing.xul -->
-
-
 <!-- am-addressing.xhtml -->
 
 <!ENTITY compositionGroupTitle.label          "Նամակը">
@@ -31,6 +25,7 @@
 <!ENTITY useHtml.accesskey                    "C">
 <!ENTITY autoQuote.label                      "Պատասխանելիս մեջներել բնօրինակ նամակը">
 <!ENTITY autoQuote.accesskey                  "m">
+<!-- LOCALIZATION NOTE (quoting.label): This will concatenate with the 4 strings that follow. -->
 <!ENTITY aboveQuote.label                     "պատասխանել մեջբերումից առաջ">
 <!ENTITY belowQuote.label                     "պատասխանել մեջբերումից հետո">
 <!ENTITY selectAndQuote.label                 "ընտրել մեջբերումը">

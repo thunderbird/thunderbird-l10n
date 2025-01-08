@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "A">
 <!ENTITY overrideNamespaces.label "Server erlauben, diese Namensräume zu übergehen">
 <!ENTITY overrideNamespaces.accesskey "e">
-<!ENTITY pop3DeferringDesc.label "Neue heruntergeladene Nachrichten für dieses Konto in folgendem Ordner speichern:" >
+<!ENTITY pop3DeferringDesc.label "Neue heruntergeladene Nachrichten für dieses Konto in folgendem Ordner speichern:">
 <!ENTITY accountInbox.label "Posteingang für dieses Konto">
 <!ENTITY accountInbox.accesskey "d">
 <!ENTITY deferToServer.label "Posteingang eines anderen Kontos">

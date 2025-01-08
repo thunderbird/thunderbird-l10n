@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Kontohaldur">
-<!ENTITY accountWizard.size "width: 40em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Sisesta oma (NNTP) uudisteserveri aadress (näiteks &quot;uudised.puust.punaseks.ee&quot;).">
 <!ENTITY newsServerLabel.label "Uudistegruppide server:">
 <!ENTITY newsServerLabel.accesskey "U">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

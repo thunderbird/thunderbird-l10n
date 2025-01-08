@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-
 <!ENTITY title.label "Хабарлама қауіпсіздігі">
 <!ENTITY subject.plaintextWarning "Есіңізде болсын: Эл. пошта хатының тақырып өрісі ешқашан шифрленбейді.">
 <!ENTITY status.heading "Хабарламаңыздың құрамасы келесідей жіберіледі:">

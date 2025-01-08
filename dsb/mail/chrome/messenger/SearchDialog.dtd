@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- for SearchDialog.xul -->
 
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "Powěsći pytaś w:">
 <!ENTITY searchHeading.accesskey     "P">
 <!ENTITY searchSubfolders.label      "Pódzarědniki pśepytaś">
@@ -19,13 +19,13 @@
 <!ENTITY results.label               "Wuslědki">
 <!ENTITY moveButton.label            "Pśesunuś do">
 <!ENTITY moveButton.accesskey        "P">
-<!ENTITY closeCmd.key                "W"> 
+<!ENTITY closeCmd.key                "W">
 <!ENTITY openInFolder.label          "W zarědniku wócyniś">
 <!ENTITY openInFolder.accesskey      "z">
 <!ENTITY saveAsVFButton.label        "Ako pytański zarědnik składowaś">
 <!ENTITY saveAsVFButton.accesskey    "A">
-<!-- for ABSearchDialog.xul -->
 
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "Pytaś w:">
 <!ENTITY abSearchHeading.accesskey   "t">
 <!ENTITY propertiesButton.label      "Kakosći">
@@ -35,7 +35,3 @@
 <!ENTITY deleteCardButton.label      "Wulašowaś">
 <!ENTITY deleteCardButton.accesskey  "l">
 <!ENTITY abSearchDialogTitle.label   "Rozšyrjone adresnikowe pytanje">
-<!-- Thread Pane -->
-
-<!-- Thread Pane Tooltips -->
-

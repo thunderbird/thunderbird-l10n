@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Хабарлама қорытындысы
-selected-messages-label =
-    .label = Таңдалған хабарламалар
 multi-message-archive-button =
     .label = Архивтеу
     .tooltiptext = Архивтеу

@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "A">
 <!ENTITY overrideNamespaces.label "Tillåt att servern bestämmer">
 <!ENTITY overrideNamespaces.accesskey "T">
-<!ENTITY pop3DeferringDesc.label "När du hämtar e-post från det här kontots server, använd följande mapp för att lagra nya meddelanden:" >
+<!ENTITY pop3DeferringDesc.label "När du hämtar e-post från det här kontots server, använd följande mapp för att lagra nya meddelanden:">
 <!ENTITY accountInbox.label "Inkorgen för det här kontot">
 <!ENTITY accountInbox.accesskey "h">
 <!ENTITY deferToServer.label "Inkorgen för ett annat konto">

@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Маленькі піктограми">
 <!ENTITY restoreDefaultSet.label  "Відновити типові">
 <!ENTITY showTitlebar2.label      "Панель заголовка">
-<!ENTITY extraDragSpace2.label    "Місце для перетягування">
 <!ENTITY saveChanges.label        "Готово">
 <!ENTITY undoChanges.label        "Скасувати зміни">

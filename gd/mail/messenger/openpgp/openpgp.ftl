@@ -35,9 +35,6 @@ openpgp-key-expiry-label =
     .label = Falbhadh an ùine air
 openpgp-key-id-label =
     .label = ID na h-iuchrach
-openpgp-cannot-change-expiry = Seo iuchair aig a bheil structar toinnte, chan urrainn dhut an ceann-là a dh’fhalbhas an ùine air atharrachadh.
-openpgp-key-man-title =
-    .title = Manaidsear iuchraichean OpenPGP
 openpgp-key-man-dialog-title = Manaidsear iuchraichean OpenPGP
 openpgp-key-man-generate =
     .label = Paidhir iuchraichean ùr
@@ -45,8 +42,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Teisteanas ais-ghairm
     .accesskey = T
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Gin ⁊ sàbhail an teisteanas ais-ghairm
 openpgp-key-man-file-menu =
     .label = Faidhle
     .accesskey = F
@@ -111,8 +106,6 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Cuir iuchair phoblach air a’ phost-d
     .accesskey = s
-openpgp-key-man-ctx-expor-to-file-label =
-    .label = Às-phortaich iuchraichean ann am faidhle
 openpgp-key-man-ctx-copy =
     .label = Lethbhreac
     .accesskey = L
@@ -337,6 +330,9 @@ window-locked = Tha an uinneag sgrìobhaidh glaiste; sguireadh dhen chur
 
 ## Strings in keyserver.jsm
 
+
+## Strings in keyserver.sys.mjs
+
 keyserver-error-aborted = Sguireadh dheth
 keyserver-error-unknown = Thachair mearachd neo-aithnichte
 keyserver-error-server-error = Rinn am frithealaiche iuchraichean aithris air mearachd.
@@ -348,6 +344,9 @@ keyserver-error-unsupported = Chan eil taic ris an fhrithealaiche iuchraichean.
 
 ## Strings in mimeWkdHandler.jsm
 
+
+## Strings in mimeWkdHandler.sys.mjs
+
 wkd-message-body-req =
     Dhèilig an solaraiche puist-d agad ris an iarrtas agad agus luchdaich e suas an iuchair phoblach agad gu eòlaire iuchraichean-lìn OpenPGP.
     Dèan dearbhadh gu bheil thu airson foillseachadh na h-iuchrach phoblach agad a choileanadh.
@@ -356,6 +355,9 @@ wkd-message-body-process =
     Cha leig thu leas dad a dhèanamh de làimh aig an ìre-sa.
 
 ## Strings in persistentCrypto.jsm
+
+
+## Strings in persistentCrypto.sys.mjs
 
 # Variables:
 # $subject (String) - Subject of the message.
@@ -366,9 +368,15 @@ converter-decrypt-body-failed =
 
 ## Strings filters.jsm
 
+
+## Strings filters.sys.mjs
+
 filter-folder-required = Feumaidh tu pasgan targaide a thaghadh.
 
 ## Strings filtersWrapper.jsm
+
+
+## Strings filtersWrapper.sys.mjs
 
 
 ## Strings in enigmailKeyImportInfo.js
@@ -386,31 +394,64 @@ filter-folder-required = Feumaidh tu pasgan targaide a thaghadh.
 ## $keyId (String) - Key id for the key entry.
 
 
+## Strings in keyObj.sys.mjs
+## Variables:
+## $userId (String) - The name and/or email address that is mentioned in the key's information.
+## $keyId (String) - Key id for the key entry.
+
+
 ## Strings in gnupg-keylist.jsm
+
+
+## Strings in gnupg-keylist.sys.mjs
 
 
 ## Strings in key.jsm
 
 
+## Strings in key.sys.mjs
+
+
 ## Strings in keyRing.jsm & decryption.jsm
+
+
+## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 
 ## Strings used in errorHandling.jsm
 
 
+## Strings used in errorHandling.sys.mjs
+
+
 ## Strings used in enigmailKeyManager.js & windows.jsm
+
+
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 
 ## Strings used in keyRing.jsm & keyLookupHelper.jsm
 
 
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
+
+
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
+
+
+## Strings used in keyRing.sys.mjs
 
 
 ## Strings used in keyRing.jsm
 
 
+## Strings used in keyRing.sys.mjs
+
+
 ## Strings used in trust.jsm
+
+
+## Strings used in trust.sys.mjs
 
 
 ## Strings used in commonWorkflows.js
@@ -428,19 +469,31 @@ filter-folder-required = Feumaidh tu pasgan targaide a thaghadh.
 ## Strings used in decryption.jsm
 
 
-## Strings used in enigmailMsgHdrViewOverlay.js
+## Strings used in decryption.sys.mjs
 
 
 ## Strings used in encryption.jsm
 
 
+## Strings used in encryption.sys.mjs
+
+
 ## Strings used in windows.jsm
+
+
+## Strings used in windows.sys.mjs
 
 
 ## Strings used in dialog.jsm
 
 
+## Strings used in dialog.sys.mjs
+
+
 ## Strings used in persistentCrypto.jsm
+
+
+## Strings used in persistentCrypto.sys.mjs
 
 
 ## Strings used in enigmailMsgBox.js

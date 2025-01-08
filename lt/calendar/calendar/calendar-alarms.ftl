@@ -10,12 +10,6 @@ reminder-title-at-start-event = Įvykiui prasidedant
 reminder-title-at-start-task = Darbui prasidedant
 reminder-title-at-end-event = Įvykiui pasibaigiant
 reminder-title-at-end-task = Darbui pasibaigiant
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Atidėti priminimą { $unit }
 reminder-custom-origin-begin-before-event = prieš įvykio pradžią
 reminder-custom-origin-begin-after-event = po įvykio pradžios
 reminder-custom-origin-end-before-event = prieš įvykio pabaigą

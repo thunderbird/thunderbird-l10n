@@ -3,17 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 state-label = Verschlüsselungsstatus:
-
 start-text = Verschlüsseltes Gespräch beginnen
-
 start-label =
     .label = { start-text }
-
 start-tooltip =
     .tooltiptext = { start-text }
-
 end-label =
     .label = Verschlüsseltes Gespräch beenden
-
 auth-label =
     .label = Identität Ihres Kontaktes bestätigen

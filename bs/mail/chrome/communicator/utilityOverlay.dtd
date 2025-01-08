@@ -4,7 +4,6 @@
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
 
-
 <!ENTITY fileMenu.label          "Fajl">
 <!ENTITY fileMenu.accesskey        "F">
 <!ENTITY newMenu.label            "Novi">
@@ -29,13 +28,3 @@
 <!ENTITY closeCmd.label      "Zatvori">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "Z">
-
-<!ENTITY quitApplicationCmd.label  "Izlaz">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "z">
-
-<!ENTITY quitApplicationCmdUnix.label  "Ugasi">
-<!ENTITY quitApplicationCmdUnix.accesskey  "U">
-
-<!ENTITY quitApplicationCmdMac.label  "Zatvori &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "Z">

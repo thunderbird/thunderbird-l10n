@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Bæta við persónulegum OpenPGP-einkalykli fyrir { $identity }
-key-wizard-button =
-    .buttonlabelaccept = Halda áfram
-    .buttonlabelhelp = Fara til baka
 key-wizard-dialog =
     .buttonlabelaccept = Halda áfram
     .buttonlabelextra1 = Fara til baka
@@ -106,8 +103,6 @@ openpgp-import-key-list-caption = Lyklar sem merktir eru til að meðhöndla sem
 openpgp-import-keep-passphrases =
     .label = Halda verndun með aðgangsorðum fyrir innflutta leynilykla
 openpgp-passphrase-prompt-title = Aðgangsorðs krafist
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Settu inn aðgangsorðið til að aflæsa eftirfarandi lykli: { $key }
 openpgp-import-key-button =
     .label = Veldu skrá til að flytja inn...
     .accesskey = s

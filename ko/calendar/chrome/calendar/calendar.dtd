@@ -9,92 +9,19 @@
 <!ENTITY calendar.newevent.button.tooltip         "새 캘린더 이벤트를 만듭니다" >
 <!ENTITY calendar.newtask.button.tooltip          "새 캘린더 태스크를 만듭니다" >
 
-<!ENTITY calendar.unifinder.todoitems.label       "태스크" >
-
 <!ENTITY calendar.unifinder.showcompletedtodos.label "완료된 태스크 보이기">
 
 <!ENTITY calendar.today.button.label          "오늘">
 <!ENTITY calendar.tomorrow.button.label       "내일">
-<!ENTITY calendar.upcoming.button.label       "곧">
 
-<!ENTITY calendar.events.filter.all.label "모든 이벤트">
-<!ENTITY calendar.events.filter.today.label "오늘의 이벤트">
-<!ENTITY calendar.events.filter.future.label "이후의 모든 이벤트">
-<!ENTITY calendar.events.filter.current.label "선택한 일자의 이벤트">
-<!ENTITY calendar.events.filter.currentview.label "현재 일자의 이벤트">
-<!ENTITY calendar.events.filter.next7Days.label "다음 7일간의 이벤트">
-<!ENTITY calendar.events.filter.next14Days.label "다음 14일간의 이벤트">
-<!ENTITY calendar.events.filter.next31Days.label "다음 31일간의 이벤트">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "현재 캘린더달의 이벤트">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "완료">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "클릭하면 완료 마크로 정렬하기">
-<!ENTITY calendar.unifinder.tree.priority.label            "중요도">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "클릭하면 중요도로 정렬하기">
-<!ENTITY calendar.unifinder.tree.title.label               "제목">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "클릭하면 제목으로 정렬하기">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#37; 완료">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "클릭하면 진행 상황으로 정렬하기">
-<!ENTITY calendar.unifinder.tree.startdate.label           "개시 일자">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "클릭하면 개시 일자로 정렬하기">
-<!ENTITY calendar.unifinder.tree.enddate.label             "종료 일자">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "클릭하면 종료 일자로 정렬하기">
-<!ENTITY calendar.unifinder.tree.duedate.label             "마감 일자">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "클릭하면 마감 일자로 정렬하기">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "완료 일자">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "클릭하면 완료 일자로 정렬하기">
-<!ENTITY calendar.unifinder.tree.categories.label          "분류">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "클릭하면 분류명으로 정렬하기">
-<!ENTITY calendar.unifinder.tree.location.label            "위치">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "클릭하면 위치로 정렬하기">
-<!ENTITY calendar.unifinder.tree.status.label              "상태">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "클릭하면 상태로 정렬하기">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "캘린더 이름">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "클릭하면 캘린더 이름으로 정렬하기">
-<!ENTITY calendar.unifinder.tree.duration.label            "예정일">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "클릭하면 마감까지 시간으로 정렬하기">
-<!ENTITY calendar.unifinder.close.tooltip                  "이벤트 검색 닫기 및 이벤트 리스트">
 
 <!ENTITY calendar.today.button.tooltip          "오늘 날짜로 이동합니다" >
 <!ENTITY calendar.todaypane.button.tooltip      "오늘 일정창을 표시합니다" >
 
-<!ENTITY calendar.day.button.tooltip            "일별 보기로 전환합니다" >
-<!ENTITY calendar.week.button.tooltip           "주별 보기로 전환합니다" >
-<!ENTITY calendar.month.button.tooltip          "월별 보기로 전환합니다" >
-<!ENTITY calendar.multiweek.button.tooltip      "여러 주 보기로 전환합니다" >
-
-<!ENTITY calendar.nextday.label                 "다음 일자" >
-<!ENTITY calendar.prevday.label                 "이전 일자" >
-<!ENTITY calendar.nextday.accesskey             "x" >
-<!ENTITY calendar.prevday.accesskey             "s" >
-<!ENTITY calendar.nextweek.label                "다음 주" >
-<!ENTITY calendar.prevweek.label                "이전 주" >
-<!ENTITY calendar.nextweek.accesskey            "x" >
-<!ENTITY calendar.prevweek.accesskey            "s" >
-<!ENTITY calendar.nextmonth.label               "다음 달" >
-<!ENTITY calendar.prevmonth.label               "이전 월" >
-<!ENTITY calendar.nextmonth.accesskey           "x" >
-<!ENTITY calendar.prevmonth.accesskey           "s" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "다음 날" >
-<!ENTITY calendar.navigation.prevday.tooltip    "이전 날" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "다음 주" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "이전 주" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "다음 달" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "이전 달" >
-
 <!ENTITY calendar.newevent.button.label         "새 이벤트" >
 <!ENTITY calendar.newtask.button.label          "새 태스크" >
-<!ENTITY calendar.print.button.label            "인쇄" >
-<!ENTITY calendar.print.button.accesskey        "P">
 
-<!ENTITY calendar.day.button.label              "일별" >
-<!ENTITY calendar.week.button.label             "주별" >
-<!ENTITY calendar.month.button.label            "월별" >
-<!ENTITY calendar.multiweek.button.label        "여러 주" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "업무일만 표시" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "r" >
 <!ENTITY calendar.displaytodos.checkbox.label   "보기에 태스크 표시" >
@@ -279,8 +206,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "R">
 <!ENTITY calendar.context.unsubscribeserver.label      "캘린더 구독 취소…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "U">
-<!ENTITY calendar.context.synccalendars.label          "캘린더 동기화">
-<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "캘린더 게시…">
 <!ENTITY calendar.context.publish.accesskey            "b">
 <!ENTITY calendar.context.export.label                 "캘린더 내보내기…">
@@ -355,7 +280,6 @@
 <!ENTITY calendarproperties.color.label                    "색상:">
 <!ENTITY calendarproperties.webdav.label                   "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
-<!ENTITY calendarproperties.wcap.label                     "Sun 자바 시스템 캘린더 서버 (WCAP)">
 <!ENTITY calendarproperties.format.label                   "형식:">
 <!ENTITY calendarproperties.location.label                 "위치:">
 <!ENTITY calendarproperties.refreshInterval.label          "캘린더 업데이트:">
@@ -364,7 +288,6 @@
 <!ENTITY calendarproperties.readonly.label                 "읽기 전용">
 <!ENTITY calendarproperties.firealarms.label               "알람 보기">
 <!ENTITY calendarproperties.cache3.label                   "오프라인 지원">
-<!ENTITY calendarproperties.enabled.label                  "이 캘린더 전환: ">
 <!ENTITY calendarproperties.enabled2.label                 "이 캘린더 활성화">
 <!ENTITY calendarproperties.forceDisabled.label            "이 캘린더에 대한 공급자를 찾을 수 없습니다. 이 문제는 어떤 부가 기능을 사용 안함 또는 삭제를 했을 경우에 자주 발생할 수 있습니다.">
 <!ENTITY calendarproperties.unsubscribe.label              "해지">
@@ -376,27 +299,8 @@
 <!ENTITY calendar.publish.publish.button      "게시">
 <!ENTITY calendar.publish.close.button      "닫기">
 
-<!ENTITY calendar.publish.example.url.description   "예: http://www.myserver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "캘린더 선택">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "캘린더 인쇄">
-<!ENTITY calendar.print.title.label "제목:">
-<!ENTITY calendar.print.layout.label "배치:">
-<!ENTITY calendar.print.range.label "인쇄 항목">
-<!ENTITY calendar.print.currentView2.label "현재 보기">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "선택된 이벤트/태스크">
-<!ENTITY calendar.print.tasks.label "태스크">
-<!ENTITY calendar.print.events.label "이벤트">
-<!ENTITY calendar.print.custom.label "사용자 일자 지정:">
-<!ENTITY calendar.print.from.label "시작일:">
-<!ENTITY calendar.print.to.label "종료일:">
-<!ENTITY calendar.print.settingsGroup.label "인쇄 설정">
-<!ENTITY calendar.print.optionsGroup.label "설정">
-<!ENTITY calendar.print.taskswithnoduedate.label "종료일 없는 태스크">
-<!ENTITY calendar.print.completedtasks.label "완료된 태스크">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "자세히…">

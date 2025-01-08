@@ -15,15 +15,6 @@ room-name-empty = Κενή συνομιλία
 room-name-empty-had-name = Κενή συνομιλία (πρώην «{ $oldName }»)
 # Variables:
 #  $participant (String) - The name of one participant that isn't the user.
-#  $otherParticipantsCount (Number) - The count of other participants apart from
-#    the user and $participant.
-room-name-others =
-    { $otherParticipantsCount ->
-        [one] { $participant } και { $otherParticipantCount } ακόμα
-       *[other] { $participant } και { $otherParticipantCount } ακόμα
-    }
-# Variables:
-#  $participant (String) - The name of one participant that isn't the user.
 #  $otherParticipantCount (Number) - The count of other participants apart from
 #    the user and $participant.
 room-name-others2 =

@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-main.xul -->
-
 <!-- extracted from am-main.xhtml -->
 
 <!ENTITY accountTitle.label "Поставки за сметката">
@@ -30,8 +28,8 @@
 
 <!ENTITY manageIdentities.label "Уреди ги идентитетите…">
 <!ENTITY manageIdentities.accesskey "р">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
 
+<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
 <!ENTITY smtpName.label "SMTP сервер:">
 <!ENTITY smtpName.accesskey "е">
 <!ENTITY smtpDefaultServer.label "Основен сервер">

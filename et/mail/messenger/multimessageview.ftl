@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Kirja kokkuvõte
-selected-messages-label =
-    .label = Valitud kirjad
 multi-message-archive-button =
     .label = Arhiveeri
     .tooltiptext = Arhiveeri

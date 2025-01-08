@@ -12,12 +12,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Dodaj CardDAV adresar
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Dodaj LDAP adresar
-about-addressbook-toolbar-new-contact =
-    .label = Novi kontakt
-about-addressbook-toolbar-new-list =
-    .label = Novi popis
-about-addressbook-toolbar-import =
-    .label = Uvoz
 books-pane-import-button = Uvezi
     .title = Uvezi adresare
 
@@ -62,12 +56,6 @@ about-addressbook-confirm-remove-remote-book = Jeste li sigurni da želite obris
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Pretraži { $name }
-about-addressbook-search-all =
-    .placeholder = Pretraži sve adresare
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -281,7 +269,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Uredi sliku kontakta
 about-addressbook-new-contact-header = Novi kontakt
-about-addressbook-prefer-display-name = Preferiraj prikazano ime ispred zaglavlja poruke
 about-addressbook-write-action-button = Piši
 about-addressbook-event-action-button = Događaj
 about-addressbook-search-action-button = Traži

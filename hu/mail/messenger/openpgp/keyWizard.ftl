@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Személyes OpenPGP-kulcs hozzáadása { $identity } számára
-key-wizard-button =
-    .buttonlabelaccept = Tovább
-    .buttonlabelhelp = Vissza
 key-wizard-dialog =
     .buttonlabelaccept = Folytatás
     .buttonlabelextra1 = Ugrás vissza
@@ -106,8 +103,6 @@ openpgp-import-key-list-caption = A személyes kulcsként kezeltként megjelölt
 openpgp-import-keep-passphrases =
     .label = A jelmondatos védelem megtartása az importált titkos kulcsoknál
 openpgp-passphrase-prompt-title = Jelmondat szükséges
-#   $key (String) - the id of the key being imported
-openpgp-passphrase-prompt = Írja be a jelmondatot a következő kulcs feloldásához: { $key }
 openpgp-import-key-button =
     .label = Válassza ki az importálandó fájlt…
     .accesskey = V

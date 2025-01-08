@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "ن">
 <!ENTITY overrideNamespaces.label "اسمح للخادوم بتعديل فضاء التسمية هذا">
 <!ENTITY overrideNamespaces.accesskey "س">
-<!ENTITY pop3DeferringDesc.label "عند تنزيل البريد من خادوم هذا الحساب، استخدم المجلد التالي للبريد الجديد:" >
+<!ENTITY pop3DeferringDesc.label "عند تنزيل البريد من خادوم هذا الحساب، استخدم المجلد التالي للبريد الجديد:">
 <!ENTITY accountInbox.label "صندوق الوارد لهذا الحساب">
 <!ENTITY accountInbox.accesskey "ذ">
 <!ENTITY deferToServer.label "صندوق الوارد لحساب آخر">

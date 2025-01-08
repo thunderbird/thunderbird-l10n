@@ -93,21 +93,6 @@ quick-filter-bar-results =
     }
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Filtrer disse meldingene <{ quick-filter-bar-textbox-shortcut }>
-quick-filter-bar-search =
-    .label = Filtrer meldinger:
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
     { PLATFORM() ->
         [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
@@ -235,8 +220,6 @@ threadpane-column-header-sender = Fra
     .title = Sorter etter fra
 threadpane-column-label-sender =
     .label = Fra
-threadpane-cell-sender =
-    .aria-label = Fra
 # Variables:
 # $title (String) - Message sender for tooltip.
 threadpane-cell-sender-title =
@@ -246,8 +229,6 @@ threadpane-column-header-recipient = Mottaker
     .title = Sorter etter mottaker
 threadpane-column-label-recipient =
     .label = Mottaker
-threadpane-cell-recipient =
-    .aria-label = Mottaker
 # Variables:
 # $title (String) - Message recipient for tooltip.
 threadpane-cell-recipient-title =
@@ -261,8 +242,6 @@ threadpane-column-header-subject = Emne
     .title = Sorter etter emne
 threadpane-column-label-subject =
     .label = Emne
-threadpane-cell-subject =
-    .aria-label = Emne
 # Variables:
 # $title (String) - Message subject for tooltip.
 threadpane-cell-subject-title =
@@ -272,8 +251,6 @@ threadpane-column-header-date = Dato
     .title = Sorter etter dato
 threadpane-column-label-date =
     .label = Dato
-threadpane-cell-date =
-    .aria-label = Dato
 # Variables:
 # $title (String) - Message date for tooltip.
 threadpane-cell-date-title =
@@ -287,8 +264,6 @@ threadpane-column-header-status = Status
     .title = Sorter etter status
 threadpane-column-label-status =
     .label = Status
-threadpane-cell-status =
-    .aria-label = Status
 # Variables:
 # $title (String) - Message status for tooltip.
 threadpane-cell-status-title =
@@ -298,8 +273,6 @@ threadpane-column-header-size = Størrelse
     .title = Sorter etter størrelse
 threadpane-column-label-size =
     .label = Størrelse
-threadpane-cell-size =
-    .aria-label = Størrelse
 # Variables:
 # $title (String) - Message size for tooltip.
 threadpane-cell-size-title =
@@ -309,8 +282,6 @@ threadpane-column-header-tags = Etikett
     .title = Sorter etter etikett
 threadpane-column-label-tags =
     .label = Etikett
-threadpane-cell-tags =
-    .aria-label = Etiketter
 # Variables:
 # $title (String) - Tags for tooltip.
 threadpane-cell-tags-title =
@@ -320,8 +291,6 @@ threadpane-column-header-account = Konto
     .title = Sorter etter konto
 threadpane-column-label-account =
     .label = Konto
-threadpane-cell-account =
-    .aria-label = Konto
 # Variables:
 # $title (String) - Message account for tooltip.
 threadpane-cell-account-title =
@@ -331,8 +300,6 @@ threadpane-column-header-priority = Prioritet
     .title = Sorter etter prioritet
 threadpane-column-label-priority =
     .label = Prioritet
-threadpane-cell-priority =
-    .aria-label = Prioritet
 # Variables:
 # $title (String) - Priority for tooltip.
 threadpane-cell-priority-title =
@@ -342,8 +309,6 @@ threadpane-column-header-unread = Ulest
     .title = Antall uleste meldinger i tråden
 threadpane-column-label-unread =
     .label = Ulest
-threadpane-cell-unread =
-    .aria-label = Antall uleste meldinger
 # Variables:
 # $title (String) - Number of unread messages for tooltip.
 threadpane-cell-unread-title =
@@ -353,8 +318,6 @@ threadpane-column-header-total = Totalt
     .title = Totalt antall meldinger i tråden
 threadpane-column-label-total =
     .label = Totalt
-threadpane-cell-total =
-    .aria-label = Totalt antall meldinger
 # Variables:
 # $title (String) - Total messages for tooltip.
 threadpane-cell-total-title =
@@ -404,3 +367,6 @@ apply-current-columns-to-folder-message = Bruk denne mappens kolonner på { $nam
 apply-current-columns-to-folder-with-children-message = Bruk denne mappens kolonnner på { $name } og dens undermapper?
 threadpane-card-menu-button =
     .title = Meldingsmeny
+
+## Folder pane context menu
+

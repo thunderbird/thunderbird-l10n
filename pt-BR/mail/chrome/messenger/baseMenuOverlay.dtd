@@ -3,33 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Help Menu -->
-<!ENTITY helpMenu.label "Ajuda">
-<!ENTITY helpMenu.accesskey "u">
-<!-- LOCALIZATION NOTE some localizations of Windows use "?"
-                       for the help button in the menubar but Gnome does not.   -->
-<!ENTITY helpMenuWin.label "Ajuda">
-<!ENTITY helpMenuWin.accesskey "u">
-<!ENTITY aboutProduct2.label "Sobre o &brandShorterName;">
-<!ENTITY aboutProduct2.accesskey "S">
-<!ENTITY productHelp.label "Ajuda do &brandShortName;">
-<!ENTITY productHelp.accesskey "A">
-
-<!-- Help Menu -->
 <!ENTITY productHelp.commandkey "VK_F1">
 <!ENTITY productHelpMac.commandkey "?">
 <!ENTITY productHelpMac.modifiers "atalho">
-
-<!ENTITY helpKeyboardShortcuts.label "Atalhos de teclado">
-<!ENTITY helpKeyboardShortcuts.accesskey "t">
-
-<!ENTITY helpFeedbackPage.label "Enviar opinião…">
-<!ENTITY helpFeedbackPage.accesskey "v">
-
-<!ENTITY helpShowTour2.label "Tutorial do &brandShorterName;">
-<!ENTITY helpShowTour2.accesskey "u">
-
-<!ENTITY helpGetInvolvedPage.label "Participe">
-<!ENTITY helpGetInvolvedPage.accesskey "n">
-
-<!ENTITY helpDonationsPage.label "Faça uma doação">
-<!ENTITY helpDonationsPage.accesskey "d">

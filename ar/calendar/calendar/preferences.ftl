@@ -100,12 +100,6 @@ previous-weeks-label =
     .value = عدد الأسابيع الماضية المعروضة:
     .accesskey = ض
 todaypane-legend = لوحة اليوم
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = يعرض قسم الأحداث الآتية:
-    .accesskey = ق
 event-task-legend = الأحداث و المهام
 default-length-label =
     .value = طول الأحداث والمهام المبدئي:
@@ -133,10 +127,6 @@ task-due-label =
 edit-intab-label =
     .label = حرّر الأحداث و المهام في لسان بدلا من نافذة حوارية.
     .accesskey = ح
-accessibility-legend = الإتاحة
-accessibility-colors-label =
-    .label = حسّن الألوان للإتاحة
-    .accesskey = ل
 reminder-legend = عندما يُستحق التذكير:
 reminder-play-checkbox =
     .label = اعزف صوتا

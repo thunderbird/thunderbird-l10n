@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Очистить">
 <!ENTITY encryption.certificate_clear.accesskey "и">
 <!ENTITY signingGroupTitle.label "Цифровая подпись">
-
 <!ENTITY signingCert2.message "Личный сертификат для цифровой подписи:">
 
 <!ENTITY sendingDefaults.label "Настройки по умолчанию для отправки сообщений">

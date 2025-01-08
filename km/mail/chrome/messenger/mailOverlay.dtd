@@ -6,6 +6,6 @@
 <!ENTITY  newMessageCmd.key               "Ն">
 <!ENTITY  newMessageCmd.label             "Նամակ">
 <!ENTITY  newMessageCmd.accesskey         "M">
- 
+
 <!ENTITY  newContactCmd.label             "Հասցեագրքի հասցե...">
 <!ENTITY  newContactCmd.accesskey         "C">

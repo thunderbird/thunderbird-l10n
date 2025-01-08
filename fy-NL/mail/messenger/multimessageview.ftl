@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Berjochtgearfetting
-selected-messages-label =
-    .label = Selektearre berjochten
 multi-message-archive-button =
     .label = Argivearje
     .tooltiptext = Argivearje

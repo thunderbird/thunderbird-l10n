@@ -5,15 +5,12 @@
 context-text-action-find =
     .label = Bilatu
     .accesskey = B
-
 context-text-action-find-again =
     .label = Bilatu berriro
     .accesskey = r
-
 text-action-find =
     .label = Bilatu
     .accesskey = B
-
 text-action-find-again =
     .label = Bilatu berriro
     .accesskey = r

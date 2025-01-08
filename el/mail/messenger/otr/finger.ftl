@@ -3,18 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-finger-title = Προηγούμενα αποτυπώματα OTR
-
 finger-intro = Αποτυπώματα κλειδιού OTR από προηγούμενες συζητήσεις με διατερματική κρυπτογράφηση.
-
 finger-screen-name =
     .label = Επαφή
 finger-verified =
     .label = Κατάσταση επαλήθευσης
 finger-fingerprint =
     .label = Αποτύπωμα
-
 finger-remove =
     .label = Αφαίρεση επιλεγμένων
-
 finger-remove-all =
     .label = Αφαίρεση όλων

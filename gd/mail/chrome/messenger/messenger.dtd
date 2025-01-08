@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "G">
 <!ENTITY newVirtualFolderCmd.label "Lorg a chaidh a shàbhaladh…">
 <!ENTITY newVirtualFolderCmd.accesskey "s">
-<!ENTITY newCreateEmailAccountCmd.label "Faigh cunntas puist ùr…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "a">
-<!ENTITY newExistingEmailAccountCmd.label "Cunntas puist a tha agad mu thràth…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "u">
 <!ENTITY newIMAccountCmd.label "Cunntas cabadaich…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "Cunntas inbhir…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Sguab às an teachdaireachd">
-<!ENTITY deleteMsgCmd.accesskey "d">
-<!ENTITY undeleteMsgCmd.label "Neo-dhèan sguabadh às na teachdaireachd">
-<!ENTITY undeleteMsgCmd.accesskey "d">
-<!ENTITY deleteMsgsCmd.label "Sguab às na teachdaireachdan a thagh thu">
-<!ENTITY deleteMsgsCmd.accesskey "d">
-<!ENTITY undeleteMsgsCmd.label "Neo-dhèan sguabadh às nan teachdaireachdan">
-<!ENTITY undeleteMsgsCmd.accesskey "d">
-<!ENTITY deleteFolderCmd.label "Sguab às am pasgan">
-<!ENTITY deleteFolderCmd.accesskey "S">
-<!ENTITY unsubscribeNewsgroupCmd.label "Sguir dhen fho-sgrìobhadh">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "n">
 <!ENTITY selectMenu.label "Tagh">
 <!ENTITY selectMenu.accesskey "T">
 <!ENTITY all.label "A h-uile">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "T">
 <!ENTITY menuFavoriteFolder.label "Cuir am pasgan ris na h-annsachdan">
 <!ENTITY menuFavoriteFolder.accesskey "a">
-<!ENTITY folderPropsCmd2.label "Roghainnean">
-<!ENTITY folderPropsFolderCmd2.label "Roghainnean a' phasgain">
-<!ENTITY folderPropsNewsgroupCmd2.label "Roghainnean a' bhuidhinn-naidheachd">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Neo-dhèan sguabadh às na teachdaireachd">
 <!ENTITY redoDeleteMsgCmd.label "Ath-dhèan sguabadh às na teachdaireachd">
 <!ENTITY undoMoveMsgCmd.label "Neo-dhèan gluasad na teachdaireachd">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "S">
 <!ENTITY showFolderPaneCmd.label "Leòsan nam pasgan">
 <!ENTITY showFolderPaneCmd.accesskey "m">
-<!ENTITY showFolderPaneColsCmd.label "Colbhan leòsan nam pasgan">
-<!ENTITY showFolderPaneColsCmd.accesskey "p">
 <!ENTITY showMessageCmd.label "Leòsan na teachdaireachd">
 <!ENTITY showMessageCmd.accesskey "L">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Teachdaireachd ùr">
 <!ENTITY appmenuNewContactCmd.label "neach-aithne ann an leabhar nan seòladh…">
-<!ENTITY appmenuEditMenu.label "Deasaich">
 <!ENTITY appmenuToolbarLayout.label "Co-dhealbhachd a' bhàr-inneal…">
-<!ENTITY appmenuSelectThread.label "Tagh snàithlean">
-<!ENTITY appmenuSelectFlagged.label "Tagh teachdaireachdan ris a bheil bratach">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Taga ùr…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "u">
 <!ENTITY folderContextMarkNewsgroupRead.label "Cuir comharra gun deach am buidheann-naidheachd a leughadh">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "C">
-<!ENTITY folderContextMarkMailFolderRead.label "Cuir comharra gun deach am pasgan a leughadh">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "C">
 <!ENTITY folderContextSubscribe.label "Fo-sgrìobh…">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "Lorg teachdaireachdan…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Freagair an liosta">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextForward.label "Air adhart">
-<!ENTITY contextForward.accesskey "A">
-<!ENTITY contextForwardAsMenu.label "Sìn air adhart">
-<!ENTITY contextForwardAsMenu.accesskey "n">
-<!ENTITY contextForwardAsInline.label "am broinn na loidhne">
-<!ENTITY contextForwardAsInline.accesskey "b">
-<!ENTITY contextForwardAsAttachmentItem.label "mar cheanglachan">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "m">
-<!ENTITY contextMultiForwardAsAttachment.label "Sìn air adhart mar cheanglachain">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "S">
 <!ENTITY contextMoveMsgMenu.label "Gluais gu">
 <!ENTITY contextMoveMsgMenu.accesskey "G">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "O chionn goirid">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "D">
 <!ENTITY copyEmailCmd.label "Dèan lethbhreac de sheòladh a' phuist-dhealain">
 <!ENTITY copyEmailCmd.accesskey "e">
-<!ENTITY stopCmd.label "Sguir dheth">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Ath-luchdaich">
-<!ENTITY reloadCmd.accesskey "A">
 <!ENTITY openInBrowser.label "Fosgail sa bhrabhsair">
 <!ENTITY openInBrowser.accesskey "o">
 <!ENTITY openLinkInBrowser.label "Fosgail an ceangal sa bhrabhsair">

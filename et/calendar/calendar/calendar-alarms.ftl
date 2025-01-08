@@ -10,12 +10,6 @@ reminder-title-at-start-event = Kui sündmus algab
 reminder-title-at-start-task = Kui ülesanne algab
 reminder-title-at-end-event = Kui sündmus lõpeb
 reminder-title-at-end-task = Kui ülesanne lõpeb
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Lükka { $unit } edasi
 reminder-custom-origin-begin-before-event = enne sündmuse algust
 reminder-custom-origin-begin-after-event = pärast sündmuse algust
 reminder-custom-origin-end-before-event = enne sündmuse lõppu

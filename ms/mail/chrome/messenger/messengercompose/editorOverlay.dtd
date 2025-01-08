@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Sifat Jadual…">
 <!ENTITY tableProperties.accesskey "f">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Imej">
 <!ENTITY imageToolbarCmd.tooltip "Sisip imej baru atau edit sifat imej dipilih">
 <!ENTITY hruleToolbarCmd.label "H.Line">

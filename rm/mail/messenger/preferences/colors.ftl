@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Colurs
 colors-dialog-title = Colurs
 colors-dialog-legend = Text e fund davos
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Colliaziuns visitadas:
     .accesskey = v
-underline-link-checkbox =
-    .label = Suttastritgar colliaziuns
-    .accesskey = u
 always-underline-links =
     .label = Adina sutlingiar las colliaziuns
     .accesskey = s

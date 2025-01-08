@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = { -brand-short-name } 疑難排解模式
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = { -brand-short-name } 疑難排解模式
 troubleshoot-mode-description = 請使用 { -brand-short-name } 的疑難排解模式來檢查瀏覽器的各種問題。將暫時停用附加元件與自訂設定。
 troubleshoot-mode-description2 = 您可以進行下面部份或全部的調整:

@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = e-posti konto kaustade loomine, ümbernimetamine või kustutamine
 webext-perms-description-accountsIdentities = e-posti kontode identiteetide loomine, muutmine ja kustutamine
 webext-perms-description-accountsRead = e-posti kontode, nende identiteetide ja kaustade nägemine
@@ -18,5 +25,4 @@ webext-perms-description-experiment = täielik ja piiramatu ligipääs rakenduse
 webext-perms-description-messagesModify = kirjade lugemine ja muutmine sulle kuvamise ajal
 webext-perms-description-messagesMove = sinu kirjade kopeerimine või liigutamine (kaasa arvatud nende prügikasti liigutamine)
 webext-perms-description-messagesDelete = sinu kirjade jäädavalt kustutamine
-webext-perms-description-messagesRead = e-kirjade lugemine, märkimine või sildistamine
 webext-perms-description-messagesTags = siltide loomine, muutmine ja kustutamine

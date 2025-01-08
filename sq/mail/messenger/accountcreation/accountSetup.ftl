@@ -37,8 +37,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Fjalëkalim
     .accesskey = F
     .title = Opsionale, do të përdoret vetëm për të vlerësuar emrin e përdoruesit
-account-provisioner-button = Merrni një adresë të re email
-    .accesskey = M
 account-setup-password-toggle-show =
     .title = Shfaqe fjalëkalimin si tekst të dukshëm
 account-setup-password-toggle-hide =
@@ -148,7 +146,6 @@ account-setup-credentials-incomplete = Mirëfilltësimi dështoi. Ose kredencial
 account-setup-credentials-wrong = Mirëfilltësimi dështoi. Ju lutemi,, kontrolloni emrin e përdoruesi dhe fjalëkalimin
 account-setup-find-settings-failed = { -brand-short-name } s’arriti të gjejë rregullimet për llogarinë tuaj email
 account-setup-exchange-config-unverifiable = Formësimi s’u verifikua dot. Nëse emri juaj i përdoruesit dhe fjalëkalimi janë të saktë, gjasat janë që përgjegjësi i shërbyesit të ketë çaktivizuar për llogarinë tuaj formësimin e përzgjedhur. Provoni përzgjedhjen e një protokolli tjetër.
-account-setup-provisioner-error = Ndodhi një gabim teksa ujdisej llogaria juaj e re në { -brand-short-name }. Ju lutemi, provoni ta ujdisni dorazi llogarinë tuaj duke përdorur kredencialet tuaja.
 
 ## Manual configuration area
 

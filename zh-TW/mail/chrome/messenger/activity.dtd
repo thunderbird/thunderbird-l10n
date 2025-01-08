@@ -16,4 +16,3 @@ file names and tall enough to hint that there are more activities in the list --
 <!ENTITY cmd.clearList.label              "清空活動清單">
 <!ENTITY cmd.clearList.tooltip            "從清單中移除已完成、已取消和失敗的項目">
 <!ENTITY cmd.clearList.accesskey          "C">
-

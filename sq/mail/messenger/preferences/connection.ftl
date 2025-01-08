@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = V
     .tooltiptext = Jepni URL-në tuaj të parapëlqyer për ftillim DNS-je përmes HTTPS-së
 connection-dns-over-https-custom-label = Vetjake
-connection-dialog-window2 =
-    .title = Rregullime Lidhjeje
 connection-dialog-title = Rregullime Lidhjeje
 disable-extension-button = Çaktivizoje Zgjerimin
 # Variables:

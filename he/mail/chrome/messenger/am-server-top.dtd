@@ -26,7 +26,6 @@
 <!ENTITY connectionSecurity.label "אבטחת קישוריות:">
 <!ENTITY connectionSecurity.accesskey "א">
 <!ENTITY connectionSecurityType-0.label "ללא">
-<!ENTITY connectionSecurityType-1.label "STARTTLS, אם זמין">
 <!ENTITY connectionSecurityType-2.label "STARTTLS">
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY authMethod.label "צורת אימות:">

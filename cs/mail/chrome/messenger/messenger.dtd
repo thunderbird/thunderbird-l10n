@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "P">
 <!ENTITY newVirtualFolderCmd.label "Uložené hledání…">
 <!ENTITY newVirtualFolderCmd.accesskey "l">
-<!ENTITY newCreateEmailAccountCmd.label "Získat nový poštovní účet…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "n">
-<!ENTITY newExistingEmailAccountCmd.label "Existující poštovní účet…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "E">
 <!ENTITY newIMAccountCmd.label "Účet chatu…">
 <!ENTITY newIMAccountCmd.accesskey "c">
 <!ENTITY newFeedAccountCmd.label "Účet kanálů…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Smazat zprávu">
-<!ENTITY deleteMsgCmd.accesskey "m">
-<!ENTITY undeleteMsgCmd.label "Obnovit zprávu">
-<!ENTITY undeleteMsgCmd.accesskey "n">
-<!ENTITY deleteMsgsCmd.label "Smazat označené zprávy">
-<!ENTITY deleteMsgsCmd.accesskey "m">
-<!ENTITY undeleteMsgsCmd.label "Obnovit vybrané smazané zprávy">
-<!ENTITY undeleteMsgsCmd.accesskey "m">
-<!ENTITY deleteFolderCmd.label "Smazat složku">
-<!ENTITY deleteFolderCmd.accesskey "m">
-<!ENTITY unsubscribeNewsgroupCmd.label "Zrušit odběr">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "d">
 <!ENTITY selectMenu.label "Vybrat">
 <!ENTITY selectMenu.accesskey "a">
 <!ENTITY all.label "Vše">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "h">
 <!ENTITY menuFavoriteFolder.label "Oblíbená složka">
 <!ENTITY menuFavoriteFolder.accesskey "O">
-<!ENTITY folderPropsCmd2.label "Vlastnosti">
-<!ENTITY folderPropsFolderCmd2.label "Vlastnosti složky">
-<!ENTITY folderPropsNewsgroupCmd2.label "Vlastnosti diskusní skupiny">
-<!ENTITY folderPropsCmd.accesskey "l">
 <!ENTITY undoDeleteMsgCmd.label "Zpět smazání zprávy">
 <!ENTITY redoDeleteMsgCmd.label "Znovu smazat zprávu">
 <!ENTITY undoMoveMsgCmd.label "Zpět přesunutí zprávy">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "v">
 <!ENTITY showFolderPaneCmd.label "Podokno složek">
 <!ENTITY showFolderPaneCmd.accesskey "s">
-<!ENTITY showFolderPaneColsCmd.label "Sloupce podokna složek">
-<!ENTITY showFolderPaneColsCmd.accesskey "l">
 <!ENTITY showMessageCmd.label "Podokno zpráv">
 <!ENTITY showMessageCmd.accesskey "z">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nová zpráva">
 <!ENTITY appmenuNewContactCmd.label "Kontakt…">
-<!ENTITY appmenuEditMenu.label "Úpravy">
 <!ENTITY appmenuToolbarLayout.label "Upravit lišty…">
-<!ENTITY appmenuSelectThread.label "Vybrat vlákna">
-<!ENTITY appmenuSelectFlagged.label "Vybrat zprávy s hvězdičkou">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nový štítek…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "d">
 <!ENTITY folderContextMarkNewsgroupRead.label "Označit skupinu jako přečtenou">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "z">
-<!ENTITY folderContextMarkMailFolderRead.label "Označit složku jako přečtenou">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "z">
 <!ENTITY folderContextSubscribe.label "Správce odebírání…">
 <!ENTITY folderContextSubscribe.accesskey "S">
 <!ENTITY folderContextSearchForMessages.label "Hledat ve zprávách…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "O">
 <!ENTITY contextReplyList.label "Odpovědět do konference">
 <!ENTITY contextReplyList.accesskey "k">
-<!ENTITY contextForward.label "Přeposlat">
-<!ENTITY contextForward.accesskey "l">
-<!ENTITY contextForwardAsMenu.label "Přeposlat jako">
-<!ENTITY contextForwardAsMenu.accesskey "e">
-<!ENTITY contextForwardAsInline.label "Vložené">
-<!ENTITY contextForwardAsInline.accesskey "V">
-<!ENTITY contextForwardAsAttachmentItem.label "Příloha">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "P">
-<!ENTITY contextMultiForwardAsAttachment.label "Přeposlat jako přílohy">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "l">
 <!ENTITY contextMoveMsgMenu.label "Přesunout do">
 <!ENTITY contextMoveMsgMenu.accesskey "s">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Poslední">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "b">
 <!ENTITY copyEmailCmd.label "Kopírovat e-mailovou adresu">
 <!ENTITY copyEmailCmd.accesskey "e">
-<!ENTITY stopCmd.label "Zastavit">
-<!ENTITY stopCmd.accesskey "Z">
-<!ENTITY reloadCmd.label "Obnovit">
-<!ENTITY reloadCmd.accesskey "v">
 <!ENTITY openInBrowser.label "Otevřít v prohlížeči">
 <!ENTITY openInBrowser.accesskey "O">
 <!ENTITY openLinkInBrowser.label "Otevřít odkaz v prohlížeči">

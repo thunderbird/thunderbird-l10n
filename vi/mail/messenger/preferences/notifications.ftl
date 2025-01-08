@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Tùy chỉnh thông báo thư mới
 notifications-dialog-title = Tùy chỉnh thông báo thư mới
 customize-alert-description = Chọn các trường muốn hiện trong thông báo:
 preview-text-checkbox =

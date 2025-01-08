@@ -190,22 +190,6 @@ mail-context-menu-forward-forward =
     .accesskey = z
 context-menu-redirect-msg =
     .label = Abeddel n uwelleh
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Kkes izen
-           *[other] Kkes iznan yettwafernen
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Sefsex tukksa n yizen
-           *[other] Sefsex tukksa n yiznan yettwafernen
-        }
 
 ## Message header pane
 

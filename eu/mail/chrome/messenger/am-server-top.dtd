@@ -26,7 +26,6 @@
 <!ENTITY connectionSecurity.label "Konexioaren segurtasuna:">
 <!ENTITY connectionSecurity.accesskey "u">
 <!ENTITY connectionSecurityType-0.label "Bat ere ez">
-<!ENTITY connectionSecurityType-1.label "STARTTLS, erabilgarri badago">
 <!ENTITY connectionSecurityType-2.label "STARTTLS">
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY authMethod.label "Autentifikazio metodoa:">

@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-
 <!ENTITY title.label "Pašto saugumas">
 <!ENTITY subject.plaintextWarning "Pastaba: laiško temos eilutė nešifruojama.">
 <!ENTITY status.heading "Jūsų laiško turinys bus išsiųstas su tokia informacija:">

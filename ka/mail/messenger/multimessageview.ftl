@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = წერილის რეზიუმე
-selected-messages-label =
-    .label = შერჩეული წერილებისთვის
 multi-message-archive-button =
     .label = არქივი
     .tooltiptext = არქივი

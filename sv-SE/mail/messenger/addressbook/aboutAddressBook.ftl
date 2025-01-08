@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Lägg till CardDAV-adressbok
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Lägg till LDAP-adressbok
-about-addressbook-toolbar-new-contact =
-    .label = Ny kontakt
-about-addressbook-toolbar-new-list =
-    .label = Ny lista
-about-addressbook-toolbar-import =
-    .label = Importera
 books-pane-create-contact-button = Ny kontakt
     .title = Skapa en ny kontakt
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Är du säker på att du vill ta 
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Sök i { $name }
-about-addressbook-search-all =
-    .placeholder = Sök i alla adressböcker
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -280,7 +268,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Redigera kontaktfoto
 about-addressbook-new-contact-header = Ny kontakt
-about-addressbook-prefer-display-name = Föredra visningsnamn framför meddelandehuvud
 about-addressbook-write-action-button = Skriv
 about-addressbook-event-action-button = Händelse
 about-addressbook-search-action-button = Sök

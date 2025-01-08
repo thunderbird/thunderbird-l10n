@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Lliwiau
 colors-dialog-title = Lliwiau
 colors-dialog-legend = Testun a Chefndir
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Dolenni wedi cael Ymweliad:
     .accesskey = w
-underline-link-checkbox =
-    .label = Tanlinellu dolenni
-    .accesskey = d
 always-underline-links =
     .label = Tanlinellu dolenni bob tro
     .accesskey = T

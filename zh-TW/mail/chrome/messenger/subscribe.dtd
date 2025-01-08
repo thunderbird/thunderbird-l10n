@@ -16,8 +16,7 @@
 <!ENTITY server.label                 "帳號:">
 <!ENTITY server.accesskey             "A">
 <!ENTITY subscribedHeader.label       "訂閱">
-<!-- commenting out until bug 38906 is fixed 
-<!ENTITY messagesHeader.label         "訊息"> -->
+<!-- commenting out until bug 38906 is fixed
+<!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "顯示有下列內容的項目:">
 <!ENTITY namefield.accesskey          "o">
-

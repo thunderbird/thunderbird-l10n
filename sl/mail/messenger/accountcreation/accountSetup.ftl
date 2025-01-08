@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Geslo
     .accesskey = G
     .title = Neobvezno, uporabljeno bo samo za preveritev veljavnosti uporabniškega imena
-account-provisioner-button = Pridobite nov e-poštni naslov
-    .accesskey = n
 account-setup-password-toggle-show =
     .title = Pokaži geslo kot čisto besedilo
 account-setup-password-toggle-hide =
@@ -148,7 +146,6 @@ account-setup-credentials-incomplete = Overitev ni uspela. Ali so vnesene poveri
 account-setup-credentials-wrong = Overitev ni uspela. Preverite uporabniško ime in geslo
 account-setup-find-settings-failed = { -brand-short-name } ni uspel najti nastavitev za vaš e-poštni račun
 account-setup-exchange-config-unverifiable = Nastavitve ni bilo mogoče preveriti. Če sta uporabniško ime in geslo pravilna, je skrbnik strežnika verjetno onemogočil izbrano nastavitev za vaš račun. Poskusite izbrati drug protokol.
-account-setup-provisioner-error = Pri nastavljanju vašega novega računa v { -brand-short-name(sklon: "mestnik") } je prišlo do napake. Poskusite ga nastaviti ročno s svojimi poverilnicami.
 
 ## Manual configuration area
 

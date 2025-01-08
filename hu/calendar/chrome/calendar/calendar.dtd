@@ -14,46 +14,7 @@
 <!ENTITY calendar.today.button.label          "Ma">
 <!ENTITY calendar.tomorrow.button.label       "Holnap">
 
-<!ENTITY calendar.events.filter.all.label "Minden esemény">
-<!ENTITY calendar.events.filter.today.label "Mai események">
-<!ENTITY calendar.events.filter.future.label "Az összes jövőbeli esemény">
-<!ENTITY calendar.events.filter.current.label "A most kiválasztott nap">
-<!ENTITY calendar.events.filter.currentview.label "Események az Aktuális nézetben">
-<!ENTITY calendar.events.filter.next7Days.label "Események a következő 7 napban">
-<!ENTITY calendar.events.filter.next14Days.label "Események a következő 14 napban">
-<!ENTITY calendar.events.filter.next31Days.label "Események a következő 31 napban">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Események ebben a naptári hónapban">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Kész">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Rendezés elkészülés szerint">
-<!ENTITY calendar.unifinder.tree.priority.label            "Prioritás">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Rendezés sürgősség szerint">
-<!ENTITY calendar.unifinder.tree.title.label               "Cím">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Rendezés cím szerint">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#037; kész">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Rendezés &#037;-os készültség szerint">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Kezdés">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Rendezés kezdési dátum szerint">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Befejezés">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Rendezés befejezési dátum szerint">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Határidő">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Rendezés határidő szerint">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Elkészült">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Rendezés elkészülési dátum szerint">
-<!ENTITY calendar.unifinder.tree.categories.label          "Kategória">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Rendezés kategória szerint">
-<!ENTITY calendar.unifinder.tree.location.label            "Hely">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Rendezés hely szerint">
-<!ENTITY calendar.unifinder.tree.status.label              "Állapot">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Rendezés állapot szerint">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Naptár neve">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Rendezés naptárnév szerint">
-<!ENTITY calendar.unifinder.tree.duration.label            "Esedékes">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Rendezés esedékesség szerint">
-<!ENTITY calendar.unifinder.close.tooltip                  "Az eseménykereső és az eseménylista bezárása">
 
 <!ENTITY calendar.today.button.tooltip          "Ugrás a mai napra" >
 <!ENTITY calendar.todaypane.button.tooltip      "Ma ablaktábla megjelenítése" >

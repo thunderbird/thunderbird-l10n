@@ -21,6 +21,4 @@ otr-require-encryption-info =
     verður ekki birt sem hluti af venjulegu samtali og eru ekki heldur skráð.
 otr-verify-nudge =
     .label = Minna mig alltaf á að staðfesta óstaðfesta tengiliði
-
 otr-not-yet-available = ekki enn tiltækt
-

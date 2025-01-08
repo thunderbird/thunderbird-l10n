@@ -2,6 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+
 <!ENTITY addressbookPicker.label            "Address Book:">
 <!ENTITY addressbookPicker.accesskey        "k">
 <!ENTITY SearchNameOrEmail.label            "Name or Email">
@@ -12,9 +13,9 @@
 <!ENTITY addtoCcFieldMenu.accesskey         "C">
 <!ENTITY addtoBccFieldMenu.label            "Add to Bcc field">
 <!ENTITY addtoBccFieldMenu.accesskey        "B">
-
 <!ENTITY deleteAddrBookCard.label           "Delete">
 <!ENTITY deleteAddrBookCard.accesskey       "D">
+
 
 <!ENTITY toButton.label                     "Add to To:">
 <!ENTITY toButton.accesskey                 "A">
@@ -22,4 +23,3 @@
 <!ENTITY ccButton.accesskey                 "C">
 <!ENTITY bccButton.label                    "Add to Bcc:">
 <!ENTITY bccButton.accesskey                "B">
-

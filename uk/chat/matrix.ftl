@@ -15,16 +15,6 @@ room-name-empty = Порожня розмова
 room-name-empty-had-name = Порожня розмова (називалась { $oldName })
 # Variables:
 #  $participant (String) - The name of one participant that isn't the user.
-#  $otherParticipantsCount (Number) - The count of other participants apart from
-#    the user and $participant.
-room-name-others =
-    { $otherParticipantsCount ->
-        [one] { $participant } та { $otherParticipantCount } інший
-        [few] { $participant } та { $otherParticipantCount } інші
-       *[many] { $participant } та { $otherParticipantCount } інших
-    }
-# Variables:
-#  $participant (String) - The name of one participant that isn't the user.
 #  $otherParticipantCount (Number) - The count of other participants apart from
 #    the user and $participant.
 room-name-others2 =

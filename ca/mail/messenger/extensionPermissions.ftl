@@ -27,7 +27,6 @@ webext-perms-description-messagesModify = Llegir i modificar els vostres missatg
 webext-perms-description-messagesModifyPermanent = Modificar permanentment la font dels vostres missatges (incloses les capçaleres, el cos i els fitxers adjunts)
 webext-perms-description-messagesMove = Copiar o moure els vostres missatges de correu electrònic (inclou moure'ls a la paperera)
 webext-perms-description-messagesDelete = Suprimir permanentment els vostres missatges de correu electrònic
-webext-perms-description-messagesRead = Llegir els vostres missatges de correu electrònic i marcar-los o etiquetar-los
 webext-perms-description-messagesRead2 = Llegir els vostres missatges de correu electrònic
 webext-perms-description-messagesUpdate = Canviar les propietats i les etiquetes dels missatges de correu electrònic
 webext-perms-description-messagesTags = Crear, modificar i suprimir etiquetes de missatges

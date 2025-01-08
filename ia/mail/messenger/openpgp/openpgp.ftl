@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Date de expiration
 openpgp-key-id-label =
     .label = ID de clave
-openpgp-cannot-change-expiry = La structura de iste clave es complexe, la cambio de su data de expiration non es supportate.
-openpgp-key-man-title =
-    .title = Gestor de clave OpenPGP
 openpgp-key-man-dialog-title = Gestor de clave OpenPGP
 openpgp-key-man-generate =
     .label = Nove par de claves
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Certificato de revocation
     .accesskey = r
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Genera e salva le certificato de revocation
 openpgp-key-man-gen-revocation =
     .label = Salvar le certificato de revocation in file
     .accesskey = c
@@ -489,8 +484,6 @@ filter-encrypt-label = Crypta tu clave (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Claves importate con successo
 import-info-dialog-title = Claves importate con successo
 import-info-bits = Bits
 import-info-created = Create
@@ -652,9 +645,6 @@ no-update-found = Tu jam ha le claves discoperite online.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Error - Commando de extraction clave fallite
@@ -785,17 +775,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Tu ha configurate le ruptura e inveloppamento del lineas a { $width } characteres. Pro correcte cryptation o signatura, iste valor debe esser al minus 68.
     Vole tu cambiar ora le ruptura e inveloppamento del lineas a 68 characteres
-sending-news =
-    Invio cryptate abortate. 
-    Iste message non pote esser cryptate perque il ha como destinatarios gruppos de discussion.
-    Re-invia le message non cryptate.
-send-to-news-warning =
-    ATTENTION: tu va inviar un email cryptate a un gruppo de discussion.
-    Isto es discoragiate perque illo solo face senso si tote le membros del gruppo poter decifrar le message, i.e. le message debe esser cryptate con le claves de tote le participantes del gruppo.
-    Per favor invia iste message solo si tu sape exactemente lo que tu face.
-    Continuar?
 save-attachment-header = Salvar le annexo decifrate
-possibly-pgp-mime = Forsan message cryptate o signate PGP/MIME; pro verificar usa le function 'Decifrar/Verificar'
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Impossibile firmar digitalmente iste message, perque tu non ha ancora configurate le cryptographia end-to-end pro <{ $key }>
@@ -849,15 +829,6 @@ debug-log-title = Registro de depuration OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Iste aviso se repetera { $count }
-repeat-suffix-singular = altere vice.
-repeat-suffix-plural = altere vices.
-no-repeat = Iste aviso non sera plus monstrate.
-dlg-keep-setting = Rememora mi responsa e non demandar me de novo
 
 ## Strings used in dialog.sys.mjs
 
@@ -867,8 +838,6 @@ dlg-button-cancel = &Cancellar
 dlg-no-prompt = Non monstrar me plus iste fenestra de dialogo
 enig-prompt = Sollicitation OpenPGP
 enig-confirm = Confirmation OpenPGP
-enig-alert = Alerta OpenPGP
-enig-info = Information OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 

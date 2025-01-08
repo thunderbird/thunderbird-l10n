@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = Chế độ xử lý sự cố của { -brand-short-name }
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = Chế độ xử lý sự cố của { -brand-short-name }
 troubleshoot-mode-description = Sử dụng chế độ xử lý sự cố { -brand-short-name } để chẩn đoán sự cố. Các tiện ích mở rộng và tùy chỉnh của bạn sẽ tạm thời bị vô hiệu hóa.
 troubleshoot-mode-description2 = Bạn có thể chuyển một số hoặc tất cả các thiết lập sau đây thành những thay đổi vĩnh viễn:

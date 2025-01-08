@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Tabeli omadused...">
 <!ENTITY tableProperties.accesskey "a">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Pilt">
 <!ENTITY imageToolbarCmd.tooltip "Redigeeri valitud pildi omadusi või lisa uus pilt">
 <!ENTITY hruleToolbarCmd.label "H.joon">

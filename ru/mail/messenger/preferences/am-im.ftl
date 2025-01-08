@@ -4,14 +4,14 @@
 
 account-settings-title = Настройки аутентификации
 account-channel-title = Каналы по умолчанию
-
 chat-autologin =
     .label = Входить при запуске
-
 chat-encryption-generic = Общее
 chat-encryption-log =
     .label = Включать сквозные зашифрованные сообщения в журналы разговоров
 chat-encryption-label = Встроенное сквозное шифрование
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } обеспечивает сквозное шифрование сообщений чата. Это предотвращает прослушивание разговора третьими лицами. Для работы шифрования может потребоваться показанная ниже дополнительная настройка.
 chat-encryption-status = Статус шифрования
 chat-encryption-placeholder = Шифрование не инициализировано.

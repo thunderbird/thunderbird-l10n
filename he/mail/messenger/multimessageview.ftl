@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = תקציר הודעה
-selected-messages-label =
-    .label = הודעות נבחרות
 multi-message-archive-button =
     .label = ארכיון
     .tooltiptext = ארכיון

@@ -9,92 +9,19 @@
 <!ENTITY calendar.newevent.button.tooltip         "สร้างเหตุการณ์ใหม่" >
 <!ENTITY calendar.newtask.button.tooltip          "สร้างงานใหม่" >
 
-<!ENTITY calendar.unifinder.todoitems.label       "งาน" >
-
 <!ENTITY calendar.unifinder.showcompletedtodos.label "แสดงงานที่เสร็จสมบูรณ์">
 
 <!ENTITY calendar.today.button.label          "วันนี้">
 <!ENTITY calendar.tomorrow.button.label       "พรุ่งนี้">
-<!ENTITY calendar.upcoming.button.label       "กำลังจะมาถึง">
 
-<!ENTITY calendar.events.filter.all.label "เหตุการณ์ทั้งหมด">
-<!ENTITY calendar.events.filter.today.label "เหตุการณ์วันนี้">
-<!ENTITY calendar.events.filter.future.label "เหตุการณ์ในอนาคตทั้งหมด">
-<!ENTITY calendar.events.filter.current.label "วันที่เลือกปัจจุบัน">
-<!ENTITY calendar.events.filter.currentview.label "เหตุการณ์ในมุมมองปัจจุบัน">
-<!ENTITY calendar.events.filter.next7Days.label "เหตุการณ์ใน 7 วันถัดไป">
-<!ENTITY calendar.events.filter.next14Days.label "เหตุการณ์ใน 14 วันถัดไป">
-<!ENTITY calendar.events.filter.next31Days.label "เหตุการณ์ใน 31 วันถัดไป">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "เหตุการณ์ในเดือนปฏิทินนี้">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "เสร็จสิ้น">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "เรียงตามความเสร็จสมบูรณ์">
-<!ENTITY calendar.unifinder.tree.priority.label            "ความสำคัญ">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "เรียงตามความสำคัญ">
-<!ENTITY calendar.unifinder.tree.title.label               "ชื่อเรื่อง">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "เรียงตามชื่อเรื่อง">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "เสร็จสมบูรณ์ &#37;">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "เรียงตามเสร็จสมบูรณ์ &#37;">
-<!ENTITY calendar.unifinder.tree.startdate.label           "เริ่ม">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "เรียงตามวันที่เริ่ม">
-<!ENTITY calendar.unifinder.tree.enddate.label             "สิ้นสุด">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "เรียงตามวันที่สิ้นสุด">
-<!ENTITY calendar.unifinder.tree.duedate.label             "ครบกำหนด">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "เรียงตามวันที่ครบกำหนด">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "เสร็จสมบูรณ์">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "เรียงตามวันที่เสร็จสมบูรณ์">
-<!ENTITY calendar.unifinder.tree.categories.label          "หมวดหมู่">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "เรียงตามหมวดหมู่">
-<!ENTITY calendar.unifinder.tree.location.label            "ตำแหน่งที่ตั้ง">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "เรียงตามตำแหน่งที่ตั้ง">
-<!ENTITY calendar.unifinder.tree.status.label              "สถานะ">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "เรียงตามสถานะ">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "ชื่อปฏิทิน">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "เรียงตามชื่อปฏิทิน">
-<!ENTITY calendar.unifinder.tree.duration.label            "ครบกำหนดใน">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "เรียงตามเวลาจนถึงครบกำหนด">
-<!ENTITY calendar.unifinder.close.tooltip                  "ปิดการค้นหาเหตุการณ์และรายการเหตุการณ์">
 
 <!ENTITY calendar.today.button.tooltip          "ไปยังวันนี้" >
 <!ENTITY calendar.todaypane.button.tooltip      "แสดงบานหน้าต่างวันนี้" >
 
-<!ENTITY calendar.day.button.tooltip            "สลับเป็นมุมมองวัน" >
-<!ENTITY calendar.week.button.tooltip           "สลับเป็นมุมมองสัปดาห์" >
-<!ENTITY calendar.month.button.tooltip          "สลับเป็นมุมมองเดือน" >
-<!ENTITY calendar.multiweek.button.tooltip      "สลับเป็นมุมมองหลายสัปดาห์" >
-
-<!ENTITY calendar.nextday.label                 "วันถัดไป" >
-<!ENTITY calendar.prevday.label                 "วันก่อนหน้า" >
-<!ENTITY calendar.nextday.accesskey             "ว" >
-<!ENTITY calendar.prevday.accesskey             "น" >
-<!ENTITY calendar.nextweek.label                "สัปดาห์ถัดไป" >
-<!ENTITY calendar.prevweek.label                "สัปดาห์ก่อนหน้า" >
-<!ENTITY calendar.nextweek.accesskey            "ส" >
-<!ENTITY calendar.prevweek.accesskey            "ป" >
-<!ENTITY calendar.nextmonth.label               "เดือนถัดไป" >
-<!ENTITY calendar.prevmonth.label               "เดือนก่อนหน้า" >
-<!ENTITY calendar.nextmonth.accesskey           "ด" >
-<!ENTITY calendar.prevmonth.accesskey           "อ" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "เดินหน้าหนึ่งวัน" >
-<!ENTITY calendar.navigation.prevday.tooltip    "ย้อนกลับหนึ่งวัน" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "เดินหน้าหนึ่งสัปดาห์" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "ย้อนกลับหนึ่งสัปดาห์" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "เดินหน้าหนึ่งเดือน" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "ย้อนกลับหนึ่งเดือน" >
-
 <!ENTITY calendar.newevent.button.label         "เหตุการณ์ใหม่" >
 <!ENTITY calendar.newtask.button.label          "งานใหม่" >
-<!ENTITY calendar.print.button.label            "พิมพ์" >
-<!ENTITY calendar.print.button.accesskey        "พ">
 
-<!ENTITY calendar.day.button.label              "วัน" >
-<!ENTITY calendar.week.button.label             "สัปดาห์" >
-<!ENTITY calendar.month.button.label            "เดือน" >
-<!ENTITY calendar.multiweek.button.label        "หลายสัปดาห์" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "วันทำงานเท่านั้น" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "ท" >
 <!ENTITY calendar.displaytodos.checkbox.label   "งานในมุมมอง" >
@@ -279,8 +206,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "อ">
 <!ENTITY calendar.context.unsubscribeserver.label      "เลิกบอกรับปฏิทิน…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "ล">
-<!ENTITY calendar.context.synccalendars.label          "ประสานปฏิทิน">
-<!ENTITY calendar.context.synccalendars.accesskey      "ป">
 <!ENTITY calendar.context.publish.label                "เผยแพร่ปฏิทิน…">
 <!ENTITY calendar.context.publish.accesskey            "ผ">
 <!ENTITY calendar.context.export.label                 "ส่งออกปฏิทิน…">
@@ -355,7 +280,6 @@
 <!ENTITY calendarproperties.color.label                    "สี:">
 <!ENTITY calendarproperties.webdav.label                   "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
-<!ENTITY calendarproperties.wcap.label                     "Sun Java System Calendar Server (WCAP)">
 <!ENTITY calendarproperties.format.label                   "รูปแบบ:">
 <!ENTITY calendarproperties.location.label                 "ตำแหน่งที่ตั้ง:">
 <!ENTITY calendarproperties.refreshInterval.label          "เรียกปฏิทินใหม่:">
@@ -364,7 +288,6 @@
 <!ENTITY calendarproperties.readonly.label                 "อ่านอย่างเดียว">
 <!ENTITY calendarproperties.firealarms.label               "แสดงการเตือนความจำ">
 <!ENTITY calendarproperties.cache3.label                   "การสนับสนุนออฟไลน์">
-<!ENTITY calendarproperties.enabled.label                  "เปิดปฏิทินนี้">
 <!ENTITY calendarproperties.enabled2.label                 "เปิดใช้ปฏิทินนี้">
 <!ENTITY calendarproperties.forceDisabled.label            "ไม่พบผู้ให้บริการสำหรับปฏิทินนี้ สิ่งนี้มักจะเกิดขึ้นหากคุณปิดใช้งานหรือถอนการติดตั้งส่วนเสริมบางตัว">
 <!ENTITY calendarproperties.unsubscribe.label              "เลิกบอกรับ">
@@ -376,27 +299,8 @@
 <!ENTITY calendar.publish.publish.button      "เผยแพร่">
 <!ENTITY calendar.publish.close.button      "ปิด">
 
-<!ENTITY calendar.publish.example.url.description   "บางอย่างเช่น http://www.myserver.com/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "เลือกปฏิทิน">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "พิมพ์ปฏิทิน">
-<!ENTITY calendar.print.title.label "ชื่อเรื่อง:">
-<!ENTITY calendar.print.layout.label "เค้าโครง:">
-<!ENTITY calendar.print.range.label "สิ่งที่จะพิมพ์">
-<!ENTITY calendar.print.currentView2.label "มุมมองปัจจุบัน">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "เหตุการณ์/งานที่เลือก">
-<!ENTITY calendar.print.tasks.label "งาน">
-<!ENTITY calendar.print.events.label "เหตุการณ์">
-<!ENTITY calendar.print.custom.label "ช่วงวันที่ที่กำหนดเอง:">
-<!ENTITY calendar.print.from.label "จาก:">
-<!ENTITY calendar.print.to.label "ถึง:">
-<!ENTITY calendar.print.settingsGroup.label "การตั้งค่าการพิมพ์">
-<!ENTITY calendar.print.optionsGroup.label "ตัวเลือก">
-<!ENTITY calendar.print.taskswithnoduedate.label "งานที่ไม่มีวันครบกำหนด">
-<!ENTITY calendar.print.completedtasks.label "งานที่เสร็จสมบูรณ์">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "รายละเอียด…">

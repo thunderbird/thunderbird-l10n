@@ -37,8 +37,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Jelszó
     .accesskey = J
     .title = Nem kötelező, csak a felhasználónév ellenőrzéséhez használatos
-account-provisioner-button = Új e-mail-cím kérése
-    .accesskey = j
 account-setup-password-toggle-show =
     .title = Jelszó megjelenítése
 account-setup-password-toggle-hide =
@@ -148,7 +146,6 @@ account-setup-credentials-incomplete = Hitelesítés sikertelen. A megadott hite
 account-setup-credentials-wrong = Hitelesítés sikertelen. Ellenőrizze a felhasználónevet és a jelszót.
 account-setup-find-settings-failed = A { -brand-short-name } nem találta meg az e-mail-fiókja beállításait
 account-setup-exchange-config-unverifiable = A konfigurációt nem lehetett megerősíteni. Ha a felhasználóneve és a jelszava helyes, akkor valószínű, hogy a kiszolgáló adminisztrátora letiltotta a fiókjának kiválasztott konfigurációját. Próbáljon meg másik protokollt választani.
-account-setup-provisioner-error = Hiba történt az új fiókja beállításakor a { -brand-short-name }ban. Próbálja kézzel beállítani a fiókját a hitelesítő adataival.
 
 ## Manual configuration area
 

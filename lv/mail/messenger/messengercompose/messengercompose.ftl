@@ -5,7 +5,8 @@
 
 ## Send Format
 
-# Addressing widget
+
+## Addressing widget
 
 #   $type (String) - the type of the addressing row
 #   $count (Number) - the number of address pills currently present in the addressing row
@@ -16,7 +17,6 @@ address-input-type-aria-label =
         [one] { $type } ar { $count } adresēm, lai fokusētu, izmantojiet bultiņu pa kreisi
        *[other] { $type } ar { $count } adresēm, lai fokusētu, izmantojiet bultiņu pa kreisi
     }
-
 #   $email (String) - the email address
 #   $count (Number) - the number of address pills currently present in the addressing row
 pill-aria-label =
@@ -25,51 +25,61 @@ pill-aria-label =
         [one] { $email }, 1 no { $count }:  lai rediģētu, spiediet ievades, lai dzēstu, dzēšanas taustiņu
        *[other] { $email }, 1 no { $count }:  lai rediģētu, spiediet ievades, lai dzēstu, dzēšanas taustiņu
     }
-
 pill-action-edit =
     .label = Rediģēt adresi
     .accesskey = R
-
 pill-action-move-to =
     .label = Pārvietot uz
     .accesskey = P
-
 pill-action-move-cc =
     .label = Pārvietot uz Kopija
     .accesskey = K
-
 pill-action-move-bcc =
     .label = Pārvietot uz Slēpta kopija
     .accesskey = S
 
-# Attachment widget
+## Attachment widget
 
-# Reorder Attachment Panel
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
+## Reorder Attachment Panel
 
 button-return-receipt =
     .label = Ziņa
     .tooltiptext = Pieprasīt saņemšanas apliecinājuma ziņu
 
-# Encryption
+## Encryption
 
-# Addressing Area
+
+## Addressing Area
 
 
 ## Notifications
 
+
 ## Editing
+
 
 # Tools
 
+
 ## Filelink
+
 
 # Placeholder file
 
+
 # Template
+
 
 # Messages
 
+
 ## Link Preview
+
 
 ## Dictionary selection popup
 

@@ -17,6 +17,8 @@
 <!ENTITY feedFolder.label            "រក្សាទុក​អត្ថបទ​ក្នុង៖">
 <!ENTITY feedFolder.accesskey        "S">
 
+<!-- Account Settings and Subscription Dialog -->
+
 <!ENTITY quickMode.label             "បង្ហាញ​ការ​សង្ខេបអត្ថបទ​ជំនួយ​ឲ្យ​​ផ្ទុក​ទំព័រ​បណ្ដាញ">
 <!ENTITY quickMode.accesskey         "h">
 
@@ -26,6 +28,7 @@
 <!ENTITY autotagUsePrefix.accesskey  "P">
 <!ENTITY autoTagPrefix.placeholder   "បញ្ចូល​បុព្វបទ​ស្លាក">
 
+<!-- Subscription Dialog -->
 <!ENTITY button.addFeed.label        "Ավելացնել">
 <!ENTITY button.addFeed.accesskey    "A">
 <!ENTITY button.removeFeed.label     "Հեռացնել">

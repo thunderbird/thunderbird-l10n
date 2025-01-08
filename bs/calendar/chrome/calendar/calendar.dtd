@@ -9,91 +9,19 @@
 <!ENTITY calendar.newevent.button.tooltip         "Napravi novi događaj" >
 <!ENTITY calendar.newtask.button.tooltip          "Napravi novi zadatak" >
 
-<!ENTITY calendar.unifinder.todoitems.label       "Zadaci" >
 <!ENTITY calendar.unifinder.showcompletedtodos.label "Pokaži završene zadatke">
 
 <!ENTITY calendar.today.button.label          "Danas">
 <!ENTITY calendar.tomorrow.button.label       "Sutra">
-<!ENTITY calendar.upcoming.button.label       "Nadolazeće">
 
-<!ENTITY calendar.events.filter.all.label "Svi događaji">
-<!ENTITY calendar.events.filter.today.label "Današnji događaji">
-<!ENTITY calendar.events.filter.future.label "Svi budući događaji">
-<!ENTITY calendar.events.filter.current.label "Trenutno odabrani dan">
-<!ENTITY calendar.events.filter.currentview.label "Događaji u trenutnom prikazu">
-<!ENTITY calendar.events.filter.next7Days.label "Događaji u sljedećih 7 dana">
-<!ENTITY calendar.events.filter.next14Days.label "Događaji u sljedećih 14 dana">
-<!ENTITY calendar.events.filter.next31Days.label "Događaji u sljedećih 31 dan">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Događaji u ovom kalendarskom mjesecu">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Gotovo">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Poredaj po izvršenju">
-<!ENTITY calendar.unifinder.tree.priority.label            "Prioritet">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Poredaj po prioritetu">
-<!ENTITY calendar.unifinder.tree.title.label               "Naslov">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Poredaj po naslovu">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#037; završeno">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Poredaj po &#037; dovršenosti">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Početak">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Poredaj po datumu početka">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Kraj">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Poredaj po datumu kraja">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Dospjeva">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Poredaj po datumu dospjeća">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Završeno">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Poredaj po datumu završetka">
-<!ENTITY calendar.unifinder.tree.categories.label          "Kategorija">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Poredaj po kategoriji">
-<!ENTITY calendar.unifinder.tree.location.label            "Lokacija">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Poredaj po lokaciji">
-<!ENTITY calendar.unifinder.tree.status.label              "Status">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Poredaj po statusu">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Naziv kalendara">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Poredaj po nazivu kalendara">
-<!ENTITY calendar.unifinder.tree.duration.label            "Dospjeva u">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Poredaj po vremenu do dospjeća">
-<!ENTITY calendar.unifinder.close.tooltip                  "Zatvori pretraživanje i listu događaja">
 
 <!ENTITY calendar.today.button.tooltip          "Idi na danas" >
 <!ENTITY calendar.todaypane.button.tooltip      "Prikaži okno današnjih događaja" >
 
-<!ENTITY calendar.day.button.tooltip            "Prebaci na prikaz dana" >
-<!ENTITY calendar.week.button.tooltip           "Prebaci na prikaz sedmice" >
-<!ENTITY calendar.month.button.tooltip          "Prebaci na prikaz mjeseca" >
-<!ENTITY calendar.multiweek.button.tooltip      "Prebaci na višesedmični prikaz" >
-
-<!ENTITY calendar.nextday.label                 "Sljedeći dan" >
-<!ENTITY calendar.prevday.label                 "Prethodni dan" >
-<!ENTITY calendar.nextday.accesskey             "x" >
-<!ENTITY calendar.prevday.accesskey             "s" >
-<!ENTITY calendar.nextweek.label                "Sljedeća sedmica" >
-<!ENTITY calendar.prevweek.label                "Prethodna sedmica" >
-<!ENTITY calendar.nextweek.accesskey            "x" >
-<!ENTITY calendar.prevweek.accesskey            "s" >
-<!ENTITY calendar.nextmonth.label               "Sljedeći mjesec" >
-<!ENTITY calendar.prevmonth.label               "Prethodni mjesec" >
-<!ENTITY calendar.nextmonth.accesskey           "x" >
-<!ENTITY calendar.prevmonth.accesskey           "s" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Jedan dan naprijed" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Jedan dan nazad" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Jedna sedmica naprijed" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Jedna sedmica nazad" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Jedan mjesec naprijed" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Jedan mjesec nazad" >
-
 <!ENTITY calendar.newevent.button.label         "Novi događaj" >
 <!ENTITY calendar.newtask.button.label          "Novi zadatak" >
-<!ENTITY calendar.print.button.label            "Štampaj" >
-<!ENTITY calendar.print.button.accesskey        "P">
 
-<!ENTITY calendar.day.button.label              "Dan" >
-<!ENTITY calendar.week.button.label             "Sedmica" >
-<!ENTITY calendar.month.button.label            "Mjesec" >
-<!ENTITY calendar.multiweek.button.label        "Više sedmica" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "Samo radni dani" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "r" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Zadaci u prikazu" >
@@ -178,8 +106,6 @@
 <!ENTITY calendar.context.attendance.menu.label                 "Prisustvo">
 <!ENTITY calendar.context.attendance.menu.accesskey             "d">
 <!ENTITY calendar.context.attendance.occurrence.label           "Ovo ponavljanje">
-<!ENTITY calendar.context.attendance.all.label        "Sva ponavljanja" >
-
 <!ENTITY calendar.context.attendance.all2.label                 "Kompletne serije">
 <!ENTITY calendar.context.attendance.send.label                 "Pošalji obavijest sada">
 <!ENTITY calendar.context.attendance.dontsend.label             "Ne šalji obavijest">
@@ -264,8 +190,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "R">
 <!ENTITY calendar.context.unsubscribeserver.label      "Ukini pretplatu na kalendar…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "U">
-<!ENTITY calendar.context.synccalendars.label          "Sinhroniziraj kalendare">
-<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "Objavi kalendar…">
 <!ENTITY calendar.context.publish.accesskey            "b">
 <!ENTITY calendar.context.export.label                 "Izvezi kalendar…">
@@ -340,7 +264,6 @@
 <!ENTITY calendarproperties.color.label                    "Boja:">
 <!ENTITY calendarproperties.webdav.label                   "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
-<!ENTITY calendarproperties.wcap.label                     "Sun Java sistematski kalendarski server (WCAP)">
 <!ENTITY calendarproperties.format.label                   "Oblik:">
 <!ENTITY calendarproperties.location.label                 "Lokacija:">
 <!ENTITY calendarproperties.refreshInterval.label          "Osvježi kalendar:">
@@ -349,7 +272,6 @@
 <!ENTITY calendarproperties.readonly.label                 "Samo za čitanje">
 <!ENTITY calendarproperties.firealarms.label               "Prikaži podsjetnike">
 <!ENTITY calendarproperties.cache3.label                   "Van mrežna podrška">
-<!ENTITY calendarproperties.enabled.label                  "Uključi ovaj kalendar">
 <!ENTITY calendarproperties.forceDisabled.label            "Pružalac usluge za ovaj kalendar nije pronađen. Ovo se zna događati ako ste onemogućili ili uklonili pojedine dodatke.">
 <!ENTITY calendarproperties.unsubscribe.label              "Ukini pretplatu">
 <!ENTITY calendarproperties.unsubscribe.accesskey          "U">
@@ -360,27 +282,8 @@
 <!ENTITY calendar.publish.publish.button      "Objavi">
 <!ENTITY calendar.publish.close.button      "Zatvori">
 
-<!ENTITY calendar.publish.example.url.description   "Nešto kao http://www.mojserver.ba/webdav/test.ics">
-
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "Odaberi kalendar">
-
-<!-- Calendar Printing -->
-<!ENTITY calendar.print.window.title "Štampaj kalendar">
-<!ENTITY calendar.print.title.label "Naslov:">
-<!ENTITY calendar.print.layout.label "Raspored:">
-<!ENTITY calendar.print.range.label "Šta štampati">
-<!ENTITY calendar.print.currentView2.label "Trenutni prikaz">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "Odabrane događaje/zadatke">
-<!ENTITY calendar.print.tasks.label "Zadatke">
-<!ENTITY calendar.print.events.label "Događaje">
-<!ENTITY calendar.print.custom.label "Razdoblje:">
-<!ENTITY calendar.print.from.label "Od:">
-<!ENTITY calendar.print.to.label "Do:">
-<!ENTITY calendar.print.settingsGroup.label "Postavke štampanja">
-<!ENTITY calendar.print.optionsGroup.label "Opcije">
-<!ENTITY calendar.print.taskswithnoduedate.label "Zadaci bez datuma dospjeća">
-<!ENTITY calendar.print.completedtasks.label "Završeni zadaci">
 
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "Detalji…">

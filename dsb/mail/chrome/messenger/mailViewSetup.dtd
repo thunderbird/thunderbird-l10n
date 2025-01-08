@@ -4,9 +4,7 @@
 
 <!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 
-
 <!ENTITY mailViewSetupTitle.label "Zarědowanje powěsćowego naglěda">
 <!ENTITY mailViewHeading.label "Mě powěsćowego naglěda:">
 <!ENTITY mailViewHeading.accesskey "M">
 <!ENTITY searchTermCaption.label "Gaž toś ten naglěd jo wubrany, zwobrazniśo jano powěsći, kótarež:">
-

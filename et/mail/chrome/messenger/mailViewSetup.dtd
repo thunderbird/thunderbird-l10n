@@ -4,8 +4,7 @@
 
 <!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 
-<!ENTITY mailViewSetupTitle.label  "Kirja vaadete sätted">
-<!ENTITY mailViewHeading.label     "Kirja vaate nimi:">
+<!ENTITY mailViewSetupTitle.label "Kirja vaadete sätted">
+<!ENTITY mailViewHeading.label "Kirja vaate nimi:">
 <!ENTITY mailViewHeading.accesskey "v">
-<!ENTITY searchTermCaption.label   "Kui see vaade on valitud, kuvatakse vaid kirju, mis vastavad järgnevale:">
-
+<!ENTITY searchTermCaption.label "Kui see vaade on valitud, kuvatakse vaid kirju, mis vastavad järgnevale:">

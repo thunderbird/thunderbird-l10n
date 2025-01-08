@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Прибрати вибраний календар…">
 <!ENTITY calendar.removecalendar.accesskey      "и">
 
-
-<!ENTITY calendar.menu.customize.label          "Пристосувати…">
-<!ENTITY calendar.menu.customize.accesskey      "с">
-
 <!ENTITY showUnifinderCmd.label                 "Знайти події">
 <!ENTITY showUnifinderCmd.accesskey             "н">
 <!ENTITY showUnifinderCmd.tooltip               "Перемкнути панель знаходження подій">

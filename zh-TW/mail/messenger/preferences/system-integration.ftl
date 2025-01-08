@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-system-integration-title =
-    .title = 系統整合
 system-integration-dialog-title = 系統整合
 system-integration-dialog =
     .buttonlabelaccept = 設為預設軟體

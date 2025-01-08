@@ -36,6 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "i">
 <!ENTITY helpButton.label "Skoazell">
 <!ENTITY helpButton.accesskey "S">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Klask siloù dre o anvioù…">
-

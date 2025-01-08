@@ -348,8 +348,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Aizveriet vēstules logu/cilni, to pārvietojot vai dzēšot
     .accesskey = A
-display-name-label =
-    .value = Rādāmvārds:
 condensed-addresses-label =
     .label = Adrešu grāmatā rādīt tikai tikai personas rādāmvārdu
     .accesskey = r
@@ -479,23 +477,12 @@ third-party-never =
     .label = Nekad
 third-party-visited =
     .label = No apmeklētajām
-keep-label =
-    .value = Glabāt līdz:
-    .accesskey = G
-keep-expire =
-    .label = beidzas derīgums
-keep-close =
-    .label = Aizver { -brand-short-name }
-keep-ask =
-    .label = vienmēr jautāt
 cookies-button =
     .label = Rādīt sīkfailus…
     .accesskey = R
 do-not-track-label =
     .label = Sūtot signālu “Nesekot” norādīt vietnēm, ka nevēlaties, lai jūs izseko
     .accesskey = N
-learn-button =
-    .label = Uzzināt vairāk
 dnt-learn-more-button =
     .value = Uzzināt vairāk
 passwords-description = { -brand-short-name } var atcerēties paroles visiem jūsu kontiem.
@@ -512,18 +499,12 @@ primary-password-button =
 forms-primary-pw-fips-title = Šobrīd jūs esat FIPS režīmā. FIPS pieprasa netukšu galveno paroli.
 forms-master-pw-fips-desc = Paroles maiņa neizdevās
 junk-description = Iestatiet noklusētos drazas pasta iestatījumus. Noteikta konta drazas pasta iestatījumus var mainīt Konta iestatījumos.
-junk-label =
-    .label = Atzīmējot vēstuli kā drazu:
-    .accesskey = A
 junk-move-label =
     .label = Pārvietot tās uz konta "Draza" mapi
     .accesskey = P
 junk-delete-label =
     .label = Dzēst tās
     .accesskey = D
-junk-read-label =
-    .label = Vēstules, kas atzīmētas kā draza, padarīt lasītas
-    .accesskey = a
 junk-log-label =
     .label = Ieslēgt adaptīvā drazas filtra žurnalēšanu
     .accesskey = I
@@ -647,4 +628,7 @@ search-results-header = Meklēšanas rezultāti
 search-results-help-link = Vajadzīga palīdzība? Apmeklējiet <a data-l10n-name="url">{ -brand-short-name } atbalstu</a>!
 
 ## Sync Tab
+
+
+## Mobile QR Export Pane
 

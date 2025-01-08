@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Caratteri
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Predefinito ({ $name })
 fonts-label-default-unnamed =
     .label = Predefinito
-fonts-encoding-dialog-title =
-    .title = Caratteri e codifica
 fonts-language-legend =
     .value = Caratteri per:
     .accesskey = t

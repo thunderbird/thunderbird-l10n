@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Variables:
-# $organizer (String) - The participant that created the original invitation.
-calendar-invitation-panel-intro = { $organizer } 邀请您参加：
 calendar-invitation-panel-status-new = 您已受邀参加此活动。
 calendar-invitation-panel-status-processed = 该事件已经添加到您的日历。
 calendar-invitation-panel-status-updateminor = 此消息包含一个事件更新。
@@ -17,14 +14,12 @@ calendar-invitation-panel-intro-cancel = { $organizer } 已取消：
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
-calendar-invitation-panel-action-button = 保存
 calendar-invitation-panel-view-button = 查看
 calendar-invitation-panel-update-button = 更新
 calendar-invitation-panel-delete-button = 删除
 calendar-invitation-panel-accept-button = 参加
 calendar-invitation-panel-decline-button = 不参加
 calendar-invitation-panel-tentative-button = 也许会参加
-calendar-invitation-panel-reply-status = * 您尚未决定或回复
 calendar-invitation-panel-more-button = 更多
 calendar-invitation-panel-menu-item-save-copy =
     .label = 保存副本
@@ -32,14 +27,6 @@ calendar-invitation-panel-menu-item-toggle-changes =
     .label = 显示更改
 calendar-invitation-panel-prop-title-when = 时间：
 calendar-invitation-panel-prop-title-location = 地点：
-# Variables:
-# $dayOfWeek (String) - The day of the week for a given date.
-# $date (String) - The date example: Tuesday, February 24, 2022.
-calendar-invitation-datetime-date = { $date } { $dayOfWeek }
-# Variables:
-# $time (String) - The time part of a datetime using the "short" timeStyle.
-# $timezone (String) - The timezone info for the datetime.
-calendar-invitation-datetime-time = { $time }（{ $timezone }）
 # Example: Friday, September 16, 2022
 # Variables:
 # $startDate (String) - The date (without time) the event starts on.

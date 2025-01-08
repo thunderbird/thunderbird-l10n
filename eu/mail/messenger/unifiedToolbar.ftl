@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Bilatu
-search-bar-item =
-    .label = Bilatu:
 search-bar-item2 =
     .label = Bilatu
 search-bar-placeholder = Bilatu…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Testua bakarrik
 customize-cancel = Utzi
 customize-save = Gorde
 customize-unsaved-changes = Gorde gabeko aldaketak beste guneetan
-customize-search-bar =
-    .label = Bilaketa tresna-barren botoiak…
 customize-search-bar2 =
     .label = Bilaketa tresna-barren botoiak
     .placeholder = Bilaketa tresna-barren botoiak…

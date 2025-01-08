@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Rjadowaki wašeho e-mejloweho konta wutworić, přemjenować abo zhašeć
 webext-perms-description-accountsIdentities = Identity wašeho e-mejloweho konta wutworić, změnić abo zhašeć
 webext-perms-description-accountsRead = Waše e-mejlowe konta, jich identity a jich rjadowaki pokazać
@@ -20,7 +27,6 @@ webext-perms-description-messagesModify = Čitajće a změńće swoje mejlki ka�
 webext-perms-description-messagesModifyPermanent = Žórło wašich powěsćow na přeco změnić (mjez nimi hłowy, wobsah a přiwěški)
 webext-perms-description-messagesMove = Kopěrujće abo přesuńće swoje e-mejlowe powěsće (inkluziwnje jich přesunjenje do rjadowaka papjernika)
 webext-perms-description-messagesDelete = Waše e-mejlowe powěsće na přeco zhašeć
-webext-perms-description-messagesRead = Čitajće swoje e-mejlowe powěsće a markěrujće abo woznamjeńće je
 webext-perms-description-messagesRead2 = Waše mejlki čitać
 webext-perms-description-messagesUpdate = Kajkosće a znački wašich e-mejlowych powěsćow změnić
 webext-perms-description-messagesTags = Powěsćowe znački wutworić, změnić a zhašeć

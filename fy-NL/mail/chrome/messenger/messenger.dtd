@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "F">
 <!ENTITY newVirtualFolderCmd.label "Bewarre sykopdracht…">
 <!ENTITY newVirtualFolderCmd.accesskey "s">
-<!ENTITY newCreateEmailAccountCmd.label "Krij in nij e-mailaccount…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "K">
-<!ENTITY newExistingEmailAccountCmd.label "Besteand e-mailaccount…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "B">
 <!ENTITY newIMAccountCmd.label "Chataccount…">
 <!ENTITY newIMAccountCmd.accesskey "C">
 <!ENTITY newFeedAccountCmd.label "Feedaccount…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Berjocht fuortsmite">
-<!ENTITY deleteMsgCmd.accesskey "f">
-<!ENTITY undeleteMsgCmd.label "Berjocht fuortsmite ûngedien meitsje">
-<!ENTITY undeleteMsgCmd.accesskey "u">
-<!ENTITY deleteMsgsCmd.label "Selektearre berjochten fuortsmite">
-<!ENTITY deleteMsgsCmd.accesskey "b">
-<!ENTITY undeleteMsgsCmd.label "Fuortsmite selektearre berjochten ûngedien meitsje">
-<!ENTITY undeleteMsgsCmd.accesskey "F">
-<!ENTITY deleteFolderCmd.label "Map fuortsmite">
-<!ENTITY deleteFolderCmd.accesskey "M">
-<!ENTITY unsubscribeNewsgroupCmd.label "Abonnemint opsizze">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "A">
 <!ENTITY selectMenu.label "Selektearje">
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Alle">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "s">
 <!ENTITY menuFavoriteFolder.label "Favorite map">
 <!ENTITY menuFavoriteFolder.accesskey "F">
-<!ENTITY folderPropsCmd2.label "Eigenskippen">
-<!ENTITY folderPropsFolderCmd2.label "Mapeigenskippen">
-<!ENTITY folderPropsNewsgroupCmd2.label "Nijsgroepeigenskippen">
-<!ENTITY folderPropsCmd.accesskey "E">
 <!ENTITY undoDeleteMsgCmd.label "Berjocht fuortsmite ûngedien meitsje">
 <!ENTITY redoDeleteMsgCmd.label "Berjocht fuortsmite opnij útfiere">
 <!ENTITY undoMoveMsgCmd.label "Berjocht ferpleatse ûngedien meitsje">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "F">
 <!ENTITY showFolderPaneCmd.label "Mappaniel">
 <!ENTITY showFolderPaneCmd.accesskey "M">
-<!ENTITY showFolderPaneColsCmd.label "Mappenfinsterkolommen">
-<!ENTITY showFolderPaneColsCmd.accesskey "o">
 <!ENTITY showMessageCmd.label "Berjochtefinster">
 <!ENTITY showMessageCmd.accesskey "e">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nij berjocht">
 <!ENTITY appmenuNewContactCmd.label "Adresboekkontakt…">
-<!ENTITY appmenuEditMenu.label "Bewurkje">
 <!ENTITY appmenuToolbarLayout.label "Arkbalke-yndieling…">
-<!ENTITY appmenuSelectThread.label "Konversaasje selektearje">
-<!ENTITY appmenuSelectFlagged.label "Berjochten mei stjer selektearje">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nij label…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "p">
 <!ENTITY folderContextMarkNewsgroupRead.label "Nijsgroep as lêzen markearje">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "m">
-<!ENTITY folderContextMarkMailFolderRead.label "Map as lêzen markearje">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "m">
 <!ENTITY folderContextSubscribe.label "Abonnearje…">
 <!ENTITY folderContextSubscribe.accesskey "A">
 <!ENTITY folderContextSearchForMessages.label "Sykje berjochten…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "e">
 <!ENTITY contextReplyList.label "List beäntwurdzje">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextForward.label "Trochstjoere">
-<!ENTITY contextForward.accesskey "s">
-<!ENTITY contextForwardAsMenu.label "Trochstjoere">
-<!ENTITY contextForwardAsMenu.accesskey "o">
-<!ENTITY contextForwardAsInline.label "Yn berjocht">
-<!ENTITY contextForwardAsInline.accesskey "Y">
-<!ENTITY contextForwardAsAttachmentItem.label "Bylage">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "l">
-<!ENTITY contextMultiForwardAsAttachment.label "Trochstjoere as bylagen">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "o">
 <!ENTITY contextMoveMsgMenu.label "Ferpleatse nei">
 <!ENTITY contextMoveMsgMenu.accesskey "F">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Resint">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "o">
 <!ENTITY copyEmailCmd.label "E-mailadres kopiearje">
 <!ENTITY copyEmailCmd.accesskey "m">
-<!ENTITY stopCmd.label "Stop">
-<!ENTITY stopCmd.accesskey "S">
-<!ENTITY reloadCmd.label "Opnij lade">
-<!ENTITY reloadCmd.accesskey "l">
 <!ENTITY openInBrowser.label "Yn browser iepenje">
 <!ENTITY openInBrowser.accesskey "i">
 <!ENTITY openLinkInBrowser.label "Keppeling yn browser iepenje">

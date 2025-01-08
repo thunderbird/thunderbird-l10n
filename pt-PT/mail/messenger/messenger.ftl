@@ -240,22 +240,6 @@ context-menu-cancel-msg =
     .label = Cancelar Mensagem
 # Variables:
 # $count (Number) - Number of selected messages.
-mail-context-delete-messages =
-    .label =
-        { $count ->
-            [one] Eliminar Mensagem
-           *[other] Eliminar Mensagens Selecionadas
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
-mail-context-undelete-messages =
-    .label =
-        { $count ->
-            [one] Recuperar mensagem
-           *[other] Recuperar mensagens selecionadas
-        }
-# Variables:
-# $count (Number) - Number of selected messages.
 mail-context-messages-delete =
     .label =
         { $count ->

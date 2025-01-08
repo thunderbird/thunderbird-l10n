@@ -36,6 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "д">
 <!ENTITY helpButton.label "Көмек">
 <!ENTITY helpButton.accesskey "К">
-<!ENTITY closeCmd.key "ж"> 
+<!ENTITY closeCmd.key "ж">
 <!ENTITY searchBox.emptyText "Сүзгілерді аты бойынша іздеу…">
-

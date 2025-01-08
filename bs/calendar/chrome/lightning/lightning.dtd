@@ -19,10 +19,6 @@
 <!ENTITY lightning.menupopup.new.calendar.accesskey "n">
 
 <!-- Open menu popup in File menu -->
-<!ENTITY lightning.menupopup.open.label               "Otvori">
-<!ENTITY lightning.menupopup.open.accesskey           "O">
-<!ENTITY lightning.menupopup.open.message.label       "Sačuvana poruka…">
-<!ENTITY lightning.menupopup.open.message.accesskey   "M">
 <!ENTITY lightning.menupopup.open.calendar.label      "Datoteka kalendara…">
 <!ENTITY lightning.menupopup.open.calendar.accesskey  "C">
 
@@ -49,6 +45,8 @@
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1     "Za sada, možete omogućiti ovo nakon što podesite ovaj kalendar unutar njegovog prozora svojstava ako se kalendarski server pobrinuo za zakazivanje.">
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "Ova opcija je dostupna samo ako je kalendarski server zadužen za zakazivanje. Omogućavanjem ćete odstupiti na uobičajeno zakazivanje preko mejla umjesto da to prepustite serveru.">
+
+<!-- The notifications settings in the properties dialog -->
 
 <!-- iMIP Bar (meeting support) -->
 <!ENTITY lightning.imipbar.btnAccept.label                                  "Prihvati">
@@ -91,8 +89,6 @@
 <!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Promijenite vaš status sudjelovanja za serije bez slanja odgvora organizatoru">
 
 <!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
 

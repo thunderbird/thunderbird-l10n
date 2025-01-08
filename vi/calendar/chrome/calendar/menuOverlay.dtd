@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Xóa lịch đã chọn…">
 <!ENTITY calendar.removecalendar.accesskey      "R">
 
-
-<!ENTITY calendar.menu.customize.label          "Tùy biến…">
-<!ENTITY calendar.menu.customize.accesskey      "T">
-
 <!ENTITY showUnifinderCmd.label                 "Tìm sự kiện">
 <!ENTITY showUnifinderCmd.accesskey             "m">
 <!ENTITY showUnifinderCmd.tooltip               "Chuyển đến khung tìm sự kiện">

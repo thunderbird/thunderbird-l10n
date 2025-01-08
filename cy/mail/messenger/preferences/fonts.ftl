@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Ffontiau
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Rhagosodiad ({ $name })
 fonts-label-default-unnamed =
     .label = Rhagosodiad
-fonts-encoding-dialog-title =
-    .title = Ffontiau ac Amgodio
 fonts-language-legend =
     .value = Ffontiau ar gyfer:
     .accesskey = F

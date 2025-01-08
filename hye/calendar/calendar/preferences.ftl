@@ -106,12 +106,6 @@ previous-weeks-label =
     .value = Ցուցադրել նախորդ շաբաթները
     .accesskey = Ն
 todaypane-legend = Այսաւրուայ իրադարձութիւնները
-# Note: "Upcoming" is the name of a section and the translation must match the
-# translation of that section name (calendar.upcoming.button.label). Also,
-# it should be upper case (as a proper name) if the target language permits.
-soon-label =
-    .value = Առաջիկայ բաժինը ցոյց է տալիս
-    .accesskey = Ա
 agenda-days =
     .value = Ըստ օրակարգի.
     .accesskey = g
@@ -145,10 +139,6 @@ edit-intab-label =
 prompt-delete-label =
     .label = Հուշում՝ առաջադրանքներ կամ իրադարձութիւններ ջնջելուց առաջ
     .accesskey = V
-accessibility-legend = Հասանելիութիւն
-accessibility-colors-label =
-    .label = Յարմարեցնել գոյները հասանելիութեան համար
-    .accesskey = գ
 reminder-legend = Երբ յիշեցումը մաւտենում է՝
 reminder-play-checkbox =
     .label = Նուագարկել ձայն

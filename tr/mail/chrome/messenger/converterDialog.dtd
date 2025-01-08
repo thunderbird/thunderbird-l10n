@@ -8,4 +8,3 @@
 <!ENTITY converterDialog.finishButton "Bitir">
 <!ENTITY converterDialog.complete "Dönüştürme tamamlandı. Şimdi &brandShortName; yeniden başlatılacak.">
 <!ENTITY converterDialog.error "Dönüştürme başarısız oldu.">
-

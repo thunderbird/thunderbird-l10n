@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "R">
 <!ENTITY deleteCmd.label          "Suprimeix">
 <!ENTITY deleteCmd.accesskey        "u">
-
 <!ENTITY customizeCmd.label "Personalitza">
 <!ENTITY customizeCmd.accesskey "t">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Tanca">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "c">
-
-<!ENTITY quitApplicationCmd.label  "Surt">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "u">
-
-<!ENTITY quitApplicationCmdUnix.label  "Surt">
-<!ENTITY quitApplicationCmdUnix.accesskey  "u">
-
-<!ENTITY quitApplicationCmdMac.label  "Surt del &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "u">

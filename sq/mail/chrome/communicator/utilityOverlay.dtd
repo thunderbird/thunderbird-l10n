@@ -17,7 +17,6 @@
 <!ENTITY redoCmd.accesskey          "R">
 <!ENTITY deleteCmd.label          "Fshije">
 <!ENTITY deleteCmd.accesskey        "F">
-
 <!ENTITY customizeCmd.label "Përshtateni">
 <!ENTITY customizeCmd.accesskey "t">
 
@@ -31,13 +30,3 @@
 <!ENTITY closeCmd.label      "Mbylleni">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "M">
-
-<!ENTITY quitApplicationCmd.label  "Dilni">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "D">
-
-<!ENTITY quitApplicationCmdUnix.label  "Dilni">
-<!ENTITY quitApplicationCmdUnix.accesskey  "d">
-
-<!ENTITY quitApplicationCmdMac.label  "Dilni nga &brandShortName;-i">
-<!ENTITY quitApplicationCmdMac.accesskey  "D">

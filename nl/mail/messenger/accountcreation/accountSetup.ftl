@@ -37,8 +37,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Wachtwoord
     .accesskey = W
     .title = Optioneel, wordt alleen gebruikt om de gebruikersnaam te valideren
-account-provisioner-button = Een nieuw e-mailadres aanvragen
-    .accesskey = v
 account-setup-password-toggle-show =
     .title = Wachtwoord in leesbare tekst tonen
 account-setup-password-toggle-hide =
@@ -148,7 +146,6 @@ account-setup-credentials-incomplete = Authenticatie mislukt. De ingevoerde gege
 account-setup-credentials-wrong = Authenticatie mislukt. Controleer de gebruikersnaam en het wachtwoord
 account-setup-find-settings-failed = { -brand-short-name } kan de instellingen voor uw e-mailaccount niet vinden
 account-setup-exchange-config-unverifiable = Configuratie kan niet worden geverifieerd. Als uw gebruikersnaam en wachtwoord juist zijn, heeft de serverbeheerder waarschijnlijk de geselecteerde configuratie voor uw account uitgeschakeld. Probeer een ander protocol te selecteren.
-account-setup-provisioner-error = Er is een fout opgetreden bij het instellen van uw nieuwe account in { -brand-short-name }. Probeer uw account handmatig in te stellen met uw aanmeldgegevens.
 
 ## Manual configuration area
 

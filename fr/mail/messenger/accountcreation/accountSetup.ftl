@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Mot de passe
     .accesskey = p
     .title = Facultatif, sera uniquement utilisé pour valider le nom d’utilisateur
-account-provisioner-button = Obtenir une nouvelle adresse e-mail
-    .accesskey = b
 account-setup-password-toggle-show =
     .title = Afficher le mot de passe
 account-setup-password-toggle-hide =
@@ -146,7 +144,6 @@ account-setup-credentials-incomplete = Échec de l’authentification. Soit les 
 account-setup-credentials-wrong = Échec de l’authentification. Veuillez vérifier le nom d’utilisateur et le mot de passe
 account-setup-find-settings-failed = { -brand-short-name } n’a pas trouvé les paramètres de votre compte de messagerie
 account-setup-exchange-config-unverifiable = La configuration n’a pas pu être vérifiée. Si votre nom d’utilisateur et votre mot de passe sont corrects, il est probable que l’administrateur du serveur a désactivé la configuration sélectionnée pour votre compte. Essayez de sélectionner un autre protocole.
-account-setup-provisioner-error = Une erreur s’est produite lors de la configuration de votre nouveau compte dans { -brand-short-name }. Veuillez essayer de configurer manuellement votre compte avec vos informations d’identification.
 
 ## Manual configuration area
 

@@ -4,14 +4,14 @@
 
 account-settings-title = Impostazioni di autenticazione
 account-channel-title = Canali predefiniti
-
 chat-autologin =
     .label = Autenticazione all’avvio
-
 chat-encryption-generic = Altro
 chat-encryption-log =
     .label = Includi i messaggi con crittografia end-to-end nei registri delle conversazioni
 chat-encryption-label = Crittografia end-to-end nativa
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } fornisce la crittografia end-to-end per i messaggi di chat. Ciò impedisce a terzi di intercettare una conversazione. Nella sezione successiva potrebbe essere necessario completare ulteriori configurazioni affinché la crittografia sia operativa.
 chat-encryption-status = Stato della crittografia
 chat-encryption-placeholder = Crittografia non inizializzata.

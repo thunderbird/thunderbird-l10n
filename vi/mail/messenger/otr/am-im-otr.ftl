@@ -21,6 +21,4 @@ otr-require-encryption-info =
     sẽ không được hiển thị như một phần của cuộc trò chuyện thông thường và cũng không được ghi lại.
 otr-verify-nudge =
     .label = Luôn nhắc tôi xác minh một liên hệ chưa được xác minh
-
 otr-not-yet-available = chưa có sẵn
-

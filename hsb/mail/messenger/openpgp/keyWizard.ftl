@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Přidajće wosobinski OpenPGP-kluč za { $identity }
-key-wizard-button =
-    .buttonlabelaccept = Dale
-    .buttonlabelhelp = Wróćo
 key-wizard-dialog =
     .buttonlabelaccept = Dale
     .buttonlabelextra1 = Wróćo
@@ -108,8 +105,6 @@ openpgp-import-key-list-caption = Kluče, kotrež su jako wosobinske kluče wobk
 openpgp-import-keep-passphrases =
     .label = Škit přez hesłowy wuraz za importowane tajne kluče wobchować
 openpgp-passphrase-prompt-title = Hesłowa fraza trěbna
-#   $key (String) - the id of the key being imported
-openpgp-passphrase-prompt = Prošu zapodajće hesłowu frazu, zo byšće slědowacy kluč přewostajił: { $key }
 openpgp-import-key-button =
     .label = Wubjerće dataju, kotraž ma so importować…
     .accesskey = u

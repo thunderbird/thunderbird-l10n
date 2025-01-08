@@ -36,8 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "k">
 <!ENTITY helpButton.label "Laguntza">
 <!ENTITY helpButton.accesskey "L">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Bilatu iragazkiak izenearen arabera…">
-
-
-

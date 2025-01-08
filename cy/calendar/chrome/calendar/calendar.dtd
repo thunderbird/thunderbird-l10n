@@ -14,46 +14,7 @@
 <!ENTITY calendar.today.button.label          "Heddiw">
 <!ENTITY calendar.tomorrow.button.label       "Yfory">
 
-<!ENTITY calendar.events.filter.all.label "Pob Digwyddiad">
-<!ENTITY calendar.events.filter.today.label "Digwyddiadau Heddiw">
-<!ENTITY calendar.events.filter.future.label "Pob Digwyddiad i'r Dyfodol">
-<!ENTITY calendar.events.filter.current.label "Diwrnod Cyfredol wedi'i Ddewis">
-<!ENTITY calendar.events.filter.currentview.label "Digwyddiadau yn y Golwg Gyfredol">
-<!ENTITY calendar.events.filter.next7Days.label "Digwyddiadau yn ystod y 7 Diwrnod Nesaf">
-<!ENTITY calendar.events.filter.next14Days.label "Digwyddiadau yn ystod y 14 Diwrnod Nesaf">
-<!ENTITY calendar.events.filter.next31Days.label "Digwyddiadau yn ystod y 31 Diwrnod Nesaf">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Digwyddiadau yn ystod y Mis Calendr yma">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Gorffen">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Trefnu yn ôl eu cwblhau">
-<!ENTITY calendar.unifinder.tree.priority.label            "Blaenoriaeth">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Trefnu yn ôl blaenoriaeth">
-<!ENTITY calendar.unifinder.tree.title.label               "Teitl">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Trefnu yn ôl teitl">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "Cwblhawyd &#037;">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Trefnu yn ôl &#037; wedi'u cwblhau">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Cychwyn">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Trefnu yn ôl dyddiad cychwyn">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Diwedd">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Trefnu yn ôl dyddiad diwedd">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Erbyn">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Trefnu yn ôl diwrnod y digwyddiad">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Cwblhawyd">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Trefnu yn ôl dyddiad cwblhau">
-<!ENTITY calendar.unifinder.tree.categories.label          "Categori">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Trefnu yn ôl categori">
-<!ENTITY calendar.unifinder.tree.location.label            "Lleoliad">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Trefnu yn ôl lleoliad">
-<!ENTITY calendar.unifinder.tree.status.label              "Statws">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Trefnu yn ôl statws">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Enw Calendr">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Trefnu yn ôl enw calendr">
-<!ENTITY calendar.unifinder.tree.duration.label            "Cwblhau ymhen">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Trefnu yn ôl cyfnod hyd y digwyddiad">
-<!ENTITY calendar.unifinder.close.tooltip                  "Cau chwilio digwyddiadau a rhestr digwyddiadau">
 
 <!ENTITY calendar.today.button.tooltip          "Mynd i Heddiw" >
 <!ENTITY calendar.todaypane.button.tooltip      "Dangos Paen Heddiw" >

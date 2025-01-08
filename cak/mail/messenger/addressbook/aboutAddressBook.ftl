@@ -8,12 +8,6 @@ about-addressbook-title = Kiwujil Ochochib'äl
 
 about-addressbook-toolbar-new-address-book =
     .label = K'ak'a' Kiwujil Ochochib'äl
-about-addressbook-toolbar-new-contact =
-    .label = K'ak'a' Rub'i' Achib'il
-about-addressbook-toolbar-new-list =
-    .label = K'ak'a' Cholb'äl
-about-addressbook-toolbar-import =
-    .label = Tijik' pe
 
 ## Books
 
@@ -40,10 +34,6 @@ about-addressbook-confirm-delete-book-title = Tiyuj Kiwujil Ochochib'äl
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = Tikanöx { $name }
 about-addressbook-name-format-display =
     .label = Tik'ut B'i'aj
 about-addressbook-name-format-firstlast =
@@ -54,30 +44,6 @@ about-addressbook-name-format-lastfirst =
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
-about-addressbook-column-header-generatedname = B'i'aj
-about-addressbook-column-label-generatedname =
-    .label = { about-addressbook-column-header-generatedname }
-about-addressbook-column-header-emailaddresses = Kochochib'al Taqoya'l
-about-addressbook-column-label-emailaddresses =
-    .label = { about-addressbook-column-header-emailaddresses }
-about-addressbook-column-header-phonenumbers = Rajilab'al Oyonib'äl
-about-addressbook-column-label-phonenumbers =
-    .label = { about-addressbook-column-header-phonenumbers }
-about-addressbook-column-header-addresses = Taq ochochib'äl
-about-addressbook-column-label-addresses =
-    .label = { about-addressbook-column-header-addresses }
-about-addressbook-column-header-title = B'i'aj
-about-addressbook-column-label-title =
-    .label = { about-addressbook-column-header-title }
-about-addressbook-column-header-department = Tinamital
-about-addressbook-column-label-department =
-    .label = { about-addressbook-column-header-department }
-about-addressbook-column-header-organization = Moloj
-about-addressbook-column-label-organization =
-    .label = { about-addressbook-column-header-organization }
-about-addressbook-column-header-addrbook = Kiwujil Ochochib'äl
-about-addressbook-column-label-addrbook =
-    .label = { about-addressbook-column-header-addrbook }
 about-addressbook-column-label-generatedname2 =
     .label = B'i'aj
 about-addressbook-column-label-emailaddresses2 =

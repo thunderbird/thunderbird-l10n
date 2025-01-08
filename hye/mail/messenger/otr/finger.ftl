@@ -3,18 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-finger-title = Նախկինում տեսած OTR մատնահետքեր
-
 finger-intro = OTR բանալի մատնահետքեր, նախորդ՝ ծայրից ծայր ծածկագրուած խաւսակցութիւններից:
-
 finger-screen-name =
     .label = Կապորդ
 finger-verified =
     .label = Ստուգման կարգավիճակ
 finger-fingerprint =
     .label = Մատնահետք
-
 finger-remove =
     .label = Հեռացնել ընտրուածը
-
 finger-remove-all =
     .label = Հեռացնել բոլորը

@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "أزل التقويم المحدد…">
 <!ENTITY calendar.removecalendar.accesskey      "ز">
 
-
-<!ENTITY calendar.menu.customize.label          "خصّص…">
-<!ENTITY calendar.menu.customize.accesskey      "ص">
-
 <!ENTITY showUnifinderCmd.label                 "اعثر على أحداث">
 <!ENTITY showUnifinderCmd.accesskey             "ع">
 <!ENTITY showUnifinderCmd.tooltip               "بدّل عرض لوحة البحث عن الأحداث">

@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-offline-dialog-window =
-    .title = Impostazioni non in linea
 offline-dialog-title = Impostazioni non in linea
 autodetect-online-label =
     .label = Passa automaticamente alla modalità in linea

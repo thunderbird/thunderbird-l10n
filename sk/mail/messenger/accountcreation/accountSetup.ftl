@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Heslo
     .accesskey = H
     .title = Voliteľné, bude použité len na overenie používateľského mena
-account-provisioner-button = Získať novú e‑mailovú adresu
-    .accesskey = n
 account-setup-password-toggle-show =
     .title = Zobraziť heslo ako čistý text
 account-setup-password-toggle-hide =
@@ -147,7 +145,6 @@ account-setup-credentials-incomplete = Overenie zlyhalo. Buď sú zadané prihla
 account-setup-credentials-wrong = Overenie zlyhalo. Skontrolujte používateľské meno a heslo
 account-setup-find-settings-failed = { -brand-short-name(case: "dat") } sa nepodarilo nájsť nastavenia pre váš e‑mailový účet
 account-setup-exchange-config-unverifiable = Konfiguráciu sa nepodarilo overiť. Ak sú vaše používateľské meno a heslo správne, je pravdepodobné, že správca servera zakázal vybratú konfiguráciu vášho účtu. Skúste zvoliť iný protokol.
-account-setup-provisioner-error = Pri nastavovaní nového účtu v aplikácii { -brand-short-name } sa vyskytla chyba. Skúste svoj účet nastaviť ručne pomocou svojich prihlasovacích údajov.
 
 ## Manual configuration area
 

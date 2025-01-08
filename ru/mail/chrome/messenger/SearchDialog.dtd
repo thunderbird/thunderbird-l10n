@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- for SearchDialog.xul -->
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "Искать в папке:">
 <!ENTITY searchHeading.accesskey     "с">
 <!ENTITY searchSubfolders.label      "Включая вложенные папки">
@@ -19,13 +19,13 @@
 <!ENTITY results.label               "Результаты">
 <!ENTITY moveButton.label            "Переместить в">
 <!ENTITY moveButton.accesskey        "м">
-<!ENTITY closeCmd.key                "W"> 
+<!ENTITY closeCmd.key                "W">
 <!ENTITY openInFolder.label          "Открыть в папке">
 <!ENTITY openInFolder.accesskey      "ы">
 <!ENTITY saveAsVFButton.label        "Сохранить как виртуальную папку">
 <!ENTITY saveAsVFButton.accesskey    "х">
 
-<!-- for ABSearchDialog.xul -->
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "Место поиска:">
 <!ENTITY abSearchHeading.accesskey   "с">
 <!ENTITY propertiesButton.label      "Свойства">
@@ -35,4 +35,3 @@
 <!ENTITY deleteCardButton.label      "Удалить">
 <!ENTITY deleteCardButton.accesskey  "а">
 <!ENTITY abSearchDialogTitle.label   "Расширенный режим поиска в адресной книге">
-

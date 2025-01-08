@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-attachment-reminder-window =
-    .title = Klíčová slova pro připomenutí přílohy
 attachment-reminder-dialog-title = Klíčová slova pro připomenutí přílohy
 attachment-reminder-label = { -brand-short-name } vás upozorní na zapomenutou přílohu, pokud pošlete e-mail obsahující některé z následujících slov.
 keyword-new-button =

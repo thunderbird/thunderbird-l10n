@@ -12,7 +12,6 @@ view-fingerprint-button =
     .label = Tvarkykite kontaktų „pirštų atspaudus“
     .accesskey = T
 otr-settings-title = OTR nuostatos
-
 otr-require-encryption =
     .label = Tiesioginiai privatūs pokalbiai turi būti abipusiai šifruoti
 otr-require-encryption-info =
@@ -21,6 +20,4 @@ otr-require-encryption-info =
     nebus rodomos kaip įprasto pokalbio dalis ir nebus fiksuojamos.
 otr-verify-nudge =
     .label = Visada priminti, kad reikia patikrinti nepatvirtintą kontaktą
-
 otr-not-yet-available = kol kas nepasiekiamas
-

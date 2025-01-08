@@ -10,7 +10,6 @@
  given Thunderbird channel". These terms are not synonymous.
 -->
 <!ENTITY window.title "&brandProductName; bertsio zahar bat abiarazi duzu">
-<!ENTITY window.style "width: 490px;">
 
 <!ENTITY window.nosync2 "&brandProductName; bertsio berriak aldaketak egin ditzake zure profilean ez direnak bateragarriak bertsio zahar honekin. Erabili profil hau bertsio berriarekin bakarrik edo sortu profil berri bat &brandShortName; instalazio honetarako. Profil berria sortzeak zure kontuak, egutegiak eta gehigarriak berriz ezartzea eskatzen du.">
 

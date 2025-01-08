@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Kontowy asistent">
-<!ENTITY accountWizard.size "width: 47em; height: 40em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Zapodajće mjeno swojeho serwera za diskusijne skupiny (NNTP) (na přikład &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Serwer diskusijneho serwera:">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

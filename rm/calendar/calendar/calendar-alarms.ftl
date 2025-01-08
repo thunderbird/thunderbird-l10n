@@ -10,12 +10,6 @@ reminder-title-at-start-event = Il mument cura che l'eveniment cumenza
 reminder-title-at-start-task = Il mument cura che l'incumbensa cumenza
 reminder-title-at-end-event = Il mument cura che l'eveniment va a fin
 reminder-title-at-end-task = Il mument cura che l'incumbensa è a fin
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Spustar la promemoria per { $unit }
 reminder-custom-origin-begin-before-event = avant che l'eveniment cumenza
 reminder-custom-origin-begin-after-event = suenter che l'eveniment cumenza
 reminder-custom-origin-end-before-event = avant che l'eveniment va a fin

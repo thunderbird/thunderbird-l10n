@@ -2,12 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from AccountManager.xul -->
-
 <!-- extracted from AccountManager.xhtml -->
 
 <!ENTITY accountManagerTitle.label "Konten-Einstellungen">
-
 <!ENTITY  accountManagerCloseButton.label "Schließen">
 
 <!ENTITY accountActionsButton.label "Konten-Aktionen">
@@ -24,6 +21,3 @@
 <!ENTITY removeButton.accesskey "o">
 
 <!ENTITY addonsButton.label "Erweiterungen &amp; Themes">
-
-<!-- AccountManager.xhtml -->
- 

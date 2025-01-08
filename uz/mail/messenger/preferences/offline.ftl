@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-offline-dialog-window =
-    .title = Oflayn sozlamalari
 offline-dialog-title = Oflayn sozlamalari
 autodetect-online-label =
     .label = Onlayn holatda xabarlar aniqlanishi avtomatik kuzatilsin

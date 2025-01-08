@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Vervaldatum
 openpgp-key-id-label =
     .label = Sleutel-ID
-openpgp-cannot-change-expiry = Dit is een sleutel met een complexe structuur, het wijzigen van de vervaldatum wordt niet ondersteund.
-openpgp-key-man-title =
-    .title = OpenPGP-sleutelbeheerder
 openpgp-key-man-dialog-title = OpenPGP-sleutelbeheerder
 openpgp-key-man-generate =
     .label = Nieuw sleutelpaar
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Intrekkingscertificaat
     .accesskey = I
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Intrekkingscertificaat aanmaken en opslaan
 openpgp-key-man-gen-revocation =
     .label = Intrekkingscertificaat opslaan als bestand
     .accesskey = c
@@ -489,8 +484,6 @@ filter-encrypt-label = Versleutelen naar sleutel (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Succes! Sleutels geïmporteerd
 import-info-dialog-title = Succes! Sleutels geïmporteerd
 import-info-bits = Bits
 import-info-created = Aangemaakt
@@ -650,9 +643,6 @@ no-update-found = U hebt de sleutels die online zijn gevonden al.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Fout – sleutelextractieopdracht mislukt
@@ -783,15 +773,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     U hebt regelafbreking ingesteld op { $width } tekens. Voor een correcte versleuteling en/of ondertekening moet deze waarde ten minste 68 zijn.
     Wilt u de regelafbreking nu wijzigen in 68 tekens?
-sending-news =
-    Versleutelde verzendbewerking afgebroken.
-    Dit bericht kan niet worden versleuteld omdat de ontvangers nieuwsgroepen bevatten. Verzend het bericht opnieuw zonder versleuteling.
-send-to-news-warning =
-    Waarschuwing: u staat op het punt een versleuteld e-mailbericht naar een nieuwsgroep te sturen.
-    Dit wordt ontmoedigd, omdat het alleen zinvol is als alle leden van de groep het bericht kunnen ontsleutelen, d.w.z. het bericht moet worden versleuteld met de sleutels van alle groepsdeelnemers. Stuur dit bericht alleen als u precies weet wat u doet.
-    Doorgaan?
 save-attachment-header = Ontsleutelde bijlage opslaan
-possibly-pgp-mime = Mogelijk PGP/MIME-versleuteld of -ondertekend bericht; gebruik de functie ‘Ontsleutelen/Verifiëren’ om te verifiëren
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Kan dit bericht niet digitaal ondertekenen, omdat u nog geen end-to-end-versleuteling voor <{ $key }> heeft geconfigureerd
@@ -845,15 +827,6 @@ debug-log-title = OpenPGP-debuglogboek
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Herhalingsfrequentie waarschuwing: { $count }
-repeat-suffix-singular = keer.
-repeat-suffix-plural = keer.
-no-repeat = Deze waarschuwing wordt niet meer getoond.
-dlg-keep-setting = Mijn antwoord onthouden en het me niet nog een keer vragen
 
 ## Strings used in dialog.sys.mjs
 
@@ -863,8 +836,6 @@ dlg-button-cancel = &Annuleren
 dlg-no-prompt = Dit dialoogvenster niet meer tonen
 enig-prompt = OpenPGP-vraag
 enig-confirm = OpenPGP-bevestiging
-enig-alert = OpenPGP-waarschuwing
-enig-info = OpenPGP-informatie
 
 ## Strings used in persistentCrypto.jsm
 

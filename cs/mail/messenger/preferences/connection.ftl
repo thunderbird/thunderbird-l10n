@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = n
     .tooltiptext = Zadejte vlastní URL adresu pro službu DNS over HTTPS
 connection-dns-over-https-custom-label = Vlastní
-connection-dialog-window2 =
-    .title = Nastavení připojení
 connection-dialog-title = Nastavení připojení
 disable-extension-button = Zakázat rozšíření
 # Variables:

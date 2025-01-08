@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = 郵件摘要
-selected-messages-label =
-    .label = 已選郵件
 multi-message-archive-button =
     .label = 備存
     .tooltiptext = 備存

@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Hľadať
-search-bar-item =
-    .label = Hľadať:
 search-bar-item2 =
     .label = Hľadať
 search-bar-placeholder = Hľadať…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Iba text
 customize-cancel = Zrušiť
 customize-save = Uložiť
 customize-unsaved-changes = Neuložené zmeny pre iné karty
-customize-search-bar =
-    .label = Hľadať tlačidlá pre panel nástrojov…
 customize-search-bar2 =
     .label = Hľadať tlačidlá pre panel nástrojov
     .placeholder = Hľadať tlačidlá pre panel nástrojov…

@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colors-dialog-window2 =
-    .title = Màu
 colors-dialog-title = Màu
 colors-dialog-legend = Văn bản và nền
 text-color-label =
@@ -22,9 +20,6 @@ link-color-label =
 visited-link-color-label =
     .value = Liên kết đã truy cập:
     .accesskey = V
-underline-link-checkbox =
-    .label = Các liên kết được gạch chân
-    .accesskey = U
 always-underline-links =
     .label = Luôn gạch chân các liên kết
     .accesskey = U

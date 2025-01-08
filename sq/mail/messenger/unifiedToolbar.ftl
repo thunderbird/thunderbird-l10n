@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Kërko
-search-bar-item =
-    .label = Kërko:
 search-bar-item2 =
     .label = Kërko
 search-bar-placeholder = Kërkoni…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Vetëm tekst
 customize-cancel = Anuloje
 customize-save = Ruaje
 customize-unsaved-changes = Ndryshime të paruajtura në hapësira të tjera
-customize-search-bar =
-    .label = Butona paneli kërkimesh…
 customize-search-bar2 =
     .label = Butona paneli kërkimesh
     .placeholder = Butona paneli kërkimesh…

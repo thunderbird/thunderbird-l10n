@@ -4,5 +4,3 @@
 
 multi-message-window-title =
     .title = Boodskapopsomming
-selected-messages-label =
-    .label = Gemerkte boodskappe

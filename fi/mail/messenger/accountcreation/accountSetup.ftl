@@ -37,8 +37,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Salasana
     .accesskey = a
     .title = Valinnainen, käytetään vain käyttäjätunnuksen vahvistamiseen
-account-provisioner-button = Hanki uusi sähköpostiosoite
-    .accesskey = H
 account-setup-password-toggle-show =
     .title = Näytä salasana selkokielisenä tekstinä
 account-setup-password-toggle-hide =
@@ -148,7 +146,6 @@ account-setup-credentials-incomplete = Tunnistautuminen epäonnistui. Joko annet
 account-setup-credentials-wrong = Todennus epäonnistui. Tarkista käyttäjätunnus ja salasana
 account-setup-find-settings-failed = { -brand-short-name } ei löytänyt asetuksia sähköpostitilisi osalta
 account-setup-exchange-config-unverifiable = Kokoonpanoa ei voitu vahvistaa. Jos käyttäjätunnuksesi ja salasanasi ovat oikein, palvelimen järjestelmänvalvoja on todennäköisesti estänyt tilillesi valitsemasi kokoonpanon. Yritä uudelleen valitsemalla toinen yhteyskäytäntö.
-account-setup-provisioner-error = Tapahtui virhe määritettäessä uutta tiliäsi { -brand-short-name }iin. Yritä määrittää tilisi manuaalisesti kirjautumistiedoillasi.
 
 ## Manual configuration area
 

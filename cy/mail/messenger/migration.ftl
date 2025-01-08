@@ -10,6 +10,3 @@ migration-progress-header = Yn cael { -brand-short-name } yn barod…
 # These strings are displayed to the user if a migration is taking a long time.
 # They should be short (no more than a handful of words) and in the present tense.
 
-migration-task-test-fast = Yn profi newid cyflym
-migration-task-test-slow = Yn profi newid araf
-migration-task-test-progress = Yn profi'r bar cynnydd

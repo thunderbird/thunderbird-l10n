@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-dock-options-window-dialog2 =
-    .title = 應用程式圖示選項
 dock-options-dialog-title = 應用程式圖示選項
 dock-options-show-badge =
     .label = 顯示徽章圖示

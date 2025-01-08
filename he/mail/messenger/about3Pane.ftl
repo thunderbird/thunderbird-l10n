@@ -65,13 +65,6 @@ quick-filter-bar-results =
         [one] הודעה אחת
        *[other] { $count } הודעות
     }
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
 # The Any-of tagging mode.
 quick-filter-bar-boolean-mode-any =
     .label = כל אחת מהן
@@ -202,3 +195,6 @@ apply-current-columns-to-folder-message = להחיל שינויים של עמו�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = להחיל שינויים של עמודות התיקייה הנוכחית אל { $name } ותיקיות המשנה שלה?
+
+## Folder pane context menu
+

@@ -3,10 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY virtualFolderProperties.title "Нова снимена папка со пребарување">
-<!ENTITY name.label "Име:">
-<!ENTITY name.accesskey "И">
-<!ENTITY description.label "Креирај потпапка на:">
-<!ENTITY description.accesskey "К">
+<!ENTITY name.label                 "Име:">
+<!ENTITY name.accesskey             "И">
+<!ENTITY description.label          "Креирај потпапка на:">
+<!ENTITY description.accesskey      "К">
 
 <!ENTITY searchTermCaption.label "Конфигурирај го критериумот за пребарување користен за оваа снимена папка со пребарување: ">
 

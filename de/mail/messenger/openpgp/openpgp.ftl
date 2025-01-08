@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Läuft ab
 openpgp-key-id-label =
     .label = Schlüssel-ID
-openpgp-cannot-change-expiry = Dies ist ein Schlüssel mit einer komplexen Struktur, das Ändern des Ablaufdatums wird nicht unterstützt.
-openpgp-key-man-title =
-    .title = OpenPGP-Schlüssel verwalten
 openpgp-key-man-dialog-title = OpenPGP-Schlüssel verwalten
 openpgp-key-man-generate =
     .label = Neues Schlüsselpaar
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Widerrufszertifikat
     .accesskey = W
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Widerrufzertifikat erzeugen und speichern
 openpgp-key-man-gen-revocation =
     .label = Sperrzertifikat in Datei speichern
     .accesskey = S
@@ -489,8 +484,6 @@ filter-encrypt-label = Mit Schlüssel verschlüsseln (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Schlüssel erfolgreich importiert
 import-info-dialog-title = Schlüssel erfolgreich importiert
 import-info-bits = Bit
 import-info-created = Erstellt am
@@ -652,9 +645,6 @@ no-update-found = Die online gefundenen Schlüssel besitzen Sie bereits.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Fehler - Schlüsselextraktion fehlgeschlagen
@@ -785,15 +775,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Sie haben den Zeilenumbruch auf { $width } Zeichen eingestellt. Für korrektes Verschlüsseln und/oder digitales Signieren muss dieser Wert mindestens 68 betragen.
     Möchten Sie den Zeilenumbruch jetzt auf 68 Zeichen ändern?
-sending-news =
-    Senden verschlüsselter Nachricht abgebrochen.
-    Die Nachricht kann nicht verschlüsselt werden, da einige Empfänger Newsgruppen sind. Bitte senden Sie die Nachricht erneut, aber ohne Verschlüsselung.
-send-to-news-warning =
-    Warnung: Sie sind dabei, eine verschlüsselte Nachricht an eine Newsgruppe zu senden.
-    Davon wird abgeraten, da es nur sinnvoll ist, falls alle Mitglieder der Newsgruppe die Nachricht entschlüsseln können, z.B. wenn die Nachricht mit den Schlüsseln aller Gruppenmitglieder verschlüsselt ist. Senden Sie diese Nachricht nur, wenn Sie wirklich wissen, was Sie tun.
-    Fortfahren?
 save-attachment-header = Entschlüsselten Anhang speichern
-possibly-pgp-mime = Möglicherweise PGP/MIME-verschlüsselte oder signierte Nachricht; verwenden Sie die Funktion „Entschlüsseln/Verifizieren“ zum Verifizieren.
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Diese Nachricht kann nicht digital signiert werden, da Sie noch keine Ende-zu-Ende-Verschlüsselung für <{ $key }> eingerichtet haben.
@@ -847,15 +829,6 @@ debug-log-title = OpenPGP-Debug-Protokoll
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Dieser Alarm wird { $count }
-repeat-suffix-singular = Mal wiederholt.
-repeat-suffix-plural = Mal wiederholt.
-no-repeat = Dieser Alarm wird in Zukunft nicht mehr angezeigt.
-dlg-keep-setting = Antwort merken und in Zukunft nicht mehr nachfragen
 
 ## Strings used in dialog.sys.mjs
 
@@ -865,8 +838,6 @@ dlg-button-cancel = A&bbrechen
 dlg-no-prompt = Dieses Dialogfenster nicht mehr anzeigen
 enig-prompt = OpenPGP-Eingabeaufforderung
 enig-confirm = OpenPGP-Bestätigung
-enig-alert = OpenPGP-Alarm
-enig-info = OpenPGP-Information
 
 ## Strings used in persistentCrypto.jsm
 

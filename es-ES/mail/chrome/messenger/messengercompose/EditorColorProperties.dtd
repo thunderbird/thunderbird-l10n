@@ -2,6 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- Window title -->
 <!ENTITY windowTitle.label "Fondo y colores de la página">
 <!ENTITY pageColors.label "Colores de la página">
 <!ENTITY defaultColorsRadio.label "Colores predeterminados del lector (no fijar los colores en la página)">

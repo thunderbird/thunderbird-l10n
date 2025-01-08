@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = O
     .tooltiptext = Fier jo foarkars-URL yn foar DNS oer HTTPS
 connection-dns-over-https-custom-label = Oanpast
-connection-dialog-window2 =
-    .title = Ferbiningsynstellingen
 connection-dialog-title = Ferbiningsynstellingen
 disable-extension-button = Utwreiding útskeakelje
 # Variables:

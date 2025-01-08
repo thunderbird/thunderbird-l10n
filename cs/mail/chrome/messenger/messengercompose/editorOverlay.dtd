@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Vlastnosti tabulky…">
 <!ENTITY tableProperties.accesskey "o">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Obrázek">
 <!ENTITY imageToolbarCmd.tooltip "Vloží nový obrázek, nebo upraví označený">
 <!ENTITY hruleToolbarCmd.label "Vodorovná linka">

@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-
 <!ENTITY title.label "Boodskapsekuriteit">
 <!ENTITY subject.plaintextWarning "Let wel: E-posse se onderwerpreëls word nooit geënkripteer nie.">
 <!ENTITY status.heading "Die inhoud van u boodskap sal as volg versend word:">

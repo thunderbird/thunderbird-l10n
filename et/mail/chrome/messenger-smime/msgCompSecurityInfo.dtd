@@ -4,15 +4,15 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-<!ENTITY title.label              "Kirja turvalisus">
+<!ENTITY title.label "Kirja turvalisus">
 <!ENTITY subject.plaintextWarning "NB! Kirja teema saadetakse alati krüptimata.">
-<!ENTITY status.heading           "Kirja sisu saadetakse järgnevalt:">
-<!ENTITY status.signed            "Digiallkirjastatud:">
-<!ENTITY status.encrypted         "Krüptitud:">
-<!ENTITY status.certificates      "Sertifikaadid:">
-<!ENTITY view.label               "Vaata">
-<!ENTITY view.accesskey           "V">
-<!ENTITY tree.recipient           "Saaja">
-<!ENTITY tree.status              "Olek">
-<!ENTITY tree.issuedDate          "Väljaandmise aeg">
-<!ENTITY tree.expiresDate         "Aegumise aeg">
+<!ENTITY status.heading "Kirja sisu saadetakse järgnevalt:">
+<!ENTITY status.signed "Digiallkirjastatud:">
+<!ENTITY status.encrypted "Krüptitud:">
+<!ENTITY status.certificates "Sertifikaadid:">
+<!ENTITY view.label "Vaata">
+<!ENTITY view.accesskey "V">
+<!ENTITY tree.recipient "Saaja">
+<!ENTITY tree.status "Olek">
+<!ENTITY tree.issuedDate "Väljaandmise aeg">
+<!ENTITY tree.expiresDate "Aegumise aeg">

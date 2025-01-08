@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Фонтови
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Подразумевани ({ $name })
 fonts-label-default-unnamed =
     .label = Подразумевано
-fonts-encoding-dialog-title =
-    .title = Фонтови и кодирања
 fonts-language-legend =
     .value = Фонтови за:
     .accesskey = т

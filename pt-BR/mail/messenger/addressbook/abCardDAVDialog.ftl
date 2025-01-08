@@ -3,11 +3,9 @@
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
 carddav-window-title = Novo catálogo de endereços CardDAV
-
 carddav-dialog =
     .buttonlabelaccept = Continuar
     .buttonaccesskeyaccept = C
-
 carddav-username-label =
     .value = Nome de usuário:
     .accesskey = U
@@ -16,11 +14,11 @@ carddav-location-label =
     .accesskey = L
 carddav-location =
     .default-placeholder = URL ou nome de host do servidor de catálogo de endereços
-
 carddav-loading = Procurando configuração…
+# Variables:
+# $url (String) - CardDAV endpoint hostname. For example "example.com".
 carddav-known-incompatible = Sabe-se que { $url } é incompatível com o { -brand-short-name }.
 carddav-connection-error = Falha na conexão.
 carddav-none-found = Não foi encontrado nenhum catálogo de endereços para adicionar à conta especificada.
 carddav-already-added = Todos os catálogos de endereços da conta especificada já foram adicionados.
-
 carddav-available-books = Catálogos de endereços disponíveis:

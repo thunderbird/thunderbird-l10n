@@ -8,9 +8,6 @@
 
 ## Help Menu
 
-menu-help-more-troubleshooting-info =
-    .label = Boshqa tuzatish maʼlumotlari
-    .accesskey = B
 
 ## Mail Toolbar
 
@@ -20,6 +17,9 @@ menu-help-more-troubleshooting-info =
 menu-view-repair-text-encoding =
     .label = Matn shifrini tuzatish
     .accesskey = M
+
+## View / Folders
+
 
 ## View / Layout
 

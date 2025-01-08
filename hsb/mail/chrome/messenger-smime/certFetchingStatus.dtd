@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE shown while obtaining certificates from a directory -->
 
-
 <!ENTITY title.label "Certifikaty sćahnyć">
 <!ENTITY info.message "Zapis za certifikaty přijimarja so pyta. To móže někotre mjeńšiny trać.">
 <!ENTITY stop.label "Pytanje zastajić">

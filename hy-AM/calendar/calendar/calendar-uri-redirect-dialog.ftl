@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-uri-redirect-window =
-    .title = Օրացույցի URI վերահղում
 calendar-uri-redirect-window-title = Օրացույցի URI վերահղում
+# Variables:
+# $calendarName (String) - Display name of the calendar.
 calendar-uri-redirect-description =
     Սերվերը վերահղում է URI ՝ «{ $CalendarName }» օրացույցի համար:
     Ընդունո՞ւմ եք վերահղումը և սկսեք օգտագործել այս URI- ի նոր URI-ն այս օրացույցի համար:

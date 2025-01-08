@@ -29,9 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Odstrániť označený kalendár…">
 <!ENTITY calendar.removecalendar.accesskey      "d">
 
-<!ENTITY calendar.menu.customize.label          "Prispôsobiť…">
-<!ENTITY calendar.menu.customize.accesskey      "P">
-
 <!ENTITY showUnifinderCmd.label                 "Hľadať udalosti">
 <!ENTITY showUnifinderCmd.accesskey             "a">
 <!ENTITY showUnifinderCmd.tooltip               "Prepnúť panel Hľadať udalosti">

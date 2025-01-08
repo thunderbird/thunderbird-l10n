@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Ringkasan Pesan
-selected-messages-label =
-    .label = Pesan Terpilih
 multi-message-archive-button =
     .label = Arsipkan
     .tooltiptext = Arsipkan

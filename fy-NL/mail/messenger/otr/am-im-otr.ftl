@@ -21,6 +21,4 @@ otr-require-encryption-info =
     wurde net toand as ûnderdiel fan it reguliere petear en ek net registrearre.
 otr-verify-nudge =
     .label = My altyd in omtinken stjoere om in net-ferifiearre kontakt te ferifiearjen
-
 otr-not-yet-available = noch net beskikber
-

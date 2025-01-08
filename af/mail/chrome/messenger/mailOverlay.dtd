@@ -6,6 +6,6 @@
 <!ENTITY  newMessageCmd.key               "M">
 <!ENTITY  newMessageCmd.label             "Boodskap">
 <!ENTITY  newMessageCmd.accesskey         "o">
- 
+
 <!ENTITY  newContactCmd.label             "Adresboek-kennis…">
 <!ENTITY  newContactCmd.accesskey         "k">

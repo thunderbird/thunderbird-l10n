@@ -26,7 +26,6 @@
 <!ENTITY contextOutgoing.accesskey "S">
 <!ENTITY contextArchive.label "備存中">
 <!ENTITY contextArchive.accesskey "A">
-
 <!ENTITY contextPeriodic.accesskey "e">
 
 <!ENTITY filterActionDesc.label "執行下列動作:">

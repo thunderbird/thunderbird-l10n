@@ -36,6 +36,5 @@
 <!ENTITY folderPickerPrefix.accesskey "u">
 <!ENTITY helpButton.label "Pomoc">
 <!ENTITY helpButton.accesskey "P">
-<!ENTITY closeCmd.key "W"> 
+<!ENTITY closeCmd.key "W">
 <!ENTITY searchBox.emptyText "Filtry po mjenje přepytać…">
-

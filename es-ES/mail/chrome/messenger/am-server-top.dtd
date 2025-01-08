@@ -13,6 +13,11 @@
 <!ENTITY port.label "Puerto:">
 <!ENTITY port.accesskey "P">
 <!ENTITY serverPortDefault.label "Predet.:">
+<!-- LOCALIZATION NOTE (biffStart.label) : translate below 2 line with grammar dependency
+        For example, in Japanese cases:
+                biffStart.label "every"
+                biffEnd.label   "minutes for new messages Check"
+-->
 <!ENTITY biffStart.label "Buscar nuevos mensajes cada ">
 <!ENTITY biffStart.accesskey "j">
 <!ENTITY biffEnd.label "minutos">
@@ -21,7 +26,6 @@
 <!ENTITY connectionSecurity.label "Seguridad de la conexión:">
 <!ENTITY connectionSecurity.accesskey "u">
 <!ENTITY connectionSecurityType-0.label "Ninguna">
-<!ENTITY connectionSecurityType-1.label "STARTTLS, si está disponible">
 <!ENTITY connectionSecurityType-2.label "STARTTLS">
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY authMethod.label "Método de identificación:">
@@ -44,14 +48,20 @@
 <!ENTITY modelMarkDeleted.accesskey "m">
 <!ENTITY modelDeleteImmediately.label "Eliminarlo inmediatamente">
 <!ENTITY modelDeleteImmediately.accesskey "d">
+<!-- LOCALIZATION NOTE (expungeOnExit.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY expungeOnExit.label "Limpiar (&quot;Purgar&quot;) la bandeja de entrada al salir">
 <!ENTITY expungeOnExit.accesskey "E">
 <!ENTITY emptyTrashOnExit.label "Vaciar papelera al salir">
 <!ENTITY emptyTrashOnExit.accesskey "v">
 <!ENTITY loginAtStartup.label "Comprobar si hay mensajes nuevos al iniciar">
 <!ENTITY loginAtStartup.accesskey "C">
+<!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency
+    maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
+    of messages between them
+-->
 <!ENTITY maxMessagesStart.label "Preguntarme antes de descargar más de">
 <!ENTITY maxMessagesStart.accesskey "m">
+<!-- LOCALIZATION NOTE (maxMessagesEnd.label) : see note for maxMessagesStart.label -->
 <!ENTITY maxMessagesEnd.label "mensajes">
 <!ENTITY alwaysAuthenticate.label "Siempre solicitar identificación cuando se conecte con este servidor">
 <!ENTITY alwaysAuthenticate.accesskey "p">

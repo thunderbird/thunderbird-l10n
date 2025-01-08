@@ -35,3 +35,6 @@ toolbar-stop =
 toolbar-throbber-label = Táscaire Gníomhaíochta
 toolbar-throbber =
     .title = Táscaire Gníomhaíochta
+
+## New Address Book popup items
+

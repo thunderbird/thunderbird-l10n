@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = Modd Datrys Problemau { -brand-short-name }
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = Modd Datrys Problemau { -brand-short-name }
 troubleshoot-mode-description = Defnyddiwch y modd arbennig hwn o { -brand-short-name } i ddatrys materion. Bydd eich estyniadau a'ch cyfaddasiadau yn cael eu hanalluogi dros dro.
 troubleshoot-mode-description2 = Gallwch wneud rhai neu'r cyfan o'r newidiadau hyn yn rhai parhaol:

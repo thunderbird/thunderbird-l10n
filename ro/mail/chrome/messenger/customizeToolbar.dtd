@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Folosește pictograme mici">
 <!ENTITY restoreDefaultSet.label  "Revenire la setările implicite">
 <!ENTITY showTitlebar2.label      "Bară de titlu">
-<!ENTITY extraDragSpace2.label    "Spațiu de tragere">
 <!ENTITY saveChanges.label        "Terminat">
 <!ENTITY undoChanges.label        "Anulează schimbările">

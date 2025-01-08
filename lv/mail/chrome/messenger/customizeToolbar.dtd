@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Lietot mazas ikonas">
 <!ENTITY restoreDefaultSet.label  "Atjaunot noklusēto">
 <!ENTITY showTitlebar2.label      "Virsraksta josla">
-<!ENTITY extraDragSpace2.label    "Vilkšanas vieta">
 <!ENTITY saveChanges.label        "Gatavs">
 <!ENTITY undoChanges.label        "Atsaukt izmaiņas">

@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Ezabatu hautatutako egutegia…">
 <!ENTITY calendar.removecalendar.accesskey      "E">
 
-
-<!ENTITY calendar.menu.customize.label          "Pertsonalizatu…">
-<!ENTITY calendar.menu.customize.accesskey      "P">
-
 <!ENTITY showUnifinderCmd.label                 "Bilatu gertaerak">
 <!ENTITY showUnifinderCmd.accesskey             "B">
 <!ENTITY showUnifinderCmd.tooltip               "Gertaera bilaketa panela txandakatu">

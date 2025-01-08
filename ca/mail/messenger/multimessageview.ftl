@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Resum del missatge
-selected-messages-label =
-    .label = Missatges seleccionats
 multi-message-archive-button =
     .label = Arxiva
     .tooltiptext = Arxiva

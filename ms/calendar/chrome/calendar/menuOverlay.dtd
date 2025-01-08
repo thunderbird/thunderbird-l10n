@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Buang Kalendar Dipilih…">
 <!ENTITY calendar.removecalendar.accesskey      "B">
 
-
-<!ENTITY calendar.menu.customize.label          "Penyesuaian…">
-<!ENTITY calendar.menu.customize.accesskey      "P">
-
 <!ENTITY showUnifinderCmd.label                 "Cari Acara">
 <!ENTITY showUnifinderCmd.accesskey             "C">
 <!ENTITY showUnifinderCmd.tooltip               "Togol anak tetingkap carian acara">

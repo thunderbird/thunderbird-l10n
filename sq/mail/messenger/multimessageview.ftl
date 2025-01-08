@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Përmbledhje Mesazhi
-selected-messages-label =
-    .label = Mesazhe të Përzgjedhur
 multi-message-archive-button =
     .label = Arkivoji
     .tooltiptext = Arkivoji

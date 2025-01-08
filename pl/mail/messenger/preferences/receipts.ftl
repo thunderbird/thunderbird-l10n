@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-receipts-dialog-window =
-    .title = Potwierdzenie doręczenia wiadomości
 receipts-dialog-title = Potwierdzenie doręczenia wiadomości
 return-receipt-checkbox-control =
     .label = Zawsze żądaj potwierdzeń doręczenia wysyłanych wiadomości

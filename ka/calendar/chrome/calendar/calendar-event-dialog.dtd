@@ -43,13 +43,10 @@
 <!ENTITY event.attendees.disallowcounter.tooltip     "მიუთითებს, რომ თქვენ არ იღებთ შემხვედრ შეთავაზებებს">
 
 <!-- Keyboard Shortcuts -->
-<!ENTITY event.dialog.new.event.key2              "ღ">
-<!ENTITY event.dialog.new.task.key2               "D">
 <!ENTITY event.dialog.new.message.key2            "N">
 <!ENTITY event.dialog.close.key                   "W">
 <!ENTITY event.dialog.save.key                    "S">
 <!ENTITY event.dialog.saveandclose.key            "L">
-<!ENTITY event.dialog.print.key                   "P">
 <!ENTITY event.dialog.undo.key                    "Z">
 <!ENTITY event.dialog.redo.key                    "Y">
 <!ENTITY event.dialog.cut.key                     "X">
@@ -91,10 +88,6 @@
 
 <!ENTITY  event.menu.item.delete.label                    "წაშლა…">
 <!ENTITY  event.menu.item.delete.accesskey                "წ">
-<!ENTITY  event.menu.item.page.setup.label                "გვერდის გამართვა">
-<!ENTITY  event.menu.item.page.setup.accesskey            "თ">
-<!ENTITY  event.menu.item.print.label                     "ამობეჭდვა">
-<!ENTITY  event.menu.item.print.accesskey                 "ჭ">
 
 <!ENTITY  event.menu.edit.label                           "ჩასწორება">
 <!ENTITY  event.menu.edit.accesskey                       "ჩ">
@@ -119,8 +112,6 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "ძ">
 <!ENTITY  event.menu.view.toolbars.customize.label        "მორგება…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "გ">
-<!ENTITY  event.menu.view.showlink.label                  "დაკავშირებული ბმულების ჩვენება">
-<!ENTITY  event.menu.view.showlink.accesskey              "ბ">
 
 <!ENTITY  event.menu.options.label                            "პარამეტრები">
 <!ENTITY  event.menu.options.accesskey                        "ტ">
@@ -333,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "ოქტომბერი" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "ნოემბერი" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "დეკემბერი" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "ყოველი">
 <!ENTITY event.recurrence.yearly.first.label                 "პირველი">
 <!ENTITY event.recurrence.yearly.second.label                "მეორე">
@@ -349,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "შაბათი" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "დღე" >
 <!ENTITY event.recurrence.of.label                           "-" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "იანვარი" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "თებერვალი" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "მარტი" >
@@ -367,7 +360,6 @@
 <!ENTITY event.recurrence.repeat.for.label              "შექმნა" >
 <!ENTITY event.recurrence.appointments.label            "რაოდენობით" >
 <!ENTITY event.repeat.until.label                       "გამეორება მოცემულ თარიღამდე" >
-<!ENTITY event.recurrence.preview.label                 "შეთვალიერება">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "დამსწრეთა მოწვევა">

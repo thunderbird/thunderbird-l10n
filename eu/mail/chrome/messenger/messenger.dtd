@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "h">
 <!ENTITY newVirtualFolderCmd.label "Gordetako bilaketa…">
 <!ENTITY newVirtualFolderCmd.accesskey "G">
-<!ENTITY newCreateEmailAccountCmd.label "Lortu posta-kontu berria…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "L">
-<!ENTITY newExistingEmailAccountCmd.label "Badagoen posta-kontua…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "B">
 <!ENTITY newIMAccountCmd.label "Txat-kontua…">
 <!ENTITY newIMAccountCmd.accesskey "T">
 <!ENTITY newFeedAccountCmd.label "Jario-kontua…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Ezabatu mezua">
-<!ENTITY deleteMsgCmd.accesskey "z">
-<!ENTITY undeleteMsgCmd.label "Desezabatu mezua">
-<!ENTITY undeleteMsgCmd.accesskey "e">
-<!ENTITY deleteMsgsCmd.label "Ezabatu hautatutako mezuak">
-<!ENTITY deleteMsgsCmd.accesskey "E">
-<!ENTITY undeleteMsgsCmd.label "Desezabatu hautatutako mezuak">
-<!ENTITY undeleteMsgsCmd.accesskey "e">
-<!ENTITY deleteFolderCmd.label "Ezabatu karpeta">
-<!ENTITY deleteFolderCmd.accesskey "E">
-<!ENTITY unsubscribeNewsgroupCmd.label "Kendu harpidetza">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "n">
 <!ENTITY selectMenu.label "Hautatu">
 <!ENTITY selectMenu.accesskey "H">
 <!ENTITY all.label "Denak">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "z">
 <!ENTITY menuFavoriteFolder.label "Karpeta gogokoa">
 <!ENTITY menuFavoriteFolder.accesskey "a">
-<!ENTITY folderPropsCmd2.label "Propietateak">
-<!ENTITY folderPropsFolderCmd2.label "Karpetaren propietateak">
-<!ENTITY folderPropsNewsgroupCmd2.label "Berri-taldeen propietateak">
-<!ENTITY folderPropsCmd.accesskey "o">
 <!ENTITY undoDeleteMsgCmd.label "Desegin ezabatu mezua">
 <!ENTITY redoDeleteMsgCmd.label "Berregin ezabatu mezua">
 <!ENTITY undoMoveMsgCmd.label "Desegin mugitu mezua">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "B">
 <!ENTITY showFolderPaneCmd.label "Karpeten panela">
 <!ENTITY showFolderPaneCmd.accesskey "K">
-<!ENTITY showFolderPaneColsCmd.label "Karpeten panelaren zutabeak">
-<!ENTITY showFolderPaneColsCmd.accesskey "P">
 <!ENTITY showMessageCmd.label "Mezuen panela">
 <!ENTITY showMessageCmd.accesskey "M">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Mezu berria">
 <!ENTITY appmenuNewContactCmd.label "Helbide-liburuko kontaktua…">
-<!ENTITY appmenuEditMenu.label "Editatu">
 <!ENTITY appmenuToolbarLayout.label "Tresna-barraren diseinua…">
-<!ENTITY appmenuSelectThread.label "Hautatu haria">
-<!ENTITY appmenuSelectFlagged.label "Hautatu mezu izardunak">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Etiketa berria…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "u">
 <!ENTITY folderContextMarkNewsgroupRead.label "Markatu berri-taldea irakurrita gisa">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "k">
-<!ENTITY folderContextMarkMailFolderRead.label "Markatu karpeta irakurrita gisa">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "k">
 <!ENTITY folderContextSubscribe.label "Harpidetu…">
 <!ENTITY folderContextSubscribe.accesskey "r">
 <!ENTITY folderContextSearchForMessages.label "Bilatu mezuak…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Erantzun zerrendari">
 <!ENTITY contextReplyList.accesskey "z">
-<!ENTITY contextForward.label "Birbidali">
-<!ENTITY contextForward.accesskey "B">
-<!ENTITY contextForwardAsMenu.label "Birbidali honela">
-<!ENTITY contextForwardAsMenu.accesskey "i">
-<!ENTITY contextForwardAsInline.label "Barnean">
-<!ENTITY contextForwardAsInline.accesskey "B">
-<!ENTITY contextForwardAsAttachmentItem.label "Eranskin gisa">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "E">
-<!ENTITY contextMultiForwardAsAttachment.label "Birbidali eranskin gisa">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "i">
 <!ENTITY contextMoveMsgMenu.label "Eraman hona">
 <!ENTITY contextMoveMsgMenu.accesskey "m">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Oraintsukoa">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "i">
 <!ENTITY copyEmailCmd.label "Kopiatu helbide elektronikoa">
 <!ENTITY copyEmailCmd.accesskey "e">
-<!ENTITY stopCmd.label "Gelditu">
-<!ENTITY stopCmd.accesskey "G">
-<!ENTITY reloadCmd.label "Berritu">
-<!ENTITY reloadCmd.accesskey "r">
 <!ENTITY openInBrowser.label "Ireki nabigatzailean">
 <!ENTITY openInBrowser.accesskey "I">
 <!ENTITY openLinkInBrowser.label "Ireki lotura nabigatzailean">

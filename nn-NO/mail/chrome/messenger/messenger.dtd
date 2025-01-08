@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "F">
 <!ENTITY newVirtualFolderCmd.label "Lagra søk…">
 <!ENTITY newVirtualFolderCmd.accesskey "L">
-<!ENTITY newCreateEmailAccountCmd.label "Lag ein ny e-postkonto …">
-<!ENTITY newCreateEmailAccountCmd.accesskey "L">
-<!ENTITY newExistingEmailAccountCmd.label "Eksisterande e-postkonto …">
-<!ENTITY newExistingEmailAccountCmd.accesskey "E">
 <!ENTITY newIMAccountCmd.label "Chattekonto…">
 <!ENTITY newIMAccountCmd.accesskey "N">
 <!ENTITY newFeedAccountCmd.label "RSS-kanalkonto…">
@@ -621,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "u">
 <!ENTITY folderContextMarkNewsgroupRead.label "Merk nyhendegruppe som lesen">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "r">
-<!ENTITY folderContextMarkMailFolderRead.label "Merk mappe som lesen">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "M">
 <!ENTITY folderContextSubscribe.label "Meld inn…">
 <!ENTITY folderContextSubscribe.accesskey "M">
 <!ENTITY folderContextSearchForMessages.label "Søk i meldingar…">
@@ -728,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Svar til liste">
 <!ENTITY contextReplyList.accesskey "r">
-<!ENTITY contextForward.label "Vidaresend">
-<!ENTITY contextForward.accesskey "V">
-<!ENTITY contextForwardAsMenu.label "Vidaresend som">
-<!ENTITY contextForwardAsMenu.accesskey "r">
-<!ENTITY contextForwardAsInline.label "Innbunde">
-<!ENTITY contextForwardAsInline.accesskey "I">
-<!ENTITY contextForwardAsAttachmentItem.label "Vedlegg">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "V">
-<!ENTITY contextMultiForwardAsAttachment.label "Vidaresend som vedlegg">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "d">
 <!ENTITY contextMoveMsgMenu.label "Flytt til">
 <!ENTITY contextMoveMsgMenu.accesskey "F">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Sist brukt">

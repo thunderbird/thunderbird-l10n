@@ -22,22 +22,6 @@ update-restarting = يُعيد التشغيل…
 channel-description = تتلقى التحديثات حاليًا من قناة <span data-l10n-name="current-channel">{ $channel }</span> .
 warning-desc-version = { -brand-short-name } تجريبي و قد لا يكون مستقرا.
 warning-desc-telemetry = يُرسل تلقائيا معلومات عن الأداء والعتاد والاستخدام والتخصيصات إلى { -vendor-short-name } للمساعدة على تحسين { -brand-short-name }.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     هي <a data-l10n-name="community-exp-credits-link">
-    مجتمعٌ عالميّ</a>
-     يعمل للمحافظة على انفتاح الوب و عموميتها و إتاحتها للجميع.
-community-2 =
-    صمّمَ { -brand-short-name } <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    ، <a data-l10n-name="community-credits-link">
-    مجتمعٌ عالميّ</a>
-     يعمل للمحافظة على انفتاح الوب و عموميتها و إتاحتها للجميع.
-about-helpus =
-    هل تُريد المساعدة؟ <a data-l10n-name="helpus-donate-link">
-    تبرّع</a> or <a data-l10n-name="helpus-get-involved-link">
-    شارِك معنا</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> هي <a data-l10n-name="community-exp-credits-link">مجتمعٌ عالميّ</a> يعمل للمحافظة على انفتاح الوب و عموميتها و إتاحتها للجميع.
 community-desc = صمّمَ { -brand-short-name } <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>، <a data-l10n-name="community-credits-link">مجتمعٌ عالميّ</a> يعمل للمحافظة على انفتاح الوب و عموميتها و إتاحتها للجميع.
 about-donation = هل تُريد المساعدة؟ <a data-l10n-name="helpus-donate-link">تبرّع</a> or <a data-l10n-name="helpus-get-involved-link">شارِك معنا</a>

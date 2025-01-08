@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Variables:
-# $organizer (String) - The participant that created the original invitation.
-calendar-invitation-panel-intro = { $organizer } vas je pozvao u:
 calendar-invitation-panel-status-new = Pozvani ste na ovaj događaj.
 calendar-invitation-panel-status-processed = Ovaj događaj je već dodan u vaš kalendar.
 calendar-invitation-panel-status-updateminor = Poruka sadrži ažuriranje za ovaj događaj.
@@ -17,14 +14,12 @@ calendar-invitation-panel-intro-cancel = { $organizer } je otkazao:
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
-calendar-invitation-panel-action-button = Spremi
 calendar-invitation-panel-view-button = Prikaži
 calendar-invitation-panel-update-button = Ažuriraj
 calendar-invitation-panel-delete-button = Obriši
 calendar-invitation-panel-accept-button = Da
 calendar-invitation-panel-decline-button = Ne
 calendar-invitation-panel-tentative-button = Možda
-calendar-invitation-panel-reply-status = * Još niste odlučili ili odgovorili
 calendar-invitation-panel-more-button = Više
 calendar-invitation-panel-menu-item-save-copy =
     .label = Spremi kopiju
@@ -32,14 +27,6 @@ calendar-invitation-panel-menu-item-toggle-changes =
     .label = Prikaži promjene
 calendar-invitation-panel-prop-title-when = Kada:
 calendar-invitation-panel-prop-title-location = Lokacija:
-# Variables:
-# $dayOfWeek (String) - The day of the week for a given date.
-# $date (String) - The date example: Tuesday, February 24, 2022.
-calendar-invitation-datetime-date = { $dayOfWeek }, { $date }
-# Variables:
-# $time (String) - The time part of a datetime using the "short" timeStyle.
-# $timezone (String) - The timezone info for the datetime.
-calendar-invitation-datetime-time = { $time } ({ $timezone })
 # Example: Friday, September 16, 2022
 # Variables:
 # $startDate (String) - The date (without time) the event starts on.

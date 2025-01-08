@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = Dostosowywanie powiadomień o nowej poczcie
 notifications-dialog-title = Dostosowywanie powiadomień o nowej poczcie
 customize-alert-description = Zaznacz pola, które mają być wyświetlane w oknach powiadomienia:
 preview-text-checkbox =

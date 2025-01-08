@@ -8,7 +8,7 @@ file names and tall enough to hint that there are more activities in the list --
 <!ENTITY window.width2                    "485">
 <!ENTITY window.height                    "300">
 
-<!ENTITY activity.title                   "Aktivitäten">
+<!ENTITY activity.title                  "Aktivitäten">
 
 <!ENTITY cmd.close.commandkey             "w">
 <!ENTITY cmd.close2.commandkey            "j">
@@ -16,4 +16,3 @@ file names and tall enough to hint that there are more activities in the list --
 <!ENTITY cmd.clearList.label              "Liste leeren">
 <!ENTITY cmd.clearList.tooltip            "Entfernt abgeschlossene, abgebrochene oder fehlgeschlagene Aktivitäten aus der Liste">
 <!ENTITY cmd.clearList.accesskey          "L">
-

@@ -30,13 +30,3 @@
 <!ENTITY closeCmd.label      "Aizvērt">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "A">
-
-<!ENTITY quitApplicationCmd.label  "Iziet">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "z">
-
-<!ENTITY quitApplicationCmdUnix.label  "Iziet">
-<!ENTITY quitApplicationCmdUnix.accesskey  "z">
-
-<!ENTITY quitApplicationCmdMac.label  "Aizvērt &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "z">

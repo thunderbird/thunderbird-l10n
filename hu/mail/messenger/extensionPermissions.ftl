@@ -27,7 +27,6 @@ webext-perms-description-messagesModify = Olvassa el és módosítsa a leveleket
 webext-perms-description-messagesModifyPermanent = Az üzenetek forrásának végleges módosítása (beleértve a fejléceket, a törzset és a mellékleteket)
 webext-perms-description-messagesMove = Levelek másolása vagy áthelyezése (beleértve azok kuka mappába helyezését)
 webext-perms-description-messagesDelete = Levelek végleges törlése
-webext-perms-description-messagesRead = Olvassa el az e-mail üzeneteit, és jelölje vagy címkézze meg őket
 webext-perms-description-messagesRead2 = Levelek olvasása
 webext-perms-description-messagesUpdate = A levelek tulajdonságainak és címkéinek módosítása
 webext-perms-description-messagesTags = Üzenetcímkék létrehozása, módosítása és törlése

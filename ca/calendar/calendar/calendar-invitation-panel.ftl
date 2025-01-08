@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# Variables:
-# $organizer (String) - The participant that created the original invitation.
-calendar-invitation-panel-intro = { $organizer } us ha convidat a:
 calendar-invitation-panel-status-new = Us han convidat a aquesta cita.
 calendar-invitation-panel-status-processed = Aquesta cita ja s'ha afegit al calendari.
 calendar-invitation-panel-status-updateminor = Aquest missatge conté una actualització d'aquesta cita.
@@ -17,14 +14,12 @@ calendar-invitation-panel-intro-cancel = { $organizer } ha cancel·lat:
 # Variables:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
-calendar-invitation-panel-action-button = Desa
 calendar-invitation-panel-view-button = Mostra
 calendar-invitation-panel-update-button = Actualitza
 calendar-invitation-panel-delete-button = Suprimeix
 calendar-invitation-panel-accept-button = Sí
 calendar-invitation-panel-decline-button = No
 calendar-invitation-panel-tentative-button = Potser
-calendar-invitation-panel-reply-status = * Encara no heu decidit ni respost res
 calendar-invitation-panel-more-button = Més
 calendar-invitation-panel-menu-item-save-copy =
     .label = Desa'n una còpia
@@ -32,14 +27,6 @@ calendar-invitation-panel-menu-item-toggle-changes =
     .label = Mostra els canvis
 calendar-invitation-panel-prop-title-when = Quan:
 calendar-invitation-panel-prop-title-location = Ubicació:
-# Variables:
-# $dayOfWeek (String) - The day of the week for a given date.
-# $date (String) - The date example: Tuesday, February 24, 2022.
-calendar-invitation-datetime-date = { $dayOfWeek }, { $date }
-# Variables:
-# $time (String) - The time part of a datetime using the "short" timeStyle.
-# $timezone (String) - The timezone info for the datetime.
-calendar-invitation-datetime-time = { $time } ({ $timezone })
 # Example: Friday, September 16, 2022
 # Variables:
 # $startDate (String) - The date (without time) the event starts on.

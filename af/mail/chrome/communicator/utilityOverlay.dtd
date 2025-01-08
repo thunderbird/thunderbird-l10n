@@ -4,7 +4,6 @@
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
 
-
 <!ENTITY fileMenu.label          "Lêer">
 <!ENTITY fileMenu.accesskey        "L">
 <!ENTITY newMenu.label            "Nuwe">
@@ -19,7 +18,6 @@
 <!ENTITY deleteCmd.label          "Skrap">
 <!ENTITY deleteCmd.accesskey        "S">
 
-
 <!ENTITY viewMenu.label          "Bekyk">
 <!ENTITY viewMenu.accesskey        "B">
 <!ENTITY viewToolbarsMenu.label        "Nutsbalke">
@@ -30,13 +28,3 @@
 <!ENTITY closeCmd.label      "Sluit">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "S">
-
-<!ENTITY quitApplicationCmd.label  "Afsluit">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "s">
-
-<!ENTITY quitApplicationCmdUnix.label  "Afsluit">
-<!ENTITY quitApplicationCmdUnix.accesskey  "A">
-
-<!ENTITY quitApplicationCmdMac.label  "Sluit &brandShortName; af">
-<!ENTITY quitApplicationCmdMac.accesskey  "S">

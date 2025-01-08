@@ -10,12 +10,6 @@ reminder-title-at-start-event = 当事件开始时
 reminder-title-at-start-task = 当任务开始时
 reminder-title-at-end-event = 当事件结束时
 reminder-title-at-end-task = 当任务结束时
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = 暂缓 { $unit } 提醒
 reminder-custom-origin-begin-before-event = 在事项开始之前
 reminder-custom-origin-begin-after-event = 在事项开始之后
 reminder-custom-origin-end-before-event = 在事项结束之前

@@ -26,7 +26,6 @@
 <!ENTITY contextOutgoing.accesskey "S">
 <!ENTITY contextArchive.label "存档">
 <!ENTITY contextArchive.accesskey "A">
-
 <!ENTITY contextPeriodic.accesskey "e">
 
 <!ENTITY filterActionDesc.label "执行动作:">

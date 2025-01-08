@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Usar iconas pequenas">
 <!ENTITY restoreDefaultSet.label  "Restaurar predeterminados">
 <!ENTITY showTitlebar2.label      "Barra de título">
-<!ENTITY extraDragSpace2.label    "Espazo para arrastrar a xanela">
 <!ENTITY saveChanges.label        "Feito">
 <!ENTITY undoChanges.label        "Desfacer modificacións">

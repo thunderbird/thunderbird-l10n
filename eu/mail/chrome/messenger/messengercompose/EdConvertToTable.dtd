@@ -1,9 +1,9 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
 <!-- Window title -->
-
-
 <!ENTITY windowTitle.label "Bihurtu taula">
 <!ENTITY instructions1.label   "Mezu-prestatzaileak taula lerro berri bat sortuko du hautapeneko paragrafo bakoitzarentzat.">
 <!ENTITY instructions2.label   "Aukeratu hautapena zutabeetan bereizteko erabiliko den karakterea:">

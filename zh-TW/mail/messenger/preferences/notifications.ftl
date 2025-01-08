@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-notifications-dialog-window =
-    .title = 自訂新郵件提示
 notifications-dialog-title = 自訂新郵件提示
 customize-alert-description = 選擇要顯示的提示欄位:
 preview-text-checkbox =

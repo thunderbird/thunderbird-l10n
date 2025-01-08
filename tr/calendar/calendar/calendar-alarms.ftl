@@ -10,12 +10,6 @@ reminder-title-at-start-event = Etkinliğin başladığı an
 reminder-title-at-start-task = Görevin başladığı an
 reminder-title-at-end-event = Etkinliğin bittiği an
 reminder-title-at-end-task = Görevin bittiği an
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Anımsatıcıyı { $unit } ertele
 reminder-custom-origin-begin-before-event = etkinlik başlamadan önce
 reminder-custom-origin-begin-after-event = etkinlik başladıktan sonra
 reminder-custom-origin-end-before-event = etkinlik bitmeden önce

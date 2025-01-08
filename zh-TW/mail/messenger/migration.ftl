@@ -10,6 +10,3 @@ migration-progress-header = 正在準備 { -brand-short-name } 資料…
 # These strings are displayed to the user if a migration is taking a long time.
 # They should be short (no more than a handful of words) and in the present tense.
 
-migration-task-test-fast = 測試快速變動
-migration-task-test-slow = 測試慢速變動
-migration-task-test-progress = 測試進度列

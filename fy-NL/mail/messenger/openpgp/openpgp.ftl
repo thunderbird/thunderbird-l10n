@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Ferrindatum
 openpgp-key-id-label =
     .label = Kaai-ID
-openpgp-cannot-change-expiry = Dit is in kaai mei in komplekse struktuer, it wizigjen fan de ferrindatum wurdt net stipe.
-openpgp-key-man-title =
-    .title = OpenPGP-kaaibehearder
 openpgp-key-man-dialog-title = OpenPGP-kaaibehearder
 openpgp-key-man-generate =
     .label = Nije kaaipear
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Ynlûkingssertifikaat
     .accesskey = Y
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Ynlûkingssertifikaat oanmeitsje en bewarje
 openpgp-key-man-gen-revocation =
     .label = Ynlûkingssertifikaat bewarje as bestân
     .accesskey = s
@@ -489,8 +484,6 @@ filter-encrypt-label = Fersiferje nei kaai (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Sukses! Kaaien ymportearre
 import-info-dialog-title = Sukses! Kaaien ymportearre
 import-info-bits = Bits
 import-info-created = Oanmakke
@@ -650,9 +643,6 @@ no-update-found = Jo hawwe al de kaaien dy’t online fûn binne.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Flater – kaaiekstraksjeopdracht mislearre
@@ -783,15 +773,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Jo hawwe rigelôfbrekking ynsteld op { $width } tekens. Foar in korrekte fersifering en/of ûndertekening moat dizze wearde op syn minst 68 wêze.
     Wolle jo de rigelôfbrekking no wizigje yn 68 tekens?
-sending-news =
-    Fersifere ferstjoerbewurking ôfbrutsen.
-    Dit berjocht kin net fersifere wurde omdat de ûntfangers nijsgroepen befetsje. Ferstjoer it berjocht opnij sûnder fersifering.
-send-to-news-warning =
-    Warskôging: jo steane op it punt in fersifere e-mailberjocht nei in nijsgroep te stjoeren.
-    Dit wurdt ûntmoedige, omdat it allinnich sin hat as alle leden fan de groep it berjocht ûntsiferje kinne, d.w.s. it berjocht moat fersifere wurde mei de kaaien fan alle groepsdielnimmers. Stjoer dit berjocht allinnich as jo presys witte wat jo dogge.
-    Trochgean?
 save-attachment-header = Untsifere bylage bewarje
-possibly-pgp-mime = Mooglik PGP/MIME-fersifere of -ûndertekene berjocht; brûk de funksje ‘Untsiferje/Ferifiearje’ om te ferifiearjen
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Kin dit berjocht net digitaal ûndertekenje, omdat jo noch gjin end-to-end-fersifering foar <{ $key }> konfigurearre hawwe
@@ -845,15 +827,6 @@ debug-log-title = OpenPGP-debuglochboek
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Werhellingsfrekwinsje warskôging: { $count }
-repeat-suffix-singular = kear.
-repeat-suffix-plural = kear.
-no-repeat = Dizze warskôging wurdt net mear toand.
-dlg-keep-setting = Myn antwurd ûnthâlde en it my net noch in kear freegje
 
 ## Strings used in dialog.sys.mjs
 
@@ -863,8 +836,6 @@ dlg-button-cancel = &Annulearje
 dlg-no-prompt = Dit dialoochfinster net mear toane.
 enig-prompt = OpenPGP-fraach
 enig-confirm = OpenPGP-befêstiging
-enig-alert = OpenPGP-warskôging
-enig-info = OpenPGP-ynformaasje
 
 ## Strings used in persistentCrypto.jsm
 

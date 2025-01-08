@@ -32,4 +32,3 @@ that require it.  -->
      mockup at bug 480169 -->
 <!ENTITY sanitizeEverythingUndoWarning     "לא ניתן לבטל פעולה זו.">
 
-<!ENTITY dialog.width                 "28em">

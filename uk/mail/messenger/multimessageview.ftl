@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Зведення повідомлень
-selected-messages-label =
-    .label = Вибрані повідомлення
 multi-message-archive-button =
     .label = Архівувати
     .tooltiptext = Архівувати

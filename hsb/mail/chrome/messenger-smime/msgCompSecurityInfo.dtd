@@ -4,7 +4,6 @@
 
 <!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 
-
 <!ENTITY title.label "Wěstota za powěsće">
 <!ENTITY subject.plaintextWarning "Prošu wobkedźbujće: Předmjetowe linki e-mejlowych powěsćow so ženje njezaklučuja.">
 <!ENTITY status.heading "Wobsah wašeje powěsće budźe so słać kaž slěduje:">

@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = 搜索
-search-bar-item =
-    .label = 搜索：
 search-bar-item2 =
     .label = 搜索
 search-bar-placeholder = 搜索…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = 仅文本
 customize-cancel = 取消
 customize-save = 保存
 customize-unsaved-changes = 其他空间中有未保存的更改
-customize-search-bar =
-    .label = 搜索工具栏按钮…
 customize-search-bar2 =
     .label = 搜索工具栏按钮
     .placeholder = 搜索工具栏按钮…

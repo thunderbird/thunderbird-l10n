@@ -4,14 +4,14 @@
 
 account-settings-title = Վաւերացման կարգաւորումներ
 account-channel-title = Սկզբնադիր կապուղիներ
-
 chat-autologin =
     .label = Մուտք գործել մեկնարկին
-
 chat-encryption-generic = Ընդհանուր
 chat-encryption-log =
     .label = Ներառել ծայրից ծայր ծածկագրուած նամակները խաւսակցութեան տեղեկամատեաններում
 chat-encryption-label = Սեփական ծայրէծայր գաղտնագրում
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol }-ը մատակարարում է ծայրէծայր ծածկագրում զրուցարանի հաղորդագրութիւնների համար։ Սա թոյղ չի տալիս երրորդ կողմին գաղտնալսել խաւսակցութիւնը: Ստորեւ կարող է պահանջուել լրացուցիչ կարգաւորում, որպէսզի գաղտնագրումը գործարկուի:
 chat-encryption-status = Գաղտնագրման կարգավիճակ
 chat-encryption-placeholder = Կոդաւորումը սկզբնաւորուած չէ։

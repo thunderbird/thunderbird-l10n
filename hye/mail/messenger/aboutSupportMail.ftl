@@ -14,7 +14,5 @@ accounts-conn-security = Միացման անվտանգութիւն
 accounts-auth-method = Նույնականացման եղանակ
 accounts-default = Սկզբնադի՞ր
 identity-name = Ինքնութիւն
-
 send-via-email = Ուղարկել եղ․փոստով
-
 app-basics-telemetry = Հեռուստաչափութեան տուեալ

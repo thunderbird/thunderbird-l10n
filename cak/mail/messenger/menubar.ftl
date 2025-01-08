@@ -20,9 +20,6 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Tk'ul To'ïk
     .accesskey = o
-menu-help-explore-features =
-    .label = Ke'anik'oj ri taq Rub'anikil
-    .accesskey = R
 menu-help-shortcuts =
     .label = Ruq'a' Rub'ey Pitz'b'äl
     .accesskey = P
@@ -41,9 +38,6 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = Tichup ri Rub'anikil Kiwäch K'ayewal
     .accesskey = b
-menu-help-more-troubleshooting-info =
-    .label = Ch'aqa' Etamab'äl richin yesol taq k'ayewal
-    .accesskey = C
 menu-help-troubleshooting-info =
     .label = Etamab'äl richin yesol taq k'ayewal
     .accesskey = s
@@ -65,6 +59,9 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Tel pa { -brand-shorter-name }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
 quit-app-shortcut =
     .key = Q
 
@@ -94,12 +91,6 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Tz'aqatz'öj
     .accesskey = z
-mail-uidensity-normal =
-    .label = Relik
-    .accesskey = e
-mail-uidensity-touch =
-    .label = Chapoj
-    .accesskey = C
 mail-uidensity-default =
     .label = K'o wi
     .accesskey = K

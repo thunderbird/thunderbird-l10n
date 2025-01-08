@@ -10,8 +10,6 @@
 
 search-bar-button =
     .alt = Αναζήτηση
-search-bar-item =
-    .label = Αναζήτηση:
 search-bar-item2 =
     .label = Αναζήτηση
 search-bar-placeholder = Αναζήτηση…
@@ -60,8 +58,6 @@ customize-button-style-text-only-option = Μόνο κείμενο
 customize-cancel = Ακύρωση
 customize-save = Αποθήκευση
 customize-unsaved-changes = Μη αποθηκευμένες αλλαγές σε άλλους χώρους
-customize-search-bar =
-    .label = Κουμπιά γραμμής εργαλείων αναζήτησης…
 customize-search-bar2 =
     .label = Κουμπιά γραμμής εργαλείων αναζήτησης
     .placeholder = Κουμπιά γραμμής εργαλείων αναζήτησης…

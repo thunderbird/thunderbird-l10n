@@ -12,9 +12,7 @@ view-fingerprint-button =
     .label = Gestionează amprentele digitale ale contactelor
     .accesskey = F
 otr-settings-title = Setări OTR
-
 otr-require-encryption-info =
     Atunci când necesită criptare end-to-end, mesajele din conversațiile unu-la-unu
     nu vor fi transmise decât dacă pot fi criptate. Mesajele necriptate primite
     nu vor fi afișate ca parte a conversației normale și nici nu vor fi înregistrate.
-

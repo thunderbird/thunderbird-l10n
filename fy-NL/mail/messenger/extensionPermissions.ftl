@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Meitsje, wizigje de namme of smyt jo e-mailaccountmappen fuort
 webext-perms-description-accountsIdentities = Jo e-mailaccountmappen oanmeitsje, oanpasse of fuortsmite
 webext-perms-description-accountsRead = Jo e-mailaccounts, harren identiteiten en harren mappen besjen
@@ -20,7 +27,6 @@ webext-perms-description-messagesModify = Lês en bewurkje jo e-mailberjochten l
 webext-perms-description-messagesModifyPermanent = De boarne fan jo berjochten permanint wizigje (ynklusyf kopteksten, tekst en bylagen)
 webext-perms-description-messagesMove = Jo e-mailberjochten kopiearje of ferpleatse (ynklusyf ferpleatse nei it jiskefet)
 webext-perms-description-messagesDelete = Jo e-mailberjochten permanint fuortsmite
-webext-perms-description-messagesRead = Lês jo e-mailberjochten en markearje of labelje dy
 webext-perms-description-messagesRead2 = Jo e-mailberjochten lêze
 webext-perms-description-messagesUpdate = Eigenskippen en labels fan jo e-mailberjochten wizigje
 webext-perms-description-messagesTags = Berjochtlabels meitsje, oanpasse en fuortsmite

@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Xabar natijasi
-selected-messages-label =
-    .label = Tanlangan xabarlar
 multi-message-archive-button =
     .label = Arxiv
     .tooltiptext = Arxiv

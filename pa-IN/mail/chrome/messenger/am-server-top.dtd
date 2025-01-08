@@ -2,14 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-server-top.xul -->
 <!ENTITY messageStorage.label "Message Storage">
-
 <!ENTITY securitySettings.label "ਸੁਰੱਖਿਆ ਸੈਟਿੰਗ">
 <!ENTITY serverSettings.label "ਸਰਵਰ ਸੈਟਿੰਗ">
-
-<!-- LOCALIZATION NOTE (newsServer.label) : do not translate "NNTP" in below line -->
-
 <!ENTITY serverType.label "ਸਰਵਰ ਕਿਸਮ:">
 <!ENTITY serverName.label "ਸਰਵਰ ਨਾਂ:">
 <!ENTITY serverName.accesskey "S">
@@ -18,7 +13,7 @@
 <!ENTITY port.label "ਪੋਰਟ:">
 <!ENTITY port.accesskey "P">
 <!ENTITY serverPortDefault.label "ਡਿਫਾਲਟ:">
-<!-- LOCALIZATION NOTE (biffStart.label) : translate below 2 line with grammer dependency
+<!-- LOCALIZATION NOTE (biffStart.label) : translate below 2 line with grammar dependency
         For example, in Japanese cases:
                 biffStart.label "every"
                 biffEnd.label   "minutes for new messages Check"
@@ -29,7 +24,6 @@
 <!ENTITY connectionSecurity.label "ਕੁਨੈਕਸ਼ਨ ਸੁਰੱਖਿਆ:">
 <!ENTITY connectionSecurity.accesskey "u">
 <!ENTITY connectionSecurityType-0.label "None">
-<!ENTITY connectionSecurityType-1.label "STARTTLS, ਜੇ ਉਪਲੱਬਧ ਹੋਵੇ">
 <!ENTITY connectionSecurityType-2.label "STARTTLS">
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY authMethod.label "Authentication method:">
@@ -45,7 +39,6 @@
 <!ENTITY deleteOnServer2.accesskey "d">
 <!ENTITY downloadOnBiff.label "ਨਵੇਂ ਸੁਨੇਹੇ ਆਟੋਮੈਟਿਕ ਹੀ ਡਾਊਨਲੋਡ ਕਰੋ">
 <!ENTITY downloadOnBiff.accesskey "m">
-
 <!ENTITY deleteMessagePrefix.label "ਜਦੋਂ ਮੈਂ ਇੱਕ ਸੁਨੇਹਾ ਹਟਾਵਾਂ:">
 <!ENTITY modelMoveToTrash.label "ਇਸ ਨੂੰ ਰੱਦੀ ਵਿੱਚ ਭੇਜ ਦਿਓ">
 <!ENTITY modelMoveToTrash.accesskey "o">
@@ -58,11 +51,11 @@
 <!ENTITY expungeOnExit.accesskey "E">
 <!ENTITY emptyTrashOnExit.label "ਬੰਦ ਕਰਨ ਉੱਤੇ ਰੱਦੀ ਖਾਲੀ ਕਰੋ">
 <!ENTITY emptyTrashOnExit.accesskey "x">
-<!ENTITY loginAtStartup.label "ਸ਼ੁਰੂ ਕਰਨ ਸਮੇਂ ਨਵੇਂ ਸੁਨਹਿਆਂ ਲਈ ਚੈੱਕ ਕਰੋ"> 
+<!ENTITY loginAtStartup.label "ਸ਼ੁਰੂ ਕਰਨ ਸਮੇਂ ਨਵੇਂ ਸੁਨਹਿਆਂ ਲਈ ਚੈੱਕ ਕਰੋ">
 <!ENTITY loginAtStartup.accesskey "C">
-<!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency 
+<!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency
     maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
-	 of messages between them
+    of messages between them
 -->
 <!ENTITY maxMessagesStart.label "ਹੋਰ ਡਾਊਨਲੋਡ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਮੈਨੂੰ ਪੁੱਛੋ">
 <!ENTITY maxMessagesStart.accesskey "m">
@@ -83,4 +76,3 @@
 
 <!ENTITY accountTitle.label "Account Settings">
 <!ENTITY accountSettingsDesc.label "The following is a special account.  There are no identities associated with it.">
-

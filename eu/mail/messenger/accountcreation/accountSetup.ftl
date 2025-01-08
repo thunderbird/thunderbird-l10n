@@ -35,8 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = Pasahitza
     .accesskey = P
     .title = Aukerazkoa, erabiltzaile izena egiaztatzeko erabiliko da
-account-provisioner-button = Eskuratu posta elektroniko berri bat
-    .accesskey = p
 account-setup-password-toggle-show =
     .title = Erakutsi pasahitza testu garbian
 account-setup-password-toggle-hide =
@@ -146,7 +144,6 @@ account-setup-credentials-incomplete = Autentifikazioak huts egin du.Edo sartuta
 account-setup-credentials-wrong = Autentifikazioak huts egin du. Mesedez berrikusi erabiltzaile izena eta pasahitza.
 account-setup-find-settings-failed = { -brand-short-name }(e)k ez du zure posta-kontuaren ezarpenik aurkitu.
 account-setup-exchange-config-unverifiable = Konfigurazioa ezin da egiaztatu. Zure erabiltzaile izena eta pasahitza zuzenak badira, litekeena da zerbitzari administratzaileak zure konturako aukeratutako konfigurazioa desgaitu izana. Saiatu beste protokolo bat aukeratuz.
-account-setup-provisioner-error = Errorea eman { -brand-short-name }(e)n zure kontu berria ezartzean. Mesedez, saiatu eskuz ezartzen zure kontua zure kredentzialekin.
 
 ## Manual configuration area
 

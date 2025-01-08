@@ -3,11 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## View Menu
-
 ## Tools Menu
 
+
 ## Help Menu
+
 
 ## Mail Toolbar
 
@@ -26,7 +26,12 @@ toolbar-undelete-button =
 
 ## View
 
+
+## View / Folders
+
+
 ## View / Layout
+
 
 ## File
 

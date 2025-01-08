@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-receipts-dialog-window =
-    .title = קבלות חוזרות
 receipts-dialog-title = קבלות חוזרות
 receipt-arrive-label = כאשר מגיעה קבלה:
 receipt-request-label = כאשר אני מקבל בקשה לקבלה חוזרת:

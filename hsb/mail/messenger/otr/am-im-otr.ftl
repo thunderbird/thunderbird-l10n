@@ -21,6 +21,4 @@ otr-require-encryption-info =
     so jako dźěl normalneje rozmołwy njepokazaja ani njeprotokoluja.
 otr-verify-nudge =
     .label = Mje přeco na to dopomnić, njepřepruwowany kontakt přepruwować
-
 otr-not-yet-available = hišće k dispoziciji njeje
-

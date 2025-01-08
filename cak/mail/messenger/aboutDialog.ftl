@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Achike natzijoj
-aboutDialog-title =
-    .title = Chi rij { -brand-full-name }
 about-dialog-title = Chi rij { -brand-full-name }
 release-notes-link = Ruch'utitzijol ruwäch
 update-check-for-updates-button = Kenik'öx taq K'exoj
@@ -38,22 +36,6 @@ aboutDialog-version = { $version } ({ $bits }-bit)
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bit)
 aboutdialog-update-checking-failed = Xsach toq yekanöx taq k'exoj.
-community-exp =
-    <a data-l10n-name="community-exp-mozilla-link">
-    { -vendor-short-name }</a>
-     jun <a data-l10n-name="community-exp-credits-link">
-    chijun ach'ala'il</a>
-    yojsamäj pa q'u'ch richin jantape' jaqäl chuqa' okel nisamajïx ri k'amaya'l.
-community-2 =
-    { -brand-short-name } wachib'en ruma <a data-l10n-name="community-mozilla-link">
-    { -vendor-short-name }</a>
-    , jun <a data-l10n-name="community-credits-link">
-    chijun ach'ala'il</a>
-    yojsamäj pa q'u'ch richin jantape' jaqäl chuqa' okel nisamajïx ri k'amaya'l.
-about-helpus =
-    ¿La nawajo' yato'on? <a data-l10n-name="helpus-donate-link">
-    Taya' jun sipanïk</a> or <a data-l10n-name="helpus-get-involved-link">
-    ¡kato'on!</a>
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> jun <a data-l10n-name="community-exp-credits-link">chijun ach'ala'il</a>yojsamäj pa q'u'ch richin jantape' jaqäl chuqa' okel nisamajïx ri k'amaya'l.
 community-desc = { -brand-short-name } wachib'en ruma <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, jun <a data-l10n-name="community-credits-link">chijun ach'ala'il</a>yojsamäj pa q'u'ch richin jantape' jaqäl chuqa' okel nisamajïx ri k'amaya'l.
 about-donation = ¿La nawajo' yato'on? <a data-l10n-name="helpus-donate-link">Taya' jun sipanïk</a> or <a data-l10n-name="helpus-get-involved-link">¡kato'on!</a>

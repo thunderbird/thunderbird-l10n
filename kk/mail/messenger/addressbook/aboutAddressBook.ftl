@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = CardDAV адрестік кітапшасын қосу
 about-addressbook-toolbar-add-ldap-address-book =
     .label = LDAP адрестік кітапшасын қосу
-about-addressbook-toolbar-new-contact =
-    .label = Жаңа контакт
-about-addressbook-toolbar-new-list =
-    .label = Жаңа тізім
-about-addressbook-toolbar-import =
-    .label = Импорттау
 books-pane-create-contact-button = Жаңа контакт
     .title = Жаңа контактты жасау
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = { $name } өшіруді шыны
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = { $name } іздеу
-about-addressbook-search-all =
-    .placeholder = Барлық адрестік кітапшаларынан іздеу
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -277,7 +265,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Контакт фотосын түзету
 about-addressbook-new-contact-header = Жаңа контакт
-about-addressbook-prefer-display-name = Хабарлама тақырыптамадағы аттың орнына көрсетілетін атын таңдау
 about-addressbook-write-action-button = Жазу
 about-addressbook-event-action-button = Оқиға
 about-addressbook-search-action-button = Іздеу

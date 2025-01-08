@@ -19,7 +19,6 @@
 <!ENTITY encryption.certificate_clear.button "Pulisci">
 <!ENTITY encryption.certificate_clear.accesskey "c">
 <!ENTITY signingGroupTitle.label "Firma digitale">
-
 <!ENTITY signingCert2.message "Certificato personale per la firma digitale:">
 
 <!ENTITY sendingDefaults.label "Impostazioni predefinite per l’invio dei messaggi">

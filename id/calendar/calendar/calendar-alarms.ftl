@@ -10,12 +10,6 @@ reminder-title-at-start-event = Saat acara dimulai
 reminder-title-at-start-task = Saat tugas dimulai
 reminder-title-at-end-event = Saat acara berakhir
 reminder-title-at-end-task = Saat tugas berakhir
-# LOCALIZATION NOTE (reminder-snooze-ok-a11y)
-# This string is not seen in the UI, it is read by screen readers when the user
-# focuses the "OK" button in the "Snooze for..." popup of the alarm dialog.
-# $unit  =  any of unit*
-reminder-snooze-ok-a11y =
-    .aria-label = Bunyikan pengingat dalam { $unit }
 reminder-custom-origin-begin-before-event = sebelum acara dimulai
 reminder-custom-origin-begin-after-event = setelah acara dimulai
 reminder-custom-origin-end-before-event = sebelum acara berakhir

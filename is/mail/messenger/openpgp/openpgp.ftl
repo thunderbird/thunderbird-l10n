@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Rennur út
 openpgp-key-id-label =
     .label = Auðkenni lykils
-openpgp-cannot-change-expiry = Þetta er lykill með flókna uppbyggingu, það er ekki stuðningur við að breyta fyrningardagsetningu hans.
-openpgp-key-man-title =
-    .title = OpenPGP lyklastýring
 openpgp-key-man-dialog-title = OpenPGP lyklastýring
 openpgp-key-man-generate =
     .label = Nýtt lyklapar
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Afturköllunarskilríki
     .accesskey = r
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Búa til og vista afturköllunarskilríki
 openpgp-key-man-gen-revocation =
     .label = Vista afturköllunarskilríki í skrá
     .accesskey = f
@@ -489,8 +484,6 @@ filter-encrypt-label = Dulkóða í lykil (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Tókst! Lyklar voru fluttir inn
 import-info-dialog-title = Tókst! Lyklar voru fluttir inn
 import-info-bits = Bitar
 import-info-created = Búinn til
@@ -650,9 +643,6 @@ no-update-found = Þú ert nú þegar með lyklana sem fundust á netinu.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Villa - Skipun um útdrátt lykils mistókst
@@ -783,15 +773,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Þú hefur stillt umbrot línu á { $width } stafi. Fyrir rétta dulkóðun og/eða undirritun þarf þetta gildi að vera að minnsta kosti 68 stafir.
     Viltu breyta umbroti línu í 68 stafi?
-sending-news =
-    Dulritaðri sendingaraðgerð hætt.
-    Ekki er hægt að dulrita þessi skilaboð vegna þess að þarna eru viðtakendur í fréttahópi. Sendu skilaboðin aftur án dulritunar.
-send-to-news-warning =
-    Aðvörun: þú ert að fara að senda dulritaðan tölvupóst til fréttahóps.
-    Þetta er óhugsandi vegna þess að slíkt er aðeins skynsamlegt ef allir meðlimir hópsins geta afkóðað skilaboðin, þ.e. skilaboðin þurfa að vera dulrituð með lyklum allra þátttakenda hópsins. Sendu þessi skilaboð aðeins ef þú veist nákvæmlega hvað þú ert að gera.
-    Halda áfram?
 save-attachment-header = Vista afkóðað viðhengi
-possibly-pgp-mime = Mögulega PGP/MIME dulrituð eða undirrituð skilaboð; notaðu 'Afkóða/Staðfesta' aðgerð til að staðfesta
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Ekki er hægt að undirrita stafrænt þessi skilaboð þar sem þú hefur ekki enn stillt enda-í-enda dulritun fyrir <{ $key }>
@@ -845,15 +827,6 @@ debug-log-title = OpenPGP atvikaskrá
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Þessi aðvörun mun endurtakast { $count }
-repeat-suffix-singular = sinni til viðbótar.
-repeat-suffix-plural = sinnum til viðbótar.
-no-repeat = Þessi aðvörun verður ekki birt aftur.
-dlg-keep-setting = Muna svarið mitt og ekki spyrja mig aftur
 
 ## Strings used in dialog.sys.mjs
 
@@ -863,8 +836,6 @@ dlg-button-cancel = &Hætta við
 dlg-no-prompt = Ekki sýna mér þennan glugga aftur
 enig-prompt = OpenPGP kvaðning
 enig-confirm = OpenPGP staðfesting
-enig-alert = OpenPGP aðvörun
-enig-info = OpenPGP upplýsingar
 
 ## Strings used in persistentCrypto.jsm
 

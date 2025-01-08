@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Crear, renombrar o eliminar las carpetas de tus cuentas de correo electrónico
 webext-perms-description-accountsIdentities = Crea, modifica o elimina las identidades de tu cuenta de correo
 webext-perms-description-accountsRead = Ver tus cuentas de correo, las identidades y las carpetas
@@ -19,6 +26,5 @@ webext-perms-description-messagesImport = Importar mensajes en Thunderbird
 webext-perms-description-messagesModify = Leer y modificar tus mensajes de correo electrónico a medida que se muestran
 webext-perms-description-messagesMove = Copia o mueve tus mensajes de correo electrónico (incluido moverlos a la carpeta de la papelera)
 webext-perms-description-messagesDelete = Elimina permanentemente tus mensajes de correo electrónico
-webext-perms-description-messagesRead = Leer tus mensajes de correo electrónico o etiquetarlos
 webext-perms-description-messagesTags = Crear, modificar y eliminar etiquetas de mensajes
 webext-perms-description-sensitiveDataUpload = Transferir datos confidenciales del usuario (si se ha otorgado acceso) a un servidor remoto para su posterior procesamiento

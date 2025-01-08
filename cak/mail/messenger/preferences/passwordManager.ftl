@@ -2,11 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-saved-logins =
-    .title = Yakon taq kitikirib'al molojri'ïl
 saved-logins-title = Yakon taq kitikirib'al molojri'ïl
-window-close =
-    .key = w
 copy-provider-url-cmd =
     .label = Tiwachib'ëx URL
     .accesskey = w

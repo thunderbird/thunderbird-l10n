@@ -15,7 +15,6 @@
 <!ENTITY connectionSecurity.label "Slándáil an cheangail:">
 <!ENTITY connectionSecurity.accesskey "n">
 <!ENTITY connectionSecurityType-0.label "Gan sonrú">
-<!ENTITY connectionSecurityType-1.label "STARTTLS, má tá sé ar fáil">
 <!ENTITY connectionSecurityType-2.label "STARTTLS">
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY smtpEditTitle.label "Freastalaí SMTP">

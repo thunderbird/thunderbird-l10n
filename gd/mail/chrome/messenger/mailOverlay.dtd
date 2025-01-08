@@ -6,6 +6,6 @@
 <!ENTITY  newMessageCmd.key               "M">
 <!ENTITY  newMessageCmd.label             "Teachdaireachd">
 <!ENTITY  newMessageCmd.accesskey         "T">
- 
+
 <!ENTITY  newContactCmd.label             "Caraid ann an leabhar nan seòladh…">
 <!ENTITY  newContactCmd.accesskey         "C">

@@ -104,19 +104,6 @@ quick-filter-bar-results =
         [one] { $count } messadi
        *[other] { $count } messadis
     }
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
-# This is the empty text for the text search box.
-# The goal is to convey to the user that typing in the box will filter
-# the messages and that there is a hotkey they can press to get to the
-# box faster.
-quick-filter-bar-textbox =
-    .placeholder = Filtrar quests messadis <{ quick-filter-bar-textbox-shortcut }>
 quick-filter-bar-search2 =
     .label = Filtrar ils messadis
 quick-filter-bar-searching =
@@ -278,8 +265,6 @@ threadpane-column-header-sender = Da
     .title = Zavrar tenor speditur
 threadpane-column-label-sender =
     .label = Da
-threadpane-cell-sender =
-    .aria-label = Da
 # Variables:
 # $title (String) - Message sender for tooltip.
 threadpane-cell-sender-title =
@@ -289,8 +274,6 @@ threadpane-column-header-recipient = Destinatur
     .title = Zavrar tenor destinatur
 threadpane-column-label-recipient =
     .label = Destinatur
-threadpane-cell-recipient =
-    .aria-label = Destinatur(a)
 # Variables:
 # $title (String) - Message recipient for tooltip.
 threadpane-cell-recipient-title =
@@ -300,8 +283,6 @@ threadpane-column-header-correspondents = Correspundents
     .title = Zavrar tenor correspundents
 threadpane-column-label-correspondents =
     .label = Correspundents
-threadpane-cell-correspondents =
-    .aria-label = Correspundent(a)s
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
@@ -311,8 +292,6 @@ threadpane-column-header-subject = Object
     .title = Zavrar tenor object
 threadpane-column-label-subject =
     .label = Object
-threadpane-cell-subject =
-    .aria-label = Object
 # Variables:
 # $title (String) - Message subject for tooltip.
 threadpane-cell-subject-title =
@@ -322,8 +301,6 @@ threadpane-column-header-date = Data
     .title = Zavrar tenor data
 threadpane-column-label-date =
     .label = Data
-threadpane-cell-date =
-    .aria-label = Data
 # Variables:
 # $title (String) - Message date for tooltip.
 threadpane-cell-date-title =
@@ -333,8 +310,6 @@ threadpane-column-header-received = Retschavì
     .title = Zavrar tenor la data da retschavida
 threadpane-column-label-received =
     .label = Retschavì
-threadpane-cell-received =
-    .aria-label = Data da recepziun
 # Variables:
 # $title (String) - Message received date for tooltip.
 threadpane-cell-received-title =
@@ -344,8 +319,6 @@ threadpane-column-header-status = Status
     .title = Zavrar tenor status
 threadpane-column-label-status =
     .label = Status
-threadpane-cell-status =
-    .aria-label = Status
 # Variables:
 # $title (String) - Message status for tooltip.
 threadpane-cell-status-title =
@@ -355,8 +328,6 @@ threadpane-column-header-size = Grondezza
     .title = Zavrar tenor grondezza
 threadpane-column-label-size =
     .label = Grondezza
-threadpane-cell-size =
-    .aria-label = Grondezza
 # Variables:
 # $title (String) - Message size for tooltip.
 threadpane-cell-size-title =
@@ -366,8 +337,6 @@ threadpane-column-header-tags = Etichetta
     .title = Zavrar tenor etichettas
 threadpane-column-label-tags =
     .label = Etichetta
-threadpane-cell-tags =
-    .aria-label = Etichettas
 # Variables:
 # $title (String) - Tags for tooltip.
 threadpane-cell-tags-title =
@@ -377,8 +346,6 @@ threadpane-column-header-account = Conto
     .title = Zavrar tenor conto
 threadpane-column-label-account =
     .label = Conto
-threadpane-cell-account =
-    .aria-label = Conto
 # Variables:
 # $title (String) - Message account for tooltip.
 threadpane-cell-account-title =
@@ -388,8 +355,6 @@ threadpane-column-header-priority = Prioritad
     .title = Zavrar tenor prioritad
 threadpane-column-label-priority =
     .label = Prioritad
-threadpane-cell-priority =
-    .aria-label = Prioritad
 # Variables:
 # $title (String) - Priority for tooltip.
 threadpane-cell-priority-title =
@@ -399,8 +364,6 @@ threadpane-column-header-unread = Nunlegì
     .title = Dumber da messadis nunlegids en il tema
 threadpane-column-label-unread =
     .label = Nunlegì
-threadpane-cell-unread =
-    .aria-label = Dumber da messadis nunlegids
 # Variables:
 # $title (String) - Number of unread messages for tooltip.
 threadpane-cell-unread-title =
@@ -410,8 +373,6 @@ threadpane-column-header-total = Total
     .title = Dumber total da messadis en il tema
 threadpane-column-label-total =
     .label = Total
-threadpane-cell-total =
-    .aria-label = Dumber total da messadis
 # Variables:
 # $title (String) - Total messages for tooltip.
 threadpane-cell-total-title =
@@ -421,8 +382,6 @@ threadpane-column-header-location = Adressa
     .title = Zavrar tenor lieu
 threadpane-column-label-location =
     .label = Adressa
-threadpane-cell-location =
-    .aria-label = Adressa
 # Variables:
 # $title (String) - Message location for tooltip.
 threadpane-cell-location-title =
@@ -432,8 +391,6 @@ threadpane-column-header-id = Successiun dad entrada
     .title = Zavrar tenor successiun da retschavida
 threadpane-column-label-id =
     .label = Successiun dad entrada
-threadpane-cell-id =
-    .aria-label = Successiun tenor entrada
 # Variables:
 # $title (String) - Message id for tooltip.
 threadpane-cell-id-title =

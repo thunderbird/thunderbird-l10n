@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Σύνοψη μηνύματος
-selected-messages-label =
-    .label = Επιλεγμένα μηνύματα
 multi-message-archive-button =
     .label = Αρχειοθέτηση
     .tooltiptext = Αρχειοθέτηση

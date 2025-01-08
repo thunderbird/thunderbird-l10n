@@ -15,15 +15,6 @@ room-name-empty = Tom konversation
 room-name-empty-had-name = Tom konversation (var { $oldName })
 # Variables:
 #  $participant (String) - The name of one participant that isn't the user.
-#  $otherParticipantsCount (Number) - The count of other participants apart from
-#    the user and $participant.
-room-name-others =
-    { $otherParticipantsCount ->
-        [one] { $participant } och { $otherParticipantCount } annan
-       *[other] { $participant } och { $otherParticipantCount } andra
-    }
-# Variables:
-#  $participant (String) - The name of one participant that isn't the user.
 #  $otherParticipantCount (Number) - The count of other participants apart from
 #    the user and $participant.
 room-name-others2 =

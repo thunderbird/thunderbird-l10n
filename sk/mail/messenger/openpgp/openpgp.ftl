@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Platnosť vyprší
 openpgp-key-id-label =
     .label = ID kľúča
-openpgp-cannot-change-expiry = Toto je kľúč so zložitou štruktúrou, zmena jeho dátumu platnosti nie je podporovaná.
-openpgp-key-man-title =
-    .title = Správca kľúčov OpenPGP
 openpgp-key-man-dialog-title = Správca kľúčov OpenPGP
 openpgp-key-man-generate =
     .label = Nový pár kľúčov
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Certifikát zneplatnenia
     .accesskey = C
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Vytvoriť a uložiť certifikát o zneplatnení kľúča
 openpgp-key-man-gen-revocation =
     .label = Uložiť zneplatnenie certifikátu do súboru
     .accesskey = U
@@ -497,8 +492,6 @@ filter-encrypt-label = Šifrovať na kľúč (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Importovanie bolo úspešné!
 import-info-dialog-title = Importovanie bolo úspešné!
 import-info-bits = bitov
 import-info-created = Vytvorený
@@ -658,9 +651,6 @@ no-update-found = Už máte kľúče, ktoré boli objavené online.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Chyba - príkaz na extrakciu kľúča zlyhal
@@ -791,15 +781,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Nastavili ste zalamovanie riadkov na šírku { $width } znakov. Pre správne šifrovanie a / alebo podpisovanie musí byť táto hodnota minimálne 68.
     Prajete si teraz zmeniť zalamovanie riadkov na 68 znakov?
-sending-news =
-    Operácia šifrovaného odoslania bola prerušená.
-    Túto správu nie je možné zašifrovať, pretože medzi príjemcami sa nachádzajú aj diskusné skupiny. Správu odošlite znova bez šifrovania.
-send-to-news-warning =
-    Upozornenie: Chystáte sa odoslať zašifrovaný e‑mail do diskusnej skupiny.
-    To sa neodporúča, pretože to má zmysel, iba ak správu môžu dešifrovať všetci členovia skupiny, t. j. správa musí byť zašifrovaná kľúčmi všetkých účastníkov skupiny. Túto správu odošlite, iba ak presne viete, čo robíte.
-    Pokračovať?
 save-attachment-header = Uložiť dešifrovanú prílohu
-possibly-pgp-mime = Správa je možno šifrovaná alebo podpísaná pomocou PGP/MIME; na overenie použite funkciu ‘Dešifrovať/Overiť’
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Túto správu nie je možné digitálne podpísať, pretože ste ešte nenastavili obojstranné šifrovanie pre <{ $key }>
@@ -853,15 +835,6 @@ debug-log-title = Záznam ladenia OpenPGP
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Toto upozornenie sa bude opakovať { $count }
-repeat-suffix-singular = krát.
-repeat-suffix-plural = krát.
-no-repeat = Toto upozornenie sa už nebude zobrazovať.
-dlg-keep-setting = Zapamätať si moju odpoveď a už sa ma nepýtať
 
 ## Strings used in dialog.sys.mjs
 
@@ -871,8 +844,6 @@ dlg-button-cancel = &Zrušiť
 dlg-no-prompt = Nabudúce toto okno nezobrazovať
 enig-prompt = Výzva OpenPGP
 enig-confirm = Potvrdenie OpenPGP
-enig-alert = Upozornenie OpenPGP
-enig-info = Informácie OpenPGP
 
 ## Strings used in persistentCrypto.jsm
 

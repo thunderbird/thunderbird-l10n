@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Crynodeb Neges
-selected-messages-label =
-    .label = Negeseuon wedi'u Dewis
 multi-message-archive-button =
     .label = Archifo
     .tooltiptext = Archifo

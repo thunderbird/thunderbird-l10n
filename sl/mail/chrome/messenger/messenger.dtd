@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "P">
 <!ENTITY newVirtualFolderCmd.label "Shranjeno iskanje …">
 <!ENTITY newVirtualFolderCmd.accesskey "h">
-<!ENTITY newCreateEmailAccountCmd.label "Odpri nov poštni račun …">
-<!ENTITY newCreateEmailAccountCmd.accesskey "n">
-<!ENTITY newExistingEmailAccountCmd.label "Poveži obstoječ poštni račun …">
-<!ENTITY newExistingEmailAccountCmd.accesskey "b">
 <!ENTITY newIMAccountCmd.label "Račun za klepet …">
 <!ENTITY newIMAccountCmd.accesskey "e">
 <!ENTITY newFeedAccountCmd.label "Račun za vir …">
@@ -621,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "d">
 <!ENTITY folderContextMarkNewsgroupRead.label "Označi novičarsko skupino kot prebrano">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "O">
-<!ENTITY folderContextMarkMailFolderRead.label "Označi mapo kot prebrano">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "O">
 <!ENTITY folderContextSubscribe.label "Naroči se …">
 <!ENTITY folderContextSubscribe.accesskey "č">
 <!ENTITY folderContextSearchForMessages.label "Išči po sporočilih …">
@@ -728,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "e">
 <!ENTITY contextReplyList.label "Odgovori seznamu">
 <!ENTITY contextReplyList.accesskey "z">
-<!ENTITY contextForward.label "Posreduj">
-<!ENTITY contextForward.accesskey "P">
-<!ENTITY contextForwardAsMenu.label "Posreduj kot">
-<!ENTITY contextForwardAsMenu.accesskey "o">
-<!ENTITY contextForwardAsInline.label "V besedilu">
-<!ENTITY contextForwardAsInline.accesskey "V">
-<!ENTITY contextForwardAsAttachmentItem.label "Priponko">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "P">
-<!ENTITY contextMultiForwardAsAttachment.label "Posreduj kot priponke">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "e">
 <!ENTITY contextMoveMsgMenu.label "Premakni v">
 <!ENTITY contextMoveMsgMenu.accesskey "m">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Nedavno">

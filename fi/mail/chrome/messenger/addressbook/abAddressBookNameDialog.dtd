@@ -3,5 +3,5 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Labels -->
-<!ENTITY name.label			 "Osoitekirjan nimi">
+<!ENTITY name.label      "Osoitekirjan nimi">
 <!ENTITY name.accesskey  "O">

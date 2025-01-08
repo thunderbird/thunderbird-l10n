@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-uri-redirect-window =
-    .title = Chuyển hướng URI lịch
 calendar-uri-redirect-window-title = Chuyển hướng URI lịch
+# Variables:
+# $calendarName (String) - Display name of the calendar.
 calendar-uri-redirect-description =
     Máy chủ đang chuyển hướng URI cho lịch "{ $calendarName }".
     Chấp nhận chuyển hướng và bắt đầu sử dụng URI mới cho lịch này?

@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Uporabi majhne ikone">
 <!ENTITY restoreDefaultSet.label  "Obnovi privzeti nabor">
 <!ENTITY showTitlebar2.label      "Naslovna vrstica">
-<!ENTITY extraDragSpace2.label    "Prostor za vlečenje">
 <!ENTITY saveChanges.label        "Končaj">
 <!ENTITY undoChanges.label        "Razveljavi spremembe">

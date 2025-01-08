@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Kontua:">
 <!ENTITY server.accesskey             "K">
 <!ENTITY subscribedHeader.label       "Harpidetu">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Erakutsi hau daukaten elementuak:">
 <!ENTITY namefield.accesskey          "s">

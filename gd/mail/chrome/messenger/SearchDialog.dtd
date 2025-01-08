@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- for SearchDialog.xul -->
 
+<!-- for SearchDialog.xhtml -->
 <!ENTITY searchHeading.label         "Lorg teachdaireachdan ann an:">
 <!ENTITY searchHeading.accesskey     "h">
 <!ENTITY searchSubfolders.label      "Rannsaich na fo-phasgain">
@@ -19,13 +19,13 @@
 <!ENTITY results.label               "Toraidhean">
 <!ENTITY moveButton.label            "Gluais gu">
 <!ENTITY moveButton.accesskey        "u">
-<!ENTITY closeCmd.key                "W"> 
+<!ENTITY closeCmd.key                "W">
 <!ENTITY openInFolder.label          "Fosgail sa phasgan">
 <!ENTITY openInFolder.accesskey      "F">
 <!ENTITY saveAsVFButton.label        "Sàbhail mar phasgan luirg">
 <!ENTITY saveAsVFButton.accesskey    "S">
-<!-- for ABSearchDialog.xul -->
 
+<!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label       "Lorg ann an:">
 <!ENTITY abSearchHeading.accesskey   "L">
 <!ENTITY propertiesButton.label      "Roghainnean">
@@ -35,7 +35,3 @@
 <!ENTITY deleteCardButton.label      "Sguab às">
 <!ENTITY deleteCardButton.accesskey  "S">
 <!ENTITY abSearchDialogTitle.label   "Rannsachadh adhartach leabhar nan seòladh">
-<!-- Thread Pane -->
-
-<!-- Thread Pane Tooltips -->
-

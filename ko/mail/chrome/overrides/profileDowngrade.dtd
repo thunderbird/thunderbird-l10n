@@ -10,7 +10,6 @@
  given Thunderbird channel". These terms are not synonymous.
 -->
 <!ENTITY window.title "&brandProductName; 이전 버전을 사용 중입니다.">
-<!ENTITY window.style "width: 490px;">
 
 <!ENTITY window.nosync2 "새 버전의 &brandProductName;는 이전 버전과 호환되지 않는 프로필 형식을 사용할 수 있습니다. 이 프로필을 새 버전에서만 사용하거나 이 &brandShortName; 설치본과 호환되는 새 프로필을 생성하세요. 새 프로필을 생성하려면 계정과 달력, 부가 기능을 다시 설정해야 합니다.">
 

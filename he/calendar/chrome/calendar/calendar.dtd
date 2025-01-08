@@ -13,84 +13,15 @@
 
 <!ENTITY calendar.today.button.label          "היום">
 <!ENTITY calendar.tomorrow.button.label       "מחר">
-<!ENTITY calendar.upcoming.button.label       "פעילויות צפויות">
 
-<!ENTITY calendar.events.filter.all.label "כל האירועים">
-<!ENTITY calendar.events.filter.today.label "אירועים היום">
-<!ENTITY calendar.events.filter.future.label "כל האירועים העתידיים">
-<!ENTITY calendar.events.filter.current.label "היום המסומן הנוכחי">
-<!ENTITY calendar.events.filter.currentview.label "אירועים בתצוגה נוכחית">
-<!ENTITY calendar.events.filter.next7Days.label "אירועים בשבעת הימים הבאים">
-<!ENTITY calendar.events.filter.next14Days.label "אירועים בשבועיים הקרובים">
-<!ENTITY calendar.events.filter.next31Days.label "אירועים בחודש הקרוב">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "אירועים בחודש זה">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "בוצע">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "מיון לפי השלמה">
-<!ENTITY calendar.unifinder.tree.priority.label            "עדיפות">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "מיון לפי עדיפות">
-<!ENTITY calendar.unifinder.tree.title.label               "כותרת">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "מיון לפי כותרת">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#037; הושלם">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "מיון לפי &#37; השלמה">
-<!ENTITY calendar.unifinder.tree.startdate.label           "התחלה">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "מיון לפי תאריך התחלה">
-<!ENTITY calendar.unifinder.tree.enddate.label             "סיום">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "מיון לפי תאריך סיום">
-<!ENTITY calendar.unifinder.tree.duedate.label             "סיום">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "מיון לפי תאריך יעד">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "בוצע">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "מיון לפי תאריך השלמה">
-<!ENTITY calendar.unifinder.tree.categories.label          "קטגוריות">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "מיון לפי קטגוריה">
-<!ENTITY calendar.unifinder.tree.location.label            "מיקום">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "מיון לפי מיקום">
-<!ENTITY calendar.unifinder.tree.status.label              "מצב">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "מיון לפי מצב">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "שם לוח שנה">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "מיון לפי שם לוח השנה">
-<!ENTITY calendar.unifinder.tree.duration.label            "יתקיים בעוד">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "מיון לפי הזמן עד היעד">
-<!ENTITY calendar.unifinder.close.tooltip                  "סגירת החיפוש ורשימת האירועים">
 
 <!ENTITY calendar.today.button.tooltip          "עבור ליום הנוכחי" >
 <!ENTITY calendar.todaypane.button.tooltip      "הצג פאנל היום" >
 
-<!ENTITY calendar.day.button.tooltip            "עבור לתצוגה יומית" >
-<!ENTITY calendar.week.button.tooltip           "מעבר לתצוגה שבועית" >
-<!ENTITY calendar.month.button.tooltip          "עבור לתצוגת חודש" >
-<!ENTITY calendar.multiweek.button.tooltip      "עבור לתצוגה רב שבועית" >
-
-<!ENTITY calendar.nextday.label                 "היום הבא" >
-<!ENTITY calendar.prevday.label                 "היום הקודם" >
-<!ENTITY calendar.nextday.accesskey             "י" >
-<!ENTITY calendar.prevday.accesskey             "ו" >
-<!ENTITY calendar.nextweek.label                "השבוע הבא" >
-<!ENTITY calendar.prevweek.label                "השבוע הקודם" >
-<!ENTITY calendar.nextweek.accesskey            "ש" >
-<!ENTITY calendar.prevweek.accesskey            "ב" >
-<!ENTITY calendar.nextmonth.label               "החודש הבא" >
-<!ENTITY calendar.prevmonth.label               "החודש הקודם" >
-<!ENTITY calendar.nextmonth.accesskey           "ח" >
-<!ENTITY calendar.prevmonth.accesskey           "ד" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "יום אחד קדימה" >
-<!ENTITY calendar.navigation.prevday.tooltip    "יום אחד אחורה" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "שבוע אחד קדימה" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "שבוע אחד אחורה" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "חודש אחד קדימה" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "חודש אחד אחורה" >
-
 <!ENTITY calendar.newevent.button.label         "אירוע חדש" >
 <!ENTITY calendar.newtask.button.label          "מטלה חדשה" >
 
-<!ENTITY calendar.day.button.label              "יום" >
-<!ENTITY calendar.week.button.label             "שבוע" >
-<!ENTITY calendar.month.button.label            "חודש" >
-<!ENTITY calendar.multiweek.button.label        "רב שבועי" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "ימי עבודה בלבד" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "r" >
 <!ENTITY calendar.displaytodos.checkbox.label   "מטלות בתצוגה" >
@@ -263,8 +194,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "ס">
 <!ENTITY calendar.context.unsubscribeserver.label      "ביטול מינוי ללוח שנה…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "ב">
-<!ENTITY calendar.context.synccalendars.label          "סנכרון לוחות שנה">
-<!ENTITY calendar.context.synccalendars.accesskey      "ס">
 <!ENTITY calendar.context.publish.label                "פרסום לוח השנה">
 <!ENTITY calendar.context.publish.accesskey            "פ">
 <!ENTITY calendar.context.export.label                 "ייצוא לוח שנה…">
@@ -355,8 +284,6 @@
 <!ENTITY calendar.publish.url.label                 "כתובת הפרסום באינטרנט">
 <!ENTITY calendar.publish.publish.button      "פרסם">
 <!ENTITY calendar.publish.close.button      "סגור">
-
-<!ENTITY calendar.publish.example.url.description   "לדוגמה: http://www.myserver.com/webdav/test.ics">
 
 <!-- Select Calendar Dialog -->
 <!ENTITY calendar.select.dialog.title    "בחירת לוח שנה">

@@ -30,13 +30,3 @@
 <!ENTITY closeCmd.label      "Pechar">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "c">
-
-<!ENTITY quitApplicationCmd.label  "Saír">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "a">
-
-<!ENTITY quitApplicationCmdUnix.label  "Saír">
-<!ENTITY quitApplicationCmdUnix.accesskey  "a">
-
-<!ENTITY quitApplicationCmdMac.label  "Saír de &brandShortName;">
-<!ENTITY quitApplicationCmdMac.accesskey  "a">

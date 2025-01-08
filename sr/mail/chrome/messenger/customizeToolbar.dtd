@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Користи мале иконице">
 <!ENTITY restoreDefaultSet.label  "Врати подразумевани комплет">
 <!ENTITY showTitlebar2.label      "Насловна трака">
-<!ENTITY extraDragSpace2.label    "Превуци простор">
 <!ENTITY saveChanges.label        "Готово">
 <!ENTITY undoChanges.label        "Опозови измене">

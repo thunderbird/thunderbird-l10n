@@ -5,9 +5,6 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Adaugă o cheie personală OpenPGP pentru { $identity }
-key-wizard-button =
-    .buttonlabelaccept = Continuare
-    .buttonlabelhelp = Înapoi
 key-wizard-dialog =
     .buttonlabelaccept = Continuă
     .buttonlabelextra1 = Înapoi
@@ -107,8 +104,6 @@ openpgp-import-key-list-caption = Cheile marcate să fie tratate drept chei pers
 openpgp-import-keep-passphrases =
     .label = Păstrează protecția cu parolă pentru cheile secrete importate
 openpgp-passphrase-prompt-title = Necesită parolă
-#   $identity (String) - the id of the key being imported
-openpgp-passphrase-prompt = Introdu parola pentru deblocarea cheii: { $key }
 openpgp-import-key-button =
     .label = Selectează fișierul de importat…
     .accesskey = S

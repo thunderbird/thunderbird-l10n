@@ -383,8 +383,6 @@ open-msg-ex-window =
 close-move-delete =
     .label = Mdel asfaylu/iccer n yizen deg unkaz neɣ di tukksa
     .accesskey = M
-display-name-label =
-    .value = Isem yettwaseknen:
 condensed-addresses-label =
     .label = Sken kan isem iyemdanen yellan deg imedlis inu n tensa
     .accesskey = S
@@ -541,18 +539,12 @@ primary-password-button =
 forms-primary-pw-fips-title = Aql-ak·akem tura deg uskar FIPS. FPIS yesra awal uffir agejdan arilem.
 forms-master-pw-fips-desc = Asnifel n wawal uffir ur yeddi ara
 junk-description = Sbadu iɣewwaren imezwar n yimaylen ispamen. Iɣewwaren n yimaylen ispamen n umiḍan yezmer ad ittuswel deg iɣewwaren n umiḍan.
-junk-label =
-    .label = Ticki ceṛḍeɣ iznan inu amzun d ispamen:
-    .accesskey = c
 junk-move-label =
     .label = Awi-ten ɣer ukaram "Aspam" n umiḍan
     .accesskey = w
 junk-delete-label =
     .label = Kkes-iten
     .accesskey = K
-junk-read-label =
-    .label = Creḍ iznan ispamen amzun ttwaɣṛan
-    .accesskey = C
 junk-log-label =
     .label = Rmed asniɣmes n imzizdig aspam aserwestan
     .accesskey = R
@@ -729,3 +721,6 @@ show-synced-item-calendar = Iwitayen
 show-synced-item-identity = Timagin
 show-synced-item-passwords = Awalen uffiren
 show-synced-change = Snifel...
+
+## Mobile QR Export Pane
+

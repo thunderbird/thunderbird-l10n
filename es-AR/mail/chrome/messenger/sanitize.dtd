@@ -33,4 +33,3 @@ that require it.  -->
      mockup at bug 480169 -->
 <!ENTITY sanitizeEverythingUndoWarning     "Esta acción no puede deshacerse.">
 
-<!ENTITY dialog.width                 "30em">

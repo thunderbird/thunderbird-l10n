@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-offline-dialog-window =
-    .title = Offline Settings
 offline-dialog-title = Offline Settings
 autodetect-online-label =
     .label = អនុវត្ត​តាម​សភាព​មាន​អ៊ីនធឺណិត​ដែល​បាន​រក​ឃើញ​ដោយ​ស្វ័យប្រវត្តិ

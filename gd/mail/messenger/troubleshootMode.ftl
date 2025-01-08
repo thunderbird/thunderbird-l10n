@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-troubleshoot-mode-window =
-    .title = Modh fuasgladh dhuilgheadasan { -brand-short-name }
-    .style = width: 37em;
 troubleshoot-mode-dialog-title = Modh fuasgladh dhuilgheadasan { -brand-short-name }
 troubleshoot-mode-description = Cleachd modh fuasgladh dhuilgheadasan { -brand-short-name } airson duilgheadasan a sgrùdadh. Thèid na tuilleadain is gnàthachaidhean agad a chur à comas rè seal.
 troubleshoot-mode-description2 = 'S urrainn dhut na h-atharrachaidhean seo gu lèir, no cuid dhiubh, a chur an sàs gu buan:

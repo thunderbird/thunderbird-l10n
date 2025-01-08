@@ -18,6 +18,8 @@ openpgp-ctx-verify-att =
     .label = Verificar firma
     .accesskey = V
 openpgp-has-sender-key = Este mensaje afirma contener la clave pública OpenPGP del remitente.
+# Variables:
+# $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Advertencia: La nueva clave pública de OpenPGP en este mensaje difiere de las claves públicas que aceptaste anteriormente para { $email }.
 openpgp-import-sender-key =
     .label = Importar…

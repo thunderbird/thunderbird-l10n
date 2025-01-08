@@ -324,6 +324,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "oktober" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "nowember" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "december" >
+
 <!ENTITY event.recurrence.yearly.every.label                 "Kužde">
 <!ENTITY event.recurrence.yearly.first.label                 "prědne">
 <!ENTITY event.recurrence.yearly.second.label                "druge">
@@ -340,6 +341,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "sobota" >
 <!ENTITY event.recurrence.pattern.yearly.day.label           "źeń" >
 <!ENTITY event.recurrence.of.label                           "of" >
+
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "januar" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "februar" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "měrc" >

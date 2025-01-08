@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Küçük simgeleri kullan">
 <!ENTITY restoreDefaultSet.label  "Varsayılanları geri yükle">
 <!ENTITY showTitlebar2.label      "Başlık çubuğu">
-<!ENTITY extraDragSpace2.label    "Sürükleme alanı">
 <!ENTITY saveChanges.label        "Tamam">
 <!ENTITY undoChanges.label        "Değişiklikleri geri al">

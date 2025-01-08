@@ -7,6 +7,13 @@
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 
+
+## Extension permission description keys are derived from permission names.
+## Permissions for which the message has been changed and the key updated
+## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
+## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
+## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
+
 webext-perms-description-accountsFolders = Skapa, byt namn på eller ta bort dina mappar för e-postkonton
 webext-perms-description-accountsIdentities = Skapa, ändra eller ta bort dina e-postkontoidentiteter
 webext-perms-description-accountsRead = Se dina e-postkonton, deras identiteter och deras mappar
@@ -20,7 +27,6 @@ webext-perms-description-messagesModify = Läs och ändra dina e-postmeddelanden
 webext-perms-description-messagesModifyPermanent = Permanent ändra källkoden för dina meddelanden (inklusive rubriker, text och bilagor)
 webext-perms-description-messagesMove = Kopiera eller flytta dina e-postmeddelanden (inklusive flytta dem till papperskorgen)
 webext-perms-description-messagesDelete = Ta bort dina e-postmeddelanden permanent
-webext-perms-description-messagesRead = Läs dina e-postmeddelanden och markera eller tagga dem
 webext-perms-description-messagesRead2 = Läs dina e-postmeddelanden
 webext-perms-description-messagesUpdate = Ändra egenskaper och taggar för dina e-postmeddelanden
 webext-perms-description-messagesTags = Skapa, ändra och ta bort meddelandetaggar

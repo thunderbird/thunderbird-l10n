@@ -261,6 +261,7 @@
 <!ENTITY tableProperties.label "Свойства на таблицата…">
 <!ENTITY tableProperties.accesskey "й">
 
+<!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Изображение">
 <!ENTITY imageToolbarCmd.tooltip "Вмъкване на ново изображение или редактиране свойствата на избраното изображение">
 <!ENTITY hruleToolbarCmd.label "Хор. линия">

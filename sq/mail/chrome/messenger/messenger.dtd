@@ -24,10 +24,6 @@
 <!ENTITY moveToNewWindow.accesskey "K">
 <!ENTITY newVirtualFolderCmd.label "Kërkim i Ruajtur…">
 <!ENTITY newVirtualFolderCmd.accesskey "K">
-<!ENTITY newCreateEmailAccountCmd.label "Hapni një Llogari të Re Poste…">
-<!ENTITY newCreateEmailAccountCmd.accesskey "H">
-<!ENTITY newExistingEmailAccountCmd.label "Llogari Poste Ekzistuese…">
-<!ENTITY newExistingEmailAccountCmd.accesskey "E">
 <!ENTITY newIMAccountCmd.label "Llogari Fjalosjeje…">
 <!ENTITY newIMAccountCmd.accesskey "F">
 <!ENTITY newFeedAccountCmd.label "Llogari Prurjesh…">
@@ -87,18 +83,6 @@
 <!ENTITY printCmd.key "p">
 
 <!-- Edit Menu -->
-<!ENTITY deleteMsgCmd.label "Fshije Mesazhin">
-<!ENTITY deleteMsgCmd.accesskey "F">
-<!ENTITY undeleteMsgCmd.label "Çfshije Mesazhin">
-<!ENTITY undeleteMsgCmd.accesskey "Ç">
-<!ENTITY deleteMsgsCmd.label "Fshi Mesazhet e Përzgjedhur">
-<!ENTITY deleteMsgsCmd.accesskey "s">
-<!ENTITY undeleteMsgsCmd.label "Çfshiji Mesazhet e Përzgjedhur">
-<!ENTITY undeleteMsgsCmd.accesskey "i">
-<!ENTITY deleteFolderCmd.label "Fshije Dosjen">
-<!ENTITY deleteFolderCmd.accesskey "j">
-<!ENTITY unsubscribeNewsgroupCmd.label "Shpajtohuni">
-<!ENTITY unsubscribeNewsgroupCmd.accesskey "h">
 <!ENTITY selectMenu.label "Përzgjidhni">
 <!ENTITY selectMenu.accesskey "ë">
 <!ENTITY all.label "Krejt">
@@ -110,10 +94,6 @@
 <!ENTITY selectFlaggedCmd.accesskey "M">
 <!ENTITY menuFavoriteFolder.label "Dosje të Parapëlqyerish">
 <!ENTITY menuFavoriteFolder.accesskey "D">
-<!ENTITY folderPropsCmd2.label "Veti">
-<!ENTITY folderPropsFolderCmd2.label "Veti Dosjeje">
-<!ENTITY folderPropsNewsgroupCmd2.label "Veti Grupi Lajmesh">
-<!ENTITY folderPropsCmd.accesskey "v">
 <!ENTITY undoDeleteMsgCmd.label "Zhbëje Fshirjen e Mesazhit">
 <!ENTITY redoDeleteMsgCmd.label "Ribëje Fshirjen e Mesazhit">
 <!ENTITY undoMoveMsgCmd.label "Zhbëje Lëvizjen e Mesazhit">
@@ -145,8 +125,6 @@
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Kuadrat Dosjesh">
 <!ENTITY showFolderPaneCmd.accesskey "u">
-<!ENTITY showFolderPaneColsCmd.label "Shtylla Kuadrati Dosjesh">
-<!ENTITY showFolderPaneColsCmd.accesskey "t">
 <!ENTITY showMessageCmd.label "Kuti Mesazhesh">
 <!ENTITY showMessageCmd.accesskey "M">
 
@@ -596,10 +574,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Mesazh i Ri">
 <!ENTITY appmenuNewContactCmd.label "Kontakt Nga Libër Adresash…">
-<!ENTITY appmenuEditMenu.label "Përpunoni">
 <!ENTITY appmenuToolbarLayout.label "Skemë Paneli…">
-<!ENTITY appmenuSelectThread.label "Përzgjidhni Prurje">
-<!ENTITY appmenuSelectFlagged.label "Përzgjidhni Mesazhe Me Yll">
 
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Etiketë e Re…">
@@ -642,8 +617,6 @@
 <!ENTITY folderContextUnsubscribe.accesskey "S">
 <!ENTITY folderContextMarkNewsgroupRead.label "Shënoje Grupin e Lajmeve si Të lexuar">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "L">
-<!ENTITY folderContextMarkMailFolderRead.label "Shënoje Dosjen si Të lexuar">
-<!ENTITY folderContextMarkMailFolderRead.accesskey "l">
 <!ENTITY folderContextSubscribe.label "Pajtohuni…">
 <!ENTITY folderContextSubscribe.accesskey "P">
 <!ENTITY folderContextSearchForMessages.label "Kërkoni Te Mesazhet…">
@@ -749,16 +722,6 @@
 <!ENTITY contextReplyAll.accesskey "T">
 <!ENTITY contextReplyList.label "Përgjigjuni te Lista">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextForward.label "Përcille">
-<!ENTITY contextForward.accesskey "c">
-<!ENTITY contextForwardAsMenu.label "Përcille Si">
-<!ENTITY contextForwardAsMenu.accesskey "S">
-<!ENTITY contextForwardAsInline.label "Brendazi">
-<!ENTITY contextForwardAsInline.accesskey "I">
-<!ENTITY contextForwardAsAttachmentItem.label "Bashkëngjitje">
-<!ENTITY contextForwardAsAttachmentItem.accesskey "A">
-<!ENTITY contextMultiForwardAsAttachment.label "Përcille si Bashkëngjitje">
-<!ENTITY contextMultiForwardAsAttachment.accesskey "B">
 <!ENTITY contextMoveMsgMenu.label "Shpjere Te">
 <!ENTITY contextMoveMsgMenu.accesskey "e">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Së fundi">
@@ -904,10 +867,6 @@
 <!ENTITY copyImageAllCmd.accesskey "P">
 <!ENTITY copyEmailCmd.label "Kopjo Adresë Email">
 <!ENTITY copyEmailCmd.accesskey "E">
-<!ENTITY stopCmd.label "Ndale">
-<!ENTITY stopCmd.accesskey "N">
-<!ENTITY reloadCmd.label "Ringarkoje">
-<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY openInBrowser.label "Hape Në Shfletues">
 <!ENTITY openInBrowser.accesskey "H">
 <!ENTITY openLinkInBrowser.label "Hape Lidhjen Në Shfletues">

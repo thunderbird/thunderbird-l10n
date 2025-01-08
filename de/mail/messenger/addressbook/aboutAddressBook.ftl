@@ -14,12 +14,6 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = CardDAV-Adressbuch hinzufügen
 about-addressbook-toolbar-add-ldap-address-book =
     .label = LDAP-Adressbuch hinzufügen
-about-addressbook-toolbar-new-contact =
-    .label = Neuer Kontakt
-about-addressbook-toolbar-new-list =
-    .label = Neue Verteilerliste
-about-addressbook-toolbar-import =
-    .label = Importieren
 books-pane-create-contact-button = Neuer Kontakt
     .title = Neuen Kontakt anlegen
 books-pane-create-book-button =
@@ -70,12 +64,6 @@ about-addressbook-confirm-remove-remote-book = Soll { $name } entfernt werden?
 
 ## Cards
 
-# Variables:
-# $name (String) - Name of the address book that will be searched.
-about-addressbook-search =
-    .placeholder = In { $name } suchen
-about-addressbook-search-all =
-    .placeholder = In allen Adressbüchern suchen
 # Variables:
 # $name (String) - Name of the address book that will be searched.
 about-addressbook-search2 =
@@ -277,7 +265,6 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Kontaktfoto bearbeiten
 about-addressbook-new-contact-header = Neuer Kontakt
-about-addressbook-prefer-display-name = Anzeigenamen statt Namen aus Kopfzeile der Nachricht verwenden
 about-addressbook-write-action-button = Nachricht
 about-addressbook-event-action-button = Termin
 about-addressbook-search-action-button = Suchen

@@ -4,8 +4,6 @@
 
 multi-message-window-title =
     .title = Обобщение на съобщение
-selected-messages-label =
-    .label = Избрани съобщения
 multi-message-archive-button =
     .label = Aрхивиране
     .tooltiptext = Aрхивиране

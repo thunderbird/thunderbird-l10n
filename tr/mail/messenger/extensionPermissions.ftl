@@ -27,7 +27,6 @@ webext-perms-description-messagesModify = Size gösterilen e-posta iletilerini o
 webext-perms-description-messagesModifyPermanent = İletilerinizin kaynağını (üst bilgiler, gövde ve ekler dahil) kalıcı olarak değiştirme
 webext-perms-description-messagesMove = E-posta iletilerinizi kopyalama ve taşıma (çöp kutusuna taşıma dahil)
 webext-perms-description-messagesDelete = E-posta iletilerinizi kalıcı olarak silme
-webext-perms-description-messagesRead = E-posta iletilerinizi okuma, işaretleme ve etiketleme
 webext-perms-description-messagesRead2 = E-posta iletilerinizi okuma
 webext-perms-description-messagesUpdate = E-posta iletilerinizin özelliklerini ve etiketlerini değiştirme
 webext-perms-description-messagesTags = İleti etiketleri oluşturma, değiştirme ve silme

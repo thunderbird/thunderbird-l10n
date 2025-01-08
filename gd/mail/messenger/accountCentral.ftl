@@ -44,7 +44,6 @@ import-label = Ion-phortaich
     .aria-label = Ion-phortaich dàta o phrògraman eile
 about-paragraph = ’S e Thunderbird am prìomh-chliant airson post-d agus mìosachan a dh’obraicheas air feadh nan ùrlaran ann an saoghal bathar-bog còd fosgailte, saor an-asgaidh do ghnìomhachasan is cleachdadh pearsanta. Tha sinn airson a chumail tèarainte ’s a dhèanamh fiù nas fhearr.
 about-paragraph-consider-donation = <b>Tha Thunderbird ga mhaoineachadh le daoine mar thu fhèin! Ma tha Thunderbird a’ còrdadh riut, nach cùm thu taic rinn?</b> Ma bheir thu <a data-l10n-name="donation-link">tabhartas</a> dhuinn, sin an dòigh as fheàrr airson dèanamh cinnteach gum fan Thunderbird beò.
-explore-link = Fidir na gleusan
 support-link = Taic
 involved-link = Gabh pàirt ann
 developer-link = Docamaideachd luchd-leasachaidh

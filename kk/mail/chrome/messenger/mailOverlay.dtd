@@ -6,6 +6,6 @@
 <!ENTITY  newMessageCmd.key               "M">
 <!ENTITY  newMessageCmd.label             "Хабарлама">
 <!ENTITY  newMessageCmd.accesskey         "Х">
- 
+
 <!ENTITY  newContactCmd.label             "Адрестік кітапша контакты…">
 <!ENTITY  newContactCmd.accesskey         "к">

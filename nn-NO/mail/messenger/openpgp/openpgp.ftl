@@ -45,9 +45,6 @@ openpgp-key-expiry-label =
     .label = Går ut
 openpgp-key-id-label =
     .label = Nøkkel-ID
-openpgp-cannot-change-expiry = Dette er ein nøkkel med ein kompleks struktur, det er ikkje støtte for å endre går ut-datoen.
-openpgp-key-man-title =
-    .title = OpenPGP-nøkkelhandsamar
 openpgp-key-man-dialog-title = OpenPGP-nøkkelhandsamar
 openpgp-key-man-generate =
     .label = Nytt nøkkelpar
@@ -55,8 +52,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Tilbakekallingssertifikat
     .accesskey = T
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Generer og lagre tilbakekallingssertifikat
 openpgp-key-man-file-menu =
     .label = File
     .accesskey = F
@@ -419,8 +414,6 @@ filter-encrypt-label = Krypter til nøkkel (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Nøklar importerte!
 import-info-dialog-title = Nøklar importerte!
 import-info-bits = Bit
 import-info-created = Laga
@@ -694,15 +687,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Du har stilt inn linjeskift til { $width } teikn. For rett kryptering og/eller signering, må denne verdien vere minst 68.
     Ønskjer du å endre linjeskiftet til 68 tegn nå?
-sending-news =
-    Kryptert sendingsoperasjon avbroten.
-    Denne meldinga kan ikkje krypterast fordi der er mottakarar av temagrupper. Send meldinga på nytt utan kryptering.
-send-to-news-warning =
-    Åtvaring: Du er i ferd med å sende ein kryptert e-post til ei temagruppe.
-    Dette er frårådd fordi det berre er fornuftig dersom alle medlemmane i gruppa kan dekryptere meldinga, dvs. meldinga må krypterast med nøkkelen til alle gruppedeltakarane. Send denne meldinga berre om du nøyaktig veit kva du gjer.
-    Halde fram?
 save-attachment-header = Lagre dekryptert vedlegg
-possibly-pgp-mime = Eventuelt PGP-/MIME-kryptert eller signert melding; bruk «Dekrypter/stadfest»-funksjonen for å stadfeste
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Klarte ikkje å signere denne meldinga digitalt, fordi du enno ikkje har konfigurert ende-til-ende-kryptering for <{ $key }>
@@ -756,15 +741,6 @@ debug-log-title = OpenPGP-feilsøkingslogg
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Dette varselet vert repetert { $count }
-repeat-suffix-singular = gong til.
-repeat-suffix-plural = gongar til.
-no-repeat = Dette varselet vert ikkje vist meir.
-dlg-keep-setting = Hugs svaret mitt, og ikkje spør meg meir
 
 ## Strings used in dialog.sys.mjs
 
@@ -774,8 +750,6 @@ dlg-button-cancel = &Avbryt
 dlg-no-prompt = Ikkje vis denne dialogruta fleire gongar
 enig-prompt = OpenPGP Prompt
 enig-confirm = OpenPGP-stadfesting
-enig-alert = OpenPGP-varsel
-enig-info = OpenPGP-informasjon
 
 ## Strings used in persistentCrypto.jsm
 

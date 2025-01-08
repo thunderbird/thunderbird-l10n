@@ -3,16 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 fonts-dialog-title = Fontovi
-fonts-window-close =
-    .key = w
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
     .label = Zadani ({ $name })
 fonts-label-default-unnamed =
     .label = Zadani
-fonts-encoding-dialog-title =
-    .title = Fontovi i kodiranja
 fonts-language-legend =
     .value = Fontovi za:
     .accesskey = F

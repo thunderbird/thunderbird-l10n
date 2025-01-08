@@ -19,6 +19,3 @@ link-color-label =
 visited-link-color-label =
     .value = Visited Links:
     .accesskey = v
-underline-link-checkbox =
-    .label = Underline links
-    .accesskey = u

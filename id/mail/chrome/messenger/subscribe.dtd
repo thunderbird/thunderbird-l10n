@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Akun:">
 <!ENTITY server.accesskey             "A">
 <!ENTITY subscribedHeader.label       "Berlangganan">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Tampilkan item yang berisi:">
 <!ENTITY namefield.accesskey          "i">

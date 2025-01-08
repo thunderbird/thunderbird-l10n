@@ -92,6 +92,7 @@
 
 <!ENTITY openAttachment.tooltip "Otvori priloženu datoteku">
 
+
 <!-- Attachment toolbar items -->
 <!ENTITY saveAttachmentButton1.label       "Sačuvaj">
 <!ENTITY saveAttachmentButton1.tooltip     "Sačuvaj priloženu datoteku">

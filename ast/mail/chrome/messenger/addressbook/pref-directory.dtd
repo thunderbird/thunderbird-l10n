@@ -2,14 +2,16 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!--null-->
-<!ENTITY pref.ldap.window.title "Sirvidores de direutoriu LDAP">
-<!ENTITY directories.label "Sirvidor de direutoriu LDAP:">
-<!ENTITY directoriesText.label "Seleicionar un sirvidor de direutoriu LDAP:">
+<!-- LOCALIZATION NOTE (window.title) : do not translate "LDAP" in below line -->
+<!ENTITY pref.ldap.window.title    "Sirvidores de direutoriu LDAP">
+<!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
+<!ENTITY directories.label         "Sirvidor de direutoriu LDAP:">
+<!-- LOCALIZATION NOTE (directoriesText.label) : do not translate "LDAP" in below line -->
+<!ENTITY directoriesText.label     "Seleicionar un sirvidor de direutoriu LDAP:">
 <!ENTITY directoriesText.accesskey "S">
-<!ENTITY addDirectory.label "Amestar">
-<!ENTITY addDirectory.accesskey "A">
-<!ENTITY editDirectory.label "Editar">
-<!ENTITY editDirectory.accesskey "e">
-<!ENTITY deleteDirectory.label "Desaniciar">
+<!ENTITY addDirectory.label        "Amestar">
+<!ENTITY addDirectory.accesskey    "A">
+<!ENTITY editDirectory.label       "Editar">
+<!ENTITY editDirectory.accesskey   "e">
+<!ENTITY deleteDirectory.label     "Desaniciar">
 <!ENTITY deleteDirectory.accesskey "r">

@@ -6,6 +6,6 @@
 <!ENTITY  newMessageCmd.key               "M">
 <!ENTITY  newMessageCmd.label             "Üzenet">
 <!ENTITY  newMessageCmd.accesskey         "Ü">
- 
+
 <!ENTITY  newContactCmd.label             "Névjegy…">
 <!ENTITY  newContactCmd.accesskey         "N">

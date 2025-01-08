@@ -30,13 +30,3 @@
 <!ENTITY closeCmd.label      "Sulge">
 <!ENTITY closeCmd.key      "W">
 <!ENTITY closeCmd.accesskey    "u">
-
-<!ENTITY quitApplicationCmd.label  "Välju">
-<!ENTITY quitApplicationCmd.key    "Q">
-<!ENTITY quitApplicationCmd.accesskey  "j">
-
-<!ENTITY quitApplicationCmdUnix.label  "Välju">
-<!ENTITY quitApplicationCmdUnix.accesskey  "V">
-
-<!ENTITY quitApplicationCmdMac.label  "Välju &brandShortName;ist">
-<!ENTITY quitApplicationCmdMac.accesskey  "V">

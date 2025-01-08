@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "Använd små ikoner">
 <!ENTITY restoreDefaultSet.label  "Återställ standardvärden">
 <!ENTITY showTitlebar2.label      "Titelfältet">
-<!ENTITY extraDragSpace2.label    "Extra utrymme">
 <!ENTITY saveChanges.label        "Klar">
 <!ENTITY undoChanges.label        "Ångra ändringar">

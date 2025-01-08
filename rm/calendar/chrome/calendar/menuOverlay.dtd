@@ -29,10 +29,6 @@
 <!ENTITY calendar.removecalendar.label          "Allontanar il chalender tschernì…">
 <!ENTITY calendar.removecalendar.accesskey      "A">
 
-
-<!ENTITY calendar.menu.customize.label          "Persumalisar…">
-<!ENTITY calendar.menu.customize.accesskey      "P">
-
 <!ENTITY showUnifinderCmd.label                 "Chattar eveniments">
 <!ENTITY showUnifinderCmd.accesskey             "C">
 <!ENTITY showUnifinderCmd.tooltip               "Mussar/zuppentar la lastra per chattar eveniments">

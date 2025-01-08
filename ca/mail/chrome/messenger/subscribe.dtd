@@ -16,7 +16,7 @@
 <!ENTITY server.label                 "Compte:">
 <!ENTITY server.accesskey             "C">
 <!ENTITY subscribedHeader.label       "Subscriu-m'hi">
-<!-- commenting out until bug 38906 is fixed 
+<!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
 <!ENTITY namefield.label              "Mostra els elements que continguin:">
 <!ENTITY namefield.accesskey          "o">

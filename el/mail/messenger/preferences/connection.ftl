@@ -14,8 +14,6 @@ connection-dns-over-https-url-custom =
     .accesskey = Π
     .tooltiptext = Εισαγάγετε το προτιμώμενο URL σας για επίλυση DNS over HTTPS
 connection-dns-over-https-custom-label = Προσαρμοσμένο
-connection-dialog-window2 =
-    .title = Ρυθμίσεις σύνδεσης
 connection-dialog-title = Ρυθμίσεις σύνδεσης
 disable-extension-button = Απενεργοποίηση επέκτασης
 # Variables:

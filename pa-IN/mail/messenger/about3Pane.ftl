@@ -65,13 +65,6 @@ quick-filter-bar-results =
         [one] { $count } message
        *[other] { $count } messages
     }
-# Keyboard shortcut for the text search box.
-# This should match quick-filter-bar-show in messenger.ftl.
-quick-filter-bar-textbox-shortcut =
-    { PLATFORM() ->
-        [macos] ⇧ ⌘ K
-       *[other] Ctrl+Shift+K
-    }
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
@@ -194,3 +187,6 @@ apply-current-columns-to-folder-message = Apply the current folder's columns to 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Apply the current folder's columns to { $name } and its children?
+
+## Folder pane context menu
+

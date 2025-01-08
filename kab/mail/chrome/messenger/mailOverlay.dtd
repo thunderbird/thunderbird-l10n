@@ -6,6 +6,6 @@
 <!ENTITY  newMessageCmd.key               "M">
 <!ENTITY  newMessageCmd.label             "Izen">
 <!ENTITY  newMessageCmd.accesskey         "I">
- 
+
 <!ENTITY  newContactCmd.label             "Anermis n umedlis n tensa…">
 <!ENTITY  newContactCmd.accesskey         "n">

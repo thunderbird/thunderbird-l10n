@@ -13,6 +13,5 @@
 <!ENTITY useSmallIcons.label      "ใช้ไอคอนเล็ก">
 <!ENTITY restoreDefaultSet.label  "เรียกคืนค่าเริ่มต้น">
 <!ENTITY showTitlebar2.label      "แถบชื่อเรื่อง">
-<!ENTITY extraDragSpace2.label    "พื้นที่ลาก">
 <!ENTITY saveChanges.label        "เสร็จสิ้น">
 <!ENTITY undoChanges.label        "เลิกทำการเปลี่ยนแปลง">

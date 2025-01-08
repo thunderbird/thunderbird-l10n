@@ -14,82 +14,14 @@
 <!ENTITY calendar.today.button.label          "Σήμερα">
 <!ENTITY calendar.tomorrow.button.label       "Αύριο">
 
-<!ENTITY calendar.events.filter.all.label "Όλες οι εκδηλώσεις">
-<!ENTITY calendar.events.filter.today.label "Σημερινές εκδηλώσεις">
-<!ENTITY calendar.events.filter.future.label "Όλες οι μελλοντικές εκδηλώσεις">
-<!ENTITY calendar.events.filter.current.label "Τρέχουσα επιλεγμένη ημέρα">
-<!ENTITY calendar.events.filter.currentview.label "Εκδηλώσεις στην τρέχουσα προβολή">
-<!ENTITY calendar.events.filter.next7Days.label "Εκδηλώσεις στις επόμενες 7 ημέρες">
-<!ENTITY calendar.events.filter.next14Days.label "Εκδηλώσεις στις επόμενες 14 ημέρες">
-<!ENTITY calendar.events.filter.next31Days.label "Εκδηλώσεις στις επόμενες 31 ημέρες">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Εκδηλώσεις σε αυτόν τον ημερολογιακό μήνα">
 
-<!-- LOCALIZATION NOTE(calendar.unifinder.tree.done.tooltip)
-   - This label and tooltip is used for the column with the checkbox in the
-   - task tree view. -->
-<!ENTITY calendar.unifinder.tree.done.label                "Τέλος">
-<!ENTITY calendar.unifinder.tree.done.tooltip2             "Ταξινόμηση με βάση το αν έχει ολοκληρωθεί ή όχι">
-<!ENTITY calendar.unifinder.tree.priority.label            "Προτεραιότητα">
-<!ENTITY calendar.unifinder.tree.priority.tooltip2         "Ταξινόμηση κατά προτεραιότητα">
-<!ENTITY calendar.unifinder.tree.title.label               "Τίτλος">
-<!ENTITY calendar.unifinder.tree.title.tooltip2            "Ταξινόμηση με βάση τον τίτλο">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label     "&#37; ολοκλήρωσης">
-<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2  "Ταξινόμηση κατά ποσοστό ολοκλήρωσης">
-<!ENTITY calendar.unifinder.tree.startdate.label           "Έναρξη">
-<!ENTITY calendar.unifinder.tree.startdate.tooltip2        "Ταξινόμηση κατά ημερομηνία έναρξης">
-<!ENTITY calendar.unifinder.tree.enddate.label             "Λήξη">
-<!ENTITY calendar.unifinder.tree.enddate.tooltip2          "Ταξινόμηση κατά ημερομηνία λήξης">
-<!ENTITY calendar.unifinder.tree.duedate.label             "Προθεσμία μέχρι">
-<!ENTITY calendar.unifinder.tree.duedate.tooltip2          "Ταξινόμηση κατά ημερομηνία λήξης της προθεσμίας">
-<!ENTITY calendar.unifinder.tree.completeddate.label       "Ολοκληρώθηκε στις">
-<!ENTITY calendar.unifinder.tree.completeddate.tooltip2    "Ταξινόμηση κατά ημερομηνία ολοκλήρωσης">
-<!ENTITY calendar.unifinder.tree.categories.label          "Κατηγορία">
-<!ENTITY calendar.unifinder.tree.categories.tooltip2       "Ταξινόμηση κατά κατηγορία">
-<!ENTITY calendar.unifinder.tree.location.label            "Τοποθεσία">
-<!ENTITY calendar.unifinder.tree.location.tooltip2         "Ταξινόμηση κατά τοποθεσία">
-<!ENTITY calendar.unifinder.tree.status.label              "Κατάσταση">
-<!ENTITY calendar.unifinder.tree.status.tooltip2           "Ταξινόμηση κατά κατάσταση">
-<!ENTITY calendar.unifinder.tree.calendarname.label        "Όνομα ημερολογίου">
-<!ENTITY calendar.unifinder.tree.calendarname.tooltip2     "Ταξινόμηση κατά όνομα ημερολογίου">
-<!ENTITY calendar.unifinder.tree.duration.label            "Υπολειπόμενος χρόνος">
-<!ENTITY calendar.unifinder.tree.duration.tooltip2         "Ταξινόμηση με βάση το χρόνο που υπολείπεται μέχρι την προθεσμία">
-<!ENTITY calendar.unifinder.close.tooltip                  "Κλείσιμο αναζήτησης και λίστας εκδηλώσεων">
 
 <!ENTITY calendar.today.button.tooltip          "Μετάβαση στη σημερινή ημέρα" >
 <!ENTITY calendar.todaypane.button.tooltip      "Εμφάνιση προβολής «Σήμερα»" >
 
-<!ENTITY calendar.day.button.tooltip            "Εναλλαγή σε ημερήσια προβολή" >
-<!ENTITY calendar.week.button.tooltip           "Εναλλαγή σε εβδομαδιαία προβολή" >
-<!ENTITY calendar.month.button.tooltip          "Εναλλαγή σε μηνιαία προβολή" >
-<!ENTITY calendar.multiweek.button.tooltip      "Εναλλαγή σε πολυεβδομαδιαία προβολή" >
-
-<!ENTITY calendar.nextday.label                 "Επόμενη ημέρα" >
-<!ENTITY calendar.prevday.label                 "Προηγούμενη ημέρα" >
-<!ENTITY calendar.nextday.accesskey             "Ε" >
-<!ENTITY calendar.prevday.accesskey             "Π" >
-<!ENTITY calendar.nextweek.label                "Επόμενη εβδομάδα" >
-<!ENTITY calendar.prevweek.label                "Προηγούμενη εβδομάδα" >
-<!ENTITY calendar.nextweek.accesskey            "Ε" >
-<!ENTITY calendar.prevweek.accesskey            "Π" >
-<!ENTITY calendar.nextmonth.label               "Επόμενος μήνας" >
-<!ENTITY calendar.prevmonth.label               "Προηγούμενος μήνας" >
-<!ENTITY calendar.nextmonth.accesskey           "Ε" >
-<!ENTITY calendar.prevmonth.accesskey           "Π" >
-
-<!ENTITY calendar.navigation.nextday.tooltip    "Μία ημέρα μπροστά" >
-<!ENTITY calendar.navigation.prevday.tooltip    "Μία ημέρα πίσω" >
-<!ENTITY calendar.navigation.nextweek.tooltip   "Μία εβδομάδα μπροστά" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "Μία εβδομάδα πίσω" >
-<!ENTITY calendar.navigation.nextmonth.tooltip  "Ένα μήνα μπροστά" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "Ένα μήνα πίσω" >
-
 <!ENTITY calendar.newevent.button.label         "Νέα εκδήλωση" >
 <!ENTITY calendar.newtask.button.label          "Νέα εργασία" >
 
-<!ENTITY calendar.day.button.label              "Ημέρα" >
-<!ENTITY calendar.week.button.label             "Εβδομάδα" >
-<!ENTITY calendar.month.button.label            "Μήνας" >
-<!ENTITY calendar.multiweek.button.label        "Πολλές εβδομάδες" >
 <!ENTITY calendar.onlyworkday.checkbox.label    "Εργάσιμες ημέρες εβδομάδας μόνο" >
 <!ENTITY calendar.onlyworkday.checkbox.accesskey  "Ε" >
 <!ENTITY calendar.displaytodos.checkbox.label   "Προβολή εργασιών στο ημερολόγιο" >
@@ -274,8 +206,6 @@
 <!ENTITY calendar.context.removeserver.accesskey       "Κ">
 <!ENTITY calendar.context.unsubscribeserver.label      "Απεγγραφή από το ημερολόγιο…">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "γ">
-<!ENTITY calendar.context.synccalendars.label          "Συγχρονισμός ημερολογίων">
-<!ENTITY calendar.context.synccalendars.accesskey      "Σ">
 <!ENTITY calendar.context.publish.label                "Δημοσίευση ημερολογίου…">
 <!ENTITY calendar.context.publish.accesskey            "Δ">
 <!ENTITY calendar.context.export.label                 "Εξαγωγή ημερολογίου…">

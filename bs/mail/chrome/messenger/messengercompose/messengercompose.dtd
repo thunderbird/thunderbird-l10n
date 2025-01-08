@@ -70,9 +70,6 @@
 <!ENTITY reorderAttachmentsCmd.label "Preuredi priloge…">
 <!ENTITY reorderAttachmentsCmd.accesskey "s">
 <!ENTITY reorderAttachmentsCmd.key "x">
-<!-- LOCALIZATION NOTE (toggleAttachmentPaneCmd.accesskey):
-     For better mnemonics, toggleAttachmentPaneCmd.accesskey should be the same
-     as attachments.accesskey. -->
 <!ENTITY selectAllCmd.accesskey "a">
 <!ENTITY findBarCmd.label "Nađi…">
 <!ENTITY findBarCmd.accesskey "F">
@@ -208,13 +205,13 @@
 <!ENTITY printButton.tooltip "Štampaj ovu poruku">
 
 <!-- Headers -->
-<!-- Headers -->
+<!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
+    Subject: rows. It should be larger than the largest Header label  -->
 <!ENTITY fromAddr.accesskey "r">
 <!ENTITY subject.accesskey "S">
-
 <!ENTITY attachmentBucketCloseButton.tooltip "Sakrij okno priloga">
 
-<!-- Format Toolbar, imported from editorAppShell.xul -->
+<!-- Format Toolbar, imported from editorAppShell.xhtml -->
 <!ENTITY SmileButton.tooltip "Ubaci smješak">
 <!ENTITY smiley1Cmd.label "Smješak">
 <!ENTITY smiley2Cmd.label "Mrštenje">
@@ -291,6 +288,8 @@
 <!-- Identity popup customize menuitem -->
 <!ENTITY customizeFromAddress.label "Prilagodi iz adrese…">
 <!ENTITY customizeFromAddress.accesskey "A">
+
+<!-- Accessibility name for the document -->
 
 <!-- Status Bar -->
 <!ENTITY languageStatusButton.tooltip "Jezik provjere pravopisa">

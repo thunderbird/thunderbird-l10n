@@ -2,9 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-uri-redirect-window =
-    .title = Kalendoriaus URI peradresavimas
 calendar-uri-redirect-window-title = Kalendoriaus URI peradresavimas
+# Variables:
+# $calendarName (String) - Display name of the calendar.
 calendar-uri-redirect-description =
     Serveris peradresuoja kalendoriaus „{ $calendarName }“ URI.
     Priimti peradresavimą ir pradėti naudoti naująjį šio kalendoriaus URI?

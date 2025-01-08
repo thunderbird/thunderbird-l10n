@@ -21,6 +21,4 @@ otr-require-encryption-info =
     osana tavalisest vestlusest ja samuti neid ei logita.
 otr-verify-nudge =
     .label = Alati tuletatakse meelde, et verifitseerimata kontakt tuleb verifitseerida
-
 otr-not-yet-available = pole veel saadaval
-

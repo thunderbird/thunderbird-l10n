@@ -64,8 +64,8 @@
 <!ENTITY cellAlignJustify.label           "Енi бойынша">
 <!ENTITY cellInheritColor.label           "(Кесте фоны көрсетіледі)">
 <!ENTITY cellUseCheckboxHelp.label        "Барлық таңдалған ұяшықтарға іске асатын қасиеттерді анықтау үшін, белгішелерді қолданыңыз">
-<!-- Used in both Table and Cell panels  -->
 
+<!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "Өлшемі">
 <!ENTITY pixels.label                     "пиксель">
 <!ENTITY backgroundColor.label            "Фон түсі:">

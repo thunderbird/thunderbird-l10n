@@ -3,8 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## View Menu
-
 ## Tools Menu
 
 menu-addons-and-themes =
@@ -16,14 +14,9 @@ menu-addons-and-themes =
 menu-help-enter-troubleshoot-mode =
     .label = Trikčių šalinimo režimas …
     .accesskey = T
-
 menu-help-exit-troubleshoot-mode =
     .label = Išjungti trikčių šalinimo režimą
     .accesskey = I
-
-menu-help-more-troubleshooting-info =
-    .label = Daugiau informacijos apie trikčių šalinimą
-    .accesskey = D
 
 ## Mail Toolbar
 
@@ -42,23 +35,18 @@ toolbar-undelete-button =
 
 ## View
 
+
+## View / Folders
+
+
 ## View / Layout
 
 mail-uidensity-label =
     .label = Išdėstymas
     .accesskey = I
-
 mail-uidensity-compact =
     .label = Kompaktiškas
     .accesskey = K
-
-mail-uidensity-normal =
-    .label = Normalus
-    .accesskey = N
-
-mail-uidensity-touch =
-    .label = Lietimui
-    .accesskey = L
 
 ## File
 

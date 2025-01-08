@@ -5,15 +5,12 @@
 context-text-action-find =
     .label = Sök
     .accesskey = S
-
 context-text-action-find-again =
     .label = Sök igen
     .accesskey = g
-
 text-action-find =
     .label = Sök
     .accesskey = S
-
 text-action-find-again =
     .label = Sök igen
     .accesskey = g

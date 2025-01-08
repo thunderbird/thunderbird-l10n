@@ -5,9 +5,6 @@
 <!-- Entities for AccountWizard -->
 
 <!ENTITY windowTitle.label "Asistent de creat conturi">
-<!ENTITY accountWizard.size "width: 45em; height: 38em;">
-
-<!-- Entities for Account Type page -->
 
 <!-- Entities for Identity page -->
 
@@ -35,8 +32,6 @@
 <!ENTITY newsServerNameDesc.label "Introdu denumirea serverului de grupuri de discuții (NNTP) (de exemplu, „news.exemplu.net”).">
 <!ENTITY newsServerLabel.label "Server grup de discuții:">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Outgoing Server page -->
 
 <!-- Entities for Account name page -->
 

@@ -66,9 +66,6 @@ openpgp-key-expiry-label =
     .label = Upphör
 openpgp-key-id-label =
     .label = Nyckel-ID
-openpgp-cannot-change-expiry = Detta är en nyckel med en komplex struktur, ändring av dess utgångsdatum stöds inte.
-openpgp-key-man-title =
-    .title = OpenPGP-nyckelhanterare
 openpgp-key-man-dialog-title = OpenPGP-nyckelhanterare
 openpgp-key-man-generate =
     .label = Nytt nyckelpar
@@ -76,8 +73,6 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Återkallningscertifikat
     .accesskey = t
-openpgp-key-man-ctx-gen-revoke-label =
-    .label = Skapa och spara återkallningscertifikat
 openpgp-key-man-gen-revocation =
     .label = Spara återkallelsecertifikat till fil
     .accesskey = c
@@ -489,8 +484,6 @@ filter-encrypt-label = Kryptera till nyckel (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-title =
-    .title = Nycklar har importerats!
 import-info-dialog-title = Nycklar har importerats!
 import-info-bits = Bitar
 import-info-created = Skapad
@@ -650,9 +643,6 @@ no-update-found = Du har redan nycklarna som upptäcktes online.
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
 
-## Strings used in keyRing.sys.mjs & GnuPGCryptoAPI.sys.mjs
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Fel - nyckelutvinning misslyckades
@@ -783,15 +773,7 @@ quoted-printable-warn =
 minimal-line-wrapping =
     Du har ställt in radomslag till { $width } tecken. För korrekt kryptering och/eller signering måste detta värde vara minst 68.
     Vill du ändra radomslag till 68 tecken nu?
-sending-news =
-    Krypterad skickaoperation avbröts.
-    Det här meddelandet kan inte krypteras eftersom det finns nyhetsgruppsmottagare. Skicka meddelandet igen utan kryptering.
-send-to-news-warning =
-    Varning: du håller på att skicka ett krypterat e-postmeddelande till en nyhetsgrupp.
-    Detta är inte klockt eftersom det bara är vettigt om alla medlemmar i gruppen kan dekryptera meddelandet, dvs meddelandet måste krypteras med tangenterna för alla gruppdeltagare. Skicka detta meddelande bara om du vet exakt vad du gör.
-    Fortsätt?
 save-attachment-header = Spara dekrypterad bilaga
-possibly-pgp-mime = Eventuellt PGP/MIME-krypterat eller signerat meddelande; använd 'Dekryptera/verifiera'-funktionen för att verifiera
 # Variables:
 # $key (String) - Sender email address.
 cannot-send-sig-because-no-own-key = Det här meddelandet kan inte signeras digitalt, eftersom du ännu inte har konfigurerat end-to-end kryptering för <{ $key }>
@@ -845,15 +827,6 @@ debug-log-title = OpenPGP Felsökningslogg
 
 ## Strings used in dialog.jsm
 
-# This string is followed by either repeat-suffix-singular if $count is 1 or else
-# by repeat-suffix-plural.
-# Variables:
-# $count (Number) - Number of times the alert will repeat.
-repeat-prefix = Denna varning kommer att upprepas { $count }
-repeat-suffix-singular = gång till.
-repeat-suffix-plural = gånger till.
-no-repeat = Denna varning visas inte igen.
-dlg-keep-setting = Kom ihåg mitt svar och fråga mig inte igen
 
 ## Strings used in dialog.sys.mjs
 
@@ -863,8 +836,6 @@ dlg-button-cancel = &Avbryt
 dlg-no-prompt = Visa inte denna dialogruta igen.
 enig-prompt = OpenPGP Prompt
 enig-confirm = OpenPGP Bekräftelse
-enig-alert = OpenPGP Varning
-enig-info = OpenPGP Information
 
 ## Strings used in persistentCrypto.jsm
 
