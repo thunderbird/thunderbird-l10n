@@ -197,27 +197,134 @@ key-notification-resolve =
     .label = แก้ปัญหา…
     .accesskey = ก
     .tooltiptext = เปิดตัวช่วยคีย์ OpenPGP
+can-encrypt-smime-notification = การเข้ารหัสลับต้นทางถึงปลายทางแบบ S/MIME สามารถใช้ได้
+can-encrypt-openpgp-notification = การเข้ารหัสลับต้นทางถึงปลายทางแบบ OpenPGP สามารถใช้ได้
+can-e2e-encrypt-button =
+    .label = เข้ารหัสลับ
+    .accesskey = ข
 
 ## Addressing Area
 
+to-address-row-label =
+    .value = ถึง
+#   $key (String) - the shortcut key for this field
+show-to-row-main-menuitem =
+    .label = ช่อง "ถึง"
+    .accesskey = ถ
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-to-row-button text.
+show-to-row-extra-menuitem =
+    .label = ถึง
+    .accesskey = ถ
+#   $key (String) - the shortcut key for this field
+show-to-row-button = ถึง
+    .title = แสดงช่อง "ถึง" ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+cc-address-row-label =
+    .value = สำเนาถึง
+#   $key (String) - the shortcut key for this field
+show-cc-row-main-menuitem =
+    .label = ช่อง "สำเนาถึง"
+    .accesskey = ส
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-cc-row-button text.
+show-cc-row-extra-menuitem =
+    .label = สำเนาถึง
+    .accesskey = ส
+#   $key (String) - the shortcut key for this field
+show-cc-row-button = สำเนาถึง
+    .title = แสดงช่อง "สำเนาถึง" ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+bcc-address-row-label =
+    .value = สำเนาลับถึง
+#   $key (String) - the shortcut key for this field
+show-bcc-row-main-menuitem =
+    .label = ช่อง "สำเนาลับถึง"
+    .accesskey = ล
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-bcc-row-button text.
+show-bcc-row-extra-menuitem =
+    .label = สำเนาลับถึง
+    .accesskey = ล
+#   $key (String) - the shortcut key for this field
+show-bcc-row-button = สำเนาลับถึง
+    .title = แสดงช่อง "สำเนาลับถึง" ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+extra-address-rows-menu-button =
+    .title = ช่องใส่ที่อยู่อื่นๆ ที่จะแสดง
+public-recipients-notice-single = ข้อความของคุณมีผู้รับที่เป็นสาธารณะ คุณสามารถหลีกเลี่ยงไม่เปิดเผยผู้รับได้โดยใช้ช่อง "สำเนาลับถึง" แทน
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi = ผู้รับจำนวน { $count } คนในช่อง "ถึง" และ "สำเนาถึง" จะเห็นที่อยู่ของกันและกัน คุณสามารถหลีกเลี่ยงไม่เปิดเผยผู้รับได้โดยใช้ช่อง "สำเนาลับถึง" แทน
+many-public-recipients-bcc =
+    .label = ใช้ช่อง "สำเนาลับถึง" แทน
+    .accesskey = ช
+many-public-recipients-ignore =
+    .label = ให้ผู้รับเป็นสาธารณะ
+    .accesskey = ห
+many-public-recipients-prompt-title = ผู้รับที่เป็นสาธารณะมีมากเกินไป
+#   $count (Number) - the count of addresses in the public recipients fields.
+many-public-recipients-prompt-msg =
+    { $count ->
+        [one] ข้อความของคุณมีผู้รับสาธารณะ สถานการณ์นี้อาจทำให้เกิดปัญหาเรื่องความเป็นส่วนตัว คุณสามารถหลีกเลี่ยงปัญหานี้ได้โดยย้ายผู้รับจากช่อง "ถึง/สำเนาถึง" ไปที่ช่อง "สำเนาลับถึง" แทน
+       *[other] ข้อความของคุณมีผู้รับสาธารณะ { $count } คน ซึ่งจะสามารถเห็นที่อยู่ของกันและกันได้ สถานการณ์นี้อาจทำให้เกิดปัญหาเรื่องความเป็นส่วนตัว คุณสามารถหลีกเลี่ยงปัญหานี้ได้โดยย้ายผู้รับจากช่อง "ถึง/สำเนาถึง" ไปที่ช่อง "สำเนาลับถึง" แทน
+    }
+many-public-recipients-prompt-cancel = ยกเลิกการส่ง
+many-public-recipients-prompt-send = ส่งต่อไป
 
 ## Notifications
 
+# Variables:
+# $identity (string) - The name of the used identity, most likely an email address.
+compose-missing-identity-warning = ไม่พบข้อมูลประจำตัวที่ไม่ซ้ำกันซึ่งตรงกับที่อยู่ในช่อง "จาก" ข้อความจะถูกส่งไปยังที่อยู่ที่ป้อนในช่อง "จาก" และใช้การตั้งค่าจากข้อมูลประจำตัว { $identity }
+encrypted-bcc-warning = เมื่อส่งข้อความที่เข้ารหัสลับ ผู้รับในช่อง "สำเนาลับถึง" จะไม่ถูกซ่อนโดยสมบูรณ์ ผู้รับทั้งหมดอาจจะยังสามารถระบุตัวตนของผู้รับเหล่านั้นได้
+encrypted-bcc-ignore-button = เข้าใจแล้ว
+auto-disable-e2ee-warning = การเข้ารหัสลับต้นทางถึงปลายทางสำหรับข้อความนี้ถูกปิดใช้งานโดยอัตโนมัติ
 
 ## Editing
 
 
 # Tools
 
+compose-tool-button-remove-text-styling =
+    .tooltiptext = เอาการใส่ลักษณะข้อความออก
 
 ## Filelink
 
+# A text used in a tooltip of Filelink attachments, whose account has been
+# removed or is unknown.
+cloud-file-unknown-account-tooltip = อัปโหลดไปยังบัญชี Filelink ที่ไม่รู้จักแล้ว
 
 # Placeholder file
 
+# Title for the html placeholder file.
+# $filename - name of the file
+cloud-file-placeholder-title = { $filename } - ไฟล์แนบ Filelink
+# A text describing that the file was attached as a Filelink and can be downloaded
+# from the link shown below.
+# $filename - name of the file
+cloud-file-placeholder-intro = ไฟล์ { $filename } ถูกแนบมาเป็น Filelink ไฟล์นี้สามารถดาวน์โหลดได้จากลิงก์ด้านล่างนี้
 
 # Template
 
+# A line of text describing how many uploaded files have been appended to this
+# message. Emphasis should be on sharing as opposed to attaching. This item is
+# used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
+cloud-file-count-header = ฉันได้เชื่อมโยงไฟล์จำนวน { $count } ไฟล์มายังอีเมลนี้:
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service provider.
+# $link (string) - html a-tag for a link pointing to the web page of the provider
+cloud-file-service-provider-footer-single = เรียนรู้เพิ่มเติมเกี่ยวกับ { $link }
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service providers. Links for the used providers are
+# split into a comma separated list of the first n-1 providers and a single entry
+# at the end.
+# $firstLinks (string) - comma separated list of html a-tags pointing to web pages
+#                        of the first n-1 used providers
+# $lastLink (string) - html a-tag pointing the web page of the n-th used provider
+cloud-file-service-provider-footer-multiple = เรียนรู้เพิ่มเติมเกี่ยวกับ { $firstLinks } และ { $lastLink }
 
 # Messages
 
