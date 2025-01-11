@@ -325,14 +325,65 @@ cloud-file-service-provider-footer-single = เรียนรู้เพิ่
 #                        of the first n-1 used providers
 # $lastLink (string) - html a-tag pointing the web page of the n-th used provider
 cloud-file-service-provider-footer-multiple = เรียนรู้เพิ่มเติมเกี่ยวกับ { $firstLinks } และ { $lastLink }
+# Tooltip for an icon, indicating that the link is protected by a password.
+cloud-file-tooltip-password-protected-link = ลิงก์มีการป้องกันด้วยรหัสผ่าน
+# Used in a list of stats about a specific file
+# Service - the used service provider to host the file (Filelink Service: BOX.com)
+# Size - the size of the file (Size: 4.2 MB)
+# Link - the link to the file (Link: https://some.provider.com)
+# Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
+# Download Limit - stating the maximum allowed downloads, before the link becomes invalid
+#                  (Download Limit: 6)
+cloud-file-template-service-name = บริการ Filelink:
+cloud-file-template-size = ขนาด:
+cloud-file-template-link = ลิงก์:
+cloud-file-template-password-protected-link = ลิงก์ที่ป้องกันด้วยรหัสผ่าน:
+cloud-file-template-expiry-date = วันหมดอายุ:
+cloud-file-template-download-limit = ขีดจำกัดการดาวน์โหลด:
 
 # Messages
 
+cloud-file-connection-error-title = การเชื่อมต่อผิดพลาด
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-connection-error = { -brand-short-name } ออฟไลน์อยู่ ไม่สามารถเชื่อมต่อกับ { $provider } ได้
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = การอัปโหลด { $filename } ไปยัง { $provider } ล้มเหลว
+cloud-file-rename-error-title = การเปลี่ยนชื่อผิดพลาด
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error = มีปัญหาในการเปลี่ยนชื่อ { $filename } บน { $provider }
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = การเปลี่ยนชื่อ { $filename } บน { $provider } ล้มเหลว
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-rename-not-supported = { $provider } ไม่รองรับการเปลี่ยนชื่อไฟล์ที่อัปโหลดไปแล้ว
+cloud-file-attachment-error-title = ไฟล์แนบ Filelink ผิดพลาด
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = ไม่สามารถอัปเดตไฟล์แนบ Filelink { $filename } ได้ เนื่องจากไฟล์ในเครื่องถูกย้ายหรือลบไปแล้ว
+cloud-file-account-error-title = บัญชี Filelink ผิดพลาด
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-account-error = ไม่สามารถอัปเดตไฟล์แนบ Filelink { $filename } ได้ เนื่องจากบัญชี Filelink สำหรับไฟล์นั้นถูกลบไปแล้ว
 
 ## Link Preview
 
+link-preview-title = ตัวอย่างลิงก์
 link-preview-description = { -brand-short-name } สามารถเพิ่มการแสดงตัวอย่างแบบฝังเมื่อวางลิงก์
 link-preview-autoadd = เพิ่มการแสดงตัวอย่างลิงก์โดยอัตโนมัติถ้าเป็นไปได้
+link-preview-replace-now = เพิ่มตัวอย่างลิงก์สำหรับลิงก์นี้หรือไม่?
+link-preview-yes-replace = ใช่
 
 ## Dictionary selection popup
 
+spell-add-dictionaries =
+    .label = เพิ่มพจนานุกรม…
+    .accesskey = พ
+subject-encription-icon =
+    .title = หัวเรื่องจะไม่ถูกเข้ารหัสลับ
