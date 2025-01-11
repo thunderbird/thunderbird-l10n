@@ -83,3 +83,13 @@ openpgp-key-assistant-import-keys-button = 파일에서 공개 키 가져오기�
 openpgp-key-assistant-issue-resolve-button = 해결…
 openpgp-key-assistant-view-key-button = 키 보기…
 openpgp-key-assistant-recipients-show-button = 보기
+openpgp-key-assistant-recipients-hide-button = 숨기기
+openpgp-key-assistant-cancel-button = 취소
+openpgp-key-assistant-back-button = 뒤로
+openpgp-key-assistant-accept-button = 수락
+openpgp-key-assistant-close-button = 닫기
+openpgp-key-assistant-disable-button = 암호화 비활성화
+openpgp-key-assistant-confirm-button = 암호화해서 보내기
+# Variables:
+# $date (String) - The key creation date.
+openpgp-key-assistant-key-created = { $date }에 생성됨
