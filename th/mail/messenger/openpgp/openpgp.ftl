@@ -23,7 +23,29 @@ e2e-csr-select-title = อัลกอริทึม CSR
 e2e-csr-select-alg = เลือก RSA (แนะนำ) หรือ ECC เป็นอัลกอริทึมการเข้ารหัสลับสำหรับใบรับรอง S/MIME ใหม่
 # Do not translate: S/MIME
 e2e-csr-select-strength = เลือกความรัดกุมการเข้ารหัสลับที่คุณต้องการ (ระบุตัวเลขค่าต่ำเพื่อให้เร็วขึ้น หรือตัวเลขค่าสูงเพื่อให้ปลอดภัยขึ้น) สำหรับใบรับรอง S/MIME ใหม่ หรือใช้การตั้งค่าเริ่มต้น
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = คีย์ลับ { $strength } ชนิด { $type } ใหม่จะถูกสร้างขึ้นในการตั้งค่าของ { -brand-short-name } กระบวนการนี้อาจใช้เวลาสักครู่และอาจทำให้เกิดอาการไม่ตอบสนองชั่วคราว โปรดอดทนรอระหว่างขั้นตอนนี้ ซึ่งในระหว่างนี้ ไฟล์คำขอลงลายเซ็นใบรับรอง (CSR) ที่บันทึกเป็น { $file } จะถูกสร้าง
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = รวมที่อยู่อีเมล ({ $email }) ไว้ด้วยใน CSR (แนะนำ)
+# $file A filename
+e2e-csr-success = CSR ถูกบันทึกลงใน { $file } สำเร็จแล้ว
+# $file A filename
+e2e-csr-failure = ไม่สามารถบันทึก CSR ลงในไฟล์ { $file } ได้
 e2e-signing-description = ลายเซ็นดิจิทัลช่วยให้ผู้รับสามารถตรวจสอบได้ว่าข้อความถูกส่งจากคุณและเนื้อหาไม่มีการเปลี่ยนแปลง ข้อความที่ถูกเข้ารหัสลับจะถูกลงลายเซ็นตามค่าเริ่มต้น
+e2e-sign-message =
+    .label = ลงลายเซ็นข้อความที่ไม่ได้เข้ารหัสลับ
+    .accesskey = ไ
+e2e-disable-enc =
+    .label = ปิดใช้งานการเข้ารหัสลับสำหรับข้อความใหม่
+    .accesskey = ป
+e2e-enable-enc =
+    .label = เปิดใช้งานการเข้ารหัสลับสำหรับข้อความใหม่
+    .accesskey = เ
+e2e-enable-description = คุณจะสามารถปิดใช้งานการเข้ารหัสลับสำหรับแต่ละข้อความได้
 openpgp-key-expiry-label =
     .label = วันหมดอายุ
 openpgp-key-id-label =
