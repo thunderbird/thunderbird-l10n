@@ -24,6 +24,9 @@ compose-send-plain-menu-item =
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
+remove-address-row-button =
+    .title = เอาช่อง { $type } ออก
+#   $type (String) - the type of the addressing row
 #   $count (Number) - the number of address pills currently present in the addressing row
 address-input-type-aria-label =
     { $count ->
@@ -43,6 +46,13 @@ pill-tooltip-not-in-address-book = { $email } ไม่อยู่ในสม�
 pill-action-edit =
     .label = แก้ไขที่อยู่
     .accesskey = อ
+#   $type (String) - the type of the addressing row, e.g. Cc, Bcc, etc.
+pill-action-select-all-sibling-pills =
+    .label = เลือกที่อยู่ทั้งหมดในช่อง { $type }
+    .accesskey = ม
+pill-action-select-all-pills =
+    .label = เลือกที่อยู่ทั้งหมด
+    .accesskey = ล
 pill-action-move-to =
     .label = ย้ายไปยัง ถึง
     .accesskey = ป
@@ -52,6 +62,9 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = ย้ายไปยัง สำเนาลับถึง
     .accesskey = ล
+pill-action-expand-list =
+    .label = ขยายรายการ
+    .accesskey = ข
 
 ## Attachment widget
 
@@ -69,6 +82,10 @@ menuitem-toggle-attachment-pane =
 toolbar-button-add-attachment =
     .label = แนบ
     .tooltiptext = เพิ่มไฟล์แนบ ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
+add-attachment-notification-reminder2 =
+    .label = เพิ่มไฟล์แนบ…
+    .accesskey = พ
+    .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
 menuitem-attach-files =
     .label = ไฟล์…
     .accesskey = ฟ
@@ -77,6 +94,23 @@ context-menuitem-attach-files =
     .label = แนบไฟล์…
     .accesskey = ฟ
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+# Note: Do not translate the term 'vCard'.
+context-menuitem-attach-vcard =
+    .label = vCard ของฉัน
+    .accesskey = C
+context-menuitem-attach-openpgp-key =
+    .label = คีย์สาธารณะ OpenPGP ของฉัน
+    .accesskey = ค
+#   $count (Number) - the number of attachments in the attachment bucket
+attachment-bucket-count-value =
+    { $count ->
+        [1] { $count } ไฟล์แนบ
+       *[other] { $count } ไฟล์แนบ
+    }
+attachment-area-show =
+    .title = แสดงบานหน้าต่างไฟล์แนบ ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+attachment-area-hide =
+    .title = ซ่อนบานหน้าต่างไฟล์แนบ ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 
 ## Variables:
 ## $count (Number) - Number of files being dropped onto the composer.
@@ -100,12 +134,69 @@ button-return-receipt =
 
 ## Encryption
 
+encryption-menu =
+    .label = ความปลอดภัย
+    .accesskey = ป
+encryption-toggle =
+    .label = เข้ารหัสลับ
+    .tooltiptext = ใช้การเข้ารหัสลับต้นทางถึงปลายทางสำหรับข้อความนี้
 encryption-options-openpgp =
     .label = OpenPGP
     .tooltiptext = ดูหรือเปลี่ยนค่าการเข้ารหัส OpenPGP
 encryption-options-smime =
     .label = S/MIME
     .tooltiptext = ดูหรือเปลี่ยนค่าการเข้ารหัส S/MIME
+signing-toggle =
+    .label = ลงลายเซ็น
+    .tooltiptext = ใช้การลงลายเซ็นดิจิทัลสำหรับข้อความนี้
+menu-openpgp =
+    .label = OpenPGP
+    .accesskey = O
+menu-smime =
+    .label = S/MIME
+    .accesskey = S
+menu-encrypt =
+    .label = เข้ารหัสลับ
+    .accesskey = ข
+menu-encrypt-subject =
+    .label = เข้ารหัสลับหัวเรื่อง
+    .accesskey = เ
+menu-sign =
+    .label = ลงลายเซ็นดิจิทัล
+    .accesskey = ล
+menu-manage-keys =
+    .label = ตัวช่วยคีย์
+    .accesskey = ต
+menu-view-certificates =
+    .label = ดูใบรับรองของผู้รับ
+    .accesskey = ด
+menu-open-key-manager =
+    .label = ตัวจัดการคีย์
+    .accesskey = จ
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = คุณไม่ได้ตั้งค่าให้ส่งข้อความที่เข้ารหัสลับต้นทางถึงปลายทางจาก { $addr }
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = การเข้ารหัสลับต้นทางถึงปลายทางต้องการให้แก้ไขปัญหาคีย์สำหรับ { $addr }
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi = การเข้ารหัสลับต้นทางถึงปลายทางต้องการให้แก้ไขปัญหาสำคัญสำหรับผู้รับ { $count } คน
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = การเข้ารหัสลับต้นทางถึงปลายทางต้องการให้แก้ไขปัญหาใบรับรองสำหรับ { $addr }
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi = การเข้ารหัสลับต้นทางถึงปลายทางต้องการให้แก้ไขปัญหาใบรับรองสำหรับผู้รับ { $count } คน
+key-notification-disable-encryption =
+    .label = ไม่ต้องเข้ารหัสลับ
+    .accesskey = ม
+    .tooltiptext = ปิดใช้งานการเข้ารหัสลับต้นทางถึงปลายทาง
+key-notification-resolve =
+    .label = แก้ปัญหา…
+    .accesskey = ก
+    .tooltiptext = เปิดตัวช่วยคีย์ OpenPGP
 
 ## Addressing Area
 
