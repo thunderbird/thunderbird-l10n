@@ -4,6 +4,25 @@
 
 e2e-intro-description = หากต้องการส่งข้อความที่เข้ารหัสลับหรือลงลายเซ็นแบบดิจิทัล คุณจำเป็นต้องกำหนดค่าเทคโนโลยีการเข้ารหัสลับเป็น OpenPGP หรือ S/MIME
 e2e-intro-description-more = เลือกคีย์ส่วนตัวของคุณเพื่อเปิดใช้งาน OpenPGP หรือเลือกใบรับรองของคุณเพื่อเปิดใช้งาน S/MIME คุณจะมีคีย์ลับที่สอดคล้องกันไม่ว่าคุณจะเลือกใช้คีย์ส่วนตัวหรือใบรับรองก็ตาม
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = ถ้าต้องการขอใบรับรอง S/MIME ส่วนตัวใหม่ ให้สร้างคำขอลงลายเซ็นใบรับรอง (CSR) แล้วส่งไปให้ผู้ออกใบรับรอง (CA)
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = เลือกไดเรกทอรีและชื่อไฟล์ในเครื่องสำหรับไฟล์ CSR ของคุณ และตอบคำถามต่อไปนี้เพื่อตั้งค่าอัลกอริทึมและความรัดกุม
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = สร้าง CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = ดำเนินการต่อ
+# A label for a button that goes back one step
+e2e-csr-back = ย้อนกลับ
+# Do not translate: CSR
+e2e-csr-button =
+    .label = สร้างและบันทึกไฟล์ CSR เป็น…
+# Do not translate: CSR
+e2e-csr-select-title = อัลกอริทึม CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = เลือก RSA (แนะนำ) หรือ ECC เป็นอัลกอริทึมการเข้ารหัสลับสำหรับใบรับรอง S/MIME ใหม่
+# Do not translate: S/MIME
+e2e-csr-select-strength = เลือกความรัดกุมการเข้ารหัสลับที่คุณต้องการ (ระบุตัวเลขค่าต่ำเพื่อให้เร็วขึ้น หรือตัวเลขค่าสูงเพื่อให้ปลอดภัยขึ้น) สำหรับใบรับรอง S/MIME ใหม่ หรือใช้การตั้งค่าเริ่มต้น
 e2e-signing-description = ลายเซ็นดิจิทัลช่วยให้ผู้รับสามารถตรวจสอบได้ว่าข้อความถูกส่งจากคุณและเนื้อหาไม่มีการเปลี่ยนแปลง ข้อความที่ถูกเข้ารหัสลับจะถูกลงลายเซ็นตามค่าเริ่มต้น
 openpgp-key-expiry-label =
     .label = วันหมดอายุ
