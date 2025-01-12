@@ -579,6 +579,9 @@ cookies-button =
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-description =
+    .label = Decir a los sitios web que no vendan ni compartan mis datos
+    .accesskey = n
 do-not-track-label =
     .label = Enviar a los sitios web una señal "No rastrear" de que no quiere ser rastreado
     .accesskey = n
