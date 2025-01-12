@@ -38,7 +38,7 @@
 <!ENTITY  newContactCmd.accesskey "C">
 <!ENTITY openMenuCmd.label "打开">
 <!ENTITY openMenuCmd.accesskey "O">
-<!ENTITY openMessageFileCmd.label "打开已保存消息…">
+<!ENTITY openMessageFileCmd.label "打开已保存邮件…">
 <!ENTITY openMessageFileCmd.accesskey "O">
 <!ENTITY saveAsMenu.label "另存为">
 <!ENTITY saveAsMenu.accesskey "S">
