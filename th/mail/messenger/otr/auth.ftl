@@ -14,11 +14,21 @@ auth-your-fp-value = ลายนิ้วมือสำหรับคุณ {
 # Variables:
 #   $their_name (String) - the screen name of a chat contact
 auth-their-fp-value = ลายนิ้วมือสำหรับ { $their_name }:
+auth-question-received = นี่คือคำถามที่ผู้ติดต่อของคุณถาม:
 auth-yes =
     .label = ใช่
 auth-no =
     .label = ไม่
 auth-verified = ฉันได้ยืนยันแล้วว่านี่เป็นลายนิ้วมือที่ถูกต้อง
+auth-manual-verification = การตรวจสอบลายนิ้วมือด้วยตนเอง
+auth-question-and-answer = คำถามและคำตอบ
+auth-shared-secret = ข้อมูลลับที่ใช้ร่วมกัน
+auth-manual-verification-label =
+    .label = { auth-manual-verification }
+auth-question-and-answer-label =
+    .label = { auth-question-and-answer }
+auth-shared-secret-label =
+    .label = { auth-shared-secret }
 auth-how = คุณต้องการยืนยันตัวตนของผู้ติดต่อของคุณอย่างไร?
 auth-question = ป้อนคำถาม:
 auth-answer = ป้อนคำตอบ (ตรงตามตัวพิมพ์ใหญ่-เล็ก):
