@@ -626,6 +626,8 @@ need-online = ฟังก์ชันที่คุณเลือกไม่
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
+no-key-found2 = เราไม่พบคีย์ใดที่ใช้ได้ที่ตรงกับเกณฑ์การค้นหาที่ระบุ
+no-update-found = คุณมีคีย์ที่ถูกค้นพบทางออนไลน์อยู่แล้ว
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
@@ -651,6 +653,10 @@ confirm-permissive-import = การนำเข้าล้มเหลว ค
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = คีย์ลับที่นำเข้าบางส่วนจะโฆษณาคุณลักษณะที่ไม่รองรับ ถ้าคุณใช้คีย์ดังกล่าวเป็นคีย์ส่วนตัวของคุณ ผู้ติดต่ออาจส่งอีเมลหรือคีย์สาธารณะถึงคุณในรูปแบบที่เข้ากันไม่ได้ ซึ่งจะกระทบกับคีย์ลับที่มีลายนิ้วมือต่อไปนี้: { $fingerprints }
+help-button = ช่วยเหลือ
 
 ## Strings used in trust.sys.mjs
 
@@ -671,6 +677,17 @@ import-key-file = นำเข้าไฟล์คีย์ OpenPGP
 import-rev-file = นำเข้าไฟล์การเพิกถอน OpenPGP
 gnupg-file = ไฟล์ GnuPG
 import-keys-failed = การนำเข้าคีย์ล้มเหลว
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = ใส่วลีรหัสผ่านเพื่อปลดล็อกคีย์ลับที่มี ID { $key } ซึ่งสร้างขึ้นเมื่อ { $date } ของ { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = ใส่วลีรหัสผ่านเพื่อปลดล็อกคีย์ลับที่มี ID { $subkey } ซึ่งเป็นคีย์ย่อยของ ID คีย์ { $key } และสร้างขึ้นเมื่อ { $date } ของ { $username_and_email }
 file-to-big-to-import = ไฟล์นี้มีขนาดใหญ่เกินไป โปรดอย่านำเข้าชุดคีย์จำนวนมากพร้อมกัน
 
 ## Strings used in enigmailKeygen.js

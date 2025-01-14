@@ -25,6 +25,9 @@ category-calendar =
 pane-sync-title = Sync
 category-sync =
     .tooltiptext = Sync
+pane-qr-export-title = ส่งออกสำหรับมือถือ
+category-qr-export =
+    .tooltiptext = ส่งออกสำหรับมือถือ
 general-language-and-appearance-header = ภาษาและรูปลักษณ์
 general-incoming-mail-header = จดหมายขาเข้า
 general-files-and-attachment-header = ไฟล์และสิ่งที่แนบมา
@@ -369,6 +372,9 @@ auto-mark-as-read =
 mark-read-no-delay =
     .label = ทันทีที่แสดง
     .accesskey = แ
+view-attachments-inline =
+    .label = ดูไฟล์แนบแบบอินไลน์
+    .accesskey = ด
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
@@ -394,8 +400,27 @@ open-msg-ex-window =
 close-move-delete =
     .label = ปิดหน้าต่าง/แท็บข้อความเมื่อย้ายหรือลบ
     .accesskey = ป
+address-display-legend = รายการข้อความ
+address-display-description = รูปแบบการแสดงผลที่อยู่ที่ต้องการ:
+address-display-full =
+    .label = ชื่อเต็มและที่อยู่อีเมล
+    .accesskey = ต
+address-display-email =
+    .label = อีเมลเท่านั้น
+    .accesskey = อ
+address-display-name =
+    .label = ชื่อเท่านั้น
+    .accesskey = ช
 condensed-addresses-label =
     .label = แสดงเฉพาะชื่อที่แสดงสำหรับผู้คนในสมุดรายชื่อของฉัน
+    .accesskey = ส
+table-layout-legend = มุมมองตาราง
+table-layout-horizontal-scroll-label =
+    .label = อนุญาตการเลื่อนในแนวนอน
+    .accesskey = แ
+conversation-view-legend = มุมมองการสนทนา
+conversation-view-checkbox-label =
+    .label = เปิดใช้งานมุมมองการสนทนา
     .accesskey = ส
 
 ## Compose Tab
