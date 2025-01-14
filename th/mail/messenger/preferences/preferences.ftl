@@ -827,3 +827,32 @@ sync-disconnected-turn-on-sync = เปิดการซิงค์…
 ## Mobile QR Export Pane
 
 qr-export-pane-header = ส่งออกบัญชีไปยัง { -brand-product-name } สำหรับมือถือ
+qr-export-description = ถ่ายโอนการตั้งค่าบัญชีของคุณจากเดสก์ท็อปไปยังมือถือได้ด้วยการสร้างคิวอาร์โค้ด ให้เลือกบัญชีที่จะรวมอยู่ด้วย รวมทั้งเลือกว่าต้องการถ่ายโอนรหัสผ่านของคุณด้วยหรือไม่ และสแกนโค้ดด้วยอุปกรณ์มือถือของคุณ รวดเร็ว ปลอดภัย และง่ายดาย
+qr-export-get-app = ยังไม่มี { -brand-product-name } บนมือถือใช่หรือไม่? <a data-l10n-name="app-link">ดาวน์โหลดจาก Google Play</a>
+qr-export-create = สร้างคิวอาร์โค้ดเพื่อส่งออกบัญชีของคุณ
+qr-export-select-accounts = เลือกบัญชีที่จะส่งออก:
+qr-export-no-accounts = เห็นบัญชีของคุณไม่ครบทั้งหมดใช่หรือไม่? บางบัญชีอาจถูกปิดใช้งานเนื่องจากไม่รองรับโดย { -brand-product-name } สำหรับ Android <a data-l10n-name="account-support-link">ฝ่ายสนับสนุน</a>
+qr-export-accounts-legend = บัญชีอีเมล
+qr-export-select-all-accounts = เลือกทั้งหมด
+qr-export-security-legend = ความปลอดภัย
+qr-export-include-passwords = รวมรหัสผ่านบัญชีทั้งหมดไว้ด้วย
+qr-export-oauth-warning = บางบัญชีของคุณใช้วิธีการยืนยันตัวตนซึ่งอาจต้องการให้ยืนยันตัวตนใหม่บนอุปกรณ์มือถือของคุณ คุณอาจจะต้องใส่รหัสผ่านของคุณอีกครั้งระหว่างกระบวนการนี้
+qr-export-security-hint = โดยการสแกนคิวอาร์โค้ดต่อไปนี้ การตั้งค่าบัญชีของคุณ รวมถึงอีเมลและรหัสผ่านของคุณ จะถูกถ่ายโอนอย่างปลอดภัย เราจะไม่รวบรวม เก็บ หรือแบ่งปันส่วนใดก็ตามของข้อมูลนี้ระหว่างกระบวนการนี้ การถ่ายโอนจะเกิดขึ้นโดยตรงระหว่างอุปกรณ์ของคุณ
+qr-export-security-warning = เพื่อความปลอดภัยของคุณ โปรดตรวจสอบให้แน่ใจว่าคุณอยู่ในสถานที่ที่เป็นส่วนตัวและให้สแกนคิวอาร์โค้ดจากแหล่งที่เชื่อถือได้เท่านั้น
+qr-export-start-export = ส่งออก
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress = คิวอาร์โค้ด { $step } จาก { $count } อัน
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description = สแกนคิวอาร์โค้ดด้วย { -brand-product-name } บนอุปกรณ์มือถือของคุณ
+qr-export-scan-step1 = เปิด { -brand-product-name } บนอุปกรณ์มือถือของคุณ
+qr-export-scan-step2 = ไปยังการตั้งค่า
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = เลือก <strong>นำเข้าการตั้งค่า</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = แตะ <strong>สแกนคิวอาร์โค้ด</strong> และถือโทรศัพท์ของคุณเหนือโค้ดนี้
+qr-export-back = ย้อนกลับ
+qr-export-next = ถัดไป
+qr-export-done = เสร็จสิ้น
