@@ -30,3 +30,4 @@ calendars-table-capabilities-events-supported = เหตุการณ์ท�
 calendars-table-capabilities-tasks-supported = งานที่รองรับ
 calendars-table-capabilities-timezones-floating-supported = เวลาท้องถิ่นที่รองรับ
 calendars-table-capabilities-timezones-utc-supported = UTC/GMT ที่รองรับ
+calendars-table-capabilities-autoschedule-supported = รองรับการจัดกำหนดการอัตโนมัติ

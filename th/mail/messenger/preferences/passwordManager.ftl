@@ -77,3 +77,10 @@ password-os-auth-dialog-message = ยืนยันตัวตนของค�
 password-os-auth-dialog-message-macosx = เผยรหัสผ่านที่บันทึกไว้
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] เปลี่ยนการตั้งค่าสำหรับรหัสผ่าน
+       *[other] { -brand-short-name } กำลังพยายามที่จะเปลี่ยนการตั้งค่าเกี่ยวกับรหัสผ่าน ให้ใช้อุปกรณ์ของคุณลงชื่อเข้าเพื่ออนุญาตการกระทำนี้
+    }
