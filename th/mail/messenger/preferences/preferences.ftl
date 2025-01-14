@@ -856,3 +856,14 @@ qr-export-scan-step4-revision = แตะ <strong>สแกนคิวอาร
 qr-export-back = ย้อนกลับ
 qr-export-next = ถัดไป
 qr-export-done = เสร็จสิ้น
+qr-export-summary-description = ส่งออกบัญชีแล้ว โปรดดำเนินการต่อบนอุปกรณ์มือถือของคุณ
+qr-export-summary-title = สรุปการส่งออก:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count = สร้างคิวอาร์โค้ดแล้ว { $count } อัน
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts = ส่งออกบัญชีแล้ว { $count } บัญชี:
+qr-export-summary-passwords-included = รหัสผ่านที่รวมอยู่ด้วย
+qr-export-summary-passwords-excluded = รหัสผ่านที่ไม่รวมอยู่ด้วย
+qr-export-more-accounts = ส่งออกบัญชีเพิ่มเติม
