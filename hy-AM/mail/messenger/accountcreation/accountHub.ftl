@@ -95,3 +95,11 @@ account-hub-test-configuration = Փորձարկել
 account-hub-result-ews-text = Սպասարկիչ
 account-hub-result-recommended-label = Խորհուրդ է տրվում՝
 account-hub-select-all = Նշել բոլորը
+account-hub-deselect-all = Ապանշել բոլորը
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } ընտրված
+       *[other] { $count } ընտրված
+    }
+account-hub-signature-link = Էլ. փոստի ստորագրություն
