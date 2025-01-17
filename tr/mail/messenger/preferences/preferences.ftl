@@ -787,7 +787,7 @@ search-results-help-link = Yardım mı gerekiyor? <a data-l10n-name="url">{ -bra
 sync-signedout-caption = Web’inizi yanınızda taşıyın
 sync-signedout-description = Hesaplarınızı, adres defterlerinizi, takvimlerinizi, eklentilerinizi ve ayarlarınızı tüm cihazlarınız arasında eşitleyin.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
-sync-signedout-account-signin-btn = Eşitlemek için giriş yap…
+sync-signedout-account-signin-btn = Sync’e giriş yap…
 sync-pane-header = Eşitle
 # Variables:
 # $userEmail (String) - The email logged into Sync.
