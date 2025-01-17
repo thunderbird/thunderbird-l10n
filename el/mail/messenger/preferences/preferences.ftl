@@ -580,7 +580,7 @@ cookies-button =
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Global Privacy Control (GPC)
 global-privacy-control-description =
-    .label = Αποστολή αιτήματος μη πώλησης και κοινοποίησης δεδομένων στους ιστοτόπους
+    .label = Αποστολή αιτήματος μη πώλησης ή κοινοποίησης δεδομένων στους ιστοτόπους
     .accesskey = π
 do-not-track-removal = Δεν υποστηρίζουμε πλέον το σήμα αποτροπής καταγραφής
 do-not-track-label =
