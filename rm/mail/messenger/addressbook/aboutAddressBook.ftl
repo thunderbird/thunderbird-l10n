@@ -89,7 +89,7 @@ about-addressbook-sort-email-ascending =
 about-addressbook-sort-email-descending =
     .label = Zavrar tenor l'adressa d'e-mail (Z > A)
 about-addressbook-table-layout =
-    .label = Layout da la tabella
+    .label = Visualisaziun sco tabella
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.

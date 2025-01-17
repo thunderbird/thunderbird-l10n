@@ -117,10 +117,17 @@ account-hub-config-success = Βρέθηκαν ρυθμίσεις στη Mozilla 
 account-hub-password-info = Τα διαπιστευτήριά σας θα αποθηκευτούν μόνο τοπικά, στον υπολογιστή σας
 account-hub-sync-success = Το Thunderbird βρήκε μερικές συνδεδεμένες υπηρεσίες
 account-hub-sync-failure = Το Thunderbird δεν μπόρεσε να βρει συνδεδεμένες υπηρεσίες
+account-hub-unable-to-sync-accounts = Το Thunderbird δεν μπόρεσε να συνδέσει τις επιλεγμένες υπηρεσίες
 account-hub-email-added-success = Επιτυχής σύνδεση λογαριασμού email
 account-hub-config-test-success = Έγκυρες ρυθμίσεις παραμέτρων
 account-hub-select-all = Επιλογή όλων
 account-hub-deselect-all = Αποεπιλογή όλων
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } επιλεγμένο
+       *[other] { $count } επιλεγμένα
+    }
 account-hub-no-address-books = Δεν βρέθηκαν ευρετήρια
 account-hub-no-calendars = Δεν βρέθηκαν ημερολόγια
 account-hub-email-added-success-links-title = Εξερευνήστε επιλογές για ασφάλεια και εξατομίκευση:
