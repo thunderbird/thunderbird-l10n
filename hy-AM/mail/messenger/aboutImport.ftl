@@ -54,6 +54,7 @@ items-pane-profile-name = Պրոֆիլի անունը՝
 items-pane-checkbox-accounts = Հաշիվներ և կարգավորումներ
 items-pane-checkbox-address-books = Հասցեագրքեր
 items-pane-checkbox-calendars = Օրացույց
+items-pane-checkbox-mail-messages = Նամակներ
 items-pane-override = Ցանկացած գոյություն ունեցող կամ նույնական տվյալ չի վերագրվի:
 
 ## Import from address book file steps

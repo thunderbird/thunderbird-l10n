@@ -229,6 +229,10 @@ threadpane-cell-spam =
 threadpane-spam-cell-label = Սպամ
 threadpane-column-label-unread-button =
     .label = Կարդալ կարգավիճակը
+threadpane-cell-read-status =
+    .aria-label = Ընթերցելու կարգավիճակը
+threadpane-read-cell-label = Ընթերցել
+threadpane-unread-cell-label = Չընթերցված
 threadpane-column-header-sender = Ումից
     .title = Տեսակավորել ըստ՝ ումից
 threadpane-column-label-sender =
@@ -278,6 +282,11 @@ threadpane-column-header-received = Ստացված
     .title = Տեսակավորել ըստ՝ ստանալու ամսաթվի
 threadpane-column-label-received =
     .label = Ստացված
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Ստանալու ամսաթիվը
+    .title = { $title }
 threadpane-column-header-status = Վիճակ
     .title = Տեսակավորել ըստ՝ վիճակի
 threadpane-column-label-status =
@@ -387,12 +396,14 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Կիրառե՞լ փոփոխությունները:
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Կիրառե՞լ ընթացիկ թղթապանակի սյունները { $name }-ին։
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Կիրառե՞լ ընթացիկ թղթապանակի սյունները { $name }-ին և մնացածին։
+message-list-placeholder-no-messages = Ոչ մի հաղորդագրություն չի գտնվել
 
 ## Folder pane context menu
 

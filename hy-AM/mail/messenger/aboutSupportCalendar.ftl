@@ -13,6 +13,7 @@ calendars-table-uri = URI
 calendars-table-refreshinterval = Թարմացման ընդմիջում
 calendars-table-readonly = Միայն կարդալ
 calendars-table-suppressalarms = Զսպել ահազանգերը
+calendars-table-cache-enabled = Շտեմը միացված է
 calendars-table-imip-identity = iMIP ինքնություն
 calendars-table-imip-identity-disabled = iMIP-ն անջատված է
 calendars-table-imip-identity-account = iMIP հաշիվ

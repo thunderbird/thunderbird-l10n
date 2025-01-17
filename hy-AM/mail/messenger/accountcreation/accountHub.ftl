@@ -19,8 +19,18 @@ account-hub-donate = Նվիրատվություն
 
 ## Initial setup page
 
+account-hub-email-setup-button = Փոստարկղ
+    .title = Տեղակայեք փոստարկղ
+account-hub-calendar-setup-button = Օրացույց
+    .title = Տեղակայեք տեղային կամ հեռակա օրացույց
+account-hub-address-book-setup-button = Հասցեագիրք
+    .title = Տեղակայեք տեղային կամ հեռակա Հասցեագիրք
 account-hub-chat-setup-button = Զրույց
     .title = Տեղակայել զրույցի հաշիվ
+account-hub-feed-setup-button = RSS հոսք
+    .title = Տեղակայեք RSS հոսքի հաշիվ
+account-hub-newsgroup-setup-button = Լուրախումբ
+    .title = Տեղակայեք լրախումբի հաշիվ
 account-hub-import-setup-button = Ներմուծել
     .title = Ներմուծել պահուստավորված պրոֆիլ
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
@@ -33,6 +43,7 @@ account-hub-manually-configure-email-title = Կարգավորեք հաշվի կ�
 account-hub-email-cancel-button = Չեղարկել
 account-hub-email-stop-button = Կանգնեցնել
 account-hub-email-back-button = Նախորդը
+account-hub-email-retest-button = Կրկին փորձել
 account-hub-email-finish-button = Պատրաստ է
 account-hub-email-manually-configure-button = Ձեռքով կազմաձևել
 account-hub-email-continue-button = Շարունակել
@@ -81,3 +92,6 @@ account-hub-adding-account-title = Հաշվի ավելացում
 account-hub-notification-show-more = Ցուցադրել ավելին
 account-hub-notification-show-less = Ցուցադրել ավելի քիչ
 account-hub-test-configuration = Փորձարկել
+account-hub-result-ews-text = Սպասարկիչ
+account-hub-result-recommended-label = Խորհուրդ է տրվում՝
+account-hub-select-all = Նշել բոլորը

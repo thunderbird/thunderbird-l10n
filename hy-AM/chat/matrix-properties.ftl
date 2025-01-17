@@ -13,6 +13,7 @@ matrix-username-hint = Մատրիցայի ID
 options-save-token = Խանութ մուտք գործելու կտրոն
 options-device-display-name = Սարքի ցուցադրման անունը
 options-homeserver = Սպասարկիչ
+options-backup-passphrase = Բանալին պահուստային գաղտնաբառ
 # $status (String) a status
 options-encryption-secret-storage = Գաղտնի պահեստ. { $status }
 # $status (String) a status
@@ -60,6 +61,14 @@ power-level-detailed = { $powerLevelName } ({ $powerLevelNumber })
 #    $powerLevelName is the power level name
 power-level-default-role = Կանխադրված դերը՝ { $powerLevelName }
 #    $powerLevelName is the power level name
+power-level-invite-user = Հրավիրեք օգտվողներին՝ { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-kick-users = Kick օգտվողներին՝ { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-ban = Արգելել օգտվողներին՝ { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-room-avatar = Փոխել սենյակի ավատարը՝ { $powerLevelName }
+#    $powerLevelName is the power level name
 power-level-room-name = Փոխել սենյակի անունը՝ { $powerLevelName }
 # LOCALIZATION NOTE (detail-*):
 #    These are the string representations of different matrix properties.
@@ -92,6 +101,7 @@ message-accepted-invite = { $user }-ն ընդունել է հրավերը:
 message-invited = { $user }-ը հրավիրել է { $userWhoGotInvited }-ին:
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user }-ը հեռացրեց սենյակի անունը:
+message-verification-done = Նույնականացումը ավարտվեց:
 message-decrypting = Վերծանում…
 #    Label in the message context menu
 message-action-request-key = Կրկին պահանջել բանալիներ
