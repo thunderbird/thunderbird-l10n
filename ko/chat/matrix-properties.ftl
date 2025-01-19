@@ -151,6 +151,24 @@ command-topic = { $commandName } &lt;topic&gt;: 채팅방의 주제를 설정합
 command-unban = { $commandName } &lt;userId&gt;: 방에서 차단된 사용자를 차단 해제합니다. 사용자를 차단하려면 권한이 필요합니다.
 # $commandName is the command name
 command-visibility = { $commandName } [&lt;visibility&gt;]: 현재 홈 서버의 방 디렉토리에서 현재 채팅방의 공개 여부를 설정합니다. 정수값을 입력합니다. 비공개: 0, 공개: 1. 설정되지 않으면 기본값은 비공개 (0) 입니다. 방의 공개 여부를 변경하려면 권한이 필요합니다.
+# $commandName is the command name
+command-guest = { $commandName } &lt;비회원 접근 여부&gt; &lt;기록 표시 여부&gt;: 현재 채팅방의 비회원 접근 여부와 기록 표시 여부를 설정합니다. 두 정수값을 입력하되, 처음 값은 방문자 접근 여부를 (차단: 0, 허용: 1) 둘째 값은 기록 표시 여부를 (숨김: 0, 표시: 1) 입력합니다. 기록 표시 여부 변경을 위해 권한이 필요합니다.
+# $commandName is the command name
+command-roomname = { $commandName } &lt;이름&gt;: 채팅방의 이름을 설정합니다. 변경하려면 권한이 필요합니다.
+# $commandName is the command name
+command-detail = { $commandName }: 채팅방의 세부 정보를 표시합니다.
+# $commandName is the command name
+command-addalias = { $commandName } &lt;별칭&gt;: 방의 별칭을 생성합니다. '#localname:domain' 형태로 별칭을 정하십시오. 추가하려면 권한이 필요합니다.
+# $commandName is the command name
+command-removealias = { $commandName } &lt;별칭&gt;: 방의 별칭을 제거합니다. '#localname:domain' 형태의 별칭이 필요합니다. 제거하려면 권한이 필요합니다.
+# $commandName is the command name
+command-upgraderoom = { $commandName } &lt;새버전&gt;: 해당 버전으로 방을 업그레이드합니다. 방을 업그레이드하려면 권한이 필요합니다.
+# $commandName is the command name
+command-me = { $commandName } &lt;동작&gt;: 동작을 수행합니다.
+# $commandName is the command name
+command-msg = { $commandName } &lt;아이디&gt; &lt;메시지&gt;: 지정된 사용자에게 직접 메시지를 보냅니다.
+# $commandName is the command name
+command-join = { $commandName } &lt;방아이디&gt;: 지정된 방에 입장합니다.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $user is the name of the user who banned.
@@ -168,6 +186,78 @@ message-accepted-invite = { $user }님이 초대를 수락하였습니다.
 #    $user is the name of the user who invited.
 #    $userWhoGotInvited is the name of the user who got invited.
 message-invited = { $user }님이 { $userWhoGotInvited }님을 초대하였습니다.
+#    $user is the name of the user who changed their display name.
+#    $oldDisplayName is the old display name.
+#    $newDisplayName is the new display name.
+message-display-name-changed = { $user }님이 별명을 { $oldDisplayName }에서 { $newDisplayName }으로 변경했습니다.
+#    $user is the name of the user who set their display name.
+#    $changedName is the newly set display name.
+message-display-name-set = { $user }님이 별명을 { $changedName }으로 설정했습니다.
+#    $user is the name of the user who removed their display name.
+#    $nameRemoved is the old display name which has been removed.
+message-display-name-remove = { $user }님이 별명 { $nameRemoved }을 제거했습니다.
+#    $user is the name of the user who has joined the room.
+message-joined = { $user }님이 방에 입장했습니다.
+#    $user is the name of the user who has rejected the invitation.
+message-rejected-invite = { $user }님이 초대를 거절했습니다.
+#    $user is the name of the user who has left the room.
+message-left = { $user }님이 방을 나갔습니다.
+#    $user is the name of the user who unbanned.
+#    $userUnbanned is the name of the user who got unbanned.
+message-unbanned = { $user }님이 { $userBanned }님에 대한 차단을 해제했습니다.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+message-kicked = { $user }님이 { $userBanned }님을 내보냈습니다.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user }님이 { $userBanned }님을 내보냈습니다. 사유: { $reason }
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+message-withdrew-invite = { $user }님이 { $userInvitationWithdrawn }님의 초대를 철회했습니다.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user }님이 { $userInvitationWithdrawn }님의 초대를 철회했습니다. 사유: { $reason }
+#    $user is the name of the user who has removed the room name.
+message-room-name-remove = { $user }님이 방 이름을 제거했습니다.
+#    $user is the name of the user who changed the room name.
+#    $newRoomName is the new room name.
+message-room-name-changed = { $user }님이 방 이름을 { $newRoomName }으로 변경했습니다.
+#    $user is the name of the user who changed the power level.
+#    $powerLevelChanges is a list of "message-power-level-from-to" strings representing power level changes separated by commas
+#    power level changes, separated by commas if  there are multiple changes.
+message-power-level-changed = { $user }님이 { $powerLevelChanges }의 권한 레벨을 변경했습니다.
+#    $user is the name of the target user whose power level has been changed.
+#    $oldPowerLevel is the old power level.
+#    $newPowerLevel is the new power level.
+message-power-level-from-to = { $user } 님 { $oldPowerLevel }에서 { $newPowerLevel }로 변경
+#    $user is the name of the user who has allowed guests to join the room.
+message-guest-allowed = { $user }님이 비회원이 방에 참여하는 것을 허용했습니다.
+#    $user is the name of the user who has prevented guests to join the room.
+message-guest-prevented = { $user }님이 비회원이 방에 참여하는 것을 금지했습니다.
+#    $user is the name of the user who has made future room history visible to anyone.
+message-history-anyone = { $user }님이 앞으로의 방 기록이 모두에게 공개되도록 설정했습니다.
+#    $user is the name of the user who has made future room history visible to all room members.
+message-history-shared = { $user }님이 앞으로의 방 기록이 채팅방 구성원 모두에게 공개되도록 설정했습니다.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
+message-history-invited = { $user }님이 앞으로의 방 기록이 채팅방 구성원 모두에게, 각자가 초대된 시점부터 공개되도록 설정했습니다.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they joined.
+message-history-joined = { $user }님이 앞으로의 방 기록이 채팅방 구성원 모두에게, 각자가 참여한 시점부터 공개되도록 설정했습니다.
+#    $user is the name of the user who changed the address.
+#    $oldAddress is the old address.
+#    $newAddress is the new address.
+message-alias-main = { $user } 님이 방의 기본 주소를 { $oldAddress }에서 { $newAddress }로 설정했습니다.
+#    $user is the name of the user who added the address.
+#    $addresses is a comma delimited list of added addresses.
+message-alias-added = { $user } 님이 { $addresses }를 이 방의  대체 주소로 추가했습니다.
+#    $user is the name of the user who removed the address.
+#    $addresses is a comma delimited list of removed addresses.
+message-alias-removed = { $user } 님이 { $addresses }를 이 방의 대체 주소에서 제거했습니다.
+#    $user is the name of the user that edited the alias addresses.
+#    $removedAddresses is a comma delimited list of removed addresses.
+#    $addedAddresses is a comma delmited list of added addresses.
+message-alias-removed-and-added = { $user } 님이 { $removedAddresses }를 제거하고 { $addedAddresses }를 이 방 주소로 추가했습니다.
 message-space-not-supported = 이 방은 지원되지 않는 공간입니다.
 message-encryption-start = 이 대화의 메시지는 이제 종단 간 암호화됩니다.
 #    $user is the name of the user who sent the verification request.

@@ -9,18 +9,18 @@ calendar-event-listing-close =
 
 calendar-event-listing-column-calendar-name =
     .label = 캘린더 이름
-    .tooltiptext = 클릭하면 캘린더 이름으로 정렬하기
+    .tooltiptext = 캘린더 이름으로 정렬
 calendar-event-listing-column-category =
     .label = 분류
-    .tooltiptext = 클릭하면 분류명으로 정렬하기
+    .tooltiptext = 분류명으로 정렬
 # This label and tooltip is used for the column with the checkbox in the task
 # tree view, which indicates whether a task has been marked as completed.
 calendar-event-listing-column-completed =
     .label = 완료
-    .tooltiptext = 클릭하면 완료 마크로 정렬하기
+    .tooltiptext = 완료도별로 정렬
 calendar-event-listing-column-completed-date =
     .label = 완료 일자
-    .tooltiptext = 클릭하면 완료 일자로 정렬하기
+    .tooltiptext = 완료 일자로 정렬하기
 calendar-event-listing-column-due-date =
     .label = 마감 일자
     .tooltiptext = 클릭하면 마감 일자로 정렬하기

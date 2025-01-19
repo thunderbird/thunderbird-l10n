@@ -460,6 +460,11 @@ single-long-calendar-week = { $index } 주 캘린더
 #    $index will be replaced with the index of the week
 single-calendar-week = { $index } 주
     .title = { $index } 주 캘린더
+# LOCALIZATION NOTE (several-long-calendar-weeks):
+# used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-long-calendar-weeks = 캘린더 { $startIndex }-{ $endIndex }주 캘린더
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
@@ -552,31 +557,47 @@ extract-using-region = { $languageName } ({ $region }) 사용
 # Variables:
 # $count (Number) - Number of minutes, also used to determine the correct plural form.
 unit-minutes = { $count } minute
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }분
 # Variables:
 # $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours = { $count } hour
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }시간
 # Variables:
 # $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days = { $count } day
+event-duration-menuitem-count-days =
+    .label = { unit-days }일
 # Variables:
 # $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks = { $count } day
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }주
 # Variables:
 # $count (Number) - Number of minutes used to determine the correct plural form.
 event-duration-menuitem-minutes =
     .label = 분
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }분
 # Variables:
 # $count (Number) - Number of hours used to determine the correct plural form.
 event-duration-menuitem-hours =
     .label = 시간
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }시간
 # Variables:
 # $count (Number) - Number of days used to determine the correct plural form.
 event-duration-menuitem-days =
     .label = 일
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }일
 # Variables:
 # $count (Number) - Number of weeks used to determine the correct plural form.
 event-duration-menuitem-weeks =
     .label = 주
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }주
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name
