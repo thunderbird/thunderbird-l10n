@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-event-listing-close =
-    .tooltiptext = 이벤트 검색 닫기 및 이벤트 리스트
+    .tooltiptext = 이벤트 검색과 이벤트 목록 닫기
 
 ## Listing columns
 
