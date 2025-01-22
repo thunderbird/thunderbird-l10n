@@ -24,7 +24,7 @@
 <!ENTITY signatureText.accesskey "x">
 <!ENTITY signatureHtml.label "使用 HTML (例如 &lt;b&gt;bold&lt;/b&gt;)">
 <!ENTITY signatureHtml.accesskey "L">
-<!ENTITY signatureFile.label "附加一个文件（文本、HTML或图片）作为签名：">
+<!ENTITY signatureFile.label "附加文件（文本、HTML 或图片）作为签名：">
 <!ENTITY signatureFile.accesskey "T">
 <!ENTITY edit.label "编辑…">
 <!ENTITY choose.label "选择…">
