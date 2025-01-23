@@ -17,6 +17,8 @@ openpgp-key-man-close =
     .label = Tanca
 openpgp-key-man-ignored-ids =
     .label = Adreces electròniques
+openpgp-passphrase-instruction-user-passphrase = Desbloca aquesta clau per canviar-ne la protecció.
+openpgp-passphrase-unlocked = La clau s'ha desblocat correctament.
 
 ## e2e encryption settings
 
@@ -30,6 +32,7 @@ key-type-primary = clau principal
 
 ## Strings enigmailMsgComposeOverlay.js
 
+window-locked = La finestra de redacció està blocada; s'ha cancel·lat l'enviament
 
 ## Strings in keyserver.jsm
 
@@ -138,6 +141,17 @@ key-type-primary = clau principal
 
 ## Strings used in commonWorkflows.js
 
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Introduïu la contrasenya per desblocar la clau secreta amb l'identificador { $key }, creat { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Introduïu la contrasenya per desblocar la clau secreta amb l'identificador { $subkey }, que és una subclau de l'identificador de clau { $key }, creat { $date }, { $username_and_email }
 
 ## Strings used in enigmailKeygen.js
 
