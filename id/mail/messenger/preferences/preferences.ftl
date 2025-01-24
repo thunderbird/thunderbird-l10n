@@ -130,6 +130,9 @@ remove-search-engine =
 add-opensearch-provider-title = Tambahkan Penyedia OpenSearch
 add-opensearch-provider-text = Masukkan URL penyedia OpenSearch untuk ditambahkan. Gunakan URL langsung dari berkas Deskripsi OpenSearch, atau URL di mana itu dapat ditemukan secara otomatis.
 adding-opensearch-provider-failed-title = Gagal Menambahkan Penyedia OpenSearch
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
+adding-opensearch-provider-failed-text = Tidak bisa menambahkan Penyedia OpenSearch untuk { $url }.
 minimize-to-tray-label =
     .label = Saat { -brand-short-name } diminimalkan, pindahkan ke baki
     .accesskey = m
@@ -148,6 +151,7 @@ change-dock-icon = Ubah preferensi untuk ikon aplikasi
 app-icon-options =
     .label = Opsi Ikon Aplikasi...
     .accesskey = n
+notification-settings2 = Lansiran dan suara asal dapat dinonaktifkan pada panel Notifikasi di Pengaturan Sistem.
 animated-alert-label =
     .label = Tampilkan peringatan
     .accesskey = g
@@ -564,6 +568,13 @@ third-party-visited =
 cookies-button =
     .label = Tampilkan Kuki…
     .accesskey = S
+# Do not translate.
+# "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
+# included to facilitate power-user search of the about:preferences page.
+global-privacy-control-search = Kontrol Privasi Global (Global Privacy Control/GPC)
+global-privacy-control-description =
+    .label = Beritahu situs untuk tidak menjual atau membagikan data saya
+    .accesskey = n
 do-not-track-label =
     .label = Kirim sinyal “Jangan Lacak” ke situs web bahwa Anda tidak ingin dilacak
     .accesskey = n
