@@ -4,6 +4,8 @@
 
 e2e-intro-description = Za slanje šifriranih ili digitalno potpisanih poruka morate konfigurirati tehnologiju šifriranja, bilo OpenPGP ili S/MIME.
 e2e-intro-description-more = Odaberite svoj osobni ključ kako biste omogućili OpenPGP korištenje ili svoj osobni certifikat kako biste omogućili S/MIME korištenje. Za osobni ključ ili certifikat vi posjedujete odgovarajući tajni ključ.
+openpgp-passphrase-status-primary-password = Zaštićeno primarnom lozinkom { -brand-short-name(case: "gen") }
+openpgp-use-primary-password = Ukloni lozinku i zaštiti primarnom lozinkom
 openpgp-copy-cmd-label =
     .label = Kopiraj
 

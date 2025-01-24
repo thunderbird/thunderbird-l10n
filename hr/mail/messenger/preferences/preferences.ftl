@@ -92,12 +92,12 @@ open-addons-sidebar-button = Dodaci i teme
 ## OS Authentication dialog
 
 # This message can be seen by trying to add a Primary Password.
-primary-password-os-auth-dialog-message-win = Za stvaranje glavne lozinke, upiši svoje podatke za prijavu na Windows. To pomaže u zaštiti vaših računa.
+primary-password-os-auth-dialog-message-win = Za stvaranje tvoje primarne lozinke, upiši svoje podatke za prijavu na Windows. To pomaže zaštiti sigurnost tvojih računa.
 # This message can be seen by trying to add a Primary Password.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
-primary-password-os-auth-dialog-message-macosx = stvori glavnu lozinku
+primary-password-os-auth-dialog-message-macosx = stvori primarnu lozinku
 # Don't change this label.
 master-password-os-auth-dialog-caption = { -brand-full-name }
 
@@ -554,14 +554,14 @@ passwords-description = { -brand-short-name } može zapamtiti lozinke za sve va�
 passwords-button =
     .label = Spremljene lozinke…
     .accesskey = S
-primary-password-description = Glavna lozinka štiti sve vaše lozinke, ali se mora unijeti jednom za svaku prijavu.
+primary-password-description = Primarna lozinka štiti sve tvoje lozinke, ali je mora upisati za svaku sesiju.
 primary-password-label =
-    .label = Koristi glavnu lozinku
+    .label = Koristi primarnu lozinku
     .accesskey = u
 primary-password-button =
-    .label = Promijeni glavnu lozinku…
+    .label = Promijeni primarnu lozinku …
     .accesskey = m
-forms-primary-pw-fips-title = Trenutačno ste u FIPS načinu rada. FIPS ne dopušta praznu glavnu lozinku.
+forms-primary-pw-fips-title = Trenutačno si u FIPS modusu. FIPS ne dopušta praznu primarnu lozinku.
 forms-master-pw-fips-desc = Promjena lozinke nije uspjela
 junk-description = Postavite svoje zadane postavke neželjene pošte. Specifične postavke za pojedini račun se mogu podesiti u postavkama računa.
 junk-marked-label =
