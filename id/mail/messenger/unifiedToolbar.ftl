@@ -35,6 +35,7 @@ toolbar-get-all-messages-menuitem =
 
 ## Unified Toolbar customization
 
+customize-title = Ubahsuai Bilah Alat
 customize-space-tab-mail = Surat
     .title = Surat
 customize-space-tab-addressbook = Buku Alamat

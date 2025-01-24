@@ -575,6 +575,7 @@ global-privacy-control-search = Kontrol Privasi Global (Global Privacy Control/G
 global-privacy-control-description =
     .label = Beritahu situs untuk tidak menjual atau membagikan data saya
     .accesskey = n
+do-not-track-removal = Kami tidak lagi mendukung sinyal "Jangan Lacak"
 do-not-track-label =
     .label = Kirim sinyal “Jangan Lacak” ke situs web bahwa Anda tidak ingin dilacak
     .accesskey = n
@@ -649,6 +650,7 @@ security-devices-button =
 email-e2ee-header = Enkripsi Ujung-Ke-Ujung Surel
 account-settings = Pengaturan Akun
 email-e2ee-enable-info = Siapkan akun surel dan identitas untuk Enkripsi Ujung-Ke-Ujung di Pengaturan Akun.
+email-e2ee-automatism = Penggunaan Enkripsi Otomatis
 email-e2ee-automatism-pre =
     { -brand-short-name } dapat membantu dengan mengaktifkan atau menonaktifkan enkripsi secara otomatis saat menulis surel.
     Pengaktifan/penonaktifan otomatis didasarkan pada ketersediaan kunci atau sertifikat koresponden yang valid dan diterima.
