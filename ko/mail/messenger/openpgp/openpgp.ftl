@@ -4,6 +4,41 @@
 
 e2e-intro-description = 암호화되거나 디지털 서명 된 메시지를 보내려면 OpenPGP 또는 S/MIME과 같은 암호화 기술을 구성해야 합니다.
 e2e-intro-description-more = OpenPGP 사용을 활성화하려면 개인 키를 선택하고 S/MIME 사용을 활성화하려면 개인 인증서를 선택합니다. 개인 키 또는 인증서의 경우 해당 비밀 키를 소유합니다.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = 새로운 개인 S/MIME 인증서를 받으려면 인증서 서명 요청(CSR)을 생성하여 인증 기관(CA)에 제출하세요.
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = CSR 파일을 저장할 로컬 디렉터리와 파일 이름을 선택하고 알고리즘과 강도 설정에 대한 다음 질문에 답합니다.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = CSR 생성
+# A label for a button that proceeds to the next step
+e2e-csr-continue = 계속
+# A label for a button that goes back one step
+e2e-csr-back = 뒤로
+# Do not translate: CSR
+e2e-csr-button =
+    .label = CSR 파일을 생성하고 다른 이름으로 저장…
+# Do not translate: CSR
+e2e-csr-select-title = CSR 알고리즘
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = 새 S/MIME 인증서의 암호화 알고리즘으로 RSA(권장) 또는 ECC 중 하나를 선택하세요.
+# Do not translate: S/MIME
+e2e-csr-select-strength = 새 S/MIME 인증서에 대해 원하는 암호화 강도(숫자가 낮으면 속도가 빠르고 숫자가 높으면 보안이 뛰어남)를 선택하거나 기본 설정을 유지하세요.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = 새 { $type } { $strength } 비밀 키가 { -brand-short-name } 설정에서 생성됩니다. 이 과정은 시간이 어느 정도 소요되고 일시적으로 응답이 없을 수 있으니 인내심을 가지고 기다려 주세요. 그동안 { $file } 파일로 저장되는 인증서 서명 요청(CSR) 파일이 생성됩니다.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = CSR에 이메일 주소({ $email }) 포함(권장)
+# $file A filename
+e2e-csr-success = CSR이 { $file }에 성공적으로 저장되었습니다.
+# $file A filename
+e2e-csr-failure = CSR을 { $file } 파일에 저장할 수 없습니다.
+e2e-signing-description = 디지털 서명을 사용하면 사용자가 메시지를 보냈으며 내용이 변경되지 않았음을 수신자가 확인할 수 있습니다. 암호화된 메시지는 기본적으로 항상 서명되어 있습니다.
+e2e-sign-message =
+    .label = 암호화되지 않은 메시지에 서명
+    .accesskey = u
 openpgp-key-expiry-label =
     .label = 만료
 openpgp-key-id-label =
