@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 troubleshoot-mode-dialog-title = { -brand-short-name } Modo diagnostic
+troubleshoot-mode-description = Usa iste modo diagnostic de { -brand-short-name } pro diagnosticar problemas. Tu additivos e personalisationes sera disactivate temporarimente.
 troubleshoot-mode-description2 = Tu pote render permanente alcun o tote iste cambios:
 troubleshoot-mode-disable-addons =
     .label = Disactivar tote le additivos
