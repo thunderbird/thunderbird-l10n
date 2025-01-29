@@ -4,7 +4,7 @@
 
 <!-- Subscription Dialog -->
 <!ENTITY feedSubscriptions.label     "Streymisáskriftir">
-<!ENTITY learnMore.label             "Fræðast meira um streymi">
+<!ENTITY learnMore.label             "Frekari upplýsingar um streymi">
 
 <!ENTITY feedTitle.label             "Titill:">
 <!ENTITY feedTitle.accesskey         "T">
