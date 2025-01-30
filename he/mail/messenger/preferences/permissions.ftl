@@ -34,5 +34,5 @@ permission-can-label = אפשר
 permission-can-access-first-party-label = לאפשר לגוף ראשון בלבד
 permission-can-session-label = אפשר להפעלה
 permission-cannot-label = חסום
-invalid-uri-message = אנא הכנס שם מארח חוקי
+invalid-uri-message = נא להכניס שם מארח חוקי
 invalid-uri-title = הוכנס שם מארח לא חוקי
