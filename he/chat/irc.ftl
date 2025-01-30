@@ -58,7 +58,7 @@ message-kicked = { $kickedNick } נבעט על־ידי { $kickerNick }{ $message
 message-kicked-reason = : { $kickMessage }
 #    $mode is the new mode, $targetUser  is the nickname of the user whose mode
 #    was changed, and $sourceUser is who set the mode.
-message-usermode = המצב { $mode } עבור { $targetUser } הוגדר ע״י { $sourceUser }.
+message-usermode = המצב { $mode } עבור { $targetUser } הוגדר על־ידי { $sourceUser }.
 #    $mode is the new channel mode and $user is who set the mode.
 message-channelmode = מצב הערוץ { $mode } הוגדר על ידי { $user }.
 #    $mode is the user's mode.
