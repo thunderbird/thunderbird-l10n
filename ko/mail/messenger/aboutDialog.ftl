@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = 새 소식
+about-dialog-title = { -brand-full-name } 소개
 release-notes-link = 제품 소개
 update-internal-error = 내부 오류로 인해 업데이트를 확인할 수 없습니다. <a data-l10n-name="manual-link"/>에서 업데이트 가능합니다.
 update-check-for-updates-button = 업데이트 확인하기

@@ -659,16 +659,23 @@ email-e2ee-automatism-pre =
     자동 활성화/비활성화는 유효하고 허용된 상대방의 키 또는 인증서의 가용성을 기반으로 합니다.
 email-e2ee-auto-on =
     .label = 가능한 경우 자동으로 암호화 활성화하기
+email-e2ee-auto-off =
+    .label = 수신자가 변경되어 암호화가 더 이상 가능하지 않을 때 자동으로 암호화 비활성화
+email-e2ee-auto-off-notify =
+    .label = 암호화가 자동으로 비활성화될 때마다 알림 표시
+email-e2ee-automatism-post =
+    메시지를 작성할 때 수동으로 암호화를 활성화 또는 비활성화하여 자동 결정을 재정의 할 수 있습니다.
+    참고: 암호화는 암호화된 메시지에 회신할 때 항상 자동으로 활성화됩니다.
 
 ## Chat Tab
 
 startup-label =
-    .value = { -brand-short-name } 시작시:
+    .value = { -brand-short-name } 시작 시:
     .accesskey = s
 offline-label =
-    .label = 채팅 계정을 오프 라인
+    .label = 내 채팅 계정을 오프라인으로 유지
 auto-connect-label =
-    .label = 채팅 계정을 자동 접속
+    .label = 내 채팅 계정 자동 연결
 
 ## Note: idle-label is displayed first, then there's a field where the user
 ## can enter a number, and itemTime is displayed at the end of the line.
@@ -744,6 +751,17 @@ no-preview-description = 현재 테마가 유효하지 않거나 사용할 수 �
 chat-variant-label =
     .value = 다른 형태:
     .accesskey = V
+# This is used to determine the width of the search field in about:preferences,
+# in order to make the entire placeholder string visible
+#
+# Please keep the placeholder string short to avoid truncation.
+#
+# Notice: The value of the `.style` attribute is a CSS string, and the `width`
+# is the name of the CSS property. It is intended only to adjust the element's width.
+# Do not translate.
+search-preferences-input2 =
+    .style = width: 15.4em
+    .placeholder = 설정에서 찾기
 
 ## Settings UI Search Results
 
@@ -758,6 +776,8 @@ search-results-help-link = 도움이 필요하세요? <a data-l10n-name="url">{ 
 
 ## Sync Tab
 
+sync-signedout-caption = 웹과 함께 하세요
+sync-signedout-description = 계정, 주소록, 캘린더, 부가 기능, 설정을 모든 기기에 걸쳐 동기화 하세요.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Sync에 로그인…
 sync-pane-header = Sync

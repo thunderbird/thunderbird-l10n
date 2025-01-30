@@ -84,14 +84,37 @@ addr-book-csv-file = 콤마나 탭으로 구분된 파일(.csv, .tsv)
 addr-book-ldif-file = LDIF 파일(.ldif)
 addr-book-vcard-file = vCard 파일(.vcf, .vcard)
 addr-book-sqlite-file = SQLite 데이터베이스 파일(.sqlite)
+addr-book-mab-file = Mork 데이터베이스 파일(.mab)
+addr-book-file-picker = 주소록 파일 선택
 addr-book-csv-field-map-title = 필드 이름 일치
+addr-book-csv-field-map-desc = 소스 필드에 해당하는 주소록 필드를 선택하세요. 가져오지 않을 필드는 체크를 해제하세요.
+addr-book-directories-title = 선택한 데이터를 가져올 위치 선택
 addr-book-directories-pane-source = 출처 파일:
+# $addressBookName (string) - name of the new address book that would be created.
+addr-book-import-into-new-directory2 = 이름이 <strong>"{ $addressBookName }"</strong>인 새 디렉토리 생성하기
+# $addressBookName (string) - name of the address book to import into
+addr-book-summary-title = "{ $addressBookName }" 디렉토리로 선택한 데이터 가져오기
+# $addressBookName (string) - name of the address book that will be created.
+addr-book-summary-description = 이름이 "{ $addressBookName }"인 새 주소록이 생성됩니다.
 
 ## Import from calendar file steps
 
+import-from-calendar-file-desc = 가져올 iCalendar(.ics) 파일을 선택하세요.
+calendar-items-title = 가져올 항목을 선택하세요.
 calendar-items-loading = 항목 로드중…
+calendar-items-filter-input2 =
+    .label = 항목 필터
+    .placeholder = 항목 필터…
 calendar-select-all-items = 모두 선택
 calendar-deselect-all-items = 모두 선택 해제
+calendar-target-title = 선택한 항목을 가져올 위치를 선택하세요.
+# $targetCalendar (string) - name of the new calendar that would be created
+calendar-import-into-new-calendar2 = 이름이 <strong>"{ $targetCalendar }"</strong>인 새 캘린더 생성하기
+# $itemCount (number) - count of selected items (tasks, events) that will be imported
+# $targetCalendar (string) - name of the calendar the items will be imported into
+calendar-summary-title = "{ $targetCalendar }" 캘린더로 항목 { $itemCount }개 가져오기
+# $targetCalendar (string) - name of the calendar that will be created
+calendar-summary-description = 이름이 "{ $targetCalendar }"인 새 캘린더가 생성됩니다.
 
 ## Import dialog
 
@@ -102,9 +125,15 @@ progress-pane-exporting2 = 내보내기 중… { $progressPercent }
 progress-pane-finished-desc2 = 완료되었습니다.
 error-pane-title = 오류
 error-message-zip-file-too-big2 = 선택한 ZIP 파일이 2GB보다 큽니다. 대신 먼저 압축을 푼 다음에 압축을 푼 폴더에서는 가져오세요.
+error-message-extract-zip-file-failed2 = ZIP 파일의 압축을 푸는 데 실패했습니다. 수동으로 압축을 푼 다음 압축을 푼 폴더에서 가져오세요.
+error-message-failed = 예기치 않게 가져오기에 실패했습니다. 오류 정보에 자세한 정보가 나와 있을 수도 있습니다.
+error-failed-to-parse-ics-file = 파일에서 가져올 수 있는 항목이 없습니다.
+error-export-failed = 예기치 않게 내보내기에 실패했습니다. 오류 정보에 자세한 정보가 나와 있을 수도 있습니다.
+error-message-no-profile = 프로필을 찾을 수 없습니다.
 
 ## <csv-field-map> element
 
+csv-first-row-contains-headers = 첫 번째 행은 필드 이름을 포함함
 csv-source-field = 소스 필드
 csv-source-first-record = 첫 기록
 csv-source-second-record = 둘번째 기록
@@ -112,14 +141,31 @@ csv-target-field = 주소록 필드
 
 ## Export tab
 
+export-profile-title = 계정과 메시지, 주소록 및 설정을 ZIP 파일로 내보냅니다.
+export-profile-description = 현재 프로필이 2GB보다 크다면 직접 백업하는 것이 좋습니다.
 export-open-profile-folder = 프로필 폴더 열기
 export-file-picker2 = ZIP파일로 내보내기
+export-brand-name = { -brand-product-name }
 
 ## Summary pane
 
+summary-pane-title = 가져올 데이터
+summary-pane-start = 가져오기 시작
+summary-pane-warning = 가져오기가 완료되면 { -brand-product-name }를 다시 시작해야 합니다.
+summary-pane-start-over = 가져오기 도구 다시 시작
 
 ## Footer area
 
+footer-help = 도움이 필요한가요?
+footer-import-documentation = 가져오기 문서
+footer-export-documentation = 내보내기 문서
+footer-support-forum = 지원 포럼
 
 ## Step navigation on top of the wizard pages
 
+step-list =
+    .aria-label = 가져오기의 단계
+step-confirm = 확인
+# Variables:
+# $number (number) - step number
+step-count = { $number }
