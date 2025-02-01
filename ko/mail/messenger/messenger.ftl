@@ -278,29 +278,111 @@ message-header-show-sender-full-address =
     .label = 항상 보낸 사람의 전체 주소 표시
     .accesskey = f
 message-header-show-sender-full-address-description = 이메일 주소가 표시 이름 아래에 표시됩니다.
+message-header-show-recipient-avatar =
+    .label = 보낸 사람의 프로필 사진 표시
+    .accesskey = p
+message-header-show-big-avatar =
+    .label = 큰 프로필 사진
+    .accesskey = g
+message-header-hide-label-column =
+    .label = 레이블 열 숨기기
+    .accesskey = I
+message-header-large-subject =
+    .label = 큰 제목
+    .accesskey = s
+message-header-all-headers =
+    .label = 모든 헤더 보기
+    .accesskey = a
 
 ## Action Button Context Menu
 
+toolbar-context-menu-manage-extension =
+    .label = 확장 기능 관리
+    .accesskey = E
+toolbar-context-menu-remove-extension =
+    .label = 확장 기능 제거
+    .accesskey = v
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = { $name } 부가 기능을 제거하시겠습니까?
+addon-removal-confirmation-button = 제거
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-confirmation-message = { -brand-short-name }에서 { $name } 및 해당 구성과 데이터를 제거하시겠습니까?
+caret-browsing-prompt-title = 커서 브라우징
+caret-browsing-prompt-text = F7 키를 누르면 커서 브라우징을 켜거나 끕니다. 이 기능을 이용하면 일부 콘텐츠에 이동 가능한 커서를 배치하여 키보드로 텍스트를 선택할 수 있습니다. 커서 브라우징을 켜시겠습니까?
+caret-browsing-prompt-check-text = 다시 묻지 않기
 repair-text-encoding-button =
     .label = 텍스트 인코딩 복구
     .tooltiptext = 메시지 내용에서 올바른 텍스트 인코딩을 예상하여 복구
 
 ## no-reply handling
 
+no-reply-title = 회신할 수 없음
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
+no-reply-message = 회신 주소({ $email })가 모니터링된 주소가 아닌 것으로 보입니다. 이 주소로 보낸 메시지는 아무도 읽지 않을 수 있습니다.
+no-reply-reply-anyway-button = 무시하고 회신
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple = 메시지 { $total }개 중 { $failures }개는 복호화될 수 없어 복사되지 않았습니다.
 
 ## Spaces toolbar
 
+spaces-toolbar-element =
+    .toolbarname = Spaces 도구 모음
+    .aria-label = Spaces 도구 모음
+    .aria-description = 다양한 작업 공간 간에 전환할 수 있는 수직 도구 모음입니다. 방향키를 사용하여 사용할 수 있는 버튼을 탐색하세요.
+spaces-toolbar-button-mail2 =
+    .title = 메일
+spaces-toolbar-button-address-book2 =
+    .title = 주소록
+spaces-toolbar-button-calendar2 =
+    .title = 캘린더
+spaces-toolbar-button-tasks2 =
+    .title = 태스크
+spaces-toolbar-button-chat2 =
+    .title = 채팅
+spaces-toolbar-button-overflow =
+    .title = 더 많은 공간…
+spaces-toolbar-button-settings2 =
+    .title = 설정
+spaces-toolbar-button-hide =
+    .title = Spaces 도구 모음 숨기기
+spaces-toolbar-button-show =
+    .title = Spaces 도구 모음 표시
+spaces-context-new-tab-item =
+    .label = 새 탭에서 열기
+spaces-context-new-window-item =
+    .label = 새 창에서 열기
+# Variables:
+# $tabName (String) - The name of the tab this item will switch to.
+spaces-context-switch-tab-item =
+    .label = { $tabName } 탭으로 전환
+settings-context-open-settings-item2 =
+    .label = 설정
+settings-context-open-account-settings-item2 =
+    .label = 계정 설정
 settings-context-open-addons-item2 =
     .label = 부가 기능 및 테마
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = Spaces 메뉴
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
 spaces-pinned-button-menuitem-tasks2 =
     .label = { spaces-toolbar-button-tasks2.title }
 spaces-pinned-button-menuitem-chat2 =
