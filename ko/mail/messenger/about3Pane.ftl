@@ -173,6 +173,9 @@ folder-pane-header-context-hide =
     .label = 폴더 창 헤더 숨기기
 folder-pane-show-total-toggle =
     .label = 전체 메시지 수 표시
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = 폴더 크기 표시
 folder-pane-header-hide-local-folders =
     .label = 로컬 폴더 숨기기
 folder-pane-mode-context-button =
@@ -242,71 +245,177 @@ threadpane-column-header-sender = 보낸 사람
     .title = 보낸 사람 순으로 정렬
 threadpane-column-label-sender =
     .label = 보낸 사람
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = 보낸 사람
+    .title = { $title }
 threadpane-column-header-recipient = 받는 사람
     .title = 받는 사람으로 정렬
 threadpane-column-label-recipient =
     .label = 받는 사람
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = 받는 사람
+    .title = { $title }
 threadpane-column-header-correspondents = 글 쓴 사람
     .title = 글 쓴 사람으로 정렬
 threadpane-column-label-correspondents =
     .label = 글 쓴 사람
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = 글 쓴 사람
+    .title = { $title }
 threadpane-column-header-subject = 제목
     .title = 제목으로 정렬
 threadpane-column-label-subject =
     .label = 제목
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = 제목
+    .title = { $title }
 threadpane-column-header-date = 날짜
     .title = 날짜로 정렬
 threadpane-column-label-date =
     .label = 날짜
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = 날짜
+    .title = { $title }
 threadpane-column-header-received = 보낸 편지함
     .title = 받은 날짜 순으로 정렬
 threadpane-column-label-received =
     .label = 보낸 편지함
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = 받은 날짜
+    .title = { $title }
 threadpane-column-header-status = 메일 상태
     .title = 메일 상태로 정렬
 threadpane-column-label-status =
     .label = 메일 상태
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = 상태
+    .title = { $title }
 threadpane-column-header-size = 크기
     .title = 크기로 정렬
 threadpane-column-label-size =
     .label = 크기
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = 크기
+    .title = { $title }
 threadpane-column-header-tags = 태그
     .title = 태그로 정렬하기
 threadpane-column-label-tags =
     .label = 태그
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = 태그
+    .title = { $title }
 threadpane-column-header-account = 계정
     .title = 계정별로 정력
 threadpane-column-label-account =
     .label = 계정
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = 계정
+    .title = { $title }
 threadpane-column-header-priority = 중요도
     .title = 중요도로 정렬
 threadpane-column-label-priority =
     .label = 중요도
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = 중요도
+    .title = { $title }
 threadpane-column-header-unread = 읽지 않음
     .title = 글타래의 읽지 않은 메시지 수
 threadpane-column-label-unread =
     .label = 읽지 않음
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = 읽지 않은 메시지 수
+    .title = { $title }
 threadpane-column-header-total = 전체
     .title = 글타래의 메시지 전체 수
 threadpane-column-label-total =
     .label = 전체
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = 전체 메시지 수
+    .title = { $title }
 threadpane-column-header-location = 주소
     .title = 주소로 정렬
 threadpane-column-label-location =
     .label = 주소
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = 위치
+    .title = { $title }
 threadpane-column-header-id = 받은 순서
     .title = 받은 순서로 정렬
 threadpane-column-label-id =
     .label = 받은 순서
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = 받은 순서
+    .title = { $title }
 threadpane-column-header-delete =
     .title = 메시지 지우기
 threadpane-column-label-delete =
     .label = 삭제
+threadpane-cell-delete =
+    .aria-label = 삭제
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies = 답장 { $count }개
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = 새 메시지 표시기
+    .title = 새 메시지
+threadpane-message-replied =
+    .alt = 회신 표시기
+    .title = 메시지 회신됨
+threadpane-message-redirected =
+    .alt = 리디렉션 표시기
+    .title = 메시지 리디렉션됨
+threadpane-message-forwarded =
+    .alt = 전달 표시기
+    .title = 메시지 전달됨
+threadpane-message-replied-forwarded =
+    .alt = 회신 및 전달 표시기
+    .title = 메시지 회신 및 전달됨
+threadpane-message-replied-redirected =
+    .alt = 회신 및 리디렉션 표시기
+    .title = 메시지 회신 및 리디렉션됨
+threadpane-message-forwarded-redirected =
+    .alt = 전달 및 리디렉션 표시기
+    .title = 메시지 전달 및 리디렉션됨
+threadpane-message-replied-forwarded-redirected =
+    .alt = 회신, 전달, 리디렉션 표시기
+    .title = 메시지 회신, 전달 및 리디렉션됨
 apply-columns-to-menu =
     .label = 항목에 적용…
+apply-current-view-to-menu =
+    .label = 현재 보기 적용…
 apply-current-view-to-folder =
     .label = 폴더…
 apply-current-view-to-folder-children =
@@ -314,12 +423,35 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = 변경 사항을 적용할까요?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = 현재 폴더 항목을 { $name }에 적용하시겠습니까?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = 현재 폴더 항목을 { $name }와 이하 항목에 적용하시겠습니까?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = 현재 폴더 보기를 { $name }에 적용할까요?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = 현재 폴더 보기를 { $name }와 이하 항목에 적용할까요?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count = <span>{ $total }</span>개의 메시지 중 <span>{ $unread }</span>개 읽지 않음
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count = <span>{ $total }</span>개의 메시지
+threadpane-card-menu-button =
+    .title = 메시지 메뉴
+message-list-placeholder-no-messages = 메시지 없음
+message-list-placeholder-multiple-folders = 여러 폴더 선택됨
 
 ## Folder pane context menu
 
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label = 폴더 읽음으로 표시
+    .accesskey = k
