@@ -121,6 +121,11 @@ account-setup-results-area-title =
        *[other] 가능한 설정
     }
 account-setup-result-imap-description = 서버에서 폴더와 이메일을 동기화된 상태로 유지
+account-setup-result-pop-description = 컴퓨터에 폴더와 이메일 유지
+# Note: Exchange, Office365 are the name of products.
+account-setup-result-exchange2-description = Microsoft Exchange 서버나 Office365 클라우드 서비스 사용
+account-setup-incoming-title = 수신
+account-setup-outgoing-title = 발신
 account-setup-username-title = 사용자 이름
 account-setup-exchange-title = 서버
 account-setup-result-no-encryption = 암호화 없음
@@ -134,7 +139,11 @@ account-setup-result-username-different = 수신: { $incoming }, 발신: { $outg
 
 ## Error messages
 
+# Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
+account-setup-credentials-incomplete = 인증에 실패했습니다. 입력한 자격 증명이 올바르지 않거나 로그인에 별도의 사용자 이름이 필요합니다. 이 사용자 이름은 보통 도메인이 있거나 없는 Windows 도메인 로그인(예: janedoe 또는 AD\\janedoe)입니다.
 account-setup-credentials-wrong = 인증에 실패하였습니다. 사용자 이름괴 비밀번호를 확인해 주십시오.
+account-setup-find-settings-failed = { -brand-short-name }가 메일 계정 설정을 찾지 못했습니다.
+account-setup-exchange-config-unverifiable = 설정을 확인할 수 없습니다. 사용자 이름과 비밀번호가 올바르다면 서버 관리자가 이 계정에 대해 선택된 설정을 비활성화했을 수 있습니다. 다른 프로토콜로 다시 시도해 주세요.
 
 ## Manual configuration area
 
@@ -142,6 +151,9 @@ account-setup-manual-config-title = 수동 설정
 account-setup-incoming-server-legend = 수신 서버
 account-setup-protocol-label = 프로토콜:
 account-setup-hostname-label = 호스트 이름:
+account-setup-port-label = 포트:
+    .title = 자동 감지를 위해 포트 번호를 0으로 설정
+account-setup-auto-description = { -brand-short-name }가 비어있는 필드는 자동 감지를 시도합니다.
 account-setup-ssl-label = 연결 보안:
 account-setup-outgoing-server-legend = 송신 서버
 
@@ -157,6 +169,8 @@ ssl-encrypted-password-option = 암호화된 비밀번호
 ssl-noencryption-option = 없음
 account-setup-auth-label = 인증 방식:
 account-setup-username-label = 사용자 이름:
+account-setup-advanced-setup-button = 고급 설정
+    .accesskey = A
 
 ## Warning insecure server dialog
 
@@ -167,6 +181,13 @@ account-setup-insecure-outgoing-title = 발신 설정:
 #  $server (String): The name of the hostname of the server the user was trying to connect to.
 account-setup-warning-cleartext = <b>{ $server }</b>서버는 암호화를 사용하지 않습니다.
 account-setup-warning-cleartext-details = 보안 연결이 되지 않은 메일 서버는 비밀번화와 사적인 정보를 지키는 보안 연결을 사용하지 않습니다. 이 서버에 연결하면 비밀번호와 사적인 정보가 노출 될 수 있습니다.
+account-setup-insecure-server-checkbox = 위험성을 잘 알고 있습니다.
+    .accesskey = u
+account-setup-insecure-description = { -brand-short-name }가 제공된 설정을 이용하여 메일을 가져올 수 있지만, 이 잘못된 연결에 대하여 관리자나 이메일 제공자에게 문의해야 합니다. <a data-l10n-name="thunderbird-faq-link">Thunderbird FAQ</a>에서 더 많은 정보를 보실 수 있습니다.
+insecure-dialog-cancel-button = 설정 변경
+    .accesskey = S
+insecure-dialog-confirm-button = 확인
+    .accesskey = C
 
 ## Warning Exchange confirmation dialog
 
