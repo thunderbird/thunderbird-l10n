@@ -191,27 +191,66 @@ insecure-dialog-confirm-button = 확인
 
 ## Warning Exchange confirmation dialog
 
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+exchange-dialog-question = { -brand-short-name }가 { $domain }에서 계정 설정 정보를 찾았습니다. 자격 증명을 진행하고 제출하시겠습니까?
 exchange-dialog-confirm-button = 로그인
 exchange-dialog-cancel-button = 취소
 
 ## Dismiss account creation dialog
 
 exit-dialog-title = 설정된 이메일 계정 없음
+exit-dialog-description = 정말 설정 과정을 취소하시겠습니까? 이메일 계정 없이도 { -brand-short-name }를 사용할 수는 있지만 많은 기능을 사용할 수 없게 됩니다.
+account-setup-no-account-checkbox = 이메일 계정 없이 { -brand-short-name } 사용
+    .accesskey = U
+exit-dialog-cancel-button = 설정 계속
+    .accesskey = C
+exit-dialog-confirm-button = 설정 종료
+    .accesskey = E
 
 ## Alert dialogs
 
 account-setup-creation-error-title = 계정 생성 오류
 account-setup-error-server-exists = 수신 서버가 이미 존재합니다.
 account-setup-confirm-advanced-title = 고급 설정 확인
+account-setup-confirm-advanced-description = 이 대화창이 닫히고 설정이 올바르지 않아도 현재 설정으로 계정이 생성될 것입니다. 계속하시겠습니까?
 
 ## Addon installation section
 
+account-setup-addon-install-title = 설치
+account-setup-addon-install-intro = 타사 부가 기능을 사용하여 이 서버의 이메일 계정에 접근할 수 있습니다:
+account-setup-addon-no-protocol = 아쉽지만 이 이메일 서버는 개방형 프로토콜을 지원하지 않습니다. { account-setup-addon-install-intro }
 
 ## Success view
 
+account-setup-settings-button = 계정 설정
+account-setup-encryption-button = 종단 간 암호화
+account-setup-signature-button = 서명 추가
+account-setup-dictionaries-button = 사전 다운로드
+account-setup-address-book-carddav-button = CardDAV 주소록에 연결
+account-setup-address-book-ldap-button = LDAP 주소록에 연결
+account-setup-calendar-button = 원격 캘린더에 연결
+account-setup-linked-services-title = 연결된 서비스에 연결
+account-setup-linked-services-description = { -brand-short-name }가 이메일 계정에 연결된 다른 서비스를 감지했습니다.
+account-setup-no-linked-description = { -brand-short-name } 경험을 최대한 활용하려면 다른 서비스를 설정하세요.
+# Variables:
+# $count (Number) - The number of address books found during autoconfig.
+account-setup-found-address-books-description = { -brand-short-name }가 이메일 계정에 연결된 { $count }개의 주소록을 찾았습니다.
+# Variables:
+# $count (Number) - The number of calendars found during autoconfig.
+account-setup-found-calendars-description = { -brand-short-name }가 이메일 계정에 연결된 { $count }개의 캘린더를 찾았습니다.
+account-setup-button-finish = 완료
+    .accesskey = F
+account-setup-looking-up-address-books = 주소록 찾는 중…
+account-setup-looking-up-calendars = 캘린더 찾는 중…
 account-setup-address-books-button = 주소록
 account-setup-calendars-button = 달력
 account-setup-connect-link = 연결
+account-setup-existing-address-book = 연결됨
+    .title = 이미 주소록이 연결됨
+account-setup-existing-calendar = 연결됨
+    .title = 캘린더가 이미 연결됨
+account-setup-connect-all-calendars = 모든 캘린더 연결
 account-setup-connect-all-address-books = 모든 주소록 연결
 
 ## Calendar synchronization dialog

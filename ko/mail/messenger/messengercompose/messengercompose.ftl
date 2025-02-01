@@ -257,9 +257,31 @@ show-bcc-row-extra-menuitem =
 #   $key (String) - the shortcut key for this field
 show-bcc-row-button = 숨은 참조
     .title = 숨은 참조 필드 표시({ ctrl-cmd-shift-pretty-prefix }{ $key })
+extra-address-rows-menu-button =
+    .title = 표시할 다른 주소 필드
+public-recipients-notice-single = 메시지에 공개 수신자가 설정되었습니다. 숨은 참조를 대신 사용하여 수신자 공개를 방지할 수 있습니다.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi = 받는 사람과 참조의 수신인 { $count }명이 서로의 주소를 볼 수 있습니다. 대신 숨은 참조를 사용하여 수신자 공개를 방지할 수 있습니다.
+many-public-recipients-bcc =
+    .label = 대신 숨은 참조 사용
+    .accesskey = U
+many-public-recipients-ignore =
+    .label = 수신자 공개
+    .accesskey = K
+many-public-recipients-prompt-title = 공개 수신자 너무 많음
+#   $count (Number) - the count of addresses in the public recipients fields.
+many-public-recipients-prompt-msg =
+    메시지에 공개 수신자가 설정되었습니다. 개인 정보 침해가 우려됩니다. 수신자를 받는 사람이나 참조에서 숨은 참조로 옮겨 수신자 공개를 방지할 수 있습니다.
+    메시지에 { $count }명의 공개 수신자가 설정되었으며 서로의 주소를 볼 수 있습니다. 개인 정보 침해가 우려됩니다. 수신자를 받는 사람이나 참조에서 숨은 참조로 옮겨 수신자 공개를 방지할 수 있습니다.
+many-public-recipients-prompt-cancel = 발송 취소
+many-public-recipients-prompt-send = 무시하고 보내기
 
 ## Notifications
 
+# Variables:
+# $identity (string) - The name of the used identity, most likely an email address.
+compose-missing-identity-warning = 보낸 사람 주소와 일치하는 고유한 신원을 찾을 수 없습니다. 메시지는 현재 보낸 사람 필드와 신원 { $identity }의 설정을 사용하여 전송됩니다.
 
 ## Editing
 
