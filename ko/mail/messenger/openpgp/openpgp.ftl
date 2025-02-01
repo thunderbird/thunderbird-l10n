@@ -315,11 +315,23 @@ openpgp-passphrase-instruction-user-passphrase = 보호를 변경하려면 이 �
 openpgp-passphrase-unlock = 잠금 풀기
 openpgp-passphrase-unlocked = 성공적으로 키의 잠금이 풀렸습니다.
 openpgp-remove-protection = 암호 보호 제거
+openpgp-use-primary-password = 암호를 제거하고 기본 비밀번호로 보호
+openpgp-passphrase-new = 새 암호
+openpgp-passphrase-new-repeat = 새 암호 확인
+openpgp-passphrase-set = 암호 설정
+openpgp-passphrase-change = 암호 변경
 openpgp-copy-cmd-label =
     .label = 복사
 
 ## e2e encryption settings
 
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-no-key = { -brand-short-name }가 <b>{ $identity }</b>에 대한 개인 OpenPGP 키를 가지고 있지 않음
+#   $count (Number) - the number of configured keys associated with the current identity
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-has-keys = { -brand-short-name }가 <b>{ $identity }</b>와 연결된 개인 OpenPGP 키 { $count }개를 찾음
+#   $key (String) - the currently selected OpenPGP key
+openpgp-selection-status-have-key = 키 ID <b>{ $key }</b> 현재 구성 사용
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = 현재 구성은 만료 된 <b>{ $key }</b> 키를 사용합니다.
 openpgp-add-key-button =
@@ -335,6 +347,8 @@ openpgp-keygen-external-success = 외부 GnuPG 키 ID가 저장되었습니다!
 openpgp-radio-none =
     .label = 없음
 openpgp-radio-none-desc = 이 ID에 OpenPGP를 사용하지 마세요.
+openpgp-radio-key-not-usable = 비밀 키가 없기 때문에 이 키는 개인 키로 사용할 수 없습니다!
+openpgp-radio-key-not-accepted = 이 키를 사용하려면 개인 키로 승인해야 합니다!
 #   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = 만료일: { $date }
 #   $date (String) - the past expiration date of when the OpenPGP key expired
