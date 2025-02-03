@@ -147,6 +147,9 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-not-junk =
+    .aria-label = მოინიშნოს გამოსადეგად
+    .tooltiptext = მოინიშნოს გამოსადეგად
 mail-context-menu-forward-forward =
     .label = გადაგზავნა
     .accesskey = დ
