@@ -3,4 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # default categories, comma separated
-categories2 = Yıl dönümü,Doğum günü,İş,Aramalar,Müşteriler,Rekabet,Müşteri,Favoriler,Takip edilen,Hediyeler,Bayramlar,Fikirler,Sorunlar,Toplantı,Çeşitli,Kişisel,Projeler,Resmî tatil,Durum,Satıcılar,Seyahat,Tatil
+categories2 = Yıldönümü,Doğum günü,İş,Aramalar,Müşteriler,Rekabet,Müşteri,Favoriler,Takip edilen,Hediyeler,Bayramlar,Fikirler,Sorunlar,Toplantı,Çeşitli,Kişisel,Projeler,Resmî tatil,Durum,Satıcılar,Seyahat,Tatil
