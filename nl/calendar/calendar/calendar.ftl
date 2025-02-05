@@ -37,7 +37,7 @@ normal-priority = Normaal
 low-priority = Laag
 import-prompt = In welke agenda wilt u deze gegevens importeren?
 export-prompt = Vanuit welke agenda wilt u exporteren?
-paste-prompt = In welke van uw momenteel schrijfbare agenda’s wilt u plakken?
+paste-prompt = In welke van uw momenteel bewerkbare agenda’s wilt u dit plakken?
 publish-prompt = Welke agenda wilt u publiceren?
 # LOCALIZATION NOTE (paste-event-also): The users pasting operation includes among
 # others also a meeting invitation - this is used as a affix in
@@ -195,7 +195,7 @@ read-only-mode = Er is een fout opgetreden bij het lezen van gegevens voor agend
 # LOCALIZATION NOTE (disabled-mode):
 # used for an message like 'There has been an error reading data for calendar: Home. It has been...'
 #    $name will be replaced with the name of a calendar
-disabled-mode = Er is een fout opgetreden bij het lezen van gegevens voor agenda: { $name }. Deze is uitgeschakeld totdat het veilig is om te gebruiken.
+disabled-mode = Er is een fout opgetreden bij het lezen van gegevens voor agenda: { $name }. Deze is uitgeschakeld totdat hij veilig is om te gebruiken.
 # LOCALIZATION NOTE (minor-error):
 # used for an message like 'There has been an error reading data for calendar: Home. However this...'
 #    $name will be replaced with the name of a calendar
@@ -205,7 +205,7 @@ minor-error = Er is een fout opgetreden bij het lezen van gegevens voor agenda: 
 #    $name will be replaced with the name of a calendar
 still-read-only-error = Er is een fout opgetreden bij het lezen van gegevens voor agenda: { $name }.
 utf8-decode-error = Er is een fout opgetreden bij het decoderen van een iCalendar (ics)-bestand als UTF-8. Verifieer of het bestand, inclusief symbolen en letters met accenten, is gecodeerd in de UTF-8-tekenset.
-ics-malformed-error = Ontleden van het iCalendar (ics)-bestand is mislukt. Verifieer of het bestand conform is aan de iCalendar (ics)-bestandssyntaxis.
+ics-malformed-error = Ontleden van het iCalendar (ics)-bestand is mislukt. Verifieer of het bestand voldoet aan de iCalendar (ics)-bestandssyntaxis.
 item-modified-on-server-title = Item gewijzigd op de server
 item-modified-on-server = Dit item is onlangs gewijzigd op de server.
 modify-will-lose-data = Doorvoeren van uw wijzigingen zal de op de server gemaakte wijzigingen overschrijven.
@@ -457,7 +457,7 @@ tooltip-calendar-disabled =
 tooltip-calendar-read-only =
     .title = De agenda { $name } is alleen-lezen
 task-edit-instructions = Klik hier om een nieuwe taak toe te voegen
-task-edit-instructions-readonly = Selecteer een agenda die schrijfbaar is
+task-edit-instructions-readonly = Selecteer een bewerkbare agenda
 task-edit-instructions-capability = Selecteer een agenda die taken ondersteunt
 event-details-start-date = Begin:
 event-details-end-date = Einde:
