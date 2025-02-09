@@ -579,6 +579,14 @@ third-party-visited =
 cookies-button =
     .label = 쿠키 보기…
     .accesskey = S
+# Do not translate.
+# "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
+# included to facilitate power-user search of the about:preferences page.
+global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-description =
+    .label = 웹 사이트에 내 데이터를 판매하거나 공유하지 말라고 요청
+    .accesskey = n
+do-not-track-removal = 더 이상 "추적 안 함" 신호를 지원하지 않음
 do-not-track-label =
     .label = 웹사이트에 “방문자 추적 금지” 신호를 보내서 추적을 원하지 않는다고 알림
     .accesskey = n

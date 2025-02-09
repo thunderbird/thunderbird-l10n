@@ -50,6 +50,9 @@ e2e-advanced-section = 고급 설정
 e2e-attach-key =
     .label = OpenPGP 디지털 서명을 추가할 때 내 공개 키를 첨부
     .accesskey = P
+e2e-encrypt-subject =
+    .label = OpenPGP 메시지 제목 암호화
+    .accesskey = b
 e2e-encrypt-drafts =
     .label = 초안 메시지를 암호화된 형식으로 저장
     .accesskey = r
@@ -675,6 +678,17 @@ import-key-file = OpenPGP 키 파일 가져 오기
 import-rev-file = OpenPGP 폐기 파일 가져 오기
 gnupg-file = GnuPG 파일
 import-keys-failed = 키 가져 오기 실패
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = ID가 { $key }이고 { $date }에 생성된, { $username_and_email }의 비밀키를 해제할 패스프레이즈를 입력
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = ID가 { $key }인 키의 서브키인 ID가 { $subkey }이고 { $date }에 생성된, { $username_and_email }의 비밀키를 해제할 패스프레이즈를 입력
 file-to-big-to-import = 이 파일이 너무 큽니다. 한 번에 많은 키를 가져 오지 마십시오.
 
 ## Strings used in enigmailKeygen.js
