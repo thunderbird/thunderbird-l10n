@@ -391,6 +391,14 @@ spaces-pinned-button-menuitem-settings2 =
     .label = { spaces-toolbar-button-settings2.title }
 spaces-pinned-button-menuitem-show =
     .label = { spaces-toolbar-button-show.title }
+# Variables:
+# $count (Number) - Number of unread messages.
+chat-button-unread-messages = { $count }
+    .title =
+        { $count ->
+            [one] 읽지 않은 메시지 1개
+           *[other] 읽지 않은 메시지 { $count }개
+        }
 
 ## Spaces toolbar customize panel
 

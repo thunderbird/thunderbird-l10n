@@ -74,6 +74,8 @@ calendar-view-toggle-month = 월별
 
 calendar-control-bar-menu-button =
     .title = 캘린더 레이아웃 설정
+calendar-find-events-menu-option =
+    .label = 이벤트 창 찾기
 calendar-hide-weekends-option =
     .label = 업무일만 표시
 calendar-define-workweek-option =
