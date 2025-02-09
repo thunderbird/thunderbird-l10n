@@ -349,10 +349,16 @@ openpgp-radio-none =
 openpgp-radio-none-desc = 이 ID에 OpenPGP를 사용하지 마세요.
 openpgp-radio-key-not-usable = 비밀 키가 없기 때문에 이 키는 개인 키로 사용할 수 없습니다!
 openpgp-radio-key-not-accepted = 이 키를 사용하려면 개인 키로 승인해야 합니다!
+openpgp-radio-key-not-found = 이 키를 찾을 수 없습니다! 사용하려면 { -brand-short-name }로 가져와야 합니다.
 #   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = 만료일: { $date }
 #   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = 만료일: { $date }
+openpgp-key-expires-within-6-months-icon =
+    .title = 키가 6개월 이내에 만료됨
+openpgp-key-has-expired-icon =
+    .title = 키 만료됨
+openpgp-suggest-publishing-key = 공개 키를 키 서버에 공개하면 다른 사람이 발견할 수 있습니다.
 openpgp-key-expand-section =
     .tooltiptext = 자세한 정보
 openpgp-key-revoke-title = 키 폐기
@@ -385,6 +391,9 @@ key-expired-date = 키가 { $keyExpiry }에 만료됨
 key-expired-simple = 키가 만료됨
 key-revoked-simple = 키 폐기됨
 key-do-you-accept = 디지털 서명 확인 및 메시지 암호화를 위해 이 키를 수락합니까?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
+key-verification = 이메일 이외의 보안 통신 채널을 사용하여 키의 지문을 확인하여 실제로 { $addr }의 키인지 확인합니다.
 
 ## Strings enigmailMsgComposeOverlay.js
 
@@ -500,6 +509,7 @@ key-man-button-export-pub-key = 공개 키만 내보내기
 key-man-button-refresh-all = 모든 키 새로 고침
 key-man-loading-keys = 키를 가져오는 중. 잠시 기다려주세요…
 ascii-armor-file = ASCII Armored 파일 (* .asc)
+text-file = 텍스트 파일(*.txt)
 no-key-selected = 선택한 작업을 수행하려면 하나 이상의 키를 선택해야 합니다.
 export-to-file = 공개 키를 파일로 내보내기
 export-keypair-to-file = 비밀 및 공개 키를 파일로 내보내기
@@ -614,6 +624,8 @@ need-online = 선택한 기능은 오프라인 모드에서 사용할 수 없습
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
+no-key-found2 = 지정된 검색 기준과 일치하는 사용할 수 있는 키를 찾을 수 없습니다.
+no-update-found = 온라인에서 발견한 키를 이미 가지고 있습니다.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
@@ -639,6 +651,10 @@ confirm-permissive-import = 가져 오지 못했습니다. 가져 오려는 키�
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = 가져온 비밀 키 중 일부가 지원되지 않는 기능을 나타냅니다. 개인 키와 같은 키를 사용하는 경우 상대방이 호환되지 않는 형식으로 이메일이나 공개 키를 보낼 수 있습니다. 이는 { $fingerprints } 지문이 있는 가져온 비밀 키에 영향을 줍니다.
+help-button = 도움말
 
 ## Strings used in trust.sys.mjs
 
