@@ -812,6 +812,47 @@ show-synced-item-passwords = 비밀번호
 show-synced-change = 변경…
 synced-acount-item-server-config = 서버 구성
 synced-acount-item-filters = 필터
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = 모든 기기에서 이메일 계정과 주소록, 캘린더, ID를 동기화 하세요.
+sync-disconnected-turn-on-sync = 동기화 켜기...
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = { -brand-product-name } 모바일로 계정 내보내기
+qr-export-description = QR 코드를 생성하여 데스크톱에서 모바일로 계정 설정을 빠르게 보내세요. 포함할 계정을 선택하고 비밀번호를 보낼지 결정한 후 모바일 기기로 코드를 스캔하세요. 빠르고 안전하며 간단합니다.
+qr-export-get-app = 아직 모바일에 { -brand-product-name }가 없나요? <a data-l10n-name="app-link">Google Play에서 다운로드하세요</a>
+qr-export-create = 계정을 내보내기 위한 QR 코드 생성
+qr-export-select-accounts = 내보낼 계정 선택:
+qr-export-no-accounts = 모든 계정이 표시되지 않나요? 일부 계정은 Android용 { -brand-product-name }에서 지원하지 않기 때문에 비활성화되었을 수 있습니다. <a data-l10n-name="account-support-link">도움말</a>
+qr-export-accounts-legend = 이메일 계정
+qr-export-select-all-accounts = 모두 선택
+qr-export-security-legend = 보안
+qr-export-include-passwords = 모든 계정 비밀번호 포함
+qr-export-oauth-warning = 일부 계정이 모바일 기기에서 재인증이 필요할 수 있는 인증 방법을 사용합니다. 이 과정에서 비밀번호를 다시 입력해야 할 수도 있습니다.
+qr-export-security-hint = 다음 QR 코드를 스캔하면 이메일과 비밀번호를 포함한 계정 설정이 안전하게 전송됩니다. 이 과정에서 데이터를 수집이나 저장, 공유하지 않습니다. 전송은 기기 간에 직접 이루어집니다.
+qr-export-security-warning = 보안을 위해 사생활이 보호되는 상황인지 확인하고 출처를 신뢰할 수 있는 QR 코드만 스캔하세요.
+qr-export-start-export = 내보내기
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress = QR 코드 { $count }개 중 { $step }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description = 모바일 기기의 { -brand-product-name }에서 QR 코드 스캔
+qr-export-scan-step1 = 모바일 기기에서 { -brand-product-name } 열기
+qr-export-scan-step2 = 설정으로 이동
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = <strong>설정 가져오기</strong> 선택
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = <strong>QR 코드 스캔</strong>을 탭한 뒤 이 코드 위에 휴대폰을 가져다 대기
+qr-export-back = 뒤로
+qr-export-next = 다음
+qr-export-done = 완료
+qr-export-summary-description = 계정을 내보냈습니다. 모바일 기기에서 계속하세요.
+qr-export-summary-title = 내보내기 요약:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count = QR 코드 { $count }개가 생성됨
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts = 계정 { $count }개를 내보냄:
