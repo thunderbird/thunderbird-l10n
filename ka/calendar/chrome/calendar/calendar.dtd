@@ -280,7 +280,7 @@
 <!ENTITY calendarproperties.color.label                    "ფერი:">
 <!ENTITY calendarproperties.webdav.label                   "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
-<!ENTITY calendarproperties.format.label                   "ფორმატი:">
+<!ENTITY calendarproperties.format.label                   "გაფორმება:">
 <!ENTITY calendarproperties.location.label                 "მისამართი:">
 <!ENTITY calendarproperties.refreshInterval.label          "კალენდრის განახლება:">
 <!ENTITY calendarproperties.refreshInterval.manual.label   "ხელით">

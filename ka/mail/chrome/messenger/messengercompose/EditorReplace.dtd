@@ -4,13 +4,13 @@
 
 <!-- extracted from EdReplace.xhtml -->
 
-<!ENTITY replaceDialog.title "პოვნა და შეცვლა">
-<!ENTITY findField.label "რას ვეძებთ:">
-<!ENTITY findField.accesskey "n">
-<!ENTITY replaceField.label "ჩანაცვლება:">
-<!ENTITY replaceField.accesskey "e">
-<!ENTITY caseSensitiveCheckbox.label "რეგისტრის გათვალისწინებით">
-<!ENTITY caseSensitiveCheckbox.accesskey "c">
+<!ENTITY replaceDialog.title "პოვნა და ჩანაცვლება">
+<!ENTITY findField.label "მოიძებნება:">
+<!ENTITY findField.accesskey "ნ">
+<!ENTITY replaceField.label "ჩაანაცვლებს:">
+<!ENTITY replaceField.accesskey "ც">
+<!ENTITY caseSensitiveCheckbox.label "მთავრულის გათვალისწინებით">
+<!ENTITY caseSensitiveCheckbox.accesskey "მ">
 <!ENTITY wrapCheckbox.label "გადატანა">
 <!ENTITY wrapCheckbox.accesskey "W">
 <!ENTITY backwardsCheckbox.label "უკუმიმართულებით">
