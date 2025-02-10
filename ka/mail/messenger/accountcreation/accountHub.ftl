@@ -50,3 +50,5 @@ account-hub-email-confirm-button = დასტური
 
 ## Incoming/Outgoing SSL options
 
+account-hub-find-settings-failed = { -brand-full-name } ვერ ახერხებს პარამეტრების მოძიებას თქვენი ელფოსტის ანგარიშისთვის.
+account-hub-email-config-found = აირჩიეთ თქვენი ელფოსტის ანგარიშის სახეობა
