@@ -12,6 +12,8 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = CardDAV-წიგნაკის დამატება
 about-addressbook-toolbar-add-ldap-address-book =
     .label = LDAP-წიგნაკის დამატება
+books-pane-create-contact-button = ახალი პირი
+    .title = ახალი პირის დამატება
 
 ## Books
 
@@ -110,6 +112,7 @@ about-addressbook-placeholder-no-search-results = ხალხი ვერ მ�
 
 ## Details
 
+about-addressbook-new-contact-header = ახალი პირი
 about-addressbook-write-action-button = ჩაწერა
 about-addressbook-event-action-button = ღონისძიება
 about-addressbook-search-action-button = ძიება

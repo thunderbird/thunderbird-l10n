@@ -17,8 +17,14 @@ menu-addons-and-themes =
 
 ## Help Menu
 
+menu-help-help-title =
+    .label = დახმარება
+    .accesskey = რ
 menu-help-get-help =
     .label = დახმარების მიღება
+    .accesskey = ხ
+menu-help-get-release-help =
+    .label = დახმარება, როგორ გამოიყენოთ { -brand-short-name }
     .accesskey = ხ
 menu-help-share-feedback =
     .label = გაგვიზიარეთ მოსაზრებები და გამოგვეხმაურეთ

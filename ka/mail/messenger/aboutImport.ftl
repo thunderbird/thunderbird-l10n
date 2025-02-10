@@ -88,6 +88,7 @@ export-brand-name = { -brand-product-name }
 
 ## Footer area
 
+footer-help = გესაჭიროებათ დახმარება?
 
 ## Step navigation on top of the wizard pages
 

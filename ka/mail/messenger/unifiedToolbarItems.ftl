@@ -142,6 +142,9 @@ toolbar-stop =
 toolbar-throbber-label = აქტიობის მაჩვენებელი
 toolbar-throbber =
     .title = აქტიობის მაჩვენებელი
+toolbar-create-contact-label = ახალი პირი
+toolbar-create-contact =
+    .title = ახალი პირის დამატება
 
 ## New Address Book popup items
 
