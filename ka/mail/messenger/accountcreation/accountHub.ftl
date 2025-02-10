@@ -52,3 +52,5 @@ account-hub-email-confirm-button = დასტური
 
 account-hub-find-settings-failed = { -brand-full-name } ვერ ახერხებს პარამეტრების მოძიებას თქვენი ელფოსტის ანგარიშისთვის.
 account-hub-email-config-found = აირჩიეთ თქვენი ელფოსტის ანგარიშის სახეობა
+account-hub-email-enter-password = მიუთითეთ თქვენი ელფოსტის პაროლი
+account-hub-email-added-success = ელფოსტის ანგარიში დაკავშირებულია წარმატებით

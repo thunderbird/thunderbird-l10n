@@ -18,5 +18,5 @@
 <!ENTITY subscribedHeader.label       "გამოწერა">
 <!-- commenting out until bug 38906 is fixed
 <!ENTITY messagesHeader.label         "Messages"> -->
-<!ENTITY namefield.label              "ელემენტების ჩვენება რომლებიც შეიცავენ:">
+<!ENTITY namefield.label              "იმ ერთეულების ჩვენება, რომლებიც შეიცავს:">
 <!ENTITY namefield.accesskey          "O">

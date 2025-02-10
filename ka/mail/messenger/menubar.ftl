@@ -80,6 +80,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = ელფოსტის ანგარიში…
+    .accesskey = ე
 file-new-newsgroup-account =
     .label = სიახლეთა ჯგუფების ანგარიში
     .accesskey = ნ
