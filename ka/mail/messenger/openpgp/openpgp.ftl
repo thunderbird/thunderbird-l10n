@@ -598,6 +598,7 @@ confirm-permissive-import = გადმოტანა ვერ მოხე�
 
 ## Strings used in trust.jsm
 
+help-button = დახმარება
 
 ## Strings used in trust.sys.mjs
 

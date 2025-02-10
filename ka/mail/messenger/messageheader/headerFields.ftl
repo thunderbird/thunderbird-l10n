@@ -13,6 +13,8 @@ message-header-cc-list-name = ასლი
 message-header-bcc-list-name = ფარული ასლი
 message-header-newsgroups-list-name = ჯგუფები
 message-header-tags-list-name = ჭდეები
+# List management header - RFC 2369.
+message-header-list-help = დახმარება-სია
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -23,6 +25,11 @@ message-header-date-field = თარიღი<span data-l10n-name="field-separa
 message-header-user-agent-field = მომხმარებლის წარმდგენი<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = წერილის ID<span data-l10n-name="field-separator">:</span>
 message-header-website-field = საიტი<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = დახმარება-სია<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = დახმარების მიღება
+    .accesskey = ხ
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
