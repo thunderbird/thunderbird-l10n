@@ -9,19 +9,19 @@
 <!ENTITY findField.accesskey "ნ">
 <!ENTITY replaceField.label "ჩაანაცვლებს:">
 <!ENTITY replaceField.accesskey "ც">
-<!ENTITY caseSensitiveCheckbox.label "მთავრულის გათვალისწინებით">
+<!ENTITY caseSensitiveCheckbox.label "მთავრულის დამთხვევა">
 <!ENTITY caseSensitiveCheckbox.accesskey "მ">
-<!ENTITY wrapCheckbox.label "გადატანა">
-<!ENTITY wrapCheckbox.accesskey "W">
+<!ENTITY wrapCheckbox.label "სრულად მოვლა">
+<!ENTITY wrapCheckbox.accesskey "რ">
 <!ENTITY backwardsCheckbox.label "უკუმიმართულებით">
-<!ENTITY backwardsCheckbox.accesskey "b">
+<!ENTITY backwardsCheckbox.accesskey "უ">
 <!ENTITY findNextButton.label "კვლავძიება">
-<!ENTITY findNextButton.accesskey "F">
-<!ENTITY replaceButton.label "შეცვლა">
-<!ENTITY replaceButton.accesskey "R">
-<!ENTITY replaceAndFindButton.label "შეცვლა და მოძებნა">
-<!ENTITY replaceAndFindButton.accesskey "d">
+<!ENTITY findNextButton.accesskey "ლ">
+<!ENTITY replaceButton.label "ჩანაცვლება">
+<!ENTITY replaceButton.accesskey "ნ">
+<!ENTITY replaceAndFindButton.label "შეცვლა და პოვნა">
+<!ENTITY replaceAndFindButton.accesskey "ვ">
 <!ENTITY replaceAllButton.label "ყველას შეცვლა">
-<!ENTITY replaceAllButton.accesskey "A">
+<!ENTITY replaceAllButton.accesskey "ყ">
 <!ENTITY closeButton.label "დახურვა">
-<!ENTITY closeButton.accesskey "ა">
+<!ENTITY closeButton.accesskey "ხ">

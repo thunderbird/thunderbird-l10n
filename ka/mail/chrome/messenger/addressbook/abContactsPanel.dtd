@@ -19,11 +19,11 @@
 <!ENTITY searchContacts.accesskey           "ხ">
 <!ENTITY SearchNameOrEmail.label            "წერილის სახელი">
 
-<!ENTITY addtoToFieldMenu.label             "დამატება ველში">
+<!ENTITY addtoToFieldMenu.label             "დაემატოს მიმღებად">
 <!ENTITY addtoToFieldMenu.accesskey         "ვ">
-<!ENTITY addtoCcFieldMenu.label             "დამატება ასლის ველში">
+<!ENTITY addtoCcFieldMenu.label             "დაემატოს ასლის მიმღებად">
 <!ENTITY addtoCcFieldMenu.accesskey         "ს">
-<!ENTITY addtoBccFieldMenu.label            "დამატება ფარული ასლის ველში">
+<!ENTITY addtoBccFieldMenu.label            "დაემატოს ფარული ასლის მიმღებად">
 <!ENTITY addtoBccFieldMenu.accesskey        "ფ">
 <!ENTITY deleteAddrBookCard.label           "წაშლა">
 <!ENTITY deleteAddrBookCard.accesskey       "წ">
@@ -41,9 +41,9 @@
 <!ENTITY newListAbContext.label             "ახალი სია">
 <!ENTITY newListAbContext.accesskey         "ს">
 
-<!ENTITY toButton.label                     "დამატება ველში - ვის:">
+<!ENTITY toButton.label                     "დაემატოს მიმღებად:">
 <!ENTITY toButton.accesskey                 "ვ">
-<!ENTITY ccButton.label                     "დამატება ველში - ასლი:">
+<!ENTITY ccButton.label                     "დაემატოს ასლის მიმღებად:">
 <!ENTITY ccButton.accesskey                 "ს">
 <!ENTITY bccButton.label                    "ფარულ ასლებში დამატება:">
 <!ENTITY bccButton.accesskey                "ფ">
