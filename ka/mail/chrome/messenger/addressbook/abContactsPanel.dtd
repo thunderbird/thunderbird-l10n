@@ -16,7 +16,7 @@
 <!ENTITY addressbookPicker.label            "წიგნაკი:">
 <!ENTITY addressbookPicker.accesskey        "კ">
 <!ENTITY searchContacts.label               "ხალხის ძიება:">
-<!ENTITY searchContacts.accesskey           "ნ">
+<!ENTITY searchContacts.accesskey           "ხ">
 <!ENTITY SearchNameOrEmail.label            "წერილის სახელი">
 
 <!ENTITY addtoToFieldMenu.label             "დამატება ველში">

@@ -9,7 +9,7 @@
 <!ENTITY chooseColor2.label "HTML-ის ფერის სტრიქონის შეყვანა">
 <!ENTITY chooseColor2.accessKey "H">
 <!ENTITY setColorExample.label "(მაგ.: &quot;#0000ff&quot; ან &quot;blue&quot;):">
-<!ENTITY default.label "ძირითადი">
+<!ENTITY default.label "ნაგულისხმევი">
 <!ENTITY default.accessKey "D">
 <!ENTITY palette.label "პალიტრა:">
 <!ENTITY standardPalette.label "სტანდარტული">

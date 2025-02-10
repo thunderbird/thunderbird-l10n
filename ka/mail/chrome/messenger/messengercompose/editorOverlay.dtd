@@ -46,7 +46,7 @@
 <!ENTITY fontfaceMenu.accesskey "შ">
 <!ENTITY fontVarWidth.label "ცვალებადი სიგანის">
 <!ENTITY fontVarWidth.accesskey "ც">
-<!ENTITY fontFixedWidth.label "განსაზღვრული სიგანის">
+<!ENTITY fontFixedWidth.label "თანაბარი სიგანის">
 <!ENTITY fontFixedWidth.accesskey "გ">
 <!ENTITY fontFixedWidth.key "T">
 <!ENTITY fontHelvetica.label "Helvetica, Arial">

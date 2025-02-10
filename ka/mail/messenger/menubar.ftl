@@ -29,6 +29,27 @@ menu-help-enter-troubleshoot-mode =
 menu-help-exit-troubleshoot-mode =
     .label = ხარვეზის აღმოფხვრის რეჟიმის გამორთვა
     .accesskey = გ
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] გასვლა
+           *[other] დახურვა
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] გ
+           *[other] უ
+        }
+# This menu-quit-mac string is only used on macOS.
+menu-quit-mac =
+    .label = დაიხუროს { -brand-shorter-name }
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] დაიხუროს { -brand-full-name }
+           *[other] დაიხუროს { -brand-full-name }
+        }
 
 ## Mail Toolbar
 
