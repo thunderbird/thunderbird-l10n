@@ -5,6 +5,8 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Փոփոխել արագ զտիչի վահանակը
 quick-filter-button-label = Արագ զտիչ
 thread-pane-header-display-button =
     .title = Հաղորդագրությունների ցանկի ցուցադրման ընտրանքներ
@@ -170,6 +172,14 @@ folder-pane-write-message-button = Նոր նամակ
     .title = Գրել նոր նամակ
 folder-pane-more-menu-button =
     .title = Պանակի փեղկի ընտրանքներ
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Թղթապանակի ռեժիմներ
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Ցույց տալ թղթապանակի չափը
+folder-pane-header-hide-local-folders =
+    .label = Տեղային թղթապանակներ
 folder-pane-mode-context-button =
     .title = Պանակի կերպի ընտրանքներ
 folder-pane-mode-context-toggle-compact-mode =

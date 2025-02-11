@@ -17,3 +17,4 @@ calendars-table-cache-enabled = Շտեմը միացված է
 calendars-table-imip-identity = iMIP ինքնություն
 calendars-table-imip-identity-disabled = iMIP-ն անջատված է
 calendars-table-imip-identity-account = iMIP հաշիվ
+calendars-table-organizerid = Կազմակերպիչ Id

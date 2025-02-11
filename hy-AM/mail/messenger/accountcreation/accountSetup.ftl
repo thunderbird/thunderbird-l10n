@@ -142,9 +142,12 @@ exchange-dialog-cancel-button = Չեղարկել
 
 exit-dialog-cancel-button = Շարունակեք տեղակայումը
     .accesskey = C
+exit-dialog-confirm-button = Փակել տեղակայիչը
+    .accesskey = E
 
 ## Alert dialogs
 
+account-setup-creation-error-title = Փոստարկղի ստեղծման սխալ
 account-setup-confirm-advanced-title = Հաստատեք ընդլայնված կազմաձևումը
 account-setup-confirm-advanced-description = Այս պատուհանը կփակվի և գործող կարգավորումենրում հաշիվը կստեղծվի, եթե անգամ կազմաձևումը սխալ է: Ցանկանո՞ւմ եք շարունակել:
 

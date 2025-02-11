@@ -92,8 +92,10 @@ account-hub-adding-account-title = Հաշվի ավելացում
 account-hub-notification-show-more = Ցուցադրել ավելին
 account-hub-notification-show-less = Ցուցադրել ավելի քիչ
 account-hub-test-configuration = Փորձարկել
+account-hub-result-ews-shortname = Փոխանակել
 account-hub-result-ews-text = Սպասարկիչ
 account-hub-result-recommended-label = Խորհուրդ է տրվում՝
+account-hub-edit-configuration = Խմբագրել կազմաձևը
 account-hub-select-all = Նշել բոլորը
 account-hub-deselect-all = Ապանշել բոլորը
 # $count (Number) - The number of sync accounts selected.
