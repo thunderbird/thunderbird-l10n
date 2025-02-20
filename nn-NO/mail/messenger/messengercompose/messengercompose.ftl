@@ -294,6 +294,7 @@ cloud-file-attachment-error-title = Filelink-vedleggsfeil
 
 ## Link Preview
 
+link-preview-title = Førehandsvising av lenke
 link-preview-yes-replace = Ja
 
 ## Dictionary selection popup
