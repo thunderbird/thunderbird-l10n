@@ -65,6 +65,14 @@ customize-spaces-tabs =
     .aria-label = Spaces
 customize-main-toolbar-target =
     .aria-label = Thanh công cụ chính
+customize-palette-generic-title = Có sẵn cho tất cả các khu vực
+customize-palette-mail-specific-title = Chỉ dành cho khu vực Thư
+customize-palette-addressbook-specific-title = Chỉ dành cho khu vực Sổ địa chỉ
+customize-palette-calendar-specific-title = Chỉ dành cho khu vực Lịch
+customize-palette-tasks-specific-title = Chỉ dành cho khu vực Nhiệm vụ
+customize-palette-chat-specific-title = Chỉ dành cho khu vực Trò chuyện
+customize-palette-settings-specific-title = Chỉ dành cho khu vực Cài đặt
+customize-palette-extension-specific-title = Chỉ dành cho khu vực này
 
 ## Unified toolbar customization palette context menu
 
