@@ -39,12 +39,12 @@ openpgp-good-sig-with-date = Goede digitale ondertekening – Ondertekend op { $
 openpgp-sig-uncertain-no-key = Dit bericht bevat een digitale ondertekening, maar het is onzeker of deze correct is. Om de ondertekening te verifiëren, moet u een kopie van de publieke sleutel van de afzender verkrijgen.
 openpgp-sig-uncertain-uid-mismatch = Dit bericht bevat een digitale ondertekening, maar er is een verkeerde combinatie gedetecteerd. Het bericht is verzonden vanaf een e-mailadres dat niet overeenkomt met de publieke sleutel van de ondertekenaar.
 openpgp-sig-uncertain-not-accepted = Dit bericht bevat een digitale ondertekening, maar u hebt nog niet besloten of de sleutel van de ondertekenaar acceptabel voor u is.
-openpgp-sig-invalid-rejected = Dit bericht bevat een digitale handtekening, maar u hebt eerder besloten de sleutel van de ondertekenaar te weigeren.
-openpgp-sig-invalid-technical-problem = Dit bericht bevat een digitale handtekening, maar er is een technische fout gedetecteerd. Het bericht is beschadigd of het bericht is door iemand anders gewijzigd.
+openpgp-sig-invalid-rejected = Dit bericht bevat een digitale ondertekening, maar u hebt eerder besloten de sleutel van de ondertekenaar te weigeren.
+openpgp-sig-invalid-technical-problem = Dit bericht bevat een digitale ondertekening, maar er is een technische fout gedetecteerd. Het bericht is beschadigd of het bericht is door iemand anders gewijzigd.
 openpgp-sig-invalid-date-mismatch = Dit bericht bevat een digitale ondertekening, maar de ondertekening is niet gemaakt op het moment dat het e-mailbericht is verzonden. Dit kan een poging zijn om u te misleiden met inhoud uit de verkeerde context: bijvoorbeeld inhoud die in een andere tijdscontext is geschreven of voor iemand anders bedoeld is.
-openpgp-sig-valid-unverified = Dit bericht bevat een geldige digitale handtekening van een sleutel die u al hebt geaccepteerd. U hebt echter nog niet geverifieerd dat de sleutel daadwerkelijk van de afzender is.
-openpgp-sig-valid-verified = Dit bericht bevat een geldige digitale handtekening van een geverifieerde sleutel.
-openpgp-sig-valid-own-key = Dit bericht bevat een geldige digitale handtekening van uw persoonlijke sleutel.
+openpgp-sig-valid-unverified = Dit bericht bevat een geldige digitale ondertekening van een sleutel die u al hebt geaccepteerd. U hebt echter nog niet geverifieerd dat de sleutel daadwerkelijk van de afzender is.
+openpgp-sig-valid-verified = Dit bericht bevat een geldige digitale ondertekening van een geverifieerde sleutel.
+openpgp-sig-valid-own-key = Dit bericht bevat een geldige digitale ondertekening van uw persoonlijke sleutel.
 # Variables:
 # $key (String) - The ID of the OpenPGP key used to create the signature.
 openpgp-sig-key-id = Sleutel-ID ondertekenaar: { $key }
@@ -74,13 +74,13 @@ openpgp-message-header-encrypted-ok-icon =
 openpgp-message-header-encrypted-notok-icon =
     .alt = Ontsleutelen mislukt
 openpgp-message-header-signed-ok-icon =
-    .alt = Goede handtekening
+    .alt = Goede ondertekening
 # Mismatch icon is used for notok state as well
 openpgp-message-header-signed-mismatch-icon =
-    .alt = Slechte handtekening
+    .alt = Slechte ondertekening
 openpgp-message-header-signed-unknown-icon =
-    .alt = Onbekende handtekeningstatus
+    .alt = Onbekende ondertekeningstatus
 openpgp-message-header-signed-verified-icon =
-    .alt = Geverifieerde handtekening
+    .alt = Geverifieerde ondertekening
 openpgp-message-header-signed-unverified-icon =
-    .alt = Niet-geverifieerde handtekening
+    .alt = Niet-geverifieerde ondertekening

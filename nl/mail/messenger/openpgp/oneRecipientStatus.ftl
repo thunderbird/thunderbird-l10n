@@ -21,8 +21,8 @@ openpgp-pubkey-import-intro =
 # $num (Number) - Number of keys to accept.
 openpgp-pubkey-import-accept =
     { $num ->
-        [one] Accepteert u deze sleutel voor het verifiëren van digitale handtekeningen en voor het versleutelen van berichten, voor alle getoonde e-mailadressen?
-       *[other] Accepteert u deze sleutels voor het verifiëren van digitale handtekeningen en voor het versleutelen van berichten, voor alle getoonde e-mailadressen?
+        [one] Accepteert u deze sleutel voor het verifiëren van digitale ondertekeningen en voor het versleutelen van berichten, voor alle getoonde e-mailadressen?
+       *[other] Accepteert u deze sleutels voor het verifiëren van digitale ondertekeningen en voor het versleutelen van berichten, voor alle getoonde e-mailadressen?
     }
 pubkey-import-button =
     .buttonlabelaccept = Importeren

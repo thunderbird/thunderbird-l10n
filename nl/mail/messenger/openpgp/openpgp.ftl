@@ -35,7 +35,7 @@ e2e-csr-include-email = E-mailadres ({ $email }) opnemen in CSR (aanbevolen)
 e2e-csr-success = De CSR is met succes opgeslagen naar { $file }
 # $file A filename
 e2e-csr-failure = Kan de CSR niet naar bestand { $file } opslaan
-e2e-signing-description = Met een digitale handtekening kunnen ontvangers controleren of het bericht door u is verzonden en of de inhoud niet is gewijzigd. Versleutelde berichten worden altijd standaard ondertekend.
+e2e-signing-description = Met een digitale ondertekening kunnen ontvangers controleren of het bericht door u is verzonden en of de inhoud niet is gewijzigd. Versleutelde berichten worden altijd standaard ondertekend.
 e2e-sign-message =
     .label = Onversleutelde berichten ondertekenen
     .accesskey = O
@@ -48,7 +48,7 @@ e2e-enable-enc =
 e2e-enable-description = U kunt versleuteling voor afzonderlijke berichten uitschakelen.
 e2e-advanced-section = Geavanceerde instellingen
 e2e-attach-key =
-    .label = Mijn publieke sleutel bijvoegen als ik een digitale OpenPGP-handtekening toevoeg
+    .label = Mijn publieke sleutel bijvoegen als ik een digitale OpenPGP-ondertekening toevoeg
     .accesskey = p
 e2e-encrypt-subject =
     .label = Het onderwerp van OpenPGP-berichten versleutelen
@@ -403,7 +403,7 @@ key-does-not-expire = De sleutel vervalt niet
 key-expired-date = De sleutel is vervallen op { $keyExpiry }
 key-expired-simple = De sleutel is vervallen
 key-revoked-simple = De sleutel is ingetrokken
-key-do-you-accept = Accepteert u deze sleutel voor het verifiëren van digitale handtekeningen en voor het versleutelen van berichten?
+key-do-you-accept = Accepteert u deze sleutel voor het verifiëren van digitale ondertekeningen en voor het versleutelen van berichten?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
 key-verification = Controleer de vingerafdruk van de sleutel met een ander beveiligd communicatiekanaal dan e-mail om er zeker van te zijn dat het echt de sleutel van { $addr } is.
@@ -724,19 +724,19 @@ failed-decrypt = Fout – ontsleuteling mislukt
 fix-broken-exchange-msg-failed = Kon bericht niet repareren.
 # Variables:
 # $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Kan handtekeningbestand ‘{ $attachment }’ niet koppelen aan een bijlage
+attachment-no-match-from-signature = Kan ondertekeningbestand ‘{ $attachment }’ niet koppelen aan een bijlage
 # Variables:
 # $attachment (String) - File name of the attachment.
-attachment-no-match-to-signature = Kan bijlage ‘{ $attachment }’ niet koppelen aan een handtekeningbestand
+attachment-no-match-to-signature = Kan bijlage ‘{ $attachment }’ niet koppelen aan een ondertekeningbestand
 # Variables:
 # $attachment (String) - File name of the attachment
-signature-verified-ok = De handtekening voor bijlage { $attachment } is met succes geverifieerd
+signature-verified-ok = De ondertekening voor bijlage { $attachment } is met succes geverifieerd
 # Variables:
 # $attachment (String) - File name of the attachment
-signature-verify-failed = De handtekening voor bijlage { $attachment } kan niet worden geverifieerd
+signature-verify-failed = De ondertekening voor bijlage { $attachment } kan niet worden geverifieerd
 decrypt-ok-no-sig =
     Waarschuwing
-    Het ontsleutelen is gelukt, maar de handtekening kan niet correct worden geverifieerd
+    Het ontsleutelen is gelukt, maar de ondertekening kan niet correct worden geverifieerd
 msg-ovl-button-cont-anyway = Toch &doorgaan
 enig-content-note = *Bijlagen bij dit bericht zijn niet ondertekend of versleuteld*
 
@@ -798,7 +798,7 @@ do-import-one = { $name } ({ $id }) importeren?
 cant-import = Fout bij importeren publieke sleutel
 unverified-reply = Het ingesprongen berichtgedeelte (antwoord) is waarschijnlijk gewijzigd
 key-in-message-body = Er is een sleutel gevonden in de berichttekst. Klik op ‘Sleutel importeren’ om de sleutel te importeren
-sig-mismatch = Fout – handtekening komt niet overeen
+sig-mismatch = Fout – ondertekening komt niet overeen
 invalid-email = Fout – ongeldig(e) e-mailadres(sen)
 # Variables:
 # $name (String) - File name of the attachment.

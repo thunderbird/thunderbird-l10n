@@ -15,7 +15,7 @@ openpgp-ctx-import-key =
     .label = OpenPGP-sleutel importeren
     .accesskey = i
 openpgp-ctx-verify-att =
-    .label = Handtekening verifiëren
+    .label = Ondertekening verifiëren
     .accesskey = v
 openpgp-has-sender-key = Dit bericht beweert de publieke OpenPGP-sleutel van de afzender te bevatten.
 # Variables:
@@ -45,7 +45,7 @@ openpgp-cannot-decrypt-because-mdc =
 openpgp-cannot-decrypt-because-missing-key = De geheime sleutel die nodig is om dit bericht te ontsleutelen, is niet beschikbaar.
 openpgp-partially-signed =
     Slechts een deel van dit bericht is digitaal ondertekend met OpenPGP.
-    Als u op de verificatieknop klikt, worden de onbeschermde delen verborgen en wordt de status van de digitale handtekening weergegeven.
+    Als u op de verificatieknop klikt, worden de onbeschermde delen verborgen en wordt de status van de digitale ondertekening weergegeven.
 openpgp-partially-encrypted =
     Slechts een deel van dit bericht is versleuteld met OpenPGP.
     De leesbare delen van het bericht die al worden weergegeven, zijn niet versleuteld.
