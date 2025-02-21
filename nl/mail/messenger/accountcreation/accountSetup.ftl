@@ -227,7 +227,7 @@ account-setup-addon-no-protocol = Deze e-mailserver ondersteunt helaas geen open
 
 account-setup-settings-button = Accountinstellingen
 account-setup-encryption-button = End-to-end-versleuteling
-account-setup-signature-button = Een handtekening toevoegen
+account-setup-signature-button = Een ondertekening toevoegen
 account-setup-dictionaries-button = Woordenboeken downloaden
 account-setup-address-book-carddav-button = Verbinding maken met een CardDAV-adresboek
 account-setup-address-book-ldap-button = Verbinding maken met een LDAP-adresboek

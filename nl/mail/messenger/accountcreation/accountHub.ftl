@@ -131,4 +131,4 @@ account-hub-sync-accounts-selected =
 account-hub-no-address-books = Geen adresboeken gevonden
 account-hub-no-calendars = Geen agenda’s gevonden
 account-hub-email-added-success-links-title = Opties voor beveiliging en personalisatie verkennen:
-account-hub-signature-link = E-mailhandtekening
+account-hub-signature-link = E-mailondertekening

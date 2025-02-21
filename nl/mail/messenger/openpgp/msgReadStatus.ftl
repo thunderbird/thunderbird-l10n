@@ -18,27 +18,27 @@ openpgp-view-signer-key =
 openpgp-view-your-encryption-key =
     .label = Uw ontsleutelingssleutel bekijken
 openpgp-openpgp = OpenPGP
-openpgp-no-sig = Geen digitale handtekening
+openpgp-no-sig = Geen digitale ondertekening
 openpgp-no-sig-info = Dit bericht bevat geen digitale ondertekening van de afzender. De afwezigheid van een digitale ondertekening betekent dat dit bericht door iemand anders dan de werkelijke eigenaar van dit e-mailadres kan zijn verzonden. Het is ook mogelijk dat het bericht is verminkt tijdens het versturen over het netwerk.
-openpgp-uncertain-sig = Onzekere digitale handtekening
+openpgp-uncertain-sig = Onzekere digitale ondertekening
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
-openpgp-uncertain-sig-with-date = Onzekere digitale handtekening – Ondertekend op { $date }
-openpgp-invalid-sig = Ongeldige digitale handtekening
+openpgp-uncertain-sig-with-date = Onzekere digitale ondertekening – Ondertekend op { $date }
+openpgp-invalid-sig = Ongeldige digitale ondertekening
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
-openpgp-invalid-sig-with-date = Ongeldige digitale handtekening – Ondertekend op { $date }
-openpgp-bad-date-sig = Datum van handtekening komt niet overeen
+openpgp-invalid-sig-with-date = Ongeldige digitale ondertekening – Ondertekend op { $date }
+openpgp-bad-date-sig = Datum van ondertekening komt niet overeen
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-bad-date-sig-with-date = Ondertekeningsdatum komt niet overeen – Ondertekend op { $date }
-openpgp-good-sig = Goede digitale handtekening
+openpgp-good-sig = Goede digitale ondertekening
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
-openpgp-good-sig-with-date = Goede digitale handtekening – Ondertekend op { $date }
-openpgp-sig-uncertain-no-key = Dit bericht bevat een digitale handtekening, maar het is onzeker of deze correct is. Om de handtekening te verifiëren, moet u een kopie van de publieke sleutel van de afzender verkrijgen.
-openpgp-sig-uncertain-uid-mismatch = Dit bericht bevat een digitale handtekening, maar er is een verkeerde combinatie gedetecteerd. Het bericht is verzonden vanaf een e-mailadres dat niet overeenkomt met de publieke sleutel van de ondertekenaar.
-openpgp-sig-uncertain-not-accepted = Dit bericht bevat een digitale handtekening, maar u hebt nog niet besloten of de sleutel van de ondertekenaar acceptabel voor u is.
+openpgp-good-sig-with-date = Goede digitale ondertekening – Ondertekend op { $date }
+openpgp-sig-uncertain-no-key = Dit bericht bevat een digitale ondertekening, maar het is onzeker of deze correct is. Om de ondertekening te verifiëren, moet u een kopie van de publieke sleutel van de afzender verkrijgen.
+openpgp-sig-uncertain-uid-mismatch = Dit bericht bevat een digitale ondertekening, maar er is een verkeerde combinatie gedetecteerd. Het bericht is verzonden vanaf een e-mailadres dat niet overeenkomt met de publieke sleutel van de ondertekenaar.
+openpgp-sig-uncertain-not-accepted = Dit bericht bevat een digitale ondertekening, maar u hebt nog niet besloten of de sleutel van de ondertekenaar acceptabel voor u is.
 openpgp-sig-invalid-rejected = Dit bericht bevat een digitale handtekening, maar u hebt eerder besloten de sleutel van de ondertekenaar te weigeren.
 openpgp-sig-invalid-technical-problem = Dit bericht bevat een digitale handtekening, maar er is een technische fout gedetecteerd. Het bericht is beschadigd of het bericht is door iemand anders gewijzigd.
 openpgp-sig-invalid-date-mismatch = Dit bericht bevat een digitale ondertekening, maar de ondertekening is niet gemaakt op het moment dat het e-mailbericht is verzonden. Dit kan een poging zijn om u te misleiden met inhoud uit de verkeerde context: bijvoorbeeld inhoud die in een andere tijdscontext is geschreven of voor iemand anders bedoeld is.
