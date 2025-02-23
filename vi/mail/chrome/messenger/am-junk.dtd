@@ -27,5 +27,5 @@
 <!ENTITY junkClassification.label "Phần được chọn">
 <!ENTITY junkActions.label "Đích đến và thời gian lưu trữ">
 
-<!ENTITY globalJunkPrefs.label "Tuỳ chỉnh thư rác bao quát…">
+<!ENTITY globalJunkPrefs.label "Tuỳ chỉnh tổng quát thư rác…">
 <!ENTITY globalJunkPrefs.accesskey "G">
