@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Manter estrutura atual da pasta de mensagens arquivadas
     .accesskey = e
+recreate-inbox =
+    .label = Recriar caixa de entrada
+    .accesskey = R
 archive-example-label = Exemplo
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,5 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Caixa de entrada
+child-folder-name =
+    .label = Sub-pasta da caixa de entrada
