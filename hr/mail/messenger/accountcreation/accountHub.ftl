@@ -129,4 +129,7 @@ account-hub-sync-accounts-selected =
         [few] { $count } odabrana
        *[other] { $count } odabranih
     }
-account-hub-no-address-books = Nema pronađenih adresara
+account-hub-no-address-books = Niti jedan adresar nije pronađen
+account-hub-no-calendars = Niti jedan kalendar nije pronađen
+account-hub-email-added-success-links-title = Istražite mogućnosti za sigurnost i personalizaciju:
+account-hub-signature-link = Potpis e-pošte
