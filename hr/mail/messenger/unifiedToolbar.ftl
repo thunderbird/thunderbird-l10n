@@ -10,6 +10,8 @@
 
 search-bar-button =
     .alt = Traži
+search-bar-item2 =
+    .label = Pretraživanje
 search-bar-placeholder = Traži…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key

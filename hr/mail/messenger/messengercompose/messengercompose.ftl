@@ -422,3 +422,5 @@ link-preview-yes-replace = Da
 spell-add-dictionaries =
     .label = Dodaj rječnike…
     .accesskey = a
+subject-encription-icon =
+    .title = Naslov neće biti kriptiran

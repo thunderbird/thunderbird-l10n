@@ -8,10 +8,18 @@ about-addressbook-title = Adresar
 
 about-addressbook-toolbar-new-address-book =
     .label = Novi adresar
+about-addressbook-toolbar-add-address-book =
+    .label = Dodaj lokalni adresar
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Dodaj CardDAV adresar
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Dodaj LDAP adresar
+books-pane-create-contact-button = Novi kontakt
+    .title = Stvori novi kontakt
+books-pane-create-book-button =
+    .title = Stvori novi adresar
+books-pane-create-list-button =
+    .title = Stvori novi popis primatelja
 books-pane-import-button = Uvezi
     .title = Uvezi adresare
 
