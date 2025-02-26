@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Zadrži postojeću strukturu mapa arhiviranih poruka
     .accesskey = Z
+recreate-inbox =
+    .label = Ponovno stvori mapu pristigle pošte
+    .accesskey = r
 archive-example-label = Primjer
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Primljena pošta
+child-folder-name =
+    .label = Podmapa primljene pošte
+sibling-folder-name =
+    .label = Srodna mapa primljenoj pošti
