@@ -52,8 +52,16 @@ account-hub-email-continue-button = Nastavi
 account-hub-email-confirm-button = Potvrdi
 account-hub-incoming-server-legend = Dolazni poslužitelj
 account-hub-outgoing-server-legend = Odlazni poslužitelj
+account-hub-result-incoming-server-legend = Dolazni poslužitelj
+    .title = Dolazni poslužitelj
+account-hub-result-outgoing-server-legend = Odlazni poslužitelj
+    .title = Odlazni poslužitelj
 account-hub-protocol-label = Protokol
 account-hub-hostname-label = Adresa poslužitelja
+account-hub-result-hostname-label = Adresa poslužitelja
+    .title = Adresa poslužitelja
+account-hub-result-authentication-label = Autentifikacija
+    .title = Autentifikacija
 account-hub-port-label = Port
     .title = Postavite broj porta na 0 za automatsko otkrivanje
 account-hub-auto-description = { -brand-short-name } će pokušati automatski otkriti polja koja su ostavljena prazna.
@@ -78,6 +86,8 @@ account-hub-auth-no-authentication-option =
     .label = Bez provjere autentičnosti
 account-hub-auth-label = Metoda provjere autentičnosti
 account-hub-username-label = Korisničko ime
+account-hub-result-username-label = Korisničko ime
+    .title = Korisničko ime
 account-hub-name-label = Puno ime
     .accesskey = n
 account-hub-adding-account-title = Dodavanje računa
@@ -96,3 +106,27 @@ account-hub-email-enter-password = Unesite lozinku računa e-pošte
 account-hub-email-sync-accounts = Sinkronizirajte svoje kalendare i adresare
 account-hub-test-configuration = Testiraj
 account-hub-add-new-email = Dodajte drugi račun e-pošte
+account-hub-result-imap-description = Držite vaše mape i poruke e-pošte sinkronizirane na svom poslužitelju
+account-hub-result-pop-description = Držite vaše mape i poruke e-pošte na svom računalu
+account-hub-result-ews-shortname = Exchange
+account-hub-result-ews-description = Koristite Microsoft Exchange Web Services za sinkronizaciju mapa i e-pošte
+account-hub-result-ews-text = Poslužitelj
+account-hub-result-recommended-label = Preporučeno
+account-hub-edit-configuration = Uredi konfiguraciju
+account-hub-config-success = Postavke pronađene u Mozilla ISPDB
+account-hub-password-info = Vaše vjerodajnice biti će pohranjene samo lokalno na vašem računalu
+account-hub-sync-success = Thunderbird je pronašao neke povezane usluge
+account-hub-sync-failure = Thunderbird nije mogao pronaći povezane usluge
+account-hub-unable-to-sync-accounts = Thunderbird nije uspio povezati odabrane usluge
+account-hub-email-added-success = Račun e-pošte uspješno je povezan
+account-hub-config-test-success = Postavke konfiguracije važeće
+account-hub-select-all = Označi sve
+account-hub-deselect-all = Poništi odabir
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] { $count } odabran
+        [few] { $count } odabrana
+       *[other] { $count } odabranih
+    }
+account-hub-no-address-books = Nema pronađenih adresara

@@ -36,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Molim pričekajte…
 openpgp-has-nested-encrypted-parts = Ova poruka uključuje dodatne šifrirane dijelove.
 openpgp-show-encrypted-parts = Dešifriraj i prikaži
+openpgp-has-nested-signed-parts = Neki dijelovi ove poruke mogu biti digitalno potpisani.
+openpgp-show-signed-parts = Otvori i prikaži
 openpgp-cannot-decrypt-because-mdc =
     Ovo je šifrirana poruka koja koristi stari i ranjivi mehanizam.
     Mogla je biti izmijenjena u tranzitu s namjerom krađe sadržaja.
