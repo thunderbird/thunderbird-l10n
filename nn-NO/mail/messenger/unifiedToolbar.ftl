@@ -38,6 +38,7 @@ customize-space-tab-chat = Chatt
     .title = Chatt
 customize-space-tab-settings = Innstillingar
     .title = Innstillingar
+customize-restore-default = Gjenopprett standard
 customize-change-appearance = Endre utsjånad…
 customize-button-style-label = Knappestil:
 customize-button-style-icons-beside-text-option = Ikon ved sida av teksten
