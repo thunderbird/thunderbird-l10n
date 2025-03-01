@@ -25,6 +25,7 @@ category-calendar =
 pane-sync-title = Sincronizar
 category-sync =
     .tooltiptext = Sincronizar
+pane-qr-export-title = Exportar para móvil
 general-language-and-appearance-header = Idioma y apariencia
 general-incoming-mail-header = Correos entrantes
 general-files-and-attachment-header = Archivos y adjuntos
@@ -397,9 +398,15 @@ open-msg-ex-window =
 close-move-delete =
     .label = Cerrar ventana/pestaña de mensaje al mover o borrar
     .accesskey = C
+address-display-legend = Lista de mensajes
 condensed-addresses-label =
     .label = Mostrar solo el nombre para mostrar de las personas en mi libreta de direcciones
     .accesskey = S
+table-layout-legend = Vista de tabla
+table-layout-horizontal-scroll-label =
+    .label = Permitir desplazamiento horizontal
+    .accesskey = h
+conversation-view-legend = Vista de conversación
 
 ## Compose Tab
 
@@ -603,6 +610,22 @@ certificate-button =
 security-devices-button =
     .label = Dispositivos de seguridad…
     .accesskey = D
+email-e2ee-header = Cifrado de correo electrónico de extremo a extremo
+account-settings = Configuración de la cuenta
+email-e2ee-enable-info = Configura cuentas de correo electrónico e identidades para el cifrado de extremo a extremo en los ajustes de la cuenta.
+email-e2ee-automatism = Uso automático de cifrado
+email-e2ee-automatism-pre =
+    { -brand-short-name } puede ayudarte habilitando o deshabilitando automáticamente el cifrado mientras redactas un correo electrónico.
+    La habilitación/deshabilitación automática se basa en la disponibilidad de claves o certificados válidos y aceptados de los corresponsales.
+email-e2ee-auto-on =
+    .label = Habilita automáticamente el cifrado cuando sea posible
+email-e2ee-auto-off =
+    .label = Deshabilita automáticamente el cifrado cuando los destinatarios cambien y el cifrado ya no sea posible
+email-e2ee-auto-off-notify =
+    .label = Mostrar una notificación cada vez que el cifrado se deshabilite automáticamente
+email-e2ee-automatism-post =
+    Las decisiones automáticas pueden anularse al habilitar o deshabilitar manualmente el cifrado al redactar un mensaje.
+    Nota: el cifrado siempre se habilita automáticamente al responder a un mensaje cifrado.
 
 ## Chat Tab
 
@@ -755,3 +778,11 @@ sync-disconnected-turn-on-sync = Activar sincronización…
 
 ## Mobile QR Export Pane
 
+qr-export-back = Atrás
+qr-export-next = Siguiente
+qr-export-done = Hecho
+qr-export-summary-description = Cuentas exportadas. Continúa en tu dispositivo móvil.
+qr-export-summary-title = Resumen de exportación:
+qr-export-summary-passwords-included = Contraseñas incluidas
+qr-export-summary-passwords-excluded = Contraseñas excluidas
+qr-export-more-accounts = Exportar más cuentas

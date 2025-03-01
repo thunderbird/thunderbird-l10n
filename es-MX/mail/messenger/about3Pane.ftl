@@ -185,9 +185,34 @@ folder-pane-header-context-hide =
     .label = Ocultar cabecera del panel de carpetas
 folder-pane-show-total-toggle =
     .label = Mostrar la cantidad total de mensajes
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Mostrar tamaño de carpeta
+folder-pane-header-hide-local-folders =
+    .label = Ocultar carpetas locales
+folder-pane-mode-context-button =
+    .title = Opciones del modo de carpeta
 folder-pane-mode-context-toggle-compact-mode =
     .label = Vista compacta
     .accesskey = C
+folder-pane-mode-move-up =
+    .label = Subir
+folder-pane-mode-move-down =
+    .label = Bajar
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] mensaje sin leer
+       *[other] mensajes sin leer
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] Mensaje en total
+       *[other] Mensajes en total
+    }
 
 ## Message thread pane
 
@@ -199,14 +224,20 @@ threadpane-column-header-deselect-all =
     .title = Deseleccionar todos los mensajes
 threadpane-column-label-select =
     .label = Seleccionar mensajes
+threadpane-cell-select =
+    .aria-label = Seleccionar mensaje
 threadpane-column-header-thread =
     .title = Activar/desactivar conversaciones de mensajes
 threadpane-column-label-thread =
     .label = Conversación
+threadpane-cell-thread =
+    .aria-label = Estado de conversación
 threadpane-column-header-flagged =
     .title = Ordenar por estrella
 threadpane-column-label-flagged =
     .label = Con estrella
+threadpane-cell-flagged =
+    .aria-label = Destacados
 threadpane-flagged-cell-label = Destacados
 threadpane-column-header-attachments =
     .title = Ordenar por adjuntos
@@ -219,19 +250,35 @@ threadpane-column-header-spam =
     .title = Ordenar por estado de mensaje no deseado
 threadpane-column-label-spam =
     .label = Spam
+threadpane-cell-spam =
+    .aria-label = Estatus de spam
 threadpane-spam-cell-label = Spam
 threadpane-column-header-unread-button =
     .title = Ordenar por estado de lectura
 threadpane-column-label-unread-button =
     .label = Leer estado
+threadpane-cell-read-status =
+    .aria-label = Estatus de lectura
+threadpane-read-cell-label = Leído
+threadpane-unread-cell-label = No leído
 threadpane-column-header-sender = Remitente
     .title = Ordenar por remitente
 threadpane-column-label-sender =
     .label = Remitente
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = De
+    .title = { $title }
 threadpane-column-header-recipient = Destinatario
     .title = Ordenar por destinatario
 threadpane-column-label-recipient =
     .label = Destinatario
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Destinatario
+    .title = { $title }
 threadpane-column-header-correspondents = Participantes
     .title = Ordenar por participantes
 threadpane-column-label-correspondents =
@@ -240,10 +287,20 @@ threadpane-column-header-subject = Asunto
     .title = Ordenar por asunto
 threadpane-column-label-subject =
     .label = Asunto
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Asunto
+    .title = { $title }
 threadpane-column-header-date = Fecha
     .title = Ordenar por fecha
 threadpane-column-label-date =
     .label = Fecha
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Fecha
+    .title = { $title }
 threadpane-column-header-received = Recibido
     .title = Ordenar por fecha de recepción
 threadpane-column-label-received =
@@ -252,34 +309,74 @@ threadpane-column-header-status = Estado
     .title = Ordenar por estado
 threadpane-column-label-status =
     .label = Estado
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Estado
+    .title = { $title }
 threadpane-column-header-size = Tamaño
     .title = Ordenar por tamaño
 threadpane-column-label-size =
     .label = Tamaño
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Tamaño
+    .title = { $title }
 threadpane-column-header-tags = Etiqueta
     .title = Ordenar por etiquetas
 threadpane-column-label-tags =
     .label = Etiqueta
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Etiquetas:
+    .title = { $title }
 threadpane-column-header-account = Cuenta
     .title = Ordenar por cuenta
 threadpane-column-label-account =
     .label = Cuenta
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Cuenta
+    .title = { $title }
 threadpane-column-header-priority = Prioridad
     .title = Ordenar por prioridad
 threadpane-column-label-priority =
     .label = Prioridad
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Prioridad
+    .title = { $title }
 threadpane-column-header-unread = No leído
     .title = Número de mensajes no leídos en la conversación
 threadpane-column-label-unread =
     .label = No leído
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Número de mensajes no leídos
+    .title = { $title }
 threadpane-column-header-total = Total
     .title = Total de mensajes en la conversación
 threadpane-column-label-total =
     .label = Total
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Número total de mensajes
+    .title = { $title }
 threadpane-column-header-location = Ubicación
     .title = Ordenar por ubicación
 threadpane-column-label-location =
     .label = Ubicación
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Ubicación
+    .title = { $title }
 threadpane-column-header-id = Orden de recibido
     .title = Ordenar por orden de recepción
 threadpane-column-label-id =
@@ -288,6 +385,15 @@ threadpane-column-header-delete =
     .title = Eliminar un mensaje
 threadpane-column-label-delete =
     .label = Eliminar
+threadpane-cell-delete =
+    .aria-label = Eliminar
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } respuesta
+       *[other] { $count } respuestas
+    }
 
 ## Message state variations
 
@@ -303,6 +409,18 @@ threadpane-message-redirected =
 threadpane-message-forwarded =
     .alt = Indicador de mensaje reenviado
     .title = Mensaje reenviado
+threadpane-message-replied-forwarded =
+    .alt = Indicador de respuesta y reenvío
+    .title = Mensaje respondido y reenviado
+threadpane-message-replied-redirected =
+    .alt = Indicador de respuesta y redirección
+    .title = Mensaje respondido y redirigido
+threadpane-message-forwarded-redirected =
+    .alt = Indicador reenviado y redirigido
+    .title = Mensaje reenviado y redirigido
+threadpane-message-replied-forwarded-redirected =
+    .alt = Indicador de respuesta, reenvío y redirección
+    .title = Mensaje respondido, reenviado y redirigido
 apply-columns-to-menu =
     .label = Aplicar columnas a…
 apply-current-view-to-menu =
@@ -327,6 +445,17 @@ apply-current-view-to-folder-message = ¿Aplicar la vista de la carpeta actual a
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = ¿Aplicar la vista de la carpeta actual a { $name } y sus elementos secundarios?
+message-list-placeholder-no-messages = Mensaje no encontrado
+message-list-placeholder-multiple-folders = Varias carpetas seleccionadas
 
 ## Folder pane context menu
 
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Marcar carpeta como leída
+           *[other] Marcar carpeta como leída
+        }
+    .accesskey = k

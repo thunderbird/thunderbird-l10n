@@ -21,13 +21,27 @@ openpgp-openpgp = OpenPGP
 openpgp-no-sig = Sin firma digital
 openpgp-no-sig-info = Este mensaje no incluye la firma digital del remitente. La ausencia de una firma digital significa que el mensaje podría haber sido enviado por alguien que finge tener esta dirección de correo electrónico. También es posible que el mensaje haya sido alterado mientras circulaba por la red.
 openpgp-uncertain-sig = Firma digital incierta
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-uncertain-sig-with-date = Firma digital incierta - Firmada el { $date }
 openpgp-invalid-sig = Firma digital no válida
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-invalid-sig-with-date = Firma digital no válida: firmada el { $date }
+openpgp-bad-date-sig = Fecha de firma no coincide
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Ficha de firma no coincide - firmado el { $date }
 openpgp-good-sig = Buena firma digital
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-good-sig-with-date = Firma digital válida: firmada el { $date }
 openpgp-sig-uncertain-no-key = Este mensaje contiene una firma digital, pero no está claro si es correcta. Para verificar la firma, necesitas obtener una copia de la clave pública del remitente.
 openpgp-sig-uncertain-uid-mismatch = Este mensaje contiene una firma digital, pero se detectó una discrepancia. El mensaje fue enviado desde una dirección de correo electrónico que no coincide con la clave pública del firmante.
 openpgp-sig-uncertain-not-accepted = Este mensaje contiene una firma digital, pero aún no has decidido si la clave del firmante es aceptable para ti.
 openpgp-sig-invalid-rejected = Este mensaje contiene una firma digital, pero previamente decidiste rechazar la clave del firmante.
 openpgp-sig-invalid-technical-problem = Este mensaje contiene una firma digital, pero se detectó un error técnico. O el mensaje ha sido corrompido o alguien más lo ha modificado.
+openpgp-sig-invalid-date-mismatch = Este mensaje tiene firma digital, pero la firma no se hizo al mismo tiempo que se envió el correo electrónico. Esto podría ser un intento de estafa con contenido erróneo:  p.e. contenido escrito en otro contexto actual o destinado a alguien más.
 openpgp-sig-valid-unverified = Este mensaje incluye una firma digital válida de una clave que ya has aceptado. Sin embargo, aún no has verificado que la clave sea propiedad del remitente.
 openpgp-sig-valid-verified = Este mensaje incluye una firma digital válida de una clave verificada.
 openpgp-sig-valid-own-key = Este mensaje incluye una firma digital válida de tu clave personal.

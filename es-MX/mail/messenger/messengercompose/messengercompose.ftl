@@ -184,6 +184,10 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Gestor de claves
     .accesskey = G
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = No está configurado para enviar mensajes cifrados de extremo a extremo desde { $addr }.
 key-notification-disable-encryption =
     .label = No cifrar
     .accesskey = N
@@ -270,6 +274,7 @@ many-public-recipients-prompt-send = Enviar de todos modos
 compose-missing-identity-warning = No se encontró una identidad única que coincida con la dirección del remitente. El mensaje se enviará usando el remitente actual y la configuración de la identidad { $identity }.
 encrypted-bcc-warning = Al enviar un mensaje cifrado, los destinatarios en Cco no están completamente ocultos. Todos los destinatarios pueden identificarlos.
 encrypted-bcc-ignore-button = Entendido
+auto-disable-e2ee-warning = El cifrado de extremo a extremo para este mensaje se deshabilitó automáticamente.
 
 ## Editing
 

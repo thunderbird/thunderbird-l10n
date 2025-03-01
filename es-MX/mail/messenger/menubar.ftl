@@ -91,9 +91,15 @@ menu-view-repair-text-encoding =
 
 ## View / Folders
 
+menu-view-folders-toggle-header =
+    .label = Encabezado del panel de carpetas
+    .accesskey = C
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Encabezado de la lista de mensajes
+    .accesskey = E
 menu-font-size-label =
     .label = Tamaño de letra
     .accesskey = o
@@ -124,6 +130,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Cuenta de correo electrónico…
+    .accesskey = E
 file-new-newsgroup-account =
     .label = Cuenta de grupos de noticias…
     .accesskey = N

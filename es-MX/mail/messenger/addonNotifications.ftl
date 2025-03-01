@@ -34,6 +34,8 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = Este sitio solicita acceso a tus dispositivos MIDI (Interfaz Digital de Instrumentos Musicales). El acceso al dispositivo se puede activar instalando un complemento.
+site-permission-install-first-prompt-midi-message = No se garantiza que este acceso sea seguro. Continúa solo si confías en este sitio.
 
 ##
 
@@ -49,6 +51,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) está bloqueado por tu administrador de sistema.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Tu administrador de sistema ha evitado que este sitio te pidiera que instales software en tu computadora.
+addon-install-full-screen-blocked = No se permite la instalación de complementos durante o tras acceder al modo pantalla completa.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } agregado a { -brand-short-name }
@@ -65,6 +68,7 @@ addon-removal-title = ¿Eliminar { $name }?
 #   $name (String): the name of the extension which is about to be removed.
 addon-removal-message = ¿Eliminar { $name } desde { -brand-shorter-name }?
 addon-removal-button = Eliminar
+addon-removal-abuse-report-checkbox = Informar de esta extensión a { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =

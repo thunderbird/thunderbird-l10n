@@ -4,6 +4,10 @@
 
 e2e-intro-description = Para enviar mensajes cifrados o firmados digitalmente, debes configurar una tecnología de cifrado, ya sea OpenPGP o S/MIME.
 e2e-intro-description-more = Selecciona tu clave personal para habilitar el uso de OpenPGP, o tu certificado personal para habilitar el uso de S/MIME. Para una clave personal o un certificado, posees la clave secreta correspondiente.
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Continuar
+# A label for a button that goes back one step
+e2e-csr-back = Regresar
 e2e-signing-description = Una firma digital permite a los destinatarios verificar que tu enviaste el mensaje y que su contenido no cambió. Los mensaje cifrados de extremo a extremo siempre se firman de forma predeterminada.
 e2e-sign-message =
     .label = Firmar mensajes sin cifrar
@@ -81,6 +85,7 @@ openpgp-key-man-discover-cmd =
 openpgp-key-man-publish-cmd =
     .label = Publicar
     .accesskey = P
+openpgp-key-publish = Publicar
 openpgp-key-man-discover-prompt = Para descubrir claves OpenPGP en línea, en servidores de claves o usando el protocolo WKD, ingresa una dirección de correo electrónico o un ID de clave.
 openpgp-key-man-discover-progress = Buscando…
 # Variables:
@@ -274,6 +279,21 @@ openpgp-personal-no-label =
     .label = No, no usar como mi clave personal.
 openpgp-personal-yes-label =
     .label = Sí, tratar esta clave como una clave personal.
+openpgp-passphrase-protection =
+    .label = Protección de contraseña
+openpgp-passphrase-status-unprotected = Sin proteger
+openpgp-passphrase-status-user-passphrase = Protegido por una frase de contraseña
+openpgp-passphrase-instruction-unprotected = Establecer una frase de contraseña para proteger esta clave
+openpgp-passphrase-instruction-primary-password = También protege esta clave con una frase de contraseña separada
+openpgp-passphrase-instruction-user-passphrase = Desbloquea esta clave para cambiar tu protección.
+openpgp-passphrase-unlock = Desbloquear
+openpgp-passphrase-unlocked = Clave desbloqueada con éxito.
+openpgp-remove-protection = Eliminar la protección de contraseña
+openpgp-use-primary-password = Eliminar frase de contraseña y proteger con contraseña principal
+openpgp-passphrase-new = Nueva frase de contraseña
+openpgp-passphrase-new-repeat = Confirmar nueva frase de contraseña
+openpgp-passphrase-set = Establecer frase de contraseña
+openpgp-passphrase-change = Cambiar frase de contraseña
 openpgp-copy-cmd-label =
     .label = Copiar
 
@@ -316,6 +336,7 @@ openpgp-key-expires-within-6-months-icon =
     .title = La clave caduca en menos de 6 meses
 openpgp-key-has-expired-icon =
     .title = Clave caducada
+openpgp-suggest-publishing-key = La publicación de la clave pública en un servidor de claves permite que otros la descubran.
 openpgp-key-expand-section =
     .tooltiptext = Más información
 openpgp-key-revoke-title = Revocar clave
@@ -466,6 +487,7 @@ key-man-button-export-pub-key = Exportar solo claves públicas
 key-man-button-refresh-all = & Actualizar todas las claves
 key-man-loading-keys = Cargando claves, por favor espera…
 ascii-armor-file = Archivos blindados ASCII (*.asc)
+text-file = Archivos de texto (*.txt)
 no-key-selected = Debes seleccionar al menos una clave para realizar la operación seleccionada
 export-to-file = Exportar clave pública a un archivo
 export-keypair-to-file = Exportar clave secreta y pública a un archivo
@@ -607,6 +629,7 @@ confirm-permissive-import = La importación falló. La clave que estás tratando
 
 ## Strings used in trust.jsm
 
+help-button = Ayuda
 
 ## Strings used in trust.sys.mjs
 
@@ -627,6 +650,17 @@ import-key-file = Importar archivo de clave OpenPGP
 import-rev-file = Importar archivo de revocación OpenPGP
 gnupg-file = Archivos GnuPG
 import-keys-failed = Error al importar las claves
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Ingresa la frase de contraseña para desbloquear la clave secreta con ID { $key }, creado { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Ingresa la frase de contraseña para desbloquear la clave secreta con ID { $subkey }, que es una subclave de ID de clave { $key }, creada { $date }, { $username_and_email }
 file-to-big-to-import = Este archivo es demasiado grande. Por favor, no importes un gran conjunto de claves a la vez.
 
 ## Strings used in enigmailKeygen.js

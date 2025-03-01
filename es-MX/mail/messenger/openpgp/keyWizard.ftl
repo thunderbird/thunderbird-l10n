@@ -23,6 +23,14 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Generar clave OpenPGP
+openpgp-keygen-secret-protection = Protección de clave secreta
+radio-keygen-no-protection =
+    .label = Sin proteger
+radio-keygen-protect-primary-pass =
+    .label = Proteger con la contraseña principal
+radio-keygen-passphrase-protection =
+    .label = Proteger con una frase de contraseña:
+openpgp-passphrase-repeat = Confirma la frase de contraseña:
 openpgp-generate-key-info = <b>La generación de claves puede tardar varios minutos en completarse.</b> No salgas de la aplicación mientras la generación de la clave está en progreso. La navegación activa o la realización de operaciones con un disco intensivo durante la generación de la clave repondrán el "grupo de aleatoriedad" y acelerará el proceso. Se te avisará cuando se complete la generación de claves.
 openpgp-keygen-expiry-title = Expiración de la clave
 openpgp-keygen-expiry-description = Define el tiempo de expiración de tu clave recién generada. Posteriormente puedes controlar la fecha para prorrogarla si es necesario.
@@ -92,6 +100,8 @@ openpgp-import-key-list-amount-2 =
     }
 openpgp-import-key-list-description = Confirma qué claves pueden tratarse como tus claves personales. Solo las claves que tú mismo creaste y que muestran tu propia identidad deben usarse como claves personales. Puedes cambiar esta opción más adelante en el cuadro de diálogo Propiedades de clave.
 openpgp-import-key-list-caption = Las claves marcadas para ser tratadas como claves personales se enumerarán en la sección Cifrado de extremo a extremo. Los demás estarán disponibles dentro del Administrador de claves.
+openpgp-import-keep-passphrases =
+    .label = Mantén la protección de contraseña para claves secretas importadas
 openpgp-passphrase-prompt-title = Se requiere contraseña
 openpgp-import-key-button =
     .label = Seleccionar archivo para importar…

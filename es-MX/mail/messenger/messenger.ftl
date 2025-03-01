@@ -33,6 +33,12 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Regresar una página ({ $shortcut })
+    .aria-label = Atrás
+    .accesskey = A
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Atrás
@@ -40,6 +46,16 @@ content-tab-menu-back-mac =
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Avanzar una página ({ $shortcut })
+    .aria-label = Avanzar
+    .accesskey = A
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Siguiente
+    .accesskey = S
 
 # Reload
 
@@ -47,9 +63,23 @@ content-tab-menu-reload =
     .tooltiptext = Recargar página
     .aria-label = Recargar
     .accesskey = R
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Recargar la página
+    .label = Recargar
+    .accesskey = R
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Detener la carga de la página
+    .aria-label = Detener
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Detener la carga de la página
+    .label = Detener
+    .accesskey = D
 
 ## Toolbar
 
@@ -110,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Eliminar carpeta
     .accesskey = D
+menu-edit-unsubscribe-newsgroup =
+    .label = Cancelar suscripción del grupo de noticias
+    .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -155,11 +188,41 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Marcar como leído
+    .tooltiptext = Marcar como leído
+context-menu-mark-unread =
+    .aria-label = Marcar como no leído
+    .tooltiptext = Marcar como no leído
+context-menu-mark-reply =
+    .aria-label = Responder
+    .tooltiptext = Responder
+context-menu-archive =
+    .aria-label = Archivo
+    .tooltiptext = Archivo
+context-menu-mark-junk =
+    .aria-label = Marcar como basura
+    .tooltiptext = Marcar como basura
+mail-context-menu-open =
+    .label = Abrir
+    .accesskey = O
+mail-context-menu-reply =
+    .label = Responder
+    .accesskey = R
+mail-context-menu-forward-redirect =
+    .label = Reenviar y redireccionar
+    .accesskey = F
 mail-context-menu-forward-forward =
     .label = Reenviar
     .accesskey = R
 context-menu-redirect-msg =
     .label = Redirigir
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Cancelar mensaje
+context-menu-decrypt-to-folder2 =
+    .label = Crear copia descifrada en
+    .accesskey = y
 
 ## Message header pane
 
@@ -339,6 +402,7 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Olvídate de las frases de contraseña de OpenPGP
 
 ## Quota panel.
 

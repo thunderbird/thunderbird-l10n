@@ -61,7 +61,11 @@ customize-main-toolbar-target =
     .aria-label = Barra de herramientas principal
 customize-palette-generic-title = Disponibles para todos los espacios
 customize-palette-mail-specific-title = Disponible solo para el espacio de correo
+customize-palette-addressbook-specific-title = Disponible solo para el espacio de la libreta de direcciones
+customize-palette-calendar-specific-title = Disponible solo para el espacio de calendario
+customize-palette-tasks-specific-title = Disponible solo para el espacio de tareas
 customize-palette-chat-specific-title = Disponible solo para el espacio de chat
+customize-palette-settings-specific-title = Disponible solo para el espacio de configuración
 
 ## Unified toolbar customization palette context menu
 

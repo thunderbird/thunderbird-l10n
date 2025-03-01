@@ -60,18 +60,75 @@ account-hub-protocol-label = Protocolo
 account-hub-hostname-label = Nombre del servidor
 account-hub-result-hostname-label = Nombre del host
     .title = Nombre del host
+account-hub-result-authentication-label = Autenticación
+    .title = Autenticación
 account-hub-port-label = Puerto
     .title = Establecer el número de puerto en 0 para la detección automática
+account-hub-auto-description = { -brand-short-name } intentará detectar automáticamente los campos que se dejen en blanco.
+account-hub-ssl-label = Seguridad de la conexión
 
 ## Incoming/Outgoing SSL Authentication options
 
+account-hub-ssl-autodetect-option =
+    .label = Detección automática
+account-hub-ssl-no-authentication-option =
+    .label = Sin autenticación
+account-hub-ssl-cleartext-password-option =
+    .label = Contraseña normal
+account-hub-ssl-encrypted-password-option =
+    .label = Contraseña cifrada
 
 ## Incoming/Outgoing SSL options
 
 account-hub-ssl-noencryption-option =
     .label = Ninguno
+account-hub-auth-no-authentication-option =
+    .label = Sin autenticación
 account-hub-auth-label = Método de autenticación
 account-hub-username-label = Nombre de usuario
+account-hub-result-username-label = Nombre de usuario
+    .title = Nombre de usuario
+account-hub-name-label = Nombre completo
+    .accesskey = n
 account-hub-adding-account-title = Agregando cuenta
+account-hub-adding-account-subheader = Volver a probar los ajustes de configuración de la cuenta
+account-hub-lookup-email-configuration-title = Buscando configuración
+account-hub-lookup-email-configuration-subheader = Probando nombres de servidores comunes…
+account-hub-email-account-added-title = Cuenta añadida correctamente
+account-hub-find-settings-failed = { -brand-full-name } no fue logró encontrar las configuraciones para tu cuenta de correo electrónico.
 account-hub-notification-show-more = Mostrar más
 account-hub-notification-show-less = Mostrar menos
+account-hub-email-setup-header = Agregar dirección de correo electrónico
+account-hub-email-setup-incoming = Configuración del servidor de entrada
+account-hub-email-setup-outgoing = Configuración del servidor de salida
+account-hub-email-config-found = Elija el tipo de cuenta de correo electrónico
+account-hub-email-enter-password = Introduzca la contraseña de su correo electrónico
+account-hub-email-sync-accounts = Sincroniza tus calendarios y libretas de direcciones
+account-hub-test-configuration = Prueba
+account-hub-add-new-email = Añadir otra cuenta
+account-hub-result-imap-description = Mantén tus carpetas y correos electrónicos sincronizados en tu servidor
+account-hub-result-pop-description = Mantén tus carpetas y correos electrónicos en tu computadora
+account-hub-result-ews-shortname = Exchange
+account-hub-result-ews-description = Utilice los Servicios Web de Microsoft Exchange para sincronizar sus carpetas y correos electrónicos
+account-hub-result-ews-text = Servidor
+account-hub-result-recommended-label = Recomendado
+account-hub-edit-configuration = Editar configuración
+account-hub-config-success = Configuración encontrada en Mozilla ISPDB
+account-hub-password-info = Solo se guardarán sus credenciales en tu computadora.
+account-hub-sync-success = Thunderbird encontró algunos servicios conectados
+account-hub-sync-failure = Thunderbird no pudo encontrar los servicios conectados
+account-hub-unable-to-sync-accounts = Thunderbird no pudo conectar los servicios seleccionados
+account-hub-email-added-success = La cuenta de correo electrónico se conectó correctamente
+account-hub-config-test-success = Ajustes de configuración válidos
+account-hub-select-all = Seleccionar todo
+account-hub-deselect-all = Deseleccionar todo
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { NUMBER($count) ->
+        [one] seleccionada
+       *[other] seleccionadas
+    }
+account-hub-no-address-books = No se encontraron libretas de direcciones
+account-hub-no-calendars = No se encontraron calendarios
+account-hub-email-added-success-links-title = Explora las opciones de seguridad y personalización:
+account-hub-signature-link = Firma de correo electrónico
