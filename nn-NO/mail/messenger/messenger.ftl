@@ -382,8 +382,8 @@ menuitem-customize-label =
     .label = Tilpass…
 spaces-customize-background-color = Bakgrunnsfarge
 spaces-customize-icon-color = Knappefarge
-spaces-customize-button-restore = Still tilbake til standard
-    .accesskey = t
+spaces-customize-button-restore = Gjenopprett standardar
+    .accesskey = G
 customize-panel-button-save = Ferdig
     .accesskey = F
 

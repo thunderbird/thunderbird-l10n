@@ -11,7 +11,7 @@
 <!ENTITY text.label               "Tekst">
 <!ENTITY iconsBesideText.label    "Ikon ved sida av teksten">
 <!ENTITY useSmallIcons.label      "Bruk små ikon">
-<!ENTITY restoreDefaultSet.label  "Bruk standardsett">
+<!ENTITY restoreDefaultSet.label  "Gjenopprett standardsett">
 <!ENTITY showTitlebar2.label      "Tittellinje">
 <!ENTITY saveChanges.label        "Ferdig">
 <!ENTITY undoChanges.label        "Angre endringar">
