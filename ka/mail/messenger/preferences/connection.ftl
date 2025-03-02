@@ -82,5 +82,5 @@ proxy-remote-dns =
     .label = პროქსის DNS, როცა გამოიყენება SOCKS v5
     .accesskey = D
 proxy-enable-doh =
-    .label = DNS-ის HTTPS-ით გადაცემის ჩართვა
+    .label = ამოქმედდეს DNS-მოთხოვნა HTTPS-ით
     .accesskey = ვ

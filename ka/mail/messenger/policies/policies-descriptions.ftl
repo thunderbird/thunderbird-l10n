@@ -40,7 +40,7 @@ policy-DisableSecurityBypass = მომხმარებლისთვის,
 policy-DisableSystemAddonUpdate = შეზღუდვა, რომ { -brand-short-name } ვერ შეძლებს სისტემის დამატებების ჩადგმასა და განახლებას.
 policy-DisableTelemetry = გაზომვების გათიშვა.
 policy-DisplayMenuBar = მენიუს ზოლის გამოჩენა ნაგულისხმევად.
-policy-DNSOverHTTPS = DNS-ის HTTPS-ით გადაცემის გამართვა.
+policy-DNSOverHTTPS = გამართეთ DNS-მოთხოვნა HTTPS-ით.
 policy-DontCheckDefaultClient = გაშვებისას პროგრამის ნაგულისხმეობის შემოწმების გათიშვა.
 policy-DownloadDirectory = ჩამოტვირთვის ნაგულისხმევი საქაღალდის მითითება და ჩაკეტვა.
 # “lock” means that the user won’t be able to change this setting
