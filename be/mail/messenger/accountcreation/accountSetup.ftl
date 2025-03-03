@@ -7,7 +7,7 @@ account-setup-tab-title = Наладжванне ўліковага запісу
 ## Header
 
 account-setup-title = Наладзьце свой існуючы адрас электроннай пошты
-account-setup-description = Каб выкарыстоўваць свой існуючы адрас элетроннай пошты, увядзіце вашы ўліковыя даныя.
+account-setup-description = Каб выкарыстоўваць свой існуючы адрас электроннай пошты, увядзіце вашы ўліковыя даныя.
 account-setup-secondary-description = { -brand-product-name } аўтаматычна выканае пошук працуючай і рэкамендаванай канфігурацыі сервера.
 account-setup-success-title = Уліковы запіс паспяхова створаны
 account-setup-success-description = Цяпер вы можаце выкарыстоўваць гэты ўліковы запіс у { -brand-short-name }.
