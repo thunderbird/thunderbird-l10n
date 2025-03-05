@@ -816,6 +816,7 @@ qr-export-description = Overfør kontoinnstillingane dine raskt frå datamaskin 
 qr-export-get-app = Har du ikkje { -brand-product-name } på mobilen din enno? <a data-l10n-name="app-link">Last han ned frå Google Play</a>
 qr-export-create = Lag ein QR-kode for å eksportere kontoane dine
 qr-export-select-accounts = Vel kva for konto du vil eksportere:
+qr-export-no-accounts = Ser du ikkje alle kontoane dine? Nokre kontoar kan bli deaktiverte fordi dei ikkje blir støtta av { -brand-product-name } for Android. <a data-l10n-name="account-support-link">Brukarstøtte</a>
 qr-export-accounts-legend = E-postkontoar
 qr-export-select-all-accounts = Marker alle
 qr-export-security-legend = Sikkerheit
