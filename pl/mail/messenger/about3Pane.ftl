@@ -513,4 +513,4 @@ folder-pane-context-mark-folder-read =
             [one] Oznacz folder jako przeczytany
            *[other] Oznacz foldery jako przeczytane
         }
-    .accesskey = O
+    .accesskey = p
