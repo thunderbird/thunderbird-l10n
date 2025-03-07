@@ -57,8 +57,8 @@ collection-health-report-link = Μάθετε περισσότερα
 # or builds with no Telemetry support available.
 collection-health-report-disabled = Η αναφορά δεδομένων είναι ανενεργή για αυτήν τη δομή
 collection-backlogged-crash-reports =
-    .label = Να επιτρέπεται στο { -brand-short-name } η αποστολή εκκρεμουσών αναφορών σφαλμάτων
-    .accesskey = σ
+    .label = Να επιτρέπεται στο { -brand-short-name } η αποστολή εκκρεμών αναφορών κατάρρευσης
+    .accesskey = κ
 collection-backlogged-crash-reports-link = Μάθετε περισσότερα
 privacy-security-header = Ασφάλεια
 privacy-scam-detection-title = Ανίχνευση απατών
