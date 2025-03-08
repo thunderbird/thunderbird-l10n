@@ -9,6 +9,8 @@ messenger-window-minimize-button =
     .tooltiptext = Minimalkan
 messenger-window-maximize-button =
     .tooltiptext = Maksimalkan
+messenger-window-restore-down-button =
+    .tooltiptext = Pulihkan
 messenger-window-close-button =
     .tooltiptext = Tutup
 # Variables:
