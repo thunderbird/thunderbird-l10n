@@ -5,6 +5,9 @@
 openpgp-key-unverified = Hyväksytty (ei vahvistettu)
 openpgp-key-undecided = Ei hyväksytty (ei päätetty)
 # Variables:
+# $kid (String) - Public key id to import.
+openpgp-pubkey-import-id = Tunniste: { $kid }
+# Variables:
 # $fpr (String) - Fingerprint of the public key to import.
 openpgp-pubkey-import-fpr = Sormenjälki: { $fpr }
 # Variables:
