@@ -956,3 +956,24 @@ default-sort-ascending-description = Nowe wiadomości na dole
 default-sort-descending =
     .label = Malejąco
 default-sort-descending-description = Nowe wiadomości na górze
+apply-sort-label = Zastosuj te ustawienia do:
+apply-sort-to-all-button =
+    .label = Wszystkich istniejących folderów
+    .accesskey = W
+choose-apply-sort-button =
+    .label = Wybierz…
+    .accesskey = W
+apply-current-view-to-folder =
+    .label = Folder…
+apply-current-view-to-folder-children =
+    .label = Folderu i wszystkich folderów w nim zawartych
+apply-changes-prompt-title = Zastosować zmiany?
+apply-changes-prompt-message = Czy zastosować ustawienia obecnego wątkowania i sortowania do wszystkich folderów?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Czy zastosować ustawienia obecnego wątkowania i sortowania do „{ $name }”?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Czy zastosować ustawienia obecnego wątkowania i sortowania do „{ $name }” i folderów w nim zawartych?
+apply-current-view-error = Nie można zastosować ustawień obecnego widoku
+apply-current-view-success = Pomyślnie zastosowano ustawienia obecnego widoku
