@@ -949,3 +949,19 @@ default-sort-ascending-description = Nya meddelanden längst ner
 default-sort-descending =
     .label = Fallande
 default-sort-descending-description = Nya meddelanden överst
+apply-sort-label = Tillämpa dessa inställningar på:
+apply-sort-to-all-button =
+    .label = Alla befintliga mappar
+    .accesskey = A
+choose-apply-sort-button =
+    .label = Välj…
+    .accesskey = V
+apply-current-view-to-folder =
+    .label = Mapp…
+apply-current-view-to-folder-children =
+    .label = Mapp och dess undermappar…
+apply-changes-prompt-title = Verkställ ändringar?
+apply-changes-prompt-message = Vill du tillämpa de nuvarande trådnings- och sorteringsinställningarna på alla mappar?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Vill du använda de nuvarande trådnings- och sorteringsinställningarna på "{ $name }"?
