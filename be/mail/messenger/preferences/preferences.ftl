@@ -10,6 +10,7 @@ category-list =
 pane-general-title = Агульныя
 category-general =
     .tooltiptext = { pane-general-title }
+pane-appearance-title = Выгляд
 pane-compose-title = Складанне
 category-compose =
     .tooltiptext = Складанне
@@ -842,3 +843,14 @@ qr-export-more-accounts = Экспартаваць іншыя ўліковыя �
 
 ## Appearance Tab
 
+default-message-list-legend = Спіс паведамленняў
+default-message-list-description = Вызначыце стандартныя параметры сартавання і адлюстравання абмеркаванняў для новых папак.
+default-flag-label =
+    .value = Адлюстраванне абмеркаванняў:
+default-flag-unthreaded =
+    .label = Без групоўкі па абмеркаванням
+default-flag-threaded =
+    .label = З групоўкай па абмеркаванням
+default-flag-grouped =
+    .label = З групоўкай па спосабу сартавання
+default-sort-label = Сартаваць па:
