@@ -143,3 +143,4 @@ account-hub-port-error-text = Portnummer måste vara mellan 1 och 65535
     .title = Portnummer måste vara mellan 1 och 65535
 account-hub-username-error-text = Användarnamn krävs
     .title = Användarnamn krävs
+account-hub-oauth-pending = Väntar på auktorisering i inloggningspopup…
