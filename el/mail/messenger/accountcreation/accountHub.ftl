@@ -115,6 +115,7 @@ account-hub-result-recommended-label = Προτείνεται
 account-hub-edit-configuration = Επεξεργασία διαμόρφωσης
 account-hub-config-success = Βρέθηκαν ρυθμίσεις στη Mozilla ISPDB
 account-hub-password-info = Τα διαπιστευτήριά σας θα αποθηκευτούν μόνο τοπικά, στον υπολογιστή σας
+account-hub-creating-account = Δημιουργία λογαριασμού…
 account-hub-sync-success = Το Thunderbird βρήκε μερικές συνδεδεμένες υπηρεσίες
 account-hub-sync-failure = Το Thunderbird δεν μπόρεσε να βρει συνδεδεμένες υπηρεσίες
 account-hub-unable-to-sync-accounts = Το Thunderbird δεν μπόρεσε να συνδέσει τις επιλεγμένες υπηρεσίες

@@ -928,3 +928,6 @@ default-sort-correspondents =
 default-order-label = Standard sorteringsordning:
 default-sort-ascending =
     .label = Stigande
+default-sort-ascending-description = Nya meddelanden längst ner
+default-sort-descending =
+    .label = Fallande

@@ -95,11 +95,11 @@ redirect-msg-button =
 ## Folder Pane
 
 folder-pane-toolbar =
-    .toolbarname = 資料夾窗格工具列
+    .toolbarname = 信件匣窗格工具列
     .accesskey = F
 folder-pane-toolbar-options-button =
-    .tooltiptext = 資料夾窗格選項
-folder-pane-header-label = 資料夾
+    .tooltiptext = 信件匣窗格選項
+folder-pane-header-label = 信件匣
 
 ## Folder Toolbar Header Popup
 
@@ -107,19 +107,19 @@ folder-toolbar-hide-toolbar-toolbarbutton =
     .label = 隱藏工具列
     .accesskey = H
 show-all-folders-label =
-    .label = 所有資料夾
+    .label = 所有信件匣
     .accesskey = A
 show-unread-folders-label =
-    .label = 未讀資料夾
+    .label = 未讀信件匣
     .accesskey = n
 show-favorite-folders-label =
-    .label = 最愛資料夾
+    .label = 最愛信件匣
     .accesskey = F
 show-smart-folders-label =
-    .label = 整合資料夾
+    .label = 整合信件匣
     .accesskey = U
 show-recent-folders-label =
-    .label = 最近開啟資料夾
+    .label = 最近開啟的信件匣
     .accesskey = R
 show-tags-folders-label =
     .label = 標籤
@@ -137,7 +137,7 @@ menu-file-save-as-file =
 ## Edit Menu
 
 menu-edit-delete-folder =
-    .label = 刪除資料夾
+    .label = 刪除信件匣
     .accesskey = D
 menu-edit-unsubscribe-newsgroup =
     .label = 取消訂閱新聞群組
@@ -164,7 +164,7 @@ menu-edit-properties =
     .label = 屬性
     .accesskey = o
 menu-edit-folder-properties =
-    .label = 資料夾屬性
+    .label = 信件匣屬性
     .accesskey = o
 menu-edit-newsgroup-properties =
     .label = 新聞群組屬性

@@ -104,7 +104,7 @@ menu-view-repair-text-encoding =
 ## View / Folders
 
 menu-view-folders-toggle-header =
-    .label = 資料夾窗格標題
+    .label = 信件匣窗格標題
     .accesskey = F
 
 ## View / Layout

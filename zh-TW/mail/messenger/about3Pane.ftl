@@ -149,7 +149,7 @@ quick-filter-bar-text-filter-subject = 主旨
 quick-filter-bar-text-filter-body = 內文
 # The first line of the panel popup that tells the user we found no matches
 # but we can convert to a global search for them.
-quick-filter-bar-gloda-upsell-line1 = 繼續在所有資料夾搜尋
+quick-filter-bar-gloda-upsell-line1 = 繼續在所有信件匣搜尋
 # The second line of the panel popup that tells the user we found no matches.
 # Variables:
 # $text (String) - What the user has typed so far.
@@ -165,7 +165,7 @@ folder-pane-get-all-messages-menuitem =
 folder-pane-write-message-button = 寫新訊息
     .title = 撰寫新訊息
 folder-pane-more-menu-button =
-    .title = 資料夾窗格選項
+    .title = 信件匣窗格選項
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
     .label = 信件匣模式
@@ -176,16 +176,16 @@ folder-pane-header-context-toggle-get-messages =
 folder-pane-header-context-toggle-new-message =
     .label = 顯示「寫新訊息」
 folder-pane-header-context-hide =
-    .label = 隱藏資料夾窗格標題
+    .label = 隱藏信件匣窗格標題
 folder-pane-show-total-toggle =
     .label = 顯示郵件總數
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
-    .label = 顯示資料夾大小
+    .label = 顯示信件匣大小
 folder-pane-header-hide-local-folders =
     .label = 隱藏本機信件匣
 folder-pane-mode-context-button =
-    .title = 資料夾模式選項
+    .title = 信件匣模式選項
 folder-pane-mode-context-toggle-compact-mode =
     .label = 精簡檢視
     .accesskey = C
@@ -433,19 +433,19 @@ apply-columns-to-menu =
 apply-current-view-to-menu =
     .label = 將目前畫面套用到…
 apply-current-view-to-folder =
-    .label = 資料夾…
+    .label = 信件匣…
 apply-current-view-to-folder-children =
-    .label = 資料夾與其子資料夾
+    .label = 信件匣與其子信件匣
 
 ## Apply columns confirmation dialog
 
 apply-changes-to-folder-title = 確定要套用變更嗎？
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-current-columns-to-folder-message = 套用目前資料夾的欄位到 { $name }？
+apply-current-columns-to-folder-message = 要套用目前信件匣的欄位選項到 { $name } 嗎？
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-current-columns-to-folder-with-children-message = 套用目前資料夾的欄位到 { $name } 和它的子資料夾？
+apply-current-columns-to-folder-with-children-message = 要套用目前信件匣的欄位選項到 { $name } 及其子信件匣嗎？
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-message = 確定要將目前信件匣的畫面套用到 { $name } 嗎？

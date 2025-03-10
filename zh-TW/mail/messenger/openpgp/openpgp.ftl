@@ -7,7 +7,7 @@ e2e-intro-description-more = 請選擇您要用於 OpenPGP 的個人金鑰，或
 # Do not translate: S/MIME, CSR, CA
 e2e-csr-intro = 若要取得新的個人 S/MIME 憑證，請產生憑證簽署請求（CSR），並提交給憑證機構（CA）。
 # Do not translate: S/MIME, CSR
-e2e-csr-intro-info = 請為您的 CSR 檔案選擇本機資料夾與檔名請，並回答下列問題來指定要使用的演算法與加密強度。
+e2e-csr-intro-info = 請為您的 CSR 檔案選擇本機資料夾與檔名，並回答下列問題來指定要使用的演算法與加密強度。
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = 產生 CSR
 # A label for a button that proceeds to the next step

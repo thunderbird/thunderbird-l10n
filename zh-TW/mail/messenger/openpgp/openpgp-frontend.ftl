@@ -29,7 +29,7 @@ openpgp-missing-signature-key = 此訊息是使用您沒有的金鑰所簽署的
 openpgp-search-signature-key =
     .label = 尋找…
 # Don't translate the terms "OpenPGP" and "MS-Exchange"
-openpgp-broken-exchange-opened = 這是一封被 MS-Exchange 毀損的 OpenPGP 訊息，由於是用本機檔案的方式開啟，無法修復。請嘗試將訊息複製到郵件資料夾，進行自動修復。
+openpgp-broken-exchange-opened = 這是一封被 MS-Exchange 毀損的 OpenPGP 訊息，由於是用本機檔案的方式開啟，無法修復。請嘗試將訊息複製到郵件信件匣，進行自動修復。
 openpgp-broken-exchange-info = 這是一封被 MS Exchange 修改毀損的 OpenPGP 訊息。若訊息內容不正確，可以試試看進行自動修復。
 openpgp-broken-exchange-repair =
     .label = 修復訊息

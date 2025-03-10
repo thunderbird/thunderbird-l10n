@@ -435,7 +435,7 @@
 <!ENTITY savedFiles.key "j">
 <!ENTITY filtersCmd2.label "郵件篩選器">
 <!ENTITY filtersCmd2.accesskey "F">
-<!ENTITY filtersApply.label "篩選此資料夾">
+<!ENTITY filtersApply.label "篩選此信件匣">
 <!ENTITY filtersApply.accesskey "R">
 <!ENTITY filtersApplyToSelection.label "篩選選取的郵件">
 <!ENTITY filtersApplyToSelection.accesskey "u">
@@ -528,7 +528,7 @@
 <!ENTITY addressBookButton.tooltip "前往通訊錄">
 <!ENTITY chatButton.tooltip "顯示聊天分頁">
 <!ENTITY tagButton.tooltip "將郵件加上標籤">
-<!ENTITY compactButton.tooltip "從指定資料夾移除已刪郵件">
+<!ENTITY compactButton.tooltip "從選擇的信件匣清除已刪郵件">
 <!ENTITY appmenuButton1.tooltip "顯示 &brandShortName; 選單">
 <!-- Toolbar Button Popup -->
 <!ENTITY buttonMenuForwardAsInline.label "行內轉寄">

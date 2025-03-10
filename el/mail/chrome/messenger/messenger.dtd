@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "λ">
 <!ENTITY contextMoveMsgMenu.label "Μετακίνηση σε">
 <!ENTITY contextMoveMsgMenu.accesskey "Μ">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Πρόσφατοι προορισμοί">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "Π">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Πρόσφατα">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "φ">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Αγαπημένα">
