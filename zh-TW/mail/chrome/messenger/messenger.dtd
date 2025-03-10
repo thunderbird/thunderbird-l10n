@@ -54,9 +54,9 @@
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "訂閱…">
 <!ENTITY subscribeCmd.accesskey "b">
-<!ENTITY deleteFolder.label "刪除資料夾">
+<!ENTITY deleteFolder.label "刪除信件匣">
 <!ENTITY deleteFolder.accesskey "e">
-<!ENTITY renameFolder.label "重新命名資料夾…">
+<!ENTITY renameFolder.label "重新命名信件匣…">
 <!ENTITY renameFolder.accesskey "R">
 <!ENTITY renameFolder.key "VK_F2">
 <!ENTITY compactFolders.label "壓實重整郵件匣">
@@ -88,7 +88,7 @@
 <!ENTITY selectThreadCmd.key "a">
 <!ENTITY selectFlaggedCmd.label "星號標記">
 <!ENTITY selectFlaggedCmd.accesskey "S">
-<!ENTITY menuFavoriteFolder.label "最愛資料夾">
+<!ENTITY menuFavoriteFolder.label "最愛信件匣">
 <!ENTITY menuFavoriteFolder.accesskey "v">
 <!ENTITY undoDeleteMsgCmd.label "取消刪除郵件">
 <!ENTITY redoDeleteMsgCmd.label "重作刪除郵件">
@@ -117,11 +117,11 @@
 <!ENTITY messagePaneWide.accesskey "W">
 <!ENTITY messagePaneVertical.label "垂直檢視">
 <!ENTITY messagePaneVertical.accesskey "V">
-<!ENTITY showFolderPaneCmd.label "資料夾窗格">
+<!ENTITY showFolderPaneCmd.label "信件匣窗格">
 <!ENTITY showFolderPaneCmd.accesskey "F">
 <!ENTITY showMessageCmd.label "訊息窗格">
 <!ENTITY showMessageCmd.accesskey "M">
-<!ENTITY folderView.label "資料夾">
+<!ENTITY folderView.label "信件匣">
 <!ENTITY folderView.accesskey "F">
 <!ENTITY unifiedFolders.label "整合的">
 <!ENTITY unifiedFolders.accesskey "n">
@@ -282,7 +282,7 @@
 <!ENTITY goChatCmd.accesskey "C">
 <!ENTITY prevStarredMsgCmd.label "已加星號郵件">
 <!ENTITY prevStarredMsgCmd.accesskey "S">
-<!ENTITY folderMenu.label "資料夾">
+<!ENTITY folderMenu.label "信件匣">
 <!ENTITY folderMenu.accesskey "o">
 <!ENTITY goRecentlyClosedTabs.label "最近關閉的分頁">
 <!ENTITY goRecentlyClosedTabs.accesskey "R">

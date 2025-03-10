@@ -925,3 +925,6 @@ default-sort-received =
     .label = Mottagen ordning
 default-sort-correspondents =
     .label = Korrespondenter
+default-order-label = Standard sorteringsordning:
+default-sort-ascending =
+    .label = Stigande
