@@ -51,12 +51,16 @@ account-hub-email-continue-button = Hald fram
 account-hub-email-confirm-button = Stadfest
 account-hub-incoming-server-legend = Innkomande server
 account-hub-outgoing-server-legend = Utgåande server
+account-hub-result-outgoing-server-legend = Utgåande server
+    .title = Utgåande server
 account-hub-protocol-label = Protokoll
 account-hub-hostname-label = Vertsnamn
 account-hub-result-hostname-label = Vertsnamn
     .title = Vertsnamn
 account-hub-result-authentication-label = Autentisering
     .title = Autentisering
+account-hub-port-label = Port
+    .title = Sett portnummeret til 0 for automatisk utfylling
 account-hub-ssl-label = Tilkoplingssikkerheit
 
 ## Incoming/Outgoing SSL Authentication options

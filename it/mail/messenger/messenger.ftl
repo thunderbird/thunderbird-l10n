@@ -310,7 +310,7 @@ message-header-all-headers =
     .label = Visualizza tutte le intestazioni
     .accesskey = z
 message-header-dark-message-toggle =
-    .label = Mostra la modalità messaggio scuro
+    .label = Mostra il controllo per la modalità messaggi scuri
     .accesskey = M
 
 ## Action Button Context Menu
