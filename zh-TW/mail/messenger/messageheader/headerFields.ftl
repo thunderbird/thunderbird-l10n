@@ -101,3 +101,5 @@ message-ids-field-show-all = 顯示全部
 
 ## Dark Message Mode
 
+dark-message-mode-disable-toggle =
+    .title = 關閉暗色訊息模式

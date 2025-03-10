@@ -333,6 +333,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Dangos pob pennyn
     .accesskey = D
+message-header-dark-message-toggle =
+    .label = Dangoswch y togl modd neges tywyll
+    .accesskey = D
 
 ## Action Button Context Menu
 

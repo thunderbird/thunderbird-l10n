@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "R">
 <!ENTITY contextMoveMsgMenu.label "Symud i">
 <!ENTITY contextMoveMsgMenu.accesskey "S">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Cyrchfannau Diweddar">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Diweddar">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "D">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Ffefrynnau">

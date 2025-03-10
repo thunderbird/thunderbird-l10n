@@ -307,6 +307,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = 顯示所有標頭
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = 顯示暗色訊息模式開關
+    .accesskey = d
 
 ## Action Button Context Menu
 

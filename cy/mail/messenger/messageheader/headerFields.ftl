@@ -101,3 +101,5 @@ message-ids-field-show-all = Dangos y cyfan
 
 ## Dark Message Mode
 
+dark-message-mode-disable-toggle =
+    .title = Analluogi modd neges tywyll
