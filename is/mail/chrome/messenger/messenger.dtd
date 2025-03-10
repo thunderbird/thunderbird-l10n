@@ -4,7 +4,6 @@
 
 <!ENTITY titledefault.label "&brandFullName;">
 <!ENTITY titleSeparator.label " - ">
-
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label "Mappa…">
 <!ENTITY newFolderCmd.accesskey "M">
@@ -14,12 +13,10 @@
 <!ENTITY closeOtherTabsCmd2.accesskey "o">
 <!ENTITY recentlyClosedTabsCmd.label "Nýlega lokaðir flipar">
 <!ENTITY recentlyClosedTabsCmd.accesskey "r">
-
 <!ENTITY undoCloseTabCmd.commandkey "T">
 <!-- LOCALIZATION NOTE (moveToNewWindow.label):
      Menu option to cause the current tab to be migrated to a new Thunderbird
-     window.
-     -->
+     window. -->
 <!ENTITY moveToNewWindow.label "Færa yfir í nýjan glugga">
 <!ENTITY moveToNewWindow.accesskey "g">
 <!ENTITY newVirtualFolderCmd.label "Vistuð leit…">
@@ -30,12 +27,12 @@
 <!ENTITY newFeedAccountCmd.accesskey "S">
 <!ENTITY newIMContactCmd.label "Spjalltengiliður…">
 <!ENTITY newIMContactCmd.accesskey "p">
-<!ENTITY  newMessageCmd2.key "N">
-<!ENTITY  newMessageCmd.key "M">
-<!ENTITY  newMessageCmd.label "Skilaboð">
-<!ENTITY  newMessageCmd.accesskey "m">
-<!ENTITY  newContactCmd.label "Tengiliður í nafnaskrá…">
-<!ENTITY  newContactCmd.accesskey "T">
+<!ENTITY newMessageCmd2.key "N">
+<!ENTITY newMessageCmd.key "M">
+<!ENTITY newMessageCmd.label "Skilaboð">
+<!ENTITY newMessageCmd.accesskey "m">
+<!ENTITY newContactCmd.label "Tengiliður í nafnaskrá…">
+<!ENTITY newContactCmd.accesskey "T">
 <!ENTITY openMenuCmd.label "Opna">
 <!ENTITY openMenuCmd.accesskey "O">
 <!ENTITY openMessageFileCmd.label "Opna vistaðan póst…">
@@ -81,7 +78,6 @@
 <!ENTITY printCmd.label "Prenta…">
 <!ENTITY printCmd.accesskey "P">
 <!ENTITY printCmd.key "p">
-
 <!-- Edit Menu -->
 <!ENTITY selectMenu.label "Velja">
 <!ENTITY selectMenu.accesskey "V">
@@ -106,7 +102,6 @@
 <!ENTITY undoDefaultCmd.accesskey "u">
 <!ENTITY redoDefaultCmd.label "Endurtaka">
 <!ENTITY redoDefaultCmd.accesskey "r">
-
 <!-- View Menu -->
 <!ENTITY menubarCmd.label "Valmynd">
 <!ENTITY menubarCmd.accesskey "m">
@@ -114,7 +109,6 @@
 <!ENTITY showMessengerToolbarCmd.accesskey "P">
 <!ENTITY customizeToolbar.label "Sérsníða…">
 <!ENTITY customizeToolbar.accesskey "S">
-
 <!ENTITY messagePaneLayoutStyle.label "Útlit">
 <!ENTITY messagePaneLayoutStyle.accesskey "t">
 <!ENTITY messagePaneClassic.label "Hefðbundin sýn">
@@ -127,7 +121,6 @@
 <!ENTITY showFolderPaneCmd.accesskey "f">
 <!ENTITY showMessageCmd.label "Lestrarspjald">
 <!ENTITY showMessageCmd.accesskey "L">
-
 <!ENTITY folderView.label "Möppur">
 <!ENTITY folderView.accesskey "M">
 <!ENTITY unifiedFolders.label "Sameinaðar möppur">
@@ -142,7 +135,6 @@
 <!ENTITY recentFolders.accesskey "N">
 <!ENTITY compactVersion.label "Þjöppuð sýn">
 <!ENTITY compactVersion.accesskey "Þ">
-
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "Raða eftir">
 <!ENTITY sortMenu.accesskey "R">
@@ -206,7 +198,6 @@
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "f">
 <!ENTITY ignoredThreadsCmd.label "Hunsaðar umræður">
 <!ENTITY ignoredThreadsCmd.accesskey "H">
-
 <!ENTITY headersMenu.label "Hausar">
 <!ENTITY headersMenu.accesskey "H">
 <!ENTITY headersAllCmd.label "Allt">
@@ -223,7 +214,6 @@
 <!ENTITY bodyAsPlaintext.accesskey "s">
 <!ENTITY bodyAllParts.label "Allir meginmálshlutir">
 <!ENTITY bodyAllParts.accesskey "A">
-
 <!ENTITY bodyMenuFeed.label "Meginmál streymis sem">
 <!ENTITY bodyMenuFeed.accesskey "M">
 <!ENTITY viewFeedWebPage.label "Vefsíða">
@@ -232,16 +222,13 @@
 <!ENTITY viewFeedSummary.accesskey "m">
 <!ENTITY viewFeedSummaryFeedPropsPref.label "Sjálfgefið snið">
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "S">
-
 <!ENTITY viewAttachmentsInlineCmd.label "Sýna viðhengi innfelld">
 <!ENTITY viewAttachmentsInlineCmd.accesskey "a">
-
 <!ENTITY pageSourceCmd.label "Frumkóði pósts">
 <!ENTITY pageSourceCmd.accesskey "p">
 <!ENTITY pageSourceCmd.key "u">
 <!ENTITY getNewMessagesCmd.key "y">
 <!ENTITY getAllNewMessagesCmd.key "Y">
-
 <!-- Search Menu -->
 <!ENTITY findMenu.label "Leita">
 <!ENTITY findMenu.accesskey "i">
@@ -261,7 +248,6 @@
 <!ENTITY glodaSearchCmd.accesskey "k">
 <!ENTITY searchAddressesCmd.label "Leita í tengiliðaspjöldum…">
 <!ENTITY searchAddressesCmd.accesskey "t">
-
 <!-- Go Menu -->
 <!ENTITY goMenu.label "Fara">
 <!ENTITY goMenu.accesskey "F">
@@ -302,7 +288,6 @@
 <!ENTITY goRecentlyClosedTabs.accesskey "r">
 <!ENTITY startPageCmd.label "Upphafssíða">
 <!ENTITY startPageCmd.accesskey "U">
-
 <!-- Message Menu -->
 <!ENTITY msgMenu.label "Póstur">
 <!ENTITY msgMenu.accesskey "P">
@@ -345,7 +330,8 @@
 <!ENTITY editTemplateMsgCmd.label "Breyta sniðmáti">
 <!ENTITY editTemplateMsgCmd.accesskey "T">
 <!ENTITY newMsgFromTemplateCmd.label "Ný skilaboð út frá sniðmáti">
-<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN"><!-- do not change "VK_RETURN" -->
+<!-- do not change "VK_RETURN" -->
+<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Búa til síu út frá pósti…">
 <!ENTITY createFilter.accesskey "u">
 <!ENTITY moveMsgToMenu.label "Færa í">
@@ -423,10 +409,8 @@
 <!ENTITY openFeedSummary.accesskey "s">
 <!ENTITY openFeedWebPageInMP.label "Víxla vefsíðu og samantekt á lestrarspjaldi">
 <!ENTITY openFeedWebPageInMP.accesskey "t">
-
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label "Gluggi">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Verkfæri">
 <!ENTITY tasksMenu.accesskey "V">
@@ -440,10 +424,10 @@
 <!ENTITY activitymanager.accesskey "a">
 <!ENTITY imAccountsStatus.label "Staða spjalls">
 <!ENTITY imAccountsStatus.accesskey "S">
-<!ENTITY imStatus.available          "Tengdur">
-<!ENTITY imStatus.unavailable        "Upptekinn">
-<!ENTITY imStatus.offline            "Ótengdur">
-<!ENTITY imStatus.showAccounts       "Sýna reikninga…">
+<!ENTITY imStatus.available "Tengdur">
+<!ENTITY imStatus.unavailable "Upptekinn">
+<!ENTITY imStatus.offline "Ótengdur">
+<!ENTITY imStatus.showAccounts "Sýna reikninga…">
 <!ENTITY joinChatCmd.label "Taka þátt í spjalli…">
 <!ENTITY joinChatCmd.accesskey "s">
 <!ENTITY savedFiles.label "Vistaðar skrár">
@@ -471,10 +455,8 @@
 <!ENTITY accountManagerCmd2.accesskey "S">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
-     on Unix systems
-  -->
+     on Unix systems -->
 <!ENTITY accountManagerCmdUnix2.accesskey "A">
-
 <!-- Developer Tools Submenu -->
 <!ENTITY devtoolsMenu.label "Forritunarverkfæri">
 <!ENTITY devtoolsMenu.accesskey "o">
@@ -486,7 +468,6 @@
 <!ENTITY errorConsoleCmd.label "Villuskjár">
 <!ENTITY errorConsoleCmd.accesskey "g">
 <!ENTITY errorConsoleCmd.commandkey "j">
-
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton1.label "Ná í póst">
 <!ENTITY newMsgButton.label "Skrifa">
@@ -520,8 +501,7 @@
 <!ENTITY tagButton.label "Merki">
 <!ENTITY compactButton.label "Þjappa">
 <!ENTITY appmenuButton.label "AppMenu">
-
-<!-- Mail Toolbar Tooltips-->
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Ítarleg póstleit">
 <!ENTITY getMsgButton.tooltip "Ná í nýjan póst">
 <!ENTITY getAllNewMsgCmd.label "Ná í nýjan póst">
@@ -550,11 +530,9 @@
 <!ENTITY tagButton.tooltip "Merkja skilaboð">
 <!ENTITY compactButton.tooltip "Eyða eyddum póstum úr valinni möppu">
 <!ENTITY appmenuButton1.tooltip "Birta &brandShortName; valmynd">
-
 <!-- Toolbar Button Popup -->
 <!ENTITY buttonMenuForwardAsInline.label "Áframsenda innfellt">
 <!ENTITY buttonMenuForwardAsAttachment.label "Áframsenda sem viðhengi">
-
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "Sýna fjartengt efni í þessum pósti">
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey "S">
@@ -562,7 +540,6 @@
 <!ENTITY editRemoteContentSettings.accesskey "e">
 <!ENTITY editRemoteContentSettingsUnix.label "Breyta kjörstillingum fjartengds efnis…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "e">
-
 <!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label "Hunsa aðvörun fyrir þennan póst">
 <!ENTITY phishingOptionIgnore.accesskey "n">
@@ -570,24 +547,20 @@
 <!ENTITY phishingOptionSettings.accesskey "B">
 <!ENTITY phishingOptionSettingsUnix.label "Breyta stillingum svikagreiningar…">
 <!ENTITY phishingOptionSettingsUnix.accesskey "B">
-
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nýr póstur">
 <!ENTITY appmenuNewContactCmd.label "Tengiliður í nafnaskrá…">
 <!ENTITY appmenuToolbarLayout.label "Útlit verkfærastiku…">
-
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nýtt merki…">
 <!ENTITY addNewTag.accesskey "N">
 <!ENTITY manageTags.label "Sýsla með merki…">
 <!ENTITY manageTags.accesskey "m">
-
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nafn">
 <!ENTITY folderUnreadColumn.label "Ólesið">
 <!ENTITY folderTotalColumn.label "Allt">
 <!ENTITY folderSizeColumn.label "Stærð">
-
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "Ná í póst">
 <!ENTITY folderContextGetMessages.accesskey "N">
@@ -627,14 +600,11 @@
 <!ENTITY folderContextFavoriteFolder.accesskey "t">
 <!ENTITY folderContextSettings2.label "Stillingar">
 <!ENTITY folderContextSettings2.accesskey "t">
-
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label "Nafn eða tölvupóstfang inniheldur:">
 <!ENTITY SearchNameOrEmail.accesskey "N">
-
 <!-- Gloda Search Bar -->
 <!ENTITY glodaSearchBar.placeholder "Leita í póstum…">
-
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label "Efni">
 <!ENTITY searchFromMenu.label "Frá">
@@ -643,7 +613,6 @@
 <!ENTITY searchSubjectOrRecipientMenu.label "Efni, til, eða afrit">
 <!ENTITY searchMessageBody.label "Allur pósturinn">
 <!ENTITY saveAsVirtualFolderMenu.label "Vista leit sem möppu…">
-
 <!-- Thread Pane -->
 <!ENTITY selectColumn.label "Veldu skilaboð">
 <!ENTITY threadColumn.label "Umræða">
@@ -667,7 +636,6 @@
 <!ENTITY idColumn.label "Í móttekinni röð">
 <!ENTITY attachmentColumn.label "Viðhengi">
 <!ENTITY deleteColumn.label "Eyða">
-
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip "Veldu dálka til að birta">
 <!ENTITY selectColumn.tooltip "Víxla valstöðu allra skilaboða">
@@ -692,7 +660,6 @@
 <!ENTITY idColumn2.tooltip "Raða eftir móttekinni röð">
 <!ENTITY attachmentColumn2.tooltip "Raða eftir viðhengjum">
 <!ENTITY deleteColumn.tooltip "Eyða skilaboðum">
-
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextNewMsgFromTemplate.label "Ný skilaboð út frá sniðmáti">
 <!ENTITY contextOpenNewWindow.label "Opna póst í nýjum glugga">
@@ -737,8 +704,7 @@
 <!ENTITY contextWatchThreadMenu.label "Fylgjast með umræðu">
 <!-- LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
      In the en-US locale we ran out of access keys, so there is an empty access key for
-     Watch Thread. Localizers can pick a suitable key
-  -->
+     Watch Thread. Localizers can pick a suitable key -->
 <!ENTITY contextWatchThreadMenu.accesskey "">
 <!ENTITY contextSaveAs.label "Vista sem…">
 <!ENTITY contextSaveAs.accesskey "s">
@@ -746,15 +712,13 @@
 <!ENTITY contextPrint.accesskey "P">
 <!ENTITY contextPrintPreview.label "Prentskoðun">
 <!ENTITY contextPrintPreview.accesskey "ð">
-
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
      the "columnPicker.applyToFolder.label" and
      "columnPicker.applyToFolderAndChildren.label" options. This item indicates
      a desire to apply the currently displayed set of columns to some other
      folder(s). The sub-menu items indicate whether we want to apply it to just
-     a folder or also its children.
-  -->
+     a folder or also its children. -->
 <!ENTITY columnPicker.applyTo.label "Beita dálkum á…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolder.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -762,8 +726,7 @@
      "columnPicker.applyToFolderAndChildren.label". It indicates a desire to
      apply the currently display thread pane column settings to a single folder
      that the user selects using the same widget as the move to/copy to
-     mechanism (via a series of popups).
-  -->
+     mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolder.label "Möppu…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolderAndChildren.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -771,8 +734,7 @@
      "columnPicker.applyToFolder.label". It indicates a desire to
      apply the currently display thread pane column settings to a folder and all
      of its descendents. The user selects the folder using the same widget as the
-     move to/copy to mechanism (via a series of popups).
-  -->
+     move to/copy to mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolderAndChildren.label "Möppu og undirmöppur…">
 <!-- LOCALIZATION NOTE (columnPicker.thisFolder.label):
      This is used in the folder selection widget for the
@@ -783,10 +745,8 @@
      selected. For example, if folder "A" has two children, "B" and "C", then
      when the user hovers over "A", a new popup menu will be displayed whose
      items are "This folder", "B", and "C". This is the equivalent of the
-     "File here" option for the move to/copy to widget.
-  -->
+     "File here" option for the move to/copy to widget. -->
 <!ENTITY columnPicker.thisFolder.label "Þessi mappa">
-
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label "Spila">
 <!ENTITY contextPlay.accesskey "S">
@@ -796,12 +756,10 @@
 <!ENTITY contextMute.accesskey "H">
 <!ENTITY contextUnmute.label "Virkja hljóð">
 <!ENTITY contextUnmute.accesskey "V">
-
-<!-- Quick Search Bar -->
-<!-- LOCALIZATION NOTE (quickSearchCmd.key):
+<!-- Quick Search Bar
+     LOCALIZATION NOTE (quickSearchCmd.key):
      This is actually the key used for the global message search box; we have
-     not changed
-  -->
+     not changed -->
 <!ENTITY quickSearchCmd.key "k">
 <!-- LOCALIZATION NOTE (search.label.base1):
      This is the base of the empty text for the global search box. We replace
@@ -810,22 +768,18 @@
      The goal is to convey to the user that typing in the box will allow them
      to search for messages globally and that there is a hotkey they can press
      to get to the box faster. If the global indexer is disabled, the search
-     box will be collapsed and the user will never see this message.
-  -->
+     box will be collapsed and the user will never see this message. -->
 <!ENTITY search.label.base1 "Leita #1">
 <!-- LOCALIZATION NOTE (search.keyLabel.nonmac):
      The description of the key-binding to get into the global search box on
      windows and linux (which use the control key). We use the key defined in
-     the quickSearchCmd.key entity defined above, the letter should match it.
-  -->
+     the quickSearchCmd.key entity defined above, the letter should match it. -->
 <!ENTITY search.keyLabel.nonmac "&lt;Ctrl+K&gt;">
 <!-- LOCALIZATION NOTE (search.keyLabel.mac):
      The description of the key-binding to get into the global search box on mac
      systems. We use the key defined in the quickSearchCmd.key entity defined
-     above, the letter should match it.
-  -->
+     above, the letter should match it. -->
 <!ENTITY search.keyLabel.mac "&lt;&#x2318;K&gt;">
-
 <!-- Message Header Context Menu -->
 <!ENTITY AddToAddressBook.label "Bæta við nafnaskrá…">
 <!ENTITY AddToAddressBook.accesskey "B">
@@ -851,11 +805,9 @@
 <!ENTITY CreateFilterFrom.accesskey "f">
 <!ENTITY reportPhishingURL.label "Tilkynna svikapóst">
 <!ENTITY reportPhishingURL.accesskey "T">
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Bæta við orðasöfnum…">
 <!ENTITY spellAddDictionaries.accesskey "a">
-
 <!-- Content Pane Context Menu -->
 <!ENTITY saveLinkAsCmd.label "Vista tengil sem…">
 <!ENTITY saveLinkAsCmd.accesskey "V">
@@ -871,34 +823,29 @@
 <!ENTITY openInBrowser.accesskey "O">
 <!ENTITY openLinkInBrowser.label "Opna tengil í vafra">
 <!ENTITY openLinkInBrowser.accesskey "O">
-
 <!-- Statusbar -->
 <!ENTITY statusText.label "Ljúka">
-
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "Minnka">
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY bringAllToFront.label "Endurheimta">
 <!ENTITY zoomWindow.label "Aðdráttur">
-
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
-<!ENTITY preferencesCmdMac2.label       "Kjörstillingar">
-<!ENTITY preferencesCmdMac.commandkey   ",">
-<!ENTITY preferencesCmdMac.modifiers    "accel">
-<!ENTITY servicesMenuMac.label          "Þjónustur">
-<!ENTITY hideThisAppCmdMac.label        "Fela &brandShortName;">
-<!ENTITY hideThisAppCmdMac.commandkey   "H">
-<!ENTITY hideThisAppCmdMac.modifiers    "accel">
-<!ENTITY hideOtherAppsCmdMac.label      "Fela aðra">
+<!ENTITY preferencesCmdMac2.label "Kjörstillingar">
+<!ENTITY preferencesCmdMac.commandkey ",">
+<!ENTITY preferencesCmdMac.modifiers "accel">
+<!ENTITY servicesMenuMac.label "Þjónustur">
+<!ENTITY hideThisAppCmdMac.label "Fela &brandShortName;">
+<!ENTITY hideThisAppCmdMac.commandkey "H">
+<!ENTITY hideThisAppCmdMac.modifiers "accel">
+<!ENTITY hideOtherAppsCmdMac.label "Fela aðra">
 <!ENTITY hideOtherAppsCmdMac.commandkey "H">
-<!ENTITY hideOtherAppsCmdMac.modifiers  "accel,alt">
-<!ENTITY showAllAppsCmdMac.label        "Sýna allt">
-
+<!ENTITY hideOtherAppsCmdMac.modifiers "accel,alt">
+<!ENTITY showAllAppsCmdMac.label "Sýna allt">
 <!-- Mac OS X Dock Icon pop-up menu -->
-<!ENTITY dockOptions.label              "App Icon valkostir…">
-<!ENTITY writeNewMessageDock.label      "Skrifa nýjan póst">
-<!ENTITY openAddressBookDock.label      "Opna nafnaskrá">
-
+<!ENTITY dockOptions.label "App Icon valkostir…">
+<!ENTITY writeNewMessageDock.label "Skrifa nýjan póst">
+<!ENTITY openAddressBookDock.label "Opna nafnaskrá">
 <!-- Content tab Navigation buttons -->
-<!ENTITY browseBackButton.tooltip    "Til baka um eina síðu">
+<!ENTITY browseBackButton.tooltip "Til baka um eina síðu">
 <!ENTITY browseForwardButton.tooltip "Áfram um eina síðu">

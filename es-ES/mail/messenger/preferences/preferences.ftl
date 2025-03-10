@@ -879,3 +879,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Contraseñas exportadas
 qr-export-summary-passwords-excluded = Contraseñas no exportadas
 qr-export-more-accounts = Exportar más cuentas
+
+## Appearance Tab
+

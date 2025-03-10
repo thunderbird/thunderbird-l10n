@@ -724,3 +724,6 @@ show-synced-change = Snifel...
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

@@ -109,13 +109,23 @@ update-setting-write-failure-title = Chyba při ukládání nastavení aktualiza
 # intentional so the path is easier to identify.
 update-setting-write-failure-message =
     { -brand-short-name.gender ->
-        [masculine] { -brand-short-name } zaznamenal
-        [feminine] { -brand-short-name } zanamenala
-        [neuter] { -brand-short-name } zaznamenalo
-       *[other] Aplikace { -brand-short-name } zaznamenala
-    } problém při ukládání změny nastavení. Změna těchto nastavení vyžaduje oprávnění k zápisu do níže uvedeného souboru. Vy nebo správce vašeho systému můžete tento problém vyřešit přidělením úplných oprávnění k tomuto souboru pro skupinu Users.
-    
-    Není možný zápis do souboru: { $path }
+        [masculine]
+            { -brand-short-name } zaznamenal problém při ukládání změny nastavení. Změna těchto nastavení vyžaduje oprávnění k zápisu do níže uvedeného souboru. Vy nebo správce vašeho systému můžete tento problém vyřešit přidělením úplných oprávnění k tomuto souboru pro skupinu Users.
+            
+            Není možný zápis do souboru: { $path }
+        [feminine]
+            { -brand-short-name } zanamenala problém při ukládání změny nastavení. Změna těchto nastavení vyžaduje oprávnění k zápisu do níže uvedeného souboru. Vy nebo správce vašeho systému můžete tento problém vyřešit přidělením úplných oprávnění k tomuto souboru pro skupinu Users.
+            
+            Není možný zápis do souboru: { $path }
+        [neuter]
+            { -brand-short-name } zaznamenalo problém při ukládání změny nastavení. Změna těchto nastavení vyžaduje oprávnění k zápisu do níže uvedeného souboru. Vy nebo správce vašeho systému můžete tento problém vyřešit přidělením úplných oprávnění k tomuto souboru pro skupinu Users.
+            
+            Není možný zápis do souboru: { $path }
+       *[other]
+            Aplikace { -brand-short-name } zaznamenala problém při ukládání změny nastavení. Změna těchto nastavení vyžaduje oprávnění k zápisu do níže uvedeného souboru. Vy nebo správce vašeho systému můžete tento problém vyřešit přidělením úplných oprávnění k tomuto souboru pro skupinu Users.
+            
+            Není možný zápis do souboru: { $path }
+    }
 update-in-progress-title = Probíhá aktualizace
 update-in-progress-message =
     { -brand-short-name.gender ->
@@ -182,12 +192,12 @@ adding-opensearch-provider-failed-title = Přidání poskytovatele OpenSearch se
 adding-opensearch-provider-failed-text = Poskytovatele OpenSearch pro { $url } nelze přidat.
 minimize-to-tray-label =
     .label =
-        Při minimalizaci { -brand-short-name.gender ->
-            [masculine] { -brand-short-name(case: "gen") } ho
-            [feminine] { -brand-short-name(case: "gen") } ji
-            [neuter] { -brand-short-name(case: "gen") } ho
-           *[other] aplikace jo
-        } přesunout do oznamovací oblasti
+        { -brand-short-name.gender ->
+            [masculine] Při minimalizaci { -brand-short-name(case: "gen") } ho přesunout do oznamovací oblasti
+            [feminine] Při minimalizaci { -brand-short-name(case: "gen") } ji přesunout do oznamovací oblasti
+            [neuter] Při minimalizaci { -brand-short-name(case: "gen") } ho přesunout do oznamovací oblasti
+           *[other] Při minimalizaci aplikace jo přesunout do oznamovací oblasti
+        }
     .accesskey = o
 new-message-arrival = Při přijetí nové zprávy:
 mail-play-sound-label =
@@ -968,3 +978,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Včetně hesel
 qr-export-summary-passwords-excluded = Hesla vynechána
 qr-export-more-accounts = Exportovat více účtů
+
+## Appearance Tab
+

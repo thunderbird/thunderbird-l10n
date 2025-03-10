@@ -19,3 +19,6 @@ message-header-custom-field = { $fieldName }<span data-l10n-name="field-separato
 
 ##
 
+
+## Dark Message Mode
+

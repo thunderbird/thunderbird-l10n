@@ -891,3 +891,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Gronidła zapśimjone
 qr-export-summary-passwords-excluded = Gronidła wuzamknjone
 qr-export-more-accounts = Dalšne konta eksportěrowaś
+
+## Appearance Tab
+

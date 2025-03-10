@@ -867,3 +867,6 @@ qr-export-summary-accounts = ส่งออกบัญชีแล้ว { $co
 qr-export-summary-passwords-included = รหัสผ่านที่รวมอยู่ด้วย
 qr-export-summary-passwords-excluded = รหัสผ่านที่ไม่รวมอยู่ด้วย
 qr-export-more-accounts = ส่งออกบัญชีเพิ่มเติม
+
+## Appearance Tab
+

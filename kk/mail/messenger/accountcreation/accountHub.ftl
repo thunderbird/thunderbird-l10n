@@ -124,7 +124,7 @@ account-hub-select-all = Барлығын таңдау
 account-hub-deselect-all = Барлығынан таңдауды алып тастау
 # $count (Number) - The number of sync accounts selected.
 account-hub-sync-accounts-selected =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } таңдалды
        *[other] { $count } таңдалды
     }

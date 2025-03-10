@@ -856,3 +856,6 @@ qr-export-summary-accounts = { $count } akun diekspor:
 qr-export-summary-passwords-included = Termasuk kata sandi
 qr-export-summary-passwords-excluded = Sandi dikecualikan
 qr-export-more-accounts = Ekspor lebih banyak akun
+
+## Appearance Tab
+

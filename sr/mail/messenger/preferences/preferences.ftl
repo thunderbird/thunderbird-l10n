@@ -764,3 +764,6 @@ sync-disconnected-turn-on-sync = Укључи синхронизацију…
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

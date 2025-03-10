@@ -4,7 +4,6 @@
 
 <!ENTITY titledefault.label "&brandFullName;">
 <!ENTITY titleSeparator.label " - ">
-
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label "Složka…">
 <!ENTITY newFolderCmd.accesskey "S">
@@ -14,12 +13,10 @@
 <!ENTITY closeOtherTabsCmd2.accesskey "v">
 <!ENTITY recentlyClosedTabsCmd.label "Naposledy zavřené panely">
 <!ENTITY recentlyClosedTabsCmd.accesskey "N">
-
 <!ENTITY undoCloseTabCmd.commandkey "T">
 <!-- LOCALIZATION NOTE (moveToNewWindow.label):
      Menu option to cause the current tab to be migrated to a new Thunderbird
-     window.
-     -->
+     window. -->
 <!ENTITY moveToNewWindow.label "Přesunout do nového okna">
 <!ENTITY moveToNewWindow.accesskey "P">
 <!ENTITY newVirtualFolderCmd.label "Uložené hledání…">
@@ -30,12 +27,12 @@
 <!ENTITY newFeedAccountCmd.accesskey "a">
 <!ENTITY newIMContactCmd.label "Kontakty chatu…">
 <!ENTITY newIMContactCmd.accesskey "n">
-<!ENTITY  newMessageCmd2.key "N">
-<!ENTITY  newMessageCmd.key "M">
-<!ENTITY  newMessageCmd.label "Zpráva">
-<!ENTITY  newMessageCmd.accesskey "Z">
-<!ENTITY  newContactCmd.label "Kontakt…">
-<!ENTITY  newContactCmd.accesskey "K">
+<!ENTITY newMessageCmd2.key "N">
+<!ENTITY newMessageCmd.key "M">
+<!ENTITY newMessageCmd.label "Zpráva">
+<!ENTITY newMessageCmd.accesskey "Z">
+<!ENTITY newContactCmd.label "Kontakt…">
+<!ENTITY newContactCmd.accesskey "K">
 <!ENTITY openMenuCmd.label "Otevřít">
 <!ENTITY openMenuCmd.accesskey "O">
 <!ENTITY openMessageFileCmd.label "Otevřít uloženou zprávu…">
@@ -81,7 +78,6 @@
 <!ENTITY printCmd.label "Tisk…">
 <!ENTITY printCmd.accesskey "T">
 <!ENTITY printCmd.key "p">
-
 <!-- Edit Menu -->
 <!ENTITY selectMenu.label "Vybrat">
 <!ENTITY selectMenu.accesskey "a">
@@ -106,7 +102,6 @@
 <!ENTITY undoDefaultCmd.accesskey "Z">
 <!ENTITY redoDefaultCmd.label "Znovu">
 <!ENTITY redoDefaultCmd.accesskey "o">
-
 <!-- View Menu -->
 <!ENTITY menubarCmd.label "Hlavní nabídka">
 <!ENTITY menubarCmd.accesskey "n">
@@ -114,7 +109,6 @@
 <!ENTITY showMessengerToolbarCmd.accesskey "p">
 <!ENTITY customizeToolbar.label "Přizpůsobit…">
 <!ENTITY customizeToolbar.accesskey "z">
-
 <!ENTITY messagePaneLayoutStyle.label "Rozložení">
 <!ENTITY messagePaneLayoutStyle.accesskey "R">
 <!ENTITY messagePaneClassic.label "Klasický pohled">
@@ -127,7 +121,6 @@
 <!ENTITY showFolderPaneCmd.accesskey "s">
 <!ENTITY showMessageCmd.label "Podokno zpráv">
 <!ENTITY showMessageCmd.accesskey "z">
-
 <!ENTITY folderView.label "Složky">
 <!ENTITY folderView.accesskey "S">
 <!ENTITY unifiedFolders.label "Jednotné">
@@ -142,7 +135,6 @@
 <!ENTITY recentFolders.accesskey "P">
 <!ENTITY compactVersion.label "Kompaktní zobrazení">
 <!ENTITY compactVersion.accesskey "K">
-
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "Seřadit podle">
 <!ENTITY sortMenu.accesskey "p">
@@ -206,7 +198,6 @@
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "d">
 <!ENTITY ignoredThreadsCmd.label "Ignorovaná vlákna">
 <!ENTITY ignoredThreadsCmd.accesskey "I">
-
 <!ENTITY headersMenu.label "Záhlaví">
 <!ENTITY headersMenu.accesskey "h">
 <!ENTITY headersAllCmd.label "Vše">
@@ -223,7 +214,6 @@
 <!ENTITY bodyAsPlaintext.accesskey "P">
 <!ENTITY bodyAllParts.label "Všechny části těla">
 <!ENTITY bodyAllParts.accesskey "e">
-
 <!ENTITY bodyMenuFeed.label "Tělo zprávy kanálu jako">
 <!ENTITY bodyMenuFeed.accesskey "z">
 <!ENTITY viewFeedWebPage.label "Webová stránka">
@@ -232,16 +222,13 @@
 <!ENTITY viewFeedSummary.accesskey "S">
 <!ENTITY viewFeedSummaryFeedPropsPref.label "Výchozí formát">
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "f">
-
 <!ENTITY viewAttachmentsInlineCmd.label "Zobrazit přílohy ve zprávě">
 <!ENTITY viewAttachmentsInlineCmd.accesskey "Z">
-
 <!ENTITY pageSourceCmd.label "Zdrojový kód zprávy">
 <!ENTITY pageSourceCmd.accesskey "r">
 <!ENTITY pageSourceCmd.key "u">
 <!ENTITY getNewMessagesCmd.key "y">
 <!ENTITY getAllNewMessagesCmd.key "Y">
-
 <!-- Search Menu -->
 <!ENTITY findMenu.label "Najít">
 <!ENTITY findMenu.accesskey "j">
@@ -261,7 +248,6 @@
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Hledat v kontaktech…">
 <!ENTITY searchAddressesCmd.accesskey "k">
-
 <!-- Go Menu -->
 <!ENTITY goMenu.label "Přejít">
 <!ENTITY goMenu.accesskey "P">
@@ -302,7 +288,6 @@
 <!ENTITY goRecentlyClosedTabs.accesskey "N">
 <!ENTITY startPageCmd.label "Úvodní stránka">
 <!ENTITY startPageCmd.accesskey "t">
-
 <!-- Message Menu -->
 <!ENTITY msgMenu.label "Zpráva">
 <!ENTITY msgMenu.accesskey "r">
@@ -345,7 +330,8 @@
 <!ENTITY editTemplateMsgCmd.label "Upravit šablonu">
 <!ENTITY editTemplateMsgCmd.accesskey "p">
 <!ENTITY newMsgFromTemplateCmd.label "Nová zpráva ze šablony">
-<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN"><!-- do not change "VK_RETURN" -->
+<!-- do not change "VK_RETURN" -->
+<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Vytvořit filtr ze zprávy…">
 <!ENTITY createFilter.accesskey "y">
 <!ENTITY moveMsgToMenu.label "Přesunout do">
@@ -423,10 +409,8 @@
 <!ENTITY openFeedSummary.accesskey "s">
 <!ENTITY openFeedWebPageInMP.label "Zaměnit webovou stránku a souhrn v podokně zpráv">
 <!ENTITY openFeedWebPageInMP.accesskey "Z">
-
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label "Okno">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Nástroje">
 <!ENTITY tasksMenu.accesskey "N">
@@ -440,10 +424,10 @@
 <!ENTITY activitymanager.accesskey "k">
 <!ENTITY imAccountsStatus.label "Stav chatu">
 <!ENTITY imAccountsStatus.accesskey "u">
-<!ENTITY imStatus.available          "Dostupný">
-<!ENTITY imStatus.unavailable        "Nedostupný">
-<!ENTITY imStatus.offline            "Offline">
-<!ENTITY imStatus.showAccounts       "Zobrazit účty…">
+<!ENTITY imStatus.available "Dostupný">
+<!ENTITY imStatus.unavailable "Nedostupný">
+<!ENTITY imStatus.offline "Offline">
+<!ENTITY imStatus.showAccounts "Zobrazit účty…">
 <!ENTITY joinChatCmd.label "Chatovat…">
 <!ENTITY joinChatCmd.accesskey "v">
 <!ENTITY savedFiles.label "Uložené soubory">
@@ -471,10 +455,8 @@
 <!ENTITY accountManagerCmd2.accesskey "t">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
-     on Unix systems
-  -->
+     on Unix systems -->
 <!ENTITY accountManagerCmdUnix2.accesskey "A">
-
 <!-- Developer Tools Submenu -->
 <!ENTITY devtoolsMenu.label "Nástroje pro vývojáře">
 <!ENTITY devtoolsMenu.accesskey "o">
@@ -486,7 +468,6 @@
 <!ENTITY errorConsoleCmd.label "Chybová konzole">
 <!ENTITY errorConsoleCmd.accesskey "C">
 <!ENTITY errorConsoleCmd.commandkey "j">
-
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton1.label "Přijmout zprávy">
 <!ENTITY newMsgButton.label "Napsat">
@@ -520,8 +501,7 @@
 <!ENTITY tagButton.label "Štítek">
 <!ENTITY compactButton.label "Provést údržbu">
 <!ENTITY appmenuButton.label "Nabídka aplikace">
-
-<!-- Mail Toolbar Tooltips-->
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Rozšířené vyhledávání zpráv">
 <!ENTITY getMsgButton.tooltip "Přijme nové zprávy">
 <!ENTITY getAllNewMsgCmd.label "Přijmout všechny nové zprávy">
@@ -550,11 +530,9 @@
 <!ENTITY tagButton.tooltip "Přidá štítek">
 <!ENTITY compactButton.tooltip "Ze zvolené složky odstraní smazané zprávy">
 <!ENTITY appmenuButton1.tooltip "Zobrazí nabídku aplikace &brandShortName;">
-
 <!-- Toolbar Button Popup -->
 <!ENTITY buttonMenuForwardAsInline.label "Přeposlat jako vložené">
 <!ENTITY buttonMenuForwardAsAttachment.label "Přeposlat jako přílohu">
-
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "Zobrazit vzdálený obsah v této zprávě">
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey "Z">
@@ -562,7 +540,6 @@
 <!ENTITY editRemoteContentSettings.accesskey "U">
 <!ENTITY editRemoteContentSettingsUnix.label "Upravit nastavení pro vzdálený obsah…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "U">
-
 <!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label "Ignorovat upozornění pro tuto zprávu">
 <!ENTITY phishingOptionIgnore.accesskey "n">
@@ -570,24 +547,20 @@
 <!ENTITY phishingOptionSettings.accesskey "d">
 <!ENTITY phishingOptionSettingsUnix.label "Upravit nastavení detekování podvodných zpráv…">
 <!ENTITY phishingOptionSettingsUnix.accesskey "d">
-
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nová zpráva">
 <!ENTITY appmenuNewContactCmd.label "Kontakt…">
 <!ENTITY appmenuToolbarLayout.label "Upravit lišty…">
-
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nový štítek…">
 <!ENTITY addNewTag.accesskey "N">
 <!ENTITY manageTags.label "Upravit štítky…">
 <!ENTITY manageTags.accesskey "U">
-
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Název">
 <!ENTITY folderUnreadColumn.label "Nepřečteno">
 <!ENTITY folderTotalColumn.label "Celkem">
 <!ENTITY folderSizeColumn.label "Velikost">
-
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "Přijmout zprávy">
 <!ENTITY folderContextGetMessages.accesskey "P">
@@ -627,14 +600,11 @@
 <!ENTITY folderContextFavoriteFolder.accesskey "b">
 <!ENTITY folderContextSettings2.label "Nastavení">
 <!ENTITY folderContextSettings2.accesskey "t">
-
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label "Jméno nebo e-mail obsahuje:">
 <!ENTITY SearchNameOrEmail.accesskey "m">
-
 <!-- Gloda Search Bar -->
 <!ENTITY glodaSearchBar.placeholder "Hledat ve zprávách…">
-
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label "Předmět">
 <!ENTITY searchFromMenu.label "Od">
@@ -643,7 +613,6 @@
 <!ENTITY searchSubjectOrRecipientMenu.label "Předmět, komu nebo kopie">
 <!ENTITY searchMessageBody.label "Tělo zprávy">
 <!ENTITY saveAsVirtualFolderMenu.label "Uložit hledání jako složku…">
-
 <!-- Thread Pane -->
 <!ENTITY selectColumn.label "Vybrat zprávy">
 <!ENTITY threadColumn.label "Vlákno">
@@ -667,7 +636,6 @@
 <!ENTITY idColumn.label "Pořadí přijetí">
 <!ENTITY attachmentColumn.label "Přílohy">
 <!ENTITY deleteColumn.label "Smazat">
-
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip "Vyberte sloupce, které chcete zobrazit">
 <!ENTITY selectColumn.tooltip "Přepne výběr všech zpráv">
@@ -692,7 +660,6 @@
 <!ENTITY idColumn2.tooltip "Seřadíte podle pořadí přijetí">
 <!ENTITY attachmentColumn2.tooltip "Seřadíte podle příloh">
 <!ENTITY deleteColumn.tooltip "Smazání zprávy">
-
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextNewMsgFromTemplate.label "Nová zpráva ze šablony">
 <!ENTITY contextOpenNewWindow.label "Otevřít zprávu v novém okně">
@@ -737,8 +704,7 @@
 <!ENTITY contextWatchThreadMenu.label "Sledovat vlákno">
 <!-- LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
      In the en-US locale we ran out of access keys, so there is an empty access key for
-     Watch Thread. Localizers can pick a suitable key
-  -->
+     Watch Thread. Localizers can pick a suitable key -->
 <!ENTITY contextWatchThreadMenu.accesskey "n">
 <!ENTITY contextSaveAs.label "Uložit jako…">
 <!ENTITY contextSaveAs.accesskey "j">
@@ -746,15 +712,13 @@
 <!ENTITY contextPrint.accesskey "T">
 <!ENTITY contextPrintPreview.label "Náhled tisku">
 <!ENTITY contextPrintPreview.accesskey "h">
-
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
      the "columnPicker.applyToFolder.label" and
      "columnPicker.applyToFolderAndChildren.label" options. This item indicates
      a desire to apply the currently displayed set of columns to some other
      folder(s). The sub-menu items indicate whether we want to apply it to just
-     a folder or also its children.
-  -->
+     a folder or also its children. -->
 <!ENTITY columnPicker.applyTo.label "Změnit sloupce v…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolder.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -762,8 +726,7 @@
      "columnPicker.applyToFolderAndChildren.label". It indicates a desire to
      apply the currently display thread pane column settings to a single folder
      that the user selects using the same widget as the move to/copy to
-     mechanism (via a series of popups).
-  -->
+     mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolder.label "Složka…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolderAndChildren.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -771,8 +734,7 @@
      "columnPicker.applyToFolder.label". It indicates a desire to
      apply the currently display thread pane column settings to a folder and all
      of its descendents. The user selects the folder using the same widget as the
-     move to/copy to mechanism (via a series of popups).
-  -->
+     move to/copy to mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolderAndChildren.label "Složka a její podsložky…">
 <!-- LOCALIZATION NOTE (columnPicker.thisFolder.label):
      This is used in the folder selection widget for the
@@ -783,10 +745,8 @@
      selected. For example, if folder "A" has two children, "B" and "C", then
      when the user hovers over "A", a new popup menu will be displayed whose
      items are "This folder", "B", and "C". This is the equivalent of the
-     "File here" option for the move to/copy to widget.
-  -->
+     "File here" option for the move to/copy to widget. -->
 <!ENTITY columnPicker.thisFolder.label "Tato složka">
-
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label "Přehrát">
 <!ENTITY contextPlay.accesskey "h">
@@ -796,12 +756,10 @@
 <!ENTITY contextMute.accesskey "p">
 <!ENTITY contextUnmute.label "Zapnout zvuk">
 <!ENTITY contextUnmute.accesskey "p">
-
-<!-- Quick Search Bar -->
-<!-- LOCALIZATION NOTE (quickSearchCmd.key):
+<!-- Quick Search Bar
+     LOCALIZATION NOTE (quickSearchCmd.key):
      This is actually the key used for the global message search box; we have
-     not changed
-  -->
+     not changed -->
 <!ENTITY quickSearchCmd.key "k">
 <!-- LOCALIZATION NOTE (search.label.base1):
      This is the base of the empty text for the global search box. We replace
@@ -810,22 +768,18 @@
      The goal is to convey to the user that typing in the box will allow them
      to search for messages globally and that there is a hotkey they can press
      to get to the box faster. If the global indexer is disabled, the search
-     box will be collapsed and the user will never see this message.
-  -->
+     box will be collapsed and the user will never see this message. -->
 <!ENTITY search.label.base1 "Hledat #1">
 <!-- LOCALIZATION NOTE (search.keyLabel.nonmac):
      The description of the key-binding to get into the global search box on
      windows and linux (which use the control key). We use the key defined in
-     the quickSearchCmd.key entity defined above, the letter should match it.
-  -->
+     the quickSearchCmd.key entity defined above, the letter should match it. -->
 <!ENTITY search.keyLabel.nonmac "&lt;Ctrl+K&gt;">
 <!-- LOCALIZATION NOTE (search.keyLabel.mac):
      The description of the key-binding to get into the global search box on mac
      systems. We use the key defined in the quickSearchCmd.key entity defined
-     above, the letter should match it.
-  -->
+     above, the letter should match it. -->
 <!ENTITY search.keyLabel.mac "&lt;&#x2318;K&gt;">
-
 <!-- Message Header Context Menu -->
 <!ENTITY AddToAddressBook.label "Přidat do kontaktů…">
 <!ENTITY AddToAddressBook.accesskey "P">
@@ -851,11 +805,9 @@
 <!ENTITY CreateFilterFrom.accesskey "f">
 <!ENTITY reportPhishingURL.label "Nahlásit podvodný e-mail">
 <!ENTITY reportPhishingURL.accesskey "N">
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Přidat slovník…">
 <!ENTITY spellAddDictionaries.accesskey "P">
-
 <!-- Content Pane Context Menu -->
 <!ENTITY saveLinkAsCmd.label "Uložit odkaz jako…">
 <!ENTITY saveLinkAsCmd.accesskey "k">
@@ -871,34 +823,29 @@
 <!ENTITY openInBrowser.accesskey "O">
 <!ENTITY openLinkInBrowser.label "Otevřít odkaz v prohlížeči">
 <!ENTITY openLinkInBrowser.accesskey "O">
-
 <!-- Statusbar -->
 <!ENTITY statusText.label "Hotovo">
-
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "Minimalizovat">
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY bringAllToFront.label "Přenést vše do popředí">
 <!ENTITY zoomWindow.label "Zvětšit okno">
-
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
-<!ENTITY preferencesCmdMac2.label       "Předvolby">
-<!ENTITY preferencesCmdMac.commandkey   ",">
-<!ENTITY preferencesCmdMac.modifiers    "accel">
-<!ENTITY servicesMenuMac.label          "Služby">
-<!ENTITY hideThisAppCmdMac.label        "Skrýt &brandShortName;">
-<!ENTITY hideThisAppCmdMac.commandkey   "H">
-<!ENTITY hideThisAppCmdMac.modifiers    "accel">
-<!ENTITY hideOtherAppsCmdMac.label      "Skrýt ostatní">
+<!ENTITY preferencesCmdMac2.label "Předvolby">
+<!ENTITY preferencesCmdMac.commandkey ",">
+<!ENTITY preferencesCmdMac.modifiers "accel">
+<!ENTITY servicesMenuMac.label "Služby">
+<!ENTITY hideThisAppCmdMac.label "Skrýt &brandShortName;">
+<!ENTITY hideThisAppCmdMac.commandkey "H">
+<!ENTITY hideThisAppCmdMac.modifiers "accel">
+<!ENTITY hideOtherAppsCmdMac.label "Skrýt ostatní">
 <!ENTITY hideOtherAppsCmdMac.commandkey "H">
-<!ENTITY hideOtherAppsCmdMac.modifiers  "accel,alt">
-<!ENTITY showAllAppsCmdMac.label        "Zobrazit vše">
-
+<!ENTITY hideOtherAppsCmdMac.modifiers "accel,alt">
+<!ENTITY showAllAppsCmdMac.label "Zobrazit vše">
 <!-- Mac OS X Dock Icon pop-up menu -->
-<!ENTITY dockOptions.label              "Nastavení ikony aplikace…">
-<!ENTITY writeNewMessageDock.label      "Napsat novou zprávu">
-<!ENTITY openAddressBookDock.label      "Otevřít kontakty">
-
+<!ENTITY dockOptions.label "Nastavení ikony aplikace…">
+<!ENTITY writeNewMessageDock.label "Napsat novou zprávu">
+<!ENTITY openAddressBookDock.label "Otevřít kontakty">
 <!-- Content tab Navigation buttons -->
-<!ENTITY browseBackButton.tooltip    "Přejde na předchozí stránku">
+<!ENTITY browseBackButton.tooltip "Přejde na předchozí stránku">
 <!ENTITY browseForwardButton.tooltip "Přejde na následující stránku">

@@ -883,3 +883,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Tartalmazza a jelszavakat
 qr-export-summary-passwords-excluded = Nem tartalmaz jelszavakat
 qr-export-more-accounts = További fiókok exportálása
+
+## Appearance Tab
+

@@ -124,7 +124,7 @@ account-hub-select-all = Velja allt
 account-hub-deselect-all = Afvelja allt
 # $count (Number) - The number of sync accounts selected.
 account-hub-sync-accounts-selected =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } valið
        *[other] { $count } valið
     }

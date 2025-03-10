@@ -98,3 +98,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Dapli
     .title = Mussar tut ils destinaturs
 message-ids-field-show-all = Mussar tut
+
+## Dark Message Mode
+

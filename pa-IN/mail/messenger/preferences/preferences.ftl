@@ -359,3 +359,6 @@ send-typing-label =
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

@@ -4,7 +4,6 @@
 
 <!ENTITY titledefault.label "&brandFullName;">
 <!ENTITY titleSeparator.label " - ">
-
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label "Map…">
 <!ENTITY newFolderCmd.accesskey "M">
@@ -14,12 +13,10 @@
 <!ENTITY closeOtherTabsCmd2.accesskey "l">
 <!ENTITY recentlyClosedTabsCmd.label "Koartlyn sluten ljepblêden">
 <!ENTITY recentlyClosedTabsCmd.accesskey "K">
-
 <!ENTITY undoCloseTabCmd.commandkey "T">
 <!-- LOCALIZATION NOTE (moveToNewWindow.label):
      Menu option to cause the current tab to be migrated to a new Thunderbird
-     window.
-     -->
+     window. -->
 <!ENTITY moveToNewWindow.label "Ferpleats nei nij finster">
 <!ENTITY moveToNewWindow.accesskey "F">
 <!ENTITY newVirtualFolderCmd.label "Bewarre sykopdracht…">
@@ -30,12 +27,12 @@
 <!ENTITY newFeedAccountCmd.accesskey "d">
 <!ENTITY newIMContactCmd.label "Chatkontakt…">
 <!ENTITY newIMContactCmd.accesskey "h">
-<!ENTITY  newMessageCmd2.key "N">
-<!ENTITY  newMessageCmd.key "M">
-<!ENTITY  newMessageCmd.label "Berjocht">
-<!ENTITY  newMessageCmd.accesskey "b">
-<!ENTITY  newContactCmd.label "Adresboekkontakt…">
-<!ENTITY  newContactCmd.accesskey "k">
+<!ENTITY newMessageCmd2.key "N">
+<!ENTITY newMessageCmd.key "M">
+<!ENTITY newMessageCmd.label "Berjocht">
+<!ENTITY newMessageCmd.accesskey "b">
+<!ENTITY newContactCmd.label "Adresboekkontakt…">
+<!ENTITY newContactCmd.accesskey "k">
 <!ENTITY openMenuCmd.label "Iepenje">
 <!ENTITY openMenuCmd.accesskey "I">
 <!ENTITY openMessageFileCmd.label "Bewarre berjocht iepenje…">
@@ -81,7 +78,6 @@
 <!ENTITY printCmd.label "Ofdrukke…">
 <!ENTITY printCmd.accesskey "d">
 <!ENTITY printCmd.key "p">
-
 <!-- Edit Menu -->
 <!ENTITY selectMenu.label "Selektearje">
 <!ENTITY selectMenu.accesskey "S">
@@ -106,7 +102,6 @@
 <!ENTITY undoDefaultCmd.accesskey "M">
 <!ENTITY redoDefaultCmd.label "Opnij útfiere">
 <!ENTITY redoDefaultCmd.accesskey "n">
-
 <!-- View Menu -->
 <!ENTITY menubarCmd.label "Menubalke">
 <!ENTITY menubarCmd.accesskey "M">
@@ -114,7 +109,6 @@
 <!ENTITY showMessengerToolbarCmd.accesskey "E">
 <!ENTITY customizeToolbar.label "Oanpasse…">
 <!ENTITY customizeToolbar.accesskey "O">
-
 <!ENTITY messagePaneLayoutStyle.label "Foarmjouwing">
 <!ENTITY messagePaneLayoutStyle.accesskey "F">
 <!ENTITY messagePaneClassic.label "Klassyk byld">
@@ -127,7 +121,6 @@
 <!ENTITY showFolderPaneCmd.accesskey "M">
 <!ENTITY showMessageCmd.label "Berjochtefinster">
 <!ENTITY showMessageCmd.accesskey "e">
-
 <!ENTITY folderView.label "Mappen">
 <!ENTITY folderView.accesskey "M">
 <!ENTITY unifiedFolders.label "Sammele">
@@ -142,7 +135,6 @@
 <!ENTITY recentFolders.accesskey "R">
 <!ENTITY compactVersion.label "Kompakt byld">
 <!ENTITY compactVersion.accesskey "K">
-
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "Sortearje op">
 <!ENTITY sortMenu.accesskey "S">
@@ -206,7 +198,6 @@
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "F">
 <!ENTITY ignoredThreadsCmd.label "Negearre petearen">
 <!ENTITY ignoredThreadsCmd.accesskey "n">
-
 <!ENTITY headersMenu.label "Berjochtkoprigels">
 <!ENTITY headersMenu.accesskey "K">
 <!ENTITY headersAllCmd.label "Alle">
@@ -223,7 +214,6 @@
 <!ENTITY bodyAsPlaintext.accesskey "P">
 <!ENTITY bodyAllParts.label "Alle berjochtopmaak">
 <!ENTITY bodyAllParts.accesskey "A">
-
 <!ENTITY bodyMenuFeed.label "Feedberjochtopmaak as">
 <!ENTITY bodyMenuFeed.accesskey "b">
 <!ENTITY viewFeedWebPage.label "Webside">
@@ -232,16 +222,13 @@
 <!ENTITY viewFeedSummary.accesskey "G">
 <!ENTITY viewFeedSummaryFeedPropsPref.label "Standertformaat">
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "S">
-
 <!ENTITY viewAttachmentsInlineCmd.label "Bylagen yn berjocht werjaan">
 <!ENTITY viewAttachmentsInlineCmd.accesskey "a">
-
 <!ENTITY pageSourceCmd.label "Berjochtboarne">
 <!ENTITY pageSourceCmd.accesskey "r">
 <!ENTITY pageSourceCmd.key "u">
 <!ENTITY getNewMessagesCmd.key "y">
 <!ENTITY getAllNewMessagesCmd.key "Y">
-
 <!-- Search Menu -->
 <!ENTITY findMenu.label "Sykje">
 <!ENTITY findMenu.accesskey "S">
@@ -261,7 +248,6 @@
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Adressen sykje…">
 <!ENTITY searchAddressesCmd.accesskey "A">
-
 <!-- Go Menu -->
 <!ENTITY goMenu.label "Gean">
 <!ENTITY goMenu.accesskey "G">
@@ -302,7 +288,6 @@
 <!ENTITY goRecentlyClosedTabs.accesskey "K">
 <!ENTITY startPageCmd.label "E-mail-startside">
 <!ENTITY startPageCmd.accesskey "s">
-
 <!-- Message Menu -->
 <!ENTITY msgMenu.label "Berjocht">
 <!ENTITY msgMenu.accesskey "e">
@@ -345,7 +330,8 @@
 <!ENTITY editTemplateMsgCmd.label "Sjabloan bewurkje">
 <!ENTITY editTemplateMsgCmd.accesskey "S">
 <!ENTITY newMsgFromTemplateCmd.label "Nij berjocht fan sjabloan">
-<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN"><!-- do not change "VK_RETURN" -->
+<!-- do not change "VK_RETURN" -->
+<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Filter meitsje op basis fan berjocht…">
 <!ENTITY createFilter.accesskey "F">
 <!ENTITY moveMsgToMenu.label "Ferpleatse nei">
@@ -423,10 +409,8 @@
 <!ENTITY openFeedSummary.accesskey "g">
 <!ENTITY openFeedWebPageInMP.label "Wiksel webside en gearfetting yn berjochtpaniel">
 <!ENTITY openFeedWebPageInMP.accesskey "W">
-
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label "Finster">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Ekstra">
 <!ENTITY tasksMenu.accesskey "k">
@@ -440,10 +424,10 @@
 <!ENTITY activitymanager.accesskey "a">
 <!ENTITY imAccountsStatus.label "Chatsteat">
 <!ENTITY imAccountsStatus.accesskey "C">
-<!ENTITY imStatus.available          "Beskikber">
-<!ENTITY imStatus.unavailable        "Net beskikber">
-<!ENTITY imStatus.offline            "Offline">
-<!ENTITY imStatus.showAccounts       "Accounts toane…">
+<!ENTITY imStatus.available "Beskikber">
+<!ENTITY imStatus.unavailable "Net beskikber">
+<!ENTITY imStatus.offline "Offline">
+<!ENTITY imStatus.showAccounts "Accounts toane…">
 <!ENTITY joinChatCmd.label "Chat bywenje…">
 <!ENTITY joinChatCmd.accesskey "e">
 <!ENTITY savedFiles.label "Bewarre bestannen">
@@ -471,10 +455,8 @@
 <!ENTITY accountManagerCmd2.accesskey "c">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
-     on Unix systems
-  -->
+     on Unix systems -->
 <!ENTITY accountManagerCmdUnix2.accesskey "A">
-
 <!-- Developer Tools Submenu -->
 <!ENTITY devtoolsMenu.label "Untwikkelersark">
 <!ENTITY devtoolsMenu.accesskey "n">
@@ -486,7 +468,6 @@
 <!ENTITY errorConsoleCmd.label "Flaterkonsole">
 <!ENTITY errorConsoleCmd.accesskey "F">
 <!ENTITY errorConsoleCmd.commandkey "j">
-
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton1.label "E-mail ophelje">
 <!ENTITY newMsgButton.label "Opstelle">
@@ -520,8 +501,7 @@
 <!ENTITY tagButton.label "Labelje">
 <!ENTITY compactButton.label "Komprimearje">
 <!ENTITY appmenuButton.label "AppMenu">
-
-<!-- Mail Toolbar Tooltips-->
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Wiidweidich berjochten sykje">
 <!ENTITY getMsgButton.tooltip "Nije berjochten ophelje">
 <!ENTITY getAllNewMsgCmd.label "Alle nije berjochten ophelje">
@@ -550,11 +530,9 @@
 <!ENTITY tagButton.tooltip "Berjocht labelje">
 <!ENTITY compactButton.tooltip "Fuortsmiten berjochten út de selektearre map definityf fuortsmite">
 <!ENTITY appmenuButton1.tooltip "It &brandShortName;-menu toane">
-
 <!-- Toolbar Button Popup -->
 <!ENTITY buttonMenuForwardAsInline.label "Trochstjoere yn berjocht">
 <!ENTITY buttonMenuForwardAsAttachment.label "Trochstjoere as bylage">
-
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "Eksterne ynhâld yn dit berjocht toane">
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey "N">
@@ -562,7 +540,6 @@
 <!ENTITY editRemoteContentSettings.accesskey "O">
 <!ENTITY editRemoteContentSettingsUnix.label "Foarkarren om eksterne ynhâld te bewurkjen…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "F">
-
 <!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label "Warskôging foar dit berjocht negearje">
 <!ENTITY phishingOptionIgnore.accesskey "n">
@@ -570,24 +547,20 @@
 <!ENTITY phishingOptionSettings.accesskey "d">
 <!ENTITY phishingOptionSettingsUnix.label "Foarkarren foar scamdeteksje bewurkje…">
 <!ENTITY phishingOptionSettingsUnix.accesskey "d">
-
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nij berjocht">
 <!ENTITY appmenuNewContactCmd.label "Adresboekkontakt…">
 <!ENTITY appmenuToolbarLayout.label "Arkbalke-yndieling…">
-
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nij label…">
 <!ENTITY addNewTag.accesskey "N">
 <!ENTITY manageTags.label "Labels beheare…">
 <!ENTITY manageTags.accesskey "L">
-
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Namme">
 <!ENTITY folderUnreadColumn.label "Net lêzen">
 <!ENTITY folderTotalColumn.label "Totaal">
 <!ENTITY folderSizeColumn.label "Grutte">
-
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "Berjochten ophelje">
 <!ENTITY folderContextGetMessages.accesskey "B">
@@ -627,14 +600,11 @@
 <!ENTITY folderContextFavoriteFolder.accesskey "F">
 <!ENTITY folderContextSettings2.label "Ynstellingen">
 <!ENTITY folderContextSettings2.accesskey "Y">
-
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label "Namme of e-mail hat:">
 <!ENTITY SearchNameOrEmail.accesskey "N">
-
 <!-- Gloda Search Bar -->
 <!ENTITY glodaSearchBar.placeholder "Sykje berjochten…">
-
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label "Underwerp">
 <!ENTITY searchFromMenu.label "Fan">
@@ -643,7 +613,6 @@
 <!ENTITY searchSubjectOrRecipientMenu.label "Underwerp, Oan of Cc">
 <!ENTITY searchMessageBody.label "Hiele berjocht">
 <!ENTITY saveAsVirtualFolderMenu.label "Sykopdracht as in map bewarje…">
-
 <!-- Thread Pane -->
 <!ENTITY selectColumn.label "Berjochten selektearje">
 <!ENTITY threadColumn.label "Petear">
@@ -667,7 +636,6 @@
 <!ENTITY idColumn.label "Folchoarder fan ûntfangst">
 <!ENTITY attachmentColumn.label "Bylagen">
 <!ENTITY deleteColumn.label "Fuortsmite">
-
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip "Selektearje kolommen om te toanen">
 <!ENTITY selectColumn.tooltip "Berjochtenseleksje omwikselje">
@@ -692,7 +660,6 @@
 <!ENTITY idColumn2.tooltip "Sortearje op folchoarder fan ûntfangst">
 <!ENTITY attachmentColumn2.tooltip "Sortearje op bylagen">
 <!ENTITY deleteColumn.tooltip "In berjocht fuortsmite">
-
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextNewMsgFromTemplate.label "Nij berjocht fan sjabloan">
 <!ENTITY contextOpenNewWindow.label "Berjocht iepenje yn nij finster">
@@ -737,8 +704,7 @@
 <!ENTITY contextWatchThreadMenu.label "Subpetear folgje">
 <!-- LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
      In the en-US locale we ran out of access keys, so there is an empty access key for
-     Watch Thread. Localizers can pick a suitable key
-  -->
+     Watch Thread. Localizers can pick a suitable key -->
 <!ENTITY contextWatchThreadMenu.accesskey "S">
 <!ENTITY contextSaveAs.label "Bewarje as…">
 <!ENTITY contextSaveAs.accesskey "B">
@@ -746,15 +712,13 @@
 <!ENTITY contextPrint.accesskey "d">
 <!ENTITY contextPrintPreview.label "Ofdrukfoarbyld">
 <!ENTITY contextPrintPreview.accesskey "d">
-
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
      the "columnPicker.applyToFolder.label" and
      "columnPicker.applyToFolderAndChildren.label" options. This item indicates
      a desire to apply the currently displayed set of columns to some other
      folder(s). The sub-menu items indicate whether we want to apply it to just
-     a folder or also its children.
-  -->
+     a folder or also its children. -->
 <!ENTITY columnPicker.applyTo.label "Kolommen tapasse op…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolder.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -762,8 +726,7 @@
      "columnPicker.applyToFolderAndChildren.label". It indicates a desire to
      apply the currently display thread pane column settings to a single folder
      that the user selects using the same widget as the move to/copy to
-     mechanism (via a series of popups).
-  -->
+     mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolder.label "Map…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolderAndChildren.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -771,8 +734,7 @@
      "columnPicker.applyToFolder.label". It indicates a desire to
      apply the currently display thread pane column settings to a folder and all
      of its descendents. The user selects the folder using the same widget as the
-     move to/copy to mechanism (via a series of popups).
-  -->
+     move to/copy to mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolderAndChildren.label "Map en submappen…">
 <!-- LOCALIZATION NOTE (columnPicker.thisFolder.label):
      This is used in the folder selection widget for the
@@ -783,10 +745,8 @@
      selected. For example, if folder "A" has two children, "B" and "C", then
      when the user hovers over "A", a new popup menu will be displayed whose
      items are "This folder", "B", and "C". This is the equivalent of the
-     "File here" option for the move to/copy to widget.
-  -->
+     "File here" option for the move to/copy to widget. -->
 <!ENTITY columnPicker.thisFolder.label "Dizze map">
-
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label "Spylje">
 <!ENTITY contextPlay.accesskey "S">
@@ -796,12 +756,10 @@
 <!ENTITY contextMute.accesskey "L">
 <!ENTITY contextUnmute.label "Lûd oan">
 <!ENTITY contextUnmute.accesskey "o">
-
-<!-- Quick Search Bar -->
-<!-- LOCALIZATION NOTE (quickSearchCmd.key):
+<!-- Quick Search Bar
+     LOCALIZATION NOTE (quickSearchCmd.key):
      This is actually the key used for the global message search box; we have
-     not changed
-  -->
+     not changed -->
 <!ENTITY quickSearchCmd.key "k">
 <!-- LOCALIZATION NOTE (search.label.base1):
      This is the base of the empty text for the global search box. We replace
@@ -810,22 +768,18 @@
      The goal is to convey to the user that typing in the box will allow them
      to search for messages globally and that there is a hotkey they can press
      to get to the box faster. If the global indexer is disabled, the search
-     box will be collapsed and the user will never see this message.
-  -->
+     box will be collapsed and the user will never see this message. -->
 <!ENTITY search.label.base1 "Sykje #1">
 <!-- LOCALIZATION NOTE (search.keyLabel.nonmac):
      The description of the key-binding to get into the global search box on
      windows and linux (which use the control key). We use the key defined in
-     the quickSearchCmd.key entity defined above, the letter should match it.
-  -->
+     the quickSearchCmd.key entity defined above, the letter should match it. -->
 <!ENTITY search.keyLabel.nonmac "&lt;Ctrl+K&gt;">
 <!-- LOCALIZATION NOTE (search.keyLabel.mac):
      The description of the key-binding to get into the global search box on mac
      systems. We use the key defined in the quickSearchCmd.key entity defined
-     above, the letter should match it.
-  -->
+     above, the letter should match it. -->
 <!ENTITY search.keyLabel.mac "&lt;&#x2318;K&gt;">
-
 <!-- Message Header Context Menu -->
 <!ENTITY AddToAddressBook.label "Tafoegje oan adresboek…">
 <!ENTITY AddToAddressBook.accesskey "f">
@@ -851,11 +805,9 @@
 <!ENTITY CreateFilterFrom.accesskey "F">
 <!ENTITY reportPhishingURL.label "E-mailscam rapportearje">
 <!ENTITY reportPhishingURL.accesskey "o">
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Wurdboeken tafoegje…">
 <!ENTITY spellAddDictionaries.accesskey "t">
-
 <!-- Content Pane Context Menu -->
 <!ENTITY saveLinkAsCmd.label "Keppelingsdoel bewarje as…">
 <!ENTITY saveLinkAsCmd.accesskey "d">
@@ -871,34 +823,29 @@
 <!ENTITY openInBrowser.accesskey "i">
 <!ENTITY openLinkInBrowser.label "Keppeling yn browser iepenje">
 <!ENTITY openLinkInBrowser.accesskey "o">
-
 <!-- Statusbar -->
 <!ENTITY statusText.label "Klear">
-
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "Minimalisearje">
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY bringAllToFront.label "Alles nei foaren bringe">
 <!ENTITY zoomWindow.label "Zoom">
-
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
-<!ENTITY preferencesCmdMac2.label       "Foarkarren">
-<!ENTITY preferencesCmdMac.commandkey   ",">
-<!ENTITY preferencesCmdMac.modifiers    "accel">
-<!ENTITY servicesMenuMac.label          "Tsjinsten">
-<!ENTITY hideThisAppCmdMac.label        "Ferbergje &brandShortName;">
-<!ENTITY hideThisAppCmdMac.commandkey   "H">
-<!ENTITY hideThisAppCmdMac.modifiers    "accel">
-<!ENTITY hideOtherAppsCmdMac.label      "Ferbergje oaren">
+<!ENTITY preferencesCmdMac2.label "Foarkarren">
+<!ENTITY preferencesCmdMac.commandkey ",">
+<!ENTITY preferencesCmdMac.modifiers "accel">
+<!ENTITY servicesMenuMac.label "Tsjinsten">
+<!ENTITY hideThisAppCmdMac.label "Ferbergje &brandShortName;">
+<!ENTITY hideThisAppCmdMac.commandkey "H">
+<!ENTITY hideThisAppCmdMac.modifiers "accel">
+<!ENTITY hideOtherAppsCmdMac.label "Ferbergje oaren">
 <!ENTITY hideOtherAppsCmdMac.commandkey "H">
-<!ENTITY hideOtherAppsCmdMac.modifiers  "accel,alt">
-<!ENTITY showAllAppsCmdMac.label        "Lit alles sjen">
-
+<!ENTITY hideOtherAppsCmdMac.modifiers "accel,alt">
+<!ENTITY showAllAppsCmdMac.label "Lit alles sjen">
 <!-- Mac OS X Dock Icon pop-up menu -->
-<!ENTITY dockOptions.label              "Programmasymboalopsjes…">
-<!ENTITY writeNewMessageDock.label      "Skriuw in nij berjocht">
-<!ENTITY openAddressBookDock.label      "Adresboek iepenje">
-
+<!ENTITY dockOptions.label "Programmasymboalopsjes…">
+<!ENTITY writeNewMessageDock.label "Skriuw in nij berjocht">
+<!ENTITY openAddressBookDock.label "Adresboek iepenje">
 <!-- Content tab Navigation buttons -->
-<!ENTITY browseBackButton.tooltip    "Gean ien side tebek">
+<!ENTITY browseBackButton.tooltip "Gean ien side tebek">
 <!ENTITY browseForwardButton.tooltip "Gean ien side foarút">

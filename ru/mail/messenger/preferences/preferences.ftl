@@ -887,3 +887,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Включая пароли
 qr-export-summary-passwords-excluded = Исключая пароли
 qr-export-more-accounts = Экспортировать другие учётные записи
+
+## Appearance Tab
+

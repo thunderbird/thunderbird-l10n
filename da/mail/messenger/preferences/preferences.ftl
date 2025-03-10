@@ -880,3 +880,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Adgangskoder medaget
 qr-export-summary-passwords-excluded = Adgangskoder ikke medtaget
 qr-export-more-accounts = Eksporter flere konti
+
+## Appearance Tab
+

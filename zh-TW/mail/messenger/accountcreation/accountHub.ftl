@@ -124,7 +124,7 @@ account-hub-select-all = 選擇全部
 account-hub-deselect-all = 取消選擇全部
 # $count (Number) - The number of sync accounts selected.
 account-hub-sync-accounts-selected =
-    { NUMBER($count) ->
+    { $count ->
        *[other] 已選擇 { $count } 組
     }
 account-hub-no-address-books = 找不到通訊錄

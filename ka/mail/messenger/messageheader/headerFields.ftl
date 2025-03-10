@@ -45,3 +45,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = სხვა
     .title = ყველა მიმღების ჩვენება
 message-ids-field-show-all = ყველას ჩვენება
+
+## Dark Message Mode
+

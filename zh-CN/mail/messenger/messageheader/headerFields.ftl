@@ -98,3 +98,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = 更多
     .title = 显示全部收件人
 message-ids-field-show-all = 显示全部
+
+## Dark Message Mode
+

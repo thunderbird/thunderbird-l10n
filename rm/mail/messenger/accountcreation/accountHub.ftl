@@ -124,7 +124,7 @@ account-hub-select-all = Selecziunar tut
 account-hub-deselect-all = Deselecziunar tut
 # $count (Number) - The number of sync accounts selected.
 account-hub-sync-accounts-selected =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } tschernì
        *[other] { $count } tschernids
     }

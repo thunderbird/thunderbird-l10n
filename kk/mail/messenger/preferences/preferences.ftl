@@ -883,3 +883,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Парольдермен қоса
 qr-export-summary-passwords-excluded = Парольдерсіз
 qr-export-more-accounts = Көбірек тіркелгілерді экспорттау
+
+## Appearance Tab
+

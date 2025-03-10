@@ -865,3 +865,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Salasanat mukana
 qr-export-summary-passwords-excluded = Salasanat eivät mukana
 qr-export-more-accounts = Vie lisää tilejä
+
+## Appearance Tab
+

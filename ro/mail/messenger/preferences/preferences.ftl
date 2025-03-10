@@ -633,3 +633,6 @@ search-results-help-link = Ai nevoie de ajutor? Intră pe <a data-l10n-name="url
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

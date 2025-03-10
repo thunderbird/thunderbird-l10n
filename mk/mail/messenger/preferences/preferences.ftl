@@ -183,3 +183,6 @@ email-picker-label =
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

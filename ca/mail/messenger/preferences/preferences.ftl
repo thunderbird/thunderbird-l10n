@@ -795,3 +795,6 @@ sync-disconnected-turn-on-sync = Activa la sincronització…
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

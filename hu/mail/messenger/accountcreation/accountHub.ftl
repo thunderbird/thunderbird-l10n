@@ -124,7 +124,7 @@ account-hub-select-all = Összes kiválasztása
 account-hub-deselect-all = Összes kiválasztásának megszüntetése
 # $count (Number) - The number of sync accounts selected.
 account-hub-sync-accounts-selected =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } kiválasztva
        *[other] { $count } kiválasztva
     }

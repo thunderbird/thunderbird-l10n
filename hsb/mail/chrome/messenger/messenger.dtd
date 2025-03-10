@@ -4,7 +4,6 @@
 
 <!ENTITY titledefault.label "&brandFullName;">
 <!ENTITY titleSeparator.label " - ">
-
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label "Rjadowak…">
 <!ENTITY newFolderCmd.accesskey "R">
@@ -14,12 +13,10 @@
 <!ENTITY closeOtherTabsCmd2.accesskey "h">
 <!ENTITY recentlyClosedTabsCmd.label "Tuchwilu začinjene rajtarki">
 <!ENTITY recentlyClosedTabsCmd.accesskey "u">
-
 <!ENTITY undoCloseTabCmd.commandkey "T">
 <!-- LOCALIZATION NOTE (moveToNewWindow.label):
      Menu option to cause the current tab to be migrated to a new Thunderbird
-     window.
-     -->
+     window. -->
 <!ENTITY moveToNewWindow.label "Do noweho wokna přesunyć">
 <!ENTITY moveToNewWindow.accesskey "D">
 <!ENTITY newVirtualFolderCmd.label "Składowane pytanje…">
@@ -30,12 +27,12 @@
 <!ENTITY newFeedAccountCmd.accesskey "K">
 <!ENTITY newIMContactCmd.label "Chatowy kontakt…">
 <!ENTITY newIMContactCmd.accesskey "h">
-<!ENTITY  newMessageCmd2.key "N">
-<!ENTITY  newMessageCmd.key "M">
-<!ENTITY  newMessageCmd.label "Powěsć">
-<!ENTITY  newMessageCmd.accesskey "P">
-<!ENTITY  newContactCmd.label "Kontakt adresnika…">
-<!ENTITY  newContactCmd.accesskey "K">
+<!ENTITY newMessageCmd2.key "N">
+<!ENTITY newMessageCmd.key "M">
+<!ENTITY newMessageCmd.label "Powěsć">
+<!ENTITY newMessageCmd.accesskey "P">
+<!ENTITY newContactCmd.label "Kontakt adresnika…">
+<!ENTITY newContactCmd.accesskey "K">
 <!ENTITY openMenuCmd.label "Wočinić">
 <!ENTITY openMenuCmd.accesskey "o">
 <!ENTITY openMessageFileCmd.label "Składowanu powěsć wočinić…">
@@ -81,7 +78,6 @@
 <!ENTITY printCmd.label "Ćišćeć…">
 <!ENTITY printCmd.accesskey "i">
 <!ENTITY printCmd.key "p">
-
 <!-- Edit Menu -->
 <!ENTITY selectMenu.label "Wubrać">
 <!ENTITY selectMenu.accesskey "b">
@@ -106,7 +102,6 @@
 <!ENTITY undoDefaultCmd.accesskey "C">
 <!ENTITY redoDefaultCmd.label "Wospjetować">
 <!ENTITY redoDefaultCmd.accesskey "W">
-
 <!-- View Menu -->
 <!ENTITY menubarCmd.label "Menijowa lajsta">
 <!ENTITY menubarCmd.accesskey "M">
@@ -114,7 +109,6 @@
 <!ENTITY showMessengerToolbarCmd.accesskey "P">
 <!ENTITY customizeToolbar.label "Přiměrić…">
 <!ENTITY customizeToolbar.accesskey "m">
-
 <!ENTITY messagePaneLayoutStyle.label "Wuhotowanje">
 <!ENTITY messagePaneLayoutStyle.accesskey "u">
 <!ENTITY messagePaneClassic.label "Klasiski napohlad">
@@ -127,7 +121,6 @@
 <!ENTITY showFolderPaneCmd.accesskey "b">
 <!ENTITY showMessageCmd.label "Wobłuk powěsćow">
 <!ENTITY showMessageCmd.accesskey "b">
-
 <!ENTITY folderView.label "Rjadowaki">
 <!ENTITY folderView.accesskey "R">
 <!ENTITY unifiedFolders.label "Zjednoćene">
@@ -142,7 +135,6 @@
 <!ENTITY recentFolders.accesskey "N">
 <!ENTITY compactVersion.label "Kompaktny napohlad">
 <!ENTITY compactVersion.accesskey "K">
-
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "Sortěrować po">
 <!ENTITY sortMenu.accesskey "t">
@@ -206,7 +198,6 @@
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "W">
 <!ENTITY ignoredThreadsCmd.label "Ignorowane nitki">
 <!ENTITY ignoredThreadsCmd.accesskey "I">
-
 <!ENTITY headersMenu.label "Hłowy">
 <!ENTITY headersMenu.accesskey "H">
 <!ENTITY headersAllCmd.label "Wšě">
@@ -223,7 +214,6 @@
 <!ENTITY bodyAsPlaintext.accesskey "L">
 <!ENTITY bodyAllParts.label "Wšě dźěle teksta">
 <!ENTITY bodyAllParts.accesskey "d">
-
 <!ENTITY bodyMenuFeed.label "Tekst kanaloweje powěsće jako">
 <!ENTITY bodyMenuFeed.accesskey "k">
 <!ENTITY viewFeedWebPage.label "Webstrona">
@@ -232,16 +222,13 @@
 <!ENTITY viewFeedSummary.accesskey "Z">
 <!ENTITY viewFeedSummaryFeedPropsPref.label "Standardny format">
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "S">
-
 <!ENTITY viewAttachmentsInlineCmd.label "Přiwěški zasadźene zwobraznić">
 <!ENTITY viewAttachmentsInlineCmd.accesskey "i">
-
 <!ENTITY pageSourceCmd.label "Žórło powěsće">
 <!ENTITY pageSourceCmd.accesskey "r">
 <!ENTITY pageSourceCmd.key "u">
 <!ENTITY getNewMessagesCmd.key "y">
 <!ENTITY getAllNewMessagesCmd.key "Y">
-
 <!-- Search Menu -->
 <!ENTITY findMenu.label "Pytać">
 <!ENTITY findMenu.accesskey "P">
@@ -261,7 +248,6 @@
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Adresy pytać…">
 <!ENTITY searchAddressesCmd.accesskey "A">
-
 <!-- Go Menu -->
 <!ENTITY goMenu.label "Dźi">
 <!ENTITY goMenu.accesskey "i">
@@ -302,7 +288,6 @@
 <!ENTITY goRecentlyClosedTabs.accesskey "c">
 <!ENTITY startPageCmd.label "Póstowa startowa strona">
 <!ENTITY startPageCmd.accesskey "P">
-
 <!-- Message Menu -->
 <!ENTITY msgMenu.label "Powěsć">
 <!ENTITY msgMenu.accesskey "P">
@@ -345,7 +330,8 @@
 <!ENTITY editTemplateMsgCmd.label "Předłohu wobdźěłać">
 <!ENTITY editTemplateMsgCmd.accesskey "P">
 <!ENTITY newMsgFromTemplateCmd.label "Nowa powěsć z předłohi">
-<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN"><!-- do not change "VK_RETURN" -->
+<!-- do not change "VK_RETURN" -->
+<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Z powěsće filter wutworić…">
 <!ENTITY createFilter.accesskey "f">
 <!ENTITY moveMsgToMenu.label "Přesunyć do">
@@ -423,10 +409,8 @@
 <!ENTITY openFeedSummary.accesskey "z">
 <!ENTITY openFeedWebPageInMP.label "Mjez webstronu a zjećom we wobłuku powěsćow přepinyć">
 <!ENTITY openFeedWebPageInMP.accesskey "M">
-
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label "Wokno">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Nastroje">
 <!ENTITY tasksMenu.accesskey "N">
@@ -440,10 +424,10 @@
 <!ENTITY activitymanager.accesskey "Z">
 <!ENTITY imAccountsStatus.label "Chatowy status">
 <!ENTITY imAccountsStatus.accesskey "C">
-<!ENTITY imStatus.available          "Steji k dispoziciji">
-<!ENTITY imStatus.unavailable        "Njesteji k dispoziciji">
-<!ENTITY imStatus.offline            "Offline">
-<!ENTITY imStatus.showAccounts       "Konto pokazać…">
+<!ENTITY imStatus.available "Steji k dispoziciji">
+<!ENTITY imStatus.unavailable "Njesteji k dispoziciji">
+<!ENTITY imStatus.offline "Offline">
+<!ENTITY imStatus.showAccounts "Konto pokazać…">
 <!ENTITY joinChatCmd.label "Do chata zastupić…">
 <!ENTITY joinChatCmd.accesskey "o">
 <!ENTITY savedFiles.label "Składowane dataje">
@@ -471,10 +455,8 @@
 <!ENTITY accountManagerCmd2.accesskey "K">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
-     on Unix systems
-  -->
+     on Unix systems -->
 <!ENTITY accountManagerCmdUnix2.accesskey "A">
-
 <!-- Developer Tools Submenu -->
 <!ENTITY devtoolsMenu.label "Wuwiwarske nastroje">
 <!ENTITY devtoolsMenu.accesskey "u">
@@ -486,7 +468,6 @@
 <!ENTITY errorConsoleCmd.label "Zmylkowa konsola">
 <!ENTITY errorConsoleCmd.accesskey "m">
 <!ENTITY errorConsoleCmd.commandkey "j">
-
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton1.label "Powěsće wobstarać">
 <!ENTITY newMsgButton.label "Pisać">
@@ -520,8 +501,7 @@
 <!ENTITY tagButton.label "Značka">
 <!ENTITY compactButton.label "Zhusćić">
 <!ENTITY appmenuButton.label "Meni nałoženjow">
-
-<!-- Mail Toolbar Tooltips-->
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Rozšěrjene pytanje powěsćow">
 <!ENTITY getMsgButton.tooltip "Nowe powěsće wobstarać">
 <!ENTITY getAllNewMsgCmd.label "Wšě nowe powěsće wobstarać">
@@ -550,11 +530,9 @@
 <!ENTITY tagButton.tooltip "Powěsće markěrować">
 <!ENTITY compactButton.tooltip "Zhašane powěsće z wubraneho rjadowaka wotstronić">
 <!ENTITY appmenuButton1.tooltip "Meni &brandShortName; zwobraznić">
-
 <!-- Toolbar Button Popup -->
 <!ENTITY buttonMenuForwardAsInline.label "Zasadźenu dale sposrědkować">
 <!ENTITY buttonMenuForwardAsAttachment.label "Jako přiwěšk dale sposrědkować">
-
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "Zdaleny wobsah w tutej powěsći pokazać">
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey "d">
@@ -562,7 +540,6 @@
 <!ENTITY editRemoteContentSettings.accesskey "s">
 <!ENTITY editRemoteContentSettingsUnix.label "Nastajenja zdaleneho wobsaha wobdźěłać…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "s">
-
 <!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label "Warnowanje za tutu powěsć ignorować">
 <!ENTITY phishingOptionIgnore.accesskey "i">
@@ -570,24 +547,20 @@
 <!ENTITY phishingOptionSettings.accesskey "k">
 <!ENTITY phishingOptionSettingsUnix.label "Nastajenja za wotkrywanje wobšudnistwa wobdźěłać…">
 <!ENTITY phishingOptionSettingsUnix.accesskey "k">
-
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nowa powěsć">
 <!ENTITY appmenuNewContactCmd.label "Kontakt adresnika…">
 <!ENTITY appmenuToolbarLayout.label "Wuhotowanje symboloweje lajsty…">
-
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nowa značka…">
 <!ENTITY addNewTag.accesskey "N">
 <!ENTITY manageTags.label "Znački zrjadować…">
 <!ENTITY manageTags.accesskey "Z">
-
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Mjeno">
 <!ENTITY folderUnreadColumn.label "Njepřečitany">
 <!ENTITY folderTotalColumn.label "Dohromady">
 <!ENTITY folderSizeColumn.label "Wulkosć">
-
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "Powěsće wobstarać">
 <!ENTITY folderContextGetMessages.accesskey "P">
@@ -627,14 +600,11 @@
 <!ENTITY folderContextFavoriteFolder.accesskey "f">
 <!ENTITY folderContextSettings2.label "Nastajenja">
 <!ENTITY folderContextSettings2.accesskey "N">
-
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label "Mjeno abo e-mejl wobsahuje:">
 <!ENTITY SearchNameOrEmail.accesskey "M">
-
 <!-- Gloda Search Bar -->
 <!ENTITY glodaSearchBar.placeholder "Powěsće pytać…">
-
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label "Tema">
 <!ENTITY searchFromMenu.label "Wot">
@@ -643,7 +613,6 @@
 <!ENTITY searchSubjectOrRecipientMenu.label "Tema, Komu abo Kopija">
 <!ENTITY searchMessageBody.label "Cyła powěsć">
 <!ENTITY saveAsVirtualFolderMenu.label "Pytanje jako rjadowak składować…">
-
 <!-- Thread Pane -->
 <!ENTITY selectColumn.label "Powěsće wubrać">
 <!ENTITY threadColumn.label "Nitka">
@@ -667,7 +636,6 @@
 <!ENTITY idColumn.label "Porjad přijeća">
 <!ENTITY attachmentColumn.label "Přiwěški">
 <!ENTITY deleteColumn.label "Zhašeć">
-
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip "Wubjerće špałty, kotrež maja so zwobraznić">
 <!ENTITY selectColumn.tooltip "Wuběranje wšěch powěsćow přepinać">
@@ -692,7 +660,6 @@
 <!ENTITY idColumn2.tooltip "Po porjedźe přijimanja sortěrować">
 <!ENTITY attachmentColumn2.tooltip "Po přiwěškach sortěrować">
 <!ENTITY deleteColumn.tooltip "Powěsć zhašeć">
-
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextNewMsgFromTemplate.label "Nowa powěsć z předłohi">
 <!ENTITY contextOpenNewWindow.label "Powěsć w nowym woknje wočinić">
@@ -737,8 +704,7 @@
 <!ENTITY contextWatchThreadMenu.label "Nitku wobkedźbować">
 <!-- LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
      In the en-US locale we ran out of access keys, so there is an empty access key for
-     Watch Thread. Localizers can pick a suitable key
-  -->
+     Watch Thread. Localizers can pick a suitable key -->
 <!ENTITY contextWatchThreadMenu.accesskey "">
 <!ENTITY contextSaveAs.label "Składować jako…">
 <!ENTITY contextSaveAs.accesskey "S">
@@ -746,15 +712,13 @@
 <!ENTITY contextPrint.accesskey "i">
 <!ENTITY contextPrintPreview.label "Ćišćerski přehlad">
 <!ENTITY contextPrintPreview.accesskey "h">
-
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
      the "columnPicker.applyToFolder.label" and
      "columnPicker.applyToFolderAndChildren.label" options. This item indicates
      a desire to apply the currently displayed set of columns to some other
      folder(s). The sub-menu items indicate whether we want to apply it to just
-     a folder or also its children.
-  -->
+     a folder or also its children. -->
 <!ENTITY columnPicker.applyTo.label "Špalty nałožić na…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolder.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -762,8 +726,7 @@
      "columnPicker.applyToFolderAndChildren.label". It indicates a desire to
      apply the currently display thread pane column settings to a single folder
      that the user selects using the same widget as the move to/copy to
-     mechanism (via a series of popups).
-  -->
+     mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolder.label "Rjadowak…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolderAndChildren.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -771,8 +734,7 @@
      "columnPicker.applyToFolder.label". It indicates a desire to
      apply the currently display thread pane column settings to a folder and all
      of its descendents. The user selects the folder using the same widget as the
-     move to/copy to mechanism (via a series of popups).
-  -->
+     move to/copy to mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolderAndChildren.label "Rjadowak a jeho podrjadowaki…">
 <!-- LOCALIZATION NOTE (columnPicker.thisFolder.label):
      This is used in the folder selection widget for the
@@ -783,10 +745,8 @@
      selected. For example, if folder "A" has two children, "B" and "C", then
      when the user hovers over "A", a new popup menu will be displayed whose
      items are "This folder", "B", and "C". This is the equivalent of the
-     "File here" option for the move to/copy to widget.
-  -->
+     "File here" option for the move to/copy to widget. -->
 <!ENTITY columnPicker.thisFolder.label "Tutón rjadowak">
-
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label "Wothrać">
 <!ENTITY contextPlay.accesskey "h">
@@ -796,12 +756,10 @@
 <!ENTITY contextMute.accesskey "B">
 <!ENTITY contextUnmute.label "Ze zynkom">
 <!ENTITY contextUnmute.accesskey "Z">
-
-<!-- Quick Search Bar -->
-<!-- LOCALIZATION NOTE (quickSearchCmd.key):
+<!-- Quick Search Bar
+     LOCALIZATION NOTE (quickSearchCmd.key):
      This is actually the key used for the global message search box; we have
-     not changed
-  -->
+     not changed -->
 <!ENTITY quickSearchCmd.key "k">
 <!-- LOCALIZATION NOTE (search.label.base1):
      This is the base of the empty text for the global search box. We replace
@@ -810,22 +768,18 @@
      The goal is to convey to the user that typing in the box will allow them
      to search for messages globally and that there is a hotkey they can press
      to get to the box faster. If the global indexer is disabled, the search
-     box will be collapsed and the user will never see this message.
-  -->
+     box will be collapsed and the user will never see this message. -->
 <!ENTITY search.label.base1 "Pytać #1">
 <!-- LOCALIZATION NOTE (search.keyLabel.nonmac):
      The description of the key-binding to get into the global search box on
      windows and linux (which use the control key). We use the key defined in
-     the quickSearchCmd.key entity defined above, the letter should match it.
-  -->
+     the quickSearchCmd.key entity defined above, the letter should match it. -->
 <!ENTITY search.keyLabel.nonmac "&lt;Strg+K&gt;">
 <!-- LOCALIZATION NOTE (search.keyLabel.mac):
      The description of the key-binding to get into the global search box on mac
      systems. We use the key defined in the quickSearchCmd.key entity defined
-     above, the letter should match it.
-  -->
+     above, the letter should match it. -->
 <!ENTITY search.keyLabel.mac "&lt;&#x2318;K&gt;">
-
 <!-- Message Header Context Menu -->
 <!ENTITY AddToAddressBook.label "Adresnikej přidać…">
 <!ENTITY AddToAddressBook.accesskey "A">
@@ -851,11 +805,9 @@
 <!ENTITY CreateFilterFrom.accesskey "F">
 <!ENTITY reportPhishingURL.label "E-mejlowe wobšudnistwo zdźělić">
 <!ENTITY reportPhishingURL.accesskey "l">
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Słowniki přidać…">
 <!ENTITY spellAddDictionaries.accesskey "S">
-
 <!-- Content Pane Context Menu -->
 <!ENTITY saveLinkAsCmd.label "Wotkaz składować jako…">
 <!ENTITY saveLinkAsCmd.accesskey "t">
@@ -871,34 +823,29 @@
 <!ENTITY openInBrowser.accesskey "h">
 <!ENTITY openLinkInBrowser.label "Wotkaz we wobhladowaku wočinić">
 <!ENTITY openLinkInBrowser.accesskey "o">
-
 <!-- Statusbar -->
 <!ENTITY statusText.label "Dočitany">
-
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "Miniměrować">
 <!ENTITY minimizeWindow.key "M">
 <!ENTITY bringAllToFront.label "Wšě do prědka">
 <!ENTITY zoomWindow.label "Skalować">
-
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
-<!ENTITY preferencesCmdMac2.label       "Nastajenja">
-<!ENTITY preferencesCmdMac.commandkey   ",">
-<!ENTITY preferencesCmdMac.modifiers    "accel">
-<!ENTITY servicesMenuMac.label          "Słužby">
-<!ENTITY hideThisAppCmdMac.label        "&brandShortName; schować">
-<!ENTITY hideThisAppCmdMac.commandkey   "H">
-<!ENTITY hideThisAppCmdMac.modifiers    "accel">
-<!ENTITY hideOtherAppsCmdMac.label      "Druhe schować">
+<!ENTITY preferencesCmdMac2.label "Nastajenja">
+<!ENTITY preferencesCmdMac.commandkey ",">
+<!ENTITY preferencesCmdMac.modifiers "accel">
+<!ENTITY servicesMenuMac.label "Słužby">
+<!ENTITY hideThisAppCmdMac.label "&brandShortName; schować">
+<!ENTITY hideThisAppCmdMac.commandkey "H">
+<!ENTITY hideThisAppCmdMac.modifiers "accel">
+<!ENTITY hideOtherAppsCmdMac.label "Druhe schować">
 <!ENTITY hideOtherAppsCmdMac.commandkey "H">
-<!ENTITY hideOtherAppsCmdMac.modifiers  "accel,alt">
-<!ENTITY showAllAppsCmdMac.label        "Wšě pokazać">
-
+<!ENTITY hideOtherAppsCmdMac.modifiers "accel,alt">
+<!ENTITY showAllAppsCmdMac.label "Wšě pokazać">
 <!-- Mac OS X Dock Icon pop-up menu -->
-<!ENTITY dockOptions.label              "Nastajenja nałoženskich symbolow…">
-<!ENTITY writeNewMessageDock.label      "Nowu powěsć pisać">
-<!ENTITY openAddressBookDock.label      "Adresnik wočinić">
-
+<!ENTITY dockOptions.label "Nastajenja nałoženskich symbolow…">
+<!ENTITY writeNewMessageDock.label "Nowu powěsć pisać">
+<!ENTITY openAddressBookDock.label "Adresnik wočinić">
 <!-- Content tab Navigation buttons -->
-<!ENTITY browseBackButton.tooltip    "Jednu stronu wróćo">
+<!ENTITY browseBackButton.tooltip "Jednu stronu wróćo">
 <!ENTITY browseForwardButton.tooltip "Jednu stronu doprědka">

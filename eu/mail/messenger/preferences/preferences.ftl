@@ -883,3 +883,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Pasahitzak barne
 qr-export-summary-passwords-excluded = Pasahitzak baztertuta
 qr-export-more-accounts = Esportatu kontu gehiago
+
+## Appearance Tab
+

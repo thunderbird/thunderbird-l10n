@@ -883,3 +883,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Me përfshirje fjalëkalimesh
 qr-export-summary-passwords-excluded = Pa përfshirë fjalëkalime
 qr-export-more-accounts = Eksportoni më tepër llogari
+
+## Appearance Tab
+

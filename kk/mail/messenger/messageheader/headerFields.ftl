@@ -98,3 +98,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Көбірек
     .title = Барлық алушыларды көрсету
 message-ids-field-show-all = Барлығын көрсету
+
+## Dark Message Mode
+

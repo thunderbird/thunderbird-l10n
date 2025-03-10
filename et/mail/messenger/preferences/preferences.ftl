@@ -702,3 +702,6 @@ search-results-help-link = Vajad abi? Külasta lehte <a data-l10n-name="url">{ -
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

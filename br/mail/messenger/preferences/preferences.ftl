@@ -594,3 +594,6 @@ sync-pane-cancel = Dilezel
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

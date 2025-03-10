@@ -879,3 +879,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Περιλαμβάνονται οι κωδικοί πρόσβασης
 qr-export-summary-passwords-excluded = Εξαιρούνται οι κωδικοί πρόσβασης
 qr-export-more-accounts = Εξαγωγή περισσότερων λογαριασμών
+
+## Appearance Tab
+

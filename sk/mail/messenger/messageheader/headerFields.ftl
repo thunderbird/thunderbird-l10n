@@ -98,3 +98,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Ďalší
     .title = Zobraziť všetkých príjemcov
 message-ids-field-show-all = Zobraziť všetko
+
+## Dark Message Mode
+

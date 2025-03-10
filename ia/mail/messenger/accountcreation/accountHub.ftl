@@ -124,7 +124,7 @@ account-hub-select-all = Seliger toto
 account-hub-deselect-all = Deseliger toto
 # $count (Number) - The number of sync accounts selected.
 account-hub-sync-accounts-selected =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } seligite
        *[other] { $count } seligite
     }

@@ -891,3 +891,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Hesła zapřijate
 qr-export-summary-passwords-excluded = Hesła wuzamknjene
 qr-export-more-accounts = Dalše konta eksportować
+
+## Appearance Tab
+

@@ -883,3 +883,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Passwords included
 qr-export-summary-passwords-excluded = Passwords excluded
 qr-export-more-accounts = Export more accounts
+
+## Appearance Tab
+

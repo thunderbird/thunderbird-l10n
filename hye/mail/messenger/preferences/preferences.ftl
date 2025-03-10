@@ -695,3 +695,6 @@ search-results-help-link = Աւգնութիւ՞ն է պէտք: Այցելէք <a
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

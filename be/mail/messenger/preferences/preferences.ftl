@@ -796,7 +796,7 @@ qr-export-start-export = Экспартаваць
 # $count (Number) - Total number of QR codes to step through.
 # $step (Number) - Current step number of the QR code displayed.
 qr-export-scan-progress =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $step } з { $count } QR-кода
         [few] { $step } з { $count } QR-кодаў
        *[many] { $step } з { $count } QR-кодаў
@@ -804,7 +804,7 @@ qr-export-scan-progress =
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
 qr-export-scan-description =
-    { NUMBER($count) ->
+    { $count ->
         [one] Адскануйце QR-код з дапамогай { -brand-product-name } на вашай мабільнай прыладзе
         [few] Адскануйце QR-коды з дапамогай { -brand-product-name } на вашай мабільнай прыладзе
        *[many] Адскануйце QR-коды з дапамогай { -brand-product-name } на вашай мабільнай прыладзе
@@ -823,7 +823,7 @@ qr-export-summary-title = Вынікі экспарту:
 # Variables:
 # $count (Number) - Total number of QR codes shown to the user.
 qr-export-summary-qr-count =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } QR-код сгенераваны
         [few] { $count } QR-коды сгенеравана
        *[many] { $count } QR-кодаў сгенеравана
@@ -831,7 +831,7 @@ qr-export-summary-qr-count =
 # Variables:
 # $count (Number) - Number of accounts included in the export.
 qr-export-summary-accounts =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } уліковы запіс экспартаваны:
         [few] { $count } уліковыя запісы экспартаваны:
        *[many] { $count } уліковых запісаў экспартавана:
@@ -839,3 +839,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Уключаючы паролі
 qr-export-summary-passwords-excluded = За выключэннем пароляў
 qr-export-more-accounts = Экспартаваць іншыя ўліковыя запісы
+
+## Appearance Tab
+

@@ -883,3 +883,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Cun pleds-clav
 qr-export-summary-passwords-excluded = Senza pleds-clav
 qr-export-more-accounts = Exportar ulteriurs contos
+
+## Appearance Tab
+

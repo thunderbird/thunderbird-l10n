@@ -86,3 +86,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Ugar
     .title = Sken akk iɣerwaḍen
 message-ids-field-show-all = Sken akk
+
+## Dark Message Mode
+

@@ -895,3 +895,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Cyfrineiriau wedi'u cynnwys
 qr-export-summary-passwords-excluded = Cyfrineiriau wedi'u heithrio
 qr-export-more-accounts = Allforio rhagor o gyfrifon
+
+## Appearance Tab
+

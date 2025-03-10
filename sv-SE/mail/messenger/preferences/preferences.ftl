@@ -879,3 +879,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Lösenord medföljer
 qr-export-summary-passwords-excluded = Lösenord exkluderas
 qr-export-more-accounts = Exportera fler konton
+
+## Appearance Tab
+

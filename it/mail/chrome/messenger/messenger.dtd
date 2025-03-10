@@ -4,7 +4,6 @@
 
 <!ENTITY titledefault.label "&brandFullName;">
 <!ENTITY titleSeparator.label " - ">
-
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label "Cartella…">
 <!ENTITY newFolderCmd.accesskey "C">
@@ -14,12 +13,10 @@
 <!ENTITY closeOtherTabsCmd2.accesskey "C">
 <!ENTITY recentlyClosedTabsCmd.label "Schede chiuse di recente">
 <!ENTITY recentlyClosedTabsCmd.accesskey "h">
-
 <!ENTITY undoCloseTabCmd.commandkey "T">
 <!-- LOCALIZATION NOTE (moveToNewWindow.label):
      Menu option to cause the current tab to be migrated to a new Thunderbird
-     window.
-     -->
+     window. -->
 <!ENTITY moveToNewWindow.label "Spostare in nuova finestra">
 <!ENTITY moveToNewWindow.accesskey "S">
 <!ENTITY newVirtualFolderCmd.label "Ricerche salvate…">
@@ -30,12 +27,12 @@
 <!ENTITY newFeedAccountCmd.accesskey "d">
 <!ENTITY newIMContactCmd.label "Contatto di Chat…">
 <!ENTITY newIMContactCmd.accesskey "h">
-<!ENTITY  newMessageCmd2.key "N">
-<!ENTITY  newMessageCmd.key "M">
-<!ENTITY  newMessageCmd.label "Messaggio">
-<!ENTITY  newMessageCmd.accesskey "m">
-<!ENTITY  newContactCmd.label "Contatto rubrica…">
-<!ENTITY  newContactCmd.accesskey "C">
+<!ENTITY newMessageCmd2.key "N">
+<!ENTITY newMessageCmd.key "M">
+<!ENTITY newMessageCmd.label "Messaggio">
+<!ENTITY newMessageCmd.accesskey "m">
+<!ENTITY newContactCmd.label "Contatto rubrica…">
+<!ENTITY newContactCmd.accesskey "C">
 <!ENTITY openMenuCmd.label "Apri">
 <!ENTITY openMenuCmd.accesskey "A">
 <!ENTITY openMessageFileCmd.label "Apri messaggio salvato…">
@@ -81,7 +78,6 @@
 <!ENTITY printCmd.label "Stampa…">
 <!ENTITY printCmd.accesskey "m">
 <!ENTITY printCmd.key "p">
-
 <!-- Edit Menu -->
 <!ENTITY selectMenu.label "Seleziona">
 <!ENTITY selectMenu.accesskey "S">
@@ -106,7 +102,6 @@
 <!ENTITY undoDefaultCmd.accesskey "A">
 <!ENTITY redoDefaultCmd.label "Ripeti">
 <!ENTITY redoDefaultCmd.accesskey "R">
-
 <!-- View Menu -->
 <!ENTITY menubarCmd.label "Barra dei menu">
 <!ENTITY menubarCmd.accesskey "B">
@@ -114,7 +109,6 @@
 <!ENTITY showMessengerToolbarCmd.accesskey "m">
 <!ENTITY customizeToolbar.label "Personalizza…">
 <!ENTITY customizeToolbar.accesskey "P">
-
 <!ENTITY messagePaneLayoutStyle.label "Struttura">
 <!ENTITY messagePaneLayoutStyle.accesskey "r">
 <!ENTITY messagePaneClassic.label "Visualizzazione classica">
@@ -127,7 +121,6 @@
 <!ENTITY showFolderPaneCmd.accesskey "R">
 <!ENTITY showMessageCmd.label "Anteprima messaggio">
 <!ENTITY showMessageCmd.accesskey "A">
-
 <!ENTITY folderView.label "Cartelle">
 <!ENTITY folderView.accesskey "a">
 <!ENTITY unifiedFolders.label "Unificate">
@@ -142,7 +135,6 @@
 <!ENTITY recentFolders.accesskey "R">
 <!ENTITY compactVersion.label "Visualizzazione compatta">
 <!ENTITY compactVersion.accesskey "V">
-
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "Ordina per">
 <!ENTITY sortMenu.accesskey "O">
@@ -206,7 +198,6 @@
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "o">
 <!ENTITY ignoredThreadsCmd.label "Ignorate">
 <!ENTITY ignoredThreadsCmd.accesskey "a">
-
 <!ENTITY headersMenu.label "Intestazioni">
 <!ENTITY headersMenu.accesskey "I">
 <!ENTITY headersAllCmd.label "Estese">
@@ -223,7 +214,6 @@
 <!ENTITY bodyAsPlaintext.accesskey "T">
 <!ENTITY bodyAllParts.label "Tutte le parti del corpo">
 <!ENTITY bodyAllParts.accesskey "u">
-
 <!ENTITY bodyMenuFeed.label "Corpo del messaggio come">
 <!ENTITY bodyMenuFeed.accesskey "C">
 <!ENTITY viewFeedWebPage.label "Pagina web">
@@ -232,16 +222,13 @@
 <!ENTITY viewFeedSummary.accesskey "R">
 <!ENTITY viewFeedSummaryFeedPropsPref.label "Formato predefinito">
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "F">
-
 <!ENTITY viewAttachmentsInlineCmd.label "Mostra allegati in linea">
 <!ENTITY viewAttachmentsInlineCmd.accesskey "M">
-
 <!ENTITY pageSourceCmd.label "Sorgente del messaggio">
 <!ENTITY pageSourceCmd.accesskey "t">
 <!ENTITY pageSourceCmd.key "u">
 <!ENTITY getNewMessagesCmd.key "y">
 <!ENTITY getAllNewMessagesCmd.key "Y">
-
 <!-- Search Menu -->
 <!ENTITY findMenu.label "Trova">
 <!ENTITY findMenu.accesskey "v">
@@ -261,7 +248,6 @@
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Cerca indirizzi…">
 <!ENTITY searchAddressesCmd.accesskey "C">
-
 <!-- Go Menu -->
 <!ENTITY goMenu.label "Vai">
 <!ENTITY goMenu.accesskey "a">
@@ -302,7 +288,6 @@
 <!ENTITY goRecentlyClosedTabs.accesskey "h">
 <!ENTITY startPageCmd.label "Pagina di benvenuto">
 <!ENTITY startPageCmd.accesskey "b">
-
 <!-- Message Menu -->
 <!ENTITY msgMenu.label "Messaggio">
 <!ENTITY msgMenu.accesskey "i">
@@ -345,7 +330,8 @@
 <!ENTITY editTemplateMsgCmd.label "Modifica modello">
 <!ENTITY editTemplateMsgCmd.accesskey "m">
 <!ENTITY newMsgFromTemplateCmd.label "Nuovo messaggio da modello">
-<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN"><!-- do not change "VK_RETURN" -->
+<!-- do not change "VK_RETURN" -->
+<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Crea un filtro dal messaggio…">
 <!ENTITY createFilter.accesskey "f">
 <!ENTITY moveMsgToMenu.label "Sposta in">
@@ -423,10 +409,8 @@
 <!ENTITY openFeedSummary.accesskey "S">
 <!ENTITY openFeedWebPageInMP.label "Scambia la pagina web e il sommario nel pannello anteprima">
 <!ENTITY openFeedWebPageInMP.accesskey "S">
-
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label "Finestra">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Strumenti">
 <!ENTITY tasksMenu.accesskey "S">
@@ -440,10 +424,10 @@
 <!ENTITY activitymanager.accesskey "v">
 <!ENTITY imAccountsStatus.label "Stato chat">
 <!ENTITY imAccountsStatus.accesskey "S">
-<!ENTITY imStatus.available          "Disponibile">
-<!ENTITY imStatus.unavailable        "Non disponibile">
-<!ENTITY imStatus.offline            "Non in linea">
-<!ENTITY imStatus.showAccounts       "Mostra account…">
+<!ENTITY imStatus.available "Disponibile">
+<!ENTITY imStatus.unavailable "Non disponibile">
+<!ENTITY imStatus.offline "Non in linea">
+<!ENTITY imStatus.showAccounts "Mostra account…">
 <!ENTITY joinChatCmd.label "Entra in Chat…">
 <!ENTITY joinChatCmd.accesskey "E">
 <!ENTITY savedFiles.label "File salvati">
@@ -471,10 +455,8 @@
 <!ENTITY accountManagerCmd2.accesskey "I">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
-     on Unix systems
-  -->
+     on Unix systems -->
 <!ENTITY accountManagerCmdUnix2.accesskey "I">
-
 <!-- Developer Tools Submenu -->
 <!ENTITY devtoolsMenu.label "Strumenti di sviluppo">
 <!ENTITY devtoolsMenu.accesskey "u">
@@ -486,7 +468,6 @@
 <!ENTITY errorConsoleCmd.label "Console degli errori">
 <!ENTITY errorConsoleCmd.accesskey "d">
 <!ENTITY errorConsoleCmd.commandkey "j">
-
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton1.label "Scarica messaggi">
 <!ENTITY newMsgButton.label "Scrivi">
@@ -520,8 +501,7 @@
 <!ENTITY tagButton.label "Etichetta">
 <!ENTITY compactButton.label "Compatta">
 <!ENTITY appmenuButton.label "Menu applicazione">
-
-<!-- Mail Toolbar Tooltips-->
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Ricerca avanzata">
 <!ENTITY getMsgButton.tooltip "Scarica nuovi messaggi">
 <!ENTITY getAllNewMsgCmd.label "Scarica tutti i nuovi messaggi">
@@ -550,11 +530,9 @@
 <!ENTITY tagButton.tooltip "Applica un’etichetta ai messaggi">
 <!ENTITY compactButton.tooltip "Compatta le cartelle">
 <!ENTITY appmenuButton1.tooltip "Mostra il menu di &brandShortName;">
-
 <!-- Toolbar Button Popup -->
 <!ENTITY buttonMenuForwardAsInline.label "Inoltra nel messaggio">
 <!ENTITY buttonMenuForwardAsAttachment.label "Inoltra come allegato">
-
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "Mostra i contenuti remoti di questo messaggio">
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey "M">
@@ -562,7 +540,6 @@
 <!ENTITY editRemoteContentSettings.accesskey "M">
 <!ENTITY editRemoteContentSettingsUnix.label "Modificare le preferenze dei contenuti remoti…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "M">
-
 <!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label "Ignora gli avvisi per questo messaggio">
 <!ENTITY phishingOptionIgnore.accesskey "n">
@@ -570,24 +547,20 @@
 <!ENTITY phishingOptionSettings.accesskey "d">
 <!ENTITY phishingOptionSettingsUnix.label "Modifica le preferenze di rilevamento frodi…">
 <!ENTITY phishingOptionSettingsUnix.accesskey "d">
-
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nuovo messaggio">
 <!ENTITY appmenuNewContactCmd.label "Contatto rubrica…">
 <!ENTITY appmenuToolbarLayout.label "Personalizza barra degli strumenti…">
-
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nuova etichetta…">
 <!ENTITY addNewTag.accesskey "N">
 <!ENTITY manageTags.label "Gestisci le etichette…">
 <!ENTITY manageTags.accesskey "s">
-
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nome">
 <!ENTITY folderUnreadColumn.label "Non letto">
 <!ENTITY folderTotalColumn.label "Totale">
 <!ENTITY folderSizeColumn.label "Dimensione">
-
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "Scarica messaggi">
 <!ENTITY folderContextGetMessages.accesskey "c">
@@ -627,14 +600,11 @@
 <!ENTITY folderContextFavoriteFolder.accesskey "f">
 <!ENTITY folderContextSettings2.label "Impostazioni">
 <!ENTITY folderContextSettings2.accesskey "I">
-
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label "Nome o Email contengono:">
 <!ENTITY SearchNameOrEmail.accesskey "c">
-
 <!-- Gloda Search Bar -->
 <!ENTITY glodaSearchBar.placeholder "Ricerca messaggi…">
-
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label "Oggetto">
 <!ENTITY searchFromMenu.label "Mittente">
@@ -643,7 +613,6 @@
 <!ENTITY searchSubjectOrRecipientMenu.label "Oggetto, a o cc">
 <!ENTITY searchMessageBody.label "Messaggio completo">
 <!ENTITY saveAsVirtualFolderMenu.label "Salva la ricerca come cartella…">
-
 <!-- Thread Pane -->
 <!ENTITY selectColumn.label "Seleziona messaggi">
 <!ENTITY threadColumn.label "Discussione">
@@ -667,7 +636,6 @@
 <!ENTITY idColumn.label "Ordine ricezione">
 <!ENTITY attachmentColumn.label "Allegati">
 <!ENTITY deleteColumn.label "Elimina">
-
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip "Selezionare le colonne da mostrare">
 <!ENTITY selectColumn.tooltip "Seleziona tutti i messaggi">
@@ -692,7 +660,6 @@
 <!ENTITY idColumn2.tooltip "Ordina per ordine di ricevimento">
 <!ENTITY attachmentColumn2.tooltip "Ordina per allegato">
 <!ENTITY deleteColumn.tooltip "Elimina un messaggio">
-
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextNewMsgFromTemplate.label "Nuovo messaggio da modello">
 <!ENTITY contextOpenNewWindow.label "Apri il messaggio in una nuova finestra">
@@ -737,8 +704,7 @@
 <!ENTITY contextWatchThreadMenu.label "Tieni d’occhio la discussione">
 <!-- LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
      In the en-US locale we ran out of access keys, so there is an empty access key for
-     Watch Thread. Localizers can pick a suitable key
-  -->
+     Watch Thread. Localizers can pick a suitable key -->
 <!ENTITY contextWatchThreadMenu.accesskey "h">
 <!ENTITY contextSaveAs.label "Salva come…">
 <!ENTITY contextSaveAs.accesskey "v">
@@ -746,15 +712,13 @@
 <!ENTITY contextPrint.accesskey "P">
 <!ENTITY contextPrintPreview.label "Anteprima di stampa">
 <!ENTITY contextPrintPreview.accesskey "A">
-
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
      the "columnPicker.applyToFolder.label" and
      "columnPicker.applyToFolderAndChildren.label" options. This item indicates
      a desire to apply the currently displayed set of columns to some other
      folder(s). The sub-menu items indicate whether we want to apply it to just
-     a folder or also its children.
-  -->
+     a folder or also its children. -->
 <!ENTITY columnPicker.applyTo.label "Visualizza le stesse colonne anche per…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolder.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -762,8 +726,7 @@
      "columnPicker.applyToFolderAndChildren.label". It indicates a desire to
      apply the currently display thread pane column settings to a single folder
      that the user selects using the same widget as the move to/copy to
-     mechanism (via a series of popups).
-  -->
+     mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolder.label "Cartella…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolderAndChildren.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -771,8 +734,7 @@
      "columnPicker.applyToFolder.label". It indicates a desire to
      apply the currently display thread pane column settings to a folder and all
      of its descendents. The user selects the folder using the same widget as the
-     move to/copy to mechanism (via a series of popups).
-  -->
+     move to/copy to mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolderAndChildren.label "Cartella e sottocartelle…">
 <!-- LOCALIZATION NOTE (columnPicker.thisFolder.label):
      This is used in the folder selection widget for the
@@ -783,10 +745,8 @@
      selected. For example, if folder "A" has two children, "B" and "C", then
      when the user hovers over "A", a new popup menu will be displayed whose
      items are "This folder", "B", and "C". This is the equivalent of the
-     "File here" option for the move to/copy to widget.
-  -->
+     "File here" option for the move to/copy to widget. -->
 <!ENTITY columnPicker.thisFolder.label "questa cartella">
-
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label "Riproduci">
 <!ENTITY contextPlay.accesskey "R">
@@ -796,12 +756,10 @@
 <!ENTITY contextMute.accesskey "D">
 <!ENTITY contextUnmute.label "Attiva audio">
 <!ENTITY contextUnmute.accesskey "A">
-
-<!-- Quick Search Bar -->
-<!-- LOCALIZATION NOTE (quickSearchCmd.key):
+<!-- Quick Search Bar
+     LOCALIZATION NOTE (quickSearchCmd.key):
      This is actually the key used for the global message search box; we have
-     not changed
-  -->
+     not changed -->
 <!ENTITY quickSearchCmd.key "k">
 <!-- LOCALIZATION NOTE (search.label.base1):
      This is the base of the empty text for the global search box. We replace
@@ -810,22 +768,18 @@
      The goal is to convey to the user that typing in the box will allow them
      to search for messages globally and that there is a hotkey they can press
      to get to the box faster. If the global indexer is disabled, the search
-     box will be collapsed and the user will never see this message.
-  -->
+     box will be collapsed and the user will never see this message. -->
 <!ENTITY search.label.base1 "Cerca #1">
 <!-- LOCALIZATION NOTE (search.keyLabel.nonmac):
      The description of the key-binding to get into the global search box on
      windows and linux (which use the control key). We use the key defined in
-     the quickSearchCmd.key entity defined above, the letter should match it.
-  -->
+     the quickSearchCmd.key entity defined above, the letter should match it. -->
 <!ENTITY search.keyLabel.nonmac "&lt;Ctrl+K&gt;">
 <!-- LOCALIZATION NOTE (search.keyLabel.mac):
      The description of the key-binding to get into the global search box on mac
      systems. We use the key defined in the quickSearchCmd.key entity defined
-     above, the letter should match it.
-  -->
+     above, the letter should match it. -->
 <!ENTITY search.keyLabel.mac "&lt;⌘K&gt;">
-
 <!-- Message Header Context Menu -->
 <!ENTITY AddToAddressBook.label "Aggiungi in rubrica…">
 <!ENTITY AddToAddressBook.accesskey "A">
@@ -851,11 +805,9 @@
 <!ENTITY CreateFilterFrom.accesskey "F">
 <!ENTITY reportPhishingURL.label "Notifica i tentativi di frode">
 <!ENTITY reportPhishingURL.accesskey "o">
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Aggiungi dizionari…">
 <!ENTITY spellAddDictionaries.accesskey "A">
-
 <!-- Content Pane Context Menu -->
 <!ENTITY saveLinkAsCmd.label "Salva link come…">
 <!ENTITY saveLinkAsCmd.accesskey "v">
@@ -871,34 +823,29 @@
 <!ENTITY openInBrowser.accesskey "w">
 <!ENTITY openLinkInBrowser.label "Apri link nel browser">
 <!ENTITY openLinkInBrowser.accesskey "w">
-
 <!-- Statusbar -->
 <!ENTITY statusText.label "Fatto">
-
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "Contrai">
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY bringAllToFront.label "Porta tutto in primo piano">
 <!ENTITY zoomWindow.label "Ridimensiona">
-
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
-<!ENTITY preferencesCmdMac2.label       "Preferenze">
-<!ENTITY preferencesCmdMac.commandkey   ",">
-<!ENTITY preferencesCmdMac.modifiers    "accel">
-<!ENTITY servicesMenuMac.label          "Servizi">
-<!ENTITY hideThisAppCmdMac.label        "Nascondi &brandShortName;">
-<!ENTITY hideThisAppCmdMac.commandkey   "H">
-<!ENTITY hideThisAppCmdMac.modifiers    "accel">
-<!ENTITY hideOtherAppsCmdMac.label      "Nascondi altre">
+<!ENTITY preferencesCmdMac2.label "Preferenze">
+<!ENTITY preferencesCmdMac.commandkey ",">
+<!ENTITY preferencesCmdMac.modifiers "accel">
+<!ENTITY servicesMenuMac.label "Servizi">
+<!ENTITY hideThisAppCmdMac.label "Nascondi &brandShortName;">
+<!ENTITY hideThisAppCmdMac.commandkey "H">
+<!ENTITY hideThisAppCmdMac.modifiers "accel">
+<!ENTITY hideOtherAppsCmdMac.label "Nascondi altre">
 <!ENTITY hideOtherAppsCmdMac.commandkey "H">
-<!ENTITY hideOtherAppsCmdMac.modifiers  "accel,alt">
-<!ENTITY showAllAppsCmdMac.label        "Mostra tutto">
-
+<!ENTITY hideOtherAppsCmdMac.modifiers "accel,alt">
+<!ENTITY showAllAppsCmdMac.label "Mostra tutto">
 <!-- Mac OS X Dock Icon pop-up menu -->
-<!ENTITY dockOptions.label              "Opzioni icona applicazione…">
-<!ENTITY writeNewMessageDock.label      "Scrivi un nuovo messaggio">
-<!ENTITY openAddressBookDock.label      "Apri Rubrica">
-
+<!ENTITY dockOptions.label "Opzioni icona applicazione…">
+<!ENTITY writeNewMessageDock.label "Scrivi un nuovo messaggio">
+<!ENTITY openAddressBookDock.label "Apri Rubrica">
 <!-- Content tab Navigation buttons -->
-<!ENTITY browseBackButton.tooltip    "Torna indietro di una pagina">
+<!ENTITY browseBackButton.tooltip "Torna indietro di una pagina">
 <!ENTITY browseForwardButton.tooltip "Vai avanti di una pagina">

@@ -98,3 +98,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Më tepër
     .title = Shfaq krejt marrësit
 message-ids-field-show-all = Shfaqi krejt
+
+## Dark Message Mode
+

@@ -891,3 +891,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Vključno z gesli
 qr-export-summary-passwords-excluded = Izvzemši gesla
 qr-export-more-accounts = Izvozi več računov
+
+## Appearance Tab
+

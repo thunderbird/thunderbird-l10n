@@ -4,7 +4,6 @@
 
 <!ENTITY titledefault.label "&brandFullName;">
 <!ENTITY titleSeparator.label " - ">
-
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label "Бума…">
 <!ENTITY newFolderCmd.accesskey "Б">
@@ -14,12 +13,10 @@
 <!ENTITY closeOtherTabsCmd2.accesskey "с">
 <!ENTITY recentlyClosedTabsCmd.label "Жақында жабылған беттер">
 <!ENTITY recentlyClosedTabsCmd.accesskey "ы">
-
 <!ENTITY undoCloseTabCmd.commandkey "т">
 <!-- LOCALIZATION NOTE (moveToNewWindow.label):
      Menu option to cause the current tab to be migrated to a new Thunderbird
-     window.
-     -->
+     window. -->
 <!ENTITY moveToNewWindow.label "Жаңа терезеге жылжыту">
 <!ENTITY moveToNewWindow.accesskey "е">
 <!ENTITY newVirtualFolderCmd.label "Сақталған іздеу…">
@@ -30,12 +27,12 @@
 <!ENTITY newFeedAccountCmd.accesskey "л">
 <!ENTITY newIMContactCmd.label "Чат контакты…">
 <!ENTITY newIMContactCmd.accesskey "Ч">
-<!ENTITY  newMessageCmd2.key "N">
-<!ENTITY  newMessageCmd.key "M">
-<!ENTITY  newMessageCmd.label "Хабарлама">
-<!ENTITY  newMessageCmd.accesskey "м">
-<!ENTITY  newContactCmd.label "Адрестік кітапша контакты…">
-<!ENTITY  newContactCmd.accesskey "к">
+<!ENTITY newMessageCmd2.key "N">
+<!ENTITY newMessageCmd.key "M">
+<!ENTITY newMessageCmd.label "Хабарлама">
+<!ENTITY newMessageCmd.accesskey "м">
+<!ENTITY newContactCmd.label "Адрестік кітапша контакты…">
+<!ENTITY newContactCmd.accesskey "к">
 <!ENTITY openMenuCmd.label "Ашу">
 <!ENTITY openMenuCmd.accesskey "ш">
 <!ENTITY openMessageFileCmd.label "Сақталған хабарламаны ашу…">
@@ -81,7 +78,6 @@
 <!ENTITY printCmd.label "Баспаға шығару…">
 <!ENTITY printCmd.accesskey "ш">
 <!ENTITY printCmd.key "п">
-
 <!-- Edit Menu -->
 <!ENTITY selectMenu.label "Таңдау">
 <!ENTITY selectMenu.accesskey "а">
@@ -106,7 +102,6 @@
 <!ENTITY undoDefaultCmd.accesskey "Б">
 <!ENTITY redoDefaultCmd.label "Қайталау">
 <!ENTITY redoDefaultCmd.accesskey "й">
-
 <!-- View Menu -->
 <!ENTITY menubarCmd.label "Мәзір жолағы">
 <!ENTITY menubarCmd.accesskey "М">
@@ -114,7 +109,6 @@
 <!ENTITY showMessengerToolbarCmd.accesskey "м">
 <!ENTITY customizeToolbar.label "Баптау…">
 <!ENTITY customizeToolbar.accesskey "а">
-
 <!ENTITY messagePaneLayoutStyle.label "Жайма">
 <!ENTITY messagePaneLayoutStyle.accesskey "й">
 <!ENTITY messagePaneClassic.label "Классикалық көрініс">
@@ -127,7 +121,6 @@
 <!ENTITY showFolderPaneCmd.accesskey "Б">
 <!ENTITY showMessageCmd.label "Хабарлама панелі">
 <!ENTITY showMessageCmd.accesskey "Х">
-
 <!ENTITY folderView.label "Бумалар">
 <!ENTITY folderView.accesskey "Б">
 <!ENTITY unifiedFolders.label "Біріктірілген">
@@ -142,7 +135,6 @@
 <!ENTITY recentFolders.accesskey "о">
 <!ENTITY compactVersion.label "Ықшам көрініс">
 <!ENTITY compactVersion.accesskey "Ы">
-
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "Бойынша сұрыптау">
 <!ENTITY sortMenu.accesskey "Б">
@@ -206,7 +198,6 @@
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "ы">
 <!ENTITY ignoredThreadsCmd.label "Елемейтін ағындар">
 <!ENTITY ignoredThreadsCmd.accesskey "й">
-
 <!ENTITY headersMenu.label "Тақырыптамалар">
 <!ENTITY headersMenu.accesskey "Т">
 <!ENTITY headersAllCmd.label "Барлығы">
@@ -223,7 +214,6 @@
 <!ENTITY bodyAsPlaintext.accesskey "ш">
 <!ENTITY bodyAllParts.label "Барлық дене бөліктері">
 <!ENTITY bodyAllParts.accesskey "а">
-
 <!ENTITY bodyMenuFeed.label "Таспа хабарламасының денесі">
 <!ENTITY bodyMenuFeed.accesskey "е">
 <!ENTITY viewFeedWebPage.label "Веб парағы">
@@ -232,16 +222,13 @@
 <!ENTITY viewFeedSummary.accesskey "м">
 <!ENTITY viewFeedSummaryFeedPropsPref.label "Бастапқы пішім">
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "Б">
-
 <!ENTITY viewAttachmentsInlineCmd.label "Салынымдарды хабарлама денесінде көрсету">
 <!ENTITY viewAttachmentsInlineCmd.accesskey "а">
-
 <!ENTITY pageSourceCmd.label "Хабарламаның бастапқы коды">
 <!ENTITY pageSourceCmd.accesskey "б">
 <!ENTITY pageSourceCmd.key "u">
 <!ENTITY getNewMessagesCmd.key "y">
 <!ENTITY getAllNewMessagesCmd.key "Y">
-
 <!-- Search Menu -->
 <!ENTITY findMenu.label "Іздеу">
 <!ENTITY findMenu.accesskey "з">
@@ -261,7 +248,6 @@
 <!ENTITY glodaSearchCmd.accesskey "Г">
 <!ENTITY searchAddressesCmd.label "Адрестерді іздеу…">
 <!ENTITY searchAddressesCmd.accesskey "з">
-
 <!-- Go Menu -->
 <!ENTITY goMenu.label "Өту">
 <!ENTITY goMenu.accesskey "Ө">
@@ -302,7 +288,6 @@
 <!ENTITY goRecentlyClosedTabs.accesskey "ы">
 <!ENTITY startPageCmd.label "Бастапқы бет">
 <!ENTITY startPageCmd.accesskey "с">
-
 <!-- Message Menu -->
 <!ENTITY msgMenu.label "Хабарлама">
 <!ENTITY msgMenu.accesskey "Х">
@@ -345,7 +330,8 @@
 <!ENTITY editTemplateMsgCmd.label "Үлгіні түзету">
 <!ENTITY editTemplateMsgCmd.accesskey "т">
 <!ENTITY newMsgFromTemplateCmd.label "Үлгіден жаңа хабарлама">
-<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN"><!-- do not change "VK_RETURN" -->
+<!-- do not change "VK_RETURN" -->
+<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Хабарламадан сүзгіні жасау…">
 <!ENTITY createFilter.accesskey "а">
 <!ENTITY moveMsgToMenu.label "Қайда жылжыту">
@@ -423,10 +409,8 @@
 <!ENTITY openFeedSummary.accesskey "и">
 <!ENTITY openFeedWebPageInMP.label "Хабарламаны қарау панелінде веб парағы және жинақы ақпарат арасында ауысу">
 <!ENTITY openFeedWebPageInMP.accesskey "ы">
-
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label "Терезе">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Саймандар">
 <!ENTITY tasksMenu.accesskey "С">
@@ -440,10 +424,10 @@
 <!ENTITY activitymanager.accesskey "д">
 <!ENTITY imAccountsStatus.label "Чат қалып-күйі">
 <!ENTITY imAccountsStatus.accesskey "Ч">
-<!ENTITY imStatus.available          "Қолжетімді">
-<!ENTITY imStatus.unavailable        "Қолжетімсіз">
-<!ENTITY imStatus.offline            "Желіде емес">
-<!ENTITY imStatus.showAccounts       "Тіркелгілерді көрсету…">
+<!ENTITY imStatus.available "Қолжетімді">
+<!ENTITY imStatus.unavailable "Қолжетімсіз">
+<!ENTITY imStatus.offline "Желіде емес">
+<!ENTITY imStatus.showAccounts "Тіркелгілерді көрсету…">
 <!ENTITY joinChatCmd.label "Чатқа кіру…">
 <!ENTITY joinChatCmd.accesskey "т">
 <!ENTITY savedFiles.label "Сақталған файлдар">
@@ -471,10 +455,8 @@
 <!ENTITY accountManagerCmd2.accesskey "б">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
-     on Unix systems
-  -->
+     on Unix systems -->
 <!ENTITY accountManagerCmdUnix2.accesskey "а">
-
 <!-- Developer Tools Submenu -->
 <!ENTITY devtoolsMenu.label "Әзірлеуші құралдары">
 <!ENTITY devtoolsMenu.accesskey "д">
@@ -486,7 +468,6 @@
 <!ENTITY errorConsoleCmd.label "Қателер консолі">
 <!ENTITY errorConsoleCmd.accesskey "к">
 <!ENTITY errorConsoleCmd.commandkey "j">
-
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton1.label "Хабарламаларды алу">
 <!ENTITY newMsgButton.label "Жазу">
@@ -520,8 +501,7 @@
 <!ENTITY tagButton.label "Тег">
 <!ENTITY compactButton.label "Ықшамдау">
 <!ENTITY appmenuButton.label "Қолданба мәзірі">
-
-<!-- Mail Toolbar Tooltips-->
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Хабарламаларды кеңейтілген іздеу">
 <!ENTITY getMsgButton.tooltip "Жаңа хабарламаларды алу">
 <!ENTITY getAllNewMsgCmd.label "Барлық жаңа хабарламаларды алу">
@@ -550,11 +530,9 @@
 <!ENTITY tagButton.tooltip "Хабарламаларға тег қою">
 <!ENTITY compactButton.tooltip "Таңдалған бумадан өшірілген хабарламаларды жою">
 <!ENTITY appmenuButton1.tooltip "&brandShortName; мәзірін көрсету">
-
 <!-- Toolbar Button Popup -->
 <!ENTITY buttonMenuForwardAsInline.label "Хабарлама ішінде әрі қарай жіберу">
 <!ENTITY buttonMenuForwardAsAttachment.label "Салыным ретінде әрі қарай жіберу">
-
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "Бұл хабарламадағы қашықтағы құраманы көрсету">
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey "с">
@@ -562,7 +540,6 @@
 <!ENTITY editRemoteContentSettings.accesskey "е">
 <!ENTITY editRemoteContentSettingsUnix.label "Қашықтағы құраманы баптауларын түзету…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "е">
-
 <!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label "Бұл хабарлама үшін ескертуді елемеу">
 <!ENTITY phishingOptionIgnore.accesskey "м">
@@ -570,24 +547,20 @@
 <!ENTITY phishingOptionSettings.accesskey "з">
 <!ENTITY phishingOptionSettingsUnix.label "Алаяқты хабарламаларды анықтау баптауларын түзету…">
 <!ENTITY phishingOptionSettingsUnix.accesskey "з">
-
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Жаңа хабарлама">
 <!ENTITY appmenuNewContactCmd.label "Адрестік кітапша контакты…">
 <!ENTITY appmenuToolbarLayout.label "Панельдер орналасуы…">
-
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Жаңа тег…">
 <!ENTITY addNewTag.accesskey "Ж">
 <!ENTITY manageTags.label "Тегтерді басқару…">
 <!ENTITY manageTags.accesskey "б">
-
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Аты">
 <!ENTITY folderUnreadColumn.label "Оқылмаған">
 <!ENTITY folderTotalColumn.label "Жалпы">
 <!ENTITY folderSizeColumn.label "Өлшемі">
-
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "Хабарламаларды алу">
 <!ENTITY folderContextGetMessages.accesskey "л">
@@ -627,14 +600,11 @@
 <!ENTITY folderContextFavoriteFolder.accesskey "а">
 <!ENTITY folderContextSettings2.label "Баптаулар">
 <!ENTITY folderContextSettings2.accesskey "а">
-
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label "Аты не эл. пошта адресінде бар:">
 <!ENTITY SearchNameOrEmail.accesskey "А">
-
 <!-- Gloda Search Bar -->
 <!ENTITY glodaSearchBar.placeholder "Хабарламаларды іздеу…">
-
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label "Тақырыбы">
 <!ENTITY searchFromMenu.label "Кімнен">
@@ -643,7 +613,6 @@
 <!ENTITY searchSubjectOrRecipientMenu.label "Тақырыбы, Кімге немесе Көшірме">
 <!ENTITY searchMessageBody.label "Толық хабарлама">
 <!ENTITY saveAsVirtualFolderMenu.label "Іздеуді бума ретінде сақтау…">
-
 <!-- Thread Pane -->
 <!ENTITY selectColumn.label "Хабарламаларды таңдау">
 <!ENTITY threadColumn.label "Ағын">
@@ -667,7 +636,6 @@
 <!ENTITY idColumn.label "Алынған реті">
 <!ENTITY attachmentColumn.label "Салынымдар">
 <!ENTITY deleteColumn.label "Өшіру">
-
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip "Көрсетілетін бағандарды таңдаңыз">
 <!ENTITY selectColumn.tooltip "Барлық хабарламаларды таңдау/таңдауды алып тастау">
@@ -692,7 +660,6 @@
 <!ENTITY idColumn2.tooltip "Алынған реті бойынша сұрыптау">
 <!ENTITY attachmentColumn2.tooltip "Салынымдары бойынша сұрыптау">
 <!ENTITY deleteColumn.tooltip "Хабарламаны өшіру">
-
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextNewMsgFromTemplate.label "Үлгіден жаңа хабарлама">
 <!ENTITY contextOpenNewWindow.label "Хабарламаны жаңа терезеде ашу">
@@ -737,8 +704,7 @@
 <!ENTITY contextWatchThreadMenu.label "Ағынды бақылау">
 <!-- LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
      In the en-US locale we ran out of access keys, so there is an empty access key for
-     Watch Thread. Localizers can pick a suitable key
-  -->
+     Watch Thread. Localizers can pick a suitable key -->
 <!ENTITY contextWatchThreadMenu.accesskey "">
 <!ENTITY contextSaveAs.label "Қалайша сақтау…">
 <!ENTITY contextSaveAs.accesskey "й">
@@ -746,15 +712,13 @@
 <!ENTITY contextPrint.accesskey "ш">
 <!ENTITY contextPrintPreview.label "Алдын-ала қарау">
 <!ENTITY contextPrintPreview.accesskey "А">
-
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
      the "columnPicker.applyToFolder.label" and
      "columnPicker.applyToFolderAndChildren.label" options. This item indicates
      a desire to apply the currently displayed set of columns to some other
      folder(s). The sub-menu items indicate whether we want to apply it to just
-     a folder or also its children.
-  -->
+     a folder or also its children. -->
 <!ENTITY columnPicker.applyTo.label "Бағандарды іске асыру…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolder.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -762,8 +726,7 @@
      "columnPicker.applyToFolderAndChildren.label". It indicates a desire to
      apply the currently display thread pane column settings to a single folder
      that the user selects using the same widget as the move to/copy to
-     mechanism (via a series of popups).
-  -->
+     mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolder.label "Бума…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolderAndChildren.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -771,8 +734,7 @@
      "columnPicker.applyToFolder.label". It indicates a desire to
      apply the currently display thread pane column settings to a folder and all
      of its descendents. The user selects the folder using the same widget as the
-     move to/copy to mechanism (via a series of popups).
-  -->
+     move to/copy to mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolderAndChildren.label "Бума және оның ішкі бумалары…">
 <!-- LOCALIZATION NOTE (columnPicker.thisFolder.label):
      This is used in the folder selection widget for the
@@ -783,10 +745,8 @@
      selected. For example, if folder "A" has two children, "B" and "C", then
      when the user hovers over "A", a new popup menu will be displayed whose
      items are "This folder", "B", and "C". This is the equivalent of the
-     "File here" option for the move to/copy to widget.
-  -->
+     "File here" option for the move to/copy to widget. -->
 <!ENTITY columnPicker.thisFolder.label "Бұл бума">
-
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label "Ойнау">
 <!ENTITY contextPlay.accesskey "О">
@@ -796,12 +756,10 @@
 <!ENTITY contextMute.accesskey "Д">
 <!ENTITY contextUnmute.label "Даусын шығару">
 <!ENTITY contextUnmute.accesskey "Д">
-
-<!-- Quick Search Bar -->
-<!-- LOCALIZATION NOTE (quickSearchCmd.key):
+<!-- Quick Search Bar
+     LOCALIZATION NOTE (quickSearchCmd.key):
      This is actually the key used for the global message search box; we have
-     not changed
-  -->
+     not changed -->
 <!ENTITY quickSearchCmd.key "k">
 <!-- LOCALIZATION NOTE (search.label.base1):
      This is the base of the empty text for the global search box. We replace
@@ -810,22 +768,18 @@
      The goal is to convey to the user that typing in the box will allow them
      to search for messages globally and that there is a hotkey they can press
      to get to the box faster. If the global indexer is disabled, the search
-     box will be collapsed and the user will never see this message.
-  -->
+     box will be collapsed and the user will never see this message. -->
 <!ENTITY search.label.base1 "Іздеу #1">
 <!-- LOCALIZATION NOTE (search.keyLabel.nonmac):
      The description of the key-binding to get into the global search box on
      windows and linux (which use the control key). We use the key defined in
-     the quickSearchCmd.key entity defined above, the letter should match it.
-  -->
+     the quickSearchCmd.key entity defined above, the letter should match it. -->
 <!ENTITY search.keyLabel.nonmac "&lt;Ctrl+K&gt;">
 <!-- LOCALIZATION NOTE (search.keyLabel.mac):
      The description of the key-binding to get into the global search box on mac
      systems. We use the key defined in the quickSearchCmd.key entity defined
-     above, the letter should match it.
-  -->
+     above, the letter should match it. -->
 <!ENTITY search.keyLabel.mac "&lt;&#x2318;K&gt;">
-
 <!-- Message Header Context Menu -->
 <!ENTITY AddToAddressBook.label "Адрестік кітапшаға қосу…">
 <!ENTITY AddToAddressBook.accesskey "т">
@@ -851,11 +805,9 @@
 <!ENTITY CreateFilterFrom.accesskey "с">
 <!ENTITY reportPhishingURL.label "Алаяқты хат жөнінде хабарлау">
 <!ENTITY reportPhishingURL.accesskey "б">
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Сөздіктерді қосу…">
 <!ENTITY spellAddDictionaries.accesskey "С">
-
 <!-- Content Pane Context Menu -->
 <!ENTITY saveLinkAsCmd.label "Сілтемені қалайша сақтау…">
 <!ENTITY saveLinkAsCmd.accesskey "м">
@@ -871,34 +823,29 @@
 <!ENTITY openInBrowser.accesskey "ш">
 <!ENTITY openLinkInBrowser.label "Сілтемені браузерде ашу">
 <!ENTITY openLinkInBrowser.accesskey "ш">
-
 <!-- Statusbar -->
 <!ENTITY statusText.label "Дайын">
-
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "Қайыру">
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY bringAllToFront.label "Барлығын алдына қою">
 <!ENTITY zoomWindow.label "Үлкейту">
-
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
-<!ENTITY preferencesCmdMac2.label       "Баптаулар">
-<!ENTITY preferencesCmdMac.commandkey   ",">
-<!ENTITY preferencesCmdMac.modifiers    "accel">
-<!ENTITY servicesMenuMac.label          "Қызметтер">
-<!ENTITY hideThisAppCmdMac.label        "&brandShortName; жасыру">
-<!ENTITY hideThisAppCmdMac.commandkey   "H">
-<!ENTITY hideThisAppCmdMac.modifiers    "accel">
-<!ENTITY hideOtherAppsCmdMac.label      "Басқаларын жасыру">
+<!ENTITY preferencesCmdMac2.label "Баптаулар">
+<!ENTITY preferencesCmdMac.commandkey ",">
+<!ENTITY preferencesCmdMac.modifiers "accel">
+<!ENTITY servicesMenuMac.label "Қызметтер">
+<!ENTITY hideThisAppCmdMac.label "&brandShortName; жасыру">
+<!ENTITY hideThisAppCmdMac.commandkey "H">
+<!ENTITY hideThisAppCmdMac.modifiers "accel">
+<!ENTITY hideOtherAppsCmdMac.label "Басқаларын жасыру">
 <!ENTITY hideOtherAppsCmdMac.commandkey "H">
-<!ENTITY hideOtherAppsCmdMac.modifiers  "accel,alt">
-<!ENTITY showAllAppsCmdMac.label        "Барлығын көрсету">
-
+<!ENTITY hideOtherAppsCmdMac.modifiers "accel,alt">
+<!ENTITY showAllAppsCmdMac.label "Барлығын көрсету">
 <!-- Mac OS X Dock Icon pop-up menu -->
-<!ENTITY dockOptions.label              "Қолданба таңбашасының баптаулары…">
-<!ENTITY writeNewMessageDock.label      "Жаңа хабарламаны жазу">
-<!ENTITY openAddressBookDock.label      "Адрестік кітапшаны ашу">
-
+<!ENTITY dockOptions.label "Қолданба таңбашасының баптаулары…">
+<!ENTITY writeNewMessageDock.label "Жаңа хабарламаны жазу">
+<!ENTITY openAddressBookDock.label "Адрестік кітапшаны ашу">
 <!-- Content tab Navigation buttons -->
-<!ENTITY browseBackButton.tooltip    "Алдыңғы бетке қайту">
+<!ENTITY browseBackButton.tooltip "Алдыңғы бетке қайту">
 <!ENTITY browseForwardButton.tooltip "Бір бетке алға өту">

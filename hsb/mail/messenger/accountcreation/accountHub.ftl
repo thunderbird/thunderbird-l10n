@@ -124,7 +124,7 @@ account-hub-select-all = Wšě wubrać
 account-hub-deselect-all = Wšě wotwolić
 # $count (Number) - The number of sync accounts selected.
 account-hub-sync-accounts-selected =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } wubrane
         [two] { $count } wubranej
         [few] { $count } wubrane

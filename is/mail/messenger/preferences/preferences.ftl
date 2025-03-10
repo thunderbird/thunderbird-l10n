@@ -883,3 +883,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Lykilorð fylgja með
 qr-export-summary-passwords-excluded = Lykilorð ekki með
 qr-export-more-accounts = Flytja út fleiri reikninga
+
+## Appearance Tab
+

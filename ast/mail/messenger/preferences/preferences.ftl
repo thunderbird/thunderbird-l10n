@@ -421,3 +421,6 @@ chat-browse-sound-button =
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

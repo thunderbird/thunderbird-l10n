@@ -4,7 +4,6 @@
 
 <!ENTITY titledefault.label "&brandFullName;">
 <!ENTITY titleSeparator.label "-">
-
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label "Թղթապանակ…">
 <!ENTITY newFolderCmd.accesskey "F">
@@ -14,12 +13,10 @@
 <!ENTITY closeOtherTabsCmd2.accesskey "կ">
 <!ENTITY recentlyClosedTabsCmd.label "Վերջին փակուած ներդիրները">
 <!ENTITY recentlyClosedTabsCmd.accesskey "վ">
-
 <!ENTITY undoCloseTabCmd.commandkey "T">
 <!-- LOCALIZATION NOTE (moveToNewWindow.label):
      Menu option to cause the current tab to be migrated to a new Thunderbird
-     window.
-     -->
+     window. -->
 <!ENTITY moveToNewWindow.label "Տեղափոխել նոր պատուհան">
 <!ENTITY moveToNewWindow.accesskey "W">
 <!ENTITY newVirtualFolderCmd.label "Պահպանուած որոնում…">
@@ -29,12 +26,12 @@
 <!ENTITY newFeedAccountCmd.accesskey "d">
 <!ENTITY newIMContactCmd.label "Զրոյցի կապորդ…">
 <!ENTITY newIMContactCmd.accesskey "հ">
-<!ENTITY  newMessageCmd2.key "N">
-<!ENTITY  newMessageCmd.key "M">
-<!ENTITY  newMessageCmd.label "Հաղորդագրութիւն">
-<!ENTITY  newMessageCmd.accesskey "m">
-<!ENTITY  newContactCmd.label "Հասցէագրքի կապորդ…">
-<!ENTITY  newContactCmd.accesskey "C">
+<!ENTITY newMessageCmd2.key "N">
+<!ENTITY newMessageCmd.key "M">
+<!ENTITY newMessageCmd.label "Հաղորդագրութիւն">
+<!ENTITY newMessageCmd.accesskey "m">
+<!ENTITY newContactCmd.label "Հասցէագրքի կապորդ…">
+<!ENTITY newContactCmd.accesskey "C">
 <!ENTITY openMenuCmd.label "Բացել">
 <!ENTITY openMenuCmd.accesskey "O">
 <!ENTITY openMessageFileCmd.label "Պահպանուած նամակ…">
@@ -80,7 +77,6 @@
 <!ENTITY printCmd.label "Տպել…">
 <!ENTITY printCmd.accesskey "Տ">
 <!ENTITY printCmd.key "p">
-
 <!-- Edit Menu -->
 <!ENTITY selectMenu.label "Ընտրել">
 <!ENTITY selectMenu.accesskey "Ը">
@@ -105,7 +101,6 @@
 <!ENTITY undoDefaultCmd.accesskey "Յ">
 <!ENTITY redoDefaultCmd.label "Վերարկել">
 <!ENTITY redoDefaultCmd.accesskey "Վ">
-
 <!-- View Menu -->
 <!ENTITY menubarCmd.label "Ցանկագաւտի">
 <!ENTITY menubarCmd.accesskey "Ց">
@@ -113,7 +108,6 @@
 <!ENTITY showMessengerToolbarCmd.accesskey "ո">
 <!ENTITY customizeToolbar.label "Կարգաւորել…">
 <!ENTITY customizeToolbar.accesskey "Յ">
-
 <!ENTITY messagePaneLayoutStyle.label "Դասաւորութիւն">
 <!ENTITY messagePaneLayoutStyle.accesskey "Դ">
 <!ENTITY messagePaneClassic.label "Դասական տեսք">
@@ -126,7 +120,6 @@
 <!ENTITY showFolderPaneCmd.accesskey "Թ">
 <!ENTITY showMessageCmd.label "Նամակի վահանակ">
 <!ENTITY showMessageCmd.accesskey "Ն">
-
 <!ENTITY folderView.label "Թղթապանակներ">
 <!ENTITY folderView.accesskey "Թ">
 <!ENTITY unifiedFolders.label "Միացեալ">
@@ -141,7 +134,6 @@
 <!ENTITY recentFolders.accesskey "Վ">
 <!ENTITY compactVersion.label "Հաւաք տեսք">
 <!ENTITY compactVersion.accesskey "Հ">
-
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "Տեսակաւորել ըստ">
 <!ENTITY sortMenu.accesskey "Տ">
@@ -205,7 +197,6 @@
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "Դ">
 <!ENTITY ignoredThreadsCmd.label "Բաց թողածներ">
 <!ENTITY ignoredThreadsCmd.accesskey "Բ">
-
 <!ENTITY headersMenu.label "Գլխագրեր">
 <!ENTITY headersMenu.accesskey "Գ">
 <!ENTITY headersAllCmd.label "Բոլորը">
@@ -222,7 +213,6 @@
 <!ENTITY bodyAsPlaintext.accesskey "Ս">
 <!ENTITY bodyAllParts.label "Բոլոր մասերը">
 <!ENTITY bodyAllParts.accesskey "Բ">
-
 <!ENTITY bodyMenuFeed.accesskey "Բ">
 <!ENTITY viewFeedWebPage.label "Վեբ էջ">
 <!ENTITY viewFeedWebPage.accesskey "Վ">
@@ -230,16 +220,13 @@
 <!ENTITY viewFeedSummary.accesskey "դ">
 <!ENTITY viewFeedSummaryFeedPropsPref.label "Սկզբնադիր ձեւաչափ">
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "Ս">
-
 <!ENTITY viewAttachmentsInlineCmd.label "Ցուցադրել կցորդները ներտող">
 <!ENTITY viewAttachmentsInlineCmd.accesskey "Կ">
-
 <!ENTITY pageSourceCmd.label "Նամակի աղբեւրը">
 <!ENTITY pageSourceCmd.accesskey "ղ">
 <!ENTITY pageSourceCmd.key "բ">
 <!ENTITY getNewMessagesCmd.key "y">
 <!ENTITY getAllNewMessagesCmd.key "Y">
-
 <!-- Search Menu -->
 <!ENTITY findMenu.label "Որոնել">
 <!ENTITY findMenu.accesskey "Ո">
@@ -259,7 +246,6 @@
 <!ENTITY glodaSearchCmd.accesskey "Ը">
 <!ENTITY searchAddressesCmd.label "Հասցէների որոնում…">
 <!ENTITY searchAddressesCmd.accesskey "Ո">
-
 <!-- Go Menu -->
 <!ENTITY goMenu.label "Անցնել">
 <!ENTITY goMenu.accesskey "Ա">
@@ -300,7 +286,6 @@
 <!ENTITY goRecentlyClosedTabs.accesskey "Վ">
 <!ENTITY startPageCmd.label "Մեկնարկային էջ">
 <!ENTITY startPageCmd.accesskey "Մ">
-
 <!-- Message Menu -->
 <!ENTITY msgMenu.label "Նամակ">
 <!ENTITY msgMenu.accesskey "Ն">
@@ -343,7 +328,8 @@
 <!ENTITY editTemplateMsgCmd.label "Խմբագրել ձեւանմուշը">
 <!ENTITY editTemplateMsgCmd.accesskey "Ձ">
 <!ENTITY newMsgFromTemplateCmd.label "Նոր հաղորդագրութիւն՝ ձեւանմուշից">
-<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN"><!-- do not change "VK_RETURN" -->
+<!-- do not change "VK_RETURN" -->
+<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Ստեղծել զտիչ նամակից…">
 <!ENTITY createFilter.accesskey "ե">
 <!ENTITY moveMsgToMenu.label "Տեղափոխել՝">
@@ -421,10 +407,8 @@
 <!ENTITY openFeedSummary.accesskey "Ս">
 <!ENTITY openFeedWebPageInMP.label "Փոփոխել վեբ էջը եւ արդիւնքը գրութեան վահանակում">
 <!ENTITY openFeedWebPageInMP.accesskey "Փ">
-
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label "Պատուհան">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Գործիքներ">
 <!ENTITY tasksMenu.accesskey "Գ">
@@ -438,10 +422,10 @@
 <!ENTITY activitymanager.accesskey "ւ">
 <!ENTITY imAccountsStatus.label "Զրոյցի կարգավիճակը">
 <!ENTITY imAccountsStatus.accesskey "Զ">
-<!ENTITY imStatus.available          "Հասանելի">
-<!ENTITY imStatus.unavailable        "Անհասանելի">
-<!ENTITY imStatus.offline            "Անցանց">
-<!ENTITY imStatus.showAccounts       "Ցուցադրել հաշիւները…">
+<!ENTITY imStatus.available "Հասանելի">
+<!ENTITY imStatus.unavailable "Անհասանելի">
+<!ENTITY imStatus.offline "Անցանց">
+<!ENTITY imStatus.showAccounts "Ցուցադրել հաշիւները…">
 <!ENTITY joinChatCmd.label "Միանալ զրուցարան…">
 <!ENTITY joinChatCmd.accesskey "ն">
 <!ENTITY savedFiles.label "Պահպանուած նիշեր">
@@ -469,10 +453,8 @@
 <!ENTITY accountManagerCmd2.accesskey "Կ">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
-     on Unix systems
-  -->
+     on Unix systems -->
 <!ENTITY accountManagerCmdUnix2.accesskey "Հ">
-
 <!-- Developer Tools Submenu -->
 <!ENTITY devtoolsMenu.label "Ծրագրաւորողի գործիքներ">
 <!ENTITY devtoolsMenu.accesskey "e">
@@ -484,7 +466,6 @@
 <!ENTITY errorConsoleCmd.label "Սխալների ցանկ">
 <!ENTITY errorConsoleCmd.accesskey "Ս">
 <!ENTITY errorConsoleCmd.commandkey "j">
-
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton1.label "Ստանալ նամակները">
 <!ENTITY newMsgButton.label "Գրել">
@@ -518,8 +499,7 @@
 <!ENTITY tagButton.label "Պիտակ">
 <!ENTITY compactButton.label "Սեղմել">
 <!ENTITY appmenuButton.label "AppMenu">
-
-<!-- Mail Toolbar Tooltips-->
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Նամակի ընդլայնուած որոնում">
 <!ENTITY getMsgButton.tooltip "Ստանալ նոր նամակներ">
 <!ENTITY getAllNewMsgCmd.label "Ստանալ բոլոր նոր նամակները">
@@ -548,11 +528,9 @@
 <!ENTITY tagButton.tooltip "Պիտակաւորել նամակները">
 <!ENTITY compactButton.tooltip "Հեռացնել ջնջուած նամակները ընտրուած թղթապանակից">
 <!ENTITY appmenuButton1.tooltip "Ցուցադրել &brandShortName;-ի ընտրացանկը">
-
 <!-- Toolbar Button Popup -->
 <!ENTITY buttonMenuForwardAsInline.label "Փոխանցել ներտող">
 <!ENTITY buttonMenuForwardAsAttachment.label "Փոխանցել որպէս կցորդ">
-
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "Ցուցադրել այս նամակի հեռակայ բովանդակութիւնը">
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey "Ց">
@@ -560,7 +538,6 @@
 <!ENTITY editRemoteContentSettings.accesskey "Խ">
 <!ENTITY editRemoteContentSettingsUnix.label "Խմբագրել հեռակայ բովանդակութեան ընտրանքները…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "Խ">
-
 <!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label "Անտեսել զգուշացումը այս նամակի համար">
 <!ENTITY phishingOptionIgnore.accesskey "լ">
@@ -568,24 +545,20 @@
 <!ENTITY phishingOptionSettings.accesskey "խ">
 <!ENTITY phishingOptionSettingsUnix.label "Խմբագրել խաբեբայութեան յայտնաբերման կարգաւորումները…">
 <!ENTITY phishingOptionSettingsUnix.accesskey "յ">
-
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Նոր նամակ">
 <!ENTITY appmenuNewContactCmd.label "Հասցէագրքի կապորդ…">
 <!ENTITY appmenuToolbarLayout.label "Գործիքագաւտու դասաւորութիւնը…">
-
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Նոր պիտակ…">
 <!ENTITY addNewTag.accesskey "Ն">
 <!ENTITY manageTags.label "Կառաւարել պիտակները…">
 <!ENTITY manageTags.accesskey "Կ">
-
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Անուն">
 <!ENTITY folderUnreadColumn.label "Չընթերցուած">
 <!ENTITY folderTotalColumn.label "Ընդամէնը">
 <!ENTITY folderSizeColumn.label "Չափը">
-
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "Ստանալ նամակները">
 <!ENTITY folderContextGetMessages.accesskey "Ս">
@@ -625,14 +598,11 @@
 <!ENTITY folderContextFavoriteFolder.accesskey "ն">
 <!ENTITY folderContextSettings2.label "Կարգաւորումներ">
 <!ENTITY folderContextSettings2.accesskey "ա">
-
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label "Անունը կամ ել․ փոստը պարունակում է՝">
 <!ENTITY SearchNameOrEmail.accesskey "Ա">
-
 <!-- Gloda Search Bar -->
 <!ENTITY glodaSearchBar.placeholder "Նամակների որոնում…">
-
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label "Վերնագիր">
 <!ENTITY searchFromMenu.label "Ումից">
@@ -641,7 +611,6 @@
 <!ENTITY searchSubjectOrRecipientMenu.label "Վերնագիրը, To կամ Cc">
 <!ENTITY searchMessageBody.label "Ամբողջական նամակ">
 <!ENTITY saveAsVirtualFolderMenu.label "Պահել որոնումը որպէս թղթապանակ…">
-
 <!-- Thread Pane -->
 <!ENTITY selectColumn.label "Ընտրել Նամակներ">
 <!ENTITY threadColumn.label "Քննարկում">
@@ -665,7 +634,6 @@
 <!ENTITY idColumn.label "Ինչպէս ստանալ">
 <!ENTITY attachmentColumn.label "Կցորդներ">
 <!ENTITY deleteColumn.label "Ջնջել">
-
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip "Ընտրէք, թէ որ սեւները ցուցադրել">
 <!ENTITY selectColumn.tooltip "Համատեղ նշել բոլոր հաղորդագրութիւնները">
@@ -690,7 +658,6 @@
 <!ENTITY idColumn2.tooltip "Տեսակաւորել ըստ՝ ստացման կարգի">
 <!ENTITY attachmentColumn2.tooltip "Տեսակաւորել ըստ՝ կցորդների">
 <!ENTITY deleteColumn.tooltip "Ջնջել նամակը">
-
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextNewMsgFromTemplate.label "Նոր հաղորդագրութիւն՝ ձեւանմուշից">
 <!ENTITY contextOpenNewWindow.label "Նամակը բացել նոր պատուհանում">
@@ -735,8 +702,7 @@
 <!ENTITY contextWatchThreadMenu.label "Հետեւել շղթային">
 <!-- LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
      In the en-US locale we ran out of access keys, so there is an empty access key for
-     Watch Thread. Localizers can pick a suitable key
-  -->
+     Watch Thread. Localizers can pick a suitable key -->
 <!ENTITY contextWatchThreadMenu.accesskey "">
 <!ENTITY contextSaveAs.label "Պահպանել որպէս…">
 <!ENTITY contextSaveAs.accesskey "Պ">
@@ -744,15 +710,13 @@
 <!ENTITY contextPrint.accesskey "Տ">
 <!ENTITY contextPrintPreview.label "Տպելու նախադիտում">
 <!ENTITY contextPrintPreview.accesskey "դ">
-
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
      the "columnPicker.applyToFolder.label" and
      "columnPicker.applyToFolderAndChildren.label" options. This item indicates
      a desire to apply the currently displayed set of columns to some other
      folder(s). The sub-menu items indicate whether we want to apply it to just
-     a folder or also its children.
-  -->
+     a folder or also its children. -->
 <!ENTITY columnPicker.applyTo.label "Կիրառել սիւները՝…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolder.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -760,8 +724,7 @@
      "columnPicker.applyToFolderAndChildren.label". It indicates a desire to
      apply the currently display thread pane column settings to a single folder
      that the user selects using the same widget as the move to/copy to
-     mechanism (via a series of popups).
-  -->
+     mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolder.label "Թղթապանակ…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolderAndChildren.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -769,8 +732,7 @@
      "columnPicker.applyToFolder.label". It indicates a desire to
      apply the currently display thread pane column settings to a folder and all
      of its descendents. The user selects the folder using the same widget as the
-     move to/copy to mechanism (via a series of popups).
-  -->
+     move to/copy to mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolderAndChildren.label "Թղթապանակը եւ մնացածը…">
 <!-- LOCALIZATION NOTE (columnPicker.thisFolder.label):
      This is used in the folder selection widget for the
@@ -781,10 +743,8 @@
      selected. For example, if folder "A" has two children, "B" and "C", then
      when the user hovers over "A", a new popup menu will be displayed whose
      items are "This folder", "B", and "C". This is the equivalent of the
-     "File here" option for the move to/copy to widget.
-  -->
+     "File here" option for the move to/copy to widget. -->
 <!ENTITY columnPicker.thisFolder.label "Այս թղթապանակը">
-
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label "Նվագարկել">
 <!ENTITY contextPlay.accesskey "Ն">
@@ -794,12 +754,10 @@
 <!ENTITY contextMute.accesskey "Ա">
 <!ENTITY contextUnmute.label "Միացնել ձայնը">
 <!ENTITY contextUnmute.accesskey "ձ">
-
-<!-- Quick Search Bar -->
-<!-- LOCALIZATION NOTE (quickSearchCmd.key):
+<!-- Quick Search Bar
+     LOCALIZATION NOTE (quickSearchCmd.key):
      This is actually the key used for the global message search box; we have
-     not changed
-  -->
+     not changed -->
 <!ENTITY quickSearchCmd.key "k">
 <!-- LOCALIZATION NOTE (search.label.base1):
      This is the base of the empty text for the global search box. We replace
@@ -808,22 +766,18 @@
      The goal is to convey to the user that typing in the box will allow them
      to search for messages globally and that there is a hotkey they can press
      to get to the box faster. If the global indexer is disabled, the search
-     box will be collapsed and the user will never see this message.
-  -->
+     box will be collapsed and the user will never see this message. -->
 <!ENTITY search.label.base1 "Որոնում՝ #1">
 <!-- LOCALIZATION NOTE (search.keyLabel.nonmac):
      The description of the key-binding to get into the global search box on
      windows and linux (which use the control key). We use the key defined in
-     the quickSearchCmd.key entity defined above, the letter should match it.
-  -->
+     the quickSearchCmd.key entity defined above, the letter should match it. -->
 <!ENTITY search.keyLabel.nonmac "&lt;Ctrl+K&gt;">
 <!-- LOCALIZATION NOTE (search.keyLabel.mac):
      The description of the key-binding to get into the global search box on mac
      systems. We use the key defined in the quickSearchCmd.key entity defined
-     above, the letter should match it.
-  -->
+     above, the letter should match it. -->
 <!ENTITY search.keyLabel.mac "&lt;&#x2318;K&gt;">
-
 <!-- Message Header Context Menu -->
 <!ENTITY AddToAddressBook.label "Աւելացնել հասցէագրքում…">
 <!ENTITY AddToAddressBook.accesskey "Գ">
@@ -849,11 +803,9 @@
 <!ENTITY CreateFilterFrom.accesskey "Զ">
 <!ENTITY reportPhishingURL.label "Հաղորդել խաբկանքի մասին">
 <!ENTITY reportPhishingURL.accesskey "ո">
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Աւելացնել բառարաններ․․․">
 <!ENTITY spellAddDictionaries.accesskey "Ա">
-
 <!-- Content Pane Context Menu -->
 <!ENTITY saveLinkAsCmd.label "Պահպանել յղումը որպէս…">
 <!ENTITY saveLinkAsCmd.accesskey "մ">
@@ -869,34 +821,29 @@
 <!ENTITY openInBrowser.accesskey "Բ">
 <!ENTITY openLinkInBrowser.label "Բացել յղումը դիտարկիչում">
 <!ENTITY openLinkInBrowser.accesskey "Բ">
-
 <!-- Statusbar -->
 <!ENTITY statusText.label "Պատրաստ է">
-
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "Փոքրացնել">
 <!ENTITY minimizeWindow.key "փ">
 <!ENTITY bringAllToFront.label "Բոլորից առջեւ">
 <!ENTITY zoomWindow.label "Խոշորացնել">
-
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
-<!ENTITY preferencesCmdMac2.label       "Կարգաւորումներ">
-<!ENTITY preferencesCmdMac.commandkey   ",">
-<!ENTITY preferencesCmdMac.modifiers    "accel">
-<!ENTITY servicesMenuMac.label          "Ծառայութիւններ">
-<!ENTITY hideThisAppCmdMac.label        "Թաքցնել &brandShortName;">
-<!ENTITY hideThisAppCmdMac.commandkey   "Թ">
-<!ENTITY hideThisAppCmdMac.modifiers    "accel">
-<!ENTITY hideOtherAppsCmdMac.label      "Թաքցնել մնացածը">
+<!ENTITY preferencesCmdMac2.label "Կարգաւորումներ">
+<!ENTITY preferencesCmdMac.commandkey ",">
+<!ENTITY preferencesCmdMac.modifiers "accel">
+<!ENTITY servicesMenuMac.label "Ծառայութիւններ">
+<!ENTITY hideThisAppCmdMac.label "Թաքցնել &brandShortName;">
+<!ENTITY hideThisAppCmdMac.commandkey "Թ">
+<!ENTITY hideThisAppCmdMac.modifiers "accel">
+<!ENTITY hideOtherAppsCmdMac.label "Թաքցնել մնացածը">
 <!ENTITY hideOtherAppsCmdMac.commandkey "Թ">
-<!ENTITY hideOtherAppsCmdMac.modifiers  "accel,alt">
-<!ENTITY showAllAppsCmdMac.label        "Ցուցադրել բոլորը">
-
+<!ENTITY hideOtherAppsCmdMac.modifiers "accel,alt">
+<!ENTITY showAllAppsCmdMac.label "Ցուցադրել բոլորը">
 <!-- Mac OS X Dock Icon pop-up menu -->
-<!ENTITY dockOptions.label              "Ծրագրի պատկերի ընտրանքներ…">
-<!ENTITY writeNewMessageDock.label      "Գրել նոր նամակ">
-<!ENTITY openAddressBookDock.label      "Բացել հասցէագիրքը">
-
+<!ENTITY dockOptions.label "Ծրագրի պատկերի ընտրանքներ…">
+<!ENTITY writeNewMessageDock.label "Գրել նոր նամակ">
+<!ENTITY openAddressBookDock.label "Բացել հասցէագիրքը">
 <!-- Content tab Navigation buttons -->
-<!ENTITY browseBackButton.tooltip    "Գնալ նախորդ էջ">
+<!ENTITY browseBackButton.tooltip "Գնալ նախորդ էջ">
 <!ENTITY browseForwardButton.tooltip "Գնալ յաջորդ էջ">

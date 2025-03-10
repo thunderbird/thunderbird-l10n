@@ -98,3 +98,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Plus
     .title = Monstra tote le destinatarios
 message-ids-field-show-all = Monstrar toto
+
+## Dark Message Mode
+

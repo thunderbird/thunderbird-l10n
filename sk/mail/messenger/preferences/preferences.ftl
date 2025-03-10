@@ -891,3 +891,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Vrátane hesiel
 qr-export-summary-passwords-excluded = Heslá nie sú súčasťou
 qr-export-more-accounts = Exportovať ďalšie účty
+
+## Appearance Tab
+

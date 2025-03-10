@@ -883,3 +883,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Mit Passwörtern
 qr-export-summary-passwords-excluded = Ohne Passwörter
 qr-export-more-accounts = Weitere Konten exportieren
+
+## Appearance Tab
+

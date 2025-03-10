@@ -689,3 +689,6 @@ show-synced-item-calendar = Calendários
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

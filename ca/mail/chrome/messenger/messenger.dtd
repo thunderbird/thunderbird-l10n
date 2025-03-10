@@ -4,7 +4,6 @@
 
 <!ENTITY titledefault.label "&brandFullName;">
 <!ENTITY titleSeparator.label " - ">
-
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label "Carpeta…">
 <!ENTITY newFolderCmd.accesskey "C">
@@ -14,12 +13,10 @@
 <!ENTITY closeOtherTabsCmd2.accesskey "l">
 <!ENTITY recentlyClosedTabsCmd.label "Pestanyes tancades recentment">
 <!ENTITY recentlyClosedTabsCmd.accesskey "r">
-
 <!ENTITY undoCloseTabCmd.commandkey "T">
 <!-- LOCALIZATION NOTE (moveToNewWindow.label):
      Menu option to cause the current tab to be migrated to a new Thunderbird
-     window.
-     -->
+     window. -->
 <!ENTITY moveToNewWindow.label "Mou a una finestra nova">
 <!ENTITY moveToNewWindow.accesskey "f">
 <!ENTITY newVirtualFolderCmd.label "Cerca desada…">
@@ -30,12 +27,12 @@
 <!ENTITY newFeedAccountCmd.accesskey "i">
 <!ENTITY newIMContactCmd.label "Contacte del xat…">
 <!ENTITY newIMContactCmd.accesskey "a">
-<!ENTITY  newMessageCmd2.key "N">
-<!ENTITY  newMessageCmd.key "M">
-<!ENTITY  newMessageCmd.label "Missatge">
-<!ENTITY  newMessageCmd.accesskey "m">
-<!ENTITY  newContactCmd.label "Contacte de la llibreta d'adreces…">
-<!ENTITY  newContactCmd.accesskey "C">
+<!ENTITY newMessageCmd2.key "N">
+<!ENTITY newMessageCmd.key "M">
+<!ENTITY newMessageCmd.label "Missatge">
+<!ENTITY newMessageCmd.accesskey "m">
+<!ENTITY newContactCmd.label "Contacte de la llibreta d'adreces…">
+<!ENTITY newContactCmd.accesskey "C">
 <!ENTITY openMenuCmd.label "Obre">
 <!ENTITY openMenuCmd.accesskey "O">
 <!ENTITY openMessageFileCmd.label "Obre un missatge desat…">
@@ -81,7 +78,6 @@
 <!ENTITY printCmd.label "Imprimeix…">
 <!ENTITY printCmd.accesskey "p">
 <!ENTITY printCmd.key "p">
-
 <!-- Edit Menu -->
 <!ENTITY selectMenu.label "Selecciona">
 <!ENTITY selectMenu.accesskey "l">
@@ -106,7 +102,6 @@
 <!ENTITY undoDefaultCmd.accesskey "D">
 <!ENTITY redoDefaultCmd.label "Refés">
 <!ENTITY redoDefaultCmd.accesskey "R">
-
 <!-- View Menu -->
 <!ENTITY menubarCmd.label "Barra de menú">
 <!ENTITY menubarCmd.accesskey "m">
@@ -114,7 +109,6 @@
 <!ENTITY showMessengerToolbarCmd.accesskey "r">
 <!ENTITY customizeToolbar.label "Personalitza…">
 <!ENTITY customizeToolbar.accesskey "P">
-
 <!ENTITY messagePaneLayoutStyle.label "Format">
 <!ENTITY messagePaneLayoutStyle.accesskey "F">
 <!ENTITY messagePaneClassic.label "Aspecte clàssic">
@@ -127,7 +121,6 @@
 <!ENTITY showFolderPaneCmd.accesskey "C">
 <!ENTITY showMessageCmd.label "Subfinestra de missatge">
 <!ENTITY showMessageCmd.accesskey "e">
-
 <!ENTITY folderView.label "Carpetes">
 <!ENTITY folderView.accesskey "p">
 <!ENTITY unifiedFolders.label "Unificades">
@@ -142,7 +135,6 @@
 <!ENTITY recentFolders.accesskey "R">
 <!ENTITY compactVersion.label "Visualització compacta">
 <!ENTITY compactVersion.accesskey "V">
-
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "Ordena">
 <!ENTITY sortMenu.accesskey "d">
@@ -206,7 +198,6 @@
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "v">
 <!ENTITY ignoredThreadsCmd.label "Converses ignorades">
 <!ENTITY ignoredThreadsCmd.accesskey "i">
-
 <!ENTITY headersMenu.label "Capçaleres">
 <!ENTITY headersMenu.accesskey "l">
 <!ENTITY headersAllCmd.label "Totes">
@@ -223,7 +214,6 @@
 <!ENTITY bodyAsPlaintext.accesskey "T">
 <!ENTITY bodyAllParts.label "Totes les parts del cos">
 <!ENTITY bodyAllParts.accesskey "a">
-
 <!ENTITY bodyMenuFeed.label "Cos del missatge del canal">
 <!ENTITY bodyMenuFeed.accesskey "C">
 <!ENTITY viewFeedWebPage.label "Pàgina web">
@@ -232,16 +222,13 @@
 <!ENTITY viewFeedSummary.accesskey "R">
 <!ENTITY viewFeedSummaryFeedPropsPref.label "Format per defecte">
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "d">
-
 <!ENTITY viewAttachmentsInlineCmd.label "Visualitza les adjuncions en línia">
 <!ENTITY viewAttachmentsInlineCmd.accesskey "V">
-
 <!ENTITY pageSourceCmd.label "Codi font del missatge">
 <!ENTITY pageSourceCmd.accesskey "o">
 <!ENTITY pageSourceCmd.key "u">
 <!ENTITY getNewMessagesCmd.key "y">
 <!ENTITY getAllNewMessagesCmd.key "Y">
-
 <!-- Search Menu -->
 <!ENTITY findMenu.label "Cerca">
 <!ENTITY findMenu.accesskey "C">
@@ -261,7 +248,6 @@
 <!ENTITY glodaSearchCmd.accesskey "C">
 <!ENTITY searchAddressesCmd.label "Cerca les adreces…">
 <!ENTITY searchAddressesCmd.accesskey "d">
-
 <!-- Go Menu -->
 <!ENTITY goMenu.label "Vés">
 <!ENTITY goMenu.accesskey "s">
@@ -302,7 +288,6 @@
 <!ENTITY goRecentlyClosedTabs.accesskey "r">
 <!ENTITY startPageCmd.label "Pàgina d'inici de la Missatgeria">
 <!ENTITY startPageCmd.accesskey "s">
-
 <!-- Message Menu -->
 <!ENTITY msgMenu.label "Missatge">
 <!ENTITY msgMenu.accesskey "M">
@@ -345,7 +330,8 @@
 <!ENTITY editTemplateMsgCmd.label "Edita la plantilla">
 <!ENTITY editTemplateMsgCmd.accesskey "t">
 <!ENTITY newMsgFromTemplateCmd.label "Missatge nou a partir de la plantilla">
-<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN"><!-- do not change "VK_RETURN" -->
+<!-- do not change "VK_RETURN" -->
+<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Crea un filtre a partir del missatge…">
 <!ENTITY createFilter.accesskey "a">
 <!ENTITY moveMsgToMenu.label "Mou">
@@ -423,10 +409,8 @@
 <!ENTITY openFeedSummary.accesskey "s">
 <!ENTITY openFeedWebPageInMP.label "Commuta la pàgina web i el resum en el quadre de missatges">
 <!ENTITY openFeedWebPageInMP.accesskey "q">
-
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label "Finestra">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Eines">
 <!ENTITY tasksMenu.accesskey "n">
@@ -440,10 +424,10 @@
 <!ENTITY activitymanager.accesskey "a">
 <!ENTITY imAccountsStatus.label "Estat del xat">
 <!ENTITY imAccountsStatus.accesskey "x">
-<!ENTITY imStatus.available          "Disponible">
-<!ENTITY imStatus.unavailable        "No disponible">
-<!ENTITY imStatus.offline            "Fora de línia">
-<!ENTITY imStatus.showAccounts       "Mostra els comptes…">
+<!ENTITY imStatus.available "Disponible">
+<!ENTITY imStatus.unavailable "No disponible">
+<!ENTITY imStatus.offline "Fora de línia">
+<!ENTITY imStatus.showAccounts "Mostra els comptes…">
 <!ENTITY joinChatCmd.label "Uniu-vos al xat…">
 <!ENTITY joinChatCmd.accesskey "U">
 <!ENTITY savedFiles.label "Fitxers desats">
@@ -471,10 +455,8 @@
 <!ENTITY accountManagerCmd2.accesskey "P">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
-     on Unix systems
-  -->
+     on Unix systems -->
 <!ENTITY accountManagerCmdUnix2.accesskey "a">
-
 <!-- Developer Tools Submenu -->
 <!ENTITY devtoolsMenu.label "Eines per a desenvolupadors">
 <!ENTITY devtoolsMenu.accesskey "E">
@@ -486,7 +468,6 @@
 <!ENTITY errorConsoleCmd.label "Consola d'errors">
 <!ENTITY errorConsoleCmd.accesskey "C">
 <!ENTITY errorConsoleCmd.commandkey "j">
-
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton1.label "Recupera">
 <!ENTITY newMsgButton.label "Redacta">
@@ -520,8 +501,7 @@
 <!ENTITY tagButton.label "Etiqueta">
 <!ENTITY compactButton.label "Compacta">
 <!ENTITY appmenuButton.label "Menú d'aplicacions">
-
-<!-- Mail Toolbar Tooltips-->
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Cerca avançada de missatges">
 <!ENTITY getMsgButton.tooltip "Recupera els missatges nous">
 <!ENTITY getAllNewMsgCmd.label "Recupera tots els missatges nous">
@@ -550,11 +530,9 @@
 <!ENTITY tagButton.tooltip "Etiqueta els missatges">
 <!ENTITY compactButton.tooltip "Treu els missatges suprimits de la carpeta seleccionada">
 <!ENTITY appmenuButton1.tooltip "Mostra el menú del &brandShortName;">
-
 <!-- Toolbar Button Popup -->
 <!ENTITY buttonMenuForwardAsInline.label "Reenvia en el cos del missatge">
 <!ENTITY buttonMenuForwardAsAttachment.label "Reenvia com a adjunció">
-
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "Mostra el contingut remot d'aquest missatge">
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey "s">
@@ -562,7 +540,6 @@
 <!ENTITY editRemoteContentSettings.accesskey "E">
 <!ENTITY editRemoteContentSettingsUnix.label "Edita les preferències de contingut remot…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "E">
-
 <!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label "Ignora l'avís per a aquest missatge">
 <!ENTITY phishingOptionIgnore.accesskey "n">
@@ -570,24 +547,20 @@
 <!ENTITY phishingOptionSettings.accesskey "d">
 <!ENTITY phishingOptionSettingsUnix.label "Edita les preferències de detecció de missatges fraudulents…">
 <!ENTITY phishingOptionSettingsUnix.accesskey "d">
-
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Missatge nou">
 <!ENTITY appmenuNewContactCmd.label "Contacte de la llibreta d'adreces…">
 <!ENTITY appmenuToolbarLayout.label "Format de la barra d'eines…">
-
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Afegeix una etiqueta…">
 <!ENTITY addNewTag.accesskey "n">
 <!ENTITY manageTags.label "Gestiona les etiquetes…">
 <!ENTITY manageTags.accesskey "G">
-
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nom">
 <!ENTITY folderUnreadColumn.label "Per llegir">
 <!ENTITY folderTotalColumn.label "Total">
 <!ENTITY folderSizeColumn.label "Mida">
-
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "Recupera els missatges">
 <!ENTITY folderContextGetMessages.accesskey "g">
@@ -627,14 +600,11 @@
 <!ENTITY folderContextFavoriteFolder.accesskey "f">
 <!ENTITY folderContextSettings2.label "Paràmetres">
 <!ENTITY folderContextSettings2.accesskey "e">
-
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label "El nom o l'adreça electrònica conté:">
 <!ENTITY SearchNameOrEmail.accesskey "n">
-
 <!-- Gloda Search Bar -->
 <!ENTITY glodaSearchBar.placeholder "Cerca missatges…">
-
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label "Assumpte">
 <!ENTITY searchFromMenu.label "Remitent">
@@ -643,7 +613,6 @@
 <!ENTITY searchSubjectOrRecipientMenu.label "Assumpte, A o Cc">
 <!ENTITY searchMessageBody.label "Tot el missatge">
 <!ENTITY saveAsVirtualFolderMenu.label "Desa la cerca com una carpeta…">
-
 <!-- Thread Pane -->
 <!ENTITY selectColumn.label "Selecció de missatges">
 <!ENTITY threadColumn.label "Conversa">
@@ -667,7 +636,6 @@
 <!ENTITY idColumn.label "Ordre de recepció">
 <!ENTITY attachmentColumn.label "Adjuncions">
 <!ENTITY deleteColumn.label "Suprimeix">
-
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip "Tria les columnes que es mostraran">
 <!ENTITY selectColumn.tooltip "Commuta la selecció de tots els missatges">
@@ -692,7 +660,6 @@
 <!ENTITY idColumn2.tooltip "Ordena per ordre de recepció">
 <!ENTITY attachmentColumn2.tooltip "Ordena per adjuncions">
 <!ENTITY deleteColumn.tooltip "Suprimeix un missatge">
-
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextNewMsgFromTemplate.label "Missatge nou a partir de la plantilla">
 <!ENTITY contextOpenNewWindow.label "Obre el missatge en una finestra nova">
@@ -737,8 +704,7 @@
 <!ENTITY contextWatchThreadMenu.label "Vigila la conversa">
 <!-- LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
      In the en-US locale we ran out of access keys, so there is an empty access key for
-     Watch Thread. Localizers can pick a suitable key
-  -->
+     Watch Thread. Localizers can pick a suitable key -->
 <!ENTITY contextWatchThreadMenu.accesskey "">
 <!ENTITY contextSaveAs.label "Anomena i desa…">
 <!ENTITY contextSaveAs.accesskey "s">
@@ -746,15 +712,13 @@
 <!ENTITY contextPrint.accesskey "I">
 <!ENTITY contextPrintPreview.label "Exemple d'impressió">
 <!ENTITY contextPrintPreview.accesskey "E">
-
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
      the "columnPicker.applyToFolder.label" and
      "columnPicker.applyToFolderAndChildren.label" options. This item indicates
      a desire to apply the currently displayed set of columns to some other
      folder(s). The sub-menu items indicate whether we want to apply it to just
-     a folder or also its children.
-  -->
+     a folder or also its children. -->
 <!ENTITY columnPicker.applyTo.label "Aplica els canvis a…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolder.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -762,8 +726,7 @@
      "columnPicker.applyToFolderAndChildren.label". It indicates a desire to
      apply the currently display thread pane column settings to a single folder
      that the user selects using the same widget as the move to/copy to
-     mechanism (via a series of popups).
-  -->
+     mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolder.label "La carpeta…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolderAndChildren.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -771,8 +734,7 @@
      "columnPicker.applyToFolder.label". It indicates a desire to
      apply the currently display thread pane column settings to a folder and all
      of its descendents. The user selects the folder using the same widget as the
-     move to/copy to mechanism (via a series of popups).
-  -->
+     move to/copy to mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolderAndChildren.label "La carpeta i al seu contingut…">
 <!-- LOCALIZATION NOTE (columnPicker.thisFolder.label):
      This is used in the folder selection widget for the
@@ -783,10 +745,8 @@
      selected. For example, if folder "A" has two children, "B" and "C", then
      when the user hovers over "A", a new popup menu will be displayed whose
      items are "This folder", "B", and "C". This is the equivalent of the
-     "File here" option for the move to/copy to widget.
-  -->
+     "File here" option for the move to/copy to widget. -->
 <!ENTITY columnPicker.thisFolder.label "Aquesta carpeta">
-
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label "Reprodueix">
 <!ENTITY contextPlay.accesskey "R">
@@ -796,12 +756,10 @@
 <!ENTITY contextMute.accesskey "S">
 <!ENTITY contextUnmute.label "No silenciïs">
 <!ENTITY contextUnmute.accesskey "s">
-
-<!-- Quick Search Bar -->
-<!-- LOCALIZATION NOTE (quickSearchCmd.key):
+<!-- Quick Search Bar
+     LOCALIZATION NOTE (quickSearchCmd.key):
      This is actually the key used for the global message search box; we have
-     not changed
-  -->
+     not changed -->
 <!ENTITY quickSearchCmd.key "k">
 <!-- LOCALIZATION NOTE (search.label.base1):
      This is the base of the empty text for the global search box. We replace
@@ -810,22 +768,18 @@
      The goal is to convey to the user that typing in the box will allow them
      to search for messages globally and that there is a hotkey they can press
      to get to the box faster. If the global indexer is disabled, the search
-     box will be collapsed and the user will never see this message.
-  -->
+     box will be collapsed and the user will never see this message. -->
 <!ENTITY search.label.base1 "Cerca #1">
 <!-- LOCALIZATION NOTE (search.keyLabel.nonmac):
      The description of the key-binding to get into the global search box on
      windows and linux (which use the control key). We use the key defined in
-     the quickSearchCmd.key entity defined above, the letter should match it.
-  -->
+     the quickSearchCmd.key entity defined above, the letter should match it. -->
 <!ENTITY search.keyLabel.nonmac "&lt;Ctrl+K&gt;">
 <!-- LOCALIZATION NOTE (search.keyLabel.mac):
      The description of the key-binding to get into the global search box on mac
      systems. We use the key defined in the quickSearchCmd.key entity defined
-     above, the letter should match it.
-  -->
+     above, the letter should match it. -->
 <!ENTITY search.keyLabel.mac "&lt;&#x2318;K&gt;">
-
 <!-- Message Header Context Menu -->
 <!ENTITY AddToAddressBook.label "Afegeix a la llibreta d'adreces…">
 <!ENTITY AddToAddressBook.accesskey "d">
@@ -851,11 +805,9 @@
 <!ENTITY CreateFilterFrom.accesskey "f">
 <!ENTITY reportPhishingURL.label "Informa d'un missatge fraudulent">
 <!ENTITY reportPhishingURL.accesskey "o">
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Afegeix diccionaris…">
 <!ENTITY spellAddDictionaries.accesskey "A">
-
 <!-- Content Pane Context Menu -->
 <!ENTITY saveLinkAsCmd.label "Anomena i desa l'enllaç…">
 <!ENTITY saveLinkAsCmd.accesskey "e">
@@ -871,34 +823,29 @@
 <!ENTITY openInBrowser.accesskey "O">
 <!ENTITY openLinkInBrowser.label "Obre l'enllaç en un navegador">
 <!ENTITY openLinkInBrowser.accesskey "O">
-
 <!-- Statusbar -->
 <!ENTITY statusText.label "Fet">
-
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "Minimitza la finestra">
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY bringAllToFront.label "Porta-ho tot al davant">
 <!ENTITY zoomWindow.label "Zoom">
-
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
-<!ENTITY preferencesCmdMac2.label       "Preferències">
-<!ENTITY preferencesCmdMac.commandkey   ",">
-<!ENTITY preferencesCmdMac.modifiers    "accel">
-<!ENTITY servicesMenuMac.label          "Serveis">
-<!ENTITY hideThisAppCmdMac.label        "Amaga el &brandShortName;">
-<!ENTITY hideThisAppCmdMac.commandkey   "H">
-<!ENTITY hideThisAppCmdMac.modifiers    "accel">
-<!ENTITY hideOtherAppsCmdMac.label      "Amaga els altres">
+<!ENTITY preferencesCmdMac2.label "Preferències">
+<!ENTITY preferencesCmdMac.commandkey ",">
+<!ENTITY preferencesCmdMac.modifiers "accel">
+<!ENTITY servicesMenuMac.label "Serveis">
+<!ENTITY hideThisAppCmdMac.label "Amaga el &brandShortName;">
+<!ENTITY hideThisAppCmdMac.commandkey "H">
+<!ENTITY hideThisAppCmdMac.modifiers "accel">
+<!ENTITY hideOtherAppsCmdMac.label "Amaga els altres">
 <!ENTITY hideOtherAppsCmdMac.commandkey "H">
-<!ENTITY hideOtherAppsCmdMac.modifiers  "accel,alt">
-<!ENTITY showAllAppsCmdMac.label        "Mostra-ho tot">
-
+<!ENTITY hideOtherAppsCmdMac.modifiers "accel,alt">
+<!ENTITY showAllAppsCmdMac.label "Mostra-ho tot">
 <!-- Mac OS X Dock Icon pop-up menu -->
-<!ENTITY dockOptions.label              "Opcions de la icona de l'aplicació…">
-<!ENTITY writeNewMessageDock.label      "Redacta un missatge nou">
-<!ENTITY openAddressBookDock.label      "Obre la llibreta d'adreces">
-
+<!ENTITY dockOptions.label "Opcions de la icona de l'aplicació…">
+<!ENTITY writeNewMessageDock.label "Redacta un missatge nou">
+<!ENTITY openAddressBookDock.label "Obre la llibreta d'adreces">
 <!-- Content tab Navigation buttons -->
-<!ENTITY browseBackButton.tooltip    "Vés una pàgina enrere">
+<!ENTITY browseBackButton.tooltip "Vés una pàgina enrere">
 <!ENTITY browseForwardButton.tooltip "Vés una pàgina endavant">

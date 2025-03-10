@@ -98,3 +98,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Wěcej
     .title = Wšykne dostawarje pokazaś
 message-ids-field-show-all = Wšykne pokazaś
+
+## Dark Message Mode
+

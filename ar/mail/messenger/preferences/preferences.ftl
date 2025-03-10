@@ -546,3 +546,6 @@ chat-variant-label =
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

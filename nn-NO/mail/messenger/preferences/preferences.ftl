@@ -867,3 +867,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Passord inkludert
 qr-export-summary-passwords-excluded = Passord eksludert
 qr-export-more-accounts = Eksporter fleire kontoar
+
+## Appearance Tab
+

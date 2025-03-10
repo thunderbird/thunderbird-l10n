@@ -867,3 +867,6 @@ qr-export-summary-accounts = { $count } tài khoản đã xuất:
 qr-export-summary-passwords-included = Đã bao gồm mật khẩu
 qr-export-summary-passwords-excluded = Đã loại trừ mật khẩu
 qr-export-more-accounts = Xuất tài khoản khác
+
+## Appearance Tab
+

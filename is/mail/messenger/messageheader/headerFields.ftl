@@ -98,3 +98,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Meira
     .title = Sýna alla viðtakendur
 message-ids-field-show-all = Birta allt
+
+## Dark Message Mode
+

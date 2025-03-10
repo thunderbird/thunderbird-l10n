@@ -648,3 +648,6 @@ search-results-help-link = A bheil cobhair a dhìth ort? Tadhail air <a data-l10
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

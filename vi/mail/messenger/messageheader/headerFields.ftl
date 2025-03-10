@@ -68,3 +68,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Thêm
     .title = Hiển thị tất cả người nhận
 message-ids-field-show-all = Hiện tất cả
+
+## Dark Message Mode
+

@@ -867,3 +867,6 @@ qr-export-summary-accounts = 계정 { $count }개를 내보냄:
 qr-export-summary-passwords-included = 비밀번호 포함됨
 qr-export-summary-passwords-excluded = 비밀번호 제외됨
 qr-export-more-accounts = 더 많은 계정 내보내기
+
+## Appearance Tab
+

@@ -98,3 +98,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Mehr
     .title = Alle Empfänger anzeigen
 message-ids-field-show-all = Alle anzeigen
+
+## Dark Message Mode
+

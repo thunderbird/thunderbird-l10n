@@ -632,3 +632,6 @@ search-results-help-link = Vajadzīga palīdzība? Apmeklējiet <a data-l10n-nam
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

@@ -883,3 +883,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Wachtwurden ynbegrepen
 qr-export-summary-passwords-excluded = Wachtwurden net ynbegrepen
 qr-export-more-accounts = Mear accounts eksportearje
+
+## Appearance Tab
+

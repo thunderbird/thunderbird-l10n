@@ -124,7 +124,7 @@ account-hub-select-all = Označi sve
 account-hub-deselect-all = Poništi odabir
 # $count (Number) - The number of sync accounts selected.
 account-hub-sync-accounts-selected =
-    { NUMBER($count) ->
+    { $count ->
         [one] { $count } odabran
         [few] { $count } odabrana
        *[other] { $count } odabranih

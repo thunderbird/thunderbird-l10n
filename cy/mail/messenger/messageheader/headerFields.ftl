@@ -98,3 +98,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Rhagor
     .title = Dangos pob derbynnydd
 message-ids-field-show-all = Dangos y cyfan
+
+## Dark Message Mode
+

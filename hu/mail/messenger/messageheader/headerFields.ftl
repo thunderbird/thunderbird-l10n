@@ -98,3 +98,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Továbbiak
     .title = Összes címzett megjelenítése
 message-ids-field-show-all = Összes megjelenítése
+
+## Dark Message Mode
+

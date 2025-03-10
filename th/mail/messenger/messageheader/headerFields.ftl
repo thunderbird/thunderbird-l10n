@@ -98,3 +98,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = เพิ่มเติม
     .title = แสดงผู้รับทั้งหมด
 message-ids-field-show-all = แสดงทั้งหมด
+
+## Dark Message Mode
+

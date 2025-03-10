@@ -875,3 +875,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = 包含密碼
 qr-export-summary-passwords-excluded = 不包含密碼
 qr-export-more-accounts = 匯出更多帳號
+
+## Appearance Tab
+

@@ -98,3 +98,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Meer
     .title = Alle ontvangers tonen
 message-ids-field-show-all = Alles tonen
+
+## Dark Message Mode
+

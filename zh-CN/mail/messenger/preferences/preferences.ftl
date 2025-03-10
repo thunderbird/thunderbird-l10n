@@ -869,3 +869,6 @@ qr-export-summary-accounts = 已导出 { $count } 个账户：
 qr-export-summary-passwords-included = 密码已包含在内
 qr-export-summary-passwords-excluded = 密码未包含在内
 qr-export-more-accounts = 导出更多账户
+
+## Appearance Tab
+

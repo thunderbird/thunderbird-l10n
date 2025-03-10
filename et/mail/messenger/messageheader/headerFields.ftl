@@ -45,3 +45,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Rohkem
     .title = Kuva kõiki adressaate
 message-ids-field-show-all = Kuva kõiki
+
+## Dark Message Mode
+

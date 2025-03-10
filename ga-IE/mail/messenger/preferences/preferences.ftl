@@ -550,3 +550,6 @@ search-results-header = Torthaí an Chuardaigh
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

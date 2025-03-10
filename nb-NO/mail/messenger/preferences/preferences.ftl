@@ -726,3 +726,6 @@ synced-acount-item-filters = Filtre
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

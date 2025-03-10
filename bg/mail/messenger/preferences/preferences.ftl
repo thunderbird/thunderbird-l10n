@@ -881,3 +881,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Паролите са включени
 qr-export-summary-passwords-excluded = Паролите не са включени
 qr-export-more-accounts = Изнасяне на други профили
+
+## Appearance Tab
+

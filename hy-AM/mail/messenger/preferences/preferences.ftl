@@ -618,3 +618,6 @@ search-results-help-link = Օգնությո՞ւն է պետք: Այցելեք { 
 
 ## Mobile QR Export Pane
 
+
+## Appearance Tab
+

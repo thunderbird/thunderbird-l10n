@@ -98,3 +98,6 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = 더 보기
     .title = 모든 수신자 보기
 message-ids-field-show-all = 모두 표시
+
+## Dark Message Mode
+

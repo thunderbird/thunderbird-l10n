@@ -124,7 +124,7 @@ account-hub-select-all = Dewis y cyfan
 account-hub-deselect-all = Dad-ddewis y cyfan
 # $count (Number) - The number of sync accounts selected.
 account-hub-sync-accounts-selected =
-    { NUMBER($count) ->
+    { $count ->
         [zero] Mae { $count } wedi'u dewis
         [one] Mae { $count } wedi'i ddewis
         [two] Mae { $count } wedi'u dewis

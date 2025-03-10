@@ -883,3 +883,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Parolalar dahil edildi
 qr-export-summary-passwords-excluded = Parolalar hariç tutuldu
 qr-export-more-accounts = Daha fazla hesabı dışa aktar
+
+## Appearance Tab
+

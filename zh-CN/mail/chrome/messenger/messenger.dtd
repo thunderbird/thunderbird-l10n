@@ -4,7 +4,6 @@
 
 <!ENTITY titledefault.label "&brandFullName;">
 <!ENTITY titleSeparator.label " - ">
-
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label "文件夹…">
 <!ENTITY newFolderCmd.accesskey "F">
@@ -14,12 +13,10 @@
 <!ENTITY closeOtherTabsCmd2.accesskey "o">
 <!ENTITY recentlyClosedTabsCmd.label "最近关闭的标签页">
 <!ENTITY recentlyClosedTabsCmd.accesskey "R">
-
 <!ENTITY undoCloseTabCmd.commandkey "T">
 <!-- LOCALIZATION NOTE (moveToNewWindow.label):
      Menu option to cause the current tab to be migrated to a new Thunderbird
-     window.
-     -->
+     window. -->
 <!ENTITY moveToNewWindow.label "移动到新窗口">
 <!ENTITY moveToNewWindow.accesskey "W">
 <!ENTITY newVirtualFolderCmd.label "即时搜索…">
@@ -30,12 +27,12 @@
 <!ENTITY newFeedAccountCmd.accesskey "d">
 <!ENTITY newIMContactCmd.label "聊天联系人…">
 <!ENTITY newIMContactCmd.accesskey "h">
-<!ENTITY  newMessageCmd2.key "N">
-<!ENTITY  newMessageCmd.key "M">
-<!ENTITY  newMessageCmd.label "消息">
-<!ENTITY  newMessageCmd.accesskey "m">
-<!ENTITY  newContactCmd.label "通讯录联系人…">
-<!ENTITY  newContactCmd.accesskey "C">
+<!ENTITY newMessageCmd2.key "N">
+<!ENTITY newMessageCmd.key "M">
+<!ENTITY newMessageCmd.label "消息">
+<!ENTITY newMessageCmd.accesskey "m">
+<!ENTITY newContactCmd.label "通讯录联系人…">
+<!ENTITY newContactCmd.accesskey "C">
 <!ENTITY openMenuCmd.label "打开">
 <!ENTITY openMenuCmd.accesskey "O">
 <!ENTITY openMessageFileCmd.label "打开已保存邮件…">
@@ -81,7 +78,6 @@
 <!ENTITY printCmd.label "打印…">
 <!ENTITY printCmd.accesskey "P">
 <!ENTITY printCmd.key "p">
-
 <!-- Edit Menu -->
 <!ENTITY selectMenu.label "选择">
 <!ENTITY selectMenu.accesskey "S">
@@ -106,7 +102,6 @@
 <!ENTITY undoDefaultCmd.accesskey "U">
 <!ENTITY redoDefaultCmd.label "重做">
 <!ENTITY redoDefaultCmd.accesskey "R">
-
 <!-- View Menu -->
 <!ENTITY menubarCmd.label "菜单栏">
 <!ENTITY menubarCmd.accesskey "M">
@@ -114,7 +109,6 @@
 <!ENTITY showMessengerToolbarCmd.accesskey "o">
 <!ENTITY customizeToolbar.label "自定义…">
 <!ENTITY customizeToolbar.accesskey "C">
-
 <!ENTITY messagePaneLayoutStyle.label "布局">
 <!ENTITY messagePaneLayoutStyle.accesskey "L">
 <!ENTITY messagePaneClassic.label "经典视图">
@@ -127,7 +121,6 @@
 <!ENTITY showFolderPaneCmd.accesskey "F">
 <!ENTITY showMessageCmd.label "消息窗格">
 <!ENTITY showMessageCmd.accesskey "M">
-
 <!ENTITY folderView.label "文件夹">
 <!ENTITY folderView.accesskey "F">
 <!ENTITY unifiedFolders.label "综合">
@@ -142,7 +135,6 @@
 <!ENTITY recentFolders.accesskey "R">
 <!ENTITY compactVersion.label "紧凑模式">
 <!ENTITY compactVersion.accesskey "C">
-
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "排序">
 <!ENTITY sortMenu.accesskey "S">
@@ -206,7 +198,6 @@
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "W">
 <!ENTITY ignoredThreadsCmd.label "已忽略的话题">
 <!ENTITY ignoredThreadsCmd.accesskey "I">
-
 <!ENTITY headersMenu.label "标题">
 <!ENTITY headersMenu.accesskey "H">
 <!ENTITY headersAllCmd.label "全部">
@@ -223,7 +214,6 @@
 <!ENTITY bodyAsPlaintext.accesskey "P">
 <!ENTITY bodyAllParts.label "所有主体部分">
 <!ENTITY bodyAllParts.accesskey "A">
-
 <!ENTITY bodyMenuFeed.label "收取点消息正文显示为">
 <!ENTITY bodyMenuFeed.accesskey "B">
 <!ENTITY viewFeedWebPage.label "网页">
@@ -232,16 +222,13 @@
 <!ENTITY viewFeedSummary.accesskey "m">
 <!ENTITY viewFeedSummaryFeedPropsPref.label "默认格式">
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "D">
-
 <!ENTITY viewAttachmentsInlineCmd.label "查看直接插入的附件">
 <!ENTITY viewAttachmentsInlineCmd.accesskey "A">
-
 <!ENTITY pageSourceCmd.label "消息源代码">
 <!ENTITY pageSourceCmd.accesskey "o">
 <!ENTITY pageSourceCmd.key "u">
 <!ENTITY getNewMessagesCmd.key "y">
 <!ENTITY getAllNewMessagesCmd.key "Y">
-
 <!-- Search Menu -->
 <!ENTITY findMenu.label "查找">
 <!ENTITY findMenu.accesskey "F">
@@ -261,7 +248,6 @@
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "搜索地址…">
 <!ENTITY searchAddressesCmd.accesskey "S">
-
 <!-- Go Menu -->
 <!ENTITY goMenu.label "转到">
 <!ENTITY goMenu.accesskey "G">
@@ -302,7 +288,6 @@
 <!ENTITY goRecentlyClosedTabs.accesskey "R">
 <!ENTITY startPageCmd.label "邮件起始页">
 <!ENTITY startPageCmd.accesskey "S">
-
 <!-- Message Menu -->
 <!ENTITY msgMenu.label "消息">
 <!ENTITY msgMenu.accesskey "M">
@@ -345,7 +330,8 @@
 <!ENTITY editTemplateMsgCmd.label "编辑模板">
 <!ENTITY editTemplateMsgCmd.accesskey "T">
 <!ENTITY newMsgFromTemplateCmd.label "依托模板新建邮件">
-<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN"><!-- do not change "VK_RETURN" -->
+<!-- do not change "VK_RETURN" -->
+<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "根据消息创建过滤器…">
 <!ENTITY createFilter.accesskey "a">
 <!ENTITY moveMsgToMenu.label "移动到">
@@ -423,10 +409,8 @@
 <!ENTITY openFeedSummary.accesskey "S">
 <!ENTITY openFeedWebPageInMP.label "在消息窗格中切换网页和摘要">
 <!ENTITY openFeedWebPageInMP.accesskey "T">
-
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label "窗口">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "工具">
 <!ENTITY tasksMenu.accesskey "T">
@@ -440,10 +424,10 @@
 <!ENTITY activitymanager.accesskey "v">
 <!ENTITY imAccountsStatus.label "聊天状态">
 <!ENTITY imAccountsStatus.accesskey "C">
-<!ENTITY imStatus.available          "空闲">
-<!ENTITY imStatus.unavailable        "忙碌">
-<!ENTITY imStatus.offline            "脱机">
-<!ENTITY imStatus.showAccounts       "显示账户…">
+<!ENTITY imStatus.available "空闲">
+<!ENTITY imStatus.unavailable "忙碌">
+<!ENTITY imStatus.offline "脱机">
+<!ENTITY imStatus.showAccounts "显示账户…">
 <!ENTITY joinChatCmd.label "参与聊天…">
 <!ENTITY joinChatCmd.accesskey "t">
 <!ENTITY savedFiles.label "已保存的文件">
@@ -471,10 +455,8 @@
 <!ENTITY accountManagerCmd2.accesskey "S">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
-     on Unix systems
-  -->
+     on Unix systems -->
 <!ENTITY accountManagerCmdUnix2.accesskey "A">
-
 <!-- Developer Tools Submenu -->
 <!ENTITY devtoolsMenu.label "开发者工具">
 <!ENTITY devtoolsMenu.accesskey "o">
@@ -486,7 +468,6 @@
 <!ENTITY errorConsoleCmd.label "错误控制台">
 <!ENTITY errorConsoleCmd.accesskey "E">
 <!ENTITY errorConsoleCmd.commandkey "j">
-
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton1.label "收取邮件">
 <!ENTITY newMsgButton.label "新建消息">
@@ -520,8 +501,7 @@
 <!ENTITY tagButton.label "标签">
 <!ENTITY compactButton.label "压缩">
 <!ENTITY appmenuButton.label "应用菜单">
-
-<!-- Mail Toolbar Tooltips-->
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "高级消息搜索">
 <!ENTITY getMsgButton.tooltip "获取新消息">
 <!ENTITY getAllNewMsgCmd.label "获取所有新消息">
@@ -550,11 +530,9 @@
 <!ENTITY tagButton.tooltip "为消息添加标签">
 <!ENTITY compactButton.tooltip "从选中文件夹移除已删除消息">
 <!ENTITY appmenuButton1.tooltip "显示 &brandShortName; 菜单">
-
 <!-- Toolbar Button Popup -->
 <!ENTITY buttonMenuForwardAsInline.label "内联转发">
 <!ENTITY buttonMenuForwardAsAttachment.label "作为附件转发">
-
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "在这个消息中显示远程内容">
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey "S">
@@ -562,7 +540,6 @@
 <!ENTITY editRemoteContentSettings.accesskey "E">
 <!ENTITY editRemoteContentSettingsUnix.label "编辑远程内容首选项…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "E">
-
 <!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label "忽略这个警告消息">
 <!ENTITY phishingOptionIgnore.accesskey "n">
@@ -570,24 +547,20 @@
 <!ENTITY phishingOptionSettings.accesskey "d">
 <!ENTITY phishingOptionSettingsUnix.label "编辑欺诈检测偏好…">
 <!ENTITY phishingOptionSettingsUnix.accesskey "d">
-
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "新建消息">
 <!ENTITY appmenuNewContactCmd.label "通讯录联系人…">
 <!ENTITY appmenuToolbarLayout.label "工具栏布局…">
-
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "新建标签…">
 <!ENTITY addNewTag.accesskey "N">
 <!ENTITY manageTags.label "管理标签…">
 <!ENTITY manageTags.accesskey "M">
-
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "名称">
 <!ENTITY folderUnreadColumn.label "未读">
 <!ENTITY folderTotalColumn.label "总共">
 <!ENTITY folderSizeColumn.label "大小">
-
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "收取邮件">
 <!ENTITY folderContextGetMessages.accesskey "G">
@@ -627,14 +600,11 @@
 <!ENTITY folderContextFavoriteFolder.accesskey "a">
 <!ENTITY folderContextSettings2.label "设置">
 <!ENTITY folderContextSettings2.accesskey "e">
-
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label "名称或者电子邮件包含:">
 <!ENTITY SearchNameOrEmail.accesskey "N">
-
 <!-- Gloda Search Bar -->
 <!ENTITY glodaSearchBar.placeholder "搜索消息…">
-
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label "主题">
 <!ENTITY searchFromMenu.label "来自">
@@ -643,7 +613,6 @@
 <!ENTITY searchSubjectOrRecipientMenu.label "主题，收件人或者抄送人">
 <!ENTITY searchMessageBody.label "整条消息">
 <!ENTITY saveAsVirtualFolderMenu.label "将搜索结果保存作为文件夹…">
-
 <!-- Thread Pane -->
 <!ENTITY selectColumn.label "选择消息">
 <!ENTITY threadColumn.label "话题">
@@ -667,7 +636,6 @@
 <!ENTITY idColumn.label "接收顺序">
 <!ENTITY attachmentColumn.label "附件">
 <!ENTITY deleteColumn.label "删除">
-
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip "选择要显示的列">
 <!ENTITY selectColumn.tooltip "切换选择所有消息">
@@ -692,7 +660,6 @@
 <!ENTITY idColumn2.tooltip "按接收顺序排序">
 <!ENTITY attachmentColumn2.tooltip "按附件排序">
 <!ENTITY deleteColumn.tooltip "删除消息">
-
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextNewMsgFromTemplate.label "依托模板新建邮件">
 <!ENTITY contextOpenNewWindow.label "在新窗口中打开消息">
@@ -737,8 +704,7 @@
 <!ENTITY contextWatchThreadMenu.label "跟踪话题">
 <!-- LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
      In the en-US locale we ran out of access keys, so there is an empty access key for
-     Watch Thread. Localizers can pick a suitable key
-  -->
+     Watch Thread. Localizers can pick a suitable key -->
 <!ENTITY contextWatchThreadMenu.accesskey "">
 <!ENTITY contextSaveAs.label "另存为…">
 <!ENTITY contextSaveAs.accesskey "S">
@@ -746,15 +712,13 @@
 <!ENTITY contextPrint.accesskey "P">
 <!ENTITY contextPrintPreview.label "打印预览">
 <!ENTITY contextPrintPreview.accesskey "v">
-
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing
      the "columnPicker.applyToFolder.label" and
      "columnPicker.applyToFolderAndChildren.label" options. This item indicates
      a desire to apply the currently displayed set of columns to some other
      folder(s). The sub-menu items indicate whether we want to apply it to just
-     a folder or also its children.
-  -->
+     a folder or also its children. -->
 <!ENTITY columnPicker.applyTo.label "将列设定应用至…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolder.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -762,8 +726,7 @@
      "columnPicker.applyToFolderAndChildren.label". It indicates a desire to
      apply the currently display thread pane column settings to a single folder
      that the user selects using the same widget as the move to/copy to
-     mechanism (via a series of popups).
-  -->
+     mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolder.label "文件夹…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolderAndChildren.label):
      This option in the thread pane column picker is found on a sub-menu beneath
@@ -771,8 +734,7 @@
      "columnPicker.applyToFolder.label". It indicates a desire to
      apply the currently display thread pane column settings to a folder and all
      of its descendents. The user selects the folder using the same widget as the
-     move to/copy to mechanism (via a series of popups).
-  -->
+     move to/copy to mechanism (via a series of popups). -->
 <!ENTITY columnPicker.applyToFolderAndChildren.label "文件夹及其子项目…">
 <!-- LOCALIZATION NOTE (columnPicker.thisFolder.label):
      This is used in the folder selection widget for the
@@ -783,10 +745,8 @@
      selected. For example, if folder "A" has two children, "B" and "C", then
      when the user hovers over "A", a new popup menu will be displayed whose
      items are "This folder", "B", and "C". This is the equivalent of the
-     "File here" option for the move to/copy to widget.
-  -->
+     "File here" option for the move to/copy to widget. -->
 <!ENTITY columnPicker.thisFolder.label "此文件夹">
-
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label "播放">
 <!ENTITY contextPlay.accesskey "P">
@@ -796,12 +756,10 @@
 <!ENTITY contextMute.accesskey "M">
 <!ENTITY contextUnmute.label "恢复声音">
 <!ENTITY contextUnmute.accesskey "m">
-
-<!-- Quick Search Bar -->
-<!-- LOCALIZATION NOTE (quickSearchCmd.key):
+<!-- Quick Search Bar
+     LOCALIZATION NOTE (quickSearchCmd.key):
      This is actually the key used for the global message search box; we have
-     not changed
-  -->
+     not changed -->
 <!ENTITY quickSearchCmd.key "k">
 <!-- LOCALIZATION NOTE (search.label.base1):
      This is the base of the empty text for the global search box. We replace
@@ -810,22 +768,18 @@
      The goal is to convey to the user that typing in the box will allow them
      to search for messages globally and that there is a hotkey they can press
      to get to the box faster. If the global indexer is disabled, the search
-     box will be collapsed and the user will never see this message.
-  -->
+     box will be collapsed and the user will never see this message. -->
 <!ENTITY search.label.base1 "搜索 #1">
 <!-- LOCALIZATION NOTE (search.keyLabel.nonmac):
      The description of the key-binding to get into the global search box on
      windows and linux (which use the control key). We use the key defined in
-     the quickSearchCmd.key entity defined above, the letter should match it.
-  -->
+     the quickSearchCmd.key entity defined above, the letter should match it. -->
 <!ENTITY search.keyLabel.nonmac "&lt;Ctrl+K&gt;">
 <!-- LOCALIZATION NOTE (search.keyLabel.mac):
      The description of the key-binding to get into the global search box on mac
      systems. We use the key defined in the quickSearchCmd.key entity defined
-     above, the letter should match it.
-  -->
+     above, the letter should match it. -->
 <!ENTITY search.keyLabel.mac "&lt;&#x2318;K&gt;">
-
 <!-- Message Header Context Menu -->
 <!ENTITY AddToAddressBook.label "将地址添加到通讯录…">
 <!ENTITY AddToAddressBook.accesskey "B">
@@ -851,11 +805,9 @@
 <!ENTITY CreateFilterFrom.accesskey "F">
 <!ENTITY reportPhishingURL.label "报告电子邮件欺诈">
 <!ENTITY reportPhishingURL.accesskey "o">
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "添加词典…">
 <!ENTITY spellAddDictionaries.accesskey "A">
-
 <!-- Content Pane Context Menu -->
 <!ENTITY saveLinkAsCmd.label "将链接另存为…">
 <!ENTITY saveLinkAsCmd.accesskey "k">
@@ -871,34 +823,29 @@
 <!ENTITY openInBrowser.accesskey "O">
 <!ENTITY openLinkInBrowser.label "在浏览器中打开链接">
 <!ENTITY openLinkInBrowser.accesskey "O">
-
 <!-- Statusbar -->
 <!ENTITY statusText.label "完成">
-
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "最小化">
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY bringAllToFront.label "全部置前">
 <!ENTITY zoomWindow.label "缩放">
-
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
-<!ENTITY preferencesCmdMac2.label       "首选项">
-<!ENTITY preferencesCmdMac.commandkey   ",">
-<!ENTITY preferencesCmdMac.modifiers    "accel">
-<!ENTITY servicesMenuMac.label          "服务">
-<!ENTITY hideThisAppCmdMac.label        "隐藏 &brandShortName;">
-<!ENTITY hideThisAppCmdMac.commandkey   "H">
-<!ENTITY hideThisAppCmdMac.modifiers    "accel">
-<!ENTITY hideOtherAppsCmdMac.label      "隐藏其他">
+<!ENTITY preferencesCmdMac2.label "首选项">
+<!ENTITY preferencesCmdMac.commandkey ",">
+<!ENTITY preferencesCmdMac.modifiers "accel">
+<!ENTITY servicesMenuMac.label "服务">
+<!ENTITY hideThisAppCmdMac.label "隐藏 &brandShortName;">
+<!ENTITY hideThisAppCmdMac.commandkey "H">
+<!ENTITY hideThisAppCmdMac.modifiers "accel">
+<!ENTITY hideOtherAppsCmdMac.label "隐藏其他">
 <!ENTITY hideOtherAppsCmdMac.commandkey "H">
-<!ENTITY hideOtherAppsCmdMac.modifiers  "accel,alt">
-<!ENTITY showAllAppsCmdMac.label        "全部显示">
-
+<!ENTITY hideOtherAppsCmdMac.modifiers "accel,alt">
+<!ENTITY showAllAppsCmdMac.label "全部显示">
 <!-- Mac OS X Dock Icon pop-up menu -->
-<!ENTITY dockOptions.label              "应用图标选项…">
-<!ENTITY writeNewMessageDock.label      "撰写新邮件">
-<!ENTITY openAddressBookDock.label      "打开通讯录">
-
+<!ENTITY dockOptions.label "应用图标选项…">
+<!ENTITY writeNewMessageDock.label "撰写新邮件">
+<!ENTITY openAddressBookDock.label "打开通讯录">
 <!-- Content tab Navigation buttons -->
-<!ENTITY browseBackButton.tooltip    "返回上一页">
+<!ENTITY browseBackButton.tooltip "返回上一页">
 <!ENTITY browseForwardButton.tooltip "转到下一页">

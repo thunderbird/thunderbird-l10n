@@ -4,15 +4,9 @@
 
 <!ENTITY titledefault.label "&brandFullName;">
 <!ENTITY titleSeparator.label " - ">
-
 <!-- File Menu -->
 <!ENTITY newFolderCmd.label "Папка…">
 <!ENTITY newFolderCmd.accesskey "П">
-
-<!-- LOCALIZATION NOTE (moveToNewWindow.label):
-     Menu option to cause the current tab to be migrated to a new Thunderbird
-     window.
-     -->
 <!ENTITY newVirtualFolderCmd.label "Снимено пребарување…">
 <!ENTITY newVirtualFolderCmd.accesskey "С">
 <!ENTITY openMessageFileCmd.label "Отвори снимена порака…">
@@ -47,7 +41,6 @@
 <!ENTITY printCmd.label "Печати…">
 <!ENTITY printCmd.accesskey "П">
 <!ENTITY printCmd.key "p">
-
 <!-- Edit Menu -->
 <!ENTITY selectMenu.label "Избери">
 <!ENTITY selectMenu.accesskey "е">
@@ -68,13 +61,10 @@
 <!ENTITY undoDefaultCmd.accesskey "р">
 <!ENTITY redoDefaultCmd.label "Повтори">
 <!ENTITY redoDefaultCmd.accesskey "о">
-
-<!-- View Menu -->
 <!ENTITY showMessengerToolbarCmd.label "Алатник за пошта">
 <!ENTITY showMessengerToolbarCmd.accesskey "т">
 <!ENTITY customizeToolbar.label "Прилагоди…">
 <!ENTITY customizeToolbar.accesskey "П">
-
 <!ENTITY messagePaneLayoutStyle.label "Распоред">
 <!ENTITY messagePaneLayoutStyle.accesskey "Р">
 <!ENTITY messagePaneClassic.label "Класичен поглед">
@@ -85,7 +75,6 @@
 <!ENTITY messagePaneVertical.accesskey "В">
 <!ENTITY showMessageCmd.label "Панел за пораки">
 <!ENTITY showMessageCmd.accesskey "П">
-
 <!ENTITY folderView.label "Папки">
 <!ENTITY folderView.accesskey "а">
 <!ENTITY allFolders.label "Сè">
@@ -96,7 +85,6 @@
 <!ENTITY favoriteFolders.accesskey "О">
 <!ENTITY recentFolders.label "Скорешни">
 <!ENTITY recentFolders.accesskey "р">
-
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "Подреди по">
 <!ENTITY sortMenu.accesskey "д">
@@ -154,7 +142,6 @@
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "С">
 <!ENTITY ignoredThreadsCmd.label "Ингорирани низи">
 <!ENTITY ignoredThreadsCmd.accesskey "И">
-
 <!ENTITY headersMenu.label "Заглавја">
 <!ENTITY headersMenu.accesskey "З">
 <!ENTITY headersAllCmd.label "Сè">
@@ -169,15 +156,11 @@
 <!ENTITY bodySanitized.accesskey "T">
 <!ENTITY bodyAsPlaintext.label "Само текст">
 <!ENTITY bodyAsPlaintext.accesskey "С">
-
-
 <!ENTITY viewAttachmentsInlineCmd.label "Прикажи ги прилозите како дел од пораката">
 <!ENTITY viewAttachmentsInlineCmd.accesskey "п">
-
 <!ENTITY pageSourceCmd.label "Изворен код на пораката">
 <!ENTITY pageSourceCmd.accesskey "о">
 <!ENTITY pageSourceCmd.key "u">
-
 <!-- Search Menu -->
 <!ENTITY findMenu.label "Пронајди">
 <!ENTITY findMenu.accesskey "н">
@@ -195,7 +178,6 @@
 <!ENTITY searchMailCmd.key "f">
 <!ENTITY searchAddressesCmd.label "Барај во адресарот…">
 <!ENTITY searchAddressesCmd.accesskey "с">
-
 <!-- Go Menu -->
 <!ENTITY goMenu.label "Оди">
 <!ENTITY goMenu.accesskey "О">
@@ -226,7 +208,6 @@
 <!ENTITY prevStarredMsgCmd.accesskey "Н">
 <!ENTITY startPageCmd.label "Почетна страница за пошта">
 <!ENTITY startPageCmd.accesskey "с">
-
 <!-- Message Menu -->
 <!ENTITY msgMenu.label "Порака">
 <!ENTITY msgMenu.accesskey "П">
@@ -253,7 +234,6 @@
 <!ENTITY forwardAsInline.accesskey "е">
 <!ENTITY forwardAsAttachmentCmd.label "Прилог">
 <!ENTITY forwardAsAttachmentCmd.accesskey "и">
-<!-- do not change "VK_RETURN" -->
 <!ENTITY createFilter.label "Креирај филтер од пораката…">
 <!ENTITY createFilter.accesskey "а">
 <!ENTITY moveCopyMsgRecentMenu.label "Скорешни">
@@ -310,10 +290,8 @@
 <!ENTITY openMessageWindowCmd.label "Отвори ја пораката">
 <!ENTITY openMessageWindowCmd.accesskey "О">
 <!ENTITY openMessageWindowCmd.key "o">
-
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label "Прозорец">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Алатки">
 <!ENTITY tasksMenu.accesskey "т">
@@ -329,16 +307,8 @@
 <!ENTITY deleteJunk.accesskey "б">
 <!ENTITY importCmd.label "Увези…">
 <!ENTITY importCmd.accesskey "и">
-<!-- LOCALIZATION NOTE (accountManagerCmdUnix.accesskey):
-     Belongs to accountManagerCmd.label, which is placed under the Edit menu
-     on Unix systems
-  -->
-
-<!-- Developer Tools Submenu -->
 <!ENTITY errorConsoleCmd.label "Конзола за грешки">
 <!ENTITY errorConsoleCmd.accesskey "н">
-
-<!-- Mail Toolbar -->
 <!ENTITY newMsgButton.label "Пишувај">
 <!ENTITY replyButton.label "Одговори">
 <!ENTITY replyAllButton.label "На сите">
@@ -357,8 +327,7 @@
 <!ENTITY mailViewsToolbarItem.title "Погледи за пошта">
 <!ENTITY folderLocationToolbarItem.title "Локација на папката">
 <!ENTITY tagButton.label "Етикета">
-
-<!-- Mail Toolbar Tooltips-->
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Напредно пребарување на пораки">
 <!ENTITY getMsgButton.tooltip "Соберете нови пораки">
 <!ENTITY getAllNewMsgCmd.label "Собери ги сите нови пораки">
@@ -376,23 +345,10 @@
 <!ENTITY stopButton.tooltip "Го стопира тековниот трансфер">
 <!ENTITY addressBookButton.tooltip "Одите во адресарот">
 <!ENTITY tagButton.tooltip "Означете ги пораките">
-
-<!-- Toolbar Button Popup -->
-
-<!-- Remote Content Button Popup -->
-
-<!-- Phishing Button Popup -->
-
-<!-- AppMenu Popup -->
-
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Нова етикета…">
 <!ENTITY addNewTag.accesskey "Н">
-
-<!-- Folder Pane -->
 <!ENTITY folderSizeColumn.label "Големина">
-
-<!-- Folder Pane Context Menu -->
 <!ENTITY folderContextOpenNewTab.label "Отвори во ново јазиче">
 <!ENTITY folderContextOpenNewTab.accesskey "т">
 <!ENTITY folderContextNew.label "Нова потпапка…">
@@ -415,20 +371,14 @@
 <!ENTITY folderContextSubscribe.accesskey "е">
 <!ENTITY folderContextFavoriteFolder.label "Омилена папка">
 <!ENTITY folderContextFavoriteFolder.accesskey "а">
-
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label "Името или адресата содржи:">
 <!ENTITY SearchNameOrEmail.accesskey "м">
-
-<!-- Gloda Search Bar -->
-
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label "Тема">
 <!ENTITY searchRecipient.label "До или Cc">
 <!ENTITY searchMessageBody.label "Целата порака">
 <!ENTITY saveAsVirtualFolderMenu.label "Сними го пребарувањето како папка…">
-
-<!-- Thread Pane -->
 <!ENTITY threadColumn.label "Нишка">
 <!ENTITY recipientColumn.label "Примач">
 <!ENTITY subjectColumn.label "Тема">
@@ -446,10 +396,6 @@
 <!ENTITY locationColumn.label "Локација">
 <!ENTITY idColumn.label "Ред на пристигање">
 <!ENTITY attachmentColumn.label "Прилози">
-
-<!-- Thread Pane Tooltips -->
-
-<!-- Thread Pane Context Menu -->
 <!ENTITY contextOpenNewWindow.label "Отвори ја пораката во нов прозорец">
 <!ENTITY contextOpenNewWindow.accesskey "в">
 <!-- The contextOpenNewTab.accesskey ("T") potentially conflicts with
@@ -468,81 +414,17 @@
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "е">
 <!ENTITY contextCopyMsgMenu.label "Копирај во">
 <!ENTITY contextCopyMsgMenu.accesskey "К">
-<!-- LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
-     In the en-US locale we ran out of access keys, so there is an empty access key for
-     Watch Thread. Localizers can pick a suitable key
-  -->
 <!ENTITY contextSaveAs.label "Сними како…">
 <!ENTITY contextSaveAs.accesskey "н">
 <!ENTITY contextPrint.label "Печати…">
 <!ENTITY contextPrint.accesskey "П">
 <!ENTITY contextPrintPreview.label "Преглед за печатење">
 <!ENTITY contextPrintPreview.accesskey "г">
-
-<!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
-     This option in the thread pane column picker pops up a sub-menu containing
-     the "columnPicker.applyToFolder.label" and
-     "columnPicker.applyToFolderAndChildren.label" options. This item indicates
-     a desire to apply the currently displayed set of columns to some other
-     folder(s). The sub-menu items indicate whether we want to apply it to just
-     a folder or also its children.
-  -->
-<!-- LOCALIZATION NOTE (columnPicker.applyToFolder.label):
-     This option in the thread pane column picker is found on a sub-menu beneath
-     the "columnPicker.applyTo.label" alongside
-     "columnPicker.applyToFolderAndChildren.label". It indicates a desire to
-     apply the currently display thread pane column settings to a single folder
-     that the user selects using the same widget as the move to/copy to
-     mechanism (via a series of popups).
-  -->
-<!-- LOCALIZATION NOTE (columnPicker.applyToFolderAndChildren.label):
-     This option in the thread pane column picker is found on a sub-menu beneath
-     the "columnPicker.applyTo.label" alongside
-     "columnPicker.applyToFolder.label". It indicates a desire to
-     apply the currently display thread pane column settings to a folder and all
-     of its descendents. The user selects the folder using the same widget as the
-     move to/copy to mechanism (via a series of popups).
-  -->
-<!-- LOCALIZATION NOTE (columnPicker.thisFolder.label):
-     This is used in the folder selection widget for the
-     "columnPicker.applyToFolder.label" and
-     "columnPicker.applyToFolderAndChildren.label" menu options. Whenever
-     a folder has children, it results in a menu popup; the first menu item
-     in that popup is given this label to indicate that that folder should be
-     selected. For example, if folder "A" has two children, "B" and "C", then
-     when the user hovers over "A", a new popup menu will be displayed whose
-     items are "This folder", "B", and "C". This is the equivalent of the
-     "File here" option for the move to/copy to widget.
-  -->
-
-<!-- Media (video/audio) controls -->
-
-<!-- Quick Search Bar -->
-<!-- LOCALIZATION NOTE (quickSearchCmd.key):
+<!-- Quick Search Bar
+     LOCALIZATION NOTE (quickSearchCmd.key):
      This is actually the key used for the global message search box; we have
-     not changed
-  -->
+     not changed -->
 <!ENTITY quickSearchCmd.key "k">
-<!-- LOCALIZATION NOTE (search.label.base1):
-     This is the base of the empty text for the global search box. We replace
-     #1 with the contents of the appropriate search.keyLabel.* value for the
-     platform.
-     The goal is to convey to the user that typing in the box will allow them
-     to search for messages globally and that there is a hotkey they can press
-     to get to the box faster. If the global indexer is disabled, the search
-     box will be collapsed and the user will never see this message.
-  -->
-<!-- LOCALIZATION NOTE (search.keyLabel.nonmac):
-     The description of the key-binding to get into the global search box on
-     windows and linux (which use the control key). We use the key defined in
-     the quickSearchCmd.key entity defined above, the letter should match it.
-  -->
-<!-- LOCALIZATION NOTE (search.keyLabel.mac):
-     The description of the key-binding to get into the global search box on mac
-     systems. We use the key defined in the quickSearchCmd.key entity defined
-     above, the letter should match it.
-  -->
-
 <!-- Message Header Context Menu -->
 <!ENTITY AddToAddressBook.label "Додај во адресар…">
 <!ENTITY AddToAddressBook.accesskey "а">
@@ -550,22 +432,10 @@
 <!ENTITY CopyEmailAddress.accesskey "К">
 <!ENTITY reportPhishingURL.label "Пријави е-поштенска измама">
 <!ENTITY reportPhishingURL.accesskey "о">
-
-<!-- Spell checker context menu items -->
-
-<!-- Content Pane Context Menu -->
-
 <!-- Statusbar -->
 <!ENTITY statusText.label "Заврши">
-
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "Минимизирај">
 <!ENTITY minimizeWindow.key "м">
 <!ENTITY bringAllToFront.label "Донеси ги сите напред">
 <!ENTITY zoomWindow.label "Зумирај">
-
-<!-- Mac OS X Application Menu (Cocoa widgets) -->
-
-<!-- Mac OS X Dock Icon pop-up menu -->
-
-<!-- Content tab Navigation buttons -->
