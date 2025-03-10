@@ -882,3 +882,7 @@ qr-export-more-accounts = Exportera fler konton
 
 ## Appearance Tab
 
+default-sort-size =
+    .label = Storlek
+default-sort-star =
+    .label = Stjärna
