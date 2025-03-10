@@ -309,6 +309,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Visa alla rubriker
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = Visa växel för mörkt meddelandeläge
+    .accesskey = m
 
 ## Action Button Context Menu
 
