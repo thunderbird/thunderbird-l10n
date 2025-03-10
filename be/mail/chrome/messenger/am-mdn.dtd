@@ -2,32 +2,32 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY pane.title                   "Паведамленні аб прачытанні">
-<!ENTITY useGlobalPrefs.label         "Выкарыстоўваць мае глабальныя перавагі паведамленняў аб прачытанні для гэтага ўліковага запісу">
-<!ENTITY useGlobalPrefs.accesskey     "В">
-<!ENTITY globalReceipts.label         "Глабальныя перавагі…">
-<!ENTITY globalReceipts.accesskey     "Г">
-<!ENTITY useCustomPrefs.label         "Персаналізаваць перавагі паведамленняў аб прачытанні для гэтага ўліковага запісу">
-<!ENTITY useCustomPrefs.accesskey     "П">
-<!ENTITY requestReceipt.label         "Заўсёды патрабаваць паведамленні аб прачытанні пры адпраўцы паведамленняў">
-<!ENTITY requestReceipt.accesskey     "З">
-<!ENTITY receiptArrive.label          "Пры атрыманні паведамлення аб прачытанні:">
-<!ENTITY leaveIt.label                "Пакінуць яго ў маёй папцы «Уваходныя»">
-<!ENTITY leaveIt.accesskey            "к">
+<!ENTITY pane.title "Паведамленні аб прачытанні">
+<!ENTITY useGlobalPrefs.label "Выкарыстоўваць мае глабальныя перавагі паведамленняў аб прачытанні для гэтага ўліковага запісу">
+<!ENTITY useGlobalPrefs.accesskey "В">
+<!ENTITY globalReceipts.label "Глабальныя перавагі…">
+<!ENTITY globalReceipts.accesskey "Г">
+<!ENTITY useCustomPrefs.label "Персаналізаваць перавагі паведамленняў аб прачытанні для гэтага ўліковага запісу">
+<!ENTITY useCustomPrefs.accesskey "П">
+<!ENTITY requestReceipt.label "Заўсёды запытваць паведамленне аб прачытанні пры адпраўцы паведамленняў">
+<!ENTITY requestReceipt.accesskey "З">
+<!ENTITY receiptArrive.label "Пры атрыманні паведамлення аб прачытанні:">
+<!ENTITY leaveIt.label "Пакідаць яго ў маёй папцы «Уваходныя»">
+<!ENTITY leaveIt.accesskey "к">
 <!-- LOCALIZATION NOTE moveToSent.label Translate: 'Sent' according to Netscape glossary -->
-<!ENTITY moveToSent.label             "Перамясціць яго ў папку «Адпраўленыя»">
-<!ENTITY moveToSent.accesskey         "е">
-<!ENTITY requestMDN.label             "Пры атрыманні запытаў на паведамленні аб прачытанні:">
-<!ENTITY returnSome.label             "Адпраўляць паведамленні аб прачытанні для некаторых паведамленняў">
-<!ENTITY returnSome.accesskey         "А">
-<!ENTITY never.label                  "Ніколі не адпраўляць паведамленні аб прачытанні">
-<!ENTITY never.accesskey              "Н">
-<!ENTITY notInToCc.label              "Калі я не ў спісе «Каму» або «Копія»:">
-<!ENTITY notInToCc.accesskey          "л">
-<!ENTITY outsideDomain.label          "Калі адпраўнік па-за маім даменам:">
-<!ENTITY outsideDomain.accesskey      "д">
-<!ENTITY otherCases.label             "У іншых выпадках:">
-<!ENTITY otherCases.accesskey         "ш">
-<!ENTITY askMe.label                  "Пытацца ў мяне">
-<!ENTITY alwaysSend.label             "Заўсёды адпраўляць">
-<!ENTITY neverSend.label              "Ніколі не адпраўляць">
+<!ENTITY moveToSent.label "Перамяшчаць яго ў маю папку «Адпраўленыя»">
+<!ENTITY moveToSent.accesskey "е">
+<!ENTITY requestMDN.label "Пры атрыманні запыта на паведамленне аб прачытанні:">
+<!ENTITY returnSome.label "Дазволіць адпраўку паведамлення аб прачытанні для некаторых паведамленняў">
+<!ENTITY returnSome.accesskey "А">
+<!ENTITY never.label "Ніколі не адпраўляць паведамленне аб прачытанні">
+<!ENTITY never.accesskey "Н">
+<!ENTITY notInToCc.label "Калі я не ў спісе «Каму» або «Копія»:">
+<!ENTITY notInToCc.accesskey "л">
+<!ENTITY outsideDomain.label "Калі адпраўнік знаходзіцца па-за межамі майго дамена:">
+<!ENTITY outsideDomain.accesskey "д">
+<!ENTITY otherCases.label "Ва ўсіх астатніх выпадках:">
+<!ENTITY otherCases.accesskey "ш">
+<!ENTITY askMe.label "Пытацца ў мяне">
+<!ENTITY alwaysSend.label "Заўсёды адпраўляць">
+<!ENTITY neverSend.label "Ніколі не адпраўляць">
