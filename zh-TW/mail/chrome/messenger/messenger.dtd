@@ -691,7 +691,7 @@
 <!ENTITY contextReplyList.accesskey "l">
 <!ENTITY contextMoveMsgMenu.label "移至">
 <!ENTITY contextMoveMsgMenu.accesskey "M">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "最近目的地">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "最近選擇的目的地">
 <!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "最近">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "R">
