@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "р">
 <!ENTITY contextMoveMsgMenu.label "Переместить в папку">
 <!ENTITY contextMoveMsgMenu.accesskey "е">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Недавние назначения">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Недавно открытые">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "Н">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Избранное">
