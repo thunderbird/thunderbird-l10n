@@ -31,7 +31,7 @@
 <!ENTITY keepArchives.accesskey "K">
 <!ENTITY archiveHierarchyButton.label "備存選項…">
 <!ENTITY archiveHierarchyButton.accesskey "A">
-<!ENTITY archivesFolderOn.label "「備存」資料夾於:">
+<!ENTITY archivesFolderOn.label "「備存」信件匣於：">
 <!ENTITY archivesFolderOn.accesskey "n">
 <!ENTITY archiveInOtherFolder.label "其他郵件匣:">
 <!ENTITY archiveInOtherFolder.accesskey "h">

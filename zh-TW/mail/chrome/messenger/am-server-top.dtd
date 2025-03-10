@@ -16,8 +16,7 @@
 <!-- LOCALIZATION NOTE (biffStart.label) : translate below 2 line with grammar dependency
         For example, in Japanese cases:
                 biffStart.label "every"
-                biffEnd.label   "minutes for new messages Check"
--->
+                biffEnd.label   "minutes for new messages Check" -->
 <!ENTITY biffStart.label "每">
 <!ENTITY biffStart.accesskey "y">
 <!ENTITY biffEnd.label "分鐘檢查新郵件">
@@ -42,7 +41,7 @@
 <!ENTITY downloadOnBiff.label "自動下載所有新郵件或文章">
 <!ENTITY downloadOnBiff.accesskey "m">
 <!ENTITY deleteMessagePrefix.label "當我刪除郵件時:">
-<!ENTITY modelMoveToTrash.label "移動到此資料夾:">
+<!ENTITY modelMoveToTrash.label "移動到此資料夾：">
 <!ENTITY modelMoveToTrash.accesskey "o">
 <!ENTITY modelMarkDeleted.label "標示為「已刪除」">
 <!ENTITY modelMarkDeleted.accesskey "k">
@@ -57,8 +56,7 @@
 <!ENTITY loginAtStartup.accesskey "C">
 <!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency
     maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
-    of messages between them
--->
+    of messages between them -->
 <!ENTITY maxMessagesStart.label "要下載超過">
 <!ENTITY maxMessagesStart.accesskey "m">
 <!-- LOCALIZATION NOTE (maxMessagesEnd.label) : see note for maxMessagesStart.label -->
@@ -67,7 +65,7 @@
 <!ENTITY alwaysAuthenticate.accesskey "w">
 <!ENTITY newsrcFilePath1.label "News.rc 檔案:">
 <!ENTITY newsrcPicker1.label "選擇 News.rc 檔案">
-<!ENTITY abbreviate.label "資料夾顯示新聞群組名稱的方式:">
+<!ENTITY abbreviate.label "於信件匣中顯示新聞群組名稱的方式：">
 <!ENTITY abbreviateOn.label "完整名稱 (例: 'netscape.public.mozilla.mail-news')">
 <!ENTITY abbreviateOff.label "縮寫 (例: 'n.p.m.mail-news')">
 <!ENTITY advancedButton.label "進階…">
@@ -79,7 +77,6 @@
 <!ENTITY browseFolder.accesskey "B">
 <!ENTITY browseNewsrc.label "瀏覽…">
 <!ENTITY browseNewsrc.accesskey "e">
-
 <!ENTITY accountTitle.label "帳號設定">
 <!ENTITY accountSettingsDesc.label "這是沒有任何身份資訊的特殊帳號。">
 <!ENTITY storeType.label "訊息儲存方式:">

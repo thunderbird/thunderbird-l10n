@@ -143,4 +143,4 @@ account-hub-port-error-text = 通訊埠必須在 1 到 65535 之間
 account-hub-username-error-text = 必須輸入使用者名稱
     .title = 必須輸入使用者名稱
 account-hub-oauth-pending = 正在等待登入視窗中的授權結果…
-account-hub-addon-needed = { -brand-full-name } 本身並不支援此伺服器。若要存取 Exchange 郵件請<a data-l10n-name="addon-install">安裝 Owl 付費版等第三方附加元件。</a>
+account-hub-addon-needed = { -brand-full-name } 本身不支援此伺服器。若要存取 Exchange 郵件，請<a data-l10n-name="addon-install">安裝 Owl 等第三方附加元件（須付費）。</a>
