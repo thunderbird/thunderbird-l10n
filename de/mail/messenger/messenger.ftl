@@ -309,6 +309,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Alle Kopfzeilen anzeigen
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = Umschalter für dunkle Nachrichten anzeigen
+    .accesskey = d
 
 ## Action Button Context Menu
 

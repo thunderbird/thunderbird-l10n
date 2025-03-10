@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Allmänt
 category-general =
     .tooltiptext = { pane-general-title }
+pane-appearance-title = Utseende
+category-appearance =
+    .tooltiptext = { pane-appearance-title }
 pane-compose-title = Skriva
 category-compose =
     .tooltiptext = Skriva
@@ -882,6 +885,21 @@ qr-export-more-accounts = Exportera fler konton
 
 ## Appearance Tab
 
+appearance-category-header = Utseende
+default-sort-date =
+    .label = Datum
+default-sort-subject =
+    .label = Ämne
+default-sort-from =
+    .label = Från
+default-sort-id =
+    .label = ID
+default-sort-thread =
+    .label = Tråd
+default-sort-priority =
+    .label = Prioritet
+default-sort-status =
+    .label = Status
 default-sort-size =
     .label = Storlek
 default-sort-star =

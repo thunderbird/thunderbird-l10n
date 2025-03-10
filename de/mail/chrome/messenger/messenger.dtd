@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "e">
 <!ENTITY contextMoveMsgMenu.label "Verschieben in">
 <!ENTITY contextMoveMsgMenu.accesskey "v">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Letzte Ziele">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "L">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Letzte Ordner">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "z">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favoriten">

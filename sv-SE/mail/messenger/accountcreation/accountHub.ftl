@@ -144,3 +144,4 @@ account-hub-port-error-text = Portnummer måste vara mellan 1 och 65535
 account-hub-username-error-text = Användarnamn krävs
     .title = Användarnamn krävs
 account-hub-oauth-pending = Väntar på auktorisering i inloggningspopup…
+account-hub-addon-needed = { -brand-full-name } stöder inte den här servern. För att komma åt Exchange e-post, <a data-l10n-name="addon-install"> installera ett tredjepartstillägg som Owl (betald).</a>
