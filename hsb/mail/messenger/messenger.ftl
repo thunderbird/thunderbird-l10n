@@ -321,6 +321,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Wšě hłowy pokazać
     .accesskey = h
+message-header-dark-message-toggle =
+    .label = Přepinak za ćmowy powěsćowy modus pokazać
+    .accesskey = m
 
 ## Action Button Context Menu
 

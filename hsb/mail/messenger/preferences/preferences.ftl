@@ -427,7 +427,15 @@ conversation-view-checkbox-label =
     .accesskey = R
 conversation-view-checkbox-description = Eksperimentelna funkcija, kotraž na Gloda bazuje, wužiwajće ju na swoje riziko
 label-experiment = Eksperimentelne
+dark-message-mode-legend = Stil powěsćoweho čitaka
+dark-message-mode-checkbox-label =
+    .label = Ćmowy powěsćowy modus zmóžnić
+    .accesskey = m
 dark-message-mode-checkbox-description = Eksperimentelna funkcija, zo by so wobłuk powěsćow ćmowym drastam přiměrił
+dark-message-mode-toggle-label =
+    .label = Přepinak za ćmowy powěsćowy modus pokazać
+    .accesskey = P
+dark-message-mode-toggle-description = Přepinak w powěsćowej hłowje pokazać, zo byšće ćmowy powěsćowy modus znjemóžnił
 dark-reader-legend = Barby čitaka
 dark-reader-checkbox-label =
     .label = Ćmowej drasće přiměrić
@@ -900,6 +908,7 @@ qr-export-more-accounts = Dalše konta eksportować
 
 appearance-category-header = Napohlad
 default-message-list-legend = Lisćina powěsćow
+default-message-list-description = Standardne nastajenja za sortěrowanje a strukturu nitkow za nowo wutworjene rjadowaki definować.
 default-flag-label =
     .value = Standardna struktura nitkow:
 default-flag-unthreaded =
@@ -964,5 +973,12 @@ apply-current-view-to-folder =
 apply-current-view-to-folder-children =
     .label = Rjadowak a jeho podrjadowaki…
 apply-changes-prompt-title = Změny nałožić?
+apply-changes-prompt-message = Aktualne nastajenja za strukturu nitkow a sortěrowanje na wšě rjadowaki nałožić?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Aktualne nastajenja za strukturu nitkow a sortěrowanje na “{ $name }” nałožić?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Aktualne nastajenja za strukturu nitkow a sortěrowanje na “{ $name }” a jeho podrjadowaki nałožić?
 apply-current-view-error = Njeje móžno, aktualne napohladne nastajenja nałožić
 apply-current-view-success = Aktualne napohladne nastajenja su so wuspěšnje nałožili

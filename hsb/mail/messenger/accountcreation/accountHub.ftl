@@ -146,3 +146,4 @@ account-hub-port-error-text = Port dyrbi mjez 1 a 65535 być
 account-hub-username-error-text = Wužiwarske mjeno je trěbne
     .title = Wužiwarske mjeno je trěbne
 account-hub-oauth-pending = Čaka so za awtorizaciju we wuskakowacym woknje přizjewjenja…
+account-hub-addon-needed = { -brand-full-name } wot doma tutón serwer njepodpěruje. Zo by přistup k e-mejli Exchange měł, <a data-l10n-name="addon-install">instalujće přidatk třećeho poskićowarja kaž Owl (płaćomny).</a>
