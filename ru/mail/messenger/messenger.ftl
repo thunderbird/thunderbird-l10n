@@ -317,6 +317,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Показать все заголовки
     .accesskey = е
+message-header-dark-message-toggle =
+    .label = Показывать переключатель тёмного режима сообщений
+    .accesskey = в
 
 ## Action Button Context Menu
 
