@@ -8,7 +8,6 @@
 <!ENTITY author.label "作者">
 <!ENTITY organizationField4.label "公司">
 <!ENTITY replyToField4.label "回覆給">
-
 <!ENTITY subjectField4.label "主旨">
 <!ENTITY ccField4.label "副本">
 <!ENTITY bccField4.label "密件副本">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "郵件編號">
 <!ENTITY inReplyToField4.label "回覆給">
 <!ENTITY originalWebsite4.label "網站">
-
 <!ENTITY hdrArchiveButton1.label "備存">
 <!ENTITY hdrArchiveButton1.tooltip "備存此訊息">
 <!ENTITY hdrSmartReplyButton1.label "智慧回覆">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "將此訊息標示為垃圾郵件">
 <!ENTITY hdrTrashButton1.label "刪除">
 <!ENTITY hdrTrashButton1.tooltip "刪除此訊息">
-
 <!ENTITY hdrViewToolbarShowFull.label "顯示圖示與文字">
 <!ENTITY hdrViewToolbarShowFull.accesskey "a">
 <!ENTITY hdrViewToolbarShowIcons.label "只顯示圖示">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "T">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "總是顯示回覆給寄件者">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "R">
-
 <!ENTITY otherActionsButton2.label "更多">
 <!ENTITY otherActionsButton.tooltip "更多操作">
 <!ENTITY otherActionsOpenConversation1.label "以討論串檢視模式開啟">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "V">
 <!ENTITY otherActionsPrint1.label "列印…">
 <!ENTITY otherActionsPrint1.accesskey "P">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "啟動時顯示附件窗格">
-<!ENTITY startExpandedCmd.accesskey    "S">
-
+<!ENTITY startExpandedCmd.label "啟動時顯示附件窗格">
+<!ENTITY startExpandedCmd.accesskey "S">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "開啟">
-<!ENTITY openAttachmentCmd.accesskey    "O">
-<!ENTITY saveAsAttachmentCmd.label    "另存新檔…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "S">
-<!ENTITY detachAttachmentCmd.label    "取出…">
-<!ENTITY detachAttachmentCmd.accesskey    "D">
-<!ENTITY deleteAttachmentCmd.label    "刪除">
-<!ENTITY deleteAttachmentCmd.accesskey    "e">
-<!ENTITY openAllAttachmentsCmd.label    "開啟全部…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "O">
-<!ENTITY saveAllAttachmentsCmd.label    "全部儲存…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "s">
-<!ENTITY detachAllAttachmentsCmd.label    "全部取出…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "d">
-<!ENTITY deleteAllAttachmentsCmd.label    "全部刪除…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "e">
-
+<!ENTITY openAttachmentCmd.label "開啟">
+<!ENTITY openAttachmentCmd.accesskey "O">
+<!ENTITY saveAsAttachmentCmd.label "另存新檔…">
+<!ENTITY saveAsAttachmentCmd.accesskey "S">
+<!ENTITY detachAttachmentCmd.label "取出…">
+<!ENTITY detachAttachmentCmd.accesskey "D">
+<!ENTITY deleteAttachmentCmd.label "刪除">
+<!ENTITY deleteAttachmentCmd.accesskey "e">
+<!ENTITY openAllAttachmentsCmd.label "開啟全部…">
+<!ENTITY openAllAttachmentsCmd.accesskey "O">
+<!ENTITY saveAllAttachmentsCmd.label "全部儲存…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "s">
+<!ENTITY detachAllAttachmentsCmd.label "全部取出…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "d">
+<!ENTITY deleteAllAttachmentsCmd.label "全部刪除…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "e">
 <!ENTITY openAttachment.tooltip "開啟附加的檔案">
-
-<!ENTITY detachedAttachmentFolder.show.label        "開啟所在資料夾">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "F">
-<!ENTITY detachedAttachmentFolder.showMac.label     "在 Finder 中顯示">
+<!ENTITY detachedAttachmentFolder.show.label "開啟所在信件匣">
+<!ENTITY detachedAttachmentFolder.show.accesskey "F">
+<!ENTITY detachedAttachmentFolder.showMac.label "在 Finder 中顯示">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "儲存">
-<!ENTITY saveAttachmentButton1.tooltip     "儲存附加檔案">
-<!ENTITY saveAllAttachmentsButton1.label   "儲存所有附件">
+<!ENTITY saveAttachmentButton1.label "儲存">
+<!ENTITY saveAttachmentButton1.tooltip "儲存附加檔案">
+<!ENTITY saveAllAttachmentsButton1.label "儲存所有附件">
 <!ENTITY saveAllAttachmentsButton1.tooltip "儲存所有附加檔案">
-
-<!ENTITY copyLinkCmd.label        "複製鏈結網址">
-<!ENTITY copyLinkCmd.accesskey    "C">
-
+<!ENTITY copyLinkCmd.label "複製鏈結網址">
+<!ENTITY copyLinkCmd.accesskey "C">
 <!ENTITY CopyMessageId.label "複製 Message-ID">
 <!ENTITY CopyMessageId.accesskey "C">
 <!ENTITY OpenMessageForMsgId.label "開啟此 Message-ID 的郵件">

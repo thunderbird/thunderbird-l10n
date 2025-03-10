@@ -7,8 +7,8 @@
 <!ENTITY folderRebuildSummaryFileTip2.label "重建摘要檔案索引">
 <!ENTITY folderRebuildSummaryFile2.label "修復信件匣">
 <!ENTITY folderRebuildSummaryFile2.accesskey "R">
-<!ENTITY folderRebuildSummaryFile.explanation "有時資料夾索引（.msf）檔可能會毀損，有些郵件可能會突然消失；已經被刪除的郵件也可能持續存在。重建資料夾可能可以修正這些問題。">
-<!ENTITY folderIncludeInGlobalSearch.label "將這個資料夾內的訊息包含於全域搜尋結果">
+<!ENTITY folderRebuildSummaryFile.explanation "有時信件匣索引（.msf）檔可能會毀損，導致有些郵件可能會突然消失；已經被刪除的郵件也可能持續存在。重建信件匣可能可以修正這些問題。">
+<!ENTITY folderIncludeInGlobalSearch.label "將這個信件匣內的訊息包含於全域搜尋結果">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "g">
 <!ENTITY retention.label "保存方式">
 <!ENTITY retentionUseAccount.label "使用我的帳號設定">

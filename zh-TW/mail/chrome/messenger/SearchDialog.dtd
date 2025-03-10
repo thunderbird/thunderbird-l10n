@@ -22,7 +22,7 @@
 <!ENTITY closeCmd.key "W">
 <!ENTITY openInFolder.label "在資料夾開啟">
 <!ENTITY openInFolder.accesskey "r">
-<!ENTITY saveAsVFButton.label "存為即時搜尋資料夾">
+<!ENTITY saveAsVFButton.label "存為即時搜尋信件匣">
 <!ENTITY saveAsVFButton.accesskey "v">
 <!-- for abSearchDialog.xhtml -->
 <!ENTITY abSearchHeading.label "尋找:">

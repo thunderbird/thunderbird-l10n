@@ -2,8 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
-
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "檢視:">
 <!ENTITY viewPicker.accesskey "i">
 <!ENTITY viewAll.label "全部">
@@ -16,7 +15,7 @@
 <!ENTITY viewTags.accesskey "T">
 <!ENTITY viewCustomViews.label "自訂檢視">
 <!ENTITY viewCustomViews.accesskey "V">
-<!ENTITY viewVirtualFolder.label "儲存檢視結果為資料夾…">
+<!ENTITY viewVirtualFolder.label "儲存檢視結果為信件匣…">
 <!ENTITY viewVirtualFolder.accesskey "S">
 <!ENTITY viewCustomizeView.label "自訂…">
 <!ENTITY viewCustomizeView.accesskey "C">

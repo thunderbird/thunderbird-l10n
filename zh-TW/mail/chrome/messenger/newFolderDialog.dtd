@@ -3,13 +3,13 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Labels -->
-<!ENTITY newFolderDialog.title "新資料夾">
+<!ENTITY newFolderDialog.title "新增信件匣">
 <!ENTITY name.label "名稱:">
 <!ENTITY name.accesskey "N">
-<!ENTITY description.label "在下列位置建立子資料夾:">
+<!ENTITY description.label "在下列位置建立子信件匣：">
 <!ENTITY description.accesskey "C">
-<!ENTITY folderRestriction1.label "伺服器限制只能有兩種特殊資料夾。">
-<!ENTITY folderRestriction2.label "您的新資料夾可以有:">
+<!ENTITY folderRestriction1.label "伺服器限制只能有兩種特殊信件匣。">
+<!ENTITY folderRestriction2.label "您的新信件匣可以有：">
 <!ENTITY foldersOnly.label "只有信件匣">
 <!ENTITY messagesOnly.label "只有訊息">
 <!ENTITY accept.label "建立信件匣">

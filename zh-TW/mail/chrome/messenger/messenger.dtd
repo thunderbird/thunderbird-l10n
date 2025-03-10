@@ -5,7 +5,7 @@
 <!ENTITY titledefault.label "&brandFullName;">
 <!ENTITY titleSeparator.label " - ">
 <!-- File Menu -->
-<!ENTITY newFolderCmd.label "資料夾…">
+<!ENTITY newFolderCmd.label "信件匣…">
 <!ENTITY newFolderCmd.accesskey "F">
 <!ENTITY closeTabCmd2.label "關閉分頁">
 <!ENTITY closeTabCmd2.accesskey "C">
@@ -497,7 +497,7 @@
 <!ENTITY glodaSearch.title "全域搜尋">
 <!ENTITY searchItem.title "快速搜尋">
 <!ENTITY mailViewsToolbarItem.title "郵件檢視">
-<!ENTITY folderLocationToolbarItem.title "資料夾位置">
+<!ENTITY folderLocationToolbarItem.title "信件匣位置">
 <!ENTITY tagButton.label "標籤">
 <!ENTITY compactButton.label "壓實重整">
 <!ENTITY appmenuButton.label "應用程式選單">
@@ -572,7 +572,7 @@
 <!ENTITY folderContextOpenInNewWindow.accesskey "O">
 <!ENTITY folderContextOpenNewTab.label "用新分頁開啟">
 <!ENTITY folderContextOpenNewTab.accesskey "T">
-<!ENTITY folderContextNew.label "新增子資料夾…">
+<!ENTITY folderContextNew.label "新增子信件匣…">
 <!ENTITY folderContextNew.accesskey "N">
 <!ENTITY folderContextRename.label "重新命名">
 <!ENTITY folderContextRename.accesskey "R">
@@ -596,7 +596,7 @@
 <!ENTITY folderContextSearchForMessages.accesskey "S">
 <!ENTITY folderContextProperties2.label "屬性">
 <!ENTITY folderContextProperties2.accesskey "P">
-<!ENTITY folderContextFavoriteFolder.label "最愛資料夾">
+<!ENTITY folderContextFavoriteFolder.label "最愛信件匣">
 <!ENTITY folderContextFavoriteFolder.accesskey "a">
 <!ENTITY folderContextSettings2.label "設定">
 <!ENTITY folderContextSettings2.accesskey "e">
@@ -612,7 +612,7 @@
 <!ENTITY searchRecipient.label "正副本收件者 (To/Cc)">
 <!ENTITY searchSubjectOrRecipientMenu.label "標題，收件者或副本">
 <!ENTITY searchMessageBody.label "郵件內文">
-<!ENTITY saveAsVirtualFolderMenu.label "存為即時搜尋資料夾…">
+<!ENTITY saveAsVirtualFolderMenu.label "存為即時搜尋信件匣…">
 <!-- Thread Pane -->
 <!ENTITY selectColumn.label "選擇訊息">
 <!ENTITY threadColumn.label "主題">
@@ -672,7 +672,7 @@
 <!ENTITY contextOpenNewTab.accesskey "T">
 <!ENTITY contextOpenConversation.label "將訊息以討論串檢視模式開啟">
 <!ENTITY contextOpenConversation.accesskey "n">
-<!ENTITY contextOpenContainingFolder.label "開啟所在資料夾中的訊息">
+<!ENTITY contextOpenContainingFolder.label "開啟所在信件匣中的訊息">
 <!ENTITY contextOpenContainingFolder.accesskey "n">
 <!ENTITY contextEditMsgAsNew.label "作為新訊息編輯">
 <!ENTITY contextEditMsgAsNew.accesskey "E">
@@ -729,7 +729,7 @@
      apply the currently display thread pane column settings to a single folder
      that the user selects using the same widget as the move to/copy to
      mechanism (via a series of popups). -->
-<!ENTITY columnPicker.applyToFolder.label "資料夾…">
+<!ENTITY columnPicker.applyToFolder.label "信件匣…">
 <!-- LOCALIZATION NOTE (columnPicker.applyToFolderAndChildren.label):
      This option in the thread pane column picker is found on a sub-menu beneath
      the "columnPicker.applyTo.label" alongside
@@ -737,7 +737,7 @@
      apply the currently display thread pane column settings to a folder and all
      of its descendents. The user selects the folder using the same widget as the
      move to/copy to mechanism (via a series of popups). -->
-<!ENTITY columnPicker.applyToFolderAndChildren.label "資料夾與其子資料夾">
+<!ENTITY columnPicker.applyToFolderAndChildren.label "信件匣與其子信件匣">
 <!-- LOCALIZATION NOTE (columnPicker.thisFolder.label):
      This is used in the folder selection widget for the
      "columnPicker.applyToFolder.label" and
@@ -748,7 +748,7 @@
      when the user hovers over "A", a new popup menu will be displayed whose
      items are "This folder", "B", and "C". This is the equivalent of the
      "File here" option for the move to/copy to widget. -->
-<!ENTITY columnPicker.thisFolder.label "這個資料夾">
+<!ENTITY columnPicker.thisFolder.label "這個信件匣">
 <!-- Media (video/audio) controls -->
 <!ENTITY contextPlay.label "播放">
 <!ENTITY contextPlay.accesskey "P">
