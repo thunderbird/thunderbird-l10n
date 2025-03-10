@@ -892,16 +892,16 @@ qr-export-more-accounts = Esporta altri account
 
 appearance-category-header = Aspetto
 default-message-list-legend = Elenco messaggi
-default-message-list-description = Definisce le opzioni di ordinamento e threading predefinite per le cartelle appena create.
+default-message-list-description = Definisce le opzioni di ordinamento e struttura predefinite per le cartelle appena create.
 default-flag-label =
-    .value = Threading predefinito:
+    .value = Struttura predefinita:
 default-flag-unthreaded =
     .label = Visualizzazione semplice
 default-flag-threaded =
     .label = Visualizzazione ad albero
 default-flag-grouped =
     .label = Raggruppati per ordinamento
-default-sort-label = Predefinito Ordina per:
+default-sort-label = Come impostazione predefinita ordina per:
 default-sort-date =
     .label = Data
 default-sort-subject =
@@ -919,7 +919,7 @@ default-sort-status =
 default-sort-size =
     .label = Dimensione
 default-sort-star =
-    .label = Stella
+    .label = Speciale
 default-sort-unread =
     .label = Letto
 default-sort-recipient =
@@ -957,12 +957,12 @@ apply-current-view-to-folder =
 apply-current-view-to-folder-children =
     .label = Cartella e sottocartelle…
 apply-changes-prompt-title = Applicare le modifiche?
-apply-changes-prompt-message = Applicare le impostazioni correnti di threading e ordinamento a tutte le cartelle?
+apply-changes-prompt-message = Applicare le impostazioni correnti di ordinamento e struttura a tutte le cartelle?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-changes-prompt-folder-message = Applicare le impostazioni correnti di threading e ordinamento a “{ $name }”?
+apply-changes-prompt-folder-message = Applicare le impostazioni correnti di ordinamento e struttura a “{ $name }”?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-changes-prompt-folder-children-message = Applicare le impostazioni correnti di threading e ordinamento a “{ $name }” e ai suoi elementi figlio?
+apply-changes-prompt-folder-children-message = Applicare le impostazioni correnti di ordinamento e struttura a “{ $name }” e alle sottocartelle?
 apply-current-view-error = Impossibile applicare le impostazioni di visualizzazione correnti
 apply-current-view-success = Le impostazioni di visualizzazione correnti sono state applicate correttamente
