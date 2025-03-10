@@ -965,3 +965,8 @@ apply-changes-prompt-message = Vill du tillämpa de nuvarande trådnings- och so
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-changes-prompt-folder-message = Vill du använda de nuvarande trådnings- och sorteringsinställningarna på "{ $name }"?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Vill du tillämpa de nuvarande trådnings- och sorteringsinställningarna på "{ $name }" och dess underordnade?
+apply-current-view-error = Det går inte att tillämpa aktuella vyinställningar
+apply-current-view-success = Aktuella vyinställningar har tillämpats
