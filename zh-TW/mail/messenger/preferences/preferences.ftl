@@ -957,12 +957,12 @@ apply-current-view-to-folder =
 apply-current-view-to-folder-children =
     .label = 信件匣與其子信件匣…
 apply-changes-prompt-title = 確定要套用變更嗎？
-apply-changes-prompt-message = 要將目前的執行緒與排序設定套用到所有資料夾嗎
+apply-changes-prompt-message = 確定要將目前的討論串與排序設定套用至所有信件匣嗎？
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-changes-prompt-folder-message = 確定要將目前的執行緒與排序設定套用到「{ $name }」嗎
+apply-changes-prompt-folder-message = 確定要將目前的討論串與排序設定套用至「{ $name }」嗎？
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-changes-prompt-folder-children-message = 將目前的執行緒與排序設定套用到「{ $name }」及其子節點嗎
+apply-changes-prompt-folder-children-message = 確定要將目前的討論串與排序設定套用至「{ $name }」及其子信件匣嗎？
 apply-current-view-error = 無法套用目前的檢視設定
 apply-current-view-success = 成功套用目前的檢視設定
