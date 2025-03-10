@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "L">
 <!ENTITY contextMoveMsgMenu.label "Přesunyć do">
 <!ENTITY contextMoveMsgMenu.accesskey "u">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Najnowše cile">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "N">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Najnowše">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "N">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Fawority">

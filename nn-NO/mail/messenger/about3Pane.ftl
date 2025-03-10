@@ -413,6 +413,13 @@ apply-current-columns-to-folder-with-children-message = Bruk kolonnane åt denne
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-message = Bruk gjeldande mappevising på { $name }?
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> melding
+       *[other] <span>{ $total }</span> meldingar
+    }
 threadpane-card-menu-button =
     .title = Meldingsmeny
 message-list-placeholder-no-messages = Fann ingen meldingar
