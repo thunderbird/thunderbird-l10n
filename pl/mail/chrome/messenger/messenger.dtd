@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "l">
 <!ENTITY contextMoveMsgMenu.label "Przenieś do">
 <!ENTITY contextMoveMsgMenu.accesskey "z">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Ostatnie miejsca docelowe">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "O">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Ostatni">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "O">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Ulubione">

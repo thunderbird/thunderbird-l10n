@@ -310,6 +310,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Pokazuj wszystkie nagłówki
     .accesskey = n
+message-header-dark-message-toggle =
+    .label = Pokaż przełącznik trybu ciemnego wiadomości
+    .accesskey = c
 
 ## Action Button Context Menu
 
