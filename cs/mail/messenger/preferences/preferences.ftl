@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Obecné
 category-general =
     .tooltiptext = { pane-general-title }
+pane-appearance-title = Vzhled
+category-appearance =
+    .tooltiptext = { pane-appearance-title }
 pane-compose-title = Vytváření
 category-compose =
     .tooltiptext = Vytváření
@@ -507,6 +510,8 @@ conversation-view-checkbox-label =
     .accesskey = k
 conversation-view-checkbox-description = Experimentální funkce založená na Gloda, používejte ji na vlastní nebezpečí
 label-experiment = Experimentální
+dark-message-mode-legend = Styl pro čtení zpráv
+dark-message-mode-checkbox-description = Experimentální funkce, při které se tělo zprávy přizpůsobí tmavému vzhledu
 dark-reader-legend = Barvy podokna zprávy
 dark-reader-checkbox-label =
     .label = Přizpůsobit se tmavému vzhledu
@@ -981,3 +986,17 @@ qr-export-more-accounts = Exportovat více účtů
 
 ## Appearance Tab
 
+appearance-category-header = Vzhled
+default-message-list-legend = Seznam zpráv
+default-message-list-description = Definuje výchozí možnosti třídění a řazení pro nově vytvořené složky.
+default-flag-label =
+    .value = Výchozí vlákna:
+default-flag-unthreaded =
+    .label = Bez vláken
+default-flag-threaded =
+    .label = Podle vláken
+default-flag-grouped =
+    .label = Seskupeno dle řazení
+default-sort-label = Výchozí řazení dle:
+default-sort-date =
+    .label = Datum
