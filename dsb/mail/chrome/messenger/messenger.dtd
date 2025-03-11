@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "L">
 <!ENTITY contextMoveMsgMenu.label "Pśesunuś do">
 <!ENTITY contextMoveMsgMenu.accesskey "P">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Nejnowše cele">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "N">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Nejnowše">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "N">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Fawority">
