@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = დამატებები და თემები
     .accesskey = ტ
+menu-export-for-mobile =
+    .label = გატანა მობილურისთვის…
+    .accesskey = ტ
 
 ## Help Menu
 
@@ -26,6 +29,9 @@ menu-help-get-help =
 menu-help-get-release-help =
     .label = დახმარება, როგორ გამოიყენოთ { -brand-short-name }
     .accesskey = ხ
+menu-help-shortcuts =
+    .label = კლავიატურის მალსახმობები
+    .accesskey = კ
 menu-help-get-involved =
     .label = ჩაერთეთ
     .accesskey = ჩ
@@ -68,6 +74,11 @@ system-tray-menu-quit =
             [windows] დაიხუროს { -brand-full-name }
            *[other] დაიხუროს { -brand-full-name }
         }
+# Localization note: Do not translate unless your locale's keyboard layout
+# does not include this key, as it determines the keyboard shortcut for
+# shutting down the application.
+quit-app-shortcut =
+    .key = Q
 
 ## Mail Toolbar
 
@@ -92,9 +103,15 @@ menu-view-repair-text-encoding =
 
 ## View / Folders
 
+menu-view-folders-toggle-header =
+    .label = საქაღალდის არის სათაური
+    .accesskey = რ
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = წერილების არის სათაური
+    .accesskey = უ
 menu-font-size-label =
     .label = შრიფტის ზომა
     .accesskey = ო
@@ -113,6 +130,9 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = შეკუმშული
     .accesskey = კ
+mail-uidensity-default =
+    .label = ნაგულისხმევი
+    .accesskey = ნ
 menu-spaces-toolbar-button =
     .label = არეების ზოლი
     .accesskey = ე

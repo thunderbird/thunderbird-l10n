@@ -4,3 +4,6 @@
 
 webext-experiment-warning = მავნე დამატებებს შეუძლია თქვენი პირადი მონაცემების მოპარვა ან თქვენი კომპიუტერის ხელყოფა. მხოლოდ იმ შემთხვევაში დააყენეთ, თუ სანდო წყაროდანაა.
 webext-perms-learn-more = ვრცლად
+# Variables:
+#   $addonName (String): localized named of the extension that was just installed.
+addon-post-install-message = { $addonName } დამატებულია.
