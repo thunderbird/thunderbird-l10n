@@ -321,6 +321,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Wšykne głowy pokazaś
     .accesskey = n
+message-header-dark-message-toggle =
+    .label = Šalter za śamny powěsćowy modus pokazaś
+    .accesskey = m
 
 ## Action Button Context Menu
 
