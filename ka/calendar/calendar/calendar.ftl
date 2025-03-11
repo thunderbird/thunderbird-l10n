@@ -357,6 +357,7 @@ html-task-completed = { $task } (დასრულდა)
 # Categories
 add-category = კატეგორიის დამატება
 multiple-categories = მრავალი კატეგორია
+no-categories = არცერთი
 calendar-today = დღეს
 calendar-tomorrow = ხვალ
 yesterday = გუშინ
@@ -470,6 +471,11 @@ single-long-calendar-week = კალენდარული კვირა: {
 #    $index will be replaced with the index of the week
 single-calendar-week = კკ: { $index }
     .title = კალენდარული კვირა: { $index }
+# LOCALIZATION NOTE (several-long-calendar-weeks):
+# used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-long-calendar-weeks = კალენდარული კვირები { $startIndex }-{ $endIndex }
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
@@ -574,6 +580,8 @@ unit-minutes =
         [one] { $count } წუთი
        *[other] { $count } წუთი
     }
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
 # Variables:
 # $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
@@ -581,6 +589,8 @@ unit-hours =
         [one] { $count } საათი
        *[other] { $count } საათი
     }
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
 # Variables:
 # $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
@@ -588,6 +598,8 @@ unit-days =
         [one] { $count } დღე
        *[other] { $count } დღე
     }
+event-duration-menuitem-count-days =
+    .label = { unit-days }
 # Variables:
 # $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
@@ -595,6 +607,48 @@ unit-weeks =
         [one] { $count } კვირა
        *[other] { $count } კვირა
     }
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
+# Variables:
+# $count (Number) - Number of minutes used to determine the correct plural form.
+event-duration-menuitem-minutes =
+    .label =
+        { $count ->
+            [one] წუთი
+           *[other] წუთი
+        }
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label =
+        { $count ->
+            [one] საათი
+           *[other] საათი
+        }
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label =
+        { $count ->
+            [one] დღე
+           *[other] დღე
+        }
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label =
+        { $count ->
+            [one] კვირა
+           *[other] კვირა
+        }
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name

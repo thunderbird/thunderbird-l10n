@@ -43,7 +43,7 @@ calendar-event-listing-column-status =
     .label = მდგომარეობა
     .tooltiptext = მდგომარეობის მიხედვით დალაგება
 calendar-event-listing-column-time-until-due =
-    .label = ხანგრძლიობ
+    .label = ხანგრძლივობა
     .tooltiptext = დალაგება ხანგრძლივობის მიხედვით
 calendar-event-listing-column-title =
     .label = სათაური
@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = ღონისძიებები წარსულში
 calendar-event-listing-interval-calendar-month =
     .label = ღონისძიებები ამ კალენდარულ თვეში
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,10 @@ calendar-event-listing-interval-next-6-months =
     .label = ღონისძიებები მომდევნო 6 თვეში
 calendar-event-listing-interval-next-12-months =
     .label = ღონისძიებები მომდევნო 12 თვეში
+calendar-event-listing-interval-future =
+    .label = ყველა მომავალი ღონისძიება
+calendar-event-listing-interval-all =
+    .label = ყველა ღონისძიება
 calendar-event-listing-interval-selected-day =
     .label = მითითებული დღის
 calendar-event-listing-interval-today =

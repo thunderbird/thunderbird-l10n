@@ -11,12 +11,45 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = კალენდრები
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = { $calendarName } კალენდარი დადუმებულია
 calendar-enable-button = ჩართვა
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = { $calendarName } კალენდრის პარამეტრები
+calendar-import-new-calendar = ახალი კალენდარი…
+    .title = ახალი კალენდრის შექმნა ან გამოწერა
+calendar-refresh-calendars =
+    .title = ყველა კალენდრის ხელახლა ჩატვირთვა და ცვლილებების დასინქრონება
 calendar-new-event-primary-button = ახალი ღონისძიება
 calendar-new-task-primary-button = ახალი დავალება
 
 ## Calendar navigation
 
+calendar-nav-button-prev-tooltip-day =
+    .title = წინა დღე
+    .accesskey = წ
+calendar-nav-button-prev-tooltip-week =
+    .title = წინა კვირა
+    .accesskey = წ
+calendar-nav-button-prev-tooltip-multiweek =
+    .title = წინა კვირა
+    .accesskey = წ
+calendar-nav-button-prev-tooltip-month =
+    .title = წინა თვე
+    .accesskey = წ
+calendar-nav-button-prev-tooltip-year =
+    .title = წინა წელი
+    .accesskey = წ
+calendar-nav-button-next-tooltip-day =
+    .title = შემდეგი დღე
+    .accesskey = ე
+calendar-nav-button-next-tooltip-week =
+    .title = შემდეგი კვირა
+    .accesskey = ე
 calendar-view-toggle-day = დღე
     .title = გადართვა დღეზე
 calendar-view-toggle-week = კვირა
