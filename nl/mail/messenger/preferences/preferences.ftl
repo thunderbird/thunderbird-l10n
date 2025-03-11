@@ -439,6 +439,15 @@ conversation-view-checkbox-label =
     .accesskey = C
 conversation-view-checkbox-description = Experimentele functie gebaseerd op Gloda, gebruik op eigen risico
 label-experiment = Experimenteel
+dark-message-mode-legend = Berichtlezerstijl
+dark-message-mode-checkbox-label =
+    .label = Donkere berichtmodus inschakelen
+    .accesskey = D
+dark-message-mode-checkbox-description = Experimentele functie om de berichtentekst donkere thema’s te laten volgen
+dark-message-mode-toggle-label =
+    .label = Schakelaar donkere berichtmodus tonen
+    .accesskey = h
+dark-message-mode-toggle-description = Schakelaar in de berichtkop tonen om snel de donkere berichtmodus uit te schakelen
 dark-reader-legend = Lezerkleuren
 dark-reader-checkbox-label =
     .label = Aanpassen aan donker thema
@@ -903,6 +912,9 @@ qr-export-more-accounts = Meer accounts exporteren
 
 appearance-category-header = Vormgeving
 default-message-list-legend = Berichtenlijst
+default-message-list-description = Definieer de standaard sorteer- en conversatieopties voor nieuw gemaakte mappen.
+default-flag-label =
+    .value = Standaard conversaties:
 default-flag-unthreaded =
     .label = Geen conversaties
 default-flag-threaded =
@@ -946,6 +958,7 @@ default-sort-received =
     .label = Volgorde van ontvangst
 default-sort-correspondents =
     .label = Correspondenten
+default-order-label = Standaard sorteervolgorde:
 default-sort-ascending =
     .label = Oplopend
 default-sort-ascending-description = Nieuwe berichten onderaan
@@ -956,8 +969,20 @@ apply-sort-label = Deze instellingen toepassen op:
 apply-sort-to-all-button =
     .label = Alle bestaande mappen
     .accesskey = A
+choose-apply-sort-button =
+    .label = Kiezen…
+    .accesskey = K
 apply-current-view-to-folder =
     .label = Map…
 apply-current-view-to-folder-children =
     .label = Map en submappen…
 apply-changes-prompt-title = Wijzigingen toepassen?
+apply-changes-prompt-message = De huidige instellingen voor conversaties en sorteren op alle mappen toepassen?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = De huidige instellingen voor conversaties en sorteren toepassen op ‘{ $name }’?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = De huidige instellingen voor conversaties en sorteren toepassen op ‘{ $name }’ en zijn submappen?
+apply-current-view-error = Kan huidige weergave-instellingen niet toepassen
+apply-current-view-success = Huidige weergave-instellingen met succes toegepast

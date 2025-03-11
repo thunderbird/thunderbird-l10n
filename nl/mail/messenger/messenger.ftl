@@ -309,6 +309,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Alle kopteksten tonen
     .accesskey = A
+message-header-dark-message-toggle =
+    .label = Schakelaar voor donkere berichtmodus tonen
+    .accesskey = d
 
 ## Action Button Context Menu
 
