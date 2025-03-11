@@ -16,6 +16,7 @@ connection-error-time-out = კავშირის დრო ამოიწ�
 connection-error-invalid-username = { $username } დაუშვებელი სახელია.
 connection-error-invalid-password = სერვერის პაროლი უმართებულოა
 connection-error-password-required = პაროლი აუცილებელია
+connection-error-invalid-user-password = უმართებულო პაროლი
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _არხი
