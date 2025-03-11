@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "D">
 <!ENTITY contextMoveMsgMenu.label "Pindahkan Ke">
 <!ENTITY contextMoveMsgMenu.accesskey "P">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Destinasi Terbaru">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Terbaru">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "r">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favorit">
