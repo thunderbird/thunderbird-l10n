@@ -110,6 +110,7 @@ account-hub-result-imap-description = Udržuje vaše priečinky a e‑maily sync
 account-hub-result-pop-description = Ponecháva vaše priečinky a e‑maily v počítači
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Na synchronizáciu priečinkov a e‑mailov použije webové služby Microsoft Exchange
+account-hub-result-exchange-description = Synchronizujte priečinky a e‑maily so serverom Exchange alebo Office 365
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Odporúčané
 account-hub-edit-configuration = Upraviť konfiguráciu
