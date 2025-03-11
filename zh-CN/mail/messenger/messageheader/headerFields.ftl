@@ -101,3 +101,5 @@ message-ids-field-show-all = 显示全部
 
 ## Dark Message Mode
 
+dark-message-mode-disable-toggle =
+    .title = 关闭邮件深色模式

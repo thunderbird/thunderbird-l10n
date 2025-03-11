@@ -296,6 +296,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = 显示所有消息头
     .accesskey = A
+message-header-dark-message-toggle =
+    .label = 显示邮件深色模式切换按钮
+    .accesskey = d
 
 ## Action Button Context Menu
 
