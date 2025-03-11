@@ -321,6 +321,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Prikaži vse glave
     .accesskey = v
+message-header-dark-message-toggle =
+    .label = Prikaži stikalo temnega prikaza sporočil
+    .accesskey = t
 
 ## Action Button Context Menu
 
