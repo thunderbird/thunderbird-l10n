@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "l">
 <!ENTITY contextMoveMsgMenu.label "Áthelyezés">
 <!ENTITY contextMoveMsgMenu.accesskey "h">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Legutóbbi célok">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "L">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Nemrég használt">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "N">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Kedvencek">

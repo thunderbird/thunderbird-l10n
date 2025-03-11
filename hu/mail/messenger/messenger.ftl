@@ -309,6 +309,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Összes fejléc megjelenítése
     .accesskey = e
+message-header-dark-message-toggle =
+    .label = Sötét üzenetmód kapcsolójának megjelenítése
+    .accesskey = S
 
 ## Action Button Context Menu
 
