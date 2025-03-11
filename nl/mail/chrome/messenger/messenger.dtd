@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "i">
 <!ENTITY contextMoveMsgMenu.label "Verplaatsen naar">
 <!ENTITY contextMoveMsgMenu.accesskey "r">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Recente bestemmingen">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Recent">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favorieten">
