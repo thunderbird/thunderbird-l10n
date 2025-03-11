@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Umum
 category-general =
     .tooltiptext = { pane-general-title }
+pane-appearance-title = Penampilan
+category-appearance =
+    .tooltiptext = { pane-appearance-title }
 pane-compose-title = Penyusunan
 category-compose =
     .tooltiptext = Penyusunan
@@ -417,6 +420,14 @@ conversation-view-checkbox-label =
     .accesskey = c
 conversation-view-checkbox-description = Fitur eksperimental berbasis Gloda, gunakan dengan risiko Anda sendiri
 label-experiment = Eksperimental
+dark-message-mode-legend = Gaya pembaca pesan
+dark-message-mode-checkbox-label =
+    .label = Aktifkan mode pesan gelap
+    .accesskey = d
+dark-message-mode-checkbox-description = Fitur eksperimental untuk membuat isi pesan mengikuti tema gelap
+dark-message-mode-toggle-label =
+    .label = Tampilkan pengalih mode pesan gelap
+    .accesskey = T
 dark-reader-legend = Warna pembaca
 dark-reader-checkbox-label =
     .label = Adaptasikan dengan tema gelap
@@ -859,3 +870,34 @@ qr-export-more-accounts = Ekspor lebih banyak akun
 
 ## Appearance Tab
 
+appearance-category-header = Penampilan
+default-message-list-legend = Daftar Pesan
+default-flag-label =
+    .value = Utas Baku:
+default-flag-unthreaded =
+    .label = Tanpa Utas
+default-flag-threaded =
+    .label = Berutas
+default-sort-label = Urut Baku berdasarkan:
+default-sort-date =
+    .label = Tanggal
+default-sort-subject =
+    .label = Subjek
+default-sort-from =
+    .label = Dari
+default-sort-id =
+    .label = ID
+default-sort-thread =
+    .label = Utas
+default-sort-priority =
+    .label = Prioritas
+default-sort-status =
+    .label = Status
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Terapkan pengaturan utas dan pengurutan saat ini ke “{ $name }”?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Terapkan pengaturan utas dan pengurutan saat ini ke “{ $name }” dan turunannya?
+apply-current-view-error = Tidak bisa menerapkan pengaturan tampilan saat ini
+apply-current-view-success = Pengaturan tampilan saat ini berhasil diterapkan
