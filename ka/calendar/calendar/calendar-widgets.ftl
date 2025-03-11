@@ -46,10 +46,21 @@ calendar-nav-button-prev-tooltip-year =
     .accesskey = წ
 calendar-nav-button-next-tooltip-day =
     .title = შემდეგი დღე
-    .accesskey = ე
+    .accesskey = მ
 calendar-nav-button-next-tooltip-week =
     .title = შემდეგი კვირა
-    .accesskey = ე
+    .accesskey = მ
+calendar-nav-button-next-tooltip-multiweek =
+    .title = შემდეგი კვირა
+    .accesskey = მ
+calendar-nav-button-next-tooltip-month =
+    .title = შემდეგი თვე
+    .accesskey = მ
+calendar-nav-button-next-tooltip-year =
+    .title = შემდეგი წელი
+    .accesskey = მ
+calendar-today-button-tooltip =
+    .title = დღევანდელზე გადასვლა
 calendar-view-toggle-day = დღე
     .title = გადართვა დღეზე
 calendar-view-toggle-week = კვირა
@@ -61,6 +72,16 @@ calendar-view-toggle-month = თვე
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = კალენდრის განლაგების გამართვა
+calendar-find-events-menu-option =
+    .label = ღონისძიებების არეში ძიება
+calendar-hide-weekends-option =
+    .label = მხოლოდ სამუშაო დღეები
+calendar-define-workweek-option =
+    .label = სამუშაო დღეების განსაზღვრა
+calendar-show-tasks-calendar-option =
+    .label = დავალებების ჩვენება კალენდარში
 
 ## Calendar Context Menu
 
