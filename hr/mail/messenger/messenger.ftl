@@ -315,6 +315,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Prikaži sva zaglavlja
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = Prikažite prekidač načina tamne poruke
+    .accesskey = d
 
 ## Action Button Context Menu
 

@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "l">
 <!ENTITY contextMoveMsgMenu.label "Premjesti u">
 <!ENTITY contextMoveMsgMenu.accesskey "m">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Nedavna odredišta">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "r">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Nedavno">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "N">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favoriti">
