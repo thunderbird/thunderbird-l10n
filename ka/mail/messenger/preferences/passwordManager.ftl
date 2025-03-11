@@ -77,3 +77,10 @@ password-os-auth-dialog-message = თქვენი ვინაობის �
 password-os-auth-dialog-message-macosx = შენახულ მონაცემებთან წვდომისთვის.
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] პაროლების პარამეტრების ცვლილება
+       *[other] { -brand-short-name } ცდილობს პაროლების პარამეტრების შეცვლას. ნების დასართავად დაადასტურეთ მოწყობილობის მეშვეობით.
+    }

@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = საქაღალდეების სტრუქტურის შენარჩუნება არქივებში
     .accesskey = K
+recreate-inbox =
+    .label = ახალი საფოსტო ყუთის შექმნა
+    .accesskey = ხ
 archive-example-label = მაგალითი
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = მიღებული
+child-folder-name =
+    .label = შემოსულების ქვესაქაღალდე
+sibling-folder-name =
+    .label = შემოსულების მშობლის ქვეშ

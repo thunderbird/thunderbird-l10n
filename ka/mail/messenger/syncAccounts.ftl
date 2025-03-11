@@ -17,6 +17,7 @@ sync-verification-not-sent-body = ამჯერად დამადასტ
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
+sync-signout-dialog-title = გამოითიშოს ანგარიშიდან?
 sync-signout-dialog-body = დასინქრონებული მონაცემები დარჩება თქვენს ანგარიშზე.
 sync-signout-dialog-button = გამოსვლა
 

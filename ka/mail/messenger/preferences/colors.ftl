@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+colors-dialog-title = ფერები
 colors-dialog-legend = ტექსტი და ფონი
 text-color-label =
     .value = ტექსტი:
@@ -19,6 +20,9 @@ link-color-label =
 visited-link-color-label =
     .value = მონახულებული ბმულები:
     .accesskey = ო
+always-underline-links =
+    .label = ბმულების ხაზგასმა ყოველთვის
+    .accesskey = ზ
 override-color-label =
     .value = გვერდის მიერ მითითებული ფერების ნაცვლად, ზემოთ არჩეულების გამოყენება:
     .accesskey = ნ

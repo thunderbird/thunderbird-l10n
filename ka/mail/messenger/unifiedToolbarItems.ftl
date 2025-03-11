@@ -145,6 +145,21 @@ toolbar-throbber =
 toolbar-create-contact-label = ახალი პირი
 toolbar-create-contact =
     .title = ახალი პირის დამატება
+toolbar-create-address-book-label = ახალი წიგნაკი
+toolbar-create-address-book =
+    .title = ახალი წიგნაკის შექმნა
+toolbar-create-list-label = ახალი სია
+toolbar-create-list =
+    .title = ახალი საფოსტო სიის შექმნა
+toolbar-import-contacts-label = გადმოტანა
+toolbar-import-contacts =
+    .title = ხალხის მონაცემების ფაილიდან შემოტანა
 
 ## New Address Book popup items
 
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = ადგილობრივი წიგნაკის დამატება
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = CardDAV-წიგნაკის დამატება
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = LDAP-წიგნაკის დამატება
