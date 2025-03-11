@@ -427,6 +427,15 @@ conversation-view-checkbox-label =
     .accesskey = B
 conversation-view-checkbox-description = Glodára épülő kísérleti funkció, saját felelősségre használja
 label-experiment = Kísérleti
+dark-message-mode-legend = Üzenetolvasó stílusa
+dark-message-mode-checkbox-label =
+    .label = Sötét üzenetmód engedélyezése
+    .accesskey = S
+dark-message-mode-checkbox-description = Kísérleti funkció, hogy az üzenettörzs sötét témákat kövessen
+dark-message-mode-toggle-label =
+    .label = Sötét üzenetmód kapcsolójának megjelenítése
+    .accesskey = k
+dark-message-mode-toggle-description = Kapcsológomb megjelenítése az üzenet fejlécében a sötét üzenetmód gyors letiltásához
 dark-reader-legend = Olvasó színei
 dark-reader-checkbox-label =
     .label = Alkalmazkodás a sötét témához
@@ -667,7 +676,7 @@ email-e2ee-enable-info = Állítsa be a végpontok közötti titkosításhoz has
 email-e2ee-automatism = Titkosítás automatikus használata
 email-e2ee-automatism-pre =
     A { -brand-short-name } segíthet a titkosítás automatikus be- vagy kikapcsolásával az e-mail írása során.
-    Az automatikus be- és kikapcsolás alapja, hogy a felek érvényes és elfogadott kulcsai vagy tanúsítványai rendelkezésre állnak.
+    Az automatikus be- és kikapcsolás alapja, hogy a levelezőpartnerek érvényes és elfogadott kulcsai vagy tanúsítványai rendelkezésre állnak.
 email-e2ee-auto-on =
     .label = Titkosítás automatikus bekapcsolása, ha lehetséges
 email-e2ee-auto-off =
@@ -935,9 +944,12 @@ default-sort-account =
     .label = Fiók
 default-sort-received =
     .label = Érkezési sorrend
+default-sort-correspondents =
+    .label = Levelezőpartnerek
 default-order-label = Alapértelmezett rendezési sorrend:
 default-sort-ascending =
     .label = Növekvő
+default-sort-ascending-description = Új üzenetek alul
 default-sort-descending =
     .label = Csökkenő
 default-sort-descending-description = Új üzenetek felül

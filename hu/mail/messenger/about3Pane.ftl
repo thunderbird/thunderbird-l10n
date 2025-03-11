@@ -279,14 +279,14 @@ threadpane-column-label-recipient =
 threadpane-cell-recipient-title =
     .aria-label = Címzett
     .title = { $title }
-threadpane-column-header-correspondents = Szerkesztők
-    .title = Rendezés szerkesztők szerint
+threadpane-column-header-correspondents = Levelezőpartnerek
+    .title = Rendezés levelezőpartnerek szerint
 threadpane-column-label-correspondents =
-    .label = Szerkesztők
+    .label = Levelezőpartnerek
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
-    .aria-label = Szerkesztők
+    .aria-label = Levelezőpartnerek
     .title = { $title }
 threadpane-column-header-subject = Tárgy
     .title = Rendezés tárgy szerint
