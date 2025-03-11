@@ -908,7 +908,7 @@ qr-export-more-accounts = Exportovať ďalšie účty
 
 appearance-category-header = Vzhľad
 default-message-list-legend = Zoznam správ
-default-message-list-description = Definuje predvolené možnosti triedenia a zoradenia pre novovytvorené priečinky.
+default-message-list-description = Definuje predvolené možnosti zoskupenia a triedenia pre novovytvorené priečinky.
 default-flag-label =
     .value = Predvolené usporiadanie:
 default-flag-unthreaded =
@@ -961,7 +961,7 @@ default-sort-ascending-description = Nové správy v dolnej časti
 default-sort-descending =
     .label = Zostupne
 default-sort-descending-description = Nové správy v hornej časti
-apply-sort-label = Použite tieto nastavenia na:
+apply-sort-label = Použiť tieto nastavenia na:
 apply-sort-to-all-button =
     .label = Všetky existujúce priečinky
     .accesskey = x
