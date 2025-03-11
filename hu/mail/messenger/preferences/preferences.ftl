@@ -953,3 +953,12 @@ apply-current-view-to-folder =
 apply-current-view-to-folder-children =
     .label = Mappa és gyermekei…
 apply-changes-prompt-title = Alkalmazza a módosításokat?
+apply-changes-prompt-message = Alkalmazza a jelenlegi témacsoport-kezelési és rendezési beállításokat az összes mappára?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Alkalmazza a jelenlegi témacsoport-kezelési és rendezési beállításokat a következőre: „{ $name }”?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Alkalmazza a jelenlegi témacsoport-kezelési és rendezési beállításokat a következőre: „{ $name }”, valamint a gyermekeire?
+apply-current-view-error = A jelenlegi nézetbeállítások alkalmazása sikertelen
+apply-current-view-success = A jelenlegi nézetbeállítások sikeresen alkalmazva

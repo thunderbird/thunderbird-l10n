@@ -290,6 +290,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Tampilkan semua header
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = Tampilkan pengalih mode pesan gelap
+    .accesskey = d
 
 ## Action Button Context Menu
 
@@ -309,6 +312,8 @@ addon-removal-confirmation-button = Hapus
 # Variables:
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Hapus { $name } maupun konfigurasi dan datanya dari { -brand-short-name }?
+caret-browsing-prompt-title = Jelajah Caret
+caret-browsing-prompt-text = Menekan F7 akan mengaktifkan atau menonaktifkan Penjelajahan Caret. Fitur ini menempatkan kursor yang dapat dipindahkan dalam beberapa konten, memungkinkan Anda untuk memilih teks dengan papan tik. Ingin mengaktifkan Penjelajahan Caret?
 caret-browsing-prompt-check-text = Jangan tanya lagi.
 repair-text-encoding-button =
     .label = Perbaiki Pengodean Teks
