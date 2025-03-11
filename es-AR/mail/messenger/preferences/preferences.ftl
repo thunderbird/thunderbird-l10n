@@ -896,9 +896,9 @@ qr-export-more-accounts = Exportar más cuentas
 
 appearance-category-header = Apariencia
 default-message-list-legend = Lista de mensajes
-default-message-list-description = Define las opciones predeterminadas de orden e hilos para las carpetas recién creadas.
+default-message-list-description = Define las opciones predeterminadas de orden y conversaciones para las carpetas recién creadas.
 default-flag-label =
-    .value = Hilos predeterminados:
+    .value = Predeterminado de conversación:
 default-flag-unthreaded =
     .label = No anidado
 default-flag-threaded =
@@ -952,21 +952,21 @@ default-sort-descending-description = Nuevos mensajes en la parte superior
 apply-sort-label = Aplicar esta configuración a:
 apply-sort-to-all-button =
     .label = Todas las carpetas existentes
-    .accesskey = T
+    .accesskey = a
 choose-apply-sort-button =
     .label = Seleccionar…
-    .accesskey = S
+    .accesskey = c
 apply-current-view-to-folder =
     .label = Carpeta…
 apply-current-view-to-folder-children =
     .label = Carpeta y sus hijas…
 apply-changes-prompt-title = ¿Aplicar los cambios?
-apply-changes-prompt-message = ¿Aplicar la configuración actual de hilos y ordenación a todas las carpetas?
+apply-changes-prompt-message = ¿Aplicar la configuración actual de conversaciones y orden a todas las carpetas?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-changes-prompt-folder-message = ¿Aplicar la configuración actual de subprocesos y ordenación a "{ $name }"?
+apply-changes-prompt-folder-message = ¿Aplicar la configuración actual de conversaciones y orden a “{ $name }”?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-changes-prompt-folder-children-message = ¿Aplicar la configuración actual de subprocesos y ordenación a "{ $name }" y sus hijos?
+apply-changes-prompt-folder-children-message = ¿Aplicar la configuración actual de conversaciones y orden a “{ $name }” y sus hijas?
 apply-current-view-error = No se puede aplicar la configuración de vista actual
 apply-current-view-success = La configuración de vista actual se aplicó correctamente
