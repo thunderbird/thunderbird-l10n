@@ -921,7 +921,7 @@ default-sort-status =
 default-sort-size =
     .label = Taille
 default-sort-star =
-    .label = Étoile
+    .label = Suivi
 default-sort-unread =
     .label = Lu
 default-sort-recipient =
@@ -946,7 +946,7 @@ default-sort-ascending =
 default-sort-ascending-description = Nouveaux messages en bas
 default-sort-descending =
     .label = Ordre décroissant
-default-sort-descending-description = Les nouveaux messages en haut
+default-sort-descending-description = Nouveaux messages en haut
 apply-sort-label = Appliquer ces paramètres à :
 apply-sort-to-all-button =
     .label = Tous les dossiers existants
@@ -959,12 +959,12 @@ apply-current-view-to-folder =
 apply-current-view-to-folder-children =
     .label = Dossier et sous-dossiers…
 apply-changes-prompt-title = Appliquer les modifications ?
-apply-changes-prompt-message = Appliquer les paramètres actuels d’enchaînement et de tri à tous les dossiers ?
+apply-changes-prompt-message = Appliquer les paramètres actuels d’affichage et de tri des discussions à tous les dossiers ?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-changes-prompt-folder-message = Appliquer les paramètres actuels d’enchaînement et de tri à « { $name } » ?
+apply-changes-prompt-folder-message = Appliquer les paramètres actuels d’affichage et de tri des discussions à « { $name } » ?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-changes-prompt-folder-children-message = Appliquer les paramètres actuels d’en-tête et de tri à « { $name } » et à ses sous-groupes ?
+apply-changes-prompt-folder-children-message = Appliquer les paramètres actuels d’affichage et de tri des discussions à « { $name } » et à ses sous-dossiers ?
 apply-current-view-error = Impossible d’appliquer les paramètres d’affichage actuels
 apply-current-view-success = Les paramètres d’affichage actuels ont été appliqués
