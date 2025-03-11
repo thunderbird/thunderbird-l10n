@@ -318,6 +318,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Zobraziť všetky hlavičky
     .accesskey = h
+message-header-dark-message-toggle =
+    .label = Zobrazovať prepínač tmavého režimu pre správy
+    .accesskey = t
 
 ## Action Button Context Menu
 
