@@ -310,7 +310,7 @@ message-header-all-headers =
     .label = Afficher tous les en-têtes
     .accesskey = t
 message-header-dark-message-toggle =
-    .label = Afficher le basculement vers le mode sombre
+    .label = Afficher l’option pour activer/désactiver le mode sombre des messages
     .accesskey = A
 
 ## Action Button Context Menu
