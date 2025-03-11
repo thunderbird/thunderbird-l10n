@@ -692,7 +692,7 @@
 <!ENTITY contextMoveMsgMenu.label "Mover a">
 <!ENTITY contextMoveMsgMenu.accesskey "M">
 <!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Destinos recientes">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "r">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Reciente">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favoritos">

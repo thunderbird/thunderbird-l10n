@@ -135,13 +135,13 @@ account-hub-no-address-books = No se encontraron libretas de direcciones
 account-hub-no-calendars = No se encontraron calendarios
 account-hub-email-added-success-links-title = Explore las opciones de seguridad y personalización:
 account-hub-signature-link = Firma del correo electrónico
-account-hub-email-error-text = Escribe una dirección de correo válida
-account-hub-name-error-text = Por favor introduce un nombre
-account-hub-hostname-error-text = Nombre de host vacío o inválido. Solo letras, números y. están permitidos
-    .title = Nombre de host vacío o inválido. Solo letras, números y. están permitidos
+account-hub-email-error-text = Ingrese una dirección de correo válida
+account-hub-name-error-text = Ingrese un nombre
+account-hub-hostname-error-text = Nombre de host vacío o inválido. Solo letras, números, - y . están permitidos
+    .title = Nombre de host vacío o inválido. Solo letras, números, - y.  están permitidos
 account-hub-port-error-text = El puerto debe estar entre 1 y 65535
     .title = El puerto debe estar entre 1 y 65535
 account-hub-username-error-text = Se requiere nombre de usuario
     .title = Se requiere nombre de usuario
 account-hub-oauth-pending = Esperando autorización en la ventana emergente de inicio de sesión…
-account-hub-addon-needed = { -brand-full-name } no es compatible de forma nativa con este servidor. Para acceder al correo electrónico de Exchange, <a data-l10n-name="addon-install"> instala un complemento de terceros como Owl (de pago). </a>
+account-hub-addon-needed = { -brand-full-name } no es compatible de forma nativa con este servidor. Para acceder al correo electrónico de Exchange, <a data-l10n-name="addon-install">instale un complemento de terceros como Owl (pago).</a>
