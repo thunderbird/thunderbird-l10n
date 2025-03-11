@@ -28,6 +28,10 @@ openpgp-invalid-sig = არამართებული ციფრული
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = არასწორი ციფრული ხელმოწერა - თარიღით { $date }
+openpgp-bad-date-sig = ხელმოწერის თარიღი შეუსაბამოა
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = ხელმოწერის თარიღი შეუსაბამოა – მოწერის დრო { $date }
 openpgp-good-sig = მართებული ციფრული ხელმოწერა
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
