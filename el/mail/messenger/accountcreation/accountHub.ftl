@@ -112,6 +112,7 @@ account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Χρησιμοποιήστε τις διαδικτυακές υπηρεσίες του Microsoft Exchange για τον συγχρονισμό των φακέλων και των email σας
 account-hub-result-ews-text = Διακομιστής
 account-hub-result-recommended-label = Προτείνεται
+account-hub-result-addon-label = Απαιτεί πρόσθετο
 account-hub-edit-configuration = Επεξεργασία διαμόρφωσης
 account-hub-config-success = Βρέθηκαν ρυθμίσεις στη Mozilla ISPDB
 account-hub-password-info = Τα διαπιστευτήριά σας θα αποθηκευτούν μόνο τοπικά, στον υπολογιστή σας
