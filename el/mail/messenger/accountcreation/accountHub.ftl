@@ -137,3 +137,11 @@ account-hub-email-added-success-links-title = Εξερευνήστε επιλο�
 account-hub-signature-link = Υπογραφή email
 account-hub-email-error-text = Εισαγάγετε μια έγκυρη διεύθυνση email
 account-hub-name-error-text = Εισαγάγετε ένα όνομα
+account-hub-hostname-error-text = Κενό ή μη έγκυρο όνομα κεντρικού υπολογιστή. Επιτρέπονται μόνο γράμματα, αριθμοί, - και .
+    .title = Κενό ή μη έγκυρο όνομα κεντρικού υπολογιστή. Επιτρέπονται μόνο γράμματα, αριθμοί, - και .
+account-hub-port-error-text = Η τιμή της θύρας πρέπει να είναι μεταξύ 1 και 65535
+    .title = Η τιμή της θύρας πρέπει να είναι μεταξύ 1 και 65535
+account-hub-username-error-text = Απαιτείται όνομα χρήστη
+    .title = Απαιτείται όνομα χρήστη
+account-hub-oauth-pending = Αναμονή για πιστοποίηση στο αναδυόμενο παράθυρο σύνδεσης…
+account-hub-addon-needed = Το { -brand-full-name } δεν υποστηρίζει εγγενώς αυτόν τον διακομιστή. Για να αποκτήσετε πρόσβαση στην αλληλογραφία Exchange, <a data-l10n-name="addon-install">εγκαταστήστε ένα πρόσθετο τρίτου κατασκευαστή, όπως το Owl (επί πληρωμή).</a>

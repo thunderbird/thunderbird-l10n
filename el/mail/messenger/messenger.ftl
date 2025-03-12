@@ -309,6 +309,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Εμφάνιση όλων των κεφαλίδων
     .accesskey = Ε
+message-header-dark-message-toggle =
+    .label = Εμφάνιση διακόπτη για τη σκουρόχρωμη λειτουργία μηνυμάτων
+    .accesskey = μ
 
 ## Action Button Context Menu
 
