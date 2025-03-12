@@ -427,6 +427,7 @@ conversation-view-checkbox-label =
     .accesskey = c
 conversation-view-checkbox-description = Function experimental basate sur Gloda, le uso es a risco del usator
 label-experiment = Experimental
+dark-message-mode-legend = Stilo pro le lectura de messages
 dark-message-mode-checkbox-description = Functionalitate experimental proque le pannello de messages seque le themas obscur
 dark-reader-legend = Colores del lector
 dark-reader-checkbox-label =

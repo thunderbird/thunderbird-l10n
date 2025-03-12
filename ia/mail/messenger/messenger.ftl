@@ -309,6 +309,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Monstrar tote le titulos
     .accesskey = t
+message-header-dark-message-toggle =
+    .label = Monstrar le commutator de modo obscur del messages
+    .accesskey = o
 
 ## Action Button Context Menu
 
