@@ -887,6 +887,7 @@ qr-export-more-accounts = Εξαγωγή περισσότερων λογαρια
 
 appearance-category-header = Εμφάνιση
 default-message-list-legend = Λίστα μηνυμάτων
+default-message-list-description = Καθορίστε τις προεπιλεγμένες επιλογές ταξινόμησης και νήματος για τους νέους φακέλους.
 default-flag-label =
     .value = Προεπιλεγμένη προβολή νήματος:
 default-flag-unthreaded =
@@ -951,5 +952,12 @@ apply-current-view-to-folder =
 apply-current-view-to-folder-children =
     .label = Φάκελο και υποφακέλους…
 apply-changes-prompt-title = Εφαρμογή αλλαγών;
+apply-changes-prompt-message = Εφαρμογή των τρεχουσών ρυθμίσεων νήματος και ταξινόμησης σε όλους τους φακέλους;
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Εφαρμογή των τρεχουσών ρυθμίσεων νήματος και ταξινόμησης στο «{ $name }»;
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Εφαρμογή των τρεχουσών ρυθμίσεων νήματος και ταξινόμησης στο «{ $name }» και τους υποφακέλους του;
 apply-current-view-error = Δεν είναι δυνατή η εφαρμογή των τρεχουσών ρυθμίσεων προβολής
 apply-current-view-success = Επιτυχής εφαρμογή των τρεχουσών ρυθμίσεων προβολής
