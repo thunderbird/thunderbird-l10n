@@ -309,6 +309,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Show all headers
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = Show the dark message mode toggle
+    .accesskey = d
 
 ## Action Button Context Menu
 
