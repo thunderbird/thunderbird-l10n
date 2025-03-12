@@ -110,6 +110,7 @@ account-hub-result-imap-description = Mantener tu dossiers e messages synchronis
 account-hub-result-pop-description = Mantene tu plicas e emails sur tu computator
 account-hub-result-ews-shortname = Excambiar
 account-hub-result-ews-description = Usae Microsoft Exchange Web Services pro synchronisar tu plicas e emails
+account-hub-result-exchange-description = Synchronisar le plicas e le messages con Exchange o Office 365
 account-hub-result-ews-text = Servitor
 account-hub-result-recommended-label = Recommendate
 account-hub-result-addon-label = Besonia de additivo
