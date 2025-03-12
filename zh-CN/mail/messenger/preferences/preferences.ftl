@@ -427,6 +427,15 @@ conversation-view-checkbox-label =
     .accesskey = c
 conversation-view-checkbox-description = 此实验功能基于 Gloda 运作，使用时由您自担风险
 label-experiment = 实验功能
+dark-message-mode-legend = 邮件阅读器样式
+dark-message-mode-checkbox-label =
+    .label = 启用邮件深色模式
+    .accesskey = d
+dark-message-mode-checkbox-description = 实验功能，使邮件正文配色跟随深邃主题
+dark-message-mode-toggle-label =
+    .label = 显示邮件深色模式切换按钮
+    .accesskey = t
+dark-message-mode-toggle-description = 在邮件标题栏中显示切换按钮，方便关闭邮件深色模式
 dark-reader-legend = 阅读器颜色
 dark-reader-checkbox-label =
     .label = 适应深邃主题
@@ -875,6 +884,9 @@ qr-export-more-accounts = 导出更多账户
 
 ## Appearance Tab
 
+appearance-category-header = 外观
+default-message-list-legend = 邮件列表
+default-message-list-description = 为后续创建的文件夹指定默认排序及话题归集选项。
 default-flag-label =
     .value = 默认话题归集方式：
 default-flag-unthreaded =
