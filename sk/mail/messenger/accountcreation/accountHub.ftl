@@ -95,6 +95,7 @@ account-hub-adding-account-subheader = Opätovne sa testujú nastavenia účtu
 account-hub-lookup-email-configuration-title = Vyhľadáva sa konfigurácia
 account-hub-lookup-email-configuration-subheader = Skúšajú sa bežné názvy serverov…
 account-hub-email-account-added-title = Účet bol úspešne pridaný
+account-hub-find-account-settings-failed = { -brand-short-name(case: "dat") } sa nepodarilo nájsť nastavenia pre váš e‑mailový účet.
 account-hub-find-settings-failed = { -brand-full-name(case: "dat") } nemohol nájsť nastavenia pre váš e‑mailový účet
 account-hub-notification-show-more = Zobraziť viac
 account-hub-notification-show-less = Zobraziť menej
@@ -118,6 +119,9 @@ account-hub-edit-configuration = Upraviť konfiguráciu
 account-hub-config-success = Konfigurácia bola nájdená v databáze Mozilla ISPDB
 account-hub-password-info = Vaše prihlasovacie údaje budú uložené iba lokálne vo vašom počítači
 account-hub-creating-account = Vytvára sa účet…
+account-hub-sync-accounts-found = { -brand-short-name } našiel nejaké pripojené služby
+account-hub-sync-accounts-not-found = { -brand-short-name } nedokázal nájsť pripojené služby
+account-hub-sync-accounts-failure = { -brand-short-name(case: "dat") } sa nepodarilo pripojiť vybraté služby
 account-hub-sync-success = Thunderbird našiel nejaké pripojené služby
 account-hub-sync-failure = Thunderbirdu sa nepodarilo nájsť pripojené služby
 account-hub-unable-to-sync-accounts = Thunderbirdu sa nepodarilo pripojiť vybraté služby
@@ -146,4 +150,6 @@ account-hub-port-error-text = Port musí byť medzi 1 a 65535
 account-hub-username-error-text = Meno používateľa je povinná položka
     .title = Meno používateľa je povinná položka
 account-hub-oauth-pending = Čaká sa na autorizáciu v prihlasovacom vyskakovacom okne…
+account-hub-addon-install-needed = { -brand-short-name } tento server natívne nepodporuje. Ak chcete získať prístup k e‑mailu typu Exchange, <a data-l10n-name="addon-install">nainštalujte si doplnok tretej strany, ako je napríklad Owl (platený)</a>.
+account-hub-addon-error = Inštalácia doplnku zlyhala. Skúste to znova alebo požiadajte o pomoc autora doplnku.
 account-hub-addon-needed = { -brand-full-name } tento server natívne nepodporuje. Ak chcete získať prístup k e‑mailu typu Exchange, <a data-l10n-name="addon-install">nainštalujte si doplnok tretej strany, ako je napríklad Owl (platený)</a>.
