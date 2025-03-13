@@ -144,3 +144,4 @@ account-hub-port-error-text = Le porta debe esser inter 1 e 65535
 account-hub-username-error-text = Es requirite un nomine de usator
     .title = Es requirite un nomine de usator
 account-hub-oauth-pending = Attendente autorisation in le fenestra resaltante de connexion…
+account-hub-addon-needed = { -brand-full-name } non supporta nativemente iste servitor. A acceder Exchange email, <a data-l10n-name="addon-install"> installar un additivo de tertie-parte como Owl (pagate).</a>

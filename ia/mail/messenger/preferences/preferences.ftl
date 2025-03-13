@@ -900,12 +900,16 @@ qr-export-more-accounts = Exportar plus de contos
 
 appearance-category-header = Apparentia
 default-message-list-legend = Lista de messages
+default-message-list-description = Defini le optiones predefinite de arrangiamento e discussion  pro le nove plicas.
+default-flag-label =
+    .value = Discussion predefinite:
 default-flag-unthreaded =
     .label = Non in argumento
 default-flag-threaded =
     .label = In argumento
 default-flag-grouped =
     .label = Gruppate per ordine
+default-sort-label = Normalmente ordinar per:
 default-sort-date =
     .label = Data
 default-sort-subject =
@@ -942,12 +946,14 @@ default-sort-received =
     .label = Ordine recipite
 default-sort-correspondents =
     .label = Correspondentes
+default-order-label = Arrangiamento predefinite:
 default-sort-ascending =
     .label = Ascendente
 default-sort-ascending-description = Nove messages al fundo
 default-sort-descending =
     .label = Descendente
 default-sort-descending-description = Nove messages al culmine
+apply-sort-label = Applicar iste parametros a:
 apply-sort-to-all-button =
     .label = Tote le plicas existente
     .accesskey = T
@@ -959,3 +965,12 @@ apply-current-view-to-folder =
 apply-current-view-to-folder-children =
     .label = Plica e sub-plicas…
 apply-changes-prompt-title = Applicar modificationes?
+apply-changes-prompt-message = Applicar le actual parametros de discussion e arrangiamento a tote le plicas?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Applicar le actual parametros de discussion e arrangiamento a “{ $name }”?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Applicar le actual parametros de discussion e arrangiamento a “{ $name }” e su sub-plicas?
+apply-current-view-error = Impossibile applicar le actual parametros de visualisation
+apply-current-view-success = Actual parametros de visualisation applicate con successo
