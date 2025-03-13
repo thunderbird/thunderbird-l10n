@@ -270,6 +270,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Stjärnmärkt
     .aria-label = Stjärnmärkt
+message-header-delete =
+    .label = Ta bort
+    .tooltiptext = Ta bort detta meddelande
+message-header-undelete =
+    .label = Ångra borttagning
+    .tooltiptext = Ångra borttagning av detta meddelande
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -468,3 +474,6 @@ quota-panel-percent-used = { $percent }% full{ $usage }{ $usage }
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Markera som läst
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Gör ingenting

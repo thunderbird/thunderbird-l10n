@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Smazat
     .tooltiptext = Smazat
+multi-message-undelete-button =
+    .label = Zrušit smazání
+    .tooltiptext = Zruší smazání

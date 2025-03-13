@@ -279,6 +279,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = S hvězdičkou
     .aria-label = Označeno hvězdičkou
+message-header-delete =
+    .label = Smazat
+    .tooltiptext = Smaže tuto zprávu
+message-header-undelete =
+    .label = Zrušit smazání
+    .tooltiptext = Zruší smazání této zprávy
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -481,3 +487,6 @@ quota-panel-percent-used = Zaplněno z { $percent } %
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Označit jako přečtené
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Nedělat nic

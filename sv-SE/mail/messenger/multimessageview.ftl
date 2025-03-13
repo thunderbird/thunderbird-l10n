@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Ta bort
     .tooltiptext = Ta bort
+multi-message-undelete-button =
+    .label = Ångra borttagning
+    .tooltiptext = Ångra borttagning
