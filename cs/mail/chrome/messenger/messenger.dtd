@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "k">
 <!ENTITY contextMoveMsgMenu.label "Přesunout do">
 <!ENTITY contextMoveMsgMenu.accesskey "s">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Nedávná umístění">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "N">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Poslední">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "P">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Oblíbené">

@@ -156,8 +156,8 @@ menu-edit-delete-messages =
 menu-edit-undelete-messages =
     .label =
         { $count ->
-            [one] 恢复已删除的消息
-           *[other] 恢复所选的消息
+            [one] 恢复邮件
+           *[other] 恢复所选邮件
         }
     .accesskey = d
 menu-edit-properties =
