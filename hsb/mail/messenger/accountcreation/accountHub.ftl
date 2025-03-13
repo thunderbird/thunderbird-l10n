@@ -95,6 +95,7 @@ account-hub-adding-account-subheader = Nastajenja za kontowu konfiguraciju znowa
 account-hub-lookup-email-configuration-title = Konfiguracija so přepytuje
 account-hub-lookup-email-configuration-subheader = Zwučene serwerowe mjena so pospytuja…
 account-hub-email-account-added-title = Konto je so wuspěšnje přidało
+account-hub-find-account-settings-failed = { -brand-short-name } njemóžeše nastajenja za waše e-mejlowe konto namakać.
 account-hub-find-settings-failed = { -brand-full-name } njemóžeše nastajenja za waše e-mejlowe konto namakać.
 account-hub-notification-show-more = Wjace pokazać
 account-hub-notification-show-less = Mjenje pokazać
