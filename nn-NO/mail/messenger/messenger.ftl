@@ -267,6 +267,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Stjernemarkert
     .aria-label = Stjernemarkert
+message-header-delete =
+    .label = Slett
+    .tooltiptext = Slett denne meldinga
+message-header-undelete =
+    .label = Angre sletting
+    .tooltiptext = Angre sletting av denne meldinga
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -407,3 +413,6 @@ quick-filter-bar-show =
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Marker som lesen
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Ikkje gjer noko
