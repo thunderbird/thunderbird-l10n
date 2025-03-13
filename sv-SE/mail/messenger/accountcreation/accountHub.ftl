@@ -95,6 +95,7 @@ account-hub-adding-account-subheader = Testa kontokonfigurationsinställningarna
 account-hub-lookup-email-configuration-title = Söker upp konfiguration
 account-hub-lookup-email-configuration-subheader = Försöker med vanliga servernamn…
 account-hub-email-account-added-title = Kontot har lagts till
+account-hub-find-account-settings-failed = { -brand-short-name } kunde inte hitta inställningarna för ditt e-postkonto.
 account-hub-find-settings-failed = { -brand-full-name } kunde inte hitta inställningarna för ditt e-postkonto.
 account-hub-notification-show-more = Visa mer
 account-hub-notification-show-less = Visa mindre
@@ -118,6 +119,9 @@ account-hub-edit-configuration = Redigera konfiguration
 account-hub-config-success = Konfigurationen hittades i Mozilla ISPDB
 account-hub-password-info = Dina autentiseringsuppgifter kommer endast att lagras lokalt på din dator
 account-hub-creating-account = Skapar konto…
+account-hub-sync-accounts-found = { -brand-short-name } hittade några anslutna tjänster
+account-hub-sync-accounts-not-found = { -brand-short-name } kunde inte hitta anslutna tjänster
+account-hub-sync-accounts-failure = { -brand-short-name } kunde inte ansluta de valda tjänsterna
 account-hub-sync-success = Thunderbird hittade några anslutna tjänster
 account-hub-sync-failure = Thunderbird kunde inte hitta anslutna tjänster
 account-hub-unable-to-sync-accounts = Thunderbird kunde inte ansluta de utvalda tjänsterna
@@ -144,4 +148,5 @@ account-hub-port-error-text = Portnummer måste vara mellan 1 och 65535
 account-hub-username-error-text = Användarnamn krävs
     .title = Användarnamn krävs
 account-hub-oauth-pending = Väntar på auktorisering i inloggningspopup…
+account-hub-addon-install-needed = { -brand-short-name } stöder inte den här servern. För att komma åt Exchange e-post, <a data-l10n-name="addon-install"> installera ett tredjepartstillägg som Owl (betald).</a>
 account-hub-addon-needed = { -brand-full-name } stöder inte den här servern. För att komma åt Exchange e-post, <a data-l10n-name="addon-install"> installera ett tredjepartstillägg som Owl (betald).</a>
