@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Dileu
     .tooltiptext = Dileu
+multi-message-undelete-button =
+    .label = Dad-ddileu
+    .tooltiptext = Dad-ddileu

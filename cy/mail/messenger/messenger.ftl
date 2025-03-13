@@ -294,6 +294,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Serennog
     .aria-label = Serennog
+message-header-delete =
+    .label = Dileu
+    .tooltiptext = Dileu'r neges
+message-header-undelete =
+    .label = Dad-ddileu
+    .tooltiptext = Dad-ddileu'r neges hon
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -500,3 +506,6 @@ quota-panel-percent-used = { $percent }% yn llawn
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Marcio fel wedi ei Darllen
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Gwneud Dim

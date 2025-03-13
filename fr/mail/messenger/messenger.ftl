@@ -270,6 +270,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Suivi
     .aria-label = Suivi
+message-header-delete =
+    .label = Supprimer
+    .tooltiptext = Supprimer ce message
+message-header-undelete =
+    .label = Restaurer
+    .tooltiptext = Restaurer ce message
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -472,3 +478,6 @@ quota-panel-percent-used =
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Marquer comme lu
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Ne rien faire

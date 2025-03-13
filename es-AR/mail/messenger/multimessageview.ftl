@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Borrar
     .tooltiptext = Borrar
+multi-message-undelete-button =
+    .label = Recuperar
+    .tooltiptext = Recuperar

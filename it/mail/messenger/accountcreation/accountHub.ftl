@@ -95,6 +95,7 @@ account-hub-adding-account-subheader = Nuovo test delle impostazioni di configur
 account-hub-lookup-email-configuration-title = Ricerca configurazione
 account-hub-lookup-email-configuration-subheader = Tentativo con nomi di server comuni…
 account-hub-email-account-added-title = Account aggiunto correttamente
+account-hub-find-account-settings-failed = { -brand-short-name } non è riuscito a trovare le impostazioni per il tuo account di posta elettronica.
 account-hub-find-settings-failed = { -brand-full-name } non è riuscito a trovare le impostazioni per il tuo account email.
 account-hub-notification-show-more = Mostra dettagli
 account-hub-notification-show-less = Nascondi dettagli
@@ -118,6 +119,9 @@ account-hub-edit-configuration = Modifica configurazione
 account-hub-config-success = Configurazione trovata in Mozilla ISPDB
 account-hub-password-info = Le tue credenziali verranno memorizzate solo sul tuo computer
 account-hub-creating-account = Creazione account…
+account-hub-sync-accounts-found = { -brand-short-name } ha rilevato alcuni servizi connessi
+account-hub-sync-accounts-not-found = { -brand-short-name } non è stato in grado di trovare servizi connessi
+account-hub-sync-accounts-failure = { -brand-short-name } non è stato in grado di connettersi ai servizi selezionati
 account-hub-sync-success = Thunderbird ha rilevato alcuni servizi connessi
 account-hub-sync-failure = Thunderbird non è stato in grado di trovare servizi connessi
 account-hub-unable-to-sync-accounts = Thunderbird non è stato in grado di connettere i servizi selezionati
@@ -144,4 +148,7 @@ account-hub-port-error-text = La porta deve essere compresa tra 1 e 65535
 account-hub-username-error-text = Il nome utente è obbligatorio
     .title = Il nome utente è obbligatorio
 account-hub-oauth-pending = In attesa di autorizzazione nella finestra pop-up di accesso…
+account-hub-addon-install-needed = { -brand-short-name } non supporta questo server in modo nativo. Per accedere alla posta elettronica di Exchange, <a data-l10n-name="addon-install"> installa un componente aggiuntivo di terze parti come Owl (a pagamento).</a>
+account-hub-addon-error = Installazione del componente aggiuntivo non riuscita. Riprova o contatta l’autore del componente aggiuntivo per ricevere assistenza.
+account-hub-security-warning = <span data-l10n-name="security-warning">Attenzione: rilevato server di posta non sicuro.</span> Questo server non è crittato, pertanto la password e i dati vengono esposti. Contattare l’amministratore per proteggere la connessione o procedere a proprio rischio. <a data-l10n-name="faq-link">Per ulteriori informazioni, consulta le FAQ.</a>
 account-hub-addon-needed = { -brand-full-name } non supporta questo server in modo nativo. Per accedere alla posta elettronica di Exchange, <a data-l10n-name="addon-install">installa un componente aggiuntivo di terze parti come Owl (a pagamento)</a>.

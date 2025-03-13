@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Modifier les propriétés et les étiq
 webext-perms-description-messagesTags = Créer, modifier et supprimer des étiquettes de messages
 webext-perms-description-messagesTagsList = Lister les étiquettes de messages
 webext-perms-description-sensitiveDataUpload = Transférer des données utilisateur sensibles (si l’accès a été accordé) à un serveur distant pour un traitement supplémentaire
+webext-perms-description-messengerSettings = Lire les paramètres de { -brand-short-name }

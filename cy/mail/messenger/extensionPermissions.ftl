@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Newidiwch briodweddau a thagiau eich n
 webext-perms-description-messagesTags = Creu, addasu a dileu tagiau neges
 webext-perms-description-messagesTagsList = Rhestr y tagiau neges
 webext-perms-description-sensitiveDataUpload = Trosglwyddo data defnyddwyr sensitif (os yw mynediad wedi'i ganiatáu) i weinydd pell i'w brosesu ymhellach
+webext-perms-description-messengerSettings = Darllen gosodiadau { -brand-short-name }

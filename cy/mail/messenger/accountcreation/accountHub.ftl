@@ -95,6 +95,7 @@ account-hub-adding-account-subheader = Ail-brofi gosodiadau ffurfweddiad cyfrif
 account-hub-lookup-email-configuration-title = Archwilio'r ffurfweddiad
 account-hub-lookup-email-configuration-subheader = Wrthi'n ceisio gydag enwau gweinydd cyffredin…
 account-hub-email-account-added-title = Wedi ychwanegu'r cyfrif yn llwyddiannus
+account-hub-find-account-settings-failed = Methodd { -brand-short-name } â dod o hyd i'r gosodiadau ar gyfer eich cyfrif e-bost.
 account-hub-find-settings-failed = Methodd { -brand-full-name } â dod o hyd i'r gosodiadau ar gyfer eich cyfrif e-bost.
 account-hub-notification-show-more = Dangos rhagor
 account-hub-notification-show-less = Dangos llai
@@ -118,6 +119,9 @@ account-hub-edit-configuration = Golygu ffurfweddiad
 account-hub-config-success = Canfuwyd y ffurfweddiad yn Mozilla ISPDB
 account-hub-password-info = Bydd eich manylion yn cael eu cadw'n lleol dim ond ar eich cyfrifiadur chi
 account-hub-creating-account = Wrthi'n creu cyfrif…
+account-hub-sync-accounts-found = Daeth { -brand-short-name } o hyd i rai gwasanaethau cysylltiedig
+account-hub-sync-accounts-not-found = Ni fu modd i { -brand-short-name } ddod o hyd i wasanaethau cysylltiedig
+account-hub-sync-accounts-failure = Nid oedd modd i { -brand-short-name } gysylltu'r gwasanaethau a ddewiswyd
 account-hub-sync-success = Mae Thunderbird wedi canfod rhai gwasanaethau cysylltiedig
 account-hub-sync-failure = Nid oedd Thunderbird yn gallu dod o hyd i wasanaethau cysylltu
 account-hub-unable-to-sync-accounts = Nid oedd Thunderbird yn gallu cysylltu'r gwasanaethau a ddewiswyd
@@ -148,4 +152,7 @@ account-hub-port-error-text = Rhaid i'r porthladd fod rhwng 1 a 65535
 account-hub-username-error-text = Mae angen enw defnyddiwr
     .title = Mae angen enw defnyddiwr
 account-hub-oauth-pending = Aros am awdurdodiad mewn naidlen mewngofnodi…
+account-hub-addon-install-needed = Nid yw { -brand-short-name } yn cefnogi'r gweinydd hwn yn frodorol. I gael mynediad at e-bost Exchange, <a data-l10n-name="addon-install"> gosodwch ychwanegyn trydydd parti fel Owl (wedi'i dalu).</a>
+account-hub-addon-error = Methodd gosod ychwanegyn. Ceisiwch eto neu cysylltwch ag awdur yr ychwanegyn am gymorth.
+account-hub-security-warning = <span data-l10n-name="security-warning">Rhybudd: Wedi canfod gweinydd post anniogel.</span> Nid oes gan y gweinydd hwn ddiffyg amgryptio, gan ddatgelu eich cyfrinair a data. Cysylltwch â'ch gweinyddwr i sicrhau'r cysylltiad neu ewch ymlaen ar eich menter eich hun. <a data-l10n-name="faq-link">Gweler Cwestiynau Cyffredin am ragor.</a>
 account-hub-addon-needed = Nid yw { -brand-full-name } yn cefnogi'r gweinydd hwn yn frodorol. I gael mynediad at e-bost Exchange, <a data-l10n-name="addon-install"> gosodwch ychwanegyn trydydd parti fel Owl (wedi'i dalu).</a>

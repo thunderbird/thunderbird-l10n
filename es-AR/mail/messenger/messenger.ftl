@@ -270,6 +270,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Con estrella
     .aria-label = Con estrella
+message-header-delete =
+    .label = Borrar
+    .tooltiptext = Borrar este mensaje
+message-header-undelete =
+    .label = Recuperar
+    .tooltiptext = Recuperar este mensaje
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -468,3 +474,6 @@ quota-panel-percent-used = { $percent }% lleno
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Marcar como leído
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = No hagás nada

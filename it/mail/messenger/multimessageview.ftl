@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Elimina
     .tooltiptext = Elimina
+multi-message-undelete-button =
+    .label = Ripristina
+    .tooltiptext = Ripristina
