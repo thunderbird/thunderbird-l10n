@@ -691,6 +691,7 @@
 <!ENTITY contextReplyList.accesskey "z">
 <!ENTITY contextMoveMsgMenu.label "Eraman hona">
 <!ENTITY contextMoveMsgMenu.accesskey "m">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Oraintsukoa">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "O">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Gogokoak">
