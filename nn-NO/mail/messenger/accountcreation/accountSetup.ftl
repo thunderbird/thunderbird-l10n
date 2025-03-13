@@ -119,6 +119,7 @@ account-setup-result-outgoing-existing = Bruk eksisterande utgåande SMTP-tenar
 
 ## Error messages
 
+account-setup-exchange-config-unverifiable = Klarte ikkje å stadfeste konfigurasjonen. Dersom brukarnamnet og passordet ditt er rett, er det sannsynleg at serveradministratoren har slått av den valde konfigurasjonen for kontoen din. Prøv å velje ein annan protokoll.
 
 ## Manual configuration area
 

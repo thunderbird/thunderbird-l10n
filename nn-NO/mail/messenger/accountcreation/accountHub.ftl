@@ -10,6 +10,7 @@
 ## Header
 
 account-hub-brand = { -brand-full-name }
+account-hub-welcome-line = Velkomen til <span data-l10n-name="brand-name">{ -brand-full-name }</span>
 account-hub-title = Konto-hub
 
 ## Footer
@@ -93,6 +94,9 @@ account-hub-lookup-email-configuration-title = Slår opp konfigurasjonen
 account-hub-email-account-added-title = Konto er lagt til
 account-hub-notification-show-more = Vis meir
 account-hub-notification-show-less = Vis mindre
+account-hub-email-setup-header = Legg til e-postadressa di
+account-hub-email-setup-incoming = Innkomande server-innstillingar
+account-hub-email-setup-outgoing = Utgåande server-innstillingar
 account-hub-test-configuration = Test
 account-hub-add-new-email = Legg til ein annan e-post
 account-hub-result-imap-description = Hald mapper og e-postar synkroniserte på serveren din
@@ -103,6 +107,7 @@ account-hub-result-recommended-label = Tilrådd
 account-hub-edit-configuration = Rediger konfigurasjon
 account-hub-select-all = Merk alle
 account-hub-deselect-all = Merk ingen
+account-hub-no-address-books = Fann ingen adressebøker
 account-hub-signature-link = E-postsignatur
 account-hub-name-error-text = Skriv inn eit namn
 account-hub-username-error-text = Brukarnamn er påkravd

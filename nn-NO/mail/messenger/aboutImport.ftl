@@ -128,6 +128,7 @@ progress-pane-exporting2 = Eksporterer… { $progressPercent }
 progress-pane-finished-desc2 = Fullført
 error-pane-title = Feil
 error-message-zip-file-too-big2 = Den valde ZIP-fila er større enn 2GB. Pakk ut fila først, importer så frå den utpakka mappa i staden.
+error-message-failed = Uventa mislykka import, meir informasjon kan vere tilgjengeleg i feilkonsollen.
 error-failed-to-parse-ics-file = Ingen importerbare element funne i fila.
 error-message-no-profile = Fann ingen profil.
 
