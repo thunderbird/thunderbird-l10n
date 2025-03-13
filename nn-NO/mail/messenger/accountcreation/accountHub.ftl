@@ -104,3 +104,6 @@ account-hub-edit-configuration = Rediger konfigurasjon
 account-hub-select-all = Merk alle
 account-hub-deselect-all = Merk ingen
 account-hub-signature-link = E-postsignatur
+account-hub-name-error-text = Skriv inn eit namn
+account-hub-username-error-text = Brukarnamn er påkravd
+    .title = Brukarnamn er påkravd
