@@ -103,3 +103,7 @@ message-ids-field-show-all = Visa alla
 
 dark-message-mode-disable-toggle =
     .title = Inaktivera mörkt meddelandeläge
+dark-message-mode-toggle-enabled =
+    .title = Inaktivera mörkt meddelandeläge
+dark-message-mode-toggle-disabled =
+    .title = Aktivera mörkt meddelandeläge

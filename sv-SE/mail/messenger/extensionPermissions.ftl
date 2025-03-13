@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Ändra egenskaper och taggar för dina
 webext-perms-description-messagesTags = Skapa, ändra och ta bort meddelandetaggar
 webext-perms-description-messagesTagsList = Lista meddelandetaggar
 webext-perms-description-sensitiveDataUpload = Överför känslig användardata (om åtkomst har beviljats) till en fjärrserver för vidare bearbetning
+webext-perms-description-messengerSettings = Läs inställningarna för { -brand-short-name }
