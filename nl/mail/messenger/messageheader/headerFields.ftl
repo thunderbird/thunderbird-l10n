@@ -103,3 +103,7 @@ message-ids-field-show-all = Alles tonen
 
 dark-message-mode-disable-toggle =
     .title = Donkere berichtmodus uitschakelen
+dark-message-mode-toggle-enabled =
+    .title = Donkere berichtmodus uitschakelen
+dark-message-mode-toggle-disabled =
+    .title = Donkere berichtmodus inschakelen

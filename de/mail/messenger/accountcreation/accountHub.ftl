@@ -95,6 +95,7 @@ account-hub-adding-account-subheader = Konto-Konfigurationseinstellungen werden 
 account-hub-lookup-email-configuration-title = Einstellungen werden gesucht…
 account-hub-lookup-email-configuration-subheader = Gängige Servernamen werden versucht…
 account-hub-email-account-added-title = Konto erfolgreich hinzugefügt
+account-hub-find-account-settings-failed = { -brand-short-name } konnte keine Einstellungen für Ihr E-Mail-Konto finden.
 account-hub-find-settings-failed = { -brand-full-name } konnte keine Einstellungen für Ihr E-Mail-Konto finden.
 account-hub-notification-show-more = Mehr anzeigen
 account-hub-notification-show-less = Weniger anzeigen
@@ -118,6 +119,9 @@ account-hub-edit-configuration = Konfiguration bearbeiten
 account-hub-config-success = Einstellungen wurden in der Mozilla-ISPD gefunden.
 account-hub-password-info = Ihre Zugangsdaten werden nur lokal auf Ihrem Computer gespeichert.
 account-hub-creating-account = Konto wird erstellt…
+account-hub-sync-accounts-found = { -brand-short-name } hat verbundene Dienste gefunden
+account-hub-sync-accounts-not-found = { -brand-short-name } konnte keine verbundenen Dienste finden.
+account-hub-sync-accounts-failure = { -brand-short-name } konnte keine Verbindung zu den ausgewählten Diensten herstellen
 account-hub-sync-success = Thunderbird hat verbundene Dienste gefunden
 account-hub-sync-failure = Thunderbird konnte keine verbundenen Dienste finden.
 account-hub-unable-to-sync-accounts = Thunderbird konnte keine Verbindung zu den ausgewählten Diensten herstellen.
@@ -144,4 +148,7 @@ account-hub-port-error-text = Port muss zwischen 1 und 65535 liegen
 account-hub-username-error-text = Benutzername ist erforderlich
     .title = Benutzername ist erforderlich
 account-hub-oauth-pending = Warten auf Autorisierung im Anmelde-Popup…
+account-hub-addon-install-needed = { -brand-short-name } unterstützt diesen Server nicht nativ. Um auf Exchange-E-Mail-Adressen zuzugreifen, <a data-l10n-name="addon-install">installieren Sie das Add-on eines Drittanbieters wie Owl (kostenpflichtig).</a>
+account-hub-addon-error = Add-on-Installation fehlgeschlagen. Bitte versuchen Sie es erneut oder wenden Sie sich an den Add-on-Autor, um Unterstützung zu erhalten.
+account-hub-security-warning = <span data-l10n-name="security-warning">Warnung: Unsicherer Mail-Server erkannt.</span> Dieser Server ist nicht verschlüsselt, sodass Ihr Passwort und Ihre Daten offengelegt werden. Kontaktieren Sie Ihren Administrator, um die Verbindung zu sichern oder fahren Sie auf eigene Gefahr fort. <a data-l10n-name="faq-link">Weitere Informationen finden Sie in den FAQ.</a>
 account-hub-addon-needed = { -brand-full-name } unterstützt diesen Server nicht nativ. Um auf Exchange-E-Mail-Adressen zuzugreifen, <a data-l10n-name="addon-install">installieren Sie das Add-on eines Drittanbieters wie Owl (kostenpflichtig).</a>

@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Eigenschaften und Schlagwörter Ihrer 
 webext-perms-description-messagesTags = Erstellen, Bearbeiten und Löschen von Schlagwörtern für Nachrichten
 webext-perms-description-messagesTagsList = Schlagwörter der E-Mails auflisten
 webext-perms-description-sensitiveDataUpload = Sensible Nutzerdaten (falls Zugriff gewährt wurde) an einen externen Server zur weiteren Verarbeitung übertragen
+webext-perms-description-messengerSettings = Einstellungen von { -brand-short-name } lesen

@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Verwijderen
     .tooltiptext = Verwijderen
+multi-message-undelete-button =
+    .label = Verwijderen ongedaan maken
+    .tooltiptext = Verwijderen ongedaan maken
