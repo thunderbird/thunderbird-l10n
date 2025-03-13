@@ -95,6 +95,7 @@ account-hub-adding-account-subheader = Riprovim rregullimesh formësimi llogarie
 account-hub-lookup-email-configuration-title = Po kërkohet për formësim
 account-hub-lookup-email-configuration-subheader = Po provohen emra të rëndomtë shërbyesish…
 account-hub-email-account-added-title = Llogaria u shtua me sukses
+account-hub-find-account-settings-failed = { -brand-short-name }-i s’arriti të gjejë rregullimet për llogarinë tuaj email.
 account-hub-find-settings-failed = { -brand-full-name } s’arriti të gjejë rregullimet për llogarinë tuaj email
 account-hub-notification-show-more = Shfaq më tepër
 account-hub-notification-show-less = Shfaq më pak
@@ -110,6 +111,7 @@ account-hub-result-imap-description = Mbajini dosjet dhe email-et tuaj të njëk
 account-hub-result-pop-description = Mbajini dosjet dhe email-et në kompjuterin tuaj
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Përdorni Microsoft Exchange Web Services që të njëkohësoni dosjet dhe email-et tuaja
+account-hub-result-exchange-description = Njëkohësoni dosje & email-e me Exchange ose Office 365
 account-hub-result-ews-text = Shërbyes
 account-hub-result-recommended-label = E rekomanduar
 account-hub-result-addon-label = Lyp Shtesë
@@ -145,3 +147,7 @@ account-hub-port-error-text = Porta duhet të jetë mes 1 dhe 65535
     .title = Porta duhet të jetë mes 1 dhe 65535
 account-hub-username-error-text = Emri i përdoruesit është i domosdoshëm
     .title = Emri i përdoruesit është i domosdoshëm
+account-hub-oauth-pending = Po pritet për autorizim te flluska për hyrjen…
+account-hub-addon-install-needed = { -brand-short-name }-i s’e mbulon së brendshmi këtë shërbyes. Që të përdorni email Exchange, <a data-l10n-name="addon-install"> instaloni një shtesë prej pale të tretë, bie fjala Owl (me pagesë).</a>
+account-hub-addon-error = Instalimi i shtesës dështoi. Ju lutemi, riprovoni, ose lidhuni me autorin e shtesës, për asistencë.
+account-hub-addon-needed = { -brand-full-name }-i s’e mbulon së brendshmi këtë shërbyes. Që të përdorni email Exchange, <a data-l10n-name="addon-install"> instaloni një shtesë prej pale të tretë, bie fjala Owl (me pagesë).</a>
