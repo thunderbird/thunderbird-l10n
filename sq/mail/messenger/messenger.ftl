@@ -270,6 +270,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Me yllkë
     .aria-label = Me yllkë
+message-header-delete =
+    .label = Fshije
+    .tooltiptext = Fshijeni këtë mesazh
+message-header-undelete =
+    .label = Çfshije
+    .tooltiptext = Anuloni fshirjen për këtë mesazh
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -309,6 +315,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Shfaqi krejt kryet
     .accesskey = k
+message-header-dark-message-toggle =
+    .label = Shfaq dorëz mënyre të errët për mesazhet
+    .accesskey = d
 
 ## Action Button Context Menu
 
@@ -465,3 +474,6 @@ quota-panel-percent-used = { $percent }% i mbushur
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Vëri Shenjë si të Lexuar
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Mos Bëj Gjë

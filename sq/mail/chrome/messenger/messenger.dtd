@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "L">
 <!ENTITY contextMoveMsgMenu.label "Shpjere Te">
 <!ENTITY contextMoveMsgMenu.accesskey "e">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Vendmbërritje Së Fundi">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "F">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Së fundi">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "F">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Më të pëlqyerit">

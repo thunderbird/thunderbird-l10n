@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Të ndryshojë veti dhe etiketa të me
 webext-perms-description-messagesTags = Të krijojë, ndryshojë dhe fshijë etiketa mesazhesh
 webext-perms-description-messagesTagsList = Të shfaqë etiketa mesazhesh
 webext-perms-description-sensitiveDataUpload = Të shpërngulë të dhëna rezervat përdoruesi (nëse është akorduar hyrje në to ) te një shërbyes i largët për përpunim të mëtejshëm
+webext-perms-description-messengerSettings = Rregullime { -brand-short-name }-i për leximin

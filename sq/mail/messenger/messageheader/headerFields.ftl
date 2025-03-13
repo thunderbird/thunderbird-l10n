@@ -101,3 +101,9 @@ message-ids-field-show-all = Shfaqi krejt
 
 ## Dark Message Mode
 
+dark-message-mode-disable-toggle =
+    .title = Çaktivizo mënyrë të errët për mesazhet
+dark-message-mode-toggle-enabled =
+    .title = Çaktivizo mënyrë të errët për mesazhet
+dark-message-mode-toggle-disabled =
+    .title = Aktivizo mënyrë të errët për mesazhet

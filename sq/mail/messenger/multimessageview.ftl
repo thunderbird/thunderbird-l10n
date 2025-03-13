@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Fshiji
     .tooltiptext = Fshiji
+multi-message-undelete-button =
+    .label = Çfshije
+    .tooltiptext = Anuloni fshirjen
