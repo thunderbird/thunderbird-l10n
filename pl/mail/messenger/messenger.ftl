@@ -468,3 +468,6 @@ openpgp-forget = Zapomnij hasła OpenPGP
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = Zajęte { $percent }%
     .title = Przydział IMAP: zajęte { $usage } z całkowitej pojemności { $limit }
+
+## Actions for the New Mail Notification
+

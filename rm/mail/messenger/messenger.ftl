@@ -462,3 +462,6 @@ openpgp-forget = Emblidar las frasas-clav OpenPGP
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = Occupà: { $percent }%
     .title = Quota IMAP: { $usage } occupà da  { $limit } en total
+
+## Actions for the New Mail Notification
+

@@ -428,11 +428,6 @@ dark-message-mode-checkbox-description = Fitur eksperimental untuk membuat isi p
 dark-message-mode-toggle-label =
     .label = Tampilkan pengalih mode pesan gelap
     .accesskey = T
-dark-reader-legend = Warna pembaca
-dark-reader-checkbox-label =
-    .label = Adaptasikan dengan tema gelap
-    .accesskey = d
-dark-reader-checkbox-description = Fitur eksperimental untuk membuat panel pesan mengikuti tema gelap
 account-hub-checkbox-description = Alur pembuatan akun surel baru eksperimental
 
 ## Compose Tab

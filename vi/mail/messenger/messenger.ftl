@@ -441,3 +441,6 @@ openpgp-forget = Quên cụm mật khẩu OpenPGP
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = { $percent }% đã đầy
     .title = Hạn ngạch IMAP: { $usage } đã sử dụng trong tổng số { $limit }
+
+## Actions for the New Mail Notification
+

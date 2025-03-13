@@ -462,3 +462,6 @@ openpgp-forget = OpenPGP parolalarını unut
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = %{ $percent } dolu
     .title = IMAP kotası: { $usage } (kullanılan) / { $limit } (toplam)
+
+## Actions for the New Mail Notification
+

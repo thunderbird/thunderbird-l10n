@@ -406,3 +406,6 @@ openpgp-forget = Olvídate de las frases de contraseña de OpenPGP
 
 ## Quota panel.
 
+
+## Actions for the New Mail Notification
+

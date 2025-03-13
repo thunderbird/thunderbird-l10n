@@ -466,3 +466,6 @@ quota-panel-percent-used = { $percent }% cheo
         IMAP quota: { $usage } used of { $limit } total
         IMAP quota: { $usage } used of { $limit } total
         Cota de IMAP: { $usage } usado dun total de { $limit }
+
+## Actions for the New Mail Notification
+

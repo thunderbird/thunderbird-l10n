@@ -115,3 +115,6 @@ quick-filter-bar-toggle =
 
 ## Quota panel.
 
+
+## Actions for the New Mail Notification
+

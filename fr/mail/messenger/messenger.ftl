@@ -469,3 +469,6 @@ quota-panel-percent-used =
        *[other] { $percent } % utilisés
     }
     .title = Quota IMAP : { $usage } utilisés sur { $limit } au total
+
+## Actions for the New Mail Notification
+

@@ -424,9 +424,6 @@ conversation-view-checkbox-label =
     .accesskey = k
 conversation-view-checkbox-description = Eksperimentell funksjon basert på Gloda, bruk han på eige ansvar
 label-experiment = Eksperimentell
-dark-reader-checkbox-label =
-    .label = Tilpass til mørkt tema
-    .accesskey = m
 
 ## Compose Tab
 

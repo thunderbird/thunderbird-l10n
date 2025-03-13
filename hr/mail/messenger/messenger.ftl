@@ -473,3 +473,6 @@ openpgp-forget = Zaboravi OpenPGP šifre
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = { $percent }% popunjeno
     .title = IMAP kvota: { $usage } iskorišteno od ukupno { $limit }
+
+## Actions for the New Mail Notification
+

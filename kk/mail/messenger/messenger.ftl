@@ -461,3 +461,6 @@ openpgp-forget = OpenPGP кілттік фразаларын ұмыту
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = { $percent }% толық
     .title = IMAP квотасы: { $limit } ішінен { $usage } қолданылуда
+
+## Actions for the New Mail Notification
+

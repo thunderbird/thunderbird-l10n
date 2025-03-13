@@ -446,3 +446,6 @@ openpgp-forget = ลืมวลีรหัสผ่าน OpenPGP
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = เต็ม { $percent }%
     .title = โควตา IMAP: ใช้ไป { $usage } จากทั้งหมด { $limit }
+
+## Actions for the New Mail Notification
+

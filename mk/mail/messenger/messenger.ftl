@@ -110,3 +110,6 @@ mail-context-menu-forward-forward =
 
 ## Quota panel.
 
+
+## Actions for the New Mail Notification
+

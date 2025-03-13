@@ -465,3 +465,6 @@ openpgp-forget = OpenPGP jelmondatok elfelejtése
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = { $percent }% tele
     .title = IMAP kvóta: { $usage } használva / { $limit }
+
+## Actions for the New Mail Notification
+

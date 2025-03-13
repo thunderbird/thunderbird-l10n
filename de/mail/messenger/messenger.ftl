@@ -465,3 +465,6 @@ openpgp-forget = OpenPGP-Passphrasen vergessen
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = { $percent }% belegt
     .title = IMAP-Kontingent: { $usage } von insgesamt { $limit } belegt
+
+## Actions for the New Mail Notification
+

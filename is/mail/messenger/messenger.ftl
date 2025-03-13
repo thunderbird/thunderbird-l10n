@@ -462,3 +462,6 @@ openpgp-forget = Gleyma OpenPGP-aðgangsorðum
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = { $percent }% notað
     .title = IMAP-kvóti: { $usage } notað af { $limit } alls
+
+## Actions for the New Mail Notification
+

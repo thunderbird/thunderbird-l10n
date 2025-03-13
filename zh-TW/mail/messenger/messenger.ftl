@@ -461,3 +461,6 @@ openpgp-forget = 忘記 OpenPGP 密語
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = 已用 { $percent }%
     .title = IMAP 配額：已用 { $usage }，共 { $limit }
+
+## Actions for the New Mail Notification
+

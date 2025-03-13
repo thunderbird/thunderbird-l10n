@@ -462,3 +462,6 @@ openpgp-forget = Glem OpenPGP-adgangsudtryk
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = { $percent }% fyldt
     .title = IMAP-kvote: { $usage } brugt af { $limit } i alt
+
+## Actions for the New Mail Notification
+

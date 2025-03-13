@@ -441,3 +441,6 @@ openpgp-forget = Unohda OpenPGP-salalauseet
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = { $percent } % täynnä
     .title = IMAP-kiintiö: Käytetty { $usage }/{ $limit }
+
+## Actions for the New Mail Notification
+

@@ -462,3 +462,6 @@ openpgp-forget = Harro frazëkalime OpenPGP
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = { $percent }% i mbushur
     .title = Kuota IMAP: { $usage } të përdorur, nga { $limit } gjithsej
+
+## Actions for the New Mail Notification
+
