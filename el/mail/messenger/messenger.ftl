@@ -270,6 +270,9 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Με αστέρι
     .aria-label = Με αστέρι
+message-header-delete =
+    .label = Διαγραφή
+    .tooltiptext = Διαγραφή μηνύματος
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -468,3 +471,5 @@ quota-panel-percent-used = { $percent }% πλήρες
 
 ## Actions for the New Mail Notification
 
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Καμία ενέργεια

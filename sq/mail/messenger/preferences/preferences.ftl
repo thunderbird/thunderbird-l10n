@@ -895,6 +895,9 @@ qr-export-more-accounts = Eksportoni më tepër llogari
 
 appearance-category-header = Dukje
 default-message-list-legend = Listë Mesazhesh
+default-message-list-description = Përcaktoni për dosje të krijuara rishtazi mundësitë për renditje parazgjedhje dhe vënie parazgjedhje në rrjedha.
+default-flag-label =
+    .value = Rrjedha Parazgjedhje:
 default-flag-unthreaded =
     .label = Jo në Rrjedha
 default-flag-threaded =
@@ -928,3 +931,41 @@ default-sort-location =
     .label = Vendndodhjesh
 default-sort-tags =
     .label = Etiketash
+default-sort-spam =
+    .label = Gjendje Spam-i
+default-sort-attachments =
+    .label = Bashkëngjitje
+default-sort-account =
+    .label = Llogari
+default-sort-received =
+    .label = Radhë sipas Marrjes
+default-sort-correspondents =
+    .label = Korrespondentë
+default-order-label = Radhë Parazgjedhje Renditjeje:
+default-sort-ascending =
+    .label = Rritës
+default-sort-ascending-description = Mesazhet e reja në fund
+default-sort-descending =
+    .label = Zbritës
+default-sort-descending-description = Mesazhet e reja në krye
+apply-sort-label = Aplikoji këto rregullime mbi:
+apply-sort-to-all-button =
+    .label = Krejt dosjet ekzistuese
+    .accesskey = K
+choose-apply-sort-button =
+    .label = Zgjidhni…
+    .accesskey = Z
+apply-current-view-to-folder =
+    .label = Dosje…
+apply-current-view-to-folder-children =
+    .label = Dosje dhe pjellat e saj…
+apply-changes-prompt-title = Të zbatohen Ndryshimet?
+apply-changes-prompt-message = Të zbatohen mbi krejt dosjet rregullimet e tanishme për sistemim në rrjedha dhe renditje?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Të zbatohen mbi “{ $name }” rregullimet e tanishme për sistemim në rrjedha dhe renditje?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Të zbatohen mbi “{ $name }” dhe pjellat e saj rregullimet e tanishme për sistemim në rrjedha dhe renditje?
+apply-current-view-error = S’arrihet të aplikohen rregullimet e tanishme për parjen
+apply-current-view-success = Rregullimet e tanishme për parjen u zbatuan me sukses
