@@ -95,6 +95,7 @@ account-hub-adding-account-subheader = Повторное тестировани
 account-hub-lookup-email-configuration-title = Поиск конфигурации
 account-hub-lookup-email-configuration-subheader = Проверка типичных имён серверов…
 account-hub-email-account-added-title = Учётная запись успешно добавлена
+account-hub-find-account-settings-failed = { -brand-short-name } не удалось найти настройки для вашей учётной записи почты.
 account-hub-find-settings-failed = { -brand-full-name } не удалось найти настройки для вашей учетной записи почты
 account-hub-notification-show-more = Показать больше
 account-hub-notification-show-less = Показать меньше
@@ -118,6 +119,9 @@ account-hub-edit-configuration = Изменить конфигурацию
 account-hub-config-success = Конфигурация найдена в Mozilla ISPDB
 account-hub-password-info = Ваши учётные данные будут храниться только локально на вашем компьютере
 account-hub-creating-account = Создание учётной записи…
+account-hub-sync-accounts-found = { -brand-short-name } обнаружил некоторые подключённые службы
+account-hub-sync-accounts-not-found = { -brand-short-name } не удалось найти подключённые службы
+account-hub-sync-accounts-failure = { -brand-short-name } не удалось подключить выбранные службы
 account-hub-sync-success = Thunderbird обнаружил некоторые подключённые службы
 account-hub-sync-failure = Thunderbird не удалось найти подключенные службы
 account-hub-unable-to-sync-accounts = Thunderbird не удалось подключить выбранные службы
@@ -145,4 +149,7 @@ account-hub-port-error-text = Порт должен быть в промежут
 account-hub-username-error-text = Требуется имя пользователя
     .title = Требуется имя пользователя
 account-hub-oauth-pending = Ожидание авторизации в окне логина…
+account-hub-addon-install-needed = { -brand-short-name } не поддерживает этот сервер. Чтобы получить доступ к электронной почте Exchange, <a data-l10n-name="addon-install"> установите стороннее дополнение, например, Olay (платное).</a>
+account-hub-addon-error = Не удалось установить дополнение. Пожалуйста, попробуйте ещё раз или обратитесь за помощью к автору дополнения.
+account-hub-security-warning = <span data-l10n-name="security-warning">Предупреждение: Обнаружен незащищённый почтовый сервер.</span> На этом сервере отсутствует шифрование, что раскрывает ваш пароль и данные. Попросите вашего администратора защитить соединение, или продолжайте на свой страх и риск. <a data-l10n-name="faq-link">Прочитайте Частые вопросы, чтобы узнать больше.</a>
 account-hub-addon-needed = { -brand-full-name } не поддерживает этот сервер. Чтобы получить доступ к электронной почте Exchange, <a data-l10n-name="addon-install"> установите стороннее дополнение, например, Olay (платное).</a>

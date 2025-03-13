@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Изменение свойств и �
 webext-perms-description-messagesTags = Создание, изменение и удаление меток сообщений
 webext-perms-description-messagesTagsList = Список меток сообщения
 webext-perms-description-sensitiveDataUpload = Передача конфиденциальных пользовательских данных (если доступ был предоставлен) на удаленный сервер для дальнейшей обработки
+webext-perms-description-messengerSettings = Чтение настроек { -brand-short-name }

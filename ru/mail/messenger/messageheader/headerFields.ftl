@@ -103,3 +103,7 @@ message-ids-field-show-all = Показать все
 
 dark-message-mode-disable-toggle =
     .title = Отключить тёмный режим сообщений
+dark-message-mode-toggle-enabled =
+    .title = Отключить тёмный режим сообщений
+dark-message-mode-toggle-disabled =
+    .title = Включить тёмный режим сообщений

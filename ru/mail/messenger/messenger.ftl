@@ -278,6 +278,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Отмечено звёздочкой
     .aria-label = Отмечено звёздочкой
+message-header-delete =
+    .label = Удалить
+    .tooltiptext = Удалить это сообщение
+message-header-undelete =
+    .label = Восстановить
+    .tooltiptext = Восстановить это сообщение
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -478,3 +484,6 @@ quota-panel-percent-used = { $percent }% заполнено
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Отметить как прочитанное
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Ничего не делать
