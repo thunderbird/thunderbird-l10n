@@ -10,7 +10,17 @@
 
 search-bar-button =
     .alt = Søk
+search-bar-item2 =
+    .label = Søk
 search-bar-placeholder = Søk…
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key2 =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
@@ -54,6 +64,10 @@ customize-main-toolbar-target =
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Legg til i { $target }
 
 ## Unified toolbar customization target context menu
 

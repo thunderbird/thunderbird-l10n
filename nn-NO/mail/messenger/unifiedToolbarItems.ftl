@@ -6,6 +6,7 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Fleksibelt mellomrom
+search-bar-label = Søk
 toolbar-write-message-label = Skriv
 toolbar-write-message =
     .title = Skriv ny melding
@@ -56,6 +57,7 @@ toolbar-junk-label = Uønskt
 toolbar-junk =
     .title = Merk dei valde meldingane som uønskt e-post
 toolbar-delete-label = Slett
+toolbar-undelete-label = Angre sletting
 toolbar-compact-label = Komprimer
 toolbar-compact =
     .title = Fjern sletta meldingar frå vald mappe
