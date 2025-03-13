@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Zhašeć
     .tooltiptext = Zhašeć
+multi-message-undelete-button =
+    .label = Wobnowić
+    .tooltiptext = Wobnowić

@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Kajkosće a znački wašich e-mejlowyc
 webext-perms-description-messagesTags = Powěsćowe znački wutworić, změnić a zhašeć
 webext-perms-description-messagesTagsList = Powěsćowe znački nalistować
 webext-perms-description-sensitiveDataUpload = Sensibelne wužiwarske daty (jeli přistup bu dowoleny) na zdaleny serwer za dalše předźěłanje přenošować
+webext-perms-description-messengerSettings = Nastajenja { -brand-short-name } čitać

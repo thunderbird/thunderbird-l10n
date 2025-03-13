@@ -119,6 +119,9 @@ account-hub-edit-configuration = Konfiguraciju wobdźěłać
 account-hub-config-success = Konfiguracija je so w Mozilla ISPDB namakała
 account-hub-password-info = Waše přizjewjenske daty budu so jenož lokalnje na wašim ličaku składować
 account-hub-creating-account = Konto so załožuje…
+account-hub-sync-accounts-found = { -brand-short-name } je někotre zwjazane słužby namakał
+account-hub-sync-accounts-not-found = { -brand-short-name } njemóžeše zwjazane słužby namakać
+account-hub-sync-accounts-failure = { -brand-short-name } njemóžeše wubrane słužby zwjazać
 account-hub-sync-success = Thunderbird je někotre zwjazane słužby namakał
 account-hub-sync-failure = Thunderbird njemóžeše zwjazane słužby namakać
 account-hub-unable-to-sync-accounts = Thunderbird njemóžeše wubrane słužby zwjazać
@@ -147,4 +150,6 @@ account-hub-port-error-text = Port dyrbi mjez 1 a 65535 być
 account-hub-username-error-text = Wužiwarske mjeno je trěbne
     .title = Wužiwarske mjeno je trěbne
 account-hub-oauth-pending = Čaka so za awtorizaciju we wuskakowacym woknje přizjewjenja…
+account-hub-addon-install-needed = { -brand-short-name } wot doma tutón serwer njepodpěruje. Zo by přistup k e-mejli Exchange měł, <a data-l10n-name="addon-install">instalujće přidatk třećeho poskićowarja kaž Owl (płaćomny).</a>
+account-hub-addon-error = Instalacija přidatka je so nimokuliła. Prošu spytajće hišće raz abo stajće so z awtorom přidatka do zwiska, zo byšće pomoc dóstał.
 account-hub-addon-needed = { -brand-full-name } wot doma tutón serwer njepodpěruje. Zo by přistup k e-mejli Exchange měł, <a data-l10n-name="addon-install">instalujće přidatk třećeho poskićowarja kaž Owl (płaćomny).</a>
