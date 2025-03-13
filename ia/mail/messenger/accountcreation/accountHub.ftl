@@ -120,6 +120,8 @@ account-hub-config-success = Configuration trovate in Mozilla ISPDB
 account-hub-password-info = Tu credentiales sera reservate solo localmente su tu computator
 account-hub-creating-account = Creante conto…
 account-hub-sync-accounts-found = { -brand-short-name } discoperiva alcun servicios connexe
+account-hub-sync-accounts-not-found = { -brand-short-name } non poteva trovar alcun servicio connexe
+account-hub-sync-accounts-failure = { -brand-short-name } non poteva connecter le servicios seligite
 account-hub-sync-success = Thunderbird discoperiva alcun servicios connexe
 account-hub-sync-failure = Thunderbird non poteva trovar alcun servicio connexe
 account-hub-unable-to-sync-accounts = Thunderbird non poteva connecter le servicios seligite
@@ -146,4 +148,7 @@ account-hub-port-error-text = Le porta debe esser inter 1 e 65535
 account-hub-username-error-text = Es requirite un nomine de usator
     .title = Es requirite un nomine de usator
 account-hub-oauth-pending = Attendente autorisation in le fenestra resaltante de connexion…
+account-hub-addon-install-needed = { -brand-short-name } non supporta nativemente iste servitor. Pro acceder Exchange email, <a data-l10n-name="addon-install"> installa un additivo de tertie-parte como Owl (pagate).</a>
+account-hub-addon-error = Installation de additivo fallite. Retenta o contacta le autor del additivo pro assistentia.
+account-hub-security-warning = <span data-l10n-name="security-warning">Attention: relevate servitor de posta non secur.</span> Iste servitor non dispone di cryptation, exponente tu contrasigno e tu datos. Contactar le administrator pro proteger le connexion o proceder a proprie risco. <a data-l10n-name="faq-link">Pro altere informationes, consulta le FAQ.</a>
 account-hub-addon-needed = { -brand-full-name } non supporta nativemente iste servitor. A acceder Exchange email, <a data-l10n-name="addon-install"> installar un additivo de tertie-parte como Owl (pagate).</a>
