@@ -270,6 +270,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Stellate
     .aria-label = Stellate
+message-header-delete =
+    .label = Deler
+    .tooltiptext = Deler iste message
+message-header-undelete =
+    .label = Restabilir
+    .tooltiptext = Restabilir iste message
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -468,3 +474,6 @@ quota-panel-percent-used = { $percent }% usate
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Marcar como legite
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Face nihil

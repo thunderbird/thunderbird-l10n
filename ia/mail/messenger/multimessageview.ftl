@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Deler
     .tooltiptext = Deler
+multi-message-undelete-button =
+    .label = Restabilir
+    .tooltiptext = Restabilir

@@ -103,3 +103,7 @@ message-ids-field-show-all = Monstrar toto
 
 dark-message-mode-disable-toggle =
     .title = Disactivar le modo obscur pro le messages
+dark-message-mode-toggle-enabled =
+    .title = Disactivar le modo obscur pro le messages
+dark-message-mode-toggle-disabled =
+    .title = Activar le modo obscur pro le messages
