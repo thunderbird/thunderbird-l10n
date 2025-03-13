@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = spreminjanje lastnosti in oznak vaših
 webext-perms-description-messagesTags = ustvarjanje, spreminjanje in brisanje oznak sporočil
 webext-perms-description-messagesTagsList = navajanje oznak sporočil
 webext-perms-description-sensitiveDataUpload = prenos občutljivih uporabniških podatkov (če je odobren dostop) na oddaljen strežnik za nadaljnjo obdelavo
+webext-perms-description-messengerSettings = branje nastavitev { -brand-short-name(sklon: "rodilnik") }

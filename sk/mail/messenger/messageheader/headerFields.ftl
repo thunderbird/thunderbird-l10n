@@ -103,3 +103,7 @@ message-ids-field-show-all = Zobraziť všetko
 
 dark-message-mode-disable-toggle =
     .title = Zakázať tmavý režim pre správy
+dark-message-mode-toggle-enabled =
+    .title = Zakázať tmavý režim pre správy
+dark-message-mode-toggle-disabled =
+    .title = Povoliť tmavý režim pre správy

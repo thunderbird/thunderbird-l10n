@@ -95,6 +95,7 @@ account-hub-adding-account-subheader = Ponovno preizkušanje nastavitev računa
 account-hub-lookup-email-configuration-title = Iskanje nastavitev
 account-hub-lookup-email-configuration-subheader = Poskušanje s pogostimi imeni strežnikov …
 account-hub-email-account-added-title = Račun uspešno dodan
+account-hub-find-account-settings-failed = { -brand-short-name } ni uspel najti nastavitev za vaš e-poštni račun.
 account-hub-find-settings-failed = { -brand-full-name } ni uspel najti nastavitev za vaš e-poštni račun.
 account-hub-notification-show-more = Prikaži več
 account-hub-notification-show-less = Prikaži manj
@@ -118,6 +119,9 @@ account-hub-edit-configuration = Uredi nastavitve
 account-hub-config-success = Nastavitve so bile najdene v Mozillini podatkovni zbirki ponudnikov
 account-hub-password-info = Poverilnice bodo shranjene izključno na vašem računalniku
 account-hub-creating-account = Ustvarjanje računa …
+account-hub-sync-accounts-found = { -brand-short-name } je odkril nekaj povezanih storitev
+account-hub-sync-accounts-not-found = { -brand-short-name } ni uspel najti povezanih storitev
+account-hub-sync-accounts-failure = { -brand-short-name } se ni uspel povezati s povezanimi storitvami
 account-hub-sync-success = Thunderbird je odkril nekaj povezanih storitev
 account-hub-sync-failure = Thunderbird ni uspel najti povezanih storitev
 account-hub-unable-to-sync-accounts = Thunderbird se ni uspel povezati s povezanimi storitvami
@@ -146,4 +150,7 @@ account-hub-port-error-text = Številka vrat mora biti med 1 in 65535
 account-hub-username-error-text = Uporabniško ime je obvezno
     .title = Uporabniško ime je obvezno
 account-hub-oauth-pending = Čakanje na pooblastitev v pojavnem oknu za prijavo …
+account-hub-addon-install-needed = { -brand-short-name } sam po sebi tega strežnika ne podpira. Za dostop do e-pošte Exchange <a data-l10n-name="addon-install">namestite dodatek tretjega ponudnika, na primer Owl (plačljiv)</a>.
+account-hub-addon-error = Namestitev dodatka ni uspela. Poskusite znova ali pa se za pomoč obrnite na njegovega avtorja.
+account-hub-security-warning = <span data-l10n-name="security-warning">Opozorilo: zaznan je bil nezavarovan poštni strežnik.</span> Ta strežnik ne uporablja šifriranja, zato so vaše geslo in podatki izpostavljeni prisluškovalcem. Svetujte skrbniku, naj zavaruje povezavo, ali nadaljujte na lastno odgovornost. <a data-l10n-name="faq-link">Za več informacij glejte pogosta vprašanja.</a>
 account-hub-addon-needed = { -brand-full-name } izvorno tega strežnika ne podpira. Za dostop do e-pošte Exchange <a data-l10n-name="addon-install">namestite dodatek tretjega ponudnika, na primer Owl (plačljiv)</a>.

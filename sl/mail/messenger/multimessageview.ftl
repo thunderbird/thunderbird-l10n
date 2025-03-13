@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Izbriši
     .tooltiptext = Izbriši
+multi-message-undelete-button =
+    .label = Razveljavi izbris
+    .tooltiptext = Razveljavi brisanje

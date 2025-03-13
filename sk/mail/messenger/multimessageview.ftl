@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Odstrániť
     .tooltiptext = Odstrániť
+multi-message-undelete-button =
+    .label = Zrušiť odstránenie
+    .tooltiptext = Zrušiť odstránenie

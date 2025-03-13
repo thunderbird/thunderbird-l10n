@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Meniť vlastnosti a štítky e‑mailo
 webext-perms-description-messagesTags = Vytvárať, upravovať a odstraňovať štítky správ
 webext-perms-description-messagesTagsList = Zobrazovať štítky správ
 webext-perms-description-sensitiveDataUpload = Prenášať citlivé údaje používateľa (ak bol prístup povolený) na vzdialený server na ďalšie spracovanie
+webext-perms-description-messengerSettings = Čítať nastavenia { -brand-short-name(case: "gen") }
