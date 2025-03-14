@@ -137,7 +137,7 @@ mail-uidensity-relaxed =
     .label = Santai
     .accesskey = S
 menu-spaces-toolbar-button =
-    .label = Bilah Alat Space
+    .label = Bilah Alat Spaces
     .accesskey = S
 
 ## File

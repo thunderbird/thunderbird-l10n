@@ -336,6 +336,10 @@ decrypt-and-copy-failures-multiple = { $failures } dari { $total } pesan tidak d
 
 ## Spaces toolbar
 
+spaces-toolbar-element =
+    .toolbarname = Bilah Alat Spaces
+    .aria-label = Bilah Alat Spaces
+    .aria-description = Bilah alat vertikal untuk beralih antara berbagai space. Gunakan tombol panah untuk menavigasi tombol yang tersedia.
 spaces-toolbar-button-mail2 =
     .title = Surat
 spaces-toolbar-button-address-book2 =
@@ -350,6 +354,10 @@ spaces-toolbar-button-overflow =
     .title = Ruang lain...
 spaces-toolbar-button-settings2 =
     .title = Pengaturan
+spaces-toolbar-button-hide =
+    .title = Sembunyikan Bilah Alat Spaces
+spaces-toolbar-button-show =
+    .title = Tampilkan Bilah Alat Spaces
 spaces-context-new-tab-item =
     .label = Buka di tab baru
 spaces-context-new-window-item =
@@ -367,6 +375,8 @@ settings-context-open-addons-item2 =
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = Menu Spaces
 spaces-pinned-button-menuitem-mail2 =
     .label = { spaces-toolbar-button-mail2.title }
 spaces-pinned-button-menuitem-address-book2 =
@@ -390,6 +400,7 @@ chat-button-unread-messages = { $count }
 
 menuitem-customize-label =
     .label = Sesuaikan…
+spaces-customize-panel-title = Pengaturan Bilah Alat Spaces
 spaces-customize-background-color = Warna latar
 spaces-customize-icon-color = Warna tombol
 # The background color used on the buttons of the spaces toolbar when they are

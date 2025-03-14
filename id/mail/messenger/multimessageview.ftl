@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Hapus
     .tooltiptext = Hapus
+multi-message-undelete-button =
+    .label = Batal hapus
+    .tooltiptext = Batal hapus

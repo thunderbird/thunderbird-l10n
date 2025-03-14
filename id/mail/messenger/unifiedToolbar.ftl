@@ -60,8 +60,11 @@ customize-save = Simpan
 customize-search-bar2 =
     .label = Cari tombol bilah alat
     .placeholder = Cari tombol bilah alat…
+customize-spaces-tabs =
+    .aria-label = Spaces
 customize-main-toolbar-target =
     .aria-label = Bilah alat utama
+customize-palette-generic-title = Tersedia untuk semua Spaces
 
 ## Unified toolbar customization palette context menu
 
