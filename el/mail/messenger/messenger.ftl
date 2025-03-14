@@ -273,6 +273,9 @@ message-header-msg-flagged =
 message-header-delete =
     .label = Διαγραφή
     .tooltiptext = Διαγραφή μηνύματος
+message-header-undelete =
+    .label = Αναίρεση διαγραφής
+    .tooltiptext = Αναίρεση της διαγραφής αυτού του μηνύματος
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -471,5 +474,6 @@ quota-panel-percent-used = { $percent }% πλήρες
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Επισήμανση ως αναγνωσμένο
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Καμία ενέργεια

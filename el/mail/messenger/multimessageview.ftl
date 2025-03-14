@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Διαγραφή
     .tooltiptext = Διαγραφή
+multi-message-undelete-button =
+    .label = Αναίρεση διαγραφής
+    .tooltiptext = Αναίρεση διαγραφής
