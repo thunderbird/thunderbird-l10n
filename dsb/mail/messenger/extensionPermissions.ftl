@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Kakosći a wobznamjenja wašych e-mail
 webext-perms-description-messagesTags = Powěsćowe wobznamjenja napóraś, změniś a lašowaś
 webext-perms-description-messagesTagsList = Powěsćowe wobznamjenja nalicyś
 webext-perms-description-sensitiveDataUpload = Sensibelne wužywaŕske daty (jolic pśistup jo se dowólił) na zdalony serwer za dalšne pśeźěłanje pśenosowaś
+webext-perms-description-messengerSettings = Nastajenja { -brand-short-name } cytaś

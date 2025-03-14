@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Lašowaś
     .tooltiptext = Lašowaś
+multi-message-undelete-button =
+    .label = Wótnowiś
+    .tooltiptext = Wótnowiś

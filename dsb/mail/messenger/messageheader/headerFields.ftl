@@ -103,3 +103,7 @@ message-ids-field-show-all = Wšykne pokazaś
 
 dark-message-mode-disable-toggle =
     .title = Śamny powěsćowy modus znjemóžniś
+dark-message-mode-toggle-enabled =
+    .title = Śamny powěsćowy modus znjemóžniś
+dark-message-mode-toggle-disabled =
+    .title = Śamny powěsćowy modus zmóžniś

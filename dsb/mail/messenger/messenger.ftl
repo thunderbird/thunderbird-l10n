@@ -282,6 +282,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Z gwězdku
     .aria-label = Z gwězdku
+message-header-delete =
+    .label = Lašowaś
+    .tooltiptext = Toś tu powěsć lašowaś
+message-header-undelete =
+    .label = Wótnowiś
+    .tooltiptext = Toś tu powěsć wótnowiś
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -484,3 +490,6 @@ quota-panel-percent-used = { $percent }% połne
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Ako pśecytany markěrowaś
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Nic njecyniś
