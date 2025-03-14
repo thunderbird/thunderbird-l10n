@@ -95,6 +95,7 @@ account-hub-adding-account-subheader = Fiókkonfigurációs beállítások újra
 account-hub-lookup-email-configuration-title = Konfiguráció keresése…
 account-hub-lookup-email-configuration-subheader = Gyakori kiszolgálónevek kipróbálása…
 account-hub-email-account-added-title = Fiók sikeresen hozzáadva
+account-hub-find-account-settings-failed = A { -brand-short-name } nem találta meg az e-mail-fiókja beállításait.
 account-hub-find-settings-failed = A { -brand-full-name } nem találta meg az e-mail-fiókja beállításait
 account-hub-notification-show-more = Több megjelenítése
 account-hub-notification-show-less = Kevesebb megjelenítése
@@ -118,6 +119,9 @@ account-hub-edit-configuration = Beállítások szerkesztése
 account-hub-config-success = A konfiguráció megtalálva a Mozilla ISPDB-ben
 account-hub-password-info = A hitelesítő adatok csak helyben lesznek tárolva a számítógépen
 account-hub-creating-account = Fiók létrehozása…
+account-hub-sync-accounts-found = A { -brand-short-name } néhány kapcsolódó szolgáltatást talált
+account-hub-sync-accounts-not-found = A { -brand-short-name } nem talált kapcsolódó szolgáltatásokat
+account-hub-sync-accounts-failure = A { -brand-short-name } nem tudott csatlakozni a kiválasztott szolgáltatásokhoz
 account-hub-sync-success = A Thunderbird néhány kapcsolódó szolgáltatást talált
 account-hub-sync-failure = A Thunderbird nem talált kapcsolódó szolgáltatásokat
 account-hub-unable-to-sync-accounts = A Thunderbird nem tudott kapcsolódni a kiválasztott szolgáltatásokhoz
@@ -144,4 +148,6 @@ account-hub-port-error-text = A portnak 1 és 65535 között kell lennie
 account-hub-username-error-text = A felhasználónév megadása kötelező
     .title = A felhasználónév megadása kötelező
 account-hub-oauth-pending = Várakozás a bejelentkezési felugró ablakban történő hitelesítésre…
+account-hub-addon-install-needed = A { -brand-short-name } natív módon nem támogatja ezt a kiszolgálót. Az Exchange levelezés eléréséhez <a data-l10n-name="addon-install">telepítsen egy harmadik féltől származó kiegészítőt, például az Owlt (fizetős).</a>
+account-hub-addon-error = A kiegészítő telepítése sikertelen. Próbálja újra, vagy forduljon segítségért a kiegészítő készítőjéhez.
 account-hub-addon-needed = A { -brand-full-name } natív módon nem támogatja ezt a kiszolgálót. Az Exchange levelezés eléréséhez <a data-l10n-name="addon-install">telepítsen egy harmadik féltől származó kiegészítőt, például az Owlt (fizetős).</a>
