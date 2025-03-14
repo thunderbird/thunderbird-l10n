@@ -103,3 +103,7 @@ message-ids-field-show-all = 显示全部
 
 dark-message-mode-disable-toggle =
     .title = 关闭邮件深色模式
+dark-message-mode-toggle-enabled =
+    .title = 关闭邮件深色模式
+dark-message-mode-toggle-disabled =
+    .title = 启用邮件深色模式

@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = 更改邮件的属性和标签
 webext-perms-description-messagesTags = 创建、修改或删除消息标签
 webext-perms-description-messagesTagsList = 列出消息标签
 webext-perms-description-sensitiveDataUpload = 将敏感的用户数据（如果已获得访问权限）传输到远程服务器以供进一步处理
+webext-perms-description-messengerSettings = 读取 { -brand-short-name } 设置

@@ -257,6 +257,9 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = 已加星标
     .aria-label = 已加星标
+message-header-delete =
+    .label = 删除
+    .tooltiptext = 删除此邮件
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -450,3 +453,6 @@ quota-panel-percent-used = { $percent }% 已使用
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = 标为已读
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = 无操作
