@@ -95,6 +95,7 @@ account-hub-adding-account-subheader = Nastajenja za kontowu konfiguraciju znowe
 account-hub-lookup-email-configuration-title = Konfiguracija se pśepytujo
 account-hub-lookup-email-configuration-subheader = Zwucone serwerowe mjenja se wospytuju…
 account-hub-email-account-added-title = Konto jo se wuspěšnje pśidało
+account-hub-find-account-settings-failed = { -brand-short-name } njejo mógał nastajenja za wašo e-mailowe konto namakaś.
 account-hub-find-settings-failed = { -brand-full-name } njejo mógał nastajenja za wašo e-mailowe konto namakaś.
 account-hub-notification-show-more = Wěcej pokazaś
 account-hub-notification-show-less = Mjenjej pokazaś
@@ -118,6 +119,9 @@ account-hub-edit-configuration = Konfiguraciju wobźěłaś
 account-hub-config-success = Konfiguracija jo se namakała w Mozilla ISPDB
 account-hub-password-info = Waše pśizjawjeńske daty budu se jano lokalnje na wašom licadle składowaś
 account-hub-creating-account = Konto se załožujo…
+account-hub-sync-accounts-found = { -brand-short-name } jo namakał někotare zwězane słužby
+account-hub-sync-accounts-not-found = { -brand-short-name } njejo mógła zwězane słužby namakaś
+account-hub-sync-accounts-failure = { -brand-short-name } njejo mógł wubrane słužby zwězaś
 account-hub-sync-success = Thunderbird jo namakał někotare zwězane słužby
 account-hub-sync-failure = Thunderbird njejo mógał zwězane słužby namakaś
 account-hub-unable-to-sync-accounts = Thunderbird njejo mógał wubrane słužby zwězaś
@@ -146,4 +150,6 @@ account-hub-port-error-text = Port musy mjazy 1 a 65535 byś
 account-hub-username-error-text = Wužywaŕske mě jo trjebne
     .title = Wužywaŕske mě jo trjebne
 account-hub-oauth-pending = Caka se za awtorizěrowanje we wuskokujucem woknje pśizjawjenja…
+account-hub-addon-install-needed = { -brand-short-name } wót doma toś ten serwer njepódpěra. Aby pśistup k e-maili Exchange měł, <a data-l10n-name="addon-install">instalěrujśo dodank tśeśego póbitowarja ako Owl (ma se płaśiś).</a>
+account-hub-addon-error = Instalacija dodanka njejo se raźiła. Pšosym wopytajśo hyšći raz abo stajśo se z awtorom dodanka do zwiska, aby pomoc dostał.
 account-hub-addon-needed = { -brand-full-name } wót doma toś ten serwer njepódpěra. Aby pśistup k e-maili Exchange měł, <a data-l10n-name="addon-install">instalěrujśo dodank tśeśego póbitowarja ako Owl (ma se płaśiś).</a>
