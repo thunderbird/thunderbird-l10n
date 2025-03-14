@@ -95,7 +95,7 @@ account-hub-adding-account-subheader = 正在重新測試帳號設定
 account-hub-lookup-email-configuration-title = 正在尋找設定
 account-hub-lookup-email-configuration-subheader = 嘗試使用常用的伺服器名稱…
 account-hub-email-account-added-title = 成功新增帳號！
-account-hub-find-account-settings-failed = { -brand-short-name } 找不到您適用的郵件帳號設定。
+account-hub-find-account-settings-failed = { -brand-short-name } 找不到您電子郵件帳號適用的設定資訊。
 account-hub-find-settings-failed = { -brand-full-name } 找不到適用您郵件帳號的設定資訊。
 account-hub-notification-show-more = 顯示更多
 account-hub-notification-show-less = 顯示更少
@@ -119,9 +119,9 @@ account-hub-edit-configuration = 編輯設定
 account-hub-config-success = 從 Mozilla ISPDB 找到的設定
 account-hub-password-info = 您的登入資訊只會儲存在本機電腦上
 account-hub-creating-account = 正在建立帳號…
-account-hub-sync-accounts-found = { -brand-short-name } 找到一些已連結的服務
-account-hub-sync-accounts-not-found = { -brand-short-name } 找不到已連結的服務
-account-hub-sync-accounts-failure = { -brand-short-name } 無法連線所選的服務
+account-hub-sync-accounts-found = { -brand-short-name } 找到一些連結的服務
+account-hub-sync-accounts-not-found = { -brand-short-name } 找不到連結的服務
+account-hub-sync-accounts-failure = { -brand-short-name } 無法連結所選的服務
 account-hub-sync-success = Thunderbird 找到一些連結的服務
 account-hub-sync-failure = Thunderbird 找不到已連結的服務
 account-hub-unable-to-sync-accounts = Thunderbird 無法連線到所選的服務
@@ -147,7 +147,7 @@ account-hub-port-error-text = 通訊埠必須在 1 到 65535 之間
 account-hub-username-error-text = 必須輸入使用者名稱
     .title = 必須輸入使用者名稱
 account-hub-oauth-pending = 正在等待登入視窗中的授權結果…
-account-hub-addon-install-needed = { -brand-short-name } 本身並不支援此伺服器。若要存取 Exchange 郵件請<a data-l10n-name="addon-install">安裝 Owl 付費版等第三方附加元件。</a>
+account-hub-addon-install-needed = { -brand-short-name } 本身不支援此伺服器。若要存取 Exchange 郵件，請<a data-l10n-name="addon-install">安裝 Owl 等第三方附加元件（須付費）。</a>
 account-hub-addon-error = 附加元件安裝失敗。請再試一次或聯絡附加元件作者尋求協助。
-account-hub-security-warning = <span data-l10n-name="security-warning">警告: 偵測到不安全的郵件伺服器。</span>此伺服器未加密連線您的密碼與資料會被洩漏。請與您的管理員聯絡以確保連線或風險自負。 <a data-l10n-name="faq-link">若需更多資訊請參考 FAQ。</a>
+account-hub-security-warning = <span data-l10n-name="security-warning">警告：偵測到不安全的郵件伺服器。</span>此伺服器未加密連線，會洩漏您的密碼與資料。請聯絡您的管理員以加密連線，或繼續使用但自負風險。<a data-l10n-name="faq-link">若需更多資訊，請參考 FAQ 常見問題集。</a>
 account-hub-addon-needed = { -brand-full-name } 本身不支援此伺服器。若要存取 Exchange 郵件，請<a data-l10n-name="addon-install">安裝 Owl 等第三方附加元件（須付費）。</a>
