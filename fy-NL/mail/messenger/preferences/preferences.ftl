@@ -933,3 +933,39 @@ default-sort-tags =
     .label = Labels
 default-sort-spam =
     .label = Net-winskesteat
+default-sort-attachments =
+    .label = Bylagen
+default-sort-account =
+    .label = Account
+default-sort-received =
+    .label = Folchoarder fan ûntfangst
+default-sort-correspondents =
+    .label = Korrespondinten
+default-order-label = Standert sortearfolchoarder:
+default-sort-ascending =
+    .label = Opgeand
+default-sort-ascending-description = Nije berjochten ûnderoan
+default-sort-descending =
+    .label = Delgeand
+default-sort-descending-description = Nije berjochten boppe-oan
+apply-sort-label = Dizze ynstellingen tapasse op:
+apply-sort-to-all-button =
+    .label = Alle besteande mappen
+    .accesskey = A
+choose-apply-sort-button =
+    .label = Kieze…
+    .accesskey = K
+apply-current-view-to-folder =
+    .label = Map…
+apply-current-view-to-folder-children =
+    .label = Map en submappen…
+apply-changes-prompt-title = Wizigingen tapasse?
+apply-changes-prompt-message = De aktuele ynstellingen foar petearen en soartearring op alle mappen tapasse?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = De aktuele ynstellingen foar petearen en soartearring tapasse op ‘{ $name }’?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = De aktuele ynstellingen foar petearen en soartearring tapasse op ‘{ $name }’ en de submappen?
+apply-current-view-error = Kin aktuele werjefteynstellingen net tapasse
+apply-current-view-success = Aktuele werjefteynstellingen mei sukses tapast
