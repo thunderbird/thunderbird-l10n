@@ -252,6 +252,9 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Uudelleenohjaa
+message-header-delete =
+    .label = Poista
+    .tooltiptext = Poista tämä viesti
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -444,3 +447,4 @@ quota-panel-percent-used = { $percent } % täynnä
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Merkitse luetuksi

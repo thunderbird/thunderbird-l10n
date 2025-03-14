@@ -120,6 +120,8 @@ account-hub-config-success = Konfiguraasje fûn yn de Mozilla-ISPDB
 account-hub-password-info = Jo oanmeldgegevens wurde allinnich lokaal op jo kompjûter bewarre
 account-hub-creating-account = Account oanmeitsje…
 account-hub-sync-accounts-found = { -brand-short-name } hat inkelde ferbûne services fûn
+account-hub-sync-accounts-not-found = { -brand-short-name } koe gjin ferbûne tsjinsten fine
+account-hub-sync-accounts-failure = { -brand-short-name } koe gjin ferbining meitsje mei de selektearre tsjinsten
 account-hub-sync-success = Thunderbird hat inkelde ferbûne services fûn
 account-hub-sync-failure = Thunderbird koe gjin ferbûne tsjinsten fine
 account-hub-unable-to-sync-accounts = Thunderbird koe gjin ferbining meitsje mei de selektearre tsjinsten
@@ -137,3 +139,16 @@ account-hub-no-address-books = Gjin adresboeken fûn
 account-hub-no-calendars = Gjin aginda’s fûn
 account-hub-email-added-success-links-title = Opsjes foar befeiliging en personalisaasje ferkenne:
 account-hub-signature-link = E-mailhântekening
+account-hub-email-error-text = Fier in jildich e-mailadres yn
+account-hub-name-error-text = Fier in namme yn
+account-hub-hostname-error-text = Hostnamme leech of ûnjildich. Allinnich letters, sifers, - en . binne tastien
+    .title = Hostnamme leech of ûnjildich. Allinnich letters, sifers, - en . binne tastien
+account-hub-port-error-text = Poarte moat tusken 1 en 65535 wêze
+    .title = Poarte moat tusken 1 en 65535 wêze
+account-hub-username-error-text = Brûkersnamme is fereaske
+    .title = Brûkersnamme is fereaske
+account-hub-oauth-pending = Wachtsje op autorisaasje yn oanmeldingspopup…
+account-hub-addon-install-needed = { -brand-short-name } stipet dizze server net ynboud. Om tagong te krijen ta Exchange-e-mail, <a data-l10n-name="addon-install"> ynstallearje in add-on fan tredden lykas Owl (betelle).</a>
+account-hub-addon-error = Add-on-ynstallaasje is mislearre. Probearje it opnij of nim kontakt op mei de add-on-auteur foar help.
+account-hub-security-warning = <span data-l10n-name="security-warning">Warskôging: ûnfeilige e-mailserver ûntdutsen.</span> Dizze tsjinner mist fersifering, wêrtroch jo wachtwurd en gegevens iepenbier binne. Nim kontakt op mei jo behearder om de ferbining te befeiligjen of troch te gean op jo eigen risiko. <a data-l10n-name="faq-link">Sjoch FAQ foar mear ynformaasje.</a>
+account-hub-addon-needed = { -brand-full-name } stipet dizze server net ynboud. Om tagong te krijen ta Exchange-e-mail, <a data-l10n-name="addon-install"> ynstallearje in add-on fan tredden lykas Owl (betelle).</a>

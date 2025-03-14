@@ -270,6 +270,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Mei stjer
     .aria-label = Mei stjer
+message-header-delete =
+    .label = Fuortsmite
+    .tooltiptext = Dit berjocht fuortsmite
+message-header-undelete =
+    .label = Fuortsmiten ûngedien meitsje
+    .tooltiptext = Berjocht fuortsmite ûngedien meitsje
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -309,6 +315,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Alle kopteksten toane
     .accesskey = A
+message-header-dark-message-toggle =
+    .label = Skeakeler foar donkere berjochtmodus toane
+    .accesskey = d
 
 ## Action Button Context Menu
 
@@ -465,3 +474,6 @@ quota-panel-percent-used = { $percent }% fol
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Markearje as lêzen
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Neat dwaan

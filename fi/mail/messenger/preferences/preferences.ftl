@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Yleiset
 category-general =
     .tooltiptext = { pane-general-title }
+pane-appearance-title = Ulkoasu
+category-appearance =
+    .tooltiptext = { pane-appearance-title }
 pane-compose-title = Viestin kirjoitus
 category-compose =
     .tooltiptext = Viestin kirjoitus
@@ -864,3 +867,11 @@ qr-export-more-accounts = Vie lisää tilejä
 
 ## Appearance Tab
 
+appearance-category-header = Ulkoasu
+default-message-list-legend = Viestiluettelo
+choose-apply-sort-button =
+    .label = Valitse…
+    .accesskey = V
+apply-changes-prompt-title = Saatetaanko muutokset voimaan?
+apply-current-view-error = Nykyisiä näkymän asetuksia ei voitu ottaa käyttöön
+apply-current-view-success = Nykyiset näkymän asetukset on otettu käyttöön onnistuneesti

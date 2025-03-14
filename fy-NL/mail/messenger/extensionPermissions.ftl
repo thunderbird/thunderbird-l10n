@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Eigenskippen en labels fan jo e-mailbe
 webext-perms-description-messagesTags = Berjochtlabels meitsje, oanpasse en fuortsmite
 webext-perms-description-messagesTagsList = Berjochtlabels werjaan
 webext-perms-description-sensitiveDataUpload = Ferpleats gefoelige brûkersgegevens (wannear tagong ferliend is) nei in eksterne server foar fierdere ferwurking
+webext-perms-description-messengerSettings = { -brand-short-name }-ynstellingen lêze

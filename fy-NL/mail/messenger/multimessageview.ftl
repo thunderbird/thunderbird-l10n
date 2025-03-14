@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Fuortsmite
     .tooltiptext = Fuortsmite
+multi-message-undelete-button =
+    .label = Fuortsmiten ûngedien meitsje
+    .tooltiptext = Fuortsmiten ûngedien meitsje
