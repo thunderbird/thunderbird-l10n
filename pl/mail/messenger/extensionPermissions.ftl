@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Zmiana właściwości i etykiet wiado
 webext-perms-description-messagesTags = Tworzenie, modyfikowanie i usuwanie etykiet wiadomości
 webext-perms-description-messagesTagsList = Wyświetlanie etykiet wiadomości
 webext-perms-description-sensitiveDataUpload = Przesyłanie prywatnych danych użytkownika (jeśli udzielono dostęp) na zdalny serwer w celu dalszego przetwarzania
+webext-perms-description-messengerSettings = Odczytywanie ustawień { -brand-short-name(case: "gen") }
