@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "L">
 <!ENTITY contextMoveMsgMenu.label "Ferpleatse nei">
 <!ENTITY contextMoveMsgMenu.accesskey "F">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Resinte bestimmingen">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Resint">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favoriten">
