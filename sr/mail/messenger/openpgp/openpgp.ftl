@@ -107,6 +107,7 @@ import-info-no-keys = Ниједан кључ није увезен.
 
 ## Strings in enigmailKeyManager.js
 
+dlg-button-delete = &Обриши
 
 ## Account settings export output
 

@@ -191,6 +191,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Са звездицом
     .aria-label = Са звездицом
+message-header-delete =
+    .label = Обриши
+    .tooltiptext = Обриши ову поруку
+message-header-undelete =
+    .label = Врати
+    .tooltiptext = Опозови брисање ове поруке
 
 ## Message header cutomize panel
 
