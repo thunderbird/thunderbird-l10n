@@ -270,6 +270,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Csillagozott
     .aria-label = Csillagozott
+message-header-delete =
+    .label = Törlés
+    .tooltiptext = Üzenet törlése
+message-header-undelete =
+    .label = Törlés visszavonása
+    .tooltiptext = Üzenet törlésének visszavonása
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -468,3 +474,6 @@ quota-panel-percent-used = { $percent }% tele
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Megjelölés olvasottként
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Nincs művelet

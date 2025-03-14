@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = A levelek tulajdonságainak és címk�
 webext-perms-description-messagesTags = Üzenetcímkék létrehozása, módosítása és törlése
 webext-perms-description-messagesTagsList = Üzenetcímkék felsorolása
 webext-perms-description-sensitiveDataUpload = A bizalmas felhasználói adatok átküldése egy távoli kiszolgálóra további feldolgozás céljából (ha engedélyezte)
+webext-perms-description-messengerSettings = A { -brand-short-name } beállításainak olvasása

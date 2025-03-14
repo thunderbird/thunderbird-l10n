@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Törlés
     .tooltiptext = Törlés
+multi-message-undelete-button =
+    .label = Törlés visszavonása
+    .tooltiptext = Törlés visszavonása
