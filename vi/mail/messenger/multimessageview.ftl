@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Xóa
     .tooltiptext = Xóa
+multi-message-undelete-button =
+    .label = Hoàn tác xoá
+    .tooltiptext = Hoàn tác xoá

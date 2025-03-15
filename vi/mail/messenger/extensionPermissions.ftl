@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Thay đổi thuộc tính và nhãn c�
 webext-perms-description-messagesTags = Tạo, sửa đổi và xóa các nhãn thư
 webext-perms-description-messagesTagsList = Liệt kê các nhãn thư
 webext-perms-description-sensitiveDataUpload = Chuyển dữ liệu nhạy cảm của người dùng (nếu quyền truy cập đã được cấp) sang máy chủ từ xa để xử lý thêm
+webext-perms-description-messengerSettings = Đọc cài đặt { -brand-short-name }

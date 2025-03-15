@@ -475,7 +475,7 @@
 <!ENTITY replyAllButton.label "Trả lời tất cả">
 <!ENTITY replyListButton.label "Trả lời danh sách">
 <!ENTITY forwardButton.label "Chuyển tiếp">
-<!ENTITY fileButton.label "Xếp">
+<!ENTITY fileButton.label "Tập tin">
 <!ENTITY archiveButton.label "Lưu trữ">
 <!ENTITY openConversationButton.label "Hội thoại">
 <!ENTITY nextButton.label "Tiếp theo">
