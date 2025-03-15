@@ -95,6 +95,11 @@ account-hub-adding-account-subheader = Opětovné otestování nastavení konfig
 account-hub-lookup-email-configuration-title = Vyhledává se konfigurace
 account-hub-lookup-email-configuration-subheader = Zkouší se běžné názvy serverů…
 account-hub-email-account-added-title = Účet byl úspěšně přidán
+account-hub-find-account-settings-failed =
+    { -brand-full-name.case-status ->
+        [with-cases] { -brand-short-name(case: "dat") } se nepodařilo najít nastavení vašeho e-mailového účtu.
+       *[no-cases] Aplikaci { -brand-short-name } se nepodařilo najít nastavení vašeho e-mailového účtu.
+    }
 account-hub-find-settings-failed =
     { -brand-full-name.case_status ->
         [with-cases] { -brand-full-name(case: "gen") } se nepodařilo najít nastavení vašeho poštovního účtu.
