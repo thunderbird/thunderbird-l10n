@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Ταυτότητα">
 <!ENTITY identityDesc.label "Κάθε λογαριασμός έχει μια ταυτότητα, η οποία αποτελείται από πληροφορίες που σας ταυτοποιούν στους παραλήπτες των μηνυμάτων σας.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Εισαγάγετε το όνομα που θέλετε να εμφανίζεται στο πεδίο «Από» των εξερχομένων μηνυμάτων σας">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(για παράδειγμα, «Γιώργος Παπαδόπουλος»).">
 <!ENTITY fullnameLabel.label "Το όνομά σας:">
 <!ENTITY fullnameLabel.accesskey "Τ">
-
 <!ENTITY emailLabel.label "Διεύθυνση email:">
 <!ENTITY emailLabel.accesskey "θ">
 
@@ -40,11 +37,9 @@
 <!ENTITY accnameDesc.label "Εισαγάγετε το όνομα με το οποίο θα αναγνωρίζετε αυτόν τον λογαριασμό (για παράδειγμα, «Λογαριασμός εργασίας», «Λογαριασμός οικίας» ή «Λογαριασμός συζητήσεων»).">
 <!ENTITY accnameLabel.label "Όνομα λογαριασμού:">
 <!ENTITY accnameLabel.accesskey "μ">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Συγχαρητήρια!">
-<!ENTITY completionText.label "Παρακαλώ βεβαιωθείτε ότι οι εξής πληροφορίες είναι σωστές.">
+<!ENTITY completionText.label "Βεβαιωθείτε ότι οι εξής πληροφορίες είναι σωστές.">
 <!ENTITY newsServerNamePrefix.label "Όνομα διακομιστή συζητήσεων (NNTP):">
 <!ENTITY clickFinish.label "Κάντε κλικ στο «Τέλος» για αποθήκευση των ρυθμίσεων και κλείσιμο του βοηθού λογαριασμών.">
 <!ENTITY clickFinish.labelMac "Κάντε κλικ στο «Τέλος» για αποθήκευση των ρυθμίσεων και κλείσιμο του βοηθού λογαριασμών.">

@@ -27,8 +27,8 @@ options-encryption-key-backup = Αντίγραφο ασφαλείας κλειδ
 options-encryption-cross-signing = Διασταυρούμενη υπογραφή: { $status }
 options-encryption-status-ok = OK
 options-encryption-status-not-ok = μη έτοιμη
-options-encryption-need-backup-passphrase = Παρακαλώ εισαγάγετε τη φράση πρόσβασης εφεδρικού κλειδιού στις επιλογές πρωτοκόλλου.
-options-encryption-set-up-secret-storage = Για να ρυθμίσετε τον μυστικό χώρο αποθήκευσης, παρακαλώ χρησιμοποιήστε κάποιο άλλο πρόγραμμα-πελάτη και έπειτα, εισαγάγετε τη φράση πρόσβασης εφεδρικού κλειδιού στην καρτέλα «Γενικά».
+options-encryption-need-backup-passphrase = Εισαγάγετε τη φράση πρόσβασης εφεδρικού κλειδιού στις επιλογές πρωτοκόλλου.
+options-encryption-set-up-secret-storage = Για να ρυθμίσετε τον μυστικό χώρο αποθήκευσης, χρησιμοποιήστε κάποιο άλλο πρόγραμμα-πελάτη και έπειτα, εισαγάγετε τη φράση πρόσβασης εφεδρικού κλειδιού στην καρτέλα «Γενικά».
 options-encryption-set-up-backup-and-cross-signing = Για να ενεργοποιήσετε τα αντίγραφα ασφαλείας κλειδιών κρυπτογράφησης και τη διασταυρούμενη υπογραφή, εισαγάγετε τη φράση πρόσβασης εφεδρικού κλειδιού στην καρτέλα «Γενικά» ή επαληθεύστε την ταυτότητα μίας από τις παρακάτω συνεδρίες.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })

@@ -210,7 +210,7 @@ error-not-channel-op = Δεν είστε συντονιστής του κανα�
 error-not-channel-owner = Δεν είστε ιδιοκτήτης του καναλιού του { $name }.
 #    $name is the channel name.
 error-wrong-key = Δεν είναι δυνατή η σύνδεση στο «{ $name }», μη έγκυρος κωδικός πρόσβασης καναλιού.
-error-send-message-failed = Προέκυψε σφάλμα κατά την αποστολή του τελευταίου σας μηνύματος. Παρακαλώ δοκιμάστε ξανά μόλις γίνει επανασύνδεση.
+error-send-message-failed = Προέκυψε σφάλμα κατά την αποστολή του τελευταίου σας μηνύματος. Δοκιμάστε ξανά μόλις γίνει επανασύνδεση.
 #    $name is the channel the user tried to join, $details is the channel
 #    he was forwarded to.
 error-channel-forward = Δεν μπορείτε να συνδεθείτε στο «{ $name }» και ανακατευθυνθήκατε αυτόματα στο «{ $details }».
