@@ -72,6 +72,8 @@ calendar-view-toggle-month = Måned
 
 ## Menu on calendar control bar
 
+calendar-control-bar-menu-button =
+    .title = Innstillinger for kalendervisning
 calendar-find-events-menu-option =
     .label = Finn hendelsesrute
 calendar-hide-weekends-option =

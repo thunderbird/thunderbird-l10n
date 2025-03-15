@@ -4,6 +4,6 @@
 
 buddy-username = Brukernavn
 buddy-account = Konto
-contact-tags = Tagger
+contact-tags = Etiketter
 encryption-tag = Krypteringsstatus
 message-status = Melding kryptert
