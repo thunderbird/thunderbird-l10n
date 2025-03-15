@@ -28,6 +28,7 @@ options-encryption-cross-signing = Krysssignering: { $status }
 options-encryption-status-ok = ok
 options-encryption-status-not-ok = ikke klar
 options-encryption-need-backup-passphrase = Skriv inn passordfrasen for backupnøkkelen i protokollinnstillingene.
+options-encryption-set-up-secret-storage = For å sette opp hemmelig lagring, bruk en annen klient og skriv deretter inn passordfrasen for sikkerhetskopinøkkelen i «Generelt»-fanen.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
@@ -44,6 +45,7 @@ connection-request-access = Fullfører godkjennelse
 connection-error-no-supported-flow = Server tilbyr ingen kompatibel innloggingsflyt.
 connection-error-auth-cancelled = Du avbrøt godkjenningsprosessen.
 connection-error-session-ended = Økten ble logget av.
+connection-error-server-not-found = Kunne ikke identifisere Matrix-serveren for den gitte Matrix-kontoen.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -85,6 +87,8 @@ power-level-room-avatar = Endre romavatar: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-main-address = Endre hovedadresse for rommet: { $powerLevelName }
 #    $powerLevelName is the power level name
+power-level-history = Endre historikksynlighet: { $powerLevelName }
+#    $powerLevelName is the power level name
 power-level-room-name = Endre romnavn: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-change-permissions = Endre tillatelser: { $powerLevelName }
@@ -100,6 +104,8 @@ power-level-events-default = Standardhendelser: { $powerLevelName }
 power-level-state-default = Endre innstilling: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-encryption = Slå på romkryptering: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-topic = Angi emne for rommet: { $powerLevelName }
 # LOCALIZATION NOTE (detail-*):
 #    These are the string representations of different matrix properties.
 #    $value will typically be strings with the actual values.
@@ -119,6 +125,15 @@ detail-moderator = Moderator: { $value }
 detail-alias = Alias: { $value }
 # $value Example placeholder: "can_join"
 detail-guest = Gjestetilgang: { $value }
+# This is a heading, followed by the power-level-* strings
+detail-power = Brukernivå:
+# LOCALIZATION NOTE (command-*):
+#   These are the help messages for each command, the $commandName is the command name
+#   Each command first gives the parameter it accepts and then a description of
+#   the command.
+command-ban = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Utesteng brukeren med bruker-ID fra rommet med en valgfri begrunnelse. Krever tillatelse for å utestenge brukere.
+# $commandName is the command name
+command-invite = { $commandName } &lt;userId&gt;: Inviter brukeren til rommet.
 # $commandName is the command name
 command-detail = { $commandName }: Vis detaljene for rommet.
 # LOCALIZATION NOTE (message-*):
