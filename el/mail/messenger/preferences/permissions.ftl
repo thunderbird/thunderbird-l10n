@@ -35,5 +35,5 @@ permission-can-label = Αποδοχή
 permission-can-access-first-party-label = Αποδοχή μόνο πρώτου μέρους
 permission-can-session-label = Αποδοχή για τη συνεδρία
 permission-cannot-label = Φραγή
-invalid-uri-message = Παρακαλώ εισαγάγετε ένα έγκυρο όνομα κεντρικού υπολογιστή
+invalid-uri-message = Εισαγάγετε ένα έγκυρο όνομα κεντρικού υπολογιστή
 invalid-uri-title = Μη έγκυρο όνομα κεντρικού υπολογιστή

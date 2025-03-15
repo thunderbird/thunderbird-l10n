@@ -797,7 +797,7 @@ sync-pane-header = Συγχρονισμός
 sync-pane-email-not-verified = Το «{ $userEmail }» δεν έχει επαληθευτεί.
 # Variables:
 # $userEmail (String) - The email logged into Sync.
-sync-signedin-login-failure = Παρακαλώ κάντε είσοδο για επανασύνδεση στο «{ $userEmail }»
+sync-signedin-login-failure = Πραγματοποιήστε σύνδεση για επανασύνδεση στο «{ $userEmail }»
 sync-pane-resend-verification = Εκ νέου αποστολή επαλήθευσης
 sync-pane-sign-in = Σύνδεση
 sync-pane-remove-account = Αφαίρεση λογαριασμού

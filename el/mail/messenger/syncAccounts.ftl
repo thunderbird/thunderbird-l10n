@@ -13,7 +13,7 @@ sync-verification-sent-title = Η επαλήθευση απεστάλη
 # $userEmail (String) - Email address of the account used for sync.
 sync-verification-sent-body = Ένας σύνδεσμος επαλήθευσης έχει σταλεί στο { $userEmail }.
 sync-verification-not-sent-title = Δεν είναι δυνατή η αποστολή επαλήθευσης
-sync-verification-not-sent-body = Δεν είνα δυνατή η αποστολή του email επαλήθευσης αυτήν τη στιγμή, παρακαλώ δοκιμάστε ξανά αργότερα.
+sync-verification-not-sent-body = Δεν είνα δυνατή η αποστολή του email επαλήθευσης αυτήν τη στιγμή, δοκιμάστε ξανά αργότερα.
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
