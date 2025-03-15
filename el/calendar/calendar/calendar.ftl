@@ -453,8 +453,8 @@ tooltip-calendar-disabled =
 tooltip-calendar-read-only =
     .title = Το ημερολόγιο { $name } είναι μόνο για ανάγνωση
 task-edit-instructions = Κάντε κλικ εδώ για προσθήκη νέας εργασίας
-task-edit-instructions-readonly = Παρακαλώ επιλέξτε ένα εγγράψιμο ημερολόγιο
-task-edit-instructions-capability = Παρακαλώ επιλέξτε ένα ημερολόγιο που να υποστηρίζει εργασίες
+task-edit-instructions-readonly = Επιλέξτε ένα ημερολόγιο με δυνατότητα εγγραφής
+task-edit-instructions-capability = Επιλέξτε ένα ημερολόγιο που να υποστηρίζει εργασίες
 event-details-start-date = Έναρξη:
 event-details-end-date = Λήξη:
 # LOCALIZATION NOTE (datetime-with-timezone):
