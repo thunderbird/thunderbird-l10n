@@ -254,6 +254,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Gắn sao
     .aria-label = Gắn sao
+message-header-delete =
+    .label = Xoá
+    .tooltiptext = Xoá thư này
+message-header-undelete =
+    .label = Hoàn tác xoá
+    .tooltiptext = Hoàn tác xoá thư này
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -293,6 +299,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Hiển thị tất cả header
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = Hiển thị công tắc chế độ tối cho thư
+    .accesskey = d
 
 ## Action Button Context Menu
 
@@ -444,3 +453,6 @@ quota-panel-percent-used = { $percent }% đã đầy
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Đánh dấu là đã đọc
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Không làm gì

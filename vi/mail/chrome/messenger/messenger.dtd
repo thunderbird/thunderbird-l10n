@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "D">
 <!ENTITY contextMoveMsgMenu.label "Di chuyển đến">
 <!ENTITY contextMoveMsgMenu.accesskey "D">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Điểm đến gần đây">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Gần đây">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "G">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Ưa thích">
