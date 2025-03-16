@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Genel
 category-general =
     .tooltiptext = { pane-general-title }
+pane-appearance-title = Görünüm
+category-appearance =
+    .tooltiptext = { pane-appearance-title }
 pane-compose-title = Düzenleme
 category-compose =
     .tooltiptext = Düzenleme
@@ -424,6 +427,11 @@ conversation-view-checkbox-label =
     .accesskey = z
 conversation-view-checkbox-description = Gloda’ya dayalı deneysel özellik. Kullanmak sizin sorumluluğunuzdadır.
 label-experiment = Deneysel
+dark-message-mode-legend = İleti okuyucu stili
+dark-message-mode-checkbox-label =
+    .label = Koyu ileti modunu etkinleştir
+    .accesskey = K
+dark-message-mode-checkbox-description = İleti gövdesinin koyu temalara adapte olmasını sağlayan deneysel özellik
 account-hub-legend = Hesap merkezi
 account-hub-checkbox-label =
     .label = Hesapları yeni Hesap Merkezi’nde oluştur
@@ -881,6 +889,7 @@ qr-export-more-accounts = Daha fazla hesabı dışa aktar
 
 ## Appearance Tab
 
+appearance-category-header = Görünüm
 default-flag-threaded =
     .label = Dizili
 default-flag-grouped =

@@ -270,6 +270,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Yıldızlı
     .aria-label = Yıldızlı
+message-header-delete =
+    .label = Sil
+    .tooltiptext = Bu iletiyi sil
+message-header-undelete =
+    .label = Silmeyi geri al
+    .tooltiptext = Bu iletinin silinmesini geri al
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -309,6 +315,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Tüm üst bilgileri göster
     .accesskey = ü
+message-header-dark-message-toggle =
+    .label = Koyu ileti modu düğmesini göster/gösterme
+    .accesskey = o
 
 ## Action Button Context Menu
 
@@ -465,3 +474,6 @@ quota-panel-percent-used = %{ $percent } dolu
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Okundu olarak işaretle
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Hiçbir şey yapma

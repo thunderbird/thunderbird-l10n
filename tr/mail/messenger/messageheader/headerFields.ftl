@@ -101,3 +101,9 @@ message-ids-field-show-all = Tümünü göster
 
 ## Dark Message Mode
 
+dark-message-mode-disable-toggle =
+    .title = Koyu ileti modunu kapat
+dark-message-mode-toggle-enabled =
+    .title = Koyu ileti modunu kapat
+dark-message-mode-toggle-disabled =
+    .title = Koyu ileti modunu etkinleştir

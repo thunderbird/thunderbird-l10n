@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Sil
     .tooltiptext = Sil
+multi-message-undelete-button =
+    .label = Silmeyi geri al
+    .tooltiptext = Silmeyi geri al
