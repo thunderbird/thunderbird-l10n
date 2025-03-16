@@ -903,7 +903,7 @@ qr-export-more-accounts = Exportovať ďalšie účty
 
 appearance-category-header = Vzhľad
 default-message-list-legend = Zoznam správ
-default-message-list-description = Definuje predvolené možnosti zoskupenia a triedenia pre novovytvorené priečinky.
+default-message-list-description = Definuje predvolené nastavenia zoskupenia a triedenia pošty pre novovytvorené priečinky.
 default-flag-label =
     .value = Predvolené usporiadanie:
 default-flag-unthreaded =
