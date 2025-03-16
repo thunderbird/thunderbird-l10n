@@ -32,3 +32,8 @@ webext-perms-description-messagesUpdate = Měnit vlastnosti a štítky vašich p
 webext-perms-description-messagesTags = Vytvářet, upravovat a mazat štítky zpráv
 webext-perms-description-messagesTagsList = Procházet štítky zpráv
 webext-perms-description-sensitiveDataUpload = Přenášet důvěrná data uživatele (pokud byl udělen přístup) na vzdálený server pro další zpracování
+webext-perms-description-messengerSettings =
+    { -brand-short-name.case-status ->
+        [with-cases] Číst nastavení { -brand-short-name(case: "gen") }
+       *[no-cases] Číst nastavení aplikace { -brand-short-name }
+    }
