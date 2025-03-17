@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = E-posta iletilerinizin özelliklerini 
 webext-perms-description-messagesTags = İleti etiketleri oluşturma, değiştirme ve silme
 webext-perms-description-messagesTagsList = İleti etiketlerini listeleme
 webext-perms-description-sensitiveDataUpload = Hassas kullanıcı verilerini (erişim izni verilmişse) daha fazla işlenmek üzere uzak sunuculara gönderme
+webext-perms-description-messengerSettings = { -brand-short-name } ayarlarını okuma
