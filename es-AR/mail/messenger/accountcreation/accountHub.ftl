@@ -95,7 +95,7 @@ account-hub-adding-account-subheader = Volver a probar los ajustes de configurac
 account-hub-lookup-email-configuration-title = Buscando configuración
 account-hub-lookup-email-configuration-subheader = Intentando nombres de servidor comunes…
 account-hub-email-account-added-title = Cuenta agregada correctamente
-account-hub-find-account-settings-failed = { -brand-short-name } no pudo encontrar la configuración para su cuenta de correo electrónico.
+account-hub-find-account-settings-failed = { -brand-short-name } no pudo encontrar la configuración para la cuenta de correo electrónico.
 account-hub-find-settings-failed = { -brand-full-name } no pudo encontrar la configuración para su cuenta de correo electrónico.
 account-hub-notification-show-more = Mostrar más
 account-hub-notification-show-less = Mostrar menos
@@ -120,7 +120,7 @@ account-hub-config-success = Configuración encontrada en Mozilla ISPDB
 account-hub-password-info = Sus credenciales solo se almacenarán localmente en su computadora
 account-hub-creating-account = Creando cuenta…
 account-hub-sync-accounts-found = { -brand-short-name } encontró algunos servicios conectados
-account-hub-sync-accounts-not-found = { -brand-short-name } no pudo encontrar los servicios conectados
+account-hub-sync-accounts-not-found = { -brand-short-name } no pudo encontrar servicios conectados
 account-hub-sync-accounts-failure = { -brand-short-name } no pudo conectar los servicios seleccionados
 account-hub-sync-success = Thunderbird encontró algunos servicios conectados
 account-hub-sync-failure = Thunderbird no pudo encontrar servicios conectados
@@ -148,7 +148,7 @@ account-hub-port-error-text = El puerto debe estar entre 1 y 65535
 account-hub-username-error-text = Se requiere nombre de usuario
     .title = Se requiere nombre de usuario
 account-hub-oauth-pending = Esperando autorización en la ventana emergente de inicio de sesión…
-account-hub-addon-install-needed = { -brand-short-name } no es compatible de forma nativa con este servidor. Para acceder al correo electrónico de Exchange, <a data-l10n-name="addon-install"> instala un complemento de terceros como Owl (de pago). </a>
-account-hub-addon-error = Falló la instalación del complemento. Inténtalo de nuevo o contacta al autor del complemento para obtener ayuda.
+account-hub-addon-install-needed = { -brand-short-name } no es compatible de forma nativa con este servidor. Para acceder al correo electrónico de Exchange, <a data-l10n-name="addon-install">instale un complemento de terceros como Owl (pago).</a>
+account-hub-addon-error = Falló la instalación del complemento. Pruebe nuevamente o contacte al autor del complemento para obtener ayuda.
 account-hub-security-warning = <span data-l10n-name = "security-warning"> Advertencia: Se detectó un servidor de correo inseguro. </span> Este servidor carece de cifrado, lo que expone su contraseña y datos. Contacte a su administrador para asegurar la conexión o proceda bajo su propio riesgo. <a data-l10n-name="faq-link"> Para más información, vea las preguntas frecuentes. </a>
 account-hub-addon-needed = { -brand-full-name } no es compatible de forma nativa con este servidor. Para acceder al correo electrónico de Exchange, <a data-l10n-name="addon-install">instale un complemento de terceros como Owl (pago).</a>
