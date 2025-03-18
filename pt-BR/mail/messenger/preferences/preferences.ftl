@@ -888,3 +888,5 @@ default-sort-subject =
     .label = Assunto
 default-sort-id =
     .label = ID
+default-sort-location =
+    .label = Local
