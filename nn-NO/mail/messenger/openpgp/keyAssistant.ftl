@@ -8,6 +8,11 @@
 
 ## Resolve section
 
+openpgp-key-assistant-no-key-available = Ingen nøkkel tilgjengeleg.
+openpgp-key-assistant-multiple-keys = Fleire nøklar er tilgjengelege.
+# Variables:
+# $date (String) - The expiration date of the key.
+openpgp-key-assistant-key-unaccepted-expired-one = Nøkkelen gjekk ut: { $date }
 openpgp-key-assistant-key-fingerprint = Fingeravtrykk
 # Variables:
 # $count (Number) - Number of key sources.

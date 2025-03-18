@@ -18,6 +18,7 @@ message-header-tags-list-name = Etikettar
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
 
+message-header-in-reply-to-field = Svar på<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Få hjelp
