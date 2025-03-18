@@ -273,6 +273,9 @@ message-header-msg-flagged =
 message-header-delete =
     .label = Excluir
     .tooltiptext = Excluir esta mensagem
+message-header-undelete =
+    .label = Restaurar
+    .tooltiptext = Desfazer exclusão desta mensagem
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -468,3 +471,6 @@ quota-panel-percent-used = { $percent }% ocupado
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Marcar como lido
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Não fazer nada
