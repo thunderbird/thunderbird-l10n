@@ -105,6 +105,7 @@ account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Tilrådd
 account-hub-edit-configuration = Rediger konfigurasjon
+account-hub-creating-account = Opprettar konto…
 account-hub-select-all = Merk alle
 account-hub-deselect-all = Merk ingen
 account-hub-no-address-books = Fann ingen adressebøker
