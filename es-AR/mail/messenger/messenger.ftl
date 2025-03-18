@@ -476,4 +476,4 @@ quota-panel-percent-used = { $percent }% lleno
 
 mark-as-read-action = Marcar como leído
 # This is a temporary value. No need to translate unless you want to.
-do-nothing-action = No hagás nada
+do-nothing-action = No hacer nada
