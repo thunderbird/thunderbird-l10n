@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Ստուգել ուղղագրութիւնը">
-
 <!ENTITY misspelledWord.label "Սխալ գրուած բառ․">
 <!ENTITY wordEditField.label "Փոխարինել․">
 <!ENTITY wordEditField.accessKey "փ">

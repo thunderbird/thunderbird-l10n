@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Isiklik sõnaraamat">
-
 <!ENTITY wordEditField.label "Uus sõna:">
 <!ENTITY wordEditField.accessKey "U">
 <!ENTITY AddButton.label "Lisa">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "n">
 <!ENTITY RemoveButton.label "Eemalda">
 <!ENTITY RemoveButton.accessKey "E">
-
 <!ENTITY CloseButton.label "Sulge">
 <!ENTITY CloseButton.accessKey "u">

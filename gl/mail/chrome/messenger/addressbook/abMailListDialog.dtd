@@ -3,19 +3,18 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Title -->
-<!ENTITY mailListWindowAdd.title        "Nova lista de correo">
-
+<!ENTITY mailListWindowAdd.title "Nova lista de correo">
 <!-- Labels and Access Keys -->
-<!ENTITY addToAddressBook.label         "Engadir a: ">
-<!ENTITY addToAddressBook.accesskey     "E">
-<!ENTITY ListName.label                 "Nome da lista: ">
-<!ENTITY ListName.accesskey             "N">
-<!ENTITY ListNickName.label             "Alcume da lista: ">
-<!ENTITY ListNickName.accesskey         "A">
-<!ENTITY ListDescription.label          "Descrición: ">
-<!ENTITY ListDescription.accesskey      "e">
+<!ENTITY addToAddressBook.label "Engadir a: ">
+<!ENTITY addToAddressBook.accesskey "E">
+<!ENTITY ListName.label "Nome da lista: ">
+<!ENTITY ListName.accesskey "N">
+<!ENTITY ListNickName.label "Alcume da lista: ">
+<!ENTITY ListNickName.accesskey "A">
+<!ENTITY ListDescription.label "Descrición: ">
+<!ENTITY ListDescription.accesskey "e">
 <!-- See bug 58485, when we implement drag and drop, add 'or drag addresses' back in -->
-<!ENTITY AddressTitle.label             "Introduza enderezos de correo electrónico para engadilos na lista de correo:">
-<!ENTITY AddressTitle.accesskey         "m">
-<!ENTITY UpButton.label                 "Subir">
-<!ENTITY DownButton.label               "Baixar">
+<!ENTITY AddressTitle.label "Introduza enderezos de correo electrónico para engadilos na lista de correo:">
+<!ENTITY AddressTitle.accesskey "m">
+<!ENTITY UpButton.label "Subir">
+<!ENTITY DownButton.label "Baixar">

@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "أدرج رياضيات">
-
 <!ENTITY sourceEditField.label "أدخل كود لاتك:">
-
 <!ENTITY options.label "الخيارات">
 <!ENTITY optionInline.label "معادلة داخل السطر">
 <!ENTITY optionInline.accesskey "د">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "س">
 <!ENTITY optionRTL.label "من اليمين إلى اليسار">
 <!ENTITY optionRTL.accesskey "ي">
-
 <!ENTITY insertButton.label "أدرج">
 <!ENTITY insertButton.accesskey "د">

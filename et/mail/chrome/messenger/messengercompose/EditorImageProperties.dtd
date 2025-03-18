@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Pildi omadused">
-
 <!ENTITY pixelsPopup.value "pikslit">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Pildi asukoht:">
 <!ENTITY locationEditField.accessKey "P">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Sisesta tekst, mida näidatakse pildi puudumisel">
 <!ENTITY noAltText.label "Alternatiivteksti ei kasutata">
 <!ENTITY noAltText.accessKey "r">
-
 <!ENTITY previewBox.label "Pildi eelvaade">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Tegelik suurus:">
 <!ENTITY actualSizeRadio.label "Tegelik suurus">
 <!ENTITY actualSizeRadio.accessKey "T">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Proportsioonid säilitatakse">
 <!ENTITY constrainCheckbox.accessKey "P">
 <!ENTITY constrainCheckbox.tooltip "Säilitab pildi proportsioonid">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Hüperpilt">
 <!ENTITY removeImageMapButton.label "Eemalda">
 <!ENTITY removeImageMapButton.accessKey "E">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Teksti joondus pildi suhtes">
 <!ENTITY bottomPopup.value "Kohakuti alumise servaga">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "Keskel">
 <!ENTITY wrapRightPopup.value "Mähitud paremalt">
 <!ENTITY wrapLeftPopup.value "Mähitud vasakult">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Vahed">
 <!ENTITY leftRightEditField.label "Vasakul ja paremal:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "a">
 <!ENTITY borderEditField.label "Ühtlane piirjoon:">
 <!ENTITY borderEditField.accessKey "h">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Piirjoone näitamine lingitud pildi ümber">
 <!ENTITY showImageLinkBorder.accessKey "m">
 <!ENTITY LinkAdvancedEditButton.label "Lingi täpsem muutmine…">
 <!ENTITY LinkAdvancedEditButton.accessKey "L">
 <!ENTITY LinkAdvancedEditButton.tooltip "Lisa või muuda HTMLi atribuute, stiilide atribuute ja JavaScripti">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Vorm">
 <!ENTITY imageLocationTab.label "Asukoht">

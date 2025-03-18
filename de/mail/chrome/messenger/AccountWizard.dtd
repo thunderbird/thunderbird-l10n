@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Identität">
 <!ENTITY identityDesc.label "Diese Informationen erhalten Empfänger Ihrer Nachrichten.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Geben Sie den Namen an, der im Feld &quot;Von&quot; Ihrer gesendeten Nachrichten erscheinen soll">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(zum Beispiel &quot;Hermann Maier&quot;).">
 <!ENTITY fullnameLabel.label "Ihr Name:">
 <!ENTITY fullnameLabel.accesskey "N">
-
 <!ENTITY emailLabel.label "E-Mail-Adresse:">
 <!ENTITY emailLabel.accesskey "E">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Geben Sie eine Bezeichnung für das Konto ein, mit der das Konto im Programm erscheinen soll (zum Beispiel &quot;Arbeits-Konto&quot;, &quot;Privat-Konto&quot; oder &quot;News-Konto&quot;).">
 <!ENTITY accnameLabel.label "Kontoname:">
 <!ENTITY accnameLabel.accesskey "K">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Zusammenfassung">
 <!ENTITY completionText.label "Bitte prüfen Sie, ob die Angaben korrekt sind:">
 <!ENTITY newsServerNamePrefix.label "News-Server (NNTP):">

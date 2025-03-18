@@ -3,9 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Hisob sozlamalari">
-
 <!ENTITY accountActionsButton.label "Hisob amallari">
 <!ENTITY accountActionsButton.accesskey "H">
 <!ENTITY addMailAccountButton.label "E-pochta hisobini qo‘shish…">
@@ -18,4 +16,3 @@
 <!ENTITY setDefaultButton.accesskey "A">
 <!ENTITY removeButton.label "Hisobni olib tashlash">
 <!ENTITY removeButton.accesskey "o">
-

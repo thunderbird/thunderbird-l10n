@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Gosodiadau Cyfrifon">
-<!ENTITY  accountManagerCloseButton.label "Cau">
-
+<!ENTITY accountManagerCloseButton.label "Cau">
 <!ENTITY accountActionsButton.label "Gweithredoedd Cyfrif">
 <!ENTITY accountActionsButton.accesskey "G">
 <!ENTITY addMailAccountButton.label "Ychwanegu Cyfrif E-bost…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "R">
 <!ENTITY removeButton.label "Tynnu Cyfrif">
 <!ENTITY removeButton.accesskey "T">
-
 <!ENTITY addonsButton.label "Estyniadau a Themâu">

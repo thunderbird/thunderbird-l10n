@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "Január" >
-<!ENTITY month.2.name "Február" >
-<!ENTITY month.3.name "Marec" >
-<!ENTITY month.4.name "Apríl" >
-<!ENTITY month.5.name "Máj" >
-<!ENTITY month.6.name "Jún" >
-<!ENTITY month.7.name "Júl" >
-<!ENTITY month.8.name "August" >
-<!ENTITY month.9.name "September" >
-<!ENTITY month.10.name "Október" >
-<!ENTITY month.11.name "November" >
-<!ENTITY month.12.name "December" >
-
+<!ENTITY month.1.name "Január">
+<!ENTITY month.2.name "Február">
+<!ENTITY month.3.name "Marec">
+<!ENTITY month.4.name "Apríl">
+<!ENTITY month.5.name "Máj">
+<!ENTITY month.6.name "Jún">
+<!ENTITY month.7.name "Júl">
+<!ENTITY month.8.name "August">
+<!ENTITY month.9.name "September">
+<!ENTITY month.10.name "Október">
+<!ENTITY month.11.name "November">
+<!ENTITY month.12.name "December">
 <!ENTITY showToday.tooltip "Prejsť na dnešný deň">
 <!ENTITY onedayforward.tooltip "Jeden deň dopredu">
 <!ENTITY onedaybackward.tooltip "Jeden deň dozadu">

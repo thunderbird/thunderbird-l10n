@@ -8,7 +8,6 @@
 <!ENTITY author.label "Szerző">
 <!ENTITY organizationField4.label "Szervezet">
 <!ENTITY replyToField4.label "Válaszcím">
-
 <!ENTITY subjectField4.label "Tárgy">
 <!ENTITY ccField4.label "Másolat">
 <!ENTITY bccField4.label "Rejtett másolat">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Üzenetazonosító">
 <!ENTITY inReplyToField4.label "Válasz erre">
 <!ENTITY originalWebsite4.label "Webhely">
-
 <!ENTITY hdrArchiveButton1.label "Archiválás">
 <!ENTITY hdrArchiveButton1.tooltip "Üzenet archiválása">
 <!ENTITY hdrSmartReplyButton1.label "Intelligens válasz">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Az üzenet megjelölése szemétként">
 <!ENTITY hdrTrashButton1.label "Törlés">
 <!ENTITY hdrTrashButton1.tooltip "Az üzenet törlése">
-
 <!ENTITY hdrViewToolbarShowFull.label "Ikonok és szöveg">
 <!ENTITY hdrViewToolbarShowFull.accesskey "I">
 <!ENTITY hdrViewToolbarShowIcons.label "Csak ikonok">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "s">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "A „Válasz a feladónak” mindig megjelenik">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "V">
-
 <!ENTITY otherActionsButton2.label "Több">
 <!ENTITY otherActionsButton.tooltip "További műveletek">
 <!ENTITY otherActionsOpenConversation1.label "Megnyitás beszélgetésben">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "F">
 <!ENTITY otherActionsPrint1.label "Nyomtatás…">
 <!ENTITY otherActionsPrint1.accesskey "N">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Melléklet ablaktábla megjelenítése induláskor">
-<!ENTITY startExpandedCmd.accesskey    "p">
-
+<!ENTITY startExpandedCmd.label "Melléklet ablaktábla megjelenítése induláskor">
+<!ENTITY startExpandedCmd.accesskey "p">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Megnyitás">
-<!ENTITY openAttachmentCmd.accesskey    "M">
-<!ENTITY saveAsAttachmentCmd.label    "Mentés másként…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "s">
-<!ENTITY detachAttachmentCmd.label    "Leválasztás…">
-<!ENTITY detachAttachmentCmd.accesskey    "L">
-<!ENTITY deleteAttachmentCmd.label    "Törlés">
-<!ENTITY deleteAttachmentCmd.accesskey    "T">
-<!ENTITY openAllAttachmentsCmd.label    "Összes megnyitása…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "m">
-<!ENTITY saveAllAttachmentsCmd.label    "Összes mentése…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "e">
-<!ENTITY detachAllAttachmentsCmd.label    "Összes leválasztása…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "s">
-<!ENTITY deleteAllAttachmentsCmd.label    "Összes törlése…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "t">
-
+<!ENTITY openAttachmentCmd.label "Megnyitás">
+<!ENTITY openAttachmentCmd.accesskey "M">
+<!ENTITY saveAsAttachmentCmd.label "Mentés másként…">
+<!ENTITY saveAsAttachmentCmd.accesskey "s">
+<!ENTITY detachAttachmentCmd.label "Leválasztás…">
+<!ENTITY detachAttachmentCmd.accesskey "L">
+<!ENTITY deleteAttachmentCmd.label "Törlés">
+<!ENTITY deleteAttachmentCmd.accesskey "T">
+<!ENTITY openAllAttachmentsCmd.label "Összes megnyitása…">
+<!ENTITY openAllAttachmentsCmd.accesskey "m">
+<!ENTITY saveAllAttachmentsCmd.label "Összes mentése…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "e">
+<!ENTITY detachAllAttachmentsCmd.label "Összes leválasztása…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "s">
+<!ENTITY deleteAllAttachmentsCmd.label "Összes törlése…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "t">
 <!ENTITY openAttachment.tooltip "Csatolt fájl megnyitása">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Tartalmazó mappa megnyitása">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "m">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Megjelenítés a Finderben">
+<!ENTITY detachedAttachmentFolder.show.label "Tartalmazó mappa megnyitása">
+<!ENTITY detachedAttachmentFolder.show.accesskey "m">
+<!ENTITY detachedAttachmentFolder.showMac.label "Megjelenítés a Finderben">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Mentés">
-<!ENTITY saveAttachmentButton1.tooltip     "Csatolt fájl mentése">
-<!ENTITY saveAllAttachmentsButton1.label   "Összes mentése">
+<!ENTITY saveAttachmentButton1.label "Mentés">
+<!ENTITY saveAttachmentButton1.tooltip "Csatolt fájl mentése">
+<!ENTITY saveAllAttachmentsButton1.label "Összes mentése">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Az összes csatolt fájl mentése">
-
-<!ENTITY copyLinkCmd.label        "Hivatkozás címének másolása">
-<!ENTITY copyLinkCmd.accesskey    "v">
-
+<!ENTITY copyLinkCmd.label "Hivatkozás címének másolása">
+<!ENTITY copyLinkCmd.accesskey "v">
 <!ENTITY CopyMessageId.label "Message-ID másolása">
 <!ENTITY CopyMessageId.accesskey "m">
 <!ENTITY OpenMessageForMsgId.label "Az ID-hoz tartozó üzenet megnyitása">

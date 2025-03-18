@@ -3,5 +3,5 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Labels -->
-<!ENTITY name.label      "ชื่อสมุดรายชื่อ:">
-<!ENTITY name.accesskey  "ช">
+<!ENTITY name.label "ชื่อสมุดรายชื่อ:">
+<!ENTITY name.accesskey "ช">

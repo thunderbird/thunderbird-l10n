@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "A">
 <!ENTITY syncGroupTitle.label "Sincronització de missatges">
 <!ENTITY diskspaceGroupTitle.label "Espai de disc">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Sincronitza localment tots els missatges tot i la seva antiguitat">
-<!ENTITY allAutosync.accesskey           "c">
-<!ENTITY ageAutosyncBefore.label         "Sincronitza els més últims">
-<!ENTITY ageAutosync.accesskey           "z">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "Dies">
-<!ENTITY weekAgeInterval.label           "Setmanes">
-<!ENTITY monthAgeInterval.label          "Mesos">
-<!ENTITY yearAgeInterval.label           "Anys">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Sincronitza localment tots els missatges tot i la seva antiguitat">
+<!ENTITY allAutosync.accesskey "c">
+<!ENTITY ageAutosyncBefore.label "Sincronitza els més últims">
+<!ENTITY ageAutosync.accesskey "z">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "Dies">
+<!ENTITY weekAgeInterval.label "Setmanes">
+<!ENTITY monthAgeInterval.label "Mesos">
+<!ENTITY yearAgeInterval.label "Anys">
+<!ENTITY ageAutosyncAfter.label "">

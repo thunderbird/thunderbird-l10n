@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Gebruik pasgemaakte kleure:">
 <!ENTITY customColorsRadio.accessKey "p">
 <!ENTITY customColorsRadio.tooltip "Hierdie kleuropstelling oorheers die leser se blaaieropstelling">
-
 <!ENTITY normalText.label "Gewone teks">
 <!ENTITY normalText.accessKey "G">
 <!ENTITY linkText.label "Skakelteks">

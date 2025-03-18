@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Նկարի յատկութիւներ">
-
 <!ENTITY pixelsPopup.value "Պատկերատարրեր">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Նկարի տեղադրութիւնը.">
 <!ENTITY locationEditField.accessKey "Տ">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Մուտքագրէք գրոյթ՝ պատկերի փոխարէն ցուցադրելու համար">
 <!ENTITY noAltText.label "Մի աւգտագործէք այղընտրանքային նիւթ">
 <!ENTITY noAltText.accessKey "Մ">
-
 <!ENTITY previewBox.label "Պատկերի նախադիտում">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Իրական չափը․">
 <!ENTITY actualSizeRadio.label "Իրական չափ">
 <!ENTITY actualSizeRadio.accessKey "Ի">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Պահպանել համամասնութիւնները">
 <!ENTITY constrainCheckbox.accessKey "հ">
 <!ENTITY constrainCheckbox.tooltip "Պահպանել պատկերի յարաբերակցութիւնը">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Պատկերի քարտէզ">
 <!ENTITY removeImageMapButton.label "Ջնջել">
 <!ENTITY removeImageMapButton.accessKey "Ջ">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Հաւասարեցնել տեքստը պատկերին">
 <!ENTITY bottomPopup.value "Ներքեւում">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "Կենտրոնում">
 <!ENTITY wrapRightPopup.value "Հաւաքել դէպի աջ">
 <!ENTITY wrapLeftPopup.value "Հաւաքել դէպի ձախ">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Բացատում">
 <!ENTITY leftRightEditField.label "Ձախ եւ աջ․">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "Վ">
 <!ENTITY borderEditField.label "Յստակ սահման.">
 <!ENTITY borderEditField.accessKey "Ս">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Ցուցադրել սահմանը կցուած պատկերի շուրջ">
 <!ENTITY showImageLinkBorder.accessKey "Ս">
 <!ENTITY LinkAdvancedEditButton.label "Կցել ընդլայնուած խմբագրումը…">
 <!ENTITY LinkAdvancedEditButton.accessKey "Յ">
 <!ENTITY LinkAdvancedEditButton.tooltip "Աւելացնել կամ փոփոխել HTML֊ի, ոճի յատկանիշները եւ JavaScript-ը">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Ձեւ">
 <!ENTITY imageLocationTab.label "Տեղադրութիւն">

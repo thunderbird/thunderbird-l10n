@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Proprietà immagine">
-
 <!ENTITY pixelsPopup.value "pixel">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Indirizzo immagine:">
 <!ENTITY locationEditField.accessKey "I">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Inserire il testo da visualizzare in mancanza dell’immagine">
 <!ENTITY noAltText.label "Non usare testo alternativo">
 <!ENTITY noAltText.accessKey "N">
-
 <!ENTITY previewBox.label "Anteprima immagine">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Dimensione originale:">
 <!ENTITY actualSizeRadio.label "Dimensione originale">
 <!ENTITY actualSizeRadio.accessKey "D">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Mantieni proporzioni">
 <!ENTITY constrainCheckbox.accessKey "M">
 <!ENTITY constrainCheckbox.tooltip "Mantieni le proporzioni dell’immagine">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Mappa immagine">
 <!ENTITY removeImageMapButton.label "Rimuovi">
 <!ENTITY removeImageMapButton.accessKey "R">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Allineamento del testo rispetto all’immagine:">
 <!ENTITY bottomPopup.value "alla base">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "al centro">
 <!ENTITY wrapRightPopup.value "inserisci a destra">
 <!ENTITY wrapLeftPopup.value "inserisci a sinistra">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Spaziatura">
 <!ENTITY leftRightEditField.label "Destra e sinistra:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "S">
 <!ENTITY borderEditField.label "Bordo pieno:">
 <!ENTITY borderEditField.accessKey "B">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Visualizza un bordo attorno all’immagine per indicare la presenza del collegamento">
 <!ENTITY showImageLinkBorder.accessKey "V">
 <!ENTITY LinkAdvancedEditButton.label "Modifica avanzata collegamento…">
 <!ENTITY LinkAdvancedEditButton.accessKey "M">
 <!ENTITY LinkAdvancedEditButton.tooltip "Aggiunge o modifica attributi HTML, stili e JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Modulo">
 <!ENTITY imageLocationTab.label "Indirizzo">

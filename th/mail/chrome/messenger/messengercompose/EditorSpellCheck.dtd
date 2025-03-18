@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "ตรวจสอบการสะกดคำ">
-
 <!ENTITY misspelledWord.label "คำที่สะกดผิด:">
 <!ENTITY wordEditField.label "แทนที่ด้วย:">
 <!ENTITY wordEditField.accessKey "ย">

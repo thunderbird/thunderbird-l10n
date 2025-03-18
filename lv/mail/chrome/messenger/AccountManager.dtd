@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Konta iestatījumi">
-<!ENTITY  accountManagerCloseButton.label "Aizvērt">
-
+<!ENTITY accountManagerCloseButton.label "Aizvērt">
 <!ENTITY accountActionsButton.label "Konta darbības">
 <!ENTITY accountActionsButton.accesskey "K">
 <!ENTITY addMailAccountButton.label "Pievienot pasta kontu…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "n">
 <!ENTITY removeButton.label "Noņemt kontu">
 <!ENTITY removeButton.accesskey "N">
-
 <!ENTITY addonsButton.label "Paplašinājumi &amp; Tēmas">

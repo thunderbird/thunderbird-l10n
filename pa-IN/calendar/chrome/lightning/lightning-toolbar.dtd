@@ -3,19 +3,18 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "ਕੈਲੰਡਰ">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Switch to the calendar tab">
+<!ENTITY lightning.toolbar.calendar.label "ਕੈਲੰਡਰ">
+<!ENTITY lightning.toolbar.calendar.tooltip "Switch to the calendar tab">
 <!ENTITY lightning.toolbar.calendar.accesskey "C">
-<!ENTITY lightning.toolbar.task.label         "ਟਾਸਕ">
-<!ENTITY lightning.toolbar.task.tooltip       "Switch to the tasks tab">
-<!ENTITY lightning.toolbar.task.accesskey     "T">
-
+<!ENTITY lightning.toolbar.task.label "ਟਾਸਕ">
+<!ENTITY lightning.toolbar.task.tooltip "Switch to the tasks tab">
+<!ENTITY lightning.toolbar.task.accesskey "T">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "ਦਿਨ">
-<!ENTITY lightning.toolbar.day.accesskey             "D">
-<!ENTITY lightning.toolbar.week.label                "ਹਫ਼ਤਾ">
-<!ENTITY lightning.toolbar.week.accesskey            "W">
-<!ENTITY lightning.toolbar.multiweek.label           "Multiweek">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "u">
-<!ENTITY lightning.toolbar.month.label               "ਮਹੀਨਾ">
-<!ENTITY lightning.toolbar.month.accesskey           "M">
+<!ENTITY lightning.toolbar.day.label "ਦਿਨ">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "ਹਫ਼ਤਾ">
+<!ENTITY lightning.toolbar.week.accesskey "W">
+<!ENTITY lightning.toolbar.multiweek.label "Multiweek">
+<!ENTITY lightning.toolbar.multiweek.accesskey "u">
+<!ENTITY lightning.toolbar.month.label "ਮਹੀਨਾ">
+<!ENTITY lightning.toolbar.month.accesskey "M">

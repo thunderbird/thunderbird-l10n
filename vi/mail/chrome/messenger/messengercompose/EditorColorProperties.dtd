@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Dùng màu tùy chọn:">
 <!ENTITY customColorsRadio.accessKey "D">
 <!ENTITY customColorsRadio.tooltip "Những thiết lập màu này sẽ hiển thị đè lên các thiết lập trình duyệt của người đọc">
-
 <!ENTITY normalText.label "Chữ thường">
 <!ENTITY normalText.accessKey "B">
 <!ENTITY linkText.label "Chữ liên kết">

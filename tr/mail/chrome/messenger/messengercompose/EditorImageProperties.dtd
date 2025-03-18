@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Resim Özellikleri">
-
 <!ENTITY pixelsPopup.value "piksel">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Resim konumu:">
 <!ENTITY locationEditField.accessKey "R">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Resmin yerinde görüntülenecek metni yazın">
 <!ENTITY noAltText.label "Alternatif metin kullanma">
 <!ENTITY noAltText.accessKey "k">
-
 <!ENTITY previewBox.label "Resim ön izleme">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Gerçek boyut:">
 <!ENTITY actualSizeRadio.label "Gerçek boyut">
 <!ENTITY actualSizeRadio.accessKey "G">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Zorla">
 <!ENTITY constrainCheckbox.accessKey "l">
 <!ENTITY constrainCheckbox.tooltip "Resmin en/boy oranını koru">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Resim haritası">
 <!ENTITY removeImageMapButton.label "Kaldır">
 <!ENTITY removeImageMapButton.accessKey "a">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Metni resme hizala">
 <!ENTITY bottomPopup.value "Altta">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "Ortada">
 <!ENTITY wrapRightPopup.value "Sağa yasla">
 <!ENTITY wrapLeftPopup.value "Sola yasla">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Aralık">
 <!ENTITY leftRightEditField.label "Sol ve sağ:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "Ü">
 <!ENTITY borderEditField.label "Kesintisiz kenarlık:">
 <!ENTITY borderEditField.accessKey "K">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Bağlantılı resmin etrafında kenarlık göster">
 <!ENTITY showImageLinkBorder.accessKey "B">
 <!ENTITY LinkAdvancedEditButton.label "Gelişmiş bağlantı düzenleme…">
 <!ENTITY LinkAdvancedEditButton.accessKey "G">
 <!ENTITY LinkAdvancedEditButton.tooltip "HTML öznitelikleri, biçim öznitelikleri ve JavaScript ekle veya değiştir">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Form">
 <!ENTITY imageLocationTab.label "Konum">

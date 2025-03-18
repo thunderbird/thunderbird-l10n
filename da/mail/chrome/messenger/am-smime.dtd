@@ -4,11 +4,8 @@
 
 <!ENTITY e2eTitle.label "End to end-kryptering">
 <!ENTITY e2eLearnMore.label "Læs mere">
-
 <!ENTITY e2eEnc.description "Uden end to end-kryptering, kan indholdet af dine meddelelser nemt ses af din mailudbyder eller læses af masseovervågningsteknologier.">
-
 <!ENTITY e2eTechPref.description "Foretrukken krypteringsteknologi:">
-
 <!ENTITY encryptionCert2.message "Personligt certifikat til kryptering:">
 <!ENTITY digitalSign.certificate.button "Vælg…">
 <!ENTITY digitalSign.certificate.accesskey "V">
@@ -20,27 +17,20 @@
 <!ENTITY encryption.certificate_clear.accesskey "y">
 <!ENTITY signingGroupTitle.label "Digital signatur">
 <!ENTITY signingCert2.message "Personligt certifikat til digital signering:">
-
 <!ENTITY sendingDefaults.label "Standardindstillinger for afsendelse af meddelelser">
-
 <!ENTITY technologyAutomatic.label "Vælg automatisk ud fra tilgængelige nøgler eller certifikater">
-
 <!ENTITY certificates2.label "S/MIME">
 <!ENTITY manageCerts3.label "Håndter S/MIME-certifikater">
 <!ENTITY manageCerts3.accesskey "H">
 <!ENTITY manageDevices2.label "S/MIME-sikkerhedsenheder">
 <!ENTITY manageDevices2.accesskey "M">
-
 <!ENTITY technologySMIME.label "Foretræk S/MIME">
 <!ENTITY technologyOpenPGP.label "Foretræk OpenPGP">
-
 <!ENTITY openpgpKeys.label "OpenPGP">
-
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Vælg certifikat">
-<!ENTITY certPicker.info  "Certifikat:">
+<!ENTITY certPicker.info "Certifikat:">
 <!ENTITY certPicker.detailsLabel "Detaljer for det valgte certifikat:">
-
 <!ENTITY openpgpKey.message "Personlig nøgle til kryptering og digital signering:">
 <!ENTITY openpgpKey.button "Angiv personlig nøgle…">
 <!ENTITY openpgpKey.accesskey "o">

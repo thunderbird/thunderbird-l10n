@@ -5,16 +5,13 @@
 <!ENTITY window.title "Сүзгі ережелері">
 <!ENTITY filterName.label "Сүзгі атауы:">
 <!ENTITY filterName.accesskey "С">
-
 <!ENTITY junk.label "Спам">
 <!ENTITY notJunk.label "Спам емес">
-
 <!ENTITY lowestPriorityCmd.label "Ең төмен">
 <!ENTITY lowPriorityCmd.label "Төмен">
 <!ENTITY normalPriorityCmd.label "Қалыпты">
 <!ENTITY highPriorityCmd.label "Жоғары">
 <!ENTITY highestPriorityCmd.label "Ең жоғары">
-
 <!ENTITY contextDesc.label "Сүзгіні қолдану шарты:">
 <!ENTITY contextIncomingMail.label "Жаңа поштаны алу:">
 <!ENTITY contextIncomingMail.accesskey "л">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "Архивтеу">
 <!ENTITY contextArchive.accesskey "А">
 <!ENTITY contextPeriodic.accesskey "e">
-
 <!ENTITY filterActionDesc.label "Келесі әрекеттерді орындау:">
 <!ENTITY filterActionDesc.accesskey "н">
-
 <!ENTITY filterActionOrderWarning.label "Ескерту: Сүзгі әрекеттері басқа ретпен орындалатын болады.">
 <!ENTITY filterActionOrder.label "Орындалу ретін қарау">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Хабарламаны қайда жылжыту">
 <!ENTITY copyMessage.label "Хабарлама көшірмесін қайда жасау">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Ағындарды елемеу">
 <!ENTITY watchThread.label "Ағынды бақылау">
 <!ENTITY stopExecution.label "Сүзгі орындалуын тоқтату">
-
 <!ENTITY addAction.tooltip "Жаңа әрекетті қосу">
 <!ENTITY removeAction.tooltip "Бұл әрекетті өшіру">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

@@ -8,7 +8,6 @@
 <!ENTITY author.label "Autors">
 <!ENTITY organizationField4.label "Organizācija">
 <!ENTITY replyToField4.label "Atbildēt uz">
-
 <!ENTITY subjectField4.label "Tēma">
 <!ENTITY ccField4.label "Kopija">
 <!ENTITY bccField4.label "Slēpta kopija">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Vēstules ID">
 <!ENTITY inReplyToField4.label "Atbildot uz">
 <!ENTITY originalWebsite4.label "Tīmekļa vietne">
-
 <!ENTITY hdrArchiveButton1.label "Arhivēt">
 <!ENTITY hdrArchiveButton1.tooltip "Arhivēt šo vēstuli">
 <!ENTITY hdrSmartReplyButton1.label "Viedā atbilde">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Atzīmēt šo vēstuli kā drazu">
 <!ENTITY hdrTrashButton1.label "Dzēst">
 <!ENTITY hdrTrashButton1.tooltip "Dzēst šo vēstuli">
-
 <!ENTITY hdrViewToolbarShowFull.label "Rādīt ikonas un tekstu">
 <!ENTITY hdrViewToolbarShowFull.accesskey "u">
 <!ENTITY hdrViewToolbarShowIcons.label "Rādīt tikai ikonas">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "t">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Vienmēr rādīt atbildi sūtītājam">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "a">
-
 <!ENTITY otherActionsButton2.label "Vairāk">
 <!ENTITY otherActionsButton.tooltip "Vairāk darbību">
 <!ENTITY otherActionsOpenConversation1.label "Atvērt sarunā">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "a">
 <!ENTITY otherActionsPrint1.label "Drukāt…">
 <!ENTITY otherActionsPrint1.accesskey "D">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Sākotnēji rādīt pielikumu rūti">
-<!ENTITY startExpandedCmd.accesskey    "r">
-
+<!ENTITY startExpandedCmd.label "Sākotnēji rādīt pielikumu rūti">
+<!ENTITY startExpandedCmd.accesskey "r">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Atvērt">
-<!ENTITY openAttachmentCmd.accesskey    "A">
-<!ENTITY saveAsAttachmentCmd.label    "Saglabāt kā…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "S">
-<!ENTITY detachAttachmentCmd.label    "Atdalīt…">
-<!ENTITY detachAttachmentCmd.accesskey    "A">
-<!ENTITY deleteAttachmentCmd.label    "Dzēst">
-<!ENTITY deleteAttachmentCmd.accesskey    "D">
-<!ENTITY openAllAttachmentsCmd.label    "Atvērt visus…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "v">
-<!ENTITY saveAllAttachmentsCmd.label    "Saglabāt kā…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "k">
-<!ENTITY detachAllAttachmentsCmd.label    "Atdalīt visus…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "t">
-<!ENTITY deleteAllAttachmentsCmd.label    "Dzēst visus…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "D">
-
+<!ENTITY openAttachmentCmd.label "Atvērt">
+<!ENTITY openAttachmentCmd.accesskey "A">
+<!ENTITY saveAsAttachmentCmd.label "Saglabāt kā…">
+<!ENTITY saveAsAttachmentCmd.accesskey "S">
+<!ENTITY detachAttachmentCmd.label "Atdalīt…">
+<!ENTITY detachAttachmentCmd.accesskey "A">
+<!ENTITY deleteAttachmentCmd.label "Dzēst">
+<!ENTITY deleteAttachmentCmd.accesskey "D">
+<!ENTITY openAllAttachmentsCmd.label "Atvērt visus…">
+<!ENTITY openAllAttachmentsCmd.accesskey "v">
+<!ENTITY saveAllAttachmentsCmd.label "Saglabāt kā…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "k">
+<!ENTITY detachAllAttachmentsCmd.label "Atdalīt visus…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "t">
+<!ENTITY deleteAllAttachmentsCmd.label "Dzēst visus…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "D">
 <!ENTITY openAttachment.tooltip "Atvērt pievienoto failu">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Atvērt saturošo mapi">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "A">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Rādīt meklētājā">
+<!ENTITY detachedAttachmentFolder.show.label "Atvērt saturošo mapi">
+<!ENTITY detachedAttachmentFolder.show.accesskey "A">
+<!ENTITY detachedAttachmentFolder.showMac.label "Rādīt meklētājā">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "R">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Saglabāt">
-<!ENTITY saveAttachmentButton1.tooltip     "Saglabāt pievienoto failu">
-<!ENTITY saveAllAttachmentsButton1.label   "Saglabāt visu">
+<!ENTITY saveAttachmentButton1.label "Saglabāt">
+<!ENTITY saveAttachmentButton1.tooltip "Saglabāt pievienoto failu">
+<!ENTITY saveAllAttachmentsButton1.label "Saglabāt visu">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Saglabāt visus pievienotos failus">
-
-<!ENTITY copyLinkCmd.label        "Kopēt saites vietu">
-<!ENTITY copyLinkCmd.accesskey    "K">
-
+<!ENTITY copyLinkCmd.label "Kopēt saites vietu">
+<!ENTITY copyLinkCmd.accesskey "K">
 <!ENTITY CopyMessageId.label "Kopēt vēstules ID">
 <!ENTITY CopyMessageId.accesskey "K">
 <!ENTITY OpenMessageForMsgId.label "Atvērt vēstuli ar ID">

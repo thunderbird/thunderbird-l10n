@@ -2,13 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY showAsDefault.label                            "Director de pornire implicit">
-<!ENTITY showAsDefault.accesskey                        "D">
-
+<!ENTITY showAsDefault.label "Director de pornire implicit">
+<!ENTITY showAsDefault.accesskey "D">
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label                        "Nume sau e-mail">
-
+<!ENTITY SearchNameOrEmail.label "Nume sau e-mail">
 <!-- Results Pane -->
-<!ENTITY Addrbook.label                                 "Agendă de contacte">
-<!ENTITY GeneratedName.label                            "Nume">
-<!ENTITY PrimaryEmail.label                             "E-mail">
+<!ENTITY Addrbook.label "Agendă de contacte">
+<!ENTITY GeneratedName.label "Nume">
+<!ENTITY PrimaryEmail.label "E-mail">

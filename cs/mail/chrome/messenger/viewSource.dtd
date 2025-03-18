@@ -11,7 +11,6 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
 <!ENTITY mainWindow.preface "Zdrojový kód: ">
-
 <!ENTITY editMenu.label "Upravit">
 <!ENTITY editMenu.accesskey "U">
 <!ENTITY fileMenu.label "Soubor">
@@ -25,13 +24,11 @@
 <!ENTITY closeCmd.label "Zavřít">
 <!ENTITY closeCmd.accesskey "Z">
 <!ENTITY closeCmd.commandkey "W">
-
 <!-- LOCALIZATION NOTE :
-textEnlarge.commandkey3, textReduce.commandkey2 and
-textReset.commandkey2 are alternative acceleration keys for zoom.
-If shift key is needed with your locale popular keyboard for them,
-you can use these alternative items. Otherwise, their values should be empty.  -->
-
+     textEnlarge.commandkey3, textReduce.commandkey2 and
+     textReset.commandkey2 are alternative acceleration keys for zoom.
+     If shift key is needed with your locale popular keyboard for them,
+     you can use these alternative items. Otherwise, their values should be empty. -->
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textEnlarge.commandkey3 "">
@@ -39,13 +36,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReduce.commandkey2 "">
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
-
 <!ENTITY goToLineCmd.label "Přejít na řádek…">
 <!ENTITY goToLineCmd.accesskey "n">
 <!ENTITY goToLineCmd.commandkey "l">
-
-<!ENTITY viewMenu.label           "Zobrazení">
-<!ENTITY viewMenu.accesskey       "Z">
+<!ENTITY viewMenu.label "Zobrazení">
+<!ENTITY viewMenu.accesskey "Z">
 <!ENTITY reloadCmd.label "Obnovit">
 <!ENTITY reloadCmd.accesskey "O">
 <!ENTITY reloadCmd.commandkey "r">
@@ -61,23 +56,20 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReduce.accesskey "m">
 <!ENTITY menu_textReset.label "Normální">
 <!ENTITY menu_textReset.accesskey "N">
-
-<!ENTITY findOnCmd.label     "Najít na této stránce…">
+<!ENTITY findOnCmd.label "Najít na této stránce…">
 <!ENTITY findOnCmd.accesskey "N">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Najít další">
+<!ENTITY findAgainCmd.label "Najít další">
 <!ENTITY findAgainCmd.accesskey "t">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
-
 <!ENTITY backCmd.label "Zpět">
 <!ENTITY backCmd.accesskey "Z">
 <!ENTITY forwardCmd.label "Vpřed">
 <!ENTITY forwardCmd.accesskey "V">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
-
 <!ENTITY copyLinkCmd.label "Kopírovat adresu odkazu">
 <!ENTITY copyLinkCmd.accesskey "s">
 <!ENTITY copyEmailCmd.label "Kopírovat e-mailovou adresu">

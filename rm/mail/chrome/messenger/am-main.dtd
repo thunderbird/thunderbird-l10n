@@ -34,14 +34,11 @@
 <!-- LOCALIZATION NOTE (attachVCard.label) : do not translate "vCard" in below line -->
 <!ENTITY attachVCard.label "Agiuntar mia carta da visita als messadis">
 <!ENTITY attachVCard.accesskey "v">
-
 <!ENTITY manageIdentities.label "Administrar las identitads…">
 <!ENTITY manageIdentities.accesskey "M">
-
 <!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
 <!ENTITY smtpName.label "Server da posta sortida (SMTP):">
 <!ENTITY smtpName.accesskey "p">
 <!ENTITY smtpDefaultServer.label "Utilisar il server predefinì">
-
 <!ENTITY smtpServerEdit.label "Modifitgar il server SMTP…">
 <!ENTITY smtpServerEdit.accesskey "i">

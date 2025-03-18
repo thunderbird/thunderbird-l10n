@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Vstavi tabelo">
-
 <!ENTITY size.label "Velikost">
 <!ENTITY numRowsEditField.label "Vrstice:">
 <!ENTITY numRowsEditField.accessKey "V">

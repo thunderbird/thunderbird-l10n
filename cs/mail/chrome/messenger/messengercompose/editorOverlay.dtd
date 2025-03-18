@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "Vložit jako citaci">
 <!ENTITY pasteAsQuotationCmd.accesskey "c">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Vložit">
 <!ENTITY insertMenu.accesskey "l">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "Z">
 <!ENTITY insertBreakAllCmd.label "Zalomení pod obrázkem">
 <!ENTITY insertBreakAllCmd.accesskey "k">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Vytvořit odkaz…">
 <!ENTITY createLinkCmd.accesskey "k">
 <!ENTITY editLinkCmd.label "Upravit odkaz v editoru">
 <!ENTITY editLinkCmd.accesskey "i">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Výběr písma">
 <!ENTITY fontfaceMenu.label "Písmo">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "t">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "c">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Výběr velikosti písma">
 <!ENTITY decreaseFontSize.label "Menší">
 <!ENTITY decreaseFontSize.accesskey "n">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "Větší">
 <!ENTITY increaseFontSize.accesskey "V">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "Velikost">
 <!ENTITY fontSizeMenu.accesskey "l">
 <!ENTITY size-tinyCmd.label "Drobné">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "x">
 <!ENTITY size-hugeCmd.label "Obrovské">
 <!ENTITY size-hugeCmd.accesskey "b">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Styl">
 <!ENTITY fontStyleMenu.accesskey "y">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "v">
 <!ENTITY styleVar.label "Proměnná">
 <!ENTITY styleVar.accesskey "m">
-
 <!ENTITY formatFontColor.label "Barva textu…">
 <!ENTITY formatFontColor.accesskey "B">
 <!ENTITY tableOrCellColor.label "Barva tabulky a pozadí buněk…">
 <!ENTITY tableOrCellColor.accesskey "r">
-
 <!ENTITY formatRemoveStyles.key "y">
 <!ENTITY formatRemoveLinks.key "k">
 <!ENTITY formatRemoveNamedAnchors.label "Odstranit cílové kotvy">
 <!ENTITY formatRemoveNamedAnchors.accesskey "c">
 <!ENTITY formatRemoveNamedAnchors2.key "r">
-
 <!ENTITY paragraphMenu.label "Odstavec">
 <!ENTITY paragraphMenu.accesskey "o">
 <!ENTITY paragraphParagraphCmd.label "Odstavec">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "a">
 <!ENTITY paragraphPreformatCmd.label "Předformátováno">
 <!ENTITY paragraphPreformatCmd.accesskey "f">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Seznam">
 <!ENTITY formatlistMenu.accesskey "S">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "d">
 <!ENTITY listPropsCmd.label "Vlastnosti seznamu…">
 <!ENTITY listPropsCmd.accesskey "l">
-
 <!ENTITY ParagraphSelect.tooltip "Výběr stylu odstavce">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Tělo">
 <!ENTITY bodyTextCmd.accesskey "t">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Zarovnání">
 <!ENTITY alignMenu.accesskey "Z">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "Do bloku">
 <!ENTITY alignJustify.accesskey "b">
 <!ENTITY alignJustify.tooltip "Zarovnání do bloku">
-
 <!ENTITY increaseIndent.label "Zvětšit odsazení">
 <!ENTITY increaseIndent.accesskey "v">
 <!ENTITY increaseIndent.key "=">
 <!ENTITY decreaseIndent.label "Zmenšit odsazení">
 <!ENTITY decreaseIndent.accesskey "m">
 <!ENTITY decreaseIndent.key "-">
-
 <!ENTITY colorsAndBackground.label "Barvy a pozadí stránky…">
 <!ENTITY colorsAndBackground.accesskey "a">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Tabulka">
 <!ENTITY tableMenu.accesskey "T">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Vybrat">
 <!ENTITY tableSelectMenu.accesskey "a">
-
 <!ENTITY tableSelectMenu2.label "Vybrat tabulku">
 <!ENTITY tableSelectMenu2.accesskey "b">
 <!ENTITY tableInsertMenu2.label "Vložit tabulku">
 <!ENTITY tableInsertMenu2.accesskey "l">
 <!ENTITY tableDeleteMenu2.label "Smazat tabulku">
 <!ENTITY tableDeleteMenu2.accesskey "m">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Vložit">
 <!ENTITY tableInsertMenu.accesskey "V">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Smazat">
 <!ENTITY tableDeleteMenu.accesskey "m">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "j">
 <!ENTITY tableJoinCells.accesskey "j">
 <!ENTITY tableSplitCell.label "Rozdělit buňku">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "y">
 <!ENTITY tableProperties.label "Vlastnosti tabulky…">
 <!ENTITY tableProperties.accesskey "o">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Obrázek">
 <!ENTITY imageToolbarCmd.tooltip "Vloží nový obrázek, nebo upraví označený">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Vloží novou kotvu, nebo upraví označenou">
 <!ENTITY TextColorButton.tooltip "Vybere barvu textu">
 <!ENTITY BackgroundColorButton.tooltip "Vybere barvu pozadí">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "Nastavit velikost písma">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Zmenší velikost písma">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "Zarovná text na střed">
 <!ENTITY alignRightButton.tooltip "Zarovná text k pravému okraji">
 <!ENTITY alignJustifyButton.tooltip "Zarovná text do bloku">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Vložit">
-<!ENTITY insertTOC.accesskey      "l">
-<!ENTITY updateTOC.label          "Aktualizovat">
-<!ENTITY updateTOC.accesskey      "A">
-<!ENTITY removeTOC.label          "Odebrat">
-<!ENTITY removeTOC.accesskey      "O">
-<!ENTITY tocMenu.label            "Obsah…">
-<!ENTITY tocMenu.accesskey        "b">
+<!ENTITY insertTOC.label "Vložit">
+<!ENTITY insertTOC.accesskey "l">
+<!ENTITY updateTOC.label "Aktualizovat">
+<!ENTITY updateTOC.accesskey "A">
+<!ENTITY removeTOC.label "Odebrat">
+<!ENTITY removeTOC.accesskey "O">
+<!ENTITY tocMenu.label "Obsah…">
+<!ENTITY tocMenu.accesskey "b">

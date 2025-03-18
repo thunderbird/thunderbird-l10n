@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Oikolue">
-
 <!ENTITY misspelledWord.label "Väärin kirjoitettu sana:">
 <!ENTITY wordEditField.label "Korvaa sanalla:">
 <!ENTITY wordEditField.accessKey "K">

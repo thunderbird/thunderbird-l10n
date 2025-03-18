@@ -3,9 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Configuración de la cuenta">
-
 <!ENTITY accountActionsButton.label "Operaciones sobre la cuenta">
 <!ENTITY accountActionsButton.accesskey "O">
 <!ENTITY addMailAccountButton.label "Amestar cuenta de corréu…">
@@ -18,4 +16,3 @@
 <!ENTITY setDefaultButton.accesskey "D">
 <!ENTITY removeButton.label "Desaniciar cuenta">
 <!ENTITY removeButton.accesskey "R">
-

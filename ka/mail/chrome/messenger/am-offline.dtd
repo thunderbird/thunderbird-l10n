@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "მ">
 <!ENTITY syncGroupTitle.label "წერილების სინქრონიზაცია">
 <!ENTITY diskspaceGroupTitle.label "ადგილი დისკზე">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "ყველა წერილის ადგილობრივად სინქრონიზაცია ასაკის მიუხედავად">
-<!ENTITY allAutosync.accesskey           "დ">
-<!ENTITY ageAutosyncBefore.label         "უახლესი ფოსტის სინქრონიზაცია">
-<!ENTITY ageAutosync.accesskey           "ზ">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "დღის">
-<!ENTITY weekAgeInterval.label           "კვირის">
-<!ENTITY monthAgeInterval.label          "თვის">
-<!ENTITY yearAgeInterval.label           "წლის">
-<!ENTITY ageAutosyncAfter.label          "განმავლობაში">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "ყველა წერილის ადგილობრივად სინქრონიზაცია ასაკის მიუხედავად">
+<!ENTITY allAutosync.accesskey "დ">
+<!ENTITY ageAutosyncBefore.label "უახლესი ფოსტის სინქრონიზაცია">
+<!ENTITY ageAutosync.accesskey "ზ">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "დღის">
+<!ENTITY weekAgeInterval.label "კვირის">
+<!ENTITY monthAgeInterval.label "თვის">
+<!ENTITY yearAgeInterval.label "წლის">
+<!ENTITY ageAutosyncAfter.label "განმავლობაში">

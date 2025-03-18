@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Txertatu Taula">
-
 <!ENTITY size.label "Tamaina">
 <!ENTITY numRowsEditField.label "Errenkadak:">
 <!ENTITY numRowsEditField.accessKey "E">

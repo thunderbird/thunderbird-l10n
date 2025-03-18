@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Verificare ortografică">
-
 <!ENTITY misspelledWord.label "Cuvânt greșit:">
 <!ENTITY wordEditField.label "Înlocuiește cu:">
 <!ENTITY wordEditField.accessKey "c">

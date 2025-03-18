@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "Itsatsi aipamen bezala">
 <!ENTITY pasteAsQuotationCmd.accesskey "p">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Txertatu">
 <!ENTITY insertMenu.accesskey "x">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "K">
 <!ENTITY insertBreakAllCmd.label "Irudi azpitik jauzia">
 <!ENTITY insertBreakAllCmd.accesskey "k">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Sortu lotura…">
 <!ENTITY createLinkCmd.accesskey "k">
 <!ENTITY editLinkCmd.label "Editatu lotura mezu-prestatzailearen leiho berrian">
 <!ENTITY editLinkCmd.accesskey "i">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Aukeratu letra-tipoa">
 <!ENTITY fontfaceMenu.label "Letra-tipoa">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Aukeratu letra-tipoaren tamaina">
 <!ENTITY decreaseFontSize.label "Txikiagoa">
 <!ENTITY decreaseFontSize.accesskey "x">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "Handiagoa">
 <!ENTITY increaseFontSize.accesskey "g">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "Tamaina">
 <!ENTITY fontSizeMenu.accesskey "m">
 <!ENTITY size-tinyCmd.label "Oso txikia">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "X">
 <!ENTITY size-hugeCmd.label "Itzela">
 <!ENTITY size-hugeCmd.accesskey "I">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Testu estiloa">
 <!ENTITY fontStyleMenu.accesskey "s">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "d">
 <!ENTITY styleVar.label "Aldakorra">
 <!ENTITY styleVar.accesskey "A">
-
 <!ENTITY formatFontColor.label "Testuaren kolorea…">
 <!ENTITY formatFontColor.accesskey "k">
 <!ENTITY tableOrCellColor.label "Taularen edo gelaxkaren atzeko planoko kolorea…">
 <!ENTITY tableOrCellColor.accesskey "r">
-
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "Ezabatu aingura izendunak">
 <!ENTITY formatRemoveNamedAnchors.accesskey "E">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
-
 <!ENTITY paragraphMenu.label "Paragrafoa">
 <!ENTITY paragraphMenu.accesskey "P">
 <!ENTITY paragraphParagraphCmd.label "Paragrafoa">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "a">
 <!ENTITY paragraphPreformatCmd.label "Aurreformatua">
 <!ENTITY paragraphPreformatCmd.accesskey "f">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Zerrenda">
 <!ENTITY formatlistMenu.accesskey "Z">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "D">
 <!ENTITY listPropsCmd.label "Zerrendaren propietateak…">
 <!ENTITY listPropsCmd.accesskey "Z">
-
 <!ENTITY ParagraphSelect.tooltip "Aukeratu paragrafoaren formatua">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Gorputzaren testua">
 <!ENTITY bodyTextCmd.accesskey "t">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Lerrokatu">
 <!ENTITY alignMenu.accesskey "a">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "Justifikatu">
 <!ENTITY alignJustify.accesskey "J">
 <!ENTITY alignJustify.tooltip "Lerrokatu justifikatuta">
-
 <!ENTITY increaseIndent.label "Handitu koska">
 <!ENTITY increaseIndent.accesskey "i">
 <!ENTITY increaseIndent.key "]">
 <!ENTITY decreaseIndent.label "Txikitu koska">
 <!ENTITY decreaseIndent.accesskey "x">
 <!ENTITY decreaseIndent.key "[">
-
 <!ENTITY colorsAndBackground.label "Orriaren koloreak eta atzeko planoa…">
 <!ENTITY colorsAndBackground.accesskey "p">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Taula">
 <!ENTITY tableMenu.accesskey "u">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Hautatu">
 <!ENTITY tableSelectMenu.accesskey "H">
-
 <!ENTITY tableSelectMenu2.label "Hautatu taula">
 <!ENTITY tableSelectMenu2.accesskey "H">
 <!ENTITY tableInsertMenu2.label "Txertatu taula">
 <!ENTITY tableInsertMenu2.accesskey "T">
 <!ENTITY tableDeleteMenu2.label "Ezabatu taula">
 <!ENTITY tableDeleteMenu2.accesskey "E">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Txertatu">
 <!ENTITY tableInsertMenu.accesskey "x">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Ezabatu">
 <!ENTITY tableDeleteMenu.accesskey "E">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "j">
 <!ENTITY tableJoinCells.accesskey "j">
 <!ENTITY tableSplitCell.label "Zatitu gelaxkak">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "r">
 <!ENTITY tableProperties.label "Taularen propietateak…">
 <!ENTITY tableProperties.accesskey "o">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Irudia">
 <!ENTITY imageToolbarCmd.tooltip "Txertatu irudi berria edo aldatu hautatutako irudiaren propietateak">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Txertatu izendun aingura berria edo aldatu hautatutako ainguraren propietateak">
 <!ENTITY TextColorButton.tooltip "Aukeratu testuaren kolorea">
 <!ENTITY BackgroundColorButton.tooltip "Aukeratu atzeko planoko kolorea">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "Ezarri letra-tipo tamaina">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Letra tamaina txikiagoa">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "Testua erdiratuta lerrokatu">
 <!ENTITY alignRightButton.tooltip "Testua eskuineko ertzean zehar lerrokatu">
 <!ENTITY alignJustifyButton.tooltip "Lerrokatu testua ezker eta eskuineko marjinetan zehar">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Txertatu">
-<!ENTITY insertTOC.accesskey      "T">
-<!ENTITY updateTOC.label          "Eguneratu">
-<!ENTITY updateTOC.accesskey      "E">
-<!ENTITY removeTOC.label          "Ezabatu">
-<!ENTITY removeTOC.accesskey      "E">
-<!ENTITY tocMenu.label            "Eduki-taula…">
-<!ENTITY tocMenu.accesskey        "d">
+<!ENTITY insertTOC.label "Txertatu">
+<!ENTITY insertTOC.accesskey "T">
+<!ENTITY updateTOC.label "Eguneratu">
+<!ENTITY updateTOC.accesskey "E">
+<!ENTITY removeTOC.label "Ezabatu">
+<!ENTITY removeTOC.accesskey "E">
+<!ENTITY tocMenu.label "Eduki-taula…">
+<!ENTITY tocMenu.accesskey "d">

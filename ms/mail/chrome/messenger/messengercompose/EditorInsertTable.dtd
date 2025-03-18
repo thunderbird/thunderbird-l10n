@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Sisip Jadual">
-
 <!ENTITY size.label "Saiz">
 <!ENTITY numRowsEditField.label "Baris:">
 <!ENTITY numRowsEditField.accessKey "B">

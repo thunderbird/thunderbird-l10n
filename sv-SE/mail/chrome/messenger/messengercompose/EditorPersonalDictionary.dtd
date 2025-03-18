@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Egen ordlista">
-
 <!ENTITY wordEditField.label "Nytt ord:">
 <!ENTITY wordEditField.accessKey "N">
 <!ENTITY AddButton.label "Lägg till">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "O">
 <!ENTITY RemoveButton.label "Ta bort">
 <!ENTITY RemoveButton.accessKey "T">
-
 <!ENTITY CloseButton.label "Stäng">
 <!ENTITY CloseButton.accessKey "S">

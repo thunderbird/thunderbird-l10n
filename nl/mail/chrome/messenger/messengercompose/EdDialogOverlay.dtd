@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "B">
 <!ENTITY chooseFileLinkButton.label "Bestand kiezen…">
 <!ENTITY chooseFileLinkButton.accessKey "B">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Voer een webpaginalocatie of lokaal bestand in, of selecteer een benoemd anker of kop vanuit het contextmenu van het veld:">
 <!ENTITY LinkURLEditField2.accessKey "l">

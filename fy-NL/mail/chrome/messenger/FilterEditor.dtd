@@ -5,16 +5,13 @@
 <!ENTITY window.title "Filterrigels">
 <!ENTITY filterName.label "Filternamme:">
 <!ENTITY filterName.accesskey "F">
-
 <!ENTITY junk.label "Net-winske berjocht">
 <!ENTITY notJunk.label "Gjin net-winske berjocht">
-
 <!ENTITY lowestPriorityCmd.label "Leechst">
 <!ENTITY lowPriorityCmd.label "Leech">
 <!ENTITY normalPriorityCmd.label "Normaal">
 <!ENTITY highPriorityCmd.label "Heech">
 <!ENTITY highestPriorityCmd.label "Heechst">
-
 <!ENTITY contextDesc.label "Filter tapasse by it:">
 <!ENTITY contextIncomingMail.label "Opheljen nije berjochten:">
 <!ENTITY contextIncomingMail.accesskey "O">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "Argivearje">
 <!ENTITY contextArchive.accesskey "r">
 <!ENTITY contextPeriodic.accesskey "e">
-
 <!ENTITY filterActionDesc.label "Dizze aksjes útfiere:">
 <!ENTITY filterActionDesc.accesskey "f">
-
 <!ENTITY filterActionOrderWarning.label "Noat: filteraksjes wurde útfierd yn in oare folchoarder.">
 <!ENTITY filterActionOrder.label "Sjoch útfierfolchoarder">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Berjocht ferpleatse nei">
 <!ENTITY copyMessage.label "Berjocht kopiearje nei">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Subpetear negearje">
 <!ENTITY watchThread.label "Petear folgje">
 <!ENTITY stopExecution.label "Ophâlde mei útfieren fan filter">
-
 <!ENTITY addAction.tooltip "Nije aksje tafoegje">
 <!ENTITY removeAction.tooltip "Dizze aksje fuortsmite">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

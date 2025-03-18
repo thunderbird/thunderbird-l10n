@@ -8,7 +8,6 @@
 <!ENTITY author.label "Yazan">
 <!ENTITY organizationField4.label "Kurum">
 <!ENTITY replyToField4.label "Yanıtla">
-
 <!ENTITY subjectField4.label "Konu">
 <!ENTITY ccField4.label "Cc">
 <!ENTITY bccField4.label "Bcc">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "İleti kimliği">
 <!ENTITY inReplyToField4.label "İçinde yanıtla">
 <!ENTITY originalWebsite4.label "Web sitesi">
-
 <!ENTITY hdrArchiveButton1.label "Arşivle">
 <!ENTITY hdrArchiveButton1.tooltip "Bu iletiyi arşivle">
 <!ENTITY hdrSmartReplyButton1.label "Akıllı yanıt">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Bu iletiyi gereksiz olarak işaretle">
 <!ENTITY hdrTrashButton1.label "Sil">
 <!ENTITY hdrTrashButton1.tooltip "Bu iletiyi sil">
-
 <!ENTITY hdrViewToolbarShowFull.label "Simgeleri ve metni göster">
 <!ENTITY hdrViewToolbarShowFull.accesskey "v">
 <!ENTITY hdrViewToolbarShowIcons.label "Yalnızca simgeleri göster">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "m">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Göndereni yanıtla'yı her zaman göster">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "G">
-
 <!ENTITY otherActionsButton2.label "Daha fazla">
 <!ENTITY otherActionsButton.tooltip "Daha fazla etkinlik">
 <!ENTITY otherActionsOpenConversation1.label "Dizi görünümünde aç">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "K">
 <!ENTITY otherActionsPrint1.label "Yazdır…">
 <!ENTITY otherActionsPrint1.accesskey "z">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Ek bölmesini daima göster">
-<!ENTITY startExpandedCmd.accesskey    "g">
-
+<!ENTITY startExpandedCmd.label "Ek bölmesini daima göster">
+<!ENTITY startExpandedCmd.accesskey "g">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Aç">
-<!ENTITY openAttachmentCmd.accesskey    "A">
-<!ENTITY saveAsAttachmentCmd.label    "Farklı kaydet…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "F">
-<!ENTITY detachAttachmentCmd.label    "Ayır…">
-<!ENTITY detachAttachmentCmd.accesskey    "y">
-<!ENTITY deleteAttachmentCmd.label    "Sil">
-<!ENTITY deleteAttachmentCmd.accesskey    "S">
-<!ENTITY openAllAttachmentsCmd.label    "Tümünü aç...">
-<!ENTITY openAllAttachmentsCmd.accesskey    "n">
-<!ENTITY saveAllAttachmentsCmd.label    "Tümünü kaydet…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "e">
-<!ENTITY detachAllAttachmentsCmd.label    "Tümünü ayır…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "T">
-<!ENTITY deleteAllAttachmentsCmd.label    "Tümünü sil…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "m">
-
+<!ENTITY openAttachmentCmd.label "Aç">
+<!ENTITY openAttachmentCmd.accesskey "A">
+<!ENTITY saveAsAttachmentCmd.label "Farklı kaydet…">
+<!ENTITY saveAsAttachmentCmd.accesskey "F">
+<!ENTITY detachAttachmentCmd.label "Ayır…">
+<!ENTITY detachAttachmentCmd.accesskey "y">
+<!ENTITY deleteAttachmentCmd.label "Sil">
+<!ENTITY deleteAttachmentCmd.accesskey "S">
+<!ENTITY openAllAttachmentsCmd.label "Tümünü aç...">
+<!ENTITY openAllAttachmentsCmd.accesskey "n">
+<!ENTITY saveAllAttachmentsCmd.label "Tümünü kaydet…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "e">
+<!ENTITY detachAllAttachmentsCmd.label "Tümünü ayır…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "T">
+<!ENTITY deleteAllAttachmentsCmd.label "Tümünü sil…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "m">
 <!ENTITY openAttachment.tooltip "Ekli dosyayı aç">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Bulunduğu klasörü aç">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "B">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Finder’da göster">
+<!ENTITY detachedAttachmentFolder.show.label "Bulunduğu klasörü aç">
+<!ENTITY detachedAttachmentFolder.show.accesskey "B">
+<!ENTITY detachedAttachmentFolder.showMac.label "Finder’da göster">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Kaydet">
-<!ENTITY saveAttachmentButton1.tooltip     "Ekteki dosyayı kaydet">
-<!ENTITY saveAllAttachmentsButton1.label   "Tümün kaydet">
+<!ENTITY saveAttachmentButton1.label "Kaydet">
+<!ENTITY saveAttachmentButton1.tooltip "Ekteki dosyayı kaydet">
+<!ENTITY saveAllAttachmentsButton1.label "Tümün kaydet">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Tüm ekli dosyaları kaydet">
-
-<!ENTITY copyLinkCmd.label        "Bağlantı konumunu kopyala">
-<!ENTITY copyLinkCmd.accesskey    "k">
-
+<!ENTITY copyLinkCmd.label "Bağlantı konumunu kopyala">
+<!ENTITY copyLinkCmd.accesskey "k">
 <!ENTITY CopyMessageId.label "İleti Kimliğini Kopyala">
 <!ENTITY CopyMessageId.accesskey "K">
 <!ENTITY OpenMessageForMsgId.label "Bu Kimliği Taşıyan İletiyi Aç">

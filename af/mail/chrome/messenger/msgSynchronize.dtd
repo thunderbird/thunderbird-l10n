@@ -2,8 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from MsgSynchronize.xhtml and msgSelectOfflineFolders.xhtml-->
-
+<!-- extracted from MsgSynchronize.xhtml and msgSelectOfflineFolders.xhtml -->
 <!ENTITY MsgSynchronize.label "Laai af en sinchroniseer boodskappe">
 <!ENTITY MsgSelect.label "Items vir aflyngebruik">
 <!ENTITY MsgSyncDirections.label "Laai af en sinchroniseer die volgende:">

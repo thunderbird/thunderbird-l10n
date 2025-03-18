@@ -3,9 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Socruithe Cuntais">
-
 <!ENTITY accountActionsButton.label "Gníomhartha Cuntais">
 <!ENTITY accountActionsButton.accesskey "a">
 <!ENTITY addMailAccountButton.label "Cuir Cuntas Ríomhphoist Leis…">
@@ -18,4 +16,3 @@
 <!ENTITY setDefaultButton.accesskey "R">
 <!ENTITY removeButton.label "Bain Cuntas">
 <!ENTITY removeButton.accesskey "B">
-

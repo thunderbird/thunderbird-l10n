@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "პირადი ლექსიკონი">
-
 <!ENTITY wordEditField.label "ახალი სიტყვა:">
 <!ENTITY wordEditField.accessKey "ხ">
 <!ENTITY AddButton.label "დამატება">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "ს">
 <!ENTITY RemoveButton.label "მოცილება">
 <!ENTITY RemoveButton.accessKey "ც">
-
 <!ENTITY CloseButton.label "დახურვა">
 <!ENTITY CloseButton.accessKey "უ">

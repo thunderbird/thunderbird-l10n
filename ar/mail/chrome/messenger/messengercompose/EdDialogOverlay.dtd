@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "ف">
 <!ENTITY chooseFileLinkButton.label "اختر الملف...">
 <!ENTITY chooseFileLinkButton.accessKey "ل">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "أدخل موضع صفحة وِب أو ملف محلي أو اختر مربط مسمّى أو رأس من قائمة الحقل السياقية:">
 <!ENTITY LinkURLEditField2.accessKey "ض">

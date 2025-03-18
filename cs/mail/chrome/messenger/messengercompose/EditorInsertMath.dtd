@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Vložení matematiky">
-
 <!ENTITY sourceEditField.label "Vložte zdrojový kód LaTeXu:">
-
 <!ENTITY options.label "Možnosti">
 <!ENTITY optionInline.label "Režim zadávání">
 <!ENTITY optionInline.accesskey "z">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "e">
 <!ENTITY optionRTL.label "Směr zprava doleva">
 <!ENTITY optionRTL.accesskey "p">
-
 <!ENTITY insertButton.label "Vložit">
 <!ENTITY insertButton.accesskey "V">

@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Hiztegi pertsonala">
-
 <!ENTITY wordEditField.label "Hitz berria:">
 <!ENTITY wordEditField.accessKey "H">
 <!ENTITY AddButton.label "Gehitu">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "H">
 <!ENTITY RemoveButton.label "Ezabatu">
 <!ENTITY RemoveButton.accessKey "E">
-
 <!ENTITY CloseButton.label "Itxi">
 <!ENTITY CloseButton.accessKey "I">

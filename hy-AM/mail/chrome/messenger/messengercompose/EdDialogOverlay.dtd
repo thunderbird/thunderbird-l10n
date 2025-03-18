@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "Ը">
 <!ENTITY chooseFileLinkButton.label "Ընտրել ֆայլը…">
 <!ENTITY chooseFileLinkButton.accessKey "Ը">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Նշեք վեբ էջի տեղադրությունը, տեղային ֆայլը կամ ընտրեք անվանարկված խարիսխ կամ գլխագիր՝ ցանկից">
 <!ENTITY LinkURLEditField2.accessKey "w">

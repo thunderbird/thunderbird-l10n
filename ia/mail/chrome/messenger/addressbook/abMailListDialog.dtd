@@ -3,19 +3,18 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Title -->
-<!ENTITY mailListWindowAdd.title        "Nove lista de diffusion">
-
+<!ENTITY mailListWindowAdd.title "Nove lista de diffusion">
 <!-- Labels and Access Keys -->
-<!ENTITY addToAddressBook.label         "Adder a: ">
-<!ENTITY addToAddressBook.accesskey     "A">
-<!ENTITY ListName.label                 "Nomine del lista: ">
-<!ENTITY ListName.accesskey             "L">
-<!ENTITY ListNickName.label             "Pseudonymo del lista: ">
-<!ENTITY ListNickName.accesskey         "P">
-<!ENTITY ListDescription.label          "Description: ">
-<!ENTITY ListDescription.accesskey      "D">
+<!ENTITY addToAddressBook.label "Adder a: ">
+<!ENTITY addToAddressBook.accesskey "A">
+<!ENTITY ListName.label "Nomine del lista: ">
+<!ENTITY ListName.accesskey "L">
+<!ENTITY ListNickName.label "Pseudonymo del lista: ">
+<!ENTITY ListNickName.accesskey "P">
+<!ENTITY ListDescription.label "Description: ">
+<!ENTITY ListDescription.accesskey "D">
 <!-- See bug 58485, when we implement drag and drop, add 'or drag addresses' back in -->
-<!ENTITY AddressTitle.label             "Insere adresses email pro los adder al lista de diffusion:">
-<!ENTITY AddressTitle.accesskey         "d">
-<!ENTITY UpButton.label                 "Mover in alto">
-<!ENTITY DownButton.label               "Mover in basso">
+<!ENTITY AddressTitle.label "Insere adresses email pro los adder al lista de diffusion:">
+<!ENTITY AddressTitle.accesskey "d">
+<!ENTITY UpButton.label "Mover in alto">
+<!ENTITY DownButton.label "Mover in basso">

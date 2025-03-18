@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Calendari">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Mostra la pestanya del calendari">
+<!ENTITY lightning.toolbar.calendar.label "Calendari">
+<!ENTITY lightning.toolbar.calendar.tooltip "Mostra la pestanya del calendari">
 <!ENTITY lightning.toolbar.calendar.accesskey "C">
-<!ENTITY lightning.toolbar.task.label         "Tasques">
-<!ENTITY lightning.toolbar.task.tooltip       "Mostra la pestanya de les tasques">
-<!ENTITY lightning.toolbar.task.accesskey     "T">
-
+<!ENTITY lightning.toolbar.task.label "Tasques">
+<!ENTITY lightning.toolbar.task.tooltip "Mostra la pestanya de les tasques">
+<!ENTITY lightning.toolbar.task.accesskey "T">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Dia">
-<!ENTITY lightning.toolbar.day.accesskey             "D">
-<!ENTITY lightning.toolbar.week.label                "Setmana">
-<!ENTITY lightning.toolbar.week.accesskey            "S">
-<!ENTITY lightning.toolbar.multiweek.label           "Multisetmana">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "u">
-<!ENTITY lightning.toolbar.month.label               "Mes">
-<!ENTITY lightning.toolbar.month.accesskey           "M">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Subfinestra del calendari">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "b">
-<!ENTITY lightning.toolbar.calendarpane.label        "Mostra la subfinestra del calendari">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "b">
+<!ENTITY lightning.toolbar.day.label "Dia">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "Setmana">
+<!ENTITY lightning.toolbar.week.accesskey "S">
+<!ENTITY lightning.toolbar.multiweek.label "Multisetmana">
+<!ENTITY lightning.toolbar.multiweek.accesskey "u">
+<!ENTITY lightning.toolbar.month.label "Mes">
+<!ENTITY lightning.toolbar.month.accesskey "M">
+<!ENTITY lightning.toolbar.calendarmenu.label "Subfinestra del calendari">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "b">
+<!ENTITY lightning.toolbar.calendarpane.label "Mostra la subfinestra del calendari">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "b">

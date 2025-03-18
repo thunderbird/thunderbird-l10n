@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Geral
 category-general =
     .tooltiptext = { pane-general-title }
+pane-appearance-title = Aparência
+category-appearance =
+    .tooltiptext = { pane-appearance-title }
 pane-compose-title = Redação
 category-compose =
     .tooltiptext = Redação
@@ -879,3 +882,9 @@ qr-export-more-accounts = Exportar mais contas
 
 ## Appearance Tab
 
+default-sort-date =
+    .label = Data
+default-sort-subject =
+    .label = Assunto
+default-sort-id =
+    .label = ID

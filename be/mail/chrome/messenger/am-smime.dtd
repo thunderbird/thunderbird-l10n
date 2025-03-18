@@ -4,10 +4,7 @@
 
 <!ENTITY e2eTitle.label "Скразное шыфраванне">
 <!ENTITY e2eLearnMore.label "Падрабязней">
-
 <!ENTITY e2eEnc.description "Без скразнога шыфравання змесціва паведамленняў можа быць лёгка прачытана вашым дастаўнікам паслуг электроннай пошты і сістэмамі масавага назірання.">
-
-
 <!ENTITY encryptionCert2.message "Персанальны сертыфікат для шыфравання:">
 <!ENTITY digitalSign.certificate.button "Вылучыць…">
 <!ENTITY digitalSign.certificate.accesskey "В">
@@ -18,15 +15,8 @@
 <!ENTITY encryption.certificate_clear.button "Ачысціць">
 <!ENTITY encryption.certificate_clear.accesskey "ч">
 <!ENTITY signingGroupTitle.label "Лічбавае падпісанне">
-
-
-
-
-
-
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Абраць сертыфікат">
-<!ENTITY certPicker.info  "Сертыфікат:">
+<!ENTITY certPicker.info "Сертыфікат:">
 <!ENTITY certPicker.detailsLabel "Падрабязнасці выбранага сертыфіката:">
-
 <!ENTITY openpgpKey.accesskey "ў">

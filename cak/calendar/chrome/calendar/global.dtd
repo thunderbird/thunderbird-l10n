@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "Nab'ey ik'" >
-<!ENTITY month.2.name "Ruka'n ik'" >
-<!ENTITY month.3.name "Rox ik'" >
-<!ENTITY month.4.name "Rukaj ik'" >
-<!ENTITY month.5.name "Ro' ik'" >
-<!ENTITY month.6.name "Ruwaq ik'" >
-<!ENTITY month.7.name "Ruwuq ik'" >
-<!ENTITY month.8.name "Ruwaqxaq ik'" >
-<!ENTITY month.9.name "Rub'elej ik'" >
-<!ENTITY month.10.name "Rulaj ik'" >
-<!ENTITY month.11.name "Rujulaj ik'" >
-<!ENTITY month.12.name "Rukab'laj ik'" >
-
+<!ENTITY month.1.name "Nab'ey ik'">
+<!ENTITY month.2.name "Ruka'n ik'">
+<!ENTITY month.3.name "Rox ik'">
+<!ENTITY month.4.name "Rukaj ik'">
+<!ENTITY month.5.name "Ro' ik'">
+<!ENTITY month.6.name "Ruwaq ik'">
+<!ENTITY month.7.name "Ruwuq ik'">
+<!ENTITY month.8.name "Ruwaqxaq ik'">
+<!ENTITY month.9.name "Rub'elej ik'">
+<!ENTITY month.10.name "Rulaj ik'">
+<!ENTITY month.11.name "Rujulaj ik'">
+<!ENTITY month.12.name "Rukab'laj ik'">
 <!ENTITY showToday.tooltip "Jo' wakami">
 <!ENTITY onedayforward.tooltip "Jun Q'ij Chwäch">
 <!ENTITY onedaybackward.tooltip "Jun q'ij kan">

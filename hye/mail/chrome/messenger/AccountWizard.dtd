@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Ինքնութիւն">
 <!ENTITY identityDesc.label "Իւրաքանչիւ հաշիւ անհատական է, այն ուղարկում է նշուած տեղեկութիւնը Ձեր մասին, երբ որեւէ մեկը ստանում է Ձեր նամակը։">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Նշէք այն անունը, որը կերեւայ ուղարկուած նամակների &quot; ումից&quot; դաշտում">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(աւրինակ՝ &quot; John Smith &quot;):">
 <!ENTITY fullnameLabel.label "Ձեր անունը.">
 <!ENTITY fullnameLabel.accesskey "Y">
-
 <!ENTITY emailLabel.label "Եղեկտրոնային հասցէ․">
 <!ENTITY emailLabel.accesskey "Ե">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Նշէք անունը, որին ցանանում էք կցել այս հաշիւը (աւրինակ՝ &quot; աշխատանքային հաշիւ &quot;, &quot; տնային հաշիւ &quot; կամ &quot; նորութիւնների հաշիւ &quot;)։">
 <!ENTITY accnameLabel.label "Հաշուի անուն.">
 <!ENTITY accnameLabel.accesskey "Հ">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Շնորհաւորու՛մ ենք">
 <!ENTITY completionText.label "Համոզուեք, որ ստորեւ ներկայացուած տեղեկութիւնը ճիշտ է։">
 <!ENTITY newsServerNamePrefix.label "Լուրերի սպասարկիչի անունը (NNTP).">

@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Kasuta kohandatud värve:">
 <!ENTITY customColorsRadio.accessKey "k">
 <!ENTITY customColorsRadio.tooltip "Nende sätete puhul vaataja sätted ei rakendu">
-
 <!ENTITY normalText.label "Tavaline tekst">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "Lingi tekst">

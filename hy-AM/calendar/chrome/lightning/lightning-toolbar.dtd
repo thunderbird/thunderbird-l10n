@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Օրացույց">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Բացել օրացույցի ներդիրը">
+<!ENTITY lightning.toolbar.calendar.label "Օրացույց">
+<!ENTITY lightning.toolbar.calendar.tooltip "Բացել օրացույցի ներդիրը">
 <!ENTITY lightning.toolbar.calendar.accesskey "C">
-<!ENTITY lightning.toolbar.task.label         "Առաջադրանքներ">
-<!ENTITY lightning.toolbar.task.tooltip       "Բացել առաջադրանքների ներդիրը">
-<!ENTITY lightning.toolbar.task.accesskey     "T">
-
+<!ENTITY lightning.toolbar.task.label "Առաջադրանքներ">
+<!ENTITY lightning.toolbar.task.tooltip "Բացել առաջադրանքների ներդիրը">
+<!ENTITY lightning.toolbar.task.accesskey "T">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Օր">
-<!ENTITY lightning.toolbar.day.accesskey             "D">
-<!ENTITY lightning.toolbar.week.label                "Շաբաթ">
-<!ENTITY lightning.toolbar.week.accesskey            "W">
-<!ENTITY lightning.toolbar.multiweek.label           "Բազում շաբաթներ">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "u">
-<!ENTITY lightning.toolbar.month.label               "Ամիս">
-<!ENTITY lightning.toolbar.month.accesskey           "M">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Օրացույցի փեղկ">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "P">
-<!ENTITY lightning.toolbar.calendarpane.label        "Ցուցադրել օրացույցի փեղկը">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "P">
+<!ENTITY lightning.toolbar.day.label "Օր">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "Շաբաթ">
+<!ENTITY lightning.toolbar.week.accesskey "W">
+<!ENTITY lightning.toolbar.multiweek.label "Բազում շաբաթներ">
+<!ENTITY lightning.toolbar.multiweek.accesskey "u">
+<!ENTITY lightning.toolbar.month.label "Ամիս">
+<!ENTITY lightning.toolbar.month.accesskey "M">
+<!ENTITY lightning.toolbar.calendarmenu.label "Օրացույցի փեղկ">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "P">
+<!ENTITY lightning.toolbar.calendarpane.label "Ցուցադրել օրացույցի փեղկը">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "P">

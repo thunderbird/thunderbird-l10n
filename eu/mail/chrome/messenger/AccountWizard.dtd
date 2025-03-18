@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Identitatea">
 <!ENTITY identityDesc.label "Kontu bakoitzak identitate bat du, besteen aurrean identifikatzen zaituen informazioa duena zure mezuak jasotzen dituztenean.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Sartu bidaltzeko mezuen &quot;Nork&quot; eremuan agertzea nahi duzun izena">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(adibidez, &quot;Jone Etxeberria&quot;).">
 <!ENTITY fullnameLabel.label "Zure izena:">
 <!ENTITY fullnameLabel.accesskey "Z">
-
 <!ENTITY emailLabel.label "Helbide elektronikoa:">
 <!ENTITY emailLabel.accesskey "e">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Sartu kontu hau izendatzeko erabili nahi duzun testua (adibidez, &quot;Laneko Kontua&quot;, &quot;Etxeko kontua&quot; edo &quot;Berrien kontua&quot;).">
 <!ENTITY accnameLabel.label "Kontuaren izena:">
 <!ENTITY accnameLabel.accesskey "K">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Zorionak!">
 <!ENTITY completionText.label "Egiaztatu beheko informazioa zuzena dela.">
 <!ENTITY newsServerNamePrefix.label "Berri-zerbitzariaren izena (NNTP):">

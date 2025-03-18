@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Հորիզոնական գծի յատկութիւններ">
-
 <!ENTITY dimensionsBox.label "Չափեր">
 <!ENTITY heightEditField.label "Բարձրութիւն․">
 <!ENTITY heightEditField.accessKey "Բ">
@@ -19,7 +17,6 @@
 <!ENTITY centerRadio.accessKey "Կ">
 <!ENTITY rightRadio.label "Աջ">
 <!ENTITY rightRadio.accessKey "Ա">
-
 <!ENTITY threeDShading.label "3-D ստուերաւորում">
 <!ENTITY threeDShading.accessKey "Ս">
 <!ENTITY saveSettings.label "Աւգտագործել, որպէս սկզբնադիր">

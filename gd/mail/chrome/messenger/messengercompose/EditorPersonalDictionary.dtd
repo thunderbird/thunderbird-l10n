@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Am faclair pearsanta">
-
 <!ENTITY wordEditField.label "Facal ùr:">
 <!ENTITY wordEditField.accessKey "F">
 <!ENTITY AddButton.label "Cuir ris">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "a">
 <!ENTITY RemoveButton.label "Thoir air falbh">
 <!ENTITY RemoveButton.accessKey "o">
-
 <!ENTITY CloseButton.label "Dùin">
 <!ENTITY CloseButton.accessKey "D">

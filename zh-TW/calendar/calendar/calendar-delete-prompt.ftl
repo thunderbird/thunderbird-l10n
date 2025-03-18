@@ -12,8 +12,8 @@ calendar-delete-event-prompt-title =
     }
 calendar-delete-event-prompt-message =
     { $count ->
-       *[one] 您確定要刪除這場事件嗎?
         [other] 您確定要刪除這 { $count } 場事件嗎？
+       *[one] 您確定要刪除這場事件嗎?
     }
 
 ## Variables:
@@ -25,8 +25,8 @@ calendar-delete-task-prompt-title =
     }
 calendar-delete-task-prompt-message =
     { $count ->
-       *[one] 您確定要刪除這個工作嗎?
         [other] 您確定要刪除這 { $count } 個工作嗎？
+       *[one] 您確定要刪除這個工作嗎?
     }
 
 ## Variables:
@@ -38,8 +38,8 @@ calendar-delete-item-prompt-title =
     }
 calendar-delete-item-prompt-message =
     { $count ->
-       *[one] 您確定要刪除這個項目嗎?
         [other] 您確定要刪除這 { $count } 個項目嗎？
+       *[one] 您確定要刪除這個項目嗎?
     }
 
 ##

@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Wstawianie wzorów matematycznych">
-
 <!ENTITY sourceEditField.label "Wprowadź kod źródłowy LaTeX:">
-
 <!ENTITY options.label "Ustawienia">
 <!ENTITY optionInline.label "Tryb bezpośredni">
 <!ENTITY optionInline.accesskey "b">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "l">
 <!ENTITY optionRTL.label "Z prawej do lewej">
 <!ENTITY optionRTL.accesskey "p">
-
 <!ENTITY insertButton.label "Wstaw">
 <!ENTITY insertButton.accesskey "W">

@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "A">
 <!ENTITY syncGroupTitle.label "Berjochten syngronisearje">
 <!ENTITY diskspaceGroupTitle.label "Skiifromte">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Syngronisearje alle berjichten lokaal sûnder omtinken om leeftiid">
-<!ENTITY allAutosync.accesskey           "n">
-<!ENTITY ageAutosyncBefore.label         "Syngronisearje de meast resinte">
-<!ENTITY ageAutosync.accesskey           "r">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "Dagen">
-<!ENTITY weekAgeInterval.label           "Wiken">
-<!ENTITY monthAgeInterval.label          "Moannen">
-<!ENTITY yearAgeInterval.label           "jier">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Syngronisearje alle berjichten lokaal sûnder omtinken om leeftiid">
+<!ENTITY allAutosync.accesskey "n">
+<!ENTITY ageAutosyncBefore.label "Syngronisearje de meast resinte">
+<!ENTITY ageAutosync.accesskey "r">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "Dagen">
+<!ENTITY weekAgeInterval.label "Wiken">
+<!ENTITY monthAgeInterval.label "Moannen">
+<!ENTITY yearAgeInterval.label "jier">
+<!ENTITY ageAutosyncAfter.label "">

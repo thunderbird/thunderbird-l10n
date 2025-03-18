@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Egyéni színek használata:">
 <!ENTITY customColorsRadio.accessKey "E">
 <!ENTITY customColorsRadio.tooltip "Ezek a színbeállítások felülbírálják az olvasó böngészőjének beállításait">
-
 <!ENTITY normalText.label "Normál szöveg">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "Hivatkozás szövege">

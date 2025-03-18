@@ -1,28 +1,22 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY windowTitle.label            "Майстар стварэння ўліковага запісу чата">
-
-<!ENTITY accountProtocolTitle.label   "Пратакол чата">
-<!ENTITY accountProtocolInfo.label    "Калі ласка, выберыце пратакол для вашага ўліковага запісу чата.">
-<!ENTITY accountProtocolField.label   "Пратакол:">
+<!ENTITY windowTitle.label "Майстар стварэння ўліковага запісу чата">
+<!ENTITY accountProtocolTitle.label "Пратакол чата">
+<!ENTITY accountProtocolInfo.label "Калі ласка, выберыце пратакол для вашага ўліковага запісу чата.">
+<!ENTITY accountProtocolField.label "Пратакол:">
 <!ENTITY accountProtocolGetMore.label "Атрымаць больш…">
-
-<!ENTITY accountUsernameTitle.label   "Імя карыстальніка">
+<!ENTITY accountUsernameTitle.label "Імя карыстальніка">
 <!ENTITY accountUsernameDuplicate.label "Гэты ўліковы запіс ужо сканфігураваны!">
-
-<!ENTITY accountPasswordTitle.label   "Пароль">
-<!ENTITY accountPasswordInfo.label    "Калі ласка, увядзіце ваш пароль у тэкставае поле ніжэй.">
-<!ENTITY accountPasswordField.label   "Пароль:">
+<!ENTITY accountPasswordTitle.label "Пароль">
+<!ENTITY accountPasswordInfo.label "Калі ласка, увядзіце ваш пароль у тэкставае поле ніжэй.">
+<!ENTITY accountPasswordField.label "Пароль:">
 <!ENTITY accountPasswordManager.label "Уведзены вамі пароль будзе захаваны ў Менеджары пароляў. Калі вы жадаеце, каб у вас запытвалі пароль пры кожным падлучэнні гэтага ўліковага запісу, пакіньце тэкставае поле пустым.">
-
-<!ENTITY accountAdvancedTitle.label   "Пашыраныя параметры">
-<!ENTITY accountAdvanced.newMailNotification.label   "Паведамляць пра новую пошту">
+<!ENTITY accountAdvancedTitle.label "Пашыраныя параметры">
+<!ENTITY accountAdvanced.newMailNotification.label "Паведамляць пра новую пошту">
 <!ENTITY accountAliasGroupbox.caption "Лакальны псеўданім">
-<!ENTITY accountAliasField.label      "Псеўданім:">
+<!ENTITY accountAliasField.label "Псеўданім:">
 <!ENTITY accountProxySettings.caption "Налады проксі">
-<!ENTITY accountProxySettings.change.label     "Змяніць…">
+<!ENTITY accountProxySettings.change.label "Змяніць…">
 <!ENTITY accountProxySettings.change.accessKey "З">
-
 <!ENTITY accountSummary.connectNow.label "Падлучыць гэты ўліковы запіс.">

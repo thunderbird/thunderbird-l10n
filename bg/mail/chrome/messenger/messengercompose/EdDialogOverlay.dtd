@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "ф">
 <!ENTITY chooseFileLinkButton.label "Избор на файл…">
 <!ENTITY chooseFileLinkButton.accessKey "б">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Въведете адрес на уеб страница, местен файл, изберете именувана котва или заглавие от контекстуалното меню на полето:">
 <!ENTITY LinkURLEditField2.accessKey "В">

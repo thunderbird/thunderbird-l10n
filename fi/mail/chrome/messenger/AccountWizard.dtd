@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Käyttäjätiedot">
 <!ENTITY identityDesc.label "Jokaiseen tiliin tallennetaan käyttäjätietosi, jotta viestiesi vastaanottajat tunnistavat sinut.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Kirjoita nimi, jonka haluat näkyvän lähettämiesi viestien Lähettäjä-kentässä">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(esimerkiksi &quot;Erkki Esimerkki&quot;).">
 <!ENTITY fullnameLabel.label "Nimi:">
 <!ENTITY fullnameLabel.accesskey "N">
-
 <!ENTITY emailLabel.label "Sähköpostiosoite:">
 <!ENTITY emailLabel.accesskey "S">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Anna tälle tilille jokin nimi (esimerkiksi &quot;Työ&quot;, &quot;Kotitili&quot; tai &quot;Keskusteluryhmätili&quot;).">
 <!ENTITY accnameLabel.label "Tilin nimi:">
 <!ENTITY accnameLabel.accesskey "n">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Valmis">
 <!ENTITY completionText.label "Vahvista, että alla olevat tiedot ovat oikein.">
 <!ENTITY newsServerNamePrefix.label "Keskusteluryhmäpalvelimen (NNTP) nimi:">

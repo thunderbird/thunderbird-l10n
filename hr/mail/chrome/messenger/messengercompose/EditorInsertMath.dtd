@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Umetni Math">
-
 <!ENTITY sourceEditField.label "Unesite LaTeX izvorni kod:">
-
 <!ENTITY options.label "Mogućnosti">
 <!ENTITY optionInline.label "Ugrađeni način rada">
 <!ENTITY optionInline.accesskey "n">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "l">
 <!ENTITY optionRTL.label "Smjer zdesna nalijevo">
 <!ENTITY optionRTL.accesskey "r">
-
 <!ENTITY insertButton.label "Umetni">
 <!ENTITY insertButton.accesskey "i">

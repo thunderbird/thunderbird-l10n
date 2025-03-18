@@ -34,14 +34,11 @@
 <!-- LOCALIZATION NOTE (attachVCard.label) : do not translate "vCard" in below line -->
 <!ENTITY attachVCard.label "Legg ved adressekortet mitt (vCard)">
 <!ENTITY attachVCard.accesskey "m">
-
 <!ENTITY manageIdentities.label "Handsame identitetar …">
 <!ENTITY manageIdentities.accesskey "H">
-
 <!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
 <!ENTITY smtpName.label "Utgåande sørvar (SMTP):">
 <!ENTITY smtpName.accesskey "U">
 <!ENTITY smtpDefaultServer.label "Bruk standardsørvar">
-
 <!ENTITY smtpServerEdit.label "Rediger SMTP-sørvar…">
 <!ENTITY smtpServerEdit.accesskey "P">

@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Wiskundige symbolen invoegen">
-
 <!ENTITY sourceEditField.label "Voeg LaTeX-broncode in:">
-
 <!ENTITY options.label "Opties">
 <!ENTITY optionInline.label "Inlinemodus">
 <!ENTITY optionInline.accesskey "n">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "l">
 <!ENTITY optionRTL.label "Van rechts naar links">
 <!ENTITY optionRTL.accesskey "r">
-
 <!ENTITY insertButton.label "Invoegen">
 <!ENTITY insertButton.accesskey "I">

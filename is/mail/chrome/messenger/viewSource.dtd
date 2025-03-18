@@ -11,7 +11,6 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
 <!ENTITY mainWindow.preface "Upprunalega frá:">
-
 <!ENTITY editMenu.label "Breyta">
 <!ENTITY editMenu.accesskey "E">
 <!ENTITY fileMenu.label "Skrá">
@@ -25,13 +24,11 @@
 <!ENTITY closeCmd.label "Loka">
 <!ENTITY closeCmd.accesskey "l">
 <!ENTITY closeCmd.commandkey "W">
-
 <!-- LOCALIZATION NOTE :
-textEnlarge.commandkey3, textReduce.commandkey2 and
-textReset.commandkey2 are alternative acceleration keys for zoom.
-If shift key is needed with your locale popular keyboard for them,
-you can use these alternative items. Otherwise, their values should be empty.  -->
-
+     textEnlarge.commandkey3, textReduce.commandkey2 and
+     textReset.commandkey2 are alternative acceleration keys for zoom.
+     If shift key is needed with your locale popular keyboard for them,
+     you can use these alternative items. Otherwise, their values should be empty. -->
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textEnlarge.commandkey3 "">
@@ -39,13 +36,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReduce.commandkey2 "">
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
-
 <!ENTITY goToLineCmd.label "Fara í línu…">
 <!ENTITY goToLineCmd.accesskey "n">
 <!ENTITY goToLineCmd.commandkey "l">
-
-<!ENTITY viewMenu.label           "Skoða">
-<!ENTITY viewMenu.accesskey       "k">
+<!ENTITY viewMenu.label "Skoða">
+<!ENTITY viewMenu.accesskey "k">
 <!ENTITY reloadCmd.label "Endurhlaða">
 <!ENTITY reloadCmd.accesskey "R">
 <!ENTITY reloadCmd.commandkey "r">
@@ -61,23 +56,20 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReduce.accesskey "m">
 <!ENTITY menu_textReset.label "Venjulegt">
 <!ENTITY menu_textReset.accesskey "N">
-
-<!ENTITY findOnCmd.label     "Finna á þessari síðu…">
+<!ENTITY findOnCmd.label "Finna á þessari síðu…">
 <!ENTITY findOnCmd.accesskey "F">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Finna aftur">
+<!ENTITY findAgainCmd.label "Finna aftur">
 <!ENTITY findAgainCmd.accesskey "a">
 <!ENTITY findAgainCmd.commandkey "a">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
-
 <!ENTITY backCmd.label "Til baka">
 <!ENTITY backCmd.accesskey "B">
 <!ENTITY forwardCmd.label "Áfram">
 <!ENTITY forwardCmd.accesskey "F">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
-
 <!ENTITY copyLinkCmd.label "Afrita staðsetningu tengils">
 <!ENTITY copyLinkCmd.accesskey "L">
 <!ENTITY copyEmailCmd.label "Afrita tölvupóstfang">

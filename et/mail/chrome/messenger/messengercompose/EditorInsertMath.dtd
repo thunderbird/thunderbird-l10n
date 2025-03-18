@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Matemaatiliste valemite sisestamine">
-
 <!ENTITY sourceEditField.label "Sisesta LaTeXi lähtekood:">
-
 <!ENTITY options.label "Valikud">
 <!ENTITY optionInline.label "Rea sees">
 <!ENTITY optionInline.accesskey "R">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "v">
 <!ENTITY optionRTL.label "Suunaga paremalt vasakule">
 <!ENTITY optionRTL.accesskey "p">
-
 <!ENTITY insertButton.label "Sisesta">
 <!ENTITY insertButton.accesskey "S">

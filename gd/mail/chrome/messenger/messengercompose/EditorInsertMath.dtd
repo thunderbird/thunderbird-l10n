@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Cuir matamataig a-steach">
-
 <!ENTITY sourceEditField.label "Cuir a-steach bun-tùs LaTeX:">
-
 <!ENTITY options.label "Roghainnean">
 <!ENTITY optionInline.label "Am modh ion-loidhne">
 <!ENTITY optionInline.accesskey "n">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "l">
 <!ENTITY optionRTL.label "Deas gu clì">
 <!ENTITY optionRTL.accesskey "D">
-
 <!ENTITY insertButton.label "Cuir a-steach">
 <!ENTITY insertButton.accesskey "i">

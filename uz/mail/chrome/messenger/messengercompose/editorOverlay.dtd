@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "Iqtibos sifatida qo‘yish">
 <!ENTITY pasteAsQuotationCmd.accesskey "q">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Kiritish">
 <!ENTITY insertMenu.accesskey "K">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "H">
 <!ENTITY insertBreakAllCmd.label "Quyidagi rasm(lar)ni ajratish">
 <!ENTITY insertBreakAllCmd.accesskey "a">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Havola yaratish…">
 <!ENTITY createLinkCmd.accesskey "H">
 <!ENTITY editLinkCmd.label "Yangi Composer’da havolani tahrirlash">
 <!ENTITY editLinkCmd.accesskey "t">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Shriftni tanlash">
 <!ENTITY fontfaceMenu.label "Shrift">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Shrift hajmini tanlash">
 <!ENTITY decreaseFontSize.label "Kichikroq">
 <!ENTITY decreaseFontSize.accesskey "K">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "Kattaroq">
 <!ENTITY increaseFontSize.accesskey "r">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "Hajmi">
 <!ENTITY fontSizeMenu.accesskey "j">
 <!ENTITY size-tinyCmd.label "Mayda">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "J">
 <!ENTITY size-hugeCmd.label "Ulkan">
 <!ENTITY size-hugeCmd.accesskey "U">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Matn uslubi">
 <!ENTITY fontStyleMenu.accesskey "u">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "O">
 <!ENTITY styleVar.label "O‘zgaruvchi">
 <!ENTITY styleVar.accesskey "O">
-
 <!ENTITY formatFontColor.label "Matn rangi…">
 <!ENTITY formatFontColor.accesskey "r">
 <!ENTITY tableOrCellColor.label "Katak yoki jadval orqa foni…">
 <!ENTITY tableOrCellColor.accesskey "o">
-
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "Nomlangan langarni olib tashlash">
 <!ENTITY formatRemoveNamedAnchors.accesskey "o">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
-
 <!ENTITY paragraphMenu.label "Paragraf">
 <!ENTITY paragraphMenu.accesskey "P">
 <!ENTITY paragraphParagraphCmd.label "Paragraf">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "M">
 <!ENTITY paragraphPreformatCmd.label "Format ko‘rinishi">
 <!ENTITY paragraphPreformatCmd.accesskey "F">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Ro‘yxat">
 <!ENTITY formatlistMenu.accesskey "R">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "A">
 <!ENTITY listPropsCmd.label "Xossalari ro‘yxati…">
 <!ENTITY listPropsCmd.accesskey "r">
-
 <!ENTITY ParagraphSelect.tooltip "Paragraf formatini tanlash">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Matn asosiy qismi">
 <!ENTITY bodyTextCmd.accesskey "M">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Taxlash">
 <!ENTITY alignMenu.accesskey "T">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "Tadiqlash">
 <!ENTITY alignJustify.accesskey "T">
 <!ENTITY alignJustify.tooltip "Tasdiqlashni taxlash">
-
 <!ENTITY increaseIndent.label "Xat boshini kattalashtirish">
 <!ENTITY increaseIndent.accesskey "k">
 <!ENTITY increaseIndent.key "]">
 <!ENTITY decreaseIndent.label "Xat boshini kamaytirish">
 <!ENTITY decreaseIndent.accesskey "k">
 <!ENTITY decreaseIndent.key "[">
-
 <!ENTITY colorsAndBackground.label "Sahifa ranglari va orqa fonlar…">
 <!ENTITY colorsAndBackground.accesskey "o">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Jadval">
 <!ENTITY tableMenu.accesskey "J">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Tanlash">
 <!ENTITY tableSelectMenu.accesskey "T">
-
 <!ENTITY tableSelectMenu2.label "Jadvalni tanlash">
 <!ENTITY tableSelectMenu2.accesskey "t">
 <!ENTITY tableInsertMenu2.label "Jadvalni kiritish">
 <!ENTITY tableInsertMenu2.accesskey "k">
 <!ENTITY tableDeleteMenu2.label "Jadvalni o‘chirish">
 <!ENTITY tableDeleteMenu2.accesskey "o">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Kiritish">
 <!ENTITY tableInsertMenu.accesskey "K">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "O‘chirish">
 <!ENTITY tableDeleteMenu.accesskey "O">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "j">
 <!ENTITY tableJoinCells.accesskey "j">
 <!ENTITY tableSplitCell.label "Katakni ajratish">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "y">
 <!ENTITY tableProperties.label "Jadval xossalari…">
 <!ENTITY tableProperties.accesskey "x">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Rasm">
 <!ENTITY imageToolbarCmd.tooltip "Yangi rasmni kiriting yoi tanlangan rasmning xossalarini tahrirlang">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Langarning yangi nomini kiriting yoki tanlangan langanrning xossalarini tahrirlang">
 <!ENTITY TextColorButton.tooltip "Matn uchun rangni tanlang">
 <!ENTITY BackgroundColorButton.tooltip "Orqa fon uchun rangni tanlang">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "Shrift hajmini o‘rnatish">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Kichikroq shrift hajmi">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "Matnni markazda taxlash">
 <!ENTITY alignRightButton.tooltip "Matnni o‘ng chegarasi bo‘yicha taxlash">
 <!ENTITY alignJustifyButton.tooltip "Matnni chap va o‘ng chegalari bo‘yicha taxlash">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Kiritish">
-<!ENTITY insertTOC.accesskey      "K">
-<!ENTITY updateTOC.label          "Yangilash">
-<!ENTITY updateTOC.accesskey      "Y">
-<!ENTITY removeTOC.label          "Olib tashlash">
-<!ENTITY removeTOC.accesskey      "O">
-<!ENTITY tocMenu.label            "Tarkibdagi jadval…">
-<!ENTITY tocMenu.accesskey        "j">
+<!ENTITY insertTOC.label "Kiritish">
+<!ENTITY insertTOC.accesskey "K">
+<!ENTITY updateTOC.label "Yangilash">
+<!ENTITY updateTOC.accesskey "Y">
+<!ENTITY removeTOC.label "Olib tashlash">
+<!ENTITY removeTOC.accesskey "O">
+<!ENTITY tocMenu.label "Tarkibdagi jadval…">
+<!ENTITY tocMenu.accesskey "j">

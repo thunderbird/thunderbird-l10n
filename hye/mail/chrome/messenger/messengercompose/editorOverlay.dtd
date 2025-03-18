@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "Տեղադրել որպէս մէջբերում">
 <!ENTITY pasteAsQuotationCmd.accesskey "Մ">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Արտածել">
 <!ENTITY insertMenu.accesskey "Ա">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "Գ">
 <!ENTITY insertBreakAllCmd.label "Կտրէ՛ք պատկերը(ները) ներքեւում">
 <!ENTITY insertBreakAllCmd.accesskey "k">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Ստեղծել յղում…">
 <!ENTITY createLinkCmd.accesskey "k">
 <!ENTITY editLinkCmd.label "Խմբագրել յղումը «Նոր կոմպոզիտոր»-ում">
 <!ENTITY editLinkCmd.accesskey "i">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Ընտրել տառատեսակ">
 <!ENTITY fontfaceMenu.label "Տառատեսակ">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Ընտրել տառատեսակի չափը">
 <!ENTITY decreaseFontSize.label "Աւելի փոքր">
 <!ENTITY decreaseFontSize.accesskey "ր">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "Աւելի մեծ">
 <!ENTITY increaseFontSize.accesskey "լ">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "Չափ">
 <!ENTITY fontSizeMenu.accesskey "փ">
 <!ENTITY size-tinyCmd.label "Փոքրիկ">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "ա">
 <!ENTITY size-hugeCmd.label "Հսկայական">
 <!ENTITY size-hugeCmd.accesskey "Հ">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Գրոյթի ոճ">
 <!ENTITY fontStyleMenu.accesskey "Ո">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "ու">
 <!ENTITY styleVar.label "Փոփոխական">
 <!ENTITY styleVar.accesskey "Փ">
-
 <!ENTITY formatFontColor.label "Գրոյթի գոյն…">
 <!ENTITY formatFontColor.accesskey "Գ">
 <!ENTITY tableOrCellColor.label "Աղիւսակի եւ վանդակի յետնապատկերի գոյնը...">
 <!ENTITY tableOrCellColor.accesskey "յ">
-
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "Հեռացնել անուանուած խարիսխները">
 <!ENTITY formatRemoveNamedAnchors.accesskey "Հ">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
-
 <!ENTITY paragraphMenu.label "Պարբերութիւն">
 <!ENTITY paragraphMenu.accesskey "Պ">
 <!ENTITY paragraphParagraphCmd.label "Պարբերութիւն">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "Հ">
 <!ENTITY paragraphPreformatCmd.label "Նախակազմութիւն">
 <!ENTITY paragraphPreformatCmd.accesskey "կ">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Ցուցակ">
 <!ENTITY formatlistMenu.accesskey "Ց">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "Ո">
 <!ENTITY listPropsCmd.label "Ցուցակի յատկութիւնները…">
 <!ENTITY listPropsCmd.accesskey "Ց">
-
 <!ENTITY ParagraphSelect.tooltip "Ընտրել պարբերութեան ձեւաչափը">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Հիմնական գրոյթ">
 <!ENTITY bodyTextCmd.accesskey "Գ">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Հաւասարեցում">
 <!ENTITY alignMenu.accesskey "Հ">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "Հաւասարեցում">
 <!ENTITY alignJustify.accesskey "Հ">
 <!ENTITY alignJustify.tooltip "Հաւասարեցրած կենտրոնում">
-
 <!ENTITY increaseIndent.label "Մեծացնել սահմանը">
 <!ENTITY increaseIndent.accesskey "Մ">
 <!ENTITY increaseIndent.key "]">
 <!ENTITY decreaseIndent.label "Փոքրացնել սահմանը">
 <!ENTITY decreaseIndent.accesskey "Փ">
 <!ENTITY decreaseIndent.key "[">
-
 <!ENTITY colorsAndBackground.label "Էջի գոյները եւ յետնապատկերը…">
 <!ENTITY colorsAndBackground.accesskey "կ">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Աղիւսակ">
 <!ENTITY tableMenu.accesskey "իւ">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Ընտրել">
 <!ENTITY tableSelectMenu.accesskey "Ը">
-
 <!ENTITY tableSelectMenu2.label "Ընտրել աղիւսակ">
 <!ENTITY tableSelectMenu2.accesskey "Ը">
 <!ENTITY tableInsertMenu2.label "Ներմուծել աղիւսակ">
 <!ENTITY tableInsertMenu2.accesskey "Ն">
 <!ENTITY tableDeleteMenu2.label "Ջնջել աղիւսակը">
 <!ENTITY tableDeleteMenu2.accesskey "Ջ">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Ներմուծել">
 <!ENTITY tableInsertMenu.accesskey "Ն">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Ջնջել">
 <!ENTITY tableDeleteMenu.accesskey "Ջ">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "մ">
 <!ENTITY tableJoinCells.accesskey "մ">
 <!ENTITY tableSplitCell.label "Կտրել վանդակը">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "տ">
 <!ENTITY tableProperties.label "Աղիւսակի յատկութիւնները…">
 <!ENTITY tableProperties.accesskey "տ">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Պատկեր">
 <!ENTITY imageToolbarCmd.tooltip "Ներմուծել նոր նկար կամ խմբագրել նկարի յատկութիւնները">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Ներմուծէ՛ք նոր անունով խարիսխ կամ խմբագրէ՛ք ընտրուած խարիսխի յատկութիւնները">
 <!ENTITY TextColorButton.tooltip "Ընտրէք գրոյթի գոյնը">
 <!ENTITY BackgroundColorButton.tooltip "Ընտրէ՛ք գոյն յետնապատկերի համար">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "Սահմանէ՛ք տառաչափը">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Տառատեսակի փոքր չափ">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "Հաւասարեցնել գրոյթը կենտրոնում">
 <!ENTITY alignRightButton.tooltip "Հաւասարեցնել գրոյթը աջ լուսանցքին">
 <!ENTITY alignJustifyButton.tooltip "Հաւասարեցնել գրոյթը աջ լուսանցքին">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Ներմուծել">
-<!ENTITY insertTOC.accesskey      "ն">
-<!ENTITY updateTOC.label          "Թարմացնել">
-<!ENTITY updateTOC.accesskey      "թ">
-<!ENTITY removeTOC.label          "Հեռացնել">
-<!ENTITY removeTOC.accesskey      "հ">
-<!ENTITY tocMenu.label            "Պարունակութեան աղիւսակը…">
-<!ENTITY tocMenu.accesskey        "ր">
+<!ENTITY insertTOC.label "Ներմուծել">
+<!ENTITY insertTOC.accesskey "ն">
+<!ENTITY updateTOC.label "Թարմացնել">
+<!ENTITY updateTOC.accesskey "թ">
+<!ENTITY removeTOC.label "Հեռացնել">
+<!ENTITY removeTOC.accesskey "հ">
+<!ENTITY tocMenu.label "Պարունակութեան աղիւսակը…">
+<!ENTITY tocMenu.accesskey "ր">

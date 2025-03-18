@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Helyesírás-ellenőrzés">
-
 <!ENTITY misspelledWord.label "Helytelen szó:">
 <!ENTITY wordEditField.label "Csere erre:">
 <!ENTITY wordEditField.accessKey "C">

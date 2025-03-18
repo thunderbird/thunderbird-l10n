@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Insérer un tableau">
-
 <!ENTITY size.label "Taille">
 <!ENTITY numRowsEditField.label "Lignes :">
 <!ENTITY numRowsEditField.accessKey "N">

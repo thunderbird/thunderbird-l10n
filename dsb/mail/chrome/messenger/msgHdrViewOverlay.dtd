@@ -8,7 +8,6 @@
 <!ENTITY author.label "Awtor">
 <!ENTITY organizationField4.label "Organizacija">
 <!ENTITY replyToField4.label "Wótegroniś na">
-
 <!ENTITY subjectField4.label "Tema">
 <!ENTITY ccField4.label "Kopija">
 <!ENTITY bccField4.label "Schowna kopija">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "ID powěsći">
 <!ENTITY inReplyToField4.label "Ako wótegrono na">
 <!ENTITY originalWebsite4.label "Websedło">
-
 <!ENTITY hdrArchiveButton1.label "Archiwěrowaś">
 <!ENTITY hdrArchiveButton1.tooltip "Toś tu powěsć archiwěrowaś">
 <!ENTITY hdrSmartReplyButton1.label "Inteligentne wótegrono">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Toś tu powěsć ako cajk markěrowaś">
 <!ENTITY hdrTrashButton1.label "Lašowaś">
 <!ENTITY hdrTrashButton1.tooltip "Toś tu powěsć lašowaś">
-
 <!ENTITY hdrViewToolbarShowFull.label "Symbole a tekst pokazaś">
 <!ENTITY hdrViewToolbarShowFull.accesskey "a">
 <!ENTITY hdrViewToolbarShowIcons.label "Jano symbole pokazaś">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "t">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Wótpósłarjeju pśecej wótegrono pokazaś">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "W">
-
 <!ENTITY otherActionsButton2.label "Wěcej">
 <!ENTITY otherActionsButton.tooltip "Dalšne akcije">
 <!ENTITY otherActionsOpenConversation1.label "W konwersaciji wócyniś">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "d">
 <!ENTITY otherActionsPrint1.label "Śišćaś…">
 <!ENTITY otherActionsPrint1.accesskey "i">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Wokno pśidankow zachopnje pokazaś">
-<!ENTITY startExpandedCmd.accesskey    "W">
-
+<!ENTITY startExpandedCmd.label "Wokno pśidankow zachopnje pokazaś">
+<!ENTITY startExpandedCmd.accesskey "W">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Wócyniś">
-<!ENTITY openAttachmentCmd.accesskey    "c">
-<!ENTITY saveAsAttachmentCmd.label    "Składowaś ako…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "S">
-<!ENTITY detachAttachmentCmd.label    "Wótpowjesyś…">
-<!ENTITY detachAttachmentCmd.accesskey    "t">
-<!ENTITY deleteAttachmentCmd.label    "Lašowaś">
-<!ENTITY deleteAttachmentCmd.accesskey    "L">
-<!ENTITY openAllAttachmentsCmd.label    "Wšykne wócyniś…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "c">
-<!ENTITY saveAllAttachmentsCmd.label    "Wšykne składowaś…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "s">
-<!ENTITY detachAllAttachmentsCmd.label    "Wšykne wótpowjesyś…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "o">
-<!ENTITY deleteAllAttachmentsCmd.label    "Wšykne lašowaś…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "l">
-
+<!ENTITY openAttachmentCmd.label "Wócyniś">
+<!ENTITY openAttachmentCmd.accesskey "c">
+<!ENTITY saveAsAttachmentCmd.label "Składowaś ako…">
+<!ENTITY saveAsAttachmentCmd.accesskey "S">
+<!ENTITY detachAttachmentCmd.label "Wótpowjesyś…">
+<!ENTITY detachAttachmentCmd.accesskey "t">
+<!ENTITY deleteAttachmentCmd.label "Lašowaś">
+<!ENTITY deleteAttachmentCmd.accesskey "L">
+<!ENTITY openAllAttachmentsCmd.label "Wšykne wócyniś…">
+<!ENTITY openAllAttachmentsCmd.accesskey "c">
+<!ENTITY saveAllAttachmentsCmd.label "Wšykne składowaś…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "s">
+<!ENTITY detachAllAttachmentsCmd.label "Wšykne wótpowjesyś…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "o">
+<!ENTITY deleteAllAttachmentsCmd.label "Wšykne lašowaś…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "l">
 <!ENTITY openAttachment.tooltip "Pśipowjesonu dataju wócyniś">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Wopśimujucy zarědnik wócyniś">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "m">
-<!ENTITY detachedAttachmentFolder.showMac.label     "W Finder pokazaś">
+<!ENTITY detachedAttachmentFolder.show.label "Wopśimujucy zarědnik wócyniś">
+<!ENTITY detachedAttachmentFolder.show.accesskey "m">
+<!ENTITY detachedAttachmentFolder.showMac.label "W Finder pokazaś">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Składowaś">
-<!ENTITY saveAttachmentButton1.tooltip     "Pśipowjesonu dataju składowaś">
-<!ENTITY saveAllAttachmentsButton1.label   "Wšykne składowaś">
+<!ENTITY saveAttachmentButton1.label "Składowaś">
+<!ENTITY saveAttachmentButton1.tooltip "Pśipowjesonu dataju składowaś">
+<!ENTITY saveAllAttachmentsButton1.label "Wšykne składowaś">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Wšykne pśipowjesone dataje składowaś">
-
-<!ENTITY copyLinkCmd.label        "Wótkazowu adresu kopěrowaś">
-<!ENTITY copyLinkCmd.accesskey    "W">
-
+<!ENTITY copyLinkCmd.label "Wótkazowu adresu kopěrowaś">
+<!ENTITY copyLinkCmd.accesskey "W">
 <!ENTITY CopyMessageId.label "ID powěsći kopěrowaś">
 <!ENTITY CopyMessageId.accesskey "I">
 <!ENTITY OpenMessageForMsgId.label "Powěsć kopěrowaś za ID">

@@ -1,13 +1,11 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/.
--->
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Calendar Invitations Dialog -->
-<!ENTITY calendar.invitations.dialog.invitations.text                   "คำเชิญ">
-<!ENTITY calendar.invitations.dialog.statusmessage.updating.text        "กำลังอัปเดตรายการคำเชิญ">
-<!ENTITY calendar.invitations.dialog.statusmessage.noinvitations.text   "ไม่พบคำเชิญที่ไม่ได้ยืนยัน">
-
+<!ENTITY calendar.invitations.dialog.invitations.text "คำเชิญ">
+<!ENTITY calendar.invitations.dialog.statusmessage.updating.text "กำลังอัปเดตรายการคำเชิญ">
+<!ENTITY calendar.invitations.dialog.statusmessage.noinvitations.text "ไม่พบคำเชิญที่ไม่ได้ยืนยัน">
 <!-- Calendar Invitations List -->
-<!ENTITY calendar.invitations.list.accept.button.label                  "ยอมรับ">
-<!ENTITY calendar.invitations.list.decline.button.label                 "ปฏิเสธ">
+<!ENTITY calendar.invitations.list.accept.button.label "ยอมรับ">
+<!ENTITY calendar.invitations.list.decline.button.label "ปฏิเสธ">

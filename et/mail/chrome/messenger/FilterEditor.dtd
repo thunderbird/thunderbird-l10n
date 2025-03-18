@@ -5,16 +5,13 @@
 <!ENTITY window.title "Filtri reeglid">
 <!ENTITY filterName.label "Filtri nimi:">
 <!ENTITY filterName.accesskey "n">
-
 <!ENTITY junk.label "Rämpspost">
 <!ENTITY notJunk.label "Pole rämpspost">
-
 <!ENTITY lowestPriorityCmd.label "Madalaim">
 <!ENTITY lowPriorityCmd.label "Madal">
 <!ENTITY normalPriorityCmd.label "Tavaline">
 <!ENTITY highPriorityCmd.label "Kõrge">
 <!ENTITY highestPriorityCmd.label "Kõrgeim">
-
 <!ENTITY contextDesc.label "Filtrit rakendatakse:">
 <!ENTITY contextIncomingMail.label "uute kirjade hankimisel:">
 <!ENTITY contextIncomingMail.accesskey "h">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "arhiveerimisel">
 <!ENTITY contextArchive.accesskey "a">
 <!ENTITY contextPeriodic.accesskey "e">
-
 <!ENTITY filterActionDesc.label "Sooritatakse järgnev tegevus:">
 <!ENTITY filterActionDesc.accesskey "R">
-
 <!ENTITY filterActionOrderWarning.label "Märkus: filtri tegevused käivituvad teistsuguses järjekorras.">
 <!ENTITY filterActionOrder.label "Vaata käivitumise järjekorda">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "kiri tõstetakse kausta">
 <!ENTITY copyMessage.label "kiri kopeeritakse kausta">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "alamlõime eiratakse">
 <!ENTITY watchThread.label "lõime jälgitakse">
 <!ENTITY stopExecution.label "filtri rakendamine peatatakse">
-
 <!ENTITY addAction.tooltip "Lisa uus tegevus">
 <!ENTITY removeAction.tooltip "Eemalda see tegevus">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

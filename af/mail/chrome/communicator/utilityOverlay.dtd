@@ -3,28 +3,24 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
-
-<!ENTITY fileMenu.label          "Lêer">
-<!ENTITY fileMenu.accesskey        "L">
-<!ENTITY newMenu.label            "Nuwe">
-<!ENTITY newMenu.accesskey          "N">
-
-<!ENTITY editMenu.label          "Redigeer">
-<!ENTITY editMenu.accesskey        "e">
-<!ENTITY undoCmd.label            "Ontdoen">
-<!ENTITY undoCmd.accesskey          "O">
-<!ENTITY redoCmd.label            "Herdoen">
-<!ENTITY redoCmd.accesskey          "H">
-<!ENTITY deleteCmd.label          "Skrap">
-<!ENTITY deleteCmd.accesskey        "S">
-
-<!ENTITY viewMenu.label          "Bekyk">
-<!ENTITY viewMenu.accesskey        "B">
-<!ENTITY viewToolbarsMenu.label        "Nutsbalke">
-<!ENTITY viewToolbarsMenu.accesskey      "N">
-<!ENTITY showTaskbarCmd.label          "Statusbalk">
-<!ENTITY showTaskbarCmd.accesskey        "S">
-
-<!ENTITY closeCmd.label      "Sluit">
-<!ENTITY closeCmd.key      "W">
-<!ENTITY closeCmd.accesskey    "S">
+<!ENTITY fileMenu.label "Lêer">
+<!ENTITY fileMenu.accesskey "L">
+<!ENTITY newMenu.label "Nuwe">
+<!ENTITY newMenu.accesskey "N">
+<!ENTITY editMenu.label "Redigeer">
+<!ENTITY editMenu.accesskey "e">
+<!ENTITY undoCmd.label "Ontdoen">
+<!ENTITY undoCmd.accesskey "O">
+<!ENTITY redoCmd.label "Herdoen">
+<!ENTITY redoCmd.accesskey "H">
+<!ENTITY deleteCmd.label "Skrap">
+<!ENTITY deleteCmd.accesskey "S">
+<!ENTITY viewMenu.label "Bekyk">
+<!ENTITY viewMenu.accesskey "B">
+<!ENTITY viewToolbarsMenu.label "Nutsbalke">
+<!ENTITY viewToolbarsMenu.accesskey "N">
+<!ENTITY showTaskbarCmd.label "Statusbalk">
+<!ENTITY showTaskbarCmd.accesskey "S">
+<!ENTITY closeCmd.label "Sluit">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.accesskey "S">

@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "V">
 <!ENTITY chooseFileLinkButton.label "Vel fil…">
 <!ENTITY chooseFileLinkButton.accessKey "e">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Skriv inn ei nettsideadresse, namnet til ei lokal fil, eller vel eit nemngjeve anker eller overskrift frå feltet sin kontekstmeny:">
 <!ENTITY LinkURLEditField2.accessKey "n">

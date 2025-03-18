@@ -3,9 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Tetapan Akaun">
-
 <!ENTITY accountActionsButton.label "Tindakan Akaun">
 <!ENTITY accountActionsButton.accesskey "A">
 <!ENTITY addMailAccountButton.label "Tambah Akaun Mel…">
@@ -18,4 +16,3 @@
 <!ENTITY setDefaultButton.accesskey "P">
 <!ENTITY removeButton.label "Buang Akaun">
 <!ENTITY removeButton.accesskey "B">
-

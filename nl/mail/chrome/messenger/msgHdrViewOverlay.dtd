@@ -8,7 +8,6 @@
 <!ENTITY author.label "Auteur">
 <!ENTITY organizationField4.label "Organisatie">
 <!ENTITY replyToField4.label "Antwoord naar">
-
 <!ENTITY subjectField4.label "Onderwerp">
 <!ENTITY ccField4.label "Cc">
 <!ENTITY bccField4.label "Bcc">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Bericht-ID">
 <!ENTITY inReplyToField4.label "In antwoord op">
 <!ENTITY originalWebsite4.label "Website">
-
 <!ENTITY hdrArchiveButton1.label "Archiveren">
 <!ENTITY hdrArchiveButton1.tooltip "Dit bericht archiveren">
 <!ENTITY hdrSmartReplyButton1.label "Slim beantwoorden">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Dit bericht als ongewenst markeren">
 <!ENTITY hdrTrashButton1.label "Verwijderen">
 <!ENTITY hdrTrashButton1.tooltip "Dit bericht verwijderen">
-
 <!ENTITY hdrViewToolbarShowFull.label "Pictogrammen en tekst tonen">
 <!ENTITY hdrViewToolbarShowFull.accesskey "a">
 <!ENTITY hdrViewToolbarShowIcons.label "Alleen pictogrammen tonen">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "t">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Afzender beantwoorden altijd tonen">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "b">
-
 <!ENTITY otherActionsButton2.label "Meer">
 <!ENTITY otherActionsButton.tooltip "Meer acties">
 <!ENTITY otherActionsOpenConversation1.label "Openen in conversatie">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "B">
 <!ENTITY otherActionsPrint1.label "Afdrukken…">
 <!ENTITY otherActionsPrint1.accesskey "A">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Bijlagenpaneel initieel tonen">
-<!ENTITY startExpandedCmd.accesskey    "B">
-
+<!ENTITY startExpandedCmd.label "Bijlagenpaneel initieel tonen">
+<!ENTITY startExpandedCmd.accesskey "B">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Openen">
-<!ENTITY openAttachmentCmd.accesskey    "O">
-<!ENTITY saveAsAttachmentCmd.label    "Opslaan als…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "l">
-<!ENTITY detachAttachmentCmd.label    "Ontkoppelen…">
-<!ENTITY detachAttachmentCmd.accesskey    "t">
-<!ENTITY deleteAttachmentCmd.label    "Verwijderen">
-<!ENTITY deleteAttachmentCmd.accesskey    "w">
-<!ENTITY openAllAttachmentsCmd.label    "Alles openen…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "O">
-<!ENTITY saveAllAttachmentsCmd.label    "Alles opslaan…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "s">
-<!ENTITY detachAllAttachmentsCmd.label    "Alles ontkoppelen…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "k">
-<!ENTITY deleteAllAttachmentsCmd.label    "Alles verwijderen…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "v">
-
+<!ENTITY openAttachmentCmd.label "Openen">
+<!ENTITY openAttachmentCmd.accesskey "O">
+<!ENTITY saveAsAttachmentCmd.label "Opslaan als…">
+<!ENTITY saveAsAttachmentCmd.accesskey "l">
+<!ENTITY detachAttachmentCmd.label "Ontkoppelen…">
+<!ENTITY detachAttachmentCmd.accesskey "t">
+<!ENTITY deleteAttachmentCmd.label "Verwijderen">
+<!ENTITY deleteAttachmentCmd.accesskey "w">
+<!ENTITY openAllAttachmentsCmd.label "Alles openen…">
+<!ENTITY openAllAttachmentsCmd.accesskey "O">
+<!ENTITY saveAllAttachmentsCmd.label "Alles opslaan…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "s">
+<!ENTITY detachAllAttachmentsCmd.label "Alles ontkoppelen…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "k">
+<!ENTITY deleteAllAttachmentsCmd.label "Alles verwijderen…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "v">
 <!ENTITY openAttachment.tooltip "Het gekoppelde bestand openen">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Bijbehorende map openen">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "m">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Tonen in Finder">
+<!ENTITY detachedAttachmentFolder.show.label "Bijbehorende map openen">
+<!ENTITY detachedAttachmentFolder.show.accesskey "m">
+<!ENTITY detachedAttachmentFolder.showMac.label "Tonen in Finder">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Opslaan">
-<!ENTITY saveAttachmentButton1.tooltip     "Bijlage opslaan">
-<!ENTITY saveAllAttachmentsButton1.label   "Alles opslaan">
+<!ENTITY saveAttachmentButton1.label "Opslaan">
+<!ENTITY saveAttachmentButton1.tooltip "Bijlage opslaan">
+<!ENTITY saveAllAttachmentsButton1.label "Alles opslaan">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Alle bijlagen opslaan">
-
-<!ENTITY copyLinkCmd.label        "Koppelingslocatie kopiëren">
-<!ENTITY copyLinkCmd.accesskey    "k">
-
+<!ENTITY copyLinkCmd.label "Koppelingslocatie kopiëren">
+<!ENTITY copyLinkCmd.accesskey "k">
 <!ENTITY CopyMessageId.label "Bericht-ID kopiëren">
 <!ENTITY CopyMessageId.accesskey "k">
 <!ENTITY OpenMessageForMsgId.label "Bericht voor ID openen">

@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "V">
 <!ENTITY chooseFileLinkButton.label "Välj fil…">
 <!ENTITY chooseFileLinkButton.accessKey "f">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Ange en webbadress, en lokal fil eller välj ett namngivet ankare eller rubrik från fältets snabbmeny:">
 <!ENTITY LinkURLEditField2.accessKey "w">

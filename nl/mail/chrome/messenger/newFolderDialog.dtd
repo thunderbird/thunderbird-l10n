@@ -3,14 +3,14 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Labels -->
-<!ENTITY newFolderDialog.title      "Nieuwe map">
-<!ENTITY name.label                 "Naam:">
-<!ENTITY name.accesskey             "N">
-<!ENTITY description.label          "Maken als een submap van:">
-<!ENTITY description.accesskey      "M">
-<!ENTITY folderRestriction1.label   "Deze server beperkt mappen tot twee speciale soorten.">
-<!ENTITY folderRestriction2.label   "Toestaan dat de nieuwe map bevat:">
-<!ENTITY foldersOnly.label          "Alleen mappen">
-<!ENTITY messagesOnly.label         "Alleen berichten">
-<!ENTITY accept.label               "Map aanmaken">
-<!ENTITY accept.accesskey           "a">
+<!ENTITY newFolderDialog.title "Nieuwe map">
+<!ENTITY name.label "Naam:">
+<!ENTITY name.accesskey "N">
+<!ENTITY description.label "Maken als een submap van:">
+<!ENTITY description.accesskey "M">
+<!ENTITY folderRestriction1.label "Deze server beperkt mappen tot twee speciale soorten.">
+<!ENTITY folderRestriction2.label "Toestaan dat de nieuwe map bevat:">
+<!ENTITY foldersOnly.label "Alleen mappen">
+<!ENTITY messagesOnly.label "Alleen berichten">
+<!ENTITY accept.label "Map aanmaken">
+<!ENTITY accept.accesskey "a">

@@ -16,8 +16,7 @@
 <!-- LOCALIZATION NOTE (biffStart.label) : translate below 2 line with grammar dependency
         For example, in Japanese cases:
                 biffStart.label "every"
-                biffEnd.label   "minutes for new messages Check"
--->
+                biffEnd.label   "minutes for new messages Check" -->
 <!ENTITY biffStart.label "Új üzenetek ellenőrzése ">
 <!ENTITY biffStart.accesskey "z">
 <!ENTITY biffEnd.label "percenként">
@@ -57,8 +56,7 @@
 <!ENTITY loginAtStartup.accesskey "e">
 <!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency
     maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
-    of messages between them
--->
+    of messages between them -->
 <!ENTITY maxMessagesStart.label "Jóváhagyás kérése, ha">
 <!ENTITY maxMessagesStart.accesskey "J">
 <!-- LOCALIZATION NOTE (maxMessagesEnd.label) : see note for maxMessagesStart.label -->
@@ -79,7 +77,6 @@
 <!ENTITY browseFolder.accesskey "T">
 <!ENTITY browseNewsrc.label "Tallózás…">
 <!ENTITY browseNewsrc.accesskey "a">
-
 <!ENTITY accountTitle.label "Postafiók beállításai">
 <!ENTITY accountSettingsDesc.label "A következő egy különleges postafiók, amelyhez nem tartoznak személyazonosságok.">
 <!ENTITY storeType.label "Üzenettároló típusa:">

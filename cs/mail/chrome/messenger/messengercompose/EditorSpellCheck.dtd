@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Kontrola pravopisu">
-
 <!ENTITY misspelledWord.label "Sporný pravopis:">
 <!ENTITY wordEditField.label "Nahradit čím:">
 <!ENTITY wordEditField.accessKey "m">

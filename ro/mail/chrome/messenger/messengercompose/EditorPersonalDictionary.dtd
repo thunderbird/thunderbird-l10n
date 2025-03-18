@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Dicționar personal">
-
 <!ENTITY wordEditField.label "Cuvânt nou:">
 <!ENTITY wordEditField.accessKey "n">
 <!ENTITY AddButton.label "Adaugă">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "C">
 <!ENTITY RemoveButton.label "Elimină">
 <!ENTITY RemoveButton.accessKey "E">
-
 <!ENTITY CloseButton.label "Închide">
 <!ENTITY CloseButton.accessKey "h">

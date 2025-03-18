@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Táblázat beszúrása">
-
 <!ENTITY size.label "Méret">
 <!ENTITY numRowsEditField.label "Sorok:">
 <!ENTITY numRowsEditField.accessKey "S">

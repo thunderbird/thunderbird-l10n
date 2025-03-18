@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Foclóir Pearsanta">
-
 <!ENTITY wordEditField.label "Focal nua:">
 <!ENTITY wordEditField.accessKey "n">
 <!ENTITY AddButton.label "Cuir Leis">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "F">
 <!ENTITY RemoveButton.label "Bain">
 <!ENTITY RemoveButton.accessKey "a">
-
 <!ENTITY CloseButton.label "Dún">
 <!ENTITY CloseButton.accessKey "D">

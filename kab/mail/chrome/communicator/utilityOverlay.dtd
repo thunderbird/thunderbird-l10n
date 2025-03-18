@@ -3,30 +3,26 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
-
-<!ENTITY fileMenu.label          "Afaylu">
-<!ENTITY fileMenu.accesskey        "A">
-<!ENTITY newMenu.label            "Amaynut">
-<!ENTITY newMenu.accesskey          "m">
-
-<!ENTITY editMenu.label          "Ẓreg">
-<!ENTITY editMenu.accesskey        "Ẓ">
-<!ENTITY undoCmd.label            "Sefsax">
-<!ENTITY undoCmd.accesskey          "S">
-<!ENTITY redoCmd.label            "Err-d">
-<!ENTITY redoCmd.accesskey          "E">
-<!ENTITY deleteCmd.label          "Kkes">
-<!ENTITY deleteCmd.accesskey        "K">
+<!ENTITY fileMenu.label "Afaylu">
+<!ENTITY fileMenu.accesskey "A">
+<!ENTITY newMenu.label "Amaynut">
+<!ENTITY newMenu.accesskey "m">
+<!ENTITY editMenu.label "Ẓreg">
+<!ENTITY editMenu.accesskey "Ẓ">
+<!ENTITY undoCmd.label "Sefsax">
+<!ENTITY undoCmd.accesskey "S">
+<!ENTITY redoCmd.label "Err-d">
+<!ENTITY redoCmd.accesskey "E">
+<!ENTITY deleteCmd.label "Kkes">
+<!ENTITY deleteCmd.accesskey "K">
 <!ENTITY customizeCmd.label "Sagen">
 <!ENTITY customizeCmd.accesskey "t">
-
-<!ENTITY viewMenu.label          "Sken">
-<!ENTITY viewMenu.accesskey        "e">
-<!ENTITY viewToolbarsMenu.label        "Afeggag n ifecka">
-<!ENTITY viewToolbarsMenu.accesskey      "A">
-<!ENTITY showTaskbarCmd.label          "Afeggag n waddad">
-<!ENTITY showTaskbarCmd.accesskey        "f">
-
-<!ENTITY closeCmd.label      "Mdel">
-<!ENTITY closeCmd.key      "W">
-<!ENTITY closeCmd.accesskey    "M">
+<!ENTITY viewMenu.label "Sken">
+<!ENTITY viewMenu.accesskey "e">
+<!ENTITY viewToolbarsMenu.label "Afeggag n ifecka">
+<!ENTITY viewToolbarsMenu.accesskey "A">
+<!ENTITY showTaskbarCmd.label "Afeggag n waddad">
+<!ENTITY showTaskbarCmd.accesskey "f">
+<!ENTITY closeCmd.label "Mdel">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.accesskey "M">

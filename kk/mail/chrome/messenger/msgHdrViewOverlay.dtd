@@ -8,7 +8,6 @@
 <!ENTITY author.label "Авторы">
 <!ENTITY organizationField4.label "Ұйым">
 <!ENTITY replyToField4.label "Кімге жауап беру">
-
 <!ENTITY subjectField4.label "Тақырыбы">
 <!ENTITY ccField4.label "Көшірме">
 <!ENTITY bccField4.label "Жасырын көшірме">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Идентификатор">
 <!ENTITY inReplyToField4.label "Келесіге жауап ретінде">
 <!ENTITY originalWebsite4.label "Веб сайты">
-
 <!ENTITY hdrArchiveButton1.label "Архивтеу">
 <!ENTITY hdrArchiveButton1.tooltip "Бұл хабарламаны архивтеу">
 <!ENTITY hdrSmartReplyButton1.label "Ақылды жауап беру">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Бұл хабарламаны қоқыс ретінде белгілеу">
 <!ENTITY hdrTrashButton1.label "Өшіру">
 <!ENTITY hdrTrashButton1.tooltip "Бұл хабарламаны өшіру">
-
 <!ENTITY hdrViewToolbarShowFull.label "Таңбашалар және мәтінді көрсету">
 <!ENTITY hdrViewToolbarShowFull.accesskey "н">
 <!ENTITY hdrViewToolbarShowIcons.label "Тек таңбашаларды көрсету">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "т">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Жіберушіге жауап беруді әрқашан көрсету">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "у">
-
 <!ENTITY otherActionsButton2.label "Көбірек">
 <!ENTITY otherActionsButton.tooltip "Көбірек әрекеттер">
 <!ENTITY otherActionsOpenConversation1.label "Сөйлесуде ашу">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "а">
 <!ENTITY otherActionsPrint1.label "Баспаға шығару…">
 <!ENTITY otherActionsPrint1.accesskey "п">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Басынан бастап салыным панелін көрсету">
-<!ENTITY startExpandedCmd.accesskey    "с">
-
+<!ENTITY startExpandedCmd.label "Басынан бастап салыным панелін көрсету">
+<!ENTITY startExpandedCmd.accesskey "с">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Ашу">
-<!ENTITY openAttachmentCmd.accesskey    "А">
-<!ENTITY saveAsAttachmentCmd.label    "Қалайша сақтау…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "с">
-<!ENTITY detachAttachmentCmd.label    "Бөліп жіберу…">
-<!ENTITY detachAttachmentCmd.accesskey    "Б">
-<!ENTITY deleteAttachmentCmd.label    "Өшіру">
-<!ENTITY deleteAttachmentCmd.accesskey    "ш">
-<!ENTITY openAllAttachmentsCmd.label    "Барлығын ашу…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "ш">
-<!ENTITY saveAllAttachmentsCmd.label    "Барлығын сақтау…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "с">
-<!ENTITY detachAllAttachmentsCmd.label    "Барлығын бөліп жіберу…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "Б">
-<!ENTITY deleteAllAttachmentsCmd.label    "Барлығын өшіру…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "ш">
-
+<!ENTITY openAttachmentCmd.label "Ашу">
+<!ENTITY openAttachmentCmd.accesskey "А">
+<!ENTITY saveAsAttachmentCmd.label "Қалайша сақтау…">
+<!ENTITY saveAsAttachmentCmd.accesskey "с">
+<!ENTITY detachAttachmentCmd.label "Бөліп жіберу…">
+<!ENTITY detachAttachmentCmd.accesskey "Б">
+<!ENTITY deleteAttachmentCmd.label "Өшіру">
+<!ENTITY deleteAttachmentCmd.accesskey "ш">
+<!ENTITY openAllAttachmentsCmd.label "Барлығын ашу…">
+<!ENTITY openAllAttachmentsCmd.accesskey "ш">
+<!ENTITY saveAllAttachmentsCmd.label "Барлығын сақтау…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "с">
+<!ENTITY detachAllAttachmentsCmd.label "Барлығын бөліп жіберу…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "Б">
+<!ENTITY deleteAllAttachmentsCmd.label "Барлығын өшіру…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "ш">
 <!ENTITY openAttachment.tooltip "Тіркелген файлды ашу">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Орналасқан бумасын ашу">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "б">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Finder ішінен көрсету">
+<!ENTITY detachedAttachmentFolder.show.label "Орналасқан бумасын ашу">
+<!ENTITY detachedAttachmentFolder.show.accesskey "б">
+<!ENTITY detachedAttachmentFolder.showMac.label "Finder ішінен көрсету">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "к">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Сақтау">
-<!ENTITY saveAttachmentButton1.tooltip     "Тіркелген файлды сақтау">
-<!ENTITY saveAllAttachmentsButton1.label   "Барлығын сақтау">
+<!ENTITY saveAttachmentButton1.label "Сақтау">
+<!ENTITY saveAttachmentButton1.tooltip "Тіркелген файлды сақтау">
+<!ENTITY saveAllAttachmentsButton1.label "Барлығын сақтау">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Барлық тіркелген файлдарды сақтау">
-
-<!ENTITY copyLinkCmd.label        "Сілтемені көшіріп алу">
-<!ENTITY copyLinkCmd.accesskey    "С">
-
+<!ENTITY copyLinkCmd.label "Сілтемені көшіріп алу">
+<!ENTITY copyLinkCmd.accesskey "С">
 <!ENTITY CopyMessageId.label "Message-ID көшіріп алу">
 <!ENTITY CopyMessageId.accesskey "к">
 <!ENTITY OpenMessageForMsgId.label "ID үшін хабарламаны ашу">

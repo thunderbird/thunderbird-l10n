@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Ներմուծել աղյուսակ">
-
 <!ENTITY size.label "Չափը">
 <!ENTITY numRowsEditField.label "Գծեր.">
 <!ENTITY numRowsEditField.accessKey "Գ">

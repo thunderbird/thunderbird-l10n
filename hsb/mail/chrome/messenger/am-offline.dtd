@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "R">
 <!ENTITY syncGroupTitle.label "Synchronizowanje powěsćow">
 <!ENTITY diskspaceGroupTitle.label "Tačelowy rum">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Wšě powěsće lokalnje synchronizować, njedźiwajo na starobu">
-<!ENTITY allAutosync.accesskey           "l">
-<!ENTITY ageAutosyncBefore.label         "Najnowše synchronizować">
-<!ENTITY ageAutosync.accesskey           "N">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "dnjow">
-<!ENTITY weekAgeInterval.label           "njedźelow">
-<!ENTITY monthAgeInterval.label          "měsacow">
-<!ENTITY yearAgeInterval.label           "lět">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Wšě powěsće lokalnje synchronizować, njedźiwajo na starobu">
+<!ENTITY allAutosync.accesskey "l">
+<!ENTITY ageAutosyncBefore.label "Najnowše synchronizować">
+<!ENTITY ageAutosync.accesskey "N">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "dnjow">
+<!ENTITY weekAgeInterval.label "njedźelow">
+<!ENTITY monthAgeInterval.label "měsacow">
+<!ENTITY yearAgeInterval.label "lět">
+<!ENTITY ageAutosyncAfter.label "">

@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Identidad">
 <!ENTITY identityDesc.label "Cada cuenta tiene una identidad, que es la información que te identifica a otros cuando reciben tus mensajes.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Ingresa el nombre que te gustaría que aparezca en el campo &quot;De&quot; al enviar mensajes">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(por ejemplo, &quot;John Smith&quot;).">
 <!ENTITY fullnameLabel.label "Tu nombre:">
 <!ENTITY fullnameLabel.accesskey "Y">
-
 <!ENTITY emailLabel.label "Dirección de correo electrónico:">
 <!ENTITY emailLabel.accesskey "E">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Ingresa el nombre por el que deseas referirte a esta cuenta (por ejemplo, &quot;Cuenta del trabajo&quot;, &quot;Cuenta de casa&quot; o &quot;Cuenta de noticias&quot;).">
 <!ENTITY accnameLabel.label "Nombre de la cuenta:">
 <!ENTITY accnameLabel.accesskey "A">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "¡Felicidades!">
 <!ENTITY completionText.label "Por favor, verifica que la información que aparece a continuación es correcta.">
 <!ENTITY newsServerNamePrefix.label "Nombre del servidor de noticias (NNTP):">

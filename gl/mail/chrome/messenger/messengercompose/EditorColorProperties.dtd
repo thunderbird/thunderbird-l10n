@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Usar cores personalizadas:">
 <!ENTITY customColorsRadio.accessKey "c">
 <!ENTITY customColorsRadio.tooltip "Esta configuración de cor anula a configuración do navegador do usuario">
-
 <!ENTITY normalText.label "Texto normal">
 <!ENTITY normalText.accessKey "n">
 <!ENTITY linkText.label "Texto da ligazón">

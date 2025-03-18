@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Kalender">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Pindah ke tab kalender">
+<!ENTITY lightning.toolbar.calendar.label "Kalender">
+<!ENTITY lightning.toolbar.calendar.tooltip "Pindah ke tab kalender">
 <!ENTITY lightning.toolbar.calendar.accesskey "K">
-<!ENTITY lightning.toolbar.task.label         "Tugas">
-<!ENTITY lightning.toolbar.task.tooltip       "Pindah ke tab tugas">
-<!ENTITY lightning.toolbar.task.accesskey     "T">
-
+<!ENTITY lightning.toolbar.task.label "Tugas">
+<!ENTITY lightning.toolbar.task.tooltip "Pindah ke tab tugas">
+<!ENTITY lightning.toolbar.task.accesskey "T">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Hari">
-<!ENTITY lightning.toolbar.day.accesskey             "H">
-<!ENTITY lightning.toolbar.week.label                "Minggu">
-<!ENTITY lightning.toolbar.week.accesskey            "M">
-<!ENTITY lightning.toolbar.multiweek.label           "Multiminggu">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "u">
-<!ENTITY lightning.toolbar.month.label               "Bulan">
-<!ENTITY lightning.toolbar.month.accesskey           "B">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Panel Kalender">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "P">
-<!ENTITY lightning.toolbar.calendarpane.label        "Tampilkan Panel Kalender">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "P">
+<!ENTITY lightning.toolbar.day.label "Hari">
+<!ENTITY lightning.toolbar.day.accesskey "H">
+<!ENTITY lightning.toolbar.week.label "Minggu">
+<!ENTITY lightning.toolbar.week.accesskey "M">
+<!ENTITY lightning.toolbar.multiweek.label "Multiminggu">
+<!ENTITY lightning.toolbar.multiweek.accesskey "u">
+<!ENTITY lightning.toolbar.month.label "Bulan">
+<!ENTITY lightning.toolbar.month.accesskey "B">
+<!ENTITY lightning.toolbar.calendarmenu.label "Panel Kalender">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "P">
+<!ENTITY lightning.toolbar.calendarpane.label "Tampilkan Panel Kalender">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "P">

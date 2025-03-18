@@ -3,19 +3,18 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Title -->
-<!ENTITY mailListWindowAdd.title        "Nowa lista dystrybucyjna">
-
+<!ENTITY mailListWindowAdd.title "Nowa lista dystrybucyjna">
 <!-- Labels and Access Keys -->
-<!ENTITY addToAddressBook.label         "Dodaj do: ">
-<!ENTITY addToAddressBook.accesskey     "D">
-<!ENTITY ListName.label                 "Nazwa listy dystrybucyjnej:">
-<!ENTITY ListName.accesskey             "N">
-<!ENTITY ListNickName.label             "Pseudonim listy dystrybucyjnej: ">
-<!ENTITY ListNickName.accesskey         "P">
-<!ENTITY ListDescription.label          "Opis: ">
-<!ENTITY ListDescription.accesskey      "O">
+<!ENTITY addToAddressBook.label "Dodaj do: ">
+<!ENTITY addToAddressBook.accesskey "D">
+<!ENTITY ListName.label "Nazwa listy dystrybucyjnej:">
+<!ENTITY ListName.accesskey "N">
+<!ENTITY ListNickName.label "Pseudonim listy dystrybucyjnej: ">
+<!ENTITY ListNickName.accesskey "P">
+<!ENTITY ListDescription.label "Opis: ">
+<!ENTITY ListDescription.accesskey "O">
 <!-- See bug 58485, when we implement drag and drop, add 'or drag addresses' back in -->
-<!ENTITY AddressTitle.label             "Wprowadź adresy e-mail, które zostaną dodane do listy dystrybucyjnej">
-<!ENTITY AddressTitle.accesskey         "W">
-<!ENTITY UpButton.label                 "Przenieś w górę">
-<!ENTITY DownButton.label               "Przenieś w dół">
+<!ENTITY AddressTitle.label "Wprowadź adresy e-mail, które zostaną dodane do listy dystrybucyjnej">
+<!ENTITY AddressTitle.accesskey "W">
+<!ENTITY UpButton.label "Przenieś w górę">
+<!ENTITY DownButton.label "Przenieś w dół">

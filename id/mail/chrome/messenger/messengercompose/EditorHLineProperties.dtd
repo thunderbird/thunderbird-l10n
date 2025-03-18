@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Properti Garis Mendatar">
-
 <!ENTITY dimensionsBox.label "Ukuran">
 <!ENTITY heightEditField.label "Tinggi:">
 <!ENTITY heightEditField.accessKey "T">
@@ -19,7 +17,6 @@
 <!ENTITY centerRadio.accessKey "e">
 <!ENTITY rightRadio.label "Kanan">
 <!ENTITY rightRadio.accessKey "a">
-
 <!ENTITY threeDShading.label "Bayangan 3D">
 <!ENTITY threeDShading.accessKey "B">
 <!ENTITY saveSettings.label "Gunakan sebagai Default">

@@ -3,9 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Rekeningopstelling">
-
 <!ENTITY accountActionsButton.label "Rekening-aksies">
 <!ENTITY accountActionsButton.accesskey "R">
 <!ENTITY addMailAccountButton.label "Voeg posrekening by…">
@@ -14,4 +12,3 @@
 <!ENTITY setDefaultButton.accesskey "v">
 <!ENTITY removeButton.label "Verwyder rekening">
 <!ENTITY removeButton.accesskey "V">
-

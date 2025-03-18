@@ -1,12 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY settingsTab.label       "Ayarlar">
+<!ENTITY settingsTab.label "Ayarlar">
 <!ENTITY copiesFoldersTab.label "Kopyalar ve klasörler">
-<!ENTITY addressingTab.label    "Düzenleme ve adresler">
-
-<!ENTITY publicData.label        "Kamuya açık veri">
-<!ENTITY privateData.label       "Özel veri">
-<!ENTITY identityAlias.label     "Kimlik etiketi:">
+<!ENTITY addressingTab.label "Düzenleme ve adresler">
+<!ENTITY publicData.label "Kamuya açık veri">
+<!ENTITY privateData.label "Özel veri">
+<!ENTITY identityAlias.label "Kimlik etiketi:">
 <!ENTITY identityAlias.accesskey "m">

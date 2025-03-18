@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Masukkan Tabel">
-
 <!ENTITY size.label "Ukuran">
 <!ENTITY numRowsEditField.label "Jumlah Baris:">
 <!ENTITY numRowsEditField.accessKey "B">

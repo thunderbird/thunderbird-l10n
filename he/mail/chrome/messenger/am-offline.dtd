@@ -37,19 +37,17 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "מ">
 <!ENTITY syncGroupTitle.label "סנכרון הודעות">
 <!ENTITY diskspaceGroupTitle.label "שטח דיסק">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "סנכרון כל ההודעות מקומית ללא התחשבות בגיל">
-<!ENTITY allAutosync.accesskey           "ל">
-<!ENTITY ageAutosync.accesskey           "ס">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "ימים">
-<!ENTITY weekAgeInterval.label           "שבועות">
-<!ENTITY monthAgeInterval.label          "חודשים">
-<!ENTITY yearAgeInterval.label           "שנים">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "סנכרון כל ההודעות מקומית ללא התחשבות בגיל">
+<!ENTITY allAutosync.accesskey "ל">
+<!ENTITY ageAutosync.accesskey "ס">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "ימים">
+<!ENTITY weekAgeInterval.label "שבועות">
+<!ENTITY monthAgeInterval.label "חודשים">
+<!ENTITY yearAgeInterval.label "שנים">
+<!ENTITY ageAutosyncAfter.label "">

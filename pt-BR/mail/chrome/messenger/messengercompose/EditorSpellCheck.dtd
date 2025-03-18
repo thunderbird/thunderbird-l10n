@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Verificação ortográfica">
-
 <!ENTITY misspelledWord.label "Palavra incorreta:">
 <!ENTITY wordEditField.label "Substituir por:">
 <!ENTITY wordEditField.accessKey "b">

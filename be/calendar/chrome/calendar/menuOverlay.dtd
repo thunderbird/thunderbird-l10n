@@ -3,42 +3,31 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Event Menu -->
-<!ENTITY event.new.event                        "Новая падзея…">
-<!ENTITY event.new.event.accesskey              "п">
-
-<!ENTITY event.new.task                         "Новая задача…">
-<!ENTITY event.new.task.accesskey               "з">
-
-<!ENTITY calendar.import.label                  "Імпарт…">
-<!ENTITY calendar.import.accesskey              "І">
-
-<!ENTITY calendar.export.label                  "Экспарт…">
-<!ENTITY calendar.export.accesskey              "Э">
-
-<!ENTITY calendar.publish.label                 "Публікацыя…">
-<!ENTITY calendar.publish.accesskey             "у">
-
-<!ENTITY calendar.deletecalendar.label          "Выдаліць выбраны каляндар…">
-<!ENTITY calendar.deletecalendar.accesskey      "В">
-<!ENTITY calendar.unsubscribecalendar.label     "Адпісацца ад выбранага календара…">
+<!ENTITY event.new.event "Новая падзея…">
+<!ENTITY event.new.event.accesskey "п">
+<!ENTITY event.new.task "Новая задача…">
+<!ENTITY event.new.task.accesskey "з">
+<!ENTITY calendar.import.label "Імпарт…">
+<!ENTITY calendar.import.accesskey "І">
+<!ENTITY calendar.export.label "Экспарт…">
+<!ENTITY calendar.export.accesskey "Э">
+<!ENTITY calendar.publish.label "Публікацыя…">
+<!ENTITY calendar.publish.accesskey "у">
+<!ENTITY calendar.deletecalendar.label "Выдаліць выбраны каляндар…">
+<!ENTITY calendar.deletecalendar.accesskey "В">
+<!ENTITY calendar.unsubscribecalendar.label "Адпісацца ад выбранага календара…">
 <!ENTITY calendar.unsubscribecalendar.accesskey "А">
-
 <!-- LOCALIZATION NOTE (calendar.removecalendar.label): Removing the calendar
       is the general action of removing it, while deleting means to clear the
       data and unsubscribing means just taking it out of the calendar list. -->
-<!ENTITY calendar.removecalendar.label          "Прыбраць выбраны каляндар…">
-<!ENTITY calendar.removecalendar.accesskey      "П">
-
-<!ENTITY showUnifinderCmd.label                 "Знайсці падзеі">
-<!ENTITY showUnifinderCmd.accesskey             "н">
-<!ENTITY showUnifinderCmd.tooltip               "Пераключыць адлюстраванне панэлі пошуку падзей">
-
-<!ENTITY calendar.displaytodos.checkbox.label       "Паказваць задачы ў календары">
-<!ENTITY calendar.displaytodos.checkbox.accesskey   "к">
-
-<!ENTITY goTodayCmd.label                       "Сёння">
-<!ENTITY goTodayCmd.accesskey                   "С">
-
-
-<!ENTITY calendar.properties.label              "Уласцівасці календара…">
-<!ENTITY calendar.properties.accesskey          "л">
+<!ENTITY calendar.removecalendar.label "Прыбраць выбраны каляндар…">
+<!ENTITY calendar.removecalendar.accesskey "П">
+<!ENTITY showUnifinderCmd.label "Знайсці падзеі">
+<!ENTITY showUnifinderCmd.accesskey "н">
+<!ENTITY showUnifinderCmd.tooltip "Пераключыць адлюстраванне панэлі пошуку падзей">
+<!ENTITY calendar.displaytodos.checkbox.label "Паказваць задачы ў календары">
+<!ENTITY calendar.displaytodos.checkbox.accesskey "к">
+<!ENTITY goTodayCmd.label "Сёння">
+<!ENTITY goTodayCmd.accesskey "С">
+<!ENTITY calendar.properties.label "Уласцівасці календара…">
+<!ENTITY calendar.properties.accesskey "л">

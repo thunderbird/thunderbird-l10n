@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Futje Tabele">
-
 <!ENTITY size.label "Madhësi">
 <!ENTITY numRowsEditField.label "Rreshta:">
 <!ENTITY numRowsEditField.accessKey "R">

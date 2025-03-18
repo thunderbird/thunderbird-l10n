@@ -1,7 +1,6 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
 <!ENTITY viewLog.title "Relatório de filtros">
 <!ENTITY viewLogInfo.text "O registro de filtros de mensagens documenta os filtros executados nesta conta. Marque a opção abaixo para ativar o registro.">
 <!ENTITY clearLog.label "Limpar relatório">

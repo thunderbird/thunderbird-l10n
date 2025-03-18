@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Képlet beszúrása">
-
 <!ENTITY sourceEditField.label "Írja be a LaTeX forráskódot:">
-
 <!ENTITY options.label "Beállítások">
 <!ENTITY optionInline.label "Beágyazott mód">
 <!ENTITY optionInline.accesskey "B">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "a">
 <!ENTITY optionRTL.label "Jobbról balra irány">
 <!ENTITY optionRTL.accesskey "o">
-
 <!ENTITY insertButton.label "Beszúrás">
 <!ENTITY insertButton.accesskey "B">

@@ -3,35 +3,34 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- for SearchDialog.xhtml -->
-<!ENTITY searchHeading.label         "Шукаць паведамленні ў:">
-<!ENTITY searchHeading.accesskey     "Ш">
-<!ENTITY searchSubfolders.label      "Шукаць у падпапках">
-<!ENTITY searchSubfolders.accesskey  "у">
-<!ENTITY searchOnServer.label        "Запусціць пошук на серверы">
-<!ENTITY searchOnServer.accesskey    "З">
-<!ENTITY resetButton.label           "Ачысціць">
-<!ENTITY resetButton.accesskey       "ч">
-<!ENTITY openButton.label            "Адкрыць">
-<!ENTITY openButton.accesskey        "А">
-<!ENTITY deleteButton.label          "Выдаліць">
-<!ENTITY deleteButton.accesskey      "д">
-<!ENTITY searchDialogTitle.label     "Шукаць паведамленні">
-<!ENTITY results.label               "Вынікі">
-<!ENTITY moveButton.label            "Перамясціць у">
-<!ENTITY moveButton.accesskey        "у">
-<!ENTITY closeCmd.key                "W">
-<!ENTITY openInFolder.label          "Адкрыць у папцы">
-<!ENTITY openInFolder.accesskey      "п">
-<!ENTITY saveAsVFButton.label        "Захаваць як папку пошуку">
-<!ENTITY saveAsVFButton.accesskey    "а">
-
+<!ENTITY searchHeading.label "Шукаць паведамленні ў:">
+<!ENTITY searchHeading.accesskey "Ш">
+<!ENTITY searchSubfolders.label "Шукаць у падпапках">
+<!ENTITY searchSubfolders.accesskey "у">
+<!ENTITY searchOnServer.label "Запусціць пошук на серверы">
+<!ENTITY searchOnServer.accesskey "З">
+<!ENTITY resetButton.label "Ачысціць">
+<!ENTITY resetButton.accesskey "ч">
+<!ENTITY openButton.label "Адкрыць">
+<!ENTITY openButton.accesskey "А">
+<!ENTITY deleteButton.label "Выдаліць">
+<!ENTITY deleteButton.accesskey "д">
+<!ENTITY searchDialogTitle.label "Шукаць паведамленні">
+<!ENTITY results.label "Вынікі">
+<!ENTITY moveButton.label "Перамясціць у">
+<!ENTITY moveButton.accesskey "у">
+<!ENTITY closeCmd.key "W">
+<!ENTITY openInFolder.label "Адкрыць у папцы">
+<!ENTITY openInFolder.accesskey "п">
+<!ENTITY saveAsVFButton.label "Захаваць як папку пошуку">
+<!ENTITY saveAsVFButton.accesskey "а">
 <!-- for abSearchDialog.xhtml -->
-<!ENTITY abSearchHeading.label       "Шукаць у:">
-<!ENTITY abSearchHeading.accesskey   "Ш">
-<!ENTITY propertiesButton.label      "Уласцівасці">
-<!ENTITY propertiesButton.accesskey  "л">
-<!ENTITY composeButton.label         "Стварыць">
-<!ENTITY composeButton.accesskey     "С">
-<!ENTITY deleteCardButton.label      "Выдаліць">
-<!ENTITY deleteCardButton.accesskey  "д">
-<!ENTITY abSearchDialogTitle.label   "Пашыраны рэжым пошуку ў адраснай кнізе">
+<!ENTITY abSearchHeading.label "Шукаць у:">
+<!ENTITY abSearchHeading.accesskey "Ш">
+<!ENTITY propertiesButton.label "Уласцівасці">
+<!ENTITY propertiesButton.accesskey "л">
+<!ENTITY composeButton.label "Стварыць">
+<!ENTITY composeButton.accesskey "С">
+<!ENTITY deleteCardButton.label "Выдаліць">
+<!ENTITY deleteCardButton.accesskey "д">
+<!ENTITY abSearchDialogTitle.label "Пашыраны рэжым пошуку ў адраснай кнізе">

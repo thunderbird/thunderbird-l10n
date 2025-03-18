@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Күнтізбе">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Күнтізбе бетіне ауысу">
+<!ENTITY lightning.toolbar.calendar.label "Күнтізбе">
+<!ENTITY lightning.toolbar.calendar.tooltip "Күнтізбе бетіне ауысу">
 <!ENTITY lightning.toolbar.calendar.accesskey "К">
-<!ENTITY lightning.toolbar.task.label         "Тапсырмалар">
-<!ENTITY lightning.toolbar.task.tooltip       "Тапсырмалар бетіне ауысу">
-<!ENTITY lightning.toolbar.task.accesskey     "Т">
-
+<!ENTITY lightning.toolbar.task.label "Тапсырмалар">
+<!ENTITY lightning.toolbar.task.tooltip "Тапсырмалар бетіне ауысу">
+<!ENTITY lightning.toolbar.task.accesskey "Т">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Күн">
-<!ENTITY lightning.toolbar.day.accesskey             "К">
-<!ENTITY lightning.toolbar.week.label                "Апта">
-<!ENTITY lightning.toolbar.week.accesskey            "А">
-<!ENTITY lightning.toolbar.multiweek.label           "Бірнеше апта">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "р">
-<!ENTITY lightning.toolbar.month.label               "Ай">
-<!ENTITY lightning.toolbar.month.accesskey           "й">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Күнтізбе панелі">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "п">
-<!ENTITY lightning.toolbar.calendarpane.label        "Күнтізбе панелін көрсету">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "п">
+<!ENTITY lightning.toolbar.day.label "Күн">
+<!ENTITY lightning.toolbar.day.accesskey "К">
+<!ENTITY lightning.toolbar.week.label "Апта">
+<!ENTITY lightning.toolbar.week.accesskey "А">
+<!ENTITY lightning.toolbar.multiweek.label "Бірнеше апта">
+<!ENTITY lightning.toolbar.multiweek.accesskey "р">
+<!ENTITY lightning.toolbar.month.label "Ай">
+<!ENTITY lightning.toolbar.month.accesskey "й">
+<!ENTITY lightning.toolbar.calendarmenu.label "Күнтізбе панелі">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "п">
+<!ENTITY lightning.toolbar.calendarpane.label "Күнтізбе панелін көрсету">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "п">

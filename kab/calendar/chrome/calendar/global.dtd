@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "Yennayer" >
-<!ENTITY month.2.name "Fuṛaṛ" >
-<!ENTITY month.3.name "Meɣres" >
-<!ENTITY month.4.name "Yebrir" >
-<!ENTITY month.5.name "Maggu" >
-<!ENTITY month.6.name "Yunyu" >
-<!ENTITY month.7.name "Yulyu" >
-<!ENTITY month.8.name "Ɣuct" >
-<!ENTITY month.9.name "Cṭambeṛ" >
-<!ENTITY month.10.name "Tubeṛ" >
-<!ENTITY month.11.name "Wambeṛ" >
-<!ENTITY month.12.name "Dujambeṛ" >
-
+<!ENTITY month.1.name "Yennayer">
+<!ENTITY month.2.name "Fuṛaṛ">
+<!ENTITY month.3.name "Meɣres">
+<!ENTITY month.4.name "Yebrir">
+<!ENTITY month.5.name "Maggu">
+<!ENTITY month.6.name "Yunyu">
+<!ENTITY month.7.name "Yulyu">
+<!ENTITY month.8.name "Ɣuct">
+<!ENTITY month.9.name "Cṭambeṛ">
+<!ENTITY month.10.name "Tubeṛ">
+<!ENTITY month.11.name "Wambeṛ">
+<!ENTITY month.12.name "Dujambeṛ">
 <!ENTITY showToday.tooltip "Ddu ɣer Ass-a">
 <!ENTITY onedayforward.tooltip "Yiwen n wass ɣer zdat">
 <!ENTITY onedaybackward.tooltip "Yiwen n wass ɣer deffir">

@@ -34,14 +34,11 @@
 <!-- LOCALIZATION NOTE (attachVCard.label) : do not translate "vCard" in below line -->
 <!ENTITY attachVCard.label "Mijn vCard aan berichten koppelen">
 <!ENTITY attachVCard.accesskey "v">
-
 <!ENTITY manageIdentities.label "Identiteiten beheren…">
 <!ENTITY manageIdentities.accesskey "h">
-
 <!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
 <!ENTITY smtpName.label "Uitgaande server (SMTP):">
 <!ENTITY smtpName.accesskey "S">
 <!ENTITY smtpDefaultServer.label "Standaardserver gebruiken">
-
 <!ENTITY smtpServerEdit.label "SMTP-server bewerken…">
 <!ENTITY smtpServerEdit.accesskey "P">

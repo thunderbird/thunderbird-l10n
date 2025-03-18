@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Takvim">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Takvim sekmesine geç">
+<!ENTITY lightning.toolbar.calendar.label "Takvim">
+<!ENTITY lightning.toolbar.calendar.tooltip "Takvim sekmesine geç">
 <!ENTITY lightning.toolbar.calendar.accesskey "T">
-<!ENTITY lightning.toolbar.task.label         "Görevler">
-<!ENTITY lightning.toolbar.task.tooltip       "Görevler sekmesine geç">
-<!ENTITY lightning.toolbar.task.accesskey     "G">
-
+<!ENTITY lightning.toolbar.task.label "Görevler">
+<!ENTITY lightning.toolbar.task.tooltip "Görevler sekmesine geç">
+<!ENTITY lightning.toolbar.task.accesskey "G">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Gün">
-<!ENTITY lightning.toolbar.day.accesskey             "G">
-<!ENTITY lightning.toolbar.week.label                "Hafta">
-<!ENTITY lightning.toolbar.week.accesskey            "H">
-<!ENTITY lightning.toolbar.multiweek.label           "Çok haftalı">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "k">
-<!ENTITY lightning.toolbar.month.label               "Ay">
-<!ENTITY lightning.toolbar.month.accesskey           "A">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Takvim bölmesi">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "b">
-<!ENTITY lightning.toolbar.calendarpane.label        "Takvim bölmesini göster">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "b">
+<!ENTITY lightning.toolbar.day.label "Gün">
+<!ENTITY lightning.toolbar.day.accesskey "G">
+<!ENTITY lightning.toolbar.week.label "Hafta">
+<!ENTITY lightning.toolbar.week.accesskey "H">
+<!ENTITY lightning.toolbar.multiweek.label "Çok haftalı">
+<!ENTITY lightning.toolbar.multiweek.accesskey "k">
+<!ENTITY lightning.toolbar.month.label "Ay">
+<!ENTITY lightning.toolbar.month.accesskey "A">
+<!ENTITY lightning.toolbar.calendarmenu.label "Takvim bölmesi">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "b">
+<!ENTITY lightning.toolbar.calendarpane.label "Takvim bölmesini göster">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "b">

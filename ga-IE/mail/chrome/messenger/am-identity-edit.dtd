@@ -1,12 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY settingsTab.label       "Socruithe">
+<!ENTITY settingsTab.label "Socruithe">
 <!ENTITY copiesFoldersTab.label "Cóipeanna agus Fillteáin">
-<!ENTITY addressingTab.label    "Cumadóireacht agus Seoladh">
-
-<!ENTITY publicData.label        "Sonraí Poiblí">
-<!ENTITY privateData.label       "Sonraí Príobháideacha">
-<!ENTITY identityAlias.label     "Lipéad Aitheantais:">
+<!ENTITY addressingTab.label "Cumadóireacht agus Seoladh">
+<!ENTITY publicData.label "Sonraí Poiblí">
+<!ENTITY privateData.label "Sonraí Príobháideacha">
+<!ENTITY identityAlias.label "Lipéad Aitheantais:">
 <!ENTITY identityAlias.accesskey "p">

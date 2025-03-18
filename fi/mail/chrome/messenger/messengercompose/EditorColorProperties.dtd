@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Käytä järjestelmän värejä:">
 <!ENTITY customColorsRadio.accessKey "K">
 <!ENTITY customColorsRadio.tooltip "Nämä väriasetukset ohittavat lukijan selaimen asetukset">
-
 <!ENTITY normalText.label "Normaali teksti">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "Linkin teksti">

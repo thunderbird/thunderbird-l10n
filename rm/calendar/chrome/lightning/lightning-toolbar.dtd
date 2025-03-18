@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Chalender">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Midar al tab dal chalender">
+<!ENTITY lightning.toolbar.calendar.label "Chalender">
+<!ENTITY lightning.toolbar.calendar.tooltip "Midar al tab dal chalender">
 <!ENTITY lightning.toolbar.calendar.accesskey "C">
-<!ENTITY lightning.toolbar.task.label         "Incumbensas">
-<!ENTITY lightning.toolbar.task.tooltip       "Midar al tab dad incumbensas">
-<!ENTITY lightning.toolbar.task.accesskey     "P">
-
+<!ENTITY lightning.toolbar.task.label "Incumbensas">
+<!ENTITY lightning.toolbar.task.tooltip "Midar al tab dad incumbensas">
+<!ENTITY lightning.toolbar.task.accesskey "P">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Di">
-<!ENTITY lightning.toolbar.day.accesskey             "D">
-<!ENTITY lightning.toolbar.week.label                "Emna">
-<!ENTITY lightning.toolbar.week.accesskey            "E">
-<!ENTITY lightning.toolbar.multiweek.label           "Pliras emnas">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "e">
-<!ENTITY lightning.toolbar.month.label               "Mais">
-<!ENTITY lightning.toolbar.month.accesskey           "M">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Lastra da chalender">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "v">
-<!ENTITY lightning.toolbar.calendarpane.label        "Mussar la lastra da chalender">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "P">
+<!ENTITY lightning.toolbar.day.label "Di">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "Emna">
+<!ENTITY lightning.toolbar.week.accesskey "E">
+<!ENTITY lightning.toolbar.multiweek.label "Pliras emnas">
+<!ENTITY lightning.toolbar.multiweek.accesskey "e">
+<!ENTITY lightning.toolbar.month.label "Mais">
+<!ENTITY lightning.toolbar.month.accesskey "M">
+<!ENTITY lightning.toolbar.calendarmenu.label "Lastra da chalender">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "v">
+<!ENTITY lightning.toolbar.calendarpane.label "Mussar la lastra da chalender">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "P">

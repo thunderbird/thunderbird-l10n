@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Insereix una taula">
-
 <!ENTITY size.label "Mida">
 <!ENTITY numRowsEditField.label "Files:">
 <!ENTITY numRowsEditField.accessKey "F">

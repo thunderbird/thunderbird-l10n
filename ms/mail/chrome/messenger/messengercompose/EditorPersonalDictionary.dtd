@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Kamus Peribadi">
-
 <!ENTITY wordEditField.label "Perkataan baru:">
 <!ENTITY wordEditField.accessKey "P">
 <!ENTITY AddButton.label "Tambah">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "P">
 <!ENTITY RemoveButton.label "Buang">
 <!ENTITY RemoveButton.accessKey "g">
-
 <!ENTITY CloseButton.label "Tutup">
 <!ENTITY CloseButton.accessKey "T">

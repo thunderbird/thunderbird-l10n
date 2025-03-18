@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Koristi prilagođene boje:">
 <!ENTITY customColorsRadio.accessKey "K">
 <!ENTITY customColorsRadio.tooltip "Ove postavke boja nadjačavaju postavke čitateljevog internet preglednika">
-
 <!ENTITY normalText.label "Obični tekst">
 <!ENTITY normalText.accessKey "n">
 <!ENTITY linkText.label "Tekst poveznice">

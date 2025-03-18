@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Naptár">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Átváltás a naptár lapra">
+<!ENTITY lightning.toolbar.calendar.label "Naptár">
+<!ENTITY lightning.toolbar.calendar.tooltip "Átváltás a naptár lapra">
 <!ENTITY lightning.toolbar.calendar.accesskey "N">
-<!ENTITY lightning.toolbar.task.label         "Feladatok">
-<!ENTITY lightning.toolbar.task.tooltip       "Átváltás a feladatok lapra">
-<!ENTITY lightning.toolbar.task.accesskey     "F">
-
+<!ENTITY lightning.toolbar.task.label "Feladatok">
+<!ENTITY lightning.toolbar.task.tooltip "Átváltás a feladatok lapra">
+<!ENTITY lightning.toolbar.task.accesskey "F">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Nap">
-<!ENTITY lightning.toolbar.day.accesskey             "N">
-<!ENTITY lightning.toolbar.week.label                "Hét">
-<!ENTITY lightning.toolbar.week.accesskey            "H">
-<!ENTITY lightning.toolbar.multiweek.label           "Több hét">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "T">
-<!ENTITY lightning.toolbar.month.label               "Hónap">
-<!ENTITY lightning.toolbar.month.accesskey           "p">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Naptár ablaktábla">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "N">
-<!ENTITY lightning.toolbar.calendarpane.label        "Naptár ablaktábla megjelenítése">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "n">
+<!ENTITY lightning.toolbar.day.label "Nap">
+<!ENTITY lightning.toolbar.day.accesskey "N">
+<!ENTITY lightning.toolbar.week.label "Hét">
+<!ENTITY lightning.toolbar.week.accesskey "H">
+<!ENTITY lightning.toolbar.multiweek.label "Több hét">
+<!ENTITY lightning.toolbar.multiweek.accesskey "T">
+<!ENTITY lightning.toolbar.month.label "Hónap">
+<!ENTITY lightning.toolbar.month.accesskey "p">
+<!ENTITY lightning.toolbar.calendarmenu.label "Naptár ablaktábla">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "N">
+<!ENTITY lightning.toolbar.calendarpane.label "Naptár ablaktábla megjelenítése">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "n">

@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Nhận dạng">
 <!ENTITY identityDesc.label "Mỗi tài khoản có một danh tính, đó là thông tin nhận dạng bạn với người khác khi họ nhận được thư của bạn.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Nhập tên mà bạn muốn hiển thị trong trường &quot;Từ&quot; trên các thư gửi đi">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(ví dụ, &quot;John Smith&quot;).">
 <!ENTITY fullnameLabel.label "Tên của bạn:">
 <!ENTITY fullnameLabel.accesskey "Y">
-
 <!ENTITY emailLabel.label "Địa chỉ email:">
 <!ENTITY emailLabel.accesskey "E">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Nhập tên mà bạn muốn dùng để nói tới tài khoản này (ví dụ, &quot;Tài khoản công việc&quot;, &quot;Tài khoản ở nhà&quot; hoặc &quot;Tài khoản tin tức&quot;).">
 <!ENTITY accnameLabel.label "Tên tài khoản:">
 <!ENTITY accnameLabel.accesskey "A">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Chúc mừng!">
 <!ENTITY completionText.label "Vui lòng xác minh rằng thông tin dưới đây là chính xác.">
 <!ENTITY newsServerNamePrefix.label "Tên máy chủ tin tức (NNTP):">

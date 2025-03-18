@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Vložit tabulku">
-
 <!ENTITY size.label "Velikost">
 <!ENTITY numRowsEditField.label "Řádky:">
 <!ENTITY numRowsEditField.accessKey "d">

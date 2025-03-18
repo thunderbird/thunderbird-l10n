@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Postafiók beállításai">
-<!ENTITY  accountManagerCloseButton.label "Bezárás">
-
+<!ENTITY accountManagerCloseButton.label "Bezárás">
 <!ENTITY accountActionsButton.label "Postafiók-műveletek">
 <!ENTITY accountActionsButton.accesskey "P">
 <!ENTITY addMailAccountButton.label "Postafiók hozzáadása…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "L">
 <!ENTITY removeButton.label "Postafiók eltávolítása">
 <!ENTITY removeButton.accesskey "e">
-
 <!ENTITY addonsButton.label "Kiegészítők és témák">

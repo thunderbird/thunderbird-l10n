@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "w">
 <!ENTITY syncGroupTitle.label "Nachrichten-Synchronisation">
 <!ENTITY diskspaceGroupTitle.label "Speicherplatz">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Nachrichten unabhängig vom Alter herunterladen">
-<!ENTITY allAutosync.accesskey           "c">
-<!ENTITY ageAutosyncBefore.label         "Nur Nachrichten der letzten">
-<!ENTITY ageAutosync.accesskey           "z">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "Tage">
-<!ENTITY weekAgeInterval.label           "Wochen">
-<!ENTITY monthAgeInterval.label          "Monate">
-<!ENTITY yearAgeInterval.label           "Jahre">
-<!ENTITY ageAutosyncAfter.label          "herunterladen">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Nachrichten unabhängig vom Alter herunterladen">
+<!ENTITY allAutosync.accesskey "c">
+<!ENTITY ageAutosyncBefore.label "Nur Nachrichten der letzten">
+<!ENTITY ageAutosync.accesskey "z">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "Tage">
+<!ENTITY weekAgeInterval.label "Wochen">
+<!ENTITY monthAgeInterval.label "Monate">
+<!ENTITY yearAgeInterval.label "Jahre">
+<!ENTITY ageAutosyncAfter.label "herunterladen">

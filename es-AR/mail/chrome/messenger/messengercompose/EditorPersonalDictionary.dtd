@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Diccionario personal">
-
 <!ENTITY wordEditField.label "Nueva palabra:">
 <!ENTITY wordEditField.accessKey "N">
 <!ENTITY AddButton.label "Agregar">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "d">
 <!ENTITY RemoveButton.label "Eliminar">
 <!ENTITY RemoveButton.accessKey "e">
-
 <!ENTITY CloseButton.label "Cerrar">
 <!ENTITY CloseButton.accessKey "C">

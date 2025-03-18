@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "Lim inn som sitat">
 <!ENTITY pasteAsQuotationCmd.accesskey "L">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Sett inn">
 <!ENTITY insertMenu.accesskey "i">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "s">
 <!ENTITY insertBreakAllCmd.label "Linjeskift under bilde(r)">
 <!ENTITY insertBreakAllCmd.accesskey "u">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Lag lenke …">
 <!ENTITY createLinkCmd.accesskey "l">
 <!ENTITY editLinkCmd.label "Rediger lenke i nytt nettsideutvikler-vindu">
 <!ENTITY editLinkCmd.accesskey "i">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Velg skrifttype">
 <!ENTITY fontfaceMenu.label "Skrifttype">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Velg skriftstørrelse">
 <!ENTITY decreaseFontSize.label "Mindre">
 <!ENTITY decreaseFontSize.accesskey "M">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "Større">
 <!ENTITY increaseFontSize.accesskey "S">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "Størrelse">
 <!ENTITY fontSizeMenu.accesskey "e">
 <!ENTITY size-tinyCmd.label "Ekstra liten">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "k">
 <!ENTITY size-hugeCmd.label "Gigantisk">
 <!ENTITY size-hugeCmd.accesskey "G">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Tekststil">
 <!ENTITY fontStyleMenu.accesskey "s">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "m">
 <!ENTITY styleVar.label "Variabel">
 <!ENTITY styleVar.accesskey "V">
-
 <!ENTITY formatFontColor.label "Tekstfarge …">
 <!ENTITY formatFontColor.accesskey "f">
 <!ENTITY tableOrCellColor.label "Bakgrunnsfarge for tabell eller celle …">
 <!ENTITY tableOrCellColor.accesskey "B">
-
 <!ENTITY formatRemoveStyles.key "y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "Fjern navngitte anker">
 <!ENTITY formatRemoveNamedAnchors.accesskey "n">
 <!ENTITY formatRemoveNamedAnchors2.key "r">
-
 <!ENTITY paragraphMenu.label "Avsnitt">
 <!ENTITY paragraphMenu.accesskey "A">
 <!ENTITY paragraphParagraphCmd.label "Avsnitt">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "d">
 <!ENTITY paragraphPreformatCmd.label "Forhåndsformatert">
 <!ENTITY paragraphPreformatCmd.accesskey "F">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Liste">
 <!ENTITY formatlistMenu.accesskey "L">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "D">
 <!ENTITY listPropsCmd.label "Listeegenskaper …">
 <!ENTITY listPropsCmd.accesskey "L">
-
 <!ENTITY ParagraphSelect.tooltip "Velg avsnittsformat">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Brødtekst">
 <!ENTITY bodyTextCmd.accesskey "B">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Justering">
 <!ENTITY alignMenu.accesskey "J">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "Blokkjustert">
 <!ENTITY alignJustify.accesskey "B">
 <!ENTITY alignJustify.tooltip "Blokkjuster">
-
 <!ENTITY increaseIndent.label "Øk innrykk">
 <!ENTITY increaseIndent.accesskey "Ø">
 <!ENTITY increaseIndent.key "]">
 <!ENTITY decreaseIndent.label "Reduser innrykk">
 <!ENTITY decreaseIndent.accesskey "R">
 <!ENTITY decreaseIndent.key "[">
-
 <!ENTITY colorsAndBackground.label "Farger og bakgrunn på siden …">
 <!ENTITY colorsAndBackground.accesskey "F">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Tabell">
 <!ENTITY tableMenu.accesskey "T">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Velg">
 <!ENTITY tableSelectMenu.accesskey "e">
-
 <!ENTITY tableSelectMenu2.label "Merk tabell">
 <!ENTITY tableSelectMenu2.accesskey "M">
 <!ENTITY tableInsertMenu2.label "Sett inn tabell">
 <!ENTITY tableInsertMenu2.accesskey "S">
 <!ENTITY tableDeleteMenu2.label "Tabellsletting">
 <!ENTITY tableDeleteMenu2.accesskey "T">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Sett inn">
 <!ENTITY tableInsertMenu.accesskey "i">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Slett">
 <!ENTITY tableDeleteMenu.accesskey "S">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "j">
 <!ENTITY tableJoinCells.accesskey "j">
 <!ENTITY tableSplitCell.label "Del celle">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "L">
 <!ENTITY tableProperties.label "Tabellegenskaper …">
 <!ENTITY tableProperties.accesskey "T">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Bilde">
 <!ENTITY imageToolbarCmd.tooltip "Sett inn nytt bilde eller rediger det valgte bildets egenskaper">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Sett inn nytt navngitt anker eller rediger valgt ankers egenskaper">
 <!ENTITY TextColorButton.tooltip "Velg tekstfarge">
 <!ENTITY BackgroundColorButton.tooltip "Velg bakgrunnsfarge">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "Velg skriftstørrelse">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Mindre skriftstørrelse">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "Midtstill tekst">
 <!ENTITY alignRightButton.tooltip "Juster tekst langs høyre marg">
 <!ENTITY alignJustifyButton.tooltip "Juster tekst etter venstre og høyre marg">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Sett inn">
-<!ENTITY insertTOC.accesskey      "S">
-<!ENTITY updateTOC.label          "Oppdater">
-<!ENTITY updateTOC.accesskey      "O">
-<!ENTITY removeTOC.label          "Fjern">
-<!ENTITY removeTOC.accesskey      "j">
-<!ENTITY tocMenu.label            "Innholdsfortegnelse …">
-<!ENTITY tocMenu.accesskey        "I">
+<!ENTITY insertTOC.label "Sett inn">
+<!ENTITY insertTOC.accesskey "S">
+<!ENTITY updateTOC.label "Oppdater">
+<!ENTITY updateTOC.accesskey "O">
+<!ENTITY removeTOC.label "Fjern">
+<!ENTITY removeTOC.accesskey "j">
+<!ENTITY tocMenu.label "Innholdsfortegnelse …">
+<!ENTITY tocMenu.accesskey "I">

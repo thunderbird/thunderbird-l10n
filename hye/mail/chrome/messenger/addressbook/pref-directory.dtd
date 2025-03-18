@@ -3,15 +3,15 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (window.title) : do not translate "LDAP" in below line -->
-<!ENTITY pref.ldap.window.title    "LDAP գրացուցակի սպասարկիչներ">
+<!ENTITY pref.ldap.window.title "LDAP գրացուցակի սպասարկիչներ">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
-<!ENTITY directories.label         "LDAP գրացուցակի սպասարկիչ.">
+<!ENTITY directories.label "LDAP գրացուցակի սպասարկիչ.">
 <!-- LOCALIZATION NOTE (directoriesText.label) : do not translate "LDAP" in below line -->
-<!ENTITY directoriesText.label     "Ընտրէք LDAP գրացուցակի սպասարկիչներ.">
+<!ENTITY directoriesText.label "Ընտրէք LDAP գրացուցակի սպասարկիչներ.">
 <!ENTITY directoriesText.accesskey "S">
-<!ENTITY addDirectory.label        "Աւելացնել">
-<!ENTITY addDirectory.accesskey    "a">
-<!ENTITY editDirectory.label       "Խմբագրել">
-<!ENTITY editDirectory.accesskey   "e">
-<!ENTITY deleteDirectory.label     "Ջնջել">
+<!ENTITY addDirectory.label "Աւելացնել">
+<!ENTITY addDirectory.accesskey "a">
+<!ENTITY editDirectory.label "Խմբագրել">
+<!ENTITY editDirectory.accesskey "e">
+<!ENTITY deleteDirectory.label "Ջնջել">
 <!ENTITY deleteDirectory.accesskey "d">

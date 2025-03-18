@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Hesap Ayarları">
-<!ENTITY  accountManagerCloseButton.label "Kapat">
-
+<!ENTITY accountManagerCloseButton.label "Kapat">
 <!ENTITY accountActionsButton.label "Hesap işlemleri">
 <!ENTITY accountActionsButton.accesskey "H">
 <!ENTITY addMailAccountButton.label "Posta hesabı ekle…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "n">
 <!ENTITY removeButton.label "Hesabı sil">
 <!ENTITY removeButton.accesskey "H">
-
 <!ENTITY addonsButton.label "Uzantılar ve Temalar">

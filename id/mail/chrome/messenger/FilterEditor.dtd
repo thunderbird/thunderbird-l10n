@@ -5,16 +5,13 @@
 <!ENTITY window.title "Aturan Filter">
 <!ENTITY filterName.label "Nama filter:">
 <!ENTITY filterName.accesskey "i">
-
 <!ENTITY junk.label "Junk">
 <!ENTITY notJunk.label "Bukan Junk">
-
 <!ENTITY lowestPriorityCmd.label "Terendah">
 <!ENTITY lowPriorityCmd.label "Rendah">
 <!ENTITY normalPriorityCmd.label "Normal">
 <!ENTITY highPriorityCmd.label "Tinggi">
 <!ENTITY highestPriorityCmd.label "Tertinggi">
-
 <!ENTITY contextDesc.label "Terapkan filter ketika:">
 <!ENTITY contextIncomingMail.label "Mendapatkan Surel Baru:">
 <!ENTITY contextIncomingMail.accesskey "G">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "Mengarsipkan">
 <!ENTITY contextArchive.accesskey "A">
 <!ENTITY contextPeriodic.accesskey "e">
-
 <!ENTITY filterActionDesc.label "Lakukan aksi berikut:">
 <!ENTITY filterActionDesc.accesskey "L">
-
 <!ENTITY filterActionOrderWarning.label "Catatan: Tindakan penyaringan akan dijalankan dalam urutan yang berbeda.">
 <!ENTITY filterActionOrder.label "Lihat pesanan eksekusi">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Pindahkan Pesan ke">
 <!ENTITY copyMessage.label "Salin Pesan ke">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Abaikan Sub Utas">
 <!ENTITY watchThread.label "Monitor Utas">
 <!ENTITY stopExecution.label "Hentikan Proses Pemfilteran">
-
 <!ENTITY addAction.tooltip "Tambahkan tindakan baru">
 <!ENTITY removeAction.tooltip "Hapus tindakan ini">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Identitet">
 <!ENTITY identityDesc.label "Kvar konto har sin eigen identitet, som er den informasjonen som identifiserer deg til andre når dei får ei melding frå deg.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Skriv inn namnet du vil skal stå i «Frå»-feltet på meldingane du sender">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(til dømes «Ola Nordmann»)">
 <!ENTITY fullnameLabel.label "Namnet ditt:">
 <!ENTITY fullnameLabel.accesskey "N">
-
 <!ENTITY emailLabel.label "E-postadresse:">
 <!ENTITY emailLabel.accesskey "E">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Skriv inn namnet du vil ha på denne kontoen (til dømes «Jobbkonto», «Heimekonto» eller «Nyheitskonto»).">
 <!ENTITY accnameLabel.label "Kontonamn:">
 <!ENTITY accnameLabel.accesskey "K">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Gratulerer!">
 <!ENTITY completionText.label "Kontroller at informasjonen nedanfor er rett.">
 <!ENTITY newsServerNamePrefix.label "Nyhendegruppesørvarnamn (NNTP):">

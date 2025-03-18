@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Кестені кірістіру">
-
 <!ENTITY size.label "Өлшемі">
 <!ENTITY numRowsEditField.label "Жолдар:">
 <!ENTITY numRowsEditField.accessKey "л">

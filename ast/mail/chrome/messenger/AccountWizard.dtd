@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Identidá">
 <!ENTITY identityDesc.label "Cada cuenta tien una identidá, que ye la información que t'identifica énte otros cuando ellos reciben los tos mensaxes.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Introduz el nome que quies qu'apaeza nel campu &quot;De&quot; al unviar mensaxes">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(por exemplu, &quot;Xune Fueyo&quot;).">
 <!ENTITY fullnameLabel.label "Nome:">
 <!ENTITY fullnameLabel.accesskey "N">
-
 <!ENTITY emailLabel.label "Direición de corréu-e:">
 <!ENTITY emailLabel.accesskey "E">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Introduz el nome pol que quies referite a esta cuenta (por exemplu, &quot;Cuenta del trabayu&quot;, &quot;Cuenta de casa&quot; o &quot;Cuenta de noticies&quot;).">
 <!ENTITY accnameLabel.label "Nome de la cuenta:">
 <!ENTITY accnameLabel.accesskey "A">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "¡Felicidaes!">
 <!ENTITY completionText.label "Por favor, comprueba que la información de debaxo ye correuta.">
 <!ENTITY newsServerNamePrefix.label "Nome del sirvidor de noticies (NNTP):">

@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Felhasználó">
 <!ENTITY identityDesc.label "Minden postafiókhoz tartozik egy személyazonosság. Az itt megadott név megjelenik a másoknak küldött levelek fejlécében.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Adja meg azt a nevet, amelyet a kézbesítendő levelek „Feladó” sorában akar megjelentetni.">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(például: „Kovács János”)">
 <!ENTITY fullnameLabel.label "Név:">
 <!ENTITY fullnameLabel.accesskey "N">
-
 <!ENTITY emailLabel.label "E-mail cím:">
 <!ENTITY emailLabel.accesskey "E">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Írja be milyen néven szeretne hivatkozni erre a postafiókra (pl.: „Munka”, „Otthon” vagy „Hírek”).">
 <!ENTITY accnameLabel.label "Postafiók neve:">
 <!ENTITY accnameLabel.accesskey "P">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Gratulálunk!">
 <!ENTITY completionText.label "Ellenőrizze, hogy az alábbi adatok helyesek-e.">
 <!ENTITY newsServerNamePrefix.label "Hírcsoport-kiszolgáló (NTTP) neve:">

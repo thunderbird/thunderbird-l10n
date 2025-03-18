@@ -2,10 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label                        "Naam of e-pos">
-
-<!-- Results Pane -->
-<!ENTITY GeneratedName.label                            "Naam">
-<!ENTITY PrimaryEmail.label                             "E-pos">
+<!ENTITY SearchNameOrEmail.label "Naam of e-pos">
+<!ENTITY GeneratedName.label "Naam">
+<!ENTITY PrimaryEmail.label "E-pos">

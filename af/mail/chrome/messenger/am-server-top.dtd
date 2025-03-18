@@ -16,8 +16,7 @@
 <!-- LOCALIZATION NOTE (biffStart.label) : translate below 2 line with grammar dependency
         For example, in Japanese cases:
                 biffStart.label "every"
-                biffEnd.label   "minutes for new messages Check"
--->
+                biffEnd.label   "minutes for new messages Check" -->
 <!ENTITY biffStart.label "Kontroleer vir nuwe boodskappe elke ">
 <!ENTITY biffStart.accesskey "e">
 <!ENTITY biffEnd.label "minute">
@@ -46,15 +45,13 @@
 <!ENTITY modelMarkDeleted.accesskey "M">
 <!ENTITY modelDeleteImmediately.label "Verwyder dit dadelik">
 <!ENTITY modelDeleteImmediately.accesskey "d">
-<!-- LOCALIZATION NOTE (expungeOnExit.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY emptyTrashOnExit.label "Maak snippermandjie leeg tydens afsluiting">
 <!ENTITY emptyTrashOnExit.accesskey "a">
 <!ENTITY loginAtStartup.label "Kontroleer vir nuwe boodskappe aan begin">
 <!ENTITY loginAtStartup.accesskey "K">
 <!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency
     maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
-    of messages between them
--->
+    of messages between them -->
 <!ENTITY maxMessagesStart.label "Vra my voor meer aflaai as">
 <!ENTITY maxMessagesStart.accesskey "v">
 <!-- LOCALIZATION NOTE (maxMessagesEnd.label) : see note for maxMessagesStart.label -->
@@ -71,6 +68,5 @@
 <!ENTITY browseFolder.accesskey "B">
 <!ENTITY browseNewsrc.label "Blaai…">
 <!ENTITY browseNewsrc.accesskey "B">
-
 <!ENTITY accountTitle.label "Rekeningopstelling">
 <!ENTITY accountSettingsDesc.label "Die volgende is 'n spesiale rekening.  Daar word geen identiteit mee geassosieer nie.">

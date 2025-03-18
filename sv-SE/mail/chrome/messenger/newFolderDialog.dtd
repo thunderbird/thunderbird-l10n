@@ -3,14 +3,14 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Labels -->
-<!ENTITY newFolderDialog.title      "Ny mapp">
-<!ENTITY name.label                 "Namn:">
-<!ENTITY name.accesskey             "N">
-<!ENTITY description.label          "Skapa som undermapp till:">
-<!ENTITY description.accesskey      "S">
-<!ENTITY folderRestriction1.label   "Servern begränsar mappar till två speciella typer.">
-<!ENTITY folderRestriction2.label   "Tillåt din nya mapp att innehålla:">
-<!ENTITY foldersOnly.label          "Endast mappar">
-<!ENTITY messagesOnly.label         "Endast meddelanden">
-<!ENTITY accept.label               "Skapa mapp">
-<!ENTITY accept.accesskey           "m">
+<!ENTITY newFolderDialog.title "Ny mapp">
+<!ENTITY name.label "Namn:">
+<!ENTITY name.accesskey "N">
+<!ENTITY description.label "Skapa som undermapp till:">
+<!ENTITY description.accesskey "S">
+<!ENTITY folderRestriction1.label "Servern begränsar mappar till två speciella typer.">
+<!ENTITY folderRestriction2.label "Tillåt din nya mapp att innehålla:">
+<!ENTITY foldersOnly.label "Endast mappar">
+<!ENTITY messagesOnly.label "Endast meddelanden">
+<!ENTITY accept.label "Skapa mapp">
+<!ENTITY accept.accesskey "m">

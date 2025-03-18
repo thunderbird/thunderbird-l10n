@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Таңдауыңызша түстерді қолдану:">
 <!ENTITY customColorsRadio.accessKey "Т">
 <!ENTITY customColorsRadio.tooltip "Бұл түс баптаулары пайдаланушы браузері баптауларын алмастырады">
-
 <!ENTITY normalText.label "Кәдімгі мәтін">
 <!ENTITY normalText.accessKey "К">
 <!ENTITY linkText.label "Сілтеме мәтіні">

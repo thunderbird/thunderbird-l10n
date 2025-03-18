@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Mewnosod Tabl">
-
 <!ENTITY size.label "Maint">
 <!ENTITY numRowsEditField.label "Rhesi:">
 <!ENTITY numRowsEditField.accessKey "R">

@@ -2,13 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY showAsDefault.label                            "Varsayılan başlangıç dizini">
-<!ENTITY showAsDefault.accesskey                        "s">
-
+<!ENTITY showAsDefault.label "Varsayılan başlangıç dizini">
+<!ENTITY showAsDefault.accesskey "s">
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label                        "Ad veya e-posta">
-
+<!ENTITY SearchNameOrEmail.label "Ad veya e-posta">
 <!-- Results Pane -->
-<!ENTITY Addrbook.label                                 "Adres Defteri">
-<!ENTITY GeneratedName.label                            "Ad">
-<!ENTITY PrimaryEmail.label                             "E-posta">
+<!ENTITY Addrbook.label "Adres Defteri">
+<!ENTITY GeneratedName.label "Ad">
+<!ENTITY PrimaryEmail.label "E-posta">

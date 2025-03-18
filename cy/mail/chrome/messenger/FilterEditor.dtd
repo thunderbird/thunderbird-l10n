@@ -5,16 +5,13 @@
 <!ENTITY window.title "Rheolau Hidlo">
 <!ENTITY filterName.label "Enw'r hidl:">
 <!ENTITY filterName.accesskey "E">
-
 <!ENTITY junk.label "Sbam">
 <!ENTITY notJunk.label "Nid Sbam">
-
 <!ENTITY lowestPriorityCmd.label "Isaf">
 <!ENTITY lowPriorityCmd.label "Isel">
 <!ENTITY normalPriorityCmd.label "Arferol">
 <!ENTITY highPriorityCmd.label "Uchel">
 <!ENTITY highestPriorityCmd.label "Uchaf">
-
 <!ENTITY contextDesc.label "Gosod yr hidl pan yn:">
 <!ENTITY contextIncomingMail.label "Estyn E-bost Newydd:">
 <!ENTITY contextIncomingMail.accesskey "E">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "Archifo">
 <!ENTITY contextArchive.accesskey "A">
 <!ENTITY contextPeriodic.accesskey "e">
-
 <!ENTITY filterActionDesc.label "Gwneud hyn:">
 <!ENTITY filterActionDesc.accesskey "G">
-
 <!ENTITY filterActionOrderWarning.label "Sylw: Bydd gweithredoedd hidlo'n cael eu rhedeg mewn trefn gwahanol.">
 <!ENTITY filterActionOrder.label "Gw. trefn weithredu">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Symud Neges i">
 <!ENTITY copyMessage.label "Copïo Neges i">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Anwybyddu'r Is-edefyn">
 <!ENTITY watchThread.label "Gwylio'r Edefyn">
 <!ENTITY stopExecution.label "Atal Gweithredu'r Hidl">
-
 <!ENTITY addAction.tooltip "Ychwanegu gweithred newydd">
 <!ENTITY removeAction.tooltip "Tynnu'r weithred hon">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

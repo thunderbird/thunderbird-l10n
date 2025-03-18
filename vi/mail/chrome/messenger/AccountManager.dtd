@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Cài đặt tài khoản">
-<!ENTITY  accountManagerCloseButton.label "Đóng">
-
+<!ENTITY accountManagerCloseButton.label "Đóng">
 <!ENTITY accountActionsButton.label "Hành động tài khoản">
 <!ENTITY accountActionsButton.accesskey "A">
 <!ENTITY addMailAccountButton.label "Thêm tài khoản thư…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "D">
 <!ENTITY removeButton.label "Xóa tài khoản">
 <!ENTITY removeButton.accesskey "R">
-
 <!ENTITY addonsButton.label "Tiện ích mở rộng &amp; chủ đề">

@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "Січень" >
-<!ENTITY month.2.name "Лютий" >
-<!ENTITY month.3.name "Березень" >
-<!ENTITY month.4.name "Квітень" >
-<!ENTITY month.5.name "Травень" >
-<!ENTITY month.6.name "Червень" >
-<!ENTITY month.7.name "Липень" >
-<!ENTITY month.8.name "Серпень" >
-<!ENTITY month.9.name "Вересень" >
-<!ENTITY month.10.name "Жовтень" >
-<!ENTITY month.11.name "Листопад" >
-<!ENTITY month.12.name "Грудень" >
-
+<!ENTITY month.1.name "Січень">
+<!ENTITY month.2.name "Лютий">
+<!ENTITY month.3.name "Березень">
+<!ENTITY month.4.name "Квітень">
+<!ENTITY month.5.name "Травень">
+<!ENTITY month.6.name "Червень">
+<!ENTITY month.7.name "Липень">
+<!ENTITY month.8.name "Серпень">
+<!ENTITY month.9.name "Вересень">
+<!ENTITY month.10.name "Жовтень">
+<!ENTITY month.11.name "Листопад">
+<!ENTITY month.12.name "Грудень">
 <!ENTITY showToday.tooltip "Сьогодні">
 <!ENTITY onedayforward.tooltip "Один день вперед">
 <!ENTITY onedaybackward.tooltip "Один день назад">

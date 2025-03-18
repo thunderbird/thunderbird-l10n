@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "ਜਨਵਰੀ" >
-<!ENTITY month.2.name "ਫਰਵਰੀ" >
-<!ENTITY month.3.name "ਮਾਰਚ" >
-<!ENTITY month.4.name "ਅਪਰੈਲ" >
-<!ENTITY month.5.name "ਮਈ" >
-<!ENTITY month.6.name "ਜੂਨ" >
-<!ENTITY month.7.name "ਜੁਲਾਈ" >
-<!ENTITY month.8.name "ਅਗਸਤ" >
-<!ENTITY month.9.name "ਸਤੰਬਰ" >
-<!ENTITY month.10.name "ਅਕਤੂਬਰ" >
-<!ENTITY month.11.name "ਨਵੰਬਰ" >
-<!ENTITY month.12.name "ਦਸੰਬਰ" >
-
+<!ENTITY month.1.name "ਜਨਵਰੀ">
+<!ENTITY month.2.name "ਫਰਵਰੀ">
+<!ENTITY month.3.name "ਮਾਰਚ">
+<!ENTITY month.4.name "ਅਪਰੈਲ">
+<!ENTITY month.5.name "ਮਈ">
+<!ENTITY month.6.name "ਜੂਨ">
+<!ENTITY month.7.name "ਜੁਲਾਈ">
+<!ENTITY month.8.name "ਅਗਸਤ">
+<!ENTITY month.9.name "ਸਤੰਬਰ">
+<!ENTITY month.10.name "ਅਕਤੂਬਰ">
+<!ENTITY month.11.name "ਨਵੰਬਰ">
+<!ENTITY month.12.name "ਦਸੰਬਰ">
 <!ENTITY showToday.tooltip "ਅੱਜ ਉੱਤੇ ਜਾਓ">
 <!ENTITY onedayforward.tooltip "ਇੱਕ ਦਿਨ ਅੱਗੇ">
 <!ENTITY onedaybackward.tooltip "ਇੱਕ ਦਿਨ ਪਿੱਛੇ">

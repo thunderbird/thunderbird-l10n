@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "ianuarie" >
-<!ENTITY month.2.name "februarie" >
-<!ENTITY month.3.name "martie" >
-<!ENTITY month.4.name "aprilie" >
-<!ENTITY month.5.name "mai" >
-<!ENTITY month.6.name "iunie" >
-<!ENTITY month.7.name "iulie" >
-<!ENTITY month.8.name "august" >
-<!ENTITY month.9.name "septembrie" >
-<!ENTITY month.10.name "octombrie" >
-<!ENTITY month.11.name "noiembrie" >
-<!ENTITY month.12.name "decembrie" >
-
+<!ENTITY month.1.name "ianuarie">
+<!ENTITY month.2.name "februarie">
+<!ENTITY month.3.name "martie">
+<!ENTITY month.4.name "aprilie">
+<!ENTITY month.5.name "mai">
+<!ENTITY month.6.name "iunie">
+<!ENTITY month.7.name "iulie">
+<!ENTITY month.8.name "august">
+<!ENTITY month.9.name "septembrie">
+<!ENTITY month.10.name "octombrie">
+<!ENTITY month.11.name "noiembrie">
+<!ENTITY month.12.name "decembrie">
 <!ENTITY showToday.tooltip "Mergi la ziua de azi">
 <!ENTITY onedayforward.tooltip "Cu o zi înainte">
 <!ENTITY onedaybackward.tooltip "Cu o zi înapoi">

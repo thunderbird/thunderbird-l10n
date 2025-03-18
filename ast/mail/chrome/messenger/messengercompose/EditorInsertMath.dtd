@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Inxertar espresión matemática">
-
 <!ENTITY sourceEditField.label "Introduz códigu LaTeX:">
-
 <!ENTITY options.label "Opciones">
 <!ENTITY optionInline.label "Mou incrustáu">
 <!ENTITY optionInline.accesskey "M">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "s">
 <!ENTITY optionRTL.label "Direición de derecha a esquierda">
 <!ENTITY optionRTL.accesskey "d">
-
 <!ENTITY insertButton.label "Inxertar">
 <!ENTITY insertButton.accesskey "I">

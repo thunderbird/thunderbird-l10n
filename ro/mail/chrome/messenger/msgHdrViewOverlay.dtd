@@ -8,7 +8,6 @@
 <!ENTITY author.label "Autor">
 <!ENTITY organizationField4.label "Organizația">
 <!ENTITY replyToField4.label "Răspuns la">
-
 <!ENTITY subjectField4.label "Subiect">
 <!ENTITY ccField4.label "Cc">
 <!ENTITY bccField4.label "Bcc">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "ID mesaj">
 <!ENTITY inReplyToField4.label "Ca răspuns la">
 <!ENTITY originalWebsite4.label "Site web">
-
 <!ENTITY hdrArchiveButton1.label "Arhivează">
 <!ENTITY hdrArchiveButton1.tooltip "Arhivează acest mesaj">
 <!ENTITY hdrSmartReplyButton1.label "Răspuns rapid">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Marchează mesajul ca nesolicitat">
 <!ENTITY hdrTrashButton1.label "Șterge">
 <!ENTITY hdrTrashButton1.tooltip "Șterge acest mesaj">
-
 <!ENTITY hdrViewToolbarShowFull.label "Afișează pictograme și text">
 <!ENTITY hdrViewToolbarShowFull.accesskey "A">
 <!ENTITY hdrViewToolbarShowIcons.label "Afișează doar pictograme">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "t">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Afișează întotdeauna răspunsul către expeditor">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "r">
-
 <!ENTITY otherActionsButton2.label "Mai multe">
 <!ENTITY otherActionsButton.tooltip "Mai multe acțiuni">
 <!ENTITY otherActionsOpenConversation1.label "Deschide în conversație">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "V">
 <!ENTITY otherActionsPrint1.label "Tipărește…">
 <!ENTITY otherActionsPrint1.accesskey "p">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Afișează inițial panoul de atașamente">
-<!ENTITY startExpandedCmd.accesskey    "S">
-
+<!ENTITY startExpandedCmd.label "Afișează inițial panoul de atașamente">
+<!ENTITY startExpandedCmd.accesskey "S">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Deschide">
-<!ENTITY openAttachmentCmd.accesskey    "D">
-<!ENTITY saveAsAttachmentCmd.label    "Salvează ca…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "a">
-<!ENTITY detachAttachmentCmd.label    "Elimină atașamentul…">
-<!ENTITY detachAttachmentCmd.accesskey    "E">
-<!ENTITY deleteAttachmentCmd.label    "Șterge">
-<!ENTITY deleteAttachmentCmd.accesskey    "e">
-<!ENTITY openAllAttachmentsCmd.label    "Deschide toate…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "o">
-<!ENTITY saveAllAttachmentsCmd.label    "Salvează toate…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "S">
-<!ENTITY detachAllAttachmentsCmd.label    "Elimină toate atașamentele…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "l">
-<!ENTITY deleteAllAttachmentsCmd.label    "Șterge toate atașamentele…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "e">
-
+<!ENTITY openAttachmentCmd.label "Deschide">
+<!ENTITY openAttachmentCmd.accesskey "D">
+<!ENTITY saveAsAttachmentCmd.label "Salvează ca…">
+<!ENTITY saveAsAttachmentCmd.accesskey "a">
+<!ENTITY detachAttachmentCmd.label "Elimină atașamentul…">
+<!ENTITY detachAttachmentCmd.accesskey "E">
+<!ENTITY deleteAttachmentCmd.label "Șterge">
+<!ENTITY deleteAttachmentCmd.accesskey "e">
+<!ENTITY openAllAttachmentsCmd.label "Deschide toate…">
+<!ENTITY openAllAttachmentsCmd.accesskey "o">
+<!ENTITY saveAllAttachmentsCmd.label "Salvează toate…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "S">
+<!ENTITY detachAllAttachmentsCmd.label "Elimină toate atașamentele…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "l">
+<!ENTITY deleteAllAttachmentsCmd.label "Șterge toate atașamentele…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "e">
 <!ENTITY openAttachment.tooltip "Deschide fișierul atașat">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Deschide dosarul în care se află">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "F">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Afișează în Finder">
+<!ENTITY detachedAttachmentFolder.show.label "Deschide dosarul în care se află">
+<!ENTITY detachedAttachmentFolder.show.accesskey "F">
+<!ENTITY detachedAttachmentFolder.showMac.label "Afișează în Finder">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Salvează">
-<!ENTITY saveAttachmentButton1.tooltip     "Salvează fișierul atașat">
-<!ENTITY saveAllAttachmentsButton1.label   "Salvează tot">
+<!ENTITY saveAttachmentButton1.label "Salvează">
+<!ENTITY saveAttachmentButton1.tooltip "Salvează fișierul atașat">
+<!ENTITY saveAllAttachmentsButton1.label "Salvează tot">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Salvează toate fișierele atașate">
-
-<!ENTITY copyLinkCmd.label        "Copiază locația linkului">
-<!ENTITY copyLinkCmd.accesskey    "C">
-
+<!ENTITY copyLinkCmd.label "Copiază locația linkului">
+<!ENTITY copyLinkCmd.accesskey "C">
 <!ENTITY CopyMessageId.label "Copiază Message-ID">
 <!ENTITY CopyMessageId.accesskey "C">
 <!ENTITY OpenMessageForMsgId.label "Deschide mesajul pentru ID">

@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Timeẓliyin n izirig aglawan">
-
 <!ENTITY dimensionsBox.label "Tisektiwin">
 <!ENTITY heightEditField.label "Teɣzi:">
 <!ENTITY heightEditField.accessKey "e">
@@ -19,7 +17,6 @@
 <!ENTITY centerRadio.accessKey "m">
 <!ENTITY rightRadio.label "Azelmaḍ">
 <!ENTITY rightRadio.accessKey "A">
-
 <!ENTITY threeDShading.label "Tili 3-D">
 <!ENTITY threeDShading.accessKey "l">
 <!ENTITY saveSettings.label "Seqqdec d amezwer">

@@ -8,7 +8,6 @@
 <!ENTITY author.label "Autor">
 <!ENTITY organizationField4.label "Organització">
 <!ENTITY replyToField4.label "Respon a">
-
 <!ENTITY subjectField4.label "Assumpte">
 <!ENTITY ccField4.label "Cc">
 <!ENTITY bccField4.label "CCO">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "ID del missatge">
 <!ENTITY inReplyToField4.label "En resposta a">
 <!ENTITY originalWebsite4.label "Lloc web">
-
 <!ENTITY hdrArchiveButton1.label "Arxiva">
 <!ENTITY hdrArchiveButton1.tooltip "Arxiva aquest missatge">
 <!ENTITY hdrSmartReplyButton1.label "Resposta intel·ligent">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Marca aquest missatge com a correu brossa">
 <!ENTITY hdrTrashButton1.label "Suprimeix">
 <!ENTITY hdrTrashButton1.tooltip "Suprimeix aquest missatge">
-
 <!ENTITY hdrViewToolbarShowFull.label "Mostra les icones i el text">
 <!ENTITY hdrViewToolbarShowFull.accesskey "a">
 <!ENTITY hdrViewToolbarShowIcons.label "Mostra les icones només">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "t">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Mostra sempre respon al remitent">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "r">
-
 <!ENTITY otherActionsButton2.label "Més">
 <!ENTITY otherActionsButton.tooltip "Més accions">
 <!ENTITY otherActionsOpenConversation1.label "Obre la conversa">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "C">
 <!ENTITY otherActionsPrint1.label "Imprimeix…">
 <!ENTITY otherActionsPrint1.accesskey "I">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Inicialment mostra la subfinestra d'adjuncions">
-<!ENTITY startExpandedCmd.accesskey    "s">
-
+<!ENTITY startExpandedCmd.label "Inicialment mostra la subfinestra d'adjuncions">
+<!ENTITY startExpandedCmd.accesskey "s">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Obre">
-<!ENTITY openAttachmentCmd.accesskey    "O">
-<!ENTITY saveAsAttachmentCmd.label    "Anomena i desa…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "A">
-<!ENTITY detachAttachmentCmd.label    "Separa…">
-<!ENTITY detachAttachmentCmd.accesskey    "p">
-<!ENTITY deleteAttachmentCmd.label    "Suprimeix">
-<!ENTITY deleteAttachmentCmd.accesskey    "x">
-<!ENTITY openAllAttachmentsCmd.label    "Obre-ho tot…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "O">
-<!ENTITY saveAllAttachmentsCmd.label    "Desa-ho tot…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "D">
-<!ENTITY detachAllAttachmentsCmd.label    "Separa-ho tot…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "S">
-<!ENTITY deleteAllAttachmentsCmd.label    "Suprimeix-ho tot…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "u">
-
+<!ENTITY openAttachmentCmd.label "Obre">
+<!ENTITY openAttachmentCmd.accesskey "O">
+<!ENTITY saveAsAttachmentCmd.label "Anomena i desa…">
+<!ENTITY saveAsAttachmentCmd.accesskey "A">
+<!ENTITY detachAttachmentCmd.label "Separa…">
+<!ENTITY detachAttachmentCmd.accesskey "p">
+<!ENTITY deleteAttachmentCmd.label "Suprimeix">
+<!ENTITY deleteAttachmentCmd.accesskey "x">
+<!ENTITY openAllAttachmentsCmd.label "Obre-ho tot…">
+<!ENTITY openAllAttachmentsCmd.accesskey "O">
+<!ENTITY saveAllAttachmentsCmd.label "Desa-ho tot…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "D">
+<!ENTITY detachAllAttachmentsCmd.label "Separa-ho tot…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "S">
+<!ENTITY deleteAllAttachmentsCmd.label "Suprimeix-ho tot…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "u">
 <!ENTITY openAttachment.tooltip "Obre el fitxer adjunt">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Obre la carpeta on es troba">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "b">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Mostra-ho en el Finder">
+<!ENTITY detachedAttachmentFolder.show.label "Obre la carpeta on es troba">
+<!ENTITY detachedAttachmentFolder.show.accesskey "b">
+<!ENTITY detachedAttachmentFolder.showMac.label "Mostra-ho en el Finder">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Desa">
-<!ENTITY saveAttachmentButton1.tooltip     "Desa el fitxer adjunt">
-<!ENTITY saveAllAttachmentsButton1.label   "Desa-ho tot">
+<!ENTITY saveAttachmentButton1.label "Desa">
+<!ENTITY saveAttachmentButton1.tooltip "Desa el fitxer adjunt">
+<!ENTITY saveAllAttachmentsButton1.label "Desa-ho tot">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Desa tots els fitxers adjunts">
-
-<!ENTITY copyLinkCmd.label        "Copia l'enllaç">
-<!ENTITY copyLinkCmd.accesskey    "C">
-
+<!ENTITY copyLinkCmd.label "Copia l'enllaç">
+<!ENTITY copyLinkCmd.accesskey "C">
 <!ENTITY CopyMessageId.label "Copia l'ID-missatge">
 <!ENTITY CopyMessageId.accesskey "C">
 <!ENTITY OpenMessageForMsgId.label "Obre el missatge per ID">

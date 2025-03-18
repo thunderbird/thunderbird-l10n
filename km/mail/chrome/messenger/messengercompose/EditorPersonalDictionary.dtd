@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Անձնական բառարան">
-
 <!ENTITY wordEditField.label "New word:">
 <!ENTITY wordEditField.accessKey "N">
 <!ENTITY AddButton.label "Add">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "W">
 <!ENTITY RemoveButton.label "Remove">
 <!ENTITY RemoveButton.accessKey "e">
-
 <!ENTITY CloseButton.label "Close">
 <!ENTITY CloseButton.accessKey "C">

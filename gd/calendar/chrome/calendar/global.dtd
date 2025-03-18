@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "Am Faoilleach" >
-<!ENTITY month.2.name "An Gearran" >
-<!ENTITY month.3.name "Am Màrt" >
-<!ENTITY month.4.name "An Giblean" >
-<!ENTITY month.5.name "An Cèitean" >
-<!ENTITY month.6.name "An t-Ògmhios" >
-<!ENTITY month.7.name "An t-Iuchar" >
-<!ENTITY month.8.name "An Lùnastal" >
-<!ENTITY month.9.name "An t-Sultain" >
-<!ENTITY month.10.name "An Dàmhair" >
-<!ENTITY month.11.name "An t-Samhain" >
-<!ENTITY month.12.name "An Dùbhlachd" >
-
+<!ENTITY month.1.name "Am Faoilleach">
+<!ENTITY month.2.name "An Gearran">
+<!ENTITY month.3.name "Am Màrt">
+<!ENTITY month.4.name "An Giblean">
+<!ENTITY month.5.name "An Cèitean">
+<!ENTITY month.6.name "An t-Ògmhios">
+<!ENTITY month.7.name "An t-Iuchar">
+<!ENTITY month.8.name "An Lùnastal">
+<!ENTITY month.9.name "An t-Sultain">
+<!ENTITY month.10.name "An Dàmhair">
+<!ENTITY month.11.name "An t-Samhain">
+<!ENTITY month.12.name "An Dùbhlachd">
 <!ENTITY showToday.tooltip "Rach gun latha an-diugh">
 <!ENTITY onedayforward.tooltip "Latha air adhart">
 <!ENTITY onedaybackward.tooltip "Latha air ais">

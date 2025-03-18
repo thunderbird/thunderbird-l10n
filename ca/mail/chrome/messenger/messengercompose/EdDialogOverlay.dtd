@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "f">
 <!ENTITY chooseFileLinkButton.label "Trieu un fitxer...">
 <!ENTITY chooseFileLinkButton.accessKey "r">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Introduïu la ubicació d'una pàgina web, un fitxer local, o seleccioneu una àncora amb nom o capçalera des del menú contextual del camp:">
 <!ENTITY LinkURLEditField2.accessKey "w">

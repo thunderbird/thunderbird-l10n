@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Auðkenni">
 <!ENTITY identityDesc.label "Hver reikningur hefur auðkenni, sem eru þær upplýsingar sem sýna hver þú ert þegar fólk móttekur póst frá þér.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Settu inn nafnið eins og þú vilt láta það birtast í &quot;Frá&quot; svæðinu í póstunum þínum">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(til dæmis, &quot;Jón Jónsson&quot;).">
 <!ENTITY fullnameLabel.label "Nafnið þitt:">
 <!ENTITY fullnameLabel.accesskey "N">
-
 <!ENTITY emailLabel.label "Tölvupóstfang:">
 <!ENTITY emailLabel.accesskey "T">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Settu inn það nafn sem þú vilt nota fyrir þennan reikning (til dæmis, &quot;Vinna&quot;, &quot;Heima&quot; eða &quot;Fréttir&quot;).">
 <!ENTITY accnameLabel.label "Heiti reiknings:">
 <!ENTITY accnameLabel.accesskey "H">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Til hamingju!">
 <!ENTITY completionText.label "Gakktu úr skugga um að eftirfarandi upplýsingar séu réttar.">
 <!ENTITY newsServerNamePrefix.label "Nafn fréttaþjóns (NNTP):">

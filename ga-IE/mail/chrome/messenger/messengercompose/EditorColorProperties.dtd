@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Úsáid dathanna saincheaptha:">
 <!ENTITY customColorsRadio.accessKey "c">
 <!ENTITY customColorsRadio.tooltip "Sáraíonn na socruithe datha seo na socruithe i mbrabhsálaí an léitheora">
-
 <!ENTITY normalText.label "Gnáththéacs">
 <!ENTITY normalText.accessKey "n">
 <!ENTITY linkText.label "Téacs naisc">

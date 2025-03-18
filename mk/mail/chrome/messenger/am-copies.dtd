@@ -10,7 +10,6 @@
 <!ENTITY fccMailFolder.accesskey "п">
 <!ENTITY fccReplyFollowsParent.label "Иста папка како пораката на која се одговара">
 <!ENTITY fccReplyFollowsParent.accesskey "т">
-<!-- LOCALIZATION NOTE (ccAddress.label): do not translate "Cc" in below line -->
 <!-- LOCALIZATION NOTE (bccAddress.label): do not translate "Bcc" in below line -->
 <!ENTITY bccAddress.label "Bcc до овие адреси за е-пошта:">
 <!ENTITY bccAddress.accesskey "B">
@@ -21,7 +20,6 @@
 <!ENTITY sentFolderOn.accesskey "е">
 <!ENTITY sentInOtherFolder.label "Друга:">
 <!ENTITY sentInOtherFolder.accesskey "а">
-<!-- LOCALIZATION NOTE (archivesFolderOn.label): OK to translate this, bug #57440 -->
 <!-- LOCALIZATION NOTE (draftsFolderOn.label): OK to translate this, bug #57440 -->
 <!ENTITY draftsFolderOn.label "Папка со „Скици“ на:">
 <!ENTITY draftsFolderOn.accesskey "С">

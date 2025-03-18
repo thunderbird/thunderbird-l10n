@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Kinuk'ulem Rub'i' Taqoya'l">
-<!ENTITY  accountManagerCloseButton.label "Titz'apïx">
-
+<!ENTITY accountManagerCloseButton.label "Titz'apïx">
 <!ENTITY accountActionsButton.label "Kisamaj Rub'i' Taqoya'l">
 <!ENTITY accountActionsButton.accesskey "T">
 <!ENTITY addMailAccountButton.label "Titz'aqatisäx Mail Rub'i' Taqoya'l…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "K">
 <!ENTITY removeButton.label "Tiyuj Rub'i' Taqoya'l">
 <!ENTITY removeButton.accesskey "y">
-
 <!ENTITY addonsButton.label "Taq k'amal &amp; taq Wachinel">

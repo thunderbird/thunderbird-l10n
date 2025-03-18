@@ -11,7 +11,6 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
 <!ENTITY mainWindow.preface "Källa till: ">
-
 <!ENTITY editMenu.label "Redigera">
 <!ENTITY editMenu.accesskey "R">
 <!ENTITY fileMenu.label "Arkiv">
@@ -25,13 +24,11 @@
 <!ENTITY closeCmd.label "Stäng">
 <!ENTITY closeCmd.accesskey "t">
 <!ENTITY closeCmd.commandkey "W">
-
 <!-- LOCALIZATION NOTE :
-textEnlarge.commandkey3, textReduce.commandkey2 and
-textReset.commandkey2 are alternative acceleration keys for zoom.
-If shift key is needed with your locale popular keyboard for them,
-you can use these alternative items. Otherwise, their values should be empty.  -->
-
+     textEnlarge.commandkey3, textReduce.commandkey2 and
+     textReset.commandkey2 are alternative acceleration keys for zoom.
+     If shift key is needed with your locale popular keyboard for them,
+     you can use these alternative items. Otherwise, their values should be empty. -->
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textEnlarge.commandkey3 "">
@@ -39,13 +36,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReduce.commandkey2 "">
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
-
 <!ENTITY goToLineCmd.label "Gå till rad…">
 <!ENTITY goToLineCmd.accesskey "G">
 <!ENTITY goToLineCmd.commandkey "l">
-
-<!ENTITY viewMenu.label           "Visa">
-<!ENTITY viewMenu.accesskey       "V">
+<!ENTITY viewMenu.label "Visa">
+<!ENTITY viewMenu.accesskey "V">
 <!ENTITY reloadCmd.label "Uppdatera">
 <!ENTITY reloadCmd.accesskey "U">
 <!ENTITY reloadCmd.commandkey "r">
@@ -61,23 +56,20 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReduce.accesskey "M">
 <!ENTITY menu_textReset.label "Normal">
 <!ENTITY menu_textReset.accesskey "N">
-
-<!ENTITY findOnCmd.label     "Sök på den här sidan…">
+<!ENTITY findOnCmd.label "Sök på den här sidan…">
 <!ENTITY findOnCmd.accesskey "S">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Sök igen">
+<!ENTITY findAgainCmd.label "Sök igen">
 <!ENTITY findAgainCmd.accesskey "g">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
-
 <!ENTITY backCmd.label "Tillbaka">
 <!ENTITY backCmd.accesskey "T">
 <!ENTITY forwardCmd.label "Framåt">
 <!ENTITY forwardCmd.accesskey "F">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
-
 <!ENTITY copyLinkCmd.label "Kopiera länkadress">
 <!ENTITY copyLinkCmd.accesskey "n">
 <!ENTITY copyEmailCmd.label "Kopiera e-postadress">

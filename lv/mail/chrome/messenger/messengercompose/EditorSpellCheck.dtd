@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Pārbaudīt rakstību">
-
 <!ENTITY misspelledWord.label "Nepareizs vārds:">
 <!ENTITY wordEditField.label "Aizstāt ar:">
 <!ENTITY wordEditField.accessKey "A">

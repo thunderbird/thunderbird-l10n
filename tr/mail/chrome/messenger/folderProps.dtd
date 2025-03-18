@@ -2,18 +2,16 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY folderProps.windowtitle.label           "Özellikler">
-
-<!ENTITY generalInfo.label                       "Genel bilgiler">
-<!ENTITY folderRebuildSummaryFileTip2.label      "Özet dosyası dizinini yeniden oluştur">
-<!ENTITY folderRebuildSummaryFile2.label         "Klasörü onar">
-<!ENTITY folderRebuildSummaryFile2.accesskey     "r">
-<!ENTITY folderRebuildSummaryFile.explanation    "Bazen klasörün dizin dosyası (.msf) hasar gördüğü için iletiler eksik görünebilir veya silinmiş iletiler görünmeye devam edebilir. Klasörü onarmak bu sorunları çözebilir.">
-<!ENTITY folderIncludeInGlobalSearch.label       "Bu klasördeki iletileri global arama sonuçlarına dahil et">
-<!ENTITY folderIncludeInGlobalSearch.accesskey   "o">
-
+<!ENTITY folderProps.windowtitle.label "Özellikler">
+<!ENTITY generalInfo.label "Genel bilgiler">
+<!ENTITY folderRebuildSummaryFileTip2.label "Özet dosyası dizinini yeniden oluştur">
+<!ENTITY folderRebuildSummaryFile2.label "Klasörü onar">
+<!ENTITY folderRebuildSummaryFile2.accesskey "r">
+<!ENTITY folderRebuildSummaryFile.explanation "Bazen klasörün dizin dosyası (.msf) hasar gördüğü için iletiler eksik görünebilir veya silinmiş iletiler görünmeye devam edebilir. Klasörü onarmak bu sorunları çözebilir.">
+<!ENTITY folderIncludeInGlobalSearch.label "Bu klasördeki iletileri global arama sonuçlarına dahil et">
+<!ENTITY folderIncludeInGlobalSearch.accesskey "o">
 <!ENTITY retention.label "Kayıt ilkeleri">
-<!ENTITY retentionUseAccount.label  "Hesap ayarlarımı kullan">
+<!ENTITY retentionUseAccount.label "Hesap ayarlarımı kullan">
 <!ENTITY retentionUseAccount.accesskey "H">
 <!ENTITY daysOld.label "günden eski ise sil">
 <!ENTITY message.label "ileti dışındakileri sil">
@@ -28,43 +26,36 @@
 <!ENTITY retentionKeepRecent.accesskey "S">
 <!ENTITY retentionApplyToFlagged.label "Yıldızlı iletileri hiçbir zaman silme">
 <!ENTITY retentionApplyToFlagged.accesskey "Y">
-
-<!ENTITY folderSynchronizationTab.label          "Eşitleme">
-<!ENTITY folderCheckForNewMessages2.label         "Bu hesap için yeni ileti alırken her zaman bu klasörü denetle">
-<!ENTITY folderCheckForNewMessages2.accesskey     "y">
-
-<!ENTITY offlineFolder.check.label               "Bu klasörü çevrimdışı kullanım için seç">
-<!ENTITY offlineFolder.check.accesskey           "v">
-<!ENTITY offlineFolder.button.label              "Şimdi indir">
-<!ENTITY offlineFolder.button.accesskey          "d">
-
-<!ENTITY selectofflineNewsgroup.check.label      "Bu haber grubunu çevrimdışı kullanımı için seç">
-<!ENTITY selectofflineNewsgroup.check.accesskey  "u">
-<!ENTITY offlineNewsgroup.button.label           "Şimdi indir">
-<!ENTITY offlineNewsgroup.button.accesskey       "d">
-
-<!ENTITY folderProps.name.label                  "Ad:">
-<!ENTITY folderProps.name.accesskey              "A">
-<!ENTITY folderProps.color.label                 "Simge rengi:">
-<!ENTITY folderProps.color.accesskey             "n">
-<!ENTITY folderProps.reset.tooltip               "Varsayılan rengi geri yükle">
-<!ENTITY folderProps.location.label              "Konum:">
-<!ENTITY folderProps.location.accesskey          "m">
-
-<!ENTITY folderSharingTab.label                  "Paylaşım">
-<!ENTITY privileges.button.label                 "Öncelikli haklar…">
-<!ENTITY privileges.button.accesskey             "h">
-<!ENTITY permissionsDesc.label                   "Aşağıdaki izinlere sahipsiniz:">
-<!ENTITY folderOtherUsers.label                  "Bu klasöre erişimi olan diğerleri:">
-<!ENTITY folderType.label                        "Klasör türü:">
-
-<!ENTITY folderQuotaTab.label                    "Kota">
-<!ENTITY folderQuotaUsage.label                  "Kullanım:">
-<!ENTITY folderQuotaStatus.label                 "Durum:">
-
-<!ENTITY numberOfMessages.label                  "İleti sayısı:">
+<!ENTITY folderSynchronizationTab.label "Eşitleme">
+<!ENTITY folderCheckForNewMessages2.label "Bu hesap için yeni ileti alırken her zaman bu klasörü denetle">
+<!ENTITY folderCheckForNewMessages2.accesskey "y">
+<!ENTITY offlineFolder.check.label "Bu klasörü çevrimdışı kullanım için seç">
+<!ENTITY offlineFolder.check.accesskey "v">
+<!ENTITY offlineFolder.button.label "Şimdi indir">
+<!ENTITY offlineFolder.button.accesskey "d">
+<!ENTITY selectofflineNewsgroup.check.label "Bu haber grubunu çevrimdışı kullanımı için seç">
+<!ENTITY selectofflineNewsgroup.check.accesskey "u">
+<!ENTITY offlineNewsgroup.button.label "Şimdi indir">
+<!ENTITY offlineNewsgroup.button.accesskey "d">
+<!ENTITY folderProps.name.label "Ad:">
+<!ENTITY folderProps.name.accesskey "A">
+<!ENTITY folderProps.color.label "Simge rengi:">
+<!ENTITY folderProps.color.accesskey "n">
+<!ENTITY folderProps.reset.tooltip "Varsayılan rengi geri yükle">
+<!ENTITY folderProps.location.label "Konum:">
+<!ENTITY folderProps.location.accesskey "m">
+<!ENTITY folderSharingTab.label "Paylaşım">
+<!ENTITY privileges.button.label "Öncelikli haklar…">
+<!ENTITY privileges.button.accesskey "h">
+<!ENTITY permissionsDesc.label "Aşağıdaki izinlere sahipsiniz:">
+<!ENTITY folderOtherUsers.label "Bu klasöre erişimi olan diğerleri:">
+<!ENTITY folderType.label "Klasör türü:">
+<!ENTITY folderQuotaTab.label "Kota">
+<!ENTITY folderQuotaUsage.label "Kullanım:">
+<!ENTITY folderQuotaStatus.label "Durum:">
+<!ENTITY numberOfMessages.label "İleti sayısı:">
 <!-- LOCALIZATION NOTE: When the number of messages can't be determined, this string is displayed as the number -->
-<!ENTITY numberUnknown.label                     "bilinmiyor">
-<!ENTITY sizeOnDisk.label                        "Diskteki boyut:">
+<!ENTITY numberUnknown.label "bilinmiyor">
+<!ENTITY sizeOnDisk.label "Diskteki boyut:">
 <!-- LOCALIZATION NOTE: When the size can't be determined, this string is displayed as the size -->
-<!ENTITY sizeUnknown.label                       "bilinmiyor">
+<!ENTITY sizeUnknown.label "bilinmiyor">

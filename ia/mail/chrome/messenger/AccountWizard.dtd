@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Identitate">
 <!ENTITY identityDesc.label "Cata conto ha un identitate, que es le informationes que te identifica al alteres quando illes recipe tu messages.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Scribe le nomine que apparera in le campo &quot;De:&quot; del messages a inviar">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(per exemplo, &quot;Julio Cesare&quot;).">
 <!ENTITY fullnameLabel.label "Tu nomine:">
 <!ENTITY fullnameLabel.accesskey "T">
-
 <!ENTITY emailLabel.label "Adresse de e-mail:">
 <!ENTITY emailLabel.accesskey "e">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Insere le nomine que identifica iste conto (p.ex. &quot;Conto professional&quot;, &quot;Conto personal&quot; o &quot;Conto de gruppos&quot;).">
 <!ENTITY accnameLabel.label "Nomine del conto:">
 <!ENTITY accnameLabel.accesskey "C">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Congratulationes!">
 <!ENTITY completionText.label "Verifica que le information infra es correcte.">
 <!ENTITY newsServerNamePrefix.label "Nomine del servitor de gruppos (NNTP):">

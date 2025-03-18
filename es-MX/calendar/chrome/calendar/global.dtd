@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "Enero" >
-<!ENTITY month.2.name "Febrero" >
-<!ENTITY month.3.name "Marzo" >
-<!ENTITY month.4.name "Abril" >
-<!ENTITY month.5.name "Mayo" >
-<!ENTITY month.6.name "Junio" >
-<!ENTITY month.7.name "Julio" >
-<!ENTITY month.8.name "Agosto" >
-<!ENTITY month.9.name "Septiembre" >
-<!ENTITY month.10.name "Octubre" >
-<!ENTITY month.11.name "Noviembre" >
-<!ENTITY month.12.name "Diciembre" >
-
+<!ENTITY month.1.name "Enero">
+<!ENTITY month.2.name "Febrero">
+<!ENTITY month.3.name "Marzo">
+<!ENTITY month.4.name "Abril">
+<!ENTITY month.5.name "Mayo">
+<!ENTITY month.6.name "Junio">
+<!ENTITY month.7.name "Julio">
+<!ENTITY month.8.name "Agosto">
+<!ENTITY month.9.name "Septiembre">
+<!ENTITY month.10.name "Octubre">
+<!ENTITY month.11.name "Noviembre">
+<!ENTITY month.12.name "Diciembre">
 <!ENTITY showToday.tooltip "Ir al día de hoy">
 <!ENTITY onedayforward.tooltip "Un día después">
 <!ENTITY onedaybackward.tooltip "Un día atrás">

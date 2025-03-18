@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Χρήση προσαρμοσμένων χρωμάτων:">
 <!ENTITY customColorsRadio.accessKey "π">
 <!ENTITY customColorsRadio.tooltip "Αυτές οι ρυθμίσεις χρωμάτων αντικαθιστούν τις ρυθμίσεις του προγράμματος περιήγησης">
-
 <!ENTITY normalText.label "Κανονικό κείμενο">
 <!ENTITY normalText.accessKey "ν">
 <!ENTITY linkText.label "Κείμενο συνδέσμου">

@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Futni Matematikë">
-
 <!ENTITY sourceEditField.label "Jepni kod burim LaTeX:">
-
 <!ENTITY options.label "Mundësi">
 <!ENTITY optionInline.label "Mënyra brendazi">
 <!ENTITY optionInline.accesskey "b">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "m">
 <!ENTITY optionRTL.label "Nga e djathta në të majtë">
 <!ENTITY optionRTL.accesskey "d">
-
 <!ENTITY insertButton.label "Fute">
 <!ENTITY insertButton.accesskey "F">

@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Awitay">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Ddu ɣer yiccer n uwitay">
+<!ENTITY lightning.toolbar.calendar.label "Awitay">
+<!ENTITY lightning.toolbar.calendar.tooltip "Ddu ɣer yiccer n uwitay">
 <!ENTITY lightning.toolbar.calendar.accesskey "w">
-<!ENTITY lightning.toolbar.task.label         "Tiwuriwin">
-<!ENTITY lightning.toolbar.task.tooltip       "Ddu ɣer yiccer n twuriwin">
-<!ENTITY lightning.toolbar.task.accesskey     "i">
-
+<!ENTITY lightning.toolbar.task.label "Tiwuriwin">
+<!ENTITY lightning.toolbar.task.tooltip "Ddu ɣer yiccer n twuriwin">
+<!ENTITY lightning.toolbar.task.accesskey "i">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Ass">
-<!ENTITY lightning.toolbar.day.accesskey             "s">
-<!ENTITY lightning.toolbar.week.label                "Dduṛt">
-<!ENTITY lightning.toolbar.week.accesskey            "D">
-<!ENTITY lightning.toolbar.multiweek.label           "Aget n dduṛtat">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "u">
-<!ENTITY lightning.toolbar.month.label               "Aggur">
-<!ENTITY lightning.toolbar.month.accesskey           "g">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Agalis n uwitay">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "l">
-<!ENTITY lightning.toolbar.calendarpane.label        "Sken agalis n uwitay">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "w">
+<!ENTITY lightning.toolbar.day.label "Ass">
+<!ENTITY lightning.toolbar.day.accesskey "s">
+<!ENTITY lightning.toolbar.week.label "Dduṛt">
+<!ENTITY lightning.toolbar.week.accesskey "D">
+<!ENTITY lightning.toolbar.multiweek.label "Aget n dduṛtat">
+<!ENTITY lightning.toolbar.multiweek.accesskey "u">
+<!ENTITY lightning.toolbar.month.label "Aggur">
+<!ENTITY lightning.toolbar.month.accesskey "g">
+<!ENTITY lightning.toolbar.calendarmenu.label "Agalis n uwitay">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "l">
+<!ENTITY lightning.toolbar.calendarpane.label "Sken agalis n uwitay">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "w">

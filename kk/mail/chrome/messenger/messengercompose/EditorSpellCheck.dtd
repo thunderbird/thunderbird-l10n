@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Емлені тексеру">
-
 <!ENTITY misspelledWord.label "Қате жазылған сөз:">
 <!ENTITY wordEditField.label "Немен алмастыру:">
 <!ENTITY wordEditField.accessKey "е">

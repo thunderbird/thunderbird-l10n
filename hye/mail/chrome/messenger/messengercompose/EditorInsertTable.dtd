@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Տեղադրել աղիւսակ">
-
 <!ENTITY size.label "Չափ">
 <!ENTITY numRowsEditField.label "Տողեր:">
 <!ENTITY numRowsEditField.accessKey "Տ">

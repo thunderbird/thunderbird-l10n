@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Insert Math">
-
 <!ENTITY sourceEditField.label "Enter LaTeX source code:">
-
 <!ENTITY options.label "Options">
 <!ENTITY optionInline.label "Inline mode">
 <!ENTITY optionInline.accesskey "N">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "L">
 <!ENTITY optionRTL.label "Right-to-left direction">
 <!ENTITY optionRTL.accesskey "R">
-
 <!ENTITY insertButton.label "Insert">
 <!ENTITY insertButton.accesskey "I">

@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Infoga Formel">
-
 <!ENTITY sourceEditField.label "Skriv in LaTeX-källkoden:">
-
 <!ENTITY options.label "Inställningar">
 <!ENTITY optionInline.label "Infogat läge">
 <!ENTITY optionInline.accesskey "N">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "v">
 <!ENTITY optionRTL.label "Läsriktning höger till vänster">
 <!ENTITY optionRTL.accesskey "h">
-
 <!ENTITY insertButton.label "Infoga">
 <!ENTITY insertButton.accesskey "I">

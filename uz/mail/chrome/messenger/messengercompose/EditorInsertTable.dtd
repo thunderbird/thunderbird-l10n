@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Jadval kiritish">
-
 <!ENTITY size.label "Hajmi">
 <!ENTITY numRowsEditField.label "Qatorlar:">
 <!ENTITY numRowsEditField.accessKey "Q">

@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "j">
 <!ENTITY syncGroupTitle.label "Menyelaraskan Mesej">
 <!ENTITY diskspaceGroupTitle.label "Ruang Cakera">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Selaras semua mesej lokal tanpa mengira tempoh">
-<!ENTITY allAutosync.accesskey           "r">
-<!ENTITY ageAutosyncBefore.label         "Selaras yang terkini">
-<!ENTITY ageAutosync.accesskey           "y">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "Hari">
-<!ENTITY weekAgeInterval.label           "Minggu">
-<!ENTITY monthAgeInterval.label          "Bulan">
-<!ENTITY yearAgeInterval.label           "Tahun">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Selaras semua mesej lokal tanpa mengira tempoh">
+<!ENTITY allAutosync.accesskey "r">
+<!ENTITY ageAutosyncBefore.label "Selaras yang terkini">
+<!ENTITY ageAutosync.accesskey "y">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "Hari">
+<!ENTITY weekAgeInterval.label "Minggu">
+<!ENTITY monthAgeInterval.label "Bulan">
+<!ENTITY yearAgeInterval.label "Tahun">
+<!ENTITY ageAutosyncAfter.label "">

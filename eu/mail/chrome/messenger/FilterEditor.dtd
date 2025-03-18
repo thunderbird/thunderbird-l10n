@@ -5,16 +5,13 @@
 <!ENTITY window.title "Iragazkien arauak">
 <!ENTITY filterName.label "Iragazkiaren izena:">
 <!ENTITY filterName.accesskey "I">
-
 <!ENTITY junk.label "Zaborra">
 <!ENTITY notJunk.label "Ez da zaborra">
-
 <!ENTITY lowestPriorityCmd.label "Baxuena">
 <!ENTITY lowPriorityCmd.label "Baxua">
 <!ENTITY normalPriorityCmd.label "Ertaina">
 <!ENTITY highPriorityCmd.label "Altua">
 <!ENTITY highestPriorityCmd.label "Altuena">
-
 <!ENTITY contextDesc.label "Iragazkia noiz aplikatu:">
 <!ENTITY contextIncomingMail.label "Posta berria eskuratzea:">
 <!ENTITY contextIncomingMail.accesskey "b">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "Artxibatzen">
 <!ENTITY contextArchive.accesskey "A">
 <!ENTITY contextPeriodic.accesskey "e">
-
 <!ENTITY filterActionDesc.label "Burutu ekintza hauek:">
 <!ENTITY filterActionDesc.accesskey "B">
-
 <!ENTITY filterActionOrderWarning.label "Oharra: iragazte-ekintzak beste ordena batean exekutatuko dira.">
 <!ENTITY filterActionOrder.label "Ikusi exekuzio-ordena">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Mugitu mezua hona:">
 <!ENTITY copyMessage.label "Kopiatu mezua hona:">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Ezikusi azpiharia">
 <!ENTITY watchThread.label "Ikusi haria">
 <!ENTITY stopExecution.label "Gelditu iragazkiaren exekuzioa">
-
 <!ENTITY addAction.tooltip "Gehitu ekintza berria">
 <!ENTITY removeAction.tooltip "Kendu ekintza hau">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

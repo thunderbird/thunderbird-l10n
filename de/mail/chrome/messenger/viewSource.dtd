@@ -11,7 +11,6 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
 <!ENTITY mainWindow.preface "Quelltext von: ">
-
 <!ENTITY editMenu.label "Bearbeiten">
 <!ENTITY editMenu.accesskey "B">
 <!ENTITY fileMenu.label "Datei">
@@ -25,13 +24,11 @@
 <!ENTITY closeCmd.label "Schließen">
 <!ENTITY closeCmd.accesskey "c">
 <!ENTITY closeCmd.commandkey "W">
-
 <!-- LOCALIZATION NOTE :
-textEnlarge.commandkey3, textReduce.commandkey2 and
-textReset.commandkey2 are alternative acceleration keys for zoom.
-If shift key is needed with your locale popular keyboard for them,
-you can use these alternative items. Otherwise, their values should be empty.  -->
-
+     textEnlarge.commandkey3, textReduce.commandkey2 and
+     textReset.commandkey2 are alternative acceleration keys for zoom.
+     If shift key is needed with your locale popular keyboard for them,
+     you can use these alternative items. Otherwise, their values should be empty. -->
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textEnlarge.commandkey3 "">
@@ -39,13 +36,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReduce.commandkey2 "">
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
-
 <!ENTITY goToLineCmd.label "Zu Zeile springen…">
 <!ENTITY goToLineCmd.accesskey "G">
 <!ENTITY goToLineCmd.commandkey "l">
-
-<!ENTITY viewMenu.label           "Ansicht">
-<!ENTITY viewMenu.accesskey       "A">
+<!ENTITY viewMenu.label "Ansicht">
+<!ENTITY viewMenu.accesskey "A">
 <!ENTITY reloadCmd.label "Neu laden">
 <!ENTITY reloadCmd.accesskey "N">
 <!ENTITY reloadCmd.commandkey "r">
@@ -61,23 +56,20 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReduce.accesskey "k">
 <!ENTITY menu_textReset.label "Normal">
 <!ENTITY menu_textReset.accesskey "N">
-
-<!ENTITY findOnCmd.label     "Quelltext durchsuchen…">
+<!ENTITY findOnCmd.label "Quelltext durchsuchen…">
 <!ENTITY findOnCmd.accesskey "d">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Weitersuchen">
+<!ENTITY findAgainCmd.label "Weitersuchen">
 <!ENTITY findAgainCmd.accesskey "s">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
-
 <!ENTITY backCmd.label "Zurück">
 <!ENTITY backCmd.accesskey "Z">
 <!ENTITY forwardCmd.label "Vor">
 <!ENTITY forwardCmd.accesskey "V">
 <!ENTITY goBackCmd.commandKey "Ö">
 <!ENTITY goForwardCmd.commandKey "Ä">
-
 <!ENTITY copyLinkCmd.label "Link-Adresse kopieren">
 <!ENTITY copyLinkCmd.accesskey "L">
 <!ENTITY copyEmailCmd.label "E-Mail-Addresse kopieren">

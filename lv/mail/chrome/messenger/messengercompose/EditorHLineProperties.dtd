@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Horizontālās līnijas īpašības">
-
 <!ENTITY dimensionsBox.label "Izmēri">
 <!ENTITY heightEditField.label "Augstums:">
 <!ENTITY heightEditField.accessKey "A">
@@ -19,7 +17,6 @@
 <!ENTITY centerRadio.accessKey "C">
 <!ENTITY rightRadio.label "Pa labi">
 <!ENTITY rightRadio.accessKey "l">
-
 <!ENTITY threeDShading.label "3-D ēnojums">
 <!ENTITY threeDShading.accessKey "d">
 <!ENTITY saveSettings.label "Lietot kā noklusēto">

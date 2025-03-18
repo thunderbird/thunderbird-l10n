@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Proprietates del imagine">
-
 <!ENTITY pixelsPopup.value "pixels">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Adresse del imagine:">
 <!ENTITY locationEditField.accessKey "А">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Typo de texto a monstrar in loco del imagine">
 <!ENTITY noAltText.label "Non usar texto alternative">
 <!ENTITY noAltText.accessKey "N">
-
 <!ENTITY previewBox.label "Vista preliminar del imagine">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Dimension actual:">
 <!ENTITY actualSizeRadio.label "Dimension actual">
 <!ENTITY actualSizeRadio.accessKey "A">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Restringer">
 <!ENTITY constrainCheckbox.accessKey "R">
 <!ENTITY constrainCheckbox.tooltip "Mantener le proportiones del imagine">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Mappa imagine">
 <!ENTITY removeImageMapButton.label "Remover">
 <!ENTITY removeImageMapButton.accessKey "R">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Alinear texto a imagine">
 <!ENTITY bottomPopup.value "Al base">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "In centro">
 <!ENTITY wrapRightPopup.value "Incapsular a dextra">
 <!ENTITY wrapLeftPopup.value "Incapsular a sinistra">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Spatiamento">
 <!ENTITY leftRightEditField.label "Sinistra e dextra:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "C">
 <!ENTITY borderEditField.label "Bordo plen:">
 <!ENTITY borderEditField.accessKey "B">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Monstrar bordo circum imagine ligate">
 <!ENTITY showImageLinkBorder.accessKey "b">
 <!ENTITY LinkAdvancedEditButton.label "Redaction avantiate del ligamine…">
 <!ENTITY LinkAdvancedEditButton.accessKey "l">
 <!ENTITY LinkAdvancedEditButton.tooltip "Adder o modificar attributos HTML, attributos de stilo e JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Formulario">
 <!ENTITY imageLocationTab.label "Position">

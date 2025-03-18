@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "Հունվար" >
-<!ENTITY month.2.name "Փետրվար" >
-<!ENTITY month.3.name "Մարտ" >
-<!ENTITY month.4.name "Ապրիլ" >
-<!ENTITY month.5.name "Մայիս" >
-<!ENTITY month.6.name "Հունիս" >
-<!ENTITY month.7.name "Հուլիս" >
-<!ENTITY month.8.name "Օգոստոս" >
-<!ENTITY month.9.name "Սեպտեմբեր" >
-<!ENTITY month.10.name "Հոկտեմբեր" >
-<!ENTITY month.11.name "Նոյեմբեր" >
-<!ENTITY month.12.name "Դեկտեմբեր" >
-
+<!ENTITY month.1.name "Հունվար">
+<!ENTITY month.2.name "Փետրվար">
+<!ENTITY month.3.name "Մարտ">
+<!ENTITY month.4.name "Ապրիլ">
+<!ENTITY month.5.name "Մայիս">
+<!ENTITY month.6.name "Հունիս">
+<!ENTITY month.7.name "Հուլիս">
+<!ENTITY month.8.name "Օգոստոս">
+<!ENTITY month.9.name "Սեպտեմբեր">
+<!ENTITY month.10.name "Հոկտեմբեր">
+<!ENTITY month.11.name "Նոյեմբեր">
+<!ENTITY month.12.name "Դեկտեմբեր">
 <!ENTITY showToday.tooltip "Գնալ այսօրվան">
 <!ENTITY onedayforward.tooltip "Մեկ օր հետո">
 <!ENTITY onedaybackward.tooltip "Մեկ օր առաջ">

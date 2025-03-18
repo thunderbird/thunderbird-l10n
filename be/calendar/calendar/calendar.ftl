@@ -387,7 +387,7 @@ event-duration-menuitem-count-weeks =
 # $count (Number) - Number of minutes used to determine the correct plural form.
 event-duration-menuitem-minutes =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] хвіліна
             [few] хвіліны
            *[many] хвілін
@@ -398,7 +398,7 @@ event-duration-label-minutes =
 # $count (Number) - Number of hours used to determine the correct plural form.
 event-duration-menuitem-hours =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] гадзіна
             [few] гадзіны
            *[many] гадзін
@@ -409,7 +409,7 @@ event-duration-label-hours =
 # $count (Number) - Number of days used to determine the correct plural form.
 event-duration-menuitem-days =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] дзень
             [few] дні
            *[many] дзён
@@ -420,7 +420,7 @@ event-duration-label-days =
 # $count (Number) - Number of weeks used to determine the correct plural form.
 event-duration-menuitem-weeks =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] тыдзень
             [few] тыдні
            *[many] тыдняў

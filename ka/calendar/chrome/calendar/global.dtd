@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "იანვარი" >
-<!ENTITY month.2.name "თებერვალი" >
-<!ENTITY month.3.name "მარტი" >
-<!ENTITY month.4.name "აპრილი" >
-<!ENTITY month.5.name "მაისი" >
-<!ENTITY month.6.name "ივნისი" >
-<!ENTITY month.7.name "ივლისი" >
-<!ENTITY month.8.name "აგვისტო" >
-<!ENTITY month.9.name "სექტემბერი" >
-<!ENTITY month.10.name "ოქტომბერი" >
-<!ENTITY month.11.name "ნოემბერი" >
-<!ENTITY month.12.name "დეკემებერი" >
-
+<!ENTITY month.1.name "იანვარი">
+<!ENTITY month.2.name "თებერვალი">
+<!ENTITY month.3.name "მარტი">
+<!ENTITY month.4.name "აპრილი">
+<!ENTITY month.5.name "მაისი">
+<!ENTITY month.6.name "ივნისი">
+<!ENTITY month.7.name "ივლისი">
+<!ENTITY month.8.name "აგვისტო">
+<!ENTITY month.9.name "სექტემბერი">
+<!ENTITY month.10.name "ოქტომბერი">
+<!ENTITY month.11.name "ნოემბერი">
+<!ENTITY month.12.name "დეკემებერი">
 <!ENTITY showToday.tooltip "დღეს">
 <!ENTITY onedayforward.tooltip "ერთი დღით შემდგომ">
 <!ENTITY onedaybackward.tooltip "ერთი დღით წინ">

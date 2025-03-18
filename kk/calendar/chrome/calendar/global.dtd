@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "Қаңтар" >
-<!ENTITY month.2.name "Ақпан" >
-<!ENTITY month.3.name "Наурыз" >
-<!ENTITY month.4.name "Сәуір" >
-<!ENTITY month.5.name "Мамыр" >
-<!ENTITY month.6.name "Маусым" >
-<!ENTITY month.7.name "Шілде" >
-<!ENTITY month.8.name "Тамыз" >
-<!ENTITY month.9.name "Қыркүйек" >
-<!ENTITY month.10.name "Қазан" >
-<!ENTITY month.11.name "Қараша" >
-<!ENTITY month.12.name "Желтоқсан" >
-
+<!ENTITY month.1.name "Қаңтар">
+<!ENTITY month.2.name "Ақпан">
+<!ENTITY month.3.name "Наурыз">
+<!ENTITY month.4.name "Сәуір">
+<!ENTITY month.5.name "Мамыр">
+<!ENTITY month.6.name "Маусым">
+<!ENTITY month.7.name "Шілде">
+<!ENTITY month.8.name "Тамыз">
+<!ENTITY month.9.name "Қыркүйек">
+<!ENTITY month.10.name "Қазан">
+<!ENTITY month.11.name "Қараша">
+<!ENTITY month.12.name "Желтоқсан">
 <!ENTITY showToday.tooltip "Бүгінге өту">
 <!ENTITY onedayforward.tooltip "Бір күн алға">
 <!ENTITY onedaybackward.tooltip "Бір күн артқа">

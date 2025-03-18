@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Propriétés des lignes horizontales">
-
 <!ENTITY dimensionsBox.label "Dimensions">
 <!ENTITY heightEditField.label "Hauteur :">
 <!ENTITY heightEditField.accessKey "H">
@@ -19,7 +17,6 @@
 <!ENTITY centerRadio.accessKey "c">
 <!ENTITY rightRadio.label "À droite">
 <!ENTITY rightRadio.accessKey "d">
-
 <!ENTITY threeDShading.label "Ombrage 3D">
 <!ENTITY threeDShading.accessKey "O">
 <!ENTITY saveSettings.label "Enregistrer les paramètres">

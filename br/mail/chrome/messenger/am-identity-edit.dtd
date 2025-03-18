@@ -1,12 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY settingsTab.label       "Arventennoù">
+<!ENTITY settingsTab.label "Arventennoù">
 <!ENTITY copiesFoldersTab.label "Eiladoù ha teuliadoù">
-<!ENTITY addressingTab.label    "Aozañ ha chomlec'hiañ">
-
-<!ENTITY publicData.label        "Roadennoù foran">
-<!ENTITY privateData.label       "Roadennoù prevez">
-<!ENTITY identityAlias.label     "Skritellig naoudi:">
+<!ENTITY addressingTab.label "Aozañ ha chomlec'hiañ">
+<!ENTITY publicData.label "Roadennoù foran">
+<!ENTITY privateData.label "Roadennoù prevez">
+<!ENTITY identityAlias.label "Skritellig naoudi:">
 <!ENTITY identityAlias.accesskey "n">

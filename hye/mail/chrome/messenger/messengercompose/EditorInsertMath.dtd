@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Տեղադրել Math">
-
 <!ENTITY sourceEditField.label "Մուտքագրէք LaTeX աղբեւրի կոդը:">
-
 <!ENTITY options.label "Կարգաւորումներ">
 <!ENTITY optionInline.label "Ներքին աշխատակերպ">
 <!ENTITY optionInline.accesskey "ե">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "Ձ">
 <!ENTITY optionRTL.label "Աջից ձախ ուղղութեամբ">
 <!ENTITY optionRTL.accesskey "Ա">
-
 <!ENTITY insertButton.label "Տեղադրել">
 <!ENTITY insertButton.accesskey "Ն">

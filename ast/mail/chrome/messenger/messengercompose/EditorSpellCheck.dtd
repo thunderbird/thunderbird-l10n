@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Revisar ortografía">
-
 <!ENTITY misspelledWord.label "Pallabra mal escrita:">
 <!ENTITY wordEditField.label "Trocar con:">
 <!ENTITY wordEditField.accessKey "c">

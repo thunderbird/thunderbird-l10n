@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "E">
 <!ENTITY syncGroupTitle.label "Kirjade sünkroniseerimine">
 <!ENTITY diskspaceGroupTitle.label "Kettaruum">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Olenemata vanusest sünkroniseeritakse kõik kirjad">
-<!ENTITY allAutosync.accesskey           "O">
-<!ENTITY ageAutosyncBefore.label         "Sünkroniseeritakse viimase">
-<!ENTITY ageAutosync.accesskey           "S">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "päeva">
-<!ENTITY weekAgeInterval.label           "nädala">
-<!ENTITY monthAgeInterval.label          "kuu">
-<!ENTITY yearAgeInterval.label           "aasta">
-<!ENTITY ageAutosyncAfter.label          "kirjad">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Olenemata vanusest sünkroniseeritakse kõik kirjad">
+<!ENTITY allAutosync.accesskey "O">
+<!ENTITY ageAutosyncBefore.label "Sünkroniseeritakse viimase">
+<!ENTITY ageAutosync.accesskey "S">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "päeva">
+<!ENTITY weekAgeInterval.label "nädala">
+<!ENTITY monthAgeInterval.label "kuu">
+<!ENTITY yearAgeInterval.label "aasta">
+<!ENTITY ageAutosyncAfter.label "kirjad">

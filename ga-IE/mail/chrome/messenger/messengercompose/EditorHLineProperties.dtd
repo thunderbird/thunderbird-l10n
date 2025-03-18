@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Airíonna Líne Cothrománaí">
-
 <!ENTITY dimensionsBox.label "Toisí">
 <!ENTITY heightEditField.label "Airde:">
 <!ENTITY heightEditField.accessKey "d">
@@ -19,7 +17,6 @@
 <!ENTITY centerRadio.accessKey "L">
 <!ENTITY rightRadio.label "Ar Dheis">
 <!ENTITY rightRadio.accessKey "D">
-
 <!ENTITY threeDShading.label "Scáthú 3T">
 <!ENTITY threeDShading.accessKey "S">
 <!ENTITY saveSettings.label "Úsáid mar Réamhshocrú">

@@ -1,10 +1,9 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY providerUninstall.title                           "Выдаліць дастаўніка паслуг">
-<!ENTITY providerUninstall.accept.label                    "Адпісацца ад выбранага">
-<!ENTITY providerUninstall.accept.accesskey                "А">
-<!ENTITY providerUninstall.preName.label                   "Вы запыталі выдаленне або адключэнне:">
-<!ENTITY providerUninstall.postName.label                  "Гэта прывядзе да таго, што календары ніжэй будуць адключаны.">
-<!ENTITY providerUninstall.reinstallNote.label             "Калі вы не плануеце пераўсталёўваць гэтага дастаўніка паслуг, вы можаце адпісацца ад яго календароў.">
+<!ENTITY providerUninstall.title "Выдаліць дастаўніка паслуг">
+<!ENTITY providerUninstall.accept.label "Адпісацца ад выбранага">
+<!ENTITY providerUninstall.accept.accesskey "А">
+<!ENTITY providerUninstall.preName.label "Вы запыталі выдаленне або адключэнне:">
+<!ENTITY providerUninstall.postName.label "Гэта прывядзе да таго, што календары ніжэй будуць адключаны.">
+<!ENTITY providerUninstall.reinstallNote.label "Калі вы не плануеце пераўсталёўваць гэтага дастаўніка паслуг, вы можаце адпісацца ад яго календароў.">

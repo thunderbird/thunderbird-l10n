@@ -1,14 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY biffAll.label                 "Tüm beslemelerde güncellemeleri etkinleştir">
-<!ENTITY biffAll.accesskey             "e">
-
-<!ENTITY newFeedSettings.label         "Haber beslemeleri için varsayılan ayarlar">
-
-<!ENTITY manageSubscriptions.label     "Abonelikleri yönet…">
+<!ENTITY biffAll.label "Tüm beslemelerde güncellemeleri etkinleştir">
+<!ENTITY biffAll.accesskey "e">
+<!ENTITY newFeedSettings.label "Haber beslemeleri için varsayılan ayarlar">
+<!ENTITY manageSubscriptions.label "Abonelikleri yönet…">
 <!ENTITY manageSubscriptions.accesskey "A">
-
-<!ENTITY feedWindowTitle.label         "Besleme Hesabı Sihirbazı">
-<!ENTITY feeds.accountName             "Bloglar ve Beslemeler">
+<!ENTITY feedWindowTitle.label "Besleme Hesabı Sihirbazı">
+<!ENTITY feeds.accountName "Bloglar ve Beslemeler">

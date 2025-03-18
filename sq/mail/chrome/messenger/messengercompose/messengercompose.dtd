@@ -2,9 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!--LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
+<!-- LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
 <!ENTITY msgComposeWindow.title "Shkruani: (pa subjekt)">
-
 <!-- File Menu -->
 <!ENTITY fileMenu.label "Kartelë">
 <!ENTITY fileMenu.accesskey "K">
@@ -46,7 +45,6 @@
 <!ENTITY printCmd.label "Shtypni…">
 <!ENTITY printCmd.key "P">
 <!ENTITY printCmd.accesskey "S">
-
 <!-- Edit Menu -->
 <!ENTITY editMenu.label "Përpunim">
 <!ENTITY editMenu.accesskey "P">
@@ -86,11 +84,9 @@
 <!ENTITY findPrevCmd.accesskey "m">
 <!ENTITY findPrevCmd.key "G">
 <!ENTITY findPrevCmd.key2 "VK_F3">
-
 <!-- Reorder Attachment Panel -->
 <!ENTITY reorderAttachmentsPanel.label "Rirenditni Bashkëngjitje">
 <!ENTITY moveAttachmentBundleUpPanelBtn.label "Lëvizi bashkë">
-
 <!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.Sort.AZ.label):
      Please ensure that this translation matches
      sortAttachmentsPanelBtn.Sort.ZA.label, except for the sort direction. -->
@@ -102,7 +98,6 @@
 <!ENTITY sortAttachmentsPanelBtn.SortSelection.AZ.label "Përzgjedhje Renditjeje: A - Z">
 <!ENTITY sortAttachmentsPanelBtn.SortSelection.ZA.label "Përzgjedhje Renditjeje: Z - A">
 <!ENTITY sortAttachmentsPanelBtn.key "y">
-
 <!-- View Menu -->
 <!ENTITY viewMenu.label "Shfaqje">
 <!ENTITY viewMenu.accesskey "S">
@@ -118,14 +113,11 @@
 <!ENTITY showTaskbarCmd.accesskey "S">
 <!ENTITY customizeToolbar.label "Përshtateni…">
 <!ENTITY customizeToolbar.accesskey "t">
-
 <!ENTITY addressSidebar.label "Anështyllë Kontaktesh">
 <!ENTITY addressSidebar.accesskey "a">
-
 <!-- Format Menu -->
 <!ENTITY formatMenu.label "Formatim">
 <!ENTITY formatMenu.accesskey "F">
-
 <!-- Options Menu -->
 <!ENTITY optionsMenu.label "Mundësi">
 <!ENTITY optionsMenu.accesskey "u">
@@ -137,11 +129,9 @@
 <!ENTITY enableInlineSpellChecker.accesskey "S">
 <!ENTITY quoteCmd.label "Citoje Mesazhin">
 <!ENTITY quoteCmd.accesskey "C">
-
-<!--LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard' -->
+<!-- LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard' -->
 <!ENTITY attachVCard.label "Bashkëngjitni Kartë Vetjake (vCard)">
 <!ENTITY attachVCard.accesskey "v">
-
 <!ENTITY returnReceiptMenu.label "Kthim Faturash">
 <!ENTITY returnReceiptMenu.accesskey "K">
 <!ENTITY dsnMenu.label "Njoftim Gjendjeje Shpërndarjeje">
@@ -164,7 +154,6 @@
 <!ENTITY fileCarbonCopyCmd.label "Dërgoji një Kopje">
 <!ENTITY fileCarbonCopyCmd.accesskey "D">
 <!ENTITY fileHereMenu.label "Kartelë Këtu">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Mjete">
 <!ENTITY tasksMenu.accesskey "M">
@@ -177,14 +166,12 @@
 <!ENTITY accountManagerCmd2.label "Rregullime Llogarish">
 <!ENTITY accountManagerCmd2.accesskey "R">
 <!ENTITY accountManagerCmdUnix2.accesskey "R">
-
-<!--  Mac OS X Window Menu -->
+<!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.key "M">
 <!ENTITY minimizeWindow.label "Minimizoje">
 <!ENTITY bringAllToFront.label "Bjeri të Tëra Para">
 <!ENTITY zoomWindow.label "Zoom">
 <!ENTITY windowMenu.label "Dritare">
-
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Dërgoje">
 <!ENTITY quoteButton.label "Citoje">
@@ -192,7 +179,6 @@
 <!ENTITY spellingButton.label "Drejtshkrim">
 <!ENTITY saveButton.label "Ruaje">
 <!ENTITY printButton.label "Shtypni">
-
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Dërgojeni këtë mesazh tani">
 <!ENTITY sendlaterButton.tooltip "Dërgojeni këtë mesazh më vonë">
@@ -200,14 +186,13 @@
 <!ENTITY addressButton.tooltip "Përzgjidhni marrës prej një Libri Adresash">
 <!ENTITY spellingButton.tooltip "Kontrolloni drejtshkrimin e përzgjedhjes ose të krejt mesazhit">
 <!ENTITY saveButton.tooltip "Ruajeni këtë mesazh">
-<!ENTITY cutButton.tooltip              "Prijeni">
-<!ENTITY copyButton.tooltip             "Kopjojeni">
-<!ENTITY pasteButton.tooltip            "Ngjiteni">
+<!ENTITY cutButton.tooltip "Prijeni">
+<!ENTITY copyButton.tooltip "Kopjojeni">
+<!ENTITY pasteButton.tooltip "Ngjiteni">
 <!ENTITY printButton.tooltip "Shtyp këtë mesazh">
-
-<!-- Headers -->
-<!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
-    Subject: rows. It should be larger than the largest Header label  -->
+<!-- Headers
+     LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
+    Subject: rows. It should be larger than the largest Header label -->
 <!ENTITY headersSpace2.style "width: 8em;">
 <!ENTITY fromAddr2.label "Nga">
 <!ENTITY fromAddr.accesskey "r">
@@ -218,7 +203,6 @@
 <!ENTITY subject2.label "Subjekt">
 <!ENTITY subject.accesskey "S">
 <!ENTITY attachmentBucketCloseButton.tooltip "Fshiheni kuadratin e bashkëngjitjeve">
-
 <!-- Format Toolbar, imported from editorAppShell.xhtml -->
 <!ENTITY SmileButton.tooltip "Futni një emotikon">
 <!ENTITY smiley1Cmd.label "I buzëqeshur">
@@ -237,7 +221,6 @@
 <!ENTITY smiley14Cmd.label "I pafajshëm">
 <!ENTITY smiley15Cmd.label "Qaraman">
 <!ENTITY smiley16Cmd.label "Gojëkyçur">
-
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Nuk u Gjetën Sugjerime">
 <!ENTITY spellCheckIgnoreWord.label "Shpërfille Fjalën">
@@ -254,7 +237,6 @@
 <!ENTITY paste.accesskey "N">
 <!ENTITY pasteQuote.label "Ngjite Si Citim">
 <!ENTITY pasteQuote.accesskey "m">
-
 <!-- Attachment Item and List Context Menus -->
 <!ENTITY openAttachment.label "Hape">
 <!ENTITY openAttachment.accesskey "H">
@@ -280,28 +262,22 @@
 <!ENTITY convertRegularAttachment.accesskey "B">
 <!ENTITY attachPage.label "Bashkëngjitni Faqe Web…">
 <!ENTITY attachPage.accesskey "q">
-
-<!-- Attachment Pane Header Bar Context Menu -->
-<!-- LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
+<!-- Attachment Pane Header Bar Context Menu
+     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
      Should use the same wording as startExpandedCmd.label
      in msgHdrViewOverlay.dtd. -->
 <!ENTITY initiallyShowAttachmentPane.label "Shfaqe Fillimisht Kuadratin e Bashkëngjitjeve">
 <!ENTITY initiallyShowAttachmentPane.accesskey "S">
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Shtoni Fjalorë…">
 <!ENTITY spellAddDictionaries.accesskey "S">
-
 <!-- Title for the address picker panel -->
 <!ENTITY addressesSidebarTitle.label "Kontakte">
-
 <!-- Identity popup customize menuitem -->
 <!ENTITY customizeFromAddress.label "Përshtatni Adresën Nga…">
 <!ENTITY customizeFromAddress.accesskey "A">
-
 <!-- Accessibility name for the document -->
 <!ENTITY aria.message.bodyName "Lëndë mesazhi">
-
 <!-- Status Bar -->
 <!ENTITY languageStatusButton.tooltip "Gjuhë drejtshkrimi">
 <!ENTITY encodingStatusPanel.tooltip "Kodim teksti">

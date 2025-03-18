@@ -8,7 +8,6 @@
 <!ENTITY author.label "Autor">
 <!ENTITY organizationField4.label "Organizácia">
 <!ENTITY replyToField4.label "Odpoveď na">
-
 <!ENTITY subjectField4.label "Predmet">
 <!ENTITY ccField4.label "Kópia">
 <!ENTITY bccField4.label "Skrytá kópia">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Identifikátor správy">
 <!ENTITY inReplyToField4.label "V odpovedi na">
 <!ENTITY originalWebsite4.label "Webová stránka">
-
 <!ENTITY hdrArchiveButton1.label "Archivovať">
 <!ENTITY hdrArchiveButton1.tooltip "Archivovať túto správu">
 <!ENTITY hdrSmartReplyButton1.label "Zoskupené tlačidlo Odpovedať">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Označiť túto správu ako nevyžiadanú">
 <!ENTITY hdrTrashButton1.label "Odstrániť">
 <!ENTITY hdrTrashButton1.tooltip "Odstrániť túto správu">
-
 <!ENTITY hdrViewToolbarShowFull.label "Zobraziť ikony a text">
 <!ENTITY hdrViewToolbarShowFull.accesskey "Z">
 <!ENTITY hdrViewToolbarShowIcons.label "Zobraziť len ikony">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "x">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Vždy zobraziť tlačidlo Odpovedať">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "O">
-
 <!ENTITY otherActionsButton2.label "Ďalšie">
 <!ENTITY otherActionsButton.tooltip "Ďalšie akcie">
 <!ENTITY otherActionsOpenConversation1.label "Otvoriť ako konverzáciu">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "Z">
 <!ENTITY otherActionsPrint1.label "Tlačiť…">
 <!ENTITY otherActionsPrint1.accesskey "T">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Zobrazovať panel príloh">
-<!ENTITY startExpandedCmd.accesskey    "Z">
-
+<!ENTITY startExpandedCmd.label "Zobrazovať panel príloh">
+<!ENTITY startExpandedCmd.accesskey "Z">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Otvoriť">
-<!ENTITY openAttachmentCmd.accesskey    "O">
-<!ENTITY saveAsAttachmentCmd.label    "Uložiť ako…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "a">
-<!ENTITY detachAttachmentCmd.label    "Vyčleniť…">
-<!ENTITY detachAttachmentCmd.accesskey    "e">
-<!ENTITY deleteAttachmentCmd.label    "Odstrániť">
-<!ENTITY deleteAttachmentCmd.accesskey    "s">
-<!ENTITY openAllAttachmentsCmd.label    "Otvoriť všetky prílohy…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "O">
-<!ENTITY saveAllAttachmentsCmd.label    "Uložiť všetky prílohy…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "U">
-<!ENTITY detachAllAttachmentsCmd.label    "Vyčleniť všetky prílohy…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "V">
-<!ENTITY deleteAllAttachmentsCmd.label    "Odstrániť všetky prílohy…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "d">
-
+<!ENTITY openAttachmentCmd.label "Otvoriť">
+<!ENTITY openAttachmentCmd.accesskey "O">
+<!ENTITY saveAsAttachmentCmd.label "Uložiť ako…">
+<!ENTITY saveAsAttachmentCmd.accesskey "a">
+<!ENTITY detachAttachmentCmd.label "Vyčleniť…">
+<!ENTITY detachAttachmentCmd.accesskey "e">
+<!ENTITY deleteAttachmentCmd.label "Odstrániť">
+<!ENTITY deleteAttachmentCmd.accesskey "s">
+<!ENTITY openAllAttachmentsCmd.label "Otvoriť všetky prílohy…">
+<!ENTITY openAllAttachmentsCmd.accesskey "O">
+<!ENTITY saveAllAttachmentsCmd.label "Uložiť všetky prílohy…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "U">
+<!ENTITY detachAllAttachmentsCmd.label "Vyčleniť všetky prílohy…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "V">
+<!ENTITY deleteAllAttachmentsCmd.label "Odstrániť všetky prílohy…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "d">
 <!ENTITY openAttachment.tooltip "Otvoriť priložený súbor">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Otvoriť priečinok so súborom">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "p">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Zobraziť vo Finderi">
+<!ENTITY detachedAttachmentFolder.show.label "Otvoriť priečinok so súborom">
+<!ENTITY detachedAttachmentFolder.show.accesskey "p">
+<!ENTITY detachedAttachmentFolder.showMac.label "Zobraziť vo Finderi">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Uložiť">
-<!ENTITY saveAttachmentButton1.tooltip     "Uložiť priložený súbor">
-<!ENTITY saveAllAttachmentsButton1.label   "Uložiť všetko">
+<!ENTITY saveAttachmentButton1.label "Uložiť">
+<!ENTITY saveAttachmentButton1.tooltip "Uložiť priložený súbor">
+<!ENTITY saveAllAttachmentsButton1.label "Uložiť všetko">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Uložiť všetky priložené súbory">
-
-<!ENTITY copyLinkCmd.label        "Kopírovať adresu odkazu">
-<!ENTITY copyLinkCmd.accesskey    "K">
-
+<!ENTITY copyLinkCmd.label "Kopírovať adresu odkazu">
+<!ENTITY copyLinkCmd.accesskey "K">
 <!ENTITY CopyMessageId.label "Kopírovať identifikátor správy">
 <!ENTITY CopyMessageId.accesskey "K">
 <!ENTITY OpenMessageForMsgId.label "Otvoriť správu pre ID">

@@ -3,14 +3,14 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Labels -->
-<!ENTITY newFolderDialog.title      "Yeni Klasör">
-<!ENTITY name.label                 "Klasör adı:">
-<!ENTITY name.accesskey             "D">
-<!ENTITY description.label          "Aşağıdaki klasörün alt klasörü olarak oluştur:">
-<!ENTITY description.accesskey      "k">
-<!ENTITY folderRestriction1.label   "Bu sunucu klasörleri iki özel türle sınırlandırıyor.">
-<!ENTITY folderRestriction2.label   "Yeni klasör aşağıdakileri içerebilir:">
-<!ENTITY foldersOnly.label          "Yalnızca klasörler">
-<!ENTITY messagesOnly.label         "Yalnızca iletiler">
-<!ENTITY accept.label               "Klasör oluştur">
-<!ENTITY accept.accesskey           "o">
+<!ENTITY newFolderDialog.title "Yeni Klasör">
+<!ENTITY name.label "Klasör adı:">
+<!ENTITY name.accesskey "D">
+<!ENTITY description.label "Aşağıdaki klasörün alt klasörü olarak oluştur:">
+<!ENTITY description.accesskey "k">
+<!ENTITY folderRestriction1.label "Bu sunucu klasörleri iki özel türle sınırlandırıyor.">
+<!ENTITY folderRestriction2.label "Yeni klasör aşağıdakileri içerebilir:">
+<!ENTITY foldersOnly.label "Yalnızca klasörler">
+<!ENTITY messagesOnly.label "Yalnızca iletiler">
+<!ENTITY accept.label "Klasör oluştur">
+<!ENTITY accept.accesskey "o">

@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Perzhioù ar skeudenn">
-
 <!ENTITY pixelsPopup.value "a bikselioù">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Lec'hiadur ar skeudenn :">
 <!ENTITY locationEditField.accessKey "L">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Biziata an destenn da skrammañ e lec'h ar skeudenn">
 <!ENTITY noAltText.label "Na arverañ un destenn all">
 <!ENTITY noAltText.accessKey "d">
-
 <!ENTITY previewBox.label "Alberz ar skeudenn">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Ment vremanel :">
 <!ENTITY actualSizeRadio.label "Ment vremanel">
 <!ENTITY actualSizeRadio.accessKey "a">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Destrizhañ">
 <!ENTITY constrainCheckbox.accessKey "r">
 <!ENTITY constrainCheckbox.tooltip "Mirout kenfeur neuz ar skeudenn">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Kartenn skeudenn">
 <!ENTITY removeImageMapButton.label "Dilemel">
 <!ENTITY removeImageMapButton.accessKey "D">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Desteudañ an destenn ouzh ar skeudenn">
 <!ENTITY bottomPopup.value "En diaz">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "Er c'hreiz">
 <!ENTITY wrapRightPopup.value "Ambakañ d'an tu dehou">
 <!ENTITY wrapLeftPopup.value "Ambakañ d'an tu kleiz">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Oc'h esaouiñ">
 <!ENTITY leftRightEditField.label "Kleiz ha dehou :">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "r">
 <!ENTITY borderEditField.label "Riblenn plaen :">
 <!ENTITY borderEditField.accessKey "b">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Diskouez ar riblenn tro dro d'ar skeudenn ereet">
 <!ENTITY showImageLinkBorder.accessKey "b">
 <!ENTITY LinkAdvancedEditButton.label "Embann kempleshoc'h an ere…">
 <!ENTITY LinkAdvancedEditButton.accessKey "E">
 <!ENTITY LinkAdvancedEditButton.tooltip "Ouzhpennañ pe zaskemmañ an doareennoù mod HTML, an doareennoù stil ha JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Furmskrid">
 <!ENTITY imageLocationTab.label "Lec'hiadur">

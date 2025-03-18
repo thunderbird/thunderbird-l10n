@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Lịch">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Chuyển sang thẻ lịch">
+<!ENTITY lightning.toolbar.calendar.label "Lịch">
+<!ENTITY lightning.toolbar.calendar.tooltip "Chuyển sang thẻ lịch">
 <!ENTITY lightning.toolbar.calendar.accesskey "C">
-<!ENTITY lightning.toolbar.task.label         "Nhiệm vụ">
-<!ENTITY lightning.toolbar.task.tooltip       "Chuyển sang thẻ nhiệm vụ">
-<!ENTITY lightning.toolbar.task.accesskey     "T">
-
+<!ENTITY lightning.toolbar.task.label "Nhiệm vụ">
+<!ENTITY lightning.toolbar.task.tooltip "Chuyển sang thẻ nhiệm vụ">
+<!ENTITY lightning.toolbar.task.accesskey "T">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Ngày">
-<!ENTITY lightning.toolbar.day.accesskey             "D">
-<!ENTITY lightning.toolbar.week.label                "Tuần">
-<!ENTITY lightning.toolbar.week.accesskey            "W">
-<!ENTITY lightning.toolbar.multiweek.label           "Nhiều tuần">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "u">
-<!ENTITY lightning.toolbar.month.label               "Tháng">
-<!ENTITY lightning.toolbar.month.accesskey           "M">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Ngăn lịch">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "P">
-<!ENTITY lightning.toolbar.calendarpane.label        "Hiển thị ngăn lịch">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "P">
+<!ENTITY lightning.toolbar.day.label "Ngày">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "Tuần">
+<!ENTITY lightning.toolbar.week.accesskey "W">
+<!ENTITY lightning.toolbar.multiweek.label "Nhiều tuần">
+<!ENTITY lightning.toolbar.multiweek.accesskey "u">
+<!ENTITY lightning.toolbar.month.label "Tháng">
+<!ENTITY lightning.toolbar.month.accesskey "M">
+<!ENTITY lightning.toolbar.calendarmenu.label "Ngăn lịch">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "P">
+<!ENTITY lightning.toolbar.calendarpane.label "Hiển thị ngăn lịch">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "P">

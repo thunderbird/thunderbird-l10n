@@ -13,17 +13,12 @@ default-client-intro =
        *[no-cases] Použít aplikaci { -brand-short-name } jako výchozí pro:
     }
 unset-default-tooltip =
-    Z { -brand-short-name.gender ->
-        [masculine] { -brand-short-name(case: "gen") }
-        [feminine] { -brand-short-name(case: "gen") }
-        [neuter] { -brand-short-name(case: "gen") }
-       *[other] aplikace { -brand-short-name }
-    } není možné nastavit, aby { -brand-short-name.gender ->
-        [masculine] { -brand-short-name } nebyl
-        [feminine] { -brand-short-name } nebyla
-        [neuter] { -brand-short-name } nebylo
-       *[other] aplikace { -brand-short-name } nebyla
-    } výchozím klientem. Pro nastavení jiné aplikace jako výchozí použijte její dialog pro nastavení výchozí aplikace.
+    { -brand-short-name.gender ->
+        [masculine] Z { -brand-short-name(case: "gen") } není možné nastavit, aby { -brand-short-name } nebyl výchozím klientem. Pro nastavení jiné aplikace jako výchozí použijte její dialog pro nastavení výchozí aplikace.
+        [feminine] Z { -brand-short-name(case: "gen") } není možné nastavit, aby { -brand-short-name } nebyla výchozím klientem. Pro nastavení jiné aplikace jako výchozí použijte její dialog pro nastavení výchozí aplikace.
+        [neuter] Z { -brand-short-name(case: "gen") } není možné nastavit, aby { -brand-short-name } nebylo výchozím klientem. Pro nastavení jiné aplikace jako výchozí použijte její dialog pro nastavení výchozí aplikace.
+       *[other] Z aplikace { -brand-short-name } není možné nastavit, aby aplikace { -brand-short-name } nebyla výchozím klientem. Pro nastavení jiné aplikace jako výchozí použijte její dialog pro nastavení výchozí aplikace.
+    }
 checkbox-email-label =
     .label = E-mail
     .tooltiptext = { unset-default-tooltip }

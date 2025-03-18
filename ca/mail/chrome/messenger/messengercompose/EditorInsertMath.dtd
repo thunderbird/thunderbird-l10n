@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Insereix una expressió matemàtica">
-
 <!ENTITY sourceEditField.label "Introduïu codi font del LaTeX:">
-
 <!ENTITY options.label "Opcions">
 <!ENTITY optionInline.label "Mode en línia">
 <!ENTITY optionInline.accesskey "n">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "s">
 <!ENTITY optionRTL.label "Direcció de dreta a esquerra">
 <!ENTITY optionRTL.accesskey "r">
-
 <!ENTITY insertButton.label "Insereix">
 <!ENTITY insertButton.accesskey "I">

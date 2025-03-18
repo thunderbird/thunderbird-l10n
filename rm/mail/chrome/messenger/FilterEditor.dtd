@@ -5,16 +5,13 @@
 <!ENTITY window.title "Modifitgar il filter">
 <!ENTITY filterName.label "Num dal filter:">
 <!ENTITY filterName.accesskey "i">
-
 <!ENTITY junk.label "Nungiavischà">
 <!ENTITY notJunk.label "Betg nungiavischà">
-
 <!ENTITY lowestPriorityCmd.label "Il pli bass">
 <!ENTITY lowPriorityCmd.label "Bass">
 <!ENTITY normalPriorityCmd.label "Normal">
 <!ENTITY highPriorityCmd.label "Aut">
 <!ENTITY highestPriorityCmd.label "Il pli aut">
-
 <!ENTITY contextDesc.label "Applitgar il filter cun:">
 <!ENTITY contextIncomingMail.label "Retschaiver e-mails:">
 <!ENTITY contextIncomingMail.accesskey "R">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "Archivar">
 <!ENTITY contextArchive.accesskey "A">
 <!ENTITY contextPeriodic.accesskey "e">
-
 <!ENTITY filterActionDesc.label "Exequir questas acziuns:">
 <!ENTITY filterActionDesc.accesskey "E">
-
 <!ENTITY filterActionOrderWarning.label "Avis: Las acziuns da filtrar vegnan exequidas en in'autra successiun.">
 <!ENTITY filterActionOrder.label "Vesair la successiun d'execuziun">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Spustar messadi a">
 <!ENTITY copyMessage.label "Copiar messadi a">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Ignorar il suttema">
 <!ENTITY watchThread.label "Observar il tema">
 <!ENTITY stopExecution.label "Fermar l'execuziun dal filter">
-
 <!ENTITY addAction.tooltip "Agiuntar ina nova acziun">
 <!ENTITY removeAction.tooltip "Allontanar questa acziun">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

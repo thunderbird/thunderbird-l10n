@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Уставіць матэматычны выраз">
-
 <!ENTITY sourceEditField.label "Увядзіце зыходны код LaTeX:">
-
 <!ENTITY options.label "Параметры">
 <!ENTITY optionInline.label "Рэжым убудавання">
 <!ENTITY optionInline.accesskey "у">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "л">
 <!ENTITY optionRTL.label "Кірунак справа налева">
 <!ENTITY optionRTL.accesskey "п">
-
 <!ENTITY insertButton.label "Уставіць">
 <!ENTITY insertButton.accesskey "У">

@@ -34,20 +34,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "ш">
 <!ENTITY syncGroupTitle.label "Сінхранізацыя паведамленняў">
 <!ENTITY diskspaceGroupTitle.label "Дыскавая прастора">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Сінхранізаваць усе паведамленні, нягледзячы на іх узрост">
-<!ENTITY allAutosync.accesskey           "С">
-<!ENTITY ageAutosyncBefore.label         "Сінхранізаваць нядаўнія">
-<!ENTITY ageAutosync.accesskey           "і">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "дзён">
-<!ENTITY weekAgeInterval.label           "тыдняў">
-<!ENTITY monthAgeInterval.label          "месяцаў">
-<!ENTITY yearAgeInterval.label           "гадоў">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Сінхранізаваць усе паведамленні, нягледзячы на іх узрост">
+<!ENTITY allAutosync.accesskey "С">
+<!ENTITY ageAutosyncBefore.label "Сінхранізаваць нядаўнія">
+<!ENTITY ageAutosync.accesskey "і">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "дзён">
+<!ENTITY weekAgeInterval.label "тыдняў">
+<!ENTITY monthAgeInterval.label "месяцаў">
+<!ENTITY yearAgeInterval.label "гадоў">
+<!ENTITY ageAutosyncAfter.label "">

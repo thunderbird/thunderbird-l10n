@@ -11,7 +11,6 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
 <!ENTITY mainWindow.preface "原始碼: ">
-
 <!ENTITY editMenu.label "編輯">
 <!ENTITY editMenu.accesskey "E">
 <!ENTITY fileMenu.label "檔案">
@@ -25,13 +24,11 @@
 <!ENTITY closeCmd.label "關閉">
 <!ENTITY closeCmd.accesskey "C">
 <!ENTITY closeCmd.commandkey "W">
-
 <!-- LOCALIZATION NOTE :
-textEnlarge.commandkey3, textReduce.commandkey2 and
-textReset.commandkey2 are alternative acceleration keys for zoom.
-If shift key is needed with your locale popular keyboard for them,
-you can use these alternative items. Otherwise, their values should be empty.  -->
-
+     textEnlarge.commandkey3, textReduce.commandkey2 and
+     textReset.commandkey2 are alternative acceleration keys for zoom.
+     If shift key is needed with your locale popular keyboard for them,
+     you can use these alternative items. Otherwise, their values should be empty. -->
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textEnlarge.commandkey3 "">
@@ -39,13 +36,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReduce.commandkey2 "">
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
-
 <!ENTITY goToLineCmd.label "移至行號…">
 <!ENTITY goToLineCmd.accesskey "G">
 <!ENTITY goToLineCmd.commandkey "l">
-
-<!ENTITY viewMenu.label           "檢視">
-<!ENTITY viewMenu.accesskey       "V">
+<!ENTITY viewMenu.label "檢視">
+<!ENTITY viewMenu.accesskey "V">
 <!ENTITY reloadCmd.label "重新載入">
 <!ENTITY reloadCmd.accesskey "R">
 <!ENTITY reloadCmd.commandkey "r">
@@ -61,23 +56,20 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReduce.accesskey "D">
 <!ENTITY menu_textReset.label "標準">
 <!ENTITY menu_textReset.accesskey "N">
-
-<!ENTITY findOnCmd.label     "尋找文字…">
+<!ENTITY findOnCmd.label "尋找文字…">
 <!ENTITY findOnCmd.accesskey "F">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "找下一個">
+<!ENTITY findAgainCmd.label "找下一個">
 <!ENTITY findAgainCmd.accesskey "g">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
-
 <!ENTITY backCmd.label "返回">
 <!ENTITY backCmd.accesskey "B">
 <!ENTITY forwardCmd.label "下一個">
 <!ENTITY forwardCmd.accesskey "F">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
-
 <!ENTITY copyLinkCmd.label "複製鏈結網址">
 <!ENTITY copyLinkCmd.accesskey "L">
 <!ENTITY copyEmailCmd.label "複製電子郵件地址">

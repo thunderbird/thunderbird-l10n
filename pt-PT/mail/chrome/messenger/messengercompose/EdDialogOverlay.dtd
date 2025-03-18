@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "f">
 <!ENTITY chooseFileLinkButton.label "Escolher ficheiro...">
 <!ENTITY chooseFileLinkButton.accessKey "o">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Digite um endereço da página da Internet, um ficheiro local, ou selecione uma âncora ou cabeçalho do menu de contexto do campo:">
 <!ENTITY LinkURLEditField2.accessKey "w">

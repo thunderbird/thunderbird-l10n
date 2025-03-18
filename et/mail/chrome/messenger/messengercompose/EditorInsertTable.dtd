@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Tabeli lisamine">
-
 <!ENTITY size.label "Suurus">
 <!ENTITY numRowsEditField.label "Ridu:">
 <!ENTITY numRowsEditField.accessKey "R">

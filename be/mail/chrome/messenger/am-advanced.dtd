@@ -6,20 +6,16 @@
 
 <!-- LOCALIZATION NOTE (smtpServer.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpServer.label "Налады сервера выходнай пошты (SMTP)">
-
-<!-- LOCALIZATION NOTE (smtpDescription.label): do not translate "SMTP" in below line -->
-
-<!ENTITY smtpListAdd.label  "Дадаць…">
-<!ENTITY smtpListAdd.accesskey  "Д">
+<!ENTITY smtpListAdd.label "Дадаць…">
+<!ENTITY smtpListAdd.accesskey "Д">
 <!ENTITY smtpListEdit.label "Рэдагаваць…">
 <!ENTITY smtpListEdit.accesskey "Р">
 <!ENTITY smtpListDelete.label "Выдаліць">
 <!ENTITY smtpListDelete.accesskey "В">
-
 <!ENTITY serverDetails.label "Падрабязнасці выбранага сервера:">
 <!ENTITY serverDescription.label "Апісанне:">
 <!ENTITY serverName.label "Назва сервера: ">
 <!ENTITY serverPort.label "Порт:">
-<!ENTITY userName.label   "Імя карыстальніка:">
+<!ENTITY userName.label "Імя карыстальніка:">
 <!ENTITY connectionSecurity.label "Абарона злучэння: ">
-<!ENTITY authMethod.label   "Спосаб аўтэнтыфікацыі: ">
+<!ENTITY authMethod.label "Спосаб аўтэнтыфікацыі: ">

@@ -3,30 +3,26 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
-
-<!ENTITY fileMenu.label          "Datoteka">
-<!ENTITY fileMenu.accesskey        "D">
-<!ENTITY newMenu.label            "Novi">
-<!ENTITY newMenu.accesskey          "N">
-
-<!ENTITY editMenu.label          "Uredi">
-<!ENTITY editMenu.accesskey        "U">
-<!ENTITY undoCmd.label            "Poništi">
-<!ENTITY undoCmd.accesskey          "P">
-<!ENTITY redoCmd.label            "Ponovi">
-<!ENTITY redoCmd.accesskey          "P">
-<!ENTITY deleteCmd.label          "Obriši">
-<!ENTITY deleteCmd.accesskey        "O">
+<!ENTITY fileMenu.label "Datoteka">
+<!ENTITY fileMenu.accesskey "D">
+<!ENTITY newMenu.label "Novi">
+<!ENTITY newMenu.accesskey "N">
+<!ENTITY editMenu.label "Uredi">
+<!ENTITY editMenu.accesskey "U">
+<!ENTITY undoCmd.label "Poništi">
+<!ENTITY undoCmd.accesskey "P">
+<!ENTITY redoCmd.label "Ponovi">
+<!ENTITY redoCmd.accesskey "P">
+<!ENTITY deleteCmd.label "Obriši">
+<!ENTITY deleteCmd.accesskey "O">
 <!ENTITY customizeCmd.label "Prilagodi">
 <!ENTITY customizeCmd.accesskey "d">
-
-<!ENTITY viewMenu.label          "Pogled">
-<!ENTITY viewMenu.accesskey        "g">
-<!ENTITY viewToolbarsMenu.label        "Alatne trake">
-<!ENTITY viewToolbarsMenu.accesskey      "t">
-<!ENTITY showTaskbarCmd.label          "Traka stanja">
-<!ENTITY showTaskbarCmd.accesskey        "r">
-
-<!ENTITY closeCmd.label      "Zatvori">
-<!ENTITY closeCmd.key      "W">
-<!ENTITY closeCmd.accesskey    "Z">
+<!ENTITY viewMenu.label "Pogled">
+<!ENTITY viewMenu.accesskey "g">
+<!ENTITY viewToolbarsMenu.label "Alatne trake">
+<!ENTITY viewToolbarsMenu.accesskey "t">
+<!ENTITY showTaskbarCmd.label "Traka stanja">
+<!ENTITY showTaskbarCmd.accesskey "r">
+<!ENTITY closeCmd.label "Zatvori">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.accesskey "Z">

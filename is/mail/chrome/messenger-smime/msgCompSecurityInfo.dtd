@@ -2,8 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!--LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
-
+<!-- LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 <!ENTITY title.label "Öryggi pósts">
 <!ENTITY subject.plaintextWarning "Athugið: Efnislína pósts er aldrei dulkóðuð.">
 <!ENTITY status.heading "Innihald póstsins verður sent sem eftirfarandi:">

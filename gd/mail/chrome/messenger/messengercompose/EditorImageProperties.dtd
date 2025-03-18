@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Roghainnean an deilbh">
-
 <!ENTITY pixelsPopup.value "pixel">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Seòladh an deilbh:">
 <!ENTITY locationEditField.accessKey "l">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Cuir a-steach teacsa a chithear an àite an deilbh">
 <!ENTITY noAltText.label "Na cleachd roghainn teacsa eile">
 <!ENTITY noAltText.accessKey "d">
-
 <!ENTITY previewBox.label "Ro-shealladh an deilbh">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Am meud fìor:">
 <!ENTITY actualSizeRadio.label "Am meud fìor">
 <!ENTITY actualSizeRadio.accessKey "A">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Cuir co-èiginn air">
 <!ENTITY constrainCheckbox.accessKey "C">
 <!ENTITY constrainCheckbox.tooltip "Glèidh co-mheas an deilbh">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Mapa an deilbh">
 <!ENTITY removeImageMapButton.label "Thoir air falbh">
 <!ENTITY removeImageMapButton.accessKey "r">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Co-thaobhaich an teacsa a-rèir an deilbh">
 <!ENTITY bottomPopup.value "Aig a' bhun">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "Sa mheadhan">
 <!ENTITY wrapRightPopup.value "Paisg gun deis">
 <!ENTITY wrapLeftPopup.value "Paisg gun chlì">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Beàrnadh">
 <!ENTITY leftRightEditField.label "Clì 's deis:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "i">
 <!ENTITY borderEditField.label "Iomall soladach:">
 <!ENTITY borderEditField.accessKey "s">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Seall iomall mun dealbh cheangailte">
 <!ENTITY showImageLinkBorder.accessKey "b">
 <!ENTITY LinkAdvancedEditButton.label "Deasachadh adhartachadh a' cheangail…">
 <!ENTITY LinkAdvancedEditButton.accessKey "l">
 <!ENTITY LinkAdvancedEditButton.tooltip "Cuir ris no atharraidh buadhan HTML, stoidhle is JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Foirm">
 <!ENTITY imageLocationTab.label "Seòladh">

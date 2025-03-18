@@ -11,7 +11,6 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
 <!ENTITY mainWindow.preface "Бастапқы коды: ">
-
 <!ENTITY editMenu.label "Түзету">
 <!ENTITY editMenu.accesskey "з">
 <!ENTITY fileMenu.label "Файл">
@@ -25,13 +24,11 @@
 <!ENTITY closeCmd.label "Жабу">
 <!ENTITY closeCmd.accesskey "ж">
 <!ENTITY closeCmd.commandkey "W">
-
 <!-- LOCALIZATION NOTE :
-textEnlarge.commandkey3, textReduce.commandkey2 and
-textReset.commandkey2 are alternative acceleration keys for zoom.
-If shift key is needed with your locale popular keyboard for them,
-you can use these alternative items. Otherwise, their values should be empty.  -->
-
+     textEnlarge.commandkey3, textReduce.commandkey2 and
+     textReset.commandkey2 are alternative acceleration keys for zoom.
+     If shift key is needed with your locale popular keyboard for them,
+     you can use these alternative items. Otherwise, their values should be empty. -->
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textEnlarge.commandkey3 "">
@@ -39,13 +36,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReduce.commandkey2 "">
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
-
 <!ENTITY goToLineCmd.label "Жолға өту…">
 <!ENTITY goToLineCmd.accesskey "т">
 <!ENTITY goToLineCmd.commandkey "l">
-
-<!ENTITY viewMenu.label           "Түрі">
-<!ENTITY viewMenu.accesskey       "р">
+<!ENTITY viewMenu.label "Түрі">
+<!ENTITY viewMenu.accesskey "р">
 <!ENTITY reloadCmd.label "Қайта жүктеу">
 <!ENTITY reloadCmd.accesskey "й">
 <!ENTITY reloadCmd.commandkey "r">
@@ -61,23 +56,20 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReduce.accesskey "к">
 <!ENTITY menu_textReset.label "Қалыпты">
 <!ENTITY menu_textReset.accesskey "ы">
-
-<!ENTITY findOnCmd.label     "Бұл парақтан табу…">
+<!ENTITY findOnCmd.label "Бұл парақтан табу…">
 <!ENTITY findOnCmd.accesskey "т">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Қайта іздеу">
+<!ENTITY findAgainCmd.label "Қайта іздеу">
 <!ENTITY findAgainCmd.accesskey "д">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
-
 <!ENTITY backCmd.label "Артқа">
 <!ENTITY backCmd.accesskey "а">
 <!ENTITY forwardCmd.label "Алға">
 <!ENTITY forwardCmd.accesskey "л">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
-
 <!ENTITY copyLinkCmd.label "Сілтеме адресін көшіріп алу">
 <!ENTITY copyLinkCmd.accesskey "ш">
 <!ENTITY copyEmailCmd.label "Эл. пошта адресін көшіріп алу">

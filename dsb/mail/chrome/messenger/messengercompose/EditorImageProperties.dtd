@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Wobrazowe kakosći">
-
 <!ENTITY pixelsPopup.value "pikselow">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Městno wobraza:">
 <!ENTITY locationEditField.accessKey "M">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Zapódajśo tekst, aby jen město wobraza pokazał">
 <!ENTITY noAltText.label "Alternatiwny tekst njewužywaś">
 <!ENTITY noAltText.accessKey "l">
-
 <!ENTITY previewBox.label "Wobrazowy pśeglěd">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Aktualna wjelikosć:">
 <!ENTITY actualSizeRadio.label "Aktualna wjelikosć">
 <!ENTITY actualSizeRadio.accessKey "A">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Zachowaś">
 <!ENTITY constrainCheckbox.accessKey "Z">
 <!ENTITY constrainCheckbox.tooltip "Poměr bokow zachowaś">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Wobrazowa kórta">
 <!ENTITY removeImageMapButton.label "Wótwónoźeś">
 <!ENTITY removeImageMapButton.accessKey "W">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Tekst pó wobrazu wusměriś">
 <!ENTITY bottomPopup.value "Dołojce">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "Wesrjejź">
 <!ENTITY wrapRightPopup.value "Napšawo łamaś">
 <!ENTITY wrapLeftPopup.value "Nalěwo łamaś">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Wótstawk">
 <!ENTITY leftRightEditField.label "Nalěwo a napšawo:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "G">
 <!ENTITY borderEditField.label "Pśeśěgnjona kšoma:">
 <!ENTITY borderEditField.accessKey "P">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Kšomu wokoło wótkazanego wobraza pokazaś">
 <!ENTITY showImageLinkBorder.accessKey "K">
 <!ENTITY LinkAdvancedEditButton.label "Rozšyrjone wobźěłanje wótkazow…">
 <!ENTITY LinkAdvancedEditButton.accessKey "R">
 <!ENTITY LinkAdvancedEditButton.tooltip "HTML-atributy, stilowe atributy a JavaScript pśidaś abo změniś">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Formular">
 <!ENTITY imageLocationTab.label "Městno">

@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "Вставить как цитату">
 <!ENTITY pasteAsQuotationCmd.accesskey "ц">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Вставить">
 <!ENTITY insertMenu.accesskey "с">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "у">
 <!ENTITY insertBreakAllCmd.label "Разрыв под изображениями">
 <!ENTITY insertBreakAllCmd.accesskey "о">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Создать ссылку…">
 <!ENTITY createLinkCmd.accesskey "с">
 <!ENTITY editLinkCmd.label "Редактировать объект в новом окне Компоновщика">
 <!ENTITY editLinkCmd.accesskey "д">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Выбор шрифта">
 <!ENTITY fontfaceMenu.label "Шрифт">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Выбор размера шрифта">
 <!ENTITY decreaseFontSize.label "Уменьшить">
 <!ENTITY decreaseFontSize.accesskey "м">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "Увеличить">
 <!ENTITY increaseFontSize.accesskey "в">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "Размер шрифта">
 <!ENTITY fontSizeMenu.accesskey "м">
 <!ENTITY size-tinyCmd.label "Крошечный">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "п">
 <!ENTITY size-hugeCmd.label "Огромный">
 <!ENTITY size-hugeCmd.accesskey "м">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Стиль текста">
 <!ENTITY fontStyleMenu.accesskey "т">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "ы">
 <!ENTITY styleVar.label "Переменный">
 <!ENTITY styleVar.accesskey "м">
-
 <!ENTITY formatFontColor.label "Цвет текста…">
 <!ENTITY formatFontColor.accesskey "т">
 <!ENTITY tableOrCellColor.label "Цвет фона ячейки или таблицы…">
 <!ENTITY tableOrCellColor.accesskey "ч">
-
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "Удалить якоря с именами">
 <!ENTITY formatRemoveNamedAnchors.accesskey "д">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
-
 <!ENTITY paragraphMenu.label "Абзац">
 <!ENTITY paragraphMenu.accesskey "б">
 <!ENTITY paragraphParagraphCmd.label "Абзац">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "д">
 <!ENTITY paragraphPreformatCmd.label "Заданный формат">
 <!ENTITY paragraphPreformatCmd.accesskey "ф">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Список">
 <!ENTITY formatlistMenu.accesskey "п">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "р">
 <!ENTITY listPropsCmd.label "Свойства списка…">
 <!ENTITY listPropsCmd.accesskey "в">
-
 <!ENTITY ParagraphSelect.tooltip "Выберите формат абзаца">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Обычный текст">
 <!ENTITY bodyTextCmd.accesskey "т">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Выравнивание">
 <!ENTITY alignMenu.accesskey "ы">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "По ширине">
 <!ENTITY alignJustify.accesskey "ш">
 <!ENTITY alignJustify.tooltip "Выровнять по ширине">
-
 <!ENTITY increaseIndent.label "Увеличить отступ">
 <!ENTITY increaseIndent.accesskey "в">
 <!ENTITY increaseIndent.key "]">
 <!ENTITY decreaseIndent.label "Уменьшить отступ">
 <!ENTITY decreaseIndent.accesskey "м">
 <!ENTITY decreaseIndent.key "[">
-
 <!ENTITY colorsAndBackground.label "Цвета и фон страницы…">
 <!ENTITY colorsAndBackground.accesskey "в">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Таблица">
 <!ENTITY tableMenu.accesskey "а">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Выделить">
 <!ENTITY tableSelectMenu.accesskey "ы">
-
 <!ENTITY tableSelectMenu2.label "Выделить таблицу">
 <!ENTITY tableSelectMenu2.accesskey "б">
 <!ENTITY tableInsertMenu2.label "Вставить таблицу">
 <!ENTITY tableInsertMenu2.accesskey "л">
 <!ENTITY tableDeleteMenu2.label "Удалить таблицу">
 <!ENTITY tableDeleteMenu2.accesskey "д">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Вставить">
 <!ENTITY tableInsertMenu.accesskey "с">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Удалить">
 <!ENTITY tableDeleteMenu.accesskey "а">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "j">
 <!ENTITY tableJoinCells.accesskey "j">
 <!ENTITY tableSplitCell.label "Разбить ячейку">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "д">
 <!ENTITY tableProperties.label "Свойства таблицы…">
 <!ENTITY tableProperties.accesskey "в">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Изображение">
 <!ENTITY imageToolbarCmd.tooltip "Вставить новое изображение или изменить свойства выделенного">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Вставить новый якорь или изменить свойства выделенного">
 <!ENTITY TextColorButton.tooltip "Выбор цвета для текста">
 <!ENTITY BackgroundColorButton.tooltip "Выбор цвета для фона">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "Указать размер шрифта">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Уменьшить размер шрифта">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "Выравнивание текста по центру">
 <!ENTITY alignRightButton.tooltip "Выравнивание текста по правому краю">
 <!ENTITY alignJustifyButton.tooltip "Выравнивание текста по ширине">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Вставить">
-<!ENTITY insertTOC.accesskey      "В">
-<!ENTITY updateTOC.label          "Обновить">
-<!ENTITY updateTOC.accesskey      "О">
-<!ENTITY removeTOC.label          "Убрать">
-<!ENTITY removeTOC.accesskey      "У">
-<!ENTITY tocMenu.label            "Оглавление…">
-<!ENTITY tocMenu.accesskey        "г">
+<!ENTITY insertTOC.label "Вставить">
+<!ENTITY insertTOC.accesskey "В">
+<!ENTITY updateTOC.label "Обновить">
+<!ENTITY updateTOC.accesskey "О">
+<!ENTITY removeTOC.label "Убрать">
+<!ENTITY removeTOC.accesskey "У">
+<!ENTITY tocMenu.label "Оглавление…">
+<!ENTITY tocMenu.accesskey "г">

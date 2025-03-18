@@ -1,12 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY settingsTab.label       "Definições">
+<!ENTITY settingsTab.label "Definições">
 <!ENTITY copiesFoldersTab.label "Cópias e pastas">
-<!ENTITY addressingTab.label    "Endereçamento e composição">
-
-<!ENTITY publicData.label        "Dados públicos">
-<!ENTITY privateData.label       "Dados privados">
-<!ENTITY identityAlias.label     "Etiqueta da identidade:">
+<!ENTITY addressingTab.label "Endereçamento e composição">
+<!ENTITY publicData.label "Dados públicos">
+<!ENTITY privateData.label "Dados privados">
+<!ENTITY identityAlias.label "Etiqueta da identidade:">
 <!ENTITY identityAlias.accesskey "t">

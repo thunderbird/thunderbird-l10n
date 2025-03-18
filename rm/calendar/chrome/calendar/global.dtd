@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "Schaner" >
-<!ENTITY month.2.name "Favrer" >
-<!ENTITY month.3.name "Mars" >
-<!ENTITY month.4.name "Avrigl" >
-<!ENTITY month.5.name "Matg" >
-<!ENTITY month.6.name "Zercladur" >
-<!ENTITY month.7.name "Fanadur" >
-<!ENTITY month.8.name "Avust" >
-<!ENTITY month.9.name "Settember" >
-<!ENTITY month.10.name "October" >
-<!ENTITY month.11.name "November" >
-<!ENTITY month.12.name "December" >
-
+<!ENTITY month.1.name "Schaner">
+<!ENTITY month.2.name "Favrer">
+<!ENTITY month.3.name "Mars">
+<!ENTITY month.4.name "Avrigl">
+<!ENTITY month.5.name "Matg">
+<!ENTITY month.6.name "Zercladur">
+<!ENTITY month.7.name "Fanadur">
+<!ENTITY month.8.name "Avust">
+<!ENTITY month.9.name "Settember">
+<!ENTITY month.10.name "October">
+<!ENTITY month.11.name "November">
+<!ENTITY month.12.name "December">
 <!ENTITY showToday.tooltip "Ir ad oz">
 <!ENTITY onedayforward.tooltip "Ir al proxim di">
 <!ENTITY onedaybackward.tooltip "Ir al di precedent">

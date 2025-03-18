@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "ਪਛਾਣ">
 <!ENTITY identityDesc.label "ਹਰ ਅਕਾਊਂਟ ਦੀ ਪਛਾਣ ਹੁੰਦੀ ਹੈ, ਜੋ ਕਿ ਤੁਹਾਡਾ ਸੁਨੇਹਾ ਮਿਲਣ ਤੇ ਹੋਰਾਂ ਨੂੰ ਤੁਹਾਡੀ ਪਛਾਣ ਉਪਲੱਬਧ ਕਰਵਾਉਦੀ ਹੈ।">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "ਨਾਂ ਭਰੋ, ਜੋ ਕਿ ਤੁਸੀਂ ਬਾਹਰ ਜਾਣ ਵਾਲੇ ਸੁਨੇਹਿਆਂ ਦੇ &quot;ਵਲੋਂ(From)&quot; ਖੇਤਰ ਵਿੱਚ ਦੇਣਾ ਚਾਹੁੰਦੇ ਹੋ">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(ਉਦਾਹਰਨ ਲਈ, &quot;ਜਰਨੈਲ ਸਿੰਘ &quot;)">
 <!ENTITY fullnameLabel.label "ਤੁਹਾਡਾ ਨਾਂ:">
 <!ENTITY fullnameLabel.accesskey "Y">
-
 <!ENTITY emailLabel.label "ਈ-ਮੇਲ ਐਡਰੈੱਸ:">
 <!ENTITY emailLabel.accesskey "E">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "ਨਾਂ ਦਿਉ, ਜਿਸ ਨਾਲ ਤੁਸੀਂ ਇਸ ਅਕਾਊਂਟ ਨੂੰ ਸੰਬੋਧਨ ਕਰੋਗੇ (ਉਦਾਹਰਨ ਲਈ, &quot;ਕੰਮ ਅਕਾਊਂਟ&quot;, &quot;ਘਰ ਅਕਾਊਂਟ&quot; ਜਾਂ &quot;ਨਿਊਜ਼ ਅਕਾਊਂਟ&quot;)">
 <!ENTITY accnameLabel.label "ਅਕਾਊਂਟ ਨਾਂ:">
 <!ENTITY accnameLabel.accesskey "A">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "ਵਧਾਈਆਂ!">
 <!ENTITY completionText.label "ਇਹ ਜਾਂਚ ਕਰੋ ਕਿ ਹੇਠ ਦਿੱਤੀ ਜਾਣਕਾਰੀ ਠੀਕ ਹੈ ਜੀ">
 <!ENTITY newsServerNamePrefix.label "ਖਬਰਸਾਰ ਸਰਵਰ ਨਾਂ (NNTP):">

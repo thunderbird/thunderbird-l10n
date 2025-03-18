@@ -3,9 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Փոստարկղի կարգավորումներ">
-
 <!ENTITY accountActionsButton.label "Փոստարկղի գործը">
 <!ENTITY accountActionsButton.accesskey "A">
 <!ENTITY addMailAccountButton.label "Ավելացնել փոստարկղ...">
@@ -18,4 +16,3 @@
 <!ENTITY setDefaultButton.accesskey "D">
 <!ENTITY removeButton.label "Ջնջել փոստարկղը">
 <!ENTITY removeButton.accesskey "R">
-

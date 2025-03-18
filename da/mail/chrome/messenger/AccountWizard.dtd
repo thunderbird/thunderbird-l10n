@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Identitet">
 <!ENTITY identityDesc.label "Hver konto har en identitet, som er de oplysninger andre ser om dig, når de læser dine meddelelser.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Indtast det navn du gerne vil have vist i &quot;Fra&quot; feltet i de meddelelser du sender">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(fx &quot;Jens Hansen&quot;).">
 <!ENTITY fullnameLabel.label "Dit navn:">
 <!ENTITY fullnameLabel.accesskey "n">
-
 <!ENTITY emailLabel.label "Mailadresse:">
 <!ENTITY emailLabel.accesskey "E">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Indtast det navn du vil bruge til at referere til denne konto (fx &quot;Arbejdskonto&quot;, &quot;Hjemmekonto&quot; eller &quot;Nyhedskonto&quot;).">
 <!ENTITY accnameLabel.label "Kontonavn:">
 <!ENTITY accnameLabel.accesskey "n">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Tillykke!">
 <!ENTITY completionText.label "Bekræft at nedenstående oplysninger er korrekte.">
 <!ENTITY newsServerNamePrefix.label "Nyhedsgruppeservernavn (NNTP):">

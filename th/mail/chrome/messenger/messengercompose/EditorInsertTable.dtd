@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "แทรกตาราง">
-
 <!ENTITY size.label "ขนาด">
 <!ENTITY numRowsEditField.label "แถว:">
 <!ENTITY numRowsEditField.accessKey "ถ">

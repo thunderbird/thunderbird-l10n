@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Kalender">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Lülitu kalendri kaardile">
+<!ENTITY lightning.toolbar.calendar.label "Kalender">
+<!ENTITY lightning.toolbar.calendar.tooltip "Lülitu kalendri kaardile">
 <!ENTITY lightning.toolbar.calendar.accesskey "K">
-<!ENTITY lightning.toolbar.task.label         "Ülesanded">
-<!ENTITY lightning.toolbar.task.tooltip       "Lülitu ülesannete kaardile">
-<!ENTITY lightning.toolbar.task.accesskey     "Ü">
-
+<!ENTITY lightning.toolbar.task.label "Ülesanded">
+<!ENTITY lightning.toolbar.task.tooltip "Lülitu ülesannete kaardile">
+<!ENTITY lightning.toolbar.task.accesskey "Ü">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Päev">
-<!ENTITY lightning.toolbar.day.accesskey             "P">
-<!ENTITY lightning.toolbar.week.label                "Nädal">
-<!ENTITY lightning.toolbar.week.accesskey            "N">
-<!ENTITY lightning.toolbar.multiweek.label           "Nädalad">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "ä">
-<!ENTITY lightning.toolbar.month.label               "Kuu">
-<!ENTITY lightning.toolbar.month.accesskey           "K">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Kalendrite paneel">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "l">
-<!ENTITY lightning.toolbar.calendarpane.label        "Kuvatakse kalendrite paneeli">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "p">
+<!ENTITY lightning.toolbar.day.label "Päev">
+<!ENTITY lightning.toolbar.day.accesskey "P">
+<!ENTITY lightning.toolbar.week.label "Nädal">
+<!ENTITY lightning.toolbar.week.accesskey "N">
+<!ENTITY lightning.toolbar.multiweek.label "Nädalad">
+<!ENTITY lightning.toolbar.multiweek.accesskey "ä">
+<!ENTITY lightning.toolbar.month.label "Kuu">
+<!ENTITY lightning.toolbar.month.accesskey "K">
+<!ENTITY lightning.toolbar.calendarmenu.label "Kalendrite paneel">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "l">
+<!ENTITY lightning.toolbar.calendarpane.label "Kuvatakse kalendrite paneeli">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "p">

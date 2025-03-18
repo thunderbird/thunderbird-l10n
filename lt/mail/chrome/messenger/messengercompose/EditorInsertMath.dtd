@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Formulės įterpimas">
-
 <!ENTITY sourceEditField.label "Įveskite „LaTeX“ pirminį tekstą:">
-
 <!ENTITY options.label "Parinktys">
 <!ENTITY optionInline.label "Kaip teksto dalį">
 <!ENTITY optionInline.accesskey "t">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "k">
 <!ENTITY optionRTL.label "Kryptis iš dešinės į kairę">
 <!ENTITY optionRTL.accesskey "d">
-
 <!ENTITY insertButton.label "Įterpti">
 <!ENTITY insertButton.accesskey "t">

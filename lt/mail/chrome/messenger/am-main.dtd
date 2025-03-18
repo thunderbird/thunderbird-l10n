@@ -34,14 +34,11 @@
 <!-- LOCALIZATION NOTE (attachVCard.label) : do not translate "vCard" in below line -->
 <!ENTITY attachVCard.label "Pridėti vizitinę kortelę">
 <!ENTITY attachVCard.accesskey "v">
-
 <!ENTITY manageIdentities.label "Tvarkyti tapatumo duomenis…">
 <!ENTITY manageIdentities.accesskey "T">
-
 <!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
 <!ENTITY smtpName.label "Išsiuntimo serveris (SMTP):">
 <!ENTITY smtpName.accesskey "S">
 <!ENTITY smtpDefaultServer.label "Naudoti numatytąjį serverį">
-
 <!ENTITY smtpServerEdit.label "Redaguoti SMTP serverį…">
 <!ENTITY smtpServerEdit.accesskey "P">

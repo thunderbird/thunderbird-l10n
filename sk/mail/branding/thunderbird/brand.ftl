@@ -14,22 +14,22 @@
 
 -brand-shorter-name =
     { $case ->
-       *[nom] Thunderbird
         [gen] Thunderbirdu
         [dat] Thunderbirdu
         [acc] Thunderbird
         [loc] Thunderbirde
         [ins] Thunderbirdom
+       *[nom] Thunderbird
     }
     .gender = masculine
 -brand-short-name =
     { $case ->
-       *[nom] Thunderbird
         [gen] Thunderbirdu
         [dat] Thunderbirdu
         [acc] Thunderbird
         [loc] Thunderbirde
         [ins] Thunderbirdom
+       *[nom] Thunderbird
     }
     .gender = masculine
 -brand-full-name = Mozilla Thunderbird
@@ -37,22 +37,22 @@
 # remain unchanged across different versions (Daily, Beta, etc.).
 -brand-product-name =
     { $case ->
-       *[nom] Thunderbird
         [gen] Thunderbirdu
         [dat] Thunderbirdu
         [acc] Thunderbird
         [loc] Thunderbirde
         [ins] Thunderbirdom
+       *[nom] Thunderbird
     }
     .gender = masculine
 -vendor-short-name =
     { $case ->
-       *[nom] Mozilla
         [gen] Mozilly
         [dat] Mozille
         [acc] Mozillu
         [loc] Mozille
         [ins] Mozillou
+       *[nom] Mozilla
     }
     .gender = feminine
 trademarkInfo = Mozilla Thunderbird a logá Thunderbird sú ochranné známky patriace Mozilla Foundation.

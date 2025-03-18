@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Fjalor Vetjak">
-
 <!ENTITY wordEditField.label "Fjalë e re:">
 <!ENTITY wordEditField.accessKey "F">
 <!ENTITY AddButton.label "Shtoje">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "J">
 <!ENTITY RemoveButton.label "Hiqe">
 <!ENTITY RemoveButton.accessKey "H">
-
 <!ENTITY CloseButton.label "Mbylleni">
 <!ENTITY CloseButton.accessKey "M">

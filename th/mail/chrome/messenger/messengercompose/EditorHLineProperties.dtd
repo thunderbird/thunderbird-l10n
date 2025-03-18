@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "คุณสมบัติเส้นแนวนอน">
-
 <!ENTITY dimensionsBox.label "มิติ">
 <!ENTITY heightEditField.label "ความสูง:">
 <!ENTITY heightEditField.accessKey "ส">
@@ -19,7 +17,6 @@
 <!ENTITY centerRadio.accessKey "ง">
 <!ENTITY rightRadio.label "ขวา">
 <!ENTITY rightRadio.accessKey "ข">
-
 <!ENTITY threeDShading.label "การแรเงา 3 มิติ">
 <!ENTITY threeDShading.accessKey "ร">
 <!ENTITY saveSettings.label "ใช้เป็นค่าเริ่มต้น">

@@ -4,11 +4,8 @@
 
 <!ENTITY e2eTitle.label "Amgryptio Pen-i-Ben">
 <!ENTITY e2eLearnMore.label "Dysgu rhagor">
-
 <!ENTITY e2eEnc.description "Heb amgryptio pen-i-ben mae cynnwys negeseuon yn hawdd eu hamlygu i'ch darparwr e-bost ac i wyliadwriaeth dorfol.">
-
 <!ENTITY e2eTechPref.description "Y dewis o dechnoleg amgryptio:">
-
 <!ENTITY encryptionCert2.message "Tystysgrif bersonol ar gyfer amgryptio:">
 <!ENTITY digitalSign.certificate.button "Dewis…">
 <!ENTITY digitalSign.certificate.accesskey "S">
@@ -20,27 +17,20 @@
 <!ENTITY encryption.certificate_clear.accesskey "l">
 <!ENTITY signingGroupTitle.label "Llofnodi Digidol">
 <!ENTITY signingCert2.message "Tystysgrif bersonol ar gyfer amgryptio:">
-
 <!ENTITY sendingDefaults.label "Gosodiadau rhagosodedig ar gyfer anfon negeseuon">
-
 <!ENTITY technologyAutomatic.label "Dewis yn awtomatig ar sail yr allweddi neu'r tystysgrifau sydd ar gael">
-
 <!ENTITY certificates2.label "S/MIME">
 <!ENTITY manageCerts3.label "Rheoli Tystysgrifau S/MIME">
 <!ENTITY manageCerts3.accesskey "M">
 <!ENTITY manageDevices2.label "Dyfeisiau Diogelwch S/MIME">
 <!ENTITY manageDevices2.accesskey "y">
-
 <!ENTITY technologySMIME.label "Dewis S/MIME">
 <!ENTITY technologyOpenPGP.label "Dewis OpenPGP">
-
 <!ENTITY openpgpKeys.label "OpenPGP">
-
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Dewis Tystysgrif">
-<!ENTITY certPicker.info  "Tystysgrif:">
+<!ENTITY certPicker.info "Tystysgrif:">
 <!ENTITY certPicker.detailsLabel "Manylion y dystysgrif hon:">
-
 <!ENTITY openpgpKey.message "Allwedd bersonol ar gyfer amgryptio a llofnodi digidol:">
 <!ENTITY openpgpKey.button "Gosod Allwedd Bersonol…">
 <!ENTITY openpgpKey.accesskey "G">

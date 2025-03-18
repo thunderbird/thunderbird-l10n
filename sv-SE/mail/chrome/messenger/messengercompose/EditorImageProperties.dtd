@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Egenskaper för bild">
-
 <!ENTITY pixelsPopup.value "pixlar">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Bildens plats:">
 <!ENTITY locationEditField.accessKey "s">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Skriv in text som ska visas i stället för bild">
 <!ENTITY noAltText.label "Använd inte alternativ text">
 <!ENTITY noAltText.accessKey "i">
-
 <!ENTITY previewBox.label "Förhandsgranska bild">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Ursprunglig storlek:">
 <!ENTITY actualSizeRadio.label "Ursprunglig storlek">
 <!ENTITY actualSizeRadio.accessKey "U">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Behåll proportioner">
 <!ENTITY constrainCheckbox.accessKey "e">
 <!ENTITY constrainCheckbox.tooltip "Behåll bredd/höjdförhållande">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Bildkarta">
 <!ENTITY removeImageMapButton.label "Ta bort">
 <!ENTITY removeImageMapButton.accessKey "b">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Ställ text till bilden">
 <!ENTITY bottomPopup.value "Nederst">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "I mitten">
 <!ENTITY wrapRightPopup.value "Ombrytning till höger">
 <!ENTITY wrapLeftPopup.value "Ombrytning till vänster">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Blankutrymme">
 <!ENTITY leftRightEditField.label "Vänster och höger:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "Ö">
 <!ENTITY borderEditField.label "Heldragen ram:">
 <!ENTITY borderEditField.accessKey "e">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Visa ram runt länkad bild">
 <!ENTITY showImageLinkBorder.accessKey "u">
 <!ENTITY LinkAdvancedEditButton.label "Länkegenskaper…">
 <!ENTITY LinkAdvancedEditButton.accessKey "L">
 <!ENTITY LinkAdvancedEditButton.tooltip "Lägg till eller modifiera HTML-attribut, stilattribut och JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Formulär">
 <!ENTITY imageLocationTab.label "Plats">

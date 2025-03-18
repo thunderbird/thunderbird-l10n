@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Sprawdź pisownię">
-
 <!ENTITY misspelledWord.label "Błędne słowo:">
 <!ENTITY wordEditField.label "Zamień na:">
 <!ENTITY wordEditField.accessKey "m">

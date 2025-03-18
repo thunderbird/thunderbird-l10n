@@ -34,14 +34,11 @@
 <!-- LOCALIZATION NOTE (attachVCard.label) : do not translate "vCard" in below line -->
 <!ENTITY attachVCard.label "Прымацоўваць маю vCard да паведамленняў">
 <!ENTITY attachVCard.accesskey "П">
-
 <!ENTITY manageIdentities.label "Кіраваць ідэнтыфікацыйнымі данымі…">
 <!ENTITY manageIdentities.accesskey "К">
-
 <!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
 <!ENTITY smtpName.label "Сервер выходнай пошты (SMTP):">
 <!ENTITY smtpName.accesskey "х">
 <!ENTITY smtpDefaultServer.label "Выкарыстоўваць прадвызначаны сервер">
-
 <!ENTITY smtpServerEdit.label "Рэдагаваць SMTP-сервер…">
 <!ENTITY smtpServerEdit.accesskey "э">

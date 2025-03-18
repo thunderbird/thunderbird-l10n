@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Tabelu zasadźić">
-
 <!ENTITY size.label "Wulkosć">
 <!ENTITY numRowsEditField.label "Rjadki:">
 <!ENTITY numRowsEditField.accessKey "R">

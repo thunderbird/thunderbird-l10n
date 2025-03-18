@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Mewnosod Mathemateg">
-
 <!ENTITY sourceEditField.label "Rhosi'r cod ffynhonnell LaTeX:">
-
 <!ENTITY options.label "Dewisiadau">
 <!ENTITY optionInline.label "Modd mewnlin">
 <!ENTITY optionInline.accesskey "m">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "c">
 <!ENTITY optionRTL.label "Cyfeiriad de i'r chwith">
 <!ENTITY optionRTL.accesskey "d">
-
 <!ENTITY insertButton.label "Mewnosod">
 <!ENTITY insertButton.accesskey "M">

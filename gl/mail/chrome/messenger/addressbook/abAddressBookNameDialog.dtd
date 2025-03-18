@@ -3,5 +3,5 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Labels -->
-<!ENTITY name.label      "Nome da axenda de enderezos:">
-<!ENTITY name.accesskey  "x">
+<!ENTITY name.label "Nome da axenda de enderezos:">
+<!ENTITY name.accesskey "x">

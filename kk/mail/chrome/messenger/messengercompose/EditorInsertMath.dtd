@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Математикалық таңбаларды енгізу">
-
 <!ENTITY sourceEditField.label "LaTeX бастапқы кодын енгізу:">
-
 <!ENTITY options.label "Баптаулар">
 <!ENTITY optionInline.label "Мәтін ішіндегі режимі">
 <!ENTITY optionInline.accesskey "т">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "о">
 <!ENTITY optionRTL.label "Оңнан солға мәтін">
 <!ENTITY optionRTL.accesskey "л">
-
 <!ENTITY insertButton.label "Енгізу">
 <!ENTITY insertButton.accesskey "Е">

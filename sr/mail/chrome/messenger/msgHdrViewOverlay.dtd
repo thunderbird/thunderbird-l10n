@@ -8,7 +8,6 @@
 <!ENTITY author.label "Писац">
 <!ENTITY organizationField4.label "Организација">
 <!ENTITY replyToField4.label "Одговор за">
-
 <!ENTITY subjectField4.label "Тема">
 <!ENTITY ccField4.label "Коп">
 <!ENTITY bccField4.label "сКоп">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "ИБ поруке">
 <!ENTITY inReplyToField4.label "Као одговор за">
 <!ENTITY originalWebsite4.label "Веб страница">
-
 <!ENTITY hdrArchiveButton1.label "Архивирај">
 <!ENTITY hdrArchiveButton1.tooltip "Архивирај ову поруку">
 <!ENTITY hdrSmartReplyButton1.label "Паметно одговори">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Обележи ову поруку као непожељну">
 <!ENTITY hdrTrashButton1.label "Обриши">
 <!ENTITY hdrTrashButton1.tooltip "Обриши ову поруку">
-
 <!ENTITY hdrViewToolbarShowFull.label "Прикажи иконице и текст">
 <!ENTITY hdrViewToolbarShowFull.accesskey "ц">
 <!ENTITY hdrViewToolbarShowIcons.label "Прикажи само иконице">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "т">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Увек прикажи одговор пошиљаоцу">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "г">
-
 <!ENTITY otherActionsButton2.label "Више">
 <!ENTITY otherActionsButton.tooltip "Више радњи">
 <!ENTITY otherActionsOpenConversation1.label "Отвори унутар разговора">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "д">
 <!ENTITY otherActionsPrint1.label "Одштампај…">
 <!ENTITY otherActionsPrint1.accesskey "ј">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "На почетку прикажи окно за прилоге">
-<!ENTITY startExpandedCmd.accesskey    "л">
-
+<!ENTITY startExpandedCmd.label "На почетку прикажи окно за прилоге">
+<!ENTITY startExpandedCmd.accesskey "л">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Отвори">
-<!ENTITY openAttachmentCmd.accesskey    "О">
-<!ENTITY saveAsAttachmentCmd.label    "Сачувај као…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "С">
-<!ENTITY detachAttachmentCmd.label    "Откачи…">
-<!ENTITY detachAttachmentCmd.accesskey    "к">
-<!ENTITY deleteAttachmentCmd.label    "Обриши">
-<!ENTITY deleteAttachmentCmd.accesskey    "б">
-<!ENTITY openAllAttachmentsCmd.label    "Отвори све…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "О">
-<!ENTITY saveAllAttachmentsCmd.label    "Сачувај све…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "С">
-<!ENTITY detachAllAttachmentsCmd.label    "Откачи све…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "к">
-<!ENTITY deleteAllAttachmentsCmd.label    "Обриши све…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "б">
-
+<!ENTITY openAttachmentCmd.label "Отвори">
+<!ENTITY openAttachmentCmd.accesskey "О">
+<!ENTITY saveAsAttachmentCmd.label "Сачувај као…">
+<!ENTITY saveAsAttachmentCmd.accesskey "С">
+<!ENTITY detachAttachmentCmd.label "Откачи…">
+<!ENTITY detachAttachmentCmd.accesskey "к">
+<!ENTITY deleteAttachmentCmd.label "Обриши">
+<!ENTITY deleteAttachmentCmd.accesskey "б">
+<!ENTITY openAllAttachmentsCmd.label "Отвори све…">
+<!ENTITY openAllAttachmentsCmd.accesskey "О">
+<!ENTITY saveAllAttachmentsCmd.label "Сачувај све…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "С">
+<!ENTITY detachAllAttachmentsCmd.label "Откачи све…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "к">
+<!ENTITY deleteAllAttachmentsCmd.label "Обриши све…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "б">
 <!ENTITY openAttachment.tooltip "Отвори закачену датотеку">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Отворите садржајну фасциклу">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "Ф">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Прикажи у Finder-у">
+<!ENTITY detachedAttachmentFolder.show.label "Отворите садржајну фасциклу">
+<!ENTITY detachedAttachmentFolder.show.accesskey "Ф">
+<!ENTITY detachedAttachmentFolder.showMac.label "Прикажи у Finder-у">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "Ф">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Сачувај">
-<!ENTITY saveAttachmentButton1.tooltip     "Сачувај закачену датотеку">
-<!ENTITY saveAllAttachmentsButton1.label   "Сачувај све">
+<!ENTITY saveAttachmentButton1.label "Сачувај">
+<!ENTITY saveAttachmentButton1.tooltip "Сачувај закачену датотеку">
+<!ENTITY saveAllAttachmentsButton1.label "Сачувај све">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Сачувај све закачене датотеке">
-
-<!ENTITY copyLinkCmd.label        "Копирај одредиште везе">
-<!ENTITY copyLinkCmd.accesskey    "м">
-
+<!ENTITY copyLinkCmd.label "Копирај одредиште везе">
+<!ENTITY copyLinkCmd.accesskey "м">
 <!ENTITY CopyMessageId.label "Копирај ИБ поруке">
 <!ENTITY CopyMessageId.accesskey "У">
 <!ENTITY OpenMessageForMsgId.label "Отвори поруку зарад ИБ-а">

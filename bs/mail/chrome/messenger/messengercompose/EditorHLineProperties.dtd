@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Postavke horizontalne linije">
-
 <!ENTITY dimensionsBox.label "Dimenzije">
 <!ENTITY heightEditField.label "Visina:">
 <!ENTITY heightEditField.accessKey "V">
@@ -19,7 +17,6 @@
 <!ENTITY centerRadio.accessKey "S">
 <!ENTITY rightRadio.label "Desno">
 <!ENTITY rightRadio.accessKey "D">
-
 <!ENTITY threeDShading.label "3-D sjenčenje">
 <!ENTITY threeDShading.accessKey "j">
 <!ENTITY saveSettings.label "Koristi kao glavno">

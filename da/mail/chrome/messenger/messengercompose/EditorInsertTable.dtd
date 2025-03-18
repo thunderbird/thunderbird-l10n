@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Indsæt tabel">
-
 <!ENTITY size.label "Størrelse:">
 <!ENTITY numRowsEditField.label "Rækker:">
 <!ENTITY numRowsEditField.accessKey "R">

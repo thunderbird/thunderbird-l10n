@@ -5,16 +5,13 @@
 <!ENTITY window.title "Reguli pentru filtrare">
 <!ENTITY filterName.label "Denumire filtru:">
 <!ENTITY filterName.accesskey "i">
-
 <!ENTITY junk.label "Nesolicitat">
 <!ENTITY notJunk.label "Nu e nesolicitat">
-
 <!ENTITY lowestPriorityCmd.label "Cea mai mică">
 <!ENTITY lowPriorityCmd.label "Mică">
 <!ENTITY normalPriorityCmd.label "Normală">
 <!ENTITY highPriorityCmd.label "Mare">
 <!ENTITY highestPriorityCmd.label "Cea mai mare">
-
 <!ENTITY contextDesc.label "Aplică filtrul:">
 <!ENTITY contextIncomingMail.label "La obținerea unui mail nou:">
 <!ENTITY contextIncomingMail.accesskey "m">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "La arhivare">
 <!ENTITY contextArchive.accesskey "A">
 <!ENTITY contextPeriodic.accesskey "e">
-
 <!ENTITY filterActionDesc.label "Efectuează următoarele acțiuni:">
 <!ENTITY filterActionDesc.accesskey "E">
-
 <!ENTITY filterActionOrderWarning.label "Notă: Acțiunile filtrului vor fi executate într-o ordine diferită.">
 <!ENTITY filterActionOrder.label "Vezi ordinea de execuție">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Mută mesajul în">
 <!ENTITY copyMessage.label "Copiază mesajul în">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Ignoră conversația subordonată">
 <!ENTITY watchThread.label "Urmărește conversația">
 <!ENTITY stopExecution.label "Oprește executarea filtrului">
-
 <!ENTITY addAction.tooltip "Adaugă o secțiune nouă">
 <!ENTITY removeAction.tooltip "Elimină această acțiune">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

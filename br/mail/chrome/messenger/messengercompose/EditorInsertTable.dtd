@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Enlakaat un daolenn">
-
 <!ENTITY size.label "Ment">
 <!ENTITY numRowsEditField.label "Renkadoù :">
 <!ENTITY numRowsEditField.accessKey "n">

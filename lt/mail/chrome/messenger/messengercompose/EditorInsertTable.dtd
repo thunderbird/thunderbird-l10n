@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Lentelės įterpimas">
-
 <!ENTITY size.label "Lentelės dydis">
 <!ENTITY numRowsEditField.label "Eilučių sk.:">
 <!ENTITY numRowsEditField.accessKey "E">

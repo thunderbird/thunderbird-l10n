@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Kajkosće wobraza">
-
 <!ENTITY pixelsPopup.value "pikselow">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Adresa wobraza:">
 <!ENTITY locationEditField.accessKey "A">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Zapodajće tekst, kotryž ma so město wobraza zwobraznić">
 <!ENTITY noAltText.label "Alternatiwny tekst njewužiwać">
 <!ENTITY noAltText.accessKey "l">
-
 <!ENTITY previewBox.label "Wobrazowy přehlad">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Woprawdźita wulkosć:">
 <!ENTITY actualSizeRadio.label "Woprawdźita wulkosć">
 <!ENTITY actualSizeRadio.accessKey "w">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Wobmjezować">
 <!ENTITY constrainCheckbox.accessKey "m">
 <!ENTITY constrainCheckbox.tooltip "Bokowy poměr wobraz wobchować">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Wobrazowa mapa">
 <!ENTITY removeImageMapButton.label "Wotstronić">
 <!ENTITY removeImageMapButton.accessKey "t">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Tekst po wobrazu wusměrić">
 <!ENTITY bottomPopup.value " Deleka">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value " Wosrjedź">
 <!ENTITY wrapRightPopup.value " Naprawo łamać">
 <!ENTITY wrapLeftPopup.value " Nalěwo łamać">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Wotstawk">
 <!ENTITY leftRightEditField.label "Nalěwo a naprawo:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "H">
 <!ENTITY borderEditField.label "Přećehnjena kroma:">
 <!ENTITY borderEditField.accessKey "P">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Kromu wokoło wobrazoweho wotkaza pokazać">
 <!ENTITY showImageLinkBorder.accessKey "K">
 <!ENTITY LinkAdvancedEditButton.label "Rozšěrjene wobdźělowanje wotkazow…">
 <!ENTITY LinkAdvancedEditButton.accessKey "l">
 <!ENTITY LinkAdvancedEditButton.tooltip "HTML-atributy, stilowe atributy a JavaScript-atributy přidać abo změnić">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Formular">
 <!ENTITY imageLocationTab.label "Adresa">

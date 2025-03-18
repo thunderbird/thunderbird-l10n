@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Usar colores personalisate:">
 <!ENTITY customColorsRadio.accessKey "P">
 <!ENTITY customColorsRadio.tooltip "Iste colores predefinite supplanta illos del navigator del visor">
-
 <!ENTITY normalText.label "Texto normal">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "Texto del ligamine">

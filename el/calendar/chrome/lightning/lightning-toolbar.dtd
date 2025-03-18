@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Ημερολόγιο">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Μετάβαση στην καρτέλα ημερολογίου">
+<!ENTITY lightning.toolbar.calendar.label "Ημερολόγιο">
+<!ENTITY lightning.toolbar.calendar.tooltip "Μετάβαση στην καρτέλα ημερολογίου">
 <!ENTITY lightning.toolbar.calendar.accesskey "η">
-<!ENTITY lightning.toolbar.task.label         "Εργασίες">
-<!ENTITY lightning.toolbar.task.tooltip       "Μετάβαση στην καρτέλα εργασιών">
-<!ENTITY lightning.toolbar.task.accesskey     "ε">
-
+<!ENTITY lightning.toolbar.task.label "Εργασίες">
+<!ENTITY lightning.toolbar.task.tooltip "Μετάβαση στην καρτέλα εργασιών">
+<!ENTITY lightning.toolbar.task.accesskey "ε">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Ημέρα">
-<!ENTITY lightning.toolbar.day.accesskey             "Η">
-<!ENTITY lightning.toolbar.week.label                "Εβδομάδα">
-<!ENTITY lightning.toolbar.week.accesskey            "Ε">
-<!ENTITY lightning.toolbar.multiweek.label           "Πολλές εβδομάδες">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "Π">
-<!ENTITY lightning.toolbar.month.label               "Μήνας">
-<!ENTITY lightning.toolbar.month.accesskey           "Μ">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Παράθυρο ημερολογίου">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "θ">
-<!ENTITY lightning.toolbar.calendarpane.label        "Εμφάνιση προβολής ημερολογίου">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "η">
+<!ENTITY lightning.toolbar.day.label "Ημέρα">
+<!ENTITY lightning.toolbar.day.accesskey "Η">
+<!ENTITY lightning.toolbar.week.label "Εβδομάδα">
+<!ENTITY lightning.toolbar.week.accesskey "Ε">
+<!ENTITY lightning.toolbar.multiweek.label "Πολλές εβδομάδες">
+<!ENTITY lightning.toolbar.multiweek.accesskey "Π">
+<!ENTITY lightning.toolbar.month.label "Μήνας">
+<!ENTITY lightning.toolbar.month.accesskey "Μ">
+<!ENTITY lightning.toolbar.calendarmenu.label "Παράθυρο ημερολογίου">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "θ">
+<!ENTITY lightning.toolbar.calendarpane.label "Εμφάνιση προβολής ημερολογίου">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "η">

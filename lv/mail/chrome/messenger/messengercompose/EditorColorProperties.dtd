@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Lietot pielāgotas krāsas:">
 <!ENTITY customColorsRadio.accessKey "p">
 <!ENTITY customColorsRadio.tooltip "Šie krāsu iestatījumi ignorē skatītāja pārlūka iestatījumus">
-
 <!ENTITY normalText.label "Parasts teksts">
 <!ENTITY normalText.accessKey "P">
 <!ENTITY linkText.label "Saites teksts">

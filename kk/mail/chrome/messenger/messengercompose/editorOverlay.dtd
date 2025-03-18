@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "Дәйексөз ретінде кірістіру">
 <!ENTITY pasteAsQuotationCmd.accesskey "Д">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Енгізу">
 <!ENTITY insertMenu.accesskey "Е">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "Т">
 <!ENTITY insertBreakAllCmd.label "Суреттер астында ажырауды кірістіру">
 <!ENTITY insertBreakAllCmd.accesskey "р">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Сілтемені жасау…">
 <!ENTITY createLinkCmd.accesskey "С">
 <!ENTITY editLinkCmd.label "Сілтемені жаңа құрастырушыда түзету">
 <!ENTITY editLinkCmd.accesskey "е">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Қаріпті таңдау">
 <!ENTITY fontfaceMenu.label "Қаріп">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Қаріп өлшемін таңдау">
 <!ENTITY decreaseFontSize.label "Кішірек">
 <!ENTITY decreaseFontSize.accesskey "к">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "Үлкенірек">
 <!ENTITY increaseFontSize.accesskey "Ү">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "Өлшемі">
 <!ENTITY fontSizeMenu.accesskey "ш">
 <!ENTITY size-tinyCmd.label "Өте кішкентай">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "т">
 <!ENTITY size-hugeCmd.label "Ең үлкен">
 <!ENTITY size-hugeCmd.accesskey "е">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Мәтін стилі">
 <!ENTITY fontStyleMenu.accesskey "с">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "м">
 <!ENTITY styleVar.label "Айнымалы">
 <!ENTITY styleVar.accesskey "А">
-
 <!ENTITY formatFontColor.label "Мәтін түсі…">
 <!ENTITY formatFontColor.accesskey "с">
 <!ENTITY tableOrCellColor.label "Кесте не ұяшықтың фон түсі…">
 <!ENTITY tableOrCellColor.accesskey "ф">
-
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "Атаулы байланыстарды өшіру">
 <!ENTITY formatRemoveNamedAnchors.accesskey "р">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
-
 <!ENTITY paragraphMenu.label "Абзац">
 <!ENTITY paragraphMenu.accesskey "А">
 <!ENTITY paragraphParagraphCmd.label "Абзац">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "А">
 <!ENTITY paragraphPreformatCmd.label "Берілген пішім">
 <!ENTITY paragraphPreformatCmd.accesskey "Б">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Тізім">
 <!ENTITY formatlistMenu.accesskey "Т">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "ы">
 <!ENTITY listPropsCmd.label "Тізім қасиеттері…">
 <!ENTITY listPropsCmd.accesskey "Т">
-
 <!ENTITY ParagraphSelect.tooltip "Абзац пішімін таңдау">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Дене мәтіні">
 <!ENTITY bodyTextCmd.accesskey "т">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Туралау">
 <!ENTITY alignMenu.accesskey "а">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "Енi бойынша">
 <!ENTITY alignJustify.accesskey "н">
 <!ENTITY alignJustify.tooltip "Енімен туралау">
-
 <!ENTITY increaseIndent.label "Шегінуді үлкейту">
 <!ENTITY increaseIndent.accesskey "л">
 <!ENTITY increaseIndent.key "]">
 <!ENTITY decreaseIndent.label "Шегiнiстi азайту">
 <!ENTITY decreaseIndent.accesskey "з">
 <!ENTITY decreaseIndent.key "[">
-
 <!ENTITY colorsAndBackground.label "Бет түсі және фон…">
 <!ENTITY colorsAndBackground.accesskey "ф">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Кесте">
 <!ENTITY tableMenu.accesskey "с">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Таңдау">
 <!ENTITY tableSelectMenu.accesskey "а">
-
 <!ENTITY tableSelectMenu2.label "Кестені таңдау">
 <!ENTITY tableSelectMenu2.accesskey "т">
 <!ENTITY tableInsertMenu2.label "Кестені кірістіру">
 <!ENTITY tableInsertMenu2.accesskey "к">
 <!ENTITY tableDeleteMenu2.label "Кестені өшіру">
 <!ENTITY tableDeleteMenu2.accesskey "ш">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Енгізу">
 <!ENTITY tableInsertMenu.accesskey "Е">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Өшіру">
 <!ENTITY tableDeleteMenu.accesskey "р">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "j">
 <!ENTITY tableJoinCells.accesskey "j">
 <!ENTITY tableSplitCell.label "Ұяшықты бөліп жіберу">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "ж">
 <!ENTITY tableProperties.label "Кесте қасиеттері…">
 <!ENTITY tableProperties.accesskey "и">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Сурет">
 <!ENTITY imageToolbarCmd.tooltip "Жаңа суретті енгізу немесе таңдалған суреттің қасиеттерін түзету">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Жаңа атаулы байланысты енгізу немесе таңдалған байланыстың қасиеттерін түзету">
 <!ENTITY TextColorButton.tooltip "Мәтін үшін түсті таңдау">
 <!ENTITY BackgroundColorButton.tooltip "Фон үшін түсті таңдау">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "Қаріп өлшемін орнату">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Кішірек қаріп">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "Мәтінді ортасымен туралау">
 <!ENTITY alignRightButton.tooltip "Мәтінді оң жақ өріспен туралау">
 <!ENTITY alignJustifyButton.tooltip "Мәтінді сол және оң жақ өрістерімен туралау">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Кірістіру">
-<!ENTITY insertTOC.accesskey      "р">
-<!ENTITY updateTOC.label          "Жаңарту">
-<!ENTITY updateTOC.accesskey      "Ж">
-<!ENTITY removeTOC.label          "Өшіру">
-<!ENTITY removeTOC.accesskey      "ш">
-<!ENTITY tocMenu.label            "Мазмұнының кестесі…">
-<!ENTITY tocMenu.accesskey        "с">
+<!ENTITY insertTOC.label "Кірістіру">
+<!ENTITY insertTOC.accesskey "р">
+<!ENTITY updateTOC.label "Жаңарту">
+<!ENTITY updateTOC.accesskey "Ж">
+<!ENTITY removeTOC.label "Өшіру">
+<!ENTITY removeTOC.accesskey "ш">
+<!ENTITY tocMenu.label "Мазмұнының кестесі…">
+<!ENTITY tocMenu.accesskey "с">

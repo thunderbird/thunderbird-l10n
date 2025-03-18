@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Roghainnean a' chunntais">
-<!ENTITY  accountManagerCloseButton.label "Dùin">
-
+<!ENTITY accountManagerCloseButton.label "Dùin">
 <!ENTITY accountActionsButton.label "Gnìomhan nan cunntas">
 <!ENTITY accountActionsButton.accesskey "a">
 <!ENTITY addMailAccountButton.label "Cuir cunntas puist-dhealain ris…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "d">
 <!ENTITY removeButton.label "Thoir air falbh an cunntas">
 <!ENTITY removeButton.accesskey "r">
-
 <!ENTITY addonsButton.label "Leudachain ⁊ ùrlaran">

@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Tabel invoegen">
-
 <!ENTITY size.label "Grootte">
 <!ENTITY numRowsEditField.label "Rijen:">
 <!ENTITY numRowsEditField.accessKey "R">

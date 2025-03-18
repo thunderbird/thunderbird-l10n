@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Словарь пользователя">
-
 <!ENTITY wordEditField.label "Новое слово:">
 <!ENTITY wordEditField.accessKey "Н">
 <!ENTITY AddButton.label "Добавить">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "С">
 <!ENTITY RemoveButton.label "Убрать">
 <!ENTITY RemoveButton.accessKey "У">
-
 <!ENTITY CloseButton.label "Закрыть">
 <!ENTITY CloseButton.accessKey "З">

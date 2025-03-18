@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "Ievietot kā citātu">
 <!ENTITY pasteAsQuotationCmd.accesskey "c">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Ievietot">
 <!ENTITY insertMenu.accesskey "I">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "R">
 <!ENTITY insertBreakAllCmd.label "Pārtraukt zem attēla(iem)">
 <!ENTITY insertBreakAllCmd.accesskey "p">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Izveidot saiti…">
 <!ENTITY createLinkCmd.accesskey "I">
 <!ENTITY editLinkCmd.label "Rediģēt saiti Jaunā salicējā">
 <!ENTITY editLinkCmd.accesskey "R">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Izvēlieties fontu">
 <!ENTITY fontfaceMenu.label "Fonts">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Izvēlieties fonta izmēru">
 <!ENTITY decreaseFontSize.label "Mazāks">
 <!ENTITY decreaseFontSize.accesskey "m">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "Lielāks">
 <!ENTITY increaseFontSize.accesskey "l">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "Izmērs">
 <!ENTITY fontSizeMenu.accesskey "z">
 <!ENTITY size-tinyCmd.label "Sīks">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "o">
 <!ENTITY size-hugeCmd.label "Milzīgs">
 <!ENTITY size-hugeCmd.accesskey "M">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Teksta stils">
 <!ENTITY fontStyleMenu.accesskey "T">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "p">
 <!ENTITY styleVar.label "Dažāds">
 <!ENTITY styleVar.accesskey "D">
-
 <!ENTITY formatFontColor.label "Teksta krāsa…">
 <!ENTITY formatFontColor.accesskey "T">
 <!ENTITY tableOrCellColor.label "Tabulas vai šūnas fona krāsa…">
 <!ENTITY tableOrCellColor.accesskey "T">
-
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "Noņemt nosauktos enkurus">
 <!ENTITY formatRemoveNamedAnchors.accesskey "N">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
-
 <!ENTITY paragraphMenu.label "Rindkopa">
 <!ENTITY paragraphMenu.accesskey "R">
 <!ENTITY paragraphParagraphCmd.label "Rindkopa">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "A">
 <!ENTITY paragraphPreformatCmd.label "Priekšformatēts">
 <!ENTITY paragraphPreformatCmd.accesskey "p">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Saraksts">
 <!ENTITY formatlistMenu.accesskey "S">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "D">
 <!ENTITY listPropsCmd.label "Parādīt īpašības…">
 <!ENTITY listPropsCmd.accesskey "P">
-
 <!ENTITY ParagraphSelect.tooltip "Izvēlieties rindkopas formātu">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Pamatteksts">
 <!ENTITY bodyTextCmd.accesskey "T">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Līdzināt">
 <!ENTITY alignMenu.accesskey "L">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "Taisnot">
 <!ENTITY alignJustify.accesskey "T">
 <!ENTITY alignJustify.tooltip "Līdzināt taisnoti">
-
 <!ENTITY increaseIndent.label "Palielināt atkāpi">
 <!ENTITY increaseIndent.accesskey "P">
 <!ENTITY increaseIndent.key "]">
 <!ENTITY decreaseIndent.label "Samazināt atkāpi">
 <!ENTITY decreaseIndent.accesskey "S">
 <!ENTITY decreaseIndent.key "[">
-
 <!ENTITY colorsAndBackground.label "Lapas krāsas un fons…">
 <!ENTITY colorsAndBackground.accesskey "k">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Tabula">
 <!ENTITY tableMenu.accesskey "T">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Atlasīt">
 <!ENTITY tableSelectMenu.accesskey "A">
-
 <!ENTITY tableSelectMenu2.label "Tabulas izvēle">
 <!ENTITY tableSelectMenu2.accesskey "T">
 <!ENTITY tableInsertMenu2.label "Tabulas ievietošana">
 <!ENTITY tableInsertMenu2.accesskey "I">
 <!ENTITY tableDeleteMenu2.label "Tabulas dzēšana">
 <!ENTITY tableDeleteMenu2.accesskey "D">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Ievietot">
 <!ENTITY tableInsertMenu.accesskey "I">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Dzēst">
 <!ENTITY tableDeleteMenu.accesskey "D">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "s">
 <!ENTITY tableJoinCells.accesskey "s">
 <!ENTITY tableSplitCell.label "Sadalīt šūnu">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "I">
 <!ENTITY tableProperties.label "Tabulas īpašības…">
 <!ENTITY tableProperties.accesskey "T">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Attēls">
 <!ENTITY imageToolbarCmd.tooltip "Ievietot jaunu attēlu vai mainīt atlasītā attēla īpašības">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Ievietot jaunu nosaukto enkuru vai mainīt atlasītā nosauktā enkura īpašības">
 <!ENTITY TextColorButton.tooltip "Izvēlieties krāsu tekstam">
 <!ENTITY BackgroundColorButton.tooltip "Izvēlieties fona krāsu">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "Uzstādiet fonta izmēru">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Mazāks fonta izmērs">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "Līdzināt tekstu ap centru">
 <!ENTITY alignRightButton.tooltip "Līdzināt tekstu gar labo piemali">
 <!ENTITY alignJustifyButton.tooltip "Līdzināt tekstu gar kreiso un labo piemali">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Ievietot">
-<!ENTITY insertTOC.accesskey      "I">
-<!ENTITY updateTOC.label          "Atjaunot">
-<!ENTITY updateTOC.accesskey      "A">
-<!ENTITY removeTOC.label          "Noņemt">
-<!ENTITY removeTOC.accesskey      "N">
-<!ENTITY tocMenu.label            "Satura rādītājs…">
-<!ENTITY tocMenu.accesskey        "S">
+<!ENTITY insertTOC.label "Ievietot">
+<!ENTITY insertTOC.accesskey "I">
+<!ENTITY updateTOC.label "Atjaunot">
+<!ENTITY updateTOC.accesskey "A">
+<!ENTITY removeTOC.label "Noņemt">
+<!ENTITY removeTOC.accesskey "N">
+<!ENTITY tocMenu.label "Satura rādītājs…">
+<!ENTITY tocMenu.accesskey "S">

@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Својства на сликата">
-
 <!ENTITY pixelsPopup.value "пиксели">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Локација на сликата:">
 <!ENTITY locationEditField.accessKey "Л">
@@ -21,11 +19,9 @@
 <!ENTITY altTextEditField.tooltip "Внесете текст кој ќе се прикаже место сликата">
 <!ENTITY noAltText.label "Не користи постојан текст">
 <!ENTITY noAltText.accessKey "Н">
-
 <!ENTITY previewBox.label "Преглед на слика">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Вистинска големина:">
 <!ENTITY actualSizeRadio.label "Вистинска големина">
 <!ENTITY actualSizeRadio.accessKey "а">
@@ -40,12 +36,10 @@
 <!ENTITY constrainCheckbox.label "Ограничување">
 <!ENTITY constrainCheckbox.accessKey "н">
 <!ENTITY constrainCheckbox.tooltip "Maintain the image's aspect ratio">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Мапа на сликата">
 <!ENTITY removeImageMapButton.label "Отстрани">
 <!ENTITY removeImageMapButton.accessKey "р">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Порамни го текстот до сликата">
 <!ENTITY bottomPopup.value "На дното">
@@ -53,7 +47,6 @@
 <!ENTITY centerPopup.value "Во центарот">
 <!ENTITY wrapRightPopup.value "Скрати од десно">
 <!ENTITY wrapLeftPopup.value "Скрати од лево">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Растојание">
 <!ENTITY leftRightEditField.label "Лево и десно:">
@@ -62,11 +55,9 @@
 <!ENTITY topBottomEditField.accessKey "Д">
 <!ENTITY borderEditField.label "Полна граница:">
 <!ENTITY borderEditField.accessKey "л">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Полна граница околу поврзаната слика">
 <!ENTITY showImageLinkBorder.accessKey "р">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Образец">
 <!ENTITY imageLocationTab.label "Локација">

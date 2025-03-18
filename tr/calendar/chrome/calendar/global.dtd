@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "Ocak" >
-<!ENTITY month.2.name "Şubat" >
-<!ENTITY month.3.name "Mart" >
-<!ENTITY month.4.name "Nisan" >
-<!ENTITY month.5.name "Mayıs" >
-<!ENTITY month.6.name "Haziran" >
-<!ENTITY month.7.name "Temmuz" >
-<!ENTITY month.8.name "Ağustos" >
-<!ENTITY month.9.name "Eylül" >
-<!ENTITY month.10.name "Ekim" >
-<!ENTITY month.11.name "Kasım" >
-<!ENTITY month.12.name "Aralık" >
-
+<!ENTITY month.1.name "Ocak">
+<!ENTITY month.2.name "Şubat">
+<!ENTITY month.3.name "Mart">
+<!ENTITY month.4.name "Nisan">
+<!ENTITY month.5.name "Mayıs">
+<!ENTITY month.6.name "Haziran">
+<!ENTITY month.7.name "Temmuz">
+<!ENTITY month.8.name "Ağustos">
+<!ENTITY month.9.name "Eylül">
+<!ENTITY month.10.name "Ekim">
+<!ENTITY month.11.name "Kasım">
+<!ENTITY month.12.name "Aralık">
 <!ENTITY showToday.tooltip "Bugüne git">
 <!ENTITY onedayforward.tooltip "Bir gün ileri">
 <!ENTITY onedaybackward.tooltip "Bir gün geri">

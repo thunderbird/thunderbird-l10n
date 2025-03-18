@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Usar colores personalizados:">
 <!ENTITY customColorsRadio.accessKey "C">
 <!ENTITY customColorsRadio.tooltip "Esta configuración de color reemplaza la configuración del navegador de visualización">
-
 <!ENTITY normalText.label "Texto normal">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "Enlace de texto">

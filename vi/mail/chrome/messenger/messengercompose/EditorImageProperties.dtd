@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Thuộc tính hình ảnh…">
-
 <!ENTITY pixelsPopup.value "pixel">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Đường dẫn hình ảnh:">
 <!ENTITY locationEditField.accessKey "L">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Gõ văn bản hiển thị thay cho hình ảnh">
 <!ENTITY noAltText.label "Không dùng văn bản thay thế">
 <!ENTITY noAltText.accessKey "D">
-
 <!ENTITY previewBox.label "Xem trước hình ảnh">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Kích thước thực:">
 <!ENTITY actualSizeRadio.label "Kích thước thực">
 <!ENTITY actualSizeRadio.accessKey "A">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Giữ nguyên">
 <!ENTITY constrainCheckbox.accessKey "G">
 <!ENTITY constrainCheckbox.tooltip "Giữ nguyên tỉ lệ ảnh">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Bản đồ hình ảnh">
 <!ENTITY removeImageMapButton.label "Xóa">
 <!ENTITY removeImageMapButton.accessKey "R">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Căn chỉnh văn bản theo hình ảnh">
 <!ENTITY bottomPopup.value "Theo phần dưới">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "Ở giữa">
 <!ENTITY wrapRightPopup.value "Bao lại ở bên phải">
 <!ENTITY wrapLeftPopup.value "Bao lại ở bên trái">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Khoảng cách">
 <!ENTITY leftRightEditField.label "Trái và phải:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "T">
 <!ENTITY borderEditField.label "Đường viền Liên tục:">
 <!ENTITY borderEditField.accessKey "B">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Hiện viền xung quanh ảnh liên kết">
 <!ENTITY showImageLinkBorder.accessKey "B">
 <!ENTITY LinkAdvancedEditButton.label "Sửa đổi liên kết nâng cao…">
 <!ENTITY LinkAdvancedEditButton.accessKey "L">
 <!ENTITY LinkAdvancedEditButton.tooltip "Thêm hoặc chỉnh sửa thuộc tính HTML, thuộc tính style và JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Biểu mẫu">
 <!ENTITY imageLocationTab.label "Địa chỉ">

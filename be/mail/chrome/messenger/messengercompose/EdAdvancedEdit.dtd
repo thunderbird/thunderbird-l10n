@@ -1,18 +1,16 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY WindowTitle.label              "Рэдактар дадатковых уласцівасцяў">
-<!ENTITY AttName.label                  "Атрыбут: ">
-<!ENTITY AttValue.label                 "Значэнне: ">
-<!ENTITY PropertyName.label             "Уласцівасць: ">
-<!ENTITY currentattributesfor.label     "Бягучыя атрыбуты для: ">
-<!ENTITY tree.attributeHeader.label     "Атрыбут">
-<!ENTITY tree.propertyHeader.label      "Уласцівасць">
-<!ENTITY tree.valueHeader.label         "Значэнне">
-<!ENTITY tabHTML.label                  "HTML-атрыбуты">
-<!ENTITY tabCSS.label                   "Стылявое афармленне">
-<!ENTITY tabJSE.label                   "Падзеі JavaScript">
-
-<!ENTITY editAttribute.label    "Націсніце на элемент вышэй, каб адрэдагаваць яго значэнне">
-<!ENTITY removeAttribute.label  "Выдаліць">
+<!ENTITY WindowTitle.label "Рэдактар дадатковых уласцівасцяў">
+<!ENTITY AttName.label "Атрыбут: ">
+<!ENTITY AttValue.label "Значэнне: ">
+<!ENTITY PropertyName.label "Уласцівасць: ">
+<!ENTITY currentattributesfor.label "Бягучыя атрыбуты для: ">
+<!ENTITY tree.attributeHeader.label "Атрыбут">
+<!ENTITY tree.propertyHeader.label "Уласцівасць">
+<!ENTITY tree.valueHeader.label "Значэнне">
+<!ENTITY tabHTML.label "HTML-атрыбуты">
+<!ENTITY tabCSS.label "Стылявое афармленне">
+<!ENTITY tabJSE.label "Падзеі JavaScript">
+<!ENTITY editAttribute.label "Націсніце на элемент вышэй, каб адрэдагаваць яго значэнне">
+<!ENTITY removeAttribute.label "Выдаліць">

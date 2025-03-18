@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Syötä matematiikkaa">
-
 <!ENTITY sourceEditField.label "Kirjoita LaTeX-lähdekoodia:">
-
 <!ENTITY options.label "Asetukset">
 <!ENTITY optionInline.label "Tekstin seassa">
 <!ENTITY optionInline.accesskey "T">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "v">
 <!ENTITY optionRTL.label "Suunta oikealta vasemmalle">
 <!ENTITY optionRTL.accesskey "o">
-
 <!ENTITY insertButton.label "Syötä">
 <!ENTITY insertButton.accesskey "S">

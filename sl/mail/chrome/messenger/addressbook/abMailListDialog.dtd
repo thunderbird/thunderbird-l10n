@@ -3,19 +3,18 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Title -->
-<!ENTITY mailListWindowAdd.title        "Nov dopisni seznam">
-
+<!ENTITY mailListWindowAdd.title "Nov dopisni seznam">
 <!-- Labels and Access Keys -->
-<!ENTITY addToAddressBook.label         "Dodaj v: ">
-<!ENTITY addToAddressBook.accesskey     "D">
-<!ENTITY ListName.label                 "Ime seznama: ">
-<!ENTITY ListName.accesskey             "m">
-<!ENTITY ListNickName.label             "Vzdevek seznama: ">
-<!ENTITY ListNickName.accesskey         "V">
-<!ENTITY ListDescription.label          "Opis: ">
-<!ENTITY ListDescription.accesskey      "O">
+<!ENTITY addToAddressBook.label "Dodaj v: ">
+<!ENTITY addToAddressBook.accesskey "D">
+<!ENTITY ListName.label "Ime seznama: ">
+<!ENTITY ListName.accesskey "m">
+<!ENTITY ListNickName.label "Vzdevek seznama: ">
+<!ENTITY ListNickName.accesskey "V">
+<!ENTITY ListDescription.label "Opis: ">
+<!ENTITY ListDescription.accesskey "O">
 <!-- See bug 58485, when we implement drag and drop, add 'or drag addresses' back in -->
-<!ENTITY AddressTitle.label             "Vnesite e-poštne naslove, ki bi jih radi dodali na dopisni seznam:">
-<!ENTITY AddressTitle.accesskey         "n">
-<!ENTITY UpButton.label                 "Premakni gor">
-<!ENTITY DownButton.label               "Premakni dol">
+<!ENTITY AddressTitle.label "Vnesite e-poštne naslove, ki bi jih radi dodali na dopisni seznam:">
+<!ENTITY AddressTitle.accesskey "n">
+<!ENTITY UpButton.label "Premakni gor">
+<!ENTITY DownButton.label "Premakni dol">

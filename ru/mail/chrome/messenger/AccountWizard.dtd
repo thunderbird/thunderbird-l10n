@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Персональные данные">
 <!ENTITY identityDesc.label "Для каждой учётной записи имеются персональные данные, которые смогут увидеть читающие ваши письма адресаты.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Введите имя, которое будет появляться в поле «От» при отправке сообщений">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(например, «Иван Иванов»).">
 <!ENTITY fullnameLabel.label "Выводимое имя:">
 <!ENTITY fullnameLabel.accesskey "ы">
-
 <!ENTITY emailLabel.label "Адрес электронной почты:">
 <!ENTITY emailLabel.accesskey "д">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Введите имя этой учётной записи (например, «Рабочая», «Личная» или «Группы новостей»).">
 <!ENTITY accnameLabel.label "Имя учётной записи:">
 <!ENTITY accnameLabel.accesskey "у">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Поздравляем!">
 <!ENTITY completionText.label "Пожалуйста, проверьте, что приведённая ниже информация верна.">
 <!ENTITY newsServerNamePrefix.label "Имя сервера новостей (NNTP):">

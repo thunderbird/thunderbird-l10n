@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "دقق الإملاء">
-
 <!ENTITY misspelledWord.label "كلمة خاطئة:">
 <!ENTITY wordEditField.label "استبدل ب‍:">
 <!ENTITY wordEditField.accessKey "س">

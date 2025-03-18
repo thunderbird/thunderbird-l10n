@@ -11,7 +11,6 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " ֊ ">
 <!ENTITY mainWindow.preface "Աղբեւրը՝">
-
 <!ENTITY editMenu.label "Խմբագրել">
 <!ENTITY editMenu.accesskey "Խ">
 <!ENTITY fileMenu.label "Նիշ">
@@ -25,13 +24,11 @@
 <!ENTITY closeCmd.label "Փակել">
 <!ENTITY closeCmd.accesskey "Փ">
 <!ENTITY closeCmd.commandkey "W">
-
 <!-- LOCALIZATION NOTE :
-textEnlarge.commandkey3, textReduce.commandkey2 and
-textReset.commandkey2 are alternative acceleration keys for zoom.
-If shift key is needed with your locale popular keyboard for them,
-you can use these alternative items. Otherwise, their values should be empty.  -->
-
+     textEnlarge.commandkey3, textReduce.commandkey2 and
+     textReset.commandkey2 are alternative acceleration keys for zoom.
+     If shift key is needed with your locale popular keyboard for them,
+     you can use these alternative items. Otherwise, their values should be empty. -->
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textEnlarge.commandkey3 "">
@@ -39,13 +36,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReduce.commandkey2 "">
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
-
 <!ENTITY goToLineCmd.label "Անցնել տող…">
 <!ENTITY goToLineCmd.accesskey "Ա">
 <!ENTITY goToLineCmd.commandkey "l">
-
-<!ENTITY viewMenu.label           "Տեսք">
-<!ENTITY viewMenu.accesskey       "Տ">
+<!ENTITY viewMenu.label "Տեսք">
+<!ENTITY viewMenu.accesskey "Տ">
 <!ENTITY reloadCmd.label "Վերբեռնել">
 <!ENTITY reloadCmd.accesskey "Վ">
 <!ENTITY reloadCmd.commandkey "r">
@@ -61,23 +56,20 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReduce.accesskey "Ն">
 <!ENTITY menu_textReset.label "Սովորական">
 <!ENTITY menu_textReset.accesskey "Ս">
-
-<!ENTITY findOnCmd.label     "Որոնել այս էջում…">
+<!ENTITY findOnCmd.label "Որոնել այս էջում…">
 <!ENTITY findOnCmd.accesskey "Ո">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Կրկին որոնել">
+<!ENTITY findAgainCmd.label "Կրկին որոնել">
 <!ENTITY findAgainCmd.accesskey "ր">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
-
 <!ENTITY backCmd.label "Յետ">
 <!ENTITY backCmd.accesskey "Յ">
 <!ENTITY forwardCmd.label "Փոխանցել">
 <!ENTITY forwardCmd.accesskey "Փ">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
-
 <!ENTITY copyLinkCmd.label "Պատճէնել յղման տեղադրութիւնը">
 <!ENTITY copyLinkCmd.accesskey "Յ">
 <!ENTITY copyEmailCmd.label "Պատճէնել եղ֊փոստի հասցէն">

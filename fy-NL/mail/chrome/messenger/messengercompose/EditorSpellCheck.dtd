@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Stavering kontrolearje">
-
 <!ENTITY misspelledWord.label "Net yn wurdlist:">
 <!ENTITY wordEditField.label "Ferfange troch:">
 <!ENTITY wordEditField.accessKey "t">

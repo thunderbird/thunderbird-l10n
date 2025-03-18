@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "f">
 <!ENTITY chooseFileLinkButton.label "Parinkti failą…">
 <!ENTITY chooseFileLinkButton.accessKey "f">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Įveskite tinklalapio adresą, kelią iki vietinio failo, vietinę nuorodą arba pasirinkite žymę ar antraštę iš išskleidžiamojo sąrašo:">
 <!ENTITY LinkURLEditField2.accessKey "w">

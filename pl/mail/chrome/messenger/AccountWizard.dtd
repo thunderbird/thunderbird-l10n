@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Tożsamość">
 <!ENTITY identityDesc.label "Poniższe dane określają tożsamość posiadacza konta i umożliwiają odbiorcom wiadomości identyfikację nadawcy.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Wprowadź imię, nazwisko lub pseudonim, który będzie używany w polu „Od:” wysyłanych wiadomości">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(na przykład: „Michał Wołodyjowski”).">
 <!ENTITY fullnameLabel.label "Twoje imię, nazwisko lub pseudonim:">
 <!ENTITY fullnameLabel.accesskey "T">
-
 <!ENTITY emailLabel.label "Adres e-mail:">
 <!ENTITY emailLabel.accesskey "E">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Wprowadź nazwę, która będzie używana do oznaczenia tego konta (na przykład: „Konto osobiste”, „Konto służbowe”, „Grupy dyskusyjne”).">
 <!ENTITY accnameLabel.label "Nazwa konta:">
 <!ENTITY accnameLabel.accesskey "N">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Konfiguracja zakończona">
 <!ENTITY completionText.label "Kreator kont utworzy nowe konto używając poniższych danych. Czy wprowadzone dane są poprawne?">
 <!ENTITY newsServerNamePrefix.label "Nazwa serwera grup dyskusyjnych (NNTP):">

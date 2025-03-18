@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Ρυθμίσεις λογαριασμού">
-<!ENTITY  accountManagerCloseButton.label "Κλείσιμο">
-
+<!ENTITY accountManagerCloseButton.label "Κλείσιμο">
 <!ENTITY accountActionsButton.label "Ενέργειες λογαριασμού">
 <!ENTITY accountActionsButton.accesskey "ν">
 <!ENTITY addMailAccountButton.label "Προσθήκη λογαριασμού email…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "π">
 <!ENTITY removeButton.label "Αφαίρεση λογαριασμού">
 <!ENTITY removeButton.accesskey "Α">
-
 <!ENTITY addonsButton.label "Επεκτάσεις και θέματα">

@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Ceartaich an litreachadh">
-
 <!ENTITY misspelledWord.label "Facal air a dhroch litreachadh:">
 <!ENTITY wordEditField.label "Cuir na leanas 'na àite:">
 <!ENTITY wordEditField.accessKey "n">

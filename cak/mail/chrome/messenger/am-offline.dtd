@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "x">
 <!ENTITY syncGroupTitle.label "Ruximik Rutzijol">
 <!ENTITY diskspaceGroupTitle.label "Rupam Rujolom">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Kexim konojel ri aj wawe' taq rutzijol, akuchi' man nijik' taq ri rurijixik">
-<!ENTITY allAutosync.accesskey           "c">
-<!ENTITY ageAutosyncBefore.label         "Kexim ri e k'ak'a'">
-<!ENTITY ageAutosync.accesskey           "z">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "Taq q'ij">
-<!ENTITY weekAgeInterval.label           "Taq wuqq'ij">
-<!ENTITY monthAgeInterval.label          "Taq ik'">
-<!ENTITY yearAgeInterval.label           "Taq juna'">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Kexim konojel ri aj wawe' taq rutzijol, akuchi' man nijik' taq ri rurijixik">
+<!ENTITY allAutosync.accesskey "c">
+<!ENTITY ageAutosyncBefore.label "Kexim ri e k'ak'a'">
+<!ENTITY ageAutosync.accesskey "z">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "Taq q'ij">
+<!ENTITY weekAgeInterval.label "Taq wuqq'ij">
+<!ENTITY monthAgeInterval.label "Taq ik'">
+<!ENTITY yearAgeInterval.label "Taq juna'">
+<!ENTITY ageAutosyncAfter.label "">

@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Õigekirja kontroll">
-
 <!ENTITY misspelledWord.label "Vigane sõna:">
 <!ENTITY wordEditField.label "Asendus:">
 <!ENTITY wordEditField.accessKey "d">

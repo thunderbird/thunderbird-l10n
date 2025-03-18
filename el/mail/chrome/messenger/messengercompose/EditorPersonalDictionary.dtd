@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Προσωπικό λεξικό">
-
 <!ENTITY wordEditField.label "Νέα λέξη:">
 <!ENTITY wordEditField.accessKey "Ν">
 <!ENTITY AddButton.label "Προσθήκη">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "Λ">
 <!ENTITY RemoveButton.label "Αφαίρεση">
 <!ENTITY RemoveButton.accessKey "φ">
-
 <!ENTITY CloseButton.label "Κλείσιμο">
 <!ENTITY CloseButton.accessKey "Κ">

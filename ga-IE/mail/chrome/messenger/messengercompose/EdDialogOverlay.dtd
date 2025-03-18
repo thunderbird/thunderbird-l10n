@@ -9,6 +9,3 @@
 <!ENTITY chooseFileButton.accessKey "C">
 <!ENTITY chooseFileLinkButton.label "Roghnaigh Comhad...">
 <!ENTITY chooseFileLinkButton.accessKey "o">
-
-
-<!-- Shared by Link and Image dialogs -->

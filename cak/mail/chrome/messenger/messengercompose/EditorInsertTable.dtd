@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Tich'ap Kemoj Kajtz'ik">
-
 <!ENTITY size.label "Nimilem">
 <!ENTITY numRowsEditField.label "Taq cholaj:">
 <!ENTITY numRowsEditField.accessKey "c">

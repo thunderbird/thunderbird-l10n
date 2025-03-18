@@ -214,11 +214,11 @@ insecure-dialog-confirm-button = Potvrdit
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
 exchange-dialog-question =
     { -brand-short-name.gender ->
-        [masculine] { -brand-short-name } našel
-        [feminine] { -brand-short-name } našla
-        [neuter] { -brand-short-name } našlo
-       *[other] Aplikace { -brand-short-name } našla
-    } informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+        [masculine] { -brand-short-name } našel informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+        [feminine] { -brand-short-name } našla informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+        [neuter] { -brand-short-name } našlo informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+       *[other] Aplikace { -brand-short-name } našla informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+    }
 exchange-dialog-confirm-button = Přihlašovací údaje
 exchange-dialog-cancel-button = Zrušit
 
@@ -266,11 +266,11 @@ account-setup-calendar-button = Připojit vzdálený kalendář
 account-setup-linked-services-title = Připojení propojených služeb
 account-setup-linked-services-description =
     { -brand-short-name.gender ->
-        [masculine] { -brand-short-name } zjistil
-        [feminine] { -brand-short-name } zjistila
-        [neuter] { -brand-short-name } zjistilo
-       *[other] Aplikace { -brand-short-name } zjistila
-    } další služby propojené s vaším e-mailovým účtem.
+        [masculine] { -brand-short-name } zjistil další služby propojené s vaším e-mailovým účtem.
+        [feminine] { -brand-short-name } zjistila další služby propojené s vaším e-mailovým účtem.
+        [neuter] { -brand-short-name } zjistilo další služby propojené s vaším e-mailovým účtem.
+       *[other] Aplikace { -brand-short-name } zjistila další služby propojené s vaším e-mailovým účtem.
+    }
 account-setup-no-linked-description =
     { -brand-short-name.case-status ->
         [with-cases] Nastavte si další služby, abyste { -brand-short-name(case: "acc") } využili na maximum.
@@ -280,27 +280,59 @@ account-setup-no-linked-description =
 # $count (Number) - The number of address books found during autoconfig.
 account-setup-found-address-books-description =
     { -brand-short-name.gender ->
-        [masculine] { -brand-short-name } našel
-        [feminine] { -brand-short-name } našla
-        [neuter] { -brand-short-name } našlo
-       *[other] Aplikace { -brand-short-name } našla
-    } { $count ->
-        [one] jednu složku kontaktů propojenou s vaším e-mailovým účtem.
-        [few] { $count } složky kontaktů propojené s vaším e-mailovým účtem.
-       *[other] { $count } složek kontaktů propojených s vaším e-mailovým účtem.
+        [masculine]
+            { $count ->
+                [one] { -brand-short-name } našel jednu složku kontaktů propojenou s vaším e-mailovým účtem.
+                [few] { -brand-short-name } našel { $count } složky kontaktů propojené s vaším e-mailovým účtem.
+               *[other] { -brand-short-name } našel { $count } složek kontaktů propojených s vaším e-mailovým účtem.
+            }
+        [feminine]
+            { $count ->
+                [one] { -brand-short-name } našla jednu složku kontaktů propojenou s vaším e-mailovým účtem.
+                [few] { -brand-short-name } našla { $count } složky kontaktů propojené s vaším e-mailovým účtem.
+               *[other] { -brand-short-name } našla { $count } složek kontaktů propojených s vaším e-mailovým účtem.
+            }
+        [neuter]
+            { $count ->
+                [one] { -brand-short-name } našlo jednu složku kontaktů propojenou s vaším e-mailovým účtem.
+                [few] { -brand-short-name } našlo { $count } složky kontaktů propojené s vaším e-mailovým účtem.
+               *[other] { -brand-short-name } našlo { $count } složek kontaktů propojených s vaším e-mailovým účtem.
+            }
+       *[other]
+            { $count ->
+                [one] Aplikace { -brand-short-name } našla jednu složku kontaktů propojenou s vaším e-mailovým účtem.
+                [few] Aplikace { -brand-short-name } našla { $count } složky kontaktů propojené s vaším e-mailovým účtem.
+               *[other] Aplikace { -brand-short-name } našla { $count } složek kontaktů propojených s vaším e-mailovým účtem.
+            }
     }
 # Variables:
 # $count (Number) - The number of calendars found during autoconfig.
 account-setup-found-calendars-description =
     { -brand-short-name.gender ->
-        [masculine] { -brand-short-name } našel
-        [feminine] { -brand-short-name } našla
-        [neuter] { -brand-short-name } našlo
-       *[other] Aplikace { -brand-short-name } našla
-    } { $count ->
-        [one] jeden kalendář propojený s vaším e-mailovým účtem.
-        [few] { $count } kalendáře propojené s vaším e-mailovým účtem.
-       *[other] { $count } kalendářů propojených s vaším e-mailovým účtem.
+        [masculine]
+            { $count ->
+                [one] { -brand-short-name } našel jeden kalendář propojený s vaším e-mailovým účtem.
+                [few] { -brand-short-name } našel { $count } kalendáře propojené s vaším e-mailovým účtem.
+               *[other] { -brand-short-name } našel { $count } kalendářů propojených s vaším e-mailovým účtem.
+            }
+        [feminine]
+            { $count ->
+                [one] { -brand-short-name } našla jeden kalendář propojený s vaším e-mailovým účtem.
+                [few] { -brand-short-name } našla { $count } kalendáře propojené s vaším e-mailovým účtem.
+               *[other] { -brand-short-name } našla { $count } kalendářů propojených s vaším e-mailovým účtem.
+            }
+        [neuter]
+            { $count ->
+                [one] { -brand-short-name } našlo jeden kalendář propojený s vaším e-mailovým účtem.
+                [few] { -brand-short-name } našlo { $count } kalendáře propojené s vaším e-mailovým účtem.
+               *[other] { -brand-short-name } našlo { $count } kalendářů propojených s vaším e-mailovým účtem.
+            }
+       *[other]
+            { $count ->
+                [one] Aplikace { -brand-short-name } našla jeden kalendář propojený s vaším e-mailovým účtem.
+                [few] Aplikace { -brand-short-name } našla { $count } kalendáře propojené s vaším e-mailovým účtem.
+               *[other] Aplikace { -brand-short-name } našla { $count } kalendářů propojených s vaším e-mailovým účtem.
+            }
     }
 account-setup-button-finish = Dokončit
     .accesskey = D

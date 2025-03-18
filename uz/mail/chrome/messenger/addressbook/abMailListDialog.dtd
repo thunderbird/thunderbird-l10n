@@ -2,15 +2,12 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Title -->
-
 <!-- Labels and Access Keys -->
-<!ENTITY addToAddressBook.label         "Qo‘shish:">
-<!ENTITY addToAddressBook.accesskey     "Q">
-<!ENTITY ListName.label                 "Ro‘yxat nomi: ">
-<!ENTITY ListName.accesskey             "n">
-<!ENTITY ListNickName.label             "Taxallus ro‘yxati: ">
-<!ENTITY ListNickName.accesskey         "T">
-<!-- See bug 58485, when we implement drag and drop, add 'or drag addresses' back in -->
-<!ENTITY UpButton.label                 "Tepaga ko‘tarish">
-<!ENTITY DownButton.label               "Pastga tushirish">
+<!ENTITY addToAddressBook.label "Qo‘shish:">
+<!ENTITY addToAddressBook.accesskey "Q">
+<!ENTITY ListName.label "Ro‘yxat nomi: ">
+<!ENTITY ListName.accesskey "n">
+<!ENTITY ListNickName.label "Taxallus ro‘yxati: ">
+<!ENTITY ListNickName.accesskey "T">
+<!ENTITY UpButton.label "Tepaga ko‘tarish">
+<!ENTITY DownButton.label "Pastga tushirish">

@@ -3,30 +3,26 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
-
-<!ENTITY fileMenu.label          "ไฟล์">
-<!ENTITY fileMenu.accesskey        "ฟ">
-<!ENTITY newMenu.label            "ใหม่">
-<!ENTITY newMenu.accesskey          "ห">
-
-<!ENTITY editMenu.label          "แก้ไข">
-<!ENTITY editMenu.accesskey        "ก">
-<!ENTITY undoCmd.label            "เลิกทำ">
-<!ENTITY undoCmd.accesskey          "ล">
-<!ENTITY redoCmd.label            "ทำซ้ำ">
-<!ENTITY redoCmd.accesskey          "ท">
-<!ENTITY deleteCmd.label          "ลบ">
-<!ENTITY deleteCmd.accesskey        "บ">
+<!ENTITY fileMenu.label "ไฟล์">
+<!ENTITY fileMenu.accesskey "ฟ">
+<!ENTITY newMenu.label "ใหม่">
+<!ENTITY newMenu.accesskey "ห">
+<!ENTITY editMenu.label "แก้ไข">
+<!ENTITY editMenu.accesskey "ก">
+<!ENTITY undoCmd.label "เลิกทำ">
+<!ENTITY undoCmd.accesskey "ล">
+<!ENTITY redoCmd.label "ทำซ้ำ">
+<!ENTITY redoCmd.accesskey "ท">
+<!ENTITY deleteCmd.label "ลบ">
+<!ENTITY deleteCmd.accesskey "บ">
 <!ENTITY customizeCmd.label "ปรับแต่ง">
 <!ENTITY customizeCmd.accesskey "ป">
-
-<!ENTITY viewMenu.label          "มุมมอง">
-<!ENTITY viewMenu.accesskey        "ม">
-<!ENTITY viewToolbarsMenu.label        "แถบเครื่องมือ">
-<!ENTITY viewToolbarsMenu.accesskey      "ถ">
-<!ENTITY showTaskbarCmd.label          "แถบสถานะ">
-<!ENTITY showTaskbarCmd.accesskey        "บ">
-
-<!ENTITY closeCmd.label      "ปิด">
-<!ENTITY closeCmd.key      "W">
-<!ENTITY closeCmd.accesskey    "ป">
+<!ENTITY viewMenu.label "มุมมอง">
+<!ENTITY viewMenu.accesskey "ม">
+<!ENTITY viewToolbarsMenu.label "แถบเครื่องมือ">
+<!ENTITY viewToolbarsMenu.accesskey "ถ">
+<!ENTITY showTaskbarCmd.label "แถบสถานะ">
+<!ENTITY showTaskbarCmd.accesskey "บ">
+<!ENTITY closeCmd.label "ปิด">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.accesskey "ป">

@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Ionsáigh Tábla">
-
 <!ENTITY size.label "Méid">
 <!ENTITY numRowsEditField.label "Rónna:">
 <!ENTITY numRowsEditField.accessKey "R">

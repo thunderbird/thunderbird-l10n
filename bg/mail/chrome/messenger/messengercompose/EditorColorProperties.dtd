@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Използвайте ваши цветове:">
 <!ENTITY customColorsRadio.accessKey "в">
 <!ENTITY customColorsRadio.tooltip "Тези цветови настройки ще важат и за браузъра на потребителя">
-
 <!ENTITY normalText.label "Нормален текст">
 <!ENTITY normalText.accessKey "Н">
 <!ENTITY linkText.label "Текст на връзката">

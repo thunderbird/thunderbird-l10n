@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Utilitza els colors personalitzats:">
 <!ENTITY customColorsRadio.accessKey "c">
 <!ENTITY customColorsRadio.tooltip "Aquests paràmetres de color substitueixen els del navegador del lector">
-
 <!ENTITY normalText.label "Text normal">
 <!ENTITY normalText.accessKey "n">
 <!ENTITY linkText.label "Text de l'enllaç">

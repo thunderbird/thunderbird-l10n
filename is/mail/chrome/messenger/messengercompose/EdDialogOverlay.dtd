@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "V">
 <!ENTITY chooseFileLinkButton.label "Veldu skrá...">
 <!ENTITY chooseFileLinkButton.accessKey "e">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Settu inn staðsetningu vefsíðu, slóð á skrá á tölvunni, eða veldu nefnda markstiklu eða fyrirsögn úr samhengisvalmynd reitsins:">
 <!ENTITY LinkURLEditField2.accessKey "w">

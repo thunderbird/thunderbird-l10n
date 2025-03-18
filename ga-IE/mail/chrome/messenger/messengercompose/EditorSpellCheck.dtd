@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Seiceáil Litriú">
-
 <!ENTITY misspelledWord.label "Focal mílitrithe:">
 <!ENTITY wordEditField.label "Ionadaigh le:">
 <!ENTITY wordEditField.accessKey "l">

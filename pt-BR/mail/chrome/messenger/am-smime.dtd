@@ -4,11 +4,8 @@
 
 <!ENTITY e2eTitle.label "Criptografia de ponta a ponta">
 <!ENTITY e2eLearnMore.label "Saiba mais">
-
 <!ENTITY e2eEnc.description "Sem criptografia de ponta a ponta, o conteúdo das mensagens é facilmente exposto ao seu provedor de email e à vigilância em massa.">
-
 <!ENTITY e2eTechPref.description "Tecnologia de criptografia preferida:">
-
 <!ENTITY encryptionCert2.message "Certificado pessoal de criptografia:">
 <!ENTITY digitalSign.certificate.button "Selecionar…">
 <!ENTITY digitalSign.certificate.accesskey "S">
@@ -20,27 +17,20 @@
 <!ENTITY encryption.certificate_clear.accesskey "m">
 <!ENTITY signingGroupTitle.label "Assinatura digital">
 <!ENTITY signingCert2.message "Certificado pessoal de assinatura digital:">
-
 <!ENTITY sendingDefaults.label "Configuração padrão para envio de mensagens">
-
 <!ENTITY technologyAutomatic.label "Selecionar automaticamente com base nas chaves ou certificados disponíveis">
-
 <!ENTITY certificates2.label "S/MIME">
 <!ENTITY manageCerts3.label "Gerenciar certificados S/MIME">
 <!ENTITY manageCerts3.accesskey "M">
 <!ENTITY manageDevices2.label "Dispositivos de segurança S/MIME">
 <!ENTITY manageDevices2.accesskey "i">
-
 <!ENTITY technologySMIME.label "Preferir S/MIME">
 <!ENTITY technologyOpenPGP.label "Preferir OpenPGP">
-
 <!ENTITY openpgpKeys.label "OpenPGP">
-
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Selecionar certificado">
-<!ENTITY certPicker.info  "Certificado:">
+<!ENTITY certPicker.info "Certificado:">
 <!ENTITY certPicker.detailsLabel "Detalhes do certificado selecionado:">
-
 <!ENTITY openpgpKey.message "Chave pessoal de criptografia e assinatura digital:">
 <!ENTITY openpgpKey.button "Definir chave pessoal…">
 <!ENTITY openpgpKey.accesskey "o">

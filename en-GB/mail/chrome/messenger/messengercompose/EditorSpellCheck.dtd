@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Check Spelling">
-
 <!ENTITY misspelledWord.label "Misspelled word:">
 <!ENTITY wordEditField.label "Replace with:">
 <!ENTITY wordEditField.accessKey "w">

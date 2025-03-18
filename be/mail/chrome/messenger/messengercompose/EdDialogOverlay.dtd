@@ -9,6 +9,3 @@
 <!ENTITY chooseFileButton.accessKey "В">
 <!ENTITY chooseFileLinkButton.label "Выбраць файл...">
 <!ENTITY chooseFileLinkButton.accessKey "В">
-
-
-<!-- Shared by Link and Image dialogs -->

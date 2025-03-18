@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Lastnosti slike">
-
 <!ENTITY pixelsPopup.value "slikovnih točk">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Mesto slike:">
 <!ENTITY locationEditField.accessKey "M">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Vnesite besedilo za prikaz namesto slike">
 <!ENTITY noAltText.label "Ne uporabljaj nadomestnega besedila">
 <!ENTITY noAltText.accessKey "e">
-
 <!ENTITY previewBox.label "Predogled slike">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Dejanska velikost:">
 <!ENTITY actualSizeRadio.label "Dejanska velikost">
 <!ENTITY actualSizeRadio.accessKey "D">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Omeji">
 <!ENTITY constrainCheckbox.accessKey "O">
 <!ENTITY constrainCheckbox.tooltip "Ohrani razmerje med merami slike">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Zemljevid slik">
 <!ENTITY removeImageMapButton.label "Odstrani">
 <!ENTITY removeImageMapButton.accessKey "O">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Poravnaj besedilo na sliko">
 <!ENTITY bottomPopup.value "Na dnu">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "Na sredini">
 <!ENTITY wrapRightPopup.value "Oblij na desno">
 <!ENTITY wrapLeftPopup.value "Oblij na levo">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Razmik">
 <!ENTITY leftRightEditField.label "Levo in desno:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "Z">
 <!ENTITY borderEditField.label "Neprekinjena obroba:">
 <!ENTITY borderEditField.accessKey "N">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Prikaži obrobo okoli povezane slike">
 <!ENTITY showImageLinkBorder.accessKey "P">
 <!ENTITY LinkAdvancedEditButton.label "Napredno urejanje povezave …">
 <!ENTITY LinkAdvancedEditButton.accessKey "u">
 <!ENTITY LinkAdvancedEditButton.tooltip "Dodaj ali spremeni atribute HTML, slogovne atribute in JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Obrazec">
 <!ENTITY imageLocationTab.label "Mesto">

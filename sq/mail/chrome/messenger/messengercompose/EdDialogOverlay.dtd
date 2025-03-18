@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "Z">
 <!ENTITY chooseFileLinkButton.label "Zgjidhni Kartelë…">
 <!ENTITY chooseFileLinkButton.accessKey "K">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Jepni vendndodhjen e një faqeje web, një kartelë vendore, ose përzgjidhni një Spirancë ose Krye të Emërtuar prej menusë së kontekstit për fushën:">
 <!ENTITY LinkURLEditField2.accessKey "J">

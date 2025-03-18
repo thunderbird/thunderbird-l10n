@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Kicholb'al taq Ichinil">
-
 <!ENTITY ListType.label "Rucholajem Ruwäch">
 <!ENTITY bulletStyle.label "Rub'anikil Wachin:">
 <!ENTITY startingNumber.label "Titikirisäx pa:">

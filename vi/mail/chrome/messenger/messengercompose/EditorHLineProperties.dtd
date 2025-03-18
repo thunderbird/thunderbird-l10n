@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Thuộc tính đường ngang">
-
 <!ENTITY dimensionsBox.label "Chiều">
 <!ENTITY heightEditField.label "Cao:">
 <!ENTITY heightEditField.accessKey "C">
@@ -19,7 +17,6 @@
 <!ENTITY centerRadio.accessKey "G">
 <!ENTITY rightRadio.label "Phải">
 <!ENTITY rightRadio.accessKey "P">
-
 <!ENTITY threeDShading.label "Bóng 3-D">
 <!ENTITY threeDShading.accessKey "B">
 <!ENTITY saveSettings.label "Sử dụng làm mặc định">

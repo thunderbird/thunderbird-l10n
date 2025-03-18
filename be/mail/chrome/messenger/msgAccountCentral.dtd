@@ -1,26 +1,20 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY emailSectionHdr.label        "Э-пошта">
-<!ENTITY readMsgsLink.label           "Чытанне лістоў">
-<!ENTITY composeMsgLink.label         "Укласці новы ліст">
-
-<!ENTITY newsSectionHdr.label         "Навінакупы">
-<!ENTITY subscribeNewsLink.label      "Кіраваць падпіскамі на навінакупы">
-
-<!ENTITY feedsSectionHdr.label        "Стужкі навін">
-<!ENTITY subscribeFeeds.label         "Кіраваць падпіскамі">
-
-<!ENTITY chat.label                   "Гутарка">
-
-<!ENTITY accountsSectionHdr.label     "Уліковыя запісы">
-<!ENTITY subscribeImapFolders.label   "Кіраваць падпіскамі на папкі">
-<!ENTITY settingsLink.label           "Праглядзець налады для гэтага ўліковага запісу">
-<!ENTITY setupNewAcct.label           "Наладзіць уліковы запіс:">
-
-<!ENTITY advFeaturesSectionHdr.label  "Пашыраныя ўласцівасці">
-<!ENTITY searchMsgsLink.label         "Пошук лістоў">
-<!ENTITY filtersLink.label            "Кіраванне фільтрамі паведамленняў">
-<!ENTITY junkSettings.label           "Налады спам-фільтраў">
-<!ENTITY offlineLink.label            "Па-за сеткавыя наладжванні">
+<!ENTITY emailSectionHdr.label "Э-пошта">
+<!ENTITY readMsgsLink.label "Чытанне лістоў">
+<!ENTITY composeMsgLink.label "Укласці новы ліст">
+<!ENTITY newsSectionHdr.label "Навінакупы">
+<!ENTITY subscribeNewsLink.label "Кіраваць падпіскамі на навінакупы">
+<!ENTITY feedsSectionHdr.label "Стужкі навін">
+<!ENTITY subscribeFeeds.label "Кіраваць падпіскамі">
+<!ENTITY chat.label "Гутарка">
+<!ENTITY accountsSectionHdr.label "Уліковыя запісы">
+<!ENTITY subscribeImapFolders.label "Кіраваць падпіскамі на папкі">
+<!ENTITY settingsLink.label "Праглядзець налады для гэтага ўліковага запісу">
+<!ENTITY setupNewAcct.label "Наладзіць уліковы запіс:">
+<!ENTITY advFeaturesSectionHdr.label "Пашыраныя ўласцівасці">
+<!ENTITY searchMsgsLink.label "Пошук лістоў">
+<!ENTITY filtersLink.label "Кіраванне фільтрамі паведамленняў">
+<!ENTITY junkSettings.label "Налады спам-фільтраў">
+<!ENTITY offlineLink.label "Па-за сеткавыя наладжванні">

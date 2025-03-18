@@ -5,6 +5,3 @@
 <!ENTITY AdvancedEditButton.label "Напредно уредување…">
 <!ENTITY AdvancedEditButton.accessKey "е">
 <!ENTITY AdvancedEditButton.tooltip "Додавајте или променувајте HTML атрибути, атрибути за стил и JavaScript">
-
-
-<!-- Shared by Link and Image dialogs -->

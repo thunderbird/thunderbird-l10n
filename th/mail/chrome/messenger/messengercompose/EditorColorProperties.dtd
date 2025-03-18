@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "ใช้สีที่กำหนดเอง:">
 <!ENTITY customColorsRadio.accessKey "ส">
 <!ENTITY customColorsRadio.tooltip "การตั้งค่าสีเหล่านี้จะแทนที่การตั้งค่าเบราว์เซอร์ของตัวดู">
-
 <!ENTITY normalText.label "ข้อความปกติ">
 <!ENTITY normalText.accessKey "ป">
 <!ENTITY linkText.label "ข้อความลิงก์">

@@ -5,16 +5,13 @@
 <!ENTITY window.title "过滤器规则">
 <!ENTITY filterName.label "过滤器名称:">
 <!ENTITY filterName.accesskey "i">
-
 <!ENTITY junk.label "垃圾">
 <!ENTITY notJunk.label "非垃圾">
-
 <!ENTITY lowestPriorityCmd.label "最低">
 <!ENTITY lowPriorityCmd.label "低">
 <!ENTITY normalPriorityCmd.label "正常">
 <!ENTITY highPriorityCmd.label "高">
 <!ENTITY highestPriorityCmd.label "最高">
-
 <!ENTITY contextDesc.label "执行过滤器，当：">
 <!ENTITY contextIncomingMail.label "正在获取新邮件：">
 <!ENTITY contextIncomingMail.accesskey "G">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "存档">
 <!ENTITY contextArchive.accesskey "A">
 <!ENTITY contextPeriodic.accesskey "e">
-
 <!ENTITY filterActionDesc.label "执行动作:">
 <!ENTITY filterActionDesc.accesskey "P">
-
 <!ENTITY filterActionOrderWarning.label "注：过滤器操作将以不同的顺序运行。">
 <!ENTITY filterActionOrder.label "见执行顺序">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "移动消息至">
 <!ENTITY copyMessage.label "复制消息至">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "忽略子话题">
 <!ENTITY watchThread.label "跟踪话题">
 <!ENTITY stopExecution.label "停止执行过滤器">
-
 <!ENTITY addAction.tooltip "添加新动作">
 <!ENTITY removeAction.tooltip "移除此动作">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

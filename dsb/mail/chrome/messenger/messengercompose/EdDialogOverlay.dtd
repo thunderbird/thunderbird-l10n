@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "D">
 <!ENTITY chooseFileLinkButton.label "Dataju wubraś…">
 <!ENTITY chooseFileLinkButton.accessKey "t">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Zapódajśo adresu webowego boka, lokalneje dataje abo wubjeŕśo pomjenjonu kokulu abo nadpismo z kontekstowego menija póla:">
 <!ENTITY LinkURLEditField2.accessKey "b">

@@ -2,8 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from MsgSynchronize.xhtml and msgSelectOfflineFolders.xhtml-->
-
+<!-- extracted from MsgSynchronize.xhtml and msgSelectOfflineFolders.xhtml -->
 <!ENTITY MsgSynchronize.label "Завантажити та синхронізувати повідомлення">
 <!ENTITY MsgSelect.label "Елементи для автономної роботи">
 <!ENTITY MsgSyncDesc.label "Якщо ви вже вибрали теки пошти або групи новин для автономної роботи, ви можете завантажити та/або синхронізувати їх. Інакше натисніть кнопку «Вибрати», щоб вибрати теки пошти та групи новин для автономної роботи.">

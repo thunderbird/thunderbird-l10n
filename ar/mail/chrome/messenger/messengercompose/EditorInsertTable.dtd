@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "أدرج جدولا">
-
 <!ENTITY size.label "المقاس">
 <!ENTITY numRowsEditField.label "صفوف:">
 <!ENTITY numRowsEditField.accessKey "ص">

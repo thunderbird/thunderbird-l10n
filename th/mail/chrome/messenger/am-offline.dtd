@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "ส">
 <!ENTITY syncGroupTitle.label "การประสานข้อความ">
 <!ENTITY diskspaceGroupTitle.label "เนื้อที่ดิสก์">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "ประสานข้อความทั้งหมดที่อยู่ภายในโดยไม่คำนึงถึงระยะเวลาที่เก็บ">
-<!ENTITY allAutosync.accesskey           "ป">
-<!ENTITY ageAutosyncBefore.label         "ประสานข้อความล่าสุด">
-<!ENTITY ageAutosync.accesskey           "ร">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "วัน">
-<!ENTITY weekAgeInterval.label           "สัปดาห์">
-<!ENTITY monthAgeInterval.label          "เดือน">
-<!ENTITY yearAgeInterval.label           "ปี">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "ประสานข้อความทั้งหมดที่อยู่ภายในโดยไม่คำนึงถึงระยะเวลาที่เก็บ">
+<!ENTITY allAutosync.accesskey "ป">
+<!ENTITY ageAutosyncBefore.label "ประสานข้อความล่าสุด">
+<!ENTITY ageAutosync.accesskey "ร">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "วัน">
+<!ENTITY weekAgeInterval.label "สัปดาห์">
+<!ENTITY monthAgeInterval.label "เดือน">
+<!ENTITY yearAgeInterval.label "ปี">
+<!ENTITY ageAutosyncAfter.label "">

@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Ορθογραφικός έλεγχος">
-
 <!ENTITY misspelledWord.label "Εσφαλμένη λέξη:">
 <!ENTITY wordEditField.label "Αντικατάσταση με:">
 <!ENTITY wordEditField.accessKey "κ">

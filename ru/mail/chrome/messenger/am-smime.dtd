@@ -4,11 +4,8 @@
 
 <!ENTITY e2eTitle.label "Сквозное шифрование">
 <!ENTITY e2eLearnMore.label "Подробнее">
-
 <!ENTITY e2eEnc.description "Без сквозного шифрования содержимое сообщений легко может быть прочтено вашим провайдером электронной почты или системой прослушивания.">
-
 <!ENTITY e2eTechPref.description "Предпочитаемая технология шифрования:">
-
 <!ENTITY encryptionCert2.message "Личный сертификат для шифрования:">
 <!ENTITY digitalSign.certificate.button "Выбрать…">
 <!ENTITY digitalSign.certificate.accesskey "ы">
@@ -20,27 +17,20 @@
 <!ENTITY encryption.certificate_clear.accesskey "и">
 <!ENTITY signingGroupTitle.label "Цифровая подпись">
 <!ENTITY signingCert2.message "Личный сертификат для цифровой подписи:">
-
 <!ENTITY sendingDefaults.label "Настройки по умолчанию для отправки сообщений">
-
 <!ENTITY technologyAutomatic.label "Автовыбор на основе доступных ключей или сертификатов">
-
 <!ENTITY certificates2.label "S/MIME">
 <!ENTITY manageCerts3.label "Управление сертификатами S/MIME">
 <!ENTITY manageCerts3.accesskey "M">
 <!ENTITY manageDevices2.label "Устройства защиты S/MIME">
 <!ENTITY manageDevices2.accesskey "а">
-
 <!ENTITY technologySMIME.label "Предпочитать S/MIME">
 <!ENTITY technologyOpenPGP.label "Предпочитать OpenPGP">
-
 <!ENTITY openpgpKeys.label "OpenPGP">
-
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Выбор сертификата">
-<!ENTITY certPicker.info  "Сертификат:">
+<!ENTITY certPicker.info "Сертификат:">
 <!ENTITY certPicker.detailsLabel "Информация о выбранном сертификате:">
-
 <!ENTITY openpgpKey.message "Личный ключ для шифрования и цифровой подписи:">
 <!ENTITY openpgpKey.button "Установить личный ключ…">
 <!ENTITY openpgpKey.accesskey "ы">

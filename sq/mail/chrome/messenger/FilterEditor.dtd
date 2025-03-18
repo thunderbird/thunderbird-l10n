@@ -5,16 +5,13 @@
 <!ENTITY window.title "Rregulla Filtrash">
 <!ENTITY filterName.label "Emër filtri:">
 <!ENTITY filterName.accesskey "E">
-
 <!ENTITY junk.label "E pavlerë">
 <!ENTITY notJunk.label "Jo e Pavlerë">
-
 <!ENTITY lowestPriorityCmd.label "Më e vogël">
 <!ENTITY lowPriorityCmd.label "E vogël">
 <!ENTITY normalPriorityCmd.label "Normale">
 <!ENTITY highPriorityCmd.label "E madhe">
 <!ENTITY highestPriorityCmd.label "Më e madhe">
-
 <!ENTITY contextDesc.label "Zbatoje filtrin kur:">
 <!ENTITY contextIncomingMail.label "Merret Postë e Re:">
 <!ENTITY contextIncomingMail.accesskey "M">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "Arkivohet">
 <!ENTITY contextArchive.accesskey "A">
 <!ENTITY contextPeriodic.accesskey "e">
-
 <!ENTITY filterActionDesc.label "Kryej këto veprime:">
 <!ENTITY filterActionDesc.accesskey "K">
-
 <!ENTITY filterActionOrderWarning.label "Shënim: Veprimet e filtrimit do të kryhen sipas një radhe tjetër.">
 <!ENTITY filterActionOrder.label "Shihni radhën e përmbushjes">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Kaloje Mesazhin te">
 <!ENTITY copyMessage.label "Kopjoje Mesazhin te">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Shpërfille Nënrrjedhën">
 <!ENTITY watchThread.label "Vëzhgoje Rrjedhën">
 <!ENTITY stopExecution.label "Ndale Përmbushjen e Filtrit">
-
 <!ENTITY addAction.tooltip "Shtoni një veprim të ri">
 <!ENTITY removeAction.tooltip "Hiqeni këtë veprim">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

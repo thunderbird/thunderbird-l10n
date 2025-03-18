@@ -3,35 +3,34 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- for SearchDialog.xhtml -->
-<!ENTITY searchHeading.label         "Keresés helye:">
-<!ENTITY searchHeading.accesskey     "K">
-<!ENTITY searchSubfolders.label      "Keresés az almappákban is">
-<!ENTITY searchSubfolders.accesskey  "m">
-<!ENTITY searchOnServer.label        "Keresés a kiszolgálón">
-<!ENTITY searchOnServer.accesskey    "e">
-<!ENTITY resetButton.label           "Alaphelyzet">
-<!ENTITY resetButton.accesskey       "A">
-<!ENTITY openButton.label            "Megnyitás">
-<!ENTITY openButton.accesskey        "n">
-<!ENTITY deleteButton.label          "Törlés">
-<!ENTITY deleteButton.accesskey      "T">
-<!ENTITY searchDialogTitle.label     "Üzenetek keresése">
-<!ENTITY results.label               "Eredmények">
-<!ENTITY moveButton.label            "Áthelyezés">
-<!ENTITY moveButton.accesskey        "t">
-<!ENTITY closeCmd.key                "W">
-<!ENTITY openInFolder.label          "Megnyitás mappában">
-<!ENTITY openInFolder.accesskey      "m">
-<!ENTITY saveAsVFButton.label        "Mentés keresési mappaként">
-<!ENTITY saveAsVFButton.accesskey    "k">
-
+<!ENTITY searchHeading.label "Keresés helye:">
+<!ENTITY searchHeading.accesskey "K">
+<!ENTITY searchSubfolders.label "Keresés az almappákban is">
+<!ENTITY searchSubfolders.accesskey "m">
+<!ENTITY searchOnServer.label "Keresés a kiszolgálón">
+<!ENTITY searchOnServer.accesskey "e">
+<!ENTITY resetButton.label "Alaphelyzet">
+<!ENTITY resetButton.accesskey "A">
+<!ENTITY openButton.label "Megnyitás">
+<!ENTITY openButton.accesskey "n">
+<!ENTITY deleteButton.label "Törlés">
+<!ENTITY deleteButton.accesskey "T">
+<!ENTITY searchDialogTitle.label "Üzenetek keresése">
+<!ENTITY results.label "Eredmények">
+<!ENTITY moveButton.label "Áthelyezés">
+<!ENTITY moveButton.accesskey "t">
+<!ENTITY closeCmd.key "W">
+<!ENTITY openInFolder.label "Megnyitás mappában">
+<!ENTITY openInFolder.accesskey "m">
+<!ENTITY saveAsVFButton.label "Mentés keresési mappaként">
+<!ENTITY saveAsVFButton.accesskey "k">
 <!-- for abSearchDialog.xhtml -->
-<!ENTITY abSearchHeading.label       "Keresési hely:">
-<!ENTITY abSearchHeading.accesskey   "h">
-<!ENTITY propertiesButton.label      "Tulajdonságok">
-<!ENTITY propertiesButton.accesskey  "u">
-<!ENTITY composeButton.label         "Új üzenet">
-<!ENTITY composeButton.accesskey     "z">
-<!ENTITY deleteCardButton.label      "Törlés">
-<!ENTITY deleteCardButton.accesskey  "T">
-<!ENTITY abSearchDialogTitle.label   "Összetett keresés a címjegyzékben">
+<!ENTITY abSearchHeading.label "Keresési hely:">
+<!ENTITY abSearchHeading.accesskey "h">
+<!ENTITY propertiesButton.label "Tulajdonságok">
+<!ENTITY propertiesButton.accesskey "u">
+<!ENTITY composeButton.label "Új üzenet">
+<!ENTITY composeButton.accesskey "z">
+<!ENTITY deleteCardButton.label "Törlés">
+<!ENTITY deleteCardButton.accesskey "T">
+<!ENTITY abSearchDialogTitle.label "Összetett keresés a címjegyzékben">

@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Personīgā vārdnīca">
-
 <!ENTITY wordEditField.label "Jauns vārds:">
 <!ENTITY wordEditField.accessKey "J">
 <!ENTITY AddButton.label "Pievienot">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "V">
 <!ENTITY RemoveButton.label "Noņemt">
 <!ENTITY RemoveButton.accessKey "N">
-
 <!ENTITY CloseButton.label "Aizvērt">
 <!ENTITY CloseButton.accessKey "A">

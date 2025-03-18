@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Geiriadur Personol">
-
 <!ENTITY wordEditField.label "Gair newydd:">
 <!ENTITY wordEditField.accessKey "n">
 <!ENTITY AddButton.label "Ychwanegu">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "G">
 <!ENTITY RemoveButton.label "Tynnu">
 <!ENTITY RemoveButton.accessKey "y">
-
 <!ENTITY CloseButton.label "Cau">
 <!ENTITY CloseButton.accessKey "u">

@@ -6,23 +6,20 @@
 
 <!-- LOCALIZATION NOTE (smtpServer.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpServer.label "Parametros del servitor de exito (SMTP)">
-
 <!-- LOCALIZATION NOTE (smtpDescription.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpDescription.label "In le gestion de identitates, selige de iste lista un servitor a usar como le servitor de exito (SMTP), o lassa le servitor de exito predefinite seligente &quot;Usar le servitor predefinite&quot;.">
-
-<!ENTITY smtpListAdd.label  "Adder…">
-<!ENTITY smtpListAdd.accesskey  "d">
+<!ENTITY smtpListAdd.label "Adder…">
+<!ENTITY smtpListAdd.accesskey "d">
 <!ENTITY smtpListEdit.label "Rediger…">
 <!ENTITY smtpListEdit.accesskey "e">
 <!ENTITY smtpListDelete.label "Remover">
 <!ENTITY smtpListDelete.accesskey "m">
 <!ENTITY smtpListSetDefault.label "Predefinir">
 <!ENTITY smtpListSetDefault.accesskey "r">
-
 <!ENTITY serverDetails.label "Detalios del servitor eligite:">
 <!ENTITY serverDescription.label "Description: ">
 <!ENTITY serverName.label "Nomine del servitor: ">
 <!ENTITY serverPort.label "Porta: ">
-<!ENTITY userName.label   "Nomine de usator: ">
+<!ENTITY userName.label "Nomine de usator: ">
 <!ENTITY connectionSecurity.label "Securitate de connexion: ">
-<!ENTITY authMethod.label   "Methodo de authentication: ">
+<!ENTITY authMethod.label "Methodo de authentication: ">

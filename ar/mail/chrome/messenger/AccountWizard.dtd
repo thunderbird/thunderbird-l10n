@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "الهويّة">
 <!ENTITY identityDesc.label "لكلّ حساب هويّة، و هي المعلومات التّي تعرّف هويتك للآخرين عند استقبالهم لرسائلك.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "أدخل الاسم الذي تريد أن يظهر في حقل &quot;مِن&quot; في رسائلك الصّادرة">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(مثلًا، ”فلان الفلاني“).">
 <!ENTITY fullnameLabel.label "اسمك:">
 <!ENTITY fullnameLabel.accesskey "س">
-
 <!ENTITY emailLabel.label "عنوان البريد:">
 <!ENTITY emailLabel.accesskey "ع">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "أدخل اسمًا تريد أن تستخدمه ليُشير إلى هذا الحساب (مثلًا، ”حساب العمل“ أو ”حساب المنزل“ أو ”حساب الأخبار“).">
 <!ENTITY accnameLabel.label "اسم الحساب:">
 <!ENTITY accnameLabel.accesskey "ب">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "تهانينا!">
 <!ENTITY completionText.label "رجاءً تأكّد من صحة المعلومات أدناه.">
 <!ENTITY newsServerNamePrefix.label "اسم خادوم الأخبار (NNTP):‏">

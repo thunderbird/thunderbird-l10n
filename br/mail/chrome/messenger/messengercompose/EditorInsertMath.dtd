@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Enlakaat ur riñvenn jedoniezhel">
-
 <!ENTITY sourceEditField.label "Enankit ur voneg tarzh LaTeX :">
-
 <!ENTITY options.label "Dibarzhioù">
 <!ENTITY optionInline.label "Mod enlinenn">
 <!ENTITY optionInline.accesskey "M">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "k">
 <!ENTITY optionRTL.label "Eus an tu dehou d'an tu kleiz">
 <!ENTITY optionRTL.accesskey "d">
-
 <!ENTITY insertButton.label "Enlakaat">
 <!ENTITY insertButton.accesskey "E">

@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "檢查拼字">
-
 <!ENTITY misspelledWord.label "拼錯的字:">
 <!ENTITY wordEditField.label "取代為:">
 <!ENTITY wordEditField.accessKey "w">

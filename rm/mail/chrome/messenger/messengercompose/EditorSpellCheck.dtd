@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Controllar l'ortografia">
-
 <!ENTITY misspelledWord.label "Pled cun sbagl(s):">
 <!ENTITY wordEditField.label "Remplazzar cun:">
 <!ENTITY wordEditField.accessKey "R">

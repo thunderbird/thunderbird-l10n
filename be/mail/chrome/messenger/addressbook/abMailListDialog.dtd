@@ -3,19 +3,18 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Title -->
-<!ENTITY mailListWindowAdd.title        "Новы спіс рассылкі">
-
+<!ENTITY mailListWindowAdd.title "Новы спіс рассылкі">
 <!-- Labels and Access Keys -->
-<!ENTITY addToAddressBook.label         "Дадаць да:">
-<!ENTITY addToAddressBook.accesskey     "Д">
-<!ENTITY ListName.label                 "Назва спіса:">
-<!ENTITY ListName.accesskey             "С">
-<!ENTITY ListNickName.label             "Псеўданім спіса: ">
-<!ENTITY ListNickName.accesskey         "М">
-<!ENTITY ListDescription.label          "Апісанне:">
-<!ENTITY ListDescription.accesskey      "п">
+<!ENTITY addToAddressBook.label "Дадаць да:">
+<!ENTITY addToAddressBook.accesskey "Д">
+<!ENTITY ListName.label "Назва спіса:">
+<!ENTITY ListName.accesskey "С">
+<!ENTITY ListNickName.label "Псеўданім спіса: ">
+<!ENTITY ListNickName.accesskey "М">
+<!ENTITY ListDescription.label "Апісанне:">
+<!ENTITY ListDescription.accesskey "п">
 <!-- See bug 58485, when we implement drag and drop, add 'or drag addresses' back in -->
-<!ENTITY AddressTitle.label             "Набярыце адрасы э-пошты, каб дадаць іх у адрасны спіс:">
-<!ENTITY AddressTitle.accesskey         "э">
-<!ENTITY UpButton.label                 "Рухаць угору">
-<!ENTITY DownButton.label               "Рухаць уніз">
+<!ENTITY AddressTitle.label "Набярыце адрасы э-пошты, каб дадаць іх у адрасны спіс:">
+<!ENTITY AddressTitle.accesskey "э">
+<!ENTITY UpButton.label "Рухаць угору">
+<!ENTITY DownButton.label "Рухаць уніз">

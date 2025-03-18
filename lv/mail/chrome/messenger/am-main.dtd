@@ -34,14 +34,11 @@
 <!-- LOCALIZATION NOTE (attachVCard.label) : do not translate "vCard" in below line -->
 <!ENTITY attachVCard.label "Pievienot vēstulēm jūsu vCard">
 <!ENTITY attachVCard.accesskey "P">
-
 <!ENTITY manageIdentities.label "Pārvaldīt identitātes…">
 <!ENTITY manageIdentities.accesskey "P">
-
 <!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
 <!ENTITY smtpName.label "Izejošais serveris (SMTP):">
 <!ENTITY smtpName.accesskey "z">
 <!ENTITY smtpDefaultServer.label "Lietot noklusēto serveri">
-
 <!ENTITY smtpServerEdit.label "Rediģēt SMTP serveri…">
 <!ENTITY smtpServerEdit.accesskey "s">

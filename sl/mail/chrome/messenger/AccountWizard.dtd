@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Identiteta">
 <!ENTITY identityDesc.label "Vsak račun ima identiteto, to je podatek, ki vas istoveti pri prejemnikih vaših sporočil.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Vnesite ime, ki ga želi videti v polju &quot;Od&quot; pri pošiljanju sporočil">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(na primer, &quot;Marija Novak&quot;).">
 <!ENTITY fullnameLabel.label "Vaše ime:">
 <!ENTITY fullnameLabel.accesskey "m">
-
 <!ENTITY emailLabel.label "E-naslov:">
 <!ENTITY emailLabel.accesskey "E">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Vnesite ime za ta račun (na primer, &quot;Račun v službi&quot;, &quot;Domači račun&quot; ali &quot;Račun za novice&quot;).">
 <!ENTITY accnameLabel.label "Ime računa:">
 <!ENTITY accnameLabel.accesskey "m">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Čestitke!">
 <!ENTITY completionText.label "Preverite, ali so spodnji podatki pravilni.">
 <!ENTITY newsServerNamePrefix.label "Ime strežnika za novice (NNTP):">

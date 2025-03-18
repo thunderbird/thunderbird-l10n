@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "jaanuar" >
-<!ENTITY month.2.name "veebruar" >
-<!ENTITY month.3.name "märts" >
-<!ENTITY month.4.name "aprill" >
-<!ENTITY month.5.name "mai" >
-<!ENTITY month.6.name "juuni" >
-<!ENTITY month.7.name "juuli" >
-<!ENTITY month.8.name "august" >
-<!ENTITY month.9.name "september" >
-<!ENTITY month.10.name "oktoober" >
-<!ENTITY month.11.name "november" >
-<!ENTITY month.12.name "detsember" >
-
+<!ENTITY month.1.name "jaanuar">
+<!ENTITY month.2.name "veebruar">
+<!ENTITY month.3.name "märts">
+<!ENTITY month.4.name "aprill">
+<!ENTITY month.5.name "mai">
+<!ENTITY month.6.name "juuni">
+<!ENTITY month.7.name "juuli">
+<!ENTITY month.8.name "august">
+<!ENTITY month.9.name "september">
+<!ENTITY month.10.name "oktoober">
+<!ENTITY month.11.name "november">
+<!ENTITY month.12.name "detsember">
 <!ENTITY showToday.tooltip "Tänase päeva juurde">
 <!ENTITY onedayforward.tooltip "Üks päev edasi">
 <!ENTITY onedaybackward.tooltip "Üks päev tagasi">

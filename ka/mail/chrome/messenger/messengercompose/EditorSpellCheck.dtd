@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "მართლწერის შემოწმება">
-
 <!ENTITY misspelledWord.label "არასწორი სიტყვა:">
 <!ENTITY wordEditField.label "ჩანაცვლება:">
 <!ENTITY wordEditField.accessKey "ც">

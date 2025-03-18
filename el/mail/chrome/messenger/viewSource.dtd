@@ -11,7 +11,6 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
 <!ENTITY mainWindow.preface "Kώδικας του: ">
-
 <!ENTITY editMenu.label "Επεξεργασία">
 <!ENTITY editMenu.accesskey "Ε">
 <!ENTITY fileMenu.label "Αρχείο">
@@ -25,13 +24,11 @@
 <!ENTITY closeCmd.label "Κλείσιμο">
 <!ENTITY closeCmd.accesskey "Κ">
 <!ENTITY closeCmd.commandkey "W">
-
 <!-- LOCALIZATION NOTE :
-textEnlarge.commandkey3, textReduce.commandkey2 and
-textReset.commandkey2 are alternative acceleration keys for zoom.
-If shift key is needed with your locale popular keyboard for them,
-you can use these alternative items. Otherwise, their values should be empty.  -->
-
+     textEnlarge.commandkey3, textReduce.commandkey2 and
+     textReset.commandkey2 are alternative acceleration keys for zoom.
+     If shift key is needed with your locale popular keyboard for them,
+     you can use these alternative items. Otherwise, their values should be empty. -->
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textEnlarge.commandkey3 "">
@@ -39,13 +36,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReduce.commandkey2 "">
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
-
 <!ENTITY goToLineCmd.label "Μετάβαση στη γραμμή…">
 <!ENTITY goToLineCmd.accesskey "Μ">
 <!ENTITY goToLineCmd.commandkey "l">
-
-<!ENTITY viewMenu.label           "Προβολή">
-<!ENTITY viewMenu.accesskey       "Π">
+<!ENTITY viewMenu.label "Προβολή">
+<!ENTITY viewMenu.accesskey "Π">
 <!ENTITY reloadCmd.label "Ανανέωση">
 <!ENTITY reloadCmd.accesskey "Α">
 <!ENTITY reloadCmd.commandkey "r">
@@ -61,23 +56,20 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReduce.accesskey "Μ">
 <!ENTITY menu_textReset.label "Κανονικό">
 <!ENTITY menu_textReset.accesskey "ο">
-
-<!ENTITY findOnCmd.label     "Εύρεση στη σελίδα…">
+<!ENTITY findOnCmd.label "Εύρεση στη σελίδα…">
 <!ENTITY findOnCmd.accesskey "σ">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Εύρεση ξανά">
+<!ENTITY findAgainCmd.label "Εύρεση ξανά">
 <!ENTITY findAgainCmd.accesskey "ξ">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
-
 <!ENTITY backCmd.label "Πίσω">
 <!ENTITY backCmd.accesskey "Π">
 <!ENTITY forwardCmd.label "Εμπρός">
 <!ENTITY forwardCmd.accesskey "Ε">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
-
 <!ENTITY copyLinkCmd.label "Αντιγραφή τοποθεσίας συνδέσμου">
 <!ENTITY copyLinkCmd.accesskey "φ">
 <!ENTITY copyEmailCmd.label "Αντιγραφή διεύθυνσης email">

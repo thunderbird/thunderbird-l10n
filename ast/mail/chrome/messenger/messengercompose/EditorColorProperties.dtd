@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Usar colores personalizaos:">
 <!ENTITY customColorsRadio.accessKey "C">
 <!ENTITY customColorsRadio.tooltip "Esta configuración de colores tendrá preferencia sobre la del restolador del llector">
-
 <!ENTITY normalText.label "Testu normal">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "Testu d'enllaz">

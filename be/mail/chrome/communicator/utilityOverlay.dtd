@@ -3,30 +3,26 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
-
-<!ENTITY fileMenu.label          "Файл">
-<!ENTITY fileMenu.accesskey        "Ф">
-<!ENTITY newMenu.label            "Стварыць">
-<!ENTITY newMenu.accesskey          "С">
-
-<!ENTITY editMenu.label          "Праўка">
-<!ENTITY editMenu.accesskey        "П">
-<!ENTITY undoCmd.label            "Адрабіць">
-<!ENTITY undoCmd.accesskey          "А">
-<!ENTITY redoCmd.label            "Узнавіць">
-<!ENTITY redoCmd.accesskey          "У">
-<!ENTITY deleteCmd.label          "Выдаліць">
-<!ENTITY deleteCmd.accesskey        "В">
+<!ENTITY fileMenu.label "Файл">
+<!ENTITY fileMenu.accesskey "Ф">
+<!ENTITY newMenu.label "Стварыць">
+<!ENTITY newMenu.accesskey "С">
+<!ENTITY editMenu.label "Праўка">
+<!ENTITY editMenu.accesskey "П">
+<!ENTITY undoCmd.label "Адрабіць">
+<!ENTITY undoCmd.accesskey "А">
+<!ENTITY redoCmd.label "Узнавіць">
+<!ENTITY redoCmd.accesskey "У">
+<!ENTITY deleteCmd.label "Выдаліць">
+<!ENTITY deleteCmd.accesskey "В">
 <!ENTITY customizeCmd.label "Персаналізаваць">
 <!ENTITY customizeCmd.accesskey "П">
-
-<!ENTITY viewMenu.label          "Выгляд">
-<!ENTITY viewMenu.accesskey        "В">
-<!ENTITY viewToolbarsMenu.label        "Панэлі інструментаў">
-<!ENTITY viewToolbarsMenu.accesskey      "П">
-<!ENTITY showTaskbarCmd.label          "Панэль статусу">
-<!ENTITY showTaskbarCmd.accesskey        "а">
-
-<!ENTITY closeCmd.label      "Закрыць">
-<!ENTITY closeCmd.key      "W">
-<!ENTITY closeCmd.accesskey    "З">
+<!ENTITY viewMenu.label "Выгляд">
+<!ENTITY viewMenu.accesskey "В">
+<!ENTITY viewToolbarsMenu.label "Панэлі інструментаў">
+<!ENTITY viewToolbarsMenu.accesskey "П">
+<!ENTITY showTaskbarCmd.label "Панэль статусу">
+<!ENTITY showTaskbarCmd.accesskey "а">
+<!ENTITY closeCmd.label "Закрыць">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.accesskey "З">

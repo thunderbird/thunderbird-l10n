@@ -8,7 +8,6 @@
 <!ENTITY author.label "Aozer">
 <!ENTITY organizationField4.label "Aozadur">
 <!ENTITY replyToField4.label "Respont da">
-
 <!ENTITY subjectField4.label "Danvez">
 <!ENTITY ccField4.label "Cc">
 <!ENTITY bccField4.label "Bcc">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Naoudi ar gemennadenn">
 <!ENTITY inReplyToField4.label "E respont da">
 <!ENTITY originalWebsite4.label "Lec'hienn">
-
 <!ENTITY hdrArchiveButton1.label "Diellaouiñ">
 <!ENTITY hdrArchiveButton1.tooltip "Diellaouiñ ar gemennadenn-mañ">
 <!ENTITY hdrSmartReplyButton1.label "Respont speredek">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Merkañ ar gemennadenn-mañ evel lastez">
 <!ENTITY hdrTrashButton1.label "Dilemel">
 <!ENTITY hdrTrashButton1.tooltip "Dilemel ar gemennadenn-mañ">
-
 <!ENTITY hdrViewToolbarShowFull.label "Diskouez an arlunioù hag an destenn">
 <!ENTITY hdrViewToolbarShowFull.accesskey "D">
 <!ENTITY hdrViewToolbarShowIcons.label "Diskouez an arlunioù nemetken">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "D">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Diskouez atav Respont d'ar c'haser">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "R">
-
 <!ENTITY otherActionsButton2.label "Muioc'h">
 <!ENTITY otherActionsButton.tooltip "Gweredoù all">
 <!ENTITY otherActionsOpenConversation1.label "Digeriñ e-barzh ar gaozeadenn">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "G">
 <!ENTITY otherActionsPrint1.label "Moullañ…">
 <!ENTITY otherActionsPrint1.accesskey "M">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Diskouez penel ar c'henstagadurioù dre ziouer">
-<!ENTITY startExpandedCmd.accesskey    "i">
-
+<!ENTITY startExpandedCmd.label "Diskouez penel ar c'henstagadurioù dre ziouer">
+<!ENTITY startExpandedCmd.accesskey "i">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Digeriñ">
-<!ENTITY openAttachmentCmd.accesskey    "D">
-<!ENTITY saveAsAttachmentCmd.label    "Enrollañ evel…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "n">
-<!ENTITY detachAttachmentCmd.label    "Distagañ …">
-<!ENTITY detachAttachmentCmd.accesskey    "s">
-<!ENTITY deleteAttachmentCmd.label    "Dilemel">
-<!ENTITY deleteAttachmentCmd.accesskey    "l">
-<!ENTITY openAllAttachmentsCmd.label    "Digeriñ pep tra…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "g">
-<!ENTITY saveAllAttachmentsCmd.label    "Enrollañ pep tra…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "t">
-<!ENTITY detachAllAttachmentsCmd.label    "Distagañ pep tra…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "D">
-<!ENTITY deleteAllAttachmentsCmd.label    "Dilemel pep tra…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "m">
-
+<!ENTITY openAttachmentCmd.label "Digeriñ">
+<!ENTITY openAttachmentCmd.accesskey "D">
+<!ENTITY saveAsAttachmentCmd.label "Enrollañ evel…">
+<!ENTITY saveAsAttachmentCmd.accesskey "n">
+<!ENTITY detachAttachmentCmd.label "Distagañ …">
+<!ENTITY detachAttachmentCmd.accesskey "s">
+<!ENTITY deleteAttachmentCmd.label "Dilemel">
+<!ENTITY deleteAttachmentCmd.accesskey "l">
+<!ENTITY openAllAttachmentsCmd.label "Digeriñ pep tra…">
+<!ENTITY openAllAttachmentsCmd.accesskey "g">
+<!ENTITY saveAllAttachmentsCmd.label "Enrollañ pep tra…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "t">
+<!ENTITY detachAllAttachmentsCmd.label "Distagañ pep tra…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "D">
+<!ENTITY deleteAllAttachmentsCmd.label "Dilemel pep tra…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "m">
 <!ENTITY openAttachment.tooltip "Digeriñ ar restr stag">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Digeriñ an teuliad a endalc'h ar restr">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "D">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Diskouez e-barzh Finder">
+<!ENTITY detachedAttachmentFolder.show.label "Digeriñ an teuliad a endalc'h ar restr">
+<!ENTITY detachedAttachmentFolder.show.accesskey "D">
+<!ENTITY detachedAttachmentFolder.showMac.label "Diskouez e-barzh Finder">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "D">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Enrollañ">
-<!ENTITY saveAttachmentButton1.tooltip     "Enrollañ ar restr stag">
-<!ENTITY saveAllAttachmentsButton1.label   "Enrollañ pep tra">
+<!ENTITY saveAttachmentButton1.label "Enrollañ">
+<!ENTITY saveAttachmentButton1.tooltip "Enrollañ ar restr stag">
+<!ENTITY saveAllAttachmentsButton1.label "Enrollañ pep tra">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Enrollañ an holl restroù stag">
-
-<!ENTITY copyLinkCmd.label        "Eilañ lec'hiadur an ere">
-<!ENTITY copyLinkCmd.accesskey    "c">
-
+<!ENTITY copyLinkCmd.label "Eilañ lec'hiadur an ere">
+<!ENTITY copyLinkCmd.accesskey "c">
 <!ENTITY CopyMessageId.label "Eilañ an naoudi kemennadenn">
 <!ENTITY CopyMessageId.accesskey "E">
 <!ENTITY OpenMessageForMsgId.label "Digeriñ kemennadenn an naoudi">

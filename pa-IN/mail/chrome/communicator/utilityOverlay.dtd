@@ -3,28 +3,24 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
-
-<!ENTITY fileMenu.label          "ਫਾਇਲ">
-<!ENTITY fileMenu.accesskey        "f">
-<!ENTITY newMenu.label            "ਨਵਾਂ">
-<!ENTITY newMenu.accesskey          "N">
-
-<!ENTITY editMenu.label          "ਸੋਧ">
-<!ENTITY editMenu.accesskey        "e">
-<!ENTITY undoCmd.label            "ਵਾਪਸ">
-<!ENTITY undoCmd.accesskey          "u">
-<!ENTITY redoCmd.label            "ਪਰਤਾਓ">
-<!ENTITY redoCmd.accesskey          "r">
-<!ENTITY deleteCmd.label          "ਹਟਾਓ">
-<!ENTITY deleteCmd.accesskey        "d">
-
-<!ENTITY viewMenu.label          "ਵੇਖੋ">
-<!ENTITY viewMenu.accesskey        "v">
-<!ENTITY viewToolbarsMenu.label        "ਟੂਲਬਾਰ">
-<!ENTITY viewToolbarsMenu.accesskey      "T">
-<!ENTITY showTaskbarCmd.label          "ਹਾਲਤ ਪੱਟੀ">
-<!ENTITY showTaskbarCmd.accesskey        "S">
-
-<!ENTITY closeCmd.label      "ਬੰਦ">
-<!ENTITY closeCmd.key      "W">
-<!ENTITY closeCmd.accesskey    "c">
+<!ENTITY fileMenu.label "ਫਾਇਲ">
+<!ENTITY fileMenu.accesskey "f">
+<!ENTITY newMenu.label "ਨਵਾਂ">
+<!ENTITY newMenu.accesskey "N">
+<!ENTITY editMenu.label "ਸੋਧ">
+<!ENTITY editMenu.accesskey "e">
+<!ENTITY undoCmd.label "ਵਾਪਸ">
+<!ENTITY undoCmd.accesskey "u">
+<!ENTITY redoCmd.label "ਪਰਤਾਓ">
+<!ENTITY redoCmd.accesskey "r">
+<!ENTITY deleteCmd.label "ਹਟਾਓ">
+<!ENTITY deleteCmd.accesskey "d">
+<!ENTITY viewMenu.label "ਵੇਖੋ">
+<!ENTITY viewMenu.accesskey "v">
+<!ENTITY viewToolbarsMenu.label "ਟੂਲਬਾਰ">
+<!ENTITY viewToolbarsMenu.accesskey "T">
+<!ENTITY showTaskbarCmd.label "ਹਾਲਤ ਪੱਟੀ">
+<!ENTITY showTaskbarCmd.accesskey "S">
+<!ENTITY closeCmd.label "ਬੰਦ">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.accesskey "c">

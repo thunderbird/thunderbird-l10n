@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Stavekontroll">
-
 <!ENTITY misspelledWord.label "Feilstavet ord:">
 <!ENTITY wordEditField.label "Erstatt med:">
 <!ENTITY wordEditField.accessKey "E">

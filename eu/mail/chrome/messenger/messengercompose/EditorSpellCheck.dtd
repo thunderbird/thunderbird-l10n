@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Egiaztatu ortografia">
-
 <!ENTITY misspelledWord.label "Gaizki idatzitako hitza:">
 <!ENTITY wordEditField.label "Ordeztu honekin:">
 <!ENTITY wordEditField.accessKey "h">

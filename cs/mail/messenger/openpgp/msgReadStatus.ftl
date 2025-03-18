@@ -9,10 +9,13 @@ message-header-show-security-info-key = S
 #   $type (String) - the shortcut key defined in the message-header-show-security-info-key
 message-security-button =
     .title =
-        Zobrazit informace o zabezpečení zprávy
         { PLATFORM() ->
-            [macos] (⌘ ⌥ { message-header-show-security-info-key })
-           *[other] (Ctrl+Alt+{ message-header-show-security-info-key })
+            [macos]
+                Zobrazit informace o zabezpečení zprávy
+                (⌘ ⌥ { message-header-show-security-info-key })
+           *[other]
+                Zobrazit informace o zabezpečení zprávy
+                (Ctrl+Alt+{ message-header-show-security-info-key })
         }
 openpgp-view-signer-key =
     .label = Zobrazit klíč podpisovatele

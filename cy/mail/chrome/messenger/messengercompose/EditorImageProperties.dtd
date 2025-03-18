@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Priodweddau Delwedd">
-
 <!ENTITY pixelsPopup.value "picseli">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Lleoliad delwedd:">
 <!ENTITY locationEditField.accessKey "L">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Teipio testun i'w arddangos yn lle'r ddelwedd">
 <!ENTITY noAltText.label "Peidio defnyddio testun eiledol">
 <!ENTITY noAltText.accessKey "P">
-
 <!ENTITY previewBox.label "Rhagolwg Delwedd">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Maint Gwirioneddol:">
 <!ENTITY actualSizeRadio.label "Maint Gwirioneddol">
 <!ENTITY actualSizeRadio.accessKey "M">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Cyfyngu">
 <!ENTITY constrainCheckbox.accessKey "f">
 <!ENTITY constrainCheckbox.tooltip "Cadw cyfradd agwedd y ddelwedd">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Map Delwedd">
 <!ENTITY removeImageMapButton.label "Tynnu">
 <!ENTITY removeImageMapButton.accessKey "T">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Alinio Testun i'r Ddelwedd">
 <!ENTITY bottomPopup.value "Ar y gwaelod">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "Yn y canol">
 <!ENTITY wrapRightPopup.value "Amlapio i'r dde">
 <!ENTITY wrapLeftPopup.value "Amlapio i'r chwith">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Bylchu">
 <!ENTITY leftRightEditField.label "Chwith a De:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "B">
 <!ENTITY borderEditField.label "Ymyl Solet:">
 <!ENTITY borderEditField.accessKey "Y">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Dangos ymyl o amgylch delwedd gysylltiedig">
 <!ENTITY showImageLinkBorder.accessKey "D">
 <!ENTITY LinkAdvancedEditButton.label "Dolen Golygu Uwch…">
 <!ENTITY LinkAdvancedEditButton.accessKey "D">
 <!ENTITY LinkAdvancedEditButton.tooltip "Ychwanegu neu newid Priodweddau HTML, priodoleddau arddulliau a JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Ffurflen">
 <!ENTITY imageLocationTab.label "Lleoliad">

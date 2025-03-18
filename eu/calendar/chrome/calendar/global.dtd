@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "urtarrila" >
-<!ENTITY month.2.name "otsaila" >
-<!ENTITY month.3.name "martxoa" >
-<!ENTITY month.4.name "apirila" >
-<!ENTITY month.5.name "maiatza" >
-<!ENTITY month.6.name "ekaina" >
-<!ENTITY month.7.name "uztaila" >
-<!ENTITY month.8.name "abuztua" >
-<!ENTITY month.9.name "iraila" >
-<!ENTITY month.10.name "urria" >
-<!ENTITY month.11.name "azaroa" >
-<!ENTITY month.12.name "abendua" >
-
+<!ENTITY month.1.name "urtarrila">
+<!ENTITY month.2.name "otsaila">
+<!ENTITY month.3.name "martxoa">
+<!ENTITY month.4.name "apirila">
+<!ENTITY month.5.name "maiatza">
+<!ENTITY month.6.name "ekaina">
+<!ENTITY month.7.name "uztaila">
+<!ENTITY month.8.name "abuztua">
+<!ENTITY month.9.name "iraila">
+<!ENTITY month.10.name "urria">
+<!ENTITY month.11.name "azaroa">
+<!ENTITY month.12.name "abendua">
 <!ENTITY showToday.tooltip "Joan gaurkora">
 <!ENTITY onedayforward.tooltip "Egun bat aurrera">
 <!ENTITY onedaybackward.tooltip "Egun bat atzera">

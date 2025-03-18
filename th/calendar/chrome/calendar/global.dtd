@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "มกราคม" >
-<!ENTITY month.2.name "กุมภาพันธ์" >
-<!ENTITY month.3.name "มีนาคม" >
-<!ENTITY month.4.name "เมษายน" >
-<!ENTITY month.5.name "พฤษภาคม" >
-<!ENTITY month.6.name "มิถุนายน" >
-<!ENTITY month.7.name "กรกฎาคม" >
-<!ENTITY month.8.name "สิงหาคม" >
-<!ENTITY month.9.name "กันยายน" >
-<!ENTITY month.10.name "ตุลาคม" >
-<!ENTITY month.11.name "พฤศจิกายน" >
-<!ENTITY month.12.name "ธันวาคม" >
-
+<!ENTITY month.1.name "มกราคม">
+<!ENTITY month.2.name "กุมภาพันธ์">
+<!ENTITY month.3.name "มีนาคม">
+<!ENTITY month.4.name "เมษายน">
+<!ENTITY month.5.name "พฤษภาคม">
+<!ENTITY month.6.name "มิถุนายน">
+<!ENTITY month.7.name "กรกฎาคม">
+<!ENTITY month.8.name "สิงหาคม">
+<!ENTITY month.9.name "กันยายน">
+<!ENTITY month.10.name "ตุลาคม">
+<!ENTITY month.11.name "พฤศจิกายน">
+<!ENTITY month.12.name "ธันวาคม">
 <!ENTITY showToday.tooltip "ไปยังวันนี้">
 <!ENTITY onedayforward.tooltip "เดินหน้าหนึ่งวัน">
 <!ENTITY onedaybackward.tooltip "ย้อนกลับหนึ่งวัน">

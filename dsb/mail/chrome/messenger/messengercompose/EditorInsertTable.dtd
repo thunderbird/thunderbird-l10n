@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Tabelu zasunuś">
-
 <!ENTITY size.label "Wjelikosć">
 <!ENTITY numRowsEditField.label "Rědy:">
 <!ENTITY numRowsEditField.accessKey "R">

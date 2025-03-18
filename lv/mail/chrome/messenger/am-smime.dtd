@@ -4,11 +4,8 @@
 
 <!ENTITY e2eTitle.label "Tiešās saziņas šifrēšana">
 <!ENTITY e2eLearnMore.label "Uzzināt vairāk">
-
 <!ENTITY e2eEnc.description "Bez tiešās saziņas šifrēšanas, vēstuļu saturs ir atklāts jūsu epasta pakalpojumu sniedzējam un masu uzraudzībai.">
-
 <!ENTITY e2eTechPref.description "Vēlamā šifrēšanas tehnoloģija:">
-
 <!ENTITY encryptionCert2.message "Personīgais sertifikāts šifrēšanai:">
 <!ENTITY digitalSign.certificate.button "Izvēlieties…">
 <!ENTITY digitalSign.certificate.accesskey "I">
@@ -20,27 +17,20 @@
 <!ENTITY encryption.certificate_clear.accesskey "t">
 <!ENTITY signingGroupTitle.label "Digitālā parakstīšana">
 <!ENTITY signingCert2.message "Personīgais sertifikāts digitālajai parakstīšanai:">
-
 <!ENTITY sendingDefaults.label "Noklusētie iestatījumi vēstuļu sūtīšanai">
-
 <!ENTITY technologyAutomatic.label "Izvēlēties automātiski, balstoties uz pieejamām atslēgām vai sertifikātiem">
-
 <!ENTITY certificates2.label "S/MIME">
 <!ENTITY manageCerts3.label "Pārvaldīt S/MIME sertifikātus">
 <!ENTITY manageCerts3.accesskey "P">
 <!ENTITY manageDevices2.label "S/MIME drošības ierīces">
 <!ENTITY manageDevices2.accesskey "i">
-
 <!ENTITY technologySMIME.label "Dot priekšroku S/MIME">
 <!ENTITY technologyOpenPGP.label "Dot priekšroku OpenPGP">
-
 <!ENTITY openpgpKeys.label "OpenPGP">
-
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Izvēlieties sertifikātu">
-<!ENTITY certPicker.info  "Sertifikāts:">
+<!ENTITY certPicker.info "Sertifikāts:">
 <!ENTITY certPicker.detailsLabel "Izvēlētā sertifikāta detaļas:">
-
 <!ENTITY openpgpKey.message "Personiskā atslēga šifrēšanai un digitālajai parakstīšanai:">
 <!ENTITY openpgpKey.button "Iestatīt personisko atslēgu…">
 <!ENTITY openpgpKey.accesskey "I">

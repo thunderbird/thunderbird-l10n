@@ -14,41 +14,41 @@
 
 -brand-shorter-name =
     { $sklon ->
-       *[imenovalnik] Thunderbird
         [rodilnik] Thunderbirda
         [dajalnik] Thunderbirdu
         [tozilnik] Thunderbird
         [mestnik] Thunderbirdu
         [orodnik] Thunderbirdom
+       *[imenovalnik] Thunderbird
     }
 -brand-short-name =
     { $sklon ->
-       *[imenovalnik] Thunderbird
         [rodilnik] Thunderbirda
         [dajalnik] Thunderbirdu
         [tozilnik] Thunderbird
         [mestnik] Thunderbirdu
         [orodnik] Thunderbirdom
+       *[imenovalnik] Thunderbird
     }
 -brand-full-name = Mozilla Thunderbird
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Daily, Beta, etc.).
 -brand-product-name =
     { $sklon ->
-       *[imenovalnik] Thunderbird
         [rodilnik] Thunderbirda
         [dajalnik] Thunderbirdu
         [tozilnik] Thunderbird
         [mestnik] Thunderbirdu
         [orodnik] Thunderbirdom
+       *[imenovalnik] Thunderbird
     }
 -vendor-short-name =
     { $sklon ->
-       *[imenovalnik] Mozilla
         [rodilnik] Mozille
         [dajalnik] Mozilli
         [tozilnik] Mozillo
         [mestnik] Mozilli
         [orodnik] Mozillo
+       *[imenovalnik] Mozilla
     }
 trademarkInfo = Mozilla Thunderbird in logotip Thunderbirda sta blagovni znamki Mozilla Foundation.

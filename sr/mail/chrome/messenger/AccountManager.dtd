@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Подешавања налога">
-<!ENTITY  accountManagerCloseButton.label "Затвори">
-
+<!ENTITY accountManagerCloseButton.label "Затвори">
 <!ENTITY accountActionsButton.label "Подешавања налога">
 <!ENTITY accountActionsButton.accesskey "А">
 <!ENTITY addMailAccountButton.label "Додај поштански налог…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "д">
 <!ENTITY removeButton.label "Уклони налог">
 <!ENTITY removeButton.accesskey "У">
-
 <!ENTITY addonsButton.label "Проширења и теме">

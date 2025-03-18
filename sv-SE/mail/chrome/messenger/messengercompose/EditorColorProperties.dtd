@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Använd egna färger:">
 <!ENTITY customColorsRadio.accessKey "e">
 <!ENTITY customColorsRadio.tooltip "Dessa färginställningar används istället för inställningarna i mottagarens läsare">
-
 <!ENTITY normalText.label "Normal text">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "Länktext">

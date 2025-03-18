@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "使用定制颜色：">
 <!ENTITY customColorsRadio.accessKey "c">
 <!ENTITY customColorsRadio.tooltip "这些颜色设置覆盖了浏览器的设置">
-
 <!ENTITY normalText.label "常规文本">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "链接文本">

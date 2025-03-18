@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Kuvan ominaisuudet">
-
 <!ENTITY pixelsPopup.value "kuvapistettä">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Kuvan sijainti:">
 <!ENTITY locationEditField.accessKey "K">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Kirjoita kuvan tilalla näytettävä teksti">
 <!ENTITY noAltText.label "Älä käytä vaihtoehtoista tekstiä">
 <!ENTITY noAltText.accessKey "Ä">
-
 <!ENTITY previewBox.label "Kuvan esikatselu">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Todellinen koko:">
 <!ENTITY actualSizeRadio.label "Todellinen koko">
 <!ENTITY actualSizeRadio.accessKey "T">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Säilytä muoto">
 <!ENTITY constrainCheckbox.accessKey "S">
 <!ENTITY constrainCheckbox.tooltip "Säilytä kuvan suhteet ennallaan">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Kuvan kartta">
 <!ENTITY removeImageMapButton.label "Poista">
 <!ENTITY removeImageMapButton.accessKey "P">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Linjaa teksti kuvaan">
 <!ENTITY bottomPopup.value "Pohjalle">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "Keskelle">
 <!ENTITY wrapRightPopup.value "Rivitä oikealle">
 <!ENTITY wrapLeftPopup.value "Rivitä vasemmalle">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Vapaa tila">
 <!ENTITY leftRightEditField.label "Vasemmalla ja oikealla:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "Y">
 <!ENTITY borderEditField.label "Jatkuva reunaviiva:">
 <!ENTITY borderEditField.accessKey "n">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Näytä linkkikuvan ympärillä reunus">
 <!ENTITY showImageLinkBorder.accessKey "N">
 <!ENTITY LinkAdvancedEditButton.label "Linkin lisäasetukset…">
 <!ENTITY LinkAdvancedEditButton.accessKey "a">
 <!ENTITY LinkAdvancedEditButton.tooltip "Lisää tai muokkaa HTML-attribuutteja, tyyliattribuutteja ja JavaScript-komentosarjoja">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Lomake">
 <!ENTITY imageLocationTab.label "Sijainti">

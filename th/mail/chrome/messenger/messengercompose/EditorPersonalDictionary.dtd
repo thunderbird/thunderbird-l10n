@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "พจนานุกรมส่วนบุคคล">
-
 <!ENTITY wordEditField.label "คำใหม่:">
 <!ENTITY wordEditField.accessKey "ค">
 <!ENTITY AddButton.label "เพิ่ม">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "น">
 <!ENTITY RemoveButton.label "เอาออก">
 <!ENTITY RemoveButton.accessKey "อ">
-
 <!ENTITY CloseButton.label "ปิด">
 <!ENTITY CloseButton.accessKey "ป">

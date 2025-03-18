@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "x">
 <!ENTITY syncGroupTitle.label "Sincronisaziun da messadis">
 <!ENTITY diskspaceGroupTitle.label "Capacitad da memorisar">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Telechargiar tut ils messadis independent da lur vegliadetgna">
-<!ENTITY allAutosync.accesskey           "c">
-<!ENTITY ageAutosyncBefore.label         "Mo telechargiar messadis dals ultims">
-<!ENTITY ageAutosync.accesskey           "G">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "Dis">
-<!ENTITY weekAgeInterval.label           "Emnas">
-<!ENTITY monthAgeInterval.label          "Mais">
-<!ENTITY yearAgeInterval.label           "Onns">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Telechargiar tut ils messadis independent da lur vegliadetgna">
+<!ENTITY allAutosync.accesskey "c">
+<!ENTITY ageAutosyncBefore.label "Mo telechargiar messadis dals ultims">
+<!ENTITY ageAutosync.accesskey "G">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "Dis">
+<!ENTITY weekAgeInterval.label "Emnas">
+<!ENTITY monthAgeInterval.label "Mais">
+<!ENTITY yearAgeInterval.label "Onns">
+<!ENTITY ageAutosyncAfter.label "">

@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "Ф">
 <!ENTITY chooseFileLinkButton.label "Файлды таңдау...">
 <!ENTITY chooseFileLinkButton.accessKey "т">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Веб-беттің адресін немесе жергілікті файлды енгізіңіз, немесе өрістің контекст мәзірінен атаулы байланысты немесе тақырыптаманы таңдаңыз:">
 <!ENTITY LinkURLEditField2.accessKey "в">

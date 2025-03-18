@@ -2,18 +2,16 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY folderProps.windowtitle.label           "Ιδιότητες">
-
-<!ENTITY generalInfo.label                       "Γενικές πληροφορίες">
-<!ENTITY folderRebuildSummaryFileTip2.label      "Ανακατασκευή ευρετηρίου αρχείου σύνοψης">
-<!ENTITY folderRebuildSummaryFile2.label         "Επιδιόρθωση φακέλου">
-<!ENTITY folderRebuildSummaryFile2.accesskey     "ρ">
-<!ENTITY folderRebuildSummaryFile.explanation    "Μερικές φορές, το αρχείο ευρετηρίου φακέλου (.msf) καταστρέφεται και τα μηνύματα φαίνεται να λείπουν ή να εμφανίζονται παρά τη διαγραφή τους· η επιδιόρθωση του φακέλου ίσως λύσει αυτά τα ζητήματα.">
-<!ENTITY folderIncludeInGlobalSearch.label       "Συμπερίληψη των μηνυμάτων αυτού του φακέλου στα αποτελέσματα της καθολικής αναζήτησης">
-<!ENTITY folderIncludeInGlobalSearch.accesskey   "θ">
-
+<!ENTITY folderProps.windowtitle.label "Ιδιότητες">
+<!ENTITY generalInfo.label "Γενικές πληροφορίες">
+<!ENTITY folderRebuildSummaryFileTip2.label "Ανακατασκευή ευρετηρίου αρχείου σύνοψης">
+<!ENTITY folderRebuildSummaryFile2.label "Επιδιόρθωση φακέλου">
+<!ENTITY folderRebuildSummaryFile2.accesskey "ρ">
+<!ENTITY folderRebuildSummaryFile.explanation "Μερικές φορές, το αρχείο ευρετηρίου φακέλου (.msf) καταστρέφεται και τα μηνύματα φαίνεται να λείπουν ή να εμφανίζονται παρά τη διαγραφή τους· η επιδιόρθωση του φακέλου ίσως λύσει αυτά τα ζητήματα.">
+<!ENTITY folderIncludeInGlobalSearch.label "Συμπερίληψη των μηνυμάτων αυτού του φακέλου στα αποτελέσματα της καθολικής αναζήτησης">
+<!ENTITY folderIncludeInGlobalSearch.accesskey "θ">
 <!ENTITY retention.label "Πολιτική διατήρησης">
-<!ENTITY retentionUseAccount.label  "Χρήση ρυθμίσεων λογαριασμού">
+<!ENTITY retentionUseAccount.label "Χρήση ρυθμίσεων λογαριασμού">
 <!ENTITY retentionUseAccount.accesskey "ρ">
 <!ENTITY daysOld.label "ημέρες παλιά">
 <!ENTITY message.label "μηνύματα">
@@ -28,43 +26,36 @@
 <!ENTITY retentionKeepRecent.accesskey "λ">
 <!ENTITY retentionApplyToFlagged.label "Διατήρηση μηνυμάτων με αστέρι">
 <!ENTITY retentionApplyToFlagged.accesskey "σ">
-
-<!ENTITY folderSynchronizationTab.label          "Συγχρονισμός">
-<!ENTITY folderCheckForNewMessages2.label         "Κατά τη λήψη νέων μηνυμάτων από τον λογαριασμό, να γίνεται πάντα έλεγχος αυτού του φακέλου">
-<!ENTITY folderCheckForNewMessages2.accesskey     "φ">
-
-<!ENTITY offlineFolder.check.label               "Επιλογή αυτού του φακέλου για εργασία χωρίς σύνδεση">
-<!ENTITY offlineFolder.check.accesskey           "γ">
-<!ENTITY offlineFolder.button.label              "Λήψη τώρα">
-<!ENTITY offlineFolder.button.accesskey          "ψ">
-
-<!ENTITY selectofflineNewsgroup.check.label      "Επιλογή ομάδας συζητήσεων για χρήση εκτός σύνδεσης">
-<!ENTITY selectofflineNewsgroup.check.accesskey  "τ">
-<!ENTITY offlineNewsgroup.button.label           "Λήψη τώρα">
-<!ENTITY offlineNewsgroup.button.accesskey       "ψ">
-
-<!ENTITY folderProps.name.label                  "Όνομα:">
-<!ENTITY folderProps.name.accesskey              "ν">
-<!ENTITY folderProps.color.label                 "Χρώμα εικονιδίου:">
-<!ENTITY folderProps.color.accesskey             "Χ">
-<!ENTITY folderProps.reset.tooltip               "Επαναφορά προεπιλεγμένου χρώματος">
-<!ENTITY folderProps.location.label              "Τοποθεσία:">
-<!ENTITY folderProps.location.accesskey          "θ">
-
-<!ENTITY folderSharingTab.label                  "Κοινή χρήση">
-<!ENTITY privileges.button.label                 "Προνόμια...">
-<!ENTITY privileges.button.accesskey             "ν">
-<!ENTITY permissionsDesc.label                   "Έχετε τα ακόλουθα δικαιώματα:">
-<!ENTITY folderOtherUsers.label                  "Άλλα άτομα με πρόσβαση στον φάκελο:">
-<!ENTITY folderType.label                        "Τύπος φακέλου:">
-
-<!ENTITY folderQuotaTab.label                    "Όριο">
-<!ENTITY folderQuotaUsage.label                  "Χρήση:">
-<!ENTITY folderQuotaStatus.label                 "Κατάσταση:">
-
-<!ENTITY numberOfMessages.label                  "Αριθμός μηνυμάτων:">
+<!ENTITY folderSynchronizationTab.label "Συγχρονισμός">
+<!ENTITY folderCheckForNewMessages2.label "Κατά τη λήψη νέων μηνυμάτων από τον λογαριασμό, να γίνεται πάντα έλεγχος αυτού του φακέλου">
+<!ENTITY folderCheckForNewMessages2.accesskey "φ">
+<!ENTITY offlineFolder.check.label "Επιλογή αυτού του φακέλου για εργασία χωρίς σύνδεση">
+<!ENTITY offlineFolder.check.accesskey "γ">
+<!ENTITY offlineFolder.button.label "Λήψη τώρα">
+<!ENTITY offlineFolder.button.accesskey "ψ">
+<!ENTITY selectofflineNewsgroup.check.label "Επιλογή ομάδας συζητήσεων για χρήση εκτός σύνδεσης">
+<!ENTITY selectofflineNewsgroup.check.accesskey "τ">
+<!ENTITY offlineNewsgroup.button.label "Λήψη τώρα">
+<!ENTITY offlineNewsgroup.button.accesskey "ψ">
+<!ENTITY folderProps.name.label "Όνομα:">
+<!ENTITY folderProps.name.accesskey "ν">
+<!ENTITY folderProps.color.label "Χρώμα εικονιδίου:">
+<!ENTITY folderProps.color.accesskey "Χ">
+<!ENTITY folderProps.reset.tooltip "Επαναφορά προεπιλεγμένου χρώματος">
+<!ENTITY folderProps.location.label "Τοποθεσία:">
+<!ENTITY folderProps.location.accesskey "θ">
+<!ENTITY folderSharingTab.label "Κοινή χρήση">
+<!ENTITY privileges.button.label "Προνόμια...">
+<!ENTITY privileges.button.accesskey "ν">
+<!ENTITY permissionsDesc.label "Έχετε τα ακόλουθα δικαιώματα:">
+<!ENTITY folderOtherUsers.label "Άλλα άτομα με πρόσβαση στον φάκελο:">
+<!ENTITY folderType.label "Τύπος φακέλου:">
+<!ENTITY folderQuotaTab.label "Όριο">
+<!ENTITY folderQuotaUsage.label "Χρήση:">
+<!ENTITY folderQuotaStatus.label "Κατάσταση:">
+<!ENTITY numberOfMessages.label "Αριθμός μηνυμάτων:">
 <!-- LOCALIZATION NOTE: When the number of messages can't be determined, this string is displayed as the number -->
-<!ENTITY numberUnknown.label                     "άγνωστο">
-<!ENTITY sizeOnDisk.label                        "Μέγεθος στον δίσκο:">
+<!ENTITY numberUnknown.label "άγνωστο">
+<!ENTITY sizeOnDisk.label "Μέγεθος στον δίσκο:">
 <!-- LOCALIZATION NOTE: When the size can't be determined, this string is displayed as the size -->
-<!ENTITY sizeUnknown.label                       "άγνωστο">
+<!ENTITY sizeUnknown.label "άγνωστο">

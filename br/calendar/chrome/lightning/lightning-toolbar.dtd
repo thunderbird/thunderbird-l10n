@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Deiziataer">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Mont betek ivinell an deiziataer">
+<!ENTITY lightning.toolbar.calendar.label "Deiziataer">
+<!ENTITY lightning.toolbar.calendar.tooltip "Mont betek ivinell an deiziataer">
 <!ENTITY lightning.toolbar.calendar.accesskey "D">
-<!ENTITY lightning.toolbar.task.label         "Trevelloù">
-<!ENTITY lightning.toolbar.task.tooltip       "Mont betek ivinell an trevelloù">
-<!ENTITY lightning.toolbar.task.accesskey     "T">
-
+<!ENTITY lightning.toolbar.task.label "Trevelloù">
+<!ENTITY lightning.toolbar.task.tooltip "Mont betek ivinell an trevelloù">
+<!ENTITY lightning.toolbar.task.accesskey "T">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Deiz">
-<!ENTITY lightning.toolbar.day.accesskey             "D">
-<!ENTITY lightning.toolbar.week.label                "Sizhun">
-<!ENTITY lightning.toolbar.week.accesskey            "W">
-<!ENTITY lightning.toolbar.multiweek.label           "Lies-sizhun">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "u">
-<!ENTITY lightning.toolbar.month.label               "Miz">
-<!ENTITY lightning.toolbar.month.accesskey           "M">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Penel an deiziataer">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "P">
-<!ENTITY lightning.toolbar.calendarpane.label        "Diskouez penel an deiziataer">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "p">
+<!ENTITY lightning.toolbar.day.label "Deiz">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "Sizhun">
+<!ENTITY lightning.toolbar.week.accesskey "W">
+<!ENTITY lightning.toolbar.multiweek.label "Lies-sizhun">
+<!ENTITY lightning.toolbar.multiweek.accesskey "u">
+<!ENTITY lightning.toolbar.month.label "Miz">
+<!ENTITY lightning.toolbar.month.accesskey "M">
+<!ENTITY lightning.toolbar.calendarmenu.label "Penel an deiziataer">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "P">
+<!ENTITY lightning.toolbar.calendarpane.label "Diskouez penel an deiziataer">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "p">

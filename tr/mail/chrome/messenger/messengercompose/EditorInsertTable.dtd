@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Tablo Ekle">
-
 <!ENTITY size.label "Boyut">
 <!ENTITY numRowsEditField.label "Satır:">
 <!ENTITY numRowsEditField.accessKey "S">

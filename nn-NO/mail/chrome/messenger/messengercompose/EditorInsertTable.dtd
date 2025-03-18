@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Set inn tabell">
-
 <!ENTITY size.label "Storleik">
 <!ENTITY numRowsEditField.label "Rader:">
 <!ENTITY numRowsEditField.accessKey "R">

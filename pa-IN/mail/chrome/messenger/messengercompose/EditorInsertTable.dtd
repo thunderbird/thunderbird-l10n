@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "ਟੇਬਲ ਸ਼ਾਮਿਲ">
-
 <!ENTITY size.label "ਅਕਾਰ">
 <!ENTITY numRowsEditField.label "ਕਤਾਰਾਂ:">
 <!ENTITY numRowsEditField.accessKey "R">

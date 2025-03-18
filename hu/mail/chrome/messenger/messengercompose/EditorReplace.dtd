@@ -3,7 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from EdReplace.xhtml -->
-
 <!ENTITY replaceDialog.title "Keresés és csere">
 <!ENTITY findField.label "Keresés:">
 <!ENTITY findField.accesskey "K">

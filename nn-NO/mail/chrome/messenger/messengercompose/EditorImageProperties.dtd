@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Bildeeigenskapar">
-
 <!ENTITY pixelsPopup.value "pikslar">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Bildeadresse:">
 <!ENTITY locationEditField.accessKey "B">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Skriv inn tekst som skal visast i staden for bildet">
 <!ENTITY noAltText.label "Ikkje bruk alternativ tekst">
 <!ENTITY noAltText.accessKey "I">
-
 <!ENTITY previewBox.label "Førehandsvising av bildet">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Verkeleg storleik:">
 <!ENTITY actualSizeRadio.label "Verkeleg storleik">
 <!ENTITY actualSizeRadio.accessKey "V">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Avgrens">
 <!ENTITY constrainCheckbox.accessKey "A">
 <!ENTITY constrainCheckbox.tooltip "Behald høgde-/breidde-forhold i bildet">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Bildekart">
 <!ENTITY removeImageMapButton.label "Fjern">
 <!ENTITY removeImageMapButton.accessKey "F">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Juster tekst etter bilde">
 <!ENTITY bottomPopup.value "Ved botnen">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "I midten">
 <!ENTITY wrapRightPopup.value "Bryt til høgre">
 <!ENTITY wrapLeftPopup.value "Bryt til venstre">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Mellomrom">
 <!ENTITY leftRightEditField.label "Venstre og høgre:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "T">
 <!ENTITY borderEditField.label "Heiltrekt kantlinje">
 <!ENTITY borderEditField.accessKey "H">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Vis kantlinje omkring lenka bilde">
 <!ENTITY showImageLinkBorder.accessKey "V">
 <!ENTITY LinkAdvancedEditButton.label "Lenk avansert redigering…">
 <!ENTITY LinkAdvancedEditButton.accessKey "L">
 <!ENTITY LinkAdvancedEditButton.tooltip "Legg til eller endre HTML-attributtaar, stilattributtar og JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Skjema">
 <!ENTITY imageLocationTab.label "Adresse">

@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Inserează o expresie matematică">
-
 <!ENTITY sourceEditField.label "Introdu codul sursă LaTeX:">
-
 <!ENTITY options.label "Opțiuni">
 <!ENTITY optionInline.label "Mod în linie">
 <!ENTITY optionInline.accesskey "n">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "r">
 <!ENTITY optionRTL.label "Direcție de la dreapta la stânga">
 <!ENTITY optionRTL.accesskey "c">
-
 <!ENTITY insertButton.label "Inserează">
 <!ENTITY insertButton.accesskey "I">

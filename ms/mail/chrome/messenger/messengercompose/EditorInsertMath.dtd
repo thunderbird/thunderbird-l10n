@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Sisip Matematik">
-
 <!ENTITY sourceEditField.label "Masukkan kod sumber LaTeX:">
-
 <!ENTITY options.label "Pilihan">
 <!ENTITY optionInline.label "Mod sebaris">
 <!ENTITY optionInline.accesskey "M">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "A">
 <!ENTITY optionRTL.label "Arah kanan ke kiri">
 <!ENTITY optionRTL.accesskey "k">
-
 <!ENTITY insertButton.label "Sisip">
 <!ENTITY insertButton.accesskey "S">

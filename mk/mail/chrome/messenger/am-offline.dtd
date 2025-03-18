@@ -19,10 +19,3 @@
 <!ENTITY retentionKeepAll.accesskey "а">
 <!ENTITY offlineSelectNntp.label "Дискусиони групи за локална употреба…">
 <!ENTITY diskspaceGroupTitle.label "Простор на дискот">
-
-<!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
-  The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
-  on a single line within the scope of useAutosync.ByAge as follows:
-
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->

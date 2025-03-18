@@ -14,49 +14,49 @@
 
 -brand-shorter-name =
     { $case ->
-       *[nom] Thunderbird
         [gen] Thunderbirda
         [dat] Thunderbirdowi
         [acc] Thunderbirda
         [ins] Thunderbirdem
         [loc] Thunderbirdzie
+       *[nom] Thunderbird
     }
 -brand-short-name =
     { $case ->
-       *[nom] Thunderbird
         [gen] Thunderbirda
         [dat] Thunderbirdowi
         [acc] Thunderbirda
         [ins] Thunderbirdem
         [loc] Thunderbirdzie
+       *[nom] Thunderbird
     }
 -brand-full-name =
     { $case ->
-       *[nom] Mozilla Thunderbird
         [gen] Mozilli Thunderbird
         [dat] Mozilli Thunderbird
         [acc] Mozillę Thunderbird
         [ins] Mozillą Thunderbird
         [loc] Mozilli Thunderbird
+       *[nom] Mozilla Thunderbird
     }
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Daily, Beta, etc.).
 -brand-product-name =
     { $case ->
-       *[nom] Thunderbird
         [gen] Thunderbirda
         [dat] Thunderbirdowi
         [acc] Thunderbirda
         [ins] Thunderbirdem
         [loc] Thunderbirdzie
+       *[nom] Thunderbird
     }
 -vendor-short-name =
     { $case ->
-       *[nom] Mozilla
         [gen] Mozilli
         [dat] Mozilli
         [acc] Mozillę
         [ins] Mozillą
         [loc] Mozilli
+       *[nom] Mozilla
     }
 trademarkInfo = Mozilla Thunderbird oraz logotyp Thunderbird to znaki towarowe Mozilla Foundation.

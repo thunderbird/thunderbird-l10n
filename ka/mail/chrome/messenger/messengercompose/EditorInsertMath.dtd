@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Math ჩასმა">
-
 <!ENTITY sourceEditField.label "LaTeX პირველწყარო კოდის შეყვანა:">
-
 <!ENTITY options.label "პარამეტრები">
 <!ENTITY optionInline.label "ხაზოვანი რეჟიმი">
 <!ENTITY optionInline.accesskey "ზ">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "ც">
 <!ENTITY optionRTL.label "მიმართულება მარჯვნიდან მარცხნივ">
 <!ENTITY optionRTL.accesskey "ჯ">
-
 <!ENTITY insertButton.label "ჩამატება">
 <!ENTITY insertButton.accesskey "ჩ">

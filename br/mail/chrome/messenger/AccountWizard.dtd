@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Titouroù ar gont">
 <!ENTITY identityDesc.label "Pep kont he deus titouroù arbennik a servijo d'ober an diforc'h etrezoc'h-c'hwi hag ar re all pa resevot kemennadennoù.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Roit pe anv a fell deoc&apos;h gwelout e-barzh ar vaezienn &quot;A-berzh&quot; pa vez kaset kemennadennoù ganeoc&apos;h.">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(da skouer, &quot;Yann Seitek&quot;).">
 <!ENTITY fullnameLabel.label "Hoc'h anv :">
 <!ENTITY fullnameLabel.accesskey "a">
-
 <!ENTITY emailLabel.label "Chomlec'h postel :">
 <!ENTITY emailLabel.accesskey "e">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Bizskrivit an anv a servijo da zaveiñ ar gont-mañ (da skouer, &quot;Kont Labour&quot;, &quot;Kont Ger&quot; pe &quot;Kont Strollad-Keleier&quot;).">
 <!ENTITY accnameLabel.label "Anv ar gont :">
 <!ENTITY accnameLabel.accesskey "A">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Gourc'hemennoù!">
 <!ENTITY completionText.label "Gwiriit eo reizh an titouroù a heul.">
 <!ENTITY newsServerNamePrefix.label "Anv dafariad ar strolladoù-keleier (NNTP) :">

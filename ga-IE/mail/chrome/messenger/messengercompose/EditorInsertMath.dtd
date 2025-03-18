@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Cuir Mata Isteach">
-
 <!ENTITY sourceEditField.label "Cuir cód LaTeX isteach:">
-
 <!ENTITY options.label "Roghanna">
 <!ENTITY optionInline.label "Mód inlíne">
 <!ENTITY optionInline.accesskey "n">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "C">
 <!ENTITY optionRTL.label "Deas-go-clé">
 <!ENTITY optionRTL.accesskey "D">
-
 <!ENTITY insertButton.label "Ionsáigh">
 <!ENTITY insertButton.accesskey "I">

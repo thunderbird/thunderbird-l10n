@@ -8,7 +8,6 @@
 <!ENTITY author.label "Autor">
 <!ENTITY organizationField4.label "Organización">
 <!ENTITY replyToField4.label "Responder a">
-
 <!ENTITY subjectField4.label "Asunto">
 <!ENTITY ccField4.label "CC">
 <!ENTITY bccField4.label "Cco">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "ID da Mensaxe">
 <!ENTITY inReplyToField4.label "En resposta a">
 <!ENTITY originalWebsite4.label "Sitio web">
-
 <!ENTITY hdrArchiveButton1.label "Arquivar">
 <!ENTITY hdrArchiveButton1.tooltip "Arquivar esta mensaxe">
 <!ENTITY hdrSmartReplyButton1.label "Resposta intelixente">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Marcar esta mensaxe como lixo">
 <!ENTITY hdrTrashButton1.label "Eliminar">
 <!ENTITY hdrTrashButton1.tooltip "Eliminar esta mensaxe">
-
 <!ENTITY hdrViewToolbarShowFull.label "Amosar iconas e texto">
 <!ENTITY hdrViewToolbarShowFull.accesskey "a">
 <!ENTITY hdrViewToolbarShowIcons.label "Amosar só as iconas">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "t">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Amosar sempre Responder ao remitente">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "R">
-
 <!ENTITY otherActionsButton2.label "Máis">
 <!ENTITY otherActionsButton.tooltip "Máis accións">
 <!ENTITY otherActionsOpenConversation1.label "Abrir na conversación">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "V">
 <!ENTITY otherActionsPrint1.label "Imprimir…">
 <!ENTITY otherActionsPrint1.accesskey "p">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Ao inicio amosa o panel de anexos">
-<!ENTITY startExpandedCmd.accesskey    "S">
-
+<!ENTITY startExpandedCmd.label "Ao inicio amosa o panel de anexos">
+<!ENTITY startExpandedCmd.accesskey "S">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Abrir">
-<!ENTITY openAttachmentCmd.accesskey    "b">
-<!ENTITY saveAsAttachmentCmd.label    "Gardar como…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "a">
-<!ENTITY detachAttachmentCmd.label    "Desanexar…">
-<!ENTITY detachAttachmentCmd.accesskey    "x">
-<!ENTITY deleteAttachmentCmd.label    "Eliminar">
-<!ENTITY deleteAttachmentCmd.accesskey    "E">
-<!ENTITY openAllAttachmentsCmd.label    "Abrir todo…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "o">
-<!ENTITY saveAllAttachmentsCmd.label    "Gardar todo…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "G">
-<!ENTITY detachAllAttachmentsCmd.label    "Desanexar todo…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "D">
-<!ENTITY deleteAllAttachmentsCmd.label    "Eliminar todo…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "r">
-
+<!ENTITY openAttachmentCmd.label "Abrir">
+<!ENTITY openAttachmentCmd.accesskey "b">
+<!ENTITY saveAsAttachmentCmd.label "Gardar como…">
+<!ENTITY saveAsAttachmentCmd.accesskey "a">
+<!ENTITY detachAttachmentCmd.label "Desanexar…">
+<!ENTITY detachAttachmentCmd.accesskey "x">
+<!ENTITY deleteAttachmentCmd.label "Eliminar">
+<!ENTITY deleteAttachmentCmd.accesskey "E">
+<!ENTITY openAllAttachmentsCmd.label "Abrir todo…">
+<!ENTITY openAllAttachmentsCmd.accesskey "o">
+<!ENTITY saveAllAttachmentsCmd.label "Gardar todo…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "G">
+<!ENTITY detachAllAttachmentsCmd.label "Desanexar todo…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "D">
+<!ENTITY deleteAllAttachmentsCmd.label "Eliminar todo…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "r">
 <!ENTITY openAttachment.tooltip "Abrir o ficheiro anexado">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Abrir o cartafol contedor">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "F">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Amosar no Finder">
+<!ENTITY detachedAttachmentFolder.show.label "Abrir o cartafol contedor">
+<!ENTITY detachedAttachmentFolder.show.accesskey "F">
+<!ENTITY detachedAttachmentFolder.showMac.label "Amosar no Finder">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Gardar">
-<!ENTITY saveAttachmentButton1.tooltip     "Gardar o ficheiro anexado">
-<!ENTITY saveAllAttachmentsButton1.label   "Gardar todo">
+<!ENTITY saveAttachmentButton1.label "Gardar">
+<!ENTITY saveAttachmentButton1.tooltip "Gardar o ficheiro anexado">
+<!ENTITY saveAllAttachmentsButton1.label "Gardar todo">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Gardar todos os ficheiros anexados">
-
-<!ENTITY copyLinkCmd.label        "Copiar a localización da ligazón">
-<!ENTITY copyLinkCmd.accesskey    "C">
-
+<!ENTITY copyLinkCmd.label "Copiar a localización da ligazón">
+<!ENTITY copyLinkCmd.accesskey "C">
 <!ENTITY CopyMessageId.label "Copiar o ID da mensaxe">
 <!ENTITY CopyMessageId.accesskey "C">
 <!ENTITY OpenMessageForMsgId.label "Abrir mensaxe por ID">

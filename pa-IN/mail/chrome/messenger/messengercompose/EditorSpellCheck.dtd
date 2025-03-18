@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "ਸਪੈਲਿੰਗ ਚੈੱਕ">
-
 <!ENTITY misspelledWord.label "ਗਲਤ ਸ਼ਬਦ:">
 <!ENTITY wordEditField.label "ਇਸ ਨਾਲ ਬਦਲੋ:">
 <!ENTITY wordEditField.accessKey "w">

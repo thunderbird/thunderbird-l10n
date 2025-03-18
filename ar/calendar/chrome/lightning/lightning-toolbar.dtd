@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "تقويم">
-<!ENTITY lightning.toolbar.calendar.tooltip   "انتقل إلى لسان التقويم">
+<!ENTITY lightning.toolbar.calendar.label "تقويم">
+<!ENTITY lightning.toolbar.calendar.tooltip "انتقل إلى لسان التقويم">
 <!ENTITY lightning.toolbar.calendar.accesskey "ت">
-<!ENTITY lightning.toolbar.task.label         "مهام">
-<!ENTITY lightning.toolbar.task.tooltip       "انتقل إلى لسان المهام">
-<!ENTITY lightning.toolbar.task.accesskey     "م">
-
+<!ENTITY lightning.toolbar.task.label "مهام">
+<!ENTITY lightning.toolbar.task.tooltip "انتقل إلى لسان المهام">
+<!ENTITY lightning.toolbar.task.accesskey "م">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "اليوم">
-<!ENTITY lightning.toolbar.day.accesskey             "ي">
-<!ENTITY lightning.toolbar.week.label                "الأسبوع">
-<!ENTITY lightning.toolbar.week.accesskey            "س">
-<!ENTITY lightning.toolbar.multiweek.label           "الأسابيع المتعددة">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "د">
-<!ENTITY lightning.toolbar.month.label               "الشهر">
-<!ENTITY lightning.toolbar.month.accesskey           "ش">
-<!ENTITY lightning.toolbar.calendarmenu.label        "لوحة التقويم">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "ق">
-<!ENTITY lightning.toolbar.calendarpane.label        "أظهر لوحة التقويم">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "ق">
+<!ENTITY lightning.toolbar.day.label "اليوم">
+<!ENTITY lightning.toolbar.day.accesskey "ي">
+<!ENTITY lightning.toolbar.week.label "الأسبوع">
+<!ENTITY lightning.toolbar.week.accesskey "س">
+<!ENTITY lightning.toolbar.multiweek.label "الأسابيع المتعددة">
+<!ENTITY lightning.toolbar.multiweek.accesskey "د">
+<!ENTITY lightning.toolbar.month.label "الشهر">
+<!ENTITY lightning.toolbar.month.accesskey "ش">
+<!ENTITY lightning.toolbar.calendarmenu.label "لوحة التقويم">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "ق">
+<!ENTITY lightning.toolbar.calendarpane.label "أظهر لوحة التقويم">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "ق">

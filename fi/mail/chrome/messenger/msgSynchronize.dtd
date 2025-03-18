@@ -2,8 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from MsgSynchronize.xhtml and msgSelectOfflineFolders.xhtml-->
-
+<!-- extracted from MsgSynchronize.xhtml and msgSelectOfflineFolders.xhtml -->
 <!ENTITY MsgSynchronize.label "Nouda ja synkronoi viestit">
 <!ENTITY MsgSelect.label "Yhteydettömässä tilassa käytettävät kohteet">
 <!ENTITY MsgSyncDesc.label "Jos olet jo valinnut yhteydettömässä tilassa käytettävät kansiot ja ryhmät, voit synkronoida paikalliset kopiosi niistä nyt. Muussa tapauksessa valitse yhteystilassa käytettävät ryhmät ja kansiot napsauttamalla Valitse.">

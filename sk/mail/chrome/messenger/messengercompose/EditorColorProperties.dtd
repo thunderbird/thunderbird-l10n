@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Použiť vlastné farby:">
 <!ENTITY customColorsRadio.accessKey "v">
 <!ENTITY customColorsRadio.tooltip "Použijú sa tieto farby namiesto farieb nastavených v čitateľovom prehliadači">
-
 <!ENTITY normalText.label "Normálny text">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "Odkaz">

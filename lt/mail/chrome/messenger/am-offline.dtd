@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "P">
 <!ENTITY syncGroupTitle.label "Laiškų sinchronizavimas">
 <!ENTITY diskspaceGroupTitle.label "Disko atmintinė">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Sinchronizuoti visus laiškus, neatsižvelgiant į jų amžių">
-<!ENTITY allAutosync.accesskey           "v">
-<!ENTITY ageAutosyncBefore.label         "Sinchronizuoti tik pastarųjų">
-<!ENTITY ageAutosync.accesskey           "z">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "dienų">
-<!ENTITY weekAgeInterval.label           "savaičių">
-<!ENTITY monthAgeInterval.label          "mėnesių">
-<!ENTITY yearAgeInterval.label           "metų">
-<!ENTITY ageAutosyncAfter.label          "laiškus">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Sinchronizuoti visus laiškus, neatsižvelgiant į jų amžių">
+<!ENTITY allAutosync.accesskey "v">
+<!ENTITY ageAutosyncBefore.label "Sinchronizuoti tik pastarųjų">
+<!ENTITY ageAutosync.accesskey "z">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "dienų">
+<!ENTITY weekAgeInterval.label "savaičių">
+<!ENTITY monthAgeInterval.label "mėnesių">
+<!ENTITY yearAgeInterval.label "metų">
+<!ENTITY ageAutosyncAfter.label "laiškus">

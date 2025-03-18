@@ -34,14 +34,11 @@
 <!-- LOCALIZATION NOTE (attachVCard.label) : do not translate "vCard" in below line -->
 <!ENTITY attachVCard.label "Seddu vCard inu deg iznan">
 <!ENTITY attachVCard.accesskey "v">
-
 <!ENTITY manageIdentities.label "Sefrek timagiyin...">
 <!ENTITY manageIdentities.accesskey "r">
-
 <!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
 <!ENTITY smtpName.label "Aqeddac uffiɣ (SMTP):">
 <!ENTITY smtpName.accesskey "q">
 <!ENTITY smtpDefaultServer.label "Seqdec aqeddac amezwer">
-
 <!ENTITY smtpServerEdit.label "Ẓreg ageddac SMTP…">
 <!ENTITY smtpServerEdit.accesskey "R">

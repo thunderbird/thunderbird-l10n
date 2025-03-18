@@ -1,12 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY settingsTab.label       "Nastavenia">
+<!ENTITY settingsTab.label "Nastavenia">
 <!ENTITY copiesFoldersTab.label "Kópie a priečinky">
-<!ENTITY addressingTab.label    "Písanie a adresovanie">
-
-<!ENTITY publicData.label        "Verejné údaje">
-<!ENTITY privateData.label       "Súkromné údaje">
-<!ENTITY identityAlias.label     "Označenie identity:">
+<!ENTITY addressingTab.label "Písanie a adresovanie">
+<!ENTITY publicData.label "Verejné údaje">
+<!ENTITY privateData.label "Súkromné údaje">
+<!ENTITY identityAlias.label "Označenie identity:">
 <!ENTITY identityAlias.accesskey "d">

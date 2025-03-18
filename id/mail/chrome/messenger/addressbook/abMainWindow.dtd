@@ -2,13 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY showAsDefault.label                            "Direktori startup tetap">
-<!ENTITY showAsDefault.accesskey                        "S">
-
+<!ENTITY showAsDefault.label "Direktori startup tetap">
+<!ENTITY showAsDefault.accesskey "S">
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label                        "Nama atau Email">
-
+<!ENTITY SearchNameOrEmail.label "Nama atau Email">
 <!-- Results Pane -->
-<!ENTITY Addrbook.label                                 "Buku Alamat">
-<!ENTITY GeneratedName.label                            "Nama">
-<!ENTITY PrimaryEmail.label                             "Email">
+<!ENTITY Addrbook.label "Buku Alamat">
+<!ENTITY GeneratedName.label "Nama">
+<!ENTITY PrimaryEmail.label "Email">

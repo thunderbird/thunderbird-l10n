@@ -3,35 +3,34 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- for SearchDialog.xhtml -->
-<!ENTITY searchHeading.label         "წერილების ძიების არე:">
-<!ENTITY searchHeading.accesskey     "ძ">
-<!ENTITY searchSubfolders.label      "ძიება ქვესაქაღალდეებში">
-<!ENTITY searchSubfolders.accesskey  "ქ">
-<!ENTITY searchOnServer.label        "ძიების შესრულება სერვერზე">
-<!ENTITY searchOnServer.accesskey    "ე">
-<!ENTITY resetButton.label           "გასუფთავება">
-<!ENTITY resetButton.accesskey       "ფ">
-<!ENTITY openButton.label            "გახსნა">
-<!ENTITY openButton.accesskey        "ხ">
-<!ENTITY deleteButton.label          "წაშლა">
-<!ENTITY deleteButton.accesskey      "წ">
-<!ENTITY searchDialogTitle.label     "წერილების ძიება">
-<!ENTITY results.label               "შედეგები">
-<!ENTITY moveButton.label            "გადატანა">
-<!ENTITY moveButton.accesskey        "ტ">
-<!ENTITY closeCmd.key                "W">
-<!ENTITY openInFolder.label          "გახსნა საქაღალდეში">
-<!ENTITY openInFolder.accesskey      "ქ">
-<!ENTITY saveAsVFButton.label        "საქაღლდის სახით შენახვა">
-<!ENTITY saveAsVFButton.accesskey    "ხ">
-
+<!ENTITY searchHeading.label "წერილების ძიების არე:">
+<!ENTITY searchHeading.accesskey "ძ">
+<!ENTITY searchSubfolders.label "ძიება ქვესაქაღალდეებში">
+<!ENTITY searchSubfolders.accesskey "ქ">
+<!ENTITY searchOnServer.label "ძიების შესრულება სერვერზე">
+<!ENTITY searchOnServer.accesskey "ე">
+<!ENTITY resetButton.label "გასუფთავება">
+<!ENTITY resetButton.accesskey "ფ">
+<!ENTITY openButton.label "გახსნა">
+<!ENTITY openButton.accesskey "ხ">
+<!ENTITY deleteButton.label "წაშლა">
+<!ENTITY deleteButton.accesskey "წ">
+<!ENTITY searchDialogTitle.label "წერილების ძიება">
+<!ENTITY results.label "შედეგები">
+<!ENTITY moveButton.label "გადატანა">
+<!ENTITY moveButton.accesskey "ტ">
+<!ENTITY closeCmd.key "W">
+<!ENTITY openInFolder.label "გახსნა საქაღალდეში">
+<!ENTITY openInFolder.accesskey "ქ">
+<!ENTITY saveAsVFButton.label "საქაღლდის სახით შენახვა">
+<!ENTITY saveAsVFButton.accesskey "ხ">
 <!-- for abSearchDialog.xhtml -->
-<!ENTITY abSearchHeading.label       "ძიების არე:">
-<!ENTITY abSearchHeading.accesskey   "რ">
-<!ENTITY propertiesButton.label      "პარამეტრები">
-<!ENTITY propertiesButton.accesskey  "პ">
-<!ENTITY composeButton.label         "შედგენა">
-<!ENTITY composeButton.accesskey     "დ">
-<!ENTITY deleteCardButton.label      "წაშლა">
-<!ENTITY deleteCardButton.accesskey  "წ">
-<!ENTITY abSearchDialogTitle.label   "დეტალური ძიება წიგნაკში">
+<!ENTITY abSearchHeading.label "ძიების არე:">
+<!ENTITY abSearchHeading.accesskey "რ">
+<!ENTITY propertiesButton.label "პარამეტრები">
+<!ENTITY propertiesButton.accesskey "პ">
+<!ENTITY composeButton.label "შედგენა">
+<!ENTITY composeButton.accesskey "დ">
+<!ENTITY deleteCardButton.label "წაშლა">
+<!ENTITY deleteCardButton.accesskey "წ">
+<!ENTITY abSearchDialogTitle.label "დეტალური ძიება წიგნაკში">

@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Bruk egendefinerte farger:">
 <!ENTITY customColorsRadio.accessKey "e">
 <!ENTITY customColorsRadio.tooltip "Disse fargevalgene overstyrer nettleserens valg">
-
 <!ENTITY normalText.label "Normal tekst">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "Tekst for lenker">

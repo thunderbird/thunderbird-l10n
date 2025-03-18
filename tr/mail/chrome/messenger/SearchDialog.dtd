@@ -3,35 +3,34 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- for SearchDialog.xhtml -->
-<!ENTITY searchHeading.label         "İletileri burada ara:">
-<!ENTITY searchHeading.accesskey     "a">
-<!ENTITY searchSubfolders.label      "Alt klasörlerde ara">
-<!ENTITY searchSubfolders.accesskey  "A">
-<!ENTITY searchOnServer.label        "Aramayı sunucuda çalıştır">
-<!ENTITY searchOnServer.accesskey    "s">
-<!ENTITY resetButton.label           "Temizle">
-<!ENTITY resetButton.accesskey       "T">
-<!ENTITY openButton.label            "Aç">
-<!ENTITY openButton.accesskey        "A">
-<!ENTITY deleteButton.label          "Sil">
-<!ENTITY deleteButton.accesskey      "S">
-<!ENTITY searchDialogTitle.label     "İletilerde ara">
-<!ENTITY results.label               "Sonuçlar">
-<!ENTITY moveButton.label            "Taşı">
-<!ENTITY moveButton.accesskey        "T">
-<!ENTITY closeCmd.key                "W">
-<!ENTITY openInFolder.label          "Bu klasörde aç">
-<!ENTITY openInFolder.accesskey      "d">
-<!ENTITY saveAsVFButton.label        "Arama klasörü olarak kaydet">
-<!ENTITY saveAsVFButton.accesskey    "A">
-
+<!ENTITY searchHeading.label "İletileri burada ara:">
+<!ENTITY searchHeading.accesskey "a">
+<!ENTITY searchSubfolders.label "Alt klasörlerde ara">
+<!ENTITY searchSubfolders.accesskey "A">
+<!ENTITY searchOnServer.label "Aramayı sunucuda çalıştır">
+<!ENTITY searchOnServer.accesskey "s">
+<!ENTITY resetButton.label "Temizle">
+<!ENTITY resetButton.accesskey "T">
+<!ENTITY openButton.label "Aç">
+<!ENTITY openButton.accesskey "A">
+<!ENTITY deleteButton.label "Sil">
+<!ENTITY deleteButton.accesskey "S">
+<!ENTITY searchDialogTitle.label "İletilerde ara">
+<!ENTITY results.label "Sonuçlar">
+<!ENTITY moveButton.label "Taşı">
+<!ENTITY moveButton.accesskey "T">
+<!ENTITY closeCmd.key "W">
+<!ENTITY openInFolder.label "Bu klasörde aç">
+<!ENTITY openInFolder.accesskey "d">
+<!ENTITY saveAsVFButton.label "Arama klasörü olarak kaydet">
+<!ENTITY saveAsVFButton.accesskey "A">
 <!-- for abSearchDialog.xhtml -->
-<!ENTITY abSearchHeading.label       "İçinde ara:">
-<!ENTITY abSearchHeading.accesskey   "a">
-<!ENTITY propertiesButton.label      "Özellikler">
-<!ENTITY propertiesButton.accesskey  "z">
-<!ENTITY composeButton.label         "Oluştur">
-<!ENTITY composeButton.accesskey     "t">
-<!ENTITY deleteCardButton.label      "Sil">
-<!ENTITY deleteCardButton.accesskey  "S">
-<!ENTITY abSearchDialogTitle.label   "Gelişmiş Adres Defteri Araması">
+<!ENTITY abSearchHeading.label "İçinde ara:">
+<!ENTITY abSearchHeading.accesskey "a">
+<!ENTITY propertiesButton.label "Özellikler">
+<!ENTITY propertiesButton.accesskey "z">
+<!ENTITY composeButton.label "Oluştur">
+<!ENTITY composeButton.accesskey "t">
+<!ENTITY deleteCardButton.label "Sil">
+<!ENTITY deleteCardButton.accesskey "S">
+<!ENTITY abSearchDialogTitle.label "Gelişmiş Adres Defteri Araması">

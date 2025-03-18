@@ -2,9 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!--LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
+<!-- LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
 <!ENTITY msgComposeWindow.title "เขียน: (ไม่มีหัวเรื่อง)">
-
 <!-- File Menu -->
 <!ENTITY fileMenu.label "ไฟล์">
 <!ENTITY fileMenu.accesskey "ฟ">
@@ -46,7 +45,6 @@
 <!ENTITY printCmd.label "พิมพ์…">
 <!ENTITY printCmd.key "P">
 <!ENTITY printCmd.accesskey "พ">
-
 <!-- Edit Menu -->
 <!ENTITY editMenu.label "แก้ไข">
 <!ENTITY editMenu.accesskey "ก">
@@ -86,11 +84,9 @@
 <!ENTITY findPrevCmd.accesskey "ก">
 <!ENTITY findPrevCmd.key "G">
 <!ENTITY findPrevCmd.key2 "VK_F3">
-
 <!-- Reorder Attachment Panel -->
 <!ENTITY reorderAttachmentsPanel.label "จัดลำดับไฟล์แนบใหม่">
 <!ENTITY moveAttachmentBundleUpPanelBtn.label "ย้ายพร้อมกัน">
-
 <!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.Sort.AZ.label):
      Please ensure that this translation matches
      sortAttachmentsPanelBtn.Sort.ZA.label, except for the sort direction. -->
@@ -102,7 +98,6 @@
 <!ENTITY sortAttachmentsPanelBtn.SortSelection.AZ.label "เรียงส่วนที่เลือก: A - Z">
 <!ENTITY sortAttachmentsPanelBtn.SortSelection.ZA.label "เรียงส่วนที่เลือก: Z - A">
 <!ENTITY sortAttachmentsPanelBtn.key "y">
-
 <!-- View Menu -->
 <!ENTITY viewMenu.label "มุมมอง">
 <!ENTITY viewMenu.accesskey "ม">
@@ -118,14 +113,11 @@
 <!ENTITY showTaskbarCmd.accesskey "ส">
 <!ENTITY customizeToolbar.label "ปรับแต่ง…">
 <!ENTITY customizeToolbar.accesskey "ป">
-
 <!ENTITY addressSidebar.label "แถบข้างผู้ติดต่อ">
 <!ENTITY addressSidebar.accesskey "ถ">
-
 <!-- Format Menu -->
 <!ENTITY formatMenu.label "รูปแบบ">
 <!ENTITY formatMenu.accesskey "ร">
-
 <!-- Options Menu -->
 <!ENTITY optionsMenu.label "ตัวเลือก">
 <!ENTITY optionsMenu.accesskey "ต">
@@ -137,11 +129,9 @@
 <!ENTITY enableInlineSpellChecker.accesskey "จ">
 <!ENTITY quoteCmd.label "อ้างอิงข้อความ">
 <!ENTITY quoteCmd.accesskey "อ">
-
-<!--LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard' -->
+<!-- LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard' -->
 <!ENTITY attachVCard.label "แนบบัตรส่วนบุคคล (vCard)">
 <!ENTITY attachVCard.accesskey "น">
-
 <!ENTITY returnReceiptMenu.label "การแจ้งเตือนการเปิดอ่าน">
 <!ENTITY returnReceiptMenu.accesskey "แ">
 <!ENTITY dsnMenu.label "การแจ้งเตือนสถานะการส่ง">
@@ -164,7 +154,6 @@
 <!ENTITY fileCarbonCopyCmd.label "ส่งสำเนาไปยัง">
 <!ENTITY fileCarbonCopyCmd.accesskey "เ">
 <!ENTITY fileHereMenu.label "ไฟล์ที่นี่">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "เครื่องมือ">
 <!ENTITY tasksMenu.accesskey "ค">
@@ -177,14 +166,12 @@
 <!ENTITY accountManagerCmd2.label "การตั้งค่าบัญชี">
 <!ENTITY accountManagerCmd2.accesskey "ก">
 <!ENTITY accountManagerCmdUnix2.accesskey "ก">
-
-<!--  Mac OS X Window Menu -->
+<!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY minimizeWindow.label "ย่อ">
 <!ENTITY bringAllToFront.label "นำทั้งหมดมาข้างหน้า">
 <!ENTITY zoomWindow.label "ซูม">
 <!ENTITY windowMenu.label "หน้าต่าง">
-
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "ส่ง">
 <!ENTITY quoteButton.label "อ้างอิง">
@@ -192,7 +179,6 @@
 <!ENTITY spellingButton.label "การสะกดคำ">
 <!ENTITY saveButton.label "บันทึก">
 <!ENTITY printButton.label "พิมพ์">
-
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "ส่งข้อความนี้ตอนนี้">
 <!ENTITY sendlaterButton.tooltip "ส่งข้อความนี้ในภายหลัง">
@@ -200,14 +186,13 @@
 <!ENTITY addressButton.tooltip "เลือกผู้รับจากสมุดรายชื่อ">
 <!ENTITY spellingButton.tooltip "ตรวจสอบการสะกดของส่วนที่เลือกหรือทั้งข้อความ">
 <!ENTITY saveButton.tooltip "บันทึกข้อความนี้">
-<!ENTITY cutButton.tooltip              "ตัด">
-<!ENTITY copyButton.tooltip             "คัดลอก">
-<!ENTITY pasteButton.tooltip            "วาง">
+<!ENTITY cutButton.tooltip "ตัด">
+<!ENTITY copyButton.tooltip "คัดลอก">
+<!ENTITY pasteButton.tooltip "วาง">
 <!ENTITY printButton.tooltip "พิมพ์ข้อความนี้">
-
-<!-- Headers -->
-<!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
-    Subject: rows. It should be larger than the largest Header label  -->
+<!-- Headers
+     LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
+    Subject: rows. It should be larger than the largest Header label -->
 <!ENTITY headersSpace2.style "width: 8em;">
 <!ENTITY fromAddr2.label "จาก">
 <!ENTITY fromAddr.accesskey "จ">
@@ -217,7 +202,6 @@
 <!ENTITY subject2.label "หัวเรื่อง">
 <!ENTITY subject.accesskey "ห">
 <!ENTITY attachmentBucketCloseButton.tooltip "ซ่อนบานหน้าต่างไฟล์แนบ">
-
 <!-- Format Toolbar, imported from editorAppShell.xhtml -->
 <!ENTITY SmileButton.tooltip "แทรกหน้ายิ้ม">
 <!ENTITY smiley1Cmd.label "หน้ายิ้ม">
@@ -236,7 +220,6 @@
 <!ENTITY smiley14Cmd.label "หน้าบริสุทธิ์">
 <!ENTITY smiley15Cmd.label "หน้าร้องไห้">
 <!ENTITY smiley16Cmd.label "หน้าปิดปากสนิท">
-
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "ไม่พบคำแนะนำ">
 <!ENTITY spellCheckIgnoreWord.label "เพิกเฉยคำ">
@@ -253,7 +236,6 @@
 <!ENTITY paste.accesskey "ว">
 <!ENTITY pasteQuote.label "วางเป็นถ้อยคำอ้างอิง">
 <!ENTITY pasteQuote.accesskey "ถ">
-
 <!-- Attachment Item and List Context Menus -->
 <!ENTITY openAttachment.label "เปิด">
 <!ENTITY openAttachment.accesskey "ป">
@@ -279,28 +261,22 @@
 <!ENTITY convertRegularAttachment.accesskey "ไ">
 <!ENTITY attachPage.label "แนบหน้าเว็บ…">
 <!ENTITY attachPage.accesskey "ห">
-
-<!-- Attachment Pane Header Bar Context Menu -->
-<!-- LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
+<!-- Attachment Pane Header Bar Context Menu
+     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
      Should use the same wording as startExpandedCmd.label
      in msgHdrViewOverlay.dtd. -->
 <!ENTITY initiallyShowAttachmentPane.label "แสดงบานหน้าต่างไฟล์แนบตั้งแต่เริ่มต้น">
 <!ENTITY initiallyShowAttachmentPane.accesskey "ร">
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "เพิ่มพจนานุกรม…">
 <!ENTITY spellAddDictionaries.accesskey "พ">
-
 <!-- Title for the address picker panel -->
 <!ENTITY addressesSidebarTitle.label "ผู้ติดต่อ">
-
 <!-- Identity popup customize menuitem -->
 <!ENTITY customizeFromAddress.label "ปรับแต่งที่อยู่ จาก…">
 <!ENTITY customizeFromAddress.accesskey "ป">
-
 <!-- Accessibility name for the document -->
 <!ENTITY aria.message.bodyName "เนื้อความของข้อความ">
-
 <!-- Status Bar -->
 <!ENTITY languageStatusButton.tooltip "ภาษาการตรวจการสะกดคำ">
 <!ENTITY encodingStatusPanel.tooltip "รหัสอักขระ">

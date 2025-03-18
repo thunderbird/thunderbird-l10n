@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "θ">
 <!ENTITY syncGroupTitle.label "Συγχρονισμός μηνυμάτων">
 <!ENTITY diskspaceGroupTitle.label "Χώρος δίσκου">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Τοπικός συγχρονισμός όλων των μηνυμάτων ανεξαρτήτως ημερομηνίας">
-<!ENTITY allAutosync.accesskey           "χ">
-<!ENTITY ageAutosyncBefore.label         "Συγχρονισμός των τελευταίων">
-<!ENTITY ageAutosync.accesskey           "γ">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "ημερών">
-<!ENTITY weekAgeInterval.label           "εβδομάδων">
-<!ENTITY monthAgeInterval.label          "μηνών">
-<!ENTITY yearAgeInterval.label           "ετών">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Τοπικός συγχρονισμός όλων των μηνυμάτων ανεξαρτήτως ημερομηνίας">
+<!ENTITY allAutosync.accesskey "χ">
+<!ENTITY ageAutosyncBefore.label "Συγχρονισμός των τελευταίων">
+<!ENTITY ageAutosync.accesskey "γ">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "ημερών">
+<!ENTITY weekAgeInterval.label "εβδομάδων">
+<!ENTITY monthAgeInterval.label "μηνών">
+<!ENTITY yearAgeInterval.label "ετών">
+<!ENTITY ageAutosyncAfter.label "">

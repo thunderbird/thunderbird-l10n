@@ -2,9 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
-
-
 <!ENTITY digitalSign.certificate.button "Ընտրել...">
 <!ENTITY digitalSign.certificate.accesskey "Ը">
 <!ENTITY digitalSign.certificate_clear.button "Մաքրել">
@@ -14,11 +11,3 @@
 <!ENTITY encryption.certificate_clear.button "Մաքրել">
 <!ENTITY encryption.certificate_clear.accesskey "Մ">
 <!ENTITY signingGroupTitle.label "Թվային ստորագր.">
-
-
-
-
-
-
-<!-- Strings for the cert picker dialog -->
-

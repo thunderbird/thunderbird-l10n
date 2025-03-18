@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "ปฏิทิน">
-<!ENTITY lightning.toolbar.calendar.tooltip   "สลับไปยังแท็บปฏิทิน">
+<!ENTITY lightning.toolbar.calendar.label "ปฏิทิน">
+<!ENTITY lightning.toolbar.calendar.tooltip "สลับไปยังแท็บปฏิทิน">
 <!ENTITY lightning.toolbar.calendar.accesskey "ส">
-<!ENTITY lightning.toolbar.task.label         "งาน">
-<!ENTITY lightning.toolbar.task.tooltip       "สลับไปยังแท็บงาน">
-<!ENTITY lightning.toolbar.task.accesskey     "ล">
-
+<!ENTITY lightning.toolbar.task.label "งาน">
+<!ENTITY lightning.toolbar.task.tooltip "สลับไปยังแท็บงาน">
+<!ENTITY lightning.toolbar.task.accesskey "ล">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "วัน">
-<!ENTITY lightning.toolbar.day.accesskey             "ว">
-<!ENTITY lightning.toolbar.week.label                "สัปดาห์">
-<!ENTITY lightning.toolbar.week.accesskey            "ส">
-<!ENTITY lightning.toolbar.multiweek.label           "หลายสัปดาห์">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "ห">
-<!ENTITY lightning.toolbar.month.label               "เดือน">
-<!ENTITY lightning.toolbar.month.accesskey           "ด">
-<!ENTITY lightning.toolbar.calendarmenu.label        "บานหน้าต่างปฏิทิน">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "บ">
-<!ENTITY lightning.toolbar.calendarpane.label        "แสดงบานหน้าต่างปฏิทิน">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "ส">
+<!ENTITY lightning.toolbar.day.label "วัน">
+<!ENTITY lightning.toolbar.day.accesskey "ว">
+<!ENTITY lightning.toolbar.week.label "สัปดาห์">
+<!ENTITY lightning.toolbar.week.accesskey "ส">
+<!ENTITY lightning.toolbar.multiweek.label "หลายสัปดาห์">
+<!ENTITY lightning.toolbar.multiweek.accesskey "ห">
+<!ENTITY lightning.toolbar.month.label "เดือน">
+<!ENTITY lightning.toolbar.month.accesskey "ด">
+<!ENTITY lightning.toolbar.calendarmenu.label "บานหน้าต่างปฏิทิน">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "บ">
+<!ENTITY lightning.toolbar.calendarpane.label "แสดงบานหน้าต่างปฏิทิน">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "ส">

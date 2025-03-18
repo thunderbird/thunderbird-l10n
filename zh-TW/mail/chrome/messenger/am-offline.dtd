@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "v">
 <!ENTITY syncGroupTitle.label "郵件同步化">
 <!ENTITY diskspaceGroupTitle.label "磁碟空間">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "同步所有郵件至本地端，無論寄件時間">
-<!ENTITY allAutosync.accesskey           "c">
-<!ENTITY ageAutosyncBefore.label         "同步最近">
-<!ENTITY ageAutosync.accesskey           "z">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "天">
-<!ENTITY weekAgeInterval.label           "週">
-<!ENTITY monthAgeInterval.label          "月">
-<!ENTITY yearAgeInterval.label           "年">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "同步所有郵件至本地端，無論寄件時間">
+<!ENTITY allAutosync.accesskey "c">
+<!ENTITY ageAutosyncBefore.label "同步最近">
+<!ENTITY ageAutosync.accesskey "z">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "天">
+<!ENTITY weekAgeInterval.label "週">
+<!ENTITY monthAgeInterval.label "月">
+<!ENTITY yearAgeInterval.label "年">
+<!ENTITY ageAutosyncAfter.label "">

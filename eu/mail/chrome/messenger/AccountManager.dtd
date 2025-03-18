@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Kontu-ezarpenak">
-<!ENTITY  accountManagerCloseButton.label "itxi">
-
+<!ENTITY accountManagerCloseButton.label "itxi">
 <!ENTITY accountActionsButton.label "Kontuaren ekintzak">
 <!ENTITY accountActionsButton.accesskey "K">
 <!ENTITY addMailAccountButton.label "Gehitu posta-kontua…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "l">
 <!ENTITY removeButton.label "Ezabatu kontua">
 <!ENTITY removeButton.accesskey "E">
-
 <!ENTITY addonsButton.label "Hedapenak eta Gaiak">

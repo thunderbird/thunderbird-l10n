@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Provjeri pravopis">
-
 <!ENTITY misspelledWord.label "Pogrešno napisana riječ:">
 <!ENTITY wordEditField.label "Zamijeni sa:">
 <!ENTITY wordEditField.accessKey "s">

@@ -2,14 +2,13 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Перетворити на таблицю">
-<!ENTITY instructions1.label   "Редактор створює новий рядок таблиці для кожного розділу вибраного діапазону.">
-<!ENTITY instructions2.label   "Виберіть символ для розділення вибраного діапазону на стовпчики:">
-<!ENTITY commaRadio.label      "Кома">
-<!ENTITY spaceRadio.label      "Пробіл">
-<!ENTITY otherRadio.label      "Інший символ:">
+<!ENTITY instructions1.label "Редактор створює новий рядок таблиці для кожного розділу вибраного діапазону.">
+<!ENTITY instructions2.label "Виберіть символ для розділення вибраного діапазону на стовпчики:">
+<!ENTITY commaRadio.label "Кома">
+<!ENTITY spaceRadio.label "Пробіл">
+<!ENTITY otherRadio.label "Інший символ:">
 <!ENTITY deleteCharCheck.label "Видалити символ розділення">
-<!ENTITY collapseSpaces.label  "Ігнорувати зайві пробіли">
+<!ENTITY collapseSpaces.label "Ігнорувати зайві пробіли">
 <!ENTITY collapseSpaces.tooltip "Перетворити суміжні пробіли на один роздільник">

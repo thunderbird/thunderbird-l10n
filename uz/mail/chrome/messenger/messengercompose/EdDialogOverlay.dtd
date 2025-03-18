@@ -9,6 +9,3 @@
 <!ENTITY chooseFileButton.accessKey "F">
 <!ENTITY chooseFileLinkButton.label "Faylni tanlash...">
 <!ENTITY chooseFileLinkButton.accessKey "t">
-
-
-<!-- Shared by Link and Image dialogs -->

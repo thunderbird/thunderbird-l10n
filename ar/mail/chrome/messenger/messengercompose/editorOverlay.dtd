@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "ألصق كاقتباس">
 <!ENTITY pasteAsQuotationCmd.accesskey "ت">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "أدرج">
 <!ENTITY insertMenu.accesskey "د">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "ح">
 <!ENTITY insertBreakAllCmd.label "فاصل تحت الصور">
 <!ENTITY insertBreakAllCmd.accesskey "ف">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "أنشئ رابطًا…">
 <!ENTITY createLinkCmd.accesskey "ش">
 <!ENTITY editLinkCmd.label "حرّر الرابط في محرر جديد">
 <!ENTITY editLinkCmd.accesskey "ف">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "اختر خطا">
 <!ENTITY fontfaceMenu.label "الخط">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "اختر حجم الخط">
 <!ENTITY decreaseFontSize.label "أصغر">
 <!ENTITY decreaseFontSize.accesskey "ر">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 "ج"> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 "ج">
 <!ENTITY increaseFontSize.label "أكبر">
 <!ENTITY increaseFontSize.accesskey "ك">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "د"> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 "د">
 <!ENTITY fontSizeMenu.label "الحجم">
 <!ENTITY fontSizeMenu.accesskey "ج">
 <!ENTITY size-tinyCmd.label "ضئيل">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "د">
 <!ENTITY size-hugeCmd.label "ضخم">
 <!ENTITY size-hugeCmd.accesskey "ض">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "طراز النص">
 <!ENTITY fontStyleMenu.accesskey "ط">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "ع">
 <!ENTITY styleVar.label "متغير">
 <!ENTITY styleVar.accesskey "م">
-
 <!ENTITY formatFontColor.label "لون الخط…">
 <!ENTITY formatFontColor.accesskey "ن">
 <!ENTITY tableOrCellColor.label "لون خلفية الجدول أو الخلية…">
 <!ENTITY tableOrCellColor.accesskey "خ">
-
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "أزل المرابط المسماة">
 <!ENTITY formatRemoveNamedAnchors.accesskey "ز">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
-
 <!ENTITY paragraphMenu.label "فقرة">
 <!ENTITY paragraphMenu.accesskey "ة">
 <!ENTITY paragraphParagraphCmd.label "فقرة">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "ع">
 <!ENTITY paragraphPreformatCmd.label "تنسيق مُسبق">
 <!ENTITY paragraphPreformatCmd.accesskey "ق">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "قائمة">
 <!ENTITY formatlistMenu.accesskey "ق">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "ع">
 <!ENTITY listPropsCmd.label "خصائص القائمة…">
 <!ENTITY listPropsCmd.accesskey "خ">
-
 <!ENTITY ParagraphSelect.tooltip "اختر تنسيق الفقرة">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "متن النص">
 <!ENTITY bodyTextCmd.accesskey "ن">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "حاذِ">
 <!ENTITY alignMenu.accesskey "ح">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "ساوِ">
 <!ENTITY alignJustify.accesskey "س">
 <!ENTITY alignJustify.tooltip "حاذِ مساوي">
-
 <!ENTITY increaseIndent.label "زِد الإزاحة">
 <!ENTITY increaseIndent.accesskey "ز">
 <!ENTITY increaseIndent.key "]">
 <!ENTITY decreaseIndent.label "قلِّل الإزاحة">
 <!ENTITY decreaseIndent.accesskey "ق">
 <!ENTITY decreaseIndent.key "[">
-
 <!ENTITY colorsAndBackground.label "ألوان وخلفية الصفحة…">
 <!ENTITY colorsAndBackground.accesskey "خ">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "جدول">
 <!ENTITY tableMenu.accesskey "ج">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "اختر">
 <!ENTITY tableSelectMenu.accesskey "خ">
-
 <!ENTITY tableSelectMenu2.label "اختيار جدول">
 <!ENTITY tableSelectMenu2.accesskey "ر">
 <!ENTITY tableInsertMenu2.label "إدراج جدول">
 <!ENTITY tableInsertMenu2.accesskey "د">
 <!ENTITY tableDeleteMenu2.label "حذف جدول">
 <!ENTITY tableDeleteMenu2.accesskey "ذ">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "إدراج">
 <!ENTITY tableInsertMenu.accesskey "د">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "احذف">
 <!ENTITY tableDeleteMenu.accesskey "ح">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "ض">
 <!ENTITY tableJoinCells.accesskey "ض">
 <!ENTITY tableSplitCell.label "اقسم الخلية">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "ج">
 <!ENTITY tableProperties.label "خصائص الجدول…">
 <!ENTITY tableProperties.accesskey "خ">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "صورة">
 <!ENTITY imageToolbarCmd.tooltip "أدرج صورة جديدة أو حرر خصائص الصورة المختارة">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "أدرج مربطا مسمًى جديدا أو حرر خصائص المربط المختار">
 <!ENTITY TextColorButton.tooltip "اختر لون النص">
 <!ENTITY BackgroundColorButton.tooltip "اختر لون الخلفية">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "حدد حجم الخط">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "خط أصغر">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "حاذِ النص مُوسّطا">
 <!ENTITY alignRightButton.tooltip "حاذِ النص قبالة الهامش الأيمن">
 <!ENTITY alignJustifyButton.tooltip "حاذِ النص مراعيًا الهامشين الأيمن والأيسر">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "أدرج">
-<!ENTITY insertTOC.accesskey      "د">
-<!ENTITY updateTOC.label          "حدّث">
-<!ENTITY updateTOC.accesskey      "ح">
-<!ENTITY removeTOC.label          "أزل">
-<!ENTITY removeTOC.accesskey      "ز">
-<!ENTITY tocMenu.label            "جدول المحتويات…">
-<!ENTITY tocMenu.accesskey        "ج">
+<!ENTITY insertTOC.label "أدرج">
+<!ENTITY insertTOC.accesskey "د">
+<!ENTITY updateTOC.label "حدّث">
+<!ENTITY updateTOC.accesskey "ح">
+<!ENTITY removeTOC.label "أزل">
+<!ENTITY removeTOC.accesskey "ز">
+<!ENTITY tocMenu.label "جدول المحتويات…">
+<!ENTITY tocMenu.accesskey "ج">

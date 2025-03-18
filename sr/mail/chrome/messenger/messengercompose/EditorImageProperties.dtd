@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Својства слике">
-
 <!ENTITY pixelsPopup.value "пиксела">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Путања слике:">
 <!ENTITY locationEditField.accessKey "л">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Унесите текст који ће се приказивати уместо слике">
 <!ENTITY noAltText.label "Не користи алтернативни текст">
 <!ENTITY noAltText.accessKey "Н">
-
 <!ENTITY previewBox.label "Преглед слике">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Стварна величина:">
 <!ENTITY actualSizeRadio.label "Стварна величина">
 <!ENTITY actualSizeRadio.accessKey "а">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Ограничење">
 <!ENTITY constrainCheckbox.accessKey "О">
 <!ENTITY constrainCheckbox.tooltip "Задржи однос висине и ширине слике">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Мапа слике">
 <!ENTITY removeImageMapButton.label "Уклони">
 <!ENTITY removeImageMapButton.accessKey "У">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Поравнај текст ка слици">
 <!ENTITY bottomPopup.value "На дну">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "У средини">
 <!ENTITY wrapRightPopup.value "Улево">
 <!ENTITY wrapLeftPopup.value "Удесно">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Размакнутост">
 <!ENTITY leftRightEditField.label "Лево и десно:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "д">
 <!ENTITY borderEditField.label "Пун оквир:">
 <!ENTITY borderEditField.accessKey "о">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Прикжи оквир около повезане слике">
 <!ENTITY showImageLinkBorder.accessKey "о">
 <!ENTITY LinkAdvancedEditButton.label "Напредно уређивање везе…">
 <!ENTITY LinkAdvancedEditButton.accessKey "в">
 <!ENTITY LinkAdvancedEditButton.tooltip "Додајте или мењајте HTML особине, стилове особина и JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Формулар">
 <!ENTITY imageLocationTab.label "Место">

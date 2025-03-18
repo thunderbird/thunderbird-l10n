@@ -3,9 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "إعدادات الحساب">
-
 <!ENTITY accountActionsButton.label "إجراءات الحساب">
 <!ENTITY accountActionsButton.accesskey "ر">
 <!ENTITY addMailAccountButton.label "أضِف حساب بريد…">
@@ -18,4 +16,3 @@
 <!ENTITY setDefaultButton.accesskey "م">
 <!ENTITY removeButton.label "أزِل الحساب">
 <!ENTITY removeButton.accesskey "ز">
-

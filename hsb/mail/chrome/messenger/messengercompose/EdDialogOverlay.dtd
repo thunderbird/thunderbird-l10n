@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "D">
 <!ENTITY chooseFileLinkButton.label "Dataju wubrać...">
 <!ENTITY chooseFileLinkButton.accessKey "b">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Zapodajće adresu webstrony, lokalnu dataju abo wubjerće pomjenowanu kótwičku abo nadpismo z kontekstoweho menija pola:">
 <!ENTITY LinkURLEditField2.accessKey "b">

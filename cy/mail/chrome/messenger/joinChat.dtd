@@ -1,10 +1,9 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY joinChatWindow.title           "Ymuno â sgwrs">
-<!ENTITY name.label                     "Ystafell">
-<!ENTITY optional.label                 "(dewisol)">
-<!ENTITY account.label                  "Cyfrif">
-<!ENTITY autojoin.label                 "Awto-ymuno â'r Ystafell Sgwrsio">
-<!ENTITY autojoin.accesskey             "A">
+<!ENTITY joinChatWindow.title "Ymuno â sgwrs">
+<!ENTITY name.label "Ystafell">
+<!ENTITY optional.label "(dewisol)">
+<!ENTITY account.label "Cyfrif">
+<!ENTITY autojoin.label "Awto-ymuno â'r Ystafell Sgwrsio">
+<!ENTITY autojoin.accesskey "A">

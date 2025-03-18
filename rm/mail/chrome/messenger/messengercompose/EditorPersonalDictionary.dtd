@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Dicziunari persunal">
-
 <!ENTITY wordEditField.label "Nov pled:">
 <!ENTITY wordEditField.accessKey "D">
 <!ENTITY AddButton.label "Agiuntar">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "W">
 <!ENTITY RemoveButton.label "Allontanar">
 <!ENTITY RemoveButton.accessKey "r">
-
 <!ENTITY CloseButton.label "Serrar">
 <!ENTITY CloseButton.accessKey "M">

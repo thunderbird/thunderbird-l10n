@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Timezliyin n tugna">
-
 <!ENTITY pixelsPopup.value "ipiksilen">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Tansa n tugna:">
 <!ENTITY locationEditField.accessKey "s">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Sekcem aḍris ara d-sekneḍ deg umḍiq n tugna">
 <!ENTITY noAltText.label "Ur seqdac ara aḍris nniḍen">
 <!ENTITY noAltText.accessKey "d">
-
 <!ENTITY previewBox.label "Taskant n tugna">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Teɣzi tamirant:">
 <!ENTITY actualSizeRadio.label "Teɣzi tamirant:">
 <!ENTITY actualSizeRadio.accessKey "ɣ">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Tamara">
 <!ENTITY constrainCheckbox.accessKey "m">
 <!ENTITY constrainCheckbox.tooltip "Eǧǧ akken yella ufmidi n tugna">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Tkarḍa n tugna">
 <!ENTITY removeImageMapButton.label "Kkes">
 <!ENTITY removeImageMapButton.accessKey "K">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Reyyec aḍris ɣeṛ tugna">
 <!ENTITY bottomPopup.value "S adda">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "Di tlemmast">
 <!ENTITY wrapRightPopup.value "Zzi s ayeffus">
 <!ENTITY wrapLeftPopup.value "Zzi s aẓelmaḍ">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Tallunt">
 <!ENTITY leftRightEditField.label "Aẓelmaḍ d uyeffus:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "A">
 <!ENTITY borderEditField.label "Lerryuf iččuranen:">
 <!ENTITY borderEditField.accessKey "č">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Sken lerryuf n tugna yeddan">
 <!ENTITY showImageLinkBorder.accessKey "r">
 <!ENTITY LinkAdvancedEditButton.label "Taẓrigt leqqayen n useɣwen…">
 <!ENTITY LinkAdvancedEditButton.accessKey "q">
 <!ENTITY LinkAdvancedEditButton.tooltip "Rnu neɣ snifel imyerren HTML, imyerren n uɣanib, d JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Tiferkit">
 <!ENTITY imageLocationTab.label "Tansa">

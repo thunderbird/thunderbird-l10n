@@ -2,13 +2,12 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Пераўтварыць у табліцу">
-<!ENTITY instructions2.label   "Выберыце сімвал, які будзе выкарыстоўвацца для падзелу вылучанага на слупкі:">
-<!ENTITY commaRadio.label      "Коска">
-<!ENTITY spaceRadio.label      "Прабел">
-<!ENTITY otherRadio.label      "Іншы сімвал:">
+<!ENTITY instructions2.label "Выберыце сімвал, які будзе выкарыстоўвацца для падзелу вылучанага на слупкі:">
+<!ENTITY commaRadio.label "Коска">
+<!ENTITY spaceRadio.label "Прабел">
+<!ENTITY otherRadio.label "Іншы сімвал:">
 <!ENTITY deleteCharCheck.label "Выдаліць сімвал раздзяляльніка">
-<!ENTITY collapseSpaces.label  "Ігнараваць лішнія прабелы">
+<!ENTITY collapseSpaces.label "Ігнараваць лішнія прабелы">
 <!ENTITY collapseSpaces.tooltip "Пераўтварыць сумежныя прабелы ў адзін раздзяляльнік">

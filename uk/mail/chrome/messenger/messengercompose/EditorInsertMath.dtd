@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Вставити Math">
-
 <!ENTITY sourceEditField.label "Введіть програмний код LaTeX:">
-
 <!ENTITY options.label "Налаштування">
 <!ENTITY optionInline.label "Вбудований режим">
 <!ENTITY optionInline.accesskey "б">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "л">
 <!ENTITY optionRTL.label "Напрямок справа наліво">
 <!ENTITY optionRTL.accesskey "п">
-
 <!ENTITY insertButton.label "Вставити">
 <!ENTITY insertButton.accesskey "В">

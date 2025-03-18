@@ -3,15 +3,15 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (window.title) : do not translate "LDAP" in below line -->
-<!ENTITY pref.ldap.window.title    "Servers da directory LDAP">
+<!ENTITY pref.ldap.window.title "Servers da directory LDAP">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
-<!ENTITY directories.label         "Server da directory LDAP:">
+<!ENTITY directories.label "Server da directory LDAP:">
 <!-- LOCALIZATION NOTE (directoriesText.label) : do not translate "LDAP" in below line -->
-<!ENTITY directoriesText.label     "Tscherna in server da directory LDAP:">
+<!ENTITY directoriesText.label "Tscherna in server da directory LDAP:">
 <!ENTITY directoriesText.accesskey "S">
-<!ENTITY addDirectory.label        "Agiuntar">
-<!ENTITY addDirectory.accesskey    "A">
-<!ENTITY editDirectory.label       "Modifitgar">
-<!ENTITY editDirectory.accesskey   "M">
-<!ENTITY deleteDirectory.label     "Stizzar">
+<!ENTITY addDirectory.label "Agiuntar">
+<!ENTITY addDirectory.accesskey "A">
+<!ENTITY editDirectory.label "Modifitgar">
+<!ENTITY editDirectory.accesskey "M">
+<!ENTITY deleteDirectory.label "Stizzar">
 <!ENTITY deleteDirectory.accesskey "z">

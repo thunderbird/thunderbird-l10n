@@ -5,16 +5,13 @@
 <!ENTITY window.title "Úprava filtra">
 <!ENTITY filterName.label "Názov filtra:">
 <!ENTITY filterName.accesskey "N">
-
 <!ENTITY junk.label "Nevyžiadaná">
 <!ENTITY notJunk.label "Nie je nevyžiadaná">
-
 <!ENTITY lowestPriorityCmd.label "Najnižšia">
 <!ENTITY lowPriorityCmd.label "Nízka">
 <!ENTITY normalPriorityCmd.label "Normálna">
 <!ENTITY highPriorityCmd.label "Vysoká">
 <!ENTITY highestPriorityCmd.label "Najvyššia">
-
 <!ENTITY contextDesc.label "Filter použiť pri:">
 <!ENTITY contextIncomingMail.label "Kontrole pošty">
 <!ENTITY contextIncomingMail.accesskey "K">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "Archivácii">
 <!ENTITY contextArchive.accesskey "A">
 <!ENTITY contextPeriodic.accesskey "e">
-
 <!ENTITY filterActionDesc.label "Vykonať tieto akcie:">
 <!ENTITY filterActionDesc.accesskey "V">
-
 <!ENTITY filterActionOrderWarning.label "Poznámka: akcie filtra budú spustené v inom poradí.">
 <!ENTITY filterActionOrder.label "Pozrieť sa na poradie akcií">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Presunúť do priečinka">
 <!ENTITY copyMessage.label "Kopírovať do priečinka">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Ignorovať podvlákno">
 <!ENTITY watchThread.label "Sledovať vlákno">
 <!ENTITY stopExecution.label "Zastaviť vykonávanie filtra">
-
 <!ENTITY addAction.tooltip "Pridať novú akciu">
 <!ENTITY removeAction.tooltip "Odstrániť túto akciu">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

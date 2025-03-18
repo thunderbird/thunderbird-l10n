@@ -7,7 +7,6 @@
 <!ENTITY senderField4.label "Sender">
 <!ENTITY organizationField4.label "Organization">
 <!ENTITY replyToField4.label "Reply to">
-
 <!ENTITY subjectField4.label "Subject">
 <!ENTITY ccField4.label "Cc">
 <!ENTITY bccField4.label "Bcc">
@@ -20,7 +19,6 @@
 <!ENTITY messageIdField4.label "Message ID">
 <!ENTITY inReplyToField4.label "In reply to">
 <!ENTITY originalWebsite4.label "Website">
-
 <!ENTITY hdrArchiveButton1.label "Archive">
 <!ENTITY hdrArchiveButton1.tooltip "Archive this message">
 <!ENTITY hdrSmartReplyButton1.label "Smart Reply">
@@ -38,7 +36,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Mark this message as junk">
 <!ENTITY hdrTrashButton1.label "Delete">
 <!ENTITY hdrTrashButton1.tooltip "Delete this message">
-
 <!ENTITY hdrViewToolbarShowFull.label "Show Icons and Text">
 <!ENTITY hdrViewToolbarShowFull.accesskey "a">
 <!ENTITY hdrViewToolbarShowIcons.label "Show Icons Only">
@@ -47,7 +44,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "T">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Always Show Reply to Sender">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "R">
-
 <!ENTITY otherActionsOpenConversation1.label "Open in Conversation">
 <!ENTITY otherActionsOpenConversation1.accesskey "C">
 <!ENTITY otherActionsOpenInNewWindow1.label "Open in New Window">
@@ -64,41 +60,34 @@
 <!ENTITY viewSourceMenuItem1.accesskey "V">
 <!ENTITY otherActionsPrint1.label "Print…">
 <!ENTITY otherActionsPrint1.accesskey "P">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Initially Show Attachment Pane">
-<!ENTITY startExpandedCmd.accesskey    "S">
-
+<!ENTITY startExpandedCmd.label "Initially Show Attachment Pane">
+<!ENTITY startExpandedCmd.accesskey "S">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Open">
-<!ENTITY openAttachmentCmd.accesskey    "O">
-<!ENTITY saveAsAttachmentCmd.label    "Save As…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "S">
-<!ENTITY detachAttachmentCmd.label    "Detach…">
-<!ENTITY detachAttachmentCmd.accesskey    "D">
-<!ENTITY deleteAttachmentCmd.label    "Delete">
-<!ENTITY deleteAttachmentCmd.accesskey    "e">
-<!ENTITY openAllAttachmentsCmd.label    "Open All…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "O">
-<!ENTITY saveAllAttachmentsCmd.label    "Save All…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "S">
-<!ENTITY detachAllAttachmentsCmd.label    "Detach All…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "D">
-<!ENTITY deleteAllAttachmentsCmd.label    "Delete All…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "e">
-
+<!ENTITY openAttachmentCmd.label "Open">
+<!ENTITY openAttachmentCmd.accesskey "O">
+<!ENTITY saveAsAttachmentCmd.label "Save As…">
+<!ENTITY saveAsAttachmentCmd.accesskey "S">
+<!ENTITY detachAttachmentCmd.label "Detach…">
+<!ENTITY detachAttachmentCmd.accesskey "D">
+<!ENTITY deleteAttachmentCmd.label "Delete">
+<!ENTITY deleteAttachmentCmd.accesskey "e">
+<!ENTITY openAllAttachmentsCmd.label "Open All…">
+<!ENTITY openAllAttachmentsCmd.accesskey "O">
+<!ENTITY saveAllAttachmentsCmd.label "Save All…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "S">
+<!ENTITY detachAllAttachmentsCmd.label "Detach All…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "D">
+<!ENTITY deleteAllAttachmentsCmd.label "Delete All…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "e">
 <!ENTITY openAttachment.tooltip "Open the attached file">
-
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Save">
-<!ENTITY saveAttachmentButton1.tooltip     "Save the attached file">
-<!ENTITY saveAllAttachmentsButton1.label   "Save All">
+<!ENTITY saveAttachmentButton1.label "Save">
+<!ENTITY saveAttachmentButton1.tooltip "Save the attached file">
+<!ENTITY saveAllAttachmentsButton1.label "Save All">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Save all the attached files">
-
-<!ENTITY copyLinkCmd.label        "Copy Link Location">
-<!ENTITY copyLinkCmd.accesskey    "C">
-
+<!ENTITY copyLinkCmd.label "Copy Link Location">
+<!ENTITY copyLinkCmd.accesskey "C">
 <!ENTITY CopyMessageId.label "Copy Message-ID">
 <!ENTITY CopyMessageId.accesskey "C">
 <!ENTITY OpenMessageForMsgId.label "Open Message For ID">

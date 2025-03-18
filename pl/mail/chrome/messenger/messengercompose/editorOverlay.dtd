@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "Wklej jako cytat">
 <!ENTITY pasteAsQuotationCmd.accesskey "y">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Wstaw">
 <!ENTITY insertMenu.accesskey "s">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "Z">
 <!ENTITY insertBreakAllCmd.label "Linię podziału poniżej obrazu">
 <!ENTITY insertBreakAllCmd.accesskey "u">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Wstaw odnośnik…">
 <!ENTITY createLinkCmd.accesskey "W">
 <!ENTITY editLinkCmd.label "Edytuj odnośnik w nowym oknie Kompozytora Stron">
 <!ENTITY editLinkCmd.accesskey "E">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Wybierz czcionkę">
 <!ENTITY fontfaceMenu.label "Czcionka">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Wybierz rozmiar czcionki">
 <!ENTITY decreaseFontSize.label "Mniejszy">
 <!ENTITY decreaseFontSize.accesskey "n">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "Większy">
 <!ENTITY increaseFontSize.accesskey "W">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "Rozmiar czcionki">
 <!ENTITY fontSizeMenu.accesskey "R">
 <!ENTITY size-tinyCmd.label "Bardzo mały">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "B">
 <!ENTITY size-hugeCmd.label "Wielki">
 <!ENTITY size-hugeCmd.accesskey "e">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Styl tekstu">
 <!ENTITY fontStyleMenu.accesskey "S">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "y">
 <!ENTITY styleVar.label "Zmienna">
 <!ENTITY styleVar.accesskey "Z">
-
 <!ENTITY formatFontColor.label "Kolor tekstu…">
 <!ENTITY formatFontColor.accesskey "K">
 <!ENTITY tableOrCellColor.label "Kolor tła komórki lub tabeli…">
 <!ENTITY tableOrCellColor.accesskey "K">
-
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "Usuń kotwicę">
 <!ENTITY formatRemoveNamedAnchors.accesskey "U">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
-
 <!ENTITY paragraphMenu.label "Akapit">
 <!ENTITY paragraphMenu.accesskey "p">
 <!ENTITY paragraphParagraphCmd.label "Akapit">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "d">
 <!ENTITY paragraphPreformatCmd.label "Wstępnie sformatuj">
 <!ENTITY paragraphPreformatCmd.accesskey "W">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Lista">
 <!ENTITY formatlistMenu.accesskey "L">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "D">
 <!ENTITY listPropsCmd.label "Właściwości listy…">
 <!ENTITY listPropsCmd.accesskey "i">
-
 <!ENTITY ParagraphSelect.tooltip "Wybierz format akapitu">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Treść">
 <!ENTITY bodyTextCmd.accesskey "T">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Wyrównaj">
 <!ENTITY alignMenu.accesskey "a">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "Wyjustuj">
 <!ENTITY alignJustify.accesskey "j">
 <!ENTITY alignJustify.tooltip "Wyjustuj">
-
 <!ENTITY increaseIndent.label "Zwiększ wcięcie">
 <!ENTITY increaseIndent.accesskey "w">
 <!ENTITY increaseIndent.key "]">
 <!ENTITY decreaseIndent.label "Zmniejsz wcięcie">
 <!ENTITY decreaseIndent.accesskey "m">
 <!ENTITY decreaseIndent.key "[">
-
 <!ENTITY colorsAndBackground.label "Kolory strony i tło…">
 <!ENTITY colorsAndBackground.accesskey "y">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Tabela">
 <!ENTITY tableMenu.accesskey "b">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Zaznacz">
 <!ENTITY tableSelectMenu.accesskey "Z">
-
 <!ENTITY tableSelectMenu2.label "Zaznacz">
 <!ENTITY tableSelectMenu2.accesskey "a">
 <!ENTITY tableInsertMenu2.label "Wstaw">
 <!ENTITY tableInsertMenu2.accesskey "W">
 <!ENTITY tableDeleteMenu2.label "Usuń">
 <!ENTITY tableDeleteMenu2.accesskey "U">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Wstaw">
 <!ENTITY tableInsertMenu.accesskey "s">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Usuń">
 <!ENTITY tableDeleteMenu.accesskey "U">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "Połącz komórki">
 <!ENTITY tableJoinCells.accesskey "P">
 <!ENTITY tableSplitCell.label "Podziel komórkę">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "b">
 <!ENTITY tableProperties.label "Właściwości tabeli…">
 <!ENTITY tableProperties.accesskey "t">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Obraz">
 <!ENTITY imageToolbarCmd.tooltip "Wstaw nowy obraz lub edytuj właściwości wybranego obrazu">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Wstaw nową kotwicę albo edytuj właściwości wybranej kotwicy">
 <!ENTITY TextColorButton.tooltip "Wybierz kolor dla tekstu">
 <!ENTITY BackgroundColorButton.tooltip "Wybierz kolor dla tła">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "Ustaw rozmiar czcionki">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Mniejszy rozmiar czcionki">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "Wyrównaj tekst do środka">
 <!ENTITY alignRightButton.tooltip "Wyrównaj tekst do prawego marginesu">
 <!ENTITY alignJustifyButton.tooltip "Wyrównaj tekst pomiędzy prawym a lewym marginesem">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Wstaw">
-<!ENTITY insertTOC.accesskey      "W">
-<!ENTITY updateTOC.label          "Aktualizuj">
-<!ENTITY updateTOC.accesskey      "k">
-<!ENTITY removeTOC.label          "Usuń">
-<!ENTITY removeTOC.accesskey      "U">
-<!ENTITY tocMenu.label            "Spis treści…">
-<!ENTITY tocMenu.accesskey        "S">
+<!ENTITY insertTOC.label "Wstaw">
+<!ENTITY insertTOC.accesskey "W">
+<!ENTITY updateTOC.label "Aktualizuj">
+<!ENTITY updateTOC.accesskey "k">
+<!ENTITY removeTOC.label "Usuń">
+<!ENTITY removeTOC.accesskey "U">
+<!ENTITY tocMenu.label "Spis treści…">
+<!ENTITY tocMenu.accesskey "S">

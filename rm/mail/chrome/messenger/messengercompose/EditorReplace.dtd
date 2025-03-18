@@ -3,7 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from EdReplace.xhtml -->
-
 <!ENTITY replaceDialog.title "Tschertgar e remplazzar">
 <!ENTITY findField.label "Tschertgar il text:">
 <!ENTITY findField.accesskey "T">

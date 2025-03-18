@@ -95,14 +95,30 @@ openpgp-import-key-info = Jiný software může pro osobní klíč používat ji
 #   $count (Number) - the number of keys found in the selected files
 openpgp-import-key-list-amount-2 =
     { -brand-short-name.gender ->
-        [masculine] { -brand-short-name } našel
-        [feminine] { -brand-short-name } našla
-        [neuter] { -brand-short-name } našlo
-       *[other] Aplikace { -brand-short-name } našla
-    } { $count ->
-        [one] jeden klíč, který lze importovat.
-        [few] { $count } klíče, které lze importovat.
-       *[other] { $count } klíčů, které lze importovat.
+        [masculine]
+            { $count ->
+                [one] { -brand-short-name } našel jeden klíč, který lze importovat.
+                [few] { -brand-short-name } našel { $count } klíče, které lze importovat.
+               *[other] { -brand-short-name } našel { $count } klíčů, které lze importovat.
+            }
+        [feminine]
+            { $count ->
+                [one] { -brand-short-name } našla jeden klíč, který lze importovat.
+                [few] { -brand-short-name } našla { $count } klíče, které lze importovat.
+               *[other] { -brand-short-name } našla { $count } klíčů, které lze importovat.
+            }
+        [neuter]
+            { $count ->
+                [one] { -brand-short-name } našlo jeden klíč, který lze importovat.
+                [few] { -brand-short-name } našlo { $count } klíče, které lze importovat.
+               *[other] { -brand-short-name } našlo { $count } klíčů, které lze importovat.
+            }
+       *[other]
+            { $count ->
+                [one] Aplikace { -brand-short-name } našla jeden klíč, který lze importovat.
+                [few] Aplikace { -brand-short-name } našla { $count } klíče, které lze importovat.
+               *[other] Aplikace { -brand-short-name } našla { $count } klíčů, které lze importovat.
+            }
     }
 openpgp-import-key-list-description = Potvrďte, které klíče mohou být považovány za vaše osobní klíče. Jako vaše osobní klíče by měly být použity pouze klíče, které jste si sami vytvořili a které zobrazují vaši vlastní identitu. Tuto volbu můžete později změnit v dialogu Vlastnosti klíče.
 openpgp-import-key-list-caption = Klíče označené jako osobní klíče budou uvedeny v sekci Koncové šifrování. Ostatní budou k dispozici ve správci klíčů.

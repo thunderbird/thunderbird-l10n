@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "插入表格">
-
 <!ENTITY size.label "大小">
 <!ENTITY numRowsEditField.label "列:">
 <!ENTITY numRowsEditField.accessKey "R">

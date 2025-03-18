@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Imloni tekshirish">
-
 <!ENTITY misspelledWord.label "Xatol yozilgan so‘z:">
 <!ENTITY wordEditField.label "Almashtirish:">
 <!ENTITY wordEditField.accessKey "A">

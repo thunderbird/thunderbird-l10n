@@ -7,7 +7,6 @@
 <!ENTITY senderField4.label "שולח">
 <!ENTITY organizationField4.label "ארגון">
 <!ENTITY replyToField4.label "להגיב אל">
-
 <!ENTITY subjectField4.label "נושא">
 <!ENTITY ccField4.label "עותק">
 <!ENTITY bccField4.label "עותק מוסתר">
@@ -19,7 +18,6 @@
 <!ENTITY messageIdField4.label "מזהה הודעה">
 <!ENTITY inReplyToField4.label "בתגובה אל">
 <!ENTITY originalWebsite4.label "אתר">
-
 <!ENTITY hdrArchiveButton1.label "ארכיון">
 <!ENTITY hdrArchiveButton1.tooltip "העבר הודעה זו לארכיון">
 <!ENTITY hdrSmartReplyButton1.label "תשובה חכמה">
@@ -35,7 +33,6 @@
 <!ENTITY hdrJunkButton1.tooltip "סמן הודעה זו כזבל">
 <!ENTITY hdrTrashButton1.label "מחיקה">
 <!ENTITY hdrTrashButton1.tooltip "מחק הודעה זו">
-
 <!ENTITY hdrViewToolbarShowFull.label "הצג צלמיות וטקסט">
 <!ENTITY hdrViewToolbarShowFull.accesskey "ו">
 <!ENTITY hdrViewToolbarShowIcons.label "הצג צלמיות בלבד">
@@ -44,7 +41,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "ט">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "הצג תמיד כפתור תגובה לשולח">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "ש">
-
 <!ENTITY otherActionsButton2.label "עוד">
 <!ENTITY otherActionsButton.tooltip "פעולות נוספות">
 <!ENTITY otherActionsOpenConversation1.label "פתח בדיון">
@@ -63,45 +59,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "מ">
 <!ENTITY otherActionsPrint1.label "הדפסה…">
 <!ENTITY otherActionsPrint1.accesskey "ד">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "הצגת חלונית הקבצים המצורפים כבר בהתחלה">
-<!ENTITY startExpandedCmd.accesskey    "צ">
-
+<!ENTITY startExpandedCmd.label "הצגת חלונית הקבצים המצורפים כבר בהתחלה">
+<!ENTITY startExpandedCmd.accesskey "צ">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "פתח">
-<!ENTITY openAttachmentCmd.accesskey    "פ">
-<!ENTITY saveAsAttachmentCmd.label    "שמור בשם…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "ש">
-<!ENTITY detachAttachmentCmd.label    "נתק…">
-<!ENTITY detachAttachmentCmd.accesskey    "נ">
-<!ENTITY deleteAttachmentCmd.label    "מחק">
-<!ENTITY deleteAttachmentCmd.accesskey    "l">
-<!ENTITY openAllAttachmentsCmd.label    "פתיחת הכול…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "O">
-<!ENTITY saveAllAttachmentsCmd.label    "שמור הכול…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "מ">
-<!ENTITY detachAllAttachmentsCmd.label    "נתק הכול…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "נ">
-<!ENTITY deleteAllAttachmentsCmd.label    "מחיקת הכל…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "ח">
-
+<!ENTITY openAttachmentCmd.label "פתח">
+<!ENTITY openAttachmentCmd.accesskey "פ">
+<!ENTITY saveAsAttachmentCmd.label "שמור בשם…">
+<!ENTITY saveAsAttachmentCmd.accesskey "ש">
+<!ENTITY detachAttachmentCmd.label "נתק…">
+<!ENTITY detachAttachmentCmd.accesskey "נ">
+<!ENTITY deleteAttachmentCmd.label "מחק">
+<!ENTITY deleteAttachmentCmd.accesskey "l">
+<!ENTITY openAllAttachmentsCmd.label "פתיחת הכול…">
+<!ENTITY openAllAttachmentsCmd.accesskey "O">
+<!ENTITY saveAllAttachmentsCmd.label "שמור הכול…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "מ">
+<!ENTITY detachAllAttachmentsCmd.label "נתק הכול…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "נ">
+<!ENTITY deleteAllAttachmentsCmd.label "מחיקת הכל…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "ח">
 <!ENTITY openAttachment.tooltip "פתח את הקובץ המצורף">
-
-<!ENTITY detachedAttachmentFolder.show.label        "פתיחת תיקייה מכילה">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "פ">
-<!ENTITY detachedAttachmentFolder.showMac.label     "הצגה ב־Finder">
+<!ENTITY detachedAttachmentFolder.show.label "פתיחת תיקייה מכילה">
+<!ENTITY detachedAttachmentFolder.show.accesskey "פ">
+<!ENTITY detachedAttachmentFolder.showMac.label "הצגה ב־Finder">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "שמירה">
-<!ENTITY saveAttachmentButton1.tooltip     "שמור קובץ מצורף">
-<!ENTITY saveAllAttachmentsButton1.label   "שמור הכל">
+<!ENTITY saveAttachmentButton1.label "שמירה">
+<!ENTITY saveAttachmentButton1.tooltip "שמור קובץ מצורף">
+<!ENTITY saveAllAttachmentsButton1.label "שמור הכל">
 <!ENTITY saveAllAttachmentsButton1.tooltip "שמור את כל הקבצים המצורפים">
-
-<!ENTITY copyLinkCmd.label        "העתק מיקום קישור">
-<!ENTITY copyLinkCmd.accesskey    "ק">
-
+<!ENTITY copyLinkCmd.label "העתק מיקום קישור">
+<!ENTITY copyLinkCmd.accesskey "ק">
 <!ENTITY CopyMessageId.label "העתקת מזהה הודעה">
 <!ENTITY CopyMessageId.accesskey "ע">
 <!ENTITY OpenMessageForMsgId.label "פתיחת הודעה לפי מזהה">

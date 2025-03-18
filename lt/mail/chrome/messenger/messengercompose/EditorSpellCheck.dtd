@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Rašybos tikrinimas">
-
 <!ENTITY misspelledWord.label "Neteisingai užrašytas žodis:">
 <!ENTITY wordEditField.label "Pakeisti į:">
 <!ENTITY wordEditField.accessKey "P">

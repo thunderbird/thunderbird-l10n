@@ -11,7 +11,6 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
 <!ENTITY mainWindow.preface "Ffynhonnell: ">
-
 <!ENTITY editMenu.label "Golygu">
 <!ENTITY editMenu.accesskey "G">
 <!ENTITY fileMenu.label "Ffeil">
@@ -25,13 +24,11 @@
 <!ENTITY closeCmd.label "Cau">
 <!ENTITY closeCmd.accesskey "C">
 <!ENTITY closeCmd.commandkey "W">
-
 <!-- LOCALIZATION NOTE :
-textEnlarge.commandkey3, textReduce.commandkey2 and
-textReset.commandkey2 are alternative acceleration keys for zoom.
-If shift key is needed with your locale popular keyboard for them,
-you can use these alternative items. Otherwise, their values should be empty.  -->
-
+     textEnlarge.commandkey3, textReduce.commandkey2 and
+     textReset.commandkey2 are alternative acceleration keys for zoom.
+     If shift key is needed with your locale popular keyboard for them,
+     you can use these alternative items. Otherwise, their values should be empty. -->
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textEnlarge.commandkey3 "">
@@ -39,13 +36,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReduce.commandkey2 "">
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
-
 <!ENTITY goToLineCmd.label "Mynd i Linell…">
 <!ENTITY goToLineCmd.accesskey "M">
 <!ENTITY goToLineCmd.commandkey "l">
-
-<!ENTITY viewMenu.label           "Golwg">
-<!ENTITY viewMenu.accesskey       "o">
+<!ENTITY viewMenu.label "Golwg">
+<!ENTITY viewMenu.accesskey "o">
 <!ENTITY reloadCmd.label "Ail-lwytho">
 <!ENTITY reloadCmd.accesskey "A">
 <!ENTITY reloadCmd.commandkey "r">
@@ -61,23 +56,20 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReduce.accesskey "L">
 <!ENTITY menu_textReset.label "Arferol">
 <!ENTITY menu_textReset.accesskey "A">
-
-<!ENTITY findOnCmd.label     "Canfod ar y Dudalen…">
+<!ENTITY findOnCmd.label "Canfod ar y Dudalen…">
 <!ENTITY findOnCmd.accesskey "D">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Canfod Eto">
+<!ENTITY findAgainCmd.label "Canfod Eto">
 <!ENTITY findAgainCmd.accesskey "E">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
-
 <!ENTITY backCmd.label "Nôl">
 <!ENTITY backCmd.accesskey "N">
 <!ENTITY forwardCmd.label "Ymlaen">
 <!ENTITY forwardCmd.accesskey "Y">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
-
 <!ENTITY copyLinkCmd.label "Copïo Lleoliad Dolen">
 <!ENTITY copyLinkCmd.accesskey "L">
 <!ENTITY copyEmailCmd.label "Copïo Cyfeiriad E-bost">

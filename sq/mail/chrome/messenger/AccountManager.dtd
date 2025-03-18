@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Rregullime Llogarie">
-<!ENTITY  accountManagerCloseButton.label "Mbylle">
-
+<!ENTITY accountManagerCloseButton.label "Mbylle">
 <!ENTITY accountActionsButton.label "Veprime Llogarish">
 <!ENTITY accountActionsButton.accesskey "V">
 <!ENTITY addMailAccountButton.label "Shtoni Llogari Poste…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "P">
 <!ENTITY removeButton.label "Hiqe Llogarinë">
 <!ENTITY removeButton.accesskey "H">
-
 <!ENTITY addonsButton.label "Zgjerime &amp; Tema">

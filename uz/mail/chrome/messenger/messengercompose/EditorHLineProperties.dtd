@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Gorizontal qator xossalari">
-
 <!ENTITY dimensionsBox.label "O‘lchamlari">
 <!ENTITY heightEditField.label "Bo‘yi:">
 <!ENTITY heightEditField.accessKey "B">
@@ -19,7 +17,6 @@
 <!ENTITY centerRadio.accessKey "M">
 <!ENTITY rightRadio.label "O‘ng">
 <!ENTITY rightRadio.accessKey "O">
-
 <!ENTITY threeDShading.label "3-D soyalash">
 <!ENTITY threeDShading.accessKey "s">
 <!ENTITY saveSettings.label "Standart sifatida foydalanish">

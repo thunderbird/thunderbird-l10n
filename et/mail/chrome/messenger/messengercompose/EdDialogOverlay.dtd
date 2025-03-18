@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "f">
 <!ENTITY chooseFileLinkButton.label "Vali fail...">
 <!ENTITY chooseFileLinkButton.accessKey "a">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Sisesta veebilehe aadress, kohalik fail või vali välja kontekstimenüüst nimeankur või pealkiri:">
 <!ENTITY LinkURLEditField2.accessKey "v">

@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "Plakken als citaat">
 <!ENTITY pasteAsQuotationCmd.accesskey "t">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Invoegen">
 <!ENTITY insertMenu.accesskey "I">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "s">
 <!ENTITY insertBreakAllCmd.label "Afbreken na afbeelding(en)">
 <!ENTITY insertBreakAllCmd.accesskey "e">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Koppeling maken…">
 <!ENTITY createLinkCmd.accesskey "l">
 <!ENTITY editLinkCmd.label "Koppeling bewerken in nieuw Composer-venster">
 <!ENTITY editLinkCmd.accesskey "w">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Lettertype kiezen">
 <!ENTITY fontfaceMenu.label "Lettertype">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Lettergrootte kiezen">
 <!ENTITY decreaseFontSize.label "Kleiner">
 <!ENTITY decreaseFontSize.accesskey "n">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "Groter">
 <!ENTITY increaseFontSize.accesskey "o">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "Grootte">
 <!ENTITY fontSizeMenu.accesskey "G">
 <!ENTITY size-tinyCmd.label "Zeer klein">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "x">
 <!ENTITY size-hugeCmd.label "Zeer groot">
 <!ENTITY size-hugeCmd.accesskey "r">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Tekststijl">
 <!ENTITY fontStyleMenu.accesskey "s">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "U">
 <!ENTITY styleVar.label "Variabel">
 <!ENTITY styleVar.accesskey "r">
-
 <!ENTITY formatFontColor.label "Tekstkleur…">
 <!ENTITY formatFontColor.accesskey "k">
 <!ENTITY tableOrCellColor.label "Tabel- of celachtergrondkleur…">
 <!ENTITY tableOrCellColor.accesskey "T">
-
 <!ENTITY formatRemoveStyles.key "y">
 <!ENTITY formatRemoveLinks.key "k">
 <!ENTITY formatRemoveNamedAnchors.label "Benoemde ankers verwijderen">
 <!ENTITY formatRemoveNamedAnchors.accesskey "B">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
-
 <!ENTITY paragraphMenu.label "Alinea">
 <!ENTITY paragraphMenu.accesskey "A">
 <!ENTITY paragraphParagraphCmd.label "Alinea">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "d">
 <!ENTITY paragraphPreformatCmd.label "Vooraf opgemaakt">
 <!ENTITY paragraphPreformatCmd.accesskey "V">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Lijst">
 <!ENTITY formatlistMenu.accesskey "i">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "D">
 <!ENTITY listPropsCmd.label "Lijsteigenschappen…">
 <!ENTITY listPropsCmd.accesskey "L">
-
 <!ENTITY ParagraphSelect.tooltip "Een alineaopmaak kiezen">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Tekst">
 <!ENTITY bodyTextCmd.accesskey "T">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Uitlijnen">
 <!ENTITY alignMenu.accesskey "U">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "Uitvullen">
 <!ENTITY alignJustify.accesskey "U">
 <!ENTITY alignJustify.tooltip "Uitvullen">
-
 <!ENTITY increaseIndent.label "Inspringing vergroten">
 <!ENTITY increaseIndent.accesskey "n">
 <!ENTITY increaseIndent.key "]">
 <!ENTITY decreaseIndent.label "Inspringing verkleinen">
 <!ENTITY decreaseIndent.accesskey "v">
 <!ENTITY decreaseIndent.key "[">
-
 <!ENTITY colorsAndBackground.label "Paginakleuren en achtergrond…">
 <!ENTITY colorsAndBackground.accesskey "h">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Tabel">
 <!ENTITY tableMenu.accesskey "T">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Selecteren">
 <!ENTITY tableSelectMenu.accesskey "S">
-
 <!ENTITY tableSelectMenu2.label "Tabel selecteren">
 <!ENTITY tableSelectMenu2.accesskey "s">
 <!ENTITY tableInsertMenu2.label "Tabel invoegen">
 <!ENTITY tableInsertMenu2.accesskey "i">
 <!ENTITY tableDeleteMenu2.label "Tabel verwijderen">
 <!ENTITY tableDeleteMenu2.accesskey "v">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Invoegen">
 <!ENTITY tableInsertMenu.accesskey "I">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Verwijderen">
 <!ENTITY tableDeleteMenu.accesskey "V">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "S">
 <!ENTITY tableJoinCells.accesskey "S">
 <!ENTITY tableSplitCell.label "Cel splitsen">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "m">
 <!ENTITY tableProperties.label "Tabeleigenschappen…">
 <!ENTITY tableProperties.accesskey "e">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Afbeelding">
 <!ENTITY imageToolbarCmd.tooltip "Nieuwe afbeelding invoegen of eigenschappen van geselecteerde afbeelding bewerken">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Nieuw benoemd anker invoegen of eigenschappen van geselecteerde anker bewerken">
 <!ENTITY TextColorButton.tooltip "Kleur voor tekst kiezen">
 <!ENTITY BackgroundColorButton.tooltip "Kleur voor achtergrond kiezen">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "Lettergrootte instellen">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Kleinere lettergrootte">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "Tekst gecentreerd uitlijnen">
 <!ENTITY alignRightButton.tooltip "Tekst uitlijnen langs de rechtermarge">
 <!ENTITY alignJustifyButton.tooltip "Tekst uitlijnen langs de linker- en rechtermarges">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Invoegen">
-<!ENTITY insertTOC.accesskey      "I">
-<!ENTITY updateTOC.label          "Bijwerken">
-<!ENTITY updateTOC.accesskey      "B">
-<!ENTITY removeTOC.label          "Verwijderen">
-<!ENTITY removeTOC.accesskey      "V">
-<!ENTITY tocMenu.label            "Inhoudsopgave…">
-<!ENTITY tocMenu.accesskey        "I">
+<!ENTITY insertTOC.label "Invoegen">
+<!ENTITY insertTOC.accesskey "I">
+<!ENTITY updateTOC.label "Bijwerken">
+<!ENTITY updateTOC.accesskey "B">
+<!ENTITY removeTOC.label "Verwijderen">
+<!ENTITY removeTOC.accesskey "V">
+<!ENTITY tocMenu.label "Inhoudsopgave…">
+<!ENTITY tocMenu.accesskey "I">

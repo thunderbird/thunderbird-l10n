@@ -7,7 +7,6 @@
 <!ENTITY senderField4.label "Sender">
 <!ENTITY organizationField4.label "ស្ថាប័ន">
 <!ENTITY replyToField4.label "ឆ្លើយតប​">
-
 <!ENTITY subjectField4.label "Վերնագիրը">
 <!ENTITY ccField4.label "Cc">
 <!ENTITY bccField4.label "Bcc">
@@ -20,7 +19,6 @@
 <!ENTITY messageIdField4.label "លេខ​សម្គាល់​សារ​">
 <!ENTITY inReplyToField4.label "ជា​ការ​ឆ្លើយតប">
 <!ENTITY originalWebsite4.label "តំបន់​បណ្ដាញ">
-
 <!ENTITY hdrArchiveButton1.label "Archive">
 <!ENTITY hdrArchiveButton1.tooltip "ទុកសារ​នេះ​ក្នុង​ប័ណ្ណសារ">
 <!ENTITY hdrSmartReplyButton1.label "ការឆ្លើយតប​ឆ្លាតវៃ">
@@ -38,7 +36,6 @@
 <!ENTITY hdrJunkButton1.tooltip "សម្គាល់​សារ​នេះ​ជា​សារ​ឥត​បាន​ការ">
 <!ENTITY hdrTrashButton1.label "​លុប​">
 <!ENTITY hdrTrashButton1.tooltip "លុប​សារ​នេះ">
-
 <!ENTITY hdrViewToolbarShowFull.label "Ցուցադրել պատկերները և տեքստը">
 <!ENTITY hdrViewToolbarShowFull.accesskey "a">
 <!ENTITY hdrViewToolbarShowIcons.label "Ցուցադրել միայն պատկերները">
@@ -47,7 +44,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "T">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Միշտ ցուցադրել պատասխանը ուղարկողին">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "R">
-
 <!ENTITY otherActionsButton2.label "Ավելին">
 <!ENTITY otherActionsButton.tooltip "សកម្មភាព​ច្រើន​ទៀត">
 <!ENTITY otherActionsOpenConversation1.label "បើក​ក្នុង​ការ​សន្ទនា">
@@ -66,41 +62,34 @@
 <!ENTITY viewSourceMenuItem1.accesskey "V">
 <!ENTITY otherActionsPrint1.label "Տպել…">
 <!ENTITY otherActionsPrint1.accesskey "P">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "ដំបូង​បង្ហាញ​បន្ទះ​ភ្ជាប់">
-<!ENTITY startExpandedCmd.accesskey    "S">
-
+<!ENTITY startExpandedCmd.label "ដំបូង​បង្ហាញ​បន្ទះ​ភ្ជាប់">
+<!ENTITY startExpandedCmd.accesskey "S">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Բացել">
-<!ENTITY openAttachmentCmd.accesskey    "O">
-<!ENTITY saveAsAttachmentCmd.label    "Պահպանել որպես…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "S">
-<!ENTITY detachAttachmentCmd.label    "Բաժանել...">
-<!ENTITY detachAttachmentCmd.accesskey    "D">
-<!ENTITY deleteAttachmentCmd.label    "Ջնջել">
-<!ENTITY deleteAttachmentCmd.accesskey    "e">
-<!ENTITY openAllAttachmentsCmd.label    "Բացել բոլորը...">
-<!ENTITY openAllAttachmentsCmd.accesskey    "O">
-<!ENTITY saveAllAttachmentsCmd.label    "Պահպանել բոլորը...">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "S">
-<!ENTITY detachAllAttachmentsCmd.label    "Բաժանել բոլորը...">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "D">
-<!ENTITY deleteAllAttachmentsCmd.label    "Ջնջել բոլորը...">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "e">
-
+<!ENTITY openAttachmentCmd.label "Բացել">
+<!ENTITY openAttachmentCmd.accesskey "O">
+<!ENTITY saveAsAttachmentCmd.label "Պահպանել որպես…">
+<!ENTITY saveAsAttachmentCmd.accesskey "S">
+<!ENTITY detachAttachmentCmd.label "Բաժանել...">
+<!ENTITY detachAttachmentCmd.accesskey "D">
+<!ENTITY deleteAttachmentCmd.label "Ջնջել">
+<!ENTITY deleteAttachmentCmd.accesskey "e">
+<!ENTITY openAllAttachmentsCmd.label "Բացել բոլորը...">
+<!ENTITY openAllAttachmentsCmd.accesskey "O">
+<!ENTITY saveAllAttachmentsCmd.label "Պահպանել բոլորը...">
+<!ENTITY saveAllAttachmentsCmd.accesskey "S">
+<!ENTITY detachAllAttachmentsCmd.label "Բաժանել բոլորը...">
+<!ENTITY detachAllAttachmentsCmd.accesskey "D">
+<!ENTITY deleteAllAttachmentsCmd.label "Ջնջել բոլորը...">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "e">
 <!ENTITY openAttachment.tooltip "បើក​ឯកសារ​ភ្ជាប់">
-
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "រក្សាទុក​">
-<!ENTITY saveAttachmentButton1.tooltip     "រក្សាទុក​ឯកសារ​ភ្ជាប់">
-<!ENTITY saveAllAttachmentsButton1.label   "រក្សាទុក​ទាំងអស់​">
+<!ENTITY saveAttachmentButton1.label "រក្សាទុក​">
+<!ENTITY saveAttachmentButton1.tooltip "រក្សាទុក​ឯកសារ​ភ្ជាប់">
+<!ENTITY saveAllAttachmentsButton1.label "រក្សាទុក​ទាំងអស់​">
 <!ENTITY saveAllAttachmentsButton1.tooltip "រក្សាទុក​ឯកសារ​ភ្ជាប់ទាំងអស់">
-
-<!ENTITY copyLinkCmd.label        "Պատճենել հղման հասցեն">
-<!ENTITY copyLinkCmd.accesskey    "C">
-
+<!ENTITY copyLinkCmd.label "Պատճենել հղման հասցեն">
+<!ENTITY copyLinkCmd.accesskey "C">
 <!ENTITY CopyMessageId.label "ចម្លង​លេខ​សម្គាល់​សារ">
 <!ENTITY CopyMessageId.accesskey "C">
 <!ENTITY OpenMessageForMsgId.label "បើក​សារ​សម្រាប់លេខ​សម្គាល់">

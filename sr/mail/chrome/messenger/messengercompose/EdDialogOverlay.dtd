@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "д">
 <!ENTITY chooseFileLinkButton.label "Изаберите датотеку...">
 <!ENTITY chooseFileLinkButton.accessKey "а">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Унесите локацију веб странице, локалну датотеку или изаберите именовано сидро или заглавље из контекстуалног менија поља:">
 <!ENTITY LinkURLEditField2.accessKey "в">

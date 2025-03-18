@@ -4,107 +4,95 @@
 
 <!-- WARNING! This file contains UTF-8 encoded characters!
    - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
-   - your editor isn't using UTF-8 encoding and may munge up the document!
-  -->
+   - your editor isn't using UTF-8 encoding and may munge up the document! -->
 
 <!-- Tools menu -->
 <!ENTITY lightning.preferencesLabel "Календар">
-
 <!-- New menu popup in File menu -->
-<!ENTITY lightning.menupopup.new.event.label    "Събитие…">
+<!ENTITY lightning.menupopup.new.event.label "Събитие…">
 <!ENTITY lightning.menupopup.new.event.accesskey "С">
-<!ENTITY lightning.menupopup.new.task.label     "Задача…">
+<!ENTITY lightning.menupopup.new.task.label "Задача…">
 <!ENTITY lightning.menupopup.new.task.accesskey "З">
 <!ENTITY lightning.menupopup.new.calendar.label "Календар…">
 <!ENTITY lightning.menupopup.new.calendar.accesskey "К">
-
 <!-- Open menu popup in File menu -->
-<!ENTITY lightning.menupopup.open.calendar.label      "Календар файл…">
-<!ENTITY lightning.menupopup.open.calendar.accesskey  "л">
-
+<!ENTITY lightning.menupopup.open.calendar.label "Календар файл…">
+<!ENTITY lightning.menupopup.open.calendar.accesskey "л">
 <!-- View Menu -->
-<!ENTITY lightning.menu.view.calendar.label            "Календар">
-<!ENTITY lightning.menu.view.calendar.accesskey        "К">
-<!ENTITY lightning.menu.view.tasks.label               "Задачи">
-<!ENTITY lightning.menu.view.tasks.accesskey           "д">
-
+<!ENTITY lightning.menu.view.calendar.label "Календар">
+<!ENTITY lightning.menu.view.calendar.accesskey "К">
+<!ENTITY lightning.menu.view.tasks.label "Задачи">
+<!ENTITY lightning.menu.view.tasks.accesskey "д">
 <!-- Events and Tasks menu -->
-<!ENTITY lightning.menu.eventtask.label                "Събития и задачи">
-<!ENTITY lightning.menu.eventtask.accesskey            "б">
-
-<!-- properties dialog, calendar creation wizard -->
-<!-- LOCALIZATON NOTE(lightning.calendarproperties.email.label,
+<!ENTITY lightning.menu.eventtask.label "Събития и задачи">
+<!ENTITY lightning.menu.eventtask.accesskey "б">
+<!-- properties dialog, calendar creation wizard
+     LOCALIZATON NOTE(lightning.calendarproperties.email.label,
      lightning.calendarproperties.forceEmailScheduling.label)
      These strings are used in the calendar wizard and the calendar properties dialog, but are only
      displayed when setting/using a caldav calendar -->
-<!ENTITY lightning.calendarproperties.email.label                           "Мейл:">
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.label            "Предпочитано имейл планиране от страна на клиента">
+<!ENTITY lightning.calendarproperties.email.label "Мейл:">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.label "Предпочитано имейл планиране от страна на клиента">
 <!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
      lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1     "Засега можете да включите това само след като настроите този календар в неговия диалогов прозорец със свойства и ако сървърът на календара се грижи за планирането.">
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "Тази опция е налична само ако сървърът на календара обработва планирането. Активирането ще позволи да се върнете към стандартния график, базиран на имейл, вместо да го оставяте на сървъра.">
-
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "Засега можете да включите това само след като настроите този календар в неговия диалогов прозорец със свойства и ако сървърът на календара се грижи за планирането.">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Тази опция е налична само ако сървърът на календара обработва планирането. Активирането ще позволи да се върнете към стандартния график, базиран на имейл, вместо да го оставяте на сървъра.">
 <!-- The notifications settings in the properties dialog -->
-<!ENTITY lightning.calendarproperties.notifications.label                   "Известия">
-<!ENTITY lightning.calendarproperties.globalNotifications.label             "Общи предпочитания за уведомяване…">
-
+<!ENTITY lightning.calendarproperties.notifications.label "Известия">
+<!ENTITY lightning.calendarproperties.globalNotifications.label "Общи предпочитания за уведомяване…">
 <!-- iMIP Bar (meeting support) -->
-<!ENTITY lightning.imipbar.btnAccept.label                                  "Приемане">
-<!ENTITY lightning.imipbar.btnAccept2.tooltiptext                           "Приемане на поканата за събитие">
-<!ENTITY lightning.imipbar.btnAcceptRecurrences.label                       "Приемане на всички">
-<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext                "Приемане поканите за всички случвания на събитието">
-<!ENTITY lightning.imipbar.btnAdd.label                                     "Добавяне">
-<!ENTITY lightning.imipbar.btnAdd.tooltiptext                               "Добавяне на събитие към календара">
-<!ENTITY lightning.imipbar.btnDecline.label                                 "Отказване">
-<!ENTITY lightning.imipbar.btnDecline2.tooltiptext                          "Отказване на покана за събитие">
-<!ENTITY lightning.imipbar.btnDeclineRecurrences.label                      "Отказване на всички">
-<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext               "Отказване поканите за всички случвания на събитието">
-<!ENTITY lightning.imipbar.btnDeclineCounter.label                          "Отказване">
-<!ENTITY lightning.imipbar.btnDeclineCounter.tooltiptext                    "Отказване на контрапредложението">
-<!ENTITY lightning.imipbar.btnDelete.label                                  "Изтриване">
-<!ENTITY lightning.imipbar.btnDelete.tooltiptext                            "Изтриване от календара">
-<!ENTITY lightning.imipbar.btnDetails.label                                 "Подробности…">
-<!ENTITY lightning.imipbar.btnDetails.tooltiptext                           "Показване подробностите на събитието">
-<!ENTITY lightning.imipbar.btnDoNotShowImipBar.label                        "Спиране на тези съобщения">
-<!ENTITY lightning.imipbar.btnGoToCalendar.label                            "Календар">
-<!ENTITY lightning.imipbar.btnGoToCalendar.tooltiptext                      "Към раздела с календара">
-<!ENTITY lightning.imipbar.btnMore.label                                    "Повече">
-<!ENTITY lightning.imipbar.btnMore.tooltiptext                              "Щракнете за показване на повече възможности">
-<!ENTITY lightning.imipbar.btnReconfirm2.label                              "Препотвърждаване">
-<!ENTITY lightning.imipbar.btnReconfirm.tooltiptext                         "Изпращане на препотвърждаване до организатора">
-<!ENTITY lightning.imipbar.btnReschedule.label                              "Повторно планиране">
-<!ENTITY lightning.imipbar.btnReschedule.tooltiptext                        "Повторно планиране на събитието">
-<!ENTITY lightning.imipbar.btnSaveCopy.label                                "Запис на копие">
-<!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext                          "Запис на копие на събитието в календара независимо от отговора към организатора. Списъскът с участници ще бъде изчистен.">
-<!ENTITY lightning.imipbar.btnTentative.label                               "Несигурен">
-<!ENTITY lightning.imipbar.btnTentative2.tooltiptext                        "Приемане на събитието като несигурно">
-<!ENTITY lightning.imipbar.btnTentativeRecurrences.label                    "Всички са несигурни">
-<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext             "Приемане на събитието като несигурно за всички случвания на събитието">
-<!ENTITY lightning.imipbar.btnUpdate.label                                  "Обновяване">
-<!ENTITY lightning.imipbar.btnUpdate.tooltiptext                            "Обновяване на събитието в календара">
-<!ENTITY lightning.imipbar.description                                      "Писмото съдържа покана за събитие.">
-
-<!ENTITY lightning.imipbar.btnSend.label                                    "Изпращане на отговор">
-<!ENTITY lightning.imipbar.btnSend.tooltiptext                              "Изпращане на отговор на организатора">
-<!ENTITY lightning.imipbar.btnSendSeries.tooltiptext                        "Изпращане отговор за цялата серия на организатора">
-<!ENTITY lightning.imipbar.btnDontSend.label                                "Без изпращане на отговор">
-<!ENTITY lightning.imipbar.btnDontSend.tooltiptext                          "Промяна на вида на участието ви без да изпращате отговор до организатора">
-<!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Промяна на вида на участието ви, за цялата серия, без да изпращате отговор до организатора">
-
+<!ENTITY lightning.imipbar.btnAccept.label "Приемане">
+<!ENTITY lightning.imipbar.btnAccept2.tooltiptext "Приемане на поканата за събитие">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences.label "Приемане на всички">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext "Приемане поканите за всички случвания на събитието">
+<!ENTITY lightning.imipbar.btnAdd.label "Добавяне">
+<!ENTITY lightning.imipbar.btnAdd.tooltiptext "Добавяне на събитие към календара">
+<!ENTITY lightning.imipbar.btnDecline.label "Отказване">
+<!ENTITY lightning.imipbar.btnDecline2.tooltiptext "Отказване на покана за събитие">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences.label "Отказване на всички">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext "Отказване поканите за всички случвания на събитието">
+<!ENTITY lightning.imipbar.btnDeclineCounter.label "Отказване">
+<!ENTITY lightning.imipbar.btnDeclineCounter.tooltiptext "Отказване на контрапредложението">
+<!ENTITY lightning.imipbar.btnDelete.label "Изтриване">
+<!ENTITY lightning.imipbar.btnDelete.tooltiptext "Изтриване от календара">
+<!ENTITY lightning.imipbar.btnDetails.label "Подробности…">
+<!ENTITY lightning.imipbar.btnDetails.tooltiptext "Показване подробностите на събитието">
+<!ENTITY lightning.imipbar.btnDoNotShowImipBar.label "Спиране на тези съобщения">
+<!ENTITY lightning.imipbar.btnGoToCalendar.label "Календар">
+<!ENTITY lightning.imipbar.btnGoToCalendar.tooltiptext "Към раздела с календара">
+<!ENTITY lightning.imipbar.btnMore.label "Повече">
+<!ENTITY lightning.imipbar.btnMore.tooltiptext "Щракнете за показване на повече възможности">
+<!ENTITY lightning.imipbar.btnReconfirm2.label "Препотвърждаване">
+<!ENTITY lightning.imipbar.btnReconfirm.tooltiptext "Изпращане на препотвърждаване до организатора">
+<!ENTITY lightning.imipbar.btnReschedule.label "Повторно планиране">
+<!ENTITY lightning.imipbar.btnReschedule.tooltiptext "Повторно планиране на събитието">
+<!ENTITY lightning.imipbar.btnSaveCopy.label "Запис на копие">
+<!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext "Запис на копие на събитието в календара независимо от отговора към организатора. Списъскът с участници ще бъде изчистен.">
+<!ENTITY lightning.imipbar.btnTentative.label "Несигурен">
+<!ENTITY lightning.imipbar.btnTentative2.tooltiptext "Приемане на събитието като несигурно">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences.label "Всички са несигурни">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext "Приемане на събитието като несигурно за всички случвания на събитието">
+<!ENTITY lightning.imipbar.btnUpdate.label "Обновяване">
+<!ENTITY lightning.imipbar.btnUpdate.tooltiptext "Обновяване на събитието в календара">
+<!ENTITY lightning.imipbar.description "Писмото съдържа покана за събитие.">
+<!ENTITY lightning.imipbar.btnSend.label "Изпращане на отговор">
+<!ENTITY lightning.imipbar.btnSend.tooltiptext "Изпращане на отговор на организатора">
+<!ENTITY lightning.imipbar.btnSendSeries.tooltiptext "Изпращане отговор за цялата серия на организатора">
+<!ENTITY lightning.imipbar.btnDontSend.label "Без изпращане на отговор">
+<!ENTITY lightning.imipbar.btnDontSend.tooltiptext "Промяна на вида на участието ви без да изпращате отговор до организатора">
+<!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext "Промяна на вида на участието ви, за цялата серия, без да изпращате отговор до организатора">
 <!-- Lightning specific keybindings -->
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
-
 <!-- Account Central page -->
 <!ENTITY lightning.acctCentral.newCalendar.label "Създаване на нов календар">
-
 <!-- today-pane-specific -->
 <!ENTITY todaypane.showMinimonth.label "Показване на мини-месец">
 <!ENTITY todaypane.showMinimonth.accesskey "м">
 <!ENTITY todaypane.showMiniday.label "Показване на мини-ден">
-<!ENTITY todaypane.showMiniday.accesskey  "д">
+<!ENTITY todaypane.showMiniday.accesskey "д">
 <!ENTITY todaypane.showNone.label "Без показване">
 <!ENTITY todaypane.showNone.accesskey "в">
 <!ENTITY todaypane.showTodayPane.label "Показване на дневния график">

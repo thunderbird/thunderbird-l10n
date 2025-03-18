@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "ਹਵਾਲੇ ਵਜੋਂ ਚੇਪੋ">
 <!ENTITY pasteAsQuotationCmd.accesskey "Q">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "ਸ਼ਾਮਲ">
 <!ENTITY insertMenu.accesskey "I">
@@ -28,13 +27,11 @@
 <!ENTITY insertCharsCmd.accesskey "C">
 <!ENTITY insertBreakAllCmd.label "ਚਿੱਤਰ ਹੇਠਾਂ ਵੰਡੋ">
 <!ENTITY insertBreakAllCmd.accesskey "k">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "…ਲਿੰਕ ਬਣਾਓ">
 <!ENTITY createLinkCmd.accesskey "k">
 <!ENTITY editLinkCmd.label "ਨਵੀਂ ਲਿਖਣ ਵਿੰਡੋ ਵਿੱਚ ਲਿੰਕ ਸੋਧੋ">
 <!ENTITY editLinkCmd.accesskey "i">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "ਫੋਂਟ ਚੁਣੋ">
 <!ENTITY fontfaceMenu.label "ਫੋਂਟ">
@@ -50,18 +47,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "ਫੋਂਟ ਆਕਾਰ ਚੁਣੋ">
 <!ENTITY decreaseFontSize.label "ਹੋਰ ਛੋਟੇ">
 <!ENTITY decreaseFontSize.accesskey "r">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "ਹੋਰ ਵੱਡੇ">
 <!ENTITY increaseFontSize.accesskey "g">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "ਆਕਾਰ">
 <!ENTITY fontSizeMenu.accesskey "z">
 <!ENTITY size-smallCmd.label "ਛੋਟੇ">
@@ -70,7 +67,6 @@
 <!ENTITY size-mediumCmd.accesskey "d">
 <!ENTITY size-largeCmd.label "ਵੱਡੇ">
 <!ENTITY size-largeCmd.accesskey "l">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "ਟੈਕਸਟ ਸਟਾਇਲ">
 <!ENTITY fontStyleMenu.accesskey "S">
@@ -107,18 +103,15 @@
 <!ENTITY styleSamp.accesskey "m">
 <!ENTITY styleVar.label "ਵੇਰੀਬਲ">
 <!ENTITY styleVar.accesskey "V">
-
 <!ENTITY formatFontColor.label "ਟੈਕਸਟ ਰੰਗ…">
 <!ENTITY formatFontColor.accesskey "C">
 <!ENTITY tableOrCellColor.label "ਟੇਬਲ ਜਾਂ ਸੈੱਲ ਬੈਕਗਰਾਊਂਡ ਰੰਗ…">
 <!ENTITY tableOrCellColor.accesskey "B">
-
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "ਨਾਂ ਵਾਲੇ ਐਂਕਰ ਹਟਾਓ">
 <!ENTITY formatRemoveNamedAnchors.accesskey "R">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
-
 <!ENTITY paragraphMenu.label "ਪ੍ਹੈਰਾ">
 <!ENTITY paragraphMenu.accesskey "P">
 <!ENTITY paragraphParagraphCmd.label "ਪ੍ਹੈਰਾਗਰਾਫ਼">
@@ -139,7 +132,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "A">
 <!ENTITY paragraphPreformatCmd.label "ਪ੍ਰੀ-ਫਾਰਮੈਟ">
 <!ENTITY paragraphPreformatCmd.accesskey "f">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "ਲਿਸਟ">
 <!ENTITY formatlistMenu.accesskey "L">
@@ -155,12 +147,10 @@
 <!ENTITY listDefinitionCmd.accesskey "D">
 <!ENTITY listPropsCmd.label "ਲਿਸਟ ਵਿਸ਼ੇਸ਼ਤਾ…">
 <!ENTITY listPropsCmd.accesskey "L">
-
 <!ENTITY ParagraphSelect.tooltip "ਪ੍ਹੈਰਾਗਰਾਫ਼ ਫਾਰਮੈਟ ਚੁਣੋ">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "ਮੁੱਖ ਭਾਗ ਟੈਕਸਟ">
 <!ENTITY bodyTextCmd.accesskey "T">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "ਇਕਸਾਰ">
 <!ENTITY alignMenu.accesskey "A">
@@ -176,32 +166,26 @@
 <!ENTITY alignJustify.label "ਲੋੜ ਮੁਤਾਬਕ">
 <!ENTITY alignJustify.accesskey "J">
 <!ENTITY alignJustify.tooltip "Justified ਸੈੱਟ ਕਰੋ">
-
 <!ENTITY increaseIndent.label "ਹਾਸ਼ੀਏ ਤੋਂ ਦੂਰੀ ਵਧਾਓ">
 <!ENTITY increaseIndent.accesskey "I">
 <!ENTITY increaseIndent.key "]">
 <!ENTITY decreaseIndent.label "ਹਾਸ਼ੀਏ ਤੋਂ ਦੂਰੀ ਘਟਾਓ">
 <!ENTITY decreaseIndent.accesskey "D">
 <!ENTITY decreaseIndent.key "[">
-
 <!ENTITY colorsAndBackground.label "ਸਫ਼ਾ ਰੰਗ ਅਤੇ ਬੈਕਗਰਾਊਂਡ…">
 <!ENTITY colorsAndBackground.accesskey "u">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "ਟੇਬਲ">
 <!ENTITY tableMenu.accesskey "b">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "ਚੁਣੋ">
 <!ENTITY tableSelectMenu.accesskey "S">
-
 <!ENTITY tableSelectMenu2.label "ਟੇਬਲ ਚੁਣੋ">
 <!ENTITY tableSelectMenu2.accesskey "S">
 <!ENTITY tableInsertMenu2.label "ਟੇਬਲ ਸ਼ਾਮਲ ਕਰੋ">
 <!ENTITY tableInsertMenu2.accesskey "I">
 <!ENTITY tableDeleteMenu2.label "ਟੇਬ ਹਟਾਓ">
 <!ENTITY tableDeleteMenu2.accesskey "D">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "ਸ਼ਾਮਲ">
 <!ENTITY tableInsertMenu.accesskey "I">
@@ -235,12 +219,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "ਹਟਾਓ">
 <!ENTITY tableDeleteMenu.accesskey "D">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "j">
 <!ENTITY tableJoinCells.accesskey "j">
 <!ENTITY tableSplitCell.label "ਸੈੱਲ ਵੰਡੋ">
@@ -249,7 +231,6 @@
 <!ENTITY convertToTable.accesskey "r">
 <!ENTITY tableProperties.label "ਟੇਬਲ ਵਿਸ਼ੇਸ਼ਤਾ…">
 <!ENTITY tableProperties.accesskey "o">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "ਚਿੱਤਰ">
 <!ENTITY imageToolbarCmd.tooltip "Insert new image or edit selected image's properties">
@@ -263,8 +244,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Insert new named anchor or edit selected anchor's properties">
 <!ENTITY TextColorButton.tooltip "ਟੈਕਸਟ ਲਈ ਰੰਗ ਚੁਣੋ">
 <!ENTITY BackgroundColorButton.tooltip "ਬੈਕਗਰਾਊਂਡ ਲਈ ਰੰਗ ਚੁਣੋ">
-
-<!-- Editor toolbar -->
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "ਫੋਂਟ ਆਕਾਰ ਹੋਰ ਛੋਟਾ">
 <!ENTITY increaseFontSizeToolbarCmd.tooltip "ਫੋਂਟ ਆਕਾਰ ਹੋਰ ਵੱਡਾ">
 <!ENTITY boldToolbarCmd.tooltip "ਗੂੜ੍ਹਾ ਬਣਾਓ">
@@ -280,13 +259,12 @@
 <!ENTITY alignCenterButton.tooltip "Align text centered">
 <!ENTITY alignRightButton.tooltip "Align text along right margin">
 <!ENTITY alignJustifyButton.tooltip "Align text along left and right margins">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "ਸ਼ਾਮਲ">
-<!ENTITY insertTOC.accesskey      "i">
-<!ENTITY updateTOC.label          "ਅੱਪਡੇਟ">
-<!ENTITY updateTOC.accesskey      "u">
-<!ENTITY removeTOC.label          "ਹਟਾਓ">
-<!ENTITY removeTOC.accesskey      "r">
-<!ENTITY tocMenu.label            "ਤਤਕਰਾ…">
-<!ENTITY tocMenu.accesskey        "b">
+<!ENTITY insertTOC.label "ਸ਼ਾਮਲ">
+<!ENTITY insertTOC.accesskey "i">
+<!ENTITY updateTOC.label "ਅੱਪਡੇਟ">
+<!ENTITY updateTOC.accesskey "u">
+<!ENTITY removeTOC.label "ਹਟਾਓ">
+<!ENTITY removeTOC.accesskey "r">
+<!ENTITY tocMenu.label "ਤਤਕਰਾ…">
+<!ENTITY tocMenu.accesskey "b">

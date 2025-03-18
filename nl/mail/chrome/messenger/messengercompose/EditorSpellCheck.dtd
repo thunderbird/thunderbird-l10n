@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Spelling controleren">
-
 <!ENTITY misspelledWord.label "Verkeerd gespeld woord:">
 <!ENTITY wordEditField.label "Vervangen door:">
 <!ENTITY wordEditField.accessKey "d">

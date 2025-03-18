@@ -3,13 +3,13 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Labels -->
-<!ENTITY newFolderDialog.title      "Новая папка">
-<!ENTITY name.label                 "Імя:">
-<!ENTITY name.accesskey             "І">
-<!ENTITY description.label          "Стварыць як падпапку:">
-<!ENTITY description.accesskey      "п">
-<!ENTITY folderRestriction2.label   "Дазволіць вашай новай папцы змяшчаць:">
-<!ENTITY foldersOnly.label          "Толькі папкі">
-<!ENTITY messagesOnly.label         "Толькі паведамленні">
-<!ENTITY accept.label               "Стварыць папку">
-<!ENTITY accept.accesskey           "п">
+<!ENTITY newFolderDialog.title "Новая папка">
+<!ENTITY name.label "Імя:">
+<!ENTITY name.accesskey "І">
+<!ENTITY description.label "Стварыць як падпапку:">
+<!ENTITY description.accesskey "п">
+<!ENTITY folderRestriction2.label "Дазволіць вашай новай папцы змяшчаць:">
+<!ENTITY foldersOnly.label "Толькі папкі">
+<!ENTITY messagesOnly.label "Толькі паведамленні">
+<!ENTITY accept.label "Стварыць папку">
+<!ENTITY accept.accesskey "п">

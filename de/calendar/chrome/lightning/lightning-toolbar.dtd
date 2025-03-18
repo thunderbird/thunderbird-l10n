@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Kalender">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Zum Kalender-Tab wechseln">
+<!ENTITY lightning.toolbar.calendar.label "Kalender">
+<!ENTITY lightning.toolbar.calendar.tooltip "Zum Kalender-Tab wechseln">
 <!ENTITY lightning.toolbar.calendar.accesskey "K">
-<!ENTITY lightning.toolbar.task.label         "Aufgaben">
-<!ENTITY lightning.toolbar.task.tooltip       "Zum Aufgaben-Tab wechseln">
-<!ENTITY lightning.toolbar.task.accesskey     "A">
-
+<!ENTITY lightning.toolbar.task.label "Aufgaben">
+<!ENTITY lightning.toolbar.task.tooltip "Zum Aufgaben-Tab wechseln">
+<!ENTITY lightning.toolbar.task.accesskey "A">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Tag">
-<!ENTITY lightning.toolbar.day.accesskey             "T">
-<!ENTITY lightning.toolbar.week.label                "Woche">
-<!ENTITY lightning.toolbar.week.accesskey            "W">
-<!ENTITY lightning.toolbar.multiweek.label           "Mehrere Wochen">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "h">
-<!ENTITY lightning.toolbar.month.label               "Monat">
-<!ENTITY lightning.toolbar.month.accesskey           "M">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Seitenleiste">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "S">
-<!ENTITY lightning.toolbar.calendarpane.label        "Seitenleiste anzeigen">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "S">
+<!ENTITY lightning.toolbar.day.label "Tag">
+<!ENTITY lightning.toolbar.day.accesskey "T">
+<!ENTITY lightning.toolbar.week.label "Woche">
+<!ENTITY lightning.toolbar.week.accesskey "W">
+<!ENTITY lightning.toolbar.multiweek.label "Mehrere Wochen">
+<!ENTITY lightning.toolbar.multiweek.accesskey "h">
+<!ENTITY lightning.toolbar.month.label "Monat">
+<!ENTITY lightning.toolbar.month.accesskey "M">
+<!ENTITY lightning.toolbar.calendarmenu.label "Seitenleiste">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "S">
+<!ENTITY lightning.toolbar.calendarpane.label "Seitenleiste anzeigen">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "S">

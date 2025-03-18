@@ -5,16 +5,13 @@
 <!ENTITY window.title "Filterregels">
 <!ENTITY filterName.label "Filternaam:">
 <!ENTITY filterName.accesskey "F">
-
 <!ENTITY junk.label "Ongewenst bericht">
 <!ENTITY notJunk.label "Geen ongewenst bericht">
-
 <!ENTITY lowestPriorityCmd.label "Laagst">
 <!ENTITY lowPriorityCmd.label "Laag">
 <!ENTITY normalPriorityCmd.label "Normaal">
 <!ENTITY highPriorityCmd.label "Hoog">
 <!ENTITY highestPriorityCmd.label "Hoogst">
-
 <!ENTITY contextDesc.label "Filter toepassen bij het:">
 <!ENTITY contextIncomingMail.label "Ophalen van nieuwe e-mail:">
 <!ENTITY contextIncomingMail.accesskey "O">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "Archiveren">
 <!ENTITY contextArchive.accesskey "r">
 <!ENTITY contextPeriodic.accesskey "P">
-
 <!ENTITY filterActionDesc.label "Deze acties uitvoeren:">
 <!ENTITY filterActionDesc.accesskey "v">
-
 <!ENTITY filterActionOrderWarning.label "Noot: filteracties worden in een andere volgorde uitgevoerd.">
 <!ENTITY filterActionOrder.label "Uitvoeringsvolgorde bekijken">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Bericht verplaatsen naar">
 <!ENTITY copyMessage.label "Bericht kopiëren naar">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Subconversatie negeren">
 <!ENTITY watchThread.label "Conversatie volgen">
 <!ENTITY stopExecution.label "Uitvoeren van filter stoppen">
-
 <!ENTITY addAction.tooltip "Een nieuwe actie toevoegen">
 <!ENTITY removeAction.tooltip "Deze actie verwijderen">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "50">
 <!ENTITY filterActionTargetFlexValue "4">

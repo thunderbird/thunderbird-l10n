@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Senni tafelwit">
-
 <!ENTITY size.label "Teɣzi">
 <!ENTITY numRowsEditField.label "Izirigen:">
 <!ENTITY numRowsEditField.accessKey "z">

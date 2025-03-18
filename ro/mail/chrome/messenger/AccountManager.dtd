@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Setări pentru cont">
-<!ENTITY  accountManagerCloseButton.label "Închide">
-
+<!ENTITY accountManagerCloseButton.label "Închide">
 <!ENTITY accountActionsButton.label "Acțiuni cu privire la cont">
 <!ENTITY accountActionsButton.accesskey "A">
 <!ENTITY addMailAccountButton.label "Adaugă un cont de mail…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "D">
 <!ENTITY removeButton.label "Elimină contul">
 <!ENTITY removeButton.accesskey "R">
-
 <!ENTITY addonsButton.label "Extensii &amp; teme">

@@ -9,6 +9,3 @@
 <!ENTITY chooseFileButton.accessKey "F">
 <!ENTITY chooseFileLinkButton.label "ਫਾਇਲ ਚੁਣੋ...">
 <!ENTITY chooseFileLinkButton.accessKey "o">
-
-
-<!-- Shared by Link and Image dialogs -->

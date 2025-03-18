@@ -10,31 +10,19 @@
 
 <!ENTITY identityTitle.label "Identiteit">
 <!ENTITY identityDesc.label "'n Mens kan vir elke rekening 'n eie identiteit opstel. Die identiteit sê aan mense wat u boodskappe ontvang, wie u is.">
-
-<!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
-<!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
-  1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
 <!ENTITY fullnameLabel.label "U naam:">
 <!ENTITY fullnameLabel.accesskey "U">
-
 <!ENTITY emailLabel.label "E-posadres:">
 <!ENTITY emailLabel.accesskey "E">
 
 <!-- Entities for Incoming Server page -->
 
-<!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
-
 <!-- Entities for Account name page -->
 
 <!ENTITY accnameTitle.label "Rekeningnaam">
-<!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameLabel.label "Rekeningnaam:">
 <!ENTITY accnameLabel.accesskey "R">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Baie geluk!">
 <!ENTITY completionText.label "Maak seker dat die inligting hieronder korrek is.">
 <!ENTITY newsServerNamePrefix.label "Nuusgroepbediener (NNTP):">

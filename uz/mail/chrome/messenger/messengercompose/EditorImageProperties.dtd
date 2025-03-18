@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Rasm xossalari">
-
 <!ENTITY pixelsPopup.value "piksel">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Rasm manzili:">
 <!ENTITY locationEditField.accessKey "m">
@@ -21,11 +19,9 @@
 <!ENTITY altTextEditField.tooltip "Rasmning o‘rnida ko‘rsatish uchun mattni yozing">
 <!ENTITY noAltText.label "Muqobil matndan foydalanmang">
 <!ENTITY noAltText.accessKey "f">
-
 <!ENTITY previewBox.label "Rasmning ko‘rinishi">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Haqiqiy hajmi:">
 <!ENTITY actualSizeRadio.label "Haqiqiy hajmi:">
 <!ENTITY actualSizeRadio.accessKey "H">
@@ -40,12 +36,10 @@
 <!ENTITY constrainCheckbox.label "Majburlash">
 <!ENTITY constrainCheckbox.accessKey "M">
 <!ENTITY constrainCheckbox.tooltip "Rasmning proporsionallik nisbatiga asoslangan">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Rasm xaritasi">
 <!ENTITY removeImageMapButton.label "Olib tashlash">
 <!ENTITY removeImageMapButton.accessKey "O">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Matnni rasmga moslab taxlash">
 <!ENTITY bottomPopup.value "Quyida">
@@ -53,7 +47,6 @@
 <!ENTITY centerPopup.value "Markazda">
 <!ENTITY wrapRightPopup.value "O‘ngga moslash">
 <!ENTITY wrapLeftPopup.value "Chapga moslash">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Bo‘sh joy qoldirish">
 <!ENTITY leftRightEditField.label "Chap va o‘ngga:">
@@ -62,14 +55,12 @@
 <!ENTITY topBottomEditField.accessKey "Y">
 <!ENTITY borderEditField.label "Qalin chegara">
 <!ENTITY borderEditField.accessKey "c">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Chegarani havola berilgan rasm atrofida ko‘rsatish">
 <!ENTITY showImageLinkBorder.accessKey "C">
 <!ENTITY LinkAdvancedEditButton.label "Qo‘shimcha tahrirlashga havola berish…">
 <!ENTITY LinkAdvancedEditButton.accessKey "L">
 <!ENTITY LinkAdvancedEditButton.tooltip "JavaScript, HTML atributlar va uslub atributlarini qo‘shish va o‘zgartirish">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Shakl">
 <!ENTITY imageLocationTab.label "Manzili">

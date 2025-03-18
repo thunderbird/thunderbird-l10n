@@ -20,8 +20,8 @@ openpgp-pubkey-import-intro =
 # $num (Number) - Number of keys to accept.
 openpgp-pubkey-import-accept =
     { $num ->
-       *[one] 您要接受將此金鑰用來驗證下列所有電子郵件地址的數位簽章與加密訊息嗎？
         [other] 您要接受將這些金鑰用來驗證下列所有電子郵件地址的數位簽章與加密訊息嗎？
+       *[one] 您要接受將此金鑰用來驗證下列所有電子郵件地址的數位簽章與加密訊息嗎？
     }
 pubkey-import-button =
     .buttonlabelaccept = 匯入

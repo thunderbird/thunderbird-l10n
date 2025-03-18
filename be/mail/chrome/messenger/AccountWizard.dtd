@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Адмета">
 <!ENTITY identityDesc.label "Кожны ўліковы запіс мае ідэнтыфікацыйныя даныя. Гэта інфармацыя, якая прадстаўляе вас у паведамленнях, якія вы адпраўляеце.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Увядзіце імя, якое вы хочаце бачыць у поле &quot;Ад&quot; вашых  выходных лістоў">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(напрыклад: &quot;Юрась Братчык&quot;).">
 <!ENTITY fullnameLabel.label "Ваша імя:">
 <!ENTITY fullnameLabel.accesskey "В">
-
 <!ENTITY emailLabel.label "Адрас электроннай пошты:">
 <!ENTITY emailLabel.accesskey "Э">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Увядзіце назву, па якой вы будзеце спасылацца на гэты ўліковы запіс (напрыклад, «Працоўны», «Хатні», «Навінавы»).">
 <!ENTITY accnameLabel.label "Імя ўліковага запісу:">
 <!ENTITY accnameLabel.accesskey "Р">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Віншаванні!">
 <!ENTITY completionText.label "Упэўніцеся, калі ласка, ці звесткі ўнізе правільныя.">
 <!ENTITY newsServerNamePrefix.label "Імя сервера навін (NNTP):">

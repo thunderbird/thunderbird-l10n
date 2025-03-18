@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Eigene Farben verwenden:">
 <!ENTITY customColorsRadio.accessKey "E">
 <!ENTITY customColorsRadio.tooltip "Diese Farbeinstellungen übergehen die Browser-Einstellungen des Betrachters">
-
 <!ENTITY normalText.label "Normaler Text">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "Link-Text">

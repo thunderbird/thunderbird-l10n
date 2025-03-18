@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "خصائص الخط الأفقي">
-
 <!ENTITY dimensionsBox.label "الأبعاد">
 <!ENTITY heightEditField.label "الارتفاع:">
 <!ENTITY heightEditField.accessKey "ع">
@@ -19,7 +17,6 @@
 <!ENTITY centerRadio.accessKey "م">
 <!ENTITY rightRadio.label "يمينًا">
 <!ENTITY rightRadio.accessKey "ي">
-
 <!ENTITY threeDShading.label "ظل ثلاثي الأبعاد">
 <!ENTITY threeDShading.accessKey "ظ">
 <!ENTITY saveSettings.label "استخدم كمبدئي">

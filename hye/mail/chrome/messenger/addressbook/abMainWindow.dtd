@@ -2,13 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY showAsDefault.label                            "Սկզբնադիր գործարկման գրացուցակ">
-<!ENTITY showAsDefault.accesskey                        "Գ">
-
+<!ENTITY showAsDefault.label "Սկզբնադիր գործարկման գրացուցակ">
+<!ENTITY showAsDefault.accesskey "Գ">
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label                        "Անուն կամ եղեկտրոնային հասցէ">
-
+<!ENTITY SearchNameOrEmail.label "Անուն կամ եղեկտրոնային հասցէ">
 <!-- Results Pane -->
-<!ENTITY Addrbook.label                                 "Հասցէագիրք">
-<!ENTITY GeneratedName.label                            "Անուն">
-<!ENTITY PrimaryEmail.label                             "Եղեկտրոնային հասցէ">
+<!ENTITY Addrbook.label "Հասցէագիրք">
+<!ENTITY GeneratedName.label "Անուն">
+<!ENTITY PrimaryEmail.label "Եղեկտրոնային հասցէ">

@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Amawal udmawan">
-
 <!ENTITY wordEditField.label "Awal amaynut:">
 <!ENTITY wordEditField.accessKey "w">
 <!ENTITY AddButton.label "Rnu">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "l">
 <!ENTITY RemoveButton.label "Kkes">
 <!ENTITY RemoveButton.accessKey "K">
-
 <!ENTITY CloseButton.label "Mdel">
 <!ENTITY CloseButton.accessKey "M">

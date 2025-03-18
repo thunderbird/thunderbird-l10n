@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Shaxsiy lug‘at">
-
 <!ENTITY wordEditField.label "Yangi so‘z:">
 <!ENTITY wordEditField.accessKey "Y">
 <!ENTITY AddButton.label "Qo‘shish">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "W">
 <!ENTITY RemoveButton.label "Olib tashlash">
 <!ENTITY RemoveButton.accessKey "O">
-
 <!ENTITY CloseButton.label "Yopish">
 <!ENTITY CloseButton.accessKey "Y">

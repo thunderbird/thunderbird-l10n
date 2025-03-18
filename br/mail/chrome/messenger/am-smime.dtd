@@ -4,9 +4,6 @@
 
 <!ENTITY e2eTitle.label "Enrinegañ penn-da-benn">
 <!ENTITY e2eLearnMore.label "Gouzout hiroc’h">
-
-
-
 <!ENTITY digitalSign.certificate.button "Diuzañ…">
 <!ENTITY digitalSign.certificate.accesskey "z">
 <!ENTITY digitalSign.certificate_clear.button "Skarzhañ">
@@ -16,22 +13,15 @@
 <!ENTITY encryption.certificate_clear.button "Skarzhañ">
 <!ENTITY encryption.certificate_clear.accesskey "k">
 <!ENTITY signingGroupTitle.label "Sinañ niverel">
-
-
-
 <!ENTITY certificates2.label "S/MIME">
 <!ENTITY manageCerts3.label "Ardeiñ an testenioù S/MIME">
 <!ENTITY manageCerts3.accesskey "M">
 <!ENTITY manageDevices2.accesskey "y">
-
 <!ENTITY technologySMIME.label "Privilajiñ S/MIME">
 <!ENTITY technologyOpenPGP.label "Privilajiñ OpenPGP">
-
 <!ENTITY openpgpKeys.label "OpenPGP">
-
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Diuzañ un testeni">
-<!ENTITY certPicker.info  "Testeni:">
+<!ENTITY certPicker.info "Testeni:">
 <!ENTITY certPicker.detailsLabel "Munudoù an testeni bet diuzet:">
-
 <!ENTITY openpgpKey.accesskey "o">

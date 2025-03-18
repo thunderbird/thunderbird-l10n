@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "I">
 <!ENTITY chooseFileLinkButton.label "Izvēlieties failu...">
 <!ENTITY chooseFileLinkButton.accessKey "f">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Ievadiet tīmekļa lapas atrašanās vietu, vietējo failu, vai izvēlieties nosauktu enkuru vai virsrakstu no lauka konteksta izvēlnes:">
 <!ENTITY LinkURLEditField2.accessKey "t">

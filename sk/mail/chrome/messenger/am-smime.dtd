@@ -4,11 +4,8 @@
 
 <!ENTITY e2eTitle.label "Obojstranné šifrovanie">
 <!ENTITY e2eLearnMore.label "Ďalšie informácie">
-
 <!ENTITY e2eEnc.description "Bez obojstranného šifrovania bude obsah správ ľahko vystavený vášmu poskytovateľovi e‑mailov a hromadnému sledovaniu.">
-
 <!ENTITY e2eTechPref.description "Uprednostnená technológia šifrovania:">
-
 <!ENTITY encryptionCert2.message "Osobný certifikát na šifrovanie:">
 <!ENTITY digitalSign.certificate.button "Vybrať…">
 <!ENTITY digitalSign.certificate.accesskey "b">
@@ -20,27 +17,20 @@
 <!ENTITY encryption.certificate_clear.accesskey "m">
 <!ENTITY signingGroupTitle.label "Digitálne podpisovanie">
 <!ENTITY signingCert2.message "Osobný certifikát pre digitálne podpisovanie:">
-
 <!ENTITY sendingDefaults.label "Predvolené nastavenia pre odosielanie správ">
-
 <!ENTITY technologyAutomatic.label "Vybrať automaticky na základe dostupných kľúčov alebo certifikátov">
-
 <!ENTITY certificates2.label "S/MIME">
 <!ENTITY manageCerts3.label "Spravovať S/MIME certifikáty">
 <!ENTITY manageCerts3.accesskey "S">
 <!ENTITY manageDevices2.label "S/MIME bezpečnostné zariadenia">
 <!ENTITY manageDevices2.accesskey "b">
-
 <!ENTITY technologySMIME.label "Preferovať S/MIME">
 <!ENTITY technologyOpenPGP.label "Preferovať OpenPGP">
-
 <!ENTITY openpgpKeys.label "OpenPGP">
-
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Vyberte certifikát">
-<!ENTITY certPicker.info  "Certifikát:">
+<!ENTITY certPicker.info "Certifikát:">
 <!ENTITY certPicker.detailsLabel "Podrobnosti vybraného certifikátu:">
-
 <!ENTITY openpgpKey.message "Osobný kľúč na šifrovanie a digitálne podpisovanie:">
 <!ENTITY openpgpKey.button "Nastaviť osobný kľúč…">
 <!ENTITY openpgpKey.accesskey "o">

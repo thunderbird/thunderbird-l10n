@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Աւգտագործել նախընտրելի գոյներ.">
 <!ENTITY customColorsRadio.accessKey "Ն">
 <!ENTITY customColorsRadio.tooltip "Այս գունային կարգաւորումները անտեսում են դիտողի դիտարկիչի կարգաւորումները">
-
 <!ENTITY normalText.label "Նորմալ գրոյթ">
 <!ENTITY normalText.accessKey "Ն">
 <!ENTITY linkText.label "Յղման տեքստ">

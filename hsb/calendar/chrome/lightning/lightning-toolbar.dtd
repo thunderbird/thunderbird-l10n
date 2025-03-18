@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Protyka">
-<!ENTITY lightning.toolbar.calendar.tooltip   "K protykowemu rajtarkej přepinać">
+<!ENTITY lightning.toolbar.calendar.label "Protyka">
+<!ENTITY lightning.toolbar.calendar.tooltip "K protykowemu rajtarkej přepinać">
 <!ENTITY lightning.toolbar.calendar.accesskey "P">
-<!ENTITY lightning.toolbar.task.label         "Nadawki">
-<!ENTITY lightning.toolbar.task.tooltip       "K nadawkowemu rajtarkej přepinać">
-<!ENTITY lightning.toolbar.task.accesskey     "N">
-
+<!ENTITY lightning.toolbar.task.label "Nadawki">
+<!ENTITY lightning.toolbar.task.tooltip "K nadawkowemu rajtarkej přepinać">
+<!ENTITY lightning.toolbar.task.accesskey "N">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Dźeń">
-<!ENTITY lightning.toolbar.day.accesskey             "D">
-<!ENTITY lightning.toolbar.week.label                "Tydźeń">
-<!ENTITY lightning.toolbar.week.accesskey            "T">
-<!ENTITY lightning.toolbar.multiweek.label           "Multitydźeń">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "u">
-<!ENTITY lightning.toolbar.month.label               "Měsac">
-<!ENTITY lightning.toolbar.month.accesskey           "M">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Protykowy wobłuk">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "w">
-<!ENTITY lightning.toolbar.calendarpane.label        "Protykowy wobłuk pokazać">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "w">
+<!ENTITY lightning.toolbar.day.label "Dźeń">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "Tydźeń">
+<!ENTITY lightning.toolbar.week.accesskey "T">
+<!ENTITY lightning.toolbar.multiweek.label "Multitydźeń">
+<!ENTITY lightning.toolbar.multiweek.accesskey "u">
+<!ENTITY lightning.toolbar.month.label "Měsac">
+<!ENTITY lightning.toolbar.month.accesskey "M">
+<!ENTITY lightning.toolbar.calendarmenu.label "Protykowy wobłuk">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "w">
+<!ENTITY lightning.toolbar.calendarpane.label "Protykowy wobłuk pokazać">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "w">

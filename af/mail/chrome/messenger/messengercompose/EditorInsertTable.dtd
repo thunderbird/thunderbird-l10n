@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Voeg tabel in">
-
 <!ENTITY size.label "Grootte">
 <!ENTITY numRowsEditField.label "Rye:">
 <!ENTITY numRowsEditField.accessKey "R">

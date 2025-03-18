@@ -5,16 +5,13 @@
 <!ENTITY window.title "Правілы фільтравання">
 <!ENTITY filterName.label "Імя фільтру:">
 <!ENTITY filterName.accesskey "м">
-
 <!ENTITY junk.label "Спам">
 <!ENTITY notJunk.label "Не спам">
-
 <!ENTITY lowestPriorityCmd.label "Найніжэйшы">
 <!ENTITY lowPriorityCmd.label "Нізкі">
 <!ENTITY normalPriorityCmd.label "Звычайны">
 <!ENTITY highPriorityCmd.label "Высокі">
 <!ENTITY highestPriorityCmd.label "Найвышэйшы">
-
 <!ENTITY contextDesc.label "Ужываць фільтр пры:">
 <!ENTITY contextIncomingMail.label "Атрыманні новай пошты:">
 <!ENTITY contextIncomingMail.accesskey "А">
@@ -26,13 +23,10 @@
 <!ENTITY contextOutgoing.accesskey "П">
 <!ENTITY contextArchive.label "Архіваванні">
 <!ENTITY contextArchive.accesskey "А">
-
 <!ENTITY filterActionDesc.label "Выканаць гэтыя дзеянні:">
 <!ENTITY filterActionDesc.accesskey "В">
-
 <!ENTITY filterActionOrderWarning.label "Заўвага: дзеянні фільтру будуць выконвацца ў іншым парадку.">
 <!ENTITY filterActionOrder.label "Праглядзець парадак выканання">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Перамясціць паведамленне ў">
 <!ENTITY copyMessage.label "Капіяваць паведамленне ў">
@@ -51,15 +45,12 @@
 <!ENTITY ignoreSubthread.label "Ігнараваць галіну абмеркавання">
 <!ENTITY watchThread.label "Сачыць за абмеркаваннем">
 <!ENTITY stopExecution.label "Спыніць выкананне фільтру">
-
 <!ENTITY addAction.tooltip "Дадаць новае дзеянне">
 <!ENTITY removeAction.tooltip "Выдаліць гэта дзеянне">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

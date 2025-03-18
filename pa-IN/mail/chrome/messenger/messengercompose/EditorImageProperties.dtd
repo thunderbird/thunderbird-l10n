@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "ਚਿੱਤਰ ਵਿਸ਼ੇਸ਼ਤਾ">
-
 <!ENTITY pixelsPopup.value "ਪਿਕਸਲ">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "ਚਿੱਤਰ ਸਥਿਤੀ:">
 <!ENTITY locationEditField.accessKey "L">
@@ -21,11 +19,9 @@
 <!ENTITY altTextEditField.tooltip "ਚਿੱਤਰ ਦੀ ਥਾਂ ਤੇ ਵੇਖਾਉਣ ਲਈ ਟੈਕਸਟ ਦਿਓ">
 <!ENTITY noAltText.label "ਬਦਲਵਾਂ ਟੈਕਸਟ ਨਾ ਇਸਤੇਮਾਲ ਕਰੋ">
 <!ENTITY noAltText.accessKey "D">
-
 <!ENTITY previewBox.label "ਚਿੱਤਰ ਝਲਕ">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "ਅਸਲੀ ਆਕਾਰ:">
 <!ENTITY actualSizeRadio.label "ਅਸਲੀ ਆਕਾਰ">
 <!ENTITY actualSizeRadio.accessKey "A">
@@ -40,12 +36,10 @@
 <!ENTITY constrainCheckbox.label "ਸੀਮਾ">
 <!ENTITY constrainCheckbox.accessKey "C">
 <!ENTITY constrainCheckbox.tooltip "ਚਿੱਤਰ ਦਾ ਆਕਾਰ ਅਨੁਪਾਤ ਰੱਖੋ">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "ਚਿੱਤਰ ਖਾਕਾ">
 <!ENTITY removeImageMapButton.label "ਹਟਾਓ">
 <!ENTITY removeImageMapButton.accessKey "R">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "ਚਿੱਤਰ ਅਤੇ ਪਾਠ ਇਕਸਾਰ">
 <!ENTITY bottomPopup.value "ਹੇਠਾਂ">
@@ -53,7 +47,6 @@
 <!ENTITY centerPopup.value "ਕੇਂਦਰ ਵਿੱਚ">
 <!ENTITY wrapRightPopup.value "ਸੱਜੇ ਸਮੇਟੋ">
 <!ENTITY wrapLeftPopup.value "ਖੱਬੇ ਸਮੇਟੋ">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "ਖਾਲੀ ਥਾਂ">
 <!ENTITY leftRightEditField.label "ਖੱਬੇ ਤੇ ਸੱਜੇ:">
@@ -62,14 +55,12 @@
 <!ENTITY topBottomEditField.accessKey "T">
 <!ENTITY borderEditField.label "ਗੂੜਾ ਹਾਸ਼ੀਆ:">
 <!ENTITY borderEditField.accessKey "B">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "ਲਿੰਕ ਚਿੱਤਰ ਦੁਆਲੇ ਚਿੱਤਰ ਦਿਓ">
 <!ENTITY showImageLinkBorder.accessKey "B">
 <!ENTITY LinkAdvancedEditButton.label "Link Advanced Edit…">
 <!ENTITY LinkAdvancedEditButton.accessKey "L">
 <!ENTITY LinkAdvancedEditButton.tooltip "Add or modify HTML attributes, style attributes, and JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "ਫਾਰਮ">
 <!ENTITY imageLocationTab.label "ਸਥਿਤੀ">

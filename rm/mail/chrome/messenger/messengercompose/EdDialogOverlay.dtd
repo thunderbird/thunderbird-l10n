@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "T">
 <!ENTITY chooseFileLinkButton.label "Tscherner datoteca…">
 <!ENTITY chooseFileLinkButton.accessKey "T">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Endatescha ina adressa web, il num dad ina datoteca locala u tscherna ina ancra cun num u in chau-pagina dal menu contextual dal champ:">
 <!ENTITY LinkURLEditField2.accessKey "w">

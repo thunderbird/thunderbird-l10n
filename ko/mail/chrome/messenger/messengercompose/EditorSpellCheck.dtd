@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "맞춤법 검사">
-
 <!ENTITY misspelledWord.label "맞춤법이 틀린 단어:">
 <!ENTITY wordEditField.label "바꿀 단어:">
 <!ENTITY wordEditField.accessKey "w">

@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Проверка на правописа">
-
 <!ENTITY misspelledWord.label "Сгрешени думи:">
 <!ENTITY wordEditField.label "Замяна с:">
 <!ENTITY wordEditField.accessKey "с">

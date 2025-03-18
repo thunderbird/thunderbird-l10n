@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "清單屬性">
-
 <!ENTITY ListType.label "清單(List)型式:">
 <!ENTITY bulletStyle.label "項目符號樣式:">
 <!ENTITY startingNumber.label "開始編號:">

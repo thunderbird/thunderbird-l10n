@@ -3,30 +3,26 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
-
-<!ENTITY fileMenu.label          "Failas">
-<!ENTITY fileMenu.accesskey        "F">
-<!ENTITY newMenu.label            "Naujas">
-<!ENTITY newMenu.accesskey          "N">
-
-<!ENTITY editMenu.label          "Taisa">
-<!ENTITY editMenu.accesskey        "T">
-<!ENTITY undoCmd.label            "Atšaukti">
-<!ENTITY undoCmd.accesskey          "A">
-<!ENTITY redoCmd.label            "Atstatyti">
-<!ENTITY redoCmd.accesskey          "s">
-<!ENTITY deleteCmd.label          "Pašalinti">
-<!ENTITY deleteCmd.accesskey        "š">
+<!ENTITY fileMenu.label "Failas">
+<!ENTITY fileMenu.accesskey "F">
+<!ENTITY newMenu.label "Naujas">
+<!ENTITY newMenu.accesskey "N">
+<!ENTITY editMenu.label "Taisa">
+<!ENTITY editMenu.accesskey "T">
+<!ENTITY undoCmd.label "Atšaukti">
+<!ENTITY undoCmd.accesskey "A">
+<!ENTITY redoCmd.label "Atstatyti">
+<!ENTITY redoCmd.accesskey "s">
+<!ENTITY deleteCmd.label "Pašalinti">
+<!ENTITY deleteCmd.accesskey "š">
 <!ENTITY customizeCmd.label "Tinkinimas">
 <!ENTITY customizeCmd.accesskey "t">
-
-<!ENTITY viewMenu.label          "Rodymas">
-<!ENTITY viewMenu.accesskey        "R">
-<!ENTITY viewToolbarsMenu.label        "Priemonių juostos">
-<!ENTITY viewToolbarsMenu.accesskey      "j">
-<!ENTITY showTaskbarCmd.label          "Būsenos">
-<!ENTITY showTaskbarCmd.accesskey        "B">
-
-<!ENTITY closeCmd.label      "Užverti">
-<!ENTITY closeCmd.key      "W">
-<!ENTITY closeCmd.accesskey    "U">
+<!ENTITY viewMenu.label "Rodymas">
+<!ENTITY viewMenu.accesskey "R">
+<!ENTITY viewToolbarsMenu.label "Priemonių juostos">
+<!ENTITY viewToolbarsMenu.accesskey "j">
+<!ENTITY showTaskbarCmd.label "Būsenos">
+<!ENTITY showTaskbarCmd.accesskey "B">
+<!ENTITY closeCmd.label "Užverti">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.accesskey "U">

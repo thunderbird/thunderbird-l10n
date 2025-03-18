@@ -8,7 +8,6 @@
 <!ENTITY author.label "Ameskar">
 <!ENTITY organizationField4.label "Takebbanit">
 <!ENTITY replyToField4.label "Err i">
-
 <!ENTITY subjectField4.label "Asentel">
 <!ENTITY ccField4.label "Anɣ-i">
 <!ENTITY bccField4.label "Anɣ.Uff.I">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Asulay n yizen">
 <!ENTITY inReplyToField4.label "Di tririt i">
 <!ENTITY originalWebsite4.label "Asmel web">
-
 <!ENTITY hdrArchiveButton1.label "Aɣbaṛ">
 <!ENTITY hdrArchiveButton1.tooltip "Ḥrez izen-agi">
 <!ENTITY hdrSmartReplyButton1.label "Tiririt s tigzi">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Creḍ izen-agi d aspam">
 <!ENTITY hdrTrashButton1.label "Kkes">
 <!ENTITY hdrTrashButton1.tooltip "Kkes izen-agi">
-
 <!ENTITY hdrViewToolbarShowFull.label "Sken tiginitin akked uḍris">
 <!ENTITY hdrViewToolbarShowFull.accesskey "ḍ">
 <!ENTITY hdrViewToolbarShowIcons.label "Sken kan tignitin">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "r">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Skan yal tikelt Err i umazan">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "a">
-
 <!ENTITY otherActionsButton2.label "Ugar">
 <!ENTITY otherActionsButton.tooltip "Ugar n tigawin">
 <!ENTITY otherActionsOpenConversation1.label "Ldi deg udiwenni">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "ɣ">
 <!ENTITY otherActionsPrint1.label "Siggez…">
 <!ENTITY otherActionsPrint1.accesskey "S">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Sken di tazwara agalis n imeddayen">
-<!ENTITY startExpandedCmd.accesskey    "g">
-
+<!ENTITY startExpandedCmd.label "Sken di tazwara agalis n imeddayen">
+<!ENTITY startExpandedCmd.accesskey "g">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Ldi">
-<!ENTITY openAttachmentCmd.accesskey    "L">
-<!ENTITY saveAsAttachmentCmd.label    "Sekles s yisem…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "k">
-<!ENTITY detachAttachmentCmd.label    "Kkes aseddu…">
-<!ENTITY detachAttachmentCmd.accesskey    "d">
-<!ENTITY deleteAttachmentCmd.label    "Kkes">
-<!ENTITY deleteAttachmentCmd.accesskey    "K">
-<!ENTITY openAllAttachmentsCmd.label    "Ldi Merra…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "L">
-<!ENTITY saveAllAttachmentsCmd.label    "Sekles akk…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "k">
-<!ENTITY detachAllAttachmentsCmd.label    "Kkes akk imeddayen…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "k">
-<!ENTITY deleteAllAttachmentsCmd.label    "Kkes akk…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "s">
-
+<!ENTITY openAttachmentCmd.label "Ldi">
+<!ENTITY openAttachmentCmd.accesskey "L">
+<!ENTITY saveAsAttachmentCmd.label "Sekles s yisem…">
+<!ENTITY saveAsAttachmentCmd.accesskey "k">
+<!ENTITY detachAttachmentCmd.label "Kkes aseddu…">
+<!ENTITY detachAttachmentCmd.accesskey "d">
+<!ENTITY deleteAttachmentCmd.label "Kkes">
+<!ENTITY deleteAttachmentCmd.accesskey "K">
+<!ENTITY openAllAttachmentsCmd.label "Ldi Merra…">
+<!ENTITY openAllAttachmentsCmd.accesskey "L">
+<!ENTITY saveAllAttachmentsCmd.label "Sekles akk…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "k">
+<!ENTITY detachAllAttachmentsCmd.label "Kkes akk imeddayen…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "k">
+<!ENTITY deleteAllAttachmentsCmd.label "Kkes akk…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "s">
 <!ENTITY openAttachment.tooltip "Ldi tasawit yernan">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Ldi akaram igebren afaylu">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "K">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Sken-d di Finder">
+<!ENTITY detachedAttachmentFolder.show.label "Ldi akaram igebren afaylu">
+<!ENTITY detachedAttachmentFolder.show.accesskey "K">
+<!ENTITY detachedAttachmentFolder.showMac.label "Sken-d di Finder">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Sekles">
-<!ENTITY saveAttachmentButton1.tooltip     "Sekles afaylu i d-yeddan">
-<!ENTITY saveAllAttachmentsButton1.label   "Sekles akk">
+<!ENTITY saveAttachmentButton1.label "Sekles">
+<!ENTITY saveAttachmentButton1.tooltip "Sekles afaylu i d-yeddan">
+<!ENTITY saveAllAttachmentsButton1.label "Sekles akk">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Sekles akk ifuyla i d-yeddan">
-
-<!ENTITY copyLinkCmd.label        "Nɣel tansa n useɣwen">
-<!ENTITY copyLinkCmd.accesskey    "N">
-
+<!ENTITY copyLinkCmd.label "Nɣel tansa n useɣwen">
+<!ENTITY copyLinkCmd.accesskey "N">
 <!ENTITY CopyMessageId.label "Nɣel asulay n yizen">
 <!ENTITY CopyMessageId.accesskey "N">
 <!ENTITY OpenMessageForMsgId.label "Ldi izen i wesulay">

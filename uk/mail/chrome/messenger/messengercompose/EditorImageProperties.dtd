@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Властивості зображення">
-
 <!ENTITY pixelsPopup.value "пікселів">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Адреса зображення:">
 <!ENTITY locationEditField.accessKey "А">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Введіть текст, що показується на місці зображення">
 <!ENTITY noAltText.label "Не використовувати альтернативний текст">
 <!ENTITY noAltText.accessKey "Н">
-
 <!ENTITY previewBox.label "Попередній перегляд зображення">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Дійсний розмір:">
 <!ENTITY actualSizeRadio.label "Дійсний розмір">
 <!ENTITY actualSizeRadio.accessKey "о">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Дотримувати пропорції">
 <!ENTITY constrainCheckbox.accessKey "Д">
 <!ENTITY constrainCheckbox.tooltip "Дотримувати пропорції при зміні розміру зображення">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Карта зображення">
 <!ENTITY removeImageMapButton.label "Прибрати">
 <!ENTITY removeImageMapButton.accessKey "П">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Розташування тексту по відношенню до зображення">
 <!ENTITY bottomPopup.value "Внизу">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "По центру">
 <!ENTITY wrapRightPopup.value "Вліво, оточити текстом справа">
 <!ENTITY wrapLeftPopup.value "Управо, оточити текстом зліва">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Поля">
 <!ENTITY leftRightEditField.label "Зліва і справа:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "в">
 <!ENTITY borderEditField.label "Суцільна межа:">
 <!ENTITY borderEditField.accessKey "ц">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Показувати межу навколо зображення, що містить посилання">
 <!ENTITY showImageLinkBorder.accessKey "м">
 <!ENTITY LinkAdvancedEditButton.label "Посилання додаткового редагування…">
 <!ENTITY LinkAdvancedEditButton.accessKey "г">
 <!ENTITY LinkAdvancedEditButton.tooltip "Додати або змінити атрибути HTML, атрибути стилю, та JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Форма">
 <!ENTITY imageLocationTab.label "Адреса">

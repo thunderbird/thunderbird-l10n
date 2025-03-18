@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "Alıntı olarak yapıştır">
 <!ENTITY pasteAsQuotationCmd.accesskey "n">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Ekle">
 <!ENTITY insertMenu.accesskey "E">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "K">
 <!ENTITY insertBreakAllCmd.label "Resimlerin altına satır ekle">
 <!ENTITY insertBreakAllCmd.accesskey "s">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Bağlantı oluştur…">
 <!ENTITY createLinkCmd.accesskey "B">
 <!ENTITY editLinkCmd.label "Bağlantıyı yeni düzenleyicide düzenle">
 <!ENTITY editLinkCmd.accesskey "i">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Yazı tipi seç">
 <!ENTITY fontfaceMenu.label "Yazı tipi">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Yazı tipi boyutu seç">
 <!ENTITY decreaseFontSize.label "Daha küçük">
 <!ENTITY decreaseFontSize.accesskey "h">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "Daha büyük">
 <!ENTITY increaseFontSize.accesskey "b">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "Boyut">
 <!ENTITY fontSizeMenu.accesskey "B">
 <!ENTITY size-tinyCmd.label "Çok küçük">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "k">
 <!ENTITY size-hugeCmd.label "Kocaman">
 <!ENTITY size-hugeCmd.accesskey "m">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Metin biçemi">
 <!ENTITY fontStyleMenu.accesskey "e">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "n">
 <!ENTITY styleVar.label "Değişken">
 <!ENTITY styleVar.accesskey "e">
-
 <!ENTITY formatFontColor.label "Metin rengi…">
 <!ENTITY formatFontColor.accesskey "i">
 <!ENTITY tableOrCellColor.label "Tablo veya hücre zemin rengi…">
 <!ENTITY tableOrCellColor.accesskey "T">
-
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "Adlandırılmış çıpaları kaldır">
 <!ENTITY formatRemoveNamedAnchors.accesskey "d">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
-
 <!ENTITY paragraphMenu.label "Paragraf">
 <!ENTITY paragraphMenu.accesskey "P">
 <!ENTITY paragraphParagraphCmd.label "Paragraf">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "A">
 <!ENTITY paragraphPreformatCmd.label "Ön biçimleme">
 <!ENTITY paragraphPreformatCmd.accesskey "Ö">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Liste">
 <!ENTITY formatlistMenu.accesskey "L">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "a">
 <!ENTITY listPropsCmd.label "Liste özellikleri…">
 <!ENTITY listPropsCmd.accesskey "L">
-
 <!ENTITY ParagraphSelect.tooltip "Paragraf biçimi seç">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Gövde metni">
 <!ENTITY bodyTextCmd.accesskey "M">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Hizala">
 <!ENTITY alignMenu.accesskey "H">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "Yasla">
 <!ENTITY alignJustify.accesskey "Y">
 <!ENTITY alignJustify.tooltip "İki yana yasla">
-
 <!ENTITY increaseIndent.label "Girintiyi artır">
 <!ENTITY increaseIndent.accesskey "r">
 <!ENTITY increaseIndent.key "ü">
 <!ENTITY decreaseIndent.label "Girintiyi azalt">
 <!ENTITY decreaseIndent.accesskey "z">
 <!ENTITY decreaseIndent.key "ğ">
-
 <!ENTITY colorsAndBackground.label "Sayfa renkleri ve zemin…">
 <!ENTITY colorsAndBackground.accesskey "Z">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Tablo">
 <!ENTITY tableMenu.accesskey "T">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Seç">
 <!ENTITY tableSelectMenu.accesskey "S">
-
 <!ENTITY tableSelectMenu2.label "Tablo seç">
 <!ENTITY tableSelectMenu2.accesskey "S">
 <!ENTITY tableInsertMenu2.label "Tablo ekle">
 <!ENTITY tableInsertMenu2.accesskey "e">
 <!ENTITY tableDeleteMenu2.label "Tablo Sil">
 <!ENTITY tableDeleteMenu2.accesskey "l">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Ekle">
 <!ENTITY tableInsertMenu.accesskey "E">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Sil">
 <!ENTITY tableDeleteMenu.accesskey "S">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "ü">
 <!ENTITY tableJoinCells.accesskey "ü">
 <!ENTITY tableSplitCell.label "Hücreyi böl">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "S">
 <!ENTITY tableProperties.label "Tablo özellikleri…">
 <!ENTITY tableProperties.accesskey "b">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Resim">
 <!ENTITY imageToolbarCmd.tooltip "Yeni bir resim ekle veya seçili resmin özelliklerini düzenle">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Yeni bir adlandırılmış çıpa ekle veya seçili çıpanın özelliklerini düzenle">
 <!ENTITY TextColorButton.tooltip "Metin rengini seç">
 <!ENTITY BackgroundColorButton.tooltip "Arka plan rengini seç">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "Yazı tipi boyutunu ayarla">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Daha küçük yazı tipi boyutu">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "Metni ortala">
 <!ENTITY alignRightButton.tooltip "Metni sağ kenara hizala">
 <!ENTITY alignJustifyButton.tooltip "Metni sol ve sağ kenarlar boyunca hizala">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Ekle">
-<!ENTITY insertTOC.accesskey      "E">
-<!ENTITY updateTOC.label          "Güncelle">
-<!ENTITY updateTOC.accesskey      "G">
-<!ENTITY removeTOC.label          "Kaldır">
-<!ENTITY removeTOC.accesskey      "K">
-<!ENTITY tocMenu.label            "İçindekiler…">
-<!ENTITY tocMenu.accesskey        "k">
+<!ENTITY insertTOC.label "Ekle">
+<!ENTITY insertTOC.accesskey "E">
+<!ENTITY updateTOC.label "Güncelle">
+<!ENTITY updateTOC.accesskey "G">
+<!ENTITY removeTOC.label "Kaldır">
+<!ENTITY removeTOC.accesskey "K">
+<!ENTITY tocMenu.label "İçindekiler…">
+<!ENTITY tocMenu.accesskey "k">

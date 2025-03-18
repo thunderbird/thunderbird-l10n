@@ -2,8 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from MsgSynchronize.xhtml and msgSelectOfflineFolders.xhtml-->
-
+<!-- extracted from MsgSynchronize.xhtml and msgSelectOfflineFolders.xhtml -->
 <!ENTITY MsgSynchronize.label "Ներբեռնել եւ համաժամեցնել հաղորդագրութիւնները">
 <!ENTITY MsgSelect.label "Տարրեր անցնանց աւգտագործման համար">
 <!ENTITY MsgSyncDesc.label "Եթե դուք արդէն ընտրել էք փոստային պանակներ կամ տեղեկատուախմբեր անցանց աւգտագործման համար, կարող էք ներբեռնել եւ/կամ համաժամեցնել դրանք հիմա: Հակառակ դէպքում աւգտագործէք &quot; ընտրէք&quot; կոճակը` ընտրելու փոստային պանակներ եւ տեղեկատուախմբեր՝ անցանց աւգտագործման համար:">

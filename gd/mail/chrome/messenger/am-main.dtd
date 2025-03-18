@@ -34,14 +34,11 @@
 <!-- LOCALIZATION NOTE (attachVCard.label) : do not translate "vCard" in below line -->
 <!ENTITY attachVCard.label "Cuir am vCard agam ri teachdaireachdan">
 <!ENTITY attachVCard.accesskey "v">
-
 <!ENTITY manageIdentities.label "Rianaich na dearbh-aithnean…">
 <!ENTITY manageIdentities.accesskey "R">
-
 <!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
 <!ENTITY smtpName.label "Frithealaiche a-mach (SMTP):">
 <!ENTITY smtpName.accesskey "F">
 <!ENTITY smtpDefaultServer.label "Cleachd am frithealaiche bunaiteach">
-
 <!ENTITY smtpServerEdit.label "Deasaich am frithealaiche SMTP…">
 <!ENTITY smtpServerEdit.accesskey "P">

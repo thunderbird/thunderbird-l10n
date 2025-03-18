@@ -5,16 +5,13 @@
 <!ENTITY window.title "Rialacha Scagtha">
 <!ENTITY filterName.label "Ainm an scagaire:">
 <!ENTITY filterName.accesskey "i">
-
 <!ENTITY junk.label "Dramhphost">
 <!ENTITY notJunk.label "Post Ceart">
-
 <!ENTITY lowestPriorityCmd.label "Is Ísle">
 <!ENTITY lowPriorityCmd.label "Íseal">
 <!ENTITY normalPriorityCmd.label "Gnách">
 <!ENTITY highPriorityCmd.label "Ard">
 <!ENTITY highestPriorityCmd.label "Is Airde">
-
 <!ENTITY contextDesc.label "Cuir an scagaire seo i bhfeidhm agus:">
 <!ENTITY contextIncomingMail.label "Ríomhphost Nua á Fháil:">
 <!ENTITY contextIncomingMail.accesskey "F">
@@ -26,13 +23,10 @@
 <!ENTITY contextOutgoing.accesskey "s">
 <!ENTITY contextArchive.label "Cartlannú">
 <!ENTITY contextArchive.accesskey "C">
-
 <!ENTITY filterActionDesc.label "Déan na gníomhartha seo:">
 <!ENTITY filterActionDesc.accesskey "g">
-
 <!ENTITY filterActionOrderWarning.label "Nóta: Cuirfear na scagairí i bhfeidhm in ord difriúil.">
 <!ENTITY filterActionOrder.label "Féach ar ord curtha i bhfeidhm">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Bog an teachtaireacht go">
 <!ENTITY copyMessage.label "Cóipeáil an teachtaireacht go">
@@ -51,15 +45,12 @@
 <!ENTITY ignoreSubthread.label "Tabhair Neamhaird ar an bhFoshnáithe">
 <!ENTITY watchThread.label "Bí ag Faire ar an Snáithe">
 <!ENTITY stopExecution.label "Stop rith an scagaire">
-
 <!ENTITY addAction.tooltip "Cuir gníomh nua leis">
 <!ENTITY removeAction.tooltip "Bain an gníomh seo">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "11">
 <!ENTITY filterActionTargetFlexValue "4">

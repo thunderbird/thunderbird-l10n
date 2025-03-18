@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Saját szótár">
-
 <!ENTITY wordEditField.label "Új szó:">
 <!ENTITY wordEditField.accessKey "Ú">
 <!ENTITY AddButton.label "Hozzáadás">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "S">
 <!ENTITY RemoveButton.label "Eltávolítás">
 <!ENTITY RemoveButton.accessKey "E">
-
 <!ENTITY CloseButton.label "Bezárás">
 <!ENTITY CloseButton.accessKey "B">

@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Propiedaes de la imaxe">
-
 <!ENTITY pixelsPopup.value "píxeles">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "URL de la imaxe:">
 <!ENTITY locationEditField.accessKey "L">
@@ -21,11 +19,9 @@
 <!ENTITY altTextEditField.tooltip "Escribi'l testu a amosar en cuenta de la imaxe">
 <!ENTITY noAltText.label "Nun usar testu alternativu">
 <!ENTITY noAltText.accessKey "n">
-
 <!ENTITY previewBox.label "Vista preliminar">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Tamañu real:">
 <!ENTITY actualSizeRadio.label "Tamañu real">
 <!ENTITY actualSizeRadio.accessKey "A">
@@ -40,12 +36,10 @@
 <!ENTITY constrainCheckbox.label "Caltener aspeutu">
 <!ENTITY constrainCheckbox.accessKey "C">
 <!ENTITY constrainCheckbox.tooltip "Caltener la proporción nel aspeutu de la imaxe">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Mapa d'imaxe">
 <!ENTITY removeImageMapButton.label "Desaniciar">
 <!ENTITY removeImageMapButton.accessKey "D">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Alliniar el testu cola imaxe">
 <!ENTITY bottomPopup.value "Na parte inferior">
@@ -53,7 +47,6 @@
 <!ENTITY centerPopup.value "Nel centru">
 <!ENTITY wrapRightPopup.value "El testu flúi pela derecha">
 <!ENTITY wrapLeftPopup.value "El testu flúi pela izquierda">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Espaciu">
 <!ENTITY leftRightEditField.label "Izquierda y derecha:">
@@ -62,14 +55,12 @@
 <!ENTITY topBottomEditField.accessKey "T">
 <!ENTITY borderEditField.label "Berbesu sólidu:">
 <!ENTITY borderEditField.accessKey "B">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Amosar el berbesu alredor de la imaxe-enllaz">
 <!ENTITY showImageLinkBorder.accessKey "B">
 <!ENTITY LinkAdvancedEditButton.label "Edición avanzada del enllaz…">
 <!ENTITY LinkAdvancedEditButton.accessKey "E">
 <!ENTITY LinkAdvancedEditButton.tooltip "Amiesta o modifica atributos HTML, atributos d'estilu y JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Formulariu">
 <!ENTITY imageLocationTab.label "Llocalización">

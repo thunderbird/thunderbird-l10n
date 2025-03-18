@@ -29,12 +29,12 @@ button-finish = Dokončiť
 
 app-name-thunderbird =
     { $case ->
-       *[nom] Thunderbird
         [gen] Thunderbirdu
         [dat] Thunderbirdu
         [acc] Thunderbird
         [loc] Thunderbirde
         [ins] Thunderbirdom
+       *[nom] Thunderbird
     }
 app-name-seamonkey = SeaMonkey
 app-name-outlook = Outlook

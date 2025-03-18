@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "სურათის პარამეტრები">
-
 <!ENTITY pixelsPopup.value "პიქსელი">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "სურათის მისამართი:">
 <!ENTITY locationEditField.accessKey "მ">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "სურათის ნაცვლად გამოსაჩენი ტექსტი">
 <!ENTITY noAltText.label "ტექსტის დართვის გარეშე">
 <!ENTITY noAltText.accessKey "გ">
-
 <!ENTITY previewBox.label "სურათის შეთვალიერება">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "საწყისი ზომა:">
 <!ENTITY actualSizeRadio.label "საწყისი ზომა">
 <!ENTITY actualSizeRadio.accessKey "ს">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "ფარდობა">
 <!ENTITY constrainCheckbox.accessKey "ო">
 <!ENTITY constrainCheckbox.tooltip "სურათის გვერდების ფარდობის შენარჩუნება">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "სურათის რუკა">
 <!ENTITY removeImageMapButton.label "მოცილება">
 <!ENTITY removeImageMapButton.accessKey "ც">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "ტექსტის გასწორება სურათის მიმართ">
 <!ENTITY bottomPopup.value "ქვემოდან">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "ცენტრში">
 <!ENTITY wrapRightPopup.value "მარჯვნიდან">
 <!ENTITY wrapLeftPopup.value "მარცხნიდან">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "დაცილება">
 <!ENTITY leftRightEditField.label "მარცხნივ და მარჯვნივ :">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "ზ">
 <!ENTITY borderEditField.label "სავსე ჩარჩო:">
 <!ENTITY borderEditField.accessKey "ჩ">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "ჩარჩოს ჩვენება მიბმული სურათის გარშემო">
 <!ENTITY showImageLinkBorder.accessKey "ჩ">
 <!ENTITY LinkAdvancedEditButton.label "ბმულის ჩასწორება ვრცლად…">
 <!ENTITY LinkAdvancedEditButton.accessKey "ვ">
 <!ENTITY LinkAdvancedEditButton.tooltip "HTML ან სტილის ატრიბუტებისა და JavaScript-ის დამატება ან შეცვლა">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "ფორმა">
 <!ENTITY imageLocationTab.label "მისამართი">

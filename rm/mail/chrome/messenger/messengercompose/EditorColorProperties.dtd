@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Utilisar questas colurs:">
 <!ENTITY customColorsRadio.accessKey "U">
 <!ENTITY customColorsRadio.tooltip "Quests parameters da colur valan, ils parameters dal navigatur dal visitader vegnan ignorads">
-
 <!ENTITY normalText.label "Text normal">
 <!ENTITY normalText.accessKey "n">
 <!ENTITY linkText.label "Text da la colliaziun">

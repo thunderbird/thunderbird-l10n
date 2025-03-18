@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "הכנסת טבלה">
-
 <!ENTITY size.label "גודל">
 <!ENTITY numRowsEditField.label "שורות:">
 <!ENTITY numRowsEditField.accessKey "ש">

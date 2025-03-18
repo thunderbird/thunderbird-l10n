@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "F">
 <!ENTITY chooseFileLinkButton.label "파일 선택…">
 <!ENTITY chooseFileLinkButton.accessKey "o">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "필드 문맥 메뉴에서 페이지의 위치나 로컬 파일, 이름있는 앵커, 헤딩을 입력:">
 <!ENTITY LinkURLEditField2.accessKey "w">

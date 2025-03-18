@@ -3,7 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from EdReplace.xhtml -->
-
 <!ENTITY replaceDialog.title "Trova e sostituisci">
 <!ENTITY findField.label "Trova testo:">
 <!ENTITY findField.accesskey "o">

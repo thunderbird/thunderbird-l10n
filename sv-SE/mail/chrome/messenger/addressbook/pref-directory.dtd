@@ -3,15 +3,15 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (window.title) : do not translate "LDAP" in below line -->
-<!ENTITY pref.ldap.window.title    "LDAP katalogserver">
+<!ENTITY pref.ldap.window.title "LDAP katalogserver">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
-<!ENTITY directories.label         "LDAP katalogserver:">
+<!ENTITY directories.label "LDAP katalogserver:">
 <!-- LOCALIZATION NOTE (directoriesText.label) : do not translate "LDAP" in below line -->
-<!ENTITY directoriesText.label     "Välj LDAP katalogserver:">
+<!ENTITY directoriesText.label "Välj LDAP katalogserver:">
 <!ENTITY directoriesText.accesskey "V">
-<!ENTITY addDirectory.label        "Lägg till">
-<!ENTITY addDirectory.accesskey    "L">
-<!ENTITY editDirectory.label       "Redigera">
-<!ENTITY editDirectory.accesskey   "R">
-<!ENTITY deleteDirectory.label     "Ta bort">
+<!ENTITY addDirectory.label "Lägg till">
+<!ENTITY addDirectory.accesskey "L">
+<!ENTITY editDirectory.label "Redigera">
+<!ENTITY editDirectory.accesskey "R">
+<!ENTITY deleteDirectory.label "Ta bort">
 <!ENTITY deleteDirectory.accesskey "T">

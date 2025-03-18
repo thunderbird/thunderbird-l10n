@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Tamagit">
 <!ENTITY identityDesc.label "Yal amiḍa ɣur-s tamagit yellan d talɣut ara yessinen gar wiyaḍ ticki tremseḍ-d iznan-inek.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Sekcem isem i tebɣiḍ ad d-iban ɣef wurti n &quot;From&quot; n yeznan-inek uffiɣen">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(amedya, &quot;John Smith&quot;).">
 <!ENTITY fullnameLabel.label "Isem-ik:">
 <!ENTITY fullnameLabel.accesskey "s">
-
 <!ENTITY emailLabel.label "Tansa Imayl:">
 <!ENTITY emailLabel.accesskey "n">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Sekcem isem n umiḍan-inek (imedyaten, &quot;Work Account&quot;, &quot;Home Account&quot; neɣ &quot;News Account&quot;).">
 <!ENTITY accnameLabel.label "Isem n umiḍan:">
 <!ENTITY accnameLabel.accesskey "s">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Ayuz!">
 <!ENTITY completionText.label "Ma ulac aɣilif, senqed talɣut daw-agi ma yalla d tameɣtut.">
 <!ENTITY newsServerNamePrefix.label "Isem n uqeddac n isalen (NNTP):">

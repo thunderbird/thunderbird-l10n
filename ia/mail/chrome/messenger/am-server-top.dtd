@@ -16,8 +16,7 @@
 <!-- LOCALIZATION NOTE (biffStart.label) : translate below 2 line with grammar dependency
         For example, in Japanese cases:
                 biffStart.label "every"
-                biffEnd.label   "minutes for new messages Check"
--->
+                biffEnd.label   "minutes for new messages Check" -->
 <!ENTITY biffStart.label "Controlar nove messages cata ">
 <!ENTITY biffStart.accesskey "c">
 <!ENTITY biffEnd.label "minutas">
@@ -57,8 +56,7 @@
 <!ENTITY loginAtStartup.accesskey "C">
 <!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency
     maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
-    of messages between them
--->
+    of messages between them -->
 <!ENTITY maxMessagesStart.label "Me demandar ante discargar plus de">
 <!ENTITY maxMessagesStart.accesskey "M">
 <!-- LOCALIZATION NOTE (maxMessagesEnd.label) : see note for maxMessagesStart.label -->
@@ -79,7 +77,6 @@
 <!ENTITY browseFolder.accesskey "P">
 <!ENTITY browseNewsrc.label "Percurrer…">
 <!ENTITY browseNewsrc.accesskey "e">
-
 <!ENTITY accountTitle.label "Parametros de contos">
 <!ENTITY accountSettingsDesc.label "Le sequente es un conto special.  Illo non ha identitates associate.">
 <!ENTITY storeType.label "Typo de stockage del message:">

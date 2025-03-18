@@ -2,13 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY showAsDefault.label                            "Diretório de inicialização predefinido">
-<!ENTITY showAsDefault.accesskey                        "a">
-
+<!ENTITY showAsDefault.label "Diretório de inicialização predefinido">
+<!ENTITY showAsDefault.accesskey "a">
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label                        "Nome ou e-mail">
-
+<!ENTITY SearchNameOrEmail.label "Nome ou e-mail">
 <!-- Results Pane -->
-<!ENTITY Addrbook.label                                 "Livro de endereços">
-<!ENTITY GeneratedName.label                            "Nome">
-<!ENTITY PrimaryEmail.label                             "Email">
+<!ENTITY Addrbook.label "Livro de endereços">
+<!ENTITY GeneratedName.label "Nome">
+<!ENTITY PrimaryEmail.label "Email">

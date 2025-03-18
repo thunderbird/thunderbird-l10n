@@ -34,14 +34,11 @@
 <!-- LOCALIZATION NOTE (attachVCard.label) : do not translate "vCard" in below line -->
 <!ENTITY attachVCard.label "将我的个人名片附加到消息中">
 <!ENTITY attachVCard.accesskey "v">
-
 <!ENTITY manageIdentities.label "管理标识…">
 <!ENTITY manageIdentities.accesskey "M">
-
 <!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
 <!ENTITY smtpName.label "发件服务器（SMTP）：">
 <!ENTITY smtpName.accesskey "u">
 <!ENTITY smtpDefaultServer.label "使用默认服务器">
-
 <!ENTITY smtpServerEdit.label "编辑 SMTP 服务器…">
 <!ENTITY smtpServerEdit.accesskey "P">

@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Formel einfügen">
-
 <!ENTITY sourceEditField.label "Geben Sie LaTeX-Quelltext ein:">
-
 <!ENTITY options.label "Optionen">
 <!ENTITY optionInline.label "Eingebetteter Modus">
 <!ENTITY optionInline.accesskey "b">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "u">
 <!ENTITY optionRTL.label "Richtung: Von rechts nach links">
 <!ENTITY optionRTL.accesskey "R">
-
 <!ENTITY insertButton.label "Einfügen">
 <!ENTITY insertButton.accesskey "E">

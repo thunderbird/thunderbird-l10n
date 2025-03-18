@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "วางเป็นถ้อยคำอ้างอิง">
 <!ENTITY pasteAsQuotationCmd.accesskey "ป">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "แทรก">
 <!ENTITY insertMenu.accesskey "ท">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "อ">
 <!ENTITY insertBreakAllCmd.label "แบ่งภาพที่อยู่ด้านล่าง">
 <!ENTITY insertBreakAllCmd.accesskey "แ">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "สร้างลิงก์…">
 <!ENTITY createLinkCmd.accesskey "ส">
 <!ENTITY editLinkCmd.label "แก้ไขลิงก์ในตัวเขียนใหม่">
 <!ENTITY editLinkCmd.accesskey "ก">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "เลือกแบบอักษร">
 <!ENTITY fontfaceMenu.label "แบบอักษร">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "เลือกขนาดแบบอักษร">
 <!ENTITY decreaseFontSize.label "เล็กลง">
 <!ENTITY decreaseFontSize.accesskey "ล">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "ใหญ่ขึ้น">
 <!ENTITY increaseFontSize.accesskey "ห">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "ขนาด">
 <!ENTITY fontSizeMenu.accesskey "ข">
 <!ENTITY size-tinyCmd.label "เล็กมาก">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "ม">
 <!ENTITY size-hugeCmd.label "มหึมา">
 <!ENTITY size-hugeCmd.accesskey "ห">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "ลักษณะข้อความ">
 <!ENTITY fontStyleMenu.accesskey "ก">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "ส">
 <!ENTITY styleVar.label "ตัวแปร">
 <!ENTITY styleVar.accesskey "ป">
-
 <!ENTITY formatFontColor.label "สีข้อความ…">
 <!ENTITY formatFontColor.accesskey "ส">
 <!ENTITY tableOrCellColor.label "สีพื้นหลังของตารางหรือเซลล์…">
 <!ENTITY tableOrCellColor.accesskey "พ">
-
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "เอาจุดยึดที่มีชื่อออก">
 <!ENTITY formatRemoveNamedAnchors.accesskey "อ">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
-
 <!ENTITY paragraphMenu.label "ย่อหน้า">
 <!ENTITY paragraphMenu.accesskey "ย">
 <!ENTITY paragraphParagraphCmd.label "ย่อหน้า">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "ท">
 <!ENTITY paragraphPreformatCmd.label "ย่อหน้าที่จัดรูปแบบไว้ล่วงหน้า">
 <!ENTITY paragraphPreformatCmd.accesskey "ย">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "รายการ">
 <!ENTITY formatlistMenu.accesskey "ร">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "น">
 <!ENTITY listPropsCmd.label "คุณสมบัติรายการ…">
 <!ENTITY listPropsCmd.accesskey "ค">
-
 <!ENTITY ParagraphSelect.tooltip "เลือกรูปแบบย่อหน้า">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "เนื้อความ">
 <!ENTITY bodyTextCmd.accesskey "น">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "จัดชิดแนว">
 <!ENTITY alignMenu.accesskey "จ">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "เต็มแนว">
 <!ENTITY alignJustify.accesskey "ต">
 <!ENTITY alignJustify.tooltip "จัดเต็มแนว">
-
 <!ENTITY increaseIndent.label "เพิ่มการเยื้อง">
 <!ENTITY increaseIndent.accesskey "พ">
 <!ENTITY increaseIndent.key "]">
 <!ENTITY decreaseIndent.label "ลดการเยื้อง">
 <!ENTITY decreaseIndent.accesskey "ล">
 <!ENTITY decreaseIndent.key "[">
-
 <!ENTITY colorsAndBackground.label "สีและพื้นหลังของหน้า…">
 <!ENTITY colorsAndBackground.accesskey "ส">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "ตาราง">
 <!ENTITY tableMenu.accesskey "ต">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "เลือก">
 <!ENTITY tableSelectMenu.accesskey "เ">
-
 <!ENTITY tableSelectMenu2.label "เลือกตาราง">
 <!ENTITY tableSelectMenu2.accesskey "เ">
 <!ENTITY tableInsertMenu2.label "แทรกตาราง">
 <!ENTITY tableInsertMenu2.accesskey "ท">
 <!ENTITY tableDeleteMenu2.label "ลบตาราง">
 <!ENTITY tableDeleteMenu2.accesskey "บ">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "แทรก">
 <!ENTITY tableInsertMenu.accesskey "ท">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "ลบ">
 <!ENTITY tableDeleteMenu.accesskey "ล">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "ผ">
 <!ENTITY tableJoinCells.accesskey "ผ">
 <!ENTITY tableSplitCell.label "แยกเซลล์">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "ส">
 <!ENTITY tableProperties.label "คุณสมบัติตาราง…">
 <!ENTITY tableProperties.accesskey "ค">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "ภาพ">
 <!ENTITY imageToolbarCmd.tooltip "แทรกภาพใหม่หรือแก้ไขคุณสมบัติของภาพที่เลือก">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "แทรกจุดยึดที่มีชื่อใหม่หรือแก้ไขคุณสมบัติของจุดยึดที่เลือก">
 <!ENTITY TextColorButton.tooltip "เลือกสีสำหรับข้อความ">
 <!ENTITY BackgroundColorButton.tooltip "เลือกสีสำหรับพื้นหลัง">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "ตั้งขนาดแบบอักษร">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "ขนาดแบบอักษรเล็กลง">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "จัดข้อความอยู่กึ่งกลาง">
 <!ENTITY alignRightButton.tooltip "จัดข้อความชิดขอบขวา">
 <!ENTITY alignJustifyButton.tooltip "จัดข้อความชิดขอบซ้ายและขวา">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "แทรก">
-<!ENTITY insertTOC.accesskey      "ท">
-<!ENTITY updateTOC.label          "อัปเดต">
-<!ENTITY updateTOC.accesskey      "เ">
-<!ENTITY removeTOC.label          "เอาออก">
-<!ENTITY removeTOC.accesskey      "า">
-<!ENTITY tocMenu.label            "สารบัญ…">
-<!ENTITY tocMenu.accesskey        "ส">
+<!ENTITY insertTOC.label "แทรก">
+<!ENTITY insertTOC.accesskey "ท">
+<!ENTITY updateTOC.label "อัปเดต">
+<!ENTITY updateTOC.accesskey "เ">
+<!ENTITY removeTOC.label "เอาออก">
+<!ENTITY removeTOC.accesskey "า">
+<!ENTITY tocMenu.label "สารบัญ…">
+<!ENTITY tocMenu.accesskey "ส">

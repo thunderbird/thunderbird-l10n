@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Kiểm tra chính tả">
-
 <!ENTITY misspelledWord.label "Từ sai chính tả:">
 <!ENTITY wordEditField.label "Thay thế bằng:">
 <!ENTITY wordEditField.accessKey "w">

@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Kalendar">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Prebaci na karticu kalendara">
+<!ENTITY lightning.toolbar.calendar.label "Kalendar">
+<!ENTITY lightning.toolbar.calendar.tooltip "Prebaci na karticu kalendara">
 <!ENTITY lightning.toolbar.calendar.accesskey "K">
-<!ENTITY lightning.toolbar.task.label         "Zadaci">
-<!ENTITY lightning.toolbar.task.tooltip       "Prebaci na karticu zadataka">
-<!ENTITY lightning.toolbar.task.accesskey     "c">
-
+<!ENTITY lightning.toolbar.task.label "Zadaci">
+<!ENTITY lightning.toolbar.task.tooltip "Prebaci na karticu zadataka">
+<!ENTITY lightning.toolbar.task.accesskey "c">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Dan">
-<!ENTITY lightning.toolbar.day.accesskey             "D">
-<!ENTITY lightning.toolbar.week.label                "Tjedan">
-<!ENTITY lightning.toolbar.week.accesskey            "T">
-<!ENTITY lightning.toolbar.multiweek.label           "Više tjedana">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "V">
-<!ENTITY lightning.toolbar.month.label               "Mjesec">
-<!ENTITY lightning.toolbar.month.accesskey           "M">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Okno kalendara">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "k">
-<!ENTITY lightning.toolbar.calendarpane.label        "Prikaži okno kalendara">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "k">
+<!ENTITY lightning.toolbar.day.label "Dan">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "Tjedan">
+<!ENTITY lightning.toolbar.week.accesskey "T">
+<!ENTITY lightning.toolbar.multiweek.label "Više tjedana">
+<!ENTITY lightning.toolbar.multiweek.accesskey "V">
+<!ENTITY lightning.toolbar.month.label "Mjesec">
+<!ENTITY lightning.toolbar.month.accesskey "M">
+<!ENTITY lightning.toolbar.calendarmenu.label "Okno kalendara">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "k">
+<!ENTITY lightning.toolbar.calendarpane.label "Prikaži okno kalendara">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "k">

@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "בדיקת איות">
-
 <!ENTITY misspelledWord.label "שפה:">
 <!ENTITY wordEditField.label "החלפה עם:">
 <!ENTITY wordEditField.accessKey "ע">

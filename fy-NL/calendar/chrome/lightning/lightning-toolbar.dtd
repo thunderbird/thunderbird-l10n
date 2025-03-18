@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Aginda">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Wikselje nei it agindaljepblêd">
+<!ENTITY lightning.toolbar.calendar.label "Aginda">
+<!ENTITY lightning.toolbar.calendar.tooltip "Wikselje nei it agindaljepblêd">
 <!ENTITY lightning.toolbar.calendar.accesskey "n">
-<!ENTITY lightning.toolbar.task.label         "Taken">
-<!ENTITY lightning.toolbar.task.tooltip       "Wikselje nei it takenljepblêd">
-<!ENTITY lightning.toolbar.task.accesskey     "T">
-
+<!ENTITY lightning.toolbar.task.label "Taken">
+<!ENTITY lightning.toolbar.task.tooltip "Wikselje nei it takenljepblêd">
+<!ENTITY lightning.toolbar.task.accesskey "T">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Dei">
-<!ENTITY lightning.toolbar.day.accesskey             "D">
-<!ENTITY lightning.toolbar.week.label                "Wike">
-<!ENTITY lightning.toolbar.week.accesskey            "k">
-<!ENTITY lightning.toolbar.multiweek.label           "Mear wiken">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "e">
-<!ENTITY lightning.toolbar.month.label               "Moanne">
-<!ENTITY lightning.toolbar.month.accesskey           "M">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Agindafinster">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "A">
-<!ENTITY lightning.toolbar.calendarpane.label        "Agindafinster toane">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "A">
+<!ENTITY lightning.toolbar.day.label "Dei">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "Wike">
+<!ENTITY lightning.toolbar.week.accesskey "k">
+<!ENTITY lightning.toolbar.multiweek.label "Mear wiken">
+<!ENTITY lightning.toolbar.multiweek.accesskey "e">
+<!ENTITY lightning.toolbar.month.label "Moanne">
+<!ENTITY lightning.toolbar.month.accesskey "M">
+<!ENTITY lightning.toolbar.calendarmenu.label "Agindafinster">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "A">
+<!ENTITY lightning.toolbar.calendarpane.label "Agindafinster toane">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "A">

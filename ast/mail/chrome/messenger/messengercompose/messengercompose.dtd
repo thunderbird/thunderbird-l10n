@@ -2,9 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!--LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
+<!-- LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
 <!ENTITY msgComposeWindow.title "Redaición: (ensin asuntu)">
-
 <!-- File Menu -->
 <!ENTITY fileMenu.label "Ficheru">
 <!ENTITY fileMenu.accesskey "i">
@@ -45,7 +44,6 @@
 <!ENTITY printCmd.label "Imprentar…">
 <!ENTITY printCmd.key "P">
 <!ENTITY printCmd.accesskey "P">
-
 <!-- Edit Menu -->
 <!ENTITY editMenu.label "Editar">
 <!ENTITY editMenu.accesskey "e">
@@ -82,16 +80,6 @@
 <!ENTITY findPrevCmd.accesskey "i">
 <!ENTITY findPrevCmd.key "G">
 <!ENTITY findPrevCmd.key2 "VK_F3">
-
-<!-- Reorder Attachment Panel -->
-
-<!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.Sort.AZ.label):
-     Please ensure that this translation matches
-     sortAttachmentsPanelBtn.Sort.ZA.label, except for the sort direction. -->
-<!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.SortSelection.AZ.label):
-     Please ensure that this translation matches
-     sortAttachmentsPanelBtn.SortSelection.ZA.label, except for the sort direction. -->
-
 <!-- View Menu -->
 <!ENTITY viewMenu.label "Ver">
 <!ENTITY viewMenu.accesskey "v">
@@ -107,14 +95,11 @@
 <!ENTITY showTaskbarCmd.accesskey "S">
 <!ENTITY customizeToolbar.label "Personalizar…">
 <!ENTITY customizeToolbar.accesskey "P">
-
 <!ENTITY addressSidebar.label "Panel llateral de contautos">
 <!ENTITY addressSidebar.accesskey "o">
-
 <!-- Format Menu -->
 <!ENTITY formatMenu.label "Formatu">
 <!ENTITY formatMenu.accesskey "o">
-
 <!-- Options Menu -->
 <!ENTITY optionsMenu.label "Opciones">
 <!ENTITY optionsMenu.accesskey "p">
@@ -126,11 +111,9 @@
 <!ENTITY enableInlineSpellChecker.accesskey "S">
 <!ENTITY quoteCmd.label "Citar mensaxe">
 <!ENTITY quoteCmd.accesskey "m">
-
-<!--LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard' -->
+<!-- LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard' -->
 <!ENTITY attachVCard.label "Axuntar tarxeta personal (vCard)">
 <!ENTITY attachVCard.accesskey "v">
-
 <!ENTITY returnReceiptMenu.label "Acuse de recibu">
 <!ENTITY returnReceiptMenu.accesskey "D">
 <!ENTITY dsnMenu.label "Notificación d'estáu d'entrega">
@@ -153,7 +136,6 @@
 <!ENTITY fileCarbonCopyCmd.label "Unviar una copia a">
 <!ENTITY fileCarbonCopyCmd.accesskey "v">
 <!ENTITY fileHereMenu.label "Archivar equí">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Ferramientes">
 <!ENTITY tasksMenu.accesskey "T">
@@ -166,14 +148,12 @@
 <!ENTITY accountManagerCmd2.label "Configuración de cuenta">
 <!ENTITY accountManagerCmd2.accesskey "C">
 <!ENTITY accountManagerCmdUnix2.accesskey "C">
-
-<!--  Mac OS X Window Menu -->
+<!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY minimizeWindow.label "Minimizar ventana">
 <!ENTITY bringAllToFront.label "Traer too al frente">
 <!ENTITY zoomWindow.label "Averar ventana">
 <!ENTITY windowMenu.label "Ventana">
-
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Unviar">
 <!ENTITY quoteButton.label "Citar">
@@ -181,7 +161,6 @@
 <!ENTITY spellingButton.label "Ortografía">
 <!ENTITY saveButton.label "Guardar">
 <!ENTITY printButton.label "Imprentar">
-
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Unviar esti mensaxe agora">
 <!ENTITY sendlaterButton.tooltip "Unviar esti mensaxe más sero">
@@ -189,17 +168,12 @@
 <!ENTITY addressButton.tooltip "Seleicionar un destinatariu d'una llibreta de direiciones">
 <!ENTITY spellingButton.tooltip "Revisar ortografía de la seleición o del mensaxe completu">
 <!ENTITY saveButton.tooltip "Guardar esti mensaxe">
-<!ENTITY cutButton.tooltip              "Cortar">
-<!ENTITY copyButton.tooltip             "Copiar">
-<!ENTITY pasteButton.tooltip            "Apegar">
+<!ENTITY cutButton.tooltip "Cortar">
+<!ENTITY copyButton.tooltip "Copiar">
+<!ENTITY pasteButton.tooltip "Apegar">
 <!ENTITY printButton.tooltip "Imprentar esti mensaxe">
-
-<!-- Headers -->
-<!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
-    Subject: rows. It should be larger than the largest Header label  -->
 <!ENTITY fromAddr.accesskey "D">
 <!ENTITY subject.accesskey "S">
-
 <!-- Format Toolbar, imported from editorAppShell.xhtml -->
 <!ENTITY SmileButton.tooltip "Inxertar un fustaxe">
 <!ENTITY smiley1Cmd.label "Sorriendo">
@@ -218,7 +192,6 @@
 <!ENTITY smiley14Cmd.label "Inocente">
 <!ENTITY smiley15Cmd.label "Lloramicando">
 <!ENTITY smiley16Cmd.label "Llabios pesllaos">
-
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Nun s'alcontraron suxerencies">
 <!ENTITY spellCheckIgnoreWord.label "Inorar pallabra">
@@ -235,7 +208,6 @@
 <!ENTITY paste.accesskey "p">
 <!ENTITY pasteQuote.label "Apegar como cita">
 <!ENTITY pasteQuote.accesskey "g">
-
 <!-- Attachment Item and List Context Menus -->
 <!ENTITY openAttachment.label "Abrir">
 <!ENTITY openAttachment.accesskey "A">
@@ -257,23 +229,11 @@
 <!ENTITY convertRegularAttachment.accesskey "A">
 <!ENTITY attachPage.label "Axuntar páxina web…">
 <!ENTITY attachPage.accesskey "W">
-
-<!-- Attachment Pane Header Bar Context Menu -->
-<!-- LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Amestar diccionarios…">
 <!ENTITY spellAddDictionaries.accesskey "A">
-
 <!-- Title for the address picker panel -->
 <!ENTITY addressesSidebarTitle.label "Contautos">
-
 <!-- Identity popup customize menuitem -->
 <!ENTITY customizeFromAddress.label "Personalizar direición de remitente…">
 <!ENTITY customizeFromAddress.accesskey "A">
-
-<!-- Accessibility name for the document -->
-
-<!-- Status Bar -->

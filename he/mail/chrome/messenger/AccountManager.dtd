@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "הגדרות חשבון">
-<!ENTITY  accountManagerCloseButton.label "סגירה">
-
+<!ENTITY accountManagerCloseButton.label "סגירה">
 <!ENTITY accountActionsButton.label "פעולות חשבון">
 <!ENTITY accountActionsButton.accesskey "פ">
 <!ENTITY addMailAccountButton.label "הוספת חשבון דואר…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "ב">
 <!ENTITY removeButton.label "הסרת חשבון">
 <!ENTITY removeButton.accesskey "ס">
-
 <!ENTITY addonsButton.label "הרחבות וערכות נושא">

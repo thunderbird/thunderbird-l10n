@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Umetni tabelu">
-
 <!ENTITY size.label "Veličina">
 <!ENTITY numRowsEditField.label "Redovi:">
 <!ENTITY numRowsEditField.accessKey "R">

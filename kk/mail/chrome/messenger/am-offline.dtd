@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "о">
 <!ENTITY syncGroupTitle.label "Хабарламаны синхрондау">
 <!ENTITY diskspaceGroupTitle.label "Дискідегі орын">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Жасына қарамай, барлық хабарламаларды жергілікті қоймаға синхрондау">
-<!ENTITY allAutosync.accesskey           "х">
-<!ENTITY ageAutosyncBefore.label         "Тек соңғыларын синхрондау">
-<!ENTITY ageAutosync.accesskey           "я">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "Күн">
-<!ENTITY weekAgeInterval.label           "Апта">
-<!ENTITY monthAgeInterval.label          "Айлар">
-<!ENTITY yearAgeInterval.label           "Жылдар">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Жасына қарамай, барлық хабарламаларды жергілікті қоймаға синхрондау">
+<!ENTITY allAutosync.accesskey "х">
+<!ENTITY ageAutosyncBefore.label "Тек соңғыларын синхрондау">
+<!ENTITY ageAutosync.accesskey "я">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "Күн">
+<!ENTITY weekAgeInterval.label "Апта">
+<!ENTITY monthAgeInterval.label "Айлар">
+<!ENTITY yearAgeInterval.label "Жылдар">
+<!ENTITY ageAutosyncAfter.label "">

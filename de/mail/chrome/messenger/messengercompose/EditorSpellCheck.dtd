@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Rechtschreibprüfung">
-
 <!ENTITY misspelledWord.label "Falsch geschriebenes Wort:">
 <!ENTITY wordEditField.label "Ersetzen durch:">
 <!ENTITY wordEditField.accessKey "d">

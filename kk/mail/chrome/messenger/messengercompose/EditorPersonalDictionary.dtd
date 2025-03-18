@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Жеке сөздік">
-
 <!ENTITY wordEditField.label "Жаңа сөз:">
 <!ENTITY wordEditField.accessKey "а">
 <!ENTITY AddButton.label "Қосу">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "д">
 <!ENTITY RemoveButton.label "Өшіру">
 <!ENTITY RemoveButton.accessKey "ш">
-
 <!ENTITY CloseButton.label "Жабу">
 <!ENTITY CloseButton.accessKey "Ж">

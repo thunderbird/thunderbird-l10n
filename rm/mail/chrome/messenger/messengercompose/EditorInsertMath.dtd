@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Inserir furmlas matematicas">
-
 <!ENTITY sourceEditField.label "Endatescha il code da funtauna LaTeX:">
-
 <!ENTITY options.label "Opziuns">
 <!ENTITY optionInline.label "Modus integrà">
 <!ENTITY optionInline.accesskey "N">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "s">
 <!ENTITY optionRTL.label "Direcziun 'da dretg a sanestra'">
 <!ENTITY optionRTL.accesskey "d">
-
 <!ENTITY insertButton.label "Inserir">
 <!ENTITY insertButton.accesskey "I">

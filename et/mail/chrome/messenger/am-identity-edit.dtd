@@ -1,12 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY settingsTab.label       "Sätted">
+<!ENTITY settingsTab.label "Sätted">
 <!ENTITY copiesFoldersTab.label "Koopiad ja kaustad">
-<!ENTITY addressingTab.label    "Koostamine ja adresseerimine">
-
-<!ENTITY publicData.label        "Avalikud andmed">
-<!ENTITY privateData.label       "Privaatsed andmed">
-<!ENTITY identityAlias.label     "Identiteedi silt:">
+<!ENTITY addressingTab.label "Koostamine ja adresseerimine">
+<!ENTITY publicData.label "Avalikud andmed">
+<!ENTITY privateData.label "Privaatsed andmed">
+<!ENTITY identityAlias.label "Identiteedi silt:">
 <!ENTITY identityAlias.accesskey "s">

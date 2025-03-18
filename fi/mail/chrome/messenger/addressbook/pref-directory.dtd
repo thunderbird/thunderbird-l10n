@@ -3,15 +3,15 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (window.title) : do not translate "LDAP" in below line -->
-<!ENTITY pref.ldap.window.title    "LDAP-hakemistopalvelimet">
+<!ENTITY pref.ldap.window.title "LDAP-hakemistopalvelimet">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
-<!ENTITY directories.label         "LDAP-hakemistopalvelin:">
+<!ENTITY directories.label "LDAP-hakemistopalvelin:">
 <!-- LOCALIZATION NOTE (directoriesText.label) : do not translate "LDAP" in below line -->
-<!ENTITY directoriesText.label     "Valitse LDAP-hakemistopalvelin:">
+<!ENTITY directoriesText.label "Valitse LDAP-hakemistopalvelin:">
 <!ENTITY directoriesText.accesskey "V">
-<!ENTITY addDirectory.label        "Lisää">
-<!ENTITY addDirectory.accesskey    "L">
-<!ENTITY editDirectory.label       "Muokkaa">
-<!ENTITY editDirectory.accesskey   "M">
-<!ENTITY deleteDirectory.label     "Poista">
+<!ENTITY addDirectory.label "Lisää">
+<!ENTITY addDirectory.accesskey "L">
+<!ENTITY editDirectory.label "Muokkaa">
+<!ENTITY editDirectory.accesskey "M">
+<!ENTITY deleteDirectory.label "Poista">
 <!ENTITY deleteDirectory.accesskey "o">

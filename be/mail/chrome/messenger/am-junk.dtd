@@ -1,12 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
 <!ENTITY junkSettings.label "Налады спам-фільтраў">
 <!ENTITY trainingDescription.label "Пасля ўключэння гэтай налады вам спачатку спатрэбіцца навучыць &brandShortName; выяўляць спам. Для гэтага пазначайце паведамленні як спам або не спам з дапамогай кнопкі «Спам» на панэлі інструментаў. Вам трэба пазначаць не толькі спам, а таксама і звычайныя паведамленні. Праз некаторы час &brandShortName; будзе здольны аўтаматычна выяўляць і пазначаць спам-паведамленні.">
 <!ENTITY level.label "Уключыць адаптыўныя паштовыя спам-фільтры для гэтага ўліковага запісу">
 <!ENTITY level.accesskey "У">
-
 <!ENTITY move.label "Перамяшчаць новыя паведамленні, пазначаныя як спам, у:">
 <!ENTITY move.accesskey "П">
 <!ENTITY junkFolderOn.label "Папку «Спам» у:">
@@ -16,16 +14,12 @@
 <!ENTITY purge1.label "Аўтаматычна выдаляць спам з гэтай папкі праз">
 <!ENTITY purge1.accesskey "А">
 <!ENTITY purge2.label "дзён">
-
 <!ENTITY whitelistHeader.label "Не пазначаць аўтаматычна паведамленні як спам, калі адпраўнік знаходзіцца ў адрасных кнігах: ">
 <!ENTITY whitelistHeader.accesskey "Н">
-
 <!ENTITY ispHeadersWarning.label "Калі ўключана, &brandShortName; будзе аўтаматычна лічыць спамам паведамленні, якія пазначаны як спам гэтым знешнім класіфікатарам.">
 <!ENTITY ispHeaders.label "Давяраць загалоўкам спам-пошты, якія задае: ">
 <!ENTITY ispHeaders.accesskey "Д">
-
 <!ENTITY junkClassification.label "Выяўленне">
 <!ENTITY junkActions.label "Папкі прызначэння і ўмовы захавання">
-
 <!ENTITY globalJunkPrefs.label "Глабальныя перавагі спам-фільтраў…">
 <!ENTITY globalJunkPrefs.accesskey "Г">

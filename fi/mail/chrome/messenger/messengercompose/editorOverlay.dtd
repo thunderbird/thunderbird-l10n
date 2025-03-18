@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "Liitä lainauksena">
 <!ENTITY pasteAsQuotationCmd.accesskey "n">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Lisää">
 <!ENTITY insertMenu.accesskey "L">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "M">
 <!ENTITY insertBreakAllCmd.label "Rivinvaihto kuvien jälkeen">
 <!ENTITY insertBreakAllCmd.accesskey "R">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Luo linkki…">
 <!ENTITY createLinkCmd.accesskey "n">
 <!ENTITY editLinkCmd.label "Muokkaa linkkiä uudessa Composer-ikkunassa">
 <!ENTITY editLinkCmd.accesskey "u">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Valitse kirjasinlaji">
 <!ENTITY fontfaceMenu.label "Kirjasinlaji">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Valitse kirjasinten koko">
 <!ENTITY decreaseFontSize.label "Pienempi">
 <!ENTITY decreaseFontSize.accesskey "P">
 <!ENTITY decrementFontSize.key "-">
-<!ENTITY decrementFontSize.key2 "_"> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 "_">
 <!ENTITY increaseFontSize.label "Suurempi">
 <!ENTITY increaseFontSize.accesskey "S">
 <!ENTITY incrementFontSize.key "+">
-<!ENTITY incrementFontSize.key2 "?"> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 "?">
 <!ENTITY fontSizeMenu.label "Koko">
 <!ENTITY fontSizeMenu.accesskey "o">
 <!ENTITY size-tinyCmd.label "Pienin">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "u">
 <!ENTITY size-hugeCmd.label "Suurin">
 <!ENTITY size-hugeCmd.accesskey "r">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Tekstin tyyli">
 <!ENTITY fontStyleMenu.accesskey "T">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "E">
 <!ENTITY styleVar.label "Muuttuja">
 <!ENTITY styleVar.accesskey "M">
-
 <!ENTITY formatFontColor.label "Tekstin väri…">
 <!ENTITY formatFontColor.accesskey "e">
 <!ENTITY tableOrCellColor.label "Taulukon tai solun taustaväri…">
 <!ENTITY tableOrCellColor.accesskey "T">
-
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "Poista nimetyt ankkurit">
 <!ENTITY formatRemoveNamedAnchors.accesskey "P">
 <!ENTITY formatRemoveNamedAnchors2.key "A">
-
 <!ENTITY paragraphMenu.label "Kappale">
 <!ENTITY paragraphMenu.accesskey "a">
 <!ENTITY paragraphParagraphCmd.label "Kappale">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "O">
 <!ENTITY paragraphPreformatCmd.label "Esimuotoiltu">
 <!ENTITY paragraphPreformatCmd.accesskey "E">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Luettelo">
 <!ENTITY formatlistMenu.accesskey "L">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "M">
 <!ENTITY listPropsCmd.label "Luettelon ominaisuudet…">
 <!ENTITY listPropsCmd.accesskey "L">
-
 <!ENTITY ParagraphSelect.tooltip "Valitse kappaleen muotoilu">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Leipäteksti">
 <!ENTITY bodyTextCmd.accesskey "L">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Tasaus">
 <!ENTITY alignMenu.accesskey "u">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "Tasaleveys">
 <!ENTITY alignJustify.accesskey "T">
 <!ENTITY alignJustify.tooltip "Tasaa vakioleveyteen">
-
 <!ENTITY increaseIndent.label "Lisää sisennystä">
 <!ENTITY increaseIndent.accesskey "e">
 <!ENTITY increaseIndent.key "=">
 <!ENTITY decreaseIndent.label "Vähennä sisennystä">
 <!ENTITY decreaseIndent.accesskey "h">
 <!ENTITY decreaseIndent.key "-">
-
 <!ENTITY colorsAndBackground.label "Sivun värit ja tausta…">
 <!ENTITY colorsAndBackground.accesskey "S">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Taulukko">
 <!ENTITY tableMenu.accesskey "k">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Valitse">
 <!ENTITY tableSelectMenu.accesskey "V">
-
 <!ENTITY tableSelectMenu2.label "Valitse taulukko">
 <!ENTITY tableSelectMenu2.accesskey "V">
 <!ENTITY tableInsertMenu2.label "Lisää taulukko">
 <!ENTITY tableInsertMenu2.accesskey "L">
 <!ENTITY tableDeleteMenu2.label "Poista taulukko">
 <!ENTITY tableDeleteMenu2.accesskey "P">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Lisää">
 <!ENTITY tableInsertMenu.accesskey "L">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Poista">
 <!ENTITY tableDeleteMenu.accesskey "o">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "t">
 <!ENTITY tableJoinCells.accesskey "t">
 <!ENTITY tableSplitCell.label "Jaa solu">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "u">
 <!ENTITY tableProperties.label "Taulukon ominaisuudet…">
 <!ENTITY tableProperties.accesskey "T">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Kuva">
 <!ENTITY imageToolbarCmd.tooltip "Lisää uusi kuva tai muokkaa valitun kuvan ominaisuuksia">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Lisää uusi ankkuri tai muokkaa valitun ankkurin ominaisuuksia">
 <!ENTITY TextColorButton.tooltip "Valitse tekstin väri">
 <!ENTITY BackgroundColorButton.tooltip "Valitse taustaväri">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "Muuta kirjasinkokoa">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Pienempi kirjasinkoko">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "Tasaa teksti keskelle">
 <!ENTITY alignRightButton.tooltip "Tasaa teksti oikean marginaalin mukaan">
 <!ENTITY alignJustifyButton.tooltip "Tasaa teksti vasemman ja oikean marginaalin mukaan">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Lisää">
-<!ENTITY insertTOC.accesskey      "L">
-<!ENTITY updateTOC.label          "Päivitä">
-<!ENTITY updateTOC.accesskey      "ä">
-<!ENTITY removeTOC.label          "Poista">
-<!ENTITY removeTOC.accesskey      "o">
-<!ENTITY tocMenu.label            "Sisällysluettelo…">
-<!ENTITY tocMenu.accesskey        "S">
+<!ENTITY insertTOC.label "Lisää">
+<!ENTITY insertTOC.accesskey "L">
+<!ENTITY updateTOC.label "Päivitä">
+<!ENTITY updateTOC.accesskey "ä">
+<!ENTITY removeTOC.label "Poista">
+<!ENTITY removeTOC.accesskey "o">
+<!ENTITY tocMenu.label "Sisällysluettelo…">
+<!ENTITY tocMenu.accesskey "S">

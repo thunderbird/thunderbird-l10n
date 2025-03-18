@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Inserează tabel">
-
 <!ENTITY size.label "Mărime">
 <!ENTITY numRowsEditField.label "Rânduri:">
 <!ENTITY numRowsEditField.accessKey "R">

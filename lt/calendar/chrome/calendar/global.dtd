@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "sausis" >
-<!ENTITY month.2.name "vasaris" >
-<!ENTITY month.3.name "kovas" >
-<!ENTITY month.4.name "balandis" >
-<!ENTITY month.5.name "gegužė" >
-<!ENTITY month.6.name "birželis" >
-<!ENTITY month.7.name "liepa" >
-<!ENTITY month.8.name "rugpjūtis" >
-<!ENTITY month.9.name "rugsėjis" >
-<!ENTITY month.10.name "spalis" >
-<!ENTITY month.11.name "lapkritis" >
-<!ENTITY month.12.name "gruodis" >
-
+<!ENTITY month.1.name "sausis">
+<!ENTITY month.2.name "vasaris">
+<!ENTITY month.3.name "kovas">
+<!ENTITY month.4.name "balandis">
+<!ENTITY month.5.name "gegužė">
+<!ENTITY month.6.name "birželis">
+<!ENTITY month.7.name "liepa">
+<!ENTITY month.8.name "rugpjūtis">
+<!ENTITY month.9.name "rugsėjis">
+<!ENTITY month.10.name "spalis">
+<!ENTITY month.11.name "lapkritis">
+<!ENTITY month.12.name "gruodis">
 <!ENTITY showToday.tooltip "Ši diena">
 <!ENTITY onedayforward.tooltip "Kita diena">
 <!ENTITY onedaybackward.tooltip "Ankstesnė diena">

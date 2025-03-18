@@ -5,16 +5,13 @@
 <!ENTITY window.title "Szűrés szabályai">
 <!ENTITY filterName.label "Szűrő neve:">
 <!ENTITY filterName.accesskey "z">
-
 <!ENTITY junk.label "Szemét">
 <!ENTITY notJunk.label "Nem szemét">
-
 <!ENTITY lowestPriorityCmd.label "Nem sürgős">
 <!ENTITY lowPriorityCmd.label "Kevéssé sürgős">
 <!ENTITY normalPriorityCmd.label "Normál">
 <!ENTITY highPriorityCmd.label "Sürgős">
 <!ENTITY highestPriorityCmd.label "Rendkívül sürgős">
-
 <!ENTITY contextDesc.label "Szűrő alkalmazása:">
 <!ENTITY contextIncomingMail.label "Új levelek letöltése:">
 <!ENTITY contextIncomingMail.accesskey "t">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "Archiválás">
 <!ENTITY contextArchive.accesskey "A">
 <!ENTITY contextPeriodic.accesskey "p">
-
 <!ENTITY filterActionDesc.label "Műveletek végrehajtása:">
 <!ENTITY filterActionDesc.accesskey "v">
-
 <!ENTITY filterActionOrderWarning.label "Megjegyzés: a szűrési műveletek más sorrendben lesznek futtatva.">
 <!ENTITY filterActionOrder.label "Végrehajtási sorrend megjelenítése">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Üzenet áthelyezése">
 <!ENTITY copyMessage.label "Üzenet átmásolása">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Témacsoportrész kihagyása">
 <!ENTITY watchThread.label "Témacsoport figyelése">
 <!ENTITY stopExecution.label "Szűrő végrehajtásának leállítása">
-
 <!ENTITY addAction.tooltip "Új művelet hozzáadása">
 <!ENTITY removeAction.tooltip "A művelet eltávolítása">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

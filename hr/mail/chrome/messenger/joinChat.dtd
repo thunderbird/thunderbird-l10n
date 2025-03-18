@@ -1,10 +1,9 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY joinChatWindow.title           "Započni razgovor">
-<!ENTITY name.label                     "Soba">
-<!ENTITY optional.label                 "(po izboru)">
-<!ENTITY account.label                  "Račun">
-<!ENTITY autojoin.label                 "Automatski se spoji u ovu sobu">
-<!ENTITY autojoin.accesskey             "A">
+<!ENTITY joinChatWindow.title "Započni razgovor">
+<!ENTITY name.label "Soba">
+<!ENTITY optional.label "(po izboru)">
+<!ENTITY account.label "Račun">
+<!ENTITY autojoin.label "Automatski se spoji u ovu sobu">
+<!ENTITY autojoin.accesskey "A">

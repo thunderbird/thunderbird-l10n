@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Календар">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Пребаци се на календарски језичак">
+<!ENTITY lightning.toolbar.calendar.label "Календар">
+<!ENTITY lightning.toolbar.calendar.tooltip "Пребаци се на календарски језичак">
 <!ENTITY lightning.toolbar.calendar.accesskey "к">
-<!ENTITY lightning.toolbar.task.label         "Задаци">
-<!ENTITY lightning.toolbar.task.tooltip       "Пребаци се на језичак са задацима">
-<!ENTITY lightning.toolbar.task.accesskey     "з">
-
+<!ENTITY lightning.toolbar.task.label "Задаци">
+<!ENTITY lightning.toolbar.task.tooltip "Пребаци се на језичак са задацима">
+<!ENTITY lightning.toolbar.task.accesskey "з">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Дан">
-<!ENTITY lightning.toolbar.day.accesskey             "Д">
-<!ENTITY lightning.toolbar.week.label                "Недеља">
-<!ENTITY lightning.toolbar.week.accesskey            "Н">
-<!ENTITY lightning.toolbar.multiweek.label           "Више недеља">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "и">
-<!ENTITY lightning.toolbar.month.label               "Месец">
-<!ENTITY lightning.toolbar.month.accesskey           "М">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Површ календара">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "П">
-<!ENTITY lightning.toolbar.calendarpane.label        "Прикажи површ календара">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "П">
+<!ENTITY lightning.toolbar.day.label "Дан">
+<!ENTITY lightning.toolbar.day.accesskey "Д">
+<!ENTITY lightning.toolbar.week.label "Недеља">
+<!ENTITY lightning.toolbar.week.accesskey "Н">
+<!ENTITY lightning.toolbar.multiweek.label "Више недеља">
+<!ENTITY lightning.toolbar.multiweek.accesskey "и">
+<!ENTITY lightning.toolbar.month.label "Месец">
+<!ENTITY lightning.toolbar.month.accesskey "М">
+<!ENTITY lightning.toolbar.calendarmenu.label "Површ календара">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "П">
+<!ENTITY lightning.toolbar.calendarpane.label "Прикажи површ календара">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "П">

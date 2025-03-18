@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Kalender">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Bytt til kalenderfanen">
+<!ENTITY lightning.toolbar.calendar.label "Kalender">
+<!ENTITY lightning.toolbar.calendar.tooltip "Bytt til kalenderfanen">
 <!ENTITY lightning.toolbar.calendar.accesskey "K">
-<!ENTITY lightning.toolbar.task.label         "Oppgaver">
-<!ENTITY lightning.toolbar.task.tooltip       "Bytt til oppgavefanen">
-<!ENTITY lightning.toolbar.task.accesskey     "O">
-
+<!ENTITY lightning.toolbar.task.label "Oppgaver">
+<!ENTITY lightning.toolbar.task.tooltip "Bytt til oppgavefanen">
+<!ENTITY lightning.toolbar.task.accesskey "O">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Dag">
-<!ENTITY lightning.toolbar.day.accesskey             "D">
-<!ENTITY lightning.toolbar.week.label                "Uke">
-<!ENTITY lightning.toolbar.week.accesskey            "U">
-<!ENTITY lightning.toolbar.multiweek.label           "Flere uker">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "F">
-<!ENTITY lightning.toolbar.month.label               "Måned">
-<!ENTITY lightning.toolbar.month.accesskey           "M">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Kalender-panel">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "p">
-<!ENTITY lightning.toolbar.calendarpane.label        "Vis kalenderpanel">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "p">
+<!ENTITY lightning.toolbar.day.label "Dag">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "Uke">
+<!ENTITY lightning.toolbar.week.accesskey "U">
+<!ENTITY lightning.toolbar.multiweek.label "Flere uker">
+<!ENTITY lightning.toolbar.multiweek.accesskey "F">
+<!ENTITY lightning.toolbar.month.label "Måned">
+<!ENTITY lightning.toolbar.month.accesskey "M">
+<!ENTITY lightning.toolbar.calendarmenu.label "Kalender-panel">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "p">
+<!ENTITY lightning.toolbar.calendarpane.label "Vis kalenderpanel">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "p">

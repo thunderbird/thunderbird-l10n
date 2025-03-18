@@ -3,35 +3,21 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Event Menu -->
-<!ENTITY event.new.event                        "Нов настан…">
-<!ENTITY event.new.event.accesskey              "н">
-
-
-<!ENTITY calendar.import.label                  "Увоз…">
-<!ENTITY calendar.import.accesskey              "У">
-
-<!ENTITY calendar.export.label                  "Извези го изборот">
-<!ENTITY calendar.export.accesskey              "б">
-
-<!ENTITY calendar.publish.label                 "Објави…">
-<!ENTITY calendar.publish.accesskey             "в">
-
-
-<!-- LOCALIZATION NOTE (calendar.removecalendar.label): Removing the calendar
-      is the general action of removing it, while deleting means to clear the
-      data and unsubscribing means just taking it out of the calendar list. -->
-
-<!ENTITY showUnifinderCmd.label                 "Пронајди настани">
-<!ENTITY showUnifinderCmd.accesskey             "П">
-
-<!ENTITY calendar.displaytodos.checkbox.label       "Прикажи ги задачите во календарот">
-<!ENTITY calendar.displaytodos.checkbox.accesskey   "Т">
-
-<!ENTITY goTodayCmd.label                       "Денес">
-<!ENTITY goTodayCmd.accesskey                   "Д">
-
-<!ENTITY showCurrentView.label                  "Тековен преглед">
-<!ENTITY showCurrentView.accesskey              "Т">
-
-<!ENTITY calendar.properties.label              "Својства на календарот…">
-<!ENTITY calendar.properties.accesskey          "В">
+<!ENTITY event.new.event "Нов настан…">
+<!ENTITY event.new.event.accesskey "н">
+<!ENTITY calendar.import.label "Увоз…">
+<!ENTITY calendar.import.accesskey "У">
+<!ENTITY calendar.export.label "Извези го изборот">
+<!ENTITY calendar.export.accesskey "б">
+<!ENTITY calendar.publish.label "Објави…">
+<!ENTITY calendar.publish.accesskey "в">
+<!ENTITY showUnifinderCmd.label "Пронајди настани">
+<!ENTITY showUnifinderCmd.accesskey "П">
+<!ENTITY calendar.displaytodos.checkbox.label "Прикажи ги задачите во календарот">
+<!ENTITY calendar.displaytodos.checkbox.accesskey "Т">
+<!ENTITY goTodayCmd.label "Денес">
+<!ENTITY goTodayCmd.accesskey "Д">
+<!ENTITY showCurrentView.label "Тековен преглед">
+<!ENTITY showCurrentView.accesskey "Т">
+<!ENTITY calendar.properties.label "Својства на календарот…">
+<!ENTITY calendar.properties.accesskey "В">

@@ -4,107 +4,95 @@
 
 <!-- WARNING! This file contains UTF-8 encoded characters!
    - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
-   - your editor isn't using UTF-8 encoding and may munge up the document!
-  -->
+   - your editor isn't using UTF-8 encoding and may munge up the document! -->
 
 <!-- Tools menu -->
 <!ENTITY lightning.preferencesLabel "Календар">
-
 <!-- New menu popup in File menu -->
-<!ENTITY lightning.menupopup.new.event.label    "Подія…">
+<!ENTITY lightning.menupopup.new.event.label "Подія…">
 <!ENTITY lightning.menupopup.new.event.accesskey "П">
-<!ENTITY lightning.menupopup.new.task.label     "Завдання…">
+<!ENTITY lightning.menupopup.new.task.label "Завдання…">
 <!ENTITY lightning.menupopup.new.task.accesskey "З">
 <!ENTITY lightning.menupopup.new.calendar.label "Календар…">
 <!ENTITY lightning.menupopup.new.calendar.accesskey "К">
-
 <!-- Open menu popup in File menu -->
-<!ENTITY lightning.menupopup.open.calendar.label      "Файл календаря…">
-<!ENTITY lightning.menupopup.open.calendar.accesskey  "к">
-
+<!ENTITY lightning.menupopup.open.calendar.label "Файл календаря…">
+<!ENTITY lightning.menupopup.open.calendar.accesskey "к">
 <!-- View Menu -->
-<!ENTITY lightning.menu.view.calendar.label            "Календар">
-<!ENTITY lightning.menu.view.calendar.accesskey        "К">
-<!ENTITY lightning.menu.view.tasks.label               "Завдання">
-<!ENTITY lightning.menu.view.tasks.accesskey           "З">
-
+<!ENTITY lightning.menu.view.calendar.label "Календар">
+<!ENTITY lightning.menu.view.calendar.accesskey "К">
+<!ENTITY lightning.menu.view.tasks.label "Завдання">
+<!ENTITY lightning.menu.view.tasks.accesskey "З">
 <!-- Events and Tasks menu -->
-<!ENTITY lightning.menu.eventtask.label                "Події та завдання">
-<!ENTITY lightning.menu.eventtask.accesskey            "з">
-
-<!-- properties dialog, calendar creation wizard -->
-<!-- LOCALIZATON NOTE(lightning.calendarproperties.email.label,
+<!ENTITY lightning.menu.eventtask.label "Події та завдання">
+<!ENTITY lightning.menu.eventtask.accesskey "з">
+<!-- properties dialog, calendar creation wizard
+     LOCALIZATON NOTE(lightning.calendarproperties.email.label,
      lightning.calendarproperties.forceEmailScheduling.label)
      These strings are used in the calendar wizard and the calendar properties dialog, but are only
      displayed when setting/using a caldav calendar -->
-<!ENTITY lightning.calendarproperties.email.label                           "E-Mail:">
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.label            "Віддавати перевагу надсилати листи із запрошеннями зі сторони клієнта">
+<!ENTITY lightning.calendarproperties.email.label "E-Mail:">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.label "Віддавати перевагу надсилати листи із запрошеннями зі сторони клієнта">
 <!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
      lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1     "В даний момент ви можете увімкнути це лише після налаштування цього календаря в діалоговому вікні його властивостей, якщо сервер календаря сам обробляє запрошення.">
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2     "Це налаштування доступне лише тоді, коли сервер календаря сам може обробляти запрошення. Увімкнення цього дозволить повернутися до стандартного надсилання електронних листів із запрошеннями замість доручення цього серверу.">
-
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "В даний момент ви можете увімкнути це лише після налаштування цього календаря в діалоговому вікні його властивостей, якщо сервер календаря сам обробляє запрошення.">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Це налаштування доступне лише тоді, коли сервер календаря сам може обробляти запрошення. Увімкнення цього дозволить повернутися до стандартного надсилання електронних листів із запрошеннями замість доручення цього серверу.">
 <!-- The notifications settings in the properties dialog -->
-<!ENTITY lightning.calendarproperties.notifications.label                   "Сповіщення">
-<!ENTITY lightning.calendarproperties.globalNotifications.label             "Загальні налаштування сповіщень…">
-
+<!ENTITY lightning.calendarproperties.notifications.label "Сповіщення">
+<!ENTITY lightning.calendarproperties.globalNotifications.label "Загальні налаштування сповіщень…">
 <!-- iMIP Bar (meeting support) -->
-<!ENTITY lightning.imipbar.btnAccept.label                                  "Прийняти">
-<!ENTITY lightning.imipbar.btnAccept2.tooltiptext                           "Прийняти запрошення на подію">
-<!ENTITY lightning.imipbar.btnAcceptRecurrences.label                       "Прийняти все">
-<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext                "Прийняти запрошення на подію для всіх повторень">
-<!ENTITY lightning.imipbar.btnAdd.label                                     "Додати">
-<!ENTITY lightning.imipbar.btnAdd.tooltiptext                               "Додати подію до календаря">
-<!ENTITY lightning.imipbar.btnDecline.label                                 "Відхилити">
-<!ENTITY lightning.imipbar.btnDecline2.tooltiptext                          "Відхилити запрошення на подію">
-<!ENTITY lightning.imipbar.btnDeclineRecurrences.label                      "Відхилити всі">
-<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext               "Відхилити запрошення на подію для всіх повторень">
-<!ENTITY lightning.imipbar.btnDeclineCounter.label                          "Відхилити">
-<!ENTITY lightning.imipbar.btnDeclineCounter.tooltiptext                    "Відхилити пропозицію">
-<!ENTITY lightning.imipbar.btnDelete.label                                  "Видалити">
-<!ENTITY lightning.imipbar.btnDelete.tooltiptext                            "Видалити з календаря">
-<!ENTITY lightning.imipbar.btnDetails.label                                 "Подробиці…">
-<!ENTITY lightning.imipbar.btnDetails.tooltiptext                           "Показати подробиці події">
-<!ENTITY lightning.imipbar.btnDoNotShowImipBar.label                        "Не показувати мені ці повідомлення">
-<!ENTITY lightning.imipbar.btnGoToCalendar.label                            "Календар">
-<!ENTITY lightning.imipbar.btnGoToCalendar.tooltiptext                      "Перейти на вкладку календаря">
-<!ENTITY lightning.imipbar.btnMore.label                                    "Більше">
-<!ENTITY lightning.imipbar.btnMore.tooltiptext                              "Натисніть для показу додаткових можливостей">
-<!ENTITY lightning.imipbar.btnReconfirm2.label                              "Повторно підтвердити">
-<!ENTITY lightning.imipbar.btnReconfirm.tooltiptext                         "Надсилає організатору повторне підтвердження">
-<!ENTITY lightning.imipbar.btnReschedule.label                              "Перенести">
-<!ENTITY lightning.imipbar.btnReschedule.tooltiptext                        "Перенести подію">
-<!ENTITY lightning.imipbar.btnSaveCopy.label                                "Зберегти копію">
-<!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext                          "Зберегти копію події в календар незалежно від відповіді організатору. Список присутніх буде очищений.">
-<!ENTITY lightning.imipbar.btnTentative.label                               "Сумнівно">
-<!ENTITY lightning.imipbar.btnTentative2.tooltiptext                        "Прийняти запрошення на подію із сумнівом">
-<!ENTITY lightning.imipbar.btnTentativeRecurrences.label                    "Сумнівно для всіх">
-<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext             "Прийняти запрошення на подію із сумнівом для всіх повторень">
-<!ENTITY lightning.imipbar.btnUpdate.label                                  "Оновити">
-<!ENTITY lightning.imipbar.btnUpdate.tooltiptext                            "Оновити подію в календарі">
-<!ENTITY lightning.imipbar.description                                      "Це повідомлення містить запрошення на подію.">
-
-<!ENTITY lightning.imipbar.btnSend.label                                    "Надіслати відповідь зараз">
-<!ENTITY lightning.imipbar.btnSend.tooltiptext                              "Надіслати відповідь організатору">
-<!ENTITY lightning.imipbar.btnSendSeries.tooltiptext                        "Надіслати відповідь організатору для усієї серії">
-<!ENTITY lightning.imipbar.btnDontSend.label                                "Не надсилати відповідь">
-<!ENTITY lightning.imipbar.btnDontSend.tooltiptext                          "Змінити свій статус участі без надсилання відповіді організатору">
-<!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext                    "Змінити свій статус участі для серії без надсилання відповіді організатору">
-
+<!ENTITY lightning.imipbar.btnAccept.label "Прийняти">
+<!ENTITY lightning.imipbar.btnAccept2.tooltiptext "Прийняти запрошення на подію">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences.label "Прийняти все">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext "Прийняти запрошення на подію для всіх повторень">
+<!ENTITY lightning.imipbar.btnAdd.label "Додати">
+<!ENTITY lightning.imipbar.btnAdd.tooltiptext "Додати подію до календаря">
+<!ENTITY lightning.imipbar.btnDecline.label "Відхилити">
+<!ENTITY lightning.imipbar.btnDecline2.tooltiptext "Відхилити запрошення на подію">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences.label "Відхилити всі">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext "Відхилити запрошення на подію для всіх повторень">
+<!ENTITY lightning.imipbar.btnDeclineCounter.label "Відхилити">
+<!ENTITY lightning.imipbar.btnDeclineCounter.tooltiptext "Відхилити пропозицію">
+<!ENTITY lightning.imipbar.btnDelete.label "Видалити">
+<!ENTITY lightning.imipbar.btnDelete.tooltiptext "Видалити з календаря">
+<!ENTITY lightning.imipbar.btnDetails.label "Подробиці…">
+<!ENTITY lightning.imipbar.btnDetails.tooltiptext "Показати подробиці події">
+<!ENTITY lightning.imipbar.btnDoNotShowImipBar.label "Не показувати мені ці повідомлення">
+<!ENTITY lightning.imipbar.btnGoToCalendar.label "Календар">
+<!ENTITY lightning.imipbar.btnGoToCalendar.tooltiptext "Перейти на вкладку календаря">
+<!ENTITY lightning.imipbar.btnMore.label "Більше">
+<!ENTITY lightning.imipbar.btnMore.tooltiptext "Натисніть для показу додаткових можливостей">
+<!ENTITY lightning.imipbar.btnReconfirm2.label "Повторно підтвердити">
+<!ENTITY lightning.imipbar.btnReconfirm.tooltiptext "Надсилає організатору повторне підтвердження">
+<!ENTITY lightning.imipbar.btnReschedule.label "Перенести">
+<!ENTITY lightning.imipbar.btnReschedule.tooltiptext "Перенести подію">
+<!ENTITY lightning.imipbar.btnSaveCopy.label "Зберегти копію">
+<!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext "Зберегти копію події в календар незалежно від відповіді організатору. Список присутніх буде очищений.">
+<!ENTITY lightning.imipbar.btnTentative.label "Сумнівно">
+<!ENTITY lightning.imipbar.btnTentative2.tooltiptext "Прийняти запрошення на подію із сумнівом">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences.label "Сумнівно для всіх">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext "Прийняти запрошення на подію із сумнівом для всіх повторень">
+<!ENTITY lightning.imipbar.btnUpdate.label "Оновити">
+<!ENTITY lightning.imipbar.btnUpdate.tooltiptext "Оновити подію в календарі">
+<!ENTITY lightning.imipbar.description "Це повідомлення містить запрошення на подію.">
+<!ENTITY lightning.imipbar.btnSend.label "Надіслати відповідь зараз">
+<!ENTITY lightning.imipbar.btnSend.tooltiptext "Надіслати відповідь організатору">
+<!ENTITY lightning.imipbar.btnSendSeries.tooltiptext "Надіслати відповідь організатору для усієї серії">
+<!ENTITY lightning.imipbar.btnDontSend.label "Не надсилати відповідь">
+<!ENTITY lightning.imipbar.btnDontSend.tooltiptext "Змінити свій статус участі без надсилання відповіді організатору">
+<!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext "Змінити свій статус участі для серії без надсилання відповіді організатору">
 <!-- Lightning specific keybindings -->
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
-
 <!-- Account Central page -->
 <!ENTITY lightning.acctCentral.newCalendar.label "Створити новий календар">
-
 <!-- today-pane-specific -->
 <!ENTITY todaypane.showMinimonth.label "Показувати календарик">
 <!ENTITY todaypane.showMinimonth.accesskey "к">
 <!ENTITY todaypane.showMiniday.label "Показувати день">
-<!ENTITY todaypane.showMiniday.accesskey  "д">
+<!ENTITY todaypane.showMiniday.accesskey "д">
 <!ENTITY todaypane.showNone.label "Нічого не показувати">
 <!ENTITY todaypane.showNone.accesskey "Н">
 <!ENTITY todaypane.showTodayPane.label "Показувати панель дня">

@@ -10,7 +10,6 @@
 <!ENTITY pasteNoFormatting.key "V">
 <!ENTITY pasteAsQuotationCmd.label "Titz'ajb'äx Achi'el Peyonïk">
 <!ENTITY pasteAsQuotationCmd.accesskey "P">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Tich'ap">
 <!ENTITY insertMenu.accesskey "c">
@@ -33,13 +32,11 @@
 <!ENTITY insertCharsCmd.accesskey "T">
 <!ENTITY insertBreakAllCmd.label "Keretz ri Qajinäq (taq) Wachib'äl">
 <!ENTITY insertBreakAllCmd.accesskey "k">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Titz'uk Ximonel…">
 <!ENTITY createLinkCmd.accesskey "l">
 <!ENTITY editLinkCmd.label "Tinuk' ri Ximonel pa K'ak'a' Nuk'unel">
 <!ENTITY editLinkCmd.accesskey "u">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Tacha' jun ruwäch tz'ib'">
 <!ENTITY fontfaceMenu.label "Ruwäch tz'ib'">
@@ -55,18 +52,18 @@
 <!ENTITY fontTimes.accesskey "T">
 <!ENTITY fontCourier.label "Courier">
 <!ENTITY fontCourier.accesskey "C">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Tacha' jun runimilem ruwäch tz'ib'">
 <!ENTITY decreaseFontSize.label "Ko'öl">
 <!ENTITY decreaseFontSize.accesskey "l">
 <!ENTITY decrementFontSize.key "&lt;">
-<!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
+<!-- < is above this key on many keyboards -->
+<!ENTITY decrementFontSize.key2 ",">
 <!ENTITY increaseFontSize.label "Nïm">
 <!ENTITY increaseFontSize.accesskey "m">
 <!ENTITY incrementFontSize.key "&gt;">
-<!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
-
+<!-- > is above this key on many keyboards -->
+<!ENTITY incrementFontSize.key2 ".">
 <!ENTITY fontSizeMenu.label "Nimilem">
 <!ENTITY fontSizeMenu.accesskey "m">
 <!ENTITY size-tinyCmd.label "Ch'utin">
@@ -81,7 +78,6 @@
 <!ENTITY size-extraLargeCmd.accesskey "m">
 <!ENTITY size-hugeCmd.label "Chom">
 <!ENTITY size-hugeCmd.accesskey "h">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Rub'anikil Rucholajem Tzij">
 <!ENTITY fontStyleMenu.accesskey "b">
@@ -118,18 +114,15 @@
 <!ENTITY styleSamp.accesskey "t">
 <!ENTITY styleVar.label "Jalwachil">
 <!ENTITY styleVar.accesskey "w">
-
 <!ENTITY formatFontColor.label "Rub'onil Rucholajem Tzij…">
 <!ENTITY formatFontColor.accesskey "b">
 <!ENTITY tableOrCellColor.label "Rub'onil Rupam Kemon Kajtz'ik o Ch'utikajtz'ik…">
 <!ENTITY tableOrCellColor.accesskey "R">
-
 <!ENTITY formatRemoveStyles.key "Y">
 <!ENTITY formatRemoveLinks.key "K">
 <!ENTITY formatRemoveNamedAnchors.label "Keyuj taq Xukuxüb' K'o Kib'i'">
 <!ENTITY formatRemoveNamedAnchors.accesskey "K">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
-
 <!ENTITY paragraphMenu.label "Pajtzij">
 <!ENTITY paragraphMenu.accesskey "P">
 <!ENTITY paragraphParagraphCmd.label "Pajtzij">
@@ -150,7 +143,6 @@
 <!ENTITY paragraphAddressCmd.accesskey "O">
 <!ENTITY paragraphPreformatCmd.label "Nab'ey Rub'anikil">
 <!ENTITY paragraphPreformatCmd.accesskey "i">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Cholajem">
 <!ENTITY formatlistMenu.accesskey "l">
@@ -166,12 +158,10 @@
 <!ENTITY listDefinitionCmd.accesskey "Q">
 <!ENTITY listPropsCmd.label "Kicholb'al taq Ichinil…">
 <!ENTITY listPropsCmd.accesskey "o">
-
 <!ENTITY ParagraphSelect.tooltip "Ticha' jun rub'anikil q'aptzij">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Ruch'akulal Rucholajem Tz'ib'">
 <!ENTITY bodyTextCmd.accesskey "o">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Ticholajïx">
 <!ENTITY alignMenu.accesskey "c">
@@ -187,32 +177,26 @@
 <!ENTITY alignJustify.label "Chojtz'aqät">
 <!ENTITY alignJustify.accesskey "j">
 <!ENTITY alignJustify.tooltip "Tichojtz'aqatisäx">
-
 <!ENTITY increaseIndent.label "Runimirisaxik Ruchi' Cholaj">
 <!ENTITY increaseIndent.accesskey "N">
 <!ENTITY increaseIndent.key "]">
 <!ENTITY decreaseIndent.label "Tich'utinirisäx Ruchi' Cholaj">
 <!ENTITY decreaseIndent.accesskey "T">
 <!ENTITY decreaseIndent.key "[">
-
 <!ENTITY colorsAndBackground.label "Ruxaq taq B'onil chuqa' Rupam…">
 <!ENTITY colorsAndBackground.accesskey "u">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Kemoj kajtz'ik">
 <!ENTITY tableMenu.accesskey "k">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Ticha'">
 <!ENTITY tableSelectMenu.accesskey "c">
-
 <!ENTITY tableSelectMenu2.label "Ticha' ri Kemoj Kajtz'ik">
 <!ENTITY tableSelectMenu2.accesskey "c">
 <!ENTITY tableInsertMenu2.label "Tich'ik Kemoj Kajtz'ik">
 <!ENTITY tableInsertMenu2.accesskey "h">
 <!ENTITY tableDeleteMenu2.label "Tiyuj ri Kemoj Kajtz'ik">
 <!ENTITY tableDeleteMenu2.accesskey "y">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Tich'ap">
 <!ENTITY tableInsertMenu.accesskey "h">
@@ -246,12 +230,10 @@
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Tiyuj">
 <!ENTITY tableDeleteMenu.accesskey "y">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "j">
 <!ENTITY tableJoinCells.accesskey "j">
 <!ENTITY tableSplitCell.label "Tijach Ch'utikajtz'ik">
@@ -260,7 +242,6 @@
 <!ENTITY convertToTable.accesskey "K">
 <!ENTITY tableProperties.label "Taq Richinil Kemon Kajtz'ik…">
 <!ENTITY tableProperties.accesskey "i">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Wachib'äl">
 <!ENTITY imageToolbarCmd.tooltip "Tich'ik k'ak'a' wachib'äl o tinuk' taq richinil ri wachib'äl cha'on">
@@ -274,7 +255,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Tich'ik k'ak'a' xukuxüb' b'ina'am o tinuk' taq richinil ri xukuxüb' b'ina'am cha'on">
 <!ENTITY TextColorButton.tooltip "Ticha' rub'onil ri rucholajem tzij">
 <!ENTITY BackgroundColorButton.tooltip "Ticha' rub'onil ri rupam">
-
 <!-- Editor toolbar -->
 <!ENTITY absoluteFontSizeToolbarCmd.tooltip "Tijikib'äx runimilem tz'ib'">
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Ko'öl runimilem ruwäch tz'ib'">
@@ -292,13 +272,12 @@
 <!ENTITY alignCenterButton.tooltip "Tichol ri rucholajem tzij pa nik'aj">
 <!ENTITY alignRightButton.tooltip "Tichol ri rucholajem tzij pan ajkiq'a' ruchi'">
 <!ENTITY alignJustifyButton.tooltip "Tichol ri rucholajem tzij pan ajkiq'a' chuqa' xokon ruchi'">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Tich'ap">
-<!ENTITY insertTOC.accesskey      "i">
-<!ENTITY updateTOC.label          "Tik'ex">
-<!ENTITY updateTOC.accesskey      "k">
-<!ENTITY removeTOC.label          "Tiyuj">
-<!ENTITY removeTOC.accesskey      "y">
-<!ENTITY tocMenu.label            "Kipam Kemoj Kajtz'ik…">
-<!ENTITY tocMenu.accesskey        "m">
+<!ENTITY insertTOC.label "Tich'ap">
+<!ENTITY insertTOC.accesskey "i">
+<!ENTITY updateTOC.label "Tik'ex">
+<!ENTITY updateTOC.accesskey "k">
+<!ENTITY removeTOC.label "Tiyuj">
+<!ENTITY removeTOC.accesskey "y">
+<!ENTITY tocMenu.label "Kipam Kemoj Kajtz'ik…">
+<!ENTITY tocMenu.accesskey "m">

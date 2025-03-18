@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Identita">
 <!ENTITY identityDesc.label "Každý účet má svoje identifikačné údaje, podľa ktorých vás ostatní spoznajú, keď dostanú vaše správy.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Zadajte meno, ktoré sa má objavovať v poli &quot;Od&quot; v odchádzajúcich správach">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(napr. &quot;Janko Mrkvička&quot;).">
 <!ENTITY fullnameLabel.label "Vaše meno:">
 <!ENTITY fullnameLabel.accesskey "V">
-
 <!ENTITY emailLabel.label "E‑mailová adresa:">
 <!ENTITY emailLabel.accesskey "E">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Zadajte názov tohto účtu (napr. &quot;Osobná pošta&quot;, &quot;Práca&quot;, &quot;Diskusia&quot;…).">
 <!ENTITY accnameLabel.label "Názov účtu:">
 <!ENTITY accnameLabel.accesskey "z">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Gratulujeme!">
 <!ENTITY completionText.label "Skontrolujte správnosť nasledujúcich informácií.">
 <!ENTITY newsServerNamePrefix.label "Názov diskusného servera (NNTP):">

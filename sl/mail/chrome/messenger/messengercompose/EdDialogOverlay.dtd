@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "z">
 <!ENTITY chooseFileLinkButton.label "Izberi datoteko …">
 <!ENTITY chooseFileLinkButton.accessKey "z">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Vnesite mesto spletne strani, krajevno datoteko ali pa izberite sidro z imenom oziroma naslov iz priročnega menija polja:">
 <!ENTITY LinkURLEditField2.accessKey "V">

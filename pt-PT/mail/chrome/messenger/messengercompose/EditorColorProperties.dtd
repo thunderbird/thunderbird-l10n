@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Cores personalizadas:">
 <!ENTITY customColorsRadio.accessKey "o">
 <!ENTITY customColorsRadio.tooltip "Estas definições de cor sobrepõem-se às definições do navegador do visualizador">
-
 <!ENTITY normalText.label "Texto normal">
 <!ENTITY normalText.accessKey "n">
 <!ENTITY linkText.label "Texto da ligação">

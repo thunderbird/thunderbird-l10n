@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Matematik ekle">
-
 <!ENTITY sourceEditField.label "LaTeX kaynak kodunu girin:">
-
 <!ENTITY options.label "Seçenekler">
 <!ENTITY optionInline.label "Satır içi kipi">
 <!ENTITY optionInline.accesskey "S">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "o">
 <!ENTITY optionRTL.label "Sağdan sola">
 <!ENTITY optionRTL.accesskey "a">
-
 <!ENTITY insertButton.label "Ekle">
 <!ENTITY insertButton.accesskey "E">

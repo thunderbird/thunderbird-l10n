@@ -5,16 +5,13 @@
 <!ENTITY window.title "Filtrowe pšawidła">
 <!ENTITY filterName.label "Filtrowe mě:">
 <!ENTITY filterName.accesskey "i">
-
 <!ENTITY junk.label "Cajk">
 <!ENTITY notJunk.label "Njecajk">
-
 <!ENTITY lowestPriorityCmd.label "Nejniša">
 <!ENTITY lowPriorityCmd.label "Niša">
 <!ENTITY normalPriorityCmd.label "Normalna">
 <!ENTITY highPriorityCmd.label "Wusoka">
 <!ENTITY highestPriorityCmd.label "Nejwuša">
-
 <!ENTITY contextDesc.label "Filter nałožyś, gaž:">
 <!ENTITY contextIncomingMail.label "Nowy post se wobstarujo:">
 <!ENTITY contextIncomingMail.accesskey "N">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "Archiwěrowanje">
 <!ENTITY contextArchive.accesskey "A">
 <!ENTITY contextPeriodic.accesskey "e">
-
 <!ENTITY filterActionDesc.label "Toś te akcije wuwjasć:">
 <!ENTITY filterActionDesc.accesskey "T">
-
 <!ENTITY filterActionOrderWarning.label "Glědajśo: Filtrowe akcije wuwjeduju se w rozdźělnym pórěźe.">
 <!ENTITY filterActionOrder.label "Glejśo wuwjeźeński pórěd">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Powěsć pśesunuś do">
 <!ENTITY copyMessage.label "Powěsć kopěrowaś do">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Pódnitku ingorěrowaś">
 <!ENTITY watchThread.label "Nitku wobglědaś">
 <!ENTITY stopExecution.label "Wuwjeźenje filtra zastajiś">
-
 <!ENTITY addAction.tooltip "Nowu akciju pśidaś">
 <!ENTITY removeAction.tooltip "Toś tu akciju wótpóraś">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

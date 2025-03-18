@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Pšawopis kontrolěrowaś">
-
 <!ENTITY misspelledWord.label "Wopak napisane słowo:">
 <!ENTITY wordEditField.label "Wuměniś pśez:">
 <!ENTITY wordEditField.accessKey "W">

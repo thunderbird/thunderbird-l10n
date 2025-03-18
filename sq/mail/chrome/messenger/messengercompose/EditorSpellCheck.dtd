@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Kontroll Drejtshkrimi">
-
 <!ENTITY misspelledWord.label "Fjalë e keqshkruajtur:">
 <!ENTITY wordEditField.label "Zëvendësoje me:">
 <!ENTITY wordEditField.accessKey "e">

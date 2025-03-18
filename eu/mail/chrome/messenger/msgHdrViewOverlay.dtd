@@ -8,7 +8,6 @@
 <!ENTITY author.label "Egilea">
 <!ENTITY organizationField4.label "Erakundea">
 <!ENTITY replyToField4.label "Erantzun honi">
-
 <!ENTITY subjectField4.label "Gaia">
 <!ENTITY ccField4.label "Cc">
 <!ENTITY bccField4.label "Bcc">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Mezu-IDa">
 <!ENTITY inReplyToField4.label "Honi erantzunez">
 <!ENTITY originalWebsite4.label "Webgunea">
-
 <!ENTITY hdrArchiveButton1.label "Artxibatu">
 <!ENTITY hdrArchiveButton1.tooltip "Artxibatu mezu hau">
 <!ENTITY hdrSmartReplyButton1.label "Erantzun bizkorra">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Markatu mezu hau zabor gisa">
 <!ENTITY hdrTrashButton1.label "Ezabatu">
 <!ENTITY hdrTrashButton1.tooltip "Ezabatu mezua">
-
 <!ENTITY hdrViewToolbarShowFull.label "Erakutsi ikonoak eta testua">
 <!ENTITY hdrViewToolbarShowFull.accesskey "E">
 <!ENTITY hdrViewToolbarShowIcons.label "Erakutsi ikonoak soilik">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "t">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Beti erakutsi 'Erantzun bidaltzaileari'">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "r">
-
 <!ENTITY otherActionsButton2.label "Gehiago">
 <!ENTITY otherActionsButton.tooltip "Ekintza gehiago">
 <!ENTITY otherActionsOpenConversation1.label "Ireki hizketaldian">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "I">
 <!ENTITY otherActionsPrint1.label "Inprimatu…">
 <!ENTITY otherActionsPrint1.accesskey "p">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Erakutsi eranskinen panela hasieran">
-<!ENTITY startExpandedCmd.accesskey    "E">
-
+<!ENTITY startExpandedCmd.label "Erakutsi eranskinen panela hasieran">
+<!ENTITY startExpandedCmd.accesskey "E">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Ireki">
-<!ENTITY openAttachmentCmd.accesskey    "I">
-<!ENTITY saveAsAttachmentCmd.label    "Gorde honela…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "a">
-<!ENTITY detachAttachmentCmd.label    "Askatu…">
-<!ENTITY detachAttachmentCmd.accesskey    "s">
-<!ENTITY deleteAttachmentCmd.label    "Ezabatu">
-<!ENTITY deleteAttachmentCmd.accesskey    "z">
-<!ENTITY openAllAttachmentsCmd.label    "Ireki dena…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "I">
-<!ENTITY saveAllAttachmentsCmd.label    "Gorde dena…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "G">
-<!ENTITY detachAllAttachmentsCmd.label    "Askatu dena…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "d">
-<!ENTITY deleteAllAttachmentsCmd.label    "Ezabatu dena…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "E">
-
+<!ENTITY openAttachmentCmd.label "Ireki">
+<!ENTITY openAttachmentCmd.accesskey "I">
+<!ENTITY saveAsAttachmentCmd.label "Gorde honela…">
+<!ENTITY saveAsAttachmentCmd.accesskey "a">
+<!ENTITY detachAttachmentCmd.label "Askatu…">
+<!ENTITY detachAttachmentCmd.accesskey "s">
+<!ENTITY deleteAttachmentCmd.label "Ezabatu">
+<!ENTITY deleteAttachmentCmd.accesskey "z">
+<!ENTITY openAllAttachmentsCmd.label "Ireki dena…">
+<!ENTITY openAllAttachmentsCmd.accesskey "I">
+<!ENTITY saveAllAttachmentsCmd.label "Gorde dena…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "G">
+<!ENTITY detachAllAttachmentsCmd.label "Askatu dena…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "d">
+<!ENTITY deleteAllAttachmentsCmd.label "Ezabatu dena…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "E">
 <!ENTITY openAttachment.tooltip "Ireki erantsitako fitxategia">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Ireki dagoen karpeta">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "k">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Erakutsi Finder-en">
+<!ENTITY detachedAttachmentFolder.show.label "Ireki dagoen karpeta">
+<!ENTITY detachedAttachmentFolder.show.accesskey "k">
+<!ENTITY detachedAttachmentFolder.showMac.label "Erakutsi Finder-en">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Gorde">
-<!ENTITY saveAttachmentButton1.tooltip     "Gorde erantsitako fitxategia">
-<!ENTITY saveAllAttachmentsButton1.label   "Gorde dena">
+<!ENTITY saveAttachmentButton1.label "Gorde">
+<!ENTITY saveAttachmentButton1.tooltip "Gorde erantsitako fitxategia">
+<!ENTITY saveAllAttachmentsButton1.label "Gorde dena">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Gorde erantsitako fitxategi guztiak">
-
-<!ENTITY copyLinkCmd.label        "Kopiatu loturaren helbidea">
-<!ENTITY copyLinkCmd.accesskey    "K">
-
+<!ENTITY copyLinkCmd.label "Kopiatu loturaren helbidea">
+<!ENTITY copyLinkCmd.accesskey "K">
 <!ENTITY CopyMessageId.label "Kopiatu mezu-IDa">
 <!ENTITY CopyMessageId.accesskey "K">
 <!ENTITY OpenMessageForMsgId.label "Ireki mezua ID bidez">

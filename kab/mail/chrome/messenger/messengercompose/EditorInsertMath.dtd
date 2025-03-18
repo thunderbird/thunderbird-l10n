@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Ger tinfaliyin n tusnakt">
-
 <!ENTITY sourceEditField.label "Sekcem tangalt aɣbalu Latex:">
-
 <!ENTITY options.label "Iɣewwaṛen">
 <!ENTITY optionInline.label "Askar d axel n izirig">
 <!ENTITY optionInline.accesskey "g">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "d">
 <!ENTITY optionRTL.label "Taɣda seg uẓelmaḍ s ayeffus">
 <!ENTITY optionRTL.accesskey "a">
-
 <!ENTITY insertButton.label "Senni">
 <!ENTITY insertButton.accesskey "S">

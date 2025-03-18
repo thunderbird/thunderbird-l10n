@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "계정 설정">
-<!ENTITY  accountManagerCloseButton.label "닫기">
-
+<!ENTITY accountManagerCloseButton.label "닫기">
 <!ENTITY accountActionsButton.label "계정 작업">
 <!ENTITY accountActionsButton.accesskey "A">
 <!ENTITY addMailAccountButton.label "메일 계정 추가…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "D">
 <!ENTITY removeButton.label "삭제">
 <!ENTITY removeButton.accesskey "R">
-
 <!ENTITY addonsButton.label "확장기능과 테마">

@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Tapatumo duomenys">
 <!ENTITY identityDesc.label "Pagal čia pateiktą informaciją jus galės atpažinti laiškų gavėjai.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Surinkite vardą ir pavardę (asmenvardį), kuriuos matys laiškų gavėjai lauke „Kas“">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(pvz., „Vardenis Pavardenis“).">
 <!ENTITY fullnameLabel.label "Asmenvardis:">
 <!ENTITY fullnameLabel.accesskey "A">
-
 <!ENTITY emailLabel.label "El. pašto adresas:">
 <!ENTITY emailLabel.accesskey "E">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Surinkite paskyros pavadinimą. Tai gali būti el. pašto adresas, interneto paslaugų teikėjo vardas arba bet koks jūsų pasirinktas vardas (pvz., „Darbas“, „Namai“).">
 <!ENTITY accnameLabel.label "Paskyros pavadinimas:">
 <!ENTITY accnameLabel.accesskey "v">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Sveikiname!">
 <!ENTITY completionText.label "Visa jūsų pateikta informacija abonentui pašto programoje užregistruoti yra tokia:">
 <!ENTITY newsServerNamePrefix.label "Naujienų serverio (NNTP) vardas:">

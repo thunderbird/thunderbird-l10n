@@ -3,28 +3,24 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
-
-<!ENTITY fileMenu.label          "Датотека">
-<!ENTITY fileMenu.accesskey        "Д">
-<!ENTITY newMenu.label            "Нова">
-<!ENTITY newMenu.accesskey          "Н">
-
-<!ENTITY editMenu.label          "Уредување">
-<!ENTITY editMenu.accesskey        "е">
-<!ENTITY undoCmd.label            "Врати">
-<!ENTITY undoCmd.accesskey          "р">
-<!ENTITY redoCmd.label            "Повтори">
-<!ENTITY redoCmd.accesskey          "р">
-<!ENTITY deleteCmd.label          "Избриши">
-<!ENTITY deleteCmd.accesskey        "з">
-
-<!ENTITY viewMenu.label          "Поглед">
-<!ENTITY viewMenu.accesskey        "г">
-<!ENTITY viewToolbarsMenu.label        "Алатници">
-<!ENTITY viewToolbarsMenu.accesskey      "т">
-<!ENTITY showTaskbarCmd.label          "Статусна лента">
-<!ENTITY showTaskbarCmd.accesskey        "С">
-
-<!ENTITY closeCmd.label      "Затвори">
-<!ENTITY closeCmd.key      "W">
-<!ENTITY closeCmd.accesskey    "З">
+<!ENTITY fileMenu.label "Датотека">
+<!ENTITY fileMenu.accesskey "Д">
+<!ENTITY newMenu.label "Нова">
+<!ENTITY newMenu.accesskey "Н">
+<!ENTITY editMenu.label "Уредување">
+<!ENTITY editMenu.accesskey "е">
+<!ENTITY undoCmd.label "Врати">
+<!ENTITY undoCmd.accesskey "р">
+<!ENTITY redoCmd.label "Повтори">
+<!ENTITY redoCmd.accesskey "р">
+<!ENTITY deleteCmd.label "Избриши">
+<!ENTITY deleteCmd.accesskey "з">
+<!ENTITY viewMenu.label "Поглед">
+<!ENTITY viewMenu.accesskey "г">
+<!ENTITY viewToolbarsMenu.label "Алатници">
+<!ENTITY viewToolbarsMenu.accesskey "т">
+<!ENTITY showTaskbarCmd.label "Статусна лента">
+<!ENTITY showTaskbarCmd.accesskey "С">
+<!ENTITY closeCmd.label "Затвори">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.accesskey "З">

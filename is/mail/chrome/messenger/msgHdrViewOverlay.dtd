@@ -8,7 +8,6 @@
 <!ENTITY author.label "Höfundur">
 <!ENTITY organizationField4.label "Fyrirtæki/Stofnun">
 <!ENTITY replyToField4.label "Svara á">
-
 <!ENTITY subjectField4.label "Efni">
 <!ENTITY ccField4.label "Cc">
 <!ENTITY bccField4.label "Falið afrit">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Auðkenni skeytis">
 <!ENTITY inReplyToField4.label "Svar við">
 <!ENTITY originalWebsite4.label "Vefsvæði">
-
 <!ENTITY hdrArchiveButton1.label "Skjalageymsla">
 <!ENTITY hdrArchiveButton1.tooltip "Setja póst í skjalageymslu">
 <!ENTITY hdrSmartReplyButton1.label "Snjallsvar">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Merkja þessi skilaboð sem rusl">
 <!ENTITY hdrTrashButton1.label "Eyða">
 <!ENTITY hdrTrashButton1.tooltip "Eyða pósti">
-
 <!ENTITY hdrViewToolbarShowFull.label "Sýna myndir og texta">
 <!ENTITY hdrViewToolbarShowFull.accesskey "a">
 <!ENTITY hdrViewToolbarShowIcons.label "Sýna aðeins myndir">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "t">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Alltaf sýna svar til sendanda">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "r">
-
 <!ENTITY otherActionsButton2.label "Meira">
 <!ENTITY otherActionsButton.tooltip "Fleiri aðgerðir">
 <!ENTITY otherActionsOpenConversation1.label "Opna í samtali">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "f">
 <!ENTITY otherActionsPrint1.label "Prenta…">
 <!ENTITY otherActionsPrint1.accesskey "P">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Sýna viðhengjaspjaldið í byrjun">
-<!ENTITY startExpandedCmd.accesskey    "S">
-
+<!ENTITY startExpandedCmd.label "Sýna viðhengjaspjaldið í byrjun">
+<!ENTITY startExpandedCmd.accesskey "S">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Opna">
-<!ENTITY openAttachmentCmd.accesskey    "O">
-<!ENTITY saveAsAttachmentCmd.label    "Vista sem…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "e">
-<!ENTITY detachAttachmentCmd.label    "Taka út…">
-<!ENTITY detachAttachmentCmd.accesskey    "t">
-<!ENTITY deleteAttachmentCmd.label    "Eyða">
-<!ENTITY deleteAttachmentCmd.accesskey    "ð">
-<!ENTITY openAllAttachmentsCmd.label    "Opna allt…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "O">
-<!ENTITY saveAllAttachmentsCmd.label    "Vista öll…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "a">
-<!ENTITY detachAllAttachmentsCmd.label    "Taka út öll…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "ö">
-<!ENTITY deleteAllAttachmentsCmd.label    "Eyða öllum…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "E">
-
+<!ENTITY openAttachmentCmd.label "Opna">
+<!ENTITY openAttachmentCmd.accesskey "O">
+<!ENTITY saveAsAttachmentCmd.label "Vista sem…">
+<!ENTITY saveAsAttachmentCmd.accesskey "e">
+<!ENTITY detachAttachmentCmd.label "Taka út…">
+<!ENTITY detachAttachmentCmd.accesskey "t">
+<!ENTITY deleteAttachmentCmd.label "Eyða">
+<!ENTITY deleteAttachmentCmd.accesskey "ð">
+<!ENTITY openAllAttachmentsCmd.label "Opna allt…">
+<!ENTITY openAllAttachmentsCmd.accesskey "O">
+<!ENTITY saveAllAttachmentsCmd.label "Vista öll…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "a">
+<!ENTITY detachAllAttachmentsCmd.label "Taka út öll…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "ö">
+<!ENTITY deleteAllAttachmentsCmd.label "Eyða öllum…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "E">
 <!ENTITY openAttachment.tooltip "Opna viðhengið">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Opna umlykjandi möppu">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "F">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Sýna í Finder">
+<!ENTITY detachedAttachmentFolder.show.label "Opna umlykjandi möppu">
+<!ENTITY detachedAttachmentFolder.show.accesskey "F">
+<!ENTITY detachedAttachmentFolder.showMac.label "Sýna í Finder">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Vista">
-<!ENTITY saveAttachmentButton1.tooltip     "Vista viðhengi">
-<!ENTITY saveAllAttachmentsButton1.label   "Vista allt">
+<!ENTITY saveAttachmentButton1.label "Vista">
+<!ENTITY saveAttachmentButton1.tooltip "Vista viðhengi">
+<!ENTITY saveAllAttachmentsButton1.label "Vista allt">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Vista öll viðhengi">
-
-<!ENTITY copyLinkCmd.label        "Afrita tengil">
-<!ENTITY copyLinkCmd.accesskey    "A">
-
+<!ENTITY copyLinkCmd.label "Afrita tengil">
+<!ENTITY copyLinkCmd.accesskey "A">
 <!ENTITY CopyMessageId.label "Afrita Skeytis-Auðkenni">
 <!ENTITY CopyMessageId.accesskey "A">
 <!ENTITY OpenMessageForMsgId.label "Opna póst fyrir ákveðið auðkenni">

@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Cuir a-steach clàr">
-
 <!ENTITY size.label "Meud">
 <!ENTITY numRowsEditField.label "Sreathan:">
 <!ENTITY numRowsEditField.accessKey "r">

@@ -2,13 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY showAsDefault.label                            "Rumolwuj tikirib'äl k'o wi">
-<!ENTITY showAsDefault.accesskey                        "m">
-
+<!ENTITY showAsDefault.label "Rumolwuj tikirib'äl k'o wi">
+<!ENTITY showAsDefault.accesskey "m">
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label                        "B'i'aj o Taqoya'l">
-
+<!ENTITY SearchNameOrEmail.label "B'i'aj o Taqoya'l">
 <!-- Results Pane -->
-<!ENTITY Addrbook.label                                 "Kiwujil Ochochib'äl">
-<!ENTITY GeneratedName.label                            "B'i'aj">
-<!ENTITY PrimaryEmail.label                             "Taqoya'l">
+<!ENTITY Addrbook.label "Kiwujil Ochochib'äl">
+<!ENTITY GeneratedName.label "B'i'aj">
+<!ENTITY PrimaryEmail.label "Taqoya'l">

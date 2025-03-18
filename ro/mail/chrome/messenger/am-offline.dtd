@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "A">
 <!ENTITY syncGroupTitle.label "Sincronizarea mesajelor">
 <!ENTITY diskspaceGroupTitle.label "Spațiu pe disc">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Sincronizează local toate mesajele indiferent de vechime">
-<!ENTITY allAutosync.accesskey           "c">
-<!ENTITY ageAutosyncBefore.label         "Sincronizează-le pe cele mai recente">
-<!ENTITY ageAutosync.accesskey           "z">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "zile">
-<!ENTITY weekAgeInterval.label           "săptămâni">
-<!ENTITY monthAgeInterval.label          "luni">
-<!ENTITY yearAgeInterval.label           "ani">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Sincronizează local toate mesajele indiferent de vechime">
+<!ENTITY allAutosync.accesskey "c">
+<!ENTITY ageAutosyncBefore.label "Sincronizează-le pe cele mai recente">
+<!ENTITY ageAutosync.accesskey "z">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "zile">
+<!ENTITY weekAgeInterval.label "săptămâni">
+<!ENTITY monthAgeInterval.label "luni">
+<!ENTITY yearAgeInterval.label "ani">
+<!ENTITY ageAutosyncAfter.label "">

@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Semak Ejaan">
-
 <!ENTITY misspelledWord.label "Perkataan tersalah eja:">
 <!ENTITY wordEditField.label "Ganti dengan:">
 <!ENTITY wordEditField.accessKey "d">

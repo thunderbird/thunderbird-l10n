@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Ներմուծել Math">
-
 <!ENTITY sourceEditField.label "Մուտքագրել LaTeX բնագիրը.">
-
 <!ENTITY options.label "Ընտրանքներ">
 <!ENTITY optionInline.label "Անցանց">
 <!ENTITY optionInline.accesskey "ն">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "Ձ">
 <!ENTITY optionRTL.label "Աջից ձախ ուղղություն">
 <!ENTITY optionRTL.accesskey "Ա">
-
 <!ENTITY insertButton.label "Ներմուծել">
 <!ENTITY insertButton.accesskey "I">

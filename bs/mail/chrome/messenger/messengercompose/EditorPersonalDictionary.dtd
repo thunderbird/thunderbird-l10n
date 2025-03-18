@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Lični rječnik">
-
 <!ENTITY wordEditField.label "Nova riječ:">
 <!ENTITY wordEditField.accessKey "N">
 <!ENTITY AddButton.label "Dodaj">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "R">
 <!ENTITY RemoveButton.label "Ukloni">
 <!ENTITY RemoveButton.accessKey "U">
-
 <!ENTITY CloseButton.label "Zatvori">
 <!ENTITY CloseButton.accessKey "Z">

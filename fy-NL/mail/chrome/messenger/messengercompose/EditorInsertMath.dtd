@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Formule ynfiere">
-
 <!ENTITY sourceEditField.label "Fier LaTeX-boarnekoade yn:">
-
 <!ENTITY options.label "Opsjes">
 <!ENTITY optionInline.label "Ynline modus">
 <!ENTITY optionInline.accesskey "N">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "l">
 <!ENTITY optionRTL.label "Fan rjochts nei links">
 <!ENTITY optionRTL.accesskey "r">
-
 <!ENTITY insertButton.label "Ynfoegje">
 <!ENTITY insertButton.accesskey "Y">

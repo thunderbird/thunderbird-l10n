@@ -9,6 +9,3 @@
 <!ENTITY chooseFileButton.accessKey "a">
 <!ENTITY chooseFileLinkButton.label "Esbillar ficheru...">
 <!ENTITY chooseFileLinkButton.accessKey "u">
-
-
-<!-- Shared by Link and Image dialogs -->

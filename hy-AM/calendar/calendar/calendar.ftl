@@ -611,7 +611,7 @@ event-duration-menuitem-count-weeks =
 # $count (Number) - Number of minutes used to determine the correct plural form.
 event-duration-menuitem-minutes =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] րոպե
            *[other] րոպե
         }
@@ -621,7 +621,7 @@ event-duration-label-minutes =
 # $count (Number) - Number of hours used to determine the correct plural form.
 event-duration-menuitem-hours =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] ժամ
            *[other] Ժամ
         }
@@ -631,7 +631,7 @@ event-duration-label-hours =
 # $count (Number) - Number of days used to determine the correct plural form.
 event-duration-menuitem-days =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] օր
            *[other] օր
         }
@@ -641,7 +641,7 @@ event-duration-label-days =
 # $count (Number) - Number of weeks used to determine the correct plural form.
 event-duration-menuitem-weeks =
     .label =
-        { NUMBER($count) ->
+        { $count ->
             [one] շաբաթ
            *[other] շաբաթ
         }

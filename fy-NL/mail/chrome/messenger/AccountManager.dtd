@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Accountynstellingen">
-<!ENTITY  accountManagerCloseButton.label "Slute">
-
+<!ENTITY accountManagerCloseButton.label "Slute">
 <!ENTITY accountActionsButton.label "Accountaksjes">
 <!ENTITY accountActionsButton.accesskey "A">
 <!ENTITY addMailAccountButton.label "E-mailaccount tafoegje…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "Y">
 <!ENTITY removeButton.label "Account fuortsmite">
 <!ENTITY removeButton.accesskey "F">
-
 <!ENTITY addonsButton.label "Utwreidingen &amp; Tema’s">

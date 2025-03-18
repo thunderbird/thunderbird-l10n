@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "מאפייני תמונה">
-
 <!ENTITY pixelsPopup.value "פיקסלים">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "מיקום התמונה:">
 <!ENTITY locationEditField.accessKey "מ">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "הקלד טקסט להציג במקום התמונה">
 <!ENTITY noAltText.label "אל תשתמש בטקסט חלופי">
 <!ENTITY noAltText.accessKey "א">
-
 <!ENTITY previewBox.label "תצוגה מקדימה של התמונה">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "גודל אמיתי:">
 <!ENTITY actualSizeRadio.label "גודל אמיתי">
 <!ENTITY actualSizeRadio.accessKey "ג">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "שמור יחס אורך לרוחב">
 <!ENTITY constrainCheckbox.accessKey "י">
 <!ENTITY constrainCheckbox.tooltip "שמור על יחס גובה לרוחב של התמונה">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "מיפוי תמונה">
 <!ENTITY removeImageMapButton.label "הסרה">
 <!ENTITY removeImageMapButton.accessKey "ס">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "יישור טקסט ביחס לתמונה">
 <!ENTITY bottomPopup.value "בתחתית">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "במרכז">
 <!ENTITY wrapRightPopup.value "גלישה מימין">
 <!ENTITY wrapLeftPopup.value "גלישה משמאל">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "ריווח">
 <!ENTITY leftRightEditField.label "שמאל וימין:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "נ">
 <!ENTITY borderEditField.label "גבול עבה:">
 <!ENTITY borderEditField.accessKey "ע">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "הראה גבול סביב תמונה מקושרת">
 <!ENTITY showImageLinkBorder.accessKey "ג">
 <!ENTITY LinkAdvancedEditButton.label "עריכת קישור מתקדמת…">
 <!ENTITY LinkAdvancedEditButton.accessKey "ק">
 <!ENTITY LinkAdvancedEditButton.tooltip "הוסף או שנה תכונות HTML, תכונות סגנון ו־JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "טופס">
 <!ENTITY imageLocationTab.label "מיקום">

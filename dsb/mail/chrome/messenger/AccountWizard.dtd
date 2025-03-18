@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Identita">
 <!ENTITY identityDesc.label "Kužde konto jo identita, kótaraž wopśimujo informacije, kótarež identificěrujo śi napśeśiwo drugim luźam, gaž wóne dostaju waše powěsći.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Zapódajśo mě, kótarež dej se w pólu &quot;Wót&quot; wašych wuchadnych powěsćow pokazaś">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(na pśikład &quot;Měto Meškank&quot;).">
 <!ENTITY fullnameLabel.label "Wašo mě:">
 <!ENTITY fullnameLabel.accesskey "W">
-
 <!ENTITY emailLabel.label "E-mailowa adresa:">
 <!ENTITY emailLabel.accesskey "E">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Zapódajśo mě, z kótarymž cośo na toś to konto póśěgnuś (na pśikład, &quot;Źěłowe konto&quot;, &quot;Priwatne konto&quot; abo &quot;Konto za diskusije kupki&quot;).">
 <!ENTITY accnameLabel.label "Kontowe mě:">
 <!ENTITY accnameLabel.accesskey "K">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Glukužycenje!">
 <!ENTITY completionText.label "Pšosym pśeglědajśo, lěc slědujuce informacije su pšawe.">
 <!ENTITY newsServerNamePrefix.label "Mě serwera za diskusijne kupki (NNTP):">

@@ -8,7 +8,6 @@
 <!ENTITY pasteNoFormatting.label "Залепи без форматирање">
 <!ENTITY pasteNoFormatting.accesskey "б">
 <!ENTITY pasteAsQuotationCmd.label "Залепи како цитат">
-
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Внеси">
 <!ENTITY insertAnchorCmd.label "Именувано сидро…">
@@ -19,11 +18,9 @@
 <!ENTITY insertHTMLCmd.accesskey "h">
 <!ENTITY insertCharsCmd.label "Знаци и симболи…">
 <!ENTITY insertBreakAllCmd.label "Скрши под сликите">
-
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Креирај врска…">
 <!ENTITY editLinkCmd.label "Измени ја врската во нов Composer">
-
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Избор на фонт">
 <!ENTITY fontfaceMenu.label "Фонт">
@@ -31,18 +28,13 @@
 <!ENTITY fontFixedWidth.label "Фиксна ширина">
 <!ENTITY fontTimes.label "Times">
 <!ENTITY fontCourier.label "Courier">
-
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Избор на големина на фонт">
 <!ENTITY decreaseFontSize.label "Помал">
- <!-- < is above this key on many keyboards -->
 <!ENTITY increaseFontSize.label "Поголем">
- <!-- > is above this key on many keyboards -->
-
 <!ENTITY size-smallCmd.label "мала">
 <!ENTITY size-mediumCmd.label "средна">
 <!ENTITY size-largeCmd.label "голема">
-
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Стил на текст">
 <!ENTITY styleBoldCmd.label "Задебелени">
@@ -68,14 +60,11 @@
 <!ENTITY styleSamp.accesskey "м">
 <!ENTITY styleVar.label "Променлива">
 <!ENTITY styleVar.accesskey "П">
-
 <!ENTITY formatFontColor.label "Боја на текст…">
 <!ENTITY tableOrCellColor.label "Позадинска боја на табелата или ќелијата…">
 <!ENTITY tableOrCellColor.accesskey "б">
-
 <!ENTITY formatRemoveNamedAnchors.label "Отстрани ги именуваните сидра">
 <!ENTITY formatRemoveNamedAnchors.accesskey "т">
-
 <!ENTITY paragraphMenu.label "Параграф">
 <!ENTITY paragraphParagraphCmd.label "Параграф">
 <!ENTITY heading1Cmd.label "Heading 1">
@@ -86,7 +75,6 @@
 <!ENTITY heading6Cmd.label "Heading 6">
 <!ENTITY paragraphAddressCmd.label "Адреса">
 <!ENTITY paragraphPreformatCmd.label "Претходно форматирано">
-
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Список">
 <!ENTITY noneCmd.label "Ништо">
@@ -94,11 +82,9 @@
 <!ENTITY listNumberedCmd.label "Означена со бројки">
 <!ENTITY listTermCmd.label "Term">
 <!ENTITY listDefinitionCmd.label "Дефиниција">
-
 <!ENTITY ParagraphSelect.tooltip "Избор на формат за параграф">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Главен текст">
-
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Порамни">
 <!ENTITY alignLeft.label "Лево">
@@ -109,22 +95,16 @@
 <!ENTITY alignRight.tooltip "Десно порамнување">
 <!ENTITY alignJustify.label "Порамни од двете страни">
 <!ENTITY alignJustify.tooltip "Порамнување од двете страни">
-
 <!ENTITY increaseIndent.label "Зголеми го поместувањето">
 <!ENTITY decreaseIndent.label "Намали го поместувањето">
-
 <!ENTITY colorsAndBackground.label "Бои и позадина на страницата…">
-
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Табела">
-
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Избери">
-
 <!ENTITY tableSelectMenu2.label "Избери табела">
 <!ENTITY tableInsertMenu2.label "Внеси табела">
 <!ENTITY tableDeleteMenu2.label "Избриши табела">
-
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label "Внеси">
 <!ENTITY tableTable.label "Табела">
@@ -144,18 +124,15 @@
 <!ENTITY tableCellAfter.label "Ќелија после">
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label "Избриши">
-
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
-     But value must be set here for accesskey to draw properly
--->
+     But value must be set here for accesskey to draw properly -->
 <!ENTITY tableJoinCells.label "ј">
 <!ENTITY tableSplitCell.label "Подели ја ќелијата">
 <!ENTITY convertToTable.label "Од изборот креирај табела">
 <!ENTITY tableProperties.label "Својства на табелата…">
 <!ENTITY tableProperties.accesskey "о">
-
 <!-- Toolbar-only items -->
 <!ENTITY imageToolbarCmd.label "Слика">
 <!ENTITY imageToolbarCmd.tooltip "Внесува нова слика или ги менува својствата на избраната слика">
@@ -169,8 +146,6 @@
 <!ENTITY anchorToolbarCmd.tooltip "Внесува ново именувано сидро или ги менува својствата на избраното сидро">
 <!ENTITY TextColorButton.tooltip "Избор на боја за текст">
 <!ENTITY BackgroundColorButton.tooltip "Избор на боја за позадина">
-
-<!-- Editor toolbar -->
 <!ENTITY decreaseFontSizeToolbarCmd.tooltip "Помала големина на фонт">
 <!ENTITY increaseFontSizeToolbarCmd.tooltip "Поголема големина на фонт">
 <!ENTITY boldToolbarCmd.tooltip "Задебелени">
@@ -185,13 +160,12 @@
 <!ENTITY alignLeftButton.tooltip "Го порамнува текстот по левата маргина">
 <!ENTITY alignCenterButton.tooltip "Го порамнува текстот централно">
 <!ENTITY alignRightButton.tooltip "Го порамнува текстот по десната маргина">
-
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Внеси">
-<!ENTITY insertTOC.accesskey      "и">
-<!ENTITY updateTOC.label          "Надгради">
-<!ENTITY updateTOC.accesskey      "а">
-<!ENTITY removeTOC.label          "Отстрани">
-<!ENTITY removeTOC.accesskey      "р">
-<!ENTITY tocMenu.label            "Содржина…">
-<!ENTITY tocMenu.accesskey        "д">
+<!ENTITY insertTOC.label "Внеси">
+<!ENTITY insertTOC.accesskey "и">
+<!ENTITY updateTOC.label "Надгради">
+<!ENTITY updateTOC.accesskey "а">
+<!ENTITY removeTOC.label "Отстрани">
+<!ENTITY removeTOC.accesskey "р">
+<!ENTITY tocMenu.label "Содржина…">
+<!ENTITY tocMenu.accesskey "д">

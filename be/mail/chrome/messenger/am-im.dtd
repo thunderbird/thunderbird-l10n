@@ -1,16 +1,15 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY accountWindow.title           "Уласцівасці ўліковага запісу">
-<!ENTITY accountWindow.width           "300">
-<!ENTITY account.general               "Асноўныя">
-<!ENTITY account.advanced              "Пашыраныя параметры">
-<!ENTITY account.name                  "Імя карыстальніка:">
-<!ENTITY account.password              "Пароль:">
-<!ENTITY account.alias                 "Псеўданім:">
-<!ENTITY account.newMailNotification   "Паведамляць пра новую пошту">
-<!ENTITY account.autojoin              "Аўтаматычна далучацца да наступных каналаў:">
+<!ENTITY accountWindow.title "Уласцівасці ўліковага запісу">
+<!ENTITY accountWindow.width "300">
+<!ENTITY account.general "Асноўныя">
+<!ENTITY account.advanced "Пашыраныя параметры">
+<!ENTITY account.name "Імя карыстальніка:">
+<!ENTITY account.password "Пароль:">
+<!ENTITY account.alias "Псеўданім:">
+<!ENTITY account.newMailNotification "Паведамляць пра новую пошту">
+<!ENTITY account.autojoin "Аўтаматычна далучацца да наступных каналаў:">
 <!ENTITY account.proxySettings.caption "Налады проксі:">
-<!ENTITY account.proxySettings.change.label     "Змяніць…">
+<!ENTITY account.proxySettings.change.label "Змяніць…">
 <!ENTITY account.proxySettings.change.accessKey "З">

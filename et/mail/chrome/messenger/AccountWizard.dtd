@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Identiteet">
 <!ENTITY identityDesc.label "Igal kontol võib olla erinev identiteet. See on info, mis kirjadega saatja kohta kaasa läheb.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Sisesta nimi, mida soovid näidata väljuvate kirjade &quot;Saatja&quot; väljal.">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(näiteks &quot;Ants Kaerajaan&quot;).">
 <!ENTITY fullnameLabel.label "Sinu nimi:">
 <!ENTITY fullnameLabel.accesskey "S">
-
 <!ENTITY emailLabel.label "E-posti aadress:">
 <!ENTITY emailLabel.accesskey "E">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Sisesta nimi, millega soovid sellele kontole viidata (näiteks &quot;Kodu&quot;, &quot;Töö&quot;, &quot;Uudised&quot;).">
 <!ENTITY accnameLabel.label "Konto nimi:">
 <!ENTITY accnameLabel.accesskey "K">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Õnnitlused!">
 <!ENTITY completionText.label "Palun kontrolli, kas alljärgnev on korrektne.">
 <!ENTITY newsServerNamePrefix.label "Uudisteserver:">

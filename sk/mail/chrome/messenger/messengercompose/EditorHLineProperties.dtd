@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Vlastnosti vodorovnej čiary">
-
 <!ENTITY dimensionsBox.label "Rozmery">
 <!ENTITY heightEditField.label "Výška">
 <!ENTITY heightEditField.accessKey "V">
@@ -19,7 +17,6 @@
 <!ENTITY centerRadio.accessKey "s">
 <!ENTITY rightRadio.label "Doprava">
 <!ENTITY rightRadio.accessKey "p">
-
 <!ENTITY threeDShading.label "3D tieň">
 <!ENTITY threeDShading.accessKey "t">
 <!ENTITY saveSettings.label "Uložiť nastavenie">

@@ -3,35 +3,34 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- for SearchDialog.xhtml -->
-<!ENTITY searchHeading.label         "Kur ieškoti:">
-<!ENTITY searchHeading.accesskey     "K">
-<!ENTITY searchSubfolders.label      "Ieškoti poaplankiuose">
-<!ENTITY searchSubfolders.accesskey  "e">
-<!ENTITY searchOnServer.label        "Ieškoti serveryje">
-<!ENTITY searchOnServer.accesskey    "s">
-<!ENTITY resetButton.label           "Išvalyti">
-<!ENTITY resetButton.accesskey       "v">
-<!ENTITY openButton.label            "Atverti">
-<!ENTITY openButton.accesskey        "A">
-<!ENTITY deleteButton.label          "Pašalinti">
-<!ENTITY deleteButton.accesskey      "š">
-<!ENTITY searchDialogTitle.label     "Laiškų paieška">
-<!ENTITY results.label               "Paieškos rezultatai">
-<!ENTITY moveButton.label            "Perkelti į aplanką">
-<!ENTITY moveButton.accesskey        "P">
-<!ENTITY closeCmd.key                "W">
-<!ENTITY openInFolder.label          "Rodyti aplanke">
-<!ENTITY openInFolder.accesskey      "R">
-<!ENTITY saveAsVFButton.label        "Įrašyti kaip radinių aplanką">
-<!ENTITY saveAsVFButton.accesskey    "a">
-
+<!ENTITY searchHeading.label "Kur ieškoti:">
+<!ENTITY searchHeading.accesskey "K">
+<!ENTITY searchSubfolders.label "Ieškoti poaplankiuose">
+<!ENTITY searchSubfolders.accesskey "e">
+<!ENTITY searchOnServer.label "Ieškoti serveryje">
+<!ENTITY searchOnServer.accesskey "s">
+<!ENTITY resetButton.label "Išvalyti">
+<!ENTITY resetButton.accesskey "v">
+<!ENTITY openButton.label "Atverti">
+<!ENTITY openButton.accesskey "A">
+<!ENTITY deleteButton.label "Pašalinti">
+<!ENTITY deleteButton.accesskey "š">
+<!ENTITY searchDialogTitle.label "Laiškų paieška">
+<!ENTITY results.label "Paieškos rezultatai">
+<!ENTITY moveButton.label "Perkelti į aplanką">
+<!ENTITY moveButton.accesskey "P">
+<!ENTITY closeCmd.key "W">
+<!ENTITY openInFolder.label "Rodyti aplanke">
+<!ENTITY openInFolder.accesskey "R">
+<!ENTITY saveAsVFButton.label "Įrašyti kaip radinių aplanką">
+<!ENTITY saveAsVFButton.accesskey "a">
 <!-- for abSearchDialog.xhtml -->
-<!ENTITY abSearchHeading.label       "Kur ieškoti:">
-<!ENTITY abSearchHeading.accesskey   "K">
-<!ENTITY propertiesButton.label      "Savybės">
-<!ENTITY propertiesButton.accesskey  "S">
-<!ENTITY composeButton.label         "Rašyti laišką">
-<!ENTITY composeButton.accesskey     "l">
-<!ENTITY deleteCardButton.label      "Pašalinti">
-<!ENTITY deleteCardButton.accesskey  "š">
-<!ENTITY abSearchDialogTitle.label   "Paieška adresų knygoje">
+<!ENTITY abSearchHeading.label "Kur ieškoti:">
+<!ENTITY abSearchHeading.accesskey "K">
+<!ENTITY propertiesButton.label "Savybės">
+<!ENTITY propertiesButton.accesskey "S">
+<!ENTITY composeButton.label "Rašyti laišką">
+<!ENTITY composeButton.accesskey "l">
+<!ENTITY deleteCardButton.label "Pašalinti">
+<!ENTITY deleteCardButton.accesskey "š">
+<!ENTITY abSearchDialogTitle.label "Paieška adresų knygoje">

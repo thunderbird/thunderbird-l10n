@@ -4,11 +4,8 @@
 
 <!ENTITY e2eTitle.label "Xifratge d'extrem a extrem">
 <!ENTITY e2eLearnMore.label "Més informació">
-
 <!ENTITY e2eEnc.description "Sense xifratge d'extrem a extrem, el contingut dels missatges queda fàcilment exposat al vostre proveïdor de correu electrònic i a la vigilància de masses.">
-
 <!ENTITY e2eTechPref.description "Tecnologia de xifratge preferida:">
-
 <!ENTITY encryptionCert2.message "Certificat personal per a xifrar:">
 <!ENTITY digitalSign.certificate.button "Selecciona…">
 <!ENTITY digitalSign.certificate.accesskey "S">
@@ -20,27 +17,20 @@
 <!ENTITY encryption.certificate_clear.accesskey "b">
 <!ENTITY signingGroupTitle.label "Signatura digital">
 <!ENTITY signingCert2.message "Certificat personal per a signar digitalment:">
-
 <!ENTITY sendingDefaults.label "Paràmetres per defecte per a enviar missatges">
-
 <!ENTITY technologyAutomatic.label "Selecciona automàticament en funció de les claus o certificats disponibles">
-
 <!ENTITY certificates2.label "S/MIME">
 <!ENTITY manageCerts3.label "Gestiona els certificats S/MIME">
 <!ENTITY manageCerts3.accesskey "G">
 <!ENTITY manageDevices2.label "Dispositius de seguretat S/MIME">
 <!ENTITY manageDevices2.accesskey "D">
-
 <!ENTITY technologySMIME.label "Prioritza S/MIME">
 <!ENTITY technologyOpenPGP.label "Prioritza OpenPGP">
-
 <!ENTITY openpgpKeys.label "OpenPGP">
-
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Seleccioneu un certificat">
-<!ENTITY certPicker.info  "Certificat:">
+<!ENTITY certPicker.info "Certificat:">
 <!ENTITY certPicker.detailsLabel "Detalls del certificat seleccionat:">
-
 <!ENTITY openpgpKey.message "Clau personal per a xifrar i per a signar digitalment:">
 <!ENTITY openpgpKey.button "Defineix la clau personal…">
 <!ENTITY openpgpKey.accesskey "o">

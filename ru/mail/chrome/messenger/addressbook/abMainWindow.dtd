@@ -2,13 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY showAsDefault.label                            "Каталог по умолчанию при открытии">
-<!ENTITY showAsDefault.accesskey                        "ю">
-
+<!ENTITY showAsDefault.label "Каталог по умолчанию при открытии">
+<!ENTITY showAsDefault.accesskey "ю">
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label                        "Имя или e-mail адрес">
-
+<!ENTITY SearchNameOrEmail.label "Имя или e-mail адрес">
 <!-- Results Pane -->
-<!ENTITY Addrbook.label                                 "Адресная книга">
-<!ENTITY GeneratedName.label                            "Имя">
-<!ENTITY PrimaryEmail.label                             "Электронная почта">
+<!ENTITY Addrbook.label "Адресная книга">
+<!ENTITY GeneratedName.label "Имя">
+<!ENTITY PrimaryEmail.label "Электронная почта">

@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Ідентифікація">
 <!ENTITY identityDesc.label "Кожен обліковий запис має ідентифікатор – інформацію, що визначає вас для інших, коли вони отримують ваші повідомлення.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Введіть своє ім'я, яке з'являтиметься в полі &quot;Від&quot; ваших вихідних повідомлень">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(наприклад, «Микола Козак»).">
 <!ENTITY fullnameLabel.label "Ваше ім'я:">
 <!ENTITY fullnameLabel.accesskey "В">
-
 <!ENTITY emailLabel.label "Електронна адреса:">
 <!ENTITY emailLabel.accesskey "а">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Введіть бажану назву для цього облікового запису (наприклад, &quot;Робота&quot;, &quot;Особисте&quot; або &quot;Новини&quot;).">
 <!ENTITY accnameLabel.label "Назва облікового запису:">
 <!ENTITY accnameLabel.accesskey "Н">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Вітаємо!">
 <!ENTITY completionText.label "Будь ласка, перевірте правильність наступної інформації.">
 <!ENTITY newsServerNamePrefix.label "Назва сервера новин (NNTP):">

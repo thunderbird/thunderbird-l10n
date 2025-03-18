@@ -8,7 +8,6 @@
 <!ENTITY author.label "Autor">
 <!ENTITY organizationField4.label "Ent">
 <!ENTITY replyToField4.label "Përgjigjuni te ">
-
 <!ENTITY subjectField4.label "Subjekt ">
 <!ENTITY ccField4.label "Cc">
 <!ENTITY bccField4.label "Bcc ">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "ID mesazhi ">
 <!ENTITY inReplyToField4.label "Si përgjigje për">
 <!ENTITY originalWebsite4.label "Sajt ">
-
 <!ENTITY hdrArchiveButton1.label "Arkivoje">
 <!ENTITY hdrArchiveButton1.tooltip "Arkivojeni këtë mesazh">
 <!ENTITY hdrSmartReplyButton1.label "Përgjigje e Mençur">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "I vini shenjë këtij mesazhi si i pavlerë">
 <!ENTITY hdrTrashButton1.label "Fshije">
 <!ENTITY hdrTrashButton1.tooltip "Fshijeni këtë mesazh">
-
 <!ENTITY hdrViewToolbarShowFull.label "Shfaq Ikona dhe Tekst">
 <!ENTITY hdrViewToolbarShowFull.accesskey "d">
 <!ENTITY hdrViewToolbarShowIcons.label "Shfaq Vetëm Ikona">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "T">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Shfaqe Përherë pjesën Përgjigjiuni Dërguesit">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "P">
-
 <!ENTITY otherActionsButton2.label "Më tepër">
 <!ENTITY otherActionsButton.tooltip "Veprime të tjera">
 <!ENTITY otherActionsOpenConversation1.label "Hape si Bisedë">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "u">
 <!ENTITY otherActionsPrint1.label "Shtypni…">
 <!ENTITY otherActionsPrint1.accesskey "y">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Shfaqe Fillimisht Kuadratin e Bashkëngjitjeve">
-<!ENTITY startExpandedCmd.accesskey    "S">
-
+<!ENTITY startExpandedCmd.label "Shfaqe Fillimisht Kuadratin e Bashkëngjitjeve">
+<!ENTITY startExpandedCmd.accesskey "S">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Hape">
-<!ENTITY openAttachmentCmd.accesskey    "H">
-<!ENTITY saveAsAttachmentCmd.label    "Ruajeni Si…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "S">
-<!ENTITY detachAttachmentCmd.label    "Shqitni…">
-<!ENTITY detachAttachmentCmd.accesskey    "i">
-<!ENTITY deleteAttachmentCmd.label    "Fshije">
-<!ENTITY deleteAttachmentCmd.accesskey    "F">
-<!ENTITY openAllAttachmentsCmd.label    "Hapini Krejt…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "H">
-<!ENTITY saveAllAttachmentsCmd.label    "Ruajini Krejt…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "R">
-<!ENTITY detachAllAttachmentsCmd.label    "Shqitini Krejt…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "S">
-<!ENTITY deleteAllAttachmentsCmd.label    "Fshijini Krejt…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "F">
-
+<!ENTITY openAttachmentCmd.label "Hape">
+<!ENTITY openAttachmentCmd.accesskey "H">
+<!ENTITY saveAsAttachmentCmd.label "Ruajeni Si…">
+<!ENTITY saveAsAttachmentCmd.accesskey "S">
+<!ENTITY detachAttachmentCmd.label "Shqitni…">
+<!ENTITY detachAttachmentCmd.accesskey "i">
+<!ENTITY deleteAttachmentCmd.label "Fshije">
+<!ENTITY deleteAttachmentCmd.accesskey "F">
+<!ENTITY openAllAttachmentsCmd.label "Hapini Krejt…">
+<!ENTITY openAllAttachmentsCmd.accesskey "H">
+<!ENTITY saveAllAttachmentsCmd.label "Ruajini Krejt…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "R">
+<!ENTITY detachAllAttachmentsCmd.label "Shqitini Krejt…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "S">
+<!ENTITY deleteAllAttachmentsCmd.label "Fshijini Krejt…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "F">
 <!ENTITY openAttachment.tooltip "Hapni kartelën e bashkëngjitur">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Hap Dosjen Përkatëse">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "H">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Shfaqe Në Finder">
+<!ENTITY detachedAttachmentFolder.show.label "Hap Dosjen Përkatëse">
+<!ENTITY detachedAttachmentFolder.show.accesskey "H">
+<!ENTITY detachedAttachmentFolder.showMac.label "Shfaqe Në Finder">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Ruaje">
-<!ENTITY saveAttachmentButton1.tooltip     "Ruajeni kartelën e bashkëngjitur">
-<!ENTITY saveAllAttachmentsButton1.label   "Ruaji Krejt">
+<!ENTITY saveAttachmentButton1.label "Ruaje">
+<!ENTITY saveAttachmentButton1.tooltip "Ruajeni kartelën e bashkëngjitur">
+<!ENTITY saveAllAttachmentsButton1.label "Ruaji Krejt">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Ruajini krejt kartelat e bashkëngjitura">
-
-<!ENTITY copyLinkCmd.label        "Kopjo Vendndodhje Lidhjeje">
-<!ENTITY copyLinkCmd.accesskey    "K">
-
+<!ENTITY copyLinkCmd.label "Kopjo Vendndodhje Lidhjeje">
+<!ENTITY copyLinkCmd.accesskey "K">
 <!ENTITY CopyMessageId.label "Kopjo ID Mesazhi">
 <!ENTITY CopyMessageId.accesskey "K">
 <!ENTITY OpenMessageForMsgId.label "Hap Mesazhin Për ID-në">

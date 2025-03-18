@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Gwiriañ ar reizhskrivañ">
-
 <!ENTITY misspelledWord.label "Ger skrivet fall :">
 <!ENTITY wordEditField.label "Amsaviñ gant :">
 <!ENTITY wordEditField.accessKey "n">

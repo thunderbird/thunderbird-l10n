@@ -8,7 +8,6 @@
 <!ENTITY author.label "Автор">
 <!ENTITY organizationField4.label "Організація ">
 <!ENTITY replyToField4.label "Відповідати-до ">
-
 <!ENTITY subjectField4.label "Тема ">
 <!ENTITY ccField4.label "Копія ">
 <!ENTITY bccField4.label "Прихована копія ">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Message ID ">
 <!ENTITY inReplyToField4.label "У відповідь на ">
 <!ENTITY originalWebsite4.label "Сайт ">
-
 <!ENTITY hdrArchiveButton1.label "Архівувати">
 <!ENTITY hdrArchiveButton1.tooltip "Архівувати це повідомлення">
 <!ENTITY hdrSmartReplyButton1.label "Розумна відповідь">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Позначити це повідомлення як спам">
 <!ENTITY hdrTrashButton1.label "Видалити">
 <!ENTITY hdrTrashButton1.tooltip "Видалити це повідомлення">
-
 <!ENTITY hdrViewToolbarShowFull.label "Показувати значки та текст">
 <!ENTITY hdrViewToolbarShowFull.accesskey "т">
 <!ENTITY hdrViewToolbarShowIcons.label "Показувати лише значки">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "л">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Завжди показувати Відповісти Відправнику">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "В">
-
 <!ENTITY otherActionsButton2.label "Більше">
 <!ENTITY otherActionsButton.tooltip "Більше дій">
 <!ENTITY otherActionsOpenConversation1.label "Відкрити в розмові">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "д">
 <!ENTITY otherActionsPrint1.label "Друкувати…">
 <!ENTITY otherActionsPrint1.accesskey "Д">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Початково показувати панель вкладень">
-<!ENTITY startExpandedCmd.accesskey    "в">
-
+<!ENTITY startExpandedCmd.label "Початково показувати панель вкладень">
+<!ENTITY startExpandedCmd.accesskey "в">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Відкрити">
-<!ENTITY openAttachmentCmd.accesskey    "В">
-<!ENTITY saveAsAttachmentCmd.label    "Зберегти як…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "З">
-<!ENTITY detachAttachmentCmd.label    "Викласти…">
-<!ENTITY detachAttachmentCmd.accesskey    "к">
-<!ENTITY deleteAttachmentCmd.label    "Видалити">
-<!ENTITY deleteAttachmentCmd.accesskey    "д">
-<!ENTITY openAllAttachmentsCmd.label    "Відкрити всі…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "В">
-<!ENTITY saveAllAttachmentsCmd.label    "Зберегти всі…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "З">
-<!ENTITY detachAllAttachmentsCmd.label    "Викласти всі…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "л">
-<!ENTITY deleteAllAttachmentsCmd.label    "Видалити всі…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "д">
-
+<!ENTITY openAttachmentCmd.label "Відкрити">
+<!ENTITY openAttachmentCmd.accesskey "В">
+<!ENTITY saveAsAttachmentCmd.label "Зберегти як…">
+<!ENTITY saveAsAttachmentCmd.accesskey "З">
+<!ENTITY detachAttachmentCmd.label "Викласти…">
+<!ENTITY detachAttachmentCmd.accesskey "к">
+<!ENTITY deleteAttachmentCmd.label "Видалити">
+<!ENTITY deleteAttachmentCmd.accesskey "д">
+<!ENTITY openAllAttachmentsCmd.label "Відкрити всі…">
+<!ENTITY openAllAttachmentsCmd.accesskey "В">
+<!ENTITY saveAllAttachmentsCmd.label "Зберегти всі…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "З">
+<!ENTITY detachAllAttachmentsCmd.label "Викласти всі…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "л">
+<!ENTITY deleteAllAttachmentsCmd.label "Видалити всі…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "д">
 <!ENTITY openAttachment.tooltip "Відкрити вкладений файл">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Відкрити теку з файлом">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "В">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Показати у Finder">
+<!ENTITY detachedAttachmentFolder.show.label "Відкрити теку з файлом">
+<!ENTITY detachedAttachmentFolder.show.accesskey "В">
+<!ENTITY detachedAttachmentFolder.showMac.label "Показати у Finder">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Зберегти">
-<!ENTITY saveAttachmentButton1.tooltip     "Зберегти вкладений файл">
-<!ENTITY saveAllAttachmentsButton1.label   "Зберегти всі">
+<!ENTITY saveAttachmentButton1.label "Зберегти">
+<!ENTITY saveAttachmentButton1.tooltip "Зберегти вкладений файл">
+<!ENTITY saveAllAttachmentsButton1.label "Зберегти всі">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Зберегти всі вкладені файли">
-
-<!ENTITY copyLinkCmd.label        "Копіювати адресу посилання">
-<!ENTITY copyLinkCmd.accesskey    "К">
-
+<!ENTITY copyLinkCmd.label "Копіювати адресу посилання">
+<!ENTITY copyLinkCmd.accesskey "К">
 <!ENTITY CopyMessageId.label "Копіювати ідентифікатор">
 <!ENTITY CopyMessageId.accesskey "К">
 <!ENTITY OpenMessageForMsgId.label "Відкрити повідомлення за ID">

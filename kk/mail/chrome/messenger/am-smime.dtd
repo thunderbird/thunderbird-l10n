@@ -4,11 +4,8 @@
 
 <!ENTITY e2eTitle.label "Өтпелі шифрлеу">
 <!ENTITY e2eLearnMore.label "Көбірек білу">
-
 <!ENTITY e2eEnc.description "Өтпелі шифрлеусіз хабарламалардың мазмұны эл. пошта провайдеріне және жаппай бақылау қызметтеріне оңай түрде қолжетімді.">
-
 <!ENTITY e2eTechPref.description "Қалайтын шифрлеу технологиясы:">
-
 <!ENTITY encryptionCert2.message "Шифрлеу үшін жеке сертификат:">
 <!ENTITY digitalSign.certificate.button "Таңдау…">
 <!ENTITY digitalSign.certificate.accesskey "с">
@@ -20,27 +17,20 @@
 <!ENTITY encryption.certificate_clear.accesskey "е">
 <!ENTITY signingGroupTitle.label "Цифрлық қолтаңбаларды қою">
 <!ENTITY signingCert2.message "Цифрлық қолтаңба қою үшін жеке сертификат:">
-
 <!ENTITY sendingDefaults.label "Хабарламаларды жіберу үшін үнсіз келісім баптаулары">
-
 <!ENTITY technologyAutomatic.label "Қолжетімді кілттер немесе сертификаттарға байланысты автоматты түрде таңдау">
-
 <!ENTITY certificates2.label "S/MIME">
 <!ENTITY manageCerts3.label "S/MIME сертификаттарын басқару">
 <!ENTITY manageCerts3.accesskey "е">
 <!ENTITY manageDevices2.label "S/MIME қауіпсіздік құрылғылары">
 <!ENTITY manageDevices2.accesskey "у">
-
 <!ENTITY technologySMIME.label "S/MIME қалау">
 <!ENTITY technologyOpenPGP.label "OpenPGP қалау">
-
 <!ENTITY openpgpKeys.label "OpenPGP">
-
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Сертификатты таңдау">
-<!ENTITY certPicker.info  "Сертификат:">
+<!ENTITY certPicker.info "Сертификат:">
 <!ENTITY certPicker.detailsLabel "Таңдалған сертификат ақпараты:">
-
 <!ENTITY openpgpKey.message "Шифрлеу және цифрлық қолтаңба қою үшін жеке кілт:">
 <!ENTITY openpgpKey.button "Жеке кілтті орнату…">
 <!ENTITY openpgpKey.accesskey "е">

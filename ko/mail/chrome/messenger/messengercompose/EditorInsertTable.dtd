@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "표 삽입">
-
 <!ENTITY size.label "크기">
 <!ENTITY numRowsEditField.label "행:">
 <!ENTITY numRowsEditField.accessKey "R">

@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Убаци табелу">
-
 <!ENTITY size.label "Величина">
 <!ENTITY numRowsEditField.label "Редова:">
 <!ENTITY numRowsEditField.accessKey "Р">

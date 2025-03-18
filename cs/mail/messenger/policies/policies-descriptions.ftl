@@ -28,12 +28,12 @@ policy-CaptivePortal = Povolení nebo zakázání podpory captive portálů.
 policy-CertificatesDescription = Přidat certifikáty nebo použít vestavěné certifikáty.
 policy-Cookies = Pravidla pro ukládání nebo blokování cookies.
 policy-DisableBuiltinPDFViewer =
-    Zablokování PDF prohlížeče PDF.js vestavěného { -brand-short-name.gender ->
-        [masculine] ve { -brand-short-name(case: "loc") }
-        [feminine] v { -brand-short-name(case: "loc") }
-        [neuter] v { -brand-short-name(case: "loc") }
-       *[other] v aplikaci { -brand-short-name }
-    }.
+    { -brand-short-name.gender ->
+        [masculine] Zablokování PDF prohlížeče PDF.js vestavěného ve { -brand-short-name(case: "loc") }.
+        [feminine] Zablokování PDF prohlížeče PDF.js vestavěného v { -brand-short-name(case: "loc") }.
+        [neuter] Zablokování PDF prohlížeče PDF.js vestavěného v { -brand-short-name(case: "loc") }.
+       *[other] Zablokování PDF prohlížeče PDF.js vestavěného v aplikaci { -brand-short-name }.
+    }
 policy-DisabledCiphers = Zakázané metody šifrování.
 policy-DefaultDownloadDirectory = Nastavení výchozího adresáře pro stahování souborů.
 policy-DisableAppUpdate =
@@ -97,12 +97,12 @@ policy-OverridePostUpdatePage = Nastavení vlastní stránky po aktualizaci. Pok
 policy-PasswordManagerEnabled = Povolení ukládat přihlašovací údaje do správce hesel.
 # PDF.js and PDF should not be translated
 policy-PDFjs =
-    Zablokování nebo nastavení PDF prohlížeče PDF.js vestavěného { -brand-short-name.gender ->
-        [masculine] ve { -brand-short-name(case: "loc") }
-        [feminine] v { -brand-short-name(case: "loc") }
-        [neuter] v { -brand-short-name(case: "loc") }
-       *[other] v aplikaci { -brand-short-name }
-    }.
+    { -brand-short-name.gender ->
+        [masculine] Zablokování nebo nastavení PDF prohlížeče PDF.js vestavěného ve { -brand-short-name(case: "loc") }.
+        [feminine] Zablokování nebo nastavení PDF prohlížeče PDF.js vestavěného v { -brand-short-name(case: "loc") }.
+        [neuter] Zablokování nebo nastavení PDF prohlížeče PDF.js vestavěného v { -brand-short-name(case: "loc") }.
+       *[other] Zablokování nebo nastavení PDF prohlížeče PDF.js vestavěného v aplikaci { -brand-short-name }.
+    }
 policy-Permissions2 = Nastavení oprávnění pro kameru, mikrofon, zjišťování polohy, oznámení a automatické přehrávání.
 policy-Preferences = Nastavení a uzamčení hodnoty pro podmnožinu předvoleb.
 policy-PrimaryPassword = Vyžadovat nebo zabránit používání hlavního hesla.

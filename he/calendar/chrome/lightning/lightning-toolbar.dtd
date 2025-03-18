@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "לוח שנה">
-<!ENTITY lightning.toolbar.calendar.tooltip   "מעבר ללשונית לוח השנה">
+<!ENTITY lightning.toolbar.calendar.label "לוח שנה">
+<!ENTITY lightning.toolbar.calendar.tooltip "מעבר ללשונית לוח השנה">
 <!ENTITY lightning.toolbar.calendar.accesskey "ל">
-<!ENTITY lightning.toolbar.task.label         "משימות">
-<!ENTITY lightning.toolbar.task.tooltip       "מעבר ללשונית משימות">
-<!ENTITY lightning.toolbar.task.accesskey     "מ">
-
+<!ENTITY lightning.toolbar.task.label "משימות">
+<!ENTITY lightning.toolbar.task.tooltip "מעבר ללשונית משימות">
+<!ENTITY lightning.toolbar.task.accesskey "מ">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "יומי">
-<!ENTITY lightning.toolbar.day.accesskey             "י">
-<!ENTITY lightning.toolbar.week.label                "שבועי">
-<!ENTITY lightning.toolbar.week.accesskey            "ש">
-<!ENTITY lightning.toolbar.multiweek.label           "רב שבועי">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "ר">
-<!ENTITY lightning.toolbar.month.label               "חודשי">
-<!ENTITY lightning.toolbar.month.accesskey           "ח">
-<!ENTITY lightning.toolbar.calendarmenu.label        "חלונית לוח שנה">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "ח">
-<!ENTITY lightning.toolbar.calendarpane.label        "הצגת חלונית לוח שנה">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "ח">
+<!ENTITY lightning.toolbar.day.label "יומי">
+<!ENTITY lightning.toolbar.day.accesskey "י">
+<!ENTITY lightning.toolbar.week.label "שבועי">
+<!ENTITY lightning.toolbar.week.accesskey "ש">
+<!ENTITY lightning.toolbar.multiweek.label "רב שבועי">
+<!ENTITY lightning.toolbar.multiweek.accesskey "ר">
+<!ENTITY lightning.toolbar.month.label "חודשי">
+<!ENTITY lightning.toolbar.month.accesskey "ח">
+<!ENTITY lightning.toolbar.calendarmenu.label "חלונית לוח שנה">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "ח">
+<!ENTITY lightning.toolbar.calendarpane.label "הצגת חלונית לוח שנה">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "ח">

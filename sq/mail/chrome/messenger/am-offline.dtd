@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "T">
 <!ENTITY syncGroupTitle.label "Njëkohësim Mesazhesh">
 <!ENTITY diskspaceGroupTitle.label "Vend në Disk">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Njëkohëso lokalisht tërë mesazhet, pavarësisht nga mosha">
-<!ENTITY allAutosync.accesskey           "N">
-<!ENTITY ageAutosyncBefore.label         "Njëkohëso më të freskëtit">
-<!ENTITY ageAutosync.accesskey           "f">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "Ditë">
-<!ENTITY weekAgeInterval.label           "Javë">
-<!ENTITY monthAgeInterval.label          "Muaj">
-<!ENTITY yearAgeInterval.label           "Vite">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Njëkohëso lokalisht tërë mesazhet, pavarësisht nga mosha">
+<!ENTITY allAutosync.accesskey "N">
+<!ENTITY ageAutosyncBefore.label "Njëkohëso më të freskëtit">
+<!ENTITY ageAutosync.accesskey "f">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "Ditë">
+<!ENTITY weekAgeInterval.label "Javë">
+<!ENTITY monthAgeInterval.label "Muaj">
+<!ENTITY yearAgeInterval.label "Vite">
+<!ENTITY ageAutosyncAfter.label "">

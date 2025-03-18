@@ -3,9 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "ਅਕਾਊਂਟ ਸੈਟਿੰਗ">
-
 <!ENTITY accountActionsButton.label "ਅਕਾਊਂਟ ਕਾਰਵਾਈਆਂ">
 <!ENTITY accountActionsButton.accesskey "A">
 <!ENTITY addMailAccountButton.label "Add Mail Account…">
@@ -16,4 +14,3 @@
 <!ENTITY setDefaultButton.accesskey "D">
 <!ENTITY removeButton.label "ਅਕਾਊਂਟ ਹਟਾਓ">
 <!ENTITY removeButton.accesskey "R">
-

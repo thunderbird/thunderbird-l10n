@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Lisää taulukko">
-
 <!ENTITY size.label "Koko">
 <!ENTITY numRowsEditField.label "Rivejä:">
 <!ENTITY numRowsEditField.accessKey "R">

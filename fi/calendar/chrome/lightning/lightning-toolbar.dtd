@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Kalenteri">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Siirry Kalenteri-välilehteen">
+<!ENTITY lightning.toolbar.calendar.label "Kalenteri">
+<!ENTITY lightning.toolbar.calendar.tooltip "Siirry Kalenteri-välilehteen">
 <!ENTITY lightning.toolbar.calendar.accesskey "K">
-<!ENTITY lightning.toolbar.task.label         "Tehtävät">
-<!ENTITY lightning.toolbar.task.tooltip       "Siirry Tehtävät-välilehteen">
-<!ENTITY lightning.toolbar.task.accesskey     "T">
-
+<!ENTITY lightning.toolbar.task.label "Tehtävät">
+<!ENTITY lightning.toolbar.task.tooltip "Siirry Tehtävät-välilehteen">
+<!ENTITY lightning.toolbar.task.accesskey "T">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Päivä">
-<!ENTITY lightning.toolbar.day.accesskey             "P">
-<!ENTITY lightning.toolbar.week.label                "Viikko">
-<!ENTITY lightning.toolbar.week.accesskey            "V">
-<!ENTITY lightning.toolbar.multiweek.label           "Moniviikko">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "M">
-<!ENTITY lightning.toolbar.month.label               "Kuukausi">
-<!ENTITY lightning.toolbar.month.accesskey           "K">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Kalenteripaneeli">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "K">
-<!ENTITY lightning.toolbar.calendarpane.label        "Näytä kalenteripaneeli">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "N">
+<!ENTITY lightning.toolbar.day.label "Päivä">
+<!ENTITY lightning.toolbar.day.accesskey "P">
+<!ENTITY lightning.toolbar.week.label "Viikko">
+<!ENTITY lightning.toolbar.week.accesskey "V">
+<!ENTITY lightning.toolbar.multiweek.label "Moniviikko">
+<!ENTITY lightning.toolbar.multiweek.accesskey "M">
+<!ENTITY lightning.toolbar.month.label "Kuukausi">
+<!ENTITY lightning.toolbar.month.accesskey "K">
+<!ENTITY lightning.toolbar.calendarmenu.label "Kalenteripaneeli">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "K">
+<!ENTITY lightning.toolbar.calendarpane.label "Näytä kalenteripaneeli">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "N">

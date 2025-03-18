@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "المعجم الشخصي">
-
 <!ENTITY wordEditField.label "كلمة جديدة:">
 <!ENTITY wordEditField.accessKey "ك">
 <!ENTITY AddButton.label "أضِف">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "ك">
 <!ENTITY RemoveButton.label "احذف">
 <!ENTITY RemoveButton.accessKey "ح">
-
 <!ENTITY CloseButton.label "أغلق">
 <!ENTITY CloseButton.accessKey "غ">

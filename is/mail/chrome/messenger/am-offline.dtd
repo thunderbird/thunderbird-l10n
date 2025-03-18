@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "F">
 <!ENTITY syncGroupTitle.label "Samstilla póst">
 <!ENTITY diskspaceGroupTitle.label "Diskpláss">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Samstilla allann póst staðbundið án tillits til aldurs">
-<!ENTITY allAutosync.accesskey           "S">
-<!ENTITY ageAutosyncBefore.label         "Samstilla nýjustu">
-<!ENTITY ageAutosync.accesskey           "t">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "daga">
-<!ENTITY weekAgeInterval.label           "Vikur">
-<!ENTITY monthAgeInterval.label          "Mánuðir">
-<!ENTITY yearAgeInterval.label           "Ár">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Samstilla allann póst staðbundið án tillits til aldurs">
+<!ENTITY allAutosync.accesskey "S">
+<!ENTITY ageAutosyncBefore.label "Samstilla nýjustu">
+<!ENTITY ageAutosync.accesskey "t">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "daga">
+<!ENTITY weekAgeInterval.label "Vikur">
+<!ENTITY monthAgeInterval.label "Mánuðir">
+<!ENTITY yearAgeInterval.label "Ár">
+<!ENTITY ageAutosyncAfter.label "">

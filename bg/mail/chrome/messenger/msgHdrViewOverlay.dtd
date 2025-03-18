@@ -8,7 +8,6 @@
 <!ENTITY author.label "Автор">
 <!ENTITY organizationField4.label "Организация">
 <!ENTITY replyToField4.label "Отговор-до">
-
 <!ENTITY subjectField4.label "Тема">
 <!ENTITY ccField4.label "Копие">
 <!ENTITY bccField4.label "Скрито копие">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Идентификатор на съобщение">
 <!ENTITY inReplyToField4.label "В отговор на">
 <!ENTITY originalWebsite4.label "Уебсайт">
-
 <!ENTITY hdrArchiveButton1.label "Архивиране">
 <!ENTITY hdrArchiveButton1.tooltip "Архивира съобщението">
 <!ENTITY hdrSmartReplyButton1.label "Умен отговор">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Отбелязва съобщението като нежелано">
 <!ENTITY hdrTrashButton1.label "Изтриване">
 <!ENTITY hdrTrashButton1.tooltip "Изтрива съобщението">
-
 <!ENTITY hdrViewToolbarShowFull.label "Показване на икони и текст ">
 <!ENTITY hdrViewToolbarShowFull.accesskey "и">
 <!ENTITY hdrViewToolbarShowIcons.label "Показване само икони">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "т">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Винаги показва отговора до подателя">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "о">
-
 <!ENTITY otherActionsButton2.label "Още">
 <!ENTITY otherActionsButton.tooltip "Повече действия">
 <!ENTITY otherActionsOpenConversation1.label "Преглед на диалога">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "и">
 <!ENTITY otherActionsPrint1.label "Печат…">
 <!ENTITY otherActionsPrint1.accesskey "П">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Показване на панела с прикачени файлове при отваряне">
-<!ENTITY startExpandedCmd.accesskey    "п">
-
+<!ENTITY startExpandedCmd.label "Показване на панела с прикачени файлове при отваряне">
+<!ENTITY startExpandedCmd.accesskey "п">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Отваряне">
-<!ENTITY openAttachmentCmd.accesskey    "О">
-<!ENTITY saveAsAttachmentCmd.label    "Запазване като…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "в">
-<!ENTITY detachAttachmentCmd.label    "Разкачане…">
-<!ENTITY detachAttachmentCmd.accesskey    "к">
-<!ENTITY deleteAttachmentCmd.label    "Изтриване">
-<!ENTITY deleteAttachmentCmd.accesskey    "р">
-<!ENTITY openAllAttachmentsCmd.label    "Отваряне на всички…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "О">
-<!ENTITY saveAllAttachmentsCmd.label    "Запазване на всички…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "в">
-<!ENTITY detachAllAttachmentsCmd.label    "Откачане на всички…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "ч">
-<!ENTITY deleteAllAttachmentsCmd.label    "Изтриване на всички…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "з">
-
+<!ENTITY openAttachmentCmd.label "Отваряне">
+<!ENTITY openAttachmentCmd.accesskey "О">
+<!ENTITY saveAsAttachmentCmd.label "Запазване като…">
+<!ENTITY saveAsAttachmentCmd.accesskey "в">
+<!ENTITY detachAttachmentCmd.label "Разкачане…">
+<!ENTITY detachAttachmentCmd.accesskey "к">
+<!ENTITY deleteAttachmentCmd.label "Изтриване">
+<!ENTITY deleteAttachmentCmd.accesskey "р">
+<!ENTITY openAllAttachmentsCmd.label "Отваряне на всички…">
+<!ENTITY openAllAttachmentsCmd.accesskey "О">
+<!ENTITY saveAllAttachmentsCmd.label "Запазване на всички…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "в">
+<!ENTITY detachAllAttachmentsCmd.label "Откачане на всички…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "ч">
+<!ENTITY deleteAllAttachmentsCmd.label "Изтриване на всички…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "з">
 <!ENTITY openAttachment.tooltip "Отваряне на прикрепения файл">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Отваряне на съдържащата папка">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "п">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Показване във Finder">
+<!ENTITY detachedAttachmentFolder.show.label "Отваряне на съдържащата папка">
+<!ENTITY detachedAttachmentFolder.show.accesskey "п">
+<!ENTITY detachedAttachmentFolder.showMac.label "Показване във Finder">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Запазване">
-<!ENTITY saveAttachmentButton1.tooltip     "Запазване на прикачения файл">
-<!ENTITY saveAllAttachmentsButton1.label   "Запазване на всички">
+<!ENTITY saveAttachmentButton1.label "Запазване">
+<!ENTITY saveAttachmentButton1.tooltip "Запазване на прикачения файл">
+<!ENTITY saveAllAttachmentsButton1.label "Запазване на всички">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Запазване на всички прикачени файлове">
-
-<!ENTITY copyLinkCmd.label        "Копиране на препратката">
-<!ENTITY copyLinkCmd.accesskey    "К">
-
+<!ENTITY copyLinkCmd.label "Копиране на препратката">
+<!ENTITY copyLinkCmd.accesskey "К">
 <!ENTITY CopyMessageId.label "Копиране на Message-ID">
 <!ENTITY CopyMessageId.accesskey "К">
 <!ENTITY OpenMessageForMsgId.label "Отваряне на писмо за ID">

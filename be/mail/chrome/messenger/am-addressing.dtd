@@ -4,42 +4,39 @@
 
 <!-- extracted from am-addressing.xhtml -->
 
-<!ENTITY addressing.label          "Складанне і адрасаванне">
+<!ENTITY addressing.label "Складанне і адрасаванне">
 <!ENTITY addressingGroupTitle.label "Адрасаванне">
-<!ENTITY addressingText.label      "Калі шукаюцца адрасы:">
+<!ENTITY addressingText.label "Калі шукаюцца адрасы:">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
-<!ENTITY useGlobal.label           "Выкарыстоўваць мае глабальныя параметры LDAP-сервера для гэтага ўліковага запісу">
-<!ENTITY useGlobal.accesskey       "У">
-<!ENTITY editDirectories.label     "Рэдагаваць дырэкторыі…">
+<!ENTITY useGlobal.label "Выкарыстоўваць мае глабальныя параметры LDAP-сервера для гэтага ўліковага запісу">
+<!ENTITY useGlobal.accesskey "У">
+<!ENTITY editDirectories.label "Рэдагаваць дырэкторыі…">
 <!ENTITY editDirectories.accesskey "Р">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
-<!ENTITY directories.label         "Выкарыстоўваць іншы сервер LDAP:">
-<!ENTITY directories.accesskey     "і">
-<!ENTITY directoriesNone.label     "Няма">
+<!ENTITY directories.label "Выкарыстоўваць іншы сервер LDAP:">
+<!ENTITY directories.accesskey "і">
+<!ENTITY directoriesNone.label "Няма">
 
 <!-- am-addressing.xhtml -->
 
-<!ENTITY compositionGroupTitle.label          "Складанне">
+<!ENTITY compositionGroupTitle.label "Складанне">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
-<!ENTITY useHtml.label                        "Укладаць лісты ў фармаце HTML">
-<!ENTITY useHtml.accesskey                    "У">
-<!ENTITY autoQuote.label                      "Самастойна цытаваць першапачатковы ліст у адказе">
-<!ENTITY autoQuote.accesskey                  "С">
-<!-- LOCALIZATION NOTE (quoting.label): This will concatenate with the 4 strings that follow. -->
-<!ENTITY aboveQuote.label                     "пачаць мой адказ над вытрымкаю">
-<!ENTITY belowQuote.label                     "пачаць мой адказ пад вытрымкаю">
-<!ENTITY selectAndQuote.label                 "вылучыць вытрымку">
-<!ENTITY place.label                          "і памясціць мой подпіс">
-<!ENTITY place.accesskey                      "м">
-<!ENTITY belowText.label                      "пад вытрымкаю (раіцца)">
-<!ENTITY aboveText.label                      "пад маім адказам (над вытрымкаю)">
-<!ENTITY includeSigOnReply.label              "Уключаць подпіс у адказы">
-<!ENTITY includeSigOnReply.accesskey          "а">
-<!ENTITY includeSigOnForward.label            "Уключаць подпіс у перанакіраванні">
-<!ENTITY includeSigOnForward.accesskey        "к">
-
-<!ENTITY globalComposingPrefs.label           "Агульныя перавагі ўкладання…">
-<!ENTITY globalComposingPrefs.accesskey       "ў">
-
-<!ENTITY globalAddressingPrefs.label          "Агульныя перавагі адрасавання…">
-<!ENTITY globalAddressingPrefs.accesskey      "а">
+<!ENTITY useHtml.label "Укладаць лісты ў фармаце HTML">
+<!ENTITY useHtml.accesskey "У">
+<!ENTITY autoQuote.label "Самастойна цытаваць першапачатковы ліст у адказе">
+<!ENTITY autoQuote.accesskey "С">
+<!ENTITY aboveQuote.label "пачаць мой адказ над вытрымкаю">
+<!ENTITY belowQuote.label "пачаць мой адказ пад вытрымкаю">
+<!ENTITY selectAndQuote.label "вылучыць вытрымку">
+<!ENTITY place.label "і памясціць мой подпіс">
+<!ENTITY place.accesskey "м">
+<!ENTITY belowText.label "пад вытрымкаю (раіцца)">
+<!ENTITY aboveText.label "пад маім адказам (над вытрымкаю)">
+<!ENTITY includeSigOnReply.label "Уключаць подпіс у адказы">
+<!ENTITY includeSigOnReply.accesskey "а">
+<!ENTITY includeSigOnForward.label "Уключаць подпіс у перанакіраванні">
+<!ENTITY includeSigOnForward.accesskey "к">
+<!ENTITY globalComposingPrefs.label "Агульныя перавагі ўкладання…">
+<!ENTITY globalComposingPrefs.accesskey "ў">
+<!ENTITY globalAddressingPrefs.label "Агульныя перавагі адрасавання…">
+<!ENTITY globalAddressingPrefs.accesskey "а">

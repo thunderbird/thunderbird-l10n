@@ -3,15 +3,15 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE (window.title) : do not translate "LDAP" in below line -->
-<!ENTITY pref.ldap.window.title    "LDAP-mapservers">
+<!ENTITY pref.ldap.window.title "LDAP-mapservers">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
-<!ENTITY directories.label         "LDAP-mapserver:">
+<!ENTITY directories.label "LDAP-mapserver:">
 <!-- LOCALIZATION NOTE (directoriesText.label) : do not translate "LDAP" in below line -->
-<!ENTITY directoriesText.label     "Selektearje in LDAP-mapserver:">
+<!ENTITY directoriesText.label "Selektearje in LDAP-mapserver:">
 <!ENTITY directoriesText.accesskey "S">
-<!ENTITY addDirectory.label        "Tafoegje">
-<!ENTITY addDirectory.accesskey    "T">
-<!ENTITY editDirectory.label       "Bewurkje">
-<!ENTITY editDirectory.accesskey   "B">
-<!ENTITY deleteDirectory.label     "Fuortsmite">
+<!ENTITY addDirectory.label "Tafoegje">
+<!ENTITY addDirectory.accesskey "T">
+<!ENTITY editDirectory.label "Bewurkje">
+<!ENTITY editDirectory.accesskey "B">
+<!ENTITY deleteDirectory.label "Fuortsmite">
 <!ENTITY deleteDirectory.accesskey "F">

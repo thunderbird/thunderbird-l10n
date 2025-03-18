@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Лични речник">
-
 <!ENTITY wordEditField.label "Нова реч:">
 <!ENTITY wordEditField.accessKey "Н">
 <!ENTITY AddButton.label "Додај">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "Р">
 <!ENTITY RemoveButton.label "Уклони">
 <!ENTITY RemoveButton.accessKey "о">
-
 <!ENTITY CloseButton.label "Затвори">
 <!ENTITY CloseButton.accessKey "т">

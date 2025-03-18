@@ -11,7 +11,6 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
 <!ENTITY mainWindow.preface "Zdrojový kód pre: ">
-
 <!ENTITY editMenu.label "Upraviť">
 <!ENTITY editMenu.accesskey "U">
 <!ENTITY fileMenu.label "Súbor">
@@ -25,13 +24,11 @@
 <!ENTITY closeCmd.label "Zavrieť">
 <!ENTITY closeCmd.accesskey "Z">
 <!ENTITY closeCmd.commandkey "W">
-
 <!-- LOCALIZATION NOTE :
-textEnlarge.commandkey3, textReduce.commandkey2 and
-textReset.commandkey2 are alternative acceleration keys for zoom.
-If shift key is needed with your locale popular keyboard for them,
-you can use these alternative items. Otherwise, their values should be empty.  -->
-
+     textEnlarge.commandkey3, textReduce.commandkey2 and
+     textReset.commandkey2 are alternative acceleration keys for zoom.
+     If shift key is needed with your locale popular keyboard for them,
+     you can use these alternative items. Otherwise, their values should be empty. -->
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textEnlarge.commandkey3 "">
@@ -39,13 +36,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY textReduce.commandkey2 "">
 <!ENTITY textReset.commandkey "0">
 <!ENTITY textReset.commandkey2 "">
-
 <!ENTITY goToLineCmd.label "Prejsť na riadok…">
 <!ENTITY goToLineCmd.accesskey "n">
 <!ENTITY goToLineCmd.commandkey "l">
-
-<!ENTITY viewMenu.label           "Zobraziť">
-<!ENTITY viewMenu.accesskey       "Z">
+<!ENTITY viewMenu.label "Zobraziť">
+<!ENTITY viewMenu.accesskey "Z">
 <!ENTITY reloadCmd.label "Obnoviť">
 <!ENTITY reloadCmd.accesskey "O">
 <!ENTITY reloadCmd.commandkey "r">
@@ -61,23 +56,20 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReduce.accesskey "m">
 <!ENTITY menu_textReset.label "Normálna">
 <!ENTITY menu_textReset.accesskey "N">
-
-<!ENTITY findOnCmd.label     "Hľadať na tejto stránke…">
+<!ENTITY findOnCmd.label "Hľadať na tejto stránke…">
 <!ENTITY findOnCmd.accesskey "H">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label  "Hľadať znova">
+<!ENTITY findAgainCmd.label "Hľadať znova">
 <!ENTITY findAgainCmd.accesskey "z">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
-
 <!ENTITY backCmd.label "Naspäť">
 <!ENTITY backCmd.accesskey "s">
 <!ENTITY forwardCmd.label "Dopredu">
 <!ENTITY forwardCmd.accesskey "p">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
-
 <!ENTITY copyLinkCmd.label "Kopírovať adresu odkazu">
 <!ENTITY copyLinkCmd.accesskey "a">
 <!ENTITY copyEmailCmd.label "Kopírovať e‑mailovú adresu">

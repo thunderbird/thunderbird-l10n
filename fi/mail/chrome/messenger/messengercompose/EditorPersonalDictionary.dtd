@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Käyttäjäkohtainen sanakirja">
-
 <!ENTITY wordEditField.label "Uusi sana:">
 <!ENTITY wordEditField.accessKey "U">
 <!ENTITY AddButton.label "Lisää">
@@ -13,6 +12,5 @@
 <!ENTITY DictionaryList.accessKey "s">
 <!ENTITY RemoveButton.label "Poista">
 <!ENTITY RemoveButton.accessKey "P">
-
 <!ENTITY CloseButton.label "Sulje">
 <!ENTITY CloseButton.accessKey "S">

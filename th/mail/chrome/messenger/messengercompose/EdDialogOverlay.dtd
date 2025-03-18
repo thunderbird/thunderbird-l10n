@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "ล">
 <!ENTITY chooseFileLinkButton.label "เลือกไฟล์...">
 <!ENTITY chooseFileLinkButton.accessKey "อ">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "ป้อนตำแหน่งที่ตั้งของเว็บ ไฟล์ภายในเครื่อง หรือเลือกจุดยึดที่มีชื่อหรือหัวเรื่องจากเมนูบริบทของช่องกรอก:">
 <!ENTITY LinkURLEditField2.accessKey "ว">

@@ -2,18 +2,16 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY folderProps.windowtitle.label           "Properties">
-
-<!ENTITY generalInfo.label                       "General Information">
-<!ENTITY folderRebuildSummaryFileTip2.label      "Rebuild Summary File Index">
-<!ENTITY folderRebuildSummaryFile2.label         "Վերականգնել">
-<!ENTITY folderRebuildSummaryFile2.accesskey     "R">
-<!ENTITY folderRebuildSummaryFile.explanation    "Sometimes the folder index (.msf) file becomes damaged and messages may appear missing or deleted messages continue showing; repairing the folder may fix these issues.">
-<!ENTITY folderIncludeInGlobalSearch.label       "Ներառել նամակները Գլոբալ փնտրման արդյունքում">
-<!ENTITY folderIncludeInGlobalSearch.accesskey   "G">
-
+<!ENTITY folderProps.windowtitle.label "Properties">
+<!ENTITY generalInfo.label "General Information">
+<!ENTITY folderRebuildSummaryFileTip2.label "Rebuild Summary File Index">
+<!ENTITY folderRebuildSummaryFile2.label "Վերականգնել">
+<!ENTITY folderRebuildSummaryFile2.accesskey "R">
+<!ENTITY folderRebuildSummaryFile.explanation "Sometimes the folder index (.msf) file becomes damaged and messages may appear missing or deleted messages continue showing; repairing the folder may fix these issues.">
+<!ENTITY folderIncludeInGlobalSearch.label "Ներառել նամակները Գլոբալ փնտրման արդյունքում">
+<!ENTITY folderIncludeInGlobalSearch.accesskey "G">
 <!ENTITY retention.label "Retention Policy">
-<!ENTITY retentionUseAccount.label  "Օգտ. իմ փոստարկղի կարգավորումները">
+<!ENTITY retentionUseAccount.label "Օգտ. իմ փոստարկղի կարգավորումները">
 <!ENTITY retentionUseAccount.accesskey "U">
 <!ENTITY daysOld.label "days old">
 <!ENTITY message.label "messages">
@@ -28,39 +26,32 @@
 <!ENTITY retentionKeepRecent.accesskey "l">
 <!ENTITY retentionApplyToFlagged.label "Միշտ պահել աստղանիշով նամակները">
 <!ENTITY retentionApplyToFlagged.accesskey "e">
-
-<!ENTITY folderSynchronizationTab.label          "Synchronization">
-<!ENTITY folderCheckForNewMessages2.label         "Այս փոստարկղի նոր նամակները ստանալիս միշտ ստուգել այս թղթապանակը">
-<!ENTITY folderCheckForNewMessages2.accesskey     "c">
-
-<!ENTITY offlineFolder.check.label               "Ընտրել այս թղթապանակը «Ցանցից դուրս»-ի համար">
-<!ENTITY offlineFolder.check.accesskey           "S">
-<!ENTITY offlineFolder.button.label              "Բեռնել">
-<!ENTITY offlineFolder.button.accesskey          "D">
-
-<!ENTITY selectofflineNewsgroup.check.label      "Ընտրել այս նորությունները «Ցանցից դուրս»-ի համար">
-<!ENTITY selectofflineNewsgroup.check.accesskey  "o">
-<!ENTITY offlineNewsgroup.button.label           "Բեռնել">
-<!ENTITY offlineNewsgroup.button.accesskey       "D">
-
-<!ENTITY folderProps.name.label                  "Անունը.">
-<!ENTITY folderProps.name.accesskey              "N">
-<!ENTITY folderProps.location.label              "Տեղը.">
-<!ENTITY folderProps.location.accesskey          "L">
-
-<!ENTITY folderSharingTab.label                  "Sharing">
-<!ENTITY privileges.button.label                 "Արտոնությունները…">
-<!ENTITY privileges.button.accesskey             "P">
-<!ENTITY permissionsDesc.label                   "You have the following permissions:">
-<!ENTITY folderType.label                        "Folder Type:">
-
-<!ENTITY folderQuotaTab.label                    "Quota">
-<!ENTITY folderQuotaUsage.label                  "Usage:">
-<!ENTITY folderQuotaStatus.label                 "Status:">
-
-<!ENTITY numberOfMessages.label                  "ចំនួន​សារ៖">
+<!ENTITY folderSynchronizationTab.label "Synchronization">
+<!ENTITY folderCheckForNewMessages2.label "Այս փոստարկղի նոր նամակները ստանալիս միշտ ստուգել այս թղթապանակը">
+<!ENTITY folderCheckForNewMessages2.accesskey "c">
+<!ENTITY offlineFolder.check.label "Ընտրել այս թղթապանակը «Ցանցից դուրս»-ի համար">
+<!ENTITY offlineFolder.check.accesskey "S">
+<!ENTITY offlineFolder.button.label "Բեռնել">
+<!ENTITY offlineFolder.button.accesskey "D">
+<!ENTITY selectofflineNewsgroup.check.label "Ընտրել այս նորությունները «Ցանցից դուրս»-ի համար">
+<!ENTITY selectofflineNewsgroup.check.accesskey "o">
+<!ENTITY offlineNewsgroup.button.label "Բեռնել">
+<!ENTITY offlineNewsgroup.button.accesskey "D">
+<!ENTITY folderProps.name.label "Անունը.">
+<!ENTITY folderProps.name.accesskey "N">
+<!ENTITY folderProps.location.label "Տեղը.">
+<!ENTITY folderProps.location.accesskey "L">
+<!ENTITY folderSharingTab.label "Sharing">
+<!ENTITY privileges.button.label "Արտոնությունները…">
+<!ENTITY privileges.button.accesskey "P">
+<!ENTITY permissionsDesc.label "You have the following permissions:">
+<!ENTITY folderType.label "Folder Type:">
+<!ENTITY folderQuotaTab.label "Quota">
+<!ENTITY folderQuotaUsage.label "Usage:">
+<!ENTITY folderQuotaStatus.label "Status:">
+<!ENTITY numberOfMessages.label "ចំនួន​សារ៖">
 <!-- LOCALIZATION NOTE: When the number of messages can't be determined, this string is displayed as the number -->
-<!ENTITY numberUnknown.label                     "មិន​ស្គាល់">
-<!ENTITY sizeOnDisk.label                        "ទំហំ​លើថាស៖">
+<!ENTITY numberUnknown.label "មិន​ស្គាល់">
+<!ENTITY sizeOnDisk.label "ទំហំ​លើថាស៖">
 <!-- LOCALIZATION NOTE: When the size can't be determined, this string is displayed as the size -->
-<!ENTITY sizeUnknown.label                       "មិន​ស្គាល់">
+<!ENTITY sizeUnknown.label "មិន​ស្គាល់">

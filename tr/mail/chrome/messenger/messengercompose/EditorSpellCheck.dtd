@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Yazımı denetle">
-
 <!ENTITY misspelledWord.label "Hatalı sözcük:">
 <!ENTITY wordEditField.label "Bununla değiştir:">
 <!ENTITY wordEditField.accessKey "d">

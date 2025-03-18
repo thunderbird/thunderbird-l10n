@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "แทรกสมการ">
-
 <!ENTITY sourceEditField.label "ป้อนซอร์สโค้ด LaTeX:">
-
 <!ENTITY options.label "ตัวเลือก">
 <!ENTITY optionInline.label "โหมดอินไลน์">
 <!ENTITY optionInline.accesskey "อ">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "ซ">
 <!ENTITY optionRTL.label "ทิศทางจากขวาไปซ้าย">
 <!ENTITY optionRTL.accesskey "ข">
-
 <!ENTITY insertButton.label "แทรก">
 <!ENTITY insertButton.accesskey "ท">

@@ -2,13 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY showAsDefault.label                            "Asosiy ishga tushish jildi">
-<!ENTITY showAsDefault.accesskey                        "i">
-
+<!ENTITY showAsDefault.label "Asosiy ishga tushish jildi">
+<!ENTITY showAsDefault.accesskey "i">
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label                        "Nomi yoki e-pochta manzili">
-
+<!ENTITY SearchNameOrEmail.label "Nomi yoki e-pochta manzili">
 <!-- Results Pane -->
-<!ENTITY Addrbook.label                                 "Manzil kitobi">
-<!ENTITY GeneratedName.label                            "Nomi">
-<!ENTITY PrimaryEmail.label                             "E-pochta">
+<!ENTITY Addrbook.label "Manzil kitobi">
+<!ENTITY GeneratedName.label "Nomi">
+<!ENTITY PrimaryEmail.label "E-pochta">

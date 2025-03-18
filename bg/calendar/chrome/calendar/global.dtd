@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "януари" >
-<!ENTITY month.2.name "февруари" >
-<!ENTITY month.3.name "март" >
-<!ENTITY month.4.name "април" >
-<!ENTITY month.5.name "май" >
-<!ENTITY month.6.name "юни" >
-<!ENTITY month.7.name "юли" >
-<!ENTITY month.8.name "август" >
-<!ENTITY month.9.name "септември" >
-<!ENTITY month.10.name "октомври" >
-<!ENTITY month.11.name "ноември" >
-<!ENTITY month.12.name "декември" >
-
+<!ENTITY month.1.name "януари">
+<!ENTITY month.2.name "февруари">
+<!ENTITY month.3.name "март">
+<!ENTITY month.4.name "април">
+<!ENTITY month.5.name "май">
+<!ENTITY month.6.name "юни">
+<!ENTITY month.7.name "юли">
+<!ENTITY month.8.name "август">
+<!ENTITY month.9.name "септември">
+<!ENTITY month.10.name "октомври">
+<!ENTITY month.11.name "ноември">
+<!ENTITY month.12.name "декември">
 <!ENTITY showToday.tooltip "Отваряне на днешния ден">
 <!ENTITY onedayforward.tooltip "Един ден напред">
 <!ENTITY onedaybackward.tooltip "Един ден назад">

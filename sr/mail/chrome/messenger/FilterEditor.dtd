@@ -5,16 +5,13 @@
 <!ENTITY window.title "Правила филтера">
 <!ENTITY filterName.label "Име филтера:">
 <!ENTITY filterName.accesskey "и">
-
 <!ENTITY junk.label "Смеће">
 <!ENTITY notJunk.label "Није смеће">
-
 <!ENTITY lowestPriorityCmd.label "Најниже">
 <!ENTITY lowPriorityCmd.label "Ниско">
 <!ENTITY normalPriorityCmd.label "Обично">
 <!ENTITY highPriorityCmd.label "Високо">
 <!ENTITY highestPriorityCmd.label "Највише">
-
 <!ENTITY contextDesc.label "Примени филтер када:">
 <!ENTITY contextIncomingMail.label "Добијам нову пошту:">
 <!ENTITY contextIncomingMail.accesskey "Д">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "Архивирам">
 <!ENTITY contextArchive.accesskey "А">
 <!ENTITY contextPeriodic.accesskey "е">
-
 <!ENTITY filterActionDesc.label "Одради ове радње:">
 <!ENTITY filterActionDesc.accesskey "О">
-
 <!ENTITY filterActionOrderWarning.label "Напомена: Радње у филтеру биће извршене по другачијем редоследу.">
 <!ENTITY filterActionOrder.label "Погледај редослед извршавања">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Помери поруку у">
 <!ENTITY copyMessage.label "Ископирај поруку у">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Занемари поднит">
 <!ENTITY watchThread.label "Надгледај нит">
 <!ENTITY stopExecution.label "Прекини са извршавањем филтера">
-
 <!ENTITY addAction.tooltip "Додај нову радњу">
 <!ENTITY removeAction.tooltip "Уклони ову радњу">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

@@ -8,7 +8,6 @@
 <!ENTITY author.label "Autor">
 <!ENTITY organizationField4.label "Organización">
 <!ENTITY replyToField4.label "Responder a">
-
 <!ENTITY subjectField4.label "Asuntu">
 <!ENTITY ccField4.label "Cc">
 <!ENTITY bccField4.label "Cct">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Message ID">
 <!ENTITY inReplyToField4.label "En rempuesta a">
 <!ENTITY originalWebsite4.label "Sitiu web">
-
 <!ENTITY hdrArchiveButton1.label "Archivar">
 <!ENTITY hdrArchiveButton1.tooltip "Archivar esti mensaxe">
 <!ENTITY hdrSmartReplyButton1.label "Responder a interesaos">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Conseñar esti mensaxe como corréu puxarra">
 <!ENTITY hdrTrashButton1.label "Desaniciar">
 <!ENTITY hdrTrashButton1.tooltip "Desaniciar esti mensaxe">
-
 <!ENTITY hdrViewToolbarShowFull.label "Amosar iconos y testu">
 <!ENTITY hdrViewToolbarShowFull.accesskey "M">
 <!ENTITY hdrViewToolbarShowIcons.label "Amosar namái iconos">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "e">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Amosar siempre Responder al remitente">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "R">
-
 <!ENTITY otherActionsButton2.label "Más">
 <!ENTITY otherActionsButton.tooltip "Más aiciones">
 <!ENTITY otherActionsOpenConversation1.label "Abrir na conversación">
@@ -67,41 +63,34 @@
 <!ENTITY viewSourceMenuItem1.accesskey "V">
 <!ENTITY otherActionsPrint1.label "Imprentar…">
 <!ENTITY otherActionsPrint1.accesskey "I">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Al abrir, amosar el panel d'axuntos">
-<!ENTITY startExpandedCmd.accesskey    "b">
-
+<!ENTITY startExpandedCmd.label "Al abrir, amosar el panel d'axuntos">
+<!ENTITY startExpandedCmd.accesskey "b">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Abrir">
-<!ENTITY openAttachmentCmd.accesskey    "b">
-<!ENTITY saveAsAttachmentCmd.label    "Guardar como…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "G">
-<!ENTITY detachAttachmentCmd.label    "Separtar axuntos…">
-<!ENTITY detachAttachmentCmd.accesskey    "S">
-<!ENTITY deleteAttachmentCmd.label    "Desaniciar">
-<!ENTITY deleteAttachmentCmd.accesskey    "D">
-<!ENTITY openAllAttachmentsCmd.label    "Abrir too…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "o">
-<!ENTITY saveAllAttachmentsCmd.label    "Guardar too…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "G">
-<!ENTITY detachAllAttachmentsCmd.label    "Separtar tolos axuntos…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "D">
-<!ENTITY deleteAllAttachmentsCmd.label    "Desaniciar toos…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "n">
-
+<!ENTITY openAttachmentCmd.label "Abrir">
+<!ENTITY openAttachmentCmd.accesskey "b">
+<!ENTITY saveAsAttachmentCmd.label "Guardar como…">
+<!ENTITY saveAsAttachmentCmd.accesskey "G">
+<!ENTITY detachAttachmentCmd.label "Separtar axuntos…">
+<!ENTITY detachAttachmentCmd.accesskey "S">
+<!ENTITY deleteAttachmentCmd.label "Desaniciar">
+<!ENTITY deleteAttachmentCmd.accesskey "D">
+<!ENTITY openAllAttachmentsCmd.label "Abrir too…">
+<!ENTITY openAllAttachmentsCmd.accesskey "o">
+<!ENTITY saveAllAttachmentsCmd.label "Guardar too…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "G">
+<!ENTITY detachAllAttachmentsCmd.label "Separtar tolos axuntos…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "D">
+<!ENTITY deleteAllAttachmentsCmd.label "Desaniciar toos…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "n">
 <!ENTITY openAttachment.tooltip "Abrir el ficheru axuntu">
-
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Guardar">
-<!ENTITY saveAttachmentButton1.tooltip     "Guardar el ficheru axuntu">
-<!ENTITY saveAllAttachmentsButton1.label   "Guardar too">
+<!ENTITY saveAttachmentButton1.label "Guardar">
+<!ENTITY saveAttachmentButton1.tooltip "Guardar el ficheru axuntu">
+<!ENTITY saveAllAttachmentsButton1.label "Guardar too">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Guardar tolos ficheros axuntos">
-
-<!ENTITY copyLinkCmd.label        "Copiar la direición del enllaz">
-<!ENTITY copyLinkCmd.accesskey    "C">
-
+<!ENTITY copyLinkCmd.label "Copiar la direición del enllaz">
+<!ENTITY copyLinkCmd.accesskey "C">
 <!ENTITY CopyMessageId.label "Copiar Message-ID">
 <!ENTITY CopyMessageId.accesskey "C">
 <!ENTITY OpenMessageForMsgId.label "Abrir mensaxe pal Message-ID">

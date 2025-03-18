@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "v">
 <!ENTITY syncGroupTitle.label "Ուղերձի համաժամեցում">
 <!ENTITY diskspaceGroupTitle.label "Սկաւառակի տարածք">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Համաժամեցնել բոլոր տեղային հաղորդագրութիւններն անկախ ժամկետից">
-<!ENTITY allAutosync.accesskey           "մ">
-<!ENTITY ageAutosyncBefore.label         "Համաժամեցնել ամենավերջինը">
-<!ENTITY ageAutosync.accesskey           "ց">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "Աւրեր">
-<!ENTITY weekAgeInterval.label           "Շաբաթներ">
-<!ENTITY monthAgeInterval.label          "Ամիսներ">
-<!ENTITY yearAgeInterval.label           "Տարիներ">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Համաժամեցնել բոլոր տեղային հաղորդագրութիւններն անկախ ժամկետից">
+<!ENTITY allAutosync.accesskey "մ">
+<!ENTITY ageAutosyncBefore.label "Համաժամեցնել ամենավերջինը">
+<!ENTITY ageAutosync.accesskey "ց">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "Աւրեր">
+<!ENTITY weekAgeInterval.label "Շաբաթներ">
+<!ENTITY monthAgeInterval.label "Ամիսներ">
+<!ENTITY yearAgeInterval.label "Տարիներ">
+<!ENTITY ageAutosyncAfter.label "">

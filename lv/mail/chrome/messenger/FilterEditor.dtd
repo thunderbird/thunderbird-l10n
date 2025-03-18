@@ -5,16 +5,13 @@
 <!ENTITY window.title "Filtrēšanas likumi">
 <!ENTITY filterName.label "Filtra nosaukums:">
 <!ENTITY filterName.accesskey "F">
-
 <!ENTITY junk.label "Draza">
 <!ENTITY notJunk.label "Nedraza">
-
 <!ENTITY lowestPriorityCmd.label "Zemākā">
 <!ENTITY lowPriorityCmd.label "Zema">
 <!ENTITY normalPriorityCmd.label "Parasta">
 <!ENTITY highPriorityCmd.label "Augsta">
 <!ENTITY highestPriorityCmd.label "Augstākā">
-
 <!ENTITY contextDesc.label "Lietot filtru, kad:">
 <!ENTITY contextIncomingMail.label "Saņem jauna pastu:">
 <!ENTITY contextIncomingMail.accesskey "S">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "Arhivēšana">
 <!ENTITY contextArchive.accesskey "A">
 <!ENTITY contextPeriodic.accesskey "A">
-
 <!ENTITY filterActionDesc.label "Veikt šīs darbības:">
 <!ENTITY filterActionDesc.accesskey "V">
-
 <!ENTITY filterActionOrderWarning.label "Piezīme: Filtrēšanas darbības tiks izpildītas citā secībā.">
 <!ENTITY filterActionOrder.label "Skatīt izpildīšanas secību">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Pārvietot vēstuli uz">
 <!ENTITY copyMessage.label "Kopēt vēstuli uz">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Ignorēt apakšpavedienu">
 <!ENTITY watchThread.label "Skatīt pavedienu">
 <!ENTITY stopExecution.label "Pārtraukt filtru izpildi">
-
 <!ENTITY addAction.tooltip "Pievienot jaunu darbību">
 <!ENTITY removeAction.tooltip "Noņemt šo darbību">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

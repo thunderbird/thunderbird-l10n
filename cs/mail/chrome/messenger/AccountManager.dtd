@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Nastavení účtu">
-<!ENTITY  accountManagerCloseButton.label "Zavřít">
-
+<!ENTITY accountManagerCloseButton.label "Zavřít">
 <!ENTITY accountActionsButton.label "Akce účtu">
 <!ENTITY accountActionsButton.accesskey "A">
 <!ENTITY addMailAccountButton.label "Přidat poštovní účet…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "N">
 <!ENTITY removeButton.label "Odebrat účet">
 <!ENTITY removeButton.accesskey "r">
-
 <!ENTITY addonsButton.label "Rozšíření a vzhledy">

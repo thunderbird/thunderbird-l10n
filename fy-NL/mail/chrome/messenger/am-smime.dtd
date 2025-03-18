@@ -4,11 +4,8 @@
 
 <!ENTITY e2eTitle.label "End-to-end-fersifering">
 <!ENTITY e2eLearnMore.label "Mear ynfo">
-
 <!ENTITY e2eEnc.description "Sûnder end-to-end-fersifering wurdt de ynhâld fan berjochten maklik sichtber foar jo e-mailprovider en foar massa-tafersjoch.">
-
 <!ENTITY e2eTechPref.description "Foarkar fersiferingstechnology:">
-
 <!ENTITY encryptionCert2.message "Persoanlik fersiferingssertifikaat:">
 <!ENTITY digitalSign.certificate.button "Selektearje…">
 <!ENTITY digitalSign.certificate.accesskey "S">
@@ -20,27 +17,20 @@
 <!ENTITY encryption.certificate_clear.accesskey "e">
 <!ENTITY signingGroupTitle.label "Digitale ûndertekening">
 <!ENTITY signingCert2.message "Persoanlik sertifikaat foar digitaal ûndertekenjen:">
-
 <!ENTITY sendingDefaults.label "Standertynstellingen foar it ferstjoeren fan berjochten">
-
 <!ENTITY technologyAutomatic.label "Automatysk selektearje op basis fan beskikbere kaaien of sertifikaten">
-
 <!ENTITY certificates2.label "S/MIME">
 <!ENTITY manageCerts3.label "S/MIME-sertifikaten beheare">
 <!ENTITY manageCerts3.accesskey "M">
 <!ENTITY manageDevices2.label "S/MIME-befeiligingsapparaten">
 <!ENTITY manageDevices2.accesskey "f">
-
 <!ENTITY technologySMIME.label "Foarkar foar S/MIME">
 <!ENTITY technologyOpenPGP.label "Foarkar foar OpenPGP">
-
 <!ENTITY openpgpKeys.label "OpenPGP">
-
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Sertifikaat selektearje">
-<!ENTITY certPicker.info  "Sertifikaat:">
+<!ENTITY certPicker.info "Sertifikaat:">
 <!ENTITY certPicker.detailsLabel "Details fan it selektearre sertifikaat:">
-
 <!ENTITY openpgpKey.message "Persoanlike kaai foar fersifering en digitale ûndertekening:">
 <!ENTITY openpgpKey.button "Persoanlike kaai ynstelle…">
 <!ENTITY openpgpKey.accesskey "o">

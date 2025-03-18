@@ -34,14 +34,11 @@
 <!-- LOCALIZATION NOTE (attachVCard.label) : do not translate "vCard" in below line -->
 <!ENTITY attachVCard.label "Sporočilom pripni mojo vizitko (vCard)">
 <!ENTITY attachVCard.accesskey "S">
-
 <!ENTITY manageIdentities.label "Upravljaj z identitetami …">
 <!ENTITY manageIdentities.accesskey "a">
-
 <!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
 <!ENTITY smtpName.label "Strežnik za odhodno pošto (SMTP):">
 <!ENTITY smtpName.accesskey "ž">
 <!ENTITY smtpDefaultServer.label "Uporabi privzeti strežnik">
-
 <!ENTITY smtpServerEdit.label "Uredi strežnik SMTP …">
 <!ENTITY smtpServerEdit.accesskey "P">

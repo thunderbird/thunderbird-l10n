@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Proprietățile imaginii">
-
 <!ENTITY pixelsPopup.value "pixeli">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Locație imagine:">
 <!ENTITY locationEditField.accessKey "L">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Tastează textul de afișat în locul imaginii">
 <!ENTITY noAltText.label "Fără text alternativ">
 <!ENTITY noAltText.accessKey "F">
-
 <!ENTITY previewBox.label "Previzualizarea imaginii">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Dimensiune reală:">
 <!ENTITY actualSizeRadio.label "Dimensiune reală">
 <!ENTITY actualSizeRadio.accessKey "r">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Restricționează">
 <!ENTITY constrainCheckbox.accessKey "C">
 <!ENTITY constrainCheckbox.tooltip "Menține raportul de aspect al imaginii">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Hartă imagine">
 <!ENTITY removeImageMapButton.label "Elimină">
 <!ENTITY removeImageMapButton.accessKey "E">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Aliniază textul la imagine">
 <!ENTITY bottomPopup.value "În partea de jos">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "La centru">
 <!ENTITY wrapRightPopup.value "Încadrează la dreapta">
 <!ENTITY wrapLeftPopup.value "Încadrează la stânga">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Spațiere">
 <!ENTITY leftRightEditField.label "Stânga și dreapta:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "u">
 <!ENTITY borderEditField.label "Bordură plină:">
 <!ENTITY borderEditField.accessKey "B">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Afișează o bordură în jurul imaginii cu linkuri">
 <!ENTITY showImageLinkBorder.accessKey "A">
 <!ENTITY LinkAdvancedEditButton.label "Editare avansată a linkului…">
 <!ENTITY LinkAdvancedEditButton.accessKey "l">
 <!ENTITY LinkAdvancedEditButton.tooltip "Adaugă sau modifică atribute HTML, atribute de stiluri și cod JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Formular">
 <!ENTITY imageLocationTab.label "Locație">

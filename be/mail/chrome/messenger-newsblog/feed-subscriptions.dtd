@@ -3,53 +3,45 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Subscription Dialog -->
-<!ENTITY feedSubscriptions.label     "Падпіскі на стужкі навін">
-<!ENTITY learnMore.label             "Даведайцеся больш пра стужкі навін">
-
-<!ENTITY feedTitle.label             "Загаловак:">
-<!ENTITY feedTitle.accesskey         "З">
-
-<!ENTITY feedLocation.label          "URL стужкі навін:">
-<!ENTITY feedLocation.accesskey      "с">
-<!ENTITY feedLocation2.placeholder   "Увядзіце сапраўдны URL стужкі навін">
-<!ENTITY locationValidate.label      "Праверыць">
-<!ENTITY validateText.label          "Праверце правільнасць і атрымайце сапраўдны URL.">
-
-<!ENTITY feedFolder.label            "Захоўваць артыкулы ў:">
-<!ENTITY feedFolder.accesskey        "х">
-
+<!ENTITY feedSubscriptions.label "Падпіскі на стужкі навін">
+<!ENTITY learnMore.label "Даведайцеся больш пра стужкі навін">
+<!ENTITY feedTitle.label "Загаловак:">
+<!ENTITY feedTitle.accesskey "З">
+<!ENTITY feedLocation.label "URL стужкі навін:">
+<!ENTITY feedLocation.accesskey "с">
+<!ENTITY feedLocation2.placeholder "Увядзіце сапраўдны URL стужкі навін">
+<!ENTITY locationValidate.label "Праверыць">
+<!ENTITY validateText.label "Праверце правільнасць і атрымайце сапраўдны URL.">
+<!ENTITY feedFolder.label "Захоўваць артыкулы ў:">
+<!ENTITY feedFolder.accesskey "х">
 <!-- Account Settings and Subscription Dialog -->
-<!ENTITY biffStart.label             "Правяраць наяўнасць новых артыкулаў кожныя ">
-<!ENTITY biffStart.accesskey         "р">
-<!ENTITY biffMinutes.label           "хвілін">
-<!ENTITY biffMinutes.accesskey       "і">
-<!ENTITY biffDays.label              "дзён">
-<!ENTITY biffDays.accesskey          "д">
-<!ENTITY recommendedUnits.label      "Выдавец рэкамендуе:">
-
-<!ENTITY quickMode.label             "Паказваць зводку артыкула замест спампоўкі вэб-старонкі">
-<!ENTITY quickMode.accesskey         "ц">
-
-<!ENTITY autotagEnable.label         "Аўтаматычна ствараць меткі з імяў &lt;катэгорый&gt; стужак навін">
-<!ENTITY autotagEnable.accesskey     "ў">
-<!ENTITY autotagUsePrefix.label      "Прэфікс метак:">
-<!ENTITY autotagUsePrefix.accesskey  "ф">
-<!ENTITY autoTagPrefix.placeholder   "Увядзіце прэфікс метак">
-
+<!ENTITY biffStart.label "Правяраць наяўнасць новых артыкулаў кожныя ">
+<!ENTITY biffStart.accesskey "р">
+<!ENTITY biffMinutes.label "хвілін">
+<!ENTITY biffMinutes.accesskey "і">
+<!ENTITY biffDays.label "дзён">
+<!ENTITY biffDays.accesskey "д">
+<!ENTITY recommendedUnits.label "Выдавец рэкамендуе:">
+<!ENTITY quickMode.label "Паказваць зводку артыкула замест спампоўкі вэб-старонкі">
+<!ENTITY quickMode.accesskey "ц">
+<!ENTITY autotagEnable.label "Аўтаматычна ствараць меткі з імяў &lt;катэгорый&gt; стужак навін">
+<!ENTITY autotagEnable.accesskey "ў">
+<!ENTITY autotagUsePrefix.label "Прэфікс метак:">
+<!ENTITY autotagUsePrefix.accesskey "ф">
+<!ENTITY autoTagPrefix.placeholder "Увядзіце прэфікс метак">
 <!-- Subscription Dialog -->
-<!ENTITY button.addFeed.label        "Дадаць">
-<!ENTITY button.addFeed.accesskey    "Д">
-<!ENTITY button.verifyFeed.label     "Праверыць">
+<!ENTITY button.addFeed.label "Дадаць">
+<!ENTITY button.addFeed.accesskey "Д">
+<!ENTITY button.verifyFeed.label "Праверыць">
 <!ENTITY button.verifyFeed.accesskey "П">
-<!ENTITY button.updateFeed.label     "Абнавіць">
+<!ENTITY button.updateFeed.label "Абнавіць">
 <!ENTITY button.updateFeed.accesskey "А">
-<!ENTITY button.removeFeed.label     "Выдаліць">
+<!ENTITY button.removeFeed.label "Выдаліць">
 <!ENTITY button.removeFeed.accesskey "В">
-<!ENTITY button.importOPML.label     "Імпартаваць">
+<!ENTITY button.importOPML.label "Імпартаваць">
 <!ENTITY button.importOPML.accesskey "І">
-<!ENTITY button.exportOPML.label     "Экспартаваць">
+<!ENTITY button.exportOPML.label "Экспартаваць">
 <!ENTITY button.exportOPML.accesskey "Э">
-<!ENTITY button.exportOPML.tooltip   "Экспартаваць стужкі навін са структурай папак; Ctrl+націсканне або Ctrl+Enter, каб экспартаваць стужкі навін у выглядзе спіса">
-
-<!ENTITY cmd.close.commandKey        "w">
-<!ENTITY button.close.label          "Закрыць">
+<!ENTITY button.exportOPML.tooltip "Экспартаваць стужкі навін са структурай папак; Ctrl+націсканне або Ctrl+Enter, каб экспартаваць стужкі навін у выглядзе спіса">
+<!ENTITY cmd.close.commandKey "w">
+<!ENTITY button.close.label "Закрыць">

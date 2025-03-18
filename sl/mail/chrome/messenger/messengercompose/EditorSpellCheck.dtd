@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Preveri črkovanje">
-
 <!ENTITY misspelledWord.label "Nepravilno napisana beseda:">
 <!ENTITY wordEditField.label "Zamenjaj s/z:">
 <!ENTITY wordEditField.accessKey "Z">

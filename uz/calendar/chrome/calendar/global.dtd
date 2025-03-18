@@ -1,20 +1,18 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY month.1.name "Yanvar" >
-<!ENTITY month.2.name "Fevral" >
-<!ENTITY month.3.name "Mart" >
-<!ENTITY month.4.name "Aprel" >
-<!ENTITY month.5.name "May" >
-<!ENTITY month.6.name "Iyun" >
-<!ENTITY month.7.name "Iyul" >
-<!ENTITY month.8.name "Avgust" >
-<!ENTITY month.9.name "Sentabr" >
-<!ENTITY month.10.name "Oktabr" >
-<!ENTITY month.11.name "Noyabr" >
-<!ENTITY month.12.name "Dekabr" >
-
+<!ENTITY month.1.name "Yanvar">
+<!ENTITY month.2.name "Fevral">
+<!ENTITY month.3.name "Mart">
+<!ENTITY month.4.name "Aprel">
+<!ENTITY month.5.name "May">
+<!ENTITY month.6.name "Iyun">
+<!ENTITY month.7.name "Iyul">
+<!ENTITY month.8.name "Avgust">
+<!ENTITY month.9.name "Sentabr">
+<!ENTITY month.10.name "Oktabr">
+<!ENTITY month.11.name "Noyabr">
+<!ENTITY month.12.name "Dekabr">
 <!ENTITY showToday.tooltip "Bugunga o‘tish">
 <!ENTITY onedayforward.tooltip "Bir kun oldinga">
 <!ENTITY onedaybackward.tooltip "Bir kun orqaroqqa">

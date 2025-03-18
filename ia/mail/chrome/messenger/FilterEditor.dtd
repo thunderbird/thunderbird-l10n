@@ -5,16 +5,13 @@
 <!ENTITY window.title "Regulas de filtro">
 <!ENTITY filterName.label "Nomine del filtro:">
 <!ENTITY filterName.accesskey "i">
-
 <!ENTITY junk.label "Indesirate">
 <!ENTITY notJunk.label "Non indesirate">
-
 <!ENTITY lowestPriorityCmd.label "Plus basse">
 <!ENTITY lowPriorityCmd.label "Basse">
 <!ENTITY normalPriorityCmd.label "Normal">
 <!ENTITY highPriorityCmd.label "Alte">
 <!ENTITY highestPriorityCmd.label "Plus alte">
-
 <!ENTITY contextDesc.label "Applicar filtro quando:">
 <!ENTITY contextIncomingMail.label "Reception de nove posta:">
 <!ENTITY contextIncomingMail.accesskey "R">
@@ -27,13 +24,10 @@
 <!ENTITY contextArchive.label "Archivation">
 <!ENTITY contextArchive.accesskey "A">
 <!ENTITY contextPeriodic.accesskey "e">
-
 <!ENTITY filterActionDesc.label "Developpar iste actiones:">
 <!ENTITY filterActionDesc.accesskey "D">
-
 <!ENTITY filterActionOrderWarning.label "Nota: le actiones filtro sera exequite in un ordine differente.">
 <!ENTITY filterActionOrder.label "Vider ordine de execution">
-
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Mover le message a">
 <!ENTITY copyMessage.label "Copiar le message a">
@@ -52,15 +46,12 @@
 <!ENTITY ignoreSubthread.label "Ignorar sub-argumento">
 <!ENTITY watchThread.label "Surveliar la discussion">
 <!ENTITY stopExecution.label "Stoppar le execution del filtro">
-
 <!ENTITY addAction.tooltip "Adder un nove action">
 <!ENTITY removeAction.tooltip "Remover iste action">
-
 <!-- LOCALIZATION NOTE
      The values below are used to control the widths of the filter action widgets.
      Change the values only when the localized strings in the popup menus
      are truncated in the widgets.
-  -->
-<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
+     Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

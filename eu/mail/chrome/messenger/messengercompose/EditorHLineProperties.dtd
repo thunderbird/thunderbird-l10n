@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Lerro horizontalaren propietateak">
-
 <!ENTITY dimensionsBox.label "Neurriak">
 <!ENTITY heightEditField.label "Altuera:">
 <!ENTITY heightEditField.accessKey "t">
@@ -19,7 +17,6 @@
 <!ENTITY centerRadio.accessKey "E">
 <!ENTITY rightRadio.label "Eskuina">
 <!ENTITY rightRadio.accessKey "s">
-
 <!ENTITY threeDShading.label "3-D Itzal nabarmentzea">
 <!ENTITY threeDShading.accessKey "I">
 <!ENTITY saveSettings.label "Lehenetsi">

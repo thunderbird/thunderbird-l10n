@@ -3,7 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from EdReplace.xhtml -->
-
 <!ENTITY replaceDialog.title "Leita og breyta">
 <!ENTITY findField.label "Leita að texta:">
 <!ENTITY findField.accesskey "x">

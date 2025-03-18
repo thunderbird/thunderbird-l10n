@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Dearbh-aithne">
 <!ENTITY identityDesc.label "Tha dearbh-aithne aig gach cunntas; sin am fiosrachadh air a dh'aithnichear thusa nuair a gheibhear teachdaireachdan uat.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Cuir a-steach an t-ainm a nochdas san raon &quot;O&quot; sna teachdaireachdan a chuireas tu gu daoine eile">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(mar eisimpleir, &quot;Calum MacCaluim&quot;).">
 <!ENTITY fullnameLabel.label "D' ainm:">
 <!ENTITY fullnameLabel.accesskey "D">
-
 <!ENTITY emailLabel.label "An seòladh puist-dhealain:">
 <!ENTITY emailLabel.accesskey "e">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Cuir a-steach an t-ainm a bu toigh leat a bhith air a&apos; chunntas seo (mar eisimpleir &quot;Cunntas m&apos; obrach&quot;, &quot;Cunntas an taighe&quot; no &quot;Cunntas nan naidheachdan&quot;).">
 <!ENTITY accnameLabel.label "Ainm a' chunntais:">
 <!ENTITY accnameLabel.accesskey "A">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Meal do naidheachd!">
 <!ENTITY completionText.label "Dearbh gu bheil am fiosrachadh gu h-ìosal ceart.">
 <!ENTITY newsServerNamePrefix.label "Ainm frithealaiche nan naidheachdan (NNTP):">

@@ -3,30 +3,26 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
-
-<!ENTITY fileMenu.label          "Ffeil">
-<!ENTITY fileMenu.accesskey        "F">
-<!ENTITY newMenu.label            "Newydd">
-<!ENTITY newMenu.accesskey          "N">
-
-<!ENTITY editMenu.label          "Golygu">
-<!ENTITY editMenu.accesskey        "G">
-<!ENTITY undoCmd.label            "Dadwneud">
-<!ENTITY undoCmd.accesskey          "u">
-<!ENTITY redoCmd.label            "Ailwneud">
-<!ENTITY redoCmd.accesskey          "A">
-<!ENTITY deleteCmd.label          "Dileu">
-<!ENTITY deleteCmd.accesskey        "D">
+<!ENTITY fileMenu.label "Ffeil">
+<!ENTITY fileMenu.accesskey "F">
+<!ENTITY newMenu.label "Newydd">
+<!ENTITY newMenu.accesskey "N">
+<!ENTITY editMenu.label "Golygu">
+<!ENTITY editMenu.accesskey "G">
+<!ENTITY undoCmd.label "Dadwneud">
+<!ENTITY undoCmd.accesskey "u">
+<!ENTITY redoCmd.label "Ailwneud">
+<!ENTITY redoCmd.accesskey "A">
+<!ENTITY deleteCmd.label "Dileu">
+<!ENTITY deleteCmd.accesskey "D">
 <!ENTITY customizeCmd.label "Cyfaddasu">
 <!ENTITY customizeCmd.accesskey "f">
-
-<!ENTITY viewMenu.label          "Golwg">
-<!ENTITY viewMenu.accesskey        "l">
-<!ENTITY viewToolbarsMenu.label        "Barrau Offer">
-<!ENTITY viewToolbarsMenu.accesskey      "B">
-<!ENTITY showTaskbarCmd.label          "Bar Statws">
-<!ENTITY showTaskbarCmd.accesskey        "S">
-
-<!ENTITY closeCmd.label      "Cau">
-<!ENTITY closeCmd.key      "W">
-<!ENTITY closeCmd.accesskey    "u">
+<!ENTITY viewMenu.label "Golwg">
+<!ENTITY viewMenu.accesskey "l">
+<!ENTITY viewToolbarsMenu.label "Barrau Offer">
+<!ENTITY viewToolbarsMenu.accesskey "B">
+<!ENTITY showTaskbarCmd.label "Bar Statws">
+<!ENTITY showTaskbarCmd.accesskey "S">
+<!ENTITY closeCmd.label "Cau">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.accesskey "u">

@@ -1,12 +1,10 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<!ENTITY settingsTab.label       "Iestatījumi">
+<!ENTITY settingsTab.label "Iestatījumi">
 <!ENTITY copiesFoldersTab.label "Kopijas &amp; mapes">
-<!ENTITY addressingTab.label    "Salikums &amp; adresēšana">
-
-<!ENTITY publicData.label        "Publiskie dati">
-<!ENTITY privateData.label       "Privātie dati">
-<!ENTITY identityAlias.label     "Identitātes etiķete:">
+<!ENTITY addressingTab.label "Salikums &amp; adresēšana">
+<!ENTITY publicData.label "Publiskie dati">
+<!ENTITY privateData.label "Privātie dati">
+<!ENTITY identityAlias.label "Identitātes etiķete:">
 <!ENTITY identityAlias.accesskey "I">

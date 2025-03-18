@@ -2,9 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!--LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
+<!-- LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
 <!ENTITY msgComposeWindow.title "Scríobh: (gan ábhar)">
-
 <!-- File Menu -->
 <!ENTITY fileMenu.label "Comhad">
 <!ENTITY fileMenu.accesskey "C">
@@ -45,7 +44,6 @@
 <!ENTITY printCmd.label "Priontáil…">
 <!ENTITY printCmd.key "P">
 <!ENTITY printCmd.accesskey "P">
-
 <!-- Edit Menu -->
 <!ENTITY editMenu.label "Eagar">
 <!ENTITY editMenu.accesskey "E">
@@ -82,16 +80,6 @@
 <!ENTITY findPrevCmd.accesskey "R">
 <!ENTITY findPrevCmd.key "G">
 <!ENTITY findPrevCmd.key2 "VK_F3">
-
-<!-- Reorder Attachment Panel -->
-
-<!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.Sort.AZ.label):
-     Please ensure that this translation matches
-     sortAttachmentsPanelBtn.Sort.ZA.label, except for the sort direction. -->
-<!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.SortSelection.AZ.label):
-     Please ensure that this translation matches
-     sortAttachmentsPanelBtn.SortSelection.ZA.label, except for the sort direction. -->
-
 <!-- View Menu -->
 <!ENTITY viewMenu.label "Amharc">
 <!ENTITY viewMenu.accesskey "A">
@@ -107,14 +95,11 @@
 <!ENTITY showTaskbarCmd.accesskey "S">
 <!ENTITY customizeToolbar.label "Saincheap…">
 <!ENTITY customizeToolbar.accesskey "c">
-
 <!ENTITY addressSidebar.label "Barra Teagmhálaithe">
 <!ENTITY addressSidebar.accesskey "T">
-
 <!-- Format Menu -->
 <!ENTITY formatMenu.label "Formáid">
 <!ENTITY formatMenu.accesskey "o">
-
 <!-- Options Menu -->
 <!ENTITY optionsMenu.label "Roghanna">
 <!ENTITY optionsMenu.accesskey "R">
@@ -126,11 +111,9 @@
 <!ENTITY enableInlineSpellChecker.accesskey "L">
 <!ENTITY quoteCmd.label "Luaigh Teachtaireacht">
 <!ENTITY quoteCmd.accesskey "L">
-
-<!--LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard' -->
+<!-- LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard' -->
 <!ENTITY attachVCard.label "Ceangail Cárta Pearsanta (v-Chárta)">
 <!ENTITY attachVCard.accesskey "v">
-
 <!ENTITY returnReceiptMenu.label "Admháil Léite">
 <!ENTITY returnReceiptMenu.accesskey "t">
 <!ENTITY dsnMenu.label "Fógairt Stádais Sheachadta">
@@ -153,7 +136,6 @@
 <!ENTITY fileCarbonCopyCmd.label "Seol Cóip Chuig">
 <!ENTITY fileCarbonCopyCmd.accesskey "l">
 <!ENTITY fileHereMenu.label "Comhdaigh Anseo">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Uirlisí">
 <!ENTITY tasksMenu.accesskey "U">
@@ -166,14 +148,12 @@
 <!ENTITY accountManagerCmd2.label "Socruithe an Chuntais">
 <!ENTITY accountManagerCmd2.accesskey "S">
 <!ENTITY accountManagerCmdUnix2.accesskey "S">
-
-<!--  Mac OS X Window Menu -->
+<!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY minimizeWindow.label "Íoslaghdaigh">
 <!ENTITY bringAllToFront.label "Tabhair an tIomlán chun Tosaigh">
 <!ENTITY zoomWindow.label "Súmáil">
 <!ENTITY windowMenu.label "Fuinneog">
-
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Seol">
 <!ENTITY quoteButton.label "Luaigh">
@@ -181,7 +161,6 @@
 <!ENTITY spellingButton.label "Litriú">
 <!ENTITY saveButton.label "Sábháil">
 <!ENTITY printButton.label "Priontáil">
-
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Seol an teachtaireacht seo anois">
 <!ENTITY sendlaterButton.tooltip "Seol an teachtaireacht seo níos déanaí">
@@ -189,17 +168,12 @@
 <!ENTITY addressButton.tooltip "Roghnaigh faighteoir as Leabhar Seoltaí">
 <!ENTITY spellingButton.tooltip "Seiceáil litriú an roghnaithe nó na teachtaireachta iomláine">
 <!ENTITY saveButton.tooltip "Sábháil an teachtaireacht seo">
-<!ENTITY cutButton.tooltip              "Gearr">
-<!ENTITY copyButton.tooltip             "Cóipeáil">
-<!ENTITY pasteButton.tooltip            "Greamaigh">
+<!ENTITY cutButton.tooltip "Gearr">
+<!ENTITY copyButton.tooltip "Cóipeáil">
+<!ENTITY pasteButton.tooltip "Greamaigh">
 <!ENTITY printButton.tooltip "Priontáil an teachtaireacht seo">
-
-<!-- Headers -->
-<!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
-    Subject: rows. It should be larger than the largest Header label  -->
 <!ENTITY fromAddr.accesskey "r">
 <!ENTITY subject.accesskey "b">
-
 <!-- Format Toolbar, imported from editorAppShell.xhtml -->
 <!ENTITY SmileButton.tooltip "Ionsáigh miongháire">
 <!ENTITY smiley1Cmd.label "Miongháire">
@@ -218,7 +192,6 @@
 <!ENTITY smiley14Cmd.label "Soineanta">
 <!ENTITY smiley15Cmd.label "Gol">
 <!ENTITY smiley16Cmd.label "Glas ar an teanga">
-
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Níl Aon Mholadh">
 <!ENTITY spellCheckIgnoreWord.label "Tabhair neamhaird ar an bhFocal Seo">
@@ -235,7 +208,6 @@
 <!ENTITY paste.accesskey "m">
 <!ENTITY pasteQuote.label "Greamaigh mar Athfhriotal">
 <!ENTITY pasteQuote.accesskey "A">
-
 <!-- Attachment Item and List Context Menus -->
 <!ENTITY openAttachment.label "Oscail">
 <!ENTITY openAttachment.accesskey "O">
@@ -257,23 +229,11 @@
 <!ENTITY convertRegularAttachment.accesskey "i">
 <!ENTITY attachPage.label "Ceangail Leathanach Gréasáin…">
 <!ENTITY attachPage.accesskey "G">
-
-<!-- Attachment Pane Header Bar Context Menu -->
-<!-- LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Cuir Foclóirí Leis…">
 <!ENTITY spellAddDictionaries.accesskey "C">
-
 <!-- Title for the address picker panel -->
 <!ENTITY addressesSidebarTitle.label "Teagmhálaithe">
-
 <!-- Identity popup customize menuitem -->
 <!ENTITY customizeFromAddress.label "Ríomhphost ó Sheoladh Saincheaptha…">
 <!ENTITY customizeFromAddress.accesskey "a">
-
-<!-- Accessibility name for the document -->
-
-<!-- Status Bar -->

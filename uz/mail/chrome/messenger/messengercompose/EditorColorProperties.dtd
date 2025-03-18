@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Boshqa ranglardan foydalanish:">
 <!ENTITY customColorsRadio.accessKey "B">
 <!ENTITY customColorsRadio.tooltip "Ushbu rang sozlamalari ko‘rsatkichning brauzeri sozlamalarinini almashtiriadi">
-
 <!ENTITY normalText.label "O‘rtacha matn">
 <!ENTITY normalText.accessKey "O">
 <!ENTITY linkText.label "Havola matni">

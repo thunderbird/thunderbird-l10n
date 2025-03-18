@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Propriétés des images">
-
 <!ENTITY pixelsPopup.value "pixels">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "URL de l’image">
 <!ENTITY locationEditField.accessKey "U">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Taper le texte à mettre à la place de l’image">
 <!ENTITY noAltText.label "Pas de texte de remplacement">
 <!ENTITY noAltText.accessKey "P">
-
 <!ENTITY previewBox.label "Prévisualisation de l’image">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Taille réelle :">
 <!ENTITY actualSizeRadio.label "Taille réelle">
 <!ENTITY actualSizeRadio.accessKey "T">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Contraindre">
 <!ENTITY constrainCheckbox.accessKey "C">
 <!ENTITY constrainCheckbox.tooltip "Maintenir les proportions de l’image">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Carte de l’image">
 <!ENTITY removeImageMapButton.label "Supprimer de la liste d’images">
 <!ENTITY removeImageMapButton.accessKey "S">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Aligner le texte par rapport à l’image :">
 <!ENTITY bottomPopup.value "vers le bas">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "au centre">
 <!ENTITY wrapRightPopup.value "plaquer à droite">
 <!ENTITY wrapLeftPopup.value "plaquer à gauche">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Espacement">
 <!ENTITY leftRightEditField.label "Gauche et droite :">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "H">
 <!ENTITY borderEditField.label "Bordure pleine :">
 <!ENTITY borderEditField.accessKey "B">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Mettre un cadre autour de l’image (lien)">
 <!ENTITY showImageLinkBorder.accessKey "c">
 <!ENTITY LinkAdvancedEditButton.label "Propriétés avancées de lien…">
 <!ENTITY LinkAdvancedEditButton.accessKey "P">
 <!ENTITY LinkAdvancedEditButton.tooltip "Ajouter ou modifier des attributs HTML, des attributs de style et du JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Formulaire">
 <!ENTITY imageLocationTab.label "Image">

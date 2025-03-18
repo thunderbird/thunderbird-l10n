@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Math zasajźiś">
-
 <!ENTITY sourceEditField.label "Zapódajśo žrědłowy kode LaTeX:">
-
 <!ENTITY options.label "Nastajenja">
 <!ENTITY optionInline.label "Inline-modus">
 <!ENTITY optionInline.accesskey "n">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "l">
 <!ENTITY optionRTL.label "Směr napšawo nalěwo">
 <!ENTITY optionRTL.accesskey "r">
-
 <!ENTITY insertButton.label "Zasajźiś">
 <!ENTITY insertButton.accesskey "Z">

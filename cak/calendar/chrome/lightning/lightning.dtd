@@ -4,66 +4,47 @@
 
 <!-- WARNING! This file contains UTF-8 encoded characters!
    - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
-   - your editor isn't using UTF-8 encoding and may munge up the document!
-  -->
+   - your editor isn't using UTF-8 encoding and may munge up the document! -->
 
 <!-- Tools menu -->
 <!ENTITY lightning.preferencesLabel "Cholb'äl Q'ij">
-
-<!-- New menu popup in File menu -->
 <!ENTITY lightning.menupopup.new.calendar.label "Cholb'äl Q'ij…">
 <!ENTITY lightning.menupopup.new.calendar.accesskey "l">
-
 <!-- Open menu popup in File menu -->
-<!ENTITY lightning.menupopup.open.calendar.label      "Ruyakb'al Cholb'äl Q'ij…">
-<!ENTITY lightning.menupopup.open.calendar.accesskey  "Q">
-
+<!ENTITY lightning.menupopup.open.calendar.label "Ruyakb'al Cholb'äl Q'ij…">
+<!ENTITY lightning.menupopup.open.calendar.accesskey "Q">
 <!-- View Menu -->
-<!ENTITY lightning.menu.view.calendar.label            "Cholb'äl Q'ij">
-<!ENTITY lightning.menu.view.calendar.accesskey        "Q">
-<!ENTITY lightning.menu.view.tasks.label               "Taq Samaj">
-<!ENTITY lightning.menu.view.tasks.accesskey           "S">
-
+<!ENTITY lightning.menu.view.calendar.label "Cholb'äl Q'ij">
+<!ENTITY lightning.menu.view.calendar.accesskey "Q">
+<!ENTITY lightning.menu.view.tasks.label "Taq Samaj">
+<!ENTITY lightning.menu.view.tasks.accesskey "S">
 <!-- Events and Tasks menu -->
-<!ENTITY lightning.menu.eventtask.label                "Taq molojri'ïl chuqa' taq samaj">
-<!ENTITY lightning.menu.eventtask.accesskey            "m">
-
-<!-- properties dialog, calendar creation wizard -->
-<!-- LOCALIZATON NOTE(lightning.calendarproperties.email.label,
+<!ENTITY lightning.menu.eventtask.label "Taq molojri'ïl chuqa' taq samaj">
+<!ENTITY lightning.menu.eventtask.accesskey "m">
+<!-- properties dialog, calendar creation wizard
+     LOCALIZATON NOTE(lightning.calendarproperties.email.label,
      lightning.calendarproperties.forceEmailScheduling.label)
      These strings are used in the calendar wizard and the calendar properties dialog, but are only
      displayed when setting/using a caldav calendar -->
-<!ENTITY lightning.calendarproperties.email.label                           "Taqoya'l:">
-<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
-     lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
-     - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
-     - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
-
+<!ENTITY lightning.calendarproperties.email.label "Taqoya'l:">
 <!-- The notifications settings in the properties dialog -->
-<!ENTITY lightning.calendarproperties.notifications.label                   "Taq rutzijol">
-
+<!ENTITY lightning.calendarproperties.notifications.label "Taq rutzijol">
 <!-- iMIP Bar (meeting support) -->
-<!ENTITY lightning.imipbar.btnAccept.label                                  "Tik'ul">
-<!ENTITY lightning.imipbar.btnAdd.label                                     "Titz'aqatisäx">
-<!ENTITY lightning.imipbar.btnDecline.label                                 "Tixutüx">
-<!ENTITY lightning.imipbar.btnDeclineRecurrences.label                      "Xxutüx ronojel">
-<!ENTITY lightning.imipbar.btnDeclineCounter.label                          "Tixutüx">
-<!ENTITY lightning.imipbar.btnDelete.label                                  "Tiyuj">
-<!ENTITY lightning.imipbar.btnDelete.tooltiptext                            "Tiyuj pa Cholb'äl Q'ij">
-<!ENTITY lightning.imipbar.btnDetails.label                                 "Kib'anikil…">
-<!ENTITY lightning.imipbar.btnDetails.tooltiptext                           "Kek'ut taq kib'anikil molojri'ïl">
-<!ENTITY lightning.imipbar.btnGoToCalendar.label                            "Cholb'äl q'ij">
-<!ENTITY lightning.imipbar.btnMore.label                                    "Ch'aqa' chik">
-<!ENTITY lightning.imipbar.btnSaveCopy.label                                "Tiyak jun wachib'äl">
-<!ENTITY lightning.imipbar.btnTentative.label                               "Tirayïx">
-<!ENTITY lightning.imipbar.btnUpdate.label                                  "Tik'ex">
-
-
-<!-- Lightning specific keybindings -->
-
+<!ENTITY lightning.imipbar.btnAccept.label "Tik'ul">
+<!ENTITY lightning.imipbar.btnAdd.label "Titz'aqatisäx">
+<!ENTITY lightning.imipbar.btnDecline.label "Tixutüx">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences.label "Xxutüx ronojel">
+<!ENTITY lightning.imipbar.btnDeclineCounter.label "Tixutüx">
+<!ENTITY lightning.imipbar.btnDelete.label "Tiyuj">
+<!ENTITY lightning.imipbar.btnDelete.tooltiptext "Tiyuj pa Cholb'äl Q'ij">
+<!ENTITY lightning.imipbar.btnDetails.label "Kib'anikil…">
+<!ENTITY lightning.imipbar.btnDetails.tooltiptext "Kek'ut taq kib'anikil molojri'ïl">
+<!ENTITY lightning.imipbar.btnGoToCalendar.label "Cholb'äl q'ij">
+<!ENTITY lightning.imipbar.btnMore.label "Ch'aqa' chik">
+<!ENTITY lightning.imipbar.btnSaveCopy.label "Tiyak jun wachib'äl">
+<!ENTITY lightning.imipbar.btnTentative.label "Tirayïx">
+<!ENTITY lightning.imipbar.btnUpdate.label "Tik'ex">
 <!-- Account Central page -->
 <!ENTITY lightning.acctCentral.newCalendar.label "Titz'uk k'ak'a' cholb'äl q'ij">
-
-<!-- today-pane-specific -->
 <!ENTITY todaypane.showNone.label "Majun Tik'ut">
 <!ENTITY todaypane.showNone.accesskey "M">

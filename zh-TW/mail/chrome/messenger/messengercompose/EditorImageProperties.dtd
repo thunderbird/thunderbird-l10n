@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "圖片屬性">
-
 <!ENTITY pixelsPopup.value "圖素">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "圖片位置:">
 <!ENTITY locationEditField.accessKey "L">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "輸入出現在圖片位置的文字">
 <!ENTITY noAltText.label "不要使用替代文字">
 <!ENTITY noAltText.accessKey "D">
-
 <!ENTITY previewBox.label "圖片預覽">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "實際大小:">
 <!ENTITY actualSizeRadio.label "實際大小">
 <!ENTITY actualSizeRadio.accessKey "A">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "固定長寬比">
 <!ENTITY constrainCheckbox.accessKey "C">
 <!ENTITY constrainCheckbox.tooltip "維護此圖片的長寬比">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "影像地圖">
 <!ENTITY removeImageMapButton.label "移除">
 <!ENTITY removeImageMapButton.accessKey "R">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "文字對齊圖片方式:">
 <!ENTITY bottomPopup.value "底部">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "中間">
 <!ENTITY wrapRightPopup.value "圖片右邊">
 <!ENTITY wrapLeftPopup.value "圖片左邊">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "空白">
 <!ENTITY leftRightEditField.label "左右兩邊">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "T">
 <!ENTITY borderEditField.label "實心框線:">
 <!ENTITY borderEditField.accessKey "B">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "在鏈結圖片外加框">
 <!ENTITY showImageLinkBorder.accessKey "B">
 <!ENTITY LinkAdvancedEditButton.label "進階編輯鏈結…">
 <!ENTITY LinkAdvancedEditButton.accessKey "L">
 <!ENTITY LinkAdvancedEditButton.tooltip "新增或編輯這個物件的 HTML 屬性、樣式資料，以及 JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "表單">
 <!ENTITY imageLocationTab.label "地點">

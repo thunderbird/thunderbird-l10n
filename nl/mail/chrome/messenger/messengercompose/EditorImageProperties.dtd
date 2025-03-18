@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Afbeeldingseigenschappen">
-
 <!ENTITY pixelsPopup.value "pixels">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Afbeeldingslocatie:">
 <!ENTITY locationEditField.accessKey "A">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Typ tekst die op de plaats van de afbeelding moet worden weergegeven">
 <!ENTITY noAltText.label "Geen alternatieve tekst gebruiken">
 <!ENTITY noAltText.accessKey "G">
-
 <!ENTITY previewBox.label "Afbeeldingsvoorbeeld">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Werkelijke grootte:">
 <!ENTITY actualSizeRadio.label "Werkelijke grootte">
 <!ENTITY actualSizeRadio.accessKey "W">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Verhouding behouden">
 <!ENTITY constrainCheckbox.accessKey "V">
 <!ENTITY constrainCheckbox.tooltip "Hoogte-breedteverhouding van de afbeelding behouden">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Afbeeldingskaart">
 <!ENTITY removeImageMapButton.label "Verwijderen">
 <!ENTITY removeImageMapButton.accessKey "w">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Tekst uitlijnen naar afbeelding">
 <!ENTITY bottomPopup.value "Aan de onderkant">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "In het midden">
 <!ENTITY wrapRightPopup.value "Rechts uitlijnen">
 <!ENTITY wrapLeftPopup.value "Links uitlijnen">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Tussenruimtes">
 <!ENTITY leftRightEditField.label "Links en rechts:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "B">
 <!ENTITY borderEditField.label "Vaste rand:">
 <!ENTITY borderEditField.accessKey "V">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Rand om gekoppelde afbeelding weergeven">
 <!ENTITY showImageLinkBorder.accessKey "R">
 <!ENTITY LinkAdvancedEditButton.label "Koppel geavanceerd bewerken…">
 <!ENTITY LinkAdvancedEditButton.accessKey "K">
 <!ENTITY LinkAdvancedEditButton.tooltip "HTML-attributen, stijlkenmerken en JavaScript toevoegen of aanpassen">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Formulier">
 <!ENTITY imageLocationTab.label "Locatie">

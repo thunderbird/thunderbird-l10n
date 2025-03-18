@@ -8,7 +8,6 @@
 <!ENTITY author.label "Údar">
 <!ENTITY organizationField4.label "Eagras">
 <!ENTITY replyToField4.label "Tabhair freagra ar">
-
 <!ENTITY subjectField4.label "Ábhar">
 <!ENTITY ccField4.label "Cc">
 <!ENTITY bccField4.label "Bcc">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Aitheantas na Teachtaireachta">
 <!ENTITY inReplyToField4.label "I bhfreagra ar:">
 <!ENTITY originalWebsite4.label "Suíomh Gréasáin">
-
 <!ENTITY hdrArchiveButton1.label "Cuir sa Chartlann">
 <!ENTITY hdrArchiveButton1.tooltip "Cuir an teachtaireacht seo sa chartlann">
 <!ENTITY hdrSmartReplyButton1.label "Freagra Cliste">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Marcáil an teachtaireacht seo mar dhramhphost">
 <!ENTITY hdrTrashButton1.label "Scrios">
 <!ENTITY hdrTrashButton1.tooltip "Scrios an teachtaireacht seo">
-
 <!ENTITY hdrViewToolbarShowFull.label "Taispeáin Deilbhíní agus Téacs">
 <!ENTITY hdrViewToolbarShowFull.accesskey "a">
 <!ENTITY hdrViewToolbarShowIcons.label "Taispeáin Deilbhíní Amháin">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "T">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Taispeáin Freagra don Seoltóir i gCónaí">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "r">
-
 <!ENTITY otherActionsButton2.label "Tuilleadh">
 <!ENTITY otherActionsButton.tooltip "Tuilleadh gníomhartha">
 <!ENTITY otherActionsOpenConversation1.label "Oscail i gComhrá">
@@ -67,41 +63,34 @@
 <!ENTITY viewSourceMenuItem1.accesskey "A">
 <!ENTITY otherActionsPrint1.label "Priontáil…">
 <!ENTITY otherActionsPrint1.accesskey "P">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Taispeáin an pána iatáin i dtosach báire">
-<!ENTITY startExpandedCmd.accesskey    "T">
-
+<!ENTITY startExpandedCmd.label "Taispeáin an pána iatáin i dtosach báire">
+<!ENTITY startExpandedCmd.accesskey "T">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Oscail">
-<!ENTITY openAttachmentCmd.accesskey    "O">
-<!ENTITY saveAsAttachmentCmd.label    "Sábháil Mar…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "S">
-<!ENTITY detachAttachmentCmd.label    "Díscoir…">
-<!ENTITY detachAttachmentCmd.accesskey    "D">
-<!ENTITY deleteAttachmentCmd.label    "Scrios">
-<!ENTITY deleteAttachmentCmd.accesskey    "c">
-<!ENTITY openAllAttachmentsCmd.label    "Oscail Uile…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "O">
-<!ENTITY saveAllAttachmentsCmd.label    "Sábháil Uile…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "S">
-<!ENTITY detachAllAttachmentsCmd.label    "Díscoir Uile…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "D">
-<!ENTITY deleteAllAttachmentsCmd.label    "Scrios Uile…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "c">
-
+<!ENTITY openAttachmentCmd.label "Oscail">
+<!ENTITY openAttachmentCmd.accesskey "O">
+<!ENTITY saveAsAttachmentCmd.label "Sábháil Mar…">
+<!ENTITY saveAsAttachmentCmd.accesskey "S">
+<!ENTITY detachAttachmentCmd.label "Díscoir…">
+<!ENTITY detachAttachmentCmd.accesskey "D">
+<!ENTITY deleteAttachmentCmd.label "Scrios">
+<!ENTITY deleteAttachmentCmd.accesskey "c">
+<!ENTITY openAllAttachmentsCmd.label "Oscail Uile…">
+<!ENTITY openAllAttachmentsCmd.accesskey "O">
+<!ENTITY saveAllAttachmentsCmd.label "Sábháil Uile…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "S">
+<!ENTITY detachAllAttachmentsCmd.label "Díscoir Uile…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "D">
+<!ENTITY deleteAllAttachmentsCmd.label "Scrios Uile…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "c">
 <!ENTITY openAttachment.tooltip "Oscail an comhad ceangailte">
-
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Sábháil">
-<!ENTITY saveAttachmentButton1.tooltip     "Sábháil an comhad ceangailte">
-<!ENTITY saveAllAttachmentsButton1.label   "Sábháil Uile">
+<!ENTITY saveAttachmentButton1.label "Sábháil">
+<!ENTITY saveAttachmentButton1.tooltip "Sábháil an comhad ceangailte">
+<!ENTITY saveAllAttachmentsButton1.label "Sábháil Uile">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Sábháil na comhaid cheangailte go léir">
-
-<!ENTITY copyLinkCmd.label        "Cóipeáil Suíomh an Naisc">
-<!ENTITY copyLinkCmd.accesskey    "C">
-
+<!ENTITY copyLinkCmd.label "Cóipeáil Suíomh an Naisc">
+<!ENTITY copyLinkCmd.accesskey "C">
 <!ENTITY CopyMessageId.label "Cóipeáil Aitheantas-Teachtaireachta">
 <!ENTITY CopyMessageId.accesskey "C">
 <!ENTITY OpenMessageForMsgId.label "Oscail teachtaireacht le haitheantas">

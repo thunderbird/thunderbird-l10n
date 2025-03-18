@@ -6,9 +6,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Ιδιότητες εικόνας">
-
 <!ENTITY pixelsPopup.value "εικονοστοιχεία">
-
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Τοποθεσία εικόνας:">
 <!ENTITY locationEditField.accessKey "Τ">
@@ -22,11 +20,9 @@
 <!ENTITY altTextEditField.tooltip "Πληκτρολογήστε το κείμενο που θα εμφανίζεται στη θέση της εικόνας">
 <!ENTITY noAltText.label "Χωρίς χρήση εναλλακτικού κειμένου">
 <!ENTITY noAltText.accessKey "Ν">
-
 <!ENTITY previewBox.label "Προεπισκόπηση εικόνας">
-
-<!-- These controls are in the Dimensions tab panel -->
-<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!-- These controls are in the Dimensions tab panel
+     actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Πραγματικό μέγεθος:">
 <!ENTITY actualSizeRadio.label "Πραγματικό μέγεθος">
 <!ENTITY actualSizeRadio.accessKey "γ">
@@ -41,12 +37,10 @@
 <!ENTITY constrainCheckbox.label "Περιορισμός">
 <!ENTITY constrainCheckbox.accessKey "ε">
 <!ENTITY constrainCheckbox.tooltip "Διατήρηση αναλογιών εικόνας">
-
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Χάρτης εικόνας">
 <!ENTITY removeImageMapButton.label "Αφαίρεση">
 <!ENTITY removeImageMapButton.accessKey "φ">
-
 <!-- These are the options for image alignment -->
 <!ENTITY alignment.label "Στοίχιση κειμένου στην εικόνα">
 <!ENTITY bottomPopup.value "Στο κάτω μέρος">
@@ -54,7 +48,6 @@
 <!ENTITY centerPopup.value "Στο κέντρο">
 <!ENTITY wrapRightPopup.value "Αναδίπλωση στα δεξιά">
 <!ENTITY wrapLeftPopup.value "Αναδίπλωση στα αριστερά">
-
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Διάταξη">
 <!ENTITY leftRightEditField.label "Αριστερά και δεξιά:">
@@ -63,14 +56,12 @@
 <!ENTITY topBottomEditField.accessKey "ω">
 <!ENTITY borderEditField.label "Μαύρο πλαίσιο:">
 <!ENTITY borderEditField.accessKey "Μ">
-
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Εμφάνιση πλαισίου γύρω από εικόνα με σύνδεσμο">
 <!ENTITY showImageLinkBorder.accessKey "π">
 <!ENTITY LinkAdvancedEditButton.label "Σύνθετη επεξεργασία συνδέσμου…">
 <!ENTITY LinkAdvancedEditButton.accessKey "δ">
 <!ENTITY LinkAdvancedEditButton.tooltip "Προσθήκη ή τροποποίηση ιδιοτήτων HTML, ιδιοτήτων στυλ και JavaScript">
-
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Φόρμα">
 <!ENTITY imageLocationTab.label "Τοποθεσία">

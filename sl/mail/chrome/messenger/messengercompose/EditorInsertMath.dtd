@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Vstavi matematični izraz">
-
 <!ENTITY sourceEditField.label "Vstavi izvorno kodo LaTeX:">
-
 <!ENTITY options.label "Možnosti">
 <!ENTITY optionInline.label "Način v besedilu">
 <!ENTITY optionInline.accesskey "b">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "v">
 <!ENTITY optionRTL.label "Besedilo od desne proti levi">
 <!ENTITY optionRTL.accesskey "n">
-
 <!ENTITY insertButton.label "Vstavi">
 <!ENTITY insertButton.accesskey "V">

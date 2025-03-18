@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Kalendar">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Kaloni te skeda e kalendarit">
+<!ENTITY lightning.toolbar.calendar.label "Kalendar">
+<!ENTITY lightning.toolbar.calendar.tooltip "Kaloni te skeda e kalendarit">
 <!ENTITY lightning.toolbar.calendar.accesskey "K">
-<!ENTITY lightning.toolbar.task.label         "Punë">
-<!ENTITY lightning.toolbar.task.tooltip       "Kaloni te skeda e punëve">
-<!ENTITY lightning.toolbar.task.accesskey     "P">
-
+<!ENTITY lightning.toolbar.task.label "Punë">
+<!ENTITY lightning.toolbar.task.tooltip "Kaloni te skeda e punëve">
+<!ENTITY lightning.toolbar.task.accesskey "P">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Ditë">
-<!ENTITY lightning.toolbar.day.accesskey             "D">
-<!ENTITY lightning.toolbar.week.label                "Javë">
-<!ENTITY lightning.toolbar.week.accesskey            "J">
-<!ENTITY lightning.toolbar.multiweek.label           "Shumëjavësh">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "S">
-<!ENTITY lightning.toolbar.month.label               "Muaj">
-<!ENTITY lightning.toolbar.month.accesskey           "M">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Kuadrat Kalendari">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "K">
-<!ENTITY lightning.toolbar.calendarpane.label        "Shfaqe Kuadratin e Kalendarit">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "K">
+<!ENTITY lightning.toolbar.day.label "Ditë">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "Javë">
+<!ENTITY lightning.toolbar.week.accesskey "J">
+<!ENTITY lightning.toolbar.multiweek.label "Shumëjavësh">
+<!ENTITY lightning.toolbar.multiweek.accesskey "S">
+<!ENTITY lightning.toolbar.month.label "Muaj">
+<!ENTITY lightning.toolbar.month.accesskey "M">
+<!ENTITY lightning.toolbar.calendarmenu.label "Kuadrat Kalendari">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "K">
+<!ENTITY lightning.toolbar.calendarpane.label "Shfaqe Kuadratin e Kalendarit">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "K">

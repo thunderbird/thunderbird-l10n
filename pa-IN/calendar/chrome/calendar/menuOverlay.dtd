@@ -3,39 +3,25 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Event Menu -->
-<!ENTITY event.new.event                        "…ਨਵਾਂ ਈਵੈਂਟ">
-<!ENTITY event.new.event.accesskey              "N">
-
-<!ENTITY event.new.task                         "…ਨਵਾਂ ਕੰਮ">
-<!ENTITY event.new.task.accesskey               "k">
-
-<!ENTITY calendar.import.label                  "…ਇੰਪੋਰਟ ਕਰੋ">
-<!ENTITY calendar.import.accesskey              "I">
-
-<!ENTITY calendar.export.label                  "…ਐਕਸਪੋਰਟ">
-<!ENTITY calendar.export.accesskey              "E">
-
-<!ENTITY calendar.publish.label                 "Publish…">
-<!ENTITY calendar.publish.accesskey             "b">
-
-<!ENTITY calendar.deletecalendar.label          "Delete Selected Calendar…">
-<!ENTITY calendar.deletecalendar.accesskey      "D">
-
-<!-- LOCALIZATION NOTE (calendar.removecalendar.label): Removing the calendar
-      is the general action of removing it, while deleting means to clear the
-      data and unsubscribing means just taking it out of the calendar list. -->
-
-<!ENTITY showUnifinderCmd.label                 "Find Events">
-<!ENTITY showUnifinderCmd.accesskey             "F">
-
-<!ENTITY calendar.displaytodos.checkbox.label       "Show Tasks in Calendar">
-<!ENTITY calendar.displaytodos.checkbox.accesskey   "T">
-
-<!ENTITY goTodayCmd.label                       "ਅੱਜ">
-<!ENTITY goTodayCmd.accesskey                   "T">
-
-<!ENTITY showCurrentView.label                  "ਮੌਜੂਦਾ ਝਲਕ">
-<!ENTITY showCurrentView.accesskey              "V">
-
-<!ENTITY calendar.properties.label              "Calendar Properties…">
-<!ENTITY calendar.properties.accesskey          "C">
+<!ENTITY event.new.event "…ਨਵਾਂ ਈਵੈਂਟ">
+<!ENTITY event.new.event.accesskey "N">
+<!ENTITY event.new.task "…ਨਵਾਂ ਕੰਮ">
+<!ENTITY event.new.task.accesskey "k">
+<!ENTITY calendar.import.label "…ਇੰਪੋਰਟ ਕਰੋ">
+<!ENTITY calendar.import.accesskey "I">
+<!ENTITY calendar.export.label "…ਐਕਸਪੋਰਟ">
+<!ENTITY calendar.export.accesskey "E">
+<!ENTITY calendar.publish.label "Publish…">
+<!ENTITY calendar.publish.accesskey "b">
+<!ENTITY calendar.deletecalendar.label "Delete Selected Calendar…">
+<!ENTITY calendar.deletecalendar.accesskey "D">
+<!ENTITY showUnifinderCmd.label "Find Events">
+<!ENTITY showUnifinderCmd.accesskey "F">
+<!ENTITY calendar.displaytodos.checkbox.label "Show Tasks in Calendar">
+<!ENTITY calendar.displaytodos.checkbox.accesskey "T">
+<!ENTITY goTodayCmd.label "ਅੱਜ">
+<!ENTITY goTodayCmd.accesskey "T">
+<!ENTITY showCurrentView.label "ਮੌਜੂਦਾ ਝਲਕ">
+<!ENTITY showCurrentView.accesskey "V">
+<!ENTITY calendar.properties.label "Calendar Properties…">
+<!ENTITY calendar.properties.accesskey "C">

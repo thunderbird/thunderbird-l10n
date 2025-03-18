@@ -8,7 +8,6 @@
 <!ENTITY author.label "Autor">
 <!ENTITY organizationField4.label "Organisatsioon">
 <!ENTITY replyToField4.label "Vastamise aadress">
-
 <!ENTITY subjectField4.label "Teema">
 <!ENTITY ccField4.label "Koopia">
 <!ENTITY bccField4.label "Pimekoopia">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Kirja-ID">
 <!ENTITY inReplyToField4.label "Vastus-kirjale">
 <!ENTITY originalWebsite4.label "Veebileht">
-
 <!ENTITY hdrArchiveButton1.label "Arhiveeri">
 <!ENTITY hdrArchiveButton1.tooltip "Arhiveeri see kiri">
 <!ENTITY hdrSmartReplyButton1.label "Tark vastamine">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "Märgi see kiri rämpspostiks">
 <!ENTITY hdrTrashButton1.label "Kustuta">
 <!ENTITY hdrTrashButton1.tooltip "Kustuta see kiri">
-
 <!ENTITY hdrViewToolbarShowFull.label "Kuvatakse ikoone ja teksti">
 <!ENTITY hdrViewToolbarShowFull.accesskey "K">
 <!ENTITY hdrViewToolbarShowIcons.label "Kuvatakse ainult ikoone">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "v">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "Alati kuvatakse saatjale vastamise nuppu">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "A">
-
 <!ENTITY otherActionsButton2.label "Muud tegevused">
 <!ENTITY otherActionsButton.tooltip "Kuva rohkem tegevusi">
 <!ENTITY otherActionsOpenConversation1.label "Ava vestlusena">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "V">
 <!ENTITY otherActionsPrint1.label "Prindi…">
 <!ENTITY otherActionsPrint1.accesskey "P">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "Kirja avamisel kuvatakse manused kohe">
-<!ENTITY startExpandedCmd.accesskey    "i">
-
+<!ENTITY startExpandedCmd.label "Kirja avamisel kuvatakse manused kohe">
+<!ENTITY startExpandedCmd.accesskey "i">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "Ava">
-<!ENTITY openAttachmentCmd.accesskey    "A">
-<!ENTITY saveAsAttachmentCmd.label    "Salvesta kui...">
-<!ENTITY saveAsAttachmentCmd.accesskey    "k">
-<!ENTITY detachAttachmentCmd.label    "Eemalda...">
-<!ENTITY detachAttachmentCmd.accesskey    "m">
-<!ENTITY deleteAttachmentCmd.label    "Kustuta">
-<!ENTITY deleteAttachmentCmd.accesskey    "s">
-<!ENTITY openAllAttachmentsCmd.label    "Ava kõik…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "v">
-<!ENTITY saveAllAttachmentsCmd.label    "Salvesta kõik...">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "l">
-<!ENTITY detachAllAttachmentsCmd.label    "Eemalda kõik...">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "E">
-<!ENTITY deleteAllAttachmentsCmd.label    "Kustuta kõik...">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "U">
-
+<!ENTITY openAttachmentCmd.label "Ava">
+<!ENTITY openAttachmentCmd.accesskey "A">
+<!ENTITY saveAsAttachmentCmd.label "Salvesta kui...">
+<!ENTITY saveAsAttachmentCmd.accesskey "k">
+<!ENTITY detachAttachmentCmd.label "Eemalda...">
+<!ENTITY detachAttachmentCmd.accesskey "m">
+<!ENTITY deleteAttachmentCmd.label "Kustuta">
+<!ENTITY deleteAttachmentCmd.accesskey "s">
+<!ENTITY openAllAttachmentsCmd.label "Ava kõik…">
+<!ENTITY openAllAttachmentsCmd.accesskey "v">
+<!ENTITY saveAllAttachmentsCmd.label "Salvesta kõik...">
+<!ENTITY saveAllAttachmentsCmd.accesskey "l">
+<!ENTITY detachAllAttachmentsCmd.label "Eemalda kõik...">
+<!ENTITY detachAllAttachmentsCmd.accesskey "E">
+<!ENTITY deleteAllAttachmentsCmd.label "Kustuta kõik...">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "U">
 <!ENTITY openAttachment.tooltip "Ava kaasatud fail">
-
-<!ENTITY detachedAttachmentFolder.show.label        "Ava faili sisaldav kaust">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "f">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Näita Finderis">
+<!ENTITY detachedAttachmentFolder.show.label "Ava faili sisaldav kaust">
+<!ENTITY detachedAttachmentFolder.show.accesskey "f">
+<!ENTITY detachedAttachmentFolder.showMac.label "Näita Finderis">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "Salvesta">
-<!ENTITY saveAttachmentButton1.tooltip     "Salvesta lisatud fail">
-<!ENTITY saveAllAttachmentsButton1.label   "Salvesta kõik">
+<!ENTITY saveAttachmentButton1.label "Salvesta">
+<!ENTITY saveAttachmentButton1.tooltip "Salvesta lisatud fail">
+<!ENTITY saveAllAttachmentsButton1.label "Salvesta kõik">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Salvesta kõik lisatud failid">
-
-<!ENTITY copyLinkCmd.label        "Kopeeri lingi asukoht">
-<!ENTITY copyLinkCmd.accesskey    "g">
-
+<!ENTITY copyLinkCmd.label "Kopeeri lingi asukoht">
+<!ENTITY copyLinkCmd.accesskey "g">
 <!ENTITY CopyMessageId.label "Kopeeri kirja ID">
 <!ENTITY CopyMessageId.accesskey "K">
 <!ENTITY OpenMessageForMsgId.label "Ava kiri ID-ga">

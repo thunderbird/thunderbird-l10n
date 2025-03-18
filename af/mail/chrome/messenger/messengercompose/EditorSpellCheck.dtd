@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Toets spelling">
-
 <!ENTITY misspelledWord.label "Spelfout:">
 <!ENTITY wordEditField.label "Vervang met:">
 <!ENTITY wordEditField.accessKey "m">

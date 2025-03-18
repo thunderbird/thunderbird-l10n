@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "使用者自訂色彩:">
 <!ENTITY customColorsRadio.accessKey "C">
 <!ENTITY customColorsRadio.tooltip "這些色彩設定會取代瀏覽器的設定">
-
 <!ENTITY normalText.label "一般文字">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "未瀏覽過的鏈結文字:">

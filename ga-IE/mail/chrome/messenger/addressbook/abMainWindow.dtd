@@ -2,13 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY showAsDefault.label                            "Fillteán tosaigh réamhshocraithe">
-<!ENTITY showAsDefault.accesskey                        "s">
-
+<!ENTITY showAsDefault.label "Fillteán tosaigh réamhshocraithe">
+<!ENTITY showAsDefault.accesskey "s">
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label                        "Ainm nó Seoladh Ríomhphoist">
-
+<!ENTITY SearchNameOrEmail.label "Ainm nó Seoladh Ríomhphoist">
 <!-- Results Pane -->
-<!ENTITY Addrbook.label                                 "Leabhar Seoltaí">
-<!ENTITY GeneratedName.label                            "Ainm">
-<!ENTITY PrimaryEmail.label                             "Ríomhphost">
+<!ENTITY Addrbook.label "Leabhar Seoltaí">
+<!ENTITY GeneratedName.label "Ainm">
+<!ENTITY PrimaryEmail.label "Ríomhphost">

@@ -10,17 +10,14 @@
 
 <!ENTITY identityTitle.label "Жеке мәліметтер">
 <!ENTITY identityDesc.label "Әр тіркелгінің жеке мәліметтері бар, ол арқылы басқа адамдар сіздің хабарламаларыңызда алған кезде сізді таниды.">
-
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Шығыс хабарламарыңыздың &quot;Кімнен&quot; өрісінде көрсеткіңіз келетін атыңызды енгізіңіз">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
   1, do not translate two of "&quot;"
-  2, Use localized full name instead of "John Smith"
--->
+  2, Use localized full name instead of "John Smith" -->
 <!ENTITY fullnameExample.label "(мысалы, &quot;Қанат Қойбағаров&quot;).">
 <!ENTITY fullnameLabel.label "Сіздің атыңыз:">
 <!ENTITY fullnameLabel.accesskey "ы">
-
 <!ENTITY emailLabel.label "Эл. пошта адресі:">
 <!ENTITY emailLabel.accesskey "Э">
 
@@ -40,9 +37,7 @@
 <!ENTITY accnameDesc.label "Бұл тіркелгіні сипаттайтын атауды көрсетіңіз (мысалы, &quot;Жұмыс тіркелгісі&quot;, &quot;Үй тіркелгісі&quot; немесе &quot;Жаңалықтар тіркелгісі&quot;).">
 <!ENTITY accnameLabel.label "Тіркелгі атауы:">
 <!ENTITY accnameLabel.accesskey "а">
-
 <!-- Entities for Done (Congratulations) page -->
-
 <!ENTITY completionTitle.label "Құттықтаймыз!">
 <!ENTITY completionText.label "Төмендегі ақпараттың дұрыстығын растаңыз.">
 <!ENTITY newsServerNamePrefix.label "Жаңалықтар серверінің аты (NNTP):">

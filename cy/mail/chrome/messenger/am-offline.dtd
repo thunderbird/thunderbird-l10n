@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "U">
 <!ENTITY syncGroupTitle.label "Cydweddu Negeseuon">
 <!ENTITY diskspaceGroupTitle.label "Lle ar Ddisg">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Cydweddu pob neges yn lleol beth bynnag yw eu hoed">
-<!ENTITY allAutosync.accesskey           "C">
-<!ENTITY ageAutosyncBefore.label         "Cydweddu'r mwyaf diweddar">
-<!ENTITY ageAutosync.accesskey           "z">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "Diwrnod">
-<!ENTITY weekAgeInterval.label           "Wythnos">
-<!ENTITY monthAgeInterval.label          "Mis">
-<!ENTITY yearAgeInterval.label           "Blwyddyn">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Cydweddu pob neges yn lleol beth bynnag yw eu hoed">
+<!ENTITY allAutosync.accesskey "C">
+<!ENTITY ageAutosyncBefore.label "Cydweddu'r mwyaf diweddar">
+<!ENTITY ageAutosync.accesskey "z">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "Diwrnod">
+<!ENTITY weekAgeInterval.label "Wythnos">
+<!ENTITY monthAgeInterval.label "Mis">
+<!ENTITY yearAgeInterval.label "Blwyddyn">
+<!ENTITY ageAutosyncAfter.label "">

@@ -4,9 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Sett inn matte">
-
 <!ENTITY sourceEditField.label "Skriv inn LaTeX kildekode:">
-
 <!ENTITY options.label "Innstillinger">
 <!ENTITY optionInline.label "Innbundet modus">
 <!ENTITY optionInline.accesskey "n">
@@ -16,6 +14,5 @@
 <!ENTITY optionLTR.accesskey "V">
 <!ENTITY optionRTL.label "Høyre-til-venstre retning">
 <!ENTITY optionRTL.accesskey "H">
-
 <!ENTITY insertButton.label "Sett inn">
 <!ENTITY insertButton.accesskey "i">

@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "ק">
 <!ENTITY chooseFileLinkButton.label "בחר קובץ…">
 <!ENTITY chooseFileLinkButton.accessKey "ב">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "נא להקליד כתובת עמוד אינטרנט, קובץ מקומי או לבחור בעוגן שמי או כותרת מתפריט ההקשר של השדה:">
 <!ENTITY LinkURLEditField2.accessKey "א">

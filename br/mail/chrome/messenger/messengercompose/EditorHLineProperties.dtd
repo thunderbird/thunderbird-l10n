@@ -2,10 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Perzhioù linennoù a-blaen">
-
 <!ENTITY dimensionsBox.label "Mentoù">
 <!ENTITY heightEditField.label "Sav :">
 <!ENTITY heightEditField.accessKey "a">
@@ -19,7 +17,6 @@
 <!ENTITY centerRadio.accessKey "K">
 <!ENTITY rightRadio.label "Dehoù">
 <!ENTITY rightRadio.accessKey "D">
-
 <!ENTITY threeDShading.label "Skeudiñ 3M">
 <!ENTITY threeDShading.accessKey "S">
 <!ENTITY saveSettings.label "Arverañ da arventenn dre ziouer">

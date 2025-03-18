@@ -7,12 +7,9 @@
  to a newer version and then starting Thunderbird.
  For this feature, "installation" is used to mean "this discrete download of
  Thunderbird" and "version" is used to mean "the specific revision number of a
- given Thunderbird channel". These terms are not synonymous.
--->
+ given Thunderbird channel". These terms are not synonymous. -->
 <!ENTITY window.title "Ältere Version von &brandProductName; gestartet">
-
 <!ENTITY window.nosync2 "Eine neuere Version von &brandProductName; hat möglicherweise Änderungen an dem Profil vorgenommen, welche inkompatibel mit dieser älteren Version sind. Verwenden Sie dieses Profil nur mit der neueren Version oder erstellen Sie ein neues Profil für diese Installation von &brandShortName;. Das Erstellen eines neuen Profils erfordert das erneute Einrichten der Konten, Kalender und Add-ons.">
-
 <!ENTITY window.moreinfo "Weitere Informationen…">
 <!ENTITY window.create "Neues Profil erstellen">
 <!ENTITY window.quit-win "Schließen">

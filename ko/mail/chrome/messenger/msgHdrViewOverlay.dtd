@@ -8,7 +8,6 @@
 <!ENTITY author.label "저자">
 <!ENTITY organizationField4.label "조직 ">
 <!ENTITY replyToField4.label "답장 주소 ">
-
 <!ENTITY subjectField4.label "제목 ">
 <!ENTITY ccField4.label "Cc ">
 <!ENTITY bccField4.label "Bcc ">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "Message ID ">
 <!ENTITY inReplyToField4.label "In Reply To ">
 <!ENTITY originalWebsite4.label "웹 사이트 ">
-
 <!ENTITY hdrArchiveButton1.label "보관">
 <!ENTITY hdrArchiveButton1.tooltip "이 메시지 보관">
 <!ENTITY hdrSmartReplyButton1.label "빠른 답장">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "이 메시지를 스팸으로 표시">
 <!ENTITY hdrTrashButton1.label "삭제">
 <!ENTITY hdrTrashButton1.tooltip "이 메시지 삭제">
-
 <!ENTITY hdrViewToolbarShowFull.label "아이콘 텍스트 모두 보기">
 <!ENTITY hdrViewToolbarShowFull.accesskey "a">
 <!ENTITY hdrViewToolbarShowIcons.label "아이콘만 보기">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "T">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "보낸이에게 답장 항상 보기">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "R">
-
 <!ENTITY otherActionsButton2.label "기타">
 <!ENTITY otherActionsButton.tooltip "기타 기능">
 <!ENTITY otherActionsOpenConversation1.label "대화 모드를 탭으로 열기">
@@ -67,45 +63,38 @@
 <!ENTITY viewSourceMenuItem1.accesskey "V">
 <!ENTITY otherActionsPrint1.label "인쇄…">
 <!ENTITY otherActionsPrint1.accesskey "P">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "시작할 때 첨부파일 창 보이기">
-<!ENTITY startExpandedCmd.accesskey    "S">
-
+<!ENTITY startExpandedCmd.label "시작할 때 첨부파일 창 보이기">
+<!ENTITY startExpandedCmd.accesskey "S">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "열기">
-<!ENTITY openAttachmentCmd.accesskey    "O">
-<!ENTITY saveAsAttachmentCmd.label    "다른 이름으로 저장…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "A">
-<!ENTITY detachAttachmentCmd.label    "첨부 파일 분리…">
-<!ENTITY detachAttachmentCmd.accesskey    "D">
-<!ENTITY deleteAttachmentCmd.label    "삭제">
-<!ENTITY deleteAttachmentCmd.accesskey    "e">
-<!ENTITY openAllAttachmentsCmd.label    "모두 열기…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "O">
-<!ENTITY saveAllAttachmentsCmd.label    "모두 저장…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "S">
-<!ENTITY detachAllAttachmentsCmd.label    "모든 첨부 분리…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "D">
-<!ENTITY deleteAllAttachmentsCmd.label    "모두 삭제…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "e">
-
+<!ENTITY openAttachmentCmd.label "열기">
+<!ENTITY openAttachmentCmd.accesskey "O">
+<!ENTITY saveAsAttachmentCmd.label "다른 이름으로 저장…">
+<!ENTITY saveAsAttachmentCmd.accesskey "A">
+<!ENTITY detachAttachmentCmd.label "첨부 파일 분리…">
+<!ENTITY detachAttachmentCmd.accesskey "D">
+<!ENTITY deleteAttachmentCmd.label "삭제">
+<!ENTITY deleteAttachmentCmd.accesskey "e">
+<!ENTITY openAllAttachmentsCmd.label "모두 열기…">
+<!ENTITY openAllAttachmentsCmd.accesskey "O">
+<!ENTITY saveAllAttachmentsCmd.label "모두 저장…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "S">
+<!ENTITY detachAllAttachmentsCmd.label "모든 첨부 분리…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "D">
+<!ENTITY deleteAllAttachmentsCmd.label "모두 삭제…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "e">
 <!ENTITY openAttachment.tooltip "첨부 파일 열기">
-
-<!ENTITY detachedAttachmentFolder.show.label        "저장 폴더 열기">
-<!ENTITY detachedAttachmentFolder.show.accesskey    "F">
-<!ENTITY detachedAttachmentFolder.showMac.label     "Finder에서 보기">
+<!ENTITY detachedAttachmentFolder.show.label "저장 폴더 열기">
+<!ENTITY detachedAttachmentFolder.show.accesskey "F">
+<!ENTITY detachedAttachmentFolder.showMac.label "Finder에서 보기">
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "F">
-
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "저장">
-<!ENTITY saveAttachmentButton1.tooltip     "첨부 파일을 저장합니다">
-<!ENTITY saveAllAttachmentsButton1.label   "모두 저장">
+<!ENTITY saveAttachmentButton1.label "저장">
+<!ENTITY saveAttachmentButton1.tooltip "첨부 파일을 저장합니다">
+<!ENTITY saveAllAttachmentsButton1.label "모두 저장">
 <!ENTITY saveAllAttachmentsButton1.tooltip "첨부된 모든 파일을 저장합니다">
-
-<!ENTITY copyLinkCmd.label        "링크 URL 복사">
-<!ENTITY copyLinkCmd.accesskey    "C">
-
+<!ENTITY copyLinkCmd.label "링크 URL 복사">
+<!ENTITY copyLinkCmd.accesskey "C">
 <!ENTITY CopyMessageId.label "메시지 ID를 카피">
 <!ENTITY CopyMessageId.accesskey "C">
 <!ENTITY OpenMessageForMsgId.label "Message-ID로 열기">

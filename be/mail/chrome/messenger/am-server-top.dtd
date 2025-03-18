@@ -16,8 +16,7 @@
 <!-- LOCALIZATION NOTE (biffStart.label) : translate below 2 line with grammar dependency
         For example, in Japanese cases:
                 biffStart.label "every"
-                biffEnd.label   "minutes for new messages Check"
--->
+                biffEnd.label   "minutes for new messages Check" -->
 <!ENTITY biffStart.label "Правяраць, ці існуюць новыя лісты, кожныя">
 <!ENTITY biffStart.accesskey "а">
 <!ENTITY biffEnd.label "хвілінаў">
@@ -48,7 +47,6 @@
 <!ENTITY modelMarkDeleted.accesskey "з">
 <!ENTITY modelDeleteImmediately.label "Выдаліць яго неадкладна">
 <!ENTITY modelDeleteImmediately.accesskey "н">
-<!-- LOCALIZATION NOTE (expungeOnExit.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY expungeOnExit.accesskey "П">
 <!ENTITY emptyTrashOnExit.label "Ачышчаць сметніцу перад выхадам">
 <!ENTITY emptyTrashOnExit.accesskey "ы">
@@ -56,8 +54,7 @@
 <!ENTITY loginAtStartup.accesskey "у">
 <!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency
     maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
-    of messages between them
--->
+    of messages between them -->
 <!ENTITY maxMessagesStart.label "Пытацца мяне перад загрузкай больш чым">
 <!ENTITY maxMessagesStart.accesskey "а">
 <!-- LOCALIZATION NOTE (maxMessagesEnd.label) : see note for maxMessagesStart.label -->
@@ -75,7 +72,6 @@
 <!ENTITY browseFolder.accesskey "г">
 <!ENTITY browseNewsrc.label "Агляд…">
 <!ENTITY browseNewsrc.accesskey "г">
-
 <!ENTITY accountTitle.label "Налады ўліковага запісу">
 <!ENTITY accountSettingsDesc.label "Гэта асаблівы ўліковы запіс.  З ім не звязаны ніякія ідэнтыфікацыйныя даныя.">
 <!ENTITY storeType.label "Тып захоўвання паведамленняў:">

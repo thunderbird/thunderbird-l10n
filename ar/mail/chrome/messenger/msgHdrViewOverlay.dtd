@@ -8,7 +8,6 @@
 <!ENTITY author.label "المؤلف">
 <!ENTITY organizationField4.label "المنظمة">
 <!ENTITY replyToField4.label "رد إلى">
-
 <!ENTITY subjectField4.label "الموضوع">
 <!ENTITY ccField4.label "ن.ك">
 <!ENTITY bccField4.label "ن.ك.م">
@@ -21,7 +20,6 @@
 <!ENTITY messageIdField4.label "معرّف الرسالة">
 <!ENTITY inReplyToField4.label "ردًا على">
 <!ENTITY originalWebsite4.label "الموقع">
-
 <!ENTITY hdrArchiveButton1.label "أرشِف">
 <!ENTITY hdrArchiveButton1.tooltip "أرشِف هذه الرسالة">
 <!ENTITY hdrSmartReplyButton1.label "ردّ ذكي">
@@ -39,7 +37,6 @@
 <!ENTITY hdrJunkButton1.tooltip "علّم هذه الرسالة كسخام">
 <!ENTITY hdrTrashButton1.label "احذف">
 <!ENTITY hdrTrashButton1.tooltip "احذف هذه الرسالة">
-
 <!ENTITY hdrViewToolbarShowFull.label "أظهِر الأيقونات والنص">
 <!ENTITY hdrViewToolbarShowFull.accesskey "ت">
 <!ENTITY hdrViewToolbarShowIcons.label "أظهِر الأيقونات فقط">
@@ -48,7 +45,6 @@
 <!ENTITY hdrViewToolbarShowText.accesskey "ص">
 <!ENTITY hdrViewToolbarAlwaysReplySender.label "أظهِر دائمًا ردّ على المرسِل">
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "ر">
-
 <!ENTITY otherActionsButton2.label "المزيد">
 <!ENTITY otherActionsButton.tooltip "المزيد من الإجراءات">
 <!ENTITY otherActionsOpenConversation1.label "افتح في محادثة">
@@ -67,42 +63,35 @@
 <!ENTITY viewSourceMenuItem1.accesskey "ص">
 <!ENTITY otherActionsPrint1.label "اطبع…">
 <!ENTITY otherActionsPrint1.accesskey "ط">
-
 <!-- Attachment bar context menu items -->
-<!ENTITY startExpandedCmd.label    "اعرض لوحة المرفقات مبدئيا">
-<!ENTITY startExpandedCmd.accesskey    "م">
-
+<!ENTITY startExpandedCmd.label "اعرض لوحة المرفقات مبدئيا">
+<!ENTITY startExpandedCmd.accesskey "م">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label    "افتح">
-<!ENTITY openAttachmentCmd.accesskey    "ف">
-<!ENTITY saveAsAttachmentCmd.label    "احفظ باسم…">
-<!ENTITY saveAsAttachmentCmd.accesskey    "س">
-<!ENTITY detachAttachmentCmd.label    "ألغِ إرفاق…">
-<!ENTITY detachAttachmentCmd.accesskey    "ق">
-<!ENTITY deleteAttachmentCmd.label    "احذف">
-<!ENTITY deleteAttachmentCmd.accesskey    "ذ">
-<!ENTITY openAllAttachmentsCmd.label    "افتح الكل…">
-<!ENTITY openAllAttachmentsCmd.accesskey    "ك">
-<!ENTITY saveAllAttachmentsCmd.label    "احفظ الكل…">
-<!ENTITY saveAllAttachmentsCmd.accesskey    "ح">
-<!ENTITY detachAllAttachmentsCmd.label    "ألغ إرفاق الكل…">
-<!ENTITY detachAllAttachmentsCmd.accesskey    "غ">
-<!ENTITY deleteAllAttachmentsCmd.label    "احذف الكل…">
-<!ENTITY deleteAllAttachmentsCmd.accesskey    "ف">
-
+<!ENTITY openAttachmentCmd.label "افتح">
+<!ENTITY openAttachmentCmd.accesskey "ف">
+<!ENTITY saveAsAttachmentCmd.label "احفظ باسم…">
+<!ENTITY saveAsAttachmentCmd.accesskey "س">
+<!ENTITY detachAttachmentCmd.label "ألغِ إرفاق…">
+<!ENTITY detachAttachmentCmd.accesskey "ق">
+<!ENTITY deleteAttachmentCmd.label "احذف">
+<!ENTITY deleteAttachmentCmd.accesskey "ذ">
+<!ENTITY openAllAttachmentsCmd.label "افتح الكل…">
+<!ENTITY openAllAttachmentsCmd.accesskey "ك">
+<!ENTITY saveAllAttachmentsCmd.label "احفظ الكل…">
+<!ENTITY saveAllAttachmentsCmd.accesskey "ح">
+<!ENTITY detachAllAttachmentsCmd.label "ألغ إرفاق الكل…">
+<!ENTITY detachAllAttachmentsCmd.accesskey "غ">
+<!ENTITY deleteAllAttachmentsCmd.label "احذف الكل…">
+<!ENTITY deleteAllAttachmentsCmd.accesskey "ف">
 <!ENTITY openAttachment.tooltip "افتح الملف المرفق">
-
-<!ENTITY detachedAttachmentFolder.show.label        "افتح المجلد المحتوي">
-
+<!ENTITY detachedAttachmentFolder.show.label "افتح المجلد المحتوي">
 <!-- Attachment toolbar items -->
-<!ENTITY saveAttachmentButton1.label       "احفظ">
-<!ENTITY saveAttachmentButton1.tooltip     "احفظ الملف المرفق">
-<!ENTITY saveAllAttachmentsButton1.label   "احفظ الكل">
+<!ENTITY saveAttachmentButton1.label "احفظ">
+<!ENTITY saveAttachmentButton1.tooltip "احفظ الملف المرفق">
+<!ENTITY saveAllAttachmentsButton1.label "احفظ الكل">
 <!ENTITY saveAllAttachmentsButton1.tooltip "احفظ جميع الملفات المرفقة">
-
-<!ENTITY copyLinkCmd.label        "انسخ موقع الرابط">
-<!ENTITY copyLinkCmd.accesskey    "خ">
-
+<!ENTITY copyLinkCmd.label "انسخ موقع الرابط">
+<!ENTITY copyLinkCmd.accesskey "خ">
 <!ENTITY CopyMessageId.label "انسخ معرّف الرسالة">
 <!ENTITY CopyMessageId.accesskey "س">
 <!ENTITY OpenMessageForMsgId.label "افتح الرسالة من أجل المعرّف">

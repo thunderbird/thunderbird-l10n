@@ -9,8 +9,6 @@
 <!ENTITY chooseFileButton.accessKey "C">
 <!ENTITY chooseFileLinkButton.label "Chọn tập tin…">
 <!ENTITY chooseFileLinkButton.accessKey "h">
-
-
 <!-- Shared by Link and Image dialogs -->
 <!ENTITY LinkURLEditField2.label "Nhập vị trí trang web, tệp cục bộ hoặc chọn neo được đặt tên hoặc tiêu đề từ menu ngữ cảnh của trường:">
 <!ENTITY LinkURLEditField2.accessKey "w">

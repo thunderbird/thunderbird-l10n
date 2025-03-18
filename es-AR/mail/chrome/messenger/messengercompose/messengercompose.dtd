@@ -2,9 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!--LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
+<!-- LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
 <!ENTITY msgComposeWindow.title "Redacción: (sin asunto)">
-
 <!-- File Menu -->
 <!ENTITY fileMenu.label "Archivo">
 <!ENTITY fileMenu.accesskey "A">
@@ -46,7 +45,6 @@
 <!ENTITY printCmd.label "Imprimir…">
 <!ENTITY printCmd.key "P">
 <!ENTITY printCmd.accesskey "p">
-
 <!-- Edit Menu -->
 <!ENTITY editMenu.label "Editar">
 <!ENTITY editMenu.accesskey "E">
@@ -86,11 +84,9 @@
 <!ENTITY findPrevCmd.accesskey "i">
 <!ENTITY findPrevCmd.key "G">
 <!ENTITY findPrevCmd.key2 "VK_F3">
-
 <!-- Reorder Attachment Panel -->
 <!ENTITY reorderAttachmentsPanel.label "Reordenar los archivos adjuntos">
 <!ENTITY moveAttachmentBundleUpPanelBtn.label "Mover juntos">
-
 <!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.Sort.AZ.label):
      Please ensure that this translation matches
      sortAttachmentsPanelBtn.Sort.ZA.label, except for the sort direction. -->
@@ -102,7 +98,6 @@
 <!ENTITY sortAttachmentsPanelBtn.SortSelection.AZ.label "Ordenar en sentido A - Z">
 <!ENTITY sortAttachmentsPanelBtn.SortSelection.ZA.label "Ordenar en sentido Z - A">
 <!ENTITY sortAttachmentsPanelBtn.key "y">
-
 <!-- View Menu -->
 <!ENTITY viewMenu.label "Ver">
 <!ENTITY viewMenu.accesskey "V">
@@ -118,14 +113,11 @@
 <!ENTITY showTaskbarCmd.accesskey "s">
 <!ENTITY customizeToolbar.label "Personalizar…">
 <!ENTITY customizeToolbar.accesskey "P">
-
 <!ENTITY addressSidebar.label "Panel lateral de contactos">
 <!ENTITY addressSidebar.accesskey "o">
-
 <!-- Format Menu -->
 <!ENTITY formatMenu.label "Formato">
 <!ENTITY formatMenu.accesskey "o">
-
 <!-- Options Menu -->
 <!ENTITY optionsMenu.label "Opciones">
 <!ENTITY optionsMenu.accesskey "p">
@@ -137,11 +129,9 @@
 <!ENTITY enableInlineSpellChecker.accesskey "S">
 <!ENTITY quoteCmd.label "Citar mensaje">
 <!ENTITY quoteCmd.accesskey "m">
-
-<!--LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard' -->
+<!-- LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard' -->
 <!ENTITY attachVCard.label "Adjuntar tarjeta personal (vCard)">
 <!ENTITY attachVCard.accesskey "v">
-
 <!ENTITY returnReceiptMenu.label "Acuse de recibo">
 <!ENTITY returnReceiptMenu.accesskey "d">
 <!ENTITY dsnMenu.label "Notificación de estado de entrega">
@@ -164,7 +154,6 @@
 <!ENTITY fileCarbonCopyCmd.label "Enviar una copia a">
 <!ENTITY fileCarbonCopyCmd.accesskey "v">
 <!ENTITY fileHereMenu.label "Archivar aquí">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Herramientas">
 <!ENTITY tasksMenu.accesskey "t">
@@ -177,14 +166,12 @@
 <!ENTITY accountManagerCmd2.label "Configuración de cuentas">
 <!ENTITY accountManagerCmd2.accesskey "n">
 <!ENTITY accountManagerCmdUnix2.accesskey "s">
-
-<!--  Mac OS X Window Menu -->
+<!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY minimizeWindow.label "Minimizar">
 <!ENTITY bringAllToFront.label "Traer todo al frente">
 <!ENTITY zoomWindow.label "Acercar ventana">
 <!ENTITY windowMenu.label "Ventana">
-
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Enviar">
 <!ENTITY quoteButton.label "Citar">
@@ -192,7 +179,6 @@
 <!ENTITY spellingButton.label "Ortografía">
 <!ENTITY saveButton.label "Guardar">
 <!ENTITY printButton.label "Imprimir">
-
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Enviar este mensaje ahora">
 <!ENTITY sendlaterButton.tooltip "Enviar este mensaje más tarde">
@@ -200,14 +186,13 @@
 <!ENTITY addressButton.tooltip "Seleccionar un destinatario de una libreta de direcciones">
 <!ENTITY spellingButton.tooltip "Verificar la ortografía de la selección o el mensaje completo">
 <!ENTITY saveButton.tooltip "Guardar este mensaje">
-<!ENTITY cutButton.tooltip              "Cortar">
-<!ENTITY copyButton.tooltip             "Copiar">
-<!ENTITY pasteButton.tooltip            "Pegar">
+<!ENTITY cutButton.tooltip "Cortar">
+<!ENTITY copyButton.tooltip "Copiar">
+<!ENTITY pasteButton.tooltip "Pegar">
 <!ENTITY printButton.tooltip "Imprimir este mensaje">
-
-<!-- Headers -->
-<!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
-    Subject: rows. It should be larger than the largest Header label  -->
+<!-- Headers
+     LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
+    Subject: rows. It should be larger than the largest Header label -->
 <!ENTITY headersSpace2.style "width: 8em;">
 <!ENTITY fromAddr2.label "Remitente">
 <!ENTITY fromAddr.accesskey "D">
@@ -217,7 +202,6 @@
 <!ENTITY subject2.label "Asunto">
 <!ENTITY subject.accesskey "s">
 <!ENTITY attachmentBucketCloseButton.tooltip "Ocultar la vista de adjuntos">
-
 <!-- Format Toolbar, imported from editorAppShell.xhtml -->
 <!ENTITY SmileButton.tooltip "Insertar un emoticón">
 <!ENTITY smiley1Cmd.label "Sonriendo">
@@ -236,7 +220,6 @@
 <!ENTITY smiley14Cmd.label "Inocente">
 <!ENTITY smiley15Cmd.label "Llorando">
 <!ENTITY smiley16Cmd.label "Labios sellados">
-
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "No se encontraron sugerencias">
 <!ENTITY spellCheckIgnoreWord.label "Ignorar la palabra">
@@ -253,7 +236,6 @@
 <!ENTITY paste.accesskey "P">
 <!ENTITY pasteQuote.label "Pegar como cita">
 <!ENTITY pasteQuote.accesskey "g">
-
 <!-- Attachment Item and List Context Menus -->
 <!ENTITY openAttachment.label "Abrir">
 <!ENTITY openAttachment.accesskey "A">
@@ -279,28 +261,22 @@
 <!ENTITY convertRegularAttachment.accesskey "A">
 <!ENTITY attachPage.label "Adjuntar página web…">
 <!ENTITY attachPage.accesskey "w">
-
-<!-- Attachment Pane Header Bar Context Menu -->
-<!-- LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
+<!-- Attachment Pane Header Bar Context Menu
+     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
      Should use the same wording as startExpandedCmd.label
      in msgHdrViewOverlay.dtd. -->
 <!ENTITY initiallyShowAttachmentPane.label "Mostrar vista de adjuntos al inicio">
 <!ENTITY initiallyShowAttachmentPane.accesskey "S">
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Agregar diccionarios…">
 <!ENTITY spellAddDictionaries.accesskey "A">
-
 <!-- Title for the address picker panel -->
 <!ENTITY addressesSidebarTitle.label "Contactos">
-
 <!-- Identity popup customize menuitem -->
 <!ENTITY customizeFromAddress.label "Personalizar desde dirección…">
 <!ENTITY customizeFromAddress.accesskey "a">
-
 <!-- Accessibility name for the document -->
 <!ENTITY aria.message.bodyName "Cuerpo del mensaje">
-
 <!-- Status Bar -->
 <!ENTITY languageStatusButton.tooltip "Idioma del corrector ortográfico">
 <!ENTITY encodingStatusPanel.tooltip "Codificación de texto">

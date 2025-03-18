@@ -4,11 +4,8 @@
 
 <!ENTITY e2eTitle.label "Zaklučowanje wot kónca do kónca">
 <!ENTITY e2eLearnMore.label "Dalše informacije">
-
 <!ENTITY e2eEnc.description "Bjez zaklučowanja wot kónca do kónca so wobsah powěsćow lochko wašemu e-mejlowemu poskićowarjej pokazuje a masowemu dohladowanju wustaja.">
-
 <!ENTITY e2eTechPref.description "Preferowana zaklučowanska technologija:">
-
 <!ENTITY encryptionCert2.message "Wosobinski certifikat za zaklučowanje:">
 <!ENTITY digitalSign.certificate.button "Wubrać…">
 <!ENTITY digitalSign.certificate.accesskey "b">
@@ -20,27 +17,20 @@
 <!ENTITY encryption.certificate_clear.accesskey "e">
 <!ENTITY signingGroupTitle.label "Digitalne podpisowanje">
 <!ENTITY signingCert2.message "Wosobinski certifikat za digitalne zaklučowanje:">
-
 <!ENTITY sendingDefaults.label "Standardne nastajenja za słanje powěsćow">
-
 <!ENTITY technologyAutomatic.label "Na zakładźe k dispoziciji stejacych klučow abo certifikatow awtomatisce wubrać">
-
 <!ENTITY certificates2.label "S/MIME">
 <!ENTITY manageCerts3.label "Certifikaty S/MIME rjadować">
 <!ENTITY manageCerts3.accesskey "M">
 <!ENTITY manageDevices2.label "Wěstotne graty S/MIME">
 <!ENTITY manageDevices2.accesskey "g">
-
 <!ENTITY technologySMIME.label "S/MIME preferować">
 <!ENTITY technologyOpenPGP.label "OpenPGP preferować">
-
 <!ENTITY openpgpKeys.label "OpenPGP">
-
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "Certifikat wubrać">
-<!ENTITY certPicker.info  "Certifikat:">
+<!ENTITY certPicker.info "Certifikat:">
 <!ENTITY certPicker.detailsLabel "Podrobnosće wubraneho certifikata:">
-
 <!ENTITY openpgpKey.message "Wosobinski kluč za zaklučowanje a digitalne signowanje:">
 <!ENTITY openpgpKey.button "Wosobinski kluč nastajić…">
 <!ENTITY openpgpKey.accesskey "b">

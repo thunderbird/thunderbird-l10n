@@ -346,14 +346,30 @@ openpgp-description-no-key = { -brand-short-name } nemá osobní klíč OpenPGP 
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description-has-keys =
     { -brand-short-name.gender ->
-        [masculine] { -brand-short-name } našel
-        [feminine] { -brand-short-name } našla
-        [neuter] { -brand-short-name } našlo
-       *[other] Aplikace { -brand-short-name } našla
-    } { $count ->
-        [one] jeden osobní klíč OpenPGP pro <b>{ $identity }</b>
-        [few] { $count } osobní klíče OpenPGP pro <b>{ $identity }</b>
-       *[other] { $count } osobních klíčů OpenPGP pro <b>{ $identity }</b>
+        [masculine]
+            { $count ->
+                [one] { -brand-short-name } našel jeden osobní klíč OpenPGP pro <b>{ $identity }</b>
+                [few] { -brand-short-name } našel { $count } osobní klíče OpenPGP pro <b>{ $identity }</b>
+               *[other] { -brand-short-name } našel { $count } osobních klíčů OpenPGP pro <b>{ $identity }</b>
+            }
+        [feminine]
+            { $count ->
+                [one] { -brand-short-name } našla jeden osobní klíč OpenPGP pro <b>{ $identity }</b>
+                [few] { -brand-short-name } našla { $count } osobní klíče OpenPGP pro <b>{ $identity }</b>
+               *[other] { -brand-short-name } našla { $count } osobních klíčů OpenPGP pro <b>{ $identity }</b>
+            }
+        [neuter]
+            { $count ->
+                [one] { -brand-short-name } našlo jeden osobní klíč OpenPGP pro <b>{ $identity }</b>
+                [few] { -brand-short-name } našlo { $count } osobní klíče OpenPGP pro <b>{ $identity }</b>
+               *[other] { -brand-short-name } našlo { $count } osobních klíčů OpenPGP pro <b>{ $identity }</b>
+            }
+       *[other]
+            { $count ->
+                [one] Aplikace { -brand-short-name } našla jeden osobní klíč OpenPGP pro <b>{ $identity }</b>
+                [few] Aplikace { -brand-short-name } našla { $count } osobní klíče OpenPGP pro <b>{ $identity }</b>
+               *[other] Aplikace { -brand-short-name } našla { $count } osobních klíčů OpenPGP pro <b>{ $identity }</b>
+            }
     }
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Vaše současná konfigurace používá klíč s ID <b>{ $key }</b>

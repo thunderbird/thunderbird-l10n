@@ -3,23 +3,22 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Agenda">
-<!ENTITY lightning.toolbar.calendar.tooltip   "Mutar al scheda del agenda">
+<!ENTITY lightning.toolbar.calendar.label "Agenda">
+<!ENTITY lightning.toolbar.calendar.tooltip "Mutar al scheda del agenda">
 <!ENTITY lightning.toolbar.calendar.accesskey "A">
-<!ENTITY lightning.toolbar.task.label         "Activitates">
-<!ENTITY lightning.toolbar.task.tooltip       "Cambiar al scheda de activitates">
-<!ENTITY lightning.toolbar.task.accesskey     "S">
-
+<!ENTITY lightning.toolbar.task.label "Activitates">
+<!ENTITY lightning.toolbar.task.tooltip "Cambiar al scheda de activitates">
+<!ENTITY lightning.toolbar.task.accesskey "S">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Die">
-<!ENTITY lightning.toolbar.day.accesskey             "D">
-<!ENTITY lightning.toolbar.week.label                "Septimana">
-<!ENTITY lightning.toolbar.week.accesskey            "S">
-<!ENTITY lightning.toolbar.multiweek.label           "Multi-septimanal">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "u">
-<!ENTITY lightning.toolbar.month.label               "Mense">
-<!ENTITY lightning.toolbar.month.accesskey           "M">
-<!ENTITY lightning.toolbar.calendarmenu.label        "Pannello de agenda">
-<!ENTITY lightning.toolbar.calendarmenu.accesskey    "P">
-<!ENTITY lightning.toolbar.calendarpane.label        "Monstrar le pannello de agenda">
-<!ENTITY lightning.toolbar.calendarpane.accesskey    "Q">
+<!ENTITY lightning.toolbar.day.label "Die">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "Septimana">
+<!ENTITY lightning.toolbar.week.accesskey "S">
+<!ENTITY lightning.toolbar.multiweek.label "Multi-septimanal">
+<!ENTITY lightning.toolbar.multiweek.accesskey "u">
+<!ENTITY lightning.toolbar.month.label "Mense">
+<!ENTITY lightning.toolbar.month.accesskey "M">
+<!ENTITY lightning.toolbar.calendarmenu.label "Pannello de agenda">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "P">
+<!ENTITY lightning.toolbar.calendarpane.label "Monstrar le pannello de agenda">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "Q">

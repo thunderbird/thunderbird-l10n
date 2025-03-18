@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Paskyrų nuostatos">
-<!ENTITY  accountManagerCloseButton.label "Užverti">
-
+<!ENTITY accountManagerCloseButton.label "Užverti">
 <!ENTITY accountActionsButton.label "Veiksmai">
 <!ENTITY accountActionsButton.accesskey "V">
 <!ENTITY addMailAccountButton.label "Nauja pašto paskyra…">
@@ -19,5 +17,4 @@
 <!ENTITY setDefaultButton.accesskey "L">
 <!ENTITY removeButton.label "Pašalinti paskyrą">
 <!ENTITY removeButton.accesskey "š">
-
 <!ENTITY addonsButton.label "Priedai ir grafiniai apvalkalai">

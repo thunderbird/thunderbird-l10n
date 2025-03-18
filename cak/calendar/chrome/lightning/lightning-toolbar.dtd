@@ -3,15 +3,14 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Mode Toolbar -->
-<!ENTITY lightning.toolbar.calendar.label     "Cholb'äl Q'ij">
-<!ENTITY lightning.toolbar.task.label         "Taq samaj">
-
+<!ENTITY lightning.toolbar.calendar.label "Cholb'äl Q'ij">
+<!ENTITY lightning.toolbar.task.label "Taq samaj">
 <!-- Calendar and Task Mode Toolbar -->
-<!ENTITY lightning.toolbar.day.label                 "Q'ij">
-<!ENTITY lightning.toolbar.day.accesskey             "Q">
-<!ENTITY lightning.toolbar.week.label                "Wuqq'ij">
-<!ENTITY lightning.toolbar.week.accesskey            "W">
-<!ENTITY lightning.toolbar.multiweek.label           "K'ïy wuqq'ij">
-<!ENTITY lightning.toolbar.multiweek.accesskey       "K">
-<!ENTITY lightning.toolbar.month.label               "Ik'">
-<!ENTITY lightning.toolbar.month.accesskey           "I">
+<!ENTITY lightning.toolbar.day.label "Q'ij">
+<!ENTITY lightning.toolbar.day.accesskey "Q">
+<!ENTITY lightning.toolbar.week.label "Wuqq'ij">
+<!ENTITY lightning.toolbar.week.accesskey "W">
+<!ENTITY lightning.toolbar.multiweek.label "K'ïy wuqq'ij">
+<!ENTITY lightning.toolbar.multiweek.accesskey "K">
+<!ENTITY lightning.toolbar.month.label "Ik'">
+<!ENTITY lightning.toolbar.month.accesskey "I">

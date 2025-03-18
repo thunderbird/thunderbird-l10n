@@ -2,49 +2,36 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY wizard.title             "Новы каляндар" >
-<!ENTITY wizard.label             "Стварыць новы каляндар" >
-<!ENTITY wizard.description       "Размясціце ваш каляндар" >
-
-<!ENTITY initialpage.description    "Вы можаце захоўваць новы каляндар на вашым камп'ютары або на серверы, каб мець да яго аддалены доступ ці падзяліцца ім са сваімі сябрамі або калегамі." >
-<!ENTITY initialpage.computer.label  "На камп'ютары">
-<!ENTITY initialpage.network.label  "У сетцы">
-
-<!ENTITY locationpage.description         "Раскажыце, што патрабуецца, каб атрымаць доступ да вашага аддаленага календара" >
-<!ENTITY locationpage.login.description   "Неабавязкова: увядзіце імя карыстальніка і пароль" >
-<!ENTITY locationpage.username.label      "Імя карыстальніка:" >
-<!ENTITY locationpage.password.label      "Пароль:" >
-
-<!ENTITY custompage.shortdescription  "Персаналізуйце ваш каляндар" >
-
-<!ENTITY finishpage.shortdescription  "Каляндар створаны" >
-<!ENTITY finishpage.longdescription   "Вы стварылі каляндар." >
-
+<!ENTITY wizard.title "Новы каляндар">
+<!ENTITY wizard.label "Стварыць новы каляндар">
+<!ENTITY wizard.description "Размясціце ваш каляндар">
+<!ENTITY initialpage.description "Вы можаце захоўваць новы каляндар на вашым камп'ютары або на серверы, каб мець да яго аддалены доступ ці падзяліцца ім са сваімі сябрамі або калегамі.">
+<!ENTITY initialpage.computer.label "На камп'ютары">
+<!ENTITY initialpage.network.label "У сетцы">
+<!ENTITY locationpage.description "Раскажыце, што патрабуецца, каб атрымаць доступ да вашага аддаленага календара">
+<!ENTITY locationpage.login.description "Неабавязкова: увядзіце імя карыстальніка і пароль">
+<!ENTITY locationpage.username.label "Імя карыстальніка:">
+<!ENTITY locationpage.password.label "Пароль:">
+<!ENTITY custompage.shortdescription "Персаналізуйце ваш каляндар">
+<!ENTITY finishpage.shortdescription "Каляндар створаны">
+<!ENTITY finishpage.longdescription "Вы стварылі каляндар.">
 <!-- Below are new strings for the revised new calendar dialog. The above strings should be
     removed/renamed later on -->
-
-<!ENTITY sourcetabs.other.label  "Іншае">
-
+<!ENTITY sourcetabs.other.label "Іншае">
 <!ENTITY buttons.create.label "Стварыць каляндар">
 <!ENTITY buttons.create.accesskey "С">
-
 <!ENTITY buttons.find.label "Знайсці календары">
 <!ENTITY buttons.find.accesskey "З">
-
 <!ENTITY buttons.back.label "Назад">
 <!ENTITY buttons.back.accesskey "Н">
-
 <!ENTITY buttons.subscribe.label "Падпісацца">
 <!ENTITY buttons.subscribe.accesskey "П">
-
 <!ENTITY calendartype.label "Тып календара:">
 <!ENTITY location.label "Адрас:">
 <!ENTITY location.placeholder "URL або імя хоста сервера календара">
-
 <!ENTITY network.nocredentials.label "Для гэтага адраса не патрабуюцца ўліковыя даныя">
 <!ENTITY network.loading.description "Калі ласка, дачакайцеся, пакуль знойдуцца вашы календары.">
 <!ENTITY network.notfound.description "Не атрымалася знайсці календары па гэтым адрасе. Калі ласка, праверце свае налады.">
 <!ENTITY network.authfail.description "Уліковыя даныя, якія вы ўвялі, не былі прыняты. Калі ласка, праверце вашы налады.">
-
 <!ENTITY network.subscribe.single.description "Калі ласка, выберыце календары, на якія жадаеце падпісацца.">
 <!ENTITY network.subscribe.multiple.description "Па гэтым адрасе даступныя календары некалькіх тыпаў. Калі ласка, выберыце тып календара, а потом пазначце календары, на якія вы жадаеце падпісацца.">

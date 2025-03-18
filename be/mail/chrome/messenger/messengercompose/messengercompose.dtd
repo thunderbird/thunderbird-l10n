@@ -2,9 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!--LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
+<!-- LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
 <!ENTITY msgComposeWindow.title "Стварэнне паведамлення: (без тэмы)">
-
 <!-- File Menu -->
 <!ENTITY fileMenu.label "Файл">
 <!ENTITY fileMenu.accesskey "Ф">
@@ -46,7 +45,6 @@
 <!ENTITY printCmd.label "Друкаваць…">
 <!ENTITY printCmd.key "P">
 <!ENTITY printCmd.accesskey "Д">
-
 <!-- Edit Menu -->
 <!ENTITY editMenu.label "Праўка">
 <!ENTITY editMenu.accesskey "П">
@@ -86,11 +84,9 @@
 <!ENTITY findPrevCmd.accesskey "я">
 <!ENTITY findPrevCmd.key "G">
 <!ENTITY findPrevCmd.key2 "VK_F3">
-
 <!-- Reorder Attachment Panel -->
 <!ENTITY reorderAttachmentsPanel.label "Перапарадкаваць укладанні">
 <!ENTITY moveAttachmentBundleUpPanelBtn.label "Перамясціць разам">
-
 <!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.Sort.AZ.label):
      Please ensure that this translation matches
      sortAttachmentsPanelBtn.Sort.ZA.label, except for the sort direction. -->
@@ -101,7 +97,6 @@
      sortAttachmentsPanelBtn.SortSelection.ZA.label, except for the sort direction. -->
 <!ENTITY sortAttachmentsPanelBtn.SortSelection.AZ.label "Сартаваць абранае: А - Я">
 <!ENTITY sortAttachmentsPanelBtn.SortSelection.ZA.label "Сартаваць абранае: Я - А">
-
 <!-- View Menu -->
 <!ENTITY viewMenu.label "Прагляд">
 <!ENTITY viewMenu.accesskey "г">
@@ -117,14 +112,11 @@
 <!ENTITY showTaskbarCmd.accesskey "с">
 <!ENTITY customizeToolbar.label "Наладзіць…">
 <!ENTITY customizeToolbar.accesskey "Н">
-
 <!ENTITY addressSidebar.label "Палічка сувязяў">
 <!ENTITY addressSidebar.accesskey "с">
-
 <!-- Format Menu -->
 <!ENTITY formatMenu.label "Фармат">
 <!ENTITY formatMenu.accesskey "р">
-
 <!-- Options Menu -->
 <!ENTITY optionsMenu.label "Наладжванні">
 <!ENTITY optionsMenu.accesskey "Н">
@@ -136,11 +128,9 @@
 <!ENTITY enableInlineSpellChecker.accesskey "П">
 <!ENTITY quoteCmd.label "Працытаваць ліст">
 <!ENTITY quoteCmd.accesskey "ц">
-
-<!--LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard' -->
+<!-- LOCALIZATION NOTE attachVCard.label Don't translate the term 'vCard' -->
 <!ENTITY attachVCard.label "Далучыць асабістую картку (vCard)">
 <!ENTITY attachVCard.accesskey "v">
-
 <!ENTITY returnReceiptMenu.label "Паведамленне аб прачытанні">
 <!ENTITY returnReceiptMenu.accesskey "т">
 <!ENTITY dsnMenu.label "Пацвярджэнне дастаўкі">
@@ -163,7 +153,6 @@
 <!ENTITY fileCarbonCopyCmd.label "Змясціць копію ў">
 <!ENTITY fileCarbonCopyCmd.accesskey "ь">
 <!ENTITY fileHereMenu.label "Пакласці тут">
-
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Інструменты">
 <!ENTITY tasksMenu.accesskey "л">
@@ -176,14 +165,12 @@
 <!ENTITY accountManagerCmd2.label "Налады ўліковага запісу">
 <!ENTITY accountManagerCmd2.accesskey "Н">
 <!ENTITY accountManagerCmdUnix2.accesskey "Н">
-
-<!--  Mac OS X Window Menu -->
+<!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY minimizeWindow.label "Мінімізаваць">
 <!ENTITY bringAllToFront.label "Выцягнуць усе наперад">
 <!ENTITY zoomWindow.label "Павялічыць">
 <!ENTITY windowMenu.label "Акно">
-
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Даслаць">
 <!ENTITY quoteButton.label "Вытрымка">
@@ -191,7 +178,6 @@
 <!ENTITY spellingButton.label "Праверка правапісу">
 <!ENTITY saveButton.label "Захаваць">
 <!ENTITY printButton.label "Друкаваць">
-
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Даслаць гэты ліст зараз">
 <!ENTITY sendlaterButton.tooltip "Даслаць гэты ліст пазней">
@@ -199,17 +185,12 @@
 <!ENTITY addressButton.tooltip "Выбраць атрымальніка з адраснай кнігі">
 <!ENTITY spellingButton.tooltip "Праверка правапісу вылучэння або ўсяго ліста">
 <!ENTITY saveButton.tooltip "Захаваць гэты ліст">
-<!ENTITY cutButton.tooltip              "Выразаць">
-<!ENTITY copyButton.tooltip             "Капіяваць">
-<!ENTITY pasteButton.tooltip            "Уставіць">
+<!ENTITY cutButton.tooltip "Выразаць">
+<!ENTITY copyButton.tooltip "Капіяваць">
+<!ENTITY pasteButton.tooltip "Уставіць">
 <!ENTITY printButton.tooltip "Надрукаваць гэты ліст">
-
-<!-- Headers -->
-<!--LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
-    Subject: rows. It should be larger than the largest Header label  -->
 <!ENTITY fromAddr.accesskey "А">
 <!ENTITY subject.accesskey "Т">
-
 <!-- Format Toolbar, imported from editorAppShell.xhtml -->
 <!ENTITY SmileButton.tooltip "Уставіць тварык-усмешку">
 <!ENTITY smiley1Cmd.label "Усмешка">
@@ -228,7 +209,6 @@
 <!ENTITY smiley14Cmd.label "Бязгрэшны">
 <!ENTITY smiley15Cmd.label "Рыданне">
 <!ENTITY smiley16Cmd.label "Надзьмуты">
-
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Прапановы не знойдзены">
 <!ENTITY spellCheckIgnoreWord.label "Ігнараваць слова">
@@ -245,7 +225,6 @@
 <!ENTITY paste.accesskey "У">
 <!ENTITY pasteQuote.label "Уставіць як вытрымку">
 <!ENTITY pasteQuote.accesskey "В">
-
 <!-- Attachment Item and List Context Menus -->
 <!ENTITY openAttachment.label "Адкрыць">
 <!ENTITY openAttachment.accesskey "А">
@@ -271,28 +250,22 @@
 <!ENTITY convertRegularAttachment.accesskey "п">
 <!ENTITY attachPage.label "Прымацаваць вэб-старонку…">
 <!ENTITY attachPage.accesskey "в">
-
-<!-- Attachment Pane Header Bar Context Menu -->
-<!-- LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
+<!-- Attachment Pane Header Bar Context Menu
+     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
      Should use the same wording as startExpandedCmd.label
      in msgHdrViewOverlay.dtd. -->
 <!ENTITY initiallyShowAttachmentPane.label "Спачатку паказваць панэль прымацаванняў">
 <!ENTITY initiallyShowAttachmentPane.accesskey "С">
-
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Дадаць слоўнікі…">
 <!ENTITY spellAddDictionaries.accesskey "Д">
-
 <!-- Title for the address picker panel -->
 <!ENTITY addressesSidebarTitle.label "Кантакты">
-
 <!-- Identity popup customize menuitem -->
 <!ENTITY customizeFromAddress.label "Персаналізаваць адрас адпраўніка…">
 <!ENTITY customizeFromAddress.accesskey "П">
-
 <!-- Accessibility name for the document -->
 <!ENTITY aria.message.bodyName "Цела паведамлення">
-
 <!-- Status Bar -->
 <!ENTITY languageStatusButton.tooltip "Мова праверкі правапісу">
 <!ENTITY encodingStatusPanel.tooltip "Кадзіроўка тэксту">

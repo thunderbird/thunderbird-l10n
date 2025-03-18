@@ -11,7 +11,6 @@
 <!ENTITY customColorsRadio.label "Swójske barby wužić:">
 <!ENTITY customColorsRadio.accessKey "w">
 <!ENTITY customColorsRadio.tooltip "Tute barbowe nastajenja wobhladowakowe nastajenja wobhladowarja změnja">
-
 <!ENTITY normalText.label "Normalny tekst">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "Tekst wotkaza">

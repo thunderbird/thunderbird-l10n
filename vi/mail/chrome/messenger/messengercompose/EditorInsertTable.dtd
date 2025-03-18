@@ -4,7 +4,6 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Chèn bảng">
-
 <!ENTITY size.label "Kích thước">
 <!ENTITY numRowsEditField.label "Hàng:">
 <!ENTITY numRowsEditField.accessKey "R">

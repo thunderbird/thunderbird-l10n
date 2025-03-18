@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "р">
 <!ENTITY syncGroupTitle.label "Усклађивање порука">
 <!ENTITY diskspaceGroupTitle.label "Простор на диску">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "Усклади све поруке у локалу без обзира на старост">
-<!ENTITY allAutosync.accesskey           "к">
-<!ENTITY ageAutosyncBefore.label         "Усклади скорашње">
-<!ENTITY ageAutosync.accesskey           "д">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "Дана">
-<!ENTITY weekAgeInterval.label           "Недеља">
-<!ENTITY monthAgeInterval.label          "Месеци">
-<!ENTITY yearAgeInterval.label           "Година">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "Усклади све поруке у локалу без обзира на старост">
+<!ENTITY allAutosync.accesskey "к">
+<!ENTITY ageAutosyncBefore.label "Усклади скорашње">
+<!ENTITY ageAutosync.accesskey "д">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "Дана">
+<!ENTITY weekAgeInterval.label "Недеља">
+<!ENTITY monthAgeInterval.label "Месеци">
+<!ENTITY yearAgeInterval.label "Година">
+<!ENTITY ageAutosyncAfter.label "">

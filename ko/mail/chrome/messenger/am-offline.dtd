@@ -38,20 +38,18 @@
 <!ENTITY offlineImapAdvancedOffline.accesskey "v">
 <!ENTITY syncGroupTitle.label "메시지 동기화">
 <!ENTITY diskspaceGroupTitle.label "디스크 용량">
-
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
   on a single line within the scope of useAutosync.ByAge as follows:
 
-  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label;
--->
-<!ENTITY allAutosync.label               "기간에 상관 없이 모든 메시지 동기화">
-<!ENTITY allAutosync.accesskey           "c">
-<!ENTITY ageAutosyncBefore.label         "최신으로 동기화">
-<!ENTITY ageAutosync.accesskey           "z">
-<!ENTITY ageAutosyncMiddle.label         "">
-<!ENTITY dayAgeInterval.label            "일">
-<!ENTITY weekAgeInterval.label           "주">
-<!ENTITY monthAgeInterval.label          "개월">
-<!ENTITY yearAgeInterval.label           "년">
-<!ENTITY ageAutosyncAfter.label          "">
+  &ageAutosyncBefore.label [textbox for autosync value] &ageAutosyncMiddle.label; [dropdown for autosync interval] &ageAutosyncAfter.label; -->
+<!ENTITY allAutosync.label "기간에 상관 없이 모든 메시지 동기화">
+<!ENTITY allAutosync.accesskey "c">
+<!ENTITY ageAutosyncBefore.label "최신으로 동기화">
+<!ENTITY ageAutosync.accesskey "z">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY dayAgeInterval.label "일">
+<!ENTITY weekAgeInterval.label "주">
+<!ENTITY monthAgeInterval.label "개월">
+<!ENTITY yearAgeInterval.label "년">
+<!ENTITY ageAutosyncAfter.label "">

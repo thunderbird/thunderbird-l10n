@@ -3,10 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- extracted from AccountManager.xhtml -->
-
 <!ENTITY accountManagerTitle.label "Налады ўліковага запісу">
-<!ENTITY  accountManagerCloseButton.label "Закрыць">
-
+<!ENTITY accountManagerCloseButton.label "Закрыць">
 <!ENTITY accountActionsButton.label "Дзеянні з уліковым запісам">
 <!ENTITY accountActionsButton.accesskey "р">
 <!ENTITY addMailAccountButton.label "Дадаць уліковы запіс пошты…">
@@ -17,5 +15,4 @@
 <!ENTITY addFeedAccountButton.accesskey "ж">
 <!ENTITY removeButton.label "Выдаліць уліковы запіс">
 <!ENTITY removeButton.accesskey "д">
-
 <!ENTITY addonsButton.label "Пашырэнні і тэмы">
