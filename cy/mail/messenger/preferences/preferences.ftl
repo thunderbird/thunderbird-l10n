@@ -907,11 +907,11 @@ qr-export-more-accounts = Allforio rhagor o gyfrifon
 
 appearance-category-header = Gwedd
 default-message-list-legend = Rhestr Negeseuon
-default-message-list-description = Diffiniwch yr opsiynau didoli ac edafu rhagosodedig ar gyfer ffolderi sydd newydd eu creu.
+default-message-list-description = Diffiniwch y dewisiadau didoli ac edafu rhagosodedig ar gyfer ffolderi sydd newydd eu creu.
 default-flag-label =
-    .value = Threadu Rhagosodedig:
+    .value = Edafu Rhagosodedig:
 default-flag-unthreaded =
-    .label = Dim edefyn
+    .label = Dim edafu
 default-flag-threaded =
     .label = Edafwyd
 default-flag-grouped =
@@ -957,8 +957,10 @@ default-order-label = Trefn Didoli Rhagosodedig:
 default-sort-ascending =
     .label = Esgyn
 default-sort-ascending-description = Negeseuon newydd ar y gwaelod
+default-sort-descending =
+    .label = Disgyn
 default-sort-descending-description = Negeseuon newydd ar y brig
-apply-sort-label = Cymhwyswch y gosodiadau hyn i:
+apply-sort-label = Gosod y gosodiadau hyn i:
 apply-sort-to-all-button =
     .label = Pob ffolder sy'n bodoli
     .accesskey = P
@@ -970,12 +972,12 @@ apply-current-view-to-folder =
 apply-current-view-to-folder-children =
     .label = Ffolder a'i blant…
 apply-changes-prompt-title = Gosod y Newidiadau?
-apply-changes-prompt-message = Cymhwyso'r gosodiadau edafu a didoli cyfredol i bob ffolder?
+apply-changes-prompt-message = Gosod y gosodiadau edafu a didoli cyfredol i bob ffolder?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-changes-prompt-folder-message = Cymhwyso'r gosodiadau edafu a didoli cyfredol i “{ $name }”?
+apply-changes-prompt-folder-message = Gosod y gosodiadau edafu a didoli cyfredol i “{ $name }”?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-changes-prompt-folder-children-message = Cymhwyso'r gosodiadau edafu a didoli cyfredol i " { $name } " a'i blant?
-apply-current-view-error = Methu â chymhwyso gosodiadau golwg cyfredol
-apply-current-view-success = Gosodiadau golwg cyfredol wedi'u cymhwyso'n llwyddiannus
+apply-changes-prompt-folder-children-message = Gosod y gosodiadau edafu a didoli cyfredol i " { $name } " a'i blant?
+apply-current-view-error = Methu â gosod gosodiadau'r olwg gyfredol
+apply-current-view-success = Gosodiadau golwg cyfredol wedi'u gosod yn llwyddiannus
