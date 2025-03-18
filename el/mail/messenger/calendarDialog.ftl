@@ -8,3 +8,5 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Πίσω
     .title = Πίσω
+calendar-dialog-date-row-icon =
+    .alt = Ημερομηνία και ώρα

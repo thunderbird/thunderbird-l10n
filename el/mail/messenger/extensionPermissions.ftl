@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Αλλαγή των ιδιοτήτων
 webext-perms-description-messagesTags = Δημιουργία, τροποποίηση και διαγραφή ετικετών μηνυμάτων
 webext-perms-description-messagesTagsList = Παράθεση ετικετών μηνυμάτων
 webext-perms-description-sensitiveDataUpload = Μεταφορά των ευαίσθητων δεδομένων χρήστη (αν έχει δοθεί πρόσβαση) σε απομακρυσμένο διακομιστή για περαιτέρω επεξεργασία
+webext-perms-description-messengerSettings = Ανάγνωση των ρυθμίσεων του { -brand-short-name }
