@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Назад
     .title = Назад
+calendar-dialog-date-row-icon =
+    .alt = Дата и время
+calendar-dialog-date-row-recurring-icon =
+    .alt = Повторяющаяся
