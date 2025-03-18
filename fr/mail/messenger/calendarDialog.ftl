@@ -11,4 +11,4 @@ calendar-dialog-back-button =
 calendar-dialog-date-row-icon =
     .alt = Date et heure
 calendar-dialog-date-row-recurring-icon =
-    .alt = récurrent
+    .alt = Récurrent
