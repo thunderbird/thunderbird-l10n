@@ -8,3 +8,5 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Wstecz
     .title = Wstecz
+calendar-dialog-date-row-icon =
+    .alt = Data i czas
