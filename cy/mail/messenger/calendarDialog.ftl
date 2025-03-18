@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Nôl
     .title = Nôl
+calendar-dialog-date-row-icon =
+    .alt = Dyddiad ac amser
+calendar-dialog-date-row-recurring-icon =
+    .alt = Yn ailadrodd

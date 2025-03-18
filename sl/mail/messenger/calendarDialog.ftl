@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Nazaj
     .title = Nazaj
+calendar-dialog-date-row-icon =
+    .alt = Datum in čas
+calendar-dialog-date-row-recurring-icon =
+    .alt = Ponavljajoč

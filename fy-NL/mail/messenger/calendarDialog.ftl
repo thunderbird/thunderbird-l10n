@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Tebek
     .title = Tebek
+calendar-dialog-date-row-icon =
+    .alt = Datum en tiid
+calendar-dialog-date-row-recurring-icon =
+    .alt = Periodyk

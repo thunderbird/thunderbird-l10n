@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Terug
     .title = Terug
+calendar-dialog-date-row-icon =
+    .alt = Datum en tijd
+calendar-dialog-date-row-recurring-icon =
+    .alt = Periodiek
