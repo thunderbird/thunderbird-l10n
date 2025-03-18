@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Wróćo
     .title = Wróćo
+calendar-dialog-date-row-icon =
+    .alt = Datum a čas
+calendar-dialog-date-row-recurring-icon =
+    .alt = Wospjetowanje

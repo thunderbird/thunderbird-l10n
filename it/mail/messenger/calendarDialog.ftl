@@ -11,4 +11,4 @@ calendar-dialog-back-button =
 calendar-dialog-date-row-icon =
     .alt = Data e ora
 calendar-dialog-date-row-recurring-icon =
-    .alt = Periodica
+    .alt = Periodico

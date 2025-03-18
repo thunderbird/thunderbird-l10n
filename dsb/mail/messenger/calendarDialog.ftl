@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Slědk
     .title = Slědk
+calendar-dialog-date-row-icon =
+    .alt = Datum a cas
+calendar-dialog-date-row-recurring-icon =
+    .alt = Wóspjetowanje
