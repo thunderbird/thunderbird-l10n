@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Tillbaka
     .title = Tillbaka
+calendar-dialog-date-row-icon =
+    .alt = Datum och tid
+calendar-dialog-date-row-recurring-icon =
+    .alt = Återkommande
