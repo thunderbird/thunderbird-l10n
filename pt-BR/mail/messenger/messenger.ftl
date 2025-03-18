@@ -270,6 +270,9 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Com estrela
     .aria-label = Com estrela
+message-header-delete =
+    .label = Excluir
+    .tooltiptext = Excluir esta mensagem
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
