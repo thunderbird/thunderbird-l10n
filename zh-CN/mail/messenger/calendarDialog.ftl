@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = 返回
     .title = 返回
+calendar-dialog-date-row-icon =
+    .alt = 日期和时间
+calendar-dialog-date-row-recurring-icon =
+    .alt = 重复发生
