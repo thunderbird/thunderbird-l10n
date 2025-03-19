@@ -127,6 +127,8 @@ detail-guest = Gjestetilgang: { $value }
 # This is a heading, followed by the power-level-* strings
 detail-power = Nivå:
 # $commandName is the command name
+command-invite = { $commandName } &lt;userId&gt;: Inviter brukaren til rommet.
+# $commandName is the command name
 command-leave = { $commandName }: Forlat dette rommet.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
