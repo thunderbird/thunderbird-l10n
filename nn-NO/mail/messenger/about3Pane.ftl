@@ -5,6 +5,8 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Vis/skjul filterverktøylinja
 quick-filter-button-label = Snøggfilter
 # Variables:
 # $count (Number) - The number of messages in this folder.
@@ -413,6 +415,9 @@ apply-current-columns-to-folder-with-children-message = Bruk kolonnane åt denne
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-message = Bruk gjeldande mappevising på { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Bruke gjeldande mappe på { $name } og underliggande mapper?
 # Variables:
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-count =

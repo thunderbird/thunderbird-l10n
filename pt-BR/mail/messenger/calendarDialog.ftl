@@ -8,3 +8,5 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Voltar
     .title = Voltar
+calendar-dialog-date-row-icon =
+    .alt = Data e hora

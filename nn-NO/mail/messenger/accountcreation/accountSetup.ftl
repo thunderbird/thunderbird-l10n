@@ -119,6 +119,8 @@ account-setup-result-outgoing-existing = Bruk eksisterande utgåande SMTP-tenar
 
 ## Error messages
 
+# Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
+account-setup-credentials-incomplete = Autentiseringa feila. Anten er den spesifiserte legitimasjonen feil, eller det vert kravd eit eige brukarnamn for å logge på. Dette brukarnamnet er vanlegvis Windows-domene-brukarnamnet ditt med eller utan domenet (til dømes karinordmann eller AD\\karinordmann).
 account-setup-exchange-config-unverifiable = Klarte ikkje å stadfeste konfigurasjonen. Dersom brukarnamnet og passordet ditt er rett, er det sannsynleg at serveradministratoren har slått av den valde konfigurasjonen for kontoen din. Prøv å velje ein annan protokoll.
 
 ## Manual configuration area

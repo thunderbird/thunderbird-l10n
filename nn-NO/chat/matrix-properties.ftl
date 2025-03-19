@@ -126,10 +126,17 @@ detail-alias = Alias: { $value }
 detail-guest = Gjestetilgang: { $value }
 # This is a heading, followed by the power-level-* strings
 detail-power = Nivå:
+# LOCALIZATION NOTE (command-*):
+#   These are the help messages for each command, the $commandName is the command name
+#   Each command first gives the parameter it accepts and then a description of
+#   the command.
+command-ban = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Steng ute brukaren med brukar-ID frå rommet med ei valfri grunngjeving. Det krevst løyve for å stenge ute brukarar.
 # $commandName is the command name
 command-invite = { $commandName } &lt;userId&gt;: Inviter brukaren til rommet.
 # $commandName is the command name
 command-leave = { $commandName }: Forlat dette rommet.
+# $commandName is the command name
+command-detail = { $commandName }: Vis detaljane for rommet.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $user is the name of the user who banned.

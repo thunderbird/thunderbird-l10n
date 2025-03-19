@@ -24,5 +24,7 @@ webext-perms-description-compose-save = Lager komponerte e-postmeldingar som utk
 webext-perms-description-experiment = Har full, uavgrensa tilgang til { -brand-short-name }, og datamaskina di
 webext-perms-description-messagesImport = Importer meldingar til Thunderbird
 webext-perms-description-messagesModify = Les og endre e-postmeldingane dine slik dei er viste for deg
+webext-perms-description-messagesMove = Kopier eller flytt e-postmeldingane dine (inkludert flytt dei til papirkorga)
 webext-perms-description-messagesDelete = Slett e-postmeldingane dine permanent
 webext-perms-description-messagesRead2 = Les e-postmeldingane dine
+webext-perms-description-messagesTags = Opprett, endre og slett meldingsetikettar

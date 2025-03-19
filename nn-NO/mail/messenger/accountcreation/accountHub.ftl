@@ -110,6 +110,7 @@ account-hub-select-all = Merk alle
 account-hub-deselect-all = Merk ingen
 account-hub-no-address-books = Fann ingen adressebøker
 account-hub-signature-link = E-postsignatur
+account-hub-email-error-text = Skriv inn ei gyldig e-postadresse.
 account-hub-name-error-text = Skriv inn eit namn
 account-hub-username-error-text = Brukarnamn er påkravd
     .title = Brukarnamn er påkravd

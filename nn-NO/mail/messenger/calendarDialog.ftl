@@ -8,3 +8,5 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Tilbake
     .title = Tilbake
+calendar-dialog-date-row-recurring-icon =
+    .alt = Regelmessig
