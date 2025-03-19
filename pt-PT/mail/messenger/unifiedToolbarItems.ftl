@@ -72,6 +72,7 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Marcar
 toolbar-mark-as =
     .title = Marcar mensagens
+toolbar-view-picker-label = Ver
 toolbar-address-book-label = Livro de Endereços
 toolbar-address-book =
     .title = Ir para o livro de endereços
@@ -119,6 +120,9 @@ toolbar-throbber-label = Indicador de atividade
 toolbar-throbber =
     .title = Indicador de atividade
 toolbar-create-address-book-label = Novo Livro de Endereços
+toolbar-create-list-label = Nova lista
+toolbar-create-list =
+    .title = Criar uma nova lista de correio
 toolbar-import-contacts-label = Importar
 
 ## New Address Book popup items

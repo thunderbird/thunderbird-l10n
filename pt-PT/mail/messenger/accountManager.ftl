@@ -7,6 +7,7 @@ open-addons-sidebar-button = Extras e temas
 account-action-add-newsgroup-account =
     .label = Adicionar uma conta de grupo de notícias…
     .accesskey = n
+account-tree-create-account-button = Nova conta
 server-change-restart-required = É necessário reiniciar para aplicar as alterações ao nome do servidor ou do utilizador.
 edit-vcard-dialog-accept-button = Guardar
     .accesskey = G

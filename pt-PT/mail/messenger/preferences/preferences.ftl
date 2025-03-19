@@ -25,6 +25,12 @@ category-chat =
 pane-calendar-title = Calendário
 category-calendar =
     .tooltiptext = Calendário
+pane-sync-title = Sincronização
+category-sync =
+    .tooltiptext = Sincronização
+pane-qr-export-title = Exportar para dispositivo móvel
+category-qr-export =
+    .tooltiptext = Exportar para dispositivo móvel
 general-language-and-appearance-header = Idioma e aparência
 general-incoming-mail-header = Mensagens a receber
 general-files-and-attachment-header = Ficheiros e anexos
@@ -689,6 +695,7 @@ search-results-help-link = Precisa de ajuda? Visite o <a data-l10n-name="url">Ap
 ## Sync Tab
 
 sync-signedout-description = Sincronize as suas contas, livros de endereço, calendários, extras e definições entre todos os seus dispositivos.
+sync-pane-header = Sincronização
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-signedin-login-failure = Por favor, inicie a sessão para reassociar “{ $userEmail }”
@@ -697,6 +704,7 @@ sync-pane-cancel = Cancelar
 sync-pane-save = Guardar
 show-synced-item-address = Livros de Endereços
 show-synced-item-calendar = Calendários
+show-synced-item-passwords = Palavras-passe
 show-synced-change = Alterar…
 synced-acount-item-filters = Filtros
 
@@ -705,6 +713,7 @@ synced-acount-item-filters = Filtros
 qr-export-select-all-accounts = Selecionar tudo
 qr-export-security-legend = Segurança
 qr-export-start-export = Exportar
+qr-export-scan-step2 = Ir para as definições
 qr-export-back = Retroceder
 qr-export-next = Seguinte
 qr-export-done = Concluído
@@ -744,3 +753,5 @@ default-sort-account =
     .label = Conta
 default-sort-ascending =
     .label = Ascendente
+apply-current-view-to-folder =
+    .label = Pasta…
