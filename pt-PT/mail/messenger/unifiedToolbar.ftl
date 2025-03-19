@@ -8,6 +8,10 @@
 
 ## Search bar
 
+search-bar-button =
+    .alt = Pesquisar
+search-bar-item2 =
+    .label = Pesquisar
 search-bar-placeholder = Pesquisar…
 
 ## Unified toolbar context menu
@@ -49,3 +53,5 @@ customize-palette-calendar-specific-title = Disponível apenas para o Espaço do
 
 ## Unified toolbar customization target context menu
 
+customize-target-remove =
+    .label = Remover

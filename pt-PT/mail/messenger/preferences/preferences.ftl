@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Geral
 category-general =
     .tooltiptext = { pane-general-title }
+pane-appearance-title = Aparência
+category-appearance =
+    .tooltiptext = { pane-appearance-title }
 pane-compose-title = Composição
 category-compose =
     .tooltiptext = Composição
@@ -384,6 +387,7 @@ close-move-delete =
 condensed-addresses-label =
     .label = Mostrar apenas o nome para pessoas nos meus contactos
     .accesskey = m
+label-experiment = Experimental
 
 ## Compose Tab
 
@@ -442,6 +446,8 @@ restore-html-label =
 default-format-label =
     .label = Utilizar como predefinição o formato Parágrafo em vez de Corpo de texto
     .accesskey = P
+compose-send-automatic-option =
+    .label = Automático
 autocomplete-description = Ao endereçar mensagens, procurar equivalências no:
 ab-label =
     .label = Livro de endereços local
@@ -641,6 +647,8 @@ chat-browse-sound-button =
 theme-label =
     .value = Tema:
     .accesskey = T
+style-mail =
+    .label = { -brand-short-name }
 style-bubbles =
     .label = Bolhas
 style-dark =
@@ -684,11 +692,55 @@ sync-signedout-description = Sincronize as suas contas, livros de endereço, cal
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-signedin-login-failure = Por favor, inicie a sessão para reassociar “{ $userEmail }”
+sync-pane-sign-in = Iniciar sessão
+sync-pane-cancel = Cancelar
+sync-pane-save = Guardar
 show-synced-item-address = Livros de Endereços
 show-synced-item-calendar = Calendários
+show-synced-change = Alterar…
+synced-acount-item-filters = Filtros
 
 ## Mobile QR Export Pane
 
+qr-export-select-all-accounts = Selecionar tudo
+qr-export-security-legend = Segurança
+qr-export-start-export = Exportar
+qr-export-back = Retroceder
+qr-export-next = Seguinte
+qr-export-done = Concluído
 
 ## Appearance Tab
 
+appearance-category-header = Aspeto
+default-sort-date =
+    .label = Data
+default-sort-subject =
+    .label = Assunto
+default-sort-from =
+    .label = De
+default-sort-id =
+    .label = ID
+default-sort-thread =
+    .label = Tópico
+default-sort-priority =
+    .label = Prioridade
+default-sort-status =
+    .label = Estado
+default-sort-size =
+    .label = Tamanho
+default-sort-star =
+    .label = Estrela
+default-sort-unread =
+    .label = Leitura
+default-sort-recipient =
+    .label = Destinatário
+default-sort-location =
+    .label = Localização
+default-sort-tags =
+    .label = Etiquetas
+default-sort-attachments =
+    .label = Anexos
+default-sort-account =
+    .label = Conta
+default-sort-ascending =
+    .label = Ascendente

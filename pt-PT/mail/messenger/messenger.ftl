@@ -448,3 +448,4 @@ quota-panel-percent-used = { $percent }% utilizado
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Marcar como lida

@@ -6,6 +6,7 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Espaço flexível
+search-bar-label = Pesquisar
 toolbar-write-message-label = Escrever
 toolbar-write-message =
     .title = Criar nova mensagem
@@ -26,6 +27,7 @@ toolbar-reply-all =
 toolbar-reply-to-list-label = Responder à lista
 toolbar-reply-to-list =
     .title = Responder à lista de correio
+toolbar-redirect-label = Redirecionar
 toolbar-archive-label = Arquivar
 toolbar-archive =
     .title = Arquivar mensagens selecionadas
@@ -48,6 +50,7 @@ toolbar-junk-label = Spam
 toolbar-junk =
     .title = Marcas as mensagens selecionadas como spam
 toolbar-delete-label = Eliminar
+toolbar-undelete-label = Recuperar
 toolbar-compact-label = Compactar
 toolbar-compact =
     .title = Remover mensagens apagadas da pasta selecionada
@@ -116,6 +119,7 @@ toolbar-throbber-label = Indicador de atividade
 toolbar-throbber =
     .title = Indicador de atividade
 toolbar-create-address-book-label = Novo Livro de Endereços
+toolbar-import-contacts-label = Importar
 
 ## New Address Book popup items
 

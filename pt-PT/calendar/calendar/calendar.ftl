@@ -579,6 +579,8 @@ unit-minutes =
         [one] { $count } minuto
        *[other] { $count } minutos
     }
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
 # Variables:
 # $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
@@ -586,6 +588,8 @@ unit-hours =
         [one] { $count } hora
        *[other] { $count } horas
     }
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
 # Variables:
 # $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
@@ -593,6 +597,8 @@ unit-days =
         [one] { $count } dia
        *[other] { $count } dias
     }
+event-duration-menuitem-count-days =
+    .label = { unit-days }
 # Variables:
 # $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
@@ -600,6 +606,16 @@ unit-weeks =
         [one] { $count } semana
        *[other] { $count } semanas
     }
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name

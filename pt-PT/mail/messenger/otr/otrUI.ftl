@@ -12,6 +12,7 @@ auth-success = A confirmação da identidade do seu contacto foi concluída com 
 auth-fail = Falha ao confirmar a identidade do seu contacto.
 auth-waiting = A aguardar que o seu contacto termine a confirmação…
 finger-verify = Confirmar
+finger-ignore = Ignorar
 # Do not translate 'OTR' (name of an encryption protocol)
 buddycontextmenu-label = Adicionar identificador OTR
 # Variables:
@@ -35,6 +36,7 @@ state-private = A identidade de { $name } foi verificada. A conversa atual é en
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-finished = { $name } terminou a conversa encriptada consigo; você deve fazer o mesmo.
+state-not-private-label = Não seguro
 state-unverified-label = Não confirmado
 state-private-label = Privado
 state-finished-label = Concluído
