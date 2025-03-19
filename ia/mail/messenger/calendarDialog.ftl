@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Retro
     .title = Retro
+calendar-dialog-date-row-icon =
+    .alt = Data e ora
+calendar-dialog-date-row-recurring-icon =
+    .alt = Recurrente
