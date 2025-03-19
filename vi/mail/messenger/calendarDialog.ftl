@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Quay lại
     .title = Quay lại
+calendar-dialog-date-row-icon =
+    .alt = Ngày và giờ
+calendar-dialog-date-row-recurring-icon =
+    .alt = Định kỳ
