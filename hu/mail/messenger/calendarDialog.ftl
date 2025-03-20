@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Vissza
     .title = Vissza
+calendar-dialog-date-row-icon =
+    .alt = Dátum és idő
+calendar-dialog-date-row-recurring-icon =
+    .alt = Ismétlődő
