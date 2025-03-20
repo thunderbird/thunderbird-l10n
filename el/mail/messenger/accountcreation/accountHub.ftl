@@ -121,6 +121,7 @@ account-hub-password-info = Τα διαπιστευτήριά σας θα απο
 account-hub-creating-account = Δημιουργία λογαριασμού…
 account-hub-sync-accounts-found = Το { -brand-short-name } βρήκε ορισμένες συνδεδεμένες υπηρεσίες
 account-hub-sync-accounts-not-found = Το { -brand-short-name } δεν μπόρεσε να βρει συνδεδεμένες υπηρεσίες
+account-hub-sync-accounts-failure = Το { -brand-short-name } δεν μπόρεσε να συνδεθεί στις επιλεγμένες υπηρεσίες
 account-hub-sync-success = Το Thunderbird βρήκε μερικές συνδεδεμένες υπηρεσίες
 account-hub-sync-failure = Το Thunderbird δεν μπόρεσε να βρει συνδεδεμένες υπηρεσίες
 account-hub-unable-to-sync-accounts = Το Thunderbird δεν μπόρεσε να συνδέσει τις επιλεγμένες υπηρεσίες
@@ -147,4 +148,7 @@ account-hub-port-error-text = Η τιμή της θύρας πρέπει να ε
 account-hub-username-error-text = Απαιτείται όνομα χρήστη
     .title = Απαιτείται όνομα χρήστη
 account-hub-oauth-pending = Αναμονή για πιστοποίηση στο αναδυόμενο παράθυρο σύνδεσης…
+account-hub-addon-install-needed = Το { -brand-short-name } δεν υποστηρίζει εγγενώς αυτόν τον διακομιστή. Για να αποκτήσετε πρόσβαση στην αλληλογραφία Exchange, <a data-l10n-name="addon-install">εγκαταστήστε ένα πρόσθετο τρίτου κατασκευαστή, όπως το Owl (επί πληρωμή).</a>
+account-hub-addon-error = Η εγκατάσταση του προσθέτου απέτυχε. Δοκιμάστε ξανά ή επικοινωνήστε με τον δημιουργό του προσθέτου για βοήθεια.
+account-hub-security-warning = <span data-l10n-name="security-warning">Προειδοποίηση: Ανιχνεύτηκε επισφαλής διακομιστής αλληλογραφίας.</span> Αυτός ο διακομιστής δεν διαθέτει κρυπτογράφηση, με αποτέλεσμα να εκθέτει τους κωδικούς πρόσβασης και τα δεδομένα σας. Επικοινωνήστε με τον διαχειριστή για να ασφαλίσει τη σύνδεση ή συνεχίστε με δική σας ευθύνη. <a data-l10n-name="faq-link">Δείτε τις συχνές ερωτήσεις για περισσότερες πληροφορίες.</a>
 account-hub-addon-needed = Το { -brand-full-name } δεν υποστηρίζει εγγενώς αυτόν τον διακομιστή. Για να αποκτήσετε πρόσβαση στην αλληλογραφία Exchange, <a data-l10n-name="addon-install">εγκαταστήστε ένα πρόσθετο τρίτου κατασκευαστή, όπως το Owl (επί πληρωμή).</a>

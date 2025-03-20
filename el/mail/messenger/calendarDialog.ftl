@@ -10,3 +10,5 @@ calendar-dialog-back-button =
     .title = Πίσω
 calendar-dialog-date-row-icon =
     .alt = Ημερομηνία και ώρα
+calendar-dialog-date-row-recurring-icon =
+    .alt = Επανάληψη
