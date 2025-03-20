@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "L">
 <!ENTITY contextMoveMsgMenu.label "Taşı">
 <!ENTITY contextMoveMsgMenu.accesskey "T">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Son hedefler">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "h">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Son kullanılanlar">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "k">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Sık kullanılanlar">
