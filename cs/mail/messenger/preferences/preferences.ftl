@@ -1055,3 +1055,5 @@ apply-current-view-to-folder-children =
     .label = Složka a její podsložky…
 apply-changes-prompt-title = Použít změny?
 apply-changes-prompt-message = Použít aktuální nastavení řazení a třídění na všechny složky?
+apply-current-view-error = Nelze použít aktuální nastavení zobrazení
+apply-current-view-success = Aktuální nastavení zobrazení bylo úspěšně použito
