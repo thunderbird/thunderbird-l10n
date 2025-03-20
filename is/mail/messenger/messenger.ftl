@@ -270,6 +270,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Stjörnumerkt
     .aria-label = Stjörnumerkt
+message-header-delete =
+    .label = Eyða
+    .tooltiptext = Eyða þessum skilaboðum
+message-header-undelete =
+    .label = Afturkalla eyðingu
+    .tooltiptext = Afturkalla eyðingu þessara skilaboða
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -465,3 +471,6 @@ quota-panel-percent-used = { $percent }% notað
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Merkja sem lesið
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Gera ekkert

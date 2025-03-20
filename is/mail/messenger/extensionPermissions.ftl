@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Breyta eiginleikum og merkjum tölvup�
 webext-perms-description-messagesTags = Búa til, breyta og eyða merkingum skilaboða
 webext-perms-description-messagesTagsList = Lesa merki skilaboða
 webext-perms-description-sensitiveDataUpload = Flytja viðkvæm notandagögn (ef aðgangur hefur verið veittur) á utanaðkomandi netþjón til frekari vinnslu
+webext-perms-description-messengerSettings = Lesa stillingar { -brand-short-name }

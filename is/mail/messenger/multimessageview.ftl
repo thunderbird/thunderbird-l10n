@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Eyða
     .tooltiptext = Eyða
+multi-message-undelete-button =
+    .label = Afturkalla eyðingu
+    .tooltiptext = Afturkalla eyðingu

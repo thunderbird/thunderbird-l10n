@@ -10,6 +10,7 @@ category-list =
 pane-general-title = Almennt
 category-general =
     .tooltiptext = { pane-general-title }
+pane-appearance-title = Útlit
 pane-compose-title = Samsetning
 category-compose =
     .tooltiptext = Samsetning
@@ -881,3 +882,5 @@ qr-export-more-accounts = Flytja út fleiri reikninga
 
 ## Appearance Tab
 
+appearance-category-header = Útlit
+default-message-list-legend = Skilaboðalisti
