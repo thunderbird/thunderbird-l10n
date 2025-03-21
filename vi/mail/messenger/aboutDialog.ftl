@@ -11,9 +11,9 @@ update-check-for-updates-button = Kiểm tra cập nhật
 update-update-button = Khởi động lại để cập nhật { -brand-shorter-name }
     .accesskey = R
 update-checking-for-updates = Đang kiểm tra cập nhật…
-update-downloading-message = Đang tải bản cập nhật — <span data-l10n-name="download-status"></span>
+update-downloading-message = Đang tải xuống bản cập nhật — <span data-l10n-name="download-status"></span>
 update-applying = Đang cài đặt cập nhật…
-update-downloading = <img data-l10n-name="icon"/>Đang tải bản cập nhật — <span data-l10n-name="download-status"></hspan>
+update-downloading = <img data-l10n-name="icon"/>Đang tải xuống bản cập nhật — <span data-l10n-name="download-status"></hspan>
 update-failed = Cập nhật thất bại. <a data-l10n-name="failed-link">Tải xuống phiên bản mới nhất</a>
 update-admin-disabled = Cập nhật bị vô hiệu hóa bởi quản trị hệ thống của bạn
 update-no-updates-found = { -brand-short-name } đã được cập nhật
