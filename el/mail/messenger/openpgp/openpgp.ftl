@@ -27,7 +27,7 @@ e2e-csr-select-strength = Επιλέξτε την επιθυμητή κρυπτ�
 # $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
 # $file A filename
 # Do not translate: CSR
-e2e-csr-summary = Ένα νέο μυστικό κλειδί τύπου { $type }, με ισχύ { $strength }, θα δημιουργηθεί στις ρυθμίσεις του { -brand-short-name }. Παρακαλώ περιμένετε, καθώς αυτή η διαδικασία ενδέχεται να διαρκέσει αρκετή ώρα και να εμποδίσει προσωρινά την κανονική λειτουργία του προγράμματος. Στο μεταξύ, θα δημιουργηθεί το αρχείο αιτήματος υπογραφής πιστοποιητικού (CSR), που θα αποθηκευτεί ως «{ $file }».
+e2e-csr-summary = Ένα νέο μυστικό κλειδί τύπου { $type }, με ισχύ { $strength }, θα δημιουργηθεί στις ρυθμίσεις του { -brand-short-name }. Δείξτε υπομονή, καθώς αυτή η διαδικασία ενδέχεται να διαρκέσει αρκετή ώρα και να εμποδίσει προσωρινά την κανονική λειτουργία του προγράμματος. Στο μεταξύ, θα δημιουργηθεί το αρχείο αιτήματος υπογραφής πιστοποιητικού (CSR), που θα αποθηκευτεί ως «{ $file }».
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Συμπερίληψη διεύθυνσης email ({ $email }) στο CSR (προτείνεται)
