@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Ezabatu
     .tooltiptext = Ezabatu
+multi-message-undelete-button =
+    .label = Desezabatu
+    .tooltiptext = Desezabatu

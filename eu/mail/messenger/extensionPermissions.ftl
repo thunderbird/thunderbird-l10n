@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Zure mezuen propietate eta etiketak al
 webext-perms-description-messagesTags = Sortu, aldatu eta ezabatu mezu etiketak
 webext-perms-description-messagesTagsList = Mezuen etiketak erakutsi
 webext-perms-description-sensitiveDataUpload = Transferitu erabiltzailearen kontuzko datuak  (sarbidea eman bada) urruneko zerbitzari batera prozesatzeko
+webext-perms-description-messengerSettings = Irakurri { -brand-short-name } ezarpenak

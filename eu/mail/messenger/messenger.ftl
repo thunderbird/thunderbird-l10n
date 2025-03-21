@@ -270,6 +270,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Izarduna
     .aria-label = I
+message-header-delete =
+    .label = Ezabatu
+    .tooltiptext = Ezabatu mezu hau
+message-header-undelete =
+    .label = Desezabatu
+    .tooltiptext = Desezabatu mezu hau
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -465,3 +471,6 @@ quota-panel-percent-used = { $percent }% full
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Markatu irakurritako gisa
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Ez egin ezer

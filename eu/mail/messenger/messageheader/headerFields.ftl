@@ -101,3 +101,9 @@ message-ids-field-show-all = Erakutsi denak
 
 ## Dark Message Mode
 
+dark-message-mode-disable-toggle =
+    .title = Modu iluna desgaitu
+dark-message-mode-toggle-enabled =
+    .title = Desgaitu mezu ilun modua
+dark-message-mode-toggle-disabled =
+    .title = Gaitu mezu ilun modua
