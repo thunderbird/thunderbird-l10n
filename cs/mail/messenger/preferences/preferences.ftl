@@ -324,6 +324,9 @@ automatic-updates-label =
 check-updates-label =
     .label = Vyhledávat aktualizace, ale zeptat se, zda mají být nainstalovány
     .accesskey = C
+update-application-background-enabled =
+    .label = Pokud není { -brand-short-name } spuštěn
+    .accesskey = P
 update-history-button =
     .label = Zobrazit historii aktualizací
     .accesskey = b
@@ -518,6 +521,7 @@ dark-message-mode-checkbox-description = Experimentální funkce, při které se
 dark-message-mode-toggle-label =
     .label = Zobrazovat přepínač tmavého režimu zpráv
     .accesskey = Z
+dark-message-mode-toggle-description = Zobrazí přepínač v záhlaví zprávy pro rychlé vypnutí tmavého režimu zprávy.
 account-hub-legend = Centrum účtů
 account-hub-checkbox-label =
     .label = Účty vytvářet v novém centru účtů
@@ -1055,5 +1059,11 @@ apply-current-view-to-folder-children =
     .label = Složka a její podsložky…
 apply-changes-prompt-title = Použít změny?
 apply-changes-prompt-message = Použít aktuální nastavení řazení a třídění na všechny složky?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Použít aktuální nastavení řazení vláken a třídění na složku “{ $name }”?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Použít aktuální nastavení řazení a třídění na složku “{ $name }” a podsložky?
 apply-current-view-error = Nelze použít aktuální nastavení zobrazení
 apply-current-view-success = Aktuální nastavení zobrazení bylo úspěšně použito
