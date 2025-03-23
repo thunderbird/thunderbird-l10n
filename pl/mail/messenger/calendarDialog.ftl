@@ -10,3 +10,5 @@ calendar-dialog-back-button =
     .title = Wstecz
 calendar-dialog-date-row-icon =
     .alt = Data i czas
+calendar-dialog-date-row-recurring-icon =
+    .alt = Powtarzanie
