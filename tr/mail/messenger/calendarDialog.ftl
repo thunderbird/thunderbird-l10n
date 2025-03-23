@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Geri
     .title = Geri
+calendar-dialog-date-row-icon =
+    .alt = Tarih ve saat
+calendar-dialog-date-row-recurring-icon =
+    .alt = Yinelenen
