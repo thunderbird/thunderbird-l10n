@@ -5,6 +5,8 @@
 
 ## Message List Header Bar
 
+thread-pane-header-context-cards-view =
+    .label = საბარათო ხედი
 
 ## Quick Filter Bar
 
