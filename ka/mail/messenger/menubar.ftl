@@ -104,7 +104,7 @@ menu-view-repair-text-encoding =
 ## View / Folders
 
 menu-view-folders-toggle-header =
-    .label = საქაღალდის არის სათაური
+    .label = საქაღალდის არის თავსართი
     .accesskey = რ
 
 ## View / Layout
