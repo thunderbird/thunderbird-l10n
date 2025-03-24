@@ -265,6 +265,11 @@ openpgp-personal-no-label =
     .label = არა, არ მიეთითოს ჩემს პირად გასაღებად.
 openpgp-personal-yes-label =
     .label = დიახ, მიეთითოს ჩემს პირად გასაღებად.
+openpgp-passphrase-protection =
+    .label = საიდუმლო ფრაზით დაცვა
+openpgp-passphrase-status-user-passphrase = დაცულია საიდუმლო ფრაზით
+openpgp-passphrase-instruction-unprotected = დააყენეთ საიდუმლო ფრაზა ამ გასაღების დასაცავად
+openpgp-passphrase-instruction-primary-password = ამ გასაღების სათადარიგო დაცვა ცალკე საიდუმლო ფრაზით
 openpgp-copy-cmd-label =
     .label = ასლი
 
