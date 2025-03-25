@@ -151,4 +151,5 @@ account-hub-oauth-pending = Attendente autorisation in le fenestra resaltante de
 account-hub-addon-install-needed = { -brand-short-name } non supporta nativemente iste servitor. Pro acceder Exchange email, <a data-l10n-name="addon-install"> installa un additivo de tertie-parte como Owl (pagate).</a>
 account-hub-addon-error = Installation de additivo fallite. Retenta o contacta le autor del additivo pro assistentia.
 account-hub-security-warning = <span data-l10n-name="security-warning">Attention: relevate servitor de posta non secur.</span> Iste servitor non dispone di cryptation, exponente tu contrasigno e tu datos. Contactar le administrator pro proteger le connexion o proceder a proprie risco. <a data-l10n-name="faq-link">Pro altere informationes, consulta le FAQ.</a>
+account-hub-account-authentication-error = Error de authentication.
 account-hub-addon-needed = { -brand-full-name } non supporta nativemente iste servitor. A acceder Exchange email, <a data-l10n-name="addon-install"> installar un additivo de tertie-parte como Owl (pagate).</a>
