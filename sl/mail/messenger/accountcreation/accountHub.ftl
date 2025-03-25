@@ -153,4 +153,5 @@ account-hub-oauth-pending = Čakanje na pooblastitev v pojavnem oknu za prijavo 
 account-hub-addon-install-needed = { -brand-short-name } sam po sebi tega strežnika ne podpira. Za dostop do e-pošte Exchange <a data-l10n-name="addon-install">namestite dodatek tretjega ponudnika, na primer Owl (plačljiv)</a>.
 account-hub-addon-error = Namestitev dodatka ni uspela. Poskusite znova ali pa se za pomoč obrnite na njegovega avtorja.
 account-hub-security-warning = <span data-l10n-name="security-warning">Opozorilo: zaznan je bil nezavarovan poštni strežnik.</span> Ta strežnik ne uporablja šifriranja, zato so vaše geslo in podatki izpostavljeni prisluškovalcem. Svetujte skrbniku, naj zavaruje povezavo, ali nadaljujte na lastno odgovornost. <a data-l10n-name="faq-link">Za več informacij glejte pogosta vprašanja.</a>
+account-hub-account-authentication-error = Napaka pri preverjanju pristnosti.
 account-hub-addon-needed = { -brand-full-name } izvorno tega strežnika ne podpira. Za dostop do e-pošte Exchange <a data-l10n-name="addon-install">namestite dodatek tretjega ponudnika, na primer Owl (plačljiv)</a>.
