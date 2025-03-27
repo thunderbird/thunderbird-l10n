@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "l">
 <!ENTITY contextMoveMsgMenu.label "Mover para">
 <!ENTITY contextMoveMsgMenu.accesskey "M">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Destinos Recentes">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Recente">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "c">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Marcadores">

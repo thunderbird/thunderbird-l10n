@@ -471,6 +471,11 @@ single-long-calendar-week = Semana de calendário: { $index }
 #    $index will be replaced with the index of the week
 single-calendar-week = CS: { $index }
     .title = Semana de calendário: { $index }
+# LOCALIZATION NOTE (several-long-calendar-weeks):
+# used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-long-calendar-weeks = Semanas do Calendário { $startIndex }-{ $endIndex }
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
@@ -608,12 +613,44 @@ unit-weeks =
     }
 event-duration-menuitem-count-weeks =
     .label = { unit-weeks }
+# Variables:
+# $count (Number) - Number of minutes used to determine the correct plural form.
+event-duration-menuitem-minutes =
+    .label =
+        { $count ->
+            [one] minuto
+           *[other] minutos
+        }
 event-duration-label-minutes =
     .value = { event-duration-menuitem-minutes.label }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label =
+        { $count ->
+            [one] hora
+           *[other] horas
+        }
 event-duration-label-hours =
     .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label =
+        { $count ->
+            [one] dia
+           *[other] dias
+        }
 event-duration-label-days =
     .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label =
+        { $count ->
+            [one] semana
+           *[other] semanas
+        }
 event-duration-label-weeks =
     .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
