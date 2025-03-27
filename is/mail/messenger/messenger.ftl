@@ -315,6 +315,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Sýna alla hausa
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = Birta víxlhnapp fyrir dökkan ham skilaboða
+    .accesskey = d
 
 ## Action Button Context Menu
 
