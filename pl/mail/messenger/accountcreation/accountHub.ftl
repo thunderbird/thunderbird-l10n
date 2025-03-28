@@ -122,9 +122,6 @@ account-hub-creating-account = Tworzenie konta…
 account-hub-sync-accounts-found = { -brand-short-name } znalazł usługi połączone
 account-hub-sync-accounts-not-found = { -brand-short-name } nie mógł znaleźć usług połączonych
 account-hub-sync-accounts-failure = { -brand-short-name } nie mógł połączyć się z wybranymi usługami
-account-hub-sync-success = Thunderbird znalazł usługi połączone
-account-hub-sync-failure = Thunderbird nie mógł znaleźć usług połączonych
-account-hub-unable-to-sync-accounts = Thunderbird nie mógł połączyć się z wybranymi usługami
 account-hub-email-added-success = Pomyślnie połączono z kontem e-mail
 account-hub-config-test-success = Ustawienia konfiguracji są prawidłowe
 account-hub-select-all = Wybierz wszystkie
@@ -153,4 +150,3 @@ account-hub-addon-install-needed = { -brand-short-name } nie obsługuje natywnie
 account-hub-addon-error = Instalacja dodatku się nie powiodła. Spróbuj ponownie lub skontaktuj się z autorem dodatku, aby uzyskać pomoc.
 account-hub-security-warning = <span data-l10n-name="security-warning">Ostrzeżenie: wykryto niezabezpieczony serwer pocztowy.</span> Ten serwer nie obsługuje szyfrowania, co naraża hasło i dane użytkownika. Skontaktuj się z administratorem, aby zabezpieczyć połączenie, lub kontynuuj na własne ryzyko. <a data-l10n-name="faq-link">Więcej informacji znajdziesz w dokumencie FAQ.</a>
 account-hub-account-authentication-error = Błąd uwierzytelniania.
-account-hub-addon-needed = { -brand-full-name } nie obsługuje natywnie tego serwera. Aby uzyskać dostęp do poczty e-mail Exchange, <a data-l10n-name="addon-install"> zainstaluj dodatek zewnętrznego producenta, taki jak Owl (płatny).</a>

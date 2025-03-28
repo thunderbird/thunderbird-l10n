@@ -101,8 +101,6 @@ message-ids-field-show-all = Prikaži vse
 
 ## Dark Message Mode
 
-dark-message-mode-disable-toggle =
-    .title = Onemogoči temen prikaz sporočil
 dark-message-mode-toggle-enabled =
     .title = Onemogoči temen prikaz sporočil
 dark-message-mode-toggle-disabled =

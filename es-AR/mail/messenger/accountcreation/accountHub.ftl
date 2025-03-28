@@ -122,9 +122,6 @@ account-hub-creating-account = Creando cuenta…
 account-hub-sync-accounts-found = { -brand-short-name } encontró algunos servicios conectados
 account-hub-sync-accounts-not-found = { -brand-short-name } no pudo encontrar servicios conectados
 account-hub-sync-accounts-failure = { -brand-short-name } no pudo conectar los servicios seleccionados
-account-hub-sync-success = Thunderbird encontró algunos servicios conectados
-account-hub-sync-failure = Thunderbird no pudo encontrar servicios conectados
-account-hub-unable-to-sync-accounts = Thunderbird no pudo conectar los servicios seleccionados
 account-hub-email-added-success = Cuenta de correo electrónico conectada correctamente
 account-hub-config-test-success = Ajustes de configuración válidos
 account-hub-select-all = Seleccionar todo
@@ -152,4 +149,3 @@ account-hub-addon-install-needed = { -brand-short-name } no es compatible de for
 account-hub-addon-error = Falló la instalación del complemento. Pruebe nuevamente o contacte al autor del complemento para obtener ayuda.
 account-hub-security-warning = <span data-l10n-name="security-warning">Advertencia: Se detectó un servidor de correo inseguro.</span> Este servidor carece de cifrado, lo que expone su contraseña y datos. Contacte a su administrador para asegurar la conexión o proceda bajo su propio riesgo. <a data-l10n-name="faq-link">Para más información, vea las preguntas frecuentes.</a>
 account-hub-account-authentication-error = Error de autenticación.
-account-hub-addon-needed = { -brand-full-name } no es compatible de forma nativa con este servidor. Para acceder al correo electrónico de Exchange, <a data-l10n-name="addon-install">instale un complemento de terceros como Owl (pago).</a>

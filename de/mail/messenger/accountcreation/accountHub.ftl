@@ -122,9 +122,6 @@ account-hub-creating-account = Konto wird erstellt…
 account-hub-sync-accounts-found = { -brand-short-name } hat verbundene Dienste gefunden
 account-hub-sync-accounts-not-found = { -brand-short-name } konnte keine verbundenen Dienste finden.
 account-hub-sync-accounts-failure = { -brand-short-name } konnte keine Verbindung zu den ausgewählten Diensten herstellen
-account-hub-sync-success = Thunderbird hat verbundene Dienste gefunden
-account-hub-sync-failure = Thunderbird konnte keine verbundenen Dienste finden.
-account-hub-unable-to-sync-accounts = Thunderbird konnte keine Verbindung zu den ausgewählten Diensten herstellen.
 account-hub-email-added-success = E-Mail-Konto erfolgreich verbunden
 account-hub-config-test-success = Gültige Konfigurationseinstellungen
 account-hub-select-all = Alle auswählen
@@ -152,4 +149,3 @@ account-hub-addon-install-needed = { -brand-short-name } unterstützt diesen Ser
 account-hub-addon-error = Add-on-Installation fehlgeschlagen. Bitte versuchen Sie es erneut oder wenden Sie sich an den Add-on-Autor, um Unterstützung zu erhalten.
 account-hub-security-warning = <span data-l10n-name="security-warning">Warnung: Unsicherer Mail-Server erkannt.</span> Dieser Server ist nicht verschlüsselt, sodass Ihr Passwort und Ihre Daten offengelegt werden. Kontaktieren Sie Ihren Administrator, um die Verbindung zu sichern oder fahren Sie auf eigene Gefahr fort. <a data-l10n-name="faq-link">Weitere Informationen finden Sie in den FAQ.</a>
 account-hub-account-authentication-error = Fehler bei der Authentifizierung.
-account-hub-addon-needed = { -brand-full-name } unterstützt diesen Server nicht nativ. Um auf Exchange-E-Mail-Adressen zuzugreifen, <a data-l10n-name="addon-install">installieren Sie das Add-on eines Drittanbieters wie Owl (kostenpflichtig).</a>

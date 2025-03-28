@@ -122,9 +122,6 @@ account-hub-creating-account = 正在建立帳號…
 account-hub-sync-accounts-found = { -brand-short-name } 找到一些連結的服務
 account-hub-sync-accounts-not-found = { -brand-short-name } 找不到連結的服務
 account-hub-sync-accounts-failure = { -brand-short-name } 無法連結所選的服務
-account-hub-sync-success = Thunderbird 找到一些連結的服務
-account-hub-sync-failure = Thunderbird 找不到已連結的服務
-account-hub-unable-to-sync-accounts = Thunderbird 無法連線到所選的服務
 account-hub-email-added-success = 成功連線至電子郵件帳號
 account-hub-config-test-success = 設定值有效
 account-hub-select-all = 選擇全部
@@ -151,4 +148,3 @@ account-hub-addon-install-needed = { -brand-short-name } 本身不支援此伺�
 account-hub-addon-error = 附加元件安裝失敗。請再試一次或聯絡附加元件作者尋求協助。
 account-hub-security-warning = <span data-l10n-name="security-warning">警告：偵測到不安全的郵件伺服器。</span>此伺服器未加密連線，會洩漏您的密碼與資料。請聯絡您的管理員以加密連線，或繼續使用但自負風險。<a data-l10n-name="faq-link">若需更多資訊，請參考 FAQ 常見問題集。</a>
 account-hub-account-authentication-error = 驗證發生錯誤。
-account-hub-addon-needed = { -brand-full-name } 本身不支援此伺服器。若要存取 Exchange 郵件，請<a data-l10n-name="addon-install">安裝 Owl 等第三方附加元件（須付費）。</a>

@@ -101,8 +101,6 @@ message-ids-field-show-all = Εμφάνιση όλων
 
 ## Dark Message Mode
 
-dark-message-mode-disable-toggle =
-    .title = Απενεργοποίηση της σκουρόχρωμης λειτουργίας μηνυμάτων
 dark-message-mode-toggle-enabled =
     .title = Απενεργοποίηση της σκουρόχρωμης λειτουργίας μηνυμάτων
 dark-message-mode-toggle-disabled =

@@ -122,9 +122,6 @@ account-hub-creating-account = Po kriiohet llogari…
 account-hub-sync-accounts-found = { -brand-short-name }-i gjeti disa pajisje të lidhura
 account-hub-sync-accounts-not-found = { -brand-short-name }-i s’qe në gjendje të gjente shërbime të lidhura
 account-hub-sync-accounts-failure = { -brand-short-name }-i s’qe në gjendje të lidhte shërbimet e përzgjedhura
-account-hub-sync-success = Thunderbird-i gjeti disa shërbime të lidhura
-account-hub-sync-failure = Thunderbird-i s’qe në gjendje të gjente shërbime të lidhura
-account-hub-unable-to-sync-accounts = Thunderbird-i s’qe në gjendje të lidhte shërbimet e përzgjedhura
 account-hub-email-added-success = Llogaria email u lidh me sukses
 account-hub-config-test-success = Rregullime formësimi të vlefshme
 account-hub-select-all = Përzgjidhe krejt
@@ -151,4 +148,3 @@ account-hub-oauth-pending = Po pritet për autorizim te flluska për hyrjen…
 account-hub-addon-install-needed = { -brand-short-name }-i s’e mbulon së brendshmi këtë shërbyes. Që të përdorni email Exchange, <a data-l10n-name="addon-install"> instaloni një shtesë prej pale të tretë, bie fjala Owl (me pagesë).</a>
 account-hub-addon-error = Instalimi i shtesës dështoi. Ju lutemi, riprovoni, ose lidhuni me autorin e shtesës, për asistencë.
 account-hub-security-warning = <span data-l10n-name="security-warning">Kujdes: U pikas shërbyes poste i pasiguruar.</span> Këtij shërbyesi i mungon fshehtëzimi, duke ekspozuar kështu fjalëkalim dhe të dhëna tuajat. Lidhuni me përgjegjësin tuaj që të bëhet lidhja e siguruar, ose vazhdoni me kokën tuaj. <a data-l10n-name="faq-link">Për më tepër, shihni PBR.</a>
-account-hub-addon-needed = { -brand-full-name }-i s’e mbulon së brendshmi këtë shërbyes. Që të përdorni email Exchange, <a data-l10n-name="addon-install"> instaloni një shtesë prej pale të tretë, bie fjala Owl (me pagesë).</a>

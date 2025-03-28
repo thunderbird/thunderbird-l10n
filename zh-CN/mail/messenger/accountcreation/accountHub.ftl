@@ -122,9 +122,6 @@ account-hub-creating-account = 正在创建账户…
 account-hub-sync-accounts-found = { -brand-short-name } 找到一些已连接的服务
 account-hub-sync-accounts-not-found = { -brand-short-name } 找不到已连接的服务
 account-hub-sync-accounts-failure = { -brand-short-name } 无法连接所选服务
-account-hub-sync-success = Thunderbird 找到一些已连接的服务
-account-hub-sync-failure = Thunderbird 找不到已连接的服务
-account-hub-unable-to-sync-accounts = Thunderbird 无法连接所选服务
 account-hub-email-added-success = 邮箱账户连接成功
 account-hub-config-test-success = 配置设置有效
 account-hub-select-all = 全部选择
@@ -148,4 +145,3 @@ account-hub-addon-install-needed = { -brand-short-name } 尚未原生支持此�
 account-hub-addon-error = 附加组件安装失败。请再试一次，或联系附加组件作者获取帮助。
 account-hub-security-warning = <span data-l10n-name="security-warning">警告：检测到不安全的邮件服务器。</span>此服务器缺少加密措施，将暴露您的密码和数据。请联系管理员升级此连接的安全性，或自担风险并继续操作。<a data-l10n-name="faq-link">详见常见问题解答</a>。
 account-hub-account-authentication-error = 身份验证出错。
-account-hub-addon-needed = { -brand-full-name } 尚未原生支持此服务器。若要访问 Exchange 邮件，请<a data-l10n-name="addon-install">安装 Owl（付费）等第三方附加组件</a>。

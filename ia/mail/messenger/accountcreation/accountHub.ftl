@@ -122,9 +122,6 @@ account-hub-creating-account = Creante conto…
 account-hub-sync-accounts-found = { -brand-short-name } discoperiva alcun servicios connexe
 account-hub-sync-accounts-not-found = { -brand-short-name } non poteva trovar alcun servicio connexe
 account-hub-sync-accounts-failure = { -brand-short-name } non poteva connecter le servicios seligite
-account-hub-sync-success = Thunderbird discoperiva alcun servicios connexe
-account-hub-sync-failure = Thunderbird non poteva trovar alcun servicio connexe
-account-hub-unable-to-sync-accounts = Thunderbird non poteva connecter le servicios seligite
 account-hub-email-added-success = Conto email connexe con successo
 account-hub-config-test-success = Parametros de configuration valide
 account-hub-select-all = Seliger toto
@@ -152,4 +149,3 @@ account-hub-addon-install-needed = { -brand-short-name } non supporta nativement
 account-hub-addon-error = Installation de additivo fallite. Retenta o contacta le autor del additivo pro assistentia.
 account-hub-security-warning = <span data-l10n-name="security-warning">Attention: relevate servitor de posta non secur.</span> Iste servitor non dispone di cryptation, exponente tu contrasigno e tu datos. Contactar le administrator pro proteger le connexion o proceder a proprie risco. <a data-l10n-name="faq-link">Pro altere informationes, consulta le FAQ.</a>
 account-hub-account-authentication-error = Error de authentication.
-account-hub-addon-needed = { -brand-full-name } non supporta nativemente iste servitor. A acceder Exchange email, <a data-l10n-name="addon-install"> installar un additivo de tertie-parte como Owl (pagate).</a>

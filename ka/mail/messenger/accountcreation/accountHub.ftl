@@ -55,4 +55,3 @@ account-hub-email-config-found = აირჩიეთ თქვენი ელ
 account-hub-email-enter-password = მიუთითეთ თქვენი ელფოსტის პაროლი
 account-hub-email-added-success = ელფოსტის ანგარიში დაკავშირებულია წარმატებით
 account-hub-addon-install-needed = { -brand-short-name } არაა თანმომყოლი მხარდაჭერით ამ სერვერზე. Exchange-ელფოსტასთან წვდომისთვის <a data-l10n-name="addon-install"> დააყენეთ გარეშე მხარის დამატება, როგორიცაა Owl (ფასიანი).</a>
-account-hub-addon-needed = { -brand-full-name } არაა თანმომყოლი მხარდაჭერით ამ სერვერზე. Exchange-ელფოსტასთან წვდომისთვის <a data-l10n-name="addon-install"> დააყენეთ გარეშე მხარის დამატება, როგორიცაა Owl (ფასიანი).</a>

@@ -122,9 +122,6 @@ account-hub-creating-account = Kontua sortzen...
 account-hub-sync-accounts-found = { -brand-short-name }-k konektatutako zerbitzu batzuk aurkitu ditu
 account-hub-sync-accounts-not-found = { -brand-short-name } ez da gai izan zerbitzu konektatuak aurkitzeko.
 account-hub-sync-accounts-failure = { -brand-short-name } ez da gai izan aukeratutako zerbitzuak konektatzeko.
-account-hub-sync-success = Thunderbirdek konektatutako zerbitzu batzuk aurkitu ditu
-account-hub-sync-failure = Thunderbird ez da gai izan zerbitzu konektatuak aurkitzeko.
-account-hub-unable-to-sync-accounts = Thunderbird ez da gai izan aukeratutako zerbitzuak konektatzeko.
 account-hub-email-added-success = Posta elektroniko kontua behar bezala konektatuta
 account-hub-config-test-success = Konfigurazio-ezarpenak baliozkoak dira
 account-hub-select-all = Hautatu dena
@@ -150,4 +147,3 @@ account-hub-username-error-text = Erabiltzaile izena beharrezkoa da
 account-hub-oauth-pending = Baimenaren zain saioa hasteko leihoan...
 account-hub-addon-install-needed = { -brand-short-name }-k ez du jatorrizko zerbitzari hau onartzen. Exchange posta elektronikora sartzeko, <a data-l10n-name="addon-install"> instalatu Owl (ordainpekoa) bezalako hirugarrenen gehigarri bat.</a>
 account-hub-addon-error = Gehigarriaren instalazioak huts egin du. Mesedez, saiatu berriro edo jarri harremanetan gehigarriaren egilearekin laguntza eskatzeko.
-account-hub-addon-needed = { -brand-full-name }-k ez du jatorrizko zerbitzari hau onartzen. Exchange posta elektronikora sartzeko, <a data-l10n-name="addon-install"> instalatu Owl (ordainpekoa) bezalako hirugarrenen gehigarri bat.</a>

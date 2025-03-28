@@ -122,9 +122,6 @@ account-hub-creating-account = Creazione account…
 account-hub-sync-accounts-found = { -brand-short-name } ha rilevato alcuni servizi connessi
 account-hub-sync-accounts-not-found = { -brand-short-name } non è stato in grado di trovare servizi connessi
 account-hub-sync-accounts-failure = { -brand-short-name } non è stato in grado di connettersi ai servizi selezionati
-account-hub-sync-success = Thunderbird ha rilevato alcuni servizi connessi
-account-hub-sync-failure = Thunderbird non è stato in grado di trovare servizi connessi
-account-hub-unable-to-sync-accounts = Thunderbird non è stato in grado di connettere i servizi selezionati
 account-hub-email-added-success = L’account email è stato connesso correttamente
 account-hub-config-test-success = Impostazioni di configurazione valide
 account-hub-select-all = Seleziona tutto
@@ -152,4 +149,3 @@ account-hub-addon-install-needed = { -brand-short-name } non supporta questo ser
 account-hub-addon-error = Installazione del componente aggiuntivo non riuscita. Riprova o contatta l’autore del componente aggiuntivo per ricevere assistenza.
 account-hub-security-warning = <span data-l10n-name="security-warning">Attenzione: rilevato server di posta non sicuro.</span> Questo server non dispone di crittografia, mettendo a rischio la tua password e i tuoi dati. Contattare l’amministratore per proteggere la connessione o procedere a proprio rischio. <a data-l10n-name="faq-link">Per ulteriori informazioni, consulta le FAQ.</a>
 account-hub-account-authentication-error = Errore di autenticazione.
-account-hub-addon-needed = { -brand-full-name } non supporta questo server in modo nativo. Per accedere alla posta elettronica di Exchange, <a data-l10n-name="addon-install">installa un componente aggiuntivo di terze parti come Owl (a pagamento)</a>.

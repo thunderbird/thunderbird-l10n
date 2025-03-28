@@ -122,9 +122,6 @@ account-hub-creating-account = Création du compte…
 account-hub-sync-accounts-found = { -brand-short-name } a détecté des services connectés
 account-hub-sync-accounts-not-found = { -brand-short-name } n’a pas pu trouver de services connectés
 account-hub-sync-accounts-failure = { -brand-short-name } n’a pas pu connecter les services sélectionnés
-account-hub-sync-success = Thunderbird a détecté des services connectés
-account-hub-sync-failure = Thunderbird n’a pas pu trouver de services connectés
-account-hub-unable-to-sync-accounts = Thunderbird n’a pas pu connecter les services sélectionnés
 account-hub-email-added-success = Le compte e-mail a été connecté
 account-hub-config-test-success = Paramètres de configuration valides
 account-hub-select-all = Tout sélectionner
@@ -152,4 +149,3 @@ account-hub-addon-install-needed = { -brand-short-name } ne prend pas en charge 
 account-hub-addon-error = Échec de l’installation du module complémentaire. Veuillez essayer à nouveau ou contacter l’auteur du module complémentaire pour obtenir de l’aide.
 account-hub-security-warning = <span data-l10n-name="security-warning">Attention : serveur de courrier non sécurisé détecté.</span> Ce serveur n’est pas chiffré ; votre mot de passe et vos données sont compromis. Contactez votre administrateur pour sécuriser la connexion ou poursuivez à vos risques et périls. <a data-l10n-name="faq-link">Voir la FAQ pour plus d’informations.</a>
 account-hub-account-authentication-error = Erreur d'authentification.
-account-hub-addon-needed = { -brand-full-name } ne prend pas ce serveur en charge de manière native. Pour accéder à la messagerie Exchange, <a data-l10n-name="addon-install">installez un module complémentaire tiers comme Owl (payant).</a>

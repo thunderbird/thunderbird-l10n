@@ -71,8 +71,6 @@ message-ids-field-show-all = Hiện tất cả
 
 ## Dark Message Mode
 
-dark-message-mode-disable-toggle =
-    .title = Tắt chế độ tối cho thư
 dark-message-mode-toggle-enabled =
     .title = Tắt chế độ tối cho thư
 dark-message-mode-toggle-disabled =

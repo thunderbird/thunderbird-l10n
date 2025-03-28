@@ -122,9 +122,6 @@ account-hub-creating-account = Skapar konto…
 account-hub-sync-accounts-found = { -brand-short-name } hittade några anslutna tjänster
 account-hub-sync-accounts-not-found = { -brand-short-name } kunde inte hitta anslutna tjänster
 account-hub-sync-accounts-failure = { -brand-short-name } kunde inte ansluta de valda tjänsterna
-account-hub-sync-success = Thunderbird hittade några anslutna tjänster
-account-hub-sync-failure = Thunderbird kunde inte hitta anslutna tjänster
-account-hub-unable-to-sync-accounts = Thunderbird kunde inte ansluta de utvalda tjänsterna
 account-hub-email-added-success = E-postkontot har anslutits
 account-hub-config-test-success = Giltiga konfigurationsinställningar
 account-hub-select-all = Markera alla
@@ -152,4 +149,3 @@ account-hub-addon-install-needed = { -brand-short-name } stöder inte den här s
 account-hub-addon-error = Installation av tillägg misslyckades. Försök igen eller kontakta tilläggets upphovsman för hjälp.
 account-hub-security-warning = <span data-l10n-name="security-warning">Varning: Osäker e-postserver upptäcktes.</span> Denna server saknar kryptering, vilket exponerar ditt lösenord och data. Kontakta din administratör för att säkra anslutningen eller fortsätt på egen risk. <a data-l10n-name="faq-link">Se vanlig frågor för mer info.</a>
 account-hub-account-authentication-error = Autentiseringsfel.
-account-hub-addon-needed = { -brand-full-name } stöder inte den här servern. För att komma åt Exchange e-post, <a data-l10n-name="addon-install"> installera ett tredjepartstillägg som Owl (betald).</a>

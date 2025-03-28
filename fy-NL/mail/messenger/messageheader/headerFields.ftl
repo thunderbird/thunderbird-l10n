@@ -101,8 +101,6 @@ message-ids-field-show-all = Alles toane
 
 ## Dark Message Mode
 
-dark-message-mode-disable-toggle =
-    .title = Donkere berjochtmodus útskeakelje
 dark-message-mode-toggle-enabled =
     .title = Donkere berjochtmodus útskeakelje
 dark-message-mode-toggle-disabled =

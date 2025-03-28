@@ -122,9 +122,6 @@ account-hub-creating-account = Vytvára sa účet…
 account-hub-sync-accounts-found = { -brand-short-name } našiel nejaké pripojené služby
 account-hub-sync-accounts-not-found = { -brand-short-name } nedokázal nájsť pripojené služby
 account-hub-sync-accounts-failure = { -brand-short-name(case: "dat") } sa nepodarilo pripojiť vybraté služby
-account-hub-sync-success = Thunderbird našiel nejaké pripojené služby
-account-hub-sync-failure = Thunderbirdu sa nepodarilo nájsť pripojené služby
-account-hub-unable-to-sync-accounts = Thunderbirdu sa nepodarilo pripojiť vybraté služby
 account-hub-email-added-success = E‑mailový účet bol úspešne pripojený
 account-hub-config-test-success = Konfiguračné nastavenia sú platné
 account-hub-select-all = Vybrať všetko
@@ -154,4 +151,3 @@ account-hub-addon-install-needed = { -brand-short-name } tento server natívne n
 account-hub-addon-error = Inštalácia doplnku zlyhala. Skúste to znova alebo požiadajte o pomoc autora doplnku.
 account-hub-security-warning = <span data-l10n-name="security-warning">Upozornenie: zistil sa nezabezpečený poštový server.</span> Tento server nemá šifrovanie, čo prezrádza vaše heslo a údaje. Ak chcete zabezpečiť pripojenie, kontaktujte svojho správcu alebo pokračujte na vlastné riziko. Ďalšie informácie nájdete v <a data-l10n-name="faq-link">najčastejšie kladených otázkach</a>.
 account-hub-account-authentication-error = Chyba overenia.
-account-hub-addon-needed = { -brand-full-name } tento server natívne nepodporuje. Ak chcete získať prístup k e‑mailu typu Exchange, <a data-l10n-name="addon-install">nainštalujte si doplnok tretej strany, ako je napríklad Owl (platený)</a>.

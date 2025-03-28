@@ -122,9 +122,6 @@ account-hub-creating-account = Account oanmeitsje…
 account-hub-sync-accounts-found = { -brand-short-name } hat inkelde ferbûne services fûn
 account-hub-sync-accounts-not-found = { -brand-short-name } koe gjin ferbûne tsjinsten fine
 account-hub-sync-accounts-failure = { -brand-short-name } koe gjin ferbining meitsje mei de selektearre tsjinsten
-account-hub-sync-success = Thunderbird hat inkelde ferbûne services fûn
-account-hub-sync-failure = Thunderbird koe gjin ferbûne tsjinsten fine
-account-hub-unable-to-sync-accounts = Thunderbird koe gjin ferbining meitsje mei de selektearre tsjinsten
 account-hub-email-added-success = E-mailaccount mei sukses ferbûn
 account-hub-config-test-success = Konfiguraasje-ynstellingen jildich
 account-hub-select-all = Alles selektearje
@@ -152,4 +149,3 @@ account-hub-addon-install-needed = { -brand-short-name } stipet dizze server net
 account-hub-addon-error = Add-on-ynstallaasje is mislearre. Probearje it opnij of nim kontakt op mei de add-on-auteur foar help.
 account-hub-security-warning = <span data-l10n-name="security-warning">Warskôging: ûnfeilige e-mailserver ûntdutsen.</span> Dizze tsjinner mist fersifering, wêrtroch jo wachtwurd en gegevens iepenbier binne. Nim kontakt op mei jo behearder om de ferbining te befeiligjen of troch te gean op jo eigen risiko. <a data-l10n-name="faq-link">Sjoch FAQ foar mear ynformaasje.</a>
 account-hub-account-authentication-error = Autentikaasjeflater.
-account-hub-addon-needed = { -brand-full-name } stipet dizze server net ynboud. Om tagong te krijen ta Exchange-e-mail, <a data-l10n-name="addon-install"> ynstallearje in add-on fan tredden lykas Owl (betelle).</a>

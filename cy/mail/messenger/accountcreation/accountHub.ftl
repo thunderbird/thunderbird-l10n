@@ -122,9 +122,6 @@ account-hub-creating-account = Wrthi'n creu cyfrif…
 account-hub-sync-accounts-found = Daeth { -brand-short-name } o hyd i rai gwasanaethau cysylltiedig
 account-hub-sync-accounts-not-found = Nid oedd modd i { -brand-short-name } ddod o hyd i wasanaethau cysylltiedig
 account-hub-sync-accounts-failure = Nid oedd modd i { -brand-short-name } gysylltu'r gwasanaethau a ddewiswyd
-account-hub-sync-success = Mae Thunderbird wedi canfod rhai gwasanaethau cysylltiedig
-account-hub-sync-failure = Nid oedd Thunderbird yn gallu dod o hyd i wasanaethau cysylltu
-account-hub-unable-to-sync-accounts = Nid oedd Thunderbird yn gallu cysylltu'r gwasanaethau a ddewiswyd
 account-hub-email-added-success = Cyfrif e-bost wedi'i gysylltu'n llwyddiannus
 account-hub-config-test-success = Mae'r gosodiadau ffurfweddiad yn ddilys
 account-hub-select-all = Dewis y cyfan
@@ -156,4 +153,3 @@ account-hub-addon-install-needed = Nid yw { -brand-short-name } yn cefnogi'r gwe
 account-hub-addon-error = Methodd gosod ychwanegyn. Ceisiwch eto neu cysylltwch ag awdur yr ychwanegyn am gymorth.
 account-hub-security-warning = <span data-l10n-name="security-warning">Rhybudd: Wedi canfod gweinydd post anniogel.</span> Mae gan y gweinydd hwn ddiffyg amgryptio, gan ddatgelu eich cyfrinair a data. Cysylltwch â'ch gweinyddwr i sicrhau'r cysylltiad neu ewch ymlaen ar eich menter eich hun. <a data-l10n-name="faq-link">Gweler Cwestiynau Cyffredin am ragor.</a>
 account-hub-account-authentication-error = Gwall dilysu.
-account-hub-addon-needed = Nid yw { -brand-full-name } yn cefnogi'r gweinydd hwn yn frodorol. I gael mynediad at e-bost Exchange, <a data-l10n-name="addon-install"> gosodwch ychwanegyn trydydd parti fel Owl (taledig).</a>

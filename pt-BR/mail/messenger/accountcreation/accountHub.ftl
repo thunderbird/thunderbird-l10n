@@ -122,9 +122,6 @@ account-hub-creating-account = Criando conta…
 account-hub-sync-accounts-found = O { -brand-short-name } encontrou alguns serviços conectados
 account-hub-sync-accounts-not-found = O { -brand-short-name } não conseguiu encontrar serviços conectados
 account-hub-sync-accounts-failure = O { -brand-short-name } não conseguiu se conectar com os serviços selecionados
-account-hub-sync-success = O Thunderbird encontrou alguns serviços conectados
-account-hub-sync-failure = O Thunderbird não conseguiu encontrar serviços conectados
-account-hub-unable-to-sync-accounts = O Thunderbird não conseguiu se conectar com os serviços selecionados
 account-hub-email-added-success = Conta de email conectada com sucesso
 account-hub-config-test-success = Parâmetros de configuração válidos
 account-hub-select-all = Selecionar tudo
@@ -148,4 +145,3 @@ account-hub-port-error-text = A porta deve estar entre 1 e 65535
 account-hub-username-error-text = Nome de usuário é obrigatório
     .title = Nome de usuário é obrigatório
 account-hub-oauth-pending = Aguardando autorização na janela de entrada na conta…
-account-hub-addon-needed = O { -brand-full-name } não tem suporte nativo para este servidor. Para acessar o email do Exchange, <a data-l10n-name="addon-install"> instale uma extensão de terceiros, como Owl (pago)</a>.

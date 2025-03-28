@@ -101,8 +101,6 @@ message-ids-field-show-all = Összes megjelenítése
 
 ## Dark Message Mode
 
-dark-message-mode-disable-toggle =
-    .title = Sötét üzenetmód kikapcsolása
 dark-message-mode-toggle-enabled =
     .title = Sötét üzenetmód kikapcsolása
 dark-message-mode-toggle-disabled =

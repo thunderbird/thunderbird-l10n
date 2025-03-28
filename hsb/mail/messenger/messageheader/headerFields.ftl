@@ -101,8 +101,6 @@ message-ids-field-show-all = Wšě pokazać
 
 ## Dark Message Mode
 
-dark-message-mode-disable-toggle =
-    .title = Ćmowy powěsćowy modus znjemóžnić
 dark-message-mode-toggle-enabled =
     .title = Ćmowy powěsćowy modus znjemóžnić
 dark-message-mode-toggle-disabled =

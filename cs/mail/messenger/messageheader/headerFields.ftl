@@ -101,8 +101,6 @@ message-ids-field-show-all = Zobrazit vše
 
 ## Dark Message Mode
 
-dark-message-mode-disable-toggle =
-    .title = Zakázat režim tmavých zpráv
 dark-message-mode-toggle-enabled =
     .title = Zakázat režim tmavých zpráv
 dark-message-mode-toggle-disabled =

@@ -122,9 +122,6 @@ account-hub-creating-account = Konto so załožuje…
 account-hub-sync-accounts-found = { -brand-short-name } je někotre zwjazane słužby namakał
 account-hub-sync-accounts-not-found = { -brand-short-name } njemóžeše zwjazane słužby namakać
 account-hub-sync-accounts-failure = { -brand-short-name } njemóžeše wubrane słužby zwjazać
-account-hub-sync-success = Thunderbird je někotre zwjazane słužby namakał
-account-hub-sync-failure = Thunderbird njemóžeše zwjazane słužby namakać
-account-hub-unable-to-sync-accounts = Thunderbird njemóžeše wubrane słužby zwjazać
 account-hub-email-added-success = E-mejlowe konto je so wuspěšnje zwjazało
 account-hub-config-test-success = Konfiguraciske nastajenja płaćiwe
 account-hub-select-all = Wšě wubrać
@@ -154,4 +151,3 @@ account-hub-addon-install-needed = { -brand-short-name } wot doma tutón serwer 
 account-hub-addon-error = Instalacija přidatka je so nimokuliła. Prošu spytajće hišće raz abo stajće so z awtorom přidatka do zwiska, zo byšće pomoc dóstał.
 account-hub-security-warning = <span data-l10n-name="security-warning">Warnowanje: Njewěsty e-mejlowy serwer je so wotkrył.</span> Tutón serwer zaklučowanje nima, wozjawnja waše hesło a waše daty. Stajće so ze swojim administratorom do zwiska, zo byšće zwisk zawěsćił abo na swójske riziko pokročował. <a data-l10n-name="faq-link">Hlejće Husto stajene prašenja za dalše informacije.</a>
 account-hub-account-authentication-error = Awtentifikaciski zmylk.
-account-hub-addon-needed = { -brand-full-name } wot doma tutón serwer njepodpěruje. Zo by přistup k e-mejli Exchange měł, <a data-l10n-name="addon-install">instalujće přidatk třećeho poskićowarja kaž Owl (płaćomny).</a>

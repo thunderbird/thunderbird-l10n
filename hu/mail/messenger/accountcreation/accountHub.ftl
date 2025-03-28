@@ -122,9 +122,6 @@ account-hub-creating-account = Fiók létrehozása…
 account-hub-sync-accounts-found = A { -brand-short-name } néhány kapcsolódó szolgáltatást talált
 account-hub-sync-accounts-not-found = A { -brand-short-name } nem talált kapcsolódó szolgáltatásokat
 account-hub-sync-accounts-failure = A { -brand-short-name } nem tudott csatlakozni a kiválasztott szolgáltatásokhoz
-account-hub-sync-success = A Thunderbird néhány kapcsolódó szolgáltatást talált
-account-hub-sync-failure = A Thunderbird nem talált kapcsolódó szolgáltatásokat
-account-hub-unable-to-sync-accounts = A Thunderbird nem tudott kapcsolódni a kiválasztott szolgáltatásokhoz
 account-hub-email-added-success = Az e-mail-fiók sikeresen csatlakoztatva
 account-hub-config-test-success = A konfigurációs beállítások érvényesek
 account-hub-select-all = Összes kiválasztása
@@ -152,4 +149,3 @@ account-hub-addon-install-needed = A { -brand-short-name } natív módon nem tá
 account-hub-addon-error = A kiegészítő telepítése sikertelen. Próbálja újra, vagy forduljon segítségért a kiegészítő készítőjéhez.
 account-hub-security-warning = <span data-l10n-name="security-warning">Figyelmeztetés: Nem biztonságos levelezőkiszolgáló észlelve.</span> Ez a kiszolgáló nem rendelkezik titkosítással, így kikerül a jelszava és az adatai. Lépjen kapcsolatba a rendszergazdával a kapcsolat biztonságossá tételéhez, vagy folytassa saját felelősségre. <a data-l10n-name="faq-link">További információkért lásd a GYIK-et.</a>
 account-hub-account-authentication-error = Hitelesítési hiba.
-account-hub-addon-needed = A { -brand-full-name } natív módon nem támogatja ezt a kiszolgálót. Az Exchange levelezés eléréséhez <a data-l10n-name="addon-install">telepítsen egy harmadik féltől származó kiegészítőt, például az Owlt (fizetős).</a>

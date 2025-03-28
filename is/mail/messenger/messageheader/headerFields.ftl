@@ -101,8 +101,6 @@ message-ids-field-show-all = Birta allt
 
 ## Dark Message Mode
 
-dark-message-mode-disable-toggle =
-    .title = Gera dökkan ham skilaboða óvirkan
 dark-message-mode-toggle-enabled =
     .title = Gera dökkan ham skilaboða óvirkan
 dark-message-mode-toggle-disabled =
