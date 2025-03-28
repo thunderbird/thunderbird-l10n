@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Электрондық пошта ха
 webext-perms-description-messagesTags = Хабарлама тегтерін жасау, өзгерту және өшіру
 webext-perms-description-messagesTagsList = Хабарлама тегтерін тізіп шығару
 webext-perms-description-sensitiveDataUpload = Сезімтал пайдаланушы деректерін (егер рұқсат берілген болса) әрі қарай өңдеу үшін қашықтағы серверге тасымалдау
+webext-perms-description-messengerSettings = { -brand-short-name } баптауларын оқу

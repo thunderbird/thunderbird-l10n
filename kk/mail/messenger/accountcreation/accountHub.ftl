@@ -132,3 +132,4 @@ account-hub-no-address-books = Адрестік кітапшалар табыл�
 account-hub-no-calendars = Күнтізбелер табылмады
 account-hub-email-added-success-links-title = Қауіпсіздік пен жекелендіру опциялары туралы біліңіз:
 account-hub-signature-link = Электрондық пошта қолтаңбасы
+account-hub-account-authentication-error = Аутентификация қатесі.
