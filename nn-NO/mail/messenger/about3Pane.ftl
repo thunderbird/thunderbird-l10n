@@ -363,6 +363,11 @@ threadpane-column-header-id = Motteke-rekkjefølgje
     .title = Sorter etter: Mottaksrekkjefølgje
 threadpane-column-label-id =
     .label = Motteke-rekkjefølgje
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Rekkjefølgje mottatt
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Slett ei melding
 threadpane-column-label-delete =

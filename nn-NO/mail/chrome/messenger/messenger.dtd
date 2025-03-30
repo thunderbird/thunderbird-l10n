@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "r">
 <!ENTITY contextMoveMsgMenu.label "Flytt til">
 <!ENTITY contextMoveMsgMenu.accesskey "F">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Nylege destinasjonar">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "N">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Sist brukt">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "S">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favorittar">
