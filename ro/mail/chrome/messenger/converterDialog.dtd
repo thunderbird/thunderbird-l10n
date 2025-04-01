@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY converterDialog.title "Convertorul pentru tipul de stocare al mesajului">
 <!ENTITY converterDialog.continueButton "Continuă">
-<!ENTITY converterDialog.cancelButton "Renunță">
+<!ENTITY converterDialog.cancelButton "Anulează">
 <!ENTITY converterDialog.finishButton "Termină">
 <!ENTITY converterDialog.complete "Conversia a fost finalizată. &brandShortName; va reporni.">
 <!ENTITY converterDialog.error "Conversia a eșuat.">
