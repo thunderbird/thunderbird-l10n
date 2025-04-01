@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Mbrapsht
     .title = Mbrapsht
+calendar-dialog-date-row-icon =
+    .alt = Datë dhe kohë
+calendar-dialog-date-row-recurring-icon =
+    .alt = Ripërsëritës
