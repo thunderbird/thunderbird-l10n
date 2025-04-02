@@ -141,4 +141,6 @@ account-hub-port-error-text = Gáttarnúmer verður að vera á milli 1 og 65535
     .title = Gáttarnúmer verður að vera á milli 1 og 65535
 account-hub-username-error-text = Notandanafn er nauðsynlegt
     .title = Notandanafn er nauðsynlegt
+account-hub-oauth-pending = Bíður eftir auðkenningu í sérstökum innskráningarglugga...
+account-hub-addon-error = Uppsetning viðbótar mistókst. Reyndu aftur eða hafðu samband við höfund viðbótarinnar til að fá aðstoð.
 account-hub-account-authentication-error = Villa í auðkenningu.
