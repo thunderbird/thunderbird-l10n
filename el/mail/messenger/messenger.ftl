@@ -126,8 +126,8 @@ show-tags-folders-label =
     .label = Ετικέτες
     .accesskey = τ
 folder-toolbar-toggle-folder-compact-view =
-    .label = Συμπτυγμένη προβολή
-    .accesskey = Σ
+    .label = Πυκνή προβολή
+    .accesskey = Π
 
 ## File Menu
 
