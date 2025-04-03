@@ -59,7 +59,7 @@
 <!ENTITY renameFolder.label "Μετονομασία φακέλου…">
 <!ENTITY renameFolder.accesskey "Μ">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Σύμπτυξη φακέλων">
+<!ENTITY compactFolders.label "Συμπίεση φακέλων">
 <!ENTITY compactFolders.accesskey "φ">
 <!ENTITY emptyTrashCmd.label "Άδειασμα απορριμμάτων">
 <!ENTITY emptyTrashCmd.accesskey "δ">
@@ -133,7 +133,7 @@
 <!ENTITY favoriteFolders.accesskey "γ">
 <!ENTITY recentFolders.label "Πρόσφατοι">
 <!ENTITY recentFolders.accesskey "ρ">
-<!ENTITY compactVersion.label "Συμπτυγμένη προβολή">
+<!ENTITY compactVersion.label "Πυκνή προβολή">
 <!ENTITY compactVersion.accesskey "Σ">
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "Ταξινόμηση κατά">
@@ -499,7 +499,7 @@
 <!ENTITY mailViewsToolbarItem.title "Προβολές αλληλογραφίας">
 <!ENTITY folderLocationToolbarItem.title "Τοποθεσία φακέλου">
 <!ENTITY tagButton.label "Ετικέτα">
-<!ENTITY compactButton.label "Σύμπτυξη">
+<!ENTITY compactButton.label "Συμπίεση">
 <!ENTITY appmenuButton.label "AppMenu">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Σύνθετη αναζήτηση μηνυμάτων">
@@ -578,7 +578,7 @@
 <!ENTITY folderContextRename.accesskey "τ">
 <!ENTITY folderContextRemove.label "Διαγραφή">
 <!ENTITY folderContextRemove.accesskey "φ">
-<!ENTITY folderContextCompact.label "Σύμπτυξη">
+<!ENTITY folderContextCompact.label "Συμπίεση">
 <!ENTITY folderContextCompact.accesskey "Σ">
 <!ENTITY folderContextEmptyTrash.label "Άδειασμα απορριμμάτων">
 <!ENTITY folderContextEmptyTrash.accesskey "μ">
