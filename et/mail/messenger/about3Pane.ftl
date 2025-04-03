@@ -280,6 +280,11 @@ threadpane-column-header-location = Asukoht
     .title = Sordi asukoha järgi
 threadpane-column-label-location =
     .label = Asukoht
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Asukoht
+    .title = { $title }
 threadpane-column-header-id = Saabumise aeg
     .title = Sordi kättesaamise järgi
 threadpane-column-label-id =
@@ -288,6 +293,15 @@ threadpane-column-header-delete =
     .title = Kustuta kiri
 threadpane-column-label-delete =
     .label = Kustuta
+threadpane-cell-delete =
+    .aria-label = Kustuta
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } vastus
+       *[other] { $count } vastust
+    }
 
 ## Message state variations
 
@@ -339,6 +353,16 @@ apply-current-view-to-folder-message = Kas rakendada käesoleva kausta vaade kau
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Kas rakendada käesoleva kausta vaade kaustale { $name } ja selle alamkaustadele?
+message-list-placeholder-multiple-folders = Valitud on mitu kausta
 
 ## Folder pane context menu
 
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Märgi kaust loetuks
+           *[other] Märgi kaustad loetuks
+        }
+    .accesskey = M
