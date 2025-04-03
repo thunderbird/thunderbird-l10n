@@ -250,10 +250,20 @@ threadpane-column-header-tags = Sildid
     .title = Sordi siltide järgi
 threadpane-column-label-tags =
     .label = Sildid
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Sildid
+    .title = { $title }
 threadpane-column-header-account = Konto
     .title = Sordi kontode järgi
 threadpane-column-label-account =
     .label = Konto
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Konto
+    .title = { $title }
 threadpane-column-header-priority = Prioriteet
     .title = Sordi prioriteedi järgi
 threadpane-column-label-priority =

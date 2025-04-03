@@ -16,6 +16,7 @@ connection-error-time-out = Ühenduse ajalimiit ületati
 connection-error-invalid-username = { $username } pole lubatud kasutajanimi
 connection-error-invalid-password = Vigane serveri parool
 connection-error-password-required = Parool on nõutud
+connection-error-invalid-user-password = Sobimatu parool
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Kanal
@@ -209,7 +210,7 @@ error-not-channel-op = Sa pole kanali { $name } operaator.
 error-not-channel-owner = Sa pole kanali { $name } omanik.
 #    $name is the channel name.
 error-wrong-key = Kanaliga { $name } pole võimalik liituda, vale kanali parool.
-error-send-message-failed = Viimase sõnumi saatmisel esines viga. Palun proovi ühenduse taastamise järel uuesti.
+error-send-message-failed = Viimase sõnumi saatmisel esines viga. Palun proovi ühenduse taastumise järel uuesti.
 #    $name is the channel the user tried to join, $details is the channel
 #    he was forwarded to.
 error-channel-forward = Sul pole lubatud liituda kanaliga { $name } ja sind suunati automaatselt kanalile { $details }.
