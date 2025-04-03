@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Sündmused minevikus
 calendar-event-listing-interval-calendar-month =
     .label = Selle kuu sündmused
 calendar-event-listing-interval-current-view =
@@ -61,5 +63,15 @@ calendar-event-listing-interval-next-14-days =
     .label = Sündmused lähima 14 päeva jooksul
 calendar-event-listing-interval-next-31-days =
     .label = Sündmused lähima 31 päeva jooksul
+calendar-event-listing-interval-next-6-months =
+    .label = Sündmused järgmise 6 kuu jooksul
+calendar-event-listing-interval-next-12-months =
+    .label = Sündmused järgmise 12 kuu jooksul
+calendar-event-listing-interval-future =
+    .label = Kõik tulevased sündmused
+calendar-event-listing-interval-all =
+    .label = Kõik sündmused
 calendar-event-listing-interval-selected-day =
     .label = Valitud päeva sündmused
+calendar-event-listing-interval-today =
+    .label = Tänased sündmused

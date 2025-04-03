@@ -350,6 +350,7 @@ html-task-completed = { $task } (lõpetatud)
 # Categories
 add-category = Lisa kategooria
 multiple-categories = Mitu kategooriat
+no-categories = Puuduvad
 calendar-today = Täna
 calendar-tomorrow = Homme
 yesterday = Eile
@@ -463,6 +464,11 @@ single-long-calendar-week = { $index }. kalendrinädal
 #    $index will be replaced with the index of the week
 single-calendar-week = { $index }. nädal
     .title = { $index }. kalendrinädal
+# LOCALIZATION NOTE (several-long-calendar-weeks):
+# used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-long-calendar-weeks = Kalendrinädalad { $startIndex }-{ $endIndex }
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
@@ -571,6 +577,8 @@ unit-minutes =
         [one] { $count } minut
        *[other] { $count } minutit
     }
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
 # Variables:
 # $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
@@ -578,6 +586,8 @@ unit-hours =
         [one] { $count } tund
        *[other] { $count } tundi
     }
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
 # Variables:
 # $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
@@ -585,6 +595,8 @@ unit-days =
         [one] { $count } päev
        *[other] { $count } päeva
     }
+event-duration-menuitem-count-days =
+    .label = { unit-days }
 # Variables:
 # $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
@@ -592,6 +604,8 @@ unit-weeks =
         [one] { $count } nädal
        *[other] { $count } nädalat
     }
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name
