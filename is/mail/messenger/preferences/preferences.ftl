@@ -898,6 +898,7 @@ qr-export-more-accounts = Flytja út fleiri reikninga
 
 appearance-category-header = Útlit
 default-message-list-legend = Skilaboðalisti
+default-message-list-description = Skilgreindu sjálfgefna valkosti flokkunar- og umræðuþráða fyrir nýgerðar möppur.
 default-flag-label =
     .value = Sjálfgefin birting umræðu:
 default-flag-unthreaded =
@@ -962,3 +963,12 @@ apply-current-view-to-folder =
 apply-current-view-to-folder-children =
     .label = Möppu og undirmöppur…
 apply-changes-prompt-title = Virkja breytingar?
+apply-changes-prompt-message = Nota fyrirliggjandi stillingar umræðuþráða og flokkunar á allar möppur?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Nota fyrirliggjandi stillingar umræðuþráða og flokkunar á “{ $name }“?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Nota fyrirliggjandi stillingar umræðuþráða og flokkunar á “{ $name }“ og afleiður hennar?
+apply-current-view-error = Tekst ekki að virkja fyrirliggjandi skoðunarstillingar
+apply-current-view-success = Tókst að virkja fyrirliggjandi skoðunarstillingar
