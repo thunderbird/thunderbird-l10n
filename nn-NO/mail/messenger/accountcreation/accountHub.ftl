@@ -109,10 +109,19 @@ account-hub-creating-account = Opprettar konto…
 account-hub-email-added-success = E-postkonto tilkopla
 account-hub-select-all = Merk alle
 account-hub-deselect-all = Merk ingen
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { $count ->
+        [one] { $count } vald
+       *[other] { $count } valde
+    }
 account-hub-no-address-books = Fann ingen adressebøker
 account-hub-no-calendars = Fann ingen kalendrar
 account-hub-signature-link = E-postsignatur
 account-hub-email-error-text = Skriv inn ei gyldig e-postadresse.
 account-hub-name-error-text = Skriv inn eit namn
+account-hub-port-error-text = Portnummer må vere mellom 1 og 65535
+    .title = Portnummer må vere mellom 1 og 65535
 account-hub-username-error-text = Brukarnamn er påkravd
     .title = Brukarnamn er påkravd
+account-hub-account-authentication-error = Godkjenningsfeil.
