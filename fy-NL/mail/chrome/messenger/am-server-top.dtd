@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY messageStorage.label "Berjochteopslach">
+<!ENTITY messageStorage.label "Berjochteûnthâld">
 <!ENTITY securitySettings.label "Befeiligingsynstellingen">
 <!ENTITY serverSettings.label "Serverynstellingen">
 <!ENTITY serverType.label "Servertype:">
@@ -79,7 +79,7 @@
 <!ENTITY browseNewsrc.accesskey "e">
 <!ENTITY accountTitle.label "Accountynstellingen">
 <!ENTITY accountSettingsDesc.label "Dit is in spesjaal account. Der binne gjin identiteiten mei ferbûn.">
-<!ENTITY storeType.label "Type berjochteopslach:">
+<!ENTITY storeType.label "Type berjochteûnthâld:">
 <!ENTITY storeType.accesskey "T">
 <!ENTITY mboxStore2.label "Ien bestân per map (mbox)">
 <!ENTITY maildirStore.label "Ien bestân per berjocht (maildir)">

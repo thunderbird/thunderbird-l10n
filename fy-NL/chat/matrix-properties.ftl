@@ -20,7 +20,7 @@ options-backup-passphrase = Wachtwurdsin foar kaaireservekopy
 #   strings are combined with a pipe (|) between.
 options-encryption-enabled = Kryptografyske funksjes: { $status }
 # $status (String) a status
-options-encryption-secret-storage = Geheime opslach: { $status }
+options-encryption-secret-storage = Geheim ûnthâld: { $status }
 # $status (String) a status
 options-encryption-key-backup = Fersiferingskaaireservekopy : { $status }
 # $status (String) a status
@@ -28,7 +28,7 @@ options-encryption-cross-signing = Krúslingse ûndertekening: { $status }
 options-encryption-status-ok = OK
 options-encryption-status-not-ok = Net klear
 options-encryption-need-backup-passphrase = Fier jo wachtwurdsin foar de kaaireservekopy yn de protokolopsjes yn.
-options-encryption-set-up-secret-storage = Gebrûk om geheime opslach yn te stellen in oare client en fier efterôf de oanmakke wachtwurdsin foar de kaaireservekopy yn yn it ljepblêd ‘Algemien’.
+options-encryption-set-up-secret-storage = Gebrûk om geheim ûnthâld yn te stellen in oare client en fier efterôf de oanmakke wachtwurdsin foar de kaaireservekopy yn yn it ljepblêd ‘Algemien’.
 options-encryption-set-up-backup-and-cross-signing = Fier om fersiferingskaaireservekopyën en krúslingse ûndertekening te aktivearjen jo wachtwurdsin foar de kaaireservekopy yn yn it ljepblêd ‘Algemien’ of ferifiearje de identiteit yn ien fan de ûndersteande sesjes.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
