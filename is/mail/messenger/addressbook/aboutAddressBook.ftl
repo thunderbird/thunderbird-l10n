@@ -89,7 +89,7 @@ about-addressbook-sort-email-ascending =
 about-addressbook-sort-email-descending =
     .label = Raða eftir tölvupóstfangi (Ö > A)
 about-addressbook-table-layout =
-    .label = Frametning töflu
+    .label = Framsetning töflu
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
