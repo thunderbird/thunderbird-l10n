@@ -104,6 +104,18 @@ quick-filter-bar-results =
         [one] { $count } kiri
        *[other] { $count } kirja
     }
+quick-filter-bar-search2 =
+    .label = Filtreeri kirju
+quick-filter-bar-searching =
+    .title = Otsimine...
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = Filtreeri kirju… { quick-filter-bar-search-shortcut }
+# Label of the search button in the quick filter bar text box. Clicking it will
+# launch a global search.
+quick-filter-bar-search-button =
+    .alt = Otsi kõikjalt
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Siltide filtreerimise režiim
@@ -155,6 +167,11 @@ folder-pane-more-menu-button =
     .title = Kaustade paneeli sätted
 folder-pane-header-context-hide =
     .label = Peida kaustade paneeli päis
+folder-pane-show-total-toggle =
+    .label = Kuva kirjade koguarv
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Kuva kausta suurus
 folder-pane-header-hide-local-folders =
     .label = Peida kohalikud kaustad
 folder-pane-mode-context-toggle-compact-mode =
@@ -189,39 +206,61 @@ threadpane-column-header-deselect-all =
     .title = Tühista kirjade valik
 threadpane-column-label-select =
     .label = Vali kõik kirjad
+threadpane-cell-select =
+    .aria-label = Vali kiri
 threadpane-column-header-thread =
     .title = Kuva kirju lõimedena
 threadpane-column-label-thread =
     .label = Lõim
+threadpane-cell-thread =
+    .aria-label = Lõime olek
 threadpane-column-header-flagged =
     .title = Sordi tähistuse järgi
 threadpane-column-label-flagged =
     .label = Tähistatus
+threadpane-cell-flagged =
+    .aria-label = Tähistatud
 threadpane-flagged-cell-label = Tähistatud
 threadpane-column-header-attachments =
     .title = Sordi manuste järgi
 threadpane-column-label-attachments =
     .label = Manused
+threadpane-cell-attachments =
+    .aria-label = Manused
 threadpane-attachments-cell-label = Manused
 threadpane-column-header-spam =
     .title = Sordi rämpspostiks olemise järgi
 threadpane-column-label-spam =
     .label = Rämpspost
+threadpane-cell-spam =
+    .aria-label = Rämpsposti olek
 threadpane-spam-cell-label = Rämpspost
 threadpane-column-header-unread-button =
     .title = Sordi loetuse järgi
 threadpane-column-label-unread-button =
     .label = Loetus
+threadpane-cell-read-status =
+    .aria-label = Loetus
 threadpane-read-cell-label = Loetud
 threadpane-unread-cell-label = Lugemata
 threadpane-column-header-sender = Saatja
     .title = Sordi saatja järgi
 threadpane-column-label-sender =
     .label = Saatja
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = Saatja
+    .title = { $title }
 threadpane-column-header-recipient = Saaja
     .title = Sordi adressaadi järgi
 threadpane-column-label-recipient =
     .label = Saaja
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Saaja
+    .title = { $title }
 threadpane-column-header-correspondents = Kirjavahetajad
     .title = Sordi kirjavahetajate järgi
 threadpane-column-label-correspondents =
@@ -230,22 +269,47 @@ threadpane-column-header-subject = Teema
     .title = Sordi teema järgi
 threadpane-column-label-subject =
     .label = Teema
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Teema
+    .title = { $title }
 threadpane-column-header-date = Kuupäev
     .title = Sordi kuupäeva järgi
 threadpane-column-label-date =
     .label = Kuupäev
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Kuupäev
+    .title = { $title }
 threadpane-column-header-received = Saabunud
     .title = Sordi saabumise aja järgi
 threadpane-column-label-received =
     .label = Saabunud
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Saabumise aeg
+    .title = { $title }
 threadpane-column-header-status = Olek
     .title = Sordi oleku järgi
 threadpane-column-label-status =
     .label = Olek
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Olek
+    .title = { $title }
 threadpane-column-header-size = Suurus
     .title = Sordi suuruse järgi
 threadpane-column-label-size =
     .label = Suurus
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Suurus
+    .title = { $title }
 threadpane-column-header-tags = Sildid
     .title = Sordi siltide järgi
 threadpane-column-label-tags =

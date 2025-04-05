@@ -23,9 +23,50 @@ account-hub-donate = Annetamine
 
 ## Email page
 
+account-hub-email-stop-button = Lõpeta
+account-hub-email-back-button = Tagasi
+account-hub-email-retest-button = Kontrolli häälestust uuesti
+account-hub-email-finish-button = Lõpeta
+account-hub-email-manually-configure-button = Seadista käsitsi
+account-hub-email-continue-button = Jätka
+account-hub-email-confirm-button = Kinnita
+account-hub-incoming-server-legend = Vastuvõttev server
+account-hub-outgoing-server-legend = Saatev server
+account-hub-result-incoming-server-legend = Sisenev server
+    .title = Sisenev server
+account-hub-result-outgoing-server-legend = Väljuv server
+    .title = Väljuv server
+account-hub-protocol-label = Protokoll
+account-hub-hostname-label = Serveri aadress
+account-hub-result-hostname-label = Serveri aadress
+    .title = Serveri aadress
+account-hub-result-authentication-label = Autentimine
+    .title = Autentimine
+account-hub-port-label = Port
+    .title = Automaatse tuvastamise jaoks määra pordi numbriks 0
+account-hub-auto-description = { -brand-short-name } üritab automaatselt tuvastada tühjaks jäetud välju.
+account-hub-ssl-label = Ühenduse turvalisus
 
 ## Incoming/Outgoing SSL Authentication options
 
+account-hub-ssl-autodetect-option =
+    .label = Automaatne tuvastamine
+account-hub-ssl-no-authentication-option =
+    .label = Autentimine puudub
+account-hub-ssl-cleartext-password-option =
+    .label = Tavaline parool
+account-hub-ssl-encrypted-password-option =
+    .label = Krüpteeritud parool
 
 ## Incoming/Outgoing SSL options
 
+account-hub-ssl-noencryption-option =
+    .label = Puudub
+account-hub-auth-no-authentication-option =
+    .label = Autentimine puudub
+account-hub-auth-label = Autentimise meetod
+account-hub-username-label = Kasutajanimi
+account-hub-result-username-label = Kasutajanimi
+    .title = Kasutajanimi
+account-hub-name-label = Täisnimi
+    .accesskey = T
