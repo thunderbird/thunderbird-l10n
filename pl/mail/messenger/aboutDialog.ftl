@@ -51,7 +51,7 @@ aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Sprawdzenie dostępności aktualizacji się nie powiodło.
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> jest <a data-l10n-name="community-exp-credits-link">globalną społecznością</a>, starającą się zapewnić, by Internet pozostał otwarty, publiczny i dostępny dla wszystkich.
 community-desc = Program { -brand-short-name } został opracowany przez <a data-l10n-name="community-mozilla-link">organizację { -vendor-short-name }</a>, która jest <a data-l10n-name="community-credits-link">globalną społecznością</a>, starającą się zapewnić, by Internet pozostał otwarty, publiczny i dostępny dla wszystkich.
-about-donation = Chcesz pomóc? <a data-l10n-name="helpus-donate-link">Przekaż datek</a> or <a data-l10n-name="helpus-get-involved-link">dołącz do nas</a>
+about-donation = Chcesz pomóc? <a data-l10n-name="helpus-donate-link">Przekaż datek</a> lub <a data-l10n-name="helpus-get-involved-link">dołącz do nas</a>.
 bottom-links-license = Informacje licencyjne
 bottom-links-rights = Prawa użytkownika
 bottom-links-privacy = Zasady ochrony prywatności
