@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = 删除
     .tooltiptext = 删除
+multi-message-undelete-button =
+    .label = 恢复
+    .tooltiptext = 恢复

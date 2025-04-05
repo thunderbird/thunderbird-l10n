@@ -260,6 +260,9 @@ message-header-msg-flagged =
 message-header-delete =
     .label = 删除
     .tooltiptext = 删除此邮件
+message-header-undelete =
+    .label = 恢复
+    .tooltiptext = 恢复此邮件
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
