@@ -356,7 +356,7 @@ yesterday = 昨天
 events-only = 事件
 events-and-tasks = 事件和任务
 tasks-only = 任务
-short-calendar-week = CW
+short-calendar-week = 日历周
 calendar-go = 转到
 # Some languages have different conjugations of 'next' and 'last'.  If yours
 # does not, simply repeat the value.  This will be used with day names, as in
@@ -452,8 +452,8 @@ single-long-calendar-week = 日历周： { $index }
 # LOCALIZATION NOTE (single-calendar-week):
 # used for display of calendar weeks in short form like 'CW 43'
 #    $index will be replaced with the index of the week
-single-calendar-week = CW: { $index }
-    .title = 日历周： { $index }
+single-calendar-week = 日历周：{ $index }
+    .title = 日历周：{ $index }
 # LOCALIZATION NOTE (several-long-calendar-weeks):
 # used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
@@ -463,7 +463,7 @@ several-long-calendar-weeks = 日历周 { $startIndex }-{ $endIndex }
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
 #    $endIndex will be replaced with the index of the end-week
-several-calendar-weeks = CWs: { $startIndex }-{ $endIndex }
+several-calendar-weeks = 日历周：{ $startIndex }-{ $endIndex }
     .title = 日历周 { $startIndex }-{ $endIndex }
 # LOCALIZATION NOTE (multiweek-view-week):
 # Used for displaying the week number in the first day box of every week
