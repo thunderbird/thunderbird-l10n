@@ -23,7 +23,7 @@ update-unsupported = Nie można dokonać dalszych aktualizacji na tym systemie. 
 update-restarting = Ponowne uruchamianie…
 # Variables:
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
-channel-description = Obecnie korzystasz z kanału aktualizacji <span data-l10n-name="current-channel">{ $channel }</span> .
+channel-description = Obecnie korzystasz z kanału aktualizacji <span data-l10n-name="current-channel">{ $channel }</span>.
 warning-desc-version = Program { -brand-short-name } jest wersją rozwojową i może być niestabilny.
 warning-desc-telemetry = Dane o wydajności, wykorzystaniu, modyfikacjach oraz o sprzęcie, na którym działa, są wysyłane do organizacji { -vendor-short-name }, aby ulepszać program { -brand-short-name }.
 # Example of resulting string: 66.0.1 (64-bit)
