@@ -8,3 +8,7 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Atrás
     .title = Atrás
+calendar-dialog-date-row-icon =
+    .alt = Fecha y hora
+calendar-dialog-date-row-recurring-icon =
+    .alt = Periódico
