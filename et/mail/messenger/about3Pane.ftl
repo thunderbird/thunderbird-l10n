@@ -332,14 +332,29 @@ threadpane-column-header-priority = Prioriteet
     .title = Sordi prioriteedi järgi
 threadpane-column-label-priority =
     .label = Prioriteet
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Tähtsus
+    .title = { $title }
 threadpane-column-header-unread = Lugemata
     .title = Lugemata kirjade arv lõimes
 threadpane-column-label-unread =
     .label = Lugemata
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Lugemata kirjade arv
+    .title = { $title }
 threadpane-column-header-total = Kokku
     .title = Lõimes olevate kirjade koguarv
 threadpane-column-label-total =
     .label = Kokku
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Kirjade koguarv
+    .title = { $title }
 threadpane-column-header-location = Asukoht
     .title = Sordi asukoha järgi
 threadpane-column-label-location =
