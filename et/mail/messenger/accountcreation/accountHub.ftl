@@ -11,6 +11,7 @@
 
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = Tere tulemast <span data-l10n-name="brand-name">{ -brand-full-name }i</span>
+account-hub-title = Kontokeskus
 
 ## Footer
 
@@ -20,6 +21,12 @@ account-hub-donate = Annetamine
 
 ## Initial setup page
 
+account-hub-email-setup-button = E-postikonto
+    .title = Lisa e-postikonto
+account-hub-chat-setup-button = Kiirsuhtlus
+    .title = Lisa kiirsuhtluskonto
+account-hub-feed-setup-button = RSS-voog
+    .title = Seadista RSS-voo konto
 
 ## Email page
 

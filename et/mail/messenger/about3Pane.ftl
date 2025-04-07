@@ -368,6 +368,11 @@ threadpane-column-header-id = Saabumise aeg
     .title = Sordi kättesaamise järgi
 threadpane-column-label-id =
     .label = Saabumise aeg
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Saabumise järjekord
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Kustuta kiri
 threadpane-column-label-delete =
@@ -432,6 +437,14 @@ apply-current-view-to-folder-message = Kas rakendada käesoleva kausta vaade kau
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Kas rakendada käesoleva kausta vaade kaustale { $name } ja selle alamkaustadele?
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> kiri
+       *[other] <span>{ $total }</span> kirja
+    }
+message-list-placeholder-no-messages = Ei leidnud kirju
 message-list-placeholder-multiple-folders = Valitud on mitu kausta
 
 ## Folder pane context menu
