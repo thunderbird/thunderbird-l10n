@@ -10,7 +10,7 @@
 <!ENTITY clearTimeDuration.accesskey "T">
 <!ENTITY clearTimeDuration.lastHour "过去一小时">
 <!ENTITY clearTimeDuration.last2Hours "过去两小时">
-<!ENTITY clearTimeDuration.last4Hours "最近四小时">
+<!ENTITY clearTimeDuration.last4Hours "过去四小时">
 <!ENTITY clearTimeDuration.today "今天">
 <!ENTITY clearTimeDuration.everything "全部">
 <!-- Localization note (clearTimeDuration.suffix) - trailing entity for languages
