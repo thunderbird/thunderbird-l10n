@@ -27,9 +27,18 @@ account-hub-chat-setup-button = Kiirsuhtlus
     .title = Lisa kiirsuhtluskonto
 account-hub-feed-setup-button = RSS-voog
     .title = Seadista RSS-voo konto
+account-hub-newsgroup-setup-button = Uudistegrupp
+    .title = Seadista uudistegrupi konto
+account-hub-import-setup-button = Impordi
+    .title = Impordi varundatud profiil
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Logi Synci sisse…
 
 ## Email page
 
+account-hub-add-email-title = Lisa oma konto
+account-hub-manually-configure-email-title = Seadista konto häälestus
+account-hub-email-cancel-button = Tühista
 account-hub-email-stop-button = Lõpeta
 account-hub-email-back-button = Tagasi
 account-hub-email-retest-button = Kontrolli häälestust uuesti
@@ -92,3 +101,23 @@ account-hub-email-config-found = Vali e-posti konto tüüp
 account-hub-email-enter-password = Sisesta e-posti konto parool
 account-hub-email-sync-accounts = Sünkrooni kalendreid ja aadressiraamatuid
 account-hub-test-configuration = Testi
+account-hub-result-imap-description = Hoia kaustad ja kirjad serveris sünkroonituna
+account-hub-result-pop-description = Hoia kaustu ja e-posti oma arvutis
+account-hub-result-ews-shortname = Exchange
+account-hub-result-ews-description = Kasuta kaustade ja kirjase sünkroonimiseks Microsoft Exchange'i veebiteenuseid
+account-hub-result-ews-text = Server
+account-hub-result-recommended-label = Soovitatud
+account-hub-edit-configuration = Häälestuse muutmine
+account-hub-select-all = Vali kõik
+account-hub-deselect-all = Tühista valikud
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { $count ->
+        [one] { $count } valitud
+       *[other] { $count } valitud
+    }
+account-hub-name-error-text = Palun sisesta nimi
+account-hub-port-error-text = Port peab olema vahemikus 1 kuni 65535
+    .title = Port peab olema vahemikus 1 kuni 65535
+account-hub-username-error-text = Kasutajanimi on nõutud
+    .title = Kasutajanimi on nõutud

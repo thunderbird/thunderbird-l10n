@@ -7,6 +7,7 @@ open-addons-sidebar-button = Lisad ja teemad
 account-action-add-newsgroup-account =
     .label = Lisa uudistegruppide konto
     .accesskey = u
+account-tree-create-account-button = Uus konto
 server-change-restart-required = Serveri või kasutajanime muudatuse rakendumiseks on vaja taaskäivitada.
 edit-vcard-dialog-accept-button = Salvesta
     .accesskey = S
