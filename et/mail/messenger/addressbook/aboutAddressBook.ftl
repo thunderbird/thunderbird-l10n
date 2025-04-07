@@ -12,9 +12,17 @@ about-addressbook-toolbar-add-carddav-address-book =
     .label = Lisa CardDAVi aadressiraamat
 about-addressbook-toolbar-add-ldap-address-book =
     .label = Lisa LDAPi aadressiraamat
+books-pane-create-contact-button = Uus kontakt
+    .title = Loo uus kontakt
+books-pane-create-book-button =
+    .title = Loo uus aadressiraamat
+books-pane-import-button = Impordi
+    .title = Impordi aadressiraamatud
 
 ## Books
 
+all-address-books-row =
+    .title = Kõik aadressiraamatud
 all-address-books = Kõik aadressiraamatud
 about-addressbook-books-context-properties =
     .label = Omadused
