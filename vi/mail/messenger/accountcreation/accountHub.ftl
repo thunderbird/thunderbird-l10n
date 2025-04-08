@@ -144,3 +144,4 @@ account-hub-oauth-pending = Đang chờ xác thực trong cửa sổ bật lên 
 account-hub-addon-install-needed = { -brand-short-name } không hỗ trợ máy chủ này một cách tự nhiên. Để truy cập email Exchange, <a data-l10n-name="addon-install"> cài đặt tiện ích của bên thứ ba như Owl (trả phí).</a>
 account-hub-addon-error = Cài đặt tiện ích không thành công. Vui lòng thử lại hoặc liên hệ với tác giả tiện ích để được hỗ trợ.
 account-hub-security-warning = <span data-l10n-name="security-warning">Cảnh báo: Phát hiện máy chủ thư không an toàn.</span> Máy chủ này không có mã hóa, làm lộ mật khẩu và dữ liệu của bạn. Liên hệ với quản trị viên của bạn để bảo mật kết nối hoặc tự chịu rủi ro. <a data-l10n-name="faq-link">Xem câu hỏi thường gặp để biết thêm.</a>
+account-hub-account-authentication-error = Lỗi khi xác thực.
