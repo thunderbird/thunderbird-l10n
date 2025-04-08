@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = Datum a čas
 calendar-dialog-date-row-recurring-icon =
     .alt = Wospjetowanje
+calendar-dialog-location-row-icon =
+    .alt = Městno

@@ -434,6 +434,7 @@ dark-message-mode-legend = Stil powěsćoweho čitaka
 dark-message-mode-checkbox-label =
     .label = Ćmowy powěsćowy modus zmóžnić
     .accesskey = m
+dark-message-mode-description = Wobłuk powěsćow nuzować, ćmowym drastam slědować
 dark-message-mode-checkbox-description = Eksperimentelna funkcija, zo by so wobłuk powěsćow ćmowym drastam přiměrił
 dark-message-mode-toggle-label =
     .label = Přepinak za ćmowy powěsćowy modus pokazać
