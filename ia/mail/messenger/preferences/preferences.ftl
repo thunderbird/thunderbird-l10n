@@ -434,6 +434,7 @@ dark-message-mode-legend = Stilo pro le lectura de messages
 dark-message-mode-checkbox-label =
     .label = Activar le modo obscur pro le messages
     .accesskey = o
+dark-message-mode-description = Fortiar le corpore del message pro sequer themas obscur
 dark-message-mode-checkbox-description = Functionalitate experimental proque le pannello de messages seque le themas obscur
 dark-message-mode-toggle-label =
     .label = Monstrar commutator de modo obscur del messages
