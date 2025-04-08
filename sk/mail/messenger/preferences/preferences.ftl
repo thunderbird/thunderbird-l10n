@@ -434,6 +434,7 @@ dark-message-mode-legend = Štýl čítačky správ
 dark-message-mode-checkbox-label =
     .label = Povoliť tmavý režim pre správy
     .accesskey = m
+dark-message-mode-description = Telo správy musí akceptovať tmavé témy
 dark-message-mode-checkbox-description = Experimentálna funkcia, vďaka ktorej sa telo správy prispôsobí tmavému režimu
 dark-message-mode-toggle-label =
     .label = Zobrazovať prepínač tmavého režimu pre správy
