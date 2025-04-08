@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = Ημερομηνία και ώρα
 calendar-dialog-date-row-recurring-icon =
     .alt = Επανάληψη
+calendar-dialog-location-row-icon =
+    .alt = Τοποθεσία
