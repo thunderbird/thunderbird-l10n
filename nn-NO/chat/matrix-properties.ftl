@@ -28,6 +28,7 @@ options-encryption-cross-signing = Krysssignering: { $status }
 options-encryption-status-ok = OK
 options-encryption-status-not-ok = ikkje klar
 options-encryption-need-backup-passphrase = Skriv inn passordfrasen for backupnøkkelen i protokollinnstillingeane.
+options-encryption-set-up-secret-storage = For å setje opp hemmeleg lagring, bruk ein annan klient og skriv deretter inn passordfrasen for sikkerheitskopi-nøkkelen i «Generelt»-fana.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
