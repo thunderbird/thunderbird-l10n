@@ -55,6 +55,7 @@ policy-ExtensionSettings = Alle Einstellungen für die Erweiterungsinstallation 
 policy-ExtensionUpdate = Automatische Add-on-Updates aktivieren oder deaktivieren
 policy-Handlers = Standardanwendungen für das Öffnen von Dateien, Protokollen und MIME-Typen festlegen
 policy-HardwareAcceleration = Hardwarebeschleunigung deaktiviert, falls false
+policy-InAppNotification = Benachrichtigungstypen aktivieren oder deaktivieren.
 policy-InstallAddonsPermission = Add-on-Installation von festgelegten Websites erlauben
 policy-LegacyProfiles = Erzwingen eines eigenen Profils für jede Installation deaktivieren
 

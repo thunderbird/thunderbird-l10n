@@ -434,6 +434,7 @@ dark-message-mode-legend = Stil des Nachrichtenlesers
 dark-message-mode-checkbox-label =
     .label = Dunklen Nachrichtenmodus aktivieren
     .accesskey = d
+dark-message-mode-description = Beim Nachrichtentext unbedingt dunkle Themes verwenden
 dark-message-mode-checkbox-description = Experimentelle Funktion, damit sich der Nachrichtenbereich an dunklen Themes orientiert
 dark-message-mode-toggle-label =
     .label = Umschalter für dunkle Nachrichten anzeigen
