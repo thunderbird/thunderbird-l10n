@@ -434,6 +434,7 @@ dark-message-mode-legend = Arddull darllenydd neges
 dark-message-mode-checkbox-label =
     .label = Galluogi modd neges tywyll
     .accesskey = G
+dark-message-mode-description = Gorfodi corff y neges i ddilyn themâu tywyll
 dark-message-mode-checkbox-description = Nodwedd arbrofol i wneud i gorff y neges ddilyn themâu tywyll
 dark-message-mode-toggle-label =
     .label = Dangos togl modd neges tywyll

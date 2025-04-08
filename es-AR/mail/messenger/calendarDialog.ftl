@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = Fecha y hora
 calendar-dialog-date-row-recurring-icon =
     .alt = Periódico
+calendar-dialog-location-row-icon =
+    .alt = Ubicación

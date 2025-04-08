@@ -434,6 +434,7 @@ dark-message-mode-legend = 訊息閱讀器樣式
 dark-message-mode-checkbox-label =
     .label = 開啟暗色訊息模式
     .accesskey = d
+dark-message-mode-description = 強制訊息內容使用暗色佈景主題
 dark-message-mode-checkbox-description = 讓訊息內容可依照暗色佈景主題顯示的實驗性功能
 dark-message-mode-toggle-label =
     .label = 顯示暗色訊息模式開關

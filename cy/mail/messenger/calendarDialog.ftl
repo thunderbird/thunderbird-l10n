@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = Dyddiad ac amser
 calendar-dialog-date-row-recurring-icon =
     .alt = Yn ailadrodd
+calendar-dialog-location-row-icon =
+    .alt = Lleoliad

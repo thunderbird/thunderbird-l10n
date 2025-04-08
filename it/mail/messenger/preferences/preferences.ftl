@@ -434,6 +434,7 @@ dark-message-mode-legend = Stile per la lettura dei messaggi
 dark-message-mode-checkbox-label =
     .label = Attiva la modalità messaggi scuri
     .accesskey = A
+dark-message-mode-description = Forza il corpo del messaggio a seguire temi scuri
 dark-message-mode-checkbox-description = Funzionalità sperimentale per adattare il corpo del messaggio a temi scuri
 dark-message-mode-toggle-label =
     .label = Mostra controllo per la modalità messaggi scuri

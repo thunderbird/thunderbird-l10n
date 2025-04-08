@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = Datum en tijd
 calendar-dialog-date-row-recurring-icon =
     .alt = Periodiek
+calendar-dialog-location-row-icon =
+    .alt = Locatie

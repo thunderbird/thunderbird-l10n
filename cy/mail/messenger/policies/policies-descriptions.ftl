@@ -55,6 +55,7 @@ policy-ExtensionSettings = Rheoli pob agwedd ar osod estyniad.
 policy-ExtensionUpdate = Galluogi neu analluogi diweddariadau awtomatig estyniad.
 policy-Handlers = Ffurfweddu trinwyr rhaglenni rhagosodedig.
 policy-HardwareAcceleration = Os false, diffoddwch gyflymder y caledwedd.
+policy-InAppNotification = Galluogi neu analluogi mathau o hysbysiadau.
 policy-InstallAddonsPermission = Caniatáu i wefannau penodol osod ychwanegion.
 policy-LegacyProfiles = Analluoga'r nodwedd gan orfodi proffil ar wahân ar gyfer pob gosodiad.
 
