@@ -55,6 +55,7 @@ policy-ExtensionSettings = Управляет всеми аспектами ус
 policy-ExtensionUpdate = Включает или отключает автоматические обновления расширений.
 policy-Handlers = Настраивает обработчики приложений по умолчанию.
 policy-HardwareAcceleration = Отключает аппаратное ускорение, если установлена в false.
+policy-InAppNotification = Включает или отключает типы уведомлений.
 policy-InstallAddonsPermission = Разрешает некоторым веб-сайтам устанавливать дополнения.
 policy-LegacyProfiles = Отключает функцию, которая принудительно создаёт отдельный профиль для каждой установки.
 

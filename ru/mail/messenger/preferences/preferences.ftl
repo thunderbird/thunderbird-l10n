@@ -434,6 +434,7 @@ dark-message-mode-legend = Стиль чтения сообщений
 dark-message-mode-checkbox-label =
     .label = Включить тёмный режим сообщений
     .accesskey = в
+dark-message-mode-description = Заставить тело сообщения следовать тёмным темам
 dark-message-mode-checkbox-description = Экспериментальная функция, позволяющая телу сообщения следовать тёмным темам
 dark-message-mode-toggle-label =
     .label = Показывать переключатель тёмного режима работы с сообщениями
