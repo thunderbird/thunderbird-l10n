@@ -55,6 +55,7 @@ policy-ExtensionSettings = Wšykne aspekty instalacije rozšyrjenja zastojaś.
 policy-ExtensionUpdate = Awtomatiske aktualizacije rozšyrjenjow zmóžniś abo znjemóžniś.
 policy-Handlers = Standardne nałožeńske pśeźěłaki konfigurěrowaś
 policy-HardwareAcceleration = Jolic false, hardwarowe póspěšenje wušaltowaś.
+policy-InAppNotification = Typy powěźeńkow zmóžniś abo znjemóžniś.
 policy-InstallAddonsPermission = Wěstym websedłam dowóliś, dodanki instalěrowaś.
 policy-LegacyProfiles = Funkciju znjemóžniś, kótaraž separatny profil za kuždu instalaciju wunuźijo.
 

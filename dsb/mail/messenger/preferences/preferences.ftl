@@ -434,6 +434,7 @@ dark-message-mode-legend = Stil powěsćowego cytaka
 dark-message-mode-checkbox-label =
     .label = Śamny powěsćowy modus zmóžniś
     .accesskey = m
+dark-message-mode-description = Wobceŕk powěsćow nuzkaś, śamnym drastwam slědowaś
 dark-message-mode-checkbox-description = Eksperimentelna funkcija, aby se wobceŕk powěsćow śamnym drastwam pśiměrił
 dark-message-mode-toggle-label =
     .label = Šalter za śamny powěsćowy modus pokazaś
