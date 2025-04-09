@@ -430,6 +430,7 @@ dark-message-mode-legend = Läsarstil för meddelanden
 dark-message-mode-checkbox-label =
     .label = Aktivera mörkt meddelandeläge
     .accesskey = m
+dark-message-mode-description = Tvinga meddelandetexten att följa mörka teman
 dark-message-mode-checkbox-description = Experimentell funktion för att få meddelandetexten att följa mörka teman
 dark-message-mode-toggle-label =
     .label = Visa växel för mörkt meddelandeläge

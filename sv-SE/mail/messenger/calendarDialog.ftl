@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = Datum och tid
 calendar-dialog-date-row-recurring-icon =
     .alt = Återkommande
+calendar-dialog-location-row-icon =
+    .alt = Plats

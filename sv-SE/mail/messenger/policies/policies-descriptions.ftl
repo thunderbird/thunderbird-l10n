@@ -55,6 +55,7 @@ policy-ExtensionSettings = Hantera alla aspekter av tilläggsinstallation.
 policy-ExtensionUpdate = Aktivera eller inaktivera automatiska tilläggsuppdateringar.
 policy-Handlers = Konfigurera standardprogramhanterare.
 policy-HardwareAcceleration = Om falsk, stängs hårdvaruacceleration av.
+policy-InAppNotification = Aktivera eller inaktivera aviseringstyper.
 policy-InstallAddonsPermission = Tillåt vissa webbplatser att installera tillägg.
 policy-LegacyProfiles = Inaktivera funktionen som framtvingar en separat profil för varje installation.
 
