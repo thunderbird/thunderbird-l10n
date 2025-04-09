@@ -434,6 +434,7 @@ dark-message-mode-legend = Slog bralnika sporočil
 dark-message-mode-checkbox-label =
     .label = Omogoči temen prikaz sporočil
     .accesskey = t
+dark-message-mode-description = Telesu sporočil vsili temno temo
 dark-message-mode-checkbox-description = Poskusna možnost, s katero se telo sporočil prilagodi nastavljenim temnim temam
 dark-message-mode-toggle-label =
     .label = Prikaži stikalo temnega prikaza sporočil
