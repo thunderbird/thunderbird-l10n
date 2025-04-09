@@ -180,6 +180,9 @@ about-addressbook-confirm-delete-contacts-title =
         [one] Kustuta kontakt
        *[other] Kustuta kontaktid
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Kas oled kindel, et soovid kontakti { $name } kustutada?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
@@ -192,6 +195,16 @@ about-addressbook-placeholder-no-search-results = Kontakte ei leitud
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } valitud kontakt
+       *[other] { $count } valitud kontakti
+    }
+about-addressbook-details-edit-photo =
+    .title = Muuda kontakti pilti
+about-addressbook-new-contact-header = Uus kontakt
 about-addressbook-write-action-button = Kirjuta
 about-addressbook-event-action-button = Sündmus
 about-addressbook-search-action-button = Otsi

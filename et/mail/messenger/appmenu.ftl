@@ -5,9 +5,35 @@
 
 ## Sync
 
+appmenu-signin-panel =
+    .label = Logi Synci sisse
+    .accesskey = L
+appmenu-sync-sync =
+    .value = Konto sünkroniseerimine
+    .accesskey = K
+appmenu-sync-manage =
+    .value = Halda kontot
+    .accesskey = H
+appmenu-sync-now =
+    .label = Sünkroniseeri kohe
+    .accesskey = k
+appmenu-sync-settings =
+    .label = Sünkroonimisseaded
+    .accesskey = S
+appmenu-sync-sign-out =
+    .label = Logi välja...
+    .accesskey = v
 
 ## New Account
 
+appmenu-new-account-panel-title =
+    .title = Uus konto
+appmenu-new-account-panel =
+    .label = Uus konto
+    .accesskey = U
+appmenu-new-email-account =
+    .label = E-post
+    .accesskey = E
 appmenu-new-calendar =
     .label = Kalender
     .accesskey = K
@@ -40,6 +66,17 @@ appmenu-new-ldap =
 
 ## Create
 
+appmenu-create-panel-title =
+    .title = Loo uus
+appmenu-create-panel =
+    .label = Loo uus
+    .accesskey = L
+appmenu-create-message =
+    .label = Kiri
+    .accesskey = K
+appmenu-create-event =
+    .label = Sündmus
+    .accesskey = S
 
 ## Open
 
