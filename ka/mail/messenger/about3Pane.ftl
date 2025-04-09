@@ -5,6 +5,8 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = სწრაფი გაფილტვრის ზოლის გადართვა
 thread-pane-header-context-cards-view =
     .label = საბარათო ხედი
 
