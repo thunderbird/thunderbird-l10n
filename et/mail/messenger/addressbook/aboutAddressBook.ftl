@@ -24,6 +24,9 @@ books-pane-import-button = Impordi
 all-address-books-row =
     .title = Kõik aadressiraamatud
 all-address-books = Kõik aadressiraamatud
+# Variables:
+# $count (Number) - The number of contacts in all address books.
+about-addressbook-card-count-all = Kontakte kõigis aadressiraamatutes: { $count }
 about-addressbook-books-context-properties =
     .label = Omadused
 about-addressbook-books-context-synchronize =
@@ -51,6 +54,11 @@ about-addressbook-confirm-remove-remote-book = Kas oled kindel, et soovid eemald
 
 ## Cards
 
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Otsi aadressiraamatust { $name }
+    .placeholder = Otsi aadressiraamatust { $name }…
 about-addressbook-sort-button2 =
     .title = Nimekirja kuvamise valikud
 about-addressbook-name-format-display =
@@ -75,6 +83,11 @@ about-addressbook-column-header-generatedname2 = Nimi
     .title = Sordi nime alusel
 about-addressbook-column-label-generatedname2 =
     .label = Nimi
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Nimi
+    .title = { $title }
 about-addressbook-column-header-emailaddresses2 = E-posti aadressid
     .title = Sordi e-posti aadresside alusel
 about-addressbook-column-label-emailaddresses2 =
@@ -83,6 +96,11 @@ about-addressbook-column-header-nickname2 = Hüüdnimi
     .title = Sordi hüüdnime alusel
 about-addressbook-column-label-nickname2 =
     .label = Hüüdnimi
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Hüüdnimi
+    .title = { $title }
 about-addressbook-column-header-phonenumbers2 = Telefoninumbrid
     .title = Sordi telefoninumbrite alisel
 about-addressbook-column-label-phonenumbers2 =
@@ -91,14 +109,38 @@ about-addressbook-column-header-addresses2 = Aadressid
     .title = Sordi aadresside alusel
 about-addressbook-column-label-addresses2 =
     .label = Aadressid
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Aadressid
+    .title = { $title }
+about-addressbook-column-header-title2 = Pealkiri
+    .title = Sorteeri pealkirja järgi
+about-addressbook-column-label-title2 =
+    .label = Pealkiri
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Amet
+    .title = { $title }
 about-addressbook-column-header-department2 = Osakond
     .title = Sordi osakonna alusel
 about-addressbook-column-label-department2 =
     .label = Osakond
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Osakond
+    .title = { $title }
 about-addressbook-column-header-organization2 = Asutus
     .title = Sordi asutuse alusel
 about-addressbook-column-label-organization2 =
     .label = Asutus
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Organisatsioon
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Aadressiraamat
     .title = Sordi aadressiraamatu alusel
 about-addressbook-column-label-addrbook2 =

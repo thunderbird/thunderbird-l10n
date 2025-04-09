@@ -101,6 +101,7 @@ account-hub-email-config-found = Vali e-posti konto tüüp
 account-hub-email-enter-password = Sisesta e-posti konto parool
 account-hub-email-sync-accounts = Sünkrooni kalendreid ja aadressiraamatuid
 account-hub-test-configuration = Testi
+account-hub-add-new-email = Lisa veel üks e-postiaadress
 account-hub-result-imap-description = Hoia kaustad ja kirjad serveris sünkroonituna
 account-hub-result-pop-description = Hoia kaustu ja e-posti oma arvutis
 account-hub-result-ews-shortname = Exchange
