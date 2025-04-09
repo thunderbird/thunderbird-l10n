@@ -77,9 +77,26 @@ appmenu-create-message =
 appmenu-create-event =
     .label = Sündmus
     .accesskey = S
+appmenu-create-task =
+    .label = Ülesanne
+    .accesskey = Ü
+appmenu-create-contact =
+    .label = Kontakt
+    .accesskey = K
 
 ## Open
 
+appmenu-open-file-panel =
+    .label = Ava failist
+    .accesskey = A
+appmenu-open-file-panel-title =
+    .title = Ava failist
+appmenu-open-message =
+    .label = Kiri…
+    .accesskey = K
+appmenu-open-calendar =
+    .label = Kalender…
+    .accesskey = a
 
 ## View / Layout
 
@@ -110,9 +127,80 @@ appmenuitem-font-size-reset =
 
 ## Tools
 
+appmenu-tools-panel-title =
+    .title = Tööriistad
+appmenu-tools-panel =
+    .label = Tööriistad
+    .accesskey = T
+appmenu-tools-import =
+    .label = Impordi
+    .accesskey = I
+appmenu-tools-export =
+    .label = Ekspordi
+    .accesskey = E
+appmenu-export-for-mobile =
+    .label = Ekspordi mobiili
+    .accesskey = m
+appmenu-tools-message-search =
+    .label = Otsi kirju
+    .accesskey = O
+appmenu-tools-message-filters =
+    .label = Kirjade filtrid
+    .accesskey = f
+appmenu-tools-download-manager =
+    .label = Allalaadimishaldur
+    .accesskey = A
+appmenu-tools-activity-manager =
+    .label = Tegevuste haldur
+    .accesskey = T
+appmenu-tools-dev-tools =
+    .label = Arendaja tööriistad
+    .accesskey = r
 
 ## Help
 
+appmenu-help-panel-title =
+    .title = Abi
+appmenu-help-get-help =
+    .label = Hangi abi
+    .accesskey = a
+appmenu-help-get-release-help =
+    .label = Hangi abi seoses { -brand-short-name }iga
+    .accesskey = H
+appmenu-help-shortcuts =
+    .label = Klaviatuuri otseteed
+    .accesskey = K
+appmenu-help-get-involved =
+    .label = Osale
+    .accesskey = O
+appmenu-help-donation =
+    .label = Anneta
+    .accesskey = A
+appmenu-help-share-feedback =
+    .label = Jaga ideesid ja tagasidet
+    .accesskey = J
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = Tõrkeotsingu režiim…
+    .accesskey = r
+appmenu-help-exit-troubleshoot-mode2 =
+    .label = Lülita tõrkeotsingu režiim välja
+    .accesskey = v
+appmenu-help-troubleshooting-info =
+    .label = Probleemide lahendamise teave
+    .accesskey = t
+appmenu-help-about-product =
+    .label = Teave { -brand-short-name }i kohta
+    .accesskey = k
 
 ## Application Update
 
+appmenuitem-banner-update-downloading =
+    .label = { -brand-shorter-name }i värskenduse allalaadimine
+appmenuitem-banner-update-available =
+    .label = Uuendus on saadaval — laadi kohe alla
+appmenuitem-banner-update-manual =
+    .label = Uuendus on saadaval — laadi kohe alla
+appmenuitem-banner-update-unsupported =
+    .label = Uuendamine pole võimalik — süsteem pole ühilduv
+appmenuitem-banner-update-restart =
+    .label = Uuendus on saadaval — taaskäivita kohe
