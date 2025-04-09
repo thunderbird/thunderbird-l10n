@@ -55,6 +55,7 @@ policy-ExtensionSettings = 管理扩展安装的所有方面。
 policy-ExtensionUpdate = 启用或禁用扩展自动更新。
 policy-Handlers = 配置默认应用程序处理方式。
 policy-HardwareAcceleration = 若为 false，将会关闭硬件加速。
+policy-InAppNotification = 启用或禁用通知类型。
 policy-InstallAddonsPermission = 允许特定网站安装附加组件。
 policy-LegacyProfiles = 禁用要求每个安装实例有不同用户配置文件的功能。
 

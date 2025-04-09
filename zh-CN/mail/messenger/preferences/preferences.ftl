@@ -434,6 +434,7 @@ dark-message-mode-legend = 邮件阅读器样式
 dark-message-mode-checkbox-label =
     .label = 启用邮件深色模式
     .accesskey = d
+dark-message-mode-description = 强制使邮件正文跟随深邃主题
 dark-message-mode-checkbox-description = 实验功能，使邮件正文配色跟随深邃主题
 dark-message-mode-toggle-label =
     .label = 显示邮件深色模式切换按钮

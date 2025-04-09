@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = 日期和时间
 calendar-dialog-date-row-recurring-icon =
     .alt = 重复发生
+calendar-dialog-location-row-icon =
+    .alt = 位置
