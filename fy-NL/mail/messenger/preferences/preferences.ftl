@@ -434,6 +434,7 @@ dark-message-mode-legend = Berjochtlêzerstyl
 dark-message-mode-checkbox-label =
     .label = Donkere berjochtmodus ynskeakelje
     .accesskey = D
+dark-message-mode-description = Berjochttekst twinge tsjustere tema’s te folgjen
 dark-message-mode-checkbox-description = Eksperimintele funksje om de berjochttekst donkere tema’s folgje te litten
 dark-message-mode-toggle-label =
     .label = Skeakeler donkere berjochtmodus toane
