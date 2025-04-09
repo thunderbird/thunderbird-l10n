@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = Datum in čas
 calendar-dialog-date-row-recurring-icon =
     .alt = Ponavljajoč
+calendar-dialog-location-row-icon =
+    .alt = Lokacija
