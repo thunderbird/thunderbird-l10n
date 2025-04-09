@@ -55,6 +55,7 @@ policy-ExtensionSettings = Alle aspecten van installatie van extensies beheren.
 policy-ExtensionUpdate = Automatische extensie-updates inschakelen of uitschakelen.
 policy-Handlers = Standaard toepassinghandlers configureren
 policy-HardwareAcceleration = Wanneer false, hardwareversnelling uitschakelen.
+policy-InAppNotification = Notificatietypen in- of uitschakelen.
 policy-InstallAddonsPermission = Toestaan dat bepaalde websites add-ons installeren.
 policy-LegacyProfiles = Functie om een afzonderlijk profiel voor elke installatie af te dwingen uitschakelen.
 

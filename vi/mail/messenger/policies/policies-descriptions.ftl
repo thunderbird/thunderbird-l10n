@@ -55,6 +55,7 @@ policy-ExtensionSettings = Quản lý các cài đặt cài đặt khác nhau ch
 policy-ExtensionUpdate = Bật hoặc tắt cập nhật tiện ích mở rộng tự động.
 policy-Handlers = Cấu hình trình xử lý ứng dụng mặc định.
 policy-HardwareAcceleration = Nếu sai, tắt tăng tốc phần cứng.
+policy-InAppNotification = Bật hoặc tắt loại thông báo.
 policy-InstallAddonsPermission = Cho phép các trang web nhất định để cài đặt tiện ích.
 policy-LegacyProfiles = Vô hiệu hóa tính năng thực thi một cấu hình riêng cho mỗi cài đặt.
 

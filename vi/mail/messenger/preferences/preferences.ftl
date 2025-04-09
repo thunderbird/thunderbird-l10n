@@ -434,6 +434,7 @@ dark-message-mode-legend = Kiểu trình đọc thư
 dark-message-mode-checkbox-label =
     .label = Bật chế độ tối cho thư
     .accesskey = d
+dark-message-mode-description = Buộc nội dung thư tuân theo chủ đề tối
 dark-message-mode-checkbox-description = Tính năng thử nghiệm để làm cho nội dung thư theo chủ đề tối
 dark-message-mode-toggle-label =
     .label = Hiển thị công tắc chế độ tối cho thư

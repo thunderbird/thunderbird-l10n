@@ -446,6 +446,7 @@ dark-message-mode-legend = Berichtlezerstijl
 dark-message-mode-checkbox-label =
     .label = Donkere berichtmodus inschakelen
     .accesskey = D
+dark-message-mode-description = Berichttekst dwingen donkere thema’s te volgen
 dark-message-mode-checkbox-description = Experimentele functie om de berichtentekst donkere thema’s te laten volgen
 dark-message-mode-toggle-label =
     .label = Schakelaar donkere berichtmodus tonen
