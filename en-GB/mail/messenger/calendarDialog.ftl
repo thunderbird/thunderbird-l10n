@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = Date and time
 calendar-dialog-date-row-recurring-icon =
     .alt = Recurring
+calendar-dialog-location-row-icon =
+    .alt = Location
