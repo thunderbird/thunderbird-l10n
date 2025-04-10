@@ -434,6 +434,7 @@ dark-message-mode-legend = Üzenetolvasó stílusa
 dark-message-mode-checkbox-label =
     .label = Sötét üzenetmód bekapcsolása
     .accesskey = S
+dark-message-mode-description = Az üzenettörzs kényszerítése, hogy kövesse a sötét témákat
 dark-message-mode-checkbox-description = Kísérleti funkció, hogy az üzenettörzs sötét témákat kövessen
 dark-message-mode-toggle-label =
     .label = Sötét üzenetmód kapcsolójának megjelenítése

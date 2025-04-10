@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = Dátum és idő
 calendar-dialog-date-row-recurring-icon =
     .alt = Ismétlődő
+calendar-dialog-location-row-icon =
+    .alt = Hely
