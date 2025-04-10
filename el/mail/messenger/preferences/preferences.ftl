@@ -430,6 +430,7 @@ dark-message-mode-legend = Στυλ ανάγνωσης μηνυμάτων
 dark-message-mode-checkbox-label =
     .label = Ενεργοποίηση της σκουρόχρωμης λειτουργίας μηνυμάτων
     .accesskey = γ
+dark-message-mode-description = Εξαναγκασμός του σώματος του μηνύματος ώστε να χρησιμοποιεί σκουρόχρωμα θέματα
 dark-message-mode-checkbox-description = Πειραματική λειτουργία που προσαρμόζει το σώμα των μηνυμάτων στα σκουρόχρωμα θέματα
 dark-message-mode-toggle-label =
     .label = Εμφάνιση διακόπτη για τη σκουρόχρωμη λειτουργία μηνυμάτων
