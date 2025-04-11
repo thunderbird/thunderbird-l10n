@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Mijenjati svojstva i oznake vaših por
 webext-perms-description-messagesTags = Stvorite, mijenjajte i brišite oznake poruka
 webext-perms-description-messagesTagsList = Popisati oznake poruka
 webext-perms-description-sensitiveDataUpload = Prijenos osjetljivih korisničkih podataka (ako je pristup odobren) na udaljeni poslužitelj radi daljnje obrade
+webext-perms-description-messengerSettings = Pročitajte { -brand-short-name } postavke

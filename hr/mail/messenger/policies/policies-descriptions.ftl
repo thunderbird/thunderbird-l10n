@@ -55,6 +55,7 @@ policy-ExtensionSettings = Upravljajte svim aspektima instalacije dodataka.
 policy-ExtensionUpdate = Omogući ili onemogući automatsko ažuriranje dodataka.
 policy-Handlers = Postavite zadane rukovatelje aplikacijama.
 policy-HardwareAcceleration = Ukoliko je postavljeno na netočno, isključuje hardversko ubrzanje.
+policy-InAppNotification = Omogućite ili onemogućite vrste obavijesti.
 policy-InstallAddonsPermission = Dopusti određenim stranicama za instaliraju dodatke.
 policy-LegacyProfiles = Deaktiviraj funkciju koja nameće zaseban profil za svaku instalaciju.
 

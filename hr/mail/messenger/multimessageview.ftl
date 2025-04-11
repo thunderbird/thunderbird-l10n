@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Obriši
     .tooltiptext = Obriši
+multi-message-undelete-button =
+    .label = Vrati obrisano
+    .tooltiptext = Vrati obrisano

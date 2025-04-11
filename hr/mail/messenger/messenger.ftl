@@ -276,6 +276,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Zvjezdica
     .aria-label = Zvjezdica
+message-header-delete =
+    .label = Obriši
+    .tooltiptext = Obriši ovu poruku
+message-header-undelete =
+    .label = Vrati obrisano
+    .tooltiptext = Vrati ovu poruku
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -476,3 +482,6 @@ quota-panel-percent-used = { $percent }% popunjeno
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Označi kao pročitano
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Ne čini ništa
