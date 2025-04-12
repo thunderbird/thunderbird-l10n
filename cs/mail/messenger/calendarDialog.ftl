@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = Datum a čas
 calendar-dialog-date-row-recurring-icon =
     .alt = Opakující se
+calendar-dialog-location-row-icon =
+    .alt = Umístění
