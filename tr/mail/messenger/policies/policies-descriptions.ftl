@@ -55,6 +55,7 @@ policy-ExtensionSettings = Uzantı kurulumunun tüm yönlerini yönet.
 policy-ExtensionUpdate = Otomatik uzantı güncellemelerini aç veya kapat.
 policy-Handlers = Varsayılan uygulama işleyicilerini yapılandır.
 policy-HardwareAcceleration = false ise donanım ivmelenmesini kapat.
+policy-InAppNotification = Bildirim türlerini etkinleştir veya devre dışı bırak.
 policy-InstallAddonsPermission = Belirli websitelerinin eklenti yüklemesine izin ver.
 policy-LegacyProfiles = Her kurulum için ayrı bir profil oluşturmayı zorunlu tutan özelliği devre dışı bırak.
 

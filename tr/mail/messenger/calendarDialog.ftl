@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = Tarih ve saat
 calendar-dialog-date-row-recurring-icon =
     .alt = Yinelenen
+calendar-dialog-location-row-icon =
+    .alt = Konum
