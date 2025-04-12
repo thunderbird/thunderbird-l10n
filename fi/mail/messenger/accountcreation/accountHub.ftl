@@ -148,3 +148,4 @@ account-hub-oauth-pending = Odotetaan valtuutusta kirjautumisikkunassa…
 account-hub-addon-install-needed = { -brand-short-name } ei tue  oletusarvoisesti tätä palvelinta. Voit käyttää Exchange-sähköpostia <a data-l10n-name="addon-install"> asentamalla kolmannen osapuolen lisäosan, kuten Owl (maksullinen).</a>
 account-hub-addon-error = Lisäosan asennus epäonnistui. Yritä uudelleen tai ota yhteyttä lisäosan tekijään saadaksesi apua.
 account-hub-security-warning = <span data-l10n-name="security-warning">Varoitus: Suojaamaton sähköpostipalvelin havaittu.</span> Palvelimelta puuttuu salaus, minkä vuoksi salasanasi ja tietosi paljastuvat. Ota yhteys järjestelmänvalvojaan turvataksesi yhteyden tai jatka omalla vastuullasi. <a data-l10n-name="faq-link">Lisätietoja on usein kysytyissä kysymyksissä.</a>
+account-hub-account-authentication-error = Todennusvirhe.

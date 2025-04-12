@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Poista
     .tooltiptext = Poista
+multi-message-undelete-button =
+    .label = Peru poistaminen
+    .tooltiptext = Peru poistaminen
