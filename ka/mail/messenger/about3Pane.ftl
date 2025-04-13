@@ -7,6 +7,7 @@
 
 quick-filter-button =
     .title = სწრაფი გაფილტვრის ზოლის გადართვა
+quick-filter-button-label = სწრაფი ფილტრი
 thread-pane-header-context-cards-view =
     .label = საბარათო ხედი
 
@@ -221,3 +222,12 @@ apply-current-columns-to-folder-with-children-message = გამოვიყე
 
 ## Folder pane context menu
 
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] მოინიშნოს საქაღალდე წაკითხულად
+           *[other] მოინიშნოს საქაღალდეები წაკითხულად
+        }
+    .accesskey = ო

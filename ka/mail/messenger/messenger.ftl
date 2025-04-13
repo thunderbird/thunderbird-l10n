@@ -147,6 +147,15 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = მონიშვნა წაკითხულად
+    .tooltiptext = მონიშვნა წაკითხულად
+context-menu-mark-unread =
+    .aria-label = მონიშვნა წასაკითხად
+    .tooltiptext = მონიშვნა წასაკითხად
+context-menu-mark-junk =
+    .aria-label = მონიშვნა ჯართად
+    .tooltiptext = მონიშვნა ჯართად
 context-menu-mark-not-junk =
     .aria-label = მოინიშნოს გამოსადეგად
     .tooltiptext = მოინიშნოს გამოსადეგად
@@ -325,3 +334,4 @@ quick-filter-bar-show =
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = მონიშვნა წაკითხულად

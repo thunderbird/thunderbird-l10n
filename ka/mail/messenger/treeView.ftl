@@ -7,3 +7,9 @@
 
 tree-list-view-column-picker =
     .title = სვეტების შერჩევა საჩვენებლად
+tree-list-view-row-spam =
+    .alt = ჯართის მიმდინარე მაჩვენებელი
+    .title = წერილი მონიშნულია ჯართად
+tree-list-view-row-not-spam =
+    .alt = ჯართის მიმდინარე მაჩვენებელი
+    .title = წერილი არაა მონიშნული ჯართად
