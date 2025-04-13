@@ -55,6 +55,7 @@ policy-ExtensionSettings = Administrar todos los aspectos de la instalación de 
 policy-ExtensionUpdate = Activar o desactivar actualizaciones automáticas de extensiones.
 policy-Handlers = Configurar gestores de aplicación predeterminados.
 policy-HardwareAcceleration = Si el valor es falso, desactivar la aceleración hardware.
+policy-InAppNotification = Activar o desactivar tipos de notificaciones.
 policy-InstallAddonsPermission = Permitir a ciertos sitios web instalar complementos.
 policy-LegacyProfiles = Disable the feature enforcing a separate profile for each installation.
 
