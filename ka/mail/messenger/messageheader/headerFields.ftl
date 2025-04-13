@@ -14,6 +14,8 @@ message-header-bcc-list-name = ფარული ასლი
 message-header-newsgroups-list-name = ჯგუფები
 message-header-tags-list-name = ჭდეები
 # List management header - RFC 2369.
+message-header-list-id = სია-ID
+# List management header - RFC 2369.
 message-header-list-help = დახმარება-სია
 
 ## Other message headers.
