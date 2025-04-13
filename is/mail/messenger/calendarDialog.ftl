@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = Dagsetning og tími
 calendar-dialog-date-row-recurring-icon =
     .alt = Endurtekið
+calendar-dialog-location-row-icon =
+    .alt = Staðsetning

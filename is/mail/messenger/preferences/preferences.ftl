@@ -434,6 +434,7 @@ dark-message-mode-legend = Stíll skilaboðalesara
 dark-message-mode-checkbox-label =
     .label = Virkja dökkan ham skilaboða
     .accesskey = d
+dark-message-mode-description = Þvinga meginmál skilaboðanna til að fylgja dökkum þemum
 dark-message-mode-checkbox-description = Tilraunaeiginleiki til að láta meginmál skilaboða fylgja dökkum þemum
 dark-message-mode-toggle-label =
     .label = Birta víxlhnapp fyrir dökkan ham skilaboða

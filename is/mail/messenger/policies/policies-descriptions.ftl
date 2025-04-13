@@ -55,6 +55,7 @@ policy-ExtensionSettings = Stjórnaðu öllum uppsetningarþáttum forritsauka.
 policy-ExtensionUpdate = Virkja eða slökkva á sjálfvirkri uppfærslu á viðbótum.
 policy-Handlers = Stilla meðhöndlun með sjálfgefnum forritum.
 policy-HardwareAcceleration = Ef ósatt, skal slökkva á vélbúnaðarhröðun.
+policy-InAppNotification = Virkja eða gera óvirkar mismunandi tegundir tilkynninga.
 policy-InstallAddonsPermission = Leyfa ákveðnum vefsvæðum að setja upp viðbætur.
 policy-LegacyProfiles = Slökkva á eiginleikanum sem framfylgir sérstöku notandasniði fyrir hverja uppsetningu.
 
