@@ -13,6 +13,7 @@ subject-checkbox =
 sender-checkbox =
     .label = Avsändare
     .accesskey = A
+enabled-actions-description = Åtgärder för meddelanden:
 
 ## Note: open-time-label-before is displayed first, then there's a field where
 ## the user can enter a number, and open-time-label-after is displayed at the end
