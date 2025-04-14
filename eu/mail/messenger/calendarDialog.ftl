@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = Eguna eta ordua
 calendar-dialog-date-row-recurring-icon =
     .alt = Errepikakorra
+calendar-dialog-location-row-icon =
+    .alt = Kokalekua

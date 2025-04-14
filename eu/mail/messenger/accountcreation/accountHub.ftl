@@ -147,3 +147,4 @@ account-hub-username-error-text = Erabiltzaile izena beharrezkoa da
 account-hub-oauth-pending = Baimenaren zain saioa hasteko leihoan...
 account-hub-addon-install-needed = { -brand-short-name }-k ez du jatorrizko zerbitzari hau onartzen. Exchange posta elektronikora sartzeko, <a data-l10n-name="addon-install"> instalatu Owl (ordainpekoa) bezalako hirugarrenen gehigarri bat.</a>
 account-hub-addon-error = Gehigarriaren instalazioak huts egin du. Mesedez, saiatu berriro edo jarri harremanetan gehigarriaren egilearekin laguntza eskatzeko.
+account-hub-account-authentication-error = Errorea autentifikatzean.
