@@ -475,5 +475,6 @@ quota-panel-percent-used = { $percent }% notað
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Merkja sem lesið
+delete-action = Eyða
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Gera ekkert

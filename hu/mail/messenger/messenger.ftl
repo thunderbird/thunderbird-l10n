@@ -475,5 +475,6 @@ quota-panel-percent-used = { $percent }% tele
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Megjelölés olvasottként
+delete-action = Törlés
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Nincs művelet

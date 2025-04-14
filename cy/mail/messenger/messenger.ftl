@@ -507,5 +507,6 @@ quota-panel-percent-used = { $percent }% yn llawn
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Marcio fel wedi ei Darllen
+delete-action = Dileu
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Gwneud Dim

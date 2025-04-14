@@ -479,5 +479,6 @@ quota-panel-percent-used =
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Marquer comme lu
+delete-action = Supprimer
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Ne rien faire
