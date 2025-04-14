@@ -726,6 +726,7 @@ fix-broken-exchange-msg-failed = Koe berjocht net reparearje.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Kin hantekeningbestân ‘{ $attachment }’ net keppelje oan in bylage
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Kin bylage ‘{ $attachment }’ net keppelje oan in hantekeningbestân
 # Variables:

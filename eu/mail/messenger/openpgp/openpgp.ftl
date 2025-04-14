@@ -730,6 +730,7 @@ fix-broken-exchange-msg-failed = Ez da lortu mezua konpontzea.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = '{ $attachment }' sinadura fitxategia ez dator bat eranskin batekin
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = '{ $attachment }' eranskina ez dator bat sinadura fitxategi batekin
 # Variables:

@@ -733,6 +733,7 @@ fix-broken-exchange-msg-failed = Nie można naprawić tej wiadomości.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Nie można dopasować pliku podpisu „{ $attachment }” do załącznika
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Nie można dopasować załącznika „{ $attachment }” do pliku podpisu
 # Variables:

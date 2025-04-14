@@ -589,6 +589,7 @@ fix-broken-exchange-msg-failed = Nepavyko ištaisyti šio pranešimo.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Nepavyko suderinti parašo failo „{ $attachment }“ ir priedo
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Nepavyko suderinti priedo „{ $attachment }“ ir parašo failo
 # Variables:

@@ -726,6 +726,7 @@ fix-broken-exchange-msg-failed = Невъзможност за поправка 
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Файлът за подпис „{ $attachment }“ не може да бъде съпоставен с прикачения файл
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Не може да бъде съпоставен прикаченият файл „{ $attachment }“  с файла за подпис
 # Variables:

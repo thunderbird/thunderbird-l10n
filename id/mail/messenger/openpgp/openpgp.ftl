@@ -716,6 +716,7 @@ fix-broken-exchange-msg-failed = Tidak berhasil memperbaiki pesan.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Tidak dapat mencocokkan file tanda tangan '{ $attachment }' dengan lampiran
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Tidak dapat mencocokkan lampiran '{ $attachment }' dengan file tanda tangan
 # Variables:

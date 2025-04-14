@@ -726,6 +726,7 @@ fix-broken-exchange-msg-failed = I n'è betg reussì da reparar il messadi.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Impussibel d'associar la datoteca da signatura «{ $attachment }» cun ina agiunta
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Impussibel d'associar l'agiunta «{ $attachment }» cun ina datoteca da signatura
 # Variables:

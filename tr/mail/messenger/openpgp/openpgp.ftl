@@ -685,6 +685,7 @@ fix-broken-exchange-msg-failed = Bu ileti onarılamadı.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = ‘{ $attachment }’ imza dosyası bir ekle eşleştirilemedi
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = ‘{ $attachment }’ eki ile imza dosyası eşleştirilemedi
 # Variables:

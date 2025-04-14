@@ -726,6 +726,7 @@ fix-broken-exchange-msg-failed = Αποτυχία επιδιόρθωσης μη�
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Δεν ήταν δυνατή η αντιστοίχιση του αρχείου υπογραφής «{ $attachment }» με κάποιο συνημμένο
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Δεν ήταν δυνατή η αντιστοίχιση του συνημμένου «{ $attachment }» σε αρχείο υπογραφής
 # Variables:

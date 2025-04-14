@@ -590,6 +590,7 @@ fix-broken-exchange-msg-failed = Neizdevās izlabot šo vēstuli.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Neizdevās pielikumā pievienot paraksta failu '{ $attachment }'
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Neizdevās piemērot pielikumu '{ $attachment }' paraksta failam
 # Variables:

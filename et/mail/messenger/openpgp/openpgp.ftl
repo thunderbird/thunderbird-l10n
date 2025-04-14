@@ -643,6 +643,7 @@ fix-broken-exchange-msg-failed = Seda kirja pole võimalik parandada.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Allkirjafaili ‘{ $attachment }’ polnud võimalik manusega sobitada
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Manust ‘{ $attachment }’ polnud võimalik allkirjafailiga sobitada
 # Variables:

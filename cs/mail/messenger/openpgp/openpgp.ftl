@@ -756,6 +756,7 @@ fix-broken-exchange-msg-failed = Zprávu se nepodařilo opravit.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Soubor s podpisem '{ $attachment }' nelze přiřadit k žádné příloze
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Přílohu '{ $attachment }' nelze přiřadit k žádnému souboru s podpisem
 # Variables:

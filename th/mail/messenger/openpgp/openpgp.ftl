@@ -715,6 +715,7 @@ fix-broken-exchange-msg-failed = ไม่สามารถซ่อมแซ�
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = ไม่สามารถจับคู่ไฟล์ลายเซ็น ‘{ $attachment }’ กับไฟล์แนบได้
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = ไม่สามารถจับคู่ไฟล์แนบ ‘{ $attachment }’ กับไฟล์ลายเซ็นได้
 # Variables:

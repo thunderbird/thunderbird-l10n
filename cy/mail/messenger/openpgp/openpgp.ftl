@@ -754,6 +754,7 @@ fix-broken-exchange-msg-failed = Heb lwyddo i atgyweirio neges.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Methu cydweddu ffeil llofnod '{ $attachment }' ag atodiad
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Methu cydweddu ffeil llofnod '{ $attachment }' â ffeil llofnod
 # Variables:

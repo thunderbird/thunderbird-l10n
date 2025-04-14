@@ -726,6 +726,7 @@ fix-broken-exchange-msg-failed = Lyckades inte reparera meddelandet.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Det gick inte att matcha signaturfilen '{ $attachment }' till en bilaga
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Det gick inte att matcha bilagan '{ $attachment }' till en signaturfil
 # Variables:

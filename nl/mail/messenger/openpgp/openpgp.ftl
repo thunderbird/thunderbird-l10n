@@ -726,6 +726,7 @@ fix-broken-exchange-msg-failed = Kon bericht niet repareren.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Kan ondertekeningbestand ‘{ $attachment }’ niet koppelen aan een bijlage
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Kan bijlage ‘{ $attachment }’ niet koppelen aan een ondertekeningbestand
 # Variables:

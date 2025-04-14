@@ -651,6 +651,7 @@ fix-broken-exchange-msg-failed = ვერ მოხერხდა წერი
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = არ შეესაბამება ხელმოწერის ფაილი „{ $attachment }“ დანართს
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = არ შეესაბამება დანართი „{ $attachment }“ ხელმოწერის ფაილს
 # Variables:

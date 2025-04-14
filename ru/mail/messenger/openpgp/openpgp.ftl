@@ -733,6 +733,7 @@ fix-broken-exchange-msg-failed = Не удалось восстановить с
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Не удалось сопоставить файл подписи '{ $attachment }' с вложением
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Не удалось сопоставить вложение '{ $attachment }' с файлом подписи
 # Variables:

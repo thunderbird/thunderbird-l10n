@@ -725,6 +725,7 @@ fix-broken-exchange-msg-failed = Impossibile riparare il messaggio.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Impossibile associare il file della firma “{ $attachment }” a un allegato
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Impossibile associare l’allegato “{ $attachment }” a un file della firma
 # Variables:

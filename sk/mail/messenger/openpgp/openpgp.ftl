@@ -734,6 +734,7 @@ fix-broken-exchange-msg-failed = Túto správu nie je možné opraviť.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Podpisový súbor '{ $attachment }' sa nezhoduje s prílohou
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Príloha '{ $attachment }' sa nezhoduje s podpisovým súborom
 # Variables:

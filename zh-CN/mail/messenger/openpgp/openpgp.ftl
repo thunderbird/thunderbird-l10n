@@ -686,6 +686,7 @@ fix-broken-exchange-msg-failed = 消息修复失败。
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = 无法将签名文件“{ $attachment }”与附件匹配
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = 无法将附件“{ $attachment }”与签名文件匹配
 # Variables:

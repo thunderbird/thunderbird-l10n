@@ -716,6 +716,7 @@ fix-broken-exchange-msg-failed = 메시지를 복구하지 못했습니다.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = 서명 파일 '{ $attachment }'를 첨부 파일과 일치시킬 수 없음
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = '{ $attachment }'첨부 파일을 서명 파일과 일치시킬 수 없음
 # Variables:

@@ -727,6 +727,7 @@ fix-broken-exchange-msg-failed = S’pat sukses në riparimin e mesazhit.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = S’u përputh dot kartela e nënshkrimit '{ $attachment }' me ndonjë bashkëngjitje
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = S’u përputh dot bashkëngjitja '{ $attachment }' me një kartelë nënshkrimi
 # Variables:

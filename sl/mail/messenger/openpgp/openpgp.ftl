@@ -693,6 +693,7 @@ fix-broken-exchange-msg-failed = Tega sporočila ni mogoče popraviti.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Datoteke s podpisom "{ $attachment }" ni mogoče povezati s priponko
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Priponke "{ $attachment }" ni mogoče povezati z datoteko s podpisom
 # Variables:

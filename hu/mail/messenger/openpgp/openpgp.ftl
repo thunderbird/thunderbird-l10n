@@ -726,6 +726,7 @@ fix-broken-exchange-msg-failed = Az üzenet javítása nem sikerült.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Nem sikerült egyeztetni a(z) „{ $attachment }” aláírási fájlt egy melléklettel
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Nem sikerült egyeztetni a(z) „{ $attachment }” mellékletet egy aláírási fájllal
 # Variables:

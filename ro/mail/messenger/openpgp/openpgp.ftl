@@ -525,6 +525,7 @@ fix-broken-exchange-msg-failed = Repararea mesajului nu a reușit.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Fișierul de semnătură „{ $attachment }” nu a putut fi corelat la un atașament
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Atașamentul „{ $attachment }” nu a putut fi corelat la un fișier de semnătură
 # Variables:

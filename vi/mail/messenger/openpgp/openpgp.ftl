@@ -672,6 +672,7 @@ fix-broken-exchange-msg-failed = Không thể sửa chữa thư này.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Tập tin chữ ký ‘{ $attachment }’ với tập tin đính kèm không khớp
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Tập tin đính kèm ‘{ $attachment }’ với tập tin chữ ký không khớp
 # Variables:

@@ -728,6 +728,7 @@ fix-broken-exchange-msg-failed = Nachricht konnte nicht repariert werden.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Die Signaturdatei „{ $attachment }“ konnte keinem Anhang zugeordnet werden
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Der Anhang „{ $attachment }“ konnte keiner Signaturdatei zugeordnet werden
 # Variables:

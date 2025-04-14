@@ -642,6 +642,7 @@ fix-broken-exchange-msg-failed = Չյաջողուեց վերանորոգել ա�
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Չյաջողուեց «{ $attachment }» նիշը համապատասխանեցնել կցորդին
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Չյաջողուեց «{ $attachment }» կցորդը համապատասխանեցնել նիշին
 # Variables:

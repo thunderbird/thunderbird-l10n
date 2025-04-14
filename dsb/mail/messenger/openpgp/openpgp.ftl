@@ -740,6 +740,7 @@ fix-broken-exchange-msg-failed = Powěsć njedajo se reparěrowaś.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Signaturowa dataja ‚{ $attachment }‘ njedajo se pśdankoju pśirědowaś
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Pśidank ‚{ $attachment }‘ njedajo se signaturowej dataji pśirědowaś
 # Variables:

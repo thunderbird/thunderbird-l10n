@@ -726,6 +726,7 @@ fix-broken-exchange-msg-failed = Viestin korjaaminen ei onnistunut.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Allekirjoitustiedostoa '{ $attachment }' ei voitu täsmätä liitteeseen
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Liitettä '{ $attachment }' ei voitu täsmätä allekirjoitustiedostoon
 # Variables:

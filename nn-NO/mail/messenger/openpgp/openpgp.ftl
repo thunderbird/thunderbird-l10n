@@ -640,6 +640,7 @@ fix-broken-exchange-msg-failed = Klarte ikkje å reparere meldinga.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Klarte ikkje å samsvare signaturfilen «{ $attachment }» til eit vedlegg
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Klarte ikkje å samsvare vedlegg «{ $attachment }» til ei signaturfil
 # Variables:

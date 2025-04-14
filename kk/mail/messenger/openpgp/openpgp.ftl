@@ -725,6 +725,7 @@ fix-broken-exchange-msg-failed = Бұл хабарламаны жөндеу мү
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = "{ $attachment }" қолтаңба файлын салынымға сәйкестеу мүмкін емес
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = "{ $attachment }" салынымын қолтаңба файлына сәйкестеу мүмкін емес
 # Variables:

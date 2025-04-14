@@ -726,6 +726,7 @@ fix-broken-exchange-msg-failed = Tekst ekki að gera við þessi skilaboð.
 # $attachment (String) - File name of the signature file.
 attachment-no-match-from-signature = Gat ekki tengt undirritunarskrána „{ $attachment }“ við neitt viðhengi
 # Variables:
+# Variables:
 # $attachment (String) - File name of the attachment.
 attachment-no-match-to-signature = Gat ekki tengt viðhengið „{ $attachment }“ við neina undirritunarskrá
 # Variables:
