@@ -13,6 +13,7 @@ subject-checkbox =
 sender-checkbox =
     .label = 发件人
     .accesskey = e
+enabled-actions-description = 邮件操作：
 
 ## Note: open-time-label-before is displayed first, then there's a field where
 ## the user can enter a number, and open-time-label-after is displayed at the end
