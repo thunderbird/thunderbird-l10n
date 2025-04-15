@@ -18,4 +18,4 @@ calendar-dialog-description-row-icon =
     .alt = Disgrifiad
 calendar-dialog-description-label = Disgrifiad
 calendar-dialog-description-expand-icon =
-    .alt = Dangos disgrifiad llawn
+    .alt = Dangos y disgrifiad llawn
