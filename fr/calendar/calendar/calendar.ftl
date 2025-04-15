@@ -596,7 +596,7 @@ unit-hours =
        *[other] { $count } heures
     }
 event-duration-menuitem-count-hours =
-    .label = { uni-hours }
+    .label = { unit-hours }
 # Variables:
 # $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
