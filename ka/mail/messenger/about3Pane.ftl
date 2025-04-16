@@ -241,6 +241,13 @@ threadpane-column-label-attachments =
 threadpane-cell-attachments =
     .aria-label = დანართები
 threadpane-attachments-cell-label = დანართები
+threadpane-column-header-spam =
+    .title = დალაგება ჯართად მიჩნევის მიხედვით
+threadpane-column-label-spam =
+    .label = ჯართი
+threadpane-spam-cell-label = ჯართი
+threadpane-column-header-unread-button =
+    .title = წასაკითხის მიხედვით დალაგება
 threadpane-column-header-sender = გამგზავნი
     .title = გამომგზავნის მიხედვით
 threadpane-column-label-sender =
@@ -249,6 +256,11 @@ threadpane-column-header-recipient = მიმღები
     .title = მიმღების მიხედვით
 threadpane-column-label-recipient =
     .label = მიმღები
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = მიმღები
+    .title = { $title }
 threadpane-column-header-correspondents = გამომგზავნები
     .title = გამომგზავნების მიხედვით
 threadpane-column-label-correspondents =

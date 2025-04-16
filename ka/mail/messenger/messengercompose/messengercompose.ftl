@@ -183,6 +183,30 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = გასაღების მმართველი
     .accesskey = მ
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = თქვენ არ გაქვთ გამართული, რომ გამჭოლად დაშიფრული წერილების გასაგზავნად გამოიყენებოდეს { $addr }.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = გამჭოლი დაშიფვრისთვის { $addr } საჭიროებს გასაღების ხარვეზების მოგვარებას.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] გამჭოლი დაშიფვრა საჭიროებს გასაღების ხარვეზების მოგვარებას { $count } მიმღებისთვის
+       *[other] გამჭოლი დაშიფვრა საჭიროებს გასაღების ხარვეზების მოგვარებას { $count } მიმღებისთვის
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = გამჭოლი დაშიფვრისთვის { $addr } საჭიროებს სერტიფიკატის ხარვეზების მოგვარებას.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] გამჭოლი დაშიფვრა საჭიროებს სერტიფიკატის ხარვეზების მოგვარებას { $count } მიმღებისთვის.
+       *[other] გამჭოლი დაშიფვრა საჭიროებს სერტიფიკატის ხარვეზების მოგვარებას { $count } მიმღებისთვის.
+    }
 key-notification-disable-encryption =
     .label = არ დაიშიფროს
     .accesskey = ა
@@ -246,6 +270,10 @@ show-bcc-row-button = ფარული ასლი
     .title = ფარული ასლის ველის გამოჩენა ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = მისამართების სხვა ველების გამოჩენა
+public-recipients-notice-single = თქვენს წერილს ჰყავს ღია მიმღები. მიმღების გამხელის თავიდან აცილება შეგიძლიათ ფარული ასლის გამოყენებით.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi = წერილისა და ასლის { $count } მიმღები იხილავს ერთმანეთის მისამართს. ამის ასარიდებლად შეგიძლიათ გამოიყენოთ ფარული ველი Bcc.
 many-public-recipients-bcc =
     .label = ფარული ასლებით შეცვლა
     .accesskey = ფ
@@ -269,6 +297,7 @@ many-public-recipients-prompt-send = მაინც გაგზავნა
 compose-missing-identity-warning = გამგზავნის მისამართის შესაბამისი ვინაობა ვერ მოიძებნა. შეტყობინება გაიგზავნება გამგზავნის ველში მოცემული მისამართიდან და { $identity } ვინაობის პარამეტრებით.
 encrypted-bcc-warning = დაშიფრული შეტყობინების გაგზავნისას, მიმღებები ფარული ასლის ველში, სრულად დამალული არაა. ყველა მიმღებს შეეძლება მათი გამომჟღავნება.
 encrypted-bcc-ignore-button = გასაგებია
+auto-disable-e2ee-warning = გამჭოლი დაშიფვრა ამ წერილისთვის თავისთავად გამოირთო.
 
 ## Editing
 
@@ -378,3 +407,5 @@ link-preview-yes-replace = დიახ
 spell-add-dictionaries =
     .label = ლექსიკონების დამატება…
     .accesskey = ლ
+subject-encription-icon =
+    .title = თემა არ იქნება დაშიფრული
