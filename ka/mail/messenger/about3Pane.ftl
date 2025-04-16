@@ -8,6 +8,21 @@
 quick-filter-button =
     .title = სწრაფი გაფილტვრის ზოლის გადართვა
 quick-filter-button-label = სწრაფი ფილტრი
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } წერილი
+       *[other] { $count } წერილი
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+       *[other] { $count } შერჩეული
+    }
+thread-pane-header-context-table-view =
+    .label = ცხრილური ხედი
 thread-pane-header-context-cards-view =
     .label = საბარათო ხედი
 
@@ -20,6 +35,20 @@ thread-pane-header-context-cards-view =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = არსებული ფილტრების შენარჩუნება საქაღალდეების გადართვისას
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = სწრაფი ფილტრის მენიუ
+quick-filter-bar-dropdown-unread =
+    .label = წასაკითხი
+quick-filter-bar-dropdown-starred =
+    .label = ვარსკვლავიანი
+quick-filter-bar-dropdown-inaddrbook =
+    .label = პირი
+quick-filter-bar-dropdown-tags =
+    .label = ჭდეები
+quick-filter-bar-dropdown-attachment =
+    .label = დანართი
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -70,6 +99,25 @@ quick-filter-bar-results =
         [one] { $count } წერილი
        *[other] { $count } წერილი
     }
+quick-filter-bar-search2 =
+    .label = წერილების გაფილტვრა
+quick-filter-bar-searching =
+    .title = ძიება…
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-search-shortcut =
+    { PLATFORM() ->
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
+    }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = წერილების იფილტრება… { quick-filter-bar-search-shortcut }
+# Label of the search button in the quick filter bar text box. Clicking it will
+# launch a global search.
+quick-filter-bar-search-button =
+    .alt = ძიება ყველგან
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = ჭდეების გაფილტვრის რეჟიმი
@@ -110,33 +158,89 @@ quick-filter-bar-gloda-upsell-line2 = ხელახლა დაწკაპ�
 
 ## Folder pane
 
+folder-pane-get-messages-button =
+    .title = წერილების მიღება
 folder-pane-get-all-messages-menuitem =
     .label = ყველა ახალი წერილის მიღება
     .accesskey = მ
+folder-pane-write-message-button = ახალი წერილი
+    .title = ახალი წერილის შედგენა
 folder-pane-more-menu-button =
     .title = საქაღალდის არის პარამეტრები
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = საქაღალდის რეჟიმები
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = გამოჩნდეს „წერილების მიღება“
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = გამოჩნდეს „ახალი წერილი“
 folder-pane-header-context-hide =
     .label = საქაღალდის არის თავსართის დამალვა
+folder-pane-show-total-toggle =
+    .label = გამოჩნდეს წერილების სრული რაოდენობა
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = გამოჩნდეს საქაღალდის ზომა
+folder-pane-header-hide-local-folders =
+    .label = დაიმალოს ადგილობრივი საქაღალდეები
+folder-pane-mode-context-button =
+    .title = საქაღალდის რეჟიმის პარამეტრები
 folder-pane-mode-context-toggle-compact-mode =
     .label = შემჭიდროებული ჩვენება
     .accesskey = შ
+folder-pane-mode-move-up =
+    .label = აწევა
+folder-pane-mode-move-down =
+    .label = ჩამოწევა
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 წასაკითხი წერილი
+       *[other] { $count } წასაკითხი წერილი
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 წერილი სულ
+       *[other] { $count } წერილი სულ
+    }
 
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = ყველას მონიშვნა ან გაუქმება
+threadpane-column-header-select-all =
+    .title = ყველა წერილის მონიშვნა
+threadpane-column-header-deselect-all =
+    .title = ყველა წერილის მონიშვნის მოხნსა
 threadpane-column-label-select =
     .label = წერილების შერჩევა
+threadpane-cell-select =
+    .aria-label = წერილის მონიშვნა
+threadpane-column-header-thread =
+    .title = მიმოწერების გადართვა
 threadpane-column-label-thread =
     .label = მიმოწერა
+threadpane-cell-thread =
+    .aria-label = მიმოწერის მდგომარეობა
 threadpane-column-header-flagged =
     .title = ვარსკვლავის მიხედვით
 threadpane-column-label-flagged =
     .label = ალამი
+threadpane-cell-flagged =
+    .aria-label = ვარსკვლავიანი
+threadpane-flagged-cell-label = ვარსკვლავიანი
 threadpane-column-header-attachments =
     .title = დანართების მიხედვით
 threadpane-column-label-attachments =
     .label = დანართები
+threadpane-cell-attachments =
+    .aria-label = დანართები
+threadpane-attachments-cell-label = დანართები
 threadpane-column-header-sender = გამგზავნი
     .title = გამომგზავნის მიხედვით
 threadpane-column-label-sender =
