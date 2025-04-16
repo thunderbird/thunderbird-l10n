@@ -5,5 +5,5 @@
 <!ENTITY newMessageCmd.key "M">
 <!ENTITY newMessageCmd.label "Паведамленне">
 <!ENTITY newMessageCmd.accesskey "п">
-<!ENTITY newContactCmd.label "Кантакт з адраснай кнігі…">
+<!ENTITY newContactCmd.label "Кантакт у адраснай кнізе…">
 <!ENTITY newContactCmd.accesskey "К">

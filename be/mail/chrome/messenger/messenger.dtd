@@ -29,7 +29,7 @@
 <!ENTITY newMessageCmd.key "M">
 <!ENTITY newMessageCmd.label "Паведамленне">
 <!ENTITY newMessageCmd.accesskey "П">
-<!ENTITY newContactCmd.label "Кантакт з адраснай кнігі…">
+<!ENTITY newContactCmd.label "Кантакт у адраснай кнізе…">
 <!ENTITY newContactCmd.accesskey "К">
 <!ENTITY openMenuCmd.label "Адкрыць">
 <!ENTITY openMenuCmd.accesskey "А">
@@ -506,7 +506,7 @@
 <!ENTITY phishingOptionSettingsUnix.accesskey "м">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Новае паведамленне">
-<!ENTITY appmenuNewContactCmd.label "Кантакт з адраснай кнігі…">
+<!ENTITY appmenuNewContactCmd.label "Кантакт у адраснай кнізе…">
 <!ENTITY appmenuToolbarLayout.label "Макет панэлі інструментаў…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Новая метка…">

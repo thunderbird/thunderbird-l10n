@@ -48,7 +48,7 @@
 <!ENTITY event.menu.item.new.task.accesskey "З">
 <!ENTITY event.menu.item.new.message.label "Паведамленне">
 <!ENTITY event.menu.item.new.message.accesskey "а">
-<!ENTITY event.menu.item.new.contact.label "Кантакт з адраснай кнігі">
+<!ENTITY event.menu.item.new.contact.label "Кантакт у адраснай кнізе">
 <!ENTITY event.menu.item.new.contact.accesskey "К">
 <!ENTITY event.menu.item.close.label "Закрыць">
 <!ENTITY event.menu.item.close.accesskey "л">

@@ -273,6 +273,12 @@ single-long-calendar-week = Каляндарны тыдзень: { $index }
 #    $index will be replaced with the index of the week
 single-calendar-week = Тыдзень: { $index }
     .title = Каляндарны тыдзень: { $index }
+# LOCALIZATION NOTE (several-calendar-weeks):
+# used for display of calendar weeks in short form like 'CWs 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-calendar-weeks = Тыдні: { $startIndex }-{ $endIndex }
+    .title = Каляндарныя тыдні { $startIndex }-{ $endIndex }
 # LOCALIZATION NOTE (multiweek-view-week):
 # Used for displaying the week number in the first day box of every week
 # in multiweek and month views.
