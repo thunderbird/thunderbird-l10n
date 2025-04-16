@@ -8,18 +8,37 @@ about-addressbook-title = მისამართების წიგნა�
 
 about-addressbook-toolbar-new-address-book =
     .label = ახალი წიგნაკი
+about-addressbook-toolbar-add-address-book =
+    .label = ადგილობრივი წიგნაკის დამატება
 about-addressbook-toolbar-add-carddav-address-book =
     .label = CardDAV-წიგნაკის დამატება
 about-addressbook-toolbar-add-ldap-address-book =
     .label = LDAP-წიგნაკის დამატება
 books-pane-create-contact-button = ახალი პირი
     .title = ახალი პირის დამატება
+books-pane-create-book-button =
+    .title = ახალი წიგნაკის შექმნა
+books-pane-create-list-button =
+    .title = ახალი საფოსტო სიის შექმნა
+books-pane-import-button = გადმოტანა
+    .title = წიგნაკების გადმოტანა
 
 ## Books
 
+all-address-books-row =
+    .title = ყველა წიგნაკი
 all-address-books = ყველა წიგნაკი
+# Variables:
+# $name (String) - The name of the selected book/list.
+# $count (Number) - The number of contacts in the selected book/list.
+about-addressbook-card-count = ხალხი, რომელთაც შეიცავს { $name } სულ: { $count }
+# Variables:
+# $count (Number) - The number of contacts in all address books.
+about-addressbook-card-count-all = ხალხი სულ წიგნაკებში: { $count }
 about-addressbook-books-context-properties =
     .label = პარამეტრები
+about-addressbook-books-context-edit-list =
+    .label = სიის ჩასწორება
 about-addressbook-books-context-synchronize =
     .label = სინქრონიზაცია
 about-addressbook-books-context-edit =
@@ -45,6 +64,14 @@ about-addressbook-confirm-remove-remote-book = ნამდვილად გ�
 
 ## Cards
 
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = მოიძებნოს { $name }
+    .placeholder = მოიძებნოს { $name }…
+about-addressbook-search-all2 =
+    .label = ძიება ყველა წიგნაკში
+    .placeholder = ძიება ყველა წიგნაკში…
 about-addressbook-sort-button2 =
     .title = ჩვენების პარამეტრების სია
 about-addressbook-name-format-display =
@@ -181,11 +208,29 @@ about-addressbook-confirm-remove-contacts-title =
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = ნამდვილად გსურთ მოცილდეს { $name } სიიდან { $list }?
 # Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] ნამდვილად გსურთ, მოცილდეს { $count } პირი სიიდან { $list }?
+       *[other] ნამდვილად გსურთ, მოცილდეს { $count } პირი სიიდან { $list }?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] პირის ამოშლა
        *[other] ხალხის ამოშლა
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = ნამდვილად გსურთ ამოიშალოს { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] ნამდვილად გსურთ, წაიშალოს { $count } პირი?
+       *[other] ნამდვილად გსურთ, წაიშალოს { $count } პირი?
     }
 
 ## Card list placeholder
@@ -199,10 +244,34 @@ about-addressbook-placeholder-no-search-results = ხალხი ვერ მ�
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } მონიშნულია მისამართების წიგნაკიდან
+       *[other] { $count } მონიშნულია მისამართების წიგნაკიდან
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } მონიშნული პირი
+       *[other] { $count } მონიშნული პირი
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } მონიშნული სია
+       *[other] { $count } მონიშნული სია
+    }
+about-addressbook-details-edit-photo =
+    .title = პირის სურათის ჩასწორება
 about-addressbook-new-contact-header = ახალი პირი
 about-addressbook-write-action-button = ჩაწერა
 about-addressbook-event-action-button = ღონისძიება
 about-addressbook-search-action-button = ძიება
+about-addressbook-new-list-action-button = ახალი სია
 about-addressbook-begin-edit-contact-button = ჩასწორება
 about-addressbook-delete-edit-contact-button = წაშლა
 about-addressbook-cancel-edit-contact-button = გაუქმება
@@ -212,6 +281,8 @@ about-addressbook-details-email-addresses-header = ელფოსტის მ�
 about-addressbook-details-phone-numbers-header = ტელეფონის ნომრები
 about-addressbook-details-addresses-header = მისამართები
 about-addressbook-details-notes-header = შენიშვნები
+about-addressbook-details-impp-header = სწრაფი მიმოწერა
+about-addressbook-details-websites-header = საიტები
 about-addressbook-details-other-info-header = სხვა ინფორმაცია
 about-addressbook-entry-type-work = სამსახური
 about-addressbook-entry-type-home = სახლი
@@ -226,6 +297,10 @@ about-addressbook-entry-name-role = მოვალეობა
 about-addressbook-entry-name-organization = დაწესებულება
 about-addressbook-entry-name-website = ვებსაიტი
 about-addressbook-entry-name-time-zone = დროის სარტყელი
+about-addressbook-entry-name-custom1 = დამატებითი 1
+about-addressbook-entry-name-custom2 = დამატებითი 2
+about-addressbook-entry-name-custom3 = დამატებითი 3
+about-addressbook-entry-name-custom4 = დამატებითი 4
 about-addressbook-unsaved-changes-prompt-title = შეუნახავი ცვლილებები
 about-addressbook-unsaved-changes-prompt = გსურთ, შეინახოთ ცვლილებები გამოსვლამდე?
 
@@ -241,3 +316,4 @@ about-addressbook-photo-save = შენახვა
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = N

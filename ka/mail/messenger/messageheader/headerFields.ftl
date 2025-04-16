@@ -32,6 +32,30 @@ message-header-list-help-field = დახმარება-სია<span data
 list-id-context-list-help =
     .label = დახმარების მიღება
     .accesskey = ხ
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = გამოწერის გაუქმება…
+    .accesskey = უ
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = გამოწერა…
+    .accesskey = ო
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = დაწერა
+    .accesskey = წ
+# Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
+list-id-list-owner =
+    .label = კავშირი ხელმძღვანელთან…
+    .accesskey = ხ
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = არქივების სია
+    .accesskey = ქ
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = წერილის მუდმივი ბმული
+    .accesskey = უ
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
@@ -40,6 +64,10 @@ message-header-custom-field = { $fieldName }<span data-l10n-name="field-separato
 
 ##
 
+message-header-address-in-address-book-icon2 =
+    .alt = მისამართების წიგნაკში
+message-header-address-not-in-address-book-icon2 =
+    .alt = მისამართების წიგნაკს გარეთ
 message-header-address-not-in-address-book-button =
     .title = მისამართის შენახვა წიგნაკში
 message-header-address-in-address-book-button =
@@ -50,3 +78,7 @@ message-ids-field-show-all = ყველას ჩვენება
 
 ## Dark Message Mode
 
+dark-message-mode-toggle-enabled =
+    .title = წერილის მუქი რეჟიმის გამორთვა
+dark-message-mode-toggle-disabled =
+    .title = წერილის მუქი რეჟიმის ჩართვა
