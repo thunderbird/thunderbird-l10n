@@ -48,6 +48,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Мінулыя падзеі
 calendar-event-listing-interval-calendar-month =
     .label = Падзеі гэтага каляндарнага месяца
 calendar-event-listing-interval-next-7-days =
@@ -65,6 +67,6 @@ calendar-event-listing-interval-future =
 calendar-event-listing-interval-all =
     .label = Усе падзеі
 calendar-event-listing-interval-selected-day =
-    .label = Зараз выбраны дзень
+    .label = Падзеі зараз выбранага дня
 calendar-event-listing-interval-today =
     .label = Сённяшнія падзеі
