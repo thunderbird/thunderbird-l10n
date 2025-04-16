@@ -33,15 +33,53 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = ერთით წინა გვერდზე გადასვლა ({ $shortcut })
+    .aria-label = წინა
+    .accesskey = წ
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = წინა
+    .accesskey = წ
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = ერთით შემდეგ გვერდზე გადასვლა ({ $shortcut })
+    .aria-label = შემდეგი
+    .accesskey = გ
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = შემდეგი
+    .accesskey = გ
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = გვერდის გაახლება
+    .aria-label = გაახლება
+    .accesskey = ხ
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = გვერდის გაახლება
+    .label = გაახლება
+    .accesskey = ხ
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = გვერდის ჩატვირთვის შეწყვეტა
+    .aria-label = შეწყვეტა
+    .accesskey = წ
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = გვერდის ჩატვირთვის შეწყვეტა
+    .label = შეწყვეტა
+    .accesskey = წ
 
 ## Toolbar
 
@@ -102,6 +140,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = საქაღალდის წაშლა
     .accesskey = ქ
+menu-edit-unsubscribe-newsgroup =
+    .label = სიახლეთა ჯგუფების გამოწერის გაუქმება
+    .accesskey = ქ
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -156,6 +197,9 @@ context-menu-mark-unread =
 context-menu-mark-reply =
     .aria-label = პასუხი
     .tooltiptext = პასუხი
+context-menu-archive =
+    .aria-label = დაარქივება
+    .tooltiptext = დაარქივება
 context-menu-mark-junk =
     .aria-label = მონიშვნა ჯართად
     .tooltiptext = მონიშვნა ჯართად
@@ -229,6 +273,9 @@ message-header-msg-flagged =
 message-header-delete =
     .label = წაშლა
     .tooltiptext = ამ წერილის წაშლა
+message-header-undelete =
+    .label = დაბრუნება
+    .tooltiptext = წაშლილი წერილის აღდგენა
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -256,12 +303,21 @@ message-header-show-sender-full-address-description = ელფოსტის �
 message-header-show-recipient-avatar =
     .label = გამგზავნის პროფილის გამოსახულების ჩვენება
     .accesskey = პ
+message-header-show-big-avatar =
+    .label = პროფილის მოზრდილი სურათი
+    .accesskey = ზ
 message-header-hide-label-column =
     .label = წარწერების სვეტის დამალვა
     .accesskey = წ
 message-header-large-subject =
     .label = თემა გადიდებულად
     .accesskey = ე
+message-header-all-headers =
+    .label = ყველა თავსართის ჩვენება
+    .accesskey = რ
+message-header-dark-message-toggle =
+    .label = შეტყობინების მუქი რეჟიმით ჩვენების გადამრთველი
+    .accesskey = ქ
 
 ## Action Button Context Menu
 
@@ -298,6 +354,14 @@ no-reply-reply-anyway-button = პასუხის მიწერა მა�
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } სულ { $total } წერილიდან ვერ გაიშიფრა და ასლი არ აღებულა.
+       *[other] { $failures } სულ { $total } წერილიდან ვერ გაიშიფრა და ასლი არ აღებულა.
+    }
 
 ## Spaces toolbar
 
@@ -342,6 +406,18 @@ settings-context-open-addons-item2 =
 
 spaces-toolbar-pinned-tab-button =
     .tooltiptext = არეების მენიუს გახსნა
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
 spaces-pinned-button-menuitem-show =
     .label = { spaces-toolbar-button-show.title }
 # Variables:
@@ -385,10 +461,20 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = OpenPGP-ის დაშვების ფრაზების დავიწყება
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% შევსებულია
+    .title = IMAP-სივრცე: { $usage } გამოყენებულია, სულ { $limit }
 
 ## Actions for the New Mail Notification
 
 mark-as-read-action = მონიშვნა წაკითხულად
+delete-action = წაშლა
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = მოქმედების გარეშე

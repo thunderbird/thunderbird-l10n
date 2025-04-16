@@ -61,10 +61,93 @@ about-addressbook-sort-email-ascending =
     .label = დალაგება ელფოსტის მისამართით (ანბანურად)
 about-addressbook-sort-email-descending =
     .label = დალაგება ელფოსტის მისამართით (უკუანბანურად)
+about-addressbook-table-layout =
+    .label = ცხრილური განლაგება
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-header-generatedname2 = სახელი
+    .title = სახელით დალაგება
+about-addressbook-column-label-generatedname2 =
+    .label = სახელი
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = სახელი
+    .title = { $title }
+about-addressbook-column-header-emailaddresses2 = ელფოსტის მისამართები
+    .title = ელფოსტის მისამართებით დალაგება
+about-addressbook-column-label-emailaddresses2 =
+    .label = ელფოსტის მისამართები
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = ელფოსტის მისამართები
+    .title = { $title }
+about-addressbook-column-header-nickname2 = მეტსახელი
+    .title = მეტსახელით დალაგება
+about-addressbook-column-label-nickname2 =
+    .label = მეტსახელი
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = მეტსახელი
+    .title = { $title }
+about-addressbook-column-header-phonenumbers2 = ტელეფონის ნომრები
+    .title = ტელეფონის ნომრებით დალაგება
+about-addressbook-column-label-phonenumbers2 =
+    .label = ტელეფონის ნომრები
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = ტელეფონის ნომრები
+    .title = { $title }
+about-addressbook-column-header-addresses2 = მისამართები
+    .title = მისამართებით დალაგება
+about-addressbook-column-label-addresses2 =
+    .label = მისამართები
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = მისამართები
+    .title = { $title }
+about-addressbook-column-header-title2 = სათაური
+    .title = სათაურით დალაგება
+about-addressbook-column-label-title2 =
+    .label = სათაური
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = სათაური
+    .title = { $title }
+about-addressbook-column-header-department2 = განყოფილება
+    .title = განყოფილებით დალაგება
+about-addressbook-column-label-department2 =
+    .label = განყოფილება
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = განყოფილება
+    .title = { $title }
+about-addressbook-column-header-organization2 = დაწესებულება
+    .title = დაწესებულებით დალაგება
+about-addressbook-column-label-organization2 =
+    .label = დაწესებულება
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = დაწესებულება
+    .title = { $title }
+about-addressbook-column-header-addrbook2 = წიგნაკი
+    .title = წიგნაკით დალაგება
+about-addressbook-column-label-addrbook2 =
+    .label = წიგნაკი
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = წიგნაკი
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = მიწერა
 about-addressbook-confirm-delete-mixed-title = ხალხისა და სიების წაშლა
@@ -93,6 +176,10 @@ about-addressbook-confirm-remove-contacts-title =
         [one] პირის მოცილება
        *[other] ხალხის მოცილება
     }
+# Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = ნამდვილად გსურთ მოცილდეს { $name } სიიდან { $list }?
 # Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
