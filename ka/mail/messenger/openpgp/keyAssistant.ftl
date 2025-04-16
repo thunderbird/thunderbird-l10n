@@ -3,13 +3,30 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 openpgp-key-assistant-title = OpenPGP-გასაღების მეგზური
+openpgp-key-assistant-rogue-warning = თავი აარიდეთ ყალბი გასაღების მიღებას. რომ დარწმუნდეთ, მიღებული გასაღები მართებულია თუ არა, უნდა დაამოწმოთ. <a data-l10n-name="openpgp-link">ვრცლად…</a>
 
 ## Encryption status
 
 openpgp-key-assistant-recipients-issue-header = ვერ იშიფრება
+# Variables:
+# $count (Number) - The number of recipients that need attention.
+openpgp-key-assistant-recipients-description =
+    { $count ->
+        [one] უკვე გაქვთ გამოსადეგი და მისაღები გასაღებები { $count } მიმღებისთვის.
+       *[other] უკვე გაქვთ გამოსადეგი და მისაღები გასაღებები { $count } მიმღებისთვის.
+    }
+openpgp-key-assistant-recipients-description-no-issues = შესაძლებელია ამ წერილის დაშიფვრა. თქვენ გაქვთ გამოსადეგი და მისაღები გასაღებები ყველა მიმღებისთვის.
 
 ## Resolve section
 
+openpgp-key-assistant-valid-description = აირჩიეთ გასაღები, რომლის მიღებაც გსურთ
+# Variables:
+# $numKeys (Number) - The number of available keys.
+openpgp-key-assistant-invalid-title =
+    { $numKeys ->
+        [one] მოცემული გასაღებები ვერ იქნება გამოყენებული განახლების მიღებამდე.
+       *[other] მოცემული გასაღებები ვერ იქნება გამოყენებული განახლების მიღებამდე.
+    }
 openpgp-key-assistant-no-key-available = ხელმისაწვდომი გასაღები არაა.
 openpgp-key-assistant-multiple-keys = რამდენიმე გასაღებია ხელმისაწვდომია.
 # Variables:
@@ -44,6 +61,8 @@ openpgp-key-assistant-key-collected-autocrypt = თვითდაშიფვ�
 openpgp-key-assistant-key-collected-keyserver = გასაღებების სერვერი
 # Web Key Directory (WKD) is a concept.
 openpgp-key-assistant-key-collected-wkd = ვებგასაღების ცნობარი
+# Do not translate GnuPG, it's a name of other software.
+openpgp-key-assistant-key-collected-gnupg = GnuPG-გასაღებების ნაკრები
 # Variables:
 # $count (Number) - Number of found keys.
 openpgp-key-assistant-keys-has-collected =

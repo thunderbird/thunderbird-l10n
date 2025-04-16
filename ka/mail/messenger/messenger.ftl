@@ -153,17 +153,71 @@ context-menu-mark-read =
 context-menu-mark-unread =
     .aria-label = მონიშვნა წასაკითხად
     .tooltiptext = მონიშვნა წასაკითხად
+context-menu-mark-reply =
+    .aria-label = პასუხი
+    .tooltiptext = პასუხი
 context-menu-mark-junk =
     .aria-label = მონიშვნა ჯართად
     .tooltiptext = მონიშვნა ჯართად
 context-menu-mark-not-junk =
     .aria-label = მოინიშნოს გამოსადეგად
     .tooltiptext = მოინიშნოს გამოსადეგად
+mail-context-menu-open =
+    .label = გახსნა
+    .accesskey = ხ
+mail-context-menu-reply =
+    .label = პასუხი
+    .accesskey = პ
+mail-context-menu-forward-redirect =
+    .label = გადაგზავნა და გადამისამართება
+    .accesskey = ზ
 mail-context-menu-forward-forward =
     .label = გადაგზავნა
     .accesskey = დ
+mail-context-menu-forward-inline =
+    .label = წერილშივე
+    .accesskey = ვ
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] დანართად
+           *[other] დანართებად
+        }
+    .accesskey = ნ
+mail-context-menu-organize =
+    .label = გაწყობა
+    .accesskey = ყ
+mail-context-menu-threads =
+    .label = მიმოწერები
+    .accesskey = ო
 context-menu-redirect-msg =
     .label = გადამისამართება
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = წერილის გაუქმება
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] წერილის წაშლა
+           *[other] შერჩეული წერილების წაშლა
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] წერილის დაბრუნება
+           *[other] შერჩეული წერილების დაბრუნება
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
+context-menu-decrypt-to-folder2 =
+    .label = გაშიფრული ასლის შექმნა
+    .accesskey = ფ
 
 ## Message header pane
 
@@ -172,6 +226,9 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = ვარსკვლავიანი
     .aria-label = ვარსკვლავიანი
+message-header-delete =
+    .label = წაშლა
+    .tooltiptext = ამ წერილის წაშლა
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =

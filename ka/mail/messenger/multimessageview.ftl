@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = წაშლა
     .tooltiptext = წაშლა
+multi-message-undelete-button =
+    .label = აღდგენა
+    .tooltiptext = აღდგენა
