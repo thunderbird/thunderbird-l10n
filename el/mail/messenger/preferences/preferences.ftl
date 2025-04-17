@@ -295,6 +295,7 @@ clear-cache-button =
 clear-cache-shutdown-label =
     .label = Απαλοιφή προσωρινής μνήμης κατά τον τερματισμό
     .accesskey = λ
+font-legend = Γραμματοσειρές
 fonts-legend = Γραμματοσειρές και χρώματα
 default-font-label =
     .value = Προεπιλεγμένη γραμματοσειρά:

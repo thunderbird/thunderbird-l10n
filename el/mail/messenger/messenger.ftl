@@ -475,5 +475,6 @@ quota-panel-percent-used = { $percent }% πλήρες
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Επισήμανση ως αναγνωσμένο
+delete-action = Διαγραφή
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Καμία ενέργεια
