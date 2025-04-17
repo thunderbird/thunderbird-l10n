@@ -73,6 +73,7 @@ policy-ExtensionSettings = Správa všech aspektů instalace rozšíření.
 policy-ExtensionUpdate = Vypnutí nebo zapnutí automatických aktualizací rozšíření.
 policy-Handlers = Nastavení výchozích aplikací pro odkazy a typy souborů.
 policy-HardwareAcceleration = Hodnota false vypne použití hardwarové akcelerace.
+policy-InAppNotification = Povolení nebo zakázání typů oznámení.
 policy-InstallAddonsPermission = Povolení instalace doplňků z vybraných webových stránek.
 policy-LegacyProfiles = Vypnutí funkce vynucující samostatný profil pro každou instalaci aplikace.
 
