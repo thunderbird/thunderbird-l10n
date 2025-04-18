@@ -86,6 +86,9 @@ mail-uidensity-default =
 mail-uidensity-relaxed =
     .label = Вольная
     .accesskey = В
+menu-spaces-toolbar-button =
+    .label = Панэль прастораў
+    .accesskey = П
 
 ## File
 

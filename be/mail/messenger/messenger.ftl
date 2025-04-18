@@ -354,8 +354,14 @@ spaces-toolbar-button-tasks2 =
     .title = Задачы
 spaces-toolbar-button-chat2 =
     .title = Чат
+spaces-toolbar-button-overflow =
+    .title = Больш прастораў…
 spaces-toolbar-button-settings2 =
     .title = Налады
+spaces-toolbar-button-hide =
+    .title = Схаваць панэль прастораў
+spaces-toolbar-button-show =
+    .title = Паказаць панэль прастораў
 spaces-context-new-tab-item =
     .label = Адкрыць на новай укладцы
 spaces-context-new-window-item =
@@ -373,6 +379,8 @@ settings-context-open-addons-item2 =
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = Меню прастораў
 spaces-pinned-button-menuitem-mail2 =
     .label = { spaces-toolbar-button-mail2.title }
 spaces-pinned-button-menuitem-address-book2 =
@@ -401,6 +409,7 @@ chat-button-unread-messages = { $count }
 
 menuitem-customize-label =
     .label = Персаналізаваць…
+spaces-customize-panel-title = Налады панэлі прастораў
 spaces-customize-background-color = Колер фону
 spaces-customize-icon-color = Колер кнопак
 # The background color used on the buttons of the spaces toolbar when they are

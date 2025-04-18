@@ -2,13 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# LOCALIZATION NOTE (connection-*)
-#   These will be displayed in the account manager in order to show the progress
-#   of the connection.
-#   (These will be displayed in account.connection.progress from
-#    accounts.properties, which adds … at the end, so do not include
-#    periods at the end of these messages.)
-connection-initializing-stream = Прадвызначэнне струменя
 connection-initializing-encryption = Прадвызначэнне шыфравання
 connection-authenticating = Апазнаванне
 connection-getting-resource = Атрыманне сродку
