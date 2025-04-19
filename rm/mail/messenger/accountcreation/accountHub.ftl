@@ -121,6 +121,7 @@ account-hub-password-info = Tias infurmaziuns d’annunzia vegnan mo memorisadas
 account-hub-creating-account = Crear il conto…
 account-hub-sync-accounts-found = { -brand-short-name } ha chattà tscherts servetschs connectads
 account-hub-sync-accounts-not-found = { -brand-short-name } n’ha chattà nagins servetschs connectads
+account-hub-sync-accounts-failure = { -brand-short-name } n’ha betg pudì connectar ils servetschs tschernids
 account-hub-email-added-success = Connectà cun success il conto dad e-mail
 account-hub-config-test-success = Parameters da configuraziun valids
 account-hub-select-all = Selecziunar tut
@@ -135,3 +136,16 @@ account-hub-no-address-books = Na chattà nagins cudeschets d’adressas
 account-hub-no-calendars = Na chattà nagins chalenders
 account-hub-email-added-success-links-title = Scuvra las opziuns da segirezza e persunalisaziun:
 account-hub-signature-link = Signatura dad e-mail
+account-hub-email-error-text = Endatescha p.pl. in’adressa dad e-mail valida
+account-hub-name-error-text = Endatescha per plaschair in num
+account-hub-hostname-error-text = Num da host vid u nunvalid. Be bustabs, cifras, «-» e «.» èn permess
+    .title = Num da host vid u nunvalid. Be bustabs, cifras, «-» e «.» èn permess
+account-hub-port-error-text = Il numer dal port sto esser tranter 1 e 65535
+    .title = Il numer dal port sto esser tranter 1 e 65535
+account-hub-username-error-text = Il num d’utilisader è obligatoric
+    .title = Il num d’utilisader è obligatoric
+account-hub-oauth-pending = Spetgar l’autorisaziun en il pop-up d’annunzia…
+account-hub-addon-install-needed = { -brand-short-name } na sustegna betg a moda nativa quest server. Per acceder e-mails Exchange, <a data-l10n-name="addon-install">installar in supplement da terzas partidas sco Owl (cunter pajament).</a>
+account-hub-addon-error = L’installaziun dal supplement n’è betg reussida. Emprova per plaschair anc ina giada u contactescha l’autur dal supplement per survegnir agid.
+account-hub-security-warning = <span data-l10n-name="security-warning">Attenziun: Chattà in server dad e-mail malsegir.</span> Quest server na dispona betg d’in criptadi e revelescha perquai tes pled-clav e tias datas. Contactescha tes administratur per segirar la connexiun u cuntinuescha sin atgna ristga. <a data-l10n-name="faq-link">Vesair las FAQ per ulteriuras infurmaziuns.</a>
+account-hub-account-authentication-error = Errur d’autentificaziun.

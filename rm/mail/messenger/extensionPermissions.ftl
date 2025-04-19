@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Midar las caracteristicas e las etiche
 webext-perms-description-messagesTags = Crear, modifitgar e stizzar etichettas da messadis
 webext-perms-description-messagesTagsList = Enumerar las etichettas dals messadis
 webext-perms-description-sensitiveDataUpload = Transferir datas d'utilisader sensiblas (sche l'access è vegnì consentì) ad in server lontan per l'elavuraziun cuntinuanta
+webext-perms-description-messengerSettings = Leger ils parameters da { -brand-short-name }

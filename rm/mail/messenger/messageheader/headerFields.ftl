@@ -101,3 +101,7 @@ message-ids-field-show-all = Mussar tut
 
 ## Dark Message Mode
 
+dark-message-mode-toggle-enabled =
+    .title = Deactivar il modus stgir per ils messadis
+dark-message-mode-toggle-disabled =
+    .title = Activar il modus stgir per ils messadis

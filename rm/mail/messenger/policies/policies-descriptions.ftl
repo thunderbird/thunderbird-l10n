@@ -55,6 +55,7 @@ policy-ExtensionSettings = Administrar tut ils aspects da l'installaziun dad ext
 policy-ExtensionUpdate = Activar u deactivar actualisaziuns automaticas dad extensiuns.
 policy-Handlers = Configurar la gestiun dad applicaziuns da standard.
 policy-HardwareAcceleration = Sche «false», deactivar l'acceleraziun cun agid da la hardware.
+policy-InAppNotification = Activar u deactivar tips da notificaziun.
 policy-InstallAddonsPermission = Permetter a tschertas websites dad installar supplements.
 policy-LegacyProfiles = Deactivar la funcziun che pretenda in profil separà per mintga installaziun.
 

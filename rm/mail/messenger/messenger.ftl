@@ -270,6 +270,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Cun staila
     .aria-label = Cun staila
+message-header-delete =
+    .label = Stizzar
+    .tooltiptext = Stizzar quest messadi
+message-header-undelete =
+    .label = Restaurar
+    .tooltiptext = Restaurar quest messadi
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -309,6 +315,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Mussar tut ils chaus-pagina
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = Mussar l’opziun per activar/deactivar il modus stgir per ils messadis
+    .accesskey = d
 
 ## Action Button Context Menu
 
@@ -465,3 +474,7 @@ quota-panel-percent-used = Occupà: { $percent }%
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Marcar sco legì
+delete-action = Stizzar
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Na far nagut

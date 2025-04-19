@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Stizzar
     .tooltiptext = Stizzar
+multi-message-undelete-button =
+    .label = Restaurar
+    .tooltiptext = Restaurar
