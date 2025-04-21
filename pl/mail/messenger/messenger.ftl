@@ -478,5 +478,6 @@ quota-panel-percent-used = Zajęte { $percent }%
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Oznacz jako przeczytaną
+delete-action = Usuń
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Nie rób nic
