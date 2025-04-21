@@ -101,3 +101,7 @@ message-ids-field-show-all = Mostrar tudo
 
 ## Dark Message Mode
 
+dark-message-mode-toggle-enabled =
+    .title = Desativar modo escuro de mensagens
+dark-message-mode-toggle-disabled =
+    .title = Ativar modo escuro de mensagens

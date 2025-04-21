@@ -315,6 +315,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Mostrar todos os cabeçalhos
     .accesskey = d
+message-header-dark-message-toggle =
+    .label = Mostrar o seletor de modo escuro de mensagens
+    .accesskey = c
 
 ## Action Button Context Menu
 
@@ -472,5 +475,6 @@ quota-panel-percent-used = { $percent }% ocupado
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Marcar como lido
+delete-action = Excluir
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Não fazer nada

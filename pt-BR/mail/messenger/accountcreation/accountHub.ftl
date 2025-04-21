@@ -145,3 +145,4 @@ account-hub-port-error-text = A porta deve estar entre 1 e 65535
 account-hub-username-error-text = Nome de usuário é obrigatório
     .title = Nome de usuário é obrigatório
 account-hub-oauth-pending = Aguardando autorização na janela de entrada na conta…
+account-hub-account-authentication-error = Erro de autenticação.
