@@ -14,3 +14,6 @@ calendar-dialog-date-row-recurring-icon =
     .alt = Қайталанатын
 calendar-dialog-location-row-icon =
     .alt = Орналасу
+calendar-dialog-description-row-icon =
+    .alt = Сипаттамасы
+calendar-dialog-description-label = Сипаттамасы

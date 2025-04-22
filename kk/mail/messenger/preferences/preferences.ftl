@@ -881,3 +881,35 @@ qr-export-more-accounts = Көбірек тіркелгілерді экспор
 
 ## Appearance Tab
 
+default-sort-date =
+    .label = Күні
+default-sort-subject =
+    .label = Тақырыбы
+default-sort-from =
+    .label = Кімнен
+default-sort-id =
+    .label = ID
+default-sort-thread =
+    .label = Ағын
+default-sort-priority =
+    .label = Приоритет
+default-sort-status =
+    .label = Қалып-күйі
+default-sort-size =
+    .label = Өлшемі
+default-sort-star =
+    .label = Жұлдызша
+default-sort-unread =
+    .label = Оқылған
+default-sort-recipient =
+    .label = Алушы
+default-sort-location =
+    .label = Орналасу
+default-sort-tags =
+    .label = Тегтер
+default-sort-spam =
+    .label = Спам күйі
+default-sort-attachments =
+    .label = Салынымдар
+default-sort-account =
+    .label = Тіркелгі

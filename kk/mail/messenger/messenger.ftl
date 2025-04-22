@@ -464,3 +464,4 @@ quota-panel-percent-used = { $percent }% толық
 
 ## Actions for the New Mail Notification
 
+delete-action = Өшіру

@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Өшіру
     .tooltiptext = Өшіру
+multi-message-undelete-button =
+    .label = Өшірілгенді қалпына келтіру
+    .tooltiptext = Өшірілгенді қалпына келтіру
