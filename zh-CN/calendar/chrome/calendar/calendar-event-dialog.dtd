@@ -80,7 +80,7 @@
 <!ENTITY event.menu.item.delete.accesskey "D">
 <!ENTITY event.menu.edit.label "编辑">
 <!ENTITY event.menu.edit.accesskey "E">
-<!ENTITY event.menu.edit.undo.label "撤消">
+<!ENTITY event.menu.edit.undo.label "撤销">
 <!ENTITY event.menu.edit.undo.accesskey "U">
 <!ENTITY event.menu.edit.redo.label "重做">
 <!ENTITY event.menu.edit.redo.accesskey "R">
