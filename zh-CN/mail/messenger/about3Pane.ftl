@@ -56,7 +56,7 @@ quick-filter-bar-unread-label = 未读
 # The tooltip for the filter button that causes us to filter results to only
 # include messages that have been starred/flagged.
 quick-filter-bar-starred =
-    .title = 仅显示星标消息
+    .title = 仅显示星标邮件
 # The label for the filter button that causes us to filter results to only
 # include messages that have been starred/flagged.
 quick-filter-bar-starred-label = 已加星标
@@ -217,7 +217,7 @@ threadpane-column-header-flagged =
 threadpane-column-label-flagged =
     .label = 已加星标
 threadpane-cell-flagged =
-    .aria-label = 星标
+    .aria-label = 已加星标
 threadpane-flagged-cell-label = 已加星标
 threadpane-column-header-attachments =
     .title = 按附件排序

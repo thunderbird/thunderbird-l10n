@@ -28,7 +28,7 @@
 <!ENTITY retentionKeepAll.accesskey "n">
 <!ENTITY retentionKeepRecent.label "仅保留最近">
 <!ENTITY retentionKeepRecent.accesskey "b">
-<!ENTITY retentionApplyToFlagged.label "一律保留已加星标的消息">
+<!ENTITY retentionApplyToFlagged.label "一律保留星标邮件">
 <!ENTITY retentionApplyToFlagged.accesskey "k">
 <!ENTITY nntpRemoveMsgBody.label "移除消息体，当消息超过">
 <!ENTITY nntpRemoveMsgBody.accesskey "o">

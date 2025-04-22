@@ -73,7 +73,7 @@
 <!ENTITY settingsOfflineCmd2.accesskey "e">
 <!ENTITY downloadSelectedCmd.label "获取选中的消息">
 <!ENTITY downloadSelectedCmd.accesskey "l">
-<!ENTITY downloadStarredCmd.label "获取已加星标的消息">
+<!ENTITY downloadStarredCmd.label "获取星标邮件">
 <!ENTITY downloadStarredCmd.accesskey "a">
 <!ENTITY printCmd.label "打印…">
 <!ENTITY printCmd.accesskey "P">
@@ -86,7 +86,7 @@
 <!ENTITY selectThreadCmd.label "话题">
 <!ENTITY selectThreadCmd.accesskey "T">
 <!ENTITY selectThreadCmd.key "a">
-<!ENTITY selectFlaggedCmd.label "已加星标消息">
+<!ENTITY selectFlaggedCmd.label "星标邮件">
 <!ENTITY selectFlaggedCmd.accesskey "S">
 <!ENTITY menuFavoriteFolder.label "收藏夹">
 <!ENTITY menuFavoriteFolder.accesskey "v">
