@@ -253,13 +253,13 @@
 <!ENTITY goMenu.accesskey "G">
 <!ENTITY nextMenu.label "下一个">
 <!ENTITY nextMenu.accesskey "N">
-<!ENTITY nextMsgCmd.label "消息">
+<!ENTITY nextMsgCmd.label "邮件">
 <!ENTITY nextMsgCmd.accesskey "M">
 <!ENTITY nextMsgCmd.key "f">
-<!ENTITY nextUnreadMsgCmd.label "未读消息">
+<!ENTITY nextUnreadMsgCmd.label "未读邮件">
 <!ENTITY nextUnreadMsgCmd.accesskey "U">
 <!ENTITY nextUnreadMsgCmd.key "n">
-<!ENTITY nextStarredMsgCmd.label "已加星标的消息">
+<!ENTITY nextStarredMsgCmd.label "已加星标的邮件">
 <!ENTITY nextStarredMsgCmd.accesskey "S">
 <!ENTITY nextUnreadThread.label "未读话题">
 <!ENTITY nextUnreadThread.accesskey "T">
