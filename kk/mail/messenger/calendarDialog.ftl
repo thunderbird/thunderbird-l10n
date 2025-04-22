@@ -12,3 +12,5 @@ calendar-dialog-date-row-icon =
     .alt = Күн мен уақыт
 calendar-dialog-date-row-recurring-icon =
     .alt = Қайталанатын
+calendar-dialog-location-row-icon =
+    .alt = Орналасу
