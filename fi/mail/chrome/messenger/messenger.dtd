@@ -691,6 +691,7 @@
 <!ENTITY contextReplyList.accesskey "l">
 <!ENTITY contextMoveMsgMenu.label "Siirrä kansioon">
 <!ENTITY contextMoveMsgMenu.accesskey "S">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Viimeisimmät kohteet">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Nykyinen">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "T">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Suosikit">
