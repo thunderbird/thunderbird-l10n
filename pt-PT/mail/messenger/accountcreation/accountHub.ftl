@@ -114,7 +114,16 @@ account-hub-edit-configuration = Editar configuração
 account-hub-creating-account = A criar a conta…
 account-hub-sync-accounts-found = O { -brand-short-name } encontrou alguns serviços associados
 account-hub-sync-accounts-not-found = O { -brand-short-name } não conseguiu encontrar os serviços associados
+account-hub-sync-accounts-failure = O { -brand-short-name } não conseguiu ligar-se aos serviços selecionados
 account-hub-email-added-success = Conta de e-mail associada com sucesso
 account-hub-config-test-success = As definições da configuração são válidas
 account-hub-select-all = Selecionar tudo
 account-hub-deselect-all = Desselecionar tudo
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { $count ->
+        [one] { $count } selecionada
+       *[other] { $count } selecionadas
+    }
+account-hub-no-address-books = Não foram encontrados livros de endereços
+account-hub-no-calendars = Não foram encontrados calendários
