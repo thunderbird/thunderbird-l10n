@@ -426,6 +426,10 @@ conversation-view-checkbox-label =
     .accesskey = k
 conversation-view-checkbox-description = Glodaan perustuva kokeellinen ominaisuus, käytä omalla vastuullasi
 label-experiment = Kokeellinen
+dark-message-mode-checkbox-label =
+    .label = Ota tummien viestien tila käyttöön
+    .accesskey = t
+dark-message-mode-checkbox-description = Kokeellinen ominaisuus, jonka avulla viestin runko seuraa tummia teemoja
 account-hub-legend = Tilikeskus
 account-hub-checkbox-label =
     .label = Luo tilit uudessa tilikeskuksessa
@@ -888,7 +892,12 @@ default-sort-account =
     .label = Tili
 default-sort-received =
     .label = Saapumisjärjestys
+default-order-label = Oletuslajittelujärjestys:
+default-sort-ascending =
+    .label = Nouseva
 default-sort-ascending-description = Uusia viestejä alhaalla
+default-sort-descending =
+    .label = Laskeva
 default-sort-descending-description = Uudet viestit ylhäällä
 apply-sort-label = Toteuta nämä asetukset:
 apply-sort-to-all-button =
@@ -902,5 +911,12 @@ apply-current-view-to-folder =
 apply-current-view-to-folder-children =
     .label = Kansiolle ja sen alikansioille…
 apply-changes-prompt-title = Saatetaanko muutokset voimaan?
+apply-changes-prompt-message = Otetaanko nykyiset ketju- ja lajitteluasetukset käyttöön kaikissa kansioissa?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Otetaanko nykyiset ketju- ja lajitteluasetukset käyttöön kansiossa "{ $name }"?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Otetaanko nykyiset ketju- ja lajitteluasetukset käyttöön kansiossa "{ $name }" ja sen alikansioissa?
 apply-current-view-error = Nykyisiä näkymän asetuksia ei voitu ottaa käyttöön
 apply-current-view-success = Nykyiset näkymän asetukset on otettu käyttöön onnistuneesti
