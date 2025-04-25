@@ -144,5 +144,6 @@ account-hub-port-error-text = Port 1 ile 65535 arasında olmalıdır
     .title = Port 1 ile 65535 arasında olmalıdır
 account-hub-username-error-text = Kullanıcı adı gerekli
     .title = Kullanıcı adı gerekli
+account-hub-oauth-pending = Giriş penceresinde kimliğinizi doğrulamanız bekleniyor…
 account-hub-addon-error = Eklenti kurulamadı. Lütfen yeniden deneyin veya yardım için eklentinin geliştiricisiyle iletişime geçin.
 account-hub-account-authentication-error = Kimlik doğrulama hatası.
