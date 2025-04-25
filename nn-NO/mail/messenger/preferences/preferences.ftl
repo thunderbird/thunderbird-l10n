@@ -880,6 +880,8 @@ qr-export-more-accounts = Eksporter fleire kontoar
 
 appearance-category-header = Utsjånad
 default-message-list-legend = Meldingsliste
+appearance-view-style =
+    .value = Vis stil:
 default-flag-unthreaded =
     .label = Utan tråd
 default-flag-threaded =
