@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 toolbar-context-menu-menu-bar =
-    .toolbarname = Valmyndaslá
+    .toolbarname = Valmyndastika
     .accesskey = m
 
 ## Tools Menu

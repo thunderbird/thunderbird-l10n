@@ -6,7 +6,7 @@
 ## Message List Header Bar
 
 quick-filter-button =
-    .title = Víxla flýtisíuslá af/á
+    .title = Víxla flýtisíustiku af/á
 quick-filter-button-label = Flýtisía
 thread-pane-header-display-button =
     .title = Valkostir birtingar skilaboðalista

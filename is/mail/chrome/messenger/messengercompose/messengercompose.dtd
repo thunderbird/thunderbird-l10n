@@ -108,9 +108,9 @@
 <!ENTITY menubarCmd.accesskey "m">
 <!ENTITY showCompositionToolbarCmd.label "Samsetningarstika">
 <!ENTITY showCompositionToolbarCmd.accesskey "m">
-<!ENTITY showFormattingBarCmd.label "Sniðslá">
+<!ENTITY showFormattingBarCmd.label "Sniðstika">
 <!ENTITY showFormattingBarCmd.accesskey "n">
-<!ENTITY showTaskbarCmd.label "Stöðuslá">
+<!ENTITY showTaskbarCmd.label "Stöðustika">
 <!ENTITY showTaskbarCmd.accesskey "S">
 <!ENTITY customizeToolbar.label "Sérsníða…">
 <!ENTITY customizeToolbar.accesskey "S">
