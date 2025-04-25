@@ -285,6 +285,8 @@ openpgp-copy-cmd-label =
 ## e2e encryption settings
 
 #   $key (String) - the currently selected OpenPGP key
+openpgp-selection-status-have-key = Den gjeldande konfigurasjonen din brukar nøkkel-ID <b>{ $key }</b>
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Den gjeldande konfigurasjonen din brukar nøkkelen <b>{ $key }</b>, som har gått ut.
 openpgp-add-key-button =
     .label = Legg til nøkkel…

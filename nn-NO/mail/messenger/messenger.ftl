@@ -414,5 +414,6 @@ quick-filter-bar-show =
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Marker som lesen
+delete-action = Slett
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Ikkje gjer noko
