@@ -899,6 +899,8 @@ qr-export-more-accounts = Exportera fler konton
 
 appearance-category-header = Utseende
 default-message-list-legend = Meddelandelista
+appearance-view-style =
+    .value = Vystil:
 appearance-radio-table =
     .label = Tabellvy
 default-message-list-sorting-legend = Sortering och trådning
@@ -955,6 +957,7 @@ default-sort-ascending-description = Nya meddelanden längst ner
 default-sort-descending =
     .label = Fallande
 default-sort-descending-description = Nya meddelanden överst
+apply-thread-sort-label = Förändra trådnings- och sorteringsinställningar till:
 apply-sort-label = Tillämpa dessa inställningar på:
 apply-sort-to-all-button =
     .label = Alla befintliga mappar
