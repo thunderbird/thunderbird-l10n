@@ -979,6 +979,7 @@ default-sort-ascending-description = Nowe powěsće deleka
 default-sort-descending =
     .label = Spadowacy
 default-sort-descending-description = Nowe powěsće horjeka
+apply-thread-sort-label = Temowe a sortěrowanske nastajenja dale posrědkować na:
 apply-sort-label = Tute nastajenja nałožić na:
 apply-sort-to-all-button =
     .label = Wšě eksistowace rjadowaki
