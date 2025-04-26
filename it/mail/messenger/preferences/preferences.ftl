@@ -901,7 +901,6 @@ appearance-radio-table =
     .label = Vista tabella
 appearance-radio-cards =
     .label = Vista schede
-cards-view-legend = Opzioni di visualizzazione schede
 table-view-legend = Opzioni vista tabella
 appearance-card-rows =
     .value = Numero righe:
