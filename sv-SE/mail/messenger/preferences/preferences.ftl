@@ -899,6 +899,9 @@ qr-export-more-accounts = Exportera fler konton
 
 appearance-category-header = Utseende
 default-message-list-legend = Meddelandelista
+appearance-radio-table =
+    .label = Tabellvy
+default-message-list-sorting-legend = Sortering och trådning
 default-message-list-description = Definiera standardalternativ för sortering och trådning för nyskapade mappar.
 default-flag-label =
     .value = Standardtrådning:
