@@ -681,7 +681,7 @@ email-e2ee-enable-info = 在账户设置中为端到端加密设置电子邮件�
 email-e2ee-automatism = 自动使用加密
 email-e2ee-automatism-pre =
     { -brand-short-name } 可以通过在撰写电子邮件时自动启用或禁用加密来提供帮助。
-    自动启用/禁用加密基于联系人密钥或证书已被接受并且有效。
+    自动启用/禁用加密基于通信者密钥或证书已被接受并且有效。
 email-e2ee-auto-on =
     .label = 尽可能自动启用加密
 email-e2ee-auto-off =

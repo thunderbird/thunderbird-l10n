@@ -43,9 +43,27 @@ content-tab-menu-back-mac =
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = Laadi leht uuesti
+    .aria-label = Laadi uuesti
+    .accesskey = u
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Laadi leht uuesti
+    .label = Laadi uuesti
+    .accesskey = u
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Peata lehe laadimine
+    .aria-label = Stopp
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Peata lehe laadimine
+    .label = Stopp
+    .accesskey = S
 
 ## Toolbar
 
@@ -151,11 +169,56 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Märgi loetuks
+    .tooltiptext = Märgi loetuks
+context-menu-mark-unread =
+    .aria-label = Märgi mitteloetuks
+    .tooltiptext = Märgi mitteloetuks
+context-menu-mark-reply =
+    .aria-label = Vasta
+    .tooltiptext = Vasta
+context-menu-archive =
+    .aria-label = Arhiveeri
+    .tooltiptext = Arhiveeri
+context-menu-mark-junk =
+    .aria-label = Märgi rämpsuks
+    .tooltiptext = Märgi rämpsuks
+mail-context-menu-open =
+    .label = Ava
+    .accesskey = A
+mail-context-menu-reply =
+    .label = Vasta
+    .accesskey = V
 mail-context-menu-forward-forward =
     .label = Edasta
     .accesskey = d
+mail-context-menu-forward-inline =
+    .label = Tekstina
+    .accesskey = T
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Manusena
+           *[other] Manusena
+        }
+    .accesskey = M
+mail-context-menu-organize =
+    .label = Korralda
+    .accesskey = r
+mail-context-menu-threads =
+    .label = Lõimed
+    .accesskey = L
 context-menu-redirect-msg =
     .label = Suuna ümber
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Tühista kiri
+context-menu-decrypt-to-folder2 =
+    .label = Loo dekrüpteeritud koopia kohas
+    .accesskey = d
 
 ## Message header pane
 
@@ -164,6 +227,9 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Tähistatud
     .aria-label = Tähistatud
+message-header-delete =
+    .label = Kustuta
+    .tooltiptext = Kustuta see kiri
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -191,12 +257,18 @@ message-header-show-sender-full-address-description = E-posti aadressi kuvatakse
 message-header-show-recipient-avatar =
     .label = Kuvatakse saatja profiilipilti
     .accesskey = K
+message-header-show-big-avatar =
+    .label = Suurem profiili pilt
+    .accesskey = S
 message-header-hide-label-column =
     .label = Väljade nimede veerg peidetakse
     .accesskey = V
 message-header-large-subject =
     .label = Teemat kuvatakse suurelt
     .accesskey = T
+message-header-all-headers =
+    .label = Kuva kõik päised
+    .accesskey = K
 
 ## Action Button Context Menu
 
@@ -332,9 +404,19 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Unusta OpenPGP paroolid
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% täis
+    .title = IMAP kvoot: kasutusel { $usage }, kokku { $limit }
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Märgi loetuks
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Ära tee midagi
