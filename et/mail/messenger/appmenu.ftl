@@ -5,6 +5,8 @@
 
 ## Sync
 
+appmenu-sync-panel-title =
+    .title = Sync
 appmenu-signin-panel =
     .label = Logi Synci sisse
     .accesskey = L

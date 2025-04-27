@@ -25,6 +25,10 @@ all-address-books-row =
     .title = Kõik aadressiraamatud
 all-address-books = Kõik aadressiraamatud
 # Variables:
+# $name (String) - The name of the selected book/list.
+# $count (Number) - The number of contacts in the selected book/list.
+about-addressbook-card-count = Kontakte kokku { $name }: { $count }
+# Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = Kontakte kõigis aadressiraamatutes: { $count }
 about-addressbook-books-context-properties =
@@ -217,6 +221,7 @@ about-addressbook-details-email-addresses-header = E-posti aadressid
 about-addressbook-details-phone-numbers-header = Telefoninumbrid
 about-addressbook-details-addresses-header = Addresses
 about-addressbook-details-notes-header = Märkmed
+about-addressbook-details-websites-header = Veebilehed
 about-addressbook-details-other-info-header = Muu info
 about-addressbook-entry-type-work = Töö
 about-addressbook-entry-type-home = Kodu
@@ -231,6 +236,10 @@ about-addressbook-entry-name-role = Roll
 about-addressbook-entry-name-organization = Organisatsioon
 about-addressbook-entry-name-website = Sait
 about-addressbook-entry-name-time-zone = Ajavöönd
+about-addressbook-entry-name-custom1 = Kohandatud 1
+about-addressbook-entry-name-custom2 = Kohandatud 2
+about-addressbook-entry-name-custom3 = Kohandatud 3
+about-addressbook-entry-name-custom4 = Kohandatud 4
 about-addressbook-unsaved-changes-prompt-title = Salvestamata muudatused
 about-addressbook-unsaved-changes-prompt = Kas soovid enne redigeerimisvaatest väljumist muudatused salvestada?
 

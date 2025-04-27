@@ -26,6 +26,10 @@ message-header-references-field = Viited<span data-l10n-name="field-separator">:
 message-header-message-id-field = Kirja ID<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Vastuseks <span data-l10n-name="field-separator">:</span>
 message-header-website-field = Sait<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Kirjuta
+    .accesskey = K
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.

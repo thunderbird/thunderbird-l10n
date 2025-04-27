@@ -72,6 +72,7 @@ vcard-tz-add = Lisa ajavöönd
 
 vcard-impp-add = Lisa kiirsuhtluse konto
 vcard-impp-label = Kiirsuhtluse konto
+vcard-impp-option-other = Muu
 
 # BDAY and ANNIVERSARY vCard field
 
@@ -113,3 +114,6 @@ vcard-org-org = Organisatsioon
 
 # Custom properties
 
+vcard-remove-button-title =
+    .title = Eemalda
+vcard-remove-button = Eemalda

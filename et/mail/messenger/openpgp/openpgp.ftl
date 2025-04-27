@@ -4,6 +4,10 @@
 
 e2e-intro-description = Krüptitud või digiallkirjastatud kirjade saatmiseks pead seadistama krüptimistehnoloogia, kas OpenPGP või S/MIME.
 e2e-intro-description-more = OpenPGP lubamiseks vali oma isiklik võti või isiklik sert, et lubada S/MIME kasutamine. Isikliku võtme või serdi kasutamiseks pead omama ka vastavat salajast võtit.
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Jätka
+# A label for a button that goes back one step
+e2e-csr-back = Tagasi
 e2e-signing-description = Digiallkiri võimaldab adressaatidel kontrollida, kas sõnumi saatsid sina ja selle sisu pole muudetud. Krüptitud kirjad allkirjastatakse alati vaikimisi.
 e2e-sign-message =
     .label = Krüptimata kirjad allkirjastatakse
@@ -455,6 +459,7 @@ key-man-button-export-pub-key = Ekspordi &ainult avalikud võtmed
 key-man-button-refresh-all = &Uuenda kõik võtmed
 key-man-loading-keys = Võtmete laadimine, palun oota…
 ascii-armor-file = ASCII-soomustatud failid (*.asc)
+text-file = Tekstifailid (*.txt)
 no-key-selected = Valitud tegevuse tegemiseks peaksid valima vähemalt ühe võtme
 export-to-file = Ekspordi avalik võti faili
 export-keypair-to-file = Ekspordi salajane ja avalik võti faili
@@ -596,6 +601,7 @@ confirm-permissive-import = Importimine ebaõnnestus. Imporditav võti võib oll
 
 ## Strings used in trust.jsm
 
+help-button = Abi
 
 ## Strings used in trust.sys.mjs
 

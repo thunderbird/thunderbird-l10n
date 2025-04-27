@@ -5,6 +5,9 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Identiteedi { $identity } jaoks isikliku OpenPGP võtme lisamine
+key-wizard-dialog =
+    .buttonlabelaccept = Jätka
+    .buttonlabelextra1 = Mine tagasi
 key-wizard-warning = <b>Kui sul on olemas isiklik võti</b> selle e-posti aadressi jaoks, siis sa peaksid selle importima. Muul juhul puudub sul ligipääs oma arhiivis olevatele krüptitud kirjadele või sul pole võimalik lugeda sissetulevaid krüptitud kirju inimestelt, kes endiselt kasutavad sinu olemasolevat võtit.
 key-wizard-learn-more = Rohkem teavet
 radio-create-key =

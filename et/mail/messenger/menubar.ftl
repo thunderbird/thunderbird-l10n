@@ -14,18 +14,36 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Lisad ja teemad
     .accesskey = L
+menu-export-for-mobile =
+    .label = Ekspordi mobiili
+    .accesskey = m
 
 ## Help Menu
 
 menu-help-help-title =
     .label = Abi
     .accesskey = b
+menu-help-get-help =
+    .label = Otsi abi
+    .accesskey = a
+menu-help-get-involved =
+    .label = Osale
+    .accesskey = O
+menu-help-donation =
+    .label = Tee annetus
+    .accesskey = T
+menu-help-share-feedback =
+    .label = Jaga ideesid ja tagasisidet
+    .accesskey = J
 menu-help-enter-troubleshoot-mode =
     .label = Probleemide lahendamise režiim…
     .accesskey = P
 menu-help-exit-troubleshoot-mode =
     .label = Lülita probleemide lahendamise režiim välja
     .accesskey = L
+menu-help-about-product =
+    .label = Teave { -brand-short-name }i kohta
+    .accesskey = k
 # These menu-quit strings are only used on Windows and Linux.
 menu-quit =
     .label =
@@ -41,6 +59,12 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Välju { -brand-shorter-name }ist
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Välju { -brand-full-name }ist
+           *[other] Välju { -brand-full-name }ist
+        }
 # Localization note: Do not translate unless your locale's keyboard layout
 # does not include this key, as it determines the keyboard shortcut for
 # shutting down the application.
@@ -109,6 +133,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = E-posti konto…
+    .accesskey = E
 file-new-newsgroup-account =
     .label = Uudistegruppide konto…
     .accesskey = U
