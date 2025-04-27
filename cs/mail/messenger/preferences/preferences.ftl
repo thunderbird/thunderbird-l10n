@@ -998,6 +998,10 @@ qr-export-more-accounts = Exportovat více účtů
 
 appearance-category-header = Vzhled
 default-message-list-legend = Seznam zpráv
+appearance-view-style =
+    .value = Styl zobrazení:
+appearance-radio-table =
+    .label = Zobrazení tabulky
 default-message-list-description = Definuje výchozí možnosti třídění a řazení pro nově vytvořené složky.
 default-flag-label =
     .value = Výchozí vlákna:
