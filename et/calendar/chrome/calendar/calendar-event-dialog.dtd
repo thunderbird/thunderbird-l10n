@@ -339,7 +339,7 @@
 <!ENTITY event.freebusy.legend.busy_unavailable "Kontorist väljas">
 <!ENTITY event.freebusy.legend.unknown "Informatsioon puudub">
 <!ENTITY event.attendee.role.required "Kohustuslik osaleja">
-<!ENTITY event.attendee.role.optional "Vabatahtlik osaleja">
+<!ENTITY event.attendee.role.optional "Valikuline osaleja">
 <!ENTITY event.attendee.role.chair "Koosoleku juhataja">
 <!ENTITY event.attendee.role.nonparticipant "Vaatleja">
 <!ENTITY event.attendee.usertype.individual "Isik">

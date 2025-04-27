@@ -5,7 +5,7 @@
 event-attendee-role-required =
     .title = Kohustuslik osaleja
 event-attendee-role-optional =
-    .title = Vabatahtlik osaleja
+    .title = Valikuline osaleja
 event-attendee-role-nonparticipant =
     .title = Vaatleja
 event-attendee-role-chair =
