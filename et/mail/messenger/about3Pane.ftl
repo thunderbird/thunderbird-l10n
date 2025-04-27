@@ -265,6 +265,11 @@ threadpane-column-header-correspondents = Kirjavahetajad
     .title = Sordi kirjavahetajate järgi
 threadpane-column-label-correspondents =
     .label = Kirjavahetajad
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Kirjavahetajad
+    .title = { $title }
 threadpane-column-header-subject = Teema
     .title = Sordi teema järgi
 threadpane-column-label-subject =

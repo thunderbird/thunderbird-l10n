@@ -45,4 +45,4 @@ openpgp-partially-encrypted = 此消息中只有一部分使用 OpenPGP 进行�
 openpgp-reminder-partial-display = 提醒：下方显示的消息只是原始消息的一部分。
 openpgp-partial-verify-button = 验证
 openpgp-partial-decrypt-button = 解密
-openpgp-unexpected-key-for-you = 警告：此消息包含一个声称属于您的电子邮件地址的未知 OpenPGP 密钥。如果此密钥不属于您，则代表可能有人试图欺骗其他联系人。
+openpgp-unexpected-key-for-you = 警告：此消息包含一个声称属于您的电子邮件地址的未知 OpenPGP 密钥。如果此密钥不属于您，则代表可能有人试图欺骗其他通信者。

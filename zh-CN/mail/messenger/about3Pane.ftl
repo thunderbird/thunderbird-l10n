@@ -266,7 +266,7 @@ threadpane-column-label-correspondents =
 # Variables:
 # $title (String) - Message correspondents for tooltip.
 threadpane-cell-correspondents-title =
-    .aria-label = 联系人
+    .aria-label = 通信者
     .title = { $title }
 threadpane-column-header-subject = 主题
     .title = 按主题排序

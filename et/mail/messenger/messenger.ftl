@@ -33,6 +33,10 @@ content-tab-security-broken-icon =
 
 # Back
 
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Tagasi
+    .accesskey = g
 
 # Forward
 

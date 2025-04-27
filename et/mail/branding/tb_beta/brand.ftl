@@ -12,7 +12,11 @@
 ##
 ## Reference: https://www.mozilla.org/styleguide/communications/translation/
 
+-brand-shorter-name = Thunderbird Beeta
+-brand-short-name = Thunderbird Beeta
+-brand-full-name = Mozilla Thunderbird Beeta
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Daily, Beta, etc.).
 -brand-product-name = Thunderbird
 -vendor-short-name = Mozilla
+trademarkInfo = Mozilla Thunderbird ja Thunderbirdi logod on Mozilla Foundation'i kaubamärgid.
