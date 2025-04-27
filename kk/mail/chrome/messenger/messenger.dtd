@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "Т">
 <!ENTITY contextMoveMsgMenu.label "Қайда жылжыту">
 <!ENTITY contextMoveMsgMenu.accesskey "й">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Жуырдағы мақсаттар">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Соңғы">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "о">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Таңдамалы">
