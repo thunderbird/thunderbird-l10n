@@ -269,6 +269,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Жұлдызша қойылған
     .aria-label = Жұлдызша қойылған
+message-header-delete =
+    .label = Өшіру
+    .tooltiptext = Бұл хабарламаны өшіру
+message-header-undelete =
+    .label = Қалпына келтіру
+    .tooltiptext = Өшірілгенді қалпына келтіру
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -464,4 +470,7 @@ quota-panel-percent-used = { $percent }% толық
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Оқылған ретінде белгілеу
 delete-action = Өшіру
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Ешнәрсе жасамау
