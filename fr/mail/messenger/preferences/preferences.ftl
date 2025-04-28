@@ -964,7 +964,6 @@ default-sort-ascending-description = Nouveaux messages en bas
 default-sort-descending =
     .label = Ordre décroissant
 default-sort-descending-description = Nouveaux messages en haut
-apply-thread-sort-label = Propager les paramètres d’en-tête et de tri vers :
 apply-sort-label = Appliquer ces paramètres à :
 apply-sort-to-all-button =
     .label = Tous les dossiers existants
