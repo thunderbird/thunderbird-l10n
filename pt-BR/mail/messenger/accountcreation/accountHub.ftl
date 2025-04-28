@@ -145,4 +145,7 @@ account-hub-port-error-text = A porta deve estar entre 1 e 65535
 account-hub-username-error-text = Nome de usuário é obrigatório
     .title = Nome de usuário é obrigatório
 account-hub-oauth-pending = Aguardando autorização na janela de entrada na conta…
+account-hub-addon-install-needed = O { -brand-short-name } não tem suporte nativo para este servidor. Para acessar email do Exchange, <a data-l10n-name="addon-install"> instale uma extensão de terceiros, como o Owl (pago)</a>.
+account-hub-addon-error = Falha na instalação da extensão. Tente novamente ou entre em contato com a pessoa responsável pela extensão para receber ajuda.
+account-hub-security-warning = <span data-l10n-name="security-warning">Aviso: Detectado servidor não seguro de email.</span> Este servidor não tem criptografia, expondo sua senha e dados. Entre em contato com seu administrador para proteger a conexão ou prossiga por sua conta e risco. <a data-l10n-name="faq-link">Consulte mais dúvidas frequentes.</a>
 account-hub-account-authentication-error = Erro de autenticação.
