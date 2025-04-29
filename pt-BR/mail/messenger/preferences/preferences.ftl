@@ -950,6 +950,7 @@ default-sort-received =
     .label = Ordem de chegada
 default-sort-correspondents =
     .label = Correspondentes
+default-order-label = Ordem padrão:
 default-sort-ascending =
     .label = Crescente
 default-sort-ascending-description = Novas mensagens embaixo
