@@ -915,7 +915,14 @@ appearance-card-style-3 =
     .label = 3 linhas
 appearance-card-style-2 =
     .label = 2 linhas
-default-message-list-description = Defina as opções padrão de ordenação e tópicos de pastas recém-criadas.
+default-message-list-sorting-legend = Ordenação e agrupamento
+default-message-list-description = Define as opções padrão de ordenação e agrupamento de pastas recém-criadas.
+default-flag-label =
+    .value = Agrupamento padrão:
+default-flag-unthreaded =
+    .label = Não agrupado
+default-flag-threaded =
+    .label = Agrupado
 default-flag-grouped =
     .label = Agrupado pela ordem
 default-sort-label = Por padrão, ordenar por:
@@ -962,6 +969,7 @@ default-sort-ascending-description = Novas mensagens embaixo
 default-sort-descending =
     .label = Decrescente
 default-sort-descending-description = Novas mensagens no alto
+apply-thread-sort-label = Propagar configurações de agrupamento e ordenação para:
 apply-sort-label = Aplicar estas configurações a:
 apply-sort-to-all-button =
     .label = Todas as pastas existentes
@@ -974,5 +982,12 @@ apply-current-view-to-folder =
 apply-current-view-to-folder-children =
     .label = Pasta e subpastas…
 apply-changes-prompt-title = Aplicar alterações?
+apply-changes-prompt-message = Aplicar as configurações atuais de agrupamento e ordenação a todas as pastas?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Aplicar as configurações atuais de agrupamento e ordenação a “{ $name }”?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Aplicar as configurações atuais de agrupamento e ordenação a “{ $name }” e seus filhos?
 apply-current-view-error = Não foi possível aplicar a configuração de exibição atual
 apply-current-view-success = Configuração de exibição atual aplicada com sucesso
