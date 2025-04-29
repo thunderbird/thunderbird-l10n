@@ -315,6 +315,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Erakutsi izenburu guztiak
     .accesskey = E
+message-header-dark-message-toggle =
+    .label = Erakutsi mezu ilunaren moduaren etengailua
+    .accesskey = i
 
 ## Action Button Context Menu
 
@@ -472,5 +475,6 @@ quota-panel-percent-used = { $percent }% full
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Markatu irakurritako gisa
+delete-action = Ezabatu
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Ez egin ezer
