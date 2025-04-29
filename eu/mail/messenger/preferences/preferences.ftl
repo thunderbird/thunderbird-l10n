@@ -971,6 +971,7 @@ default-sort-ascending-description = Mezu berriak azpialdean
 default-sort-descending =
     .label = Beherantz
 default-sort-descending-description = Mezu berriak goialdean
+apply-thread-sort-label = Edatu Hari-antolaketa eta ordenazio ezarpenak honetara:
 apply-sort-label = Honako ezarpenak ezarri honi:
 apply-sort-to-all-button =
     .label = Dauden karpena guztiak
@@ -983,5 +984,12 @@ apply-current-view-to-folder =
 apply-current-view-to-folder-children =
     .label = Karpeta eta bere umeak…
 apply-changes-prompt-title = Aplikatu aldaketak?
+apply-changes-prompt-message = Hari-antolaketa eta ordenazio-ezarpenak karpeta guztietan aplikatu?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Aplikatu uneko hari-antolaketa eta ordenazio-ezarpenak “{ $name }”-(er)i?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Aplikatu uneko hari- eta ordenazio-ezarpenak “{ $name }”-ri eta bere menpekoei?
 apply-current-view-error = Ezinezkoa da honako ezarpenak aplikatzea
 apply-current-view-success = Ezarritako ezarpenak ondo aplikatu dira
