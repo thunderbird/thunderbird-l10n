@@ -84,11 +84,11 @@ command-operserv = { $commandName } &lt;εντολή&gt;: Στείλετε μι�
 # $commandName is the command name
 command-part = { $commandName } [μήνυμα]: Αφήστε το τρέχον κανάλι προαιρετικά με κάποιο μήνυμα.
 # $commandName is the command name
-command-ping = { $commandName } [&lt;ψευδώνυμο&gt;]: Ρωτήστε πόσο είναι η καθυστέρηση με κάποιο χρήστη (ή με το διακομιστή αν δεν καθορίζεται χρήστης).
+command-ping = { $commandName } [&lt;ψευδώνυμο&gt;]: Ρωτήστε πόση είναι η καθυστέρηση με κάποιο χρήστη (ή με τον διακομιστή αν δεν καθοριστεί χρήστης).
 # $commandName is the command name
-command-quit = { $commandName } &lt;μήνυμα&gt;: Αποσύνδεση από το διακομιστή, προαιρετικά με κάποιο μήνυμα.
+command-quit = { $commandName } &lt;μήνυμα&gt;: Αποσύνδεση από τον διακομιστή, προαιρετικά με κάποιο μήνυμα.
 # $commandName is the command name
-command-quote = { $commandName } &lt;εντολή&gt;: Αποστολή μη επεξεργασμένης εντολής στο διακομιστή.
+command-quote = { $commandName } &lt;εντολή&gt;: Αποστολή μη επεξεργασμένης εντολής στον διακομιστή.
 # $commandName is the command name
 command-time = { $commandName }: Εμφάνιση της τοπικής ώρας του διακομιστή IRC.
 # $commandName is the command name
