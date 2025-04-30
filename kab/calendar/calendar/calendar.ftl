@@ -472,6 +472,11 @@ single-long-calendar-week = Tafad1 n ddurt: { $index }
 #    $index will be replaced with the index of the week
 single-calendar-week = Dduṛt: { $index }
     .title = Tafad1 n ddurt: { $index }
+# LOCALIZATION NOTE (several-long-calendar-weeks):
+# used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-long-calendar-weeks = Imalasen { $startIndex } ar { $endIndex }
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week

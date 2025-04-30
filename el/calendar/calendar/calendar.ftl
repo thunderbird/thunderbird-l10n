@@ -110,7 +110,7 @@ duplicate-error =
        *[other] { $count } αντικείμενο/α αγνοήθηκε/αν, δεδομένου ότι υπάρχει/ουν τόσο στο ημερολόγιο προορισμού όσο και στο { $filePath }.
     }
 # $location unknown calendar location
-unable-to-create-provider = Παρουσιάστηκε σφάλμα κατά την προετοιμασία για χρήση του ημερολογίου που βρίσκεται στο { $location }. Δεν θα είναι διαθέσιμο.
+unable-to-create-provider = Προέκυψε σφάλμα κατά την προετοιμασία προς χρήση του ημερολογίου που βρίσκεται στο { $location }. Δεν θα είναι διαθέσιμο.
 # Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
 # $timezone timezone name, $title item title, $datetime date-time
 unknown-timezone-in-item = Άγνωστη ζώνη ώρας «{ $timezone }» στο «{ $title }». Αντιμετωπίζεται ως «ρευστή» τοπική ζώνη ώρας: { $datetime }
@@ -179,7 +179,7 @@ filter-ics = iCalendar ({ $wildmat })
 # wildmat used to filter files by extension, such as (*.html; *.htm).
 filter-html = Ιστοσελίδα ({ $wildmat })
 # Remote calendar errors
-generic-error-title = Παρουσιάστηκε σφάλμα
+generic-error-title = Προέκυψε σφάλμα
 # $statusCode $statusCodeInfo status code info
 http-put-error =
     Η δημοσίευση του αρχείου ημερολογίου απέτυχε.
@@ -204,7 +204,7 @@ minor-error = Υπήρξε σφάλμα κατά την ανάγνωση δεδ�
 # used for an message like 'There has been an error reading data for calendar: Home.'
 #    $name will be replaced with the name of a calendar
 still-read-only-error = Υπήρξε ένα σφάλμα κατά την ανάγνωση δεδομένων για το ημερολόγιο: { $name }.
-utf8-decode-error = Παρουσιάστηκε σφάλμα κατά την αποκωδικοποίηση αρχείου iCalendar (ics) ως UTF-8. Ελέγξτε ότι το αρχείο, συμπεριλαμβανομένων συμβόλων και τονισμένων γραμμάτων, έχει κωδικοποιηθεί χρησιμοποιώντας την κωδικοποίηση χαρακτήρων UTF-8.
+utf8-decode-error = Προέκυψε σφάλμα κατά την αποκωδικοποίηση ενός αρχείου iCalendar (ics) ως UTF-8. Ελέγξτε ότι το αρχείο, συμπεριλαμβανομένων των συμβόλων και των τονισμένων γραμμάτων, έχει κωδικοποιηθεί με κωδικοποίηση χαρακτήρων UTF-8.
 ics-malformed-error = Η ανάλυση του αρχείου iCalendar (ics) απέτυχε. Ελέγξτε ότι το αρχείο πληροί τις συντακτικές προδιαγραφές ενός αρχείου iCalendar (ics).
 item-modified-on-server-title = Το στοιχείο άλλαξε στο διακομιστή
 item-modified-on-server = Αυτό το στοιχείο έχει μεταβληθεί πρόσφατα στο διακομιστή.
@@ -220,10 +220,10 @@ proceed-delete =
 dav-not-dav = Ο πόρος στο { $name } ή δεν είναι συλλογή DAV ή δεν είναι διαθέσιμος
 # $name calendar name
 dav-dav-not-cal-dav = Ο πόρος στο { $name } είναι μεν συλλογή DAV αλλά όχι ημερολόγιο CalDAV
-item-put-error = Παρουσιάστηκε σφάλμα κατά την αποθήκευση του στοιχείου στο διακομιστή.
-item-delete-error = Παρουσιάστηκε σφάλμα κατά τη διαγραφή του στοιχείου από το διακομιστή.
-cal-dav-request-error = Παρουσιάστηκε σφάλμα κατά την αποστολή της πρόσκλησης.
-cal-dav-response-error = Παρουσιάστηκε σφάλμα κατά την αποστολή της απάντησης.
+item-put-error = Προέκυψε σφάλμα κατά την αποθήκευση του στοιχείου στον διακομιστή.
+item-delete-error = Προέκυψε σφάλμα κατά τη διαγραφή του στοιχείου από τον διακομιστή.
+cal-dav-request-error = Προέκυψε σφάλμα κατά την αποστολή της πρόσκλησης.
+cal-dav-response-error = Προέκυψε σφάλμα κατά την αποστολή της απάντησης.
 # $statusCode status code
 cal-dav-request-status-code = Κωδικός κατάστασης: { $statusCode }
 cal-dav-request-status-code-string-generic = Δεν είναι δυνατό να γίνει η επεξεργασία του αιτήματος.
