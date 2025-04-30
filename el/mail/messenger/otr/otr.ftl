@@ -57,7 +57,7 @@ context-gone-secure-unverified = Ξεκίνησε κρυπτογραφημένη
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 context-still-secure = Έγινε επιτυχής ανανέωση της κρυπτογραφημένης συνομιλίας με τον/την { $name }.
-error-enc = Παρουσιάστηκε σφάλμα κατά την κρυπτογράφηση του μηνύματος.
+error-enc = Προέκυψε σφάλμα κατά την κρυπτογράφηση του μηνύματος.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 error-not-priv = Στείλατε κρυπτογραφημένα δεδομένα στον/στην { $name }, που δεν τα περίμενε.

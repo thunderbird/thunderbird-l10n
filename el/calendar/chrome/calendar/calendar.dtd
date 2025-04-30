@@ -262,7 +262,7 @@
 <!ENTITY calendar.error.detail "Λεπτομέρειες…">
 <!ENTITY calendar.error.code "Κωδικός σφάλματος:">
 <!ENTITY calendar.error.description "Περιγραφή:">
-<!ENTITY calendar.error.title "Παρουσιάστηκε σφάλμα">
+<!ENTITY calendar.error.title "Προέκυψε σφάλμα">
 <!-- Extract buttons in message header -->
 <!ENTITY calendar.extract.event.button "Προσθήκη ως εκδήλωση">
 <!ENTITY calendar.extract.task.button "Προσθήκη ως εργασία">

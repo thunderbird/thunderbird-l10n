@@ -89,7 +89,7 @@ addr-book-file-picker = Επιλογή αρχείου ευρετηρίου
 addr-book-csv-field-map-title = Αντιστοίχιση ονομάτων πεδίων
 addr-book-csv-field-map-desc = Επιλέξτε τα πεδία του ευρετηρίου που αντιστοιχούν στα πεδία της πηγής. Καταργήστε την επιλογή των πεδίων που δεν θέλετε να εισαγάγετε.
 addr-book-directories-title = Επιλέξτε πού θα γίνει η εισαγωγή των επιλεγμένων δεδομένων
-addr-book-directories-pane-source = Αρχείο πηγής:
+addr-book-directories-pane-source = Αρχείο πηγαίου κώδικα:
 # $addressBookName (string) - name of the new address book that would be created.
 addr-book-import-into-new-directory2 = Δημιουργήστε έναν νέο κατάλογο με όνομα <strong>«{ $addressBookName }»</strong>
 # $addressBookName (string) - name of the address book to import into
