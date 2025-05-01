@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Altere as propriedades e etiquetas das
 webext-perms-description-messagesTags = Criar, modificar e apagar etiquetas da mensagem
 webext-perms-description-messagesTagsList = Listar etiquetas da mensagem
 webext-perms-description-sensitiveDataUpload = Transferir dados sensíveis do utilizador (se o acesso tiver sido concedido) para um servidor remoto para processamento adicional
+webext-perms-description-messengerSettings = Ler as definições do { -brand-short-name }

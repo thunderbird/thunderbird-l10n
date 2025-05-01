@@ -169,6 +169,21 @@ menu-smime =
 menu-encrypt =
     .label = Encriptar
     .accesskey = E
+menu-encrypt-subject =
+    .label = Encriptar Assunto
+    .accesskey = E
+menu-sign =
+    .label = Assinar Digitalmente
+    .accesskey = i
+menu-manage-keys =
+    .label = Assistente de Chave
+    .accesskey = A
+menu-view-certificates =
+    .label = Ver Certificados de Destinatários
+    .accesskey = V
+menu-open-key-manager =
+    .label = Gestor de Chaves
+    .accesskey = t
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.

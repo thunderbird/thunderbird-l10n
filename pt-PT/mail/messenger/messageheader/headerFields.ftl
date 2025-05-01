@@ -44,6 +44,12 @@ message-header-message-id-field = ID da mensagem<span data-l10n-name="field-sepa
 message-header-in-reply-to-field = Em resposta a<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Website<span data-l10n-name="field-separator">:</span>
 message-header-list-id-field = Lista-ID<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = Lista-Ajuda<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = Lista-Cancelar Subscrição<span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = Lista-Subscrever<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = Lista-Publicar<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = Lista-Dono<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = Lista-Arquivo<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Obter Ajuda
@@ -86,3 +92,7 @@ message-ids-field-show-all = Mostrar tudo
 
 ## Dark Message Mode
 
+dark-message-mode-toggle-enabled =
+    .title = Desativar o modo de mensagem escuro
+dark-message-mode-toggle-disabled =
+    .title = Ativar o modo de mensagem escuro

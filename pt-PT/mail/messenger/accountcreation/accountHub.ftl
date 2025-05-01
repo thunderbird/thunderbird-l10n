@@ -106,6 +106,8 @@ account-hub-email-enter-password = Introduza a palavra-passe da sua conta de e-m
 account-hub-email-sync-accounts = Sincronize os seus calendários e livros de endereços
 account-hub-test-configuration = Teste
 account-hub-add-new-email = Adicionar outro email
+account-hub-result-imap-description = Mantenha as suas pastas e as mensagens sincronizadas no seu servidor
+account-hub-result-pop-description = Mantenha as suas pastas e as mensagens no seu computador
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-text = Servidor
 account-hub-result-recommended-label = Recomendado
@@ -127,3 +129,18 @@ account-hub-sync-accounts-selected =
     }
 account-hub-no-address-books = Não foram encontrados livros de endereços
 account-hub-no-calendars = Não foram encontrados calendários
+account-hub-email-added-success-links-title = Explore as opções para segurança e personalização:
+account-hub-signature-link = Assinatura de e-mail
+account-hub-email-error-text = Por favor, insira um endereço de e-mail válido
+account-hub-name-error-text = Por favor, insira um nome
+account-hub-hostname-error-text = Nome do servidor vazio ou inválido. São permitidos apenas letras, números, - e .
+    .title = Nome do servidor vazio ou inválido. São permitidos apenas letras, números, - e .
+account-hub-port-error-text = A porta deve estar entre 1 e 65535
+    .title = A porta deve estar entre 1 e 65535
+account-hub-username-error-text = É necessário um nome de utilizador
+    .title = É necessário um nome de utilizador
+account-hub-oauth-pending = A aguardar por autorização na janela de autenticação…
+account-hub-addon-install-needed = O { -brand-short-name } não suporta nativamente este servidor. Para aceder ao e-mail de Exchange, <a data-l10n-name="addon-install">instale um extra de terceiros, como o Owl (pago).</a>
+account-hub-addon-error = A instalação do extra falhou. Por favor, tente novamente ou contacte o autor do extra para assistência.
+account-hub-security-warning = <span data-l10n-name="security-warning">Aviso: foi detetado um servidor de correio inseguro.</span> Este servidor não tem encriptação, expondo a sua palavra-passe e os dados. Contacte o seu administrador para proteger a ligação ou prossiga por sua conta e risco. <a data-l10n-name="faq-link">Consulte as perguntas frequentes para saber mais.</a>
+account-hub-account-authentication-error = Erro de autenticação.
