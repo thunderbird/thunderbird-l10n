@@ -475,5 +475,6 @@ quota-panel-percent-used = { $percent }% i mbushur
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Vëri Shenjë si të Lexuar
+delete-action = Fshije
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Mos Bëj Gjë
