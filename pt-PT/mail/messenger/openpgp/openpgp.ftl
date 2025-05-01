@@ -4,10 +4,17 @@
 
 e2e-intro-description = Para enviar mensagens encriptadas ou assinadas digitalmente, tem de configurar uma tecnologia de encriptação, OpenPGP ou S/MIME.
 e2e-intro-description-more = Selecione a sua chave pessoal para ativar a utilização do OpenPGP, ou o seu certificado pessoal para ativar a utilização do S/MIME. Para uma chave ou certificado pessoal, você possui a respetiva chave secreta.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Gerar CSR
 # A label for a button that proceeds to the next step
 e2e-csr-continue = Continuar
 # A label for a button that goes back one step
 e2e-csr-back = Retroceder
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Gerar e guardar um ficheiro CSR como…
+# Do not translate: CSR
+e2e-csr-select-title = Algoritmo de CSR
 e2e-signing-description = Uma assinatura digital permite que os destinatários verifiquem que a mensagem foi enviada por si e se o seu conteúdo não foi alterado. As mensagens encriptadas são assinadas por predefinição
 e2e-sign-message =
     .label = Assinar as mensagens não encriptadas
@@ -76,9 +83,18 @@ openpgp-key-man-backup-secret-keys =
 openpgp-key-man-discover-cmd =
     .label = Descobrir chaves na Internet
     .accesskey = D
+openpgp-key-man-publish-cmd =
+    .label = Publicar
+    .accesskey = P
 openpgp-key-publish = Publicar
 openpgp-key-man-discover-prompt = Para descobrir chaves OpenPGP na Internet, em servidores de chaves ou utilizando o protocolo WKD, insira um endereço de e-mail ou um ID de chave.
 openpgp-key-man-discover-progress = A procurar…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Chave pública enviada para "{ $keyserver }".
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Não foi possível enviar a sua chave pública para "{ $keyserver }".
 openpgp-key-copy-key =
     .label = Copiar chave pública
     .accesskey = C
@@ -156,6 +172,9 @@ openpgp-key-man-reload =
 openpgp-key-man-change-expiry =
     .label = Alterar data de validade
     .accesskey = e
+openpgp-key-man-refresh-online =
+    .label = Atualizar online
+    .accesskey = o
 openpgp-key-man-ignored-ids =
     .label = Endereços de e-mail
 openpgp-key-man-del-key =
@@ -203,6 +222,7 @@ openpgp-key-man-select-all-key =
     .key = T
 openpgp-key-man-key-details-key =
     .key = l
+openpgp-ign-addr-intro = Você aceita a utilização desta chave para os seguintes endereços de e-mail selecionados:
 openpgp-key-details-doc-title = Propriedades da chave
 openpgp-key-details-signatures-tab =
     .label = Certificações

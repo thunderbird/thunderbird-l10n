@@ -203,6 +203,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Marcar como Lixo
     .tooltiptext = Marcar como Lixo
+context-menu-mark-not-junk =
+    .aria-label = Marcar como não sendo lixo eletrónico
+    .tooltiptext = Marcar como não sendo lixo eletrónico
 mail-context-menu-open =
     .label = Abrir
     .accesskey = A
@@ -267,6 +270,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Com estrela
     .aria-label = Com estrela
+message-header-delete =
+    .label = Eliminar
+    .tooltiptext = Eliminar esta mensagem
+message-header-undelete =
+    .label = Recuperar
+    .tooltiptext = Recuperar esta mensagem
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -306,6 +315,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Mostrar todos os cabeçalhos
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = Mostrar o interruptor do modo de mensagem escuro
+    .accesskey = e
 
 ## Action Button Context Menu
 
@@ -322,6 +334,9 @@ toolbar-context-menu-remove-extension =
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Remover { $name }?
 addon-removal-confirmation-button = Remover
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-confirmation-message = Remover { $name }, bem como a respetiva configuração e os seus dados do { -brand-short-name }?
 caret-browsing-prompt-title = Navegação por Cursor
 caret-browsing-prompt-text = Pressionar F7 ativa ou desativa a Navegação por Cursor. Esta funcionalidade coloca um cursor móvel dentro de algum conteúdo, permitindo-lhe selecionar texto com o teclado. Quer ativar esta navegação?
 caret-browsing-prompt-check-text = Não voltar a perguntar.
@@ -336,6 +351,14 @@ no-reply-reply-anyway-button = Mesmo Assim, Responder
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } de { $total } mensagem não pode ser desencriptada e não foi copiada.
+       *[other] { $failures } de { $total } mensagens não puderam ser desencriptadas e não foram copiadas.
+    }
 
 ## Spaces toolbar
 
@@ -449,3 +472,6 @@ quota-panel-percent-used = { $percent }% utilizado
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Marcar como lida
+delete-action = Eliminar
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Não fazer nada

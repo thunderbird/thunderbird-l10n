@@ -170,19 +170,19 @@ menu-encrypt =
     .label = Encriptar
     .accesskey = E
 menu-encrypt-subject =
-    .label = Encriptar Assunto
+    .label = Encriptar assunto
     .accesskey = E
 menu-sign =
-    .label = Assinar Digitalmente
+    .label = Assinar digitalmente
     .accesskey = i
 menu-manage-keys =
-    .label = Assistente de Chave
+    .label = Assistente de chaves
     .accesskey = A
 menu-view-certificates =
-    .label = Ver Certificados de Destinatários
+    .label = Ver certificados de destinatários
     .accesskey = V
 menu-open-key-manager =
-    .label = Gestor de Chaves
+    .label = Gestor de chaves
     .accesskey = t
 # Variables:
 # $addr (String) - Email address (which related to the currently selected
@@ -273,12 +273,24 @@ encrypted-bcc-ignore-button = Compreendi
 
 # Tools
 
+compose-tool-button-remove-text-styling =
+    .tooltiptext = Remover estilos de texto
 
 ## Filelink
 
+# A text used in a tooltip of Filelink attachments, whose account has been
+# removed or is unknown.
+cloud-file-unknown-account-tooltip = Carregado para uma conta Filelink desconhecida.
 
 # Placeholder file
 
+# Title for the html placeholder file.
+# $filename - name of the file
+cloud-file-placeholder-title = { $filename } - Anexo de Filelink
+# A text describing that the file was attached as a Filelink and can be downloaded
+# from the link shown below.
+# $filename - name of the file
+cloud-file-placeholder-intro = O ficheiro { $filename } foi anexado como um Filelink. Este pode ser transferido a partir da ligação abaixo.
 
 # Template
 
@@ -317,9 +329,21 @@ cloud-file-rename-error-with-custom-message-title = A renomeação de { $filenam
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-rename-not-supported = O { $provider } não suporta a renomeação de ficheiros já enviados.
+cloud-file-attachment-error-title = Erro de anexo do Filelink
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = Não foi possível atualizar o anexo { $filename } do Filelink, porque o seu ficheiro local foi movido ou eliminado.
+cloud-file-account-error-title = Erro de conta do Filelink
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-account-error = Não foi possível atualizar o anexo { $filename } do Filelink, porque a respetiva conta Filelink foi eliminada.
 
 ## Link Preview
 
+link-preview-title = Pré-visualizar ligação
+link-preview-description = O { -brand-short-name } pode adicionar uma pré-visualização incorporada ao colar as ligações.
+link-preview-autoadd = Adicionar automaticamente as pré-visualizações de ligações quando for possível
+link-preview-replace-now = Adicionar uma pré-visualização de ligação para esta ligação?
 link-preview-yes-replace = Sim
 
 ## Dictionary selection popup
@@ -327,3 +351,5 @@ link-preview-yes-replace = Sim
 spell-add-dictionaries =
     .label = Adicionar Dicionários…
     .accesskey = A
+subject-encription-icon =
+    .title = O assunto não será encriptado
