@@ -24,6 +24,6 @@ calendar-dialog-description-expand-icon =
 #   $categories (String): List of all categories.
 calendar-dialog-more-categories =
     { $additionalCategories ->
-       *[other] 還有 { $additionalCategries } 多個
+       *[other] + { $additionalCategories } 個分類
     }
-    .title = { $categries }
+    .title = { $categories }
