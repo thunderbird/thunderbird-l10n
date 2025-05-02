@@ -476,5 +476,6 @@ quota-panel-percent-used = { $percent }% πλήρες
 
 mark-as-read-action = Επισήμανση ως αναγνωσμένο
 delete-action = Διαγραφή
+mark-as-starred-action = Επισήμανση με αστέρι
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Καμία ενέργεια
