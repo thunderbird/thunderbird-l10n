@@ -14,7 +14,7 @@ connection-error-lost = Ühendus serveriga katkes
 connection-error-time-out = Ühenduse ajalimiit ületati
 # $username (String) username
 connection-error-invalid-username = { $username } pole lubatud kasutajanimi
-connection-error-invalid-password = Vigane serveri parool
+connection-error-invalid-password = Sobimatu serveri parool
 connection-error-password-required = Parool on nõutud
 connection-error-invalid-user-password = Sobimatu parool
 # LOCALIZATION NOTE (join-chat-*):
@@ -234,7 +234,7 @@ tooltip-secure = Kasutab turvalist ühendust
 tooltip-away = Eemal
 tooltip-irc-op = IRC operaator
 tooltip-bot = Bot
-tooltip-last-activity = Viimane aktiivus
+tooltip-last-activity = Viimane aktiivsus
 # $timespan is the timespan elapsed since the last activity.
 tooltip-timespan = { $timespan } tagasi
 tooltip-channels = Hetkel kanalitel

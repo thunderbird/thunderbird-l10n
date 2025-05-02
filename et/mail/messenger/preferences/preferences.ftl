@@ -726,6 +726,42 @@ synced-acount-item-filters = Filtrid
 
 ## Mobile QR Export Pane
 
+qr-export-select-accounts = Vali, milliseid kontosid eksportida:
+qr-export-accounts-legend = E-posti kontod
+qr-export-select-all-accounts = Vali kõik
+qr-export-security-legend = Turvalisus
+qr-export-include-passwords = Kaasa kõikide kontode paroolid
+qr-export-start-export = Ekspordi
+qr-export-back = Tagasi
+qr-export-next = Järgmine
+qr-export-done = Valmis
 
 ## Appearance Tab
 
+appearance-category-header = Välimus
+default-sort-date =
+    .label = Kuupäev
+default-sort-subject =
+    .label = Teema
+default-sort-id =
+    .label = ID
+default-sort-thread =
+    .label = Lõim
+default-sort-status =
+    .label = Olek
+default-sort-size =
+    .label = Suurus
+default-sort-location =
+    .label = Asukoht
+default-sort-attachments =
+    .label = Manused
+default-sort-account =
+    .label = Konto
+choose-apply-sort-button =
+    .label = Vali...
+    .accesskey = V
+apply-current-view-to-folder =
+    .label = Kaust...
+apply-current-view-to-folder-children =
+    .label = Kaustale ja selle alamkaustadele…
+apply-changes-prompt-title = Kas rakendada muudatused?
