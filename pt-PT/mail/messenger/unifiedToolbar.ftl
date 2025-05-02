@@ -39,6 +39,7 @@ customize-space-tab-chat = Conversas
     .title = Conversas
 customize-space-tab-settings = Definições
     .title = Definições
+customize-change-appearance = Mudar aspeto…
 customize-button-style-label = Estilo dos botões:
 customize-button-style-icons-beside-text-option = Ícones ao lado do texto
 customize-button-style-icons-above-text-option = Ícones acima do texto

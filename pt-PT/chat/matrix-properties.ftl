@@ -13,7 +13,7 @@ matrix-username-hint = ID do Matrix
 options-save-token = Guardar código de acesso
 options-device-display-name = Nome de apresentação do dispositivo
 options-homeserver = Servidor
-options-backup-passphrase = Senha da cópia de segurança da chave
+options-backup-passphrase = Frase de acesso da cópia de segurança da chave
 # LOCALIZATION NOTE (options-encryption-*):
 #   These are strings used to build the status information of the encryption
 #   storage, shown in the account manager. $status (String) is one of the statuses and the
@@ -27,9 +27,9 @@ options-encryption-key-backup = Cópia de segurança da chave de encriptação: 
 options-encryption-cross-signing = Início de Sessão Cruzado: { $status }
 options-encryption-status-ok = ok
 options-encryption-status-not-ok = não está pronto
-options-encryption-need-backup-passphrase = Por favor insira a senha da chave da cópia de segurança nas opções do protocolo.
-options-encryption-set-up-secret-storage = Para configurar o armazenamento secreto, utilize outro cliente e depois insira a senha da chave de cópia de segurança gerada no separador "Geral".
-options-encryption-set-up-backup-and-cross-signing = Para ativar as cópias de segurança da chave de encriptação e assinatura cruzada, insira a sua senha da chave de cópia de segurança no separador "Geral" ou verifique a identidade de uma das sessões abaixo.
+options-encryption-need-backup-passphrase = Introduza a frase de acesso da sua chave de segurança nas opções do protocolo.
+options-encryption-set-up-secret-storage = Para configurar o armazenamento secreto, utilize outro cliente e, em seguida, introduza a frase de acesso da chave de cópia de segurança gerada no separador “Geral”.
+options-encryption-set-up-backup-and-cross-signing = Para ativar as cópias de segurança da chave de encriptação e a assinatura cruzada, introduza a frase de acesso de cópia de segurança no separador “Geral” ou verifique a identidade de uma das sessões abaixo.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):

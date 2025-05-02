@@ -271,8 +271,19 @@ openpgp-personal-no-label =
     .label = Não, não utilizar como a minha chave pessoal.
 openpgp-personal-yes-label =
     .label = Sim, tratar esta chave como uma chave pessoal.
+openpgp-passphrase-protection =
+    .label = Proteção de frase de acesso
 openpgp-passphrase-status-unprotected = Desprotegido
+openpgp-passphrase-status-user-passphrase = Protegido por uma frase de acesso
+openpgp-passphrase-instruction-unprotected = Definir uma frase de acesso para proteger esta chave
+openpgp-passphrase-instruction-primary-password = Em alternativa, proteger esta chave com uma frase de acesso separada
 openpgp-passphrase-unlock = Desbloquear
+openpgp-remove-protection = Remover proteção de frase de acesso
+openpgp-use-primary-password = Remover frase de acesso e proteger com a palavra-passe primária
+openpgp-passphrase-new = Nova frase de acesso
+openpgp-passphrase-new-repeat = Confirmar nova frase de acesso
+openpgp-passphrase-set = Definir frase de acesso
+openpgp-passphrase-change = Alterar frase de acesso
 openpgp-copy-cmd-label =
     .label = Copiar
 
@@ -607,6 +618,17 @@ import-key-file = Importar ficheiro de chave OpenPGP
 import-rev-file = Importar ficheiro de revogação OpenPGP
 gnupg-file = Ficheiros GnuPG
 import-keys-failed = A importação das chaves falhou
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Introduza a frase de acesso para desbloquear a chave secreta com ID { $key }, criada em { $date }, por { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Introduza a frase de acesso para desbloquear a chave secreta com o ID { $subkey }, que é uma subchave do ID da chave { $key }, criada em { $date }, por { $username_and_email }
 file-to-big-to-import = Este ficheiro é demasiado grande. Não importe um grande conjunto de chaves de uma vez.
 
 ## Strings used in enigmailKeygen.js

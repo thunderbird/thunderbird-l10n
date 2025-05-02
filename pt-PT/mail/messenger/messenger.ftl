@@ -458,7 +458,7 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
-openpgp-forget = Esquecer as frases-passe do OpenPGP
+openpgp-forget = Esquecer as frases de acesso do OpenPGP
 
 ## Quota panel.
 
