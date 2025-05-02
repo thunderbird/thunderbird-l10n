@@ -19,3 +19,11 @@ calendar-dialog-description-row-icon =
 calendar-dialog-description-label = 描述
 calendar-dialog-description-expand-icon =
     .alt = 顯示完整描述
+# Variables:
+#   $additionalCategories (Number): Number of categoires not shown.
+#   $categories (String): List of all categories.
+calendar-dialog-more-categories =
+    { $additionalCategories ->
+       *[other] 還有 { $additionalCategries } 多個
+    }
+    .title = { $categries }

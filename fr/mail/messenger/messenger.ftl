@@ -480,5 +480,6 @@ quota-panel-percent-used =
 
 mark-as-read-action = Marquer comme lu
 delete-action = Supprimer
+mark-as-starred-action = Marquer comme suivi
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Ne rien faire

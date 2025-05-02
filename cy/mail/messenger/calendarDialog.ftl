@@ -19,3 +19,16 @@ calendar-dialog-description-row-icon =
 calendar-dialog-description-label = Disgrifiad
 calendar-dialog-description-expand-icon =
     .alt = Dangos y disgrifiad llawn
+# Variables:
+#   $additionalCategories (Number): Number of categoires not shown.
+#   $categories (String): List of all categories.
+calendar-dialog-more-categories =
+    { $additionalCategories ->
+        [zero] +{ $additionalCategories } arall
+        [one] +{ $additionalCategories } arall
+        [two] +{ $additionalCategories } arall
+        [few] +{ $additionalCategories } arall
+        [many] +{ $additionalCategories } arall
+       *[other] +{ $additionalCategories } arall
+    }
+    .title = { $categories }

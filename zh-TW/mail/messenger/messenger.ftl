@@ -472,5 +472,6 @@ quota-panel-percent-used = 已用 { $percent }%
 
 mark-as-read-action = 標示為已讀
 delete-action = 刪除
+mark-as-starred-action = 標示為已加星號
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = 什麼都不做
