@@ -454,5 +454,7 @@ quota-panel-percent-used = { $percent }% đã đầy
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Đánh dấu là đã đọc
+delete-action = Xóa
+mark-as-starred-action = Đánh dấu là được gắn sao
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Không làm gì

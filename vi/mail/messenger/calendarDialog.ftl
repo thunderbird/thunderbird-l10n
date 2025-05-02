@@ -14,3 +14,13 @@ calendar-dialog-date-row-recurring-icon =
     .alt = Định kỳ
 calendar-dialog-location-row-icon =
     .alt = Địa chỉ
+calendar-dialog-description-row-icon =
+    .alt = Mô tả
+calendar-dialog-description-label = Mô tả
+calendar-dialog-description-expand-icon =
+    .alt = Hiển thị đầy đủ mô tả
+# Variables:
+#   $additionalCategories (Number): Number of categoires not shown.
+#   $categories (String): List of all categories.
+calendar-dialog-more-categories = +{ $additionalCategories } mục khác
+    .title = { $categories }
