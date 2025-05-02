@@ -10,6 +10,7 @@ category-list =
 pane-general-title = Üldine
 category-general =
     .tooltiptext = { pane-general-title }
+pane-appearance-title = Välimus
 pane-compose-title = Koostamine
 category-compose =
     .tooltiptext = Koostamine
@@ -383,6 +384,15 @@ open-msg-ex-window =
 close-move-delete =
     .label = Kustutamisel või liigutamisel kirja aken/kaart suletakse
     .accesskey = K
+address-display-full =
+    .label = Täisnimi ja e-postl aadress
+    .accesskey = T
+address-display-email =
+    .label = Ainult e-post
+    .accesskey = e
+address-display-name =
+    .label = Ainult nimi
+    .accesskey = n
 condensed-addresses-label =
     .label = Aadressiraamatus olevate kontaktide puhul näidatakse ainult kuvatavat nime
     .accesskey = k
@@ -699,6 +709,20 @@ search-results-help-link = Vajad abi? Külasta lehte <a data-l10n-name="url">{ -
 
 ## Sync Tab
 
+sync-pane-sign-in = Logi sisse
+sync-pane-remove-account = Eemalda konto
+sync-pane-edit-photo =
+    .title = Muuda profiilipilti
+sync-pane-manage-account = Konto haldamine
+sync-pane-sign-out = Logi välja...
+sync-pane-device-name-title = Seadme nimi
+sync-pane-change-device-name = Muuda seadme nime
+sync-pane-cancel = Loobu
+sync-pane-save = Salvesta
+show-synced-item-calendar = Kalendrid
+show-synced-item-passwords = Paroolid
+show-synced-change = Muuda…
+synced-acount-item-filters = Filtrid
 
 ## Mobile QR Export Pane
 

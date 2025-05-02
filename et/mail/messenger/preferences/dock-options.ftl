@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+dock-options-dialog-title = Rakenduse ikooni sätted
 dock-options-show-badge =
     .label = Kuvatakse ikooni loendurit
     .accesskey = v
