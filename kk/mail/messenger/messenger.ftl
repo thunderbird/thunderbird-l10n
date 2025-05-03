@@ -314,6 +314,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Барлық тақырыптамаларды көрсету
     .accesskey = а
+message-header-dark-message-toggle =
+    .label = Хабарламалардың күңгірт режимінің ауыстырғышын көрсету
+    .accesskey = д
 
 ## Action Button Context Menu
 

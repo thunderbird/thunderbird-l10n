@@ -101,3 +101,7 @@ message-ids-field-show-all = Барлығын көрсету
 
 ## Dark Message Mode
 
+dark-message-mode-toggle-enabled =
+    .title = Хабарламалардың күңгірт режимін сөндіру
+dark-message-mode-toggle-disabled =
+    .title = Хабарламалардың күңгірт режимін іске қосу
