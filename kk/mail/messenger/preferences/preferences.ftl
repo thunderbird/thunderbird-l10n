@@ -893,6 +893,8 @@ qr-export-more-accounts = Көбірек тіркелгілерді экспор
 
 appearance-category-header = Сыртқы түрі
 default-message-list-legend = Хабарламалар тізімі
+appearance-view-style =
+    .value = Қарау стилі:
 appearance-radio-table =
     .label = Кесте көрінісі
 appearance-radio-cards =
@@ -907,6 +909,8 @@ appearance-card-style-2 =
     .label = 2 жол
 default-message-list-sorting-legend = Сұрыптау және ағындарға бөлу
 default-message-list-description = Жаңадан жасалған бумалар үшін әдепкі сұрыптау және ағындар опцияларын анықтау.
+default-flag-label =
+    .value = Негізгі ағындар:
 default-flag-unthreaded =
     .label = Ағындық емес
 default-flag-threaded =
