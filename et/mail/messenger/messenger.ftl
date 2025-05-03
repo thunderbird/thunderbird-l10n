@@ -326,6 +326,14 @@ no-reply-reply-anyway-button = Vasta igal juhul
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } kokku { $total } kirjast ei saanud dekrüpteerida ja seda ei kopeeritud.
+       *[other] { $failures } kokku { $total } kirjast ei saanud dekrüpteerida ja neid ei kopeeritud.
+    }
 
 ## Spaces toolbar
 

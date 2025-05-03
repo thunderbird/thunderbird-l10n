@@ -8,3 +8,5 @@ calendar-today-pane-show-tasks-only =
     .tooltiptext = Näita ülesandeid
 calendar-today-pane-show-events-only =
     .tooltiptext = Näita sündmusi
+calendar-today-pane-close-button =
+    .tooltiptext = Peida tänaste tegemiste paneel
