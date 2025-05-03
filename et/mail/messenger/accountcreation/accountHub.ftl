@@ -23,6 +23,8 @@ account-hub-donate = Annetamine
 
 account-hub-email-setup-button = E-postikonto
     .title = Lisa e-postikonto
+account-hub-calendar-setup-button = Kalender
+    .title = Lisa kohalik või võrgukalender
 account-hub-chat-setup-button = Kiirsuhtlus
     .title = Lisa kiirsuhtluskonto
 account-hub-feed-setup-button = RSS-voog
