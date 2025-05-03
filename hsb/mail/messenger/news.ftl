@@ -25,3 +25,6 @@ downloading-articles-for-offline =
         [few] { $count } nastawki so za { $newsgroup } sćahuja…
        *[other] { $count } nastawkow so za { $newsgroup } sćahuje…
     }
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-articles-to-download = Nastawki k sćahowanju za { $newsgroup } njejsu.

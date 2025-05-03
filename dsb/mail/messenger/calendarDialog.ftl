@@ -19,3 +19,14 @@ calendar-dialog-description-row-icon =
 calendar-dialog-description-label = Wopisanje
 calendar-dialog-description-expand-icon =
     .alt = Dopołne wopisanje składowaś
+# Variables:
+#   $additionalCategories (Number): Number of categoires not shown.
+#   $categories (String): List of all categories.
+calendar-dialog-more-categories =
+    { $additionalCategories ->
+        [one] + { $additionalCategories } dalšna kategorija
+        [two] + { $additionalCategories } dalšnej kategoriji
+        [few] + { $additionalCategories } dalšne kategorije
+       *[other] + { $additionalCategories } dalšnych kategorijow
+    }
+    .title = { $categories }
