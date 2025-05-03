@@ -16,6 +16,8 @@ books-pane-create-contact-button = Uus kontakt
     .title = Loo uus kontakt
 books-pane-create-book-button =
     .title = Loo uus aadressiraamat
+books-pane-create-list-button =
+    .title = Loo uus meililist
 books-pane-import-button = Impordi
     .title = Impordi aadressiraamatud
 
@@ -33,6 +35,8 @@ about-addressbook-card-count = Kontakte kokku { $name }: { $count }
 about-addressbook-card-count-all = Kontakte kõigis aadressiraamatutes: { $count }
 about-addressbook-books-context-properties =
     .label = Omadused
+about-addressbook-books-context-edit-list =
+    .label = Muuda listi
 about-addressbook-books-context-synchronize =
     .label = Sünkroniseeri
 about-addressbook-books-context-edit =
@@ -178,6 +182,18 @@ about-addressbook-confirm-remove-contacts-title =
        *[other] Eemalda kontaktid
     }
 # Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Kas oled kindel, et soovid { $name } listist { $list } eemaldada?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Kas oled kindel, et soovid kontakti listist { $list } eemaldada?
+       *[other] Kas oled kindel, et soovid need { $count } kontakti listist { $list } eemaldada?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
@@ -206,12 +222,20 @@ about-addressbook-selection-contacts-header2 =
         [one] { $count } valitud kontakt
        *[other] { $count } valitud kontakti
     }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] 1 valitud list
+       *[other] { $count } valitud listi
+    }
 about-addressbook-details-edit-photo =
     .title = Muuda kontakti pilti
 about-addressbook-new-contact-header = Uus kontakt
 about-addressbook-write-action-button = Kirjuta
 about-addressbook-event-action-button = Sündmus
 about-addressbook-search-action-button = Otsi
+about-addressbook-new-list-action-button = Uus list
 about-addressbook-begin-edit-contact-button = Muuda
 about-addressbook-delete-edit-contact-button = Kustuta
 about-addressbook-cancel-edit-contact-button = Loobu

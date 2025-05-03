@@ -130,6 +130,11 @@ toolbar-stop =
 toolbar-throbber-label = Aktiivsuse indikaator
 toolbar-throbber =
     .title = Aktiivsuse indikaator
+toolbar-create-list-label = Uus nimekiri
+toolbar-create-list =
+    .title = Loo uus meililist
 
 ## New Address Book popup items
 
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Lisa kohalik aadressiraamat
