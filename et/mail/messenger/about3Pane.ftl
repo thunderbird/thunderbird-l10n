@@ -168,6 +168,12 @@ folder-pane-more-menu-button =
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
     .label = Kaustarežiimid
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Näita "Tõmba kirjad"
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Näita "Uus kiri"
 folder-pane-header-context-hide =
     .label = Peida kaustade paneeli päis
 folder-pane-show-total-toggle =
@@ -448,12 +454,30 @@ apply-current-view-to-folder-message = Kas rakendada käesoleva kausta vaade kau
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Kas rakendada käesoleva kausta vaade kaustale { $name } ja selle alamkaustadele?
 # Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> lugemata <span>1</span> kirjast
+               *[other] <span>1</span> lugemata <span>{ $total }</span> kirjast
+            }
+       *[other]
+            { $total ->
+                [one] <span>1</span> kirjast <span>{ $unread }</span> lugemata
+               *[other] <span>{ $total }</span> kirjast<span>{ $unread }</span> lugemata
+            }
+    }
+# Variables:
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-count =
     { $total ->
         [one] <span>1</span> kiri
        *[other] <span>{ $total }</span> kirja
     }
+threadpane-card-menu-button =
+    .title = Kirjade menüü
 message-list-placeholder-no-messages = Ei leidnud kirju
 message-list-placeholder-multiple-folders = Valitud on mitu kausta
 
