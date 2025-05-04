@@ -27,6 +27,7 @@ account-hub-sync-button = Qqen ɣer Sync…
 
 ## Email page
 
+account-hub-add-email-title = Rnu miḍan-ik·im
 account-hub-email-cancel-button = Sefsex
 account-hub-email-stop-button = Seḥbes
 account-hub-email-back-button = Ɣer deffir
@@ -69,3 +70,4 @@ account-hub-notification-show-less = Sken drus
 account-hub-result-ews-text = Aqeddac
 account-hub-result-recommended-label = Yelha
 account-hub-edit-configuration = Ẓreg tawila
+account-hub-email-error-text = Ma ulac aɣilif, sekcem tansa imayl tameɣtut.

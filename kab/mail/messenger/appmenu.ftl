@@ -52,6 +52,9 @@ appmenu-new-newsgroup =
 
 appmenu-newab-panel-title =
     .title = Imedlis n tensa amaynut
+appmenu-new-addressbook =
+    .label = Imedlis n tensa tadigant
+    .accesskey = I
 
 ## Create
 
