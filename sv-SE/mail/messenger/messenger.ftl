@@ -476,5 +476,6 @@ quota-panel-percent-used = { $percent }% full{ $usage }{ $usage }
 
 mark-as-read-action = Markera som läst
 delete-action = Ta bort
+mark-as-starred-action = Markera som stjärnmärkt
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Gör ingenting
