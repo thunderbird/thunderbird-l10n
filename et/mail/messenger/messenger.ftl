@@ -40,6 +40,10 @@ content-tab-menu-back-mac =
 
 # Forward
 
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Edasta
+    .accesskey = E
 
 # Reload
 
@@ -124,6 +128,9 @@ menu-file-save-as-file =
 menu-edit-delete-folder =
     .label = Kustuta kaust
     .accesskey = K
+menu-edit-unsubscribe-newsgroup =
+    .label = Loobu uudisgrupist
+    .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =

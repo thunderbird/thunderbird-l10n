@@ -351,7 +351,7 @@ threadpane-column-label-priority =
 # Variables:
 # $title (String) - Priority for tooltip.
 threadpane-cell-priority-title =
-    .aria-label = Tähtsus
+    .aria-label = Prioriteet
     .title = { $title }
 threadpane-column-header-unread = Lugemata
     .title = Lugemata kirjade arv lõimes
