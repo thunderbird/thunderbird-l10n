@@ -486,5 +486,6 @@ quota-panel-percent-used = { $percent }% заполнено
 
 mark-as-read-action = Отметить как прочитанное
 delete-action = Удалить
+mark-as-starred-action = Пометить звёздочкой
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Ничего не делать
