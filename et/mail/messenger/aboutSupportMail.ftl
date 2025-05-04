@@ -16,6 +16,7 @@ accounts-default = Vaikimisi?
 identity-name = Identiteet
 send-via-email = Saada e-postiga
 app-basics-telemetry = Telemeetriaandmed
+app-basics-glean = Puhasta andmed
 app-basics-cache-use = Vahemälu kasutus
 mail-libs-title = Kogumikud
 libs-table-heading-library = Kogumik

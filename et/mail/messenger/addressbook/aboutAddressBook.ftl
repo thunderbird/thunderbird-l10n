@@ -83,6 +83,8 @@ about-addressbook-sort-email-ascending =
     .label = Sordi e-posti aadressi järgi (A > Y)
 about-addressbook-sort-email-descending =
     .label = Sordi e-posti aadressi järgi (Y > A)
+about-addressbook-table-layout =
+    .label = Tabeli paigutus
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.

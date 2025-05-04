@@ -8,6 +8,9 @@
 
 ## These strings are shown in a desktop notification after the user requests we resend a verification email.
 
+sync-verification-sent-title = Kinnitusnõue on saadetud
+sync-verification-not-sent-title = Kinnitusnõude saatmine pole võimalik
+sync-verification-not-sent-body = Konto kinnitamist võimaldavat e-kirja polnud praegu võimalik saata, palun proovi hiljem uuesti.
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
