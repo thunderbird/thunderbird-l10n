@@ -15,6 +15,13 @@ thread-pane-folder-message-count =
         [one] { $count } izen
        *[other] { $count } iznan
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } yettwafren
+       *[other] { $count } ttwafernen
+    }
 thread-pane-header-context-table-view =
     .label = Taskant n tfelwit
 thread-pane-header-context-cards-view =
@@ -415,6 +422,9 @@ apply-current-columns-to-folder-message = Snes tigejdan ukaram amiran i { $name 
 apply-current-columns-to-folder-with-children-message = Snes tigejdan ukaram amiran i { $name } d warraw-is?
 # Variables:
 #  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Snes taskant n ukaram-a i { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Snes taskant n ukaram amiran i { $name } d warraw-is?
 # Variables:
 # $total (Number) - Number of messages in thread.
@@ -425,6 +435,7 @@ threadpane-sort-header-count =
     }
 threadpane-card-menu-button =
     .title = Umuɣ n yiznan
+message-list-placeholder-no-messages = Ulac izen i yettwafen
 
 ## Folder pane context menu
 

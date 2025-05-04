@@ -691,6 +691,7 @@
 <!ENTITY contextReplyList.accesskey "b">
 <!ENTITY contextMoveMsgMenu.label "Senkez ɣer">
 <!ENTITY contextMoveMsgMenu.accesskey "k">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Melmi kan">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "m">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Inurifen">
