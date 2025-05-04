@@ -7,6 +7,6 @@
 #   $categories (String): List of all categories.
 calendar-dialog-more-categories =
     { $additionalCategories ->
-       *[other] +{ $additionalCategories } more
+       *[other] ugar n { $additionalCategories }
     }
-    .title = ugar n { $additionalCategories }
+    .title = { $categories }
