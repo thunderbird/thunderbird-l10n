@@ -190,6 +190,24 @@ mail-context-menu-forward-forward =
     .accesskey = z
 context-menu-redirect-msg =
     .label = Abeddel n uwelleh
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Kkes izen yettwafernen
+           *[other] Kkes iznan yettwafernen
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Sefsex tukksa n yizen yettwafernen
+           *[other] Sefsex tukksa n yiznan yettwafernen
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 
 ## Message header pane
 
@@ -198,6 +216,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Ɣur-s itri
     .aria-label = Ɣur-s itri
+message-header-delete =
+    .label = Kkes
+    .tooltiptext = Kkes izen-a
+message-header-undelete =
+    .label = Sefsex tukksa
+    .tooltiptext = Sefsex tukksa n yizen-a
 
 ## Message header cutomize panel
 
@@ -362,3 +386,4 @@ quick-filter-bar-show =
 
 ## Actions for the New Mail Notification
 
+delete-action = Kkes

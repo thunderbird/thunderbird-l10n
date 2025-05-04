@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Kkes
     .tooltiptext = Kkes
+multi-message-undelete-button =
+    .label = Sefsex tukksa
+    .tooltiptext = Sefsex tukksa
