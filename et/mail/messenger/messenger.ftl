@@ -212,6 +212,9 @@ mail-context-menu-open =
 mail-context-menu-reply =
     .label = Vasta
     .accesskey = V
+mail-context-menu-forward-redirect =
+    .label = Edasta ja suuna ümber
+    .accesskey = E
 mail-context-menu-forward-forward =
     .label = Edasta
     .accesskey = d
@@ -270,6 +273,9 @@ message-header-msg-flagged =
 message-header-delete =
     .label = Kustuta
     .tooltiptext = Kustuta see kiri
+message-header-undelete =
+    .label = Taasta
+    .tooltiptext = Võta kustutamine tagasi
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -309,6 +315,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Kuva kõik päised
     .accesskey = K
+message-header-dark-message-toggle =
+    .label = Näita tumeda kirjarežiimi lülitit
+    .accesskey = t
 
 ## Action Button Context Menu
 
@@ -466,5 +475,7 @@ quota-panel-percent-used = { $percent }% täis
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Märgi loetuks
+delete-action = Kustuta
+mark-as-starred-action = Tähista tärniga
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Ära tee midagi
