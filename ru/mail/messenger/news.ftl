@@ -3,8 +3,26 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+# $count (Number) - Number of headers.
+# $newsgroup (String) - The name of the newsgroup.
+new-newsgroup-headers =
+    { $count ->
+        [one] Загрузка { $count } заголовка для { $newsgroup }…
+        [few] Загрузка { $count } заголовков для { $newsgroup }…
+       *[many] Загрузка { $count } заголовков для { $newsgroup }…
+    }
+# Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-new-messages = Нет новых сообщений в { $newsgroup }.
+# Variables:
+# $count (Number) - Number of articles.
+# $newsgroup (String) - The name of the newsgroup.
+downloading-articles-for-offline =
+    { $count ->
+        [one] Загрузка { $count } статьи для { $newsgroup }…
+        [few] Загрузка { $count } статей для { $newsgroup }…
+       *[many] Загрузка { $count } статей для { $newsgroup }…
+    }
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-articles-to-download = Нет статей для загрузки из { $newsgroup }.
