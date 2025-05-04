@@ -159,3 +159,7 @@ toolbar-import-contacts =
 
 toolbar-new-address-book-popup-add-js-address-book =
     .label = Lisa kohalik aadressiraamat
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Lisa CardDAV-i aadressiraamat
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Lisa LDAPi aadressiraamat
