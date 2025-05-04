@@ -4,6 +4,8 @@
 
 e2e-intro-description = I wakken ad tazneḍ iznan i yettwawgelhen neɣ yettwazemlen s wudem umḍin, tesriḍ ad tsewleḍ tatiknulujit n uwgelhen, OpenPGP neɣ S/MIME.
 e2e-intro-description-more = Fren tasarut-ik·im tudmawant i usermed n useqdec n OpenPGP, neɣ aselken udmawan i usermed n useqdec n S/MIME. I tsarut tudmawant neɣ i uselken udmawan, ɣur-k tasarut tuffirt yemṣadan.
+# A label for a button that goes back one step
+e2e-csr-back = Ɣer deffir
 e2e-signing-description = Azmul umḍin ad yeǧǧ iɣerwaḍen ad sneqden belli izen yettwazen-d sɣur-k·m daɣen agbur-is ur yettwabeddel ara. Iznan iwgelhanen ttwaszemlen s wudem awurman.
 e2e-sign-message =
     .label = Sezmel iznan ur nettwawgelhen ara
@@ -257,7 +259,13 @@ openpgp-personal-yes-label =
     .label = Ih, ḥseb tasarut-a am tsarut tudmawant.
 openpgp-passphrase-protection =
     .label = Ammesten stefyirt n uɛeddi
+openpgp-passphrase-status-unprotected = Ur yettwammesten ara
+openpgp-passphrase-status-user-passphrase = Yettwammesten s tefyirt n uεeddi
 openpgp-passphrase-unlock = Serreḥ
+openpgp-passphrase-new = Tafyirt n uεeddi tamaynut
+openpgp-passphrase-new-repeat = Sentem afyirt n uεeddi tamaynut
+openpgp-passphrase-set = Sbadu tafyirt n uεeddi
+openpgp-passphrase-change = Beddel tafyirt n uεeddi
 openpgp-copy-cmd-label =
     .label = Nɣel
 

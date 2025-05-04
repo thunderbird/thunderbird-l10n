@@ -78,6 +78,8 @@ appmenu-create-contact =
 
 ## Open
 
+appmenu-open-file-panel-title =
+    .title = Ldi seg ufaylu
 appmenu-open-message =
     .label = Izen…
     .accesskey = I

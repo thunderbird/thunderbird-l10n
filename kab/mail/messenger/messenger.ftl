@@ -190,6 +190,9 @@ mail-context-menu-forward-forward =
     .accesskey = z
 context-menu-redirect-msg =
     .label = Abeddel n uwelleh
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Sefsex izen
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-messages-delete =

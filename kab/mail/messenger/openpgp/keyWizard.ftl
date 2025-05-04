@@ -5,6 +5,9 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Rnu tasarut OpenPGP tudmawant i { $identity }
+key-wizard-dialog =
+    .buttonlabelaccept = Kemmel
+    .buttonlabelextra1 = Γer deffir
 key-wizard-warning = <b>Ma tesɛiḍ tasarut tudmawant</b>i tansa-a imayl, yessefk ad tt-tketreḍ. Ma ulac, ur tzemmreḍ ara ad tkecmeḍ ɣer yiɣbaren-ik•im n yimaylen yettwawgelhen, daɣen ur tzemmreḍ ara ad teɣreḍ imaylen yettwawgelhen i d-ttaznen wid i mazal seqdacen tasarut-ik•im i yellan yakan.
 key-wizard-learn-more = Issin ugar
 radio-create-key =
@@ -20,6 +23,13 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Sirew tasarut OpenPGP
+radio-keygen-no-protection =
+    .label = Ur yettwammesten ara
+radio-keygen-protect-primary-pass =
+    .label = Mmesten s wawal n uεeddi agejdan
+radio-keygen-passphrase-protection =
+    .label = Mmesten s tefyirt n uεeddi:
+openpgp-passphrase-repeat = Sentem tafyirt n uεeddi:
 openpgp-generate-key-info = <b>Asirew n tsarut yezmer ad yeṭṭef  aṭas n tesdidin akken ad yemmed. </b> Ur teffeɣ ara seg usnas ma iteddu usirew n tsarut. Tunigin turmidt neɣ aselken n temhalin tussidin ɣef uḍebsi ma iteddu usirew n tsarut ad d-yerr 'amsegaw agacuran' d urured n ukala. Ad d-teṭṭfeḍ ulɣu mi ara yemmed usirew n tsarut.
 openpgp-keygen-expiry-title = Azemz n taggara n tsarut
 openpgp-keygen-expiry-description = Sbadu akud n keffu n tsarut-ik·im i yettusirwen melmi kan. Tzemreḍ mbeɛd ad tezɣezfeḍ azemz-ines akken tebɣiḍ ma yewwi-d lḥal.
