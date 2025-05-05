@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "l">
 <!ENTITY contextMoveMsgMenu.label "Flyt til">
 <!ENTITY contextMoveMsgMenu.accesskey "F">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Seneste mapper">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "S">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Seneste">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "S">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favoritter">
