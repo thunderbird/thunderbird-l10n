@@ -31,3 +31,5 @@ webext-perms-description-messagesRead2 = sinu kirjade lugemine
 webext-perms-description-messagesUpdate = kirjade omaduste ja siltide muutmine
 webext-perms-description-messagesTags = siltide loomine, muutmine ja kustutamine
 webext-perms-description-messagesTagsList = kirjade siltide loetlemine
+webext-perms-description-sensitiveDataUpload = tundlike andmete edastamine (kui luba on antud) välisele serverile edasiseks töötlemiseks
+webext-perms-description-messengerSettings = { -brand-short-name }i sätete lugemine
