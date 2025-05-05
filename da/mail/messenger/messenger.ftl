@@ -315,6 +315,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Vis alle meddelelseshoveder
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = Vis kontakten for mørk meddelelsestilstand
+    .accesskey = o
 
 ## Action Button Context Menu
 
