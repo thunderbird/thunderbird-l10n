@@ -476,5 +476,6 @@ quota-panel-percent-used = { $percent }% full
 
 mark-as-read-action = Markatu irakurritako gisa
 delete-action = Ezabatu
+mark-as-starred-action = Markatu izardun gisa
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Ez egin ezer
