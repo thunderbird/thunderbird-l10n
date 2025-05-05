@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Slet
     .tooltiptext = Slet
+multi-message-undelete-button =
+    .label = Fortryd sletning
+    .tooltiptext = Fortryd sletning
