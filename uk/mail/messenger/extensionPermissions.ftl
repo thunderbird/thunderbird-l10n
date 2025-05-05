@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = Змінювати властивос�
 webext-perms-description-messagesTags = Створюйте, змінюйте та видаляйте мітки повідомлень
 webext-perms-description-messagesTagsList = Отримувати список міток повідомлень
 webext-perms-description-sensitiveDataUpload = Передайте конфіденційні дані користувача (якщо доступ надано) на віддалений сервер для подальшої обробки
+webext-perms-description-messengerSettings = Зчитувати налаштування { -brand-short-name }
