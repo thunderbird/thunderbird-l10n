@@ -278,6 +278,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Із зіркою
     .aria-label = Із зіркою
+message-header-delete =
+    .label = Видалити
+    .tooltiptext = Видалити повідомлення
+message-header-undelete =
+    .label = Відновити
+    .tooltiptext = Відновити повідомлення
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -317,6 +323,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Показати всі заголовки
     .accesskey = з
+message-header-dark-message-toggle =
+    .label = Показати перемикач темного режиму повідомлень
+    .accesskey = т
 
 ## Action Button Context Menu
 
@@ -475,3 +484,8 @@ quota-panel-percent-used = { $percent }% заповнено
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Позначити прочитаним
+delete-action = Видалити
+mark-as-starred-action = Позначити зірочкою
+# This is a temporary value. No need to translate unless you want to.
+do-nothing-action = Нічого не робити

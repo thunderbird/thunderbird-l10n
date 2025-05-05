@@ -55,6 +55,7 @@ policy-ExtensionSettings = Керувати всіма аспектами вст
 policy-ExtensionUpdate = Увімкнути або вимкнути автоматичне оновлення розширень.
 policy-Handlers = Налаштувати стандартні обробники програм.
 policy-HardwareAcceleration = Якщо значення false, апаратне прискорення буде вимкнено.
+policy-InAppNotification = Увімкнути або вимкнути типи сповіщень.
 policy-InstallAddonsPermission = Дозволити певним вебсайтам встановлювати додатки.
 policy-LegacyProfiles = Вимкнути функцію, що застосовує окремий профіль для кожного встановлення.
 
