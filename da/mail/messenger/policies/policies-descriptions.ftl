@@ -55,6 +55,7 @@ policy-ExtensionSettings = Håndter alle aspekter af udvidelsesinstallationer.
 policy-ExtensionUpdate = Slå automatisk opdatering af udvidelser til eller fra.
 policy-Handlers = Indstil håndtering af standard-applikationer.
 policy-HardwareAcceleration = False slår hardware-acceleration fra.
+policy-InAppNotification = Aktivér eller deaktiver notifikationstyper.
 policy-InstallAddonsPermission = Tillad bestemte websteder at installere tilføjelser.
 policy-LegacyProfiles = Deaktiver funktionen, der gennemtvinger at hver installation har en separat profil.
 
