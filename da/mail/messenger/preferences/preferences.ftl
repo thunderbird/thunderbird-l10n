@@ -951,4 +951,18 @@ default-sort-ascending-description = Nyeste meddelelser nederst
 default-sort-descending =
     .label = Faldende
 default-sort-descending-description = Nyeste meddelelser øverst
+apply-thread-sort-label = Overfør indstillinger for trådvisning og sortering til:
+apply-sort-label = Anvend disse indstillinger på:
+apply-sort-to-all-button =
+    .label = Alle eksisterende mapper
+    .accesskey = A
 apply-changes-prompt-title = Anvend ændringer?
+apply-changes-prompt-message = Anvend disse indstillinger for trådvisning og sortering på alle mapper?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Anvend disse indstillinger for trådvisning og sortering på “{ $name }”?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Anvend disse indstillinger for trådvisning og sortering på “{ $name }” og dens undermapper?
+apply-current-view-error = De nuværende visningsindstillinger kunne ikke anvendes
+apply-current-view-success = Aktuelle visningsindstillinger anvendt
