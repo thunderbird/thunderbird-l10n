@@ -19,3 +19,14 @@ calendar-dialog-description-row-icon =
 calendar-dialog-description-label = Popis
 calendar-dialog-description-expand-icon =
     .alt = Zobraziť celý popis
+# Variables:
+#   $additionalCategories (Number): Number of categoires not shown.
+#   $categories (String): List of all categories.
+calendar-dialog-more-categories =
+    { $additionalCategories ->
+        [one] + { $additionalCategories } ďalšia
+        [few] + { $additionalCategories } ďalšie
+        [many] + { $additionalCategories } ďalších
+       *[other] + { $additionalCategories } ďalších
+    }
+    .title = { $categories }
