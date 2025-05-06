@@ -431,6 +431,7 @@ conversation-view-checkbox-label =
     .accesskey = s
 conversation-view-checkbox-description = Eksperimentel funktion baseret på Gloda, bruges på eget ansvar
 label-experiment = Eksperimentel
+dark-message-mode-legend = Udseende på meddelelseslæser
 dark-message-mode-checkbox-label =
     .label = Aktivér mørk meddelelsestilstand
     .accesskey = A
