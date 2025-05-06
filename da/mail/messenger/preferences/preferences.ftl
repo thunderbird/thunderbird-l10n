@@ -899,6 +899,8 @@ qr-export-more-accounts = Eksporter flere konti
 
 appearance-category-header = Udseende
 default-message-list-legend = Meddelelsesliste
+appearance-view-style =
+    .value = Visningsstil:
 appearance-radio-table =
     .label = Tabelvisning
 appearance-radio-cards =
