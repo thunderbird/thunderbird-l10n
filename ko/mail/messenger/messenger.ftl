@@ -254,6 +254,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = 별표
     .aria-label = 별표
+message-header-delete =
+    .label = 삭제
+    .tooltiptext = 이 메시지를 삭제합니다
+message-header-undelete =
+    .label = 복구
+    .tooltiptext = 이 메시지를 복구합니다
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -293,6 +299,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = 모든 헤더 보기
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = 다크 메시지 모드 토글 표시
+    .accesskey = d
 
 ## Action Button Context Menu
 
@@ -445,3 +454,5 @@ quota-panel-percent-used = { $percent }% 사용
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = 읽음으로 표시
+delete-action = 삭제

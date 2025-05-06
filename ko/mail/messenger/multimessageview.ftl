@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = 삭제
     .tooltiptext = 삭제
+multi-message-undelete-button =
+    .label = 복구
+    .tooltiptext = 복구

@@ -32,3 +32,4 @@ webext-perms-description-messagesUpdate = 이메일 메시지 속성 및 태그 
 webext-perms-description-messagesTags = 메시지 태그를 만들고 변경하고 지우기
 webext-perms-description-messagesTagsList = 메시지 태그 나열
 webext-perms-description-sensitiveDataUpload = 추가 처리를 위해 민감한 사용자 데이터(접근이 승인된 경우)를 원격 서버로 전송
+webext-perms-description-messengerSettings = { -brand-short-name } 설정 읽기

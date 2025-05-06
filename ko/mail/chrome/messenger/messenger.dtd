@@ -691,6 +691,7 @@
 <!ENTITY contextReplyList.accesskey "L">
 <!ENTITY contextMoveMsgMenu.label "이동">
 <!ENTITY contextMoveMsgMenu.accesskey "M">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "최근">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "R">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "즐겨찾기">

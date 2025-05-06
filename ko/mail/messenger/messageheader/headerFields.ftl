@@ -101,3 +101,7 @@ message-ids-field-show-all = 모두 표시
 
 ## Dark Message Mode
 
+dark-message-mode-toggle-enabled =
+    .title = 다크 메시지 모드 비활성화
+dark-message-mode-toggle-disabled =
+    .title = 다크 메시지 모드 활성화

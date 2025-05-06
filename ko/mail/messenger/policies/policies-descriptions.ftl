@@ -55,6 +55,7 @@ policy-ExtensionSettings = 확장기능 설치의 모든 측면을 관리합니�
 policy-ExtensionUpdate = 확장기능의 자동 업데이트를 활성화하거나 비활성화합니다.
 policy-Handlers = 기본 애플리케이션 핸들러를 구성합니다.
 policy-HardwareAcceleration = False면 하드웨어 가속을 끕니다.
+policy-InAppNotification = 알림 유형을 활성화 또는 비활성화 합니다.
 policy-InstallAddonsPermission = 특정 웹사이트가 애드온을 설치하도록 허용합니다.
 policy-LegacyProfiles = 각 설치별로 다른 프로필 사용을 강제하는 기능을 사용 안 합니다.
 

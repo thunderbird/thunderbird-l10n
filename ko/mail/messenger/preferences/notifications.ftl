@@ -13,6 +13,7 @@ subject-checkbox =
 sender-checkbox =
     .label = 보낸 사람
     .accesskey = e
+enabled-actions-description = 메시지 작업:
 
 ## Note: open-time-label-before is displayed first, then there's a field where
 ## the user can enter a number, and open-time-label-after is displayed at the end
