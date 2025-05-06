@@ -8,7 +8,7 @@ no-new-messages = “{ $newsgroup }”没有新消息。
 # Variables:
 # $count (Number) - Number of articles.
 # $newsgroup (String) - The name of the newsgroup.
-downloading-articles-for-offline = 正在下载 { $newsgroup } 的 { $count } 篇文章…
+downloading-articles-for-offline = 正在下载“{ $newsgroup }”的 { $count } 篇文章…
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-articles-to-download = “{ $newsgroup }”没有文章可下载。
