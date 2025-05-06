@@ -30,6 +30,7 @@ options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 #    periods at the end of these messages.)
 connection-request-auth = Սպասում է ձեր թույլտվությանը
 connection-request-access = Իսկորոշման ավարտ
+connection-error-session-ended = Սեսիան դուրս է գրվել։
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.

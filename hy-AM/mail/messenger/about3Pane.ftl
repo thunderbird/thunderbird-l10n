@@ -175,6 +175,14 @@ folder-pane-more-menu-button =
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
     .label = Թղթապանակի ռեժիմներ
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Ցուցադրել «Ստանալ հաղորդագրություններ»
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Ցուցադրել «Նոր հաղորդագրություն»
+folder-pane-header-context-hide =
+    .label = Թաքցնել թղթապանակի վահանակի վերնագիրը
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Ցույց տալ թղթապանակի չափը

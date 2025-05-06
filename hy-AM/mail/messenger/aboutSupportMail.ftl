@@ -23,3 +23,4 @@ libs-table-heading-loaded-version = Օգտագործվող տարբերակը
 libs-table-heading-path = Ուղին
 libs-table-heading-status = Վիճակը
 libs-rnp-status-ok = Լավ
+libs-otr-status-ok = Լավ

@@ -51,6 +51,8 @@ webext-perms-update-menu-item = { $addonName }-ը պահանջում է նոր �
 
 ## Add-on removal warning
 
+addon-removal-button = Հեռացնել
+addon-removal-abuse-report-checkbox = Զեկուցեք այս ընդլայնման մասին { -vendor-short-name }-ին
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -92,6 +94,7 @@ addon-install-error-incorrect-hash = Այս հավելումը չի կարող �
 addon-install-error-corrupt-file = Այս կայքից ներբեռնած հավելումը չի տեղադրվել, քանի որ այն վնասված է:
 addon-install-error-file-access = { $addonName }-ը չի կարող տեղադրվել, քանի որ { -brand-short-name }-ը չի կարող ձևափոխել անհրաժեշտ ֆայլը:
 addon-install-error-not-signed = { -brand-short-name }-ը կանխել է այս կայքից չստուգված հավելումների տեղադրումը:
+addon-install-error-invalid-domain = { $addonName }-ը հավելումը այս վայրից չի կարող տեղադրվել։
 addon-local-install-error-network-failure = Ընդլայնումը չի կարող տեղակայվել համակարգային սխալի պատճառով։
 addon-local-install-error-incorrect-hash = Այս հավելումը չի կարող տեղադրվել, քանի որ այն չի համապատասխանում ակնկալվող { -brand-short-name } հավելմանը:
 addon-local-install-error-corrupt-file = Այս հավելումը չի կարող տեղակայվել քանի որ այն վնասված է:

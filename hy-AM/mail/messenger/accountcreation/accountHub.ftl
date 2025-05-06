@@ -104,4 +104,7 @@ account-hub-sync-accounts-selected =
         [one] { $count } ընտրված
        *[other] { $count } ընտրված
     }
+account-hub-no-address-books = Հասցեների գրքեր չեն գտնվել
+account-hub-no-calendars = Օրացույցներ չեն գտնվել
 account-hub-signature-link = Էլ. փոստի ստորագրություն
+account-hub-name-error-text = Նշեք Ձեր անունը։

@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Անցյալի իրադարձություններ
 calendar-event-listing-interval-calendar-month =
     .label = Իրադարձություններ այս օրացույցի ամսում
 calendar-event-listing-interval-current-view =
@@ -61,6 +63,8 @@ calendar-event-listing-interval-next-14-days =
     .label = Իրադարձություններ հաջորդ 14 օրում
 calendar-event-listing-interval-next-31-days =
     .label = Իրադարձություններ հաջորդ 31 օրում
+calendar-event-listing-interval-future =
+    .label = Բոլոր հետագա իրադարձությունները
 calendar-event-listing-interval-all =
     .label = Բոլոր իրադարձությունները
 calendar-event-listing-interval-selected-day =

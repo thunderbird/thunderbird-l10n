@@ -46,6 +46,8 @@ about-addressbook-confirm-remove-remote-book-title = Հեռացնել Հասցե
 
 ## Cards
 
+about-addressbook-name-format-display =
+    .label = Ցուցադրվող անունը
 about-addressbook-name-format-firstlast =
     .label = Անուն
 about-addressbook-name-format-lastfirst =
@@ -58,6 +60,8 @@ about-addressbook-sort-email-ascending =
     .label = Տեսակավորել ըստ էլ. փոստի (Ա > Ֆ)
 about-addressbook-sort-email-descending =
     .label = Տեսակավորել ըստ էլ. փոստի (Ֆ > Ա)
+about-addressbook-table-layout =
+    .label = Աղյուսակի դասավորություն
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
@@ -68,9 +72,20 @@ about-addressbook-cards-context-write =
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-searching = Որոնում…
+about-addressbook-placeholder-no-search-results = Կոնտակտներ չեն գտնվել
 
 ## Details
 
+about-addressbook-details-edit-photo =
+    .title = Խմբագրել կոնտակտային լուսանկարը
+about-addressbook-new-contact-header = Նոր կոնտակտ
+about-addressbook-write-action-button = Գրել
+about-addressbook-event-action-button = Իրադարձություն
+about-addressbook-search-action-button = Որոնում
+about-addressbook-new-list-action-button = Նոր ցանկ
+about-addressbook-begin-edit-contact-button = Խմբագրել
+about-addressbook-delete-edit-contact-button = Ջնջել
 about-addressbook-cancel-edit-contact-button = Չեղարկել
 about-addressbook-save-edit-contact-button = Պահել
 about-addressbook-add-contact-to = Ավելացնել՝
@@ -102,6 +117,10 @@ about-addressbook-unsaved-changes-prompt-title = Չպահպանված փոփոխ
 
 # Photo dialog
 
+about-addressbook-photo-drop-loading = Լուսանկարը բեռնվում է…
+about-addressbook-photo-drop-error = Լուսանկարը չհաջողվեց բեռնել։
+about-addressbook-photo-filepicker-title = Ընտրել նկարի ֆայլը
+about-addressbook-photo-discard = Հեռացնել առկա լուսանկարը
 about-addressbook-photo-cancel = Չեղարկել
 about-addressbook-photo-save = Պահել
 

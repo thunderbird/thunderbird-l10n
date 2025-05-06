@@ -130,7 +130,12 @@ account-setup-advanced-setup-button = Ընդլայնված կարգ.
 
 ## Warning insecure server dialog
 
+account-setup-insecure-title = Զգուշացում:
+account-setup-insecure-incoming-title = Մուտքային կարգավորումներ.
 account-setup-insecure-outgoing-title = Ելքային կարգավորումներ.
+# Variables:
+#  $server (String): The name of the hostname of the server the user was trying to connect to.
+account-setup-warning-cleartext = <b>{ $server } </b>-ը չի օգտագործում կոդավորում։
 insecure-dialog-cancel-button = Փոխել կարգավորումները
     .accesskey = S
 
@@ -148,16 +153,37 @@ exit-dialog-confirm-button = Փակել տեղակայիչը
 ## Alert dialogs
 
 account-setup-creation-error-title = Փոստարկղի ստեղծման սխալ
+account-setup-error-server-exists = Մուտքային սպասարկիչը արդեն առկա է։
 account-setup-confirm-advanced-title = Հաստատեք ընդլայնված կազմաձևումը
 account-setup-confirm-advanced-description = Այս պատուհանը կփակվի և գործող կարգավորումենրում հաշիվը կստեղծվի, եթե անգամ կազմաձևումը սխալ է: Ցանկանո՞ւմ եք շարունակել:
 
 ## Addon installation section
 
+account-setup-addon-install-title = Տեղադրել
+account-setup-addon-install-intro = Երրորդ կողմի հավելումը կարող է թույլ տալ մուտք գործել ձեր էլ․ փոստի հաշիվ այս սպասարկչի վրա.
 
 ## Success view
 
+account-setup-settings-button = Հաշվի կարգավորումներ
+account-setup-signature-button = Ավելացնել ստորագրություն
+account-setup-dictionaries-button = Ներբեռնել բառարաններ
+account-setup-button-finish = Պատրաստ է
+    .accesskey = F
+account-setup-looking-up-address-books = Հասցեագրքերի որոնում…
+account-setup-looking-up-calendars = Օրացույցների որոնում…
+account-setup-address-books-button = Հասցեագիրք
+account-setup-calendars-button = Օրացույցեր
+account-setup-connect-link = Միանալ
 
 ## Calendar synchronization dialog
 
 calendar-dialog-cancel-button = Չեղարկել
     .accesskey = C
+calendar-dialog-confirm-button = Միանալ
+    .accesskey = n
+account-setup-calendar-name-label = Անուն
+account-setup-calendar-name-input =
+    .placeholder = Իմ օրացույցը
+account-setup-calendar-color-label = Գունավոր
+account-setup-calendar-refresh-label = Թարմացնել
+account-setup-calendar-refresh-manual = Ձեռքով
