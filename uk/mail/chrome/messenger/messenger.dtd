@@ -691,6 +691,7 @@
 <!ENTITY contextReplyList.accesskey "с">
 <!ENTITY contextMoveMsgMenu.label "Перемістити у">
 <!ENTITY contextMoveMsgMenu.accesskey "е">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Недавні місця призначення">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Недавні">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "д">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Обране">
