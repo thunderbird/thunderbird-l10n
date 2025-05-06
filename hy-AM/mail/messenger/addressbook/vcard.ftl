@@ -24,15 +24,33 @@ vcard-n-prefix = Նախածանց
 vcard-n-add-prefix =
     .title = Ավելացնել նախածանց
 vcard-n-firstname = Անուն
+vcard-n-add-firstname =
+    .title = Հավելել անուն
+vcard-n-middlename = Հայրանուն
+vcard-n-add-middlename =
+    .title = Հավելել հայրանուն
+vcard-n-lastname = Ազգանուն
+vcard-n-add-lastname =
+    .title = Հավելել ազգանուն
+vcard-n-suffix = Վերջածանց
+vcard-n-add-suffix =
+    .title = Ավելացնել վերջածանց
 
 # Nickname
 
+vcard-nickname = Մականուն
 
 # Email vCard field
 
+vcard-email-header = էլ­. փոստի հասցեներ
+vcard-email-add = Հավելել էլ. փոստ
+vcard-email-label = էլ. փոստ
+vcard-primary-email-label = Սկզբնադիր
 
 # URL vCard field
 
+vcard-url-header = Կայքեր
+vcard-url-add = Հավելել կայք
 
 # Tel vCard field
 
@@ -48,12 +66,30 @@ vcard-n-firstname = Անուն
 
 # ADR vCard field
 
+vcard-adr-delivery-label = Առաքման պիտակ
+vcard-adr-street = Փողոցի հասցե
+# Or "Locality"
+vcard-adr-locality = Քաղաք
+# Or "Region"
+vcard-adr-region = Նահանգ/գավառ
+# The term "ZIP code" only applies in USA. Most locales should use "Postal code" only.
+vcard-adr-code = ZIP/Փոստային կոդ.
+vcard-adr-country = Երկիր
 
 # NOTE vCard field
 
+vcard-note-header = Նշումներ
+vcard-note-add = Ավելացնել նշում
 
 # TITLE, ROLE and ORGANIZATION vCard fields
 
+vcard-org-header = Կազմակերպչական հատկություններ
+vcard-org-role = Դեր
+vcard-org-org = Կազմակերպություն
+vcard-org-org-unit = Բաժին
 
 # Custom properties
 
+vcard-remove-button-title =
+    .title = Հեռացնել
+vcard-remove-button = Հեռացնել
