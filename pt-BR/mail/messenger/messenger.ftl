@@ -476,5 +476,6 @@ quota-panel-percent-used = { $percent }% ocupado
 
 mark-as-read-action = Marcar como lido
 delete-action = Excluir
+mark-as-starred-action = Marcar com estrela
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Não fazer nada
