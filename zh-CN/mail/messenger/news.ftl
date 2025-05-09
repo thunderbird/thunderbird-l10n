@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+# $count (Number) - Number of headers.
+# $newsgroup (String) - The name of the newsgroup.
+new-newsgroup-headers = 正在下载“{ $newsgroup }”的 { $count } 个消息头…
+# Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-new-messages = “{ $newsgroup }”没有新消息。
 # Variables:
