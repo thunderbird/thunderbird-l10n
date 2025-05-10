@@ -55,6 +55,7 @@ policy-ExtensionSettings = Кеңейту орнатылуының барлық 
 policy-ExtensionUpdate = Кеңейтулерді автожаңартуды іске қосу немесе сөндіру.
 policy-Handlers = Үнсіз келісім бойынша қолданба өңдеушілерін баптау.
 policy-HardwareAcceleration = Мәні false болса, құрылғылық үдетуді сөндіру.
+policy-InAppNotification = Хабарландыру түрлерін іске қосу немесе сөндіру.
 policy-InstallAddonsPermission = Кейбір веб-сайттарға қосымшаларды орнатуды рұқсат ету.
 policy-LegacyProfiles = Әр орнату үшін бөлек профильді талап ететін мүмкіндікті сөндіру.
 
