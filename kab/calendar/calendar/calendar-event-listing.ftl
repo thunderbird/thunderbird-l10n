@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Tidyanin yezrin
 calendar-event-listing-interval-calendar-month =
     .label = Tidyanin deg aggur-agi
 calendar-event-listing-interval-current-view =
@@ -61,6 +63,10 @@ calendar-event-listing-interval-next-14-days =
     .label = Tidyanin di 14 n wussan d-iteddun
 calendar-event-listing-interval-next-31-days =
     .label = Tidyanin di 31 n wussan d-iteddun
+calendar-event-listing-interval-next-6-months =
+    .label = Tidyanin di 6 n wussan i d-iteddun
+calendar-event-listing-interval-next-12-months =
+    .label = Tidyanin di 12 n wussan i d-iteddun
 calendar-event-listing-interval-future =
     .label = Akk tidyanin d-iteddun
 calendar-event-listing-interval-all =
