@@ -11,6 +11,10 @@ calendar-add-notification-button =
 ## Side panel
 
 calendar-list-header = Iwitayen
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-no-reminders-tooltip =
+    .title = Awitay { $calendarName } yettwasgugem
 calendar-enable-button = Rmed
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
@@ -70,8 +74,12 @@ calendar-view-toggle-month = Aggur
 
 calendar-control-bar-menu-button =
     .title = Tixtiṛiyin n tneɣruft n uwitay
+calendar-find-events-menu-option =
+    .label = Agalis n unadi n tedyanin
 calendar-hide-weekends-option =
     .label = Ussan n dduṛt kan
+calendar-define-workweek-option =
+    .label = Sbadu ussan n dduṛt n uxeddim
 calendar-show-tasks-calendar-option =
     .label = Sken Tiwuriwin deg uwitay
 

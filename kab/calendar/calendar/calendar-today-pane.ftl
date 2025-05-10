@@ -8,3 +8,5 @@ calendar-today-pane-show-tasks-only =
     .tooltiptext = Sken timsekriyin
 calendar-today-pane-show-events-only =
     .tooltiptext = Sken tidyanin
+calendar-today-pane-close-button =
+    .tooltiptext = Ffer agalis "Assa"

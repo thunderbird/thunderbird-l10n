@@ -6,6 +6,7 @@ calendar-invitation-panel-status-new = Tettusnubegteḍ ɣer tedyant-a.
 calendar-invitation-panel-status-processed = Tadyant-a tettwarna yakan ɣer uwitay inek.
 calendar-invitation-panel-status-updateminor = Izen-a yegber lqem i tadyant-a.
 calendar-invitation-panel-status-cancelled = Izen-a yegber asefsex i tadyant-a.
+calendar-invitation-panel-status-cancelled-notfound = Izen-a yegber asefsex i tadyant ur nettwaf ara deg uwitay inek.
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
 calendar-invitation-panel-intro-cancel = { $organizer } yettwasefsex:
