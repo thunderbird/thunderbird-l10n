@@ -1066,6 +1066,7 @@ default-sort-ascending-description = Nové zprávy dole
 default-sort-descending =
     .label = Sestupně
 default-sort-descending-description = Nové zprávy na začátku
+apply-thread-sort-label = Použít nastavení seskupení a třídění na:
 apply-sort-label = Použít tato nastavení pro:
 apply-sort-to-all-button =
     .label = Všechny existující složky
