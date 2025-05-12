@@ -15,3 +15,16 @@ new-newsgroup-headers =
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-new-messages = Ve skupině { $newsgroup } nejsou žádné nové zprávy.
+# Variables:
+# $count (Number) - Number of articles.
+# $newsgroup (String) - The name of the newsgroup.
+downloading-articles-for-offline =
+    { $count ->
+        [one] Stahuje se { $count } článek ve skupině { $newsgroup }…
+        [few] Stahují se { $count } články ve skupině { $newsgroup }…
+        [many] Stahuje se { $count } článků ve skupině { $newsgroup }…
+       *[other] Stahuje se { $count } článků ve skupině { $newsgroup }…
+    }
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-articles-to-download = Ve skupině { $newsgroup } není k dispozici žádný nový článek.
