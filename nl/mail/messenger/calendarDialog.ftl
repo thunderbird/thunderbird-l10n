@@ -19,3 +19,12 @@ calendar-dialog-description-row-icon =
 calendar-dialog-description-label = Beschrijving
 calendar-dialog-description-expand-icon =
     .alt = Volledige beschrijving tonen
+# Variables:
+#   $additionalCategories (Number): Number of categoires not shown.
+#   $categories (String): List of all categories.
+calendar-dialog-more-categories =
+    { $additionalCategories ->
+        [one] + nog { $additionalCategories }
+       *[other] + nog { $additionalCategories }
+    }
+    .title = { $categories }
