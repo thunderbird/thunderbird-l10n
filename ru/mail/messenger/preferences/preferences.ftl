@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Экспорт для мобильного
 category-qr-export =
     .tooltiptext = Экспорт для мобильного
+general-language-and-fonts-header = Язык и шрифты
 general-language-and-appearance-header = Язык и внешний вид
 general-incoming-mail-header = Входящие сообщения
 general-files-and-attachment-header = Файлы и вложения
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = Создавайте аккаунты в новом Центре учётных записей
     .accesskey = С
 account-hub-checkbox-description = Экспериментальный процесс создания новой учетной записи электронной почты
+account-hub-ab-checkbox-label =
+    .label = Создавать адресные книги в новом Центре учётных записей
+    .accesskey = А
+account-hub-ab-checkbox-description = Экспериментальный процесс создания новой адресной книги
 
 ## Compose Tab
 
