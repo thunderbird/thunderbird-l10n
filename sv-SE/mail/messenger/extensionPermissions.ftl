@@ -21,6 +21,7 @@ webext-perms-description-addressBooks = Läs och ändra dina adressböcker och k
 webext-perms-description-compose = Läs och ändra dina e-postmeddelanden när du skriver och skickar dem
 webext-perms-description-compose-send = Skicka e-postmeddelanden på uppdrag av användaren
 webext-perms-description-compose-save = Spara e-postmeddelanden som utkast eller mallar
+webext-perms-description-experiment-access = Detta tillägg kommer att ha full, obegränsad åtkomst till { -brand-short-name } och din dator.
 webext-perms-description-experiment = Har full, obegränsad åtkomst till { -brand-short-name } och din dator
 webext-perms-description-messagesImport = Importera meddelanden till Thunderbird
 webext-perms-description-messagesModify = Läs och ändra dina e-postmeddelanden när de visas för dig

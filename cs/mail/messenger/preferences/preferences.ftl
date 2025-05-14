@@ -534,8 +534,9 @@ account-hub-checkbox-label =
     .accesskey = t
 account-hub-checkbox-description = Experimentální vytváření nových poštovních účtů
 account-hub-ab-checkbox-label =
-    .label = Kontakty vytvářet v novém centru účtů
+    .label = Složky kontaktů vytvářet v novém centru účtů
     .accesskey = K
+account-hub-ab-checkbox-description = Experimentální vytváření nových složek kontaktů
 
 ## Compose Tab
 
