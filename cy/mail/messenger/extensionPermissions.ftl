@@ -21,6 +21,7 @@ webext-perms-description-addressBooks = Darllenwch ac addasu eich llyfrau cyfeir
 webext-perms-description-compose = Darllenwch ac addasu eich negeseuon e-bost wrth i chi eu cyfansoddi a'u hanfon
 webext-perms-description-compose-send = Anfon negeseuon e-bost wedi'u cyfansoddi ar eich rhan
 webext-perms-description-compose-save = Cadw negeseuon e-bost wedi'u hysgrifennu fel drafftiau neu dempledi
+webext-perms-description-experiment-access = Bydd gan yr ychwanegyn hwn fynediad llawn, anghyfyngedig i { -brand-short-name }, a'ch cyfrifiadur.
 webext-perms-description-experiment = Meddu ar fynediad llawn, heb gyfyngiad i { -brand-short-name }, a'ch cyfrifiadur
 webext-perms-description-messagesImport = Mewnforio negeseuon i Thunderbird
 webext-perms-description-messagesModify = Darllenwch ac addaswch eich negeseuon e-bost wrth iddyn nhw gael eu dangos i chi

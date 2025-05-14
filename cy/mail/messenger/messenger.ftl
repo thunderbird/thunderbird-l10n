@@ -509,5 +509,6 @@ quota-panel-percent-used = { $percent }% yn llawn
 mark-as-read-action = Marcio fel wedi ei Darllen
 delete-action = Dileu
 mark-as-starred-action = Marciwch fel Serennog
+mark-as-spam-action = Marciwch fel Sbam
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Gwneud Dim

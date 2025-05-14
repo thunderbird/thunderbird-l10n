@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Exporter pour l’application mobile
 category-qr-export =
     .tooltiptext = Exporter pour l’application mobile
+general-language-and-fonts-header = Langue et polices
 general-language-and-appearance-header = Langue et apparence
 general-incoming-mail-header = Courrier entrant
 general-files-and-attachment-header = Fichiers et pièces jointes
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = Créer des comptes depuis le nouveau Centre de comptes
     .accesskey = C
 account-hub-checkbox-description = Processus expérimental de création de compte e-mail
+account-hub-ab-checkbox-label =
+    .label = Créer des carnets d’adresses dans le nouveau Centre de compte
+    .accesskey = C
+account-hub-ab-checkbox-description = Flux expérimental de création de carnet d’adresses
 
 ## Compose Tab
 

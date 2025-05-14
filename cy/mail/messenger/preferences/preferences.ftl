@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Allforio ar gyfer Symudol
 category-qr-export =
     .tooltiptext = Allforio ar gyfer Symudol
+general-language-and-fonts-header = Iaith a Ffontiau
 general-language-and-appearance-header = Iaith a Gwedd
 general-incoming-mail-header = Derbyn E-byst
 general-files-and-attachment-header = Ffeiliau ac Atodiadau
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = Creu cyfrifon yn y Ganolfan Cyfrifon newydd
     .accesskey = C
 account-hub-checkbox-description = Llif creu cyfrif post newydd arbrofol
+account-hub-ab-checkbox-label =
+    .label = Creu llyfrau cyfeiriadau yn y Account Hub newydd
+    .accesskey = C
+account-hub-ab-checkbox-description = Llif creu llyfr cyfeiriadau newydd arbrofol
 
 ## Compose Tab
 

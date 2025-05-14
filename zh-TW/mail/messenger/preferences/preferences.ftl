@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = 匯出至行動版
 category-qr-export =
     .tooltiptext = 匯出至行動版
+general-language-and-fonts-header = 語言與字型
 general-language-and-appearance-header = 語言與外觀
 general-incoming-mail-header = 收到的郵件
 general-files-and-attachment-header = 檔案與附件
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = 到新版帳號中心註冊帳號
     .accesskey = C
 account-hub-checkbox-description = 新郵件帳號建立流程（實驗中）
+account-hub-ab-checkbox-label =
+    .label = 到新版 Account Hub 建立通訊錄
+    .accesskey = A
+account-hub-ab-checkbox-description = 實驗性建立新通訊錄流程
 
 ## Compose Tab
 

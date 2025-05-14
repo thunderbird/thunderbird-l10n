@@ -21,6 +21,7 @@ webext-perms-description-addressBooks = Consulter et modifier vos carnets d’ad
 webext-perms-description-compose = Lire et modifier vos e-mails au fur et à mesure que vous les rédigez et les envoyez
 webext-perms-description-compose-send = Envoyer des e-mails composés en votre nom
 webext-perms-description-compose-save = Enregistrer les e-mails rédigés sous forme de brouillons ou de modèles
+webext-perms-description-experiment-access = Ce module aura un accès complet et illimité à { -brand-short-name } et à votre ordinateur.
 webext-perms-description-experiment = Avoir un accès complet et illimité à { -brand-short-name } et à votre ordinateur
 webext-perms-description-messagesImport = Importer des messages dans Thunderbird
 webext-perms-description-messagesModify = Lire et modifier vos messages au moment où ils sont affichés

@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Auf Mobilgerät exportieren
 category-qr-export =
     .tooltiptext = Auf Mobilgerät exportieren
+general-language-and-fonts-header = Sprache & Schriftarten
 general-language-and-appearance-header = Sprache & Erscheinungsbild
 general-incoming-mail-header = Eingehende E-Mail-Nachrichten
 general-files-and-attachment-header = Dateien & Anhänge
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = Konten in der neuen Kontenverwaltung erstellen
     .accesskey = K
 account-hub-checkbox-description = Experimentelle Vorgehensweise bei der Erstellung eines neuen E-Mail-Kontos
+account-hub-ab-checkbox-label =
+    .label = Adressbücher in der neuen Kontenverwaltung erstellen
+    .accesskey = A
+account-hub-ab-checkbox-description = Experimentelle Vorgehensweise bei der Erstellung eines neuen Adressbuchs
 
 ## Compose Tab
 

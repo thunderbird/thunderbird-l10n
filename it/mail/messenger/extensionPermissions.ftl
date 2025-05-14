@@ -21,6 +21,7 @@ webext-perms-description-addressBooks = Leggere e modificare la rubrica e i cont
 webext-perms-description-compose = Leggere e modificare le email in fase di composizione e di invio
 webext-perms-description-compose-send = Inviare messaggi di posta elettronica per conto dell’utente
 webext-perms-description-compose-save = Salvare messaggi di posta elettronica come bozze o modelli
+webext-perms-description-experiment-access = Questo componente aggiuntivo avrà accesso completo e illimitato a { -brand-short-name } e al tuo computer.
 webext-perms-description-experiment = Avere accesso completo e senza restrizioni a { -brand-short-name } e al computer
 webext-perms-description-messagesImport = Importare messaggi in Thunderbird
 webext-perms-description-messagesModify = Leggere e modificare le email mentre vengono visualizzate

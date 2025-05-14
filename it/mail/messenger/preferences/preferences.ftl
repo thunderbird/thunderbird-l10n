@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Esporta per app mobile
 category-qr-export =
     .tooltiptext = Esporta per app mobile
+general-language-and-fonts-header = Lingua e caratteri
 general-language-and-appearance-header = Lingua e aspetto
 general-incoming-mail-header = Posta in arrivo
 general-files-and-attachment-header = File e allegati
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = Crea account nel nuovo Centro account
     .accesskey = C
 account-hub-checkbox-description = Flusso sperimentale per la creazione di un nuovo account di posta
+account-hub-ab-checkbox-label =
+    .label = Crea rubriche nel nuovo Account Hub
+    .accesskey = C
+account-hub-ab-checkbox-description = Sperimentale flusso di creazione di una nuova rubrica
 
 ## Compose Tab
 
