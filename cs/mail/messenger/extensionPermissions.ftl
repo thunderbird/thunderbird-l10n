@@ -21,6 +21,11 @@ webext-perms-description-addressBooks = Číst a upravovat vaše kontakty a slo�
 webext-perms-description-compose = Číst a upravovat vaše e-mailové zprávy během psaní a odesílání
 webext-perms-description-compose-send = Odesílat vaším jménem e-mailové zprávy
 webext-perms-description-compose-save = Ukládat koncepty a šablony zpráv
+webext-perms-description-experiment-access =
+    { -brand-short-name.case-status ->
+        [with-cases] Tento doplněk bude mít plný a neomezený přístup k { -brand-short-name(case: "gen") } a k vašemu počítači.
+       *[no-cases] Tento doplněk bude mít plný a neomezený přístup k aplikaci { -brand-short-name } a k vašemu počítači.
+    }
 webext-perms-description-experiment = Plný, neomezený přístup k aplikaci { -brand-short-name } a k vašemu počítači
 webext-perms-description-messagesImport = Importovat zprávy do Thunderbirdu
 webext-perms-description-messagesModify = Číst a upravovat vaše e-mailové zprávy během jejich zobrazování

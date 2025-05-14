@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Export pro mobilní zařízení
 category-qr-export =
     .tooltiptext = Exportovat pro mobilní zařízení
+general-language-and-fonts-header = Jazyk a písma
 general-language-and-appearance-header = Zobrazení a jazyk stránek
 general-incoming-mail-header = Příchozí pošta
 general-files-and-attachment-header = Soubory a přílohy
@@ -532,6 +533,9 @@ account-hub-checkbox-label =
     .label = Účty vytvářet v novém centru účtů
     .accesskey = t
 account-hub-checkbox-description = Experimentální vytváření nových poštovních účtů
+account-hub-ab-checkbox-label =
+    .label = Kontakty vytvářet v novém centru účtů
+    .accesskey = K
 
 ## Compose Tab
 
