@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Eksport za mobilny rěd
 category-qr-export =
     .tooltiptext = Eksport za mobilny rěd
+general-language-and-fonts-header = Rěc a pisma
 general-language-and-appearance-header = Rěc a wuglěd
 general-incoming-mail-header = Dochadajuce mejlki
 general-files-and-attachment-header = Dataje a pśidanki
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = Konta w nowem kontowem centrumje załožyś
     .accesskey = c
 account-hub-checkbox-description = Eksperimentelny wótběg załoženja nowego e-mailowego konta
+account-hub-ab-checkbox-label =
+    .label = Adresniki w nowem kontowem centrumje załožyś
+    .accesskey = A
+account-hub-ab-checkbox-description = Eksperimentelny wótběg załoženja nowego adresnika
 
 ## Compose Tab
 

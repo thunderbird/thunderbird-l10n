@@ -451,9 +451,9 @@ account-hub-checkbox-label =
     .accesskey = C
 account-hub-checkbox-description = 新郵件帳號建立流程（實驗中）
 account-hub-ab-checkbox-label =
-    .label = 到新版 Account Hub 建立通訊錄
+    .label = 到新版帳號中心建立通訊錄
     .accesskey = A
-account-hub-ab-checkbox-description = 實驗性建立新通訊錄流程
+account-hub-ab-checkbox-description = 實驗性的新通訊錄建立流程
 
 ## Compose Tab
 
@@ -495,7 +495,7 @@ language-popup-label =
     .accesskey = L
 download-dictionaries-link = 下載其他字典
 font-label =
-    .value = 字型:
+    .value = 字型：
     .accesskey = n
 font-size-label =
     .value = 大小:

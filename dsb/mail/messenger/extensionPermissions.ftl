@@ -21,6 +21,7 @@ webext-perms-description-addressBooks = Cytajśo a změńśo swóje adresniki a 
 webext-perms-description-compose = Cytajśo a změńśo swóje e-mailowe powěsći, mjaztym až je pišośo a sćelośo
 webext-perms-description-compose-send = Napisane mejlki we wašom mjenju pósłáś
 webext-perms-description-compose-save = Spisane e-mailowe powěsći ako nacerjenja abo pśedłogi składowaś
+webext-perms-description-experiment-access = Toś ten dodank změjo połny, njewobgranicowany pśistup k { -brand-short-name } a swójomu licadłu.
 webext-perms-description-experiment = Mějśo połny, njewobgranicowany pśistup k { -brand-short-name } a swójomu licadłu
 webext-perms-description-messagesImport = Powěsći do Thunderbird importěrowaś
 webext-perms-description-messagesModify = Cytajśo a změńśo swóje mejlki ako maju se wam pokazaś
