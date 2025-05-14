@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Exportera för mobil
 category-qr-export =
     .tooltiptext = Exportera för mobil
+general-language-and-fonts-header = Språk & teckensnitt
 general-language-and-appearance-header = Språk & utseende
 general-incoming-mail-header = Inkommande e-post
 general-files-and-attachment-header = Filer & bilagor
