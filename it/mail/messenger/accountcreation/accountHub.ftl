@@ -11,7 +11,7 @@
 
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = Benvenuto in <span data-l10n-name="brand-name">{ -brand-full-name }</span>
-account-hub-title = Centro degli account
+account-hub-title = Centro account
 
 ## Footer
 

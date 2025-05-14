@@ -451,9 +451,9 @@ account-hub-checkbox-label =
     .accesskey = C
 account-hub-checkbox-description = Flusso sperimentale per la creazione di un nuovo account di posta
 account-hub-ab-checkbox-label =
-    .label = Crea rubriche nel nuovo Account Hub
+    .label = Crea rubriche nel nuovo Centro account
     .accesskey = C
-account-hub-ab-checkbox-description = Sperimentale flusso di creazione di una nuova rubrica
+account-hub-ab-checkbox-description = Flusso sperimentale per la creazione di una nuova rubrica
 
 ## Compose Tab
 
