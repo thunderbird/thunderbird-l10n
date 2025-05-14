@@ -446,6 +446,10 @@ account-hub-checkbox-label =
     .label = Skapa konton i nya kontonavet
     .accesskey = S
 account-hub-checkbox-description = Experimentellt flöde för att skapa nya e-postkonton
+account-hub-ab-checkbox-label =
+    .label = Skapa adressböcker i det nya kontonavet
+    .accesskey = k
+account-hub-ab-checkbox-description = Experimentellt nytt flöde för att skapa adressböcker
 
 ## Compose Tab
 
