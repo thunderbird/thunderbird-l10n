@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Export for Mobile
 category-qr-export =
     .tooltiptext = Export for Mobile
+general-language-and-fonts-header = Language & Fonts
 general-language-and-appearance-header = Language & Appearance
 general-incoming-mail-header = Incoming Mails
 general-files-and-attachment-header = Files & Attachments
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = Create accounts in the new Account Hub
     .accesskey = C
 account-hub-checkbox-description = Experimental new mail account creation flow
+account-hub-ab-checkbox-label =
+    .label = Create address books in the new Account Hub
+    .accesskey = A
+account-hub-ab-checkbox-description = Experimental new address book creation flow
 
 ## Compose Tab
 
