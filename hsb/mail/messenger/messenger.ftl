@@ -493,5 +493,6 @@ quota-panel-percent-used = { $percent }% połne
 mark-as-read-action = Jako přečitany markěrować
 delete-action = Zhašeć
 mark-as-starred-action = Z hwěžku markěrować
+mark-as-spam-action = Jako spam markěrować
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Ničo nječinić

@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Exportálás mobilra
 category-qr-export =
     .tooltiptext = Exportálás mobilra
+general-language-and-fonts-header = Nyelv és betűkészletek
 general-language-and-appearance-header = Nyelv és megjelenés
 general-incoming-mail-header = Bejövő levelek
 general-files-and-attachment-header = Fájlok és mellékletek
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = Fiókok létrehozása az új fiókközpontban
     .accesskey = l
 account-hub-checkbox-description = Kísérleti postafiók-létrehozási folyamat
+account-hub-ab-checkbox-label =
+    .label = Címjegyzékek létrehozása az új fiókközpontban
+    .accesskey = a
+account-hub-ab-checkbox-description = Kísérleti postafiók-létrehozási folyamat
 
 ## Compose Tab
 

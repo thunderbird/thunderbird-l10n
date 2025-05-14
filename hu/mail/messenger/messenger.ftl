@@ -477,5 +477,6 @@ quota-panel-percent-used = { $percent }% tele
 mark-as-read-action = Megjelölés olvasottként
 delete-action = Törlés
 mark-as-starred-action = Megjelölés csillagozottként
+mark-as-spam-action = Megjelölés levélszemétként
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Nincs művelet

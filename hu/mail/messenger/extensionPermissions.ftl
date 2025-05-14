@@ -21,6 +21,7 @@ webext-perms-description-addressBooks = Címjegyzék és névjegyek olvasása é
 webext-perms-description-compose = Olvassa el és módosítsa az e-mail üzeneteket, miközben megírja és elküldi őket
 webext-perms-description-compose-send = Megírt e-mail üzenetek küldése az Ön nevében
 webext-perms-description-compose-save = A megírt levelek mentése piszkozatként vagy sablonként
+webext-perms-description-experiment-access = Ennek a kiegészítőnek teljes, korlátlan hozzáférése lesz a { -brand-short-name }höz és a számítógépéhez.
 webext-perms-description-experiment = Legyen teljes, korlátlan hozzáférése a { -brand-short-name }höz és a számítógépéhez
 webext-perms-description-messagesImport = Üzenetek importálása a Thunderbirdbe
 webext-perms-description-messagesModify = Olvassa el és módosítsa a leveleket, amint azok megjelennek Önnek

@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Eksport za mobilny grat
 category-qr-export =
     .tooltiptext = Eksport za mobilny grat
+general-language-and-fonts-header = Rěč a pisma
 general-language-and-appearance-header = Rěč a zwonkowne
 general-incoming-mail-header = Dochadźace mejlki
 general-files-and-attachment-header = Dataje a přiwěški
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = Konta w nowym kontowym centrumje załožić
     .accesskey = c
 account-hub-checkbox-description = Eksperimentelny wotběh załoženja noweho e-mejloweho konta
+account-hub-ab-checkbox-label =
+    .label = Adresniki w nowym kontowym centrumje załožić
+    .accesskey = A
+account-hub-ab-checkbox-description = Eksperimentelny wotběh załoženja noweho adresnika
 
 ## Compose Tab
 
