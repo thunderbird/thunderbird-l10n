@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Мобильді үшін экспорттау
 category-qr-export =
     .tooltiptext = Мобильді үшін экспорттау
+general-language-and-fonts-header = Тіл және қаріптер
 general-language-and-appearance-header = Тіл және сыртқы түрі
 general-incoming-mail-header = Кіріс хабарламалар
 general-files-and-attachment-header = Файлдар және салынымдар
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = Жаңа Тіркелгілер орталығында тіркелгілерді жасау
     .accesskey = с
 account-hub-checkbox-description = Пошта тіркелгілерін жасаудың жаңа, эксперименттік үрдісі
+account-hub-ab-checkbox-label =
+    .label = Жаңа Тіркелгілер орталығында адрестік кітапшаларды жасау
+    .accesskey = а
+account-hub-ab-checkbox-description = Адрестік кітапшаларды жасаудың жаңа, эксперименттік үрдісі
 
 ## Compose Tab
 
