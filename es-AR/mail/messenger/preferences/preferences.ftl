@@ -451,8 +451,8 @@ account-hub-checkbox-label =
     .accesskey = C
 account-hub-checkbox-description = Flujo de creación de cuentas de correo (experimental)
 account-hub-ab-checkbox-label =
-    .label = Crear libretas de direcciones en el nuevo Centro de cuentas
-    .accesskey = C
+    .label = Crear libretas de direcciones en el nuevo centro de cuentas
+    .accesskey = a
 account-hub-ab-checkbox-description = Flujo experimental de creación de libretas de direcciones
 
 ## Compose Tab
