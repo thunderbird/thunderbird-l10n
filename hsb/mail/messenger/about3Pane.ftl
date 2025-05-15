@@ -532,4 +532,4 @@ folder-pane-context-mark-folder-read =
             [few] { $count } rjadowaki jako přečitane markěrować
            *[other] { $count } rjadowakow jako přečitane markěrować
         }
-    .accesskey = r
+    .accesskey = d
