@@ -465,6 +465,7 @@ account-hub-checkbox-description = Experimentele accountcreatieflow voor nieuwe 
 account-hub-ab-checkbox-label =
     .label = Adresboeken aanmaken in de nieuwe Accounthub
     .accesskey = A
+account-hub-ab-checkbox-description = Experimentele creatieflow voor nieuw adresboeken
 
 ## Compose Tab
 
