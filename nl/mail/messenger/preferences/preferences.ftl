@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Exporteren voor Mobiel
 category-qr-export =
     .tooltiptext = Exporteren voor Mobiel
+general-language-and-fonts-header = Taal en lettertypen
 general-language-and-appearance-header = Taal & Vormgeving
 general-incoming-mail-header = Inkomende berichten
 general-files-and-attachment-header = Bestanden & Bijlagen
@@ -461,6 +462,9 @@ account-hub-checkbox-label =
     .label = Maak accounts aan in de nieuwe Accounthub
     .accesskey = M
 account-hub-checkbox-description = Experimentele accountcreatieflow voor nieuwe e-mailadressen
+account-hub-ab-checkbox-label =
+    .label = Adresboeken aanmaken in de nieuwe Accounthub
+    .accesskey = A
 
 ## Compose Tab
 
