@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Mobil için Dışa Aktar
 category-qr-export =
     .tooltiptext = Mobil cihazlar için dışa aktar
+general-language-and-fonts-header = Dil ve yazı tipleri
 general-language-and-appearance-header = Dil ve Görünüm
 general-incoming-mail-header = Gelen E-postalar
 general-files-and-attachment-header = Dosyalar ve Ekler
@@ -449,6 +450,7 @@ account-hub-checkbox-label =
     .label = Hesapları yeni Hesap Merkezi’nde oluştur
     .accesskey = H
 account-hub-checkbox-description = Deneysel yeni e-posta hesabı oluşturma akışı
+account-hub-ab-checkbox-description = Deneysel yeni adres defteri oluşturma akışı
 
 ## Compose Tab
 

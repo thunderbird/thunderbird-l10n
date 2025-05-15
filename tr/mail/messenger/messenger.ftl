@@ -477,5 +477,6 @@ quota-panel-percent-used = %{ $percent } dolu
 mark-as-read-action = Okundu olarak işaretle
 delete-action = Sil
 mark-as-starred-action = Yıldızlı olarak işaretle
+mark-as-spam-action = Spam olarak işaretle
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Hiçbir şey yapma
