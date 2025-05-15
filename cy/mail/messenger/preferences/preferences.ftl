@@ -451,7 +451,7 @@ account-hub-checkbox-label =
     .accesskey = C
 account-hub-checkbox-description = Llif creu cyfrif post newydd arbrofol
 account-hub-ab-checkbox-label =
-    .label = Creu llyfrau cyfeiriadau yn y Account Hub newydd
+    .label = Creu llyfrau cyfeiriadau yn y Ganolfan Cyfrif newydd
     .accesskey = C
 account-hub-ab-checkbox-description = Llif creu llyfr cyfeiriadau newydd arbrofol
 
