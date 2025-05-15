@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Εξαγωγή για κινητές συσκευές
 category-qr-export =
     .tooltiptext = Εξαγωγή για κινητές συσκευές
+general-language-and-fonts-header = Γλώσσες και γραμματοσειρές
 general-language-and-appearance-header = Γλώσσα και εμφάνιση
 general-incoming-mail-header = Εισερχόμενα email
 general-files-and-attachment-header = Αρχεία και συνημμένα
@@ -445,6 +446,10 @@ account-hub-checkbox-label =
     .label = Δημιουργία λογαριασμών στο νέο κέντρο λογαριασμών
     .accesskey = Δ
 account-hub-checkbox-description = Πειραματική διαδικασία δημιουργίας νέων λογαριασμών email
+account-hub-ab-checkbox-label =
+    .label = Δημιουργία ευρετηρίων στο νέο κέντρο λογαριασμών
+    .accesskey = ε
+account-hub-ab-checkbox-description = Πειραματική διαδικασία δημιουργίας νέων ευρετηρίων
 
 ## Compose Tab
 
