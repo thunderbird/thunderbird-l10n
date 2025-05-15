@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Exportar pro apparatos mobile
 category-qr-export =
     .tooltiptext = Exportar pro apparatos mobile
+general-language-and-fonts-header = Lingua e typos de character
 general-language-and-appearance-header = Lingua e apparentia
 general-incoming-mail-header = Messages entrante
 general-files-and-attachment-header = Files e annexos
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = Crear contos in le nove Centro de contos
     .accesskey = c
 account-hub-checkbox-description = Fluxo experimental pro le creation de un nove conto de posta
+account-hub-ab-checkbox-label =
+    .label = Crear libros de adresses in le nove Centro de conto
+    .accesskey = C
+account-hub-ab-checkbox-description = Fluxo experimental pro le creation de nove libro de adresses
 
 ## Compose Tab
 
