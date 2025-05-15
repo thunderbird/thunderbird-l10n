@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Izvozi za mobilno napravo
 category-qr-export =
     .tooltiptext = Izvozi za mobilno napravo
+general-language-and-fonts-header = Jezik in pisave
 general-language-and-appearance-header = Jezik in videz
 general-incoming-mail-header = Dohodna pošta
 general-files-and-attachment-header = Datoteke in priponke
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = Ustvarjanje računov v novem središču za račune
     .accesskey = č
 account-hub-checkbox-description = Poskusni nov postopek ustvarjanja novih računov za e-pošto
+account-hub-ab-checkbox-label =
+    .label = Ustvari imenike v novem središču za račune
+    .accesskey = i
+account-hub-ab-checkbox-description = Poskusni nov postopek ustvarjanja novih imenikov
 
 ## Compose Tab
 
