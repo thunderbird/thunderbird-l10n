@@ -453,6 +453,7 @@ account-hub-checkbox-description = Tilraunaflæði til að búa til nýja póstr
 account-hub-ab-checkbox-label =
     .label = Búðu til nafnaskrár í nýju reikningamiðstöðinni
     .accesskey = a
+account-hub-ab-checkbox-description = Tilraunaflæði til að búa til nýjar nafnaskrár
 
 ## Compose Tab
 
