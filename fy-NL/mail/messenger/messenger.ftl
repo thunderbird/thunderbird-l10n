@@ -477,5 +477,6 @@ quota-panel-percent-used = { $percent }% fol
 mark-as-read-action = Markearje as lêzen
 delete-action = Fuortsmite
 mark-as-starred-action = Markearje mei stjer
+mark-as-spam-action = Markearje as net-winske
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Neat dwaan

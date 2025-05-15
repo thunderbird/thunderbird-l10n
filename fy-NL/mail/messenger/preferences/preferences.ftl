@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Eksportearje foar mobyl
 category-qr-export =
     .tooltiptext = Eksportearje foar mobyl
+general-language-and-fonts-header = Taal en lettertypen
 general-language-and-appearance-header = Taal en Foarmjouwing
 general-incoming-mail-header = Ynkommende e-mailberjochten:
 general-files-and-attachment-header = Bestannen en Bylagen
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = Meitsje accounts oan yn de nije Accounthub
     .accesskey = M
 account-hub-checkbox-description = Eksperimintele accountkreaasjeflow foar nije e-mailadressen
+account-hub-ab-checkbox-label =
+    .label = Adresboeken oanmeitsje yn de nije Accounthub
+    .accesskey = A
+account-hub-ab-checkbox-description = Eksperimintele kreaasjeflow foar nije adresboeken
 
 ## Compose Tab
 
