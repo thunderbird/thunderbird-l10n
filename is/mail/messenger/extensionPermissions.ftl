@@ -21,6 +21,7 @@ webext-perms-description-addressBooks = Lesa og breyta nafnaskránum þínum og 
 webext-perms-description-compose = Lesa og breyta tölvupóstinum þínum þegar þú skrifar og sendir þau
 webext-perms-description-compose-send = Senda samsett tölvupóstskeyti fyrir þína hönd
 webext-perms-description-compose-save = Vistaðu samin tölvupóstskeyti sem drög eða sniðmát
+webext-perms-description-experiment-access = Þessi viðbót mun hafa fullan, ótakmarkaðan aðgang að { -brand-short-name } og tölvunni þinni.
 webext-perms-description-experiment = Hafa fullan, ótakmarkaðan aðgang að { -brand-short-name } og tölvunni þinni
 webext-perms-description-messagesImport = Flytja skilaboð inn í Thunderbird
 webext-perms-description-messagesModify = Lesa og breyta tölvupóstskilaboðum þínum eins og þau birtast þér

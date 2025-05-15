@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Útflutningur fyrir farsíma
 category-qr-export =
     .tooltiptext = Útflutningur fyrir farsíma
+general-language-and-fonts-header = Tungumál og letur
 general-language-and-appearance-header = Tungumál og útlit
 general-incoming-mail-header = Póstur sem berst
 general-files-and-attachment-header = Skrár og viðhengi
@@ -449,6 +450,9 @@ account-hub-checkbox-label =
     .label = Búðu til reikninga í nýju reikningamiðstöðinni
     .accesskey = B
 account-hub-checkbox-description = Tilraunaflæði til að búa til nýja póstreikninga
+account-hub-ab-checkbox-label =
+    .label = Búðu til nafnaskrár í nýju reikningamiðstöðinni
+    .accesskey = a
 
 ## Compose Tab
 
