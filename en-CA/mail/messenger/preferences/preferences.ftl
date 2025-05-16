@@ -956,6 +956,7 @@ default-sort-ascending-description = New messages at the bottom
 default-sort-descending =
     .label = Descending
 default-sort-descending-description = New messages at the top
+apply-thread-sort-label = Propagate threading and sorting settings to:
 apply-sort-label = Apply these settings to:
 apply-sort-to-all-button =
     .label = All existing folders
