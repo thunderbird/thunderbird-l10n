@@ -898,6 +898,11 @@ qr-export-more-accounts = Export more accounts
 
 appearance-category-header = Appearance
 default-message-list-legend = Message List
+appearance-card-style-3 =
+    .label = 3 rows
+appearance-card-style-2 =
+    .label = 2 rows
+default-message-list-sorting-legend = Sorting and Threading
 default-message-list-description = Define the default sorting and threading options for newly created folders.
 default-flag-label =
     .value = Default Threading:
