@@ -14,7 +14,7 @@
 <!ENTITY retentionUseAccount.label "Defnyddio gosodiadau fy nghyfrif">
 <!ENTITY retentionUseAccount.accesskey "D">
 <!ENTITY daysOld.label "diwrnod oed">
-<!ENTITY message.label "negeseuon">
+<!ENTITY message.label "neges">
 <!ENTITY retentionCleanup.label "I adfer lle ar ddisg, mae modd dileu hen negeseuon yn barhaol.">
 <!ENTITY retentionCleanupImap.label "I adfer lle ar ddisg, mae modd dileu hen negeseuon yn barhaol yn gopïau lleol a'r gwreiddiol ar y gweinydd pell.">
 <!ENTITY retentionCleanupPop.label "I adfer lle ar ddisg, mae modd dileu hen negeseuon yn barhaol gan gynnwys y gwreiddiol ar y gweinydd pell.">

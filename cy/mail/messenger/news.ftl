@@ -16,7 +16,7 @@ new-newsgroup-headers =
     }
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
-no-new-messages = Does dim negeseuon newydd ar y gweinydd.
+no-new-messages = Does dim negeseuon newydd yn { $newsgroup }.
 # Variables:
 # $count (Number) - Number of articles.
 # $newsgroup (String) - The name of the newsgroup.

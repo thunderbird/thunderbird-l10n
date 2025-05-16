@@ -14,7 +14,7 @@
 <!ENTITY autosyncNotDownload.accesskey "P">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "diwrnod oed">
-<!ENTITY message.label "negeseuon">
+<!ENTITY message.label "neges">
 <!ENTITY nntpNotDownloadRead.label "Darllen negeseuon">
 <!ENTITY nntpNotDownloadRead.accesskey "D">
 <!ENTITY nntpDownloadMsg.label "Negeseuon mwy na">

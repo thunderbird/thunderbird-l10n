@@ -127,7 +127,7 @@
 <!ENTITY unifiedFolders.accesskey "U">
 <!ENTITY allFolders.label "Y Cyfan">
 <!ENTITY allFolders.accesskey "C">
-<!ENTITY unreadFolders.label "Heb ei Darllen">
+<!ENTITY unreadFolders.label "Heb eu Darllen">
 <!ENTITY unreadFolders.accesskey "H">
 <!ENTITY favoriteFolders.label "Ffefryn">
 <!ENTITY favoriteFolders.accesskey "F">
@@ -190,7 +190,7 @@
 <!ENTITY collapseAllThreadsCmd.label "Cau Pob Edefyn">
 <!ENTITY collapseAllThreadsCmd.accesskey "C">
 <!ENTITY collapseAllThreadsCmd.key "\">
-<!ENTITY unreadMsgsCmd.label "Heb ei Darllen">
+<!ENTITY unreadMsgsCmd.label "Heb eu Darllen">
 <!ENTITY unreadMsgsCmd.accesskey "H">
 <!ENTITY threadsWithUnreadCmd.label "Edafedd gyda rhai Heb eu Darllen">
 <!ENTITY threadsWithUnreadCmd.accesskey "H">
@@ -558,7 +558,7 @@
 <!ENTITY manageTags.accesskey "T">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Enw">
-<!ENTITY folderUnreadColumn.label "Heb ei Darllen">
+<!ENTITY folderUnreadColumn.label "Heb eu Darllen">
 <!ENTITY folderTotalColumn.label "Cyfanswm">
 <!ENTITY folderSizeColumn.label "Maint">
 <!-- Folder Pane Context Menu -->

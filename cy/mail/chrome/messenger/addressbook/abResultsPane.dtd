@@ -27,7 +27,7 @@
 <!ENTITY FaxNumber.accesskey "F">
 <!ENTITY HomePhone.label "Rhif Ffôn Cartref">
 <!ENTITY HomePhone.accesskey "F">
-<!ENTITY WorkPhone.label "Ffôn Gwaith">
+<!ENTITY WorkPhone.label "Rhif Ffôn Gwaith">
 <!ENTITY WorkPhone.accesskey "G">
 <!ENTITY ChatName.label "Enw Sgwrsio">
 <!ENTITY ChatName.accesskey "S">

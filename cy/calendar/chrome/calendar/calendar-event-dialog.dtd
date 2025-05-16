@@ -5,7 +5,7 @@
 <!ENTITY event.title.label "Golygu Eitem">
 <!ENTITY event.dialog.keepDurationButton.tooltip "Cadw'r cyfnod wrth newid y dyddiad gorffen">
 <!ENTITY event.dialog.keepDurationButton.accesskey "K">
-<!ENTITY newevent.from.label "O">
+<!ENTITY newevent.from.label "Oddi wrth">
 <!ENTITY newevent.to.label "At">
 <!ENTITY newevent.status.label "Statws">
 <!ENTITY newevent.status.accesskey "S">
