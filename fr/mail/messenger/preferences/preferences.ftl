@@ -451,9 +451,9 @@ account-hub-checkbox-label =
     .accesskey = C
 account-hub-checkbox-description = Processus expérimental de création de compte e-mail
 account-hub-ab-checkbox-label =
-    .label = Créer des carnets d’adresses dans le nouveau Centre de compte
+    .label = Créer des carnets d’adresses depuis le nouveau Centre de compte
     .accesskey = C
-account-hub-ab-checkbox-description = Flux expérimental de création de carnet d’adresses
+account-hub-ab-checkbox-description = Processus expérimental de création de carnet d’adresses
 
 ## Compose Tab
 
