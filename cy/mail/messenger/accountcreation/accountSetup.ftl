@@ -97,7 +97,7 @@ account-setup-success-settings-exchange = Ffurfweddiad wedi'i ganfod ar gyfer gw
 account-setup-step1-image =
     .title = Gosodiad cychwynnol
 account-setup-step2-image =
-    .title = Yn llwytho…
+    .title = Wrthi'n llwytho…
 account-setup-step3-image =
     .title = Wedi canfod ffurfweddiad
 account-setup-step4-image =
@@ -126,7 +126,7 @@ account-setup-results-area-title =
         [many] Ffurfwediadau ar gael
        *[other] Ffurfwediadau ar gael
     }
-account-setup-result-imap-description = Cadw eich ffolderi a'ch e-byst wedi'u cydweddu ar eich gweinydd
+account-setup-result-imap-description = Cadwch eich ffolderi a'ch e-byst wedi'u cydweddu ar eich gweinydd
 account-setup-result-pop-description = Cadw eich ffolderi a'ch e-byst ar eich cyfrifiadur
 # Note: Exchange, Office365 are the name of products.
 account-setup-result-exchange2-description = Defnyddiwch weinydd Microsoft Exchange neu wasanaethau cwmwl Office365
