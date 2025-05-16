@@ -849,7 +849,7 @@ qr-export-create = Crëwch god QR i allforio eich cyfrifon
 qr-export-select-accounts = Dewiswch pa gyfrifon i'w hallforio:
 qr-export-no-accounts = Ddim yn gweld eich holl gyfrifon? Mae'n bosib y bydd rhai cyfrifon yn cael eu hanalluogi oherwydd nad ydyn nhw'n cael eu cefnogi gan { -brand-product-name } Android. <a data-l10n-name="account-support-link">Cymorth</a>
 qr-export-accounts-legend = Cyfrifon e-bost
-qr-export-select-all-accounts = Dewis popeth
+qr-export-select-all-accounts = Dewis y cyfan
 qr-export-security-legend = Diogelwch
 qr-export-include-passwords = Cynnwys gyfrineiriau pob cyfrif
 qr-export-oauth-warning = Mae rhai o'ch cyfrifon yn defnyddio dull dilysu a allai fod angen ei ail-ddilysu ar eich dyfais symudol. Efallai y bydd angen i chi roi'ch cyfrineiriau eto yn ystod y broses hon.

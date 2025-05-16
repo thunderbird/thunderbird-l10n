@@ -64,13 +64,13 @@ content-tab-menu-forward-mac =
 # Reload
 
 content-tab-menu-reload =
-    .tooltiptext = Ail lwytho tudalen
-    .aria-label = Ail lwytho
+    .tooltiptext = Ail-lwytho tudalen
+    .aria-label = Ail-lwytho
     .accesskey = A
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Ail lwytho tudalen
-    .label = Ail lwytho
+    .tooltiptext = Ail-lwytho tudalen
+    .label = Ail-lwytho
     .accesskey = i
 
 # Stop

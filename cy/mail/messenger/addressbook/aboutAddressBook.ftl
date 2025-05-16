@@ -263,7 +263,7 @@ about-addressbook-confirm-delete-contacts-multi =
 about-addressbook-placeholder-empty-book = Dim cysylltiadau ar gael
 about-addressbook-placeholder-new-contact = Cysylltiad Newydd
 about-addressbook-placeholder-search-only = Dim ond ar ôl chwilio mae'r llyfr cyfeiriadau hwn yn dangos cysylltiadau
-about-addressbook-placeholder-searching = Yn chwilio…
+about-addressbook-placeholder-searching = Wrthi'n chwilio…
 about-addressbook-placeholder-no-search-results = Heb ganfod cysylltiadau
 
 ## Details

@@ -121,7 +121,7 @@ openpgp-key-man-publish-cmd =
     .accesskey = C
 openpgp-key-publish = Cyhoeddi
 openpgp-key-man-discover-prompt = I ddarganfod allweddi OpenPGP ar-lein, ar weinydd allweddi neu ddefnyddio protocol WKD, rhowch naill ai gyfeiriad e-bost neu ID allwedd.
-openpgp-key-man-discover-progress = Chwilio…
+openpgp-key-man-discover-progress = Wrthi'n chwilio…
 # Variables:
 # $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
 openpgp-key-publish-ok = Allwedd gyhoeddus wedi'i hanfon i "{ $keyserver }".

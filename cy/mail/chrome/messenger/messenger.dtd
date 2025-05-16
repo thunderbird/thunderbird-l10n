@@ -140,7 +140,7 @@
 <!ENTITY sortMenu.accesskey "T">
 <!ENTITY sortByDateCmd.label "Dyddiad">
 <!ENTITY sortByDateCmd.accesskey "D">
-<!ENTITY sortByReceivedCmd.label "Derbyn">
+<!ENTITY sortByReceivedCmd.label "Wedi derbyn">
 <!ENTITY sortByReceivedCmd.accesskey "e">
 <!ENTITY sortByStarCmd.label "Seren">
 <!ENTITY sortByStarCmd.accesskey "S">
@@ -291,7 +291,7 @@
 <!-- Message Menu -->
 <!ENTITY msgMenu.label "Neges">
 <!ENTITY msgMenu.accesskey "N">
-<!ENTITY newMsgCmd.label "Neges">
+<!ENTITY newMsgCmd.label "Neges Newydd">
 <!ENTITY newMsgCmd.accesskey "N">
 <!ENTITY newNewMsgCmd.label "Neges">
 <!ENTITY newNewMsgCmd.accesskey "e">
@@ -627,10 +627,10 @@
 <!ENTITY statusColumn.label "Statws">
 <!ENTITY sizeColumn.label "Maint">
 <!ENTITY junkStatusColumn.label "Statws Sbam">
-<!ENTITY unreadColumn.label "Heb ei Ddarllen">
+<!ENTITY unreadColumn.label "Heb eu Darllen">
 <!ENTITY totalColumn.label "Cyfanswm">
 <!ENTITY readColumn.label "Darllenwyd">
-<!ENTITY receivedColumn.label "Derbyniwyd">
+<!ENTITY receivedColumn.label "Wedi derbyn">
 <!ENTITY starredColumn.label "Serennog">
 <!ENTITY locationColumn.label "Lleoliad">
 <!ENTITY idColumn.label "Trefn Derbyn">

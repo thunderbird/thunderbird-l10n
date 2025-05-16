@@ -326,10 +326,10 @@ threadpane-column-label-date =
 threadpane-cell-date-title =
     .aria-label = Dyddiad
     .title = { $title }
-threadpane-column-header-received = Derbyniwyd
-    .title = Trefnu yn ôl dyddiad derbyniwyd
+threadpane-column-header-received = Wedi derbyn
+    .title = Trefnu yn ôl dyddiad derbyn
 threadpane-column-label-received =
-    .label = Derbyniwyd
+    .label = Wedi derbyn
 # Variables:
 # $title (String) - Message received date for tooltip.
 threadpane-cell-received-title =

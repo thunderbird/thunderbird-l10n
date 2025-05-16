@@ -166,7 +166,7 @@ account-setup-outgoing-server-legend = Gweinydd anfon
 ## Incoming/Outgoing SSL Authentication options
 
 ssl-autodetect-option = Awtoganfod
-ssl-no-authentication-option = Dim dilysiad
+ssl-no-authentication-option = Dim dilysu
 ssl-cleartext-password-option = Cyfrinair arferol
 ssl-encrypted-password-option = Cyfrinair wedi'i amgryptio
 
