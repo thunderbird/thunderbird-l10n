@@ -450,6 +450,9 @@ account-hub-checkbox-label =
     .label = Hesapları yeni Hesap Merkezi’nde oluştur
     .accesskey = H
 account-hub-checkbox-description = Deneysel yeni e-posta hesabı oluşturma akışı
+account-hub-ab-checkbox-label =
+    .label = Adres defterlerini yeni Hesap Merkezi’nde oluştur
+    .accesskey = A
 account-hub-ab-checkbox-description = Deneysel yeni adres defteri oluşturma akışı
 
 ## Compose Tab
