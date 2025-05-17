@@ -15,6 +15,13 @@ e2e-csr-button =
     .label = Gerar e guardar um ficheiro CSR como…
 # Do not translate: CSR
 e2e-csr-select-title = Algoritmo de CSR
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Incluir o endereço de e-mail ({ $email }) no CSR (recomendado)
+# $file A filename
+e2e-csr-success = O CSR foi guardado com sucesso em { $file }
+# $file A filename
+e2e-csr-failure = Não foi possível guardar o CSR no ficheiro { $file }
 e2e-signing-description = Uma assinatura digital permite que os destinatários verifiquem que a mensagem foi enviada por si e se o seu conteúdo não foi alterado. As mensagens encriptadas são assinadas por predefinição
 e2e-sign-message =
     .label = Assinar as mensagens não encriptadas

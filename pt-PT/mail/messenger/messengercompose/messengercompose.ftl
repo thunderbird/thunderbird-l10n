@@ -267,6 +267,7 @@ many-public-recipients-prompt-send = Mesmo Assim, Enviar
 ## Notifications
 
 encrypted-bcc-ignore-button = Compreendi
+auto-disable-e2ee-warning = A encriptação ponto a ponto para esta mensagem foi desativada automaticamente.
 
 ## Editing
 
@@ -294,6 +295,28 @@ cloud-file-placeholder-intro = O ficheiro { $filename } foi anexado como um File
 
 # Template
 
+# A line of text describing how many uploaded files have been appended to this
+# message. Emphasis should be on sharing as opposed to attaching. This item is
+# used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
+cloud-file-count-header =
+    { $count ->
+        [one] Eu associei { $count } ficheiro a este e-mail:
+       *[other] Eu associei { $count } ficheiros a este e-mail:
+    }
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service provider.
+# $link (string) - html a-tag for a link pointing to the web page of the provider
+cloud-file-service-provider-footer-single = Saiba mais sobre { $link }.
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service providers. Links for the used providers are
+# split into a comma separated list of the first n-1 providers and a single entry
+# at the end.
+# $firstLinks (string) - comma separated list of html a-tags pointing to web pages
+#                        of the first n-1 used providers
+# $lastLink (string) - html a-tag pointing the web page of the n-th used provider
+cloud-file-service-provider-footer-multiple = Saiba mais sobre { $firstLinks } e { $lastLink }.
 # Tooltip for an icon, indicating that the link is protected by a password.
 cloud-file-tooltip-password-protected-link = Ligação protegida por palavra-passe
 # Used in a list of stats about a specific file
