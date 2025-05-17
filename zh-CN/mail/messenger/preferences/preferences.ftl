@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = 导出到移动设备
 category-qr-export =
     .tooltiptext = 导出到移动设备
+general-language-and-fonts-header = 语言与字体
 general-language-and-appearance-header = 语言与外观
 general-incoming-mail-header = 接收邮件
 general-files-and-attachment-header = 文件与附件
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = 通过新版账户中心创建账户
     .accesskey = C
 account-hub-checkbox-description = 实验性新邮箱账户创建流程
+account-hub-ab-checkbox-label =
+    .label = 通过新版账户中心创建通讯录
+    .accesskey = A
+account-hub-ab-checkbox-description = 实验性新通讯录创建流程
 
 ## Compose Tab
 
