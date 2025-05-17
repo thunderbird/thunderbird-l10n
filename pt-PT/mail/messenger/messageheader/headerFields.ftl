@@ -50,6 +50,7 @@ message-header-list-subscribe-field = Lista-Subscrever<span data-l10n-name="fiel
 message-header-list-post-field = Lista-Publicar<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = Lista-Dono<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = Lista-Arquivo<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = Arquivado-a<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Obter Ajuda
@@ -70,6 +71,14 @@ list-id-list-post =
 list-id-list-owner =
     .label = Contactar Administrador…
     .accesskey = C
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Lista de arquivos
+    .accesskey = a
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = Ligação permanente da mensagem
+    .accesskey = p
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
