@@ -456,5 +456,6 @@ quota-panel-percent-used = { $percent }% đã đầy
 mark-as-read-action = Đánh dấu là đã đọc
 delete-action = Xóa
 mark-as-starred-action = Đánh dấu là được gắn sao
+mark-as-spam-action = Đánh dấu là thư rác
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Không làm gì

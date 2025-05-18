@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Xuất sang di động
 category-qr-export =
     .tooltiptext = Xuất sang di động
+general-language-and-fonts-header = Ngôn ngữ & phông chữ
 general-language-and-appearance-header = Ngôn ngữ & giao diện
 general-incoming-mail-header = Thư đến:
 general-files-and-attachment-header = Tập tin & đính kèm
@@ -449,6 +450,10 @@ account-hub-checkbox-label =
     .label = Thêm tài khoản trong trung tâm tài khoản mới
     .accesskey = C
 account-hub-checkbox-description = Thử nghiệm giao diện thêm tài khoản thư mới
+account-hub-ab-checkbox-label =
+    .label = Tạo sổ địa chỉ trong Trung tâm tài khoản mới
+    .accesskey = A
+account-hub-ab-checkbox-description = Thử nghiệm giao diện thêm sổ địa chỉ mới
 
 ## Compose Tab
 

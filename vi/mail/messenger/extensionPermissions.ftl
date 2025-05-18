@@ -21,6 +21,7 @@ webext-perms-description-addressBooks = Đọc và chỉnh sửa các sổ đị
 webext-perms-description-compose = Đọc và sửa đổi tin nhắn email của bạn khi bạn soạn và gửi chúng
 webext-perms-description-compose-send = Gửi tin nhắn email đã soạn thay mặt bạn
 webext-perms-description-compose-save = Lưu các email đã soạn dưới dạng bản nháp hoặc mẫu
+webext-perms-description-experiment-access = Tiện ích mở rộng này sẽ có quyền truy cập đầy đủ, không hạn chế vào { -brand-short-name }, và máy tính của bạn.
 webext-perms-description-experiment = Có quyền truy cập đầy đủ, không hạn chế vào { -brand-short-name } và máy tính của bạn
 webext-perms-description-messagesImport = Nhập thư vào Thunderbird
 webext-perms-description-messagesModify = Đọc và sửa đổi thông báo email của bạn khi chúng được hiển thị cho bạn
