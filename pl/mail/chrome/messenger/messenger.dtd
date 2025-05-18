@@ -569,7 +569,7 @@
 <!ENTITY folderContextPauseUpdates.label "Wstrzymaj aktualizacje">
 <!ENTITY folderContextPauseUpdates.accesskey "s">
 <!ENTITY folderContextOpenInNewWindow.label "Otwórz w nowym oknie">
-<!ENTITY folderContextOpenInNewWindow.accesskey "O">
+<!ENTITY folderContextOpenInNewWindow.accesskey "t">
 <!ENTITY folderContextOpenNewTab.label "Otwórz w nowej karcie">
 <!ENTITY folderContextOpenNewTab.accesskey "w">
 <!ENTITY folderContextNew.label "Nowy podfolder…">
@@ -593,7 +593,7 @@
 <!ENTITY folderContextSubscribe.label "Menedżer subskrypcji…">
 <!ENTITY folderContextSubscribe.accesskey "b">
 <!ENTITY folderContextSearchForMessages.label "Wyszukaj wiadomości…">
-<!ENTITY folderContextSearchForMessages.accesskey "W">
+<!ENTITY folderContextSearchForMessages.accesskey "k">
 <!ENTITY folderContextProperties2.label "Właściwości">
 <!ENTITY folderContextProperties2.accesskey "i">
 <!ENTITY folderContextFavoriteFolder.label "Ulubiony folder">
