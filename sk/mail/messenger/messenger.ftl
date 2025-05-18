@@ -489,5 +489,6 @@ quota-panel-percent-used = Zaplnené na { $percent } %
 mark-as-read-action = Označiť ako prečítané
 delete-action = Odstrániť
 mark-as-starred-action = Označiť hviezdičkou
+mark-as-spam-action = Označiť ako spam
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = Nerobiť nič

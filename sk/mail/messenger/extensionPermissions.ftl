@@ -21,6 +21,7 @@ webext-perms-description-addressBooks = Čítať a upravovať vaše adresáre a 
 webext-perms-description-compose = Čítať a upravovať vaše e‑mailové správy pri písaní a odosielať ich
 webext-perms-description-compose-send = Odosielať vytvorené e‑mailové správy vo vašom mene
 webext-perms-description-compose-save = Ukladať vytvorené e‑mailové správy ako koncepty alebo šablóny
+webext-perms-description-experiment-access = Tento doplnok bude mať plný a neobmedzený prístup k { -brand-short-name(case: "dat") } a vášmu počítaču.
 webext-perms-description-experiment = Mať úplný, neobmedzený prístup k { -brand-short-name }u a k vášmu počítaču
 webext-perms-description-messagesImport = Importovať správy do Thunderbirdu
 webext-perms-description-messagesModify = Čítať a upravovať vaše správy pri zobrazovaní
