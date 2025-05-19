@@ -21,6 +21,7 @@ webext-perms-description-addressBooks = Ler e modificar seus catálogos de ender
 webext-perms-description-compose = Ler e modificar suas mensagens de email enquanto você escreve e envia
 webext-perms-description-compose-send = Enviar mensagens de email em seu nome
 webext-perms-description-compose-save = Salvar mensagens de email redigidas como rascunho ou modelo
+webext-perms-description-experiment-access = Esta extensão terá acesso total e irrestrito ao { -brand-short-name } e ao seu computador.
 webext-perms-description-experiment = Ter acesso total e irrestrito ao { -brand-short-name } e ao seu computador
 webext-perms-description-messagesImport = Importar mensagens para o Thunderbird
 webext-perms-description-messagesModify = Ler e modificar suas mensagens de email à medida que são exibidas a você
