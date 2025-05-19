@@ -52,6 +52,9 @@ appmenu-new-newsgroup =
 
 appmenu-newab-panel-title =
     .title = Imedlis n tensa amaynut
+appmenu-newab-panel =
+    .label = Imedlis n tensa amaynut
+    .accesskey = I
 appmenu-new-addressbook =
     .label = Imedlis n tensa tadigant
     .accesskey = I
@@ -78,6 +81,9 @@ appmenu-create-contact =
 
 ## Open
 
+appmenu-open-file-panel =
+    .label = Ldi seg ufaylu
+    .accesskey = L
 appmenu-open-file-panel-title =
     .title = Ldi seg ufaylu
 appmenu-open-message =
@@ -94,6 +100,8 @@ appmenu-view-panel-title =
 appmenu-view-panel =
     .label = Sken
     .accesskey = S
+appmenuitem-toggle-thread-pane-header =
+    .label = Aqerru n tebdart n yiznan
 appmenu-font-size-value = Teɣzi n tsefsit
 appmenu-mail-uidensity-value = Taneẓẓi
 appmenu-uidensity-compact =
@@ -146,6 +154,18 @@ appmenu-help-panel-title =
 appmenu-help-get-help =
     .label = Awi tallelt
     .accesskey = T
+appmenu-help-shortcuts =
+    .label = Inegzumen n unasiw
+    .accesskey = I
+appmenu-help-get-involved =
+    .label = Ttekki
+    .accesskey = T
+appmenu-help-donation =
+    .label = Mudd tawsa
+    .accesskey = T
+appmenu-help-share-feedback =
+    .label = Bḍu taktiwin d tamawat
+    .accesskey = B
 appmenu-help-enter-troubleshoot-mode2 =
     .label = Askar n usellek…
     .accesskey = A
