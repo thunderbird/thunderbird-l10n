@@ -26,6 +26,8 @@ thread-pane-header-context-table-view =
     .label = Taskant n tfelwit
 thread-pane-header-context-cards-view =
     .label = Taskant n tkarḍiwin
+thread-pane-header-context-hide =
+    .label = Ffer aqerru n tebdart n yiznan
 
 ## Quick Filter Bar
 
@@ -222,8 +224,12 @@ threadpane-column-label-select =
     .label = Fren iznan
 threadpane-cell-select =
     .aria-label = Fren izen
+threadpane-column-header-thread =
+    .title = Segrew/Kkes asegrew s ukalan ifessasen n yizen
 threadpane-column-label-thread =
     .label = Akala afessas
+threadpane-cell-thread =
+    .aria-label = Addad n ukala
 threadpane-column-header-flagged =
     .title = Asmizzwer s yetri
 threadpane-column-label-flagged =
@@ -441,3 +447,12 @@ message-list-placeholder-no-messages = Ulac izen i yettwafen
 
 ## Folder pane context menu
 
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Creḍ akaram yettwaɣra
+           *[other] Crnueḍ ikaramen ttwaɣran
+        }
+    .accesskey = k

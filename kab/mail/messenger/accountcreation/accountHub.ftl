@@ -92,4 +92,6 @@ account-hub-result-recommended-label = Yelha
 account-hub-edit-configuration = Ẓreg tawila
 account-hub-creating-account = Timerna n umiḍan…
 account-hub-select-all = Fren akk
+account-hub-signature-link = Azmul n yimayl
 account-hub-email-error-text = Ma ulac aɣilif, sekcem tansa imayl tameɣtut.
+account-hub-name-error-text = Ttxil-k⋅m sekcem isem
