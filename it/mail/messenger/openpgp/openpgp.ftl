@@ -748,7 +748,7 @@ msg-compose-details-button-access-key = D
 send-aborted = Operazione di invio interrotta.
 # Variables:
 # $key (String) - Key id.
-key-not-trusted = Affidabilità non sufficiente per la chiave “{ $key }”
+key-not-trusted = Attendibilità non sufficiente per la chiave “{ $key }”
 # Variables:
 # $key (String) - Key id.
 key-not-found = Chiave “{ $key }” non trovata

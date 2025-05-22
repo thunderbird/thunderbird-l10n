@@ -19,7 +19,7 @@ chat-verify-identity =
     .accesskey = e
 chat-identity-verified =
     .label = Identità già verificata
-chat-buddy-identity-status = Affidabilità crittografia
+chat-buddy-identity-status = Attendibilità crittografia
 chat-buddy-identity-status-verified = Verificata
 chat-buddy-identity-status-unverified = Non verificata
 
