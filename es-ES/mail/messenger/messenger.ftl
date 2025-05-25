@@ -476,5 +476,7 @@ quota-panel-percent-used = { $percent }% utilizado
 
 mark-as-read-action = Marcar como leído
 delete-action = Eliminar
+mark-as-starred-action = Marcar con estrella
+mark-as-spam-action = Marcar como correo no deseado
 # This is a temporary value. No need to translate unless you want to.
 do-nothing-action = No hacer nada
