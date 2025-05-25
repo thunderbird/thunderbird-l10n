@@ -51,7 +51,7 @@ aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Không thể kiểm tra bản cập nhật.
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> là một <a data-l10n-name="community-exp-credits-link">cộng đồng toàn cầu</a> cùng chung sức bảo vệ Web mở, công khai, và cho phép ai cũng truy cập được.
 community-desc = { -brand-short-name } được thiết kế bởi <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, một <a data-l10n-name="community-credits-link">cộng đồng toàn cầu</a> cùng chung sức bảo vệ Web mở, công khai, và cho phép ai cũng truy cập được.
-about-donation = Bạn muốn giúp đỡ? <a data-l10n-name="helpus-donate-link">Quyên góp tài chính</a> or <a data-l10n-name="helpus-get-involved-link">tham gia đóng góp!</a>
+about-donation = Bạn muốn giúp đỡ? <a data-l10n-name="helpus-donate-link">Quyên góp tài chính</a> hoặc <a data-l10n-name="helpus-get-involved-link">tham gia đóng góp!</a>
 bottom-links-license = Thông tin giấy phép
 bottom-links-rights = Quyền hạn người dùng cuối
 bottom-links-privacy = Chính sách riêng tư
