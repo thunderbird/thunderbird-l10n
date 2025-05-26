@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Izegrar d yisental
     .accesskey = I
+menu-export-for-mobile =
+    .label = Sifeḍ ɣer uziraz…
+    .accesskey = f
 
 ## Help Menu
 
@@ -23,6 +26,9 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Awi tallalt
     .accesskey = T
+menu-help-get-release-help =
+    .label = Awi tallalt s { -brand-short-name }
+    .accesskey = R
 menu-help-shortcuts =
     .label = Inegzumen n unasiw
     .accesskey = U
@@ -62,6 +68,12 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Anef { -brand-shorter-name }
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Ffeɣ { -brand-full-name }
+           *[other] Ffeɣ { -brand-full-name }
+        }
 # Localization note: Do not translate unless your locale's keyboard layout
 # does not include this key, as it determines the keyboard shortcut for
 # shutting down the application.
@@ -97,6 +109,9 @@ menu-view-folders-toggle-header =
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Aqerru n tebdart n yiznan
+    .accesskey = A
 menu-font-size-label =
     .label = Teɣzi n tsefsit
     .accesskey = e

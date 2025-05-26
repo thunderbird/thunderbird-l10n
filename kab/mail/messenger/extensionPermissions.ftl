@@ -27,3 +27,4 @@ webext-perms-description-messagesMove = Nɣel neɣ senkez iznan-ik·im n yimayl 
 webext-perms-description-messagesDelete = Kkes i lebda iznan-ik·im n yimayl
 webext-perms-description-messagesTags = Rnu, beddel, kkes tiberninin n yizen
 webext-perms-description-messagesTagsList = Bder-d tibzimin n yiznan
+webext-perms-description-messengerSettings = Ɣeṛ iɣewwaren n { -brand-short-name }

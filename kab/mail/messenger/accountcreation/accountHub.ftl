@@ -92,6 +92,16 @@ account-hub-result-recommended-label = Yelha
 account-hub-edit-configuration = Ẓreg tawila
 account-hub-creating-account = Timerna n umiḍan…
 account-hub-select-all = Fren akk
+account-hub-deselect-all = Kkes akk afran
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { $count ->
+        [one] { $count } ttwafernen
+       *[other] { $count } ttwafernen
+    }
 account-hub-signature-link = Azmul n yimayl
 account-hub-email-error-text = Ma ulac aɣilif, sekcem tansa imayl tameɣtut.
 account-hub-name-error-text = Ttxil-k⋅m sekcem isem
+account-hub-username-error-text = Isem n useqdac yettwasra
+    .title = Isem n useqdac yettwasra
+account-hub-account-authentication-error = Tuccḍa n usesteb.

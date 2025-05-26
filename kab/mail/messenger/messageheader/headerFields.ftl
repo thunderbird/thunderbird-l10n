@@ -89,3 +89,7 @@ message-ids-field-show-all = Sken akk
 
 ## Dark Message Mode
 
+dark-message-mode-toggle-enabled =
+    .title = Sens askar aberkan i yiznan
+dark-message-mode-toggle-disabled =
+    .title = Rmed askar aberkan i yiznan

@@ -34,6 +34,7 @@ xpinstall-prompt-install =
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 
+site-permission-install-first-prompt-midi-header = Asmel-a yesra anekcum ɣer yibenkan-ik MIDI (Musical Instrument Digital Interface). Anekcum ɣer yibenkan yezmer ad yettsireg s usbeddi n uzegrir niḍen.
 site-permission-install-first-prompt-midi-message = Taɣellist n unekcum-a ur yettwaḍman ara. Ur ttkemmil ara alamma tḍemneḍ asmel-a.
 
 ##
