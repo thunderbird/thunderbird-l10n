@@ -31,5 +31,5 @@ account-manager-server-default-icon =
 outgoing-server-section-name = Server posta in uscita
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Impostazioni server in uscita
-outgoing-server-settings-description = Quando gestisci le tue identità puoi utilizzare un server da questo elenco selezionandolo come Server in uscita, oppure puoi utilizzare il server predefinito da questo elenco selezionando “Usa server predefinito”.
+outgoing-server-settings-description = Nella gestione delle proprie identità è possibile utilizzare un server della lista seguente selezionandolo come Server posta in uscita o lasciare il predefinito selezionando “Server predefinito”.
 outgoing-server-type = Tipo di server:
