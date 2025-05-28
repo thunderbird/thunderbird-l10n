@@ -18,4 +18,4 @@ downloading-articles-for-offline = 正在下載 { $newsgroup } 的 { $count } �
 no-articles-to-download = { $newsgroup } 沒有新文章。
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
-no-such-newsgroup = 新聞群組 { $newsgroup } 不在伺服器上可用。
+no-such-newsgroup = 無法使用伺服器上的新聞群組 { $newsgroup }。

@@ -151,3 +151,4 @@ account-hub-addon-install-needed = { -brand-short-name } wot doma tutón serwer 
 account-hub-addon-error = Instalacija přidatka je so nimokuliła. Prošu spytajće hišće raz abo stajće so z awtorom přidatka do zwiska, zo byšće pomoc dóstał.
 account-hub-security-warning = <span data-l10n-name="security-warning">Warnowanje: Njewěsty e-mejlowy serwer je so wotkrył.</span> Tutón serwer zaklučowanje nima, wozjawnja waše hesło a waše daty. Stajće so ze swojim administratorom do zwiska, zo byšće zwisk zawěsćił abo na swójske riziko pokročował. <a data-l10n-name="faq-link">Hlejće Husto stajene prašenja za dalše informacije.</a>
 account-hub-account-authentication-error = Awtentifikaciski zmylk.
+account-hub-add-address-book = Adresnik přidać

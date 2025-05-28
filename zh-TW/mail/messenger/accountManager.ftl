@@ -31,5 +31,5 @@ account-manager-server-default-icon =
 outgoing-server-section-name = 外寄伺服器
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = 寄件伺服器設定
-outgoing-server-settings-description = 管理您的身份識別資訊時您可以自此清單選擇一個伺服器作為寄件伺服器或「使用預設伺服器」以使用預設的伺服器。
-outgoing-server-type = 伺服器類型:
+outgoing-server-settings-description = 管理您的身份識別資訊時，可以自此清單選擇一個伺服器作為外寄郵件伺服器或「使用預設伺服器」以使用預設的伺服器。
+outgoing-server-type = 伺服器類型：
