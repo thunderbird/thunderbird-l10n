@@ -278,9 +278,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Profilbilde for { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Innstillingar for meldingshovud
@@ -415,5 +412,3 @@ quick-filter-bar-show =
 
 mark-as-read-action = Marker som lesen
 delete-action = Slett
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Ikkje gjer noko

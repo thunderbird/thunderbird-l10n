@@ -287,9 +287,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Profilna slika { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Postavke zaglavlja poruke
@@ -483,5 +480,3 @@ quota-panel-percent-used = { $percent }% popunjeno
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Označi kao pročitano
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Ne čini ništa

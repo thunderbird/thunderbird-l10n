@@ -8,6 +8,7 @@
 <!ENTITY smtpServer.label "Server odchádzajúcej pošty (SMTP)">
 <!-- LOCALIZATION NOTE (smtpDescription.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpDescription.label "Pri správe svojich identít môžete použiť server z tohto zoznamu jeho zvolením ako Server odchádzajúcej pošty (SMTP), alebo môžete použiť tu nastavený predvolený server zvolením položky &quot;Použiť predvolený server&quot;.">
+<!-- extracted from am-advanced.xhtml -->
 <!ENTITY smtpListAdd.label "Pridať…">
 <!ENTITY smtpListAdd.accesskey "r">
 <!ENTITY smtpListEdit.label "Upraviť…">

@@ -439,7 +439,6 @@ dark-message-mode-checkbox-label =
     .label = 다크 메시지 모드 활성화
     .accesskey = d
 dark-message-mode-description = 메시지 본문이 어두운 테마를 따르도록 강제
-dark-message-mode-checkbox-description = 메시지 본문이 어두운 테마를 따르도록 하는 실험적 기능
 dark-message-mode-toggle-label =
     .label = 다크 메시지 모드 보기 토글
     .accesskey = t

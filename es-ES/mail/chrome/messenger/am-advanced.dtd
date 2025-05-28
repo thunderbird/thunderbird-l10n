@@ -8,6 +8,7 @@
 <!ENTITY smtpServer.label "Configuración del servidor de salida (SMTP)">
 <!-- LOCALIZATION NOTE (smtpDescription.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpDescription.label "Al administrar sus identidades puede usar un servidor de esta lista seleccionándolo como servidor de salida (SMTP), o puede usar el servidor predeterminado seleccionando en esta lista &quot;Usar servidor predeterminado&quot;.">
+<!-- extracted from am-advanced.xhtml -->
 <!ENTITY smtpListAdd.label "Añadir…">
 <!ENTITY smtpListAdd.accesskey "d">
 <!ENTITY smtpListEdit.label "Editar…">

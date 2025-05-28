@@ -162,9 +162,6 @@ message-header-msg-flagged =
     .title = Stjernemerket
     .aria-label = Stjernemerket
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-button-style =

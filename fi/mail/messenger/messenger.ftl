@@ -260,9 +260,6 @@ message-header-delete =
 message-header-recipient-avatar =
     .alt = Käyttäjän { $address } profiilikuva.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Viestin otsakeasetukset
@@ -449,5 +446,3 @@ quota-panel-percent-used = { $percent } % täynnä
 
 mark-as-read-action = Merkitse luetuksi
 delete-action = Poista
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Älä tee mitään

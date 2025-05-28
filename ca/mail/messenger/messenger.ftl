@@ -272,9 +272,6 @@ message-header-msg-flagged =
 message-header-recipient-avatar =
     .alt = Imatge de perfil de { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Configuració de la capçalera del missatge

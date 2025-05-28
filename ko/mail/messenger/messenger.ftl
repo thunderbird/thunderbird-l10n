@@ -265,9 +265,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = { $address } 님의 프로필 사진.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = 메시지 헤더 설정

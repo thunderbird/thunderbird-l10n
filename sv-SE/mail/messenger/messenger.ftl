@@ -281,9 +281,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Profilbild för { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Inställningar för meddelanderubrik
@@ -478,5 +475,3 @@ mark-as-read-action = Markera som läst
 delete-action = Ta bort
 mark-as-starred-action = Markera som stjärnmärkt
 mark-as-spam-action = Markera som skräppost
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Gör ingenting

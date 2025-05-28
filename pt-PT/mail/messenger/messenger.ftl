@@ -281,9 +281,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Imagem de perfil de { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Definições do Cabeçalho da Mensagem
@@ -473,5 +470,3 @@ quota-panel-percent-used = { $percent }% utilizado
 
 mark-as-read-action = Marcar como lida
 delete-action = Eliminar
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Não fazer nada

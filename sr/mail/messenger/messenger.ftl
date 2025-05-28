@@ -198,9 +198,6 @@ message-header-undelete =
     .label = Врати
     .tooltiptext = Опозови брисање ове поруке
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Подешавања заглавља поруке

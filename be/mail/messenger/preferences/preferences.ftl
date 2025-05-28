@@ -857,7 +857,6 @@ default-sort-ascending-description = Новыя паведамленні зні�
 default-sort-descending =
     .label = Па ўбыванні
 default-sort-descending-description = Новыя паведамленні зверху
-apply-sort-label = Ужыць гэтыя налады для:
 apply-sort-to-all-button =
     .label = Усіх існуючых папак
     .accesskey = У

@@ -289,9 +289,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Зображення профілю { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Налаштування заголовка повідомлення
@@ -487,5 +484,3 @@ quota-panel-percent-used = { $percent }% заповнено
 mark-as-read-action = Позначити прочитаним
 delete-action = Видалити
 mark-as-starred-action = Позначити зірочкою
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Нічого не робити

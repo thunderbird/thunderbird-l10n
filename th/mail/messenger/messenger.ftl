@@ -267,9 +267,6 @@ message-header-msg-flagged =
 message-header-recipient-avatar =
     .alt = รูปโปรไฟล์ของ { $address }
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = การตั้งค่าส่วนหัวของข้อความ

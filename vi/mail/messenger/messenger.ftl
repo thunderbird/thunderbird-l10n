@@ -265,9 +265,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Ảnh hồ sơ của { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Cài đặt header thư
@@ -457,5 +454,3 @@ mark-as-read-action = Đánh dấu là đã đọc
 delete-action = Xóa
 mark-as-starred-action = Đánh dấu là được gắn sao
 mark-as-spam-action = Đánh dấu là thư rác
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Không làm gì

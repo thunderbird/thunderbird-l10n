@@ -256,9 +256,6 @@ message-header-msg-flagged =
 message-header-recipient-avatar =
     .alt = Gambar profil { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Pengaturan Header Pesan

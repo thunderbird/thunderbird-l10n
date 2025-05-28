@@ -161,9 +161,6 @@ message-header-msg-flagged =
     .title = Աստղանշուած
     .aria-label = Աստղանշուած
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Հաղորդագրութեան գլխագրի կարգաւորումներ

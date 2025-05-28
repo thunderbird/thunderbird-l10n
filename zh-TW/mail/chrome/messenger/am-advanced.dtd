@@ -8,6 +8,7 @@
 <!ENTITY smtpServer.label "寄件伺服器 (SMTP) 設定">
 <!-- LOCALIZATION NOTE (smtpDescription.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpDescription.label "管理您的身份識別資訊時，您可以自此清單選擇一個伺服器作為外寄郵件（SMTP）伺服器或「使用預設伺服器」以使用預設的伺服器。">
+<!-- extracted from am-advanced.xhtml -->
 <!ENTITY smtpListAdd.label "新增…">
 <!ENTITY smtpListAdd.accesskey "d">
 <!ENTITY smtpListEdit.label "編輯…">

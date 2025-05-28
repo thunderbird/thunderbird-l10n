@@ -279,9 +279,6 @@ message-header-msg-flagged =
 message-header-recipient-avatar =
     .alt = Аватар профілю { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Налады загалоўка паведамленняў

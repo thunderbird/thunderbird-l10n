@@ -281,9 +281,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Auðkennismynd af { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Stillingar á skilaboðahaus
@@ -478,5 +475,3 @@ mark-as-read-action = Merkja sem lesið
 delete-action = Eyða
 mark-as-starred-action = Merkja sem stjörnumerkt
 mark-as-spam-action = Merkja sem ruslpóst
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Gera ekkert

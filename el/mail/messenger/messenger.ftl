@@ -281,9 +281,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Εικόνα προφίλ του { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Ρυθμίσεις κεφαλίδας μηνυμάτων
@@ -478,5 +475,3 @@ mark-as-read-action = Επισήμανση ως αναγνωσμένο
 delete-action = Διαγραφή
 mark-as-starred-action = Επισήμανση με αστέρι
 mark-as-spam-action = Επισήμανση ως ανεπιθύμητο
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Καμία ενέργεια

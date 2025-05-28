@@ -281,9 +281,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = { $address } profilképe.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Üzenetfejléc beállításai
@@ -478,5 +475,3 @@ mark-as-read-action = Megjelölés olvasottként
 delete-action = Törlés
 mark-as-starred-action = Megjelölés csillagozottként
 mark-as-spam-action = Megjelölés levélszemétként
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Nincs művelet

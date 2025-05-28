@@ -8,6 +8,7 @@
 <!ENTITY smtpServer.label "Шығыс пошта сервері (SMTP) баптаулары">
 <!-- LOCALIZATION NOTE (smtpDescription.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpDescription.label "Тіркелу мәліметтеріңізді басқару кезінде сіз бұл тізімнен серверді оны шығыс пошта сервері (SMTP) ретінде таңдау арқылы қолдана аласыз, немесе сіз &quot;Негізгі серверді орнату&quot; арқылы бұл тізімнен үнсіз келісім бойынша серверін қолдана аласыз.">
+<!-- extracted from am-advanced.xhtml -->
 <!ENTITY smtpListAdd.label "Қосу…">
 <!ENTITY smtpListAdd.accesskey "о">
 <!ENTITY smtpListEdit.label "Өзгерту…">

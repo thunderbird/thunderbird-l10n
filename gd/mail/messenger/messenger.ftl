@@ -211,9 +211,6 @@ message-header-msg-flagged =
 message-header-recipient-avatar =
     .alt = An dealbh pròifil aig { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Roghainnean bann-cinn na teachdaireachd

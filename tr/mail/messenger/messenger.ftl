@@ -281,9 +281,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = { $address } profil fotoğrafı.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = İleti Başlığı Ayarları
@@ -478,5 +475,3 @@ mark-as-read-action = Okundu olarak işaretle
 delete-action = Sil
 mark-as-starred-action = Yıldızlı olarak işaretle
 mark-as-spam-action = Spam olarak işaretle
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Hiçbir şey yapma

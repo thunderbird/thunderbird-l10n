@@ -439,7 +439,6 @@ dark-message-mode-checkbox-label =
     .label = Activar il modus stgir per ils messadis
     .accesskey = d
 dark-message-mode-description = Sfurzar la secziun da messadis da s’adattar al modus stgir
-dark-message-mode-checkbox-description = Funcziun experimentala per adattar la secziun da messadis al modus stgir
 dark-message-mode-toggle-label =
     .label = Mussar l’opziun per activar/deactivar il modus stgir da messadis
     .accesskey = t

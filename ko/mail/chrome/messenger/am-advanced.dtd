@@ -8,6 +8,7 @@
 <!ENTITY smtpServer.label "보내는 서버 (SMTP)">
 <!-- LOCALIZATION NOTE (smtpDescription.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpDescription.label "여러개의 계정을 관리하는 경우 사용하는 송신 (SMTP) 서버를 이 리스트에서 선택 해 주십시오. &quot;기본 서버&quot;를 선택하면 기본 서버를 사용하게 됩니다.">
+<!-- extracted from am-advanced.xhtml -->
 <!ENTITY smtpListAdd.label "추가…">
 <!ENTITY smtpListAdd.accesskey "d">
 <!ENTITY smtpListEdit.label "편집…">

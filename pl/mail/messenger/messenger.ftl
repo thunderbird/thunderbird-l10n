@@ -282,9 +282,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Zdjęcie profilowe { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Ustawienia nagłówka wiadomości
@@ -481,5 +478,3 @@ mark-as-read-action = Oznacz jako przeczytaną
 delete-action = Usuń
 mark-as-starred-action = Oznacz gwiazdką
 mark-as-spam-action = Oznacz jako spam
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Nie rób nic

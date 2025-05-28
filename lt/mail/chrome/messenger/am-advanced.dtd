@@ -8,6 +8,7 @@
 <!ENTITY smtpServer.label "Laiškų išsiuntimo serverio (SMTP) nuostatos">
 <!-- LOCALIZATION NOTE (smtpDescription.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpDescription.label "Tvarkydami tapatumo duomenis, kaip išsiuntimo (SMTP) serverį galėsite pasirinkti vieną iš šiame sąraše esančių serverių, arba nurodyti, kad būtų naudojamas šiame sąraše parinktas numatytasis serveris.">
+<!-- extracted from am-advanced.xhtml -->
 <!ENTITY smtpListAdd.label "Įtraukti…">
 <!ENTITY smtpListAdd.accesskey "r">
 <!ENTITY smtpListEdit.label "Taisyti…">

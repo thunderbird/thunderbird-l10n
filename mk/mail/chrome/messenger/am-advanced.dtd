@@ -6,6 +6,7 @@
 
 <!-- LOCALIZATION NOTE (smtpServer.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpServer.label "Поставки за серверот за испраќање (SMTP)">
+<!-- extracted from am-advanced.xhtml -->
 <!ENTITY smtpListAdd.label "Додај…">
 <!ENTITY smtpListAdd.accesskey "Д">
 <!ENTITY smtpListEdit.label "Уреди…">

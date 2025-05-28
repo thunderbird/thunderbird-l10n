@@ -281,9 +281,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Maletg da profil per { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Parameters dal chau dal messadi
@@ -476,5 +473,3 @@ quota-panel-percent-used = Occupà: { $percent }%
 
 mark-as-read-action = Marcar sco legì
 delete-action = Stizzar
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Na far nagut

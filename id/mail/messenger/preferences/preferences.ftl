@@ -424,7 +424,6 @@ dark-message-mode-legend = Gaya pembaca pesan
 dark-message-mode-checkbox-label =
     .label = Aktifkan mode pesan gelap
     .accesskey = d
-dark-message-mode-checkbox-description = Fitur eksperimental untuk membuat isi pesan mengikuti tema gelap
 dark-message-mode-toggle-label =
     .label = Tampilkan pengalih mode pesan gelap
     .accesskey = T

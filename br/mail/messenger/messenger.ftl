@@ -101,9 +101,6 @@ context-menu-cancel-msg =
 ## Message header pane
 
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 

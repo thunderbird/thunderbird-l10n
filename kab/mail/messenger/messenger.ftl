@@ -226,9 +226,6 @@ message-header-undelete =
     .label = Sefsex tukksa
     .tooltiptext = Sefsex tukksa n yizen-a
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Iɣewwaren n uqerru n yizen

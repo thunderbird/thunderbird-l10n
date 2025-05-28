@@ -6,6 +6,7 @@
 
 <!-- LOCALIZATION NOTE (smtpServer.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpServer.label "Налады сервера выходнай пошты (SMTP)">
+<!-- extracted from am-advanced.xhtml -->
 <!ENTITY smtpListAdd.label "Дадаць…">
 <!ENTITY smtpListAdd.accesskey "Д">
 <!ENTITY smtpListEdit.label "Рэдагаваць…">

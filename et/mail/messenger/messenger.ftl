@@ -281,9 +281,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Kontakti { $address } profiilipilt.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Kirja päise sätted
@@ -477,5 +474,3 @@ quota-panel-percent-used = { $percent }% täis
 mark-as-read-action = Märgi loetuks
 delete-action = Kustuta
 mark-as-starred-action = Tähista tärniga
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Ära tee midagi

@@ -281,9 +281,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = პროფილის გამოსახულება – { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = წერილის თავსართი პარამეტრები
@@ -476,5 +473,3 @@ quota-panel-percent-used = { $percent }% შევსებულია
 
 mark-as-read-action = მონიშვნა წაკითხულად
 delete-action = წაშლა
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = მოქმედების გარეშე

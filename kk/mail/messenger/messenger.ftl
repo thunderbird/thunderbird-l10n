@@ -280,9 +280,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = { $address }профиль суреті.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Хабарлама тақырыптаманың баптаулары
@@ -477,5 +474,3 @@ mark-as-read-action = Оқылған ретінде белгілеу
 delete-action = Өшіру
 mark-as-starred-action = Жұлдызша қою
 mark-as-spam-action = Спам деп белгілеу
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Ешнәрсе жасамау

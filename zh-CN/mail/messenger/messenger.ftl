@@ -268,9 +268,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = { $address } 的头像。
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = 消息标题栏设置
@@ -460,5 +457,3 @@ mark-as-read-action = 标为已读
 delete-action = 删除
 mark-as-starred-action = 已加星标
 mark-as-spam-action = 标记为垃圾邮件
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = 无操作

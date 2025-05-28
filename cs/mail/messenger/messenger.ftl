@@ -290,9 +290,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Profilový obrázek pro { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Nastavení záhlaví zpráv
@@ -494,5 +491,3 @@ mark-as-read-action = Označit jako přečtené
 delete-action = Smazat
 mark-as-starred-action = Označit hvězdičkou
 mark-as-spam-action = Označit jako spam
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Nedělat nic

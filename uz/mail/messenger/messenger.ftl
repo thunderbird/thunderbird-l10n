@@ -84,9 +84,6 @@ mail-context-menu-forward-forward =
 ## Message header pane
 
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 

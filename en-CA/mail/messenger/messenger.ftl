@@ -281,9 +281,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Profile picture of { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Message Header Settings
@@ -475,5 +472,3 @@ quota-panel-percent-used = { $percent }% full
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Mark as Read
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Do Nothing

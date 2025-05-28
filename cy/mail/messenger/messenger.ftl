@@ -305,9 +305,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Llun proffil { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Gosodiadau Pennyn Neges
@@ -510,5 +507,3 @@ mark-as-read-action = Marcio fel wedi ei Darllen
 delete-action = Dileu
 mark-as-starred-action = Marciwch fel Serennog
 mark-as-spam-action = Marcio fel Sbam
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Gwneud Dim

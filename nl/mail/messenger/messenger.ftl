@@ -281,9 +281,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Profielafbeelding van { $adres }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Instellingen berichtkop
@@ -478,5 +475,3 @@ mark-as-read-action = Markeren als gelezen
 delete-action = Verwijderen
 mark-as-starred-action = Markeren met ster
 mark-as-spam-action = Markeren als spam
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Niets doen

@@ -8,6 +8,7 @@
 <!ENTITY smtpServer.label "Configuración del sirvidor de salida (SMTP)">
 <!-- LOCALIZATION NOTE (smtpDescription.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpDescription.label "Al alministrar les tos identidaes pues usar un sirvidor d'esta llista seleicionándolu como sirvidor de salida (SMTP), o pues usar el sirvidor predetermináu seleicionando nesta llista &quot;Usar sirvidor predetermináu&quot;.">
+<!-- extracted from am-advanced.xhtml -->
 <!ENTITY smtpListAdd.label "Amestar…">
 <!ENTITY smtpListAdd.accesskey "s">
 <!ENTITY smtpListEdit.label "Editar…">

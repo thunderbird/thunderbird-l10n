@@ -236,9 +236,6 @@ message-header-msg-flagged =
 message-header-recipient-avatar =
     .alt = Imagen de perfil de { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Ajustes del encabezado del mensaje

@@ -6,6 +6,7 @@
 
 <!-- LOCALIZATION NOTE (smtpServer.label): do not translate "SMTP" in below line -->
 <!ENTITY smtpServer.label "Opstelling vir uitgaande bediener (SMTP)">
+<!-- extracted from am-advanced.xhtml -->
 <!ENTITY smtpListAdd.label "Voeg by…">
 <!ENTITY smtpListAdd.accesskey "V">
 <!ENTITY smtpListEdit.label "Redigeer…">

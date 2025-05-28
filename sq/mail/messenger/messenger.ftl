@@ -281,9 +281,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Foto profili e { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Rregullime Kryeje të Mesazheve
@@ -476,5 +473,3 @@ quota-panel-percent-used = { $percent }% i mbushur
 
 mark-as-read-action = Vëri Shenjë si të Lexuar
 delete-action = Fshije
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Mos Bëj Gjë

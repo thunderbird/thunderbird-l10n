@@ -281,9 +281,6 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = Profilbillede af { $address }.
 
-## Message header cutomize panel
-
-
 ## Message header customize panel
 
 message-header-customize-panel-title = Indstillinger for meddelelseshoved
@@ -477,5 +474,3 @@ quota-panel-percent-used = { $percent }% fyldt
 mark-as-read-action = Marker som læst
 delete-action = Slet
 mark-as-starred-action = Marker med stjerne
-# This is a temporary value. No need to translate unless you want to.
-do-nothing-action = Gør ingenting
