@@ -28,3 +28,6 @@ downloading-articles-for-offline =
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-articles-to-download = Njedaju nastawki k ześěgowanjeju za { $newsgroup }.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = Diskusijna kupka { $newsgroup } njejo na serwerje k dispoziciji.

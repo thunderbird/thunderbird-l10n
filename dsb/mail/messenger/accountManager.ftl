@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = Pśetergnuś
 account-manager-server-default-icon =
     .title = Standardne konto
     .alt = Gwězdny symbol
+outgoing-server-section-name = Wuchadny serwer
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Nastajenja wuchadnego serwera
+outgoing-server-settings-description = Gaž zarědujośo swóje identity, móžośo serwer z lisćiny wužywaś, z tym až wuběraśo jen ako serwer za postowy wuchad, abo móžośo standardny serwer z toś teje lisćiny wužywaś, z tym až wuběraśo „Standardny serwer wužywaś“.
+outgoing-server-type = Serwerowy typ:
