@@ -32,3 +32,6 @@ downloading-articles-for-offline =
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-articles-to-download = Does dim erthyglau gan { $newsgroup } i'w llwytho i lawr.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = Nid yw'r grŵp newyddion { $newsgroup } ar gael ar y gweinydd.

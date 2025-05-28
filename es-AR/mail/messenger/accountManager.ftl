@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = Cancelar
 account-manager-server-default-icon =
     .title = Fuente predeterminada
     .alt = Icono estrella
+outgoing-server-section-name = Servidor saliente
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Configuración del servidor saliente
+outgoing-server-settings-description = Al administrar sus identidades, puede usar un servidor de esta lista seleccionándolo como el servidor saliente, o puede usar el servidor predeterminado de esta lista seleccionando "Usar servidor predeterminado".
+outgoing-server-type = Tipo de servidor:

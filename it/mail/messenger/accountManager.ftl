@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = Annulla
 account-manager-server-default-icon =
     .title = Account predefinito
     .alt = Icona a forma di stella
+outgoing-server-section-name = Server posta in uscita
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Impostazioni server in uscita
+outgoing-server-settings-description = Quando gestisci le tue identità puoi utilizzare un server da questo elenco selezionandolo come Server in uscita, oppure puoi utilizzare il server predefinito da questo elenco selezionando “Usa server predefinito”.
+outgoing-server-type = Tipo di server:
