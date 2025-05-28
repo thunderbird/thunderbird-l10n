@@ -149,3 +149,7 @@ account-hub-addon-install-needed = Το { -brand-short-name } δεν υποστ�
 account-hub-addon-error = Η εγκατάσταση του προσθέτου απέτυχε. Δοκιμάστε ξανά ή επικοινωνήστε με τον δημιουργό του προσθέτου για βοήθεια.
 account-hub-security-warning = <span data-l10n-name="security-warning">Προειδοποίηση: Ανιχνεύτηκε επισφαλής διακομιστής αλληλογραφίας.</span> Αυτός ο διακομιστής δεν διαθέτει κρυπτογράφηση, με αποτέλεσμα να εκθέτει τους κωδικούς πρόσβασης και τα δεδομένα σας. Επικοινωνήστε με τον διαχειριστή για να ασφαλίσει τη σύνδεση ή συνεχίστε με δική σας ευθύνη. <a data-l10n-name="faq-link">Δείτε τις συχνές ερωτήσεις για περισσότερες πληροφορίες.</a>
 account-hub-account-authentication-error = Σφάλμα ταυτοποίησης.
+address-book-add-local = Νέο τοπικό ευρετήριο
+address-book-add-ldap-icon =
+    .alt = Σύνδεση σε απομακρυσμένο ευρετήριο LDAP
+address-book-add-ldap = Νέο ευρετήριο LDAP

@@ -29,4 +29,7 @@ account-manager-server-default-icon =
     .title = Conto predefinite
     .alt = Icone de stella
 outgoing-server-section-name = Servitor de exito
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Parametros de servitor in exito
+outgoing-server-settings-description = Gerente tu identitates tu pote usar un servitor ab iste lista seligente lo como le servitor in exito, o tu pote usar le servitor predefinite ab iste lista seligente “Usar servitor predefinite”.
 outgoing-server-type = Typo de servitor:

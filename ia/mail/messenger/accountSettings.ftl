@@ -12,3 +12,6 @@ default-account-button =
     .label = Stabilir como predeterminate
 outgoing-server-name = Servitor de exito:
     .accesskey = e
+outgoing-server-edit =
+    .label = Modificar servitor in exito…
+    .accesskey = e
