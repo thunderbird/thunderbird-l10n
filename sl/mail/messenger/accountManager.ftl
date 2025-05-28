@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = Prekliči
 account-manager-server-default-icon =
     .title = Privzeti račun
     .alt = Ikona zvezdice
+outgoing-server-section-name = Odhodni strežnik
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Nastavitve odhodnega strežnika
+outgoing-server-settings-description = Med upravljanjem z identitetami lahko s seznama izberete odhodni strežnik ali pa z izbiro "Uporabi privzeti strežnik" uporabite privzetega.
+outgoing-server-type = Vrsta strežnika:
