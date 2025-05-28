@@ -28,3 +28,4 @@ edit-vcard-dialog-cancel-button = Avbryt
 account-manager-server-default-icon =
     .title = Standardkonto
     .alt = Stjärnikon
+outgoing-server-type = Servertyp:

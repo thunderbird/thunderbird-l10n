@@ -28,3 +28,6 @@ edit-vcard-dialog-cancel-button = Přetorhnyć
 account-manager-server-default-icon =
     .title = Standardne konto
     .alt = Hwězdny symbol
+outgoing-server-section-name = Wuchadny serwer
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Nastajenja wuchadneho serwera
