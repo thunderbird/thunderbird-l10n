@@ -10,3 +10,5 @@ delete-account-button =
     .label = Deler
 default-account-button =
     .label = Stabilir como predeterminate
+outgoing-server-name = Servitor de exito:
+    .accesskey = e

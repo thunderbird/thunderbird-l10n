@@ -28,3 +28,5 @@ edit-vcard-dialog-cancel-button = Cancellar
 account-manager-server-default-icon =
     .title = Conto predefinite
     .alt = Icone de stella
+outgoing-server-section-name = Servitor de exito
+outgoing-server-type = Typo de servitor:
