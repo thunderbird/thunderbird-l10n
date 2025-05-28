@@ -24,3 +24,6 @@ downloading-articles-for-offline =
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-articles-to-download = Es gibt keine Artikel für { $newsgroup } zum Herunterladen.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = Die Newsgroup { $newsgroup } ist auf dem Server nicht verfügbar.

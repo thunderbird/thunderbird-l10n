@@ -31,3 +31,5 @@ account-manager-server-default-icon =
 outgoing-server-section-name = Postausgangs-Server
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Einstellungen für den Postausgangs-Server
+outgoing-server-settings-description = Beim Verwalten Ihrer Identitäten können Sie einen Server aus dieser Liste verwenden, indem Sie ihn als den Ausgangsserver auswählen, oder Sie können den Standardserver aus dieser Liste verwenden, indem Sie "Standardserver verwenden" auswählen.
+outgoing-server-type = Servertyp:
