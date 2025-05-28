@@ -28,4 +28,8 @@ edit-vcard-dialog-cancel-button = Avbryt
 account-manager-server-default-icon =
     .title = Standardkonto
     .alt = Stjärnikon
+outgoing-server-section-name = Server för utgående e-post
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Serverinställningar för utgående e-post
+outgoing-server-settings-description = När du hanterar dina identiteter kan du använda en server från listan genom att välja den som server för utgående e-post, eller så kan du använda standardservern från listan genom att välja "Använd standardserver".
 outgoing-server-type = Servertyp:

@@ -149,6 +149,10 @@ account-hub-addon-install-needed = { -brand-short-name } stöder inte den här s
 account-hub-addon-error = Installation av tillägg misslyckades. Försök igen eller kontakta tilläggets upphovsman för hjälp.
 account-hub-security-warning = <span data-l10n-name="security-warning">Varning: Osäker e-postserver upptäcktes.</span> Denna server saknar kryptering, vilket exponerar ditt lösenord och data. Kontakta din administratör för att säkra anslutningen eller fortsätt på egen risk. <a data-l10n-name="faq-link">Se vanlig frågor för mer info.</a>
 account-hub-account-authentication-error = Autentiseringsfel.
+account-hub-add-address-book = Lägg till en adressbok
+address-book-sync-existing-icon =
+    .alt = Synkronisera en adressbok från ett befintligt konto
+address-book-sync-existing = Synkronisera från ett befintligt konto
 address-book-add-remote-icon =
     .alt = Lägg till en ny fjärradressbok
 address-book-add-remote = Lägg till fjärradressbok
@@ -159,3 +163,6 @@ address-book-add-local = Ny lokal adressbok
 address-book-add-local-description = Skapa en ny lokal adressbok på din enhet
 address-book-add-ldap-icon =
     .alt = Anslut till en fjärransluten LDAP-adressbok
+address-book-add-ldap = Ny LDAP-adressbok
+address-book-add-ldap-description = Anslut till en fjärransluten LDAP-adressbok
+account-hub-fetching-sync-accounts = Upptäcker adressböcker och kalendrar...

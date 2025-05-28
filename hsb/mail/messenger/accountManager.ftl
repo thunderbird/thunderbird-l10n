@@ -31,3 +31,5 @@ account-manager-server-default-icon =
 outgoing-server-section-name = Wuchadny serwer
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Nastajenja wuchadneho serwera
+outgoing-server-settings-description = Hdyž swoje identity zarjadujeće, móžeće serwer z lisćiny wužiwać, wuběrajo jón jako serwer za póstowy wuchad, abo móžeće standardny serwer z tuteje lisćiny wužiwać, wuběrajo „Standardny serwer wužiwać“.
+outgoing-server-type = Typ serwera:
