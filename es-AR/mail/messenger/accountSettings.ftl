@@ -14,4 +14,4 @@ outgoing-server-name = Servidor saliente:
     .accesskey = S
 outgoing-server-edit =
     .label = Editar servidor saliente…
-    .accesskey = E
+    .accesskey = o
