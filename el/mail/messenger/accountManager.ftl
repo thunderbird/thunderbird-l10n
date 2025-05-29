@@ -28,3 +28,7 @@ edit-vcard-dialog-cancel-button = Ακύρωση
 account-manager-server-default-icon =
     .title = Προεπιλεγμένος λογαριασμός
     .alt = Εικονίδιο-αστέρι
+outgoing-server-section-name = Διακομιστής εξερχομένων
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Ρυθμίσεις διακομιστή εξερχομένων
+outgoing-server-type = Τύπος διακομιστή:
