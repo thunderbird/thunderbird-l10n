@@ -28,4 +28,7 @@ edit-vcard-dialog-cancel-button = Vazgeç
 account-manager-server-default-icon =
     .title = Varsayılan hesap
     .alt = Yıldız simgesi
+outgoing-server-section-name = Giden sunucusu
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Giden sunucusu ayarları
 outgoing-server-type = Sunucu türü:

@@ -10,3 +10,5 @@ delete-account-button =
     .label = Sil
 default-account-button =
     .label = Varsayılan olarak ayarla
+outgoing-server-name = Giden sunucusu:
+    .accesskey = G
