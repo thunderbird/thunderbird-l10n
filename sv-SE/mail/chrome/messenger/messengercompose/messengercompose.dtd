@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Oskyldig">
 <!ENTITY smiley15Cmd.label "Gråter">
 <!ENTITY smiley16Cmd.label "Tiger">
+<!ENTITY smiley17Cmd.label "Arg">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Inga förslag hittades">
 <!ENTITY spellCheckIgnoreWord.label "Ignorera ord">
