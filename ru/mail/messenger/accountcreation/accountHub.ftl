@@ -150,3 +150,44 @@ account-hub-addon-install-needed = { -brand-short-name } не поддержив
 account-hub-addon-error = Не удалось установить дополнение. Пожалуйста, попробуйте ещё раз или обратитесь за помощью к автору дополнения.
 account-hub-security-warning = <span data-l10n-name="security-warning">Предупреждение: Обнаружен незащищённый почтовый сервер.</span> На этом сервере отсутствует шифрование, что раскрывает ваш пароль и данные. Попросите вашего администратора защитить соединение, или продолжайте на свой страх и риск. <a data-l10n-name="faq-link">Прочитайте Частые вопросы, чтобы узнать больше.</a>
 account-hub-account-authentication-error = Ошибка аутентификации.
+account-hub-add-address-book = Добавить адресную книгу
+address-book-sync-existing-icon =
+    .alt = Синхронизация адресной книги из существующей учётной записи
+address-book-sync-existing = Синхронизация из существующей учётной записи
+address-book-add-remote-icon =
+    .alt = Добавить новую удалённую адресную книгу
+address-book-add-remote = Добавить удалённую адресную книгу
+address-book-add-remote-description = Подключиться к удалённой адресной книге CardDav
+address-book-add-local-icon =
+    .alt = Создать новую локальную адресную книгу
+address-book-add-local = Новая локальная адресная книга
+address-book-add-local-description = Создать новую локальную адресную книгу на вашем устройстве
+address-book-add-ldap-icon =
+    .alt = Подключиться к удалённой адресной книге LDAP
+address-book-add-ldap = Новая адресная книга LDAP
+address-book-add-ldap-description = Подключиться к удалённой адресной книге LDAP
+account-hub-fetching-sync-accounts = Обнаружение адресных книг и календарей…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] Доступна 1 адресная книга из 1 учётной записи
+                [few] Доступна 1 адресная книга из { $accounts } учётных записей
+               *[many] Доступна 1 адресная книга из { $accounts } учётных записей
+            }
+        [few]
+            { $accounts ->
+                [one] Доступно { $addressBooks } адресных книги из 1 учётной записи
+                [few] Доступно { $addressBooks } адресных книги из { $accounts } учётных записей
+               *[many] Доступно { $addressBooks } адресных книги из { $accounts } учётных записей
+            }
+       *[many]
+            { $accounts ->
+                [one] Доступно { $addressBooks } адресных книг из 1 учётной записи
+                [few] Доступно { $addressBooks } адресных книг из { $accounts } учётных записей
+               *[many] Доступно { $addressBooks } адресных книг из { $accounts } учётных записей
+            }
+    }
+address-book-sync-existing-description = Получение существующих учётных записей…

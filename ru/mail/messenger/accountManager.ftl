@@ -28,3 +28,4 @@ edit-vcard-dialog-cancel-button = Отмена
 account-manager-server-default-icon =
     .title = Учётная запись по умолчанию
     .alt = Значок звезды
+outgoing-server-section-name = Сервер исходящей почты
