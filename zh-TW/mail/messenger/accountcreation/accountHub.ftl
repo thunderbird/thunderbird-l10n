@@ -171,7 +171,7 @@ account-hub-address-book-sync-option-data =
     { $addressBooks ->
        *[other]
             { $accounts ->
-               *[other] 可從 { $accounts } 個帳號獲得 { $addressBooks } 筆通訊錄
+               *[other] 可從 { $accounts } 個帳號取得 { $addressBooks } 本通訊錄
             }
     }
-address-book-sync-existing-description = 正在取回現有帳號…
+address-book-sync-existing-description = 正在取得現有帳號…
