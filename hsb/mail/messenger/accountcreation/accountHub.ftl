@@ -201,3 +201,4 @@ account-hub-address-book-sync-option-data =
                *[other] { "{ $addressBooks } adresnikow z { $accounts } kontow k dispoziciji" }
             }
     }
+address-book-sync-existing-description = Eksistowace konta so wotwołuja…
