@@ -28,3 +28,7 @@ edit-vcard-dialog-cancel-button = 取消
 account-manager-server-default-icon =
     .title = 默认账户
     .alt = 星标
+outgoing-server-section-name = 发件服务器
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = 发件服务器设置
+outgoing-server-type = 服务器类型：
