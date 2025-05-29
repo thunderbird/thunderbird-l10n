@@ -166,3 +166,19 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Nuova rubrica LDAP
 address-book-add-ldap-description = Connetti a una rubrica LDAP remota
 account-hub-fetching-sync-accounts = Ricerca rubriche e calendari…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] 1 rubrica da 1 account disponibile
+               *[other] Disponibile 1 rubrica da { $accounts }
+            }
+       *[other]
+            { $accounts ->
+                [one] { $addressBooks } rubriche da 1 account disponibile
+               *[other] Sono disponibili { $addressBooks } rubriche da { $accounts } account
+            }
+    }
+address-book-sync-existing-description = Recupero account esistenti…

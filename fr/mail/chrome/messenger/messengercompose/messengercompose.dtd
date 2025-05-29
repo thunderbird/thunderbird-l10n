@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Innocent">
 <!ENTITY smiley15Cmd.label "Triste">
 <!ENTITY smiley16Cmd.label "Motus">
+<!ENTITY smiley17Cmd.label "En colère">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "(Pas de suggestion)">
 <!ENTITY spellCheckIgnoreWord.label "Ignorer le mot">

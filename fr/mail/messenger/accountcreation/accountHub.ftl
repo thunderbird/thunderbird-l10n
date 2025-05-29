@@ -166,3 +166,19 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Nouveau carnet d’adresses LDAP
 address-book-add-ldap-description = Se connecter à un carnet d’adresses LDAP distant
 account-hub-fetching-sync-accounts = Recherche des carnets d’adresses et des agendas…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] 1 carnet d’adresses disponible pour 1 compte
+               *[other] 1 carnet d’adresses de { $accounts } comptes disponibles
+            }
+       *[other]
+            { $accounts ->
+                [one] { $addressBooks } carnets d’adresses de 1 compte disponibles
+               *[other] { $addressBooks } carnets d’adresses des { $accounts } comptes disponibles
+            }
+    }
+address-book-sync-existing-description = Récupération des comptes existants…

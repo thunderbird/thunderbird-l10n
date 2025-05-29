@@ -165,3 +165,13 @@ address-book-add-ldap-icon =
 address-book-add-ldap = 新增 LDAP 通訊錄
 address-book-add-ldap-description = 連線到遠端 LDAP 通訊錄
 account-hub-fetching-sync-accounts = 正在尋找通訊錄與行事曆…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+       *[other]
+            { $accounts ->
+               *[other] 可從 { $accounts } 個帳號獲得 { $addressBooks } 筆通訊錄
+            }
+    }
+address-book-sync-existing-description = 正在取回現有帳號…

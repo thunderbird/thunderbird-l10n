@@ -170,3 +170,63 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Llyfr Cyfeiriadau LDAP newydd
 address-book-add-ldap-description = Cysylltwch â llyfr cyfeiriadau LDAP o bell
 account-hub-fetching-sync-accounts = Darganfod llyfrau cyfeiriadau a chalendrau…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [zero]
+            { $accounts ->
+                [zero] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [one] { $addressBooks } llyfr cyfeiriadau o 1 cyfrif ar gael
+                [two] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [few] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [many] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+               *[other] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+            }
+        [one]
+            { $accounts ->
+                [zero] 1 llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [one] 1 llyfr cyfeiriadau o 1 cyfrif ar gael
+                [two] 1 llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [few] 1 llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [many] 1 llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+               *[other] 1 llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+            }
+        [two]
+            { $accounts ->
+                [zero] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [one] { $addressBooks } llyfr cyfeiriadau o 1 cyfrif ar gael
+                [two] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [few] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [many] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+               *[other] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+            }
+        [few]
+            { $accounts ->
+                [zero] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [one] { $addressBooks } llyfr cyfeiriadau o 1 cyfrif ar gael
+                [two] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [few] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [many] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+               *[other] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+            }
+        [many]
+            { $accounts ->
+                [zero] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [one] { $addressBooks } llyfr cyfeiriadau o 1 cyfrif ar gael
+                [two] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [few] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [many] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+               *[other] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+            }
+       *[other]
+            { $accounts ->
+                [zero] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [one] { $addressBooks } llyfr cyfeiriadau o 1 cyfrif ar gael
+                [two] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [few] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+                [many] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+               *[other] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
+            }
+    }
+address-book-sync-existing-description = Wrthi'n nôl cyfrifon presennol…

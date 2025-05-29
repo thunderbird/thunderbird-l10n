@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "無辜">
 <!ENTITY smiley15Cmd.label "大哭">
 <!ENTITY smiley16Cmd.label "閉嘴">
+<!ENTITY smiley17Cmd.label "生氣">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "找不到任何建議">
 <!ENTITY spellCheckIgnoreWord.label "忽略單字">
