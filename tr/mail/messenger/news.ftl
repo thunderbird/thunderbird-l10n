@@ -24,3 +24,6 @@ downloading-articles-for-offline =
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-articles-to-download = { $newsgroup } için indirilecek haber yok.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = { $newsgroup } haber grubu bu sunucuda mevcut değil.

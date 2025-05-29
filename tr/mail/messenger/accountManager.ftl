@@ -28,3 +28,4 @@ edit-vcard-dialog-cancel-button = Vazgeç
 account-manager-server-default-icon =
     .title = Varsayılan hesap
     .alt = Yıldız simgesi
+outgoing-server-type = Sunucu türü:

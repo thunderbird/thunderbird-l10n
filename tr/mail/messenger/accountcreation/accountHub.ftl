@@ -147,3 +147,4 @@ account-hub-username-error-text = Kullanıcı adı gerekli
 account-hub-oauth-pending = Giriş penceresinde kimliğinizi doğrulamanız bekleniyor…
 account-hub-addon-error = Eklenti kurulamadı. Lütfen yeniden deneyin veya yardım için eklentinin geliştiricisiyle iletişime geçin.
 account-hub-account-authentication-error = Kimlik doğrulama hatası.
+account-hub-add-address-book = Adres defteri ekle
