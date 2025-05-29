@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Unschuldig">
 <!ENTITY smiley15Cmd.label "Weinen">
 <!ENTITY smiley16Cmd.label "Lippen verschlossen">
+<!ENTITY smiley17Cmd.label "Wütend">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Keine Vorschläge gefunden">
 <!ENTITY spellCheckIgnoreWord.label "Wort ignorieren">
