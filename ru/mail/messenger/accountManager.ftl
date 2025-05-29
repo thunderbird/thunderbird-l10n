@@ -29,3 +29,7 @@ account-manager-server-default-icon =
     .title = Учётная запись по умолчанию
     .alt = Значок звезды
 outgoing-server-section-name = Сервер исходящей почты
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Параметры сервера исходящей почты
+outgoing-server-settings-description = При настройке ваших адресов электронной почты вы можете использовать сервер из этого списка, выбрав его в качестве Сервера исходящей почты, или же вы можете использовать сервер по умолчанию из этого списка, выбрав «Использовать сервер по умолчанию».
+outgoing-server-type = Тип сервера:
