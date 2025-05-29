@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Nedolžen">
 <!ENTITY smiley15Cmd.label "Jok">
 <!ENTITY smiley16Cmd.label "Zapečatene ustnice">
+<!ENTITY smiley17Cmd.label "Jeza">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Ni najti predlogov">
 <!ENTITY spellCheckIgnoreWord.label "Prezri besedo">

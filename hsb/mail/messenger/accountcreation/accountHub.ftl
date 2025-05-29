@@ -168,3 +168,36 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Nowy LDAP-adresnik
 address-book-add-ldap-description = Ze zdalenym LDAP-adresnikom zwjazać
 account-hub-fetching-sync-accounts = Adresniki a protyki namakać…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] { "{ $addressBooks } adresnik z { $accounts } konta k dispoziciji" }
+                [two] { "{ $addressBooks } adresnik z { $accounts } kontow k dispoziciji" }
+                [few] { "{ $addressBooks } adresnik z { $accounts } kontow k dispoziciji" }
+               *[other] { "{ $addressBooks } adresnik z { $accounts } kontow k dispoziciji" }
+            }
+        [two]
+            { $accounts ->
+                [one] { "{ $addressBooks } adresnikaj z { $accounts } konta k dispoziciji" }
+                [two] { "{ $addressBooks } adresnikaj z { $accounts } kontow k dispoziciji" }
+                [few] { "{ $addressBooks } adresnikaj z { $accounts } kontow k dispoziciji" }
+               *[other] { "{ $addressBooks } adresnikaj z { $accounts } kontow k dispoziciji" }
+            }
+        [few]
+            { $accounts ->
+                [one] { "{ $addressBooks } adresniki z { $accounts } konta k dispoziciji" }
+                [two] { "{ $addressBooks } adresniki z { $accounts } kontow k dispoziciji" }
+                [few] { "{ $addressBooks } adresniki z { $accounts } kontow k dispoziciji" }
+               *[other] { "{ $addressBooks } adresniki z { $accounts } kontow k dispoziciji" }
+            }
+       *[other]
+            { $accounts ->
+                [one] { "{ $addressBooks } adresnikow z { $accounts } konta k dispoziciji" }
+                [two] { "{ $addressBooks } adresnikow z { $accounts } kontow k dispoziciji" }
+                [few] { "{ $addressBooks } adresnikow z { $accounts } kontow k dispoziciji" }
+               *[other] { "{ $addressBooks } adresnikow z { $accounts } kontow k dispoziciji" }
+            }
+    }

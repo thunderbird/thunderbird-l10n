@@ -168,3 +168,37 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Nov imenik LDAP
 address-book-add-ldap-description = Poveži z oddaljenim imenikom LDAP
 account-hub-fetching-sync-accounts = Odkrivanje imenikov in koledarjev …
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] { "Na voljo je 1 imenik iz 1 računa" }
+                [two] { "Na voljo je 1 imenik iz { $accounts } računov" }
+                [few] { "Na voljo je 1 imenik iz { $accounts } računov" }
+               *[other] { "Na voljo je 1 imenik iz { $accounts } računov" }
+            }
+        [two]
+            { $accounts ->
+                [one] { "Na voljo sta { $addressBooks } imenika iz 1 računa" }
+                [two] { "Na voljo sta { $addressBooks } imenika iz { $accounts } računov" }
+                [few] { "Na voljo sta { $addressBooks } imenika iz { $accounts } računov" }
+               *[other] { "Na voljo sta { $addressBooks } imenika iz { $accounts } računov" }
+            }
+        [few]
+            { $accounts ->
+                [one] { "Na voljo so { $addressBooks } imeniki iz 1 računa" }
+                [two] { "Na voljo so { $addressBooks } imeniki iz { $accounts } računov" }
+                [few] { "Na voljo so { $addressBooks } imeniki iz { $accounts } računov" }
+               *[other] { "Na voljo so { $addressBooks } imeniki iz { $accounts } računov" }
+            }
+       *[other]
+            { $accounts ->
+                [one] { "Na voljo je { $addressBooks } imenikov iz 1 računa" }
+                [two] { "Na voljo je { $addressBooks } imenikov iz { $accounts } računov" }
+                [few] { "Na voljo je { $addressBooks } imenikov iz { $accounts } računov" }
+               *[other] { "Na voljo je { $addressBooks } imenikov iz { $accounts } računov" }
+            }
+    }
+address-book-sync-existing-description = Pridobivanje obstoječih računov …

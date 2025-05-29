@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Njewinowaty">
 <!ENTITY smiley15Cmd.label "Płakać">
 <!ENTITY smiley16Cmd.label "Mjelčaty">
+<!ENTITY smiley17Cmd.label "Rozmjerzany">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Žane namjety namakane">
 <!ENTITY spellCheckIgnoreWord.label "Słowo ignorować">
