@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Innocente">
 <!ENTITY smiley15Cmd.label "Plancto">
 <!ENTITY smiley16Cmd.label "Bucca sigillate">
+<!ENTITY smiley17Cmd.label "Irate">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Nulle suggestiones trovate">
 <!ENTITY spellCheckIgnoreWord.label "Ignorar parola">
