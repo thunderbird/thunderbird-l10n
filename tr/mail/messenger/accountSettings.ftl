@@ -12,3 +12,6 @@ default-account-button =
     .label = Varsayılan olarak ayarla
 outgoing-server-name = Giden sunucusu:
     .accesskey = G
+outgoing-server-edit =
+    .label = Giden sunucusunu düzenle…
+    .accesskey = G
