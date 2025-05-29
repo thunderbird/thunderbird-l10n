@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Невинность">
 <!ENTITY smiley15Cmd.label "Плач">
 <!ENTITY smiley16Cmd.label "Рот на замке">
+<!ENTITY smiley17Cmd.label "Злой">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Вариантов не найдено">
 <!ENTITY spellCheckIgnoreWord.label "Пропустить слово">
