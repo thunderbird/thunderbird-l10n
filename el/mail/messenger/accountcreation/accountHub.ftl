@@ -157,3 +157,4 @@ address-book-add-local = Νέο τοπικό ευρετήριο
 address-book-add-ldap-icon =
     .alt = Σύνδεση σε απομακρυσμένο ευρετήριο LDAP
 address-book-add-ldap = Νέο ευρετήριο LDAP
+address-book-sync-existing-description = Ανάκτηση υπαρχόντων λογαριασμών…
