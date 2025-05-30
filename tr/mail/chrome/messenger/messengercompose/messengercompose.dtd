@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Masum">
 <!ENTITY smiley15Cmd.label "Ağlamaklı">
 <!ENTITY smiley16Cmd.label "Ağzı sıkı">
+<!ENTITY smiley17Cmd.label "Kızgın">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Öneri bulunamadı">
 <!ENTITY spellCheckIgnoreWord.label "Sözcüğü Görmezden Gel">
