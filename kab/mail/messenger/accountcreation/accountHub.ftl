@@ -23,12 +23,25 @@ account-hub-donate = Mudd tawsa
 
 account-hub-email-setup-button = Amiḍan n yimayl
     .title = Sbadu amiḍan n yimayl
+account-hub-calendar-setup-button = Awitay
+    .title = Sbadu awitay adigan neɣ anmeggag
+account-hub-address-book-setup-button = Imedlis n tansiwin
+    .title = Sbadu imedlis n tansiwin adigan neɣ anmeggag
+account-hub-chat-setup-button = Adiwenni usrid
+    .title = Sbadu amiḍan n udiwenni usrid
+account-hub-feed-setup-button = Asuddem RSS
+    .title = Sbadu amiḍan n useddem RSS
+account-hub-newsgroup-setup-button = Agraw amaynut
+    .title = Sbadu amiḍan n ugraw amaynut
+account-hub-import-setup-button = Kter
+    .title = Kter amaɣnu i yettwaḥerzen
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 account-hub-sync-button = Qqen ɣer Sync…
 
 ## Email page
 
 account-hub-add-email-title = Rnu miḍan-ik·im
+account-hub-manually-configure-email-title = Sbadu tawila n umiḍan
 account-hub-email-cancel-button = Sefsex
 account-hub-email-stop-button = Seḥbes
 account-hub-email-back-button = Ɣer deffir
@@ -49,6 +62,8 @@ account-hub-result-hostname-label = Asenneftaɣ
     .title = Asenneftaɣ
 account-hub-result-authentication-label = Asesteb
     .title = Asesteb
+account-hub-port-label = Tawwurt
+    .title = Sbadu uṭṭun n tewwurt ɣer 0 i tifin tawurmant
 account-hub-auto-description = { -brand-short-name } yettaɛraḍ ad d-yaf s wudem awurman urtiyen yeqqimen d ilmawen.
 account-hub-ssl-label = Taɣellist n tuqqna
 
@@ -90,6 +105,7 @@ account-hub-result-pop-description = Eǧǧ ikaramen d yimaylen ɣef uselkim-inek
 account-hub-result-ews-shortname = Ambaddal
 account-hub-result-ews-text = Aqeddac
 account-hub-result-recommended-label = Yelha
+account-hub-result-addon-label = Yesra azegrir
 account-hub-edit-configuration = Ẓreg tawila
 account-hub-creating-account = Timerna n umiḍan…
 account-hub-select-all = Fren akk
