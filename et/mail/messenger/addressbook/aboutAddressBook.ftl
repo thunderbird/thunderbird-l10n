@@ -8,6 +8,8 @@ about-addressbook-title = Aadressiraamat
 
 about-addressbook-toolbar-new-address-book =
     .label = Uus aadressiraamat
+about-addressbook-toolbar-add-address-book =
+    .label = Lisa kohalik aadressiraamat
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Lisa CardDAVi aadressiraamat
 about-addressbook-toolbar-add-ldap-address-book =
@@ -205,6 +207,13 @@ about-addressbook-confirm-delete-contacts-title =
 # Variables:
 # $name (String) - The name of the contact to be deleted.
 about-addressbook-confirm-delete-contacts-single = Kas oled kindel, et soovid kontakti { $name } kustutada?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Kas oled kindel, et soovid kontakti kustutada?
+       *[other] Kas oled kindel, et soovid kustutada { $count } kontakti?
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
