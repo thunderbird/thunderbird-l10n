@@ -449,6 +449,10 @@ account-hub-checkbox-label =
     .label = Krijoni llogari te Qendra e re e Llogarive
     .accesskey = K
 account-hub-checkbox-description = Rrjedhë e re eksperimentale për krijim llogarish email
+account-hub-ab-checkbox-label =
+    .label = Krijoni libra adresash te Qendra e re e Llogarive
+    .accesskey = L
+account-hub-ab-checkbox-description = Rrjedhë e re eksperimentale për krijim librash adresash
 
 ## Compose Tab
 
