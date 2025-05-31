@@ -24,3 +24,6 @@ downloading-articles-for-offline =
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-articles-to-download = Δεν υπάρχουν άρθρα προς λήψη για το «{ $newsgroup }».
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = Η ομάδα συζητήσεων «{ $newsgroup }» δεν είναι διαθέσιμη στον διακομιστή.

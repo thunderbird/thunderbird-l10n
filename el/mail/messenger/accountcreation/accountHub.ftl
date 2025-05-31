@@ -150,15 +150,22 @@ account-hub-addon-error = Η εγκατάσταση του προσθέτου α
 account-hub-security-warning = <span data-l10n-name="security-warning">Προειδοποίηση: Ανιχνεύτηκε επισφαλής διακομιστής αλληλογραφίας.</span> Αυτός ο διακομιστής δεν διαθέτει κρυπτογράφηση, με αποτέλεσμα να εκθέτει τους κωδικούς πρόσβασης και τα δεδομένα σας. Επικοινωνήστε με τον διαχειριστή για να ασφαλίσει τη σύνδεση ή συνεχίστε με δική σας ευθύνη. <a data-l10n-name="faq-link">Δείτε τις συχνές ερωτήσεις για περισσότερες πληροφορίες.</a>
 account-hub-account-authentication-error = Σφάλμα ταυτοποίησης.
 account-hub-add-address-book = Προσθήκη ευρετηρίου
+address-book-sync-existing-icon =
+    .alt = Συγχρονισμός ευρετηρίου από υπάρχοντα λογαριασμό
+address-book-sync-existing = Συγχρονισμός από υπάρχοντα λογαριασμό
 address-book-add-remote-icon =
     .alt = Προσθήκη νέου απομακρυσμένου ευρετηρίου
 address-book-add-remote = Προσθήκη απομακρυσμένου ευρετηρίου
+address-book-add-remote-description = Σύνδεση σε απομακρυσμένο ευρετήριο CardDav
 address-book-add-local-icon =
     .alt = Δημιουργία νέου τοπικού ευρετηρίου
 address-book-add-local = Νέο τοπικό ευρετήριο
+address-book-add-local-description = Δημιουργία νέου τοπικού ευρετηρίου στη συσκευή
 address-book-add-ldap-icon =
     .alt = Σύνδεση σε απομακρυσμένο ευρετήριο LDAP
 address-book-add-ldap = Νέο ευρετήριο LDAP
+address-book-add-ldap-description = Σύνδεση σε απομακρυσμένο ευρετήριο LDAP
+account-hub-fetching-sync-accounts = Ανακάλυψη ευρετηρίων και ημερολογίων…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
 account-hub-address-book-sync-option-data =
