@@ -150,6 +150,8 @@ account-hub-addon-error = Η εγκατάσταση του προσθέτου α
 account-hub-security-warning = <span data-l10n-name="security-warning">Προειδοποίηση: Ανιχνεύτηκε επισφαλής διακομιστής αλληλογραφίας.</span> Αυτός ο διακομιστής δεν διαθέτει κρυπτογράφηση, με αποτέλεσμα να εκθέτει τους κωδικούς πρόσβασης και τα δεδομένα σας. Επικοινωνήστε με τον διαχειριστή για να ασφαλίσει τη σύνδεση ή συνεχίστε με δική σας ευθύνη. <a data-l10n-name="faq-link">Δείτε τις συχνές ερωτήσεις για περισσότερες πληροφορίες.</a>
 account-hub-account-authentication-error = Σφάλμα ταυτοποίησης.
 account-hub-add-address-book = Προσθήκη ευρετηρίου
+address-book-add-remote-icon =
+    .alt = Προσθήκη νέου απομακρυσμένου ευρετηρίου
 address-book-add-remote = Προσθήκη απομακρυσμένου ευρετηρίου
 address-book-add-local-icon =
     .alt = Δημιουργία νέου τοπικού ευρετηρίου
@@ -157,4 +159,19 @@ address-book-add-local = Νέο τοπικό ευρετήριο
 address-book-add-ldap-icon =
     .alt = Σύνδεση σε απομακρυσμένο ευρετήριο LDAP
 address-book-add-ldap = Νέο ευρετήριο LDAP
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] Διατίθεται 1 ευρετήριο από 1 λογαριασμό
+               *[other] Διατίθεται 1 ευρετήριο από { $accounts } λογαριασμούς
+            }
+       *[other]
+            { $accounts ->
+                [one] Διατίθενται { $addressBooks } ευρετήρια από 1 λογαριασμό
+               *[other] Διατίθενται { $addressBooks } ευρετήρια από { $accounts } λογαριασμούς
+            }
+    }
 address-book-sync-existing-description = Ανάκτηση υπαρχόντων λογαριασμών…
