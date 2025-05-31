@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Eksportoji për Celular
 category-qr-export =
     .tooltiptext = Eksportojini për Celular
+general-language-and-fonts-header = Gjuhë & Shkronja
 general-language-and-appearance-header = Gjuhë & Dukje
 general-incoming-mail-header = Email-e Ardhëse
 general-files-and-attachment-header = Kartela & Bashkëngjitje

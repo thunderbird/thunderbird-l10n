@@ -473,3 +473,4 @@ quota-panel-percent-used = { $percent }% i mbushur
 
 mark-as-read-action = Vëri Shenjë si të Lexuar
 delete-action = Fshije
+mark-as-spam-action = Vëri shenjë si i Padëshiruar

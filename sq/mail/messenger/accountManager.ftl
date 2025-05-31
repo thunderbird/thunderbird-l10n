@@ -28,3 +28,7 @@ edit-vcard-dialog-cancel-button = Anuloje
 account-manager-server-default-icon =
     .title = Llogari parazgjedhje
     .alt = Ikonë yll
+outgoing-server-section-name = Shërbyes Dërgues
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Rregullime për Shërbyesin Dërgues
+outgoing-server-type = Lloj Shërbyesi:

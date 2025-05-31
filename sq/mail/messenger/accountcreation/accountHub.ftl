@@ -149,3 +149,5 @@ account-hub-addon-install-needed = { -brand-short-name }-i s’e mbulon së bren
 account-hub-addon-error = Instalimi i shtesës dështoi. Ju lutemi, riprovoni, ose lidhuni me autorin e shtesës, për asistencë.
 account-hub-security-warning = <span data-l10n-name="security-warning">Kujdes: U pikas shërbyes poste i pasiguruar.</span> Këtij shërbyesi i mungon fshehtëzimi, duke ekspozuar kështu fjalëkalim dhe të dhëna tuajat. Lidhuni me përgjegjësin tuaj që të bëhet lidhja e siguruar, ose vazhdoni me kokën tuaj. <a data-l10n-name="faq-link">Për më tepër, shihni PBR.</a>
 account-hub-account-authentication-error = Gabim mirëfilltësimi.
+account-hub-add-address-book = Shtoni një libër adresash
+address-book-sync-existing-description = Po merren llogari ekzistuese…
