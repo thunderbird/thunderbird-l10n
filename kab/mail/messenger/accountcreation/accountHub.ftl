@@ -107,7 +107,10 @@ account-hub-result-ews-text = Aqeddac
 account-hub-result-recommended-label = Yelha
 account-hub-result-addon-label = Yesra azegrir
 account-hub-edit-configuration = Ẓreg tawila
+account-hub-config-success = Tettwaf twila di taffa n isefka ISPDB n Mozilla
+account-hub-password-info = Inekcam-ik·im ad ttukelsen kan s wudem adigan ɣef uselkim-ik·im
 account-hub-creating-account = Timerna n umiḍan…
+account-hub-email-added-success = Amiḍan n yimayl yeqqen akken iwata
 account-hub-select-all = Fren akk
 account-hub-deselect-all = Kkes akk afran
 # $count (Number) - The number of sync accounts selected.
