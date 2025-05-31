@@ -13,3 +13,6 @@ edit-vcard-dialog-accept-button = Salvesta
     .accesskey = S
 edit-vcard-dialog-cancel-button = Loobu
     .accesskey = L
+account-manager-server-default-icon =
+    .title = Vaikimisi konto
+    .alt = Tähekese ikoon

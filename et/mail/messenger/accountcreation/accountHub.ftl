@@ -126,3 +126,4 @@ account-hub-port-error-text = Port peab olema vahemikus 1 kuni 65535
     .title = Port peab olema vahemikus 1 kuni 65535
 account-hub-username-error-text = Kasutajanimi on nõutud
     .title = Kasutajanimi on nõutud
+account-hub-account-authentication-error = Autentimise viga.

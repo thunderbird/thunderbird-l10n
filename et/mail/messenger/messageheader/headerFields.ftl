@@ -26,6 +26,10 @@ message-header-references-field = Viited<span data-l10n-name="field-separator">:
 message-header-message-id-field = Kirja ID<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Vastuseks <span data-l10n-name="field-separator">:</span>
 message-header-website-field = Sait<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Hangi abi
+    .accesskey = A
 # Describes (i.e. http or mailto URL) how to post to the mailing list.
 list-id-list-post =
     .label = Kirjuta
