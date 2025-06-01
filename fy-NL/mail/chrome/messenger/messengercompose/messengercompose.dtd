@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Unskuldich">
 <!ENTITY smiley15Cmd.label "Gûle">
 <!ENTITY smiley16Cmd.label "Ik sis neat">
+<!ENTITY smiley17Cmd.label "Lilk">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Gjin suggestjes fûn">
 <!ENTITY spellCheckIgnoreWord.label "Wurd negearje">
