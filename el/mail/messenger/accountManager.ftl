@@ -31,4 +31,5 @@ account-manager-server-default-icon =
 outgoing-server-section-name = Διακομιστής εξερχομένων
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Ρυθμίσεις διακομιστή εξερχομένων
+outgoing-server-settings-description = Κατά τη διαχείριση των ταυτοτήτων σας, μπορείτε να χρησιμοποιήσετε έναν διακομιστή από αυτήν τη λίστα, επιλέγοντάς τον ως διακομιστή εξερχομένων, ή μπορείτε να χρησιμοποιήσετε τον προεπιλεγμένο διακομιστή επιλέγοντας «Χρήση προεπιλεγμένου διακομιστή».
 outgoing-server-type = Τύπος διακομιστή:
