@@ -162,3 +162,7 @@ address-book-add-ldap-icon =
 address-book-add-ldap = 新建 LDAP 通讯录
 address-book-add-ldap-description = 连接远程 LDAP 通讯录
 account-hub-fetching-sync-accounts = 正在发现通讯录和日历…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data = { $accounts } 个账户中共有 { $addressBooks } 个通讯录可用
+address-book-sync-existing-description = 正在检索现有账户…
