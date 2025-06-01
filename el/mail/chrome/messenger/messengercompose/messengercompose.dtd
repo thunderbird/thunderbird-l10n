@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Αθωότητα">
 <!ENTITY smiley15Cmd.label "Κλάμα">
 <!ENTITY smiley16Cmd.label "Σφραγισμένα χείλη">
+<!ENTITY smiley17Cmd.label "Θυμός">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Δεν βρέθηκαν προτάσεις">
 <!ENTITY spellCheckIgnoreWord.label "Παράβλεψη λέξης">
