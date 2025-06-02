@@ -28,3 +28,7 @@ edit-vcard-dialog-cancel-button = Zrušiť
 account-manager-server-default-icon =
     .title = Predvolený účet
     .alt = Ikona hviezdy
+outgoing-server-section-name = Server pre odosielanie pošty
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Nastavenia servera pre odosielanie pošty
+outgoing-server-type = Typ servera:

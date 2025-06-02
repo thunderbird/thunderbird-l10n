@@ -156,7 +156,7 @@ account-setup-port-label = Port:
     .title = Nastavením hodnoty 0 zvolíte automatickú detekciu portu
 account-setup-auto-description = { -brand-short-name } sa pokúsi automaticky zistiť polia, ktoré zostávajú nevyplnené.
 account-setup-ssl-label = Zabezpečenie pripojenia:
-account-setup-outgoing-server-legend = Server odchádzajúcej pošty
+account-setup-outgoing-server-legend = Server pre odosielanie pošty
 
 ## Incoming/Outgoing SSL Authentication options
 
