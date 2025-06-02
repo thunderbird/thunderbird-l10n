@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = Annuleren
 account-manager-server-default-icon =
     .title = Standaardaccount
     .alt = Sterpictogram
+outgoing-server-section-name = Uitgaande server
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Instellingen van uitgaande server
+outgoing-server-settings-description = Bij het beheren van uw identiteiten kunt u een server van deze lijst gebruiken door deze als de uitgaande server te selecteren, of u kunt de standaardserver van deze lijst gebruiken door ‘Standaardserver gebruiken’ te selecteren.
+outgoing-server-type = Servertype:

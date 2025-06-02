@@ -10,3 +10,5 @@ delete-account-button =
     .label = Verwijderen
 default-account-button =
     .label = Als standaard instellen
+outgoing-server-name = Uitgaande server:
+    .accesskey = g

@@ -149,3 +149,36 @@ account-hub-addon-install-needed = { -brand-short-name } ondersteunt deze server
 account-hub-addon-error = Add-on-installatie is mislukt. Probeer het opnieuw of neem contact op met de schrijver van de add-on voor hulp.
 account-hub-security-warning = <span data-l10n-name="security-warning">Waarschuwing: onveilige mailserver gedetecteerd.</span> Deze server heeft geen versleuteling, waardoor uw wachtwoord en gegevens openbaar zijn. Neem contact op met uw beheerder om de verbinding te beveiligen of ga op eigen risico verder. <a data-l10n-name="faq-link">Bekijk de FAQ voor meer informatie.</a>
 account-hub-account-authentication-error = Authenticatiefout.
+account-hub-add-address-book = Een adresboek toevoegen
+address-book-sync-existing-icon =
+    .alt = Een adresboek van een bestaande account synchroniseren
+address-book-sync-existing = Synchroniseren vanaf een bestaande account
+address-book-add-remote-icon =
+    .alt = Een nieuw extern adresboek toevoegen
+address-book-add-remote = Extern adresboek toevoegen
+address-book-add-remote-description = Verbinding maken met een extern CardDav-adresboek
+address-book-add-local-icon =
+    .alt = Een nieuw lokaal adresboek aanmaken
+address-book-add-local = Nieuw lokaal adresboek
+address-book-add-local-description = Een nieuw lokaal adresboek aanmaken op uw apparaat
+address-book-add-ldap-icon =
+    .alt = Verbinding maken met een extern LDAP-adresboek
+address-book-add-ldap = Nieuw LDAP-adresboek
+address-book-add-ldap-description = Verbinding maken met een extern LDAP-adresboek
+account-hub-fetching-sync-accounts = Adresboeken en agenda’s ontdekken…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] 1 adresboek van 1 account beschikbaar
+               *[other] 1 adresboek van { $accounts } accounts beschikbaar
+            }
+       *[other]
+            { $accounts ->
+                [one] { $addressBooks } adresboeken van 1 account beschikbaar
+               *[other] { $addressBooks } adresboeken van { $accounts } accounts beschikbaar
+            }
+    }
+address-book-sync-existing-description = Bestaande accounts ophalen…
