@@ -31,4 +31,5 @@ account-manager-server-default-icon =
 outgoing-server-section-name = Server pre odosielanie pošty
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Nastavenia servera pre odosielanie pošty
+outgoing-server-settings-description = Pri správe svojich identít môžete použiť server z tohto zoznamu jeho zvolením ako Server pre odosielanie pošty, alebo môžete použiť tu nastavený predvolený server zvolením položky “Použiť predvolený server”.
 outgoing-server-type = Typ servera:

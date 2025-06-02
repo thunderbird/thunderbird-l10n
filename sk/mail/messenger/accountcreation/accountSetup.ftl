@@ -136,7 +136,7 @@ account-setup-result-outgoing-existing = Použiť existujúci server pre odosiel
 # Variables:
 #  $incoming (String): The email/username used to log into the incoming server
 #  $outgoing (String): The email/username used to log into the outgoing server
-account-setup-result-username-different = Server prichádzajúcej pošty: { $incoming }, server odchádzajúcej pošty: { $outgoing }
+account-setup-result-username-different = Prichádzajúce: { $incoming }, Odchádzajúce: { $outgoing }
 
 ## Error messages
 
