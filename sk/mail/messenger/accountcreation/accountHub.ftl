@@ -168,4 +168,27 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Nový adresár typu LDAP
 address-book-add-ldap-description = Pripojenie k vzdialenému adresáru LDAP
 account-hub-fetching-sync-accounts = Vyhľadávajú sa adresáre a kalendáre…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] Dostupný 1 adresár z 1 účtu
+                [few] Dostupný 1 adresár z { $accounts } účtov
+               *[other] Dostupný 1 adresár z { $accounts } účtov
+            }
+        [few]
+            { $accounts ->
+                [one] Dostupné { $addressBooks } adresáre z 1 účtu
+                [few] Dostupné { $addressBooks } adresáre z { $accounts } účtov
+               *[other] Dostupné { $addressBooks } adresáre z { $accounts } účtov
+            }
+       *[other]
+            { $accounts ->
+                [one] Dostupných { $addressBooks } adresárov z 1 účtu
+                [few] Dostupných { $addressBooks } adresárov z { $accounts } účtov
+               *[other] Dostupných { $addressBooks } adresárov z { $accounts } účtov
+            }
+    }
 address-book-sync-existing-description = Získavajú sa existujúce účty…
