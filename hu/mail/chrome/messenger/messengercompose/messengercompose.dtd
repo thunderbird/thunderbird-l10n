@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Ártatlan">
 <!ENTITY smiley15Cmd.label "Síró">
 <!ENTITY smiley16Cmd.label "Lelakatolt szájú">
+<!ENTITY smiley17Cmd.label "Dühös">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Nincs javaslat">
 <!ENTITY spellCheckIgnoreWord.label "Szó kihagyása">
