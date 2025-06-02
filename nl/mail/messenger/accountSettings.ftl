@@ -12,3 +12,6 @@ default-account-button =
     .label = Als standaard instellen
 outgoing-server-name = Uitgaande server:
     .accesskey = g
+outgoing-server-edit =
+    .label = Uitgaande server bewerken…
+    .accesskey = U

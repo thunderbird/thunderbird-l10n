@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Onschuldig">
 <!ENTITY smiley15Cmd.label "Huilen">
 <!ENTITY smiley16Cmd.label "Lippen zijn verzegeld">
+<!ENTITY smiley17Cmd.label "Boos">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Geen suggesties gevonden">
 <!ENTITY spellCheckIgnoreWord.label "Woord negeren">
