@@ -31,4 +31,5 @@ account-manager-server-default-icon =
 outgoing-server-section-name = Giden sunucusu
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Giden sunucusu ayarları
+outgoing-server-settings-description = Kimliklerinizi yönetirken bu listeden bir sunucuyu kullanmak için onu “giden sunucusu” olarak seçebilir veya “Varsayılan sunucuyu kullan”ı seçerek bu listedeki varsayılan sunucuyu kullanabilirsiniz.
 outgoing-server-type = Sunucu türü:
