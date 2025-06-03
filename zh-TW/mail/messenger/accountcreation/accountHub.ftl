@@ -175,9 +175,9 @@ account-hub-address-book-sync-option-data =
             }
     }
 address-book-sync-existing-description = 正在取得現有帳號…
-account-hub-select-address-book-account = 選擇要有通訊錄的帳號
+account-hub-select-address-book-account = 選擇含有通訊錄的帳號
 # $synced (Number) - The number of address books that are synced.
 # $available (Number) - The number of address books that can be synced.
 # $total (Number) - The total number of address books for this account.
-account-hub-account-address-book-count = 第 { $synced } 筆共 { $total } 筆
-    .title = 已同步 { $synced } 筆通訊錄{ $available } 可用
+account-hub-account-address-book-count = 第 { $synced } 本，共 { $total } 本
+    .title = 已同步 { $synced } 本通訊錄，還有 { $available } 本

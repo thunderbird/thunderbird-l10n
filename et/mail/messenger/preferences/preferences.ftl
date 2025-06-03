@@ -396,6 +396,7 @@ address-display-name =
 condensed-addresses-label =
     .label = Aadressiraamatus olevate kontaktide puhul näidatakse ainult kuvatavat nime
     .accesskey = k
+label-experiment = Eksperimentaalne
 
 ## Compose Tab
 
@@ -719,6 +720,8 @@ sync-pane-device-name-title = Seadme nimi
 sync-pane-change-device-name = Muuda seadme nime
 sync-pane-cancel = Loobu
 sync-pane-save = Salvesta
+show-synced-item-account = E-posti kontod
+show-synced-item-address = Aadressiraamatud
 show-synced-item-calendar = Kalendrid
 show-synced-item-passwords = Paroolid
 show-synced-change = Muuda…

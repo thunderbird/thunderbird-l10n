@@ -113,6 +113,7 @@ account-hub-result-ews-description = Kasuta kaustade ja kirjase sünkroonimiseks
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Soovitatud
 account-hub-edit-configuration = Häälestuse muutmine
+account-hub-email-added-success = E-postikonto ühendamine õnnestus
 account-hub-select-all = Vali kõik
 account-hub-deselect-all = Tühista valikud
 # $count (Number) - The number of sync accounts selected.
@@ -121,6 +122,9 @@ account-hub-sync-accounts-selected =
         [one] { $count } valitud
        *[other] { $count } valitud
     }
+account-hub-no-address-books = Aadressiraamatuid ei leitud
+account-hub-no-calendars = Kalendreid ei leitud
+account-hub-email-error-text = Palun sisesta kehtiv e-posti aadress
 account-hub-name-error-text = Palun sisesta nimi
 account-hub-port-error-text = Port peab olema vahemikus 1 kuni 65535
     .title = Port peab olema vahemikus 1 kuni 65535

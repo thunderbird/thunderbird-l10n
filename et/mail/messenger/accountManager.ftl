@@ -16,3 +16,4 @@ edit-vcard-dialog-cancel-button = Loobu
 account-manager-server-default-icon =
     .title = Vaikimisi konto
     .alt = Tähekese ikoon
+outgoing-server-type = Serveri tüüp:

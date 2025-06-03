@@ -104,6 +104,11 @@ about-addressbook-column-header-emailaddresses2 = E-posti aadressid
     .title = Sordi e-posti aadresside alusel
 about-addressbook-column-label-emailaddresses2 =
     .label = E-posti aadressid
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = E-posti aadressid
+    .title = { $title }
 about-addressbook-column-header-nickname2 = Hüüdnimi
     .title = Sordi hüüdnime alusel
 about-addressbook-column-label-nickname2 =
@@ -117,6 +122,11 @@ about-addressbook-column-header-phonenumbers2 = Telefoninumbrid
     .title = Sordi telefoninumbrite alisel
 about-addressbook-column-label-phonenumbers2 =
     .label = Telefoninumbrid
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Telefoninumbrid
+    .title = { $title }
 about-addressbook-column-header-addresses2 = Aadressid
     .title = Sordi aadresside alusel
 about-addressbook-column-label-addresses2 =
@@ -157,6 +167,11 @@ about-addressbook-column-header-addrbook2 = Aadressiraamat
     .title = Sordi aadressiraamatu alusel
 about-addressbook-column-label-addrbook2 =
     .label = Aadressiraamat
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Aadressiraamat
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Kirjuta
 about-addressbook-confirm-delete-mixed-title = Kontaktide ja listide kustutamine

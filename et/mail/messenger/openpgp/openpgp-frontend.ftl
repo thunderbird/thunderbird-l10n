@@ -34,6 +34,8 @@ openpgp-broken-exchange-info = See on OpenPGP kiri, mille MS-Exchange ilmselt ri
 openpgp-broken-exchange-repair =
     .label = Paranda kiri
 openpgp-broken-exchange-wait = Palun oota…
+openpgp-show-encrypted-parts = Dekrüpteeri ja kuva
+openpgp-show-signed-parts = Ava ja kuva
 openpgp-cannot-decrypt-because-mdc =
     See on krüptitud kiri, mis sisaldab vana ja haavatavat mehhanismi.
     Seda võidi teel olles muuta, eesmärgiga varastada selle sisu.

@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Kustuta
     .tooltiptext = Kustuta
+multi-message-undelete-button =
+    .label = Taasta
+    .tooltiptext = Taasta
