@@ -785,7 +785,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = 搜尋選項
-managed-notice = { -brand-short-name } 由您的組織管理。
+managed-notice = 您的 { -brand-short-name } 受到組織管理。
 
 ## Settings UI Search Results
 
