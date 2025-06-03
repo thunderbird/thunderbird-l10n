@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = Hủy bỏ
 account-manager-server-default-icon =
     .title = Tài khoản mặc định
     .alt = Biểu tượng ngôi sao
+outgoing-server-section-name = Máy chủ gửi thư
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Cài đặt máy chủ gửi thư
+outgoing-server-settings-description = Khi quản lý danh tính của bạn, bạn có thể sử dụng máy chủ từ danh sách này bằng cách chọn nó làm máy chủ gửi thư hoặc bạn có thể sử dụng máy chủ mặc định từ danh sách này bằng cách chọn “Sử dụng máy chủ mặc định”.
+outgoing-server-type = Kiểu máy chủ:

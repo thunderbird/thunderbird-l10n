@@ -145,3 +145,30 @@ account-hub-addon-install-needed = { -brand-short-name } không hỗ trợ máy 
 account-hub-addon-error = Cài đặt tiện ích không thành công. Vui lòng thử lại hoặc liên hệ với tác giả tiện ích để được hỗ trợ.
 account-hub-security-warning = <span data-l10n-name="security-warning">Cảnh báo: Phát hiện máy chủ thư không an toàn.</span> Máy chủ này không có mã hóa, làm lộ mật khẩu và dữ liệu của bạn. Liên hệ với quản trị viên của bạn để bảo mật kết nối hoặc tự chịu rủi ro. <a data-l10n-name="faq-link">Xem câu hỏi thường gặp để biết thêm.</a>
 account-hub-account-authentication-error = Lỗi khi xác thực.
+account-hub-add-address-book = Thêm sổ địa chỉ
+address-book-sync-existing-icon =
+    .alt = Đồng bộ sổ địa chỉ từ một tài khoản hiện có
+address-book-sync-existing = Đồng bộ từ tài khoản hiện có
+address-book-add-remote-icon =
+    .alt = Thêm sổ địa chỉ từ xa mới
+address-book-add-remote = Thêm sổ địa chỉ từ xa
+address-book-add-remote-description = Kết nối với sổ địa chỉ CardDav từ xa
+address-book-add-local-icon =
+    .alt = Tạo sổ địa chỉ cục bộ mới
+address-book-add-local = Sổ địa chỉ cục bộ mới
+address-book-add-local-description = Tạo một sổ địa chỉ cục bộ mới trên thiết bị của bạn
+address-book-add-ldap-icon =
+    .alt = Kết nối với sổ địa chỉ LDAP từ xa
+address-book-add-ldap = Sổ địa chỉ LDAP mới
+address-book-add-ldap-description = Kết nối với sổ địa chỉ LDAP từ xa
+account-hub-fetching-sync-accounts = Đang khám phá sổ địa chỉ và lịch…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data = { $addressBooks } sổ địa chỉ từ { $accounts } tài khoản có sẵn
+address-book-sync-existing-description = Đang truy xuất các tài khoản hiện có…
+account-hub-select-address-book-account = Chọn một tài khoản có sổ địa chỉ
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } / { $total }
+    .title = { $synced } sổ địa chỉ được đồng bộ hóa, { $available } có sẵn
