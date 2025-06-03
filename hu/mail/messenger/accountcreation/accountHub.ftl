@@ -182,3 +182,4 @@ account-hub-address-book-sync-option-data =
             }
     }
 address-book-sync-existing-description = Meglévő fiókok lekérése…
+account-hub-select-address-book-account = Válasszon egy fiókot címjegyzékekkel
