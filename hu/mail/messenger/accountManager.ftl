@@ -31,3 +31,5 @@ account-manager-server-default-icon =
 outgoing-server-section-name = Kimenő kiszolgáló
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Kimenő kiszolgáló beállításai
+outgoing-server-settings-description = Személyazonosságainak kezelésekor ezen lista egyik kiszolgálóját használhatja Kimenő kiszolgálóként kiválasztva, vagy használhatja a lista alapértelmezett kiszolgálóját az „Alapértelmezett kiszolgáló kiválasztása” használatával.
+outgoing-server-type = Kiszolgálótípus:

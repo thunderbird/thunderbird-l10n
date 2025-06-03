@@ -24,3 +24,6 @@ downloading-articles-for-offline =
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-articles-to-download = Nincsenek letölthető cikkek ehhez: { $newsgroup }.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = A(z) { $newsgroup } hírcsoport nem érhető el a kiszolgálón.
