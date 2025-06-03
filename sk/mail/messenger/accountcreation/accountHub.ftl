@@ -192,3 +192,4 @@ account-hub-address-book-sync-option-data =
             }
     }
 address-book-sync-existing-description = Získavajú sa existujúce účty…
+account-hub-select-address-book-account = Vyberte účet s adresármi
