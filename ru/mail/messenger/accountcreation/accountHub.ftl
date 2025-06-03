@@ -191,3 +191,4 @@ account-hub-address-book-sync-option-data =
             }
     }
 address-book-sync-existing-description = Получение существующих учётных записей…
+account-hub-select-address-book-account = Выберите учётную запись с адресными книгами
