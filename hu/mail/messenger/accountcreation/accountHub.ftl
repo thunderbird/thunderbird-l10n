@@ -149,3 +149,36 @@ account-hub-addon-install-needed = A { -brand-short-name } natív módon nem tá
 account-hub-addon-error = A kiegészítő telepítése sikertelen. Próbálja újra, vagy forduljon segítségért a kiegészítő készítőjéhez.
 account-hub-security-warning = <span data-l10n-name="security-warning">Figyelmeztetés: Nem biztonságos levelezőkiszolgáló észlelve.</span> Ez a kiszolgáló nem rendelkezik titkosítással, így kikerül a jelszava és az adatai. Lépjen kapcsolatba a rendszergazdával a kapcsolat biztonságossá tételéhez, vagy folytassa saját felelősségre. <a data-l10n-name="faq-link">További információkért lásd a GYIK-et.</a>
 account-hub-account-authentication-error = Hitelesítési hiba.
+account-hub-add-address-book = Címjegyzék hozzáadása
+address-book-sync-existing-icon =
+    .alt = Címjegyzék szinkronizálása meglévő fiókból
+address-book-sync-existing = Szinkronizálás meglévő fiókból
+address-book-add-remote-icon =
+    .alt = Új távoli címjegyzék hozzáadása
+address-book-add-remote = Távoli címjegyzék hozzáadása
+address-book-add-remote-description = Kapcsolódás egy távoli CardDav-címjegyzékhez
+address-book-add-local-icon =
+    .alt = Új helyi címjegyzék létrehozása
+address-book-add-local = Új helyi címjegyzék
+address-book-add-local-description = Új helyi címjegyzék létrehozása az eszközön
+address-book-add-ldap-icon =
+    .alt = Kapcsolódás egy távoli LDAP-címjegyzékhez
+address-book-add-ldap = Új LDAP-címjegyzék
+address-book-add-ldap-description = Kapcsolódás egy távoli LDAP-címjegyzékhez
+account-hub-fetching-sync-accounts = Címjegyzékek és naptárak felfedezése…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] 1 címjegyzék érhető el 1 fiókból
+               *[other] 1 címjegyzék érhető el { $accounts } fiókból
+            }
+       *[other]
+            { $accounts ->
+                [one] { $addressBooks } címjegyzék érhető el 1 fiókból
+               *[other] { $addressBooks } címjegyzék érhető el { $accounts } fiókból
+            }
+    }
+address-book-sync-existing-description = Meglévő fiókok lekérése…

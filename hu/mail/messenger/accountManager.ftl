@@ -28,3 +28,4 @@ edit-vcard-dialog-cancel-button = Mégse
 account-manager-server-default-icon =
     .title = Alapértelmezett fiók
     .alt = Csillag ikon
+outgoing-server-section-name = Kimenő kiszolgáló
