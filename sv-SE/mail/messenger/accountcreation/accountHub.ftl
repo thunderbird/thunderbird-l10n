@@ -182,3 +182,9 @@ account-hub-address-book-sync-option-data =
             }
     }
 address-book-sync-existing-description = Hämtar befintliga konton…
+account-hub-select-address-book-account = Välj ett konto med adressböckerna
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } av { $total }
+    .title = { $synced } synkroniserade adressböcker, { $available } tillgängliga
