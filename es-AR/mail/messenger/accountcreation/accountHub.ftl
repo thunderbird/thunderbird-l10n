@@ -182,3 +182,9 @@ account-hub-address-book-sync-option-data =
             }
     }
 address-book-sync-existing-description = Recuperando cuentas existentes…
+account-hub-select-address-book-account = Seleccionar una cuenta con libretas de direcciones
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } de { $total }
+    .title = { $synced } libretas de direcciones sincronizadas, { $available } disponibles

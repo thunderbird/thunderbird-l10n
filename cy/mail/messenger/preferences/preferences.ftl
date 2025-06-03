@@ -785,6 +785,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Canfod yn y Gosodiadau
+managed-notice = Mae { -brand-short-name } yn cael ei reoli gan eich sefydliad.
 
 ## Settings UI Search Results
 

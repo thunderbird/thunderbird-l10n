@@ -230,3 +230,9 @@ account-hub-address-book-sync-option-data =
             }
     }
 address-book-sync-existing-description = Wrthi'n nôl cyfrifon presennol…
+account-hub-select-address-book-account = Dewiswch gyfrif gyda llyfrau Cyfeiriadau
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } o { $total }
+    .title = { $synced } llyfr cyfeiriadau cysoni, { $available } ar gael

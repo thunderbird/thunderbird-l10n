@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Süütuke">
 <!ENTITY smiley15Cmd.label "Nutmine">
 <!ENTITY smiley16Cmd.label "Kokkusurutud huuled">
+<!ENTITY smiley17Cmd.label "Vihane">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Soovitusi ei leitud">
 <!ENTITY spellCheckIgnoreWord.label "Ignoreeri sõna">
