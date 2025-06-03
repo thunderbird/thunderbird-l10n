@@ -789,6 +789,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Najdi v nastavitvah
+managed-notice = { -brand-short-name } upravlja vaša organizacija.
 
 ## Settings UI Search Results
 
