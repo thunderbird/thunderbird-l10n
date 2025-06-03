@@ -29,3 +29,5 @@ account-manager-server-default-icon =
     .title = Alapértelmezett fiók
     .alt = Csillag ikon
 outgoing-server-section-name = Kimenő kiszolgáló
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Kimenő kiszolgáló beállításai
