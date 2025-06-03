@@ -10,3 +10,5 @@ delete-account-button =
     .label = Smazat
 default-account-button =
     .label = Nastavit jako výchozí
+outgoing-server-name = Odchozí server:
+    .accesskey = d

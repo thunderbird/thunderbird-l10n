@@ -32,3 +32,4 @@ edit-vcard-dialog-cancel-button = Zrušit
 account-manager-server-default-icon =
     .title = Výchozí účet
     .alt = Ikona hvězdy
+outgoing-server-type = Typ serveru:

@@ -789,6 +789,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Tìm trong Cài đặt
+managed-notice = { -brand-short-name } đang được quản lý bởi tổ chức của bạn.
 
 ## Settings UI Search Results
 

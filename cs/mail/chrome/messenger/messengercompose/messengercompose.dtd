@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Nevinný">
 <!ENTITY smiley15Cmd.label "Pláč">
 <!ENTITY smiley16Cmd.label "Pusa na zámek">
+<!ENTITY smiley17Cmd.label "Naštvaný">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Žádné návrhy nenalezeny">
 <!ENTITY spellCheckIgnoreWord.label "Ignorovat slovo">
