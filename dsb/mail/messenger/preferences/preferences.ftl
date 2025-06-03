@@ -789,6 +789,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = W nastajenjach pytaś
+managed-notice = { -brand-short-name } se wót wašeje organizacije zastoj.
 
 ## Settings UI Search Results
 

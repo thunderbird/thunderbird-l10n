@@ -202,3 +202,9 @@ account-hub-address-book-sync-option-data =
             }
     }
 address-book-sync-existing-description = Eksistowace konta so wotwołuja…
+account-hub-select-address-book-account = Wubjerće konto z adresnikami
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } z { $total }
+    .title = synchronizowane adresniki: { $synced }, { $available } k dispoziciji
