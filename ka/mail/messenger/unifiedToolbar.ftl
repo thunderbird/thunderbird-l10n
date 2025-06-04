@@ -44,11 +44,20 @@ customize-space-tab-chat = სასაუბრო
 customize-space-tab-settings = პარამეტრები
     .title = პარამეტრები
 customize-button-style-icons-beside-text-option = ხატულები ტექსტთან ერთად
+customize-button-style-icons-only-option = მხოლოდ ხატულები
+customize-button-style-text-only-option = მხოლოდ ტექსტი
 customize-search-bar2 =
     .label = ხელსაწყოთა ღილაკების ძიება
     .placeholder = ხელსაწყოთა ღილაკების ძიება…
 customize-main-toolbar-target =
     .aria-label = ხელსაწყოთა მთავარი ზოლი
+customize-palette-mail-specific-title = ხელმისაწვდომია მხოლოდ საფოსტო არეში
+customize-palette-addressbook-specific-title = ხელმისაწვდომია მხოლოდ წიგნაკის არეში
+customize-palette-calendar-specific-title = ხელმისაწვდომია მხოლოდ კალენდრის არეში
+customize-palette-tasks-specific-title = ხელმისაწვდომია მხოლოდ დავალებების არეში
+customize-palette-chat-specific-title = ხელმისაწვდომია მხოლოდ სასაუბროს არეში
+customize-palette-settings-specific-title = ხელმისაწვდომია მხოლოდ პარამეტრების არეში
+customize-palette-extension-specific-title = ხელმისაწვდომია მხოლოდ ამ არეში
 
 ## Unified toolbar customization palette context menu
 

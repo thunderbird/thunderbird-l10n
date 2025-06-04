@@ -11,7 +11,7 @@
 
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = მოგესალმებათ <span data-l10n-name="brand-name">{ -brand-full-name }</span>
-account-hub-title = ანგარიშების არე
+account-hub-title = ანგარიშების ერთიანი არე
 
 ## Footer
 
@@ -53,5 +53,8 @@ account-hub-email-confirm-button = დასტური
 account-hub-find-settings-failed = { -brand-full-name } ვერ ახერხებს პარამეტრების მოძიებას თქვენი ელფოსტის ანგარიშისთვის.
 account-hub-email-config-found = აირჩიეთ თქვენი ელფოსტის ანგარიშის სახეობა
 account-hub-email-enter-password = მიუთითეთ თქვენი ელფოსტის პაროლი
+account-hub-password-info = თქვენი ანგარიშის მონაცემები მხოლოდ ადგილობრივად შეინახება კომპიუტერში
 account-hub-email-added-success = ელფოსტის ანგარიში დაკავშირებულია წარმატებით
+account-hub-hostname-error-text = ჰოსტის სახელი ცარიელი ან უმართებულოა. ნებადართულია მხოლოდ ასოები, ციფრები, - და .
+    .title = ჰოსტის სახელი ცარიელი ან უმართებულოა. ნებადართულია მხოლოდ ასოები, ციფრები, - და .
 account-hub-addon-install-needed = { -brand-short-name } არაა თანმომყოლი მხარდაჭერით ამ სერვერზე. Exchange-ელფოსტასთან წვდომისთვის <a data-l10n-name="addon-install"> დააყენეთ გარეშე მხარის დამატება, როგორიცაა Owl (ფასიანი).</a>

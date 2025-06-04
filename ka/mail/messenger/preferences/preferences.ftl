@@ -392,18 +392,37 @@ close-move-delete =
     .label = წერილის ფანჯრის/ჩანართის დახურვა ან გადატანა, ან წაშლა
     .accesskey = ხ
 address-display-legend = წერილების სია
+address-display-description = მისამართების სასურველი სახით ჩვენება:
+address-display-full =
+    .label = სრულად სახელი და ელფოტა
+    .accesskey = უ
+address-display-email =
+    .label = მხოლოდ ელფოსტა
+    .accesskey = ე
+address-display-name =
+    .label = მხოლოდ სახელი
+    .accesskey = ს
 condensed-addresses-label =
-    .label = წიგნაკში, მხოლოდ გამოსაჩენი სახელების ჩვენება
+    .label = წიგნაკში მხოლოდ გამოსაჩენი სახელების ჩვენება
+    .accesskey = წ
+table-layout-horizontal-scroll-label =
+    .label = თარაზულად გადაადგილების საშუალება
+    .accesskey = ზ
+conversation-view-legend = მიმოწერის ხედი
+conversation-view-checkbox-label =
+    .label = მიმოწერის ხედის ჩართვა
     .accesskey = წ
 conversation-view-checkbox-description = საცდელი შესაძლებლობა, რომელსაც საფუძვლად უდევს Gloda, გამოიყენეთ საკუთარი პასუხისმგებლობით.
 label-experiment = საცდელი
-account-hub-legend = ანგარიშების არე
+account-hub-legend = ანგარიშების ერთიანი არე
 account-hub-checkbox-label =
     .label = ანგარიშის შექმნისთვის ანგარიშების ახალი არე
     .accesskey = ქ
+account-hub-checkbox-description = ფოსტის ანგარიშის შექმნის ახალი საცდელი გზა
 account-hub-ab-checkbox-label =
     .label = წიგნაკების შექმნისთვის ანგარიშების ახალი არე
     .accesskey = წ
+account-hub-ab-checkbox-description = მისამართის წიგნაკის შექმნის ახალი საცდელი გზა
 
 ## Compose Tab
 
@@ -731,10 +750,23 @@ sync-disconnected-text = დაასინქრონეთ თქვენი
 ## Mobile QR Export Pane
 
 qr-export-accounts-legend = ელფოსტის ანგარიშები
+qr-export-oauth-warning = თქვენი ზოგიერთი ანგარიში შესვლისას იყენებს დამოწმების ხერხს, რომელმაც შესაძლოა მოითხოვოს ხელახალი დამოწმება თქვენს მობილურ მოწყობილობაზე. შეიძლება მოგიწიოთ პაროლის ხელმეორედ შეყვანა ასეთ შემთხვევაში.
 qr-export-security-hint = მოცემული QR-კოდების წაკითხვით თქვენი ანგარიშის პარამეტრები — მათ შორის ელფოსტის მისამართი და პაროლი — უსაფრთხოდ იქნება გადატანილი. ჩვენ არ ვაგროვებთ, არ ვინახავთ და არ ვაზიარებთ ამ არანაირ მონაცემს დამუშავებისას. გადაიცემა პირდაპირ თქვენს მოწყობილობებს შორის.
+qr-export-security-warning = თქვენივე უსაფრთხოებისთვის გთხოვთ გადაამოწმოთ, რომ პირად არეში იმყოფებით და QR-კოდები მხოლოდ სანდო წყაროებიდანაა წაკითხული.
+qr-export-start-export = გატანა
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step }, სულ { $count } QR-კოდი
+       *[other] { $step }, სულ { $count } QR-კოდი
+    }
 
 ## Appearance Tab
 
 default-message-list-legend = წერილების სია
+appearance-view-style =
+    .value = ხედის სახეობა:
 default-sort-attachments =
     .label = დანართები
