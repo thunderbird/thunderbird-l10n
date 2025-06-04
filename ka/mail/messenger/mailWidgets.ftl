@@ -7,7 +7,7 @@ apply-current-view-to-menu =
 threadpane-apply-changes-prompt-title = შევინახო ცვლილებები?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-threadpane-apply-changes-prompt-no-children-text = მიმდინარე ხედი გამოიყენოს { $name } საქაღალდისთვის?
+threadpane-apply-changes-prompt-no-children-text = გამოჩნდეს { $name } საქაღალდის მიმდინარე ხედით?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-threadpane-apply-changes-prompt-with-children-text = მიმდინარე ხედი გამოიყენოს { $name } საქაღალდისა და მისი ქვესაქაღალდეებისთვის?
+threadpane-apply-changes-prompt-with-children-text = გამოჩნდეს { $name } და მისი შიგთავსი საქაღალდის მიმდინარე ხედით?

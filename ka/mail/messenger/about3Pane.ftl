@@ -326,6 +326,8 @@ threadpane-column-label-delete =
 
 apply-columns-to-menu =
     .label = სვეტების ასახვა…
+apply-current-view-to-menu =
+    .label = მიმდინარე ხედის გამოყენება…
 apply-current-view-to-folder =
     .label = საქაღლდეში…
 apply-current-view-to-folder-children =
@@ -339,6 +341,12 @@ apply-current-columns-to-folder-message = გამოვიყენო მი�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = გამოვიყენო მიმდინარე საქაღალდის სვეტები { $name } საქაღალდისა და მისი ქვესაქაღალდეებისთვისთვის?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = გამოჩნდეს { $name } საქაღალდის მიმდინარე ხედით?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = გამოჩნდეს { $name } და მისი შიგთავსი საქაღალდის მიმდინარე ხედით?
 
 ## Folder pane context menu
 
