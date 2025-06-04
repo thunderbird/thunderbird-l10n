@@ -11,7 +11,7 @@
 
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = მოგესალმებათ <span data-l10n-name="brand-name">{ -brand-full-name }</span>
-account-hub-title = ანგარიშების გვერდი
+account-hub-title = ანგარიშების არე
 
 ## Footer
 

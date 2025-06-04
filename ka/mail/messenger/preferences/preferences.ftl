@@ -383,6 +383,13 @@ close-move-delete =
 condensed-addresses-label =
     .label = წიგნაკში, მხოლოდ გამოსაჩენი სახელების ჩვენება
     .accesskey = წ
+account-hub-legend = ანგარიშების არე
+account-hub-checkbox-label =
+    .label = ანგარიშის შექმნისთვის ანგარიშების ახალი არე
+    .accesskey = ქ
+account-hub-ab-checkbox-label =
+    .label = წიგნაკების შექმნისთვის ანგარიშების ახალი არე
+    .accesskey = წ
 
 ## Compose Tab
 
