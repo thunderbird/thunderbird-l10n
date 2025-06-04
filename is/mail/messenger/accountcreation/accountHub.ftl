@@ -160,3 +160,31 @@ address-book-add-remote-description = Tengjast við fjartengda CardDAV-nafnaskr�
 address-book-add-local-icon =
     .alt = Búa til nýja staðbundna nafnaskrá
 address-book-add-local = Ný staðbundin nafnaskrá
+address-book-add-local-description = Búa til nýja staðbundna nafnaskrá á tækinu þínu
+address-book-add-ldap-icon =
+    .alt = Tengjast við fjartengda LDAP-nafnaskrá
+address-book-add-ldap = Ný LDAP-nafnaskrá
+address-book-add-ldap-description = Tengjast við fjartengda LDAP-nafnaskrá
+account-hub-fetching-sync-accounts = Finn nafnaskrár og dagatöl…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] 1 nafnaskrá frá 1 reikningi tiltæk
+               *[other] 1 nafnaskrá frá { $accounts } reikningum tiltæk
+            }
+       *[other]
+            { $accounts ->
+                [one] { $addressBooks } nafnaskrár frá 1 reikningi tiltækar
+               *[other] { $addressBooks } nafnaskrár frá { $accounts } reikningum tiltækar
+            }
+    }
+address-book-sync-existing-description = Sæki fyrirliggjandi reikninga…
+account-hub-select-address-book-account = Veldu reikning með nafnaskrám
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } af { $total }
+    .title = { $synced } samstillti nafnaskrár, { $available } tiltækar

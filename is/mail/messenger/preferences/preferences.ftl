@@ -789,6 +789,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Finna í stillingum
+managed-notice = { -brand-short-name } er stjórnað af kerfisstjórum þínum.
 
 ## Settings UI Search Results
 
