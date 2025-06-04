@@ -160,3 +160,31 @@ address-book-add-remote-description = Ferbining meitsje mei in ekstern CardDAV-a
 address-book-add-local-icon =
     .alt = In nij lokaal adresboek oanmeitsje
 address-book-add-local = Nij lokaal adresboek
+address-book-add-local-description = In nij lokaal adresboek oanmeitsje op jo apparaat
+address-book-add-ldap-icon =
+    .alt = Ferbining meitsje mei in ekstern LDAP-adresboek
+address-book-add-ldap = Nij LDAP-adresboek
+address-book-add-ldap-description = Ferbining meitsje mei in ekstern LDAP-adresboek
+account-hub-fetching-sync-accounts = Adresboeken en aginda’s ûntdekke…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] 1 adresboek fan 1 account beskikber
+               *[other] 1 adresboek fan { $accounts } accounts beskikber
+            }
+       *[other]
+            { $accounts ->
+                [one] { $addressBooks } adresboeken fan 1 account beskikber
+               *[other] { $addressBooks } adresboeken fan { $accounts } accounts beskikber
+            }
+    }
+address-book-sync-existing-description = Besteande accounts ophelje…
+account-hub-select-address-book-account = Selektearje in account mei adresboeken
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } fan { $total }
+    .title = { $synced } syngronisearre adresboeken, { $available } beskikber
