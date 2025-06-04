@@ -221,6 +221,7 @@
 <!ENTITY smiley14Cmd.label "Saklaus">
 <!ENTITY smiley15Cmd.label "Gráta">
 <!ENTITY smiley16Cmd.label "Segi ekki orð">
+<!ENTITY smiley17Cmd.label "Reiði">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Fann engar uppástungur">
 <!ENTITY spellCheckIgnoreWord.label "Hunsa orð">

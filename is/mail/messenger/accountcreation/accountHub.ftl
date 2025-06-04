@@ -149,3 +149,14 @@ account-hub-addon-install-needed = { -brand-short-name } styður ekki þennan ne
 account-hub-addon-error = Uppsetning viðbótar mistókst. Reyndu aftur eða hafðu samband við höfund viðbótarinnar til að fá aðstoð.
 account-hub-security-warning = <span data-l10n-name="security-warning">Aðvörun: Óöruggur póstþjónn fannst.</span> Þennan netþjón skortir dulritun, sem getur afhjúpað lykilorðið þitt og önnur gögn. Hafðu samband við kerfisstjóra til að gera tenginguna örugga eða haltu áfram á eigin ábyrgð. <a data-l10n-name="faq-link">Skoðaðu algengar spurningar til að sjá frekari upplýsingar.</a>
 account-hub-account-authentication-error = Villa í auðkenningu.
+account-hub-add-address-book = Bæta við nafnaskrá
+address-book-sync-existing-icon =
+    .alt = Samstilla nafnaskrá frá fyrirliggjandi reikningi
+address-book-sync-existing = Samstilla frá fyrirliggjandi reikningi
+address-book-add-remote-icon =
+    .alt = Bæta við nýrri fjartengdri nafnaskrá
+address-book-add-remote = Bæta við fjartengdri nafnaskrá
+address-book-add-remote-description = Tengjast við fjartengda CardDAV-nafnaskrá
+address-book-add-local-icon =
+    .alt = Búa til nýja staðbundna nafnaskrá
+address-book-add-local = Ný staðbundin nafnaskrá
