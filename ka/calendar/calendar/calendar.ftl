@@ -441,7 +441,7 @@ error-description = აღწერილობა: { $errorDescription }
 error-writing2 = შეცდომა, { $name } კალენდარში ჩაწერისას! ვრცლად შეგიძლიათ იხილოთ ქვემოთ.
 # LOCALIZATION NOTE (error-writing-details):
 # This will be displayed in the detail section of the error dialog
-error-writing-details = თუ ამ შეტყობინებას ნახავთ შეხსენების გადადების, ან გამოტოვების შემდეგ იმ კალენდარზე, რომელზეც არ გსურთ ღონისძიებების დამატება, ან ჩასწორება, შეგიძლიათ კალენდარი გადაიყვანოთ მხოლოდ წასაკითხ რეჟიმში. ამისთვის, გადადით პარამეტრებში, კალენდარზე მარჯვენა წკაპით, ან დავალების ხედიდან.
+error-writing-details = თუ ამ შეტყობინებას ნახავთ შეხსენების გადადების, ან გამოტოვების შემდეგ იმ კალენდარზე, რომელზეც არ გსურთ ღონისძიებების დამატება, ან ჩასწორება, შეგიძლიათ კალენდარი გადაიყვანოთ მხოლოდ წასაკითხ რეჟიმში. ამისთვის გადადით პარამეტრებში კალენდარზე მარჯვენა წკაპით ან დავალების ხედიდან.
 # LOCALIZATION NOTE (tooltip-calendar-disabled):
 # used for an alert-message like 'The calendar Home is momentarily not available'
 #    $name will be replaced with the name of a calendar

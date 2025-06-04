@@ -43,6 +43,7 @@ customize-space-tab-chat = სასაუბრო
     .title = სასაუბრო
 customize-space-tab-settings = პარამეტრები
     .title = პარამეტრები
+customize-change-appearance = იერსახის შეცვლა…
 customize-button-style-icons-beside-text-option = ხატულები ტექსტთან ერთად
 customize-button-style-icons-only-option = მხოლოდ ხატულები
 customize-button-style-text-only-option = მხოლოდ ტექსტი

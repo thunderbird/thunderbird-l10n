@@ -10,6 +10,9 @@ category-list =
 pane-general-title = ძირითადი
 category-general =
     .tooltiptext = { pane-general-title }
+pane-appearance-title = იერსახე
+category-appearance =
+    .tooltiptext = { pane-appearance-title }
 pane-compose-title = შექმნა
 category-compose =
     .tooltiptext = შექმნა
@@ -259,8 +262,8 @@ offline-settings-button =
     .accesskey = გ
 diskspace-legend = ადგილი დისკზე
 offline-compact-folder =
-    .label = ყველა საქაღალდის შეკუმშვა, თუ მეტ სივრცეს გამოათავისუფლებს
-    .accesskey = ტ
+    .label = ყველა საქაღალდის შეკუმშვა, თუ გამოთავისუფლდება არანაკლებ
+    .accesskey = რ
 offline-compact-folder-automatically =
     .label = შეკითხვა ყოველ ჯერზე შემჭიდროებამდე
     .accesskey = ჯ
@@ -540,7 +543,7 @@ remove-cloud-account =
     .accesskey = მ
 find-cloud-providers =
     .value = სხვა მომსახურების მოძიება…
-cloud-account-description = ფაილების მიბმისთვის, მომსახურე საცავის დამატება
+cloud-account-description = ფაილების მიბმისთვის მომსახურე საცავის დამატება
 
 ## Privacy Tab
 
@@ -769,6 +772,7 @@ qr-export-scan-progress =
 
 ## Appearance Tab
 
+appearance-category-header = იერსახე
 default-message-list-legend = წერილების სია
 appearance-view-style =
     .value = ხედის სახეობა:
