@@ -21,6 +21,7 @@ webext-perms-description-addressBooks = მისამართების წ
 webext-perms-description-compose = წერილის შედგენისა და გაგზავნისას, მისი ნახვა და ჩასწორება
 webext-perms-description-compose-send = შედგენილი წერილეიბს გაგზავნა თქვენი სახელით
 webext-perms-description-compose-save = შედგენილი წერილების შენახვა წინასწარ ნამუშევრად ან ნიმუშად
+webext-perms-description-experiment-access = ეს დამატება სრული წვდომით, შეუზღუდავად შეძლებს გამოიყენოს { -brand-short-name } და თქვენი კომპიუტერი
 webext-perms-description-experiment = სრული წვდომით, შეუზღუდავად შეძლებს გამოიყენოს { -brand-short-name } და თქვენი კომპიუტერი
 webext-perms-description-messagesImport = წერილების გადმოტანა Thunderbird-ში
 webext-perms-description-messagesModify = ელფოსტის წერილების წაკითხვა და შესწორება მათი გამოჩენისას

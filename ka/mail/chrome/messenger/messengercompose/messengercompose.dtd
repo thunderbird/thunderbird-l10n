@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "უმანკოება">
 <!ENTITY smiley15Cmd.label "ტირილი">
 <!ENTITY smiley16Cmd.label "პირის მოკუმვა">
+<!ENTITY smiley17Cmd.label "გაბრაზებული">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "შემოთავაზება ვერ მოიძებნა">
 <!ENTITY spellCheckIgnoreWord.label "სიტყვის გამოტოვება">

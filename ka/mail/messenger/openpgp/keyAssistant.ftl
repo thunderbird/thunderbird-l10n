@@ -10,6 +10,14 @@ openpgp-key-assistant-rogue-warning = თავი აარიდეთ ყა�
 openpgp-key-assistant-recipients-issue-header = ვერ იშიფრება
 # Variables:
 # $count (Number) - The number of recipients that need attention.
+openpgp-key-assistant-recipients-issue-description =
+    { $count ->
+        [one] დასაშიფრად საჭიროა, მოიპოვოთ და დასთანხმდეთ გამოსადეგ გასაღებს მიმღებისთვის. <a data-l10n-name="openpgp-link">ვრცლად…</a>
+       *[other] დასაშიფრად საჭიროა, მოიპოვოთ და დასთანხმდეთ გამოსადეგ გასაღებს { $count } მიმღებისთვის. <a data-l10n-name="openpgp-link">ვრცლად…</a>
+    }
+openpgp-key-assistant-info-alias = { -brand-short-name }, ჩვეულებრივ, საჭიროებს მიმღების საჯარო გასაღებს, რომელიც მომხმარებლის ID ნომერს შეიცავს, შესაბამისი ელფსოტის მისამართით. სანაცვლოდ, შესაძლებელია OpenPGP-მიმღების მეტსახელების წესების გამოყენებაც. <a data-l10n-name="openpgp-link">ვრცლად…</a>
+# Variables:
+# $count (Number) - The number of recipients that need attention.
 openpgp-key-assistant-recipients-description =
     { $count ->
         [one] უკვე გაქვთ გამოსადეგი და მისაღები გასაღებები { $count } მიმღებისთვის.

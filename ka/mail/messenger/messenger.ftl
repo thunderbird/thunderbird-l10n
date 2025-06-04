@@ -473,3 +473,5 @@ quota-panel-percent-used = { $percent }% შევსებულია
 
 mark-as-read-action = მონიშვნა წაკითხულად
 delete-action = წაშლა
+mark-as-starred-action = მონიშვნა ვარკვლავიანად
+mark-as-spam-action = არასასურველად მონიშვნა
