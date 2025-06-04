@@ -7,6 +7,9 @@
 
 tree-list-view-column-picker =
     .title = სვეტების შერჩევა საჩვენებლად
+tree-list-view-row-attach =
+    .alt = დანართის მაჩვენებელი
+    .title = ცნობა დანართის არსებობისას
 tree-list-view-row-spam =
     .alt = ჯართის მიმდინარე მაჩვენებელი
     .title = წერილი მონიშნულია ჯართად

@@ -8,6 +8,14 @@
 
 ## Search bar
 
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key2 =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
 
 ## Unified toolbar context menu
 
@@ -22,6 +30,7 @@ toolbar-get-all-messages-menuitem =
 
 ## Unified Toolbar customization
 
+customize-title = ხელსაწყოთა ზოლის მორგება
 customize-space-tab-mail = ფოსტა
     .title = ფოსტა
 customize-space-tab-addressbook = წიგნაკი
@@ -35,9 +44,20 @@ customize-space-tab-chat = სასაუბრო
 customize-space-tab-settings = პარამეტრები
     .title = პარამეტრები
 customize-button-style-icons-beside-text-option = ხატულები ტექსტთან ერთად
+customize-search-bar2 =
+    .label = ხელსაწყოთა ღილაკების ძიება
+    .placeholder = ხელსაწყოთა ღილაკების ძიება…
+customize-main-toolbar-target =
+    .aria-label = ხელსაწყოთა მთავარი ზოლი
 
 ## Unified toolbar customization palette context menu
 
+customize-palette-add-everywhere =
+    .label = დამატება ხელსაწყოთა ყველა ზოლზე
 
 ## Unified toolbar customization target context menu
 
+customize-target-remove-everywhere =
+    .label = მოცილება ხელსაწყოთა ყველა ზოლიდან
+customize-target-add-everywhere =
+    .label = დამატება ხელსაწყოთა ყველა ზოლზე

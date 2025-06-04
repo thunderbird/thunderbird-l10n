@@ -8,6 +8,8 @@
 quick-filter-button =
     .title = სწრაფი გაფილტვრის ზოლის გადართვა
 quick-filter-button-label = სწრაფი ფილტრი
+thread-pane-header-display-button =
+    .title = წერილების სიის ჩვენების პარამეტრები
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
@@ -25,6 +27,8 @@ thread-pane-header-context-table-view =
     .label = ცხრილური ხედი
 thread-pane-header-context-cards-view =
     .label = საბარათო ხედი
+thread-pane-header-context-hide =
+    .label = წერილების სიის თავსართის დამალვა
 
 ## Quick Filter Bar
 

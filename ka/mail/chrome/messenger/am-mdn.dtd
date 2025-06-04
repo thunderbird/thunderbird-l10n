@@ -29,5 +29,5 @@
 <!ENTITY otherCases.label "ყველა სხვა შემთხვევაში:">
 <!ENTITY otherCases.accesskey "o">
 <!ENTITY askMe.label "შეკითხვა ყოველ ჯერზე">
-<!ENTITY alwaysSend.label "გაგზავნე ყოველთვის">
+<!ENTITY alwaysSend.label "გაიგზავნოს ყოველთვის">
 <!ENTITY neverSend.label "არასდროს გაიგზავნოს">
