@@ -789,6 +789,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Ayarlarda ara
+managed-notice = { -brand-short-name } kuruluşunuz tarafından yönetiliyor.
 
 ## Settings UI Search Results
 
