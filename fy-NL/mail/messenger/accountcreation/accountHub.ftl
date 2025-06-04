@@ -149,3 +149,14 @@ account-hub-addon-install-needed = { -brand-short-name } stipet dizze server net
 account-hub-addon-error = Add-on-ynstallaasje is mislearre. Probearje it opnij of nim kontakt op mei de add-on-auteur foar help.
 account-hub-security-warning = <span data-l10n-name="security-warning">Warskôging: ûnfeilige e-mailserver ûntdutsen.</span> Dizze tsjinner mist fersifering, wêrtroch jo wachtwurd en gegevens iepenbier binne. Nim kontakt op mei jo behearder om de ferbining te befeiligjen of troch te gean op jo eigen risiko. <a data-l10n-name="faq-link">Sjoch FAQ foar mear ynformaasje.</a>
 account-hub-account-authentication-error = Autentikaasjeflater.
+account-hub-add-address-book = In adresboek tafoegje
+address-book-sync-existing-icon =
+    .alt = In adresboek fan in besteand account syngronisearje
+address-book-sync-existing = Syngronisearje fan in besteand account ôf
+address-book-add-remote-icon =
+    .alt = In nij ekstern adresboek tafoegje
+address-book-add-remote = Ekstern adresboek tafoegje
+address-book-add-remote-description = Ferbining meitsje mei in ekstern CardDAV-adresboek
+address-book-add-local-icon =
+    .alt = In nij lokaal adresboek oanmeitsje
+address-book-add-local = Nij lokaal adresboek
