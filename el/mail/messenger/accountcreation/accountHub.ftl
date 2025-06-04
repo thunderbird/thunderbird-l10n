@@ -182,3 +182,9 @@ account-hub-address-book-sync-option-data =
             }
     }
 address-book-sync-existing-description = Ανάκτηση υπαρχόντων λογαριασμών…
+account-hub-select-address-book-account = Επιλέξτε έναν λογαριασμό με ευρετήρια
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } από { $total }
+    .title = { $synced } συγχρονισμένα ευρετήρια, { $available } διαθέσιμα

@@ -785,6 +785,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Εύρεση στις ρυθμίσεις
+managed-notice = Η διαχείριση του { -brand-short-name } πραγματοποιείται από τον οργανισμό σας.
 
 ## Settings UI Search Results
 
