@@ -154,19 +154,21 @@ account-hub-addon-error = Methodd gosod ychwanegyn. Ceisiwch eto neu cysylltwch 
 account-hub-security-warning = <span data-l10n-name="security-warning">Rhybudd: Wedi canfod gweinydd post anniogel.</span> Mae gan y gweinydd hwn ddiffyg amgryptio, gan ddatgelu eich cyfrinair a data. Cysylltwch â'ch gweinyddwr i sicrhau'r cysylltiad neu ewch ymlaen ar eich menter eich hun. <a data-l10n-name="faq-link">Gweler Cwestiynau Cyffredin am ragor.</a>
 account-hub-account-authentication-error = Gwall dilysu.
 account-hub-add-address-book = Ychwanegu llyfr cyfeiriadau
-address-book-sync-existing = Cysoni o gyfrif sy'n bodoli
+address-book-sync-existing-icon =
+    .alt = Cydweddu llyfr cyfeiriadau o gyfrif sy'n bodoli
+address-book-sync-existing = Cydweddu o gyfrif sy'n bodoli
 address-book-add-remote-icon =
-    .alt = Ychwanegu llyfr cyfeiriadau o bell newydd
-address-book-add-remote = Ychwanegu Llyfr Cyfeiriadau o bell
-address-book-add-remote-description = Cysylltwch â Llyfr Cyfeiriadau CardDav o bell
+    .alt = Ychwanegu llyfr cyfeiriadau pell newydd
+address-book-add-remote = Ychwanegu Llyfr Cyfeiriadau pell
+address-book-add-remote-description = Cysylltwch â Llyfr Cyfeiriadau CardDav pell
 address-book-add-local-icon =
     .alt = Creu llyfr cyfeiriadau lleol newydd
 address-book-add-local = Llyfr Cyfeiriadau lleol newydd
 address-book-add-local-description = Creu llyfr cyfeiriadau lleol newydd ar eich dyfais
 address-book-add-ldap-icon =
-    .alt = Cysylltwch â llyfr cyfeiriadau LDAP o bell
+    .alt = Cysylltwch â llyfr cyfeiriadau LDAP pell
 address-book-add-ldap = Llyfr Cyfeiriadau LDAP newydd
-address-book-add-ldap-description = Cysylltwch â llyfr cyfeiriadau LDAP o bell
+address-book-add-ldap-description = Cysylltwch â llyfr cyfeiriadau LDAP pell
 account-hub-fetching-sync-accounts = Darganfod llyfrau cyfeiriadau a chalendrau…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
