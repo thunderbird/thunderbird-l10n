@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Errugabea">
 <!ENTITY smiley15Cmd.label "Negarrez">
 <!ENTITY smiley16Cmd.label "Ezpainak-itsatsita">
+<!ENTITY smiley17Cmd.label "Haserre">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Ez da iradokizunik aurkitu">
 <!ENTITY spellCheckIgnoreWord.label "Ezikusi hitza">
