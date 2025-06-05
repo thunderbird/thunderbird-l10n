@@ -5,7 +5,7 @@
 permissions-dialog-title = გამონაკლისები
 website-address-label =
     .value = საიტის მისამართი:
-    .accesskey = d
+    .accesskey = მ
 block-button =
     .label = დაბლოკვა
     .accesskey = B
