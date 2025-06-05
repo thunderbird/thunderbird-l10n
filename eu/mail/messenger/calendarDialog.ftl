@@ -19,3 +19,11 @@ calendar-dialog-description-row-icon =
 calendar-dialog-description-label = Azalpena
 calendar-dialog-description-expand-icon =
     .alt = Erakutsi azalpen osoa
+# Variables:
+#   $additionalCategories (Number): Number of categoires not shown.
+#   $categories (String): List of all categories.
+calendar-dialog-more-categories =
+    { $additionalCategories ->
+       *[other] +{ $additionalCategories } more
+    }
+    .title = +{ $additionalCategories } gehiago

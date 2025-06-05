@@ -28,3 +28,7 @@ edit-vcard-dialog-cancel-button = Utzi
 account-manager-server-default-icon =
     .title = Kontu lehenetsia
     .alt = Izar ikonoa
+outgoing-server-section-name = Posta bidaltzeko zerbitzaria:
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Irteerako zerbitzari ezarpenak
+outgoing-server-type = Zerbitzari mota:
