@@ -169,7 +169,7 @@ address-book-add-ldap-icon =
     .alt = Cysylltwch â llyfr cyfeiriadau LDAP pell
 address-book-add-ldap = Llyfr Cyfeiriadau LDAP newydd
 address-book-add-ldap-description = Cysylltwch â llyfr cyfeiriadau LDAP pell
-account-hub-fetching-sync-accounts = Darganfod llyfrau cyfeiriadau a chalendrau…
+account-hub-fetching-sync-accounts = Wrthi'n darganfod llyfrau cyfeiriadau a chalendrau…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
 account-hub-address-book-sync-option-data =
