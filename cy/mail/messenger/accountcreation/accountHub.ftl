@@ -154,8 +154,6 @@ account-hub-addon-error = Methodd gosod ychwanegyn. Ceisiwch eto neu cysylltwch 
 account-hub-security-warning = <span data-l10n-name="security-warning">Rhybudd: Wedi canfod gweinydd post anniogel.</span> Mae gan y gweinydd hwn ddiffyg amgryptio, gan ddatgelu eich cyfrinair a data. Cysylltwch â'ch gweinyddwr i sicrhau'r cysylltiad neu ewch ymlaen ar eich menter eich hun. <a data-l10n-name="faq-link">Gweler Cwestiynau Cyffredin am ragor.</a>
 account-hub-account-authentication-error = Gwall dilysu.
 account-hub-add-address-book = Ychwanegu llyfr cyfeiriadau
-address-book-sync-existing-icon =
-    .alt = Cysoni llyfr cyfeiriadau o gyfrif sy'n bodoli
 address-book-sync-existing = Cysoni o gyfrif sy'n bodoli
 address-book-add-remote-icon =
     .alt = Ychwanegu llyfr cyfeiriadau o bell newydd
