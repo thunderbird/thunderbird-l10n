@@ -30,6 +30,6 @@ account-manager-server-default-icon =
     .alt = Eicon seren
 outgoing-server-section-name = Gweinydd Anfon
 # Used in the Outgoing Server section of the account manager
-outgoing-server-settings-title = Gosodiadau Gweinydd sy'n Mynd Allan
-outgoing-server-settings-description = Wrth reoli eich hunaniaeth gallwch ddefnyddio gweinydd o'r rhestr hon trwy ei ddewis fel y Gweinydd sy'n Mynd Allan, neu gallwch ddefnyddio'r gweinydd rhagosodedig o'r rhestr hon trwy ddewis "Defnyddio Gweinydd Rhagosodedig".
+outgoing-server-settings-title = Gosodiadau'r Gweinydd Anfon
+outgoing-server-settings-description = Wrth reoli eich hunaniaethau gallwch ddefnyddio gweinydd o'r rhestr hon trwy ei ddewis fel y Gweinydd Anfon, neu gallwch ddefnyddio'r gweinydd rhagosodedig o'r rhestr hon trwy ddewis "Defnyddio'r Gweinydd Rhagosodedig".
 outgoing-server-type = Math o Weinydd:

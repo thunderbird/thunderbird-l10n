@@ -13,5 +13,5 @@ default-account-button =
 outgoing-server-name = Gweinydd Anfon:
     .accesskey = G
 outgoing-server-edit =
-    .label = Golygu gweinydd sy'n mynd allan…
+    .label = Golygu gweinydd anfon…
     .accesskey = G
