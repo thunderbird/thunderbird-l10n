@@ -19,3 +19,12 @@ calendar-dialog-description-row-icon =
 calendar-dialog-description-label = Kirjeldus
 calendar-dialog-description-expand-icon =
     .alt = Kuva täielik kirjeldus
+# Variables:
+#   $additionalCategories (Number): Number of categoires not shown.
+#   $categories (String): List of all categories.
+calendar-dialog-more-categories =
+    { $additionalCategories ->
+        [one] + { $additionalCategories } veel
+       *[other] + { $additionalCategories } veel
+    }
+    .title = { $categories }

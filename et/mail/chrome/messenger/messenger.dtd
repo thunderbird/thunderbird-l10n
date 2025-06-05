@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "l">
 <!ENTITY contextMoveMsgMenu.label "Liiguta kausta">
 <!ENTITY contextMoveMsgMenu.accesskey "L">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Hiljutised sihtkohad">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "H">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Hiljutised">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "H">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Lemmikud">
