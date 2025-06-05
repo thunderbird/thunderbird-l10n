@@ -184,6 +184,30 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Võtmehaldur
     .accesskey = h
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Sa ei ole seadistanud otspunktkrüptitud sõnumite saatmist aadressilt { $addr }.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Otspunktkrüptimine nõuab aadressi { $addr } võtmeprobleemide lahendamist.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Otspunktkrüptimine nõuab { $count } saaja võtmeprobleemide lahendamist.
+       *[other] Otspunktkrüptimine nõuab { $count } saaja võtmeprobleemide lahendamist.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Otspunktkrüptimine nõuab aadressi { $addr } serdiprobleemide lahendamist.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Otspunktkrüptimine nõuab { $count } saaja serdiprobleemide lahendamist.
+       *[other] Otspunktkrüptimine nõuab { $count } saaja serdiprobleemide lahendamist.
+    }
 key-notification-disable-encryption =
     .label = Ära krüpti
     .accesskey = r
