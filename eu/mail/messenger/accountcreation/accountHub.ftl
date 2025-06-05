@@ -149,3 +149,6 @@ account-hub-addon-install-needed = { -brand-short-name }-k ez du jatorrizko zerb
 account-hub-addon-error = Gehigarriaren instalazioak huts egin du. Mesedez, saiatu berriro edo jarri harremanetan gehigarriaren egilearekin laguntza eskatzeko.
 account-hub-security-warning = <span data-l10n-name="security-warning">Abisua: Seguru ez den posta-zerbitzaria detektatu da.</span> Zerbitzari honek ez du enkriptaziorik, zure pasahitza eta datuak agerian utziz. Jarri harremanetan administratzailearekin konexioa ziurtatzeko edo jarraitu zure ardurapean. <a data-l10n-name="faq-link">Ikusi maiz egiten diren galderak informazio gehiago lortzeko</a>.
 account-hub-account-authentication-error = Errorea autentifikatzean.
+account-hub-add-address-book = Gehitu helbide-liburu bat
+address-book-sync-existing-icon =
+    .alt = Sinkronizatu helbide-liburua lehendik dagoen kontu batetik
