@@ -271,6 +271,14 @@ show-bcc-row-button = Pimekoopia
     .title = Kuva välja Pimekoopia ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Muud kuvatavad aadressiväljad
+public-recipients-notice-single = Sinu kirjal on avalik adressaat. Adressaadi avalikustamise vältimiseks võid kasutada hoopis pimekoopiat.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] { $count } adressaati Saaja ja Koopia väljadel näevad üksteise aadresse. Sa võid seda vältida, lisades adressaadid väljale Pimekoopia.
+       *[other] { $count } adressaati Saaja ja Koopia väljadel näevad üksteise aadresse. Sa võid seda vältida, lisades adressaadid väljale Pimekoopia.
+    }
 many-public-recipients-bcc =
     .label = Kasuta välja Pimekoopia
     .accesskey = P
@@ -294,6 +302,7 @@ many-public-recipients-prompt-send = Saada ikkagi
 compose-missing-identity-warning = Saatja väljale sisestatud aadressiga sobivat identiteeti ei leitud. Kiri saadetakse kasutades praegust Saatja välja väärtust ning sätteid identiteedist { $identity }.
 encrypted-bcc-warning = Krüptitud kirja saatmisel ei ole adressaadid väljal Pimekoopia täielikult peidetud. Kõigil adressaatidel on võimalik neid tuvastada.
 encrypted-bcc-ignore-button = Sain aru
+auto-disable-e2ee-warning = Selle sõnumi otspunktkrüptimine keelati automaatselt.
 
 ## Editing
 
@@ -403,3 +412,5 @@ link-preview-yes-replace = Jah
 spell-add-dictionaries =
     .label = Lisa sõnaraamatuid...
     .accesskey = s
+subject-encription-icon =
+    .title = Teemat ei krüpteerita

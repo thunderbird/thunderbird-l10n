@@ -12,6 +12,7 @@ message-header-reply-to-list-name = Vastamise aadress
 message-header-cc-list-name = Koopia
 message-header-bcc-list-name = Pimekoopia
 message-header-newsgroups-list-name = Uudistegrupid
+message-header-followup-to-list-name = Järg postitusele
 message-header-tags-list-name = Sildid
 
 ## Other message headers.
@@ -30,6 +31,14 @@ message-header-website-field = Sait<span data-l10n-name="field-separator">:</spa
 list-id-context-list-help =
     .label = Hangi abi
     .accesskey = A
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Katkesta tellimine...
+    .accesskey = K
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Telli...
+    .accesskey = T
 # Describes (i.e. http or mailto URL) how to post to the mailing list.
 list-id-list-post =
     .label = Kirjuta
@@ -56,3 +65,7 @@ message-ids-field-show-all = Kuva kõiki
 
 ## Dark Message Mode
 
+dark-message-mode-toggle-enabled =
+    .title = Keela tume kirjarežiim
+dark-message-mode-toggle-disabled =
+    .title = Luba tume kirjarežiim
