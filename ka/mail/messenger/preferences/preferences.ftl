@@ -795,6 +795,8 @@ qr-export-scan-progress =
         [one] { $step }, სულ { $count } QR-კოდი
        *[other] { $step }, სულ { $count } QR-კოდი
     }
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = აირჩიეთ <strong>შემოტანის პარამეტრები</strong>
 qr-export-summary-description = ანგარიშები გატანილია. განაგრძეთ მობილურ მოწყობილობაზე.
 qr-export-summary-title = გატანის შეჯამება:
 # Variables:

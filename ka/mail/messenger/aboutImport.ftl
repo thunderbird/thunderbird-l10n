@@ -61,6 +61,7 @@ addr-book-mab-file = Mork მონაცემთა კრებულის �
 addr-book-file-picker = წიგნაკის ფაილის არჩევა
 addr-book-csv-field-map-title = ემთხვევა ველების სახელებს
 addr-book-csv-field-map-desc = მისამართების წიგნაკის ველების არჩევა, წყაროს ველების მიხედვით. მოხსენით მონიშვნა იმ ველებს, რომელთა გადმოტანაც არ გსურთ.
+addr-book-directories-title = მიუთითეთ, სად განთავსდეს შერჩეული მონაცემები.
 addr-book-directories-pane-source = წყაროს ფაილი:
 # $addressBookName (string) - name of the address book to import into
 addr-book-summary-title = შემოიტანეთ შერჩეული მონაცემები საქაღალდეში „{ $addressBookName }“
