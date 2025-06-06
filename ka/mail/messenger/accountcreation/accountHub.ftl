@@ -47,6 +47,8 @@ account-hub-email-confirm-button = დასტური
 
 ## Incoming/Outgoing SSL Authentication options
 
+account-hub-ssl-encrypted-password-option =
+    .label = დაშიფრული პაროლი
 
 ## Incoming/Outgoing SSL options
 
