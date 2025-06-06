@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = გაუქმება
 account-manager-server-default-icon =
     .title = ნაგულისხმევი ანგარიში
     .alt = ვარსკვლავის ხატულა
+outgoing-server-section-name = გამავალი სერვერი
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = გამავალი სერვერის პარამეტრები
+outgoing-server-settings-description = თქვენი ანგარიშების მართვისას შეგიძლიათ ისარგებლოთ სერვერების ამ სიით და მიუთითოთ რომელიმე გამავალ სერვერად ან გამოიყენოთ ნაგულისხმევად ამ სიიდანვე, ესე იგი აირჩიოთ „ნაგულისხმევი სერვერის გამოყენება“.
+outgoing-server-type = სერვერის სახეობა:
