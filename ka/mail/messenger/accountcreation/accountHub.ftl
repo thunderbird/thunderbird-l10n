@@ -40,8 +40,13 @@ account-hub-sync-button = შედით სინქრონიზაცი�
 
 ## Email page
 
+account-hub-add-email-title = დაამატეთ თქვენი ანგარიში
 account-hub-email-cancel-button = გაუქმება
+account-hub-email-stop-button = შეჩერება
 account-hub-email-back-button = უკან
+account-hub-email-retest-button = კვლავ შემოწმება
+account-hub-email-finish-button = დასრულება
+account-hub-email-manually-configure-button = ხელით გამართვა
 account-hub-email-continue-button = განაგრძეთ
 account-hub-email-confirm-button = დასტური
 
