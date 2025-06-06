@@ -25,6 +25,9 @@ category-chat =
 pane-calendar-title = კალენდარი
 category-calendar =
     .tooltiptext = კალენდარი
+pane-qr-export-title = გატანა მობილურისთვის
+category-qr-export =
+    .tooltiptext = გატანა მობილურისთვის
 general-language-and-appearance-header = ენა და იერსახე
 general-incoming-mail-header = შემოსული წერილები
 general-files-and-attachment-header = ფაილები და დანართები
@@ -776,6 +779,9 @@ sync-disconnected-text = დაასინქრონეთ თქვენი
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = ანგარიშების გატანა { -brand-product-name } მობილურზე
+qr-export-create = QR-კოდის შექმნა თქვენი ანგარიშების გასატანად
+qr-export-select-accounts = მიუთითეთ გასატანი მონაცემები:
 qr-export-accounts-legend = ელფოსტის ანგარიშები
 qr-export-oauth-warning = თქვენი ზოგიერთი ანგარიში შესვლისას იყენებს დამოწმების ხერხს, რომელმაც შესაძლოა მოითხოვოს ხელახალი დამოწმება თქვენს მობილურ მოწყობილობაზე. შეიძლება მოგიწიოთ პაროლის ხელმეორედ შეყვანა ასეთ შემთხვევაში.
 qr-export-security-hint = მოცემული QR-კოდების წაკითხვით თქვენი ანგარიშის პარამეტრები — მათ შორის ელფოსტის მისამართი და პაროლი — უსაფრთხოდ იქნება გადატანილი. ჩვენ არ ვაგროვებთ, არ ვინახავთ და არ ვაზიარებთ ამ არანაირ მონაცემს დამუშავებისას. გადაიცემა პირდაპირ თქვენს მოწყობილობებს შორის.
@@ -789,6 +795,16 @@ qr-export-scan-progress =
         [one] { $step }, სულ { $count } QR-კოდი
        *[other] { $step }, სულ { $count } QR-კოდი
     }
+qr-export-summary-description = ანგარიშები გატანილია. განაგრძეთ მობილურ მოწყობილობაზე.
+qr-export-summary-title = გატანის შეჯამება:
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } ანგარიშია გატანილი:
+       *[other] { $count } ანგარიშია გატანილი:
+    }
+qr-export-more-accounts = სხვა ანგარიშების გატანა
 
 ## Appearance Tab
 

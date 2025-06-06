@@ -36,10 +36,16 @@ source-file2 = ფაილიდან შემოტანა
 ## Import from file selections
 
 file-calendar = კალენდრების შემოტანა
+file-calendar-description = გატანილი კალენდრების ან ღონისძიებების (.ics) შემცველი ფაილის არჩევა
 file-addressbook = წიგნაკების შემოტანა
+file-addressbook-description = გატანილი მისამართების წიგნაკისა და პირების მონაცემთა შემცველი ფაილის არჩევა
 
 ## Import from app profile steps
 
+profile-source = შემოტანა პროფილიდან
+# $profileName (string) - name of the profile
+profile-source-named = შემოტანა პროფილიდან <strong>„{ $profileName }“</strong>
+items-pane-title2 = შემოსატანი მონაცემების შერჩევა
 items-pane-checkbox-accounts = ანგარიშები და პარამეტრები
 items-pane-checkbox-address-books = წიგნაკები
 items-pane-checkbox-calendars = კალენდრები
@@ -56,17 +62,26 @@ addr-book-file-picker = წიგნაკის ფაილის არჩე
 addr-book-csv-field-map-title = ემთხვევა ველების სახელებს
 addr-book-csv-field-map-desc = მისამართების წიგნაკის ველების არჩევა, წყაროს ველების მიხედვით. მოხსენით მონიშვნა იმ ველებს, რომელთა გადმოტანაც არ გსურთ.
 addr-book-directories-pane-source = წყაროს ფაილი:
+# $addressBookName (string) - name of the address book to import into
+addr-book-summary-title = შემოიტანეთ შერჩეული მონაცემები საქაღალდეში „{ $addressBookName }“
 
 ## Import from calendar file steps
 
 import-from-calendar-file-desc = აირჩიეთ ფაილი iCalendar (.ics), რომლის გადმოტანაც გსურთ.
+calendar-items-title = მიუთითეთ შემოსატანი მონაცემები.
 calendar-items-loading = იტვირთება ჩანაწერები…
 calendar-select-all-items = ყველას მონიშვნა
 calendar-deselect-all-items = მონიშვნის გაუქმება
+calendar-target-title = მიუთითეთ, სად განთავსდეს შემოსატანი მონაცემები.
 
 ## Import dialog
 
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-importing2 = შემოტანა… { $progressPercent }
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-exporting2 = გატანა… { $progressPercent }
 error-pane-title = შეცდომა
+error-message-zip-file-too-big2 = შერჩეული ZIP-ფაილის ზომაა არანაკლებ 2GB. გთხოვთ ჯერ გაშალოთ და შემდეგ გაშლილი საქაღალდით შემოიტანოთ.
 error-message-failed = გადმოტანა მოულოდნელად შეფერხდა, ვრცლად იხილავთ შეცდომების გამოტანის არეში.
 error-failed-to-parse-ics-file = გადმოსატანი ჩანაწერები ვერ მოიძებნა.
 error-export-failed = გატანა მოულოდნელად შეფერხდა, ვრცლად იხილავთ აღრიცხულ შეცდომებში.
@@ -81,15 +96,25 @@ csv-target-field = წიგნაკის ველი
 
 ## Export tab
 
+export-profile-title = გაიტანეთ ფოსტის ანგარიშები, წერილები, მისამართების წიგნაკები და პარამეტრები ZIP-ფაილად.
 export-open-profile-folder = პროფილის საქაღალდის გახსნა
+export-file-picker2 = გატანა ZIP-ფაილად
 export-brand-name = { -brand-product-name }
 
 ## Summary pane
 
+summary-pane-title = შემოსატანი მონაცემები
+summary-pane-start = შემოტანის დაწყება
+summary-pane-warning = { -brand-product-name } საჭიროებს ხელახლა ჩართვას შემოტანის დასრულებისას.
+summary-pane-start-over = შემოტანის ხელსაწყოს ახლიდან გაშვება
 
 ## Footer area
 
 footer-help = გესაჭიროებათ დახმარება?
+footer-import-documentation = შემოტანის მასალები
+footer-export-documentation = გატანის მასალები
 
 ## Step navigation on top of the wizard pages
 
+step-list =
+    .aria-label = შემოტანის ნაბიჯები
