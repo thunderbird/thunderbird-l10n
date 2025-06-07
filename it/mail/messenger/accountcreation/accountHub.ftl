@@ -174,7 +174,7 @@ account-hub-address-book-sync-option-data =
        *[other] Disponibili { $addressBooks } rubriche da { $accounts } account
     }
 address-book-sync-existing-description = Recupero account esistenti…
-account-hub-select-address-book-account = Seleziona un account con le rubriche
+account-hub-select-address-book-account = Seleziona un account con rubriche
 # $synced (Number) - The number of address books that are synced.
 # $available (Number) - The number of address books that can be synced.
 # $total (Number) - The total number of address books for this account.
