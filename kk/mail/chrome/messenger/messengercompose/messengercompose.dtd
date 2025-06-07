@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Айыпсыз">
 <!ENTITY smiley15Cmd.label "Жылау">
 <!ENTITY smiley16Cmd.label "Үндемеу">
+<!ENTITY smiley17Cmd.label "Ашулы">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Ұсыныстар табылмады">
 <!ENTITY spellCheckIgnoreWord.label "Сөзді елемеу">
