@@ -876,6 +876,11 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Najít nastavení
+managed-notice =
+    { -brand-short-name.case-status ->
+        [with-cases] { -brand-short-name } je spravován vaší organizací.
+       *[no-cases] Aplikace { -brand-short-name } je spravována vaší organizací.
+    }
 
 ## Settings UI Search Results
 
