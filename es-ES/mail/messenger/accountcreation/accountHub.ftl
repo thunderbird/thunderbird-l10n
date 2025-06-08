@@ -150,3 +150,41 @@ account-hub-addon-error = Error en la instalación del complemento. Inténtelo d
 account-hub-security-warning = <span data-l10n-name="security-warning">Advertencia: Se ha detectado un servidor de correo inseguro.</span> Este servidor carece de cifrado, lo que expone su contraseña y datos. Contacte con su administrador para asegurar la conexión o proceda por su cuenta y riesgo. <a data-l10n-name="faq-link">Para más información, consulte las preguntas frecuentes (FAQ).</a>
 account-hub-account-authentication-error = Error de identificación.
 account-hub-add-address-book = Añadir una libreta de direcciones
+address-book-sync-existing-icon =
+    .alt = Sincronizar una libreta de direcciones desde una cuenta existente
+address-book-sync-existing = Sincronizar desde una cuenta existente
+address-book-add-remote-icon =
+    .alt = Añadir una nueva libreta de direcciones remota
+address-book-add-remote = Añadir libreta de direcciones remota
+address-book-add-remote-description = Conectarse a una libreta de direcciones CardDav remota
+address-book-add-local-icon =
+    .alt = Crear una nueva libreta de direcciones local
+address-book-add-local = Nueva libreta de direcciones local
+address-book-add-local-description = Crear una nueva libreta de direcciones local en su dispositivo
+address-book-add-ldap-icon =
+    .alt = Conectarse a una libreta de direcciones LDAP remota
+address-book-add-ldap = Nueva libreta de direcciones LDAP
+address-book-add-ldap-description = Conectarse a una libreta de direcciones LDAP remota
+account-hub-fetching-sync-accounts = Descubrir libretas de direcciones y calendarios...
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] 1 libreta de direcciones de 1 cuenta disponible
+               *[other] 1 libreta de direcciones de { $accounts } cuentas disponibles
+            }
+       *[other]
+            { $accounts ->
+                [one] { $addressBooks } libretas de direcciones de 1 cuenta disponible
+               *[other] { $addressBooks } libretas de direcciones de { $accounts } cuentas disponibles
+            }
+    }
+address-book-sync-existing-description = Recuperando cuentas existentes…
+account-hub-select-address-book-account = Seleccionar una cuenta con libretas de direcciones
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } de { $total }
+    .title = { $synced } libretas de direcciones sincronizadas, { $available } disponibles
