@@ -32,4 +32,8 @@ edit-vcard-dialog-cancel-button = Zrušit
 account-manager-server-default-icon =
     .title = Výchozí účet
     .alt = Ikona hvězdy
+outgoing-server-section-name = Odchozí server
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Nastavení odchozího serveru
+outgoing-server-settings-description = Při správě vašich identit můžete použít server z tohoto seznamu, který nastavíte jako odchozí server, nebo můžete použít výchozí server z tohoto seznamu, pokud zvolíte „Použít výchozí server“.
 outgoing-server-type = Typ serveru:

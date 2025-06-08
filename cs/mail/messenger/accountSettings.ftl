@@ -12,3 +12,6 @@ default-account-button =
     .label = Nastavit jako výchozí
 outgoing-server-name = Odchozí server:
     .accesskey = d
+outgoing-server-edit =
+    .label = Upravit server odchozí pošty…
+    .accesskey = U

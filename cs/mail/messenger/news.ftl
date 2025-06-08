@@ -28,3 +28,6 @@ downloading-articles-for-offline =
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-articles-to-download = Ve skupině { $newsgroup } není k dispozici žádný nový článek.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = Diskusní skupina { $newsgroup } není na serveru dostupná.
