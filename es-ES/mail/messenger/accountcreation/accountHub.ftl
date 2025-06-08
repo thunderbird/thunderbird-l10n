@@ -149,3 +149,4 @@ account-hub-addon-install-needed = { -brand-short-name } no es compatible de for
 account-hub-addon-error = Error en la instalación del complemento. Inténtelo de nuevo o póngase en contacto con el autor del complemento para obtener ayuda.
 account-hub-security-warning = <span data-l10n-name="security-warning">Advertencia: Se ha detectado un servidor de correo inseguro.</span> Este servidor carece de cifrado, lo que expone su contraseña y datos. Contacte con su administrador para asegurar la conexión o proceda por su cuenta y riesgo. <a data-l10n-name="faq-link">Para más información, consulte las preguntas frecuentes (FAQ).</a>
 account-hub-account-authentication-error = Error de identificación.
+account-hub-add-address-book = Añadir una libreta de direcciones
