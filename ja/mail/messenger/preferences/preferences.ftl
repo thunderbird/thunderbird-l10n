@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = モバイル向けのエクスポート
 category-qr-export =
     .tooltiptext = モバイル向けのエクスポート
+general-language-and-fonts-header = 言語とフォント
 general-language-and-appearance-header = 言語と外観
 general-incoming-mail-header = 新着メールの通知
 general-files-and-attachment-header = ファイルと添付
@@ -450,6 +451,10 @@ account-hub-checkbox-label =
     .label = 新しいアカウントハブでアカウントを作成する
     .accesskey = C
 account-hub-checkbox-description = 実験的な新しいアカウントの作成フローです
+account-hub-ab-checkbox-label =
+    .label = 新しいアカウントハブでアドレス帳を作成する
+    .accesskey = A
+account-hub-ab-checkbox-description = 実験的な新しいアドレス帳の作成フローです
 
 ## Compose Tab
 
