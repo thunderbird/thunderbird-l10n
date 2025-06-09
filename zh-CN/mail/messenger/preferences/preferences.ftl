@@ -791,6 +791,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = 查找设置
+managed-notice = { -brand-short-name } 由您的组织管理。
 
 ## Settings UI Search Results
 
