@@ -10,3 +10,6 @@ delete-account-button =
     .label = Slet
 default-account-button =
     .label = Brug som standard
+outgoing-server-edit =
+    .label = Rediger udgående server…
+    .accesskey = R
