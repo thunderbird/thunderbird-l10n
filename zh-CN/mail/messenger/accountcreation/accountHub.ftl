@@ -166,3 +166,9 @@ account-hub-fetching-sync-accounts = 正在发现通讯录和日历…
 # $accounts (Number) - The number of accounts.
 account-hub-address-book-sync-option-data = { $accounts } 个账户中共有 { $addressBooks } 个通讯录可用
 address-book-sync-existing-description = 正在检索现有账户…
+account-hub-select-address-book-account = 选择一个带有通讯录的账户
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = 已同步 { $synced } 项，共 { $total } 项
+    .title = 已同步 { $synced } 个通讯录，共有 { $available } 个可同步
