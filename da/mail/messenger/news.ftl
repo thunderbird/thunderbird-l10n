@@ -24,3 +24,6 @@ downloading-articles-for-offline =
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-articles-to-download = Der er ingen artikler at hente til { $newsgroup }.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = Nyhedsgruppen { $newsgroup } er ikke tilgængelig på serveren.

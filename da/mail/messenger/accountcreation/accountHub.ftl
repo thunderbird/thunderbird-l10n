@@ -149,3 +149,35 @@ account-hub-addon-install-needed = { -brand-short-name } understøtter ikke denn
 account-hub-addon-error = Installation af tilføjelsen mislykkedes. Prøv igen, eller kontakt udvikleren for at få hjælp.
 account-hub-security-warning = <span data-l10n-name="security-warning">Advarsel: Usikker mailserver registreret.</span> Denne server mangler kryptering, hvilket eksponerer din adgangskode og dine data. Kontakt din administrator for at sikre forbindelsen eller fortsæt på egen risiko. <a data-l10n-name="faq-link">Se Ofte Stillede Spørgsmål for flere detaljer.</a>
 account-hub-account-authentication-error = Godkendelsesfejl.
+account-hub-add-address-book = Tilføj en adressebog
+address-book-sync-existing-icon =
+    .alt = Synkroniser en adressebog fra en eksisterende konto
+address-book-sync-existing = Synkroniser fra en eksisterende konto
+address-book-add-local-icon =
+    .alt = Opret en ny lokal adressebog
+address-book-add-local = Ny lokal adressebog
+address-book-add-local-description = Opret en ny lokal adressebog på din enhed
+address-book-add-ldap = Ny LDAP-adressebog
+account-hub-fetching-sync-accounts = Finder adressebøger og kalendere…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] Fandt 1 adressebog fra 1 konto
+               *[other] Fandt 1 adressebog fra { $accounts } konti
+            }
+       *[other]
+            { $accounts ->
+                [one] Fandt { $addressBooks } adressebøger fra 1 konto
+               *[other] Fandt { $addressBooks } adressebøger fra { $accounts } konti
+            }
+    }
+address-book-sync-existing-description = Henter eksisterende konti…
+account-hub-select-address-book-account = Vælg en konto med adressebøger
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } af { $total }
+    .title = { $synced } synkroniserede adressebøger, { $available } fundet
