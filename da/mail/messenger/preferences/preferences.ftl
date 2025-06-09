@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Eksporter til Mobile
 category-qr-export =
     .tooltiptext = Eksporter til Mobile
+general-language-and-fonts-header = Sprog og skrifttyper
 general-language-and-appearance-header = Sprog og udseende
 general-incoming-mail-header = Indgående meddelelser
 general-files-and-attachment-header = Filer og vedhæftninger
@@ -445,6 +446,10 @@ account-hub-checkbox-label =
     .label = Opret konti i det nye Kontocenter
     .accesskey = O
 account-hub-checkbox-description = Ny, eksperimentel procedure til oprettelse af mailkonti
+account-hub-ab-checkbox-label =
+    .label = Opret adressebøger i den nye Kontocenter
+    .accesskey = a
+account-hub-ab-checkbox-description = Ny, eksperimentel procedure til oprettelse af adressebøger
 
 ## Compose Tab
 
@@ -781,6 +786,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Søg i indstillinger
+managed-notice = { -brand-short-name } administreres af din organisation.
 
 ## Settings UI Search Results
 

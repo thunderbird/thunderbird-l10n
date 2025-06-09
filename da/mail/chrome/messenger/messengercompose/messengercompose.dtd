@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Uskyldig">
 <!ENTITY smiley15Cmd.label "Græder">
 <!ENTITY smiley16Cmd.label "Lukket med syv segl">
+<!ENTITY smiley17Cmd.label "Vred">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Ingen forslag fundet">
 <!ENTITY spellCheckIgnoreWord.label "Ignorer ord">
