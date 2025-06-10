@@ -153,11 +153,18 @@ account-hub-add-address-book = Tilføj en adressebog
 address-book-sync-existing-icon =
     .alt = Synkroniser en adressebog fra en eksisterende konto
 address-book-sync-existing = Synkroniser fra en eksisterende konto
+address-book-add-remote-icon =
+    .alt = Tilføj en ny ekstern adressebog
+address-book-add-remote = Tilføj ekstern adressebog
+address-book-add-remote-description = Opret forbindelse til en ekstern CardDAV-adressebog
 address-book-add-local-icon =
     .alt = Opret en ny lokal adressebog
 address-book-add-local = Ny lokal adressebog
 address-book-add-local-description = Opret en ny lokal adressebog på din enhed
+address-book-add-ldap-icon =
+    .alt = Opret forbindelse til en ekstern LDAP-adressebog
 address-book-add-ldap = Ny LDAP-adressebog
+address-book-add-ldap-description = Opret forbindelse til en ekstern LDAP-adressebog
 account-hub-fetching-sync-accounts = Finder adressebøger og kalendere…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
