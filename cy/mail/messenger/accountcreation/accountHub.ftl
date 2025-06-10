@@ -236,3 +236,6 @@ account-hub-select-address-book-account = Dewiswch gyfrif gyda llyfrau Cyfeiriad
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } o { $total }
     .title = { $synced } llyfr cyfeiriadau wedi'u cydweddu, { $available } ar gael
+account-hub-add-local-address-book = Creu Llyfr Cyfeiriadau Lleol
+account-hub-local-address-book-label = Enw'r Llyfr Cyfeiriadau
+account-hub-local-error-text = Rhowch enw llyfr cyfeiriadau

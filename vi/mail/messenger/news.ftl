@@ -16,3 +16,6 @@ downloading-articles-for-offline = Đang tải xuống { $count } bài viết ch
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-articles-to-download = Không có bài viết nào để tải xuống cho { $newsgroup }.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = Nhóm tin { $newsgroup } không có sẵn trên máy chủ.

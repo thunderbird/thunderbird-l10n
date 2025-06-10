@@ -208,3 +208,6 @@ account-hub-select-address-book-account = Wubjeŕśo konto z adresnikami
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } z { $total }
     .title = Synchronizěrowane adresniki: { $synced }, { $available } k dispoziciji
+account-hub-add-local-address-book = Lokalny adresnik załožyś
+account-hub-local-address-book-label = Mě adresnika
+account-hub-local-error-text = Pšosym zapódajśo mě adresnika

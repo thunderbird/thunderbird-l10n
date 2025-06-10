@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = Бас тарту
 account-manager-server-default-icon =
     .title = Бастапқы тіркелгі
     .alt = Жұлдызша таңбашасы
+outgoing-server-section-name = Шығыс пошта сервері
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Шығыс пошта сервері баптаулары
+outgoing-server-settings-description = Тіркелу мәліметтеріңізді басқару кезінде сіз бұл тізімнен серверді оны шығыс пошта сервері ретінде таңдау арқылы қолдана аласыз, немесе сіз "Негізгі серверді орнату" арқылы бұл тізімнен үнсіз келісім бойынша серверін қолдана аласыз.
+outgoing-server-type = Сервер түрі:

@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = Canfod ychwanegyn arall
 atn-addons-heading-search-input =
     .placeholder = Chwilio addons.thunderbird.net
+atn-addons-heading-search-button =
+    .title = Chwilio addons.thunderbird.net
+    .aria-label = Chwilio addons.thunderbird.net

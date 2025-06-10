@@ -208,3 +208,6 @@ account-hub-select-address-book-account = Izberite račun z imeniki
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } od { $total }
     .title = { $synced } sinhroniziranih imenikov, { $available } na voljo
+account-hub-add-local-address-book = Ustvari krajevni imenik
+account-hub-local-address-book-label = Ime imenika
+account-hub-local-error-text = Vnesite ime za imenik

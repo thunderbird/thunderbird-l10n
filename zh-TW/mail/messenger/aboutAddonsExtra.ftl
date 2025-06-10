@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = 尋找替代附加元件
 atn-addons-heading-search-input =
     .placeholder = 搜尋 addons.thunderbird.net 上的附加元件
+atn-addons-heading-search-button =
+    .title = 搜尋 addons.thunderbird.net 上的附加元件
+    .aria-label = 搜尋 addons.thunderbird.net 上的附加元件

@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = Tìm một tiện ích mở rộng thay thế
 atn-addons-heading-search-input =
     .placeholder = Tìm kiếm addons.thunderbird.net
+atn-addons-heading-search-button =
+    .title = Tìm kiếm addons.thunderbird.net
+    .aria-label = Tìm kiếm addons.thunderbird.net

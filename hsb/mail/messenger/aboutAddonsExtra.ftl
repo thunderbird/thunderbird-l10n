@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = Alternatiwny přidatk pytać
 atn-addons-heading-search-input =
     .placeholder = addons.thunderbird.net přepytać
+atn-addons-heading-search-button =
+    .title = addons.thunderbird.net přepytać
+    .aria-label = addons.thunderbird.net přepytać

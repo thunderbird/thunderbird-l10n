@@ -172,3 +172,6 @@ account-hub-select-address-book-account = Chọn một tài khoản có sổ đ�
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } / { $total }
     .title = { $synced } sổ địa chỉ được đồng bộ hóa, { $available } có sẵn
+account-hub-add-local-address-book = Tạo một sổ địa chỉ cục bộ
+account-hub-local-address-book-label = Tên sổ địa chỉ
+account-hub-local-error-text = Vui lòng nhập tên sổ địa chỉ

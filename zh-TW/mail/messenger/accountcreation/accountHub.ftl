@@ -181,3 +181,6 @@ account-hub-select-address-book-account = 選擇含有通訊錄的帳號
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = 第 { $synced } 本，共 { $total } 本
     .title = 已同步 { $synced } 本通訊錄，還有 { $available } 本
+account-hub-add-local-address-book = 建立本機通訊錄
+account-hub-local-address-book-label = 通訊錄名稱
+account-hub-local-error-text = 請輸入通訊錄名稱

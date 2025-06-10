@@ -188,3 +188,6 @@ account-hub-select-address-book-account = Sélectionnez un compte avec les carne
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } sur { $total }
     .title = { $synced } carnets d’adresses synchronisés, { $available } disponibles
+account-hub-add-local-address-book = Créer un carnet d’adresses local
+account-hub-local-address-book-label = Nom du carnet d’adresses
+account-hub-local-error-text = Veuillez saisir un nom de carnet d’adresses

@@ -188,3 +188,6 @@ account-hub-select-address-book-account = Wählen Sie ein Konto mit Adressbüche
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } von { $total }
     .title = { $synced } Adressbuch synchronisiert, { $available } sind verfügbar
+account-hub-add-local-address-book = Ein lokales Adressbuch erstellen
+account-hub-local-address-book-label = Adressbuch-Name
+account-hub-local-error-text = Bitte geben Sie einen Adressbuch-Namen ein

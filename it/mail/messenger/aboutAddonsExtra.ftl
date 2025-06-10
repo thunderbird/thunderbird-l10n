@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = Trova un componente aggiuntivo alternativo
 atn-addons-heading-search-input =
     .placeholder = Cerca in addons.thunderbird.net
+atn-addons-heading-search-button =
+    .title = Cerca in addons.thunderbird.net
+    .aria-label = Cerca in addons.thunderbird.net

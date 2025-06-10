@@ -188,3 +188,6 @@ account-hub-select-address-book-account = Seleccionar una cuenta con libretas de
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } de { $total }
     .title = { $synced } libretas de direcciones sincronizadas, { $available } disponibles
+account-hub-add-local-address-book = Crear una libreta de direcciones local
+account-hub-local-address-book-label = Nombre de la libreta de direcciones
+account-hub-local-error-text = Ingrese un nombre en la libreta de direcciones

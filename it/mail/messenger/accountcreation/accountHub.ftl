@@ -180,3 +180,6 @@ account-hub-select-address-book-account = Seleziona un account con rubriche
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } di { $total }
     .title = { $synced } rubriche sincronizzate, { $available } disponibili
+account-hub-add-local-address-book = Crea una rubrica locale
+account-hub-local-address-book-label = Nome rubrica
+account-hub-local-error-text = Inserire un nome per la rubrica
