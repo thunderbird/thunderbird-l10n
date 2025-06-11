@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = Alternatív kiegészítő keresése
 atn-addons-heading-search-input =
     .placeholder = Keresés az addons.thunderbird.net oldalon
+atn-addons-heading-search-button =
+    .title = Keresés az addons.thunderbird.net oldalon
+    .aria-label = Keresés az addons.thunderbird.net oldalon

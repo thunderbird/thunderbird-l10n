@@ -188,3 +188,6 @@ account-hub-select-address-book-account = Válasszon egy fiókot címjegyzékekk
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } / { $total }
     .title = { $synced } szinkronizált címjegyzék, { $available } elérhető
+account-hub-add-local-address-book = Helyi címjegyzék létrehozása
+account-hub-local-address-book-label = Címjegyzék neve
+account-hub-local-error-text = Adja meg a címjegyzék nevét
