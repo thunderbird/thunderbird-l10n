@@ -188,3 +188,6 @@ account-hub-select-address-book-account = Veldu reikning með nafnaskrám
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } af { $total }
     .title = { $synced } samstillti nafnaskrár, { $available } tiltækar
+account-hub-add-local-address-book = Búa til staðbundna nafnaskrá
+account-hub-local-address-book-label = Heiti á nafnaskrá
+account-hub-local-error-text = Settu inn heiti á nafnaskrána
