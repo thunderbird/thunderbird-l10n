@@ -172,17 +172,17 @@ account-hub-address-book-sync-option-data =
     { $addressBooks ->
         [one]
             { $accounts ->
-                [one] 1 carnet d’adresses disponible pour 1 compte
-               *[other] 1 carnet d’adresses de { $accounts } comptes disponibles
+                [one] 1 carnet d’adresses disponible d’un compte
+               *[other] 1 carnet d’adresses disponible de { $accounts } comptes
             }
        *[other]
             { $accounts ->
-                [one] { $addressBooks } carnets d’adresses de 1 compte disponibles
-               *[other] { $addressBooks } carnets d’adresses des { $accounts } comptes disponibles
+                [one] { $addressBooks } carnets d’adresses disponibles d’un compte
+               *[other] { $addressBooks } carnets d’adresses disponibles de { $accounts } comptes
             }
     }
 address-book-sync-existing-description = Récupération des comptes existants…
-account-hub-select-address-book-account = Sélectionnez un compte avec les carnets d’adresses
+account-hub-select-address-book-account = Sélectionnez un compte avec des carnets d’adresses
 # $synced (Number) - The number of address books that are synced.
 # $available (Number) - The number of address books that can be synced.
 # $total (Number) - The total number of address books for this account.
