@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = Alternatif bir eklenti bul
 atn-addons-heading-search-input =
     .placeholder = addons.thunderbird.net’te ara
+atn-addons-heading-search-button =
+    .title = addons.thunderbird.net’te ara
+    .aria-label = addons.thunderbird.net’te ara
