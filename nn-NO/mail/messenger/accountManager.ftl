@@ -28,3 +28,6 @@ edit-vcard-dialog-cancel-button = Avbryt
 account-manager-server-default-icon =
     .title = Standardkonto
     .alt = Stjerneikon
+outgoing-server-section-name = Utgåande server
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Utgåande server-innstillingar

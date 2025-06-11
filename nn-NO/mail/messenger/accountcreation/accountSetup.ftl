@@ -177,6 +177,8 @@ account-setup-no-account-checkbox = Bruk { -brand-short-name } utan ein e-postko
     .accesskey = B
 exit-dialog-cancel-button = Hald fram med konfigurasjonen
     .accesskey = H
+exit-dialog-confirm-button = Avslutt installasjonen
+    .accesskey = A
 
 ## Alert dialogs
 
