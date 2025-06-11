@@ -55,6 +55,7 @@ policy-ExtensionSettings = Handter alle aspekt av utvidingsinstallasjonen.
 policy-ExtensionUpdate = Slå på eller slå av automatisk utvidingsoppdateringar.
 policy-Handlers = Konfigurer standard applikasjonshandsamarar.
 policy-HardwareAcceleration = Om inaktiv, slå av maskinvareakselerasjon.
+policy-InAppNotification = Slå på eller slå av varslingstypar.
 policy-InstallAddonsPermission = Tillat visse nettstadar å installere tillegg.
 policy-LegacyProfiles = Slå av funksjonen som tvingar fram ein separat profil for kvar installasjon.
 

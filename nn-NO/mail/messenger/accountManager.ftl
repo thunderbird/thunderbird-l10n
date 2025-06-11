@@ -31,3 +31,4 @@ account-manager-server-default-icon =
 outgoing-server-section-name = Utgåande server
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Utgåande server-innstillingar
+outgoing-server-type = Server-type:

@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Uskuldig">
 <!ENTITY smiley15Cmd.label "Gråte">
 <!ENTITY smiley16Cmd.label "Munnen-er-forsegla">
+<!ENTITY smiley17Cmd.label "Sint">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Ingen forslag funne">
 <!ENTITY spellCheckIgnoreWord.label "Ignorer ord">
