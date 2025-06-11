@@ -172,3 +172,6 @@ account-hub-select-address-book-account = 选择一个带有通讯录的账户
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = 已同步 { $synced } 个，共 { $total } 个
     .title = 已同步 { $synced } 个通讯录，共有 { $available } 个可同步
+account-hub-add-local-address-book = 创建本地通讯录
+account-hub-local-address-book-label = 通讯录名称
+account-hub-local-error-text = 请输入通讯录名称

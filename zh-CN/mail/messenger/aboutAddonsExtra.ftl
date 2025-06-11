@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = 寻找替代附加组件
 atn-addons-heading-search-input =
     .placeholder = 在 addons.thunderbird.net 上搜索
+atn-addons-heading-search-button =
+    .title = 搜索 addons.thunderbird.net
+    .aria-label = 搜索 addons.thunderbird.net
