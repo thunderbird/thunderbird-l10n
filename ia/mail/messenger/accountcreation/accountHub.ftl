@@ -188,3 +188,6 @@ account-hub-select-address-book-account = Elige un conto con libros de adresses
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } de { $total }
     .title = { $synced } libros de adresses synchronisate, { $available } disponibile
+account-hub-add-local-address-book = Crea un libro de adresses local
+account-hub-local-address-book-label = Nomine del libro de adresses:
+account-hub-local-error-text = Inserer nomine pro libro de adresse
