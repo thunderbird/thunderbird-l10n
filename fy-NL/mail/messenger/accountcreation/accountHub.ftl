@@ -188,3 +188,6 @@ account-hub-select-address-book-account = Selektearje in account mei adresboeken
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } fan { $total }
     .title = { $synced } syngronisearre adresboeken, { $available } beskikber
+account-hub-add-local-address-book = In lokaal adresboek oanmeitsje
+account-hub-local-address-book-label = Adresboeknamme
+account-hub-local-error-text = Fier in adresboeknamme yn

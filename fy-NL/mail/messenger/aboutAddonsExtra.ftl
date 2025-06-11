@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = In alternative add-on sykje
 atn-addons-heading-search-input =
     .placeholder = addons.thunderbird.net trochsykje
+atn-addons-heading-search-button =
+    .title = addons.thunderbird.net trochsykje
+    .aria-label = addons.thunderbird.net trochsykje
