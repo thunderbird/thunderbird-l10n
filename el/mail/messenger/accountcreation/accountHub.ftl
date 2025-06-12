@@ -188,3 +188,6 @@ account-hub-select-address-book-account = Επιλέξτε έναν λογαρι
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } από { $total }
     .title = { $synced } συγχρονισμένα ευρετήρια, { $available } διαθέσιμα
+account-hub-add-local-address-book = Δημιουργία τοπικού ευρετηρίου
+account-hub-local-address-book-label = Όνομα ευρετηρίου
+account-hub-local-error-text = Εισαγάγετε ένα όνομα ευρετηρίου
