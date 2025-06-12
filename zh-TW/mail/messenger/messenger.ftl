@@ -471,3 +471,4 @@ mark-as-read-action = 標示為已讀
 delete-action = 刪除
 mark-as-starred-action = 標示為已加星號
 mark-as-spam-action = 標示為垃圾信
+archive-action = 備存

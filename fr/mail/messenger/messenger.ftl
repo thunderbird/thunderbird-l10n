@@ -479,3 +479,4 @@ mark-as-read-action = Marquer comme lu
 delete-action = Supprimer
 mark-as-starred-action = Marquer comme suivi
 mark-as-spam-action = Marquer comme spam
+archive-action = Archiver

@@ -77,6 +77,8 @@ openpgp-key-assistant-key-collected-autocrypt = Automaatkrüpti päis
 openpgp-key-assistant-key-collected-keyserver = võtmeserver
 # Web Key Directory (WKD) is a concept.
 openpgp-key-assistant-key-collected-wkd = Veebi võtmekataloog
+# Do not translate GnuPG, it's a name of other software.
+openpgp-key-assistant-key-collected-gnupg = GnuPG võtmerõngas
 # Variables:
 # $count (Number) - Number of found keys.
 openpgp-key-assistant-keys-has-collected =

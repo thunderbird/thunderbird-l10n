@@ -191,3 +191,4 @@ account-hub-account-address-book-count = { $synced } de { $total }
 account-hub-add-local-address-book = Crear una libreta de direcciones local
 account-hub-local-address-book-label = Nombre de la libreta de direcciones
 account-hub-local-error-text = Ingrese un nombre en la libreta de direcciones
+account-hub-sync-address-books = Sincronizar libretas de direcciones existentes

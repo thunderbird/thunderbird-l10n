@@ -239,3 +239,4 @@ account-hub-account-address-book-count = { $synced } o { $total }
 account-hub-add-local-address-book = Creu Llyfr Cyfeiriadau Lleol
 account-hub-local-address-book-label = Enw'r Llyfr Cyfeiriadau
 account-hub-local-error-text = Rhowch enw llyfr cyfeiriadau
+account-hub-sync-address-books = Cysoni llyfrau cyfeiriadau presennol

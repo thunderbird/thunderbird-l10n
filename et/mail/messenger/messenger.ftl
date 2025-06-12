@@ -475,3 +475,4 @@ mark-as-read-action = Märgi loetuks
 delete-action = Kustuta
 mark-as-starred-action = Tähista tärniga
 mark-as-spam-action = Märgi rämpspostiks
+archive-action = Arhiveeri

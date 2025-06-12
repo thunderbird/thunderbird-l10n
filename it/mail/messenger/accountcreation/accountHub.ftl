@@ -183,3 +183,4 @@ account-hub-account-address-book-count = { $synced } di { $total }
 account-hub-add-local-address-book = Crea una rubrica locale
 account-hub-local-address-book-label = Nome rubrica
 account-hub-local-error-text = Inserire un nome per la rubrica
+account-hub-sync-address-books = Sincronizza le rubriche esistenti

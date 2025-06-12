@@ -184,3 +184,4 @@ account-hub-account-address-book-count = 第 { $synced } 本，共 { $total } �
 account-hub-add-local-address-book = 建立本機通訊錄
 account-hub-local-address-book-label = 通訊錄名稱
 account-hub-local-error-text = 請輸入通訊錄名稱
+account-hub-sync-address-books = 同步現有通訊錄
