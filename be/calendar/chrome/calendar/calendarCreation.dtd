@@ -13,6 +13,7 @@
 <!ENTITY locationpage.username.label "Імя карыстальніка:">
 <!ENTITY locationpage.password.label "Пароль:">
 <!ENTITY custompage.shortdescription "Персаналізуйце ваш каляндар">
+<!ENTITY custompage.longdescription "Вы можаце даць свайму календару мянушку і расфарбаваць падзеі з гэтага календара.">
 <!ENTITY finishpage.shortdescription "Каляндар створаны">
 <!ENTITY finishpage.longdescription "Вы стварылі каляндар.">
 <!-- Below are new strings for the revised new calendar dialog. The above strings should be
