@@ -14,6 +14,17 @@ options-save-token = Token za pristup trgovini
 options-device-display-name = Naziv za prikaz uređaja
 options-homeserver = Poslužitelj
 options-backup-passphrase = Lozinka sigurnosne kopije ključa
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Funkcije šifriranja: { $status }
+# $status (String) a status
+options-encryption-secret-storage = Tajna spremište: { $status }
+# $status (String) a status
+options-encryption-key-backup = Sigurnosna kopija ključa za šifriranje: { $status }
+# $status (String) a status
+options-encryption-cross-signing = Unakrsno potpisivanje: { $status }
 options-encryption-status-ok = u redu
 options-encryption-status-not-ok = nije spremno
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
