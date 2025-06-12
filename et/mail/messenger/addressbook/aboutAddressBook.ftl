@@ -69,6 +69,9 @@ about-addressbook-confirm-remove-remote-book = Kas oled kindel, et soovid eemald
 about-addressbook-search2 =
     .label = Otsi aadressiraamatust { $name }
     .placeholder = Otsi aadressiraamatust { $name }…
+about-addressbook-search-all2 =
+    .label = Otsi kõigist aadressiraamatutest
+    .placeholder = Otsi kõigist aadressiraamatutest…
 about-addressbook-sort-button2 =
     .title = Nimekirja kuvamise valikud
 about-addressbook-name-format-display =
@@ -241,6 +244,13 @@ about-addressbook-placeholder-no-search-results = Kontakte ei leitud
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [one] { $count } valitud aadressiraamatu kirje
+       *[other] { $count } valitud aadressiraamatu kirjet
+    }
 # Variables:
 # $count (Number) - The number of selected contacts
 about-addressbook-selection-contacts-header2 =
