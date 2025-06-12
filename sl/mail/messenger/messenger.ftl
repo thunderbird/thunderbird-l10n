@@ -491,3 +491,4 @@ mark-as-read-action = Označi kot prebrano
 delete-action = Izbriši
 mark-as-starred-action = Označi z zvezdico
 mark-as-spam-action = Označi kot neželeno
+archive-action = Arhiviraj

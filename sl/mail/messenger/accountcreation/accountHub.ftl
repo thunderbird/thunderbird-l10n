@@ -211,3 +211,4 @@ account-hub-account-address-book-count = { $synced } od { $total }
 account-hub-add-local-address-book = Ustvari krajevni imenik
 account-hub-local-address-book-label = Ime imenika
 account-hub-local-error-text = Vnesite ime za imenik
+account-hub-sync-address-books = Sinhroniziraj obstoječe imenike
