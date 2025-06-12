@@ -191,3 +191,4 @@ account-hub-account-address-book-count = { $synced } av { $total }
 account-hub-add-local-address-book = Skapa en lokal adressbok
 account-hub-local-address-book-label = Namn på adressbok
 account-hub-local-error-text = Ange ett namn på adressboken
+account-hub-sync-address-books = Synkronisera befintliga adressböcker

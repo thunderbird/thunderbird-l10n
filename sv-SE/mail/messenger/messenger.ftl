@@ -475,3 +475,4 @@ mark-as-read-action = Markera som läst
 delete-action = Ta bort
 mark-as-starred-action = Markera som stjärnmärkt
 mark-as-spam-action = Markera som skräppost
+archive-action = Arkivera
