@@ -211,3 +211,4 @@ account-hub-account-address-book-count = { $synced } z { $total }
 account-hub-add-local-address-book = Lokalny adresnik załožić
 account-hub-local-address-book-label = Mjeno adresnika
 account-hub-local-error-text = Prošu zapodajće mjeno adresnika
+account-hub-sync-address-books = Eksistowace adresniki synchronizować

@@ -491,3 +491,4 @@ mark-as-read-action = Jako přečitany markěrować
 delete-action = Zhašeć
 mark-as-starred-action = Z hwěžku markěrować
 mark-as-spam-action = Jako spam markěrować
+archive-action = Archiwować

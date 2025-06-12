@@ -211,3 +211,4 @@ account-hub-account-address-book-count = { $synced } z { $total }
 account-hub-add-local-address-book = Lokalny adresnik załožyś
 account-hub-local-address-book-label = Mě adresnika
 account-hub-local-error-text = Pšosym zapódajśo mě adresnika
+account-hub-sync-address-books = Eksistěrujuce adresniki synchronizěrowaś
