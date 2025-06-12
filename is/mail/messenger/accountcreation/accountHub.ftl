@@ -191,3 +191,4 @@ account-hub-account-address-book-count = { $synced } af { $total }
 account-hub-add-local-address-book = Búa til staðbundna nafnaskrá
 account-hub-local-address-book-label = Heiti á nafnaskrá
 account-hub-local-error-text = Settu inn heiti á nafnaskrána
+account-hub-sync-address-books = Samstilla fyrirliggjandi nafnaskrár

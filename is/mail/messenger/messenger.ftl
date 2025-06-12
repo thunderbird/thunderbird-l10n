@@ -475,3 +475,4 @@ mark-as-read-action = Merkja sem lesið
 delete-action = Eyða
 mark-as-starred-action = Merkja sem stjörnumerkt
 mark-as-spam-action = Merkja sem ruslpóst
+archive-action = Skjalageymsla
