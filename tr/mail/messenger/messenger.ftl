@@ -475,3 +475,4 @@ mark-as-read-action = Okundu olarak işaretle
 delete-action = Sil
 mark-as-starred-action = Yıldızlı olarak işaretle
 mark-as-spam-action = Spam olarak işaretle
+archive-action = Arşivle

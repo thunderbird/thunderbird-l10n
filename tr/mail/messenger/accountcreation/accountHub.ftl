@@ -189,3 +189,4 @@ account-hub-account-address-book-count = { $synced } / { $total }
 account-hub-add-local-address-book = Yerel adres defteri oluştur
 account-hub-local-address-book-label = Adres defteri adı
 account-hub-local-error-text = Lütfen bir adres defteri adı yazın
+account-hub-sync-address-books = Mevcut adres defterlerini eşitle
