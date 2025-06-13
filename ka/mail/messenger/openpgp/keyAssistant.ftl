@@ -27,6 +27,14 @@ openpgp-key-assistant-recipients-description-no-issues = შესაძლე�
 
 ## Resolve section
 
+# Variables:
+# $recipient (String) - The email address of the recipient needing resolution.
+# $numKeys (Number) - The number of keys.
+openpgp-key-assistant-resolve-title =
+    { $numKeys ->
+        [one] { -brand-short-name } აგნებს მოცემულ გასაღებს მიმღებისთვის { $recipient }.
+       *[other] { -brand-short-name } აგნებს მოცემულ გასაღებებს მიმღებისთვის { $recipient }.
+    }
 openpgp-key-assistant-valid-description = აირჩიეთ გასაღები, რომლის მიღებაც გსურთ
 # Variables:
 # $numKeys (Number) - The number of available keys.
