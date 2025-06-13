@@ -31,6 +31,7 @@ app-name-thunderbird = Thunderbird
 app-name-seamonkey = SeaMonkey
 app-name-outlook = Outlook
 app-name-apple-mail = Apple Mail
+source-thunderbird = გადმოტანა მონაცემებისა, რომელთაც შეიცავს სხვა { app-name-thunderbird }
 source-file2 = ფაილიდან შემოტანა
 
 ## Import from file selections
