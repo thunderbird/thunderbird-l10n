@@ -32,7 +32,7 @@
 <!ENTITY retentionApplyToFlagged.accesskey "ვ">
 <!ENTITY nntpRemoveMsgBody.label "წერილების შიგთავსის წაშლა რომელთა ზომაც აღემატება">
 <!ENTITY nntpRemoveMsgBody.accesskey "შ">
-<!ENTITY offlineSelectNntp.label "ჯგუფების შერჩევა კავშირგარეშე გამოყენებისთვის…">
+<!ENTITY offlineSelectNntp.label "სასაუბრო ჯგუფების შერჩევა კავშირგარეშე გამოყენებისთვის…">
 <!ENTITY offlineSelectNntp.accesskey "ჩ">
 <!ENTITY offlineImapAdvancedOffline.label "დამატებით…">
 <!ENTITY offlineImapAdvancedOffline.accesskey "მ">
