@@ -457,3 +457,4 @@ mark-as-read-action = 标为已读
 delete-action = 删除
 mark-as-starred-action = 已加星标
 mark-as-spam-action = 标记为垃圾邮件
+archive-action = 归档

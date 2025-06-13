@@ -175,3 +175,4 @@ account-hub-account-address-book-count = 已同步 { $synced } 个，共 { $tota
 account-hub-add-local-address-book = 创建本地通讯录
 account-hub-local-address-book-label = 通讯录名称
 account-hub-local-error-text = 请输入通讯录名称
+account-hub-sync-address-books = 同步现有通讯录
