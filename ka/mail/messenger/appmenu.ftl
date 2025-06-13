@@ -48,7 +48,7 @@ appmenu-new-feed =
     .label = არხი
     .accesskey = ხ
 appmenu-new-newsgroup =
-    .label = სიახლეთა ჯგუფი
+    .label = სასაუბრო ჯგუფი
     .accesskey = ჯ
 
 ## New Account / Address Book

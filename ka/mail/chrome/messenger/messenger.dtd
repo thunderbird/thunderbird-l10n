@@ -305,7 +305,7 @@
 <!ENTITY replyMsgCmd.key "r">
 <!ENTITY replySenderCmd.label "პასუხი მხოლოდ გამომგზავნს">
 <!ENTITY replySenderCmd.accesskey "პ">
-<!ENTITY replyNewsgroupCmd2.label "ჯგუფის ადევნება">
+<!ENTITY replyNewsgroupCmd2.label "სასაუბრო ჯგუფის გაყოლა">
 <!ENTITY replyNewsgroupCmd2.accesskey "უ">
 <!ENTITY replyToAllMsgCmd.label "პასუხი ყველას">
 <!ENTITY replyToAllMsgCmd.accesskey "პ">
@@ -414,7 +414,7 @@
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "ხელსაწყოები">
 <!ENTITY tasksMenu.accesskey "ს">
-<!ENTITY messengerCmd.label "ფოსტა და ჯგუფები">
+<!ENTITY messengerCmd.label "ფოსტა და სასაუბრო ჯგუფები">
 <!ENTITY messengerCmd.accesskey "დ">
 <!ENTITY addressBookCmd.label "წიგნაკი">
 <!ENTITY addressBookCmd.accesskey "წ">
@@ -791,7 +791,7 @@
 <!ENTITY EditContact1.accesskey "ჩ">
 <!ENTITY ViewContact.label "პირის ჩვენება">
 <!ENTITY ViewContact.accesskey "ვ">
-<!ENTITY SubscribeToNewsgroup.label "სიახლეთა ჯგუფების გამოწერა">
+<!ENTITY SubscribeToNewsgroup.label "სასაუბრო ჯგუფების გამოწერა">
 <!ENTITY SubscribeToNewsgroup.accesskey "ს">
 <!ENTITY SendMessageTo.label "წერილის შექმნა -">
 <!ENTITY SendMessageTo.accesskey "შ">
@@ -799,9 +799,9 @@
 <!ENTITY CopyEmailAddress.accesskey "ლ">
 <!ENTITY CopyNameAndEmailAddress.label "სახელისა და ელფოსტის მისამართის ასლი">
 <!ENTITY CopyNameAndEmailAddress.accesskey "ს">
-<!ENTITY CopyNewsgroupName.label "სიახლეთა ჯგუფის სახელის ასლი">
+<!ENTITY CopyNewsgroupName.label "სასაუბრო ჯგუფის სახელის ასლი">
 <!ENTITY CopyNewsgroupName.accesskey "ლ">
-<!ENTITY CopyNewsgroupURL.label "სიახლეთა ჯგუფის URL-ს ასლი">
+<!ENTITY CopyNewsgroupURL.label "სასაუბრო ჯგუფის URL-ს ასლი">
 <!ENTITY CopyNewsgroupURL.accesskey "U">
 <!ENTITY CreateFilterFrom.label "ფილტრის შექმნა წერილიდან…">
 <!ENTITY CreateFilterFrom.accesskey "ფ">

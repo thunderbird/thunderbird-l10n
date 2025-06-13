@@ -27,7 +27,7 @@
 <!ENTITY incomingUsername.label "სახელი:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "მიუთითეთ თქვენი სიახლეთა ჯგუფის სერვერის (NNTP) სახელი (მაგალითად, &quot;news.example.net&quot;).">
-<!ENTITY newsServerLabel.label "სიახლეთა ჯგუფის სერვერი:">
+<!ENTITY newsServerLabel.label "სასაუბრო ჯგუფის სერვერი:">
 <!ENTITY newsServerLabel.accesskey "ს">
 
 <!-- Entities for Account name page -->

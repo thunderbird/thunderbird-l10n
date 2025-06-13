@@ -5,7 +5,7 @@
 open-preferences-sidebar-button2 = { -brand-short-name } პარამეტრები
 open-addons-sidebar-button = დანამატები და თემები
 account-action-add-newsgroup-account =
-    .label = სიახლეთა ჯგუფების დამატება…
+    .label = სასაუბრო ჯგუფების დამატება…
     .accesskey = ს
 account-tree-create-account-button = ახალი ანგარიში
 account-tree-add-mail-account =
@@ -18,7 +18,7 @@ account-tree-add-feed-account =
     .label = არხის ანგარიში…
     .accesskey = ხ
 account-tree-add-newsgroup-account =
-    .label = სიახლეთა ჯგუფების ანგარიში…
+    .label = სასაუბრო ჯგუფების ანგარიში…
     .accesskey = ს
 server-change-restart-required = ხელახლა გაშვებისთვის საჭიროა სერვერისა და მომხმარებლის სახელის ცვლილების დასტური.
 edit-vcard-dialog-accept-button = შენახვა

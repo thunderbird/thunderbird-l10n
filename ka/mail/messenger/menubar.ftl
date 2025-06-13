@@ -146,5 +146,5 @@ file-new-email-account =
     .label = ელფოსტის ანგარიში…
     .accesskey = ე
 file-new-newsgroup-account =
-    .label = სიახლეთა ჯგუფების ანგარიში
+    .label = სასაუბრო ჯგუფების ანგარიში
     .accesskey = ნ

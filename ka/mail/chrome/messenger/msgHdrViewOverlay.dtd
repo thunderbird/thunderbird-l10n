@@ -11,7 +11,7 @@
 <!ENTITY subjectField4.label "თემა: ">
 <!ENTITY ccField4.label "ასლი ">
 <!ENTITY bccField4.label "ფარული ასლი ">
-<!ENTITY newsgroupsField4.label "ჯგუფები ">
+<!ENTITY newsgroupsField4.label "სასაუბრო ჯგუფები">
 <!ENTITY followupToField4.label "კონფერენცია ">
 <!ENTITY tagsHdr4.label "ჭდეები ">
 <!ENTITY dateField4.label "თარიღი ">
@@ -30,7 +30,7 @@
 <!ENTITY hdrReplyListButton1.label "პასუხი ჯგუფს">
 <!ENTITY hdrReplyListButton1.tooltip "პასუხი დაგზავნის სიაზე">
 <!ENTITY hdrFollowupButton1.label "ადევნება">
-<!ENTITY hdrFollowupButton1.tooltip "გამოხმაურება სიახლეთა ამ ჯგუფს">
+<!ENTITY hdrFollowupButton1.tooltip "გამოხმაურება სასაუბრო ამ ჯგუფს">
 <!ENTITY hdrForwardButton1.label "გადაგზავნა">
 <!ENTITY hdrForwardButton1.tooltip "ამ წერილის გადაგზავნა">
 <!ENTITY hdrJunkButton1.label "ჯართი">

@@ -31,8 +31,8 @@ account-hub-chat-setup-button = სასაუბრო
     .title = სასაუბროს ანგარიშის გამართვა
 account-hub-feed-setup-button = RSS-არხი
     .title = RSS-არხის ანგარიშის გამართვა
-account-hub-newsgroup-setup-button = სიახლეთა ჯგუფი
-    .title = სიახლეთა ჯგუფის ანგარიშის გამართვა
+account-hub-newsgroup-setup-button = სასაუბრო ჯგუფი
+    .title = სასაუბრო ჯგუფის ანგარიშის გამართვა
 account-hub-import-setup-button = გადმოტანა
     .title = დამარქაფებული პროფილის შემოტანა
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.

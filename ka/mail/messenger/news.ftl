@@ -26,4 +26,4 @@ downloading-articles-for-offline =
 no-articles-to-download = ახალ სტატიებს არ შეიცავს { $newsgroup }.
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
-no-such-newsgroup = ჯგუფი { $newsgroup } მიუწვდომელია სერვერზე.
+no-such-newsgroup = სასაუბრო { $newsgroup } მიუწვდომელია სერვერზე.

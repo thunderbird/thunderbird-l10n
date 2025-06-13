@@ -141,7 +141,7 @@ menu-edit-delete-folder =
     .label = საქაღალდის წაშლა
     .accesskey = ქ
 menu-edit-unsubscribe-newsgroup =
-    .label = სიახლეთა ჯგუფების გამოწერის გაუქმება
+    .label = სასაუბრო ჯგუფების გამოწერის გაუქმება
     .accesskey = ქ
 # Variables:
 # $count (Number) - Number of selected messages.
@@ -168,7 +168,7 @@ menu-edit-folder-properties =
     .label = საქაღალდის პარამეტრები
     .accesskey = ი
 menu-edit-newsgroup-properties =
-    .label = სიახლეების ჯგუფების პარამეტრები
+    .label = სასაუბრო ჯგუფის პარამეტრები
     .accesskey = ი
 
 ## Message Menu

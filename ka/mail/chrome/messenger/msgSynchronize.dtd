@@ -5,11 +5,11 @@
 <!-- extracted from MsgSynchronize.xhtml and msgSelectOfflineFolders.xhtml -->
 <!ENTITY MsgSynchronize.label "წერილების გადმოწერა და სინქრონიზება">
 <!ENTITY MsgSelect.label "ელემენტები კავშირგარეშე მოხმარებისათვის">
-<!ENTITY MsgSyncDesc.label "თუ უკვე არჩეული გაქვთ წერილების საქაღალდეები ან ჯგუფები კავშირგარეშე მოხმარებისათვის, შეგიძლიათ მათი ჩამოტვირთვა და/ან სინქრონიზება. სხვა შემთხვევაში, გამოიყენეთ ღილაკი „არჩევა“ საქაღალდეებისა და ჯგუფების მისათითებლად.">
+<!ENTITY MsgSyncDesc.label "თუ უკვე არჩეული გაქვთ წერილების საქაღალდეები ან სასაუბრო ჯგუფები კავშირგარეშე მოხმარებისათვის, შეგიძლიათ მათი ჩამოტვირთვა და/ან სინქრონიზება. სხვა შემთხვევაში, გამოიყენეთ ღილაკი „არჩევა“ საქაღალდეებისა და ჯგუფების მისათითებლად.">
 <!ENTITY MsgSyncDirections.label "წერილების გადმოწერა და/ან სინქრონიზება:">
 <!ENTITY syncTypeMail.label "წერილები">
 <!ENTITY syncTypeMail.accesskey "M">
-<!ENTITY syncTypeNews.label "ჯგუფების წერილები">
+<!ENTITY syncTypeNews.label "სასაუბრო ჯგუფის წერილები">
 <!ENTITY syncTypeNews.accesskey "N">
 <!ENTITY sendMessage.label "გასაგზავნი წერილების გაგზავნა">
 <!ENTITY sendMessage.accesskey "S">
@@ -19,4 +19,4 @@
 <!ENTITY selectButton.accesskey "E">
 <!ENTITY MsgSelectDesc.label "წერილების საქაღალდეებისა და ჯგუფების არჩევა, კავშირგარეშე გამოყენებისთვის.">
 <!ENTITY MsgSelectInd.label "გადმოწერა">
-<!ENTITY MsgSelectItems.label "საქაღალდეები და ჯგუფები">
+<!ENTITY MsgSelectItems.label "საქაღალდეები და სასაუბრო ჯგუფები">

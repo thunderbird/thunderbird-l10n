@@ -4,8 +4,8 @@
 <!ENTITY emailSectionHdr.label "ელფოსტა">
 <!ENTITY readMsgsLink.label "წერილები წაკითხვა">
 <!ENTITY composeMsgLink.label "ახალი წერილის შედგენა">
-<!ENTITY newsSectionHdr.label "ჯგუფები">
-<!ENTITY subscribeNewsLink.label "ჯგუფების გამოწერების მართვა">
+<!ENTITY newsSectionHdr.label "სასაუბრო ჯგუფები">
+<!ENTITY subscribeNewsLink.label "სასაუბრო ჯგუფების გამოწერების მართვა">
 <!ENTITY feedsSectionHdr.label "არხები">
 <!ENTITY subscribeFeeds.label "გამოწერების მართვა">
 <!ENTITY chat.label "სასაუბრო">

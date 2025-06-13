@@ -11,7 +11,7 @@ message-header-sender-list-name = გამგზავნი
 message-header-reply-to-list-name = პასუხი
 message-header-cc-list-name = ასლი
 message-header-bcc-list-name = ფარული ასლი
-message-header-newsgroups-list-name = ჯგუფები
+message-header-newsgroups-list-name = სასაუბრო ჯგუფები
 message-header-tags-list-name = ჭდეები
 # List management header - RFC 2369.
 message-header-list-id = სია-ID

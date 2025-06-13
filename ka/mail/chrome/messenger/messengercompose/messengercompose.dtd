@@ -157,7 +157,7 @@
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "ხელსაწყოები">
 <!ENTITY tasksMenu.accesskey "ხ">
-<!ENTITY messengerCmd.label "ფოსტა და სიახლეთა ჯგუფები">
+<!ENTITY messengerCmd.label "ფოსტა და სასაუბრო ჯგუფები">
 <!ENTITY messengerCmd.accesskey "ჯ">
 <!ENTITY messengerCmd.commandkey "1">
 <!ENTITY addressBookCmd.label "წიგნაკი">
@@ -197,7 +197,7 @@
 <!ENTITY fromAddr2.label "ვისგან">
 <!ENTITY fromAddr.accesskey "ვ">
 <!ENTITY replyAddr2.label "პასუხი ვის">
-<!ENTITY newsgroupsAddr2.label "სიახლეთა ჯგუფი">
+<!ENTITY newsgroupsAddr2.label "სასაუბრო ჯგუფი">
 <!ENTITY followupAddr2.label "კრებას:">
 <!ENTITY subject2.label "თემა">
 <!ENTITY subject.accesskey "თ">
