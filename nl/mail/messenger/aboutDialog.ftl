@@ -23,7 +23,7 @@ update-unsupported = U kunt op dit systeem geen updates meer installeren. <a dat
 update-restarting = Herstarten…
 # Variables:
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
-channel-description = U gebruikt momenteel het <span data-l10n-name="current-channel">{ $channel }</span> -updatekanaal.
+channel-description = U gebruikt momenteel het <span data-l10n-name="current-channel">{ $channel }</span>-updatekanaal.
 warning-desc-version = { -brand-short-name } is experimenteel en kan onstabiel zijn.
 warning-desc-telemetry = Er worden automatisch gegevens over prestaties, hardware, gebruik en persoonlijke aanpassingen naar { -vendor-short-name } verzonden, zodat { -brand-short-name } kan worden verbeterd.
 # Example of resulting string: 66.0.1 (64-bit)
@@ -51,7 +51,7 @@ aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Kan niet controleren op updates.
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> is een <a data-l10n-name="community-exp-credits-link">wereldwijde gemeenschap</a> die samenwerkt om het internet open, openbaar en voor iedereen toegankelijk te houden.
 community-desc = { -brand-short-name } is ontworpen door <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, een <a data-l10n-name="community-credits-link">wereldwijde gemeenschap</a> die samenwerkt om het internet open, openbaar en voor iedereen toegankelijk te houden.
-about-donation = Wilt u helpen? <a data-l10n-name="helpus-donate-link">Geef een donatie</a> or <a data-l10n-name="helpus-get-involved-link">doe mee!</a>
+about-donation = Wilt u helpen? <a data-l10n-name="helpus-donate-link">Geef een donatie</a> of <a data-l10n-name="helpus-get-involved-link">doe mee!</a>
 bottom-links-license = Licentie-informatie
 bottom-links-rights = Eindgebruikersrechten
 bottom-links-privacy = Privacybeleid
