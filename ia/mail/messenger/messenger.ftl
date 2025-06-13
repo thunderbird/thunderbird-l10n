@@ -475,3 +475,4 @@ mark-as-read-action = Marcar como legite
 delete-action = Deler
 mark-as-starred-action = Marcar como stellate
 mark-as-spam-action = Marcar como spam
+archive-action = Archivo
