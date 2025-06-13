@@ -475,3 +475,4 @@ mark-as-read-action = Markeren als gelezen
 delete-action = Verwijderen
 mark-as-starred-action = Markeren met ster
 mark-as-spam-action = Markeren als spam
+archive-action = Archiveren
