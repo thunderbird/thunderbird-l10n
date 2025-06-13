@@ -164,6 +164,21 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Yeni LDAP adres defteri
 address-book-add-ldap-description = Uzak LDAP adres defterine bağlan
 account-hub-fetching-sync-accounts = Adres defterleri ve takvimler keşfediliyor…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] Bir hesapta bir adres defteri mevcut
+               *[other] { $accounts } hesapta bir adres defteri mevcut
+            }
+       *[other]
+            { $accounts ->
+                [one] Bir hesapta { $addressBooks } adres defteri mevcut
+               *[other] { $accounts } hesapta { $addressBooks } adres defteri mevcut
+            }
+    }
 address-book-sync-existing-description = Mevcut hesaplar getiriliyor…
 account-hub-select-address-book-account = Adres defterleri olan bir hesap seçin
 # $synced (Number) - The number of address books that are synced.
