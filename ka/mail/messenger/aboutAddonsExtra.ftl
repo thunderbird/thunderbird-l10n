@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = მონახეთ შესანაცვლებელი დამატება
 atn-addons-heading-search-input =
     .placeholder = ძიება addons.thunderbird.net
+atn-addons-heading-search-button =
+    .title = ძიება საიტზე addons.thunderbird.net
+    .aria-label = ძიება საიტზე addons.thunderbird.net
