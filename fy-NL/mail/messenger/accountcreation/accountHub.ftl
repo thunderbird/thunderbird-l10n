@@ -191,3 +191,4 @@ account-hub-account-address-book-count = { $synced } fan { $total }
 account-hub-add-local-address-book = In lokaal adresboek oanmeitsje
 account-hub-local-address-book-label = Adresboeknamme
 account-hub-local-error-text = Fier in adresboeknamme yn
+account-hub-sync-address-books = Besteande adresboeken syngronisearje
