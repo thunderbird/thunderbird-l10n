@@ -9,7 +9,7 @@
 <!-- Tools menu -->
 <!ENTITY lightning.preferencesLabel "Takvim">
 <!-- New menu popup in File menu -->
-<!ENTITY lightning.menupopup.new.event.label "Etkinlik...">
+<!ENTITY lightning.menupopup.new.event.label "Etkinlik…">
 <!ENTITY lightning.menupopup.new.event.accesskey "E">
 <!ENTITY lightning.menupopup.new.task.label "Görev…">
 <!ENTITY lightning.menupopup.new.task.accesskey "G">
@@ -24,7 +24,7 @@
 <!ENTITY lightning.menu.view.tasks.label "Görevler">
 <!ENTITY lightning.menu.view.tasks.accesskey "G">
 <!-- Events and Tasks menu -->
-<!ENTITY lightning.menu.eventtask.label "Etkinlik ve görevler">
+<!ENTITY lightning.menu.eventtask.label "Etkinlikler ve görevler">
 <!ENTITY lightning.menu.eventtask.accesskey "n">
 <!-- properties dialog, calendar creation wizard
      LOCALIZATON NOTE(lightning.calendarproperties.email.label,
@@ -87,7 +87,7 @@
 <!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
 <!-- Account Central page -->
-<!ENTITY lightning.acctCentral.newCalendar.label "Yeni bir takvim oluştur">
+<!ENTITY lightning.acctCentral.newCalendar.label "Yeni takvim oluştur">
 <!-- today-pane-specific -->
 <!ENTITY todaypane.showMinimonth.label "Küçük ay takvimi göster">
 <!ENTITY todaypane.showMinimonth.accesskey "K">

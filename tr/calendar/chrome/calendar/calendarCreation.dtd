@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY wizard.title "Yeni takvim oluştur">
-<!ENTITY wizard.label "Yeni bir takvim oluştur">
+<!ENTITY wizard.label "Yeni takvim oluştur">
 <!ENTITY wizard.description "Takvim konumunu seçin">
 <!ENTITY initialpage.description "Takviminiz bilgisayarınızda yerel olarak depolanabilir veya bir sunucuya kaydedilebilir. Böylece ona uzaktan erişebilir ve onu arkadaşlarınızla paylaşabilirsiniz.">
 <!ENTITY initialpage.computer.label "Bilgisayarımda">

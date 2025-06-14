@@ -9,7 +9,7 @@
 <!ENTITY event.new.task.accesskey "n">
 <!ENTITY calendar.import.label "İçe aktar…">
 <!ENTITY calendar.import.accesskey "e">
-<!ENTITY calendar.export.label "Seçimi dışa aktar…">
+<!ENTITY calendar.export.label "Dışa aktar…">
 <!ENTITY calendar.export.accesskey "e">
 <!ENTITY calendar.publish.label "Yayımla…">
 <!ENTITY calendar.publish.accesskey "Y">

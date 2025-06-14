@@ -11,7 +11,7 @@ calendar-event-listing-column-calendar-name =
     .label = Takvim adı
     .tooltiptext = Takvim adına göre sırala
 calendar-event-listing-column-category =
-    .label = Kategoriler
+    .label = Kategori
     .tooltiptext = Kategoriye göre sırala
 # This label and tooltip is used for the column with the checkbox in the task
 # tree view, which indicates whether a task has been marked as completed.

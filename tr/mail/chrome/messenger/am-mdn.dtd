@@ -24,7 +24,7 @@
 <!ENTITY never.accesskey "n">
 <!ENTITY notInToCc.label "Gönderilen veya Cc kısmında değilsem:">
 <!ENTITY notInToCc.accesskey "e">
-<!ENTITY outsideDomain.label "Gönderenle aynı alan adından değilsem:">
+<!ENTITY outsideDomain.label "Gönderenle aynı alan adında değilsem:">
 <!ENTITY outsideDomain.accesskey "m">
 <!ENTITY otherCases.label "Diğer tüm durumlarda:">
 <!ENTITY otherCases.accesskey "t">
