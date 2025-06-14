@@ -191,3 +191,4 @@ account-hub-account-address-book-count = { $synced } / { $total }
 account-hub-add-local-address-book = Helyi címjegyzék létrehozása
 account-hub-local-address-book-label = Címjegyzék neve
 account-hub-local-error-text = Adja meg a címjegyzék nevét
+account-hub-sync-address-books = Meglévő címjegyzékek szinkronizálása

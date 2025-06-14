@@ -475,3 +475,4 @@ mark-as-read-action = Megjelölés olvasottként
 delete-action = Törlés
 mark-as-starred-action = Megjelölés csillagozottként
 mark-as-spam-action = Megjelölés levélszemétként
+archive-action = Archiválás
