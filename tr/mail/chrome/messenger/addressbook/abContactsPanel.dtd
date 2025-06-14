@@ -19,9 +19,9 @@
 <!ENTITY addtoToFieldMenu.label "Kime alanına ekle">
 <!ENTITY addtoToFieldMenu.accesskey "e">
 <!ENTITY addtoCcFieldMenu.label "Cc alanına ekle">
-<!ENTITY addtoCcFieldMenu.accesskey "B">
+<!ENTITY addtoCcFieldMenu.accesskey "C">
 <!ENTITY addtoBccFieldMenu.label "Bcc alanına ekle">
-<!ENTITY addtoBccFieldMenu.accesskey "G">
+<!ENTITY addtoBccFieldMenu.accesskey "B">
 <!ENTITY deleteAddrBookCard.label "Sil">
 <!ENTITY deleteAddrBookCard.accesskey "S">
 <!ENTITY propertiesContext.label "Özellikler">

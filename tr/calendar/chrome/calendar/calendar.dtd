@@ -15,7 +15,7 @@
 <!ENTITY calendar.newevent.button.label "Yeni etkinlik">
 <!ENTITY calendar.newtask.button.label "Yeni görev">
 <!ENTITY calendar.onlyworkday.checkbox.label "Yalnızca iş günleri">
-<!ENTITY calendar.onlyworkday.checkbox.accesskey "S">
+<!ENTITY calendar.onlyworkday.checkbox.accesskey "i">
 <!ENTITY calendar.displaytodos.checkbox.label "Görünümdeki görevler">
 <!ENTITY calendar.displaytodos.checkbox.accesskey "n">
 <!ENTITY calendar.completedtasks.checkbox.label "Bitmiş görevleri göster">

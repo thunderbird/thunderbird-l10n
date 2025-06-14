@@ -3,9 +3,9 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderProperties.title "Yeni Kayıtlı Arama Klasörü">
 <!ENTITY name.label "Ad:">
-<!ENTITY name.accesskey "s">
+<!ENTITY name.accesskey "A">
 <!ENTITY description.label "Buranın alt klasörü olarak oluştur:">
-<!ENTITY description.accesskey "d">
+<!ENTITY description.accesskey "u">
 <!ENTITY searchTermCaption.label "Arama kriterini bu kayıtlı arama klasörü için yapılandır: ">
 <!ENTITY folderSelectionCaption.label "Aranacak klasörleri seçin: ">
 <!ENTITY chooseFoldersButton.label "Seçin…">

@@ -15,6 +15,6 @@
 <!ENTITY download.accesskey "a">
 <!-- LOCALIZATION NOTE (headers.label): see note for download.label -->
 <!ENTITY headers.label "üst bilgi indir">
-<!ENTITY headers.accesskey "k">
+<!ENTITY headers.accesskey "ü">
 <!ENTITY mark.label "Kalan üst bilgileri okundu olarak işaretle">
 <!ENTITY mark.accesskey "d">

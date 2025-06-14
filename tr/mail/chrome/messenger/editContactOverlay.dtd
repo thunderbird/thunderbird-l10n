@@ -4,7 +4,7 @@
 <!ENTITY editContactPanelDeleteContact.label "Sil">
 <!ENTITY editContactPanelDeleteContact.accesskey "l">
 <!ENTITY editContactName.label "Ad:">
-<!ENTITY editContactName.accesskey "s">
+<!ENTITY editContactName.accesskey "A">
 <!ENTITY editContactEmail.label "E-posta:">
 <!ENTITY editContactEmail.accesskey "E">
 <!ENTITY editContactAddressBook.label "Adres defteri:">

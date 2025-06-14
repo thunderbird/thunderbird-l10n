@@ -283,7 +283,7 @@
 <!ENTITY prevStarredMsgCmd.label "Yıldızlı ileti">
 <!ENTITY prevStarredMsgCmd.accesskey "d">
 <!ENTITY folderMenu.label "Klasör">
-<!ENTITY folderMenu.accesskey "D">
+<!ENTITY folderMenu.accesskey "ö">
 <!ENTITY goRecentlyClosedTabs.label "Yeni kapatılan sekmeler">
 <!ENTITY goRecentlyClosedTabs.accesskey "r">
 <!ENTITY startPageCmd.label "Posta başlangıç sayfası">
@@ -798,7 +798,7 @@
 <!ENTITY CopyEmailAddress.label "E-posta adresini kopyala">
 <!ENTITY CopyEmailAddress.accesskey "k">
 <!ENTITY CopyNameAndEmailAddress.label "Adı ve e-posta adresini kopyala">
-<!ENTITY CopyNameAndEmailAddress.accesskey "m">
+<!ENTITY CopyNameAndEmailAddress.accesskey "d">
 <!ENTITY CopyNewsgroupName.label "Haber grubu adını kopyala">
 <!ENTITY CopyNewsgroupName.accesskey "b">
 <!ENTITY CopyNewsgroupURL.label "Haber grubu adresini kopyala">

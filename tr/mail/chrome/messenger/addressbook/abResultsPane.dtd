@@ -12,7 +12,7 @@
 <!ENTITY _PhoneticName.label "Fonetik ad">
 <!ENTITY _PhoneticName.accesskey "o">
 <!ENTITY NickName.label "Takma ad">
-<!ENTITY NickName.accesskey "i">
+<!ENTITY NickName.accesskey "T">
 <!ENTITY SecondEmail.label "Ek e-posta">
 <!ENTITY SecondEmail.accesskey "o">
 <!ENTITY Department.label "Bölüm">
