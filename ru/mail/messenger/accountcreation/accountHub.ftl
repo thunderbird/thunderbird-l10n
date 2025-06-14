@@ -200,3 +200,4 @@ account-hub-account-address-book-count = { $synced } из { $total }
 account-hub-add-local-address-book = Создать локальную адресную книгу
 account-hub-local-address-book-label = Имя адресной книги
 account-hub-local-error-text = Пожалуйста, введите имя адресной книги
+account-hub-sync-address-books = Синхронизировать существующие адресные книги

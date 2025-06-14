@@ -485,3 +485,4 @@ mark-as-read-action = Отметить как прочитанное
 delete-action = Удалить
 mark-as-starred-action = Пометить звёздочкой
 mark-as-spam-action = Пометить как спам
+archive-action = Архивировать
