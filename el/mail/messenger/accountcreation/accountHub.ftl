@@ -191,3 +191,4 @@ account-hub-account-address-book-count = { $synced } από { $total }
 account-hub-add-local-address-book = Δημιουργία τοπικού ευρετηρίου
 account-hub-local-address-book-label = Όνομα ευρετηρίου
 account-hub-local-error-text = Εισαγάγετε ένα όνομα ευρετηρίου
+account-hub-sync-address-books = Συγχρονισμός υπαρχόντων ευρετηρίων

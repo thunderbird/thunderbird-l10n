@@ -487,3 +487,4 @@ mark-as-read-action = Označiť ako prečítané
 delete-action = Odstrániť
 mark-as-starred-action = Označiť hviezdičkou
 mark-as-spam-action = Označiť ako spam
+archive-action = Archivovať

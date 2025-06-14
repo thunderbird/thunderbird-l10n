@@ -475,3 +475,4 @@ mark-as-read-action = Επισήμανση ως αναγνωσμένο
 delete-action = Διαγραφή
 mark-as-starred-action = Επισήμανση με αστέρι
 mark-as-spam-action = Επισήμανση ως ανεπιθύμητο
+archive-action = Αρχειοθέτηση
