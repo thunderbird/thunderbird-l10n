@@ -40,8 +40,8 @@
 <!ENTITY saveAsMenu.label "Farklı kaydet">
 <!ENTITY saveAsMenu.accesskey "F">
 <!ENTITY saveAsFileCmd.key "s">
-<!ENTITY saveAsTemplateCmd.label "Geçici">
-<!ENTITY saveAsTemplateCmd.accesskey "c">
+<!ENTITY saveAsTemplateCmd.label "Şablon">
+<!ENTITY saveAsTemplateCmd.accesskey "a">
 <!ENTITY getNewMsgForCmd.label "Yeni iletileri al">
 <!ENTITY getNewMsgForCmd.accesskey "i">
 <!ENTITY getAllNewMsgCmdPopupMenu.label "Bütün hesaplar…">
@@ -426,7 +426,7 @@
 <!ENTITY imAccountsStatus.accesskey "S">
 <!ENTITY imStatus.available "Müsait">
 <!ENTITY imStatus.unavailable "Müsait değil">
-<!ENTITY imStatus.offline "Çevrimdıșı">
+<!ENTITY imStatus.offline "Çevrimdışı">
 <!ENTITY imStatus.showAccounts "Hesapları göster…">
 <!ENTITY joinChatCmd.label "Sohbete katıl…">
 <!ENTITY joinChatCmd.accesskey "k">

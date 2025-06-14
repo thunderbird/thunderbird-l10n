@@ -4,7 +4,7 @@
 
 <!-- Labels -->
 <!ENTITY newFolderDialog.title "Yeni Klasör">
-<!ENTITY name.label "Klasör adı:">
+<!ENTITY name.label "Adı:">
 <!ENTITY name.accesskey "D">
 <!ENTITY description.label "Aşağıdaki klasörün alt klasörü olarak oluştur:">
 <!ENTITY description.accesskey "k">

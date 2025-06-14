@@ -11,7 +11,7 @@
 <!ENTITY calendar.today.button.label "Bugün">
 <!ENTITY calendar.tomorrow.button.label "Yarın">
 <!ENTITY calendar.today.button.tooltip "Bugüne git">
-<!ENTITY calendar.todaypane.button.tooltip "Bugün panelini göster">
+<!ENTITY calendar.todaypane.button.tooltip "Bugün bölmesini göster">
 <!ENTITY calendar.newevent.button.label "Yeni etkinlik">
 <!ENTITY calendar.newtask.button.label "Yeni görev">
 <!ENTITY calendar.onlyworkday.checkbox.label "Yalnızca iş günleri">
