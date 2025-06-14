@@ -474,3 +474,4 @@ mark-as-read-action = Оқылған ретінде белгілеу
 delete-action = Өшіру
 mark-as-starred-action = Жұлдызша қою
 mark-as-spam-action = Спам деп белгілеу
+archive-action = Архивтеу
