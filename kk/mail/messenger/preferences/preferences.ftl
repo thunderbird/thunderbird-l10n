@@ -789,6 +789,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Баптаулардан табу
+managed-notice = { -brand-short-name } сіздің ұйымыңызбен басқаралады.
 
 ## Settings UI Search Results
 

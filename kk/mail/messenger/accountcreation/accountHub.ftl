@@ -183,6 +183,11 @@ account-hub-address-book-sync-option-data =
     }
 address-book-sync-existing-description = Бар болып тұрған тіркелгілерді алу…
 account-hub-select-address-book-account = Адрестік кітапшалары бар тіркелгіні таңдаңыз
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $total } ішінен { $synced } синхрондалды
+    .title = { $synced } адрестік кітапша синхрондалды, { $available } қолжетімді
 account-hub-add-local-address-book = Жергілікті адрестік кітапшаны жасау
 account-hub-local-address-book-label = Адрестік кітапша атауы
 account-hub-local-error-text = Адрестік кітапша атауын енгізіңіз
