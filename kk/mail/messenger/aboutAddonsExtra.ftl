@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = Балама қосымшаны табу
 atn-addons-heading-search-input =
     .placeholder = addons.thunderbird.net сайтынан іздеу
+atn-addons-heading-search-button =
+    .title = addons.thunderbird.net сайтынан іздеу
+    .aria-label = addons.thunderbird.net сайтынан іздеу
