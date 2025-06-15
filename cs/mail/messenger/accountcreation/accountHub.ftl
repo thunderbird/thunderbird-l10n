@@ -176,6 +176,29 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Nová složka kontaktů LDAP
 address-book-add-ldap-description = Připojení ke vzdálené složce s kontakty LDAP
 account-hub-fetching-sync-accounts = Vyhledávají se složky s kontakty a kalendáře…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] Dostupná 1 složka kontaktů  z 1 účtu
+                [few] Dostupná 1 složka kontaktů z { $accounts } účtů
+               *[other] Dostupná 1 složka kontaktů z { $accounts } účtů
+            }
+        [few]
+            { $accounts ->
+                [one] Dostupné { $addressBooks } složky kontaktů z 1 účtu
+                [few] Dostupné { $addressBooks } složky kontaktů z { $accounts } účtů
+               *[other] Dostupné { $addressBooks } složky kontaktů z { $accounts } účtů
+            }
+       *[other]
+            { $accounts ->
+                [one] Dostupných { $addressBooks } složek kontaktů z 1 účtu
+                [few] Dostupných { $addressBooks } složek kontaktů z { $accounts } účtů
+               *[other] Dostupných { $addressBooks } složek kontaktů z { $accounts } účtů
+            }
+    }
 address-book-sync-existing-description = Načítání existujících účtů…
 account-hub-select-address-book-account = Vyberte účet s kontakty
 # $synced (Number) - The number of address books that are synced.
