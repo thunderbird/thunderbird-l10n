@@ -183,3 +183,7 @@ account-hub-select-address-book-account = Vyberte účet s kontakty
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } z { $total }
     .title = Synchronizované adresáře: { $synced }, dostupné: { $available }
+account-hub-add-local-address-book = Vytvořit místní složku kontaktů
+account-hub-local-address-book-label = Název složky kontaktů
+account-hub-local-error-text = Zadejte prosím název složky kontaktů
+account-hub-sync-address-books = Synchronizovat existující složky kontaktů
