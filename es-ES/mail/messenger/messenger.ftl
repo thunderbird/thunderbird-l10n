@@ -475,3 +475,4 @@ mark-as-read-action = Marcar como leído
 delete-action = Eliminar
 mark-as-starred-action = Marcar con estrella
 mark-as-spam-action = Marcar como correo no deseado
+archive-action = Archivar
