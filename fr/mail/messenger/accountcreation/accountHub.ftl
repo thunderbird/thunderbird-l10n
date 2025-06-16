@@ -191,4 +191,4 @@ account-hub-account-address-book-count = { $synced } sur { $total }
 account-hub-add-local-address-book = Créer un carnet d’adresses local
 account-hub-local-address-book-label = Nom du carnet d’adresses
 account-hub-local-error-text = Veuillez saisir un nom de carnet d’adresses
-account-hub-sync-address-books = Synchroniser les carnets d’adresses existants
+account-hub-sync-address-books = Synchroniser des carnets d’adresses existants
