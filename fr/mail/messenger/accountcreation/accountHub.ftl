@@ -147,7 +147,7 @@ account-hub-username-error-text = Le nom d’utilisateur doit être renseigné
 account-hub-oauth-pending = En attente de l’autorisation dans la popup de connexion…
 account-hub-addon-install-needed = { -brand-short-name } ne prend pas en charge ce serveur de façon native. Pour accéder à la messagerie Exchange, <a data-l10n-name="addon-install">installez un module complémentaire tiers comme Owl (payant).</a>
 account-hub-addon-error = Échec de l’installation du module complémentaire. Veuillez essayer à nouveau ou contacter l’auteur du module complémentaire pour obtenir de l’aide.
-account-hub-security-warning = <span data-l10n-name="security-warning">Attention : serveur de courrier non sécurisé détecté.</span> Ce serveur n’est pas chiffré ; votre mot de passe et vos données sont compromis. Contactez votre administrateur pour sécuriser la connexion ou poursuivez à vos risques et périls. <a data-l10n-name="faq-link">Voir la FAQ pour plus d’informations.</a>
+account-hub-security-warning = <span data-l10n-name="security-warning">Attention : serveur de courrier non sécurisé détecté.</span> Ce serveur n’est pas chiffré ; votre mot de passe et vos données sont exposés. Contactez votre administrateur pour sécuriser la connexion ou poursuivez à vos risques et périls. <a data-l10n-name="faq-link">Voir la FAQ pour plus d’informations.</a>
 account-hub-account-authentication-error = Erreur d’authentification.
 account-hub-add-address-book = Ajouter un carnet d’adresses
 address-book-sync-existing-icon =
