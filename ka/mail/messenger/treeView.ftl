@@ -5,8 +5,26 @@
 
 ## Table
 
+tree-list-view-row-select =
+    .alt = მოსანიშნი უჯრა მიმდინარე რიგის შესარჩევად
+    .title = მიმდინარე რიგის შერჩევა
+tree-list-view-row-deselect =
+    .alt = მოსანიშნი უჯრა მიმდინარე რიგის შესარჩევად
+    .title = მიმდინარე რიგის შერჩევის გაუქმება
+tree-list-view-row-delete =
+    .title = მიმდინარე რიგის წაშლა
+tree-list-view-row-restore =
+    .title = მიმდინარე რიგის აღდგენა
 tree-list-view-column-picker =
     .title = სვეტების შერჩევა საჩვენებლად
+tree-list-view-column-picker-restore-default-columns =
+    .label = ნაგულისხმევი სვეტების აღდგენა
+tree-list-view-row-flagged =
+    .alt = ვარსკვლავიანი წერილის მაჩვენებელი
+    .title = წერილი ვარსკვლავითაა
+tree-list-view-row-flag =
+    .alt = ვარსკვლავიანი წერილის მაჩვენებელი
+    .title = წერილი არაა ვარსვკლავით
 tree-list-view-row-attach =
     .alt = დანართის მაჩვენებელი
     .title = ცნობა დანართის არსებობისას
@@ -16,3 +34,9 @@ tree-list-view-row-spam =
 tree-list-view-row-not-spam =
     .alt = ჯართის მიმდინარე მაჩვენებელი
     .title = წერილი არაა მონიშნული ჯართად
+tree-list-view-row-read =
+    .alt = წაკითხვის მიმდინარე მაჩვენებელი
+    .title = წერილი თუ არის წაკითხული
+tree-list-view-row-not-read =
+    .alt = წაუკითხავობის მიმდინარე მაჩვენებელი
+    .title = წერილი თუ არის წაუკითხავი
