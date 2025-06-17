@@ -71,10 +71,15 @@ customize-palette-addressbook-specific-title = ხელმისაწვდო
 customize-palette-calendar-specific-title = ხელმისაწვდომი მხოლოდ კალენდრის არეში
 customize-palette-tasks-specific-title = ხელმისაწვდომი მხოლოდ დავალებების არეში
 customize-palette-chat-specific-title = ხელმისაწვდომი მხოლოდ სასაუბროს არეში
-customize-palette-extension-specific-title = ხელმისაწვდომია მხოლოდ ამ არეში
+customize-palette-settings-specific-title = ხელმისაწვდომი მხოლოდ პარამეტრების არეში
+customize-palette-extension-specific-title = ხელმისაწვდომი მხოლოდ ამ არეში
 
 ## Unified toolbar customization palette context menu
 
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = დამატების ადგილი { $target }
 customize-palette-add-everywhere =
     .label = დამატება ხელსაწყოთა ყველა ზოლზე
 
