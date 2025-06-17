@@ -4,7 +4,7 @@
 
 accounts-title = Λογαριασμοί email και συζητήσεων
 show-private-data-main-text = Συμπερίληψη ονομάτων λογαριασμών
-show-private-data-explanation-text = (πιθανή αναγνώριση πληροφοριών)
+show-private-data-explanation-text = (πιθανά δεδομένα προσωπικού χαρακτήρα)
 accounts-ID = ID
 accounts-name = Όνομα
 accounts-incoming-server = Διακομιστής εισερχομένων
