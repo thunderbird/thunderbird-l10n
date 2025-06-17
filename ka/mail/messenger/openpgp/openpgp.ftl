@@ -23,6 +23,18 @@ e2e-csr-select-title = CSR-ალგორითმი
 e2e-csr-select-alg = ﻿﻿﻿﻿მიუთითეთ ან RSA (სასურველია), ან ECC, კრიპტოგრაფიის ალგორითმად ახალი S/MIME-სერტიფიკატისთვის.
 # Do not translate: S/MIME
 e2e-csr-select-strength = აირჩიეთ კრიპტოგრაფიის სასურველი სიმტკიცე (სწრაფი დაბალი ციფრებით ან უკეთესი დაცვა მაღალი ციფრებით) ახალი S/MIME-სერტიფიკატისთვის ან დატოვეთ ნაგულისხმევი პარამეტრები.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = ახალი { $type } { $strongth } საიდუმლო გასაღები წარმოიქმნება { -brand-short-name }-პარამეტრებში. გარკვეულ ხანს შეიძლება გასტანოს და დროებითი მიუწვდომელობა გამოიწვიოს; გთხოვთ მოითმინოთ ამ საფეხურის გავლისას. ამასობაში კი სერტიფიკატის ხელმოწერის მოთხოვნის (CSR) ფაილი შეინახება, როგორც { $file }.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = ელფოსტის მისამართის ({ $email }) დართვა CSR-ში (სასურველია)
+# $file A filename
+e2e-csr-success = CSR წარმატებითაა შენახული, როგორც { $file }
+# $file A filename
+e2e-csr-failure = CSR ვერ შეინახა, როგორც { $file }
 e2e-signing-description = ციფრული ხელმოწერა საშუალებას აძლევს მიმღებს დაადასტუროს, რომ წერილი ნამდვილად თქვენ გაუგზავნეთ და მისი შიგთავსი არავის შეუცვლია. დაშიფრული წერილები თავისთავად ხელმოწერილია.
 e2e-sign-message =
     .label = დაუშიფრავის წერილის ხელმოწერა
@@ -44,6 +56,10 @@ e2e-encrypt-subject =
 e2e-encrypt-drafts =
     .label = გასაგზავნი წერილების დაშიფრულად შენახვა
     .accesskey = ხ
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = საჯარო OpenPGP-გასაღებ(ებ)ის ელფოსტის თავსართში დართვა გაგზავნისას, რომ თავსებადი იყოს Autocrypt
+    .accesskey = ვ
 openpgp-key-created-label =
     .label = შექმნილი
 openpgp-key-expiry-label =
@@ -57,6 +73,9 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = გაუქმების სერტიფიკატი
     .accesskey = ქ
+openpgp-key-man-gen-revocation =
+    .label = გაუქმების სერტიფიკატის შენახვა ფაილში
+    .accesskey = ტ
 openpgp-key-man-file-menu =
     .label = ფაილი
     .accesskey = ფ
@@ -97,8 +116,18 @@ openpgp-key-man-backup-secret-keys =
 openpgp-key-man-discover-cmd =
     .label = გასაღებების მოძიება ინტერნეტში
     .accesskey = ძ
+openpgp-key-man-publish-cmd =
+    .label = გამოქვეყნება
+    .accesskey = ქ
+openpgp-key-publish = გამოქვეყნება
 openpgp-key-man-discover-prompt = OpenPGP-გასაღებების ინტერნეტში მოსაძებნად სერვერებზე ან WKD-ოქმის მეშვეობით, შეიყვანეთ ელფოსტის მისამართი ან გასაღების ID.
 openpgp-key-man-discover-progress = ეძებს…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = საჯარო გასაღები გაგზავნილია სერვერზე „{ $keyserver }“.
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = თქვენი საჯარო გასაღები ვერ გაიგზავნა სერვერზე „{ $keyserver }“.
 openpgp-key-copy-key =
     .label = საჯარო გასაღების ასლი
     .accesskey = ლ
@@ -286,6 +315,8 @@ openpgp-personal-yes-label =
     .label = დიახ, მიეთითოს ჩემს პირად გასაღებად.
 openpgp-passphrase-protection =
     .label = საიდუმლო ფრაზით დაცვა
+openpgp-passphrase-status-unprotected = დაუცველი
+openpgp-passphrase-status-primary-password = იცავს { -brand-short-name } მთავარი პაროლით
 openpgp-passphrase-status-user-passphrase = დაცულია საიდუმლო ფრაზით
 openpgp-passphrase-instruction-unprotected = დააყენეთ საიდუმლო ფრაზა ამ გასაღების დასაცავად
 openpgp-passphrase-instruction-primary-password = ამ გასაღების სათადარიგო დაცვა ცალკე საიდუმლო ფრაზით
