@@ -8,6 +8,11 @@
 
 ## Search bar
 
+search-bar-button =
+    .alt = ძიება
+search-bar-item2 =
+    .label = ძიება
+search-bar-placeholder = ძიება…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
 # in messenger.dtd.
@@ -43,21 +48,29 @@ customize-space-tab-chat = სასაუბრო
     .title = სასაუბრო
 customize-space-tab-settings = პარამეტრები
     .title = პარამეტრები
+customize-restore-default = ნაგულისხმევის აღდგენა
 customize-change-appearance = იერსახის შეცვლა…
+customize-button-style-label = ღილაკის გაფორმება:
 customize-button-style-icons-beside-text-option = ხატულები ტექსტთან ერთად
+customize-button-style-icons-above-text-option = ხატულები წარწერის ზემოთ
 customize-button-style-icons-only-option = მხოლოდ ხატულები
-customize-button-style-text-only-option = მხოლოდ ტექსტი
+customize-button-style-text-only-option = მხოლოდ წარწერა
+customize-cancel = გაუქმება
+customize-save = შენახვა
+customize-unsaved-changes = შეუნახავი ცვლილებები სხვა არეებში
 customize-search-bar2 =
     .label = ხელსაწყოთა ღილაკების ძიება
     .placeholder = ხელსაწყოთა ღილაკების ძიება…
+customize-spaces-tabs =
+    .aria-label = არეები
 customize-main-toolbar-target =
     .aria-label = ხელსაწყოთა მთავარი ზოლი
-customize-palette-mail-specific-title = ხელმისაწვდომია მხოლოდ საფოსტო არეში
-customize-palette-addressbook-specific-title = ხელმისაწვდომია მხოლოდ წიგნაკის არეში
-customize-palette-calendar-specific-title = ხელმისაწვდომია მხოლოდ კალენდრის არეში
-customize-palette-tasks-specific-title = ხელმისაწვდომია მხოლოდ დავალებების არეში
-customize-palette-chat-specific-title = ხელმისაწვდომია მხოლოდ სასაუბროს არეში
-customize-palette-settings-specific-title = ხელმისაწვდომია მხოლოდ პარამეტრების არეში
+customize-palette-generic-title = ხელმისაწვდომი ყველა არეში
+customize-palette-mail-specific-title = ხელმისაწვდომი მხოლოდ საფოსტო არეში
+customize-palette-addressbook-specific-title = ხელმისაწვდომი მხოლოდ წიგნაკის არეში
+customize-palette-calendar-specific-title = ხელმისაწვდომი მხოლოდ კალენდრის არეში
+customize-palette-tasks-specific-title = ხელმისაწვდომი მხოლოდ დავალებების არეში
+customize-palette-chat-specific-title = ხელმისაწვდომი მხოლოდ სასაუბროს არეში
 customize-palette-extension-specific-title = ხელმისაწვდომია მხოლოდ ამ არეში
 
 ## Unified toolbar customization palette context menu
@@ -68,12 +81,16 @@ customize-palette-add-everywhere =
 ## Unified toolbar customization target context menu
 
 customize-target-forward =
-    .label = მომდევნოზე გადასვლა
+    .label = მომდევნოზე გადატანა
 customize-target-backward =
-    .label = წინ გადასვლა
+    .label = წინ გადატანა
 customize-target-remove =
     .label = მოცილება
 customize-target-remove-everywhere =
     .label = მოცილება ხელსაწყოთა ყველა ზოლიდან
 customize-target-add-everywhere =
     .label = დამატება ხელსაწყოთა ყველა ზოლზე
+customize-target-start =
+    .label = დასაწყისში გადატანა
+customize-target-end =
+    .label = ბოლოში გადატანა
