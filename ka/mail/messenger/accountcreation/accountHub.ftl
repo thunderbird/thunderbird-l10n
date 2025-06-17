@@ -109,6 +109,7 @@ account-hub-test-configuration = შემოწმება
 account-hub-add-new-email = სხვა ელფოსტის დამატება
 account-hub-result-imap-description = ინარჩუნებს თქვენს საქაღალდეებსა და წერილებს სერვერთან სინქრონში
 account-hub-result-pop-description = ინარჩუნებს თქვენს საქაღალდეებსა და წერილებს თქვენს კომპიუტერში
+account-hub-result-ews-shortname = Exchange
 account-hub-password-info = თქვენი ანგარიშის მონაცემები მხოლოდ ადგილობრივად შეინახება კომპიუტერში
 account-hub-sync-accounts-failure = { -brand-short-name } ვერ ახერხებს მონიშნულ მომსახურებებთან დაკავშირებას
 account-hub-email-added-success = ელფოსტის ანგარიში დაკავშირებულია წარმატებით
