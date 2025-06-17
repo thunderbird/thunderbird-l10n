@@ -67,6 +67,12 @@ customize-palette-add-everywhere =
 
 ## Unified toolbar customization target context menu
 
+customize-target-forward =
+    .label = მომდევნოზე გადასვლა
+customize-target-backward =
+    .label = წინ გადასვლა
+customize-target-remove =
+    .label = მოცილება
 customize-target-remove-everywhere =
     .label = მოცილება ხელსაწყოთა ყველა ზოლიდან
 customize-target-add-everywhere =
