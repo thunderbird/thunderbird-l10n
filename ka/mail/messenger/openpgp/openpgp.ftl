@@ -4,6 +4,25 @@
 
 e2e-intro-description = დაშიფრული ან ციფრულად ხელმოწერილი წერილის გასაგზავნად საჭიროა, გამართოთ დაშიფვრის საშუალება, OpenPGP ან S/MIME.
 e2e-intro-description-more = მიუთითეთ პირადი გასაღები, რომ ჩაირთოს OpenPGP, ან პირადი სერტიფიკატი, რომ ჩაირთოს S/MIME. პირადი გასაღებისთვის ან სერტიფიკატისთვის უნდა ფლობდეთ შესაბამის საიდუმლო გასაღებს.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = ახალი პირადი S/MIME-სერტიფიკატის მოსაპოვებლად შექმენით სერტიფიკატის ხელმოწერის მოთხოვნა (CSR) და წარუდგინეთ სერტიფიკატის გამცემს (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = შეარჩიეთ ადგილობრივი საქაღალდე და ფაილის სახელი თქვენი CSR-ფაილისთვის, შემდეგ უპასუხეთ მოცემულ კითხვებს ალგორითმისა და სიმტკიცის მითითებისთვის.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = წარმოიქმნას CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = განაგრძეთ
+# A label for a button that goes back one step
+e2e-csr-back = უკან
+# Do not translate: CSR
+e2e-csr-button =
+    .label = CSR-ფაილის წარმოქმნა და შენახვა…
+# Do not translate: CSR
+e2e-csr-select-title = CSR-ალგორითმი
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = ﻿﻿﻿﻿მიუთითეთ ან RSA (სასურველია), ან ECC, კრიპტოგრაფიის ალგორითმად ახალი S/MIME-სერტიფიკატისთვის.
+# Do not translate: S/MIME
+e2e-csr-select-strength = აირჩიეთ კრიპტოგრაფიის სასურველი სიმტკიცე (სწრაფი დაბალი ციფრებით ან უკეთესი დაცვა მაღალი ციფრებით) ახალი S/MIME-სერტიფიკატისთვის ან დატოვეთ ნაგულისხმევი პარამეტრები.
 e2e-signing-description = ციფრული ხელმოწერა საშუალებას აძლევს მიმღებს დაადასტუროს, რომ წერილი ნამდვილად თქვენ გაუგზავნეთ და მისი შიგთავსი არავის შეუცვლია. დაშიფრული წერილები თავისთავად ხელმოწერილია.
 e2e-sign-message =
     .label = დაუშიფრავის წერილის ხელმოწერა

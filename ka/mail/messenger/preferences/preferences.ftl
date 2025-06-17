@@ -832,6 +832,7 @@ default-sort-thread =
     .label = მიმოწერა
 default-sort-attachments =
     .label = დანართები
+apply-thread-sort-label = მიმოწერისა და დალაგების მიმდინარე პარამეტრების გავრცელება:
 apply-changes-prompt-message = აისახოს მიმოწერისა და დალაგების მიმდინარე პარამეტრების ყველა საქაღალდეზე?
 # Variables:
 #  $name (String): The name of the folder to apply to.
