@@ -688,6 +688,17 @@ import-key-file = OpenPGP-გასაღების ფაილის შე�
 import-rev-file = OpenPGP-გაუქმების ფაილის შეტანა
 gnupg-file = GnuPG-ფაილები
 import-keys-failed = გასაღებების შეტანა ვერ მოხერხდა
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = შეიყვანეთ შემშვები ფრაზა, რომ გაიხსნას საიდუმლო გასაღები ID-საცნობით { $key }, შექმნის თარიღით { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = შეიყვანეთ შემშვები ფრაზა, რომ გაიხსნას საიდუმლო გასაღები ID-საცნობით { $subkey }, რომელიც ქვეგასაღებია გასაღებისა ID-საცნობით { $key }, შექმნის თარიღით { $date }, { $username_and_email }
 file-to-big-to-import = ფაილი ზედმეტად დიდია. გთხოვთ, არ შეიტანოთ გასაღებების დიდი კრებული ერთბაშად.
 
 ## Strings used in enigmailKeygen.js
