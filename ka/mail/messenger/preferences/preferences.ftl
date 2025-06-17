@@ -833,5 +833,11 @@ default-sort-thread =
 default-sort-attachments =
     .label = დანართები
 apply-changes-prompt-message = აისახოს მიმოწერისა და დალაგების მიმდინარე პარამეტრების ყველა საქაღალდეზე?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = მიმოწერისა და დალაგების მიმდინარე პარამეტრებით სარგებლობდეს „{ $name }“?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = მიმოწერისა და დალაგების მიმდინარე პარამეტრებით სარგებლობდეს „{ $name }“ ქვესაქაღალდეებით?
 apply-current-view-error = ვერ ხერხდება ხედის მიმდინარე პარამეტრების ასახვა
 apply-current-view-success = ხედის მიმდინარე პარამეტრები აისახა წარმატებით
