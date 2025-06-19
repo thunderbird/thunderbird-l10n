@@ -454,3 +454,4 @@ mark-as-read-action = Đánh dấu là đã đọc
 delete-action = Xóa
 mark-as-starred-action = Đánh dấu là được gắn sao
 mark-as-spam-action = Đánh dấu là thư rác
+archive-action = Lưu trữ

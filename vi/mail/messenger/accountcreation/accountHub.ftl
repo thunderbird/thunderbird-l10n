@@ -175,3 +175,4 @@ account-hub-account-address-book-count = { $synced } / { $total }
 account-hub-add-local-address-book = Tạo một sổ địa chỉ cục bộ
 account-hub-local-address-book-label = Tên sổ địa chỉ
 account-hub-local-error-text = Vui lòng nhập tên sổ địa chỉ
+account-hub-sync-address-books = Đồng bộ sổ địa chỉ hiện có
