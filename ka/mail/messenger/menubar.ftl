@@ -15,7 +15,7 @@ menu-addons-and-themes =
     .label = დამატებები და თემები
     .accesskey = ტ
 menu-export-for-mobile =
-    .label = გატანა მობილურისთვის…
+    .label = გადატანა მობილურზე…
     .accesskey = ტ
 
 ## Help Menu
