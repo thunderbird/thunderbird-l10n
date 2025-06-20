@@ -188,3 +188,7 @@ account-hub-select-address-book-account = Vælg en konto med adressebøger
 # $total (Number) - The total number of address books for this account.
 account-hub-account-address-book-count = { $synced } af { $total }
     .title = { $synced } synkroniserede adressebøger, { $available } fundet
+account-hub-add-local-address-book = Opret en lokal adressebog
+account-hub-local-address-book-label = Navn på adressebog
+account-hub-local-error-text = Indtast navn på adressebog
+account-hub-sync-address-books = Synkroniser eksisterende adressebøger
