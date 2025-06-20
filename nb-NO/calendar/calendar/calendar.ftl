@@ -471,6 +471,11 @@ single-long-calendar-week = Kalenderuke: { $index }
 #    $index will be replaced with the index of the week
 single-calendar-week = U: { $index }
     .title = Kalenderuke: { $index }
+# LOCALIZATION NOTE (several-long-calendar-weeks):
+# used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-long-calendar-weeks = Kalenderuker { $startIndex }-{ $endIndex }
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
@@ -579,6 +584,8 @@ unit-minutes =
         [one] { $count } minutt
        *[other] { $count } minutter
     }
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
 # Variables:
 # $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
@@ -586,6 +593,8 @@ unit-hours =
         [one] { $count } time
        *[other] { $count } timer
     }
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
 # Variables:
 # $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
@@ -593,6 +602,8 @@ unit-days =
         [one] { $count } dag
        *[other] { $count } dager
     }
+event-duration-menuitem-count-days =
+    .label = { unit-days }
 # Variables:
 # $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
@@ -600,6 +611,48 @@ unit-weeks =
         [one] { $count } uke
        *[other] { $count } uker
     }
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
+# Variables:
+# $count (Number) - Number of minutes used to determine the correct plural form.
+event-duration-menuitem-minutes =
+    .label =
+        { $count ->
+            [one] minutt
+           *[other] minutter
+        }
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label =
+        { $count ->
+            [one] time
+           *[other] timer
+        }
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label =
+        { $count ->
+            [one] dag
+           *[other] dager
+        }
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label =
+        { $count ->
+            [one] uke
+           *[other] uker
+        }
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name

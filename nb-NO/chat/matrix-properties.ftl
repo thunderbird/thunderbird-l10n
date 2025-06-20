@@ -29,6 +29,7 @@ options-encryption-status-ok = ok
 options-encryption-status-not-ok = ikke klar
 options-encryption-need-backup-passphrase = Skriv inn passordfrasen for backupnøkkelen i protokollinnstillingene.
 options-encryption-set-up-secret-storage = For å sette opp hemmelig lagring, bruk en annen klient og skriv deretter inn passordfrasen for sikkerhetskopinøkkelen i «Generelt»-fanen.
+options-encryption-set-up-backup-and-cross-signing = For å aktivere sikkerhetskopiering av krypteringsnøkler og kryssignering, skriv inn passordfrasen for sikkerhetskopieringsnøkkelen i fanen «Generelt» eller bekreft identiteten til en av øktene nedenfor.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
@@ -134,6 +135,10 @@ detail-power = Brukernivå:
 command-ban = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Utesteng brukeren med bruker-ID fra rommet med en valgfri begrunnelse. Krever tillatelse for å utestenge brukere.
 # $commandName is the command name
 command-invite = { $commandName } &lt;userId&gt;: Inviter brukeren til rommet.
+# $commandName is the command name
+command-kick = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Kast ut brukeren med bruker-ID-en fra rommet med valgfri grunnmelding. Krever tillatelse for å kaste ut brukere.
+# $commandName is the command name
+command-nick = { $commandName } &lt;display_name&gt;: Endre visningsnavnet ditt.
 # $commandName is the command name
 command-detail = { $commandName }: Vis detaljene for rommet.
 # LOCALIZATION NOTE (message-*):
