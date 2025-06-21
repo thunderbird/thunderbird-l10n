@@ -824,14 +824,34 @@ sync-pane-manage-account = ანგარიშის მართვა
 sync-pane-sign-out = გამოსვლა…
 sync-pane-device-name-title = მოწყობილობის სახელი
 sync-pane-change-device-name = მოწყობილობის სახელის შეცვლა
+sync-pane-cancel = გაუქმება
+sync-pane-save = შენახვა
+sync-pane-show-synced-header-on = დასინქრონება ჩართ.
+sync-pane-show-synced-header-off = დასინქრონება გამორ.
+sync-pane-sync-now = დასინქრონება ახლავე
+sync-panel-sync-now-syncing = სინქრონდება…
+show-synced-list-heading = ამჟამად დასინქრონებულია:
+show-synced-learn-more = ვრცლად…
 show-synced-item-account = ელფოსტის ანგარიშები
+show-synced-item-address = წიგნაკები
+show-synced-item-calendar = კალენდრები
+show-synced-item-identity = ვინაობა
+show-synced-item-passwords = პაროლები
+show-synced-change = შეცვლა…
+synced-acount-item-server-config = სერვერის გამართვის მონაცემები
+synced-acount-item-filters = ფილტრები
+synced-acount-item-keys = OpenPGP – S/MIME
 sync-disconnected-text = დაასინქრონეთ თქვენი ელფოსტის ანგარიშები, მისამართების წიგნაკები, კალენდრები და ვინაობის მონაცემები ყველა თქვენს მოწყობილობაზე.
+sync-disconnected-turn-on-sync = დასინქრონების ჩართვა…
 
 ## Mobile QR Export Pane
 
 qr-export-pane-header = ანგარიშების გატანა { -brand-product-name } მობილურზე
+qr-export-description = სწრაფად გადაიტანეთ თქვენი ანგარიშის პარამეტრები კომპიუტერიდან მობილურზე QR-კოდის შედგენით. შეარჩიეთ, რომელ ანგარიშებს უნდა შეიცავდეს, გადაწყვიტეთ, პაროლიც გადაიცეს თუ არა და წააკითხეთ კოდი მობილურ მოწყობილობას. სწრაფი, დაცული და იოლი.
+qr-export-get-app = ჯერ არ გიყენიათ { -brand-product-name } მობილურზე? <a data-l10n-name="app-link">გადმოსაწერად იხილეთ Google Play</a>
 qr-export-create = QR-კოდის შექმნა თქვენი ანგარიშების გასატანად
 qr-export-select-accounts = მიუთითეთ გასატანი მონაცემები:
+qr-export-no-accounts = თქვენს ყველა ანგარიშს ვერ პოულობთ? ზოგიერთი მათგანი შესაძლოა, გამოითიშოს, ვინაიდან { -brand-product-name } Android-ზე არ უჭერდეს მხარს. <a data-l10n-name="account-support-link">დახმარება</a>
 qr-export-accounts-legend = ელფოსტის ანგარიშები
 qr-export-oauth-warning = თქვენი ზოგიერთი ანგარიში შესვლისას იყენებს დამოწმების ხერხს, რომელმაც შესაძლოა მოითხოვოს ხელახალი დამოწმება თქვენს მობილურ მოწყობილობაზე. შეიძლება მოგიწიოთ პაროლის ხელმეორედ შეყვანა ასეთ შემთხვევაში.
 qr-export-security-hint = მოცემული QR-კოდების წაკითხვით თქვენი ანგარიშის პარამეტრები — მათ შორის ელფოსტის მისამართი და პაროლი — უსაფრთხოდ იქნება გადატანილი. ჩვენ არ ვაგროვებთ, არ ვინახავთ და არ ვაზიარებთ ამ არანაირ მონაცემს დამუშავებისას. გადაიცემა პირდაპირ თქვენს მოწყობილობებს შორის.
