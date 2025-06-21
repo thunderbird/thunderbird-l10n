@@ -12,11 +12,22 @@ message-header-reply-to-list-name = პასუხი
 message-header-cc-list-name = ასლი
 message-header-bcc-list-name = ფარული ასლი
 message-header-newsgroups-list-name = სასაუბრო ჯგუფები
+message-header-followup-to-list-name = პასუხი ჯგუფს
 message-header-tags-list-name = ჭდეები
 # List management header - RFC 2369.
 message-header-list-id = სია-ID
 # List management header - RFC 2369.
-message-header-list-help = დახმარება-სია
+message-header-list-help = სია-დახმარება
+# List management header - RFC 2369.
+message-header-list-unsubscribe = სია-გამოწერის-გაუქმება
+# List management header - RFC 2369.
+message-header-list-subscribe = სია-გამოწერა
+# List management header - RFC 2369.
+message-header-list-post = სია-შეტყობინება
+# List management header - RFC 2369.
+message-header-list-owner = სია-მფლობელი
+# List management header - RFC 2369.
+message-header-list-archive = სია-არქივი
 # Direct link to the archived form of an individual email message - RFC 5064.
 message-header-archived-at = დაარქივებული
 
@@ -29,7 +40,9 @@ message-header-date-field = თარიღი<span data-l10n-name="field-separa
 message-header-user-agent-field = მომხმარებლის წარმდგენი<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = წერილის ID<span data-l10n-name="field-separator">:</span>
 message-header-website-field = საიტი<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = სია-ID<span data-l10n-name="field-separator">:</span>
 message-header-list-help-field = დახმარება-სია<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = სია-გამოწერის-გაუქმება<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = დახმარების მიღება
