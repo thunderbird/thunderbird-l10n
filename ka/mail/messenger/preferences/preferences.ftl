@@ -853,6 +853,9 @@ qr-export-create = QR-კოდის შექმნა თქვენი ა�
 qr-export-select-accounts = მიუთითეთ გასატანი მონაცემები:
 qr-export-no-accounts = თქვენს ყველა ანგარიშს ვერ პოულობთ? ზოგიერთი მათგანი შესაძლოა, გამოითიშოს, ვინაიდან { -brand-product-name } Android-ზე არ უჭერდეს მხარს. <a data-l10n-name="account-support-link">დახმარება</a>
 qr-export-accounts-legend = ელფოსტის ანგარიშები
+qr-export-select-all-accounts = ყველას მონიშვნა
+qr-export-security-legend = უსაფრთხოება
+qr-export-include-passwords = ყველა ანგარიშის პაროლის დართვა
 qr-export-oauth-warning = თქვენი ზოგიერთი ანგარიში შესვლისას იყენებს დამოწმების ხერხს, რომელმაც შესაძლოა მოითხოვოს ხელახალი დამოწმება თქვენს მობილურ მოწყობილობაზე. შეიძლება მოგიწიოთ პაროლის ხელმეორედ შეყვანა ასეთ შემთხვევაში.
 qr-export-security-hint = მოცემული QR-კოდების წაკითხვით თქვენი ანგარიშის პარამეტრები — მათ შორის ელფოსტის მისამართი და პაროლი — უსაფრთხოდ იქნება გადატანილი. ჩვენ არ ვაგროვებთ, არ ვინახავთ და არ ვაზიარებთ ამ არანაირ მონაცემს დამუშავებისას. გადაიცემა პირდაპირ თქვენს მოწყობილობებს შორის.
 qr-export-security-warning = თქვენივე უსაფრთხოებისთვის გთხოვთ გადაამოწმოთ, რომ პირად არეში იმყოფებით და QR-კოდები მხოლოდ სანდო წყაროებიდანაა წაკითხული.
@@ -865,8 +868,19 @@ qr-export-scan-progress =
         [one] { $step }, სულ { $count } QR-კოდი
        *[other] { $step }, სულ { $count } QR-კოდი
     }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] გაუშვით { -brand-product-name } მობილურზე და წააკითხეთ QR-კოდი
+       *[other] გაუშვით { -brand-product-name } მობილურზე და წააკითხეთ QR-კოდი
+    }
+qr-export-scan-step1 = გახსენით { -brand-product-name } თქვენს მობილურზე.
+qr-export-scan-step2 = გადადით პარამეტრებში
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = აირჩიეთ <strong>შემოტანის პარამეტრები</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = შეეხეთ <strong>QR-კოდის წაკითხვას</strong> და მიუშვირეთ ტელეფონი ამ კოდს
 qr-export-summary-description = ანგარიშები გატანილია. განაგრძეთ მობილურ მოწყობილობაზე.
 qr-export-summary-title = გატანის შეჯამება:
 # Variables:
