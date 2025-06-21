@@ -36,13 +36,21 @@ message-header-archived-at = დაარქივებული
 
 message-header-author-field = შემქმნელი<span data-l10n-name="field-separator">:</span>
 message-header-organization-field = დაწესებულება<span data-l10n-name="field-separator">:</span>
+message-header-subject-field = თემა<span data-l10n-name="field-separator">:</span>
 message-header-date-field = თარიღი<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = მომხმარებლის წარმდგენი<span data-l10n-name="field-separator">:</span>
+message-header-references-field = წყაროები<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = წერილის ID<span data-l10n-name="field-separator">:</span>
+message-header-in-reply-to-field = პასუხად<span data-l10n-name="field-separator">:</span>
 message-header-website-field = საიტი<span data-l10n-name="field-separator">:</span>
 message-header-list-id-field = სია-ID<span data-l10n-name="field-separator">:</span>
 message-header-list-help-field = დახმარება-სია<span data-l10n-name="field-separator">:</span>
 message-header-list-unsubscribe-field = სია-გამოწერის-გაუქმება<span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = სია-გამოწერა<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = სია-შეტყობინება<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = სია-მფლობელი<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = სია-არქივი<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = დაარქივებული<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = დახმარების მიღება
