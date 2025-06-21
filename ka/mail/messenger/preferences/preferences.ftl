@@ -881,8 +881,18 @@ qr-export-scan-step2 = გადადით პარამეტრებშ�
 qr-export-scan-step3 = აირჩიეთ <strong>შემოტანის პარამეტრები</strong>
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
 qr-export-scan-step4-revision = შეეხეთ <strong>QR-კოდის წაკითხვას</strong> და მიუშვირეთ ტელეფონი ამ კოდს
+qr-export-back = წინა
+qr-export-next = შემდეგი
+qr-export-done = მზადაა
 qr-export-summary-description = ანგარიშები გატანილია. განაგრძეთ მობილურ მოწყობილობაზე.
 qr-export-summary-title = გატანის შეჯამება:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] შედგენილია { $count } QR-კოდი
+       *[other] შედგენილია { $count } QR-კოდი
+    }
 # Variables:
 # $count (Number) - Number of accounts included in the export.
 qr-export-summary-accounts =
@@ -890,6 +900,8 @@ qr-export-summary-accounts =
         [one] { $count } ანგარიშია გატანილი:
        *[other] { $count } ანგარიშია გატანილი:
     }
+qr-export-summary-passwords-included = პაროლები დართულია
+qr-export-summary-passwords-excluded = პაროლები ამოკლებულია
 qr-export-more-accounts = სხვა ანგარიშების გატანა
 
 ## Appearance Tab
@@ -904,6 +916,12 @@ appearance-radio-cards =
     .label = საბარათო ხედი
 cards-view-legend = საბარათო ხედის გამართვა
 table-view-legend = ცხრილური ხედის გამართვა
+appearance-card-rows =
+    .value = რიგების რაოდენობა:
+appearance-card-style-3 =
+    .label = 3 რიგი
+appearance-card-style-2 =
+    .label = 2 რიგი
 default-message-list-sorting-legend = დალაგება და მიმოწერად ჩვენება
 default-message-list-description = ნაგულისხმევად დალაგებისა და მიმოწერად დახარისხების პარამეტრები ახლადშექმნილი საქაღალდეებისთვის.
 default-flag-label =
@@ -912,11 +930,64 @@ default-flag-unthreaded =
     .label = მიმოწერის გარეშე
 default-flag-threaded =
     .label = მიმოწერის სახით
+default-flag-grouped =
+    .label = დალაგებით დაჯგუფებული
+default-sort-label = ნაგულისხმები დალაგება:
+default-sort-date =
+    .label = თარიღი
+default-sort-subject =
+    .label = თემა
+default-sort-from =
+    .label = ვისგან
+default-sort-id =
+    .label = ID
 default-sort-thread =
     .label = მიმოწერა
+default-sort-priority =
+    .label = უპირატესობა
+default-sort-status =
+    .label = მდგომარეობა
+default-sort-size =
+    .label = ზომა
+default-sort-star =
+    .label = ვარსკვლავი
+default-sort-unread =
+    .label = წაკითხული
+default-sort-recipient =
+    .label = მიმღები
+default-sort-location =
+    .label = მდებარეობა
+default-sort-tags =
+    .label = ჭდეები
+default-sort-spam =
+    .label = ჯართად მიჩნევა
 default-sort-attachments =
     .label = დანართები
+default-sort-account =
+    .label = ანგარიში
+default-sort-received =
+    .label = მიღების თანმიმდევრობა
+default-sort-correspondents =
+    .label = გამომგზავნები
+default-order-label = ნაგულისხმები დალაგება:
+default-sort-ascending =
+    .label = აღმავალი
+default-sort-ascending-description = ახალი წერილები ქვემოთ
+default-sort-descending =
+    .label = დაღმავალი
+default-sort-descending-description = ახალი წერილები ზემოთ
 apply-thread-sort-label = მიმოწერისა და დალაგების მიმდინარე პარამეტრების გავრცელება:
+apply-sort-to-all-button =
+    .label = ყველა არსებული საქაღალდე
+    .accesskey = ყ
+choose-apply-sort-button =
+    .label = არჩევა…
+    .accesskey = ა
+apply-current-view-to-folder =
+    .label = საქაღალდე…
+apply-current-view-to-folder-children =
+    .label = საქაღალდესა და მის ქვესაქაღალდეებში…
+apply-changes-prompt-title = შევინახო ცვლილებები?
 apply-changes-prompt-message = აისახოს მიმოწერისა და დალაგების მიმდინარე პარამეტრების ყველა საქაღალდეზე?
 # Variables:
 #  $name (String): The name of the folder to apply to.
