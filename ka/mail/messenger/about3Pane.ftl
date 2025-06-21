@@ -254,10 +254,17 @@ threadpane-cell-spam =
 threadpane-spam-cell-label = ჯართი
 threadpane-column-header-unread-button =
     .title = წასაკითხის მიხედვით დალაგება
+threadpane-read-cell-label = წაკითხული
+threadpane-unread-cell-label = წასაკითხი
 threadpane-column-header-sender = გამგზავნი
     .title = გამომგზავნის მიხედვით
 threadpane-column-label-sender =
     .label = გამგზავნი
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = ვისგან
+    .title = { $title }
 threadpane-column-header-recipient = მიმღები
     .title = მიმღების მიხედვით
 threadpane-column-label-recipient =
@@ -271,61 +278,144 @@ threadpane-column-header-correspondents = გამომგზავნებ�
     .title = გამომგზავნების მიხედვით
 threadpane-column-label-correspondents =
     .label = გამომგზავნები
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = გამომგზავნები
+    .title = { $title }
 threadpane-column-header-subject = თემა
     .title = თემის მიხედვით
 threadpane-column-label-subject =
     .label = თემა
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = თემა
+    .title = { $title }
 threadpane-column-header-date = თარიღი
     .title = თარიღის მიხედვით
 threadpane-column-label-date =
     .label = თარიღი
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = თარიღი
+    .title = { $title }
 threadpane-column-header-received = მიღებულია
     .title = მიღების თარიღის მიხედვით
 threadpane-column-label-received =
     .label = მიღებულია
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = მიღების თარიღი
+    .title = { $title }
 threadpane-column-header-status = სტატუსი
     .title = მდგომარეობის მიხედვით
 threadpane-column-label-status =
     .label = სტატუსი
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = მდგომარეობა
+    .title = { $title }
 threadpane-column-header-size = ზომა
     .title = ზომის მიხედვით
 threadpane-column-label-size =
     .label = ზომა
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = ზომა
+    .title = { $title }
 threadpane-column-header-tags = ჭდე
     .title = ჭდეების მიხედვით
 threadpane-column-label-tags =
     .label = ჭდე
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = ჭდეები
+    .title = { $title }
 threadpane-column-header-account = ანგარიში
     .title = ანგარიშის მიხედვით
 threadpane-column-label-account =
     .label = ანგარიში
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = ანგარიში
+    .title = { $title }
 threadpane-column-header-priority = პრიორიტეტი
     .title = უპირატესობის მიხედვით
 threadpane-column-label-priority =
     .label = პრიორიტეტი
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = უპირატესობა
+    .title = { $title }
 threadpane-column-header-unread = წასაკითხი
     .title = წასაკითხი წერილების რაოდენობა მიმოწერაში
 threadpane-column-label-unread =
     .label = წასაკითხი
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = წასაკითხი წერილების რაოდენობა
+    .title = { $title }
 threadpane-column-header-total = სულ
     .title = წერილების საერთო რაოდენობა მიმოწერაში
 threadpane-column-label-total =
     .label = სულ
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = წერილთა საერთო რაოდენობა
+    .title = { $title }
 threadpane-column-header-location = მისამართი
     .title = მდებარეობის მიხედვით
 threadpane-column-label-location =
     .label = მისამართი
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = მდებარეობა
+    .title = { $title }
 threadpane-column-header-id = მიღების რიგი
     .title = მიღების თანმიმდევრობით
 threadpane-column-label-id =
     .label = მიღების რიგი
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = მიღების თანმიმდევრობა
+    .title = { $title }
 threadpane-column-header-delete =
     .title = წერილის წაშლა
 threadpane-column-label-delete =
     .label = წაშლა
+threadpane-cell-delete =
+    .aria-label = წაშლა
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } პასუხი
+       *[other] { $count } პასუხი
+    }
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = ახალი წერილის მაჩვენებელი
+    .title = ახალი წერილი
+threadpane-message-replied =
+    .alt = პასუხგაცემულის მაჩვენებელი
+    .title = წერილი პასუხგაცემულია
+threadpane-message-redirected =
+    .alt = გადამისამართების მაჩვენებელი
+    .title = წერილი გადამისამართებულია
 apply-columns-to-menu =
     .label = სვეტების ასახვა…
 apply-current-view-to-menu =
