@@ -17,6 +17,8 @@ message-header-tags-list-name = ჭდეები
 message-header-list-id = სია-ID
 # List management header - RFC 2369.
 message-header-list-help = დახმარება-სია
+# Direct link to the archived form of an individual email message - RFC 5064.
+message-header-archived-at = დაარქივებული
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.

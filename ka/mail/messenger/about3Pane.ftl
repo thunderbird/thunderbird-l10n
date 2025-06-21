@@ -460,6 +460,22 @@ apply-current-view-to-folder-message = გამოჩნდეს { $name } ს
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = გამოჩნდეს { $name } და მისი შიგთავსი საქაღალდის მიმდინარე ხედით?
 # Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> წასაკითხი, სულ <span>1</span> წერილიდან
+               *[other] <span>1</span> წასაკითხი, სულ <span>{ $total }</span> წერილიდან
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> წასაკითხი, სულ <span>1</span> წერილიდან
+               *[other] <span>{ $unread }</span> წასაკითხი, სულ <span>{ $total }</span> წერილიდან
+            }
+    }
+# Variables:
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-count =
     { $total ->
