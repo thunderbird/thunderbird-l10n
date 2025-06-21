@@ -254,6 +254,10 @@ threadpane-cell-spam =
 threadpane-spam-cell-label = ჯართი
 threadpane-column-header-unread-button =
     .title = წასაკითხის მიხედვით დალაგება
+threadpane-column-label-unread-button =
+    .label = წაკითხვის მდგომარეობა
+threadpane-cell-read-status =
+    .aria-label = წაკითხვის მდგომარეობა
 threadpane-read-cell-label = წაკითხული
 threadpane-unread-cell-label = წასაკითხი
 threadpane-column-header-sender = გამგზავნი
@@ -416,6 +420,21 @@ threadpane-message-replied =
 threadpane-message-redirected =
     .alt = გადამისამართების მაჩვენებელი
     .title = წერილი გადამისამართებულია
+threadpane-message-forwarded =
+    .alt = გადაგზავნის მაჩვენებელი
+    .title = წერილი გადაგზავნილია
+threadpane-message-replied-forwarded =
+    .alt = პასუხგაცემულისა და გადაგზავნილის მაჩვენებელი
+    .title = წერილი პასუხგაცემული და გადაგზავნილია
+threadpane-message-replied-redirected =
+    .alt = პასუხგაცემულისა და გადამისამართებულის მაჩვენებელი
+    .title = წერილი პასუხგაცემული და გადამისამართებულია
+threadpane-message-forwarded-redirected =
+    .alt = გადაგზავნისა და გადამისამართების მაჩვენებელი
+    .title = წერილი გადაგზავნილი და გადამისამართებულია
+threadpane-message-replied-forwarded-redirected =
+    .alt = პასუხგაცემულისა, გადაგზავნილისა და გადამისამართებულის მაჩვენებელი
+    .title = წერილი პასუხგაცემული, გადაგზავნილი და გადამისამართებულია
 apply-columns-to-menu =
     .label = სვეტების ასახვა…
 apply-current-view-to-menu =
@@ -427,6 +446,7 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = შეინახოს ცვლილებები?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = გამოვიყენო მიმდინარე საქაღალდის სვეტები { $name } საქაღალდისთვის?
@@ -439,6 +459,17 @@ apply-current-view-to-folder-message = გამოჩნდეს { $name } ს
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = გამოჩნდეს { $name } და მისი შიგთავსი საქაღალდის მიმდინარე ხედით?
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> წერილი
+       *[other] <span>{ $total }</span> წერილი
+    }
+threadpane-card-menu-button =
+    .title = წერილის მენიუ
+message-list-placeholder-no-messages = წერილები არაა
+message-list-placeholder-multiple-folders = რამდენიმე საქაღალდეა შერჩეული
 
 ## Folder pane context menu
 
