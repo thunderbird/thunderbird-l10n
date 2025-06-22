@@ -787,6 +787,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Procurar nas configurações
+managed-notice = O { -brand-short-name } está sendo gerenciado por sua organização.
 
 ## Settings UI Search Results
 

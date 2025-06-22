@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = Cancelar
 account-manager-server-default-icon =
     .title = Conta padrão
     .alt = Ícone de estrela
+outgoing-server-section-name = Servidor de envio
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Configurações do servidor de envio
+outgoing-server-settings-description = Ao gerenciar suas identidades, você pode usar um servidor desta lista, selecionando como servidor de envio, ou pode usar o servidor padrão desta lista, selecionando “Usar servidor padrão”.
+outgoing-server-type = Nome do servidor:
