@@ -377,8 +377,8 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Lajsta dźělowych programow
-    .aria-label = Lajsta dźělowych programow
+    .toolbarname = Lajsta dźělnych programow
+    .aria-label = Lajsta dźělnych programow
     .aria-description = Wertikalna symbolowa lajsta, kotraž mjez rozdźělnymi dźělnymi programami přepina. Wužiwajće šipkowe tasty, zo byšće po k dispoziciji stejacych tłóčatkach nawigował.
 spaces-toolbar-button-mail2 =
     .title = E-mejl
