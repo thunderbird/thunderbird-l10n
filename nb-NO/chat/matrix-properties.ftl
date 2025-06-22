@@ -140,6 +140,8 @@ command-kick = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Kast ut brukere
 # $commandName is the command name
 command-nick = { $commandName } &lt;display_name&gt;: Endre visningsnavnet ditt.
 # $commandName is the command name
+command-leave = { $commandName }: Forlat dette rommet.
+# $commandName is the command name
 command-detail = { $commandName }: Vis detaljene for rommet.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
@@ -189,11 +191,24 @@ message-room-name-changed = { $user } endret navnet på rommet til { $newRoomNam
 #    $oldPowerLevel is the old power level.
 #    $newPowerLevel is the new power level.
 message-power-level-from-to = { $user } fra { $oldPowerLevel } til { $newPowerLevel }
+message-space-not-supported = Dette rommet er et område som ikke støttes.
+message-encryption-start = Meldinger i denne samtalen er nå ende-til-ende-kryptert.
 #    $user is the name of the user who sent the verification request.
 #    $userReceiving is the name of the user that is receiving the verification request.
 message-verification-request2 = { $user } vil verifisere { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } avbrøt verifiseringen med årsaken: { $reason }
 message-verification-done = Verifisering fullført.
+message-decryption-error = Kan ikke dekryptere innholdet i denne meldingen. Høyreklikk på meldingen for å hente krypteringsnøkler fra de andre enhetene dine.
 message-decrypting = Dekrypterer…
+#    Label in the message context menu
+message-action-request-key = Be om nøkler på nytt
 message-action-redact = Rediger
 message-action-report = Rapporter melding
+message-action-retry = Prøv å sende på nytt
 message-action-cancel = Avbryt melding
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Det oppstod en feil under sending av meldingen «{ $message }».

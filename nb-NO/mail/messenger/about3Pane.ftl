@@ -15,6 +15,8 @@ thread-pane-folder-message-count =
         [one] { $count } melding
        *[other] { $count } meldinger
     }
+thread-pane-header-context-table-view =
+    .label = Tabellvisning
 thread-pane-header-context-cards-view =
     .label = Kortvisning
 
