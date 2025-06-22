@@ -181,6 +181,7 @@ account-hub-address-book-sync-option-data =
                *[other] Disponíveis { $addressBooks } catálogos de endereços de { $accounts } contas
             }
     }
+address-book-sync-existing-description = Obtendo contas existentes…
 account-hub-select-address-book-account = Selecione uma conta com catálogos de endereços
 # $synced (Number) - The number of address books that are synced.
 # $available (Number) - The number of address books that can be synced.
