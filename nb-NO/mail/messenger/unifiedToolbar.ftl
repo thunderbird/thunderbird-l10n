@@ -43,6 +43,7 @@ customize-button-style-icons-only-option = Kun ikoner
 customize-button-style-text-only-option = Kun tekst
 customize-cancel = Avbryt
 customize-save = Lagre
+customize-palette-addressbook-specific-title = Kun tilgjengelig for adressebok
 
 ## Unified toolbar customization palette context menu
 

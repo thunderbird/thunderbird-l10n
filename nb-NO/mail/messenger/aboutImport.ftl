@@ -66,6 +66,7 @@ items-pane-profile-name = Profilnavn:
 items-pane-checkbox-accounts = Kontoer og innstillinger
 items-pane-checkbox-address-books = Adressebøker
 items-pane-checkbox-calendars = Kalendere
+items-pane-checkbox-mail-messages = E-postmeldinger
 
 ## Import from address book file steps
 

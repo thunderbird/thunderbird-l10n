@@ -16,6 +16,10 @@ account-hub-donate = Doner
 
 ## Initial setup page
 
+account-hub-email-setup-button = E-postkonto
+    .title = Sett opp en e-postkonto
+account-hub-address-book-setup-button = Adressebok
+    .title = Sett opp en lokal eller ekstern adressebok
 account-hub-newsgroup-setup-button = Temagruppe
     .title = Sett opp en temagruppekonto
 
@@ -49,5 +53,9 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = Ingen autentisering
 account-hub-username-label = Brukernavn
+account-hub-find-account-settings-failed = { -brand-short-name } klarte ikke finne innstillingene for e-postkontoen din.
+account-hub-find-settings-failed = { -brand-full-name } klarte ikke finne innstillingene for e-postkontoen din.
 account-hub-notification-show-more = Vis mer
 account-hub-notification-show-less = Vis mindre
+account-hub-email-setup-header = Legg til e-postadressen din
+account-hub-email-config-found = Velg din e-postkontotype

@@ -197,6 +197,8 @@ no-reply-reply-anyway-button = Svar uansett
 
 ## Spaces toolbar
 
+spaces-toolbar-button-address-book2 =
+    .title = Adressebok
 spaces-toolbar-button-calendar2 =
     .title = Kalender
 spaces-toolbar-button-tasks2 =
@@ -218,6 +220,8 @@ settings-context-open-addons-item2 =
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
 # Variables:
 # $count (Number) - Number of unread messages.
 chat-button-unread-messages = { $count }

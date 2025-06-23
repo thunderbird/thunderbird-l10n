@@ -400,6 +400,10 @@ close-move-delete =
 condensed-addresses-label =
     .label = Vis bare visningsnavnet for personer i adresseboken
     .accesskey = V
+account-hub-ab-checkbox-label =
+    .label = Opprett adressebøker i det nye kontosenteret
+    .accesskey = O
+account-hub-ab-checkbox-description = Eksperimentell ny prosedyre for oppretting av adressebok
 
 ## Compose Tab
 
@@ -709,6 +713,7 @@ search-results-help-link = Trenger du hjelp? Gå til <a data-l10n-name="url">{ -
 
 ## Sync Tab
 
+sync-signedout-description = Synkroniser kontoene, adressebøkene, kalenderne, tilleggene og innstillingene dine på tvers av alle enhetene dine.
 sync-pane-header = Synkroniser
 sync-pane-sign-in = Logg inn
 sync-pane-remove-account = Fjern konto
@@ -723,6 +728,7 @@ show-synced-item-identity = Identiteter
 show-synced-item-passwords = Passord
 show-synced-change = Endre …
 synced-acount-item-filters = Filtre
+sync-disconnected-text = Synkroniser e-postkontoer, adressebøker, kalendere og identiteter på tvers av alle enhetene dine.
 
 ## Mobile QR Export Pane
 

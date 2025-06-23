@@ -173,6 +173,7 @@ account-setup-linked-services-title = Koble til dine tilknyttede tjenester
 account-setup-linked-services-description = { -brand-short-name } oppdaget andre tjenester som er knyttet til e-postkontoen din.
 account-setup-button-finish = Ferdig
     .accesskey = F
+account-setup-address-books-button = Adressebøker
 account-setup-calendars-button = Kalendere
 account-setup-existing-address-book = Tilkoblet
     .title = Adresseboken er allerede tilkoblet

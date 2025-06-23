@@ -78,6 +78,7 @@ toolbar-mark-as-label = Merk
 toolbar-mark-as =
     .title = Merk meldinger
 toolbar-view-picker-label = Vis
+toolbar-address-book-label = Adressebok
 toolbar-address-book =
     .title = Åpne adresseboken
 toolbar-chat-label = Nettprat
@@ -129,11 +130,16 @@ toolbar-throbber-label = Aktivitetsindikator
 toolbar-throbber =
     .title = Aktivitetsindikator
 toolbar-create-contact-label = Ny kontakt
+toolbar-create-address-book-label = Ny adressebok
+toolbar-create-address-book =
+    .title = Opprett en ny adressebok
 toolbar-create-list-label = Ny liste
 
 ## New Address Book popup items
 
 toolbar-new-address-book-popup-add-js-address-book =
     .label = Legg til lokal adressebok
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Legg til CardDAV-adressebok
 toolbar-new-address-book-popup-add-ldap-address-book =
     .label = Legg til LDAP-adressebok

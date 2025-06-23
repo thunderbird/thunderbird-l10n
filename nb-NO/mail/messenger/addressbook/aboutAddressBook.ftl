@@ -8,10 +8,17 @@ about-addressbook-title = Adressebok
 
 about-addressbook-toolbar-new-address-book =
     .label = Ny adressebok
+books-pane-import-button = Importer
+    .title = Importer adressebøker
 
 ## Books
 
+all-address-books-row =
+    .title = Alle adressebøker
 all-address-books = Alle adressebøker
+# Variables:
+# $count (Number) - The number of contacts in all address books.
+about-addressbook-card-count-all = Totalt antall kontakter i alle adressebøker: { $count }
 about-addressbook-books-context-properties =
     .label = Egenskaper
 about-addressbook-books-context-synchronize =
@@ -21,19 +28,33 @@ about-addressbook-books-context-delete =
 about-addressbook-books-context-remove =
     .label = Fjern
 about-addressbook-confirm-delete-book-title = Slett adressebok
+about-addressbook-confirm-remove-remote-book-title = Fjern adressebok
 
 ## Cards
 
+about-addressbook-search-all2 =
+    .label = Søk i alle adressebøker
+    .placeholder = Søk i alle adressebøker …
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-header-addrbook2 = Adressebok
+    .title = Sorter etter adressebok
+about-addressbook-column-label-addrbook2 =
+    .label = Adressebok
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Adressebok
+    .title = { $title }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
 about-addressbook-placeholder-empty-book = Ingen tilgjengelige kontakter
 about-addressbook-placeholder-new-contact = Ny kontakt
+about-addressbook-placeholder-search-only = Denne adresseboken viser kontakter bare etter at du har gjort et søk
 about-addressbook-placeholder-no-search-results = Ingen kontakter funnet
 
 ## Details

@@ -34,6 +34,8 @@ list-id-list-post =
 
 message-header-address-not-in-address-book-icon2 =
     .alt = Ikke i adresseboken
+message-header-address-not-in-address-book-button =
+    .title = Lagre denne adressen i adresseboken
 message-header-field-show-more = Mer
     .title = Vis alle mottakere
 message-ids-field-show-all = Vis alle
