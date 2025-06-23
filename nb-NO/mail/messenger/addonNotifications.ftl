@@ -42,6 +42,8 @@ xpinstall-disabled-button =
 #   $addonName (String): the name of the add-on.
 #   $addonId (String): the ID of add-on.
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) blokkeres av din systemadministrator.
+# This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
+addon-domain-blocked-by-policy = Systemansvarlig forhindret dette nettstedet fra å spørre deg om å installere programvare på datamaskinen din.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } lagt til i { -brand-short-name }
@@ -51,6 +53,14 @@ webext-perms-update-menu-item = { $addonName } krever nye tillatelser
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Vil du fjerne { $name }?
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = Vil du fjerne { $name } fra { -brand-shorter-name }?
+addon-removal-button = Fjern
+addon-removal-abuse-report-checkbox = Rapporter denne utvidelsen til { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -92,6 +102,7 @@ addon-install-error-incorrect-hash = Klarte ikke installere utvidelsen på grunn
 addon-install-error-corrupt-file = Klarte ikke laste ned utvidelsen fordi det ser ut som den er skadet.
 addon-install-error-file-access = Klarte ikke installere { $addonName } fordi { -brand-short-name } ikke kunne endre den påkrevde filen.
 addon-install-error-not-signed = { -brand-short-name } forhindret dette nettstedet fra å installere en ubekreftet utvidelse.
+addon-install-error-invalid-domain = Tillegget { $addonName } kan ikke installeres fra denne plasseringen.
 addon-local-install-error-network-failure = Denne utvidelsen kan ikke installeres på grunn av en feil på filsystemet.
 addon-local-install-error-incorrect-hash = Klarte ikke installere utvidelsen på grunn av at den ikke stemmer med utvidelsen som { -brand-short-name } forventet.
 addon-local-install-error-corrupt-file = Denne utvidelsen kan ikke installeres fordi den ser ut til å være skadet.
