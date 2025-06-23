@@ -240,6 +240,9 @@ many-public-recipients-prompt-send = Send uansett
 
 ## Notifications
 
+# Variables:
+# $identity (string) - The name of the used identity, most likely an email address.
+compose-missing-identity-warning = En unik identitet som passer med fra-adressen ble ikke funnet. Meldingen vil bli sendt ved hjelp av gjeldende fra-felt og innstillinger fra identitet { $identity }.
 encrypted-bcc-ignore-button = Forstått
 
 ## Editing

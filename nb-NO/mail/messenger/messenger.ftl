@@ -164,6 +164,7 @@ message-header-msg-flagged =
 
 ## Message header customize panel
 
+message-header-customize-panel-title = Innstillinger for meldingshode
 message-header-customize-button-style =
     .value = Knappestil
     .accesskey = K
@@ -220,8 +221,20 @@ settings-context-open-addons-item2 =
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
 spaces-pinned-button-menuitem-address-book2 =
     .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
+spaces-pinned-button-menuitem-show =
+    .label = { spaces-toolbar-button-show.title }
 # Variables:
 # $count (Number) - Number of unread messages.
 chat-button-unread-messages = { $count }
@@ -235,6 +248,7 @@ chat-button-unread-messages = { $count }
 
 menuitem-customize-label =
     .label = Tilpass …
+spaces-customize-panel-title = Innstillinger for område-verktøylinjen
 spaces-customize-background-color = Bakgrunnsfarge
 spaces-customize-icon-color = Knappefarge
 customize-panel-button-save = Ferdig

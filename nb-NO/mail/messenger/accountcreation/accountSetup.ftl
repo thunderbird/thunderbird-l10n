@@ -178,9 +178,17 @@ account-setup-found-address-books-description =
         [one] { -brand-short-name } fant en adressebok som er koblet til e-postkontoen din.
        *[other] { -brand-short-name } fant { $count } adressebøker koblet til e-postkontoen din.
     }
+# Variables:
+# $count (Number) - The number of calendars found during autoconfig.
+account-setup-found-calendars-description =
+    { $count ->
+        [one] { -brand-short-name } fant en kalender som er koblet til e-postkontoen din.
+       *[other] { -brand-short-name } fant { $count } kalendere koblet til e-postkontoen din.
+    }
 account-setup-button-finish = Ferdig
     .accesskey = F
 account-setup-looking-up-address-books = Søker etter adressebøker…
+account-setup-looking-up-calendars = Søker etter kalendere…
 account-setup-address-books-button = Adressebøker
 account-setup-calendars-button = Kalendere
 account-setup-existing-address-book = Tilkoblet

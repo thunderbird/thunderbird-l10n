@@ -18,6 +18,8 @@ account-hub-donate = Doner
 
 account-hub-email-setup-button = E-postkonto
     .title = Sett opp en e-postkonto
+account-hub-calendar-setup-button = Kalender
+    .title = Sett opp en lokal eller ekstern kalender
 account-hub-address-book-setup-button = Adressebok
     .title = Sett opp en lokal eller ekstern adressebok
 account-hub-newsgroup-setup-button = Temagruppe
@@ -61,6 +63,7 @@ account-hub-email-setup-header = Legg til e-postadressen din
 account-hub-email-config-found = Velg din e-postkontotype
 account-hub-email-sync-accounts = Synkroniser dine kalendre og adressebøker
 account-hub-no-address-books = Ingen adressebøker funnet
+account-hub-no-calendars = Ingen kalendere funnet
 account-hub-add-address-book = Legg til en adressebok
 address-book-sync-existing-icon =
     .alt = Synkroniser en adressebok fra en eksisterende konto

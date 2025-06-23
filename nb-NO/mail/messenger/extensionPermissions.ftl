@@ -20,3 +20,4 @@ webext-perms-description-compose = Les og modifiser e-postmeldingene dine mens d
 webext-perms-description-experiment = Har full, ubegrenset tilgang til { -brand-short-name }, og datamaskinen din
 webext-perms-description-messagesModify = Les og endre e-postmeldingene dine slik de vises for deg
 webext-perms-description-messagesDelete = Slett e-postmeldingene dine permanent
+webext-perms-description-messengerSettings = Les innstillingene for { -brand-short-name }

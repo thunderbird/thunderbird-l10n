@@ -42,6 +42,7 @@ source-file-description = Velg en fil for å importere adressebøker, kalendre, 
 
 file-profile2 = Importer profilsikkerhetskopi
 file-calendar = Importer kalendere
+file-calendar-description = Velg en fil som inneholder eksporterte kalendere eller hendelser (.ics)
 file-addressbook = Importer adressebøker
 file-addressbook-description = Velg en fil som inneholder eksporterte adressebøker og kontakter
 
@@ -87,8 +88,20 @@ addr-book-summary-description = En ny adressebok kalt «{ $addressBookName }» v
 
 ## Import from calendar file steps
 
+import-from-calendar-file-desc = Velg iCalendar (.ics)-filen du vil importere.
 calendar-items-loading = Laster inn elementer …
 calendar-select-all-items = Merk alle
+# $targetCalendar (string) - name of the new calendar that would be created
+calendar-import-into-new-calendar2 = Opprett en ny kalender kalt <strong>«{ $targetCalendar }»</strong>
+# $itemCount (number) - count of selected items (tasks, events) that will be imported
+# $targetCalendar (string) - name of the calendar the items will be imported into
+calendar-summary-title =
+    { $itemCount ->
+        [one] Importer et element til «{ $targetCalendar }»-kalenderen
+       *[other] Importer { $itemCount } elementer til «{ $targetCalendar }»-kalenderen
+    }
+# $targetCalendar (string) - name of the calendar that will be created
+calendar-summary-description = En ny kalender kalt «{ $targetCalendar }» vil bli opprettet.
 
 ## Import dialog
 

@@ -44,6 +44,7 @@ customize-button-style-text-only-option = Kun tekst
 customize-cancel = Avbryt
 customize-save = Lagre
 customize-palette-addressbook-specific-title = Kun tilgjengelig for adressebok
+customize-palette-calendar-specific-title = Kun tilgjengelig for området kalender
 
 ## Unified toolbar customization palette context menu
 

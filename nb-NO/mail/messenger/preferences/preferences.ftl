@@ -602,6 +602,7 @@ security-devices-button =
     .label = Sikkerhetsenheter…
     .accesskey = e
 account-settings = Kontoinnstillinger
+email-e2ee-enable-info = Konfigurer e-postkontoer og identiteter for ende-til-ende-kryptering i kontoinnstillinger.
 email-e2ee-automatism = Automatisk bruk av kryptering
 
 ## Chat Tab
@@ -732,6 +733,20 @@ sync-disconnected-text = Synkroniser e-postkontoer, adressebøker, kalendere og 
 
 ## Mobile QR Export Pane
 
+qr-export-description = Overfør kontoinnstillingene dine raskt fra datamaskin til mobil ved å generere en QR-kode. Velg hvilke kontoer som skal inkluderes, bestem deg for om du vil overføre passordet ditt, og skann koden med mobilenheten din. Raskt, sikkert og enkelt.
+qr-export-security-hint = Ved å skanne følgende QR-koder vil kontoinnstillingene dine — inkludert e-postadresse og passord — bli overført sikkert. Vi verken samler inn, lagrer eller deler noen av disse dataene under prosessen. Overføringen skjer direkte mellom enhetene dine.
+qr-export-scan-step2 = Gå til innstillinger
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Velg <strong>Importer innstillinger</strong>
 
 ## Appearance Tab
 
+apply-changes-prompt-message = Skal gjeldende innstillinger for trådvisning og sortering brukes på alle mapper?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Vil du bruke gjeldende innstillinger for trådvisning og sortering på «{ $name }»?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Vil du bruke gjeldende innstillinger for trådvisning og sortering på «{ $name }» og undermappene?
+apply-current-view-error = Kan ikke bruke gjeldende visningsinnstillinger
+apply-current-view-success = Gjeldende visningsinnstillinger er brukt
