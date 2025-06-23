@@ -9,6 +9,7 @@ export-page-title = Eksporter
 
 import-file = Importer fra en fil
 import-file-title = Velg en fil for å importere innholdet.
+import-file-description = Velg å importere en tidligere sikkerhetskopiert profil, adressebøker eller kalendere.
 import-address-book-title = Importer adressebokfil
 import-calendar-title = Importer kalenderfil
 export-profile = Eksporter
@@ -70,11 +71,19 @@ items-pane-checkbox-mail-messages = E-postmeldinger
 
 ## Import from address book file steps
 
+import-from-addr-book-file-description = Velg filformatet som inneholder adressebok-dataene dine.
 addr-book-ldif-file = LDIF-fil (.ldif)
 addr-book-vcard-file = vCard-fil (.vcf, .vcard)
 addr-book-mab-file = Mork-databasefil (.mab)
 addr-book-file-picker = Velg en adressebokfil
+addr-book-csv-field-map-desc = Velg adressebokfeltene som tilsvarer kildefeltene. Fjern merket for feltene du ikke vil importere.
 addr-book-directories-pane-source = Kildefil:
+# $addressBookName (string) - name of the new address book that would be created.
+addr-book-import-into-new-directory2 = Opprett en ny katalog kalt <strong>«{ $addressBookName }»</strong>
+# $addressBookName (string) - name of the address book to import into
+addr-book-summary-title = Importer de valgte dataene til katalogen «{ $addressBookName }»
+# $addressBookName (string) - name of the address book that will be created.
+addr-book-summary-description = En ny adressebok kalt «{ $addressBookName }» vil bli opprettet.
 
 ## Import from calendar file steps
 
@@ -89,9 +98,11 @@ error-message-no-profile = Ingen profil funnet.
 
 ## <csv-field-map> element
 
+csv-target-field = Adressebokfelt
 
 ## Export tab
 
+export-profile-title = Eksporter kontoer, meldinger, adressebøker og innstillinger til en ZIP-fil.
 export-file-picker2 = Eksporter til en ZIP-fil
 
 ## Summary pane

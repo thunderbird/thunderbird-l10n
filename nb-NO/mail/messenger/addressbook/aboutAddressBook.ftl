@@ -8,6 +8,14 @@ about-addressbook-title = Adressebok
 
 about-addressbook-toolbar-new-address-book =
     .label = Ny adressebok
+about-addressbook-toolbar-add-address-book =
+    .label = Legg til lokal adressebok
+about-addressbook-toolbar-add-carddav-address-book =
+    .label = Legg til en CardDAV-adressebok
+about-addressbook-toolbar-add-ldap-address-book =
+    .label = Legg til en LDAP-adressebok
+books-pane-create-book-button =
+    .title = Opprett en ny adressebok
 books-pane-import-button = Importer
     .title = Importer adressebøker
 
@@ -59,6 +67,12 @@ about-addressbook-placeholder-no-search-results = Ingen kontakter funnet
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+       *[other] { $count } valgte adressebokoppføringer
+    }
 about-addressbook-search-action-button = Søk
 about-addressbook-begin-edit-contact-button = Rediger
 about-addressbook-delete-edit-contact-button = Slett

@@ -59,3 +59,31 @@ account-hub-notification-show-more = Vis mer
 account-hub-notification-show-less = Vis mindre
 account-hub-email-setup-header = Legg til e-postadressen din
 account-hub-email-config-found = Velg din e-postkontotype
+account-hub-email-sync-accounts = Synkroniser dine kalendre og adressebøker
+account-hub-no-address-books = Ingen adressebøker funnet
+account-hub-add-address-book = Legg til en adressebok
+address-book-sync-existing-icon =
+    .alt = Synkroniser en adressebok fra en eksisterende konto
+address-book-add-remote-icon =
+    .alt = Legg til en ny ekstern adressebok
+address-book-add-remote = Legg til ekstern adressebok
+address-book-add-remote-description = Koble til en ekstern CardDAV-adressebok
+address-book-add-local-icon =
+    .alt = Opprett en ny lokal adressebok
+address-book-add-local = Ny lokal adressebok
+address-book-add-local-description = Opprett en ny lokal adressebok på enheten din
+address-book-add-ldap-icon =
+    .alt = Koble til en ekstern LDAP-adressebok
+address-book-add-ldap = Ny LDAP-adressebok
+address-book-add-ldap-description = Koble til en ekstern LDAP-adressebok
+account-hub-fetching-sync-accounts = Oppdager adressebøker og kalendere …
+account-hub-select-address-book-account = Velg en konto med adressebøker
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synkronisert } av { $total }
+    .title = { $synced } synkroniserte adressebøker, { $available } tilgjengelig
+account-hub-add-local-address-book = Opprett en lokal adressebok
+account-hub-local-address-book-label = Navn på adressebok
+account-hub-local-error-text = Skriv inn et navn på adresseboken
+account-hub-sync-address-books = Synkroniser eksisterende adressebøker

@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
+carddav-window-title = Ny CardDAV-adressebok
 carddav-dialog =
     .buttonlabelaccept = Fortsett
     .buttonaccesskeyaccept = F
@@ -11,6 +12,8 @@ carddav-username-label =
 carddav-location-label =
     .value = Sted:
     .accesskey = t
+carddav-location =
+    .default-placeholder = URL eller hostnavn til adressebokserveren
 carddav-loading = Undersøker konfigurasjonen…
 carddav-connection-error = Tilkoblingsfeil.
 carddav-none-found = Fant ingen adressebøker å legge til for den angitte kontoen.

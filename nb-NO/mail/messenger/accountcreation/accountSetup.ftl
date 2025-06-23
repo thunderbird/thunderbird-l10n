@@ -171,8 +171,16 @@ account-setup-address-book-ldap-button = Koble til en LDAP-adressebok
 account-setup-calendar-button = Koble til en ekstern kalender
 account-setup-linked-services-title = Koble til dine tilknyttede tjenester
 account-setup-linked-services-description = { -brand-short-name } oppdaget andre tjenester som er knyttet til e-postkontoen din.
+# Variables:
+# $count (Number) - The number of address books found during autoconfig.
+account-setup-found-address-books-description =
+    { $count ->
+        [one] { -brand-short-name } fant en adressebok som er koblet til e-postkontoen din.
+       *[other] { -brand-short-name } fant { $count } adressebøker koblet til e-postkontoen din.
+    }
 account-setup-button-finish = Ferdig
     .accesskey = F
+account-setup-looking-up-address-books = Søker etter adressebøker…
 account-setup-address-books-button = Adressebøker
 account-setup-calendars-button = Kalendere
 account-setup-existing-address-book = Tilkoblet
@@ -180,6 +188,7 @@ account-setup-existing-address-book = Tilkoblet
 account-setup-existing-calendar = Tilkoblet
     .title = Kalenderen er allerede tilkoblet
 account-setup-connect-all-calendars = Koble til alle kalendere
+account-setup-connect-all-address-books = Koble til alle adressebøker
 
 ## Calendar synchronization dialog
 
