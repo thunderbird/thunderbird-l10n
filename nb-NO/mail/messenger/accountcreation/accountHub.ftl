@@ -9,9 +9,14 @@
 
 ## Header
 
+account-hub-brand = { -brand-full-name }
+account-hub-welcome-line = Velkommen til <span data-l10n-name="brand-name">{ -brand-full-name }</span>
+account-hub-title = Konto-hub
 
 ## Footer
 
+account-hub-release-notes = Versjonsnotat
+account-hub-support = Brukerstøtte
 account-hub-donate = Doner
 
 ## Initial setup page
@@ -22,21 +27,40 @@ account-hub-calendar-setup-button = Kalender
     .title = Sett opp en lokal eller ekstern kalender
 account-hub-address-book-setup-button = Adressebok
     .title = Sett opp en lokal eller ekstern adressebok
+account-hub-chat-setup-button = Chat
+    .title = Sett opp en chattekonto
 account-hub-newsgroup-setup-button = Temagruppe
     .title = Sett opp en temagruppekonto
+account-hub-import-setup-button = Importer
+    .title = Importer en sikkerhetskopiert profil
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Logg inn på Sync…
 
 ## Email page
 
+account-hub-add-email-title = Legg til kontoen din
+account-hub-manually-configure-email-title = Sett opp kontokonfigurasjon
 account-hub-email-cancel-button = Avbryt
 account-hub-email-stop-button = Stopp
 account-hub-email-back-button = Tilbake
 account-hub-email-retest-button = Test på nytt
 account-hub-email-finish-button = Fullfør
+account-hub-email-manually-configure-button = Konfigurer manuelt
 account-hub-email-continue-button = Fortsett
 account-hub-email-confirm-button = Bekreft
+account-hub-incoming-server-legend = Innkommende server
+account-hub-outgoing-server-legend = Utgående server
+account-hub-result-incoming-server-legend = Innkommende server
+    .title = Innkommende server
+account-hub-result-outgoing-server-legend = Utgående server
+    .title = Utgående server
 account-hub-protocol-label = Protokoll
+account-hub-hostname-label = Servernavn
+account-hub-result-authentication-label = Autentisering
+    .title = Autentisering
 account-hub-port-label = Port
     .title = Sett portnummeret til 0 for automatisk utfylling
+account-hub-auto-description = { -brand-short-name } vil forsøke å automatisk oppdage felt som er tomme.
 account-hub-ssl-label = Tilkoblingssikkerhet
 
 ## Incoming/Outgoing SSL Authentication options
@@ -45,6 +69,8 @@ account-hub-ssl-autodetect-option =
     .label = Oppdag automatisk
 account-hub-ssl-no-authentication-option =
     .label = Ingen autentisering
+account-hub-ssl-cleartext-password-option =
+    .label = Vanlig passord
 account-hub-ssl-encrypted-password-option =
     .label = Kryptert passord
 
@@ -54,8 +80,17 @@ account-hub-ssl-noencryption-option =
     .label = Ingen
 account-hub-auth-no-authentication-option =
     .label = Ingen autentisering
+account-hub-auth-label = Autentiseringsmetode
 account-hub-username-label = Brukernavn
+account-hub-result-username-label = Brukernavn
+    .title = Brukernavn
+account-hub-name-label = Fullt navn
+    .accesskey = n
+account-hub-adding-account-title = Legger til konto
 account-hub-adding-account-subheader = Testing av kontokonfigurasjonsinnstillinger på nytt
+account-hub-lookup-email-configuration-title = Undersøker konfigurasjonen
+account-hub-lookup-email-configuration-subheader = Prøver vanlige servernavn…
+account-hub-email-account-added-title = Kontoen er lagt til
 account-hub-find-account-settings-failed = { -brand-short-name } klarte ikke finne innstillingene for e-postkontoen din.
 account-hub-find-settings-failed = { -brand-full-name } klarte ikke finne innstillingene for e-postkontoen din.
 account-hub-notification-show-more = Vis mer

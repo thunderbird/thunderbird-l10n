@@ -4,5 +4,6 @@
 
 add-on-options-button =
     .title = Innstillinger for tillegg
+add-on-search-alternative-button-label = Finn et alternativt tillegg
 atn-addons-heading-search-input =
     .placeholder = Søk på addons.thunderbird.net

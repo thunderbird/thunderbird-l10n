@@ -7,7 +7,10 @@ export-page-title = Eksporter
 
 ## Header
 
+import-start = Importverktøy
 import-start-title = Importer innstillinger eller data fra en applikasjon eller en fil.
+import-start-description = Velg kilden du vil importere fra. Du vil senere bli bedt om å velge hvilke data som skal importeres.
+import-from-app = Importer fra program
 import-file = Importer fra en fil
 import-file-title = Velg en fil for å importere innholdet.
 import-file-description = Velg å importere en tidligere sikkerhetskopiert profil, adressebøker eller kalendere.
@@ -42,6 +45,7 @@ source-file-description = Velg en fil for å importere adressebøker, kalendre, 
 ## Import from file selections
 
 file-profile2 = Importer profilsikkerhetskopi
+file-profile-description = Velg en tidligere sikkerhetskopiert Thunderbird-profil (.zip)
 file-calendar = Importer kalendere
 file-calendar-description = Velg en fil som inneholder eksporterte kalendere eller hendelser (.ics)
 file-addressbook = Importer adressebøker
@@ -63,6 +67,7 @@ profile-source-named = Importer fra profil <strong>«{ $profileName }»</strong>
 profile-file-picker-directory = Velg en profilmappe
 profile-file-picker-archive = Velg en <strong>ZIP</strong>-fil
 profile-file-picker-archive-description = ZIP-filen må være mindre enn 2GB.
+profile-file-picker-archive-title = Velg en ZIP-fil (mindre enn 2GB)
 items-pane-title2 = Velg hva du vil importere:
 items-pane-directory = Mappe:
 items-pane-profile-name = Profilnavn:
@@ -70,15 +75,18 @@ items-pane-checkbox-accounts = Kontoer og innstillinger
 items-pane-checkbox-address-books = Adressebøker
 items-pane-checkbox-calendars = Kalendere
 items-pane-checkbox-mail-messages = E-postmeldinger
+items-pane-override = Eksisterende eller identiske data vil ikke bli overskrevet.
 
 ## Import from address book file steps
 
 import-from-addr-book-file-description = Velg filformatet som inneholder adressebok-dataene dine.
 addr-book-ldif-file = LDIF-fil (.ldif)
 addr-book-vcard-file = vCard-fil (.vcf, .vcard)
+addr-book-sqlite-file = SQLite-databasefil (.sqlite)
 addr-book-mab-file = Mork-databasefil (.mab)
 addr-book-file-picker = Velg en adressebokfil
 addr-book-csv-field-map-desc = Velg adressebokfeltene som tilsvarer kildefeltene. Fjern merket for feltene du ikke vil importere.
+addr-book-directories-title = Velg hvor du vil importere de valgte dataene
 addr-book-directories-pane-source = Kildefil:
 # $addressBookName (string) - name of the new address book that would be created.
 addr-book-import-into-new-directory2 = Opprett en ny katalog kalt <strong>«{ $addressBookName }»</strong>
@@ -90,8 +98,14 @@ addr-book-summary-description = En ny adressebok kalt «{ $addressBookName }» v
 ## Import from calendar file steps
 
 import-from-calendar-file-desc = Velg iCalendar (.ics)-filen du vil importere.
+calendar-items-title = Velg hvilke elementer som skal importeres.
 calendar-items-loading = Laster inn elementer …
+calendar-items-filter-input2 =
+    .label = Filtrer elementer
+    .placeholder = Filtrer elementer…
 calendar-select-all-items = Merk alle
+calendar-deselect-all-items = Merk ingen
+calendar-target-title = Velg hvor du vil importere de valgte elementene.
 # $targetCalendar (string) - name of the new calendar that would be created
 calendar-import-into-new-calendar2 = Opprett en ny kalender kalt <strong>«{ $targetCalendar }»</strong>
 # $itemCount (number) - count of selected items (tasks, events) that will be imported
@@ -106,25 +120,43 @@ calendar-summary-description = En ny kalender kalt «{ $targetCalendar }» vil b
 
 ## Import dialog
 
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-importing2 = Importerer … { $progressPercent }
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-exporting2 = Eksporterer … { $progressPercent }
 progress-pane-finished-desc2 = Fullført.
 error-pane-title = Feil
+error-message-zip-file-too-big2 = Den valgte ZIP-filen er større enn 2GB. Pakk den ut først, og importer deretter fra den utpakkede mappen i stedet.
+error-message-extract-zip-file-failed2 = Kunne ikke pakke ut ZIP-filen. Pakk den ut manuelt, og importer den deretter fra den utpakkede mappen i stedet.
+error-message-failed = Importen mislyktes uventet. Mer informasjon kan være tilgjengelig i feilkonsollen.
+error-failed-to-parse-ics-file = Ingen importerbare elementer funnet i filen.
+error-export-failed = Eksporten mislyktes uventet. Mer informasjon kan være tilgjengelig i feilkonsollen.
 error-message-no-profile = Ingen profil funnet.
 
 ## <csv-field-map> element
 
+csv-first-row-contains-headers = Første rad inneholder feltnavn
+csv-source-field = Kildefelt
 csv-target-field = Adressebokfelt
 
 ## Export tab
 
 export-profile-title = Eksporter kontoer, meldinger, adressebøker og innstillinger til en ZIP-fil.
+export-open-profile-folder = Åpne profilmappen
 export-file-picker2 = Eksporter til en ZIP-fil
 
 ## Summary pane
 
+summary-pane-title = Data som skal importeres
+summary-pane-start = Start import
+summary-pane-warning = { -brand-product-name } må startes på nytt når importen er fullført.
+summary-pane-start-over = Start importverktøyet på nytt
 
 ## Footer area
 
 footer-help = Trenger du hjelp?
+footer-import-documentation = Dokumentasjon om import
+footer-export-documentation = Dokumentasjon om eksport
 
 ## Step navigation on top of the wizard pages
 

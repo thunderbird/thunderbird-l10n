@@ -3,7 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Hva er nytt
+about-dialog-title = Om { -brand-full-name }
 release-notes-link = Versjonsnotat
+update-internal-error = Kan ikke se etter oppdateringer på grunn av intern feil. Oppdateringer tilgjengelig på <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Søk etter oppdateringer
     .accesskey = S
 update-update-button = Start på nytt for å oppdatere { -brand-shorter-name }
@@ -16,6 +18,7 @@ update-failed = Oppdatering mislyktes. <a data-l10n-name="failed-link">Last ned 
 update-admin-disabled = Oppdateringer er avslått av systemansvarlig
 update-no-updates-found = { -brand-short-name } er oppdatert
 update-other-instance-handling-updates = { -brand-short-name } oppdateres av en annen instans
+update-manual = Oppdateringer er tilgjengelig på <a data-l10n-name="manual-link"/>
 update-unsupported = Du kan ikke utføre flere oppdateringer på dette systemet. <a data-l10n-name="unsupported-link">Les mer</a>
 update-restarting = Starter på nytt…
 # Variables:
@@ -34,6 +37,7 @@ aboutDialog-version = { $version } ({ $bits }-bit)
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
 aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bit)
+aboutdialog-update-checking-failed = Kunne ikke se etter oppdateringer.
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> er et <a data-l10n-name="community-exp-credits-link">globalt samfunn</a> som jobber sammen for å holde nettet åpent og tilgjengelig for alle.
 community-desc = { -brand-short-name } er utviklet av <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, et <a data-l10n-name="community-credits-link">globalt samfunn</a> som jobber for å holde nettet åpent og tilgjengelig for alle.
 about-donation = Vil du hjelpe til? <a data-l10n-name="helpus-donate-link">Gi penger</a> or <a data-l10n-name="helpus-get-involved-link">involver deg!</a>
