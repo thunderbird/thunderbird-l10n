@@ -26,7 +26,7 @@
 <!ENTITY quickMode.accesskey "V">
 <!ENTITY autotagEnable.label "Automatisk opprett tagger fra kildens &lt;kategori&gt;-navn">
 <!ENTITY autotagEnable.accesskey "A">
-<!ENTITY autotagUsePrefix.label "Prefiks på tagger:">
+<!ENTITY autotagUsePrefix.label "Prefiks på etiketter:">
 <!ENTITY autotagUsePrefix.accesskey "P">
 <!ENTITY autoTagPrefix.placeholder "Skriv inn taggprefiks">
 <!-- Subscription Dialog -->

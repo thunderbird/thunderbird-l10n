@@ -93,6 +93,10 @@ quick-filter-bar-results =
         [one] { $count } melding
        *[other] { $count } meldinger
     }
+quick-filter-bar-search2 =
+    .label = Filtrer meldinger
+quick-filter-bar-searching =
+    .title = Søker…
 # Keyboard shortcut for the text search box.
 # This should match quick-filter-bar-show in messenger.ftl.
 quick-filter-bar-search-shortcut =
@@ -372,6 +376,17 @@ apply-current-columns-to-folder-message = Bruk denne mappens kolonner på { $nam
 apply-current-columns-to-folder-with-children-message = Bruk denne mappens kolonnner på { $name } og dens undermapper?
 threadpane-card-menu-button =
     .title = Meldingsmeny
+message-list-placeholder-no-messages = Ingen meldinger funnet
+message-list-placeholder-multiple-folders = Flere mapper valgt
 
 ## Folder pane context menu
 
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Merk mappe som lest
+           *[other] Merk mapper som lest
+        }
+    .accesskey = k
