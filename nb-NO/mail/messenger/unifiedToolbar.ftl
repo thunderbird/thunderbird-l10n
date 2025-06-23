@@ -45,6 +45,7 @@ customize-cancel = Avbryt
 customize-save = Lagre
 customize-palette-addressbook-specific-title = Kun tilgjengelig for adressebok
 customize-palette-calendar-specific-title = Kun tilgjengelig for området kalender
+customize-palette-settings-specific-title = Bare tilgjengelig i innstillinger-området
 
 ## Unified toolbar customization palette context menu
 

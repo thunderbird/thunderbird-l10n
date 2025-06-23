@@ -7,6 +7,7 @@ account-setup-tab-title = Kontooppsett
 ## Header
 
 account-setup-title = Sett opp din eksisterende e-postadresse
+account-setup-success-secondary-description = Du kan forbedre opplevelsen ved å koble til relaterte tjenester og konfigurere avanserte kontoinnstillinger.
 
 ## Form fields
 
@@ -61,6 +62,8 @@ account-setup-button-done = Ferdig
 account-setup-looking-up-settings = Søker etter oppsett …
 account-setup-checking-password = Sjekker passord …
 account-setup-installing-addon = Laster ned og installerer utvidelse …
+account-setup-success-half-manual = Følgende innstillinger ble funnet ved undersøking av serveren:
+account-setup-success-guess-offline = Du er i frakoblet modus. Vi har gjettet noen av innstillingene, men du må selv registrere de riktige innstillingene.
 account-setup-success-password = Passordet er OK
 account-setup-success-addon = Utvidelsen ble installert
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
@@ -106,6 +109,7 @@ account-setup-result-starttls = STARTTLS
 
 ## Error messages
 
+account-setup-find-settings-failed = { -brand-short-name } klarte ikke finne innstillingene for e-postkontoen din
 
 ## Manual configuration area
 
@@ -155,6 +159,7 @@ exit-dialog-title = Ingen e-postkontoer er satt opp
 
 account-setup-error-server-exists = Den innkommende serveren eksisterer allerede.
 account-setup-confirm-advanced-title = Bekreft avansert oppsett
+account-setup-confirm-advanced-description = Denne dialogboksen blir lukket og en konto med de gjeldende innstillingene vil bli opprettet, selv om innstillingene er feil. Vil du fortsette?
 
 ## Addon installation section
 

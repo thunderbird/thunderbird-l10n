@@ -741,6 +741,7 @@ qr-export-scan-step3 = Velg <strong>Importer innstillinger</strong>
 
 ## Appearance Tab
 
+apply-thread-sort-label = Overfør innstillinger for trådvisning og sortering til:
 apply-changes-prompt-message = Skal gjeldende innstillinger for trådvisning og sortering brukes på alle mapper?
 # Variables:
 #  $name (String): The name of the folder to apply to.

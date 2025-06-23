@@ -7,6 +7,7 @@ export-page-title = Eksporter
 
 ## Header
 
+import-start-title = Importer innstillinger eller data fra en applikasjon eller en fil.
 import-file = Importer fra en fil
 import-file-title = Velg en fil for å importere innholdet.
 import-file-description = Velg å importere en tidligere sikkerhetskopiert profil, adressebøker eller kalendere.

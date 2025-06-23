@@ -11,3 +11,5 @@ edit-vcard-dialog-accept-button = Lagre
     .accesskey = L
 edit-vcard-dialog-cancel-button = Avbryt
     .accesskey = A
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Innstillinger for utgående server
