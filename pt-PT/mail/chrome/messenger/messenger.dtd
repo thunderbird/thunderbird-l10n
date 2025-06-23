@@ -220,7 +220,7 @@
 <!ENTITY viewFeedWebPage.accesskey "w">
 <!ENTITY viewFeedSummary.label "Sumário">
 <!ENTITY viewFeedSummary.accesskey "m">
-<!ENTITY viewFeedSummaryFeedPropsPref.label "Formato pré-definido">
+<!ENTITY viewFeedSummaryFeedPropsPref.label "Formato predefinido">
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "d">
 <!ENTITY viewAttachmentsInlineCmd.label "Mostrar anexos na mensagem">
 <!ENTITY viewAttachmentsInlineCmd.accesskey "a">
