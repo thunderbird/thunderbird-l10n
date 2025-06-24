@@ -191,6 +191,10 @@ message-room-name-changed = { $user } endret navnet på rommet til { $newRoomNam
 #    $oldPowerLevel is the old power level.
 #    $newPowerLevel is the new power level.
 message-power-level-from-to = { $user } fra { $oldPowerLevel } til { $newPowerLevel }
+#    $user is the name of the user that edited the alias addresses.
+#    $removedAddresses is a comma delimited list of removed addresses.
+#    $addedAddresses is a comma delmited list of added addresses.
+message-alias-removed-and-added = { $user } fjernet { $removedAddresses } og la til { $addedAddresses } som adresse for dette rommet.
 message-space-not-supported = Dette rommet er et område som ikke støttes.
 message-encryption-start = Meldinger i denne samtalen er nå ende-til-ende-kryptert.
 #    $user is the name of the user who sent the verification request.
