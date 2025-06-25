@@ -165,3 +165,19 @@ address-book-add-ldap-icon =
     .alt = Konektatu urruneko LDAP helbide-liburu batera
 address-book-add-ldap = LDAP helbide-liburu berria
 address-book-add-ldap-description = Konektatu urruneko LDAP helbide-liburu batera
+account-hub-fetching-sync-accounts = Ezagutu helbide-liburuak eta egutegiak…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] Kontu baterako helbide-liburu bat eskuragarri
+               *[other] { $accounts } konturako helbide-liburu 1 eskuragarri
+            }
+       *[other]
+            { $accounts ->
+                [one] Kontu baterako { $addressBooks } helbide-liburu eskuragarri
+               *[other] { $accounts } konturako { $addressBooks } helbide-liburu eskuragarri
+            }
+    }
