@@ -181,3 +181,5 @@ account-hub-address-book-sync-option-data =
                *[other] { $accounts } konturako { $addressBooks } helbide-liburu eskuragarri
             }
     }
+address-book-sync-existing-description = Dauden kontuak berreskuratzen…
+account-hub-select-address-book-account = Hautatu helbide-liburuak dituen kontu bat
