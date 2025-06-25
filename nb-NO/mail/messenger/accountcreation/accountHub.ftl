@@ -114,11 +114,30 @@ account-hub-result-ews-description = Bruk Microsoft Exchange Web Services til å
 account-hub-result-exchange-description = Synkroniser mapper og e-poster med Exchange eller Office 365
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Anbefalt
+account-hub-result-addon-label = Krever tillegg
 account-hub-edit-configuration = Rediger innstillinger
 account-hub-config-success = Innstillinger funnet i Mozilla ISPDB
+account-hub-password-info = Påloggingsinformasjonen din lagres kun lokalt på datamaskinen din
+account-hub-creating-account = Oppretter konto …
+account-hub-sync-accounts-found = { -brand-short-name } fant noen tilkoblede tjenester
+account-hub-sync-accounts-not-found = { -brand-short-name } fant ikke tilkoblede tjenester
+account-hub-sync-accounts-failure = { -brand-short-name } kunne ikke koble til de valgte tjenestene
+account-hub-email-added-success = E-postkonto tilkoblet
 account-hub-config-test-success = Gyldige konfigurasjonsinnstillinger
+account-hub-select-all = Merk alle
+account-hub-deselect-all = Velg ingen
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { $count ->
+        [one] { $count } valgt
+       *[other] { $count } valgt
+    }
 account-hub-no-address-books = Ingen adressebøker funnet
 account-hub-no-calendars = Ingen kalendere funnet
+account-hub-email-added-success-links-title = Utforsk alternativer for sikkerhet og personalisering:
+account-hub-signature-link = E-postsignatur
+account-hub-email-error-text = Skriv inn en gyldig e-postadresse
+account-hub-name-error-text = Skriv inn et navn
 account-hub-add-address-book = Legg til en adressebok
 address-book-sync-existing-icon =
     .alt = Synkroniser en adressebok fra en eksisterende konto
