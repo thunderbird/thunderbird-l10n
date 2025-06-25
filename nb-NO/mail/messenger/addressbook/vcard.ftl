@@ -64,9 +64,22 @@ vcard-org-title-input =
     .title = Stilling eller jobb
     .placeholder = Jobtittel
 vcard-org-role = Rolle
+vcard-org-role-input =
+    .title = Funksjon eller rolle i en bestemt situasjon
+    .placeholder = Rolle i et prosjekt
+vcard-org-org = Organisasjon
+vcard-org-org-input =
+    .title = Organisasjonsnavn
+    .placeholder = Firmanavn
+vcard-org-org-unit = Avdeling
+vcard-org-org-unit-input =
+    .title = Navn på organisasjonsenhet
+    .placeholder = Avdeling
 
 # Custom properties
 
+vcard-custom-header = Tilpassede egenskaper
+vcard-custom-add = Legg til tilpassede egenskaper
 vcard-remove-button-title =
     .title = Fjern
 vcard-remove-button = Fjern

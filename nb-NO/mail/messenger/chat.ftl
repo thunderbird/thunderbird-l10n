@@ -14,9 +14,23 @@ chat-participant-moderator-role-icon2 =
     .alt = Moderator
 chat-participant-voiced-role-icon2 =
     .alt = Deltakeren kan legge ut meldinger
+chat-verify-identity =
+    .label = Bekreft identitet
+    .accesskey = B
+chat-identity-verified =
+    .label = Identiteten er allerede bekreftet
+chat-buddy-identity-status = Krypteringstillit
+chat-buddy-identity-status-verified = Bekreftet
+chat-buddy-identity-status-unverified = Ubekreftet
 
 ## Conversation invite notification box
 
+# This string appears in a notification bar at the top of the Contacts window
+# when someone invited the user to a multi user chat conversation, to request
+# the user to confirm they want to join the chat.
+# Variables:
+#   $conversation (String) - Name of the conversation the user is invited to.
+chat-conv-invite-label = Du har blitt invitert til å chatte i { $conversation }
 chat-conv-invite-accept =
     .label = Godta
     .accesskey = G
