@@ -38,6 +38,8 @@ vcard-url-label = Nettsted
 
 # ADR vCard field
 
+vcard-adr-add = Legg til adresse
+vcard-adr-label = Adresse
 # The term "ZIP code" only applies in USA. Most locales should use "Postal code" only.
 vcard-adr-code = Postnummer
 vcard-adr-country = Land

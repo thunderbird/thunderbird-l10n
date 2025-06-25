@@ -148,6 +148,7 @@ about-addressbook-confirm-delete-contacts-single = Er du sikker på at du vil sl
 about-addressbook-placeholder-empty-book = Ingen tilgjengelige kontakter
 about-addressbook-placeholder-new-contact = Ny kontakt
 about-addressbook-placeholder-search-only = Denne adresseboken viser kontakter bare etter at du har gjort et søk
+about-addressbook-placeholder-searching = Søker …
 about-addressbook-placeholder-no-search-results = Ingen kontakter funnet
 
 ## Details
@@ -158,14 +159,68 @@ about-addressbook-selection-mixed-header2 =
     { $count ->
        *[other] { $count } valgte adressebokoppføringer
     }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } valgt kontakt
+       *[other] { $count } valgte kontakter
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } valgt liste
+       *[other] { $count } valgte lister
+    }
+about-addressbook-details-edit-photo =
+    .title = Rediger kontaktbilde
+about-addressbook-new-contact-header = Ny kontakt
+about-addressbook-write-action-button = Skriv
+about-addressbook-event-action-button = Hendelse
 about-addressbook-search-action-button = Søk
+about-addressbook-new-list-action-button = Ny liste
 about-addressbook-begin-edit-contact-button = Rediger
 about-addressbook-delete-edit-contact-button = Slett
 about-addressbook-cancel-edit-contact-button = Avbryt
 about-addressbook-save-edit-contact-button = Lagre
+about-addressbook-add-contact-to = Legg til i:
+about-addressbook-details-email-addresses-header = E-postadresser
+about-addressbook-details-phone-numbers-header = Telefonnummer
+about-addressbook-details-addresses-header = Adresser
+about-addressbook-details-notes-header = Notater
+about-addressbook-details-impp-header = Direktemeldinger
+about-addressbook-details-websites-header = Nettsteder
+about-addressbook-details-other-info-header = Annen informasjon
+about-addressbook-entry-type-work = Arbeid
+about-addressbook-entry-type-home = Hjem
+about-addressbook-entry-type-fax = Faks
+# Or "Mobile"
+about-addressbook-entry-type-cell = Mobiltelefon
+about-addressbook-entry-type-pager = Personsøker
+about-addressbook-entry-name-birthday = Bursdag
+about-addressbook-entry-name-anniversary = Jubileum
+about-addressbook-entry-name-title = Tittel
+about-addressbook-entry-name-role = Rolle
+about-addressbook-entry-name-organization = Organisasjon
+about-addressbook-entry-name-website = Nettsted
+about-addressbook-entry-name-time-zone = Tidssone
+about-addressbook-entry-name-custom1 = Egendefinert 1
+about-addressbook-entry-name-custom2 = Egendefinert 2
+about-addressbook-entry-name-custom3 = Egendefinert 3
+about-addressbook-entry-name-custom4 = Egendefinert 4
+about-addressbook-unsaved-changes-prompt-title = Ulagrede endringer
+about-addressbook-unsaved-changes-prompt = Vil du lagre endringene dine før du forlater redigeringsvisningen?
 
 # Photo dialog
 
+about-addressbook-photo-drop-target = Slipp eller lim inn et bilde her, eller klikk for å velge en fil.
+about-addressbook-photo-drop-loading = Laster inn bildet …
+about-addressbook-photo-drop-error = Kunne ikke laste inn bildet.
+about-addressbook-photo-filepicker-title = Velg en bildefil
+about-addressbook-photo-discard = Forkast eksisterende bilde
+about-addressbook-photo-cancel = Avbryt
+about-addressbook-photo-save = Lagre
 
 # Keyboard shortcuts
 
