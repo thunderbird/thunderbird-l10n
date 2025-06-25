@@ -144,6 +144,7 @@ account-hub-port-error-text = Portnummer må være mellom 1 og 65535
     .title = Portnummer må være mellom 1 og 65535
 account-hub-username-error-text = Brukernavn er obligatorisk
     .title = Brukernavn er obligatorisk
+account-hub-addon-error = Installasjonen av tillegget mislyktes. Prøv på nytt, eller kontakt forfatteren av tillegget for å få hjelp.
 account-hub-add-address-book = Legg til en adressebok
 address-book-sync-existing-icon =
     .alt = Synkroniser en adressebok fra en eksisterende konto

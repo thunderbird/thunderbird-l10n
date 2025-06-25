@@ -95,6 +95,52 @@ about-addressbook-column-label-addrbook2 =
 about-addressbook-cell-addrbook2 =
     .aria-label = Adressebok
     .title = { $title }
+# Variables:
+# $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
+about-addressbook-confirm-delete-mixed = Er du sikker på at du vil slette disse { $count } kontaktene og listene?
+# Variables:
+# $count (Number) - The number of lists to be deleted.
+about-addressbook-confirm-delete-lists-title =
+    { $count ->
+        [one] Slett liste
+       *[other] Slett lister
+    }
+# Variables:
+# $count (Number) - The number of lists to be deleted.
+# $name (String) - The name of the list to be deleted, if $count is 1.
+about-addressbook-confirm-delete-lists =
+    { $count ->
+        [one] Er du sikker på at du vil slette listen  { $name }?
+       *[other] Er du sikker på at du vil slette disse { $count } listene?
+    }
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+about-addressbook-confirm-remove-contacts-title =
+    { $count ->
+        [one] Fjern kontakt
+       *[other] Fjern kontakter
+    }
+# Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Er du sikker på at du vil fjerne { $name } fra { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+       *[other] Er du sikker på at du vil fjerne disse { $count } kontaktene fra { $list }?
+    }
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-title =
+    { $count ->
+        [one] Slett kontakt
+       *[other] Slett kontakter
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Er du sikker på at du vil slette kontakten { $name }?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
