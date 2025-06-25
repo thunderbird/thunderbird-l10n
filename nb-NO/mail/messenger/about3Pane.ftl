@@ -8,6 +8,8 @@
 quick-filter-button =
     .title = Vis/skjul filterverktøylinjen
 quick-filter-button-label = Hurtigfilter
+thread-pane-header-display-button =
+    .title = Visningsalternativer for meldingsliste
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
@@ -15,10 +17,18 @@ thread-pane-folder-message-count =
         [one] { $count } melding
        *[other] { $count } meldinger
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+       *[other] { $count } Valgt
+    }
 thread-pane-header-context-table-view =
     .label = Tabellvisning
 thread-pane-header-context-cards-view =
     .label = Kortvisning
+thread-pane-header-context-hide =
+    .label = Skjul overskrifter på meldingsliste
 
 ## Quick Filter Bar
 
@@ -159,6 +169,8 @@ folder-pane-get-all-messages-menuitem =
     .accesskey = e
 folder-pane-write-message-button = Ny melding
     .title = Skriv en ny melding
+folder-pane-more-menu-button =
+    .title = Alternativer for mappepanelet
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
     .label = Mappemodus
