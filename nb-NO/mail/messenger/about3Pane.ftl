@@ -278,6 +278,11 @@ threadpane-column-header-correspondents = Korrespondenter
     .title = Sorter etter korrespondenter
 threadpane-column-label-correspondents =
     .label = Korrespondenter
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Korrespondenter
+    .title = { $title }
 threadpane-column-header-subject = Emne
     .title = Sorter etter emne
 threadpane-column-label-subject =
@@ -300,6 +305,11 @@ threadpane-column-header-received = Mottatt
     .title = Sorter etter dato mottatt
 threadpane-column-label-received =
     .label = Mottatt
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Dato mottatt
+    .title = { $title }
 threadpane-column-header-status = Status
     .title = Sorter etter status
 threadpane-column-label-status =
@@ -367,10 +377,20 @@ threadpane-column-header-location = Plassering
     .title = Sorter etter plassering
 threadpane-column-label-location =
     .label = Plassering
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Plassering
+    .title = { $title }
 threadpane-column-header-id = Mottaksrekkefølge
     .title = Sorter etter mottaksrekkefølge
 threadpane-column-label-id =
     .label = Mottaksrekkefølge
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Rekkefølge mottatt
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Slett en melding
 threadpane-column-label-delete =
