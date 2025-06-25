@@ -41,6 +41,11 @@ vcard-url-label = Nettsted
 vcard-adr-add = Legg til adresse
 vcard-adr-label = Adresse
 vcard-adr-delivery-label = Leveringsetikett
+vcard-adr-street = Gateadresse
+# Or "Locality"
+vcard-adr-locality = Poststed
+# Or "Region"
+vcard-adr-region = Delstat/region
 # The term "ZIP code" only applies in USA. Most locales should use "Postal code" only.
 vcard-adr-code = Postnummer
 vcard-adr-country = Land
@@ -52,7 +57,13 @@ vcard-note-add = Legg til notat
 
 # TITLE, ROLE and ORGANIZATION vCard fields
 
+vcard-org-header = Organisatoriske egenskaper
+vcard-org-add = Legg til organisasjonsegenskaper
 vcard-org-title = Tittel
+vcard-org-title-input =
+    .title = Stilling eller jobb
+    .placeholder = Jobtittel
+vcard-org-role = Rolle
 
 # Custom properties
 
