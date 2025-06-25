@@ -180,6 +180,8 @@ folder-pane-header-context-toggle-get-messages =
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
     .label = Vis «Ny melding»
+folder-pane-header-context-hide =
+    .label = Skjul mapperuteoverskrift
 folder-pane-show-total-toggle =
     .label = Vis totalt antall meldinger
 # Context menu item to show or hide folder sizes
@@ -187,6 +189,8 @@ folder-pane-header-toggle-folder-size =
     .label = Vis mappestørrelse
 folder-pane-header-hide-local-folders =
     .label = Skjul lokale mapper
+folder-pane-mode-context-button =
+    .title = Innstillinger for mappemodus
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompakt visning
     .accesskey = K
@@ -201,6 +205,13 @@ folder-pane-unread-aria-label =
         [one] 1 ulest melding
        *[other] { $count } uleste meldinger
     }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 melding totalt
+       *[other] { $count } meldinger totalt
+    }
 
 ## Message thread pane
 
@@ -208,12 +219,18 @@ threadpane-column-header-select =
     .title = Skift velg alle meldingene
 threadpane-column-header-select-all =
     .title = Velg alle meldinger
+threadpane-column-header-deselect-all =
+    .title = Fravelg alle meldinger
 threadpane-column-label-select =
     .label = Velg meldinger
 threadpane-cell-select =
     .aria-label = Velg melding
+threadpane-column-header-thread =
+    .title = Slå meldingstråder av eller på
 threadpane-column-label-thread =
     .label = Tråd
+threadpane-cell-thread =
+    .aria-label = Trådstatus
 threadpane-column-header-flagged =
     .title = Sorter etter stjerne
 threadpane-column-label-flagged =
@@ -235,6 +252,8 @@ threadpane-column-label-spam =
 threadpane-cell-spam =
     .aria-label = Status for søppelpost
 threadpane-spam-cell-label = Søppelpost
+threadpane-column-header-unread-button =
+    .title = Sorter etter lest-status
 threadpane-read-cell-label = Lest
 threadpane-unread-cell-label = Uleste
 threadpane-column-header-sender = Fra
