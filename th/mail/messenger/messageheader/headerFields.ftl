@@ -101,3 +101,7 @@ message-ids-field-show-all = แสดงทั้งหมด
 
 ## Dark Message Mode
 
+dark-message-mode-toggle-enabled =
+    .title = ปิดใช้งานโหมดข้อความมืด
+dark-message-mode-toggle-disabled =
+    .title = เปิดใช้งานโหมดข้อความมืด

@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = ลบ
     .tooltiptext = ลบ
+multi-message-undelete-button =
+    .label = เลิกลบ
+    .tooltiptext = เลิกลบ

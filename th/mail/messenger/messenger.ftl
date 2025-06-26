@@ -262,6 +262,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = ติดดาวแล้ว
     .aria-label = ติดดาวแล้ว
+message-header-delete =
+    .label = ลบ
+    .tooltiptext = ลบข้อความนี้
+message-header-undelete =
+    .label = เลิกลบ
+    .tooltiptext = เลิกลบข้อความนี้
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -298,6 +304,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = แสดงหัวข้อทั้งหมด
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = แสดงปุ่มสลับโหมดข้อความมืด
+    .accesskey = ป
 
 ## Action Button Context Menu
 
@@ -446,3 +455,8 @@ quota-panel-percent-used = เต็ม { $percent }%
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = ทำเครื่องหมายว่าอ่านแล้ว
+delete-action = ลบ
+mark-as-starred-action = ทำเครื่องหมายว่าติดดาว
+mark-as-spam-action = ทำเครื่องหมายว่าเป็นสแปม
+archive-action = เก็บถาวร
