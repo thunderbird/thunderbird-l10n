@@ -37,6 +37,9 @@ message-header-user-agent-field = Brukeragent<span data-l10n-name="field-separat
 message-header-references-field = Referanser<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = Meldings-ID<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Som svar på<span data-l10n-name="field-separator">:</span>
+message-header-website-field = Nettsted<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = Liste-ID<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = Liste-hjelp<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Få hjelp
@@ -53,6 +56,10 @@ list-id-list-subscribe =
 list-id-list-post =
     .label = Skriv
     .accesskey = S
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Listearkiv
+    .accesskey = L
 
 ##
 
