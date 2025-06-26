@@ -193,7 +193,7 @@ error-was-no-such-nick = Δεν υπάρχει κανένα ψευδώνυμο: 
 #    $name is the nickname or channel name that isn't available.
 error-no-such-channel = Δεν υπάρχει κανένα κανάλι: { $name }.
 #    $name is the nickname or channel name that isn't available.
-error-unavailable = Ο/Η { $name } είναι προσωρινά μη διαθέσιμος/η.
+error-unavailable = Ο/Η { $name } δεν είναι προσωρινά διαθέσιμος/-η.
 #    $name is the channel name.
 error-channel-banned = Έχετε αποκλειστεί από το «{ $name }».
 #    $name is the channel name.

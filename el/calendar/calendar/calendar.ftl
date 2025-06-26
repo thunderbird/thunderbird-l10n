@@ -446,7 +446,7 @@ error-writing-details = Αν βλέπετε το μήνυμα μετά την α
 # used for an alert-message like 'The calendar Home is momentarily not available'
 #    $name will be replaced with the name of a calendar
 tooltip-calendar-disabled =
-    .title = Το ημερολόγιο { $name } είναι προς στιγμήν μη διαθέσιμο
+    .title = Το ημερολόγιο «{ $name }» δεν είναι προσωρινά διαθέσιμο
 # LOCALIZATION NOTE (tooltip-calendar-read-only):
 # used for an message like 'The calendar Home is readonly'
 #    $name will be replaced with the name of a calendar
