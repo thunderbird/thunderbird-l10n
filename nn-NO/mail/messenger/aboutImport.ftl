@@ -136,6 +136,8 @@ error-message-no-profile = Fann ingen profil.
 
 csv-first-row-contains-headers = Første rad inneheld feltnamn
 csv-source-field = Kjeldefelt
+csv-source-first-record = Første post
+csv-source-second-record = Andre post
 csv-target-field = Adressebokfelt
 
 ## Export tab
