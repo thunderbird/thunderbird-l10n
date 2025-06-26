@@ -191,6 +191,26 @@ message-room-name-changed = { $user } endret navnet på rommet til { $newRoomNam
 #    $oldPowerLevel is the old power level.
 #    $newPowerLevel is the new power level.
 message-power-level-from-to = { $user } fra { $oldPowerLevel } til { $newPowerLevel }
+#    $user is the name of the user who has prevented guests to join the room.
+message-guest-prevented = { $user } har hindret gjester i å bli med i rommet.
+#    $user is the name of the user who has made future room history visible to anyone.
+message-history-anyone = { $user } har gjort fremtidig romhistorikk synlig for alle.
+#    $user is the name of the user who has made future room history visible to all room members.
+message-history-shared = { $user } har gjort fremtidig romhistorikk synlig for alle rommedlemmer.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
+message-history-invited = { $user } har gjort fremtidig romhistorikk synlig for alle rommedlemmer, fra det tidspunktet de ble invitert.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they joined.
+message-history-joined = { $user } gjorde fremtidig romhistorikk synlig for alle rommedlemmer, fra det tidspunktet de ble med.
+#    $user is the name of the user who changed the address.
+#    $oldAddress is the old address.
+#    $newAddress is the new address.
+message-alias-main = { $user } endret hovedadressen for dette rommet fra { $oldAddress } til { $newAddress }.
+#    $user is the name of the user who added the address.
+#    $addresses is a comma delimited list of added addresses.
+message-alias-added = { $user } la til { $addresses } som alternativ adresse  for dette rommet.
+#    $user is the name of the user who removed the address.
+#    $addresses is a comma delimited list of removed addresses.
+message-alias-removed = { $user } fjernet { $addresses } som alternativ adresse for dette rommet.
 #    $user is the name of the user that edited the alias addresses.
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
@@ -206,6 +226,11 @@ message-verification-cancel2 = { $user } avbrøt verifiseringen med årsaken: { 
 message-verification-done = Verifisering fullført.
 message-decryption-error = Kan ikke dekryptere innholdet i denne meldingen. Høyreklikk på meldingen for å hente krypteringsnøkler fra de andre enhetene dine.
 message-decrypting = Dekrypterer…
+message-redacted = Meldingen ble trukket tilbake.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } reagerte på { $userThatSentMessage } med { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Be om nøkler på nytt
 message-action-redact = Rediger
