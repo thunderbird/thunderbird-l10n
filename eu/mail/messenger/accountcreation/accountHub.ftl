@@ -190,3 +190,5 @@ account-hub-account-address-book-count = { $synced } { $total }(e)tik
     .title = { $synced } sinkronizatutako helbide-liburuak, { $available } eskuragarri
 account-hub-add-local-address-book = Sortu helbide-liburu lokala
 account-hub-local-address-book-label = Helbide-liburuaren izena
+account-hub-local-error-text = Sartu helbide-liburu izena
+account-hub-sync-address-books = Sinkronizatu dauden helbide-liburuak

@@ -31,4 +31,5 @@ account-manager-server-default-icon =
 outgoing-server-section-name = Posta bidaltzeko zerbitzaria:
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Irteerako zerbitzari ezarpenak
+outgoing-server-settings-description = Zure identitateak kudeatzean zerrenda honetako zerbitzari bat erabil dezakezu irteerako zerbitzari gisa hautatuz edo zerbitzari lehenetsia erabil dezakezu; "Erabili zerbitzari lehenetsia"; hautatuz.
 outgoing-server-type = Zerbitzari mota:

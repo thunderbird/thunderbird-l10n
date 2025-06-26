@@ -21,3 +21,9 @@ downloading-articles-for-offline =
         [one] Goiburu { $count } deskargatzen { $newsgroup }-rako…
        *[other] { $count } goiburu deskargatzen { $newsgroup }-rako…
     }
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-articles-to-download = Ez dago { $newsgroup }-(e)rako deskargatzeko artikulurik.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = { $newsgroup } berri-taldea ez dago zerbitzarian eskuragarri.

@@ -21,6 +21,7 @@ webext-perms-description-addressBooks = Zure helbide liburua eta kontaktua iraku
 webext-perms-description-compose = Irakurri eta aldatu zure posta elektroniko mezuak idatzi eta bidaltzen dituzun bezala
 webext-perms-description-compose-send = Bidali posta elektroniko konposatuak zure izenean
 webext-perms-description-compose-save = Gorde posta elektroniko konposatuak zirriborro edo txantiloi bezala
+webext-perms-description-experiment-access = Gehigarri honek { -brand-short-name }-(e)rako eta zure ordenagailurako sarbide osoa eta mugagabea izango du.
 webext-perms-description-experiment = Osoa eduki, mugarik gabeko sarrera { -brand-short-name }-(e)ra eta zure ordenagailura
 webext-perms-description-messagesImport = Inportatu mezuak Thunderbirdera
 webext-perms-description-messagesModify = Irakurri eta aldatu zure posta elektronikoak erakusten zaizkizun eran

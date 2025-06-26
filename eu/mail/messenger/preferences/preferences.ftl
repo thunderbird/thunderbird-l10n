@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Esportatu mugikorrera
 category-qr-export =
     .tooltiptext = Esportatu mugikorrera
+general-language-and-fonts-header = Hizkuntza eta letra-tipoak
 general-language-and-appearance-header = Hizkuntza eta itxura
 general-incoming-mail-header = Sarrerako postak
 general-files-and-attachment-header = Fitxategi eta eranskinak
@@ -448,6 +449,7 @@ account-hub-checkbox-label =
     .label = Sortu kontuak 'kontu zentro' berrian
     .accesskey = S
 account-hub-checkbox-description = Posta-kontu berriak sortzeko fluxu esperimentala
+account-hub-ab-checkbox-description = Helbide-liburu berriak sortzeko fluxu esperimentala
 
 ## Compose Tab
 
@@ -784,6 +786,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Bilatu ezarpenetan
+managed-notice = { -brand-short-name } zure erakundeak kudeatzen du.
 
 ## Settings UI Search Results
 
