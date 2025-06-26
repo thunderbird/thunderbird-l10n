@@ -198,16 +198,28 @@ no-reply-reply-anyway-button = Svar uansett
 
 ## Spaces toolbar
 
+spaces-toolbar-element =
+    .toolbarname = Områder-verktøylinje
+    .aria-label = Områder-verktøylinje
+    .aria-description = Loddrett verktøylinje for å bytte mellom forskjellige områder. Bruk piltastene for å navigere de tilgjengelige knappene.
+spaces-toolbar-button-mail2 =
+    .title = E-post
 spaces-toolbar-button-address-book2 =
     .title = Adressebok
 spaces-toolbar-button-calendar2 =
     .title = Kalender
 spaces-toolbar-button-tasks2 =
     .title = Oppgaver
+spaces-toolbar-button-chat2 =
+    .title = Chat
+spaces-toolbar-button-overflow =
+    .title = Flere områder…
 spaces-toolbar-button-settings2 =
     .title = Innstillinger
 spaces-toolbar-button-hide =
     .title = Skjul hurtigknapp-verktøylinjen
+spaces-toolbar-button-show =
+    .title = Vis Områder-verktøylinjen
 # Variables:
 # $tabName (String) - The name of the tab this item will switch to.
 spaces-context-switch-tab-item =
@@ -221,6 +233,8 @@ settings-context-open-addons-item2 =
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = Områder-meny
 spaces-pinned-button-menuitem-mail2 =
     .label = { spaces-toolbar-button-mail2.title }
 spaces-pinned-button-menuitem-address-book2 =

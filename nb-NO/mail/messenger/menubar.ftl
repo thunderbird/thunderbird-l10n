@@ -115,6 +115,9 @@ mail-uidensity-default =
 mail-uidensity-relaxed =
     .label = Avslappet
     .accesskey = A
+menu-spaces-toolbar-button =
+    .label = Områder-verktøylinje
+    .accesskey = O
 
 ## File
 
