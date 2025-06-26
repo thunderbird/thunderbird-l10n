@@ -183,3 +183,10 @@ account-hub-address-book-sync-option-data =
     }
 address-book-sync-existing-description = Dauden kontuak berreskuratzen…
 account-hub-select-address-book-account = Hautatu helbide-liburuak dituen kontu bat
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } { $total }(e)tik
+    .title = { $synced } sinkronizatutako helbide-liburuak, { $available } eskuragarri
+account-hub-add-local-address-book = Sortu helbide-liburu lokala
+account-hub-local-address-book-label = Helbide-liburuaren izena
