@@ -429,8 +429,16 @@ threadpane-message-replied-forwarded =
 threadpane-message-replied-redirected =
     .alt = Indikator for besvart og omdirigert melding
     .title = Melding besvart og omdirigert
+threadpane-message-forwarded-redirected =
+    .alt = Indikator for videresendt og omdirigert melding
+    .title = Melding videresendt og omdirigert
+threadpane-message-replied-forwarded-redirected =
+    .alt = Indikator for besvart, videresendt og omdirigert melding
+    .title = Melding besvart, videresendt og omdirigert
 apply-columns-to-menu =
     .label = Bruk kolonnene på …
+apply-current-view-to-menu =
+    .label = Bruk gjeldende visning på…
 apply-current-view-to-folder =
     .label = Mappe …
 apply-current-view-to-folder-children =
@@ -438,12 +446,19 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Ta i bruk endringer?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Bruk denne mappens kolonner på { $name } også?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Bruk denne mappens kolonnner på { $name } og dens undermapper?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Vil du bruke gjeldende mappevisning på { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Vil du bruke gjeldende mappevisning på { $name } og dens undermapper?
 threadpane-card-menu-button =
     .title = Meldingsmeny
 message-list-placeholder-no-messages = Ingen meldinger funnet
