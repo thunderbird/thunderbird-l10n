@@ -60,13 +60,26 @@ list-id-list-post =
 list-id-list-archive =
     .label = Listearkiv
     .accesskey = L
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = Permanent lenke for melding
+    .accesskey = P
+# An additional email header field that the user has chosen to display. Unlike
+# the other headers, the name of this header is not expected to be localised
+# because it is generated from the raw field name found in the email header.
+#   $fieldName (String) - The field name.
+message-header-custom-field = { $fieldName }<span data-l10n-name="field-separator">:</span>
 
 ##
 
+message-header-address-in-address-book-icon2 =
+    .alt = I adresseboken
 message-header-address-not-in-address-book-icon2 =
     .alt = Ikke i adresseboken
 message-header-address-not-in-address-book-button =
     .title = Lagre denne adressen i adresseboken
+message-header-address-in-address-book-button =
+    .title = Rediger kontakt
 message-header-field-show-more = Mer
     .title = Vis alle mottakere
 message-ids-field-show-all = Vis alle
