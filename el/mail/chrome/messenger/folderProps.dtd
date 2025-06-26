@@ -20,7 +20,7 @@
 <!ENTITY retentionCleanupPop.label "Για εξοικονόμηση αποθηκευτικού χώρου, μπορείτε να διαγράψετε μόνιμα τα παλιά σας μηνύματα μαζί με τα αρχικά μηνύματα στον απομακρυσμένο διακομιστή.">
 <!ENTITY retentionDeleteMsg.label "Διαγραφή μηνυμάτων παλαιότερων από">
 <!ENTITY retentionDeleteMsg.accesskey "μ">
-<!ENTITY retentionKeepAll.label "Να μη γίνει διαγραφή μηνυμάτων">
+<!ENTITY retentionKeepAll.label "Να μην γίνεται διαγραφή μηνυμάτων">
 <!ENTITY retentionKeepAll.accesskey "μ">
 <!ENTITY retentionKeepRecent.label "Διαγραφή όλων εκτός από τα πιο πρόσφατα">
 <!ENTITY retentionKeepRecent.accesskey "λ">

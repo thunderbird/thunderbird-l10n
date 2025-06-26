@@ -10,7 +10,7 @@
 <!ENTITY allFoldersOfflineNote.label "Σημείωση: Η αλλαγή θα επηρεάσει όλους τους φακέλους αυτού του λογαριασμού. Για ορισμό μεμονωμένων φακέλων, κάντε κλικ στο κουμπί «Σύνθετα…».">
 <!ENTITY offlineNotDownload.label "Μηνύματα μεγαλύτερα από">
 <!ENTITY offlineNotDownload.accesskey "Μ">
-<!ENTITY autosyncNotDownload.label "Να μη γίνεται λήψη μηνυμάτων, μεγαλύτερων από">
+<!ENTITY autosyncNotDownload.label "Να μην γίνεται λήψη μηνυμάτων, μεγαλύτερων από">
 <!ENTITY autosyncNotDownload.accesskey "μ">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "ημερών">
@@ -24,7 +24,7 @@
 <!ENTITY retentionCleanupPop.label "Για ανάκτηση χώρου, μπορείτε να διαγράψετε οριστικά τα παλιά σας μηνύματα, μαζί με τα αρχικά μηνύματα στον απομακρυσμένο διακομιστή.">
 <!ENTITY retentionKeepMsg.label "Διαγραφή μηνυμάτων, παλαιότερων από">
 <!ENTITY retentionKeepMsg.accesskey "μ">
-<!ENTITY retentionKeepAll.label "Να μη γίνει διαγραφή μηνυμάτων">
+<!ENTITY retentionKeepAll.label "Να μην γίνεται διαγραφή μηνυμάτων">
 <!ENTITY retentionKeepAll.accesskey "η">
 <!ENTITY retentionKeepRecent.label "Διαγραφή όλων, εκτός των τελευταίων">
 <!ENTITY retentionKeepRecent.accesskey "κ">
