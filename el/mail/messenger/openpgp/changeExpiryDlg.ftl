@@ -7,7 +7,7 @@ openpgp-change-expiry-title = Αλλαγή λήξης κλειδιού
 # $date (String) - Date the key is expiring on.
 info-will-expire = Αυτό το κλειδί έχει ρυθμιστεί ώστε να λήξει στις { $date }.
 info-already-expired = Αυτό το κλειδί έχει ήδη λήξει.
-info-does-not-expire = Αυτό το κλειδί έχει ρυθμιστεί ώστε να μη λήξει ποτέ.
+info-does-not-expire = Αυτό το κλειδί έχει ρυθμιστεί έτσι ώστε να μην λήξει ποτέ.
 info-explanation-1 = <b>Αφού ένα κλειδί λήξει</b>, δεν είναι δυνατή πλέον η χρήση του για κρυπτογράφηση ή ψηφιακή υπογραφή.
 # Do not translate: OpenPGP
 info-explanation-1-complex = Αυτό το κλειδί OpenPGP αποτελείται από ένα κύριο κλειδί και τουλάχιστον ένα υποκλειδί <b>με διαφορετικές ημερομηνίες λήξης</b>.
