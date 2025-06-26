@@ -33,6 +33,10 @@ message-header-author-field = Forfatter<span data-l10n-name="field-separator">:<
 message-header-organization-field = Organisasjon<span data-l10n-name="field-separator">:</span>
 message-header-subject-field = Emne<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Dato<span data-l10n-name="field-separator">:</span>
+message-header-user-agent-field = Brukeragent<span data-l10n-name="field-separator">:</span>
+message-header-references-field = Referanser<span data-l10n-name="field-separator">:</span>
+message-header-message-id-field = Meldings-ID<span data-l10n-name="field-separator">:</span>
+message-header-in-reply-to-field = Som svar på<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Få hjelp
