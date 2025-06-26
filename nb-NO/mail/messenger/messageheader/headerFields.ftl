@@ -9,10 +9,30 @@ message-header-to-list-name = Til
 message-header-from-list-name = Fra
 message-header-sender-list-name = Avsender
 message-header-newsgroups-list-name = Temagrupper
+# List management header - RFC 2369.
+message-header-list-id = Liste-ID
+# List management header - RFC 2369.
+message-header-list-help = Liste-hjelp
+# List management header - RFC 2369.
+message-header-list-unsubscribe = Liste-avmelding
+# List management header - RFC 2369.
+message-header-list-subscribe = Liste-abonner
+# List management header - RFC 2369.
+message-header-list-post = Liste-post
+# List management header - RFC 2369.
+message-header-list-owner = Liste-eier
+# List management header - RFC 2369.
+message-header-list-archive = Liste-arkiv
+# Direct link to the archived form of an individual email message - RFC 5064.
+message-header-archived-at = Arkivert-på
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
 
+message-header-author-field = Forfatter<span data-l10n-name="field-separator">:</span>
+message-header-organization-field = Organisasjon<span data-l10n-name="field-separator">:</span>
+message-header-subject-field = Emne<span data-l10n-name="field-separator">:</span>
+message-header-date-field = Dato<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Få hjelp

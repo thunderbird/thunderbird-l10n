@@ -144,10 +144,15 @@ account-hub-port-error-text = Portnummer må være mellom 1 og 65535
     .title = Portnummer må være mellom 1 og 65535
 account-hub-username-error-text = Brukernavn er obligatorisk
     .title = Brukernavn er obligatorisk
+account-hub-oauth-pending = Venter på autorisasjon i påloggingsvinduet …
+account-hub-addon-install-needed = { -brand-short-name } støtter ikke denne serveren som standard. For å få tilgang til Exchange-e-post, <a data-l10n-name="addon-install">installer et tredjeparts tillegg som Owl (betalt).</a>
 account-hub-addon-error = Installasjonen av tillegget mislyktes. Prøv på nytt, eller kontakt forfatteren av tillegget for å få hjelp.
+account-hub-security-warning = <span data-l10n-name="security-warning">Advarsel: Usikker e-postserver oppdaget.</span> Denne serveren mangler kryptering, noe som eksponerer passordet og dataene dine. Kontakt administratoren din for å sikre tilkoblingen, eller fortsett på egen risiko. <a data-l10n-name="faq-link">Se ofte stilte spørsmål for mer informasjon.</a>
+account-hub-account-authentication-error = Autentiseringsfeil.
 account-hub-add-address-book = Legg til en adressebok
 address-book-sync-existing-icon =
     .alt = Synkroniser en adressebok fra en eksisterende konto
+address-book-sync-existing = Synkroniser fra en eksisterende konto
 address-book-add-remote-icon =
     .alt = Legg til en ny ekstern adressebok
 address-book-add-remote = Legg til ekstern adressebok
@@ -161,6 +166,7 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Ny LDAP-adressebok
 address-book-add-ldap-description = Koble til en ekstern LDAP-adressebok
 account-hub-fetching-sync-accounts = Oppdager adressebøker og kalendere …
+address-book-sync-existing-description = Henter eksisterende kontoer …
 account-hub-select-address-book-account = Velg en konto med adressebøker
 # $synced (Number) - The number of address books that are synced.
 # $available (Number) - The number of address books that can be synced.

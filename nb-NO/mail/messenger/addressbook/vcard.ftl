@@ -5,18 +5,47 @@
 
 # Display Name
 
+vcard-displayname = Visningsnavn
+vcard-displayname-placeholder =
+    .placeholder = { vcard-displayname }
 
 # Type selection
 
+vcard-entry-type-label = Type
+vcard-entry-type-home = Hjem
+vcard-entry-type-work = Arbeid
+vcard-entry-type-none = Ingen
+vcard-entry-type-custom = Tilpasset
 
 # N vCard field
 
+vcard-name-header = Navn
+vcard-n-prefix = Prefiks
+vcard-n-add-prefix =
+    .title = Legg til prefiks
+vcard-n-firstname = Fornavn
+vcard-n-add-firstname =
+    .title = Legg til fornavn
+vcard-n-middlename = Mellomnavn
+vcard-n-add-middlename =
+    .title = Legg til mellomnavn
+vcard-n-lastname = Etternavn
+vcard-n-add-lastname =
+    .title = Legg til etternavn
+vcard-n-suffix = Suffiks
+vcard-n-add-suffix =
+    .title = Legg til suffiks
 
 # Nickname
 
+vcard-nickname = Kallenavn
 
 # Email vCard field
 
+vcard-email-header = E-postadresser
+vcard-email-add = Legg til e-postadresse
+vcard-email-label = E-postadresse
+vcard-primary-email-label = Standard
 
 # URL vCard field
 
@@ -26,6 +55,9 @@ vcard-url-label = Nettsted
 
 # Tel vCard field
 
+vcard-tel-header = Telefonnumre
+vcard-tel-add = Legg til telefonnummer
+vcard-tel-label = Telefonnummer
 
 # TZ vCard field
 

@@ -86,6 +86,67 @@ about-addressbook-sort-email-ascending =
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-label-emailaddresses2 =
+    .label = E-postadresser
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = E-postadresser
+    .title = { $title }
+about-addressbook-column-header-nickname2 = Kallenavn
+    .title = Sorter etter kallenavn
+about-addressbook-column-label-nickname2 =
+    .label = Kallenavn
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Kallenavn
+    .title = { $title }
+about-addressbook-column-header-phonenumbers2 = Telefonnumre
+    .title = Sorter etter telefonnumre
+about-addressbook-column-label-phonenumbers2 =
+    .label = Telefonnumre
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Telefonnumre
+    .title = { $title }
+about-addressbook-column-header-addresses2 = Adresse
+    .title = Sorter etter adresse
+about-addressbook-column-label-addresses2 =
+    .label = Adresser
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Adresser
+    .title = { $title }
+about-addressbook-column-header-title2 = Tittel
+    .title = Sort by title
+about-addressbook-column-label-title2 =
+    .label = Tittel
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Tittel
+    .title = { $title }
+about-addressbook-column-header-department2 = Avdeling
+    .title = Sorter etter avdeling
+about-addressbook-column-label-department2 =
+    .label = Avdeling
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Avdeling
+    .title = { $title }
+about-addressbook-column-header-organization2 = Organisasjon
+    .title = Sorter etter organisasjon
+about-addressbook-column-label-organization2 =
+    .label = Organisasjon
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Organisasjon
+    .title = { $title }
 about-addressbook-column-header-addrbook2 = Adressebok
     .title = Sorter etter adressebok
 about-addressbook-column-label-addrbook2 =
@@ -95,6 +156,9 @@ about-addressbook-column-label-addrbook2 =
 about-addressbook-cell-addrbook2 =
     .aria-label = Adressebok
     .title = { $title }
+about-addressbook-cards-context-write =
+    .label = Skriv
+about-addressbook-confirm-delete-mixed-title = Slett kontakter og lister
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
 about-addressbook-confirm-delete-mixed = Er du sikker på at du vil slette disse { $count } kontaktene og listene?

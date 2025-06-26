@@ -139,8 +139,11 @@ account-setup-result-username-different = Innkommende: { $incoming }, Utgående:
 
 ## Error messages
 
+# Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
+account-setup-credentials-incomplete = Autentiseringen mislyktes. Enten er den oppgitte legitimasjonen feil, eller det kreves et eget brukernavn for å logge på. Dette brukernavnet er vanligvis ditt Windows-domene-brukernavn med eller uten domenet (for eksempel karinordmann eller AD\\karinordmann).
 account-setup-credentials-wrong = Autentiseringen mislyktes. Kontroller brukernavn og passord
 account-setup-find-settings-failed = { -brand-short-name } klarte ikke finne innstillingene for e-postkontoen din
+account-setup-exchange-config-unverifiable = Konfigurasjonen kunne ikke bekreftes. Hvis brukernavnet og passordet ditt er riktig, er det sannsynlig at serveradministratoren har deaktivert den valgte konfigurasjonen for kontoen din. Prøv å velge en annen protokoll.
 
 ## Manual configuration area
 
