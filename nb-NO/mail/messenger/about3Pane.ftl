@@ -459,6 +459,29 @@ apply-current-view-to-folder-message = Vil du bruke gjeldende mappevisning på {
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Vil du bruke gjeldende mappevisning på { $name } og dens undermapper?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> ulest av <span>1</span> melding
+               *[other] <span>1</span> ulest av <span>{ $total }</span> meldinger
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> uleste av <span>1</span> melding
+               *[other] <span>{ $unread }</span> uleste av <span>{ $total }</span> meldinger
+            }
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> melding
+       *[other] <span>{ $total }</span> meldinger
+    }
 threadpane-card-menu-button =
     .title = Meldingsmeny
 message-list-placeholder-no-messages = Ingen meldinger funnet

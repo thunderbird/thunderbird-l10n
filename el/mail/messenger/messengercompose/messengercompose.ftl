@@ -385,7 +385,7 @@ cloud-file-rename-error = Προέκυψε πρόβλημα κατά τη μετ
 cloud-file-rename-error-with-custom-message-title = Η μετονομασία του { $filename } στο { $provider } απέτυχε
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
-cloud-file-rename-not-supported = Το { $provider } δεν υποστηρίζει τη μετονομασία των ήδη ανεβασμένων αρχείων.
+cloud-file-rename-not-supported = Το { $provider } δεν υποστηρίζει τη μετονομασία των ήδη μεταφορτωμένων αρχείων.
 cloud-file-attachment-error-title = Σφάλμα συνημμένου FileLink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
