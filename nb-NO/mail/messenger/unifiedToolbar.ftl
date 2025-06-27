@@ -92,3 +92,7 @@ customize-target-remove-everywhere =
     .label = Fjern fra alle verktøylinjer
 customize-target-add-everywhere =
     .label = Legg til i alle verktøylinjer
+customize-target-start =
+    .label = Flytt til start
+customize-target-end =
+    .label = Flytt til slutten
