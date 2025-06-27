@@ -282,6 +282,12 @@ many-public-recipients-ignore =
     .label = La mottakerne være synlige
     .accesskey = L
 many-public-recipients-prompt-title = For mange offentlige mottakere
+#   $count (Number) - the count of addresses in the public recipients fields.
+many-public-recipients-prompt-msg =
+    { $count ->
+        [one] Meldingen din har en offentlig mottaker. Dette kan være et personvernproblem. Du kan unngå å avsløre mottakere ved å flytte mottakere fra Til/Kopi til Blindkopi (Bcc) i stedet.
+       *[other] Meldingen din har { $count } offentlige mottakere, som vil kunne se hverandres adresser. Dette kan være et personvernproblem. Du kan unngå å avsløre mottakere ved å flytte mottakere fra Til/Kopi til Blindkopi (Bcc) i stedet.
+    }
 many-public-recipients-prompt-cancel = Avbryt sending
 many-public-recipients-prompt-send = Send uansett
 

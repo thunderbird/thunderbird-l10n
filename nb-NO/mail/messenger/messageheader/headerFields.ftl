@@ -50,6 +50,7 @@ message-header-list-subscribe-field = Liste-abonner<span data-l10n-name="field-s
 message-header-list-post-field = Liste-post<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = Liste-eier<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = Liste-arkiv<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = Arkivert-på<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Få hjelp
