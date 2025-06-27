@@ -140,7 +140,13 @@ command-kick = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Kast ut brukere
 # $commandName is the command name
 command-nick = { $commandName } &lt;display_name&gt;: Endre visningsnavnet ditt.
 # $commandName is the command name
+command-op = { $commandName } &lt;userId&gt; [&lt;brukernivå&gt;]: Definer brukernivået til brukeren. Skriv inn en heltallsverdi, Bruker: 0, Moderator: 50 og Admin: 100. Standard vil være 50 hvis ingen argumenter er oppgitt. Krever tillatelse for å endre medlemmers brukernivå. Fungerer ikke på andre administratorer enn deg selv.
+# $commandName is the command name
+command-deop = { $commandName } &lt;userId&gt;: Tilbakestill brukeren til brukernivå 0 (Bruker). Krever tillatelse for å endre medlemmets brukernivå. Fungerer ikke på andre administratorer enn deg selv.
+# $commandName is the command name
 command-leave = { $commandName }: Forlat dette rommet.
+# $commandName is the command name
+command-topic = { $commandName } &lt;topic&gt;: Angi emnet for rommet. Krever tillatelser for å endre romemnet.
 # $commandName is the command name
 command-roomname = { $commandName } &lt;name&gt;: Angi navnet på rommet. Krever tillatelse for å endre romnavnet.
 # $commandName is the command name

@@ -5,6 +5,12 @@
 
 ## Table
 
+tree-list-view-row-select =
+    .alt = Avkrysningsboks for å velge eller fjerne valg av denne raden
+    .title = Velg denne raden
+tree-list-view-row-deselect =
+    .alt = Avkrysningsboks for å velge eller fjerne valg av denne raden
+    .title = Fjern valget av denne raden
 tree-list-view-row-delete =
     .title = Slett gjeldende rad
 tree-list-view-row-restore =
@@ -39,3 +45,9 @@ tree-list-view-row-spam =
 tree-list-view-row-not-spam =
     .alt = Indikator for søppelpoststatus
     .title = Melding merket som søppelpost
+tree-list-view-row-read =
+    .alt = Indikator for lest status
+    .title = Status for lest melding
+tree-list-view-row-not-read =
+    .alt = Indikator for ulest status
+    .title = Status for ulest melding
