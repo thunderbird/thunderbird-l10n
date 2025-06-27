@@ -134,7 +134,7 @@
 <!ENTITY recentFolders.label "Πρόσφατοι">
 <!ENTITY recentFolders.accesskey "ρ">
 <!ENTITY compactVersion.label "Πυκνή προβολή">
-<!ENTITY compactVersion.accesskey "Σ">
+<!ENTITY compactVersion.accesskey "Π">
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "Ταξινόμηση κατά">
 <!ENTITY sortMenu.accesskey "Τ">
