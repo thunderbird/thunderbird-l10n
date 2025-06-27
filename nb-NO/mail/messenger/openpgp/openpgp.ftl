@@ -4,6 +4,38 @@
 
 e2e-intro-description = For å sende krypterte eller digitalt signerte meldinger, må du konfigurere en krypteringsteknologi, enten OpenPGP eller S/MIME.
 e2e-intro-description-more = Velg din personlige nøkkel for å slå på OpenPGP, eller ditt personlige sertifikat for å slå på S/MIME. For en personlig nøkkel eller sertifikat eier du den tilsvarende hemmelige nøkkelen.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = For å få et nytt personlig S/MIME-sertifikat, generer en sertifikatsigneringsforespørsel (CSR) og send den til en sertifiseringsinstans (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Velg en lokal mappe og et filnavn for CSR-filen din, og svar på følgende spørsmål for å angi algoritme og styrke.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Generer CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Fortsett
+# A label for a button that goes back one step
+e2e-csr-back = Tilbake
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Generer og lagre en CSR-fil som…
+# Do not translate: CSR
+e2e-csr-select-title = CSR-algoritme
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Velg mellom RSA (anbefales) eller ECC som kryptografisk algoritme for det nye S/MIME-sertifikatet.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Velg ønsket kryptografisk styrke (raskere med lavere tall eller bedre sikkerhet med høyere tall) for det nye S/MIME-sertifikatet, eller behold standardinnstillingen.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = En ny hemmelig nøkkel av typen { $type } { $strength } vil bli generert i innstillingene til { -brand-short-name }. Denne prosessen kan ta litt tid og føre til midlertidig manglende respons. Vær tålmodig under dette trinnet. CSR-filen (Certificate Signing Request), lagret som { $file }, vil bli opprettet i mellomtiden.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Inkluder e-postadresse ({ $email }) i CSR (anbefales)
+# $file A filename
+e2e-csr-success = CSR-en ble lagret i { $file }
+# $file A filename
+e2e-csr-failure = Kunne ikke lagre CSR til filen { $file }
+e2e-signing-description = En digital signatur lar mottakerne bekrefte at meldingen ble sendt av deg og at innholdet ikke ble endret. Krypterte meldinger signeres alltid som standard.
 e2e-sign-message =
     .label = Signer ukrypterte meldinger
     .accesskey = u
@@ -13,6 +45,7 @@ e2e-disable-enc =
 e2e-enable-enc =
     .label = Skru på kryptering for nye meldinger
     .accesskey = n
+e2e-enable-description = Du vil kunne deaktivere kryptering for individuelle meldinger.
 e2e-advanced-section = Avanserte innstillinger
 e2e-attach-key =
     .label = Legg ved min offentlige nøkkel når du legger til en digital OpenPGP-signatur

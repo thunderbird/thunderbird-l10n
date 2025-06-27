@@ -10,6 +10,7 @@ auth-cancel = Avbryt
 auth-cancel-access-key = A
 auth-error = Det oppstod en feil under bekrefting av identiteten til kontakten din.
 auth-success = Bekrefting av identiteten til kontakten din er ferdig.
+auth-success-them = Kontakten din har bekreftet identiteten din. Det kan være lurt å bekrefte identiteten deres ved å stille ditt eget spørsmål.
 auth-fail = Klarte ikke å bekrefte identiteten til kontakten din.
 auth-waiting = Venter på at kontakten din skal fullføre bekreftelsen…
 finger-verify = Bekreft
@@ -26,10 +27,15 @@ alert-start = Forsøker å starte en kryptert samtale med { $name }.
 alert-refresh = Prøver å oppdatere den krypterte samtalen med { $name }.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
+alert-gone-insecure = Den krypterte samtalen med { $name } ble avsluttet.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
 finger-unseen = Identiteten til { $name } er ikke bekreftet ennå. Tilfeldig avlytting er ikke mulig, men med en viss innsats kan enkelte avlytte. Forhindre overvåking ved å verifisere identiteten til kontakten.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 finger-seen = { $name } kontakter deg fra en ukjent datamaskin. Tilfeldig avlytting er ikke mulig, men med en viss innsats kan enkelte avlytte. Forhindre overvåking ved å verifisere identiteten til kontakten.
+state-not-private = Den nåværende samtalen er ikke privat.
+state-generic-not-private = Den nåværende samtalen er ikke privat.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-unverified = Den nåværende samtalen er kryptert, men ikke privat, siden identiteten til { $name } ennå ikke er bekreftet.

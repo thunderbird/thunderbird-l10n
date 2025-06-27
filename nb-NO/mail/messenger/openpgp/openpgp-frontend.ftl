@@ -34,7 +34,10 @@ openpgp-broken-exchange-info = Dette er en OpenPGP-melding som tilsynelatende bl
 openpgp-broken-exchange-repair =
     .label = Reparer melding
 openpgp-broken-exchange-wait = Vent litt…
+openpgp-has-nested-encrypted-parts = Denne meldingen inneholder ytterligere krypterte deler.
 openpgp-show-encrypted-parts = Dekrypter og vis
+openpgp-has-nested-signed-parts = Noen deler av denne meldingen kan være digitalt signert.
+openpgp-show-signed-parts = Åpne og vis
 openpgp-cannot-decrypt-because-mdc =
     Dette er en kryptert melding som bruker en gammel og sårbar mekanisme.
     Den kan ha blitt endret under transport, med den hensikt å stjele innholdet.
@@ -50,3 +53,4 @@ openpgp-partially-encrypted =
 openpgp-reminder-partial-display = Påminnelse: Meldingen vist nedenfor er bare en delmengde av den opprinnelige meldingen.
 openpgp-partial-verify-button = Bekreft
 openpgp-partial-decrypt-button = Dekrypter
+openpgp-unexpected-key-for-you = Advarsel: Denne meldingen inneholder en ukjent OpenPGP-nøkkel som refererer til en av dine egne e-postadresser. Hvis dette ikke er en av dine egne nøkler, kan det være et forsøk på å lure andre korrespondenter.
