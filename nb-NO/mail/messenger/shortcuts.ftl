@@ -33,6 +33,21 @@ meta-ctrl-shortcut-key =
         [macos] ⌃ ⌘ { $key }
        *[other] Meta+Ctrl+{ $key }
     }
+meta-alt-shortcut-key =
+    { PLATFORM() ->
+        [macos] ⌥ ⌘ { $key }
+       *[other] Meta+Alt+{ $key }
+    }
+ctrl-alt-shortcut-key =
+    { PLATFORM() ->
+        [macos] ⌃ ⌥ { $key }
+       *[other] Ctrl+Alt+{ $key }
+    }
+meta-ctrl-alt-shortcut-key =
+    { PLATFORM() ->
+        [macos] ⌃ ⌥ ⌘ { $key }
+       *[other] Meta+Ctrl+Alt+{ $key }
+    }
 meta-shift-shortcut-key =
     { PLATFORM() ->
         [macos] ⇧ ⌘ { $key }

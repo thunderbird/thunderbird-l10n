@@ -56,6 +56,7 @@ toolbar-junk =
 toolbar-delete-label = Slett
 toolbar-delete-title =
     .title = Slett de valgte meldingene
+toolbar-undelete-label = Angre sletting
 toolbar-compact-label = Komprimer
 toolbar-compact =
     .title = Fjern slettede meldinger fra valgt mappe
