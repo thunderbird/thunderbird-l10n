@@ -631,6 +631,7 @@ need-online = Funksjonen du har valgt er ikke tilgjengelig i frakoblet modus. Ko
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Vi fant ingen brukbar nøkkel som samsvarte med de angitte søkekriteriene.
+no-update-found = Du har allerede nøklene som ble funnet på nettet.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
@@ -656,6 +657,10 @@ confirm-permissive-import = Import mislyktes. Nøkkelen du prøver å importere 
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Noen av de importerte hemmelige nøklene annonserer en funksjon som ikke støttes. Hvis du bruker en slik nøkkel som din personlige nøkkel, kan det hende at korrespondenter sender deg e-poster eller offentlige nøkler i et inkompatibelt format. Dette påvirker importerte hemmelige nøkler med følgende fingeravtrykk: { $fingerprints }.
+help-button = Hjelp
 
 ## Strings used in trust.sys.mjs
 
@@ -676,6 +681,17 @@ import-key-file = Importer OpenPGP-nøkkelfil
 import-rev-file = Importer OpenPGP-tilbakekallingsfil
 gnupg-file = GnuPG-filer
 import-keys-failed = Import av nøklene mislyktes
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Skriv inn passordfrasen for å låse opp den hemmelige nøkkelen med ID { $key }, opprettet { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Skriv inn passordfrasen for å låse opp den hemmelige nøkkelen med ID { $subkey }, som er en undernøkkel av nøkkel-ID { $key }, opprettet { $date }, { $username_and_email }
 file-to-big-to-import = Denne filen er for stor. Ikke importer et stort sett med nøkler på en gang.
 
 ## Strings used in enigmailKeygen.js

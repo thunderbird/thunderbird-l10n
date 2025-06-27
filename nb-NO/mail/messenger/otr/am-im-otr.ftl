@@ -5,6 +5,7 @@
 account-encryption =
     .label = Ende-til-ende-kryptering
 account-otr-label = Off-the-Record melding (OTR)
+account-otr-description2 = { -brand-short-name } støtter ende-til-ende-kryptering av en-til-en-samtaler. Dette forhindrer tredjeparter i å avlytte en samtale. Ende-til-ende-kryptering kan bare brukes når den andre personen også bruker programvare som støtter OTR.
 otr-encryption-title = Bekreftet kryptering
 otr-encryption-caption = For å gjøre det mulig for andre å bekrefte identiteten din i OTR-nettprat, kan du dele ditt eget OTR-fingeravtrykk ved hjelp av en ekstern (out-of-band) kommunikasjonskanal.
 otr-fingerprint-label = Ditt fingeravtrykk:
@@ -12,8 +13,12 @@ view-fingerprint-button =
     .label = Behandle fingeravtrykk for kontakter
     .accesskey = f
 otr-settings-title = OTR-innstillinger
+otr-require-encryption =
+    .label = Krev ende-til-ende-kryptering for en-til-en-samtaler
 otr-require-encryption-info =
     Når du krever ende-til-ende-kryptering, vil meldinger i en-til-en-samtaler
     ikke bli sendt med mindre de kan krypteres. Mottatte ikke-krypterte meldinger
     vises ikke som en del av den vanlige samtalen, og blir heller ikke logget.
+otr-verify-nudge =
+    .label = Påminn meg alltid på å bekrefte en ubekreftet kontakt
 otr-not-yet-available = ikke tilgjengelig enda
