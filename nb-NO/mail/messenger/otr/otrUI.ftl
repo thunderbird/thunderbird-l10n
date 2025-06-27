@@ -39,12 +39,15 @@ state-generic-not-private = Den nåværende samtalen er ikke privat.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-unverified = Den nåværende samtalen er kryptert, men ikke privat, siden identiteten til { $name } ennå ikke er bekreftet.
+state-generic-unverified = Den nåværende samtalen er kryptert, men ikke privat, siden noen identiteter ikke er bekreftet ennå.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-private = Identiteten for { $name } er bekreftet. Den nåværende samtalen er kryptert og privat.
+state-generic-private = Den nåværende samtalen er kryptert og privat.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-finished = { $name } har avsluttet den krypterte samtalen med deg; du bør gjøre det samme.
+state-not-private-label = Utrygg
 state-unverified-label = Ubekreftet
 state-private-label = Privat
 state-finished-label = Fullført

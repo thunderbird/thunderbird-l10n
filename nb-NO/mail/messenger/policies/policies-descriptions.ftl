@@ -12,6 +12,7 @@
 
 policy-3rdparty = Angi policyer som WebExtensions kan få tilgang til via chrome.storage.managed.
 policy-AppAutoUpdate = Slå på eller slå av automatisk programoppdateringer.
+policy-AppUpdatePin = Forhindre at { -brand-short-name } oppdateres utover den angitte versjonen.
 policy-AppUpdateURL = Angi egendefinert programoppdateringsadresse.
 policy-Authentication = Konfigurer integrert godkjenning for nettsteder som støtter det.
 policy-BackgroundAppUpdate2 = Slå på eller av bakgrunnsoppdatereren.
@@ -54,6 +55,7 @@ policy-ExtensionSettings = Håndter alle aspekter av utvidelsesinstallasjon.
 policy-ExtensionUpdate = Slå på eller slå av automatisk utvidelsesoppdateringer.
 policy-Handlers = Konfigurer standard applikasjonsbehandlere.
 policy-HardwareAcceleration = Hvis deaktivert, slå av maskinvareakselerasjon.
+policy-InAppNotification = Aktiver eller deaktiver varslingstyper.
 policy-InstallAddonsPermission = Tillat visse nettsteder å installere utvidelser.
 policy-LegacyProfiles = Slå av funksjonen som påtvinger en egen profil for hver installasjon.
 
