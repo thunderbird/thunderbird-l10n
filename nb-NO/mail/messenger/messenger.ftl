@@ -93,12 +93,18 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## File Menu
 
+menu-file-save-as-file =
+    .label = Fil…
+    .accesskey = F
 
 ## Edit Menu
 
 menu-edit-delete-folder =
     .label = Slett mappe
     .accesskey = S
+menu-edit-unsubscribe-newsgroup =
+    .label = Avslutt abonnement på temagruppe
+    .accesskey = A
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -135,6 +141,8 @@ redirect-msg-menuitem =
 
 ## AppMenu
 
+appmenu-save-as-file =
+    .label = Fil…
 appmenu-settings =
     .label = Innstillinger
 appmenu-addons-and-themes =
@@ -142,6 +150,15 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Merk som lest
+    .tooltiptext = Merk som lest
+context-menu-mark-unread =
+    .aria-label = Merk som ulest
+    .tooltiptext = Merk som ulest
+context-menu-mark-reply =
+    .aria-label = Svar
+    .tooltiptext = Svar
 context-menu-archive =
     .aria-label = Arkiver
     .tooltiptext = Arkiver
@@ -163,6 +180,9 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Videresend
     .accesskey = V
+mail-context-menu-forward-inline =
+    .label = Innebygd
+    .accesskey = I
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-menu-forward-as-attachment =
@@ -273,7 +293,11 @@ toolbar-context-menu-remove-extension =
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Fjern { $name }?
 addon-removal-confirmation-button = Fjern
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-confirmation-message = Fjern { $name } samt den konfigurasjon og data fra { -brand-short-name }?
 caret-browsing-prompt-title = Nettlesing med tekstvelger
+caret-browsing-prompt-text = Hvis du trykker på F7, slås tekstvelger av eller på. Denne funksjonen plasserer en flyttbar markør i noe innhold, slik at du kan velge tekst med tastaturet. Vil du slå på nettlesing med tekstvelger?
 caret-browsing-prompt-check-text = Ikke spør igjen.
 repair-text-encoding-button =
     .label = Reparer tekstkoding

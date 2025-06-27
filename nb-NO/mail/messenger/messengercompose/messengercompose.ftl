@@ -190,6 +190,9 @@ openpgp-key-issue-notification-from = Du er ikke konfigurert til å sende ende-t
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = Ende-til-ende-kryptering krever at man løser nøkkelproblemer for { $addr }.
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Ende-til-ende-kryptering krever at man løser sertifikatproblemer for { $addr }.
 key-notification-disable-encryption =
     .label = Ikke krypter
     .accesskey = k
@@ -352,7 +355,18 @@ cloud-file-rename-error-title = Mislykket navnebytte
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error = Det oppsto et problem med å bytte navn på { $filename } hos { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = Kunne ikke gi nytt navn til { $filename } hos { $provider }
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-rename-not-supported = { $provider } støtter ikke navneendringer på allerede opplastede filer.
 cloud-file-attachment-error-title = Filelink-vedleggsfeil
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = Kunne ikke oppdatere Filelink-vedlegget { $filename } fordi den lokale filen er flyttet eller slettet.
+cloud-file-account-error-title = Filelink-kontofeil
 
 ## Link Preview
 
