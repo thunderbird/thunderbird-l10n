@@ -65,9 +65,23 @@ openpgp-key-assistant-key-collected-keyserver = nøkkelserver
 openpgp-key-assistant-key-collected-wkd = Nettnøkkelkatalog
 # Do not translate GnuPG, it's a name of other software.
 openpgp-key-assistant-key-collected-gnupg = GnuPG-nøkkelring
+openpgp-key-assistant-key-rejected = Denne nøkkelen har blitt avvist tidligere.
+openpgp-key-assistant-key-accepted-other = Denne nøkkelen har tidligere blitt godtatt for en annen e-postadresse.
+# Variables:
+# $recipient (String) - The email address of the recipient needing resolution.
+openpgp-key-assistant-resolve-discover-info = Finn flere eller oppdaterte nøkler for { $recipient } på nettet, eller importer dem fra en fil.
 
 ## Discovery section
 
+openpgp-key-assistant-discover-title = Leter etter nøkler på nett.
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-discover-keys = Finner nøkler for { $recipient }…
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-expired-key-update =
+    En oppdatering ble funnet for en av de tidligere aksepterte nøklene for { $recipient }.
+    Den kan nå brukes siden den ikke lenger er utløpt.
 
 ## Dialog buttons
 
