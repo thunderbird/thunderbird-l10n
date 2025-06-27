@@ -48,6 +48,10 @@ pill-tooltip-not-in-address-book = { $email } er ikke i adresseboken din
 pill-action-edit =
     .label = Rediger adresse
     .accesskey = e
+#   $type (String) - the type of the addressing row, e.g. Cc, Bcc, etc.
+pill-action-select-all-sibling-pills =
+    .label = Velg alle adresser i { $type }
+    .accesskey = V
 pill-action-select-all-pills =
     .label = Velg alle adresser
     .accesskey = V
@@ -152,6 +156,9 @@ encryption-options-openpgp =
 encryption-options-smime =
     .label = S/MIME
     .tooltiptext = Vis eller endre S/MIME-krypteringsinnstillinger
+signing-toggle =
+    .label = Signer
+    .tooltiptext = Bruk digital signering for denne meldingen
 menu-openpgp =
     .label = OpenPGP
     .accesskey = O
@@ -176,10 +183,20 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Nøkkelbehandler
     .accesskey = N
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Du er ikke konfigurert til å sende ende-til-ende-krypterte meldinger fra { $addr }.
 key-notification-disable-encryption =
     .label = Ikke krypter
     .accesskey = k
     .tooltiptext = Skru av ende-til-ende-kryptering
+key-notification-resolve =
+    .label = Løse…
+    .accesskey = L
+    .tooltiptext = Åpne OpenPGP-nøkkelassistenten
+can-encrypt-smime-notification = S/MIME ende-til-ende-kryptering er mulig.
+can-encrypt-openpgp-notification = OpenPGP ende-til-ende-kryptering er mulig.
 can-e2e-encrypt-button =
     .label = Krypter
     .accesskey = E
@@ -231,6 +248,9 @@ show-bcc-row-extra-menuitem =
 #   $key (String) - the shortcut key for this field
 show-bcc-row-button = Blindkopi
     .title = Vis blindkopifelt ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+extra-address-rows-menu-button =
+    .title = Andre adresseringsfelt som skal vises
+public-recipients-notice-single = Meldingen din har en offentlig mottaker. Du kan unngå å avsløre mottakeren ved å bruke blindkopi i stedet.
 many-public-recipients-bcc =
     .label = Bruk blindkopi i stedet
     .accesskey = B

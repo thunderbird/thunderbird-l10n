@@ -86,3 +86,7 @@ message-ids-field-show-all = Vis alle
 
 ## Dark Message Mode
 
+dark-message-mode-toggle-enabled =
+    .title = Slå av mørk meldingsmodus
+dark-message-mode-toggle-disabled =
+    .title = Slå på mørk meldingsmodus
