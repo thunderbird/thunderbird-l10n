@@ -370,6 +370,7 @@ cloud-file-account-error-title = Filelink-kontofeil
 
 ## Link Preview
 
+link-preview-title = Forhåndsvisning av lenke
 link-preview-yes-replace = Ja
 
 ## Dictionary selection popup
