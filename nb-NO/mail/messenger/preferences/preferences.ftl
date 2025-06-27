@@ -767,13 +767,74 @@ sync-disconnected-turn-on-sync = Slå på synkronisering …
 qr-export-pane-header = Eksporter kontoer til { -brand-product-name } mobil
 qr-export-description = Overfør kontoinnstillingene dine raskt fra datamaskin til mobil ved å generere en QR-kode. Velg hvilke kontoer som skal inkluderes, bestem deg for om du vil overføre passordet ditt, og skann koden med mobilenheten din. Raskt, sikkert og enkelt.
 qr-export-get-app = Har du ikke { -brand-product-name } på mobilen ennå? <a data-l10n-name="app-link">Last den ned fra Google Play</a>
+qr-export-create = Opprett en QR-kode for å eksportere kontoene dine
+qr-export-select-accounts = Velg hvilke kontoer som skal eksporteres:
+qr-export-no-accounts = Ser du ikke alle kontoene dine? Noen kontoer kan være deaktivert fordi de ikke støttes av { -brand-product-name } for Android. <a data-l10n-name="account-support-link">Brukerstøtte</a>
+qr-export-accounts-legend = E-postkontoer
+qr-export-select-all-accounts = Merk alle
+qr-export-security-legend = Sikkerhet
+qr-export-include-passwords = Inkluder passord for alle kontoer
+qr-export-oauth-warning = Noen av kontoene dine bruker en autentiseringsmetode som kan kreve ny autentisering på mobilenheten din. Du må kanskje skrive inn passordene dine på nytt under denne prosessen.
 qr-export-security-hint = Ved å skanne følgende QR-koder vil kontoinnstillingene dine — inkludert e-postadresse og passord — bli overført sikkert. Vi verken samler inn, lagrer eller deler noen av disse dataene under prosessen. Overføringen skjer direkte mellom enhetene dine.
+qr-export-security-warning = Av sikkerhetshensyn, sørg for at du er i et privat miljø og skann kun QR-koder fra pålitelige kilder.
+qr-export-start-export = Eksporter
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } av { $count } QR-kode
+       *[other] { $step } av { $count } QR-koder
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Skann QR-kode med { -brand-product-name } på mobilenheten din
+       *[other] Skann QR-koder med { -brand-product-name } på mobilenheten din
+    }
+qr-export-scan-step1 = Åpne { -brand-product-name } på din mobilenhet
 qr-export-scan-step2 = Gå til innstillinger
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Velg <strong>Importer innstillinger</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Trykk på <strong>Skann QR-kode</strong> og hold telefonen over denne koden
+qr-export-back = Tilbake
+qr-export-next = Neste
+qr-export-done = Ferdig
+qr-export-summary-description = Kontoer eksportert. Fortsett på mobilenheten din.
+qr-export-summary-title = Eksportsammendrag:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } QR-kode generert
+       *[other] { $count } QR-koder generert
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } konto eksportert:
+       *[other] { $count } kontoer eksportert:
+    }
+qr-export-summary-passwords-included = Passord inkludert
+qr-export-summary-passwords-excluded = Passord ekskludert
+qr-export-more-accounts = Eksporter flere kontoer
 
 ## Appearance Tab
 
+appearance-category-header = Utseende
+default-message-list-legend = Meldingsliste
+appearance-view-style =
+    .value = Vis stil:
+appearance-radio-table =
+    .label = Tabellvisning
+default-message-list-description = Definer standardinnstillinger sortering og trådvisning for nyopprettede mapper.
+default-flag-label =
+    .value = Standard tråding:
+default-flag-unthreaded =
+    .label = Uten tråd
 default-sort-spam =
     .label = Status for søppelpost
 apply-thread-sort-label = Overfør innstillinger for trådvisning og sortering til:
