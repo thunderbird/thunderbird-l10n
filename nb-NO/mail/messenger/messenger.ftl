@@ -142,14 +142,65 @@ appmenu-addons-and-themes =
 
 ## Context menu
 
+context-menu-archive =
+    .aria-label = Arkiver
+    .tooltiptext = Arkiver
+context-menu-mark-junk =
+    .aria-label = Merk som søppelpost
+    .tooltiptext = Merk som søppelpost
+context-menu-mark-not-junk =
+    .aria-label = Merk som ikke søppelpost
+    .tooltiptext = Merk som ikke søppelpost
+mail-context-menu-open =
+    .label = Åpne
+    .accesskey = Å
+mail-context-menu-reply =
+    .label = Svar
+    .accesskey = S
+mail-context-menu-forward-redirect =
+    .label = Videresend og omdiriger
+    .accesskey = V
 mail-context-menu-forward-forward =
     .label = Videresend
     .accesskey = V
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Som vedlegg
+           *[other] Som vedlegg
+        }
+    .accesskey = S
+mail-context-menu-organize =
+    .label = Organiser
+    .accesskey = g
+mail-context-menu-threads =
+    .label = Tråder
+    .accesskey = T
 context-menu-redirect-msg =
     .label = Omdiriger
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Avbryt melding
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Slett melding
+           *[other] Slett valgte meldinger
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Angre sletting av melding
+           *[other] Angre sletting av valgte meldinger
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
 context-menu-decrypt-to-folder2 =
     .label = Lag dekryptert kopi i
     .accesskey = a
@@ -161,6 +212,16 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Stjernemerket
     .aria-label = Stjernemerket
+message-header-delete =
+    .label = Slett
+    .tooltiptext = Slett denne meldingen
+message-header-undelete =
+    .label = Angre sletting
+    .tooltiptext = Angre sletting av denne meldingen
+# Variables:
+# $address (String) - The email address of the recipient this picture belongs to.
+message-header-recipient-avatar =
+    .alt = Profilbilde for { $address }.
 
 ## Message header customize panel
 
@@ -174,16 +235,45 @@ message-header-button-style-text =
     .label = Tekst
 message-header-button-style-icons =
     .label = Ikoner
+message-header-show-sender-full-address =
+    .label = Vis alltid fullstendig adresse til avsender
+    .accesskey = V
+message-header-show-sender-full-address-description = E-postadressen vil vises under visningsnavnet.
+message-header-show-recipient-avatar =
+    .label = Vis avsenderens profilbilde
+    .accesskey = p
 message-header-show-big-avatar =
     .label = Større profilbilde
     .accesskey = S
+message-header-hide-label-column =
+    .label = Skjul kolonnen etiketter
+    .accesskey = k
+message-header-large-subject =
+    .label = Emne i stor skrift
+    .accesskey = s
+message-header-all-headers =
+    .label = Vis alle meldingshoder
+    .accesskey = V
+message-header-dark-message-toggle =
+    .label = Vis veksleknappen for mørk meldingsmodus
+    .accesskey = V
 
 ## Action Button Context Menu
 
+toolbar-context-menu-manage-extension =
+    .label = Behandle utvidelse
+    .accesskey = B
+toolbar-context-menu-remove-extension =
+    .label = Fjern utvidelse
+    .accesskey = F
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Fjern { $name }?
 addon-removal-confirmation-button = Fjern
+caret-browsing-prompt-title = Nettlesing med tekstvelger
 caret-browsing-prompt-check-text = Ikke spør igjen.
 repair-text-encoding-button =
     .label = Reparer tekstkoding

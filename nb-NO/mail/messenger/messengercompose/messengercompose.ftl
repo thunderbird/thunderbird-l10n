@@ -254,6 +254,9 @@ public-recipients-notice-single = Meldingen din har en offentlig mottaker. Du ka
 many-public-recipients-bcc =
     .label = Bruk blindkopi i stedet
     .accesskey = B
+many-public-recipients-ignore =
+    .label = La mottakerne være synlige
+    .accesskey = L
 many-public-recipients-prompt-title = For mange offentlige mottakere
 many-public-recipients-prompt-cancel = Avbryt sending
 many-public-recipients-prompt-send = Send uansett
@@ -263,7 +266,9 @@ many-public-recipients-prompt-send = Send uansett
 # Variables:
 # $identity (string) - The name of the used identity, most likely an email address.
 compose-missing-identity-warning = En unik identitet som passer med fra-adressen ble ikke funnet. Meldingen vil bli sendt ved hjelp av gjeldende fra-felt og innstillinger fra identitet { $identity }.
+encrypted-bcc-warning = Når du sender en kryptert melding, er ikke mottakerne i blindkopi (Bcc) fullstendig skjult. Alle mottakere kan kanskje identifisere dem.
 encrypted-bcc-ignore-button = Forstått
+auto-disable-e2ee-warning = Ende-til-ende-kryptering for denne meldingen ble automatisk deaktivert.
 
 ## Editing
 
