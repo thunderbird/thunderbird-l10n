@@ -10,7 +10,7 @@
 <!ENTITY folderSelectionCaption.label "Επιλογή φακέλων για αναζήτηση:">
 <!ENTITY chooseFoldersButton.label "Επιλογή…">
 <!ENTITY chooseFoldersButton.accesskey "ι">
-<!ENTITY searchOnline.label "Διαδικτυακή αναζήτηση (Παρέχει ενημερωμένα αποτελέσματα για φακέλους IMAP και συζητήσεων, αλλά αυξάνει το χρόνο ανοίγματος του φακέλου)">
+<!ENTITY searchOnline.label "Διαδικτυακή αναζήτηση (παρέχει ενημερωμένα αποτελέσματα για φακέλους IMAP και συζητήσεων, αλλά αυξάνει τον χρόνο ανοίγματος του φακέλου)">
 <!ENTITY searchOnline.accesskey "ζ">
 <!ENTITY newFolderButton.label "Δημιουργία">
 <!ENTITY newFolderButton.accesskey "ρ">
