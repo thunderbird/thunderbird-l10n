@@ -84,7 +84,7 @@ account-setup-success-guess-offline = Είστε εκτός σύνδεσης. Μ
 account-setup-success-password = Ο κωδικός πρόσβασης είναι εντάξει
 account-setup-success-addon = Το πρόσθετο εγκαταστάθηκε επιτυχώς
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
-account-setup-success-settings-db = Βρέθηκε ρύθμιση στην βάση δεδομένων του Mozilla ISP.
+account-setup-success-settings-db = Βρέθηκαν ρυθμίσεις στη βάση δεδομένων ISP της Mozilla.
 account-setup-success-settings-disk = Βρέθηκε ρύθμιση στην εγκατάσταση του { -brand-short-name }.
 account-setup-success-settings-isp = Βρέθηκε ρύθμιση στον πάροχο ηλεκτρονικού ταχυδρομείου.
 # Note: Microsoft Exchange is a product name.
