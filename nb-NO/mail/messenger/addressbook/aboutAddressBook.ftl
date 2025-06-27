@@ -307,3 +307,4 @@ about-addressbook-photo-save = Lagre
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = N

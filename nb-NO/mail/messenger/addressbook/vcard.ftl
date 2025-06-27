@@ -74,12 +74,23 @@ vcard-impp2-header = Direktemeldinger
 vcard-impp-add = Legg til chat-konto
 vcard-impp-label = Chat-konto
 vcard-impp-select = Protokoll
+vcard-impp-option-other = Annet
+vcard-impp-input-label = URI
+vcard-impp-input-title = URI for direktemeldinger
 
 # BDAY and ANNIVERSARY vCard field
 
+vcard-bday-anniversary-header = Spesielle datoer
+vcard-bday-anniversary-add = Legg til spesiell dato
+vcard-bday-label = Bursdag
+vcard-anniversary-label = Jubileum
+vcard-date-day = Dag
+vcard-date-month = Måned
+vcard-date-year = År
 
 # ADR vCard field
 
+vcard-adr-header = Adresser
 vcard-adr-add = Legg til adresse
 vcard-adr-label = Adresse
 vcard-adr-delivery-label = Leveringsetikett

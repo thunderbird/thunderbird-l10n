@@ -4,6 +4,8 @@
 
 # Short name of the import module
 thunderbird-import-name = Thunderbird
+# Description of the import module
+thunderbird-import-description = Importer e-post fra en Thunderbird-profilkatalog.
 import-from-thunderbird-zip =
     .label = Thunderbird (eksportert profilsikkerhetskopi; zip-fil mindre enn 2 GB)
     .accesskey = z

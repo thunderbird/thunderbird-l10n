@@ -25,8 +25,8 @@ checkbox-calendar-label =
 # Platforms that don't support it should be left blank.
 system-search-engine-name =
     { PLATFORM() ->
-        [macos] Αναζήτηση Spotlight
-        [windows] Αναζήτηση των Windows
+        [macos] στο Spotlight
+        [windows] στην Αναζήτηση των Windows
        *[other] { "" }
     }
 system-search-integration-label =

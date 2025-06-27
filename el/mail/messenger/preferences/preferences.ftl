@@ -221,12 +221,12 @@ check-default-button =
 # Platforms that don't support it should be left blank.
 search-engine-name =
     { PLATFORM() ->
-        [macos] Αναζήτηση Spotlight
-        [windows] Αναζήτηση των Windows
+        [macos] στο Spotlight
+        [windows] στην Αναζήτηση των Windows
        *[other] { "" }
     }
 search-integration-label =
-    .label = Να επιτρέπεται στην { search-engine-name } η αναζήτηση μηνυμάτων
+    .label = Να επιτρέπεται { search-engine-name } η αναζήτηση μηνυμάτων
     .accesskey = π
 config-editor-button =
     .label = Επεξεργασία ρυθμίσεων…
