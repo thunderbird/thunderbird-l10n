@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Export for Mobile
 category-qr-export =
     .tooltiptext = Export for Mobile
+general-language-and-fonts-header = Language & Fonts
 general-language-and-appearance-header = Language & Appearance
 general-incoming-mail-header = Incoming Mails
 general-files-and-attachment-header = Files & Attachments
@@ -299,6 +300,10 @@ clear-cache-button =
 clear-cache-shutdown-label =
     .label = Clear cache on shutdown
     .accesskey = s
+always-underline-links =
+    .label = Always underline links
+    .accesskey = k
+font-legend = Fonts
 fonts-legend = Fonts & Colours
 default-font-label =
     .value = Default font:
@@ -434,6 +439,7 @@ dark-message-mode-legend = Message reader style
 dark-message-mode-checkbox-label =
     .label = Enable dark message mode
     .accesskey = d
+dark-message-mode-description = Force the message body to follow dark themes
 dark-message-mode-toggle-label =
     .label = Show dark message mode toggle
     .accesskey = t
@@ -443,6 +449,10 @@ account-hub-checkbox-label =
     .label = Create accounts in the new Account Hub
     .accesskey = C
 account-hub-checkbox-description = Experimental new mail account creation flow
+account-hub-ab-checkbox-label =
+    .label = Create address books in the new Account Hub
+    .accesskey = A
+account-hub-ab-checkbox-description = Experimental new address book creation flow
 
 ## Compose Tab
 
@@ -779,6 +789,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Find in Settings
+managed-notice = { -brand-short-name } is being managed by your organization.
 
 ## Settings UI Search Results
 
@@ -897,6 +908,16 @@ qr-export-more-accounts = Export more accounts
 
 appearance-category-header = Appearance
 default-message-list-legend = Message List
+appearance-view-style =
+    .value = View Style:
+appearance-radio-table =
+    .label = Table view
+appearance-radio-cards =
+    .label = Cards view
+cards-view-legend = Cards View Options
+table-view-legend = Table View Options
+appearance-card-rows =
+    .value = Row Count:
 appearance-card-style-3 =
     .label = 3 rows
 appearance-card-style-2 =

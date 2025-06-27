@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Innocent">
 <!ENTITY smiley15Cmd.label "Cry">
 <!ENTITY smiley16Cmd.label "Lips-are-Sealed">
+<!ENTITY smiley17Cmd.label "Angry">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "No Suggestions Found">
 <!ENTITY spellCheckIgnoreWord.label "Ignore Word">

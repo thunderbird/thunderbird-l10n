@@ -472,3 +472,7 @@ quota-panel-percent-used = { $percent }% full
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Mark as Read
+delete-action = Delete
+mark-as-starred-action = Mark as Starred
+mark-as-spam-action = Mark as Spam
+archive-action = Archive
