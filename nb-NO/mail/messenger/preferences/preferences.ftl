@@ -741,6 +741,8 @@ qr-export-scan-step3 = Velg <strong>Importer innstillinger</strong>
 
 ## Appearance Tab
 
+default-sort-spam =
+    .label = Status for søppelpost
 apply-thread-sort-label = Overfør innstillinger for trådvisning og sortering til:
 apply-changes-prompt-message = Skal gjeldende innstillinger for trådvisning og sortering brukes på alle mapper?
 # Variables:

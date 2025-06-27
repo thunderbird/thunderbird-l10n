@@ -394,3 +394,6 @@ openpgp-forget = Glem OpenPGP-passordfraser
 
 mark-as-read-action = Merk som lest
 delete-action = Slett
+mark-as-starred-action = Merk som stjernemerket
+mark-as-spam-action = Marker som søppelpost
+archive-action = Arkiver
