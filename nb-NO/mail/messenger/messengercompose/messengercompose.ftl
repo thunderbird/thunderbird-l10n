@@ -191,6 +191,12 @@ openpgp-key-issue-notification-from = Du er ikke konfigurert til å sende ende-t
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = Ende-til-ende-kryptering krever at man løser nøkkelproblemer for { $addr }.
 # Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+       *[other] Ende-til-ende-kryptering krever at nøkkelproblemer for { $count } mottakere løses.
+    }
+# Variables:
 # $addr (String) - mail address with certificate issues.
 smime-cert-issue-notification-single = Ende-til-ende-kryptering krever at man løser sertifikatproblemer for { $addr }.
 # Variables:

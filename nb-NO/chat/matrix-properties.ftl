@@ -142,12 +142,30 @@ command-nick = { $commandName } &lt;display_name&gt;: Endre visningsnavnet ditt.
 # $commandName is the command name
 command-leave = { $commandName }: Forlat dette rommet.
 # $commandName is the command name
+command-roomname = { $commandName } &lt;name&gt;: Angi navnet på rommet. Krever tillatelse for å endre romnavnet.
+# $commandName is the command name
 command-detail = { $commandName }: Vis detaljene for rommet.
+# $commandName is the command name
+command-addalias = { $commandName } &lt;alias&gt;: Opprett et alias for rommet. Forventet romalias på formen ‘#localname:domain’. Krever tillatelse for å legge til aliaser.
+# $commandName is the command name
+command-removealias = { $commandName } &lt;alias&gt;: Fjern aliaset for rommet. Forventet romalias på formen ‘#localname:domain’. Krever tillatelse for å fjerne aliaser.
+# $commandName is the command name
+command-upgraderoom = { $commandName } &lt;newVersion&gt;: Oppgrader rommet til gitt versjon. Krever tillatelse for å oppgradere rommet.
+# $commandName is the command name
+command-me = { $commandName } &lt;action&gt;: Utfør en handling.
+# $commandName is the command name
+command-msg = { $commandName } &lt;userId&gt; &lt;message&gt;: Send en direktemelding til den oppgitte brukeren.
+# $commandName is the command name
+command-join = { $commandName } &lt;roomId&gt;: Bli med i det gitte rommet.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } sparket ut { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } blokkert { $userBanned }. Årsak: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } godtok invitasjonen for { $userWhoSent }.
@@ -182,11 +200,19 @@ message-kicked-with-reason = { $user } sparket ut { $userGotKicked }. Årsak: { 
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 message-withdrew-invite = { $user } trakk tilbake { $userInvitationWithdrawn } sin invitasjon.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } trakk tilbake invitasjonen fra { $userInvitationWithdrawn }. Årsak: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } fjernet rommets navn.
 #    $user is the name of the user who changed the room name.
 #    $newRoomName is the new room name.
 message-room-name-changed = { $user } endret navnet på rommet til { $newRoomName }.
+#    $user is the name of the user who changed the power level.
+#    $powerLevelChanges is a list of "message-power-level-from-to" strings representing power level changes separated by commas
+#    power level changes, separated by commas if  there are multiple changes.
+message-power-level-changed = { $user } endret brukernivået til { $powerLevelChanges }.
 #    $user is the name of the target user whose power level has been changed.
 #    $oldPowerLevel is the old power level.
 #    $newPowerLevel is the new power level.
