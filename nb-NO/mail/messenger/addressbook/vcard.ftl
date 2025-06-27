@@ -58,12 +58,22 @@ vcard-url-label = Nettsted
 vcard-tel-header = Telefonnumre
 vcard-tel-add = Legg til telefonnummer
 vcard-tel-label = Telefonnummer
+# Or "Mobile"
+vcard-entry-type-cell = Mobiltelefon
+vcard-entry-type-fax = Faks
+vcard-entry-type-pager = Personsøker
 
 # TZ vCard field
 
+vcard-tz-header = Tidssone
+vcard-tz-add = Legg til tidssone
 
 # IMPP vCard field
 
+vcard-impp2-header = Direktemeldinger
+vcard-impp-add = Legg til chat-konto
+vcard-impp-label = Chat-konto
+vcard-impp-select = Protokoll
 
 # BDAY and ANNIVERSARY vCard field
 

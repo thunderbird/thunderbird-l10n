@@ -4,6 +4,12 @@
 
 # Short name of the import module
 thunderbird-import-name = Thunderbird
+import-from-thunderbird-zip =
+    .label = Thunderbird (eksportert profilsikkerhetskopi; zip-fil mindre enn 2 GB)
+    .accesskey = z
+import-from-thunderbird-dir =
+    .label = Thunderbird (profilmappe)
+    .accesskey = T
 import-select-profile-dir = Velg en profilmappe
 wizardpage-failed =
     .label = Importeringen mislyktes

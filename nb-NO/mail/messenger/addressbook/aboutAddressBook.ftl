@@ -72,6 +72,10 @@ about-addressbook-search2 =
 about-addressbook-search-all2 =
     .label = Søk i alle adressebøker
     .placeholder = Søk i alle adressebøker …
+about-addressbook-sort-button2 =
+    .title = Listevisningsalternativer
+about-addressbook-name-format-display =
+    .label = Visningsnavn
 about-addressbook-name-format-firstlast =
     .label = Fornavn Etternavn
 about-addressbook-name-format-lastfirst =
@@ -82,10 +86,25 @@ about-addressbook-sort-name-descending =
     .label = Sorter etter navn (Å > A)
 about-addressbook-sort-email-ascending =
     .label = Sorter etter e-postadresse (A > Å)
+about-addressbook-sort-email-descending =
+    .label = Sorter etter e-postadresse (Å > A)
+about-addressbook-table-layout =
+    .label = Tabelloppsett
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-header-generatedname2 = Navn
+    .title = Sorter etter navn
+about-addressbook-column-label-generatedname2 =
+    .label = Navn
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Navn
+    .title = { $title }
+about-addressbook-column-header-emailaddresses2 = E-postadresser
+    .title = Sorter etter e-postadresser
 about-addressbook-column-label-emailaddresses2 =
     .label = E-postadresser
 # Variables:
