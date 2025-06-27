@@ -8,6 +8,13 @@ openpgp-key-assistant-rogue-warning = Unngå å godta en forfalsket nøkkel. For
 ## Encryption status
 
 openpgp-key-assistant-recipients-issue-header = Kan ikke kryptere
+# Variables:
+# $count (Number) - The number of recipients that need attention.
+openpgp-key-assistant-recipients-issue-description =
+    { $count ->
+        [one] For å kryptere må du skaffe og godta brukbare nøkkel for en mottaker. <a data-l10n-name="openpgp-link">Les mer…</a>
+       *[other] For å kryptere må du skaffe og godta brukbare nøkler for { $count } mottakere. <a data-l10n-name="openpgp-link">Les mer…</a>
+    }
 openpgp-key-assistant-info-alias = { -brand-short-name } krever vanligvis at mottakerens offentlige nøkkel inneholder en bruker-ID med en samsvarende e-postadresse. Dette kan overstyres ved å bruke OpenPGP-mottakeraliasregler. <a data-l10n-name="openpgp-link">Les mer…</a>
 # Variables:
 # $count (Number) - The number of recipients that need attention.
@@ -39,6 +46,13 @@ openpgp-key-assistant-invalid-title =
 openpgp-key-assistant-no-key-available = Ingen nøkkel tilgjengelig.
 openpgp-key-assistant-multiple-keys = Flere nøkler er tilgjengelige.
 # Variables:
+# $count (Number) - The number of unaccepted keys.
+openpgp-key-assistant-key-unaccepted =
+    { $count ->
+        [one] En nøkkel er tilgjengelig, men den er ikke godkjent ennå.
+       *[other] Flere nøkler er tilgjengelige, men ingen av dem er godkjent ennå.
+    }
+# Variables:
 # $date (String) - The expiration date of the key.
 openpgp-key-assistant-key-accepted-expired = En godkjent nøkkel har utløpt den { $date }.
 openpgp-key-assistant-keys-accepted-expired = Flere godkjente nøkler har utløpt.
@@ -65,6 +79,13 @@ openpgp-key-assistant-key-collected-keyserver = nøkkelserver
 openpgp-key-assistant-key-collected-wkd = Nettnøkkelkatalog
 # Do not translate GnuPG, it's a name of other software.
 openpgp-key-assistant-key-collected-gnupg = GnuPG-nøkkelring
+# Variables:
+# $count (Number) - Number of found keys.
+openpgp-key-assistant-keys-has-collected =
+    { $count ->
+        [one] En nøkkel ble funnet, men den er ikke godkjent ennå.
+       *[other] Flere nøkler ble funnet, men ingen av dem er godkjent ennå.
+    }
 openpgp-key-assistant-key-rejected = Denne nøkkelen har blitt avvist tidligere.
 openpgp-key-assistant-key-accepted-other = Denne nøkkelen har tidligere blitt godtatt for en annen e-postadresse.
 # Variables:

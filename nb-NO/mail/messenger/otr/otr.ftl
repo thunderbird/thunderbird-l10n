@@ -4,7 +4,21 @@
 
 # Variables:
 #   $name (String) - the screen name of a chat contact person
+msgevent-encryption-required-part1 = Du forsøkte å sende en ukryptert melding til { $name }. Som en policy er ukrypterte meldinger ikke tillatt.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-connection-ended = { $name } har allerede lukket den krypterte forbindelsen til deg. For å unngå at du ved en feil sender en melding uten kryptering, ble ikke meldingen sendt. Avslutt den krypterte samtalen, eller start den på nytt.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-setup-error = Det oppstod en feil under forsøket på å starte en privat samtale med { $name }.
+# Do not translate 'OTR' (name of an encryption protocol)
+msgevent-msg-reflected = Du mottar dine egne OTR-meldinger. Du prøver enten å snakke med deg selv, eller så er det noen som sender meldingene dine tilbake til deg.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
 msgevent-msg-resent = Den siste meldingen til { $name } ble sendt på nytt.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-not-private = Den krypterte meldingen mottatt fra { $name } er uleselig, siden du for øyeblikket ikke kommuniserer privat.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 msgevent-rcvdmsg-unreadable = Du mottok en uleselig kryptert melding fra { $name }.
