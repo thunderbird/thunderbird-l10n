@@ -37,7 +37,7 @@ normal-priority = Κανονική
 low-priority = Χαμηλή
 import-prompt = Σε ποιο ημερολόγιο θέλετε να κάνετε εισαγωγή αυτών των στοιχείων;
 export-prompt = Από ποιο ημερολόγιο θέλετε να κάνετε εξαγωγή;
-paste-prompt = Σε ποιό από τα εγγράψιμα ημερολόγια θέλετε να επικολλήσετε;
+paste-prompt = Σε ποιο από τα εγγράψιμα ημερολόγιά σας θέλετε να κάνετε επικόλληση;
 publish-prompt = Ποιο ημερολόγιο θέλετε να δημοσιεύσετε;
 # LOCALIZATION NOTE (paste-event-also): The users pasting operation includes among
 # others also a meeting invitation - this is used as a affix in
