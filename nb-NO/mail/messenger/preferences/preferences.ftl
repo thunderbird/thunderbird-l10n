@@ -425,6 +425,15 @@ address-display-name =
 condensed-addresses-label =
     .label = Vis bare visningsnavnet for personer i adresseboken
     .accesskey = V
+dark-message-mode-description = Tving meldingsteksten til å følge mørke temaer
+dark-message-mode-toggle-label =
+    .label = Vis veksleknapp for mørk meldingsmodus
+    .accesskey = V
+dark-message-mode-toggle-description = Vis en veksleknapp i meldingshodet for raskt å deaktivere mørk meldingsmodus
+account-hub-checkbox-label =
+    .label = Opprett kontoer i det nye kontosenteret
+    .accesskey = O
+account-hub-checkbox-description = Eksperimentell ny prosess for oppretting av e-postkontoer
 account-hub-ab-checkbox-label =
     .label = Opprett adressebøker i det nye kontosenteret
     .accesskey = O
@@ -493,10 +502,16 @@ default-format-label =
 compose-send-format-title = Sendingsformat
 compose-send-automatic-option =
     .label = Automatisk
+compose-send-automatic-description = Hvis ingen stil brukes i meldingen, send ren tekst. Ellers send HTML med en ren tekst-reserve.
+compose-send-both-option =
+    .label = Både HTML og ren tekst
+compose-send-both-description = Mottakerens e-postprogram avgjør hvilken versjon som skal vises.
 compose-send-html-option =
     .label = Kun HTML
+compose-send-html-description = Noen mottakere kan ha problemer med å lese meldingen uten en reserveversjon i ren tekst.
 compose-send-plain-option =
     .label = Kun ren tekst
+compose-send-plain-description = Noe av stilen vil bli konvertert til et ren tekst-alternativ, mens andre komposisjonsfunksjoner vil bli deaktivert.
 autocomplete-description = Ved adressering av meldinger, søk etter treff i:
 ab-label =
     .label = Lokale adressebøker
@@ -568,6 +583,14 @@ third-party-visited =
 cookies-button =
     .label = Vis infokapsler …
     .accesskey = V
+# Do not translate.
+# "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
+# included to facilitate power-user search of the about:preferences page.
+global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-description =
+    .label = Be nettsteder om ikke å selge eller dele mine data
+    .accesskey = n
+do-not-track-removal = Vi støtter ikke lenger «Ikke spor»-signalet
 do-not-track-label =
     .label = Send nettsider et «Ikke spor»-signal om at du ikke vil bli sporet
     .accesskey = n
@@ -581,18 +604,31 @@ primary-password-description = Du kan bruke et hovedpassord for å beskytte alle
 primary-password-label =
     .label = Bruk et hovedpassord
     .accesskey = B
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Krev enhetsinnlogging for å fylle ut og behandle passord
 primary-password-button =
     .label = Endre hovedpassord…
     .accesskey = E
 forms-primary-pw-fips-title = Du er for tiden i FIPS-modus. FIPS krever at du bruker et hovedpassord.
 forms-master-pw-fips-desc = Passordendring mislyktes
 junk-description = Angi standard oppførsel for uønsket e-post. Konto-spesifikke innstillinger for uønsket e-post kan angis i Kontoinnstillinger.
+junk-marked-label =
+    .label = Når meldinger er merket som søppelpost:
+    .accesskey = N
 junk-move-label =
     .label = Flytt dem til kontoens «Uønsket»-mappe
     .accesskey = F
 junk-delete-label =
     .label = Slett dem
     .accesskey = S
+junk-read-description = Merk meldinger som lest
+junk-read-manual-label =
+    .label = Når meldingen manuelt er markert som søppelpost
+    .accesskey = N
+junk-read-auto-label =
+    .label = Når { -brand-short-name } avgjør at de er søppelpost
+    .accesskey = N
 junk-log-label =
     .label = Slå på logging for adaptiv filter for uønsket e-post
     .accesskey = l
@@ -626,9 +662,23 @@ certificate-button =
 security-devices-button =
     .label = Sikkerhetsenheter…
     .accesskey = e
+email-e2ee-header = Ende-til-ende-kryptering av e-post
 account-settings = Kontoinnstillinger
 email-e2ee-enable-info = Konfigurer e-postkontoer og identiteter for ende-til-ende-kryptering i kontoinnstillinger.
 email-e2ee-automatism = Automatisk bruk av kryptering
+email-e2ee-automatism-pre =
+    { -brand-short-name } kan hjelpe ved å automatisk aktivere eller deaktivere kryptering når du skriver en e-post.
+    Automatisk aktivering/deaktivering er basert på tilgjengeligheten av gyldige og aksepterte nøkler eller sertifikater for korrespondenter.
+email-e2ee-auto-on =
+    .label = Aktiver kryptering automatisk når det er mulig
+email-e2ee-auto-off =
+    .label = Deaktiver kryptering automatisk når mottakere endres og kryptering ikke lenger er mulig
+email-e2ee-auto-off-notify =
+    .label = Vis et varsel når kryptering deaktiveres automatisk
+email-e2ee-automatism-post =
+    Automatiske avgjørelser kan overstyres ved å manuelt aktivere eller deaktivere kryptering når du skriver en melding.
+    
+    Merk: Kryptering aktiveres alltid automatisk når du svarer på en kryptert melding.
 
 ## Chat Tab
 
@@ -739,8 +789,14 @@ search-results-help-link = Trenger du hjelp? Gå til <a data-l10n-name="url">{ -
 
 ## Sync Tab
 
+sync-signedout-caption = Ta med deg webben
 sync-signedout-description = Synkroniser kontoene, adressebøkene, kalenderne, tilleggene og innstillingene dine på tvers av alle enhetene dine.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Logg inn på Sync…
 sync-pane-header = Synkroniser
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = «{ $userEmail }» er ikke bekreftet.
 sync-pane-sign-in = Logg inn
 sync-pane-remove-account = Fjern konto
 sync-pane-edit-photo =
