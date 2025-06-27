@@ -2,10 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+openpgp-key-assistant-title = OpenPGP-nøkkelassistent
+openpgp-key-assistant-rogue-warning = Unngå å godta en forfalsket nøkkel. For å sikre at du har fått tak i riktig nøkkel, bør du bekrefte den. <a data-l10n-name="openpgp-link">Les mer…</a>
 
 ## Encryption status
 
 openpgp-key-assistant-recipients-issue-header = Kan ikke kryptere
+openpgp-key-assistant-info-alias = { -brand-short-name } krever vanligvis at mottakerens offentlige nøkkel inneholder en bruker-ID med en samsvarende e-postadresse. Dette kan overstyres ved å bruke OpenPGP-mottakeraliasregler. <a data-l10n-name="openpgp-link">Les mer…</a>
 
 ## Resolve section
 

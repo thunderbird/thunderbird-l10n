@@ -8,7 +8,12 @@
 message-header-to-list-name = Til
 message-header-from-list-name = Fra
 message-header-sender-list-name = Avsender
+message-header-reply-to-list-name = Svar til
+message-header-cc-list-name = Kopi
+message-header-bcc-list-name = Blindkopi
 message-header-newsgroups-list-name = Temagrupper
+message-header-followup-to-list-name = Oppfølging
+message-header-tags-list-name = Etiketter
 # List management header - RFC 2369.
 message-header-list-id = Liste-ID
 # List management header - RFC 2369.
@@ -56,6 +61,10 @@ list-id-list-subscribe =
 list-id-list-post =
     .label = Skriv
     .accesskey = S
+# Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
+list-id-list-owner =
+    .label = Kontakt administrator…
+    .accesskey = K
 # Describes (i.e. http or mailto URL) how to access archives for the mailing list.
 list-id-list-archive =
     .label = Listearkiv

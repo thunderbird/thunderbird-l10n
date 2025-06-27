@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Tillegg og temaer
     .accesskey = T
+menu-export-for-mobile =
+    .label = Eksporter for mobil…
+    .accesskey = p
 
 ## Help Menu
 
@@ -22,6 +25,9 @@ menu-help-help-title =
     .accesskey = H
 menu-help-get-help =
     .label = Få hjelp
+    .accesskey = F
+menu-help-get-release-help =
+    .label = Få hjelp med { -brand-short-name }
     .accesskey = F
 menu-help-shortcuts =
     .label = Tastatursnarveier
@@ -62,6 +68,12 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Avslutt { -brand-shorter-name }
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Avslutt { -brand-full-name }
+           *[other] Avslutt { -brand-full-name }
+        }
 # Localization note: Do not translate unless your locale's keyboard layout
 # does not include this key, as it determines the keyboard shortcut for
 # shutting down the application.
@@ -91,9 +103,15 @@ menu-view-repair-text-encoding =
 
 ## View / Folders
 
+menu-view-folders-toggle-header =
+    .label = Mappepaneloverskrift
+    .accesskey = p
 
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Overskrift på meldingsliste
+    .accesskey = O
 menu-font-size-label =
     .label = Skriftstørrelse
     .accesskey = o
@@ -109,6 +127,9 @@ menuitem-font-size-reset =
 mail-uidensity-label =
     .label = Tetthet
     .accesskey = T
+mail-uidensity-compact =
+    .label = Kompakt
+    .accesskey = K
 mail-uidensity-default =
     .label = Standard
     .accesskey = S
@@ -121,6 +142,9 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = E-postkonto…
+    .accesskey = E
 file-new-newsgroup-account =
     .label = Temagruppekonto
     .accesskey = N

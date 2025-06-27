@@ -187,6 +187,9 @@ menu-open-key-manager =
 # $addr (String) - Email address (which related to the currently selected
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Du er ikke konfigurert til å sende ende-til-ende-krypterte meldinger fra { $addr }.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Ende-til-ende-kryptering krever at man løser nøkkelproblemer for { $addr }.
 key-notification-disable-encryption =
     .label = Ikke krypter
     .accesskey = k
@@ -275,6 +278,8 @@ auto-disable-e2ee-warning = Ende-til-ende-kryptering for denne meldingen ble aut
 
 # Tools
 
+compose-tool-button-remove-text-styling =
+    .tooltiptext = Fjern tekststil
 
 ## Filelink
 
@@ -287,16 +292,66 @@ cloud-file-unknown-account-tooltip = Lastet opp til en ukjent Filelink-konto.
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink-vedlegg
+# A text describing that the file was attached as a Filelink and can be downloaded
+# from the link shown below.
+# $filename - name of the file
+cloud-file-placeholder-intro = Filen { $filename } ble lagt ved som en Filelink. Den kan lastes ned fra lenken nedenfor.
 
 # Template
 
+# A line of text describing how many uploaded files have been appended to this
+# message. Emphasis should be on sharing as opposed to attaching. This item is
+# used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
+cloud-file-count-header =
+    { $count ->
+        [one] Jeg har lenket { $count } fil til denne e-posten:
+       *[other] Jeg har lenket { $count } filer til denne e-posten:
+    }
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service provider.
+# $link (string) - html a-tag for a link pointing to the web page of the provider
+cloud-file-service-provider-footer-single = Les mer om { $link }.
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service providers. Links for the used providers are
+# split into a comma separated list of the first n-1 providers and a single entry
+# at the end.
+# $firstLinks (string) - comma separated list of html a-tags pointing to web pages
+#                        of the first n-1 used providers
+# $lastLink (string) - html a-tag pointing the web page of the n-th used provider
+cloud-file-service-provider-footer-multiple = Les mer om { $firstLinks } og { $lastLink }.
+# Tooltip for an icon, indicating that the link is protected by a password.
+cloud-file-tooltip-password-protected-link = Passordbeskyttet lenke
+# Used in a list of stats about a specific file
+# Service - the used service provider to host the file (Filelink Service: BOX.com)
+# Size - the size of the file (Size: 4.2 MB)
+# Link - the link to the file (Link: https://some.provider.com)
+# Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
+# Download Limit - stating the maximum allowed downloads, before the link becomes invalid
+#                  (Download Limit: 6)
+cloud-file-template-service-name = Filelink-tjeneste:
 cloud-file-template-size = Størrelse:
 cloud-file-template-link = Lenke:
+cloud-file-template-password-protected-link = Passordbeskyttet lenke:
 cloud-file-template-expiry-date = Utløpsdato:
+cloud-file-template-download-limit = Nedlastingsgrense:
 
 # Messages
 
 cloud-file-connection-error-title = Tilkoblingsfeil
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-connection-error = { -brand-short-name } er frakoblet. Kunne ikke koble til { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = Opplasting av { $filename } til { $provider } mislyktes
+cloud-file-rename-error-title = Mislykket navnebytte
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error = Det oppsto et problem med å bytte navn på { $filename } hos { $provider }.
 cloud-file-attachment-error-title = Filelink-vedleggsfeil
 
 ## Link Preview

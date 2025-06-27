@@ -13,3 +13,7 @@ info-explanation-2 = Om du vil bruke nøkkelen over lengre tid, endrer du utløp
 expire-no-change-label = Ikke endre utløpsdatoen
 expire-in-time-label = Nøkkelen utløper om:
 expire-never-expire-label = Nøkkelen vil aldri utløpe
+partial-label-never-expires = utløper aldri
+# Variables:
+# $date (String) - Date the key is expiring on.
+partial-label-expires = utløper: { $dato }
