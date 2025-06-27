@@ -316,6 +316,7 @@ openpgp-personal-yes-label =
 openpgp-passphrase-protection =
     .label = Passordfrasebeskyttelse
 openpgp-passphrase-status-unprotected = Ubeskyttet
+openpgp-passphrase-status-primary-password = Beskyttet av hovedpassordet for { -brand-short-name }
 openpgp-passphrase-unlock = Lås opp
 openpgp-copy-cmd-label =
     .label = Kopier
