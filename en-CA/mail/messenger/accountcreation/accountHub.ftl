@@ -148,3 +148,47 @@ account-hub-oauth-pending = Waiting for authorization in login popup…
 account-hub-addon-install-needed = { -brand-short-name } doesn’t natively support this server. To access Exchange email, <a data-l10n-name="addon-install"> install a third-party add-on like Owl (paid).</a>
 account-hub-addon-error = Add-on installation failed. Please try again or contact the add-on author for assistance.
 account-hub-security-warning = <span data-l10n-name="security-warning">Warning: Insecure mail server detected.</span> This server lacks encryption, exposing your password and data. Contact your administrator to secure the connection or proceed at your own risk. <a data-l10n-name="faq-link">See FAQ for more.</a>
+account-hub-account-authentication-error = Authentication error.
+account-hub-add-address-book = Add an address book
+address-book-sync-existing-icon =
+    .alt = Sync an address book from an existing account
+address-book-sync-existing = Sync from an existing account
+address-book-add-remote-icon =
+    .alt = Add a new remote address book
+address-book-add-remote = Add remote Address Book
+address-book-add-remote-description = Connect to a remote CardDav Address Book
+address-book-add-local-icon =
+    .alt = Create a new local address book
+address-book-add-local = New local Address Book
+address-book-add-local-description = Create a new local address book on your device
+address-book-add-ldap-icon =
+    .alt = Connect to a remote LDAP address book
+address-book-add-ldap = New LDAP Address Book
+address-book-add-ldap-description = Connect to a remote LDAP address book
+account-hub-fetching-sync-accounts = Discovering address books and calendars…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] 1 address book from 1 account available
+               *[other] 1 address book from { $accounts } accounts available
+            }
+       *[other]
+            { $accounts ->
+                [one] { $addressBooks } address books from 1 account available
+               *[other] { $addressBooks } address books from { $accounts } accounts available
+            }
+    }
+address-book-sync-existing-description = Retrieving existing accounts…
+account-hub-select-address-book-account = Select an account with Address books
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } of { $total }
+    .title = { $synced } synced address books, { $available } available
+account-hub-add-local-address-book = Create a Local Address Book
+account-hub-local-address-book-label = Address Book Name
+account-hub-local-error-text = Please enter an address book name
+account-hub-sync-address-books = Sync existing address books
