@@ -515,6 +515,7 @@ key-man-button-export-pub-key = Eksporter kun &offentlige nøkler
 key-man-button-refresh-all = &Oppdater alle nøklene
 key-man-loading-keys = Laster inn nøkler, vent litt…
 ascii-armor-file = ASCII armerte filer (* .asc)
+text-file = Tekstfiler (*.txt)
 no-key-selected = Du bør velge minst en nøkkel for å utføre den valgte handlingen
 export-to-file = Eksporter offentlig nøkkel til fil
 export-keypair-to-file = Eksporter hemmelig og offentlig nøkkel til fil
@@ -629,6 +630,7 @@ need-online = Funksjonen du har valgt er ikke tilgjengelig i frakoblet modus. Ko
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
+no-key-found2 = Vi fant ingen brukbar nøkkel som samsvarte med de angitte søkekriteriene.
 
 ## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
 
