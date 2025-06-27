@@ -114,8 +114,8 @@ calendar-import-into-new-calendar2 = Δημιουργήστε ένα νέο ημ
 # $targetCalendar (string) - name of the calendar the items will be imported into
 calendar-summary-title =
     { $itemCount ->
-        [one] Εισαγωγή ενός αντικειμένου στο ημερολόγιο "{ $targetCalendar }"
-       *[other] Εισαγωγή { $itemCount } αντικειμένων στο ημερολόγιο "{ $targetCalendar }"
+        [one] Εισαγωγή ενός στοιχείου στο ημερολόγιο «{ $targetCalendar }»
+       *[other] Εισαγωγή { $itemCount } στοιχείων στο ημερολόγιο «{ $targetCalendar }»
     }
 # $targetCalendar (string) - name of the calendar that will be created
 calendar-summary-description = Θα δημιουργηθεί ένα νέο ημερολόγιο με όνομα «{ $targetCalendar }».

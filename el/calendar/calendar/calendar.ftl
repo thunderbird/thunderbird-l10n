@@ -127,7 +127,7 @@ remove-calendar-message-delete-or-unsubscribe = Θέλετε να αφαιρέσ
 # LOCALIZATION NOTE (remove-calendar-message-delete): Shown for calendar where
 # deleting is the only option.
 # $name:  The name of a calendar
-remove-calendar-message-delete = Θέλετε να διαγράψετε οριστικά το ημερολόγιο "{ $name }";
+remove-calendar-message-delete = Θέλετε να διαγράψετε οριστικά το ημερολόγιο «{ $name }»;
 # LOCALIZATION NOTE (remove-calendar-message-unsubscribe): Shown for calendar
 # where unsubscribing is the only option.
 # $name:  The name of a calendar
