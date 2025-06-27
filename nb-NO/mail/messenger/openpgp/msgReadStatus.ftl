@@ -19,9 +19,23 @@ openpgp-view-your-encryption-key =
     .label = Vis dekrypteringsnøkkelen din
 openpgp-openpgp = OpenPGP
 openpgp-no-sig = Ingen digital signatur
+openpgp-no-sig-info = Meldingen inneholder ikke avsenderens digitale signatur. Fraværet av en digital signatur betyr at meldingen kan ha blitt sendt av noen som feilaktig påstår at de har denne e-postadressen. Det er også mulig at meldingen er endret mens den ble overført på nettet.
 openpgp-uncertain-sig = Usikker digital signatur
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-uncertain-sig-with-date = Usikker digital signatur – signert { $date }
 openpgp-invalid-sig = Ugyldig digital signatur
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-invalid-sig-with-date = Ugyldig digital signatur – signert { $date }
+openpgp-bad-date-sig = Avvik i signaturdato
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Avvik i signaturdato – signert { $date }
 openpgp-good-sig = Korrekt digital signatur
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-good-sig-with-date = God digital signatur – signert { $date }
 openpgp-sig-uncertain-no-key = Denne meldingen inneholder en digital signatur, men det er usikkert om den er riktig. For å bekrefte signaturen, må du skaffe en kopi av avsenderens offentlige nøkkel.
 openpgp-sig-uncertain-uid-mismatch = Denne meldingen inneholder en digital signatur, men det ble oppdaget et misforhold. Meldingen ble sendt fra en e-postadresse som ikke samsvarer med signatarens offentlige nøkkel.
 openpgp-sig-uncertain-not-accepted = Denne meldingen inneholder en digital signatur, men du har ennå ikke bestemt deg for om signatorens nøkkel er akseptabel for deg.

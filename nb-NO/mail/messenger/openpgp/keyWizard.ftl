@@ -92,8 +92,16 @@ openpgp-import-key-title = Importer en eksisterende personlig OpenPGP-nøkkel
 openpgp-import-key-legend = Velg en tidligere sikkerhetskopiert fil.
 openpgp-import-key-description = Du kan importere personlige nøkler som ble opprettet med annen OpenPGP-programvare.
 openpgp-import-key-info = Annen programvare kan beskrive en personlig nøkkel ved å bruke alternative termer som din egen nøkkel, hemmelig nøkkel, privat nøkkel eller nøkkelpar.
+#   $count (Number) - the number of keys found in the selected files
+openpgp-import-key-list-amount-2 =
+    { $count ->
+        [one] { -brand-short-name } fant en nøkkel som kan importeres.
+       *[other] { -brand-short-name } fant { $count } nøkler som kan importeres.
+    }
 openpgp-import-key-list-description = Bekreft hvilke nøkler som kan behandles som dine personlige nøkler. Bare nøkler som du opprettet selv og som viser din egen identitet, skal brukes som personlige nøkler. Du kan endre dette alternativet senere i dialogboksen Nøkkelegenskaper.
 openpgp-import-key-list-caption = Nøkler merket for å bli behandlet som personlige nøkler vil bli oppført i avsnittet ende-til-ende-kryptering. De andre vil være tilgjengelige i nøkkelbehandleren.
+openpgp-import-keep-passphrases =
+    .label = Behold passordfrasebeskyttelse for importerte hemmelige nøkler
 openpgp-passphrase-prompt-title = Passordfrase kreves
 openpgp-import-key-button =
     .label = Velg en fil å importere…
