@@ -134,6 +134,11 @@ toolbar-create-address-book-label = Ny adressebok
 toolbar-create-address-book =
     .title = Opprett en ny adressebok
 toolbar-create-list-label = Ny liste
+toolbar-create-list =
+    .title = Opprett en ny e-postliste
+toolbar-import-contacts-label = Importer
+toolbar-import-contacts =
+    .title = Importer kontakter fra en fil
 
 ## New Address Book popup items
 

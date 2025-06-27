@@ -775,6 +775,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Finn i Innstillinger
+managed-notice = { -brand-short-name } administreres av organisasjonen din.
 
 ## Settings UI Search Results
 
@@ -797,12 +798,23 @@ sync-pane-header = Synkroniser
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-pane-email-not-verified = «{ $userEmail }» er ikke bekreftet.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Logg inn for å koble til «{ $userEmail }» på nytt
+sync-pane-resend-verification = Send bekreftelse på nytt
 sync-pane-sign-in = Logg inn
 sync-pane-remove-account = Fjern konto
 sync-pane-edit-photo =
     .title = Endre profilbilde
 sync-pane-manage-account = Behandle konto
+sync-pane-sign-out = Logg ut…
+sync-pane-device-name-title = Enhetsnavn
+sync-pane-change-device-name = Endre enhetsnavn
 sync-pane-cancel = Avbryt
+sync-pane-save = Lagre
+sync-pane-show-synced-header-on = Synkronisering PÅ
+sync-pane-show-synced-header-off = Synkronisering AV
+sync-pane-sync-now = Synkroniser nå
 sync-panel-sync-now-syncing = Synkroniserer…
 show-synced-list-heading = Du synkroniserer for tiden disse elementene:
 show-synced-learn-more = Les mer …
@@ -894,6 +906,9 @@ appearance-card-rows =
     .value = Antall rader:
 appearance-card-style-3 =
     .label = 3 rader
+appearance-card-style-2 =
+    .label = 2 rader
+default-message-list-sorting-legend = Sortering og tråding
 default-message-list-description = Definer standardinnstillinger sortering og trådvisning for nyopprettede mapper.
 default-flag-label =
     .value = Standard tråding:
@@ -910,8 +925,30 @@ default-sort-subject =
     .label = Emne
 default-sort-from =
     .label = Fra
+default-sort-id =
+    .label = ID
+default-sort-thread =
+    .label = Tråd
+default-sort-priority =
+    .label = Prioritet
+default-sort-status =
+    .label = Status
+default-sort-size =
+    .label = Størrelse
+default-sort-star =
+    .label = Stjerne
+default-sort-unread =
+    .label = Lest
+default-sort-recipient =
+    .label = Mottaker
+default-sort-location =
+    .label = Plassering
+default-sort-tags =
+    .label = Etiketter
 default-sort-spam =
     .label = Status for søppelpost
+default-sort-attachments =
+    .label = Vedlegg
 apply-thread-sort-label = Overfør innstillinger for trådvisning og sortering til:
 apply-changes-prompt-message = Skal gjeldende innstillinger for trådvisning og sortering brukes på alle mapper?
 # Variables:

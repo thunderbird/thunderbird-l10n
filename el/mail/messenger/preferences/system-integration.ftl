@@ -30,7 +30,7 @@ system-search-engine-name =
        *[other] { "" }
     }
 system-search-integration-label =
-    .label = Να επιτρέπεται στην { system-search-engine-name } η αναζήτηση μηνυμάτων
+    .label = Να επιτρέπεται { system-search-engine-name } η αναζήτηση μηνυμάτων
     .accesskey = ε
 check-on-startup-label =
     .label = Εκτέλεση ελέγχου σε κάθε εκκίνηση του { -brand-short-name }

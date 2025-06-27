@@ -191,6 +191,8 @@ message-room-name-changed = { $user } endret navnet på rommet til { $newRoomNam
 #    $oldPowerLevel is the old power level.
 #    $newPowerLevel is the new power level.
 message-power-level-from-to = { $user } fra { $oldPowerLevel } til { $newPowerLevel }
+#    $user is the name of the user who has allowed guests to join the room.
+message-guest-allowed = { $user } har tillatt gjester å bli med i rommet.
 #    $user is the name of the user who has prevented guests to join the room.
 message-guest-prevented = { $user } har hindret gjester i å bli med i rommet.
 #    $user is the name of the user who has made future room history visible to anyone.

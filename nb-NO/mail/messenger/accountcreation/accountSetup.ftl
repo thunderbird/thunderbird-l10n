@@ -153,6 +153,7 @@ account-setup-protocol-label = Protokoll:
 account-setup-hostname-label = Servernavn:
 account-setup-port-label = Port:
     .title = Sett portnummeret til 0 for automatisk deteksjon
+account-setup-auto-description = { -brand-short-name } vil forsøke å automatisk oppdage felt som er tomme.
 account-setup-ssl-label = Tilkoblingssikkerhet:
 account-setup-outgoing-server-legend = Utgående server
 
@@ -182,6 +183,7 @@ account-setup-warning-cleartext = <b>{ $server }</b> bruker ikke kryptering.
 account-setup-warning-cleartext-details = Usikre e-postservere bruker ikke kryptering for å beskytte passord og privat informasjon. Ved å koble til denne serveren kan du avsløre passordet ditt eller privat informasjon.
 account-setup-insecure-server-checkbox = Jeg forstår risikoen
     .accesskey = J
+account-setup-insecure-description = { -brand-short-name } kan la deg laste ned e-post med de gitte konfigurasjonene. Men du bør kontakte systemansvarlig eller e-posttilbyderen om disse feilaktige tilkoblingene. Se <a data-l10n-name="thunderbird-faq-link">ofte stilte spørsmål om Thunderbird</a> for mer informasjon.
 insecure-dialog-cancel-button = Endre innstillinger
     .accesskey = s
 insecure-dialog-confirm-button = Bekreft
@@ -189,12 +191,16 @@ insecure-dialog-confirm-button = Bekreft
 
 ## Warning Exchange confirmation dialog
 
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+exchange-dialog-question = { -brand-short-name } fant kontooppsettinformasjonen din på { $domain }. Vil du fortsette og sende inn informasjonen din?
 exchange-dialog-confirm-button = Innlogging
 exchange-dialog-cancel-button = Avbryt
 
 ## Dismiss account creation dialog
 
 exit-dialog-title = Ingen e-postkontoer er satt opp
+exit-dialog-description = Er du sikker på at du vil avbryte oppsettprosessen? { -brand-short-name } kan fortsatt brukes uten en e-postkonto, men mange funksjoner vil ikke være tilgjengelige.
 account-setup-no-account-checkbox = Bruk { -brand-short-name } uten en e-postkonto
     .accesskey = B
 exit-dialog-cancel-button = Fortsett oppsettet
