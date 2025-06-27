@@ -8,6 +8,31 @@
 ##  $key (String) - The shortcut key.
 
 shortcut-key = { $key }
+meta-shortcut-key =
+    { PLATFORM() ->
+        [macos] ⌘ { $key }
+       *[other] Meta+{ $key }
+    }
+ctrl-shortcut-key =
+    { PLATFORM() ->
+        [macos] ⌃ { $key }
+       *[other] Ctrl+{ $key }
+    }
+shift-shortcut-key =
+    { PLATFORM() ->
+        [macos] ⇧ { $key }
+       *[other] Shift+{ $key }
+    }
+alt-shortcut-key =
+    { PLATFORM() ->
+        [macos] ⌥ { $key }
+       *[other] Alt+{ $key }
+    }
+meta-ctrl-shortcut-key =
+    { PLATFORM() ->
+        [macos] ⌃ ⌘ { $key }
+       *[other] Meta+Ctrl+{ $key }
+    }
 meta-shift-shortcut-key =
     { PLATFORM() ->
         [macos] ⇧ ⌘ { $key }
