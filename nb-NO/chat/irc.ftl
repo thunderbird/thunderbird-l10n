@@ -46,7 +46,7 @@ ctcp-time = Tiden til { $username } er { $timeResponse }.
 #   the command.
 command-action = { $commandName } &lt;handling å utføre&gt;: Utfør en handling.
 # $commandName is the command name
-command-ban = { $commandName } &lt;nick!user@host&gt;: Bannlys brukerne som passer til det oppgitte mønsteret.
+command-ban = { $commandName } &lt;nick!user@host&gt;: Utesteng brukerne som passer til det oppgitte mønsteret.
 # $commandName is the command name
 command-ctcp = { $commandName } &lt;kallenavn&gt; &lt;msg&gt;: Sender en CTCP-melding til kallenavnet.
 # $commandName is the command name

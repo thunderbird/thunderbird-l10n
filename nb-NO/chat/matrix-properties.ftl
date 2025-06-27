@@ -148,6 +148,12 @@ command-leave = { $commandName }: Forlat dette rommet.
 # $commandName is the command name
 command-topic = { $commandName } &lt;topic&gt;: Angi emnet for rommet. Krever tillatelser for å endre romemnet.
 # $commandName is the command name
+command-unban = { $commandName } &lt;userId&gt;: Opphev utestengelsen av en bruker som er utestengt fra rommet. Krever tillatelse til å utestenge brukere.
+# $commandName is the command name
+command-visibility = { $commandName } [&lt;visibility&gt;]: Angi synligheten til det gjeldende rommet i romkatalogen til den gjeldende hjemmeserveren. Skriv inn en heltallsverdi, Privat: 0 og Offentlig: 1. Standardverdien vil være Privat (0) hvis ingen argumenter oppgis. Krever tillatelse for å endre romsynlighet.
+# $commandName is the command name
+command-guest = { $commandName } &lt;guest access&gt; &lt;history visibility&gt;: Angi tilgangs- og historikksynligheten for det gjeldende rommet for gjestebrukere. Skriv inn to heltallsverdier, den første for gjestetilgang (ikke tillatt: 0 og tillatt: 1) og den andre for historikksynligheten (ikke synlig: 0 og synlig: 1). Krever tillatelse for å endre historikksynligheten.
+# $commandName is the command name
 command-roomname = { $commandName } &lt;name&gt;: Angi navnet på rommet. Krever tillatelse for å endre romnavnet.
 # $commandName is the command name
 command-detail = { $commandName }: Vis detaljene for rommet.
@@ -171,7 +177,7 @@ message-banned = { $user } sparket ut { $userBanned }.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 #    $reason is the reason the user was banned.
-message-banned-with-reason = { $user } blokkert { $userBanned }. Årsak: { $reason }
+message-banned-with-reason = { $user } har utestengt { $userBanned }. Årsak: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } godtok invitasjonen for { $userWhoSent }.
@@ -196,6 +202,9 @@ message-joined = { $user } har blitt med i rommet.
 message-rejected-invite = { $user } avslo invitasjonen.
 #    $user is the name of the user who has left the room.
 message-left = { $user } har forlatt rommet.
+#    $user is the name of the user who unbanned.
+#    $userUnbanned is the name of the user who got unbanned.
+message-unbanned = { $user } har opphevet utestengelsen av { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } sparket ut { $userGotKicked }.
