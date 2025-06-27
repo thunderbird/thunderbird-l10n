@@ -7,6 +7,8 @@
 
 tree-list-view-row-delete =
     .title = Slett gjeldende rad
+tree-list-view-row-restore =
+    .title = Gjenopprett gjeldende rad
 tree-list-view-column-picker =
     .title = Velg kolonner du vil vise
 tree-list-view-row-attach =
