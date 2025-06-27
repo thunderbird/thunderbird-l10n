@@ -4,7 +4,7 @@
 
 <!ENTITY AdvancedEditButton.label "Σύνθετη επεξεργασία…">
 <!ENTITY AdvancedEditButton.accessKey "π">
-<!ENTITY AdvancedEditButton.tooltip "Προσθήκη ή τροποποίηση ιδιοτήτων HTML, ιδιοτήτων στυλ και JavaScript">
+<!ENTITY AdvancedEditButton.tooltip "Προσθήκη ή τροποποίηση ιδιοτήτων HTML, ιδιοτήτων στιλ και JavaScript">
 <!ENTITY chooseFileButton.label "Επιλογή αρχείου...">
 <!ENTITY chooseFileButton.accessKey "χ">
 <!ENTITY chooseFileLinkButton.label "Επιλογή αρχείου...">

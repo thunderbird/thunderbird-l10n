@@ -285,7 +285,7 @@ message-header-recipient-avatar =
 
 message-header-customize-panel-title = Ρυθμίσεις κεφαλίδας μηνυμάτων
 message-header-customize-button-style =
-    .value = Στυλ κουμπιών
+    .value = Στιλ κουμπιών
     .accesskey = κ
 message-header-button-style-default =
     .label = Εικονίδια και κείμενο
