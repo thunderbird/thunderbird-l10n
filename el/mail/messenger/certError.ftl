@@ -12,7 +12,7 @@ cert-error-expired = Το πιστοποιητικό για το { $hostname } �
 # Variables:
 #   $hostname (string) - Hostname of the server with certificate error.
 #   $not-before (Date) - Certificate is not valid before this time.
-cert-error-not-yet-valid = Το πιστοποιητικό για το { $hostname } δεν θα είναι έγκυρο μέχρι τις { $not-after }.
+cert-error-not-yet-valid = Το πιστοποιητικό για το { $hostname } δεν θα είναι έγκυρο μέχρι τις { $not-before }.
 # Variables:
 #   $hostname (string) - Hostname of the server with certificate error.
 cert-error-untrusted-default = Το πιστοποιητικό για το { $hostname } δεν προέρχεται από αξιόπιστη πηγή.
