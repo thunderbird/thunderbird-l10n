@@ -154,7 +154,7 @@ command-visibility = { $commandName } [&lt;visibility&gt;]: Angi synligheten til
 # $commandName is the command name
 command-guest = { $commandName } &lt;guest access&gt; &lt;history visibility&gt;: Angi tilgangs- og historikksynligheten for det gjeldende rommet for gjestebrukere. Skriv inn to heltallsverdier, den første for gjestetilgang (ikke tillatt: 0 og tillatt: 1) og den andre for historikksynligheten (ikke synlig: 0 og synlig: 1). Krever tillatelse for å endre historikksynligheten.
 # $commandName is the command name
-command-roomname = { $commandName } &lt;name&gt;: Angi navnet på rommet. Krever tillatelse for å endre romnavnet.
+command-roomname = { $commandName } &lt;navn&gt;: Angi navnet på rommet. Krever tillatelse for å endre romnavnet.
 # $commandName is the command name
 command-detail = { $commandName }: Vis detaljene for rommet.
 # $commandName is the command name
