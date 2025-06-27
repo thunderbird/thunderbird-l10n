@@ -8,6 +8,41 @@
 ##  $key (String) - The shortcut key.
 
 shortcut-key = { $key }
+meta-shift-shortcut-key =
+    { PLATFORM() ->
+        [macos] ⇧ ⌘ { $key }
+       *[other] Meta+Shift+{ $key }
+    }
+ctrl-shift-shortcut-key =
+    { PLATFORM() ->
+        [macos] ⌃ ⇧ { $key }
+       *[other] Ctrl+Shift+{ $key }
+    }
+meta-ctrl-shift-shortcut-key =
+    { PLATFORM() ->
+        [macos] ⌃ ⇧ ⌘ { $key }
+       *[other] Meta+Ctrl+Shift+{ $key }
+    }
+alt-shift-shortcut-key =
+    { PLATFORM() ->
+        [macos] ⌥ ⇧ { $key }
+       *[other] Alt+Shift+{ $key }
+    }
+meta-shift-alt-shortcut-key2 =
+    { PLATFORM() ->
+        [macos] ⌥ ⇧ ⌘ { $key }
+       *[other] Meta+Alt+Shift+{ $key }
+    }
+ctrl-shift-alt-shortcut-key2 =
+    { PLATFORM() ->
+        [macos] ⌃ ⌥ ⇧ { $key }
+       *[other] Ctrl+Alt+Shift+{ $key }
+    }
+meta-ctrl-shift-alt-shortcut-key2 =
+    { PLATFORM() ->
+        [macos] ⌃ ⌥ ⇧ ⌘ { $key }
+       *[other] Meta+Ctrl+Alt+Shift+{ $key }
+    }
 
 ## Shortcut and label combined strings
 
@@ -16,3 +51,17 @@ shortcut-key = { $key }
 #  $shortcut (String): The shortcut generated from the keystroke combination.
 button-shortcut-string =
     .title = { $title } ({ $shortcut })
+# Variables:
+#  $label (String): The text label coming from the original element.
+#  $accesskey (String): The accesskey coming from the original element.
+#  $shortcut (String): The shortcut generated from the keystroke combination.
+menuitem-shortcut-attributes =
+    .label = { $label }
+    .accesskey = { $accesskey }
+    .acceltext = { $shortcut }
+# Variables:
+#  $label (String): The text label coming from the original element.
+#  $shortcut (String): The shortcut generated from the keystroke combination.
+menuitem-shortcut-string =
+    .label = { $label }
+    .acceltext = { $shortcut }
