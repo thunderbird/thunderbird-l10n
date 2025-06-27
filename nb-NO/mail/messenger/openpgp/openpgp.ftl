@@ -317,12 +317,25 @@ openpgp-passphrase-protection =
     .label = Passordfrasebeskyttelse
 openpgp-passphrase-status-unprotected = Ubeskyttet
 openpgp-passphrase-status-primary-password = Beskyttet av hovedpassordet for { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Beskyttet av en passordfrase
+openpgp-passphrase-instruction-unprotected = Velg en passordfrase for å beskytte denne nøkkelen
+openpgp-passphrase-instruction-primary-password = Alternativt kan du beskytte denne nøkkelen med en separat passordfrase
+openpgp-passphrase-instruction-user-passphrase = Lås opp denne nøkkelen for å endre beskyttelsen.
 openpgp-passphrase-unlock = Lås opp
+openpgp-passphrase-unlocked = Nøkkelen er opplåst.
+openpgp-remove-protection = Fjern passordfrasebeskyttelse
+openpgp-use-primary-password = Fjern passordfrasen og beskytt med hovedpassordet
+openpgp-passphrase-new = Ny passordfrase
+openpgp-passphrase-new-repeat = Bekreft ny passordfrase
+openpgp-passphrase-set = Angi passordfrase
+openpgp-passphrase-change = Endre passordfrase
 openpgp-copy-cmd-label =
     .label = Kopier
 
 ## e2e encryption settings
 
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-no-key = { -brand-short-name } har ikke en personlig OpenPGP-nøkkel for <b>{ $identity }</b>
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Din nåværende konfigurasjon bruker nøkkel-ID <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
@@ -384,6 +397,9 @@ key-expired-date = Nøkkelen utløp den { $keyExpiry }
 key-expired-simple = Nøkkelen er utløpt
 key-revoked-simple = Nøkkelen ble tilbakekalt
 key-do-you-accept = Godtar du denne nøkkelen for å bekrefte digitale signaturer og for å kryptere meldinger?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
+key-verification = Bekreft fingeravtrykket til nøkkelen ved hjelp av en sikker kommunikasjonskanal annet enn e-post for å forsikre deg om at det virkelig er nøkkelen til { $addr }.
 
 ## Strings enigmailMsgComposeOverlay.js
 
