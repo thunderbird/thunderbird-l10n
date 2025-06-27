@@ -5,6 +5,9 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Legg til en personlig OpenPGP-nøkkel for { $identity }
+key-wizard-dialog =
+    .buttonlabelaccept = Fortsett
+    .buttonlabelextra1 = Gå tilbake
 key-wizard-warning = <b>Hvis du har en eksisterende personlig nøkkel</b> for denne e-postadressen, bør du importere den. Ellers har du ikke tilgang til arkivene dine med krypterte e-postmeldinger, og du kan heller ikke lese innkommende krypterte e-poster fra folk som fremdeles bruker din eksisterende nøkkel.
 key-wizard-learn-more = Les mer
 radio-create-key =
@@ -20,6 +23,14 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Generer OpenPGP-nøkkel
+openpgp-keygen-secret-protection = Beskyttelse av hemmelig nøkkel
+radio-keygen-no-protection =
+    .label = Ubeskyttet
+radio-keygen-protect-primary-pass =
+    .label = Beskytt med et hovedpassord
+radio-keygen-passphrase-protection =
+    .label = Beskytt med et passordfrase:
+openpgp-passphrase-repeat = Bekreft passordfrase:
 openpgp-generate-key-info = <b>Nøkkelgenerering kan ta opptil flere minutter å fullføre.</b> Ikke avslutt applikasjonen mens nøkkelgenerering pågår. Hvis du aktivt surfer eller utfører diskintensive operasjoner under nøkkelgenerering, vil det fylle opp «randomness pool»-en og gjøre prosessen raskere. Du blir varslet når nøkkelgenerering er fullført.
 openpgp-keygen-expiry-title = Nøkkelen utløper
 openpgp-keygen-expiry-description = Definer utløpstiden for den nylig genererte nøkkelen. Du kan senere kontrollere datoen for å forlenge den om nødvendig.

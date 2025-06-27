@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Slett
     .tooltiptext = Slett
+multi-message-undelete-button =
+    .label = Angre sletting
+    .tooltiptext = Angre sletting

@@ -282,10 +282,21 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Svar støttes ikke
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
+no-reply-message = Svaradressen ({ $email }) ser ikke ut til å være en overvåket adresse. Meldinger til denne adressen vil sannsynligvis ikke bli lest av noen.
 no-reply-reply-anyway-button = Svar uansett
 
 ## error messages
 
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } av { $total } meldinger kunne ikke dekrypteres og ble ikke kopiert.
+       *[other] { $failures } av { $total } meldinger kunne ikke dekrypteres og ble ikke kopiert.
+    }
 
 ## Spaces toolbar
 
@@ -389,6 +400,12 @@ openpgp-forget = Glem OpenPGP-passordfraser
 
 ## Quota panel.
 
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent } % full
+    .title = IMAP-kvote: { $usage } brukt av totalt { $limit }
 
 ## Actions for the New Mail Notification
 

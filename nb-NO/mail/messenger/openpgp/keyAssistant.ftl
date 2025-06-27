@@ -23,9 +23,18 @@ openpgp-key-assistant-key-collected-attachment = e-postvedlegg
 
 ## Dialog buttons
 
+openpgp-key-assistant-discover-online-button = Oppdag offentlige nøkler på nett…
+openpgp-key-assistant-import-keys-button = Importer offentlige nøkler fra fil…
+openpgp-key-assistant-issue-resolve-button = Løse…
+openpgp-key-assistant-view-key-button = Vis nøkkel…
 openpgp-key-assistant-recipients-show-button = Vis
 openpgp-key-assistant-recipients-hide-button = Skjul
 openpgp-key-assistant-cancel-button = Avbryt
 openpgp-key-assistant-back-button = Tilbake
+openpgp-key-assistant-accept-button = Godta
+openpgp-key-assistant-close-button = Lukk
 openpgp-key-assistant-disable-button = Skru av kryptering
 openpgp-key-assistant-confirm-button = Send kryptert
+# Variables:
+# $date (String) - The key creation date.
+openpgp-key-assistant-key-created = opprettet den { $date }
