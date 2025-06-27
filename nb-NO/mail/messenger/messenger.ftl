@@ -9,6 +9,8 @@ messenger-window-minimize-button =
     .tooltiptext = Minimer
 messenger-window-maximize-button =
     .tooltiptext = Maksimer
+messenger-window-restore-down-button =
+    .tooltiptext = Gjenopprett ned
 messenger-window-close-button =
     .tooltiptext = Lukk
 # Variables:
@@ -22,6 +24,8 @@ about-rights-notification-text = { -brand-short-name } er programvare basert på
 
 ## Content tabs
 
+content-tab-page-loading-icon =
+    .alt = Siden lastes inn
 content-tab-security-high-icon =
     .alt = Tilkoblingen er sikker
 content-tab-security-broken-icon =
@@ -29,6 +33,12 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Gå tilbake en side ({ $shortcut })
+    .aria-label = Tilbake
+    .accesskey = T
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Tilbake
@@ -36,12 +46,40 @@ content-tab-menu-back-mac =
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Gå frem en side ({ $shortcut })
+    .aria-label = Frem
+    .accesskey = F
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Frem
+    .accesskey = F
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = Oppdater siden
+    .aria-label = Oppdater
+    .accesskey = O
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Oppdater siden
+    .label = Oppdater
+    .accesskey = O
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Stopp sideinnlasting
+    .aria-label = Stopp
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Stopp sideinnlasting
+    .label = Stopp
+    .accesskey = S
 
 ## Toolbar
 

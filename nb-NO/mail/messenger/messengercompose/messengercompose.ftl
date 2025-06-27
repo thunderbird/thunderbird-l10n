@@ -193,6 +193,12 @@ openpgp-key-issue-notification-single = Ende-til-ende-kryptering krever at man l
 # Variables:
 # $addr (String) - mail address with certificate issues.
 smime-cert-issue-notification-single = Ende-til-ende-kryptering krever at man løser sertifikatproblemer for { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+       *[other] Ende-til-ende-kryptering krever at sertifikatproblemer for { $count } mottakere løses.
+    }
 key-notification-disable-encryption =
     .label = Ikke krypter
     .accesskey = k
@@ -257,6 +263,12 @@ show-bcc-row-button = Blindkopi
 extra-address-rows-menu-button =
     .title = Andre adresseringsfelt som skal vises
 public-recipients-notice-single = Meldingen din har en offentlig mottaker. Du kan unngå å avsløre mottakeren ved å bruke blindkopi i stedet.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+       *[other] De { $count } mottakerne i feltene Til og Kopi vil se hverandres adresser. Du kan unngå å avsløre mottakere ved å bruke blindkopi (Bcc) i stedet.
+    }
 many-public-recipients-bcc =
     .label = Bruk blindkopi i stedet
     .accesskey = B
@@ -367,11 +379,22 @@ cloud-file-attachment-error-title = Filelink-vedleggsfeil
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-attachment-error = Kunne ikke oppdatere Filelink-vedlegget { $filename } fordi den lokale filen er flyttet eller slettet.
 cloud-file-account-error-title = Filelink-kontofeil
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-account-error = Kunne ikke oppdatere Filelink-vedlegget { $filename }, fordi Filelink-kontoen er slettet.
 
 ## Link Preview
 
 link-preview-title = Forhåndsvisning av lenke
+link-preview-description = { -brand-short-name } kan legge til en innebygd forhåndsvisning når lenker limes inn.
+link-preview-autoadd = Legg automatisk til forhåndsvisninger av lenker når det er mulig
+link-preview-replace-now = Legge til en forhåndsvisning av lenken for denne lenken?
 link-preview-yes-replace = Ja
 
 ## Dictionary selection popup
 
+spell-add-dictionaries =
+    .label = Legg til ordbøker…
+    .accesskey = L
+subject-encription-icon =
+    .title = Emnet vil ikke bli kryptert
