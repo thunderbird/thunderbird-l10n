@@ -281,6 +281,7 @@ repair-text-encoding-button =
 
 ## no-reply handling
 
+no-reply-title = Svar støttes ikke
 no-reply-reply-anyway-button = Svar uansett
 
 ## error messages
@@ -310,6 +311,10 @@ spaces-toolbar-button-hide =
     .title = Skjul hurtigknapp-verktøylinjen
 spaces-toolbar-button-show =
     .title = Vis Områder-verktøylinjen
+spaces-context-new-tab-item =
+    .label = Åpne i ny fane
+spaces-context-new-window-item =
+    .label = Åpne i nytt vindu
 # Variables:
 # $tabName (String) - The name of the tab this item will switch to.
 spaces-context-switch-tab-item =
@@ -355,6 +360,14 @@ menuitem-customize-label =
 spaces-customize-panel-title = Innstillinger for område-verktøylinjen
 spaces-customize-background-color = Bakgrunnsfarge
 spaces-customize-icon-color = Knappefarge
+# The background color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-background-color = Bakgrunnsfarge for markert knapp
+# The icon color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-text-color = Farge for markert knapp
+spaces-customize-button-restore = Gjenopprett standarder
+    .accesskey = G
 customize-panel-button-save = Ferdig
     .accesskey = F
 
@@ -372,9 +385,12 @@ quick-filter-bar-show =
 
 ## OpenPGP
 
+openpgp-forget = Glem OpenPGP-passordfraser
 
 ## Quota panel.
 
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Merk som lest
+delete-action = Slett
