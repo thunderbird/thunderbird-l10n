@@ -127,4 +127,4 @@ account-hub-port-error-text = Portnummer må vere mellom 1 og 65535
     .title = Portnummer må vere mellom 1 og 65535
 account-hub-username-error-text = Brukarnamn er påkravd
     .title = Brukarnamn er påkravd
-account-hub-account-authentication-error = Godkjenningsfeil.
+account-hub-account-authentication-error = Autentiseringsfeil.
