@@ -14,6 +14,20 @@ message-header-bcc-list-name = Blindkopi
 message-header-newsgroups-list-name = Nyheitsgrupper
 message-header-followup-to-list-name = Oppfølging
 message-header-tags-list-name = Etikettar
+# List management header - RFC 2369.
+message-header-list-help = Liste-hjelp
+# List management header - RFC 2369.
+message-header-list-unsubscribe = Liste-avmelding
+# List management header - RFC 2369.
+message-header-list-subscribe = Liste-abonner
+# List management header - RFC 2369.
+message-header-list-post = Liste-post
+# List management header - RFC 2369.
+message-header-list-owner = Liste-eigar
+# List management header - RFC 2369.
+message-header-list-archive = Liste-arkiv
+# Direct link to the archived form of an individual email message - RFC 5064.
+message-header-archived-at = Arkivert-på
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.

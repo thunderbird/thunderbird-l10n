@@ -235,6 +235,7 @@ about-addressbook-details-email-addresses-header = E-postadresser
 about-addressbook-details-phone-numbers-header = Telefonnummer
 about-addressbook-details-addresses-header = Adresser
 about-addressbook-details-notes-header = Notat
+about-addressbook-details-impp-header = Direktemeldingar
 about-addressbook-details-websites-header = Nettstadar
 about-addressbook-details-other-info-header = Annan informasjon
 about-addressbook-entry-type-work = Arbeid
@@ -269,3 +270,4 @@ about-addressbook-photo-save = Lagre
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = N

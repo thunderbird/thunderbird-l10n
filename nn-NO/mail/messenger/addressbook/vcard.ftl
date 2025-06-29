@@ -70,11 +70,13 @@ vcard-tz-add = Legg til tidssone
 
 # IMPP vCard field
 
+vcard-impp2-header = Direktemeldingar
 vcard-impp-add = Legg til nettpratkonto
 vcard-impp-label = Chatte-konto
 vcard-impp-select = Protokoll
 vcard-impp-option-other = Anna
 vcard-impp-input-label = URI
+vcard-impp-input-title = URI for direktemeldingar
 
 # BDAY and ANNIVERSARY vCard field
 
@@ -91,6 +93,7 @@ vcard-date-year = År
 vcard-adr-header = Adresser
 vcard-adr-add = Legg til adresse
 vcard-adr-label = Adresse
+vcard-adr-delivery-label = Leveringsetikett
 vcard-adr-street = Gateadresse
 # Or "Locality"
 vcard-adr-locality = Poststad
@@ -107,6 +110,8 @@ vcard-note-add = Legg til notat
 
 # TITLE, ROLE and ORGANIZATION vCard fields
 
+vcard-org-header = Organisatoriske eigenskapar
+vcard-org-add = Legg til organisasjonseigenskapar
 vcard-org-title = Tittel
 vcard-org-role = Rolle
 vcard-org-org = Organisasjon
@@ -114,6 +119,7 @@ vcard-org-org-unit = Avdeling
 
 # Custom properties
 
+vcard-custom-add = Legg til tilpassa eigenskapar
 vcard-remove-button-title =
     .title = Fjern
 vcard-remove-button = Fjern

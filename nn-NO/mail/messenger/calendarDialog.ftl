@@ -17,3 +17,5 @@ calendar-dialog-location-row-icon =
 calendar-dialog-description-row-icon =
     .alt = Skildring
 calendar-dialog-description-label = Skildring
+calendar-dialog-description-expand-icon =
+    .alt = Vis fullstendig skildring

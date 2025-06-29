@@ -216,6 +216,7 @@ message-alias-main = { $user } endra hovudadressa for dette rommet frå { $oldAd
 #    $user is the name of the user who added the address.
 #    $addresses is a comma delimited list of added addresses.
 message-alias-added = { $user } la til { $addresses } som alternativ adresse  for dette rommet.
+message-space-not-supported = Dette rommet er eit område som ikkje er støtta.
 #    $user is the name of the user who sent the verification request.
 #    $userReceiving is the name of the user that is receiving the verification request.
 message-verification-request2 = { $user } ønskjer å stadfeste { $userReceiving }.

@@ -159,6 +159,8 @@ folder-pane-get-all-messages-menuitem =
     .accesskey = e
 folder-pane-write-message-button = Ny melding
     .title = Skriv ei ny melding
+folder-pane-more-menu-button =
+    .title = Alternativ for mappepanelet
 # Context menu item to show/hide different folder types in the folder pane
 folder-pane-header-folder-modes =
     .label = Mappemodus
@@ -168,6 +170,8 @@ folder-pane-header-context-toggle-get-messages =
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
     .label = Vis «Ny melding»
+folder-pane-header-context-hide =
+    .label = Skjul mapperuteoverskrift
 folder-pane-show-total-toggle =
     .label = Vis totalt antal meldingar
 # Context menu item to show or hide folder sizes
@@ -175,6 +179,8 @@ folder-pane-header-toggle-folder-size =
     .label = Vis mappestorleik
 folder-pane-header-hide-local-folders =
     .label = Skjul lokale mapper
+folder-pane-mode-context-button =
+    .title = Innstillingar for mappemodus
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompaktvising
     .accesskey = K

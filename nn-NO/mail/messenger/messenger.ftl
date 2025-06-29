@@ -337,8 +337,14 @@ spaces-toolbar-button-tasks2 =
     .title = Oppgåver
 spaces-toolbar-button-chat2 =
     .title = Chatt
+spaces-toolbar-button-overflow =
+    .title = Fleire område…
 spaces-toolbar-button-settings2 =
     .title = Innstillingar
+spaces-toolbar-button-hide =
+    .title = Skjul hurtigknapp-verktøylinja
+spaces-toolbar-button-show =
+    .title = Vis Område-verktøylinja
 spaces-context-new-tab-item =
     .label = Opne i ny fane
 spaces-context-new-window-item =
@@ -356,6 +362,8 @@ settings-context-open-addons-item2 =
 
 ## Spaces toolbar pinned tab menupopup
 
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = Område-meny
 spaces-pinned-button-menuitem-mail2 =
     .label = { spaces-toolbar-button-mail2.title }
 spaces-pinned-button-menuitem-address-book2 =

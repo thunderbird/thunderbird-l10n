@@ -58,6 +58,8 @@ account-setup-button-manual-config = Manuell konfigurering
     .accesskey = M
 account-setup-button-stop = Stopp
     .accesskey = S
+account-setup-button-retest = Test på nytt
+    .accesskey = t
 account-setup-button-continue = Fortset
     .accesskey = F
 account-setup-button-done = Ferdig
@@ -67,6 +69,7 @@ account-setup-button-done = Ferdig
 
 account-setup-looking-up-settings = Undersøkjer konfigurasjonen…
 account-setup-looking-up-settings-guess = Undersøkjer konfigurasjonen: Prøver vanlege tenarnamn…
+account-setup-looking-up-settings-half-manual = Ser etter konfigurasjon: sjekkar server…
 account-setup-checking-password = Kontrollerer passord…
 account-setup-installing-addon = Lastar ned og installerer utviding…
 account-setup-success-guess-offline = Du er i fråkopla modus. Vi har gjetta nokre av innstillingane, men du må sjølv registrere dei rette innstillingane.
