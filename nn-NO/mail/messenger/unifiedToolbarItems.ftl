@@ -98,6 +98,8 @@ toolbar-tasks-label = Oppgåver
 toolbar-tasks =
     .title = Byt til oppgåvefana
 toolbar-mail-label = E-post
+toolbar-mail =
+    .title = Bytt til e-postfana
 toolbar-print-label = Skriv ut
 toolbar-print =
     .title = Skriv ut denne meldinga
@@ -135,9 +137,23 @@ toolbar-throbber-label = Aktivitetsindikator
 toolbar-throbber =
     .title = Aktivitetsindikator
 toolbar-create-contact-label = Ny kontakt
+toolbar-create-contact =
+    .title = Opprett ein ny kontakt
 toolbar-create-address-book-label = Ny adressebok
+toolbar-create-address-book =
+    .title = Opprett ei ny adressebok
 toolbar-create-list-label = Ny liste
+toolbar-create-list =
+    .title = Opprett ei ny e-postliste
 toolbar-import-contacts-label = Importer
+toolbar-import-contacts =
+    .title = Importer kontaktar frå ei fil
 
 ## New Address Book popup items
 
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Legg til lokal adressebok
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Legg til CardDAV-adressebok
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Legg til LDAP-adressebok

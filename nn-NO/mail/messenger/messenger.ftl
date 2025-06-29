@@ -420,3 +420,4 @@ quick-filter-bar-show =
 
 mark-as-read-action = Marker som lesen
 delete-action = Slett
+archive-action = Arkiv
