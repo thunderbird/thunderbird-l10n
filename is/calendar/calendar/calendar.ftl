@@ -565,8 +565,8 @@ delete-event =
 calendar-properties-every-minute =
     .label =
         { $count ->
-            [one] Hverja { $count } mínútu
-           *[other] Hverjar { $count } mínútur
+            [one] Á { $count } mínútu fresti
+           *[other] Á { $count } mínútna fresti
         }
 # LOCALIZATION NOTE (extract-using)
 # Used in message header

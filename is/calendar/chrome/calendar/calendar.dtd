@@ -244,7 +244,7 @@
 <!ENTITY calendarproperties.refreshInterval.label "Endurnýja dagatal:">
 <!ENTITY calendarproperties.refreshInterval.manual.label "Handvirkt">
 <!ENTITY calendarproperties.name.label "Nafn:">
-<!ENTITY calendarproperties.readonly.label "Skrifvarin">
+<!ENTITY calendarproperties.readonly.label "Skrifvarið">
 <!ENTITY calendarproperties.firealarms.label "Sýna viðvörun">
 <!ENTITY calendarproperties.cache3.label "Ótengdur stuðningur">
 <!ENTITY calendarproperties.enabled2.label "Virkja þetta dagatal">
