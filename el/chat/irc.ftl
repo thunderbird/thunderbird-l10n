@@ -237,7 +237,7 @@ tooltip-bot = Bot
 tooltip-last-activity = Τελευταία δραστηριότητα
 # $timespan is the timespan elapsed since the last activity.
 tooltip-timespan = πριν από { $timespan }
-tooltip-channels = Αυτή τη στιγμή στο
+tooltip-channels = Αυτήν τη στιγμή στο
 #    $serverName is the server name, $serverInformation is some generic server information (usually a
 #    location or the date the user was last seen).
 tooltip-server-value = { $serverName } ({ $serverInformation })
