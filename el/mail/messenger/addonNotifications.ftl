@@ -108,13 +108,13 @@ addon-confirm-install-some-unsigned-message = Προσοχή: Ο ιστότοπ�
 addon-install-error-network-failure = Δεν ήταν δυνατή η λήψη του προσθέτου λόγω αποτυχίας σύνδεσης.
 addon-install-error-incorrect-hash = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου επειδή δεν συμφωνεί με το αναμενόμενο πρόσθετο { -brand-short-name }.
 addon-install-error-corrupt-file = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου που ελήφθη από τον ιστότοπο επειδή φαίνεται να έχει καταστραφεί.
-addon-install-error-file-access = Το { $addonName } δεν ήταν δυνατό να εγκατασταθεί, επειδή το { -brand-short-name } δεν μπόρεσε να τροποποιήσει το απαιτούμενο αρχείο.
+addon-install-error-file-access = Δεν ήταν δυνατή η εγκατάσταση του { $addonName } επειδή το { -brand-short-name } δεν μπορεί να τροποποιήσει το απαιτούμενο αρχείο.
 addon-install-error-not-signed = Το { -brand-short-name } εμπόδισε την εγκατάσταση ενός μη επαληθευμένου προσθέτου από τον ιστότοπο.
 addon-install-error-invalid-domain = Το πρόσθετο «{ $addonName }» δεν μπορεί να εγκατασταθεί από αυτήν την τοποθεσία.
 addon-local-install-error-network-failure = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου λόγω σφάλματος στο σύστημα αρχείων.
 addon-local-install-error-incorrect-hash = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου επειδή δεν συμφωνεί με το αναμενόμενο πρόσθετο { -brand-short-name }.
 addon-local-install-error-corrupt-file = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου επειδή φαίνεται να έχει καταστραφεί.
-addon-local-install-error-file-access = Το { $addonName } δεν ήταν δυνατό να εγκατασταθεί, επειδή το { -brand-short-name } δεν μπόρεσε να τροποποιήσει το απαιτούμενο αρχείο.
+addon-local-install-error-file-access = Δεν ήταν δυνατή η εγκατάσταση του { $addonName } επειδή το { -brand-short-name } δεν μπορεί να τροποποιήσει το απαιτούμενο αρχείο.
 addon-local-install-error-not-signed = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου επειδή δεν έχει επαληθευτεί.
 # Variables:
 #   $appVersion (String): the application version.
