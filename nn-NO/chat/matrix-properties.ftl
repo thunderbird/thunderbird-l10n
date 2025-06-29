@@ -39,7 +39,7 @@ options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 #    accounts.properties, which adds … at the end, so do not include
 #    periods at the end of these messages.)
 connection-request-auth = Ventar på godkjenninga di
-connection-request-access = Fullfører godkjenning
+connection-request-access = Fullfører autentisering
 # LOCALIZATION NOTE (connection-error-*):
 #   These will show in the account manager if an error occurs during the
 #   connection attempt.
