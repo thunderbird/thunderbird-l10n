@@ -136,6 +136,8 @@ command-ban = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Steng ute brukar
 # $commandName is the command name
 command-invite = { $commandName } &lt;userId&gt;: Inviter brukaren til rommet.
 # $commandName is the command name
+command-kick = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Kast ut brukaren med brukar-ID-en frå rommet med valfri grunnmelding. Krev løyve for å kaste ut brukarar.
+# $commandName is the command name
 command-leave = { $commandName }: Forlat dette rommet.
 # $commandName is the command name
 command-detail = { $commandName }: Vis detaljane for rommet.
