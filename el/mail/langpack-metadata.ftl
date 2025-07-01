@@ -9,4 +9,4 @@
 langpack-creator = Kostas Papadimas
 # To credit multiple contributors, use a comma-delimited list.
 # Example: Joe Solon, Suzy Solon
-langpack-contributors = Βασίλης Λούρδας, Δημήτρης Σπέντζος
+langpack-contributors = Ελληνική ομάδα μεταφραστών της Mozilla
