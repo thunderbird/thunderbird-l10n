@@ -811,6 +811,35 @@ sync-disconnected-turn-on-sync = Uključi sinkronizaciju…
 
 qr-export-description = Brzo prenesi svoje postavke računa s računala na mobilni uređaj generiranjem QR koda. Odaberi koje račune želiš prenijeti, želiš li prenijeti njihove lozinke i snimi QR kod svojim mobilnim uređajem. Brzo, sigurno i jednostavno.
 qr-export-create = Stvori QR kod za izvoz svojih računa
+qr-export-security-hint = Skeniranjem sljedećih QR kodova, postavke tvojih računa (uključujući i e-poštu i lozinku) bit će sigurno preneseni. Ne prikupljamo, pohranjujemo ni dijelimo te podatke tijekom procesa prijenosa. Prijenos se odvija izravno među tvojim uređajima.
+qr-export-security-warning = Za tvoju sigurnost, pazi da ovaj proces provodiš u privatnom okruženju i snimaš QR kodove samo iz pouzdanih izvora.
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } od { $count } QR koda
+        [few] { $step } od { $count } QR koda
+       *[other] { $step } od { $count } QR kodova
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Snimi QR kod pomoću aplikacije { -brand-product-name } na svom mobilnom uređaju
+        [few] Snimi QR kodove pomoću aplikacije { -brand-product-name } na svom mobilnom uređaju
+       *[other] Snimi QR kodove pomoću aplikacije { -brand-product-name } na svom mobilnom uređaju
+    }
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Dodirni <strong>Snimi QR kod</strong> i drži telefon ispred ovog koda
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] Generiran je { $count } QR kod
+        [few] Generirana su { $count } QR koda
+       *[other] Generirano je { $count } QR kodova
+    }
 
 ## Appearance Tab
 

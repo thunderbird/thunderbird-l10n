@@ -70,7 +70,7 @@
 <!ENTITY abbreviateOff.label "Skraćena imena (na primjer, 'n.p.m.mail-news')">
 <!ENTITY advancedButton.label "Napredno…">
 <!ENTITY advancedButton.accesskey "r">
-<!ENTITY serverDefaultCharset2.label "Zadana kôdna stranica:">
+<!ENTITY serverDefaultCharset2.label "Zadano kodiranje teksta:">
 <!ENTITY localPath1.label "Lokalna mapa:">
 <!ENTITY localFolderPicker.label "Odaberi lokalnu mapu">
 <!ENTITY browseFolder.label "Odaberi…">

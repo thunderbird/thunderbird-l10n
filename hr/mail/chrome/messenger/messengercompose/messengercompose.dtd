@@ -279,4 +279,4 @@
 <!ENTITY aria.message.bodyName "Tijelo poruke">
 <!-- Status Bar -->
 <!ENTITY languageStatusButton.tooltip "Jezik za provjeru pravopisa">
-<!ENTITY encodingStatusPanel.tooltip "Kôdna stranica">
+<!ENTITY encodingStatusPanel.tooltip "Kodiranje teksta">

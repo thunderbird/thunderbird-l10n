@@ -204,7 +204,7 @@ minor-error = Došlo je do greške prilikom čitanja podataka za kalendar: { $na
 # used for an message like 'There has been an error reading data for calendar: Home.'
 #    $name will be replaced with the name of a calendar
 still-read-only-error = Došlo je do greške prilikom čitanja podataka za kalendar: { $name }.
-utf8-decode-error = Dogodila se greška prilikom dekodiranja iCalendar (ics) datoteke kao UTF-8. Provjerite da li je datoteka, uključujući simbole i znakove s kvačicama, kodirana koristeći UTF-8 kôdnu stranicu.
+utf8-decode-error = Dogodila se greška prilikom dekodiranja iCalendar (ics) datoteke kao UTF-8. Provjeri da li je datoteka, uključujući simbole i znakove s kvačicama, kodirana koristeći UTF-8 kodnu stranicu.
 ics-malformed-error = Sintaktička analiza iCalendar (ics) datoteke nije uspjela. Provjerite da li se datoteka pridržava iCalendar (ics) sintaksi.
 item-modified-on-server-title = Stavka promijenjena na poslužitelju
 item-modified-on-server = Ova stavka je nedavno promijenjena na poslužitelju.

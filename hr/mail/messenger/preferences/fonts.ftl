@@ -117,8 +117,8 @@ use-fixed-width-plain-checkbox =
 
 ## Language settings
 
-text-encoding-legend = Kôdna stranica
-text-encoding-description = Postavi zadane kodne stranice za slanje i primanje pošte
+text-encoding-legend = Kodiranje teksta
+text-encoding-description = Postavi zadano kodiranje teksta za slanje i primanje pošte
 font-outgoing-email-label =
     .value = Odlazna pošta:
     .accesskey = d
@@ -126,5 +126,5 @@ font-incoming-email-label =
     .value = Dolazna pošta:
     .accesskey = a
 default-font-reply-checkbox =
-    .label = Kada je moguće, koristi zadanu kodnu stranicu u odgovorima
+    .label = Kada je moguće, koristi zadano kodiranje teksta u odgovorima
     .accesskey = j
