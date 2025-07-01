@@ -809,6 +809,8 @@ sync-disconnected-turn-on-sync = Uključi sinkronizaciju…
 
 ## Mobile QR Export Pane
 
+qr-export-description = Brzo prenesi svoje postavke računa s računala na mobilni uređaj generiranjem QR koda. Odaberi koje račune želiš prenijeti, želiš li prenijeti njihove lozinke i snimi QR kod svojim mobilnim uređajem. Brzo, sigurno i jednostavno.
+qr-export-create = Stvori QR kod za izvoz svojih računa
 
 ## Appearance Tab
 
