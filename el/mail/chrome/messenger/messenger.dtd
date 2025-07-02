@@ -176,7 +176,7 @@
 <!ENTITY sortThreaded.accesskey "Σ">
 <!ENTITY sortUnthreaded.label "Εκτός νήματος">
 <!ENTITY sortUnthreaded.accesskey "κ">
-<!ENTITY groupBySort.label "Ομαδοποιημένα κατά ταξινόμηση">
+<!ENTITY groupBySort.label "Ταξινόμηση κατά ομάδες">
 <!ENTITY groupBySort.accesskey "δ">
 <!ENTITY msgsMenu.label "Μηνύματα">
 <!ENTITY msgsMenu.accesskey "ν">
