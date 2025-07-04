@@ -210,7 +210,7 @@ error-not-channel-op = Tu non es un operator de canal sur { $name }.
 error-not-channel-owner = Tu non es un proprietario de canal sur { $name }.
 #    $name is the channel name.
 error-wrong-key = Impossibile entrar in le canal { $name }, contrasigno invalide.
-error-send-message-failed = Un error occurreva durante le invio de tu ultime message. Per favor prova de novo un vice que le connexion ha essite restabilite.
+error-send-message-failed = Un error ha occurrite durante le invio de tu ultime message. Per favor tenta lo de novo quando le connexion ha essite restabilite.
 #    $name is the channel the user tried to join, $details is the channel
 #    he was forwarded to.
 error-channel-forward = Tu non pote entrar in { $name }, e ha essite automaticamente redirigite a { $details }.
