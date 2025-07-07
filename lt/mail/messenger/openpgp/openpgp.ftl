@@ -4,7 +4,31 @@
 
 e2e-intro-description = Norėdami siųsti užšifruotus ar skaitmeniškai pasirašytus pranešimus, turite sukonfigūruoti šifravimo technologiją - „OpenPGP“ arba „S/MIME“.
 e2e-intro-description-more = Pasirinkite savo asmeninį raktą, kad galėtumėte naudoti „OpenPGP“, arba asmeninį sertifikatą, kad galėtumėte naudoti „S/MIME“. Kaip asmeninio rakto ar sertifikato savininkas, jūs turite atitinkamą slaptą raktą.
+e2e-signing-description = Skaitmeninis parašas leidžia gavėjams įsitikinti, kad laišką tikrai siuntėte jūs ir, kad jo turinys nepakeistas. Pagal nutylėjimą, šifruoti laiškai yra visada pasirašomi.
+e2e-sign-message =
+    .label = Pasirašyti nešifruotus laiškus
+    .accesskey = P
+e2e-disable-enc =
+    .label = Išjungti šifravimą naujiems laiškams
+    .accesskey = I
+e2e-enable-enc =
+    .label = Įjungti šifravimą naujiems laiškams
+    .accesskey = j
+e2e-enable-description = Galėsite išjungti šifravimą atskiriems laiškams.
 e2e-advanced-section = Papildomi nustatymai
+e2e-attach-key =
+    .label = Pridėti mano viešąjį raktą, kai pridedamas „OpenPGP“ skaitmeninis parašas
+    .accesskey = r
+e2e-encrypt-subject =
+    .label = Šifruoti „OpenPGP“ laiškų temą
+    .accesskey = f
+e2e-encrypt-drafts =
+    .label = Saugoti juodraščius šifruotu formatu
+    .accesskey = u
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Siųsti „OpenPGP“ viešąjį raktą(-us) el. laiško antraštėje, kad būtų suderinamumas su „Autocrypt“
+    .accesskey = a
 openpgp-key-created-label =
     .label = Sukurtas
 openpgp-key-expiry-label =

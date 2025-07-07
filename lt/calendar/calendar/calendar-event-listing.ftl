@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Praeities įvykiai
 calendar-event-listing-interval-calendar-month =
     .label = Šio kalendorinio mėnesio įvykiai
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,10 @@ calendar-event-listing-interval-next-6-months =
     .label = Įvykiai per ateinančius 6 mėnesius
 calendar-event-listing-interval-next-12-months =
     .label = Įvykiai per ateinančius 12 mėnesių
+calendar-event-listing-interval-future =
+    .label = Visi būsimieji įvykiai
+calendar-event-listing-interval-all =
+    .label = Visi įvykiai
 calendar-event-listing-interval-selected-day =
     .label = Pažymėtos dienos įvykiai
 calendar-event-listing-interval-today =
