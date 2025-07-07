@@ -37,6 +37,9 @@ about-rights-notification-text = „{ -brand-short-name }“ yra nemokama ir atv
 quick-filter-toolbarbutton =
     .label = Spartusis filtras
     .tooltiptext = Filtruoti laiškus
+redirect-msg-button =
+    .label = Peradresuoti
+    .tooltiptext = Peradresuoti pažymėtą laišką
 
 ## Folder Pane
 
@@ -112,20 +115,87 @@ menu-edit-newsgroup-properties =
 
 ## Message Menu
 
+redirect-msg-menuitem =
+    .label = Peradresuoti
+    .accesskey = d
 
 ## AppMenu
 
+appmenu-settings =
+    .label = Nuostatos
 appmenu-addons-and-themes =
     .label = Priedai ir grafiniai apvalkalai
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Pažymėti kaip skaitytą
+    .tooltiptext = Pažymėti kaip skaitytą
+context-menu-mark-unread =
+    .aria-label = Pažymėti kaip neskaitytą
+    .tooltiptext = Pažymėti kaip neskaitytą
+context-menu-mark-reply =
+    .aria-label = Atsakyti
+    .tooltiptext = Atsakyti
+context-menu-archive =
+    .aria-label = Archyvuoti
+    .tooltiptext = Archyvuoti
+context-menu-mark-junk =
+    .aria-label = Pažymėti kaip brukalą
+    .tooltiptext = Pažymėti kaip brukalą
+context-menu-mark-not-junk =
+    .aria-label = Pažymėti kaip ne brukalą
+    .tooltiptext = Pažymėti kaip ne brukalą
+mail-context-menu-open =
+    .label = Atverti
+    .accesskey = O
+mail-context-menu-reply =
+    .label = Atsakyti
+    .accesskey = R
+mail-context-menu-forward-redirect =
+    .label = Persiųsti ir peradresuoti
+    .accesskey = f
 mail-context-menu-forward-forward =
     .label = Persiųsti
     .accesskey = P
+mail-context-menu-forward-inline =
+    .label = Tiesiogiai
+    .accesskey = i
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Kaip priedą
+            [few] Kaip priedus
+            [many] Kaip priedus
+           *[other] Kaip priedus
+        }
+    .accesskey = a
+mail-context-menu-organize =
+    .label = Tvarkyti
+    .accesskey = g
+mail-context-menu-threads =
+    .label = Gijos
+    .accesskey = T
+context-menu-redirect-msg =
+    .label = Peradresuoti
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Pašalinti laišką
+            [few] Pašalinti pažymėtus laiškus
+            [many] Pašalinti pažymėtus laiškus
+           *[other] Pašalinti pažymėtus laiškus
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
 
 ## Message header pane
 
+other-action-redirect-msg =
+    .label = Peradresuoti
 
 ## Message header customize panel
 
@@ -157,6 +227,12 @@ addon-removal-confirmation-message = Pašalinti „{ $name }“ ir jo konfigūra
 
 ## Spaces toolbar
 
+spaces-toolbar-button-settings2 =
+    .title = Nuostatos
+settings-context-open-settings-item2 =
+    .label = Nuostatos
+settings-context-open-account-settings-item2 =
+    .label = Paskyros nuostatos
 
 ## Spaces toolbar pinned tab menupopup
 

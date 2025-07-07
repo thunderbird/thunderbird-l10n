@@ -8,9 +8,15 @@ about-addressbook-title = Adresų knyga
 
 about-addressbook-toolbar-new-address-book =
     .label = Nauja adresų knyga
+about-addressbook-toolbar-add-carddav-address-book =
+    .label = Pridėti „CardDAV“ adresų knygą
+about-addressbook-toolbar-add-ldap-address-book =
+    .label = Pridėti LDAP adresų knygą
 
 ## Books
 
+all-address-books-row =
+    .title = Visos adresų knygos
 all-address-books = Visos adresų knygos
 about-addressbook-books-context-properties =
     .label = Savybės
@@ -18,11 +24,19 @@ about-addressbook-books-context-synchronize =
     .label = Sinchronizuoti
 about-addressbook-books-context-print =
     .label = Spausdinti…
+about-addressbook-books-context-export =
+    .label = Eksportuoti…
 about-addressbook-books-context-delete =
     .label = Ištrinti
+about-addressbook-confirm-delete-book-title = Pašalinti adresų knygą
 
 ## Cards
 
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Ieškoti { $name }
+    .placeholder = Ieškoti { $name }…
 about-addressbook-name-format-display =
     .label = Rodomas vardas
 about-addressbook-name-format-firstlast =
@@ -41,17 +55,72 @@ about-addressbook-sort-email-descending =
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-header-generatedname2 = Vardas
+    .title = Rikiuoti pagal vardą
+about-addressbook-column-label-generatedname2 =
+    .label = Vardas
+about-addressbook-column-header-emailaddresses2 = El. pašto adresai
+    .title = Rikiuoti pagal el. pašto adresus
+about-addressbook-column-label-emailaddresses2 =
+    .label = El. pašto adresai
+about-addressbook-column-header-nickname2 = Slapyvardis
+    .title = Rikiuoti pagal slapyvardį
+about-addressbook-column-label-nickname2 =
+    .label = Slapyvardis
+about-addressbook-column-header-phonenumbers2 = Telefonų numeriai
+    .title = Rikiuoti pagal telefonų numerius
+about-addressbook-column-label-phonenumbers2 =
+    .label = Telefonų numeriai
+about-addressbook-column-header-addresses2 = Adresai
+    .title = Rikiuoti pagal adresus
+about-addressbook-column-label-addresses2 =
+    .label = Adresai
+about-addressbook-column-header-department2 = Padalinys
+    .title = Rikiuoti pagal padalinį
+about-addressbook-column-label-department2 =
+    .label = Padalinys
+about-addressbook-column-header-organization2 = Organizacija
+    .title = Rikiuoti pagal organizaciją
+about-addressbook-column-label-organization2 =
+    .label = Organizacija
+about-addressbook-column-header-addrbook2 = Adresų knyga
+    .title = Rikiuoti pagal adresų knygą
+about-addressbook-column-label-addrbook2 =
+    .label = Adresų knyga
+about-addressbook-cards-context-write =
+    .label = Rašyti
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-title =
+    { $count ->
+        [one] Pašalinti adresatą
+        [few] Pašalinti adresatus
+        [many] Pašalinti adresatus
+       *[other] Pašalinti adresatus
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Ar tikrai norite pašalinti adresatą { $name }?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-empty-book = Adresatų nėra
+about-addressbook-placeholder-new-contact = Naujas adresatas
+about-addressbook-placeholder-search-only = Adresatai iš šios adresų knygos rodomi tik po paieškos
+about-addressbook-placeholder-searching = Ieškoma…
+about-addressbook-placeholder-no-search-results = Adresatų nerasta
 
 ## Details
 
+about-addressbook-new-contact-header = Naujas adresatas
+about-addressbook-write-action-button = Rašyti
+about-addressbook-search-action-button = Ieškoti
 about-addressbook-begin-edit-contact-button = Redaguoti
 about-addressbook-cancel-edit-contact-button = Atšaukti
 about-addressbook-save-edit-contact-button = Įrašyti
-about-addressbook-details-email-addresses-header = El. paštas
+about-addressbook-add-contact-to = Pridėti į:
+about-addressbook-details-email-addresses-header = El. pašto adresai
 about-addressbook-details-phone-numbers-header = Telefonų numeriai
 about-addressbook-details-addresses-header = Adresai
 about-addressbook-details-notes-header = Pastabos

@@ -34,6 +34,8 @@ openpgp-broken-exchange-info = Tai yra „OpenPGP“ pranešimas, kurį, matyt, 
 openpgp-broken-exchange-repair =
     .label = Atkurti pranešimą
 openpgp-broken-exchange-wait = Luktelėkite…
+openpgp-has-nested-encrypted-parts = Šiame laiške yra papildomų, užšifruotų dalių.
+openpgp-show-encrypted-parts = Iššifruoti ir parodyti
 openpgp-cannot-decrypt-because-mdc =
     Tai yra užšifruotas pranešimas, kuriame naudojamas senas ir pažeidžiamas mechanizmas.
     Pranešima galėjo būti pakeistas tranzito metu, siekiant pavogti jo turinį.
