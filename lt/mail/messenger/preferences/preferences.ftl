@@ -650,6 +650,7 @@ search-results-help-link = Reikia pagalbos? Aplankykite <a data-l10n-name="url">
 
 ## Mobile QR Export Pane
 
+qr-export-start-export = Eksportuoti
 
 ## Appearance Tab
 

@@ -7,3 +7,9 @@
 
 tree-list-view-column-picker =
     .title = Rinktis rodomus stulpelius
+tree-list-view-row-flagged =
+    .alt = Žvaigždute pažymėto laiško indikatorius
+    .title = Laiškas pažymėtas žvaigždute
+tree-list-view-row-flag =
+    .alt = Žvaigždute pažymėto laiško indikatorius
+    .title = Laiškas nepažymėtas žvaigždute

@@ -5,6 +5,8 @@
 e2e-intro-description = Norėdami siųsti užšifruotus ar skaitmeniškai pasirašytus pranešimus, turite sukonfigūruoti šifravimo technologiją - „OpenPGP“ arba „S/MIME“.
 e2e-intro-description-more = Pasirinkite savo asmeninį raktą, kad galėtumėte naudoti „OpenPGP“, arba asmeninį sertifikatą, kad galėtumėte naudoti „S/MIME“. Kaip asmeninio rakto ar sertifikato savininkas, jūs turite atitinkamą slaptą raktą.
 e2e-advanced-section = Papildomi nustatymai
+openpgp-key-created-label =
+    .label = Sukurtas
 openpgp-key-expiry-label =
     .label = Galiojimo pabaiga
 openpgp-key-id-label =
@@ -56,8 +58,18 @@ openpgp-key-man-backup-secret-keys =
 openpgp-key-man-discover-cmd =
     .label = Ieškoti raktų internete
     .accesskey = I
+openpgp-key-man-publish-cmd =
+    .label = Paskelbti
+    .accesskey = P
+openpgp-key-publish = Paskelbti
 openpgp-key-man-discover-prompt = „OpenPGP“ raktų paieškai internete, raktų serveryje arba WKD protokolu įveskite arba elektroninio pašto adresą arba rakto ID.
 openpgp-key-man-discover-progress = Ieškoma…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Viešasis raktas išsiųstas į „{ $keyserver }“.
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Nepavyko išsiųsti jūsų viešojo rakto į „{ $keyserver }“.
 openpgp-key-copy-key =
     .label = Kopijuoti viešąjį raktą
     .accesskey = K
@@ -141,6 +153,8 @@ openpgp-key-man-reload =
 openpgp-key-man-change-expiry =
     .label = Keisti galiojimo datą
     .accesskey = K
+openpgp-key-man-ignored-ids =
+    .label = El. pašto adresai
 openpgp-key-man-del-key =
     .label = Ištrinti raktą (-us)
     .accesskey = I
@@ -186,12 +200,14 @@ openpgp-key-man-select-all-key =
     .key = v
 openpgp-key-man-key-details-key =
     .key = I
+openpgp-key-details-doc-title = Rakto savybės
 openpgp-key-details-signatures-tab =
     .label = Sertifikatai
 openpgp-key-details-structure-tab =
     .label = struktūra
 openpgp-key-details-uid-certified-col =
     .label = Vartotojo ID / patvirtino
+openpgp-key-details-key-id-label = Rakto ID
 openpgp-key-details-id-label =
     .label = ID
 openpgp-key-details-key-type-label = Tipas
@@ -232,6 +248,7 @@ openpgp-personal-no-label =
     .label = Ne, nenaudoti jo kaip mano asmeninio rakto.
 openpgp-personal-yes-label =
     .label = Taip, tai asmeninis raktas.
+openpgp-passphrase-unlock = Atrakinti
 openpgp-copy-cmd-label =
     .label = Kopijuoti
 
@@ -257,6 +274,10 @@ openpgp-radio-key-not-found = Šio rakto rasti nepavyko! Jei norite jį naudoti,
 openpgp-radio-key-expires = Galiojimas baigiasi: { $date }
 #   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Negalioja nuo: { $date }
+openpgp-key-expires-within-6-months-icon =
+    .title = Raktas baigs galioti mažiau nei po 6 mėnesių
+openpgp-key-has-expired-icon =
+    .title = Raktas nebegalioja
 openpgp-key-expand-section =
     .tooltiptext = Daugiau informacijos
 openpgp-key-revoke-title = Atšaukti raktą
@@ -542,6 +563,7 @@ confirm-permissive-import = Nepavyko importuoti. Raktas, kurį bandote importuot
 
 ## Strings used in trust.jsm
 
+help-button = Žinynas
 
 ## Strings used in trust.sys.mjs
 
