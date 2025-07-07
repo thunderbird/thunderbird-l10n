@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Pašalinti
     .tooltiptext = Pašalinti
+multi-message-undelete-button =
+    .label = Atkurti
+    .tooltiptext = Atkurti

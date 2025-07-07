@@ -16,6 +16,7 @@ connection-error-time-out = Baigėsi ryšiui skirtas laikas
 connection-error-invalid-username = Negalima naudoti slapyvardžio „{ $username }“
 connection-error-invalid-password = Blogas serverio slaptažodis
 connection-error-password-required = Reikalingas slaptažodis
+connection-error-invalid-user-password = Neteisingas slaptažodis
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Kambarys

@@ -16,6 +16,16 @@ new-newsgroup-headers =
 # $newsgroup (String) - The name of the newsgroup.
 no-new-messages = „{ $newsgroup }“ nėra naujų pranešimų.
 # Variables:
+# $count (Number) - Number of articles.
+# $newsgroup (String) - The name of the newsgroup.
+downloading-articles-for-offline =
+    { $count ->
+        [one] Atsiunčiamas { $count } pranešimas grupėje „{ $newsgroup }“…
+        [few] Atsiunčiami { $count } grupės „{ $newsgroup }“ pranešimai…
+        [many] Atsiunčiama { $count } grupės „{ $newsgroup }“ pranešimų…
+       *[other] Atsiunčiama { $count } grupės „{ $newsgroup }“ pranešimų…
+    }
+# Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-articles-to-download = Grupėje { $newsgroup } nėra pranešimų, kuriuos būtų galima atsisiųsti.
 # Variables:
