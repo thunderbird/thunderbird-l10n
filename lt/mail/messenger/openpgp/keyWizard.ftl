@@ -5,6 +5,9 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Pridėkite asmeninį { $identity } „OpenPGP“ raktą
+key-wizard-dialog =
+    .buttonlabelaccept = Tęsti
+    .buttonlabelextra1 = Grįžti
 key-wizard-warning = <b> Jei jau turite asmeninį šio el. pašto adreso raktą </b>, turėtumėte jį importuoti. Kitaip neturėsite prieigos prie savo užšifruotų el. laiškų archyvų ir negalėsite skaityti gaunamų užšifruotų el. laiškų iš žmonių, kurie vis dar naudoja jūsų esamą raktą.
 key-wizard-learn-more = Sužinokite daugiau
 radio-create-key =
@@ -51,7 +54,7 @@ openpgp-keygen-button = Sukurti raktą
 openpgp-keygen-progress-title = Generuojamas jūsų naujas „OpenPGP“ raktas…
 openpgp-keygen-import-progress-title = Importuojami jūsų „OpenPGP“ raktai…
 openpgp-import-success = „OpenPGP“ raktai sėkmingai importuoti.
-openpgp-import-success-title = Užbaigti importą
+openpgp-import-success-title = Užbaigti importavimą
 openpgp-import-success-description = Prieš pradėdami naudoti importuotą „OpenPGP“ raktą el. pašto šifravimui uždarykite šį dialogo langą ir pasirinkite šį raktą savo paskyros nustatymuose.
 openpgp-keygen-confirm =
     .label = Patvirtinti

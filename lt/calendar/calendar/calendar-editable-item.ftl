@@ -26,3 +26,5 @@ calendar-editable-item-reminder-icon-suppressed-alarm =
     .alt = Priminimas suplanuotas, bet šiuo metu užblokuotas
 calendar-editable-item-reminder-icon-email =
     .alt = Suplanuotas priminimas el. paštu
+calendar-editable-item-reminder-icon-audio =
+    .alt = Įvykio priminimas garsu suplanuotas

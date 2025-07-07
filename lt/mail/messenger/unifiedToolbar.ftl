@@ -49,3 +49,9 @@ customize-button-style-icons-beside-text-option = Piktogramos šalia teksto
 
 ## Unified toolbar customization target context menu
 
+customize-target-add-everywhere =
+    .label = Pridėti į visas priemonių juostas
+customize-target-start =
+    .label = Perkelti į pradžią
+customize-target-end =
+    .label = Perkelti į pabaigą

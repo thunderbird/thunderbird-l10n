@@ -44,6 +44,9 @@ openpgp-enc-key-id = Jūsų iššifravimo rakto ID: „{ $key }“
 # $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
 # $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = Jūsų iššifravimo rakto ID: „{ $key }“ (antrinio rakto ID: „{ $subkey }“)
+openpgp-enc-none = Laiškas nėra šifruotas
+openpgp-enc-invalid-label = Laiško negalima iššifruoti
+openpgp-enc-valid-label = Laiškas užšifruotas
 openpgp-unknown-key-id = Nežinomas raktas
 openpgp-other-enc-additional-key-ids = Be to, pranešimas buvo užšifruotas šių raktų savininkams:
 openpgp-other-enc-all-key-ids = Pranešimas buvo užšifruotas šių raktų savininkams:

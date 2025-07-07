@@ -8,6 +8,15 @@ openpgp-key-assistant-rogue-warning = Venkite ir nepriimkite suklastoto rakto. N
 ## Encryption status
 
 openpgp-key-assistant-recipients-issue-header = Nepavyksta užšifruoti
+# Variables:
+# $count (Number) - The number of recipients that need attention.
+openpgp-key-assistant-recipients-issue-description =
+    { $count ->
+        [one] Norėdami šifruoti, privalote iš vieno gavėjo gauti ir priimti tinkamą naudoti raktą. <a data-l10n-name="openpgp-link">Sužinokite daugiau…</a>
+        [few] Norėdami šifruoti, privalote iš { $count } gavėjų gauti ir priimti tinkamus naudoti raktus. <a data-l10n-name="openpgp-link">Sužinokite daugiau…</a>
+        [many] Norėdami šifruoti, privalote iš { $count } gavėjų gauti ir priimti tinkamus naudoti raktus. <a data-l10n-name="openpgp-link">Sužinokite daugiau…</a>
+       *[other] Norėdami šifruoti, privalote iš { $count } gavėjo gauti ir priimti tinkamus naudoti raktus. <a data-l10n-name="openpgp-link">Sužinokite daugiau…</a>
+    }
 openpgp-key-assistant-info-alias = Įprastai, „{ -brand-short-name }“ reikalauja, kad gavėjo viešajame rakte būtų naudotojo ID ir atitinkamas el. pašto adresas. Tai galima nustelbti naudojant „OpenPGP“ gavėjo pseudonimo taisykles. <a data-l10n-name="openpgp-link">Sužinokite daugiau…</a>
 # Variables:
 # $count (Number) - The number of recipients that need attention.
@@ -103,6 +112,26 @@ openpgp-key-assistant-discover-title = Ieškoma internete.
 # Variables:
 # $recipient (String) - The email address which we're discovering keys.
 openpgp-key-assistant-discover-keys = Atrandami { $recipient } raktai…
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-expired-key-update =
+    Vienam iš anksčiau priimtų { $recipient } raktų buvo rastas atnaujinimas.
+    Jis jau gali būti naudojamas, nes jo galiojimas nėbėra pasibaigęs.
 
 ## Dialog buttons
 
+openpgp-key-assistant-discover-online-button = Ieškoti viešųjų raktų internete…
+openpgp-key-assistant-import-keys-button = Importuoti viešuosius raktus iš failo…
+openpgp-key-assistant-issue-resolve-button = Išspręsti…
+openpgp-key-assistant-view-key-button = Peržiūrėti raktą…
+openpgp-key-assistant-recipients-show-button = Rodyti
+openpgp-key-assistant-recipients-hide-button = Slėpti
+openpgp-key-assistant-cancel-button = Atsisakyti
+openpgp-key-assistant-back-button = Atgal
+openpgp-key-assistant-accept-button = Priimti
+openpgp-key-assistant-close-button = Užverti
+openpgp-key-assistant-disable-button = Išjungti šifravimą
+openpgp-key-assistant-confirm-button = Siųsti užšifruotą
+# Variables:
+# $date (String) - The key creation date.
+openpgp-key-assistant-key-created = sukurtas { $date }

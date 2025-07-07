@@ -13,3 +13,14 @@ room-name-empty = Pokalbio tema nenurodyta
 #  $oldName (String) - The previous name the conversation had before it was
 #    removed.
 room-name-empty-had-name = Pokalbio tema nenurodyta (buvo { $oldName })
+# Variables:
+#  $participant (String) - The name of one participant that isn't the user.
+#  $otherParticipantCount (Number) - The count of other participants apart from
+#    the user and $participant.
+room-name-others2 =
+    { $otherParticipantCount ->
+        [one] { $participant } ir dar { $otherParticipantCount }
+        [few] { $participant } ir dar { $otherParticipantCount } kiti
+        [many] { $participant } ir { $otherParticipantCount } kitų
+       *[other] { $participant } ir { $otherParticipantCount } kitų
+    }
