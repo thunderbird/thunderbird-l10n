@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = išlaikyti archyvuojamų laiškų aplankų hierarchiją
     .accesskey = l
+recreate-inbox =
+    .label = Iš naujo sukurti aplanką gautiems laiškams
+    .accesskey = g
 archive-example-label = Pavyzdys
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Gauti laiškai
+child-folder-name =
+    .label = Gautųjų laiškų aplanko poaplankis
+sibling-folder-name =
+    .label = Susietas su gautųjų laiškų aplanku

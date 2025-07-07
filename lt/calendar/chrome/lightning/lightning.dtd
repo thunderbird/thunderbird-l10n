@@ -39,6 +39,9 @@
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "Kol kas šią nuostatą galite įjungti tik kalendoriaus ypatybių dialogo lange, jei kalendoriaus serveris rūpinasi planavimu.">
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Ši parinktis galima tik tuo atveju, jei planavimas tvarkomas kalendoriaus serverio. Įjungę galėsite grįžti prie planavimo el. paštu , o ne paliekant jį serveryje.">
+<!-- The notifications settings in the properties dialog -->
+<!ENTITY lightning.calendarproperties.notifications.label "Pranešimai">
+<!ENTITY lightning.calendarproperties.globalNotifications.label "Bendros pranešimų nuostatos…">
 <!-- iMIP Bar (meeting support) -->
 <!ENTITY lightning.imipbar.btnAccept.label "Priimti">
 <!ENTITY lightning.imipbar.btnAccept2.tooltiptext "Priimti kvietimą į įvykį">
