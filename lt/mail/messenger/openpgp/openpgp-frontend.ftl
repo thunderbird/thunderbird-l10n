@@ -36,6 +36,8 @@ openpgp-broken-exchange-repair =
 openpgp-broken-exchange-wait = Luktelėkite…
 openpgp-has-nested-encrypted-parts = Šiame laiške yra papildomų, užšifruotų dalių.
 openpgp-show-encrypted-parts = Iššifruoti ir parodyti
+openpgp-has-nested-signed-parts = Kai kurios šio pranešimo dalys gali būti pasirašytos skaitmeniniu parašu.
+openpgp-show-signed-parts = Atidaryti ir rodyti
 openpgp-cannot-decrypt-because-mdc =
     Tai yra užšifruotas pranešimas, kuriame naudojamas senas ir pažeidžiamas mechanizmas.
     Pranešima galėjo būti pakeistas tranzito metu, siekiant pavogti jo turinį.
