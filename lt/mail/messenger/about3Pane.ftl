@@ -127,9 +127,19 @@ quick-filter-bar-gloda-upsell-line2 = Spauskite „Įvesti“, kad būtų pratę
 
 ## Folder pane
 
+folder-pane-get-messages-button =
+    .title = Atsiųsti laiškus
 folder-pane-get-all-messages-menuitem =
     .label = Atsiųsti visus laiškus
     .accesskey = s
+folder-pane-write-message-button = Naujas laiškas
+    .title = Rašyti naują laišką
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Rodyti „Atsiųsti laiškus“
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Rodyti „Naujas laiškas“
 folder-pane-mode-context-toggle-compact-mode =
     .label = Rodyti glaustai
     .accesskey = R
@@ -245,3 +255,14 @@ message-list-placeholder-no-messages = Laiškų nėra
 
 ## Folder pane context menu
 
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Pažymėti aplanko laiškus kaip skaitytus
+            [few] Pažymėti aplankų laiškus kaip skaitytus
+            [many] Pažymėti aplankų laiškus kaip skaitytus
+           *[other] Pažymėti aplankų laiškus kaip skaitytus
+        }
+    .accesskey = k

@@ -5,6 +5,8 @@
 
 ## Window controls
 
+messenger-window-close-button =
+    .tooltiptext = Užverti
 # Variables:
 # $count (Number) - Number of unread messages.
 unread-messages-os-tooltip =
@@ -32,6 +34,9 @@ about-rights-notification-text = „{ -brand-short-name }“ yra nemokama ir atv
 
 ## Toolbar
 
+quick-filter-toolbarbutton =
+    .label = Spartusis filtras
+    .tooltiptext = Filtruoti laiškus
 
 ## Folder Pane
 

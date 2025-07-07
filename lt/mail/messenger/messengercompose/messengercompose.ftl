@@ -102,6 +102,8 @@ button-return-receipt =
 
 ## Addressing Area
 
+to-address-row-label =
+    .value = Kam
 many-public-recipients-bcc =
     .label = Vietoj to naudoti nematomas kopijas (BCC)
     .accesskey = n

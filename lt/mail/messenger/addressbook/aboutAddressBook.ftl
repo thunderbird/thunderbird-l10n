@@ -53,10 +53,26 @@ about-addressbook-cancel-edit-contact-button = Atšaukti
 about-addressbook-save-edit-contact-button = Įrašyti
 about-addressbook-details-email-addresses-header = El. paštas
 about-addressbook-details-phone-numbers-header = Telefonų numeriai
+about-addressbook-details-addresses-header = Adresai
+about-addressbook-details-notes-header = Pastabos
+about-addressbook-details-websites-header = Svetainės
 about-addressbook-details-other-info-header = Kita informacija
+about-addressbook-entry-type-work = Darbo
+about-addressbook-entry-type-home = Namų
+about-addressbook-entry-name-birthday = Gimtadienis
+about-addressbook-entry-name-organization = Organizacija
+about-addressbook-entry-name-website = Svetainė
+about-addressbook-entry-name-time-zone = Laiko juosta
+about-addressbook-unsaved-changes-prompt-title = Yra neįrašytų pakeitimų
 
 # Photo dialog
 
+about-addressbook-photo-drop-loading = Įkeliama nuotrauka…
+about-addressbook-photo-drop-error = Nepavyko įkelti nuotraukos.
+about-addressbook-photo-discard = Pašalinti esamą nuotrauką
+about-addressbook-photo-cancel = Atsisakyti
+about-addressbook-photo-save = Įrašyti
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = N

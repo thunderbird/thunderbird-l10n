@@ -5,18 +5,36 @@
 
 ## Tools Menu
 
+menu-tools-settings =
+    .label = Nuostatos
+    .accesskey = N
 menu-addons-and-themes =
     .label = Priedai ir grafiniai apvalkalai
     .accesskey = P
 
 ## Help Menu
 
+menu-help-help-title =
+    .label = Žinynas
+    .accesskey = H
 menu-help-enter-troubleshoot-mode =
     .label = Trikčių šalinimo režimas …
     .accesskey = T
 menu-help-exit-troubleshoot-mode =
     .label = Išjungti trikčių šalinimo režimą
     .accesskey = I
+# These menu-quit strings are only used on Windows and Linux.
+menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Baigti darbą
+           *[other] Baigti darbą
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] x
+           *[other] Q
+        }
 
 ## Mail Toolbar
 
@@ -41,6 +59,18 @@ toolbar-undelete-button =
 
 ## View / Layout
 
+menu-font-size-label =
+    .label = Šrifto dydis
+    .accesskey = o
+menuitem-font-size-enlarge =
+    .label = Padidinti šriftą
+    .accesskey = i
+menuitem-font-size-reduce =
+    .label = Sumažinti šriftą
+    .accesskey = m
+menuitem-font-size-reset =
+    .label = Atstatyti šrifto dydį
+    .accesskey = r
 mail-uidensity-label =
     .label = Išdėstymas
     .accesskey = I
