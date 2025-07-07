@@ -357,6 +357,7 @@ html-task-completed = { $task } (užbaigtas)
 # Categories
 add-category = Pridėti kategoriją
 multiple-categories = Kelios kategorijos
+no-categories = Nėra
 calendar-today = Šiandien
 calendar-tomorrow = Rytoj
 yesterday = Vakar

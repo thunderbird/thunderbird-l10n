@@ -6,3 +6,5 @@ calendar-event-reminder-icon-display =
     .alt = Rodyti priminimą
 calendar-event-reminder-icon-email =
     .alt = Siųsti el. laišką
+calendar-event-reminder-icon-audio =
+    .alt = Leisti garsinį įspėjimą

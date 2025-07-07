@@ -5,6 +5,27 @@
 
 ## Message List Header Bar
 
+quick-filter-button =
+    .title = Perjungti sparčiojo filtro juostą
+quick-filter-button-label = Greitas filtras
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] laiškas
+        [few] laiškai
+        [many] laiškai
+       *[other] laiškų
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] pažymėtas
+        [few] pažymėti
+        [many] pažymėtų
+       *[other] pažymėta
+    }
 
 ## Quick Filter Bar
 
@@ -193,6 +214,15 @@ threadpane-column-header-delete =
     .title = Pašalinti laišką
 threadpane-column-label-delete =
     .label = Pašalinti
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] atsakymas
+        [few] atsakymai
+        [many] atsakymai
+       *[other] atsakymų
+    }
 
 ## Message state variations
 
@@ -211,6 +241,7 @@ apply-current-columns-to-folder-message = Ar pritaikyti šio aplanko stulpelių 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Ar pritaikyti šio aplanko stulpelių išdėstymą aplankui „{ $name }“ ir visiems jo poaplankiams?
+message-list-placeholder-no-messages = Laiškų nėra
 
 ## Folder pane context menu
 

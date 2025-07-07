@@ -447,6 +447,8 @@
 <!ENTITY deleteJunk.accesskey "š">
 <!ENTITY importCmd.label "Importuoti…">
 <!ENTITY importCmd.accesskey "I">
+<!ENTITY exportCmd.label "Eksportuoti…">
+<!ENTITY exportCmd.accesskey "x">
 <!ENTITY clearRecentHistory.label "Valyti žurnalą…">
 <!ENTITY clearRecentHistory.accesskey "ž">
 <!ENTITY accountManagerCmd2.label "Paskyrų nuostatos">
