@@ -5,3 +5,6 @@
 search-bar-clear-button =
     .alt = Išvalyti
     .title = Išvalyti teksto laukelį
+search-bar-search-button =
+    .alt = Paieška
+    .title = Paieška

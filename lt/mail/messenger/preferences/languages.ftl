@@ -16,6 +16,7 @@ languages-customize-select-language =
 languages-customize-add =
     .label = Pridėti
     .accesskey = P
+messenger-languages-dialog-title = „{ -brand-short-name }“ kalbos nuostatos
 messenger-languages-description = „{ -brand-short-name }“ laikys pirmąją kalbą numatytąja ir, jei prireiks, rodys kitas kalbas čia nurodytu eiliškumu.
 messenger-languages-search = Ieškoti daugiau kalbų…
 messenger-languages-searching =
