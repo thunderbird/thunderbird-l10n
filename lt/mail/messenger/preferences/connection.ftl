@@ -14,6 +14,14 @@ connection-dns-over-https-url-custom =
     .accesskey = k
     .tooltiptext = Nurodykite norimą URI serverių paieškai (DNS) HTTPS protokolu
 connection-dns-over-https-custom-label = Kita
+connection-dialog-title = Ryšio nuostatos
+disable-extension-button = Išjungti priedus
+# Variables:
+#   $name (String) - The extension that is controlling the proxy settings.
+#
+# The extension-icon is the extension's icon, or a fallback image. It should be
+# purely decoration for the actual extension name, with alt="".
+proxy-settings-controlled-by-extension = Plėtinys <img data-l10n-name="extension-icon" alt="" /> { $name } kontroliuoja, kaip „{ -brand-short-name }“ jungiasi prie interneto.
 connection-proxy-legend = Įgaliotųjų serverių sąranka
 proxy-type-no =
     .label = Nenaudoti įgaliotojo serverio

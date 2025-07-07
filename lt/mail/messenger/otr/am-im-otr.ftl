@@ -5,6 +5,7 @@
 account-encryption =
     .label = Abipusis šifravimas
 account-otr-label = Neįrašomos žinutės (OTR)
+account-otr-description2 = „{ -brand-short-name }“ palaiko abipusį OTR pagristą privačių pokalbių šifravimą. Tai neleidžia trečiosioms šalims sužinoti pokalbio turinio. Abipusis  šifravimas gali būti naudojamas tik tuomet, kai kitas asmuo taip pat naudoja OTR palaikančią programinę įrangą.
 otr-encryption-title = Patvirtintas šifravimas
 otr-encryption-caption = Kad kiti galėtų patikrinti jūsų tapatybę OTR pokalbiuose, pasidalykite savo OTR „pirštų atspaudais“ naudodamiesi kitas ryšio priemones ar būdus.
 otr-fingerprint-label = Jūsų „piršto atspaudas“:
