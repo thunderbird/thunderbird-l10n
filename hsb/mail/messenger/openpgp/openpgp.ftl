@@ -360,6 +360,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Waša aktualna konfiguracija klučowe ID <b>{ $key }</b> wužiwa
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Waša aktualna konfiguracije kluč <b>{ $key }</b>, kotryž { $when } spadnje. Zo by kluč płaćiwy wostał, rozwažće prošu, datum spadnjenje kluča nětko podlěšić.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Waša aktualna konfiguracije kluč <b>{ $key }</b> wužiwa, kotryž je spadnył.
 openpgp-add-key-button =
     .label = Kluč přidać…

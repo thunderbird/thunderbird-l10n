@@ -89,6 +89,7 @@ account-hub-username-label = Wužiwarske mjeno
 account-hub-username-warning-icon = Wužiwarske mjeno je trěbne
 account-hub-address-book-username-error-text = Prošu zapodajće wužiwarske mjeno
 account-hub-server-label = URL/Mjeno hosta
+account-hub-server-tip = Thunderbird budźe awtomatisce pospytować, waše hostmjeno wotkryć
 account-hub-server-warning-icon = Njepłaćiwy URL
 account-hub-server-error-text = Prošu zapodajće płaćiwy URL
 account-hub-address-book-enter-password = Zapodajće hesło swojeho konta CardDav

@@ -86,6 +86,7 @@ account-hub-auth-no-authentication-option =
     .label = Žedna awtentifikacija
 account-hub-auth-label = Awtentificěrowańska metoda
 account-hub-username-label = Wužywaŕske mě
+account-hub-username-warning-icon = Wužywaŕske mě jo trjebne
 account-hub-result-username-label = Wužywaŕske mě
     .title = Wužywaŕske mě
 account-hub-name-label = Dopołne mě
