@@ -142,9 +142,19 @@ address-book-sync-existing = Sincronizar desde unha conta existente
 address-book-add-remote-icon =
     .alt = Engadir unha nova axenda de enderezos remota
 address-book-add-remote = Engadir axenda de enderezos remota
+address-book-add-local = Nova axenda de enderezos local
+address-book-add-local-description = Crea unha nova axenda de enderezos local no teu dispositivo
+address-book-add-ldap-icon =
+    .alt = Conectar a unha axenda de enderezos LDAP remota
 address-book-add-ldap = Nova axenda de enderezos LDAP
 address-book-add-ldap-description = Conectar a unha axenda de enderezos LDAP remota
 account-hub-fetching-sync-accounts = Descubrindo axendas de enderezos e calendarios...
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } de { $total }
+    .title = { $synced } axendas de enderezos sincronizadas, { $available } dispoñible
+account-hub-add-local-address-book = Crear unha axenda de enderezos local
 account-hub-local-address-book-label = Nome da axenda de enderezos
 account-hub-local-error-text = Introduce un nome da axenda de enderezos
 account-hub-sync-address-books = Sincronizar as axendas de enderezos existentes

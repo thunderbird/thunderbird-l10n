@@ -31,4 +31,5 @@ account-manager-server-default-icon =
 outgoing-server-section-name = Servidor saínte
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Axustes do servidor de saída
+outgoing-server-settings-description = Cando xestiones as túas identidades, podes usar un servidor desta lista seleccionándoo como servidor de saída, ou podes usar o servidor predeterminado desta lista seleccionando «Usar servidor predeterminado».
 outgoing-server-type = Tipo de servidor:

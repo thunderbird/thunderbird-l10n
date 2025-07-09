@@ -270,6 +270,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Con estrela
     .aria-label = Con estrela
+message-header-delete =
+    .label = Eliminar
+    .tooltiptext = Eliminar esta mensaxe
+message-header-undelete =
+    .label = Restaurar
+    .tooltiptext = Restaurar esta mensaxe
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -306,6 +312,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Amosar todas as cabeceiras
     .accesskey = b
+message-header-dark-message-toggle =
+    .label = Amosar o interruptor do modo de mensaxe escura
+    .accesskey = A
 
 ## Action Button Context Menu
 
@@ -466,3 +475,8 @@ quota-panel-percent-used = { $percent }% cheo
 
 ## Actions for the New Mail Notification
 
+mark-as-read-action = Marcar como lido
+delete-action = Eliminar
+mark-as-starred-action = Marcar como destacado
+mark-as-spam-action = Marcar como non desexado
+archive-action = Arquivar
