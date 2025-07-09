@@ -353,6 +353,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Vaša aktuálna konfigurácia používa kľúč s identifikátorom <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Vaša aktuálna konfigurácia používa kľúč <b>{ $key }</b>, ktorého platnosť vyprší { $when }. Ak chcete, aby kľúč zostal platný, zvážte predĺženie dátumu expirácie kľúča.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Vaša aktuálna konfigurácia používa kľúč <b>{ $key }</b>, ktorého platnosť vypršala.
 openpgp-add-key-button =
     .label = Pridať kľúč…
