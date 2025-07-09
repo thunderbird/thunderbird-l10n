@@ -161,6 +161,7 @@ account-hub-username-error-text = O nome de usuario é necesario
 account-hub-oauth-pending = Agardando a autorización na ventá emerxente de inicio de sesión...
 account-hub-addon-install-needed = { -brand-short-name } non admite este servidor de forma nativa. Para acceder ao correo electrónico de Exchange, <a data-l10n-name="addon-install"> instala un complemento de terceiros como Owl (de pago).</a>
 account-hub-addon-error = Fallou a instalación do complemento. Téntao de novo ou contacta co autor do complemento para obter axuda.
+account-hub-security-warning = <span data-l10n-name="security-warning">Aviso: detectouse un servidor de correo inseguro.</span> Este servidor carece de cifrado, polo que expón o teu contrasinal e os teus datos. Ponte en contacto co teu administrador para asegurar a conexión ou procede pola túa conta e risco. <a data-l10n-name="faq-link">Consulta as preguntas frecuentes para obter máis información.</a>
 account-hub-account-authentication-error = Erro de autenticación.
 account-hub-add-address-book = Engade unha axenda de enderezos
 address-book-sync-existing-icon =
@@ -169,6 +170,9 @@ address-book-sync-existing = Sincronizar desde unha conta existente
 address-book-add-remote-icon =
     .alt = Engadir unha nova axenda de enderezos remota
 address-book-add-remote = Engadir axenda de enderezos remota
+address-book-add-remote-description = Conectarse a unha axenda de enderezos CardDav remota
+address-book-add-local-icon =
+    .alt = Crear unha nova axenda de enderezos local
 address-book-add-local = Nova axenda de enderezos local
 address-book-add-local-description = Crea unha nova axenda de enderezos local no teu dispositivo
 address-book-add-ldap-icon =
@@ -176,6 +180,23 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Nova axenda de enderezos LDAP
 address-book-add-ldap-description = Conectar a unha axenda de enderezos LDAP remota
 account-hub-fetching-sync-accounts = Descubrindo axendas de enderezos e calendarios...
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] 1 axenda de enderezos de 1 conta dispoñible
+               *[other] 1 axenda de enderezos de { $accounts } contas dispoñibles
+            }
+       *[other]
+            { $accounts ->
+                [one] { $addressBooks } axendas de enderezos de 1 conta dispoñible
+               *[other] { $addressBooks } axendas de enderezos de { $accounts } contas dispoñibles
+            }
+    }
+address-book-sync-existing-description = Recuperando as contas existentes...
+account-hub-select-address-book-account = Seleccionar unha conta con axendas de enderezos
 # $synced (Number) - The number of address books that are synced.
 # $available (Number) - The number of address books that can be synced.
 # $total (Number) - The total number of address books for this account.
@@ -185,3 +206,4 @@ account-hub-add-local-address-book = Crear unha axenda de enderezos local
 account-hub-local-address-book-label = Nome da axenda de enderezos
 account-hub-local-error-text = Introduce un nome da axenda de enderezos
 account-hub-sync-address-books = Sincronizar as axendas de enderezos existentes
+account-hub-new-remote-address-book = Nova axenda de enderezos remota

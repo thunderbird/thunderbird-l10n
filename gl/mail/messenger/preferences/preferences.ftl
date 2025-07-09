@@ -250,6 +250,9 @@ automatic-updates-label =
 check-updates-label =
     .label = Buscar actualizacións, pero permitirme escoller se quero instalalas
     .accesskey = c
+update-application-background-enabled =
+    .label = Cando { -brand-short-name } non se está a executar
+    .accesskey = C
 update-history-button =
     .label = Amosar o historial de actualizacións
     .accesskey = h
@@ -433,11 +436,23 @@ conversation-view-checkbox-label =
 conversation-view-checkbox-description = Función experimental baseada en Gloda, úsea baixo o seu propio risco
 label-experiment = Experimental
 dark-message-mode-legend = Estilo do lector de mensaxes
+dark-message-mode-checkbox-label =
+    .label = Activar o modo de mensaxe escuro
+    .accesskey = e
+dark-message-mode-description = Forzar que o corpo da mensaxe siga temas escuros
+dark-message-mode-toggle-label =
+    .label = Amosar o interruptor do modo de mensaxe escura
+    .accesskey = i
+dark-message-mode-toggle-description = Mostrar un interruptor na cabeceira da mensaxe para desactivar rapidamente o modo de mensaxe escura
 account-hub-legend = Centro de contas
 account-hub-checkbox-label =
     .label = Crear contas no novo Centro de contas
     .accesskey = C
 account-hub-checkbox-description = Procedemento experimental para crear unha nova conta de correo electrónico
+account-hub-ab-checkbox-label =
+    .label = Crear axendas de enderezos no novo Centro de contas
+    .accesskey = e
+account-hub-ab-checkbox-description = Fluxo experimental de creación de novas axendas de enderezos
 
 ## Compose Tab
 
@@ -774,6 +789,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Atopar na configuración
+managed-notice = { -brand-short-name } está a ser xestionado pola túa organización.
 
 ## Settings UI Search Results
 
