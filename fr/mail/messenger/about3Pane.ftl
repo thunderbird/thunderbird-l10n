@@ -499,3 +499,8 @@ folder-pane-context-mark-folder-read =
            *[other] Marquer les dossiers comme lus
         }
     .accesskey = M
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = Réinitialiser l’ordre des dossiers
+    .accesskey = R

@@ -499,3 +499,8 @@ folder-pane-context-mark-folder-read =
            *[other] Marcar las carpetas como leídas
         }
     .accesskey = c
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = Restablecer orden de carpetas
+    .accesskey = R

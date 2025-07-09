@@ -483,3 +483,8 @@ folder-pane-context-mark-folder-read =
            *[other] 將信件匣標示為已讀
         }
     .accesskey = k
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = 重設資料夾順序
+    .accesskey = R
