@@ -10,6 +10,7 @@
 <!ENTITY newMenu.label "Naujas">
 <!ENTITY newMenu.accesskey "N">
 <!ENTITY newMessage.label "Laiškas">
+<!ENTITY newMessage.accesskey "M">
 <!ENTITY newMessageCmd2.key "N">
 <!ENTITY newContact.label "Adresatas…">
 <!ENTITY newContact.accesskey "A">
@@ -219,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Naivumas">
 <!ENTITY smiley15Cmd.label "Verksmas">
 <!ENTITY smiley16Cmd.label "Suspaustos lūpos">
+<!ENTITY smiley17Cmd.label "Piktas">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Siūlymų nėra">
 <!ENTITY spellCheckIgnoreWord.label "Praleisti žodį">
