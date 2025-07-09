@@ -793,7 +793,7 @@
 <!ENTITY ViewContact.accesskey "V">
 <!ENTITY SubscribeToNewsgroup.label "订阅新闻组">
 <!ENTITY SubscribeToNewsgroup.accesskey "N">
-<!ENTITY SendMessageTo.label "编写消息至">
+<!ENTITY SendMessageTo.label "写信给">
 <!ENTITY SendMessageTo.accesskey "s">
 <!ENTITY CopyEmailAddress.label "复制邮件地址">
 <!ENTITY CopyEmailAddress.accesskey "C">

@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY emailSectionHdr.label "电子邮件">
 <!ENTITY readMsgsLink.label "阅读">
-<!ENTITY composeMsgLink.label "编写">
+<!ENTITY composeMsgLink.label "写信">
 <!ENTITY newsSectionHdr.label "新闻组">
 <!ENTITY subscribeNewsLink.label "管理新闻组订阅">
 <!ENTITY feedsSectionHdr.label "收取点">

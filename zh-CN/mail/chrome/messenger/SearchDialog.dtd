@@ -29,7 +29,7 @@
 <!ENTITY abSearchHeading.accesskey "h">
 <!ENTITY propertiesButton.label "属性">
 <!ENTITY propertiesButton.accesskey "P">
-<!ENTITY composeButton.label "编写">
+<!ENTITY composeButton.label "写信">
 <!ENTITY composeButton.accesskey "W">
 <!ENTITY deleteCardButton.label "删除">
 <!ENTITY deleteCardButton.accesskey "D">

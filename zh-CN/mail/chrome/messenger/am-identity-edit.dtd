@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY settingsTab.label "设置">
 <!ENTITY copiesFoldersTab.label "副本和文件夹">
-<!ENTITY addressingTab.label "邮件编写与地址查找">
+<!ENTITY addressingTab.label "邮件撰写与地址查找">
 <!ENTITY publicData.label "公共数据">
 <!ENTITY privateData.label "私人数据">
 <!ENTITY identityAlias.label "身份标签：">
