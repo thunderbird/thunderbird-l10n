@@ -32,6 +32,7 @@ newsgroups-label = Naujienų grupės
     .aria-label = Prijungti naujienų grupę
 newsgroups-description = „{ -brand-short-name }“ padės prisijungti prie norimų naujienų grupių.
 import-title = Importuoti iš kitos programos
+import-paragraph2 = „{ -brand-short-name }“ padės importuoti pašto pranešimus, adresų knygas, sklaidos kanalų prenumeratas, nuostatas ir (arba) filtrus iš kitų pašto programų ir įprastų adresų knygų formatų.
 import-label = Importuoti
     .aria-label = Importuoti duomenis iš kitų programų
 about-paragraph = „Thunderbird“ – tai pirmaujanti daugiaplatformė laisvoji elektroninio pašto ir kalendoriaus programa, nemokama tiek verslui, tiek asmeniniam naudojimui. Mes norime, kad ji ir toliau išliktų saugi ir taptų dar geresnė. Jūsų parama mums padės pasamdyti programuotojų, padengti infrastruktūros išlaikymo kaštus ir toliau tobulėti.
