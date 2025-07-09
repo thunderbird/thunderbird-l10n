@@ -8,6 +8,7 @@
 options-save-token = Išsaugoti prieigos raktą
 options-device-display-name = Rodomas įrenginio pavadinimas
 options-homeserver = Serveris
+options-encryption-status-ok = Gerai
 # LOCALIZATION NOTE (connection-*):
 #   These will be displayed in the account manager in order to show the progress
 #   of the connection.

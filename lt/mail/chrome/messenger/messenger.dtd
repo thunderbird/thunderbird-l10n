@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "g">
 <!ENTITY contextMoveMsgMenu.label "Perkelti į">
 <!ENTITY contextMoveMsgMenu.accesskey "e">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Paskiausi aplankai">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "P">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Paskiausi">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "P">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Dažniausi">
