@@ -12,7 +12,7 @@
 <!ENTITY findButton.accesskey "H">
 <!ENTITY directorySecure.label "Používať zabezpečené pripojenie (SSL)">
 <!ENTITY directorySecure.accesskey "P">
-<!ENTITY directoryLogin.label "DN pripájania:">
+<!ENTITY directoryLogin.label "Prihlasovací DN: ">
 <!ENTITY directoryLogin.accesskey "D">
 <!ENTITY General.tab "Všeobecné">
 <!ENTITY Offline.tab "Režim offline">
