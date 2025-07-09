@@ -86,6 +86,16 @@ account-hub-auth-no-authentication-option =
     .label = Ei todennusta
 account-hub-auth-label = Todennustapa
 account-hub-username-label = Käyttäjätunnus
+account-hub-username-warning-icon = Käyttäjätunnus vaaditaan
+account-hub-address-book-username-error-text = Kirjoita käyttäjätunnus
+account-hub-server-warning-icon = Virheellinen osoite
+account-hub-server-error-text = Kirjoita kelvollinen URL-osoite
+account-hub-address-book-enter-password = Kirjoita CardDav-tilisi salasana
+account-hub-address-book-name-label = Nimi
+account-hub-address-book-name-error-text = Kirjoita nimi
+account-hub-ldap-form = Yhdistä LDAP-hakemistoon
+account-hub-advanced-configuration-button = Lisäasetukset
+account-hub-ldap-ssl-toggle-label = Käytä suojattua yhteyttä (SSL)
 account-hub-result-username-label = Käyttäjätunnus
     .title = Käyttäjätunnus
 account-hub-name-label = Koko nimi
@@ -149,3 +159,47 @@ account-hub-addon-install-needed = { -brand-short-name } ei tue  oletusarvoisest
 account-hub-addon-error = Lisäosan asennus epäonnistui. Yritä uudelleen tai ota yhteyttä lisäosan tekijään saadaksesi apua.
 account-hub-security-warning = <span data-l10n-name="security-warning">Varoitus: Suojaamaton sähköpostipalvelin havaittu.</span> Palvelimelta puuttuu salaus, minkä vuoksi salasanasi ja tietosi paljastuvat. Ota yhteys järjestelmänvalvojaan turvataksesi yhteyden tai jatka omalla vastuullasi. <a data-l10n-name="faq-link">Lisätietoja on usein kysytyissä kysymyksissä.</a>
 account-hub-account-authentication-error = Todennusvirhe.
+account-hub-add-address-book = Lisää osoitekirja
+address-book-sync-existing-icon =
+    .alt = Synkronoi osoitekirja olemassa olevalta tililtä
+address-book-sync-existing = Synkronoi olemassa olevasta tilistä
+address-book-add-remote-icon =
+    .alt = Lisää uusi etäosoitekirja
+address-book-add-remote = Lisää etäosoitekirja
+address-book-add-remote-description = Yhdistä CardDav-etäosoitekirjaan
+address-book-add-local-icon =
+    .alt = Luo uusi paikallinen osoitekirja
+address-book-add-local = Uusi paikallinen osoitekirja
+address-book-add-local-description = Luo uusi paikallinen osoitekirja laitteellesi
+address-book-add-ldap-icon =
+    .alt = Yhdistä LDAP-etäosoitekirjaan
+address-book-add-ldap = Uusi LDAP-osoitekirja
+address-book-add-ldap-description = Yhdistä LDAP-etäosoitekirjaan
+account-hub-fetching-sync-accounts = Havaitaan osoitekirjoja ja kalentereita…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] Yksi osoitekirja yhdeltä tililtä saatavilla
+               *[other] Yksi osoitekirja { $accounts } tililtä saatavilla
+            }
+       *[other]
+            { $accounts ->
+                [one] { $addressBooks } osoitekirjaa yhdeltä tililtä saatavilla
+               *[other] { $addressBooks } osoitekirjaa { $accounts } tililtä saatavilla
+            }
+    }
+address-book-sync-existing-description = Haetaan olemassa olevia tilejä…
+account-hub-select-address-book-account = Valitse tili, jossa on osoitekirjoja
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced }/{ $total }
+    .title = { $synced } synkronoitua osoitekirjaa, { $available } saatavilla
+account-hub-add-local-address-book = Luo paikallinen osoitekirja
+account-hub-local-address-book-label = Osoitekirjan nimi
+account-hub-local-error-text = Kirjoita osoitekirjan nimi
+account-hub-sync-address-books = Synkronoi olemassa olevat osoitekirjat
+account-hub-new-remote-address-book = Uusi etäosoitekirja
