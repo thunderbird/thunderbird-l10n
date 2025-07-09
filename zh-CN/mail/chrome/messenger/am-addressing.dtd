@@ -4,7 +4,7 @@
 
 <!-- extracted from am-addressing.xhtml -->
 
-<!ENTITY addressing.label "编写 &amp; 地址簿">
+<!ENTITY addressing.label "邮件编写与地址查找">
 <!ENTITY addressingGroupTitle.label "地址查找">
 <!ENTITY addressingText.label "查找地址时：">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
@@ -39,7 +39,7 @@
 <!ENTITY includeSigOnReply.accesskey "I">
 <!ENTITY includeSigOnForward.label "转发时包含签名">
 <!ENTITY includeSigOnForward.accesskey "w">
-<!ENTITY globalComposingPrefs.label "全局撰写设置…">
+<!ENTITY globalComposingPrefs.label "全局编写设置…">
 <!ENTITY globalComposingPrefs.accesskey "G">
 <!ENTITY globalAddressingPrefs.label "全局地址设置…">
 <!ENTITY globalAddressingPrefs.accesskey "P">
