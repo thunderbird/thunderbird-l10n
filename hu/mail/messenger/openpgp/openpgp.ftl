@@ -346,6 +346,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = A jelenlegi konfiguráció a(z) <b>{ $key }</b> kulcsazonosítót használja.
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = A jelenlegi konfiguráció a(z) <b>{ $key }</b> kulcsot használja, amely { $when } le fog járni. A kulcs érvényességének megtartása érdekében most fontolja meg a kulcs lejárati dátumának meghosszabbítását.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = A jelenlegi konfiguráció a(z) <b>{ $key }</b> kulcsot használja, ami lejárt.
 openpgp-add-key-button =
     .label = Kulcs hozzáadása…
