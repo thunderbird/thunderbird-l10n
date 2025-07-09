@@ -991,6 +991,9 @@ apply-changes-prompt-title = Aplicar os cambios?
 apply-changes-prompt-message = Queres aplicar a configuración actual de conversas e ordenación a todos os cartafois?
 # Variables:
 #  $name (String): The name of the folder to apply to.
-apply-changes-prompt-folder-children-message = Queres aplicar a configuración actual de conversas e orde a «{ $name }» e aos subcartafois?
+apply-changes-prompt-folder-message = Queres aplicar a configuración actual de conversas e ordenación a «{ $name }»?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Queres aplicar a configuración actual de conversas e ordenación a «{ $name }» e aos subcartafois?
 apply-current-view-error = Non se pode aplicar a configuración de vista actual
 apply-current-view-success = A configuración da vista actual aplicouse correctamente
