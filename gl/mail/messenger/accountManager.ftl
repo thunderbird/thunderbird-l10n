@@ -28,3 +28,7 @@ edit-vcard-dialog-cancel-button = Cancelar
 account-manager-server-default-icon =
     .title = Conta predeterminada
     .alt = Icona de estrela
+outgoing-server-section-name = Servidor saínte
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Axustes do servidor de saída
+outgoing-server-type = Tipo de servidor:

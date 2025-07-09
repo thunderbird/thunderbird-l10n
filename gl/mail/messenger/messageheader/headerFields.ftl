@@ -101,3 +101,7 @@ message-ids-field-show-all = Amosar todo
 
 ## Dark Message Mode
 
+dark-message-mode-toggle-enabled =
+    .title = Desactivar o modo de mensaxe escuro
+dark-message-mode-toggle-disabled =
+    .title = Activar o modo de mensaxe escuro
