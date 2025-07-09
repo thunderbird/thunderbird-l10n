@@ -316,3 +316,4 @@ about-addressbook-photo-save = Tallenna
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = N

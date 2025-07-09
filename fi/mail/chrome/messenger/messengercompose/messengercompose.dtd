@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Viaton">
 <!ENTITY smiley15Cmd.label "Itku">
 <!ENTITY smiley16Cmd.label "Vaikenee">
+<!ENTITY smiley17Cmd.label "Vihainen">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Ei ehdotuksia">
 <!ENTITY spellCheckIgnoreWord.label "Ohita sana">

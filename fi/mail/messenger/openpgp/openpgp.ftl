@@ -346,6 +346,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Nykyinen kokoonpanosi käyttää avaimen tunnistetta <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Nykyisessä määrityksessä käytetään avainta <b>{ $key }</b>, joka vanhenee { $when }. Avaimen voimassa pitämiseksi harkitse sen vanhenemispäivämäärän pidentämistä nyt.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Nykyinen kokoonpano käyttää avainta <b>{ $key }</b>, joka on vanhentunut.
 openpgp-add-key-button =
     .label = Lisää avain…

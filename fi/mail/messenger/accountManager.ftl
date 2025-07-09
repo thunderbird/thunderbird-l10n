@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = Peruuta
 account-manager-server-default-icon =
     .title = Oletustili
     .alt = Tähti-kuvake
+outgoing-server-section-name = Lähtevän postin palvelin
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Lähtevän postin palvelimen asetukset
+outgoing-server-settings-description = Kun hallitset identiteettejäsi, voit käyttää palvelinta tästä luettelosta valitsemalla sen lähtevän postin palvelimeksi tai voit käyttää oletuspalvelinta tästä luettelosta valitsemalla "Käytä oletuspalvelinta".
+outgoing-server-type = Palvelintyyppi:

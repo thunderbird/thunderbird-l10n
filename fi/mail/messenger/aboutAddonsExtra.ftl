@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = Etsi vaihtoehtoinen lisäosa
 atn-addons-heading-search-input =
     .placeholder = Hae addons.thunderbird.netistä
+atn-addons-heading-search-button =
+    .title = Hae addons.thunderbird.netistä
+    .aria-label = Hae addons.thunderbird.netistä

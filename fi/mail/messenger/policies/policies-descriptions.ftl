@@ -55,6 +55,7 @@ policy-ExtensionSettings = Hallitse kaikkia laajennuksen asentamisen osa-alueita
 policy-ExtensionUpdate = Käytä tai poista käytöstä laajennusten automaattiset päivitykset.
 policy-Handlers = Määritä oletussovelluskäsittelijät.
 policy-HardwareAcceleration = Jos epätosi, poista laitteistokiihdytys käytöstä.
+policy-InAppNotification = Ota ilmoitustyypit käyttöön tai poista ne käytöstä.
 policy-InstallAddonsPermission = Salli tiettyjen sivustojen asentaa lisäosia.
 policy-LegacyProfiles = Poista käytöstä ominaisuus, joka pakottaa erillisen profiilin kullekin asennukselle
 
