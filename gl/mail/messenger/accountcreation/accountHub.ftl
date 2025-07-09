@@ -86,6 +86,7 @@ account-hub-auth-no-authentication-option =
     .label = Sen autenticación
 account-hub-auth-label = Método de autenticación
 account-hub-username-label = Nome de usuario
+account-hub-username-warning-icon = O nome de usuario é necesario
 account-hub-result-username-label = Nome de usuario
     .title = Nome de usuario
 account-hub-name-label = Nome completo
