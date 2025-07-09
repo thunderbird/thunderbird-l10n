@@ -16,7 +16,7 @@
 <!ENTITY namespaceDesc.label "此首选项指定您的 IMAP 服务器的名字空间">
 <!ENTITY personalNamespace.label "个人名字空间：">
 <!ENTITY personalNamespace.accesskey "P">
-<!ENTITY publicNamespace.label "公共 （共享）：">
+<!ENTITY publicNamespace.label "公共（共享）：">
 <!ENTITY publicNamespace.accesskey "u">
 <!ENTITY otherUsersNamespace.label "其他用户：">
 <!ENTITY otherUsersNamespace.accesskey "O">

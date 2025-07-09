@@ -11,7 +11,7 @@
 <!ENTITY fccReplyFollowsParent.label "将回复的邮件放入被回复邮件同一文件夹中">
 <!ENTITY fccReplyFollowsParent.accesskey "r">
 <!-- LOCALIZATION NOTE (ccAddress.label): do not translate "Cc" in below line -->
-<!ENTITY ccAddress.label "Cc 这些邮件地址：">
+<!ENTITY ccAddress.label "抄送至这些邮件地址：">
 <!ENTITY ccAddress.accesskey "C">
 <!ENTITY ccAddressList.placeholder "使用逗号分隔地址">
 <!-- LOCALIZATION NOTE (bccAddress.label): do not translate "Bcc" in below line -->
