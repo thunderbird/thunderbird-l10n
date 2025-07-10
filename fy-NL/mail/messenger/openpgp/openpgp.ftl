@@ -346,6 +346,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Jo aktuele konfiguraasje brûkt kaai-ID <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Jo aktuele konfiguraasje brûkt de kaai <b>{ $key }</b>, dy’t op { $when } ferrinne sil. Tink der oer nei om de ferrindatum fan de kaai no te ferlingen om de kaai jildich te hâlden.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Jo aktuele konfiguraasje brûkt de kaai <b>{ $key }</b>, dy’t ferrûn is.
 openpgp-add-key-button =
     .label = Kaai tafoegje…
