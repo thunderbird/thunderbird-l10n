@@ -455,3 +455,8 @@ message-list-placeholder-multiple-folders = 已选择多个文件夹
 folder-pane-context-mark-folder-read =
     .label = 标记文件夹为已读
     .accesskey = k
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = 重置文件夹顺序
+    .accesskey = R
