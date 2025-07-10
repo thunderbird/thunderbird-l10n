@@ -346,6 +346,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Η τρέχουσα ρύθμισή σας χρησιμοποιεί το ID κλειδιού <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Η τρέχουσα διαμόρφωσή σας χρησιμοποιεί το κλειδί <b>{ $key }</b>, το οποίο θα λήξει { $when }. Για να παραμείνει έγκυρο το κλειδί, σκεφτείτε το ενδεχόμενο να επεκτείνετε την ημερομηνία λήξης του τώρα.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Η τρέχουσα διαμόρφωσή σας χρησιμοποιεί το κλειδί <b>{ $key }</b>, το οποίο έχει λήξει.
 openpgp-add-key-button =
     .label = Προσθήκη κλειδιού…
