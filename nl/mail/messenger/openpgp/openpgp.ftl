@@ -346,6 +346,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Uw huidige configuratie gebruikt sleutel-ID <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Uw huidige configuratie gebruikt de sleutel <b>{ $key }</b>, die op { $when } zal verlopen. Overweeg de vervaldatum van de sleutel nu te verlengen om de sleutel geldig te houden.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Uw huidige configuratie gebruikt de sleutel <b>{ $key }</b>, die is vervallen.
 openpgp-add-key-button =
     .label = Sleutel toevoegen…
