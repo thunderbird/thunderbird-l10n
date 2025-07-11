@@ -100,6 +100,7 @@ account-hub-address-book-bind-dn = Bind DN
 account-hub-ldap-form = Koble til en LDAP-katalog
 account-hub-advanced-configuration-button = Avanserte innstillinger
 account-hub-ldap-ssl-toggle-label = Bruk sikker tilkobling (SSL)
+account-hub-max-results-error-text = Skriv inn et tall større enn 0
 account-hub-result-username-label = Brukernavn
     .title = Brukernavn
 account-hub-name-label = Fullt navn
