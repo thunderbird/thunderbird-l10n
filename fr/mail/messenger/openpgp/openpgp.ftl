@@ -347,7 +347,7 @@ openpgp-description-has-keys =
 openpgp-selection-status-have-key = Votre configuration actuelle utilise l’identifiant de clé <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
 #   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
-openpgp-selection-status-expiring-soon = Votre configuration actuelle utilise la clé <b>{ $key }</b>, qui expirera { $when }. Pour garder la clé valide, vous pouvez prolonger sa date d’expiration dès maintenant.
+openpgp-selection-status-expiring-soon = Votre configuration actuelle utilise la clé <b>{ $key }</b>, qui expirera { $when }. Pour que la clé reste valide, vous pouvez prolonger sa date d’expiration dès maintenant.
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Votre configuration actuelle utilise la clé à l’identifiant <b>{ $key }</b> et cette clé a expiré.
 openpgp-add-key-button =
