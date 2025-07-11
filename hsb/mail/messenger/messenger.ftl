@@ -279,6 +279,8 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Hinak wodźić
+other-action-copy-message-link =
+    .label = Powěsćowy wotkaz kopěrować
 message-header-msg-flagged =
     .title = Z hwěžku
     .aria-label = Z hwěžku
