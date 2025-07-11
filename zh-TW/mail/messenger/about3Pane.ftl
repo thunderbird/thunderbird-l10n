@@ -486,5 +486,5 @@ folder-pane-context-mark-folder-read =
 # Note: We also use the R accesskey for the Rename label but both can't be
 # visible at the same time, so it's safe.
 folder-pane-context-reset-sort =
-    .label = 重設資料夾順序
+    .label = 重設信件匣順序
     .accesskey = R

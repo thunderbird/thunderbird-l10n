@@ -338,7 +338,7 @@ openpgp-description-has-keys =
 openpgp-selection-status-have-key = 您目前設定使用 ID 為 <b>{ $key }</b> 的金鑰
 #   $key (String) - the currently selected OpenPGP key
 #   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
-openpgp-selection-status-expiring-soon = 您目前設定使用金鑰 <b>{ $key }</b>將於 { $when } 過期。為了保持金鑰有效請考慮現在延長金鑰的到期日。
+openpgp-selection-status-expiring-soon = 您目前使用的金鑰 <b>{ $key }</b> 將於 { $when } 過期。為了保持金鑰有效，請考慮立即延長金鑰到期日。
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = 您目前設定使用金鑰 <b>{ $key }</b>，已經過期。
 openpgp-add-key-button =
