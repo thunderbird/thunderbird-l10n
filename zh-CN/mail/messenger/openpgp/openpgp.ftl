@@ -337,6 +337,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = 您当前配置使用 ID 为 <b>{ $key }</b> 的密钥
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = 您当前的配置使用的密钥 <b>{ $key }</b> 将于 { $when } 到期。为了保持密钥有效，请考虑立即延长密钥有效期。
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = 您当前配置使用密钥 <b>{ $key }</b>，已经过期。
 openpgp-add-key-button =
     .label = 添加密钥...
