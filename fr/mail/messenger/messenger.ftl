@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Rediriger
+other-action-copy-message-link =
+    .label = Copier le lien du message
+other-action-copy-news-link =
+    .label = Copier le lien de la discussion
 message-header-msg-flagged =
     .title = Suivi
     .aria-label = Suivi

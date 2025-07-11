@@ -265,6 +265,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = 重導
+other-action-copy-message-link =
+    .label = 複製訊息鏈結
+other-action-copy-news-link =
+    .label = 複製新聞鏈結
 message-header-msg-flagged =
     .title = 已標星號
     .aria-label = 已標星號

@@ -291,6 +291,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Ailgyfeirio
+other-action-copy-message-link =
+    .label = Copïo Dolen Neges
+other-action-copy-news-link =
+    .label = Copïo Dolen Newyddion
 message-header-msg-flagged =
     .title = Serennog
     .aria-label = Serennog
