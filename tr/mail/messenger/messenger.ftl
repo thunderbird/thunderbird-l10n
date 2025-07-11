@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Yönlendir
+other-action-copy-message-link =
+    .label = İleti bağlantısını kopyala
+other-action-copy-news-link =
+    .label = Haber bağlantısını kopyala
 message-header-msg-flagged =
     .title = Yıldızlı
     .aria-label = Yıldızlı
