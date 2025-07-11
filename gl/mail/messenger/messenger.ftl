@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Redirixir
+other-action-copy-message-link =
+    .label = Copiar a ligazón da mensaxe
+other-action-copy-news-link =
+    .label = Copiar a ligazón das noticias
 message-header-msg-flagged =
     .title = Con estrela
     .aria-label = Con estrela
