@@ -279,6 +279,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Dalej pósrědniś
+other-action-copy-message-link =
+    .label = Powěsćowy wótkaz kopěrowaś
+other-action-copy-news-link =
+    .label = Wótkaz na nowosći kopěrowaś
 message-header-msg-flagged =
     .title = Z gwězdku
     .aria-label = Z gwězdku
