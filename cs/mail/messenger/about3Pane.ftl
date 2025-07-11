@@ -532,3 +532,8 @@ folder-pane-context-mark-folder-read =
            *[other] Označit složky jako přečtené
         }
     .accesskey = k
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = Obnovit pořadí složek
+    .accesskey = n
