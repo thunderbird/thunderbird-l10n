@@ -375,7 +375,7 @@ openpgp-description-has-keys =
 openpgp-selection-status-have-key = Mae eich ffurfweddiad cyfredol yn defnyddio ID allwedd <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
 #   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
-openpgp-selection-status-expiring-soon = Mae eich ffurfweddiad presennol yn defnyddio'r allwedd <b>{ $key }</b>, a fydd yn dod i ben { $when }. I gadw'r allwedd yn ddilys, ystyriwch ymestyn dyddiad dod i ben yr allwedd nawr.
+openpgp-selection-status-expiring-soon = Mae eich ffurfweddiad presennol yn defnyddio'r allwedd <b>{ $key }</b>, fydd yn dod i ben ar { $when }. I gadw'r allwedd yn ddilys, ystyriwch ymestyn dyddiad dod i ben yr allwedd nawr.
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Mae eich ffurfweddiad cyfredol yn defnyddio ID allwedd <b>{ $key }</b>, sydd wedi dod i ben.
 openpgp-add-key-button =
