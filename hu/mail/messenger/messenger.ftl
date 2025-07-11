@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Átirányítás
+other-action-copy-message-link =
+    .label = Üzenethivatkozás másolása
+other-action-copy-news-link =
+    .label = Hírhivatkozás másolása
 message-header-msg-flagged =
     .title = Csillagozott
     .aria-label = Csillagozott
