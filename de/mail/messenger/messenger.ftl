@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Umleiten
+other-action-copy-message-link =
+    .label = Nachrichtenlink kopieren
+other-action-copy-news-link =
+    .label = News-Link kopieren
 message-header-msg-flagged =
     .title = Gekennzeichnet
     .aria-label = Gekennzeichnet
