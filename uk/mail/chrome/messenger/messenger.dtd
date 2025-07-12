@@ -692,7 +692,7 @@
 <!ENTITY contextMoveMsgMenu.label "Перемістити у">
 <!ENTITY contextMoveMsgMenu.accesskey "е">
 <!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Недавні місця призначення">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "е">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Недавні">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "д">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Обране">
