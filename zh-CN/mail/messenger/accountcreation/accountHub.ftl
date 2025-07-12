@@ -108,6 +108,7 @@ account-hub-address-book-scope-subtree-label =
 account-hub-address-book-login-method-label = 登录方式
 account-hub-address-book-login-simple-label =
     .label = 简单
+account-hub-simple-configuration-button = 简单配置
 account-hub-result-username-label = 用户名
     .title = 用户名
 account-hub-name-label = 全名
