@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = გადამისამართება
+other-action-copy-message-link =
+    .label = წერილის ბმულის ასლი
+other-action-copy-news-link =
+    .label = სიახლეების ბმულის ასლი
 message-header-msg-flagged =
     .title = ვარსკვლავიანი
     .aria-label = ვარსკვლავიანი

@@ -346,6 +346,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = მიმდინარე გამართვით, გამოიყენება გასაღების ID <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = მიმდინარე გამართვაში გამოიყენება გასაღები <b>{ $key }</b>, რომელსაც ვადა ეწურება { $when }. გასაღები მოქმედი რომ დარჩეს, გთხოვთ ახლავე გაზარდოთ გასაღების ვადის ხანგრძლივობა.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = მიმდინარე გამართვით, გამოიყენება გასაღების ID <b>{ $key }</b>, რომელიც ვადაგასულია.
 openpgp-add-key-button =
     .label = გასაღების დამატება…
