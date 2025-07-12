@@ -277,9 +277,19 @@ compose-tool-button-remove-text-styling =
 
 ## Filelink
 
+# A text used in a tooltip of Filelink attachments, whose account has been
+# removed or is unknown.
+cloud-file-unknown-account-tooltip = Lähetetty tuntemattomalle Filelink-tilille.
 
 # Placeholder file
 
+# Title for the html placeholder file.
+# $filename - name of the file
+cloud-file-placeholder-title = { $filename } - Filelink-liite
+# A text describing that the file was attached as a Filelink and can be downloaded
+# from the link shown below.
+# $filename - name of the file
+cloud-file-placeholder-intro = Tiedosto { $filename } liitettiin Filelink-linkkinä. Sen voi ladata alla olevasta linkistä.
 
 # Template
 
@@ -307,6 +317,14 @@ cloud-file-service-provider-footer-single = Lue lisää { $link }ista.
 cloud-file-service-provider-footer-multiple = Lue lisää { $firstLink }ista ja { $lastLink }ista.
 # Tooltip for an icon, indicating that the link is protected by a password.
 cloud-file-tooltip-password-protected-link = Salasanasuojattu linkki
+# Used in a list of stats about a specific file
+# Service - the used service provider to host the file (Filelink Service: BOX.com)
+# Size - the size of the file (Size: 4.2 MB)
+# Link - the link to the file (Link: https://some.provider.com)
+# Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
+# Download Limit - stating the maximum allowed downloads, before the link becomes invalid
+#                  (Download Limit: 6)
+cloud-file-template-service-name = Filelink-palvelu:
 cloud-file-template-size = Koko:
 cloud-file-template-link = Linkki:
 cloud-file-template-password-protected-link = Salasanasuojattu linkki:
@@ -335,6 +353,14 @@ cloud-file-rename-error-with-custom-message-title = Tiedoston { $filename } uude
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-rename-not-supported = { $provider } ei tue jo ladattujen tiedostojen uudelleennimeämistä.
+cloud-file-attachment-error-title = Filelink-liitevirhe
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = Filelink-liitteen { $filename } päivittäminen epäonnistui, koska paikallinen tiedosto on siirretty tai poistettu.
+cloud-file-account-error-title = Filelink-tilivirhe
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-account-error = Filelink-liitteen { $filename } päivittäminen epäonnistui, koska sen Filelink-tili on poistettu.
 
 ## Link Preview
 

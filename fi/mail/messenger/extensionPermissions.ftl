@@ -21,3 +21,6 @@ webext-perms-description-compose-send = Lähetä sähköpostiviestejä puolestas
 webext-perms-description-experiment = Hanki täydellinen ja rajoittamattoman pääy { -brand-short-name }iin ja tietokoneellesi
 webext-perms-description-messagesImport = Tuo viestit Thunderbirdiin
 webext-perms-description-messagesModify = Lue ja muokkaa sähköpostiviestejä, kun niitä näytetään sinulle
+webext-perms-description-messagesDelete = Poista sähköpostiviestisi pysyvästi
+webext-perms-description-messagesRead2 = Lue sähköpostiviestisi
+webext-perms-description-messengerSettings = Lue { -brand-short-name }in asetukset
