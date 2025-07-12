@@ -220,6 +220,9 @@ about-addressbook-confirm-delete-contacts-title =
        *[other] Kkes inermisen
     }
 # Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Triḍ ad tekseḍ anermis { $name }?
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-multi =
     { $count ->
