@@ -100,6 +100,7 @@ account-hub-address-book-bind-dn = Connecter se con DN
 account-hub-ldap-form = Connecter se a un directorio LDAP
 account-hub-advanced-configuration-button = Configuration avantiate
 account-hub-ldap-ssl-toggle-label = Usar connexion secur (SSL)
+account-hub-max-results-label = Maxime resultatos
 account-hub-max-results-error-text = Insere un numero major que 0
 account-hub-address-book-scope-label = Ambito
 account-hub-address-book-scope-level-one-label =
