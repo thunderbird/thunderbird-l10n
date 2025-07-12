@@ -275,6 +275,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Перенаправить
+other-action-copy-message-link =
+    .label = Копировать ссылку на сообщение
+other-action-copy-news-link =
+    .label = Копировать ссылку на новость
 message-header-msg-flagged =
     .title = Отмечено звёздочкой
     .aria-label = Отмечено звёздочкой
