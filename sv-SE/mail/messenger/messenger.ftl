@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Omdirigera
+other-action-copy-message-link =
+    .label = Kopiera meddelandelänk
+other-action-copy-news-link =
+    .label = Kopiera länk till nyhetsbrev
 message-header-msg-flagged =
     .title = Stjärnmärkt
     .aria-label = Stjärnmärkt
