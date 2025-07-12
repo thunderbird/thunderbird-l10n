@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Re-diriger
+other-action-copy-message-link =
+    .label = Copiar le ligamine de message
+other-action-copy-news-link =
+    .label = Copiar ligamine de novas
 message-header-msg-flagged =
     .title = Stellate
     .aria-label = Stellate
