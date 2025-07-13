@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Ανακατεύθυνση
+other-action-copy-message-link =
+    .label = Αντιγραφή συνδέσμου μηνύματος
+other-action-copy-news-link =
+    .label = Αντιγραφή συνδέσμου συζητήσεων
 message-header-msg-flagged =
     .title = Με αστέρι
     .aria-label = Με αστέρι
