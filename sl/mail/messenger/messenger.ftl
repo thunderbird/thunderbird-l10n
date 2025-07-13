@@ -279,6 +279,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Preusmeri
+other-action-copy-message-link =
+    .label = Kopiraj povezavo sporočila
+other-action-copy-news-link =
+    .label = Kopiraj povezavo novice
 message-header-msg-flagged =
     .title = Označeno z zvezdico
     .aria-label = Označeno z zvezdico
