@@ -346,6 +346,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Núverandi uppsetning þín notar lykil með auðkennið <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Fyrirliggjandi uppsetning þín notar lykilinn <b>{ $key }</b>, sem rennur út { $when }. Til að halda lyklinum gildum skaltu íhuga að framlengja gildistíma hans núna.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Núverandi uppsetning þín notar lykilinn <b>{ $key }</b>, sem er útrunninn.
 openpgp-add-key-button =
     .label = Bæta við lykli...

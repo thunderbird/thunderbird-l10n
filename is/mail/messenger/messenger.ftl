@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Endurbeina
+other-action-copy-message-link =
+    .label = Afrita tengil skilaboða
+other-action-copy-news-link =
+    .label = Afrita fréttatengil
 message-header-msg-flagged =
     .title = Stjörnumerkt
     .aria-label = Stjörnumerkt
