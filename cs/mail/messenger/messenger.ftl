@@ -276,6 +276,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Přesměrovat
+other-action-copy-message-link =
+    .label = Kopírovat odkaz na zprávu
+other-action-copy-news-link =
+    .label = Kopírovat odkaz na příspěvek
 message-header-msg-flagged =
     .title = S hvězdičkou
     .aria-label = Označeno hvězdičkou

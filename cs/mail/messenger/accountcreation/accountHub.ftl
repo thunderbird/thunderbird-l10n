@@ -88,6 +88,7 @@ account-hub-auth-label = Způsob autentizace
 account-hub-username-label = Uživatelské jméno
 account-hub-username-warning-icon = Uživatelské jméno je vyžadováno
 account-hub-address-book-username-error-text = Zadejte prosím uživatelské jméno
+account-hub-server-label = Adresa URL/název hostitele
 account-hub-server-warning-icon = Neplatná URL adresa
 account-hub-server-error-text = Vložte prosím platnou adresu
 account-hub-address-book-enter-password = Zadejte heslo ke svému CardDav účtu
