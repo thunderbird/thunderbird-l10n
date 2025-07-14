@@ -88,6 +88,8 @@ account-hub-auth-label = Metoda uwierzytelniania
 account-hub-username-label = Nazwa użytkownika
 account-hub-username-warning-icon = Nazwa użytkownika jest wymagana
 account-hub-address-book-username-error-text = Proszę podać nazwę użytkownika
+account-hub-server-label = Adres URL/nazwa hosta
+account-hub-server-tip = Thunderbird spróbuje automatycznie wykryć nazwę hosta
 account-hub-server-warning-icon = Nieprawidłowy adres URL
 account-hub-server-error-text = Proszę wprowadzić prawidłowy adres URL
 account-hub-address-book-enter-password = Wpisz hasło do konta CardDAV
@@ -95,11 +97,19 @@ account-hub-address-book-name-label = Nazwa
 account-hub-address-book-name-error-text = Proszę podać nazwę
 account-hub-address-book-base-dn = Bazowy DN
 account-hub-address-book-bind-dn = Serwer Bind DN
+account-hub-ldap-form = Połącz z katalogiem LDAP
 account-hub-advanced-configuration-button = Konfiguracja zaawansowana
 account-hub-ldap-ssl-toggle-label = Użyj szyfrowanego połączenia (SSL)
+account-hub-max-results-label = Maksymalna liczba wyników
 account-hub-max-results-error-text = Proszę podać liczbę większą od zera
 account-hub-address-book-scope-label = Zakres
+account-hub-address-book-scope-level-one-label =
+    .label = jeden poziom
+account-hub-address-book-scope-subtree-label =
+    .label = wszystkie poziomy
 account-hub-address-book-login-method-label = Metoda uwierzytelniania
+account-hub-address-book-login-simple-label =
+    .label = Prosta
 account-hub-address-book-search-label = Filtr wyszukiwania
 account-hub-simple-configuration-button = Prosta konfiguracja
 account-hub-result-username-label = Nazwa użytkownika
@@ -173,12 +183,48 @@ address-book-sync-existing = Synchronizuj z istniejącego konta
 address-book-add-remote-icon =
     .alt = Dodaj nową zdalną książkę adresową
 address-book-add-remote = Dodaj zdalną książkę adresową
+address-book-add-remote-description = Połącz ze zdalną książką adresową CardDAV
 address-book-add-local-icon =
     .alt = Utwórz nową lokalną książkę adresową
 address-book-add-local = Nowa lokalna książka adresowa
+address-book-add-local-description = Utwórz nową lokalną książkę adresową na urządzeniu
+address-book-add-ldap-icon =
+    .alt = Połącz ze zdalną książką adresową LDAP
 address-book-add-ldap = Nowa książka adresowa LDAP
+address-book-add-ldap-description = Połącz ze zdalną książką adresową LDAP
 account-hub-fetching-sync-accounts = Wykrywanie książek adresowych i kalendarzy…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] Dostępna jest 1 książka adresowa z 1 konta
+                [few] Dostępna jest 1 książka adresowa z { $accounts } kont
+               *[many] Dostępna jest 1 książka adresowa z { $accounts } kont
+            }
+        [few]
+            { $accounts ->
+                [one] Dostępne są { $addressBooks } książki adresowe z 1 konta
+                [few] Dostępne są { $addressBooks } książki adresowe z { $accounts } kont
+               *[many] Dostępne są { $addressBooks } książki adresowe z { $accounts } kont
+            }
+       *[many]
+            { $accounts ->
+                [one] Dostępnych jest { $addressBooks } książek adresowych z 1 konta
+                [few] Dostępnych jest { $addressBooks } książek adresowych z { $accounts } kont
+               *[many] Dostępnych jest { $addressBooks } książek adresowych z { $accounts } kont
+            }
+    }
+address-book-sync-existing-description = Pobieranie istniejących kont…
 account-hub-select-address-book-account = Wybierz konto z książkami adresowymi
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } z { $total }
+    .title = Zsynchronizowane książki adresowe: { $synced }, dostępne: { $available }
 account-hub-add-local-address-book = Utwórz lokalną książkę adresową
 account-hub-local-address-book-label = Nazwa książki adresowej
+account-hub-local-error-text = Podaj nazwę książki adresowej
+account-hub-sync-address-books = Synchronizuj istniejące książki adresowe
 account-hub-new-remote-address-book = Nowa zdalna książka adresowa
