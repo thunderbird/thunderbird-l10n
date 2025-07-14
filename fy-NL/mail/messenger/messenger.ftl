@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Omliede
+other-action-copy-message-link =
+    .label = Berjochtkeppeling kopiearje
+other-action-copy-news-link =
+    .label = Nijskeppeling kopiearje
 message-header-msg-flagged =
     .title = Mei stjer
     .aria-label = Mei stjer
