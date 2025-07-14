@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Niewinność">
 <!ENTITY smiley15Cmd.label "Płacz">
 <!ENTITY smiley16Cmd.label "Nic nie powiem">
+<!ENTITY smiley17Cmd.label "Zły">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Nie znaleziono sugestii dla słowa">
 <!ENTITY spellCheckIgnoreWord.label "Ignoruj słowo">
