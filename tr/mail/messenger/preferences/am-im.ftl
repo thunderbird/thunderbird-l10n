@@ -16,6 +16,7 @@ chat-encryption-description = { $protocol } sohbet iletileri için uçtan uca ş
 chat-encryption-status = Şifreleme durumu
 chat-encryption-placeholder = Şifreleme başlatılmadı.
 chat-encryption-sessions = Oturumlar
+chat-encryption-sessions-description = Uçtan uca şifrelemenin doğru çalışabilmesi için hesabınıza giriş yaptığınız diğer oturumlara da güvenmelisiniz. Bir oturumun doğrulanması için diğer istemciyle etkileşim kurulması gerekir. Bir oturumu doğrulamanız, o oturumun güvendiği tüm oturumlara { -brand-short-name } uygulamasının da güvenmesine sebep olabilir.
 chat-encryption-session-verify = doğrula
     .title = Bu oturumun kimliğini doğrula
 chat-encryption-session-trusted = güvenilir
