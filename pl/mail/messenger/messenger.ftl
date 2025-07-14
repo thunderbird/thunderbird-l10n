@@ -268,6 +268,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Przekieruj
+other-action-copy-message-link =
+    .label = Kopiuj odnośnik do wiadomości
+other-action-copy-news-link =
+    .label = Kopiuj odnośnik do grupy dyskusyjnej
 message-header-msg-flagged =
     .title = Z gwiazdką
     .aria-label = Z gwiazdką
@@ -478,3 +482,4 @@ mark-as-read-action = Oznacz jako przeczytaną
 delete-action = Usuń
 mark-as-starred-action = Oznacz gwiazdką
 mark-as-spam-action = Oznacz jako spam
+archive-action = Archiwizuj

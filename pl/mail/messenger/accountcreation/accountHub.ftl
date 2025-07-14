@@ -181,3 +181,4 @@ account-hub-fetching-sync-accounts = Wykrywanie książek adresowych i kalendar
 account-hub-select-address-book-account = Wybierz konto z książkami adresowymi
 account-hub-add-local-address-book = Utwórz lokalną książkę adresową
 account-hub-local-address-book-label = Nazwa książki adresowej
+account-hub-new-remote-address-book = Nowa zdalna książka adresowa
