@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Omleiden
+other-action-copy-message-link =
+    .label = Berichtkoppeling kopiëren
+other-action-copy-news-link =
+    .label = Nieuwskoppeling kopiëren
 message-header-msg-flagged =
     .title = Met ster
     .aria-label = Met ster

@@ -100,6 +100,7 @@ account-hub-address-book-bind-dn = Bind-DN
 account-hub-ldap-form = Ferbining meitsje mei in LDAP-directory
 account-hub-advanced-configuration-button = Wiidweidige konfiguraasje
 account-hub-ldap-ssl-toggle-label = Befeilige ferbining (SSL) brûke
+account-hub-max-results-label = Maks. resultaten
 account-hub-result-username-label = Brûkersnamme
     .title = Brûkersnamme
 account-hub-name-label = Folsleine namme
