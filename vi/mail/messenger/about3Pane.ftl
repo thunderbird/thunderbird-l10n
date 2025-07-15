@@ -459,3 +459,8 @@ message-list-placeholder-multiple-folders = Đã chọn nhiều thư mục
 folder-pane-context-mark-folder-read =
     .label = Đánh dấu thư mục là đã đọc
     .accesskey = k
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = Đặt lại thứ tự thư mục
+    .accesskey = R
