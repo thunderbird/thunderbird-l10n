@@ -140,7 +140,17 @@ command-kick = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Kast ut brukare
 # $commandName is the command name
 command-nick = { $commandName } &lt;display_name&gt;: Endre visingsnamnet ditt.
 # $commandName is the command name
+command-op = { $commandName } &lt;userId&gt; [&lt;brukarnivå&gt;]: Definer brukarnivået til brukaren. Skriv inn ein heiltalsverdi, Brukar: 0, Moderator: 50 og Admin: 100. Standard vil vere 50 viss ingen argument er oppgitte. Krev løyve for å endre medlemmars brukarnivå. Fungerer ikkje på andre administratorar enn deg sjølv.
+# $commandName is the command name
+command-deop = { $commandName } &lt;userId&gt;: Tilbakestill brukaren til brukarnivå 0 (Brukar). Krev løyve for å endre brukarnivået til medlemmen. Fungerer ikkje på andre administratorar enn deg sjølv.
+# $commandName is the command name
 command-leave = { $commandName }: Forlat dette rommet.
+# $commandName is the command name
+command-topic = { $commandName } &lt;topic&gt;: Spesifiser emnet for rommet. Krev løyve for å endre romemnet.
+# $commandName is the command name
+command-unban = { $commandName } &lt;userId&gt;: Opphev utestenginga av ein brukar som er utestengd frå rommet. Krev løyve til å stengje ute brukarar.
+# $commandName is the command name
+command-visibility = { $commandName } [&lt;visibility&gt;]: Spesifiser synlegheita til det gjeldande rommet i romkatalogen til den gjeldande heimeserveren. Skriv inn ein heiltalverdi, Privat: 0 og Offentlig: 1. Standardverdien vil vere Privat (0) viss ingen argument blir oppgitte. Krev løyve for å endre romsynlegheit.
 # $commandName is the command name
 command-detail = { $commandName }: Vis detaljane for rommet.
 # LOCALIZATION NOTE (message-*):
