@@ -331,6 +331,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Cấu hình hiện tại của bạn sử dụng ID khóa <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Cấu hình hiện tại của bạn sử dụng khóa <b>{ $key }</b>, sẽ hết hạn và { $when }. Để giữ cho khóa có hiệu lực, vui lòng cân nhắc gia hạn ngày hết hạn của khóa ngay bây giờ.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Cấu hình hiện tại của bạn sử dụng khóa <b>{ $key }</b>, khóa này đã hết hạn.
 openpgp-add-key-button =
     .label = Thêm khóa…
@@ -393,17 +396,11 @@ key-verification = Xác minh dấu vân tay của khóa bằng kênh liên lạc
 cannot-use-own-key-because = Không thể gửi tin nhắn vì có sự cố với khóa cá nhân của bạn. { $problem }
 window-locked = Cửa sổ soạn thảo bị khóa; đã hủy gửi
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Đã hủy
 keyserver-error-unknown = Đã có lỗi xảy ra
 keyserver-error-import-error = Không thể nhập khóa đã tải xuống.
-
-## Strings in mimeWkdHandler.jsm
-
 
 ## Strings in mimeWkdHandler.sys.mjs
 
@@ -414,9 +411,6 @@ wkd-message-body-process =
     Đây là email liên quan đến quá trình xử lý tự động để tải khóa công khai của bạn lên Thư mục khóa web OpenPGP.
     Bạn không cần phải thực hiện bất kỳ thao tác thủ công nào tại thời điểm này.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -425,9 +419,6 @@ converter-decrypt-body-failed =
     Không thể giải mã thư có chủ đề
     { $subject }.
     Bạn muốn thử lại bằng một cụm mật khẩu khác hay bạn muốn bỏ qua tin nhắn?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -445,9 +436,6 @@ filter-key-not-found = Không thể tìm thấy khóa mã hóa cho ‘{ $desc }�
 filter-warn-key-not-secret =
     Cảnh báo - hành động bộ lọc “Mã hóa thành khóa” thay thế người nhận.
     Nếu bạn không có khóa bí mật cho ‘{ $desc }’, bạn sẽ không thể đọc email được nữa.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -514,12 +502,6 @@ openpgp-export-public-fail = <b>Không thể xuất khóa công khai đã chọn
 openpgp-export-secret-success = <b>Đã xuất khóa bí mật!</b>
 openpgp-export-secret-fail = <b>Không thể xuất khóa bí mật đã chọn!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -533,16 +515,10 @@ key-ring-pub-key-not-for-encryption = Không thể sử dụng khóa { $userId }
 key-ring-enc-sub-keys-revoked = Tất cả các khóa mã hóa con của khóa { $userId } (ID khóa { $keyId }) đã bị thu hồi.
 key-ring-enc-sub-keys-expired = Tất cả các khóa mã hóa con của khóa { $userId } (ID khóa { $keyId }) đã hết hạn.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Hình ảnh
 user-att-photo = Thuộc tính người dùng (hình ảnh JPEG)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -562,9 +538,6 @@ after-revoke-info =
     Ngay sau khi phần mềm được người khác sử dụng biết về việc thu hồi, nó sẽ ngừng sử dụng khóa cũ của bạn.
     Nếu bạn đang sử dụng khóa mới cho cùng một địa chỉ email và bạn đính kèm khóa công khai mới vào các email bạn gửi, thì thông tin về khóa cũ đã thu hồi của bạn sẽ tự động được đưa vào.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = Nhập (&I)
@@ -573,37 +546,19 @@ key-in-use-title = Khóa OpenPGP hiện đang được sử dụng
 delete-key-in-use-description = Không thể tiếp tục! Chìa khóa bạn đã chọn để xóa hiện đang được sử dụng bởi danh tính này. Chọn một khóa khác hoặc chọn không có khóa nào và thử lại.
 revoke-key-in-use-description = Không thể tiếp tục! Chìa khóa bạn đã chọn để thu hồi hiện đang được sử dụng bởi danh tính này. Chọn một khóa khác hoặc chọn không có khóa nào và thử lại.
 
-## Strings used in errorHandling.jsm
-
-
 ## Strings used in errorHandling.sys.mjs
 
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Bạn chưa xác nhận rằng khóa có ID ‘{ $keySpec }’ là khóa cá nhân của bạn.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Chức năng bạn đã chọn không khả dụng ở chế độ ngoại tuyến. Vui lòng truy cập trực tuyến và thử lại.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Chúng tôi không thể tìm thấy bất kỳ khóa có thể sử dụng nào phù hợp với tiêu chí tìm kiếm được chỉ định.
 no-update-found = Bạn đã có các khóa được phát hiện trực tuyến.
-
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
-## Strings used in keyRing.sys.mjs
-
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -728,9 +683,6 @@ cannot-send-sig-because-no-own-key = Không thể ký điện tử thông báo n
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Không thể gửi thư đã mã hóa này vì bạn chưa định cấu hình mã hóa đầy cuối cho <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -754,15 +706,9 @@ attachment-pgp-key =
     Nhấp vào 'Nhập' để nhập các khóa có trong hoặc 'Xem' để xem nội dung tập tin trong cửa sổ trình duyệt
 dlg-button-view = &Xem
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Lỗi - không cần mã hóa
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -772,9 +718,6 @@ no-photo-available = Không có sẵn ảnh
 error-photo-path-not-readable = Không thể đọc đường dẫn ảnh ‘{ $photo }’
 debug-log-title = Nhật ký gỡ lỗi OpenPGP
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &OK
@@ -783,9 +726,6 @@ dlg-button-cancel = &Hủy bỏ
 dlg-no-prompt = Không hiện lại hộp thoại này
 enig-prompt = Lời nhắc OpenPGP
 enig-confirm = Xác nhận OpenPGP
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 
