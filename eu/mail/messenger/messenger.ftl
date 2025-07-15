@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Birbideratzea
+other-action-copy-message-link =
+    .label = Kopiatu mezu lotura
+other-action-copy-news-link =
+    .label = Kopiatu berrien lotura
 message-header-msg-flagged =
     .title = Izarduna
     .aria-label = I
