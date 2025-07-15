@@ -251,6 +251,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Chuyển hướng
+other-action-copy-message-link =
+    .label = Sao chép liên kết thư
+other-action-copy-news-link =
+    .label = Sao chép liên kết tin tức
 message-header-msg-flagged =
     .title = Gắn sao
     .aria-label = Gắn sao
