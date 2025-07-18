@@ -16,15 +16,6 @@ account-hub-welcome-line = Donemat e <span data-l10n-name="brand-name">{ -brand-
 
 account-hub-release-notes = Notennoù handelv
 
-## Initial setup page
-
-
 ## Email page
 
 account-hub-email-cancel-button = Dilezel
-
-## Incoming/Outgoing SSL Authentication options
-
-
-## Incoming/Outgoing SSL options
-

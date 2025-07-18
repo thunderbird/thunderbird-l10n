@@ -44,9 +44,3 @@ account-hub-email-cancel-button = Sguir dheth
 account-hub-email-back-button = Air ais
 account-hub-email-continue-button = Lean air adhart
 account-hub-email-confirm-button = Dearbh
-
-## Incoming/Outgoing SSL Authentication options
-
-
-## Incoming/Outgoing SSL options
-

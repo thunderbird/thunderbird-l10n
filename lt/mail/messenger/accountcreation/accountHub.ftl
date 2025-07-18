@@ -29,12 +29,3 @@ account-hub-address-book-setup-button = Adresų knyga
     .title = Sukurti vietinę arba nutolusią adresų knygą
 account-hub-chat-setup-button = Pokalbiai
     .title = Sukurti pokalbių paskyrą
-
-## Email page
-
-
-## Incoming/Outgoing SSL Authentication options
-
-
-## Incoming/Outgoing SSL options
-
