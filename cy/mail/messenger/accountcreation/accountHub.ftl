@@ -112,6 +112,10 @@ account-hub-address-book-login-simple-label =
     .label = Syml
 account-hub-address-book-search-label = Hidlydd chwilio
 account-hub-simple-configuration-button = Ffurfweddiad Syml
+address-book-finding-remote-address-books = Chwilio am lyfrau cyfeiriadau…
+# $url (String) - URL of CardDAV endpoint we don't support.
+address-book-carddav-known-incompatible = Mae'n hysbys bod { $url } yn anghydnaws â { -brand-short-name }.
+address-book-carddav-connection-error = Methu cysylltu.
 account-hub-result-username-label = Enw Defnyddiwr
     .title = Enw Defnyddiwr
 account-hub-name-label = Enw llawn
