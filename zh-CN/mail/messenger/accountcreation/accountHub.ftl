@@ -109,6 +109,10 @@ account-hub-address-book-login-method-label = 登录方式
 account-hub-address-book-login-simple-label =
     .label = 简单
 account-hub-simple-configuration-button = 简单配置
+address-book-finding-remote-address-books = 正在搜索通讯录…
+# $url (String) - URL of CardDAV endpoint we don't support.
+address-book-carddav-known-incompatible = { $url } 与 { -brand-short-name } 已知不兼容。
+address-book-carddav-connection-error = 连接失败。
 account-hub-result-username-label = 用户名
     .title = 用户名
 account-hub-name-label = 全名
