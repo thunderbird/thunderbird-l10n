@@ -112,6 +112,10 @@ account-hub-address-book-login-simple-label =
     .label = Jednore
 account-hub-address-book-search-label = Pytanski filter
 account-hub-simple-configuration-button = Jednora konfiguracija
+address-book-finding-remote-address-books = Adresniki so pytaja …
+# $url (String) - URL of CardDAV endpoint we don't support.
+address-book-carddav-known-incompatible = { $url } je za to znaty, zo je inkompatibelny z { -brand-short-name }.
+address-book-carddav-connection-error = Zwisk móžny njeje.
 account-hub-result-username-label = Wužiwarske mjeno
     .title = Wužiwarske mjeno
 account-hub-name-label = Dospołne mjeno
