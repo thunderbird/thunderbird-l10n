@@ -5,7 +5,7 @@
 <!ENTITY wizard.title "创建新日历">
 <!ENTITY wizard.label "创建一个新日历">
 <!ENTITY wizard.description "定位您的日历">
-<!ENTITY initialpage.description "您的日历可以保存在您的电脑上，或者是可远程存取的服务器上，或者是与朋友或合作者共享的服务器上。">
+<!ENTITY initialpage.description "您的日历可以保存在您的电脑上，或者是可远程访问的服务器上，或者是与朋友或合作者共享的服务器上。">
 <!ENTITY initialpage.computer.label "保存在我的电脑中">
 <!ENTITY initialpage.network.label "保存在网络上">
 <!ENTITY locationpage.description "提供为访问您的远程日历所必需的信息">
