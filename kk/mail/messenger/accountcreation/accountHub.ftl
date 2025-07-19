@@ -88,6 +88,7 @@ account-hub-auth-label = Аутентификация тәсілі
 account-hub-username-label = Пайдаланушы аты
 account-hub-username-warning-icon = Пайдаланушы аты керек
 account-hub-address-book-username-error-text = Пайдаланушы атын енгізіңіз
+account-hub-server-label = URL/хост аты
 account-hub-result-username-label = Пайдаланушы аты
     .title = Пайдаланушы аты
 account-hub-name-label = Толық аты
