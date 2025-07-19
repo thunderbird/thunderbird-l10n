@@ -92,6 +92,7 @@ account-hub-server-label = URL/хост аты
 account-hub-server-tip = Thunderbird хост атауын автоматты түрде анықтауға тырысады
 account-hub-server-warning-icon = Жарамсыз URL
 account-hub-server-error-text = Жарамды URL енгізіңіз
+account-hub-address-book-name-label = Аты
 account-hub-result-username-label = Пайдаланушы аты
     .title = Пайдаланушы аты
 account-hub-name-label = Толық аты
