@@ -266,6 +266,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Қайта бағдарлау
+other-action-copy-message-link =
+    .label = Хабарлама сілтемесін көшіріп алу
+other-action-copy-news-link =
+    .label = Жаңалықтар сілтемесін көшіру
 message-header-msg-flagged =
     .title = Жұлдызша қойылған
     .aria-label = Жұлдызша қойылған

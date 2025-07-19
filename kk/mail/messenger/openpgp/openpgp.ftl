@@ -343,6 +343,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Сіздің ағымдағы конфигурацияңыз <b>{ $key }</b> кілт идентификаторын пайдаланады
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Сіздің ағымдағы конфигурацияңыз мерзімі { $when } аяқталатын <b>{ $key }</b> кілтін пайдаланады . Кілтті жарамды етіп сақтау үшін кілттің жарамдылық мерзімін қазір ұзарту мүмкіндігін қарастырыңыз.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Сіздің ағымдағы конфигурацияңыз мерзімі өтіп кеткен <b>{ $key }</b> кілтін пайдаланады.
 openpgp-add-key-button =
     .label = Кілтті қосу…
@@ -412,9 +415,6 @@ key-verification = Кілт баспасын эл. поштадан басқа �
 cannot-use-own-key-because = Хабарламаны жіберу мүмкін емес, себебі сіздің жеке кілтіңізде мәселе бар. { $problem }
 window-locked = Жазу терезесі құлыпталған; жіберу тоқтатылды
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Үзілген
@@ -426,9 +426,6 @@ keyserver-error-security-error = Кілттер сервері шифрленг�
 keyserver-error-certificate-error = Кілттер серверінің сертификаты жарамсыз.
 keyserver-error-unsupported = Кілnтth серверіне қолдау жоқ.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -438,9 +435,6 @@ wkd-message-body-process =
     Бұл OpenPGP веб-кілттер каталогына ашық кілтті жүктеп салу үшін автоматты өңдеуге қатысты эл. пошта.
     Қазір қолмен ешқандай әрекет жасаудың қажеті жоқ.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -449,9 +443,6 @@ converter-decrypt-body-failed =
     Тақырыбы келесідей болатын хабарламаны дешифрлеу мүмкін емес:
     { $subject }.
     Басқа кілттік фразамен әрекетті қайталау керек пе, немесе хабарламаны өткізіп жіберу керек пе?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -469,9 +460,6 @@ filter-key-not-found = ‘{ $desc }’ үшін шифрлеу кілті таб
 filter-warn-key-not-secret =
     Ескерту - "Кілтпен шифрлеу" сүзгі әрекеті алушыларды ауыстырады.
     Егер сізде "{ $desc }" үшін құпия кілті болмаса, сіз эл. пошта хабарламаларын оқи алмайтын боласыз.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -544,12 +532,6 @@ openpgp-export-public-fail = <b>Таңдалған ашық кілтті экс�
 openpgp-export-secret-success = <b>Жеке кілт сәтті экспортталды!</b>
 openpgp-export-secret-fail = <b>Таңдалған жеке кілтті экспорттау мүмкін емес!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -565,16 +547,10 @@ key-ring-sign-sub-keys-expired = { $userId } кілті (кілт идентиф
 key-ring-enc-sub-keys-revoked = { $userId } кілті (кілт идентификаторы { $keyId }) үшін барлық шифрлейтін ішкі кілттері қайта шақырылған.
 key-ring-enc-sub-keys-expired = { $userId } кілті (кілт идентификаторы { $keyId }) үшін барлық шифрлейтін ішкі кілттерінің мерзімі аяқталған.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Фото
 user-att-photo = Пайдаланушы атрибуты (JPEG суреті)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -598,9 +574,6 @@ after-revoke-info =
     Басқа адамдар пайдаланатын бағдарламалық қамтама қайта шақыру туралы білген кезде ол ескі кілтті пайдалануды тоқтатады.
     Егер сіз дәл сол эл. пошта адресі үшін жаңа кілтті пайдалансаңыз және сіз жіберген эл. пошталарға жаңа ашық кілтті тіркесеңіз, қайта шақырылған ескі кілт туралы ақпарат автоматты түрде қосылады.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Импорттау
@@ -610,9 +583,6 @@ delete-external-key-description = Осы сыртқы GnuPG кілт идент�
 key-in-use-title = OpenPGP кілті қазір қолданылуда
 delete-key-in-use-description = Жалғастыру мүмкін емес! Өшіру үшін таңдалған кілт қазір осы тіркелгімен пайдаланылуда. Басқа кілтті таңдаңыз немесе ешқайсысын таңдамай, әрекетті қайталаңыз.
 revoke-key-in-use-description = Жалғастыру мүмкін емес! Қайта шақыру үшін таңдалған кілт қазір осы тіркелгімен пайдаланылуда. Басқа кілтті таңдаңыз немесе ешқайсысын таңдамай, әрекетті қайталаңыз.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -624,30 +594,18 @@ key-error-key-id-not-found = "{ $keySpec }" бапталған кілт иден
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Сіз "{ $keySpec }" идентификаторы бар кілт сіздің жеке кілтіңіз екенін растаған жоқсыз.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Сіз таңдаған функция желіден тыс режимде қолжетімді емес. Желіге кіріп, әрекетті қайталаңыз.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Көрсетілген іздеу шарттарына сәйкес келетін қолдануға болатын ешбір кілт табылмады.
 no-update-found = Онлайн табылған кілттер сізде бар болып тұр.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Қате - кілтті шығару командасы сәтсіз аяқталды
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -781,9 +739,6 @@ cannot-send-sig-because-no-own-key = Бұл хабарламаға цифрлы�
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Бұл хабарламаны шифрленген түрде жіберу мүмкін емес, себебі сіз <{ $key }> кілті үшін өтпелі шифрлеуді әлі баптаған жоқсыз
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -807,15 +762,9 @@ attachment-pgp-key =
     Құрамындағы кілттерді импорттау үшін "Импорттау" батырмасын немесе браузер терезесінде файл мазмұнын қарау үшін "Қарау" батырмасын басыңыз.
 dlg-button-view = Қа&рау
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Қате – дешифрлеу керек емес
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -825,9 +774,6 @@ no-photo-available = Қолжетімді фото жоқ
 error-photo-path-not-readable = "{ $photo }" фото орналасуын оқу мүмкін емес
 debug-log-title = OpenPGP жөндеу журналы
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &ОК
@@ -836,9 +782,6 @@ dlg-button-cancel = Ба&с тарту
 dlg-no-prompt = Осы сұхбат терезесін маған келесі ретте көрсетпеу
 enig-prompt = OpenPGP сұрауы
 enig-confirm = OpenPGP растауы
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 
