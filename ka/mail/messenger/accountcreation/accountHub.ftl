@@ -112,6 +112,10 @@ account-hub-address-book-login-simple-label =
     .label = მარტივი
 account-hub-address-book-search-label = ძიების ფილტრი
 account-hub-simple-configuration-button = მარტივი გამართვა
+address-book-finding-remote-address-books = მისამართების წიგნაკების ძიება…
+# $url (String) - URL of CardDAV endpoint we don't support.
+address-book-carddav-known-incompatible = ცნობილია, რომ { $url } და { -brand-short-name } შეუთავსებლებია.
+address-book-carddav-connection-error = დაკავშირება ვერ მოხერხდა.
 account-hub-result-username-label = მეტსახელი
     .title = მეტსახელი
 account-hub-name-label = სრული სახელი
