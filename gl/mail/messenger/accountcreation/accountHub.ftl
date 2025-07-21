@@ -112,6 +112,7 @@ account-hub-address-book-login-simple-label =
     .label = Simple
 account-hub-address-book-search-label = Filtro de busca
 account-hub-simple-configuration-button = Configuración simple
+address-book-finding-remote-address-books = Buscando axendas de enderezos...
 account-hub-result-username-label = Nome de usuario
     .title = Nome de usuario
 account-hub-name-label = Nome completo
