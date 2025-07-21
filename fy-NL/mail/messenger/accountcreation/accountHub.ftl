@@ -112,6 +112,10 @@ account-hub-address-book-login-simple-label =
     .label = Ienfâldich
 account-hub-address-book-search-label = Sykfilter
 account-hub-simple-configuration-button = Ienfâldige konfiguraasje
+address-book-finding-remote-address-books = Sykje nei adresboeken…
+# $url (String) - URL of CardDAV endpoint we don't support.
+address-book-carddav-known-incompatible = Fan { $url } is bekend dat it net kompatibel is mei { -brand-short-name }.
+address-book-carddav-connection-error = Ferbining meitsje mislearre.
 account-hub-result-username-label = Brûkersnamme
     .title = Brûkersnamme
 account-hub-name-label = Folsleine namme
