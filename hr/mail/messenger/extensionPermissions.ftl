@@ -6,11 +6,6 @@
 ## Extension permission description keys are derived from permission names.
 ## Permissions for which the message has been changed and the key updated
 ## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
-
-
-## Extension permission description keys are derived from permission names.
-## Permissions for which the message has been changed and the key updated
-## must have a corresponding entry in the `PERMISSION_L10N_ID_OVERRIDES` map.
 ## All localized permissions have to be added to the `PERMISSIONS_WITH_MESSAGE`
 ## map. Both maps are populated in mail/modules/ExtensionsUI.sys.mjs.
 
@@ -21,6 +16,7 @@ webext-perms-description-addressBooks = Čitanje i uređivanje adresara i kontak
 webext-perms-description-compose = Čitaj i modificiraj svoje e-mail poruke tijekom pisanja i slanja
 webext-perms-description-compose-send = Šalje poruke e-pošte u vaše ime
 webext-perms-description-compose-save = Spremite sastavljene poruke e-pošte kao skice ili predloške
+webext-perms-description-experiment-access = Ovaj dodatak imat će potpuni, neograničeni pristup programu { -brand-short-name } i tvojem računalu.
 webext-perms-description-experiment = Imajte potpun, neograničen pristup { -brand-short-name } i vašem računalu.
 webext-perms-description-messagesImport = Uvoz poruka u Thunderbird
 webext-perms-description-messagesModify = Pročitajte i uređujte svoje poruke e-pošte kako se prikazuju

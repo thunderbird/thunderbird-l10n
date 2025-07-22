@@ -273,6 +273,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Preusmjeri
+other-action-copy-message-link =
+    .label = Kopiraj poveznicu za poruku
+other-action-copy-news-link =
+    .label = Kopiraj poveznicu za vijesti
 message-header-msg-flagged =
     .title = Zvjezdica
     .aria-label = Zvjezdica
@@ -480,3 +484,7 @@ quota-panel-percent-used = { $percent }% popunjeno
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Označi kao pročitano
+delete-action = Obriši
+mark-as-starred-action = Označi zvjezdicom
+mark-as-spam-action = Označi kao neželjena pošta
+archive-action = Arhiviraj

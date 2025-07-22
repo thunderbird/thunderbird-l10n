@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Nevin">
 <!ENTITY smiley15Cmd.label "Plač">
 <!ENTITY smiley16Cmd.label "Neću ništa reći">
+<!ENTITY smiley17Cmd.label "Ljuto">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Prijedlog nije pronađen">
 <!ENTITY spellCheckIgnoreWord.label "Ignoriraj riječ">
