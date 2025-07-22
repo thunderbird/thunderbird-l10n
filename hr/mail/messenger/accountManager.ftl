@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = Odustani
 account-manager-server-default-icon =
     .title = Zadani račun
     .alt = Ikona zvjezdice
+outgoing-server-section-name = Odlazni poslužitelj
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Postavke odlaznog poslužitelja
+outgoing-server-settings-description = Prilikom upravljanja vašim identitetima možete koristiti poslužitelj s ovog popisa odabirući ga kao Odlazni poslužitelj (SMTP), ili možete koristiti zadani poslužitelj s ovog popisa tako da odaberete “Koristi zadani poslužitelj”.
+outgoing-server-type = Vrsta poslužitelja:

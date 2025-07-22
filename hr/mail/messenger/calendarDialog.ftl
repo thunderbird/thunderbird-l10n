@@ -14,3 +14,18 @@ calendar-dialog-date-row-recurring-icon =
     .alt = Ponavljajući
 calendar-dialog-location-row-icon =
     .alt = Mjesto
+calendar-dialog-description-row-icon =
+    .alt = Opis
+calendar-dialog-description-label = Opis
+calendar-dialog-description-expand-icon =
+    .alt = Prikaži puni opis
+# Variables:
+#   $additionalCategories (Number): Number of categoires not shown.
+#   $categories (String): List of all categories.
+calendar-dialog-more-categories =
+    { $additionalCategories ->
+        [one] + još { $additionalCategories }
+        [few] + još { $additionalCategories }
+       *[other] + još { $additionalCategories }
+    }
+    .title = { $categories }
