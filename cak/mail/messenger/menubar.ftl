@@ -65,17 +65,11 @@ menu-quit-mac =
 quit-app-shortcut =
     .key = Q
 
-## Mail Toolbar
-
-
 ## View
 
 menu-view-repair-text-encoding =
     .label = Tichojmirisäx Rub'itz'ib' Tz'ib'anïk
     .accesskey = b
-
-## View / Folders
-
 
 ## View / Layout
 

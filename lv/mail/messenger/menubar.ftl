@@ -3,12 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Tools Menu
-
-
-## Help Menu
-
-
 ## Mail Toolbar
 
 toolbar-junk-button =
@@ -23,15 +17,3 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Atdzēst
     .tooltiptext = Atdzēst atlasītās vēstules
-
-## View
-
-
-## View / Folders
-
-
-## View / Layout
-
-
-## File
-

@@ -9,23 +9,8 @@ menu-addons-and-themes =
     .label = Հավելումներ և ոճեր
     .accesskey = A
 
-## Help Menu
-
-
-## Mail Toolbar
-
-
-## View
-
-
-## View / Folders
-
-
 ## View / Layout
 
 mail-uidensity-default =
     .label = Սկզբնադիր
     .accesskey = D
-
-## File
-

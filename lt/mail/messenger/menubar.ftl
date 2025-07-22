@@ -51,12 +51,6 @@ toolbar-undelete-button =
     .label = Atkurti
     .tooltiptext = Atkurti pasirinktą pranešimą
 
-## View
-
-
-## View / Folders
-
-
 ## View / Layout
 
 menu-font-size-label =
@@ -77,6 +71,3 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = Kompaktiškas
     .accesskey = K
-
-## File
-

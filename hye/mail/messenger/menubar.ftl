@@ -45,9 +45,6 @@ menu-view-repair-text-encoding =
     .label = Վերականգնել գրոյթի կոդաւորումը
     .accesskey = ց
 
-## View / Folders
-
-
 ## View / Layout
 
 menu-font-size-label =

@@ -42,9 +42,6 @@ menu-view-repair-text-encoding =
     .label = תיקון קידוד טקסט
     .accesskey = ת
 
-## View / Folders
-
-
 ## View / Layout
 
 mail-uidensity-label =
@@ -53,6 +50,3 @@ mail-uidensity-label =
 mail-uidensity-compact =
     .label = צפופה
     .accesskey = צ
-
-## File
-

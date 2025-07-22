@@ -27,20 +27,8 @@ menu-quit =
 menu-quit-mac =
     .label = Kuitaat { -brand-shorter-name }
 
-## Mail Toolbar
-
-
-## View
-
-
-## View / Folders
-
-
 ## View / Layout
 
 menu-spaces-toolbar-button =
     .label = Barrenn ar Spasoù
     .accesskey = S
-
-## File
-

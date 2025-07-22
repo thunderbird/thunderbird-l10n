@@ -101,9 +101,6 @@ menu-view-repair-text-encoding =
     .label = Reparer tekstkoding
     .accesskey = k
 
-## View / Folders
-
-
 ## View / Layout
 
 menu-font-size-label =
