@@ -112,6 +112,10 @@ account-hub-address-book-login-simple-label =
     .label = Egyszerű
 account-hub-address-book-search-label = Keresési szűrő
 account-hub-simple-configuration-button = Egyszerű konfiguráció
+address-book-finding-remote-address-books = Címjegyzékek keresése…
+# $url (String) - URL of CardDAV endpoint we don't support.
+address-book-carddav-known-incompatible = A(z) { $url } nem kompatibilis a { -brand-short-name }del.
+address-book-carddav-connection-error = A kapcsolódás sikertelen.
 account-hub-result-username-label = Felhasználónév
     .title = Felhasználónév
 account-hub-name-label = Teljes név
