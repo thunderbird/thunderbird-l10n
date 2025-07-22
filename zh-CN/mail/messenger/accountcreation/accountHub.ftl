@@ -95,6 +95,8 @@ account-hub-server-error-text = 请输入有效的网址
 account-hub-address-book-enter-password = 请输入 CardDav 账户密码
 account-hub-address-book-name-label = 名称
 account-hub-address-book-name-error-text = 请输入名称
+account-hub-address-book-base-dn = 基准标识名：
+account-hub-address-book-bind-dn = 绑定用户名
 account-hub-ldap-form = 连接 LDAP 目录
 account-hub-advanced-configuration-button = 高级配置
 account-hub-ldap-ssl-toggle-label = 使用安全连接（SSL）
@@ -108,6 +110,7 @@ account-hub-address-book-scope-subtree-label =
 account-hub-address-book-login-method-label = 登录方式
 account-hub-address-book-login-simple-label =
     .label = 简单
+account-hub-address-book-search-label = 搜索过滤器
 account-hub-simple-configuration-button = 简单配置
 address-book-finding-remote-address-books = 正在搜索通讯录…
 # $url (String) - URL of CardDAV endpoint we don't support.
