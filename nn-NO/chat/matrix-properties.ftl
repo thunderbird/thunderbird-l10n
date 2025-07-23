@@ -152,7 +152,15 @@ command-unban = { $commandName } &lt;userId&gt;: Opphev utestenginga av ein bruk
 # $commandName is the command name
 command-visibility = { $commandName } [&lt;visibility&gt;]: Spesifiser synlegheita til det gjeldande rommet i romkatalogen til den gjeldande heimeserveren. Skriv inn ein heiltalverdi, Privat: 0 og Offentlig: 1. Standardverdien vil vere Privat (0) viss ingen argument blir oppgitte. Krev løyve for å endre romsynlegheit.
 # $commandName is the command name
+command-guest = { $commandName } &lt;guest access&gt; &lt;history visibility&gt;: Angi tilgangs- og historikksynlegheita for det gjeldande rommet for gjestebrukarar. Skriv inn to heiltalsverdiar, den første for gjestetilgang (ikkje tillaten: 0 og tillaten: 1) og den andre for historikksynlegheita (ikkje synleg: 0 og synleg: 1). Krev løyve for å endre historikksynlegheita.
+# $commandName is the command name
+command-roomname = { $commandName } &lt;namn&gt;: Angi namnet på rommet. Krev løyve for å endre romnamnet.
+# $commandName is the command name
 command-detail = { $commandName }: Vis detaljane for rommet.
+# $commandName is the command name
+command-addalias = { $commandName } &lt;alias&gt;: Opprett eit alias for rommet. Venta romalias på forma ’#localname:domain’. Krev løyve for å leggje til alias.
+# $commandName is the command name
+command-removealias = { $commandName } &lt;alias&gt;: Fjern aliaset for rommet. Venta romalias på forma ’#localname:domain’. Krev løyve for å fjerne alias.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $user is the name of the user who banned.
