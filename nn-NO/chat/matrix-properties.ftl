@@ -161,11 +161,23 @@ command-detail = { $commandName }: Vis detaljane for rommet.
 command-addalias = { $commandName } &lt;alias&gt;: Opprett eit alias for rommet. Venta romalias på forma ’#localname:domain’. Krev løyve for å leggje til alias.
 # $commandName is the command name
 command-removealias = { $commandName } &lt;alias&gt;: Fjern aliaset for rommet. Venta romalias på forma ’#localname:domain’. Krev løyve for å fjerne alias.
+# $commandName is the command name
+command-upgraderoom = { $commandName } &lt;newVersion&gt;: Oppgrader rommet til gitt versjon. Krev løyve for å oppgradere rommet.
+# $commandName is the command name
+command-me = { $commandName } &lt;action&gt;: Utfør ei handling.
+# $commandName is the command name
+command-msg = { $commandName } &lt;userId&gt; &lt;message&gt;: Send ei direktemelding til den oppgitte brukaren.
+# $commandName is the command name
+command-join = { $commandName } &lt;roomId&gt;: Bli med i det gitte rommet.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } sparka ut { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = { $user } har utestengt { $userBanned }. Årsak: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } godtok innbydinga for { $userWhoSent }.
@@ -190,6 +202,9 @@ message-joined = { $user } har kome inn i rommet.
 message-rejected-invite = { $user } har avvist innbydinga.
 #    $user is the name of the user who has left the room.
 message-left = { $user } har forlate rommet.
+#    $user is the name of the user who unbanned.
+#    $userUnbanned is the name of the user who got unbanned.
+message-unbanned = { $user } har oppheva utestenginga av { $userUnbanned }.
 #    $user is the name of the user who kicked.
 #    $userGotKicked is the name of the user who got kicked.
 message-kicked = { $user } sparka ut { $userGotKicked }.
@@ -236,10 +251,21 @@ message-alias-main = { $user } endra hovudadressa for dette rommet frå { $oldAd
 #    $user is the name of the user who added the address.
 #    $addresses is a comma delimited list of added addresses.
 message-alias-added = { $user } la til { $addresses } som alternativ adresse  for dette rommet.
+#    $user is the name of the user who removed the address.
+#    $addresses is a comma delimited list of removed addresses.
+message-alias-removed = { $user } fjerna { $addresses } som alternativ adresse for dette rommet.
+#    $user is the name of the user that edited the alias addresses.
+#    $removedAddresses is a comma delimited list of removed addresses.
+#    $addedAddresses is a comma delmited list of added addresses.
+message-alias-removed-and-added = { $user } fjerna { $removedAddresses } og la til { $addedAddresses } som adresse for dette rommet.
 message-space-not-supported = Dette rommet er eit område som ikkje er støtta.
+message-encryption-start = Meldingar i denne samtalen er no ende-til-ende-kryptert.
 #    $user is the name of the user who sent the verification request.
 #    $userReceiving is the name of the user that is receiving the verification request.
 message-verification-request2 = { $user } ønskjer å stadfeste { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } avbraut verifiseringa med årsaka: { $reason }
 message-verification-done = Stadfesting fullført.
 message-decrypting = Dekrypterer...
 message-redacted = Meldinga vart redigert.
