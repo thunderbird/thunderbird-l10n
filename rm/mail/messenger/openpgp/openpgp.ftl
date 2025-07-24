@@ -415,9 +415,6 @@ key-verification = Verifitgescha l'impronta digitala da la clav cun agid dad in 
 cannot-use-own-key-because = Impussibel da trametter il messadi. I dat in problem cun tia clav persunala. { $problem }
 window-locked = La fanestra da rediger è bloccada; spediziun annullada
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Interrut
@@ -429,9 +426,6 @@ keyserver-error-security-error = Il server da clavs na sustegna betg l'access cr
 keyserver-error-certificate-error = Il certificat dal server da clavs n'è betg valid.
 keyserver-error-unsupported = Il server da clavs na vegn betg sustegnì.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -441,9 +435,6 @@ wkd-message-body-process =
     Quest è in e-mail en connex cun l'elavuraziun automatica per transferir tia clav publica en il OpenPGP Web Key Directory.
     I na dovra naginas intervenziuns manualas per il mument.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -452,9 +443,6 @@ converter-decrypt-body-failed =
     Impussibel da decriptar il messadi cun l'object
     { $subject }.
     Vuls ti empruvar anc ina giada cun in'autra frasa-clav u sursiglir il messadi?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -472,9 +460,6 @@ filter-key-not-found = Impussibel da chattar ina clav da criptadi per «{ $desc 
 filter-warn-key-not-secret =
     Attenziun! L'acziun dal filter «Criptar cun la clav» remplazza ils destinaturs.
     Sche ti na possedas betg la clav secreta per «{ $desc }», na vegns ti betg pli a pudair leger ils e-mails.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -545,12 +530,6 @@ openpgp-export-public-fail = <b>Impussibel dad exportar las clavs publicas tsche
 openpgp-export-secret-success = <b>Exportà cun success la clav secreta!</b>
 openpgp-export-secret-fail = <b>Impussibel dad exportar la clav secreta tschernida!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -566,16 +545,10 @@ key-ring-sign-sub-keys-expired = Tut las sutclavs da signatura da la clav { $use
 key-ring-enc-sub-keys-revoked = Tut las sutclavs da criptadi da la clav { $userId } (ID da clav { $keyId }) èn vegnidas revocadas.
 key-ring-enc-sub-keys-expired = Tut las sutclavs da criptadi da la clav { $userId } (ID da clav { $keyId }) èn scadidas.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Foto
 user-att-photo = Attribut utilisader (maletg JPEG)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -599,9 +572,6 @@ after-revoke-info =
     Uschespert che la software dad autras persunas vegn a savair da la revocaziun, na vegnan els betg pli a duvrar tia veglia clav.
     Sche ti utiliseschas ina nova clav per la medema adressa d'e-mail ed agiunteschas la nova clav publica als e-mails che ti tramettas, lura vegn l'infurmaziun davart tia clav veglia revocada includida automaticamain.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Importar
@@ -611,9 +581,6 @@ delete-external-key-description = Vuls ti allontanar questa ID da clav GnuPG ext
 key-in-use-title = La clav OpenPGP vegn actualmain utilisada
 delete-key-in-use-description = Impussibel da cuntinuar! La clav che ti has tschernì per stizzar vegn actualmain utilisada da questa identitad. Tscherna in'autra clav u na tscherna nagina ed emprova anc ina giada.
 revoke-key-in-use-description = Impussibel da cuntinuar! La clav che ti has tschernì per la revocaziun vegn actualmain utilisada da questa identitad. Tscherna in'autra clav u na tscherna nagina ed emprova anc ina giada.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -625,30 +592,18 @@ key-error-key-id-not-found = L'ID da clav «{ $keySpec }» configurada na sa cha
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Ti n'has betg confermà che la clav cun l'ID «{ $keySpec }» è tia clav persunala.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = La funcziunalitad tschernida na stat betg da disposiziun en il modus offline. Ta connectescha cun l'internet ed emprova anc ina giada.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Nus n'avain betg chattà ina clav utilisabla che correspunda als criteris da tschertga inditgads.
 no-update-found = Ti has gia las clavs ch'èn vegnidas chattadas online.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Errur – il cumond d'extracziun da la clav n'è betg reussì
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -782,9 +737,6 @@ cannot-send-sig-because-no-own-key = Impussibel da signar digitalmain quest mess
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Impussibel da trametter quest messadi sco messadi criptà perquai che ti n'has anc betg configurà il criptadi da fin a fin per <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -808,15 +760,9 @@ attachment-pgp-key =
     Cliccar sin «Importar» per importar las clavs cuntegnidas u «Mussar» per mussar il cuntegn da la datoteca en ina fanestra dal navigatur
 dlg-button-view = &Mussar
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Errur – nagin criptadi necessari
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -826,9 +772,6 @@ no-photo-available = Nagina foto disponibla
 error-photo-path-not-readable = L'ordinatur «{ $photo }» da la fotografia n'è betg legibel
 debug-log-title = Log da debugadi OpenPGP
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &OK
@@ -837,9 +780,6 @@ dlg-button-cancel = &Interrumper
 dlg-no-prompt = Betg pli ma mussar quest dialog
 enig-prompt = Dialog OpenPGP
 enig-confirm = Conferma OpenPGP
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

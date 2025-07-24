@@ -15,6 +15,3 @@ openpgp-keygen-months-label =
 
 openpgp-import-key-title = Імпартаваць існуючы асабісты ключ OpenPGP
 openpgp-import-key-description = Вы можаце імпартаваць асабістыя ключы, якія створаны з дапамогай іншага праграмнага забяспечання OpenPGP.
-
-## External Key section
-

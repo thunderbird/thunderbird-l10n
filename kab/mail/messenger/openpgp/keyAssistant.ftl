@@ -24,9 +24,6 @@ openpgp-key-assistant-key-collected-keyserver = aqeddac n tsarut
 # Web Key Directory (WKD) is a concept.
 openpgp-key-assistant-key-collected-wkd = Akaram n tsura web
 
-## Discovery section
-
-
 ## Dialog buttons
 
 openpgp-key-assistant-import-keys-button = Kter tisura tazayezt(tizuyaz) seg ufaylu…

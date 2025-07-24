@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Encryption status
-
-
 ## Resolve section
 
 openpgp-key-assistant-key-fingerprint = Retal ruwi' q'ab'aj
@@ -16,9 +13,6 @@ openpgp-key-assistant-key-source =
         [one] Ruxe'el
        *[other] Taq ruxe'el
     }
-
-## Discovery section
-
 
 ## Dialog buttons
 

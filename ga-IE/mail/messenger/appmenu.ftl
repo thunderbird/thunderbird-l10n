@@ -22,20 +22,11 @@ appmenu-new-calendar =
     .label = Féilire
     .accesskey = F
 
-## New Account / Address Book
-
-
-## Create
-
-
 ## Open
 
 appmenu-open-calendar =
     .label = Féilire…
     .accesskey = F
-
-## View / Layout
-
 
 ## Tools
 
@@ -58,6 +49,3 @@ appmenu-help-panel-title =
 appmenu-help-about-product =
     .label = Maidir le { -brand-short-name }
     .accesskey = M
-
-## Application Update
-

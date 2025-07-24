@@ -422,6 +422,3 @@ apply-current-columns-to-folder-message = Կիրառե՞լ ընթացիկ թղթ
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Կիրառե՞լ ընթացիկ թղթապանակի սյունները { $name }-ին և մնացածին։
 message-list-placeholder-no-messages = Ոչ մի հաղորդագրություն չի գտնվել
-
-## Folder pane context menu
-

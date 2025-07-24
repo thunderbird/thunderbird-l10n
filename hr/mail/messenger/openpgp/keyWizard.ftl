@@ -44,9 +44,3 @@ openpgp-keygen-months-label =
 openpgp-keygen-years-label =
     .label = godina
 openpgp-keygen-advanced-title = Napredne postavke
-
-## Import Key section
-
-
-## External Key section
-

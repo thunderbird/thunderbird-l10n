@@ -11,36 +11,3 @@ export-profile = Eksportuoti
 ## Buttons
 
 button-export = Eksportuoti
-
-## Import from app steps
-
-
-## Import from file selections
-
-
-## Import from app profile steps
-
-
-## Import from address book file steps
-
-
-## Import from calendar file steps
-
-
-## Import dialog
-
-
-## <csv-field-map> element
-
-
-## Export tab
-
-
-## Summary pane
-
-
-## Footer area
-
-
-## Step navigation on top of the wizard pages
-

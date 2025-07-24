@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Send Format
-
-
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -73,36 +70,6 @@ button-return-receipt =
     .label = Ստացական
     .tooltiptext = Հետադարձ ստացական հայցել նամակի համար
 
-## Encryption
-
-
 ## Addressing Area
 
 many-public-recipients-prompt-cancel = Չեղարկել ուղարկումը
-
-## Notifications
-
-
-## Editing
-
-
-# Tools
-
-
-## Filelink
-
-
-# Placeholder file
-
-
-# Template
-
-
-# Messages
-
-
-## Link Preview
-
-
-## Dictionary selection popup
-

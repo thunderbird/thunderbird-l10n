@@ -6,9 +6,6 @@
 ### Unified Toolbar strings
 
 
-## Search bar
-
-
 ## Unified toolbar context menu
 
 customize-menu-customize =
@@ -23,9 +20,3 @@ toolbar-get-all-messages-menuitem =
 ## Unified Toolbar customization
 
 customize-button-style-icons-beside-text-option = Ikonas blakus tekstam
-
-## Unified toolbar customization palette context menu
-
-
-## Unified toolbar customization target context menu
-

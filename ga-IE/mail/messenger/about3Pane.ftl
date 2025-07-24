@@ -304,6 +304,3 @@ apply-current-columns-to-folder-message = An bhfuil fonn ort colúin an fhillte�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = An bhfuil fonn ort colúin an fhillteáin reatha a chur i bhfeidhm ar { $name } agus an t-ábhar atá ann?
-
-## Folder pane context menu
-

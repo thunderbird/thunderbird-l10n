@@ -8,9 +8,3 @@
 
 # This is the label on the icon
 flatpak-desktop-name = { -brand-short-name }
-
-## Actions Section
-## These are alternative ways of starting Thunderbird, such as open the compose
-## window to write a message. Visible in a context menu after right clicking a
-## Thunderbird taskbar icon, possibly other places depending on the environment.
-

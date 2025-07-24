@@ -450,9 +450,6 @@ key-verification = Ověřte otisk klíče pomocí jiného bezpečného komunika�
 cannot-use-own-key-because = Zprávu nelze odeslat, protože se u vašeho osobního klíče vyskytl problém. { $problem }
 window-locked = Okno psaní zprávy je uzamčeno; odesílání bylo zrušeno
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Přerušeno
@@ -464,9 +461,6 @@ keyserver-error-security-error = Server klíčů nepodporuje šifrovaný příst
 keyserver-error-certificate-error = Server klíčů používá neplatný certifikát.
 keyserver-error-unsupported = Tento server klíčů není podporován.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -476,9 +470,6 @@ wkd-message-body-process =
     Toto je e-mail zaslaný v souvislosti s automatickým zpracováním požadavku na nahrání vašeho veřejného klíče do webového adresáře klíčů OpenPGP.
     V tuto chvíli není z vaší strany nutná žádná akce.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -486,9 +477,6 @@ wkd-message-body-process =
 converter-decrypt-body-failed =
     Zprávu s předmětem „{ $subject }“ se nepodařilo dešifrovat.
     Chcete to zkusit s jinou přístupovou frází nebo chcete zprávu přeskočit?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -506,9 +494,6 @@ filter-key-not-found = Nepodařilo se najít šifrovací klíč pro '{ $desc }'.
 filter-warn-key-not-secret =
     VAROVÁNÍ: Akce filtru „Šifrovat do klíče“ nahradí příjemce.
     Pokud nemáte tajný klíč pro '{ $desc }', nebudete už moci e-maily číst.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -578,12 +563,6 @@ openpgp-export-public-fail = <b>Vybraný veřejný klíč nelze vyexportovat!</b
 openpgp-export-secret-success = <b>Tajný klíč byl úspěšně vyexportován!</b>
 openpgp-export-secret-fail = <b>Vybraný tajný klíč nelze vyexportovat!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -599,16 +578,10 @@ key-ring-sign-sub-keys-expired = Platnost všech podpisových podklíčů klíč
 key-ring-enc-sub-keys-revoked = Všechny šifrovací podklíče klíče { $userId } (ID klíče { $keyId }) jsou zneplatněny.
 key-ring-enc-sub-keys-expired = Platnost všech šifrovacích podklíčů klíče { $userId } (ID klíče { $keyId }) vypršela.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Fotografie
 user-att-photo = Atribut uživatele (obrázek JPEG)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -632,9 +605,6 @@ after-revoke-info =
     Jakmile se software používaný ostatními o zneplatnění dozví, přestane váš starý klíč používat.
     Pokud pro stejnou e-mailovou adresu používáte nový klíč a tento nový veřejný klíč přiložíte ke svým odesílaným e-mailům, automaticky v nich budou zahrnuty i informace o vašem starém zneplatněném klíči.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Importovat
@@ -644,9 +614,6 @@ delete-external-key-description = Chcete odebrat ID tohoto externího klíče Gn
 key-in-use-title = Klíč OpenPGP se aktuálně používá
 delete-key-in-use-description = Nelze pokračovat, protože klíč vybraný k odstranění je aktuálně používán touto identitou. Vyberte jiný nebo žádný klíč a zkuste to znovu.
 revoke-key-in-use-description = Nelze pokračovat, protože klíč vybraný k zneplatnění je aktuálně používán touto identitou. Vyberte jiný nebo žádný klíč a zkuste to znovu.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -658,30 +625,18 @@ key-error-key-id-not-found = Nastavený klíč s ID '{ $keySpec }' nelze v klí�
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Nepotvrdili jste, že je klíč s ID '{ $keySpec }' vaším osobním klíčem.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Vybraná funkce není dostupná v režimu offline. Přejděte prosím do režimu online a zkuste to znovu.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Nenašli jsme žádný použitelný klíč odpovídající zadaným kritériím.
 no-update-found = Klíče objevené online už máte.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Chyba: Extrahování klíče selhalo
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -815,9 +770,6 @@ cannot-send-sig-because-no-own-key = Tuto zprávu nelze digitálně podepsat, pr
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Tuto zprávu nelze odeslat zašifrovaně, protože jste dosud pro <{ $key }> nenastavili koncové šifrování
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -841,15 +793,9 @@ attachment-pgp-key =
     Pokud chcete obsažené klíče importovat, klepněte na „Importovat“. Pro zobrazení v okně prohlížeče klepněte na „Zobrazit.“.
 dlg-button-view = &Zobrazit
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Chyba: Šifrování není vyžadováno
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -859,9 +805,6 @@ no-photo-available = Fotografie není k dispozici
 error-photo-path-not-readable = Cesta k fotografii '{ $photo }' není čitelná
 debug-log-title = Protokol ladění OpenPGP
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &OK
@@ -870,9 +813,6 @@ dlg-button-cancel = &Zrušit
 dlg-no-prompt = Tento dialog příště nezobrazovat
 enig-prompt = Výzva - OpenPGP
 enig-confirm = Potvrzení - OpenPGP
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

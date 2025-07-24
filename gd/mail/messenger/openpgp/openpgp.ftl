@@ -328,9 +328,6 @@ key-verification = Dearbh lorg-meòir na h-iuchrach slighe seanail conaltraidh t
 cannot-use-own-key-because = Chan urrainn dhuinn an teachdaireachd a chur a chionn ’s gu bheil duilgheadas leis an iuchair phearsanta agad. { $problem }
 window-locked = Tha an uinneag sgrìobhaidh glaiste; sguireadh dhen chur
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Sguireadh dheth
@@ -342,9 +339,6 @@ keyserver-error-security-error = Chan eil am frithealaiche iuchraichean a’ cur
 keyserver-error-certificate-error = Chan eil teisteanas an fhrithealaiche iuchraichean dligheach.
 keyserver-error-unsupported = Chan eil taic ris an fhrithealaiche iuchraichean.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -353,9 +347,6 @@ wkd-message-body-req =
 wkd-message-body-process =
     Seo post-d co-cheangailte ri pròiseasadh fèin-obrachail airson an iuchair phoblach agad a luchdadh suas gu eòlaire iuchraichean-lìn OpenPGP.
     Cha leig thu leas dad a dhèanamh de làimh aig an ìre-sa.
-
-## Strings in persistentCrypto.jsm
-
 
 ## Strings in persistentCrypto.sys.mjs
 
@@ -366,135 +357,6 @@ converter-decrypt-body-failed =
     { $subject }.
     a dhì-chrioptachadh. A bheil thu airson feuchainn ris a-rithist le abairt-fhaire eile no a bheil thu airson leum a ghearradh seachad air an teachdaireachd?
 
-## Strings filters.jsm
-
-
 ## Strings filters.sys.mjs
 
 filter-folder-required = Feumaidh tu pasgan targaide a thaghadh.
-
-## Strings filtersWrapper.jsm
-
-
-## Strings filtersWrapper.sys.mjs
-
-
-## Strings in enigmailKeyImportInfo.js
-
-
-## Strings in enigmailKeyManager.js
-
-
-## Account settings export output
-
-
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
-## Strings in keyObj.sys.mjs
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
-## Strings in gnupg-keylist.jsm
-
-
-## Strings in gnupg-keylist.sys.mjs
-
-
-## Strings in key.jsm
-
-
-## Strings in key.sys.mjs
-
-
-## Strings in keyRing.jsm & decryption.jsm
-
-
-## Strings in keyRing.sys.mjs & decryption.sys.mjs
-
-
-## Strings used in errorHandling.jsm
-
-
-## Strings used in errorHandling.sys.mjs
-
-
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
-## Strings used in enigmailKeyManager.js & windows.sys.mjs
-
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
-
-## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
-
-
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
-## Strings used in keyRing.sys.mjs
-
-
-## Strings used in keyRing.jsm
-
-
-## Strings used in keyRing.sys.mjs
-
-
-## Strings used in trust.jsm
-
-
-## Strings used in trust.sys.mjs
-
-
-## Strings used in commonWorkflows.js
-
-
-## Strings used in enigmailKeygen.js
-
-
-## Strings used in enigmailMessengerOverlay.js
-
-
-## Strings used in enigmailMsgComposeOverlay.js
-
-
-## Strings used in decryption.jsm
-
-
-## Strings used in decryption.sys.mjs
-
-
-## Strings used in encryption.jsm
-
-
-## Strings used in encryption.sys.mjs
-
-
-## Strings used in windows.jsm
-
-
-## Strings used in windows.sys.mjs
-
-
-## Strings used in dialog.jsm
-
-
-## Strings used in dialog.sys.mjs
-
-
-## Strings used in persistentCrypto.jsm
-
-
-## Strings used in persistentCrypto.sys.mjs
-
-
-## Strings used in enigmailMsgBox.js
-

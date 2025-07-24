@@ -7,13 +7,3 @@
 
 message-header-to-list-name = Kam
 message-header-reply-to-list-name = Atgalinis adresas
-
-## Other message headers.
-## The field-separator is for screen readers to separate the field name from the field value.
-
-
-##
-
-
-## Dark Message Mode
-

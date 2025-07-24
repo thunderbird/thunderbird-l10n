@@ -176,12 +176,6 @@ many-public-recipients-prompt-send = Усё роўна адправіць
 encrypted-bcc-ignore-button = Зразумела
 auto-disable-e2ee-warning = Скразное шыфраванне для гэтага паведамлення было аўтаматычна адключана.
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
 
 # A text used in a tooltip of Filelink attachments, whose account has been

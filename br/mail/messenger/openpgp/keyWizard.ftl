@@ -11,9 +11,3 @@ openpgp-keygen-dismiss =
 openpgp-keygen-import-complete =
     .label = Serriñ
     .accesskey = S
-
-## Import Key section
-
-
-## External Key section
-

@@ -62,9 +62,6 @@ customize-spaces-tabs =
 customize-main-toolbar-target =
     .aria-label = Peamine tööriistariba
 
-## Unified toolbar customization palette context menu
-
-
 ## Unified toolbar customization target context menu
 
 customize-target-forward =

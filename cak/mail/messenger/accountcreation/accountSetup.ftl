@@ -64,9 +64,6 @@ account-setup-result-ssl = SSL/TLS
 account-setup-result-starttls = STARTTLS
 account-setup-result-outgoing-existing = Tokisäx ruk'uxasamaj elem SMTP kan k'o wi
 
-## Error messages
-
-
 ## Manual configuration area
 
 account-setup-incoming-server-legend = K'uxasamaj tajin nok
@@ -97,9 +94,6 @@ account-setup-warning-cleartext-details = Ri kik'uxasamaj mejikil taq taqoya'l, 
 
 exchange-dialog-confirm-button = Rutikirisaxik molojri'ïl
 exchange-dialog-cancel-button = Tiq'at
-
-## Dismiss account creation dialog
-
 
 ## Alert dialogs
 

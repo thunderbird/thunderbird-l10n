@@ -351,9 +351,6 @@ key-verification = Senqed adsil umḍin n tsarut s usenqed n ubadu n teywalt aɣ
 cannot-use-own-key-because = D awezɣi tuzna n yizen, acku yella wugur deg tsarut-ik tudmawant. { $problem }
 window-locked = Asfaylu n usuddes yemdel; tuzna tettwasefsex
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Yettwaseḥbes
@@ -365,23 +362,11 @@ keyserver-error-security-error = Aqeddac n tsura ur issefrak ara anekcum awgelha
 keyserver-error-certificate-error = Aselkin n uqeddac n tsura d arameɣtu.
 keyserver-error-unsupported = Aqeddac n tsura ur yettusefrak ara.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
     Asaǧǧaw-inek n yimayl issesfer assuter-ik n tuzna n tsarut-ik tazayazt ɣer ukaram n tsura web OpenPGP.
     Ma ulac aɣilif, sentem i wakken ad yemmed usuffeɣ n tsarut-ik tazayazt.
-
-## Strings in persistentCrypto.jsm
-
-
-## Strings in persistentCrypto.sys.mjs
-
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -391,9 +376,6 @@ filter-key-required = Issefk ad tferneḍ tasarut n unermis.
 # Variables:
 # $desc (String) - Email address to look for a key of.
 filter-key-not-found = Ulac tasarut n uwgelhen yettwafen i '{ $desc }'.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -448,12 +430,6 @@ openpgp-export-public-fail = <b>D awezɣi ad tettusifeḍ tsarut tazayazt i yett
 openpgp-export-secret-success = <b>Tasarut tuffirtt tettusifeḍ akken iwata!</b>
 openpgp-export-secret-fail = <b>D awezɣi ad tettusifeḍ tsarut tuffirtt i yettwafernen!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -464,16 +440,10 @@ key-ring-pub-key-expired = Tasarut { $userId } (Asulay n tsarut { $keyId }) temm
 key-ring-pub-key-not-for-signing = Tasarut { $userId } (Asulay n tsarut { $keyId }) ur tezmir ara ad tettuseqdac i tuqqna.
 key-ring-pub-key-not-for-encryption = Tasarut { $userId } (Asulay n tsarut { $keyId }) ur tezmir ara ad tettuseqdac i uwgelhen.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Tawlaft
 user-att-photo = Seqdec imyerr (tugna JPEG)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -483,9 +453,6 @@ revoke-key-already-revoked = Tasarut Ox { $keyId } tettwaḥwi yakan.
 key-man-button-revoke-key = &Ḥwi tasarut
 openpgp-key-revoke-success = Tasarut tettwaḥwi akken iwata.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Kter
@@ -494,36 +461,15 @@ delete-external-key-title = Kkes tasarut tazɣarayt GnuPG
 delete-external-key-description = Tebɣiḍ ad tekkseḍ asulay-a n tsarut tazɣarayt GnuPG?
 key-in-use-title = Tasarut OpenPGP la tettwaseqdac akka tura
 
-## Strings used in errorHandling.jsm
-
-
 ## Strings used in errorHandling.sys.mjs
 
 # Variables:
 # $keySpec (String) - Email address.
 key-error-key-spec-not-found = Tansa n yimayl ‘{ $keySpec }’ ur temṣada ula d yiwet tsarut tesεiḍ deg uqettun n tsura i tesεiḍ.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
-## Strings used in enigmailKeyManager.js & windows.sys.mjs
-
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
-
-## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
-
-
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Tuccḍa - tiludna n tussfa n tsarut ur teddi ara
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -533,9 +479,6 @@ fail-key-import = Tuccḍa - aktar n tsarut yecceḍ
 # Variables:
 # $output (String) - File that writing was attempted to.
 file-write-failed = Tuccḍa n tira deg ufaylu { $output }
-
-## Strings used in trust.jsm
-
 
 ## Strings used in trust.sys.mjs
 
@@ -600,9 +543,6 @@ keys-to-export = Fren tisura OpenPGP ara terreḍ
 msg-compose-cannot-save-draft = Tuccḍæ deg usekles n urewway
 save-attachment-header = Sekles amedday yettwawgelhen
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -619,23 +559,14 @@ sig-mismatch = Tuccḍa - Asezmel ur yemṣada ara
 invalid-email = Tuccḍa - tansa(tansiwin) n yimayl tarameɣtut(tirimeɣta)
 dlg-button-view = &Sken
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Tuccḍa - ulac assuter n uwgelhen
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
 no-photo-available = Ulac tawlaft yellan
 debug-log-title = Aɣmis n temseɣtayt OpenPGP
-
-## Strings used in dialog.jsm
-
 
 ## Strings used in dialog.sys.mjs
 
@@ -645,9 +576,6 @@ dlg-button-cancel = &Sefsex
 dlg-no-prompt = Ur ttεawad ara ad iyi-d-tsekneḍ adiwenni-a
 enig-prompt = Tanaka n urmas OpenPGP
 enig-confirm = Asentem OpenPGP
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

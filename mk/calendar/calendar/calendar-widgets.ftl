@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Side panel
-
-
 ## Calendar navigation
 
 calendar-view-toggle-day = Ден
@@ -16,9 +13,3 @@ calendar-view-toggle-multiweek = Повеќе седмици
     .title = Се префрли на повеќеседмичен преглед
 calendar-view-toggle-month = Месец
     .title = Се префрла на месечен преглед
-
-## Menu on calendar control bar
-
-
-## Calendar Context Menu
-

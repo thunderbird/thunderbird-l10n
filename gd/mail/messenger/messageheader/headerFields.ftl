@@ -45,6 +45,3 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Barrachd
     .title = Seall a h-uile faightear
 message-ids-field-show-all = Seall na h-uile
-
-## Dark Message Mode
-

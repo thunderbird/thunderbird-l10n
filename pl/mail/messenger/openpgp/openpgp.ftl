@@ -425,9 +425,6 @@ key-verification = Zweryfikuj odcisk klucza za pomocą zabezpieczonego środka k
 cannot-use-own-key-because = Nie można wysłać wiadomości, ponieważ wystąpił problem z kluczem osobistym. { $problem }
 window-locked = Okno tworzenia wiadomości jest zablokowane; anulowano wysyłanie
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Przerwano
@@ -439,9 +436,6 @@ keyserver-error-security-error = Serwer kluczy nie obsługuje szyfrowanego dost�
 keyserver-error-certificate-error = Certyfikat serwera kluczy jest nieprawidłowy.
 keyserver-error-unsupported = Serwer kluczy nie jest obsługiwany.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -451,9 +445,6 @@ wkd-message-body-process =
     To wiadomość związana z automatycznym przetwarzaniem w celu wysłania klucza publicznego do katalogu kluczy OpenPGP.
     Na tym etapie nie musisz podejmować żadnych dodatkowych działań.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -462,9 +453,6 @@ converter-decrypt-body-failed =
     Nie można odszyfrować wiadomości o temacie
     „{ $subject }”.
     Czy chcesz spróbować ponownie za pomocą innego hasła, czy chcesz pominąć wiadomość?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -482,9 +470,6 @@ filter-key-not-found = Nie można odnaleźć klucza szyfrowania dla „{ $desc }
 filter-warn-key-not-secret =
     Ostrzeżenie: działanie filtru „Zaszyfruj do klucza” zastępuje odbiorców.
     Jeśli nie masz tajnego klucza dla „{ $desc }”, nie będzie można już odczytać tych wiadomości.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -555,12 +540,6 @@ openpgp-export-public-fail = <b>Nie można wyeksportować wybranego klucza publi
 openpgp-export-secret-success = <b>Pomyślnie wyeksportowano tajny klucz.</b>
 openpgp-export-secret-fail = <b>Nie można wyeksportować wybranego tajnego klucza.</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -576,16 +555,10 @@ key-ring-sign-sub-keys-expired = Wszystkie klucze podrzędne do podpisywania klu
 key-ring-enc-sub-keys-revoked = Wszystkie klucze podrzędne do szyfrowania klucza { $userId } (identyfikator klucza: { $keyId }) są unieważnione.
 key-ring-enc-sub-keys-expired = Wszystkie klucze podrzędne do szyfrowania klucza { $userId } (identyfikator klucza: { $keyId }) wygasły.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Zdjęcie
 user-att-photo = Atrybut użytkownika (obraz JPEG)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -609,9 +582,6 @@ after-revoke-info =
     Gdy tylko oprogramowanie używane przez innych dowie się o unieważnieniu, przestanie używać starego klucza.
     Jeśli używasz nowego klucza dla tego samego adresu e-mail i załączasz nowy klucz publiczny do wysyłanych wiadomości, to informacje o unieważnionym starym kluczu będą automatycznie dołączane.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = I&mportuj
@@ -621,9 +591,6 @@ delete-external-key-description = Czy usunąć ten zewnętrzny identyfikator klu
 key-in-use-title = Obecnie używany klucz OpenPGP
 delete-key-in-use-description = Nie można kontynuować. Klucz wybrany do usunięcia jest obecnie używany przez tę tożsamość. Wybierz inny klucz lub wybierz żaden i spróbuj ponownie.
 revoke-key-in-use-description = Nie można kontynuować. Klucz wybrany do unieważnienia jest obecnie używany przez tę tożsamość. Wybierz inny klucz lub wybierz żaden i spróbuj ponownie.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -635,30 +602,18 @@ key-error-key-id-not-found = W Twojej bazie kluczy nie można odnaleźć identy
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Nie potwierdzono, że klucz o identyfikatorze „{ $keySpec }” to Twój klucz osobisty.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Wybrana funkcja jest niedostępna w trybie offline. Przejdź do trybu online i spróbuj ponownie.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Nie można odnaleźć żadnego nadającego się klucza, który spełnia podane kryteria wyszukiwania.
 no-update-found = Masz już klucze, które zostały wykryte w Internecie.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Błąd: polecenie odczytu klucza się nie powiodło
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -792,9 +747,6 @@ cannot-send-sig-because-no-own-key = Nie można podpisać cyfrowo tej wiadomośc
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Nie można wysłać tej wiadomości w postaci zaszyfrowanej, ponieważ nie skonfigurowano jeszcze szyfrowania typu „end-to-end” dla <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -818,15 +770,9 @@ attachment-pgp-key =
     Kliknij „Importuj”, aby zaimportować zawarte w nim klucze lub „Wyświetl”, aby wyświetlić treść pliku w oknie przeglądarki
 dlg-button-view = &Wyświetl
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Błąd: szyfrowanie nie jest wymagane
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -836,9 +782,6 @@ no-photo-available = Brak dostępnych zdjęć
 error-photo-path-not-readable = Ścieżka do zdjęcia „{ $photo }” jest nie do odczytania
 debug-log-title = Dziennik debugowania OpenPGP
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &OK
@@ -847,9 +790,6 @@ dlg-button-cancel = &Anuluj
 dlg-no-prompt = Nie wyświetlaj więcej tego okna dialogowego
 enig-prompt = Monit OpenPGP
 enig-confirm = Potwierdzenie OpenPGP
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

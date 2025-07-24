@@ -249,12 +249,6 @@ many-public-recipients-prompt-send = Send likevel
 
 encrypted-bcc-ignore-button = Forstått
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
 
 # A text used in a tooltip of Filelink attachments, whose account has been

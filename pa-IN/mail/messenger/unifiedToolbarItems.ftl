@@ -23,6 +23,3 @@ toolbar-stop =
 toolbar-throbber-label = Activity Indicator
 toolbar-throbber =
     .title = Activity Indicator
-
-## New Address Book popup items
-

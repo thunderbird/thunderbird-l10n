@@ -12,9 +12,6 @@ pane-calendar-title = Taqvim
 category-calendar =
     .tooltiptext = Taqvim
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 focus-search-shortcut =
@@ -442,15 +439,3 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = Ko‘rish…
     .accesskey = r
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

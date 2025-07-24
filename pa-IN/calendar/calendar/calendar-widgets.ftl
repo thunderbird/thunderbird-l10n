@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Side panel
-
-
 ## Calendar navigation
 
 calendar-view-toggle-day = ਦਿਨ
@@ -16,9 +13,6 @@ calendar-view-toggle-multiweek = ਬਹੁ-ਹਫ਼ਤੇ
     .title = ਕਈ ਹਫ਼ਤਿਆਂ ਦੀ ਝਲਕ ਵਿੱਚ ਬਦਲੋ
 calendar-view-toggle-month = ਮਹੀਨਾ
     .title = ਮਹੀਨੇ ਦੀ ਝਲਕ ਉੱਤੇ ਜਾਓ
-
-## Menu on calendar control bar
-
 
 ## Calendar Context Menu
 

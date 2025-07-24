@@ -415,9 +415,6 @@ key-verification = Проверете пръстовия отпечатък на
 cannot-use-own-key-because = Невъзможност за изпращане на съобщението поради  проблем с вашия личен ключ. { $problem }
 window-locked = Прозорецът за ново съобщение е заключен; изпращането е отменено
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Прекратено
@@ -429,9 +426,6 @@ keyserver-error-security-error = Ключовият сървър не поддъ
 keyserver-error-certificate-error = Сертификатът на сървъра за ключове не е валиден.
 keyserver-error-unsupported = Ключовият сървър не се поддържа.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -441,9 +435,6 @@ wkd-message-body-process =
     Това е имейл, свързан с автоматичната обработка за качване на вашия публичен ключ в OpenPGP уеб каталога.
     На този етап не е необходимо да предприемате никакви ръчни действия.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -452,9 +443,6 @@ converter-decrypt-body-failed =
     Неуспешно дешифроване на съобщение с тема
     { $subject }.
     Искате ли да опитате отново с друга парола или искате да пропуснете съобщението?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -472,9 +460,6 @@ filter-key-not-found = Не може да се намери ключ за шиф
 filter-warn-key-not-secret =
     Предупреждение - филтърното действие „Шифроване към ключ“ замества получателите.
     Ако нямате секретния ключ за „{ $desc }“, вече няма да можете да четете имейлите.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -545,12 +530,6 @@ openpgp-export-public-fail = <b>Невъзможност за изнасяне �
 openpgp-export-secret-success = <b>Секретният ключ е изнесен успешно!</b>
 openpgp-export-secret-fail = <b>Невъзможност за изнасяне на избрания секретен ключ!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -566,16 +545,10 @@ key-ring-sign-sub-keys-expired = Всички подключове за подп
 key-ring-enc-sub-keys-revoked = Всички подключове за шифроване на ключ { $userId } (ID на ключ { $keyId }) са отменени.
 key-ring-enc-sub-keys-expired = Всички подключове за шифроване на ключ { $userId } (ID на ключ { $keyId }) са изтекли.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Снимка
 user-att-photo = Потребителски атрибут (JPEG изображение)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -599,9 +572,6 @@ after-revoke-info =
     Веднага щом софтуерът, използван от други хора, научи за анулирането, той ще спре да използва стария ви ключ.
     Ако използвате нов ключ за същия имейл адрес и прикачите новия публичен ключ към имейлите, които изпращате, тогава информацията за вашия отменен стар ключ ще бъде включена автоматично.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Внасяне
@@ -611,9 +581,6 @@ delete-external-key-description = Искате ли да премахнете т
 key-in-use-title = OpenPGP ключът се използва в момента
 delete-key-in-use-description = Не може да се продължи! Ключът, който сте избрали за изтриване, в момента се използва от тази самоличност. Изберете друг ключ или изберете нито един и опитайте отново.
 revoke-key-in-use-description = Не може да се продължи! Ключът, който сте избрали за анулиране, в момента се използва от тази самоличност. Изберете друг ключ или изберете нито един и опитайте отново.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -625,30 +592,18 @@ key-error-key-id-not-found = Конфигурираният идентифика
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Не сте потвърдили, че ключът с ID ‘{ $keySpec }’ е вашият личен ключ.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Функцията, която сте избрали, не е налична в офлайн режим. Моля, влезте онлайн и опитайте отново.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Не успяхме да намерим използваем ключ, отговарящ на посочените критерии за търсене.
 no-update-found = Вече имате ключовете, които бяха открити онлайн.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Грешка - командата за извличане на ключ е неуспешна
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -782,9 +737,6 @@ cannot-send-sig-because-no-own-key = Не може да се подпише ци
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Това съобщение не може да бъде изпратено шифровано, тъй като все още не сте конфигурирали шифроване от край до край за <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -808,15 +760,9 @@ attachment-pgp-key =
     Щракнете върху „Внасяне“, за да внесете съдържащите се в него ключове, или върху „Преглед“, за да видите съдържанието на файла
 dlg-button-view = &Преглед
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Грешка - не е необходимо шифроване
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -826,9 +772,6 @@ no-photo-available = Няма налична снимка
 error-photo-path-not-readable = Пътят на снимката „{ $photo }“ не се чете
 debug-log-title = Дневник за отстраняване на грешки на OpenPGP
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &Добре
@@ -837,9 +780,6 @@ dlg-button-cancel = &Отказ
 dlg-no-prompt = Не ми показвай този диалогов прозорец отново
 enig-prompt = Подкана за OpenPGP
 enig-confirm = OpenPGP потвърждение
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

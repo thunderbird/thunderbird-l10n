@@ -295,9 +295,6 @@ key-do-you-accept = Vai jūs pieņemat šo atslēgu digitālo parakstu pārbaude
 cannot-use-own-key-because = Neizdevās nosūtīt vēstuli, jo radās problēma ar jūsu personīgo atslēgu. { $problem }
 window-locked = Salikšanas logs ir bloķēts; sūtīšana atcelta
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Pārtraukts
@@ -309,9 +306,6 @@ keyserver-error-security-error = Atslēgu serveris neatbalsta šifrētu piekļuv
 keyserver-error-certificate-error = Atslēgu servera sertifikāts nav derīgs.
 keyserver-error-unsupported = Atslēgu serveris nav atbalstīts.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -321,9 +315,6 @@ wkd-message-body-process =
     Šis ir saistīts epasts, lai automātiski apstrādātu augšuplādēto publisko atslēgu OpenPGP Tīmekļa atslēgu katalogā.
     Šobrīd jums nav jāveic nekādas manuālas darbības.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -332,9 +323,6 @@ converter-decrypt-body-failed =
     Neizdevās atšifrēt ziņojumu ar tēmu
     { $subject }.
     Vai vēlaties mēģināt vēlreiz, izmantojot citu paroli, vai arī vēlaties izlaist vēstuli?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -352,9 +340,6 @@ filter-key-not-found = Neizdevās atrast '{ $desc }' šifrēšanas atslēgu.
 filter-warn-key-not-secret =
     Brīdinājums - filtrēšanas darbība "Šifrēt uz atslēgu" aizstāj adresātus.
     Ja jums nav slepenās atslēgas priekš '{ $desc }', jūs vairs nevarēsiet lasīt šos epastus.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -426,12 +411,6 @@ openpgp-export-public-fail = <b>Neizdevās eksportēt atlasīto publisko atslēg
 openpgp-export-secret-success = <b>Slepenā atslēga ir veiksmīgi eksportēta!</b>
 openpgp-export-secret-fail = <b>Neizdevās eksportēt atlasīto slepeno atslēgu!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -447,16 +426,10 @@ key-ring-sign-sub-keys-expired = Visas atslēgas { $userId } (atslēgas ID { $ke
 key-ring-enc-sub-keys-revoked = Visas atslēgas { $userId } (atslēgas ID { $keyId }) šifrēšanas apakšatslēgas ir atsauktas.
 key-ring-enc-sub-keys-expired = Visas atslēgas { $userId } (atslēgas ID { $keyId }) šifrēšanas apakšatslēgas ir beigušās.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Foto
 user-att-photo = Lietotāja atribūts (JPEG attēls)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -480,9 +453,6 @@ after-revoke-info =
     Tiklīdz citu cilvēku izmantotā programmatūra uzzinās par atsaukšanu, tās pārtrauks izmantot jūsu veco atslēgu.
     Ja izmantojat jauno atslēgu tai pašai epasta adresei, pievienojiet jauno publisko atslēgu sūtītajiem epastiem un informācija par jūsu atsaukto veco atslēgu tiks iekļauta automātiski.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Importēt
@@ -492,9 +462,6 @@ delete-external-key-description = Vai vēlaties noņemt šo ārējās GnuPG atsl
 key-in-use-title = OpenPGP atslēga pašlaik tiek izmantota
 delete-key-in-use-description = Nevar turpināt! Šī identitāte pašlaik izmanto dzēšanai izvēlēto atslēgu. Atlasiet citu vai nevienu atslēgu un mēģiniet vēlreiz.
 revoke-key-in-use-description = Nevar turpināt! Šī identitāte pašlaik izmanto atsaukšanai izvēlēto atslēgu. Atlasiet citu vai nevienu atslēgu un mēģiniet vēlreiz.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -506,28 +473,13 @@ key-error-key-id-not-found = Iestatītais atslēgas ID '{ $keySpec }' jūsu atsl
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Jūs neesat apstiprinājis, ka atslēga ar ID '{ $keySpec }' ir jūsu personīgā atslēga.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Jūsu izvēlētā darbība nav pieejama nesaistes režīmā. Lūdzu, dodieties tiešsaistē un mēģiniet vēlreiz.
 
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
-
-## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
-
-
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Kļūda - atslēgas izvilkšanas komanda neizdevās
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -540,9 +492,6 @@ fail-key-import = Kļūda - atslēgas importēšana neizdevās
 file-write-failed = Neizdevās rakstīt failā { $output }
 no-pgp-block = Kļūda - nav atrasts derīgs bruņots OpenPGP datu bloks
 confirm-permissive-import = Importēšana neizdevās. Importējamā atslēga var būt bojāta vai izmantot nezināmus atribūtus. Vai vēlaties mēģināt importēt pareizās daļas? Var gadīties, ka tad tiks importētas nepilnīgas un nelietojamas atslēgas.
-
-## Strings used in trust.jsm
-
 
 ## Strings used in trust.sys.mjs
 
@@ -646,9 +595,6 @@ cannot-send-sig-because-no-own-key = Šo vēstuli nevar digitāli parakstīt, jo
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Šo vēstuli nevar nosūtīt šifrētu, jo vēl neesat iestatījis tiešās saziņas šifrēšanu priekš <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -672,15 +618,9 @@ attachment-pgp-key =
     Lai importētu ietvertās atslēgas, klikšķiniet 'Importēt', vai 'Skatīt', lai skatītu faila saturu pārlūkā.
 dlg-button-view = &Skatīt
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Kļūda - šifrēšana nav nepieciešama
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -690,9 +630,6 @@ no-photo-available = Foto nav pieejams
 error-photo-path-not-readable = Foto ceļš '{ $photo }' nav lasāms
 debug-log-title = OpenPGP atkļūdošanas žurnāls
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &LABI
@@ -701,9 +638,6 @@ dlg-button-cancel = At&celt
 dlg-no-prompt = Turpmāk vairs nerādīt šo dialogu.
 enig-prompt = OpenPGP uzvedne
 enig-confirm = OpenPGP apstiprinājums
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

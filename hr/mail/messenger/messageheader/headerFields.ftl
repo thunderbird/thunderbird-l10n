@@ -66,6 +66,3 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Više
     .title = Prikaži sve primatelje
 message-ids-field-show-all = Prikaži sve
-
-## Dark Message Mode
-

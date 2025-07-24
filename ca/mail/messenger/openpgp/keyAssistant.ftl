@@ -3,15 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Encryption status
-
-
-## Resolve section
-
-
-## Discovery section
-
-
 ## Dialog buttons
 
 openpgp-key-assistant-issue-resolve-button = Resol…

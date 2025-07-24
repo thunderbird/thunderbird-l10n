@@ -9,9 +9,6 @@ pane-chat-title = Chat
 category-chat =
     .tooltiptext = Chat
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 focus-search-shortcut =
@@ -200,13 +197,6 @@ display-tags-text = Les etiquetes puen usase pa categorizar y priorizar los tos 
 delete-tag-button =
     .label = Desaniciar
     .accesskey = r
-
-## Note: This will concatenate to "After displaying for [___] seconds",
-## using (mark-read-delay) and a number (seconds-label).
-
-
-##
-
 
 ## Compose Tab
 
@@ -412,15 +402,3 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = Desaminar…
     .accesskey = s
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

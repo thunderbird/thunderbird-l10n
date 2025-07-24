@@ -415,9 +415,6 @@ key-verification = Verifikoni shenjat e gishtave të kyçit duke përdorur një 
 cannot-use-own-key-because = S’arrihet të dërgohet mesazhi, ngaqë ka një problem me kyçin tuaj personal. { $problem }
 window-locked = Dritarja e hartimeve është e kyçur; dërgimi u anulua
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = U ndërpre
@@ -429,9 +426,6 @@ keyserver-error-security-error = Shërbyesi i kyçeve nuk mbulon hyrje të fsheh
 keyserver-error-certificate-error = Dëshmia e shërbyesit të kyçeve s’është e vlefshme.
 keyserver-error-unsupported = Shërbyesi i kyçeve nuk mbulohet.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -441,9 +435,6 @@ wkd-message-body-process =
     Ky është një email i lidhur me përpunimin e automatizuar për të ngarkuar kyçin tuaj publik te Drejtoria Web e Kyçeve OpenPGP.
     Nuk ju duhet të ndërmerrni ndonjë veprim dorazi në këtë pikë.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -452,9 +443,6 @@ converter-decrypt-body-failed =
     S’u shfshehtëzua dot mesazh me subjektin
     { $subject }.
     Doni të riprovohet me një frazëkalim tjetër apo doni të anashkalohet mesazhi?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -472,9 +460,6 @@ filter-key-not-found = S’u gjet dot kyç i fshehtëzuar për '{ $desc }'.
 filter-warn-key-not-secret =
     Kujdes - veprimi i filtrit “Fshehtëzoje me kyçin” zëvendëson marrësit.
     Nëse s’keni kyçin e fshehtë për '{ $desc }', s’do të jeni më në gjendje të lexoni email-et.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -546,12 +531,6 @@ openpgp-export-public-fail = <b>S’arrihet të eksportohet kyçi publik i përz
 openpgp-export-secret-success = <b>Kyçi i Dshehtë u eksportua me sukses!</b>
 openpgp-export-secret-fail = <b>S’arrihet të eksportohet kyçi i fshehtë i përzgjedhur!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -567,16 +546,10 @@ key-ring-sign-sub-keys-expired = Kanë skaduar krejt nënkyçet e nënshkrimit t
 key-ring-enc-sub-keys-revoked = Janë shfuqizuar krejt nënkyçet e fshehtëzimit të kyçit { $userId } (ID kyçi { $keyId }).
 key-ring-enc-sub-keys-expired = Kanë skaduar krejt nënkyçet e fshehtëzimit të kyçit { $userId } (ID kyçi { $keyId }).
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Foto
 user-att-photo = Atribut përdoruesi (figurë JPEG)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -600,9 +573,6 @@ after-revoke-info =
     Sapo software-i përdorur nga persona të tjerë mëson rreth shfuqizimit, do të reshtë së përdorur kyçin tuaj të vjetër.
     Nëse po përdorni një kyç të ri për të njëjtën adresë email dhe bashkëngjitni kyçin e ri publik te email-e që dërgoni, atëherë informacioni rreth kyçit tuaj të dikurshëm të shfuqizuar do të përfshihet automatikisht.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Importo
@@ -612,9 +582,6 @@ delete-external-key-description = Doni të hiqet kjo ID kyçi të  Jashtëm GnuP
 key-in-use-title = Kyç OpenPGP aktualisht në përdorim
 delete-key-in-use-description = S’arrihet të bëhet! Kyçi që përzgjodhët për fshirje është aktualisht në përdorim nga ky identitet. Përzgjidhni një kyç tjetër, ose mos përzgjidhni ndonjë dhe riprovoni.
 revoke-key-in-use-description = S’arrihet të bëhet! Kyçi që përzgjodhët për shfuqizim është aktualisht në përdorim nga ky identitet. Përzgjidhni një kyç tjetër, ose mos përzgjidhni ndonjë dhe riprovoni.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -626,30 +593,18 @@ key-error-key-id-not-found = ID-ja e kyçit të formësuar '{ $keySpec }' s’mu
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = S’keni ripohuar se kyçi me ID-në '{ $keySpec }' është kyç i juaji personal.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Funksioni që keni përzgjedhur s’mund të përdoret nën mënyrën jo i lidhur. Ju lutemi, lidhuni në internet dhe riprovoni.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = S’gjetëm dot ndonjë kyç të përdorshëm me përputhje me kriterin e dhënë të kërkimit.
 no-update-found = Keni tashmë kyçet që u zbuluan në internet.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Gabim - urdhri për përftim kyçi dështoi
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -783,9 +738,6 @@ cannot-send-sig-because-no-own-key = S’nënshkruhet dot në mënyrë dixhitale
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = S’mund të dërgohet i fshehtëzuar ky mesazh, ngaqë s’keni formësuar ende fshehtëzim skaj-më-skaj për <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -809,15 +761,9 @@ attachment-pgp-key =
     Klikoni mbi “Importoje” që të importohen kyçet që përmban, ose “Shiheni” që të shihni lëndën e kartelës në një dritare shfletuesi
 dlg-button-view = &Shiheni
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Gabimi - s’lyp fshehtëzim
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -827,9 +773,6 @@ no-photo-available = S’ka Foto
 error-photo-path-not-readable = Shtegu '{ $photo }' për foto s’është i lexueshëm
 debug-log-title = Regjistër Diagnostikimi OpenPGP-je
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &OK
@@ -838,9 +781,6 @@ dlg-button-cancel = &Anuloje
 dlg-no-prompt = Mos ma shfaq më këtë dialog
 enig-prompt = Kërkesë OpenPGP
 enig-confirm = Ripohim OpenPGP
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

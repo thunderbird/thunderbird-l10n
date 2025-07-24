@@ -95,10 +95,6 @@ about-addressbook-confirm-delete-contacts-title =
        *[other] Ջնջել կապորդները
     }
 
-## Card list placeholder
-## Shown when there are no cards in the list
-
-
 ## Details
 
 about-addressbook-write-action-button = Գրել

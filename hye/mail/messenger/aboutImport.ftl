@@ -82,12 +82,3 @@ csv-target-field = Հասցէագրքի դաշտ
 
 export-open-profile-folder = Բացել հաշուի թղթապանակը
 export-brand-name = { -brand-product-name }
-
-## Summary pane
-
-
-## Footer area
-
-
-## Step navigation on top of the wizard pages
-

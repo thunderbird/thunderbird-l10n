@@ -761,9 +761,3 @@ synced-acount-item-filters = Филтери
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Синхронизујте налоге е-поште, именике, календаре и идентитете на свим вашим уређајима.
 sync-disconnected-turn-on-sync = Укључи синхронизацију…
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

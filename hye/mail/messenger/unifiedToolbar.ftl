@@ -6,9 +6,6 @@
 ### Unified Toolbar strings
 
 
-## Search bar
-
-
 ## Unified toolbar context menu
 
 customize-menu-customize =
@@ -35,9 +32,3 @@ customize-space-tab-chat = Զրուցարան
 customize-space-tab-settings = Կարգաւորումներ
     .title = Կարգաւորումներ
 customize-button-style-icons-beside-text-option = Պատկերները գրոյթի կողքին
-
-## Unified toolbar customization palette context menu
-
-
-## Unified toolbar customization target context menu
-

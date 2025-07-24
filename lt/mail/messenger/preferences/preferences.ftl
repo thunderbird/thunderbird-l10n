@@ -645,12 +645,6 @@ chat-variant-label =
 search-results-header = Paieškos rezultatai
 search-results-help-link = Reikia pagalbos? Aplankykite <a data-l10n-name="url">„{ -brand-short-name }“</a>
 
-## Sync Tab
-
-
 ## Mobile QR Export Pane
 
 qr-export-start-export = Eksportuoti
-
-## Appearance Tab
-

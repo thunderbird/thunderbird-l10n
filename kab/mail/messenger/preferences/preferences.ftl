@@ -721,9 +721,3 @@ show-synced-item-calendar = Iwitayen
 show-synced-item-identity = Timagin
 show-synced-item-passwords = Awalen uffiren
 show-synced-change = Snifel...
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

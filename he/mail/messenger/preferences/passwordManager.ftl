@@ -41,6 +41,3 @@ remove-all-shown =
     .accesskey = מ
 remove-all-passwords-title = הסרת כל הססמאות
 no-master-password-prompt = האם ברצונך להציג את הססמאות שלך?
-
-## OS Authentication dialog
-

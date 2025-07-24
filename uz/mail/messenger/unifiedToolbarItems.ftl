@@ -35,6 +35,3 @@ toolbar-stop =
 toolbar-throbber-label = Faoliyat indikatori
 toolbar-throbber =
     .title = Faoliyat indikatori
-
-## New Address Book popup items
-

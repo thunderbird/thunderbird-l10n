@@ -14,9 +14,6 @@ pane-calendar-title = Kalendar
 category-calendar =
     .tooltiptext = Kalendar
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 focus-search-shortcut =
@@ -506,15 +503,3 @@ no-preview-description = Ova tema nije važeća ili trenutno nije dostupna (onem
 chat-variant-label =
     .value = Varijanta:
     .accesskey = V
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

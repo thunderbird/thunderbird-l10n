@@ -415,9 +415,6 @@ key-verification = Verify the fingerprint of the key using a secure communicatio
 cannot-use-own-key-because = Unable to send the message, because there is a problem with your personal key. { $problem }
 window-locked = Compose window is locked; send cancelled
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Aborted
@@ -429,9 +426,6 @@ keyserver-error-security-error = The keyserver does not support encrypted access
 keyserver-error-certificate-error = The keyserver’s certificate is not valid.
 keyserver-error-unsupported = The keyserver is not supported.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -441,9 +435,6 @@ wkd-message-body-process =
     This is an email related to the automatic processing to upload your public key to the OpenPGP Web Key Directory.
     You do not need to take any manual action at this point.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -452,9 +443,6 @@ converter-decrypt-body-failed =
     Could not decrypt message with subject
     { $subject }.
     Do you want to retry with a different passphrase or do you want to skip the message?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -472,9 +460,6 @@ filter-key-not-found = Could not find an encryption key for “{ $desc }”.
 filter-warn-key-not-secret =
     Warning - the filter action “Encrypt to key” replaces the recipients.
     If you do not have the secret key for “{ $desc }” you will no longer be able to read the emails.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -545,12 +530,6 @@ openpgp-export-public-fail = <b>Unable to export the selected public key!</b>
 openpgp-export-secret-success = <b>Secret Key successfully exported!</b>
 openpgp-export-secret-fail = <b>Unable to export the selected secret key!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -566,16 +545,10 @@ key-ring-sign-sub-keys-expired = All signing-subkeys of key { $userId } (key ID 
 key-ring-enc-sub-keys-revoked = All encryption subkeys of key { $userId } (key ID { $keyId }) are revoked.
 key-ring-enc-sub-keys-expired = All encryption subkeys of key { $userId } (key ID { $keyId }) have expired.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Photo
 user-att-photo = User attribute (JPEG image)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -599,9 +572,6 @@ after-revoke-info =
     As soon as the software used by other people learns about the revocation, it will stop using your old key.
     If you are using a new key for the same email address, and you attach the new public key to emails you send, then information about your revoked old key will be automatically included.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Import
@@ -611,9 +581,6 @@ delete-external-key-description = Do you want to remove this External GnuPG key 
 key-in-use-title = OpenPGP Key currently in use
 delete-key-in-use-description = Unable to proceed! The Key you selected for deletion is currently being used by this identity. Select a different key, or select none, and try again.
 revoke-key-in-use-description = Unable to proceed! The Key you selected for revocation is currently being used by this identity. Select a different key, or select none, and try again.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -625,30 +592,18 @@ key-error-key-id-not-found = The configured key ID “{ $keySpec }” cannot be 
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = You have not confirmed that the key with ID “{ $keySpec }” is your personal key.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = The function you have selected is not available in offline mode. Please go online and try again.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = We couldn’t find any usable key matching the specified search criteria.
 no-update-found = You already have the keys that were discovered online.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Error - key extraction command failed
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -782,9 +737,6 @@ cannot-send-sig-because-no-own-key = Cannot digitally sign this message, because
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Cannot send this message encrypted, because you haven’t yet configured end-to-end encryption for <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -808,15 +760,9 @@ attachment-pgp-key =
     Click Import to import the keys contained or View to view the file contents in a browser window
 dlg-button-view = &View
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Error - no encryption required
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -826,9 +772,6 @@ no-photo-available = No Photo available
 error-photo-path-not-readable = Photo path “{ $photo }” is not readable
 debug-log-title = OpenPGP Debug Log
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &OK
@@ -837,9 +780,6 @@ dlg-button-cancel = &Cancel
 dlg-no-prompt = Do not show me this dialog again
 enig-prompt = OpenPGP Prompt
 enig-confirm = OpenPGP Confirmation
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

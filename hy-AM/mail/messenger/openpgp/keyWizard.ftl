@@ -19,9 +19,3 @@ openpgp-keygen-dismiss =
     .label = Չեղարկել
 openpgp-keygen-cancel =
     .label = Չեղարկել ընթացքը…
-
-## Import Key section
-
-
-## External Key section
-

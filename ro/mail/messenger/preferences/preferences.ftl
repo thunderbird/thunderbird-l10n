@@ -627,12 +627,3 @@ chat-variant-label =
 
 search-results-header = Rezultatele căutării
 search-results-help-link = Ai nevoie de ajutor? Intră pe <a data-l10n-name="url">Asistență { -brand-short-name }</a>
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

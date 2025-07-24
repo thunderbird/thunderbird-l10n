@@ -116,9 +116,6 @@ progress-pane-finished-desc2 = Завршено.
 error-pane-title = Грешка
 error-message-zip-file-too-big2 = Изабрана ZIP датотека је већа од 2GB. Прво је распакујте, а потом увезите из распаковане фасцикле.
 
-## <csv-field-map> element
-
-
 ## Export tab
 
 export-brand-name = { -brand-product-name }

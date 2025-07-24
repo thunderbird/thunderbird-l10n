@@ -150,9 +150,6 @@ account-setup-insecure-server-checkbox = Aš suprantu pavojus
 
 exchange-dialog-cancel-button = Atšaukti
 
-## Dismiss account creation dialog
-
-
 ## Alert dialogs
 
 account-setup-creation-error-title = Klaida kuriant paskyrą
@@ -162,9 +159,3 @@ account-setup-confirm-advanced-description = Šis dialogo langas bus užvertas i
 ## Addon installation section
 
 account-setup-addon-install-title = Įdiegti
-
-## Success view
-
-
-## Calendar synchronization dialog
-

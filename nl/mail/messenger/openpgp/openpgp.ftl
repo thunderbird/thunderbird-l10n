@@ -418,9 +418,6 @@ key-verification = Controleer de vingerafdruk van de sleutel met een ander bevei
 cannot-use-own-key-because = Kan het bericht niet verzenden, omdat er een probleem is met uw persoonlijke sleutel. { $problem }
 window-locked = Het opstelvenster is vergrendeld; verzenden geannuleerd
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Afgebroken
@@ -432,9 +429,6 @@ keyserver-error-security-error = De sleutelserver ondersteunt geen versleutelde 
 keyserver-error-certificate-error = Het certificaat van de sleutelserver is niet geldig.
 keyserver-error-unsupported = De sleutelserver wordt niet ondersteund.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -444,9 +438,6 @@ wkd-message-body-process =
     Dit is een e-mailbericht voor de automatische verwerking om uw publieke sleutel te uploaden naar de OpenPGP Web Key Directory.
     U hoeft op dit moment geen handmatige actie te ondernemen.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -455,9 +446,6 @@ converter-decrypt-body-failed =
     Kan bericht met onderwerp { $subject }
     niet ontsleutelen.
     Wilt u het opnieuw proberen met een andere wachtwoordzin of wilt u het bericht overslaan?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -475,9 +463,6 @@ filter-key-not-found = Kan geen versleutelingssleutel vinden voor ‘{ $desc }�
 filter-warn-key-not-secret =
     Waarschuwing – de filteractie ‘Versleutelen naar sleutel’ vervangt de ontvangers.
     Als u de geheime sleutel voor ‘{ $desc }’ niet hebt, kunt u de e-mailberichten niet meer lezen.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -548,12 +533,6 @@ openpgp-export-public-fail = <b>Kan de geselecteerde publieke sleutel niet expor
 openpgp-export-secret-success = <b>Geheime sleutel met succes geëxporteerd!</b>
 openpgp-export-secret-fail = <b>Kan de geselecteerde geheime sleutel niet exporteren!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -569,16 +548,10 @@ key-ring-sign-sub-keys-expired = Alle ondertekeningssubsleutels van sleutel { $u
 key-ring-enc-sub-keys-revoked = Alle versleutelingssubsleutels van sleutel { $userId } (sleutel-ID { $keyId }) zijn ingetrokken.
 key-ring-enc-sub-keys-expired = Alle versleutelingssubsleutels van sleutel { $userId } (sleutel-ID { $keyId }) zijn vervallen.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Foto
 user-att-photo = Gebruikerskenmerk (JPEG-afbeelding)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -602,9 +575,6 @@ after-revoke-info =
     Zodra de software die door andere mensen wordt gebruikt over de intrekking wordt geïnformeerd, zal deze uw oude sleutel niet meer gebruiken.
     Als u een nieuwe sleutel gebruikt voor hetzelfde e-mailadres en u voegt de nieuwe publieke sleutel toe aan e-mailberichten die u verzendt, dan wordt automatisch informatie over uw ingetrokken oude sleutel toegevoegd.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Importeren
@@ -614,9 +584,6 @@ delete-external-key-description = Wilt u deze externe GnuPG-sleutel-ID verwijder
 key-in-use-title = OpenPGP-sleutel wordt momenteel gebruikt
 delete-key-in-use-description = Kan niet doorgaan! De sleutel die u hebt geselecteerd voor verwijdering wordt momenteel gebruikt door deze identiteit. Selecteer een andere sleutel of selecteer er geen en probeer het opnieuw.
 revoke-key-in-use-description = Kan niet doorgaan! De sleutel die u hebt geselecteerd voor intrekking wordt momenteel gebruikt door deze identiteit. Selecteer een andere sleutel of selecteer er geen en probeer het opnieuw.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -628,30 +595,18 @@ key-error-key-id-not-found = De geconfigureerde sleutel-ID ‘{ $keySpec }’ ka
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = U heeft niet bevestigd dat de sleutel met ID ‘{ $keySpec }’ uw persoonlijke sleutel is.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = De geselecteerde functie is niet beschikbaar in de offlinemodus. Ga online en probeer het opnieuw.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = We kunnen geen bruikbare sleutel vinden die overeenkomt met de opgegeven zoekcriteria.
 no-update-found = U hebt de sleutels die online zijn gevonden al.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Fout – sleutelextractieopdracht mislukt
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -785,9 +740,6 @@ cannot-send-sig-because-no-own-key = Kan dit bericht niet digitaal ondertekenen,
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Kan dit bericht niet versleuteld verzenden, omdat u nog geen end-to-end-versleuteling voor <{ $key }> heeft geconfigureerd
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -811,15 +763,9 @@ attachment-pgp-key =
     Klik op ‘Importeren’ om de sleutels te importeren of op ‘Weergeven’ om de inhoud van het bestand in een browservenster te bekijken
 dlg-button-view = &Weergeven
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Fout – geen versleuteling vereist
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -829,9 +775,6 @@ no-photo-available = Geen foto beschikbaar
 error-photo-path-not-readable = Fotopad ‘{ $photo }’ is niet leesbaar
 debug-log-title = OpenPGP-debuglogboek
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &OK
@@ -840,9 +783,6 @@ dlg-button-cancel = &Annuleren
 dlg-no-prompt = Dit dialoogvenster niet meer tonen
 enig-prompt = OpenPGP-vraag
 enig-confirm = OpenPGP-bevestiging
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

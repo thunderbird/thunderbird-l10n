@@ -13,10 +13,3 @@ subject-checkbox =
 sender-checkbox =
     .label = ਭੇਜਣ ਵਾਲਾ
     .accesskey = e
-
-## Note: open-time-label-before is displayed first, then there's a field where
-## the user can enter a number, and open-time-label-after is displayed at the end
-## of the line. The translations of the open-time-label-before and open-time-label-after
-## parts don't have to mean the exact same thing as in English; please try instead
-## to translate the whole sentence.
-

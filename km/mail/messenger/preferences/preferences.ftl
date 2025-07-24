@@ -9,9 +9,6 @@ pane-chat-title = ជជែក
 category-chat =
     .tooltiptext = ជជែក
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 focus-search-shortcut =
@@ -432,15 +429,3 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = រក​មើល…
     .accesskey = B
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

@@ -28,9 +28,6 @@ openpgp-key-assistant-key-source =
 openpgp-key-assistant-key-collected-attachment = e-postvedlegg
 openpgp-key-assistant-key-collected-keyserver = nøkkelsørvar
 
-## Discovery section
-
-
 ## Dialog buttons
 
 openpgp-key-assistant-issue-resolve-button = Løys…

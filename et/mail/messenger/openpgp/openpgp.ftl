@@ -354,9 +354,6 @@ key-verification = Kontrolli võtme sõrmejälge, kasutades muud turvalist sidek
 cannot-use-own-key-because = Kirja saatmine pole võimalik, sest esineb probleem sinu isikliku võtmega. { $problem }
 window-locked = Koostamise aken on lukus, saatmine katkestati
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Katkestatud
@@ -368,9 +365,6 @@ keyserver-error-security-error = Võtmeserver ei toeta krüptitud ligipääsu.
 keyserver-error-certificate-error = Võtmeserveri sert ei kehti.
 keyserver-error-unsupported = Võtmeserver pole toetatud.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -380,9 +374,6 @@ wkd-message-body-process =
     See kiri on seotud teie avaliku võtme veebis olevasse OpenPGP võtmete kataloogi lisamise taotluse automaatse töötlemisega.
     Praegu ei ole sul vaja täiendavaid tegevusi teha.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -391,9 +382,6 @@ converter-decrypt-body-failed =
     Kirja pealkirjaga { $subject }
     polnud võimalik dekrüptida.
     Kas soovid proovida teise parooliga või jätta selle kirja vahele?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -411,9 +399,6 @@ filter-key-not-found = Krüpteerimisvõtit ‘{ $desc }’ jaoks ei leitud.
 filter-warn-key-not-secret =
     Hoiatus - filtri tegevus "Krüpteeri võtmega" asendab saajad.
     Kui sul puudub ‘{ $desc }’ jaoks salajane võti, siis pole sul enam võimalik neid kirju lugeda.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -482,12 +467,6 @@ openpgp-export-public-fail = <b>Valitud avalikku võtit pole võimalik eksportid
 openpgp-export-secret-success = <b>Salajane võti edukalt eksporditud!</b>
 openpgp-export-secret-fail = <b>Valitud salajast võtit pole võimalik eksportida!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -503,16 +482,10 @@ key-ring-sign-sub-keys-expired = Kõik võtme { $userId } (võtme ID { $keyId })
 key-ring-enc-sub-keys-revoked = Kõik võtme { $userId } (võtme ID { $keyId }) krüptimise alamvõtmed on tühistatud.
 key-ring-enc-sub-keys-expired = Kõik võtme { $userId } (võtme ID { $keyId }) krüptimise alamvõtmed on aegunud.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Pilt
 user-att-photo = Kasutaja atribuut (JPEG-pilt)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -536,9 +509,6 @@ after-revoke-info =
     Kohe, kui teiste poolt kasutatav tarkvara saab teada võtme tühistamisest, lõpetab see sinu vana võtme kasutamise.
     Kui oled kasutamas uut võtit sama e-posti aadressi jaoks ja lisad selle avaliku võtme oma saadetavatele kirjadele, siis lisatakse automaatselt ka info vana võtme tühistamise kohta.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Impordi
@@ -548,9 +518,6 @@ delete-external-key-description = Kas soovid eemaldada selle välise GnuPG võtm
 key-in-use-title = OpenPGP võti on praegu kasutusel
 delete-key-in-use-description = Pole võimalik jätkata! Võti, mille valisid kustutamiseks, on praegu selle identiteedi poolt kasutuses. Vali teine võti või vali mitte ükski ja proovi siis uuesti.
 revoke-key-in-use-description = Pole võimalik jätkata! Võti, mille valisid tühistamiseks, on praegu selle identiteedi poolt kasutuses. Vali teine võti või vali mitte ükski ja proovi siis uuesti.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -562,30 +529,18 @@ key-error-key-id-not-found = Seadistatud võtit ‘{ $keySpec }’ pole võimali
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Sa pole kinnitanud, et võti IDga ‘{ $keySpec }’ on sinu isiklik võti.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Valitud funktsionaalsus pole võrguta režiimis saadaval. Palun ühendu võrku ja proovi siis uuesti.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Me ei leidnud otsingule vastavat kasutatavat võtit.
 no-update-found = Sul on juba võrgust leitud võtmed olemas.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Viga - võtme eksportimise käsk ebaõnnestus
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -705,9 +660,6 @@ cannot-send-sig-because-no-own-key = Seda kirja pole võimalik digitaalselt allk
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Seda kirja pole võimalik krüptitult saata, sest sa pole veel seadistanud otspunktkrüptimist võtme <{ $key }> jaoks
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -731,15 +683,9 @@ attachment-pgp-key =
     Võtmete importimiseks klõpsa ‘Impordi’ või faili sisu avamiseks brauseris klõpsa ‘Vaata’
 dlg-button-view = &Vaata
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Viga - krüptimine pole nõutud
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -749,9 +695,6 @@ no-photo-available = Pilt pole saadaval
 error-photo-path-not-readable = Pildi asukoht ‘{ $photo }’ pole loetav
 debug-log-title = OpenPGP silumislogi
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &Sobib
@@ -760,9 +703,6 @@ dlg-button-cancel = &Loobu
 dlg-no-prompt = Seda akent rohkem ei näidata
 enig-prompt = OpenPGP dialoog
 enig-confirm = OpenPGP kinnitus
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

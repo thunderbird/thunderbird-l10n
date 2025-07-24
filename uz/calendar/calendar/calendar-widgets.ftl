@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Side panel
-
-
 ## Calendar navigation
 
 calendar-view-toggle-day = Kun
@@ -16,9 +13,6 @@ calendar-view-toggle-multiweek = Ko‘p haftalik
     .title = Ko‘p haftalik ko‘rinishga o‘tish
 calendar-view-toggle-month = Oy
     .title = Oylik ko‘rinishga o‘tish
-
-## Menu on calendar control bar
-
 
 ## Calendar Context Menu
 

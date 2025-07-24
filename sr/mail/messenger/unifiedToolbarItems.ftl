@@ -142,6 +142,3 @@ toolbar-stop =
 toolbar-throbber-label = Показивач активности
 toolbar-throbber =
     .title = Показивач активности
-
-## New Address Book popup items
-

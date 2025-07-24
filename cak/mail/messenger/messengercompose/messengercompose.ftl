@@ -24,16 +24,6 @@ pill-action-move-bcc =
     .label = Tisilöx pa Bcc
     .accesskey = B
 
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
-## Reorder Attachment Panel
-
-
 ## Encryption
 
 encryption-menu =
@@ -63,15 +53,6 @@ cc-address-row-label =
 bcc-address-row-label =
     .value = Bcc
 many-public-recipients-prompt-cancel = Tiq'at Rutaqik
-
-## Notifications
-
-
-## Editing
-
-
-# Tools
-
 
 ## Filelink
 

@@ -72,6 +72,3 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Meir
     .title = Vis alle mottakarar
 message-ids-field-show-all = Vis alle
-
-## Dark Message Mode
-

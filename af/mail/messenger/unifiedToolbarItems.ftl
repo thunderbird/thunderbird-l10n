@@ -17,6 +17,3 @@ toolbar-stop =
 toolbar-throbber-label = Aktiwitietaanwyser
 toolbar-throbber =
     .title = Aktiwitietaanwyser
-
-## New Address Book popup items
-

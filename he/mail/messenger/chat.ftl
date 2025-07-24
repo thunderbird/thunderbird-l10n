@@ -13,6 +13,3 @@ chat-verify-identity =
     .accesskey = א
 chat-identity-verified =
     .label = הזהות כבר אומתה
-
-## Conversation invite notification box
-

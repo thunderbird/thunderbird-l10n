@@ -67,7 +67,7 @@ calendar-view-toggle-week = Semaine
     .title = Afficher la semaine
 calendar-view-toggle-multiweek = Multisemaine
     .title = Afficher plusieurs semaines
-calendar-view-toggle-month =   Mois  
+calendar-view-toggle-month = { "  " }Mois{ "  " }
     .title = Afficher le mois
 
 ## Menu on calendar control bar

@@ -840,6 +840,3 @@ qr-export-summary-qr-count =
         [few] Generirana su { $count } QR koda
        *[other] Generirano je { $count } QR kodova
     }
-
-## Appearance Tab
-

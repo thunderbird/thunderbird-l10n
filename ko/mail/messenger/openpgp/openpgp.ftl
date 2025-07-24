@@ -405,9 +405,6 @@ key-verification = 이메일 이외의 보안 통신 채널을 사용하여 키�
 cannot-use-own-key-because = 개인 키에 문제가 있어 메시지를 보낼 수 없습니다. { $problem }
 window-locked = 작성 창이 잠겨 있습니다. 전송 취소
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = 중단됨
@@ -419,9 +416,6 @@ keyserver-error-security-error = 키 서버는 암호화 된 액세스를 지원
 keyserver-error-certificate-error = 키 서버의 인증서가 유효하지 않습니다.
 keyserver-error-unsupported = 키 서버가 지원되지 않습니다.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -431,9 +425,6 @@ wkd-message-body-process =
     OpenPGP 웹 키 디렉토리에 공개 키를 업로드하기 위한 자동 처리와 관련된 이메일입니다.
     이 시점에서 수동 조치를 취할 필요가 없습니다.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -442,9 +433,6 @@ converter-decrypt-body-failed =
     제목이 있는 메시지를 복호화할 수 없습니다.
     { $subject }.
     다른 암호로 다시 시도 하시겠습니까, 아니면 메시지를 건너 뛰시겠습니까?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -462,9 +450,6 @@ filter-key-not-found = '{ $desc }'에 대한 암호화 키를 찾을 수 없습�
 filter-warn-key-not-secret =
     경고- "키로 암호화"필터 동작이 수신자를 대체합니다.
     '{ $desc }'에 대한 비밀 키가 없으면 더 이상 이메일을 읽을 수 없습니다.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -535,12 +520,6 @@ openpgp-export-public-fail = <b> 선택한 공개 키를 내보낼 수 없습니
 openpgp-export-secret-success = <b> 비밀 키를 성공적으로 내보냈습니다! </ b>
 openpgp-export-secret-fail = <b> 선택한 비밀 키를 내보낼 수 없습니다! </ b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -556,16 +535,10 @@ key-ring-sign-sub-keys-expired = { $userId } 키 (키 ID { $keyId })의 모든 �
 key-ring-enc-sub-keys-revoked = { $userId } 키 (키 ID { $keyId })의 모든 암호화 하위 키가 취소됩니다.
 key-ring-enc-sub-keys-expired = { $userId } 키 (키 ID { $keyId })의 모든 암호화 하위 키가 만료되었습니다.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = 사진
 user-att-photo = 사용자 속성 (JPEG 이미지)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -589,9 +562,6 @@ after-revoke-info =
     다른 사람이 사용하는 소프트웨어가 폐기 사실을 알게 되는 즉시 이전 키 사용이 중지됩니다.
     동일한 이메일 주소에 새 키를 사용하고 보내는 이메일에 새 공개 키를 첨부하면 폐기된 이전 키에 대한 정보가 자동으로 포함됩니다.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = 가져오기
@@ -601,9 +571,6 @@ delete-external-key-description = 이 외부 GnuPG 키 ID를 제거 하시겠습
 key-in-use-title = 현재 사용중인 OpenPGP 키
 delete-key-in-use-description = 계속할 수 없습니다! 삭제하려고 선택한 키는 현재 ID에서 사용 중입니다. 다른 키를 선택하거나 없음을 선택하고 다시 시도하십시오.
 revoke-key-in-use-description = 계속할 수 없습니다! 취소를 위해 선택한 키는 현재 ID에서 사용 중입니다. 다른 키를 선택하거나 없음을 선택하고 다시 시도하십시오.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -615,30 +582,18 @@ key-error-key-id-not-found = 구성된 키 ID '{ $keySpec }'을 키링에서 찾
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = ID가 '{ $keySpec }'인 키가 개인 키인지 확인하지 않았습니다.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = 선택한 기능은 오프라인 모드에서 사용할 수 없습니다. 온라인에 접속하여 다시 시도하십시오.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = 지정된 검색 기준과 일치하는 사용할 수 있는 키를 찾을 수 없습니다.
 no-update-found = 온라인에서 발견한 키를 이미 가지고 있습니다.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = 오류 - 키 추출 명령 실패
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -772,9 +727,6 @@ cannot-send-sig-because-no-own-key = <{ $key }>에 대해 종단 간 암호화�
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = <{ $key }>에 대한 종단 간 암호화를 아직 구성하지 않았으므로 이 메시지를 암호화하여 보낼 수 없음
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -798,15 +750,9 @@ attachment-pgp-key =
     포함 된 키를 가져 오려면 '가져 오기'를 클릭하고 브라우저 창에서 파일 내용을 보려면 '보기'를 클릭하세요.
 dlg-button-view = 보기
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = 오류 - 암호화 불필요
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -816,9 +762,6 @@ no-photo-available = 사용 가능한 사진 없음
 error-photo-path-not-readable = '{ $photo }' 사진 경로 읽을 수 없음
 debug-log-title = OpenPGP 디버그 로그
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = 확인
@@ -827,9 +770,6 @@ dlg-button-cancel = 취소
 dlg-no-prompt = 이 대화 상자를 다시 표시하지 않음
 enig-prompt = OpenPGP 프롬프트
 enig-confirm = OpenPGP 확인
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

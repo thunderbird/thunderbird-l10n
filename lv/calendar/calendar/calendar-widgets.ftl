@@ -6,12 +6,3 @@
 ## Side panel
 
 calendar-enable-button = Atļaut
-
-## Calendar navigation
-
-
-## Menu on calendar control bar
-
-
-## Calendar Context Menu
-

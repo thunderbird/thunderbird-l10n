@@ -23,15 +23,9 @@ app-name-seamonkey = SeaMonkey
 app-name-outlook = Outlook
 app-name-apple-mail = Apple Mail
 
-## Import from file selections
-
-
 ## Import from app profile steps
 
 items-pane-checkbox-calendars = Cholb'äl q'ij
-
-## Import from address book file steps
-
 
 ## Import from calendar file steps
 
@@ -47,9 +41,6 @@ progress-pane-importing2 = Nijik'… { $progressPercent }
 progress-pane-exporting2 = Nik'wäx… { $progressPercent }
 progress-pane-finished-desc2 = Tz'aqatisan.
 error-pane-title = Sachoj
-
-## <csv-field-map> element
-
 
 ## Export tab
 

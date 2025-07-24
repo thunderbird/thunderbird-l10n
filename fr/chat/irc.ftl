@@ -113,7 +113,7 @@ message-kicked-you = Vous avez été expulsé par { $nick }{ $messageKickedReaso
 #    $kickedNick. $messageKickedReason is message-kicked-reason, if a kick message was given.
 message-kicked = { $kickedNick } a été expulsé par { $kickerNick }{ $messageKickedReason }.
 #    $kickMessage is the kick message
-message-kicked-reason =  : { $kickMessage }
+message-kicked-reason = { " " }: { $kickMessage }
 #    $mode is the new mode, $targetUser  is the nickname of the user whose mode
 #    was changed, and $sourceUser is who set the mode.
 message-usermode = Mode { $mode } pour { $targetUser } donné par { $sourceUser }.
@@ -133,7 +133,7 @@ message-parted-reason = : { $partMessage }
 #    $nick is the user's nick, $quitMessage is message-quit2 if a quit message is given.
 message-quit = { $nick } a quitté le canal (Quit{ $quitMessage }).
 #    $nick is the user's nick
-message-quit2 =  : { $nick }
+message-quit2 = { " " }: { $nick }
 #    $nick is the nickname of the user that invited us, $conversationName is the conversation
 #    name.
 message-invite-received = { $nick } vous a invité dans { $conversationName }.
@@ -150,7 +150,7 @@ message-whois = Informations WHOIS pour { $nick } :
 #    $nick (String) is the nickname of the (offline) user whose WHOWAS information follows this message.
 message-whowas = { $nick } est hors ligne. Informations WHOWAS pour { $nick } :
 #    $description is the entry description (from tooltip-*), $value is its value.
-message-whois-entry =     { $description } : { $value }
+message-whois-entry = { "    " }{ $description } : { $value }
 #    $nick is the nickname that is not known to the server.
 message-unknown-nick = { $nick } est un nom d’utilisateur inconnu.
 #    $nick is the nickname of the user who changed the mode and $newPassword is the new

@@ -3,9 +3,6 @@
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Toolbar
-
-
 ## Books
 
 about-addressbook-books-context-properties =
@@ -70,10 +67,6 @@ about-addressbook-confirm-delete-contacts-title =
         [one] מחיקת איש קשר
        *[other] מחיקת אנשי קשר
     }
-
-## Card list placeholder
-## Shown when there are no cards in the list
-
 
 ## Details
 

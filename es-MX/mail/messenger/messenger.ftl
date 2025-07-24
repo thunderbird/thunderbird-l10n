@@ -298,9 +298,6 @@ no-reply-title = Respuesta no admitida
 no-reply-message = La dirección de respuesta ({ $email }) no parece ser una dirección supervisada. Es probable que los mensajes a esta dirección no sean leídos por nadie.
 no-reply-reply-anyway-button = Responder de todos modos
 
-## error messages
-
-
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -400,9 +397,3 @@ quick-filter-bar-show =
 ## OpenPGP
 
 openpgp-forget = Olvídate de las frases de contraseña de OpenPGP
-
-## Quota panel.
-
-
-## Actions for the New Mail Notification
-

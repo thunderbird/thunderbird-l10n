@@ -418,9 +418,6 @@ key-verification = Ellenőrizze a kulcs ujjlenyomatát az e-mailtől eltérő bi
 cannot-use-own-key-because = Az üzenet nem küldhető el, mert probléma van a személyes kulcsával. { $problem }
 window-locked = Az írási ablak zárolva van; küldés megszakítva
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Megszakítva
@@ -432,9 +429,6 @@ keyserver-error-security-error = A kulcskiszolgáló nem támogatja a titkosíto
 keyserver-error-certificate-error = A kulcskiszolgáló tanúsítványa nem érvényes.
 keyserver-error-unsupported = A kulcskiszolgáló nem támogatott.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -444,9 +438,6 @@ wkd-message-body-process =
     Ez az e-mail az OpenPGP webes kulcstárba feltöltött nyilvános kulcs automatikus feldolgozásával kapcsolatos.
     Jelenleg nincs semmilyen teendője.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -455,9 +446,6 @@ converter-decrypt-body-failed =
     Nem sikerült visszafejteni a következő tárgyú üzenetet:
     { $subject }.
     Újrapróbálkozik egy másik jelszóval, vagy ki akarja hagyni az üzenetet?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -475,9 +463,6 @@ filter-key-not-found = Nem található titkosítási kulcs a következőhöz: �
 filter-warn-key-not-secret =
     Figyelmeztetés – a „Titkosítás kulcshoz” szűrési művelet lecseréli a címzetteket.
     Ha nincs meg a titkos kulcs ehhez: „{ $desc }”, akkor többé nem fogja tudni elolvasni az e-maileket.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -548,12 +533,6 @@ openpgp-export-public-fail = <b>A kiválasztott nyilvános kulcs nem exportálha
 openpgp-export-secret-success = <b>A titkos kulcs exportálása sikeres!</b>
 openpgp-export-secret-fail = <b>A kiválasztott titkos kulcs nem exportálható!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -569,16 +548,10 @@ key-ring-sign-sub-keys-expired = A(z) { $userId } kulcs (kulcsazonosító: { $ke
 key-ring-enc-sub-keys-revoked = A(z) { $userId } kulcs (kulcsazonosító: { $keyId }) összes titkosítási alkulcsát visszavonták.
 key-ring-enc-sub-keys-expired = A(z) { $userId } kulcs (kulcsazonosító: { $keyId }) összes titkosítási alkulcsa lejárt.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Fénykép
 user-att-photo = Felhasználói attribútum (JPEG-kép)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -602,9 +575,6 @@ after-revoke-info =
     Amint a mások által használt szoftver megtudja a visszavonást, az már nem használja a régi kulcsot.
     Ha ugyanahhoz az e-mail-címhez új kulcsot használ, és az új nyilvános kulcsot csatolja az elküldött e-mailekhez, akkor a visszavont régi kulcsra vonatkozó információk automatikusan belekerülnek.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Importálás
@@ -614,9 +584,6 @@ delete-external-key-description = Eltávolítaná ezt a külső GnuPG-kulcsazono
 key-in-use-title = Jelenleg használt OpenPGP-kulcs
 delete-key-in-use-description = Nem lehet folytatni. A törlésre kiválasztott kulcsot jelenleg ez a személyazonosság használja. Válasszon egy másik kulcsot, vagy szüntesse meg a kiválasztást, és próbálja újra.
 revoke-key-in-use-description = Nem lehet folytatni. A visszavonásra kiválasztott kulcsot jelenleg ez a személyazonosság használja. Válasszon egy másik kulcsot, vagy szüntesse meg a kiválasztást, és próbálja újra.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -628,30 +595,18 @@ key-error-key-id-not-found = A beállított „{ $keySpec }” kulcsazonosító 
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Nem erősítette meg, hogy a(z) „{ $keySpec }” azonosítójú kulcs a személyes kulcsa.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = A kiválasztott funkció offline módban nem érhető el. Kapcsolódjon és próbálja újra.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Nem található olyan használható kulcs, amely megfelelne a keresési feltételeknek.
 no-update-found = Már megvannak az online felfedezett kulcsok.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Hiba – a kulcskinyerési parancs sikertelen
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -785,9 +740,6 @@ cannot-send-sig-because-no-own-key = Nem lehet digitálisan aláírni ezt az üz
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Nem küldheti el titkosítva ezt az üzenetet, mert még nem állította be a végpontok közti titkosítást a(z) <{ $key }> számára
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -811,15 +763,9 @@ attachment-pgp-key =
     Kattintson az „Importálásra” a tartalmazott kulcs importálásához, vagy a „Nézetre”, hogy megtekintse a fájl tartalmát egy böngészőablakban
 dlg-button-view = &Nézet
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Hiba – titkosítás nem szükséges
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -829,9 +775,6 @@ no-photo-available = Nincs elérhető fénykép
 error-photo-path-not-readable = A(z) „{ $photo }” fényképútvonal nem olvasható
 debug-log-title = OpenPGP hibakeresési napló
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &Rendben
@@ -840,9 +783,6 @@ dlg-button-cancel = &Mégse
 dlg-no-prompt = Ne jelenjen meg többet ez a párbeszédablak
 enig-prompt = OpenPGP kérdés
 enig-confirm = OpenPGP megerősítés
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

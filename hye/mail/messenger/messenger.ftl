@@ -210,9 +210,6 @@ no-reply-title = Պատասխանը չի աջակցուում
 no-reply-message = Պատասխանի հասցէն ({ $email }) կարծէս վերահսկուող հասցէ չէ: Այս հասցէին ուղղուած հաղորդագրութիւնները հաւանաբար ոչ ոք չի կարդայ:
 no-reply-reply-anyway-button = Պատասխանել ամէն դէպքում
 
-## error messages
-
-
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -296,12 +293,3 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
-
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Actions for the New Mail Notification
-

@@ -446,9 +446,6 @@ key-verification = Dilyswch bysbrint yr allwedd gan ddefnyddio sianel gyfathrebu
 cannot-use-own-key-because = Methu anfon y neges, oherwydd mae problem gyda'ch allwedd bersonol. { $problem }
 window-locked = Mae'r ffenestr gyfansoddi wedi'i chloi; anfon wedi'i ddiddymu
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Ataliwyd
@@ -460,9 +457,6 @@ keyserver-error-security-error = Nid yw'r gweinydd allweddi'n cefnogi mynediad w
 keyserver-error-certificate-error = Nid yw tystysgrif y gweinydd allweddi'n ddilys.
 keyserver-error-unsupported = Nid yw'r gweinydd allweddi'n cael ei gynnal
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -472,9 +466,6 @@ wkd-message-body-process =
     E-bost yw hwn sy'n gysylltiedig â'r prosesu awtomatig i lwytho'ch allwedd gyhoeddus i fyny i Gyfeiriadur Allwedd Gwe OpenPGP.
     Nid oes angen i chi gymryd unrhyw gamau â llaw ar hyn o bryd.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -483,9 +474,6 @@ converter-decrypt-body-failed =
     Methu dadgryptio neges gyda'r pwnc
     { $subject }.
     Ydych chi am geisio eto gyda chyfrinair gwahanol neu a ydych chi am hepgor y neges?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -503,9 +491,6 @@ filter-key-not-found = Methu cnfod allwedd amgryptio ar gyfer '{ $desc }'.
 filter-warn-key-not-secret =
     Rhybudd - mae'r weithred hidlo "Amgryptio i allwedd" yn disodli'r derbynwyr.
     Os nad oes gennych yr allwedd gyfrinachol ar gyfer '{ $desc }' fyddwch chi ddim yn gallu darllen yr e-byst bellach.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -576,12 +561,6 @@ openpgp-export-public-fail = <b>Methu allforio'r allwedd gyhoeddus a ddewiswyd!<
 openpgp-export-secret-success = <b>Allforiwyd Allwedd Gyfrinachol yn llwyddiannus!</b>
 openpgp-export-secret-fail = <b>Methu allforio'r allwedd gyfrinachol a ddewiswyd!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -597,16 +576,10 @@ key-ring-sign-sub-keys-expired = Mae'r holl is-allweddi lofnodi allwedd { $userI
 key-ring-enc-sub-keys-revoked = Mae pob is-allwedd amgryptio allwedd { $userId } (ID allwedd { $keyId }) yn cael ei ddirymu.
 key-ring-enc-sub-keys-expired = Mae pob is-allwedd amgryptio allwedd { $userId } (ID allwedd { $keyId }) wedi dod i ben.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Llun
 user-att-photo = Priodoledd defnyddiwr (delwedd JPEG)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -630,9 +603,6 @@ after-revoke-info =
     Cyn gynted ag y bydd y feddalwedd sy'n cael ei ddefnyddio gan bobl eraill yn gwybod am y dirymiad, bydd yn rhoi'r gorau i ddefnyddio'ch hen allwedd.
     Os ydych chi'n defnyddio allwedd newydd ar gyfer yr un cyfeiriad e-bost, a'ch bod chi'n atodi'r allwedd gyhoeddus newydd i e-byst rydych chi'n eu hanfon, yna bydd gwybodaeth am eich hen allwedd wedi'i dirymu yn cael ei chynnwys yn awtomatig.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Mewnforio
@@ -642,9 +612,6 @@ delete-external-key-description = Ydych chi am dynnu'r ID yr allwedd GnuPG Allan
 key-in-use-title = Allwedd OpenPGP sy'n cael ei defnyddio ar hyn o bryd
 delete-key-in-use-description = Methu parhau! Mae'r allwedd rydych wedi'i dewis i'w dileu yn cael ei defnyddio ar hyn o bryd gan yr hunaniaeth hon. Dewiswch allwedd wahanol, neu dewiswch ddim, a cheisiwch eto.
 revoke-key-in-use-description = Methu parhau! Mae'r allwedd rydych wedi'i dewis i'w dileu yn cael ei defnyddio ar hyn o bryd gan yr hunaniaeth hon. Dewiswch allwedd wahanol, neu dewiswch ddim, a cheisiwch eto.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -656,30 +623,18 @@ key-error-key-id-not-found = Nid oes modd dod o hyd i ID yr allwedd wedi'i ffurf
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Nid ydych wedi cadarnhau mai'r allwedd gydag ID '{ $keySpec }' yw eich allwedd bersonol.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Nid yw'r swyddogaeth rydych chi wedi'i dewis ar gael yn y modd all-lein. Ewch ar-lein a rhoi cynnig arall arni.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Nid oeddwn yn gallu canfod unrhyw allwedd sy'n cyfateb i'r meini prawf chwilio penodol yna.
 no-update-found = Mae gennych eisoes yr allweddi a ddarganfuwyd ar-lein.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Gwall - methodd y gorchymyn echdynnu allwedd
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -813,9 +768,6 @@ cannot-send-sig-because-no-own-key = Methu llofnodi'r neges hon yn ddigidol, ohe
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Methu anfon y neges hon wedi'i hamgryptio, oherwydd nid ydych eto wedi ffurfweddu amgryptio pen-i-ben ar gyfer <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -839,15 +791,9 @@ attachment-pgp-key =
     Cliciwch 'Mewnforio' i fewnforio'r allweddi sydd wedi'u cynnwys neu 'Golwg' i weld cynnwys y ffeil mewn ffenestr porwr
 dlg-button-view = &Golwg
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Gwall - nid oes angen amgryptio
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -857,9 +803,6 @@ no-photo-available = Dim Llun ar gael
 error-photo-path-not-readable = Nid yw llwybr llun '{ $photo }' yn ddarllenadwy
 debug-log-title = Cofnod Dadfygio OpenPGP
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &IAWN
@@ -868,9 +811,6 @@ dlg-button-cancel = &Diddymu
 dlg-no-prompt = Peidio dangos y blwch deialog eto.
 enig-prompt = Anogwr OpenPGP
 enig-confirm = Cadarnhad OpenPGP
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

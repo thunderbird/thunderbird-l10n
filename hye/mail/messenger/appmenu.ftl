@@ -3,21 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Sync
-
-
-## New Account
-
-
-## New Account / Address Book
-
-
-## Create
-
-
-## Open
-
-
 ## View / Layout
 
 appmenu-font-size-value = Տառատեսակի չափը
@@ -30,12 +15,3 @@ appmenuitem-font-size-reduce =
 appmenuitem-font-size-reset =
     .label = { $size }px
     .tooltiptext = Վերատեղադրել տառատեսակի չափը
-
-## Tools
-
-
-## Help
-
-
-## Application Update
-

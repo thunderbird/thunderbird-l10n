@@ -4,48 +4,24 @@
 
 import-page-title = Enporzhiañ
 
-## Header
-
-
-## Buttons
-
-
 ## Import from app steps
 
 source-outlook = Enporzhiañ diouzh { app-name-outlook }
 source-apple-mail = Enporzhiañ diouzh { app-name-apple-mail }
-
-## Import from file selections
-
 
 ## Import from app profile steps
 
 from-app-outlook = Enporzhiañ diouzh { app-name-outlook }
 from-app-apple-mail = Enporzhiañ diouzh { app-name-apple-mail }
 
-## Import from address book file steps
-
-
-## Import from calendar file steps
-
-
 ## Import dialog
 
 progress-pane-finished-desc2 = Echu.
 error-pane-title = Fazi
 
-## <csv-field-map> element
-
-
 ## Export tab
 
 export-brand-name = { -brand-product-name }
-
-## Summary pane
-
-
-## Footer area
-
 
 ## Step navigation on top of the wizard pages
 

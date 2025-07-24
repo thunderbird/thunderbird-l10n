@@ -5,6 +5,3 @@
 password-close-button =
     .label = Закрыць
     .accesskey = к
-
-## OS Authentication dialog
-

@@ -792,9 +792,3 @@ synced-acount-item-filters = Filtres
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sincronitzeu els vostres comptes de correu, llibretes d'adreces, calendaris i identitats en tots els vostres dispositius.
 sync-disconnected-turn-on-sync = Activa la sincronització…
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

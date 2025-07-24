@@ -7,10 +7,3 @@ migration-progress-header =
         [with-cases] Příprava { -brand-short-name(case: "gen") }…
        *[no-cases] Příprava aplikace { -brand-short-name }…
     }
-
-## Migration tasks
-
-
-# These strings are displayed to the user if a migration is taking a long time.
-# They should be short (no more than a handful of words) and in the present tense.
-

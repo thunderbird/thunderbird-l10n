@@ -38,9 +38,3 @@ openpgp-keygen-cancel =
 openpgp-keygen-import-complete =
     .label = Tanca
     .accesskey = T
-
-## Import Key section
-
-
-## External Key section
-

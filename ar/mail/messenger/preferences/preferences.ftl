@@ -42,9 +42,6 @@ confirm-messenger-language-change-button = طبِّق وأعِد التشغيل
 update-setting-write-failure-title = حدث عُطل أثناء تحديث التفضيلات
 update-in-progress-title = يجري الآن التحديث
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 focus-search-shortcut =
@@ -537,15 +534,3 @@ no-preview-description = ليست هذه السمة صحيحة أو ربما غ�
 chat-variant-label =
     .value = التنويعة:
     .accesskey = ع
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

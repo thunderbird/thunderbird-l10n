@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Listing columns
-
-
 ## Interval dropdown options
 
 calendar-event-listing-interval-calendar-month =

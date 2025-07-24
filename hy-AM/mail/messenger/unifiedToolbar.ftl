@@ -6,9 +6,6 @@
 ### Unified Toolbar strings
 
 
-## Search bar
-
-
 ## Unified toolbar context menu
 
 customize-menu-customize =
@@ -24,9 +21,3 @@ toolbar-get-all-messages-menuitem =
 
 customize-restore-default = Վերականգնել սկզբնադիրը
 customize-button-style-icons-beside-text-option = Պատկերակ գրույթի կողքին
-
-## Unified toolbar customization palette context menu
-
-
-## Unified toolbar customization target context menu
-

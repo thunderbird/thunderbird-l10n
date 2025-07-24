@@ -53,6 +53,3 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Lisää
     .title = Näytä kaikki vastaanottajat
 message-ids-field-show-all = Näytä kaikki
-
-## Dark Message Mode
-

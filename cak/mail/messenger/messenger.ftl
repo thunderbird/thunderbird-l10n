@@ -14,24 +14,6 @@ messenger-window-restore-down-button =
 messenger-window-close-button =
     .tooltiptext = Titz'apïx
 
-## Content tabs
-
-
-# Back
-
-
-# Forward
-
-
-# Reload
-
-
-# Stop
-
-
-## Toolbar
-
-
 ## Folder Pane
 
 folder-pane-toolbar =
@@ -105,9 +87,6 @@ menu-edit-newsgroup-properties =
     .label = Kichinil Kimolaj Tzijol
     .accesskey = o
 
-## Message Menu
-
-
 ## AppMenu
 
 appmenu-save-as-file =
@@ -122,9 +101,6 @@ appmenu-addons-and-themes =
 mail-context-menu-forward-forward =
     .label = Jun chik
     .accesskey = J
-
-## Message header pane
-
 
 ## Message header customize panel
 
@@ -151,12 +127,6 @@ toolbar-context-menu-remove-extension =
 addon-removal-title = ¿La niyuj { $name }?
 addon-removal-confirmation-button = Tiyuj
 caret-browsing-prompt-title = Okem pa K'amaya'l Rik'in Retal Ch'oy
-
-## no-reply handling
-
-
-## error messages
-
 
 ## Spaces toolbar
 
@@ -219,12 +189,3 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
-
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Actions for the New Mail Notification
-

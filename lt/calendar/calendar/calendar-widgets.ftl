@@ -20,9 +20,6 @@ calendar-view-toggle-multiweek = Kelios savaitės
 calendar-view-toggle-month = Mėnuo
     .title = Rodyti mėnesio kalendorių
 
-## Menu on calendar control bar
-
-
 ## Calendar Context Menu
 
 calendar-context-menu-previous-day =

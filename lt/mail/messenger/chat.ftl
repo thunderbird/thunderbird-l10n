@@ -14,6 +14,3 @@ chat-participant-moderator-role-icon2 =
     .alt = Moderatorius
 chat-participant-voiced-role-icon2 =
     .alt = Dalyvis gali rašyti
-
-## Conversation invite notification box
-

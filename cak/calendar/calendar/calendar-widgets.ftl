@@ -47,9 +47,6 @@ calendar-view-toggle-multiweek = K'ïy wuqq'ij
 calendar-view-toggle-month = Ik'
     .title = Tijal rutz'etik ik' ik'
 
-## Menu on calendar control bar
-
-
 ## Calendar Context Menu
 
 calendar-context-menu-previous-day =

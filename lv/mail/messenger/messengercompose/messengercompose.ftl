@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Send Format
-
-
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -38,48 +35,8 @@ pill-action-move-bcc =
     .label = Pārvietot uz Slēpta kopija
     .accesskey = S
 
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 button-return-receipt =
     .label = Ziņa
     .tooltiptext = Pieprasīt saņemšanas apliecinājuma ziņu
-
-## Encryption
-
-
-## Addressing Area
-
-
-## Notifications
-
-
-## Editing
-
-
-# Tools
-
-
-## Filelink
-
-
-# Placeholder file
-
-
-# Template
-
-
-# Messages
-
-
-## Link Preview
-
-
-## Dictionary selection popup
-

@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Send Format
-
-
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -97,9 +94,6 @@ button-return-receipt =
     .label = Patvirtinimas
     .tooltiptext = Paprašyti pristatymo patvirtinimo šiam pranešimui
 
-## Encryption
-
-
 ## Addressing Area
 
 to-address-row-label =
@@ -110,30 +104,3 @@ many-public-recipients-bcc =
 many-public-recipients-ignore =
     .label = Gavėjai matys kitus adresus
     .accesskey = m
-
-## Notifications
-
-
-## Editing
-
-
-# Tools
-
-
-## Filelink
-
-
-# Placeholder file
-
-
-# Template
-
-
-# Messages
-
-
-## Link Preview
-
-
-## Dictionary selection popup
-

@@ -19,7 +19,7 @@ search-bar-placeholder = Търсене…
 search-bar-placeholder-with-key2 =
     { PLATFORM() ->
         [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
-       *[other] 	{ search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+       *[other] { "\u0009" }{ search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
     }
 
 ## Unified toolbar context menu

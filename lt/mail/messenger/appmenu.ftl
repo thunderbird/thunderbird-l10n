@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Sync
-
-
 ## New Account
 
 appmenu-new-account-panel-title =
@@ -13,15 +10,6 @@ appmenu-new-account-panel-title =
 appmenu-new-account-panel =
     .label = Nauja paskyra
     .accesskey = N
-
-## New Account / Address Book
-
-
-## Create
-
-
-## Open
-
 
 ## View / Layout
 
@@ -46,6 +34,3 @@ appmenu-tools-export =
 
 appmenu-help-panel-title =
     .title = Žinynas
-
-## Application Update
-

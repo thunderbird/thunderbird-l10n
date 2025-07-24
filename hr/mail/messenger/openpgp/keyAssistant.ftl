@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Encryption status
-
-
 ## Resolve section
 
 # Variables:
@@ -16,9 +13,6 @@ openpgp-key-assistant-key-source =
         [few] { $count } izvora
        *[other] { $count } izvora
     }
-
-## Discovery section
-
 
 ## Dialog buttons
 

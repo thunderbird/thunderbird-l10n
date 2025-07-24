@@ -6,22 +6,10 @@
 ### Unified Toolbar strings
 
 
-## Search bar
-
-
 ## Unified toolbar context menu
 
 customize-menu-customize =
     .label = Прилагоди…
 
 # Unified toolbar get messages button context menu
-
-
-## Unified Toolbar customization
-
-
-## Unified toolbar customization palette context menu
-
-
-## Unified toolbar customization target context menu
 

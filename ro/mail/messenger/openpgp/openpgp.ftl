@@ -232,9 +232,6 @@ key-do-you-accept = Accepți cheia pentru verificarea semnăturilor digitale și
 cannot-use-own-key-because = Mesajul nu poate fi trimis pentru că a apărut o problemă la cheia ta personală. { $problem }
 window-locked = Fereastra de redactare a mesajelor este blocată; trimitere anulată
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Abandonat
@@ -246,9 +243,6 @@ keyserver-error-security-error = Serverul de chei nu are suport pentru acces cri
 keyserver-error-certificate-error = Certificatul serverului de chei nu este valid.
 keyserver-error-unsupported = Serverul de chei nu este compatibil.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -258,9 +252,6 @@ wkd-message-body-process =
     Este un mesaj legat de procesarea automată de încărcare a cheii tale publice în directorul web de chei OpenPGP.
     Deocamdată nu este necesară nicio acțiune manuală din partea ta.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -269,9 +260,6 @@ converter-decrypt-body-failed =
     Nu s-a reușit decriptarea mesajului cu subiectul
     { $subject }.
     Vrei să încerci din nou cu altă parolă sau vrei să sari peste mesaj?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -289,9 +277,6 @@ filter-key-not-found = Nu s-a găsit o cheie de criptare pentru „{ $desc }”.
 filter-warn-key-not-secret =
     Avertisment - Acțiunea de filtrare „Criptare cu cheie” înlocuiește destinatarii.
     Dacă nu ai cheia secretă pentru „{ $desc }”, nu vei mai putea citi mesajele de e-mail.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -361,12 +346,6 @@ openpgp-export-public-fail = <b>Cheia publică selectată nu a putut fi exportat
 openpgp-export-secret-success = <b>Cheia secretă a fost exportată cu succes!</b>
 openpgp-export-secret-fail = <b>Cheia secretă selectată nu a putut fi exportată!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -382,16 +361,10 @@ key-ring-sign-sub-keys-expired = Toate subcheile de semnătură ale cheii { $use
 key-ring-enc-sub-keys-revoked = Toate subcheile de criptare ale cheii { $userId } (ID cheie { $keyId }) sunt revocate.
 key-ring-enc-sub-keys-expired = Toate subcheile de criptare ale cheii { $userId } (ID cheie { $keyId }) au expirat.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Fotografie
 user-att-photo = Atribut utilizator (imagine JPEG)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -415,9 +388,6 @@ after-revoke-info =
     Imediat ce software-ul folosit de ceilalți găsește informația despre revocare, acesta va înceta să îți mai folosească cheia veche.
     Dacă folosești o cheie nouă pentru aceeași adresă de e-mail și atașezi cheia publică nouă la mesajele pe care le trimiți prin e-mail, atunci informațiile despre cheia veche revocată vor fi incluse automat.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Importă
@@ -427,9 +397,6 @@ delete-external-key-description = Vrei să ștergi acest ID de cheie externă Gn
 key-in-use-title = Cheie OpenPGP utilizată în prezent
 delete-key-in-use-description = Nu se poate continua! Cheia selectată pentru ștergere este utilizată în prezent de această identitate. Selectează o cheie diferită sau nu selecta niciuna și încearcă din nou.
 revoke-key-in-use-description = Nu se poate continua! Cheia selectată pentru revocare este utilizată în prezent de această identitate. Selectează o cheie diferită sau nu selecta niciuna și încearcă din nou.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -441,28 +408,13 @@ key-error-key-id-not-found = ID-ul cheii configurate „{ $keySpec }” nu se re
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Nu ai confirmat cheia cu ID-ul „{ $keySpec }” drept cheie personală.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Funcția pe care ai selectat-o nu este disponibilă în modul offline. Treci în modul online și încearcă din nou.
 
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
-
-## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
-
-
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Eroare - Comanda de extragere a cheii a eșuat
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -475,9 +427,6 @@ fail-key-import = Eroare - Importul cheii a eșuat
 file-write-failed = Nu s-a reușit scrierea în fișierul { $output }
 no-pgp-block = Eroare - Nu s-a găsit niciun bloc valid de date blindate OpenPGP
 confirm-permissive-import = Importul a eșuat. Cheia pe care încerci să o imporți poate fi coruptă sau folosește atribute necunoscute. Vrei să încerci să imporți părțile corecte? Poate conduce la importarea de chei incomplete și neutilizabile.
-
-## Strings used in trust.jsm
-
 
 ## Strings used in trust.sys.mjs
 
@@ -581,9 +530,6 @@ cannot-send-sig-because-no-own-key = Mesajul nu poate fi semnat digital pentru c
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Mesajul nu poate fi criptat pentru că nu ai configurat criptarea end-to-end pentru <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -607,15 +553,9 @@ attachment-pgp-key =
     Dă clic pe „Import” ca să imporți cheile incluse sau pe „Afișare” ca să vezi conținutul fișierului într-o fereastră de browser
 dlg-button-view = &Afișare
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Eroare - Nu necesită nicio criptare
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -625,9 +565,6 @@ no-photo-available = Nicio fotografie disponibilă
 error-photo-path-not-readable = Calea către fotografia „{ $photo }” nu este lizibilă
 debug-log-title = Jurnal de depanare OpenPGP
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &OK
@@ -636,9 +573,6 @@ dlg-button-cancel = &Anulează
 dlg-no-prompt = Nu mai afișa această fereastră de dialog
 enig-prompt = Mesaj de atenționare OpenPGP
 enig-confirm = Confirmare OpenPGP
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

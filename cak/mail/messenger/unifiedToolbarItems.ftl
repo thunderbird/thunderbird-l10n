@@ -78,6 +78,3 @@ toolbar-stop =
 toolbar-throbber-label = K'utunel Samaj
 toolbar-throbber =
     .title = K'utunel Samaj
-
-## New Address Book popup items
-

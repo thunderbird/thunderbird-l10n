@@ -77,6 +77,3 @@ toolbar-stop =
 toolbar-throbber-label = Darbību rādītājs
 toolbar-throbber =
     .title = Darbību rādītājs
-
-## New Address Book popup items
-

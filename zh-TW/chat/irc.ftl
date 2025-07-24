@@ -150,7 +150,7 @@ message-whois = { $nick } 的 WHOIS 資訊:
 #    $nick (String) is the nickname of the (offline) user whose WHOWAS information follows this message.
 message-whowas = { $nick } 不在線上。{ $nick } 的 WHOWAS 資訊:
 #    $description is the entry description (from tooltip-*), $value is its value.
-message-whois-entry =     { $description }: { $value }
+message-whois-entry = { "    " }{ $description }: { $value }
 #    $nick is the nickname that is not known to the server.
 message-unknown-nick = { $nick } 是未知的暱稱。
 #    $nick is the nickname of the user who changed the mode and $newPassword is the new

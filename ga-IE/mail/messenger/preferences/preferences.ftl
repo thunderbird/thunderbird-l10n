@@ -544,12 +544,3 @@ preview-label = Réamhamharc:
 ## Settings UI Search Results
 
 search-results-header = Torthaí an Chuardaigh
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

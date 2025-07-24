@@ -92,6 +92,3 @@ toolbar-stop =
 toolbar-throbber-label = Ակտիւութեան ցուցիչ
 toolbar-throbber =
     .title = Ակտիւութեան ցուցիչ
-
-## New Address Book popup items
-

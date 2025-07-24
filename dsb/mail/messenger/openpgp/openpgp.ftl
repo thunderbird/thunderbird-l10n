@@ -432,9 +432,6 @@ key-verification = Pśeglědajśo palcowy wótśišć kluca z pomocu drugego wě
 cannot-use-own-key-because = Njejo móžno powěsć słaś, dokulaž dajo problem z wašym wósobinskim klucom. { $problem }
 window-locked = Wobźěłowańske wokno jo zastajone; słanje jo se pśetergnuło
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Pśetorgnjony
@@ -446,9 +443,6 @@ keyserver-error-security-error = Klucowy serwer skoděrowany pśistup njepódpě
 keyserver-error-certificate-error = Certifikat klucowego serwera njejo płaśiwy.
 keyserver-error-unsupported = Klucowy serwer se njepódpěra.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -458,9 +452,6 @@ wkd-message-body-process =
     To jo mejlka nastupajucy awtomatiske pśeźěłowanje, až se waš zjawny kluc do zapisa OpenPGP-webklucow nagrał.
     Njetrjebaśo nic cyniś.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -469,9 +460,6 @@ converter-decrypt-body-failed =
     Powěsć z temu { $subject }
     njedajo se dekoděrowaś.
     Cośo z drugeju gronidłoweju frazu znowego wopytaś abo cośo powěsć pśeskócyś?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -489,9 +477,6 @@ filter-key-not-found = Koděrowański kluc za ‚{ $desc }‘ njedajo se namaka�
 filter-warn-key-not-secret =
     Warnowanje - filtrowańska akcija „Z klucom koděrowaś“ dostawarja wuměnja.
     Jolic pótajmny kluc za ‚{ $desc }‘ njamaśo, njamóžośo wěcej mejlki cytaś.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -562,12 +547,6 @@ openpgp-export-public-fail = <b>Njejo móžno, wubrany zjawny kluc eksportěrowa
 openpgp-export-secret-success = <b>Pótajmny kluc jo se wuspěšnje eksportěrował!</b>
 openpgp-export-secret-fail = <b>Njejo móžno, wubrany pótajmny kluc eksportěrowaś!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -583,16 +562,10 @@ key-ring-sign-sub-keys-expired = Wšykne signěrowańske pódkluce kluca { $user
 key-ring-enc-sub-keys-revoked = Wšykne koděrowańske pódkluce kluca { $userId } (klucowy ID { $keyId } su wótwołane.
 key-ring-enc-sub-keys-expired = Wšykne koděrowańske pódkluce kluca { $userId } (klucowy ID { $keyId } su spadnuli.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Foto
 user-att-photo = Wužywaŕski atribut (JPEG-wobraz)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -616,9 +589,6 @@ after-revoke-info =
     Gaž softwara, kótaruž druge luźe wužywaju, wó wótwołanju zgóniju, se waš stary kluc wěcej njewužywa.
     Jolic nowy kluc za tu samsku e-mailowu adresu wužywaśo a k mejlkam, kótarež sćelośo, nowy zjawny kluc pśipowjesaśo, se informacije wó wašom wótwołanem starem klucu awtomatiski zapśimuju.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Importěrowaś
@@ -628,9 +598,6 @@ delete-external-key-description = Cośo ID eksternego GnuPG-kluca wótwónoźeś
 key-in-use-title = OpenPGP-kluc se tuchylu wužywa
 delete-key-in-use-description = Pókšacowanje njejo móžne! Kluc, kótaryž jo se wubrał za lašowanje, se tuchylu pśez toś tu identitu wužywa. Wubjeŕśo drugi kluc abo njewuběrajśo žeden a wopytajśo hyšći raz.
 revoke-key-in-use-description = Pókšacowanje njejo móžne! Kluc, kótaryž jo se wubrał za wótwołanje, se tuchylu pśez toś tu identitu wužywa. Wubjeŕśo drugi kluc abo njewuběrajśo žeden a wopytajśo hyšći raz.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -642,30 +609,18 @@ key-error-key-id-not-found = Konfigurěrowany klucowy ID ‚{ $keySpec }‘ njed
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Njejsćo wobkšuśił, až kluc z ID ‚{ $keySpec }‘ jo waš wósobinski kluc.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Funkcija, kótaruž sćo wubrał, njejo w modusu offline k dispoziciji. Pšosym źiśo online a wopytajśo hyšći raz.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Njejsmy mógli wužywajobny kluc namakaś, kótaryž pódanym pytańskim kriterijam wótpowědujo.
 no-update-found = Maśo južo kluce, kótarež su se namakali online.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Zmólka - pśikaz klucoweje ekstrakcije njejo se raźił
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -799,9 +754,6 @@ cannot-send-sig-because-no-own-key = Toś ta powěsć njedajo se digitalnje sign
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Toś ta powěsć njedajo se skoděrowana pósłaś, dokulaž hyšći njejsćo konfigurěrował koděrowanje kóńc do kóńca za <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -825,15 +777,9 @@ attachment-pgp-key =
     Klikniśo na ‚Importěrowaś‘, aby wopśimowane kluce importěrował abo na ‚Pokazaś‘, aby wopśimjeśe dataje we woknje wobglědowaka pokazał
 dlg-button-view = &Naglěd
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Zmólka – žedno koděrowanje trjebne
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -843,9 +789,6 @@ no-photo-available = Žedno foto k dispoziciji
 error-photo-path-not-readable = Fotowa sćažka ‚{ $photo }‘ njejo cytajobna
 debug-log-title = Zmólkowy protokol OpenPGP
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = W pó&rěźe
@@ -854,9 +797,6 @@ dlg-button-cancel = &Pśetergnuś
 dlg-no-prompt = Toś ten dialog wěcej njepokazaś
 enig-prompt = OpenPGP-napominanje
 enig-confirm = OpenPGP-wobkšuśenje
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

@@ -117,6 +117,3 @@ toolbar-stop =
 toolbar-throbber-label = מחוון פעילות
 toolbar-throbber =
     .title = מחוון פעילות
-
-## New Address Book popup items
-

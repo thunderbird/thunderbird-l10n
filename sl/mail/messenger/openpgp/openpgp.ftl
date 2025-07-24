@@ -412,9 +412,6 @@ key-do-you-accept = Ali sprejemate ta ključ za preverjanje digitalnih podpisov 
 cannot-use-own-key-because = Sporočila ni mogoče poslati, ker je prišlo do težave z vašim osebnim ključem. { $problem }
 window-locked = Okno za pisanje sporočila je zaklenjeno; pošiljanje preklicano
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Prekinjeno
@@ -426,9 +423,6 @@ keyserver-error-security-error = Strežnik ključev ne podpira šifriranega dost
 keyserver-error-certificate-error = Strežnik ključev uporablja neveljavno digitalno potrdilo.
 keyserver-error-unsupported = Strežnik ključev ni podprt.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -437,9 +431,6 @@ wkd-message-body-req =
 wkd-message-body-process =
     To je e-poštno sporočilo, povezano s samodejno obdelavo za nalaganje vašega javnega ključa v imenik spletnih ključev OpenPGP.
     Trenutno vam ni treba ročno storiti ničesar.
-
-## Strings in persistentCrypto.jsm
-
 
 ## Strings in persistentCrypto.sys.mjs
 
@@ -450,9 +441,6 @@ converter-decrypt-body-failed =
     { $subject }
     ni bilo mogoče dešifrirati.
     Želite poskusiti znova z drugačnim geslom ali naj se sporočilo preskoči?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -470,9 +458,6 @@ filter-key-not-found = Ključa za šifriranje za "{ $desc }" ni bilo mogoče naj
 filter-warn-key-not-secret =
     Pozor – dejanje filtra "Šifriraj v ključ" zamenja prejemnike.
     Če nimate tajnega ključa za "{ $desc }", sporočil ne boste več mogli prebrati.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -545,12 +530,6 @@ openpgp-export-public-fail = <b>Izbranega javnega ključa ni mogoče izvoziti!</
 openpgp-export-secret-success = <b>Skrivni ključ uspešno izvožen!</b>
 openpgp-export-secret-fail = <b>Izbranega skrivnega ključa ni mogoče izvoziti!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -565,16 +544,10 @@ key-ring-sign-sub-keys-expired = Vsem podpisovalskim podključem ključa { $user
 key-ring-enc-sub-keys-revoked = Vsi šifrirni podključi ključa { $userId } (ID ključa { $keyId }) so preklicani.
 key-ring-enc-sub-keys-expired = Vsem šifrirnim podključem ključa { $userId } (ID ključa { $keyId }) je potekla veljavnost.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Fotografija
 user-att-photo = Atribut uporabnika (slika JPEG)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -589,9 +562,6 @@ revoke-key-already-revoked = Ključ 0x{ $keyId } je že preklican.
 key-man-button-revoke-key = Pre&kliči ključ
 openpgp-key-revoke-success = Ključ uspešno preklican.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Uvozi
@@ -602,38 +572,23 @@ key-in-use-title = Ključ OpenPGP je trenutno v uporabi
 delete-key-in-use-description = Ni mogoče nadaljevati! Ključ, ki ste ga izbrali za brisanje, trenutno uporablja ta identiteta. Izberite drug ključ, ali ne izberite nobenega in poskusite znova.
 revoke-key-in-use-description = Ni mogoče nadaljevati! Ključ, ki ste ga izbrali za preklic, trenutno uporablja ta identiteta. Izberite drug ključ, ali ne izberite nobenega in poskusite znova.
 
-## Strings used in errorHandling.jsm
-
-
 ## Strings used in errorHandling.sys.mjs
 
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Niste potrdili, da je ključ z ID-jem "{ $keySpec }" vaš osebni ključ.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Možnost, ki ste jo izbrali, ni na voljo v načinu brez povezave. Povežite se z internetom in poskusite znova.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Najden ni bil noben uporaben ključ, ki bi ustrezal navedenim kriterijem iskanja.
 no-update-found = Ključe, ki so bili odkriti na spletu, že imate.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Napaka – ukaz za ekstrakcijo ključa je spodletel
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -749,9 +704,6 @@ cannot-send-sig-because-no-own-key = Tega sporočila ni mogoče digitalno podpis
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Tega sporočila ni mogoče poslati šifrirano, ker še niste nastavili šifriranja od konca do konca za <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -775,15 +727,9 @@ attachment-pgp-key =
     Kliknite "Uvozi" za uvoz ključev, ki jih vsebuje, ali "Prikaži" za ogled njene vsebine v brskalniku
 dlg-button-view = &Prikaži
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Napaka – šifriranje ni zahtevano
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -793,9 +739,6 @@ no-photo-available = Ni razpoložljive fotografije
 error-photo-path-not-readable = Pot do fotografije ‘{ $photo }’ ni berljiva
 debug-log-title = Dnevnik razhroščevanja OpenPGP
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &V redu
@@ -804,9 +747,6 @@ dlg-button-cancel = Prekliči
 dlg-no-prompt = Tega pogovornega okna ne prikazuj več
 enig-prompt = Poziv OpenPGP
 enig-confirm = Potrditev OpenPGP
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

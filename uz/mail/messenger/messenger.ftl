@@ -3,38 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Window controls
-
-
-## Content tabs
-
-
-# Back
-
-
-# Forward
-
-
-# Reload
-
-
-# Stop
-
-
-## Toolbar
-
-
-## Folder Pane
-
-
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Teglar
     .accesskey = T
-
-## File Menu
-
 
 ## Edit Menu
 
@@ -69,47 +42,17 @@ menu-edit-newsgroup-properties =
     .label = Yangiliklar to‘plami xossalari
     .accesskey = o
 
-## Message Menu
-
-
-## AppMenu
-
-
 ## Context menu
 
 mail-context-menu-forward-forward =
     .label = Uzatish
     .accesskey = U
 
-## Message header pane
-
-
-## Message header customize panel
-
-
-## Action Button Context Menu
-
-
 ## Add-on removal warning
 
 repair-text-encoding-button =
     .label = Matn shifrini tuzatish
     .tooltiptext = Sahifa tarkibidan toʻgʻri matn shifrini taxmin qiling
-
-## no-reply handling
-
-
-## error messages
-
-
-## Spaces toolbar
-
-
-## Spaces toolbar pinned tab menupopup
-
-
-## Spaces toolbar customize panel
-
 
 ## Quick Filter Bar
 
@@ -122,12 +65,3 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
-
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Actions for the New Mail Notification
-

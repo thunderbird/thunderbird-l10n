@@ -417,9 +417,6 @@ key-verification = Egiaztatu gakoaren hartz-marka posta elektronikoa ez den komu
 cannot-use-own-key-because = Ezin da mezua bidali, zure gako pertsonalarekin arazo bat dagoelako. { $problem }
 window-locked = Mezu-prestatze leihoa blokeatua dago; bidalketa bertan behera utzi da
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Bertan behera utzita
@@ -431,9 +428,6 @@ keyserver-error-security-error = Gako-zerbitzariak ez du sarrera zifratuaren eus
 keyserver-error-certificate-error = Gako-zerbitzariaren ziurtagiria ez da baliozkoa.
 keyserver-error-unsupported = Ez dago gako-zerbitzari eskuragarrik.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -443,9 +437,6 @@ wkd-message-body-process =
     Mezu hau zure gako publikoa automatikoki OpenPGP web gako direktoriora igotzeko prozesuaz lotua dago.
     Puntu honetan ez daukazu inolako ekintzarik egin beharrik eskuz.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -454,9 +445,6 @@ converter-decrypt-body-failed =
     Ezin da deszifratu gai hau duen mezua:
     { $subject }.
     Beste pasa-esaldi bat erabiliz berriz saiatu nahi duzu edo mezua saltatu nahi duzu?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -474,9 +462,6 @@ filter-key-not-found = Ezin da '{ $desc }'  gako zifratua aurkitu.
 filter-warn-key-not-secret =
     Abisua - "zifratu gakora" iragazki ekintzak hartzaileak aldatzen ditu.
     Ez badaukazu { $desc }(e)n gako sekretua ez zara gai izango hemendik aurrera mezuak irakurtzeko.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -549,12 +534,6 @@ openpgp-export-public-fail = <b>Ezin da esportatu gako publikoa!</b>
 openpgp-export-secret-success = <b>Gako sekretua ondo esportatu da!</b>
 openpgp-export-secret-fail = <b>Ezin da esportatu gako sekretua!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -570,16 +549,10 @@ key-ring-sign-sub-keys-expired = { $userId } (key ID { $keyId }) gakoaren sinatz
 key-ring-enc-sub-keys-revoked = { $userId } (key ID { $keyId }) gakoaren zifratze azpi-gako guztiak ukatuak daude.
 key-ring-enc-sub-keys-expired = { $userId } (key ID { $keyId }) gakoaren zifratze azpi-gako guztiak iraungita daude.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Argazkia
 user-att-photo = Erabiltzaile atributua (JPEG irudia)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -603,9 +576,6 @@ after-revoke-info =
     Besteek darabilten softwareak ukazioaren berri izan bezain laster, zure gako zaharra erabiltzeari utziko diote.
     Gako berri bat erabiltzen bazabiltza posta helbide berdinaz eta gako publiko berria eransten badiozu posta bidalketei, orduan gako zaharraren ukatzearen inguruko informazioa automatikoki jasoko dute.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Inportatu
@@ -615,9 +585,6 @@ delete-external-key-description = Kanpo GnuPG gako ID hau kendu nahi duzu?
 key-in-use-title = OpenPGP gakoa unean erabiltzen.
 delete-key-in-use-description = Ezin da prozesatu! Ezabatzeko aukeratu duzun gakoa une honetan identitate honek darabil. Aukeratu beste gako bat edo bat ere ez eta saiatu berriz.
 revoke-key-in-use-description = Ezin da prozesatu! ukatzeko aukeratu duzun gakoa une honetan identitate honek darabil. Aukeratu beste gako bat edo bat ere ez eta saiatu berriz.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -629,30 +596,18 @@ key-error-key-id-not-found = Konfiguratutako gako ID '{ $keySpec }'  ez da aurki
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Ez duzu berretsi '{ $keySpec }' IDa duen gakoa zure gako pertsonala denik.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Aukeratu duzu funtzioa ez dago erabilgarri lineaz kanpo moduan. Jar zaitez linean eta saiatu berriro.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Ez da aurkitu bilaketa irizpideekin bat datorren gako erabilgarririk.
 no-update-found = Badaukazu jada sarean aurkitu diren gakoak.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Errorea - gakoa ateratzeko komandoak huts egin du
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -786,9 +741,6 @@ cannot-send-sig-because-no-own-key = Ezinda digitalki sinatu mezu hau, oraindik 
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Ezinda mezu hau zifratua bidali, oraindik ez daukazulako <{ $key }> gakoa muturretik-muturrera konfiguratuta
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -812,15 +764,9 @@ attachment-pgp-key =
     Sakatu 'Inportatu' dauzkan gakoak inportatzeko edo 'Erakutsi' fitxategiaren edukia ikusteko nabigatzaile leiho baten
 dlg-button-view = &Erakutsi
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Errorea - ez da zifraketarik behar
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -830,9 +776,6 @@ no-photo-available = Argazkia ez dago erabilgarri
 error-photo-path-not-readable = '{ $photo }' argazki bide-izena ezin da irakurri
 debug-log-title = OpenPGP arazketa egunkaria
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &ados
@@ -841,9 +784,6 @@ dlg-button-cancel = &Utzi
 dlg-no-prompt = Ez erakutsi berriro elkarrizketa-koadro hau.
 enig-prompt = OpenPGP gonbita
 enig-confirm = OpenPGP berrespena
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

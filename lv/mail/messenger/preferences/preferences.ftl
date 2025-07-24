@@ -626,12 +626,3 @@ chat-variant-label =
 
 search-results-header = Meklēšanas rezultāti
 search-results-help-link = Vajadzīga palīdzība? Apmeklējiet <a data-l10n-name="url">{ -brand-short-name } atbalstu</a>!
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

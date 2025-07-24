@@ -20,9 +20,6 @@ calendar-view-toggle-multiweek = Multisăptămânal
 calendar-view-toggle-month = Lună
     .title = Comută pe vizualizarea pe luni
 
-## Menu on calendar control bar
-
-
 ## Calendar Context Menu
 
 calendar-context-menu-previous-day =

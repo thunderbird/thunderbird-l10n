@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Side panel
-
-
 ## Calendar navigation
 
 calendar-view-toggle-day = Lá
@@ -16,9 +13,6 @@ calendar-view-toggle-multiweek = Amharc Ilseachtaine
     .title = Oscail amharc ilseachtaine
 calendar-view-toggle-month = Mí
     .title = Oscail amharc míosa
-
-## Menu on calendar control bar
-
 
 ## Calendar Context Menu
 

@@ -435,6 +435,3 @@ openpgp-forget = Lupakan frasa sandi OpenPGP
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = { $percent }% penuh
     .title = Kuota IMAP: { $usage } dipakai dari { $limit } total
-
-## Actions for the New Mail Notification
-

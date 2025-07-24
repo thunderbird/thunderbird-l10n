@@ -380,9 +380,6 @@ key-verification = Verifica la huella digital de la clave usando un canal de com
 cannot-use-own-key-because = No se puede enviar el mensaje porque hay un problema con tu clave personal. { $problem }
 window-locked = La ventana de redacción está bloqueada; envío cancelado
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Cancelar
@@ -394,9 +391,6 @@ keyserver-error-security-error = El servidor de claves no admite el acceso cifra
 keyserver-error-certificate-error = El certificado del servidor de claves no es válido.
 keyserver-error-unsupported = El servidor de claves no es compatible.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -406,9 +400,6 @@ wkd-message-body-process =
     Este es un correo electrónico relacionado con el procesamiento automático para subir tu clave pública en el directorio de claves web de OpenPGP.
     No necesitas tomar ninguna acción manual en este punto.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -417,9 +408,6 @@ converter-decrypt-body-failed =
     No se pudo descifrar el mensaje con el asunto
     { $subject }.
     ¿Deseas volver a intentarlo con una frase de contraseña diferente o deseas omitir el mensaje?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -437,9 +425,6 @@ filter-key-not-found = No se pudo encontrar una clave de cifrado para ‘{ $desc
 filter-warn-key-not-secret =
     Advertencia - la acción de filtro “Cifrar a clave” reemplaza a los destinatarios.
     Si no tienes una clave secreta para ‘{ $desc }’, no podrás leer los correos electrónicos.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -510,12 +495,6 @@ openpgp-export-public-fail = <b>¡No se puede exportar la clave pública selecci
 openpgp-export-secret-success = <b>¡La clave secreta se exportó correctamente!</b>
 openpgp-export-secret-fail = <b>¡No se puede exportar la clave secreta seleccionada!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -531,16 +510,10 @@ key-ring-sign-sub-keys-expired = Todas las subclaves de firma de la clave { $use
 key-ring-enc-sub-keys-revoked = Se revocaran todas las subclaves de cifrado de la clave { $userId } (ID de clave { $keyId }).
 key-ring-enc-sub-keys-expired = Todas las subclaves de cifrado de la clave { $userId } (ID de clave { $keyId }) han caducado.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Foto
 user-att-photo = Atributo de usuario (imagen JPEG)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -564,9 +537,6 @@ after-revoke-info =
     Tan pronto como el software utilizado por otras personas se entere de la revocación, dejará de usar tu clave anterior.
     Si estás utilizando una nueva clave para la misma dirección de correo electrónico y adjuntas la nueva clave pública a los correos electrónicos que envías, la información sobre tu antigua clave revocada se incluirá automáticamente.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Importar
@@ -576,9 +546,6 @@ delete-external-key-description = ¿Deseas eliminar esta ID de la clave GnuPG ex
 key-in-use-title = Clave OpenPGP actualmente en uso
 delete-key-in-use-description = ¡Imposible continuar! La clave que seleccionaste para eliminar está siendo usada por esta identidad. Selecciona una clave diferente o ninguna, y vuelve a intentarlo.
 revoke-key-in-use-description = ¡Imposible continuar! La clave que seleccionaste para revocar está siendo usada por esta identidad. Selecciona una clave diferente o ninguna, y vuelve a intentarlo.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -590,30 +557,18 @@ key-error-key-id-not-found = El ID de clave configurado ‘{ $keySpec }’ no se
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = No has confirmado que la clave con ID ‘{ $keySpec }’ es tu clave personal.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = La función que has seleccionado no está disponible en el modo sin conexión.  Por favor, conéctate y vuelve a intentarlo.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = No pudimos encontrar ninguna llave utilizable que coincida con los criterios de búsqueda especificados.
 no-update-found = Ya tienes las llaves que se descubrieron en línea.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Error - el comando de extracción de clave falló
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -744,9 +699,6 @@ cannot-send-sig-because-no-own-key = No se puede firmar digitalmente este mensaj
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = No se puede enviar este mensaje cifrado, porque todavía no has configurado cifrado de extremo a extremo para <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -770,15 +722,9 @@ attachment-pgp-key =
     Haz clic en ‘Importar’ para importar las claves que contiene o 'Ver' para ver los contenidos del archivo en una ventana del navegador
 dlg-button-view = &Ver
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Error - no se requiere cifrado
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -788,9 +734,6 @@ no-photo-available = No hay foto disponible
 error-photo-path-not-readable = La ruta de la foto ‘{ $photo }’ no es legible
 debug-log-title = Registro de depuración de OpenPGP
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &Aceptar
@@ -799,9 +742,6 @@ dlg-button-cancel = &Cancelar
 dlg-no-prompt = No volver a mostrar este diálogo.
 enig-prompt = Aviso de OpenPGP
 enig-confirm = Confirmación de OpenPGP
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

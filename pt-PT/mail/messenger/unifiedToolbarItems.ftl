@@ -124,6 +124,3 @@ toolbar-create-list-label = Nova lista
 toolbar-create-list =
     .title = Criar uma nova lista de correio
 toolbar-import-contacts-label = Importar
-
-## New Address Book popup items
-

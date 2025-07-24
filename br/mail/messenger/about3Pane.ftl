@@ -223,6 +223,3 @@ apply-current-columns-to-folder-message = Arloañ bannoù an teuliad bremanel da
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Arloañ bannoù an teuliad bremanel da { $name } ha d'an isteuliadoù?
-
-## Folder pane context menu
-

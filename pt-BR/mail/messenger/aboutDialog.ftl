@@ -23,7 +23,7 @@ update-unsupported = Você não pode realizar outras atualizações neste sistem
 update-restarting = Reiniciando…
 # Variables:
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
-channel-description = Usando o canal de atualização <span data-l10n-name="current-channel">{ $channel }</span> . 
+channel-description = Usando o canal de atualização <span data-l10n-name="current-channel">{ $channel }</span> .{ " " }
 warning-desc-version = O { -brand-short-name } é experimental e pode ficar instável.
 warning-desc-telemetry = Informações de desempenho, dispositivos, uso e personalizações são enviadas automaticamente para { -vendor-short-name } para ajudar a melhorar o { -brand-short-name }.
 # Example of resulting string: 66.0.1 (64-bit)

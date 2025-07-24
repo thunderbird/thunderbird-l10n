@@ -18,9 +18,6 @@ calendar-view-toggle-multiweek = Berbilang minggu
 calendar-view-toggle-month = Bulan
     .title = Tukar ke paparan bulan
 
-## Menu on calendar control bar
-
-
 ## Calendar Context Menu
 
 calendar-context-menu-previous-day =

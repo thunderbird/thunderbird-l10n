@@ -20,6 +20,3 @@ logins-description-filtered = تُطابق جلسات الولوج هذه نتي
 remove-all-passwords-prompt = أمتأكّد أنّك تريد إزالة كل كلمات السر؟
 remove-all-passwords-title = أزِل كل كلمات السر
 no-master-password-prompt = أمتأكّد أنّك تريد عرض كلمات سرّك؟
-
-## OS Authentication dialog
-

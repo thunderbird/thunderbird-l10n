@@ -46,9 +46,6 @@ policy-ExtensionUpdate = Ketzij o kechup ri ruyonil kik'exoj taq k'amal.
 policy-HardwareAcceleration = We man qitzij ta, tichup ranin ch'akulkem.
 policy-InstallAddonsPermission = Tiya' q'ij chi ke jujun taq ajk'amaya'l ruxaq yekiyäk taq tz'aqat.
 
-## Do not translate "SameSite", it's the name of a cookie attribute.
-
-
 ##
 
 policy-LocalFileLinks = Tiya' q'ij chi ri ajk'amaya'l ruxaq tikixima' ki' kik'in ri aj wawe' taq yakb'äl.

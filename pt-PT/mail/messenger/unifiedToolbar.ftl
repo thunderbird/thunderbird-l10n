@@ -49,9 +49,6 @@ customize-cancel = Cancelar
 customize-save = Guardar
 customize-palette-calendar-specific-title = Disponível apenas para o Espaço do Calendário
 
-## Unified toolbar customization palette context menu
-
-
 ## Unified toolbar customization target context menu
 
 customize-target-remove =

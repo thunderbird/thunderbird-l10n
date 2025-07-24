@@ -20,9 +20,6 @@ calendar-view-toggle-multiweek = الأسابيع المتعددة
 calendar-view-toggle-month = الشهر
     .title = انتقل إلى منظور الشهر
 
-## Menu on calendar control bar
-
-
 ## Calendar Context Menu
 
 calendar-context-menu-previous-day =

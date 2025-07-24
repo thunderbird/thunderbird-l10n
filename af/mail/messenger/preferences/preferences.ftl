@@ -6,9 +6,6 @@ pane-compose-title = Opstelling
 category-compose =
     .tooltiptext = Opstelling
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 general-legend = { -brand-short-name } se beginbladsy
@@ -271,16 +268,6 @@ certificate-ask =
     .label = Vra my elke keer
     .accesskey = A
 
-## Chat Tab
-
-
-## Note: idle-label is displayed first, then there's a field where the user
-## can enter a number, and itemTime is displayed at the end of the line.
-## The translations of the idle-label and idle-time-label parts don't have
-## to mean the exact same thing as in English; please try instead to
-## translate the whole sentence.
-
-
 ##
 
 chat-play-button =
@@ -292,15 +279,3 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = Blaai…
     .accesskey = B
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

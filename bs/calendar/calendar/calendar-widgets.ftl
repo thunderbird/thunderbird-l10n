@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Side panel
-
-
 ## Calendar navigation
 
 calendar-view-toggle-day = Dan
@@ -16,9 +13,6 @@ calendar-view-toggle-multiweek = Više sedmica
     .title = Prebaci na višesedmični prikaz
 calendar-view-toggle-month = Mjesec
     .title = Prebaci na prikaz mjeseca
-
-## Menu on calendar control bar
-
 
 ## Calendar Context Menu
 

@@ -3,12 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Send Format
-
-
-## Addressing widget
-
-
 ## Attachment widget
 
 ctrl-cmd-shift-pretty-prefix =
@@ -27,16 +21,6 @@ attachment-bucket-count-value =
        *[other] { $count } kenstagadur
     }
 
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
-## Reorder Attachment Panel
-
-
-## Encryption
-
-
 ## Addressing Area
 
 cc-address-row-label =
@@ -49,30 +33,6 @@ show-cc-row-extra-menuitem =
 bcc-address-row-label =
     .value = Bcc
 
-## Notifications
-
-
-## Editing
-
-
-# Tools
-
-
-## Filelink
-
-
-# Placeholder file
-
-
-# Template
-
-
-# Messages
-
-
 ## Link Preview
 
 link-preview-yes-replace = Ya
-
-## Dictionary selection popup
-

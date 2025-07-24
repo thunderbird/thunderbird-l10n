@@ -90,7 +90,7 @@ message-summoned = נשלח זימון אל { $nick }.
 #    $nick (String) is the nickname of the user whose WHOIS information follows this message.
 message-whois = פרטי WHOIS עבור { $nick }:
 #    $description is the entry description (from tooltip-*), $value is its value.
-message-whois-entry =     { $description }‏: { $value }
+message-whois-entry = { "    " }{ $description }‏: { $value }
 #    $nick is the nickname that is not known to the server.
 message-unknown-nick = הכינוי { $nick } אינו מוכר.
 #    $nick is the nickname of the user who changed the mode and $newPassword is the new

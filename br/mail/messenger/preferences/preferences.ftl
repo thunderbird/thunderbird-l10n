@@ -585,15 +585,6 @@ chat-variant-label =
     .value = Variezon:
     .accesskey = V
 
-## Settings UI Search Results
-
-
 ## Sync Tab
 
 sync-pane-cancel = Dilezel
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

@@ -16,9 +16,3 @@ message-header-tags-list-name = Merkoù
 # because it is generated from the raw field name found in the email header.
 #   $fieldName (String) - The field name.
 message-header-custom-field = { $fieldName }<span data-l10n-name="field-separator">:</span>
-
-##
-
-
-## Dark Message Mode
-

@@ -36,9 +36,6 @@ calendar-view-toggle-multiweek = Lies-sizhun
 calendar-view-toggle-month = Miz
     .title = Tremen d'ar gwel miz
 
-## Menu on calendar control bar
-
-
 ## Calendar Context Menu
 
 calendar-context-menu-previous-day =

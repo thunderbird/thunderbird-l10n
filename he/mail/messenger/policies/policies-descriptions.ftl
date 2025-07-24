@@ -46,9 +46,6 @@ policy-ExtensionUpdate = הפעלה או השבתה של עדכונים אוטו
 policy-HardwareAcceleration = כיבוי האצת חומרה אם מוגדר כ־false.
 policy-InstallAddonsPermission = לאפשר לאתרים מסוימים להתקין תוספות.
 
-## Do not translate "SameSite", it's the name of a cookie attribute.
-
-
 ##
 
 policy-LocalFileLinks = לאפשר לאתרים מסויימים לקשר לקבצים מקומיים.

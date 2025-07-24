@@ -418,9 +418,6 @@ key-verification = Varmista avaimen sormenjälki muulla suojatulla viestintäkan
 cannot-use-own-key-because = Viestiä ei voida lähettää, koska henkilökohtaisessa avaimessasi on ongelma. { $problem }
 window-locked = Kirjoitusikkuna on lukittu; lähetys peruutettu
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Keskeytetty
@@ -432,9 +429,6 @@ keyserver-error-security-error = Avainpalvelin ei tue salattua käyttöä.
 keyserver-error-certificate-error = Avainpalvelimen varmenne ei ole kelvollinen.
 keyserver-error-unsupported = Avainpalvelin ei ole tuettu.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -444,9 +438,6 @@ wkd-message-body-process =
     Tämä sähköpostiviesti liittyy julkisen avaimesi automaattiseen lähettämiseen OpenPGP-verkkoavainhakemistoon.
     Tässä vaiheessa sinulta ei edellytetä mitään toimia.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -455,9 +446,6 @@ converter-decrypt-body-failed =
     Ei pystytty purkamaan viestiä aiheella
     { $subject }.
     Haluatko yrittää uudelleen toisella tunnuslauseella, vai haluatko ohittaa viestin?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -475,9 +463,6 @@ filter-key-not-found = Ei löytynyt salausavainta seuraaville '{ $desc }'.
 filter-warn-key-not-secret =
     Varoitus - suodatintoiminto "Salaa avaimeen" korvaa vastaanottajat.
     Jos sinulla ei ole salaista avainta kohteisiin '{ $desc }', et pysty enää lukea sähköpostiviestejä.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -548,12 +533,6 @@ openpgp-export-public-fail = <b>Valitun julkisen avaimen vienti ei onnistunut!</
 openpgp-export-secret-success = <b>Salainen avain viety onnistuneesti!</b>
 openpgp-export-secret-fail = <b>Valitun salaisen avaimen vienti ei onnistunut!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -569,16 +548,10 @@ key-ring-sign-sub-keys-expired = Kaikki avaimen { $userId } (avaimen tunniste { 
 key-ring-enc-sub-keys-revoked = Kaikki avaimen { $userId } (avaimen tunniste { $keyId }) salaukseen tarkoitetut aliavaimet on kumottu.
 key-ring-enc-sub-keys-expired = Kaikki avaimen { $userId } (avaimen tunniste { $keyId }) salaukseen tarkoitetut aliavaimet ovat vanhentuneet.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Kuva
 user-att-photo = Käyttäjän ominaisuus (JPEG-kuva)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -602,9 +575,6 @@ after-revoke-info =
     Kun muiden ihmisten käyttämät ohjelmat saavat tiedon kumoamisesta, ohjelmat lopettavat vanhan avaimesi käytön.
     Jos käytät uutta avainta samaan sähköpostiosoitteeseen, ja liität uuden julkisen avaimesi lähettämiisi sähköposteihin, niin tieto kumotusta vanhasta avaimestasi sisällytetään automaattisesti.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Tuo
@@ -614,9 +584,6 @@ delete-external-key-description = Haluatko poistaa tämän ulkoisen GnuPG-avaime
 key-in-use-title = OpenPGP-avain on parhaillaan käytössä
 delete-key-in-use-description = Ei voi jatkaa! Poistettavaksi valitsemasi avain on parhaillaan tämän identiteetin käytössä. Valitse eri avain, tai älä valitse mitään avainta, ja yritä uudelleen.
 revoke-key-in-use-description = Ei voi jatkaa! Kumottavaksi valitsemasi avain on parhaillaan tämän identiteetin käytössä. Valitse eri avain, tai älä valitse mitään avainta, ja yritä uudelleen.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -628,30 +595,18 @@ key-error-key-id-not-found = Määritettyä avaimen tunnistetta '{ $keySpec }' e
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Et ole vahvistanut, että avain tunnisteella '{ $keySpec }' on henkilökohtainen avaimesi.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Valitsemasi toiminto ei ole käytettävissä yhteydettömässä tilassa. Yhdistä verkkoon ja yritä uudelleen.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Hakuehtoja vastaavia avaimia ei löytynyt.
 no-update-found = Sinulla on jo avaimet, jotka löydettiin verkosta.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Virhe - avaimen purkamiskomento epäonnistui
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -785,9 +740,6 @@ cannot-send-sig-because-no-own-key = Tätä viestiä ei voi digitaalisesti allek
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Tätä viestiä ei voi lähettää salattuna, koska et ole vielä määrittänyt päästä päähän -salausta avaimelle <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -811,15 +763,9 @@ attachment-pgp-key =
     Napsauta "Tuo" tuodaksesi avaimen tai "Näytä" tarkastellaksesi tiedoston sisältöä selainikkunassa
 dlg-button-view = &Näytä
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Virhe - salausta ei vaadita
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -829,9 +775,6 @@ no-photo-available = Ei kuvaa saatavilla
 error-photo-path-not-readable = Kuvan polku '{ $photo }' ei ole luettavissa
 debug-log-title = OpenPGP-vianjäljitysloki
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &OK
@@ -840,9 +783,6 @@ dlg-button-cancel = &Peruuta
 dlg-no-prompt = Älä näytä tätä ikkunaa uudestaan
 enig-prompt = OpenPGP-kehote
 enig-confirm = OpenPGP-vahvistus
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

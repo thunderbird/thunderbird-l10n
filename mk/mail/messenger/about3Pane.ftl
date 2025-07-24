@@ -3,15 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Message List Header Bar
-
-
-## Quick Filter Bar
-
-
-## Folder pane
-
-
 ## Message thread pane
 
 threadpane-column-label-thread =
@@ -44,12 +35,3 @@ threadpane-column-label-location =
     .label = Локација
 threadpane-column-label-id =
     .label = Ред на пристигање
-
-## Message state variations
-
-
-## Apply columns confirmation dialog
-
-
-## Folder pane context menu
-

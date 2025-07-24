@@ -43,9 +43,6 @@ policy-ExtensionUpdate = تفعيل/تعطيل تحديث الامتدادات �
 policy-HardwareAcceleration = إن كان ”خطأ“، عطِّل التسريع العتادي.
 policy-InstallAddonsPermission = السماح لبعض المواقع بتثبيت الإضافات.
 
-## Do not translate "SameSite", it's the name of a cookie attribute.
-
-
 ##
 
 policy-LocalFileLinks = السماح لمواقع بعينها أن تصنع روابط إلى ملفات محلية.

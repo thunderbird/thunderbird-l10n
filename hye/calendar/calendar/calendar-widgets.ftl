@@ -23,9 +23,6 @@ calendar-view-toggle-multiweek = Բազմաշաբաթ
 calendar-view-toggle-month = Ամիս
     .title = Փոխել ամսուայ տեսքին
 
-## Menu on calendar control bar
-
-
 ## Calendar Context Menu
 
 calendar-context-menu-previous-day =

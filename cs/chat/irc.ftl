@@ -150,7 +150,7 @@ message-whois = Informace WHOIS o uživateli { $nick }:
 #    $nick (String) is the nickname of the (offline) user whose WHOWAS information follows this message.
 message-whowas = Uživatel „{ $nick }“ je offline. Informace WHOWAS uživatele { $nick }:
 #    $description is the entry description (from tooltip-*), $value is its value.
-message-whois-entry =     { $description }: { $value }
+message-whois-entry = { "    " }{ $description }: { $value }
 #    $nick is the nickname that is not known to the server.
 message-unknown-nick = { $nick } je neznámá přezdívka.
 #    $nick is the nickname of the user who changed the mode and $newPassword is the new

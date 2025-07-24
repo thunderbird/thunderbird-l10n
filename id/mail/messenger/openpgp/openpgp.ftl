@@ -405,9 +405,6 @@ key-verification = Verifikasi sidik jari kunci menggunakan saluran komunikasi am
 cannot-use-own-key-because = Tidak dapat mengirim pesan, karena ada masalah dengan kunci pribadi Anda. { $problem }
 window-locked = Jendela tulis terkunci; pengiriman dibatalkan
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Dibatalkan
@@ -419,9 +416,6 @@ keyserver-error-security-error = Server kunci tidak mendukung akses terenkripsi.
 keyserver-error-certificate-error = Sertifikat server kunci tidak valid.
 keyserver-error-unsupported = Server kunci tidak didukung.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -431,9 +425,6 @@ wkd-message-body-process =
     Ini adalah surel yang terkait dengan pemrosesan otomatis untuk mengunggah kunci publik Anda ke OpenPGP Web Key Directory.
     Anda tidak perlu melakukan tindakan manual apa pun pada saat ini.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -442,9 +433,6 @@ converter-decrypt-body-failed =
     Tidak dapat mendekripsi pesan dengan subjek
     { $subject }.
     Apakah Anda ingin mencoba lagi dengan frasa sandi yang berbeda atau ingin melewatkan pesan?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -462,9 +450,6 @@ filter-key-not-found = Tidak dapat menemukan kunci enkripsi untuk '{ $desc }'.
 filter-warn-key-not-secret =
     Peringatan - tindakan filter "Enkripsi ke kunci" menggantikan penerima.
     Jika Anda tidak memiliki kunci rahasia untuk '{ $desc }' Anda tidak dapat lagi membaca surel itu.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -535,12 +520,6 @@ openpgp-export-public-fail = <b>Tidak dapat mengekspor kunci publik yang dipilih
 openpgp-export-secret-success = <b>Kunci Rahasia berhasil diekspor!</b>
 openpgp-export-secret-fail = <b>Tidak dapat mengekspor kunci rahasia yang dipilih!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -556,16 +535,10 @@ key-ring-sign-sub-keys-expired = Semua subkunci penandatanganan dari kunci { $us
 key-ring-enc-sub-keys-revoked = Semua subkunci enkripsi dari kunci { $userId } (ID kunci { $keyId }) dicabut.
 key-ring-enc-sub-keys-expired = Semua subkunci enkripsi dari kunci { $userId } (ID kunci { $keyId }) telah kedaluwarsa.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Foto
 user-att-photo = Atribut pengguna (gambar JPEG)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -589,9 +562,6 @@ after-revoke-info =
     Segera setelah perangkat lunak yang digunakan oleh orang lain mengetahui tentang pencabutan tersebut, itu akan berhenti memakai kunci lama Anda.
     Jika Anda menggunakan kunci baru untuk alamat surel yang sama, dan Anda melampirkan kunci publik baru ke surel yang Anda kirim, maka informasi tentang kunci lama Anda yang dicabut akan secara otomatis disertakan.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Impor
@@ -601,9 +571,6 @@ delete-external-key-description = Apakah Anda ingin membuang ID kunci GnuPG Ekst
 key-in-use-title = Kunci OpenPGP sedang digunakan
 delete-key-in-use-description = Tidak dapat melanjutkan! Kunci yang Anda pilih untuk dihapus saat ini sedang digunakan oleh identitas ini. Pilih kunci lain, atau pilih tidak ada, dan coba lagi.
 revoke-key-in-use-description = Tidak dapat melanjutkan! Kunci yang Anda pilih untuk pencabutan sedang digunakan oleh identitas ini. Pilih kunci lain, atau pilih tidak ada, dan coba lagi.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -615,30 +582,18 @@ key-error-key-id-not-found = ID kunci yang dikonfigurasi '{ $keySpec }' tidak da
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Anda belum mengonfirmasi bahwa kunci dengan ID '{ $keySpec }' adalah kunci pribadi Anda.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Fungsi yang Anda pilih tidak tersedia dalam mode luring. Pergilah daring dan coba lagi.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Kami tidak dapat menemukan kunci yang dapat digunakan yang cocok dengan kriteria pencarian yang ditentukan.
 no-update-found = Anda sudah memiliki kunci yang ditemukan secara daring.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Kesalahan - perintah ekstraksi kunci gagal
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -772,9 +727,6 @@ cannot-send-sig-because-no-own-key = Tidak dapat menandatangani pesan ini secara
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Tidak dapat mengirim pesan ini dengan enkripsi, karena Anda belum mengonfigurasi enkripsi ujung-ke-ujung untuk <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -798,15 +750,9 @@ attachment-pgp-key =
     Klik 'Impor' untuk mengimpor kunci yang ada atau 'Lihat' untuk melihat konten berkas di jendela peramban
 dlg-button-view = &Lihat
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Kesalahan - tidak diperlukan enkripsi
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -816,9 +762,6 @@ no-photo-available = Tidak ada Foto tersedia
 error-photo-path-not-readable = Path foto '{ $photo }' tidak dapat dibaca
 debug-log-title = Log Debug OpenPGP
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &OK
@@ -827,9 +770,6 @@ dlg-button-cancel = &Batal
 dlg-no-prompt = Jangan tampilkan dialog ini lagi.
 enig-prompt = Sapaan PromptPGP
 enig-confirm = Konfirmasi OpenPGP
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

@@ -98,6 +98,3 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Повече
     .title = Показване на повече получатели
 message-ids-field-show-all = Показване на всички
-
-## Dark Message Mode
-

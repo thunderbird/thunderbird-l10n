@@ -409,9 +409,6 @@ key-verification = 請使用電子郵件以外的安全通訊方式確認金鑰�
 cannot-use-own-key-because = 您的個人金鑰有問題，無法傳送訊息。{ $problem }
 window-locked = 信件撰寫視窗已鎖定，取消傳送
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = 已中斷
@@ -423,25 +420,16 @@ keyserver-error-security-error = 金鑰伺服器不支援加密連線方式。
 keyserver-error-certificate-error = 金鑰伺服器的憑證無效。
 keyserver-error-unsupported = 不支援此金鑰伺服器。
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req = 您的電子郵件服務供應商處理了您要將公鑰上傳到 OpenPGP 網頁金鑰目錄的請求。請確認公鑰的公布過程是否已經完成。
 wkd-message-body-process = 這是一封關於自動將公鑰上傳到 OpenPGP 網頁金鑰目錄的郵件。您暫時還不必做任何事。
-
-## Strings in persistentCrypto.jsm
-
 
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
 # $subject (String) - Subject of the message.
 converter-decrypt-body-failed = 無法解密主旨為 { $subject } 的訊息。您想要使用不同密語再試一次，或是跳過此訊息？
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -455,9 +443,6 @@ filter-key-not-found = 找不到「{ $desc }」的加密金鑰。
 # Variables:
 # $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret = 警告: 過濾器動作「使用金鑰加密」會取代收件者。若您沒有「{ $desc }」的私鑰，將無法閱讀郵件。
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -517,12 +502,6 @@ openpgp-export-public-fail = <b>無法匯出選擇的公鑰！</b>
 openpgp-export-secret-success = <b>成功匯出私鑰！</b>
 openpgp-export-secret-fail = <b>無法匯出選擇的私鑰！</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -538,16 +517,10 @@ key-ring-sign-sub-keys-expired = 金鑰 { $userId }（金鑰 ID { $keyId }）的
 key-ring-enc-sub-keys-revoked = 金鑰 { $userId }（金鑰 ID { $keyId }）的所有加密用子金鑰都已遭撤銷。
 key-ring-enc-sub-keys-expired = 金鑰 { $userId }（金鑰 ID { $keyId }）的所有加密用子金鑰都已經過期。
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = 相片
 user-att-photo = 使用者屬性（JPEG 圖片）
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -562,9 +535,6 @@ key-man-button-revoke-key = 撤銷金鑰 (&R)
 openpgp-key-revoke-success = 成功撤銷金鑰。
 after-revoke-info = 此金鑰已被撤銷。請使用電子郵件再次分享公鑰，或是上傳到金鑰伺服器，讓其他人知道您已撤銷此金鑰。當其他人使用的軟體知道金鑰已經撤銷後，就不會再使用您的舊金鑰。若您在相同信箱使用新的金鑰，並且將新的公鑰附加在您寄出的郵件中，那麼也會自動包含舊金鑰已經撤銷的資訊。
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = 匯入 (&I)
@@ -574,9 +544,6 @@ delete-external-key-description = 您想要移除這把外部 GnuPG 金鑰 ID �
 key-in-use-title = OpenPGP 金鑰正在使用中
 delete-key-in-use-description = 無法繼續！您選擇要刪除的金鑰目前正由此身分使用中。請選擇其他金鑰或取消選擇並再試一次。
 revoke-key-in-use-description = 無法繼續！您選擇要撤銷的金鑰目前正由此身分使用中。請選擇其他金鑰或取消選擇並再試一次。
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -588,30 +555,18 @@ key-error-key-id-not-found = 無法在您的鑰匙圈找到設定的金鑰 ID「
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = 您並未確認 ID 為「{ $keySpec }」的金鑰是您的個人金鑰。
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = 您選擇的功能無法於離線模式使用。請先上線然後再試一次。
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = 找不到任何符合搜尋條件的可用金鑰。
 no-update-found = 您已經擁有在網路上找到的金鑰。
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = 錯誤 - 金鑰抽取指令執行失敗
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -737,9 +692,6 @@ cannot-send-sig-because-no-own-key = 由於您還沒有設定 <{ $key }> 的端�
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = 由於您還沒有設定 <{ $key }> 的端到端加密，無法加密寄出此訊息
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -759,15 +711,9 @@ invalid-email = 錯誤 - 電子郵件地址無效
 attachment-pgp-key = 您正要開啟的附件「{ $name }」看來是一把 OpenPGP 金鑰檔案。請點擊「匯入」來匯入金鑰，或點擊「檢視」來使用瀏覽器視窗檢視檔案內容。
 dlg-button-view = 檢視 (&V)
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = 錯誤 - 並未要求加密
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -777,9 +723,6 @@ no-photo-available = 沒有可用的相片
 error-photo-path-not-readable = 相片路徑「{ $photo }」無法讀取
 debug-log-title = OpenPGP 除錯紀錄
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = 確定 (&O)
@@ -788,9 +731,6 @@ dlg-button-cancel = 取消 (&C)
 dlg-no-prompt = 下次不要再顯示此對話方塊。
 enig-prompt = OpenPGP Prompt
 enig-confirm = OpenPGP 確認
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

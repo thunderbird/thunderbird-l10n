@@ -28,6 +28,3 @@ message-header-custom-field = { $fieldName }<span data-l10n-name="field-separato
 message-header-address-in-address-book-button =
     .title = Tinuk' rub'i' achib'il
 message-ids-field-show-all = Tik'ut ronojel
-
-## Dark Message Mode
-

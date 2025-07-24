@@ -16,25 +16,7 @@ appmenu-new-chat-account =
     .label = Զրույց
     .accesskey = h
 
-## New Account / Address Book
-
-
 ## Create
 
 appmenu-create-panel-title =
     .title = Ստեղծել
-
-## Open
-
-
-## View / Layout
-
-
-## Tools
-
-
-## Help
-
-
-## Application Update
-

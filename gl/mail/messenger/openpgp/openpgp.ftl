@@ -418,9 +418,6 @@ key-verification = Verifique a impresión dixital da chave mediante unha canle d
 cannot-use-own-key-because = Non se puido enviar a mensaxe porque hai un problema coa súa chave persoal. { $problema }
 window-locked = A xanela de redacción está bloqueada; cancelouse o envío
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Abortado
@@ -432,9 +429,6 @@ keyserver-error-security-error = O servidor de chaves non admite o acceso cifrad
 keyserver-error-certificate-error = O certificado do servidor de chaves non é válido.
 keyserver-error-unsupported = O servidor de chaves non é compatíbel.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -444,9 +438,6 @@ wkd-message-body-process =
     Este é un correo electrónico relacionado co procesamento automático para cargar a súa chave pública no directorio de chaves web OpenPGP.
     Non é preciso realizar ningunha acción manual neste momento.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -455,9 +446,6 @@ converter-decrypt-body-failed =
     Non se puido descifrar a mensaxe co asunto
     { $subject }.
     Quere tentalo de novo cunha frase de contrasinal diferente ou quere ignorar a mensaxe?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -475,9 +463,6 @@ filter-key-not-found = Non se puido atopar unha chave de cifrado para «{ $desc 
 filter-warn-key-not-secret =
     Aviso: a acción de filtro «Cifrar a chave» substitúe aos destinatarios.
     Se non ten a chave secreta para «{ $desc }» xa non poderá ler os correos electrónicos.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -548,12 +533,6 @@ openpgp-export-public-fail = <b>Non puido exportar a chave pública seleccionada
 openpgp-export-secret-success = <b>A chave secreta exportouse correctamente.</b>
 openpgp-export-secret-fail = <b>Non se puido exportar a chave secreta seleccionada.</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -569,16 +548,10 @@ key-ring-sign-sub-keys-expired = Caducaron todas as subchaves de sinatura da cha
 key-ring-enc-sub-keys-revoked = Revóganse todas as subchaves de cifrado da chave { $userId } (Identificador de chave { $keyId }).
 key-ring-enc-sub-keys-expired = Caducaron todas as subchaves de cifrado da chave { $userId } (Identificador de chave { $keyId }).
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Foto
 user-att-photo = Atributo de usuario (imaxe JPEG)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -602,9 +575,6 @@ after-revoke-info =
     En canto o software utilizado por outras persoas coñeza a revogación, deixará de usar a súa chave antiga.
     Se está a usar unha nova chave para o mesmo enderezo de correo electrónico e anexa a nova chave pública aos correos electrónicos que envía, incluirase automaticamente a información sobre a súa chave antiga revogada.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Importar
@@ -614,9 +584,6 @@ delete-external-key-description = Quer retirar este identificador de chave GnuPG
 key-in-use-title = A chave OpenPGP está a ser utilizada actualmente
 delete-key-in-use-description = Non se puido proceder. A chave que seleccionou para eliminar esta a ser utilizada por esta identidade. Seleccione unha chave diferente ou non seleccione ningunha e ténteo de novo.
 revoke-key-in-use-description = Non se puido proceder. A chave que seleccionou para revogar esta a ser utilizada por esta identidade. Seleccione unha chave diferente ou non seleccione ningunha e ténteo de novo.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -628,30 +595,18 @@ key-error-key-id-not-found = O identificador da chave configurada «{ $keySpec }
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Non confirmou que a chave co identificador «{ $keySpec }» sexa a súa chave persoal.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = A función que seleccionou non está dispoñíbel no modo sen conexión. Conéctese e ténteo de novo.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Non puidemos atopar ningunha chave usábel que corresponda cos criterios de busca especificados.
 no-update-found = Xa ten as chaves que se descubriron en liña.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Erro: fallou a orde de extracción da chave
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -785,9 +740,6 @@ cannot-send-sig-because-no-own-key = Non se pode asinar dixitalmente esta mensax
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Non se pode enviar esta mensaxe porque aínda non configurou o cifrado de extremo a extremo para <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -811,15 +763,9 @@ attachment-pgp-key =
     Faga clic en «Importar» para importar as chaves contidas ou en «Ver» para ver o contido do ficheiro nunha xanela do navegador
 dlg-button-view = &Ver
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Erro: non se precisa cifrado
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -829,9 +775,6 @@ no-photo-available = Non hai unha foto dispoñíbel
 error-photo-path-not-readable = A ruta da foto «{ $photo }» non é lexíbel
 debug-log-title = Rexistro de depuración OpenPGP
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &Vale
@@ -840,9 +783,6 @@ dlg-button-cancel = &Cancelar
 dlg-no-prompt = Non amosar esta xanela de novo.
 enig-prompt = Solicitude de OpenPGP
 enig-confirm = Confirmación de OpenPGP
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

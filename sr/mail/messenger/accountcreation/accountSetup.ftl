@@ -63,12 +63,6 @@ account-setup-step1-image =
 account-setup-step2-image =
     .title = Учитавање…
 
-## Results area
-
-
-## Error messages
-
-
 ## Manual configuration area
 
 account-setup-incoming-server-legend = Долазни сервер

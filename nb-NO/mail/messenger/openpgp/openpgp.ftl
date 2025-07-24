@@ -418,9 +418,6 @@ key-verification = Bekreft fingeravtrykket til nøkkelen ved hjelp av en sikker 
 cannot-use-own-key-because = Kan ikke sende meldingen, fordi det er et problem med din personlige nøkkel. { $problem }
 window-locked = Meldingsvindu er låst; sending avbrutt
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Avbrutt
@@ -432,9 +429,6 @@ keyserver-error-security-error = Nøkkelserveren støtter ikke kryptert tilgang.
 keyserver-error-certificate-error = Nøkkelserverens sertifikat er ikke gyldig.
 keyserver-error-unsupported = Nøkkelserveren støttes ikke.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -444,9 +438,6 @@ wkd-message-body-process =
     Dette er en e-postmelding relatert til automatisk prosessering for å laste opp din offentlige nøkkel til OpenPGP Web Key Directory.
     Du trenger ikke gjøre noen manuelle tiltak på dette tidspunktet.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -455,9 +446,6 @@ converter-decrypt-body-failed =
     Kunne ikke dekryptere melding med emnet
     { $subject }.
     Ønsker du å prøve på nytt med en annen passordfrase, eller vil du hoppe over meldingen?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -475,9 +463,6 @@ filter-key-not-found = Kunne ikke finne en krypteringsnøkkel for «{ $desc }».
 filter-warn-key-not-secret =
     Advarsel - filterhandlingen «Krypter til nøkkel» erstatter mottakerne.
     Hvis du ikke har den hemmelige nøkkelen for «{ $desc }», vil du ikke lenger kunne lese e-postene.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -548,12 +533,6 @@ openpgp-export-public-fail = <b>Det gikk ikke å eksportere den valgte offentlig
 openpgp-export-secret-success = <b>Hemmelig nøkkel eksportert!</b>
 openpgp-export-secret-fail = <b>Det gikk ikke å eksportere den valgte hemmelige nøkkelen!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -569,16 +548,10 @@ key-ring-sign-sub-keys-expired = Alle signerings-undernøklene til nøkkel { $us
 key-ring-enc-sub-keys-revoked = Alle krypteringsundernøklene til nøkkel { $userId } (nøkkel-ID { $keyId }) er tilbakekalt.
 key-ring-enc-sub-keys-expired = Alle krypteringsundernøklene til nøkkel { $userId } (nøkkel-ID { $keyId }) er utløpt.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Foto
 user-att-photo = Brukerattributt (JPEG-bilde)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -602,9 +575,6 @@ after-revoke-info =
     Så snart programvaren som brukes av andre mennesker får vite om tilbakekallingen, vil den slutte å bruke den gamle nøkkelen.
     Hvis du bruker en ny nøkkel for den samme e-postadressen, og du legger ved den nye offentlige nøkkelen til e-postmeldinger du sender, vil informasjon om den tilbakekalte gamle nøkkelen automatisk bli inkludert.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Importer
@@ -614,9 +584,6 @@ delete-external-key-description = Vil du fjerne denne eksterne GnuPG nøkkel-ID-
 key-in-use-title = OpenPGP-nøkkel for tiden i bruk
 delete-key-in-use-description = Kan ikke fortsette! Nøkkelen du valgte for sletting, brukes for øyeblikket av denne identiteten. Velg en annen nøkkel, eller velg ingen, og prøv igjen.
 revoke-key-in-use-description = Kan ikke fortsette! Nøkkelen du valgte for tilbakekalling, brukes for øyeblikket av denne identiteten. Velg en annen nøkkel, eller velg ingen, og prøv igjen.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -628,30 +595,18 @@ key-error-key-id-not-found = Fant ikke den konfigurerte nøkkel-ID-en «{ $keySp
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Du har ikke bekreftet at nøkkelen med ID «{ $keySpec }» er din personlige nøkkel.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Funksjonen du har valgt er ikke tilgjengelig i frakoblet modus. Koble til og prøv igjen.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Vi fant ingen brukbar nøkkel som samsvarte med de angitte søkekriteriene.
 no-update-found = Du har allerede nøklene som ble funnet på nettet.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Feil - nøkkelekstraksjonskommandoen mislyktes
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -785,9 +740,6 @@ cannot-send-sig-because-no-own-key = Kan ikke signere denne meldingen digitalt, 
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Kan ikke sende denne meldingen kryptert, fordi du ennå ikke har konfigurert ende-til-ende-kryptering for <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -811,15 +763,9 @@ attachment-pgp-key =
     Klikk på «Importer» for å importere nøklene eller «Vis» for å se filinnholdet i nettleservinduet
 dlg-button-view = &Vis
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Feil - ingen kryptering nødvendig
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -829,9 +775,6 @@ no-photo-available = Ingen foto tilgjengelig
 error-photo-path-not-readable = Fotostien «{ $photo }» er ikke lesbar
 debug-log-title = OpenPGP-feilsøkingslogg
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = &OK
@@ -840,9 +783,6 @@ dlg-button-cancel = &Avbryt
 dlg-no-prompt = Ikke vis denne dialogen igjen.
 enig-prompt = OpenPGP Prompt
 enig-confirm = OpenPGP-bekreftelse
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

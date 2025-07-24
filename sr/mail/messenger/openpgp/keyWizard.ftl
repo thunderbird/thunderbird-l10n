@@ -18,9 +18,3 @@ openpgp-keygen-cancel =
 openpgp-keygen-import-complete =
     .label = Затвори
     .accesskey = З
-
-## Import Key section
-
-
-## External Key section
-

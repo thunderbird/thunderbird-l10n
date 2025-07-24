@@ -418,9 +418,6 @@ key-verification = Staðfestu fingrafar lykilsins með því að nota örugga sa
 cannot-use-own-key-because = Ekki er hægt að senda skilaboðin vegna þess að það er vandamál með persónulega lykilinn þinn. { $problem }
 window-locked = Skrifgluggi er læstur; hætt við sendingu
 
-## Strings in keyserver.jsm
-
-
 ## Strings in keyserver.sys.mjs
 
 keyserver-error-aborted = Hætt við
@@ -432,9 +429,6 @@ keyserver-error-security-error = Lyklaþjónninn styður ekki dulritaðan aðgan
 keyserver-error-certificate-error = Skilríki lyklaþjónsins er ekki gilt.
 keyserver-error-unsupported = Lyklaþjónninn er ekki studdur.
 
-## Strings in mimeWkdHandler.jsm
-
-
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
@@ -444,9 +438,6 @@ wkd-message-body-process =
     Þetta er tölvupóstur sem tengist sjálfvirkri vinnslu við að senda opinbera dreifilykilinn þinn inn í OpenPGP veflyklaskrána.
     Þú þarft ekki að grípa til neinna handvirkra aðgerða á þessum tímapunkti.
 
-## Strings in persistentCrypto.jsm
-
-
 ## Strings in persistentCrypto.sys.mjs
 
 # Variables:
@@ -455,9 +446,6 @@ converter-decrypt-body-failed =
     Ekki tókst að afkóða skilaboð með viðfangsefnið
     { $subject }.
     Viltu reyna aftur með öðru aðgangsorði eða vilt þú sleppa skilaboðunum?
-
-## Strings filters.jsm
-
 
 ## Strings filters.sys.mjs
 
@@ -475,9 +463,6 @@ filter-key-not-found = Gat ekki fundið dulritunarlykil fyrir '{ $desc }'.
 filter-warn-key-not-secret =
     Aðvörun - síuaðgerðin „Dulrita í lykil“ skiptir út viðtakendunum.
     Ef þú ert ekki með leynilykilinn fyrir ‘{ $desc }’ muntu ekki lengur geta lesið tölvupóstana.
-
-## Strings filtersWrapper.jsm
-
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -548,12 +533,6 @@ openpgp-export-public-fail = <b>Ekki tókst að flytja út valinn dreifilykil!</
 openpgp-export-secret-success = <b>Tókst að flytja út einkaykil!</b>
 openpgp-export-secret-fail = <b>Ekki tókst að flytja út valinn einkalykil!</b>
 
-## Strings in keyObj.jsm
-## Variables:
-## $userId (String) - The name and/or email address that is mentioned in the key's information.
-## $keyId (String) - Key id for the key entry.
-
-
 ## Strings in keyObj.sys.mjs
 ## Variables:
 ## $userId (String) - The name and/or email address that is mentioned in the key's information.
@@ -569,16 +548,10 @@ key-ring-sign-sub-keys-expired = Allir undirritunar-undirlyklar lykilsins { $use
 key-ring-enc-sub-keys-revoked = Allir dulritunar-undirlyklar lykilsins { $userId } (auðkenni { $keyId }) eru afturkallaðir.
 key-ring-enc-sub-keys-expired = Allir dulritunar-undirlyklar lykilsins { $userId } (auðkenni { $keyId }) eru útrunnir.
 
-## Strings in gnupg-keylist.jsm
-
-
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Ljósmynd
 user-att-photo = Eigindi notanda (JPEG-mynd)
-
-## Strings in key.jsm
-
 
 ## Strings in key.sys.mjs
 
@@ -602,9 +575,6 @@ after-revoke-info =
     Um leið og hugbúnaðurinn sem annað fólk notar fær að vita um afturköllunina mun það hætta að nota gamla lykilinn þinn.
     Ef þú ert að nota nýjan lykil fyrir sama póstfang og þú tengir nýja dreifilykilinn við tölvupóst sem þú sendir, þá verða upplýsingar um afturkallaða gamla lykilinn þinn sjálfkrafa innifaldar.
 
-## Strings in keyRing.jsm & decryption.jsm
-
-
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = Flytja &inn
@@ -614,9 +584,6 @@ delete-external-key-description = Viltu fjarlægja þetta utanaðkomandi GnuPG-l
 key-in-use-title = OpenPGP-lykill í notkun
 delete-key-in-use-description = Ekki hægt að halda áfram! Lykillinn sem þú valdir til eyðingar er notað af þessu auðkenni. Veldu annan lykil eða engan, og reyndu aftur.
 revoke-key-in-use-description = Ekki hægt að halda áfram! Lykillinn sem þú valdir til afturköllunar er notað af þessu auðkenni. Veldu annan lykil eða engan, og reyndu aftur.
-
-## Strings used in errorHandling.jsm
-
 
 ## Strings used in errorHandling.sys.mjs
 
@@ -628,30 +595,18 @@ key-error-key-id-not-found = Stillta lykilauðkennið „{ $keySpec }“ er ekki
 # $keySpec (String) - Key id.
 key-error-not-accepted-as-personal = Þú hefur ekki staðfest að lykillinn með auðkenninu „{ $keySpec }“ sé persónulegur lykill þinn.
 
-## Strings used in enigmailKeyManager.js & windows.jsm
-
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Aðgerðin sem þú hefur valið er ekki tiltæk án nettengingar. Tengstu við internetið og reyndu aftur.
-
-## Strings used in keyRing.jsm & keyLookupHelper.jsm
-
 
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Við fundum engan nothæfan lykil sem samsvaraði uppgefnum leitarskilyrðum.
 no-update-found = Þú ert nú þegar með lyklana sem fundust á netinu.
 
-## Strings used in keyRing.jsm & GnuPGCryptoAPI.jsm
-
-
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Villa - Skipun um útdrátt lykils mistókst
-
-## Strings used in keyRing.jsm
-
 
 ## Strings used in keyRing.sys.mjs
 
@@ -785,9 +740,6 @@ cannot-send-sig-because-no-own-key = Ekki er hægt að undirrita stafrænt þess
 # $key (String) - Sender email address.
 cannot-send-enc-because-no-own-key = Ekki er hægt að senda þessi skilaboð dulrituð þar sem þú hefur ekki enn stillt enda-í-enda dulritun fyrir <{ $key }>
 
-## Strings used in decryption.jsm
-
-
 ## Strings used in decryption.sys.mjs
 
 # Variables:
@@ -811,15 +763,9 @@ attachment-pgp-key =
     Smelltu á „Flytja inn“ til að flytja inn lyklana sem eru í henni eða „Skoða“ til að skoða efni skrárinnar í vafraglugga
 dlg-button-view = &Skoða
 
-## Strings used in encryption.jsm
-
-
 ## Strings used in encryption.sys.mjs
 
 not-required = Villa - engrar dulritunar krafist
-
-## Strings used in windows.jsm
-
 
 ## Strings used in windows.sys.mjs
 
@@ -829,9 +775,6 @@ no-photo-available = Engin mynd tiltæk
 error-photo-path-not-readable = Myndaslóðin „{ $photo }“ er ekki læsileg
 debug-log-title = OpenPGP atvikaskrá
 
-## Strings used in dialog.jsm
-
-
 ## Strings used in dialog.sys.mjs
 
 dlg-button-ok = Í la&gi
@@ -840,9 +783,6 @@ dlg-button-cancel = &Hætta við
 dlg-no-prompt = Ekki sýna mér þennan glugga aftur
 enig-prompt = OpenPGP kvaðning
 enig-confirm = OpenPGP staðfesting
-
-## Strings used in persistentCrypto.jsm
-
 
 ## Strings used in persistentCrypto.sys.mjs
 

@@ -378,12 +378,6 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
-## OpenPGP
-
-
-## Quota panel.
-
-
 ## Actions for the New Mail Notification
 
 delete-action = Kkes

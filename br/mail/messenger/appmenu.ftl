@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Sync
-
-
 ## New Account
 
 appmenu-new-chat-account =
@@ -23,23 +20,8 @@ appmenu-new-addressbook =
     .label = Karned-chomlec’hioù lec'hel
     .accesskey = K
 
-## Create
-
-
-## Open
-
-
-## View / Layout
-
-
 ## Tools
 
 appmenu-tools-import =
     .label = Enporzhiañ
     .accesskey = E
-
-## Help
-
-
-## Application Update
-

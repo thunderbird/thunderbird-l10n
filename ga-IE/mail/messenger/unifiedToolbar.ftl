@@ -6,9 +6,6 @@
 ### Unified Toolbar strings
 
 
-## Search bar
-
-
 ## Unified toolbar context menu
 
 customize-menu-customize =
@@ -19,12 +16,3 @@ customize-menu-customize =
 toolbar-get-all-messages-menuitem =
     .label = Faigh Gach Teachtaireacht Nua
     .accesskey = g
-
-## Unified Toolbar customization
-
-
-## Unified toolbar customization palette context menu
-
-
-## Unified toolbar customization target context menu
-
