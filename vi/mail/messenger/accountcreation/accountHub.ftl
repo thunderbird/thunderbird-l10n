@@ -112,6 +112,10 @@ account-hub-address-book-login-simple-label =
     .label = Đơn giản
 account-hub-address-book-search-label = Bộ lọc tìm kiếm
 account-hub-simple-configuration-button = Cấu hình đơn giản
+address-book-finding-remote-address-books = Đang tìm kiếm các sổ địa chỉ…
+# $url (String) - URL of CardDAV endpoint we don't support.
+address-book-carddav-known-incompatible = { $url } được biết là không tương thích với { -brand-short-name }.
+address-book-carddav-connection-error = Không thể kết nối.
 account-hub-result-username-label = Tên đăng nhập
     .title = Tên đăng nhập
 account-hub-name-label = Tên đầy đủ
