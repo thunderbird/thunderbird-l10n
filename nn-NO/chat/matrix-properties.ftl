@@ -267,6 +267,7 @@ message-verification-request2 = { $user } ønskjer å stadfeste { $userReceiving
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } avbraut verifiseringa med årsaka: { $reason }
 message-verification-done = Stadfesting fullført.
+message-decryption-error = Klarte ikkje å dekryptere innhaldet i denne meldinga. For å be om krypteringsnøklar frå dei andre einingane dine, høgreklikk på denne meldinga.
 message-decrypting = Dekrypterer...
 message-redacted = Meldinga vart redigert.
 #    $userThatReacted is the username of the user that reacted.
@@ -279,3 +280,7 @@ message-action-redact = Rediger
 message-action-report = Rapporter melding
 message-action-retry = Prøv å sende på nytt
 message-action-cancel = Avbryt melding
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Det oppstod ein feil under sending av meldinga «{ $message }».
