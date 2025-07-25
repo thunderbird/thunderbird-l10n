@@ -17,7 +17,7 @@ carddav-location =
 carddav-loading = Undersøker konfigurasjonen…
 # Variables:
 # $url (String) - CardDAV endpoint hostname. For example "example.com".
-carddav-known-incompatible = { $url } er kjent for å være ikke kompatibel med { -brand-short-name }.
+carddav-known-incompatible = { $url } er kjent for å være inkompatibel med { -brand-short-name }.
 carddav-connection-error = Tilkoblingsfeil.
 carddav-none-found = Fant ingen adressebøker å legge til for den angitte kontoen.
 carddav-already-added = Alle adressebøker for den angitte kontoen er allerede lagt til.

@@ -114,7 +114,7 @@ account-hub-address-book-search-label = Søkefilter
 account-hub-simple-configuration-button = Enkel konfigurasjon
 address-book-finding-remote-address-books = Søker etter adressebøker …
 # $url (String) - URL of CardDAV endpoint we don't support.
-address-book-carddav-known-incompatible = { $url } er kjent for å være ikke kompatibel med { -brand-short-name }.
+address-book-carddav-known-incompatible = { $url } er kjent for å være inkompatibel med { -brand-short-name }.
 address-book-carddav-connection-error = Tilkoblingsfeil.
 account-hub-result-username-label = Brukernavn
     .title = Brukernavn
