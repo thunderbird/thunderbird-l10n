@@ -378,7 +378,7 @@ cloud-file-rename-error-title = Mislykket navnebytte
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
-cloud-file-rename-error = Det oppsto et problem med å bytte navn på { $filename } hos { $provider }.
+cloud-file-rename-error = Det oppstod et problem med å bytte navn på { $filename } hos { $provider }.
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
