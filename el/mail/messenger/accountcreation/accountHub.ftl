@@ -112,6 +112,10 @@ account-hub-address-book-login-simple-label =
     .label = Απλή
 account-hub-address-book-search-label = Φίλτρο αναζήτησης
 account-hub-simple-configuration-button = Απλή διαμόρφωση
+address-book-finding-remote-address-books = Αναζήτηση για ευρετήρια…
+# $url (String) - URL of CardDAV endpoint we don't support.
+address-book-carddav-known-incompatible = Το { $url } είναι γνωστό ότι δεν είναι συμβατό με το { -brand-short-name }.
+address-book-carddav-connection-error = Αποτυχία σύνδεσης.
 account-hub-result-username-label = Όνομα χρήστη
     .title = Όνομα χρήστη
 account-hub-name-label = Πλήρες όνομα
