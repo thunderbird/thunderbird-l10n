@@ -8,6 +8,8 @@
 quick-filter-button =
     .title = Vis/skjul filterverktøylinja
 quick-filter-button-label = Snøggfilter
+thread-pane-header-display-button =
+    .title = Visingsalternativer for meldingsliste
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
