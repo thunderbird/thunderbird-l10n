@@ -17,6 +17,13 @@ thread-pane-folder-message-count =
         [one] { $count } melding
        *[other] { $count } meldingar
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [one] { $count } vald
+       *[other] { $count } valde
+    }
 thread-pane-header-context-table-view =
     .label = Tabellvising
 thread-pane-header-context-cards-view =
