@@ -28,6 +28,8 @@ thread-pane-header-context-table-view =
     .label = Tabellvising
 thread-pane-header-context-cards-view =
     .label = Kortvising
+thread-pane-header-context-hide =
+    .label = Skjul overskrifter på meldingsliste
 
 ## Quick Filter Bar
 
@@ -203,6 +205,13 @@ folder-pane-unread-aria-label =
     { $count ->
         [one] 1 ulesen melding
        *[other] { $count } ulesne meldingar
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 melding totalt
+       *[other] { $count } meldingar totalt
     }
 
 ## Message thread pane
