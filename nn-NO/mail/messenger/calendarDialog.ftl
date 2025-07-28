@@ -19,3 +19,11 @@ calendar-dialog-description-row-icon =
 calendar-dialog-description-label = Skildring
 calendar-dialog-description-expand-icon =
     .alt = Vis fullstendig skildring
+# Variables:
+#   $additionalCategories (Number): Number of categoires not shown.
+#   $categories (String): List of all categories.
+calendar-dialog-more-categories =
+    { $additionalCategories ->
+       *[other] +{ $additionalCategories } fleire
+    }
+    .title = { $categories }

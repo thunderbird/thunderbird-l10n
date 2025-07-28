@@ -113,12 +113,25 @@ vcard-note-add = Legg til notat
 vcard-org-header = Organisatoriske eigenskapar
 vcard-org-add = Legg til organisasjonseigenskapar
 vcard-org-title = Tittel
+vcard-org-title-input =
+    .title = Stilling eller jobb
+    .placeholder = Jobbtittel
 vcard-org-role = Rolle
+vcard-org-role-input =
+    .title = Funksjon eller rolle i ein bestemt situasjon
+    .placeholder = Rolle i eit prosjekt
 vcard-org-org = Organisasjon
+vcard-org-org-input =
+    .title = Organisasjonsnamn
+    .placeholder = Firmanamn
 vcard-org-org-unit = Avdeling
+vcard-org-org-unit-input =
+    .title = Namn på organisasjonseining
+    .placeholder = Avdeling
 
 # Custom properties
 
+vcard-custom-header = Tilpassa eigenskapar
 vcard-custom-add = Legg til tilpassa eigenskapar
 vcard-remove-button-title =
     .title = Fjern
