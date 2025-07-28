@@ -385,6 +385,9 @@ cloud-file-rename-error = Det oppstod eit problem med å byte namn på { $filena
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-rename-error-with-custom-message-title = Klarte ikkje å gi nytt namn til { $filename } hos { $provider }
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-rename-not-supported = { $provider } støttar ikkje namneendringar på allereie opplasta filer.
 cloud-file-attachment-error-title = Filelink-vedleggsfeil
 
 ## Link Preview
