@@ -168,10 +168,15 @@ account-hub-email-added-success-links-title = Utforsk alternativ for sikkerheit 
 account-hub-signature-link = E-postsignatur
 account-hub-email-error-text = Skriv inn ei gyldig e-postadresse.
 account-hub-name-error-text = Skriv inn eit namn
+account-hub-hostname-error-text = Vertsnamnet er tomt eller ugyldig. Berre bokstavar, tal, - og . er tillate.
+    .title = Vertsnamnet er tomt eller ugyldig. Berre bokstavar, tal, - og . er tillate.
 account-hub-port-error-text = Portnummer må vere mellom 1 og 65535
     .title = Portnummer må vere mellom 1 og 65535
 account-hub-username-error-text = Brukarnamn er påkravd
     .title = Brukarnamn er påkravd
+account-hub-oauth-pending = Ventar på autorisasjon i påloggingsvindauget …
+account-hub-addon-install-needed = { -brand-short-name } støttar ikkje denne serveren som standard. For å få tilgang til Exchange-e-post, <a data-l10n-name="addon-install">installer eit tredjeparts tillegg som Owl (betalt).</a>
+account-hub-addon-error = Mislykka installasjon av tillegget. Prøv på nytt, eller kontakt forfattaren av tillegget for å få hjelp.
 account-hub-account-authentication-error = Autentiseringsfeil.
 account-hub-add-address-book = Legg til ei adressebok
 address-book-sync-existing-icon =
