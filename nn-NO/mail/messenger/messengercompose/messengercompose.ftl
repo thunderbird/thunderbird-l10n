@@ -197,6 +197,16 @@ openpgp-key-issue-notification-multi =
         [one] Ende-til-ende-kryptering krev at nøkkelproblem for { $count } mottakar vert løyst.
        *[other] Ende-til-ende-kryptering krev at nøkkelproblem for { $count } mottakarar vert løyst.
     }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Ende-til-ende-kryptering krev at at ein løyser sertifikatproblem for { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Ende-til-ende-kryptering krev at sertifikatproblem for { $count } motakar vert løyst.
+       *[other] Ende-til-ende-kryptering krev at sertifikatproblem for { $count } mottakarar vert løyst.
+    }
 key-notification-disable-encryption =
     .label = Ikkje krypter
     .accesskey = k
