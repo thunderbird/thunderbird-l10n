@@ -150,6 +150,8 @@ account-hub-config-success = Innstillingar funne i Mozilla ISPDB
 account-hub-password-info = Påloggingsinformasjonen din blir berre lagra lokalt på datamaskina di
 account-hub-creating-account = Opprettar konto…
 account-hub-sync-accounts-found = { -brand-short-name } fann nokre tilkopla tenester
+account-hub-sync-accounts-not-found = { -brand-short-name } fann ikkje tilkopla tenester
+account-hub-sync-accounts-failure = { -brand-short-name } klarte ikkje å kople til dei valde tenestene
 account-hub-email-added-success = E-postkonto tilkopla
 account-hub-config-test-success = Gyldige konfigurasjonsinnstillingar
 account-hub-select-all = Merk alle
@@ -162,6 +164,7 @@ account-hub-sync-accounts-selected =
     }
 account-hub-no-address-books = Fann ingen adressebøker
 account-hub-no-calendars = Fann ingen kalendrar
+account-hub-email-added-success-links-title = Utforsk alternativ for sikkerheit og personalisering:
 account-hub-signature-link = E-postsignatur
 account-hub-email-error-text = Skriv inn ei gyldig e-postadresse.
 account-hub-name-error-text = Skriv inn eit namn
