@@ -50,6 +50,7 @@ message-header-list-subscribe-field = Liste-abonner<span data-l10n-name="field-s
 message-header-list-post-field = Liste-post<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = Liste-eigar<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = Liste-arkiv<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = Arkivert-på<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Få hjelp
@@ -70,6 +71,14 @@ list-id-list-post =
 list-id-list-owner =
     .label = Kontakt administrator…
     .accesskey = K
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Listearkiv
+    .accesskey = L
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = Permanent lenke for melding
+    .accesskey = P
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
@@ -89,3 +98,10 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Meir
     .title = Vis alle mottakarar
 message-ids-field-show-all = Vis alle
+
+## Dark Message Mode
+
+dark-message-mode-toggle-enabled =
+    .title = Slå av mørk meldingsmodus
+dark-message-mode-toggle-disabled =
+    .title = Slå på mørk meldingsmodus

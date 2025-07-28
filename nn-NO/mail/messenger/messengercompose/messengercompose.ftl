@@ -48,6 +48,10 @@ pill-tooltip-not-in-address-book = { $email } er ikkje i adresseboka di
 pill-action-edit =
     .label = Rediger adresse
     .accesskey = e
+#   $type (String) - the type of the addressing row, e.g. Cc, Bcc, etc.
+pill-action-select-all-sibling-pills =
+    .label = Vel alle adresser i { $type }
+    .accesskey = V
 pill-action-select-all-pills =
     .label = Vel alle adresser
     .accesskey = V
@@ -179,6 +183,20 @@ menu-view-certificates =
 menu-open-key-manager =
     .label = Nøkkelhandsamar
     .accesskey = N
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Du er ikkje konfigurert til å sende ende-til-ende-krypterte meldingar frå { $addr }.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Ende-til-ende-kryptering krev at ein løyser nøkkelproblem for { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Ende-til-ende-kryptering krev at nøkkelproblem for { $count } mottakar vert løyst.
+       *[other] Ende-til-ende-kryptering krev at nøkkelproblem for { $count } mottakarar vert løyst.
+    }
 key-notification-disable-encryption =
     .label = Ikkje krypter
     .accesskey = k
