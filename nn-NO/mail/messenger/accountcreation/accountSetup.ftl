@@ -219,6 +219,7 @@ account-setup-confirm-advanced-description = Denne dialogruta vil late seg att o
 
 account-setup-addon-install-title = Installer
 account-setup-addon-install-intro = Eit tredjepartstillegg kan gje deg tilgang til e-postkontoen din på denne serveren:
+account-setup-addon-no-protocol = Denne e-postserveren støttar dessverre ikkje opne protokollar. { account-setup-addon-install-intro }
 
 ## Success view
 
@@ -232,6 +233,20 @@ account-setup-calendar-button = Kople til ein ekstern kalender
 account-setup-linked-services-title = Kople til dei tilknytte tenestene dine
 account-setup-linked-services-description = { -brand-short-name } oppdaga andre tenester som er knytt til e-postkontoen din.
 account-setup-no-linked-description = Konfigurer andre tenester for å få mest mogleg ut av { -brand-short-name }-opplevinga di.
+# Variables:
+# $count (Number) - The number of address books found during autoconfig.
+account-setup-found-address-books-description =
+    { $count ->
+        [one] { -brand-short-name } fann ei adressebok som er kopla til e-postkontoen din.
+       *[other] { -brand-short-name } fann { $count } adressebøker kopla til e-postkontoen din.
+    }
+# Variables:
+# $count (Number) - The number of calendars found during autoconfig.
+account-setup-found-calendars-description =
+    { $count ->
+        [one] { -brand-short-name } fann ein kalender som er kopla til e-postkontoen din.
+       *[other] { -brand-short-name } fann { $count } kalendrar kopla til e-postkontoen din.
+    }
 account-setup-button-finish = Fullfør
     .accesskey = F
 account-setup-looking-up-address-books = Søkjer etter adressebøker…
