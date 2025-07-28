@@ -372,7 +372,19 @@ cloud-file-connection-error-title = Tilkoplingsfeil
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error = { -brand-short-name } er fråkopla. Klarte ikkje å kople til { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = Mislykka opplasting av { $filename } til { $provider }
 cloud-file-rename-error-title = Mislykka namnebyte
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error = Det oppstod eit problem med å byte namn på { $filename } hos { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = Klarte ikkje å gi nytt namn til { $filename } hos { $provider }
 cloud-file-attachment-error-title = Filelink-vedleggsfeil
 
 ## Link Preview
