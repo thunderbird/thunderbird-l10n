@@ -284,12 +284,31 @@ many-public-recipients-ignore =
     .label = La mottakarane vere synlege
     .accesskey = L
 many-public-recipients-prompt-title = For mange offentlege mottakarar
+#   $count (Number) - the count of addresses in the public recipients fields.
+many-public-recipients-prompt-msg =
+    { $count ->
+        [one] Meldinga di har ein offentleg mottakar. Dette kan vere eit personvernproblem. Du kan unngå å avsløre mottakarar ved å flytte mottakarar frå Til/Kopi til Blindkopi (Bcc) i staden.
+       *[other] Meldinga di har { $count } offentlege mottakarar, som kan sjå kvarandre sine adresser. Dette kan vere eit personvernproblem. Du kan unngå å avsløre mottakarar ved å flytte mottakarar frå Til/Kopi til Blindkopi (Bcc) i staden.
+    }
 many-public-recipients-prompt-cancel = Avbryt sending
 many-public-recipients-prompt-send = Send likevel
 
 ## Notifications
 
+# Variables:
+# $identity (string) - The name of the used identity, most likely an email address.
+compose-missing-identity-warning = Ein unik identitet som passar med frå-adressa vart ikkje funnen. Meldinga vil bli sendt ved hjelp av gjeldande frå-felt og innstillingar frå identiteten { $identity }.
+encrypted-bcc-warning = Når du sender ei kryptert melding, er ikkje mottakarane i blindkopi (Bcc) fullstendig skjulte. Alle mottakarar kan kanskje identifisere dei.
 encrypted-bcc-ignore-button = Forstått
+auto-disable-e2ee-warning = Ende-til-ende-kryptering for denne meldinga vart automatisk deaktivert.
+
+## Editing
+
+
+# Tools
+
+compose-tool-button-remove-text-styling =
+    .tooltiptext = Fjern tekststil
 
 ## Filelink
 
@@ -302,9 +321,23 @@ cloud-file-unknown-account-tooltip = Lasta opp til ein ukjend Filelink-konto.
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink-vedlegg
+# A text describing that the file was attached as a Filelink and can be downloaded
+# from the link shown below.
+# $filename - name of the file
+cloud-file-placeholder-intro = Fila { $filename } vart lagd ved som ein Filelink. Ho kan lastast ned frå lenka nedanfor.
 
 # Template
 
+# A line of text describing how many uploaded files have been appended to this
+# message. Emphasis should be on sharing as opposed to attaching. This item is
+# used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
+cloud-file-count-header =
+    { $count ->
+        [one] Eg har lenka { $count } fil til denne e-posten:
+       *[other] Eg har lenka { $count } filer til denne e-posten:
+    }
 # A text used in a footer, instructing the reader where to find additional
 # information about the used service provider.
 # $link (string) - html a-tag for a link pointing to the web page of the provider
@@ -317,6 +350,8 @@ cloud-file-service-provider-footer-single = Les meir om { $link }.
 #                        of the first n-1 used providers
 # $lastLink (string) - html a-tag pointing the web page of the n-th used provider
 cloud-file-service-provider-footer-multiple = Les meir om { $firstLinks } og { $lastLink }.
+# Tooltip for an icon, indicating that the link is protected by a password.
+cloud-file-tooltip-password-protected-link = Passordbeskytta lenkje
 # Used in a list of stats about a specific file
 # Service - the used service provider to host the file (Filelink Service: BOX.com)
 # Size - the size of the file (Size: 4.2 MB)
@@ -327,6 +362,7 @@ cloud-file-service-provider-footer-multiple = Les meir om { $firstLinks } og { $
 cloud-file-template-service-name = Filelink-teneste:
 cloud-file-template-size = Storleik:
 cloud-file-template-link = Lenke
+cloud-file-template-password-protected-link = Passordbeskytta lenkje
 cloud-file-template-expiry-date = Utløpsdato:
 cloud-file-template-download-limit = Nedlastingsgrense:
 
