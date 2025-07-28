@@ -271,9 +271,18 @@ show-bcc-row-button = Blindkopi
 extra-address-rows-menu-button =
     .title = Andre adresseringsfelt som skal visast
 public-recipients-notice-single = Meldinga di har ein offentleg mottakar. Du kan unngå å avsløre mottakaren ved å bruke blindkopi i staden.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+       *[other] Dei { $count } mottakarane i felta Til og Kopi vil sjå kvarandre sine adresser. Du kan unngå å avsløre mottakarar ved å bruke blindkopi (Bcc) i staden.
+    }
 many-public-recipients-bcc =
     .label = Bruk blindkopi i staden
     .accesskey = B
+many-public-recipients-ignore =
+    .label = La mottakarane vere synlege
+    .accesskey = L
 many-public-recipients-prompt-title = For mange offentlege mottakarar
 many-public-recipients-prompt-cancel = Avbryt sending
 many-public-recipients-prompt-send = Send likevel
