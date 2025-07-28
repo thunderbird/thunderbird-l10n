@@ -225,6 +225,13 @@ about-addressbook-confirm-delete-contacts-title =
 # Variables:
 # $name (String) - The name of the contact to be deleted.
 about-addressbook-confirm-delete-contacts-single = Er du sikker på at du vil slette kontakten { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [one] Er du sikker på at du vil fjerne kontakten?
+       *[other] Er du sikker på at du vil fjerne desse { $count } kontaktane?
+    }
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
@@ -237,6 +244,26 @@ about-addressbook-placeholder-no-search-results = Ingen kontaktar funne
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+       *[other] { $count } valde adressebokoppføringar
+    }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [one] { $count } vald kontakt
+       *[other] { $count } valde kontaktar
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [one] { $count } vald liste
+       *[other] { $count } valde lister
+    }
 about-addressbook-details-edit-photo =
     .title = Rediger kontaktfoto
 about-addressbook-new-contact-header = Ny kontakt
