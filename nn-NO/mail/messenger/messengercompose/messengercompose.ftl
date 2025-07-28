@@ -369,6 +369,9 @@ cloud-file-template-download-limit = Nedlastingsgrense:
 # Messages
 
 cloud-file-connection-error-title = Tilkoplingsfeil
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-connection-error = { -brand-short-name } er fråkopla. Klarte ikkje å kople til { $provider }.
 cloud-file-rename-error-title = Mislykka namnebyte
 cloud-file-attachment-error-title = Filelink-vedleggsfeil
 
