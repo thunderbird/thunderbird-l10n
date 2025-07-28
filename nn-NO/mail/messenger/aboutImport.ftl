@@ -87,6 +87,7 @@ addr-book-sqlite-file = SQLite-databasefil (.sqlite)
 addr-book-mab-file = Mork-databasefil (.mab)
 addr-book-file-picker = Vel ei adressebokfil
 addr-book-csv-field-map-title = Matche feltnamn
+addr-book-csv-field-map-desc = Vel adressebokfelta som svarer til kjeldefelta. Fjern merket for felta du ikkje vil importere
 addr-book-directories-title = Vel kvar valde data skal importerast til
 addr-book-directories-pane-source = Kjeldefil:
 # $addressBookName (string) - name of the new address book that would be created.
@@ -128,8 +129,10 @@ progress-pane-exporting2 = Eksporterer… { $progressPercent }
 progress-pane-finished-desc2 = Fullført
 error-pane-title = Feil
 error-message-zip-file-too-big2 = Den valde ZIP-fila er større enn 2GB. Pakk ut fila først, importer så frå den utpakka mappa i staden.
+error-message-extract-zip-file-failed2 = Klarte ikkje å pakke ut ZIP-fila. Pakk ut manuelt, og importer henne deretter frå den utpakka mappa i staden.
 error-message-failed = Uventa mislykka import, meir informasjon kan vere tilgjengeleg i feilkonsollen.
 error-failed-to-parse-ics-file = Ingen importerbare element funne i fila.
+error-export-failed = Eksporten mislykkast uventa. Meir informasjon kan vere tilgjengeleg i feilkonsollen.
 error-message-no-profile = Fann ingen profil.
 
 ## <csv-field-map> element

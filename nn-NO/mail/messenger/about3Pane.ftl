@@ -461,6 +461,22 @@ apply-current-view-to-folder-message = Bruk gjeldande mappevising på { $name }?
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Bruke gjeldande mappe på { $name } og underliggande mapper?
 # Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> ulesen av <span>1</span> melding
+               *[other] <span>1</span> ulesne av <span>{ $total }</span> meldingar
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> ulesne av <span>1</span> melding
+               *[other] <span>{ $unread }</span> ulesne av <span>{ $total }</span> meldingar
+            }
+    }
+# Variables:
 # $total (Number) - Number of messages in thread.
 threadpane-sort-header-count =
     { $total ->
@@ -470,6 +486,7 @@ threadpane-sort-header-count =
 threadpane-card-menu-button =
     .title = Meldingsmeny
 message-list-placeholder-no-messages = Fann ingen meldingar
+message-list-placeholder-multiple-folders = Fleire mapper valde
 
 ## Folder pane context menu
 
@@ -482,3 +499,8 @@ folder-pane-context-mark-folder-read =
            *[other] Merk mappe som lesen
         }
     .accesskey = M
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = Tilbakestill mapperekkjefølgje
+    .accesskey = T
