@@ -335,7 +335,11 @@ toolbar-context-menu-remove-extension =
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-title = Fjerne { $name }?
 addon-removal-confirmation-button = Fjern
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-confirmation-message = Fjern { $name } og dessutan den konfigurasjonen og data frå { -brand-short-name }?
 caret-browsing-prompt-title = Nettlesing med markør
+caret-browsing-prompt-text = Om du trykkjer på F7, blir tekstveljar slått av eller på. Denne funksjonen plasserer ein flyttbar markør i noko innhald, slik at du kan velje tekst med tastaturet. Vil du slå på nettlesing med tekstveljar?
 caret-browsing-prompt-check-text = Ikkje spør meg fleire gongar.
 repair-text-encoding-button =
     .label = Reparer tekstkoding
@@ -343,6 +347,7 @@ repair-text-encoding-button =
 
 ## no-reply handling
 
+no-reply-title = Svar er ikkje støtta
 no-reply-reply-anyway-button = Svar likevel
 
 ## Spaces toolbar
