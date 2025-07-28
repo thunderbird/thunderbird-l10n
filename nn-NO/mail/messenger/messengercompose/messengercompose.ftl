@@ -389,10 +389,20 @@ cloud-file-rename-error-with-custom-message-title = Klarte ikkje å gi nytt namn
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-rename-not-supported = { $provider } støttar ikkje namneendringar på allereie opplasta filer.
 cloud-file-attachment-error-title = Filelink-vedleggsfeil
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = Klarte ikkje å oppdatere Filelink-vedlegget { $filename } fordi den lokale fila er flytta eller sletta.
+cloud-file-account-error-title = Filelink-kontofeil
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-account-error = Klarte ikkje å oppdatere Filelink-vedlegget { $filename }, fordi Filelink-kontoen er sletta.
 
 ## Link Preview
 
 link-preview-title = Førehandsvising av lenke
+link-preview-description = { -brand-short-name } kan leggje til ei innebygd førehandsvisning når lenkjer blir limde inn.
+link-preview-autoadd = Legg automatisk til førehandsvisningar av lenker når det er mogleg
+link-preview-replace-now = Leggje til ei førehandsvisning av lenka for denne lenka?
 link-preview-yes-replace = Ja
 
 ## Dictionary selection popup
@@ -400,3 +410,5 @@ link-preview-yes-replace = Ja
 spell-add-dictionaries =
     .label = Legg til ordlister
     .accesskey = L
+subject-encription-icon =
+    .title = Emnet vil ikkje bli kryptert

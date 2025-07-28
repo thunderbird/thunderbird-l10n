@@ -203,6 +203,9 @@ context-menu-archive =
 context-menu-mark-junk =
     .aria-label = Merk som søppel
     .tooltiptext = Merk som søppel
+context-menu-mark-not-junk =
+    .aria-label = Merk som ikkje søppelpost
+    .tooltiptext = Merk som ikkje søppelpost
 mail-context-menu-open =
     .label = Opne
     .accesskey = O
@@ -264,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Omdiriger
+other-action-copy-message-link =
+    .label = Kopier meldingslenke
+other-action-copy-news-link =
+    .label = Kopier nyheitslenke
 message-header-msg-flagged =
     .title = Stjernemarkert
     .aria-label = Stjernemarkert
@@ -293,9 +300,25 @@ message-header-button-style-icons =
 message-header-show-sender-full-address =
     .label = Vis alltid fullstendig adresse til avsendar
     .accesskey = V
+message-header-show-sender-full-address-description = E-postadressa vil visast under visingsnamnet.
+message-header-show-recipient-avatar =
+    .label = Vis profilbildet til avsendaren
+    .accesskey = V
 message-header-show-big-avatar =
     .label = Større profilbilde
     .accesskey = S
+message-header-hide-label-column =
+    .label = Skjul kolonna etikettar
+    .accesskey = k
+message-header-large-subject =
+    .label = Emne i stor skrift
+    .accesskey = s
+message-header-all-headers =
+    .label = Vis alle meldingshovud
+    .accesskey = V
+message-header-dark-message-toggle =
+    .label = Vis veksleknappen for mørk meldingsmodus
+    .accesskey = V
 
 ## Action Button Context Menu
 
