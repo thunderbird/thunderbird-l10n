@@ -101,8 +101,17 @@ menu-view-repair-text-encoding =
     .label = Reparer tekstkoding
     .accesskey = k
 
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Mappepaneloverskrift
+    .accesskey = p
+
 ## View / Layout
 
+menu-view-toggle-thread-pane-header =
+    .label = Overskrift på meldingsliste
+    .accesskey = O
 menu-font-size-label =
     .label = Skriftstorleik
     .accesskey = S
@@ -127,6 +136,9 @@ mail-uidensity-default =
 mail-uidensity-relaxed =
     .label = Avslappa
     .accesskey = A
+menu-spaces-toolbar-button =
+    .label = Områder-verktøylinje
+    .accesskey = O
 
 ## File
 
@@ -136,3 +148,15 @@ file-new-email-account =
 file-new-newsgroup-account =
     .label = Nyheitsgruppekonto
     .accesskey = k
+file-new-addressbook =
+    .label = Adressebok
+    .accesskey = A
+file-new-local-addressbook =
+    .label = Lokal adressebok
+    .accesskey = a
+file-new-carddav-addressbook =
+    .label = CardDAV-adressebok
+    .accesskey = C
+file-new-ldap-addressbook =
+    .label = LDAP-adressebok
+    .accesskey = L

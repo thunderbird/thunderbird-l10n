@@ -28,3 +28,4 @@ webext-perms-description-messagesUpdate = Endre egenskapar og stikkord for e-pos
 webext-perms-description-messagesTags = Opprett, endre og slett meldingsetikettar
 webext-perms-description-messagesTagsList = List opp meldingsetikettar
 webext-perms-description-sensitiveDataUpload = Overfør sensitive brukardata (viss tilgang er gitt) til ein ekstern server for vidare behandling
+webext-perms-description-messengerSettings = Les innstillingane for { -brand-short-name }
