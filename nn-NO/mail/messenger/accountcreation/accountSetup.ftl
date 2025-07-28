@@ -141,6 +141,8 @@ account-setup-result-username-different = Innkomande: { $incoming }, Utgåande: 
 
 # Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
 account-setup-credentials-incomplete = Autentiseringa feila. Anten er den spesifiserte legitimasjonen feil, eller det vert kravd eit eige brukarnamn for å logge på. Dette brukarnamnet er vanlegvis Windows-domene-brukarnamnet ditt med eller utan domenet (til dømes karinordmann eller AD\\karinordmann).
+account-setup-credentials-wrong = Misslykka autentisering. Kontroller brukarnamn og passord
+account-setup-find-settings-failed = { -brand-short-name } klarte ikke å finne innstillingane for e-postkontoen din
 account-setup-exchange-config-unverifiable = Klarte ikkje å stadfeste konfigurasjonen. Dersom brukarnamnet og passordet ditt er rett, er det sannsynleg at serveradministratoren har slått av den valde konfigurasjonen for kontoen din. Prøv å velje ein annan protokoll.
 
 ## Manual configuration area
@@ -151,6 +153,7 @@ account-setup-protocol-label = Protokoll:
 account-setup-hostname-label = Vertsnamn:
 account-setup-port-label = Port:
     .title = Still inn portnummeret til 0 för automatisk oppdaging
+account-setup-auto-description = { -brand-short-name } vil prøve å automatisk oppdage felt som er tomme.
 account-setup-ssl-label = Tilkoplingssikkerheit:
 account-setup-outgoing-server-legend = Utgåande server
 
@@ -180,6 +183,7 @@ account-setup-warning-cleartext = <b>{ $server }</b> brukar ikkje kryptering.
 account-setup-warning-cleartext-details = Usikre e-posttenarar brukar ikkje kryptering for å verne passord og privat informasjon. Ved å kople til denne tenaren kan du avsløre passordet ditt eller privat informasjon.
 account-setup-insecure-server-checkbox = Eg forstår risikoen
     .accesskey = E
+account-setup-insecure-description = { -brand-short-name } kan la deg laste ned e-post med dei gitte konfigurasjonane. Men du bør kontakte systemansvarleg eller e-posttilbydaren om desse feilaktige tilkoplingane. Sjå <a data-l10n-name="thunderbird-faq-link">ofte stilte spørsmål om Thunderbird</a> for meir informasjon.
 insecure-dialog-cancel-button = Endre innstillingar
     .accesskey = n
 insecure-dialog-confirm-button = Stadfest
@@ -187,12 +191,16 @@ insecure-dialog-confirm-button = Stadfest
 
 ## Warning Exchange confirmation dialog
 
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+exchange-dialog-question = { -brand-short-name } fann kontooppsettinformasjonen din på { $domain }. Vil du halde fram og sende inn informasjonen din?
 exchange-dialog-confirm-button = Innlogging
 exchange-dialog-cancel-button = Avbryt
 
 ## Dismiss account creation dialog
 
 exit-dialog-title = Ingen e-postkonto konfigurert
+exit-dialog-description = Er du sikker på at du vil avbryte oppsettprosessen? { -brand-short-name } kan framleis brukast utan ein e-postkonto, men mange funksjonar vil ikkje vere tilgjengelege.
 account-setup-no-account-checkbox = Bruk { -brand-short-name } utan ein e-postkonto
     .accesskey = B
 exit-dialog-cancel-button = Hald fram med konfigurasjonen
