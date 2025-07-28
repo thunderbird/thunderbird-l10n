@@ -31,4 +31,5 @@ account-manager-server-default-icon =
 outgoing-server-section-name = Utgåande server
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Utgåande server-innstillingar
+outgoing-server-settings-description = Når du behandlar identitetane dine kan du bruke ein server frå denne lista ved å velje han som utgåande server, eller du kan bruke standard server frå denne lista ved å velje «Bruk standard server».
 outgoing-server-type = Server-type:

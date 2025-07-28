@@ -8,6 +8,8 @@ about-addressbook-title = Adressebok
 
 about-addressbook-toolbar-new-address-book =
     .label = Ny adressebok
+about-addressbook-toolbar-add-address-book =
+    .label = Legg til lokal adressebok
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Legg til CardDAV-adressebok
 about-addressbook-toolbar-add-ldap-address-book =
@@ -30,6 +32,9 @@ all-address-books = Alle adressebøkene
 # $name (String) - The name of the selected book/list.
 # $count (Number) - The number of contacts in the selected book/list.
 about-addressbook-card-count = Totalt antal kontaktar i { $name }: { $count }
+# Variables:
+# $count (Number) - The number of contacts in all address books.
+about-addressbook-card-count-all = Totalt antal kontaktar i alle adressebøker: { $count }
 about-addressbook-books-context-properties =
     .label = Eigenskapar
 about-addressbook-books-context-edit-list =
@@ -83,6 +88,8 @@ about-addressbook-sort-email-ascending =
     .label = Sorter etter e-postadresse (A > Å)
 about-addressbook-sort-email-descending =
     .label = Sorter etter e-postadresse (Å > A)
+about-addressbook-table-layout =
+    .label = Tabelloppsett
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
@@ -201,12 +208,23 @@ about-addressbook-confirm-remove-contacts-title =
 # $list (String) - The name of the list that contacts will be removed from.
 about-addressbook-confirm-remove-contacts-single = Er du sikker på at du vil fjerne { $name } frå { $list }?
 # Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [one] Er du sikker på at du vil fjerne kontakten frå { $list }?
+       *[other] Er du sikker på at du vil fjerne desse { $count } kontaktane frå { $list }?
+    }
+# Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-title =
     { $count ->
         [one] Slett kontakt
        *[other] Slett kontaktar
     }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Er du sikker på at du vil slette kontakten { $name }?
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
