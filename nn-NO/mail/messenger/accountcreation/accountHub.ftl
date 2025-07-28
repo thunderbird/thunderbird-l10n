@@ -196,9 +196,30 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Ny LDAP-adressebok
 address-book-add-ldap-description = Kople til ei ekstern LDAP-adressebok
 account-hub-fetching-sync-accounts = Oppdager adressebøker og kalendrar…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] 1 adressebok frå 1 konto tilgjengeleg
+               *[other] 1 adressebok frå { $accounts } kontoar tilgjengeleg
+            }
+       *[other]
+            { $accounts ->
+                [one] { $addressBooks } adressebøker frå 1 konto tilgjengeleg
+               *[other] { $addressBooks } adressebøker frå { $accounts } kontoar tilgjengeleg
+            }
+    }
 address-book-sync-existing-description = Hentar eksisterande kontoar…
 account-hub-select-address-book-account = Vel ein konto med adressebøker
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } av { $total }
+    .title = { $synced } synkroniserte adressebøker, { $available } tilgjengeleg
 account-hub-add-local-address-book = Opprett ei lokal adressebok
 account-hub-local-address-book-label = Namn på adressebok
 account-hub-local-error-text = Skriv inn eit namn på adresseboka
 account-hub-sync-address-books = Synkroniser eksisterande adressebøker
+account-hub-new-remote-address-book = Ny ekstern adressebok

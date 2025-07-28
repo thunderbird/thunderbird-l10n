@@ -70,14 +70,25 @@ account-setup-button-done = Ferdig
 account-setup-looking-up-settings = Undersøkjer konfigurasjonen…
 account-setup-looking-up-settings-guess = Undersøkjer konfigurasjonen: Prøver vanlege tenarnamn…
 account-setup-looking-up-settings-half-manual = Ser etter konfigurasjon: sjekkar server…
+account-setup-looking-up-disk = Ser etter konfigurasjon: brukar { -brand-short-name }-installasjon…
+account-setup-looking-up-isp = Ser etter konfigurasjon: E-posttilbydar…
+# Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
+account-setup-looking-up-db = Ser etter konfigurasjon: Mozilla ISP-database…
+account-setup-looking-up-mx = Ser etter konfigurasjon: innkomande e-postdomene…
+account-setup-looking-up-exchange = Ser etter konfigurasjon: Exchange-server…
 account-setup-checking-password = Kontrollerer passord…
 account-setup-installing-addon = Lastar ned og installerer utviding…
+account-setup-success-half-manual = Følgjande innstillingar vart funne ved undersøking av serveren:
+account-setup-success-guess = Konfigurasjon funne ved å prøve vanlege servernamn.
 account-setup-success-guess-offline = Du er i fråkopla modus. Vi har gjetta nokre av innstillingane, men du må sjølv registrere dei rette innstillingane.
 account-setup-success-password = Passordet er OK
 account-setup-success-addon = Utvidinga vart installert
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-success-settings-db = Fann konfigurasjonen i Mozillas ISP-database.
+account-setup-success-settings-disk = Konfigurasjon funne på installasjonen av { -brand-short-name }.
 account-setup-success-settings-isp = Oppsett funne hos e-postleverandøren.
+# Note: Microsoft Exchange is a product name.
+account-setup-success-settings-exchange = Konfigurasjon vart funnen for ein Microsoft Exchange-server.
 
 ## Illustrations
 
@@ -111,6 +122,8 @@ account-setup-results-area-title =
     }
 account-setup-result-imap-description = Hald mapper og e-postar synkroniserte på serveren din
 account-setup-result-pop-description = Behald mapper og e-postar på datamaskina di
+# Note: Exchange, Office365 are the name of products.
+account-setup-result-exchange2-description = Bruk Microsoft Excgange-server elller Office 365-skytenester
 account-setup-incoming-title = Innkomande
 account-setup-outgoing-title = Utgåande
 account-setup-username-title = Brukarnamn
@@ -119,6 +132,10 @@ account-setup-result-no-encryption = Inga kryptering
 account-setup-result-ssl = SSL/TLS
 account-setup-result-starttls = STARTTLS
 account-setup-result-outgoing-existing = Bruk eksisterande utgåande SMTP-tenar
+# Variables:
+#  $incoming (String): The email/username used to log into the incoming server
+#  $outgoing (String): The email/username used to log into the outgoing server
+account-setup-result-username-different = Innkomande: { $incoming }, Utgåande: { $outgoing }
 
 ## Error messages
 
