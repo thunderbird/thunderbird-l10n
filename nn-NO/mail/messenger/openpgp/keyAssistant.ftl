@@ -15,6 +15,7 @@ openpgp-key-assistant-recipients-issue-description =
         [one] For å kryptere må du skaffe og godta ein brukbar nøkkel for éin mottakar. <a data-l10n-name="openpgp-link">Les meir…</a>
        *[other] For å kryptere må du skaffe og godta brukbare nøklar for { $count } mottakarar. <a data-l10n-name="openpgp-link">Les meir…</a>
     }
+openpgp-key-assistant-info-alias = { -brand-short-name } krev vanlegvis at den offentlege nøkkelen til mottakaren inneheld ein brukar-ID med ei samsvarande e-postadresse. Dette kan overstyrast ved å bruke OpenPGP-mottakaraliasreglar. <a data-l10n-name="openpgp-link">Les meir…</a>
 # Variables:
 # $count (Number) - The number of recipients that need attention.
 openpgp-key-assistant-recipients-description =
@@ -35,8 +36,29 @@ openpgp-key-assistant-resolve-title =
        *[other] { -brand-short-name } fann følgjane nøklar for { $recipient }.
     }
 openpgp-key-assistant-valid-description = Vel nøkkelen du vil godta
+# Variables:
+# $numKeys (Number) - The number of available keys.
+openpgp-key-assistant-invalid-title =
+    { $numKeys ->
+        [one] Følgjande nøkkel kan ikkje brukast med mindre du lastar ned ei oppdatering.
+       *[other] Følgjande nøklar kan ikkje brukast med mindre du lastar ned ei oppdatering.
+    }
 openpgp-key-assistant-no-key-available = Ingen nøkkel tilgjengeleg.
 openpgp-key-assistant-multiple-keys = Fleire nøklar er tilgjengelege.
+# Variables:
+# $count (Number) - The number of unaccepted keys.
+openpgp-key-assistant-key-unaccepted =
+    { $count ->
+        [one] Ein nøkkel er tilgjengeleg, men han er ikkje godkjend enno.
+       *[other] Fleire nøklar er tilgjengelege, men ingen av dei er godkjende enno.
+    }
+# Variables:
+# $date (String) - The expiration date of the key.
+openpgp-key-assistant-key-accepted-expired = Ein godkjend nøkkel har gått ut den { $date }.
+openpgp-key-assistant-keys-accepted-expired = Fleire godkjende nøklar har gått ut.
+# Variables:
+# $date (String) - The expiration date of the key.
+openpgp-key-assistant-this-key-accepted-expired = Denne nøkkelen vart tidlegare akseptert, men gjekk ut den { $date }.
 # Variables:
 # $date (String) - The expiration date of the key.
 openpgp-key-assistant-key-unaccepted-expired-one = Nøkkelen gjekk ut: { $date }
@@ -50,7 +72,13 @@ openpgp-key-assistant-key-source =
        *[other] Kjelder
     }
 openpgp-key-assistant-key-collected-attachment = e-postvedlegg
+# Autocrypt is the name of a standard.
+openpgp-key-assistant-key-collected-autocrypt = Autokryptar hovud
 openpgp-key-assistant-key-collected-keyserver = nøkkelsørvar
+# Web Key Directory (WKD) is a concept.
+openpgp-key-assistant-key-collected-wkd = Nettnøkkelkatalog
+# Do not translate GnuPG, it's a name of other software.
+openpgp-key-assistant-key-collected-gnupg = GnuPG-nøkkelring
 
 ## Dialog buttons
 
