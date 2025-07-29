@@ -348,6 +348,9 @@ repair-text-encoding-button =
 ## no-reply handling
 
 no-reply-title = Svar er ikkje støtta
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
+no-reply-message = Svaradressa ({ $email }) ser ikkje ut til å vere ei overvakt adresse. Meldingar til denne adressa vil sannsynlegvis ikkje bli lesne av nokon.
 no-reply-reply-anyway-button = Svar likevel
 
 ## Spaces toolbar
