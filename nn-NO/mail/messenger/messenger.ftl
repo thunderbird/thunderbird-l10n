@@ -353,8 +353,23 @@ no-reply-title = Svar er ikkje støtta
 no-reply-message = Svaradressa ({ $email }) ser ikkje ut til å vere ei overvakt adresse. Meldingar til denne adressa vil sannsynlegvis ikkje bli lesne av nokon.
 no-reply-reply-anyway-button = Svar likevel
 
+## error messages
+
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } av { $total } meldingar kunne ikkje dekrypterast og vart ikkje kopierte.
+       *[other] { $failures } av { $total } meldingar kunne ikkje dekrypterast og vart ikkje kopierte.
+    }
+
 ## Spaces toolbar
 
+spaces-toolbar-element =
+    .toolbarname = Område-verktøylinje
+    .aria-label = Område-verktøylinje
+    .aria-description = Loddrett verktøylinje for å byte mellom ulike område. Bruk piltastane for å navigere dei tilgjengelege knappane.
 spaces-toolbar-button-mail2 =
     .title = E-post
 spaces-toolbar-button-address-book2 =
@@ -419,8 +434,15 @@ chat-button-unread-messages = { $count }
 
 menuitem-customize-label =
     .label = Tilpass…
+spaces-customize-panel-title = Innstillingar for område-verktøylinja
 spaces-customize-background-color = Bakgrunnsfarge
 spaces-customize-icon-color = Knappefarge
+# The background color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-background-color = Bakgrunnsfarge for markert knapp
+# The icon color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-text-color = Farge for markert knapp
 spaces-customize-button-restore = Gjenopprett standardar
     .accesskey = G
 customize-panel-button-save = Ferdig
@@ -438,8 +460,23 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+openpgp-forget = Gløym OpenPGP-passordfrasar
+
+## Quota panel.
+
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% full
+    .title = IMAP-kvote: { $usage } brukt av totalt { $limit }
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Marker som lesen
 delete-action = Slett
+mark-as-starred-action = Marker som stjernemarkert
+mark-as-spam-action = Marker som søppelpost
 archive-action = Arkiv
