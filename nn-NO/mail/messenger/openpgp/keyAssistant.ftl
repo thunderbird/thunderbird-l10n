@@ -79,9 +79,35 @@ openpgp-key-assistant-key-collected-keyserver = nøkkelsørvar
 openpgp-key-assistant-key-collected-wkd = Nettnøkkelkatalog
 # Do not translate GnuPG, it's a name of other software.
 openpgp-key-assistant-key-collected-gnupg = GnuPG-nøkkelring
+# Variables:
+# $count (Number) - Number of found keys.
+openpgp-key-assistant-keys-has-collected =
+    { $count ->
+        [one] Ein nøkkel vart funnen, men han er ikkje godkjend enno.
+       *[other] Fleire nøklar vart funne, men ingen av dei er godkjende enno.
+    }
+openpgp-key-assistant-key-rejected = Denne nøkkelen har vorte avvist tidlegare.
+openpgp-key-assistant-key-accepted-other = Denne nøkkelen har tidlegare vorte godteken for ei anna e-postadresse.
+# Variables:
+# $recipient (String) - The email address of the recipient needing resolution.
+openpgp-key-assistant-resolve-discover-info = Finn fleire eller oppdaterte nøklar for { $recipient } på nettet, eller importer dei frå ei fil.
+
+## Discovery section
+
+openpgp-key-assistant-discover-title = Leitar etter nøklar på nettet.
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-discover-keys = Finn nøklar for { $recipient }…
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-expired-key-update =
+    Ei oppdatering vart funnen for ein av dei tidlegare aksepterte nøklane for { $recipient }.
+    Den kan no brukast sidan ho ikkje lenger er utgått.
 
 ## Dialog buttons
 
+openpgp-key-assistant-discover-online-button = Oppdag offentlege nøklar på nett…
+openpgp-key-assistant-import-keys-button = Importer offentlege nøklar frå fil…
 openpgp-key-assistant-issue-resolve-button = Løys…
 openpgp-key-assistant-view-key-button = Vis nøkkel…
 openpgp-key-assistant-recipients-show-button = Vis
