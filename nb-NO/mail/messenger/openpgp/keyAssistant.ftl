@@ -12,7 +12,7 @@ openpgp-key-assistant-recipients-issue-header = Kan ikke kryptere
 # $count (Number) - The number of recipients that need attention.
 openpgp-key-assistant-recipients-issue-description =
     { $count ->
-        [one] For å kryptere må du skaffe og godta brukbare nøkkel for en mottaker. <a data-l10n-name="openpgp-link">Les mer…</a>
+        [one] For å kryptere må du skaffe og godta en brukbar nøkkel for en mottaker. <a data-l10n-name="openpgp-link">Les mer…</a>
        *[other] For å kryptere må du skaffe og godta brukbare nøkler for { $count } mottakere. <a data-l10n-name="openpgp-link">Les mer…</a>
     }
 openpgp-key-assistant-info-alias = { -brand-short-name } krever vanligvis at mottakerens offentlige nøkkel inneholder en bruker-ID med en samsvarende e-postadresse. Dette kan overstyres ved å bruke OpenPGP-mottakeraliasregler. <a data-l10n-name="openpgp-link">Les mer…</a>

@@ -3,10 +3,18 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 openpgp-key-assistant-title = OpenPGP-nøkkelassistent
+openpgp-key-assistant-rogue-warning = Unngå å godta ein forfalska nøkkel. For å sikre at du har fått tak i rett nøkkel, bør du stadfeste han. <a data-l10n-name="openpgp-link">Les meir…</a>
 
 ## Encryption status
 
 openpgp-key-assistant-recipients-issue-header = Kan ikke kryptere
+# Variables:
+# $count (Number) - The number of recipients that need attention.
+openpgp-key-assistant-recipients-issue-description =
+    { $count ->
+        [one] For å kryptere må du skaffe og godta ein brukbar nøkkel for éin mottakar. <a data-l10n-name="openpgp-link">Les meir…</a>
+       *[other] For å kryptere må du skaffe og godta brukbare nøklar for { $count } mottakarar. <a data-l10n-name="openpgp-link">Les meir…</a>
+    }
 
 ## Resolve section
 
