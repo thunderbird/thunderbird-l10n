@@ -15,9 +15,25 @@ openpgp-key-assistant-recipients-issue-description =
         [one] For å kryptere må du skaffe og godta ein brukbar nøkkel for éin mottakar. <a data-l10n-name="openpgp-link">Les meir…</a>
        *[other] For å kryptere må du skaffe og godta brukbare nøklar for { $count } mottakarar. <a data-l10n-name="openpgp-link">Les meir…</a>
     }
+# Variables:
+# $count (Number) - The number of recipients that need attention.
+openpgp-key-assistant-recipients-description =
+    { $count ->
+        [one] Du har allereie ein brukbar og akseptert nøkkel for ein mottakar.
+       *[other] Du har allereie brukbare og aksepterte nøklar for { $count } mottakarar.
+    }
+openpgp-key-assistant-recipients-description-no-issues = Denne meldinga kan krypterast. Du har brukbare og aksepterte nøklar for alle mottakarar.
 
 ## Resolve section
 
+# Variables:
+# $recipient (String) - The email address of the recipient needing resolution.
+# $numKeys (Number) - The number of keys.
+openpgp-key-assistant-resolve-title =
+    { $numKeys ->
+        [one] { -brand-short-name } fann følgjande nøkkel for { $recipient }.
+       *[other] { -brand-short-name } fann følgjane nøklar for { $recipient }.
+    }
 openpgp-key-assistant-valid-description = Vel nøkkelen du vil godta
 openpgp-key-assistant-no-key-available = Ingen nøkkel tilgjengeleg.
 openpgp-key-assistant-multiple-keys = Fleire nøklar er tilgjengelege.
