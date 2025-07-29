@@ -55,6 +55,7 @@ policy-ExtensionSettings = Kelola semua aspek pemasangan ekstensi.
 policy-ExtensionUpdate = Aktifkan atau nonaktifkan pembaruan ekstensi otomatis.
 policy-Handlers = Konfigurasikan penangan aplikasi baku.
 policy-HardwareAcceleration = Jika salah, matikan akselerasi perangkat keras.
+policy-InAppNotification = Aktifkan atau nonaktifkan jenis notifikasi.
 policy-InstallAddonsPermission = Izinkan situs tertentu untuk memasang pengaya.
 policy-LegacyProfiles = Nonaktifkan fitur yang memberlakukan profil terpisah pada setiap pemasangan.
 

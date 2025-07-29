@@ -336,6 +336,9 @@ openpgp-description-has-keys = { -brand-short-name } menemukan { $count } kunci 
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Konfigurasi Anda saat ini menggunakan ID kunci <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Konfigurasi Anda saat ini menggunakan kunci <b>{ $key }</b>, yang akan kedaluwarsa { $when }. Agar kunci tetap valid, pertimbangkan untuk memperpanjang tanggal kedaluwarsa kunci sekarang.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Konfigurasi Anda saat ini menggunakan kunci <b>{ $key }</b>, yang telah kedaluwarsa.
 openpgp-add-key-button =
     .label = Tambahkan Kunci…

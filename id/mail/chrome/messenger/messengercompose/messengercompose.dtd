@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Tak berdosa">
 <!ENTITY smiley15Cmd.label "Menangis">
 <!ENTITY smiley16Cmd.label "Mulut Tertutup">
+<!ENTITY smiley17Cmd.label "Marah">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Tidak ada saran ditemukan">
 <!ENTITY spellCheckIgnoreWord.label "Abaikan kata">

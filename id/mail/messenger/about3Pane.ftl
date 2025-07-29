@@ -455,3 +455,8 @@ message-list-placeholder-multiple-folders = Beberapa folder dipilih
 folder-pane-context-mark-folder-read =
     .label = Tandai Folder Sudah Dibaca
     .accesskey = d
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = Atur Ulang Urutan Folder
+    .accesskey = r
