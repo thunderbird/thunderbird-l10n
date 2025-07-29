@@ -334,6 +334,8 @@ openpgp-copy-cmd-label =
 
 ## e2e encryption settings
 
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-no-key = { -brand-short-name } har ikkje ein personleg OpenPGP-nøkkel for <b>{ $identity }</b>
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Den gjeldande konfigurasjonen din brukar nøkkel-ID <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
