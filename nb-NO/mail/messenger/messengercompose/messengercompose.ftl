@@ -194,6 +194,7 @@ openpgp-key-issue-notification-single = Ende-til-ende-kryptering krever at man l
 # $count (Number) - Number of recipients with key issues.
 openpgp-key-issue-notification-multi =
     { $count ->
+        [one] Ende-til-ende-kryptering krever at nøkkelproblemer for { $count } mottaker løses.
        *[other] Ende-til-ende-kryptering krever at nøkkelproblemer for { $count } mottakere løses.
     }
 # Variables:
@@ -203,6 +204,7 @@ smime-cert-issue-notification-single = Ende-til-ende-kryptering krever at man l�
 # $count (Number) - Number of recipients with certificate issues.
 smime-cert-issue-notification-multi =
     { $count ->
+        [one] Ende-til-ende-kryptering krever at sertifikatproblemer for { $count } mottaker løses.
        *[other] Ende-til-ende-kryptering krever at sertifikatproblemer for { $count } mottakere løses.
     }
 key-notification-disable-encryption =
