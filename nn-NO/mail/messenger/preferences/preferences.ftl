@@ -435,6 +435,24 @@ conversation-view-checkbox-label =
     .accesskey = k
 conversation-view-checkbox-description = Eksperimentell funksjon basert på Gloda, bruk han på eige ansvar
 label-experiment = Eksperimentell
+dark-message-mode-legend = Stil for meldingslesar
+dark-message-mode-checkbox-label =
+    .label = Slå på mørk meldingsmodus
+    .accesskey = S
+dark-message-mode-description = Tving meldingsteksten til å følgje mørke tema
+dark-message-mode-toggle-label =
+    .label = Vis veksleknapp for mørk meldingsmodus
+    .accesskey = V
+dark-message-mode-toggle-description = Vis ein veksleknapp i meldingshovudet for raskt å deaktivere mørk meldingsmodus
+account-hub-legend = Kontosenter
+account-hub-checkbox-label =
+    .label = Opprett kontoar i det nye kontosenteret
+    .accesskey = O
+account-hub-checkbox-description = Eksperimentell ny prosess for oppretting av e-postkontoar
+account-hub-ab-checkbox-label =
+    .label = Opprett adressebøker i det nye kontosenteret
+    .accesskey = O
+account-hub-ab-checkbox-description = Eksperimentell ny prosedyre for oppretting av adressebok
 
 ## Compose Tab
 
@@ -580,6 +598,10 @@ third-party-visited =
 cookies-button =
     .label = Vis infokapslar…
     .accesskey = V
+# Do not translate.
+# "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
+# included to facilitate power-user search of the about:preferences page.
+global-privacy-control-search = Global Privacy Control (GPC)
 do-not-track-removal = Vi støttar ikkje lenger «Ikkje spor»-signalet
 do-not-track-label =
     .label = Send nettsider eit «Ikkje spor»-signal om at du ikkje vil bli spora
