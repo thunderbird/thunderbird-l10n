@@ -976,6 +976,7 @@ default-sort-ascending-description = Nye meldingar nedst
 default-sort-descending =
     .label = Søkkande
 default-sort-descending-description = Nye meldingar øvst
+apply-thread-sort-label = Overfør innstillingar for trådvising og sortering til:
 apply-sort-to-all-button =
     .label = Alle eksisterea
     .accesskey = A
@@ -991,3 +992,8 @@ apply-changes-prompt-message = Skal gjeldande innstillingar for trådvisning og 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-changes-prompt-folder-message = Vil du bruke gjeldande innstillingar for trådvisning og sortering på «{ $name }»?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Vil du bruke gjeldande innstillingar for trådvising og sortering på «{ $name }» og undermappene?
+apply-current-view-error = Kan ikkje bruke gjeldande visingsinnstillingar
+apply-current-view-success = Gjeldande visingsinnstillingar er brukt
