@@ -622,6 +622,9 @@ confirm-permissive-import = Mislykka import. Nøkkelen du prøver å importere k
 
 ## Strings used in trust.jsm
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Nokre av dei importerte hemmelege nøklane annonserer ein funksjon som ikkje blir støtta. Om du brukar ein slik nøkkel som den personlege nøkkelen din, kan det hende at korrespondentar sender deg e-postar eller offentlege nøklar i eit inkompatibelt format. Dette påverkar importerte hemmelege nøklar med følgjande fingeravtrykk: { $fingerprints }.
 help-button = Hjelp
 
 ## Strings used in trust.sys.mjs
@@ -643,6 +646,17 @@ import-key-file = Importer OpenPGP-nøkkelfil
 import-rev-file = Importer OpenPGP-tilbakekallingsfil
 gnupg-file = GnuPG-filer
 import-keys-failed = Mislykka importering av nøklane
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Skriv inn passordfrasen for å låse opp den hemmelege nøkkelen med ID { $key }, oppretta { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Skriv inn passordfrasen for å låse opp den hemmelege nøkkelen med ID { $subkey }, som er ein undernøkkel av nøkkel-ID { $key }, oppretta { $date }, { $username_and_email }
 file-to-big-to-import = Denne fila er for stor. Ikkje importer eit stort sett med nøklar på ein gong.
 
 ## Strings used in enigmailKeygen.js
