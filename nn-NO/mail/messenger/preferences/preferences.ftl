@@ -602,6 +602,9 @@ cookies-button =
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-description =
+    .label = Be nettstader om å ikkje selje eller dele dataa mine
+    .accesskey = B
 do-not-track-removal = Vi støttar ikkje lenger «Ikkje spor»-signalet
 do-not-track-label =
     .label = Send nettsider eit «Ikkje spor»-signal om at du ikkje vil bli spora
@@ -786,6 +789,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Finn i innstillingane
+managed-notice = { -brand-short-name } blir administrert av organisasjonen din.
 
 ## Settings UI Search Results
 
@@ -910,6 +914,7 @@ appearance-card-style-3 =
     .label = 3 rader
 appearance-card-style-2 =
     .label = 2 rader
+default-message-list-description = Definer standardinnstillingar for sortering og trådvisning for nyoppretta mapper.
 default-flag-unthreaded =
     .label = Utan tråd
 default-flag-threaded =
