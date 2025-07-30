@@ -336,6 +336,13 @@ openpgp-copy-cmd-label =
 
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description-no-key = { -brand-short-name } har ikkje ein personleg OpenPGP-nøkkel for <b>{ $identity }</b>
+#   $count (Number) - the number of configured keys associated with the current identity
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-has-keys =
+    { $count ->
+        [one] { -brand-short-name } fann { $count } personleg OpenPGP-nøkkel knytt til <b>{ $identity } </b>
+       *[other] { -brand-short-name } fann { $count } personlege OpenPGP-nøklar knytt til <b>{ $identity } </b>
+    }
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Den gjeldande konfigurasjonen din brukar nøkkel-ID <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key

@@ -340,7 +340,7 @@ openpgp-description-no-key = { -brand-short-name } har ikke en personlig OpenPGP
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description-has-keys =
     { $count ->
-        [one] { -brand-short-name } fant { $count } personlige OpenPGP-nøkkel knyttet til <b>{ $identity }</b>
+        [one] { -brand-short-name } fant { $count } personlig OpenPGP-nøkkel knyttet til <b>{ $identity }</b>
        *[other] { -brand-short-name } fant { $count } personlige OpenPGP-nøkler knyttet til <b>{ $identity }</b>
     }
 #   $key (String) - the currently selected OpenPGP key
