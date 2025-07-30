@@ -346,6 +346,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Den gjeldande konfigurasjonen din brukar nøkkel-ID <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Gjeldande konfigurasjonen brukar nøkkelen <b>{ $key }</b>, som går ut { $when }. For å halde nøkkelen gyldig, bør du vurdere å forlenge utløpsdatoen no.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Den gjeldande konfigurasjonen din brukar nøkkelen <b>{ $key }</b>, som har gått ut.
 openpgp-add-key-button =
     .label = Legg til nøkkel…
@@ -360,12 +363,18 @@ openpgp-keygen-external-success = Ekstern GnuPG-nøkkel-ID lagra!
 openpgp-radio-none =
     .label = Ingen
 openpgp-radio-none-desc = Ikkje bruk OpenPGP for denne identiteten.
+openpgp-radio-key-not-usable = Denne nøkkelen kan ikkje brukast som ein personleg nøkkel, fordi den hemmelege nøkkelen manglar!
+openpgp-radio-key-not-accepted = For å bruke denne nøkkelen må du godkjenne han som ein personleg nøkkel!
+openpgp-radio-key-not-found = Denne nøkkelen vart ikkje funnen! Om du vil bruke han, må du importere han til { -brand-short-name }.
 #   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Går ut: { $date }
 #   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Gikk ut: { $date }
+openpgp-key-expires-within-6-months-icon =
+    .title = Nøkkelen går ut om under 6 månader
 openpgp-key-has-expired-icon =
     .title = Nøkkelen har gått ut
+openpgp-suggest-publishing-key = Om du publiserer den offentlege nøkkelen på ein nøkkelserver, kan andre finne han.
 openpgp-key-expand-section =
     .tooltiptext = Meir informasjon
 openpgp-key-revoke-title = Tilbakekall nøkkel
@@ -398,6 +407,9 @@ key-expired-date = Nøkkelen gjekk ut den { $keyExpiry }
 key-expired-simple = Nøkkelen har gått ut
 key-revoked-simple = Nøkkelen vart tilbakekalla
 key-do-you-accept = Godtar du denne nøkkelen for å stadfeste digitale signaturar og for å kryptere meldingar?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
+key-verification = Stadfest fingeravtrykket til nøkkelen ved hjelp av ein sikker kommunikasjonskanal anna enn e-post for å forsikre deg om at det verkeleg er nøkkelen til { $addr }.
 
 ## Strings enigmailMsgComposeOverlay.js
 
@@ -586,6 +598,11 @@ key-error-not-accepted-as-personal = Du har ikkje stadfesta at nøkkelen med ID 
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = Funksjonen du har valt er ikkje tilgjengeleg i fråkopla modus. Kople til og prøv igjen.
+
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
+
+no-key-found2 = Vi fann ingen brukbar nøkkel som samsvarte med dei angitte søkjekriteria.
+no-update-found = Du har allereie nøklane som vart funne på nettet.
 
 ## Strings used in keyRing.sys.mjs
 
