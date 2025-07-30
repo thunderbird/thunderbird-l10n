@@ -57,10 +57,22 @@ customize-button-style-icons-only-option = Berre ikon
 customize-button-style-text-only-option = Berre tekst
 customize-cancel = Avbryt
 customize-save = Lagre
+customize-unsaved-changes = Ulagra endringer i andre område
+customize-search-bar2 =
+    .label = Søk verktøylinjeknappar
+    .placeholder = Søk verktøylinjeknappar…
 customize-spaces-tabs =
     .aria-label = Mellomrom
 customize-main-toolbar-target =
     .aria-label = Hovudvberktøylinje
+customize-palette-generic-title = Tilgjengeleg for alle område
+customize-palette-mail-specific-title = Berre tilgjengeleg for e-post-området
+customize-palette-addressbook-specific-title = Berre tilgjengeleg for adressebok
+customize-palette-calendar-specific-title = Berre tilgjengeleg for området kalender
+customize-palette-tasks-specific-title = Berre tilgjengeleg for oppgåver-området
+customize-palette-chat-specific-title = Berre tilgjengeleg for chat-området
+customize-palette-settings-specific-title = Berre tilgjengeleg i innstillingar-området
+customize-palette-extension-specific-title = Berre tilgjengeleg for dette området
 
 ## Unified toolbar customization palette context menu
 
@@ -68,6 +80,8 @@ customize-main-toolbar-target =
 # $target (String) - Name of the target the item should be added to.
 customize-palette-add-to =
     .label = Legg til i { $target }
+customize-palette-add-everywhere =
+    .label = Legg til i alle verktøylinjer
 
 ## Unified toolbar customization target context menu
 
@@ -79,6 +93,8 @@ customize-target-remove =
     .label = Fjern
 customize-target-remove-everywhere =
     .label = Fjern frå alle verktøylinjer
+customize-target-add-everywhere =
+    .label = Legg til i alle verktøylinjer
 customize-target-start =
     .label = Flytt til start
 customize-target-end =
