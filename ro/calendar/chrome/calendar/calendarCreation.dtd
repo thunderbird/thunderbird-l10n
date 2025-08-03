@@ -33,6 +33,6 @@
 <!ENTITY network.nocredentials.label "Această locație nu necesită credențiale">
 <!ENTITY network.loading.description "Te rugăm să aștepți cât timp sunt detectate calendarele.">
 <!ENTITY network.notfound.description "Nu s-au găsit calendare la această adresă. Te rugăm să îți verifici setările.">
-<!ENTITY network.authfail.description "Datele de autentificare introduse nu au fost acceptate. Te rugăm să îți verifici setările.">
+<!ENTITY network.authfail.description "Credențialele pe care le-ai introdus nu au fost acceptate. Te rugăm să îți verifici setările.">
 <!ENTITY network.subscribe.single.description "Alege calendarele la care vrei să te abonezi.">
 <!ENTITY network.subscribe.multiple.description "Pentru această adresă sunt disponibile mai multe calendare. Alege tipul calendarului, apoi marchează calendarele la care vrei să te abonezi.">
