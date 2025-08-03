@@ -30,7 +30,7 @@
 <!ENTITY calendartype.label "Tipul calendarului:">
 <!ENTITY location.label "Locație:">
 <!ENTITY location.placeholder "URL sau denumirea serverului-gazdă pe care se află calendarul">
-<!ENTITY network.nocredentials.label "Această locație nu necesită date de autentificare">
+<!ENTITY network.nocredentials.label "Această locație nu necesită credențiale">
 <!ENTITY network.loading.description "Te rugăm să aștepți cât timp sunt detectate calendarele.">
 <!ENTITY network.notfound.description "Nu s-au găsit calendare la această adresă. Te rugăm să îți verifici setările.">
 <!ENTITY network.authfail.description "Datele de autentificare introduse nu au fost acceptate. Te rugăm să îți verifici setările.">
