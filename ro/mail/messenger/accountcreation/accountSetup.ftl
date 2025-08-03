@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Header
+
+account-setup-description = Pentru a folosi adresa ta de e-mail actuală, completează credențialele.
+
 ## Form fields
 
 # Note: "John Doe" is a multiple-use name that is used when the true name of a person is unknown. We use this fake name as an input placeholder. Translators should update this to reflect the placeholder name of their language/country.
