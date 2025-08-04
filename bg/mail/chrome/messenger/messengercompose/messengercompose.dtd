@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Невинност">
 <!ENTITY smiley15Cmd.label "Плач">
 <!ENTITY smiley16Cmd.label "Стиснати устни">
+<!ENTITY smiley17Cmd.label "Ядосан">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Няма предложения">
 <!ENTITY spellCheckIgnoreWord.label "Пренебрегване на думата">
