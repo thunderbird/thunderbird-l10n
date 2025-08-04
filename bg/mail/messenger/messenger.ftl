@@ -5,6 +5,8 @@
 
 ## Window controls
 
+messenger-window-minimize-button =
+    .tooltiptext = Минимизиране
 messenger-window-maximize-button =
     .tooltiptext = Увеличаване
 messenger-window-restore-down-button =
@@ -268,6 +270,12 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Със звезда
     .aria-label = Със звезда
+message-header-delete =
+    .label = Изтриване
+    .tooltiptext = Изтриване на съобщението
+message-header-undelete =
+    .label = Възстановяване
+    .tooltiptext = Възстановяване на съобщението
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -304,6 +312,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Показване на всички заглавки
     .accesskey = з
+message-header-dark-message-toggle =
+    .label = Показване на превключвателя за режим на тъмно съобщение
+    .accesskey = т
 
 ## Action Button Context Menu
 
@@ -457,3 +468,11 @@ openpgp-forget = Забравяне на фразите за OpenPGP
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = { $percent }% запълнено
     .title = IMAP квота: { $usage } използвани от общо { $limit }
+
+## Actions for the New Mail Notification
+
+mark-as-read-action = Отбелязване като прочетено
+delete-action = Изтриване
+mark-as-starred-action = Маркиране със звезда
+mark-as-spam-action = Маркиране като нежелано съобщение
+archive-action = Архивиране

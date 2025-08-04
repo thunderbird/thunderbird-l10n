@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Изтриване
     .tooltiptext = Изтриване
+multi-message-undelete-button =
+    .label = Възстановяване
+    .tooltiptext = Възстановяване
