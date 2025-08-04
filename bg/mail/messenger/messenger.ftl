@@ -5,8 +5,6 @@
 
 ## Window controls
 
-messenger-window-minimize-button =
-    .tooltiptext = Минимизиране
 messenger-window-maximize-button =
     .tooltiptext = Увеличаване
 messenger-window-restore-down-button =
