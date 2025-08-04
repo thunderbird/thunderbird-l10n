@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Пренасочване
+other-action-copy-message-link =
+    .label = Копиране на препратката към съобщението
+other-action-copy-news-link =
+    .label = Копиране на препратката към новината
 message-header-msg-flagged =
     .title = Със звезда
     .aria-label = Със звезда
