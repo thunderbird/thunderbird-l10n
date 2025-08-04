@@ -346,6 +346,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Текущата ви конфигурация използва следния идентификатор на ключ <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Текущата ви конфигурация използва ключа <b>{ $key }</b>, който ще изтече до { $when }. За да запазите ключа валиден, моля, помислете за удължаване на датата на изтичане на ключа сега.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Текущата ви конфигурация използва ключа <b>{ $key }</b>, който вече не е валиден.
 openpgp-add-key-button =
     .label = Добавяне на ключ…

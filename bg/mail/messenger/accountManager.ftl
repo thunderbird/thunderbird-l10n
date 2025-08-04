@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = Прекъсване
 account-manager-server-default-icon =
     .title = Профил по подразбиране
     .alt = Звезда
+outgoing-server-section-name = Изходящ сървър
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Настройки на сървъра за изходяща поща
+outgoing-server-settings-description = При управляване на идентичностите ви може да използвате сървър от този списък като изходящ сървър (SMTP) или да използвате стандартния сървър от този списък чрез избиране на „Използване на подразбиращ се“.
+outgoing-server-type = Вид сървър:
