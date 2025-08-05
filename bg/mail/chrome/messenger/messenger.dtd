@@ -692,6 +692,7 @@
 <!ENTITY contextMoveMsgMenu.label "Преместване в">
 <!ENTITY contextMoveMsgMenu.accesskey "м">
 <!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Скорошни дестинации">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "С">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "Последни">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "П">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Любими">
