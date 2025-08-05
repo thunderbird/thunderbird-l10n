@@ -876,3 +876,7 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Паролите са включени
 qr-export-summary-passwords-excluded = Паролите не са включени
 qr-export-more-accounts = Изнасяне на други профили
+
+## Appearance Tab
+
+default-message-list-description = Определяне на параметрите по подразбиране за сортиране и разделяне на нишки за новосъздадени папки.
