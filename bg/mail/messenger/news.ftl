@@ -21,3 +21,9 @@ downloading-articles-for-offline =
         [one] Изтегляне на { $count } статия за { $newsgroup }…
        *[other] Изтегляне на { $count } статии за { $newsgroup }…
     }
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-articles-to-download = Няма статии за изтегляне за { $newsgroup }.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = Дискусионната група { $newsgroup } не е налична на сървъра.
