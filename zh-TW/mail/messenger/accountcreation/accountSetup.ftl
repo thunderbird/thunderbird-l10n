@@ -80,7 +80,7 @@ account-setup-looking-up-mx = 正在尋找設定：收件郵件網域…
 account-setup-looking-up-exchange = 正在尋找設定：Exchange 伺服器…
 account-setup-checking-password = 正在檢查密碼…
 account-setup-installing-addon = 正在下載安裝附加元件…
-account-setup-success-half-manual = 偵測指定的伺服器後，找到下列設定:
+account-setup-success-half-manual = 偵測指定的伺服器後，找到下列設定：
 account-setup-success-guess = 嘗試使用常用的伺服器名稱後，找到設定。
 account-setup-success-guess-offline = 您目前離線。我們猜了一下，但您還是需要輸入正確的設定。
 account-setup-success-password = 密碼正確
@@ -152,10 +152,10 @@ account-setup-manual-config-title = 伺服器設定
 account-setup-incoming-server-legend = 收件伺服器
 account-setup-protocol-label = 通訊協定:
 account-setup-hostname-label = 主機名稱：
-account-setup-port-label = Port:
+account-setup-port-label = Port：
     .title = 輸入 0 即可進行自動偵測
 account-setup-auto-description = { -brand-short-name } 將嘗試自動偵測留白的欄位。
-account-setup-ssl-label = 連線安全性:
+account-setup-ssl-label = 連線安全性：
 account-setup-outgoing-server-legend = 寄件伺服器
 
 ## Incoming/Outgoing SSL Authentication options
@@ -177,7 +177,7 @@ account-setup-advanced-setup-button = 進階設定
 
 account-setup-insecure-title = 警告！
 account-setup-insecure-incoming-title = 收件設定：
-account-setup-insecure-outgoing-title = 寄件設定:
+account-setup-insecure-outgoing-title = 寄件設定：
 # Variables:
 #  $server (String): The name of the hostname of the server the user was trying to connect to.
 account-setup-warning-cleartext = <b>{ $server }</b> 未加密連線。

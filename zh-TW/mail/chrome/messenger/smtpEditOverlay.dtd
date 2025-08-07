@@ -7,11 +7,11 @@
 <!ENTITY serverName.accesskey "S">
 <!ENTITY serverDescription.label "說明:">
 <!ENTITY serverDescription.accesskey "D">
-<!ENTITY serverPort.label "Port:">
+<!ENTITY serverPort.label "Port：">
 <!ENTITY serverPort.accesskey "P">
 <!ENTITY userName.label "使用者名稱：">
 <!ENTITY userName.accesskey "m">
-<!ENTITY connectionSecurity.label "連線安全性:">
+<!ENTITY connectionSecurity.label "連線安全性：">
 <!ENTITY connectionSecurity.accesskey "n">
 <!ENTITY connectionSecurityType-0.label "無">
 <!ENTITY connectionSecurityType-2.label "STARTTLS">

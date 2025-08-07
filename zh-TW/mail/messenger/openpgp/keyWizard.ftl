@@ -17,7 +17,7 @@ radio-import-key =
     .label = 匯入已有的 OpenPGP 金鑰
     .accesskey = I
 radio-gnupg-key =
-    .label = 透過 GnuPG 使用您的外部金鑰（例如: 智慧卡）
+    .label = 透過 GnuPG 使用您的外部金鑰（例如：智慧卡）
     .accesskey = U
 
 ## Generate key section

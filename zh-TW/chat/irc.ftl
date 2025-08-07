@@ -146,9 +146,9 @@ message-already-in-channel = { $nick } 已在 { $conversationName } 當中。
 #    $nick is the nickname of the user who was summoned.
 message-summoned = 已召喚 { $nick }。
 #    $nick (String) is the nickname of the user whose WHOIS information follows this message.
-message-whois = { $nick } 的 WHOIS 資訊:
+message-whois = { $nick } 的 WHOIS 資訊：
 #    $nick (String) is the nickname of the (offline) user whose WHOWAS information follows this message.
-message-whowas = { $nick } 不在線上。{ $nick } 的 WHOWAS 資訊:
+message-whowas = { $nick } 不在線上。{ $nick } 的 WHOWAS 資訊：
 #    $description is the entry description (from tooltip-*), $value is its value.
 message-whois-entry = { "    " }{ $description }: { $value }
 #    $nick is the nickname that is not known to the server.

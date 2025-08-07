@@ -102,7 +102,7 @@ power-level-remove = 移除訊息: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-events-default = 事件預設值: { $powerLevelName }
 #    $powerLevelName is the power level name
-power-level-state-default = 更改設定: { $powerLevelName }
+power-level-state-default = 更改設定：{ $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-encryption = 開啟聊天室加密: { $powerLevelName }
 #    $powerLevelName is the power level name

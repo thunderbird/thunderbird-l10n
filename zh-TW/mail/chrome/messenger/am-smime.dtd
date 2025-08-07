@@ -30,7 +30,7 @@
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "選擇憑證">
 <!ENTITY certPicker.info "憑證:">
-<!ENTITY certPicker.detailsLabel "所選憑證的詳細資訊:">
+<!ENTITY certPicker.detailsLabel "所選憑證的詳細資訊：">
 <!ENTITY openpgpKey.message "用來加密與簽章的個人金鑰:">
 <!ENTITY openpgpKey.button "設定個人金鑰…">
 <!ENTITY openpgpKey.accesskey "o">

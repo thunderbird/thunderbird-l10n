@@ -17,7 +17,7 @@
 <!ENTITY General.tab "一般">
 <!ENTITY Offline.tab "離線模式">
 <!ENTITY Advanced.tab "進階">
-<!ENTITY portNumber.label "Port:">
+<!ENTITY portNumber.label "Port：">
 <!ENTITY portNumber.accesskey "P">
 <!ENTITY searchFilter.label "搜尋篩選條件 (Filter)">
 <!ENTITY searchFilter.accesskey "F">

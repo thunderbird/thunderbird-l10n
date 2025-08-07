@@ -448,12 +448,12 @@ datetime-with-timezone = { $datetime }（{ $timezone }）
 # LOCALIZATION NOTE (single-long-calendar-week):
 # used for display of calendar weeks in long form like 'Calendar Week 43'
 #    $index will be replaced with the index of the week
-single-long-calendar-week = 週數: { $index }
+single-long-calendar-week = 週數：{ $index }
 # LOCALIZATION NOTE (single-calendar-week):
 # used for display of calendar weeks in short form like 'CW 43'
 #    $index will be replaced with the index of the week
-single-calendar-week = 週數: { $index }
-    .title = 週數: { $index }
+single-calendar-week = 週數：{ $index }
+    .title = 週數：{ $index }
 # LOCALIZATION NOTE (several-long-calendar-weeks):
 # used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
