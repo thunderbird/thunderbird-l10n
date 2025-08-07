@@ -37,8 +37,8 @@ address-input-type-aria-label =
 #   $count (Number) - the number of address pills currently present in the addressing row
 pill-aria-label =
     { $count ->
-        [one] { $email }: 按 Enter 編輯、按 Delete 刪除。
-       *[other] { $email }，第 1 筆，共 { $count } 筆: 按 Enter 編輯、按 Delete 刪除。
+        [one] { $email }：按 Enter 編輯、按 Delete 刪除。
+       *[other] { $email }，第 1 筆，共 { $count } 筆：按 Enter 編輯、按 Delete 刪除。
     }
 #   $email (String) - the email address
 pill-tooltip-invalid-address = { $email } 不是有效的電子郵件地址

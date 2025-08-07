@@ -31,10 +31,10 @@ all-address-books = 所有通訊錄
 # Variables:
 # $name (String) - The name of the selected book/list.
 # $count (Number) - The number of contacts in the selected book/list.
-about-addressbook-card-count = { $name } 的聯絡人總數: { $count }
+about-addressbook-card-count = { $name } 的聯絡人總數：{ $count }
 # Variables:
 # $count (Number) - The number of contacts in all address books.
-about-addressbook-card-count-all = 所有通訊錄的聯絡人總數: { $count }
+about-addressbook-card-count-all = 所有通訊錄的聯絡人總數：{ $count }
 about-addressbook-books-context-properties =
     .label = 屬性
 about-addressbook-books-context-edit-list =

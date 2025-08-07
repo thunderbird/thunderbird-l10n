@@ -20,7 +20,7 @@ openpgp-ctx-verify-att =
 openpgp-has-sender-key = 此訊息聲稱包含寄件者的 OpenPGP 公鑰。
 # Variables:
 # $email (String) - Email address with the problematic public key.
-openpgp-be-careful-new-key = 警告: 此訊息中的 OpenPGP 新公鑰與您先前接受的 { $email } 公鑰不同。
+openpgp-be-careful-new-key = 警告：此訊息中的 OpenPGP 新公鑰與您先前接受的 { $email } 公鑰不同。
 openpgp-import-sender-key =
     .label = 匯入…
 openpgp-search-keys-openpgp =
@@ -42,7 +42,7 @@ openpgp-cannot-decrypt-because-mdc = 這是一封使用了舊版並有安全性�
 openpgp-cannot-decrypt-because-missing-key = 用來解開此訊息的私鑰不存在。
 openpgp-partially-signed = 此訊息當中只有一部分使用 OpenPGP 進行數位簽署。當您點擊驗證按鈕後，將隱藏未保護的部分，並顯示數位簽章狀態。
 openpgp-partially-encrypted = 此訊息當中只有一部分使用 OpenPGP 進行數位簽署。訊息當中已經顯示可以閱讀的部分並未加密。當您點擊解密按鈕後，將顯示加密部分的內容。
-openpgp-reminder-partial-display = 提醒: 下方顯示的訊息只是原始訊息的一部分。
+openpgp-reminder-partial-display = 提醒：下方顯示的訊息只是原始訊息的一部分。
 openpgp-partial-verify-button = 驗證
 openpgp-partial-decrypt-button = 解密
-openpgp-unexpected-key-for-you = 警告: 此訊息當中包含一把聲稱屬於您的電子郵件信箱的未知 OpenPGP 金鑰。若這把金鑰不屬於您，代表可能有人正在嘗試欺騙其他收件者。
+openpgp-unexpected-key-for-you = 警告：此訊息當中包含一把聲稱屬於您的電子郵件信箱的未知 OpenPGP 金鑰。若這把金鑰不屬於您，代表可能有人正在嘗試欺騙其他收件者。

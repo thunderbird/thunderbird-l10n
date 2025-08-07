@@ -6,10 +6,10 @@ openpgp-key-unverified = 接受（未驗證）
 openpgp-key-undecided = 不接受（未決定）
 # Variables:
 # $kid (String) - Public key id to import.
-openpgp-pubkey-import-id = ID: { $kid }
+openpgp-pubkey-import-id = ID：{ $kid }
 # Variables:
 # $fpr (String) - Fingerprint of the public key to import.
-openpgp-pubkey-import-fpr = 指紋: { $fpr }
+openpgp-pubkey-import-fpr = 指紋：{ $fpr }
 # Variables:
 # $num (Number) - Number of public keys contained in the key file.
 openpgp-pubkey-import-intro =

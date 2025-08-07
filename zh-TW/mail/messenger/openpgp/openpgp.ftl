@@ -264,7 +264,7 @@ openpgp-key-details-id-label =
 openpgp-key-details-key-type-label = 類型
 openpgp-key-details-key-part-label =
     .label = 金鑰部分
-openpgp-key-details-attr-ignored = 警告: 由於這把金鑰的部份屬性不安全且將被忽略，可能無法正常使用。
+openpgp-key-details-attr-ignored = 警告：由於這把金鑰的部份屬性不安全且將被忽略，可能無法正常使用。
 openpgp-key-details-attr-upgrade-sec = 您應該將不安全的屬性升級。
 openpgp-key-details-attr-upgrade-pub = 您應該請這把金鑰的擁有者將不安全的屬性升級。
 openpgp-key-details-upgrade-unsafe =
@@ -358,9 +358,9 @@ openpgp-radio-key-not-usable = 由於缺少私鑰，無法將這把金鑰用作�
 openpgp-radio-key-not-accepted = 若要使用這把金鑰，您必須先主動將其設定為個人金鑰！
 openpgp-radio-key-not-found = 找不到這把金鑰！若您想要使用這把金鑰，請先匯入至 { -brand-short-name }。
 #   $date (String) - the future expiration date of when the OpenPGP key will expire
-openpgp-radio-key-expires = 到期於: { $date }
+openpgp-radio-key-expires = 到期於：{ $date }
 #   $date (String) - the past expiration date of when the OpenPGP key expired
-openpgp-radio-key-expired = 過期於: { $date }
+openpgp-radio-key-expired = 過期於：{ $date }
 openpgp-key-expires-within-6-months-icon =
     .title = 金鑰將於 6 個月內到期
 openpgp-key-has-expired-icon =
@@ -434,7 +434,7 @@ converter-decrypt-body-failed = 無法解密主旨為 { $subject } 的訊息。�
 ## Strings filters.sys.mjs
 
 filter-folder-required = 您必須指定目的資料夾。
-filter-decrypt-move-warn-experimental = 警告: 過濾器動作「永久解密」可能會毀損訊息。我們強烈建議您先試用「建立解密副本」過濾器，小心測試結果，只在確認都沒問題的情況才使用此過濾器。
+filter-decrypt-move-warn-experimental = 警告：過濾器動作「永久解密」可能會毀損訊息。我們強烈建議您先試用「建立解密副本」過濾器，小心測試結果，只在確認都沒問題的情況才使用此過濾器。
 filter-term-pgpencrypted-label = OpenPGP 加密
 filter-key-required = 您必須選擇一組收件人金鑰。
 # Variables:
@@ -442,7 +442,7 @@ filter-key-required = 您必須選擇一組收件人金鑰。
 filter-key-not-found = 找不到「{ $desc }」的加密金鑰。
 # Variables:
 # $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
-filter-warn-key-not-secret = 警告: 過濾器動作「使用金鑰加密」會取代收件者。若您沒有「{ $desc }」的私鑰，將無法閱讀郵件。
+filter-warn-key-not-secret = 警告：過濾器動作「使用金鑰加密」會取代收件者。若您沒有「{ $desc }」的私鑰，將無法閱讀郵件。
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -467,8 +467,8 @@ copy-to-clipbrd-failed = 無法將選擇的金鑰複製到剪貼簿。
 copy-to-clipbrd-ok = 已將金鑰複製至剪貼簿
 # Variables:
 # $userId (String) - User id of the key.
-delete-secret-key = 警告: 即將刪除私鑰！刪除私鑰後，將無法再解開使用該金鑰加密的訊息，也無法撤銷該金鑰。您確定要刪除「{ $userId }」的公鑰與私鑰嗎？
-delete-mix = 警告: 即將刪除私鑰！刪除私鑰後，將無法再解開使用該金鑰加密的訊息。您確定要刪除「{ $userId }」的公鑰與私鑰嗎？
+delete-secret-key = 警告：即將刪除私鑰！刪除私鑰後，將無法再解開使用該金鑰加密的訊息，也無法撤銷該金鑰。您確定要刪除「{ $userId }」的公鑰與私鑰嗎？
+delete-mix = 警告：即將刪除私鑰！刪除私鑰後，將無法再解開使用該金鑰加密的訊息。您確定要刪除「{ $userId }」的公鑰與私鑰嗎？
 # Variables:
 # $userId (String) - User id of the key.
 delete-pub-key = 您確定要刪除公鑰「{ $userId }」嗎？
@@ -488,7 +488,7 @@ save-keys-ok = 成功儲存金鑰
 save-keys-failed = 金鑰儲存失敗
 default-pub-key-filename = 匯出的公鑰
 default-pub-sec-key-filename = 私鑰備份
-refresh-key-warn = 警告: 視金鑰數量與網路速度而定，重新整理所有金鑰可能要花上不少時間！
+refresh-key-warn = 警告：視金鑰數量與網路速度而定，重新整理所有金鑰可能要花上不少時間！
 preview-failed = 無法讀取公鑰檔案。
 # Variables:
 # $reason (String) - Error description.
@@ -653,7 +653,7 @@ signature-verified-ok = 附件 { $attachment } 的簽章驗證成功
 # Variables:
 # $attachment (String) - File name of the attachment
 signature-verify-failed = 附件 { $attachment } 的簽章驗證失敗
-decrypt-ok-no-sig = 警告: 解密成功，但無法正確驗證簽章
+decrypt-ok-no-sig = 警告：解密成功，但無法正確驗證簽章
 msg-ovl-button-cont-anyway = 還是繼續 (&C)
 enig-content-note = * 尚未簽署或加密此訊息的附件 *
 

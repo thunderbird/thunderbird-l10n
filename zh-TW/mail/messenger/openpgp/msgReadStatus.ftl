@@ -47,18 +47,18 @@ openpgp-sig-valid-verified = 此訊息包含已驗證的金鑰所簽署的有效
 openpgp-sig-valid-own-key = 此訊息包含由您的個人金鑰所簽署的有效數位簽章。
 # Variables:
 # $key (String) - The ID of the OpenPGP key used to create the signature.
-openpgp-sig-key-id = 簽署者金鑰 ID: { $key }
+openpgp-sig-key-id = 簽署者金鑰 ID：{ $key }
 # Variables:
 # $key (String) - The primary ID of the OpenPGP key used to create the signature.
 # $subkey (String) - A subkey of the primary key was used to create the signature, and this is the ID of that subkey.
-openpgp-sig-key-id-with-subkey-id = 簽署者金鑰 ID: { $key }（子金鑰 ID: { $subkey }）
+openpgp-sig-key-id-with-subkey-id = 簽署者金鑰 ID：{ $key }（子金鑰 ID：{ $subkey }）
 # Variables:
 # $key (String) - The ID of the user's OpenPGP key used to decrypt the message.
-openpgp-enc-key-id = 您的解密金鑰 ID: { $key }
+openpgp-enc-key-id = 您的解密金鑰 ID：{ $key }
 # Variables:
 # $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
 # $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
-openpgp-enc-key-with-subkey-id = 您的解密金鑰 ID: { $key }（子金鑰 ID: { $subkey }）
+openpgp-enc-key-with-subkey-id = 您的解密金鑰 ID：{ $key }（子金鑰 ID：{ $subkey }）
 openpgp-enc-none = 郵件未加密
 openpgp-enc-none-label = 此郵件寄出前沒被加密過。未加密的資訊在網際網路傳輸過程中有可能被偷看。
 openpgp-enc-invalid-label = 無法解密郵件
