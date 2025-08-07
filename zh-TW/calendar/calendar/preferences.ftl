@@ -11,10 +11,10 @@ dateformat-label =
     .accesskey = D
 #   $date (String) - the formatted example date
 dateformat-long =
-    .label = 長: { $date }
+    .label = 長：{ $date }
 #   $date (String) - the formatted example date
 dateformat-short =
-    .label = 短: { $date }
+    .label = 短：{ $date }
 use-system-timezone-radio-button =
     .label = 使用系統時區
 set-timezone-manually-radio-button =
@@ -183,6 +183,6 @@ task-alarm-time-label =
 calendar-notifications-customize-label = 可以到每份行事曆的屬性視窗自訂各行事曆的通知設定。
 category-new-label = 新增分類
 category-edit-label = 編輯類別
-category-overwrite-title = 警告: 重複的名稱
+category-overwrite-title = 警告：名稱重複
 category-overwrite = 有相同名稱的類別存在。\n 您要覆寫嗎？
 category-blank-warning = 您必須輸入類別名稱。

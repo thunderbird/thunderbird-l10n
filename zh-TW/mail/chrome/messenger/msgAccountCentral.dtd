@@ -12,7 +12,7 @@
 <!ENTITY accountsSectionHdr.label "帳號">
 <!ENTITY subscribeImapFolders.label "管理訂閱目錄">
 <!ENTITY settingsLink.label "檢視設定">
-<!ENTITY setupNewAcct.label "設定帳號:">
+<!ENTITY setupNewAcct.label "設定帳號：">
 <!ENTITY advFeaturesSectionHdr.label "進階功能">
 <!ENTITY searchMsgsLink.label "搜尋訊息">
 <!ENTITY filtersLink.label "管理篩選條件">

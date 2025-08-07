@@ -14,7 +14,7 @@ status-changed = { $displayName } 的狀態已變更為 { $statusType }。
 #  $displayName is the display name of the contact.
 #  $statusType is the new status type (a value from status.ftl).
 #  $statusText is the status text (eg. "I'm currently away from the computer").
-status-changed-with-status-text = { $displayName } 的狀態已變更為 { $statusType }: { $statusText }。
+status-changed-with-status-text = { $displayName } 的狀態已變更為 { $statusType }：{ $statusText }。
 # LOCALIZATION NOTE (status-changed-from-unknown[-with-status-text]):
 #  special case of the previous 2 strings for when the status was
 #  previously unknown. These 2 strings should not mislead the user
@@ -25,7 +25,7 @@ status-changed-from-unknown = { $displayName } 目前的狀態為 { $statusType 
 #  $displayName is the display name of the contact.
 #  $statusType is the new status type (a value from status.ftl).
 #  $statusText is the status text (eg. "I'm currently away from the computer").
-status-changed-from-unknown-with-status-text = { $displayName } 目前的狀態為 { $statusType }: { $statusText }。
+status-changed-from-unknown-with-status-text = { $displayName } 目前的狀態為 { $statusType }：{ $statusText }。
 # LOCALIZATION NOTE (status-known[-with-status-text]):
 # special case of the previous 2 strings for when an account has just
 # been reconnected, so the status is now known. These 2 strings should not
@@ -36,7 +36,7 @@ status-known = 您的帳號已重新連線（{ $displayName } 目前的狀態為
 #  $displayName is the display name of the contact.
 #  $statusType is the new status type (a value from status.ftl).
 #  $statusText is the status text (eg. "I'm currently away from the computer").
-status-known-with-status-text = 您的帳號已重新連線（{ $displayName } 目前的狀態為 { $statusType }: { $statusText }）。
+status-known-with-status-text = 您的帳號已重新連線（{ $displayName } 目前的狀態為 { $statusType }：{ $statusText }）。
 # LOCALIZATION NOTE (status-unknown):
 #  $displayName is the display name of the contact.
 status-unknown = 您的帳號已離線（已無法得知 { $displayName } 的狀態）。
@@ -50,13 +50,13 @@ auto-reply = 自動回覆 - { $message }
 no-topic-key = 此聊天室目前沒有主題訊息。
 # LOCALIZATION NOTE (topic-set):
 #  $conversationName is the conversation name, $topic is the topic.
-topic-set = { $conversationName } 的主題是: { $topic }。
+topic-set = { $conversationName } 的主題是：{ $topic }。
 # LOCALIZATION NOTE (topic-not-set):
 #  $conversationName is the conversation name.
 topic-not-set = { $conversationName } 沒有設定聊天主題。
 # LOCALIZATION NOTE (topic-changed):
 #  $user is the user who changed the topic, $topic is the new topic.
-topic-changed = { $user } 已將主題修改為: { $topic }。
+topic-changed = { $user } 已將主題修改為：{ $topic }。
 # LOCALIZATION NOTE (topic-cleared):
 #  $user is the user who cleared the topic.
 topic-cleared = { $user } 已清除主題。
@@ -78,5 +78,5 @@ messenger-conversations-selections-ellipsis = […]
 #  Do not translate the texts between left and right brace characters, but feel free to adjust
 #  whitespace and separators to make them fit your locale.
 messenger-conversations-selections-system-messages-template = %time% - %message%
-messenger-conversations-selections-content-messages-template = %time% - %sender%: %message%
+messenger-conversations-selections-content-messages-template = %time% - %sender%：%message%
 messenger-conversations-selections-action-messages-template = %time% * %sender% %message%

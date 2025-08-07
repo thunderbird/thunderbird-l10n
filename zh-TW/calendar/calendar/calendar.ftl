@@ -225,7 +225,7 @@ item-delete-error = 刪除伺服器上的儲存項目時發生錯誤。
 cal-dav-request-error = 傳送邀請時發生錯誤。
 cal-dav-response-error = 傳送回覆時發生錯誤。
 # $statusCode status code
-cal-dav-request-status-code = 狀態碼: { $statusCode }
+cal-dav-request-status-code = 狀態碼：{ $statusCode }
 cal-dav-request-status-code-string-generic = 無法處理要求。
 cal-dav-request-status-code-string-400 = 要求包含錯誤的句法，無法被處理。
 cal-dav-request-status-code-string-403 = 使用者缺少必要的權限來執行要求。
@@ -287,7 +287,7 @@ likely-timezone = Asia/Taipei, Asia/Hong_Kong, Asia/Singapore, Asia/Shanghai, As
 #   can also trigger this warning.
 # $timezone OS timezone id
 # $zoneInfoTimezoneId ZoneInfo timezone id
-warning-os-tz-no-match = 警告: 作業系統時區「{ $timezone }」不再與內部 ZoneInfo 時區「{ $zoneInfoTimezoneId }」相符。
+warning-os-tz-no-match = 警告：作業系統時區「{ $timezone }」不再與內部 ZoneInfo 時區「{ $zoneInfoTimezoneId }」相符。
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
 # OS uses different version of ZoneInfo database which has a timezone name
@@ -303,7 +303,7 @@ skipping-locale-timezone = 略過語系時區「{ $timezone }」。
 # Brazil timezones may be "No match" (change every year, so often out of date,
 # and changes are often more than a week different).
 warning-using-floating-tz-no-match =
-    警告: 使用「浮動」時區。
+    警告：使用「浮動」時區。
     沒有符合作業系統時區資料的 ZoneInfo 時區資料。
 # "Warning:  Using guessed timezone
 #    America/New York (UTC-0500/-0400).
@@ -312,8 +312,8 @@ warning-using-floating-tz-no-match =
 #  This ZoneInfo timezone was chosen based on ... "
 # $timezone $offset $detail1 $detail2
 warning-using-guessedtz =
-    警告: 使用猜測的時區
-    { $timezone } (UTC{ $offset })。
+    警告：使用猜測的時區
+    { $timezone }（UTC{ $offset }）。
     { $detail1 }
     { $detail2 }
 # Testing note: "Almost match" timezones include Cairo on W2k.
@@ -372,7 +372,7 @@ alarm-window-title-label = { $count } 個提醒
 # used for a display the start of an alarm like 'Starts:  Thu 2 Oct 2008 13:21'
 #    $datetime will be replaced with a date-time
 alarm-starts =
-    .value = 開始: { $datetime }
+    .value = 開始：{ $datetime }
 # LOCALIZATION NOTE (alarm-today-at):
 # used for a display the date-time of an alarm like 'Today at Thu 2 Oct 2008 13:21'
 #    $datetime will be replaced with a date-time
@@ -414,7 +414,7 @@ getting-calendar-info-detail =
     .label = 正在檢查第 { $index }／{ $total } 個日曆
 # LOCALIZATION NOTE (error-code):
 #    $errorCode will be replaced with the number of an error code
-error-code = 錯誤碼: { $errorCode }
+error-code = 錯誤碼：{ $errorCode }
 # LOCALIZATION NOTE (error-description):
 #    $errorDescription will be replaced with the description of an error
 error-description = 描述：{ $errorDescription }

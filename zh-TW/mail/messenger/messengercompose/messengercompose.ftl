@@ -330,7 +330,7 @@ cloud-file-placeholder-intro = 檔案 { $filename } 已上傳至雲端鏈結，�
 # $count (Number) - Number of files.
 cloud-file-count-header =
     { $count ->
-       *[other] 我已將 { $count } 個檔案的雲端鏈結加入此郵件:
+       *[other] 我已將 { $count } 個檔案的雲端鏈結加入此郵件：
     }
 # A text used in a footer, instructing the reader where to find additional
 # information about the used service provider.

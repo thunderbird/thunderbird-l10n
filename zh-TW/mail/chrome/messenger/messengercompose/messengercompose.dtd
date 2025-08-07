@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
-<!ENTITY msgComposeWindow.title "新郵件: (無主旨)">
+<!ENTITY msgComposeWindow.title "新郵件：（無主旨）">
 <!-- File Menu -->
 <!ENTITY fileMenu.label "檔案">
 <!ENTITY fileMenu.accesskey "F">
@@ -90,13 +90,13 @@
 <!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.Sort.AZ.label):
      Please ensure that this translation matches
      sortAttachmentsPanelBtn.Sort.ZA.label, except for the sort direction. -->
-<!ENTITY sortAttachmentsPanelBtn.Sort.AZ.label "排序: A-Z">
-<!ENTITY sortAttachmentsPanelBtn.Sort.ZA.label "排序: Z-A">
+<!ENTITY sortAttachmentsPanelBtn.Sort.AZ.label "排序：A-Z">
+<!ENTITY sortAttachmentsPanelBtn.Sort.ZA.label "排序：Z-A">
 <!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.SortSelection.AZ.label):
      Please ensure that this translation matches
      sortAttachmentsPanelBtn.SortSelection.ZA.label, except for the sort direction. -->
-<!ENTITY sortAttachmentsPanelBtn.SortSelection.AZ.label "排序選擇項目: A-Z">
-<!ENTITY sortAttachmentsPanelBtn.SortSelection.ZA.label "排序選擇項目: Z-A">
+<!ENTITY sortAttachmentsPanelBtn.SortSelection.AZ.label "排序選擇項目：A-Z">
+<!ENTITY sortAttachmentsPanelBtn.SortSelection.ZA.label "排序選擇項目：Z-A">
 <!ENTITY sortAttachmentsPanelBtn.key "y">
 <!-- View Menu -->
 <!ENTITY viewMenu.label "檢視">

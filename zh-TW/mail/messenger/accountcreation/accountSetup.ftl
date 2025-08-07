@@ -219,7 +219,7 @@ account-setup-confirm-advanced-description = 此對話框將關閉，就算設�
 ## Addon installation section
 
 account-setup-addon-install-title = 安裝
-account-setup-addon-install-intro = 安裝第三方附加元件後，可讓您存取此伺服器上的郵件帳號:
+account-setup-addon-install-intro = 安裝第三方附加元件後，可讓您存取此伺服器上的郵件帳號：
 account-setup-addon-no-protocol = 此郵件伺服器不支援開放式通訊協定。{ account-setup-addon-install-intro }
 
 ## Success view

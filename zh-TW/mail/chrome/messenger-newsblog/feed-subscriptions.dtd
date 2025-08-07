@@ -15,7 +15,7 @@
 <!ENTITY feedFolder.label "保存文章於:">
 <!ENTITY feedFolder.accesskey "S">
 <!-- Account Settings and Subscription Dialog -->
-<!ENTITY biffStart.label "新文章檢查頻率: ">
+<!ENTITY biffStart.label "新文章檢查頻率：">
 <!ENTITY biffStart.accesskey "k">
 <!ENTITY biffMinutes.label "分鐘">
 <!ENTITY biffMinutes.accesskey "n">

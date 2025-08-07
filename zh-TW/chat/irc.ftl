@@ -44,37 +44,37 @@ ctcp-time = { $username } 目前的時間是 { $timeResponse }。
 #   These are the help messages for each command, the $commandName is the command name
 #   Each command first gives the parameter it accepts and then a description of
 #   the command.
-command-action = { $commandName } &lt;要做的動作&gt;: 做出某個動作。
+command-action = { $commandName } &lt;要做的動作&gt;：做出某個動作。
 # $commandName is the command name
-command-ban = { $commandName } &lt;暱稱!帳號@主機&gt;: 封鎖符合指定規則的使用者。
+command-ban = { $commandName } &lt;暱稱!帳號@主機&gt;：封鎖符合指定規則的使用者。
 # $commandName is the command name
-command-ctcp = { $commandName } &lt;暱稱&gt; &lt;訊息&gt;: 傳送 CTCP 訊息給指定暱稱的人。
+command-ctcp = { $commandName } &lt;暱稱&gt; &lt;訊息&gt;：傳送 CTCP 訊息給指定暱稱的人。
 # $commandName is the command name
-command-chanserv = { $commandName } &lt;命令&gt;: 傳送命令給 ChanServ。
+command-chanserv = { $commandName } &lt;命令&gt;：傳送命令給 ChanServ。
 # $commandName is the command name
-command-deop = { $commandName } &lt;暱稱一&gt;[,&lt;暱稱二&gt;]*: 移除某個人的頻道管理員身份。您必須是頻道管理員才能這樣做。
+command-deop = { $commandName } &lt;暱稱一&gt;[,&lt;暱稱二&gt;]*：移除某個人的頻道管理員身份。您必須是頻道管理員才能這樣做。
 # $commandName is the command name
-command-devoice = { $commandName } &lt;暱稱一&gt;[,&lt;暱稱二&gt;]*: 若頻道是受管理的（+m），則可移除某個人在頻道中的發言狀態，讓那個人無法在頻道中發言。您必須是頻道管理員才能這麼做。
+command-devoice = { $commandName } &lt;暱稱一&gt;[,&lt;暱稱二&gt;]*：若頻道是受管理的（+m），則可移除某個人在頻道中的發言狀態，讓那個人無法在頻道中發言。您必須是頻道管理員才能這麼做。
 # $commandName is the command name
-command-invite2 = { $commandName } &lt;暱稱&gt;[ &lt;暱稱&gt;]* [&lt;頻道&gt;]: 邀請一或多個暱稱加入您目前的頻道，或加入指定的頻道。
+command-invite2 = { $commandName } &lt;暱稱&gt;[ &lt;暱稱&gt;]* [&lt;頻道&gt;]：邀請一或多個暱稱加入您目前的頻道，或加入指定的頻道。
 # $commandName is the command name
-command-join = { $commandName } &lt;聊天室一&gt;[ &lt;金鑰一&gt;][,&lt;聊天室二&gt;[ &lt;金鑰二&gt;]]*: 輸入一個或多個頻道，有需要時也可以輸入頻道金鑰。
+command-join = { $commandName } &lt;聊天室一&gt;[ &lt;金鑰一&gt;][,&lt;聊天室二&gt;[ &lt;金鑰二&gt;]]*：輸入一個或多個頻道，有需要時也可以輸入頻道金鑰。
 # $commandName is the command name
-command-kick = { $commandName } &lt;暱稱&gt; [&lt;訊息&gt;]: 把某人從頻道踢出去。您必須是頻道管理員才能這麼做。
+command-kick = { $commandName } &lt;暱稱&gt; [&lt;訊息&gt;]：把某人從頻道踢出去。您必須是頻道管理員才能這麼做。
 # $commandName is the command name
-command-list = { $commandName }: 顯示網路上的聊天室清單。警告: 有些伺服器可能會在您執行此指令後把您踢出去。
+command-list = { $commandName }：顯示網路上的聊天室清單。警告：有些伺服器可能會在您執行此指令後把您踢出去。
 # $commandName is the command name
-command-memoserv = { $commandName } &lt;命令&gt;: 傳送命令給 MemoServ。
+command-memoserv = { $commandName } &lt;命令&gt;：傳送命令給 MemoServ。
 # $commandName is the command name
-command-mode-user2 = { $commandName } &lt;暱稱&gt; [(+|-)&lt;模式&gt;]: 取得、設定或取消設定使用者的模式。
+command-mode-user2 = { $commandName } &lt;暱稱&gt; [(+|-)&lt;模式&gt;]：取得、設定或取消設定使用者的模式。
 # $commandName is the command name
-command-mode-channel2 = { $commandName } [&lt;頻道&gt;] [(+|-)&lt;新模式&gt; [&lt;參數&gt;][,&lt;參數&gt;]*]: 取得、設定或取消設定頻道的模式。
+command-mode-channel2 = { $commandName } [&lt;頻道&gt;] [(+|-)&lt;新模式&gt; [&lt;參數&gt;][,&lt;參數&gt;]*]：取得、設定或取消設定頻道的模式。
 # $commandName is the command name
-command-msg = { $commandName } &lt;暱稱&gt; &lt;訊息&gt;: 傳送私人訊息給某個使用者（而不是直接發到頻道上）。
+command-msg = { $commandName } &lt;暱稱&gt; &lt;訊息&gt;：傳送私人訊息給某個使用者（而不是直接發到頻道上）。
 # $commandName is the command name
-command-nick = { $commandName } &lt;新暱稱&gt;: 修改您的暱稱。
+command-nick = { $commandName } &lt;新暱稱&gt;：修改您的暱稱。
 # $commandName is the command name
-command-nickserv = { $commandName } &lt;命令&gt;: 傳送命令給 NickServ。
+command-nickserv = { $commandName } &lt;命令&gt;：傳送命令給 NickServ。
 # $commandName is the command name
 command-notice = { $commandName } &lt;目標&gt; &lt;訊息&gt;: 傳送通知給某個使用者或某個頻道。
 # $commandName is the command name
