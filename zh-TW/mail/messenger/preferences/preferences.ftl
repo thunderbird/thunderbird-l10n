@@ -714,7 +714,7 @@ idle-time-label = 分鐘沒有使用後知道我正在閒置
 ##
 
 away-message-label =
-    .label = 並將我的狀態設定為不在電腦前，且加上此狀態訊息:
+    .label = 並將我的狀態設定為不在電腦前，且加上此狀態訊息：
     .accesskey = a
 send-typing-label =
     .label = 在對話中傳送正在輸入的通知

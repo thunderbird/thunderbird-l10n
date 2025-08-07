@@ -40,7 +40,7 @@ connection-error-xmpp-not-supported = 該伺服器不支援 XMPP
 #   This is displayed in a conversation as an error message when a message
 #   the user has sent wasn't delivered.
 #   $message is replaced by the text of the message that wasn't delivered.
-conversation-error-not-delivered = 無法傳送此訊息: { $message }
+conversation-error-not-delivered = 無法傳送此訊息：{ $message }
 #   This is displayed in a conversation as an error message when joining a MUC
 #   fails.
 #   $mucName is the name of the MUC.

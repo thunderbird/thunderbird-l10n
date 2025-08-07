@@ -98,7 +98,7 @@ power-level-server-acl = 傳送 m.room.server_acl 事件: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-upgrade-room = 升級聊天室: { $powerLevelName }
 #    $powerLevelName is the power level name
-power-level-remove = 移除訊息: { $powerLevelName }
+power-level-remove = 移除訊息：{ $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-events-default = 事件預設值: { $powerLevelName }
 #    $powerLevelName is the power level name

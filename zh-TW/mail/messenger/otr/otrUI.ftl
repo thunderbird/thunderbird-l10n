@@ -63,4 +63,4 @@ afterauth-unverified = { $name } 的身分未經驗證。
 # Do not translate 'OTR' (name of an encryption protocol)
 # Variables:
 #   $error (String) - contains an error message that describes the cause of the failure
-otr-genkey-failed = OTR 私鑰產生失敗: { $error }
+otr-genkey-failed = OTR 私鑰產生失敗：{ $error }
