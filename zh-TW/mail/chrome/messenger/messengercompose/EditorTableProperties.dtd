@@ -49,7 +49,7 @@
 <!ENTITY cellHorizontal.accessKey "Z">
 <!ENTITY cellVertical.label "垂直:">
 <!ENTITY cellVertical.accessKey "V">
-<!ENTITY cellStyle.label "儲存格樣式:">
+<!ENTITY cellStyle.label "儲存格樣式：">
 <!ENTITY cellStyle.accessKey "C">
 <!ENTITY cellNormal.label "標準">
 <!ENTITY cellHeader.label "標頭">

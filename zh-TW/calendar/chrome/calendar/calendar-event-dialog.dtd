@@ -178,7 +178,7 @@
 <!ENTITY event.categories.textbox.label "新增分類">
 <!ENTITY event.calendar.label "行事曆:">
 <!ENTITY event.calendar.accesskey "C">
-<!ENTITY event.attendees.label "與會者:">
+<!ENTITY event.attendees.label "與會者：">
 <!ENTITY event.attendees.accesskey "I">
 <!ENTITY event.alldayevent.label "全天事件">
 <!ENTITY event.alldayevent.accesskey "d">

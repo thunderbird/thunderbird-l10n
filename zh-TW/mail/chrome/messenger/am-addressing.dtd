@@ -6,7 +6,7 @@
 
 <!ENTITY addressing.label "寫信與通訊錄">
 <!ENTITY addressingGroupTitle.label "通訊錄">
-<!ENTITY addressingText.label "尋找郵件地址時:">
+<!ENTITY addressingText.label "尋找郵件地址時：">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
 <!ENTITY useGlobal.label "對此帳號使用預設的 LDAP 伺服器設定">
 <!ENTITY useGlobal.accesskey "U">

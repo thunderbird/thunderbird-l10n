@@ -77,7 +77,7 @@ calendar-invitation-interval-same-day = { $startDate } <b>{ $startTime }</b> –
 # $timezone  (String) - The timezone the interval is in.
 calendar-invitation-interval-several-days = { $startDate } <b>{ $startTime }</b> – { $endDate } <b>{ $endTime }</b> { $timezone }
 calendar-invitation-panel-prop-title-recurrence = 重複發生:
-calendar-invitation-panel-prop-title-attendees = 與會者:
+calendar-invitation-panel-prop-title-attendees = 與會者：
 calendar-invitation-panel-prop-title-description = 說明:
 # Variables:
 # $count (Number) - The number of attendees with the "ACCEPTED" participation status.

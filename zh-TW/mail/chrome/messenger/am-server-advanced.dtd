@@ -18,7 +18,7 @@
 <!ENTITY personalNamespace.accesskey "P">
 <!ENTITY publicNamespace.label "公開 (共享) 空間:">
 <!ENTITY publicNamespace.accesskey "u">
-<!ENTITY otherUsersNamespace.label "其它使用者:">
+<!ENTITY otherUsersNamespace.label "其它使用者：">
 <!ENTITY otherUsersNamespace.accesskey "O">
 <!ENTITY overrideNamespaces.label "允許伺服器強制蓋掉這些命名空間">
 <!ENTITY overrideNamespaces.accesskey "A">

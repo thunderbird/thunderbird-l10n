@@ -16,8 +16,8 @@ calendar-invitations-location =
     .value = 地點: { $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
-    .value = 主辦者: { $organizerProperty }
+    .value = 主辦者：{ $organizerProperty }
 # $attendeeProperty is the attendee of the event
 calendar-invitations-attendee =
-    .value = 參加者: { $attendeeProperty }
+    .value = 參加者：{ $attendeeProperty }
 calendar-invitations-none = 無

@@ -5,7 +5,7 @@
 <!-- Window title -->
 <!ENTITY windowTitle.label "清單屬性">
 <!ENTITY ListType.label "清單(List)型式:">
-<!ENTITY bulletStyle.label "項目符號樣式:">
+<!ENTITY bulletStyle.label "項目符號樣式：">
 <!ENTITY startingNumber.label "開始編號:">
 <!ENTITY startingNumber.accessKey "S">
 <!ENTITY none.value "無">

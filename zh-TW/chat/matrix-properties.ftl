@@ -78,11 +78,11 @@ power-level-detailed = { $powerLevelName }（{ $powerLevelNumber }）
 #    $powerLevelName is the power level name
 power-level-default-role = 預設角色: { $powerLevelName }
 #    $powerLevelName is the power level name
-power-level-invite-user = 邀請使用者: { $powerLevelName }
+power-level-invite-user = 邀請使用者：{ $powerLevelName }
 #    $powerLevelName is the power level name
-power-level-kick-users = 踢走使用者: { $powerLevelName }
+power-level-kick-users = 踢走使用者：{ $powerLevelName }
 #    $powerLevelName is the power level name
-power-level-ban = 封鎖使用者: { $powerLevelName }
+power-level-ban = 封鎖使用者：{ $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-room-avatar = 更改聊天室圖片: { $powerLevelName }
 #    $powerLevelName is the power level name
@@ -140,7 +140,7 @@ command-kick = { $commandName } &lt;userId&gt; [&lt;原因&gt;]: 將 ID 為 user
 # $commandName is the command name
 command-nick = { $commandName } &lt;新顯示名稱&gt;: 修改您的顯示名稱。
 # $commandName is the command name
-command-op = { $commandName } &lt;userId&gt; [&lt;權力等級&gt;]: 指定使用者的權力等級。請在等級欄位輸入整數，一般使用者: 0、版主: 50、管理員: 100。若未指定參數，則預設為 50。必須要有能更改成員權力等級的權限；對您自己以外的管理員無效。
+command-op = { $commandName } &lt;userId&gt; [&lt;權力等級&gt;]：指定使用者的權力等級。請在等級欄位輸入整數，一般使用者：0、版主：50、管理員：100。若未指定參數，則預設為 50。必須要有能更改成員權力等級的權限；對您自己以外的管理員無效。
 # $commandName is the command name
 command-deop = { $commandName } &lt;userId&gt;: 將使用者的權力等級重設為 0（一般使用者）。必須要有能更改成員權力等級的權限；對您自己以外的管理員無效。
 # $commandName is the command name
