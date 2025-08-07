@@ -3,9 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-editable-item-privacy-icon-private =
-    .alt = 私人: 私人活動
+    .alt = 私人：私人活動
 calendar-editable-item-privacy-icon-confidential =
-    .alt = 私人: 僅顯示日期與時間
+    .alt = 私人：僅顯示日期與時間
 calendar-editable-item-recurrence =
     .alt = 重複發生
 calendar-editable-item-recurrence-exception =

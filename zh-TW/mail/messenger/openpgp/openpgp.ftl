@@ -492,7 +492,7 @@ refresh-key-warn = 警告: 視金鑰數量與網路速度而定，重新整理�
 preview-failed = 無法讀取公鑰檔案。
 # Variables:
 # $reason (String) - Error description.
-general-error = 錯誤: { $reason }
+general-error = 錯誤：{ $reason }
 dlg-button-delete = 刪除 (&D)
 
 ## Account settings export output

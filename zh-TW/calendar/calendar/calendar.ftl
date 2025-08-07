@@ -86,15 +86,15 @@ paste-dont-notify-label = 張貼而不傳送
 # LOCALIZATION NOTE (import-items-failed):
 #    $count will be replaced with number of failed items
 #    $error will be replaced with last error code / error string
-import-items-failed = 匯入 { $count } 個項目失敗。最後一個錯誤是: { $error }
+import-items-failed = 匯入 { $count } 個項目失敗。最後一個錯誤是：{ $error }
 # LOCALIZATION NOTE (no-items-in-calendar-file2):
 #    $filePath will be replaced with file path
 no-items-in-calendar-file2 = 無法從 { $filePath } 匯入。此檔案中沒有可匯入的項目。
 # spaces needed at the end of the following lines
 event-description = 描述：
-unable-to-read = 無法讀取檔案:
+unable-to-read = 無法讀取檔案：
 # $filePath
-unable-to-write = 無法寫入檔案: { $filePath }
+unable-to-write = 無法寫入檔案：{ $filePath }
 default-file-name = MozillaCalEvents
 html-title = Mozilla Calendar
 # LOCALIZATION NOTE (timezone-error):
@@ -115,7 +115,7 @@ unable-to-create-provider = 準備位於 { $location } 的行事曆供使用時�
 # $timezone timezone name, $title item title, $datetime date-time
 unknown-timezone-in-item = 「{ $title }」所在的時區「{ $timezone }」是未知時區。已改用「浮動的」當地時區：{ $datetime }
 timezone-errors-alert-title = 時區錯誤
-timezone-errors-see-console = 詳見錯誤主控台: 未知時區將採用「浮動的」當地時區。
+timezone-errors-see-console = 詳見錯誤主控台：未知時區將採用「浮動的」當地時區。
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = 移除行事曆
 remove-calendar-button-delete = 刪除行事曆
@@ -159,14 +159,14 @@ tooltip-cal-name = 行事曆名稱：
 # event status: tentative, confirmed, cancelled
 tooltip-status = 狀態：
 # event organizer
-tooltip-organizer = 召集人:
+tooltip-organizer = 召集人：
 # task/todo fields
 # start date time, due date time, task priority number, completed date time
-tooltip-start = 開始:
+tooltip-start = 開始：
 tooltip-due = 到期日：
-tooltip-priority = 重要性:
-tooltip-percent = 完成度 %:
-tooltip-completed = 已完成:
+tooltip-priority = 重要性：
+tooltip-percent = 完成度 %：
+tooltip-completed = 已完成：
 # File commands and dialogs
 calendar-new = 開新檔案
 calendar-open = 開啟舊檔
@@ -183,27 +183,27 @@ generic-error-title = 發生錯誤
 # $statusCode $statusCodeInfo status code info
 http-put-error =
     發佈行事曆檔案失敗。
-    狀態碼: { $statusCode }: { $statusCodeInfo }
+    狀態碼：{ $statusCode }：{ $statusCodeInfo }
 # $statusCode status code
 other-put-error =
-    發佈此行事曆檔案失敗。
-    狀態碼: 0x{ $statusCode }
+    發佈行事曆檔案失敗。
+    狀態碼：0x{ $statusCode }
 # LOCALIZATION NOTE (read-only-mode):
 # used for an message like 'There has been an error reading data for calendar: Home. It has been...'
 #    $name will be replaced with the name of a calendar
-read-only-mode = 讀取行事曆資料時發生錯誤: { $name }。因為變更此行事曆可能導致資料遺失，已將其置入唯讀模式。您可以選擇「編輯行事曆」變更此設定。
+read-only-mode = 讀取行事曆資料時發生錯誤：{ $name }。因為變更此行事曆可能導致資料遺失，已將其置入唯讀模式。您可以選擇「編輯行事曆」變更此設定。
 # LOCALIZATION NOTE (disabled-mode):
 # used for an message like 'There has been an error reading data for calendar: Home. It has been...'
 #    $name will be replaced with the name of a calendar
-disabled-mode = 讀取行事曆資料時發生錯誤: { $name }。已將其停用，直到可安全使用為止。
+disabled-mode = 讀取行事曆資料時發生錯誤：{ $name }。已將其停用，直到可安全使用為止。
 # LOCALIZATION NOTE (minor-error):
 # used for an message like 'There has been an error reading data for calendar: Home. However this...'
 #    $name will be replaced with the name of a calendar
-minor-error = 讀取行事曆資料時發生錯誤: { $name }。但此錯誤並不嚴重，所以程式會嘗試繼續執行。
+minor-error = 讀取行事曆資料時發生錯誤：{ $name }。但此錯誤並不嚴重，所以程式會嘗試繼續執行。
 # LOCALIZATION NOTE (still-read-only-error):
 # used for an message like 'There has been an error reading data for calendar: Home.'
 #    $name will be replaced with the name of a calendar
-still-read-only-error = 讀取行事曆資料時出現錯誤: { $name }。
+still-read-only-error = 讀取行事曆資料時出現錯誤：{ $name }。
 utf8-decode-error = 將 iCalendar (ics) 檔案解碼為 UTF-8 時發生錯誤。請檢查該檔案 (包含符號與重音字母) 是否是使用 UTF-8 字元編碼的方式進行編碼。
 ics-malformed-error = 剖析 iCalendar (ics) 檔案失敗。請檢查檔案是否遵守 iCalendar (ics) 檔案語法。
 item-modified-on-server-title = 伺服器上的項目已變更
