@@ -4,7 +4,7 @@
 <!ENTITY windowTitle.label "色彩">
 <!ENTITY lastPickedColor.label "上次使用的色彩">
 <!ENTITY lastPickedColor.accessKey "L">
-<!ENTITY chooseColor1.label "選擇色彩:">
+<!ENTITY chooseColor1.label "選擇色彩：">
 <!ENTITY chooseColor2.label "輸入 HTML 色彩字串">
 <!ENTITY chooseColor2.accessKey "H">
 <!ENTITY setColorExample.label "（如:「#0000ff」或是「blue」）:">

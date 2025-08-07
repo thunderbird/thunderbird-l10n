@@ -5,17 +5,17 @@
 <!-- Window title -->
 <!ENTITY windowTitle.label "頁面色彩與背景">
 <!ENTITY pageColors.label "頁面色彩">
-<!ENTITY defaultColorsRadio.label "使用瀏覽器的色彩設定(本網頁不指定色彩)">
+<!ENTITY defaultColorsRadio.label "使用瀏覽器的色彩設定（不指定網頁色彩）">
 <!ENTITY defaultColorsRadio.accessKey "D">
 <!ENTITY defaultColorsRadio.tooltip "只使用閱讀者的瀏覽器的設定">
-<!ENTITY customColorsRadio.label "使用者自訂色彩:">
+<!ENTITY customColorsRadio.label "使用者自訂色彩：">
 <!ENTITY customColorsRadio.accessKey "C">
 <!ENTITY customColorsRadio.tooltip "這些色彩設定會取代瀏覽器的設定">
 <!ENTITY normalText.label "一般文字">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "未瀏覽過的鏈結文字:">
 <!ENTITY linkText.accessKey "L">
-<!ENTITY activeLinkText.label "被點選的鏈結文字色彩:">
+<!ENTITY activeLinkText.label "被點選的鏈結文字色彩：">
 <!ENTITY activeLinkText.accessKey "A">
 <!ENTITY visitedLinkText.label "已瀏覽過的鏈結文字:">
 <!ENTITY visitedLinkText.accessKey "V">

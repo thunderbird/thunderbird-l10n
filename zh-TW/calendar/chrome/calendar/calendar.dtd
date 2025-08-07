@@ -236,7 +236,7 @@
 <!ENTITY calendar.server.dialog.title.edit "編輯行事曆">
 <!ENTITY calendar.server.dialog.name.label "行事曆名稱:">
 <!-- Calendar Properties -->
-<!ENTITY calendarproperties.color.label "色彩:">
+<!ENTITY calendarproperties.color.label "色彩：">
 <!ENTITY calendarproperties.webdav.label "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label "CalDAV">
 <!ENTITY calendarproperties.format.label "格式:">

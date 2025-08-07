@@ -354,7 +354,7 @@ cloud-file-tooltip-password-protected-link = 密碼保護鏈結
 # Download Limit - stating the maximum allowed downloads, before the link becomes invalid
 #                  (Download Limit: 6)
 cloud-file-template-service-name = 雲端鏈結服務:
-cloud-file-template-size = 大小:
+cloud-file-template-size = 大小：
 cloud-file-template-link = 鏈結:
 cloud-file-template-password-protected-link = 密碼保護鏈結:
 cloud-file-template-expiry-date = 過期日:
