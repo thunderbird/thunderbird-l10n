@@ -153,7 +153,7 @@ quick-filter-bar-gloda-upsell-line1 = 繼續在所有信件匣搜尋
 # The second line of the panel popup that tells the user we found no matches.
 # Variables:
 # $text (String) - What the user has typed so far.
-quick-filter-bar-gloda-upsell-line2 = 按下 Enter 鍵以繼續搜尋: { $text }
+quick-filter-bar-gloda-upsell-line2 = 按下 Enter 鍵以繼續搜尋：{ $text }
 
 ## Folder pane
 

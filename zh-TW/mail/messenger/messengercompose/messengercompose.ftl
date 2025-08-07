@@ -357,7 +357,7 @@ cloud-file-template-service-name = 雲端鏈結服務：
 cloud-file-template-size = 大小：
 cloud-file-template-link = 鏈結:
 cloud-file-template-password-protected-link = 密碼保護鏈結:
-cloud-file-template-expiry-date = 過期日:
+cloud-file-template-expiry-date = 過期日：
 cloud-file-template-download-limit = 下載限制:
 
 # Messages

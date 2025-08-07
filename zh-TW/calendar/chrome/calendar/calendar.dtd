@@ -239,7 +239,7 @@
 <!ENTITY calendarproperties.color.label "色彩：">
 <!ENTITY calendarproperties.webdav.label "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label "CalDAV">
-<!ENTITY calendarproperties.format.label "格式:">
+<!ENTITY calendarproperties.format.label "格式：">
 <!ENTITY calendarproperties.location.label "網址:">
 <!ENTITY calendarproperties.refreshInterval.label "重新載入日曆:">
 <!ENTITY calendarproperties.refreshInterval.manual.label "手動">

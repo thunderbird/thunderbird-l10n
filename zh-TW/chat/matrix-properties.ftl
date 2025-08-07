@@ -106,14 +106,14 @@ power-level-state-default = 更改設定: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-encryption = 開啟聊天室加密: { $powerLevelName }
 #    $powerLevelName is the power level name
-power-level-topic = 設定聊天室主題: { $powerLevelName }
+power-level-topic = 設定聊天室主題：{ $powerLevelName }
 # LOCALIZATION NOTE (detail-*):
 #    These are the string representations of different matrix properties.
 #    $value will typically be strings with the actual values.
 # $value Example placeholder: "Foo bar"
 detail-name = 名稱：{ $value }
 # $value Example placeholder: "My first room"
-detail-topic = 主題: { $value }
+detail-topic = 主題：{ $value }
 # $value Example placeholder: "5"
 detail-version = 聊天室版本: { $value }
 # $value Example placeholder: "#thunderbird:mozilla.org"

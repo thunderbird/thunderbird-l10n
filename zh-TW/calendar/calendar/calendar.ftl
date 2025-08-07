@@ -113,7 +113,7 @@ duplicate-error =
 unable-to-create-provider = 準備位於 { $location } 的行事曆供使用時發生錯誤，將無法使用此行事曆。
 # Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
 # $timezone timezone name, $title item title, $datetime date-time
-unknown-timezone-in-item = 「{ $title }」所在的時區「{ $timezone }」是未知時區。已改用「浮動的」當地時區: { $datetime }
+unknown-timezone-in-item = 「{ $title }」所在的時區「{ $timezone }」是未知時區。已改用「浮動的」當地時區：{ $datetime }
 timezone-errors-alert-title = 時區錯誤
 timezone-errors-see-console = 詳見錯誤主控台: 未知時區將採用「浮動的」當地時區。
 # The following strings are for the prompt to delete/unsubscribe from the calendar
@@ -163,7 +163,7 @@ tooltip-organizer = 召集人:
 # task/todo fields
 # start date time, due date time, task priority number, completed date time
 tooltip-start = 開始:
-tooltip-due = 到期日:
+tooltip-due = 到期日：
 tooltip-priority = 重要性:
 tooltip-percent = 完成度 %:
 tooltip-completed = 已完成:

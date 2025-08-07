@@ -25,7 +25,7 @@ calendar-invitation-panel-menu-item-save-copy =
     .label = 儲存副本
 calendar-invitation-panel-menu-item-toggle-changes =
     .label = 顯示變更
-calendar-invitation-panel-prop-title-when = 時間:
+calendar-invitation-panel-prop-title-when = 時間：
 calendar-invitation-panel-prop-title-location = 地點：
 # Example: Friday, September 16, 2022
 # Variables:
