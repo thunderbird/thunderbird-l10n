@@ -20,7 +20,7 @@
 <!ENTITY attachCloudCmd.accesskey "i">
 <!ENTITY attachPageCmd.label "Nettside …">
 <!ENTITY attachPageCmd.accesskey "N">
-<!ENTITY remindLater.label "Påminn meg senere">
+<!ENTITY remindLater.label "Minn meg på det senere">
 <!ENTITY remindLater.accesskey "P">
 <!ENTITY closeCmd.label "Lukk">
 <!ENTITY closeCmd.key "W">
