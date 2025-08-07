@@ -155,7 +155,7 @@ tooltip-location = 地點:
 #  Date: Thu 9 Oct 2000 -- Fri 10 Oct 2000
 tooltip-date = 日期:
 # event calendar name
-tooltip-cal-name = 行事曆名稱:
+tooltip-cal-name = 行事曆名稱：
 # event status: tentative, confirmed, cancelled
 tooltip-status = 狀態:
 # event organizer
@@ -463,7 +463,7 @@ several-long-calendar-weeks = 第 { $startIndex }-{ $endIndex } 週
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
 #    $endIndex will be replaced with the index of the end-week
-several-calendar-weeks = 週數範圍: { $startIndex }-{ $endIndex }
+several-calendar-weeks = 週數範圍：{ $startIndex }-{ $endIndex }
     .title = 週數範圍 { $startIndex }-{ $endIndex }
 # LOCALIZATION NOTE (multiweek-view-week):
 # Used for displaying the week number in the first day box of every week

@@ -37,7 +37,7 @@
 <!ENTITY selectofflineNewsgroup.check.accesskey "o">
 <!ENTITY offlineNewsgroup.button.label "立刻下載">
 <!ENTITY offlineNewsgroup.button.accesskey "D">
-<!ENTITY folderProps.name.label "名稱:">
+<!ENTITY folderProps.name.label "名稱：">
 <!ENTITY folderProps.name.accesskey "N">
 <!ENTITY folderProps.color.label "圖示色彩：">
 <!ENTITY folderProps.color.accesskey "I">

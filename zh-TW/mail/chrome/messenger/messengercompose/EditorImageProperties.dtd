@@ -42,7 +42,7 @@
 <!ENTITY removeImageMapButton.label "移除">
 <!ENTITY removeImageMapButton.accessKey "R">
 <!-- These are the options for image alignment -->
-<!ENTITY alignment.label "文字對齊圖片方式:">
+<!ENTITY alignment.label "文字對齊圖片方式：">
 <!ENTITY bottomPopup.value "底部">
 <!ENTITY topPopup.value "頂端">
 <!ENTITY centerPopup.value "中間">

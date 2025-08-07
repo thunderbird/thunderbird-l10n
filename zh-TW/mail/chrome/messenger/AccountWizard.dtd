@@ -24,10 +24,10 @@
 <!-- Entities for Incoming Server page -->
 
 <!ENTITY incomingTitle.label "收件伺服器資訊">
-<!ENTITY incomingUsername.label "使用者名稱:">
+<!ENTITY incomingUsername.label "使用者名稱：">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "請輸入您的新聞群組伺服器 (NNTP) 的名稱。（例:「news.example.net」）。">
-<!ENTITY newsServerLabel.label "新聞群組伺服器:">
+<!ENTITY newsServerLabel.label "新聞群組伺服器：">
 <!ENTITY newsServerLabel.accesskey "s">
 
 <!-- Entities for Account name page -->
@@ -35,7 +35,7 @@
 <!ENTITY accnameTitle.label "帳號名稱">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "請輸入這個帳號的名稱（如「學校帳號」、「免費帳號」等等）。">
-<!ENTITY accnameLabel.label "帳號名稱:">
+<!ENTITY accnameLabel.label "帳號名稱：">
 <!ENTITY accnameLabel.accesskey "A">
 <!-- Entities for Done (Congratulations) page -->
 <!ENTITY completionTitle.label "恭喜！">

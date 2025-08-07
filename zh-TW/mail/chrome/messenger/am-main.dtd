@@ -5,7 +5,7 @@
 <!-- extracted from am-main.xhtml -->
 
 <!ENTITY accountTitle.label "帳號設定">
-<!ENTITY accountName.label "帳號名稱:">
+<!ENTITY accountName.label "帳號名稱：">
 <!ENTITY accountName.accesskey "n">
 <!ENTITY identityTitle.label "預設身份">
 <!ENTITY identityDesc.label "每個帳號都可以有自己的身份識別資料，這會出現於您寄出的郵件內。">

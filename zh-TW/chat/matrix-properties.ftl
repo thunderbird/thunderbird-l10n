@@ -90,7 +90,7 @@ power-level-main-address = 更改聊天室的主要地址: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-history = 更改聊天紀錄可見度: { $powerLevelName }
 #    $powerLevelName is the power level name
-power-level-room-name = 更改聊天室名稱: { $powerLevelName }
+power-level-room-name = 更改聊天室名稱：{ $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-change-permissions = 更改權限: { $powerLevelName }
 #    $powerLevelName is the power level name
@@ -111,7 +111,7 @@ power-level-topic = 設定聊天室主題: { $powerLevelName }
 #    These are the string representations of different matrix properties.
 #    $value will typically be strings with the actual values.
 # $value Example placeholder: "Foo bar"
-detail-name = 名稱: { $value }
+detail-name = 名稱：{ $value }
 # $value Example placeholder: "My first room"
 detail-topic = 主題: { $value }
 # $value Example placeholder: "5"

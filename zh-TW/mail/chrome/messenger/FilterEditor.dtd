@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY window.title "篩選條件規則">
-<!ENTITY filterName.label "篩選條件名稱:">
+<!ENTITY filterName.label "篩選條件名稱：">
 <!ENTITY filterName.accesskey "i">
 <!ENTITY junk.label "垃圾郵件">
 <!ENTITY notJunk.label "非垃圾郵件">

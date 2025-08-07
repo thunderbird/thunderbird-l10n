@@ -25,7 +25,7 @@
 <!ENTITY tablePadding.accessKey "P">
 <!ENTITY tablePxBetwCells.label "資料格之間的空白(單位:像素)">
 <!ENTITY tablePxBetwBrdrCellContent.label "框線與格內文字間的空白(單位:像素)">
-<!ENTITY tableAlignment.label "表格對齊方式:">
+<!ENTITY tableAlignment.label "表格對齊方式：">
 <!ENTITY tableAlignment.accessKey "T">
 <!ENTITY tableCaption.label "題要(Caption):">
 <!ENTITY tableCaption.accessKey "N">

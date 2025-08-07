@@ -10,7 +10,7 @@
 <!ENTITY initialpage.network.label "存放於網際網路">
 <!ENTITY locationpage.description "提供存取您遠端行事曆時所需的資訊">
 <!ENTITY locationpage.login.description "選用: 輸入使用者名稱和密碼">
-<!ENTITY locationpage.username.label "使用者名稱:">
+<!ENTITY locationpage.username.label "使用者名稱：">
 <!ENTITY locationpage.password.label "密碼:">
 <!ENTITY custompage.shortdescription "自訂行事曆">
 <!ENTITY custompage.longdescription "您可以為行事曆取一個暱稱，並將此行事曆的事件用色彩標記">

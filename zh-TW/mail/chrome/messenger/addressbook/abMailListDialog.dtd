@@ -7,7 +7,7 @@
 <!-- Labels and Access Keys -->
 <!ENTITY addToAddressBook.label "新增到: ">
 <!ENTITY addToAddressBook.accesskey "A">
-<!ENTITY ListName.label "清單名稱:">
+<!ENTITY ListName.label "清單名稱：">
 <!ENTITY ListName.accesskey "L">
 <!ENTITY ListNickName.label "群組暱稱: ">
 <!ENTITY ListNickName.accesskey "N">

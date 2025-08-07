@@ -13,7 +13,7 @@
 <!ENTITY editDirectories.label "編輯目錄…">
 <!ENTITY editDirectories.accesskey "E">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
-<!ENTITY directories.label "使用其它 LDAP 伺服器:">
+<!ENTITY directories.label "使用其它 LDAP 伺服器：">
 <!ENTITY directories.accesskey "D">
 <!ENTITY directoriesNone.label "無">
 

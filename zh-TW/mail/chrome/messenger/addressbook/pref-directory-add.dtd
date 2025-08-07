@@ -2,9 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY directoryName.label "名稱:">
+<!ENTITY directoryName.label "名稱：">
 <!ENTITY directoryName.accesskey "N">
-<!ENTITY directoryHostname.label "主機名稱:">
+<!ENTITY directoryHostname.label "主機名稱：">
 <!ENTITY directoryHostname.accesskey "o">
 <!ENTITY directoryBaseDN.label "Base DN:">
 <!ENTITY directoryBaseDN.accesskey "B">
@@ -21,7 +21,7 @@
 <!ENTITY portNumber.accesskey "P">
 <!ENTITY searchFilter.label "搜尋篩選條件 (Filter)">
 <!ENTITY searchFilter.accesskey "F">
-<!ENTITY scope.label "範圍 (Scope): ">
+<!ENTITY scope.label "範圍：">
 <!ENTITY scope.accesskey "c">
 <!ENTITY scopeOneLevel.label "一層">
 <!ENTITY scopeOneLevel.accesskey "L">
@@ -31,7 +31,7 @@
 <!ENTITY return.accesskey "r">
 <!ENTITY results.label "個結果">
 <!ENTITY offlineText.label "您可以下載此目錄以供離線閱讀。">
-<!ENTITY saslMechanism.label "登入方式: ">
+<!ENTITY saslMechanism.label "登入方式：">
 <!ENTITY saslMechanism.accesskey "m">
 <!ENTITY saslOff.label "簡單">
 <!ENTITY saslOff.accesskey "l">

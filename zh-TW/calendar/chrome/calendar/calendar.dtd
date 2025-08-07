@@ -234,7 +234,7 @@
 <!ENTITY calendar.alarm.snooze.cancel "取消稍後提醒">
 <!-- Calendar Server Dialog -->
 <!ENTITY calendar.server.dialog.title.edit "編輯行事曆">
-<!ENTITY calendar.server.dialog.name.label "行事曆名稱:">
+<!ENTITY calendar.server.dialog.name.label "行事曆名稱：">
 <!-- Calendar Properties -->
 <!ENTITY calendarproperties.color.label "色彩：">
 <!ENTITY calendarproperties.webdav.label "iCalendar (ICS)">
@@ -243,7 +243,7 @@
 <!ENTITY calendarproperties.location.label "網址:">
 <!ENTITY calendarproperties.refreshInterval.label "重新載入日曆:">
 <!ENTITY calendarproperties.refreshInterval.manual.label "手動">
-<!ENTITY calendarproperties.name.label "名稱:">
+<!ENTITY calendarproperties.name.label "名稱：">
 <!ENTITY calendarproperties.readonly.label "唯讀">
 <!ENTITY calendarproperties.firealarms.label "顯示提醒">
 <!ENTITY calendarproperties.cache3.label "離線支援">
