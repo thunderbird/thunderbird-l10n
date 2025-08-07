@@ -353,7 +353,7 @@ cloud-file-tooltip-password-protected-link = 密碼保護鏈結
 # Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
 # Download Limit - stating the maximum allowed downloads, before the link becomes invalid
 #                  (Download Limit: 6)
-cloud-file-template-service-name = 雲端鏈結服務:
+cloud-file-template-service-name = 雲端鏈結服務：
 cloud-file-template-size = 大小：
 cloud-file-template-link = 鏈結:
 cloud-file-template-password-protected-link = 密碼保護鏈結:
