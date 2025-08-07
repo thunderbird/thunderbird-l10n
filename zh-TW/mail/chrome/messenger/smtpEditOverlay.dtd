@@ -17,6 +17,6 @@
 <!ENTITY connectionSecurityType-2.label "STARTTLS">
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY smtpEditTitle.label "SMTP 寄件伺服器">
-<!ENTITY serverPortDefault.label "預設:">
+<!ENTITY serverPortDefault.label "預設：">
 <!ENTITY authMethod.label "驗證方式：">
 <!ENTITY authMethod.accesskey "i">
