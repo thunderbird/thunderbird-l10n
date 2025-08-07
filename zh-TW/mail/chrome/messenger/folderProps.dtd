@@ -52,7 +52,7 @@
 <!ENTITY folderType.label "信件匣類型:">
 <!ENTITY folderQuotaTab.label "配額">
 <!ENTITY folderQuotaUsage.label "用量:">
-<!ENTITY folderQuotaStatus.label "狀態:">
+<!ENTITY folderQuotaStatus.label "狀態：">
 <!ENTITY numberOfMessages.label "訊息數量:">
 <!-- LOCALIZATION NOTE: When the number of messages can't be determined, this string is displayed as the number -->
 <!ENTITY numberUnknown.label "未知">

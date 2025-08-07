@@ -10,5 +10,5 @@
 <!ENTITY chooseFileLinkButton.label "選擇檔案…">
 <!ENTITY chooseFileLinkButton.accessKey "o">
 <!-- Shared by Link and Image dialogs -->
-<!ENTITY LinkURLEditField2.label "輸入網址、本機檔案路徑，或從右鍵選單中選擇一個錨點或是標題:">
+<!ENTITY LinkURLEditField2.label "輸入網址、本機檔案路徑，或從右鍵選單中選擇一個錨點或是標題：">
 <!ENTITY LinkURLEditField2.accessKey "w">

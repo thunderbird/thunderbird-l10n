@@ -169,9 +169,9 @@
 <!ENTITY counter.button.original.accesskey "r">
 <!ENTITY counter.button.original.tooltip2 "將會以提出反對提議前的原始事件內容填入欄位">
 <!-- Main page -->
-<!ENTITY event.title.textbox.label "標題:">
+<!ENTITY event.title.textbox.label "標題：">
 <!ENTITY event.title.textbox.accesskey "i">
-<!ENTITY event.location.label "地點:">
+<!ENTITY event.location.label "地點：">
 <!ENTITY event.location.accesskey "L">
 <!ENTITY event.categories.label "分類:">
 <!ENTITY event.categories.accesskey "y">
@@ -190,7 +190,7 @@
 <!ENTITY event.to.accesskey "n">
 <!ENTITY task.to.label "到期日:">
 <!ENTITY task.to.accesskey "u">
-<!ENTITY task.status.label "狀態:">
+<!ENTITY task.status.label "狀態：">
 <!ENTITY task.status.accesskey "a">
 <!ENTITY event.repeat.label "重複:">
 <!ENTITY event.repeat.accesskey "R">
@@ -198,7 +198,7 @@
 <!ENTITY event.until.accesskey "i">
 <!ENTITY event.reminder.label "提醒:">
 <!ENTITY event.reminder.accesskey "m">
-<!ENTITY event.description.label "描述:">
+<!ENTITY event.description.label "描述：">
 <!ENTITY event.description.accesskey "p">
 <!ENTITY event.attachments.label "附件:">
 <!ENTITY event.attachments.accesskey "h">
@@ -352,11 +352,11 @@
 <!ENTITY event.timezone.custom.label "更多時區…">
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label "一般">
-<!ENTITY read.only.title.label "標題:">
+<!ENTITY read.only.title.label "標題：">
 <!ENTITY read.only.calendar.label "行事曆:">
 <!ENTITY read.only.event.start.label "開始日:">
 <!ENTITY read.only.task.start.label "開始日:">
-<!ENTITY read.only.event.end.label "結束日期:">
+<!ENTITY read.only.event.end.label "結束日期：">
 <!ENTITY read.only.task.due.label "到期日:">
 <!ENTITY read.only.repeat.label "重複:">
 <!ENTITY read.only.location.label "位置:">

@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-state-label = 加密狀態:
+state-label = 加密狀態：
 start-text = 開始加密對話
 start-label =
     .label = { start-text }

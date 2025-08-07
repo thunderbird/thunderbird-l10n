@@ -91,7 +91,7 @@ import-items-failed = 匯入 { $count } 個項目失敗。最後一個錯誤是:
 #    $filePath will be replaced with file path
 no-items-in-calendar-file2 = 無法從 { $filePath } 匯入。此檔案中沒有可匯入的項目。
 # spaces needed at the end of the following lines
-event-description = 描述:
+event-description = 描述：
 unable-to-read = 無法讀取檔案:
 # $filePath
 unable-to-write = 無法寫入檔案: { $filePath }
@@ -148,16 +148,16 @@ too-new-schema-error-text = 您的行事曆設定檔資料已被新版 { $hostAp
 # List of events or todos (unifinder)
 event-untitled = 無標題
 # Tooltips of events or todos
-tooltip-title = 標題:
-tooltip-location = 地點:
+tooltip-title = 標題：
+tooltip-location = 地點：
 # event date, usually an interval, such as
 #  Date: 7:00--8:00 Thu 9 Oct 2011
 #  Date: Thu 9 Oct 2000 -- Fri 10 Oct 2000
-tooltip-date = 日期:
+tooltip-date = 日期：
 # event calendar name
 tooltip-cal-name = 行事曆名稱：
 # event status: tentative, confirmed, cancelled
-tooltip-status = 狀態:
+tooltip-status = 狀態：
 # event organizer
 tooltip-organizer = 召集人:
 # task/todo fields
@@ -213,7 +213,7 @@ delete-will-lose-data = 刪除此項目會失去在伺服器上所做的變更�
 calendar-conflicts-dialog =
     .buttonlabelcancel = 放棄我的變更並重新讀取
 proceed-modify =
-    .label = 一律送出我的變更
+    .label = 仍然送出我的變更
 proceed-delete =
     .label = 一律刪除
 # $name calendar name
@@ -417,14 +417,14 @@ getting-calendar-info-detail =
 error-code = 錯誤碼: { $errorCode }
 # LOCALIZATION NOTE (error-description):
 #    $errorDescription will be replaced with the description of an error
-error-description = 描述: { $errorDescription }
+error-description = 描述：{ $errorDescription }
 # LOCALIZATION NOTE (error-writing):
 # used for an message like 'An error occurred when writing to the calendar Home!'
 #    $name will be replaced with the name of a calendar
 error-writing2 = 寫入至行事曆 { $name } 時發生錯誤！請參考下方的更多資訊。
 # LOCALIZATION NOTE (error-writing-details):
 # This will be displayed in the detail section of the error dialog
-error-writing-details = 若您在關閉提醒，或對提醒設訂貪睡時間後看到此訊息，而又不想在此行事曆新增或編輯事件，可將此行事曆設為唯讀以避免相同情況在未來再次發生。若要這麼做，請在行事曆或工作畫面中，對行事曆按右鍵開啟行事曆屬性進行設訂。
+error-writing-details = 若您在關閉提醒，或對提醒設定貪睡時間後看到此訊息，而又不想在此行事曆新增或編輯事件，可將此行事曆設為唯讀以避免相同情況在未來再次發生。若要這麼做，請在行事曆或工作畫面中，對行事曆按右鍵開啟行事曆屬性進行設定。
 # LOCALIZATION NOTE (tooltip-calendar-disabled):
 # used for an alert-message like 'The calendar Home is momentarily not available'
 #    $name will be replaced with the name of a calendar

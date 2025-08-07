@@ -212,7 +212,7 @@
 
 <!-- Calendar Alarm Dialog -->
 
-<!ENTITY calendar.alarm.location.label "地點:">
+<!ENTITY calendar.alarm.location.label "地點：">
 <!ENTITY calendar.alarm.details.label "詳細資訊…">
 <!ENTITY calendar.alarm.snoozefor.label "稍後提醒…">
 <!ENTITY calendar.alarm.snoozeallfor.label "稍後提醒…">
@@ -260,8 +260,8 @@
 <!ENTITY calendar.select.dialog.title "選取行事曆">
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "詳細資訊…">
-<!ENTITY calendar.error.code "錯誤代碼:">
-<!ENTITY calendar.error.description "描述:">
+<!ENTITY calendar.error.code "錯誤代碼：">
+<!ENTITY calendar.error.description "描述：">
 <!ENTITY calendar.error.title "發生錯誤">
 <!-- Extract buttons in message header -->
 <!ENTITY calendar.extract.event.button "新增為事件">

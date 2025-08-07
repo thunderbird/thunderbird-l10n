@@ -4,5 +4,5 @@
 
 <!-- LOCALIZATION NOTE sendProgress.dtd Main UI for Send Message Progress Dialog -->
 <!ENTITY sendDialog.title "正在處理訊息">
-<!ENTITY status.label "狀態:">
+<!ENTITY status.label "狀態：">
 <!ENTITY progress.label "進度:">

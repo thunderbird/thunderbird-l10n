@@ -5,7 +5,7 @@
 <!-- Subscription Dialog -->
 <!ENTITY feedSubscriptions.label "消息來源訂閱">
 <!ENTITY learnMore.label "了解更多資訊來源">
-<!ENTITY feedTitle.label "標題:">
+<!ENTITY feedTitle.label "標題：">
 <!ENTITY feedTitle.accesskey "T">
 <!ENTITY feedLocation.label "來源 URL:">
 <!ENTITY feedLocation.accesskey "U">

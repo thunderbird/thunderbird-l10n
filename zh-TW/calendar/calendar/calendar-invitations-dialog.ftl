@@ -13,7 +13,7 @@ recurrent-event =
     .value = 重複事件
 # $locationProperty is the location of the event
 calendar-invitations-location =
-    .value = 地點: { $locationProperty }
+    .value = 地點：{ $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
     .value = 主辦者：{ $organizerProperty }
