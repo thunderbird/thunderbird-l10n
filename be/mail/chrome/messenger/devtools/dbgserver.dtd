@@ -4,4 +4,4 @@
 <!ENTITY options.title "Параметры інструментаў распрацоўшчыка">
 <!ENTITY options.status.label "Статус:">
 <!ENTITY options.port.label "Порт:">
-<!ENTITY options.forcelocal.label "Дазволіць злучэнні з іншых кампутараў">
+<!ENTITY options.forcelocal.label "Дазволіць злучэнні з іншых камп'ютараў">
