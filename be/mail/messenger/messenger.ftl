@@ -271,9 +271,19 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Перанакіраваць
+other-action-copy-message-link =
+    .label = Капіяваць спасылку на паведамленне
+other-action-copy-news-link =
+    .label = Капіяваць спасылку на навіну
 message-header-msg-flagged =
     .title = Пазначаныя
     .aria-label = Пазначаныя
+message-header-delete =
+    .label = Выдаліць
+    .tooltiptext = Выдаліць гэта паведамленне
+message-header-undelete =
+    .label = Аднавіць
+    .tooltiptext = Аднавіць гэта паведамленне
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -338,6 +348,10 @@ no-reply-reply-anyway-button = Усё роўна адказаць
 
 ## Spaces toolbar
 
+spaces-toolbar-element =
+    .toolbarname = Панэль прастораў
+    .aria-label = Панэль прастораў
+    .aria-description = Вертыкальная панэль для пераключэння паміж прасторамі. Выкарыстоўвайце клавішы са стрэлкамі для навігацыі паміж даступнымі кнопкамі.
 spaces-toolbar-button-mail2 =
     .title = Пошта
 spaces-toolbar-button-address-book2 =
