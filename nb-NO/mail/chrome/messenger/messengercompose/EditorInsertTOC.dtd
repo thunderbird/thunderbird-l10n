@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY Window.title "Innholdsfortegnelse">
 <!ENTITY buildToc.label "Bygg opp innholdsfortegnelse fra:">
-<!ENTITY tag.label "Tagger:">
+<!ENTITY tag.label "Etikett:">
 <!ENTITY class.label "Klasse:">
 <!ENTITY header1.label "Nivå 1">
 <!ENTITY header2.label "Nivå 2">
