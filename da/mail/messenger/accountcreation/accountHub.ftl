@@ -97,6 +97,7 @@ account-hub-address-book-name-label = Navn
 account-hub-address-book-name-error-text = Indtast navn
 account-hub-address-book-base-dn = Base DN
 account-hub-address-book-bind-dn = Bind DN
+account-hub-ldap-form = Opret forbindelse til et LDAP-katalog
 account-hub-advanced-configuration-button = Avanceret konfiguration
 account-hub-ldap-ssl-toggle-label = Brug sikker forbindelse (SSL)
 account-hub-max-results-label = Maks. antal resultater

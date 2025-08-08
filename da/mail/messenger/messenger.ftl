@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Omdiriger
+other-action-copy-message-link =
+    .label = Kopier meddelelseslink
+other-action-copy-news-link =
+    .label = Kopier nyhedslink
 message-header-msg-flagged =
     .title = Stjernemarkeret
     .aria-label = Stjernemarkeret
