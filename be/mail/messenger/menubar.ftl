@@ -14,12 +14,18 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Дадаткі і тэмы
     .accesskey = Д
+menu-export-for-mobile =
+    .label = Экспарт для мабільных прылад…
+    .accesskey = Э
 
 ## Help Menu
 
 menu-help-help-title =
     .label = Даведка
     .accesskey = Д
+menu-help-get-help =
+    .label = Атрымаць дапамогу
+    .accesskey = А
 menu-help-enter-troubleshoot-mode =
     .label = Рэжым вырашэння праблем…
     .accesskey = Р
