@@ -76,31 +76,31 @@ command-nick = { $commandName } &lt;新暱稱&gt;：修改您的暱稱。
 # $commandName is the command name
 command-nickserv = { $commandName } &lt;命令&gt;：傳送命令給 NickServ。
 # $commandName is the command name
-command-notice = { $commandName } &lt;目標&gt; &lt;訊息&gt;: 傳送通知給某個使用者或某個頻道。
+command-notice = { $commandName } &lt;目標&gt; &lt;訊息&gt;：傳送通知給某個使用者或某個頻道。
 # $commandName is the command name
-command-op = { $commandName } &lt;暱稱一&gt;[,&lt;暱稱二&gt;]*: 授權某個人成為頻道管理員。您必須是頻道管理員才能這樣。
+command-op = { $commandName } &lt;暱稱一&gt;[,&lt;暱稱二&gt;]*：授權某個人成為頻道管理員。您必須是頻道管理員才能這樣。
 # $commandName is the command name
-command-operserv = { $commandName } &lt;命令&gt;: 傳送命令給 OperServ。
+command-operserv = { $commandName } &lt;命令&gt;：傳送命令給 OperServ。
 # $commandName is the command name
-command-part = { $commandName } [訊息]: 離開目前頻道並留下訊息（非必要）。
+command-part = { $commandName } [訊息]：離開目前頻道並留下訊息（非必要）。
 # $commandName is the command name
-command-ping = { $commandName } [&lt;暱稱&gt;]: 詢問某個使用者目前的延遲程度（若未指定使用者的話則是伺服器的延遲程度）。
+command-ping = { $commandName } [&lt;暱稱&gt;]：詢問某個使用者目前的延遲程度（若未指定使用者的話則是伺服器的延遲程度）。
 # $commandName is the command name
-command-quit = { $commandName } &lt;訊息&gt;: 自伺服器離線並留下訊息（非必要）。
+command-quit = { $commandName } &lt;訊息&gt;：自伺服器離線並留下訊息（非必要）。
 # $commandName is the command name
-command-quote = { $commandName } &lt;命令&gt;: 傳送命令給伺服器。
+command-quote = { $commandName } &lt;命令&gt;：傳送命令給伺服器。
 # $commandName is the command name
-command-time = { $commandName }: 顯示 IRC 伺服器目前的本地時間。
+command-time = { $commandName }：顯示 IRC 伺服器目前的本地時間。
 # $commandName is the command name
-command-topic = { $commandName } [&lt;新主題&gt;]: 設定頻道主題。
+command-topic = { $commandName } [&lt;新主題&gt;]：設定頻道主題。
 # $commandName is the command name
-command-umode = { $commandName } (+|-)&lt;新模式&gt;: 設定或取消設定使用者模式。
+command-umode = { $commandName } (+|-)&lt;新模式&gt;：設定或取消設定使用者模式。
 # $commandName is the command name
-command-version = { $commandName } &lt;暱稱&gt;: 查詢某個使用者的客戶端版本。
+command-version = { $commandName } &lt;暱稱&gt;：查詢某個使用者的客戶端版本。
 # $commandName is the command name
-command-voice = { $commandName } &lt;暱稱一&gt;[,&lt;暱稱二&gt;]*: 授權某人的頻道發言狀態。您必須是頻道管理員才能這樣做。
+command-voice = { $commandName } &lt;暱稱一&gt;[,&lt;暱稱二&gt;]*：授權某人的頻道發言狀態。您必須是頻道管理員才能這樣做。
 # $commandName is the command name
-command-whois2 = { $commandName } [&lt;暱稱&gt;]: 取得使用者的資訊。
+command-whois2 = { $commandName } [&lt;暱稱&gt;]：取得使用者的資訊。
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $nick is the nick and $nickAndHost is the nick and host of the user who joined.
@@ -150,7 +150,7 @@ message-whois = { $nick } 的 WHOIS 資訊：
 #    $nick (String) is the nickname of the (offline) user whose WHOWAS information follows this message.
 message-whowas = { $nick } 不在線上。{ $nick } 的 WHOWAS 資訊：
 #    $description is the entry description (from tooltip-*), $value is its value.
-message-whois-entry = { "    " }{ $description }: { $value }
+message-whois-entry = { "    " }{ $description }：{ $value }
 #    $nick is the nickname that is not known to the server.
 message-unknown-nick = { $nick } 是未知的暱稱。
 #    $nick is the nickname of the user who changed the mode and $newPassword is the new
@@ -172,7 +172,7 @@ message-ping = 於 { $delay } 毫秒後收到來自 { $source } 的 Ping 回覆�
 # LOCALIZATION NOTE (error-*):
 # These are shown as error messages in the conversation or server tab.
 # $name is the channel name.
-error-no-channel = 無此頻道: { $name }。
+error-no-channel = 無此頻道：{ $name }。
 #    $name is the channel name.
 error-too-many-channels = 無法加入 { $name }，您已加入太多頻道。
 #    $name is your new nick, $details is the kill message from the server.
@@ -185,9 +185,9 @@ error-mode-wrong-user = 您無法修改其他使用者的使用者模式。
 #    $name is the nickname or channel name that isn't available.
 error-no-such-nick = { $name } 不在線上。
 #    $name is the nickname or channel name that isn't available.
-error-was-no-such-nick = 無此暱稱: { $name }
+error-was-no-such-nick = 無此暱稱：{ $name }
 #    $name is the nickname or channel name that isn't available.
-error-no-such-channel = 無此頻道: { $name }。
+error-no-such-channel = 無此頻道：{ $name }。
 #    $name is the nickname or channel name that isn't available.
 error-unavailable = 暫時無法使用 { $name }。
 #    $name is the channel name.
