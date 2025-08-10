@@ -804,7 +804,7 @@ search-results-help-link = გესაჭიროებათ დახმა�
 
 ## Sync Tab
 
-sync-signedout-caption = წაიყოლეთ თქვენი მონაცემები თან
+sync-signedout-caption = გაიყოლეთ თქვენი მონაცემები თან
 sync-signedout-description = დაასინქრონეთ თქვენი ანგარიშები, მისამართების წიგნაკები, კალენდრები დამატებები და პარამეტრები ყველა თქვენს მოწყობილობაზე.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = შედით სინქრონიზაციისთვის…
