@@ -437,14 +437,20 @@ dark-message-mode-legend = Стил за четене на съобщеният�
 dark-message-mode-checkbox-label =
     .label = Включване на режима за тъмни съобщения
     .accesskey = т
+dark-message-mode-description = Принуждаване на  съдържанието на съобщението да следва тъмна тема
 dark-message-mode-toggle-label =
     .label = Показване на превключвателя за режим на тъмно съобщение
     .accesskey = ю
+dark-message-mode-toggle-description = Показване на превключвател в заглавката на съобщението за бързо деактивиране на тъмния режим на съобщения
 account-hub-legend = Център за профили
 account-hub-checkbox-label =
     .label = Създавайте профили в новия Център за профили
     .accesskey = п
 account-hub-checkbox-description = Експериментален процес за създаване на нов пощенски профил
+account-hub-ab-checkbox-label =
+    .label = Създаване на адресници в новия Account Hub
+    .accesskey = С
+account-hub-ab-checkbox-description = Експериментален начин за създаване на нов адресник
 
 ## Compose Tab
 
@@ -781,6 +787,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 16em
     .placeholder = Търсене в настройките
+managed-notice = { -brand-short-name } се управлява от вашата организация.
 
 ## Settings UI Search Results
 
@@ -897,15 +904,53 @@ qr-export-more-accounts = Изнасяне на други профили
 
 ## Appearance Tab
 
+appearance-category-header = Външен вид
+default-message-list-legend = Списък със съобщения
+appearance-view-style =
+    .value = Стил на изглед:
+appearance-radio-table =
+    .label = Изглед във форма на таблица
+appearance-radio-cards =
+    .label = Изглед във форма на отделни карти
+cards-view-legend = Опции за изгледа във формата на отделни карти
+table-view-legend = Опции за изглед в таблица
+appearance-card-rows =
+    .value = Брой редове:
+appearance-card-style-3 =
+    .label = 3 реда
 appearance-card-style-2 =
     .label = 2 реда
+default-message-list-sorting-legend = Сортиране и добавяне на нишки
 default-message-list-description = Определяне на параметрите по подразбиране за сортиране и разделяне на нишки за новосъздадени папки.
+default-flag-label =
+    .value = Нишки по подразбиране
+default-flag-unthreaded =
+    .label = Независимо от дискусията
+default-flag-threaded =
+    .label = Дискусии
+default-flag-grouped =
+    .label = Групирани по сортиране
+default-sort-label = Сортиране по:
+default-sort-date =
+    .label = Дата
 default-sort-subject =
     .label = Тема
 default-sort-from =
     .label = От
+default-sort-id =
+    .label = ID
+default-sort-thread =
+    .label = Дискусия
+default-sort-priority =
+    .label = Приоритет
+default-sort-status =
+    .label = Състояние
 default-sort-size =
     .label = Размер
+default-sort-star =
+    .label = Звезда
+default-sort-unread =
+    .label = Четене
 default-sort-recipient =
     .label = Получател
 default-sort-location =

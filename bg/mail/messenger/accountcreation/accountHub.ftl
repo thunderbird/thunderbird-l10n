@@ -211,3 +211,15 @@ account-hub-address-book-sync-option-data =
                *[other] Налични са  { $addressBooks } адресника от { $accounts } профила
             }
     }
+address-book-sync-existing-description = Извличане на съществуващи профили…
+account-hub-select-address-book-account = Избор на профил с Адресници
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } от { $total }
+    .title = { $synced } синхронизирани адресника, { $available } налични
+account-hub-add-local-address-book = Създаване на местен адресник
+account-hub-local-address-book-label = Име на адресника
+account-hub-local-error-text = Моля, въведете валидно име на адресника
+account-hub-sync-address-books = Синхронизиране на съществуващи адресни книги
+account-hub-new-remote-address-book = Нов отдалечен адресник
