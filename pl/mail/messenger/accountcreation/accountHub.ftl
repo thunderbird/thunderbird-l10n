@@ -112,6 +112,10 @@ account-hub-address-book-login-simple-label =
     .label = Prosta
 account-hub-address-book-search-label = Filtr wyszukiwania
 account-hub-simple-configuration-button = Prosta konfiguracja
+address-book-finding-remote-address-books = Wyszukiwanie książek adresowych…
+# $url (String) - URL of CardDAV endpoint we don't support.
+address-book-carddav-known-incompatible = Dostawca { $url } jest niezgodny z programem { -brand-short-name }.
+address-book-carddav-connection-error = Połączenie się nie powiodło.
 account-hub-result-username-label = Nazwa użytkownika
     .title = Nazwa użytkownika
 account-hub-name-label = Imię i nazwisko
