@@ -444,11 +444,11 @@ dark-message-mode-toggle-label =
 dark-message-mode-toggle-description = Показване на превключвател в заглавката на съобщението за бързо деактивиране на тъмния режим на съобщения
 account-hub-legend = Център за профили
 account-hub-checkbox-label =
-    .label = Създавайте профили в новия Център за профили
+    .label = Създаване на профили в новия Център за профили
     .accesskey = п
 account-hub-checkbox-description = Експериментален процес за създаване на нов пощенски профил
 account-hub-ab-checkbox-label =
-    .label = Създаване на адресници в новия Account Hub
+    .label = Създаване на адресници в новия Център за профили
     .accesskey = С
 account-hub-ab-checkbox-description = Експериментален начин за създаване на нов адресник
 
