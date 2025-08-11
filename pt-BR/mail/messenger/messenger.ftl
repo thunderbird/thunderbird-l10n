@@ -267,6 +267,8 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Redirecionar
+other-action-copy-message-link =
+    .label = Copiar link da mensagem
 message-header-msg-flagged =
     .title = Com estrela
     .aria-label = Com estrela
