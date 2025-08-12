@@ -203,19 +203,19 @@ account-hub-address-book-sync-option-data =
     { $addressBooks ->
         [one]
             { $accounts ->
-                [one] Dostupan 1 adresar iz 1 računa
-                [few] Dostupan 1 adresar iz { $accounts } računa
-               *[other] Dostupan 1 adresar iz { $accounts } računa
+                [one] Dostupan { $addressBooks } adresar iz { $accounts } računa
+                [few] Dostupan { $addressBooks } adresar iz { $accounts } računa
+               *[other] Dostupan { $addressBooks } adresar iz { $accounts } računa
             }
         [few]
             { $accounts ->
-                [one] Dostupna { $addressBooks } adresara iz 1 računa
+                [one] Dostupna { $addressBooks } adresara iz { $accounts } računa
                 [few] Dostupna { $addressBooks } adresara iz { $accounts } računa
                *[other] Dostupna { $addressBooks } adresara iz { $accounts } računa
             }
        *[other]
             { $accounts ->
-                [one] Dostupno { $addressBooks } adresara iz 1 računa
+                [one] Dostupno { $addressBooks } adresara iz { $accounts } računa
                 [few] Dostupno { $addressBooks } adresara iz { $accounts } računa
                *[other] Dostupno { $addressBooks } adresara iz { $accounts } računa
             }
