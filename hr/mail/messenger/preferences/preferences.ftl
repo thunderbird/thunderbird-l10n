@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Izvoz za mobilne uređaje
 category-qr-export =
     .tooltiptext = Izvoz za mobilne uređaje
+general-language-and-fonts-header = Jezik i fontovi
 general-language-and-appearance-header = Jezik i izgled
 general-incoming-mail-header = Dolazna pošta
 general-files-and-attachment-header = Datoteke i privici
@@ -299,6 +300,10 @@ clear-cache-button =
 clear-cache-shutdown-label =
     .label = Očisti predmemoriju prilikom zatvaranja
     .accesskey = s
+always-underline-links =
+    .label = Uvijek podcrtaj poveznice
+    .accesskey = k
+font-legend = Fontovi
 fonts-legend = Fontovi i boje
 default-font-label =
     .value = Zadani font:
@@ -428,6 +433,10 @@ conversation-view-legend = Prikaz razgovora
 conversation-view-checkbox-label =
     .label = Omogući prikaz razgovora
     .accesskey = g
+conversation-view-checkbox-description = Eksperimentalna značajka temeljena na Gloda, koristi na vlastitu odgovornost
+label-experiment = Eksperimentalno
+dark-message-mode-legend = Stil čitača poruka
+account-hub-legend = Početna stranica računa
 
 ## Compose Tab
 
