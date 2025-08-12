@@ -124,3 +124,19 @@ detail-alias = Alias: { $value }
 detail-guest = Pristup za goste: { $value }
 # This is a heading, followed by the power-level-* strings
 detail-power = Razine dopuštenja:
+#    $user is the name of the user who has joined the room.
+message-joined = { $user } pridružuje se sobi.
+#    $user is the name of the user who has rejected the invitation.
+message-rejected-invite = { $user } odbija pozivnicu.
+#    $user is the name of the user who has left the room.
+message-left = { $user } napušta sobu.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+message-kicked = { $user } izbacuje korisnika { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } izbacuje korisnika { $userGotKicked }. Razlog: { $reason }
+message-action-report = Prijavi poruku
+message-action-retry = Ponovni pokušaj slanja
+message-action-cancel = Otkaži poruku

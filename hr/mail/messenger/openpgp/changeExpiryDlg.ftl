@@ -10,6 +10,14 @@ info-already-expired = Ovaj je ključ već istekao.
 info-does-not-expire = Ovaj je ključ trenutno konfiguriran da nikada ne istječe.
 info-explanation-1 = <b>Kada ključ istekne</b>, više se neće moći koristiti za kriptiranje ili digitalno potpisivanje.
 info-explanation-2 = Kako bi koristili ovaj ključ duži vremenski period, promijeniti datum isteka, i podijelite javni ključ ponovno sa svojim partnerima.
+usage-label = Upotreba:
+algorithm-label = Algoritam:
+created-label = Stvoreno:
 expire-no-change-label = Nemojte mijenjati datum isteka
 expire-in-time-label = Ključ istječe za:
 expire-never-expire-label = Ključ nikada ne istječe
+partial-label-expired = isteklo
+partial-label-never-expires = nikad ne istječe
+# Variables:
+# $date (String) - Date the key is expiring on.
+partial-label-expires = istječe: { $date }

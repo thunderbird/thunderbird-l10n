@@ -5,6 +5,7 @@
 
 ## Resolve section
 
+openpgp-key-assistant-key-fingerprint = Otisak prsta
 # Variables:
 # $count (Number) - Number of key sources.
 openpgp-key-assistant-key-source =
@@ -13,6 +14,7 @@ openpgp-key-assistant-key-source =
         [few] { $count } izvora
        *[other] { $count } izvora
     }
+openpgp-key-assistant-key-collected-attachment = privitak e-pošte
 
 ## Dialog buttons
 
