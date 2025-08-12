@@ -168,3 +168,55 @@ account-hub-no-calendars = Niti jedan kalendar nije pronađen
 account-hub-email-added-success-links-title = Istražite mogućnosti za sigurnost i personalizaciju:
 account-hub-signature-link = Potpis e-pošte
 account-hub-email-error-text = Unesite ispravnu adresu e-pošte
+account-hub-name-error-text = Unesite naziv
+account-hub-hostname-error-text = Naziv poslužitelja je prazan ili nevažeći. Dopuštena su samo slova, brojevi, - i .
+    .title = Naziv poslužitelja je prazan ili nevažeći. Dopuštena su samo slova, brojevi, - i .
+account-hub-port-error-text = Port mora biti između 1 i 65535
+    .title = Port mora biti između 1 i 65535
+account-hub-username-error-text = Korisničko ime je potrebno
+    .title = Korisničko ime je potrebno
+account-hub-oauth-pending = Čekanje na autorizaciju u skočnom prozoru za prijavu…
+account-hub-addon-install-needed = { -brand-short-name } ne podržava izvorno ovaj poslužitelj. Za pristup e-pošti na usluzi Exchange, <a data-l10n-name="addon-install">instaliraj dodatak treće strane, poput dodatka Owl (plaća se).</a>
+account-hub-addon-error = Instalacija dodatka nije uspjela. Pokušaj ponovno ili kontaktiraj autora dodatka za pomoć.
+account-hub-security-warning = <span data-l10n-name="security-warning">Upozorenje: Otkriven je nesiguran poslužitelj e-pošte.</span> Ovom poslužitelju nedostaje šifriranje, što otkriva vašu lozinku i podatke. Obratite se administratoru kako biste osigurali vezu ili nastavite na vlastitu odgovornost. <a data-l10n-name="faq-link">Za više informacija pogledajte Često postavljana pitanja.</a>
+account-hub-account-authentication-error = Greška prilikom autentifikacije
+account-hub-add-address-book = Dodaj adresar
+address-book-sync-existing-icon =
+    .alt = Sinkroniziraj adresar iz postojećeg računa
+address-book-sync-existing = Sinkroniziraj iz postojećeg računa
+address-book-add-remote-icon =
+    .alt = Dodaj novi udaljeni adresar
+address-book-add-remote = Dodaj udaljeni adresar
+address-book-add-remote-description = Spoji se na udaljeni CardDav adresar
+address-book-add-local-icon =
+    .alt = Stvori novi lokalni adresar
+address-book-add-local = Novi lokalni adresar
+address-book-add-local-description = Stvori novi lokalni adresar na svojem uređaju
+address-book-add-ldap-icon =
+    .alt = Spoji se na udaljeni LDAP adresar
+address-book-add-ldap = Novi LDAP adresar
+address-book-add-ldap-description = Spoji se na udaljeni LDAP adresar
+account-hub-fetching-sync-accounts = Otkrivanje adresara i kalendara…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] Dostupan 1 adresar iz 1 računa
+                [few] Dostupan 1 adresar iz { $accounts } računa
+               *[other] Dostupan 1 adresar iz { $accounts } računa
+            }
+        [few]
+            { $accounts ->
+                [one] Dostupna { $addressBooks } adresara iz 1 računa
+                [few] Dostupna { $addressBooks } adresara iz { $accounts } računa
+               *[other] Dostupna { $addressBooks } adresara iz { $accounts } računa
+            }
+       *[other]
+            { $accounts ->
+                [one] Dostupno { $addressBooks } adresara iz 1 računa
+                [few] Dostupno { $addressBooks } adresara iz { $accounts } računa
+               *[other] Dostupno { $addressBooks } adresara iz { $accounts } računa
+            }
+    }
