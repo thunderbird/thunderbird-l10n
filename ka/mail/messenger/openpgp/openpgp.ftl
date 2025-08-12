@@ -620,7 +620,7 @@ file-write-failed = ვერ მოხერხდა ჩაწერა ფა
 no-pgp-block = შეცდომა – ვერ მოიძებნა მართებულად აღჭურვილი OpenPGP-მონაცემების ჯგუფი
 confirm-permissive-import = გადმოტანა ვერ მოხერხდა. გასაღები, რომლის შეტანასაც ცდილობთ, სავარაუდოდ დაზიანებულია ან იყენებს უცნობ მახასიათებლებს. გსურთ, სცადოთ მართებული ნაწილის შეტანა? შედეგად, შესაძლოა გადმოვიდეს არასრული ან გამოუსადეგარი გასაღებები.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

@@ -620,7 +620,7 @@ file-write-failed = Неуспешен запис във файл { $output }
 no-pgp-block = Грешка - Не е намерен валиден OpenPGP блок от данни
 confirm-permissive-import = Неуспешно внасяне. Ключът, който се опитвате да внесете, може да е повреден или да използва неизвестни атрибути. Искате ли да опитате да внесете  частите, които са правилни? Това може да доведе до внасяне на непълни и неизползваеми ключове.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

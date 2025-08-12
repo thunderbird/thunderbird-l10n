@@ -606,7 +606,7 @@ file-write-failed = ไม่สามารถเขียนไปยังไ
 no-pgp-block = ข้อผิดพลาด - ไม่พบบล็อกข้อมูล OpenPGP แบบ armored ที่ถูกต้อง
 confirm-permissive-import = การนำเข้าล้มเหลว คีย์ที่คุณพยายามนำเข้าอาจเสียหายหรือใช้แอตทริบิวต์ที่ไม่รู้จัก คุณต้องการพยายามนำเข้าส่วนที่ถูกต้องหรือไม่ ซึ่งอาจส่งผลให้มีการนำเข้าคีย์ที่ไม่สมบูรณ์และไม่สามารถใช้ได้
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

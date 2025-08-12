@@ -648,7 +648,7 @@ file-write-failed = Methwyd ysgrifennu at ffeil { $output }
 no-pgp-block = Gwall - Heb ddarganfod bloc data arfogaeth dilys OpenPGP
 confirm-permissive-import = Methodd y mewnforio. Efallai bod yr allwedd rydych chi'n ceisio ei fewnforio yn llygredig neu'n defnyddio priodoleddau anhysbys. Hoffech chi geisio mewnforio'r rhannau sy'n gywir? Gall hyn arwain at fewnforio allweddi anghyflawn ac nad oes modd eu defnyddio.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

@@ -650,7 +650,7 @@ file-write-failed = Zápis do souboru { $output } selhal
 no-pgp-block = Chyba: Nenalezen platný blok dat OpenPGP
 confirm-permissive-import = Import se nezdařil. Klíč, který se pokoušíte naimportovat, může být poškozený, nebo používá neznámé atributy. Chcete se pokusit naimportovat jeho korektní části? To může mít za následek import neúplných a nepoužitelných klíčů.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

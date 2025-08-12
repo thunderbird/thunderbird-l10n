@@ -620,7 +620,7 @@ file-write-failed = Falha ao gravar no arquivo { $output }
 no-pgp-block = Erro - Não foi encontrado nenhum bloco blindado válido de dados OpenPGP
 confirm-permissive-import = Falha na importação. A chave que você está tentando importar pode estar corrompida ou usar atributos desconhecidos. Quer tentar importar as partes que estão corretas? Isso pode resultar na importação de chaves incompletas e inutilizáveis.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

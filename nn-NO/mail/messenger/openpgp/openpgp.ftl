@@ -620,7 +620,7 @@ file-write-failed = Klarte ikkje å skrive til fila { $output }
 no-pgp-block = Feil - Inga gyldig, armert OpenPGP-datablokk funnen
 confirm-permissive-import = Mislykka import. Nøkkelen du prøver å importere kan vere øydelagd eller bruke ukjende attributtar. Vil du prøve å importere dei rette delane? Dette kan føre til import av ufullstendige og ubrukelege nøklar.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

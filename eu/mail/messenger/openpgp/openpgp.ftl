@@ -621,7 +621,7 @@ file-write-failed = Fitxategian idazteak huts egin du { $output }
 no-pgp-block = Errorea - Gaizki egituratutako OpenPGP datu blokea aurkitu da
 confirm-permissive-import = Inportazioak huts egin du. Inportatzea saiatzen ari zaren gakoa hondatua dagoela dirudi eta atributu ezezagunak darabil. Zuzenak diren zatiak inportatzen saiatzea nahi duzu? Honen emaitza gako ez osoa eta erabiltezina inportatzea izan daiteke.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

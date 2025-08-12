@@ -620,7 +620,7 @@ file-write-failed = A(z) { $output } fájlba írás sikertelen
 no-pgp-block = Hiba – nem található érvényes páncélozott OpenPGP-adatblokk
 confirm-permissive-import = Az importálás sikertelen. Lehet, hogy az importálandó kulcs sérült vagy ismeretlen attribútumokat használ. Megpróbálja a helyes részek importálását? Ez hiányos és használhatatlan kulcsokat eredményezhet.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

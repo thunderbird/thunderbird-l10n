@@ -624,7 +624,7 @@ file-write-failed = Не вдалося записати до файлу { $outp
 no-pgp-block = Помилка - не знайдено дійсного додатково захищеного блоку даних OpenPGP
 confirm-permissive-import = Не вдалося імпортувати. Ключ, який ви намагаєтеся імпортувати, може бути пошкоджено або використовує невідомі атрибути. Бажаєте імпортувати правильні подробиці? Це може призвести до імпорту неповних та непридатних ключів.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

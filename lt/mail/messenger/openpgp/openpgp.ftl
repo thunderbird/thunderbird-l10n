@@ -537,7 +537,7 @@ file-write-failed = Nepavyko įrašyti į failą { $output }
 no-pgp-block = Klaida - nerastas galiojantis apsaugotas „OpenPGP“ duomenų blokas
 confirm-permissive-import = Nepavyko importuoti. Raktas, kurį bandote importuoti, gali būti sugadintas arba naudoja nežinomus atributus. Galima pabandyti importuoti teisingas dalis, bet dėl to gali būti importuojami neišsamūs ar netinkami naudojimui raktai.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 help-button = Žinynas
 

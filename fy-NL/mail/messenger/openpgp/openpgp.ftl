@@ -620,7 +620,7 @@ file-write-failed = Kin net nei bestân { $output } skriuwe
 no-pgp-block = Flater – gjin jildich armored OpenPGP-gegevensblok fûn
 confirm-permissive-import = Ymportearjen mislearre. De kaai dy’t jo probearje te ymportearjen, is mooglik skansearre of brûkt ûnbekende attributen. Wolle jo probearje de krekte dielen te ymportearjen? Dit kin der ta liede dat net folslein en net brûkbere kaaien ymportearre wurde.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

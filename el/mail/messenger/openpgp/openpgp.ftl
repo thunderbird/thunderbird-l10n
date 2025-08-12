@@ -620,7 +620,7 @@ file-write-failed = Αποτυχία εγγραφής στο αρχείο { $out
 no-pgp-block = Σφάλμα - Δεν βρέθηκε έγκυρο μπλοκ δεδομένων θωράκισης OpenPGP
 confirm-permissive-import = Η εισαγωγή απέτυχε. Το κλειδί που προσπαθείτε να εισαγάγετε ενδέχεται να είναι κατεστραμμένο ή να χρησιμοποιεί άγνωστες ιδιότητες. Θέλετε να προσπαθήσετε να εισαγάγετε τα τμήματα που είναι σωστά; Αυτό μπορεί να έχει ως αποτέλεσμα την εισαγωγή ημιτελών και μη χρησιμοποιήσιμων κλειδιών.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

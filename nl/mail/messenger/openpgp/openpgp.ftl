@@ -620,7 +620,7 @@ file-write-failed = Kan niet naar bestand { $output } schrijven
 no-pgp-block = Fout – geen geldig armored OpenPGP-gegevensblok gevonden
 confirm-permissive-import = Importeren mislukt. De sleutel die u probeert te importeren, is mogelijk beschadigd of gebruikt onbekende attributen. Wilt u proberen de juiste delen te importeren? Dit kan ertoe leiden dat onvolledige en onbruikbare sleutels worden geïmporteerd.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

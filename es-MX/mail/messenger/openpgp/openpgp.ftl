@@ -582,7 +582,7 @@ file-write-failed = Error al escribir en el archivo { $output }
 no-pgp-block = Error - No se encontró un bloque de datos OpenPGP blindado válido
 confirm-permissive-import = La importación falló. La clave que estás tratando de importar puede estar dañada o usar atributos desconocidos. ¿Te gustaría intentar importar las partes que son correctas? Esto podría dar lugar a la importación de claves incompletas e inutilizables.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 help-button = Ayuda
 

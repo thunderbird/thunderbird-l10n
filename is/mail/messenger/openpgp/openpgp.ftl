@@ -620,7 +620,7 @@ file-write-failed = Mistókst að skrifa í skrána { $output }
 no-pgp-block = Villa - Engin gild varin OpenPGP-gagnablokk fannst
 confirm-permissive-import = Innflutningur mistókst. Lykillinn sem þú ert að reyna að flytja inn gæti verið skemmdur eða notað óþekkt eigindi. Viltu reyna að flytja inn þá hluta sem eru réttir? Þetta gæti leitt til innflutnings á ófullgerðum og ónothæfum lyklum.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

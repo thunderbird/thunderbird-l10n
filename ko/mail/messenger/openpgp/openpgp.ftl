@@ -607,7 +607,7 @@ file-write-failed = { $output } 파일 쓰기 실패
 no-pgp-block = 오류 - 유효한 Armored OpenPGP 데이터 블록 없음
 confirm-permissive-import = 가져 오지 못했습니다. 가져 오려는 키가 손상되었거나 알 수 없는 속성을 사용할 수 있습니다. 올바른 부분을 가져 오시겠습니까? 이로 인해 불완전하고 사용할 수 없는 키를 가져올 수도 있습니다.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

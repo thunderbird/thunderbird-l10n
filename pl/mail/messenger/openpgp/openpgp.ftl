@@ -627,7 +627,7 @@ file-write-failed = Zapisanie do pliku { $output } się nie powiodło
 no-pgp-block = Błąd: nie odnaleziono prawidłowego zakodowanego bloku danych OpenPGP
 confirm-permissive-import = Zaimportowanie się nie powiodło. Importowany klucz może być uszkodzony lub używać nieznanych atrybutów. Czy spróbować zaimportować części, które są poprawne? Może to skończyć się zaimportowaniem niepełnych lub nienadających się do użytku kluczy.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

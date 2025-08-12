@@ -634,7 +634,7 @@ file-write-failed = Njeje móžno do dataje { $output } pisać
 no-pgp-block = Zmylk - žadyn płaćiwy blok škitanych OpenPGP-datow namakany
 confirm-permissive-import = Import je so nimokulił. Kluč, kotryž pospytujeće importować, móhł wobškodźeny być abo njeznate atributy wužiwać. Chceće pospytować, dźěle importować, kotrež su korektne? To móhło k tomu wjesć, zo import je njedospołny a kluče su njewužiwajomne.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

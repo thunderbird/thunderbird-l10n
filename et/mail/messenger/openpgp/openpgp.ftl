@@ -554,7 +554,7 @@ file-write-failed = Faili { $output } kirjutamine ebaõnnestus
 no-pgp-block = Viga - kehtivat soomustatud OpenPGP andmete plokki ei leitud
 confirm-permissive-import = Importimine ebaõnnestus. Imporditav võti võib olla rikutud või kasutab tundmatuid atribuute. Kas soovid proovida importida korrektsed osad? See võib kaasa tuua mittetäielike ja kasutuskõlbmatute võtmete importimise.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 help-button = Abi
 

@@ -579,7 +579,7 @@ file-write-failed = { $output } dosyasına yazılamadı
 no-pgp-block = Hata - Geçerli bir zırhlı OpenPGP veri bloku bulunamadı
 confirm-permissive-import = İçe aktarma başarısız oldu. İçe aktarmaya çalıştığınız anahtar bozuk veya bilinmeyen öznitelikler kullanıyor olabilir. Düzgün görünen kısımları içe aktarmayı denemek ister misiniz? Bu, eksik ve kullanılamaz anahtarların içe aktarılmasına neden olabilir.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 help-button = Yardım
 

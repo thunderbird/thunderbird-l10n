@@ -622,7 +622,7 @@ file-write-failed = Falta a scriber al file { $output }
 no-pgp-block = Error - Nulle valide bloco datos OpenPGP cuirassate trovate
 confirm-permissive-import = Importation fallite. Le clave que tu tenta importar pote esser corrumpite o usa attributos incognite. Vole tu tentar de importar le partes que es correcte? Isto pote comportar le importation de claves incomplete e inusabile.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

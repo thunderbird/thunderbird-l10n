@@ -618,7 +618,7 @@ file-write-failed = S’u arrit të shkruhet te kartelë { $output }
 no-pgp-block = Gabim - S’u gjet bllok i vlefshëm të dhënash OpenPGP të koracuara
 confirm-permissive-import = Importi dështoi. Kyçi që po provoni të importoni mund të jetë i komprometuar ose përdor atribute të panjohur. Do të donit të provohej të importoheshin pjesët që janë të sakta? Kjo mund të sjellë importim kyçesh jo të plotë dhe të papërdorshëm.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

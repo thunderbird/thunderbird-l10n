@@ -580,7 +580,7 @@ file-write-failed = 寫入到檔案 { $output } 失敗
 no-pgp-block = 錯誤 - 找不到有效的 armored 格式 OpenPGP 資料區塊
 confirm-permissive-import = 匯入失敗。您嘗試匯入的金鑰可能已經毀損或使用了未知的屬性。您想要嘗試匯入當中正確的部分嗎？可能會匯入不完整且無法使用的金鑰。
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"

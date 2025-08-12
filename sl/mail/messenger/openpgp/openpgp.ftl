@@ -601,7 +601,7 @@ fail-key-import = Napaka – uvažanje ključa ni uspelo
 file-write-failed = Pisanje v datoteko { $output } ni bilo mogoče
 confirm-permissive-import = Uvoz ni uspel. Ključ, ki ga poskušate uvoziti, je morda poškodovan ali uporablja neznane atribute. Ali želite poskusiti uvoziti dele, ki so pravilni? To lahko povzroči uvoz nepopolnih in neuporabnih ključev.
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 help-button = Pomoč
 
