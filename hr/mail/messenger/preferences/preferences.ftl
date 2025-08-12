@@ -848,7 +848,14 @@ sync-disconnected-turn-on-sync = Uključi sinkronizaciju…
 
 qr-export-pane-header = Izvezi račune u { -brand-product-name } Mobile
 qr-export-description = Brzo prenesi svoje postavke računa s računala na mobilni uređaj generiranjem QR koda. Odaberi koje račune želiš prenijeti, želiš li prenijeti njihove lozinke i snimi QR kod svojim mobilnim uređajem. Brzo, sigurno i jednostavno.
+qr-export-get-app = Još nemaš { -brand-product-name } na mobilnom uređaju? <a data-l10n-name="app-link">Preuzmi ga s Google Play</a>
 qr-export-create = Stvori QR kod za izvoz svojih računa
+qr-export-select-accounts = Odaberi koje račune želiš izvesti:
+qr-export-no-accounts = Ne vidiš sve svoje račune? Neki su računi možda onemogućeni jer ih ne podržava { -brand-product-name } za Android. <a data-l10n-name="account-support-link">Podrška</a>
+qr-export-accounts-legend = Računi e-pošte
+qr-export-select-all-accounts = Označi sve
+qr-export-security-legend = Sigurnost
+qr-export-include-passwords = Uključi sve lozinke računa
 qr-export-security-hint = Skeniranjem sljedećih QR kodova, postavke tvojih računa (uključujući i e-poštu i lozinku) bit će sigurno preneseni. Ne prikupljamo, pohranjujemo ni dijelimo te podatke tijekom procesa prijenosa. Prijenos se odvija izravno među tvojim uređajima.
 qr-export-security-warning = Za tvoju sigurnost, pazi da ovaj proces provodiš u privatnom okruženju i snimaš QR kodove samo iz pouzdanih izvora.
 # Variables:
