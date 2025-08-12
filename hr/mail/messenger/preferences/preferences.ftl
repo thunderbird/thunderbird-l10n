@@ -436,7 +436,23 @@ conversation-view-checkbox-label =
 conversation-view-checkbox-description = Eksperimentalna značajka temeljena na Gloda, koristi na vlastitu odgovornost
 label-experiment = Eksperimentalno
 dark-message-mode-legend = Stil čitača poruka
+dark-message-mode-checkbox-label =
+    .label = Omogući tamni način rada u porukama
+    .accesskey = d
+dark-message-mode-description = Prisili tamni način prikaza sadržaja poruka
+dark-message-mode-toggle-label =
+    .label = Prikaži prekidač za tamni način rada u porukama
+    .accesskey = t
+dark-message-mode-toggle-description = Prikaži prekidač u zaglavlju poruke za brzo onemogućavanje tamnog načina rada u porukama
 account-hub-legend = Početna stranica računa
+account-hub-checkbox-label =
+    .label = Stvori račune na početnoj stranici računa
+    .accesskey = c
+account-hub-checkbox-description = Eksperimentalni tijek izrade novog računa e-pošte
+account-hub-ab-checkbox-label =
+    .label = Stvori adresar na novoj početnoj stranici računa
+    .accesskey = a
+account-hub-ab-checkbox-description = Eksperimentalni tijek izrade novog adresara
 
 ## Compose Tab
 
@@ -582,6 +598,14 @@ third-party-visited =
 cookies-button =
     .label = Prikaži kolačiće…
     .accesskey = k
+# Do not translate.
+# "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
+# included to facilitate power-user search of the about:preferences page.
+global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-description =
+    .label = Reci web stranicama da ne prodaju ili dijele moje podatke
+    .accesskey = n
+do-not-track-removal = Više ne podržavamo signal „Ne prati”
 do-not-track-label =
     .label = Šalji “Ne prati me” signal web stranicama (stranice ga ne moraju poštivati)
     .accesskey = N
@@ -595,6 +619,9 @@ primary-password-description = Primarna lozinka štiti sve tvoje lozinke, ali je
 primary-password-label =
     .label = Koristi primarnu lozinku
     .accesskey = u
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Zatraži prijavu uređajem za ispunjavanje i upravljanje lozinkama
 primary-password-button =
     .label = Promijeni primarnu lozinku …
     .accesskey = m
@@ -762,6 +789,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Pronađi u postavkama
+managed-notice = Programom { -brand-short-name } upravlja tvoja organizacija.
 
 ## Settings UI Search Results
 
@@ -818,6 +846,7 @@ sync-disconnected-turn-on-sync = Uključi sinkronizaciju…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Izvezi račune u { -brand-product-name } Mobile
 qr-export-description = Brzo prenesi svoje postavke računa s računala na mobilni uređaj generiranjem QR koda. Odaberi koje račune želiš prenijeti, želiš li prenijeti njihove lozinke i snimi QR kod svojim mobilnim uređajem. Brzo, sigurno i jednostavno.
 qr-export-create = Stvori QR kod za izvoz svojih računa
 qr-export-security-hint = Skeniranjem sljedećih QR kodova, postavke tvojih računa (uključujući i e-poštu i lozinku) bit će sigurno preneseni. Ne prikupljamo, pohranjujemo ni dijelimo te podatke tijekom procesa prijenosa. Prijenos se odvija izravno među tvojim uređajima.
