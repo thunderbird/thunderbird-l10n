@@ -856,8 +856,10 @@ qr-export-accounts-legend = Računi e-pošte
 qr-export-select-all-accounts = Označi sve
 qr-export-security-legend = Sigurnost
 qr-export-include-passwords = Uključi sve lozinke računa
+qr-export-oauth-warning = Neki od tvojih računa koriste autentifikacijsku metodu koja će možda zahtijevati ponovnu prijavu na tvom mobilnom uređaju. Možda ćeš morati ponovno unijeti svoje lozinke tijekom ovog procesa.
 qr-export-security-hint = Skeniranjem sljedećih QR kodova, postavke tvojih računa (uključujući i e-poštu i lozinku) bit će sigurno preneseni. Ne prikupljamo, pohranjujemo ni dijelimo te podatke tijekom procesa prijenosa. Prijenos se odvija izravno među tvojim uređajima.
 qr-export-security-warning = Za tvoju sigurnost, pazi da ovaj proces provodiš u privatnom okruženju i snimaš QR kodove samo iz pouzdanih izvora.
+qr-export-start-export = Izvoz
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
 # $step (Number) - Current step number of the QR code displayed.
@@ -875,8 +877,17 @@ qr-export-scan-description =
         [few] Snimi QR kodove pomoću aplikacije { -brand-product-name } na svom mobilnom uređaju
        *[other] Snimi QR kodove pomoću aplikacije { -brand-product-name } na svom mobilnom uređaju
     }
+qr-export-scan-step1 = Otvori { -brand-product-name } na svom mobilnom uređaju
+qr-export-scan-step2 = Idi u postavke
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Odaberi <strong>Uvoz postavki</strong>
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
 qr-export-scan-step4-revision = Dodirni <strong>Snimi QR kod</strong> i drži telefon ispred ovog koda
+qr-export-back = Natrag
+qr-export-next = Dalje
+qr-export-done = Gotovo
+qr-export-summary-description = Računi su izvezeni. Nastavite na svom mobilnom uređaju.
+qr-export-summary-title = Sažetak izvoza:
 # Variables:
 # $count (Number) - Total number of QR codes shown to the user.
 qr-export-summary-qr-count =
@@ -885,3 +896,34 @@ qr-export-summary-qr-count =
         [few] Generirana su { $count } QR koda
        *[other] Generirano je { $count } QR kodova
     }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] Izvezen { $count } račun:
+        [few] Izvezena { $count } računa:
+       *[other] Izvezeno { $count } računa:
+    }
+qr-export-summary-passwords-included = Lozinke su uključene
+qr-export-summary-passwords-excluded = Lozinke su izuzete
+qr-export-more-accounts = Izvezi više računa
+
+## Appearance Tab
+
+appearance-category-header = Izgled
+default-message-list-legend = Popis poruka
+appearance-view-style =
+    .value = Stil prikaza:
+appearance-radio-table =
+    .label = Tablični prikaz
+default-message-list-description = Definiraj zadane mogućnosti sortiranja i grupiranja razgovora za novostvorene mape.
+default-flag-label =
+    .value = Zadano grupiranje razgovora:
+default-flag-unthreaded =
+    .label = Nije grupirano
+default-flag-threaded =
+    .label = Grupirano prema temi
+default-flag-grouped =
+    .label = Grupirano prema vrsti
+default-sort-tags =
+    .label = Oznake

@@ -172,9 +172,9 @@
 <!ENTITY sortAscending.accesskey "z">
 <!ENTITY sortDescending.label "Silazno">
 <!ENTITY sortDescending.accesskey "S">
-<!ENTITY sortThreaded.label "Tema">
+<!ENTITY sortThreaded.label "Grupirano prema temi">
 <!ENTITY sortThreaded.accesskey "T">
-<!ENTITY sortUnthreaded.label "Nije tema">
+<!ENTITY sortUnthreaded.label "Nije grupirano">
 <!ENTITY sortUnthreaded.accesskey "e">
 <!ENTITY groupBySort.label "Grupirano prema vrsti">
 <!ENTITY groupBySort.accesskey "G">
