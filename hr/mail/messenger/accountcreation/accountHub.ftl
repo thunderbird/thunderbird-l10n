@@ -220,3 +220,15 @@ account-hub-address-book-sync-option-data =
                *[other] Dostupno { $addressBooks } adresara iz { $accounts } računa
             }
     }
+address-book-sync-existing-description = Dohvaćanje postojećih računa…
+account-hub-select-address-book-account = Odaberi račun s adresarima
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } od { $total }
+    .title = Sinkroniziranih adresara: { $synced }, dostupno: { $available }
+account-hub-add-local-address-book = Stvori lokalni adresar
+account-hub-local-address-book-label = Naziv adresara
+account-hub-local-error-text = Unesi naziv adresara
+account-hub-sync-address-books = Sinkroniziraj postojeće adresare
+account-hub-new-remote-address-book = Novi udaljeni adresar

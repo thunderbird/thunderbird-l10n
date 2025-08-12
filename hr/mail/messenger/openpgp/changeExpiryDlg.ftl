@@ -9,6 +9,9 @@ info-will-expire = Ovaj ključ je trenutno postavljen da ističe { $date }.
 info-already-expired = Ovaj je ključ već istekao.
 info-does-not-expire = Ovaj je ključ trenutno konfiguriran da nikada ne istječe.
 info-explanation-1 = <b>Kada ključ istekne</b>, više se neće moći koristiti za kriptiranje ili digitalno potpisivanje.
+# Do not translate: OpenPGP
+info-explanation-1-complex = Ovaj OpenPGP ključ sastoji se od primarnog ključa i barem jednog podključa <b>s različitim datumima isteka</b>.
+select-key-prompt = Ključ za promjenu:
 info-explanation-2 = Kako bi koristili ovaj ključ duži vremenski period, promijeniti datum isteka, i podijelite javni ključ ponovno sa svojim partnerima.
 usage-label = Upotreba:
 algorithm-label = Algoritam:
