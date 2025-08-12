@@ -385,7 +385,7 @@ spaces-toolbar-button-overflow =
 spaces-toolbar-button-settings2 =
     .title = Innstillinger
 spaces-toolbar-button-hide =
-    .title = Skjul hurtigknapp-verktøylinjen
+    .title = Skjul Områder-verktøylinjen
 spaces-toolbar-button-show =
     .title = Vis Områder-verktøylinjen
 spaces-context-new-tab-item =
@@ -434,7 +434,7 @@ chat-button-unread-messages = { $count }
 
 menuitem-customize-label =
     .label = Tilpass …
-spaces-customize-panel-title = Innstillinger for område-verktøylinjen
+spaces-customize-panel-title = Innstillinger for områder-verktøylinjen
 spaces-customize-background-color = Bakgrunnsfarge
 spaces-customize-icon-color = Knappefarge
 # The background color used on the buttons of the spaces toolbar when they are
