@@ -635,3 +635,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = הדבק
     .accesskey = ה
+calendar-taskview-delete =
+    .label = מחק
+    .tooltiptext = מחק מטלה
