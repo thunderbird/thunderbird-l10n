@@ -726,3 +726,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Zalijepi
     .accesskey = Z
+calendar-taskview-delete =
+    .label = Obriši
+    .tooltiptext = Obriši zadatak
