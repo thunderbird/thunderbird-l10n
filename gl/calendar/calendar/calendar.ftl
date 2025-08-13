@@ -716,3 +716,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Pegar
     .accesskey = P
+calendar-taskview-delete =
+    .label = Eliminar
+    .tooltiptext = Eliminar tarefa
