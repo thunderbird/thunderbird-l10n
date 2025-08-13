@@ -602,3 +602,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Tampal
     .accesskey = T
+calendar-taskview-delete =
+    .label = Buang
+    .tooltiptext = Buang Tugasan
