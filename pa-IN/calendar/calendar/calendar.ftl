@@ -520,3 +520,37 @@ unit-days =
         [one] { $count } ਦਿਨ
        *[other] { $count } ਦਿਨ
     }
+# Used in the main menu and contextual menus.
+calendar-context-today-pane =
+    .label = ਅੱਜ ਦਾ ਖਾਕਾ
+    .accesskey = T
+calendar-context-open-event =
+    .label = ਖੋਲ੍ਹੋ
+    .accesskey = O
+calendar-context-open-task =
+    .label = …ਕੰਮ ਨੂੰ ਖੋਲ੍ਹੋ
+    .accesskey = O
+calendar-context-new-event =
+    .label = …ਨਵਾਂ ਈਵੈਂਟ
+    .accesskey = N
+calendar-context-new-task =
+    .label = …ਨਵਾਂ ਕੰਮ
+    .accesskey = k
+calendar-context-delete-task =
+    .label = ਕੰਮ ਹਟਾਓ
+    .accesskey = l
+calendar-context-delete-event =
+    .label = ਈਵੈਂਟ ਹਟਾਓ
+    .accesskey = l
+calendar-context-cut =
+    .label = ਕੱਟੋ
+    .accesskey = t
+calendar-context-copy =
+    .label = ਕਾਪੀ ਕਰੋ
+    .accesskey = C
+calendar-context-paste =
+    .label = ਚੇਪੋ
+    .accesskey = P
+calendar-taskview-delete =
+    .label = ਹਟਾਓ
+    .tooltiptext = ਕੰਮ ਹਟਾਓ
