@@ -710,3 +710,16 @@ modify-conflict-prompt-button2 = Toś te změny zachyśiś
 # Accessible description of a grid calendar with no selected date
 minimonth-no-selected-date =
     .aria-label = Žeden datum wubrany
+# Used in the main menu and contextual menus.
+calendar-context-today-pane =
+    .label = Źinsajšny wobceŕk
+    .accesskey = i
+calendar-context-open-event =
+    .label = Wócyniś
+    .accesskey = c
+calendar-context-open-task =
+    .label = Nadawk wócyniś…
+    .accesskey = d
+calendar-context-new-event =
+    .label = Nowe tšojenje…
+    .accesskey = t
