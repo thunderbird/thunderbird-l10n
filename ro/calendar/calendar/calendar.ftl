@@ -668,3 +668,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Lipește
     .accesskey = p
+calendar-taskview-delete =
+    .label = Șterge
+    .tooltiptext = Șterge sarcina
