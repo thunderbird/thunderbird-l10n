@@ -658,3 +658,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = 붙여넣기
     .accesskey = P
+calendar-taskview-delete =
+    .label = 삭제
+    .tooltiptext = 태스크 삭제
