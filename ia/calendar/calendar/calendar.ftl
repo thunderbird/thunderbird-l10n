@@ -713,3 +713,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Collar
     .accesskey = c
+calendar-taskview-delete =
+    .label = Deler
+    .tooltiptext = Deler le activitate
