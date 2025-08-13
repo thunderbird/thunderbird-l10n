@@ -714,3 +714,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Senteḍ
     .accesskey = n
+calendar-taskview-delete =
+    .label = Kkes
+    .tooltiptext = Kkes tawuri
