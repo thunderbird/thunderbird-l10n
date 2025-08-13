@@ -709,3 +709,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = ჩასმა
     .accesskey = ჩ
+calendar-taskview-delete =
+    .label = წაშლა
+    .tooltiptext = დავალების წაშლა
