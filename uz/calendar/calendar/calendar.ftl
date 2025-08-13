@@ -576,3 +576,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Qo‘yish
     .accesskey = Q
+calendar-taskview-delete =
+    .label = O‘chirish
+    .tooltiptext = Vazifani o‘chirish
