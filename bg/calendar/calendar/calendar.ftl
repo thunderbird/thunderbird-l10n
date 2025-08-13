@@ -713,3 +713,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Поставяне
     .accesskey = в
+calendar-taskview-delete =
+    .label = Изтриване
+    .tooltiptext = Изтриване на задача
