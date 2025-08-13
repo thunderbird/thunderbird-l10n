@@ -713,3 +713,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Klistra in
     .accesskey = l
+calendar-taskview-delete =
+    .label = Radera
+    .tooltiptext = Ta bort uppgift
