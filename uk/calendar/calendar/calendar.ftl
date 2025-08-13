@@ -727,3 +727,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Вставити
     .accesskey = т
+calendar-taskview-delete =
+    .label = Видалити
+    .tooltiptext = Видалити завдання
