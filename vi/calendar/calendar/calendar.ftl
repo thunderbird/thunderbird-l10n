@@ -661,3 +661,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Dán
     .accesskey = D
+calendar-taskview-delete =
+    .label = Xóa
+    .tooltiptext = Xóa tác vụ
