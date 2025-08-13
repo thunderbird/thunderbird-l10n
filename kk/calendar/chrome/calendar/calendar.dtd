@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "р">
 <!ENTITY calendar.context.button.label "Бүгінгі панелі">
 <!ENTITY calendar.context.button.accesskey "Б">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Қатысу">
 <!ENTITY calendar.context.attendance.menu.accesskey "т">
 <!ENTITY calendar.context.attendance.occurrence.label "Бұл қайталануы">

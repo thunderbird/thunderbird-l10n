@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "c">
 <!ENTITY calendar.context.button.label "Pannello Hodie">
 <!ENTITY calendar.context.button.accesskey "H">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Participation">
 <!ENTITY calendar.context.attendance.menu.accesskey "p">
 <!ENTITY calendar.context.attendance.occurrence.label "Iste occurrentia">

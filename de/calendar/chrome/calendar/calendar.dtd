@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "E">
 <!ENTITY calendar.context.button.label "Tagesplan">
 <!ENTITY calendar.context.button.accesskey "T">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Teilnahme">
 <!ENTITY calendar.context.attendance.menu.accesskey "n">
 <!ENTITY calendar.context.attendance.occurrence.label "Dieser Termin">

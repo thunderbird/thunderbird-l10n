@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "o">
 <!ENTITY calendar.context.button.label "Painel hoje">
 <!ENTITY calendar.context.button.accesskey "j">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Assistência">
 <!ENTITY calendar.context.attendance.menu.accesskey "s">
 <!ENTITY calendar.context.attendance.occurrence.label "Esta ocorrência">

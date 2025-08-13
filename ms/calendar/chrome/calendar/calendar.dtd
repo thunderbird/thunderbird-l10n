@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "T">
 <!ENTITY calendar.context.button.label "Anak Tetingkap Hari ini">
 <!ENTITY calendar.context.button.accesskey "H">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Kehadiran">
 <!ENTITY calendar.context.attendance.menu.accesskey "d">
 <!ENTITY calendar.context.attendance.occurrence.label "Kejadian Ini">

@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "Y">
 <!ENTITY calendar.context.button.label "Bugün paneli">
 <!ENTITY calendar.context.button.accesskey "B">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Katılım">
 <!ENTITY calendar.context.attendance.menu.accesskey "ı">
 <!ENTITY calendar.context.attendance.occurrence.label "Bu sefer">

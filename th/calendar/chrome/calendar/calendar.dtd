@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "ว">
 <!ENTITY calendar.context.button.label "บานหน้าต่างวันนี้">
 <!ENTITY calendar.context.button.accesskey "บ">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "การเข้าร่วม">
 <!ENTITY calendar.context.attendance.menu.accesskey "ก">
 <!ENTITY calendar.context.attendance.occurrence.label "เหตุการณ์นี้">

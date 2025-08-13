@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "λ">
 <!ENTITY calendar.context.button.label "Προβολή ημέρας">
 <!ENTITY calendar.context.button.accesskey "Π">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Συμμετοχή">
 <!ENTITY calendar.context.attendance.menu.accesskey "χ">
 <!ENTITY calendar.context.attendance.occurrence.label "Αυτό το στιγμιότυπο">

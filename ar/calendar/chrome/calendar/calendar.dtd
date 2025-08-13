@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "ص">
 <!ENTITY calendar.context.button.label "لوحة اليوم">
 <!ENTITY calendar.context.button.accesskey "ي">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "الحضور">
 <!ENTITY calendar.context.attendance.menu.accesskey "ض">
 <!ENTITY calendar.context.attendance.occurrence.label "هذا التكرار">

@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "e">
 <!ENTITY calendar.context.button.label "Panell hiziv">
 <!ENTITY calendar.context.button.accesskey "h">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Perzhiadur">
 <!ENTITY calendar.context.attendance.menu.accesskey "a">
 <!ENTITY calendar.context.attendance.occurrence.label "Ar reveziadenn-mañ">

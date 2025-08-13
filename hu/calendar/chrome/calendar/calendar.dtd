@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "B">
 <!ENTITY calendar.context.button.label "Ma ablaktábla">
 <!ENTITY calendar.context.button.accesskey "M">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Részvétel">
 <!ENTITY calendar.context.attendance.menu.accesskey "R">
 <!ENTITY calendar.context.attendance.occurrence.label "Ez alkalommal">

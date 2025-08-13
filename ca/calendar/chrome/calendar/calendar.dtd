@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "x">
 <!ENTITY calendar.context.button.label "Plafó d'avui">
 <!ENTITY calendar.context.button.accesskey "a">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Assistència">
 <!ENTITY calendar.context.attendance.menu.accesskey "A">
 <!ENTITY calendar.context.attendance.occurrence.label "Aquesta ocurrència">

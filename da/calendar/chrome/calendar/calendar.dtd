@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "I">
 <!ENTITY calendar.context.button.label "Dags dato-panel">
 <!ENTITY calendar.context.button.accesskey "D">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Deltagelse">
 <!ENTITY calendar.context.attendance.menu.accesskey "d">
 <!ENTITY calendar.context.attendance.occurrence.label "Denne forekomst">

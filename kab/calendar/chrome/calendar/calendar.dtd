@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "n">
 <!ENTITY calendar.context.button.label "Agalis Ass-a">
 <!ENTITY calendar.context.button.accesskey "A">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Tihawt">
 <!ENTITY calendar.context.attendance.menu.accesskey "w">
 <!ENTITY calendar.context.attendance.occurrence.label "Tamseḍrit-agi">

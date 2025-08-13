@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "ჩ">
 <!ENTITY calendar.context.button.label "დღევანდელის დღის არე">
 <!ENTITY calendar.context.button.accesskey "ღ">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "დამსწრეები">
 <!ENTITY calendar.context.attendance.menu.accesskey "წ">
 <!ENTITY calendar.context.attendance.occurrence.label "ჩატარების თარიღი">

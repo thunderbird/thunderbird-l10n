@@ -84,6 +84,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "P">
 <!ENTITY calendar.context.button.label "ਅੱਜ ਦਾ ਖਾਕਾ">
 <!ENTITY calendar.context.button.accesskey "T">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "ਹਾਜ਼ਰੀ">
 <!ENTITY calendar.context.attendance.menu.accesskey "d">
 <!ENTITY calendar.context.attendance.occurrence.label "This Occurrence">

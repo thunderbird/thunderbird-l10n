@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "D">
 <!ENTITY calendar.context.button.label "Bảng hôm nay">
 <!ENTITY calendar.context.button.accesskey "B">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Người tham dự">
 <!ENTITY calendar.context.attendance.menu.accesskey "d">
 <!ENTITY calendar.context.attendance.occurrence.label "Lần xuất hiện này">

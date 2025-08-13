@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "G">
 <!ENTITY calendar.context.button.label "Paen Heddiw">
 <!ENTITY calendar.context.button.accesskey "P">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Presenoldeb">
 <!ENTITY calendar.context.attendance.menu.accesskey "r">
 <!ENTITY calendar.context.attendance.occurrence.label "Achlysur">

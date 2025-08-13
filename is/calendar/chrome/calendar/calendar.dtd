@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "L">
 <!ENTITY calendar.context.button.label "Dagurinn í dag">
 <!ENTITY calendar.context.button.accesskey "D">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Þátttaka">
 <!ENTITY calendar.context.attendance.menu.accesskey "Þ">
 <!ENTITY calendar.context.attendance.occurrence.label "Þetta tilvik">

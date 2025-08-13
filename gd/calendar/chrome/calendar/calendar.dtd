@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "C">
 <!ENTITY calendar.context.button.label "Leòsan an latha">
 <!ENTITY calendar.context.button.accesskey "t">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Làthaireachd">
 <!ENTITY calendar.context.attendance.menu.accesskey "d">
 <!ENTITY calendar.context.attendance.occurrence.label "An teachd seo">

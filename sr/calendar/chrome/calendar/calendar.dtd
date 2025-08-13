@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "п">
 <!ENTITY calendar.context.button.label "Данашња површ">
 <!ENTITY calendar.context.button.accesskey "Д">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Присуство">
 <!ENTITY calendar.context.attendance.menu.accesskey "и">
 <!ENTITY calendar.context.attendance.occurrence.label "Ово понављање">

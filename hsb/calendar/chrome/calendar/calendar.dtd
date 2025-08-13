@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "Z">
 <!ENTITY calendar.context.button.label "Dźensniši wobłuk">
 <!ENTITY calendar.context.button.accesskey "D">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Wobdźělenje">
 <!ENTITY calendar.context.attendance.menu.accesskey "l">
 <!ENTITY calendar.context.attendance.occurrence.label "Tutón podawk">

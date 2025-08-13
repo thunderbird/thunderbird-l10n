@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "l">
 <!ENTITY calendar.context.button.label "Idag">
 <!ENTITY calendar.context.button.accesskey "I">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Närvaro">
 <!ENTITY calendar.context.attendance.menu.accesskey "N">
 <!ENTITY calendar.context.attendance.occurrence.label "Denna händelse">

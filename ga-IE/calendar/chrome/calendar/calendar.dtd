@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "r">
 <!ENTITY calendar.context.button.label "Pána an Lae Inniu">
 <!ENTITY calendar.context.button.accesskey "P">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Tinreamh">
 <!ENTITY calendar.context.attendance.menu.accesskey "T">
 <!ENTITY calendar.context.attendance.occurrence.label "An Tarlú Seo">

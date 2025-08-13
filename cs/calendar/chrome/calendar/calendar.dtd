@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "l">
 <!ENTITY calendar.context.button.label "Dnešní panel">
 <!ENTITY calendar.context.button.accesskey "D">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Účast">
 <!ENTITY calendar.context.attendance.menu.accesskey "a">
 <!ENTITY calendar.context.attendance.occurrence.label "tento výskyt">

@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "s">
 <!ENTITY calendar.context.button.label "Gaurko panela">
 <!ENTITY calendar.context.button.accesskey "G">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Partaidetza">
 <!ENTITY calendar.context.attendance.menu.accesskey "P">
 <!ENTITY calendar.context.attendance.occurrence.label "Agerpen hau">

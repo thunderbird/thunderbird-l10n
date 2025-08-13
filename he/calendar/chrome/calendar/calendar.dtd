@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "ה">
 <!ENTITY calendar.context.button.label "לוח היום">
 <!ENTITY calendar.context.button.accesskey "ה">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "מוזמנים">
 <!ENTITY calendar.context.attendance.menu.accesskey "מ">
 <!ENTITY calendar.context.attendance.occurrence.label "מופע זה">

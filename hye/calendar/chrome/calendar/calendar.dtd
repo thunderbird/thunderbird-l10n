@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "Դ">
 <!ENTITY calendar.context.button.label "Այսաւրուայ փեղկ">
 <!ENTITY calendar.context.button.accesskey "T">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Մասնակցութիւն">
 <!ENTITY calendar.context.attendance.menu.accesskey "d">
 <!ENTITY calendar.context.attendance.occurrence.label "Այս դէպքը">

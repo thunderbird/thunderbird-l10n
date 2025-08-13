@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "L">
 <!ENTITY calendar.context.button.label "I dag-vindu">
 <!ENTITY calendar.context.button.accesskey "d">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Deltakelse">
 <!ENTITY calendar.context.attendance.menu.accesskey "D">
 <!ENTITY calendar.context.attendance.occurrence.label "Denne forekomsten">

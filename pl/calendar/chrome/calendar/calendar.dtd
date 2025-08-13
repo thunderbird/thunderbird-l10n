@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "k">
 <!ENTITY calendar.context.button.label "Bieżące">
 <!ENTITY calendar.context.button.accesskey "B">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Uczestnictwo">
 <!ENTITY calendar.context.attendance.menu.accesskey "c">
 <!ENTITY calendar.context.attendance.occurrence.label "To wystąpienie">

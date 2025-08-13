@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "E">
 <!ENTITY calendar.context.button.label "Lastra dad oz">
 <!ENTITY calendar.context.button.accesskey "L">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Participaziun">
 <!ENTITY calendar.context.attendance.menu.accesskey "i">
 <!ENTITY calendar.context.attendance.occurrence.label "Questa occurrenza">

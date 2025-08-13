@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "Z">
 <!ENTITY calendar.context.button.label "Današnji događaji">
 <!ENTITY calendar.context.button.accesskey "D">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Pohađanje">
 <!ENTITY calendar.context.attendance.menu.accesskey "h">
 <!ENTITY calendar.context.attendance.occurrence.label "Ovo ponavljanje">

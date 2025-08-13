@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "A">
 <!ENTITY calendar.context.button.label "Tänased tegemised">
 <!ENTITY calendar.context.button.accesskey "ä">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Osavõtt">
 <!ENTITY calendar.context.attendance.menu.accesskey "O">
 <!ENTITY calendar.context.attendance.occurrence.label "See kord">

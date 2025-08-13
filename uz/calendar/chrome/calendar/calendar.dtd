@@ -84,6 +84,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "Q">
 <!ENTITY calendar.context.button.label "Bugun yon oynasi">
 <!ENTITY calendar.context.button.accesskey "B">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Qatnashish">
 <!ENTITY calendar.context.attendance.menu.accesskey "t">
 <!ENTITY calendar.context.attendance.occurrence.label "Ushbu hodisa">

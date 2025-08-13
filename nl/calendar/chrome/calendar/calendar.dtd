@@ -85,6 +85,7 @@
 <!ENTITY calendar.context.pasteevent.accesskey "P">
 <!ENTITY calendar.context.button.label "Paneel Vandaag">
 <!ENTITY calendar.context.button.accesskey "d">
+<!-- Context Menu -->
 <!ENTITY calendar.context.attendance.menu.label "Aanwezigheid">
 <!ENTITY calendar.context.attendance.menu.accesskey "A">
 <!ENTITY calendar.context.attendance.occurrence.label "Deze gebeurtenis">
