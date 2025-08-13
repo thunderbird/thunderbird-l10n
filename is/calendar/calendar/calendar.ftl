@@ -713,3 +713,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Líma
     .accesskey = L
+calendar-taskview-delete =
+    .label = Eyða
+    .tooltiptext = Eyða verkefni
