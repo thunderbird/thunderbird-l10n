@@ -723,3 +723,6 @@ calendar-context-open-task =
 calendar-context-new-event =
     .label = Nowe tšojenje…
     .accesskey = t
+calendar-context-new-task =
+    .label = Nowy nadawk…
+    .accesskey = d
