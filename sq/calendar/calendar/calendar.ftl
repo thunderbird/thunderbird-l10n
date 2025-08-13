@@ -714,3 +714,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Ngjite
     .accesskey = N
+calendar-taskview-delete =
+    .label = Fshije
+    .tooltiptext = Fshije Punën
