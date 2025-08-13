@@ -713,3 +713,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Itsatsi
     .accesskey = s
+calendar-taskview-delete =
+    .label = Ezabatu
+    .tooltiptext = Ezabatu zeregina
