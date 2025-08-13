@@ -713,3 +713,6 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Paste
     .accesskey = P
+calendar-taskview-delete =
+    .label = Delete
+    .tooltiptext = Delete Task
