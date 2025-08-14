@@ -25,7 +25,7 @@
 <!ENTITY pop3DeferringDesc.label "При изтегляне на поща от този сървър да се използва следната папка за съхранение на нови писма:">
 <!ENTITY accountInbox.label "Входяща кутия на този профил">
 <!ENTITY accountInbox.accesskey "з">
-<!ENTITY deferToServer.label "Входяща кутия на друга сметка">
+<!ENTITY deferToServer.label "Входяща кутия на другия профил">
 <!ENTITY deferToServer.accesskey "у">
 <!ENTITY deferGetNewMail.label "Включително и този сървър при получаване на нова поща">
 <!ENTITY deferGetNewMail.accesskey "В">

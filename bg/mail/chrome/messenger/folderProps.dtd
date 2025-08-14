@@ -27,7 +27,7 @@
 <!ENTITY retentionApplyToFlagged.label "Писмата със звезда винаги се запазват">
 <!ENTITY retentionApplyToFlagged.accesskey "е">
 <!ENTITY folderSynchronizationTab.label "Синхронизация">
-<!ENTITY folderCheckForNewMessages2.label "При получаване на нови съобщения в сметката винаги да се проверява и тази папка">
+<!ENTITY folderCheckForNewMessages2.label "При получаване на нови съобщения в профила винаги да се проверява и тази папка">
 <!ENTITY folderCheckForNewMessages2.accesskey "г">
 <!ENTITY offlineFolder.check.label "Избор на папката за употреба без връзка">
 <!ENTITY offlineFolder.check.accesskey "И">
