@@ -211,6 +211,13 @@ events-and-tasks = Падзеі і задачы
 tasks-only = Задачы
 short-calendar-week = Тыдзень
 calendar-go = Перайсці
+# Some languages have different conjugations of 'next' and 'last'.  If yours
+# does not, simply repeat the value.  This will be used with day names, as in
+# 'next Sunday'.
+calendar-next1 = наступная
+calendar-next2 = наступны
+calendar-last1 = апошняя
+calendar-last2 = апошні
 # Alarm Dialog
 # $count reminder count
 alarm-window-title-label =
