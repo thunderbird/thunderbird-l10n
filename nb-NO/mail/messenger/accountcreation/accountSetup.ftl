@@ -108,7 +108,7 @@ account-setup-selection-error = Trenger du hjelp?
 account-setup-success-help = Er du usikker på de neste trinnene dine?
 account-setup-documentation-help = Oppsettsdokumentasjon
 account-setup-forum-help = Brukerstøtteforum
-account-setup-privacy-help = Personvernerklæring
+account-setup-privacy-help = Personvernpraksis
 account-setup-getting-started = Kom i gang
 
 ## Results area
