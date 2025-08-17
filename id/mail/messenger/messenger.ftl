@@ -248,9 +248,19 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Alihkan
+other-action-copy-message-link =
+    .label = Salin Tautan Pesan
+other-action-copy-news-link =
+    .label = Salin Tautan Berita
 message-header-msg-flagged =
     .title = Dibintangi
     .aria-label = Dibintangi
+message-header-delete =
+    .label = Hapus
+    .tooltiptext = Hapus pesan ini
+message-header-undelete =
+    .label = Batal hapus
+    .tooltiptext = Batal hapus pesan ini
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -435,3 +445,11 @@ openpgp-forget = Lupakan frasa sandi OpenPGP
 #   $limit (String) - Current quota limit (may include unit)
 quota-panel-percent-used = { $percent }% penuh
     .title = Kuota IMAP: { $usage } dipakai dari { $limit } total
+
+## Actions for the New Mail Notification
+
+mark-as-read-action = Tandai Sudah Dibaca
+delete-action = Hapus
+mark-as-starred-action = Tandai sebagai Berbintang
+mark-as-spam-action = Tandai sebagai Spam
+archive-action = Arsipkan

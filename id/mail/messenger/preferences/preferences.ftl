@@ -946,6 +946,7 @@ default-sort-ascending-description = Pesan baru di bagian bawah
 default-sort-descending =
     .label = Turun
 default-sort-descending-description = Pesan baru di atas
+apply-thread-sort-label = Sebarkan pengaturan pengurutan dan pengutasan ke:
 apply-sort-to-all-button =
     .label = Semua folder yang ada
     .accesskey = a
@@ -957,6 +958,7 @@ apply-current-view-to-folder =
 apply-current-view-to-folder-children =
     .label = Folder dan turunannya…
 apply-changes-prompt-title = Terapkan Perubahan?
+apply-changes-prompt-message = Terapkan pengaturan pengurutan dan pengutasan saat ini ke semua folder?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-changes-prompt-folder-message = Terapkan pengaturan utas dan pengurutan saat ini ke “{ $name }”?

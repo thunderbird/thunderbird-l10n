@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = Batal
 account-manager-server-default-icon =
     .title = Akun baku
     .alt = Ikon bintang
+outgoing-server-section-name = Server Keluar
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Pengaturan Server Keluar
+outgoing-server-settings-description = Saat mengelola identitas Anda, Anda dapat menggunakan server dari daftar ini dengan memilihnya sebagai Server Keluar, atau Anda dapat menggunakan server baku dari daftar ini dengan memilih "Gunakan Server Baku".
+outgoing-server-type = Jenis Server:
