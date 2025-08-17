@@ -892,6 +892,7 @@ appearance-card-style-3 =
     .label = 3 baris
 appearance-card-style-2 =
     .label = 2 baris
+default-message-list-sorting-legend = Pengurutan dan Penyusunan Utas
 default-message-list-description = Tentukan opsi pengurutan dan pengutasan baku untuk folder yang baru dibuat.
 default-flag-label =
     .value = Utas Baku:

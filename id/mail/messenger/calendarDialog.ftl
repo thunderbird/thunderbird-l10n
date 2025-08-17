@@ -8,3 +8,19 @@ calendar-dialog-close-button =
 calendar-dialog-back-button =
     .aria-label = Kembali
     .title = Kembali
+calendar-dialog-date-row-icon =
+    .alt = Tanggal dan waktu
+calendar-dialog-date-row-recurring-icon =
+    .alt = Berulang
+calendar-dialog-location-row-icon =
+    .alt = Lokasi
+calendar-dialog-description-row-icon =
+    .alt = Deskripsi
+calendar-dialog-description-label = Deskripsi
+calendar-dialog-description-expand-icon =
+    .alt = Tampilkan deskripsi lengkap
+# Variables:
+#   $additionalCategories (Number): Number of categoires not shown.
+#   $categories (String): List of all categories.
+calendar-dialog-more-categories = +{ $additionalCategories } lainnya
+    .title = { $categories }
