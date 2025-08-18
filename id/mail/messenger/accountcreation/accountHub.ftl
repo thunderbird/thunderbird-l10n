@@ -188,3 +188,21 @@ address-book-add-local = Buku Alamat lokal baru
 address-book-add-local-description = Buat buku alamat lokal baru di perangkat Anda
 address-book-add-ldap-icon =
     .alt = Sambungkan ke buku alamat LDAP jarak jauh
+address-book-add-ldap = Buku Alamat LDAP Baru
+address-book-add-ldap-description = Sambungkan ke buku alamat LDAP jarak jauh
+account-hub-fetching-sync-accounts = Menemukan buku alamat dan kalender…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data = { $addressBooks } buku alamat dari { $accounts } akun tersedia
+address-book-sync-existing-description = Mengambil akun yang ada…
+account-hub-select-address-book-account = Pilih akun dengan Buku alamat
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } dari { $total }
+    .title = { $synced } buku alamat diselaraskan. { $available } tersedia
+account-hub-add-local-address-book = Buat Buku Alamat Lokal
+account-hub-local-address-book-label = Nama Buku Alamat
+account-hub-local-error-text = Masukkan nama buku alamat
+account-hub-sync-address-books = Sinkronkan buku alamat yang ada
+account-hub-new-remote-address-book = Buku Alamat jarak jauh baru
