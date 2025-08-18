@@ -7,7 +7,7 @@ calendar-title-reminder = Anımsatıcılar
 calendar-title-notification = Bildirimler
 calendar-title-category = Kategoriler
 dateformat-label =
-    .value = Tarih metni biçemi:
+    .value = Tarih metni biçimi:
     .accesskey = T
 #   $date (String) - the formatted example date
 dateformat-long =

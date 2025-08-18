@@ -6,7 +6,7 @@
 #  $command (String): is a comma separated list of command names.
 commands-key =
     Komutlar: { $command }.
-    Daha fazla bilgi için /help &lt;komutunu&gt; yazın.
+    Daha fazla bilgi için /help &lt;komut&gt; komutunu kullanabilirsiniz.
 # LOCALIZATION NOTE (no-command, no-help-key):
 #  $command (String): is the command name the user typed.
 no-command = '{ $command }' komutu yok.

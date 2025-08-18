@@ -8,7 +8,7 @@
 <!ENTITY addressingGroupTitle.label "Adresler">
 <!ENTITY addressingText.label "Adreslere bakılırken:">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
-<!ENTITY useGlobal.label "Bu hesap için küresel LDAP sunucu tercihlerimi kullan">
+<!ENTITY useGlobal.label "Bu hesap için genel LDAP sunucu tercihlerimi kullan">
 <!ENTITY useGlobal.accesskey "L">
 <!ENTITY editDirectories.label "Dizinleri düzenle…">
 <!ENTITY editDirectories.accesskey "e">

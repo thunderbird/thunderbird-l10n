@@ -240,7 +240,7 @@
 <!ENTITY calendarproperties.color.label "Renk:">
 <!ENTITY calendarproperties.webdav.label "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label "CalDAV">
-<!ENTITY calendarproperties.format.label "Biçem:">
+<!ENTITY calendarproperties.format.label "Biçim:">
 <!ENTITY calendarproperties.location.label "Konum:">
 <!ENTITY calendarproperties.refreshInterval.label "Takvimi tazele:">
 <!ENTITY calendarproperties.refreshInterval.manual.label "Elle">
