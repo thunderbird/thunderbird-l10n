@@ -4,7 +4,7 @@
 
 <!ENTITY AdvancedEditButton.label "Gelişmiş düzenleme…">
 <!ENTITY AdvancedEditButton.accessKey "e">
-<!ENTITY AdvancedEditButton.tooltip "HTML öznitelikleri, biçem öznitelikleri ve JavaScript ekle veya değiştir">
+<!ENTITY AdvancedEditButton.tooltip "HTML öznitelikleri, stil öznitelikleri ve JavaScript ekle veya değiştir">
 <!ENTITY chooseFileButton.label "Dosya seç...">
 <!ENTITY chooseFileButton.accessKey "D">
 <!ENTITY chooseFileLinkButton.label "Dosya seç...">

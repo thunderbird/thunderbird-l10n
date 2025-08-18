@@ -5,7 +5,7 @@
 <!-- Window title -->
 <!ENTITY windowTitle.label "Liste Özellikleri">
 <!ENTITY ListType.label "Liste türü">
-<!ENTITY bulletStyle.label "Madde İmi Biçemi:">
+<!ENTITY bulletStyle.label "Madde imi stili:">
 <!ENTITY startingNumber.label "Başlangıç:">
 <!ENTITY startingNumber.accessKey "B">
 <!ENTITY none.value "Yok">

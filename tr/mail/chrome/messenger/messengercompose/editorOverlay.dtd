@@ -79,7 +79,7 @@
 <!ENTITY size-hugeCmd.label "Kocaman">
 <!ENTITY size-hugeCmd.accesskey "m">
 <!-- Font Style SubMenu -->
-<!ENTITY fontStyleMenu.label "Metin biçemi">
+<!ENTITY fontStyleMenu.label "Metin stili">
 <!ENTITY fontStyleMenu.accesskey "e">
 <!ENTITY styleBoldCmd.label "Kalın">
 <!ENTITY styleBoldCmd.accesskey "K">
