@@ -89,7 +89,7 @@
 <!ENTITY event.menu.edit.copy.label "Copia">
 <!ENTITY event.menu.edit.copy.accesskey "C">
 <!ENTITY event.menu.edit.paste.label "Incolla">
-<!ENTITY event.menu.edit.paste.accesskey "n">
+<!ENTITY event.menu.edit.paste.accesskey "I">
 <!ENTITY event.menu.edit.select.all.label "Seleziona tutto">
 <!ENTITY event.menu.edit.select.all.accesskey "z">
 <!ENTITY event.menu.view.label "Visualizza">
