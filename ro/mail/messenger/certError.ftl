@@ -4,4 +4,4 @@
 
 # Variables:
 #   $hostname (string) - Hostname of the server with certificate error.
-cert-error-domain-mismatch = Certificatul pentru { $hostname } nu este valid pentru acel server. Este posibil că cineva încearcă să uzurpe identitatea serverului și ar fi bine să nu mergi mai departe.
+cert-error-domain-mismatch = Certificatul pentru { $hostname } nu este valid pentru acel server. Ar putea fi cineva care încearcă să uzurpe identitatea serverului și ar fi bine să nu mergi mai departe.
