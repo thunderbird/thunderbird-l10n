@@ -106,8 +106,9 @@ timezone-error = S-a găsit un fus orar nedefinit și necunoscut în timp ce se 
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
     { $count ->
-        [one] { $count } (de) element(e) a(u) fost ignorat(e) de la crearea lor, atât în calendarul de destinație, cât și în { $filePath }.
-       *[other] { $count } (de) element(e) a(u) fost ignorat(e) de la crearea lor, atât în calendarul de destinație, cât și în { $filePath }.
+        [one] { $count } element a fost ignorat de la crearea lor, atât în calendarul de destinație, cât și în { $filePath }.
+        [few] { $count } de elemente au fost ignorate de la crearea lor, atât în calendarul de destinație, cât și în { $filePath }.
+       *[other] { $count } de elemente au fost ignorate de la crearea lor, atât în calendarul de destinație, cât și în { $filePath }.
     }
 # $location unknown calendar location
 unable-to-create-provider = A intervenit o eroare în timpul pregătirii pentru utilizare a calendarului din { $location }. Nu va fi disponibil.
