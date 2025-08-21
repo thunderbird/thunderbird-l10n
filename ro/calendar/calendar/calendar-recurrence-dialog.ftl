@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-recurrence-preview-label = Previzualizează
+calendar-recurrence-next = Luna următoare
+calendar-recurrence-previous = Luna anterioară
 # Recurrence Dialog Widget Order
 # LOCALIZATION NOTE (monthly-order): Don't translate, Make sure there are no extra
 # words in this property, just variables. You can change the order of below params

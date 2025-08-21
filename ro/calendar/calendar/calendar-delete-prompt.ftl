@@ -6,6 +6,11 @@
 ## Variables:
 ## $count (Number) - Number of events selected for deletion.
 
+calendar-delete-event-prompt-title =
+    { $count ->
+        [one] Șterge evenimentul
+       *[other] Șterge evenimentele
+    }
 calendar-delete-event-prompt-message =
     { $count ->
         [one] Sigur vrei să ștergi acest eveniment?
@@ -44,3 +49,7 @@ calendar-delete-item-prompt-message =
         [few] Sigur vrei să ștergi aceste { $count } articole?
        *[other] Sigur vrei să ștergi aceste { $count } de articole?
     }
+
+##
+
+calendar-delete-prompt-disable-message = Nu mă mai întreba.

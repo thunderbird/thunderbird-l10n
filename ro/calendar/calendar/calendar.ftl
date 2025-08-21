@@ -358,6 +358,7 @@ html-task-completed = { $task } (realizată)
 # Categories
 add-category = Adaugă categorie
 multiple-categories = Categorii multiple
+no-categories = Niciunul
 calendar-today = Astăzi
 calendar-tomorrow = Mâine
 yesterday = Ieri
@@ -473,6 +474,11 @@ single-long-calendar-week = Săptămâna: { $index }
 #    $index will be replaced with the index of the week
 single-calendar-week = Săpt: { $index }
     .title = Săptămâna: { $index }
+# LOCALIZATION NOTE (several-long-calendar-weeks):
+# used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-long-calendar-weeks = Săptămâni calendaristice { $startIndex }-{ $endIndex }
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
@@ -585,6 +591,8 @@ unit-minutes =
         [few] { $count } minute
        *[other] { $count } minute
     }
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
 # Variables:
 # $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
@@ -593,6 +601,8 @@ unit-hours =
         [few] { $count } ore
        *[other] { $count } ore
     }
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
 # Variables:
 # $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
@@ -601,6 +611,8 @@ unit-days =
         [few] { $count } zile
        *[other] { $count } zile
     }
+event-duration-menuitem-count-days =
+    .label = { unit-days }
 # Variables:
 # $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
@@ -609,6 +621,52 @@ unit-weeks =
         [few] { $count } săptămâni
        *[other] { $count } săptămâni
     }
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
+# Variables:
+# $count (Number) - Number of minutes used to determine the correct plural form.
+event-duration-menuitem-minutes =
+    .label =
+        { $count ->
+            [one] minut
+            [few] minute
+           *[other] de minute
+        }
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label =
+        { $count ->
+            [one] oră
+            [few] ore
+           *[other] de ore
+        }
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label =
+        { $count ->
+            [one] zi
+            [few] zile
+           *[other] de zile
+        }
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label =
+        { $count ->
+            [one] săptămână
+            [few] săptămâni
+           *[other] de săptămâni
+        }
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name

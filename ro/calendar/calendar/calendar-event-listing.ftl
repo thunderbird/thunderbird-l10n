@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Evenimente din trecut
 calendar-event-listing-interval-calendar-month =
     .label = Evenimente în această lună a calendarului
 calendar-event-listing-interval-current-view =
@@ -61,5 +63,15 @@ calendar-event-listing-interval-next-14-days =
     .label = Evenimente în următoarele 14 zile
 calendar-event-listing-interval-next-31-days =
     .label = Evenimente în următoarele 31 de zile
+calendar-event-listing-interval-next-6-months =
+    .label = Evenimente în următoarele 6 luni
+calendar-event-listing-interval-next-12-months =
+    .label = Evenimente în următoarele 12 luni
+calendar-event-listing-interval-future =
+    .label = Toate evenimentele viitoare
+calendar-event-listing-interval-all =
+    .label = Toate evenimentele
 calendar-event-listing-interval-selected-day =
     .label = Ziua selectată acum
+calendar-event-listing-interval-today =
+    .label = Evenimentele de astăzi
