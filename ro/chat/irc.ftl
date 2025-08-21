@@ -16,6 +16,7 @@ connection-error-time-out = Timpul de conectare a expirat
 connection-error-invalid-username = { $username } nu este un nume permis de utilizator
 connection-error-invalid-password = Parolă de server nevalidă
 connection-error-password-required = Necesită o parolă
+connection-error-invalid-user-password = Parolă nevalidă
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Canal
