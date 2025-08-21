@@ -487,3 +487,7 @@ calendar-context-copy =
 calendar-context-paste =
     .label = Уставіць
     .accesskey = У
+calendar-context-attendance-occurrence =
+    .label = Гэту падзею ў серыі
+calendar-context-attendance-all-series =
+    .label = Усе падзеі ў серыі
