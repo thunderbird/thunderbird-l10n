@@ -242,3 +242,45 @@ message-history-anyone = { $user } a făcut istoricul viitor al camerei vizibil 
 message-history-shared = { $user } a făcut istoricul viitor al camerei vizibil pentru toți membrii camerei.
 #    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
 message-history-invited = { $user } a făcut istoricul viitor al camerei vizibil pentru toți membrii camerei de la momentul invitației.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they joined.
+message-history-joined = { $user } a făcut istoricul viitor al camerei vizibil pentru toți membrii camerei de la momentul intrării în cameră.
+#    $user is the name of the user who changed the address.
+#    $oldAddress is the old address.
+#    $newAddress is the new address.
+message-alias-main = { $user } a setat adresa principală pentru această cameră din { $oldAddress } în { $newAddress }.
+#    $user is the name of the user who added the address.
+#    $addresses is a comma delimited list of added addresses.
+message-alias-added = { $user } a adăugat { $addresses } ca adresă alternativă pentru cameră.
+#    $user is the name of the user who removed the address.
+#    $addresses is a comma delimited list of removed addresses.
+message-alias-removed = { $user } a eliminat { $addresses } ca adresă alternativă pentru cameră.
+#    $user is the name of the user that edited the alias addresses.
+#    $removedAddresses is a comma delimited list of removed addresses.
+#    $addedAddresses is a comma delmited list of added addresses.
+message-alias-removed-and-added = { $user } a eliminat { $removedAddresses } și a adăugat { $addedAddresses } ca adresă pentru cameră.
+message-space-not-supported = Această cameră este un spațiu care nu are suport.
+message-encryption-start = Mesajele din această conversație sunt acum criptate end-to-end.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } vrea să verifice pe { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } a anulat verificarea cu motivul: { $reason }
+message-verification-done = Verificarea a fost finalizată.
+message-decryption-error = Conținutul acestui mesaj nu a putut fi decriptat. Pentru a cere chei de criptare de la alte dispozitive de-ale tale, dă clic dreapta pe acest mesaj.
+message-decrypting = Se decriptează…
+message-redacted = Mesajul a fost redactat.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } a reacționat la { $userThatSentMessage } cu { $reaction }.
+#    Label in the message context menu
+message-action-request-key = Cere din nou cheile
+message-action-redact = Redactează
+message-action-report = Raportează mesajul
+message-action-retry = Reîncearcă trimiterea
+message-action-cancel = Anulează mesajul
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = A apărut o eroare la trimiterea mesajului „{ $message }”.

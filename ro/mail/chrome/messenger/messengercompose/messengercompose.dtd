@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Inocent">
 <!ENTITY smiley15Cmd.label "Plânset">
 <!ENTITY smiley16Cmd.label "Cu buzele pecetluite">
+<!ENTITY smiley17Cmd.label "Mâniat">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Nicio sugestie găsită">
 <!ENTITY spellCheckIgnoreWord.label "Ignoră cuvântul">
