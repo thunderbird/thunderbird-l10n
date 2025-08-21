@@ -116,6 +116,8 @@ address-book-finding-remote-address-books = Chwilio am lyfrau cyfeiriadau…
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = Mae'n hysbys bod { $url } yn anghydnaws â { -brand-short-name }.
 address-book-carddav-connection-error = Methu cysylltu.
+address-book-ldap-duplicate-error = Mae enw cyfeiriadur LDAP eisoes yn bodoli. Rhowch enw cyfeiriadur gwahanol.
+address-book-ldap-creation-error = Methu creu Cyfeiriadur LDAP.
 account-hub-result-username-label = Enw Defnyddiwr
     .title = Enw Defnyddiwr
 account-hub-name-label = Enw llawn
