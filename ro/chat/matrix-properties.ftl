@@ -45,6 +45,8 @@ connection-request-access = Se finalizează autentificarea
 #   connection attempt.
 connection-error-no-supported-flow = Serverul nu oferă un flux de autentificare compatibil.
 connection-error-auth-cancelled = Ai anulat procesul de autorizare.
+connection-error-session-ended = Sesiunea a fost deconectată.
+connection-error-server-not-found = Nu s-a putut identifica serverul Matrix pentru contul Matrix dat.
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -60,6 +62,81 @@ tooltip-display-name = Nume afișat
 # $timespan (String) is the timespan elapsed since the last activity.
 tooltip-timespan = { $timespan } în urmă
 tooltip-last-active = Ultima activitate
+# LOCALIZATION NOTE (power-level-*):
+#    These are the string representations of different standard power levels and strings.
+#    $powerLevelName (String) are one of the power levels, Default/Moderator/Admin/Restricted/Custom.
+#    $powerLevelName (String) is the power level name
+#    $powerLevelNumber (String) is the power level number
+power-level-default = Implicit
+power-level-moderator = Moderator
+power-level-admin = Admin
+power-level-restricted = Restricționat
+power-level-custom = Personalizat
+#    $powerLevelName is the power level name
+#    $powerLevelNumber is the power level number
+power-level-detailed = { $powerLevelName } ({ $powerLevelNumber })
+#    $powerLevelName is the power level name
+power-level-default-role = Rol implicit: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-invite-user = Invită utilizatori: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-kick-users = Dă afară utilizatori: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-ban = Interzice utilizatori: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-room-avatar = Schimbă avatarul camerei: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-main-address = Schimbă adresa principală pentru cameră: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-history = Schimbă vizibilitatea istoricului: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-room-name = Schimbă denumirea camerei: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-change-permissions = Schimbă permisiuni: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-server-acl = Trimite evenimente m.room.server_acl: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-upgrade-room = Ridică nivelul camerei: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-remove = Elimină mesaje: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-events-default = Implicit pentru evenimente: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-state-default = Schimbă setări: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-encryption = Activează criptarea camerei: { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-topic = Setează subiectul camerei: { $powerLevelName }
+# LOCALIZATION NOTE (detail-*):
+#    These are the string representations of different matrix properties.
+#    $value will typically be strings with the actual values.
+# $value Example placeholder: "Foo bar"
+detail-name = Denumire: { $value }
+# $value Example placeholder: "My first room"
+detail-topic = Subiect: { $value }
+# $value Example placeholder: "5"
+detail-version = Versiune cameră: { $value }
+# $value Example placeholder: "#thunderbird:mozilla.org"
+detail-room-id = ID cameră: { $value }
+# $value are all admin users. Example: "@foo:example.com, @bar:example.com"
+detail-admin = Admin: { $value }
+# $value are all moderators. Example: "@lorem:mozilla.org, @ipsum:mozilla.org"
+detail-moderator = Moderator: { $value }
+# $value Example placeholder: "#thunderbird:matrix.org"
+detail-alias = Alias: { $value }
+# $value Example placeholder: "can_join"
+detail-guest = Acces pentru oaspeți: { $value }
+# This is a heading, followed by the power-level-* strings
+detail-power = Niveluri de autorizare:
+# LOCALIZATION NOTE (command-*):
+#   These are the help messages for each command, the $commandName is the command name
+#   Each command first gives the parameter it accepts and then a description of
+#   the command.
+command-ban = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Pune interdicție utilizatorului cu userId din cameră cu mesaj opțional de motivare. Necesită permisiune de a pune interdicție utilizatorilor.
+# $commandName is the command name
+command-invite = { $commandName } &lt;userId&gt;: Invită utilizatorul în cameră.
+# $commandName is the command name
+command-kick = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Dă utilizatorul userId afară din cameră, cu mesaj opțional de motivare. Necesiră permisiune de a da afară utilizatori.
 # $commandName is the command name
 command-nick = { $commandName } &lt;display_name&gt;: Schimbă-ți numele afișat.
 # $commandName is the command name
@@ -135,3 +212,29 @@ message-kicked = { $user } l-a dat afară pe { $userGotKicked }.
 #    $userGotKicked is the name of the user who got kicked.
 #    $reason is the reason for the kick.
 message-kicked-with-reason = { $user } l-a dat afară pe { $userGotKicked }. Motiv: { $reason }
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+message-withdrew-invite = { $user } a retras invitația pentru { $userInvitationWithdrawn }.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = { $user } a retras invitația pentru { $userInvitationWithdrawn }. Motiv: { $reason }
+#    $user is the name of the user who has removed the room name.
+message-room-name-remove = { $user } a eliminat denumirea camerei.
+#    $user is the name of the user who changed the room name.
+#    $newRoomName is the new room name.
+message-room-name-changed = { $user } a modificat denumirea camerei în { $newRoomName }.
+#    $user is the name of the user who changed the power level.
+#    $powerLevelChanges is a list of "message-power-level-from-to" strings representing power level changes separated by commas
+#    power level changes, separated by commas if  there are multiple changes.
+message-power-level-changed = { $user } a modificat nivelul de autorizare de { $powerLevelChanges }.
+#    $user is the name of the target user whose power level has been changed.
+#    $oldPowerLevel is the old power level.
+#    $newPowerLevel is the new power level.
+message-power-level-from-to = { $user } de la { $oldPowerLevel } la { $newPowerLevel }
+#    $user is the name of the user who has allowed guests to join the room.
+message-guest-allowed = { $user } a permis oaspeților să intre în cameră.
+#    $user is the name of the user who has prevented guests to join the room.
+message-guest-prevented = { $user } a împiedicat intrarea oaspeților în cameră.
+#    $user is the name of the user who has made future room history visible to anyone.
+message-history-anyone = { $user } a făcut istoricul viitor al camerei vizibil pentru oricine.
