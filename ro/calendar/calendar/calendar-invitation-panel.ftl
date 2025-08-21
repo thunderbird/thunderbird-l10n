@@ -15,3 +15,86 @@ calendar-invitation-panel-intro-cancel = { $organizer } a anulat:
 # $summary (String) - A short summary or title of the event.
 calendar-invitation-panel-title = { $summary }
 calendar-invitation-panel-view-button = Afișează
+calendar-invitation-panel-update-button = Actualizează
+calendar-invitation-panel-delete-button = Șterge
+calendar-invitation-panel-accept-button = Da
+calendar-invitation-panel-decline-button = Nu
+calendar-invitation-panel-tentative-button = Poate
+calendar-invitation-panel-more-button = Mai multe
+calendar-invitation-panel-menu-item-save-copy =
+    .label = Salvează o copie
+calendar-invitation-panel-menu-item-toggle-changes =
+    .label = Afișează modificările
+calendar-invitation-panel-prop-title-when = Când:
+calendar-invitation-panel-prop-title-location = Locație:
+# Example: Friday, September 16, 2022
+# Variables:
+# $startDate (String) - The date (without time) the event starts on.
+calendar-invitation-interval-all-day = { $startDate }
+# Example: September 16, 2022 – September 16, 2023
+# Variables:
+# $startMonth (String) - The month the interval starts.
+# $startDay   (String) - The day of the month the interval starts.
+# $startYear  (String) - The year the interval starts.
+# $endMonth   (String) - The month the interval ends.
+# $endDay     (String) - The day of the month the interval ends.
+# $endYear    (String) - The year the interval ends.
+calendar-invitation-interval-all-day-between-years = { $startMonth } { $startDay }, { $startYear } – { $endMonth } { $endDay }, { $endYear }
+# Example: September 16 – 20, 2022
+# Variables:
+# $month      (String) - The month the interval is in.
+# $startDay   (String) - The day of the month the interval starts.
+# $endDay     (String) - The day of the month the interval ends.
+# $year       (String) - The year the interval is in.
+calendar-invitation-interval-all-day-in-month = { $month } { $startDay } – { $endDay }, { $year }
+# Example: September 16 – October 20, 2022
+# Variables:
+# $startMonth (String) - The month the interval starts.
+# $startDay   (String) - The day of the month the interval starts.
+# $endMonth   (String) - The month the interval ends.
+# $endDay     (String) - The day of the month the interval ends.
+# $year       (String) - The year the interval is in.
+calendar-invitation-interval-all-day-between-months = { $startMonth } { $startDay } – { $endMonth } { $endDay }, { $year }
+# Example: Friday, September 16, 2022 15:00 America/Port of Spain
+# Variables:
+# $startDate (String) - The date the interval starts.
+# $startTime (String) - The time the interval starts.
+# $timezone  (String) - The timezone the interval is in.
+calendar-invitation-interval-same-date-time = { $startDate } <b>{ $startTime }</b> { $timezone }
+# Example: Friday, September 16, 2022 14:00 – 16:00 America/Port of Spain
+# Variables:
+# $startDate (String) - The date the interval starts.
+# $startTime (String) - The time the interval starts.
+# $endTime   (String) - The time the interval ends.
+# $timezone  (String) - The timezone the interval is in.
+calendar-invitation-interval-same-day = { $startDate } <b>{ $startTime }</b> – <b>{ $endTime }</b> { $timezone }
+# Example: Friday, September 16, 2022 14:00 – Tuesday, September 20, 2022 16:00 America/Port of Spain
+# Variables:
+# $startDate (String) - The date the interval starts.
+# $startTime (String) - The time the interval starts.
+# $endDate   (String) - The date the interval ends.
+# $endTime   (String) - The time the interval ends.
+# $timezone  (String) - The timezone the interval is in.
+calendar-invitation-interval-several-days = { $startDate } <b>{ $startTime }</b> – { $endDate } <b>{ $endTime }</b> { $timezone }
+calendar-invitation-panel-prop-title-recurrence = Repetări:
+calendar-invitation-panel-prop-title-attendees = Participanți:
+calendar-invitation-panel-prop-title-description = Descriere:
+# Variables:
+# $count (Number) - The number of attendees with the "ACCEPTED" participation status.
+calendar-invitation-panel-partstat-accepted = { $count } da
+# Variables:
+# $count (Number) - The number of attendees with the "DECLINED" participation status.
+calendar-invitation-panel-partstat-declined = { $count } nu
+# Variables:
+# $count (Number) - The number of attendees with the "TENTATIVE" participation status.
+calendar-invitation-panel-partstat-tentative = { $count } poate
+# Variables:
+# $count (Number) - The number of attendees with the "NEEDS-ACTION" participation status.
+calendar-invitation-panel-partstat-needs-action = { $count } în așteptare
+# Variables:
+# $count (Number) - The total number of attendees.
+calendar-invitation-panel-partstat-total = { $count } participanți
+calendar-invitation-panel-prop-title-attachments = Atașamente:
+calendar-invitation-change-indicator-removed = Șters
+calendar-invitation-change-indicator-added = Nou
+calendar-invitation-change-indicator-modified = Modificat

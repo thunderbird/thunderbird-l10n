@@ -2,6 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-invitation-current-participation-status-icon-accepted =
+    .alt = Acceptată momentan
+calendar-invitation-current-participation-status-icon-declined =
+    .alt = Refuzată momentan
+calendar-invitation-current-participation-status-icon-needs-action =
+    .alt = Momentan indecis(ă)
 allday-event = Eveniment care durează toată ziua
 recurrent-event =
     .value = Eveniment recurent
