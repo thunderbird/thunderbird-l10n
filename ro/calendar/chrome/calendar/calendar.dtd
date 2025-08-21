@@ -249,7 +249,7 @@
 <!ENTITY calendarproperties.firealarms.label "Afișează mementourile">
 <!ENTITY calendarproperties.cache3.label "Suport offline">
 <!ENTITY calendarproperties.enabled2.label "Activează acest calendar">
-<!ENTITY calendarproperties.forceDisabled.label "Nu s-a găsit furnizorul pentru acest calendar. Se întâmplă dacă ai dezactivat sau ai dezinstalat anumite suplimente.">
+<!ENTITY calendarproperties.forceDisabled.label "Nu a fost găsit furnizorul pentru acest calendar. Se întâmplă dacă ai dezactivat sau ai dezinstalat anumite suplimente.">
 <!ENTITY calendarproperties.unsubscribe.label "Dezabonare">
 <!ENTITY calendarproperties.unsubscribe.accesskey "D">
 <!-- Calendar Publish Dialog -->

@@ -188,6 +188,7 @@ openpgp-keygen-external-success = ID-ul cheii externe GnuPG a fost salvat!
 openpgp-radio-none =
     .label = Niciuna
 openpgp-radio-none-desc = Nu folosi OpenPGP pentru această identitate.
+openpgp-radio-key-not-found = Cheia este de negăsit! Dacă vrei să o folosești, trebuie să o imporți în { -brand-short-name }.
 #   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Expiră la: { $date }
 #   $date (String) - the past expiration date of when the OpenPGP key expired

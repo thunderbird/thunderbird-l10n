@@ -41,7 +41,7 @@ menu-edit-undelete-messages =
             [one] Recuperează mesajul șters
            *[other] Recuperează mesajele selectate
         }
-    .accesskey = j
+    .accesskey = d
 menu-edit-properties =
     .label = Proprietăți
     .accesskey = o
