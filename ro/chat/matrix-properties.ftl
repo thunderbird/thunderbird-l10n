@@ -238,3 +238,7 @@ message-guest-allowed = { $user } a permis oaspeților să intre în cameră.
 message-guest-prevented = { $user } a împiedicat intrarea oaspeților în cameră.
 #    $user is the name of the user who has made future room history visible to anyone.
 message-history-anyone = { $user } a făcut istoricul viitor al camerei vizibil pentru oricine.
+#    $user is the name of the user who has made future room history visible to all room members.
+message-history-shared = { $user } a făcut istoricul viitor al camerei vizibil pentru toți membrii camerei.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
+message-history-invited = { $user } a făcut istoricul viitor al camerei vizibil pentru toți membrii camerei de la momentul invitației.
