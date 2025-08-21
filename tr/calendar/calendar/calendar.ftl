@@ -134,6 +134,7 @@ remove-calendar-message-delete = "{ $name }" takvimini kalıcı olarak silmek is
 remove-calendar-message-unsubscribe = "{ $name }" takviminin aboneliğinden çıkmak istiyor musunuz?
 # $title title
 week-title = Hafta { $title }
+# $title title
 week-title-label =
     .aria-label = Hafta { $title }
 calendar-none =
@@ -657,12 +658,16 @@ event-duration-label-weeks =
 show-calendar = { $name } takvimini göster
 # $name calendar name
 hide-calendar = { $name } takvimini gizle
+# $name calendar name
 hide-calendar-title =
     .title = { $name } takvimini göster
+# $name calendar name
 show-calendar-title =
     .title = { $name } takvimini gizle
+# $name calendar name
 show-calendar-label =
     .label = { $name } takvimini göster
+# $name calendar name
 hide-calendar-label =
     .label = { $name } takvimini gizle
 # uses the access key calendar.context.showonly.accesskey

@@ -134,6 +134,7 @@ remove-calendar-message-delete = Kas soovid jäädavalt kustutada kalendri "{ $n
 remove-calendar-message-unsubscribe = Kas soovid lõpetada kalendri "{ $name }" tellimise?
 # $title title
 week-title = { $title }. nädal
+# $title title
 week-title-label =
     .aria-label = { $title }. nädal
 calendar-none =
@@ -654,12 +655,16 @@ event-duration-label-weeks =
 show-calendar = Näita { $name }
 # $name calendar name
 hide-calendar = Peida { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Näita { $name }
+# $name calendar name
 show-calendar-title =
     .title = Peida { $name }
+# $name calendar name
 show-calendar-label =
     .label = Näita { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Peida { $name }
 # uses the access key calendar.context.showonly.accesskey

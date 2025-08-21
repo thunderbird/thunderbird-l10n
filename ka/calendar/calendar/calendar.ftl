@@ -134,6 +134,7 @@ remove-calendar-message-delete = ნამდვილად გსურთ, "{
 remove-calendar-message-unsubscribe = ნამდვილად გსურთ, "{ $name }" კალენდრის გამოწერის გაუქმება?
 # $title title
 week-title = კვირა { $title }
+# $title title
 week-title-label =
     .aria-label = კვირა { $title }
 calendar-none =
@@ -657,12 +658,16 @@ event-duration-label-weeks =
 show-calendar = { $name }-ის გამოჩენა
 # $name calendar name
 hide-calendar = { $name }-ის დამალვა
+# $name calendar name
 hide-calendar-title =
     .title = { $name }-ის გამოჩენა
+# $name calendar name
 show-calendar-title =
     .title = { $name }-ის დამალვა
+# $name calendar name
 show-calendar-label =
     .label = { $name }-ის გამოჩენა
+# $name calendar name
 hide-calendar-label =
     .label = { $name }-ის დამალვა
 # uses the access key calendar.context.showonly.accesskey

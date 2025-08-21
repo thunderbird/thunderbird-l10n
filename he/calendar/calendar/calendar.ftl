@@ -131,6 +131,7 @@ remove-calendar-message-delete = למחוק לצמיתות את לוח השנה 
 remove-calendar-message-unsubscribe = לבטל את המינוי ללוח השנה „{ $name }”?
 # $title title
 week-title = שבוע { $title }
+# $title title
 week-title-label =
     .aria-label = שבוע { $title }
 calendar-none =
@@ -583,12 +584,16 @@ unit-weeks =
 show-calendar = הצגת { $name }
 # $name calendar name
 hide-calendar = הסתרת { $name }
+# $name calendar name
 hide-calendar-title =
     .title = הצגת { $name }
+# $name calendar name
 show-calendar-title =
     .title = הסתרת { $name }
+# $name calendar name
 show-calendar-label =
     .label = הצגת { $name }
+# $name calendar name
 hide-calendar-label =
     .label = הסתרת { $name }
 # uses the access key calendar.context.showonly.accesskey

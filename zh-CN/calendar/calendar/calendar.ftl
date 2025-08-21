@@ -134,6 +134,7 @@ remove-calendar-message-delete = 您真的想要永久删除日历“{ $name }�
 remove-calendar-message-unsubscribe = 您确定要取消订阅日历“{ $name }”吗？
 # $title title
 week-title = 周 { $title }
+# $title title
 week-title-label =
     .aria-label = 周 { $title }
 calendar-none =
@@ -600,12 +601,16 @@ event-duration-label-weeks =
 show-calendar = 显示 { $name }
 # $name calendar name
 hide-calendar = 隐藏 { $name }
+# $name calendar name
 hide-calendar-title =
     .title = 显示 { $name }
+# $name calendar name
 show-calendar-title =
     .title = 隐藏 { $name }
+# $name calendar name
 show-calendar-label =
     .label = 显示 { $name }
+# $name calendar name
 hide-calendar-label =
     .label = 隐藏 { $name }
 # uses the access key calendar.context.showonly.accesskey

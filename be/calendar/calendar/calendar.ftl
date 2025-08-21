@@ -115,6 +115,7 @@ remove-calendar-message-delete = Вы ўпэўнены, што жадаеце н
 remove-calendar-message-unsubscribe = Вы ўпэўнены, што жадаеце адпісацца ад календара «{ $name }»?
 # $title title
 week-title = Тыдзень { $title }
+# $title title
 week-title-label =
     .aria-label = Тыдзень { $title }
 calendar-none =
@@ -443,12 +444,16 @@ event-duration-label-weeks =
 show-calendar = Паказаць { $name }
 # $name calendar name
 hide-calendar = Схаваць { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Паказаць { $name }
+# $name calendar name
 show-calendar-title =
     .title = Схаваць { $name }
+# $name calendar name
 show-calendar-label =
     .label = Паказаць { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Схаваць { $name }
 # uses the access key calendar.context.showonly.accesskey

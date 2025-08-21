@@ -140,6 +140,7 @@ remove-calendar-message-delete = Czy trwale usunąć kalendarz „{ $name }”?
 remove-calendar-message-unsubscribe = Czy zrezygnować z subskrypcji kalendarza „{ $name }”?
 # $title title
 week-title = { $title }. tydzień
+# $title title
 week-title-label =
     .aria-label = { $title }. tydzień
 calendar-none =
@@ -683,12 +684,16 @@ event-duration-label-weeks =
 show-calendar = Pokaż „{ $name }”
 # $name calendar name
 hide-calendar = Ukryj „{ $name }”
+# $name calendar name
 hide-calendar-title =
     .title = Pokaż „{ $name }”
+# $name calendar name
 show-calendar-title =
     .title = Ukryj „{ $name }”
+# $name calendar name
 show-calendar-label =
     .label = Pokaż „{ $name }”
+# $name calendar name
 hide-calendar-label =
     .label = Ukryj „{ $name }”
 # uses the access key calendar.context.showonly.accesskey

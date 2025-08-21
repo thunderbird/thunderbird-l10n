@@ -134,6 +134,7 @@ remove-calendar-message-delete = Voleu suprimir permanentment el calendari «{ $
 remove-calendar-message-unsubscribe = Voleu cancel·lar la subscripció al calendari «{ $name }»?
 # $title title
 week-title = setmana { $title }
+# $title title
 week-title-label =
     .aria-label = setmana { $title }
 calendar-none =
@@ -659,12 +660,16 @@ event-duration-label-weeks =
 show-calendar = Mostra { $name }
 # $name calendar name
 hide-calendar = Amaga { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Mostra { $name }
+# $name calendar name
 show-calendar-title =
     .title = Amaga { $name }
+# $name calendar name
 show-calendar-label =
     .label = Mostra { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Amaga { $name }
 # uses the access key calendar.context.showonly.accesskey

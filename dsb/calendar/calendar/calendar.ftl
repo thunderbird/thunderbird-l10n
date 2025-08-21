@@ -136,6 +136,7 @@ remove-calendar-message-delete = Cośo kalender "{ $name }" na pśecej wulašowa
 remove-calendar-message-unsubscribe = Cośo kalender "{ $name }" wótskazaś?
 # $title title
 week-title = Tyźeń { $title }
+# $title title
 week-title-label =
     .aria-label = Tyźeń { $title }
 calendar-none =
@@ -689,12 +690,16 @@ event-duration-label-weeks =
 show-calendar = { $name } pokazaś
 # $name calendar name
 hide-calendar = { $name } schowaś
+# $name calendar name
 hide-calendar-title =
     .title = { $name } pokazaś
+# $name calendar name
 show-calendar-title =
     .title = { $name } schowaś
+# $name calendar name
 show-calendar-label =
     .label = { $name } pokazaś
+# $name calendar name
 hide-calendar-label =
     .label = { $name } schowaś
 # uses the access key calendar.context.showonly.accesskey

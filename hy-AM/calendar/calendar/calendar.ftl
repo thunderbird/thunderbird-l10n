@@ -134,6 +134,7 @@ remove-calendar-message-delete = Ընդմիշտ ջնջե՞լ "{ $name }" օրա�
 remove-calendar-message-unsubscribe = Ապաբաժանորդագրվե՞լ "{ $name }" օրացույցից։
 # $title title
 week-title = Շաբաթ { $title }
+# $title title
 week-title-label =
     .aria-label = Շաբաթ { $title }
 calendar-none =
@@ -655,12 +656,16 @@ event-duration-label-weeks =
 show-calendar = Ցուցադրել { $name }
 # $name calendar name
 hide-calendar = Թաքցնել { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Ցուցադրել { $name }
+# $name calendar name
 show-calendar-title =
     .title = Թաքցնել { $name }
+# $name calendar name
 show-calendar-label =
     .label = Ցուցադրել { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Թաքցնել { $name }
 # uses the access key calendar.context.showonly.accesskey

@@ -134,6 +134,7 @@ remove-calendar-message-delete = Wolle jo de aginda ‘{ $name }’ permanint fu
 remove-calendar-message-unsubscribe = Wolle jo jo ôfmelde by de aginda ‘{ $name }’?
 # $title title
 week-title = Wike { $title }
+# $title title
 week-title-label =
     .aria-label = Wike { $title }
 calendar-none =
@@ -665,12 +666,16 @@ event-duration-label-weeks =
 show-calendar = { $name } toane
 # $name calendar name
 hide-calendar = { $name } ferstopje
+# $name calendar name
 hide-calendar-title =
     .title = { $name } toane
+# $name calendar name
 show-calendar-title =
     .title = { $name } ferstopje
+# $name calendar name
 show-calendar-label =
     .label = { $name } toane
+# $name calendar name
 hide-calendar-label =
     .label = { $name } ferstopje
 # uses the access key calendar.context.showonly.accesskey

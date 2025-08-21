@@ -134,6 +134,7 @@ remove-calendar-message-delete = Vil du slette kalenderen "{ $name }"?
 remove-calendar-message-unsubscribe = Vil du stoppe abonnementet på kalenderen "{ $name }"?
 # $title title
 week-title = Uge { $title }
+# $title title
 week-title-label =
     .aria-label = Uge { $title }
 calendar-none =
@@ -661,12 +662,16 @@ event-duration-label-weeks =
 show-calendar = Vis { $name }
 # $name calendar name
 hide-calendar = Skjul { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Vis { $name }
+# $name calendar name
 show-calendar-title =
     .title = Skjul { $name }
+# $name calendar name
 show-calendar-label =
     .label = Vis { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Skjul { $name }
 # uses the access key calendar.context.showonly.accesskey

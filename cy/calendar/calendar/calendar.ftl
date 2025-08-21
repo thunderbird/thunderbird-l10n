@@ -134,6 +134,7 @@ remove-calendar-message-delete = Hoffech chi ddileu calendr "{ $name }" yn barha
 remove-calendar-message-unsubscribe = Hoffech chi ddad-danysgrifio i galendr "{ $name }"?
 # $title title
 week-title = Wythnos { $title }
+# $title title
 week-title-label =
     .aria-label = Wythnos { $title }
 calendar-none =
@@ -698,12 +699,16 @@ event-duration-label-weeks =
 show-calendar = Dangos { $name }
 # $name calendar name
 hide-calendar = Cuddio { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Dangos { $name }
+# $name calendar name
 show-calendar-title =
     .title = Cuddio { $name }
+# $name calendar name
 show-calendar-label =
     .label = Dangos { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Cuddio { $name }
 # uses the access key calendar.context.showonly.accesskey

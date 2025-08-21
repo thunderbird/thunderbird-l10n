@@ -134,6 +134,7 @@ remove-calendar-message-delete = "{ $name }" күнтізбесін толығы
 remove-calendar-message-unsubscribe = "{ $name }" күнтізбесіне жазылудан бас тартуды қалайсыз ба?
 # $title title
 week-title = { $title }-апта
+# $title title
 week-title-label =
     .aria-label = { $title }-апта
 calendar-none =
@@ -664,12 +665,16 @@ event-duration-label-weeks =
 show-calendar = { $name } көрсету
 # $name calendar name
 hide-calendar = { $name } жасыру
+# $name calendar name
 hide-calendar-title =
     .title = { $name } көрсету
+# $name calendar name
 show-calendar-title =
     .title = { $name } жасыру
+# $name calendar name
 show-calendar-label =
     .label = { $name } көрсету
+# $name calendar name
 hide-calendar-label =
     .label = { $name } жасыру
 # uses the access key calendar.context.showonly.accesskey

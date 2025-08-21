@@ -134,6 +134,7 @@ remove-calendar-message-delete = 캘린더 "{ $name }"를 완전히 삭제하시
 remove-calendar-message-unsubscribe = 캘린더 "{ $name }"를 구독 취소하시겠습니까?
 # $title title
 week-title = { $title }주
+# $title title
 week-title-label =
     .aria-label = { $title }주
 calendar-none =
@@ -606,12 +607,16 @@ event-duration-label-weeks =
 show-calendar = { $name } 보이기
 # $name calendar name
 hide-calendar = { $name } 숨기기
+# $name calendar name
 hide-calendar-title =
     .title = { $name } 보이기
+# $name calendar name
 show-calendar-title =
     .title = { $name } 숨기기
+# $name calendar name
 show-calendar-label =
     .label = { $name } 보이기
+# $name calendar name
 hide-calendar-label =
     .label = { $name } 숨기기
 # uses the access key calendar.context.showonly.accesskey

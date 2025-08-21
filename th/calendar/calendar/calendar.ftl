@@ -134,6 +134,7 @@ remove-calendar-message-delete = คุณต้องการลบปฏิ�
 remove-calendar-message-unsubscribe = คุณต้องการเลิกบอกรับจากปฏิทิน "{ $name }" หรือไม่?
 # $title title
 week-title = สัปดาห์ { $title }
+# $title title
 week-title-label =
     .aria-label = สัปดาห์ { $title }
 calendar-none =
@@ -608,12 +609,16 @@ event-duration-label-weeks =
 show-calendar = แสดง { $name }
 # $name calendar name
 hide-calendar = ซ่อน { $name }
+# $name calendar name
 hide-calendar-title =
     .title = แสดง { $name }
+# $name calendar name
 show-calendar-title =
     .title = ซ่อน { $name }
+# $name calendar name
 show-calendar-label =
     .label = แสดง { $name }
+# $name calendar name
 hide-calendar-label =
     .label = ซ่อน { $name }
 # uses the access key calendar.context.showonly.accesskey

@@ -135,6 +135,7 @@ remove-calendar-message-delete = Naozaj chcete natrvalo odstrániť kalendár "{
 remove-calendar-message-unsubscribe = Naozaj sa chcete odhlásiť z kalendára "{ $name }"?
 # $title title
 week-title = { $title }. týždeň
+# $title title
 week-title-label =
     .aria-label = { $title }. týždeň
 calendar-none =
@@ -679,12 +680,16 @@ event-duration-label-weeks =
 show-calendar = Zobraziť kalendár { $name }
 # $name calendar name
 hide-calendar = Skryť kalendár { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Zobraziť kalendár { $name }
+# $name calendar name
 show-calendar-title =
     .title = Skryť kalendár { $name }
+# $name calendar name
 show-calendar-label =
     .label = Zobraziť kalendár { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Skryť kalendár { $name }
 # uses the access key calendar.context.showonly.accesskey

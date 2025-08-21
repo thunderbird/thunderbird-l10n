@@ -134,6 +134,7 @@ remove-calendar-message-delete = Anda ingin menghapus kalender "{ $name }" secar
 remove-calendar-message-unsubscribe = Anda ingin berhenti berlangganan kalender "{ $name }"?
 # $title title
 week-title = Minggu { $title }
+# $title title
 week-title-label =
     .aria-label = Minggu { $title }
 calendar-none =
@@ -609,12 +610,16 @@ event-duration-label-weeks =
 show-calendar = Tampilkan { $name }
 # $name calendar name
 hide-calendar = Sembunyikan { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Tampilkan { $name }
+# $name calendar name
 show-calendar-title =
     .title = Sembunyikan { $name }
+# $name calendar name
 show-calendar-label =
     .label = Tampilkan { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Sembunyikan { $name }
 # uses the access key calendar.context.showonly.accesskey

@@ -134,6 +134,7 @@ remove-calendar-message-delete = A bheil thu airson am mìosachan "{ $name }" a 
 remove-calendar-message-unsubscribe = A bheil thu airson sgur dhen fho-sgrìobhadh dhan mhìosachan "{ $name }"?
 # $title title
 week-title = Seachain { $title }
+# $title title
 week-title-label =
     .aria-label = Seachain { $title }
 calendar-none =
@@ -687,12 +688,16 @@ event-duration-label-weeks =
 show-calendar = Seall { $name }
 # $name calendar name
 hide-calendar = Falaich { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Seall { $name }
+# $name calendar name
 show-calendar-title =
     .title = Falaich { $name }
+# $name calendar name
 show-calendar-label =
     .label = Seall { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Falaich { $name }
 # uses the access key calendar.context.showonly.accesskey

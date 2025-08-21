@@ -134,6 +134,7 @@ remove-calendar-message-delete = Ar norite negrįžtamai sunaikinti kalendorių 
 remove-calendar-message-unsubscribe = Ar norite atsisakyti kalendoriaus „{ $name }“ prenumeratos?
 # $title title
 week-title = { $title } savaitė
+# $title title
 week-title-label =
     .aria-label = { $title } savaitė
 calendar-none =
@@ -606,12 +607,16 @@ unit-weeks =
 show-calendar = Rodyti „{ $name }“
 # $name calendar name
 hide-calendar = Nerodyti „{ $name }“
+# $name calendar name
 hide-calendar-title =
     .title = Rodyti „{ $name }“
+# $name calendar name
 show-calendar-title =
     .title = Nerodyti „{ $name }“
+# $name calendar name
 show-calendar-label =
     .label = Rodyti „{ $name }“
+# $name calendar name
 hide-calendar-label =
     .label = Nerodyti „{ $name }“
 # uses the access key calendar.context.showonly.accesskey

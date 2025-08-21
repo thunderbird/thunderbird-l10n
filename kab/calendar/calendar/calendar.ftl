@@ -134,6 +134,7 @@ remove-calendar-message-delete = Tebɣiḍ ad tekkseḍ i lebda awitay "{ $name 
 remove-calendar-message-unsubscribe = Tebɣiḍ ad teffɣeḍ seg ujerred ɣer uwitay "{ $name }"?
 # $title title
 week-title = Dduṛt { $title }
+# $title title
 week-title-label =
     .aria-label = Dduṛt { $title }
 calendar-none =
@@ -662,12 +663,16 @@ event-duration-label-weeks =
 show-calendar = Sken { $name }
 # $name calendar name
 hide-calendar = Ffer { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Sken { $name }
+# $name calendar name
 show-calendar-title =
     .title = Ffer { $name }
+# $name calendar name
 show-calendar-label =
     .label = Sken { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Ffer { $name }
 # uses the access key calendar.context.showonly.accesskey

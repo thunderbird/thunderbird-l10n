@@ -134,6 +134,7 @@ remove-calendar-message-delete = Quer excluir permanentemente a agenda "{ $name 
 remove-calendar-message-unsubscribe = Quer cancelar a inscrição na agenda "{ $name }"?
 # $title title
 week-title = Semana { $title }
+# $title title
 week-title-label =
     .aria-label = Semana { $title }
 calendar-none =
@@ -661,12 +662,16 @@ event-duration-label-weeks =
 show-calendar = Exibir { $name }
 # $name calendar name
 hide-calendar = Ocultar { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Exibir { $name }
+# $name calendar name
 show-calendar-title =
     .title = Ocultar { $name }
+# $name calendar name
 show-calendar-label =
     .label = Exibir { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Ocultar { $name }
 # uses the access key calendar.context.showonly.accesskey

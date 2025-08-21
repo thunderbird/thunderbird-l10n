@@ -134,6 +134,7 @@ remove-calendar-message-delete = Θέλετε να διαγράψετε ορισ
 remove-calendar-message-unsubscribe = Θέλετε να πάψετε να είστε συνδρομητής στο ημερολόγιο «{ $name }»;
 # $title title
 week-title = Εβδομάδα { $title }
+# $title title
 week-title-label =
     .aria-label = Εβδομάδα { $title }
 calendar-none =
@@ -661,12 +662,16 @@ event-duration-label-weeks =
 show-calendar = Εμφάνιση του «{ $name }»
 # $name calendar name
 hide-calendar = Απόκρυψη του «{ $name }»
+# $name calendar name
 hide-calendar-title =
     .title = Εμφάνιση του «{ $name }»
+# $name calendar name
 show-calendar-title =
     .title = Απόκρυψη του «{ $name }»
+# $name calendar name
 show-calendar-label =
     .label = Εμφάνιση του «{ $name }»
+# $name calendar name
 hide-calendar-label =
     .label = Απόκρυψη του «{ $name }»
 # uses the access key calendar.context.showonly.accesskey

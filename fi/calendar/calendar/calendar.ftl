@@ -134,6 +134,7 @@ remove-calendar-message-delete = Haluatko poistaa kalenterin "{ $name }" pysyvä
 remove-calendar-message-unsubscribe = Haluatko poistaa kalenterin "{ $name }" tilauksen?
 # $title title
 week-title = Viikko { $title }
+# $title title
 week-title-label =
     .aria-label = Viikko { $title }
 calendar-none =
@@ -661,12 +662,16 @@ event-duration-label-weeks =
 show-calendar = Näytä { $name }
 # $name calendar name
 hide-calendar = Piilota { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Näytä { $name }
+# $name calendar name
 show-calendar-title =
     .title = Piilota { $name }
+# $name calendar name
 show-calendar-label =
     .label = Näytä { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Piilota { $name }
 # uses the access key calendar.context.showonly.accesskey

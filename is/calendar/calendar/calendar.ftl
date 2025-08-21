@@ -134,6 +134,7 @@ remove-calendar-message-delete = Viltu eyða dagatali "{ $name }"?
 remove-calendar-message-unsubscribe = Viltu hætta í áskrift að dagatali "{ $name }"?
 # $title title
 week-title = Vika { $title }
+# $title title
 week-title-label =
     .aria-label = Vika { $title }
 calendar-none =
@@ -661,12 +662,16 @@ event-duration-label-weeks =
 show-calendar = Sýna { $name }
 # $name calendar name
 hide-calendar = Fela { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Sýna { $name }
+# $name calendar name
 show-calendar-title =
     .title = Fela { $name }
+# $name calendar name
 show-calendar-label =
     .label = Sýna { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Fela { $name }
 # uses the access key calendar.context.showonly.accesskey

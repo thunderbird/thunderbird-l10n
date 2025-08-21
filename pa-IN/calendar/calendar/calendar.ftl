@@ -115,6 +115,7 @@ timezone-errors-alert-title = Timezone Errors
 timezone-errors-see-console = See Error Console: Unknown timezones are treated as the 'floating' local timezone.
 # $title title
 week-title = ਹਫਤਾ { $title }
+# $title title
 week-title-label =
     .aria-label = ਹਫਤਾ { $title }
 calendar-none =

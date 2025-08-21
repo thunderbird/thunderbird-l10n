@@ -135,6 +135,7 @@ remove-calendar-message-delete = Vrei să ștergi definitiv calendarul „{ $nam
 remove-calendar-message-unsubscribe = Vrei să te dezabonezi de la calendarul „{ $name }”?
 # $title title
 week-title = Săptămâna { $title }
+# $title title
 week-title-label =
     .aria-label = Săptămâna { $title }
 calendar-none =
@@ -675,12 +676,16 @@ event-duration-label-weeks =
 show-calendar = Afișează { $name }
 # $name calendar name
 hide-calendar = Ascunde { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Afișează { $name }
+# $name calendar name
 show-calendar-title =
     .title = Ascunde { $name }
+# $name calendar name
 show-calendar-label =
     .label = Afișează { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Ascunde { $name }
 # uses the access key calendar.context.showonly.accesskey

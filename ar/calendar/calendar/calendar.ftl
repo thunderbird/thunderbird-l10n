@@ -134,6 +134,7 @@ remove-calendar-message-delete = أتريد حذف التقويم "{ $name }" ل
 remove-calendar-message-unsubscribe = أتريد إزالة الاشتراك من التقويم "{ $name }"؟
 # $title title
 week-title = الأسبوع { $title }
+# $title title
 week-title-label =
     .aria-label = الأسبوع { $title }
 calendar-none =
@@ -628,12 +629,16 @@ unit-weeks =
 show-calendar = أظهر { $name }
 # $name calendar name
 hide-calendar = أخف { $name }
+# $name calendar name
 hide-calendar-title =
     .title = أظهر { $name }
+# $name calendar name
 show-calendar-title =
     .title = أخف { $name }
+# $name calendar name
 show-calendar-label =
     .label = أظهر { $name }
+# $name calendar name
 hide-calendar-label =
     .label = أخف { $name }
 # uses the access key calendar.context.showonly.accesskey

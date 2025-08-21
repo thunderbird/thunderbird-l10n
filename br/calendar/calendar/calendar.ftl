@@ -86,6 +86,7 @@ remove-calendar-message-delete = Ha fellout a ra deoc'h diverkañ an deiziataer 
 remove-calendar-message-unsubscribe = Fellout a ra deoc'h digoumanantiñ eus an deiziataer "{ $name }"?
 # $title title
 week-title = Sizhun { $title }
+# $title title
 week-title-label =
     .aria-label = Sizhun { $title }
 calendar-none =
@@ -504,12 +505,16 @@ unit-weeks =
 show-calendar = Diskouez { $name }
 # $name calendar name
 hide-calendar = Kuzhat { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Diskouez { $name }
+# $name calendar name
 show-calendar-title =
     .title = Kuzhat { $name }
+# $name calendar name
 show-calendar-label =
     .label = Diskouez { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Kuzhat { $name }
 # uses the access key calendar.context.showonly.accesskey

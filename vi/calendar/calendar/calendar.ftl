@@ -134,6 +134,7 @@ remove-calendar-message-delete = Bạn có muốn xóa vĩnh viễn lịch "{ $n
 remove-calendar-message-unsubscribe = Bạn có muốn hủy đăng ký từ lịch "{ $name }" không?
 # $title title
 week-title = Tuần { $title }
+# $title title
 week-title-label =
     .aria-label = Tuần { $title }
 calendar-none =
@@ -609,12 +610,16 @@ event-duration-label-weeks =
 show-calendar = Hiển thị { $name }
 # $name calendar name
 hide-calendar = Ẩn { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Hiển thị { $name }
+# $name calendar name
 show-calendar-title =
     .title = Ẩn { $name }
+# $name calendar name
 show-calendar-label =
     .label = Hiển thị { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Ẩn { $name }
 # uses the access key calendar.context.showonly.accesskey

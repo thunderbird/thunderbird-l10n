@@ -136,6 +136,7 @@ remove-calendar-message-delete = Chceće protyku "{ $name }" na přeco zhašeć?
 remove-calendar-message-unsubscribe = Chceće protyku "{ $name }" wotskazać?
 # $title title
 week-title = Tydźeń { $title }
+# $title title
 week-title-label =
     .aria-label = Tydźeń { $title }
 calendar-none =
@@ -689,12 +690,16 @@ event-duration-label-weeks =
 show-calendar = { $name } pokazać
 # $name calendar name
 hide-calendar = { $name } schować
+# $name calendar name
 hide-calendar-title =
     .title = { $name } pokazać
+# $name calendar name
 show-calendar-title =
     .title = { $name } schować
+# $name calendar name
 show-calendar-label =
     .label = { $name } pokazać
+# $name calendar name
 hide-calendar-label =
     .label = { $name } schować
 # uses the access key calendar.context.showonly.accesskey

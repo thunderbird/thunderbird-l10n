@@ -47,6 +47,7 @@ remove-calendar-button-delete = Tiyuj Cholb'äl Q'ij
 remove-calendar-button-unsubscribe = Tiq'at rutz'ib'axik b'i'aj
 # $title title
 week-title = Wuqq'ij { $title }
+# $title title
 week-title-label =
     .aria-label = Wuqq'ij { $title }
 calendar-none =
@@ -266,12 +267,16 @@ unit-weeks =
 show-calendar = Tik'ut { $name }
 # $name calendar name
 hide-calendar = Tewäx { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Tik'ut { $name }
+# $name calendar name
 show-calendar-title =
     .title = Tewäx { $name }
+# $name calendar name
 show-calendar-label =
     .label = Tik'ut { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Tewäx { $name }
 # uses the access key calendar.context.showonly.accesskey

@@ -85,6 +85,7 @@ remove-calendar-message-delete = "{ $name }" taqvimini butunlay o‘chirib tashl
 remove-calendar-message-unsubscribe = "{ $name }" taqvimi obunasidan voz kechishni xohlaysizmi?
 # $title title
 week-title = { $title }-hafta
+# $title title
 week-title-label =
     .aria-label = { $title }-hafta
 calendar-none =
@@ -527,12 +528,16 @@ unit-weeks =
 show-calendar = { $name }’ni ko‘rsatish
 # $name calendar name
 hide-calendar = { $name }’ni yashirish
+# $name calendar name
 hide-calendar-title =
     .title = { $name }’ni ko‘rsatish
+# $name calendar name
 show-calendar-title =
     .title = { $name }’ni yashirish
+# $name calendar name
 show-calendar-label =
     .label = { $name }’ni ko‘rsatish
+# $name calendar name
 hide-calendar-label =
     .label = { $name }’ni yashirish
 # uses the access key calendar.context.showonly.accesskey

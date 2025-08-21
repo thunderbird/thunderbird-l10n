@@ -135,6 +135,7 @@ remove-calendar-message-delete = Да ли желите трајно обрис�
 remove-calendar-message-unsubscribe = Да ли желите укинути претплату на календар „{ $name }“?
 # $title title
 week-title = Недеља { $title }
+# $title title
 week-title-label =
     .aria-label = Недеља { $title }
 calendar-none =
@@ -617,12 +618,16 @@ unit-weeks =
 show-calendar = Прикажи { $name }
 # $name calendar name
 hide-calendar = Сакриј { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Прикажи { $name }
+# $name calendar name
 show-calendar-title =
     .title = Сакриј { $name }
+# $name calendar name
 show-calendar-label =
     .label = Прикажи { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Сакриј { $name }
 # uses the access key calendar.context.showonly.accesskey

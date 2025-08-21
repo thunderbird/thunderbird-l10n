@@ -136,6 +136,7 @@ remove-calendar-message-delete = Ali želite trajno izbrisati koledar '{ $name }
 remove-calendar-message-unsubscribe = Ali se želite odjaviti od koledarja "{ $name }"?
 # $title title
 week-title = { $title }. teden
+# $title title
 week-title-label =
     .aria-label = { $title }. teden
 calendar-none =
@@ -689,12 +690,16 @@ event-duration-label-weeks =
 show-calendar = Prikaži { $name }
 # $name calendar name
 hide-calendar = Skrij { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Prikaži { $name }
+# $name calendar name
 show-calendar-title =
     .title = Skrij { $name }
+# $name calendar name
 show-calendar-label =
     .label = Prikaži { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Skrij { $name }
 # uses the access key calendar.context.showonly.accesskey

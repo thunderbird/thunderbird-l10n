@@ -134,6 +134,7 @@ remove-calendar-message-delete = Doni të fshihet kalendari "{ $name }" përgjit
 remove-calendar-message-unsubscribe = Doni të shpajtoheni nga kalendari "{ $name }"?
 # $title title
 week-title = Java e { $title }
+# $title title
 week-title-label =
     .aria-label = Java e { $title }
 calendar-none =
@@ -662,12 +663,16 @@ event-duration-label-weeks =
 show-calendar = Shfaq { $name }
 # $name calendar name
 hide-calendar = Fshihe { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Shfaq { $name }
+# $name calendar name
 show-calendar-title =
     .title = Fshihe { $name }
+# $name calendar name
 show-calendar-label =
     .label = Shfaq { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Fshihe { $name }
 # uses the access key calendar.context.showonly.accesskey

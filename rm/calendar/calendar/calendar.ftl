@@ -134,6 +134,7 @@ remove-calendar-message-delete = Vuls ti stizzar definitivamain il chalender "{ 
 remove-calendar-message-unsubscribe = Vuls ti deabunar il chalender "{ $name }"?
 # $title title
 week-title = Emna { $title }
+# $title title
 week-title-label =
     .aria-label = Emna { $title }
 calendar-none =
@@ -661,12 +662,16 @@ event-duration-label-weeks =
 show-calendar = Mussar { $name }
 # $name calendar name
 hide-calendar = Zuppentar { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Mussar { $name }
+# $name calendar name
 show-calendar-title =
     .title = Zuppentar { $name }
+# $name calendar name
 show-calendar-label =
     .label = Mussar { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Zuppentar { $name }
 # uses the access key calendar.context.showonly.accesskey

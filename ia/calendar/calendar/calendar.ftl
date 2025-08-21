@@ -134,6 +134,7 @@ remove-calendar-message-delete = Desira tu deler permanentemente le agenda "{ $n
 remove-calendar-message-unsubscribe = Desira tu de-rolar del agenda "{ $name }"?
 # $title title
 week-title = Septimana: { $title }
+# $title title
 week-title-label =
     .aria-label = Septimana: { $title }
 calendar-none =
@@ -661,12 +662,16 @@ event-duration-label-weeks =
 show-calendar = Monstrar { $name }
 # $name calendar name
 hide-calendar = Celar { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Monstrar { $name }
+# $name calendar name
 show-calendar-title =
     .title = Celar { $name }
+# $name calendar name
 show-calendar-label =
     .label = Monstrar { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Celar { $name }
 # uses the access key calendar.context.showonly.accesskey

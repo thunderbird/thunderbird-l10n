@@ -134,6 +134,7 @@ remove-calendar-message-delete = Betiko ezabatu nahi duzu "{ $name }" egutegia?
 remove-calendar-message-unsubscribe = "{ $name }" egutegiaren harpidetza kendu nahi duzu?
 # $title title
 week-title = { $title } astea
+# $title title
 week-title-label =
     .aria-label = { $title } astea
 calendar-none =
@@ -661,12 +662,16 @@ event-duration-label-weeks =
 show-calendar = Erakutsi { $name }
 # $name calendar name
 hide-calendar = Ezkutatu { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Erakutsi { $name }
+# $name calendar name
 show-calendar-title =
     .title = Ezkutatu { $name }
+# $name calendar name
 show-calendar-label =
     .label = Erakutsi { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Ezkutatu { $name }
 # uses the access key calendar.context.showonly.accesskey

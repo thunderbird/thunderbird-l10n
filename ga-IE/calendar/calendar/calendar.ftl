@@ -86,6 +86,7 @@ remove-calendar-message-delete = An bhfuil fonn ort féilire "{ $name }" a scrio
 remove-calendar-message-unsubscribe = An bhfuil fonn ort díliostáil ó fhéilire "{ $name }"?
 # $title title
 week-title = Seachtain { $title }
+# $title title
 week-title-label =
     .aria-label = Seachtain { $title }
 calendar-none =
@@ -559,12 +560,16 @@ unit-weeks =
 show-calendar = Taispeáin { $name }
 # $name calendar name
 hide-calendar = Folaigh { $name }
+# $name calendar name
 hide-calendar-title =
     .title = Taispeáin { $name }
+# $name calendar name
 show-calendar-title =
     .title = Folaigh { $name }
+# $name calendar name
 show-calendar-label =
     .label = Taispeáin { $name }
+# $name calendar name
 hide-calendar-label =
     .label = Folaigh { $name }
 # uses the access key calendar.context.showonly.accesskey

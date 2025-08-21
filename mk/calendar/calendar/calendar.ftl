@@ -59,6 +59,7 @@ duplicate-error =
 unable-to-create-provider = Настана грешка при употребната подготовка на календарот лоциран на { $location }. Тој нема да биде достапен.
 # $title title
 week-title = Седмица { $title }
+# $title title
 week-title-label =
     .aria-label = Седмица { $title }
 calendar-none =
