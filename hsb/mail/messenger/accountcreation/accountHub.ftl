@@ -116,6 +116,8 @@ address-book-finding-remote-address-books = Adresniki so pytaja …
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = { $url } je za to znaty, zo je inkompatibelny z { -brand-short-name }.
 address-book-carddav-connection-error = Zwisk móžny njeje.
+address-book-ldap-duplicate-error = Mjeno zapisa LDAP hižo eksistuje. Prošu zapodajće druhe zapisowe mjeno.
+address-book-ldap-creation-error = Zapis LDAP njeda so załožić.
 account-hub-result-username-label = Wužiwarske mjeno
     .title = Wužiwarske mjeno
 account-hub-name-label = Dospołne mjeno
