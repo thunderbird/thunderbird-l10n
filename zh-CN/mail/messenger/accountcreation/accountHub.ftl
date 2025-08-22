@@ -116,6 +116,7 @@ address-book-finding-remote-address-books = 正在搜索通讯录…
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = { $url } 与 { -brand-short-name } 已知不兼容。
 address-book-carddav-connection-error = 连接失败。
+address-book-ldap-creation-error = 无法创建 LDAP 目录。
 account-hub-result-username-label = 用户名
     .title = 用户名
 account-hub-name-label = 全名
