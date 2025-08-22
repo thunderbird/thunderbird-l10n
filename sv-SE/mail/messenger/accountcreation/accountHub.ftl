@@ -116,6 +116,7 @@ address-book-finding-remote-address-books = Söker efter adressböcker…
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = { $url } är känt för att vara inkompatibelt med { -brand-short-name }.
 address-book-carddav-connection-error = Det gick inte att ansluta.
+address-book-ldap-duplicate-error = Namnet på LDAP-katalog finns redan. Vänligen ange ett annat katalognamn.
 address-book-ldap-creation-error = Det gick inte att skapa LDAP-katalog.
 account-hub-result-username-label = Användarnamn
     .title = Användarnamn
