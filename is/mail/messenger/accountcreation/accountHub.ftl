@@ -116,6 +116,8 @@ address-book-finding-remote-address-books = Leita að nafnaskrám…
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = Vitað er að { $url } er ósamhæft við { -brand-short-name }.
 address-book-carddav-connection-error = Ekki tókst að tengjast.
+address-book-ldap-duplicate-error = Heiti LDAP-möppunnar er þegar til staðar. Settu inn annað nafn á möppuna.
+address-book-ldap-creation-error = Gat ekki útbúið LDAP-möppu.
 account-hub-result-username-label = Notandanafn
     .title = Notandanafn
 account-hub-name-label = Fullt nafn
