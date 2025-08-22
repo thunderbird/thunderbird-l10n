@@ -116,6 +116,8 @@ address-book-finding-remote-address-books = Đang tìm kiếm các sổ địa c
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = { $url } được biết là không tương thích với { -brand-short-name }.
 address-book-carddav-connection-error = Không thể kết nối.
+address-book-ldap-duplicate-error = Tên thư mục LDAP đã tồn tại. Vui lòng nhập tên thư mục khác.
+address-book-ldap-creation-error = Không thể tạo Thư mục LDAP.
 account-hub-result-username-label = Tên đăng nhập
     .title = Tên đăng nhập
 account-hub-name-label = Tên đầy đủ
