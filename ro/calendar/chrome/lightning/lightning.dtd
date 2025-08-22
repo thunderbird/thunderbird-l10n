@@ -63,7 +63,7 @@
 <!ENTITY lightning.imipbar.btnGoToCalendar.label "Calendar">
 <!ENTITY lightning.imipbar.btnGoToCalendar.tooltiptext "Mergi pe fila de calendar">
 <!ENTITY lightning.imipbar.btnMore.label "Mai mult">
-<!ENTITY lightning.imipbar.btnMore.tooltiptext "Clic pentru a se afișa mai multe opțiuni">
+<!ENTITY lightning.imipbar.btnMore.tooltiptext "Clic pentru afișarea mai multor opțiuni">
 <!ENTITY lightning.imipbar.btnReconfirm2.label "Reconfirmare">
 <!ENTITY lightning.imipbar.btnReconfirm.tooltiptext "Trimite o reconfirmare organizatorului">
 <!ENTITY lightning.imipbar.btnReschedule.label "Reprogramează">
