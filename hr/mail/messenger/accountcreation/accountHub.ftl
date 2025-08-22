@@ -116,6 +116,8 @@ address-book-finding-remote-address-books = Traženje adresara…
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = Poznato je da { $url } nije kompatibilan s { -brand-short-name }.
 address-book-carddav-connection-error = Neuspjelo povezivanje.
+address-book-ldap-duplicate-error = Naziv LDAP mape već postoji. Unesite drugi naziv mape.
+address-book-ldap-creation-error = Nije moguće stvoriti LDAP mapu.
 account-hub-result-username-label = Korisničko ime
     .title = Korisničko ime
 account-hub-name-label = Puno ime
