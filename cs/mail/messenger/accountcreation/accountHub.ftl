@@ -116,6 +116,8 @@ address-book-finding-remote-address-books = Vyhledávání složek kontaktů…
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = Adresa { $url } je známa jako nekompatibilní s aplikací { -brand-short-name }.
 address-book-carddav-connection-error = Chyba spojení.
+address-book-ldap-duplicate-error = Název adresáře LDAP již existuje. Zadejte prosím jiný název adresáře.
+address-book-ldap-creation-error = Nelze vytvořit LDAP adresář.
 account-hub-result-username-label = Uživatelské jméno
     .title = Uživatelské jméno
 account-hub-name-label = Celé jméno
