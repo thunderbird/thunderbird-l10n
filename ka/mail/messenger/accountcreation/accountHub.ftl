@@ -116,6 +116,8 @@ address-book-finding-remote-address-books = მისამართების
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = ცნობილია, რომ { $url } და { -brand-short-name } შეუთავსებლებია.
 address-book-carddav-connection-error = დაკავშირება ვერ მოხერხდა.
+address-book-ldap-duplicate-error = LDAP-საქაღალდის სახელი უკვე არსებობს. გთხოვთ მიუთითოთ სხვა საქაღალდის სახელი.
+address-book-ldap-creation-error = ვერ შეიქმნა LDAP-საქაღალდე.
 account-hub-result-username-label = მეტსახელი
     .title = მეტსახელი
 account-hub-name-label = სრული სახელი
