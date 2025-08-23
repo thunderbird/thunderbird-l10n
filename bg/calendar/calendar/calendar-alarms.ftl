@@ -54,4 +54,4 @@ reminder-readonly-notification = Напомнянията от календар�
 # LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
 # This tooltip is only displayed, if the button is disabled
 reminder-disabled-snooze-button-tooltip =
-    .tooltiptext = Отлагане на напомняния е неподдържано за календари, достъпни само са четене
+    .tooltiptext = Отлагането на напомняния е неподдържано за календари, достъпни само за четене
