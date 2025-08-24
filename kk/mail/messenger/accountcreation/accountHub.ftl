@@ -116,6 +116,8 @@ address-book-finding-remote-address-books = Адрестік кітапшала�
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = { $url } қызметі { -brand-short-name } өнімімен үйлесімсіз екені белгілі.
 address-book-carddav-connection-error = Байланысты орнату сәтсіз аяқталды.
+address-book-ldap-duplicate-error = Бұл LDAP бума атауы бар болып тұр. Басқа атауын енгізіңіз.
+address-book-ldap-creation-error = LDAP бумасын жасау мүмкін болмады.
 account-hub-result-username-label = Пайдаланушы аты
     .title = Пайдаланушы аты
 account-hub-name-label = Толық аты
