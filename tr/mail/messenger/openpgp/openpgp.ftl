@@ -21,6 +21,11 @@ e2e-csr-button =
 e2e-csr-select-title = CSR algoritması
 # Do not translate: RSA, ECC, S/MIME
 e2e-csr-select-alg = ﻿﻿Yeni S/MIME sertifikası için şifreleme algoritmanız olarak RSA (önerilen) veya ECC arasından seçim yapın.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = { -brand-short-name } ayarlarında yeni bir { $type } { $strength } gizli anahtar oluşturulacak. Bu işlem biraz zaman alabilir ve uygulamanın geçici olarak yanıt vermemesine neden olabilir. Lütfen bu adım sırasında sabırlı olun. Bu sırada Sertifika İmzalama İsteği (CSR) dosyası oluşturulup { $file } adıyla kaydedilecektir.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = E-posta adresini ({ $email }) CSR içine dahil et (önerilir)
@@ -338,6 +343,9 @@ openpgp-description-has-keys =
     }
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Geçerli yapılandırmalarınızda <b>{ $key }</b> anahtar kimliği kullanılıyor
+#   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Mevcut yapılandırmanız <b>{ $key }</b> anahtarını kullanıyor ve bu anahtarın süresi { $when } dolacak. Anahtarın geçerliliğini korumak için son kullanma tarihini şimdi uzatabilirsiniz.
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Geçerli yapılandırmanızda süresi dolmuş <b>{ $key }</b> anahtarı kullanılıyor.
 openpgp-add-key-button =

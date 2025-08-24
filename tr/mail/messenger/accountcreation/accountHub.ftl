@@ -116,6 +116,8 @@ address-book-finding-remote-address-books = Adres defterleri aranıyor…
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = { $url } { -brand-short-name } ile uyumsuzdur.
 address-book-carddav-connection-error = Bağlantı kurulamadı.
+address-book-ldap-duplicate-error = LDAP dizin adı zaten mevcut. Lütfen farklı bir dizin adı girin.
+address-book-ldap-creation-error = LDAP dizini oluşturulamadı.
 account-hub-result-username-label = Kullanıcı adı
     .title = Kullanıcı adı
 account-hub-name-label = Tam isim
