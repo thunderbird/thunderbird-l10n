@@ -14,7 +14,7 @@
 <!ENTITY ignoreButton.label "Ignorieren">
 <!ENTITY ignoreButton.accessKey "I">
 <!ENTITY ignoreAllButton.label "Alle ignorieren">
-<!ENTITY ignoreAllButton.accessKey "g">
+<!ENTITY ignoreAllButton.accessKey "n">
 <!ENTITY replaceButton.label "Ersetzen">
 <!ENTITY replaceButton.accessKey "E">
 <!ENTITY replaceAllButton.label "Alle ersetzen">
