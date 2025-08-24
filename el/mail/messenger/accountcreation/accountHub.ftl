@@ -116,6 +116,7 @@ address-book-finding-remote-address-books = Αναζήτηση για ευρετ
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = Το { $url } είναι γνωστό ότι δεν είναι συμβατό με το { -brand-short-name }.
 address-book-carddav-connection-error = Αποτυχία σύνδεσης.
+address-book-ldap-creation-error = Δεν ήταν δυνατή η δημιουργία του καταλόγου LDAP.
 account-hub-result-username-label = Όνομα χρήστη
     .title = Όνομα χρήστη
 account-hub-name-label = Πλήρες όνομα
