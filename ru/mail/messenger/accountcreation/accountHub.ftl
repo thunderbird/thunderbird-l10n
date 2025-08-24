@@ -116,6 +116,8 @@ address-book-finding-remote-address-books = Поиск адресных книг
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = Известно, что { $url } несовместим с { -brand-short-name }.
 address-book-carddav-connection-error = Ошибка соединения.
+address-book-ldap-duplicate-error = Каталог LDAP с таким именем уже существует. Введите другое имя каталога.
+address-book-ldap-creation-error = Не удалось создать каталог LDAP.
 account-hub-result-username-label = Имя пользователя
     .title = Имя пользователя
 account-hub-name-label = Полное имя
