@@ -442,7 +442,7 @@ error-description = Описание:  { $errorDescription }
 error-writing2 = Възникна грешка при писане в календара { $name }! Вижте по-долу за повече информация.
 # LOCALIZATION NOTE (error-writing-details):
 # This will be displayed in the detail section of the error dialog
-error-writing-details = Ако четете това съобщение след като сте отложили или отказали напомняне, което е от календар, към който не желаете да добавяте или променяте събития може да го направите достъпен само за четене. Така ще избегнете подобна ситуация в бъдеще. За да промените календара щракнете с десен бутон върху него в списъка с календари в изгледа за календар или задачи.
+error-writing-details = Ако четете това съобщение след като сте отложили или отказали напомняне, което е от календар, към който не желаете да добавяте или променяте събития, може да го направите достъпен само за четене. Така ще избегнете подобна ситуация в бъдеще. За да промените календара, щракнете с десен бутон върху него в списъка с календари в изгледа за календар или задачи.
 # LOCALIZATION NOTE (tooltip-calendar-disabled):
 # used for an alert-message like 'The calendar Home is momentarily not available'
 #    $name will be replaced with the name of a calendar
