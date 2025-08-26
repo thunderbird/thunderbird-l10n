@@ -5,7 +5,7 @@
 
 ## Header
 
-account-setup-description = Pentru a folosi adresa ta de e-mail actuală, completează credențialele.
+account-setup-description = Pentru a folosi adresa ta de e-mail actuală, completează datele de autentificare.
 
 ## Form fields
 
@@ -15,7 +15,7 @@ account-setup-name-input =
 
 ## Illustrations
 
-account-setup-privacy-footnote2 = Credențialele tale vor fi stocate doar local pe calculator.
+account-setup-privacy-footnote2 = Datele tale de autentificare vor fi stocate doar local pe calculator.
 account-setup-getting-started = Noțiuni introductive
 
 ## Error messages

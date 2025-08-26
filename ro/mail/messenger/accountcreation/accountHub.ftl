@@ -9,4 +9,4 @@
 
 ## Incoming/Outgoing SSL options
 
-account-hub-password-info = Credențialele tale vor fi stocate doar local pe calculator
+account-hub-password-info = Datele tale de autentificare vor fi stocate doar local pe calculator
