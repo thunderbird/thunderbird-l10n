@@ -13,7 +13,7 @@
 <!ENTITY name.accesskey "N">
 <!ENTITY email.label "Adresa de e-mail:">
 <!ENTITY email.accesskey "d">
-<!ENTITY catchAll.label "Răspunde de pe această identitate atunci când antetele de livrare se potrivesc cu:">
+<!ENTITY catchAll.label "Răspunde de pe această identitate când anteturile de livrare se potrivesc cu:">
 <!ENTITY catchAll.accesskey "d">
 <!ENTITY replyTo.label "Adresă pentru răspuns:">
 <!ENTITY replyTo.accesskey "s">
