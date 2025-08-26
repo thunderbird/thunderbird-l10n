@@ -24,7 +24,6 @@ calendar-delete-event-prompt-message =
 calendar-delete-task-prompt-title =
     { $count ->
         [one] Șterge sarcina
-        [few] Șterge sarcinile
        *[other] Șterge sarcinile
     }
 calendar-delete-task-prompt-message =

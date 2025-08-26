@@ -150,7 +150,7 @@ command-topic = { $commandName } &lt;topic&gt;: Setează subiectul camerei. Nece
 # $commandName is the command name
 command-unban = { $commandName } &lt;userId&gt;: Anulează interzicerea accesului unui utilizator interzis în cameră. Necesită permisiune pentru interzicerea utilizatorilor.
 # $commandName is the command name
-command-visibility = { $commandName } [&lt;visibility&gt;]: Setează vizibilitatea camerei actuale în directorul de camere al serverului local la care ești conectat(ă). Introdu un număr întreg, Privată: 0 și Publică: 1. Implicit va fi Privată (0) dacă nu se dă niciun argument. Necesită permisiunea de modificare a vizibilității camerei.
+command-visibility = { $commandName } [&lt;vizibilitate&gt;]: Setează vizibilitatea camerei actuale în directorul de camere al serverului local la care ești conectat(ă). Introdu un număr întreg, Privată: 0 și Publică: 1. Implicit va fi Privată (0) dacă nu se dă niciun argument. Necesită permisiunea de modificare a vizibilității camerei.
 # $commandName is the command name
 command-guest = { $commandName } <acces invitat> <vizibilitate istoric>: Setează accesul și vizibilitatea istoricului camerei actuale pentru utilizatorii invitați. Introdu două numere întregi, primul pentru accesul oaspeților (interzis: 0 și permis: 1) și a doua pentru vizibilitatea istoricului (invizibil: 0 și vizibil: 1). Necesită permisiunea de modificare a vizibilității istoricului.
 # $commandName is the command name
