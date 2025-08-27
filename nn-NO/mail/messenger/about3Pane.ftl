@@ -495,8 +495,8 @@ message-list-placeholder-multiple-folders = Fleire mapper valde
 folder-pane-context-mark-folder-read =
     .label =
         { $count ->
-            [one] Merk mappe som lesen
-           *[other] Merk mappe som lesen
+            [one] Merk mappa som lesen
+           *[other] Merk mapper som lesne
         }
     .accesskey = M
 # Note: We also use the R accesskey for the Rename label but both can't be
