@@ -187,7 +187,7 @@ address-book-sync-existing-icon =
 address-book-sync-existing = Синхронизиране със съществуващ профил
 address-book-add-remote-icon =
     .alt = Добавяне на нов отдалечен адресник
-address-book-add-remote = Премахване на отдалечен адресник
+address-book-add-remote = Добавяне на отдалечен адресник
 address-book-add-remote-description = Свързване към отдалечен CardDav адресник
 address-book-add-local-icon =
     .alt = Създаване на нов местен адресник
@@ -209,7 +209,7 @@ account-hub-address-book-sync-option-data =
             }
        *[other]
             { $accounts ->
-                [one] Налични са  { $addressBooks } адресник от { $accounts } профи
+                [one] Налични са  { $addressBooks } адресника от { $accounts } профил
                *[other] Налични са  { $addressBooks } адресника от { $accounts } профила
             }
     }
