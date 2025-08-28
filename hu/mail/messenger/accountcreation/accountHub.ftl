@@ -116,6 +116,8 @@ address-book-finding-remote-address-books = Címjegyzékek keresése…
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = A(z) { $url } nem kompatibilis a { -brand-short-name }del.
 address-book-carddav-connection-error = A kapcsolódás sikertelen.
+address-book-ldap-duplicate-error = Az LDAP-címtárnév már létezik. Adjon meg egy másik címtárnevet.
+address-book-ldap-creation-error = Nem sikerült létrehozni az LDAP-címtárat.
 account-hub-result-username-label = Felhasználónév
     .title = Felhasználónév
 account-hub-name-label = Teljes név
