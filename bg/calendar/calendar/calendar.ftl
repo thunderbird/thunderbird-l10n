@@ -86,7 +86,7 @@ paste-dont-notify-label = Поставяне без изпращане
 # LOCALIZATION NOTE (import-items-failed):
 #    $count will be replaced with number of failed items
 #    $error will be replaced with last error code / error string
-import-items-failed = Неуспешно внасяне на { $count } елементи. Последната грешка е: { $error }
+import-items-failed = Неуспешно внасяне на { $count } елемента. Последната грешка е: { $error }
 # LOCALIZATION NOTE (no-items-in-calendar-file2):
 #    $filePath will be replaced with file path
 no-items-in-calendar-file2 = Не може да се внесе от { $filePath }. В този файл няма елементи за внасяне.
@@ -123,7 +123,7 @@ remove-calendar-button-unsubscribe = Отписване
 # LOCALIZATION NOTE (remove-calendar-message-delete-or-unsubscribe): Shown for
 # calendar where both deleting and unsubscribing is possible.
 # $name:  The name of a calendar
-remove-calendar-message-delete-or-unsubscribe = Искате ли да премахнете календара „{ $name }“? Отписването ще премахне календара от списъка, а делегирането допълнително ще изтрие завинаги данните.
+remove-calendar-message-delete-or-unsubscribe = Искате ли да премахнете календара „{ $name }“? Отписването ще премахне календара от списъка, премахването също така ще изтрие завинаги данните.
 # LOCALIZATION NOTE (remove-calendar-message-delete): Shown for calendar where
 # deleting is the only option.
 # $name:  The name of a calendar
@@ -204,7 +204,7 @@ minor-error = Възникна греша при четене на информ�
 # LOCALIZATION NOTE (still-read-only-error):
 # used for an message like 'There has been an error reading data for calendar: Home.'
 #    $name will be replaced with the name of a calendar
-still-read-only-error = Възникна греша при четене на информация от календар: { $name }.
+still-read-only-error = Възникна грешка при четене на информация от календар: { $name }.
 utf8-decode-error = Възникна грешка при декодиране на  iCalendar (ics) файл във формат UTF-8. Проверете дали файлът, включително символите и буквите с ударение, е кодиран в UTF-8.
 ics-malformed-error = Анализирането на  iCalendar (ics) файл се провали. Проверете дали този файл отговаря на синтаксиса на  iCalendar (ics).
 item-modified-on-server-title = Промени се елемент на сървъра
