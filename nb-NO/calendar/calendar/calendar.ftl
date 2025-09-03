@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Skjul { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Vis { $name }
+    .accesskey = V
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Skjul { $name }
+    .accesskey = S
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Vis bare { $name }
+    .accesskey = b
 # $name calendar name
 show-calendar-label =
     .label = Vis { $name }
@@ -776,6 +791,18 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Fullført
     .accesskey = F
+calendar-context-progress =
+    .label = Fremdrift
+    .accesskey = F
+calendar-context-priority =
+    .label = Prioritet
+    .accesskey = r
+calendar-context-postpone =
+    .label = Utsett oppgave
+    .accesskey = U
+calendar-context-mark-completed =
+    .label = Marker som fullført
+    .accesskey = M
 calendar-context-postpone-1hour =
     .label = 1 time
     .accesskey = t
