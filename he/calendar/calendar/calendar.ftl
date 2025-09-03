@@ -590,6 +590,11 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = הסתרת { $name }
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = הסתרת { $name }
+    .accesskey = ס
 # $name calendar name
 show-calendar-label =
     .label = הצגת { $name }
@@ -677,6 +682,33 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = הושלמו
     .accesskey = ש
+calendar-context-progress =
+    .label = התקדמות
+    .accesskey = ק
+calendar-context-priority =
+    .label = עדיפות
+    .accesskey = ע
+calendar-context-postpone =
+    .label = דחיית משימה
+    .accesskey = ד
+calendar-context-mark-completed =
+    .label = סמן שהושלמה
+    .accesskey = ש
+calendar-context-postpone-1hour =
+    .label = שעה אחת
+    .accesskey = ש
+calendar-context-postpone-1day =
+    .label = יממה
+    .accesskey = י
+calendar-context-postpone-1week =
+    .label = שבוע
+    .accesskey = ש
+calendar-context-new-server =
+    .label = לוח שנה חדש
+    .accesskey = ל
+calendar-context-delete-server =
+    .label = מחיקת לוח שנה…
+    .accesskey = ח
 calendar-context-remove-server =
     .label = הסרת לוח שנה…
     .accesskey = ס
