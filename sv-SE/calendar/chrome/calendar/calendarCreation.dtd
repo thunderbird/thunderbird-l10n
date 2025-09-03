@@ -34,5 +34,6 @@
 <!ENTITY network.loading.description "Var god vänta medan dina kalendrar undersöks.">
 <!ENTITY network.notfound.description "Kan inte hitta någon kalender på denna adress. Var god kontrollera dina inställningar.">
 <!ENTITY network.authfail.description "Inloggningen du angav fungerade inte. Var god kontrollera dina inställningar.">
+<!ENTITY network.certerror.description "Det gick inte att hitta kalendrar på den här platsen på grund av ett certifikatproblem.">
 <!ENTITY network.subscribe.single.description "Välj de kalendrar du vill prenumerera på.">
 <!ENTITY network.subscribe.multiple.description "Flera kalendertyper är tillgängliga på denna adress. Välj en kalendertyp och markera sedan de kalendrar du vill prenumerera på.">
