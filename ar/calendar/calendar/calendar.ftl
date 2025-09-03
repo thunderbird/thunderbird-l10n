@@ -635,6 +635,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = أخف { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = أظهر { $name }
+    .accesskey = ظ
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = أخف { $name }
+    .accesskey = خ
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = أظهر فقط { $name }
+    .accesskey = ط
 # $name calendar name
 show-calendar-label =
     .label = أظهر { $name }
@@ -743,6 +758,18 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = اكتمل
     .accesskey = ل
+calendar-context-progress =
+    .label = التقدم
+    .accesskey = ق
+calendar-context-priority =
+    .label = الأولوية
+    .accesskey = و
+calendar-context-postpone =
+    .label = أجّل المهمة
+    .accesskey = ج
+calendar-context-mark-completed =
+    .label = علّم كمكتملة
+    .accesskey = ك
 calendar-context-postpone-1hour =
     .label = ساعة واحدة
     .accesskey = س
