@@ -19,7 +19,7 @@ cert-error-untrusted-default = Il certificato per { $hostname } non proviene da 
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
-    .title = Errore di connessione. Il certificato per { $hostname } non è valido per quel server. È possibile che qualcuno stia tentando di sostituirsi al server e non dovresti continuare. Fare clic per aprire le impostazioni di sicurezza del server.
+    .title = Errore di connessione. Il certificato per { $hostname } non è valido per quel server. È possibile che qualcuno stia tentando di sostituirsi al server ed è sconsigliato continuare. Fare clic per aprire le impostazioni di sicurezza del server.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 #   $not-after (string) - Certificate is not valid after this time.
@@ -48,7 +48,7 @@ certificate-check-success = Il certificato per { $hostname } sembra essere valid
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-failure = Impossibile recuperare il certificato per { $hostname }.
 certificate-check-exception-added = Aggiunta eccezione per il certificato.
-certificate-check-exception-removed = Eccezione certificato rimossa.
+certificate-check-exception-removed = Rimossa eccezione per il certificato.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-exception-exists = Esiste un’eccezione certificato per { $hostname }.
+certificate-check-exception-exists = Esiste un’eccezione per il certificato di { $hostname }.

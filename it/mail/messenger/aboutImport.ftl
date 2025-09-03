@@ -76,7 +76,7 @@ items-pane-checkbox-address-books = Rubriche
 items-pane-checkbox-calendars = Calendari
 items-pane-checkbox-mail-messages = Messaggi di posta
 items-pane-override = Eventuali dati esistenti o identici non verranno sovrascritti.
-items-pane-nothing-to-import = Non è possibile importare nulla dalla sorgente selezionata.
+items-pane-nothing-to-import = Importazione non riuscita dalla sorgente selezionata.
 
 ## Import from address book file steps
 
