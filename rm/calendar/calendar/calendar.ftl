@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Zuppentar { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Mussar { $name }
+    .accesskey = r
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Zuppentar { $name }
+    .accesskey = r
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Mo mussar { $name }
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Mussar { $name }
@@ -776,3 +791,18 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Terminà
     .accesskey = m
+calendar-context-showall =
+    .label = Mussar tut ils chalenders
+    .accesskey = t
+calendar-context-convert-menu =
+    .label = Convertir a
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Eveniment…
+    .accesskey = O
+calendar-context-convert-to-message =
+    .label = Messadi…
+    .accesskey = M
+calendar-context-convert-to-task =
+    .label = Incumbensa…
+    .accesskey = P
