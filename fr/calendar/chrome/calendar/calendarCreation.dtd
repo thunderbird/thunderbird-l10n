@@ -34,5 +34,6 @@
 <!ENTITY network.loading.description "Veuillez patienter pendant que vos agendas sont découverts.">
 <!ENTITY network.notfound.description "Aucun agenda à cette adresse. Veuillez vérifier les paramètres.">
 <!ENTITY network.authfail.description "Les identifiants de connexion saisis n’ont pas été acceptés. Veuillez vérifier les paramètres.">
+<!ENTITY network.certerror.description "Aucun agenda à cette adresse en raison d’un problème de certificat.">
 <!ENTITY network.subscribe.single.description "Sélectionnez les agendas auxquels vous souhaitez vous abonner.">
 <!ENTITY network.subscribe.multiple.description "Plusieurs types d’agendas sont disponibles pour cette adresse. Sélectionnez le type d’agenda, puis choisissez les agendas auxquels vous souhaitez vous abonner.">

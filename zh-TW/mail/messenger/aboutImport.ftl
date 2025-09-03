@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = 通訊錄
 items-pane-checkbox-calendars = 行事曆
 items-pane-checkbox-mail-messages = 郵件訊息
 items-pane-override = 將不會覆蓋現有的資料。
+items-pane-nothing-to-import = 無法從選擇的來源匯入任何內容。
 
 ## Import from address book file steps
 

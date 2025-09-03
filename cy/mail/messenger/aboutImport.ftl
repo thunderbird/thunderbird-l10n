@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Llyfrau Cyfeiriadau
 items-pane-checkbox-calendars = Calendrau
 items-pane-checkbox-mail-messages = Negeseuon E-bost
 items-pane-override = Ni fydd unrhyw ddata presennol neu'r un fath yn cael ei drosysgrifo.
+items-pane-nothing-to-import = Ni ellir mewnforio dim o'r ffynhonnell a ddewiswyd.
 
 ## Import from address book file steps
 

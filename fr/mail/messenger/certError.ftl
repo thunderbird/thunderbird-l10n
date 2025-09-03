@@ -16,3 +16,39 @@ cert-error-not-yet-valid = Le certificat pour { $hostname } ne sera pas valide j
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Le certificat pour { $hostname } ne provient pas d’une source sûre.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-domain-mismatch =
+    .title = Erreur de connexion. Le certificat pour { $hostname } n’est pas valide pour ce serveur. Quelqu’un pourrait essayer d’usurper l’identité du serveur et vous ne devriez pas continuer. Cliquer pour ouvrir les paramètres de sécurité du serveur.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-after (string) - Certificate is not valid after this time.
+cert-error-inline-expired =
+    .title = Erreur de connexion. Le certificat pour { $hostname } a expiré le { $not-after }. Cliquer pour ouvrir les paramètres de sécurité du serveur.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-before (string) - Certificate is not valid before this time.
+cert-error-inline-not-yet-valid =
+    .title = Erreur de connexion. Le certificat pour { $hostname } ne sera pas valide jusqu’au { $not-before }. Cliquer pour ouvrir les paramètres de sécurité du serveur.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-untrusted-default =
+    .title = Erreur de connexion. Le certificat pour { $hostname } ne provient pas d’une source sûre. Cliquer pour ouvrir les paramètres de sécurité du serveur.
+certificate-check-fetch-button = Récupérer le certificat
+certificate-check-view-button = Afficher le certificat
+certificate-check-add-exception-button = Ajouter une exception
+certificate-check-remove-exception-button = Supprimer l’exception
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = Récupération du certificat pour { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Le certificat pour { $hostname } semble être valide.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = Échec de la récupération du certificat pour { $hostname }.
+certificate-check-exception-added = Exception de certificat ajoutée.
+certificate-check-exception-removed = Exception de certificat supprimée.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Il existe une exception de certificat pour { $hostname }.

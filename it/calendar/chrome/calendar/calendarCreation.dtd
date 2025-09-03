@@ -34,5 +34,6 @@
 <!ENTITY network.loading.description "Attendere mentre i calendari vengono scoperti.">
 <!ENTITY network.notfound.description "Impossibile trovare calendari a questo indirizzo. Controllare le impostazioni.">
 <!ENTITY network.authfail.description "Le credenziali inserite non sono state accettate. Controllare le impostazioni.">
+<!ENTITY network.certerror.description "Impossibile trovare i calendari in questa posizione a causa di un problema con il certificato.">
 <!ENTITY network.subscribe.single.description "Selezionare i calendari da sottoscrivere.">
 <!ENTITY network.subscribe.multiple.description "A questo indirizzo sono disponibili tipi di calendario multipli. Selezionare prima il tipo di calendario, poi i calendari da sottoscrivere.">

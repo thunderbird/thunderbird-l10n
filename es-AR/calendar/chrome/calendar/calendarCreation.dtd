@@ -34,5 +34,6 @@
 <!ENTITY network.loading.description "Espere mientras sus calendarios se descubren.">
 <!ENTITY network.notfound.description "No se pudieron encontrar calendarios en esta ubicación. Revise su configuración.">
 <!ENTITY network.authfail.description "Las credenciales que ingresó no fueron aceptadas. Revise su configuración.">
+<!ENTITY network.certerror.description "No se pudieron encontrar calendarios en esta ubicación por un problema con el certificado.">
 <!ENTITY network.subscribe.single.description "Seleccione los calendarios a los que desee suscribirse.">
 <!ENTITY network.subscribe.multiple.description "Para esta ubicación están disponibles muchos tipos de calendarios. Seleccione el tipo de calendario y luego marque los calendarios a los que le gustaría suscribirse.">
