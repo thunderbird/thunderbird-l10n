@@ -669,6 +669,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name } ausblenden
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name } anzeigen
+    .accesskey = a
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name } ausblenden
+    .accesskey = a
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Nur { $name } anzeigen
+    .accesskey = U
 # $name calendar name
 show-calendar-label =
     .label = { $name } anzeigen
