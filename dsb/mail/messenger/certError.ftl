@@ -16,3 +16,31 @@ cert-error-not-yet-valid = Certifikat za { $hostname } njebuźo płaśiwy až do
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Certifikat za { $hostname } z dowěry gódnego žrědła njepóchada.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-domain-mismatch =
+    .title = Zwiskowa zmólka. Certifikat za { $hostname } njejo płaśiwy za ten serwer. Něchten mógał wopytaś, serwer napódobniś a wy njeměł pókšacowaś. Klikniśo, aby wěstotne nastajenja serwera wócynił.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-after (string) - Certificate is not valid after this time.
+cert-error-inline-expired =
+    .title = Zwiskowa zmólka. Certifikat za { $hostname } jo pśepadnuł { $not-after }. Klikniśo, aby wěstotne nastajenja serwera wócynił.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-before (string) - Certificate is not valid before this time.
+cert-error-inline-not-yet-valid =
+    .title = Zwiskowa zmólka. Certifikat za { $hostname } jo akle wót { $not-before } płaśiwy. Klikniśo, aby wěstotne nastajenja serwera wócynił.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-untrusted-default =
+    .title = Zwiskowa zmólka. Certifikat za { $hostname } z dowěry gódnego žrědła njepśiźo. Klikniśo, aby wěstotne nastajenja serwera wócynił.
+certificate-check-fetch-button = Certifikat wobstaraś
+certificate-check-view-button = Certifikat pokazaś
+certificate-check-add-exception-button = Wuwześe pśidaś
+certificate-check-remove-exception-button = Wuwześe wótwónoźeś
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = Certifikat za { $hostname } se wobstarujo.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Certifikat za { $hostname } zda se płaśiwy byś.
