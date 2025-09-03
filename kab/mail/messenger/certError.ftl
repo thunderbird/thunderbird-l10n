@@ -3,5 +3,5 @@
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
-#   $hostname (string) - Hostname of the server with certificate error.
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Aselkin i { $hostname } ur d yusi ara seg uɣbalu anelkan.

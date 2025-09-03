@@ -3,16 +3,16 @@
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
-#   $hostname (string) - Hostname of the server with certificate error.
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-domain-mismatch = Certifikát pro { $hostname } není pro tento server platný. Někdo by se mohl pokoušet vydávat za server a neměli byste pokračovat.
 # Variables:
-#   $hostname (string) - Hostname of the server with certificate error.
-#   $not-after (Date) - Certificate is not valid after this time.
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-after (string) - Certificate is not valid after this time.
 cert-error-expired = Platnost certifikátu pro { $hostname } vypršela dne { $not-after }.
 # Variables:
-#   $hostname (string) - Hostname of the server with certificate error.
-#   $not-before (Date) - Certificate is not valid before this time.
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-before (string) - Certificate is not valid before this time.
 cert-error-not-yet-valid = Certifikát pro { $hostname } bude platný až od { $not-before }.
 # Variables:
-#   $hostname (string) - Hostname of the server with certificate error.
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Certifikát pro { $hostname } nepochází z důvěryhodného zdroje.
