@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Ocultar { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Mostrar { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Ocultar { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Mostrar apenas { $name }
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Mostrar { $name }
@@ -776,6 +791,27 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Completado
     .accesskey = m
+calendar-context-progress =
+    .label = Progresso
+    .accesskey = P
+calendar-context-priority =
+    .label = Prioridade
+    .accesskey = r
+calendar-context-postpone =
+    .label = Adiar tarefa
+    .accesskey = f
+calendar-context-mark-completed =
+    .label = Marcar como terminado
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = 1 hora
+    .accesskey = h
+calendar-context-postpone-1day =
+    .label = 1 dia
+    .accesskey = d
+calendar-context-postpone-1week =
+    .label = 1 semana
+    .accesskey = s
 calendar-context-new-server =
     .label = Novo calendário…
     .accesskey = N
