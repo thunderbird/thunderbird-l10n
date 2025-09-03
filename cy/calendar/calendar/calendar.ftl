@@ -705,6 +705,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Cuddio { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Dangos { $name }
+    .accesskey = d
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Cuddio { $name }
+    .accesskey = U
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Dangos Dim Ond { $name }
+    .accesskey = D
 # $name calendar name
 show-calendar-label =
     .label = Dangos { $name }
@@ -813,3 +828,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Cwblhawyd
     .accesskey = h
+calendar-context-progress =
+    .label = Cynnydd
+    .accesskey = y
+calendar-context-priority =
+    .label = Blaenoriaeth
+    .accesskey = B
+calendar-context-postpone =
+    .label = Gohirio Tasg
+    .accesskey = G
+calendar-context-mark-completed =
+    .label = Marcio wedi'i Gwblhau
+    .accesskey = G
+calendar-context-postpone-1hour =
+    .label = 1 Awr
+    .accesskey = 1
+calendar-context-postpone-1day =
+    .label = 1 Diwrnod
+    .accesskey = D
+calendar-context-postpone-1week =
+    .label = 1 Wythnos
+    .accesskey = W
+calendar-context-new-server =
+    .label = Calendr Newydd…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Dileu Calendr…
+    .accesskey = D
+calendar-context-remove-server =
+    .label = Tynnu Calendr…
+    .accesskey = T
+calendar-context-unsubscribe-server =
+    .label = Dad-danysgrifio i Galendr…
+    .accesskey = D
+calendar-context-publish =
+    .label = Cyhoeddi Calendr…
+    .accesskey = C
+calendar-context-export =
+    .label = Allforio Calendr…
+    .accesskey = A
+calendar-context-properties =
+    .label = Priodweddau
+    .accesskey = P
+calendar-context-showall =
+    .label = Dangos Pob Calendr
+    .accesskey = P
+calendar-context-convert-menu =
+    .label = Trosi i
+    .accesskey = T
+calendar-context-convert-to-event =
+    .label = Digwyddiad…
+    .accesskey = D
+calendar-context-convert-to-message =
+    .label = Neges…
+    .accesskey = N
+calendar-context-convert-to-task =
+    .label = Tasg…
+    .accesskey = T

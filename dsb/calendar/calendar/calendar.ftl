@@ -696,6 +696,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name } schowaś
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name } pokazaś
+    .accesskey = o
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name } schowaś
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Jano { $name } pokazaś
+    .accesskey = J
 # $name calendar name
 show-calendar-label =
     .label = { $name } pokazaś
@@ -804,3 +819,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Dokóńcony
     .accesskey = o
+calendar-context-progress =
+    .label = Póstup
+    .accesskey = P
+calendar-context-priority =
+    .label = Priorita
+    .accesskey = r
+calendar-context-postpone =
+    .label = Nadawk wótstarcyś
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Ako dokóńcony markěrowaś
+    .accesskey = d
+calendar-context-postpone-1hour =
+    .label = Wó 1 góźinu
+    .accesskey = i
+calendar-context-postpone-1day =
+    .label = Wó 1 źeń
+    .accesskey = e
+calendar-context-postpone-1week =
+    .label = Wó 1 tyźeń
+    .accesskey = t
+calendar-context-new-server =
+    .label = Nowy kalender…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Kalender wulašowaś…
+    .accesskey = u
+calendar-context-remove-server =
+    .label = Kalender wótpóraś…
+    .accesskey = w
+calendar-context-unsubscribe-server =
+    .label = Kalender wótskazaś…
+    .accesskey = s
+calendar-context-publish =
+    .label = Kalender wózjawiś…
+    .accesskey = z
+calendar-context-export =
+    .label = Kalender eksportěrowaś…
+    .accesskey = e
+calendar-context-properties =
+    .label = Kakosći
+    .accesskey = K
+calendar-context-showall =
+    .label = Wšykne kalendery pokazaś
+    .accesskey = l
+calendar-context-convert-menu =
+    .label = Konwertěrowaś do
+    .accesskey = w
+calendar-context-convert-to-event =
+    .label = Tšojenje…
+    .accesskey = T
+calendar-context-convert-to-message =
+    .label = Powěsć…
+    .accesskey = o
+calendar-context-convert-to-task =
+    .label = Nadawk…
+    .accesskey = N

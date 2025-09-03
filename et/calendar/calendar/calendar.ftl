@@ -661,6 +661,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Peida { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Näita { $name }
+    .accesskey = N
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Peida { $name }
+    .accesskey = P
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Näita vaid { $name }
+    .accesskey = V
 # $name calendar name
 show-calendar-label =
     .label = Näita { $name }
@@ -769,3 +784,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Lõpetatud
     .accesskey = L
+calendar-context-progress =
+    .label = Edenemine
+    .accesskey = E
+calendar-context-priority =
+    .label = Prioriteet
+    .accesskey = P
+calendar-context-postpone =
+    .label = Lükka ülesanne edasi
+    .accesskey = L
+calendar-context-mark-completed =
+    .label = Märgi tehtuks
+    .accesskey = h
+calendar-context-postpone-1hour =
+    .label = 1 tund
+    .accesskey = t
+calendar-context-postpone-1day =
+    .label = 1 päev
+    .accesskey = p
+calendar-context-postpone-1week =
+    .label = 1 nädal
+    .accesskey = n
+calendar-context-new-server =
+    .label = Uus kalender…
+    .accesskey = U
+calendar-context-delete-server =
+    .label = Kustuta kalender…
+    .accesskey = K
+calendar-context-remove-server =
+    .label = Eemalda kalender…
+    .accesskey = m
+calendar-context-unsubscribe-server =
+    .label = Lõpeta tellimine…
+    .accesskey = p
+calendar-context-publish =
+    .label = Avalda kalender…
+    .accesskey = A
+calendar-context-export =
+    .label = Ekspordi kalender…
+    .accesskey = E
+calendar-context-properties =
+    .label = Omadused
+    .accesskey = O
+calendar-context-showall =
+    .label = Näita kõiki kalendreid
+    .accesskey = t
+calendar-context-convert-menu =
+    .label = Teisenda
+    .accesskey = T
+calendar-context-convert-to-event =
+    .label = Sündmuseks…
+    .accesskey = S
+calendar-context-convert-to-message =
+    .label = Kirjaks…
+    .accesskey = K
+calendar-context-convert-to-task =
+    .label = Ülesandeks…
+    .accesskey = Ü

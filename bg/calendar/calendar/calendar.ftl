@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Скриване на { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Показване на { $name }
+    .accesskey = П
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Скриване на { $name }
+    .accesskey = С
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Показване само на { $name }
+    .accesskey = м
 # $name calendar name
 show-calendar-label =
     .label = Показване на { $name }
@@ -776,3 +791,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Завършено
     .accesskey = з
+calendar-context-progress =
+    .label = Напредък
+    .accesskey = Н
+calendar-context-priority =
+    .label = Приоритет
+    .accesskey = р
+calendar-context-postpone =
+    .label = Отлагане на задача
+    .accesskey = О
+calendar-context-mark-completed =
+    .label = Отбелязване като завършена
+    .accesskey = р
+calendar-context-postpone-1hour =
+    .label = 1 час
+    .accesskey = ч
+calendar-context-postpone-1day =
+    .label = 1 ден
+    .accesskey = д
+calendar-context-postpone-1week =
+    .label = 1 седмица
+    .accesskey = с
+calendar-context-new-server =
+    .label = Нов календар…
+    .accesskey = в
+calendar-context-delete-server =
+    .label = Изтриване на календар…
+    .accesskey = з
+calendar-context-remove-server =
+    .label = Изтриване на календар…
+    .accesskey = з
+calendar-context-unsubscribe-server =
+    .label = Отписване от календар…
+    .accesskey = О
+calendar-context-publish =
+    .label = Публикуване на календар…
+    .accesskey = б
+calendar-context-export =
+    .label = Изнасяне на календар…
+    .accesskey = р
+calendar-context-properties =
+    .label = Свойства
+    .accesskey = й
+calendar-context-showall =
+    .label = Показване на всички календари
+    .accesskey = ч
+calendar-context-convert-menu =
+    .label = Конвертиране в
+    .accesskey = к
+calendar-context-convert-to-event =
+    .label = Събитие…
+    .accesskey = С
+calendar-context-convert-to-message =
+    .label = Писмо…
+    .accesskey = П
+calendar-context-convert-to-task =
+    .label = Задача…
+    .accesskey = З

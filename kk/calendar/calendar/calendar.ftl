@@ -671,6 +671,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name } жасыру
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name } көрсету
+    .accesskey = с
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name } жасыру
+    .accesskey = С
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Тек { $name } көрсету
+    .accesskey = е
 # $name calendar name
 show-calendar-label =
     .label = { $name } көрсету
@@ -779,3 +794,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Аяқталды
     .accesskey = т
+calendar-context-progress =
+    .label = Прогресс
+    .accesskey = П
+calendar-context-priority =
+    .label = Приоритет
+    .accesskey = и
+calendar-context-postpone =
+    .label = Тапсырманы кейінге қалдыру
+    .accesskey = й
+calendar-context-mark-completed =
+    .label = Аяқталған етіп белгілеу
+    .accesskey = я
+calendar-context-postpone-1hour =
+    .label = 1 сағат
+    .accesskey = с
+calendar-context-postpone-1day =
+    .label = 1 күн
+    .accesskey = к
+calendar-context-postpone-1week =
+    .label = 1 апта
+    .accesskey = а
+calendar-context-new-server =
+    .label = Жаңа күнтізбе…
+    .accesskey = Ж
+calendar-context-delete-server =
+    .label = Күнтізбені жою…
+    .accesskey = о
+calendar-context-remove-server =
+    .label = Күнтізбені өшіру…
+    .accesskey = ш
+calendar-context-unsubscribe-server =
+    .label = Күнтізбеге жазылуын өшіру…
+    .accesskey = ы
+calendar-context-publish =
+    .label = Күнтізбені жариялау…
+    .accesskey = я
+calendar-context-export =
+    .label = Күнтізбені экспорттау…
+    .accesskey = э
+calendar-context-properties =
+    .label = Қасиеттері
+    .accesskey = а
+calendar-context-showall =
+    .label = Барлық күнтізбелерді көрсету
+    .accesskey = а
+calendar-context-convert-menu =
+    .label = Келесіге түрлендіру
+    .accesskey = н
+calendar-context-convert-to-event =
+    .label = Оқиға…
+    .accesskey = О
+calendar-context-convert-to-message =
+    .label = Хабарлама…
+    .accesskey = Х
+calendar-context-convert-to-task =
+    .label = Тапсырма…
+    .accesskey = Т

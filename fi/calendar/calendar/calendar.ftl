@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Piilota { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Näytä { $name }
+    .accesskey = N
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Piilota { $name }
+    .accesskey = P
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Näytä vain { $name }
+    .accesskey = v
 # $name calendar name
 show-calendar-label =
     .label = Näytä { $name }
@@ -776,3 +791,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Valmis
     .accesskey = V
+calendar-context-progress =
+    .label = Edistyminen
+    .accesskey = E
+calendar-context-priority =
+    .label = Tärkeysaste
+    .accesskey = r
+calendar-context-postpone =
+    .label = Siirrä tehtävän alkua
+    .accesskey = S
+calendar-context-mark-completed =
+    .label = Merkitse suoritetuksi
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = Yksi tunti
+    .accesskey = t
+calendar-context-postpone-1day =
+    .label = Yksi päivä
+    .accesskey = p
+calendar-context-postpone-1week =
+    .label = Yksi viikko
+    .accesskey = v
+calendar-context-new-server =
+    .label = Uusi kalenteri…
+    .accesskey = n
+calendar-context-delete-server =
+    .label = Poista kalenteri…
+    .accesskey = T
+calendar-context-remove-server =
+    .label = Poista kalenteri…
+    .accesskey = i
+calendar-context-unsubscribe-server =
+    .label = Peru kalenterin tilaus…
+    .accesskey = r
+calendar-context-publish =
+    .label = Julkaise kalenteri…
+    .accesskey = J
+calendar-context-export =
+    .label = Vie kalenteri…
+    .accesskey = e
+calendar-context-properties =
+    .label = Ominaisuudet
+    .accesskey = O
+calendar-context-showall =
+    .label = Näytä kaikki kalenterit
+    .accesskey = k
+calendar-context-convert-menu =
+    .label = Muunna
+    .accesskey = n
+calendar-context-convert-to-event =
+    .label = Tapahtumaksi…
+    .accesskey = T
+calendar-context-convert-to-message =
+    .label = Viestiksi…
+    .accesskey = V
+calendar-context-convert-to-task =
+    .label = Tehtäväksi…
+    .accesskey = T

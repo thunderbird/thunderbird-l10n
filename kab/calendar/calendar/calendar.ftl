@@ -669,6 +669,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Ffer { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Sken { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Ffer { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Sken kan { $name }
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Sken { $name }
@@ -777,3 +792,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Immed
     .accesskey = m
+calendar-context-progress =
+    .label = Asfari
+    .accesskey = A
+calendar-context-priority =
+    .label = Tazwart
+    .accesskey = w
+calendar-context-postpone =
+    .label = Sekcem tawuri
+    .accesskey = k
+calendar-context-mark-completed =
+    .label = Cṛeḍ temmed
+    .accesskey = m
+calendar-context-postpone-1hour =
+    .label = 1 n usrag
+    .accesskey = u
+calendar-context-postpone-1day =
+    .label = 1 n wass
+    .accesskey = w
+calendar-context-postpone-1week =
+    .label = 1 n dduṛt
+    .accesskey = d
+calendar-context-new-server =
+    .label = Awitay amaynut…
+    .accesskey = A
+calendar-context-delete-server =
+    .label = Kkes awitay…
+    .accesskey = y
+calendar-context-remove-server =
+    .label = Kkes awitay…
+    .accesskey = K
+calendar-context-unsubscribe-server =
+    .label = Ffeɣ seg ujerred n uwitay…
+    .accesskey = j
+calendar-context-publish =
+    .label = Suffeɣ-d awitay…
+    .accesskey = ɣ
+calendar-context-export =
+    .label = Sifeḍ awitay…
+    .accesskey = ḍ
+calendar-context-properties =
+    .label = Timeẓliyin
+    .accesskey = T
+calendar-context-showall =
+    .label = Sken akk iwitayen
+    .accesskey = w
+calendar-context-convert-menu =
+    .label = Sel&ket ɣer
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Tadyant…
+    .accesskey = d
+calendar-context-convert-to-message =
+    .label = Izen…
+    .accesskey = z
+calendar-context-convert-to-task =
+    .label = Tawuri…
+    .accesskey = w

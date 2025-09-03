@@ -664,6 +664,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name }-ის დამალვა
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name }-ის გამოჩენა
+    .accesskey = ჩ
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name }-ის დამალვა
+    .accesskey = დ
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = მხოლოდ { $name }-ის ჩვენება
+    .accesskey = მ
 # $name calendar name
 show-calendar-label =
     .label = { $name }-ის გამოჩენა
@@ -772,3 +787,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = დასრულებულია
     .accesskey = ლ
+calendar-context-progress =
+    .label = მიმდინარეობა
+    .accesskey = მ
+calendar-context-priority =
+    .label = უპირატესობა
+    .accesskey = უ
+calendar-context-postpone =
+    .label = გადადებული დავალებები
+    .accesskey = ბ
+calendar-context-mark-completed =
+    .label = მონიშვნა დასრულებულად
+    .accesskey = ო
+calendar-context-postpone-1hour =
+    .label = 1 საათი
+    .accesskey = თ
+calendar-context-postpone-1day =
+    .label = 1 დღე
+    .accesskey = ღ
+calendar-context-postpone-1week =
+    .label = 1 კვირა
+    .accesskey = კ
+calendar-context-new-server =
+    .label = ახალი კალენდარი
+    .accesskey = ა
+calendar-context-delete-server =
+    .label = კალენდრის წაშლა…
+    .accesskey = წ
+calendar-context-remove-server =
+    .label = კალენდრის მოცილება…
+    .accesskey = მ
+calendar-context-unsubscribe-server =
+    .label = კალენდრის გამოწერის გაუქმება…
+    .accesskey = უ
+calendar-context-publish =
+    .label = კალენდრის გამოქვეყნება
+    .accesskey = ყ
+calendar-context-export =
+    .label = კალენდრის გადატანა…
+    .accesskey = ტ
+calendar-context-properties =
+    .label = პარამეტრები
+    .accesskey = პ
+calendar-context-showall =
+    .label = ყველა კალენდრის ჩვენება
+    .accesskey = ყ
+calendar-context-convert-menu =
+    .label = გარდაქმნა
+    .accesskey = ი
+calendar-context-convert-to-event =
+    .label = ღონისძიებად…
+    .accesskey = ღ
+calendar-context-convert-to-message =
+    .label = გზავნილად…
+    .accesskey = ზ
+calendar-context-convert-to-task =
+    .label = დავალებად…
+    .accesskey = დ

@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Skjul { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Vis { $name }
+    .accesskey = s
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Skjul { $name }
+    .accesskey = s
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Vis kun { $name }
+    .accesskey = k
 # $name calendar name
 show-calendar-label =
     .label = Vis { $name }
@@ -776,3 +791,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Afsluttet
     .accesskey = u
+calendar-context-progress =
+    .label = Fremgang
+    .accesskey = m
+calendar-context-priority =
+    .label = Prioritet
+    .accesskey = r
+calendar-context-postpone =
+    .label = Udsæt opgave
+    .accesskey = d
+calendar-context-mark-completed =
+    .label = Marker som fuldført
+    .accesskey = u
+calendar-context-postpone-1hour =
+    .label = 1 time
+    .accesskey = t
+calendar-context-postpone-1day =
+    .label = 1 dag
+    .accesskey = d
+calendar-context-postpone-1week =
+    .label = 1 uge
+    .accesskey = u
+calendar-context-new-server =
+    .label = Ny kalender
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Slet kalender…
+    .accesskey = t
+calendar-context-remove-server =
+    .label = Fjern kalender…
+    .accesskey = F
+calendar-context-unsubscribe-server =
+    .label = Stop abonnement på kalender…
+    .accesskey = t
+calendar-context-publish =
+    .label = Udgiv hele kalenderen
+    .accesskey = U
+calendar-context-export =
+    .label = Eksporter kalender…
+    .accesskey = k
+calendar-context-properties =
+    .label = Egenskaber
+    .accesskey = E
+calendar-context-showall =
+    .label = Vis alle kalendere
+    .accesskey = a
+calendar-context-convert-menu =
+    .label = Konverter til
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Begivenhed…
+    .accesskey = B
+calendar-context-convert-to-message =
+    .label = Meddelelse…
+    .accesskey = M
+calendar-context-convert-to-task =
+    .label = Opgave…
+    .accesskey = O

@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Dölj { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Visa { $name }
+    .accesskey = V
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Dölj { $name }
+    .accesskey = D
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Visa endast { $name }
+    .accesskey = E
 # $name calendar name
 show-calendar-label =
     .label = Visa { $name }
@@ -776,3 +791,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Avklarad
     .accesskey = k
+calendar-context-progress =
+    .label = Status
+    .accesskey = S
+calendar-context-priority =
+    .label = Prioritet
+    .accesskey = i
+calendar-context-postpone =
+    .label = Skjut upp uppgift
+    .accesskey = k
+calendar-context-mark-completed =
+    .label = Markera som avslutad
+    .accesskey = u
+calendar-context-postpone-1hour =
+    .label = 1 Timme
+    .accesskey = T
+calendar-context-postpone-1day =
+    .label = 1 Dag
+    .accesskey = D
+calendar-context-postpone-1week =
+    .label = 1 Vecka
+    .accesskey = V
+calendar-context-new-server =
+    .label = Ny kalender
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Ta bort kalender…
+    .accesskey = b
+calendar-context-remove-server =
+    .label = Ta bort kalender…
+    .accesskey = T
+calendar-context-unsubscribe-server =
+    .label = Avregistrera kalender…
+    .accesskey = A
+calendar-context-publish =
+    .label = Publicera hela kalendern
+    .accesskey = P
+calendar-context-export =
+    .label = Exportera kalender…
+    .accesskey = E
+calendar-context-properties =
+    .label = Egenskaper
+    .accesskey = g
+calendar-context-showall =
+    .label = Visa alla kalendrar
+    .accesskey = A
+calendar-context-convert-menu =
+    .label = Konvertera till
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Händelse
+    .accesskey = e
+calendar-context-convert-to-message =
+    .label = Meddelande
+    .accesskey = M
+calendar-context-convert-to-task =
+    .label = Uppgift…
+    .accesskey = t

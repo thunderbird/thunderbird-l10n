@@ -616,6 +616,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Ẩn { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Hiển thị { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Ẩn { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Chỉ hiển thị { $name }
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Hiển thị { $name }
@@ -724,3 +739,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Đã hoàn tất
     .accesskey = m
+calendar-context-progress =
+    .label = Tiến trình
+    .accesskey = i
+calendar-context-priority =
+    .label = Ưu tiên
+    .accesskey = u
+calendar-context-postpone =
+    .label = Hoãn tác vụ
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Đánh dấu là đã hoàn tất
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = 1 giờ
+    .accesskey = H
+calendar-context-postpone-1day =
+    .label = 1 ngày
+    .accesskey = D
+calendar-context-postpone-1week =
+    .label = 1 tuần
+    .accesskey = W
+calendar-context-new-server =
+    .label = Lịch mới…
+    .accesskey = L
+calendar-context-delete-server =
+    .label = Xóa lịch…
+    .accesskey = D
+calendar-context-remove-server =
+    .label = Xóa lịch…
+    .accesskey = R
+calendar-context-unsubscribe-server =
+    .label = Hủy đăng ký lịch…
+    .accesskey = U
+calendar-context-publish =
+    .label = Xuất bản lịch…
+    .accesskey = b
+calendar-context-export =
+    .label = Xuất lịch…
+    .accesskey = X
+calendar-context-properties =
+    .label = Thuộc tính
+    .accesskey = T
+calendar-context-showall =
+    .label = Hiển thị tất cả các lịch
+    .accesskey = A
+calendar-context-convert-menu =
+    .label = Chuyển đổi thành
+    .accesskey = h
+calendar-context-convert-to-event =
+    .label = Sự kiện…
+    .accesskey = S
+calendar-context-convert-to-message =
+    .label = Thư tin…
+    .accesskey = T
+calendar-context-convert-to-task =
+    .label = Tác vụ…
+    .accesskey = v

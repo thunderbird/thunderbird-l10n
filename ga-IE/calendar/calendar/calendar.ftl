@@ -566,6 +566,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Folaigh { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Taispeáin { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Folaigh { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Taispeáin { $name } Amháin
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Taispeáin { $name }
@@ -624,3 +639,60 @@ calendar-context-attendance-menu =
     .accesskey = T
 calendar-context-attendance-occurrence =
     .label = An Tarlú Seo
+calendar-context-progress =
+    .label = Dul Chun Cinn
+    .accesskey = D
+calendar-context-priority =
+    .label = Tosaíocht
+    .accesskey = T
+calendar-context-postpone =
+    .label = Cuir Tasc Ar Athlá
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Marcáil "Críochnaithe"
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = Uair amháin
+    .accesskey = U
+calendar-context-postpone-1day =
+    .label = Lá amháin
+    .accesskey = L
+calendar-context-postpone-1week =
+    .label = Seachtain amháin
+    .accesskey = S
+calendar-context-new-server =
+    .label = Féilire Nua…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Scrios Féilire…
+    .accesskey = S
+calendar-context-remove-server =
+    .label = Bain Féilire…
+    .accesskey = B
+calendar-context-unsubscribe-server =
+    .label = Díliostáil ó Fhéilire…
+    .accesskey = D
+calendar-context-publish =
+    .label = Foilsigh Féilire…
+    .accesskey = F
+calendar-context-export =
+    .label = Easpórtáil Féilire…
+    .accesskey = E
+calendar-context-properties =
+    .label = Airíonna
+    .accesskey = A
+calendar-context-showall =
+    .label = Taispeáin Gach Féilire
+    .accesskey = a
+calendar-context-convert-menu =
+    .label = Tiontaigh Go
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Imeacht…
+    .accesskey = e
+calendar-context-convert-to-message =
+    .label = Teachtaireacht…
+    .accesskey = c
+calendar-context-convert-to-task =
+    .label = Tasc…
+    .accesskey = T

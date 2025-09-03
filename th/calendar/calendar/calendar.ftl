@@ -615,6 +615,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = ซ่อน { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = แสดง { $name }
+    .accesskey = ส
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = ซ่อน { $name }
+    .accesskey = อ
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = แสดง { $name } เท่านั้น
+    .accesskey = ช
 # $name calendar name
 show-calendar-label =
     .label = แสดง { $name }
@@ -723,3 +738,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = เสร็จสมบูรณ์
     .accesskey = ส
+calendar-context-progress =
+    .label = ความคืบหน้า
+    .accesskey = ค
+calendar-context-priority =
+    .label = ความสำคัญ
+    .accesskey = ว
+calendar-context-postpone =
+    .label = เลื่อนงาน
+    .accesskey = ล
+calendar-context-mark-completed =
+    .label = ทำเครื่องหมายว่าเสร็จสมบูรณ์
+    .accesskey = ท
+calendar-context-postpone-1hour =
+    .label = 1 ชั่วโมง
+    .accesskey = ช
+calendar-context-postpone-1day =
+    .label = 1 วัน
+    .accesskey = ว
+calendar-context-postpone-1week =
+    .label = 1 สัปดาห์
+    .accesskey = ส
+calendar-context-new-server =
+    .label = ปฏิทินใหม่…
+    .accesskey = ป
+calendar-context-delete-server =
+    .label = ลบปฏิทิน…
+    .accesskey = ล
+calendar-context-remove-server =
+    .label = เอาปฏิทินออก…
+    .accesskey = อ
+calendar-context-unsubscribe-server =
+    .label = เลิกบอกรับปฏิทิน…
+    .accesskey = ล
+calendar-context-publish =
+    .label = เผยแพร่ปฏิทิน…
+    .accesskey = ผ
+calendar-context-export =
+    .label = ส่งออกปฏิทิน…
+    .accesskey = ส
+calendar-context-properties =
+    .label = คุณสมบัติ
+    .accesskey = ค
+calendar-context-showall =
+    .label = แสดงปฏิทินทั้งหมด
+    .accesskey = ส
+calendar-context-convert-menu =
+    .label = แปลงเป็น
+    .accesskey = ป
+calendar-context-convert-to-event =
+    .label = เหตุการณ์…
+    .accesskey = ห
+calendar-context-convert-to-message =
+    .label = ข้อความ…
+    .accesskey = ข
+calendar-context-convert-to-task =
+    .label = งาน…
+    .accesskey = ง

@@ -669,6 +669,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Fshihe { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Shfaq { $name }
+    .accesskey = f
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Fshihe { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Shfaq Vetëm { $name }
+    .accesskey = V
 # $name calendar name
 show-calendar-label =
     .label = Shfaq { $name }
@@ -777,3 +792,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = E plotësuar
     .accesskey = t
+calendar-context-progress =
+    .label = Ecuri
+    .accesskey = E
+calendar-context-priority =
+    .label = Përparësi
+    .accesskey = P
+calendar-context-postpone =
+    .label = Shtyje Punën Për Më Vonë
+    .accesskey = S
+calendar-context-mark-completed =
+    .label = Shënoje si të Plotësuar
+    .accesskey = l
+calendar-context-postpone-1hour =
+    .label = 1 Orë
+    .accesskey = O
+calendar-context-postpone-1day =
+    .label = 1 Ditë
+    .accesskey = D
+calendar-context-postpone-1week =
+    .label = 1 Javë
+    .accesskey = J
+calendar-context-new-server =
+    .label = Kalendar i Ri…
+    .accesskey = K
+calendar-context-delete-server =
+    .label = Fshini Kalendar…
+    .accesskey = F
+calendar-context-remove-server =
+    .label = Hiqni Kalendar…
+    .accesskey = H
+calendar-context-unsubscribe-server =
+    .label = Çregjistroni Kalendar…
+    .accesskey = Ç
+calendar-context-publish =
+    .label = Botoni Kalendar…
+    .accesskey = B
+calendar-context-export =
+    .label = Eksportoni Kalendar…
+    .accesskey = E
+calendar-context-properties =
+    .label = Veti
+    .accesskey = V
+calendar-context-showall =
+    .label = Shfaqi Krejt Kalendarët
+    .accesskey = K
+calendar-context-convert-menu =
+    .label = Shndërroje Në
+    .accesskey = S
+calendar-context-convert-to-event =
+    .label = Veprimtari…
+    .accesskey = V
+calendar-context-convert-to-message =
+    .label = Mesazh…
+    .accesskey = M
+calendar-context-convert-to-task =
+    .label = Punë…
+    .accesskey = P

@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Απόκρυψη του «{ $name }»
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Εμφάνιση του «{ $name }»
+    .accesskey = η
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Απόκρυψη του «{ $name }»
+    .accesskey = η
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Εμφάνιση μόνο του «{ $name }»
+    .accesskey = μ
 # $name calendar name
 show-calendar-label =
     .label = Εμφάνιση του «{ $name }»
@@ -776,3 +791,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Ολοκληρώθηκε
     .accesskey = ρ
+calendar-context-progress =
+    .label = Πρόοδος
+    .accesskey = Π
+calendar-context-priority =
+    .label = Προτεραιότητα
+    .accesskey = ρ
+calendar-context-postpone =
+    .label = Αναβολή εργασίας
+    .accesskey = β
+calendar-context-mark-completed =
+    .label = Σημείωση ως ολοκληρωμένη
+    .accesskey = ο
+calendar-context-postpone-1hour =
+    .label = 1 ώρα
+    .accesskey = α
+calendar-context-postpone-1day =
+    .label = 1 ημέρα
+    .accesskey = η
+calendar-context-postpone-1week =
+    .label = 1 εβδομάδα
+    .accesskey = ε
+calendar-context-new-server =
+    .label = Νέο ημερολόγιο…
+    .accesskey = Ν
+calendar-context-delete-server =
+    .label = Διαγραφή ημερολογίου…
+    .accesskey = Δ
+calendar-context-remove-server =
+    .label = Κατάργηση ημερολογίου…
+    .accesskey = Κ
+calendar-context-unsubscribe-server =
+    .label = Απεγγραφή από το ημερολόγιο…
+    .accesskey = γ
+calendar-context-publish =
+    .label = Δημοσίευση ημερολογίου…
+    .accesskey = Δ
+calendar-context-export =
+    .label = Εξαγωγή ημερολογίου…
+    .accesskey = ξ
+calendar-context-properties =
+    .label = Ιδιότητες
+    .accesskey = Ι
+calendar-context-showall =
+    .label = Εμφάνιση όλων των ημερολογίων
+    .accesskey = ω
+calendar-context-convert-menu =
+    .label = Μετατροπή σε
+    .accesskey = Μ
+calendar-context-convert-to-event =
+    .label = Εκδήλωση…
+    .accesskey = Ε
+calendar-context-convert-to-message =
+    .label = Μήνυμα…
+    .accesskey = Μ
+calendar-context-convert-to-task =
+    .label = Εργασία…
+    .accesskey = Ε

@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Zuppentar { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Mussar { $name }
+    .accesskey = r
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Zuppentar { $name }
+    .accesskey = r
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Mo mussar { $name }
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Mussar { $name }
@@ -776,3 +791,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Terminà
     .accesskey = m
+calendar-context-progress =
+    .label = Progress
+    .accesskey = P
+calendar-context-priority =
+    .label = Prioritad
+    .accesskey = P
+calendar-context-postpone =
+    .label = Spustar l'incumbensa
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Marcar sco cumpletà
+    .accesskey = u
+calendar-context-postpone-1hour =
+    .label = 1 ura
+    .accesskey = u
+calendar-context-postpone-1day =
+    .label = 1 di
+    .accesskey = d
+calendar-context-postpone-1week =
+    .label = 1 emna
+    .accesskey = e
+calendar-context-new-server =
+    .label = Nov chalender…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Stizzar in chalender…
+    .accesskey = S
+calendar-context-remove-server =
+    .label = Allontanar in chalender…
+    .accesskey = A
+calendar-context-unsubscribe-server =
+    .label = Deabunar il chalender…
+    .accesskey = D
+calendar-context-publish =
+    .label = Publitgar in chalender…
+    .accesskey = b
+calendar-context-export =
+    .label = Exportar in chalender…
+    .accesskey = E
+calendar-context-properties =
+    .label = Caracteristicas
+    .accesskey = C
+calendar-context-showall =
+    .label = Mussar tut ils chalenders
+    .accesskey = t
+calendar-context-convert-menu =
+    .label = Convertir a
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Eveniment…
+    .accesskey = O
+calendar-context-convert-to-message =
+    .label = Messadi…
+    .accesskey = M
+calendar-context-convert-to-task =
+    .label = Incumbensa…
+    .accesskey = P

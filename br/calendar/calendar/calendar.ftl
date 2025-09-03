@@ -511,6 +511,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Kuzhat { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Diskouez { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Kuzhat { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Diskouez { $name } hepken
+    .accesskey = N
 # $name calendar name
 show-calendar-label =
     .label = Diskouez { $name }
@@ -619,3 +634,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Klokaet
     .accesskey = m
+calendar-context-progress =
+    .label = Araokadur
+    .accesskey = A
+calendar-context-priority =
+    .label = Tevet
+    .accesskey = T
+calendar-context-postpone =
+    .label = Ampellañ an trevell
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Merkañ klokaet
+    .accesskey = k
+calendar-context-postpone-1hour =
+    .label = 1 eur
+    .accesskey = e
+calendar-context-postpone-1day =
+    .label = 1 devezh
+    .accesskey = d
+calendar-context-postpone-1week =
+    .label = 1 sizhun
+    .accesskey = s
+calendar-context-new-server =
+    .label = Deiziataer nevez...
+    .accesskey = D
+calendar-context-delete-server =
+    .label = Dilemel un deiziataer...
+    .accesskey = i
+calendar-context-remove-server =
+    .label = Lemel kuit un deiziataer
+    .accesskey = L
+calendar-context-unsubscribe-server =
+    .label = Digoumanantin d'un deiziataer...
+    .accesskey = g
+calendar-context-publish =
+    .label = Embann an deiziataer…
+    .accesskey = b
+calendar-context-export =
+    .label = Ezporzhiañ deiziataerioù...
+    .accesskey = z
+calendar-context-properties =
+    .label = Perzhioù
+    .accesskey = P
+calendar-context-showall =
+    .label = Skrammañ an holl deiziataerioù
+    .accesskey = S
+calendar-context-convert-menu =
+    .label = Amdreiñ da
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Darvoud...
+    .accesskey = D
+calendar-context-convert-to-message =
+    .label = Kemennadenn...
+    .accesskey = K
+calendar-context-convert-to-task =
+    .label = Trevell...
+    .accesskey = T

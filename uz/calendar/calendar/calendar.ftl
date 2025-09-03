@@ -534,6 +534,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name }’ni yashirish
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name }’ni ko‘rsatish
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name }’ni yashirish
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Faqat { $name }’ni ko‘rsatish
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = { $name }’ni ko‘rsatish
@@ -589,3 +604,60 @@ calendar-context-attendance-menu =
     .accesskey = t
 calendar-context-attendance-occurrence =
     .label = Ushbu hodisa
+calendar-context-progress =
+    .label = Jarayon
+    .accesskey = J
+calendar-context-priority =
+    .label = Muhimligi
+    .accesskey = h
+calendar-context-postpone =
+    .label = Vazifani keyinga qoldirish
+    .accesskey = q
+calendar-context-mark-completed =
+    .label = Tugallanganni belgilash
+    .accesskey = u
+calendar-context-postpone-1hour =
+    .label = 1 soat
+    .accesskey = s
+calendar-context-postpone-1day =
+    .label = 1 kun
+    .accesskey = k
+calendar-context-postpone-1week =
+    .label = 1 hafta
+    .accesskey = h
+calendar-context-new-server =
+    .label = Yangi taqvim…
+    .accesskey = Y
+calendar-context-delete-server =
+    .label = Taqvimni o‘chirish…
+    .accesskey = o
+calendar-context-remove-server =
+    .label = Taqvimni o‘chirish…
+    .accesskey = o
+calendar-context-unsubscribe-server =
+    .label = Taqvimga obunani bekor qilish
+    .accesskey = b
+calendar-context-publish =
+    .label = Taqvimni e’lon qilish
+    .accesskey = e
+calendar-context-export =
+    .label = Taqvimni eksport qilish
+    .accesskey = e
+calendar-context-properties =
+    .label = Xossalari
+    .accesskey = X
+calendar-context-showall =
+    .label = Barcha taqvimlarni ko‘rsatish
+    .accesskey = a
+calendar-context-convert-menu =
+    .label = O‘girish:
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Tadbir…
+    .accesskey = T
+calendar-context-convert-to-message =
+    .label = Xabar…
+    .accesskey = X
+calendar-context-convert-to-task =
+    .label = Vazifa…
+    .accesskey = V

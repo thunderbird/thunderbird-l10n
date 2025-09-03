@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Skjul { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Vis { $name }
+    .accesskey = V
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Skjul { $name }
+    .accesskey = S
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Vis bare { $name }
+    .accesskey = b
 # $name calendar name
 show-calendar-label =
     .label = Vis { $name }
@@ -776,3 +791,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Fullført
     .accesskey = F
+calendar-context-progress =
+    .label = Fremdrift
+    .accesskey = F
+calendar-context-priority =
+    .label = Prioritet
+    .accesskey = r
+calendar-context-postpone =
+    .label = Utsett oppgave
+    .accesskey = U
+calendar-context-mark-completed =
+    .label = Marker som fullført
+    .accesskey = M
+calendar-context-postpone-1hour =
+    .label = 1 time
+    .accesskey = t
+calendar-context-postpone-1day =
+    .label = 1 dag
+    .accesskey = d
+calendar-context-postpone-1week =
+    .label = 1 uke
+    .accesskey = u
+calendar-context-new-server =
+    .label = Ny kalender …
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Slett kalender
+    .accesskey = S
+calendar-context-remove-server =
+    .label = Fjern kalender …
+    .accesskey = F
+calendar-context-unsubscribe-server =
+    .label = Stopp abonnement på kalender …
+    .accesskey = S
+calendar-context-publish =
+    .label = Publiser kalender …
+    .accesskey = P
+calendar-context-export =
+    .label = Eksporter kalender …
+    .accesskey = k
+calendar-context-properties =
+    .label = Egenskaper
+    .accesskey = E
+calendar-context-showall =
+    .label = Vis alle kalendre
+    .accesskey = a
+calendar-context-convert-menu =
+    .label = Konverter til
+    .accesskey = n
+calendar-context-convert-to-event =
+    .label = Hendelse …
+    .accesskey = H
+calendar-context-convert-to-message =
+    .label = Melding …
+    .accesskey = M
+calendar-context-convert-to-task =
+    .label = Oppgave …
+    .accesskey = O

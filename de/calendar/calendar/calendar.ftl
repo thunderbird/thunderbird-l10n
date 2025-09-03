@@ -669,6 +669,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name } ausblenden
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name } anzeigen
+    .accesskey = a
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name } ausblenden
+    .accesskey = a
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Nur { $name } anzeigen
+    .accesskey = U
 # $name calendar name
 show-calendar-label =
     .label = { $name } anzeigen
@@ -777,3 +792,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Abgeschlossen
     .accesskey = o
+calendar-context-progress =
+    .label = Fortschritt
+    .accesskey = F
+calendar-context-priority =
+    .label = Priorität
+    .accesskey = P
+calendar-context-postpone =
+    .label = Aufgabe aufschieben
+    .accesskey = g
+calendar-context-mark-completed =
+    .label = Als abgeschlossen markieren
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = 1 Stunde
+    .accesskey = S
+calendar-context-postpone-1day =
+    .label = 1 Tag
+    .accesskey = T
+calendar-context-postpone-1week =
+    .label = 1 Woche
+    .accesskey = W
+calendar-context-new-server =
+    .label = Neuer Kalender…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Kalender löschen…
+    .accesskey = Ö
+calendar-context-remove-server =
+    .label = Kalender entfernen…
+    .accesskey = R
+calendar-context-unsubscribe-server =
+    .label = Kalender abbestellen…
+    .accesskey = B
+calendar-context-publish =
+    .label = Kalender veröffentlichen…
+    .accesskey = K
+calendar-context-export =
+    .label = Kalender exportieren…
+    .accesskey = X
+calendar-context-properties =
+    .label = Eigenschaften
+    .accesskey = E
+calendar-context-showall =
+    .label = Alle Kalender anzeigen
+    .accesskey = D
+calendar-context-convert-menu =
+    .label = Umwandeln in
+    .accesskey = w
+calendar-context-convert-to-event =
+    .label = Termin…
+    .accesskey = T
+calendar-context-convert-to-message =
+    .label = Nachricht…
+    .accesskey = N
+calendar-context-convert-to-task =
+    .label = Aufgabe…
+    .accesskey = A

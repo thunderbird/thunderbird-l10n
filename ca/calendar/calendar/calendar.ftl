@@ -666,6 +666,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Amaga { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Mostra { $name }
+    .accesskey = o
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Amaga { $name }
+    .accesskey = m
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Mostra només { $name }
+    .accesskey = o
 # $name calendar name
 show-calendar-label =
     .label = Mostra { $name }
@@ -774,3 +789,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Acabada
     .accesskey = d
+calendar-context-progress =
+    .label = Progrés
+    .accesskey = P
+calendar-context-priority =
+    .label = Prioritat
+    .accesskey = r
+calendar-context-postpone =
+    .label = Ajorna la tasca
+    .accesskey = o
+calendar-context-mark-completed =
+    .label = Marca com a acabada
+    .accesskey = d
+calendar-context-postpone-1hour =
+    .label = 1 hora
+    .accesskey = h
+calendar-context-postpone-1day =
+    .label = 1 dia
+    .accesskey = d
+calendar-context-postpone-1week =
+    .label = 1 setmana
+    .accesskey = s
+calendar-context-new-server =
+    .label = Calendari nou…
+    .accesskey = n
+calendar-context-delete-server =
+    .label = Suprimeix el calendari…
+    .accesskey = S
+calendar-context-remove-server =
+    .label = Elimina el calendari…
+    .accesskey = E
+calendar-context-unsubscribe-server =
+    .label = Cancel·la la subscripció al calendari…
+    .accesskey = C
+calendar-context-publish =
+    .label = Publica el calendari…
+    .accesskey = b
+calendar-context-export =
+    .label = Exporta el calendari…
+    .accesskey = E
+calendar-context-properties =
+    .label = Propietats
+    .accesskey = P
+calendar-context-showall =
+    .label = Mostra tots els calendaris
+    .accesskey = t
+calendar-context-convert-menu =
+    .label = Converteix en
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Cita…
+    .accesskey = C
+calendar-context-convert-to-message =
+    .label = Missatge…
+    .accesskey = M
+calendar-context-convert-to-task =
+    .label = Tasca…
+    .accesskey = T

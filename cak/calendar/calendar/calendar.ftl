@@ -273,6 +273,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Tewäx { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Tik'ut { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Tewäx { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Xa xe tik'ut { $name }
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Tik'ut { $name }
@@ -316,3 +331,45 @@ calendar-context-attendance-occ-completed =
 calendar-context-attendance-all-accepted =
     .label = Xk'ul
     .accesskey = a
+calendar-context-progress =
+    .label = Tajin
+    .accesskey = q
+calendar-context-priority =
+    .label = Ya'on ruq'ij
+    .accesskey = r
+calendar-context-postpone-1hour =
+    .label = 1 Ramaj
+    .accesskey = N
+calendar-context-postpone-1day =
+    .label = 1 Q'ij
+    .accesskey = D
+calendar-context-postpone-1week =
+    .label = 1 Wuqq'ij
+    .accesskey = W
+calendar-context-delete-server =
+    .label = Tiyuj Cholb'äl Q'ij…
+    .accesskey = T
+calendar-context-remove-server =
+    .label = Tiyuj Cholb'äl Q'ij…
+    .accesskey = T
+calendar-context-export =
+    .label = Tik'wäx Cholb'äl Q'ij…
+    .accesskey = T
+calendar-context-properties =
+    .label = Taq ichinil
+    .accesskey = P
+calendar-context-showall =
+    .label = Kek'ut Ronojel Cholb'äl Q'ij
+    .accesskey = R
+calendar-context-convert-menu =
+    .label = Tik'ex Pa
+    .accesskey = k
+calendar-context-convert-to-event =
+    .label = Molojri'ïl…
+    .accesskey = E
+calendar-context-convert-to-message =
+    .label = Tzijol…
+    .accesskey = M
+calendar-context-convert-to-task =
+    .label = Samaj…
+    .accesskey = S

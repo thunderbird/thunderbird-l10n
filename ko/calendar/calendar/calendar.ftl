@@ -613,6 +613,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name } 숨기기
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name } 보이기
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name } 숨기기
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = { $name }만 보이기
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = { $name } 보이기
@@ -721,3 +736,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = 완료
     .accesskey = m
+calendar-context-progress =
+    .label = 진행
+    .accesskey = P
+calendar-context-priority =
+    .label = 중요도
+    .accesskey = r
+calendar-context-postpone =
+    .label = 할 일 일정 연기
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = 표시 완료
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = 한 시간
+    .accesskey = H
+calendar-context-postpone-1day =
+    .label = 하루
+    .accesskey = D
+calendar-context-postpone-1week =
+    .label = 일주일
+    .accesskey = W
+calendar-context-new-server =
+    .label = 새 캘린더…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = 캘린더 삭제
+    .accesskey = D
+calendar-context-remove-server =
+    .label = 캘린더 제거…
+    .accesskey = R
+calendar-context-unsubscribe-server =
+    .label = 캘린더 구독 취소…
+    .accesskey = U
+calendar-context-publish =
+    .label = 캘린더 게시…
+    .accesskey = b
+calendar-context-export =
+    .label = 캘린더 내보내기…
+    .accesskey = E
+calendar-context-properties =
+    .label = 속성
+    .accesskey = P
+calendar-context-showall =
+    .label = 모든 캘린더 보기
+    .accesskey = A
+calendar-context-convert-menu =
+    .label = 변환 하기
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = 이벤트…
+    .accesskey = E
+calendar-context-convert-to-message =
+    .label = 메시지…
+    .accesskey = M
+calendar-context-convert-to-task =
+    .label = 태스크…
+    .accesskey = T

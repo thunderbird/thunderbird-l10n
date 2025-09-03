@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Fela { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Sýna { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Fela { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Sýna aðeins { $name }
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Sýna { $name }
@@ -776,3 +791,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Lokið
     .accesskey = k
+calendar-context-progress =
+    .label = Framvinda
+    .accesskey = F
+calendar-context-priority =
+    .label = Forgangur
+    .accesskey = o
+calendar-context-postpone =
+    .label = Fresta verkefni
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Merkja sem lokið
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = 1 klukkustund
+    .accesskey = k
+calendar-context-postpone-1day =
+    .label = 1 dag
+    .accesskey = d
+calendar-context-postpone-1week =
+    .label = 1 viku
+    .accesskey = v
+calendar-context-new-server =
+    .label = Nýtt dagatal…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Eyða dagatali…
+    .accesskey = d
+calendar-context-remove-server =
+    .label = Fjarlægja dagatal…
+    .accesskey = r
+calendar-context-unsubscribe-server =
+    .label = Hætta í áskrift að dagatali…
+    .accesskey = æ
+calendar-context-publish =
+    .label = Gefa út dagatal…
+    .accesskey = G
+calendar-context-export =
+    .label = Flytja út dagatal…
+    .accesskey = F
+calendar-context-properties =
+    .label = Eiginleikar
+    .accesskey = i
+calendar-context-showall =
+    .label = Sýna öll dagatöl
+    .accesskey = a
+calendar-context-convert-menu =
+    .label = Breyta í
+    .accesskey = B
+calendar-context-convert-to-event =
+    .label = Atburður…
+    .accesskey = A
+calendar-context-convert-to-message =
+    .label = Skilaboð…
+    .accesskey = S
+calendar-context-convert-to-task =
+    .label = Verkefni…
+    .accesskey = V

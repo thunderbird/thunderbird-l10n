@@ -681,6 +681,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Sakrij { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Prikaži { $name }
+    .accesskey = P
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Sakrij { $name }
+    .accesskey = S
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Prikaži samo { $name }
+    .accesskey = s
 # $name calendar name
 show-calendar-label =
     .label = Prikaži { $name }
@@ -789,3 +804,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Završeno
     .accesskey = o
+calendar-context-progress =
+    .label = Napredak
+    .accesskey = p
+calendar-context-priority =
+    .label = Prioritet
+    .accesskey = r
+calendar-context-postpone =
+    .label = Odgodi zadatak
+    .accesskey = a
+calendar-context-mark-completed =
+    .label = Označi završenim
+    .accesskey = O
+calendar-context-postpone-1hour =
+    .label = 1 sat
+    .accesskey = s
+calendar-context-postpone-1day =
+    .label = 1 dan
+    .accesskey = d
+calendar-context-postpone-1week =
+    .label = 1 tjedan
+    .accesskey = t
+calendar-context-new-server =
+    .label = Novi kalendar…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Obriši kalendar…
+    .accesskey = b
+calendar-context-remove-server =
+    .label = Obriši kalendar…
+    .accesskey = b
+calendar-context-unsubscribe-server =
+    .label = Ukini pretplatu na kalendar…
+    .accesskey = U
+calendar-context-publish =
+    .label = Objavi kalendar…
+    .accesskey = O
+calendar-context-export =
+    .label = Izvezi kalendar…
+    .accesskey = e
+calendar-context-properties =
+    .label = Postavke
+    .accesskey = P
+calendar-context-showall =
+    .label = Prikaži sve kalendare
+    .accesskey = a
+calendar-context-convert-menu =
+    .label = Pretvori u
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Događaj…
+    .accesskey = D
+calendar-context-convert-to-message =
+    .label = Poruka…
+    .accesskey = u
+calendar-context-convert-to-task =
+    .label = Zadatak…
+    .accesskey = t

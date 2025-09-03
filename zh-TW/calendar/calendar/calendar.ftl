@@ -619,6 +619,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = 隱藏 { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = 顯示 { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = 隱藏 { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = 僅顯示 { $name }
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = 顯示 { $name }
@@ -727,3 +742,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = 已完成
     .accesskey = m
+calendar-context-progress =
+    .label = 進度
+    .accesskey = P
+calendar-context-priority =
+    .label = 重要性
+    .accesskey = r
+calendar-context-postpone =
+    .label = 推遲工作
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = 標示為已完成
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = 1 小時
+    .accesskey = H
+calendar-context-postpone-1day =
+    .label = 1 天
+    .accesskey = D
+calendar-context-postpone-1week =
+    .label = 1 週
+    .accesskey = W
+calendar-context-new-server =
+    .label = 開新行事曆…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = 刪除行事曆…
+    .accesskey = D
+calendar-context-remove-server =
+    .label = 移除行事曆…
+    .accesskey = R
+calendar-context-unsubscribe-server =
+    .label = 取消訂閱行事曆…
+    .accesskey = U
+calendar-context-publish =
+    .label = 發佈整個行事曆…
+    .accesskey = b
+calendar-context-export =
+    .label = 匯出行事曆…
+    .accesskey = E
+calendar-context-properties =
+    .label = 屬性
+    .accesskey = P
+calendar-context-showall =
+    .label = 顯示所有行事曆
+    .accesskey = A
+calendar-context-convert-menu =
+    .label = 轉換成
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = 事件…
+    .accesskey = E
+calendar-context-convert-to-message =
+    .label = 訊息…
+    .accesskey = M
+calendar-context-convert-to-task =
+    .label = 工作…
+    .accesskey = T

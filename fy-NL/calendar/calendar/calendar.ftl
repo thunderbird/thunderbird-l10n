@@ -672,6 +672,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name } ferstopje
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name } toane
+    .accesskey = e
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name } ferstopje
+    .accesskey = e
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Allinnich { $name } toane
+    .accesskey = n
 # $name calendar name
 show-calendar-label =
     .label = { $name } toane
@@ -780,3 +795,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Foltôge
     .accesskey = l
+calendar-context-progress =
+    .label = Foartgong
+    .accesskey = r
+calendar-context-priority =
+    .label = Prioriteit
+    .accesskey = P
+calendar-context-postpone =
+    .label = Taak útstelle
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Markearje as foltôge
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = 1 oer
+    .accesskey = o
+calendar-context-postpone-1day =
+    .label = 1 dei
+    .accesskey = d
+calendar-context-postpone-1week =
+    .label = 1 wike
+    .accesskey = w
+calendar-context-new-server =
+    .label = Nije aginda…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Aginda wiskje
+    .accesskey = w
+calendar-context-remove-server =
+    .label = Agenda fuortsmite…
+    .accesskey = s
+calendar-context-unsubscribe-server =
+    .label = Aginda ôfmelde…
+    .accesskey = f
+calendar-context-publish =
+    .label = Aginda publisearje
+    .accesskey = p
+calendar-context-export =
+    .label = Aginda eksportearje…
+    .accesskey = k
+calendar-context-properties =
+    .label = Eigenskippen
+    .accesskey = E
+calendar-context-showall =
+    .label = Alle aginda’s toane
+    .accesskey = A
+calendar-context-convert-menu =
+    .label = Konvertearje nei
+    .accesskey = K
+calendar-context-convert-to-event =
+    .label = Barren…
+    .accesskey = B
+calendar-context-convert-to-message =
+    .label = Berjocht…
+    .accesskey = e
+calendar-context-convert-to-task =
+    .label = Taak…
+    .accesskey = T

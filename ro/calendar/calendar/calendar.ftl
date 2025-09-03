@@ -682,6 +682,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Ascunde { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Afișează { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Ascunde { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Afișează numai { $name }
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Afișează { $name }
@@ -790,3 +805,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Finalizate
     .accesskey = i
+calendar-context-progress =
+    .label = Progres
+    .accesskey = P
+calendar-context-priority =
+    .label = Prioritate
+    .accesskey = r
+calendar-context-postpone =
+    .label = Amână sarcina cu
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Marchează ca finalizată
+    .accesskey = f
+calendar-context-postpone-1hour =
+    .label = 1 oră
+    .accesskey = o
+calendar-context-postpone-1day =
+    .label = 1 zi
+    .accesskey = z
+calendar-context-postpone-1week =
+    .label = 1 săptămână
+    .accesskey = s
+calendar-context-new-server =
+    .label = Calendar nou…
+    .accesskey = n
+calendar-context-delete-server =
+    .label = Șterge calendarul…
+    .accesskey = d
+calendar-context-remove-server =
+    .label = Elimină calendarul…
+    .accesskey = r
+calendar-context-unsubscribe-server =
+    .label = Dezabonare de la calendarul…
+    .accesskey = o
+calendar-context-publish =
+    .label = Publică calendarul…
+    .accesskey = b
+calendar-context-export =
+    .label = Exportă calendarul…
+    .accesskey = E
+calendar-context-properties =
+    .label = Proprietăți
+    .accesskey = P
+calendar-context-showall =
+    .label = Afișează toate calendarele
+    .accesskey = a
+calendar-context-convert-menu =
+    .label = Convertește în
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Eveniment…
+    .accesskey = E
+calendar-context-convert-to-message =
+    .label = Mesaj…
+    .accesskey = M
+calendar-context-convert-to-task =
+    .label = Sarcină…
+    .accesskey = S

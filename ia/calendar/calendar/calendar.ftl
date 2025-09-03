@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Celar { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Monstrar { $name }
+    .accesskey = s
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Celar { $name }
+    .accesskey = N
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Monstrar solo { $name }
+    .accesskey = o
 # $name calendar name
 show-calendar-label =
     .label = Monstrar { $name }
@@ -776,3 +791,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Completate
     .accesskey = c
+calendar-context-progress =
+    .label = Progresso
+    .accesskey = P
+calendar-context-priority =
+    .label = Prioritate
+    .accesskey = r
+calendar-context-postpone =
+    .label = Postponer activitate
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Marcar como completate
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = 1 Hora
+    .accesskey = H
+calendar-context-postpone-1day =
+    .label = 1 Die
+    .accesskey = D
+calendar-context-postpone-1week =
+    .label = 1 Septimana
+    .accesskey = S
+calendar-context-new-server =
+    .label = Nove calendario…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Deler calendario…
+    .accesskey = D
+calendar-context-remove-server =
+    .label = Remove calendario…
+    .accesskey = R
+calendar-context-unsubscribe-server =
+    .label = Cancellar inscription in agenda…
+    .accesskey = C
+calendar-context-publish =
+    .label = Publicar agenda…
+    .accesskey = b
+calendar-context-export =
+    .label = Exportar calendario…
+    .accesskey = E
+calendar-context-properties =
+    .label = Proprietates
+    .accesskey = P
+calendar-context-showall =
+    .label = Monstrar tote le calendarios
+    .accesskey = T
+calendar-context-convert-menu =
+    .label = Converter in
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Evento…
+    .accesskey = E
+calendar-context-convert-to-message =
+    .label = Message…
+    .accesskey = M
+calendar-context-convert-to-task =
+    .label = Activitate…
+    .accesskey = A

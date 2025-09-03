@@ -672,6 +672,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name } verbergen
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name } tonen
+    .accesskey = t
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name } verbergen
+    .accesskey = v
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Alleen { $name } tonen
+    .accesskey = o
 # $name calendar name
 show-calendar-label =
     .label = { $name } tonen
@@ -780,3 +795,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Voltooid
     .accesskey = o
+calendar-context-progress =
+    .label = Voortgang
+    .accesskey = r
+calendar-context-priority =
+    .label = Prioriteit
+    .accesskey = P
+calendar-context-postpone =
+    .label = Taak uitstellen
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Markeren als voltooid
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = 1 uur
+    .accesskey = u
+calendar-context-postpone-1day =
+    .label = 1 dag
+    .accesskey = d
+calendar-context-postpone-1week =
+    .label = 1 week
+    .accesskey = w
+calendar-context-new-server =
+    .label = Nieuwe agenda…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Agenda wissen…
+    .accesskey = w
+calendar-context-remove-server =
+    .label = Agenda verwijderen…
+    .accesskey = r
+calendar-context-unsubscribe-server =
+    .label = Agenda afmelden…
+    .accesskey = f
+calendar-context-publish =
+    .label = Agenda publiceren
+    .accesskey = u
+calendar-context-export =
+    .label = Agenda exporteren…
+    .accesskey = x
+calendar-context-properties =
+    .label = Eigenschappen
+    .accesskey = E
+calendar-context-showall =
+    .label = Alle agenda’s tonen
+    .accesskey = A
+calendar-context-convert-menu =
+    .label = Converteren naar
+    .accesskey = C
+calendar-context-convert-to-event =
+    .label = Gebeurtenis…
+    .accesskey = G
+calendar-context-convert-to-message =
+    .label = Bericht…
+    .accesskey = B
+calendar-context-convert-to-task =
+    .label = Taak…
+    .accesskey = T

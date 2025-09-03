@@ -664,6 +664,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name } takvimini gizle
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name } takvimini göster
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name } takvimini gizle
+    .accesskey = G
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Yalnız { $name } takvimini göster
+    .accesskey = Y
 # $name calendar name
 show-calendar-label =
     .label = { $name } takvimini göster
@@ -772,3 +787,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Tamamlandı
     .accesskey = m
+calendar-context-progress =
+    .label = İlerleme
+    .accesskey = l
+calendar-context-priority =
+    .label = Öncelik
+    .accesskey = n
+calendar-context-postpone =
+    .label = Görevi ertele
+    .accesskey = e
+calendar-context-mark-completed =
+    .label = Tamamlanmış olarak işaretle
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = 1 saat
+    .accesskey = s
+calendar-context-postpone-1day =
+    .label = 1 gün
+    .accesskey = g
+calendar-context-postpone-1week =
+    .label = 1 hafta
+    .accesskey = h
+calendar-context-new-server =
+    .label = Yeni takvim…
+    .accesskey = m
+calendar-context-delete-server =
+    .label = Takvimi sil…
+    .accesskey = T
+calendar-context-remove-server =
+    .label = Takvimi kaldır…
+    .accesskey = T
+calendar-context-unsubscribe-server =
+    .label = Takvim aboneliğinden çık…
+    .accesskey = T
+calendar-context-publish =
+    .label = Takvimi yayımla…
+    .accesskey = T
+calendar-context-export =
+    .label = Takvimi dışa aktar…
+    .accesskey = a
+calendar-context-properties =
+    .label = Özellikler
+    .accesskey = k
+calendar-context-showall =
+    .label = Tüm takvimleri göster
+    .accesskey = ü
+calendar-context-convert-menu =
+    .label = Dönüştür
+    .accesskey = r
+calendar-context-convert-to-event =
+    .label = Etkinlik…
+    .accesskey = E
+calendar-context-convert-to-message =
+    .label = İleti…
+    .accesskey = İ
+calendar-context-convert-to-task =
+    .label = Görev…
+    .accesskey = G

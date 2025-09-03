@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Ezkutatu { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Erakutsi { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Ezkutatu { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Erakutsi { $name } bakarrik
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Erakutsi { $name }
@@ -776,3 +791,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Burututa
     .accesskey = u
+calendar-context-progress =
+    .label = Aurrerapena
+    .accesskey = u
+calendar-context-priority =
+    .label = Lehentasuna
+    .accesskey = h
+calendar-context-postpone =
+    .label = Atzeratu zeregina
+    .accesskey = t
+calendar-context-mark-completed =
+    .label = Markatu osatua bezala
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = 1 ordu
+    .accesskey = o
+calendar-context-postpone-1day =
+    .label = 1 egun
+    .accesskey = g
+calendar-context-postpone-1week =
+    .label = 1 aste
+    .accesskey = a
+calendar-context-new-server =
+    .label = Egutegi berria…
+    .accesskey = b
+calendar-context-delete-server =
+    .label = Ezabatu egutegia…
+    .accesskey = z
+calendar-context-remove-server =
+    .label = Ezabatu egutegia…
+    .accesskey = z
+calendar-context-unsubscribe-server =
+    .label = Ezabatu egutegi harpidetza…
+    .accesskey = e
+calendar-context-publish =
+    .label = Argitaratu egutegia…
+    .accesskey = g
+calendar-context-export =
+    .label = Esportatu egutegia…
+    .accesskey = E
+calendar-context-properties =
+    .label = Propietateak
+    .accesskey = P
+calendar-context-showall =
+    .label = Erakutsi egutegi guztiak
+    .accesskey = g
+calendar-context-convert-menu =
+    .label = Bihurtu hona
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Gertaera…
+    .accesskey = e
+calendar-context-convert-to-message =
+    .label = Mezua…
+    .accesskey = M
+calendar-context-convert-to-task =
+    .label = Zeregina…
+    .accesskey = Z

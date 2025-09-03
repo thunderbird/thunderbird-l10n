@@ -694,6 +694,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Falaich { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Seall { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Falaich { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Na seall ach { $name }
+    .accesskey = A
 # $name calendar name
 show-calendar-label =
     .label = Seall { $name }
@@ -802,3 +817,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Air a choileanadh
     .accesskey = m
+calendar-context-progress =
+    .label = Adhartas
+    .accesskey = A
+calendar-context-priority =
+    .label = Prìomhachas
+    .accesskey = r
+calendar-context-postpone =
+    .label = Cuir dàil san t-saothair
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Cuir comharra gu bheil e crìochnaichte
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = 1 uair a thìde
+    .accesskey = u
+calendar-context-postpone-1day =
+    .label = 1 latha
+    .accesskey = l
+calendar-context-postpone-1week =
+    .label = 1 seachdain
+    .accesskey = s
+calendar-context-new-server =
+    .label = Mìosachan ùr…
+    .accesskey = n
+calendar-context-delete-server =
+    .label = Sguab às mìosachan...
+    .accesskey = S
+calendar-context-remove-server =
+    .label = Thoir air falbh mìosachan...
+    .accesskey = T
+calendar-context-unsubscribe-server =
+    .label = Crìochnaich fo-sgrìobhadh do mhìosachan...
+    .accesskey = o
+calendar-context-publish =
+    .label = Foillsich mìosachan…
+    .accesskey = F
+calendar-context-export =
+    .label = Às-phortaich mìosachan…
+    .accesskey = m
+calendar-context-properties =
+    .label = Roghainnean
+    .accesskey = R
+calendar-context-showall =
+    .label = Seall gach mìosachan
+    .accesskey = a
+calendar-context-convert-menu =
+    .label = Iompaich 'na
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Thachartas…
+    .accesskey = T
+calendar-context-convert-to-message =
+    .label = Theachdaireachd…
+    .accesskey = T
+calendar-context-convert-to-task =
+    .label = Shaothair…
+    .accesskey = t

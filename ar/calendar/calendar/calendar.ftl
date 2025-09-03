@@ -635,6 +635,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = أخف { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = أظهر { $name }
+    .accesskey = ظ
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = أخف { $name }
+    .accesskey = خ
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = أظهر فقط { $name }
+    .accesskey = ط
 # $name calendar name
 show-calendar-label =
     .label = أظهر { $name }
@@ -743,3 +758,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = اكتمل
     .accesskey = ل
+calendar-context-progress =
+    .label = التقدم
+    .accesskey = ق
+calendar-context-priority =
+    .label = الأولوية
+    .accesskey = و
+calendar-context-postpone =
+    .label = أجّل المهمة
+    .accesskey = ج
+calendar-context-mark-completed =
+    .label = علّم كمكتملة
+    .accesskey = ك
+calendar-context-postpone-1hour =
+    .label = ساعة واحدة
+    .accesskey = س
+calendar-context-postpone-1day =
+    .label = يوم واحد
+    .accesskey = ي
+calendar-context-postpone-1week =
+    .label = أسبوع واحد
+    .accesskey = ب
+calendar-context-new-server =
+    .label = تقويم جديد…
+    .accesskey = ج
+calendar-context-delete-server =
+    .label = احذف التقويم…
+    .accesskey = ح
+calendar-context-remove-server =
+    .label = أزل التقويم…
+    .accesskey = ز
+calendar-context-unsubscribe-server =
+    .label = ألغ الاشتراك مع التقويم…
+    .accesskey = ش
+calendar-context-publish =
+    .label = انشر التقويم…
+    .accesskey = ش
+calendar-context-export =
+    .label = صدّر التقويم…
+    .accesskey = ص
+calendar-context-properties =
+    .label = خصائص
+    .accesskey = خ
+calendar-context-showall =
+    .label = أظهر كل التقويمات
+    .accesskey = ك
+calendar-context-convert-menu =
+    .label = حوّل إلى
+    .accesskey = و
+calendar-context-convert-to-event =
+    .label = حدث…
+    .accesskey = ح
+calendar-context-convert-to-message =
+    .label = رسالة…
+    .accesskey = س
+calendar-context-convert-to-task =
+    .label = مهمَّة…
+    .accesskey = ه

@@ -607,6 +607,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = 隐藏 { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = 显示 { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = 隐藏 { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = 仅显示 { $name }
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = 显示 { $name }
@@ -715,3 +730,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = 已完成
     .accesskey = m
+calendar-context-progress =
+    .label = 进度
+    .accesskey = P
+calendar-context-priority =
+    .label = 优先级
+    .accesskey = r
+calendar-context-postpone =
+    .label = 推迟任务
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = 标记为已完成
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = 1小时
+    .accesskey = H
+calendar-context-postpone-1day =
+    .label = 1天
+    .accesskey = D
+calendar-context-postpone-1week =
+    .label = 1 周
+    .accesskey = W
+calendar-context-new-server =
+    .label = 新建日历…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = 删除日历…
+    .accesskey = D
+calendar-context-remove-server =
+    .label = 删除日历…
+    .accesskey = R
+calendar-context-unsubscribe-server =
+    .label = 取消订阅日历…
+    .accesskey = U
+calendar-context-publish =
+    .label = 发布日历…
+    .accesskey = b
+calendar-context-export =
+    .label = 导出日历…
+    .accesskey = E
+calendar-context-properties =
+    .label = 属性
+    .accesskey = P
+calendar-context-showall =
+    .label = 显示所有日历
+    .accesskey = A
+calendar-context-convert-menu =
+    .label = 转换为
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = 事件…
+    .accesskey = E
+calendar-context-convert-to-message =
+    .label = 消息…
+    .accesskey = M
+calendar-context-convert-to-task =
+    .label = 任务…
+    .accesskey = T

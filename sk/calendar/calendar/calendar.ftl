@@ -686,6 +686,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Skryť kalendár { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Zobraziť kalendár { $name }
+    .accesskey = r
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Skryť kalendár { $name }
+    .accesskey = r
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Zobraziť iba kalendár { $name }
+    .accesskey = e
 # $name calendar name
 show-calendar-label =
     .label = Zobraziť kalendár { $name }
@@ -794,3 +809,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Dokončené
     .accesskey = e
+calendar-context-progress =
+    .label = Stav
+    .accesskey = S
+calendar-context-priority =
+    .label = Priorita
+    .accesskey = P
+calendar-context-postpone =
+    .label = Odložiť úlohu
+    .accesskey = O
+calendar-context-mark-completed =
+    .label = Označiť ako dokončenú
+    .accesskey = d
+calendar-context-postpone-1hour =
+    .label = O jednu hodinu
+    .accesskey = h
+calendar-context-postpone-1day =
+    .label = O jeden deň
+    .accesskey = O
+calendar-context-postpone-1week =
+    .label = O jeden týždeň
+    .accesskey = d
+calendar-context-new-server =
+    .label = Nový kalendár…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Vymazať kalendár…
+    .accesskey = m
+calendar-context-remove-server =
+    .label = Odstrániť kalendár…
+    .accesskey = d
+calendar-context-unsubscribe-server =
+    .label = Odhlásiť odber kalendára…
+    .accesskey = h
+calendar-context-publish =
+    .label = Publikovať celý kalendár…
+    .accesskey = P
+calendar-context-export =
+    .label = Exportovať kalendár…
+    .accesskey = E
+calendar-context-properties =
+    .label = Vlastnosti
+    .accesskey = V
+calendar-context-showall =
+    .label = Zobraziť všetky kalendáre
+    .accesskey = v
+calendar-context-convert-menu =
+    .label = Konvertovať na
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Udalosť…
+    .accesskey = U
+calendar-context-convert-to-message =
+    .label = Správa…
+    .accesskey = S
+calendar-context-convert-to-task =
+    .label = Úloha…
+    .accesskey = h

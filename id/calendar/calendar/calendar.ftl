@@ -616,6 +616,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Sembunyikan { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Tampilkan { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Sembunyikan { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Hanya Tampilkan { $name }
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Tampilkan { $name }
@@ -724,3 +739,60 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Selesai
     .accesskey = m
+calendar-context-progress =
+    .label = Kemajuan
+    .accesskey = K
+calendar-context-priority =
+    .label = Prioritas
+    .accesskey = P
+calendar-context-postpone =
+    .label = Tunda Tugas
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Tandai Sudah Selesai
+    .accesskey = i
+calendar-context-postpone-1hour =
+    .label = 1 Jam
+    .accesskey = J
+calendar-context-postpone-1day =
+    .label = 1 Hari
+    .accesskey = H
+calendar-context-postpone-1week =
+    .label = 1 Minggu
+    .accesskey = M
+calendar-context-new-server =
+    .label = Kalender Baru…
+    .accesskey = K
+calendar-context-delete-server =
+    .label = Hapus Kalender…
+    .accesskey = D
+calendar-context-remove-server =
+    .label = Hapus Kalender…
+    .accesskey = R
+calendar-context-unsubscribe-server =
+    .label = Berhenti Berlangganan Kalender…
+    .accesskey = U
+calendar-context-publish =
+    .label = Terbitkan Kalender…
+    .accesskey = T
+calendar-context-export =
+    .label = Ekspor Kalender…
+    .accesskey = E
+calendar-context-properties =
+    .label = Properti
+    .accesskey = P
+calendar-context-showall =
+    .label = Tampilkan Semua Kalender
+    .accesskey = A
+calendar-context-convert-menu =
+    .label = Konversikan Ke
+    .accesskey = v
+calendar-context-convert-to-event =
+    .label = Acara…
+    .accesskey = A
+calendar-context-convert-to-message =
+    .label = Pesan…
+    .accesskey = P
+calendar-context-convert-to-task =
+    .label = Tugas…
+    .accesskey = T
