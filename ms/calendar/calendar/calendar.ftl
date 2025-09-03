@@ -557,6 +557,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Sorok { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Papar { $name }
+    .accesskey = p
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Sorok { $name }
+    .accesskey = S
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Papar Hanya { $name }
+    .accesskey = H
 # $name calendar name
 show-calendar-label =
     .label = Papar { $name }
@@ -665,6 +680,54 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Selesai
     .accesskey = l
+calendar-context-progress =
+    .label = Kemajuan
+    .accesskey = K
+calendar-context-priority =
+    .label = Prioriti
+    .accesskey = r
+calendar-context-postpone =
+    .label = Tunda Tugasan
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Tandakan Selesai
+    .accesskey = d
+calendar-context-postpone-1hour =
+    .label = 1 Jam
+    .accesskey = J
+calendar-context-postpone-1day =
+    .label = 1 Hari
+    .accesskey = H
+calendar-context-postpone-1week =
+    .label = 1 Minggu
+    .accesskey = M
+calendar-context-new-server =
+    .label = Kalendar Baru…
+    .accesskey = B
+calendar-context-delete-server =
+    .label = Buang Kalendar…
+    .accesskey = B
+calendar-context-remove-server =
+    .label = Buang Kalendar…
+    .accesskey = B
+calendar-context-unsubscribe-server =
+    .label = Batal langganan Kalendar…
+    .accesskey = B
+calendar-context-publish =
+    .label = Terbitkan Kalendar…
+    .accesskey = b
+calendar-context-export =
+    .label = Eksport Kalendar…
+    .accesskey = E
+calendar-context-properties =
+    .label = Sifat
+    .accesskey = S
+calendar-context-showall =
+    .label = Papar Semua Kalendar
+    .accesskey = S
+calendar-context-convert-menu =
+    .label = Tukar Kepada
+    .accesskey = r
 calendar-context-convert-to-event =
     .label = Acara…
     .accesskey = A
