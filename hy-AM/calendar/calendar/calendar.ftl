@@ -662,6 +662,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Թաքցնել { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Ցուցադրել { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Թաքցնել { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Ցուցադրել միայն { $name }
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Ցուցադրել { $name }
@@ -770,6 +785,18 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Կատարված
     .accesskey = m
+calendar-context-progress =
+    .label = Առաջընթաց
+    .accesskey = P
+calendar-context-priority =
+    .label = Առաջնահերթություն
+    .accesskey = r
+calendar-context-postpone =
+    .label = Հետաձգել առաջադրանքը
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Նշումը կատարվել է
+    .accesskey = o
 calendar-context-postpone-1hour =
     .label = 1 Ժամ
     .accesskey = H
