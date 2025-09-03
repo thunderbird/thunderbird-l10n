@@ -666,6 +666,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Amaga { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Mostra { $name }
+    .accesskey = o
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Amaga { $name }
+    .accesskey = m
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Mostra només { $name }
+    .accesskey = o
 # $name calendar name
 show-calendar-label =
     .label = Mostra { $name }
