@@ -682,6 +682,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Сховати { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Показати { $name }
+    .accesskey = о
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Сховати { $name }
+    .accesskey = х
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Показати лише { $name }
+    .accesskey = о
 # $name calendar name
 show-calendar-label =
     .label = Показати { $name }
@@ -790,6 +805,33 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Завершено
     .accesskey = а
+calendar-context-progress =
+    .label = Завершено
+    .accesskey = З
+calendar-context-priority =
+    .label = Пріоритет
+    .accesskey = П
+calendar-context-postpone =
+    .label = Відкласти завдання
+    .accesskey = л
+calendar-context-mark-completed =
+    .label = Завершеність
+    .accesskey = З
+calendar-context-postpone-1hour =
+    .label = 1 година
+    .accesskey = г
+calendar-context-postpone-1day =
+    .label = 1 день
+    .accesskey = д
+calendar-context-postpone-1week =
+    .label = 1 тиждень
+    .accesskey = т
+calendar-context-new-server =
+    .label = Новий календар…
+    .accesskey = Н
+calendar-context-delete-server =
+    .label = Видалити календар…
+    .accesskey = В
 calendar-context-remove-server =
     .label = Вилучити календар…
     .accesskey = В
