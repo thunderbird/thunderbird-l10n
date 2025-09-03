@@ -25,3 +25,30 @@ cert-error-inline-domain-mismatch =
 #   $not-after (string) - Certificate is not valid after this time.
 cert-error-inline-expired =
     .title = Tilkoplingsfeil. Sertifikatet for { $hostname } gjekk ut { $not-after }. Klikk for å opne tryggingsinnstillingane frå serveren.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-before (string) - Certificate is not valid before this time.
+cert-error-inline-not-yet-valid =
+    .title = Tilkoplingsfeil. Sertifikatet for { $hostname } vil ikkje vere gyldig før { $not-before }. Klikk for å opne tryggingsinnstillingane til serveren.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-untrusted-default =
+    .title = Tilkoplingsfeil. Sertifikatet for { $hostname } kjem ikkje frå ei påliteleg kjelde. Klikk for å opne tryggingsinnstillingane til serveren.
+certificate-check-fetch-button = Hent sertifikat
+certificate-check-view-button = Vis sertifikat
+certificate-check-add-exception-button = Legg til unnatak
+certificate-check-remove-exception-button = Fjern unntak
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = Hentar sertifikatet for { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Sertifikatet for { $hostname } ser ut til å vere gyldig.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = Klarte ikkje å hente sertifikatet for { $hostname }.
+certificate-check-exception-added = Sertifikat-unntak lagt til.
+certificate-check-exception-removed = Sertifikat-unntak fjerna.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Det finst eit sertifikat-unntak for { $hostname }.
