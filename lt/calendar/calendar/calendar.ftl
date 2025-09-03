@@ -613,6 +613,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Nerodyti „{ $name }“
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Rodyti „{ $name }“
+    .accesskey = R
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Nerodyti „{ $name }“
+    .accesskey = r
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Rodyti tik „{ $name }“
+    .accesskey = t
 # $name calendar name
 show-calendar-label =
     .label = Rodyti „{ $name }“
@@ -721,6 +736,27 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Baigta
     .accesskey = B
+calendar-context-progress =
+    .label = Eiga
+    .accesskey = E
+calendar-context-priority =
+    .label = Prioritetas
+    .accesskey = P
+calendar-context-postpone =
+    .label = Atidėti darbą
+    .accesskey = A
+calendar-context-mark-completed =
+    .label = Žymėti kaip užbaigtą
+    .accesskey = b
+calendar-context-postpone-1hour =
+    .label = 1 valandai
+    .accesskey = v
+calendar-context-postpone-1day =
+    .label = 1 dienai
+    .accesskey = d
+calendar-context-postpone-1week =
+    .label = 1 savaitei
+    .accesskey = s
 calendar-context-new-server =
     .label = Naujas kalendorius…
     .accesskey = N
