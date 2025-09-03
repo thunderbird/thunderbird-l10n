@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Απόκρυψη του «{ $name }»
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Εμφάνιση του «{ $name }»
+    .accesskey = η
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Απόκρυψη του «{ $name }»
+    .accesskey = η
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Εμφάνιση μόνο του «{ $name }»
+    .accesskey = μ
 # $name calendar name
 show-calendar-label =
     .label = Εμφάνιση του «{ $name }»
