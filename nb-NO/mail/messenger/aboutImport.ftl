@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Adressebøker
 items-pane-checkbox-calendars = Kalendere
 items-pane-checkbox-mail-messages = E-postmeldinger
 items-pane-override = Eksisterende eller identiske data vil ikke bli overskrevet.
+items-pane-nothing-to-import = Ingenting kan importeres fra den valgte kilden.
 
 ## Import from address book file steps
 
