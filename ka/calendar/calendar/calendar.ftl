@@ -664,6 +664,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name }-ის დამალვა
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name }-ის გამოჩენა
+    .accesskey = ჩ
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name }-ის დამალვა
+    .accesskey = დ
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = მხოლოდ { $name }-ის ჩვენება
+    .accesskey = მ
 # $name calendar name
 show-calendar-label =
     .label = { $name }-ის გამოჩენა
@@ -772,6 +787,18 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = დასრულებულია
     .accesskey = ლ
+calendar-context-progress =
+    .label = მიმდინარეობა
+    .accesskey = მ
+calendar-context-priority =
+    .label = უპირატესობა
+    .accesskey = უ
+calendar-context-postpone =
+    .label = გადადებული დავალებები
+    .accesskey = ბ
+calendar-context-mark-completed =
+    .label = მონიშვნა დასრულებულად
+    .accesskey = ო
 calendar-context-postpone-1hour =
     .label = 1 საათი
     .accesskey = თ
