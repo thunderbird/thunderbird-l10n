@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Ezkutatu { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Erakutsi { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Ezkutatu { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Erakutsi { $name } bakarrik
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Erakutsi { $name }
