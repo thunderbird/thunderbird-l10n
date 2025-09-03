@@ -602,6 +602,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Sakrij { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Prikaži { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Sakrij { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Prikaži samo { $name }
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Prikaži { $name }
@@ -662,6 +677,54 @@ calendar-context-attendance-occurrence =
     .label = Ovo ponavljanje
 calendar-context-attendance-all-series =
     .label = Kompletne serije
+calendar-context-progress =
+    .label = Napredak
+    .accesskey = P
+calendar-context-priority =
+    .label = Prioritet
+    .accesskey = r
+calendar-context-postpone =
+    .label = Odgodi zadatak
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Označi završenim
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = 1 sat
+    .accesskey = H
+calendar-context-postpone-1day =
+    .label = 1 dan
+    .accesskey = D
+calendar-context-postpone-1week =
+    .label = 1 sedmica
+    .accesskey = W
+calendar-context-new-server =
+    .label = Novi kalendar…
+    .accesskey = N
+calendar-context-delete-server =
+    .label = Izbriši kalendar…
+    .accesskey = D
+calendar-context-remove-server =
+    .label = Ukloni kalendar…
+    .accesskey = R
+calendar-context-unsubscribe-server =
+    .label = Ukini pretplatu na kalendar…
+    .accesskey = U
+calendar-context-publish =
+    .label = Objavi kalendar…
+    .accesskey = b
+calendar-context-export =
+    .label = Izvezi kalendar…
+    .accesskey = E
+calendar-context-properties =
+    .label = Svojstva
+    .accesskey = P
+calendar-context-showall =
+    .label = Prikaži sve kalendare
+    .accesskey = A
+calendar-context-convert-menu =
+    .label = Pretvori u
+    .accesskey = v
 calendar-context-convert-to-event =
     .label = Događaj…
     .accesskey = E
