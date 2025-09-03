@@ -613,6 +613,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name } 숨기기
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name } 보이기
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name } 숨기기
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = { $name }만 보이기
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = { $name } 보이기
