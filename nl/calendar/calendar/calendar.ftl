@@ -672,6 +672,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name } verbergen
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name } tonen
+    .accesskey = t
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name } verbergen
+    .accesskey = v
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Alleen { $name } tonen
+    .accesskey = o
 # $name calendar name
 show-calendar-label =
     .label = { $name } tonen
@@ -804,3 +819,15 @@ calendar-context-properties =
 calendar-context-showall =
     .label = Alle agenda’s tonen
     .accesskey = A
+calendar-context-convert-menu =
+    .label = Converteren naar
+    .accesskey = C
+calendar-context-convert-to-event =
+    .label = Gebeurtenis…
+    .accesskey = G
+calendar-context-convert-to-message =
+    .label = Bericht…
+    .accesskey = B
+calendar-context-convert-to-task =
+    .label = Taak…
+    .accesskey = T
