@@ -41,3 +41,14 @@ certificate-check-remove-exception-button = Ta bort undantag
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Hämtar certifikatet för { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Certifikatet för { $hostname } verkar vara giltigt.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = Det gick inte att hämta certifikatet för { $hostname }.
+certificate-check-exception-added = Certifikatundantag tillagt.
+certificate-check-exception-removed = Certifikatundantag borttaget.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Det finns ett certifikatundantag för { $hostname }.
