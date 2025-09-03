@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name } elrejtése
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name } megjelenítése
+    .accesskey = m
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name } elrejtése
+    .accesskey = r
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Csak { $name } megjelenítése
+    .accesskey = c
 # $name calendar name
 show-calendar-label =
     .label = { $name } megjelenítése
@@ -776,3 +791,39 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Befejezve
     .accesskey = j
+calendar-context-new-server =
+    .label = Új naptár…
+    .accesskey = n
+calendar-context-delete-server =
+    .label = Naptár törlése…
+    .accesskey = t
+calendar-context-remove-server =
+    .label = Naptár eltávolítása…
+    .accesskey = e
+calendar-context-unsubscribe-server =
+    .label = Leiratkozás a naptárról…
+    .accesskey = L
+calendar-context-publish =
+    .label = Naptár közzététele…
+    .accesskey = k
+calendar-context-export =
+    .label = Naptár exportálása…
+    .accesskey = x
+calendar-context-properties =
+    .label = Tulajdonságok
+    .accesskey = T
+calendar-context-showall =
+    .label = Minden naptár megjelenítése
+    .accesskey = a
+calendar-context-convert-menu =
+    .label = Átalakítás
+    .accesskey = t
+calendar-context-convert-to-event =
+    .label = Esemény…
+    .accesskey = E
+calendar-context-convert-to-message =
+    .label = Üzenet…
+    .accesskey = z
+calendar-context-convert-to-task =
+    .label = Feladat…
+    .accesskey = F
