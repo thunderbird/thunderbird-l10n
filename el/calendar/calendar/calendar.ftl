@@ -776,3 +776,6 @@ calendar-context-attendance-all-in-progress =
 calendar-context-attendance-all-completed =
     .label = Ολοκληρώθηκε
     .accesskey = ρ
+calendar-context-showall =
+    .label = Εμφάνιση όλων των ημερολογίων
+    .accesskey = ω
