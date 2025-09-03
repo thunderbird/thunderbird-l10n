@@ -664,6 +664,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = { $name } takvimini gizle
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = { $name } takvimini göster
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = { $name } takvimini gizle
+    .accesskey = G
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Yalnız { $name } takvimini göster
+    .accesskey = Y
 # $name calendar name
 show-calendar-label =
     .label = { $name } takvimini göster
