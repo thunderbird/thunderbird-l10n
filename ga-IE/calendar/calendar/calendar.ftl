@@ -566,6 +566,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Folaigh { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Taispeáin { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Folaigh { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Taispeáin { $name } Amháin
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Taispeáin { $name }
@@ -624,6 +639,27 @@ calendar-context-attendance-menu =
     .accesskey = T
 calendar-context-attendance-occurrence =
     .label = An Tarlú Seo
+calendar-context-progress =
+    .label = Dul Chun Cinn
+    .accesskey = D
+calendar-context-priority =
+    .label = Tosaíocht
+    .accesskey = T
+calendar-context-postpone =
+    .label = Cuir Tasc Ar Athlá
+    .accesskey = s
+calendar-context-mark-completed =
+    .label = Marcáil "Críochnaithe"
+    .accesskey = o
+calendar-context-postpone-1hour =
+    .label = Uair amháin
+    .accesskey = U
+calendar-context-postpone-1day =
+    .label = Lá amháin
+    .accesskey = L
+calendar-context-postpone-1week =
+    .label = Seachtain amháin
+    .accesskey = S
 calendar-context-new-server =
     .label = Féilire Nua…
     .accesskey = N
