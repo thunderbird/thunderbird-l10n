@@ -34,5 +34,6 @@
 <!ENTITY network.loading.description "Attende durante que tu agendas es discoperite.">
 <!ENTITY network.notfound.description "Impossibile trovar agendas in iste loco. Controla tu parametros.">
 <!ENTITY network.authfail.description "Le credentiales inserite non ha essite acceptate. Controlar le parametros.">
+<!ENTITY network.certerror.description "Impossibile trovar agendas in iste loco per problema di certificato.">
 <!ENTITY network.subscribe.single.description "Selige le agendas al quales tu prefere te abonar.">
 <!ENTITY network.subscribe.multiple.description "A iste adresse es disponibile typos de agendas multiple. Selige antea le typo de agenda, pois illos a subscriber.">
