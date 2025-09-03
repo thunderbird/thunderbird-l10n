@@ -44,3 +44,11 @@ certificate-check-fetching = Certifikat za { $hostname } se wobstarujo.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-success = Certifikat za { $hostname } zda se płaśiwy byś.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = Njejo móžno, certifikat za { $hostname } wobstaraś.
+certificate-check-exception-added = Wuwześe certifikata jo se pśidało.
+certificate-check-exception-removed = Wuwześe certifikata jo se wótwónoźeło.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Wuwześe certifikata za { $hostname } eksistěrujo.
