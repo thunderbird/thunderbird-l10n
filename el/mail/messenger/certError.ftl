@@ -16,3 +16,13 @@ cert-error-not-yet-valid = Το πιστοποιητικό για το { $hostna
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Το πιστοποιητικό για το { $hostname } δεν προέρχεται από αξιόπιστη πηγή.
+certificate-check-fetch-button = Λήψη πιστοποιητικού
+certificate-check-view-button = Προβολή πιστοποιητικού
+certificate-check-add-exception-button = Προσθήκη εξαίρεσης
+certificate-check-remove-exception-button = Αφαίρεση εξαίρεσης
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = Λήψη πιστοποιητικού για το { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Το πιστοποιητικό για το { $hostname } φαίνεται να είναι έγκυρο.
