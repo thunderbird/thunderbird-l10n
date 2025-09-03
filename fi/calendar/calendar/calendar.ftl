@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Piilota { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Näytä { $name }
+    .accesskey = N
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Piilota { $name }
+    .accesskey = P
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Näytä vain { $name }
+    .accesskey = v
 # $name calendar name
 show-calendar-label =
     .label = Näytä { $name }
