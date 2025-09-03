@@ -668,6 +668,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Скриване на { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Показване на { $name }
+    .accesskey = П
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Скриване на { $name }
+    .accesskey = С
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Показване само на { $name }
+    .accesskey = м
 # $name calendar name
 show-calendar-label =
     .label = Показване на { $name }
