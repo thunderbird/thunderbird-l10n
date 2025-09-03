@@ -20,3 +20,13 @@ cert-error-untrusted-default = Le certificato pro { $hostname } non proveni de u
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Error de connexion. Le certificato pro { $hostname } non es valide pro ille servitor. Alicuno poterea tentar de impersonificar le servitor e tu non debe continuar. Clicca pro aperir le configuration de securitate del servitor.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-after (string) - Certificate is not valid after this time.
+cert-error-inline-expired =
+    .title = Error de connexion. Le certificato pro { $hostname } expirava le { $not-after }. Clicca pro aperir le configuration de securitate del servitor.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-before (string) - Certificate is not valid before this time.
+cert-error-inline-not-yet-valid =
+    .title = Error de connexion. Le certificato pro { $hostname } non sera valide usque le { $not-before }. Clicca pro aperir le configuration de securitate del servitor.
