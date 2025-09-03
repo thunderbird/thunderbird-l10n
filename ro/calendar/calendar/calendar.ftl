@@ -682,6 +682,21 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Ascunde { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Afișează { $name }
+    .accesskey = h
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Ascunde { $name }
+    .accesskey = H
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Afișează numai { $name }
+    .accesskey = O
 # $name calendar name
 show-calendar-label =
     .label = Afișează { $name }
