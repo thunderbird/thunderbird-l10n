@@ -30,3 +30,25 @@ cert-error-inline-expired =
 #   $not-before (string) - Certificate is not valid before this time.
 cert-error-inline-not-yet-valid =
     .title = Error de connexion. Le certificato pro { $hostname } non sera valide usque le { $not-before }. Clicca pro aperir le configuration de securitate del servitor.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-untrusted-default =
+    .title = Error de connexion. Le certificato pro { $hostname } non veni de un fonte digne de fide. Clicca pro aperir le configuration de securitate del servitor.
+certificate-check-fetch-button = Recuperar certificato
+certificate-check-view-button = Vider certificato
+certificate-check-add-exception-button = Adder exception
+certificate-check-remove-exception-button = Remover exception
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = Recuperante certificato pro { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Le certificato pro { $hostname } pare esser valide.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = Impossibile recuperar le certificato pro { $hostname }.
+certificate-check-exception-added = Exception addite pro certificato
+certificate-check-exception-removed = Exception removite pro certificato
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Un exception pro le certificato { $hostname } existe.
