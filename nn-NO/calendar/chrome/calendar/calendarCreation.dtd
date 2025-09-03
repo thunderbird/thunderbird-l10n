@@ -34,5 +34,6 @@
 <!ENTITY network.loading.description "Vent medan kalendrane dine blir oppdaga.">
 <!ENTITY network.notfound.description "Kan ikkje finna kalendrar på denne adressa. Kontroller innstillingane dine.">
 <!ENTITY network.authfail.description "Innlogginga du spesifiserte fungerte ikkje. Ver snill og kontroller innstillingane dine.">
+<!ENTITY network.certerror.description "Finn ikkje kalendrar på denne plasseringa på grunn av eit sertifikatproblem.">
 <!ENTITY network.subscribe.single.description "Vel kalendrane du vil abonnere på.">
 <!ENTITY network.subscribe.multiple.description "Fleire kalendertypar er tilgjengelege på denne adressa. Vel ei kalendertype og marker kalendrane du vil abonnera på.">
