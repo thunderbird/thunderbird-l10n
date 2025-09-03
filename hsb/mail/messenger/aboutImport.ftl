@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Adresniki
 items-pane-checkbox-calendars = Protyki
 items-pane-checkbox-mail-messages = Mejlki
 items-pane-override = Eksistowace abo identiske daty so njepřepisaja.
+items-pane-nothing-to-import = Z wubraneho žórła njeda so ničo importować.
 
 ## Import from address book file steps
 

@@ -16,3 +16,21 @@ cert-error-not-yet-valid = Certifikat za { $hostname } hač do { $not-before } p
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Certifikat za { $hostname } z dowěry hódneho žórła njepochadźa.
+certificate-check-fetch-button = Certifikat wobstarać
+certificate-check-view-button = Certifikat pokazać
+certificate-check-add-exception-button = Wuwzaće přidać
+certificate-check-remove-exception-button = Wuwzaće wotstronić
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = Certifikat za { $hostname } so wobstaruje.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Certifikat za { $hostname } zda so płaćiwy być.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = Njeje móžno, certifikat za { $hostname } wobstarać.
+certificate-check-exception-added = Wuwzaće certifikata je so přidało.
+certificate-check-exception-removed = Wuwzaće certifikata je so wotstroniło.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Wuwzaće certifikata za { $hostname } eksistuje.
