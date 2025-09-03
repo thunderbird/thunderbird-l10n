@@ -34,6 +34,6 @@
 <!ENTITY network.loading.description "請稍等，我們正在尋找您的行事曆。">
 <!ENTITY network.notfound.description "無法在此位置找到行事曆，請檢查設定。">
 <!ENTITY network.authfail.description "您輸入的帳號密碼未被接受，請檢查設定。">
-<!ENTITY network.certerror.description "憑證問題無法在此位置找到行事歷。">
+<!ENTITY network.certerror.description "因憑證問題，無法在此位置找到行事曆。">
 <!ENTITY network.subscribe.single.description "請選擇您要訂閱的行事曆。">
 <!ENTITY network.subscribe.multiple.description "此位置有多種不同的行事曆。請先選擇要訂閱的類型，再勾選想要訂閱的行事曆。">

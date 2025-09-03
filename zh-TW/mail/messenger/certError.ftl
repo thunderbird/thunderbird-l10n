@@ -19,34 +19,34 @@ cert-error-untrusted-default = { $hostname } 的憑證不是來自受信任的�
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
-    .title = 連線錯誤。 { $hostname } 的憑證對該伺服器無效。有心人士可能正在嘗試偽裝成該伺服器不應繼續開啟。點擊開啟伺服器安全性設定。
+    .title = 連線發生錯誤，{ $hostname } 的憑證對該伺服器無效。有心人士可能正在嘗試偽裝成該伺服器，您不該繼續連線。點擊此處即可開啟伺服器安全性選項。
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 #   $not-after (string) - Certificate is not valid after this time.
 cert-error-inline-expired =
-    .title = 連線錯誤。 { $hostname } 的憑證已於 { $not-after } 過期。點擊開啟伺服器安全性設定。
+    .title = 連線發生錯誤，{ $hostname } 的憑證已於 { $not-after } 過期。點擊此處即可開啟伺服器安全性選項。
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 #   $not-before (string) - Certificate is not valid before this time.
 cert-error-inline-not-yet-valid =
-    .title = 連線錯誤。 { $hostname } 的憑證直到 { $not-before } 才有效。點擊開啟伺服器安全性設定。
+    .title = 連線發生錯誤，{ $hostname } 的憑證需於 { $not-before } 之後才生效。點擊此處即可開啟伺服器安全性選項。
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
-    .title = 連線錯誤。 { $hostname } 的憑證不是來自可信任的來源。點擊開啟伺服器安全性設定。
+    .title = 連線發生錯誤，{ $hostname } 的憑證並非來自受信任的來源。點擊此處即可開啟伺服器安全性選項。
 certificate-check-fetch-button = 取得憑證
 certificate-check-view-button = 檢視憑證
-certificate-check-add-exception-button = 新增例外網站
+certificate-check-add-exception-button = 新增例外
 certificate-check-remove-exception-button = 移除例外
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = 正在取回 { $hostname } 的憑證。
+certificate-check-fetching = 正在取得 { $hostname } 的憑證。
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-success = { $hostname } 的憑證似乎有效。
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = 無法取回 { $hostname } 的憑證。
+certificate-check-failure = 無法取得 { $hostname } 的憑證。
 certificate-check-exception-added = 已新增憑證例外。
 certificate-check-exception-removed = 已移除憑證例外。
 # Variables:
