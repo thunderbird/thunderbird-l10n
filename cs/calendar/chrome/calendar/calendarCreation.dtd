@@ -34,5 +34,6 @@
 <!ENTITY network.loading.description "Počkejte prosím než budou nalezeny vaše kalendáře.">
 <!ENTITY network.notfound.description "Kalendáře se v tomto umístění nepodařilo najít. Zkontrolujte prosím svá nastavení.">
 <!ENTITY network.authfail.description "Zadané přihlašovací údaje nebyly přijaty. Zkontrolujte prosím svá nastavení.">
+<!ENTITY network.certerror.description "V tomto umístění nebylo možné najít kalendáře kvůli problému s certifikátem.">
 <!ENTITY network.subscribe.single.description "Vyberte prosím kalendář, který chcete přidat.">
 <!ENTITY network.subscribe.multiple.description "V tomto umístění se nachází více typů kalendářů. Vyberte prosím typ kalendáře a pak označte ty, které chcete přidat.">

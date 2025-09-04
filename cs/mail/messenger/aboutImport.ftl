@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Kontakty
 items-pane-checkbox-calendars = Kalendáře
 items-pane-checkbox-mail-messages = E-mailové zprávy
 items-pane-override = Všechna stávající nebo shodná data budou přepsána.
+items-pane-nothing-to-import = Z vybraného zdroje nelze nic importovat.
 
 ## Import from address book file steps
 
