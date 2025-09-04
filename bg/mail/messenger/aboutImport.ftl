@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Адресници
 items-pane-checkbox-calendars = Календари
 items-pane-checkbox-mail-messages = Писма
 items-pane-override = Всички съществуващи или идентични данни няма да бъдат презаписани.
+items-pane-nothing-to-import = Нищо не може да бъде внесено от избрания източник.
 
 ## Import from address book file steps
 

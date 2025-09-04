@@ -16,3 +16,39 @@ cert-error-not-yet-valid = Сертификатът за { $hostname } няма 
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Сертификатът за { $hostname } не идва от доверен източник.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-domain-mismatch =
+    .title = Грешка при свързване. Сертификатът на { $hostname } не е валиден за този сървър. Някой може да се опитва да се представя за сървъра. Не трябва да продължавате. Щракнете, за да отворите настройките за защита.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-after (string) - Certificate is not valid after this time.
+cert-error-inline-expired =
+    .title = Грешка при свързване. Сертификатът за { $hostname } е изтекъл на { $not-after }. Щракнете, за да отворите настройките за защита на сървъра.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-before (string) - Certificate is not valid before this time.
+cert-error-inline-not-yet-valid =
+    .title = Грешка при свързване. Сертификатът за { $hostname } няма да бъде валиден преди { $not-before }. Щракнете, за да отворите настройките за защита на сървъра.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-untrusted-default =
+    .title = Грешка при свързване. Сертификатът за { $hostname } не идва от доверен източник. Щракнете, за да отворите настройките за защита на сървъра.
+certificate-check-fetch-button = Извличане на сертификат
+certificate-check-view-button = Преглед на сертификат
+certificate-check-add-exception-button = Добавяне на изключениe
+certificate-check-remove-exception-button = Премахване на изключението
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = Извличане на сертификата за { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Сертификатът за { $hostname } изглежда е валиден.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = Неуспешно извличане на сертификата за { $hostname }.
+certificate-check-exception-added = Добавено е изключение за сертификат.
+certificate-check-exception-removed = Изключението за сертификата е премахнато.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Съществува изключение за сертификат за { $hostname }.
