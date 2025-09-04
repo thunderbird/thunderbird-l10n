@@ -16,3 +16,15 @@ cert-error-not-yet-valid = { $hostname } sertifikası { $not-before } tarihine k
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = { $hostname } sertifikası güvenilir bir kaynaktan gelmiyor.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-domain-mismatch =
+    .title = Bağlantı hatası. { $hostname } sertifikası bu sunucu için geçerli değil. Birisi sunucuyu taklit etmeye çalışıyor olabilir. Devam etmemelisiniz. Sunucu güvenlik ayarlarını açmak için tıklayın.
+certificate-check-view-button = Sertifikayı göster
+certificate-check-add-exception-button = İstisna ekle
+certificate-check-remove-exception-button = İstisnayı kaldır
+certificate-check-exception-added = Sertifika istisnası eklendi.
+certificate-check-exception-removed = Sertifika istisnası kaldırıldı.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = { $hostname } için bir sertifika istisnası var.

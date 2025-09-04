@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Adres defterleri
 items-pane-checkbox-calendars = Takvimler
 items-pane-checkbox-mail-messages = Posta iletileri
 items-pane-override = Mevcut veya aynı verilerin üzerine yazılmayacaktır.
+items-pane-nothing-to-import = Seçilen kaynaktan hiçbir şey içe aktarılamaz.
 
 ## Import from address book file steps
 
