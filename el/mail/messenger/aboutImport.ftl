@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Ευρετήρια
 items-pane-checkbox-calendars = Ημερολόγια
 items-pane-checkbox-mail-messages = Μηνύματα email
 items-pane-override = Όλα τα υπάρχοντα ή πανομοιότυπα δεδομένα δεν θα αντικατασταθούν.
+items-pane-nothing-to-import = Δεν μπορεί να εισαχθεί τίποτα από την επιλεγμένη πηγή.
 
 ## Import from address book file steps
 
