@@ -29,7 +29,7 @@ cert-error-inline-expired =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 #   $not-before (string) - Certificate is not valid before this time.
 cert-error-inline-not-yet-valid =
-    .title = Error de conexión. El certificado para { $hostname } no será válido hasta { $not-before }. Clic para abrir la configuración de seguridad del servidor.
+    .title = Error de conexión. El certificado para { $hostname } no será válido hasta el { $not-before }. Clic para abrir la configuración de seguridad del servidor.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
