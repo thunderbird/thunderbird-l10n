@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = imenike
 items-pane-checkbox-calendars = koledarje
 items-pane-checkbox-mail-messages = e-poštna sporočila
 items-pane-override = Morebitni obstoječi ali enaki podatki ne bodo prepisani.
+items-pane-nothing-to-import = Iz izbranega vira ni mogoče uvoziti ničesar.
 
 ## Import from address book file steps
 

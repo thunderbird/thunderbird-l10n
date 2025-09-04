@@ -114,6 +114,8 @@ address-book-finding-remote-address-books = Iskanje imenikov …
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = Znano je, da { $url } ni združljiv s { -brand-short-name(sklon: "orodnik") }.
 address-book-carddav-connection-error = Povezava neuspešna.
+address-book-ldap-duplicate-error = Ime imenika LDAP že obstaja. Vnesite drugačno ime.
+address-book-ldap-creation-error = Imenika LDAP ni bilo mogoče ustvariti.
 account-hub-result-username-label = Uporabniško ime
     .title = Uporabniško ime
 account-hub-name-label = Polno ime

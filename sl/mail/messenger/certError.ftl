@@ -16,3 +16,13 @@ cert-error-not-yet-valid = Digitalno potrdilo za { $hostname } začne veljati { 
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Digitalno potrdilo za { $hostname } ne prihaja iz zaupanja vrednega vira.
+certificate-check-fetch-button = Pridobi digitalno potrdilo
+certificate-check-view-button = Preglej digitalno potrdilo
+certificate-check-add-exception-button = Dodaj izjemo
+certificate-check-remove-exception-button = Odstrani izjemo
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Digitalno potrdilo za { $hostname } je videti veljavno.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = Digitalnega potrdila za { $hostname } ni bilo mogoče pridobiti.

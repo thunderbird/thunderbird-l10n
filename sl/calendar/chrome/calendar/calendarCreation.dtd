@@ -34,5 +34,6 @@
 <!ENTITY network.loading.description "Počakajte, medtem ko se vaši koledarji odkrivajo.">
 <!ENTITY network.notfound.description "Na tem mestu ni bilo mogoče najti koledarjev. Preverite svoje nastavitve.">
 <!ENTITY network.authfail.description "Poverilnice, ki ste jih vnesli, niso bile sprejete. Preverite svoje nastavitve.">
+<!ENTITY network.certerror.description "Na tem mestu ni bilo mogoče najti koledarjev zaradi težave z digitalnim potrdilom.">
 <!ENTITY network.subscribe.single.description "Izberite koledarje, na katere se želite naročiti.">
 <!ENTITY network.subscribe.multiple.description "Za to mesto je na voljo več vrst koledarjev. Izberite vrsto koledarja in nato označite koledarje, na katere se želite naročiti.">
