@@ -16,3 +16,12 @@ cert-error-not-yet-valid = { $hostname } 的证书将于 { $not-before } 后生�
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = { $hostname } 的证书并非来自受信任的来源。
+certificate-check-fetch-button = 获取证书
+certificate-check-view-button = 查看证书
+certificate-check-add-exception-button = 添加例外
+certificate-check-remove-exception-button = 移除例外
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = 正在获取 { $hostname } 的证书。
+certificate-check-exception-added = 已添加证书例外。
+certificate-check-exception-removed = 已移除证书例外。
