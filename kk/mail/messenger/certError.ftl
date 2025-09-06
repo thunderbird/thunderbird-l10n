@@ -16,3 +16,7 @@ cert-error-not-yet-valid = { $hostname } үшін шығарылған серт�
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = { $hostname } үшін шығарылған сертификат сенімді емес көзден шыққан.
+certificate-check-fetch-button = Сертификатты алу
+certificate-check-view-button = Сертификатты қарау
+certificate-check-add-exception-button = Ережеден тыс жағдайды қосу
+certificate-check-remove-exception-button = Ережеден тыс жағдайды өшіру
