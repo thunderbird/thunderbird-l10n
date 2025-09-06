@@ -20,3 +20,12 @@ certificate-check-fetch-button = Сертификатты алу
 certificate-check-view-button = Сертификатты қарау
 certificate-check-add-exception-button = Ережеден тыс жағдайды қосу
 certificate-check-remove-exception-button = Ережеден тыс жағдайды өшіру
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = { $hostname } сертификаты алынуда.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = { $hostname } сертификаты жарамды сияқты.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = { $hostname } сертификатын алу сәтсіз аяқталды.
