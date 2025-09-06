@@ -16,3 +16,25 @@ cert-error-not-yet-valid = { $hostname } მისამართისთვი
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = სერტიფიკატი მისამართისთვის { $hostname } არაა სანდო წყაროდან.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-untrusted-default =
+    .title = დაკავშირების შეცდომა. სერტიფიკატი მისამართისთვის { $hostname } არაა მოწოდებული სანდო წყაროდან. დაწკაპეთ სერვერის უსაფრთხოების პარამეტრების გასახსნელად.
+certificate-check-fetch-button = სერთიფიკატის მოპოვება
+certificate-check-view-button = სერტიფიკატის ნახვა
+certificate-check-add-exception-button = გამონაკლისის დამატება
+certificate-check-remove-exception-button = გამონაკლისის წაშლა
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = სერტიფიკატის მიღება მისამართისთვის { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = სერტიფიკატი მართებული ჩანს მისამართისთვის { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = ვერ მოხერხდა სერტიფიკატის მიღება მისამართისთვის { $hostname }.
+certificate-check-exception-added = სერტიფიკატის გამონაკლისი დამატებულია.
+certificate-check-exception-removed = სერტიფიკატის გამონაკლისი მოცილებულია.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = სერტიფიკატის გამონაკლისი არსებობს მისამართისთვის { $hostname }.

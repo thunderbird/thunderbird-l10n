@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = წიგნაკები
 items-pane-checkbox-calendars = კალენდრები
 items-pane-checkbox-mail-messages = ფოსტის წერილები
 items-pane-override = არსებულ ან მსგავს მონაცემებს არ გადაეწერება.
+items-pane-nothing-to-import = ვერაფრის შემოტანა ვერ ხერხდება შერჩეული წყაროდან.
 
 ## Import from address book file steps
 
