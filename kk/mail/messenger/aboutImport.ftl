@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Адрестік кітапшалар
 items-pane-checkbox-calendars = Күнтізбелер
 items-pane-checkbox-mail-messages = Пошта хабарламалары
 items-pane-override = Бар болып тұрған немесе бірдей деректер үстінен жазылмайды.
+items-pane-nothing-to-import = Таңдалған көзден ештеңе импорттау мүмкін емес.
 
 ## Import from address book file steps
 
