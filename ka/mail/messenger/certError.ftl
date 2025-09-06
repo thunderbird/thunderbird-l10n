@@ -18,6 +18,20 @@ cert-error-not-yet-valid = { $hostname } მისამართისთვი
 cert-error-untrusted-default = სერტიფიკატი მისამართისთვის { $hostname } არაა სანდო წყაროდან.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-domain-mismatch =
+    .title = დაკავშირების შეცდომა. სერტიფიკატი მისამართისთვის { $hostname } არაა მოქმედი ამ სერვერისთვის. შესაძლოა, ვიღაც სხვა სერვერად გასაღებას ცდილობდეს და ჯობია, აღარ განაგრძობთ. დაწკაპეთ სერვერის უსაფრთხოების პარამეტრების გასახსნელად.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-after (string) - Certificate is not valid after this time.
+cert-error-inline-expired =
+    .title = დაკავშირების შეცდომა. სერტიფიკატი მისამართისთვის { $hostname } მოქმედია არაუგვიანეს { $not-before }. დაწკაპეთ სერვერის უსაფრთხოების პარამეტრების გასახსნელად.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-before (string) - Certificate is not valid before this time.
+cert-error-inline-not-yet-valid =
+    .title = დაკავშირების შეცდომა. სერტიფიკატი მისამართისთვის { $hostname } მოქმედია არაუადრეს { $not-before }. დაწკაპეთ სერვერის უსაფრთხოების პარამეტრების გასახსნელად.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = დაკავშირების შეცდომა. სერტიფიკატი მისამართისთვის { $hostname } არაა მოწოდებული სანდო წყაროდან. დაწკაპეთ სერვერის უსაფრთხოების პარამეტრების გასახსნელად.
 certificate-check-fetch-button = სერთიფიკატის მოპოვება
@@ -29,7 +43,7 @@ certificate-check-remove-exception-button = გამონაკლისის
 certificate-check-fetching = სერტიფიკატის მიღება მისამართისთვის { $hostname }.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = სერტიფიკატი მართებული ჩანს მისამართისთვის { $hostname }.
+certificate-check-success = სერტიფიკატი მოქმედი ჩანს მისამართისთვის { $hostname }.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-failure = ვერ მოხერხდა სერტიფიკატის მიღება მისამართისთვის { $hostname }.
