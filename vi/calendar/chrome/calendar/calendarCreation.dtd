@@ -34,5 +34,6 @@
 <!ENTITY network.loading.description "Xin vui lòng chờ trong khi lịch của bạn đang được phát hiện.">
 <!ENTITY network.notfound.description "Không thể tìm thấy lịch tại địa chỉ này. Vui lòng kiểm tra cài đặt của bạn.">
 <!ENTITY network.authfail.description "Thông tin đăng nhập bạn đã nhập không được chấp nhận. Vui lòng kiểm tra cài đặt của bạn.">
+<!ENTITY network.certerror.description "Không tìm thấy lịch ở vị trí này vì có vấn đề về chứng chỉ.">
 <!ENTITY network.subscribe.single.description "Vui lòng chọn lịch bạn muốn đăng ký.">
 <!ENTITY network.subscribe.multiple.description "Nhiều loại lịch có sẵn cho địa chỉ này. Vui lòng chọn kiểu lịch, sau đó đánh dấu các lịch bạn muốn đăng ký.">

@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Sổ địa chỉ
 items-pane-checkbox-calendars = Lịch
 items-pane-checkbox-mail-messages = Thư
 items-pane-override = Mọi dữ liệu hiện có hoặc giống hệt nhau sẽ không bị ghi đè.
+items-pane-nothing-to-import = Không thể nhập bất cứ thứ gì từ nguồn đã chọn.
 
 ## Import from address book file steps
 
