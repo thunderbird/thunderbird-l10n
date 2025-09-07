@@ -35,5 +35,6 @@ na serwerze, dzięki czemu można będzie go używać zdalnie lub współdzieli�
 <!ENTITY network.loading.description "Proszę czekać, kalendarze są wykrywane.">
 <!ENTITY network.notfound.description "Nie można odnaleźć kalendarzy w tym położeniu. Proszę sprawdzić ustawienia.">
 <!ENTITY network.authfail.description "Podane dane logowania nie zostały przyjęte. Proszę sprawdzić ustawienia.">
+<!ENTITY network.certerror.description "Nie można odnaleźć kalendarzy w tym położeniu z powodu problemu z certyfikatem.">
 <!ENTITY network.subscribe.single.description "Wybierz kalendarze do subskrypcji.">
 <!ENTITY network.subscribe.multiple.description "Dla tego położenia dostępnych jest wiele typów kalendarza. Wybierz typ, a następnie oznacz kalendarze do subskrypcji.">
