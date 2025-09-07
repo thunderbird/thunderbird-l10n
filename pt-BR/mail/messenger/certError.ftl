@@ -16,3 +16,30 @@ cert-error-not-yet-valid = O certificado de { $hostname } só será válido a pa
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = O certificado de { $hostname } não é de um emissor considerado confiável.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-after (string) - Certificate is not valid after this time.
+cert-error-inline-expired =
+    .title = Erro de conexão. O certificado de { $hostname } expirou em { $not-after }. Clique para abrir as configurações de segurança do servidor.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-before (string) - Certificate is not valid before this time.
+cert-error-inline-not-yet-valid =
+    .title = Erro de conexão. O certificado de { $hostname } só será válido a partir de { $not-before }. Clique para abrir as configurações de segurança do servidor.
+certificate-check-view-button = Ver certificado
+certificate-check-add-exception-button = Adicionar exceção
+certificate-check-remove-exception-button = Remover exceção
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = Obtendo o certificado de { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = O certificado de { $hostname } parece ser válido.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = Falha ao obter o certificado de { $hostname }.
+certificate-check-exception-added = Exceção de certificado adicionada.
+certificate-check-exception-removed = Exceção de certificado removida.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Existe uma exceção de certificado para { $hostname }.
