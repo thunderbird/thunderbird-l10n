@@ -143,29 +143,17 @@ openpgp-key-send-key =
 # Variables:
 # $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
-    .label =
-        { NUMBER($count) ->
-            [one] 鍵 ID をクリップボードにコピー
-           *[other] 鍵 ID をクリップボードにコピー
-        }
+    .label = 鍵 ID をクリップボードにコピー
     .accesskey = K
 # Variables:
 # $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
-    .label =
-        { NUMBER($count) ->
-            [one] フィンガープリントをクリップボードにコピー
-           *[other] フィンガープリントをクリップボードにコピー
-        }
+    .label = フィンガープリントをクリップボードにコピー
     .accesskey = F
 # Variables:
 # $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
-    .label =
-        { NUMBER($count) ->
-            [one] 公開鍵をクリップボードにコピー
-           *[other] 公開鍵をクリップボードにコピー
-        }
+    .label = 公開鍵をクリップボードにコピー
     .accesskey = P
 openpgp-key-man-ctx-copy =
     .label = コピー
@@ -173,29 +161,17 @@ openpgp-key-man-ctx-copy =
 # Variables:
 # $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
-    .label =
-        { NUMBER($count) ->
-            [one] フィンガープリント
-           *[other] フィンガープリント
-        }
+    .label = フィンガープリント
     .accesskey = F
 # Variables:
 # $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
-    .label =
-        { NUMBER($count) ->
-            [one] 鍵 ID
-           *[other] 鍵 ID
-        }
+    .label = 鍵 ID
     .accesskey = K
 # Variables:
 # $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
-    .label =
-        { NUMBER($count) ->
-            [one] 公開鍵
-           *[other] 公開鍵
-        }
+    .label = 公開鍵
     .accesskey = P
 openpgp-key-man-close =
     .label = 閉じる
@@ -342,11 +318,7 @@ openpgp-copy-cmd-label =
 openpgp-description-no-key = <b>{ $identity }</b> の個人 OpenPGP 鍵が { -brand-short-name } 内にありません
 #   $count (Number) - the number of configured keys associated with the current identity
 #   $identity (String) - the email address of the currently selected identity
-openpgp-description-has-keys =
-    { NUMBER($count) ->
-        [one] <b>{ $identity }</b> に関連付けられた個人 OpenPGP 鍵が { -brand-short-name } 内に { $count } 個見つかりました
-       *[other] <b>{ $identity }</b> に関連付けられた個人 OpenPGP 鍵が { -brand-short-name } 内に { $count } 個見つかりました
-    }
+openpgp-description-has-keys = <b>{ $identity }</b> に関連付けられた個人 OpenPGP 鍵が { -brand-short-name } 内に { $count } 個見つかりました
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = 鍵 ID <b>{ $key }</b> を利用するよう設定されています。
 #   $key (String) - the currently selected OpenPGP key
@@ -669,7 +641,7 @@ file-write-failed = ファイル { $output } へのエクスポートに失敗�
 no-pgp-block = エラー - 有効な OpenPGP データブロックが見つかりません。
 confirm-permissive-import = インポートに失敗しました。インポートを試みた鍵は、破損しているか未知の属性が使われています。正常な部分のみのインポートを試みますか？ この場合、インポートが完了しない、あるいは利用できない鍵となる可能性があります。
 
-## Strings used in trust.jsm
+## Strings used in keyRing.sys.mjs
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
