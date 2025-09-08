@@ -16,3 +16,7 @@ cert-error-not-yet-valid = El certificado para { $hostname } no será válido ha
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = El certificado para { $hostname } no proviene de una fuente de confianza.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-domain-mismatch =
+    .title = Error de conexión. El certificado para { $hostname } no es válido para ese servidor. Alguien podría estar intentando suplantar el servidor y no debería continuar. Haga clic aquí para abrir la configuración de seguridad del servidor.
