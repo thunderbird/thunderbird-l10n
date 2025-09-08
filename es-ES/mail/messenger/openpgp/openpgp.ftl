@@ -346,6 +346,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Su configuración actual usa ID de clave <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Su configuración actual usa la clave <b>{ $key }</b>, que caducará { $when }. Para mantener la validez de la clave, puede ampliar su fecha de caducidad ahora.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Su configuración actual utiliza la clave <b>{ $key }</b>, que ha caducado.
 openpgp-add-key-button =
     .label = Añadir clave…
