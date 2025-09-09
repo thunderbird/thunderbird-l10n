@@ -16,8 +16,8 @@ ask-save-title-task = Запазване на задача
 ask-save-message-event = Събитието не е запазено. Искате ли да запазите това събитие?
 ask-save-message-task = Задачата не е запазена. Искате ли да запазите тази задача?
 # Event Dialog Warnings
-warning-end-before-start = Крайната дата предхожда началната дата
-warning-until-date-before-start = Въведената крайната дата предхожда началната дата
+warning-end-before-start = Въведената крайната дата предхожда началната дата
+warning-until-date-before-start = Крайната дата е преди началната дата
 # The name of the calendar provided with the application by default
 home-calendar-name = Начало
 # The name given to a calendar if an opened calendar has an empty filename
