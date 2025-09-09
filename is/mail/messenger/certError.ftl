@@ -41,3 +41,14 @@ certificate-check-remove-exception-button = Fjarlægja undantekningu
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Sæki skilríkið fyrir { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Skilríkið fyrir { $hostname } virðist vera gilt.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = Mistókst að sækja skilríkið fyrir { $hostname }.
+certificate-check-exception-added = Undantekningu vegna skilríkis bætt við.
+certificate-check-exception-removed = Undantekning vegna skilríkis fjarlægð.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Undantekning frá skilríki fyrir { $hostname } er til staðar.
