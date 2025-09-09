@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Nafnaskrár
 items-pane-checkbox-calendars = Dagatöl
 items-pane-checkbox-mail-messages = Tölvupóstskilaboð
 items-pane-override = Ekki verður skrifað yfir nein fyrirliggjandi eða eins gögn.
+items-pane-nothing-to-import = Ekkert er hægt að flytja inn frá völdum stað.
 
 ## Import from address book file steps
 
