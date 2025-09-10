@@ -116,6 +116,8 @@ address-book-finding-remote-address-books = Sykje nei adresboeken…
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = Fan { $url } is bekend dat it net kompatibel is mei { -brand-short-name }.
 address-book-carddav-connection-error = Ferbining meitsje mislearre.
+address-book-ldap-duplicate-error = LDAP-directorynamme bestiet al. Fier in oare directorynamme yn.
+address-book-ldap-creation-error = Kin LDAP-directory net meitsje.
 account-hub-result-username-label = Brûkersnamme
     .title = Brûkersnamme
 account-hub-name-label = Folsleine namme
