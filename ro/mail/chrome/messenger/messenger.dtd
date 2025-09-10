@@ -412,7 +412,7 @@
 <!-- Windows Menu -->
 <!ENTITY windowMenu.label "Fereastră">
 <!-- Tools Menu -->
-<!ENTITY tasksMenu.label "Unelte">
+<!ENTITY tasksMenu.label "Instrumente">
 <!ENTITY tasksMenu.accesskey "t">
 <!ENTITY messengerCmd.label "E-mail și grupuri de discuții">
 <!ENTITY messengerCmd.accesskey "n">
@@ -458,7 +458,7 @@
      on Unix systems -->
 <!ENTITY accountManagerCmdUnix2.accesskey "A">
 <!-- Developer Tools Submenu -->
-<!ENTITY devtoolsMenu.label "Unelte pentru dezvoltatori">
+<!ENTITY devtoolsMenu.label "Instrumente pentru dezvoltatori">
 <!ENTITY devtoolsMenu.accesskey "e">
 <!ENTITY devToolboxCmd.label "Caseta de instrumente pentru dezvoltatori">
 <!ENTITY devToolboxCmd.accesskey "t">
