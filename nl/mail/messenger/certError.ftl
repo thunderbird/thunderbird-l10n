@@ -16,3 +16,39 @@ cert-error-not-yet-valid = Het certificaat voor { $hostname } is pas geldig vana
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Het certificaat voor { $hostname } komt niet van een vertrouwde bron.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-domain-mismatch =
+    .title = Verbindingsfout. Het certificaat voor { $hostname } is niet geldig voor die server. Iemand kan proberen de server na te bootsen, en u kunt beter niet verdergaan. Klik om serverbeveiligingsinstellingen te openen.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-after (string) - Certificate is not valid after this time.
+cert-error-inline-expired =
+    .title = Verbindingsfout. Het certificaat voor { $hostname } is verlopen op { $not-after }. Klik om serverbeveiligingsinstellingen te openen.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-before (string) - Certificate is not valid before this time.
+cert-error-inline-not-yet-valid =
+    .title = Verbindingsfout. Het certificaat voor { $hostname } is pas geldig vanaf { $not-before }. Klik om serverbeveiligingsinstellingen te openen.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-untrusted-default =
+    .title = Verbindingsfout. Het certificaat voor { $hostname } komt niet van een vertrouwde bron. Klik om serverbeveiligingsinstellingen te openen.
+certificate-check-fetch-button = Certificaat ophalen
+certificate-check-view-button = Certificaat bekijken
+certificate-check-add-exception-button = Uitzondering toevoegen
+certificate-check-remove-exception-button = Uitzondering verwijderen
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = Het certificaat voor { $hostname } ophalen.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Het certificaat voor { $hostname } lijkt geldig te zijn.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = Kan het certificaat voor { $hostname } niet ophalen.
+certificate-check-exception-added = Certificaatuitzondering toegevoegd.
+certificate-check-exception-removed = Certificaatuitzondering verwijderd.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Er bestaat al een certificaatuitzondering voor { $hostname }.

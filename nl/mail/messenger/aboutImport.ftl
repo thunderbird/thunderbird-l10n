@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Adresboeken
 items-pane-checkbox-calendars = Agenda’s
 items-pane-checkbox-mail-messages = E-mailberichten
 items-pane-override = Bestaande of identieke gegevens worden niet overschreven.
+items-pane-nothing-to-import = Er kan niets uit de geselecteerde bron worden geïmporteerd.
 
 ## Import from address book file steps
 
