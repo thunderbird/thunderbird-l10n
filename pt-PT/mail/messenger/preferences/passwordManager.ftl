@@ -77,3 +77,10 @@ password-os-auth-dialog-message = Confirme a sua identidade para revelar as pala
 password-os-auth-dialog-message-macosx = revelar as palavras-passe guardadas
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] alterar as definições das palavras-passe
+       *[other] { -brand-short-name } está a tentar alterar as definições das palavras-passe. Utilize o início de sessão do seu dispositivo para permitir isto.
+    }

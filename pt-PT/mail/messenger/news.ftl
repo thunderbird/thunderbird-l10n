@@ -21,3 +21,9 @@ downloading-articles-for-offline =
         [one] A descarregar { $count } artigo para { $newsgroup }…
        *[other] A descarregar { $count } artigos para { $newsgroup }…
     }
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-articles-to-download = Não existem artigos a descarregar para { $newsgroup }.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = O grupo de notícias { $newsgroup } não está disponível no servidor.
