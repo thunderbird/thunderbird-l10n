@@ -19,21 +19,21 @@ cert-error-untrusted-default = Le certificat pour { $hostname } ne provient pas 
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
-    .title = Erreur de connexion. Le certificat pour { $hostname } n’est pas valide pour ce serveur. Quelqu’un pourrait essayer d’usurper l’identité du serveur et vous ne devriez pas continuer. Cliquer pour ouvrir les paramètres de sécurité du serveur.
+    .title = Erreur de connexion. Le certificat pour { $hostname } n’est pas valide pour ce serveur. Quelqu’un pourrait essayer d’usurper l’identité du serveur et vous ne devriez pas continuer. Cliquez pour ouvrir les paramètres de sécurité du serveur.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 #   $not-after (string) - Certificate is not valid after this time.
 cert-error-inline-expired =
-    .title = Erreur de connexion. Le certificat pour { $hostname } a expiré le { $not-after }. Cliquer pour ouvrir les paramètres de sécurité du serveur.
+    .title = Erreur de connexion. Le certificat pour { $hostname } a expiré le { $not-after }. Cliquez pour ouvrir les paramètres de sécurité du serveur.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 #   $not-before (string) - Certificate is not valid before this time.
 cert-error-inline-not-yet-valid =
-    .title = Erreur de connexion. Le certificat pour { $hostname } ne sera pas valide jusqu’au { $not-before }. Cliquer pour ouvrir les paramètres de sécurité du serveur.
+    .title = Erreur de connexion. Le certificat pour { $hostname } ne sera pas valide jusqu’au { $not-before }. Cliquez pour ouvrir les paramètres de sécurité du serveur.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
-    .title = Erreur de connexion. Le certificat pour { $hostname } ne provient pas d’une source sûre. Cliquer pour ouvrir les paramètres de sécurité du serveur.
+    .title = Erreur de connexion. Le certificat pour { $hostname } ne provient pas d’une source sûre. Cliquez pour ouvrir les paramètres de sécurité du serveur.
 certificate-check-fetch-button = Récupérer le certificat
 certificate-check-view-button = Afficher le certificat
 certificate-check-add-exception-button = Ajouter une exception
