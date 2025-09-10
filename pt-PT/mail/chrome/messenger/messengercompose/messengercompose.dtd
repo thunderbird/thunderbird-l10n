@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Inocente">
 <!ENTITY smiley15Cmd.label "Choro">
 <!ENTITY smiley16Cmd.label "Boca fechada">
+<!ENTITY smiley17Cmd.label "Zangado">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Não existem sugestões">
 <!ENTITY spellCheckIgnoreWord.label "Ignorar palavra">
