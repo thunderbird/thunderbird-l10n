@@ -189,8 +189,25 @@ menu-open-key-manager =
 #                  from address) which isn't set up to end-to-end encryption.
 openpgp-key-issue-notification-from = Não está configurado para enviar mensagens encriptadas ponto-a-ponto de { $addr }.
 # Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = A encriptação ponto a ponto requer a resolução de problemas de chave para { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] A encriptação ponto a ponto requer a resolução de problemas de chave para { $count } destinatário.
+       *[other] A encriptação ponto a ponto requer a resolução de problemas de chaves para { $count } destinatários.
+    }
+# Variables:
 # $addr (String) - mail address with certificate issues.
 smime-cert-issue-notification-single = A encriptação ponto a ponto requer a resolução de problemas de certificados para { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] A encriptação ponto a ponto requer a resolução de problemas de certificados para { $count } destinatário.
+       *[other] A encriptação ponto a ponto requer a resolução de problemas de certificados para { $count } destinatários.
+    }
 key-notification-disable-encryption =
     .label = Não encriptar
     .accesskey = c
@@ -255,17 +272,35 @@ show-bcc-row-button = Bcc
 extra-address-rows-menu-button =
     .title = Outros campos de endereços a mostrar
 public-recipients-notice-single = A sua mensagem tem um destinatário público. Pode evitar a divulgação do destinatário usando Bcc.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] O { $count } destinatário em Para e Cc podem ver os endereços entre si. Pode evitar a divulgação dos destinatários utilizando o Bcc.
+       *[other] Os { $count } destinatários em Para e Cc podem ver os endereços entre si. Pode evitar a divulgação dos destinatários utilizando o Bcc.
+    }
 many-public-recipients-bcc =
     .label = Utilize o Bcc
     .accesskey = B
 many-public-recipients-ignore =
     .label = Manter os destinatários públicos
     .accesskey = p
+many-public-recipients-prompt-title = Demasiados destinatários públicos
+#   $count (Number) - the count of addresses in the public recipients fields.
+many-public-recipients-prompt-msg =
+    { $count ->
+        [one] A sua mensagem tem um destinatário público. A privacidade poderá estar comprometida. Pode evitar a divulgação dos destinatários utilizando o campo Bcc em vez dos campo Para ou Cc.
+       *[other] A sua mensagem tem { $count } destinatários públicos, que poderão ver os endereços uns dos outros. A privacidade de cada um poderá estar comprometida. Pode evitar a divulgação dos destinatários utilizando o campo Bcc em vez dos campo Para ou Cc.
+    }
 many-public-recipients-prompt-cancel = Cancelar Envio
 many-public-recipients-prompt-send = Mesmo Assim, Enviar
 
 ## Notifications
 
+# Variables:
+# $identity (string) - The name of the used identity, most likely an email address.
+compose-missing-identity-warning = Não foi encontrada uma identidade única que corresponda com o endereço "De". A mensagem será enviada utilizando o campo "De" atual e definições da identidade { $identity }.
+encrypted-bcc-warning = Ao enviar uma mensagem encriptada, os destinatários em Bcc não estão totalmente ocultos. Todos os destinatários poderão identificá-los.
 encrypted-bcc-ignore-button = Compreendi
 auto-disable-e2ee-warning = A encriptação ponto a ponto para esta mensagem foi desativada automaticamente.
 
@@ -336,6 +371,9 @@ cloud-file-template-download-limit = Limite de transferência:
 # Messages
 
 cloud-file-connection-error-title = Erro de Ligação
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-connection-error = O { -brand-short-name } está offline. Não foi possível ligar a { $provider }.
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
 # $filename (string) - name of the file that was uploaded and caused the error

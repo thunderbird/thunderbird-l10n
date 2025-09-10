@@ -267,6 +267,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Redirecionar
+other-action-copy-message-link =
+    .label = Copiar ligação da mensagem
+other-action-copy-news-link =
+    .label = Copiar ligação da notícia
 message-header-msg-flagged =
     .title = Com estrela
     .aria-label = Com estrela
@@ -337,6 +341,9 @@ addon-removal-confirmation-message = Remover { $name }, bem como a respetiva con
 caret-browsing-prompt-title = Navegação por Cursor
 caret-browsing-prompt-text = Pressionar F7 ativa ou desativa a Navegação por Cursor. Esta funcionalidade coloca um cursor móvel dentro de algum conteúdo, permitindo-lhe selecionar texto com o teclado. Quer ativar esta navegação?
 caret-browsing-prompt-check-text = Não voltar a perguntar.
+repair-text-encoding-button =
+    .label = Reparar a codificação de texto
+    .tooltiptext = Escolhe automaticamente a melhor codificação de texto a partir do conteúdo da mensagem
 
 ## no-reply handling
 
@@ -470,3 +477,6 @@ quota-panel-percent-used = { $percent }% utilizado
 
 mark-as-read-action = Marcar como lida
 delete-action = Eliminar
+mark-as-starred-action = Marcar como favorito
+mark-as-spam-action = Marcar como Spam
+archive-action = Arquivar
