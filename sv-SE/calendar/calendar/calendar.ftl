@@ -859,3 +859,7 @@ calendar-task-details-repeat = upprepa
 calendar-task-details-attachments = bifogade filer
 calendar-task-details-start = start datum
 calendar-task-details-due = förfallodatum
+calendar-task-text-filter-field =
+    .emptytextbase = Filtrera uppgifter #1
+    .keylabelnonmac = <Ctrl+Shift+K>
+    .keylabelmac = <⇧⌘K>
