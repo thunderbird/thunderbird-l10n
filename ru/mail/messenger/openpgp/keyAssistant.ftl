@@ -53,9 +53,9 @@ openpgp-key-assistant-multiple-keys = Доступно несколько клю
 # $count (Number) - The number of unaccepted keys.
 openpgp-key-assistant-key-unaccepted =
     { $count ->
-        [one] Доступен $count ключ, но ни один из них ещё не был принят.
-        [few] Доступно $count ключа, но ни один из них ещё не был принят.
-       *[many] Доступно $count ключей, но ни один из них ещё не был принят.
+        [one] Ключ доступен, но ещё не был принят.
+        [few] Ключи доступны, но ни один из них ещё не был принят.
+       *[many] Ключи доступны, но ни один из них ещё не был принят.
     }
 # Variables:
 # $date (String) - The expiration date of the key.
@@ -89,9 +89,9 @@ openpgp-key-assistant-key-collected-gnupg = Связка ключей GnuPG
 # $count (Number) - Number of found keys.
 openpgp-key-assistant-keys-has-collected =
     { $count ->
-        [one] Найден $count ключ, но ни один из них ещё не был принят.
-        [few] Найдено $count ключа, но ни один из них ещё не был принят.
-       *[many] Найдено $count ключей, но ни один из них ещё не был принят.
+        [one] Ключ найден, но ещё не принят.
+        [few] Ключи найдены, но ни один из них ещё не был принят.
+       *[many] Ключи найдены, но ни один из них ещё не был принят.
     }
 openpgp-key-assistant-key-rejected = Этот ключ ранее был отклонён.
 openpgp-key-assistant-key-accepted-other = Этот ключ ранее был принят для другого адреса электронной почты.
