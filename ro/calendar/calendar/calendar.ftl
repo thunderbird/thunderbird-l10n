@@ -856,3 +856,24 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Sarcină…
     .accesskey = S
+# LOCALIZATION NOTE (calendar-task-filter-current):
+# "Current Tasks" shows all tasks except those starting in the future.
+calendar-task-filter-current =
+    .label = Sarcini actuale
+    .accesskey = u
+calendar-task-details-title = titlu
+calendar-task-details-organizer = de la
+calendar-task-details-priority = prioritate
+calendar-task-details-priority-low = Scăzută
+calendar-task-details-priority-normal = Normală
+calendar-task-details-priority-high = Ridicată
+calendar-task-details-status = stare
+calendar-task-details-category = categorie
+calendar-task-details-repeat = repetare
+calendar-task-details-attachments = atașamente
+calendar-task-details-start = dată de început
+calendar-task-details-due = termen-limită
+calendar-task-text-filter-field =
+    .emptytextbase = Filtrează sarcinile #1
+    .keylabelnonmac = <Ctrl+Shift+K>
+    .keylabelmac = <⇧⌘K>
