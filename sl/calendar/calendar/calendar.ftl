@@ -870,3 +870,12 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Opravilo …
     .accesskey = O
+# LOCALIZATION NOTE (calendar-task-filter-current):
+# "Current Tasks" shows all tasks except those starting in the future.
+calendar-task-filter-current =
+    .label = Tekoča opravila
+    .accesskey = T
+calendar-task-details-title = Naziv
+calendar-task-details-organizer = iz
+calendar-task-details-priority = prednost
+calendar-task-details-priority-low = Nizka
