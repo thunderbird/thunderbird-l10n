@@ -809,3 +809,24 @@ calendar-task-filter-completed =
 calendar-task-filter-open =
     .label = Nebaigtus darbus
     .accesskey = b
+# LOCALIZATION NOTE (calendar-task-filter-current):
+# "Current Tasks" shows all tasks except those starting in the future.
+calendar-task-filter-current =
+    .label = Aktualius darbus
+    .accesskey = k
+calendar-task-details-title = pavadinimas
+calendar-task-details-organizer = nuo
+calendar-task-details-priority = prioritetas
+calendar-task-details-priority-low = žemas
+calendar-task-details-priority-normal = normalus
+calendar-task-details-priority-high = aukštas
+calendar-task-details-status = būsena
+calendar-task-details-category = kategorija
+calendar-task-details-repeat = pasikartojimas
+calendar-task-details-attachments = priedai
+calendar-task-details-start = pradžia
+calendar-task-details-due = terminas
+calendar-task-text-filter-field =
+    .emptytextbase = Filtruoti darbus #1
+    .keylabelnonmac = <Vald+Lyg2+K>
+    .keylabelmac = <⇧⌘K>
