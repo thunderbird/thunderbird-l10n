@@ -840,3 +840,24 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Tasca…
     .accesskey = T
+# LOCALIZATION NOTE (calendar-task-filter-current):
+# "Current Tasks" shows all tasks except those starting in the future.
+calendar-task-filter-current =
+    .label = Tasques actuals
+    .accesskey = u
+calendar-task-details-title = títol
+calendar-task-details-organizer = des de
+calendar-task-details-priority = prioritat
+calendar-task-details-priority-low = Baixa
+calendar-task-details-priority-normal = Normal
+calendar-task-details-priority-high = Alta
+calendar-task-details-status = estat
+calendar-task-details-category = categoria
+calendar-task-details-repeat = repetició
+calendar-task-details-attachments = adjuncions
+calendar-task-details-start = data d'inici
+calendar-task-details-due = data de venciment
+calendar-task-text-filter-field =
+    .emptytextbase = Filtra les tasques #1
+    .keylabelnonmac = <Ctrl+Maj+K>
+    .keylabelmac = <⇧⌘K>
