@@ -47,3 +47,8 @@ certificate-check-success = Sertifikat untuk { $hostname } tampaknya valid.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-failure = Gagal mengambil sertifikat untuk { $hostname }.
+certificate-check-exception-added = Pengecualian sertifikat ditambahkan.
+certificate-check-exception-removed = Pengecualian sertifikat dihapus.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Pengecualian sertifikat untuk { $hostname } ada.
