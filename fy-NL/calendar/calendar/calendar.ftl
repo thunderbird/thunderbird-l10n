@@ -846,6 +846,15 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Taak…
     .accesskey = T
+# LOCALIZATION NOTE (calendar-task-filter-current):
+# "Current Tasks" shows all tasks except those starting in the future.
+calendar-task-filter-current =
+    .label = Aktuele taken
+    .accesskey = u
+calendar-task-details-title = titel:
+calendar-task-details-organizer = fan:
+calendar-task-details-priority = prioriteit:
+calendar-task-details-priority-low = Leech
 calendar-task-details-priority-normal = Normaal
 calendar-task-details-priority-high = Heech
 calendar-task-details-status = steat:
@@ -854,3 +863,7 @@ calendar-task-details-repeat = werhelje:
 calendar-task-details-attachments = bylagen
 calendar-task-details-start = begjindatum
 calendar-task-details-due = eindatum
+calendar-task-text-filter-field =
+    .emptytextbase = Taken filterje #1
+    .keylabelnonmac = <Ctrl+Shift+K>
+    .keylabelmac = <⇧⌘K>
