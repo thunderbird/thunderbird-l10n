@@ -842,3 +842,24 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Verkefni…
     .accesskey = V
+# LOCALIZATION NOTE (calendar-task-filter-current):
+# "Current Tasks" shows all tasks except those starting in the future.
+calendar-task-filter-current =
+    .label = Núverandi verkefni
+    .accesskey = v
+calendar-task-details-title = titli
+calendar-task-details-organizer = frá
+calendar-task-details-priority = forgangur
+calendar-task-details-priority-low = Lágur
+calendar-task-details-priority-normal = Venjulegur
+calendar-task-details-priority-high = Hár
+calendar-task-details-status = staða
+calendar-task-details-category = flokkur
+calendar-task-details-repeat = endurtaka
+calendar-task-details-attachments = viðhengi
+calendar-task-details-start = byrjunardagsetning
+calendar-task-details-due = lokadagsetning
+calendar-task-text-filter-field =
+    .emptytextbase = Sía verkefni #1
+    .keylabelnonmac = <Ctrl+Shift+K>
+    .keylabelmac = <⇧⌘K>
