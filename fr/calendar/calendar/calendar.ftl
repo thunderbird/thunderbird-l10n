@@ -852,3 +852,7 @@ calendar-task-details-repeat = répétition :
 calendar-task-details-attachments = pièces jointes
 calendar-task-details-start = date de début
 calendar-task-details-due = fin prévue
+calendar-task-text-filter-field =
+    .emptytextbase = Filtrer les tâches #1
+    .keylabelnonmac = <Ctrl+Maj+K>
+    .keylabelmac = <⇧⌘K>
