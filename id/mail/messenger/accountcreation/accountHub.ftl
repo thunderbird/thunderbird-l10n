@@ -175,6 +175,7 @@ account-hub-username-error-text = Nama pengguna diperlukan
 account-hub-oauth-pending = Menunggu otorisasi pada popup log masuk…
 account-hub-addon-install-needed = { -brand-short-name } tidak mendukung server ini secara asli. Untuk mengakses surel Exchange, <a data-l10n-name="addon-install"> pasang pengaya pihak ketiga seperti Owl (berbayar).</a>
 account-hub-addon-error = Pemasangan pengaya gagal. Silakan coba lagi atau hubungi pembuat pengaya untuk mendapatkan bantuan.
+account-hub-security-warning = <span data-l10n-name="security-warning">Peringatan: Server surel tidak aman terdeteksi.</span> Server ini tidak memiliki enkripsi, memaparkan kata sandi dan data Anda. Hubungi administrator Anda untuk mengamankan sambungan atau melanjutkan dengan risiko Anda sendiri. <a data-l10n-name="faq-link">Lihat FAQ untuk informasi lebih lanjut.</a>
 account-hub-account-authentication-error = Kesalahan otentikasi.
 account-hub-add-address-book = Tambahkan buku alamat
 address-book-sync-existing-icon =

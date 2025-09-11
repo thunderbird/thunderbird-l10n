@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Buku Alamat
 items-pane-checkbox-calendars = Kalender
 items-pane-checkbox-mail-messages = Pesan Surel
 items-pane-override = Data yang ada atau identik tidak akan ditimpa.
+items-pane-nothing-to-import = Tidak ada yang dapat diimpor dari sumber yang dipilih.
 
 ## Import from address book file steps
 
