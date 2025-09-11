@@ -843,6 +843,15 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Aufgabe…
     .accesskey = A
+# LOCALIZATION NOTE (calendar-task-filter-current):
+# "Current Tasks" shows all tasks except those starting in the future.
+calendar-task-filter-current =
+    .label = Aktuelle Aufgaben
+    .accesskey = u
+calendar-task-details-title = Titel
+calendar-task-details-organizer = Organisator
+calendar-task-details-priority = Priorität
+calendar-task-details-priority-low = Niedrig
 calendar-task-details-priority-normal = Normal
 calendar-task-details-priority-high = Hoch
 calendar-task-details-status = Status
