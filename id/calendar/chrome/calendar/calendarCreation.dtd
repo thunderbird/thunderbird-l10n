@@ -6,7 +6,7 @@
 <!ENTITY wizard.label "Buat kalender baru">
 <!ENTITY wizard.description "Cari kalender Anda">
 <!ENTITY initialpage.description "Kalender dapat disimpan dalam komputer Anda atau disimpan di komputer server agar dapat diakses jarak jauh atau dapat digunakan bersama-sama dengan teman atau rekan kerja Anda.">
-<!ENTITY initialpage.computer.label "Di komputer saya">
+<!ENTITY initialpage.computer.label "Pada Komputer Saya">
 <!ENTITY initialpage.network.label "Di dalam Jaringan">
 <!ENTITY locationpage.description "Menyediakan keterangan tentang apa yang dibutuhkan untuk mengakses kalender jarak jauh Anda">
 <!ENTITY locationpage.login.description "Tidak wajib: masukkan nama pengguna dan sandi">
