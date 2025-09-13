@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = 모바일용으로 내보내기
 category-qr-export =
     .tooltiptext = 모바일용으로 내보내기
+general-language-and-fonts-header = 언어와 글꼴
 general-language-and-appearance-header = 언어와 표현
 general-incoming-mail-header = 받는 메일
 general-files-and-attachment-header = 파일 및 첨부

@@ -251,6 +251,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = 리디렉션
+other-action-copy-message-link =
+    .label = 메시지 링크 복사
+other-action-copy-news-link =
+    .label = 뉴스 링크 복사
 message-header-msg-flagged =
     .title = 별표
     .aria-label = 별표
@@ -453,3 +457,6 @@ quota-panel-percent-used = { $percent }% 사용
 
 mark-as-read-action = 읽음으로 표시
 delete-action = 삭제
+mark-as-starred-action = 별표 표시
+mark-as-spam-action = 스팸으로 표시
+archive-action = 보관
