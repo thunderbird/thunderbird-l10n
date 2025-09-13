@@ -449,6 +449,10 @@ account-hub-checkbox-label =
     .label = 새로운 계정 허브에서 계정 생성
     .accesskey = C
 account-hub-checkbox-description = 실험적인 새 메일 계정 생성 과정
+account-hub-ab-checkbox-label =
+    .label = 새 계정 허브에서 주소록 만들기
+    .accesskey = A
+account-hub-ab-checkbox-description = 실험적 새 주소록 생성 흐름
 
 ## Compose Tab
 
@@ -785,6 +789,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = 설정에서 찾기
+managed-notice = { -brand-short-name }는 사용자의 조직에서 관리하고 있습니다.
 
 ## Settings UI Search Results
 
@@ -894,6 +899,14 @@ appearance-radio-table =
 appearance-radio-cards =
     .label = 카드 보기
 cards-view-legend = 카드 보기 옵션
+table-view-legend = 테이블 보기 옵션
+appearance-card-rows =
+    .value = 행 수:
+appearance-card-style-3 =
+    .label = 3 행
+appearance-card-style-2 =
+    .label = 2 행
+default-message-list-sorting-legend = 정렬과 글타래
 default-message-list-description = 새로 생성된 폴더의 기본 정렬 및 글타래 옵션을 정의합니다.
 default-flag-label =
     .value = 기본 글타래:
@@ -901,6 +914,9 @@ default-flag-unthreaded =
     .label = 글타래 사용 안 함
 default-flag-threaded =
     .label = 글타래 사용
+default-flag-grouped =
+    .label = 정렬 기준 그룹화
+default-sort-label = 기본 정렬 기준:
 default-sort-date =
     .label = 날짜
 default-sort-subject =
@@ -917,20 +933,51 @@ default-sort-status =
     .label = 상태
 default-sort-size =
     .label = 크기
+default-sort-star =
+    .label = 별
+default-sort-unread =
+    .label = 읽기
 default-sort-recipient =
     .label = 받는 사람
 default-sort-location =
     .label = 위치
 default-sort-tags =
     .label = 태그
+default-sort-spam =
+    .label = 스팸 상태
 default-sort-attachments =
     .label = 첨부
 default-sort-account =
     .label = 계정
+default-sort-received =
+    .label = 받은 순서
+default-sort-correspondents =
+    .label = 대화 상대
+default-order-label = 기본 정렬 순서:
 default-sort-ascending =
     .label = 오름차순
+default-sort-ascending-description = 하단에 새 메시지가 표시됨
 default-sort-descending =
     .label = 내림차순
+default-sort-descending-description = 상단에 새 메시지가 표시됨
+apply-thread-sort-label = 글타래 및 정렬 설정을 다음에 적용:
+apply-sort-to-all-button =
+    .label = 모든 기존 폴더
+    .accesskey = A
+choose-apply-sort-button =
+    .label = 선택...
+    .accesskey = C
 apply-current-view-to-folder =
     .label = 폴더…
+apply-current-view-to-folder-children =
+    .label = 폴더와 하위 폴더…
 apply-changes-prompt-title = 변경 사항을 적용할까요?
+apply-changes-prompt-message = 현재의 글타래 및 정렬 설정을 모든 폴더에 적용할까요?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = 현재 글타래 및 정렬 설정을 “{ $name }”에 적용할까요?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = 현재 글타래 및 정렬 설정을 “{ $name }”와 그 하위 항목에 적용할까요?
+apply-current-view-error = 현재 보기 설정을 적용할 수 없음
+apply-current-view-success = 현재 보기 설정이 성공적으로 적용됨
