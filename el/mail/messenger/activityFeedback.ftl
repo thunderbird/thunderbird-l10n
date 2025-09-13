@@ -12,3 +12,9 @@ looking-for-messages-account = Αναζήτηση νέων μηνυμάτων γ
 # Variables:
 # $folderName (String) - The folder's name.
 looking-for-messages-folder = Αναζήτηση νέων μηνυμάτων στο «{ $folderName }»…
+# Feedback message shown in the status bar while we're deleting messages in a
+# specific folder (and waiting for the remote operation to complete).
+# Variables:
+# $number (Number) - Number of messages being deleted.
+# $folderName (String) - The folder's name.
+deleting-messages = Διαγραφή { $number } μηνυμάτων από το { $folderName }…
