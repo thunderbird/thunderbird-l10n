@@ -12,7 +12,7 @@ rights-intro-point-2 =
     <a data-l10n-name="mozilla-trademarks-link">her</a>.
 rights-intro-point-3 = Nokre funksjonar i { -brand-short-name }, som til dømes krasjrapporteraren, gjev deg høve til å gje tilbakemelding til { -vendor-short-name }. Ved å sende tilbakemelding gjev du { -vendor-short-name } løyve til å bruke tilbakemeldingane for å forbetre produkta sine, publisere tilbakemeldingane på nettstadane sine, og å distribuere tilbakemeldingane.
 rights-intro-point-4 = Korleis vi brukar personleg informasjon og tilbakemeldingar som er sendt til { -vendor-short-name } gjennom { -brand-short-name } er skildra i <a data-l10n-name="mozilla-privacy-policy-link">{ -brand-short-name }s personvernpraksis</a>.
-rights-intro-point-4-unbranded = Eventuelle personvernerklæringar for dette produktet bør førast opp her.
+rights-intro-point-4-unbranded = Eventuelle personvernfråsegner for dette produktet bør førast opp her.
 rights-intro-point-5 = Nokre { -brand-short-name }-funksjonar brukar nettbaserte informasjonstenester, men vi kan ikkje garantere at dei er 100 % nøyaktige eller feilfrie. Meir informasjon, også om korleis tenestene som brukar desse funksjonane kan slåast av, kan du finne i <a data-l10n-name="mozilla-service-terms-link">tenestevilkåra</a>.
 rights-intro-point-5-unbranded = Dersom dette produktet omfattar informasjonstenester, så bør tenestevilkår for tenestene lenkast opp i <a data-l10n-name="mozilla-website-services-link">nettstadtenester</a>-seksjonen.
 rights-intro-point-6 = For å spele av forskjellige typar videoinnhald, lastar { -brand-short-name } ned dekrypteringsmodular frå tredjepartar.
