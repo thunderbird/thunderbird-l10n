@@ -11,3 +11,21 @@ total-message-count =
         [many] { $count } správ
        *[other] { $count } správ
     }
+# Variables:
+# $count (Number) - The number of new messages in the conversation.
+new-message-count =
+    { $count ->
+        [one] 1 nová
+        [few] { $count } nové
+        [many] { $count } nových
+       *[other] { $count } nových
+    }
+# Variables:
+# $count (Number) - The number of unread messages in the conversation.
+unread-message-count =
+    { $count ->
+        [one] 1 neprečítaná
+        [few] { $count } neprečítané
+        [many] { $count } neprečítaných
+       *[other] { $count } neprečítaných
+    }
