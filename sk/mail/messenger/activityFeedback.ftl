@@ -11,7 +11,7 @@ looking-for-messages-account = Vyhľadávajú sa nové správy na účte { $acco
 # specific folder.
 # Variables:
 # $folderName (String) - The folder's name.
-looking-for-messages-folder = Vyhľadávajú sa nové správy v priečinku{ $accountName }…
+looking-for-messages-folder = Vyhľadávajú sa nové správy v priečinku { $accountName }…
 # Feedback message shown in the status bar while we're deleting messages in a
 # specific folder (and waiting for the remote operation to complete).
 # Variables:
