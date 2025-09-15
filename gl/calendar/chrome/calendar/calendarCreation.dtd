@@ -34,5 +34,6 @@
 <!ENTITY network.loading.description "Agarde mentres se buscan os seus calendarios.">
 <!ENTITY network.notfound.description "Non foi posíbel atopar calendarios nesta localización. Comprobe os axustes.">
 <!ENTITY network.authfail.description "As credenciais que introduciu non foron aceptadas. Comprobe os axustes.">
+<!ENTITY network.certerror.description "Non se puideron atopar os calendarios nesta localización por mor dun problema co certificado.">
 <!ENTITY network.subscribe.single.description "Seleccione os calendarios aos que desexa subscribirse.">
 <!ENTITY network.subscribe.multiple.description "Están dispoñíbeis varios tipos de calendarios nesta localización. Seleccione o tipo de calendario e despois marque os que desexa subscribir.">

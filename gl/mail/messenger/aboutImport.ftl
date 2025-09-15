@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Axendas de enderezos
 items-pane-checkbox-calendars = Calendarios
 items-pane-checkbox-mail-messages = Mensaxes de correo
 items-pane-override = Non se sobrescribirá ningún dato existente ou idéntico.
+items-pane-nothing-to-import = Non se pode importar nada da fonte seleccionada.
 
 ## Import from address book file steps
 
