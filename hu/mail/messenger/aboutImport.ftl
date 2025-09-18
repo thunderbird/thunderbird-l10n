@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Címjegyzékek
 items-pane-checkbox-calendars = Naptárak
 items-pane-checkbox-mail-messages = Levelek
 items-pane-override = A meglévő vagy azonos adatok nem kerülnek felülírásra.
+items-pane-nothing-to-import = Semmit nem lehet importálni a kiválasztott forrásból.
 
 ## Import from address book file steps
 
