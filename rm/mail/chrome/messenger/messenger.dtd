@@ -338,7 +338,7 @@
 <!ENTITY moveMsgToMenu.accesskey "u">
 <!ENTITY moveCopyMsgRecentMenu.label "Ultims ordinaturs">
 <!ENTITY moveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY copyMessageLocation.label "Copiar la URL dal messadi">
+<!ENTITY copyMessageLocation.label "Copiar l’adressa dal messadi">
 <!ENTITY copyMessageLocation.accesskey "M">
 <!ENTITY copyMsgToMenu.label "Copiar a">
 <!ENTITY copyMsgToMenu.accesskey "C">
