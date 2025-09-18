@@ -30,3 +30,7 @@ cert-error-inline-expired =
 #   $not-before (string) - Certificate is not valid before this time.
 cert-error-inline-not-yet-valid =
     .title = Kapcsolódási hiba. A(z) { $hostname } tanúsítványa eddig nem lesz érvényes: { $not-before }. Kattintson a kiszolgáló biztonsági beállításainak megnyitásához.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-untrusted-default =
+    .title = Kapcsolódási hiba. A(z) { $hostname } tanúsítványa nem biztonságos forrásból származik. Kattintson a kiszolgáló biztonsági beállításainak megnyitásához.
