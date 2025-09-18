@@ -5,10 +5,10 @@
 <!-- Attn: Localization - some of the menus in this dialog directly affect mail also. -->
 
 <!-- Edit menu items -->
-<!ENTITY pasteNoFormatting.label "Lipește fără formatare">
+<!ENTITY pasteNoFormatting.label "Inserează fără formatare">
 <!ENTITY pasteNoFormatting.accesskey "i">
 <!ENTITY pasteNoFormatting.key "V">
-<!ENTITY pasteAsQuotationCmd.label "Lipește ca citat">
+<!ENTITY pasteAsQuotationCmd.label "Inserează ca citat">
 <!ENTITY pasteAsQuotationCmd.accesskey "L">
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Inserează">

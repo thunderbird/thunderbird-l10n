@@ -188,7 +188,7 @@
 <!ENTITY saveButton.tooltip "Salvează acest mesaj">
 <!ENTITY cutButton.tooltip "Taie">
 <!ENTITY copyButton.tooltip "Copiază">
-<!ENTITY pasteButton.tooltip "Lipește">
+<!ENTITY pasteButton.tooltip "Inserează">
 <!ENTITY printButton.tooltip "Tipărește acest mesaj">
 <!-- Headers
      LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
@@ -233,9 +233,9 @@
 <!ENTITY cut.accesskey "T">
 <!ENTITY copy.label "Copiază">
 <!ENTITY copy.accesskey "C">
-<!ENTITY paste.label "Lipește">
+<!ENTITY paste.label "Inserează">
 <!ENTITY paste.accesskey "i">
-<!ENTITY pasteQuote.label "Lipește ca citat">
+<!ENTITY pasteQuote.label "Inserează ca citat">
 <!ENTITY pasteQuote.accesskey "p">
 <!-- Attachment Item and List Context Menus -->
 <!ENTITY openAttachment.label "Deschide">

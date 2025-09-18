@@ -37,52 +37,52 @@ normal-priority = Normală
 low-priority = Scăzută
 import-prompt = În ce calendar vrei să imporți aceste elemente?
 export-prompt = Din ce calendar vrei să exporți?
-paste-prompt = În care dintre calendarele actuale cu drept de scriere vrei să lipești?
+paste-prompt = În care dintre calendarele actuale cu drept de scriere vrei să inserezi?
 publish-prompt = Ce calendar vrei să-l publici?
 # LOCALIZATION NOTE (paste-event-also): The users pasting operation includes among
 # others also a meeting invitation - this is used as a affix in
 # paste-notify-about
-paste-event-also = Conținutul lipit include o întâlnire
+paste-event-also = Conținutul inserat include o întâlnire
 # LOCALIZATION NOTE (paste-events-also): The users pasting operation includes among
 # others also several meeting invitations  - this is used as a affix in
 # paste-notify-about
-paste-events-also = Conținutul lipit include întâlniri
+paste-events-also = Conținutul inserat include întâlniri
 # LOCALIZATION NOTE (paste-task-also): The users pasting operation includes among
 # others also an assigned task - this is used as a affix in paste-notify-about
-paste-task-also = Conținutul lipit include o sarcină alocată
+paste-task-also = Conținutul inserat include o sarcină alocată
 # LOCALIZATION NOTE (paste-tasks-also): The users pasting operation include among
 # others also several assigned tasks - this is used as a affix in
 # paste-notify-about
-paste-tasks-also = Conținutul lipit include sarcini alocate
+paste-tasks-also = Conținutul inserat include sarcini alocate
 # LOCALIZATION NOTE (paste-items-also): The users pasting operation includes among
 # others also assigned task(s) and meeting invitation(s) - this is used as a affix
 # in paste-notify-about
-paste-items-also = Conținutul lipit include întâlniri și sarcini alocate
+paste-items-also = Conținutul inserat include întâlniri și sarcini alocate
 # LOCALIZATION NOTE (paste-event-only): The users is pasting a meeting -
 # this is used as a affix in paste-notify-about
-paste-event-only = Lipești o întâlnire
+paste-event-only = Inserezi o întâlnire
 # LOCALIZATION NOTE (paste-events-only): The users is pasting several meetings -
 # this is used as a affix in paste-notify-about
-paste-events-only = Lipești întâlniri
+paste-events-only = Inserezi întâlniri
 # LOCALIZATION NOTE (paste-event-only): The users is pasting an assigned task -
 # this is used as a affix in paste-notify-about
-paste-task-only = Lipești o sarcină alocată
+paste-task-only = Inserezi o sarcină alocată
 # LOCALIZATION NOTE (paste-events-only): The users is pasting several assigned
 # tasks - this is used as a affix in paste-notify-about
-paste-tasks-only = Lipești sarcini alocate
+paste-tasks-only = Inserezi sarcini alocate
 # LOCALIZATION NOTE (paste-events-only): The users is pasting assigned task(s) and
 # meeting(s) - this is used as a affix in paste-notify-about
-paste-items-only = Lipești întâlniri și sarcini alocate
+paste-items-only = Inserezi întâlniri și sarcini alocate
 # LOCALIZATION NOTE (paste-notify-about): Text displayed if pasting an invitation
 # or assigned task
 # $pasteItem - pasteEvent* or pasteTask*
 paste-notify-about = { $pasteItem } - vrei să trimiți o actualizare tuturor celor implicați?
 # LOCALIZATION NOTE (paste-and-notify-label): button label used in calendar prompt
 # of the pasted item has attendees
-paste-and-notify-label = Lipește și trimite acum
+paste-and-notify-label = Inserează și trimite acum
 # LOCALIZATION NOTE (paste-dont-notify-label): button label used in calendar prompt
 # of the pasted item has attendees
-paste-dont-notify-label = Lipește fără trimitere
+paste-dont-notify-label = Inserează fără trimitere
 # LOCALIZATION NOTE (import-items-failed):
 #    $count will be replaced with number of failed items
 #    $error will be replaced with last error code / error string
@@ -745,7 +745,7 @@ calendar-context-copy =
     .label = Copiază
     .accesskey = C
 calendar-context-paste =
-    .label = Lipește
+    .label = Inserează
     .accesskey = p
 calendar-taskview-delete =
     .label = Șterge

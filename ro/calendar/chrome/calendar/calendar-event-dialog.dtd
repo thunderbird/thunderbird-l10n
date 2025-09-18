@@ -88,7 +88,7 @@
 <!ENTITY event.menu.edit.cut.accesskey "T">
 <!ENTITY event.menu.edit.copy.label "Copiază">
 <!ENTITY event.menu.edit.copy.accesskey "C">
-<!ENTITY event.menu.edit.paste.label "Lipește">
+<!ENTITY event.menu.edit.paste.label "Inserează">
 <!ENTITY event.menu.edit.paste.accesskey "p">
 <!ENTITY event.menu.edit.select.all.label "Selectează tot">
 <!ENTITY event.menu.edit.select.all.accesskey "a">

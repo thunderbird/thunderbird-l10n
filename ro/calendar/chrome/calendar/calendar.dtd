@@ -81,7 +81,7 @@
 <!ENTITY calendar.context.cutevent.accesskey "T">
 <!ENTITY calendar.context.copyevent.label "Copiază">
 <!ENTITY calendar.context.copyevent.accesskey "C">
-<!ENTITY calendar.context.pasteevent.label "Lipește">
+<!ENTITY calendar.context.pasteevent.label "Inserează">
 <!ENTITY calendar.context.pasteevent.accesskey "p">
 <!ENTITY calendar.context.button.label "Panoul zilei de astăzi">
 <!ENTITY calendar.context.button.accesskey "P">
