@@ -11,7 +11,7 @@
 <!ENTITY feedLocation.accesskey "U">
 <!ENTITY feedLocation2.placeholder "Endatar in URL valid dal feed">
 <!ENTITY locationValidate.label "Validar">
-<!ENTITY validateText.label "Controllar la validaziun e retschaiver ina URL valida.">
+<!ENTITY validateText.label "Controllar la validaziun e retschaiver in URL valid.">
 <!ENTITY feedFolder.label "Memorisar ils artitgels en:">
 <!ENTITY feedFolder.accesskey "S">
 <!-- Account Settings and Subscription Dialog -->
