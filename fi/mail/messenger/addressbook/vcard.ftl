@@ -93,6 +93,7 @@ vcard-date-year = Vuosi
 vcard-adr-header = Osoitteet
 vcard-adr-add = Lisää osoite
 vcard-adr-label = Osoite
+vcard-adr-delivery-label = Toimitustarra
 vcard-adr-street = Katuosoite
 # Or "Locality"
 vcard-adr-locality = Kaupunki

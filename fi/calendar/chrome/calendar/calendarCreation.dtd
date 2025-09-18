@@ -34,5 +34,6 @@
 <!ENTITY network.loading.description "Odota hetki, kalentereitasi etsitään.">
 <!ENTITY network.notfound.description "Tästä sijainnista ei löytynyt kalentereita. Tarkista asetukset.">
 <!ENTITY network.authfail.description "Syöttämiäsi kirjautumistietoja ei hyväksytty. Tarkista asetukset.">
+<!ENTITY network.certerror.description "Kalentereita ei löytynyt tästä sijainnista varmenneongelman vuoksi.">
 <!ENTITY network.subscribe.single.description "Valitse kalenterit, jotka haluat tilata.">
 <!ENTITY network.subscribe.multiple.description "Tässä sijainnissa on monen tyyppisiä kalentereita. Valitse ensin kalenterin tyyppi ja valitse sitten kalenterit, jotka haluat tilata.">

@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Osoitekirjat
 items-pane-checkbox-calendars = Kalenterit
 items-pane-checkbox-mail-messages = Sähköpostiviestit
 items-pane-override = Mitään olemassa olevia tai identtisiä tietoja ei ylikirjoiteta.
+items-pane-nothing-to-import = Valitusta lähteestä ei voida tuoda mitään.
 
 ## Import from address book file steps
 
