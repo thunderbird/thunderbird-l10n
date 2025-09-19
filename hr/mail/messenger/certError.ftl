@@ -16,3 +16,28 @@ cert-error-not-yet-valid = Certifikat za { $hostname } neće biti valjan do { $n
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Certifikat za { $hostname } ne dolazi iz pouzdanog izvora.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-domain-mismatch =
+    .title = Pogreška veze. Certifikat za { $hostname } nije valjan za taj poslužitelj. Netko možda pokušava lažno predstavljati poslužitelj i ne biste trebali nastaviti. Kliknite za otvaranje sigurnosnih postavki poslužitelja.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-after (string) - Certificate is not valid after this time.
+cert-error-inline-expired =
+    .title = Pogreška veze. Certifikat za { $hostname } istekao je { $not-after }. Kliknite za otvaranje sigurnosnih postavki poslužitelja.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-before (string) - Certificate is not valid before this time.
+cert-error-inline-not-yet-valid =
+    .title = Pogreška veze. Certifikat za { $hostname } neće biti važeći do { $not-before }. Kliknite za otvaranje sigurnosnih postavki poslužitelja.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-untrusted-default =
+    .title = Pogreška veze. Certifikat za { $hostname } ne dolazi iz pouzdanog izvora. Kliknite za otvaranje sigurnosnih postavki poslužitelja.
+certificate-check-fetch-button = Dohvati certifikat
+certificate-check-view-button = Pregled certifikata
+certificate-check-add-exception-button = Dodaj iznimku
+certificate-check-remove-exception-button = Ukloni iznimku
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = Dohvaćanje certifikata za { $hostname }.
