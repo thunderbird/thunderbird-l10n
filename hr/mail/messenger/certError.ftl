@@ -41,3 +41,14 @@ certificate-check-remove-exception-button = Ukloni iznimku
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Dohvaćanje certifikata za { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Čini se da je certifikat za { $hostname } važeći.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = Nije uspjelo dohvaćanje certifikata za { $hostname }.
+certificate-check-exception-added = Dodana je iznimka certifikata.
+certificate-check-exception-removed = Uklonjena je iznimka certifikata.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Postoji iznimka certifikata za { $hostname }.
