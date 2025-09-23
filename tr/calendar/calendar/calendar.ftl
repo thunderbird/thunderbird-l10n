@@ -928,3 +928,5 @@ calendar-tasks-view-calendarlist =
 calendar-tasks-view-filtertasks =
     .label = Görevleri süz
     .accesskey = G
+calendar-properties-color =
+    .value = Renk:
