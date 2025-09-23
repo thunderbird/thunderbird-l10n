@@ -133,5 +133,6 @@ openpgp-external-key-info = Nimo toho dyrbiće zrjadowak klučow wužiwać, zo b
 openpgp-external-key-warning = <b>Móžeće snano jenož jedyn eksterny GnuPG-kluč konfigurować.</b> Waš předchadny zapisk so wuměni.
 openpgp-save-external-button = Klučowy ID składować
 openpgp-external-key-label = Tajny klučowy ID:
+openpgp-import-own-key-title = Importujće swój zjawny kluč
 openpgp-external-key-input =
     .placeholder = 123456789341298340
