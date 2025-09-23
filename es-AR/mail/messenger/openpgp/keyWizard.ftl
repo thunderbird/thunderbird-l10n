@@ -131,5 +131,10 @@ openpgp-external-key-info = Además, debe usar el Administrador de claves para i
 openpgp-external-key-warning = <b> Puede configurar solo una Clave GnuPG externa. </b> Su entrada anterior será reemplazada.
 openpgp-save-external-button = Guardar ID clave
 openpgp-external-key-label = ID de clave secreta:
+openpgp-import-own-key-title = Importar clave pública
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name } no pudo encontrar la clave pública con ID { $keyId }. Importarlo para continuar.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = No se pudo importar la clave pública { $keyId } de ese archivo.
 openpgp-external-key-input =
     .placeholder = 123456789341298340

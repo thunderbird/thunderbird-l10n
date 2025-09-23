@@ -130,5 +130,10 @@ openpgp-external-key-info = 除此之外，必須使用「金鑰管理員」來�
 openpgp-external-key-warning = <b>您只能設定一組外部 GnuPG 金鑰。</b>將取代先前設定的項目。
 openpgp-save-external-button = 儲存金鑰 ID
 openpgp-external-key-label = 私鑰 ID:
+openpgp-import-own-key-title = 匯入您的公鑰
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name } 找不到 ID 為 { $keyId } 的公鑰。請匯入以繼續。
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = 無法從該檔案匯入公鑰 { $keyId }。
 openpgp-external-key-input =
     .placeholder = 123456789341298340

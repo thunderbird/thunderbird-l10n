@@ -135,5 +135,10 @@ openpgp-external-key-info = Yn ogystal, rhaid i chi ddefnyddio'r Rheolwr Allwedd
 openpgp-external-key-warning = <b>Dim ond un Allwedd GnuPG allanol y gallwch chi ei ffurfweddu.</b> Bydd eich cofnod blaenorol yn cael ei ddisodli.
 openpgp-save-external-button = Cadw ID yr allwedd
 openpgp-external-key-label = ID Allwedd Gyfrinachol:
+openpgp-import-own-key-title = Mewnforio eich allwedd gyhoeddus
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = Ni allai { -brand-short-name } ddod o hyd i'r allwedd gyhoeddus gyda'r ID { $keyId }. Mewnforiwch ef i barhau.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = Methu mewnforio allwedd gyhoeddus { $keyId } o'r ffeil honno.
 openpgp-external-key-input =
     .placeholder = 123456789341298340
