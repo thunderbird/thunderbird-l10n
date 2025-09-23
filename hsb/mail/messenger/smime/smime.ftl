@@ -5,6 +5,8 @@
 smime-test-cert-button =
     .label = Testować
 configured-cert-not-found = Certifikat njeda so namakać.
+configured-cert-ok-enc = Certifikat je test wobstał a da so za e-mejlowe zaklučowanje wužiwać.
+configured-cert-ok-sig = Certifikat je test wobstał a da so za e-mejlowe signowanje wužiwać.
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 configured-cert-failure-detail = Přepruwowanje certifikata je so ze slědowacym zmylkom nimokuliło: { $errorMsg } (zmylkowy kod: { $errorCodeStr })
