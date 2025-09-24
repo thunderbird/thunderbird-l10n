@@ -132,7 +132,7 @@ openpgp-save-external-button = 儲存金鑰 ID
 openpgp-external-key-label = 私鑰 ID:
 openpgp-import-own-key-title = 匯入您的公鑰
 #   $keyId (String) - The Key ID.
-openpgp-import-own-key-description = { -brand-short-name } 找不到 ID 為 { $keyId } 的公鑰。請匯入以繼續。
+openpgp-import-own-key-description = { -brand-short-name } 找不到 ID 為 { $keyId } 的公鑰，請匯入以繼續。
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = 無法從該檔案匯入公鑰 { $keyId }。
 openpgp-external-key-input =
