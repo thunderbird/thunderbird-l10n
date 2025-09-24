@@ -133,7 +133,7 @@ openpgp-save-external-button = Enregistrer l’identifiant de la clé
 openpgp-external-key-label = Identifiant de la clé secrète :
 openpgp-import-own-key-title = Importez votre clé publique
 #   $keyId (String) - The Key ID.
-openpgp-import-own-key-description = { -brand-short-name } n’a pas pu trouver la clé publique avec l’identifiant { $keyId }. Veuillez l’importer pour continuer.
+openpgp-import-own-key-description = { -brand-short-name } n’a pas réussi à localiser la clé publique portant l’identifiant { $keyId }. Veuillez l’importer pour continuer.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = Impossible d’importer la clé publique { $keyId } depuis ce fichier.
 openpgp-external-key-input =
