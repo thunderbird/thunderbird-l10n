@@ -7,3 +7,8 @@ smime-test-cert-button =
 configured-cert-not-found = 找不到憑證。
 configured-cert-ok-enc = 憑證通過測試，可以用來加密郵件。
 configured-cert-ok-sig = 憑證通過測試，可以用來簽署郵件。
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+configured-cert-failure-detail = 憑證驗證失敗，錯誤如下：{ $errorMsg }（錯誤代碼：{ $errorCodeStr }）
+# $errorCode A numeric error code
+configured-cert-failure = 憑證驗證失敗，錯誤代碼：{ $errorCode }
