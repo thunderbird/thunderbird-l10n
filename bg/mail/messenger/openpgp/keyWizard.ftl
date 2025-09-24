@@ -131,5 +131,10 @@ openpgp-external-key-info = Освен това трябва да използв
 openpgp-external-key-warning = <b>Можете да конфигурирате само един външен GnuPG ключ.</b> Вашият предишен запис ще бъде заменен.
 openpgp-save-external-button = Запазване на идентификатора на ключа
 openpgp-external-key-label = Идентификатор на таен ключ:
+openpgp-import-own-key-title = Внясяне на вашия публичен ключ
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name } не можа да намери публичния ключ с идентификатор { $keyId }. Моля, внесете, за да продължите.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = Невъзможно е да се внесе публичен ключ { $keyId } от този файл.
 openpgp-external-key-input =
     .placeholder = 123456789341298340
