@@ -131,5 +131,10 @@ openpgp-external-key-info = Zusätzlich müssen Sie den entsprechenden öffentli
 openpgp-external-key-warning = <b>Es wird nur die Konfiguration eines externen GnuPG-Schlüssels unterstützt.</b> Ihr vorheriger Eintrag wird ersetzt.
 openpgp-save-external-button = Schlüssel-ID speichern
 openpgp-external-key-label = ID des geheimen Schlüssels:
+openpgp-import-own-key-title = Importieren Sie Ihren öffentlichen Schlüssel
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name } konnte den öffentlichen Schlüssel mit der ID { $keyId } nicht finden. Bitte importieren Sie ihn, um fortzufahren.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = Der öffentliche Schlüssel { $keyId } konnte nicht aus dieser Datei importiert werden.
 openpgp-external-key-input =
     .placeholder = 123456789341298340
