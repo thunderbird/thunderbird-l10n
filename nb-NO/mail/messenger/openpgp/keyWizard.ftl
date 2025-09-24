@@ -131,5 +131,6 @@ openpgp-external-key-info = I tillegg må du bruke nøkkelbehandler for å impor
 openpgp-external-key-warning = <b>Du kan bare konfigurere en ekstern GnuPG-nøkkel.</b> Din tidligere oppføring blir erstattet.
 openpgp-save-external-button = Lagre nøkkel-ID
 openpgp-external-key-label = Hemmelig nøkkel-ID:
+openpgp-import-own-key-title = Importer den offentlige nøkkelen din
 openpgp-external-key-input =
     .placeholder = 123456789341298340
