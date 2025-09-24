@@ -118,6 +118,7 @@ address-book-carddav-known-incompatible = { $url } қызметі { -brand-short
 address-book-carddav-connection-error = Байланысты орнату сәтсіз аяқталды.
 address-book-ldap-duplicate-error = Бұл LDAP бума атауы бар болып тұр. Басқа атауын енгізіңіз.
 address-book-ldap-creation-error = LDAP бумасын жасау мүмкін болмады.
+account-hub-email-setup-ews = Сервер баптаулары
 account-hub-result-username-label = Пайдаланушы аты
     .title = Пайдаланушы аты
 account-hub-name-label = Толық аты
