@@ -7,3 +7,8 @@ smime-test-cert-button =
 configured-cert-not-found = Das Zertifikat konnte nicht gefunden werden.
 configured-cert-ok-enc = Das Zertifikat hat den Test bestanden und kann für E-Mail-Verschlüsselung verwendet werden.
 configured-cert-ok-sig = Das Zertifikat hat den Test bestanden und kann zur E-Mail-Signatur verwendet werden.
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+configured-cert-failure-detail = Die Zertifikat-Verifizierung ist mit folgendem Fehler fehlgeschlagen: { $errorMsg } (Fehlercode: { $errorCodeStr })
+# $errorCode A numeric error code
+configured-cert-failure = Die Zertifikat-Verifizierung ist mit dem Fehlercode { $errorCode } fehlgeschlagen.
