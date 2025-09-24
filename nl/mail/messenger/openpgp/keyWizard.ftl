@@ -131,5 +131,10 @@ openpgp-external-key-info = Daarnaast moet u Sleutelbeheerder gebruiken om de bi
 openpgp-external-key-warning = <b>U mag slechts een externe GnuPG-sleutel configureren.</b> Uw vorige ingave wordt vervangen.
 openpgp-save-external-button = Sleutel-ID opslaan
 openpgp-external-key-label = Geheime sleutel-ID:
+openpgp-import-own-key-title = Uw publieke sleutel importeren
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name } kan de publieke sleutel met ID { $keyId } niet vinden. Importeer deze om door te gaan.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = Kan publieke sleutel { $keyId } niet uit dat bestand importeren.
 openpgp-external-key-input =
     .placeholder = 123456789341298340
