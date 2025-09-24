@@ -15,3 +15,6 @@ outgoing-server-name = Сервер исходящей почты:
 outgoing-server-edit =
     .label = Изменить сервер исходящей почты…
     .accesskey = o
+ews-url-label =
+    .value = URL хоста:
+    .accesskey = р
