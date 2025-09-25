@@ -15,3 +15,6 @@ outgoing-server-name = 发件服务器：
 outgoing-server-edit =
     .label = 编辑发件服务器…
     .accesskey = o
+ews-redirecturi-label =
+    .value = 重定向 URI:
+    .accesskey = r

@@ -130,5 +130,6 @@ openpgp-external-key-info = 此外，必须使用“密钥管理器”来导入�
 openpgp-external-key-warning = <b>您只能配置 1 个外部 GnuPG 密钥。</b>先前的条目将被替换。
 openpgp-save-external-button = 保存密钥 ID
 openpgp-external-key-label = 密钥 ID：
+openpgp-import-own-key-title = 导入公钥
 openpgp-external-key-input =
     .placeholder = 123456789341298340
