@@ -131,5 +131,10 @@ openpgp-external-key-info = Dêrneist moatte jo Kaaibehearder brûke om de byhea
 openpgp-external-key-warning = <b>Jo meie mar ien eksterne GnuPG-kaai konfigurearje.</b> Jo foarige ynfier wurdt ferfongen.
 openpgp-save-external-button = Kaai-ID bewarje
 openpgp-external-key-label = Geheime kaai-ID:
+openpgp-import-own-key-title = Jo iepenbiere kaai ymportearje
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name } kin de publike kaai mei ID { $keyId } net fine. Ymportearje dizze om troch te gean.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = Kin publike kaai { $keyId } net út dat bestân ymportearje.
 openpgp-external-key-input =
     .placeholder = 123456789341298340
