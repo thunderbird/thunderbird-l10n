@@ -954,3 +954,19 @@ calendar-properties-unsubscribe =
     .accesskey = E
     .buttonlabelextra1 = Eten harpidetza
     .buttonaccesskeyextra1 = E
+calendar-alarm-dialog-title = Egutegien gogorarazleak
+calendar-alarm-details =
+    .value = Xehetasunak…
+calendar-alarm-dismiss =
+    .label = Utzi
+calendar-alarm-dismiss-all =
+    .label = Utzi denak
+calendar-alarm-snooze-for =
+    .label = Atzeratu
+calendar-alarm-snooze-all-for =
+    .label = Atzeratu
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Utzi atzeratzea
