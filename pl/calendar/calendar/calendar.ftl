@@ -976,6 +976,17 @@ calendar-properties-unsubscribe =
     .accesskey = Z
     .buttonlabelextra1 = Zrezygnuj z subskrypcji
     .buttonaccesskeyextra1 = Z
+calendar-alarm-dialog-title = Przypomnienia kalendarza
+calendar-alarm-details =
+    .value = Szczegóły…
+calendar-alarm-dismiss =
+    .label = Wyłącz
+calendar-alarm-dismiss-all =
+    .label = Wyłącz wszystkie przypomnienia
+calendar-alarm-snooze-for =
+    .label = Przypomnij za
+calendar-alarm-snooze-all-for =
+    .label = Przypomnij o wszystkich za
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
