@@ -965,3 +965,8 @@ calendar-alarm-snooze-for =
     .label = Silenciar por
 calendar-alarm-snooze-all-for =
     .label = Silenciar todo por
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Cancelar silenciar
