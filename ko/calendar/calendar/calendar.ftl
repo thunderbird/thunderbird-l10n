@@ -899,3 +899,19 @@ calendar-properties-unsubscribe =
     .accesskey = U
     .buttonlabelextra1 = 해지
     .buttonaccesskeyextra1 = U
+calendar-alarm-dialog-title = 캘린더 알림
+calendar-alarm-details =
+    .value = 상세 정보
+calendar-alarm-dismiss =
+    .label = 해제
+calendar-alarm-dismiss-all =
+    .label = 모두 해제
+calendar-alarm-snooze-for =
+    .label = 대기
+calendar-alarm-snooze-all-for =
+    .label = 전체 대기
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = 대기 취소
