@@ -800,3 +800,19 @@ calendar-properties-unsubscribe =
     .accesskey = D
     .buttonlabelextra1 = Díliostáil
     .buttonaccesskeyextra1 = D
+calendar-alarm-dialog-title = Meabhrúcháin Fhéilire
+calendar-alarm-details =
+    .value = Mionsonraí…
+calendar-alarm-dismiss =
+    .label = Díbir
+calendar-alarm-dismiss-all =
+    .label = Díbir Uile
+calendar-alarm-snooze-for =
+    .label = Déan néal codlata ar feadh
+calendar-alarm-snooze-all-for =
+    .label = Cuir gach ceann ina chodladh go ceann
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Cealaigh an Néal Codlata
