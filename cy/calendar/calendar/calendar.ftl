@@ -991,3 +991,19 @@ calendar-properties-unsubscribe =
     .accesskey = a
     .buttonlabelextra1 = Dad-danysgrifio
     .buttonaccesskeyextra1 = a
+calendar-alarm-dialog-title = Atgoffwyr Calendr
+calendar-alarm-details =
+    .value = Manylion…
+calendar-alarm-dismiss =
+    .label = Cau
+calendar-alarm-dismiss-all =
+    .label = Cau'r Cyfan
+calendar-alarm-snooze-for =
+    .label = Cysgu am
+calendar-alarm-snooze-all-for =
+    .label = Cysgu'r Cyfan am
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Diddymu Cysgu
