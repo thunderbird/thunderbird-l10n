@@ -921,3 +921,19 @@ calendar-properties-unsubscribe =
     .accesskey = غ
     .buttonlabelextra1 = ألغ الاشتراك
     .buttonaccesskeyextra1 = غ
+calendar-alarm-dialog-title = تذكيرات التقويمات
+calendar-alarm-details =
+    .value = التفاصيل…
+calendar-alarm-dismiss =
+    .label = ارفض
+calendar-alarm-dismiss-all =
+    .label = ارفض الكل
+calendar-alarm-snooze-for =
+    .label = غفوة لمدة
+calendar-alarm-snooze-all-for =
+    .label = غفوة الكل لمدة
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = ألغ الغفوة
