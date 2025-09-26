@@ -1002,6 +1002,42 @@ calendar-alarm-snooze-for =
     .label = Cysgu am
 calendar-alarm-snooze-all-for =
     .label = Cysgu'r Cyfan am
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } Munud
+            [zero] { $count } Munud
+            [two] { $count } Munud
+            [few] { $count } Munud
+            [many] { $count } Munud
+           *[other] { $count } Munud
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] { $count } Awr
+            [zero] { $count } awr
+            [two] { $count } awr
+            [few] { $count } awr
+            [many] { $count } awr
+           *[other] { $count } awr
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] { $count } Diwrnod
+            [zero] { $count } Diwrnod
+            [two] { $count } Diwrnod
+            [few] { $count } Diwrnod
+            [many] { $count } Diwrnod
+           *[other] { $count } Diwrnod
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
