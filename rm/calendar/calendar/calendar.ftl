@@ -954,3 +954,19 @@ calendar-properties-unsubscribe =
     .accesskey = u
     .buttonlabelextra1 = Deabunar
     .buttonaccesskeyextra1 = u
+calendar-alarm-dialog-title = Promemorias dal chalender
+calendar-alarm-details =
+    .value = Detagls…
+calendar-alarm-dismiss =
+    .label = Sbittar
+calendar-alarm-dismiss-all =
+    .label = Sbittar tut
+calendar-alarm-snooze-for =
+    .label = Puspè regurdar en
+calendar-alarm-snooze-all-for =
+    .label = Spustar tuts per
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Betg pli regurdar
