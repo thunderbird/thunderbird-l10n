@@ -956,3 +956,8 @@ calendar-properties-unsubscribe =
     .accesskey = S
     .buttonlabelextra1 = Se désabonner
     .buttonaccesskeyextra1 = S
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Annuler le report d’alarme
