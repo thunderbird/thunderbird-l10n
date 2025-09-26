@@ -41,7 +41,7 @@ reminder-error-max-count-reached-task = Bộ lịch đã chọn có giới hạn
 # LOCALIZATION NOTE (reminder-readonly-notification)
 # This notification will be presented in the alarm dialog if reminders for not
 # writable items/calendars are displayed.
-# $label - localized value of calendar.alarm.snoozeallfor.label (defined in calendar.dtd)
+# $label - localized value of calendar-alarm-snooze-all-for (defined in calendar.ftl)
 reminder-readonly-notification = Lời nhắc cho lịch chỉ đọc hiện không thể được báo lại mà chỉ loại bỏ - nút '{ $label }' sẽ chỉ báo lại lời nhắc cho lịch có thể ghi.
 # LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
 # This tooltip is only displayed, if the button is disabled

@@ -131,5 +131,10 @@ openpgp-external-key-info = Að auki verður þú að nota lyklastýringuna til 
 openpgp-external-key-warning = <b>Þú mátt aðeins stilla einn utanaðkomandi GnuPG-lykil.</b> Fyrri færslu þinni verður skipt út.
 openpgp-save-external-button = Vista lykilauðkenni
 openpgp-external-key-label = Auðkenni leynilykils:
+openpgp-import-own-key-title = Flyttu inn opinbera dreifilykilinn þinn
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name } fann ekki opinbera dreifilykilinn með auðkenninu { $keyId }. Flyttu hann inn til að halda áfram.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = Gat ekki flutt inn opinbera dreifilykilinn { $keyId } úr þessari skrá.
 openpgp-external-key-input =
     .placeholder = 123456789341298340

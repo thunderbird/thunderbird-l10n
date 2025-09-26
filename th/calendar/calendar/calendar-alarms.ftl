@@ -41,7 +41,7 @@ reminder-error-max-count-reached-task = ปฏิทินที่เลือ�
 # LOCALIZATION NOTE (reminder-readonly-notification)
 # This notification will be presented in the alarm dialog if reminders for not
 # writable items/calendars are displayed.
-# $label - localized value of calendar.alarm.snoozeallfor.label (defined in calendar.dtd)
+# $label - localized value of calendar-alarm-snooze-all-for (defined in calendar.ftl)
 reminder-readonly-notification = ขณะนี้สามารถเพิกเฉยการเตือนความจำสำหรับปฏิทินแบบอ่านอย่างเดียว แต่ไม่สามารถเลื่อนได้ ปุ่ม '{ $label }' จะเลื่อนการเตือนความจำสำหรับเฉพาะปฏิทินที่เขียนได้เท่านั้น
 # LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
 # This tooltip is only displayed, if the button is disabled

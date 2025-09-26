@@ -41,7 +41,7 @@ reminder-error-max-count-reached-task = 選擇的行事曆一個工作最多只�
 # LOCALIZATION NOTE (reminder-readonly-notification)
 # This notification will be presented in the alarm dialog if reminders for not
 # writable items/calendars are displayed.
-# $label - localized value of calendar.alarm.snoozeallfor.label (defined in calendar.dtd)
+# $label - localized value of calendar-alarm-snooze-all-for (defined in calendar.ftl)
 reminder-readonly-notification = 目前僅能直接關閉唯讀行事曆中的提醒，而無法使用稍後提醒功能。僅能對可寫入的行事曆使用「{ $label }」按鈕稍後提醒。
 # LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
 # This tooltip is only displayed, if the button is disabled

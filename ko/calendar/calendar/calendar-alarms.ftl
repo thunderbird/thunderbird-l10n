@@ -41,7 +41,7 @@ reminder-error-max-count-reached-task = 선택한 캘린더는 태스크당 { $c
 # LOCALIZATION NOTE (reminder-readonly-notification)
 # This notification will be presented in the alarm dialog if reminders for not
 # writable items/calendars are displayed.
-# $label - localized value of calendar.alarm.snoozeallfor.label (defined in calendar.dtd)
+# $label - localized value of calendar-alarm-snooze-all-for (defined in calendar.ftl)
 reminder-readonly-notification = 읽기 전용 캘린더의 알림은 지연할 수 없고 끌 수만 있음 - '{ $label }' 버튼은 쓰기 가능한 캘린더 알림만 연기할 수 있습니다.
 # LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
 # This tooltip is only displayed, if the button is disabled

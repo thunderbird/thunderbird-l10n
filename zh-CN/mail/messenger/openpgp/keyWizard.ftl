@@ -131,5 +131,9 @@ openpgp-external-key-warning = <b>您只能配置 1 个外部 GnuPG 密钥。</b
 openpgp-save-external-button = 保存密钥 ID
 openpgp-external-key-label = 密钥 ID：
 openpgp-import-own-key-title = 导入公钥
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name } 找不到 ID 为 { $keyId } 的公钥，请将其导入以继续操作。
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = 无法从该文件导入公钥 { $keyId }。
 openpgp-external-key-input =
     .placeholder = 123456789341298340

@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = 대체 부가 기능 찾기
 atn-addons-heading-search-input =
     .placeholder = addons.thunderbird.net 검색
+atn-addons-heading-search-button =
+    .title = addons.thunderbird.net 검색
+    .aria-label = addons.thunderbird.net 검색

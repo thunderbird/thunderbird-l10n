@@ -51,7 +51,7 @@ reminder-error-max-count-reached-task =
 # LOCALIZATION NOTE (reminder-readonly-notification)
 # This notification will be presented in the alarm dialog if reminders for not
 # writable items/calendars are displayed.
-# $label - localized value of calendar.alarm.snoozeallfor.label (defined in calendar.dtd)
+# $label - localized value of calendar-alarm-snooze-all-for (defined in calendar.ftl)
 reminder-readonly-notification = Podsjetnici za kalendare koji se mogu samo čitati ne mogu biti odgođeni nego samo odbačeni - dugme '{ $label }' će odgoditi podsjetnike samo za kalendare u kojima je dozvoljeno pisanje.
 # LOCALIZATION NOTE (reminder-disabled-snooze-button-tooltip)
 # This tooltip is only displayed, if the button is disabled

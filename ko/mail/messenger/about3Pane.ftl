@@ -455,3 +455,8 @@ message-list-placeholder-multiple-folders = 여러 폴더 선택됨
 folder-pane-context-mark-folder-read =
     .label = 폴더 읽음으로 표시
     .accesskey = k
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = 폴더 순서 초기화
+    .accesskey = R

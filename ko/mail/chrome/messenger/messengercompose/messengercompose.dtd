@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "순진">
 <!ENTITY smiley15Cmd.label "울음">
 <!ENTITY smiley16Cmd.label "함구">
+<!ENTITY smiley17Cmd.label "성난">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "추천 단어 없음">
 <!ENTITY spellCheckIgnoreWord.label "무시하기">

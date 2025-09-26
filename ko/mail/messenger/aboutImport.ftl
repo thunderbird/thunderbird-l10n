@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = 주소록
 items-pane-checkbox-calendars = 달력
 items-pane-checkbox-mail-messages = 메일 메시지
 items-pane-override = 기존 데이터나 동일한 데이터를 덮어쓰지 않습니다.
+items-pane-nothing-to-import = 선택한 소스에서 아무것도 가져올 수 없습니다.
 
 ## Import from address book file steps
 
