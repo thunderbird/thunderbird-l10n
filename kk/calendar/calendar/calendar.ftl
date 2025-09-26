@@ -957,3 +957,19 @@ calendar-properties-unsubscribe =
     .accesskey = б
     .buttonlabelextra1 = Жазылудан бас тарту
     .buttonaccesskeyextra1 = б
+calendar-alarm-dialog-title = Күнтізбе еске салулары
+calendar-alarm-details =
+    .value = Көбірек білу…
+calendar-alarm-dismiss =
+    .label = Елемеу
+calendar-alarm-dismiss-all =
+    .label = Барлығын тайдыру
+calendar-alarm-snooze-for =
+    .label = Келесі уақытқа кейінге қалдыру
+calendar-alarm-snooze-all-for =
+    .label = Барлығын келесі уақытқа кейінге қалдыру
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Кейінге қалдыруды болдырмау
