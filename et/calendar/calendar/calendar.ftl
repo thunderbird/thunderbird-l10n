@@ -947,3 +947,19 @@ calendar-properties-unsubscribe =
     .accesskey = L
     .buttonlabelextra1 = Lõpeta tellimine
     .buttonaccesskeyextra1 = L
+calendar-alarm-dialog-title = Kalendri meeldetuletus
+calendar-alarm-details =
+    .value = Üksikasjad…
+calendar-alarm-dismiss =
+    .label = Tühista
+calendar-alarm-dismiss-all =
+    .label = Tühista kõik
+calendar-alarm-snooze-for =
+    .label = Lükka edasi
+calendar-alarm-snooze-all-for =
+    .label = Lükka kõik edasi
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Tühista meeldetuletus
