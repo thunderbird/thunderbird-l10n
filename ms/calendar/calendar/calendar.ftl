@@ -841,3 +841,19 @@ calendar-properties-unsubscribe =
     .accesskey = B
     .buttonlabelextra1 = Batal langganan
     .buttonaccesskeyextra1 = B
+calendar-alarm-dialog-title = Peringatan Kalendar
+calendar-alarm-details =
+    .value = Butiran…
+calendar-alarm-dismiss =
+    .label = Abai
+calendar-alarm-dismiss-all =
+    .label = Abai Semua
+calendar-alarm-snooze-for =
+    .label = Lena untuk
+calendar-alarm-snooze-all-for =
+    .label = Lena Semua untuk
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Batal Lena
