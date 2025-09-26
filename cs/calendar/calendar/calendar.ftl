@@ -972,3 +972,19 @@ calendar-properties-unsubscribe =
     .accesskey = Z
     .buttonlabelextra1 = Zrušit odběr
     .buttonaccesskeyextra1 = Z
+calendar-alarm-dialog-title = Upozornění kalendáře
+calendar-alarm-details =
+    .value = Podrobnosti…
+calendar-alarm-dismiss =
+    .label = Zrušit
+calendar-alarm-dismiss-all =
+    .label = Zrušit vše
+calendar-alarm-snooze-for =
+    .label = Zopakovat upozornění za
+calendar-alarm-snooze-all-for =
+    .label = Zopakovat všechna upozornění za
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Zrušit odložení
