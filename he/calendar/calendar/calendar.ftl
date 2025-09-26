@@ -845,3 +845,19 @@ calendar-properties-unsubscribe =
     .accesskey = ב
     .buttonlabelextra1 = ביטול רישום
     .buttonaccesskeyextra1 = ב
+calendar-alarm-dialog-title = תזכורות לוח שנה
+calendar-alarm-details =
+    .value = פרטים…
+calendar-alarm-dismiss =
+    .label = לשחרר
+calendar-alarm-dismiss-all =
+    .label = לשחרר הכול
+calendar-alarm-snooze-for =
+    .label = תנומה למשך
+calendar-alarm-snooze-all-for =
+    .label = תנומה לכולם למשך
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = בטל השהייה
