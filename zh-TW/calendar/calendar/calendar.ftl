@@ -905,6 +905,17 @@ calendar-properties-unsubscribe =
     .accesskey = U
     .buttonlabelextra1 = 取消訂閱
     .buttonaccesskeyextra1 = U
+calendar-alarm-dialog-title = 行事曆提醒
+calendar-alarm-details =
+    .value = 詳細資訊…
+calendar-alarm-dismiss =
+    .label = 知道了！
+calendar-alarm-dismiss-all =
+    .label = 全部解除
+calendar-alarm-snooze-for =
+    .label = 稍後提醒…
+calendar-alarm-snooze-all-for =
+    .label = 稍後提醒…
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
