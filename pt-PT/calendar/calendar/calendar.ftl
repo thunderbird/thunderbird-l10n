@@ -954,3 +954,19 @@ calendar-properties-unsubscribe =
     .accesskey = u
     .buttonlabelextra1 = Cancelar subscrição
     .buttonaccesskeyextra1 = u
+calendar-alarm-dialog-title = Lembretes do calendário
+calendar-alarm-details =
+    .value = Detalhes…
+calendar-alarm-dismiss =
+    .label = Dispensar
+calendar-alarm-dismiss-all =
+    .label = Dispensar tudo
+calendar-alarm-snooze-for =
+    .label = Silenciar durante
+calendar-alarm-snooze-all-for =
+    .label = Silenciar tudo durante
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Cancelar silenciamento

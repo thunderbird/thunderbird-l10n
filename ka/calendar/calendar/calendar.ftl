@@ -950,3 +950,19 @@ calendar-properties-unsubscribe =
     .accesskey = უ
     .buttonlabelextra1 = გამოწერა გაუქმება
     .buttonaccesskeyextra1 = უ
+calendar-alarm-dialog-title = კალენდრის შეხსენებები
+calendar-alarm-details =
+    .value = დეტალები…
+calendar-alarm-dismiss =
+    .label = გამორთვა
+calendar-alarm-dismiss-all =
+    .label = ყველას გამორთვა
+calendar-alarm-snooze-for =
+    .label = გადადება -
+calendar-alarm-snooze-all-for =
+    .label = ყველას გადადება -
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = გადადების გაუქმება

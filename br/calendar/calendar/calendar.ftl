@@ -797,3 +797,19 @@ calendar-properties-unsubscribe =
     .accesskey = D
     .buttonlabelextra1 = Digoumanantiñ
     .buttonaccesskeyextra1 = D
+calendar-alarm-dialog-title = Kounadurioù deiziataer
+calendar-alarm-details =
+    .value = Munudoù...
+calendar-alarm-dismiss =
+    .label = Argas
+calendar-alarm-dismiss-all =
+    .label = Argas an holl
+calendar-alarm-snooze-for =
+    .label = Lakaat da ad-seniñ a-benn
+calendar-alarm-snooze-all-for =
+    .label = Lakaat da ad-seniñ an holl a-benn
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Nullañ an adc'halv

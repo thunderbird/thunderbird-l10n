@@ -901,3 +901,19 @@ calendar-properties-unsubscribe =
     .accesskey = ล
     .buttonlabelextra1 = เลิกบอกรับ
     .buttonaccesskeyextra1 = ล
+calendar-alarm-dialog-title = การเตือนความจำปฏิทิน
+calendar-alarm-details =
+    .value = รายละเอียด…
+calendar-alarm-dismiss =
+    .label = ยกเลิก
+calendar-alarm-dismiss-all =
+    .label = ยกเลิกทั้งหมด
+calendar-alarm-snooze-for =
+    .label = เลื่อนไป
+calendar-alarm-snooze-all-for =
+    .label = เลือกทั้งหมดไป
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = ยกเลิกการเลื่อน

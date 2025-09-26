@@ -950,3 +950,19 @@ calendar-properties-unsubscribe =
     .accesskey = b
     .buttonlabelextra1 = Aboneliği iptal et
     .buttonaccesskeyextra1 = b
+calendar-alarm-dialog-title = Takvim anımsatıcıları
+calendar-alarm-details =
+    .value = Ayrıntılar…
+calendar-alarm-dismiss =
+    .label = Görmezden gel
+calendar-alarm-dismiss-all =
+    .label = Tümünü görmezden gel
+calendar-alarm-snooze-for =
+    .label = Ertele
+calendar-alarm-snooze-all-for =
+    .label = Tümünü ertele
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Ertelemeyi iptal et

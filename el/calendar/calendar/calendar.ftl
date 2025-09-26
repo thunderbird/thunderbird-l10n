@@ -954,3 +954,19 @@ calendar-properties-unsubscribe =
     .accesskey = φ
     .buttonlabelextra1 = Κατάργηση εγγραφής
     .buttonaccesskeyextra1 = φ
+calendar-alarm-dialog-title = Υπενθυμίσεις ημερολογίου
+calendar-alarm-details =
+    .value = Λεπτομέρειες…
+calendar-alarm-dismiss =
+    .label = Απόρριψη
+calendar-alarm-dismiss-all =
+    .label = Οριστικό σταμάτημα όλων
+calendar-alarm-snooze-for =
+    .label = Αναστολή υπενθύμισης για
+calendar-alarm-snooze-all-for =
+    .label = Αναστολή όλων των υπενθυμίσεων για
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Ακύρωση αναβολής

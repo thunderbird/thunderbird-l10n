@@ -954,3 +954,19 @@ calendar-properties-unsubscribe =
     .accesskey = L
     .buttonlabelextra1 = Leiratkozás
     .buttonaccesskeyextra1 = L
+calendar-alarm-dialog-title = Naptár-emlékeztetők
+calendar-alarm-details =
+    .value = Részletek…
+calendar-alarm-dismiss =
+    .label = Eltüntetés
+calendar-alarm-dismiss-all =
+    .label = Az összes eltüntetése
+calendar-alarm-snooze-for =
+    .label = Szundi
+calendar-alarm-snooze-all-for =
+    .label = Összes késleltetése
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Szundi törlése

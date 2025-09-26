@@ -955,3 +955,19 @@ calendar-properties-unsubscribe =
     .accesskey = S
     .buttonlabelextra1 = Shpajtomë
     .buttonaccesskeyextra1 = S
+calendar-alarm-dialog-title = Alarm Kalendari
+calendar-alarm-details =
+    .value = Hollësi…
+calendar-alarm-dismiss =
+    .label = Hidhe tej
+calendar-alarm-dismiss-all =
+    .label = Hidhi Tej të Tëra
+calendar-alarm-snooze-for =
+    .label = Dremitje për
+calendar-alarm-snooze-all-for =
+    .label = Dremitje e Krejt për
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Anuloje Ripërsëritjen

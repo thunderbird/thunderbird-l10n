@@ -954,3 +954,19 @@ calendar-properties-unsubscribe =
     .accesskey = C
     .buttonlabelextra1 = Cancellar le inscription
     .buttonaccesskeyextra1 = C
+calendar-alarm-dialog-title = Mementos del calendario
+calendar-alarm-details =
+    .value = Detalios…
+calendar-alarm-dismiss =
+    .label = Dimitter
+calendar-alarm-dismiss-all =
+    .label = Dimitter toto
+calendar-alarm-snooze-for =
+    .label = Siesta pro
+calendar-alarm-snooze-all-for =
+    .label = Suspender toto pro
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Eliminar siesta

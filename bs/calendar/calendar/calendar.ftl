@@ -838,3 +838,19 @@ calendar-properties-unsubscribe =
     .accesskey = U
     .buttonlabelextra1 = Ukini pretplatu
     .buttonaccesskeyextra1 = U
+calendar-alarm-dialog-title = Kalendarski podsjetnici
+calendar-alarm-details =
+    .value = Detalji…
+calendar-alarm-dismiss =
+    .label = Odbaci
+calendar-alarm-dismiss-all =
+    .label = Odbaci sve
+calendar-alarm-snooze-for =
+    .label = Odgodi za
+calendar-alarm-snooze-all-for =
+    .label = Odgodi sve za
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Otkaži odgodu

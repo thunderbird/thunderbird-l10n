@@ -902,3 +902,19 @@ calendar-properties-unsubscribe =
     .accesskey = D
     .buttonlabelextra1 = Dừng theo dõi
     .buttonaccesskeyextra1 = D
+calendar-alarm-dialog-title = Nhắc nhở lịch
+calendar-alarm-details =
+    .value = Chi tiết…
+calendar-alarm-dismiss =
+    .label = Bỏ qua
+calendar-alarm-dismiss-all =
+    .label = Bỏ qua tất cả
+calendar-alarm-snooze-for =
+    .label = Tạm im lặng trong
+calendar-alarm-snooze-all-for =
+    .label = Tạm im lặng tất cả trong
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Hủy báo lại

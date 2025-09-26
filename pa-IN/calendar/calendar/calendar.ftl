@@ -705,3 +705,19 @@ calendar-properties-unsubscribe =
     .accesskey = U
     .buttonlabelextra1 = ਮੈਂਬਰੀ ਹਟਾਓ
     .buttonaccesskeyextra1 = U
+calendar-alarm-dialog-title = ਕੈਲੰਡਰ ਰਿਮਾਈਂਡਰ
+calendar-alarm-details =
+    .value = ਵੇਰਵੇ…
+calendar-alarm-dismiss =
+    .label = ਖਾਰਜ
+calendar-alarm-dismiss-all =
+    .label = ਸਭ ਖਾਰਜ
+calendar-alarm-snooze-for =
+    .label = ਇਸ ਤੱਕ ਟਾਲੋ
+calendar-alarm-snooze-all-for =
+    .label = ਇਸ ਤੱਕ ਸਭ ਨੂੰ ਟਾਲੋ
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = ਟਾਲਣਾ ਰੱਦ ਕਰੋ

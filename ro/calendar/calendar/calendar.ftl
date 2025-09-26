@@ -968,3 +968,19 @@ calendar-properties-unsubscribe =
     .accesskey = D
     .buttonlabelextra1 = Dezabonare
     .buttonaccesskeyextra1 = D
+calendar-alarm-dialog-title = Mementouri pentru calendar
+calendar-alarm-details =
+    .value = Detalii…
+calendar-alarm-dismiss =
+    .label = Respinge
+calendar-alarm-dismiss-all =
+    .label = Respinge tot
+calendar-alarm-snooze-for =
+    .label = Amână cu
+calendar-alarm-snooze-all-for =
+    .label = Amână toate cu
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Anulează amânarea

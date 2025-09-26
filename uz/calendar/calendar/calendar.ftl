@@ -761,3 +761,19 @@ calendar-properties-unsubscribe =
     .accesskey = u
     .buttonlabelextra1 = Obunani bekor qilish
     .buttonaccesskeyextra1 = u
+calendar-alarm-dialog-title = Taqvim eslatkichlari
+calendar-alarm-details =
+    .value = Tafsilotlari…
+calendar-alarm-dismiss =
+    .label = Rad qilish
+calendar-alarm-dismiss-all =
+    .label = Barchasini rad qilish
+calendar-alarm-snooze-for =
+    .label = Ortga surish:
+calendar-alarm-snooze-all-for =
+    .label = Barchasini ortga surish:
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Ortga surishni bekor qilish

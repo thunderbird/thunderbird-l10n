@@ -899,3 +899,19 @@ calendar-properties-unsubscribe =
     .accesskey = A
     .buttonlabelextra1 = Atsisakyti prenumeratos
     .buttonaccesskeyextra1 = A
+calendar-alarm-dialog-title = Kalendoriaus priminimas
+calendar-alarm-details =
+    .value = Išsamiau…
+calendar-alarm-dismiss =
+    .label = Nebepriminti
+calendar-alarm-dismiss-all =
+    .label = Nebepriminti nieko
+calendar-alarm-snooze-for =
+    .label = Atidėti
+calendar-alarm-snooze-all-for =
+    .label = Atidėti visus
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Atsisakyti atidėjimo

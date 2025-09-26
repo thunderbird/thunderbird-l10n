@@ -298,3 +298,19 @@ calendar-properties-unsubscribe =
     .accesskey = Ա
     .buttonlabelextra1 = Ապաբաժանորդագրուել
     .buttonaccesskeyextra1 = Ա
+calendar-alarm-dialog-title = Աւրացոյցի յիշեցումներ
+calendar-alarm-details =
+    .value = Մանրամասներ…
+calendar-alarm-dismiss =
+    .label = Բաց թողնել
+calendar-alarm-dismiss-all =
+    .label = Բաց թողնել բոլորը
+calendar-alarm-snooze-for =
+    .label = Ննջեցնել
+calendar-alarm-snooze-all-for =
+    .label = Ննջեցնել բոլորը
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Չեղարկել ննջեցումը

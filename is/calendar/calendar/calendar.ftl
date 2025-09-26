@@ -954,3 +954,19 @@ calendar-properties-unsubscribe =
     .accesskey = A
     .buttonlabelextra1 = Afpanta áskrift
     .buttonaccesskeyextra1 = A
+calendar-alarm-dialog-title = Dagatals áminning
+calendar-alarm-details =
+    .value = Upplýsingar…
+calendar-alarm-dismiss =
+    .label = Afgreiða
+calendar-alarm-dismiss-all =
+    .label = Afgreiða allt
+calendar-alarm-snooze-for =
+    .label = Blunda í
+calendar-alarm-snooze-all-for =
+    .label = Blunda allt í
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Hætta við blund
