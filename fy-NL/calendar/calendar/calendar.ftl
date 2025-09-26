@@ -958,6 +958,17 @@ calendar-properties-unsubscribe =
     .accesskey = U
     .buttonlabelextra1 = Utskriuwe
     .buttonaccesskeyextra1 = U
+calendar-alarm-dialog-title = Aginda-alarm
+calendar-alarm-details =
+    .value = Details…
+calendar-alarm-dismiss =
+    .label = Utskeakelje
+calendar-alarm-dismiss-all =
+    .label = Alle útskeakelje
+calendar-alarm-snooze-for =
+    .label = Slommerje foar
+calendar-alarm-snooze-all-for =
+    .label = Alle slommerje foar
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
