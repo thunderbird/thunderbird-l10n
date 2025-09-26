@@ -955,3 +955,19 @@ calendar-properties-unsubscribe =
     .accesskey = F
     .buttonlabelextra1 = Ffeɣ seg ujerred
     .buttonaccesskeyextra1 = F
+calendar-alarm-dialog-title = Ismektiyen n uwitay
+calendar-alarm-details =
+    .value = Talqayt…
+calendar-alarm-dismiss =
+    .label = Agwi
+calendar-alarm-dismiss-all =
+    .label = Agwi akk
+calendar-alarm-snooze-for =
+    .label = Sgen i tenzagt n
+calendar-alarm-snooze-all-for =
+    .label = Sgen akk i tenzagt
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Sefsex asgen
