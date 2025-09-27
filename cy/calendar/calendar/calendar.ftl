@@ -1008,8 +1008,8 @@ calendar-alarm-snooze-preset-minutes =
     .label =
         { $count ->
             [one] { $count } Munud
-            [zero] { $count } Munud
-            [two] { $count } Munud
+            [zero] { $count } Munudau
+            [two] { $count } Funud
             [few] { $count } Munud
             [many] { $count } Munud
            *[other] { $count } Munud
@@ -1020,11 +1020,11 @@ calendar-alarm-snooze-preset-hours =
     .label =
         { $count ->
             [one] { $count } Awr
-            [zero] { $count } awr
-            [two] { $count } awr
-            [few] { $count } awr
-            [many] { $count } awr
-           *[other] { $count } awr
+            [zero] { $count } Oriau
+            [two] { $count } Awr
+            [few] { $count } Awr
+            [many] { $count } Awr
+           *[other] { $count } Awr
         }
 # Variables:
 # $count (Number) - The number of days to snooze.
@@ -1032,7 +1032,7 @@ calendar-alarm-snooze-preset-days =
     .label =
         { $count ->
             [one] { $count } Diwrnod
-            [zero] { $count } Diwrnod
+            [zero] { $count } Dyddiau
             [two] { $count } Diwrnod
             [few] { $count } Diwrnod
             [many] { $count } Diwrnod

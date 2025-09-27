@@ -137,7 +137,7 @@ openpgp-save-external-button = Cadw ID yr allwedd
 openpgp-external-key-label = ID Allwedd Gyfrinachol:
 openpgp-import-own-key-title = Mewnforio eich allwedd gyhoeddus
 #   $keyId (String) - The Key ID.
-openpgp-import-own-key-description = Ni allai { -brand-short-name } ddod o hyd i'r allwedd gyhoeddus gyda'r ID { $keyId }. Mewnforiwch ef i barhau.
+openpgp-import-own-key-description = Doedd { -brand-short-name } ddim yn gallu dod o hyd i'r allwedd gyhoeddus gyda'r ID { $keyId }. Mewnforiwch ef i barhau.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = Methu mewnforio allwedd gyhoeddus { $keyId } o'r ffeil honno.
 openpgp-external-key-input =
