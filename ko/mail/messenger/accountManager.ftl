@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = 취소
 account-manager-server-default-icon =
     .title = 기본 계정
     .alt = 별표 아이콘
+outgoing-server-section-name = 보내는 서버
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = 보내는 서버 설정
+outgoing-server-settings-description = ID를 관리할 때 이 목록에서 보내는 서버를 선택하여 사용할 수도 있고, "기본 서버 사용"을 선택하여 이 목록에서 기본 서버를 사용할 수도 있습니다.
+outgoing-server-type = 서버 유형:

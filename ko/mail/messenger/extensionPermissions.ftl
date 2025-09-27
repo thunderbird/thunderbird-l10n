@@ -16,6 +16,7 @@ webext-perms-description-addressBooks = 주소록과 연락처 읽고 수정
 webext-perms-description-compose = 작성하고 보낼 때 이메일 메시지를 읽고 수정
 webext-perms-description-compose-send = 사용자를 대신하여 작성한 이메일 메시지 보내기
 webext-perms-description-compose-save = 작성한 이메일 메시지를 초안이나 템플릿으로 저장
+webext-perms-description-experiment-access = 이 추가 기능을 사용하면 { -brand-short-name } 및 컴퓨터에 대한 완전하고 제한 없는 접근 권한이 부여됩니다.
 webext-perms-description-experiment = { -brand-short-name } 및 컴퓨터에 대한 무제한의 전체 접근 권한
 webext-perms-description-messagesImport = Thunderbird로 메시지 가져오기
 webext-perms-description-messagesModify = 표시되는 이메일 메시지를 읽고 수정하기

@@ -16,3 +16,6 @@ downloading-articles-for-offline = { $newsgroup }에 대하여 { $count }개의 
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-articles-to-download = { $newsgroup }에 대하여 다운로드할 기사가 없습니다.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = { $newsgroup } 뉴스그룹은 서버에 존재하지 않습니다.
