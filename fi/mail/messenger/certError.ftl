@@ -16,6 +16,24 @@ cert-error-not-yet-valid = Palvelimen { $hostname } varmenne on voimassa vasta {
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Palvelimen { $hostname } varmenne ei ole peräisin luotettavasta lähteestä.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-domain-mismatch =
+    .title = Yhteysvirhe. Palvelimen { $hostname } varmenne ei ole kelvollinen kyseiselle palvelimelle. Joku saattaa yrittää tekeytyä palvelimeksi, joten sinun ei pitäisi jatkaa. Avaa palvelimen suojausasetukset napsauttamalla tätä.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-after (string) - Certificate is not valid after this time.
+cert-error-inline-expired =
+    .title = Yhteysvirhe. Palvelimen { $hostname } varmenne vanheni { $not-after }. Avaa palvelimen suojausasetukset napsauttamalla tätä.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-before (string) - Certificate is not valid before this time.
+cert-error-inline-not-yet-valid =
+    .title = Yhteysvirhe. Palvelimen { $hostname } varmenne ei ole voimassa ennen { $not-before }. Avaa palvelimen suojausasetukset napsauttamalla tätä.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-untrusted-default =
+    .title = Yhteysvirhe. Varmenne palvelimelle { $hostname } ei ole peräisin luotettavasta lähteestä. Avaa palvelimen suojausasetukset napsauttamalla tätä.
 certificate-check-fetch-button = Nouda varmenne
 certificate-check-view-button = Näytä varmenne
 certificate-check-add-exception-button = Lisää poikkeus
@@ -31,3 +49,6 @@ certificate-check-success = Palvelimen { $hostname } varmenne vaikuttaa olevan k
 certificate-check-failure = Palvelimen { $hostname } varmenteen nouto epäonnistui.
 certificate-check-exception-added = Varmennepoikkeus lisätty.
 certificate-check-exception-removed = Varmennepoikkeus poistettu.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Poikkeus palvelimen { $hostname } varmenteelle on olemassa.

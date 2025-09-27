@@ -980,16 +980,16 @@ calendar-alarm-snooze-preset-minutes =
 calendar-alarm-snooze-preset-hours =
     .label =
         { $count ->
-            [one] { $count } heure
-           *[other] { $count } heures
+            [one] { $count } heure
+           *[other] { $count } heures
         }
 # Variables:
 # $count (Number) - The number of days to snooze.
 calendar-alarm-snooze-preset-days =
     .label =
         { $count ->
-            [one] { $count } jour
-           *[other] { $count } jours
+            [one] { $count } jour
+           *[other] { $count } jours
         }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
