@@ -16,3 +16,18 @@ cert-error-not-yet-valid = Palvelimen { $hostname } varmenne on voimassa vasta {
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Palvelimen { $hostname } varmenne ei ole peräisin luotettavasta lähteestä.
+certificate-check-fetch-button = Nouda varmenne
+certificate-check-view-button = Näytä varmenne
+certificate-check-add-exception-button = Lisää poikkeus
+certificate-check-remove-exception-button = Poista poikkeus
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = Noudetaan palvelimen { $hostname } varmennetta.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Palvelimen { $hostname } varmenne vaikuttaa olevan kelvollinen.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = Palvelimen { $hostname } varmenteen nouto epäonnistui.
+certificate-check-exception-added = Varmennepoikkeus lisätty.
+certificate-check-exception-removed = Varmennepoikkeus poistettu.
