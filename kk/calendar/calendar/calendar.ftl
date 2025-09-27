@@ -968,6 +968,30 @@ calendar-alarm-snooze-for =
     .label = Келесі уақытқа кейінге қалдыру
 calendar-alarm-snooze-all-for =
     .label = Барлығын келесі уақытқа кейінге қалдыру
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } минут
+           *[other] { $count } минут
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] { $count } сағат
+           *[other] { $count } сағат
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] { $count } күн
+           *[other] { $count } күн
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
