@@ -336,6 +336,9 @@ openpgp-description-has-keys = { -brand-short-name }가 <b>{ $identity }</b>와 
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = 키 ID <b>{ $key }</b> 현재 구성 사용
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = 현재 구성은 { $when }에 만료될 <b>{ $key }</b> 키를 사용합니다. 키를 유효하게 유지하려면 지금 키 만료일을 연장해주세요.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = 현재 구성은 만료 된 <b>{ $key }</b> 키를 사용합니다.
 openpgp-add-key-button =
     .label = 키 추가…
