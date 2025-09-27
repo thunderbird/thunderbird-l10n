@@ -970,7 +970,7 @@ calendar-alarm-snooze-all-for =
 calendar-alarm-snooze-preset-minutes =
     .label =
         { $count ->
-            [one] { $count } Minuto
+            [one] { $count } minuto
            *[other] { $count } minuti
         }
 # Variables:
@@ -986,7 +986,7 @@ calendar-alarm-snooze-preset-hours =
 calendar-alarm-snooze-preset-days =
     .label =
         { $count ->
-            [one] { $count } giorni
+            [one] { $count } giorno
            *[other] { $count } giorni
         }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
