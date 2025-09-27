@@ -118,6 +118,7 @@ address-book-carddav-known-incompatible = { $url } được biết là không t�
 address-book-carddav-connection-error = Không thể kết nối.
 address-book-ldap-duplicate-error = Tên thư mục LDAP đã tồn tại. Vui lòng nhập tên thư mục khác.
 address-book-ldap-creation-error = Không thể tạo Thư mục LDAP.
+account-hub-email-setup-ews = Cài đặt máy chủ
 account-hub-result-username-label = Tên đăng nhập
     .title = Tên đăng nhập
 account-hub-name-label = Tên đầy đủ
