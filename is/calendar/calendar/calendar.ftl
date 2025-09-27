@@ -965,6 +965,30 @@ calendar-alarm-snooze-for =
     .label = Blunda í
 calendar-alarm-snooze-all-for =
     .label = Blunda allt í
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } mínúta
+           *[other] { $count } mínútur
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] { $count } klukkustund
+           *[other] { $count } klukkustundir
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] { $count } dagur
+           *[other] { $count } dagar
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
