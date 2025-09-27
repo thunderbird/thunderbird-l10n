@@ -197,3 +197,15 @@ account-hub-fetching-sync-accounts = 주소록과 캘린더를 찾는 중...
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
 account-hub-address-book-sync-option-data = { $accounts } 계정에서 { $addressBooks } 주소록 사용 가능
+address-book-sync-existing-description = 기존 계정을 검색하는 중…
+account-hub-select-address-book-account = 주소록이 있는 계정을 선택하세요
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $total }개 중 { $synced }개
+    .title = { $synced } 동기화된 주소록, { $available }개 사용 가능
+account-hub-add-local-address-book = 로컬 주소록 만들기
+account-hub-local-address-book-label = 주소록 이름
+account-hub-local-error-text = 주소록 이름을 입력하세요
+account-hub-sync-address-books = 기존 주소록 동기화
+account-hub-new-remote-address-book = 새 원격 주소록
