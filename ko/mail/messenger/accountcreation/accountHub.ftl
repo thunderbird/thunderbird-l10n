@@ -91,6 +91,7 @@ account-hub-address-book-username-error-text = 사용자 이름을 입력하세�
 account-hub-server-label = URL/호스트 이름
 account-hub-server-tip = Thunderbird는 자동으로 호스트 이름 감지를 시도합니다.
 account-hub-server-warning-icon = 잘못된 URL
+account-hub-server-error-text = 올바른 URL을 입력하세요
 account-hub-result-username-label = 사용자 이름
     .title = 사용자 이름
 account-hub-name-label = 이름
