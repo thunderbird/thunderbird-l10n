@@ -979,6 +979,15 @@ calendar-alarm-snooze-for =
     .label = Отложить на
 calendar-alarm-snooze-all-for =
     .label = Отложить все на
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } минута
+            [few] { $count } минуты
+           *[many] { $count } минут
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
