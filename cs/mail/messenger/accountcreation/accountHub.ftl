@@ -118,6 +118,7 @@ address-book-carddav-known-incompatible = Adresa { $url } je známa jako nekompa
 address-book-carddav-connection-error = Chyba spojení.
 address-book-ldap-duplicate-error = Název adresáře LDAP již existuje. Zadejte prosím jiný název adresáře.
 address-book-ldap-creation-error = Nelze vytvořit LDAP adresář.
+account-hub-email-setup-ews = Nastavení serveru
 account-hub-result-username-label = Uživatelské jméno
     .title = Uživatelské jméno
 account-hub-name-label = Celé jméno
