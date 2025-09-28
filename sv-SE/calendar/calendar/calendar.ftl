@@ -965,6 +965,30 @@ calendar-alarm-snooze-for =
     .label = Vila i
 calendar-alarm-snooze-all-for =
     .label = Vila alla i
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } minut
+           *[other] { $count } minuter
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] { $count } timme
+           *[other] { $count } timmar
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] { $count } dag
+           *[other] { $count } dagar
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
