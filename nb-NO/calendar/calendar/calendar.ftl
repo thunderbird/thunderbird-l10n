@@ -965,6 +965,14 @@ calendar-alarm-snooze-for =
     .label = Utsett i
 calendar-alarm-snooze-all-for =
     .label = Utsett alle i
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } minutt
+           *[other] { $count } minutter
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
