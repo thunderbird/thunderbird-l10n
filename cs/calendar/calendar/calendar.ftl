@@ -983,6 +983,36 @@ calendar-alarm-snooze-for =
     .label = Zopakovat upozornění za
 calendar-alarm-snooze-all-for =
     .label = Zopakovat všechna upozornění za
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } minuta
+            [few] { $count } minuty
+            [many] { $count } minut
+           *[other] { $count } minut
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] { $count } hodina
+            [few] { $count } hodiny
+            [many] { $count } hodin
+           *[other] { $count } hodin
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] { $count } den
+            [few] { $count } dny
+            [many] { $count } dní
+           *[other] { $count } dní
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
