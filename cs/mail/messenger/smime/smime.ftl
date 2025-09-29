@@ -7,3 +7,8 @@ smime-test-cert-button =
 configured-cert-not-found = Certifikát nebyl nalezen.
 configured-cert-ok-enc = Certifikát prošel testem a může být použit k šifrování e-mailů.
 configured-cert-ok-sig = Certifikát prošel testem a může být použit pro podepisování e-mailů.
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+configured-cert-failure-detail = Ověření certifikátu selhalo s následující chybou: { $errorMsg } (kód chyby: { $errorCodeStr })
+# $errorCode A numeric error code
+configured-cert-failure = Ověření certifikátu selhalo s kódem chyby { $errorCode }
