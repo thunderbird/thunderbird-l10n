@@ -131,5 +131,10 @@ openpgp-external-key-info = Továbbá a Kulcskezelő használatával kell import
 openpgp-external-key-warning = <b>Csak egy külső GnuPG-kulcsot konfigurálhat.</b> Az előző bejegyzés felül lesz írva.
 openpgp-save-external-button = Kulcsazonosító mentése
 openpgp-external-key-label = Titkos kulcsazonosító:
+openpgp-import-own-key-title = Importálja a nyilvános kulcsát
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = A { -brand-short-name } nem találta a(z) { $keyId } azonosítójú nyilvános kulcsot. Importálja a folytatáshoz.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = Nem sikerült importálni a fájlból a(z) { $keyId } nyilvános kulcsot.
 openpgp-external-key-input =
     .placeholder = 123456789341298340
