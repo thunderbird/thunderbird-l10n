@@ -131,5 +131,10 @@ openpgp-external-key-info = გარდა ამისა, უნდა გა
 openpgp-external-key-warning = <b>შეგიძლიათ გამართოთ მხოლოდ ერთი GnuPG-გასაღები.</b> თქვენი წინა შენატანი ჩანაცვლდება.
 openpgp-save-external-button = გასაღების ID-ს შენახვა
 openpgp-external-key-label = საიდუმლო გასაღების ID:
+openpgp-import-own-key-title = საჯარო გასაღების გადმოტანა
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name } ვერ პოულობს საჯარო გასაღებს ID-ით { $keyId }. გასაგრძელებლად გთხოვთ გადმოიტანოთ.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = საჯარო გასაღები { $keyId } ვერ გადმოდის ამ ფაილიდან.
 openpgp-external-key-input =
     .placeholder = 123456789341298340
