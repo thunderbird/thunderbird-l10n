@@ -34,7 +34,7 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = დაკავშირების შეცდომა. სერტიფიკატი მისამართისთვის { $hostname } არაა მოწოდებული სანდო წყაროდან. დაწკაპეთ სერვერის უსაფრთხოების პარამეტრების გასახსნელად.
-certificate-check-fetch-button = სერთიფიკატის მოპოვება
+certificate-check-fetch-button = სერტიფიკატის მოპოვება
 certificate-check-view-button = სერტიფიკატის ნახვა
 certificate-check-add-exception-button = გამონაკლისის დამატება
 certificate-check-remove-exception-button = გამონაკლისის წაშლა
