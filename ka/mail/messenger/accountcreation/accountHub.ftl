@@ -121,6 +121,7 @@ address-book-ldap-creation-error = ვერ შეიქმნა LDAP-სა�
 account-hub-email-setup-ews = სერვერის პარამეტრები
 account-hub-result-host-url-label = EWS-წერტილის URL-ბმული
 account-hub-email-credentials-confirmation = ანგარიშის გამართულობა
+account-hub-result-unknown-hostname = კვანძის უცნობი სახელი
 account-hub-result-unknown-cert = დაუმოწმებელი სერტიფიკატი
 account-hub-result-username-label = მეტსახელი
     .title = მეტსახელი
