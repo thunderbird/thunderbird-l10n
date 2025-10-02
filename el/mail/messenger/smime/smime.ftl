@@ -5,3 +5,7 @@
 smime-test-cert-button =
     .label = Δοκιμή
 configured-cert-not-found = Δεν ήταν δυνατή η εύρεση του πιστοποιητικού.
+configured-cert-ok-enc = Το πιστοποιητικό πέρασε τη δοκιμή και μπορεί να χρησιμοποιηθεί για την κρυπτογράφηση των email.
+configured-cert-ok-sig = Το πιστοποιητικό πέρασε τη δοκιμή και μπορεί να χρησιμοποιηθεί για την υπογραφή των email.
+# $errorCode A numeric error code
+configured-cert-failure = Η επαλήθευση του πιστοποιητικού απέτυχε με κωδικό σφάλματος { $errorCode }
