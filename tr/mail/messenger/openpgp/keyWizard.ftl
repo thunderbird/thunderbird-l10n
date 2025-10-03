@@ -131,6 +131,7 @@ openpgp-external-key-info = Buna ek olarak, Anahtar Yöneticisi üzerinden ilgil
 openpgp-external-key-warning = <b>Yalnızca bir harici GnuPG anahtarı yapılandırabilirsiniz.</b> Önceki kaydınızın üzerine yazılacaktır.
 openpgp-save-external-button = Anahtar kimliğini kaydet
 openpgp-external-key-label = Gizli anahtar kimliği:
+openpgp-import-own-key-title = Ortak anahtarınızı içe aktarın
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = { $keyId } ortak anahtarı bu dosyadan içe aktarılamadı.
 openpgp-external-key-input =
