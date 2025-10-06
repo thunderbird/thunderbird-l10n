@@ -91,6 +91,38 @@ account-hub-address-book-username-error-text = Endatescha per plaschair in num d
 account-hub-server-label = URL / num dal host
 account-hub-server-tip = Thunderbird vegn ad empruvar d’eruir automaticamain tes num da host
 account-hub-server-warning-icon = URL nunvalid
+account-hub-server-error-text = Endatescha per plaschair in URL valid
+account-hub-address-book-enter-password = Endatescha il pled-clav da tes conto CardDav
+account-hub-address-book-name-label = Num
+account-hub-address-book-name-error-text = Endatescha per plaschair in num
+account-hub-address-book-base-dn = Base DN
+account-hub-address-book-bind-dn = Bind DN
+account-hub-ldap-form = Connectar cun in register LDAP
+account-hub-advanced-configuration-button = Configuraziun avanzada
+account-hub-ldap-ssl-toggle-label = Utilisar ina connexiun segirada (SSL)
+account-hub-max-results-label = Maximum da resultats
+account-hub-max-results-error-text = Endatescha p.pl. in dumber pli grond che 0
+account-hub-address-book-scope-label = Scope
+account-hub-address-book-scope-level-one-label =
+    .label = In nivel
+account-hub-address-book-scope-subtree-label =
+    .label = Sutnivels
+account-hub-address-book-login-method-label = Metoda d’autentificaziun
+account-hub-address-book-login-simple-label =
+    .label = Simpel
+account-hub-address-book-search-label = Filter da tschertga
+account-hub-simple-configuration-button = Configuraziun simpla
+address-book-finding-remote-address-books = Tschertgar cudeschets d’adressas…
+# $url (String) - URL of CardDAV endpoint we don't support.
+address-book-carddav-known-incompatible = Igl è enconuschent che { $url } n’è betg cumpatibel cun { -brand-short-name }.
+address-book-carddav-connection-error = Connexiun betg reussida.
+address-book-ldap-duplicate-error = Il num dal register LDAP exista gia. Endatescha per plaschair in auter num.
+address-book-ldap-creation-error = Impussibel da crear in register LDAP.
+account-hub-email-setup-ews = Parameters dal server
+account-hub-result-host-url-label = URL dal punct final EWS
+account-hub-email-credentials-confirmation = Configuraziun dal conto
+account-hub-result-unknown-hostname = Num da host nunenconuschent
+account-hub-result-unknown-cert = Certificat betg verifitgà
 account-hub-result-username-label = Num d’utilisader
     .title = Num d’utilisader
 account-hub-name-label = Num cumplet
@@ -154,6 +186,38 @@ account-hub-addon-install-needed = { -brand-short-name } na sustegna betg a moda
 account-hub-addon-error = L’installaziun dal supplement n’è betg reussida. Emprova per plaschair anc ina giada u contactescha l’autur dal supplement per survegnir agid.
 account-hub-security-warning = <span data-l10n-name="security-warning">Attenziun: Chattà in server dad e-mail malsegir.</span> Quest server na dispona betg d’in criptadi e revelescha perquai tes pled-clav e tias datas. Contactescha tes administratur per segirar la connexiun u cuntinuescha sin atgna ristga. <a data-l10n-name="faq-link">Vesair las FAQ per ulteriuras infurmaziuns.</a>
 account-hub-account-authentication-error = Errur d’autentificaziun.
+account-hub-add-address-book = Agiuntar in cudeschet d’adressas
+address-book-sync-existing-icon =
+    .alt = Sincronisar in cudeschet d’adressas dad in conto existent
+address-book-sync-existing = Sincronisar dad in conto existent
+address-book-add-remote-icon =
+    .alt = Agiuntar in nov cudeschet d’adressas lontan
+address-book-add-remote = Agiuntar in cudeschet d’adressas lontan
+address-book-add-remote-description = Connectar cun in cudeschet d’adressas CardDav lontan
+address-book-add-local-icon =
+    .alt = Crear in nov cudeschet d’adressas local
+address-book-add-local = Nov cudeschet d’adressas local
+address-book-add-local-description = Crear in nov cudeschet d’adressas local sin tes apparat
+address-book-add-ldap-icon =
+    .alt = Connectar cun in cudeschet d’adressas LDAP lontan
+address-book-add-ldap = Nov cudeschet d’adressas LDAP
+address-book-add-ldap-description = Connectar cun in cudeschet d’adressas LDAP lontan
+account-hub-fetching-sync-accounts = Scuvrir cudeschets d’adressas e chalenders…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] 1 cudeschet d’adressas disponibel da 1 conto
+               *[other] 1 cudeschet d’adressas disponibel da { $accounts } contos
+            }
+       *[other]
+            { $accounts ->
+                [one] { $addressBooks } cudeschets d’adressas disponibels dad 1 conto
+               *[other] { $addressBooks } cudeschets d’adressas disponibels da { $accounts } contos
+            }
+    }
 address-book-sync-existing-description = Recuperar ils contos existents…
 account-hub-select-address-book-account = Tscherna in conto cun cudeschets d’adressas
 # $synced (Number) - The number of address books that are synced.
