@@ -34,5 +34,6 @@
 <!ENTITY network.loading.description "Spetga per plaschair durant che tes chalenders vegnan scuvrids.">
 <!ENTITY network.notfound.description "Impussibel da chattar chalenders en quest lieu. Controllescha per plaschair la configuraziun.">
 <!ENTITY network.authfail.description "Las infurmaziuns d'annunzia che ti has endatà n'èn betg vegnidas acceptadas. Controllescha p.pl. la configuraziun.">
+<!ENTITY network.certerror.description "I n’è betg reussì da chattar chalenders en quest lieu causa in problem da certificats.">
 <!ENTITY network.subscribe.single.description "Tscherna per plaschair ils chalenders che ti vuls abunar.">
 <!ENTITY network.subscribe.multiple.description "Plirs tips da chalender èn disponibels en quest lieu. Tscherna per plaschair il tip da chalender e lura ils chalenders che ti vuls abunar.">

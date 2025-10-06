@@ -499,3 +499,8 @@ folder-pane-context-mark-folder-read =
            *[other] Marcar ils ordinaturs sco legids
         }
     .accesskey = l
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = Reinizialisar l’urden dals ordinaturs
+    .accesskey = R

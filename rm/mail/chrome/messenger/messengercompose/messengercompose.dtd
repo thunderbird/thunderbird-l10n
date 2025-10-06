@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Innocent">
 <!ENTITY smiley15Cmd.label "Bragir">
 <!ENTITY smiley16Cmd.label "Lefs serrads">
+<!ENTITY smiley17Cmd.label "Vilà">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Chattà naginas propostas">
 <!ENTITY spellCheckIgnoreWord.label "Ignorar quest pled">

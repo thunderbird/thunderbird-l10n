@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Cudeschets d'adressas
 items-pane-checkbox-calendars = Chalenders
 items-pane-checkbox-mail-messages = Messadis dad e-mail
 items-pane-override = Eventualas datas existentas u identicas na vegnan betg recuvertas.
+items-pane-nothing-to-import = Impussibel d’importar insatge da la funtauna inditgada.
 
 ## Import from address book file steps
 

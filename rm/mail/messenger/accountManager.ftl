@@ -28,3 +28,8 @@ edit-vcard-dialog-cancel-button = Interrumper
 account-manager-server-default-icon =
     .title = Conto da standard
     .alt = Icona da staila
+outgoing-server-section-name = Server da sortida
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Parameters dal server da sortida
+outgoing-server-settings-description = Cura che ti administreschas tias identitads pos ti utilisar in server da questa glista cun al tscherner sco server per posta che sorta u che ti pos utilisar il server da standard da questa glista cun tscherner «Utilisar il server predefinì».
+outgoing-server-type = Tip da server:

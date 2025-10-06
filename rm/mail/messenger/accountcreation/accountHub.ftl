@@ -86,6 +86,11 @@ account-hub-auth-no-authentication-option =
     .label = Nagina autentificaziun
 account-hub-auth-label = Metoda d'autentificaziun
 account-hub-username-label = Num d'utilisader
+account-hub-username-warning-icon = Il num d’utilisader è obligatoric
+account-hub-address-book-username-error-text = Endatescha per plaschair in num d’utilisader
+account-hub-server-label = URL / num dal host
+account-hub-server-tip = Thunderbird vegn ad empruvar d’eruir automaticamain tes num da host
+account-hub-server-warning-icon = URL nunvalid
 account-hub-result-username-label = Num d’utilisader
     .title = Num d’utilisader
 account-hub-name-label = Num cumplet
@@ -149,3 +154,15 @@ account-hub-addon-install-needed = { -brand-short-name } na sustegna betg a moda
 account-hub-addon-error = L’installaziun dal supplement n’è betg reussida. Emprova per plaschair anc ina giada u contactescha l’autur dal supplement per survegnir agid.
 account-hub-security-warning = <span data-l10n-name="security-warning">Attenziun: Chattà in server dad e-mail malsegir.</span> Quest server na dispona betg d’in criptadi e revelescha perquai tes pled-clav e tias datas. Contactescha tes administratur per segirar la connexiun u cuntinuescha sin atgna ristga. <a data-l10n-name="faq-link">Vesair las FAQ per ulteriuras infurmaziuns.</a>
 account-hub-account-authentication-error = Errur d’autentificaziun.
+address-book-sync-existing-description = Recuperar ils contos existents…
+account-hub-select-address-book-account = Tscherna in conto cun cudeschets d’adressas
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } da { $total }
+    .title = { $synced } cudeschets d’adressas sincronisads, { $available } disponibels
+account-hub-add-local-address-book = Crear in cudeschet d’adressas local
+account-hub-local-address-book-label = Num dal cudeschet d’adressas
+account-hub-local-error-text = Endatescha per plaschair il num dal cudeschet d’adressas
+account-hub-sync-address-books = Sincronisar cudeschets d’adressas existents
+account-hub-new-remote-address-book = Nov cudeschet d’adressas lontan
