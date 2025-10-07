@@ -971,6 +971,9 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Sefsex asgen
+calendar-calendar =
+    .label = Awitay
+    .accesskey = w
 calendar-newevent-button =
     .label = Rnu tadyant
     .tooltiptext = Rnu tadyant tamaynut
