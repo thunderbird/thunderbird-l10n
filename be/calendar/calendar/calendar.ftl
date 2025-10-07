@@ -584,3 +584,7 @@ calendar-alarm-snooze-for =
     .label = Адкласці на
 calendar-alarm-snooze-all-for =
     .label = Адкласці ўсе на
+calendar-error-description =
+    .value = Апісанне:
+calendar-error-title =
+    .title = Узнікла памылка
