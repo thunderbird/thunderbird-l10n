@@ -915,3 +915,9 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = 대기 취소
+calendar-extract-event-button =
+    .label = 이벤트 추가
+    .tooltiptext = 메시지에서 날짜 정보를 추출하여 캘린더에 이벤트로 추가
+calendar-extract-task-button =
+    .label = 태스크 추가
+    .tooltiptext = 메시지에서 날짜 정보를 추출하여 캘린더에 태스크로 추가
