@@ -1028,6 +1028,9 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Wospjetowane dopominanje přetorhnyć
+calendar-calendar =
+    .label = Protyka
+    .accesskey = P
 calendar-newevent-button =
     .label = Nowy podawk
     .tooltiptext = Nowy podawk wutworić
