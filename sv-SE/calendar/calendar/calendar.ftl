@@ -994,3 +994,9 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Avbryt vila
+calendar-extract-event-button =
+    .label = Lägg till som händelse
+    .tooltiptext = Plocka ut kalenderinformation från meddelandet och lägg till det i din kalender som en händelse
+calendar-extract-task-button =
+    .label = Lägg till som uppgift
+    .tooltiptext = Plocka ut kalenderinformation från meddelandet och lägg till det i din kalender som en uppgift
