@@ -7,6 +7,10 @@
 ### Account hub is where user can setup new accounts in Thunderbird.
 
 
+## Email page
+
+account-hub-on-port-label = Port
+
 ## Incoming/Outgoing connection security options
 
 account-hub-password-info = Datele tale de autentificare vor fi stocate doar local pe calculator
