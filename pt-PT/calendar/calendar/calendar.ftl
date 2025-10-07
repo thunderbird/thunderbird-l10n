@@ -970,3 +970,13 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Cancelar silenciamento
+calendar-server-dialog-title-edit =
+    .title = Editar calendário
+calendar-server-dialog-name-label =
+    .value = Nome do calendário:
+calendar-publish-dialog-title =
+    .title = Publicar calendário
+calendar-publish-url-label = Publicar URL
+calendar-publish-publish-button = Publicar
+calendar-publish-close-button = Fechar
+calendar-select-dialog-title = Selecione o calendário
