@@ -942,3 +942,5 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = 取消稍後提醒
+calendar-search-options-searchfor =
+    .value = 包含
