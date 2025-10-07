@@ -996,3 +996,15 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Annuler le report d’alarme
+calendar-server-dialog-title-edit =
+    .title = Modifier l’agenda
+calendar-server-dialog-name-label =
+    .value = Nom de l’agenda :
+calendar-publish-dialog-title =
+    .title = Publier l’agenda
+calendar-publish-url-label = URL de publication
+calendar-publish-publish-button = Publier
+calendar-publish-close-button = Fermer
+calendar-select-dialog-title = Sélectionner l’agenda
+calendar-error-detail =
+    .label = Détails…
