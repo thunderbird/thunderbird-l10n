@@ -721,6 +721,9 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = ਟਾਲਣਾ ਰੱਦ ਕਰੋ
+calendar-calendar =
+    .label = ਕੈਲੰਡਰ
+    .accesskey = C
 calendar-newevent-button =
     .label = ਨਵਾਂ ਈਵੈਂਟ
     .tooltiptext = ਨਵਾਂ ਈਵੈਂਟ ਬਣਾਓ
