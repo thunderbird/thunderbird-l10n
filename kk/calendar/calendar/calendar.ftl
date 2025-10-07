@@ -997,6 +997,9 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Кейінге қалдыруды болдырмау
+calendar-calendar =
+    .label = Күнтізбе
+    .accesskey = К
 calendar-newevent-button =
     .label = Жаңа оқиға
     .tooltiptext = Жаңа оқиғаны жасау
