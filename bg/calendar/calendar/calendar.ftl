@@ -994,6 +994,8 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Прекъсване на отлагането
+calendar-search-options-searchfor =
+    .value = съдържащи
 calendar-server-dialog-title-edit =
     .title = Редактиране на календар
 calendar-server-dialog-name-label =
