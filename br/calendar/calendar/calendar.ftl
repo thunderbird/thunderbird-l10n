@@ -813,6 +813,9 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Nullañ an adc'halv
+calendar-calendar =
+    .label = Deiziataer
+    .accesskey = D
 calendar-newevent-button =
     .label = Darvoud nevez
     .tooltiptext = Krouiñ un darvoud nevez
