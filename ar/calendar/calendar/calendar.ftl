@@ -937,6 +937,9 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = ألغ الغفوة
+calendar-calendar =
+    .label = التقويم
+    .accesskey = ق
 calendar-newevent-button =
     .label = حدث جديد
     .tooltiptext = أنشئ حدثا جديدا
