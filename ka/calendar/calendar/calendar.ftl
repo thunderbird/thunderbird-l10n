@@ -990,6 +990,9 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = გადადების გაუქმება
+calendar-calendar =
+    .label = კალენდარი
+    .accesskey = კ
 calendar-newevent-button =
     .label = ახალი ღონისძიება
     .tooltiptext = ახალი ღონისძიების შექმნა
