@@ -970,6 +970,9 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Cancelar soneca
+calendar-calendar =
+    .label = Agenda
+    .accesskey = A
 calendar-newevent-button =
     .label = Novo evento
     .tooltiptext = Criar novo evento
