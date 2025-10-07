@@ -994,3 +994,9 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Cancelar silenciar
+calendar-extract-event-button =
+    .label = Agregar como evento
+    .tooltiptext = Extraer información de calendario desde el mensaje y agregarlo como un evento
+calendar-extract-task-button =
+    .label = Agregar como tarea
+    .tooltiptext = Extraer información de calendario desde el mensaje y agregarlo como una tarea
