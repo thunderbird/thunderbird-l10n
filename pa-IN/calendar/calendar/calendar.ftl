@@ -721,3 +721,13 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = ਟਾਲਣਾ ਰੱਦ ਕਰੋ
+calendar-server-dialog-title-edit =
+    .title = ਕੈਲੰਡਰ ਨੂੰ ਸੋਧੋ
+calendar-server-dialog-name-label =
+    .value = ਕੈਲੰਡਰ ਦਾ ਨਾਂ:
+calendar-publish-dialog-title =
+    .title = Publish Calendar
+calendar-publish-url-label = Publishing URL
+calendar-publish-publish-button = ਪਬਲਿਸ਼
+calendar-publish-close-button = ਬੰਦ ਕਰੋ
+calendar-select-dialog-title = ਕੈਲੰਡਰ ਚੁਣੋ
