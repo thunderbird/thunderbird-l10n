@@ -996,6 +996,9 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Sguir dhen dùsal
+calendar-calendar =
+    .label = Mìosachan
+    .accesskey = c
 calendar-newevent-button =
     .label = Tachartas ùr
     .tooltiptext = Cruthaich tachartas ùr
