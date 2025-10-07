@@ -998,3 +998,9 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Uitstellen annuleren
+calendar-error-code =
+    .value = Foutcode:
+calendar-error-description =
+    .value = Beschrijving:
+calendar-error-title =
+    .title = Er is een fout opgetreden
