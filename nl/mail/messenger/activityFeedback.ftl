@@ -17,4 +17,14 @@ looking-for-messages-folder = Zoeken naar nieuwe berichten in { $folderName }…
 # Variables:
 # $number (Number) - Number of messages being deleted.
 # $folderName (String) - The folder's name.
+deleting-message =
+    { $number ->
+        [one] Eén bericht uit { $folderName } verwijderen…
+       *[other] { $number } berichten uit { $folderName } verwijderen…
+    }
+# Feedback message shown in the status bar while we're deleting messages in a
+# specific folder (and waiting for the remote operation to complete).
+# Variables:
+# $number (Number) - Number of messages being deleted.
+# $folderName (String) - The folder's name.
 deleting-messages = { $number } bericht(en) uit { $folderName } verwijderen…
