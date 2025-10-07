@@ -1018,6 +1018,16 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Zrušit odložení
+calendar-server-dialog-title-edit =
+    .title = Úprava kalendáře
+calendar-server-dialog-name-label =
+    .value = Název kalendáře:
+calendar-publish-dialog-title =
+    .title = Publikování kalendáře
+calendar-publish-url-label = Adresa k publikování
+calendar-publish-publish-button = Publikovat
+calendar-publish-close-button = Zavřít
+calendar-select-dialog-title = Výběr kalendáře
 calendar-error-detail =
     .label = Podrobnosti…
 calendar-error-code =
