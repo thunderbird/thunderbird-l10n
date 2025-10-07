@@ -67,7 +67,7 @@ account-hub-port-label = Poort
 account-hub-auto-description = { -brand-short-name } probeert velden die leeg zijn gelaten automatisch te detecteren.
 account-hub-ssl-label = Verbindingsbeveiliging
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = Autodetectie
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Versleuteld wachtwoord
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = Geen

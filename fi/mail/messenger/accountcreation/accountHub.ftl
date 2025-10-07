@@ -67,7 +67,7 @@ account-hub-port-label = Portti
 account-hub-auto-description = { -brand-short-name } yrittää tunnistaa tyhjiksi jätetyt kentät automaattisesti.
 account-hub-ssl-label = Yhteyden suojaus
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = Tunnista automaattisesti
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Salattu salasana
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = Ei mitään

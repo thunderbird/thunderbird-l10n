@@ -67,7 +67,7 @@ account-hub-port-label = Θύρα
 account-hub-auto-description = Το { -brand-short-name } θα προσπαθήσει να εντοπίσει αυτόματα τα κενά πεδία.
 account-hub-ssl-label = Ασφάλεια σύνδεσης
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = Αυτόματος εντοπισμός
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Κρυπτογραφημένος κωδικός πρόσβασης
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = Κανένας

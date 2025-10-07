@@ -67,7 +67,7 @@ account-hub-port-label = Port
 account-hub-auto-description = { -brand-short-name } üritab automaatselt tuvastada tühjaks jäetud välju.
 account-hub-ssl-label = Ühenduse turvalisus
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = Automaatne tuvastamine
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Krüpteeritud parool
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = Puudub

@@ -67,7 +67,7 @@ account-hub-port-label = Порт
 account-hub-auto-description = { -brand-short-name } ще се опита да открие автоматично полета, които са оставени празни.
 account-hub-ssl-label = Сигурност на връзката
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = Автоматично разпознаване
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Шифрована парола
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = Няма

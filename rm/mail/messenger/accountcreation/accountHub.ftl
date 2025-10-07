@@ -67,7 +67,7 @@ account-hub-port-label = Port
 account-hub-auto-description = { -brand-short-name } vegn ad empruvar dad emplenir automaticamain champs vids.
 account-hub-ssl-label = Segirezza da la connexiun
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = Determinaziun automatica
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Pled-clav criptà
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = Nagin

@@ -7,6 +7,6 @@
 ### Account hub is where user can setup new accounts in Thunderbird.
 
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-password-info = Datele tale de autentificare vor fi stocate doar local pe calculator

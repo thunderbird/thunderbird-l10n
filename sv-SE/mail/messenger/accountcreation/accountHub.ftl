@@ -67,7 +67,7 @@ account-hub-port-label = Port
 account-hub-auto-description = { -brand-short-name } försöker automatiskt fylla i fält som lämnats tomma.
 account-hub-ssl-label = Anslutningssäkerhet
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = Autodetektera
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Krypterat lösenord
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = Ingen

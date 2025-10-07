@@ -67,7 +67,7 @@ account-hub-port-label = Porto
 account-hub-auto-description = O { -brand-short-name } tentará detectar automaticamente os campos que deixe en branco.
 account-hub-ssl-label = Seguranza da conexión
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = Detectar automaticamente
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Contrasinal cifrado
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = Ningunha

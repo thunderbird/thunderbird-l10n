@@ -56,7 +56,7 @@ account-hub-port-label = Порт
     .title = Подесите број порта на 0 за самостално препознавање
 account-hub-ssl-label = Безбедност везе
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = Самопрепознавање
@@ -67,7 +67,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Шифрована лозинка
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = Ништа

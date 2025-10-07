@@ -67,7 +67,7 @@ account-hub-port-label = Порт
 account-hub-auto-description = { -brand-short-name } спробує автоматично визначити поля, які залишились порожніми.
 account-hub-ssl-label = Захист з'єднання
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = Автовиявлення
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Зашифрований пароль
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = Жодного

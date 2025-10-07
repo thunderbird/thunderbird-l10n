@@ -67,7 +67,7 @@ account-hub-port-label = პორტი
 account-hub-auto-description = { -brand-short-name } შეეცდება თავად შეავსოს დარჩენილი ველები.
 account-hub-ssl-label = კავშირის უსაფრთხოება
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = თვითამოცნობა
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = დაშიფრული პაროლი
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = არცერთი

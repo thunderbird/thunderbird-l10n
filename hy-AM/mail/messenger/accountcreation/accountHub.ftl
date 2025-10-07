@@ -65,7 +65,7 @@ account-hub-port-label = Պորտ
 account-hub-auto-description = { -brand-short-name }-ը կփորձի ինքնահայտնաբերել դաշտերը, որոնք դատարկ են:
 account-hub-ssl-label = Կապուղու անվտանգությունը
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = Ինքնորոշում
@@ -76,7 +76,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Գաղտնագրված գաղտնաբառ
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = Ոչ մեկը

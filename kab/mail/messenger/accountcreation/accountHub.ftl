@@ -67,7 +67,7 @@ account-hub-port-label = Tawwurt
 account-hub-auto-description = { -brand-short-name } yettaɛraḍ ad d-yaf s wudem awurman urtiyen yeqqimen d ilmawen.
 account-hub-ssl-label = Taɣellist n tuqqna
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = Tifin tawurmant
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Awal uffir awgelhan
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = Ula yiwen

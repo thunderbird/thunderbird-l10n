@@ -67,7 +67,7 @@ account-hub-port-label = 端口
 account-hub-auto-description = { -brand-short-name } 将尝试自动检测留白的字段。
 account-hub-ssl-label = 连接安全性
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = 自动检测
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = 加密密码
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = 无

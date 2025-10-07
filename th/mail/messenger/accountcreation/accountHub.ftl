@@ -67,7 +67,7 @@ account-hub-port-label = พอร์ต
 account-hub-auto-description = { -brand-short-name } จะพยายามตรวจหาช่องกรอกข้อมูลที่ถูกเว้นว่างไว้โดยอัตโนมัติ
 account-hub-ssl-label = ความปลอดภัยของการเชื่อมต่อ
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = ตรวจหาอัตโนมัติ
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = รหัสผ่านที่เข้ารหัสลับ
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = ไม่มี

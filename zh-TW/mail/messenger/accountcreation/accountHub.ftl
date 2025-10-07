@@ -67,7 +67,7 @@ account-hub-port-label = 埠
 account-hub-auto-description = { -brand-short-name } 將嘗試自動偵測留白的欄位。
 account-hub-ssl-label = 連線安全性
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = 自動偵測
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = 加密過的密碼
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = 無

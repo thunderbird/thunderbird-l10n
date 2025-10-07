@@ -67,7 +67,7 @@ account-hub-port-label = Cổng
 account-hub-auto-description = { -brand-short-name } sẽ thử tự động phát hiện các trường bị bỏ trống.
 account-hub-ssl-label = Bảo mật kết nối
 
-## Incoming/Outgoing SSL Authentication options
+## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = Tự động phát hiện
@@ -78,7 +78,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Mật khẩu được mã hóa
 
-## Incoming/Outgoing SSL options
+## Incoming/Outgoing connection security options
 
 account-hub-ssl-noencryption-option =
     .label = Không
