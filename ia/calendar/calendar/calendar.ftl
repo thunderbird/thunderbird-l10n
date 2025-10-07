@@ -994,6 +994,15 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Eliminar siesta
+calendar-calendar =
+    .label = Calendario
+    .accesskey = C
+calendar-newevent-button =
+    .label = Nove evento
+    .tooltiptext = Crear un nove evento
+calendar-newtask-button =
+    .label = Nove activitate
+    .tooltiptext = Crear un nove activitate
 calendar-unifinder-show-completed-todos =
     .label = Monstrar activitates completate
 calendar-display-todos-checkbox =
