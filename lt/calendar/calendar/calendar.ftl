@@ -915,6 +915,9 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Atsisakyti atidėjimo
+calendar-calendar =
+    .label = Kalendorius
+    .accesskey = K
 calendar-newevent-button =
     .label = Naujas įvykis
     .tooltiptext = Aprašyti naują įvykį
