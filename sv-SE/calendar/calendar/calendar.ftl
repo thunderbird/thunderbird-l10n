@@ -994,6 +994,15 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Avbryt vila
+calendar-calendar =
+    .label = Kalender
+    .accesskey = K
+calendar-newevent-button =
+    .label = Ny händelse
+    .tooltiptext = Skapa ny händelse
+calendar-newtask-button =
+    .label = Ny uppgift
+    .tooltiptext = Skapa ny uppgift
 calendar-unifinder-show-completed-todos =
     .label = Visa slutförda uppgifter
 calendar-display-todos-checkbox =
