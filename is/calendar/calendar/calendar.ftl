@@ -994,3 +994,9 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Hætta við blund
+calendar-extract-event-button =
+    .label = Bæta við sem nýjum atburð
+    .tooltiptext = Ná í dagsetningar úr póstinum og bæta við í dagatalið sem atburð
+calendar-extract-task-button =
+    .label = Bæta við verkefni
+    .tooltiptext = Ná í dagsetningar úr póstinum og bæta við í dagatalið sem verkefni
