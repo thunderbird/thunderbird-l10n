@@ -17,4 +17,16 @@ looking-for-messages-folder = Hledání nových zpráv ve složce { $folderName 
 # Variables:
 # $number (Number) - Number of messages being deleted.
 # $folderName (String) - The folder's name.
+deleting-message =
+    { $number ->
+        [one] Mazání jedné zprávy ze složky { $folderName }…
+        [few] Mazání { $number } zpráv ze složky { $folderName }…
+        [many] Mazání { $number } zpráv ze složky { $folderName }…
+       *[other] Mazání { $number } zpráv ze složky { $folderName }…
+    }
+# Feedback message shown in the status bar while we're deleting messages in a
+# specific folder (and waiting for the remote operation to complete).
+# Variables:
+# $number (Number) - Number of messages being deleted.
+# $folderName (String) - The folder's name.
 deleting-messages = Mazání { $number } zpráv ze složky { $folderName }…
