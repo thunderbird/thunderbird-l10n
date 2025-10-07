@@ -983,6 +983,9 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Otkaži odgodu
+calendar-calendar =
+    .label = Kalendar
+    .accesskey = K
 calendar-newevent-button =
     .label = Novi događaj
     .tooltiptext = Stvori novi događaj
