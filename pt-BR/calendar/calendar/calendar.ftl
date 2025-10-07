@@ -970,3 +970,15 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Cancelar soneca
+calendar-server-dialog-title-edit =
+    .title = Editar agenda
+calendar-server-dialog-name-label =
+    .value = Nome da agenda:
+calendar-publish-dialog-title =
+    .title = Publicar agenda
+calendar-publish-url-label = URL para publicação
+calendar-publish-publish-button = Publicar
+calendar-publish-close-button = Fechar
+calendar-select-dialog-title = Selecionar agenda
+calendar-error-detail =
+    .label = Detalhes…
