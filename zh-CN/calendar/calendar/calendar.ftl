@@ -921,6 +921,9 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = 取消暂缓
+calendar-calendar =
+    .label = 日历
+    .accesskey = C
 calendar-newevent-button =
     .label = 新建事件
     .tooltiptext = 创建新的事件
