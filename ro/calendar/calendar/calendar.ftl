@@ -984,3 +984,15 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Anulează amânarea
+calendar-search-options-searchfor =
+    .value = care conține
+calendar-server-dialog-title-edit =
+    .title = Editează calendarul
+calendar-server-dialog-name-label =
+    .value = Denumire calendar:
+calendar-error-code =
+    .value = Codul erorii:
+calendar-error-description =
+    .value = Descriere:
+calendar-error-title =
+    .title = A apărut o eroare
