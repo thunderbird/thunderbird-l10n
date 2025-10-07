@@ -1028,3 +1028,9 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Prekliči dremež
+calendar-error-code =
+    .value = Koda napake:
+calendar-error-description =
+    .value = Opis:
+calendar-error-title =
+    .title = Prišlo je do napake
