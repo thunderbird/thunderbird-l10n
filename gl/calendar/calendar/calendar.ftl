@@ -973,6 +973,15 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Cancelar o aprazamento
+calendar-calendar =
+    .label = Calendario
+    .accesskey = C
+calendar-newevent-button =
+    .label = Novo evento
+    .tooltiptext = Crear un novo evento
+calendar-newtask-button =
+    .label = Nova tarefa
+    .tooltiptext = Crear unha nova tarefa
 calendar-unifinder-show-completed-todos =
     .label = Amosar as tarefas rematadas
 calendar-display-todos-checkbox =
