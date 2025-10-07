@@ -3,6 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Mail Toolbar
+
+toolbar-junk-button =
+    .label = Nesolicitate
+    .tooltiptext = Marchează mesajele selectate ca nesolicitate
+toolbar-not-junk-button =
+    .label = Nu sunt nesolicitate
+    .tooltiptext = Marchează mesajele selectate ca „Nu sunt nesolicitate”
+
 ## View
 
 menu-view-repair-text-encoding =

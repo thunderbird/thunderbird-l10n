@@ -3,6 +3,28 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Afișează/ascunde bara de filtrare rapidă
+quick-filter-button-label = Filtru rapid
+thread-pane-header-display-button =
+    .title = Opțiuni de afișare a listei de mesaje
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [one] { $count } mesaj
+        [few] { $count } mesaje
+       *[other] { $count } de mesaje
+    }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+       *[other] { $count } selectat(e)
+    }
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -12,6 +34,16 @@
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Păstrează filtrele aplicate când schimbi dosarul
+quick-filter-bar-dropdown-unread =
+    .label = Necitit
+quick-filter-bar-dropdown-starred =
+    .label = Cu steluță
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Contact
+quick-filter-bar-dropdown-tags =
+    .label = Etichete
+quick-filter-bar-dropdown-attachment =
+    .label = Atașament
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -63,6 +95,14 @@ quick-filter-bar-results =
         [few] { $count } mesaje
        *[other] { $count } de mesaje
     }
+quick-filter-bar-search2 =
+    .label = Filtrează mesajele
+quick-filter-bar-searching =
+    .title = Se caută…
+# Label of the search button in the quick filter bar text box. Clicking it will
+# launch a global search.
+quick-filter-bar-search-button =
+    .alt = Caută peste tot
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Mod de filtrare a etichetelor
@@ -103,9 +143,26 @@ quick-filter-bar-gloda-upsell-line2 = Apasă „Enter” din nou pentru a contin
 
 ## Folder pane
 
+folder-pane-get-messages-button =
+    .title = Descarcă mesajele
 folder-pane-get-all-messages-menuitem =
     .label = Toate conturile
     .accesskey = T
+folder-pane-write-message-button = Mesaj nou
+    .title = Creează un mesaj nou
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Afișează „Descarcă mesajele”
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Afișează „Mesaj nou”
+folder-pane-header-context-hide =
+    .label = Ascunde antetul panoului de dosare
+folder-pane-show-total-toggle =
+    .label = Afișează numărul total de mesaje
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Afișează mărimea dosarului
 folder-pane-mode-context-toggle-compact-mode =
     .label = Mod afișare compact
     .accesskey = c
