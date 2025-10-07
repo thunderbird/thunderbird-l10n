@@ -1043,6 +1043,15 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Diddymu Cysgu
+calendar-calendar =
+    .label = Calendr
+    .accesskey = C
+calendar-newevent-button =
+    .label = Digwyddiad Newydd
+    .tooltiptext = Creu digwyddiad newydd
+calendar-newtask-button =
+    .label = Tasg Newydd
+    .tooltiptext = Creu tasg newydd
 calendar-unifinder-show-completed-todos =
     .label = Dangos Tasgau wedi'u cwblhau
 calendar-display-todos-checkbox =
