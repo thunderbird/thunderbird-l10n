@@ -970,6 +970,9 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Betg pli regurdar
+calendar-calendar =
+    .label = Chalender
+    .accesskey = C
 calendar-newevent-button =
     .label = Nov eveniment
     .tooltiptext = Crear in nov eveniment
