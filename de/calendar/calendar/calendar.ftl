@@ -995,6 +995,8 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Zurückstellen abbrechen
+calendar-search-options-searchfor =
+    .value = enthalten
 calendar-server-dialog-title-edit =
     .title = Kalender bearbeiten
 calendar-server-dialog-name-label =
