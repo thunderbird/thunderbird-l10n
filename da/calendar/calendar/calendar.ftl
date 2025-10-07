@@ -970,3 +970,9 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Fortryd udsættelse
+calendar-error-detail =
+    .label = Detaljer…
+calendar-error-code =
+    .value = Fejlkode:
+calendar-error-description =
+    .value = Beskrivelse:
