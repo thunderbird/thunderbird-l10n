@@ -970,6 +970,9 @@ calendar-alarm-snooze-all-for =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Cancelar silenciamento
+calendar-calendar =
+    .label = Calendário
+    .accesskey = C
 calendar-newevent-button =
     .label = Novo evento
     .tooltiptext = Criar um novo evento
