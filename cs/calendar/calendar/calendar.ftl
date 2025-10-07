@@ -1018,3 +1018,11 @@ calendar-alarm-snooze-preset-days =
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
 calendar-alarm-snooze-cancel =
     .aria-label = Zrušit odložení
+calendar-error-detail =
+    .label = Podrobnosti…
+calendar-error-code =
+    .value = Kód chyby:
+calendar-error-description =
+    .value = Popis:
+calendar-error-title =
+    .title = Vyskytla se chyba
