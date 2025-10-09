@@ -7,3 +7,5 @@ move-message-other =
     .accesskey = A
 automatic-spam-purge-label =
     .value = dagar
+spam-classification-legend = Utval
+spam-actions-legend = Mål og lagring
