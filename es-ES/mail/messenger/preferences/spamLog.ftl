@@ -2,10 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-move-message-other =
-    .label = Otra:
-    .accesskey = O
-automatic-spam-purge-label =
-    .value = días
-spam-classification-legend = Selección
-spam-actions-legend = Destino y retención
+clear-log-button =
+    .label = Limpiar registro
+    .accesskey = L
+spam-log-dialog =
+    .buttonlabelaccept = Cerrar
+    .buttonaccesskeyaccept = C
