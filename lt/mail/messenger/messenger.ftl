@@ -17,6 +17,21 @@ unread-messages-os-tooltip =
     }
 about-rights-notification-text = „{ -brand-short-name }“ yra nemokama ir atvirojo kodo programinė įranga, sukurta pasaulio bendruomenės.
 
+## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 quick-filter-toolbarbutton =
@@ -61,6 +76,12 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktiškas vaizdas
     .accesskey = K
+
+## Folder names
+
+
+## File Menu
+
 
 ## Edit Menu
 
@@ -179,6 +200,9 @@ mail-context-messages-delete =
 other-action-redirect-msg =
     .label = Peradresuoti
 
+## Message header customize panel
+
+
 ## Action Button Context Menu
 
 toolbar-context-menu-manage-extension =
@@ -198,6 +222,12 @@ addon-removal-confirmation-button = Pašalinti
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Pašalinti „{ $name }“ ir jo konfigūraciją bei duomenis iš „{ -brand-short-name }“?
 
+## no-reply handling
+
+
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-button-settings2 =
@@ -206,6 +236,12 @@ settings-context-open-settings-item2 =
     .label = Nuostatos
 settings-context-open-account-settings-item2 =
     .label = Paskyros nuostatos
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
 
 ## Quick Filter Bar
 
@@ -218,3 +254,40 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+

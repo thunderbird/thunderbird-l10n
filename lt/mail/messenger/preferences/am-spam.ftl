@@ -5,3 +5,7 @@
 move-message-other =
     .label = kitą aplanką:
     .accesskey = k
+automatic-spam-purge-label =
+    .value = d.
+spam-classification-legend = Atranka
+spam-actions-legend = Paskirtis ir saugojimas
