@@ -2,9 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-clear-log-button =
-    .label = Hreinsa atvikaskrá
-    .accesskey = H
-spam-log-dialog =
-    .buttonlabelaccept = Loka
-    .buttonaccesskeyaccept = o
+move-message-other =
+    .label = Annað:
+    .accesskey = A
+automatic-spam-purge-label =
+    .value = daga
+spam-classification-legend = Val
+spam-actions-legend = Viðtökustaður og varðveisla
