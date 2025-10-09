@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = შემჭიდროებული ჩვენება
     .accesskey = ჭ
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -473,6 +476,25 @@ openpgp-forget = OpenPGP-ის დაშვების ფრაზები�
 quota-panel-percent-used = { $percent }% შევსებულია
     .title = IMAP-სივრცე: { $usage } გამოყენებულია, სულ { $limit }
 
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = მონიშვნა წაკითხულად
@@ -480,3 +502,12 @@ delete-action = წაშლა
 mark-as-starred-action = მონიშვნა ვარკვლავიანად
 mark-as-spam-action = არასასურველად მონიშვნა
 archive-action = დაარქივება
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+
