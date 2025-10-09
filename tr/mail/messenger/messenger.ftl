@@ -481,6 +481,8 @@ quota-panel-percent-used = %{ $percent } dolu
 
 ## Message menu.
 
+mark-as-junk-key =
+    .key = j
 mark-not-junk-key =
     .key = j
 
