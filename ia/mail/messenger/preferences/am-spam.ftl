@@ -2,9 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-clear-log-button =
-    .label = Vacuar le registro
-    .accesskey = C
-spam-log-dialog =
-    .buttonlabelaccept = Clauder
-    .buttonaccesskeyaccept = u
+move-message-other =
+    .label = Altere:
+    .accesskey = A
+automatic-spam-purge-label =
+    .value = dies
+spam-classification-legend = Selection
+spam-actions-legend = Destination e retention
