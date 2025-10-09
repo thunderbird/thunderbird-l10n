@@ -2,5 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+move-message-other =
+    .label = Іншую папку:
+    .accesskey = І
+automatic-spam-purge-label =
+    .value = дзён
 spam-classification-legend = Выяўленне
 spam-actions-legend = Папкі прызначэння і ўмовы захавання
