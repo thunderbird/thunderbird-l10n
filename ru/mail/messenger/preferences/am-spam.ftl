@@ -7,3 +7,5 @@ move-message-other =
     .accesskey = г
 automatic-spam-purge-label =
     .value = дней
+spam-classification-legend = Выделение
+spam-actions-legend = Папка назначения и условия хранения
