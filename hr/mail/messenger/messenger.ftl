@@ -130,6 +130,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Zbijeni prikaz
     .accesskey = Z
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -481,6 +484,25 @@ openpgp-forget = Zaboravi OpenPGP šifre
 quota-panel-percent-used = { $percent }% popunjeno
     .title = IMAP kvota: { $usage } iskorišteno od ukupno { $limit }
 
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Označi kao pročitano
@@ -488,3 +510,12 @@ delete-action = Obriši
 mark-as-starred-action = Označi zvjezdicom
 mark-as-spam-action = Označi kao neželjena pošta
 archive-action = Arhiviraj
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+
