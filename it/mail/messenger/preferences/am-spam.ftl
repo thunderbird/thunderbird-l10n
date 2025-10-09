@@ -2,5 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+move-message-other =
+    .label = Altra:
+    .accesskey = r
+automatic-spam-purge-label =
+    .value = giorni
 spam-classification-legend = Selezione
 spam-actions-legend = Destinazione e memorizzazione
