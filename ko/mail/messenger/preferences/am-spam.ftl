@@ -7,3 +7,5 @@ move-message-other =
     .accesskey = O
 automatic-spam-purge-label =
     .value = 일 이전
+spam-classification-legend = 선택
+spam-actions-legend = 이동처와 저장 기간
