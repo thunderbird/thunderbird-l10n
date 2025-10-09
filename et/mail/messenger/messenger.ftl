@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktne vaade
     .accesskey = v
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -469,6 +472,25 @@ openpgp-forget = Unusta OpenPGP paroolid
 quota-panel-percent-used = { $percent }% täis
     .title = IMAP kvoot: kasutusel { $usage }, kokku { $limit }
 
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Märgi loetuks
@@ -476,3 +498,12 @@ delete-action = Kustuta
 mark-as-starred-action = Tähista tärniga
 mark-as-spam-action = Märgi rämpspostiks
 archive-action = Arhiveeri
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+
