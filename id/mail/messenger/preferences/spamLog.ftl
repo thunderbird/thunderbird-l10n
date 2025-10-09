@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-automatic-spam-purge-label =
-    .value = hari
-spam-classification-legend = Pilihan
+clear-log-button =
+    .label = Bersihkan Log
+    .accesskey = B
+spam-log-dialog =
+    .buttonlabelaccept = Tutup
+    .buttonaccesskeyaccept = u
