@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Yoğun görünüm
     .accesskey = Y
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -473,6 +476,23 @@ openpgp-forget = OpenPGP parolalarını unut
 quota-panel-percent-used = %{ $percent } dolu
     .title = IMAP kotası: { $usage } (kullanılan) / { $limit } (toplam)
 
+## Sort menu.
+
+
+## Message menu.
+
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Okundu olarak işaretle
@@ -480,3 +500,12 @@ delete-action = Sil
 mark-as-starred-action = Yıldızlı olarak işaretle
 mark-as-spam-action = Spam olarak işaretle
 archive-action = Arşivle
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+
