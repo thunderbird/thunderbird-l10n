@@ -128,6 +128,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ықшам көрініс
     .accesskey = Ы
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -472,6 +475,25 @@ openpgp-forget = OpenPGP кілттік фразаларын ұмыту
 quota-panel-percent-used = { $percent }% толық
     .title = IMAP квотасы: { $limit } ішінен { $usage } қолданылуда
 
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Оқылған ретінде белгілеу
@@ -479,3 +501,12 @@ delete-action = Өшіру
 mark-as-starred-action = Жұлдызша қою
 mark-as-spam-action = Спам деп белгілеу
 archive-action = Архивтеу
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+
