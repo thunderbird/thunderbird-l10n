@@ -8,3 +8,4 @@ move-message-other =
 automatic-spam-purge-label =
     .value = 天
 spam-classification-legend = 选择
+spam-actions-legend = 存放与保留
