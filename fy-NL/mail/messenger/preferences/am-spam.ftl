@@ -7,3 +7,5 @@ move-message-other =
     .accesskey = r
 automatic-spam-purge-label =
     .value = dagen automatysk út dizze map fuortsmite
+spam-classification-legend = Seleksje
+spam-actions-legend = Doel en behâld
