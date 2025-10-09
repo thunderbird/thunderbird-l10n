@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ikuspegi trinkoa
     .accesskey = t
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -473,6 +476,25 @@ openpgp-forget = Ahaztu OpenPGP pasa-esdaldiak
 quota-panel-percent-used = { $percent }% full
     .title = IMAP kuota: { $usage } erabilia { $limit } guztirako limitetik
 
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Markatu irakurritako gisa
@@ -480,3 +502,12 @@ delete-action = Ezabatu
 mark-as-starred-action = Markatu izardun gisa
 mark-as-spam-action = Markatu spam gisa
 archive-action = Artxibatu
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+
