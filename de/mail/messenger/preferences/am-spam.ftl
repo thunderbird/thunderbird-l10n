@@ -2,9 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-clear-log-button =
-    .label = Protokoll löschen
-    .accesskey = P
-spam-log-dialog =
-    .buttonlabelaccept = Schließen
-    .buttonaccesskeyaccept = c
+move-message-other =
+    .label = Anderer Ordner:
+    .accesskey = A
+automatic-spam-purge-label =
+    .value = Tage

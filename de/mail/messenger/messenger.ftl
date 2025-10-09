@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompakte Ansicht
     .accesskey = K
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -473,6 +476,25 @@ openpgp-forget = OpenPGP-Passphrasen vergessen
 quota-panel-percent-used = { $percent }% belegt
     .title = IMAP-Kontingent: { $usage } von insgesamt { $limit } belegt
 
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Als gelesen markieren
@@ -480,3 +502,12 @@ delete-action = Löschen
 mark-as-starred-action = Kennzeichnen
 mark-as-spam-action = Als Spam markieren
 archive-action = Archivieren
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+
