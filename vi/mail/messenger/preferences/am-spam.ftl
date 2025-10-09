@@ -7,3 +7,5 @@ move-message-other =
     .accesskey = O
 automatic-spam-purge-label =
     .value = ngày
+spam-classification-legend = Phần được chọn
+spam-actions-legend = Đích đến và thời gian lưu trữ
