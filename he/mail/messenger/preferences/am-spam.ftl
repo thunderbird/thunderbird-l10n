@@ -7,3 +7,5 @@ move-message-other =
     .accesskey = א
 automatic-spam-purge-label =
     .value = ימים
+spam-classification-legend = בחירה
+spam-actions-legend = יעד ותחלופה
