@@ -483,6 +483,8 @@ quota-panel-percent-used = { $percent }% πλήρες
 
 mark-as-junk-key =
     .key = j
+mark-not-junk-key =
+    .key = j
 
 ## Folder pane context.
 
