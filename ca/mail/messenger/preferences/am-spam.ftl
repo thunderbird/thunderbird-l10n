@@ -7,3 +7,5 @@ move-message-other =
     .accesskey = l
 automatic-spam-purge-label =
     .value = dies
+spam-classification-legend = Selecció
+spam-actions-legend = Destinació i retenció
