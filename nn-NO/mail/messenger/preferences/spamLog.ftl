@@ -5,3 +5,6 @@
 clear-log-button =
     .label = Tøm logg
     .accesskey = T
+spam-log-dialog =
+    .buttonlabelaccept = Lat att
+    .buttonaccesskeyaccept = L
