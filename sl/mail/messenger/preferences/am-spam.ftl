@@ -8,3 +8,4 @@ move-message-other =
 automatic-spam-purge-label =
     .value = dni
 spam-classification-legend = Izbira
+spam-actions-legend = Cilj in ohranitev
