@@ -7,3 +7,5 @@ move-message-other =
     .accesskey = A
 automatic-spam-purge-label =
     .value = dagen automatisch verwijderen
+spam-classification-legend = Selectie
+spam-actions-legend = Doel en behoud
