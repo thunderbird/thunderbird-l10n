@@ -7,3 +7,5 @@ move-message-other =
     .accesskey = غ
 automatic-spam-purge-label =
     .value = أيام
+spam-classification-legend = التحديد
+spam-actions-legend = الوجهة والاحتفاظ
