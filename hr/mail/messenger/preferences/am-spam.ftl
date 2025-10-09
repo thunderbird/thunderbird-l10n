@@ -8,3 +8,4 @@ move-message-other =
 automatic-spam-purge-label =
     .value = dana
 spam-classification-legend = Odabir
+spam-actions-legend = Odredište i zadržavanje
