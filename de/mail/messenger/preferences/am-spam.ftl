@@ -7,3 +7,5 @@ move-message-other =
     .accesskey = A
 automatic-spam-purge-label =
     .value = Tage
+spam-classification-legend = Klassifizierung
+spam-actions-legend = Speicherplatz
