@@ -7,3 +7,5 @@ move-message-other =
     .accesskey = T
 automatic-spam-purge-label =
     .value = ditë
+spam-classification-legend = Përzgjedhje
+spam-actions-legend = Vendmbërritje dhe Mbajtje
