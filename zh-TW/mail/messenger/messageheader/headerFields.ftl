@@ -108,10 +108,10 @@ dark-message-mode-toggle-disabled =
 
 ## Spam filter
 
-message-bar-spam = { -brand-short-name } 認為這封郵件為垃圾信。
+message-bar-spam = { -brand-short-name } 認為這封郵件是垃圾信。
 message-bar-not-spam-button =
     .label = 非垃圾信
-    .accesskey = 非
+    .accesskey = N
 message-bar-learn-more-button =
     .label = 更多資訊…
-    .accesskey = 更
+    .accesskey = L

@@ -5,4 +5,5 @@
 mail-view-known-people = 親朋好友
 mail-view-recent = 最新郵件
 mail-view-last-five-days = 最近五天
+mail-view-not-spam = 非垃圾信
 mail-view-has-attachments = 內含附件

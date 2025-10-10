@@ -47,7 +47,7 @@ compose-html-style-title = HTML 樣式
 composition-addressing-header = 地址
 privacy-main-header = 隱私權
 privacy-passwords-header = 密碼
-privacy-spam-header = 是垃圾信
+privacy-spam-header = 垃圾信
 privacy-junk-header = 垃圾郵件
 collection-header = { -brand-short-name } 資料收集與使用
 collection-description = 我們致力於提供您選擇，也只會收集我們在提供與改善 { -brand-short-name } 時所必需的資料。我們也一定會經過您的同意才收集您的個人資訊。
@@ -750,24 +750,24 @@ preferences-doh-default-detailed-desc-4 = 當 VPN、家長監護設定或企業�
 preferences-doh-default-detailed-desc-5 = 當網路裝置告訴 { -brand-short-name } 不該使用安全 DNS 時就關閉
 preferences-doh-setting-enabled =
     .label = 加強保護
-    .accesskey = 加
+    .accesskey = I
 preferences-doh-enabled-desc = 由您自行決定要使用哪個提供者的安全 DNS。
 preferences-doh-enabled-detailed-desc-1 = 使用您選擇的提供者
 preferences-doh-enabled-detailed-desc-2 = 只在無法使用安全的 DNS 提供者時，使用您的預設 DNS 解析器。
 preferences-doh-setting-strict =
     .label = 最大保護
-    .accesskey = 最
+    .accesskey = M
 preferences-doh-strict-desc = { -brand-short-name } 總是會使用安全 DNS。若我們需要使用系統 DNS 時，您會看到安全性警告。
 preferences-doh-strict-detailed-desc-1 = 只使用您選擇的提供者
 preferences-doh-strict-detailed-desc-2 = 安全 DNS 無法使用時總是警告我
 preferences-doh-strict-detailed-desc-3 = 若無法使用安全 DNS，就不開啟網站或無法正常運作
 preferences-doh-setting-off =
     .label = 關閉
-    .accesskey = 關
+    .accesskey = O
 preferences-doh-off-desc = 使用您系統預設的 DNS 解析器
 preferences-doh-checkbox-warn =
     .label = 若有第三方系統主動封鎖安全 DNS 時警告我
-    .accesskey = 若
+    .accesskey = W
 preferences-doh-select-resolver = 選擇提供者：
 # Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider
@@ -775,7 +775,7 @@ preferences-doh-url-default =
     .label = { $name }（預設）
 preferences-doh-url-custom =
     .label = 自訂
-    .accesskey = 自
+    .accesskey = C
 
 ## Chat Tab
 

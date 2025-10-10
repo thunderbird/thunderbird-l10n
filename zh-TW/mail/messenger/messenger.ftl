@@ -130,7 +130,7 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Folder names
 
-folder-name-spam = 是垃圾信
+folder-name-spam = 垃圾信
 
 ## File Menu
 
@@ -207,8 +207,8 @@ context-menu-mark-spam =
     .aria-label = 標示為垃圾信
     .tooltiptext = 標示為垃圾信
 context-menu-mark-not-spam =
-    .aria-label = 標示為非垃圾文章
-    .tooltiptext = 標示為非垃圾文章
+    .aria-label = 標示為非垃圾信
+    .tooltiptext = 標示為非垃圾信
 context-menu-mark-junk =
     .aria-label = 標示為垃圾信
     .tooltiptext = 標示為垃圾信
@@ -483,35 +483,35 @@ quota-panel-percent-used = 已用 { $percent }%
 
 sort-by-spam-status =
     .label = 垃圾信狀態
-    .accesskey = 垃
+    .accesskey = S
 
 ## Message menu.
 
 menu-mark-as-spam =
     .label = 為垃圾信
-    .accesskey = 為
+    .accesskey = S
 mark-as-junk-key =
     .key = j
 menu-mark-not-spam =
-    .label = 非垃圾信
-    .accesskey = 非
+    .label = 為非垃圾信
+    .accesskey = N
 mark-not-junk-key =
     .key = j
 menu-recalculate-spam-score =
-    .label = 執行垃圾信控制
-    .accesskey = 執
+    .label = 執行垃圾信件控制
+    .accesskey = C
 menu-run-spam-on-folder =
-    .label = 執行垃圾郵件控制
-    .accesskey = 執
+    .label = 對信件匣執行垃圾信件控制
+    .accesskey = C
 menu-delete-spam =
-    .label = 刪除標示為垃圾信的郵件
-    .accesskey = 刪
+    .label = 刪除信件匣中，標示為垃圾信的郵件
+    .accesskey = D
 
 ## Folder pane context.
 
 folder-context-empty-spam =
     .label = 清空垃圾信
-    .accesskey = 清
+    .accesskey = S
 
 ## Thread pane.
 
@@ -549,15 +549,15 @@ menuitem-label-spam-status =
 
 # Variables:
 # $folder (String) - The name of the selected folder.
-prompt-empty-folder-title = 有空 { $folder } 嗎
+prompt-empty-folder-title = 要清空 { $folder } 嗎？
 # Variables:
 # $folder (String) - The name of the selected folder.
-prompt-empty-folder-message = 刪除 { $folder } 資料夾中的所有訊息與子資料夾
+prompt-empty-folder-message = 要刪除 { $folder } 信件匣當中的所有訊息與子信件匣嗎？
 prompt-dont-ask-again = 不要再問我。
 
 ## Spam commands
 
 # Variables:
 # $percentage (Number) - The percentage of completion of the spam analysis.
-spam-analysis-percentage = 已完成 { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } 垃圾分析
-spam-processing-message = 正在處理垃圾訊息
+spam-analysis-percentage = 垃圾信分析已完成 { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
+spam-processing-message = 正在處理垃圾信

@@ -33,7 +33,7 @@ outgoing-server-section-name = 外寄伺服器
 outgoing-server-settings-title = 寄件伺服器設定
 outgoing-server-settings-description = 管理您的身份識別資訊時，可以自此清單選擇一個伺服器作為外寄郵件伺服器或「使用預設伺服器」以使用預設的伺服器。
 outgoing-server-type = 伺服器類型：
-panel-settings-spam = 垃圾信設定
+panel-settings-spam = 垃圾信選項
 # Variables:
 # $account (String) - The account name.
-spam-settings-alert-message = 偵測到 { $account } 的垃圾信件設定有問題。您想要在儲存變更前確認一下嗎
+spam-settings-alert-message = 偵測到 { $account } 的垃圾信設定有問題，您想要在儲存變更前再確認一下嗎？
