@@ -16,6 +16,7 @@ account-setup-name-input =
 ## Illustrations
 
 account-setup-privacy-footnote2 = Datele tale de autentificare vor fi stocate doar local pe calculator.
+account-setup-privacy-help = Politică de confidențialitate
 account-setup-getting-started = Noțiuni introductive
 
 ## Error messages

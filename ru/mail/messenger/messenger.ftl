@@ -130,9 +130,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Компактный вид
     .accesskey = п
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -486,24 +483,12 @@ openpgp-forget = Забыть парольные фразы OpenPGP
 quota-panel-percent-used = { $percent }% заполнено
     .title = IMAP-квота: использовано { $usage } из { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -512,12 +497,3 @@ delete-action = Удалить
 mark-as-starred-action = Пометить звёздочкой
 mark-as-spam-action = Пометить как спам
 archive-action = Архивировать
-
-## Message list.
-
-
-## Prompts
-
-
-## Spam commands
-

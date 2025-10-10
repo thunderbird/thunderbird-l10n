@@ -130,9 +130,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktné zobrazenie
     .accesskey = K
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -488,24 +485,12 @@ openpgp-forget = Zabudnúť prístupové frázy OpenPGP
 quota-panel-percent-used = Zaplnené na { $percent } %
     .title = Kvóta IMAP: využitých { $usage } z celkových { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -514,12 +499,3 @@ delete-action = Odstrániť
 mark-as-starred-action = Označiť hviezdičkou
 mark-as-spam-action = Označiť ako spam
 archive-action = Archivovať
-
-## Message list.
-
-
-## Prompts
-
-
-## Spam commands
-

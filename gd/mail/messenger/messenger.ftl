@@ -131,9 +131,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Sealladh dùmhail
     .accesskey = S
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -279,9 +276,6 @@ no-reply-title = Chan eil taic ri freagairtean
 no-reply-message = Tha coltas nach eil duine sam bith a’ cumail sùil air an t-seòladh airson freagairtean, { $email }, agus tha e cha mhòr cinnteach nach leugh duine sam bith teachdaireachdan a chuirear gun t-seòladh seo.
 no-reply-reply-anyway-button = Cuir an fhreagairt co-dhiù
 
-## error messages
-
-
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -393,33 +387,9 @@ openpgp-forget = Dìochuimhnich abairtean-faire OpenPGP
 quota-panel-percent-used = { $percent }% làn
     .title = Cuòta IMAP: { $usage } à { $limit } air a chleachdadh uile gu lèir
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
-## Actions for the New Mail Notification
-
-
-## Message list.
-
-
-## Prompts
-
-
-## Spam commands
-

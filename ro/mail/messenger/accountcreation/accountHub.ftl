@@ -7,6 +7,11 @@
 ### Account hub is where user can setup new accounts in Thunderbird.
 
 
+## Initial setup page
+
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Intră în cont pentru sincronizare…
+
 ## Email page
 
 account-hub-on-port-label = Port

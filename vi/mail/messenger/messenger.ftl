@@ -128,9 +128,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Chế độ xem thu gọn
     .accesskey = C
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -455,24 +452,12 @@ openpgp-forget = Quên cụm mật khẩu OpenPGP
 quota-panel-percent-used = { $percent }% đã đầy
     .title = Hạn ngạch IMAP: { $usage } đã sử dụng trong tổng số { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -481,12 +466,3 @@ delete-action = Xóa
 mark-as-starred-action = Đánh dấu là được gắn sao
 mark-as-spam-action = Đánh dấu là thư rác
 archive-action = Lưu trữ
-
-## Message list.
-
-
-## Prompts
-
-
-## Spam commands
-

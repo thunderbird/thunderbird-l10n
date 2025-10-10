@@ -96,5 +96,5 @@
 <!ENTITY todaypane.showNone.label "Nincs megjelenítés">
 <!ENTITY todaypane.showNone.accesskey "i">
 <!ENTITY todaypane.showTodayPane.label "Ma ablaktábla megjelenítése">
-<!ENTITY todaypane.showTodayPane.accesskey "p">
+<!ENTITY todaypane.showTodayPane.accesskey "a">
 <!ENTITY todaypane.statusButton.label "Ma ablaktábla">

@@ -111,9 +111,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Timeẓri yessden
     .accesskey = T
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -381,15 +378,6 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
@@ -397,24 +385,6 @@ mark-as-junk-key =
 mark-not-junk-key =
     .key = j
 
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
 ## Actions for the New Mail Notification
 
 delete-action = Kkes
-
-## Message list.
-
-
-## Prompts
-
-
-## Spam commands
-

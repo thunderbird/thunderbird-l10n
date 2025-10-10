@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Πυκνή προβολή
     .accesskey = Π
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -476,24 +473,12 @@ openpgp-forget = Ξεχάστε τις φράσεις πρόσβασης OpenPGP
 quota-panel-percent-used = { $percent }% πλήρες
     .title = Ποσοστό IMAP: { $usage } σε χρήση από συνολικά { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -502,12 +487,3 @@ delete-action = Διαγραφή
 mark-as-starred-action = Επισήμανση με αστέρι
 mark-as-spam-action = Επισήμανση ως ανεπιθύμητο
 archive-action = Αρχειοθέτηση
-
-## Message list.
-
-
-## Prompts
-
-
-## Spam commands
-

@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Affichage compact
     .accesskey = c
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -480,24 +477,12 @@ quota-panel-percent-used =
     }
     .title = Quota IMAP : { $usage } utilisés sur { $limit } au total
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -506,12 +491,3 @@ delete-action = Supprimer
 mark-as-starred-action = Marquer comme suivi
 mark-as-spam-action = Marquer comme spam
 archive-action = Archiver
-
-## Message list.
-
-
-## Prompts
-
-
-## Spam commands
-

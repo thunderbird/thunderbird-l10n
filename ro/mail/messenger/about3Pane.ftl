@@ -24,6 +24,8 @@ thread-pane-folder-selected-count =
     { $count ->
        *[other] { $count } selectat(e)
     }
+thread-pane-header-context-hide =
+    .label = Ascunde antetul listei de mesaje
 
 ## Quick Filter Bar
 
@@ -34,6 +36,10 @@ thread-pane-folder-selected-count =
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Păstrează filtrele aplicate când schimbi dosarul
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Meniu de filtrare rapidă
 quick-filter-bar-dropdown-unread =
     .label = Necitit
 quick-filter-bar-dropdown-starred =
@@ -163,9 +169,25 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Afișează mărimea dosarului
+folder-pane-header-hide-local-folders =
+    .label = Ascunde dosarele locale
+folder-pane-mode-context-button =
+    .title = Opțiuni mod dosare
 folder-pane-mode-context-toggle-compact-mode =
     .label = Mod afișare compact
     .accesskey = c
+folder-pane-mode-move-up =
+    .label = Mută în sus
+folder-pane-mode-move-down =
+    .label = Mută în jos
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 mesaj necitit
+        [few] { $count } mesaje necitite
+       *[other] { $count } de mesaje necitite
+    }
 
 ## Message thread pane
 

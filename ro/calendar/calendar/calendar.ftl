@@ -979,6 +979,33 @@ calendar-alarm-snooze-for =
     .label = Amână cu
 calendar-alarm-snooze-all-for =
     .label = Amână toate cu
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } minut
+            [few] { $count } minute
+           *[other] { $count } de minute
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] { $count } oră
+            [few] { $count } ore
+           *[other] { $count } de ore
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] { $count } zi
+            [few] { $count } zile
+           *[other] { $count } de zile
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.

@@ -128,9 +128,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = 紧凑模式
     .accesskey = C
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -458,24 +455,12 @@ openpgp-forget = 忘记 OpenPGP 密码
 quota-panel-percent-used = { $percent }% 已使用
     .title = IMAP 容量：已用 { $usage }/总共 { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -484,12 +469,3 @@ delete-action = 删除
 mark-as-starred-action = 已加星标
 mark-as-spam-action = 标记为垃圾邮件
 archive-action = 归档
-
-## Message list.
-
-
-## Prompts
-
-
-## Spam commands
-

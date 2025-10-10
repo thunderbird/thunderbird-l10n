@@ -81,7 +81,7 @@
 <!ENTITY saveAllAttachmentsCmd.accesskey "S">
 <!ENTITY detachAllAttachmentsCmd.label "Elimină toate atașamentele…">
 <!ENTITY detachAllAttachmentsCmd.accesskey "l">
-<!ENTITY deleteAllAttachmentsCmd.label "Șterge toate atașamentele…">
+<!ENTITY deleteAllAttachmentsCmd.label "Șterge tot…">
 <!ENTITY deleteAllAttachmentsCmd.accesskey "e">
 <!ENTITY openAttachment.tooltip "Deschide fișierul atașat">
 <!ENTITY detachedAttachmentFolder.show.label "Deschide dosarul în care se află">

@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Tömör nézet
     .accesskey = T
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -476,24 +473,12 @@ openpgp-forget = OpenPGP jelmondatok elfelejtése
 quota-panel-percent-used = { $percent }% tele
     .title = IMAP kvóta: { $usage } használva / { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -502,12 +487,3 @@ delete-action = Törlés
 mark-as-starred-action = Megjelölés csillagozottként
 mark-as-spam-action = Megjelölés levélszemétként
 archive-action = Archiválás
-
-## Message list.
-
-
-## Prompts
-
-
-## Spam commands
-

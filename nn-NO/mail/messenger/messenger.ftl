@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompakt vising
     .accesskey = K
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -476,24 +473,12 @@ openpgp-forget = Gløym OpenPGP-passordfrasar
 quota-panel-percent-used = { $percent }% full
     .title = IMAP-kvote: { $usage } brukt av totalt { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -502,12 +487,3 @@ delete-action = Slett
 mark-as-starred-action = Marker som stjernemarkert
 mark-as-spam-action = Marker som søppelpost
 archive-action = Arkiv
-
-## Message list.
-
-
-## Prompts
-
-
-## Spam commands
-

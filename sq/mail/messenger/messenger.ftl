@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Parje e Ngjeshur
     .accesskey = N
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -472,9 +469,6 @@ openpgp-forget = Harro frazëkalime OpenPGP
 quota-panel-percent-used = { $percent }% i mbushur
     .title = Kuota IMAP: { $usage } të përdorur, nga { $limit } gjithsej
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
@@ -482,26 +476,8 @@ mark-as-junk-key =
 mark-not-junk-key =
     .key = j
 
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Vëri Shenjë si të Lexuar
 delete-action = Fshije
 mark-as-spam-action = Vëri shenjë si i Padëshiruar
-
-## Message list.
-
-
-## Prompts
-
-
-## Spam commands
-

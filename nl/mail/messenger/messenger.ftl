@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Compacte weergave
     .accesskey = C
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -476,24 +473,12 @@ openpgp-forget = Vergeet OpenPGP-wachtwoorden
 quota-panel-percent-used = { $percent }% vol
     .title = IMAP-quota: { $usage } van totaal { $limit } gebruikt
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -502,12 +487,3 @@ delete-action = Verwijderen
 mark-as-starred-action = Markeren met ster
 mark-as-spam-action = Markeren als spam
 archive-action = Archiveren
-
-## Message list.
-
-
-## Prompts
-
-
-## Spam commands
-

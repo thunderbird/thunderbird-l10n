@@ -91,9 +91,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ամփոփ տեսք
     .accesskey = Ա
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -213,9 +210,6 @@ no-reply-title = Պատասխանը չի աջակցուում
 no-reply-message = Պատասխանի հասցէն ({ $email }) կարծէս վերահսկուող հասցէ չէ: Այս հասցէին ուղղուած հաղորդագրութիւնները հաւանաբար ոչ ոք չի կարդայ:
 no-reply-reply-anyway-button = Պատասխանել ամէն դէպքում
 
-## error messages
-
-
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -300,39 +294,9 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = թ
 mark-not-junk-key =
     .key = փ
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
-## Actions for the New Mail Notification
-
-
-## Message list.
-
-
-## Prompts
-
-
-## Spam commands
-
