@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = Analluogi modd neges tywyll
 dark-message-mode-toggle-disabled =
     .title = Galluogi modd neges tywyll
+
+## Spam filter
+
+message-bar-spam = Mae { -brand-short-name } yn meddwl mai sbam yw'r neges hon.
+message-bar-not-spam-button =
+    .label = Nid Sbam
+    .accesskey = N
+message-bar-learn-more-button =
+    .label = Dysgu rhagor…
+    .accesskey = D

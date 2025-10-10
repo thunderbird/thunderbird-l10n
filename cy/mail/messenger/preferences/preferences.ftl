@@ -47,6 +47,7 @@ compose-html-style-title = Arddull HTML
 composition-addressing-header = Cyfeirio
 privacy-main-header = Preifatrwydd
 privacy-passwords-header = Cyfrineiriau
+privacy-spam-header = Sbam
 privacy-junk-header = Sbam
 collection-header = Casglu a Defnyddio Data { -brand-short-name }
 collection-description = Rydym yn ceisio darparu dewisiadau i chi a chasglu dim ond beth sydd ei angen arnom i ddarparu a gwella { -brand-short-name } ar gyfer pawb. Rydym yn gofyn caniatâd bob tro cyn derbyn manylion personol.
@@ -627,6 +628,32 @@ primary-password-button =
     .accesskey = N
 forms-primary-pw-fips-title = Rydych ym modd FIPS. Mae FIPS angen Prif Gyfrinair nad yw'n wag.
 forms-master-pw-fips-desc = Methodd Newid eich Cyfrinair
+spam-description = Gosodwch eich gosodiadau sbam rhagosodedig. Gellir ffurfweddu gosodiadau sbam cyfrif-benodol yng Ngosodiadau Cyfrif.
+spam-marked-label =
+    .label = Pan fydd negeseuon yn cael eu marcio fel sbam:
+    .accesskey = P
+spam-move-label =
+    .label = Symudwch nhw i ffolder “Sbam” y cyfrif
+    .accesskey = S
+spam-delete-label =
+    .label = Eu dileu
+    .accesskey = E
+spam-read-description = Marcio negeseuon fel wedi'u darllen
+spam-read-manual-label =
+    .label = Pan gaiff ei farcio â llaw fel sbam
+    .accesskey = P
+spam-read-auto-label =
+    .label = Pan fydd { -brand-short-name } yn penderfynu mai sbam ydyn nhw
+    .accesskey = P
+spam-log-label =
+    .label = Galluogi logio hidlydd sbam addasol
+    .accesskey = G
+spam-log-button =
+    .label = Dangos y cofnod
+    .accesskey = D
+reset-spam-button =
+    .label = Ailosod Data Hyfforddi
+    .accesskey = A
 junk-description = Yma gallwch osod eich gosodiadau sbam rhagosodedig. Mae modd ffurfweddu gosodiadau penodol ar gyfer sbam yn y Gosodiadau Cyfrif.
 junk-marked-label =
     .label = Pan fydd negeseuon wedi'u marcio fel sbam:
@@ -689,6 +716,66 @@ email-e2ee-auto-off =
 email-e2ee-auto-off-notify =
     .label = Dangos hysbysiad pryd bynnag mae amgryptio wedi'i analluogi'n awtomatig
 email-e2ee-automatism-post = Gall penderfyniadau awtomatig gael eu diystyru trwy alluogi neu analluogi amgryptio wrth ysgrifennu neges. Nodyn: mae amgryptio bob tro'n cael ei alluogi'n awtomatig wrth ateb neges wedi'i hamgryptio.
+
+## DoH Section
+
+preferences-doh-header = DNS dros HTTPS
+preferences-doh-description = Mae System Enw Parth (DNS) dros HTTPS yn anfon eich cais am enw parth trwy gysylltiad wedi'i amgryptio, gan greu DNS diogel a'i gwneud hi'n anoddach i eraill weld pa wefan rydych chi ar fin mynd iddi.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Statws: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Darparwr: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = URL annilys
+preferences-doh-steering-status = Yn defnyddio darparwr lleol
+preferences-doh-status-active = Gweithredol
+preferences-doh-status-disabled = Diffodd
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Ddim yn weithredol ( { $reason } )
+preferences-doh-group-message = Galluogi DNS dros HTTPS
+preferences-doh-expand-section =
+    .tooltiptext = Rhagor o wybodaeth
+preferences-doh-setting-default =
+    .label = Diogelu Rhagosodedig
+    .accesskey = D
+preferences-doh-default-desc = Mae { -brand-short-name } yn penderfynu pryd i ddefnyddio DNS diogel i ddiogelu eich preifatrwydd.
+preferences-doh-default-detailed-desc-1 = Defnyddio DNS diogel mewn ardaloedd lle mae ar gael
+preferences-doh-default-detailed-desc-2 = Defnyddio'ch datrysiad DNS rhagosodedig os oes problem gyda'r darparwr DNS diogel
+preferences-doh-default-detailed-desc-3 = Defnyddio darparwr lleol, os yn bosibl
+preferences-doh-default-detailed-desc-4 = Diffodd pan fydd VPN, rheolaeth rhieni, neu bolisïau menter yn weithredol
+preferences-doh-default-detailed-desc-5 = Diffodd pan fydd rhwydwaith yn dweud wrth { -brand-short-name } na ddylai ddefnyddio DNS diogel
+preferences-doh-setting-enabled =
+    .label = Rhagor o Ddiogelwch
+    .accesskey = R
+preferences-doh-enabled-desc = Chi sy'n rheoli pryd i ddefnyddio DNS diogel a dewis eich darparwr.
+preferences-doh-enabled-detailed-desc-1 = Defnyddio'r darparwr rydych chi'n ei ddewis
+preferences-doh-enabled-detailed-desc-2 = Defnyddio'ch datrysiad DNS rhagosodedig dim ond os oes problem gyda DNS diogel
+preferences-doh-setting-strict =
+    .label = Y Diogelwch Eithaf
+    .accesskey = Y
+preferences-doh-strict-desc = Bydd { -brand-short-name } bob tro'n defnyddio DNS diogel. Fe welwch rybudd risg diogelwch cyn i ni ddefnyddio DNS eich system.
+preferences-doh-strict-detailed-desc-1 = Defnyddio dim ond y darparwr rydych chi'n ei ddewis
+preferences-doh-strict-detailed-desc-2 = Rhybuddio bob tro os nad yw DNS diogel ar gael
+preferences-doh-strict-detailed-desc-3 = Os nad yw DNS diogel ar gael ni fydd gwefannau'n llwytho nac yn gweithio'n iawn
+preferences-doh-setting-off =
+    .label = Diffodd
+    .accesskey = D
+preferences-doh-off-desc = Defnyddio'ch datrysydd DNS rhagosodedig
+preferences-doh-checkbox-warn =
+    .label = Rhybuddio os yw trydydd parti yn atal DNS diogel yn weithredol
+    .accesskey = R
+preferences-doh-select-resolver = Dewis darparwr:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } Rhagosodedig
+preferences-doh-url-custom =
+    .label = Cyfaddas
+    .accesskey = C
 
 ## Chat Tab
 

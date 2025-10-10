@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = Deshabilitar el modo de mensaje oscuro
 dark-message-mode-toggle-disabled =
     .title = Habilitar el modo de mensaje oscuro
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } piensa que este mensaje es spam.
+message-bar-not-spam-button =
+    .label = No es spam
+    .accesskey = N
+message-bar-learn-more-button =
+    .label = Conocer más…
+    .accesskey = C

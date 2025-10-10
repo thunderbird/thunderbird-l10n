@@ -188,6 +188,7 @@ account-hub-port-error-text = Rhaid i'r porth fod rhwng 1 a 65535
 account-hub-username-error-text = Mae angen enw defnyddiwr
     .title = Mae angen enw defnyddiwr
 account-hub-oauth-pending = Aros am awdurdodiad mewn llamlen mewngofnodi…
+account-hub-addon-install-button = Gosod
 account-hub-addon-install-needed = Nid yw { -brand-short-name } yn cefnogi'r gweinydd hwn yn frodorol. I gael mynediad at e-bost Exchange, <a data-l10n-name="addon-install"> gosodwch ychwanegyn trydydd parti fel Owl (taledig).</a>
 account-hub-addon-error = Methodd gosod ychwanegyn. Ceisiwch eto neu cysylltwch ag awdur yr ychwanegyn am gymorth.
 account-hub-security-warning = <span data-l10n-name="security-warning">Rhybudd: Wedi canfod gweinydd post anniogel.</span> Mae gan y gweinydd hwn ddiffyg amgryptio, gan ddatgelu eich cyfrinair a data. Cysylltwch â'ch gweinyddwr i sicrhau'r cysylltiad neu ewch ymlaen ar eich menter eich hun. <a data-l10n-name="faq-link">Gweler Cwestiynau Cyffredin am ragor.</a>

@@ -128,6 +128,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = 精簡檢視
     .accesskey = C
 
+## Folder names
+
+folder-name-spam = 是垃圾信
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -199,6 +203,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = 備存
     .tooltiptext = 備存
+context-menu-mark-spam =
+    .aria-label = 標示為垃圾信
+    .tooltiptext = 標示為垃圾信
+context-menu-mark-not-spam =
+    .aria-label = 標示為非垃圾文章
+    .tooltiptext = 標示為非垃圾文章
 context-menu-mark-junk =
     .aria-label = 標示為垃圾信
     .tooltiptext = 標示為垃圾信
@@ -469,12 +479,51 @@ openpgp-forget = 忘記 OpenPGP 密語
 quota-panel-percent-used = 已用 { $percent }%
     .title = IMAP 配額：已用 { $usage }，共 { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = 垃圾信狀態
+    .accesskey = 垃
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = 為垃圾信
+    .accesskey = 為
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = 非垃圾信
+    .accesskey = 非
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = 執行垃圾信控制
+    .accesskey = 執
+menu-run-spam-on-folder =
+    .label = 執行垃圾郵件控制
+    .accesskey = 執
+menu-delete-spam =
+    .label = 刪除標示為垃圾信的郵件
+    .accesskey = 刪
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = 清空垃圾信
+    .accesskey = 清
+
+## Thread pane.
+
+column-status-spam =
+    .label = 垃圾信狀態
+    .tooltiptext = 依照垃圾信狀態排序
+
+## Message header.
+
+header-spam-button =
+    .label = 是垃圾信
+    .tooltiptext = 將此訊息標示為垃圾信
 
 ## Actions for the New Mail Notification
 
@@ -483,3 +532,32 @@ delete-action = 刪除
 mark-as-starred-action = 標示為已加星號
 mark-as-spam-action = 標示為垃圾信
 archive-action = 備存
+
+## Message list.
+
+message-flag-spam = 是垃圾信
+menuitem-label-spam =
+    .label = 是垃圾信
+menuitem-label-spam-score-origin =
+    .label = 垃圾分數來源
+menuitem-label-spam-percentage =
+    .label = 垃圾信百分比
+menuitem-label-spam-status =
+    .label = 垃圾信狀態
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = 有空 { $folder } 嗎
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = 刪除 { $folder } 資料夾中的所有訊息與子資料夾
+prompt-dont-ask-again = 不要再問我。
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = 已完成 { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } 垃圾分析
+spam-processing-message = 正在處理垃圾訊息

@@ -133,6 +133,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Golwg Cryno
     .accesskey = G
 
+## Folder names
+
+folder-name-spam = Sbam
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -212,6 +216,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Archifo
     .tooltiptext = Archifo
+context-menu-mark-spam =
+    .aria-label = Marcio fel Sbam
+    .tooltiptext = Marcio fel Sbam
+context-menu-mark-not-spam =
+    .aria-label = Marciwch fel nad yw'n Sbam
+    .tooltiptext = Marciwch fel nad yw'n Sbam
 context-menu-mark-junk =
     .aria-label = Marcio fel Sbam
     .tooltiptext = Marcio fel Sbam
@@ -505,12 +515,51 @@ openpgp-forget = Anghofio cyfrinymadrodd OpenPGP
 quota-panel-percent-used = { $percent }% yn llawn
     .title = Cwota IMAP: { $usage } wedi'i ddefnyddio o gyfanswm o { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Statws Sbam
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Fel Sbam
+    .accesskey = F
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Fel Ddim yn Sbam
+    .accesskey = F
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Rhedeg Rheolaethau Sbam
+    .accesskey = R
+menu-run-spam-on-folder =
+    .label = Rhedeg Rheolaethau Sbam ar Ffolder
+    .accesskey = R
+menu-delete-spam =
+    .label = Dileu Post sydd wedi'i Farcio fel Sbam yn y Ffolder
+    .accesskey = D
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Sbam Gwag
+    .accesskey = S
+
+## Thread pane.
+
+column-status-spam =
+    .label = Statws Sbam
+    .tooltiptext = Trefnu yn ôl statws sbam
+
+## Message header.
+
+header-spam-button =
+    .label = Sbam
+    .tooltiptext = Marciwch y neges hon fel sbam
 
 ## Actions for the New Mail Notification
 
@@ -519,3 +568,32 @@ delete-action = Dileu
 mark-as-starred-action = Marciwch fel Serennog
 mark-as-spam-action = Marcio fel Sbam
 archive-action = Archifo
+
+## Message list.
+
+message-flag-spam = Sbam
+menuitem-label-spam =
+    .label = Sbam
+menuitem-label-spam-score-origin =
+    .label = Tarddiad Sgôr Sbam
+menuitem-label-spam-percentage =
+    .label = Canran Sbam
+menuitem-label-spam-status =
+    .label = Statws Sbam
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Yn wag { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Dileu pob neges ac is-ffolder yn y ffolder { $folder }?
+prompt-dont-ask-again = Peidio â gofyn eto.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Dadansoddiad sbam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } wedi'i gwblhau
+spam-processing-message = Prosesu negeseuon sbam

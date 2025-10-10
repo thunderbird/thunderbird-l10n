@@ -184,6 +184,7 @@ account-hub-port-error-text = El puerto debe estar entre 1 y 65535
 account-hub-username-error-text = Se requiere nombre de usuario
     .title = Se requiere nombre de usuario
 account-hub-oauth-pending = Esperando autorización en la ventana emergente de inicio de sesión…
+account-hub-addon-install-button = Instalar
 account-hub-addon-install-needed = { -brand-short-name } no es compatible de forma nativa con este servidor. Para acceder al correo electrónico de Exchange, <a data-l10n-name="addon-install">instale un complemento de terceros como Owl (pago).</a>
 account-hub-addon-error = Falló la instalación del complemento. Pruebe nuevamente o contacte al autor del complemento para obtener ayuda.
 account-hub-security-warning = <span data-l10n-name="security-warning">Advertencia: Se detectó un servidor de correo inseguro.</span> Este servidor carece de cifrado, lo que expone su contraseña y datos. Contacte a su administrador para asegurar la conexión o proceda bajo su propio riesgo. <a data-l10n-name="faq-link">Para más información, vea las preguntas frecuentes.</a>

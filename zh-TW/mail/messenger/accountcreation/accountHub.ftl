@@ -183,6 +183,7 @@ account-hub-port-error-text = 通訊埠必須在 1 到 65535 之間
 account-hub-username-error-text = 必須輸入使用者名稱
     .title = 必須輸入使用者名稱
 account-hub-oauth-pending = 正在等待登入視窗中的授權結果…
+account-hub-addon-install-button = 安裝
 account-hub-addon-install-needed = { -brand-short-name } 本身不支援此伺服器。若要存取 Exchange 郵件，請<a data-l10n-name="addon-install">安裝 Owl 等第三方附加元件（須付費）。</a>
 account-hub-addon-error = 附加元件安裝失敗。請再試一次或聯絡附加元件作者尋求協助。
 account-hub-security-warning = <span data-l10n-name="security-warning">警告：偵測到不安全的郵件伺服器。</span>此伺服器未加密連線，會洩漏您的密碼與資料。請聯絡您的管理員以加密連線，或繼續使用但自負風險。<a data-l10n-name="faq-link">若需更多資訊，請參考 FAQ 常見問題集。</a>

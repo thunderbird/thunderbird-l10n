@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Affichage compact
     .accesskey = c
 
+## Folder names
+
+folder-name-spam = Contenu indésirable
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Archiver
     .tooltiptext = Archiver
+context-menu-mark-spam =
+    .aria-label = Marquer comme spam
+    .tooltiptext = Marquer comme spam
+context-menu-mark-not-spam =
+    .aria-label = Marquer comme n’étant pas du spam
+    .tooltiptext = Marquer comme n’étant pas du spam
 context-menu-mark-junk =
     .aria-label = Marquer comme indésirable
     .tooltiptext = Marquer comme indésirable
@@ -477,12 +487,51 @@ quota-panel-percent-used =
     }
     .title = Quota IMAP : { $usage } utilisés sur { $limit } au total
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = État indésirable
+    .accesskey = É
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Comme spam
+    .accesskey = C
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Comme non indésirable
+    .accesskey = C
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Lancer des contrôles de courrier indésirable
+    .accesskey = L
+menu-run-spam-on-folder =
+    .label = Vérifier la présence de courrier indésirable dans le dossier
+    .accesskey = V
+menu-delete-spam =
+    .label = Supprimer les messages marqués comme spam de ce dossier
+    .accesskey = S
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Vider la liste des indésirables
+    .accesskey = V
+
+## Thread pane.
+
+column-status-spam =
+    .label = État indésirable
+    .tooltiptext = Trier par statut indésirable
+
+## Message header.
+
+header-spam-button =
+    .label = Contenu indésirable
+    .tooltiptext = Marquer ce message comme spam
 
 ## Actions for the New Mail Notification
 
@@ -491,3 +540,32 @@ delete-action = Supprimer
 mark-as-starred-action = Marquer comme suivi
 mark-as-spam-action = Marquer comme spam
 archive-action = Archiver
+
+## Message list.
+
+message-flag-spam = Contenu indésirable
+menuitem-label-spam =
+    .label = Contenu indésirable
+menuitem-label-spam-score-origin =
+    .label = Origine du score de spam
+menuitem-label-spam-percentage =
+    .label = Pourcentage de spam
+menuitem-label-spam-status =
+    .label = État indésirable
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = { $folder } vide ?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Supprimer tous les messages et sous-dossiers du dossier { $folder } ?
+prompt-dont-ask-again = Ne plus demander à l’avenir.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Analyse de courrier indésirable { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } terminée
+spam-processing-message = Traitement des messages indésirables

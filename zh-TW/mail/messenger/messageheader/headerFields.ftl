@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = 關閉暗色訊息模式
 dark-message-mode-toggle-disabled =
     .title = 開啟暗色訊息模式
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } 認為此訊息為垃圾信。
+message-bar-not-spam-button =
+    .label = 非垃圾信
+    .accesskey = 非
+message-bar-learn-more-button =
+    .label = 更多資訊…
+    .accesskey = 更

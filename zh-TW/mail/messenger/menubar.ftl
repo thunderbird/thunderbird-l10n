@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = 反刪除
     .tooltiptext = 取消刪除選擇的訊息
+toolbar-spam-button =
+    .label = 是垃圾信
+    .tooltiptext = 將所選郵件標示為垃圾信
+toolbar-not-spam-button =
+    .label = 非垃圾信
+    .tooltiptext = 將所選訊息標示為非垃圾信
 
 ## View
 

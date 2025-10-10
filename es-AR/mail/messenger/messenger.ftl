@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista compacta
     .accesskey = C
 
+## Folder names
+
+folder-name-spam = Spam
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Archivar
     .tooltiptext = Archivar
+context-menu-mark-spam =
+    .aria-label = Marcar como spam
+    .tooltiptext = Marcar como spam
+context-menu-mark-not-spam =
+    .aria-label = Marcar como no spam
+    .tooltiptext = Marcar como no spam
 context-menu-mark-junk =
     .aria-label = Marcar como basura
     .tooltiptext = Marcar como basura
@@ -473,12 +483,51 @@ openpgp-forget = Olvidar frases de contraseña de OpenPGP
 quota-panel-percent-used = { $percent }% lleno
     .title = Cuota IMAP: { $usage } usada de { $limit } en total
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Estado de spam
+    .accesskey = E
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Como spam
+    .accesskey = C
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Como no es spam
+    .accesskey = C
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Ejecutar controles de spam
+    .accesskey = E
+menu-run-spam-on-folder =
+    .label = Ejecutar controles de spam en la carpeta
+    .accesskey = E
+menu-delete-spam =
+    .label = Borrar correo marcado como spam en la carpeta
+    .accesskey = B
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Vaciar spam
+    .accesskey = V
+
+## Thread pane.
+
+column-status-spam =
+    .label = Estado de spam
+    .tooltiptext = Ordenar por estado de spam
+
+## Message header.
+
+header-spam-button =
+    .label = Spam
+    .tooltiptext = Marcar este mensaje como spam
 
 ## Actions for the New Mail Notification
 
@@ -487,3 +536,32 @@ delete-action = Borrar
 mark-as-starred-action = Marcar como destacado
 mark-as-spam-action = Marcar como spam
 archive-action = Archivar
+
+## Message list.
+
+message-flag-spam = Spam
+menuitem-label-spam =
+    .label = Spam
+menuitem-label-spam-score-origin =
+    .label = Origen de la puntuación de spam
+menuitem-label-spam-percentage =
+    .label = Porcentaje de spam
+menuitem-label-spam-status =
+    .label = Estado de spam
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = ¿{ $folder } vacío?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = ¿Borrar todos los mensajes y subcarpetas en la carpeta { $folder }?
+prompt-dont-ask-again = No preguntar de nuevo.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Análisis de spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } completo
+spam-processing-message = Procesando mensajes de spam

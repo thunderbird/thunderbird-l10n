@@ -90,6 +90,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Restaurer
     .tooltiptext = Restaurer les messages sélectionnés
+toolbar-spam-button =
+    .label = Contenu indésirable
+    .tooltiptext = Marquer les messages sélectionnés comme spam
+toolbar-not-spam-button =
+    .label = N’est pas du spam
+    .tooltiptext = Marquer les messages sélectionnés comme indésirables
 
 ## View
 

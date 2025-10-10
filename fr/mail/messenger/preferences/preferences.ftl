@@ -47,6 +47,7 @@ compose-html-style-title = Style HTML
 composition-addressing-header = Adressage
 privacy-main-header = Vie privée
 privacy-passwords-header = Mots de passe
+privacy-spam-header = Contenu indésirable
 privacy-junk-header = Courrier indésirable
 collection-header = Collecte de données par { -brand-short-name } et utilisation
 collection-description = Nous nous efforçons de vous laisser le choix et de recueillir uniquement les informations dont nous avons besoin pour proposer { -brand-short-name } et l’améliorer pour tout le monde. Nous demandons toujours votre permission avant de recevoir des données personnelles.
@@ -627,6 +628,32 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = Vous êtes actuellement en mode FIPS. Ce mode nécessite un mot de passe principal non vide.
 forms-master-pw-fips-desc = Échec de la modification du mot de passe principal
+spam-description = Définissez vos paramètres de courrier indésirable par défaut. Les paramètres de courrier indésirable spécifiques au compte peuvent être configurés dans les paramètres des comptes.
+spam-marked-label =
+    .label = Lorsque des messages sont marqués comme spam :
+    .accesskey = L
+spam-move-label =
+    .label = Déplacez-les dans le dossier « Spam » du compte
+    .accesskey = D
+spam-delete-label =
+    .label = les supprimer
+    .accesskey = l
+spam-read-description = Marquer les messages comme lus
+spam-read-manual-label =
+    .label = Si marqué manuellement comme spam
+    .accesskey = S
+spam-read-auto-label =
+    .label = Quand { -brand-short-name } détermine qu’il s’agit de spam
+    .accesskey = Q
+spam-log-label =
+    .label = Activer la journalisation du filtre de courrier indésirable adaptatif
+    .accesskey = A
+spam-log-button =
+    .label = Afficher le journal
+    .accesskey = A
+reset-spam-button =
+    .label = Réinitialiser les données d’apprentissage
+    .accesskey = R
 junk-description = Définir les paramètres par défaut des indésirables. Les paramètres pour les indésirables propres à chaque compte peuvent être configurés dans le menu  « Paramètres des comptes… ».
 junk-marked-label =
     .label = Lorsque des messages sont marqués comme indésirables :
@@ -691,6 +718,66 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Les décisions automatiques peuvent être outrepassées en activant ou désactivant manuellement le chiffrement lors de la rédaction d’un message.
     Remarque : le chiffrement est toujours activé automatiquement lorsque vous répondez à un message chiffré.
+
+## DoH Section
+
+preferences-doh-header = DNS via HTTPS
+preferences-doh-description = Le système de nom de domaine (DNS) via HTTPS envoie votre demande de résolution d’un nom de domaine à travers une connexion chiffrée, procurant un DNS sécurisé pour compliquer la tâche de tiers qui tenteraient de découvrir le site web sur lequel vous allez vous rendre.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = État : { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Fournisseur : { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Adresse invalide
+preferences-doh-steering-status = Utiliser un fournisseur local
+preferences-doh-status-active = Actif
+preferences-doh-status-disabled = Désactivé
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = inactif ({ $reason })
+preferences-doh-group-message = Activer le DNS via HTTPS en utilisant :
+preferences-doh-expand-section =
+    .tooltiptext = Plus d’informations
+preferences-doh-setting-default =
+    .label = Protection par défaut
+    .accesskey = P
+preferences-doh-default-desc = { -brand-short-name } décide quand utiliser le DNS sécurisé pour protéger votre vie privée.
+preferences-doh-default-detailed-desc-1 = Utiliser le DNS sécurisé dans les régions où il est disponible
+preferences-doh-default-detailed-desc-2 = Utiliser votre serveur DNS par défaut s’il y a un problème avec le fournisseur du DNS sécurisé
+preferences-doh-default-detailed-desc-3 = Utiliser un fournisseur local, si possible
+preferences-doh-default-detailed-desc-4 = Désactiver lorsqu’un VPN, un contrôle parental ou des stratégies d’entreprise sont actifs
+preferences-doh-default-detailed-desc-5 = Désactiver lorsqu’un réseau indique à { -brand-short-name } de ne pas utiliser de DNS sécurisé
+preferences-doh-setting-enabled =
+    .label = Protection renforcée
+    .accesskey = P
+preferences-doh-enabled-desc = Vous contrôlez le recours au DNS sécurisé et choisissez votre fournisseur.
+preferences-doh-enabled-detailed-desc-1 = Utiliser le fournisseur que vous avez sélectionné
+preferences-doh-enabled-detailed-desc-2 = Utiliser votre serveur DNS par défaut uniquement s’il y a un problème avec le DNS sécurisé
+preferences-doh-setting-strict =
+    .label = Protection maximale
+    .accesskey = P
+preferences-doh-strict-desc = { -brand-short-name } utilisera toujours le DNS sécurisé. Vous recevrez un avertissement de risque de sécurité avant l’utilisation du DNS de votre système.
+preferences-doh-strict-detailed-desc-1 = Utiliser uniquement le fournisseur que vous avez sélectionné
+preferences-doh-strict-detailed-desc-2 = Toujours prévenir si le DNS sécurisé n’est pas disponible
+preferences-doh-strict-detailed-desc-3 = Si le DNS sécurisé n’est pas disponible, les sites ne se chargeront pas ou ne fonctionneront pas correctement
+preferences-doh-setting-off =
+    .label = Désactivé
+    .accesskey = D
+preferences-doh-off-desc = Utiliser le serveur de résolution DNS par défaut
+preferences-doh-checkbox-warn =
+    .label = Avertir si un tiers empêche l’utilisation du DNS sécurisé
+    .accesskey = A
+preferences-doh-select-resolver = Choisir le fournisseur :
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (par défaut)
+preferences-doh-url-custom =
+    .label = Personnalisé
+    .accesskey = P
 
 ## Chat Tab
 

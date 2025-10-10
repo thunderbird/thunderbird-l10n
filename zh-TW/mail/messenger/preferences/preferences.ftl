@@ -47,6 +47,7 @@ compose-html-style-title = HTML 樣式
 composition-addressing-header = 地址
 privacy-main-header = 隱私權
 privacy-passwords-header = 密碼
+privacy-spam-header = 是垃圾信
 privacy-junk-header = 垃圾郵件
 collection-header = { -brand-short-name } 資料收集與使用
 collection-description = 我們致力於提供您選擇，也只會收集我們在提供與改善 { -brand-short-name } 時所必需的資料。我們也一定會經過您的同意才收集您的個人資訊。
@@ -627,6 +628,32 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = 您目前使用 FIPS 模式。FIPS 模式需要有主控密碼。
 forms-master-pw-fips-desc = 密碼變更失敗
+spam-description = 設定您的預設垃圾信設定。您可以在帳號設定中調整各個帳號的垃圾信設定。
+spam-marked-label =
+    .label = 當郵件被標示為垃圾信時:
+    .accesskey = 當
+spam-move-label =
+    .label = 移動到該帳號的「垃圾郵件」匣
+    .accesskey = 移
+spam-delete-label =
+    .label = 刪除它
+    .accesskey = 刪
+spam-read-description = 將郵件標示為已讀
+spam-read-manual-label =
+    .label = 當手動標示為垃圾文章時
+    .accesskey = 當
+spam-read-auto-label =
+    .label = 當 { -brand-short-name } 判斷為垃圾文章時
+    .accesskey = 當
+spam-log-label =
+    .label = 開啟漸進式垃圾郵件過濾紀錄
+    .accesskey = 開
+spam-log-button =
+    .label = 顯示記錄
+    .accesskey = 顯
+reset-spam-button =
+    .label = 重設訓練資料
+    .accesskey = 重
 junk-description = 設定您的預設垃圾郵件處理方式。可以到「帳號設定」調整各個帳號自己的處理方式。
 junk-marked-label =
     .label = 當郵件被標示為垃圾郵件時：
@@ -689,6 +716,66 @@ email-e2ee-auto-off =
 email-e2ee-auto-off-notify =
     .label = 加密被自動停用時顯示通知
 email-e2ee-automatism-post = 撰寫郵件時，可能會因手動開啟或關閉加密，而忽略自動做出的決定。註：回覆加密訊息時，總是會自動開啟加密。
+
+## DoH Section
+
+preferences-doh-header = DNS over HTTPS
+preferences-doh-description = DNS over HTTPS 會將您的網域名稱查詢請求加密後傳送，使其他人更難得知您要開啟的網站，讓 DNS 查詢變得安全。
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = 狀態：{ $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = 提供者：{ $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = 網址無效
+preferences-doh-steering-status = 使用本機提供者
+preferences-doh-status-active = 啟用
+preferences-doh-status-disabled = 關閉
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = 未啟用（{ $reason }）
+preferences-doh-group-message = 使用下列方式開啟 DNS over HTTPS：
+preferences-doh-expand-section =
+    .tooltiptext = 更多資訊
+preferences-doh-setting-default =
+    .label = 預設保護
+    .accesskey = 預
+preferences-doh-default-desc = { -brand-short-name } 會為您決定使用安全的 DNS 的時機，以保護您的隱私。
+preferences-doh-default-detailed-desc-1 = 在可用安全 DNS 的地區就使用
+preferences-doh-default-detailed-desc-2 = 若無法使用安全的 DNS 提供者，就使用您的預設 DNS 解析器。
+preferences-doh-default-detailed-desc-3 = 盡可能使用本機提供者
+preferences-doh-default-detailed-desc-4 = 當 VPN、家長監護設定或企業政策生效時就關閉
+preferences-doh-default-detailed-desc-5 = 當網路裝置告訴 { -brand-short-name } 不該使用安全 DNS 時就關閉
+preferences-doh-setting-enabled =
+    .label = 加強保護
+    .accesskey = 加
+preferences-doh-enabled-desc = 由您自行決定要使用哪個提供者的安全 DNS。
+preferences-doh-enabled-detailed-desc-1 = 使用您選擇的提供者
+preferences-doh-enabled-detailed-desc-2 = 只在無法使用安全的 DNS 提供者時，使用您的預設 DNS 解析器。
+preferences-doh-setting-strict =
+    .label = 最大保護
+    .accesskey = 最
+preferences-doh-strict-desc = { -brand-short-name } 總是會使用安全 DNS。若我們需要使用系統 DNS 時，您會看到安全性警告。
+preferences-doh-strict-detailed-desc-1 = 只使用您選擇的提供者
+preferences-doh-strict-detailed-desc-2 = 安全 DNS 無法使用時總是警告我
+preferences-doh-strict-detailed-desc-3 = 若無法使用安全 DNS，就不開啟網站或無法正常運作
+preferences-doh-setting-off =
+    .label = 關閉
+    .accesskey = 關
+preferences-doh-off-desc = 使用您系統預設的 DNS 解析器
+preferences-doh-checkbox-warn =
+    .label = 若有第三方系統主動封鎖安全 DNS 時警告我
+    .accesskey = 若
+preferences-doh-select-resolver = 選擇提供者：
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name }（預設）
+preferences-doh-url-custom =
+    .label = 自訂
+    .accesskey = 自
 
 ## Chat Tab
 

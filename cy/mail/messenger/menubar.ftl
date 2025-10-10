@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Dad-ddileu
     .tooltiptext = Dad-ddileu'r negeseuon hyn
+toolbar-spam-button =
+    .label = Sbam
+    .tooltiptext = Marciwch y negeseuon a ddewiswyd fel sbam
+toolbar-not-spam-button =
+    .label = Nid Sbam
+    .tooltiptext = Marciwch y negeseuon a ddewiswyd fel rhai nad ydynt yn sbam
 
 ## View
 

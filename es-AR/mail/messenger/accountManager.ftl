@@ -33,3 +33,7 @@ outgoing-server-section-name = Servidor saliente
 outgoing-server-settings-title = Configuración del servidor saliente
 outgoing-server-settings-description = Al administrar sus identidades, puede usar un servidor de esta lista seleccionándolo como el servidor saliente o puede usar el servidor predeterminado de esta lista seleccionando “Usar servidor predeterminado”.
 outgoing-server-type = Tipo de servidor:
+panel-settings-spam = Configuración de spam
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Problema detectado con la configuración de spam para { $account }. ¿Desea revisarlos antes de guardar los cambios?

@@ -184,6 +184,7 @@ account-hub-port-error-text = La porta deve essere compresa tra 1 e 65535
 account-hub-username-error-text = Il nome utente è obbligatorio
     .title = Il nome utente è obbligatorio
 account-hub-oauth-pending = In attesa di autorizzazione nella finestra pop-up di accesso…
+account-hub-addon-install-button = Installa
 account-hub-addon-install-needed = { -brand-short-name } non supporta questo server in modo nativo. Per accedere alla posta elettronica di Exchange, <a data-l10n-name="addon-install">installa un componente aggiuntivo di terze parti come Owl (a pagamento)</a>.
 account-hub-addon-error = Installazione del componente aggiuntivo non riuscita. Riprova o contatta l’autore del componente aggiuntivo per ricevere assistenza.
 account-hub-security-warning = <span data-l10n-name="security-warning">Attenzione: rilevato server di posta non sicuro.</span> Questo server non dispone di crittografia, mettendo a rischio la tua password e i tuoi dati. Contattare l’amministratore per proteggere la connessione o procedere a proprio rischio. <a data-l10n-name="faq-link">Per ulteriori informazioni, consulta le FAQ.</a>
