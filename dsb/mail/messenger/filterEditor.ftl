@@ -16,3 +16,4 @@ rule-action-set-spam-status =
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = powěsć z id = { $id } do { $folder } pśesunjona
+filter-action-log-spam = spamowe pógódnośenje

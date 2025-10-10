@@ -647,6 +647,12 @@ spam-read-auto-label =
 spam-log-label =
     .label = Protokolěrowanje pśiměrjobnego spamowego filtra zmóžniś
     .accesskey = P
+spam-log-button =
+    .label = Protokol pokazaś
+    .accesskey = r
+reset-spam-button =
+    .label = Treněrowańske daty slědk stajiś
+    .accesskey = T
 junk-description = Nastajśo swóje standardne nastajenja za cajkowu e-mail. Nastajenja cajkoweje e-maile, specifiske za konto, daju se w kontowych nastajenjach konfigurěrowaś.
 junk-marked-label =
     .label = Gaž se powěsći ako cajk markěruju:
@@ -716,6 +722,44 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = DNS pśez HTTPS
+preferences-doh-description = System domenowych mjenjow (DNS) pśez HTTPS waše napšašowanje za domenowym mjenim pśez skoděrowane zwisk sćelo, staja wěsty DNS k dispoziciji a póśěžujo drugim wósobam wiźeś, ku kótarym websedłam se wóglědujośo.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Status: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Póbitowaŕ: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Njepłaśiwy URL
+preferences-doh-steering-status = Lokalnego póbitowarja wužywaś
+preferences-doh-status-active = Aktiwny
+preferences-doh-status-disabled = Wušaltowany
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Njeaktiwny ({ $reason })
+preferences-doh-group-message = DNS pśez HTTPS zmóžniś z pomocu:
+preferences-doh-expand-section =
+    .tooltiptext = Dalšne informacije
+preferences-doh-setting-default =
+    .label = Standardny šćit
+    .accesskey = S
+preferences-doh-default-desc = { -brand-short-name } rozsuźujo, gdy wy měł wěsty DNS wužywaś, aby swóju priwatnosć šćitał.
+preferences-doh-default-detailed-desc-1 = Wužywajśo wěsty DNS w regionach, źož jo k dispoziciji
+preferences-doh-default-detailed-desc-2 = Wužywajśo swój standardny DNS-resolwer, jolic dajo problem z póbitowarjom za wěsty DNS
+preferences-doh-default-detailed-desc-3 = Wužywajśo lokalnego póbitowarja, jolic móžno
+preferences-doh-default-detailed-desc-4 = Znjemóžniśo, gaž VPN, kontrola starjejšych abo pśedewześowe směrnice su aktiwne
+preferences-doh-default-detailed-desc-5 = Znjemóžniśo, gaž seś { -brand-short-name } k wěsći dajo, až wón njama wěsty DNS wužywaś
+preferences-doh-setting-enabled =
+    .label = Pówušony šćit
+    .accesskey = P
+preferences-doh-enabled-desc = Kontrolěrujośo, gaž se ma wěsty DNS wužywaś a wuběraśo swójogo póbitowarja.
+preferences-doh-enabled-detailed-desc-1 = Póbitowarja wužywaś, kótaregož sćo wubrał
+preferences-doh-enabled-detailed-desc-2 = Wužywajśo jano swój standardny DNS-resolwer, jolic dajo problem z wěstym DNS
+preferences-doh-setting-strict =
+    .label = Maksimalny šćit
+    .accesskey = M
 preferences-doh-strict-desc = { -brand-short-name } buźo pśecej wěsty DNS wužywaś. Buźośo warnowanje wěstotnego rizika wiźiśo, nježli až waš systemowy DNS wužywamy.
 preferences-doh-strict-detailed-desc-1 = Jano póbitowarja wužywaś, kótaregož sćo wubrał
 preferences-doh-strict-detailed-desc-2 = Pśecej warnowaś, jolic wěsty DNS njejo k dispoziciji

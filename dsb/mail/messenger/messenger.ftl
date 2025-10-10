@@ -568,3 +568,7 @@ prompt-empty-folder-title = { $folder } prozniś?
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-message = Wšykne powěsći a pódzarědniki w zarědniku { $folder } lašowaś?
 prompt-dont-ask-again = Wěcej se njepšašaś.
+
+## Spam commands
+
+spam-processing-message = Spamowe powěsći se pśeźěłuju
