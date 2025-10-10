@@ -131,7 +131,7 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Folder names
 
-folder-name-spam = Contenu indésirable
+folder-name-spam = Indésirables
 
 ## File Menu
 

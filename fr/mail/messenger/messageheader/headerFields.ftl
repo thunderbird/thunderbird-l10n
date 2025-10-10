@@ -108,10 +108,10 @@ dark-message-mode-toggle-disabled =
 
 ## Spam filter
 
-message-bar-spam = { -brand-short-name } pense que ce message est du spam.
+message-bar-spam = { -brand-short-name } pense que ce message est indésirable.
 message-bar-not-spam-button =
-    .label = N’est pas du spam
-    .accesskey = N
+    .label = Acceptable
+    .accesskey = A
 message-bar-learn-more-button =
     .label = En savoir plus…
     .accesskey = E
