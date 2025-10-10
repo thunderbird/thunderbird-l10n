@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+rule-menuitem-spam =
+    .label = Indésirable
+rule-menuitem-not-spam =
+    .label = Acceptable
 run-filter-before-spam =
     .label = Filtrer avant la vérification des indésirables
 run-filter-after-spam =
@@ -17,3 +21,4 @@ spam-message-detection-log = Message indésirable de { $author } détecté - { $
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = message id = { $id } déplacé vers { $folder }
+filter-action-log-spam = score de spam

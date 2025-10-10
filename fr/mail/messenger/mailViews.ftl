@@ -5,4 +5,5 @@
 mail-view-known-people = Connaissances
 mail-view-recent = Messages récents
 mail-view-last-five-days = Ces 5 derniers jours
+mail-view-not-spam = Acceptable
 mail-view-has-attachments = Avec pièces jointes

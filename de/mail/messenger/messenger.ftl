@@ -542,3 +542,26 @@ archive-action = Archivieren
 message-flag-spam = Spam
 menuitem-label-spam =
     .label = Spam
+menuitem-label-spam-score-origin =
+    .label = Ursprung der Spam-Bewertung
+menuitem-label-spam-percentage =
+    .label = Anteil an Spam
+menuitem-label-spam-status =
+    .label = Status „Spam“
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = { $folder } leeren?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Sollen wirklich alle Nachrichten und Unterordner im Ordner { $folder } endgültig gelöscht werden?
+prompt-dont-ask-again = Das nächste Mal nicht nachfragen
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Spam-Analyse zu { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } abgeschlossen
+spam-processing-message = Spam-Nachrichten werden verarbeitet
