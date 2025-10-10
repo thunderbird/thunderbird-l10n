@@ -205,11 +205,11 @@ context-menu-archive =
     .aria-label = Archiver
     .tooltiptext = Archiver
 context-menu-mark-spam =
-    .aria-label = Marquer comme spam
-    .tooltiptext = Marquer comme spam
+    .aria-label = Marquer comme indésirable
+    .tooltiptext = Marquer comme indésirable
 context-menu-mark-not-spam =
-    .aria-label = Marquer comme n’étant pas du spam
-    .tooltiptext = Marquer comme n’étant pas du spam
+    .aria-label = Marquer comme acceptable
+    .tooltiptext = Marquer comme acceptable
 context-menu-mark-junk =
     .aria-label = Marquer comme indésirable
     .tooltiptext = Marquer comme indésirable
@@ -491,7 +491,7 @@ quota-panel-percent-used =
 
 sort-by-spam-status =
     .label = État indésirable
-    .accesskey = É
+    .accesskey = t
 
 ## Message menu.
 
@@ -518,8 +518,8 @@ menu-delete-spam =
 ## Folder pane context.
 
 folder-context-empty-spam =
-    .label = Vider la liste des indésirables
-    .accesskey = V
+    .label = Supprimer les indésirables
+    .accesskey = S
 
 ## Thread pane.
 
@@ -557,7 +557,7 @@ menuitem-label-spam-status =
 
 # Variables:
 # $folder (String) - The name of the selected folder.
-prompt-empty-folder-title = { $folder } vide ?
+prompt-empty-folder-title = Vider { $folder } ?
 # Variables:
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-message = Supprimer tous les messages et sous-dossiers du dossier { $folder } ?
@@ -567,5 +567,5 @@ prompt-dont-ask-again = Ne plus demander à l’avenir.
 
 # Variables:
 # $percentage (Number) - The percentage of completion of the spam analysis.
-spam-analysis-percentage = Analyse de courrier indésirable { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } terminée
+spam-analysis-percentage = Analyse des messages indésirables { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } terminée
 spam-processing-message = Traitement des messages indésirables
