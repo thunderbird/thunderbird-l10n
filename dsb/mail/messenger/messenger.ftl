@@ -558,3 +558,13 @@ menuitem-label-spam-percentage =
     .label = Spamowy późěl
 menuitem-label-spam-status =
     .label = Spamowy status
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = { $folder } prozniś?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Wšykne powěsći a pódzarědniki w zarědniku { $folder } lašowaś?
+prompt-dont-ask-again = Wěcej se njepšašaś.

@@ -47,6 +47,7 @@ compose-html-style-title = HTML-stil
 composition-addressing-header = Adresěrowanje
 privacy-main-header = Priwatnosć
 privacy-passwords-header = Gronidła
+privacy-spam-header = Spam
 privacy-junk-header = Cajk
 collection-header = Gromaźenje a wužywanje datow { -brand-short-name }
 collection-description = Comy was z wuběrkami wobstaraś a janož to zběraś, což musymy póbitowaś, aby my { -brand-short-name } za kuždego pólěpšili. Pšosymy pśecej wó dowólnosć, nježli až wósobinske daty dostanjomy.
@@ -627,6 +628,25 @@ primary-password-button =
     .accesskey = z
 forms-primary-pw-fips-title = Sćo tuchylu we FIPS-modusu. FIPS pomina se głowne gronidło.
 forms-master-pw-fips-desc = Změnjanje gronidła njejo se raźiło
+spam-marked-label =
+    .label = Gaž se powěsći ako spam markěruju:
+    .accesskey = G
+spam-move-label =
+    .label = Je do kontowego zarědnika "Spam" pśesunuś
+    .accesskey = k
+spam-delete-label =
+    .label = Je lašowaś
+    .accesskey = l
+spam-read-description = Powěsći ako pśecytane markěrowaś
+spam-read-manual-label =
+    .label = Gaž se manuelnje ako spam markěruju
+    .accesskey = m
+spam-read-auto-label =
+    .label = Gaž { -brand-short-name } póstaja, až su spam
+    .accesskey = s
+spam-log-label =
+    .label = Protokolěrowanje pśiměrjobnego spamowego filtra zmóžniś
+    .accesskey = P
 junk-description = Nastajśo swóje standardne nastajenja za cajkowu e-mail. Nastajenja cajkoweje e-maile, specifiske za konto, daju se w kontowych nastajenjach konfigurěrowaś.
 junk-marked-label =
     .label = Gaž se powěsći ako cajk markěruju:
@@ -693,6 +713,28 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Awtomatiske rozsudy daju se pśepisaś, gaž se koděrowanje manuelnje zmóžnja abo znjemóžnja, mjaztym až powěsć pišośo.
     Pokaz: Koděrowanje se pśecej awtomatiski zmóžnja, gaž na skoděrowanu powěsć wótegranjaśo.
+
+## DoH Section
+
+preferences-doh-strict-desc = { -brand-short-name } buźo pśecej wěsty DNS wužywaś. Buźośo warnowanje wěstotnego rizika wiźiśo, nježli až waš systemowy DNS wužywamy.
+preferences-doh-strict-detailed-desc-1 = Jano póbitowarja wužywaś, kótaregož sćo wubrał
+preferences-doh-strict-detailed-desc-2 = Pśecej warnowaś, jolic wěsty DNS njejo k dispoziciji
+preferences-doh-strict-detailed-desc-3 = Jolic wěsty DNS njejo k dispoziciji, se sedła njezacytaju abo pórědnje njefunkcioněruju
+preferences-doh-setting-off =
+    .label = Wušaltowany
+    .accesskey = u
+preferences-doh-off-desc = Wužywajśo swój standardny DNS-resolwer
+preferences-doh-checkbox-warn =
+    .label = Warnowaś, jolic tśeśi póbitowaŕ wěstemu DNS aktiwnje zajźujo
+    .accesskey = W
+preferences-doh-select-resolver = Wubjeŕśo póbitowarja:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (standard)
+preferences-doh-url-custom =
+    .label = Swójski
+    .accesskey = S
 
 ## Chat Tab
 
