@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompakt vy
     .accesskey = K
 
+## Folder names
+
+folder-name-spam = Skräppost
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Arkivera
     .tooltiptext = Arkivera
+context-menu-mark-spam =
+    .aria-label = Markera som skräppost
+    .tooltiptext = Markera som skräppost
+context-menu-mark-not-spam =
+    .aria-label = Markera som inte skräppost
+    .tooltiptext = Markera som inte skräppost
 context-menu-mark-junk =
     .aria-label = Markera som skräp
     .tooltiptext = Markera som skräp
@@ -473,12 +483,30 @@ openpgp-forget = Glöm OpenPGP-lösenfraser
 quota-panel-percent-used = { $percent }% full{ $usage }{ $usage }
     .title = IMAP-kvot: { $usage } använd av { $limit } totalt
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Skräppoststatus
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Som skräppost
+    .accesskey = m
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Som inte skräppost
+    .accesskey = n
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Kör skräppostkontroller
+    .accesskey = K
+menu-run-spam-on-folder =
+    .label = Kör skräppostkontroller på mapp
+    .accesskey = m
 
 ## Actions for the New Mail Notification
 

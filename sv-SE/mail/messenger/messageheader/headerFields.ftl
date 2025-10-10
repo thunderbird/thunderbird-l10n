@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = Inaktivera mörkt meddelandeläge
 dark-message-mode-toggle-disabled =
     .title = Aktivera mörkt meddelandeläge
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } tycker att meddelandet är skräppost.
+message-bar-not-spam-button =
+    .label = Inte skräppost
+    .accesskey = n
+message-bar-learn-more-button =
+    .label = Läs mer…
+    .accesskey = L

@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Ångra ta bort
     .tooltiptext = Ångra borttagning av valda meddelanden
+toolbar-spam-button =
+    .label = Skräppost
+    .tooltiptext = Markera de valda meddelandena som skräppost
+toolbar-not-spam-button =
+    .label = Inte skräppost
+    .tooltiptext = Markera de valda meddelandena som inte skräppost
 
 ## View
 

@@ -640,13 +640,13 @@ spam-delete-label =
     .accesskey = l
 spam-read-description = Marquer les messages comme lus
 spam-read-manual-label =
-    .label = Si marqué manuellement comme spam
-    .accesskey = S
+    .label = Lorsque je les marque manuellement comme indésirables
+    .accesskey = L
 spam-read-auto-label =
-    .label = Quand { -brand-short-name } détermine qu’il s’agit de spam
-    .accesskey = Q
+    .label = Lorsque { -brand-short-name } détermine qu’ils sont indésirables
+    .accesskey = L
 spam-log-label =
-    .label = Activer la journalisation du filtre de courrier indésirable adaptatif
+    .label = Activer la journalisation du filtre adaptatif des indésirables
     .accesskey = A
 spam-log-button =
     .label = Afficher le journal
@@ -737,7 +737,7 @@ preferences-doh-status-active = Actif
 preferences-doh-status-disabled = Désactivé
 # Variables:
 #   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
-preferences-doh-status-not-active = inactif ({ $reason })
+preferences-doh-status-not-active = Inactif ({ $reason })
 preferences-doh-group-message = Activer le DNS via HTTPS en utilisant :
 preferences-doh-expand-section =
     .tooltiptext = Plus d’informations

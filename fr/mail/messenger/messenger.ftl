@@ -496,23 +496,23 @@ sort-by-spam-status =
 ## Message menu.
 
 menu-mark-as-spam =
-    .label = Comme spam
+    .label = Comme indésirable
     .accesskey = C
 mark-as-junk-key =
     .key = j
 menu-mark-not-spam =
-    .label = Comme non indésirable
-    .accesskey = C
+    .label = Comme acceptable
+    .accesskey = a
 mark-not-junk-key =
     .key = j
 menu-recalculate-spam-score =
-    .label = Lancer des contrôles de courrier indésirable
+    .label = Lancer le contrôle des indésirables
     .accesskey = L
 menu-run-spam-on-folder =
-    .label = Vérifier la présence de courrier indésirable dans le dossier
+    .label = Vérifier la présence de messages indésirables dans le dossier
     .accesskey = V
 menu-delete-spam =
-    .label = Supprimer les messages marqués comme spam de ce dossier
+    .label = Supprimer les indésirables de ce dossier
     .accesskey = S
 
 ## Folder pane context.
@@ -525,13 +525,13 @@ folder-context-empty-spam =
 
 column-status-spam =
     .label = État indésirable
-    .tooltiptext = Trier par statut indésirable
+    .tooltiptext = Trier par état indésirable
 
 ## Message header.
 
 header-spam-button =
-    .label = Contenu indésirable
-    .tooltiptext = Marquer ce message comme spam
+    .label = Indésirable
+    .tooltiptext = Marquer ce message comme indésirable
 
 ## Actions for the New Mail Notification
 
@@ -543,13 +543,13 @@ archive-action = Archiver
 
 ## Message list.
 
-message-flag-spam = Contenu indésirable
+message-flag-spam = Indésirable
 menuitem-label-spam =
-    .label = Contenu indésirable
+    .label = Indésirable
 menuitem-label-spam-score-origin =
     .label = Origine du score de spam
 menuitem-label-spam-percentage =
-    .label = Pourcentage de spam
+    .label = Pourcentage d’indésirables
 menuitem-label-spam-status =
     .label = État indésirable
 

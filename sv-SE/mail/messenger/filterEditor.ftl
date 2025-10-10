@@ -10,7 +10,15 @@ run-filter-before-spam =
     .label = Filtrera innan skräppostklassificering
 run-filter-after-spam =
     .label = Filtrera efter skräppostklassificering
+rule-action-set-spam-status =
+    .label = Sätt skräppoststatus till
+# Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = Upptäckte skräppost från { $author } - { $subject } den { $date }
 # Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = flyttat meddelande med id = { $id } till { $folder }
+filter-action-log-spam = skräppostpoäng
