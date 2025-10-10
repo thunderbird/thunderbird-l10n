@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Wiederherstellen
     .tooltiptext = Löschen gewählter Nachricht(en) rückgängig machen
+toolbar-spam-button =
+    .label = Spam
+    .tooltiptext = Ausgewählte Nachrichten als Spam markieren
+toolbar-not-spam-button =
+    .label = Kein Spam
+    .tooltiptext = Ausgewählte Nachrichten als „Kein Spam“ markieren
 
 ## View
 

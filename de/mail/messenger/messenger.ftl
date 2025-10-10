@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompakte Ansicht
     .accesskey = K
 
+## Folder names
+
+folder-name-spam = Spam
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Archivieren
     .tooltiptext = Archivieren
+context-menu-mark-spam =
+    .aria-label = Als Spam markieren
+    .tooltiptext = Als Spam markieren
+context-menu-mark-not-spam =
+    .aria-label = Als „Kein Spam“ markieren
+    .tooltiptext = Als „Kein Spam“ markieren
 context-menu-mark-junk =
     .aria-label = Als Junk markieren
     .tooltiptext = Als Junk markieren
@@ -473,12 +483,51 @@ openpgp-forget = OpenPGP-Passphrasen vergessen
 quota-panel-percent-used = { $percent }% belegt
     .title = IMAP-Kontingent: { $usage } von insgesamt { $limit } belegt
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Status „Spam“
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Als Spam
+    .accesskey = S
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Als „Kein Spam“
+    .accesskey = n
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Spam-Filter ausführen
+    .accesskey = p
+menu-run-spam-on-folder =
+    .label = Spam-Filter auf Ordner anwenden
+    .accesskey = a
+menu-delete-spam =
+    .label = Spam in diesem Ordner löschen
+    .accesskey = d
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Spam leeren
+    .accesskey = S
+
+## Thread pane.
+
+column-status-spam =
+    .label = Status „Spam“
+    .tooltiptext = Nach Status „Spam“ sortieren
+
+## Message header.
+
+header-spam-button =
+    .label = Spam
+    .tooltiptext = Diese Nachricht als Spam markieren
 
 ## Actions for the New Mail Notification
 
@@ -487,3 +536,9 @@ delete-action = Löschen
 mark-as-starred-action = Kennzeichnen
 mark-as-spam-action = Als Spam markieren
 archive-action = Archivieren
+
+## Message list.
+
+message-flag-spam = Spam
+menuitem-label-spam =
+    .label = Spam

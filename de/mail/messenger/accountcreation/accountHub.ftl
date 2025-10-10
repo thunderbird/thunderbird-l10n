@@ -184,6 +184,7 @@ account-hub-port-error-text = Port muss zwischen 1 und 65535 liegen
 account-hub-username-error-text = Benutzername ist erforderlich
     .title = Benutzername ist erforderlich
 account-hub-oauth-pending = Warten auf Autorisierung im Anmelde-Popup…
+account-hub-addon-install-button = Installieren
 account-hub-addon-install-needed = { -brand-short-name } unterstützt diesen Server nicht nativ. Um auf Exchange-E-Mail-Adressen zuzugreifen, <a data-l10n-name="addon-install">installieren Sie das Add-on eines Drittanbieters wie Owl (kostenpflichtig).</a>
 account-hub-addon-error = Add-on-Installation fehlgeschlagen. Bitte versuchen Sie es erneut oder wenden Sie sich an den Add-on-Autor, um Unterstützung zu erhalten.
 account-hub-security-warning = <span data-l10n-name="security-warning">Warnung: Unsicherer Mail-Server erkannt.</span> Dieser Server ist nicht verschlüsselt, sodass Ihr Passwort und Ihre Daten offengelegt werden. Kontaktieren Sie Ihren Administrator, um die Verbindung zu sichern oder fahren Sie auf eigene Gefahr fort. <a data-l10n-name="faq-link">Weitere Informationen finden Sie in den FAQ.</a>
