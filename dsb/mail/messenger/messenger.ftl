@@ -131,6 +131,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktny naglěd
     .accesskey = K
 
+## Folder names
+
+folder-name-spam = Spam
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -206,6 +210,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Archiwěrowaś
     .tooltiptext = Archiwěrowaś
+context-menu-mark-spam =
+    .aria-label = Ako spam markěrowaś
+    .tooltiptext = Ako spam markěrowaś
+context-menu-mark-not-spam =
+    .aria-label = Ako žeden spam markěrowaś
+    .tooltiptext = Ako žeden spam markěrowaś
 context-menu-mark-junk =
     .aria-label = Ako cajk markěrowaś
     .tooltiptext = Ako cajk markěrowaś
@@ -489,12 +499,45 @@ openpgp-forget = Gronidłowe wuraze OpenPGP zabyś
 quota-panel-percent-used = { $percent }% połne
     .title = Kwoty IMAP: { $usage } z { $limit } dogromady wužyte
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Spamowy status
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Ako spam
+    .accesskey = A
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Ako žeden spam
+    .accesskey = e
 mark-not-junk-key =
     .key = j
+menu-delete-spam =
+    .label = E-mail markěrowanu ako spam w zarědniku lašowaś
+    .accesskey = E
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Spam prozniś
+    .accesskey = S
+
+## Thread pane.
+
+column-status-spam =
+    .label = Spamowy status
+    .tooltiptext = Pó spamowem statusu sortěrowaś
+
+## Message header.
+
+header-spam-button =
+    .label = Spam
+    .tooltiptext = Toś tu powěsć ako spam markěrowaś
 
 ## Actions for the New Mail Notification
 
@@ -503,3 +546,15 @@ delete-action = Lašowaś
 mark-as-starred-action = Z gwězdku markěrowaś
 mark-as-spam-action = Ako spam markěrowaś
 archive-action = Archiwěrowaś
+
+## Message list.
+
+message-flag-spam = Spam
+menuitem-label-spam =
+    .label = Spam
+menuitem-label-spam-score-origin =
+    .label = Póchad spamowego pógódnośenja
+menuitem-label-spam-percentage =
+    .label = Spamowy późěl
+menuitem-label-spam-status =
+    .label = Spamowy status

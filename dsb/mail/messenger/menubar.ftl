@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Wótnowiś
     .tooltiptext = Wubrane powěsći wótnowiś
+toolbar-spam-button =
+    .label = Spam
+    .tooltiptext = Wubrane powěsći ako spam markěrowaś
+toolbar-not-spam-button =
+    .label = Njejo spam
+    .tooltiptext = Wubrane powěsći ako žeden spam markěrowaś
 
 ## View
 

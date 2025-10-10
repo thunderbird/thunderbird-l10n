@@ -186,6 +186,7 @@ account-hub-port-error-text = Port musy mjazy 1 a 65535 byś
 account-hub-username-error-text = Wužywaŕske mě jo trjebne
     .title = Wužywaŕske mě jo trjebne
 account-hub-oauth-pending = Caka se za awtorizěrowanje we wuskokujucem woknje pśizjawjenja…
+account-hub-addon-install-button = Instalěrowaś
 account-hub-addon-install-needed = { -brand-short-name } wót doma toś ten serwer njepódpěra. Aby pśistup k e-maili Exchange měł, <a data-l10n-name="addon-install">instalěrujśo dodank tśeśego póbitowarja ako Owl (ma se płaśiś).</a>
 account-hub-addon-error = Instalacija dodanka njejo se raźiła. Pšosym wopytajśo hyšći raz abo stajśo se z awtorom dodanka do zwiska, aby pomoc dostał.
 account-hub-security-warning = <span data-l10n-name="security-warning">Warnowanje: Njewěsty e-mailowy serwer jo se namakał.</span> Toś ten serwer njama koděrowanje, wótekšywa wašo gronidło a waše daty. Stajśo se ze swójim administratorom do zwiska, aby zwisk zawěsćił abo na swójske riziko pókšacował. <a data-l10n-name="faq-link">Glejśo Cesto stajone pšašenja za dalšne informacije.</a>
