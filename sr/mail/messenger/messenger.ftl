@@ -9,6 +9,21 @@ messenger-window-close-button =
     .tooltiptext = Затвори
 about-rights-notification-text = { -brand-short-name } је слободан и отворен софтвер који је изградила заједница више хиљада особа из целог света.
 
+## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -51,6 +66,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Сажети преглед
     .accesskey = г
+
+## Folder names
+
 
 ## File Menu
 
@@ -233,6 +251,9 @@ repair-text-encoding-button =
 no-reply-title = Одговор није подржан
 no-reply-reply-anyway-button = Ипак одговори
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-button-mail2 =
@@ -296,3 +317,40 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+

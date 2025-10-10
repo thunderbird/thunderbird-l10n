@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Þjöppuð sýn
     .accesskey = p
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -473,6 +476,25 @@ openpgp-forget = Gleyma OpenPGP-aðgangsorðum
 quota-panel-percent-used = { $percent }% notað
     .title = IMAP-kvóti: { $usage } notað af { $limit } alls
 
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Merkja sem lesið
@@ -480,3 +502,12 @@ delete-action = Eyða
 mark-as-starred-action = Merkja sem stjörnumerkt
 mark-as-spam-action = Merkja sem ruslpóst
 archive-action = Skjalageymsla
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+

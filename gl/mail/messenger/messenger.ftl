@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista compacta
     .accesskey = c
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -477,6 +480,25 @@ quota-panel-percent-used = { $percent }% cheo
         IMAP quota: { $usage } used of { $limit } total
         Cota de IMAP: { $usage } usado dun total de { $limit }
 
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Marcar como lido
@@ -484,3 +506,12 @@ delete-action = Eliminar
 mark-as-starred-action = Marcar como destacado
 mark-as-spam-action = Marcar como non desexado
 archive-action = Arquivar
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+

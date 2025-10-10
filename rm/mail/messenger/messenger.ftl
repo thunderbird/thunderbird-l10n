@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista cumpacta
     .accesskey = c
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -469,7 +472,35 @@ openpgp-forget = Emblidar las frasas-clav OpenPGP
 quota-panel-percent-used = Occupà: { $percent }%
     .title = Quota IMAP: { $usage } occupà da  { $limit } en total
 
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Marcar sco legì
 delete-action = Stizzar
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+

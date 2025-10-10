@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Компактен изглед
     .accesskey = К
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -473,6 +476,25 @@ openpgp-forget = Забравяне на фразите за OpenPGP
 quota-panel-percent-used = { $percent }% запълнено
     .title = IMAP квота: { $usage } използвани от общо { $limit }
 
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Отбелязване като прочетено
@@ -480,3 +502,12 @@ delete-action = Изтриване
 mark-as-starred-action = Маркиране със звезда
 mark-as-spam-action = Маркиране като нежелано съобщение
 archive-action = Архивиране
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+

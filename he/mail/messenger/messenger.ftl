@@ -65,6 +65,9 @@ show-tags-folders-label =
     .label = תווית
     .accesskey = ת
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -104,6 +107,9 @@ menu-edit-newsgroup-properties =
     .label = מאפייני קבוצת חדשות
     .accesskey = א
 
+## Message Menu
+
+
 ## AppMenu
 
 appmenu-save-as-file =
@@ -118,6 +124,12 @@ appmenu-addons-and-themes =
 mail-context-menu-forward-forward =
     .label = העבר
     .accesskey = ע
+
+## Message header pane
+
+
+## Message header customize panel
+
 
 ## Action Button Context Menu
 
@@ -144,6 +156,21 @@ repair-text-encoding-button =
     .label = תיקון קידוד טקסט
     .tooltiptext = ניחוש קידוד הטקסט הנכון בהסתמך על תוכן ההודעה
 
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
+
 ## Quick Filter Bar
 
 # The label to display for the "View... Toolbars..." menu item that controls
@@ -155,3 +182,40 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = ס
+
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+

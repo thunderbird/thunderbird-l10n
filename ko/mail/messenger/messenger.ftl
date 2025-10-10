@@ -125,6 +125,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = 간단히 보기
     .accesskey = C
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -453,6 +456,25 @@ openpgp-forget = OpenPGP 암호 지우기
 quota-panel-percent-used = { $percent }% 사용
     .title = IMAP 용량: 총 { $limit } 중 { $usage } 사용
 
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = 읽음으로 표시
@@ -460,3 +482,12 @@ delete-action = 삭제
 mark-as-starred-action = 별표 표시
 mark-as-spam-action = 스팸으로 표시
 archive-action = 보관
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+

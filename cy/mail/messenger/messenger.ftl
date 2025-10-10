@@ -133,6 +133,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Golwg Cryno
     .accesskey = G
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -505,6 +508,25 @@ openpgp-forget = Anghofio cyfrinymadrodd OpenPGP
 quota-panel-percent-used = { $percent }% yn llawn
     .title = Cwota IMAP: { $usage } wedi'i ddefnyddio o gyfanswm o { $limit }
 
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Marcio fel wedi ei Darllen
@@ -512,3 +534,12 @@ delete-action = Dileu
 mark-as-starred-action = Marciwch fel Serennog
 mark-as-spam-action = Marcio fel Sbam
 archive-action = Archifo
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+

@@ -7,17 +7,41 @@
 
 about-rights-notification-text = { -brand-short-name } este un software liber și cu sursă deschisă, construit de o comunitate de mii de oameni din lumea întreagă.
 
+## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
     .label = Suplimente și teme
     .tooltiptext = Gestionează-ți suplimentele
 
+## Folder Pane
+
+
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Etichete
     .accesskey = t
+
+## Folder names
+
+
+## File Menu
+
 
 ## Edit Menu
 
@@ -52,17 +76,47 @@ menu-edit-newsgroup-properties =
     .label = Proprietăți grup de discuții
     .accesskey = o
 
+## Message Menu
+
+
+## AppMenu
+
+
 ## Context menu
 
 mail-context-menu-forward-forward =
     .label = Redirecționează
     .accesskey = a
 
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
 ## Add-on removal warning
 
 repair-text-encoding-button =
     .label = Repară codarea de text
     .tooltiptext = Determină codarea de text corectă din conținutul mesajului
+
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
 
 ## Quick Filter Bar
 
@@ -75,3 +129,40 @@ quick-filter-bar-toggle =
 # This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
 quick-filter-bar-show =
     .key = k
+
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
+## Message menu.
+
+mark-as-junk-key =
+    .key = j
+mark-not-junk-key =
+    .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
+
+## Message list.
+
+
+## Prompts
+
+
+## Spam commands
+
