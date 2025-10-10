@@ -60,6 +60,8 @@ account-hub-protocol-label = Protokol
 account-hub-hostname-label = Ime gostitelja
 account-hub-result-hostname-label = Ime gostitelja
     .title = Ime gostitelja
+account-hub-result-socket-type-label = Varnost povezave
+account-hub-on-port-label = Vrata
 account-hub-result-authentication-label = Overitev
     .title = Overitev
 account-hub-port-label = Vrata
@@ -184,6 +186,7 @@ account-hub-port-error-text = Številka vrat mora biti med 1 in 65535
 account-hub-username-error-text = Uporabniško ime je obvezno
     .title = Uporabniško ime je obvezno
 account-hub-oauth-pending = Čakanje na pooblastitev v pojavnem oknu za prijavo …
+account-hub-addon-install-button = Namesti
 account-hub-addon-install-needed = { -brand-short-name } sam po sebi tega strežnika ne podpira. Za dostop do e-pošte Exchange <a data-l10n-name="addon-install">namestite dodatek tretjega ponudnika, na primer Owl (plačljiv)</a>.
 account-hub-addon-error = Namestitev dodatka ni uspela. Poskusite znova ali pa se za pomoč obrnite na njegovega avtorja.
 account-hub-security-warning = <span data-l10n-name="security-warning">Opozorilo: zaznan je bil nezavarovan poštni strežnik.</span> Ta strežnik ne uporablja šifriranja, zato so vaše geslo in podatki izpostavljeni prisluškovalcem. Svetujte skrbniku, naj zavaruje povezavo, ali nadaljujte na lastno odgovornost. <a data-l10n-name="faq-link">Za več informacij glejte pogosta vprašanja.</a>

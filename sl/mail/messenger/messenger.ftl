@@ -501,8 +501,14 @@ quota-panel-percent-used = { $percent }-% zasedeno
 
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Kot neželeno
+    .accesskey = n
 mark-as-junk-key =
     .key = n
+menu-mark-not-spam =
+    .label = Kot želeno
+    .accesskey = ž
 mark-not-junk-key =
     .key = n
 
@@ -513,3 +519,13 @@ delete-action = Izbriši
 mark-as-starred-action = Označi z zvezdico
 mark-as-spam-action = Označi kot neželeno
 archive-action = Arhiviraj
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Želite izprazniti mapo { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Ali želite izbrisati vsa sporočila in podmape v mapi { $folder }?
+prompt-dont-ask-again = Ne sprašuj več.

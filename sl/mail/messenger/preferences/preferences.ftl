@@ -694,6 +694,12 @@ email-e2ee-automatism-post =
     Samodejne odločitve lahko preglasite tako, da med sestavljanjem sporočila ročno omogočite ali onemogočite šifriranje.
     Opomba: ob odgovarjanju na šifrirano sporočilo je šifriranje vedno samodejno vključeno.
 
+## DoH Section
+
+preferences-doh-url-custom =
+    .label = Po meri
+    .accesskey = m
+
 ## Chat Tab
 
 startup-label =
