@@ -33,3 +33,7 @@ outgoing-server-section-name = Odhodni strežnik
 outgoing-server-settings-title = Nastavitve odhodnega strežnika
 outgoing-server-settings-description = Med upravljanjem z identitetami lahko s seznama izberete odhodni strežnik ali pa z izbiro "Uporabi privzeti strežnik" uporabite privzetega.
 outgoing-server-type = Vrsta strežnika:
+panel-settings-spam = Nastavitve neželene pošte
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Z nastavitvami neželene pošte za { $account } je zaznana težava. Ali jih želite pregledati, preden shranite spremembe?

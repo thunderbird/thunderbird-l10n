@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = Onemogoči temen prikaz sporočil
 dark-message-mode-toggle-disabled =
     .title = Omogoči temen prikaz sporočil
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } meni, da je to sporočilo neželeno.
+message-bar-not-spam-button =
+    .label = Ni neželeno
+    .accesskey = N
+message-bar-learn-more-button =
+    .label = Več o tem …
+    .accesskey = V

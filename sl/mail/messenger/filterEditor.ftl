@@ -2,7 +2,23 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+rule-menuitem-spam =
+    .label = Neželeno
+rule-menuitem-not-spam =
+    .label = Ni neželeno
+run-filter-before-spam =
+    .label = Filtriraj pred razvrščanjem neželene pošte
+run-filter-after-spam =
+    .label = Filtriraj po razvrščanju neželene pošte
+rule-action-set-spam-status =
+    .label = Nastavi stanje Neželeno na
+# Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = Zaznana neželena pošta pošiljatelja { $author } – { $subject } { $date }
 # Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = Sporočilo id = { $id } je bilo premaknjeno v { $folder }
+filter-action-log-spam = ocena neželenosti

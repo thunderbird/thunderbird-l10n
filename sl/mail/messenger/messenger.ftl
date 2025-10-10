@@ -131,6 +131,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Zgoščen pogled
     .accesskey = Z
 
+## Folder names
+
+folder-name-spam = Neželeno
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -206,6 +210,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Arhiviraj
     .tooltiptext = Arhiviraj
+context-menu-mark-spam =
+    .aria-label = Označi kot neželeno
+    .tooltiptext = Označi kot neželeno
+context-menu-mark-not-spam =
+    .aria-label = Označi kot želeno
+    .tooltiptext = Označi kot želeno
 context-menu-mark-junk =
     .aria-label = Označi kot neželeno
     .tooltiptext = Označi kot neželeno
