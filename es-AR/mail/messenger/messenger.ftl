@@ -487,29 +487,29 @@ quota-panel-percent-used = { $percent }% lleno
 
 sort-by-spam-status =
     .label = Estado de spam
-    .accesskey = E
+    .accesskey = s
 
 ## Message menu.
 
 menu-mark-as-spam =
     .label = Como spam
-    .accesskey = C
+    .accesskey = s
 mark-as-junk-key =
     .key = j
 menu-mark-not-spam =
-    .label = Como no es spam
-    .accesskey = C
+    .label = Como no spam
+    .accesskey = n
 mark-not-junk-key =
     .key = j
 menu-recalculate-spam-score =
     .label = Ejecutar controles de spam
-    .accesskey = E
+    .accesskey = c
 menu-run-spam-on-folder =
     .label = Ejecutar controles de spam en la carpeta
-    .accesskey = E
+    .accesskey = c
 menu-delete-spam =
     .label = Borrar correo marcado como spam en la carpeta
-    .accesskey = B
+    .accesskey = d
 
 ## Folder pane context.
 
@@ -553,7 +553,7 @@ menuitem-label-spam-status =
 
 # Variables:
 # $folder (String) - The name of the selected folder.
-prompt-empty-folder-title = ¿{ $folder } vacío?
+prompt-empty-folder-title = ¿Vaciar { $folder }?
 # Variables:
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-message = ¿Borrar todos los mensajes y subcarpetas en la carpeta { $folder }?
