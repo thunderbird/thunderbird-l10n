@@ -37,3 +37,7 @@ outgoing-server-section-name = Odchozí server
 outgoing-server-settings-title = Nastavení odchozího serveru
 outgoing-server-settings-description = Při správě vašich identit můžete použít server z tohoto seznamu, který nastavíte jako odchozí server, nebo můžete použít výchozí server z tohoto seznamu, pokud zvolíte „Použít výchozí server“.
 outgoing-server-type = Typ serveru:
+panel-settings-spam = Nastavení nevyžádané pošty
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Zjištěn problém s nastavením nevyžádané pošty pro účet { $account }. Chcete ho zkontrolovat před uložením změn?
