@@ -7,9 +7,9 @@ rule-menuitem-spam =
 rule-menuitem-not-spam =
     .label = Nid Sbam
 run-filter-before-spam =
-    .label = Hidlo cyn Dosbarthiad Sbam
+    .label = Hidlo cyn Dosbarthu'r Sbam
 run-filter-after-spam =
-    .label = Hidlo ar ôl Dosbarthiad Sbam
+    .label = Hidlo ar ôl Dosbarthu'r Sbam
 rule-action-set-spam-status =
     .label = Gosod Statws Sbam i
 # Variables:

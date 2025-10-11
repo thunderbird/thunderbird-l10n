@@ -99,7 +99,7 @@ toolbar-spam-button =
     .tooltiptext = Marciwch y negeseuon a ddewiswyd fel sbam
 toolbar-not-spam-button =
     .label = Nid Sbam
-    .tooltiptext = Marciwch y negeseuon a ddewiswyd fel rhai nad ydynt yn sbam
+    .tooltiptext = Marciwch y negeseuon a ddewiswyd fel rhai sydd ddim yn sbam
 
 ## View
 
