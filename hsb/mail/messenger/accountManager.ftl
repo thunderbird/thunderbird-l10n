@@ -33,3 +33,4 @@ outgoing-server-section-name = Wuchadny serwer
 outgoing-server-settings-title = Nastajenja wuchadneho serwera
 outgoing-server-settings-description = Hdyž swoje identity zarjadujeće, móžeće serwer z lisćiny wužiwać, wuběrajo jón jako serwer za póstowy wuchad, abo móžeće standardny serwer z tuteje lisćiny wužiwać, wuběrajo „Standardny serwer wužiwać“.
 outgoing-server-type = Typ serwera:
+panel-settings-spam = Spamowe nastajenja

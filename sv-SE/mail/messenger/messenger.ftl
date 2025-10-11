@@ -507,6 +507,27 @@ menu-recalculate-spam-score =
 menu-run-spam-on-folder =
     .label = Kör skräppostkontroller på mapp
     .accesskey = m
+menu-delete-spam =
+    .label = Ta bort e-post markerad som skräppost i mappen
+    .accesskey = T
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Töm skräppost
+    .accesskey = T
+
+## Thread pane.
+
+column-status-spam =
+    .label = Skräppoststatus
+    .tooltiptext = Sortera efter skräppoststatus
+
+## Message header.
+
+header-spam-button =
+    .label = Skräppost
+    .tooltiptext = Markera det här meddelandet som skräppost
 
 ## Actions for the New Mail Notification
 
@@ -515,3 +536,15 @@ delete-action = Ta bort
 mark-as-starred-action = Markera som stjärnmärkt
 mark-as-spam-action = Markera som skräppost
 archive-action = Arkivera
+
+## Message list.
+
+message-flag-spam = Skräppost
+menuitem-label-spam =
+    .label = Skräppost
+menuitem-label-spam-score-origin =
+    .label = Ursprung för skräppostpoäng
+menuitem-label-spam-percentage =
+    .label = Skräppostprocent
+menuitem-label-spam-status =
+    .label = Skräppoststatus

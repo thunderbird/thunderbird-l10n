@@ -131,6 +131,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktny napohlad
     .accesskey = K
 
+## Folder names
+
+folder-name-spam = Spam
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -206,6 +210,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Archiwować
     .tooltiptext = Archiwować
+context-menu-mark-spam =
+    .aria-label = Jako spam markěrować
+    .tooltiptext = Jako spam markěrować
+context-menu-mark-not-spam =
+    .aria-label = Jako njeje spam markěrować
+    .tooltiptext = Jako njeje spam markěrować
 context-menu-mark-junk =
     .aria-label = Jako čapor markěrować
     .tooltiptext = Jako čapor markěrować
@@ -489,12 +499,42 @@ openpgp-forget = Hesłowe wurazy OpenPGP zabyć
 quota-panel-percent-used = { $percent }% połne
     .title = Kwoty IMAP: { $usage } z { $limit } dohromady wužite
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Spamowy status
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Jako spam
+    .accesskey = J
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Jako njeje spam
+    .accesskey = n
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Spam prózdnić
+    .accesskey = m
+
+## Thread pane.
+
+column-status-spam =
+    .label = Spamowy status
+    .tooltiptext = Po spamowym statusu sortěrować
+
+## Message header.
+
+header-spam-button =
+    .label = Spam
+    .tooltiptext = Tutu powěsć jako spam markěrować
 
 ## Actions for the New Mail Notification
 
@@ -503,3 +543,32 @@ delete-action = Zhašeć
 mark-as-starred-action = Z hwěžku markěrować
 mark-as-spam-action = Jako spam markěrować
 archive-action = Archiwować
+
+## Message list.
+
+message-flag-spam = Spam
+menuitem-label-spam =
+    .label = Spam
+menuitem-label-spam-score-origin =
+    .label = Pochad spamoweho pohódnoćenja
+menuitem-label-spam-percentage =
+    .label = Spamowy podźěl
+menuitem-label-spam-status =
+    .label = Spamowy status
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = { $folder } prózdnić?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Wšě powěsće a podrjadowaki w rjadowaku { $folder } zhašeć?
+prompt-dont-ask-again = Hižo so njeprašeć.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Spamowa analyza { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } dokónčena
+spam-processing-message = Spamowe powěsće so předźěłuja

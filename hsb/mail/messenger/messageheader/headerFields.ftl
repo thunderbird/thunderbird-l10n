@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = Ćmowy powěsćowy modus znjemóžnić
 dark-message-mode-toggle-disabled =
     .title = Ćmowy powěsćowy modus zmóžnić
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } ma tutu powěsć za spam.
+message-bar-not-spam-button =
+    .label = Njeje spam
+    .accesskey = N
+message-bar-learn-more-button =
+    .label = Dalše informacije…
+    .accesskey = D
