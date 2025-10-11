@@ -536,3 +536,10 @@ prompt-empty-folder-title = 确定要清空“{ $folder }”吗？
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-message = 确定要删除“{ $folder }”文件夹中的所有邮件和子文件夹吗？
 prompt-dont-ask-again = 不再询问
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = 垃圾邮件分析已完成 { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
+spam-processing-message = 正在处理垃圾邮件
