@@ -703,6 +703,8 @@ preferences-doh-status-disabled = Inactive
 #   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
 preferences-doh-status-not-active = Non active ({ $reason })
 preferences-doh-group-message = Activar le DNS via HTTPS per:
+preferences-doh-expand-section =
+    .tooltiptext = Altere informationes
 preferences-doh-setting-default =
     .label = Protection ordinari
     .accesskey = o
@@ -732,6 +734,13 @@ preferences-doh-checkbox-warn =
     .label = Adverter si un tertie parte activemente impedi DNS secur
     .accesskey = A
 preferences-doh-select-resolver = Eliger fornitor:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (predefinite)
+preferences-doh-url-custom =
+    .label = Personalisate
+    .accesskey = P
 
 ## Chat Tab
 
