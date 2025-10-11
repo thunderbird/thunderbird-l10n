@@ -511,6 +511,33 @@ menu-mark-not-spam =
     .accesskey = Т
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Запустить анти-спам фильтры
+    .accesskey = С
+menu-run-spam-on-folder =
+    .label = Запустить анти-спам фильтры для папки
+    .accesskey = С
+menu-delete-spam =
+    .label = Удалить сообщения, помеченные как спам
+    .accesskey = В
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Пустой спам
+    .accesskey = Ы
+
+## Thread pane.
+
+column-status-spam =
+    .label = Статус спама
+    .tooltiptext = Сортировать по статусу спама
+
+## Message header.
+
+header-spam-button =
+    .label = Спам
+    .tooltiptext = Пометить это сообщение как спам
 
 ## Actions for the New Mail Notification
 
@@ -519,3 +546,32 @@ delete-action = Удалить
 mark-as-starred-action = Пометить звёздочкой
 mark-as-spam-action = Пометить как спам
 archive-action = Архивировать
+
+## Message list.
+
+message-flag-spam = Спам
+menuitem-label-spam =
+    .label = Спам
+menuitem-label-spam-score-origin =
+    .label = Источник оценки спама
+menuitem-label-spam-percentage =
+    .label = Процент спама
+menuitem-label-spam-status =
+    .label = Статус спама
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = { $folder } пустая?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Удалить все сообщения и вложенные папки в папке { $folder }?
+prompt-dont-ask-again = Больше не спрашивать.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Спам-анализ завершен на { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
+spam-processing-message = Обработка спам-сообщений

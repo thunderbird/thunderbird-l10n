@@ -47,6 +47,7 @@ compose-html-style-title = HTML-стиль
 composition-addressing-header = Адресация
 privacy-main-header = Приватность
 privacy-passwords-header = Пароли
+privacy-spam-header = Спам
 privacy-junk-header = Спам
 collection-header = Сбор и использование данных { -brand-short-name }
 collection-description = Мы стремимся предоставить вам выбор и собирать только то, что нам нужно, для выпуска и улучшения { -brand-short-name } для всех и каждого. Мы всегда спрашиваем разрешение перед получением личной информации.
@@ -627,6 +628,23 @@ primary-password-button =
     .accesskey = м
 forms-primary-pw-fips-title = Вы работаете в режиме соответствия FIPS. При работе в этом режиме необходимо установить основной пароль.
 forms-master-pw-fips-desc = Смена пароля не удалась
+spam-description = Устанавливает настройки спама по умолчанию. Параметры спама, специфичные для учётной записи, могут быть установлены в параметрах учётной записи.
+spam-marked-label =
+    .label = Когда сообщения помечены как спам:
+    .accesskey = Ц
+spam-move-label =
+    .label = Перемещать их в папку «Спам» учётной записи
+    .accesskey = щ
+spam-delete-label =
+    .label = Удалять их
+    .accesskey = В
+spam-read-description = Отметить сообщения, как прочитанные
+spam-read-manual-label =
+    .label = Когда помечено как спам вручную
+    .accesskey = Ь
+spam-read-auto-label =
+    .label = Когда { -brand-short-name } определяет, что это спам
+    .accesskey = Е
 junk-description = Здесь вы можете установить настройки анти-спам фильтра по умолчанию. Настройки анти-спам фильтра, специфичные для учётной записи, могут быть установлены в параметрах учётной записи.
 junk-marked-label =
     .label = Когда сообщения помечены как спам:
@@ -693,6 +711,12 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Автоматические решения можно отменить, включив или отключив шифрование вручную при составлении сообщения.
     Примечание: шифрование всегда автоматически включается при ответе на зашифрованное сообщение.
+
+## DoH Section
+
+preferences-doh-url-custom =
+    .label = Персональный
+    .accesskey = С
 
 ## Chat Tab
 
