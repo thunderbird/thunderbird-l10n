@@ -698,6 +698,40 @@ email-e2ee-automatism-post =
 ## DoH Section
 
 preferences-doh-status-active = Active
+preferences-doh-status-disabled = Inactive
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Non active ({ $reason })
+preferences-doh-group-message = Activar le DNS via HTTPS per:
+preferences-doh-setting-default =
+    .label = Protection ordinari
+    .accesskey = o
+preferences-doh-default-desc = { -brand-short-name } decide quando usar DNS secur pro proteger tu confidentialitate.
+preferences-doh-default-detailed-desc-1 = Usar DNS secur in regiones ubi illo es disponibile
+preferences-doh-default-detailed-desc-2 = Usar tu predefinite resolutor de DNS si il ha un problema con le fornitor de DNS secur
+preferences-doh-default-detailed-desc-3 = Usar un fornitor local, si possibile
+preferences-doh-default-detailed-desc-4 = Disactivar quando es active un VPN, un controlo parental, o directivas de interprisa
+preferences-doh-default-detailed-desc-5 = Disactivar quando un rete dice a { -brand-short-name } que illo non deberea usar DNS secur
+preferences-doh-setting-enabled =
+    .label = Protection reinfortiate
+    .accesskey = a
+preferences-doh-enabled-desc = Tu controla quando usar DNS secur e eliger tu fornitor.
+preferences-doh-enabled-detailed-desc-1 = Usar le fornitor que tu elige
+preferences-doh-enabled-detailed-desc-2 = Usa solo tu predefinite resolutor de DNS si il ha un problema con DNS secur
+preferences-doh-setting-strict =
+    .label = Protection maxime
+    .accesskey = m
+preferences-doh-strict-detailed-desc-1 = Usar solo le fornitor que tu elige
+preferences-doh-strict-detailed-desc-2 = Sempre adverter si DNS secur non es disponibile
+preferences-doh-strict-detailed-desc-3 = Si DNS secur non es disponibile, le sitos non cargara o functionara correctemente
+preferences-doh-setting-off =
+    .label = Inactive
+    .accesskey = I
+preferences-doh-off-desc = Usar tu resolutor de DNS predefinite
+preferences-doh-checkbox-warn =
+    .label = Adverter si un tertie parte activemente impedi DNS secur
+    .accesskey = A
+preferences-doh-select-resolver = Eliger fornitor:
 
 ## Chat Tab
 
