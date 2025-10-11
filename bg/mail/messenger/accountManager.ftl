@@ -33,3 +33,7 @@ outgoing-server-section-name = Изходящ сървър
 outgoing-server-settings-title = Настройки на сървъра за изходяща поща
 outgoing-server-settings-description = При управляване на идентичностите ви може да използвате сървър от този списък като изходящ сървър (SMTP) или да използвате стандартния сървър от този списък чрез избиране на „Използване на подразбиращ се“.
 outgoing-server-type = Вид сървър:
+panel-settings-spam = Настройки за нежелана поща
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Открит е проблем в настройките за нежеланата поща за { $account }. Желаете ли да ги прегледате, преди да запазите промените?
