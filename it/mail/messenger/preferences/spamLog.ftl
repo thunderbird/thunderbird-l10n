@@ -4,7 +4,7 @@
 
 spam-log-title = Registro antispam adattivo
 spam-log-info-label =
-    .value = Registro delle attività di controllo adattivo dello spam.
+    .value = Registro delle attività dei controllo adattivi contro lo spam.
 clear-log-button =
     .label = Pulisci registro attività
     .accesskey = P

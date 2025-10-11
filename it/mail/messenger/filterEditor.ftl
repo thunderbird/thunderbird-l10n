@@ -11,12 +11,12 @@ run-filter-before-spam =
 run-filter-after-spam =
     .label = Filtra dopo la classificazione spam
 rule-action-set-spam-status =
-    .label = Imposta Stato spam a
+    .label = Imposta stato spam a
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.
 # $date (String) - The date of the message.
-spam-message-detection-log = Rilevato spam da { $author } - { $subject } a { $date }
+spam-message-detection-log = Rilevato spam da { $author } - { $subject } il { $date }
 # Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
