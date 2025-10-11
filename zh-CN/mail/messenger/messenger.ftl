@@ -128,6 +128,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = 紧凑模式
     .accesskey = C
 
+## Folder names
+
+folder-name-spam = 垃圾邮件
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -199,6 +203,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = 归档
     .tooltiptext = 归档
+context-menu-mark-spam =
+    .aria-label = 标记为垃圾邮件
+    .tooltiptext = 标记为垃圾邮件
+context-menu-mark-not-spam =
+    .aria-label = 标记为非垃圾邮件
+    .tooltiptext = 标记为非垃圾邮件
 context-menu-mark-junk =
     .aria-label = 标记为垃圾邮件
     .tooltiptext = 标记为垃圾邮件
@@ -455,12 +465,51 @@ openpgp-forget = 忘记 OpenPGP 密码
 quota-panel-percent-used = { $percent }% 已使用
     .title = IMAP 容量：已用 { $usage }/总共 { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = 垃圾邮件状态
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = 垃圾邮件
+    .accesskey = S
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = 非垃圾邮件
+    .accesskey = N
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = 运行垃圾邮件控制
+    .accesskey = C
+menu-run-spam-on-folder =
+    .label = 对文件夹运行垃圾邮件控制
+    .accesskey = C
+menu-delete-spam =
+    .label = 删除文件夹中标记为垃圾邮件的邮件
+    .accesskey = D
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = 清空垃圾邮件
+    .accesskey = S
+
+## Thread pane.
+
+column-status-spam =
+    .label = 垃圾邮件状态
+    .tooltiptext = 按垃圾邮件状态排序
+
+## Message header.
+
+header-spam-button =
+    .label = 垃圾邮件
+    .tooltiptext = 将此邮件标记为垃圾邮件
 
 ## Actions for the New Mail Notification
 
@@ -469,3 +518,21 @@ delete-action = 删除
 mark-as-starred-action = 已加星标
 mark-as-spam-action = 标记为垃圾邮件
 archive-action = 归档
+
+## Message list.
+
+message-flag-spam = 垃圾邮件
+menuitem-label-spam =
+    .label = 垃圾邮件
+menuitem-label-spam-status =
+    .label = 垃圾邮件状态
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = 确定要清空“{ $folder }”吗？
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = 确定要删除“{ $folder }”文件夹中的所有邮件和子文件夹吗？
+prompt-dont-ask-again = 不再询问

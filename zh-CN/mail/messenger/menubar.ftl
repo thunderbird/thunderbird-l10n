@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = 恢复
     .tooltiptext = 恢复选择的消息或文件夹
+toolbar-spam-button =
+    .label = 垃圾邮件
+    .tooltiptext = 将选中的邮件标记为垃圾邮件
+toolbar-not-spam-button =
+    .label = 非垃圾邮件
+    .tooltiptext = 将选中的邮件标记为非垃圾邮件
 
 ## View
 

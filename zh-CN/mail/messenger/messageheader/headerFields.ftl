@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = 关闭邮件深色模式
 dark-message-mode-toggle-disabled =
     .title = 启用邮件深色模式
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } 认为此邮件是垃圾邮件。
+message-bar-not-spam-button =
+    .label = 非垃圾邮件
+    .accesskey = N
+message-bar-learn-more-button =
+    .label = 详细了解…
+    .accesskey = L
