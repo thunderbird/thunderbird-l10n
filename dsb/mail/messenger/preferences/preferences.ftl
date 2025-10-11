@@ -628,6 +628,7 @@ primary-password-button =
     .accesskey = z
 forms-primary-pw-fips-title = Sćo tuchylu we FIPS-modusu. FIPS pomina se głowne gronidło.
 forms-master-pw-fips-desc = Změnjanje gronidła njejo se raźiło
+spam-description = Nastajśo swóje standardne spamowe nastajenja. Spamowe nastajenja, specifiske za konto, daju se w kontowych nastajenjach konfigurěrowaś.
 spam-marked-label =
     .label = Gaž se powěsći ako spam markěruju:
     .accesskey = G
