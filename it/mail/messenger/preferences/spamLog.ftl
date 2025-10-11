@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-spam-log-title = Registro antispam adattivo
+spam-log-title = Registro antispam incrementale
 spam-log-info-label =
-    .value = Registro delle attività dei controllo adattivi contro lo spam.
+    .value = Registro delle attività dei controlli incrementali antispam.
 clear-log-button =
-    .label = Pulisci registro attività
+    .label = Pulisci registro
     .accesskey = P
 spam-log-dialog =
     .buttonlabelaccept = Chiudi

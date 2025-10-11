@@ -493,12 +493,12 @@ sort-by-spam-status =
 
 menu-mark-as-spam =
     .label = Come spam
-    .accesskey = C
+    .accesskey = m
 mark-as-junk-key =
     .key = j
 menu-mark-not-spam =
-    .label = Non spam
-    .accesskey = N
+    .label = Come non spam
+    .accesskey = n
 mark-not-junk-key =
     .key = j
 menu-recalculate-spam-score =
@@ -506,10 +506,10 @@ menu-recalculate-spam-score =
     .accesskey = E
 menu-run-spam-on-folder =
     .label = Esegui controlli antispam sulla cartella
-    .accesskey = E
+    .accesskey = c
 menu-delete-spam =
     .label = Elimina la posta contrassegnata come spam nella cartella
-    .accesskey = E
+    .accesskey = m
 
 ## Folder pane context.
 
@@ -521,7 +521,7 @@ folder-context-empty-spam =
 
 column-status-spam =
     .label = Stato spam
-    .tooltiptext = Ordina per stato posta indesiderata
+    .tooltiptext = Ordina per stato spam
 
 ## Message header.
 

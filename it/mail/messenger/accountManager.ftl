@@ -36,4 +36,4 @@ outgoing-server-type = Tipo di server:
 panel-settings-spam = Impostazioni spam
 # Variables:
 # $account (String) - The account name.
-spam-settings-alert-message = Rilevato problema con le impostazioni antispam per { $account }. Riesaminarli prima di salvare le modifiche?
+spam-settings-alert-message = Rilevato problema con le impostazioni antispam per { $account }. Riesaminarle prima di salvare le modifiche?
