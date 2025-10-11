@@ -696,6 +696,26 @@ email-e2ee-automatism-post =
     在撰写消息时，可以通过手动启用或禁用加密来覆盖自动决策。
     注意：回复加密消息时，加密始终自动启用。
 
+## DoH Section
+
+preferences-doh-header = 基于 HTTPS 的 DNS
+preferences-doh-description = 基于 HTTPS 的 DNS 会通过加密的连接发送您对域名的请求，从而提供安全 DNS，使他人更难得知您要访问的网站。
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = 状态：{ $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = 提供方：{ $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = 网址无效
+preferences-doh-steering-status = 使用本地提供方
+preferences-doh-status-active = 启用
+preferences-doh-status-disabled = 关闭
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = 未启用（{ $reason }）
+
 ## Chat Tab
 
 startup-label =
