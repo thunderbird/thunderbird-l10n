@@ -502,6 +502,18 @@ menu-mark-not-spam =
 mark-not-junk-key =
     .key = i
 
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Vacuar spam
+    .accesskey = s
+
+## Thread pane.
+
+column-status-spam =
+    .label = Stato de spam
+    .tooltiptext = Ordina per stato de spam
+
 ## Message header.
 
 header-spam-button =
@@ -521,6 +533,10 @@ archive-action = Archivo
 message-flag-spam = Spam
 menuitem-label-spam =
     .label = Spam
+menuitem-label-spam-score-origin =
+    .label = Origine del indice de spam
+menuitem-label-spam-percentage =
+    .label = Percentage de spam
 menuitem-label-spam-status =
     .label = Stato de spam
 
@@ -536,4 +552,7 @@ prompt-dont-ask-again = Non plus demandar.
 
 ## Spam commands
 
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Analysis de spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } completate
 spam-processing-message = Processante messages spam
