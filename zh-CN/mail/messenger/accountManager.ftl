@@ -33,3 +33,4 @@ outgoing-server-section-name = 发件服务器
 outgoing-server-settings-title = 发件服务器设置
 outgoing-server-settings-description = 管理您身份信息的同时，您可以从此列表中选择一个服务器作为发件服务器，或者您也可以从列表中选择“使用默认服务器”。
 outgoing-server-type = 服务器类型：
+panel-settings-spam = 垃圾邮件设置

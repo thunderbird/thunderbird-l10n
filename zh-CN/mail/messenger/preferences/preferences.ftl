@@ -715,6 +715,46 @@ preferences-doh-status-disabled = 关闭
 # Variables:
 #   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
 preferences-doh-status-not-active = 未启用（{ $reason }）
+preferences-doh-group-message = “基于 HTTPS 的 DNS”启用策略：
+preferences-doh-expand-section =
+    .tooltiptext = 更多信息
+preferences-doh-setting-default =
+    .label = 默认保护
+    .accesskey = D
+preferences-doh-default-desc = 由 { -brand-short-name } 决定何时使用安全 DNS 来保护您的隐私。
+preferences-doh-default-detailed-desc-1 = 位于安全 DNS 可用的地区则使用
+preferences-doh-default-detailed-desc-2 = 若安全 DNS 提供方出现问题则使用默认 DNS 解析器
+preferences-doh-default-detailed-desc-3 = 尽可能使用本地提供方
+preferences-doh-default-detailed-desc-4 = 当 VPN、家长控制或企业策略生效时关闭
+preferences-doh-default-detailed-desc-5 = 当网络设备告知 { -brand-short-name } 不应使用安全 DNS 时关闭
+preferences-doh-setting-enabled =
+    .label = 增强保护
+    .accesskey = I
+preferences-doh-enabled-desc = 由您选择安全 DNS 的提供方并决定何时使用。
+preferences-doh-enabled-detailed-desc-1 = 使用您选择的提供方
+preferences-doh-enabled-detailed-desc-2 = 只在安全 DNS 出现问题时使用默认 DNS 解析器
+preferences-doh-setting-strict =
+    .label = 最大保护
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } 只会使用安全 DNS。如确实需要使用系统 DNS，您将预先收到安全风险警告。
+preferences-doh-strict-detailed-desc-1 = 只使用您选择的提供方
+preferences-doh-strict-detailed-desc-2 = 安全 DNS 不可用时发出警告
+preferences-doh-strict-detailed-desc-3 = 在无法使用安全 DNS 的情况下，网站将无法加载或功能异常
+preferences-doh-setting-off =
+    .label = 关闭
+    .accesskey = O
+preferences-doh-off-desc = 使用默认 DNS 解析器
+preferences-doh-checkbox-warn =
+    .label = 如果第三方主动阻止安全 DNS，则发出警告
+    .accesskey = W
+preferences-doh-select-resolver = 选择提供方：
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name }（默认）
+preferences-doh-url-custom =
+    .label = 自定义
+    .accesskey = C
 
 ## Chat Tab
 
