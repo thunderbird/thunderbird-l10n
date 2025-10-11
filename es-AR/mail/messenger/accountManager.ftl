@@ -36,4 +36,4 @@ outgoing-server-type = Tipo de servidor:
 panel-settings-spam = Configuración de spam
 # Variables:
 # $account (String) - The account name.
-spam-settings-alert-message = Problema detectado con la configuración de spam para { $account }. ¿Desea revisarlos antes de guardar los cambios?
+spam-settings-alert-message = Problema detectado con la configuración de spam para { $account }. ¿Desea revisarla antes de guardar los cambios?

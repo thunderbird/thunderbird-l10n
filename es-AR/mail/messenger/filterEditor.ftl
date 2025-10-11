@@ -7,16 +7,16 @@ rule-menuitem-spam =
 rule-menuitem-not-spam =
     .label = No es spam
 run-filter-before-spam =
-    .label = Filtrar antes de clasificar spam
+    .label = Filtrar antes de la clasificación de spam
 run-filter-after-spam =
     .label = Filtrar después de la clasificación de spam
 rule-action-set-spam-status =
-    .label = Establecer estado de spam en
+    .label = Establecer estado de spam a
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.
 # $date (String) - The date of the message.
-spam-message-detection-log = Se detectó spam de { $author } - { $subject } a las { $date }
+spam-message-detection-log = Se detectó spam de { $author } - { $subject } el { $date }
 # Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
