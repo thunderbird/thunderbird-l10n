@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Visualisation compacte
     .accesskey = c
 
+## Folder names
+
+folder-name-spam = Spam
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Archivo
     .tooltiptext = Archivo
+context-menu-mark-spam =
+    .aria-label = Marcar como spam
+    .tooltiptext = Marca como spam
+context-menu-mark-not-spam =
+    .aria-label = Marcar como non Spam
+    .tooltiptext = Marca como non Spam
 context-menu-mark-junk =
     .aria-label = Marcar como Immunditia
     .tooltiptext = Marcar como Immunditia
@@ -473,8 +483,17 @@ openpgp-forget = Oblidar le phrases contrasigno OpenPGP
 quota-panel-percent-used = { $percent }% usate
     .title = Quota IMAP: { $usage } usate de { $limit } total
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Stato de spam
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Como Spam
+    .accesskey = S
 mark-as-junk-key =
     .key = i
 mark-not-junk-key =
