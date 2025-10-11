@@ -628,6 +628,25 @@ primary-password-button =
     .accesskey = M
 forms-primary-pw-fips-title = Tu es actualmente in modo FIPS. Tal modo require un contrasigno primari non vacue.
 forms-master-pw-fips-desc = Le cambio de contrasigno ha fallite
+spam-delete-label =
+    .label = Deler los
+    .accesskey = D
+spam-read-description = Marcar messages como legite
+spam-read-manual-label =
+    .label = Quando manualmente marcate como spam
+    .accesskey = m
+spam-read-auto-label =
+    .label = Quando { -brand-short-name } determina que illos es spam
+    .accesskey = t
+spam-log-label =
+    .label = Registrar le activitate del filtro adaptive de posta indesirate
+    .accesskey = R
+spam-log-button =
+    .label = Monstrar registro
+    .accesskey = r
+reset-spam-button =
+    .label = Reinitialisar datos de exercitation
+    .accesskey = i
 junk-description = Configura hic le parametros global de posta indesirate. Le parametros de posta indesirate specific pro cata conto pote esser configurate in Parametros de contos.
 junk-marked-label =
     .label = Quando le messages es marcate como immunditia:
@@ -697,6 +716,18 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = DNS via HTTPS
+preferences-doh-description = Le systemas de nomine de dominio (DNS) sur HTTPS invia tu requesta pro un nomine de dominio per un connexion cryptate, forniente un DNS secur e obstruente al alteres de vider que sito web tu va acceder.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Stato: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Fornitor: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = URL invalide
+preferences-doh-steering-status = Uso de fornitor local
 preferences-doh-status-active = Active
 preferences-doh-status-disabled = Inactive
 # Variables:
@@ -723,6 +754,7 @@ preferences-doh-enabled-detailed-desc-2 = Usa solo tu predefinite resolutor de D
 preferences-doh-setting-strict =
     .label = Protection maxime
     .accesskey = m
+preferences-doh-strict-desc = { -brand-short-name } usara sempre DNS secur.
 preferences-doh-strict-detailed-desc-1 = Usar solo le fornitor que tu elige
 preferences-doh-strict-detailed-desc-2 = Sempre adverter si DNS secur non es disponibile
 preferences-doh-strict-detailed-desc-3 = Si DNS secur non es disponibile, le sitos non cargara o functionara correctemente
