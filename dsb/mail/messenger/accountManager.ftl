@@ -34,3 +34,6 @@ outgoing-server-settings-title = Nastajenja wuchadnego serwera
 outgoing-server-settings-description = Gaž zarědujośo swóje identity, móžośo serwer z lisćiny wužywaś, z tym až wuběraśo jen ako serwer za postowy wuchad, abo móžośo standardny serwer z toś teje lisćiny wužywaś, z tym až wuběraśo „Standardny serwer wužywaś“.
 outgoing-server-type = Serwerowy typ:
 panel-settings-spam = Spamowe nastajenja
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Jo se problem ze spamowymi nastajenjami za { $account } namakał. Cośo je pśeglědowaś, nježli až změny składujośo?

@@ -628,6 +628,7 @@ primary-password-button =
     .accesskey = z
 forms-primary-pw-fips-title = Sće tuchwilu we FIPS-modusu. FIPS sej hłowne hesło žada.
 forms-master-pw-fips-desc = Změnjenje hesła njeje so poradźiło
+spam-description = Nastajće swoje standardne spamowe nastajenja. Spamowe nastajenja specifiske za konto dadźa so w Kontowych nastajenjach konfigurować.
 spam-marked-label =
     .label = Hdyž so powěsće jako spam markěruja:
     .accesskey = H
