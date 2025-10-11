@@ -220,8 +220,8 @@ context-menu-mark-spam =
     .aria-label = Marcio fel Sbam
     .tooltiptext = Marcio fel Sbam
 context-menu-mark-not-spam =
-    .aria-label = Marciwch fel nad yw'n Sbam
-    .tooltiptext = Marciwch fel nad yw'n Sbam
+    .aria-label = Marcio fel nid Sbam
+    .tooltiptext = Marcio fel nid Sbam
 context-menu-mark-junk =
     .aria-label = Marcio fel Sbam
     .tooltiptext = Marcio fel Sbam
@@ -529,7 +529,7 @@ menu-mark-as-spam =
 mark-as-junk-key =
     .key = j
 menu-mark-not-spam =
-    .label = Fel Ddim yn Sbam
+    .label = Fel Nid Sbam
     .accesskey = F
 mark-not-junk-key =
     .key = j
@@ -538,16 +538,16 @@ menu-recalculate-spam-score =
     .accesskey = R
 menu-run-spam-on-folder =
     .label = Rhedeg Rheolaethau Sbam ar Ffolder
-    .accesskey = R
+    .accesskey = f
 menu-delete-spam =
-    .label = Dileu Post sydd wedi'i Farcio fel Sbam yn y Ffolder
+    .label = Dileu E-bost sydd wedi'i Farcio fel Sbam yn y Ffolder
     .accesskey = D
 
 ## Folder pane context.
 
 folder-context-empty-spam =
-    .label = Sbam Gwag
-    .accesskey = S
+    .label = Gwag'r Sbam
+    .accesskey = G
 
 ## Thread pane.
 
@@ -559,7 +559,7 @@ column-status-spam =
 
 header-spam-button =
     .label = Sbam
-    .tooltiptext = Marciwch y neges hon fel sbam
+    .tooltiptext = Marcio'r neges hon fel sbam
 
 ## Actions for the New Mail Notification
 
@@ -585,7 +585,7 @@ menuitem-label-spam-status =
 
 # Variables:
 # $folder (String) - The name of the selected folder.
-prompt-empty-folder-title = Yn wag { $folder }?
+prompt-empty-folder-title = Gwagio { $folder }?
 # Variables:
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-message = Dileu pob neges ac is-ffolder yn y ffolder { $folder }?
@@ -595,5 +595,5 @@ prompt-dont-ask-again = Peidio â gofyn eto.
 
 # Variables:
 # $percentage (Number) - The percentage of completion of the spam analysis.
-spam-analysis-percentage = Dadansoddiad sbam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } wedi'i gwblhau
-spam-processing-message = Prosesu negeseuon sbam
+spam-analysis-percentage = Wedi cwblhau { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } o'r dadansoddiad sbam
+spam-processing-message = Wrthi'n prosesu negeseuon sbam
