@@ -690,6 +690,12 @@ email-e2ee-automatism-post =
     Automatiska beslut kan åsidosättas genom att manuellt aktivera eller inaktivera kryptering när du skriver ett meddelande.
     Obs: kryptering aktiveras alltid automatiskt när du svarar på ett krypterat meddelande.
 
+## DoH Section
+
+preferences-doh-url-custom =
+    .label = Anpassad
+    .accesskey = A
+
 ## Chat Tab
 
 startup-label =

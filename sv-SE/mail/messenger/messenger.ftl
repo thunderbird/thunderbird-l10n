@@ -548,3 +548,20 @@ menuitem-label-spam-percentage =
     .label = Skräppostprocent
 menuitem-label-spam-status =
     .label = Skräppoststatus
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Töm { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Ta bort alla meddelanden och undermappar i mappen { $folder }?
+prompt-dont-ask-again = Fråga inte igen.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Skräppostanalys { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } slutförd
+spam-processing-message = Bearbetar skräppostmeddelanden

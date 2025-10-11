@@ -47,6 +47,7 @@ compose-html-style-title = HTML-stil
 composition-addressing-header = Adresować
 privacy-main-header = Priwatnosć
 privacy-passwords-header = Hesła
+privacy-spam-header = Spam
 privacy-junk-header = Čapor
 collection-header = Hromadźenje a wužiwanje datow { -brand-short-name }
 collection-description = Chcemy was z wuběrami wobstarać a jenož to hromadźić, štož dyrbimy poskićić, zo bychmy { -brand-short-name } za kóždeho polěpšili. Prosymy přeco wo dowolnosć, prjedy hač wosobinske daty dóstanjemy.
@@ -627,6 +628,31 @@ primary-password-button =
     .accesskey = z
 forms-primary-pw-fips-title = Sće tuchwilu we FIPS-modusu. FIPS sej hłowne hesło žada.
 forms-master-pw-fips-desc = Změnjenje hesła njeje so poradźiło
+spam-marked-label =
+    .label = Hdyž so powěsće jako spam markěruja:
+    .accesskey = H
+spam-move-label =
+    .label = Je do kontoweho rjadowaka "Spam" přesunyć
+    .accesskey = k
+spam-delete-label =
+    .label = Je zhašeć
+    .accesskey = z
+spam-read-description = Powěsće jako přečitane markěrować
+spam-read-manual-label =
+    .label = Hdyž so manuelnje jako spam markěruja
+    .accesskey = m
+spam-read-auto-label =
+    .label = Hdyž { -brand-short-name } postaja, zo su spam
+    .accesskey = H
+spam-log-label =
+    .label = Protokolowanje priměrjomneho spamoweho filtra změnić
+    .accesskey = P
+spam-log-button =
+    .label = Protokol pokazać
+    .accesskey = P
+reset-spam-button =
+    .label = Trenowanske daty wróćo stajić
+    .accesskey = r
 junk-description = Nastajće swoje standardne nastajenja za čaporowu e-mejl. Nastajenja čaporoweje e-mejle specifiske za konto dadźa so w Kontowych nastajenjach konfigurować.
 junk-marked-label =
     .label = Hdyž so powěsće jako čapor markěruja:
@@ -693,6 +719,66 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Awtomatiske rozsudy dadźa so přepisać, hdyž so zaklučowanje manuelnje zmóžnja abo znjemóžnja, mjeztym zo powěsć pisaće.
     Pokaz: Zaklučowanje so přeco awtomatisce zmóžnja, hdyž na zaklučowanu powěsć wotmołwjeće.
+
+## DoH Section
+
+preferences-doh-header = DNS přez HTTPS
+preferences-doh-description = System domenowych mjenow (DNS) přez HTTPS waše naprašowanje za domenowym mjenom přez zaklučowane zwisk sćele, staja  wěsty DNS k dispoziciji a poćežuje druhim wosobam widźeć, kotre websydła wopytujeće.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Status: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Poskićowar: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Njepłaćiwy URL
+preferences-doh-steering-status = Lokalneho poskićowarja wužiwać
+preferences-doh-status-active = Aktiwny
+preferences-doh-status-disabled = Wupinjeny
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Njeaktiwny ({ $reason })
+preferences-doh-group-message = DNS přez HTTPS zmóžnić z pomocu:
+preferences-doh-expand-section =
+    .tooltiptext = Dalše informacije
+preferences-doh-setting-default =
+    .label = Standardny škit
+    .accesskey = S
+preferences-doh-default-desc = { -brand-short-name } rozsudźa, hdy wy měł wěsty DNS wužiwać, zo byšće swoju priwatnosć škitał.
+preferences-doh-default-detailed-desc-1 = Wužiwajće wěsty DNS w regionach, hdźež je k dispoziciji
+preferences-doh-default-detailed-desc-2 = Wužiwajće swój standardny DNS-resolwer, jeli je problem z poskićowarjom za wěsty DNS
+preferences-doh-default-detailed-desc-3 = Wužiwajće lokalneho poskićowarja, jeli móžno
+preferences-doh-default-detailed-desc-4 = Znjemóžńće, hdyž VPN, staršiska kontrola abo předewzaćelske směrnicy su aktiwne
+preferences-doh-default-detailed-desc-5 = Znjemóžńće, hdyž syć { -brand-short-name } zdźěla, zo wón nima wěsty DNS wužiwać
+preferences-doh-setting-enabled =
+    .label = Powyšeny škit
+    .accesskey = P
+preferences-doh-enabled-desc = Kontrolujeće, hdyž so ma wěsty DNS wužiwać a wuběraće swojeho poskićowarja.
+preferences-doh-enabled-detailed-desc-1 = Poskićowarja wužiwać, kotrehož sće wubrał
+preferences-doh-enabled-detailed-desc-2 = Wužiwajće jenož swój standardny DNS-resolwer, jeli je problem z wěstym DNS
+preferences-doh-setting-strict =
+    .label = Maksimalny škit
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } budźe přeco wěsty DNS wužiwać. Budźeće warnowanje wěstotneho rizika widźiće, prjedy hač waš systemowy DNS wužiwamy.
+preferences-doh-strict-detailed-desc-1 = Jenož poskićowarja wužiwać, kotrehož sće wubrał
+preferences-doh-strict-detailed-desc-2 = Přeco warnować, jeli wěsty DNS k dispoziciji njeje
+preferences-doh-strict-detailed-desc-3 = Jeli wěsty DNS k dispoziciji njeje, so sydła njezačitaja abo porjadnje njefunguja
+preferences-doh-setting-off =
+    .label = Wupinjeny
+    .accesskey = u
+preferences-doh-off-desc = Wužiwajće swój standardny DNS-resolwer
+preferences-doh-checkbox-warn =
+    .label = Warnować, jeli třeći poskićowar wěstemu DNS aktiwnje zadźěwa
+    .accesskey = W
+preferences-doh-select-resolver = Wubjerće poskićowarja:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (standard)
+preferences-doh-url-custom =
+    .label = Swójski
+    .accesskey = S
 
 ## Chat Tab
 
