@@ -645,6 +645,15 @@ spam-read-manual-label =
 spam-read-auto-label =
     .label = Когда { -brand-short-name } определяет, что это спам
     .accesskey = Е
+spam-log-label =
+    .label = Включить журнал работы адаптивного спам-фильтра
+    .accesskey = У
+spam-log-button =
+    .label = Показать журнал
+    .accesskey = Ы
+reset-spam-button =
+    .label = Удалить данные обучения
+    .accesskey = К
 junk-description = Здесь вы можете установить настройки анти-спам фильтра по умолчанию. Настройки анти-спам фильтра, специфичные для учётной записи, могут быть установлены в параметрах учётной записи.
 junk-marked-label =
     .label = Когда сообщения помечены как спам:
@@ -714,6 +723,60 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = DNS через HTTPS
+preferences-doh-description = Система доменных имен (DNS) через HTTPS отправляет ваш запрос на доменное имя через зашифрованное соединение, обеспечивая безопасный DNS и мешая другим увидеть, к какому веб-сайту вы собираетесь получить доступ.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Состояние: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Провайдер: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Некорректный URL
+preferences-doh-steering-status = Использование местного провайдера
+preferences-doh-status-active = Активно
+preferences-doh-status-disabled = Выкл.
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Неактивно ({ $reason })
+preferences-doh-group-message = Включить DNS через HTTPS, используя:
+preferences-doh-expand-section =
+    .tooltiptext = Подробная информация
+preferences-doh-setting-default =
+    .label = Защита по умолчанию
+    .accesskey = В
+preferences-doh-default-desc = { -brand-short-name } решает, когда использовать безопасный DNS для защиты вашей конфиденциальности.
+preferences-doh-default-detailed-desc-1 = Использовать безопасный DNS в регионах, где он доступен
+preferences-doh-default-detailed-desc-2 = Использовать разрешение DNS по умолчанию, если имеется проблема с провайдером безопасного DNS
+preferences-doh-default-detailed-desc-3 = Использовать местного провайдера, если это возможно
+preferences-doh-default-detailed-desc-4 = Отключить, когда активны VPN, родительский контроль или корпоративные политики
+preferences-doh-default-detailed-desc-5 = Отключить, когда сеть сообщает { -brand-short-name }, что она не должна использовать безопасный DNS
+preferences-doh-setting-enabled =
+    .label = Повышенная защита
+    .accesskey = Ш
+preferences-doh-enabled-desc = Вы сами решаете, когда использовать безопасный DNS, и выбираете своего провайдера.
+preferences-doh-enabled-detailed-desc-1 = Использовать выбранного вами провайдера
+preferences-doh-enabled-detailed-desc-2 = Использовать разрешение DNS по умолчанию только в том случае, если есть проблема с безопасным DNS
+preferences-doh-setting-strict =
+    .label = Максимальная защита
+    .accesskey = Ь
+preferences-doh-strict-desc = { -brand-short-name } всегда будет использовать безопасный DNS. Вы увидите предупреждение об угрозе безопасности, прежде чем мы будем использовать DNS вашей системы.
+preferences-doh-strict-detailed-desc-1 = Использовать только выбранного вами провайдера
+preferences-doh-strict-detailed-desc-2 = Всегда предупреждать, если безопасный DNS недоступен
+preferences-doh-strict-detailed-desc-3 = Если безопасный DNS недоступен, сайты не будут загружаться или работать должным образом.
+preferences-doh-setting-off =
+    .label = Выкл.
+    .accesskey = Щ
+preferences-doh-off-desc = Использовать разрешение DNS по умолчанию
+preferences-doh-checkbox-warn =
+    .label = Предупреждать, если третья сторона активно препятствует безопасному DNS
+    .accesskey = Ц
+preferences-doh-select-resolver = Выбрать провайдера:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (По умолчанию)
 preferences-doh-url-custom =
     .label = Персональный
     .accesskey = С
