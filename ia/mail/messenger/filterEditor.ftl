@@ -6,3 +6,4 @@
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = message id = { $id } displaciate a { $folder }
+filter-action-log-spam = Definir como Spam

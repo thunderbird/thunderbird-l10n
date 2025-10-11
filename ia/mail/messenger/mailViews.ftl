@@ -5,4 +5,5 @@
 mail-view-known-people = Personas que io cognosce
 mail-view-recent = Email recente
 mail-view-last-five-days = Ultime 5 dies
+mail-view-not-spam = Non Spam
 mail-view-has-attachments = Ha annexos

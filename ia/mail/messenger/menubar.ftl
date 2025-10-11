@@ -94,6 +94,9 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Restabilir
     .tooltiptext = Restabilir le messages seligite
+toolbar-spam-button =
+    .label = Spam
+    .tooltiptext = Marca le messages eligite como spam
 
 ## View
 
