@@ -21,3 +21,4 @@ spam-message-detection-log = Открита нежелана поща от { $au
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = преместено писмо id = { $id } в { $folder }
+filter-action-log-spam = Оценка

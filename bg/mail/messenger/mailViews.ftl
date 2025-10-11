@@ -5,4 +5,5 @@
 mail-view-known-people = Мои познати
 mail-view-recent = Последна поща
 mail-view-last-five-days = От 5 дена
+mail-view-not-spam = Не е нежелано съобщение
 mail-view-has-attachments = Имат прикачени файлове

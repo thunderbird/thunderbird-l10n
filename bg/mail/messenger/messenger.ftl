@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Компактен изглед
     .accesskey = К
 
+## Folder names
+
+folder-name-spam = Нежелана поща
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,9 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Архивиране
     .tooltiptext = Архивиране
+context-menu-mark-spam =
+    .aria-label = Маркиране като нежелано съобщение
+    .tooltiptext = Маркиране като нежелано съобщение
 context-menu-mark-junk =
     .aria-label = Отбелязване като нежелана поща
     .tooltiptext = Отбелязване като нежелана поща
@@ -473,12 +480,27 @@ openpgp-forget = Забравяне на фразите за OpenPGP
 quota-panel-percent-used = { $percent }% запълнено
     .title = IMAP квота: { $usage } използвани от общо { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Състояние на нежеланата поща
+    .accesskey = С
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Като нежелано съобщение
+    .accesskey = н
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Като желано съобщение
+    .accesskey = ж
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Стартиране на контрола за нежелана поща
+    .accesskey = к
 
 ## Actions for the New Mail Notification
 

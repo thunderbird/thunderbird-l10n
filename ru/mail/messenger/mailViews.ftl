@@ -5,4 +5,5 @@
 mail-view-known-people = От знакомых
 mail-view-recent = Свежая почта
 mail-view-last-five-days = За последние 5 дней
+mail-view-not-spam = Не спам
 mail-view-has-attachments = С вложениями

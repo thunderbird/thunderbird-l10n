@@ -2,7 +2,23 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+rule-menuitem-spam =
+    .label = Спам
+rule-menuitem-not-spam =
+    .label = Не спам
+run-filter-before-spam =
+    .label = Фильтровать перед анализом на спам
+run-filter-after-spam =
+    .label = Фильтровать после анализа на спам
+rule-action-set-spam-status =
+    .label = Установить статус спама для
+# Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = Обнаружен спам от { $author } - { $subject } { $date }
 # Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = переместил сообщение с id «{ $id }» в папку «{ $folder }»
+filter-action-log-spam = индекс спама

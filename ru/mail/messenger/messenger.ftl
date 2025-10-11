@@ -130,6 +130,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Компактный вид
     .accesskey = п
 
+## Folder names
+
+folder-name-spam = Спам
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -205,6 +209,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Архивировать
     .tooltiptext = Архивировать
+context-menu-mark-spam =
+    .aria-label = Пометить как спам
+    .tooltiptext = Пометить как спам
+context-menu-mark-not-spam =
+    .aria-label = Пометить как не спам
+    .tooltiptext = Пометить как не спам
 context-menu-mark-junk =
     .aria-label = Отметить как спам
     .tooltiptext = Отметить как спам
@@ -483,10 +493,22 @@ openpgp-forget = Забыть парольные фразы OpenPGP
 quota-panel-percent-used = { $percent }% заполнено
     .title = IMAP-квота: использовано { $usage } из { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Статус спама
+    .accesskey = Ы
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Как спам
+    .accesskey = Ы
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Как не спам
+    .accesskey = Т
 mark-not-junk-key =
     .key = j
 

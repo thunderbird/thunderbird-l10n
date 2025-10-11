@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Възстановяване
     .tooltiptext = Възстановяване на избраните съобщения
+toolbar-spam-button =
+    .label = Нежелана поща
+    .tooltiptext = Отбелязване на избраните съобщения като нежелани
+toolbar-not-spam-button =
+    .label = Не е нежелана поща
+    .tooltiptext = Отбелязване на избраните съобщения като желани
 
 ## View
 

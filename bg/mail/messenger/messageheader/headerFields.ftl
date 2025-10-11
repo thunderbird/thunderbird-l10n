@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = Изключване на режима за тъмни съобщения
 dark-message-mode-toggle-disabled =
     .title = Включване на режима за тъмни съобщения
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } смята, че това съобщение е нежелана поща
+message-bar-not-spam-button =
+    .label = Не е нежелано съобщение
+    .accesskey = Н
+message-bar-learn-more-button =
+    .label = Научете повече...
+    .accesskey = п
