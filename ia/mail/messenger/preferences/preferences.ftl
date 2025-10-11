@@ -47,6 +47,7 @@ compose-html-style-title = Stylo HTML
 composition-addressing-header = Adresses
 privacy-main-header = Confidentialitate
 privacy-passwords-header = Contrasignos
+privacy-spam-header = Spam
 privacy-junk-header = Indesirate
 collection-header = Collecta e uso de datos per { -brand-short-name }
 collection-description = Nos nos effortia pro lassar te in le commando e colliger solmente lo que nos ha necessitate pro provider e meliorar { -brand-short-name } a totes. Nos sempre demanda permission ante reciper informationes personal.
@@ -693,6 +694,10 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     On pote abrogar manualmente le decisiones automatic, per activar o disactivar le cryptation, dum on scribe le message.
     Nota: cryptation es sempre automaticamente activate quando on responde a un message cryptate.
+
+## DoH Section
+
+preferences-doh-status-active = Active
 
 ## Chat Tab
 

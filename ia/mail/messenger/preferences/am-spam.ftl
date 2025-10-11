@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 spam-settings-title = Parametros de spam
+dialog-header-title =
+    .value = Parametros de spam
 move-message-other =
     .label = Altere:
     .accesskey = A

@@ -496,8 +496,17 @@ menu-mark-as-spam =
     .accesskey = S
 mark-as-junk-key =
     .key = i
+menu-mark-not-spam =
+    .label = Como non Spam
+    .accesskey = N
 mark-not-junk-key =
     .key = i
+
+## Message header.
+
+header-spam-button =
+    .label = Spam
+    .tooltiptext = Marca iste message como spam
 
 ## Actions for the New Mail Notification
 
@@ -506,3 +515,25 @@ delete-action = Deler
 mark-as-starred-action = Marcar como stellate
 mark-as-spam-action = Marcar como spam
 archive-action = Archivo
+
+## Message list.
+
+message-flag-spam = Spam
+menuitem-label-spam =
+    .label = Spam
+menuitem-label-spam-status =
+    .label = Stato de spam
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Vacuar { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Deler tote le messages e sub-plicas in le plica { $folder }?
+prompt-dont-ask-again = Non plus demandar.
+
+## Spam commands
+
+spam-processing-message = Processante messages spam
