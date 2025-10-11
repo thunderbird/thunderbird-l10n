@@ -274,7 +274,7 @@ message-header-recipient-avatar =
 
 ## Message header customize panel
 
-message-header-customize-panel-title = 消息标题栏设置
+message-header-customize-panel-title = 邮件标题栏设置
 message-header-customize-button-style =
     .value = 按钮样式
     .accesskey = B
@@ -292,7 +292,7 @@ message-header-show-recipient-avatar =
     .label = 显示发件人头像
     .accesskey = p
 message-header-show-big-avatar =
-    .label = 更大的个人资料图片
+    .label = 更大头像
     .accesskey = g
 message-header-hide-label-column =
     .label = 隐藏标签列

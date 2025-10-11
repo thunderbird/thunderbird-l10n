@@ -721,6 +721,58 @@ email-e2ee-automatism-post =
 
 preferences-doh-header = DNS via HTTPS
 preferences-doh-description = Domain Name System (DNS) via HTTPS skickar din begäran om ett domännamn via en krypterad anslutning, vilket tillhandahåller en säker DNS och gör det svårare för andra att se vilken webbplats du är på väg att besöka.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Status: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Leverantör: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Ogiltig URL
+preferences-doh-steering-status = Använder lokal leverantör
+preferences-doh-status-active = Aktiv
+preferences-doh-status-disabled = Av
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Inte aktiv ({ $reason })
+preferences-doh-group-message = Aktivera DNS via HTTPS med:
+preferences-doh-expand-section =
+    .tooltiptext = Mer information
+preferences-doh-setting-default =
+    .label = Standardskydd
+    .accesskey = S
+preferences-doh-default-desc = { -brand-short-name } bestämmer när säker DNS ska användas för att skydda din integritet.
+preferences-doh-default-detailed-desc-1 = Använd säker DNS i regioner där det är tillgängligt
+preferences-doh-default-detailed-desc-2 = Använd din standard DNS-resolver om det finns ett problem med den säkra DNS-leverantören
+preferences-doh-default-detailed-desc-3 = Använd en lokal leverantör, om möjligt
+preferences-doh-default-detailed-desc-4 = Stäng av när VPN, föräldrakontroll eller företagspolicyer är aktiva
+preferences-doh-default-detailed-desc-5 = Stäng av när ett nätverk säger till { -brand-short-name } att det inte ska använda säker DNS
+preferences-doh-setting-enabled =
+    .label = Förstärkt skydd
+    .accesskey = F
+preferences-doh-enabled-desc = Du bestämmer när du ska använda säker DNS och väljer din leverantör.
+preferences-doh-enabled-detailed-desc-1 = Använd den leverantör du väljer
+preferences-doh-enabled-detailed-desc-2 = Använd endast din standard DNS-resolver om det uppstod ett problem med säker DNS
+preferences-doh-setting-strict =
+    .label = Maximalt skydd
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } kommer alltid att använda säker DNS. Du kommer att se en säkerhetsriskvarning innan vi använder ditt system DNS.
+preferences-doh-strict-detailed-desc-1 = Använd endast den leverantör du väljer
+preferences-doh-strict-detailed-desc-2 = Varna alltid om säker DNS inte är tillgänglig
+preferences-doh-strict-detailed-desc-3 = Om säker DNS inte är tillgänglig kommer webbplatser inte att laddas eller fungera korrekt
+preferences-doh-setting-off =
+    .label = Av
+    .accesskey = A
+preferences-doh-off-desc = Använd din standard DNS-resolver
+preferences-doh-checkbox-warn =
+    .label = Varna om en tredje part aktivt förhindrar säker DNS
+    .accesskey = V
+preferences-doh-select-resolver = Välj leverantör:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (Standard)
 preferences-doh-url-custom =
     .label = Anpassad
     .accesskey = A
