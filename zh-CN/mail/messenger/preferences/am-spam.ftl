@@ -21,3 +21,6 @@ automatic-spam-purge-label =
     .value = 天
 spam-classification-legend = 选择
 spam-actions-legend = 存放与保留
+global-spam-preferences-button =
+    .label = 全局垃圾邮件设置…
+    .accesskey = G
