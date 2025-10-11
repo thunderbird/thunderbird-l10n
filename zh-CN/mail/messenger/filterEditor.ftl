@@ -6,3 +6,4 @@
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = 已复制消息 id = { $id } 至 { $folder }
+filter-action-log-spam = 垃圾邮件分值
