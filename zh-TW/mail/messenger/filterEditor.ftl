@@ -16,7 +16,7 @@ rule-action-set-spam-status =
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.
 # $date (String) - The date of the message.
-spam-message-detection-log = 偵測到從 { $author } - { $subject } { $date } 的垃圾信
+spam-message-detection-log = 偵測到 { $date } 來自 { $author } - { $subject } 的垃圾信
 # Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
