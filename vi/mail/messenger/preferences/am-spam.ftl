@@ -5,7 +5,7 @@
 spam-settings-title = Cài đặt thư rác
 dialog-header-title =
     .value = Cài đặt thư rác
-training-description-spam = Nếu được bật, trước tiên bạn phải huấn luyện { -brand-short-name } để nhận dạng thư rác bằng cách sử dụng nút thanh công cụ Thư rác để đánh dấu thư là thư rác hay không. Bạn cần xác định cả thư rác và thư không phải thư rác. Sau đó, { -brand-short-name } sẽ có thể tự động đánh dấu thư rác.
+training-description-spam = Nếu được bật, trước tiên bạn phải đào tạo { -brand-short-name } để nhận dạng thư rác bằng cách sử dụng nút thanh công cụ Thư rác để đánh dấu thư là thư rác hay không. Bạn cần xác định cả thư rác và thư không phải thư rác. Sau đó, { -brand-short-name } sẽ có thể tự động đánh dấu thư rác.
 spam-level-checkbox =
     .label = Bật chế độ kiểm soát thư rác thích ứng cho tài khoản này
     .accesskey = E

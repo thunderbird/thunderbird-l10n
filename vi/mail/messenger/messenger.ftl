@@ -128,6 +128,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Chế độ xem thu gọn
     .accesskey = C
 
+## Folder names
+
+folder-name-spam = Thư rác
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -199,6 +203,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Lưu trữ
     .tooltiptext = Lưu trữ
+context-menu-mark-spam =
+    .aria-label = Đánh dấu là thư rác
+    .tooltiptext = Đánh dấu là thư rác
+context-menu-mark-not-spam =
+    .aria-label = Đánh dấu không phải là thư rác
+    .tooltiptext = Đánh dấu không phải là thư rác
 context-menu-mark-junk =
     .aria-label = Đánh dấu là thư rác
     .tooltiptext = Đánh dấu là thư rác
@@ -452,12 +462,51 @@ openpgp-forget = Quên cụm mật khẩu OpenPGP
 quota-panel-percent-used = { $percent }% đã đầy
     .title = Hạn ngạch IMAP: { $usage } đã sử dụng trong tổng số { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Trạng thái thư rác
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Là thư rác
+    .accesskey = S
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Không phải là thư rác
+    .accesskey = N
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Chạy kiểm soát thư rác
+    .accesskey = C
+menu-run-spam-on-folder =
+    .label = Chạy kiểm soát thư rác trên thư mục
+    .accesskey = C
+menu-delete-spam =
+    .label = Xóa thư được đánh dấu là thư rác trong thư mục
+    .accesskey = D
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Làm trống thư rác
+    .accesskey = S
+
+## Thread pane.
+
+column-status-spam =
+    .label = Trạng thái thư rác
+    .tooltiptext = Sắp xếp theo trạng thái thư rác
+
+## Message header.
+
+header-spam-button =
+    .label = Thư rác
+    .tooltiptext = Đánh dấu thư này là thư rác
 
 ## Actions for the New Mail Notification
 
@@ -466,3 +515,32 @@ delete-action = Xóa
 mark-as-starred-action = Đánh dấu là được gắn sao
 mark-as-spam-action = Đánh dấu là thư rác
 archive-action = Lưu trữ
+
+## Message list.
+
+message-flag-spam = Thư rác
+menuitem-label-spam =
+    .label = Thư rác
+menuitem-label-spam-score-origin =
+    .label = Nguồn gốc điểm thư rác
+menuitem-label-spam-percentage =
+    .label = Phần trăm thư rác
+menuitem-label-spam-status =
+    .label = Trạng thái thư rác
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Làm trống { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Xóa tất cả thư và thư mục con trong thư mục { $folder }?
+prompt-dont-ask-again = Đừng hỏi lại.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Phân tích thư rác { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } đã hoàn tất
+spam-processing-message = Đang xử lý thư rác

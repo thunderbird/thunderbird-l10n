@@ -75,3 +75,13 @@ dark-message-mode-toggle-enabled =
     .title = Tắt chế độ tối cho thư
 dark-message-mode-toggle-disabled =
     .title = Bật chế độ tối cho thư
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } cho rằng thư này là thư rác.
+message-bar-not-spam-button =
+    .label = Không phải thư rác
+    .accesskey = N
+message-bar-learn-more-button =
+    .label = Tìm hiểu thêm…
+    .accesskey = L

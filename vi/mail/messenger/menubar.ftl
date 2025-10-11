@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Hoàn tác xóa
     .tooltiptext = Phục hồi các thư đã chọn
+toolbar-spam-button =
+    .label = Thư rác
+    .tooltiptext = Đánh dấu thư đã chọn là thư rác
+toolbar-not-spam-button =
+    .label = Không phải thư rác
+    .tooltiptext = Đánh dấu thư đã chọn không phải là thư rác
 
 ## View
 

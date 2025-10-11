@@ -5,4 +5,5 @@
 mail-view-known-people = Những người tôi biết
 mail-view-recent = Thư gần đây
 mail-view-last-five-days = 5 ngày qua
+mail-view-not-spam = Không phải thư rác
 mail-view-has-attachments = Có đính kèm
