@@ -627,6 +627,9 @@ primary-password-button =
     .accesskey = d
 forms-primary-pw-fips-title = Şu anda FIPS kipindesiniz. FIPS için boş olmayan bir ana parola gereklidir.
 forms-master-pw-fips-desc = Parola değiştirme başarısız
+reset-spam-button =
+    .label = Eğitim verilerini sıfırla
+    .accesskey = E
 junk-description = Varsayılan gereksiz e-posta ayarlarınızı yapılandırın. Hesaba özel gereksiz e-posta ayarlarını hesap ayarlarından yapılandırabilirsiniz.
 junk-marked-label =
     .label = İletiler gereksiz olarak işaretlendiğinde
@@ -693,6 +696,66 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Otomatik kararlar, bir ileti oluşturulurken şifrelemenin manuel olarak etkinleştirilmesi veya devre dışı bırakılmasıyla geçersiz kılınabilir.
     Not: Şifreli bir iletiye yanıt verilirken şifreleme her zaman otomatik olarak etkinleştirilir.
+
+## DoH Section
+
+preferences-doh-header = HTTPS üzerinden DNS
+preferences-doh-description = HTTPS Üzerinden Alan Adı Sistemi (DNS), alan adı isteklerinizi şifreli bir bağlantı üzerinden göndererek güvenli bir DNS sağlar. Böylece hangi web sitelerine eriştiğinizi başkalarının görmesi zorlaştır.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Durum: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Sağlayıcı: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Geçersiz URL
+preferences-doh-steering-status = Yerel sağlayıcı kullanılıyor
+preferences-doh-status-active = Etkin
+preferences-doh-status-disabled = Kapalı
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Etkin değil ({ $reason })
+preferences-doh-group-message = HTTPS üzerinden DNS’i etkinleştir:
+preferences-doh-expand-section =
+    .tooltiptext = Daha fazla bilgi
+preferences-doh-setting-default =
+    .label = Varsayılan koruma
+    .accesskey = a
+preferences-doh-default-desc = Gizliliğinizi korumak için ne zaman güvenli DNS kullanılacağına { -brand-short-name } karar verir.
+preferences-doh-default-detailed-desc-1 = Güvenli DNS hizmetinin sunulduğu bölgelerde güvenli DNS kullanılır
+preferences-doh-default-detailed-desc-2 = Güvenli DNS sağlayıcınızda sorun yaşanırsa varsayılan DNS çözümleyiciniz kullanılır
+preferences-doh-default-detailed-desc-3 = Mümkünse yerel bir sağlayıcı kullanılır
+preferences-doh-default-detailed-desc-4 = VPN, ebeveyn denetimleri veya kurumsal ilkeler etkinse güvenli DNS kapanır
+preferences-doh-default-detailed-desc-5 = Ağınız { -brand-short-name } uygulamasına güvenli DNS kullanmama isteği gönderirse güvenli DNS kapanır
+preferences-doh-setting-enabled =
+    .label = Artırılmış koruma
+    .accesskey = r
+preferences-doh-enabled-desc = Güvenli DNS’in ne zaman kullanılacağını siz belirler ve sağlayıcınızı siz seçersiniz.
+preferences-doh-enabled-detailed-desc-1 = Seçtiğiniz sağlayıcı kullanılır
+preferences-doh-enabled-detailed-desc-2 = Yalnızca güvenli DNS sağlayıcınızda sorun yaşanırsa varsayılan DNS çözümleyiciniz kullanılır
+preferences-doh-setting-strict =
+    .label = Maksimum koruma
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } her zaman güvenli DNS kullanır. Sistem DNS’inizi kullanmadan önce bir güvenlik uyarısı gösterir.
+preferences-doh-strict-detailed-desc-1 = Sadece seçtiğiniz sağlayıcıyı kullanır
+preferences-doh-strict-detailed-desc-2 = Güvenli DNS kullanılamazsa sizi her zaman uyarır
+preferences-doh-strict-detailed-desc-3 = Güvenli DNS kullanılamazsa siteler açılmaz veya düzgün çalışmaz
+preferences-doh-setting-off =
+    .label = Kapalı
+    .accesskey = K
+preferences-doh-off-desc = Varsayılan DNS çözümleyicinizi kullanır
+preferences-doh-checkbox-warn =
+    .label = Üçüncü bir taraf güvenli DNS’i engellerse beni uyar
+    .accesskey = Ü
+preferences-doh-select-resolver = Sağlayıcıyı seçin:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (Varsayılan)
+preferences-doh-url-custom =
+    .label = Özel
+    .accesskey = Ö
 
 ## Chat Tab
 

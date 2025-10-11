@@ -487,3 +487,10 @@ delete-action = Sil
 mark-as-starred-action = Yıldızlı olarak işaretle
 mark-as-spam-action = Spam olarak işaretle
 archive-action = Arşivle
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = { $folder } klasöründeki tüm iletiler ve alt klasörler silinsin mi?
+prompt-dont-ask-again = Tekrar sorma.
