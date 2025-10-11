@@ -13,6 +13,11 @@ run-filter-after-spam =
 rule-action-set-spam-status =
     .label = 設定垃圾信狀態為
 # Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = 偵測到從 { $author } - { $subject } { $date } 的垃圾信
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = 已移動郵件 ID = { $id } 到 { $folder }
