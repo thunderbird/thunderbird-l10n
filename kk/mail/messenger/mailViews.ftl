@@ -5,4 +5,5 @@
 mail-view-known-people = Мен білетін адамдар
 mail-view-recent = Соңғы пошта
 mail-view-last-five-days = Соңғы 5 күн
+mail-view-not-spam = Спам емес
 mail-view-has-attachments = Салынымдары бар

@@ -128,6 +128,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ықшам көрініс
     .accesskey = Ы
 
+## Folder names
+
+folder-name-spam = Спам
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -199,6 +203,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Архивтеу
     .tooltiptext = Архивтеу
+context-menu-mark-spam =
+    .aria-label = Спам деп белгілеу
+    .tooltiptext = Спам деп белгілеу
+context-menu-mark-not-spam =
+    .aria-label = Спам емес деп белгілеу
+    .tooltiptext = Спам емес деп белгілеу
 context-menu-mark-junk =
     .aria-label = Спам ретінде белгілеу
     .tooltiptext = Спам ретінде белгілеу
@@ -472,10 +482,22 @@ openpgp-forget = OpenPGP кілттік фразаларын ұмыту
 quota-panel-percent-used = { $percent }% толық
     .title = IMAP квотасы: { $limit } ішінен { $usage } қолданылуда
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Спам қалып-күйі
+    .accesskey = С
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Спам ретінде
+    .accesskey = С
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Спам емес ретінде
+    .accesskey = н
 mark-not-junk-key =
     .key = j
 

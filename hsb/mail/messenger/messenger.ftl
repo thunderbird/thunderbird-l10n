@@ -517,6 +517,9 @@ menu-mark-not-spam =
     .accesskey = n
 mark-not-junk-key =
     .key = j
+menu-delete-spam =
+    .label = E-mejl markěrowanu jako spam w rjadowaku zhašeć
+    .accesskey = E
 
 ## Folder pane context.
 
