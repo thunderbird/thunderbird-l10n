@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Compact View
     .accesskey = C
 
+## Folder names
+
+folder-name-spam = Spam
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Archive
     .tooltiptext = Archive
+context-menu-mark-spam =
+    .aria-label = Mark as Spam
+    .tooltiptext = Mark as Spam
+context-menu-mark-not-spam =
+    .aria-label = Mark as not Spam
+    .tooltiptext = Mark as not Spam
 context-menu-mark-junk =
     .aria-label = Mark as Junk
     .tooltiptext = Mark as Junk
@@ -473,12 +483,51 @@ openpgp-forget = Forget OpenPGP passphrases
 quota-panel-percent-used = { $percent }% full
     .title = IMAP quota: { $usage } used of { $limit } total
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Spam Status
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = As Spam
+    .accesskey = S
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = As Not Spam
+    .accesskey = N
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Run Spam Controls
+    .accesskey = C
+menu-run-spam-on-folder =
+    .label = Run Spam Controls on Folder
+    .accesskey = C
+menu-delete-spam =
+    .label = Delete Mail Marked as Spam in Folder
+    .accesskey = D
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Empty Spam
+    .accesskey = S
+
+## Thread pane.
+
+column-status-spam =
+    .label = Spam Status
+    .tooltiptext = Sort by spam status
+
+## Message header.
+
+header-spam-button =
+    .label = Spam
+    .tooltiptext = Mark this message as spam
 
 ## Actions for the New Mail Notification
 
@@ -487,3 +536,32 @@ delete-action = Delete
 mark-as-starred-action = Mark as Starred
 mark-as-spam-action = Mark as Spam
 archive-action = Archive
+
+## Message list.
+
+message-flag-spam = Spam
+menuitem-label-spam =
+    .label = Spam
+menuitem-label-spam-score-origin =
+    .label = Spam Score Origin
+menuitem-label-spam-percentage =
+    .label = Spam Percent
+menuitem-label-spam-status =
+    .label = Spam Status
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Empty { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Delete all messages and subfolders in the { $folder } folder?
+prompt-dont-ask-again = Do not ask again.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Spam analysis { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } completed
+spam-processing-message = Processing spam messages

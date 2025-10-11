@@ -21,3 +21,4 @@ spam-message-detection-log = Detected spam from { $author } - { $subject } at { 
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = moved message id = { $id } to { $folder }
+filter-action-log-spam = spam score

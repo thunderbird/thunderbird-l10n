@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Undelete
     .tooltiptext = Undelete selected messages
+toolbar-spam-button =
+    .label = Spam
+    .tooltiptext = Mark the selected messages as spam
+toolbar-not-spam-button =
+    .label = Not Spam
+    .tooltiptext = Mark the selected messages as not spam
 
 ## View
 
