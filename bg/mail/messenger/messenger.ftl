@@ -207,6 +207,9 @@ context-menu-archive =
 context-menu-mark-spam =
     .aria-label = Маркиране като нежелано съобщение
     .tooltiptext = Маркиране като нежелано съобщение
+context-menu-mark-not-spam =
+    .aria-label = Отбелязване като желана поща
+    .tooltiptext = Отбелязване като желана поща
 context-menu-mark-junk =
     .aria-label = Отбелязване като нежелана поща
     .tooltiptext = Отбелязване като нежелана поща
@@ -501,6 +504,24 @@ mark-not-junk-key =
 menu-recalculate-spam-score =
     .label = Стартиране на контрола за нежелана поща
     .accesskey = к
+menu-run-spam-on-folder =
+    .label = Стартиране в папката на контрола върху нежеланата поща
+    .accesskey = н
+menu-delete-spam =
+    .label = Изтриване на поща, отбелязана като нежелана от папката
+    .accesskey = И
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Изчистване на нежеланата поща
+    .accesskey = ч
+
+## Thread pane.
+
+column-status-spam =
+    .label = Състояние на нежеланата поща
+    .tooltiptext = Подреждане по състоянието на нежеланата поща
 
 ## Message header.
 
@@ -525,3 +546,22 @@ menuitem-label-spam-score-origin =
     .label = Източник на рейтинг за нежелана поща
 menuitem-label-spam-percentage =
     .label = Процент на нежелана поща
+menuitem-label-spam-status =
+    .label = Състояние на нежеланата поща
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Изпразване на { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Изтриване на всички съобщения и подпапки от папка { $folder }?
+prompt-dont-ask-again = Спиране на този въпрос.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Анализ на нежелана поща { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } завършен
+spam-processing-message = Обработване на нежелани съобщения
