@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Þjöppuð sýn
     .accesskey = p
 
+## Folder names
+
+folder-name-spam = Ruslpóstur
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Skjalageymsla
     .tooltiptext = Skjalageymsla
+context-menu-mark-spam =
+    .aria-label = Merkja sem ruslpóst
+    .tooltiptext = Merkja sem ruslpóst
+context-menu-mark-not-spam =
+    .aria-label = Merkja sem ekki ruslpóst
+    .tooltiptext = Merkja sem ekki ruslpóst
 context-menu-mark-junk =
     .aria-label = Merkja sem rusl
     .tooltiptext = Merkja sem rusl
@@ -473,12 +483,45 @@ openpgp-forget = Gleyma OpenPGP-aðgangsorðum
 quota-panel-percent-used = { $percent }% notað
     .title = IMAP-kvóti: { $usage } notað af { $limit } alls
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Staða ruslpósts
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Sem ruslpóstur
+    .accesskey = S
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Ekki ruslpóstur
+    .accesskey = p
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Keyra ruslpóststýringar
+    .accesskey = y
+menu-run-spam-on-folder =
+    .label = Keyra ruslpóstsaðgerðir á möppu
+    .accesskey = y
+menu-delete-spam =
+    .label = Eyða öllum merktum ruslpósti í möppu
+    .accesskey = E
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Tæma ruslpóst
+    .accesskey = s
+
+## Thread pane.
+
+column-status-spam =
+    .label = Staða ruslpósts
+    .tooltiptext = Raða eftir stöðu ruslpósts
 
 ## Actions for the New Mail Notification
 

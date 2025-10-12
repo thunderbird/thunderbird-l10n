@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Afturkalla eyðingu
     .tooltiptext = Afturkalla eyðingu á völdum skilaboðum
+toolbar-spam-button =
+    .label = Ruslpóstur
+    .tooltiptext = Merkja valin skilaboð sem ruslpóst
+toolbar-not-spam-button =
+    .label = Ekki ruslpóstur
+    .tooltiptext = Merkja valin skilaboð sem ekki ruslpóst
 
 ## View
 

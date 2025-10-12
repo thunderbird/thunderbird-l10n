@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = Gera dökkan ham skilaboða óvirkan
 dark-message-mode-toggle-disabled =
     .title = Virkja dökkan ham skilaboða
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } telur að þessi skilaboð séu ruslpóstur.
+message-bar-not-spam-button =
+    .label = Ekki ruslpóstur
+    .accesskey = p
+message-bar-learn-more-button =
+    .label = Kanna nánar…
+    .accesskey = K

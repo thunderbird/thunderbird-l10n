@@ -47,6 +47,7 @@ compose-html-style-title = HTML-stíll
 composition-addressing-header = Póstföng
 privacy-main-header = Friðhelgi
 privacy-passwords-header = Lykilorð
+privacy-spam-header = Ruslpóstur
 privacy-junk-header = Ruslpóstur
 collection-header = Söfnun og notkun gagna í { -brand-short-name }
 collection-description = Við reynum alltaf að bjóða upp á valkosti og söfnum aðeins þeim upplýsingum sem við þurfum til að endurbæta { -brand-short-name } fyrir alla. Við spyrjum alltaf um leyfi áður en við söfnum persónulegum upplýsingum.
@@ -693,6 +694,17 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Hægt er að hnekkja sjálfvirkum ákvörðunum með því að kveikja eða slökkva handvirkt á dulritun þegar þú skrifar skilaboð.
     Athugið: dulritun er alltaf virkjuð sjálfkrafa þegar dulrituðum skilaboðum er svarað.
+
+## DoH Section
+
+preferences-doh-default-detailed-desc-4 = Slökkva á þessu þegar VPN, foreldrastýringar eða fyrirtækjareglur eru virkar
+preferences-doh-default-detailed-desc-5 = Slökkva á þessu þegar netkerfi segir { -brand-short-name } að það ætti ekki að nota öruggt DNS
+preferences-doh-setting-enabled =
+    .label = Aukin vernd
+    .accesskey = i
+preferences-doh-enabled-desc = Þú stjórnar hvenær á að nota öruggt DNS og velur þjónustuveituna þína.
+preferences-doh-enabled-detailed-desc-1 = Nota þjónustuveituna sem þú velur
+preferences-doh-enabled-detailed-desc-2 = Aðeins nota sjálfgefna DNS-leysarann þinn ef vandamál er með öruggu DNS-veituna
 
 ## Chat Tab
 
