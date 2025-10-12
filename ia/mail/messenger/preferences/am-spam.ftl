@@ -5,7 +5,7 @@
 spam-settings-title = Parametros de spam
 dialog-header-title =
     .value = Parametros de spam
-training-description-spam = -- Si es activate, tu debe primo inseniar a &brandShortName; a recognoscer le posta indesirate usante le button Indesirate in le barra de instrumentos pro marcar o dismarcar messages como indesirate. Tu debe identificar tanto le messages desirate como le messages indesirate. Post isto, &brandShortName; potera marcar automaticamente le posta indesirate.
+training-description-spam = Si il es activate, tu debe primo trainar { -brand-short-name } a identificar le spam usante le button del barra de instrumentos del spam pro marcar messages como spam o non. Tu debe identificar tanto le messages spam como le messages non spam. Postea { -brand-short-name } potera marcar le spam automaticamente.
 spam-level-checkbox =
     .label = Activar le controlos adaptive de posta indesirate pro iste conto
     .accesskey = A
