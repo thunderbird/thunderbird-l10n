@@ -524,6 +524,8 @@ archive-action = 归档
 message-flag-spam = 垃圾邮件
 menuitem-label-spam =
     .label = 垃圾邮件
+menuitem-label-spam-percentage =
+    .label = 垃圾邮件百分比
 menuitem-label-spam-status =
     .label = 垃圾邮件状态
 

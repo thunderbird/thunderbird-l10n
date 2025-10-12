@@ -628,6 +628,7 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = 您正处于 FIPS 模式。该模式需要一个非空的主密码。
 forms-master-pw-fips-desc = 密码更改失败
+spam-description = 设定默认垃圾邮件设置。若要配置特定账户专用的垃圾邮件设置，可前往“账户设置”进行配置。
 spam-marked-label =
     .label = 邮件被标记为垃圾邮件时：
     .accesskey = W
