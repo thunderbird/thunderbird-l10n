@@ -29,6 +29,7 @@ allowlist-header-label =
 isp-headers-checkbox =
     .label = Stol på søppelpostoverskrifter fastsette av:
     .accesskey = t
+isp-warning-description = Dersom slått på, vil { -brand-short-name } automatisk rekne meldingar merkt av denne eksterne klassifiseraren som søppelpost.
 spam-classification-legend = Utval
 spam-actions-legend = Mål og lagring
 global-spam-preferences-button =

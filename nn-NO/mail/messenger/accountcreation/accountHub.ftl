@@ -60,6 +60,8 @@ account-hub-protocol-label = Protokoll
 account-hub-hostname-label = Vertsnamn
 account-hub-result-hostname-label = Vertsnamn
     .title = Vertsnamn
+account-hub-result-socket-type-label = Tilkoplingssikkerheit
+account-hub-on-port-label = Port
 account-hub-result-authentication-label = Autentisering
     .title = Autentisering
 account-hub-port-label = Port
@@ -119,6 +121,9 @@ address-book-carddav-connection-error = Tilkoplingsfeil.
 address-book-ldap-duplicate-error = LDAP-katalognamnet finst allereie. Skriv inn eit anna katalognamn.
 address-book-ldap-creation-error = Klarte ikkje å opprette LDAP-katalog.
 account-hub-email-setup-ews = Serverinnstillingar
+account-hub-result-host-url-label = URL-adresse for EWS-endepunkt
+account-hub-email-credentials-confirmation = Kontokonfigurasjon
+account-hub-result-unknown-cert = Ikkje-stadfesta sertifikat
 account-hub-result-username-label = Brukarnamn
     .title = Brukarnamn
 account-hub-name-label = Fullt namn
@@ -178,6 +183,7 @@ account-hub-port-error-text = Portnummer må vere mellom 1 og 65535
 account-hub-username-error-text = Brukarnamn er påkravd
     .title = Brukarnamn er påkravd
 account-hub-oauth-pending = Ventar på autorisasjon i påloggingsvindauget …
+account-hub-addon-install-button = Installer
 account-hub-addon-install-needed = { -brand-short-name } støttar ikkje denne serveren som standard. For å få tilgang til Exchange-e-post, <a data-l10n-name="addon-install">installer eit tredjeparts tillegg som Owl (betalt).</a>
 account-hub-addon-error = Mislykka installasjon av tillegget. Prøv på nytt, eller kontakt forfattaren av tillegget for å få hjelp.
 account-hub-security-warning = <span data-l10n-name="security-warning">Åtvaring: Usikker e-postserver oppdaga.</span> Denne serveren manglar kryptering, noko som eksponerer passordet og dataa dine. Kontakt administratoren din for å sikre tilkoplinga, eller hald fram på eigen risiko. <a data-l10n-name="faq-link">Sjå ofte stilte spørsmål for meir informasjon.</a>y
