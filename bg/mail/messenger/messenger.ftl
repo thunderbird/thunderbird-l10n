@@ -502,6 +502,12 @@ menu-recalculate-spam-score =
     .label = Стартиране на контрола за нежелана поща
     .accesskey = к
 
+## Message header.
+
+header-spam-button =
+    .label = Нежелана поща
+    .tooltiptext = Маркиране на съобщението като нежелано
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Отбелязване като прочетено
@@ -509,3 +515,13 @@ delete-action = Изтриване
 mark-as-starred-action = Маркиране със звезда
 mark-as-spam-action = Маркиране като нежелано съобщение
 archive-action = Архивиране
+
+## Message list.
+
+message-flag-spam = Нежелана поща
+menuitem-label-spam =
+    .label = Нежелана поща
+menuitem-label-spam-score-origin =
+    .label = Източник на рейтинг за нежелана поща
+menuitem-label-spam-percentage =
+    .label = Процент на нежелана поща
