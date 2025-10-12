@@ -523,6 +523,12 @@ column-status-spam =
     .label = Staða ruslpósts
     .tooltiptext = Raða eftir stöðu ruslpósts
 
+## Message header.
+
+header-spam-button =
+    .label = Ruslpóstur
+    .tooltiptext = Merkja þessi skilaboð sem ruslpóst
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Merkja sem lesið
@@ -530,3 +536,32 @@ delete-action = Eyða
 mark-as-starred-action = Merkja sem stjörnumerkt
 mark-as-spam-action = Merkja sem ruslpóst
 archive-action = Skjalageymsla
+
+## Message list.
+
+message-flag-spam = Ruslpóstur
+menuitem-label-spam =
+    .label = Ruslpóstur
+menuitem-label-spam-score-origin =
+    .label = Uppruni stigafjölda ruslpósts
+menuitem-label-spam-percentage =
+    .label = Ruslpóstprósenta
+menuitem-label-spam-status =
+    .label = Staða ruslpósts
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Tóm { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Eyða öllum skilaboðum og undirmöppum í { $folder }-möppunni?
+prompt-dont-ask-again = Ekki spyrja aftur.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Ruslpóstsgreiningu { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } lokið
+spam-processing-message = Vinn úr ruslpósti

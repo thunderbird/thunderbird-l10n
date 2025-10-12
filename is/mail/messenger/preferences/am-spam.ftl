@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+spam-settings-title = Stillingar fyrir ruslpóst
+dialog-header-title =
+    .value = Stillingar fyrir ruslpóst
 move-message-other =
     .label = Annað:
     .accesskey = A
