@@ -501,6 +501,15 @@ menu-mark-not-spam =
     .accesskey = N
 mark-not-junk-key =
     .key = i
+menu-recalculate-spam-score =
+    .label = Exequer controlos spam
+    .accesskey = c
+menu-run-spam-on-folder =
+    .label = Exequer controlos spam sur le plica
+    .accesskey = c
+menu-delete-spam =
+    .label = Deler posta marcate como spam in plica
+    .accesskey = D
 
 ## Folder pane context.
 
