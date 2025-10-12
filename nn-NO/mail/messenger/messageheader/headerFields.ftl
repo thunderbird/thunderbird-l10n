@@ -105,3 +105,10 @@ dark-message-mode-toggle-enabled =
     .title = Slå av mørk meldingsmodus
 dark-message-mode-toggle-disabled =
     .title = Slå på mørk meldingsmodus
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } trur denne meldinga er søppelpost.
+message-bar-not-spam-button =
+    .label = Ikkje søppelpost
+    .accesskey = k

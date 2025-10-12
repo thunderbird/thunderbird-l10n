@@ -21,3 +21,4 @@ spam-message-detection-log = Oppdaga søppelpost frå { $author } - { $subject }
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = flytta meldings-ID = { $id } til { $folder }
+filter-action-log-spam = Søppelpostpoeng

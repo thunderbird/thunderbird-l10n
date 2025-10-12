@@ -204,6 +204,9 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Arkiver
     .tooltiptext = Arkiver
+context-menu-mark-spam =
+    .aria-label = Merk som søppelpost
+    .tooltiptext = Merk som søppelpost
 context-menu-mark-not-spam =
     .aria-label = Marker som ikkje søppelpost
     .tooltiptext = Marker som ikkje søppelpost
@@ -488,10 +491,19 @@ sort-by-spam-status =
 
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Som søppelpost
+    .accesskey = m
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Som ikkje søppelpost
+    .accesskey = k
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Køyr søppelpostkontrollar
+    .accesskey = K
 
 ## Thread pane.
 
