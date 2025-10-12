@@ -636,6 +636,22 @@ spam-move-label =
 spam-delete-label =
     .label = Изтрийте ги
     .accesskey = И
+spam-read-description = Маркиране на съобщенията като прочетени
+spam-read-manual-label =
+    .label = Когато е ръчно отбелязана като нежелано
+    .accesskey = р
+spam-read-auto-label =
+    .label = Когато { -brand-short-name } прецени, че са нежелани
+    .accesskey = п
+spam-log-label =
+    .label = Активиране на журнала за нежелана поща
+    .accesskey = ж
+spam-log-button =
+    .label = Показване на журнала
+    .accesskey = з
+reset-spam-button =
+    .label = Нулиране на тренировачните данни
+    .accesskey = т
 junk-description = Установете началните настройки за нежеланите писма. Специфичните за всеки профил настройки могат да бъдат направени в Настройки на профила.
 junk-marked-label =
     .label = Когато писмата са маркирани като нежелани:
@@ -705,6 +721,29 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = DNS през HTTPS
+preferences-doh-description = Системата за имена на домейни (DNS) през HTTPS изпраща вашата DNS заявка през шифрована връзка, създавайки сигурен DNS и затруднявайки трети страни да видят кой уебсайт искате да посетите.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Състояние: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Доставчик: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Неправилен адрес
+preferences-doh-steering-status = Използване на местен доставчик
+preferences-doh-status-active = Включен
+preferences-doh-status-disabled = Изключен
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Неактивен ({ $reason })
+preferences-doh-group-message = Активиране на DNS през HTTPS използвайки:
+preferences-doh-expand-section =
+    .tooltiptext = Повече информация
+preferences-doh-setting-default =
+    .label = Защита по подразбиране
+    .accesskey = З
 preferences-doh-url-custom =
     .label = Потребителско
     .accesskey = р
