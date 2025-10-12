@@ -499,6 +499,12 @@ column-status-spam =
     .label = Søppelpoststatus
     .tooltiptext = Sorter etter søppelpoststatus
 
+## Message header.
+
+header-spam-button =
+    .label = Spam
+    .tooltiptext = Merk denne meldinga som søppelpost
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Marker som lesen
@@ -506,3 +512,13 @@ delete-action = Slett
 mark-as-starred-action = Marker som stjernemarkert
 mark-as-spam-action = Marker som søppelpost
 archive-action = Arkiv
+
+## Message list.
+
+message-flag-spam = Søppelpost
+menuitem-label-spam =
+    .label = Søppelpost
+menuitem-label-spam-percentage =
+    .label = Søppelpostprosent
+menuitem-label-spam-status =
+    .label = Søppelpoststatus

@@ -47,6 +47,7 @@ compose-html-style-title = HTML-stil
 composition-addressing-header = Adressering
 privacy-main-header = Personvern
 privacy-passwords-header = Passord
+privacy-spam-header = Søppelpost
 privacy-junk-header = Uønskt
 collection-header = { -brand-short-name } datainnsamling og bruk
 collection-description = Vi strevar alltid etter å gje deg val og samlar berre inn det vi treng for å forbetre { -brand-short-name } for alle. Vi ber alltid om løyve før vi tar imot personlege opplysningar.
