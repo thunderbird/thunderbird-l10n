@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 spam-log-title = Registro de spam adaptive
+spam-log-info-label =
+    .value = Registro del activitate adaptive de controlo spam.
 clear-log-button =
     .label = Vacuar le registro
     .accesskey = C
