@@ -504,6 +504,18 @@ mark-not-junk-key =
 menu-recalculate-spam-score =
     .label = Køyr søppelpostkontrollar
     .accesskey = K
+menu-run-spam-on-folder =
+    .label = Køyr søppelpostkontrollar på mappe
+    .accesskey = m
+menu-delete-spam =
+    .label = Slett e-post merkt som søppelpost i mappa
+    .accesskey = S
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Tøm søppelpost
+    .accesskey = T
 
 ## Thread pane.
 
@@ -514,7 +526,7 @@ column-status-spam =
 ## Message header.
 
 header-spam-button =
-    .label = Spam
+    .label = Søppelpost
     .tooltiptext = Merk denne meldinga som søppelpost
 
 ## Actions for the New Mail Notification
@@ -530,7 +542,15 @@ archive-action = Arkiv
 message-flag-spam = Søppelpost
 menuitem-label-spam =
     .label = Søppelpost
+menuitem-label-spam-score-origin =
+    .label = Opphav for søppelpostpoeng
 menuitem-label-spam-percentage =
     .label = Søppelpostprosent
 menuitem-label-spam-status =
     .label = Søppelpoststatus
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Søppelpostanalyse { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } fullført
