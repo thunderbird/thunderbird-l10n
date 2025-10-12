@@ -4,6 +4,8 @@
 
 close-button =
     .aria-label = Închide
+category-list =
+    .aria-label = Categorii
 pane-general-title = General
 category-general =
     .tooltiptext = { pane-general-title }
@@ -80,6 +82,7 @@ update-in-progress-ok-button = E&limină
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = C&ontinuă
+account-button = Setări cont
 
 ## OS Authentication dialog
 
@@ -627,3 +630,8 @@ chat-variant-label =
 
 search-results-header = Rezultatele căutării
 search-results-help-link = Ai nevoie de ajutor? Intră pe <a data-l10n-name="url">Asistență { -brand-short-name }</a>
+
+## Sync Tab
+
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Intră în cont pentru sincronizare…

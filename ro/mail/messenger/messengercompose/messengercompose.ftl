@@ -22,6 +22,10 @@ pill-aria-label =
         [few] { $email }, 1 din { $count }: apasă Enter pentru editare, Delete pentru eliminare.
        *[other] { $email }, 1 din { $count }: apasă Enter pentru editare, Delete pentru eliminare.
     }
+#   $email (String) - the email address
+pill-tooltip-invalid-address = { $email } nu este o adresă de e-mail validă
+#   $email (String) - the email address
+pill-tooltip-not-in-address-book = { $email } nu se află în agenda de contacte
 pill-action-edit =
     .label = Editează adresa
     .accesskey = e
@@ -34,6 +38,41 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = Mută în Bcc
     .accesskey = b
+
+## Attachment widget
+
+ctrl-cmd-shift-pretty-prefix =
+    { PLATFORM() ->
+        [macos] ⇧ ⌘{ " " }
+       *[other] Ctrl+Shift+
+    }
+trigger-attachment-picker-key = A
+toggle-attachment-pane-key = M
+menuitem-toggle-attachment-pane =
+    .label = Panou de atașamente
+    .accesskey = m
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
+toolbar-button-add-attachment =
+    .label = Atașează
+    .tooltiptext = Adaugă un ataşament ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
+menuitem-attach-files =
+    .label = Fișier(e)…
+    .accesskey = F
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+context-menuitem-attach-files =
+    .label = Atașează fișier(e)…
+    .accesskey = F
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+drop-file-label-attachment =
+    { $count ->
+        [one] Adaugă ca atașament
+        [few] Adaugă ca atașamente
+       *[other] Adaugă ca atașamente
+    }
 
 ## Reorder Attachment Panel
 

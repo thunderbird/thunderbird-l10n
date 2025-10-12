@@ -4,3 +4,10 @@
 
 open-preferences-sidebar-button2 = Setări { -brand-short-name }
 open-addons-sidebar-button = Suplimente și teme
+edit-vcard-dialog-accept-button = Salvează
+    .accesskey = S
+edit-vcard-dialog-cancel-button = Anulează
+    .accesskey = C
+account-manager-server-default-icon =
+    .title = Cont implicit
+    .alt = Pictogramă stea
