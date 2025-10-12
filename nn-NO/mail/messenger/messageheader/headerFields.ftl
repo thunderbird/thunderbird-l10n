@@ -112,3 +112,6 @@ message-bar-spam = { -brand-short-name } trur denne meldinga er søppelpost.
 message-bar-not-spam-button =
     .label = Ikkje søppelpost
     .accesskey = k
+message-bar-learn-more-button =
+    .label = Les meir…
+    .accesskey = L

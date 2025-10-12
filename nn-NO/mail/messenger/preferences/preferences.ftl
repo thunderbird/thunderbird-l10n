@@ -635,6 +635,10 @@ spam-marked-label =
 spam-move-label =
     .label = Flytt dei til «Søppelpost»-mappa for kontoen
     .accesskey = F
+spam-delete-label =
+    .label = Slett dei
+    .accesskey = S
+spam-read-description = Merk meldingar som lesne
 spam-read-manual-label =
     .label = Når det manuelt vert merkt som søppelpost
     .accesskey = N
@@ -644,6 +648,9 @@ spam-read-auto-label =
 spam-log-label =
     .label = Slå på adaptiv loggning av søppelpostfilter
     .accesskey = S
+spam-log-button =
+    .label = Vis logg
+    .accesskey = V
 junk-description = Vel standard-innstilling for uønskt e-post. Konto-spesifikke innstillingar for uønskt e-post kan stillast inn i Konto-innstillingar.
 junk-marked-label =
     .label = Når meldingar er markerte som uønskte
@@ -710,6 +717,35 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Automatiske avgjerder kan tilsidesettast ved å manuelt aktivere eller deaktivere kryptering når du skriv ei melding.
     Merk: kryptering vert alltid automatisk aktivert når du svarar på ei kryptert melding.
+
+## DoH Section
+
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Status: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Leverandør: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Ugyldig nettadresse
+preferences-doh-steering-status = Brukar lokal leverandør
+preferences-doh-status-active = Aktiv
+preferences-doh-status-disabled = Av
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Ikkje aktiv ({ $reason })
+preferences-doh-group-message = Slå på DNS-over-HTTPS med:
+preferences-doh-expand-section =
+    .tooltiptext = Meir informasjon
+preferences-doh-select-resolver = Vel leverandør:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (standard)
+preferences-doh-url-custom =
+    .label = Tilpassa
+    .accesskey = T
 
 ## Chat Tab
 

@@ -4,3 +4,4 @@
 
 smime-test-cert-button =
     .label = Test
+configured-cert-not-found = Fann ikkje sertifikatet.

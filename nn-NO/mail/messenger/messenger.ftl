@@ -549,6 +549,13 @@ menuitem-label-spam-percentage =
 menuitem-label-spam-status =
     .label = Søppelpoststatus
 
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Tom { $folder }?
+prompt-dont-ask-again = Ikkje spør meg fleire gongar.
+
 ## Spam commands
 
 # Variables:
