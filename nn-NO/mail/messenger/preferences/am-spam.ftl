@@ -5,6 +5,7 @@
 spam-settings-title = Søppelpostinnstillingar
 dialog-header-title =
     .value = Søppelpostinnstillingar
+training-description-spam = Dersom dette er aktivert, må du først trene { -brand-short-name } til å identifisere søppelpost ved å bruke søppelpost-verktøylinja for å markere meldingar som spam eller ikkje. Du må identifisere både søppelpost- og ikkje-søppelpost-meldingar. Etter det vil { -brand-short-name } kunne markere spam automatisk.
 move-message-other =
     .label = Anna:
     .accesskey = A
