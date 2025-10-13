@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = შემჭიდროებული ჩვენება
     .accesskey = ჭ
 
+## Folder names
+
+folder-name-spam = ჯართი
+
 ## File Menu
 
 menu-file-save-as-file =

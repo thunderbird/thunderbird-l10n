@@ -5,4 +5,5 @@
 mail-view-known-people = ჩემი ნაცნობები
 mail-view-recent = ბოლო წერილი
 mail-view-last-five-days = ბოლო 5 დღის
+mail-view-not-spam = არაა ჯართი
 mail-view-has-attachments = დანართებიანი
