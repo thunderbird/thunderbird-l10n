@@ -694,6 +694,15 @@ email-e2ee-automatism-post =
     Automatyske beslissingen kinne opheven wurde troch fersifering hânmjittich yn of út te skeakeljen by it opstellen fan in berjocht.
     Opmerking: fersifering is altyd automatysk ynskeakele by it beäntwurdzjen fan in fersifere berjocht.
 
+## DoH Section
+
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Steat: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Provider: { $name }
+
 ## Chat Tab
 
 startup-label =
