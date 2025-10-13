@@ -558,3 +558,10 @@ prompt-empty-folder-title = გასუფთავდეს { $folder }?
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-message = წაიშალოს ყველა წერილი და ქვესაქაღალდე საქაღალდეში { $folder }?
 prompt-dont-ask-again = მომავალში შეკითხვის გარეშე.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = ჯართის გარჩევის { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } დასრულებულია
+spam-processing-message = მუშავდება უსარგებლო წერილები
