@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Yoğun görünüm
     .accesskey = Y
 
+## Folder names
+
+folder-name-spam = Spam
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Arşivle
     .tooltiptext = Arşivle
+context-menu-mark-spam =
+    .aria-label = Spam olarak işaretle
+    .tooltiptext = Spam olarak işaretle
+context-menu-mark-not-spam =
+    .aria-label = Spam değil olarak işaretle
+    .tooltiptext = Spam değil olarak işaretle
 context-menu-mark-junk =
     .aria-label = Gereksiz olarak işaretle
     .tooltiptext = Gereksiz olarak işaretle
@@ -479,6 +489,24 @@ mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Spam denetimini çalıştır
+    .accesskey = d
+menu-run-spam-on-folder =
+    .label = Klasörde spam denetimini çalıştır
+    .accesskey = s
+
+## Thread pane.
+
+column-status-spam =
+    .label = Spam durumu
+    .tooltiptext = Spam durumuna göre sırala
+
+## Message header.
+
+header-spam-button =
+    .label = Spam
+    .tooltiptext = Bu iletiyi spam olarak işaretle
 
 ## Actions for the New Mail Notification
 
@@ -488,9 +516,26 @@ mark-as-starred-action = Yıldızlı olarak işaretle
 mark-as-spam-action = Spam olarak işaretle
 archive-action = Arşivle
 
+## Message list.
+
+message-flag-spam = Spam
+menuitem-label-spam =
+    .label = Spam
+menuitem-label-spam-percentage =
+    .label = Spam yüzdesi
+menuitem-label-spam-status =
+    .label = Spam durumu
+
 ## Prompts
 
 # Variables:
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-message = { $folder } klasöründeki tüm iletiler ve alt klasörler silinsin mi?
 prompt-dont-ask-again = Tekrar sorma.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Spam analizi { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } tamamlandı
+spam-processing-message = Spam iletiler işleniyor

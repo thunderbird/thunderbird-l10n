@@ -2,6 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+spam-settings-title = Spam ayarları
+dialog-header-title =
+    .value = Spam ayarları
+move-spam-message-menuitem =
+    .label = Yeni spam iletileri buraya taşı:
+    .accesskey = Y
 move-message-other =
     .label = Diğer:
     .accesskey = D

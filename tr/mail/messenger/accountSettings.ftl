@@ -21,3 +21,6 @@ ews-url-label =
 ews-applicationid-label =
     .value = Uygulama kimliği:
     .accesskey = U
+ews-redirecturi-label =
+    .value = Yönlendirme URI’si:
+    .accesskey = Y

@@ -5,4 +5,5 @@
 mail-view-known-people = Tanıdıklarım
 mail-view-recent = Son iletiler
 mail-view-last-five-days = Son 5 gün
+mail-view-not-spam = Spam değil
 mail-view-has-attachments = Eki var
