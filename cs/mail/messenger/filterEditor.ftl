@@ -6,6 +6,12 @@ rule-menuitem-spam =
     .label = Nevyžádaná
 rule-menuitem-not-spam =
     .label = Není nevyžádaná
+run-filter-before-spam =
+    .label = Filtrovat před kontrolou nevyžádané pošty
+run-filter-after-spam =
+    .label = Filtrovat po kontrole nevyžádané pošty
+rule-action-set-spam-status =
+    .label = Nastavit druh zprávy na
 # Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.

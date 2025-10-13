@@ -94,6 +94,9 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Zrušit smazání
     .tooltiptext = Obnoví dříve smazané vybrané zprávy
+toolbar-spam-button =
+    .label = Nevyžádaná
+    .tooltiptext = Označit vybrané zprávy jako nevyžádané
 
 ## View
 
