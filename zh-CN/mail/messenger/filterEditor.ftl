@@ -6,8 +6,17 @@ rule-menuitem-spam =
     .label = 垃圾邮件
 rule-menuitem-not-spam =
     .label = 非垃圾邮件
+run-filter-before-spam =
+    .label = 在分类垃圾邮件前过滤
+run-filter-after-spam =
+    .label = 在分类垃圾邮件后过滤
 rule-action-set-spam-status =
     .label = 设置垃圾邮件状态为
+# Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = 检测到 { $date } 来自 { $author } 的垃圾邮件“{ $subject }”
 # Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
