@@ -184,6 +184,7 @@ account-hub-port-error-text = Poort moet tussen 1 en 65535 zijn
 account-hub-username-error-text = Gebruikersnaam is vereist
     .title = Gebruikersnaam is vereist
 account-hub-oauth-pending = Wachten op autorisatie in aanmeldingspop-up…
+account-hub-addon-install-button = Installeren
 account-hub-addon-install-needed = { -brand-short-name } ondersteunt deze server niet ingebouwd. <a data-l10n-name="addon-install">Installeer een externe add-on zoals Owl (betaald)</a> voor toegang tot Exchange-e-mail.
 account-hub-addon-error = Add-on-installatie is mislukt. Probeer het opnieuw of neem contact op met de schrijver van de add-on voor hulp.
 account-hub-security-warning = <span data-l10n-name="security-warning">Waarschuwing: onveilige mailserver gedetecteerd.</span> Deze server heeft geen versleuteling, waardoor uw wachtwoord en gegevens openbaar zijn. Neem contact op met uw beheerder om de verbinding te beveiligen of ga op eigen risico verder. <a data-l10n-name="faq-link">Bekijk de FAQ voor meer informatie.</a>
