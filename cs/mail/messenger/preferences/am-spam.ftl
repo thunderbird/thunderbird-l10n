@@ -5,6 +5,12 @@
 spam-settings-title = Nastavení nevyžádané pošty
 dialog-header-title =
     .value = Nastavení nevyžádané pošty
+move-spam-message-menuitem =
+    .label = Přesunout příchozí nevyžádané zprávy do:
+    .accesskey = P
+set-spam-folder-menuitem =
+    .label = Složka “Nevyžádaná” v:
+    .accesskey = S
 move-message-other =
     .label = Další:
     .accesskey = l
