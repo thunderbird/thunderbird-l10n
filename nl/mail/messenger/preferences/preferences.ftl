@@ -639,6 +639,18 @@ primary-password-button =
     .accesskey = w
 forms-primary-pw-fips-title = U bent momenteel in FIPS-modus. FIPS vereist een ingesteld hoofdwachtwoord.
 forms-master-pw-fips-desc = Wachtwoordwijziging mislukt
+spam-read-auto-label =
+    .label = Wanneer { -brand-short-name } berichten detecteert als spam
+    .accesskey = T
+spam-log-label =
+    .label = Logboek van zelflerend spamfilter inschakelen
+    .accesskey = c
+spam-log-button =
+    .label = Logboek tonen
+    .accesskey = t
+reset-spam-button =
+    .label = Trainingsgegevens herinitialiseren
+    .accesskey = h
 junk-description = Stel uw standaardinstellingen voor ongewensteberichtendetectie in. Accountspecifieke instellingen kunnen worden geconfigureerd in Accountinstellingen.
 junk-marked-label =
     .label = Wanneer berichten als ongewenst worden gemarkeerd:
@@ -705,6 +717,66 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Automatische beslissingen kunnen worden opgeheven door versleuteling handmatig in of uit te schakelen bij het opstellen van een bericht.
     Opmerking: versleuteling is altijd automatisch ingeschakeld bij het beantwoorden van een versleuteld bericht.
+
+## DoH Section
+
+preferences-doh-header = DNS over HTTPS
+preferences-doh-description = Domain Name System (DNS) over HTTPS verzendt uw aanvraag voor een domeinnaam via een versleutelde verbinding, waardoor een veilige DNS wordt geboden en het voor anderen moeilijker wordt om te zien welke website u gaat bezoeken.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Status: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Provider: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Ongeldige URL
+preferences-doh-steering-status = Lokale provider wordt gebruikt
+preferences-doh-status-active = Actief
+preferences-doh-status-disabled = Uit
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Niet actief ({ $reason })
+preferences-doh-group-message = DNS over HTTPS inschakelen via:
+preferences-doh-expand-section =
+    .tooltiptext = Meer informatie
+preferences-doh-setting-default =
+    .label = Standaardbescherming
+    .accesskey = S
+preferences-doh-default-desc = { -brand-short-name } bepaalt wanneer beveiligde DNS moet worden gebruikt om uw privacy te beschermen.
+preferences-doh-default-detailed-desc-1 = Beveiligde DNS gebruiken in regio’s waar dit beschikbaar is
+preferences-doh-default-detailed-desc-2 = Uw standaard DNS-resolver gebruiken als er een probleem is met de beveiligde-DNS-provider
+preferences-doh-default-detailed-desc-3 = Indien mogelijk lokale provider gebruiken
+preferences-doh-default-detailed-desc-4 = Uitschakelen als VPN, ouderlijk toezicht of bedrijfsbeleid actief zijn
+preferences-doh-default-detailed-desc-5 = Uitschakelen als een netwerk { -brand-short-name } vertelt geen beveiligde DNS te gebruiken
+preferences-doh-setting-enabled =
+    .label = Verhoogde bescherming
+    .accesskey = h
+preferences-doh-enabled-desc = U bepaalt wanneer beveiligde DNS wordt gebruikt en kiest uw provider.
+preferences-doh-enabled-detailed-desc-1 = De aanbieder die u selecteert gebruiken
+preferences-doh-enabled-detailed-desc-2 = Alleen uw standaard DNS-resolver gebruiken als er een probleem met beveiligde DNS is
+preferences-doh-setting-strict =
+    .label = Max. bescherming
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } gebruikt altijd beveiligde DNS. U ziet een beveiligingswaarschuwing voordat we de DNS van uw systeem gebruiken.
+preferences-doh-strict-detailed-desc-1 = Alleen de door u geselecteerde provider gebruiken
+preferences-doh-strict-detailed-desc-2 = Altijd waarschuwen als beveiligde DNS niet beschikbaar is
+preferences-doh-strict-detailed-desc-3 = Als beveiligde DNS niet beschikbaar is, laden websites niet of werken ze niet goed
+preferences-doh-setting-off =
+    .label = Uit
+    .accesskey = U
+preferences-doh-off-desc = Uw standaard DNS-resolver gebruiken
+preferences-doh-checkbox-warn =
+    .label = Waarschuwen als een derde partij beveiligde DNS actief verhindert
+    .accesskey = W
+preferences-doh-select-resolver = Kies provider:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (standaard)
+preferences-doh-url-custom =
+    .label = Aangepast
+    .accesskey = A
 
 ## Chat Tab
 

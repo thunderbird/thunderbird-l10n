@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Verwijderen ongedaan maken
     .tooltiptext = Verwijdering van geselecteerde berichten ongedaan maken
+toolbar-spam-button =
+    .label = Spam
+    .tooltiptext = De geselecteerde berichten als spam markeren
+toolbar-not-spam-button =
+    .label = Geen spam
+    .tooltiptext = De geselecteerde berichten als geen spam markeren
 
 ## View
 

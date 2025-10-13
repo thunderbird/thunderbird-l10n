@@ -33,3 +33,6 @@ outgoing-server-section-name = Uitgaande server
 outgoing-server-settings-title = Instellingen van uitgaande server
 outgoing-server-settings-description = Bij het beheren van uw identiteiten kunt u een server van deze lijst gebruiken door deze als de uitgaande server te selecteren, of u kunt de standaardserver van deze lijst gebruiken door ‘Standaardserver gebruiken’ te selecteren.
 outgoing-server-type = Servertype:
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Probleem met de spaminstellingen voor { $account } gedetecteerd. Wilt u ze bekijken voordat u de wijzigingen opslaat?
