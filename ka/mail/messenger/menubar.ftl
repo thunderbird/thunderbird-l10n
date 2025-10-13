@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = აღდგენა
     .tooltiptext = შერჩეული წერილების დაბრუნება
+toolbar-spam-button =
+    .label = ჯართი
+    .tooltiptext = შერჩეული წერილების უსარგებლოდ მონიშვნა
+toolbar-not-spam-button =
+    .label = არაა ჯართი
+    .tooltiptext = შერჩეული წერილების სასარგებლოდ მონიშვნა
 
 ## View
 

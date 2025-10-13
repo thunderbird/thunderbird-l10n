@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = წერილის მუქი რეჟიმის გამორთვა
 dark-message-mode-toggle-disabled =
     .title = წერილის მუქი რეჟიმის ჩართვა
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } ამ წერილს მიიჩნევს უსარგებლოდ.
+message-bar-not-spam-button =
+    .label = არაა ჯართი
+    .accesskey = რ
+message-bar-learn-more-button =
+    .label = ვრცლად…
+    .accesskey = ლ
