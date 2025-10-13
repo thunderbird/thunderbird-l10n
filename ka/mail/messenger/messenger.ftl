@@ -204,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = დაარქივება
     .tooltiptext = დაარქივება
+context-menu-mark-spam =
+    .aria-label = უსარგებლოდ მონიშვნა
+    .tooltiptext = უსარგებლოდ მონიშვნა
+context-menu-mark-not-spam =
+    .aria-label = გამოსადეგად მონიშვნა
+    .tooltiptext = გამოსადეგად მონიშვნა
 context-menu-mark-junk =
     .aria-label = მონიშვნა ჯართად
     .tooltiptext = მონიშვნა ჯართად
@@ -477,12 +483,51 @@ openpgp-forget = OpenPGP-ის დაშვების ფრაზები�
 quota-panel-percent-used = { $percent }% შევსებულია
     .title = IMAP-სივრცე: { $usage } გამოყენებულია, სულ { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = ჯართად მიჩნევა
+    .accesskey = ჯ
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = როგორც ჯართი
+    .accesskey = ჯ
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = როგორც გამოსადეგი
+    .accesskey = გ
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = ჯართის მართვის ამოქმედება
+    .accesskey = ქ
+menu-run-spam-on-folder =
+    .label = ჯართის განკარგვა საქაღალდეში
+    .accesskey = კ
+menu-delete-spam =
+    .label = ჯართად მონიშნული წერილის წაშლა საქაღალდეში
+    .accesskey = წ
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = ჯართის გასუფთავება
+    .accesskey = ჯ
+
+## Thread pane.
+
+column-status-spam =
+    .label = ჯართად მიჩნევა
+    .tooltiptext = ჯართად მიჩნეულის დალაგება
+
+## Message header.
+
+header-spam-button =
+    .label = ჯართი
+    .tooltiptext = ამ წერილის უსარგებლოდ მონიშვნა
 
 ## Actions for the New Mail Notification
 
@@ -491,3 +536,25 @@ delete-action = წაშლა
 mark-as-starred-action = მონიშვნა ვარკვლავიანად
 mark-as-spam-action = არასასურველად მონიშვნა
 archive-action = დაარქივება
+
+## Message list.
+
+message-flag-spam = ჯართი
+menuitem-label-spam =
+    .label = ჯართი
+menuitem-label-spam-score-origin =
+    .label = ჯართად შეფასების წარმომავლობა
+menuitem-label-spam-percentage =
+    .label = ჯართის პროცენტი
+menuitem-label-spam-status =
+    .label = ჯართად მიჩნევა
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = გასუფთავდეს { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = წაიშალოს ყველა წერილი და ქვესაქაღალდე საქაღალდეში { $folder }?
+prompt-dont-ask-again = მომავალში შეკითხვის გარეშე.
