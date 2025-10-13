@@ -487,3 +487,7 @@ delete-action = Fuortsmite
 mark-as-starred-action = Markearje mei stjer
 mark-as-spam-action = Markearje as net-winske
 archive-action = Argivearje
+
+## Prompts
+
+prompt-dont-ask-again = Dit net mear freegje.

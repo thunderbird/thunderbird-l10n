@@ -627,6 +627,12 @@ primary-password-button =
     .accesskey = w
 forms-primary-pw-fips-title = Jo binne no yn FIPS-modus. FIPS fereasket dat it haadwachtwurd net leech is.
 forms-master-pw-fips-desc = Wachtwurdwiziging mislearre
+spam-log-button =
+    .label = Lochboek toane
+    .accesskey = t
+reset-spam-button =
+    .label = Trainingsgegevens opnij inisjalisearje
+    .accesskey = o
 junk-description = Stel jo standertynstellingen foar net-winske-berjochtedeteksje yn. Accountspesifike ynstellingen kinne konfigurearre wurde yn Accountynstellingen.
 junk-marked-label =
     .label = Wannear berjochten as net-winske markearre wurde:
@@ -696,12 +702,63 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = DNS oer HTTPS
+preferences-doh-description = Domain Name System (DNS) oer HTTPS ferstjoert jo oanfraach foar in domeinnamme fia in fersifere ferbining, wêrtroch in feilige DNS jûn wurdt en it foar oaren dreger wurdt om te sjen hokker website jo besykje gean.
 # Variables:
 #   $status (string) - The status of the DoH connection
 preferences-doh-status = Steat: { $status }
 # Variables:
 #   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
 preferences-doh-resolver = Provider: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Unjildige URL
+preferences-doh-steering-status = Lokale provider wurdt brûkt
+preferences-doh-status-active = Aktyf
+preferences-doh-status-disabled = Ut
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Net aktyf ({ $reason })
+preferences-doh-group-message = DNS oer HTTPS ynskeakelje fia:
+preferences-doh-expand-section =
+    .tooltiptext = Mear ynformaasje
+preferences-doh-setting-default =
+    .label = Standertbeskerming
+    .accesskey = S
+preferences-doh-default-desc = { -brand-short-name } bepaalt wannear’t befeilige DNS brûkt wurde moat om jo privacy te beskermjen.
+preferences-doh-default-detailed-desc-1 = Befeilige DNS brûke yn regio’s wêr’t dit beskikber is
+preferences-doh-default-detailed-desc-2 = Jo standert DNS-resolver brûke as der in probleem is mei de befeilige-DNS-provider
+preferences-doh-default-detailed-desc-3 = Wannear mooglik lokale provider brûke
+preferences-doh-default-detailed-desc-4 = Utskeakelje as VPN, âlderlik tafersjoch of bedriuwsbelied aktyf binne
+preferences-doh-default-detailed-desc-5 = Utskeakelje as in netwurk { -brand-short-name } fertelt gjin befeilige DNS te brûken
+preferences-doh-setting-enabled =
+    .label = Ferhege beskerming
+    .accesskey = h
+preferences-doh-enabled-desc = Jo bepale wannear’t befeilige DNS brûkt wurdt en kieze jo provider.
+preferences-doh-enabled-detailed-desc-1 = De provider dy’t jo selektearje brûke
+preferences-doh-enabled-detailed-desc-2 = Allinnich jo standert DNS-resolver brûke as der in probleem mei befeilige DNS is
+preferences-doh-setting-strict =
+    .label = Maks. beskerming
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } brûkt altyd befeilige DNS. Jo sjogge in befeiligingswarskôging eardat wy de DNS fan jo systeem brûke.
+preferences-doh-strict-detailed-desc-1 = Allinnich de troch jo selektearre provider brûke
+preferences-doh-strict-detailed-desc-2 = Altyd warskôgje as befeilige DNS net beskikber is
+preferences-doh-strict-detailed-desc-3 = Wannear’t befeilige DNS net beskikber is, sille websites net lade of goed funksjonearje
+preferences-doh-setting-off =
+    .label = Ut
+    .accesskey = U
+preferences-doh-off-desc = Jo standert DNS-resolver brûke
+preferences-doh-checkbox-warn =
+    .label = Warskôgje as in tredde partij befeilige DNS aktyf foarkomt
+    .accesskey = W
+preferences-doh-select-resolver = Kies provider:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (standert)
+preferences-doh-url-custom =
+    .label = Oanpast
+    .accesskey = O
 
 ## Chat Tab
 
