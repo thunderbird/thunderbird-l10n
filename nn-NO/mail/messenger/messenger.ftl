@@ -553,7 +553,7 @@ menuitem-label-spam-status =
 
 # Variables:
 # $folder (String) - The name of the selected folder.
-prompt-empty-folder-title = Tom { $folder }?
+prompt-empty-folder-title = Tømme { $folder }?
 prompt-dont-ask-again = Ikkje spør meg fleire gongar.
 
 ## Spam commands

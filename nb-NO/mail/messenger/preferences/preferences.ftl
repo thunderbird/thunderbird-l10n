@@ -695,6 +695,21 @@ email-e2ee-automatism-post =
     
     Merk: Kryptering aktiveres alltid automatisk når du svarer på en kryptert melding.
 
+## DoH Section
+
+preferences-doh-setting-off =
+    .label = Av
+    .accesskey = A
+preferences-doh-off-desc = Bruk din standard DNS-resolver
+preferences-doh-select-resolver = Velg leverandør:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (standard)
+preferences-doh-url-custom =
+    .label = Tilpasset
+    .accesskey = T
+
 ## Chat Tab
 
 startup-label =

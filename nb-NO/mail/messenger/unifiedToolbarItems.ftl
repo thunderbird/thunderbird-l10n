@@ -55,6 +55,7 @@ toolbar-next-unread =
 toolbar-next-label = Neste
 toolbar-next =
     .title = Gå til neste melding
+toolbar-spam-label = Søppelpost
 toolbar-junk-label = Uønsket
 toolbar-junk =
     .title = Merk de valgte meldingene som uønsket e-post
