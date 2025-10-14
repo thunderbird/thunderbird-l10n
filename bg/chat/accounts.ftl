@@ -15,7 +15,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Няма настроен профил
-account-manager-no-account-description = Щракнете на бутона { new-account-label } и оставете { -brand-short-name } да ви води в процеса на настройка.
+account-manager-no-account-description = Изберете { new-account-label } и оставете { -brand-short-name } да ви води в процеса на настройка.
 account-auto-sign-on =
     .label = Вписване при пускане
     .accesskey = В
