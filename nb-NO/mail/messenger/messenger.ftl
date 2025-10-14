@@ -504,6 +504,30 @@ mark-not-junk-key =
 menu-recalculate-spam-score =
     .label = Kjør søppelpostkontroller
     .accesskey = K
+menu-run-spam-on-folder =
+    .label = Kjør søppelpostkontroller på mappe
+    .accesskey = K
+menu-delete-spam =
+    .label = Slett e-post merket som søppelpost i mappen
+    .accesskey = S
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Tøm søppelpost
+    .accesskey = s
+
+## Thread pane.
+
+column-status-spam =
+    .label = Søppelpoststatus
+    .tooltiptext = Sorter etter søppelpoststatus
+
+## Message header.
+
+header-spam-button =
+    .label = Søppelpost
+    .tooltiptext = Merk denne meldingen som søppelpost
 
 ## Actions for the New Mail Notification
 
@@ -512,3 +536,32 @@ delete-action = Slett
 mark-as-starred-action = Merk som stjernemerket
 mark-as-spam-action = Marker som søppelpost
 archive-action = Arkiver
+
+## Message list.
+
+message-flag-spam = Søppelpost
+menuitem-label-spam =
+    .label = Søppelpost
+menuitem-label-spam-score-origin =
+    .label = Opprinnelse for søppelpostpoengsum
+menuitem-label-spam-percentage =
+    .label = Søppelpostprosent
+menuitem-label-spam-status =
+    .label = Status for søppelpost
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Tøm { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Slett alle meldinger og undermapper i { $folder }-mappen?
+prompt-dont-ask-again = Ikke spør igjen.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Søppelpostanalyse { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } fullført
+spam-processing-message = Behandler søppelpostmeldinger
