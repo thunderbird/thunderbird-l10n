@@ -47,6 +47,7 @@ compose-html-style-title = HTML-stil
 composition-addressing-header = Adressering
 privacy-main-header = Personvern
 privacy-passwords-header = Passord
+privacy-spam-header = Søppelpost
 privacy-junk-header = Uønsket
 collection-header = Datainnsamling og bruk for { -brand-short-name }
 collection-description = Vi prøver alltid å gi deg valg og samler bare det vi trenger for å levere og forbedre { -brand-short-name } for alle. Vi ber alltid om tillatelse før vi aksepterer personopplysninger.
@@ -627,6 +628,31 @@ primary-password-button =
     .accesskey = E
 forms-primary-pw-fips-title = Du er for tiden i FIPS-modus. FIPS krever at du bruker et hovedpassord.
 forms-master-pw-fips-desc = Passordendring mislyktes
+spam-marked-label =
+    .label = Når meldinger er merket som søppelpost:
+    .accesskey = N
+spam-move-label =
+    .label = Flytt dem til kontoens «Søppelpost»-mappe
+    .accesskey = F
+spam-delete-label =
+    .label = Slett dem
+    .accesskey = S
+spam-read-description = Merk meldinger som lest
+spam-read-manual-label =
+    .label = Når den er manuelt markert som søppelpost
+    .accesskey = N
+spam-read-auto-label =
+    .label = Når { -brand-short-name } avgjør at de er søppelpost
+    .accesskey = s
+spam-log-label =
+    .label = Slå på logging for adaptiv filter for søppelpost
+    .accesskey = S
+spam-log-button =
+    .label = Vis logg
+    .accesskey = V
+reset-spam-button =
+    .label = Tilbakestill treningsdata
+    .accesskey = T
 junk-description = Angi standard oppførsel for uønsket e-post. Konto-spesifikke innstillinger for uønsket e-post kan angis i Kontoinnstillinger.
 junk-marked-label =
     .label = Når meldinger er merket som søppelpost:
@@ -697,10 +723,55 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = DNS-over-HTTPS
+preferences-doh-description = Domain Name System (DNS) over HTTPS sender forespørselen din om et domenenavn gjennom en kryptert tilkobling, og gir en sikker DNS og gjør det vanskeligere for andre å se hvilket nettsted du er i ferd med å besøke.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Status: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Leverandør: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Ugyldig nettadresse
+preferences-doh-steering-status = Bruker lokal leverandør
+preferences-doh-status-active = Aktiv
+preferences-doh-status-disabled = Av
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Ikke aktiv ({ $reason })
+preferences-doh-group-message = Aktiver DNS-over-HTTPS med:
+preferences-doh-expand-section =
+    .tooltiptext = Mer informasjon
+preferences-doh-setting-default =
+    .label = Standardbeskyttelse
+    .accesskey = S
+preferences-doh-default-desc = { -brand-short-name } bestemmer når sikker DNS skal brukes for å beskytte personvernet ditt.
+preferences-doh-default-detailed-desc-1 = Bruk sikker DNS i regioner der den er tilgjengelig
+preferences-doh-default-detailed-desc-2 = Bruk din standard DNS-resolver hvis det er et problem med den sikre DNS-leverandøren
+preferences-doh-default-detailed-desc-3 = Bruk en lokal leverandør, hvis mulig
+preferences-doh-default-detailed-desc-4 = Slå av når VPN, foreldrekontroll eller bedriftspolicyer er aktive
+preferences-doh-default-detailed-desc-5 = Slå av når et nettverk forteller { -brand-short-name } at det sikker DNS ikke skal brukes
+preferences-doh-setting-enabled =
+    .label = Økt beskyttelse
+    .accesskey = k
+preferences-doh-enabled-desc = Du kontrollerer når du skal bruke sikker DNS og velger leverandør.
+preferences-doh-enabled-detailed-desc-1 = Bruk leverandøren du velger
+preferences-doh-enabled-detailed-desc-2 = Bruk bare standard DNS-resolver hvis det er et problem med sikker DNS
+preferences-doh-setting-strict =
+    .label = Maks beskyttelse
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } vil alltid bruke sikker DNS. Du vil se en advarsel om sikkerhetsrisiko før vi bruker systemets DNS.
+preferences-doh-strict-detailed-desc-1 = Bruk kun leverandøren du velger
+preferences-doh-strict-detailed-desc-2 = Advar alltid hvis sikker DNS ikke er tilgjengelig
+preferences-doh-strict-detailed-desc-3 = Hvis sikker DNS ikke er tilgjengelig, vil ikke nettsteder lastes eller fungere som de skal
 preferences-doh-setting-off =
     .label = Av
     .accesskey = A
 preferences-doh-off-desc = Bruk din standard DNS-resolver
+preferences-doh-checkbox-warn =
+    .label = Advar hvis en tredjepart aktivt hindrer sikker DNS
+    .accesskey = A
 preferences-doh-select-resolver = Velg leverandør:
 # Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider

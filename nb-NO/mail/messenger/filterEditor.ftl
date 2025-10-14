@@ -13,6 +13,12 @@ run-filter-after-spam =
 rule-action-set-spam-status =
     .label = Sett søppelpoststatus til
 # Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = Oppdaget søppelpost fra { $author } – { $subject } den { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = flyttet meldingsid = { $id } til { $folder }
+filter-action-log-spam = søppelpostpoengsum
