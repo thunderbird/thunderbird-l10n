@@ -501,6 +501,9 @@ menu-mark-not-spam =
     .accesskey = k
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Kjør søppelpostkontroller
+    .accesskey = K
 
 ## Actions for the New Mail Notification
 
