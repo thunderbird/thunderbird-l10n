@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = Sötét üzenetmód kikapcsolása
 dark-message-mode-toggle-disabled =
     .title = Sötét üzenetmód bekapcsolása
+
+## Spam filter
+
+message-bar-spam = A { -brand-short-name } úgy gondolja, hogy ez az üzenet levélszemét.
+message-bar-not-spam-button =
+    .label = Nem levélszemét
+    .accesskey = N
+message-bar-learn-more-button =
+    .label = További tudnivalók…
+    .accesskey = T

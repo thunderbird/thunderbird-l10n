@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Tömör nézet
     .accesskey = T
 
+## Folder names
+
+folder-name-spam = Levélszemét
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Archiválás
     .tooltiptext = Archiválás
+context-menu-mark-spam =
+    .aria-label = Megjelölés levélszemétként
+    .tooltiptext = Megjelölés levélszemétként
+context-menu-mark-not-spam =
+    .aria-label = Megjelölés nem levélszemétként
+    .tooltiptext = Megjelölés nem levélszemétként
 context-menu-mark-junk =
     .aria-label = Megjelölés levélszemétként
     .tooltiptext = Megjelölés levélszemétként
@@ -473,12 +483,51 @@ openpgp-forget = OpenPGP jelmondatok elfelejtése
 quota-panel-percent-used = { $percent }% tele
     .title = IMAP kvóta: { $usage } használva / { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Levélszemét állapot
+    .accesskey = L
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Levélszemétként
+    .accesskey = L
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Nem levélszemétként
+    .accesskey = N
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Levélszemétgyűjtő futtatása
+    .accesskey = v
+menu-run-spam-on-folder =
+    .label = Levélszemétgyűjtő futtatása a mappán
+    .accesskey = m
+menu-delete-spam =
+    .label = Levélszemétnek jelöltek törlése a mappából
+    .accesskey = t
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Levélszemét mappa ürítése
+    .accesskey = ü
+
+## Thread pane.
+
+column-status-spam =
+    .label = Levélszemét állapot
+    .tooltiptext = Rendezés levélszemét állapot szerint
+
+## Message header.
+
+header-spam-button =
+    .label = Levélszemét
+    .tooltiptext = Üzenet megjelölése levélszemétként
 
 ## Actions for the New Mail Notification
 
@@ -487,3 +536,31 @@ delete-action = Törlés
 mark-as-starred-action = Megjelölés csillagozottként
 mark-as-spam-action = Megjelölés levélszemétként
 archive-action = Archiválás
+
+## Message list.
+
+message-flag-spam = Levélszemét
+menuitem-label-spam =
+    .label = Levélszemét
+menuitem-label-spam-score-origin =
+    .label = Levélszemét-pontszám eredete
+menuitem-label-spam-percentage =
+    .label = Levélszemét szátalékosan
+menuitem-label-spam-status =
+    .label = Levélszemét állapot
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Kiüríti a következőt: { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Törli a(z) { $folder } mappa összes üzenetét és almappáját?
+prompt-dont-ask-again = Ne kérdezze meg újra.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Levélszemét-ellenőrzés { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }-ban kész

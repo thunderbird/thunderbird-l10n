@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Törlés visszavonása
     .tooltiptext = Kijelölt üzenetek törlésének visszavonása
+toolbar-spam-button =
+    .label = Levélszemét
+    .tooltiptext = Kiválasztott üzenetek megjelölése levélszemétként
+toolbar-not-spam-button =
+    .label = Nem levélszemét
+    .tooltiptext = Kiválasztott üzenetek megjelölése nem levélszemétként
 
 ## View
 

@@ -5,4 +5,5 @@
 mail-view-known-people = Ismerőstől
 mail-view-recent = Nemrég érkezett
 mail-view-last-five-days = Elmúlt 5 nap
+mail-view-not-spam = Nem levélszemét
 mail-view-has-attachments = Van melléklete
