@@ -94,6 +94,9 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Angre sletting
     .tooltiptext = Angre sletting av valgte meldinger
+toolbar-spam-button =
+    .label = Søppelpost
+    .tooltiptext = Merk de valgte meldingene som søppelpost
 
 ## View
 
