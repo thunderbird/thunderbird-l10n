@@ -4,7 +4,7 @@
 
 spam-settings-title = 垃圾信選項
 dialog-header-title =
-    .value = 垃圾信選項垃圾信選項
+    .value = 垃圾信選項
 training-description-spam = 啟用後，您必須使用工具列的「垃圾信」按鈕來訓練 { -brand-short-name }，將訊息標示為垃圾信或非垃圾信。之後 { -brand-short-name } 才能夠自動判斷信件是否為垃圾信。
 spam-level-checkbox =
     .label = 對此帳號啟用漸進式垃圾信控制
