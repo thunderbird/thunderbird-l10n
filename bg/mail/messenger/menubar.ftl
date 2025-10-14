@@ -10,7 +10,7 @@ toolbar-context-menu-menu-bar =
 
 menu-tools-settings =
     .label = Настройки
-    .accesskey = { "" }
+    .accesskey = н
 menu-addons-and-themes =
     .label = Добавки и теми
     .accesskey = { "" }
@@ -22,7 +22,7 @@ menu-export-for-mobile =
 
 menu-help-help-title =
     .label = Помощ
-    .accesskey = { "" }
+    .accesskey = п
 menu-help-get-help =
     .label = Получаване на помощ
     .accesskey = щ
@@ -31,10 +31,10 @@ menu-help-get-release-help =
     .accesskey = щ
 menu-help-shortcuts =
     .label = Клавишни комбинации
-    .accesskey = { "" }
+    .accesskey = л
 menu-help-get-involved =
     .label = Включване към проекта
-    .accesskey = { "в" }
+    .accesskey = в
 menu-help-donation =
     .label = Подкрепа на проекта
     .accesskey = П
@@ -144,7 +144,7 @@ mail-uidensity-relaxed =
     .accesskey = О
 menu-spaces-toolbar-button =
     .label = Лента с инструменти
-    .accesskey = { "" }
+    .accesskey = и
 
 ## File
 

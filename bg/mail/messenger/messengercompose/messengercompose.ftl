@@ -229,7 +229,7 @@ to-address-row-label =
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
     .label = Поле „До“
-    .accesskey = К
+    .accesskey = д
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.

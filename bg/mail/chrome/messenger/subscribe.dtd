@@ -10,7 +10,7 @@
 <!ENTITY newGroupsTab.label "Нови групи">
 <!ENTITY newGroupsTab.accesskey "Н">
 <!ENTITY refreshButton.label "Презареждане">
-<!ENTITY refreshButton.accesskey "О">
+<!ENTITY refreshButton.accesskey "П">
 <!ENTITY stopButton.label "Стоп">
 <!ENTITY stopButton.accesskey "С">
 <!ENTITY server.label "Регистрация:">
