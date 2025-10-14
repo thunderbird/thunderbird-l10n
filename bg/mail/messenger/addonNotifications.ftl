@@ -30,7 +30,7 @@ xpinstall-prompt-never-allow-and-report =
 # See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
 xpinstall-prompt-install =
     .label = Продължаване на инсталацията
-    .accesskey = { "" }
+    .accesskey = П
 
 # These messages are shown when a website invokes navigator.requestMIDIAccess.
 

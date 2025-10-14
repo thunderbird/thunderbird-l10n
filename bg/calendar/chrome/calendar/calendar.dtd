@@ -96,12 +96,12 @@
 <!ENTITY calendar.context.attendance.dontsend.accesskey "Б">
 <!ENTITY calendar.context.attendance.occ.accepted.accesskey "А">
 <!ENTITY calendar.context.attendance.occ.accepted.label "Приемане">
-<!ENTITY calendar.context.attendance.occ.tentative.accesskey "г">
+<!ENTITY calendar.context.attendance.occ.tentative.accesskey "у">
 <!ENTITY calendar.context.attendance.occ.tentative.label "Условно приемане">
 <!ENTITY calendar.context.attendance.occ.declined.accesskey "о">
 <!ENTITY calendar.context.attendance.occ.declined.label "Отказан">
 <!ENTITY calendar.context.attendance.occ.delegated.accesskey "п">
-<!ENTITY calendar.context.attendance.occ.delegated.label "Делегиран">
+<!ENTITY calendar.context.attendance.occ.delegated.label "Преотстъпен">
 <!ENTITY calendar.context.attendance.occ.needsaction.accesskey "о">
 <!ENTITY calendar.context.attendance.occ.needsaction.label "Все още се нуждае от действие">
 <!ENTITY calendar.context.attendance.occ.inprogress.accesskey "В">
@@ -115,7 +115,7 @@
 <!ENTITY calendar.context.attendance.all.declined.accesskey "о">
 <!ENTITY calendar.context.attendance.all.declined.label "Отказано">
 <!ENTITY calendar.context.attendance.all.delegated.accesskey "л">
-<!ENTITY calendar.context.attendance.all.delegated.label "Делегирано">
+<!ENTITY calendar.context.attendance.all.delegated.label "Преотстъпено">
 <!ENTITY calendar.context.attendance.all.needsaction.accesskey "в">
 <!ENTITY calendar.context.attendance.all.needsaction.label "Все още се нуждае от действие">
 <!ENTITY calendar.context.attendance.all.inprogress.accesskey "п">

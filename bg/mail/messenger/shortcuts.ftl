@@ -97,7 +97,7 @@ button-shortcut-string =
 #  $shortcut (String): The shortcut generated from the keystroke combination.
 menuitem-shortcut-attributes =
     .label = { $label }
-    .accesskey = л
+    .accesskey = { $accesskey }
     .acceltext = { $shortcut }
 # Variables:
 #  $label (String): The text label coming from the original element.
