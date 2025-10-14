@@ -184,6 +184,7 @@ account-hub-port-error-text = A portnak 1 és 65535 között kell lennie
 account-hub-username-error-text = A felhasználónév megadása kötelező
     .title = A felhasználónév megadása kötelező
 account-hub-oauth-pending = Várakozás a bejelentkezési felugró ablakban történő hitelesítésre…
+account-hub-addon-install-button = Telepítés
 account-hub-addon-install-needed = A { -brand-short-name } natív módon nem támogatja ezt a kiszolgálót. Az Exchange levelezés eléréséhez <a data-l10n-name="addon-install">telepítsen egy harmadik féltől származó kiegészítőt, például az Owlt (fizetős).</a>
 account-hub-addon-error = A kiegészítő telepítése sikertelen. Próbálja újra, vagy forduljon segítségért a kiegészítő készítőjéhez.
 account-hub-security-warning = <span data-l10n-name="security-warning">Figyelmeztetés: Nem biztonságos levelezőkiszolgáló észlelve.</span> Ez a kiszolgáló nem rendelkezik titkosítással, így kikerül a jelszava és az adatai. Lépjen kapcsolatba a rendszergazdával a kapcsolat biztonságossá tételéhez, vagy folytassa saját felelősségre. <a data-l10n-name="faq-link">További információkért lásd a GYIK-et.</a>
