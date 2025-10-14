@@ -757,6 +757,29 @@ preferences-doh-setting-enabled =
     .accesskey = ზ
 preferences-doh-enabled-desc = თავად საზღვრავთ, როდის გამოიყენოს დაცული DNS და ირჩევთ მომწოდებელს.
 preferences-doh-enabled-detailed-desc-1 = გამოიყენება თქვენი შერჩეული მომწოდებელი
+preferences-doh-enabled-detailed-desc-2 = გამოიყენება ნაგულისხმევი DNS მხოლოდ მაშინ, თუ ხარვეზითაა დაცული DNS
+preferences-doh-setting-strict =
+    .label = უმაღლესი უსაფრთხოება
+    .accesskey = უ
+preferences-doh-strict-desc = { -brand-short-name } ყოველთვის გამოიყენებს დაცულ DNS-ს. იხილავთ საშიშროების შესახებ გაფრთხილებას დაუცველ DNS-ზე გადასვლამდე.
+preferences-doh-strict-detailed-desc-1 = გამოიყენება მხოლოდ თქვენი შერჩეული მომწოდებელი
+preferences-doh-strict-detailed-desc-2 = ყოველთვის გამოჩნდება გაფრთხილება, როცა დაცული DNS მიუწვდომელია
+preferences-doh-strict-detailed-desc-3 = თუ დაცული DNS მიუწვდომელია, საიტები არ ჩაიტვირთება ან სათანადოდ ვერ იმუშავებს
+preferences-doh-setting-off =
+    .label = გამორთ.
+    .accesskey = ო
+preferences-doh-off-desc = გამოიყენება თქვენი ნაგულისხმევი DNS-გადამყვანი
+preferences-doh-checkbox-warn =
+    .label = გაფრთხილება, თუ გარეშე მხარე ცდილობს აირიდოს დაცული DNS
+    .accesskey = ფ
+preferences-doh-select-resolver = მომწოდებლის არჩევა:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (ნაგულისხმევი)
+preferences-doh-url-custom =
+    .label = მითითებული
+    .accesskey = თ
 
 ## Chat Tab
 
