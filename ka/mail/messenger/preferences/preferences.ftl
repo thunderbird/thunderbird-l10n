@@ -47,6 +47,7 @@ compose-html-style-title = HTML-სახის
 composition-addressing-header = დამისამართება
 privacy-main-header = პირადულობა
 privacy-passwords-header = პაროლები
+privacy-spam-header = ჯართი
 privacy-junk-header = ჯართი
 collection-header = { -brand-short-name } – მონაცემთა აღრიცხვა და გამოყენება
 collection-description = ჩვენ ვცდილობთ მოგცეთ არჩევანის უფლება და აღვრიცხოთ მხოლოდ ის მონაცემები, რომლებიც დაგვეხმარება, გავაუმჯობესოთ { -brand-short-name }. ყოველთვის დაგეკითხებით პირადი ინფორმაციის მიღებამდე.
@@ -627,6 +628,32 @@ primary-password-button =
     .accesskey = შ
 forms-primary-pw-fips-title = თქვენ FIPS-რეჟიმში იმყოფებით. FIPS-ს ესაჭიროება მთავარი პაროლი.
 forms-master-pw-fips-desc = პაროლის შეცვლა ვერ მოხერხდა
+spam-description = მიუთითეთ ჯართის პარამეტრები. ანგარიშზე დამოკიდებული პარამეტრების მითითება ჯართისთვის შესაძლებელია ანგარიშის პარამეტრების განყოფილებიდან.
+spam-marked-label =
+    .label = როცა წერილები მონიშნულია ჯართად:
+    .accesskey = რ
+spam-move-label =
+    .label = გადავიდეს „ჯართის“ საქაღალდეში
+    .accesskey = დ
+spam-delete-label =
+    .label = წაიშალოს
+    .accesskey = წ
+spam-read-description = წერილების მონიშვნა წაკითხულად
+spam-read-manual-label =
+    .label = როცა ხელითაა მონიშნული ჯართად
+    .accesskey = ხ
+spam-read-auto-label =
+    .label = როცა { -brand-short-name } ჯართად ამოიცნობს
+    .accesskey = ნ
+spam-log-label =
+    .label = ჯართის მოქნილი ფილტრის აღრიცხვის ჩართვა
+    .accesskey = ჩ
+spam-log-button =
+    .label = აღრიცხვების ჩვენება
+    .accesskey = ც
+reset-spam-button =
+    .label = სწავლების მონაცემთა განულება
+    .accesskey = წ
 junk-description = მიუთითეთ ჯართის პარამეტრები. ჯართის ანგარიშზე დამოკიდებული პარამეტრების მითითება შესაძლებელია ანგარიშის პარამეტრების სექციაში.
 junk-marked-label =
     .label = როცა წერილები მონიშნულია ჯართად:
@@ -693,6 +720,43 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     თვითნებურ გადაწყვეტილებებს ჩაანაცვლებს დაშიფვრის ხელით ჩართვა ან გამორთვა წერილის შედგენისას.
     შენიშვნა: დაშიფვრა ყოველთვის თავისთავადაა ჩართული დაშიფრულ წერილზე პასუხისას.
+
+## DoH Section
+
+preferences-doh-header = DNS-მოთხოვნა HTTPS-ით
+preferences-doh-description = საიტთა სახელების გადამყვანი (DNS) მომსახურების HTTPS-ით გატარებისას საიტის მისამართის მოთხოვნები იგზავნება დაშიფრული არხით, შედეგად იქმნება დაცული DNS და გარეშე პირებს უძნელდებათ გაარკვიონ, რომელ ვებსაიტებთან ცდილობთ წვდომას.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = მდგომარეობა: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = მომწოდებელი: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = უმართებულო URL-ბმული
+preferences-doh-steering-status = ადგილობრივი მომწოდებლის გამოყენებით
+preferences-doh-status-active = მოქმედი
+preferences-doh-status-disabled = გამორთ.
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = უქმი ({ $reason })
+preferences-doh-group-message = ჩაირთოს DNS-მოთხოვნა HTTPS-ით:
+preferences-doh-expand-section =
+    .tooltiptext = ვრცლად
+preferences-doh-setting-default =
+    .label = ნაგულისხმევი უსაფრთხოება
+    .accesskey = გ
+preferences-doh-default-desc = { -brand-short-name } წყვეტს, როდის გამოიყენოს დაცული DNS თქვენი პირადულობისთვის.
+preferences-doh-default-detailed-desc-1 = გამოიყენება დაცული DNS იმ მხარეში, რომელშიც ხელმისაწვდომია
+preferences-doh-default-detailed-desc-2 = გამოიყენება ნაგულისხმევი DNS, თუ ხარვეზითაა დაცული DNS
+preferences-doh-default-detailed-desc-3 = გამოიყენება ადგილობრივი მომწოდებელი, თუ მისაწვდომია
+preferences-doh-default-detailed-desc-4 = გამოირთვება, როცა VPN, მშობლის ზედამხედველობა ან დაწესებულების დებულებებია ამოქმედებული
+preferences-doh-default-detailed-desc-5 = გამოირთვება, თუ ქსელის მითითებით { -brand-short-name } არ უნდა იყენებდეს დაცულ DNS-ს.
+preferences-doh-setting-enabled =
+    .label = გაზრდილი უსაფრთხოება
+    .accesskey = ზ
+preferences-doh-enabled-desc = თავად საზღვრავთ, როდის გამოიყენოს დაცული DNS და ირჩევთ მომწოდებელს.
+preferences-doh-enabled-detailed-desc-1 = გამოიყენება თქვენი შერჩეული მომწოდებელი
 
 ## Chat Tab
 
