@@ -33,3 +33,7 @@ outgoing-server-section-name = Utgående server
 outgoing-server-settings-title = Innstillinger for utgående server
 outgoing-server-settings-description = Når du behandler identitetene dine kan du bruke en server fra denne listen ved å velge den som utgående server, eller du kan bruke standard server fra denne listen ved å velge «Bruk standard server».
 outgoing-server-type = Servertype:
+panel-settings-spam = Søppelpost-innstillinger
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Problem oppdaget med søppelpostinnstillingene for { $account }. Vil du se gjennom dem før du lagrer endringene?

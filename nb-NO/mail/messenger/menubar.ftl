@@ -97,6 +97,9 @@ toolbar-undelete-button =
 toolbar-spam-button =
     .label = Søppelpost
     .tooltiptext = Merk de valgte meldingene som søppelpost
+toolbar-not-spam-button =
+    .label = Ikke søppelpost
+    .tooltiptext = Merk de valgte meldingene som ikke søppelpost
 
 ## View
 

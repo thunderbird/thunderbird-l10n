@@ -108,6 +108,10 @@ dark-message-mode-toggle-disabled =
 
 ## Spam filter
 
+message-bar-spam = { -brand-short-name } mener at denne meldingen er søppelpost.
+message-bar-not-spam-button =
+    .label = Ikke søppelpost
+    .accesskey = k
 message-bar-learn-more-button =
     .label = Les mer …
     .accesskey = L
