@@ -184,6 +184,7 @@ account-hub-port-error-text = Portnummer må være mellom 1 og 65535
 account-hub-username-error-text = Brukernavn er obligatorisk
     .title = Brukernavn er obligatorisk
 account-hub-oauth-pending = Venter på autorisasjon i påloggingsvinduet …
+account-hub-addon-install-button = Installer
 account-hub-addon-install-needed = { -brand-short-name } støtter ikke denne serveren som standard. For å få tilgang til Exchange-e-post, <a data-l10n-name="addon-install">installer et tredjeparts tillegg som Owl (betalt).</a>
 account-hub-addon-error = Installasjonen av tillegget mislyktes. Prøv på nytt, eller kontakt forfatteren av tillegget for å få hjelp.
 account-hub-security-warning = <span data-l10n-name="security-warning">Advarsel: Usikker e-postserver oppdaget.</span> Denne serveren mangler kryptering, noe som eksponerer passordet og dataene dine. Kontakt administratoren din for å sikre tilkoblingen, eller fortsett på egen risiko. <a data-l10n-name="faq-link">Se ofte stilte spørsmål for mer informasjon.</a>
