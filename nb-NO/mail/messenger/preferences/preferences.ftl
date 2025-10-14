@@ -628,6 +628,7 @@ primary-password-button =
     .accesskey = E
 forms-primary-pw-fips-title = Du er for tiden i FIPS-modus. FIPS krever at du bruker et hovedpassord.
 forms-master-pw-fips-desc = Passordendring mislyktes
+spam-description = Angi standardinnstillingene for søppelpost. Konto-spesifikke søppelpostinnstillinger kan konfigureres i kontoinnstillingene.
 spam-marked-label =
     .label = Når meldinger er merket som søppelpost:
     .accesskey = N
