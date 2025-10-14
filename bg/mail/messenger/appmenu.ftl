@@ -83,7 +83,7 @@ appmenu-create-event =
     .accesskey = б
 appmenu-create-task =
     .label = Задача
-    .accesskey = { "" }
+    .accesskey = д
 appmenu-create-contact =
     .label = Контакт
     .accesskey = К
@@ -194,7 +194,7 @@ appmenu-help-troubleshooting-info =
     .accesskey = н
 appmenu-help-about-product =
     .label = Относно { -brand-short-name }
-    .accesskey = { "" }
+    .accesskey = о
 
 ## Application Update
 

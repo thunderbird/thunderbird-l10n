@@ -114,7 +114,7 @@
 <!ENTITY calendar.context.attendance.all.tentative.label "Условно приемане">
 <!ENTITY calendar.context.attendance.all.declined.accesskey "о">
 <!ENTITY calendar.context.attendance.all.declined.label "Отказано">
-<!ENTITY calendar.context.attendance.all.delegated.accesskey "л">
+<!ENTITY calendar.context.attendance.all.delegated.accesskey "п">
 <!ENTITY calendar.context.attendance.all.delegated.label "Преотстъпено">
 <!ENTITY calendar.context.attendance.all.needsaction.accesskey "в">
 <!ENTITY calendar.context.attendance.all.needsaction.label "Все още се нуждае от действие">
