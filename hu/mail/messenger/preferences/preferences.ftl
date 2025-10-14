@@ -47,6 +47,7 @@ compose-html-style-title = HTML stílus
 composition-addressing-header = Címzés
 privacy-main-header = Adatvédelem
 privacy-passwords-header = Jelszavak
+privacy-spam-header = Levélszemét
 privacy-junk-header = Levélszemét
 collection-header = { -brand-short-name } adatgyűjtés és felhasználás
 collection-description = Arra törekszünk, hogy választást biztosítsunk, és csak azt gyűjtsük, amire szükségünk a van a { -brand-short-name } fejlesztéséhez, mindenki számára. Mindig engedélyt kérünk, mielőtt személyes információkat fogadunk.
@@ -693,6 +694,17 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Az automatikus döntések felülbírálhatók a titkosítás kézi be- vagy kikapcsolásával üzenetíráskor.
     Megjegyzés: a titkosítás mindig automatikusan be van kapcsolva, ha titkosított üzenetre válaszol.
+
+## DoH Section
+
+preferences-doh-select-resolver = Válasszon szolgáltatót:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (alapértelmezett)
+preferences-doh-url-custom =
+    .label = Egyéni
+    .accesskey = E
 
 ## Chat Tab
 
