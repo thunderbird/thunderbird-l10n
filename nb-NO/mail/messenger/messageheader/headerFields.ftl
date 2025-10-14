@@ -105,3 +105,9 @@ dark-message-mode-toggle-enabled =
     .title = Slå av mørk meldingsmodus
 dark-message-mode-toggle-disabled =
     .title = Slå på mørk meldingsmodus
+
+## Spam filter
+
+message-bar-learn-more-button =
+    .label = Les mer …
+    .accesskey = L

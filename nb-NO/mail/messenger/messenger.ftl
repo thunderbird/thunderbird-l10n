@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompakt visning
     .accesskey = K
 
+## Folder names
+
+folder-name-spam = Søppelpost
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Arkiver
     .tooltiptext = Arkiver
+context-menu-mark-spam =
+    .aria-label = Merk som søppelpost
+    .tooltiptext = Merk som søppelpost
+context-menu-mark-not-spam =
+    .aria-label = Merk som ikke søppelpost
+    .tooltiptext = Merk som ikke søppelpost
 context-menu-mark-junk =
     .aria-label = Merk som søppelpost
     .tooltiptext = Merk som søppelpost
@@ -473,10 +483,22 @@ openpgp-forget = Glem OpenPGP-passordfraser
 quota-panel-percent-used = { $percent } % full
     .title = IMAP-kvote: { $usage } brukt av totalt { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Status for søppelpost
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Som søppelpost
+    .accesskey = S
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Som ikke søppelpost
+    .accesskey = k
 mark-not-junk-key =
     .key = j
 
