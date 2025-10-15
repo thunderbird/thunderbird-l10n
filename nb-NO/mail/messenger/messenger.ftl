@@ -553,7 +553,7 @@ menuitem-label-spam-status =
 
 # Variables:
 # $folder (String) - The name of the selected folder.
-prompt-empty-folder-title = Tøm { $folder }?
+prompt-empty-folder-title = Tømme { $folder }?
 # Variables:
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-message = Slett alle meldinger og undermapper i { $folder }-mappen?
