@@ -34,3 +34,6 @@ outgoing-server-settings-title = Giden sunucusu ayarları
 outgoing-server-settings-description = Kimliklerinizi yönetirken bu listeden bir sunucuyu kullanmak için onu “giden sunucusu” olarak seçebilir veya “Varsayılan sunucuyu kullan”ı seçerek bu listedeki varsayılan sunucuyu kullanabilirsiniz.
 outgoing-server-type = Sunucu türü:
 panel-settings-spam = Spam ayarları
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = { $account } hesabının spam ayarlarında sorun tespit edildi. Değişiklikleri kaydetmeden önce ayarları gözden geçirmek ister misiniz?
