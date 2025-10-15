@@ -5,4 +5,5 @@
 mail-view-known-people = Od znajomych
 mail-view-recent = Z ostatnich 24 godzin
 mail-view-last-five-days = Z ostatnich 5 dni
+mail-view-not-spam = Pożądana
 mail-view-has-attachments = Z załącznikami

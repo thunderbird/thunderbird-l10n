@@ -109,3 +109,9 @@ dark-message-mode-toggle-disabled =
 ## Spam filter
 
 message-bar-spam = { -brand-short-name } uznał tę wiadomość za niechcianą.
+message-bar-not-spam-button =
+    .label = Pożądana
+    .accesskey = P
+message-bar-learn-more-button =
+    .label = Więcej informacji…
+    .accesskey = W

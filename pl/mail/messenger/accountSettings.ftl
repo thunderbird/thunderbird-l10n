@@ -33,3 +33,6 @@ ews-redirecturi-label =
 ews-endpointhost-label =
     .value = Host punktu końcowego:
     .accesskey = H
+ews-oauthscopes-label =
+    .value = Zakresy protokołu OAuth:
+    .accesskey = Z

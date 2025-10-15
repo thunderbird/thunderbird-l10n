@@ -130,6 +130,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Widok kompaktowy
     .accesskey = k
 
+## Folder names
+
+folder-name-spam = Niechciane
+
 ## File Menu
 
 menu-file-save-as-file =
