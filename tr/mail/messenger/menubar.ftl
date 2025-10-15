@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Silmeyi geri al
     .tooltiptext = Seçili iletileri silmeyi geri al
+toolbar-spam-button =
+    .label = Spam
+    .tooltiptext = Seçili iletileri spam olarak işaretle
+toolbar-not-spam-button =
+    .label = Spam değil
+    .tooltiptext = Seçili iletileri spam değil olarak işaretle
 
 ## View
 

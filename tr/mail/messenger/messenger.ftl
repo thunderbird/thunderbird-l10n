@@ -483,6 +483,12 @@ openpgp-forget = OpenPGP parolalarını unut
 quota-panel-percent-used = %{ $percent } dolu
     .title = IMAP kotası: { $usage } (kullanılan) / { $limit } (toplam)
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Spam durumu
+    .accesskey = a
+
 ## Message menu.
 
 mark-as-junk-key =
@@ -495,6 +501,9 @@ menu-recalculate-spam-score =
 menu-run-spam-on-folder =
     .label = Klasörde spam denetimini çalıştır
     .accesskey = s
+menu-delete-spam =
+    .label = Klasörde spam olarak işaretlenen iletileri sil
+    .accesskey = K
 
 ## Thread pane.
 

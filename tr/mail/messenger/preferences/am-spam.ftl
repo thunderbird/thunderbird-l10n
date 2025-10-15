@@ -15,3 +15,6 @@ automatic-spam-purge-label =
     .value = gün sonra otomatik sil
 spam-classification-legend = Seçim
 spam-actions-legend = Hedef ve saklama
+global-spam-preferences-button =
+    .label = Genel spam ayarları…
+    .accesskey = G

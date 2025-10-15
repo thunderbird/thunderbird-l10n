@@ -105,3 +105,12 @@ dark-message-mode-toggle-enabled =
     .title = Koyu ileti modunu kapat
 dark-message-mode-toggle-disabled =
     .title = Koyu ileti modunu etkinleştir
+
+## Spam filter
+
+message-bar-not-spam-button =
+    .label = Spam değil
+    .accesskey = d
+message-bar-learn-more-button =
+    .label = Daha fazla bilgi al…
+    .accesskey = h
