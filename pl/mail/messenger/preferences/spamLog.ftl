@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 spam-log-title = Dziennik filtru niechcianej poczty
+spam-log-info-label =
+    .value = Dziennik aktywności filtru niechcianej poczty.
 clear-log-button =
     .label = Wyczyść dziennik
     .accesskey = C

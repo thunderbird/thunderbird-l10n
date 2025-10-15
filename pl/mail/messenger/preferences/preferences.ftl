@@ -769,6 +769,17 @@ preferences-doh-setting-off =
     .label = Wyłączone
     .accesskey = W
 preferences-doh-off-desc = Używa domyślnego serwera DNS
+preferences-doh-checkbox-warn =
+    .label = Ostrzeganie, jeśli ktoś inny aktywnie uniemożliwia korzystanie z zabezpieczonego serwera DNS
+    .accesskey = O
+preferences-doh-select-resolver = Wybierz dostawcę:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (domyślny)
+preferences-doh-url-custom =
+    .label = Własny adres
+    .accesskey = W
 
 ## Chat Tab
 
