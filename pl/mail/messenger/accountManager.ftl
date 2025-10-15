@@ -34,3 +34,6 @@ outgoing-server-settings-title = Ustawienia serwera poczty wychodzącej
 outgoing-server-settings-description = Podczas zarządzania tożsamościami można wskazać dowolny serwer z poniższej listy jako „Serwer poczty wychodzącej” lub użyć serwera ustawionego jako domyślny na tej liście, wybierając „Użyj domyślnego serwera”.
 outgoing-server-type = Typ serwera:
 panel-settings-spam = Niechciana poczta
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Wykryto problem z ustawieniami niechcianej poczty dla konta { $account }. Czy chcesz je sprawdzić przed zapisaniem zmian?
