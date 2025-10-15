@@ -483,6 +483,12 @@ openpgp-forget = Ξεχάστε τις φράσεις πρόσβασης OpenPGP
 quota-panel-percent-used = { $percent }% πλήρες
     .title = Ποσοστό IMAP: { $usage } σε χρήση από συνολικά { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Κατάσταση ανεπιθύμητης αλληλογραφίας
+    .accesskey = Κ
+
 ## Message menu.
 
 menu-mark-as-spam =
@@ -512,6 +518,10 @@ archive-action = Αρχειοθέτηση
 message-flag-spam = Ανεπιθύμητο
 menuitem-label-spam =
     .label = Ανεπιθύμητο
+menuitem-label-spam-percentage =
+    .label = Ποσοστό ανεπιθύμητων
+menuitem-label-spam-status =
+    .label = Κατάσταση ανεπιθύμητης αλληλογραφίας
 
 ## Prompts
 
