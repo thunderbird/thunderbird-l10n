@@ -556,6 +556,8 @@ menuitem-label-spam =
     .label = Nevyžiadaná správa
 menuitem-label-spam-score-origin =
     .label = Pôvod skóre nevyžiadanej pošty
+menuitem-label-spam-percentage =
+    .label = Percento nevyžiadanej pošty
 menuitem-label-spam-status =
     .label = Stav nevyžiadanej pošty
 
@@ -568,3 +570,10 @@ prompt-empty-folder-title = Vyprázdniť priečinok { $folder }?
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-message = Odstrániť všetky správy a podpriečinky v priečinku { $folder }?
 prompt-dont-ask-again = Nabudúce sa už nepýtať
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Analýza nevyžiadanej pošty dokončená na { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
+spam-processing-message = Spracováva sa nevyžiadaná pošta

@@ -47,6 +47,7 @@ compose-html-style-title = Štýl HTML
 composition-addressing-header = Adresovanie
 privacy-main-header = Súkromie
 privacy-passwords-header = Heslá
+privacy-spam-header = Nevyžiadaná pošta
 privacy-junk-header = Nevyžiadaná pošta
 collection-header = Zber a použitie údajov o aplikácii { -brand-short-name }
 collection-description = Keď sa jedná o údaje, dávame vám vždy na výber. Zbierame len údaje, ktoré nám pomôžu aplikáciu { -brand-short-name } naďalej zlepšovať. Pred odoslaním osobných údajov vždy žiadame o váš súhlas.
@@ -693,6 +694,26 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Automatické rozhodnutia možno prepísať manuálnym povolením alebo zakázaním šifrovania pri vytváraní správy.
     Poznámka: šifrovanie je vždy automaticky povolené pri odpovedi na zašifrovanú správu.
+
+## DoH Section
+
+preferences-doh-strict-detailed-desc-2 = Vždy dostanete upozornenie, ak zabezpečené DNS nie je k dispozícii
+preferences-doh-strict-detailed-desc-3 = Ak zabezpečené DNS nie je k dispozícii, stránky sa nenačítajú alebo nebudú fungovať správne
+preferences-doh-setting-off =
+    .label = Vypnuté
+    .accesskey = V
+preferences-doh-off-desc = Použije sa predvolený prekladač DNS
+preferences-doh-checkbox-warn =
+    .label = Upozorniť, ak tretia strana aktívne bráni použitiu zabezpečeného DNS
+    .accesskey = U
+preferences-doh-select-resolver = Zvoľte poskytovateľa:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (predvolený)
+preferences-doh-url-custom =
+    .label = Vlastný
+    .accesskey = V
 
 ## Chat Tab
 
