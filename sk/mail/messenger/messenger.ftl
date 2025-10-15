@@ -130,6 +130,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktné zobrazenie
     .accesskey = K
 
+## Folder names
+
+folder-name-spam = Nevyžiadaná pošta
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -203,6 +207,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Archivovať
     .tooltiptext = Archivovať
+context-menu-mark-spam =
+    .aria-label = Označiť ako nevyžiadaná správa
+    .tooltiptext = Označiť ako nevyžiadaná správa
+context-menu-mark-not-spam =
+    .aria-label = Označiť ako nie nevyžiadaná správa
+    .tooltiptext = Označiť ako nie nevyžiadaná správa
 context-menu-mark-junk =
     .aria-label = Označiť ako nevyžiadanú poštu
     .tooltiptext = Označiť ako nevyžiadanú poštu
@@ -485,8 +495,17 @@ openpgp-forget = Zabudnúť prístupové frázy OpenPGP
 quota-panel-percent-used = Zaplnené na { $percent } %
     .title = Kvóta IMAP: využitých { $usage } z celkových { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Stav nevyžiadanej pošty
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Ako nevyžiadaná správa
+    .accesskey = A
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =

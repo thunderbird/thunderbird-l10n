@@ -186,6 +186,7 @@ account-hub-port-error-text = Port musí byť medzi 1 a 65535
 account-hub-username-error-text = Meno používateľa je povinná položka
     .title = Meno používateľa je povinná položka
 account-hub-oauth-pending = Čaká sa na autorizáciu v prihlasovacom vyskakovacom okne…
+account-hub-addon-install-button = Nainštalovať
 account-hub-addon-install-needed = { -brand-short-name } tento server natívne nepodporuje. Ak chcete získať prístup k e‑mailu typu Exchange, <a data-l10n-name="addon-install">nainštalujte si doplnok tretej strany, ako je napríklad Owl (platený)</a>.
 account-hub-addon-error = Inštalácia doplnku zlyhala. Skúste to znova alebo požiadajte o pomoc autora doplnku.
 account-hub-security-warning = <span data-l10n-name="security-warning">Upozornenie: zistil sa nezabezpečený poštový server.</span> Tento server nemá šifrovanie, čo prezrádza vaše heslo a údaje. Ak chcete zabezpečiť pripojenie, kontaktujte svojho správcu alebo pokračujte na vlastné riziko. Ďalšie informácie nájdete v <a data-l10n-name="faq-link">najčastejšie kladených otázkach</a>.

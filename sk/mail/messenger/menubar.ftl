@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Obnoviť
     .tooltiptext = Obnoviť odstránené správy
+toolbar-spam-button =
+    .label = Nevyžiadaná správa
+    .tooltiptext = Označí správu ako nevyžiadanú
+toolbar-not-spam-button =
+    .label = Nie je to nevyžiadaná správa
+    .tooltiptext = Označí správu ako nie nevyžiadanú
 
 ## View
 

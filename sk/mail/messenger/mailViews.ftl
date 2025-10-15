@@ -5,4 +5,5 @@
 mail-view-known-people = Ľudia, ktorých poznám
 mail-view-recent = Posledné správy
 mail-view-last-five-days = Posledných 5 dní
+mail-view-not-spam = Nie je to nevyžiadaná pošta
 mail-view-has-attachments = Má prílohy
