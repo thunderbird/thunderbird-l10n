@@ -629,6 +629,31 @@ primary-password-button =
 forms-primary-pw-fips-title = Jelenleg FIPS-módban van. A FIPS-hez nem üres elsődleges jelszó szükséges.
 forms-master-pw-fips-desc = Sikertelen jelszóváltoztatás
 spam-description = Az alapértelmezett levélszemét-kezelés beállítása. A postafiókra jellemző levélszemét-kezelés beállításait a Postafiókok beállításai alatt végezheti el.
+spam-marked-label =
+    .label = Ha az üzenetek levélszemétként lettek megjelölve:
+    .accesskey = H
+spam-move-label =
+    .label = Áthelyezés a postafiók „Levélszemét” mappájába
+    .accesskey = o
+spam-delete-label =
+    .label = Törlés
+    .accesskey = T
+spam-read-description = Üzenetek olvasottnak jelölése
+spam-read-manual-label =
+    .label = Kézi levélszemétnek jelölés esetén
+    .accesskey = K
+spam-read-auto-label =
+    .label = Ha a { -brand-short-name } jelöli levélszemétnek
+    .accesskey = j
+spam-log-label =
+    .label = Adaptív levélszemétszűrő-naplózás engedélyezése
+    .accesskey = e
+spam-log-button =
+    .label = Napló megjelenítése
+    .accesskey = N
+reset-spam-button =
+    .label = Tanulási adatok törlése
+    .accesskey = T
 junk-description = Az alapértelmezett levélszemét-kezelés beállítása. A postafiókra jellemző levélszemét-kezelés beállításait a Postafiókok beállításai alatt végezheti el.
 junk-marked-label =
     .label = Ha az üzenetek levélszemétként lettek megjelölve:
@@ -698,6 +723,55 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = HTTPS feletti DNS
+preferences-doh-description = A HTTPS feletti domainnév-rendszer (DNS) a domainnevek lekérését titkosított kapcsolaton keresztül küldi el, biztonságos DNS-t biztosítva, így nehezebbé téve mások számára, hogy lássak, hogy mely webhelyeket éri el.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Állapot: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Szolgáltató: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Érvénytelen webcím
+preferences-doh-steering-status = Helyi szolgáltató használata
+preferences-doh-status-active = Aktív
+preferences-doh-status-disabled = Ki
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Nem aktív ({ $reason })
+preferences-doh-group-message = HTTPS feletti DNS bekapcsolása a következővel:
+preferences-doh-expand-section =
+    .tooltiptext = További információ
+preferences-doh-setting-default =
+    .label = Alapértelmezett védelem
+    .accesskey = A
+preferences-doh-default-desc = A { -brand-short-name } dönti el, hogy mikor használ biztonságos DNS-t az adatvédelme érdekében.
+preferences-doh-default-detailed-desc-1 = Biztonságos DNS használata azokban a régiókban, ahol elérhető
+preferences-doh-default-detailed-desc-2 = Alapértelmezett DNS-feloldó használata, ha probléma van a biztonságos DNS-szolgáltatóval
+preferences-doh-default-detailed-desc-3 = Helyi szolgáltató használata, ha lehet
+preferences-doh-default-detailed-desc-4 = Kikapcsolás, ha a VPN, a szülői felügyelet vagy a vállalati házirendek aktívak
+preferences-doh-default-detailed-desc-5 = Kikapcsolás, ha a hálózat azt mondja a { -brand-short-name }nek, hogy ne használjon biztonságos DNS-t
+preferences-doh-setting-enabled =
+    .label = Fokozott védelem
+    .accesskey = F
+preferences-doh-enabled-desc = Ön szabályozza, hogy mikor használ biztonságos DNS-t, és kiválaszthatja a szolgáltatót.
+preferences-doh-enabled-detailed-desc-1 = Kiválasztott szolgáltató használata
+preferences-doh-enabled-detailed-desc-2 = Csak akkor használja az alapértelmezett DNS-feloldót, ha probléma van a biztonságos DNS-sel
+preferences-doh-setting-strict =
+    .label = Maximális védelem
+    .accesskey = M
+preferences-doh-strict-desc = A { -brand-short-name } mindig biztonságos DNS-t fog használni. A rendszer DNS-ének használata előtt egy biztonsági kockázati figyelmeztetést fog látni.
+preferences-doh-strict-detailed-desc-1 = Csak a kiválasztott szolgáltató használata
+preferences-doh-strict-detailed-desc-2 = Figyelmeztetés mindig, ha a biztonságos DNS nem érhető el
+preferences-doh-strict-detailed-desc-3 = Ha a biztonságos DNS nem érhető el, akkor a webhelyek nem fognak betöltődni és működni
+preferences-doh-setting-off =
+    .label = Ki
+    .accesskey = K
+preferences-doh-off-desc = Az alapértelmezett DNS-feloldó használata
+preferences-doh-checkbox-warn =
+    .label = Figyelmeztetés, ha egy harmadik fél aktívan megakadályozza a biztonságos DNS használatát
+    .accesskey = F
 preferences-doh-select-resolver = Válasszon szolgáltatót:
 # Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider

@@ -26,6 +26,7 @@ automatic-spam-purge-label =
 allowlist-header-label =
     .value = Ne jelölje meg automatikusan levélszemétként az üzenetet, ha a feladója szerepel ebben:
     .accesskey = N
+isp-warning-description = Ha engedélyezi, a { -brand-short-name } automatikusan levélszemétnek tekinti az ezen külső minősítő által megjelölt üzeneteket.
 spam-classification-legend = Kijelölés
 spam-actions-legend = Cél és megtartás
 global-spam-preferences-button =
