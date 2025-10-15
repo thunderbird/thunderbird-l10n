@@ -624,6 +624,12 @@ primary-password-button =
     .accesskey = Α
 forms-primary-pw-fips-title = Είστε σε λειτουργία FIPS. Το FIPS απαιτεί μη κενό κύριο κωδικό πρόσβασης.
 forms-master-pw-fips-desc = Αποτυχία αλλαγής κωδικού πρόσβασης
+spam-log-button =
+    .label = Εμφάνιση αρχείου καταγραφής
+    .accesskey = μ
+reset-spam-button =
+    .label = Επαναφορά δεδομένων εκμάθησης
+    .accesskey = Ε
 junk-description = Καθορίστε τις προεπιλεγμένες ρυθμίσεις ανεπιθύμητης αλληλογραφίας σας. Οι ρυθμίσεις για συγκεκριμένους λογαριασμούς μπορούν να τροποποιηθούν στις ρυθμίσεις λογαριασμού.
 junk-marked-label =
     .label = Όταν τα μηνύματα επισημαίνονται ως ανεπιθύμητα:
@@ -693,6 +699,17 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = DNS μέσω HTTPS
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Κατάσταση: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Πάροχος: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Μη έγκυρο URL
+preferences-doh-steering-status = Χρήση τοπικού παρόχου
 preferences-doh-status-active = Ενεργό
 preferences-doh-status-disabled = Ανενεργό
 # Variables:
