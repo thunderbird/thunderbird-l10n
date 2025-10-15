@@ -10,7 +10,15 @@ run-filter-before-spam =
     .label = Filtriraj prije označavanja neželjene pošte
 run-filter-after-spam =
     .label = Filtriraj nakon označavanja neželjene pošte
+rule-action-set-spam-status =
+    .label = Postavi status neželjene pošte na
+# Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = Otkrivena neželjena pošta od { $author } - { $subject } na { $date }
 # Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = premještena poruka id = { $id } u { $folder }
+filter-action-log-spam = rezultat neželjene pošte
