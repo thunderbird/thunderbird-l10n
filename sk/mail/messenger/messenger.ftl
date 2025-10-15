@@ -504,12 +504,12 @@ sort-by-spam-status =
 ## Message menu.
 
 menu-mark-as-spam =
-    .label = Ako nevyžiadaná správa
+    .label = Ako nevyžiadaná pošta
     .accesskey = A
 mark-as-junk-key =
     .key = j
 menu-mark-not-spam =
-    .label = Ako nie nevyžiadaná správa
+    .label = Ako nie nevyžiadaná pošta
     .accesskey = k
 mark-not-junk-key =
     .key = j

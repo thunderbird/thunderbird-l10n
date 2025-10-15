@@ -628,6 +628,32 @@ primary-password-button =
     .accesskey = Z
 forms-primary-pw-fips-title = Momentálne sa používa režim FIPS. Režim FIPS vyžaduje nastavenie hlavného hesla.
 forms-master-pw-fips-desc = Zmena hesla zlyhala
+spam-description = Nastavte si predvolené nastavenia nevyžiadanej pošty. Nastavenia nevyžiadanej pošty pre konkrétny účet je možné nakonfigurovať v nastaveniach účtu.
+spam-marked-label =
+    .label = Keď sú správy označené ako nevyžiadané:
+    .accesskey = K
+spam-move-label =
+    .label = Presunúť ich do priečinka “Nevyžiadaná pošta” v danom účte
+    .accesskey = N
+spam-delete-label =
+    .label = Odstrániť ich
+    .accesskey = O
+spam-read-description = Označiť správy ako prečítané
+spam-read-manual-label =
+    .label = Keď sú manuálne označené ako nevyžiadané
+    .accesskey = m
+spam-read-auto-label =
+    .label = Keď { -brand-short-name } určí, že ide o nevyžiadanú správu
+    .accesskey = u
+spam-log-label =
+    .label = Povoliť protokol z adaptívneho rozpoznávania nevyžiadanej pošty
+    .accesskey = v
+spam-log-button =
+    .label = Zobraziť protokol
+    .accesskey = b
+reset-spam-button =
+    .label = Vymazať zozbierané údaje
+    .accesskey = V
 junk-description = Ak chcete zmeniť špecifické nastavenia nevyžiadanej pošty svojho účtu, prejdite do jeho nastavenia.
 junk-marked-label =
     .label = Keď sú správy označené ako nevyžiadané:
@@ -697,6 +723,46 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = DNS cez HTTPS
+preferences-doh-description = Systém názvov domén (Domain Name System, skr. DNS) cez HTTPS odošle vašu požiadavku na názov domény cez šifrované pripojenie, čím zabezpečí DNS a sťaží tým ostatným, aby videli, na ktorú webovú stránku sa chystáte vstúpiť.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Stav: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Poskytovateľ: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Neplatná URL adresa
+preferences-doh-steering-status = Pomocou lokálneho poskytovateľa
+preferences-doh-status-active = Aktívne
+preferences-doh-status-disabled = Vypnuté
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Neaktívne ({ $reason })
+preferences-doh-group-message = Zapnúť DNS cez HTTPS s použitím:
+preferences-doh-expand-section =
+    .tooltiptext = Ďalšie informácie
+preferences-doh-setting-default =
+    .label = Predvolená ochrana
+    .accesskey = P
+preferences-doh-default-desc = { -brand-short-name } rozhoduje o tom, kedy sa použije zabezpečené DNS na ochranu vášho súkromia.
+preferences-doh-default-detailed-desc-1 = Zabezpečené DNS sa použije v regiónoch, kde je dostupné
+preferences-doh-default-detailed-desc-2 = Ak sa vyskytne problém so zabezpečeným DNS, použije sa predvolený nástroj na prekladanie DNS
+preferences-doh-default-detailed-desc-3 = Použije sa lokálny poskytovateľ, ak je to možné
+preferences-doh-default-detailed-desc-4 = Vypne sa, ak je aktívna VPN, rodičovská kontrola alebo podnikové zásady
+preferences-doh-default-detailed-desc-5 = Vypne sa, keď sieť oznámi { -brand-short-name(case: "dat") }, že nemá používať zabezpečené DNS
+preferences-doh-setting-enabled =
+    .label = Zvýšená ochrana
+    .accesskey = Z
+preferences-doh-enabled-desc = Vy určujete, kedy sa použije zabezpečené DNS, a vyberáte si svojho poskytovateľa.
+preferences-doh-enabled-detailed-desc-1 = Použije sa poskytovateľ, ktorého ste si vybrali
+preferences-doh-enabled-detailed-desc-2 = Predvolený nástroj na prekladanie DNS sa použije iba v prípade, že sa vyskytne problém so zabezpečeným DNS
+preferences-doh-setting-strict =
+    .label = Maximálna ochrana
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } bude vždy používať zabezpečené DNS. Pred použitím vášho systému DNS sa zobrazí upozornenie na bezpečnostné riziko.
+preferences-doh-strict-detailed-desc-1 = Použije sa iba poskytovateľ, ktorého ste si vybrali
 preferences-doh-strict-detailed-desc-2 = Vždy dostanete upozornenie, ak zabezpečené DNS nie je k dispozícii
 preferences-doh-strict-detailed-desc-3 = Ak zabezpečené DNS nie je k dispozícii, stránky sa nenačítajú alebo nebudú fungovať správne
 preferences-doh-setting-off =
