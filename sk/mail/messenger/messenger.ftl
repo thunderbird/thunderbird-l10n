@@ -508,8 +508,38 @@ menu-mark-as-spam =
     .accesskey = A
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Ako nie nevyžiadaná správa
+    .accesskey = k
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Spustiť kontrolu nevyžiadanej pošty
+    .accesskey = u
+menu-run-spam-on-folder =
+    .label = Spustiť kontrolu nevyžiadanej pošty pre tento priečinok
+    .accesskey = u
+menu-delete-spam =
+    .label = Odstrániť z priečinka správy označené ako nevyžiadané
+    .accesskey = d
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Vyprázdniť Nevyžiadanú poštu
+    .accesskey = V
+
+## Thread pane.
+
+column-status-spam =
+    .label = Stav nevyžiadanej pošty
+    .tooltiptext = Usporiadať podľa stavu nevyžiadanej pošty
+
+## Message header.
+
+header-spam-button =
+    .label = Nevyžiadaná pošta
+    .tooltiptext = Označí túto správu ako nevyžiadanú
 
 ## Actions for the New Mail Notification
 
@@ -518,3 +548,23 @@ delete-action = Odstrániť
 mark-as-starred-action = Označiť hviezdičkou
 mark-as-spam-action = Označiť ako spam
 archive-action = Archivovať
+
+## Message list.
+
+message-flag-spam = Nevyžiadaná správa
+menuitem-label-spam =
+    .label = Nevyžiadaná správa
+menuitem-label-spam-score-origin =
+    .label = Pôvod skóre nevyžiadanej pošty
+menuitem-label-spam-status =
+    .label = Stav nevyžiadanej pošty
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Vyprázdniť priečinok { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Odstrániť všetky správy a podpriečinky v priečinku { $folder }?
+prompt-dont-ask-again = Nabudúce sa už nepýtať
