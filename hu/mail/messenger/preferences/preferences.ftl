@@ -628,6 +628,7 @@ primary-password-button =
     .accesskey = m
 forms-primary-pw-fips-title = Jelenleg FIPS-módban van. A FIPS-hez nem üres elsődleges jelszó szükséges.
 forms-master-pw-fips-desc = Sikertelen jelszóváltoztatás
+spam-description = Az alapértelmezett levélszemét-kezelés beállítása. A postafiókra jellemző levélszemét-kezelés beállításait a Postafiókok beállításai alatt végezheti el.
 junk-description = Az alapértelmezett levélszemét-kezelés beállítása. A postafiókra jellemző levélszemét-kezelés beállításait a Postafiókok beállításai alatt végezheti el.
 junk-marked-label =
     .label = Ha az üzenetek levélszemétként lettek megjelölve:
