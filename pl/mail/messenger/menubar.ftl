@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Przywróć
     .tooltiptext = Przywróć usunięte wiadomości
+toolbar-spam-button =
+    .label = Niechciana
+    .tooltiptext = Oznacz zaznaczoną wiadomość jako niechcianą
+toolbar-not-spam-button =
+    .label = Pożądana
+    .tooltiptext = Oznacz zaznaczoną wiadomość jako pożądaną
 
 ## View
 

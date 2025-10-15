@@ -987,6 +987,33 @@ calendar-alarm-snooze-for =
     .label = Przypomnij za
 calendar-alarm-snooze-all-for =
     .label = Przypomnij o wszystkich za
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } minuta
+            [few] { $count } minuty
+           *[many] { $count } minut
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] { $count } godzina
+            [few] { $count } godziny
+           *[many] { $count } godzin
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] { $count } dzień
+            [few] { $count } dni
+           *[many] { $count } dni
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.

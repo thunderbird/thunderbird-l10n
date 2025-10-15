@@ -201,6 +201,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Archiwizuj
     .tooltiptext = Archiwizuj
+context-menu-mark-spam =
+    .aria-label = Oznacz jako niechcianą
+    .tooltiptext = Oznacz jako niechcianą
+context-menu-mark-not-spam =
+    .aria-label = Oznacz jako pożądaną
+    .tooltiptext = Oznacz jako pożądaną
 context-menu-mark-junk =
     .aria-label = Oznacz jako niechcianą
     .tooltiptext = Oznacz jako niechcianą
@@ -478,10 +484,25 @@ quota-panel-percent-used = Zajęte { $percent }%
 
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Jako niechcianą
+    .accesskey = J
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Jako pożądaną
+    .accesskey = n
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Uruchom filtr niechcianej poczty
+    .accesskey = U
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Opróżnij Niechciane
+    .accesskey = e
 
 ## Actions for the New Mail Notification
 
@@ -490,3 +511,8 @@ delete-action = Usuń
 mark-as-starred-action = Oznacz gwiazdką
 mark-as-spam-action = Oznacz jako spam
 archive-action = Archiwizuj
+
+## Message list.
+
+menuitem-label-spam-score-origin =
+    .label = Źródło stanu niechcianej poczty

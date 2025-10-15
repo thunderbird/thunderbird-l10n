@@ -6,3 +6,4 @@
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = przeniesiono wiadomość o id={ $id } do { $folder }
+filter-action-log-spam = ocena filtru niechcianej wiadomości

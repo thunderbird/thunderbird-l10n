@@ -105,3 +105,7 @@ dark-message-mode-toggle-enabled =
     .title = Wyłącz tryb ciemny wiadomości
 dark-message-mode-toggle-disabled =
     .title = Włącz tryb ciemny wiadomości
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } uznał tę wiadomość za niechcianą.
