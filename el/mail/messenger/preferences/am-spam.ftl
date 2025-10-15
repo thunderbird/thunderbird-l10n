@@ -12,3 +12,6 @@ automatic-spam-purge-label =
     .value = ημέρες
 spam-classification-legend = Διαλογή
 spam-actions-legend = Προορισμός και φύλαξη
+global-spam-preferences-button =
+    .label = Καθολικές ρυθμίσεις ανεπιθύμητων μηνυμάτων…
+    .accesskey = θ
