@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Πυκνή προβολή
     .accesskey = Π
 
+## Folder names
+
+folder-name-spam = Ανεπιθύμητο
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Αρχειοθέτηση
     .tooltiptext = Αρχειοθέτηση
+context-menu-mark-spam =
+    .aria-label = Επισήμανση ως ανεπιθύμητο
+    .tooltiptext = Επισήμανση ως ανεπιθύμητο
+context-menu-mark-not-spam =
+    .aria-label = Επισήμανση ως επιθυμητό
+    .tooltiptext = Επισήμανση ως επιθυμητό
 context-menu-mark-junk =
     .aria-label = Επισήμανση ως ανεπιθύμητο
     .tooltiptext = Επισήμανση ως ανεπιθύμητο
@@ -475,10 +485,19 @@ quota-panel-percent-used = { $percent }% πλήρες
 
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Ως ανεπιθύμητο
+    .accesskey = Σ
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Ως επιθυμητό
+    .accesskey = Ν
 mark-not-junk-key =
     .key = j
+menu-delete-spam =
+    .label = Διαγραφή επισημασμένου email ως ανεπιθύμητου στον φάκελο
+    .accesskey = Δ
 
 ## Actions for the New Mail Notification
 
@@ -487,3 +506,13 @@ delete-action = Διαγραφή
 mark-as-starred-action = Επισήμανση με αστέρι
 mark-as-spam-action = Επισήμανση ως ανεπιθύμητο
 archive-action = Αρχειοθέτηση
+
+## Message list.
+
+message-flag-spam = Ανεπιθύμητο
+menuitem-label-spam =
+    .label = Ανεπιθύμητο
+
+## Prompts
+
+prompt-dont-ask-again = Να μην γίνει ξανά ερώτηση.

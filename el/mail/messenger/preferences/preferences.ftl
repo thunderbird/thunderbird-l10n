@@ -47,6 +47,7 @@ compose-html-style-title = Στιλ HTML
 composition-addressing-header = Διευθυνσιοδότηση
 privacy-main-header = Απόρρητο
 privacy-passwords-header = Κωδικοί πρόσβασης
+privacy-spam-header = Ανεπιθύμητο
 privacy-junk-header = Ανεπιθύμητα
 collection-header = Συλλογή και χρήση δεδομένων του { -brand-short-name }
 collection-description = Προσπαθούμε να παρέχουμε επιλογές και να συλλέγουμε μόνο τα απαραίτητα, ώστε να προσφέρουμε και να βελτιώνουμε το { -brand-short-name } για όλους. Ζητούμε πάντα άδεια πριν λάβουμε προσωπικές πληροφορίες.
@@ -689,6 +690,54 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Οι αυτόματες αποφάσεις μπορούν να παρακαμφθούν από τη μη αυτόματη (απ)ενεργοποίηση της κρυπτογράφησης κατά τη σύνταξη ενός μηνύματος.
     Σημείωση: Η κρυπτογράφηση ενεργοποιείται πάντα αυτόματα όταν απαντάτε σε κρυπτογραφημένο μήνυμα.
+
+## DoH Section
+
+preferences-doh-status-active = Ενεργό
+preferences-doh-status-disabled = Ανενεργό
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Μη ενεργό ({ $reason })
+preferences-doh-group-message = Ενεργοποίηση DNS μέσω HTTPS χρησιμοποιώντας:
+preferences-doh-expand-section =
+    .tooltiptext = Περισσότερες πληροφορίες
+preferences-doh-setting-default =
+    .label = Προεπιλεγμένη προστασία
+    .accesskey = Δ
+preferences-doh-default-desc = Το { -brand-short-name } αποφασίζει πότε θα χρησιμοποιεί ασφαλές DNS για την προστασία του απορρήτου σας.
+preferences-doh-default-detailed-desc-1 = Χρήση ασφαλούς DNS σε περιοχές όπου είναι διαθέσιμο
+preferences-doh-default-detailed-desc-2 = Χρήση προεπιλεγμένης ανάλυσης DNS εάν υπάρχει πρόβλημα με τον πάροχο ασφαλούς DNS
+preferences-doh-default-detailed-desc-3 = Χρήση τοπικού παρόχου εάν είναι δυνατόν
+preferences-doh-default-detailed-desc-4 = Απενεργοποίηση όταν είναι ενεργό το VPN, ο γονικός έλεγχος ή οι εταιρικές πολιτικές
+preferences-doh-default-detailed-desc-5 = Απενεργοποίηση όταν ένα δίκτυο ενημερώνει το { -brand-short-name } ότι δεν πρέπει να χρησιμοποιεί ασφαλές DNS
+preferences-doh-setting-enabled =
+    .label = Αυξημένη προστασία
+    .accesskey = Ι
+preferences-doh-enabled-desc = Εσείς ελέγχετε πότε θα χρησιμοποιείται ασφαλές DNS και επιλέγετε τον πάροχό σας.
+preferences-doh-enabled-detailed-desc-1 = Χρήση του παρόχου της επιλογής σας
+preferences-doh-enabled-detailed-desc-2 = Χρήση προεπιλεγμένης ανάλυσης DNS μόνο εάν υπάρχει πρόβλημα με το ασφαλές DNS
+preferences-doh-setting-strict =
+    .label = Μέγιστη προστασία
+    .accesskey = Μ
+preferences-doh-strict-desc = Το { -brand-short-name } θα χρησιμοποιεί πάντα ασφαλές DNS. Θα βλέπετε μια προειδοποίηση πριν χρησιμοποιήσουμε το DNS του συστήματός σας.
+preferences-doh-strict-detailed-desc-1 = Χρήση μόνο του παρόχου της επιλογής σας
+preferences-doh-strict-detailed-desc-2 = Πάντα προειδοποίηση εάν το ασφαλές DNS δεν είναι διαθέσιμο
+preferences-doh-strict-detailed-desc-3 = Εάν δεν διατίθεται ασφαλές DNS, οι ιστότοποι δεν θα φορτώνονται ή δεν θα λειτουργούν σωστά
+preferences-doh-setting-off =
+    .label = Ανενεργό
+    .accesskey = Ο
+preferences-doh-off-desc = Χρήση προεπιλεγμένης ανάλυσης DNS
+preferences-doh-checkbox-warn =
+    .label = Προειδοποίηση εάν ένα τρίτο μέρος εμποδίζει ενεργά το ασφαλές DNS
+    .accesskey = Π
+preferences-doh-select-resolver = Επιλογή παρόχου:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (Προεπιλογή)
+preferences-doh-url-custom =
+    .label = Προσαρμοσμένο
+    .accesskey = Π
 
 ## Chat Tab
 

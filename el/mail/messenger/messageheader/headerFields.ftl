@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = Απενεργοποίηση της σκουρόχρωμης λειτουργίας μηνυμάτων
 dark-message-mode-toggle-disabled =
     .title = Ενεργοποίηση της σκουρόχρωμης λειτουργίας μηνυμάτων
+
+## Spam filter
+
+message-bar-spam = Το { -brand-short-name } θεωρεί αυτό το μήνυμα ανεπιθύμητο.
+message-bar-not-spam-button =
+    .label = Επιθυμητό
+    .accesskey = Ν
+message-bar-learn-more-button =
+    .label = Μάθετε περισσότερα…
+    .accesskey = L

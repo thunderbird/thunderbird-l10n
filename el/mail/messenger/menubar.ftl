@@ -94,6 +94,9 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Αναίρεση διαγραφής
     .tooltiptext = Αναίρεση διαγραφής επιλεγμένων μηνυμάτων
+toolbar-spam-button =
+    .label = Ανεπιθύμητο
+    .tooltiptext = Επισήμανση των επιλεγμένων μηνυμάτων ως ανεπιθύμητων
 
 ## View
 
