@@ -2,12 +2,25 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+spam-settings-title = Ustawienia niechcianej poczty
+dialog-header-title =
+    .value = Ustawienia niechcianej poczty
+training-description-spam = Po włączeniu filtru należy nauczyć program { -brand-short-name } rozpoznawania pożądanych i niepożądanych wiadomości za pomocą przycisku „Niechciana” na pasku narzędzi. Należy odpowiednio oznaczać wiadomości pożądane i niepożądane, dopóki skuteczność automatycznego filtrowania niechcianej poczty nie będzie satysfakcjonująca.
+spam-level-checkbox =
+    .label = Włącz filtr niechcianej poczty dla bieżącego konta
+    .accesskey = W
+move-spam-message-menuitem =
+    .label = Przenoś otrzymane wiadomości, które zostały oznaczone jako niechciane, do:
+    .accesskey = P
 set-spam-folder-menuitem =
     .label = folderu „Niechciane” konta:
     .accesskey = N
 move-message-other =
     .label = innego folderu:
     .accesskey = f
+automatic-spam-purge-checkbox =
+    .label = Niechciane wiadomości usuwaj automatycznie po upływie
+    .accesskey = u
 automatic-spam-purge-label =
     .value = dni
 spam-classification-legend = Filtrowanie i klasyfikacja

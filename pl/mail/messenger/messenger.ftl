@@ -486,6 +486,12 @@ openpgp-forget = Zapomnij hasła OpenPGP
 quota-panel-percent-used = Zajęte { $percent }%
     .title = Przydział IMAP: zajęte { $usage } z całkowitej pojemności { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Stanu niechcianej poczty
+    .accesskey = u
+
 ## Message menu.
 
 menu-mark-as-spam =
@@ -501,12 +507,30 @@ mark-not-junk-key =
 menu-recalculate-spam-score =
     .label = Uruchom filtr niechcianej poczty
     .accesskey = U
+menu-run-spam-on-folder =
+    .label = Rozpoznaj niechciane w bieżącym folderze
+    .accesskey = p
+menu-delete-spam =
+    .label = Usuń niechciane wiadomości z folderu
+    .accesskey = e
 
 ## Folder pane context.
 
 folder-context-empty-spam =
     .label = Opróżnij Niechciane
     .accesskey = e
+
+## Thread pane.
+
+column-status-spam =
+    .label = Stan niechcianej
+    .tooltiptext = Sortuj według stanu niechcianej poczty
+
+## Message header.
+
+header-spam-button =
+    .label = Niechciana
+    .tooltiptext = Oznacz tę wiadomość jako niechcianą
 
 ## Actions for the New Mail Notification
 
@@ -518,5 +542,29 @@ archive-action = Archiwizuj
 
 ## Message list.
 
+message-flag-spam = Niechciana
+menuitem-label-spam =
+    .label = Niechciana
 menuitem-label-spam-score-origin =
     .label = Źródło stanu niechcianej poczty
+menuitem-label-spam-percentage =
+    .label = Procent niechcianej poczty
+menuitem-label-spam-status =
+    .label = Stan niechcianej poczty
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Opróżnić { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Usunąć wszystkie wiadomości i podfoldery z folderu { $folder }?
+prompt-dont-ask-again = Nie pytaj ponownie.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Analiza niechcianej poczty ukończona w { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
+spam-processing-message = Przetwarzanie niechcianej poczty
