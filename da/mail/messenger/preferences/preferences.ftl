@@ -638,6 +638,12 @@ spam-read-manual-label =
 spam-read-auto-label =
     .label = Når { -brand-short-name } klassificerer dem som spam
     .accesskey = T
+spam-log-label =
+    .label = Aktivér logføring for adaptivt spamfilter
+    .accesskey = A
+spam-log-button =
+    .label = Vis log
+    .accesskey = V
 junk-description = Du kan redigere kontospecifikke spam-indstillinger i vinduet Kontoindstillinger.
 junk-marked-label =
     .label = Når meddelelser er markeret som spam:
@@ -704,6 +710,26 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Automatiske beslutninger kan tilsidesættes, hvis du manuelt slår kryptering til eller fra, når du opretter en meddelelse.
     OBS: Kryptering er altid automatisk slået til, når du svarer på en krypteret meddelelse.
+
+## DoH Section
+
+preferences-doh-header = DNS via HTTPS
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Status: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Udbyder: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Ugyldig URL
+preferences-doh-steering-status = Bruger lokal udbyder
+preferences-doh-status-active = Aktiv
+preferences-doh-status-disabled = Fra
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Ikke aktiv ({ $reason })
+preferences-doh-group-message = Aktiver DNS via HTTPS med:
 
 ## Chat Tab
 
