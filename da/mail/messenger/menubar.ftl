@@ -94,6 +94,9 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Fortryd sletning
     .tooltiptext = Fortryd sletning af valgte meddelelser
+toolbar-spam-button =
+    .label = Spam
+    .tooltiptext = Marker den valgte meddelelse som spam
 
 ## View
 

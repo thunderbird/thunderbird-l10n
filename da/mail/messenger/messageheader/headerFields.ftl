@@ -105,3 +105,10 @@ dark-message-mode-toggle-enabled =
     .title = Deaktiver mørk meddelelsestilstand
 dark-message-mode-toggle-disabled =
     .title = Aktivér mørk meddelelsestilstand
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } mener, at denne besked er spam.
+message-bar-not-spam-button =
+    .label = Ikke spam
+    .accesskey = I
