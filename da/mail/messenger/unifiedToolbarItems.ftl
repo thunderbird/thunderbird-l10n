@@ -58,6 +58,7 @@ toolbar-next =
 toolbar-spam-label = Spam
 toolbar-spam =
     .title = Marker de valgte meddelelser som spam
+toolbar-not-spam-label = Ikke spam
 toolbar-not-spam =
     .title = Marker de valgte meddelelser som ikke-spam
 toolbar-junk-label = Spam
