@@ -501,6 +501,21 @@ menu-mark-not-spam =
     .accesskey = i
 mark-not-junk-key =
     .key = j
+menu-delete-spam =
+    .label = Slet mail markeret som spam i mappen
+    .accesskey = l
+
+## Thread pane.
+
+column-status-spam =
+    .label = Spam-status
+    .tooltiptext = Sorter efter spam-status
+
+## Message header.
+
+header-spam-button =
+    .label = Spam
+    .tooltiptext = Marker denne meddelelse som spam
 
 ## Actions for the New Mail Notification
 
@@ -512,5 +527,20 @@ archive-action = Arkiver
 
 ## Message list.
 
+message-flag-spam = Spam
 menuitem-label-spam =
     .label = Spam
+menuitem-label-spam-score-origin =
+    .label = Spam-scores oprindelse
+menuitem-label-spam-percentage =
+    .label = Spam-procent
+menuitem-label-spam-status =
+    .label = Spam-status
+
+## Prompts
+
+prompt-dont-ask-again = Spørg ikke igen.
+
+## Spam commands
+
+spam-processing-message = Behandler spam-meddelelser
