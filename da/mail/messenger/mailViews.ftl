@@ -5,4 +5,5 @@
 mail-view-known-people = Personer jeg kender
 mail-view-recent = Seneste meddelelser
 mail-view-last-five-days = Sidste 5 dage
+mail-view-not-spam = Ikke spam
 mail-view-has-attachments = Har vedhæftede filer

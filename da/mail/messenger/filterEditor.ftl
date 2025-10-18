@@ -5,6 +5,11 @@
 rule-menuitem-spam =
     .label = Spam
 # Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = Spam fundet fra { $author } - { $subject } den { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = flyttet meddelelse id = { $id } til { $folder }
