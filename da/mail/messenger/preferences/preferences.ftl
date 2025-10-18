@@ -625,6 +625,7 @@ primary-password-button =
     .accesskey = S
 forms-primary-pw-fips-title = Du er i FIPS-tilstand. FIPS kræver at hovedadgangskoden er sat.
 forms-master-pw-fips-desc = Ændring af adgangskode mislykkedes
+spam-description = Angiv dine standardindstillinger for spam-håndtering. Kontospecifikke spam-indstillinger kan konfigureres under Kontoindstillinger.
 spam-marked-label =
     .label = Når meddelelser markeres som spam:
     .accesskey = N

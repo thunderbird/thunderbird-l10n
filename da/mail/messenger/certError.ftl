@@ -16,6 +16,20 @@ cert-error-not-yet-valid = Certifikatet for { $hostname } er ikke gyldigt før {
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Certifikatet for { $hostname } stammer ikke fra en kilde, der er tillid til.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-domain-mismatch =
+    .title = Forbindelsesfejl. Certifikatet for { $hostname } er ikke gyldigt for den pågældende server. Nogen forsøger muligvis at udgive sig for at være serveren, og du bør ikke fortsætte. Klik her for at åbne sikkerhedsindstillingerne.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-after (string) - Certificate is not valid after this time.
+cert-error-inline-expired =
+    .title = Forbindelsesfejl. Certifikatet for { $hostname } udløb den { $not-after }. Klik her for at åbne sikkerhedsindstillingerne.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-before (string) - Certificate is not valid before this time.
+cert-error-inline-not-yet-valid =
+    .title = Forbindelsesfejl. Certifikatet for { $hostname } er ikke gyldigt før { $not-before }. Klik her for at åbne sikkerhedsindstillingerne.
 certificate-check-fetch-button = Hent certifikat
 certificate-check-view-button = Vis certifikat
 certificate-check-add-exception-button = Tilføj undtagelse

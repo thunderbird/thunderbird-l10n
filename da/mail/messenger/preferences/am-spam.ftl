@@ -5,6 +5,7 @@
 spam-settings-title = Spam-indstillinger
 dialog-header-title =
     .value = Spam-indstillinger
+training-description-spam = Hvis funktionen aktiveres, skal du først lære { -brand-short-name } at identificere spam ved at klassificere meddelelser som spam og ikke-spam ved hjælp af spam-knappen. Herefter vil { -brand-short-name } kunne markere spam automatisk.
 spam-level-checkbox =
     .label = Aktiver adaptiv spamkontrol for denne konto
     .accesskey = A
