@@ -730,6 +730,39 @@ preferences-doh-status-disabled = Fra
 #   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
 preferences-doh-status-not-active = Ikke aktiv ({ $reason })
 preferences-doh-group-message = Aktiver DNS via HTTPS med:
+preferences-doh-expand-section =
+    .tooltiptext = Flere oplysninger
+preferences-doh-setting-default =
+    .label = Standardbeskyttelse
+    .accesskey = S
+preferences-doh-default-desc = { -brand-short-name } beslutter, hvornår der skal anvendes sikker DNS for at beskytte dit privatliv.
+preferences-doh-default-detailed-desc-1 = Brug sikker DNS i områder, hvor det er tilgængeligt
+preferences-doh-default-detailed-desc-2 = Brug din standard DNS-resolver, hvis der opstår problemer med den sikre DNS-udbyder.
+preferences-doh-default-detailed-desc-3 = Brug om muligt en lokal udbyder
+preferences-doh-default-detailed-desc-4 = Slå fra, når VPN, forældrekontrol eller virksomhedspolitikker er slået til
+preferences-doh-default-detailed-desc-5 = Slå fra, når et netværk fortæller { -brand-short-name }, at sikker DNS ikke bør anvendes
+preferences-doh-enabled-desc = Du bestemmer, hvornår sikker DNS skal anvendes og vælger selv udbyder.
+preferences-doh-enabled-detailed-desc-1 = Brug den udbyder, du vælger
+preferences-doh-enabled-detailed-desc-2 = Brug kun din standard DNS-resolver, hvis der er problemer med sikker DNS
+preferences-doh-strict-desc = { -brand-short-name } vil altid anvende sikker DNS. Du vil se en sikkerhedsadvarsel, før vi anvender din system-DNS.
+preferences-doh-strict-detailed-desc-1 = Brug kun den udbyder, du vælger
+preferences-doh-strict-detailed-desc-2 = Advar altid, hvis sikker DNS ikke er tilgængelig
+preferences-doh-strict-detailed-desc-3 = Hvis sikker DNS ikke er tilgængelig, vil websteder ikke indlæses eller fungere korrekt
+preferences-doh-setting-off =
+    .label = Fra
+    .accesskey = F
+preferences-doh-off-desc = Brug din standard DNS-resolver
+preferences-doh-checkbox-warn =
+    .label = Advar, hvis en tredjepart aktivt forhindrer sikker DNS
+    .accesskey = A
+preferences-doh-select-resolver = Vælg udbyder:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (standard)
+preferences-doh-url-custom =
+    .label = Tilpasset
+    .accesskey = e
 
 ## Chat Tab
 
