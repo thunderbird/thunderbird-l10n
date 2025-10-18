@@ -487,3 +487,8 @@ delete-action = Slet
 mark-as-starred-action = Marker med stjerne
 mark-as-spam-action = Marker som spam
 archive-action = Arkiver
+
+## Message list.
+
+menuitem-label-spam =
+    .label = Spam

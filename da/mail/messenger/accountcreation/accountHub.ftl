@@ -60,6 +60,8 @@ account-hub-protocol-label = Protokol
 account-hub-hostname-label = Værtsnavn
 account-hub-result-hostname-label = Værtsnavn
     .title = Værtsnavn
+account-hub-result-socket-type-label = Forbindelsessikkerhed
+account-hub-on-port-label = Port
 account-hub-result-authentication-label = Godkendelse
     .title = Godkendelse
 account-hub-port-label = Port
@@ -116,6 +118,10 @@ address-book-finding-remote-address-books = Søger efter adressebøger…
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = { $url } er kendt for at være inkompatibel med { -brand-short-name }.
 address-book-carddav-connection-error = Kunne ikke forbinde.
+account-hub-email-setup-ews = Serverindstillinger
+account-hub-result-host-url-label = EWS endpoint-URL
+account-hub-result-unknown-hostname = Ukendt værtsnavn
+account-hub-result-unknown-cert = Ikke-verificeret certifikat
 account-hub-result-username-label = Brugernavn
     .title = Brugernavn
 account-hub-name-label = Fulde navn
@@ -175,6 +181,7 @@ account-hub-port-error-text = Port skal være mellem 1 og 65535
 account-hub-username-error-text = Brugernavn skal udfyldes
     .title = Brugernavn skal udfyldes
 account-hub-oauth-pending = Venter på godkendelse i login-vindue…
+account-hub-addon-install-button = Installer
 account-hub-addon-install-needed = { -brand-short-name } understøtter ikke denne server som standard. For at få adgang til Exchange-mail, skal du <a data-l10n-name="addon-install">installere en tredjeparts-tilføjelse som fx Owl (kræver betaling).</a>
 account-hub-addon-error = Installation af tilføjelsen mislykkedes. Prøv igen, eller kontakt udvikleren for at få hjælp.
 account-hub-security-warning = <span data-l10n-name="security-warning">Advarsel: Usikker mailserver registreret.</span> Denne server mangler kryptering, hvilket eksponerer din adgangskode og dine data. Kontakt din administrator for at sikre forbindelsen eller fortsæt på egen risiko. <a data-l10n-name="faq-link">Se Ofte Stillede Spørgsmål for flere detaljer.</a>
