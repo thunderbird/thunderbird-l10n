@@ -16,3 +16,21 @@ cert-error-not-yet-valid = Certifikatet for { $hostname } er ikke gyldigt før {
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Certifikatet for { $hostname } stammer ikke fra en kilde, der er tillid til.
+certificate-check-fetch-button = Hent certifikat
+certificate-check-view-button = Vis certifikat
+certificate-check-add-exception-button = Tilføj undtagelse
+certificate-check-remove-exception-button = Fjern undtagelse
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = Henter certifikatet for { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Certifikatet for { $hostname } ser ud til at være gyldigt.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = Kunne ikke hente certifikatet for { $hostname }.
+certificate-check-exception-added = Certifikatundtagelse tilføjet.
+certificate-check-exception-removed = Certifikatundtagelse fjernet.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Der findes allerede en certifikatundtagelse for { $hostname }.
