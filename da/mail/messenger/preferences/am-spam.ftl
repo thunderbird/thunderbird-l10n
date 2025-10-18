@@ -5,6 +5,9 @@
 spam-settings-title = Spam-indstillinger
 dialog-header-title =
     .value = Spam-indstillinger
+spam-level-checkbox =
+    .label = Aktiver adaptiv spamkontrol for denne konto
+    .accesskey = A
 move-spam-message-menuitem =
     .label = Flyt nye spam-meddelelser til:
     .accesskey = F
