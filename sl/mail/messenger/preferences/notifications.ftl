@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 notifications-dialog-title = Prilagodi opozorilo o novi pošti
-customize-alert-description = Izberite, katera polja naj bodo prikazana v obvestilu z opozorilom:
+customize-alert-description = Izberite, katera polja naj se prikažejo v obvestilu:
 preview-text-checkbox =
     .label = Besedilo predogleda sporočila
     .accesskey = B

@@ -512,6 +512,12 @@ menu-mark-not-spam =
 mark-not-junk-key =
     .key = n
 
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Izprazni neželeno pošto
+    .accesskey = I
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Označi kot prebrano
@@ -529,3 +535,7 @@ prompt-empty-folder-title = Želite izprazniti mapo { $folder }?
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-message = Ali želite izbrisati vsa sporočila in podmape v mapi { $folder }?
 prompt-dont-ask-again = Ne sprašuj več.
+
+## Spam commands
+
+spam-processing-message = Obdelovanje neželene pošte

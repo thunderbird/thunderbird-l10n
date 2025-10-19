@@ -22,6 +22,7 @@ automatic-spam-purge-label =
 allowlist-header-label =
     .value = Ne označi pošte samodejno kot neželeno, če je pošiljatelj v:
     .accesskey = d
+isp-warning-description = Če je možnost omogočena, bo { -brand-short-name } samodejno obravnaval sporočila, označena s tem zunanjim razvrščevalcem, kot neželena.
 spam-classification-legend = Izbira
 spam-actions-legend = Cilj in ohranitev
 global-spam-preferences-button =
