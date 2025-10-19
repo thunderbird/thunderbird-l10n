@@ -304,7 +304,7 @@
 <!ENTITY replyMsgCmd.accesskey "Y">
 <!ENTITY replyMsgCmd.key "r">
 <!ENTITY replySenderCmd.label "Yalnızca göndereni yanıtla">
-<!ENTITY replySenderCmd.accesskey "r">
+<!ENTITY replySenderCmd.accesskey "Y">
 <!ENTITY replyNewsgroupCmd2.label "Hesap Grubuna Devam İletisi">
 <!ENTITY replyNewsgroupCmd2.accesskey "D">
 <!ENTITY replyToAllMsgCmd.label "Hepsini yanıtla">
@@ -345,11 +345,11 @@
 <!ENTITY moveToFolderAgain.label "Yeniden taşı">
 <!ENTITY moveToFolderAgain.accesskey "i">
 <!ENTITY moveToFolderAgainCmd.key "m">
-<!ENTITY killThreadMenu.label "Diziyi göz ardı et">
+<!ENTITY killThreadMenu.label "Diziyi görmezden gel">
 <!ENTITY killThreadMenu.accesskey "D">
 <!ENTITY killThreadMenu.key "k">
-<!ENTITY killSubthreadMenu.label "Alt diziyi göz ardı et">
-<!ENTITY killSubthreadMenu.accesskey "d">
+<!ENTITY killSubthreadMenu.label "Alt diziyi görmezden gel">
+<!ENTITY killSubthreadMenu.accesskey "A">
 <!ENTITY killSubthreadMenu.key "k">
 <!ENTITY watchThreadMenu.label "Diziyi izle">
 <!ENTITY watchThreadMenu.accesskey "z">
@@ -370,20 +370,20 @@
 <!ENTITY markMenu.accesskey "İ">
 <!ENTITY toggleReadCmd.key "m">
 <!ENTITY markAsReadCmd.label "Okundu olarak">
-<!ENTITY markAsReadCmd.accesskey "n">
+<!ENTITY markAsReadCmd.accesskey "O">
 <!ENTITY markAsUnreadCmd.label "Okunmadı olarak">
-<!ENTITY markAsUnreadCmd.accesskey "n">
+<!ENTITY markAsUnreadCmd.accesskey "k">
 <!ENTITY markThreadAsReadCmd.label "Diziyi okundu olarak">
-<!ENTITY markThreadAsReadCmd.accesskey "k">
+<!ENTITY markThreadAsReadCmd.accesskey "D">
 <!ENTITY markThreadAsReadCmd.key "r">
 <!ENTITY markReadByDateCmd.label "Tarihe göre okundu olarak…">
 <!ENTITY markReadByDateCmd.accesskey "T">
 <!ENTITY markReadByDateCmd.key "c">
 <!ENTITY markAllReadCmd.label "Tümünü okundu olarak">
-<!ENTITY markAllReadCmd.accesskey "T">
+<!ENTITY markAllReadCmd.accesskey "m">
 <!ENTITY markAllReadCmd.key "c">
 <!ENTITY markStarredCmd.label "Yıldız ekle">
-<!ENTITY markStarredCmd.accesskey "k">
+<!ENTITY markStarredCmd.accesskey "Y">
 <!ENTITY markStarredCmd.key "S">
 <!ENTITY markAsJunkCmd.label "Gereksiz">
 <!ENTITY markAsJunkCmd.accesskey "G">
@@ -669,7 +669,7 @@
      now, both menu items can't be visible at the same time, but should someone
      enable copy/paste of message, this key would probably need to be changed. -->
 <!ENTITY contextOpenNewTab.label "İletiyi yeni sekmede aç">
-<!ENTITY contextOpenNewTab.accesskey "ç">
+<!ENTITY contextOpenNewTab.accesskey "s">
 <!ENTITY contextOpenConversation.label "İletiyi dizi görünümünde aç">
 <!ENTITY contextOpenConversation.accesskey "d">
 <!ENTITY contextOpenContainingFolder.label "İletiyi ilgili klasörde aç">

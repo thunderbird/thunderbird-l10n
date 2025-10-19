@@ -108,6 +108,7 @@ dark-message-mode-toggle-disabled =
 
 ## Spam filter
 
+message-bar-spam = { -brand-short-name } bu iletinin spam olduğunu düşünüyor.
 message-bar-not-spam-button =
     .label = Spam değil
     .accesskey = d

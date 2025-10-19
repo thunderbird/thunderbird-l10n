@@ -491,8 +491,14 @@ sort-by-spam-status =
 
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Spam olarak
+    .accesskey = S
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Spam değil olarak
+    .accesskey = m
 mark-not-junk-key =
     .key = j
 menu-recalculate-spam-score =
@@ -530,6 +536,8 @@ archive-action = Arşivle
 message-flag-spam = Spam
 menuitem-label-spam =
     .label = Spam
+menuitem-label-spam-score-origin =
+    .label = Spam puanının kaynağı
 menuitem-label-spam-percentage =
     .label = Spam yüzdesi
 menuitem-label-spam-status =
@@ -537,6 +545,9 @@ menuitem-label-spam-status =
 
 ## Prompts
 
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = { $folder } boşaltılsın mı?
 # Variables:
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-message = { $folder } klasöründeki tüm iletiler ve alt klasörler silinsin mi?

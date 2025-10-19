@@ -24,3 +24,6 @@ ews-applicationid-label =
 ews-redirecturi-label =
     .value = Yönlendirme URI’si:
     .accesskey = Y
+ews-oauthscopes-label =
+    .value = OAuth kapsamları:
+    .accesskey = O
