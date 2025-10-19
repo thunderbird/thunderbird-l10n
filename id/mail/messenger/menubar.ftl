@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Kembalikan
     .tooltiptext = Batalkan penghapusan pesan yang dipilih
+toolbar-spam-button =
+    .label = Spam
+    .tooltiptext = Tandai pesan yang dipilih sebagai spam
+toolbar-not-spam-button =
+    .label = Bukan Spam
+    .tooltiptext = Tandai pesan yang dipilih sebagai bukan spam
 
 ## View
 

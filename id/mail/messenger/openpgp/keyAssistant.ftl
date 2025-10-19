@@ -48,6 +48,8 @@ openpgp-key-assistant-key-fingerprint = Sidik jari
 # $count (Number) - Number of key sources.
 openpgp-key-assistant-key-source = Sumber
 openpgp-key-assistant-key-collected-attachment = lampiran surel
+# Autocrypt is the name of a standard.
+openpgp-key-assistant-key-collected-autocrypt = Enkripsi otomatis header
 openpgp-key-assistant-key-collected-keyserver = keyserver
 # Web Key Directory (WKD) is a concept.
 openpgp-key-assistant-key-collected-wkd = Direktori Kunci Web
