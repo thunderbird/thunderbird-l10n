@@ -47,6 +47,7 @@ compose-html-style-title = Slog HTML
 composition-addressing-header = Naslavljanje
 privacy-main-header = Zasebnost
 privacy-passwords-header = Gesla
+privacy-spam-header = Neželena pošta
 privacy-junk-header = Neželeno
 collection-header = Zbiranje in uporaba podatkov { -brand-short-name(sklon: "rodilnik") }
 collection-description = Trudimo se, da vam ponudimo izbiro in da zbiramo samo tisto, kar potrebujemo za razvoj in izboljšave { -brand-short-name }a za vse uporabnike. Pred sprejemanjem osebnih podatkov vas vedno vprašamo za dovoljenje.
@@ -248,8 +249,8 @@ automatic-updates-label =
     .label = samodejno namešča posodobitve (priporočeno za večjo varnost)
     .accesskey = s
 check-updates-label =
-    .label = Preverjaj posodobitve, vendar mi prepusti odločitev o nameščanju
-    .accesskey = P
+    .label = preverja posodobitve, vendar mi prepusti odločitev o nameščanju
+    .accesskey = p
 update-application-background-enabled =
     .label = Ko { -brand-short-name } ni zagnan
     .accesskey = K
@@ -627,6 +628,23 @@ primary-password-button =
     .accesskey = S
 forms-primary-pw-fips-title = Trenutno ste v načinu FIPS. FIPS zahteva glavno geslo, ki ni prazno.
 forms-master-pw-fips-desc = Sprememba gesla neuspešna
+spam-description = Nastavite privzete nastavitve za neželeno pošto. Nastavitve neželene pošte za posamezni račun lahko prilagodite v nastavitvah računa.
+spam-marked-label =
+    .label = Ko so sporočila označena kot neželena:
+    .accesskey = K
+spam-move-label =
+    .label = jih prestavi v mapo "Neželeno" tega računa
+    .accesskey = p
+spam-delete-label =
+    .label = jih izbriši
+    .accesskey = i
+spam-read-description = Označi sporočila kot prebrana,
+spam-read-manual-label =
+    .label = ko jih ročno označite kot neželena
+    .accesskey = r
+spam-read-auto-label =
+    .label = ko jih { -brand-short-name } prepozna kot neželena
+    .accesskey = T
 junk-description = Nastavite svoje privzete nastavitve za neželeno pošto. Nastavitve neželene pošte za posamezni račun lahko prilagodite v nastavitvah računa.
 junk-marked-label =
     .label = Ko so sporočila označena kot neželena:
@@ -696,6 +714,59 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = DNS prek HTTPS
+preferences-doh-description = DNS (sistem domenskih imen) prek HTTPS pošilja vaše zahtevke za imena domen po šifrirani povezavi, kar ustvari zavarovan DNS in drugim otežuje vpogled v to, katera spletna mesta obiskujete.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Stanje: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Ponudnik: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Neveljaven URL
+preferences-doh-status-active = dejavno
+preferences-doh-status-disabled = izključeno
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = nedejavno ({ $reason })
+preferences-doh-group-message = Omogoči DNS preko HTTPS. Raven zaščite:
+preferences-doh-expand-section =
+    .tooltiptext = Več informacij
+preferences-doh-setting-default =
+    .label = Privzeta
+    .accesskey = P
+preferences-doh-default-desc = { -brand-short-name } naj odloči, kdaj naj zaščiti vašo zasebnost z uporabo zavarovanega DNS.
+preferences-doh-default-detailed-desc-1 = uporabljaj zavarovan DNS v regijah, kjer je na voljo
+preferences-doh-default-detailed-desc-2 = če pride do težave s ponudnikom zavarovanega DNS, uporabi privzeti razreševalnik DNS
+preferences-doh-default-detailed-desc-3 = če je mogoče, uporabi lokalnega ponudnika
+preferences-doh-default-detailed-desc-4 = izklopi, ko je dejaven VPN, starševski nadzor ali pravilniki za podjetja
+preferences-doh-default-detailed-desc-5 = izklopi, ko omrežje sporoči { -brand-short-name(sklon: "dajalnik") }, naj ne uporablja zavarovanega DNS
+preferences-doh-setting-enabled =
+    .label = Okrepljena
+    .accesskey = k
+preferences-doh-enabled-desc = Odločajte sami, kdaj uporabiti zavarovan DNS, in izberite ponudnika.
+preferences-doh-enabled-detailed-desc-1 = uporabljaj ponudnika po izbiri
+preferences-doh-enabled-detailed-desc-2 = privzeti razreševalnik DNS uporabi samo, če pride do težav z zavarovanim
+preferences-doh-setting-strict =
+    .label = Najmočnejša
+    .accesskey = N
+preferences-doh-strict-desc = { -brand-short-name } naj vedno uporablja zavarovan DNS. Preden se uporabi sistemski DNS, naj se prikaže opozorilo.
+preferences-doh-strict-detailed-desc-1 = uporabljaj samo izbranega ponudnika
+preferences-doh-strict-detailed-desc-2 = vedno opozori, če zavarovani DNS ni na voljo
+preferences-doh-strict-detailed-desc-3 = če zavarovan DNS ne bo na voljo, se strani ne bodo nalagale ali delovale pravilno
+preferences-doh-setting-off =
+    .label = Izklop
+    .accesskey = I
+preferences-doh-off-desc = Uporabljaj privzeti razreševalnik DNS.
+preferences-doh-checkbox-warn =
+    .label = Opozori, če tretja oseba aktivno preprečuje uporabo zavarovanega DNS
+    .accesskey = O
+preferences-doh-select-resolver = Izberite ponudnika:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (privzet)
 preferences-doh-url-custom =
     .label = Po meri
     .accesskey = m
