@@ -764,6 +764,18 @@ preferences-doh-strict-detailed-desc-3 = Si el DNS seguro no está disponible, l
 preferences-doh-setting-off =
     .label = Desactivado
     .accesskey = D
+preferences-doh-off-desc = Usar la resolución de DNS predeterminada
+preferences-doh-checkbox-warn =
+    .label = Advertir si un tercero impide activamente el DNS seguro
+    .accesskey = A
+preferences-doh-select-resolver = Seleccionar proveedor:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (Predeterminado)
+preferences-doh-url-custom =
+    .label = Personalizado
+    .accesskey = P
 
 ## Chat Tab
 
