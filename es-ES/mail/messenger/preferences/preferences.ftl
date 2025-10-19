@@ -47,6 +47,7 @@ compose-html-style-title = Estilo HTML
 composition-addressing-header = Direcciones
 privacy-main-header = Privacidad
 privacy-passwords-header = Contraseña
+privacy-spam-header = Mensaje no deseado
 privacy-junk-header = Correo basura
 collection-header = Recopilación y uso de datos de { -brand-short-name }
 collection-description = Nos esforzamos en proporcionarle opciones y recopilar solo lo necesario para proporcionarle { -brand-short-name } y mejorarlo para todos. Siempre solicitamos permiso antes de recibir información personal.
@@ -623,6 +624,32 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = En este momento está en modo FIPS. FIPS exige una contraseña principal no vacía.
 forms-master-pw-fips-desc = Cambio de contraseña fallido
+spam-description = Establezca la configuración predeterminada para el correo no deseado. La configuración específica de cada cuenta puede realizarse en Configuración de las cuentas.
+spam-marked-label =
+    .label = Cuando los mensajes se marcan como no deseados:
+    .accesskey = C
+spam-move-label =
+    .label = Moverlos a la carpeta "Correo no deseado" de la cuenta
+    .accesskey = o
+spam-delete-label =
+    .label = Eliminarlos
+    .accesskey = E
+spam-read-description = Marcar mensajes como leídos
+spam-read-manual-label =
+    .label = Cuando se marcan manualmente como no deseados
+    .accesskey = C
+spam-read-auto-label =
+    .label = Cuando { -brand-short-name } determina que no son deseados
+    .accesskey = t
+spam-log-label =
+    .label = Activar el registro del filtro adaptativo de correo no deseado
+    .accesskey = A
+spam-log-button =
+    .label = Mostrar el registro
+    .accesskey = M
+reset-spam-button =
+    .label = Reiniciar los datos de entrenamiento
+    .accesskey = R
 junk-description = Establezca su configuración predeterminada para el correo no deseado. La configuración específica de cada cuenta puede realizarse en Configuración de las cuentas.
 junk-marked-label =
     .label = Cuando los mensajes se marcan como basura:
@@ -689,6 +716,54 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Las decisiones automáticas se pueden anular activando o desactivando manualmente el cifrado al redactar un mensaje.
     Nota: el cifrado siempre se activa automáticamente al responder a un mensaje cifrado.
+
+## DoH Section
+
+preferences-doh-header = DNS sobre HTTPS
+preferences-doh-description = El sistema de nombres de dominio (DNS) sobre HTTPS envía las peticiones de un nombre de dominio a través de una conexión cifrada, lo que proporciona un DNS seguro y hace más difícil que otros vean a qué sitio web está tratando de acceder.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Estado: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Proveedor: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = URL no válida
+preferences-doh-steering-status = Usando un proveedor local
+preferences-doh-status-active = Activo
+preferences-doh-status-disabled = Desactivado
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Inactivo ({ $reason })
+preferences-doh-group-message = Activar DNS sobre HTTPS usando:
+preferences-doh-expand-section =
+    .tooltiptext = Más información
+preferences-doh-setting-default =
+    .label = Protección predeterminada
+    .accesskey = P
+preferences-doh-default-desc = { -brand-short-name } decide cuándo usar DNS seguro para proteger su privacidad.
+preferences-doh-default-detailed-desc-1 = Usar DNS seguro en regiones donde esté disponible
+preferences-doh-default-detailed-desc-2 = Usar la resolución DNS predeterminada si hay un problema con el proveedor de DNS seguro
+preferences-doh-default-detailed-desc-3 = Usar un proveedor local si es posible
+preferences-doh-default-detailed-desc-4 = Desactivar cuando una VPN, control parental o políticas de empresa estén activas
+preferences-doh-default-detailed-desc-5 = Desactivar cuando una red indique a { -brand-short-name } que no debería usar DNS seguro
+preferences-doh-setting-enabled =
+    .label = Protección reforzada
+    .accesskey = P
+preferences-doh-enabled-desc = Usted controla cuándo usar DNS seguro y elige su proveedor.
+preferences-doh-enabled-detailed-desc-1 = Usar el proveedor seleccionado
+preferences-doh-enabled-detailed-desc-2 = Usar la resolución de DNS predeterminada sólo si hay un problema con el DNS seguro
+preferences-doh-setting-strict =
+    .label = Máxima protección
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } siempre usará un DNS seguro. Se mostrará una advertencia de riesgo de seguridad antes de que use el DNS del sistema.
+preferences-doh-strict-detailed-desc-1 = Solo usar el proveedor seleccionado
+preferences-doh-strict-detailed-desc-2 = Avisar siempre si el DNS seguro no está disponible
+preferences-doh-strict-detailed-desc-3 = Si el DNS seguro no está disponible, los sitios no se cargarán ni funcionarán correctamente.
+preferences-doh-setting-off =
+    .label = Desactivado
+    .accesskey = D
 
 ## Chat Tab
 

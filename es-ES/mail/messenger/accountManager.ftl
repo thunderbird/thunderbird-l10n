@@ -33,3 +33,7 @@ outgoing-server-section-name = Servidor de salida
 outgoing-server-settings-title = Configuración del servidor de salida
 outgoing-server-settings-description = Al gestionar sus identidades, puede utilizar un servidor de esta lista seleccionándolo como Servidor de salida, o puede utilizar el servidor predeterminado de esta lista seleccionando «Utilizar servidor predeterminado».
 outgoing-server-type = Tipo de servidor:
+panel-settings-spam = Configuración de correo no deseado
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Se ha detectado un problema con la configuración del correo no deseado en la cuenta { $account }. ¿Quiere revisarla antes de guardar los cambios?

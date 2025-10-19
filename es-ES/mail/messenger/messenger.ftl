@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista compacta
     .accesskey = c
 
+## Folder names
+
+folder-name-spam = Mensaje no deseado
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Archivar
     .tooltiptext = Archivar
+context-menu-mark-spam =
+    .aria-label = Marcar como mensaje no deseado
+    .tooltiptext = Marcar como mensaje no deseado
+context-menu-mark-not-spam =
+    .aria-label = Marcar como mensaje legítimo
+    .tooltiptext = Marcar como mensaje legítimo
 context-menu-mark-junk =
     .aria-label = Marcar como basura
     .tooltiptext = Marcar como basura
@@ -473,12 +483,51 @@ openpgp-forget = Olvidar frases de contraseña de OpenPGP
 quota-panel-percent-used = { $percent }% utilizado
     .title = Cuota IMAP: { $usage } utilizado de un total de { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Estado de correo no deseado
+    .accesskey = E
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Como correo no deseado
+    .accesskey = n
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Como correo legítimo
+    .accesskey = l
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Ejecutar controles de correo no deseado
+    .accesskey = c
+menu-run-spam-on-folder =
+    .label = Ejecutar controles de correo no deseado en la carpeta
+    .accesskey = E
+menu-delete-spam =
+    .label = Eliminar mensajes marcados como no deseados en la carpeta
+    .accesskey = E
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Eliminar los mensajes no deseados
+    .accesskey = E
+
+## Thread pane.
+
+column-status-spam =
+    .label = Estado de mensaje no deseado
+    .tooltiptext = Ordenar por estado de mensaje no deseado
+
+## Message header.
+
+header-spam-button =
+    .label = Mensaje no deseado
+    .tooltiptext = Marcar este mensaje como no deseado
 
 ## Actions for the New Mail Notification
 
@@ -487,3 +536,32 @@ delete-action = Eliminar
 mark-as-starred-action = Marcar con estrella
 mark-as-spam-action = Marcar como correo no deseado
 archive-action = Archivar
+
+## Message list.
+
+message-flag-spam = Mensaje no deseado
+menuitem-label-spam =
+    .label = Mensaje no deseado
+menuitem-label-spam-score-origin =
+    .label = Origen de la puntuación del correo no deseado
+menuitem-label-spam-percentage =
+    .label = Porcentaje de correo no deseado
+menuitem-label-spam-status =
+    .label = Estado del mensaje no deseado
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = ¿Vaciar { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = ¿Eliminar todos los mensajes y subcarpetas de la carpeta { $folder }?
+prompt-dont-ask-again = No volver a preguntar.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Análisis de correo no deseado { NUMBER($percentage, maximumSignificantDigits: 2, style: "por ciento") } completado
+spam-processing-message = Procesando mensajes de correo no deseado

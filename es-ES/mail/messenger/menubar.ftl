@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Recuperar
     .tooltiptext = Recuperar mensajes seleccionados
+toolbar-spam-button =
+    .label = Mensaje no deseado
+    .tooltiptext = Marcar los mensajes seleccionados como correo no deseado
+toolbar-not-spam-button =
+    .label = Mensaje legítimo
+    .tooltiptext = Marcar los mensajes seleccionados como correo legítimo
 
 ## View
 
