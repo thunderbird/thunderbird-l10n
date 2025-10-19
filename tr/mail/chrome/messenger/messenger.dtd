@@ -321,7 +321,7 @@
 <!ENTITY forwardAsInline.label "İleti içinde">
 <!ENTITY forwardAsInline.accesskey "d">
 <!ENTITY forwardAsAttachmentCmd.label "Ek olarak">
-<!ENTITY forwardAsAttachmentCmd.accesskey "E">
+<!ENTITY forwardAsAttachmentCmd.accesskey "k">
 <!ENTITY editAsNewMsgCmd.label "Yeni ileti olarak düzenle">
 <!ENTITY editAsNewMsgCmd.accesskey "o">
 <!ENTITY editAsNewMsgCmd.key "e">

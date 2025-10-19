@@ -31,7 +31,7 @@
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "İletiyi taşı">
 <!ENTITY copyMessage.label "İletiyi kopyala">
-<!ENTITY forwardTo.label "İlet">
+<!ENTITY forwardTo.label "İletiyi ilet">
 <!ENTITY replyWithTemplate.label "Şablonla yanıtla">
 <!ENTITY markMessageRead.label "Okundu olarak işaretle">
 <!ENTITY markMessageUnread.label "Okunmadı olarak işaretle">
