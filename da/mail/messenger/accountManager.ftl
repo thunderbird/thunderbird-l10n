@@ -34,3 +34,6 @@ outgoing-server-settings-title = Udgående serverindstillinger
 outgoing-server-settings-description = Når du administrerer dine identiteter, kan du bruge en server fra denne liste ved at vælge den som Udgående server, eller du kan bruge standardserveren fra denne liste ved at vælge "Brug standardserver".
 outgoing-server-type = Servertype:
 panel-settings-spam = Spam-indstillinger
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Der er registreret et problem med spam-indstillingerne for { $account }. Vil du gennemgå dem, før du gemmer ændringerne?

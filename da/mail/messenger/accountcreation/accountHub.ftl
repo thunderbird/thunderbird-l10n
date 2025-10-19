@@ -118,8 +118,11 @@ address-book-finding-remote-address-books = Søger efter adressebøger…
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = { $url } er kendt for at være inkompatibel med { -brand-short-name }.
 address-book-carddav-connection-error = Kunne ikke forbinde.
+address-book-ldap-duplicate-error = LDAP-katalognavnet findes allerede. Indtast venligst et andet mappenavn.
+address-book-ldap-creation-error = Kunne ikke oprette LDAP-katalog.
 account-hub-email-setup-ews = Serverindstillinger
 account-hub-result-host-url-label = EWS endpoint-URL
+account-hub-email-credentials-confirmation = Kontokonfiguration
 account-hub-result-unknown-hostname = Ukendt værtsnavn
 account-hub-result-unknown-cert = Ikke-verificeret certifikat
 account-hub-result-username-label = Brugernavn

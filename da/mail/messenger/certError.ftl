@@ -30,6 +30,10 @@ cert-error-inline-expired =
 #   $not-before (string) - Certificate is not valid before this time.
 cert-error-inline-not-yet-valid =
     .title = Forbindelsesfejl. Certifikatet for { $hostname } er ikke gyldigt før { $not-before }. Klik her for at åbne sikkerhedsindstillingerne.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-untrusted-default =
+    .title = Forbindelsesfejl. Certifikatet for { $hostname } kommer ikke fra en kilde, der er tillid til. Klik her for at åbne sikkerhedsindstillingerne.
 certificate-check-fetch-button = Hent certifikat
 certificate-check-view-button = Vis certifikat
 certificate-check-add-exception-button = Tilføj undtagelse

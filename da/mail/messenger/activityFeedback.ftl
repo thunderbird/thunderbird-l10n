@@ -12,3 +12,19 @@ looking-for-messages-account = Søger efter nye meddelelser på { $accountName }
 # Variables:
 # $folderName (String) - The folder's name.
 looking-for-messages-folder = Søger efter nye meddelelser i { $folderName }…
+# Feedback message shown in the status bar while we're deleting messages in a
+# specific folder (and waiting for the remote operation to complete).
+# Variables:
+# $number (Number) - Number of messages being deleted.
+# $folderName (String) - The folder's name.
+deleting-message =
+    { $number ->
+        [one] Sletter én meddelelse fra { $folderName }…
+       *[other] Sletter { $number } meddelelser fra { $folderName }…
+    }
+# Feedback message shown in the status bar while we're deleting messages in a
+# specific folder (and waiting for the remote operation to complete).
+# Variables:
+# $number (Number) - Number of messages being deleted.
+# $folderName (String) - The folder's name.
+deleting-messages = Sletter { $number } meddelelse(r) fra { $folderName }…

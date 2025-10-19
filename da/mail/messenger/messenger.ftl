@@ -501,9 +501,21 @@ menu-mark-not-spam =
     .accesskey = i
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Kør spam-kontrol
+    .accesskey = k
+menu-run-spam-on-folder =
+    .label = Kør spam-kontrol på mappe
+    .accesskey = s
 menu-delete-spam =
     .label = Slet mail markeret som spam i mappen
     .accesskey = l
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Tøm spam-mappen
+    .accesskey = ø
 
 ## Thread pane.
 
@@ -539,8 +551,17 @@ menuitem-label-spam-status =
 
 ## Prompts
 
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Tøm { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Slet alle meddelelser og undermapper i mappen { $folder }?
 prompt-dont-ask-again = Spørg ikke igen.
 
 ## Spam commands
 
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Spam-analyse { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } fuldført
 spam-processing-message = Behandler spam-meddelelser
