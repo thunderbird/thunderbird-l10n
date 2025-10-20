@@ -628,6 +628,7 @@ primary-password-button =
     .accesskey = B
 forms-primary-pw-fips-title = Þú ert núna í FIPS-ham. FIPS má ekki hafa tómt aðallykilorð.
 forms-master-pw-fips-desc = Breyting á lykilorði mistókst
+spam-description = Stilltu sjálfgefnar ruslpóstsstillingar þínar. Stillingar fyrir ruslpóst fyrir ákveðinn reikning er hægt að stilla í stillingum reiknings.
 junk-description = Stilla sjálfgefnar ruslpóstsstillingar. Stillingar fyrir ruslpóst fyrir ákveðinn reikning er hægt að stilla í stillingum reiknings.
 junk-marked-label =
     .label = Þegar skilaboð eru merkt sem rusl:
