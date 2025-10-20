@@ -629,6 +629,31 @@ primary-password-button =
 forms-primary-pw-fips-title = Þú ert núna í FIPS-ham. FIPS má ekki hafa tómt aðallykilorð.
 forms-master-pw-fips-desc = Breyting á lykilorði mistókst
 spam-description = Stilltu sjálfgefnar ruslpóstsstillingar þínar. Stillingar fyrir ruslpóst fyrir ákveðinn reikning er hægt að stilla í stillingum reiknings.
+spam-marked-label =
+    .label = Þegar skilaboð eru merkt sem ruslpóstur:
+    .accesskey = k
+spam-move-label =
+    .label = Færa þau í „Ruslpóstur“-möppuna á reikningnum
+    .accesskey = F
+spam-delete-label =
+    .label = Eyða þeim
+    .accesskey = E
+spam-read-description = Merkja skilaboð sem lesin
+spam-read-manual-label =
+    .label = Þegar merkt er handvirkt sem rusl
+    .accesskey = m
+spam-read-auto-label =
+    .label = Þegar { -brand-short-name } ákvarðar að þau séu rusl
+    .accesskey = r
+spam-log-label =
+    .label = Virkja aðlagandi ruslsíuskráningu
+    .accesskey = k
+spam-log-button =
+    .label = Sýna atvikaskrá
+    .accesskey = S
+reset-spam-button =
+    .label = Endurstilla þjálfunargögn
+    .accesskey = r
 junk-description = Stilla sjálfgefnar ruslpóstsstillingar. Stillingar fyrir ruslpóst fyrir ákveðinn reikning er hægt að stilla í stillingum reiknings.
 junk-marked-label =
     .label = Þegar skilaboð eru merkt sem rusl:
@@ -698,6 +723,33 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = DNS yfir HTTPS
+preferences-doh-description = DNS yfir HTTPS (Domain Name System) sendir beiðni þína um lén í gegnum dulritaða tengingu, veitir öruggt DNS og gerir erfiðara fyrir aðra að sjá hvaða vefsvæði þú ert að fara að fara á.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Staða: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Þjónustuveita: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Ógild vefslóð
+preferences-doh-steering-status = Nota staðbundna þjónustuveitu
+preferences-doh-status-active = Virkt
+preferences-doh-status-disabled = Slökkt
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Ekki virkt ({ $reason })
+preferences-doh-group-message = Virkja DNS yfir HTTPS með því að nota:
+preferences-doh-expand-section =
+    .tooltiptext = Nánari upplýsingar
+preferences-doh-setting-default =
+    .label = Sjálfgefin vernd
+    .accesskey = v
+preferences-doh-default-desc = { -brand-short-name } ákveður hvenær ætti að nota öruggt DNS til að vernda friðhelgi þína.
+preferences-doh-default-detailed-desc-1 = Nota öruggt DNS á svæðum þar sem það er tiltækt
+preferences-doh-default-detailed-desc-2 = Nota sjálfgefna DNS-leysarann þinn ef vandamál er með öruggu DNS-veituna
+preferences-doh-default-detailed-desc-3 = Nota staðbundna þjónustuveitu, ef mögulegt er
 preferences-doh-default-detailed-desc-4 = Slökkva á þessu þegar VPN, foreldrastýringar eða fyrirtækjareglur eru virkar
 preferences-doh-default-detailed-desc-5 = Slökkva á þessu þegar netkerfi segir { -brand-short-name } að það ætti ekki að nota öruggt DNS
 preferences-doh-setting-enabled =
@@ -706,6 +758,28 @@ preferences-doh-setting-enabled =
 preferences-doh-enabled-desc = Þú stjórnar hvenær á að nota öruggt DNS og velur þjónustuveituna þína.
 preferences-doh-enabled-detailed-desc-1 = Nota þjónustuveituna sem þú velur
 preferences-doh-enabled-detailed-desc-2 = Aðeins nota sjálfgefna DNS-leysarann þinn ef vandamál er með öruggu DNS-veituna
+preferences-doh-setting-strict =
+    .label = Hámarksvernd
+    .accesskey = m
+preferences-doh-strict-desc = { -brand-short-name } mun alltaf nota öruggt DNS. Þú munt sjá öryggisáhættuviðvörun áður en við notum DNS kerfisins þíns.
+preferences-doh-strict-detailed-desc-1 = Aðeins nota þjónustuveituna sem þú velur
+preferences-doh-strict-detailed-desc-2 = Alltaf að vara við ef öruggt DNS er ekki tiltækt
+preferences-doh-strict-detailed-desc-3 = Ef öruggt DNS er ekki tiltækt munu vefsvæði ekki hlaðast inn eða virka rétt
+preferences-doh-setting-off =
+    .label = Slökkt
+    .accesskey = k
+preferences-doh-off-desc = Nota sjálfgefna DNS-leysarann þinn
+preferences-doh-checkbox-warn =
+    .label = Aðvörun ef utanaðkomandi aðili er virkur í að koma í veg fyrir öruggt DNS
+    .accesskey = v
+preferences-doh-select-resolver = Veldu þjónustuveitu:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (sjálfgefið)
+preferences-doh-url-custom =
+    .label = Sérsniðið
+    .accesskey = n
 
 ## Chat Tab
 

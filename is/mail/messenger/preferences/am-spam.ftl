@@ -5,6 +5,10 @@
 spam-settings-title = Stillingar fyrir ruslpóst
 dialog-header-title =
     .value = Stillingar fyrir ruslpóst
+training-description-spam = Ef þetta er gert virkt, verðurðu fyrst að þjálfa { -brand-short-name } til að bera kennsl á ruslpóst með því að nota ruslpóstshnappinn til að merkja póst sem ruslpóst eða ekki. Þú þarft að merkja bæði ruslpóst og ekki ruslpóst. Eftir það mun { -brand-short-name } geta merkt ruslpóst sjálfkrafa.
+spam-level-checkbox =
+    .label = Virkja þjálfaða ruslpóstssíu fyrir þennan reikning
+    .accesskey = e
 move-spam-message-menuitem =
     .label = Færa nýjan ruslpóst í:
     .accesskey = F

@@ -34,3 +34,6 @@ outgoing-server-settings-title = Stillingar fyrir útsendingarþjón
 outgoing-server-settings-description = Þegar þú sýslar með auðkenni geturðu notað netþjón úr þessum lista með því að velja hann sem útsendan póst (SMTP), eða þú getur notað sjálfgefin netþjón úr listanum með því að velja "Nota sjálfgefinn póstþjón".
 outgoing-server-type = Gerð netþjóns:
 panel-settings-spam = Stillingar fyrir ruslpóst
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Vandamál greindist í ruslpóststillingunum fyrir { $account }. Viltu yfirfara þær áður en þú vistar breytingarnar?
