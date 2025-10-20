@@ -73,9 +73,9 @@
 <!ENTITY serverDefaultCharset2.label "Varsayılan metin kodlaması:">
 <!ENTITY localPath1.label "Yerel dizin:">
 <!ENTITY localFolderPicker.label "Yerel klasör seçin">
-<!ENTITY browseFolder.label "Gözat…">
+<!ENTITY browseFolder.label "Göz at…">
 <!ENTITY browseFolder.accesskey "a">
-<!ENTITY browseNewsrc.label "Gözat…">
+<!ENTITY browseNewsrc.label "Göz at…">
 <!ENTITY browseNewsrc.accesskey "t">
 <!ENTITY accountTitle.label "Hesap Ayarları">
 <!ENTITY accountSettingsDesc.label "Bu bir özel hesaptır. Bu hesaba ilişkin kimlik bulunmamaktadır.">

@@ -180,7 +180,7 @@ mail-custom-sound-label =
     .label = Aşağıdaki ses dosyasını kullan
     .accesskey = d
 mail-browse-sound-button =
-    .label = Gözat…
+    .label = Göz at…
     .accesskey = G
 enable-gloda-search-label =
     .label = Global aramayı ve dizin oluşturmayı etkinleştir
@@ -358,7 +358,7 @@ choose-folder-label =
     .label =
         { PLATFORM() ->
             [macos] Seç…
-           *[other] Gözat…
+           *[other] Göz at…
         }
     .accesskey =
         { PLATFORM() ->
@@ -844,7 +844,7 @@ chat-custom-sound-label =
     .label = Aşağıdaki ses dosyasını kullan
     .accesskey = d
 chat-browse-sound-button =
-    .label = Gözat…
+    .label = Göz at…
     .accesskey = G
 theme-label =
     .value = Tema:
