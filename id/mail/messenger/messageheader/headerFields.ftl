@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = Nonaktifkan mode pesan gelap
 dark-message-mode-toggle-disabled =
     .title = Aktifkan mode pesan gelap
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } menganggap pesan ini adalah spam.
+message-bar-not-spam-button =
+    .label = Bukan Spam
+    .accesskey = n
+message-bar-learn-more-button =
+    .label = Pelajari lebih lanjut…
+    .accesskey = i

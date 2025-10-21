@@ -5,4 +5,5 @@
 mail-view-known-people = Orang yang Saya Kenal
 mail-view-recent = Email Terbaru
 mail-view-last-five-days = 5 Hari Terakhir
+mail-view-not-spam = Bukan Spam
 mail-view-has-attachments = Mengandung Lampiran
