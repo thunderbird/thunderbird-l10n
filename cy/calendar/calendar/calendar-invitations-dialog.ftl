@@ -12,6 +12,10 @@ allday-event = Digwyddiad diwrnod cyfan
 recurrent-event =
     .value = Digwyddiad sy'n ddigwydd eto
 # $locationProperty is the location of the event
+calendar-invitation-location =
+    .value = Lleoliad: { $locationProperty }
+    .tooltiptext = { $locationProperty }
+# $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Lleoliad: { $locationProperty }
 # $organizerProperty is the organizer of the event
