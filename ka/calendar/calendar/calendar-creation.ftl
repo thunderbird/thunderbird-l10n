@@ -4,3 +4,4 @@
 
 select-all-calendars = ყველას მონიშვნა
 select-none-calendars = არცერთის მონიშვნა
+calendar-creation-wizard-title = ახალი კალენდრის შექმნა
