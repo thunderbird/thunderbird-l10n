@@ -46,4 +46,4 @@ calendar-creation-network-notfound = Impossibile trovare calendari a questo indi
 calendar-creation-network-authfail = Le credenziali inserite non sono state accettate. Controllare le impostazioni.
 calendar-creation-network-certerror = Impossibile trovare i calendari in questa posizione a causa di un problema con il certificato.
 calendar-creation-network-subscribe-single = Selezionare i calendari da sottoscrivere.
-calendar-creation-network-subscribe-multiple = A questo indirizzo sono disponibili tipi di calendario multipli. Selezionare prima il tipo di calendario, poi i calendari da sottoscrivere.
+calendar-creation-network-subscribe-multiple = A questo indirizzo sono disponibili diversi tipi di calendario. Selezionare prima il tipo di calendario, poi i calendari da sottoscrivere.
