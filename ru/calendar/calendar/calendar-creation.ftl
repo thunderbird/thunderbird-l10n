@@ -36,3 +36,6 @@ calendar-creation-type =
     .value = Тип календаря:
 calendar-creation-location =
     .value = Расположение:
+calendar-creation-location-placeholder =
+    .placeholder = URL или имя хоста сервера календаря
+    .default-placeholder = URL или имя хоста сервера календаря
