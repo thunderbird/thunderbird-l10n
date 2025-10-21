@@ -60,6 +60,8 @@ account-hub-protocol-label = Protokol
 account-hub-hostname-label = Nama host
 account-hub-result-hostname-label = Nama host
     .title = Nama host
+account-hub-result-socket-type-label = Keamanan sambungan
+account-hub-on-port-label = Port
 account-hub-result-authentication-label = Otentikasi
     .title = Otentikasi
 account-hub-port-label = Port
@@ -118,6 +120,9 @@ address-book-carddav-known-incompatible = { $url } diketahui tidak kompatibel de
 address-book-carddav-connection-error = Gagal  tersambung.
 address-book-ldap-duplicate-error = Nama direktori LDAP sudah ada. Masukkan nama direktori yang berbeda.
 address-book-ldap-creation-error = Tidak dapat membuat Direktori LDAP.
+account-hub-email-setup-ews = Pengaturan Server
+account-hub-email-credentials-confirmation = Konfigurasi Akun
+account-hub-result-unknown-hostname = Nama Host Tidak Dikenal
 account-hub-result-username-label = Nama pengguna
     .title = Nama pengguna
 account-hub-name-label = Nama lengkap
@@ -173,6 +178,7 @@ account-hub-port-error-text = Port harus antara 1 dan 65535
 account-hub-username-error-text = Nama pengguna diperlukan
     .title = Nama pengguna diperlukan
 account-hub-oauth-pending = Menunggu otorisasi pada popup log masuk…
+account-hub-addon-install-button = Pasang
 account-hub-addon-install-needed = { -brand-short-name } tidak mendukung server ini secara asli. Untuk mengakses surel Exchange, <a data-l10n-name="addon-install"> pasang pengaya pihak ketiga seperti Owl (berbayar).</a>
 account-hub-addon-error = Pemasangan pengaya gagal. Silakan coba lagi atau hubungi pembuat pengaya untuk mendapatkan bantuan.
 account-hub-security-warning = <span data-l10n-name="security-warning">Peringatan: Server surel tidak aman terdeteksi.</span> Server ini tidak memiliki enkripsi, memaparkan kata sandi dan data Anda. Hubungi administrator Anda untuk mengamankan sambungan atau melanjutkan dengan risiko Anda sendiri. <a data-l10n-name="faq-link">Lihat FAQ untuk informasi lebih lanjut.</a>

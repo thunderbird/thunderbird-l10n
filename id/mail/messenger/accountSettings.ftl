@@ -15,3 +15,6 @@ outgoing-server-name = Server Keluar:
 outgoing-server-edit =
     .label = Edit server keluar…
     .accesskey = u
+ews-url-label =
+    .value = URL Host:
+    .accesskey = H
