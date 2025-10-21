@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Libra Adresash
 items-pane-checkbox-calendars = Kalendarë
 items-pane-checkbox-mail-messages = Mesazhe Poste
 items-pane-override = Çfarëdo të dhënash ekzistuese ose identike nuk do të mbishkruhen.
+items-pane-nothing-to-import = Nga burimi i përzgjedhur s’mund të importohet gjë.
 
 ## Import from address book file steps
 

@@ -346,6 +346,9 @@ openpgp-description-has-keys =
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Formësimi juaj i tanishëm përdor ID kyçi <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Formësimi juaj i tanishëm përdor kyçin <b>{ $key }</b>, i cili skadon më { $when }. Që ta mbani të vlefshëm kyçin, ju lutemi, shihni tani mundësinë e shtyrjes së datës së skadimit.
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Formësimi juaj i tanishëm përdor kyçin <b>{ $key }</b>, i cili ka skaduar.
 openpgp-add-key-button =
     .label = Shtoni Kyç…

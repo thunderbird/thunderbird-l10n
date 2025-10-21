@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = Çaktivizo mënyrë të errët për mesazhet
 dark-message-mode-toggle-disabled =
     .title = Aktivizo mënyrë të errët për mesazhet
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } mendon se ky mesazh është mesazh i padëshiruar.
+message-bar-not-spam-button =
+    .label = Jo mesazh i padëshiruar
+    .accesskey = J
+message-bar-learn-more-button =
+    .label = Mësoni më tepër…
+    .accesskey = M
