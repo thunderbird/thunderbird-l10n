@@ -128,6 +128,7 @@ account-hub-result-unknown-cert = Niezweryfikowany certyfikat
 account-hub-close-button =
     .title = Zamknij
 account-hub-email-manual-configuration = Konfiguracja ręczna
+account-hub-ssl-noencryption = Brak
 account-hub-result-username-label = Nazwa użytkownika
     .title = Nazwa użytkownika
 account-hub-name-label = Imię i nazwisko
