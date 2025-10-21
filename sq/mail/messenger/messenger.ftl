@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Parje e Ngjeshur
     .accesskey = N
 
+## Folder names
+
+folder-name-spam = Të padëshiruar
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Arkivoje
     .tooltiptext = Arkivoje
+context-menu-mark-spam =
+    .aria-label = Vëri shenjë si i Padëshiruar
+    .tooltiptext = Vëri shenjë si i Padëshiruar
+context-menu-mark-not-spam =
+    .aria-label = Vëri shenjë si jo i Padëshiruar
+    .tooltiptext = Vëri shenjë si jo i Padëshiruar
 context-menu-mark-junk =
     .aria-label = Vëri shenjë si i Pavlerë
     .tooltiptext = Vërini shenjë si i Pavlerë
@@ -267,6 +277,8 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Ridrejtoje
+other-action-copy-message-link =
+    .label = Kopjo Lidhje Mesazhi
 message-header-msg-flagged =
     .title = Me yllkë
     .aria-label = Me yllkë
@@ -481,3 +493,18 @@ mark-not-junk-key =
 mark-as-read-action = Vëri Shenjë si të Lexuar
 delete-action = Fshije
 mark-as-spam-action = Vëri shenjë si i Padëshiruar
+archive-action = Arkivoje
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Të zbrazet { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Të fshihen krejt mesazhet dhe nëndosjet te dosja { $folder }?
+prompt-dont-ask-again = Mos pyet sërish.
+
+## Spam commands
+
+spam-processing-message = Po trajtohen mesazhet e padëshiruar

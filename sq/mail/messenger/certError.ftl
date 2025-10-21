@@ -16,3 +16,21 @@ cert-error-not-yet-valid = Dëshmia për { $hostname } s’do të jetë e vlefsh
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Dëshmia për { $hostname } s’vjen nga një burim i besuar.
+certificate-check-fetch-button = Merr Dëshminë
+certificate-check-view-button = Shihini Dëshminë
+certificate-check-add-exception-button = Shtoni Përjashtim
+certificate-check-remove-exception-button = Hiqeni Përjashtimin
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-fetching = Po sillet dëshmia për { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-success = Dëshmia për { $hostname } duket të jetë e vlefshme.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-failure = S’u arrit të sillet dëshmia për { $hostname }.
+certificate-check-exception-added = U shtua përjashtim për dëshminë.
+certificate-check-exception-removed = U hoq përjashtim për dëshminë.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Ka tashmë një përjashtim dëshmie për { $hostname }.
