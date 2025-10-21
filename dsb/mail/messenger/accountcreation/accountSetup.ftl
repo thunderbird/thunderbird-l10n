@@ -87,7 +87,7 @@ account-setup-success-password = Gronidło w pórěźe
 account-setup-success-addon = Dodank jo se wuspěšnje zainstalěrował
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-success-settings-db = Konfiguracija jo se namakała w datowej bance Mozilla ISP.
-account-setup-success-settings-disk = Konfigurcija jo se namakała pśi instalěrowanju { -brand-short-name }.
+account-setup-success-settings-disk = Konfiguracija jo se namakała pśi instalěrowanju { -brand-short-name }.
 account-setup-success-settings-isp = Konfiguracija jo se namakała pśi e-mailowem póbitowarju.
 # Note: Microsoft Exchange is a product name.
 account-setup-success-settings-exchange = Konfiguracija jo se namakała za serwer Microsoft Exchange.
