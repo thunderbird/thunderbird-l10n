@@ -12,6 +12,10 @@ allday-event = Cyłodnjowski podawk
 recurrent-event =
     .value = Wospjetowaćy so podawk
 # $locationProperty is the location of the event
+calendar-invitation-location =
+    .value = Městno: { $locationProperty }
+    .tooltiptext = { $locationProperty }
+# $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Městno: { $locationProperty }
 # $organizerProperty is the organizer of the event
