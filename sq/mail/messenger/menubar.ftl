@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Çfshije
     .tooltiptext = Hiqe fshirjen e mesazheve të përzgjedhur
+toolbar-spam-button =
+    .label = I padëshiruar
+    .tooltiptext = Vëri shenjë si i padëshiruar mesazhit të përzgjedhur
+toolbar-not-spam-button =
+    .label = Jo i Padëshiruar
+    .tooltiptext = Vëri shenjë si jo i padëshiruar mesazhit të përzgjedhur
 
 ## View
 
@@ -144,4 +150,16 @@ file-new-email-account =
     .accesskey = E
 file-new-newsgroup-account =
     .label = Llogari Grupi Lajmesh…
+    .accesskey = L
+file-new-addressbook =
+    .label = Libër Adresash
+    .accesskey = A
+file-new-local-addressbook =
+    .label = Libër Vendor Adresash
+    .accesskey = A
+file-new-carddav-addressbook =
+    .label = Libër Adresash CardDav
+    .accesskey = C
+file-new-ldap-addressbook =
+    .label = Libër Adresash LDAP
     .accesskey = L

@@ -628,6 +628,7 @@ primary-password-button =
     .accesskey = N
 forms-primary-pw-fips-title = Gjendeni nën mënyrën FIPS. FIPS lyp një Fjalëkalim të Përgjithshëm jo të zbrazët.
 forms-master-pw-fips-desc = Ndryshimi i Fjalëkalimit Dështoi
+spam-read-description = Vëru shenjë mesazheve si të lexuar
 spam-log-button =
     .label = Shfaq regjistrin
     .accesskey = S
@@ -697,6 +698,66 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Vendime për automatizim mund të anashkalohen duke aktivizuar apo çaktivizuar dorazi fshehtëzimin, kur hartohet një mesash.
     Shënim: fshehtëzimi është përherë i aktivizuar automatikisht, kur i përgjigjeni një mesazhi të fshehtëzuar.
+
+## DoH Section
+
+preferences-doh-header = DNS përmes HTTPS-je
+preferences-doh-description = Domain Name System (DNS) përmes HTTPS-së e dërgon kërkesën tuaj për një emër përkatësie përmes një lidhjeje të fshehtëzuar, duke furnizuar një DNS të siguruar dhe duke e bërë më të vështirë për të tjerët të shohin se në cilin sajt po shkoni.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Gjendje: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Furnizues: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = URL e pavlefshme
+preferences-doh-steering-status = Duke përdorur furnizues vendor
+preferences-doh-status-active = Aktiv
+preferences-doh-status-disabled = Off
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Jo aktiv ({ $reason })
+preferences-doh-group-message = Aktivizoni DNS përmes HTTPS-je duke përdorur:
+preferences-doh-expand-section =
+    .tooltiptext = Më tepër hollësi
+preferences-doh-setting-default =
+    .label = Mbrojtje Parazgjedhje
+    .accesskey = P
+preferences-doh-default-desc = { -brand-short-name }-i vendos kur të përdoret DNS i siguruar, për të mbrojtur privatësinë tuaj.
+preferences-doh-default-detailed-desc-1 = Në rajone ku është e mundur, përdor DNS të siguruar
+preferences-doh-default-detailed-desc-2 = Përdorni ftilluesin tuaj parazgjedhje DNS, nëse ka ndonjë problem me furnizuesin e DNS-së të siguruar
+preferences-doh-default-detailed-desc-3 = Përdor një furnizues vendor, në qoftë e mundur
+preferences-doh-default-detailed-desc-4 = Çaktivizoje, kur janë aktive VPN-ja, kontrolli prindëror dhe rregulla ndërmarrjeje
+preferences-doh-default-detailed-desc-5 = Çaktivizoje, kur një rrjet i kërkon { -brand-short-name }-it të mos përdorë DNS të siguruar
+preferences-doh-setting-enabled =
+    .label = Mbrojtje e Shtuar
+    .accesskey = u
+preferences-doh-enabled-desc = Ju keni kontroll kur të përdoret DNS dhe zgjidhet furnizuesi juaj
+preferences-doh-enabled-detailed-desc-1 = Përdorni furnizuesin që përzgjodhët
+preferences-doh-enabled-detailed-desc-2 = Përdoreni ftilluesin tuaj parazgjedhje të DNS-ve vetën nëse ka ndonjë problem me DNS të siguruar
+preferences-doh-setting-strict =
+    .label = Mbrojtje Maksimale
+    .accesskey = a
+preferences-doh-strict-desc = { -brand-short-name }-i do të përdorë përherë DNS të siguruar. Do të shihni një sinjalizim për rrezik sigurie, para se të përdorim sistemin tuaj për DNS.
+preferences-doh-strict-detailed-desc-1 = Përdorni vetëm furnizuesin që përzgjodhët
+preferences-doh-strict-detailed-desc-2 = Sinjalizo përherë, nëse s’ka DNS të gatshëm
+preferences-doh-strict-detailed-desc-3 = Nëse s’ka DNS të gatshëm, sajtet s’do të ngarkohen apo funksionojnë si duhet
+preferences-doh-setting-off =
+    .label = Off
+    .accesskey = O
+preferences-doh-off-desc = Përdorni ftilluesin tuaj DNS parazgjedhje
+preferences-doh-checkbox-warn =
+    .label = Sinjalizo, nëse një palë e tretë pengon aktivisht DNS të siguruar
+    .accesskey = S
+preferences-doh-select-resolver = Zgjidhni furnizues:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (Parazgjedhje)
+preferences-doh-url-custom =
+    .label = Vetjak
+    .accesskey = V
 
 ## Chat Tab
 
@@ -793,6 +854,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 20em
     .placeholder = Gjeni te Rregullime
+managed-notice = { -brand-short-name } administrohet nga enti juaj.
 
 ## Settings UI Search Results
 
