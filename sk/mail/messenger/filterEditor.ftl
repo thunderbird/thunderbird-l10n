@@ -16,7 +16,7 @@ rule-action-set-spam-status =
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.
 # $date (String) - The date of the message.
-spam-message-detection-log = Zistená nevyžiadaná pošta od { $author } - { $subject } dňa { $date }
+spam-message-detection-log = Zistená nevyžiadaná správa od { $author } - { $subject } dňa { $date }
 # Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
