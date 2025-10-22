@@ -527,6 +527,18 @@ menu-delete-spam =
     .label = Smazat nevyžádanou poštu ve složce
     .accesskey = S
 
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Vyprázdnit nevyžádanou poštu
+    .accesskey = V
+
+## Thread pane.
+
+column-status-spam =
+    .label = Stav nevyžádané pošty
+    .tooltiptext = Seřadí dle stavu nevyžádané pošty
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Označit jako přečtené
