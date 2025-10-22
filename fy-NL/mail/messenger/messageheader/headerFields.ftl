@@ -105,3 +105,9 @@ dark-message-mode-toggle-enabled =
     .title = Donkere berjochtmodus útskeakelje
 dark-message-mode-toggle-disabled =
     .title = Donkere berjochtmodus ynskeakelje
+
+## Spam filter
+
+message-bar-learn-more-button =
+    .label = Mear ynfo…
+    .accesskey = M
