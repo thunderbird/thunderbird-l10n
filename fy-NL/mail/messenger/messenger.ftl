@@ -490,4 +490,7 @@ archive-action = Argivearje
 
 ## Prompts
 
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = { $folder } leechmeitsje?
 prompt-dont-ask-again = Dit net mear freegje.
