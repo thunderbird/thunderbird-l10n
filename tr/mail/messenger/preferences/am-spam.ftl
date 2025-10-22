@@ -19,6 +19,7 @@ automatic-spam-purge-label =
 allowlist-header-label =
     .value = Gönderen aşağıdakilerden birindeyse spam olarak işaretleme:
     .accesskey = G
+isp-warning-description = Bunu etkinleştirirseniz { -brand-short-name } bu harici sınıflandırıcı tarafından işaretlenen iletileri otomatik olarak spam kabul edecektir.
 spam-classification-legend = Seçim
 spam-actions-legend = Hedef ve saklama
 global-spam-preferences-button =
