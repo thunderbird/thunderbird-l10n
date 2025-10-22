@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = Zakázat režim tmavých zpráv
 dark-message-mode-toggle-disabled =
     .title = Povolit režim tmavých zpráv
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } si myslí, že tato zpráva je nevyžádaná.
+message-bar-not-spam-button =
+    .label = Není nevyžádaná
+    .accesskey = N
+message-bar-learn-more-button =
+    .label = Zjistit více…
+    .accesskey = Z
