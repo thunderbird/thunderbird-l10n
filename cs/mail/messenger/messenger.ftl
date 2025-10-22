@@ -517,6 +517,15 @@ menu-mark-not-spam =
     .accesskey = N
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Spustit kontrolu nevyžádané pošty
+    .accesskey = n
+menu-run-spam-on-folder =
+    .label = Spustit kontrolu nevyžádané pošty na složce
+    .accesskey = n
+menu-delete-spam =
+    .label = Smazat nevyžádanou poštu ve složce
+    .accesskey = S
 
 ## Actions for the New Mail Notification
 
