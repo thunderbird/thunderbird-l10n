@@ -3,15 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 rule-menuitem-spam =
-    .label = Nevyžiadaná pošta
+    .label = Nevyžiadaná
 rule-menuitem-not-spam =
-    .label = Nie je to nevyžiadaná pošta
+    .label = Nie je nevyžiadaná
 run-filter-before-spam =
     .label = Filtrovať pred klasifikáciou nevyžiadanej pošty
 run-filter-after-spam =
     .label = Filtrovať po klasifikácii nevyžiadanej pošty
 rule-action-set-spam-status =
-    .label = Nastaviť stav nevyžiadanej pošty na
+    .label = Nastaviť stav správy na
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.
