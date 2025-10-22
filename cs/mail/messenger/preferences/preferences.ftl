@@ -777,6 +777,19 @@ email-e2ee-automatism-post =
     Automatická rozhodnutí lze potlačit ručním povolením nebo zakázáním šifrování při psaní zprávy.
     Poznámka: šifrování je vždy automaticky povoleno při odpovědi na zašifrovanou zprávu.
 
+## DoH Section
+
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Stav: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Poskytovatel: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Neplatná adresa URL
+preferences-doh-status-active = Aktivní
+
 ## Chat Tab
 
 startup-label =
