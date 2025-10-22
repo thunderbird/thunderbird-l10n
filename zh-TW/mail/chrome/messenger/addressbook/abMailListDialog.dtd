@@ -14,7 +14,7 @@
 <!ENTITY ListDescription.label "描述：">
 <!ENTITY ListDescription.accesskey "e">
 <!-- See bug 58485, when we implement drag and drop, add 'or drag addresses' back in -->
-<!ENTITY AddressTitle.label "輸入 Email 地址以加入群組信名單:">
+<!ENTITY AddressTitle.label "輸入電子郵件地址以加入群組信名單：">
 <!ENTITY AddressTitle.accesskey "m">
 <!ENTITY UpButton.label "上移">
 <!ENTITY DownButton.label "下移">

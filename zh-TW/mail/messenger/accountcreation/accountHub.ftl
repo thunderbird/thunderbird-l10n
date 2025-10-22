@@ -165,6 +165,7 @@ account-hub-config-success-exchange = 找到 Microsoft Exchange 伺服器設定
 account-hub-config-success-guess = 測試常用的伺服器名稱之後找到以下設定
 account-hub-config-success-disk = 於 { -brand-short-name } 安裝找到設定
 account-hub-config-success-isp = 從電子郵件服務供應商找到設定
+account-hub-config-success-unknown = 找到設定
 account-hub-password-info = 您的登入資訊只會儲存在本機電腦上
 account-hub-creating-account = 正在建立帳號…
 account-hub-sync-accounts-found = { -brand-short-name } 找到一些連結的服務

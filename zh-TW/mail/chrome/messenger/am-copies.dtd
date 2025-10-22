@@ -11,11 +11,11 @@
 <!ENTITY fccReplyFollowsParent.label "將回信與原信放在同一郵件匣（像 Gmail 那樣）">
 <!ENTITY fccReplyFollowsParent.accesskey "r">
 <!-- LOCALIZATION NOTE (ccAddress.label): do not translate "Cc" in below line -->
-<!ENTITY ccAddress.label "寄送副本 (Cc) 至:">
+<!ENTITY ccAddress.label "寄送副本 (Cc) 至：">
 <!ENTITY ccAddress.accesskey "C">
 <!ENTITY ccAddressList.placeholder "用半形逗號（,）分隔地址">
 <!-- LOCALIZATION NOTE (bccAddress.label): do not translate "Bcc" in below line -->
-<!ENTITY bccAddress.label "寄送密件副本 (Bcc) 至:">
+<!ENTITY bccAddress.label "寄送密件副本 (Bcc) 至：">
 <!ENTITY bccAddress.accesskey "B">
 <!ENTITY bccAddressList.placeholder "用半形逗號（,）分隔地址">
 <!ENTITY saveMessageDlg.label "儲存郵件時顯示確認視窗">

@@ -601,7 +601,7 @@
 <!ENTITY folderContextSettings2.label "設定">
 <!ENTITY folderContextSettings2.accesskey "e">
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label "姓名或 Email 含:">
+<!ENTITY SearchNameOrEmail.label "姓名或 Email 含：">
 <!ENTITY SearchNameOrEmail.accesskey "N">
 <!-- Gloda Search Bar -->
 <!ENTITY glodaSearchBar.placeholder "搜尋訊息…">
