@@ -538,7 +538,7 @@ column-status-spam =
 ## Message header.
 
 header-spam-button =
-    .label = Nevyžiadaná pošta
+    .label = Nevyžiadaná
     .tooltiptext = Označí túto správu ako nevyžiadanú
 
 ## Actions for the New Mail Notification
