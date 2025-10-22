@@ -128,6 +128,7 @@ account-hub-result-unknown-cert = Neověřený certifikát
 account-hub-close-button =
     .title = Zavřít
 account-hub-email-manual-configuration = Ruční nastavení
+account-hub-notification-unknown-host = Informace o nastavení nalezena na doméně třetí strany
 account-hub-ssl-noencryption = Žádný
 account-hub-result-username-label = Uživatelské jméno
     .title = Uživatelské jméno
@@ -170,6 +171,11 @@ account-hub-edit-configuration = Upravit konfiguraci
 account-hub-config-success = Nastavení bylo nalezeno v Mozilla ISPDB
 account-hub-config-success-exchange = Nastavení pro server Microsoft Exchange nalezeno
 account-hub-config-success-guess = Testováním obvyklých jmen serverů bylo nalezeno následující nastavení
+account-hub-config-success-disk =
+    { -brand-short-name.case-status ->
+        [with-cases] Konfigurace byla nalezena v instalaci { -brand-short-name(case: "gen") }
+       *[no-cases] Konfigurace byla nalezena v instalaci aplikace { -brand-short-name }
+    }
 account-hub-config-success-isp = U poskytovatele e-mailu bylo nalezeno následující nastavení
 account-hub-config-success-unknown = Konfigurace nalezena
 account-hub-password-info = Vaše přihlašovací údaje budou uloženy pouze na vašem počítači

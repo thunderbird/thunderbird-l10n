@@ -13,6 +13,12 @@ run-filter-after-spam =
 rule-action-set-spam-status =
     .label = Nastavit druh zprávy na
 # Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = Zjištěna nevyžádaná zpráva od { $author } - { $subject } dne { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = přesunutí zprávy Id { $id } na { $folder }
+filter-action-log-spam = skóre nevyžádané pošty
