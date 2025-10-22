@@ -4,3 +4,4 @@
 
 select-all-calendars = Összes kijelölése
 select-none-calendars = Kijelölés megszüntetése
+calendar-creation-wizard-title = Új naptár létrehozása
