@@ -97,6 +97,9 @@ toolbar-undelete-button =
 toolbar-spam-button =
     .label = Nevyžádaná
     .tooltiptext = Označit vybrané zprávy jako nevyžádané
+toolbar-not-spam-button =
+    .label = Není nevyžádaná
+    .tooltiptext = Označí vybrané zprávy jako vyžádanou poštu
 
 ## View
 
