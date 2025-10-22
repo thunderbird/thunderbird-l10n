@@ -504,20 +504,20 @@ sort-by-spam-status =
 ## Message menu.
 
 menu-mark-as-spam =
-    .label = Ako nevyžiadaná pošta
-    .accesskey = A
+    .label = Správa je nevyžiadaná
+    .accesskey = r
 mark-as-junk-key =
     .key = j
 menu-mark-not-spam =
-    .label = Ako nie nevyžiadaná pošta
-    .accesskey = k
+    .label = Správa nie je nevyžiadaná
+    .accesskey = n
 mark-not-junk-key =
     .key = j
 menu-recalculate-spam-score =
-    .label = Spustiť kontrolu nevyžiadanej pošty
+    .label = Spustiť rozpoznávanie nevyžiadanej pošty
     .accesskey = u
 menu-run-spam-on-folder =
-    .label = Spustiť kontrolu nevyžiadanej pošty pre tento priečinok
+    .label = Spustiť rozpoznávanie nevyžiadanej pošty pre tento priečinok
     .accesskey = u
 menu-delete-spam =
     .label = Odstrániť z priečinka správy označené ako nevyžiadané
