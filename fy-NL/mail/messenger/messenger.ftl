@@ -493,4 +493,7 @@ archive-action = Argivearje
 # Variables:
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-title = { $folder } leechmeitsje?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Alle berjochten en submappen yn de map { $folder } fuortsmite?
 prompt-dont-ask-again = Dit net mear freegje.
