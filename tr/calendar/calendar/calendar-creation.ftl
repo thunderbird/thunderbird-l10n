@@ -4,6 +4,7 @@
 
 select-all-calendars = Tümünü seç
 select-none-calendars = Hiçbirini seçme
+calendar-creation-wizard-title = Yeni Takvim Oluştur
 calendar-creation-initial-computer =
     .label = Bilgisayarımda
 calendar-creation-initial-network =
