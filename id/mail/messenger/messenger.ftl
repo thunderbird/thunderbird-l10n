@@ -125,6 +125,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Tampilan Ringkas
     .accesskey = k
 
+## Folder names
+
+folder-name-spam = Spam
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -196,6 +200,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Arsipkan
     .tooltiptext = Arsipkan
+context-menu-mark-spam =
+    .aria-label = Tandai sebagai Spam
+    .tooltiptext = Tandai sebagai Spam
+context-menu-mark-not-spam =
+    .aria-label = Tandai sebagai bukan Spam
+    .tooltiptext = Tandai sebagai bukan Spam
 context-menu-mark-junk =
     .aria-label = Tandai sebagai Sampah
     .tooltiptext = Tandai sebagai Sampah
@@ -446,12 +456,30 @@ openpgp-forget = Lupakan frasa sandi OpenPGP
 quota-panel-percent-used = { $percent }% penuh
     .title = Kuota IMAP: { $usage } dipakai dari { $limit } total
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Status Spam
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Sebagai Spam
+    .accesskey = S
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Sebagai Bukan Spam
+    .accesskey = n
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Jalankan Kendali Spam
+    .accesskey = K
+menu-run-spam-on-folder =
+    .label = Jalankan Kendali Spam pada Folder
+    .accesskey = K
 
 ## Actions for the New Mail Notification
 
