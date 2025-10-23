@@ -173,6 +173,9 @@ folder-pane-write-message-button = Mesaj nou
     .title = Creează un mesaj nou
 folder-pane-more-menu-button =
     .title = Opțiuni panou de dosare
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Moduri de dosare
 # Context menu item to toggle display of "Get messages" button in folder pane header
 folder-pane-header-context-toggle-get-messages =
     .label = Afișează „Descarcă mesajele”
@@ -205,27 +208,71 @@ folder-pane-unread-aria-label =
         [few] { $count } mesaje necitite
        *[other] { $count } de mesaje necitite
     }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 mesaj în total
+        [few] { $count } mesaje în total
+       *[other] { $count } de mesaje în total
+    }
 
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = Comută selectarea tuturor mesajelor
+threadpane-column-header-select-all =
+    .title = Selectează toate mesajele
+threadpane-column-header-deselect-all =
+    .title = Deselectează toate mesajele
 threadpane-column-label-select =
     .label = Selectează mesaje
+threadpane-cell-select =
+    .aria-label = Selectează mesajul
+threadpane-column-header-thread =
+    .title = Afișează/nu afișa pe fire de discuție
 threadpane-column-label-thread =
     .label = Conversație
+threadpane-cell-thread =
+    .aria-label = Stare discuție
 threadpane-column-header-flagged =
     .title = Sortează după stea
 threadpane-column-label-flagged =
     .label = Cu steluță
+threadpane-cell-flagged =
+    .aria-label = Cu steluță
+threadpane-flagged-cell-label = Cu steluță
 threadpane-column-header-attachments =
     .title = Sortează după atașamente
 threadpane-column-label-attachments =
     .label = Atașamente
+threadpane-cell-attachments =
+    .aria-label = Atașamente
+threadpane-attachments-cell-label = Atașamente
+threadpane-column-header-spam =
+    .title = Sortează după starea de mesaje nedorite
+threadpane-column-label-spam =
+    .label = Mesaje nedorite
+threadpane-cell-spam =
+    .aria-label = Stare mesaje nedorite
+threadpane-spam-cell-label = Mesaje nedorite
+threadpane-column-header-unread-button =
+    .title = Sortează după starea de citit/necitit
+threadpane-column-label-unread-button =
+    .label = Stare de citire
+threadpane-cell-read-status =
+    .aria-label = Stare de citire
+threadpane-read-cell-label = Citite
+threadpane-unread-cell-label = Necitite
 threadpane-column-header-sender = Expeditor
     .title = Sortează după expeditor
 threadpane-column-label-sender =
     .label = Expeditor
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = De la
+    .title = { $title }
 threadpane-column-header-recipient = Destinatar
     .title = Sortează după destinatar
 threadpane-column-label-recipient =
