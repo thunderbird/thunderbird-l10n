@@ -422,8 +422,28 @@ threadpane-message-new =
 threadpane-message-replied =
     .alt = Indicator de răspuns
     .title = Mesaj cu răspuns
+threadpane-message-redirected =
+    .alt = Indicator de redirecționare
+    .title = Mesaj redirecționat
+threadpane-message-forwarded =
+    .alt = Indicator de înaintare
+    .title = Mesaj înaintat
+threadpane-message-replied-forwarded =
+    .alt = Indicator de răspuns și înaintare
+    .title = Mesaj cu răspuns și înaintat
+threadpane-message-replied-redirected =
+    .alt = Indicator de răspuns și redirecționare
+    .title = Mesaj cu răspuns și redirecționat
+threadpane-message-forwarded-redirected =
+    .alt = Indicator de înaintare și redirecționare
+    .title = Mesaj înaintat și redirecționat
+threadpane-message-replied-forwarded-redirected =
+    .alt = Indicator de răspuns, înaintare și redirecționare
+    .title = Mesaj cu răspuns, înaintat și redirecționat
 apply-columns-to-menu =
     .label = Aplică coloanele la…
+apply-current-view-to-menu =
+    .label = Aplică vizualizarea curentă la...
 apply-current-view-to-folder =
     .label = Dosar…
 apply-current-view-to-folder-children =
@@ -431,9 +451,16 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Aplici modificările?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Aplici coloanele dosarului actual la { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Aplici coloanele dosarului actual la { $name } și elementele conținute de acesta?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Aplici vizualizarea dosarului curent la { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Aplici vizualizarea dosarului curent la { $name } și elementelor din el?
