@@ -5,4 +5,5 @@
 mail-view-known-people = Persona Që i Njoh
 mail-view-recent = Postë Së Fundi
 mail-view-last-five-days = 5 Ditët e Fundit
+mail-view-not-spam = Jo Mesazh i Padëshiruar
 mail-view-has-attachments = Ka Bashkëngjitje

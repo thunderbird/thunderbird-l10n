@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = Gjeni një shtesë alternative
 atn-addons-heading-search-input =
     .placeholder = Kërkoni te addons.thunderbird.net
+atn-addons-heading-search-button =
+    .title = Kërkoni te addons.thunderbird.net
+    .aria-label = Kërkoni te addons.thunderbird.net

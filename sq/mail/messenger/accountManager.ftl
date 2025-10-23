@@ -31,4 +31,9 @@ account-manager-server-default-icon =
 outgoing-server-section-name = Shërbyes Dërgues
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Rregullime për Shërbyesin Dërgues
+outgoing-server-settings-description = Kur administroni identitetet tuaja, mund të përdorni një shërbyes nga kjo listë duke e përzgjedhur si Shërbyes Dërgues, ose mund të përdorni shërbyesin parazgjedhje prej kësaj liste, duke përzgjedhur “Përdor Shërbyesin Parazgjedhje”.
 outgoing-server-type = Lloj Shërbyesi:
+panel-settings-spam = Rregullime për Mesazhe të Padëshiruar
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = U pikas problem me rregullimet për mesazhe të padëshiruar për { $account }. Doni t’i shqyrtoni, para se të ruani ndryshimet?
