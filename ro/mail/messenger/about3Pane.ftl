@@ -277,65 +277,151 @@ threadpane-column-header-recipient = Destinatar
     .title = Sortează după destinatar
 threadpane-column-label-recipient =
     .label = Destinatar
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Destinatar
+    .title = { $title }
 threadpane-column-header-correspondents = Corespondenți
     .title = Sortare după corespondenți
 threadpane-column-label-correspondents =
     .label = Corespondenți
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Corespondenți
+    .title = { $title }
 threadpane-column-header-subject = Subiect
     .title = Sortare după subiect
 threadpane-column-label-subject =
     .label = Subiect
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Subiect
+    .title = { $title }
 threadpane-column-header-date = Dată
     .title = Sortează după dată
 threadpane-column-label-date =
     .label = Dată
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Data
+    .title = { $title }
 threadpane-column-header-received = Primit
     .title = Sortează după data primirii
 threadpane-column-label-received =
     .label = Primit
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Data primirii
+    .title = { $title }
 threadpane-column-header-status = Stare
     .title = Sortează după stare
 threadpane-column-label-status =
     .label = Stare
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Stare
+    .title = { $title }
 threadpane-column-header-size = Mărime
     .title = Sortează după mărime
 threadpane-column-label-size =
     .label = Mărime
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Mărime
+    .title = { $title }
 threadpane-column-header-tags = Etichetă
     .title = Sortează după etichete
 threadpane-column-label-tags =
     .label = Etichetă
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Etichete
+    .title = { $title }
 threadpane-column-header-account = Cont
     .title = Sortează după cont
 threadpane-column-label-account =
     .label = Cont
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Cont
+    .title = { $title }
 threadpane-column-header-priority = Prioritate
     .title = Sortează după prioritate
 threadpane-column-label-priority =
     .label = Prioritate
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Prioritate
+    .title = { $title }
 threadpane-column-header-unread = Necitite
     .title = Numărul de mesaje necitite din conversație
 threadpane-column-label-unread =
     .label = Necitite
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Număr de mesaje necitite
+    .title = { $title }
 threadpane-column-header-total = Total
     .title = Numărul total de mesaje din conversație
 threadpane-column-label-total =
     .label = Total
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Număr total de mesaje
+    .title = { $title }
 threadpane-column-header-location = Adresă
     .title = Sortează după locație
 threadpane-column-label-location =
     .label = Adresă
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Locație
+    .title = { $title }
 threadpane-column-header-id = Ordinea primirii
     .title = Sortează după data primirii
 threadpane-column-label-id =
     .label = Ordinea primirii
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Ordinea primirii
+    .title = { $title }
 threadpane-column-header-delete =
     .title = Șterge un mesaj
 threadpane-column-label-delete =
     .label = Șterge
+threadpane-cell-delete =
+    .aria-label = Șterge
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } răspuns
+        [few] { $count } răspunsuri
+       *[other] { $count } de răspunsuri
+    }
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Indicator de mesaj nou
+    .title = Mesaj nou
+threadpane-message-replied =
+    .alt = Indicator de răspuns
+    .title = Mesaj cu răspuns
 apply-columns-to-menu =
     .label = Aplică coloanele la…
 apply-current-view-to-folder =
