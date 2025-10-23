@@ -156,6 +156,7 @@ account-hub-result-recommended-label = 推荐
 account-hub-result-addon-label = 需要使用附加组件
 account-hub-edit-configuration = 编辑配置
 account-hub-config-success = 在 Mozilla ISPDB 中找到的配置
+account-hub-config-success-unknown = 找到配置
 account-hub-password-info = 您的登录凭据只会存储在您的计算机本地
 account-hub-creating-account = 正在创建账户…
 account-hub-sync-accounts-found = { -brand-short-name } 找到一些已连接的服务
