@@ -16,6 +16,24 @@ cert-error-not-yet-valid = Dëshmia për { $hostname } s’do të jetë e vlefsh
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Dëshmia për { $hostname } s’vjen nga një burim i besuar.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-domain-mismatch =
+    .title = Gabim lidhjeje. Dëshmia për { $hostname } s’është e vlefshme për atë shërbyes. Dikush mund të jetë duke u rrekur të imitojë shërbyesin dhe s’duhet të vazhdoni më tej. Klikoni që të hapen rregullime sigurie shërbyesi.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-after (string) - Certificate is not valid after this time.
+cert-error-inline-expired =
+    .title = Gabim lidhjeje. Dëshmia për { $hostname } skadoi më { $not-after }. Klikoni që të hapen rregullime sigurie shërbyesi.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-before (string) - Certificate is not valid before this time.
+cert-error-inline-not-yet-valid =
+    .title = Gabim lidhjeje. Dëshmia për { $hostname } s’do të jetë e vlefshme para { $not-before }. Klikoni që të hapen rregullime sigurie shërbyesi.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-untrusted-default =
+    .title = Gabim lidhjeje. Dëshmia për { $hostname } s’vjen nga burim i besuar. Klikoni që të hapen rregullime sigurie shërbyesi.
 certificate-check-fetch-button = Merr Dëshminë
 certificate-check-view-button = Shihini Dëshminë
 certificate-check-add-exception-button = Shtoni Përjashtim
