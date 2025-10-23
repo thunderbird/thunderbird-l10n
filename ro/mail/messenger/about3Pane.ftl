@@ -24,6 +24,10 @@ thread-pane-folder-selected-count =
     { $count ->
        *[other] { $count } selectat(e)
     }
+thread-pane-header-context-table-view =
+    .label = Vizualizare tip tabel
+thread-pane-header-context-cards-view =
+    .label = Vizualizare tip fișe
 thread-pane-header-context-hide =
     .label = Ascunde antetul listei de mesaje
 
@@ -105,6 +109,17 @@ quick-filter-bar-search2 =
     .label = Filtrează mesajele
 quick-filter-bar-searching =
     .title = Se caută…
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-search-shortcut =
+    { PLATFORM() ->
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>
+    }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = Filtrează mesajele… { quick-filter-bar-search-shortcut }
 # Label of the search button in the quick filter bar text box. Clicking it will
 # launch a global search.
 quick-filter-bar-search-button =
@@ -156,6 +171,8 @@ folder-pane-get-all-messages-menuitem =
     .accesskey = T
 folder-pane-write-message-button = Mesaj nou
     .title = Creează un mesaj nou
+folder-pane-more-menu-button =
+    .title = Opțiuni panou de dosare
 # Context menu item to toggle display of "Get messages" button in folder pane header
 folder-pane-header-context-toggle-get-messages =
     .label = Afișează „Descarcă mesajele”

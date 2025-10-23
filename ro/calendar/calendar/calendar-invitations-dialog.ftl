@@ -12,6 +12,10 @@ allday-event = Eveniment care durează toată ziua
 recurrent-event =
     .value = Eveniment recurent
 # $locationProperty is the location of the event
+calendar-invitation-location =
+    .value = Locație: { $locationProperty }
+    .tooltiptext = { $locationProperty }
+# $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Locație: { $locationProperty }
 # $organizerProperty is the organizer of the event
