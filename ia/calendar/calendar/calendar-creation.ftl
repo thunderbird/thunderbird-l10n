@@ -4,3 +4,13 @@
 
 select-all-calendars = Seliger toto
 select-none-calendars = Seliger nihil
+calendar-creation-panel-local-settings =
+    .buttonlabelaccept = Crear agenda
+    .buttonaccesskeyaccept = r
+    .buttonlabelextra2 = Retro
+    .buttonaccesskeyextra2 = R
+calendar-creation-panel-addon-settings =
+    .buttonlabelaccept = Crear agenda
+    .buttonaccesskeyaccept = r
+    .buttonlabelextra2 = Retro
+    .buttonaccesskeyextra2 = R
