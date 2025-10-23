@@ -12,6 +12,10 @@ allday-event = Heilsdagsatburður
 recurrent-event =
     .value = Endurtekinn atburður
 # $locationProperty is the location of the event
+calendar-invitation-location =
+    .value = Staðsetning: { $locationProperty }
+    .tooltiptext = { $locationProperty }
+# $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Staðsetning: { $locationProperty }
 # $organizerProperty is the organizer of the event
