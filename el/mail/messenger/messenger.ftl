@@ -501,9 +501,33 @@ menu-mark-not-spam =
     .accesskey = Ν
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Εκτέλεση ελέγχου ανεπιθύμητων
+    .accesskey = κ
+menu-run-spam-on-folder =
+    .label = Εκτέλεση ελέγχου ανεπιθύμητων στον φάκελο
+    .accesskey = κ
 menu-delete-spam =
     .label = Διαγραφή επισημασμένου email ως ανεπιθύμητου στον φάκελο
     .accesskey = Δ
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Άδεισμα ανεπιθύμητων
+    .accesskey = δ
+
+## Thread pane.
+
+column-status-spam =
+    .label = Κατάσταση ανεπιθύμητων
+    .tooltiptext = Ταξινόμηση κατά κατάσταση ανεπιθύμητων
+
+## Message header.
+
+header-spam-button =
+    .label = Ανεπιθύμητο
+    .tooltiptext = Σήμανση μηνύματος ως ανεπιθύμητου
 
 ## Actions for the New Mail Notification
 
@@ -526,3 +550,7 @@ menuitem-label-spam-status =
 ## Prompts
 
 prompt-dont-ask-again = Να μην γίνει ξανά ερώτηση.
+
+## Spam commands
+
+spam-processing-message = Επεξεργασία ανεπιθύμητων μηνυμάτων

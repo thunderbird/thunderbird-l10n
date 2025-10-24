@@ -12,6 +12,10 @@ allday-event = Ολοήμερη εκδήλωση
 recurrent-event =
     .value = Επαναλαμβανόμενη εκδήλωση
 # $locationProperty is the location of the event
+calendar-invitation-location =
+    .value = Τοποθεσία: { $locationProperty }
+    .tooltiptext = { $locationProperty }
+# $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Τοποθεσία: { $locationProperty }
 # $organizerProperty is the organizer of the event

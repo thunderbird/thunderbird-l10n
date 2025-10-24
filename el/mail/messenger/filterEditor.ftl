@@ -4,6 +4,14 @@
 
 rule-menuitem-spam =
     .label = Ανεπιθύμητα
+rule-menuitem-not-spam =
+    .label = Επιθυμητό
+run-filter-before-spam =
+    .label = Φιλτράρισμα πριν από την ταξινόμηση ανεπιθύμητων
+run-filter-after-spam =
+    .label = Φιλτράρισμα μετά την ταξινόμηση ανεπιθύμητων
+rule-action-set-spam-status =
+    .label = Ορισμός κατάστασης ανεπιθύμητου σε
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.
@@ -13,3 +21,4 @@ spam-message-detection-log = Εντοπίστηκε ανεπιθύμητο μή�
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = μετακινήθηκε το μήνυμα με id = { $id } στο «{ $folder }»
+filter-action-log-spam = βαθμολογία ανεπιθύμητων

@@ -97,6 +97,9 @@ toolbar-undelete-button =
 toolbar-spam-button =
     .label = Ανεπιθύμητο
     .tooltiptext = Επισήμανση των επιλεγμένων μηνυμάτων ως ανεπιθύμητων
+toolbar-not-spam-button =
+    .label = Επιθυμητό
+    .tooltiptext = Σήμανση των επιλεγμένων μηνυμάτων ως επιθυμητών
 
 ## View
 

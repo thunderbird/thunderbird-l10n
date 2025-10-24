@@ -5,4 +5,5 @@
 mail-view-known-people = Γνωστά άτομα
 mail-view-recent = Πρόσφατα email
 mail-view-last-five-days = Τελευταίες 5 ημέρες
+mail-view-not-spam = Επιθυμητό
 mail-view-has-attachments = Έχει συνημμένα
