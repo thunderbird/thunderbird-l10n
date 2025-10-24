@@ -6,3 +6,5 @@ select-all-calendars = Vælg alle
 select-none-calendars = Vælg ingen
 calendar-creation-username =
     .value = Brugernavn:
+calendar-creation-network-nocredentials =
+    .label = Denne placering kræver ikke loginoplysninger
