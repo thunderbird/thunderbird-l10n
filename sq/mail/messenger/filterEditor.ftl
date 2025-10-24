@@ -2,6 +2,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+rule-menuitem-spam =
+    .label = Mesazh i padëshiruar
+rule-menuitem-not-spam =
+    .label = Jo mesazh i padëshiruar
+run-filter-before-spam =
+    .label = Filtroji përpara Klasifikimit Si të Padëshiruar
+run-filter-after-spam =
+    .label = Filtroji pas Klasifikimit Si të Padëshiruar
 # Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
