@@ -12,6 +12,10 @@ allday-event = Sự kiện cả ngày
 recurrent-event =
     .value = Sự kiện lặp lại
 # $locationProperty is the location of the event
+calendar-invitation-location =
+    .value = Địa chỉ: { $locationProperty }
+    .tooltiptext = { $locationProperty }
+# $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Địa chỉ: { $locationProperty }
 # $organizerProperty is the organizer of the event
