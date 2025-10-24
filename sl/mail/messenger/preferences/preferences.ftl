@@ -725,6 +725,7 @@ preferences-doh-resolver = Ponudnik: { $name }
 # This is displayed instead of $name in preferences-doh-resolver
 # when the DoH URL is not a valid URL
 preferences-doh-bad-url = Neveljaven URL
+preferences-doh-steering-status = Uporablja se lokalni ponudnik
 preferences-doh-status-active = dejavno
 preferences-doh-status-disabled = izključeno
 # Variables:
