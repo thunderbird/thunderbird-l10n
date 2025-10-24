@@ -13,11 +13,41 @@ addons-and-themes-toolbarbutton =
     .label = Suplimente și teme
     .tooltiptext = Gestionează-ți suplimentele
 
+## Folder Pane
+
+folder-pane-toolbar =
+    .toolbarname = Bară de instrumente panou dosare
+    .accesskey = F
+folder-pane-toolbar-options-button =
+    .tooltiptext = Opțiuni pentru panoul de dosare
+folder-pane-header-label = Dosare
+
 ## Folder Toolbar Header Popup
 
+folder-toolbar-hide-toolbar-toolbarbutton =
+    .label = Ascunde bara de instrumente
+    .accesskey = H
+show-all-folders-label =
+    .label = Toate dosarele
+    .accesskey = A
+show-unread-folders-label =
+    .label = Dosare necitite
+    .accesskey = n
+show-favorite-folders-label =
+    .label = Dosare favorite
+    .accesskey = F
+show-smart-folders-label =
+    .label = Dosare unificate
+    .accesskey = U
+show-recent-folders-label =
+    .label = Dosare recente
+    .accesskey = R
 show-tags-folders-label =
     .label = Etichete
     .accesskey = t
+folder-toolbar-toggle-folder-compact-view =
+    .label = Mod de afișare compact
+    .accesskey = C
 
 ## Edit Menu
 

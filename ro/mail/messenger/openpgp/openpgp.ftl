@@ -69,6 +69,63 @@ openpgp-key-backup-key =
 openpgp-key-send-key =
     .label = Trimite cheia publică prin e-mail
     .accesskey = S
+# Variables:
+# $count (Number) - Number of keys ids to copy.
+openpgp-key-man-copy-key-ids =
+    .label =
+        { $count ->
+            [one] Copiază ID-ul cheii în clipboard
+           *[other] Copiază ID-urile cheilor în clipboard
+        }
+    .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
+openpgp-key-man-copy-fprs =
+    .label =
+        { $count ->
+            [one] Copiază amprenta în clipboard
+           *[other] Copiază amprentele în clipboard
+        }
+    .accesskey = F
+# Variables:
+# $count (Number) - Number of public keys to copy.
+openpgp-key-man-copy-to-clipboard =
+    .label =
+        { $count ->
+            [one] Copiază cheia publică în clipboard
+           *[other] Copiază cheile publice în clipboard
+        }
+    .accesskey = P
+openpgp-key-man-ctx-copy =
+    .label = Copiază
+    .accesskey = C
+# Variables:
+# $count (Number) - Number of fingerprints.
+openpgp-key-man-ctx-copy-fprs =
+    .label =
+        { $count ->
+            [one] Amprentă
+           *[other] Amprente
+        }
+    .accesskey = F
+# Variables:
+# $count (Number) - Number of key ids.
+openpgp-key-man-ctx-copy-key-ids =
+    .label =
+        { $count ->
+            [one] ID cheie
+           *[other] ID-uri chei
+        }
+    .accesskey = K
+# Variables:
+# $count (Number) - Number of public keys.
+openpgp-key-man-ctx-copy-public-keys =
+    .label =
+        { $count ->
+            [one] Cheie publică
+           *[other] Chei publice
+        }
+    .accesskey = P
 openpgp-key-man-close =
     .label = Închide
 openpgp-key-man-reload =

@@ -73,9 +73,23 @@ drop-file-label-attachment =
         [few] Adaugă ca atașamente
        *[other] Adaugă ca atașamente
     }
+drop-file-label-inline =
+    { $count ->
+        [one] Adaugă în mesaj
+        [few] Adaugă în mesaje
+       *[other] Adaugă în mesaje
+    }
 
 ## Reorder Attachment Panel
 
+move-attachment-first-panel-button =
+    .label = Mută primul
+move-attachment-left-panel-button =
+    .label = Mută la stânga
+move-attachment-right-panel-button =
+    .label = Mută la dreapta
+move-attachment-last-panel-button =
+    .label = Mută ultimul
 button-return-receipt =
     .label = Confirmare de primire
     .tooltiptext = Solicită confirmare de primire pentru acest mesaj

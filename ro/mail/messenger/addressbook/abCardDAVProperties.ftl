@@ -17,6 +17,15 @@ carddav-refreshinterval-minutes-value =
             [few] la fiecare { $minute } minute
            *[other] la fiecare { $minute } de minute
         }
+# Variables:
+#   $hours (integer) - Number of hours between address book synchronizations
+carddav-refreshinterval-hours-value =
+    .label =
+        { $hours ->
+            [one] la fiecare oră
+            [few] la fiecare { $ore } ore
+           *[other] la fiecare { $ore } de ore
+        }
 carddav-readonly-label =
     .label = Numai cu drept de citire
     .accesskey = R

@@ -5,6 +5,14 @@
 
 ## Message Header Encryption Button
 
+message-header-show-security-info-key = S
+#   $type (String) - the shortcut key defined in the message-header-show-security-info-key
+message-security-button =
+    .title =
+        { PLATFORM() ->
+            [macos] Afișează securitatea mesajului (⌃ ⌘ { message-header-show-security-info-key })
+           *[other] Afișează securitatea mesajului (Ctrl+Alt+{ message-header-show-security-info-key })
+        }
 openpgp-view-signer-key =
     .label = Afișează cheia semnatarului
 openpgp-view-your-encryption-key =

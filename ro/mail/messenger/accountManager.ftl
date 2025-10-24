@@ -4,6 +4,10 @@
 
 open-preferences-sidebar-button2 = Setări { -brand-short-name }
 open-addons-sidebar-button = Suplimente și teme
+account-action-add-newsgroup-account =
+    .label = Adaugă un cont pentru grupuri de discuții…
+    .accesskey = N
+server-change-restart-required = Necesită repornire pentru aplicarea schimbării numelui de server sau de utilizator.
 edit-vcard-dialog-accept-button = Salvează
     .accesskey = S
 edit-vcard-dialog-cancel-button = Anulează

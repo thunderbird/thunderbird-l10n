@@ -2,6 +2,40 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-encryption-required-part1 = Ai încercat să trimiți un mesaj necriptat către { $name }. Ca politică, mesajele necriptate nu sunt permise.
+msgevent-encryption-required-part2 = Se încearcă începerea unei conversații private. Mesajul tău va fi retrimis la începerea conversației private.
+msgevent-encryption-error = A apărut o eroare la criptarea mesajului. Mesajul nu a fost trimis.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-connection-ended = { $name } a închis deja conexiunea criptată cu tine. Pentru a evita să trimiți accidental un mesaj fără criptare, mesajul tău nu a fost trimis. Te rugăm să închei conversația criptată sau să o repornești.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-setup-error = A apărut o eroare la configurarea unei conversații private cu { $name }.
+# Do not translate 'OTR' (name of an encryption protocol)
+msgevent-msg-reflected = Primești propriile mesaje OTR. Fie încerci să vorbești cu tine, fie cineva îți trimite mesajele înapoi.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-msg-resent = Ultimul mesaj către { $name } a fost retrimis.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-not-private = Mesajul criptat primit de la { $name } nu poate fi citit, deoarece nu comunicați în privat acum.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-unreadable = Ai primit un mesaj criptat ilizibil de la { $name }.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-malformed = Ai primit un mesaj cu date malformate de la { $name }.
+# Do not translate 'OTR' (name of an encryption protocol)
+msgevent-rcvdmsg-general-err = A apărut o eroare neașteptată la încercarea de protejare a conversației prin OTR.
+# Do not translate 'OTR' (name of an encryption protocol)
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-unrecognized = Ai primit un mesaj OTR nerecunoscut de la { $name }.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-for-other-instance = { $name } a trimis un mesaj destinat unei sesiuni diferite. Dacă ești autentificat(ă) de mai multe ori, este posibil să fi primit mesajul în altă sesiune.
 error-enc = A apărut o eroare la criptarea mesajului.
 error-unreadable = Ai transmis un mesaj criptat ilizibil.
 error-malformed = Ai transmis un mesaj de date de format necorespunzător.
