@@ -4,6 +4,12 @@
 
 select-all-calendars = Vælg alle
 select-none-calendars = Vælg ingen
+calendar-creation-wizard-title = Opret ny kalender
+calendar-creation-initial-description = Din kalender kan gemmes på din computer eller på en server, så du kan dele den med familie, venner eller kolleger.
+calendar-creation-initial-computer =
+    .label = På denne computer
+calendar-creation-initial-network =
+    .label = På netværket
 calendar-creation-username =
     .value = Brugernavn:
 calendar-creation-network-nocredentials =
