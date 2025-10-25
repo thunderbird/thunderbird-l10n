@@ -12,6 +12,10 @@ allday-event = Egész napos esemény
 recurrent-event =
     .value = Ismétlődő esemény
 # $locationProperty is the location of the event
+calendar-invitation-location =
+    .value = Hely: { $locationProperty }
+    .tooltiptext = { $locationProperty }
+# $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Hely: { $locationProperty }
 # $organizerProperty is the organizer of the event
