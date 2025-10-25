@@ -128,6 +128,7 @@ account-hub-result-unknown-cert = Nem ellenőrzött tanúsítvány
 account-hub-close-button =
     .title = Bezárás
 account-hub-email-manual-configuration = Kézi konfiguráció
+account-hub-notification-unknown-host = Telepítési információ találva egy harmadik féltől származó domainen
 account-hub-ssl-noencryption = Nincs
 account-hub-result-username-label = Felhasználónév
     .title = Felhasználónév
