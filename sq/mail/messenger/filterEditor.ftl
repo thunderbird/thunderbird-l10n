@@ -10,6 +10,13 @@ run-filter-before-spam =
     .label = Filtroji përpara Klasifikimit Si të Padëshiruar
 run-filter-after-spam =
     .label = Filtroji pas Klasifikimit Si të Padëshiruar
+rule-action-set-spam-status =
+    .label = Vërja Gjendjen Për të Padëshiruar si
+# Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = U pikasën mesazhe të padëshiruar nga { $author } - { $subject } më { $date }
 # Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.

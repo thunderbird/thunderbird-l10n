@@ -205,6 +205,7 @@ address-book-sync-existing = Njëkohësoje me një llogari ekzistuese
 address-book-add-remote-icon =
     .alt = Shtoni një libër të ri adresash të largët
 address-book-add-remote = Shtoni Libër të largët Adresash
+address-book-add-remote-description = Lidheni me një Libër Adresash CardDav të largët
 address-book-add-local-icon =
     .alt = Krijoni libër të ri vendor adresash
 address-book-add-local = Libër i ri vendor Adresash
@@ -214,8 +215,28 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Libër i Ri Adresash LDAP
 address-book-add-ldap-description = Lidheni me një libër adresash LDAP të largët
 account-hub-fetching-sync-accounts = Po pikasen libra adresash dhe kalendarë…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] Ka 1 libër adresash nga 1 llogari
+               *[other] Ka 1 libër adresash nga { $accounts } llogari
+            }
+       *[other]
+            { $accounts ->
+                [one] Ka libër adresash { $addressBooks } nga 1 llogari
+               *[other] Ka libra adresash { $addressBooks } nga { $accounts } llogari
+            }
+    }
 address-book-sync-existing-description = Po merren llogari ekzistuese…
 account-hub-select-address-book-account = Përzgjidhni një llogari me libra Adresash
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } nga { $total } gjithsej
+    .title = { $synced } libra adresash të njëkohësuar, { $available } gati
 account-hub-add-local-address-book = Krijoni një Libër Vendor Adresash
 account-hub-local-address-book-label = Emër Libri Adresash
 account-hub-local-error-text = Ju lutemi, jepni një emër libri adresash

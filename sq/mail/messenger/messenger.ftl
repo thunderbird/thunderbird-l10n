@@ -483,12 +483,51 @@ openpgp-forget = Harro frazëkalime OpenPGP
 quota-panel-percent-used = { $percent }% i mbushur
     .title = Kuota IMAP: { $usage } të përdorur, nga { $limit } gjithsej
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Gjendje Spam-i
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Si i padëshiruar
+    .accesskey = p
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Si jo i padëshiruar
+    .accesskey = j
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Kryer Kontrolle për të Padëshiruar
+    .accesskey = K
+menu-run-spam-on-folder =
+    .label = Zbato mbi Dosjen Kontrolle Poste të Padëshiruar
+    .accesskey = K
+menu-delete-spam =
+    .label = Fshi Postë të Shënuar si të Padëshiruar në Dosje
+    .accesskey = F
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Zbraz Mesazhe të Padëshiruar
+    .accesskey = Z
+
+## Thread pane.
+
+column-status-spam =
+    .label = Gjendje Spam-i
+    .tooltiptext = Renditi sipas gjendje spam-i
+
+## Message header.
+
+header-spam-button =
+    .label = Mesazh i padëshiruar
+    .tooltiptext = Vëri shenjë këtij mesazhi si i padëshiruar
 
 ## Actions for the New Mail Notification
 
@@ -496,6 +535,18 @@ mark-as-read-action = Vëri Shenjë si të Lexuar
 delete-action = Fshije
 mark-as-spam-action = Vëri shenjë si i Padëshiruar
 archive-action = Arkivoje
+
+## Message list.
+
+message-flag-spam = Mesazh i padëshiruar
+menuitem-label-spam =
+    .label = Mesazh i padëshiruar
+menuitem-label-spam-score-origin =
+    .label = Origjinë Vlerësimi si i Padëshiruar
+menuitem-label-spam-percentage =
+    .label = Përqindje të Padëshiruarish
+menuitem-label-spam-status =
+    .label = Gjendje Spam-i
 
 ## Prompts
 
@@ -509,4 +560,7 @@ prompt-dont-ask-again = Mos pyet sërish.
 
 ## Spam commands
 
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Analiza për mesazhe të padëshiruar { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } u plotësua
 spam-processing-message = Po trajtohen mesazhet e padëshiruar
