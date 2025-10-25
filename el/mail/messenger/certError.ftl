@@ -24,7 +24,7 @@ cert-error-inline-domain-mismatch =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 #   $not-after (string) - Certificate is not valid after this time.
 cert-error-inline-expired =
-    .title = Σφάλμα σύνδεσης. Το πιστοποιητικό για το { $hostname } έληξε στις { $not-before }. Κάντε κλικ για να ανοίξετε τις ρυθμίσεις ασφαλείας του διακομιστή.
+    .title = Σφάλμα σύνδεσης. Το πιστοποιητικό για το { $hostname } έληξε στις { $not-after }. Κάντε κλικ για να ανοίξετε τις ρυθμίσεις ασφαλείας του διακομιστή.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 #   $not-before (string) - Certificate is not valid before this time.
