@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 notifications-dialog-title = Tilpas meddelelse om ny mail
-customize-alert-description = Vælg hvilke felter der vises i boksen:
+customize-alert-description = Vælg hvilke felter der vises i pop op-meddelelsen:
 preview-text-checkbox =
     .label = Udsnit af meddelelsen
     .accesskey = U

@@ -7,7 +7,7 @@ account-setup-tab-title = Kontoopsætning
 ## Header
 
 account-setup-title = Tilføj din eksisterende mailadresse
-account-setup-description = For at bruge din nuværende mailadresse, skal du indtaste dine login-oplysninger.
+account-setup-description = For at bruge din nuværende mailadresse, skal du indtaste dine loginoplysninger.
 account-setup-secondary-description = { -brand-product-name } vil automatisk søge efter en anbefalet serverkonfiguration, der virker.
 account-setup-success-title = Kontoen blev oprettet
 account-setup-success-description = Du kan nu bruge denne konto med { -brand-short-name }.
@@ -102,7 +102,7 @@ account-setup-step4-image =
     .title = Forbindelsesfejl
 account-setup-step5-image =
     .title = Konto oprettet
-account-setup-privacy-footnote2 = Dine login-oplysninger vil kun blive gemt lokalt på din computer.
+account-setup-privacy-footnote2 = Dine loginoplysninger vil kun blive gemt lokalt på din computer.
 account-setup-selection-help = Ved du ikke, hvad du skal vælge?
 account-setup-selection-error = Har du brug for hjælp?
 account-setup-success-help = Usikker på, hvad du skal nu?
@@ -193,7 +193,7 @@ insecure-dialog-confirm-button = Bekræft
 
 # Variables:
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
-exchange-dialog-question = { -brand-short-name } fandt oplysninger om dine kontoindstillinger på { $domain }. Vil du fortsætte og indsende dine login-informationer?
+exchange-dialog-question = { -brand-short-name } fandt oplysninger om dine kontoindstillinger på { $domain }. Vil du fortsætte og indsende dine loginoplysninger?
 exchange-dialog-confirm-button = Login
 exchange-dialog-cancel-button = Annuller
 

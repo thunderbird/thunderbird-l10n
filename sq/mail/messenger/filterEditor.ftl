@@ -21,3 +21,4 @@ spam-message-detection-log = U pikasën mesazhe të padëshiruar nga { $author }
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = mesazhi me titull = { $id } u kalua te { $folder }
+filter-action-log-spam = vlerësim si i padëshiruar

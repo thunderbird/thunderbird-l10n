@@ -97,7 +97,7 @@ open-addons-sidebar-button = Tilføjelser og temaer
 ## OS Authentication dialog
 
 # This message can be seen by trying to add a Primary Password.
-primary-password-os-auth-dialog-message-win = For at oprette en hovedadgangskode skal du indtaste dine login-oplysninger til Windows. Dette hjælper dig med at holde dine konti sikre.
+primary-password-os-auth-dialog-message-win = For at oprette en hovedadgangskode skal du indtaste dine loginoplysninger til Windows. Dette hjælper dig med at holde dine konti sikre.
 # This message can be seen by trying to add a Primary Password.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
