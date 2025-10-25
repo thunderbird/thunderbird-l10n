@@ -31,6 +31,7 @@ calendar-creation-network-nocredentials =
     .label = Denne placering kræver ikke loginoplysninger
 calendar-creation-network-loading = Vent, mens dine kalendere bliver fundet.
 calendar-creation-network-notfound = Kunne ikke finde kalendere på denne adresse. Kontrollér dine indstillinger.
+calendar-creation-network-authfail = De indtastede loginoplysninger blev ikke accepteret. Kontrollér dine indstillinger.
 calendar-creation-network-certerror = Kunne ikke finde kalendere på denne placering på grund af et problem med certifikatet.
 calendar-creation-network-subscribe-single = Vælg de kalendere, du vil abonnere på.
 calendar-creation-network-subscribe-multiple = Flere kalendere er tilgængelige på denne adresse. Vælg kalendertype, og markér de kalendere, du vil abonnere på.
