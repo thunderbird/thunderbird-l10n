@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = 削除を元に戻す
     .tooltiptext = 選択したメッセージの削除を元に戻します
+toolbar-spam-button =
+    .label = 迷惑メール
+    .tooltiptext = 選択したメッセージに迷惑マークを付けます
+toolbar-not-spam-button =
+    .label = 非迷惑メール
+    .tooltiptext = 選択したメッセージの迷惑マークを外します
 
 ## View
 
