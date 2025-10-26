@@ -127,4 +127,4 @@ addon-local-install-error-not-signed = Tento doplnok nemohol byť nainštalovan�
 # Variables:
 #   $appVersion (String): the application version.
 addon-install-error-incompatible = Doplnok { $addonName } nemohol byť nainštalovaný, pretože nie je kompatibilný s aplikáciou { -brand-short-name } { $appVersion }.
-addon-install-error-blocklisted = Doplnok { $addonName } nebol byť nainštalovaný, pretože je veľké riziko, že spôsobí problémy so stabilitou alebo bezpečnosťou prehliadača.
+addon-install-error-blocklisted = Doplnok { $addonName } sa nepodarilo nainštalovať, pretože predstavuje vysoké riziko problémov so stabilitou alebo zabezpečením.

@@ -75,9 +75,9 @@ no-proxy-example = Príklad: .mozilla.org, .net.nz
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = Pripojenie na localhost, 127.0.0.1/8, a ::1 nikdy nepoužíva proxy server.
 proxy-password-prompt =
-    .label = Nevyžadovať zadanie autorizačných údajov, ak ich má prehliadač uložené
+    .label = Nevyžadovať overenie, ak je heslo uložené
     .accesskey = i
-    .tooltiptext = Vďaka tejto možnosti sa prehliadač automaticky autorizuje na serveri proxy, ak má preň uložené prihlasovanie údaje. Ak autorizácia zlyhá, prehliadač o údaje požiada.
+    .tooltiptext = Táto možnosť vás automaticky overí pred proxy servermi, ak ste pre ne uložili prihlasovacie údaje. Ak overenie zlyhá, zobrazí sa vám výzva.
 proxy-remote-dns =
     .label = Použiť server proxy pre DNS pri použití SOCKS v5
     .accesskey = r

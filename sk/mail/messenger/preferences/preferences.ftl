@@ -62,7 +62,7 @@ collection-health-report-link = Ďalšie informácie
 # or builds with no Telemetry support available.
 collection-health-report-disabled = Odosielanie údajov je v konfigurácii tohto zostavenia zakázané
 collection-backlogged-crash-reports =
-    .label = Povoliť prehliadaču { -brand-short-name } odosielať vo vašom mene správy o zlyhaní
+    .label = Povoliť { -brand-short-name(case: "dat") } odosielať vo vašom mene správy o zlyhaní
     .accesskey = s
 collection-backlogged-crash-reports-link = Ďalšie informácie
 privacy-security-header = Bezpečnosť
@@ -77,7 +77,7 @@ choose-messenger-language-description = Vyberte si jazyk, v ktorom sa majú zobr
 manage-messenger-languages-button =
     .label = Vybrať alternatívy…
     .accesskey = a
-confirm-messenger-language-change-description = Ak chcete použiť tieto zmeny, reštartujte { -brand-short-name }
+confirm-messenger-language-change-description = Ak chcete použiť tieto zmeny, reštartujte { -brand-short-name(case: "acc") }
 confirm-messenger-language-change-button = Použiť a reštartovať
 update-setting-write-failure-title = Chyba pri ukladaní nastavení aktualizácií
 # Variables:

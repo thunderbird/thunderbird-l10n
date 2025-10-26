@@ -5,7 +5,7 @@
 spam-settings-title = Nastavenia nevyžiadanej pošty
 dialog-header-title =
     .value = Nastavenia nevyžiadanej pošty
-training-description-spam = Ak je táto funkcia povolená, musíte najskôr { -brand-short-name } naučiť nevyžiadanú poštu identifikovať. Pomocou tlačidla Nevyžiadaná správa na paneli s nástrojmi označte doručené správy ako normálne alebo ako nevyžiadané. Následne bude { -brand-short-name } schopný automaticky označovať nevyžiadané správy.
+training-description-spam = Ak je táto funkcia povolená, musíte najskôr { -brand-short-name(case: "acc") } naučiť nevyžiadanú poštu identifikovať. Pomocou tlačidla Nevyžiadaná správa na paneli s nástrojmi označte doručené správy ako normálne alebo ako nevyžiadané. Následne bude { -brand-short-name } schopný automaticky označovať nevyžiadané správy.
 spam-level-checkbox =
     .label = Povoliť rozpoznávanie nevyžiadanej pošty pre tento účet
     .accesskey = P
