@@ -202,7 +202,7 @@ exchange-dialog-cancel-button = Zrušiť
 
 exit-dialog-title = Nie je nakonfigurovaný žiadny e‑mailový účet
 exit-dialog-description = Naozaj chcete zrušiť proces nastavenia? { -brand-short-name } je stále možné používať aj bez e‑mailového účtu, ale mnohé funkcie nebudú k dispozícii.
-account-setup-no-account-checkbox = Používať { -brand-short-name } bez e‑mailového účtu
+account-setup-no-account-checkbox = Používať { -brand-short-name(case: "acc") } bez e‑mailového účtu
     .accesskey = u
 exit-dialog-cancel-button = Pokračovať v nastavení
     .accesskey = P

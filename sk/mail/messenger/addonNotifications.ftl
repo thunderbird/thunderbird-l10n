@@ -90,23 +90,23 @@ addon-install-accept-button =
 
 addon-confirm-install-message =
     { $addonCount ->
-        [one] Táto stránka sa pokúša nainštalovať doplnok pre { -brand-short-name }:
-        [few] Táto stránka sa pokúša nainštalovať { $addonCount } doplnky pre { -brand-short-name }:
-       *[other] Táto stránka sa pokúša nainštalovať { $addonCount } doplnkov pre { -brand-short-name }:
+        [one] Táto stránka chce nainštalovať doplnok do { -brand-short-name(case: "gen") }:
+        [few] Táto stránka chce nainštalovať { $addonCount } doplnky do { -brand-short-name(case: "gen") }:
+       *[other] Táto stránka chce nainštalovať { $addonCount } doplnkov do { -brand-short-name(case: "gen") }:
     }
 addon-confirm-install-unsigned-message =
     { $addonCount ->
-        [one] Upozornenie: táto stránka sa do prehliadača { -brand-short-name } pokúša nainštalovať neoverený doplnok. Pokračujete na vlastné riziko.
-        [few] Upozornenie: táto stránka sa do prehliadača { -brand-short-name } pokúša nainštalovať { $addonCount } neoverené doplnky. Pokračujete na vlastné riziko.
-       *[other] Upozornenie: táto stránka sa do prehliadača { -brand-short-name } pokúša nainštalovať { $addonCount } neoverených doplnkov. Pokračujete na vlastné riziko.
+        [one] Upozornenie: táto stránka by chcela nainštalovať neoverený doplnok do { -brand-short-name(case: "gen") }. Pokračujte na vlastné riziko.
+        [few] Upozornenie: táto stránka by chcela nainštalovať { $addonCount } neoverené doplnky do { -brand-short-name(case: "gen") }. Pokračujte na vlastné riziko.
+       *[other] Upozornenie: táto stránka by chcela nainštalovať { $addonCount } neoverených doplnkov do { -brand-short-name(case: "gen") }. Pokračujte na vlastné riziko.
     }
 # Variables:
 #   $addonCount (Number): the number of add-ons being installed (at least 2)
 addon-confirm-install-some-unsigned-message =
     { $addonCount ->
-        [one] Upozornenie: táto stránka sa do prehliadača { -brand-short-name } pokúša nainštalovať doplnok, ktorý nie je overený. Pokračujete na vlastné riziko.
-        [few] Upozornenie: táto stránka sa do prehliadača { -brand-short-name } pokúša nainštalovať { $addonCount } doplnky, niektoré z nich nie sú overené. Pokračujete na vlastné riziko.
-       *[other] Upozornenie: táto stránka sa do prehliadača { -brand-short-name } pokúša nainštalovať { $addonCount } doplnkov, niektoré z nich nie sú overené. Pokračujete na vlastné riziko.
+        [one] Upozornenie: táto stránka by chcela nainštalovať do { -brand-short-name(case: "gen") } doplnok, ktorý nie je overený. Pokračujete na vlastné riziko.
+        [few] Upozornenie: táto stránka by chcela nainštalovať { $addonCount } doplnky do { -brand-short-name(case: "gen") }, pričom niektoré z nich nie sú overené. Pokračujte na vlastné riziko.
+       *[other] Upozornenie: táto stránka by chcela nainštalovať { $addonCount } doplnkov do { -brand-short-name(case: "gen") }, pričom niektoré z nich nie sú overené. Pokračujte na vlastné riziko.
     }
 
 ## Add-on install errors
@@ -114,13 +114,13 @@ addon-confirm-install-some-unsigned-message =
 ##   $addonName (String): the add-on name.
 
 addon-install-error-network-failure = Doplnok nemohol byť stiahnutý kvôli problémom s pripojením.
-addon-install-error-incorrect-hash = Doplnok nemohol byť nainštalovaný, pretože neodpovedá tomu, čo prehliadač { -brand-short-name } očakával.
+addon-install-error-incorrect-hash = Doplnok nemohol byť nainštalovaný, pretože neodpovedá tomu, čo { -brand-short-name } očakával.
 addon-install-error-corrupt-file = Doplnok stiahnutý z tejto stránky nemohol byť nainštalovaný, pretože je zrejme poškodený.
 addon-install-error-file-access = Doplnok { $addonName } nemohol byť nainštalovaný, pretože { -brand-short-name } nemohol upraviť potrebný súbor.
 addon-install-error-not-signed = { -brand-short-name } zabránil tejto stránke nainštalovať neoverený doplnok.
 addon-install-error-invalid-domain = Doplnok { $addonName } nie je možné nainštalovať z tohto umiestnenia.
 addon-local-install-error-network-failure = Doplnok nemohol byť nainštalovaný kvôli chybe v súborovom systéme.
-addon-local-install-error-incorrect-hash = Tento doplnok nemohol byť nainštalovaný, pretože neodpovedá tomu, čo prehliadač { -brand-short-name } očakával.
+addon-local-install-error-incorrect-hash = Tento doplnok sa nepodarilo nainštalovať, pretože nezodpovedá očakávanému doplnku pre { -brand-short-name }.
 addon-local-install-error-corrupt-file = Doplnok nemohol byť nainštalovaný, pretože je zrejme poškodený.
 addon-local-install-error-file-access = Doplnok { $addonName } nemohol byť nainštalovaný, pretože { -brand-short-name } nemohol upraviť potrebný súbor.
 addon-local-install-error-not-signed = Tento doplnok nemohol byť nainštalovaný, pretože nebol overený.
