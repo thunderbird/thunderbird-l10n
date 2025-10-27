@@ -10,4 +10,6 @@ calendar-creation-initial-computer =
     .label = 保存在我的电脑中
 calendar-creation-initial-network =
     .label = 保存在网络上
+calendar-creation-username =
+    .value = 用户名：
 calendar-creation-network-loading = 正在查找您的日历，请稍候。
