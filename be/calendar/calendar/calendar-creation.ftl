@@ -4,6 +4,14 @@
 
 select-all-calendars = Вылучыць усё
 select-none-calendars = Скінуць вылучэнне
+calendar-creation-wizard-title = Новы каляндар
+calendar-creation-initial-description = Вы можаце захоўваць новы каляндар на вашым камп'ютары або на серверы, каб мець да яго аддалены доступ ці падзяліцца ім са сваімі сябрамі або калегамі.
+calendar-creation-initial-computer =
+    .label = На камп'ютары
+calendar-creation-initial-network =
+    .label = У сетцы
+calendar-creation-username =
+    .value = Імя карыстальніка:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = Стварыць каляндар
     .buttonaccesskeyaccept = С
