@@ -4,6 +4,14 @@
 
 select-all-calendars = Valitse kaikki
 select-none-calendars = Älä valitse mitään
+calendar-creation-wizard-title = Luo uusi kalenteri
+calendar-creation-initial-description = Kalenterin voi tallentaa joko tälle tietokoneelle tai palvelimelle, jolloin sitä voi käyttää verkossa. Voit myös jakaa jonkin kalenterin ystäviesi tai työtovereidesi kanssa.
+calendar-creation-initial-computer =
+    .label = Tällä tietokoneella
+calendar-creation-initial-network =
+    .label = Verkossa
+calendar-creation-username =
+    .value = Käyttäjätunnus:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = Luo kalenteri
     .buttonaccesskeyaccept = L
@@ -36,5 +44,6 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = Odota hetki, kalentereitasi etsitään.
 calendar-creation-network-notfound = Tästä sijainnista ei löytynyt kalentereita. Tarkista asetukset.
 calendar-creation-network-authfail = Syöttämiäsi kirjautumistietoja ei hyväksytty. Tarkista asetukset.
+calendar-creation-network-certerror = Kalentereita ei löytynyt tästä sijainnista varmenneongelman vuoksi.
 calendar-creation-network-subscribe-single = Valitse kalenterit, jotka haluat tilata.
 calendar-creation-network-subscribe-multiple = Tässä sijainnissa on monen tyyppisiä kalentereita. Valitse ensin kalenterin tyyppi ja valitse sitten kalenterit, jotka haluat tilata.
