@@ -4,6 +4,14 @@
 
 select-all-calendars = Hautatu dena
 select-none-calendars = Hautatu bat
+calendar-creation-wizard-title = Sortu egutegi berria
+calendar-creation-initial-description = Zure egutegia zure ordenagailuan gorde edo urruneko sarrera ziurtatzen duen zerbitzari batean gorde daiteke zure lagun edo lankideekin partekatzeko.
+calendar-creation-initial-computer =
+    .label = Nire ordenagailuan
+calendar-creation-initial-network =
+    .label = Sarean
+calendar-creation-username =
+    .value = Erabiltzaile-izena:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = Sortu egutegi berria
     .buttonaccesskeyaccept = S
