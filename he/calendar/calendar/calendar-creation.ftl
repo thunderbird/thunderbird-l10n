@@ -2,6 +2,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-creation-wizard-title = יצירת לוח שנה חדש
+calendar-creation-initial-description = לוח השנה שלך יכול להישמר על המחשב שלך או על שרת כדי לאפשר גישה מרחוק ושיתופו עם חברים או עמיתים לעבודה.
+calendar-creation-initial-computer =
+    .label = במחשב שלי
+calendar-creation-initial-network =
+    .label = ברשת
+calendar-creation-username =
+    .value = שם משתמש:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = יצירת לוח שנה חדש
     .buttonaccesskeyaccept = צ
