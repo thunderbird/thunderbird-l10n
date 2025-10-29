@@ -88,7 +88,7 @@ account-setup-success-settings-db = Fann konfigurasjonen i Mozillas ISP-database
 account-setup-success-settings-disk = Konfigurasjon funne på installasjonen av { -brand-short-name }.
 account-setup-success-settings-isp = Oppsett funne hos e-postleverandøren.
 # Note: Microsoft Exchange is a product name.
-account-setup-success-settings-exchange = Konfigurasjon vart funnen for ein Microsoft Exchange-server.
+account-setup-success-settings-exchange = Fann konfigurasjon for ein Microsoft Exchange-server.
 
 ## Illustrations
 

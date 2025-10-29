@@ -21,3 +21,4 @@ calendar-creation-network-notfound = Kan ikkje finne kalendrar på denne adressa
 calendar-creation-network-authfail = Innlogginga du spesifiserte fungerte ikkje. Kontroller innstillingane dine.
 calendar-creation-network-certerror = Finn ikkje kalendrar på denne plasseringa på grunn av eit sertifikatproblem.
 calendar-creation-network-subscribe-single = Vel kalendrane du vil abonnere på.
+calendar-creation-network-subscribe-multiple = Fleire kalendertypar er tilgjengelege på denne adressa. Vel ei kalendertype og marker kalendrane du vil abonnere på.
