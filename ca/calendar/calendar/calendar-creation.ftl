@@ -4,6 +4,14 @@
 
 select-all-calendars = Selecciona-ho tot
 select-none-calendars = No en seleccionis cap
+calendar-creation-wizard-title = Crea un calendari nou
+calendar-creation-initial-description = Podeu emmagatzemar el calendari a l'ordinador o en un servidor per poder accedir-hi remotament o compartir-lo amb els vostres amics o companys de feina.
+calendar-creation-initial-computer =
+    .label = Al meu ordinador
+calendar-creation-initial-network =
+    .label = A la xarxa
+calendar-creation-username =
+    .value = Nom d'usuari:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = Crea un calendari
     .buttonaccesskeyaccept = r
