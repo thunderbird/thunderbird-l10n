@@ -35,3 +35,6 @@ calendar-creation-network-nocredentials =
     .label = Для цього розташування не потрібні облікові дані
 calendar-creation-network-loading = Будь ласка, зачекайте доки обробляються ваші календарі.
 calendar-creation-network-notfound = Не вдалося знайти календарі в цьому розташуванні. Будь ласка, перевірте свої налаштування.
+calendar-creation-network-authfail = Введені вами облікові дані було відхилено. Будь ласка, перевірте свої налаштування.
+calendar-creation-network-subscribe-single = Оберіть календарі, на які б ви хотіли підписатися.
+calendar-creation-network-subscribe-multiple = Для цього розташування доступні декілька типів календарів. Оберіть тип календаря, потім позначте календарі, на які ви хочете підписатися.
