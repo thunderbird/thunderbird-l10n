@@ -4,6 +4,14 @@
 
 select-all-calendars = Барлығын таңдау
 select-none-calendars = Ешнәрсе таңдамау
+calendar-creation-wizard-title = Жаңа күнтізбені жасау
+calendar-creation-initial-description = Сіздің күнтізбеңіз компьютеріңізде сақтала алады, немесе оған қашықтан қатынау немесе онымен достар және жұмыстастармен бөлісу үшін серверде сақтала алады.
+calendar-creation-initial-computer =
+    .label = Менің компьютерімде
+calendar-creation-initial-network =
+    .label = Желіде
+calendar-creation-username =
+    .value = Пайдаланушы:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = Күнтізбені жасау
     .buttonaccesskeyaccept = с
@@ -36,4 +44,6 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = Күнтізбелеріңіз өңделгенше күте тұрыңыз.
 calendar-creation-network-notfound = Бұл орналасудан күнтізбелер табылмады. Баптауларды тексеріңіз.
 calendar-creation-network-authfail = Сіз енгізген тіркелу мәліметтері қабылданбады. Баптауларды тексеріңіз.
+calendar-creation-network-certerror = Сертификат мәселесіне байланысты бұл жерде күнтізбелер табылмады.
+calendar-creation-network-subscribe-single = Жазылғыңыз келетін күнтізбелерді таңдаңыз.
 calendar-creation-network-subscribe-multiple = Бұл орналасу үшін бірнеше түрлі күнтізбелер қолжетімді. Күнтізбе түрін таңдап, жазылғыңыз келетін күнтізбелерді белгілеңіз.
