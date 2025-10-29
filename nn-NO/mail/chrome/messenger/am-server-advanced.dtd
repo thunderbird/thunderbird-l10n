@@ -4,13 +4,13 @@
 
 <!ENTITY serverAdvanced.label "Avanserte konto-innstillingar">
 <!-- LOCALIZATION NOTE (serverDirectory.label): Do not translate "IMAP" -->
-<!ENTITY serverDirectory.label "IMAP-sørvarkatalog:">
+<!ENTITY serverDirectory.label "IMAP-serverkatalog:">
 <!ENTITY serverDirectory.accesskey "t">
 <!ENTITY usingSubscription.label "Vis berre mapper du tingar">
 <!ENTITY usingSubscription.accesskey "b">
 <!ENTITY dualUseFolders.label "Serveren støttar mapper som inneheld undermapper og meldingar">
 <!ENTITY dualUseFolders.accesskey "T">
-<!ENTITY maximumConnectionsNumber.label "Høgste tal på sørvartilkoplingar til mellomlageret">
+<!ENTITY maximumConnectionsNumber.label "Høgste tal på servertilkoplingar til mellomlageret">
 <!ENTITY maximumConnectionsNumber.accesskey "t">
 <!-- LOCALIZATION NOTE (namespaceDesc.label): Do not translate "IMAP" -->
 <!ENTITY namespaceDesc.label "Desse innstillingane fastset namneromma på IMAP-serveren">

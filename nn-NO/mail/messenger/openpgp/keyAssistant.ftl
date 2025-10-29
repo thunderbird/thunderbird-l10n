@@ -74,7 +74,7 @@ openpgp-key-assistant-key-source =
 openpgp-key-assistant-key-collected-attachment = e-postvedlegg
 # Autocrypt is the name of a standard.
 openpgp-key-assistant-key-collected-autocrypt = Autokryptar hovud
-openpgp-key-assistant-key-collected-keyserver = nøkkelsørvar
+openpgp-key-assistant-key-collected-keyserver = nøkkelserver
 # Web Key Directory (WKD) is a concept.
 openpgp-key-assistant-key-collected-wkd = Nettnøkkelkatalog
 # Do not translate GnuPG, it's a name of other software.

@@ -116,7 +116,7 @@ tooltip-telephone = Telefonnummer
 #   character of the string should be used as the access key for this
 #   field.
 chat-room-field-room = _Rom
-chat-room-field-server = _Sørvar
+chat-room-field-server = _Server
 chat-room-field-nick = _Skjermnamn
 chat-room-field-password = _Passord
 # LOCALIZATION NOTE (conversation-muc-*):
@@ -245,7 +245,7 @@ options-connection-security = Tilkoplingssikkerheit
 options-connection-security-require-encryption = Krev kryptering
 options-connection-security-opportunistic-tls = Bruk kryptering dersom tilgjengeleg
 options-connection-security-allow-unencrypted-auth = Tillat å senda passordet ukryptert
-options-connect-server = Sørvar
+options-connect-server = Server
 options-connect-port = Port
 options-domain = Domene
 # LOCALIZATION NOTE (*-protocol-name)

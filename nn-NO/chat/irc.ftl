@@ -24,7 +24,7 @@ join-chat-password = _Passord
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
-options-server = Sørvar
+options-server = Server
 options-port = Port
 options-ssl = Bruk SSL
 options-encoding = Teiknsett

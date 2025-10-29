@@ -12,7 +12,7 @@ matrix-username-hint = Matrix-ID
 #   account wizard windows.
 options-save-token = Lagre tilgangssymbol
 options-device-display-name = Visingsnamn for eining
-options-homeserver = Sørvar
+options-homeserver = Server
 options-backup-passphrase = Passordfrase for nøkkelsikkerheitskopiering
 # LOCALIZATION NOTE (options-encryption-*):
 #   These are strings used to build the status information of the encryption

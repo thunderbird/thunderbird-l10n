@@ -8,12 +8,12 @@
 <!ENTITY addressingGroupTitle.label "Adressering">
 <!ENTITY addressingText.label "Ved adresseoppslag:">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
-<!ENTITY useGlobal.label "Bruk globale LDAP-sørvarnnstillingar for denne kontoen">
+<!ENTITY useGlobal.label "Bruk globale LDAP-servernnstillingar for denne kontoen">
 <!ENTITY useGlobal.accesskey "u">
 <!ENTITY editDirectories.label "Rediger mapper …">
 <!ENTITY editDirectories.accesskey "R">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
-<!ENTITY directories.label "Bruk ein annan LDAP-sørvar:">
+<!ENTITY directories.label "Bruk ein annan LDAP-server:">
 <!ENTITY directories.accesskey "B">
 <!ENTITY directoriesNone.label "Ingen">
 

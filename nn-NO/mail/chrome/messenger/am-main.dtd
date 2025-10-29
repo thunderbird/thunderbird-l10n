@@ -37,8 +37,8 @@
 <!ENTITY manageIdentities.label "Handsame identitetar …">
 <!ENTITY manageIdentities.accesskey "H">
 <!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Utgåande sørvar (SMTP):">
+<!ENTITY smtpName.label "Utgåande server (SMTP):">
 <!ENTITY smtpName.accesskey "U">
 <!ENTITY smtpDefaultServer.label "Bruk standard server">
-<!ENTITY smtpServerEdit.label "Rediger SMTP-sørvar…">
+<!ENTITY smtpServerEdit.label "Rediger SMTP-server…">
 <!ENTITY smtpServerEdit.accesskey "P">

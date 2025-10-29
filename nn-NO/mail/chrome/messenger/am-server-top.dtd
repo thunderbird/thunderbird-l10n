@@ -4,9 +4,9 @@
 
 <!ENTITY messageStorage.label "Meldingslagring">
 <!ENTITY securitySettings.label "Tryggingsinnstillingar">
-<!ENTITY serverSettings.label "Sørvarinnstillingar">
-<!ENTITY serverType.label "Sørvartype:">
-<!ENTITY serverName.label "Sørvarnamn:">
+<!ENTITY serverSettings.label "Serverinnstillingar">
+<!ENTITY serverType.label "Servertype:">
+<!ENTITY serverName.label "Servernamn:">
 <!ENTITY serverName.accesskey "n">
 <!ENTITY userName.label "Brukarnamn:">
 <!ENTITY userName.accesskey "B">
@@ -20,7 +20,7 @@
 <!ENTITY biffStart.label "Sjå etter nye meldingar kvart ">
 <!ENTITY biffStart.accesskey "r">
 <!ENTITY biffEnd.label "minutt">
-<!ENTITY useIdleNotifications.label "Tillat beinveges sørvarvarsel når nye meldingar vert mottekne">
+<!ENTITY useIdleNotifications.label "Tillat beinveges servervarsel når nye meldingar vert mottekne">
 <!ENTITY useIdleNotifications.accesskey "T">
 <!ENTITY connectionSecurity.label "Tilkoplingssikkerheit:">
 <!ENTITY connectionSecurity.accesskey "T">
