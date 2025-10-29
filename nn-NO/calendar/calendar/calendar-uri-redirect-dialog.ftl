@@ -6,7 +6,7 @@ calendar-uri-redirect-window-title = Omdirigering av URI for kalender
 # Variables:
 # $calendarName (String) - Display name of the calendar.
 calendar-uri-redirect-description =
-    Sørvaren omdirigerer URI for kalenderen «{ $calendarName }».
+    Serveren omdirigerer URI for kalenderen «{ $calendarName }».
     Godta omdirigering og begynne å bruke den nye URI-en for denne kalenderen?
 calendar-uri-redirect-original-uri-label = Gjeldande URI:
 calendar-uri-redirect-target-uri-label = Omdirigerer til ny URI:

@@ -17,7 +17,7 @@
 <!ENTITY smtpListDelete.accesskey "S">
 <!ENTITY smtpListSetDefault.label "Vel standard">
 <!ENTITY smtpListSetDefault.accesskey "e">
-<!ENTITY serverDetails.label "Detaljar om den valde sørvaren:">
+<!ENTITY serverDetails.label "Detaljar om den valde serveren:">
 <!ENTITY serverDescription.label "Skildring: ">
 <!ENTITY serverName.label "Sørvarnamn: ">
 <!ENTITY serverPort.label "Port: ">

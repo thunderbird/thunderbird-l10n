@@ -207,10 +207,10 @@ minor-error = Ein feil har oppstått under lesing av kalenderdata: { $name }.  M
 still-read-only-error = Ein feil har oppstått under lesing av kalenderdata: { $name }.
 utf8-decode-error = Ein feil har oppstått under dekoding av ei iCalendar (ics)-fil til UTF-8. Kontroller at fila, medrekna symbol og utheva teikn, er koda med UTF-8.
 ics-malformed-error = Lesing av ei iCalendar (ics)-fil feila. Kontroller at fila samsvarar med iCalendar (ics)-filsyntaks.
-item-modified-on-server-title = Hending endra på sørvaren
-item-modified-on-server = Denne hendinga er nyleg blitt endra på sørvaren.
-modify-will-lose-data = Dersom du sender inn endringane dine, overskriv du endringane som er gjort på sørvaren.
-delete-will-lose-data = Slettar du denne hendinga vil endringane som er gjort på sørvaren gå tapt.
+item-modified-on-server-title = Hending endra på serveren
+item-modified-on-server = Denne hendinga er nyleg blitt endra på serveren.
+modify-will-lose-data = Dersom du sender inn endringane dine, overskriv du endringane som er gjort på serveren.
+delete-will-lose-data = Slettar du denne hendinga vil endringane som er gjort på serveren gå tapt.
 calendar-conflicts-dialog =
     .buttonlabelcancel = Forkast endringane mine og last inn på nytt
 proceed-modify =
@@ -221,8 +221,8 @@ proceed-delete =
 dav-not-dav = Ressursen på { $name } er anten ikkje ei DAV-samling eller er ikkje tilgjengeleg
 # $name calendar name
 dav-dav-not-cal-dav = Ressursen på { $name } er ei DAV-samling, men ikkje ein CalDAV-kalender
-item-put-error = Det oppstod ein feil ved lagring av hendingar på sørvaren.
-item-delete-error = Det oppstod ein feil ved sletting av hendingar på sørvaren.
+item-put-error = Det oppstod ein feil ved lagring av hendingar på serveren.
+item-delete-error = Det oppstod ein feil ved sletting av hendingar på serveren.
 cal-dav-request-error = Det oppstod ein feil ved sending av invitasjonen.
 cal-dav-response-error = Det oppstod ein feil ved sending av svaret.
 # $statusCode status code
@@ -233,9 +233,9 @@ cal-dav-request-status-code-string-403 = Brukaren manglar nødvendige rettar for
 cal-dav-request-status-code-string-404 = Fann ikkje resursen.
 cal-dav-request-status-code-string-409 = Resurskonflikt.
 cal-dav-request-status-code-string-412 = Vilkåra feila.
-cal-dav-request-status-code-string-500 = Intern sørvarfeil.
+cal-dav-request-status-code-string-500 = Intern serverfeil.
 cal-dav-request-status-code-string-502 = Problem med gateway (proxy-konfigurasjon?).
-cal-dav-request-status-code-string-503 = Intern sørvarfeil (sørvaren er mellombels nede?).
+cal-dav-request-status-code-string-503 = Intern serverfeil (serveren er mellombels nede?).
 # $name name of calendar
 cal-dav-redirect-title = Oppdatere plassering for kalenderen { $name }?
 # $name name of calendar

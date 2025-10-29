@@ -19,13 +19,13 @@ connection-srv-lookup = Ser etter SRV-oplysningar
 #   connection attempt.
 connection-error-invalid-username = Ugyldig brukarnamn (brukarnamnet må innehalda eit '@'-teikn)
 connection-error-failed-to-create-a-socket = Klarte ikkje å oppretta ein socket (Er du i fråkopla modus?)
-connection-error-server-closed-connection = Sørvaren lèt att tilkoplinga
+connection-error-server-closed-connection = Serveren lèt att tilkoplinga
 connection-error-reset-by-peer = Tilkoplinga avbroten av motparten
 connection-error-timed-out = Tilkoplinga fekk tidsavbrot
 connection-error-received-unexpected-data = Mottok uventa data
 connection-error-incorrect-response = Mottok ein ugyldig respons
-connection-error-start-tls-required = Sørvaren krev kryptering, men du har slått det av
-connection-error-start-tls-not-supported = Sørvaren støttar ikkje kryptering, men konfigurasjonen din krev det.
+connection-error-start-tls-required = Serveren krev kryptering, men du har slått det av
+connection-error-start-tls-not-supported = Serveren støttar ikkje kryptering, men konfigurasjonen din krev det.
 connection-error-failed-to-start-tls = Klarte ikkje å starta kryptering
 connection-error-no-auth-mec = Ingen autentiseringsmåtar vert tilbydde av serveren.
 connection-error-no-compatible-auth-mec = Ingen av autentiseringsmåtane som serveren tilbyr er støtta.
@@ -35,7 +35,7 @@ connection-error-not-authorized = Ikkje autorisert (Skreiv du inn feil passord?)
 connection-error-failed-to-get-a-resource = Klarte ikkje å lasta ned ein resurs
 connection-error-failed-max-resource-limit = Denne kontoen er kopla til frå altfor mange plassar samstundes.
 connection-error-failed-resource-not-valid = Resursen er ugyldig.
-connection-error-xmpp-not-supported = Denne sørvaren stør ikkje XMPP
+connection-error-xmpp-not-supported = Denne serveren stør ikkje XMPP
 # LOCALIZATION NOTE (conversation-error-not-delivered):
 #   This is displayed in a conversation as an error message when a message
 #   the user has sent wasn't delivered.
@@ -54,7 +54,7 @@ conversation-error-creation-failed-not-allowed = Avgrensa tilgang: Du har ikkje 
 #   This is displayed in a conversation as an error message when remote server
 #   is not found.
 #   $mucName is the name of MUC room.
-conversation-error-join-failed-remote-server-not-found = Klarte ikkje å kople til rommet { $mucName }, fordi sørvaren rommet er styrt frå ikkje kunne bli nådd.
+conversation-error-join-failed-remote-server-not-found = Klarte ikkje å kople til rommet { $mucName }, fordi serveren rommet er styrt frå ikkje kunne bli nådd.
 conversation-error-change-topic-failed-not-authorized = Du er ikkje godkjend for å bestemma emne i dette rommet.
 #   This is displayed in a conversation as an error message when the user sends
 #   a message to a room that he is not in.
@@ -67,7 +67,7 @@ conversation-error-send-failed-as-not-inroom = Klarte ikkje å senda melding til
 #   $message is the text of the message that wasn't delivered.
 conversation-error-send-failed-as-recipient-not-inroom = Klarte ikkje å senda melding til { $jabberIdentifier } sidan mottakaren ikkje lenger er i rommet: { $message }
 #   These are displayed in a conversation as a system error message.
-conversation-error-remote-server-not-found = Klarte ikkje å finne sørvaren til mottakaren
+conversation-error-remote-server-not-found = Klarte ikkje å finne serveren til mottakaren
 conversation-error-unknown-send-error = Det oppstod ein ukjend feil då meldiinga skulle sendast.
 #   $nick is the name of the message recipient.
 conversation-error-send-service-unavailable = Meldingar kan akkurat no ikkje sendast til { $nick }.
@@ -264,7 +264,7 @@ odnoklassniki-username-hint = Profil-ID
 # LOCALIZATION NOTE (command-*):
 #  These are the help messages for each command.
 # $commandName (String): command name
-command-join3 = { $commandName } [&lt;rom&gt;[@&lt;server&gt;][/&lt;kallenamn&gt;]] [&lt;passord&gt;]: Kople til eit rom, eller spesifiser ein annan sørvar, kallenamn eller passord for rommet.0
+command-join3 = { $commandName } [&lt;rom&gt;[@&lt;server&gt;][/&lt;kallenamn&gt;]] [&lt;passord&gt;]: Kople til eit rom, eller spesifiser ein annan server, kallenamn eller passord for rommet.0
 # $commandName (String): command name
 command-part2 = { $commandName } [&lt;melding&gt;]: Forlat rommet med ei valfri melding.
 # $commandName (String): command name

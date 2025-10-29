@@ -4,7 +4,7 @@
 
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
-cert-error-domain-mismatch = Sertifikatet for { $hostname } er ikkje gyldig for den sørvaren. Nokon freistar å etterlikne sørvaren, og du bør ikkje halde fram.
+cert-error-domain-mismatch = Sertifikatet for { $hostname } er ikkje gyldig for den serveren. Nokon freistar å etterlikne serveren, og du bør ikkje halde fram.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 #   $not-after (string) - Certificate is not valid after this time.

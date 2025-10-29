@@ -40,8 +40,8 @@
 <!ENTITY addTag.label "Merk melding">
 <!ENTITY setJunkScore.label "Sett uønskt-status til">
 <!ENTITY deleteMessage.label "Slett melding">
-<!ENTITY deleteFromPOP.label "Slett frå POP-sørvaren">
-<!ENTITY fetchFromPOP.label "Hent frå POP-sørvaren">
+<!ENTITY deleteFromPOP.label "Slett frå POP-serveren">
+<!ENTITY fetchFromPOP.label "Hent frå POP-serveren">
 <!ENTITY ignoreThread.label "Ignorer tråd">
 <!ENTITY ignoreSubthread.label "Ignorer undertråd">
 <!ENTITY watchThread.label "Følg tråd">

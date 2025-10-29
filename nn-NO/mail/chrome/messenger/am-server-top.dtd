@@ -29,7 +29,7 @@
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY authMethod.label "Autentiseringsmetode:">
 <!ENTITY authMethod.accesskey "i">
-<!ENTITY leaveOnServer.label "Lat meldingar liggje på sørvaren">
+<!ENTITY leaveOnServer.label "Lat meldingar liggje på serveren">
 <!ENTITY leaveOnServer.accesskey "m">
 <!ENTITY headersOnly.label "Hent berre meldingshovuda">
 <!ENTITY headersOnly.accesskey "e">
@@ -61,7 +61,7 @@
 <!ENTITY maxMessagesStart.accesskey "S">
 <!-- LOCALIZATION NOTE (maxMessagesEnd.label) : see note for maxMessagesStart.label -->
 <!ENTITY maxMessagesEnd.label "meldingar">
-<!ENTITY alwaysAuthenticate.label "Alltid spør etter autentisering ved tilkopling til denne sørvaren">
+<!ENTITY alwaysAuthenticate.label "Alltid spør etter autentisering ved tilkopling til denne serveren">
 <!ENTITY alwaysAuthenticate.accesskey "A">
 <!ENTITY newsrcFilePath1.label "News.rc-fil:">
 <!ENTITY newsrcPicker1.label "Vel News.rc-fil">

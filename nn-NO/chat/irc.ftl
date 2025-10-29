@@ -10,11 +10,11 @@ irc-username-hint = kallenamn
 # LOCALIZATION NOTE (connection-error-*):
 #   These will show in the account manager if the account is
 #   disconnected because of an error.
-connection-error-lost = Mista tilkoplinga til sørvaren
+connection-error-lost = Mista tilkoplinga til serveren
 connection-error-time-out = Tilkoplinga fekk tidsavbrot
 # $username (String) username
 connection-error-invalid-username = { $username } kan ikkje nyttast som brukarnamn
-connection-error-invalid-password = Ugyldig sørvarpassord
+connection-error-invalid-password = Ugyldig serverpassord
 connection-error-password-required = Skriv inn passord
 connection-error-invalid-user-password = Ugyldig passord
 # LOCALIZATION NOTE (join-chat-*):
@@ -30,7 +30,7 @@ options-ssl = Bruk SSL
 options-encoding = Teiknsett
 options-quit-message = Avsluttingsmelding
 options-part-message = Lukkemelding
-options-show-server-tab = Vis melding frå sørvaren
+options-show-server-tab = Vis melding frå serveren
 options-alternate-nicks = Alternative kallenamn
 # LOCALIZATION NOTE (ctcp-version):
 #   $username is the nickname of the user whose version was requested.
@@ -62,7 +62,7 @@ command-join = { $commandName } &lt;rom1&gt;[,&lt;rom2&gt;]* [&lt;nykel1&gt;[,&l
 # $commandName is the command name
 command-kick = { $commandName } &lt;kallenamn&gt; [&lt;melding&gt;]: Fjern nokre frå ein kanal. Du må vera kanaloperatør for å gjera dette.
 # $commandName is the command name
-command-list = { $commandName }: Viser ei liste over alle praterom på dette nettverket. Åtvaring, nokre sørvarar vil kopla deg frå dersom du prøver dette.
+command-list = { $commandName }: Viser ei liste over alle praterom på dette nettverket. Åtvaring, nokre serverar vil kopla deg frå dersom du prøver dette.
 # $commandName is the command name
 command-memoserv = { $commandName } &lt;kommando&gt;: Send ein kommando til MemoServ.
 # $commandName is the command name
@@ -84,13 +84,13 @@ command-operserv = { $commandName } &lt;kommando&gt;: Send ein kommando til Oper
 # $commandName is the command name
 command-part = { $commandName } [melding]: Forlat den noverande kanalen, valfritt med ei melding.
 # $commandName is the command name
-command-ping = { $commandName } [&lt;kallenamn&gt;]: Spør om kor mykje tidsforseinking ein brukar (eller sørvaren, om ingen er spesifisert) har.
+command-ping = { $commandName } [&lt;kallenamn&gt;]: Spør om kor mykje tidsforseinking ein brukar (eller serveren, om ingen er spesifisert) har.
 # $commandName is the command name
-command-quit = { $commandName } &lt;melding&gt;: Koplar frå sørvaren, valfritt med ei melding.
+command-quit = { $commandName } &lt;melding&gt;: Koplar frå serveren, valfritt med ei melding.
 # $commandName is the command name
-command-quote = { $commandName } &lt;kommando&gt;: Sender ein rå-kommando til sørvaren.
+command-quote = { $commandName } &lt;kommando&gt;: Sender ein rå-kommando til serveren.
 # $commandName is the command name
-command-time = { $commandName }: Viser gjeldande lokal tid på IRC-sørvaren.
+command-time = { $commandName }: Viser gjeldande lokal tid på IRC-serveren.
 # $commandName is the command name
 command-topic = { $commandName } [&lt;nytt emne&gt;]: Vis eller endra kanalemnet.
 # $commandName is the command name
@@ -183,8 +183,8 @@ error-too-many-channels = Kan ikkje kopla til { $name }; du er tilkopla for mang
 error-nick-collision = Kallenamnet er allereie i bruk, endrar namn til { $name } [{ $details }].
 #    $name is the nickname or channel name that isn't available.
 error-erroneous-nickname = { $name } er ikkje eit tilate kallenamn.
-error-banned = Du er utestengd frå denne sørvaren.
-error-banned-soon = Du vil snart bli utestengd frå denne sørvaren.
+error-banned = Du er utestengd frå denne serveren.
+error-banned-soon = Du vil snart bli utestengd frå denne serveren.
 error-mode-wrong-user = Du kan ikkje endra brukarmodus for andre brukarar.
 #    $name is the nickname or channel name that isn't available.
 error-no-such-nick = { $name } er ikkje tilkopla
@@ -216,7 +216,7 @@ error-send-message-failed = Ein feil oppstod ved sending av den siste meldinga d
 error-channel-forward = Du kan ikkje kopla til { $name }, og vart automatisk omdirigert til { $details }.
 #    $mode is the mode that the user tried to set but was not recognized
 #    by the server as a valid mode.
-error-unknown-mode = '{ $mode }' er ikkje eit gyldig brukarmodus på denne sørvaren.
+error-unknown-mode = '{ $mode }' er ikkje eit gyldig brukarmodus på denne serveren.
 # LOCALIZATION NOTE (tooltip-*):
 #    These are the descriptions given in a tooltip with information received
 #    from a whois response.
