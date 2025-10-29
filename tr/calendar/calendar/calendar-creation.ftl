@@ -17,6 +17,7 @@ calendar-creation-location =
     .value = Konum:
 calendar-creation-network-nocredentials =
     .label = Bu konum kimlik bilgisi gerektirmez.
+calendar-creation-network-loading = Lütfen takvimleriniz keşfedilirken bekleyin.
 calendar-creation-network-notfound = Bu konumda takvim bulunamadı. Lütfen ayarlarınızı kontrol edin.
 calendar-creation-network-authfail = Girdiğiniz kimlik bilgileri kabul edilmedi. Lütfen ayarlarınızı kontrol edin.
 calendar-creation-network-subscribe-single = Lütfen abone olmak istediğiniz takvimleri seçin.
