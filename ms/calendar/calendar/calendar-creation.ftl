@@ -2,6 +2,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-creation-wizard-title = Cipta Kalendar Baru
+calendar-creation-initial-description = Kalendar anda boleh disimpan di dalam komputer, atau disimpan di dalam pelayan supaya boleh diakses secara jauh, atau dikongsikan dengan rakan atau rakan sejawat.
+calendar-creation-initial-computer =
+    .label = Dalam Komputer Saya
+calendar-creation-initial-network =
+    .label = Dalam Rangkaian
+calendar-creation-username =
+    .value = Nama pengguna:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = Cipta Kalendar
     .buttonaccesskeyaccept = r
