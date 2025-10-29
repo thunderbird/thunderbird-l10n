@@ -2,6 +2,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-creation-wizard-title = Titz'uk K'ak'a' Cholb'äl Q'ij
+calendar-creation-initial-computer =
+    .label = Pa Nukematz'ib'
+calendar-creation-initial-network =
+    .label = Pa K'amab'ey
+calendar-creation-username =
+    .value = Rub'i' winäq:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = Titz'uk Cholb'äl Q'ij
     .buttonaccesskeyaccept = j
