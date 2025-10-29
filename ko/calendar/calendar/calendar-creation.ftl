@@ -4,6 +4,14 @@
 
 select-all-calendars = 모두 선택
 select-none-calendars = 선택 안 함
+calendar-creation-wizard-title = 새 캘린더 만들기
+calendar-creation-initial-description = 캘린더는 내 컴퓨터에 저장하거나 또는 다른 사람과 공유하기 위해 리모트 서버에 저장할 수 있습니다.
+calendar-creation-initial-computer =
+    .label = 내 컴퓨터에 저장
+calendar-creation-initial-network =
+    .label = 네트워크 상에 저장
+calendar-creation-username =
+    .value = 사용자 이름:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = 캘린더 생성
     .buttonaccesskeyaccept = r
@@ -36,3 +44,6 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = 캘린더를 찾을 때 까지 기다려 주세요.
 calendar-creation-network-notfound = 이 위치에서 캘린더를 찾지 못했습니다. 설정을 확인해 주세요.
 calendar-creation-network-authfail = 입력한 자격 증명이 받아들여지지 않았습니다. 설정을 확인해 주세요.
+calendar-creation-network-certerror = 인증서 문제로 인해 이 위치에서 달력을 찾을 수 없습니다.
+calendar-creation-network-subscribe-single = 구독하려는 캘린더를 선택해 주세요.
+calendar-creation-network-subscribe-multiple = 이 위치에서는 여러개의 캘린더 형식이 가능합니다. 캘린더 형식을 선택하고 구독하려는 캘린더를 표시해 주세요.
