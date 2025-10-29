@@ -4,6 +4,14 @@
 
 select-all-calendars = Fren akk
 select-none-calendars = Fren ugar
+calendar-creation-wizard-title = Rnu awitay amaynut
+calendar-creation-initial-description = Awitay-inek yezmer ad yettwakles ɣef uselkim inek neɣ ɣef uqeddac akken ad tkecmeḍ ɣur-s s wudem anmeggag neq ad ttebḍuṭ akked yemdukal neɣ wid ukud txeddmeḍ.
+calendar-creation-initial-computer =
+    .label = Ɣef uselkim inu
+calendar-creation-initial-network =
+    .label = Ɣef uẓeṭṭa
+calendar-creation-username =
+    .value = Isem n useqdac:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = rnu awitay
     .buttonaccesskeyaccept = r
