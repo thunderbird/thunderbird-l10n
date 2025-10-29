@@ -604,7 +604,7 @@ cookies-button =
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Global Privacy Control (GPC)
 global-privacy-control-description =
-    .label = Be nettstader om å ikkje selje eller dele dataa mine
+    .label = Be nettstadar om å ikkje selje eller dele dataa mine
     .accesskey = B
 do-not-track-removal = Vi støttar ikkje lenger «Ikkje spor»-signalet
 do-not-track-label =
