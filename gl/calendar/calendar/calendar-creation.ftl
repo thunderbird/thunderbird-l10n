@@ -4,6 +4,14 @@
 
 select-all-calendars = Seleccionar todo
 select-none-calendars = Non seleccionar nada
+calendar-creation-wizard-title = Crear novo calendario
+calendar-creation-initial-description = Pode almacenarse o calendario no seu computador ou nun servidor para acceder a el remotamente ou compartilo cos seus amigos ou compañeiros de traballo.
+calendar-creation-initial-computer =
+    .label = No meu computador
+calendar-creation-initial-network =
+    .label = Na rede
+calendar-creation-username =
+    .value = Nome de usuario:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = Crear calendario
     .buttonaccesskeyaccept = r
@@ -36,5 +44,6 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = Agarde mentres se buscan os seus calendarios.
 calendar-creation-network-notfound = Non foi posíbel atopar calendarios nesta localización. Comprobe os axustes.
 calendar-creation-network-authfail = As credenciais que introduciu non foron aceptadas. Comprobe os axustes.
+calendar-creation-network-certerror = Non se puideron atopar os calendarios nesta localización por mor dun problema co certificado.
 calendar-creation-network-subscribe-single = Seleccione os calendarios aos que desexa subscribirse.
 calendar-creation-network-subscribe-multiple = Están dispoñíbeis varios tipos de calendarios nesta localización. Seleccione o tipo de calendario e despois marque os que desexa subscribir.
