@@ -4,6 +4,14 @@
 
 select-all-calendars = Вибрати все
 select-none-calendars = Прибрати вибір
+calendar-creation-wizard-title = Створити новий календар
+calendar-creation-initial-description = Календар можна зберігати на вашому комп'ютері або на віддаленому сервері, щоб ви могли отримати до нього доступ із будь-якого місця або використовувати спільно з друзями та колегами.
+calendar-creation-initial-computer =
+    .label = На комп'ютері
+calendar-creation-initial-network =
+    .label = У мережі
+calendar-creation-username =
+    .value = Ім'я користувача:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = Створити календар
     .buttonaccesskeyaccept = С
