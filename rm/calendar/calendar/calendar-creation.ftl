@@ -4,6 +4,14 @@
 
 select-all-calendars = Selecziunar tut
 select-none-calendars = Selecziunar nagut
+calendar-creation-wizard-title = Crear in nov chalender
+calendar-creation-initial-description = Ti pos memorisar tes chalender sin tes computer u sin in server per l'access a distanza e per al cundivider cun tes amis u collavuraturs.
+calendar-creation-initial-computer =
+    .label = Sin mes computer
+calendar-creation-initial-network =
+    .label = En la rait
+calendar-creation-username =
+    .value = Num d'utilisader:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = Crear in chalender
     .buttonaccesskeyaccept = r
@@ -36,3 +44,6 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = Spetga per plaschair durant che tes chalenders vegnan scuvrids.
 calendar-creation-network-notfound = Impussibel da chattar chalenders en quest lieu. Controllescha per plaschair la configuraziun.
 calendar-creation-network-authfail = Las infurmaziuns d'annunzia che ti has endatà n'èn betg vegnidas acceptadas. Controllescha p.pl. la configuraziun.
+calendar-creation-network-certerror = I n’è betg reussì da chattar chalenders en quest lieu causa in problem da certificats.
+calendar-creation-network-subscribe-single = Tscherna per plaschair ils chalenders che ti vuls abunar.
+calendar-creation-network-subscribe-multiple = Plirs tips da chalender èn disponibels en quest lieu. Tscherna per plaschair il tip da chalender e lura ils chalenders che ti vuls abunar.
