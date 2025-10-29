@@ -480,6 +480,27 @@ menu-recalculate-spam-score =
 menu-run-spam-on-folder =
     .label = Jalankan Kendali Spam pada Folder
     .accesskey = K
+menu-delete-spam =
+    .label = Hapus Surat yang Ditandai sebagai Spam di Folder
+    .accesskey = D
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Kosongkan Spam
+    .accesskey = S
+
+## Thread pane.
+
+column-status-spam =
+    .label = Status Spam
+    .tooltiptext = Urutkan berdasarkan status spam
+
+## Message header.
+
+header-spam-button =
+    .label = Spam
+    .tooltiptext = Tandai pesan ini sebagai spam
 
 ## Actions for the New Mail Notification
 
@@ -488,3 +509,32 @@ delete-action = Hapus
 mark-as-starred-action = Tandai sebagai Berbintang
 mark-as-spam-action = Tandai sebagai Spam
 archive-action = Arsipkan
+
+## Message list.
+
+message-flag-spam = Spam
+menuitem-label-spam =
+    .label = Spam
+menuitem-label-spam-score-origin =
+    .label = Asal Skor Spam
+menuitem-label-spam-percentage =
+    .label = Persentase Spam
+menuitem-label-spam-status =
+    .label = Status Spam
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Kosongkan { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Hapus semua pesan dan sub folder dalam folder { $folder }?
+prompt-dont-ask-again = Jangan tanya lagi.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Analisis spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } selesai
+spam-processing-message = Memroses pesan spam
