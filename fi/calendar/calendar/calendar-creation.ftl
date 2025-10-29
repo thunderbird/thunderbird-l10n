@@ -36,3 +36,5 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = Odota hetki, kalentereitasi etsitään.
 calendar-creation-network-notfound = Tästä sijainnista ei löytynyt kalentereita. Tarkista asetukset.
 calendar-creation-network-authfail = Syöttämiäsi kirjautumistietoja ei hyväksytty. Tarkista asetukset.
+calendar-creation-network-subscribe-single = Valitse kalenterit, jotka haluat tilata.
+calendar-creation-network-subscribe-multiple = Tässä sijainnissa on monen tyyppisiä kalentereita. Valitse ensin kalenterin tyyppi ja valitse sitten kalenterit, jotka haluat tilata.
