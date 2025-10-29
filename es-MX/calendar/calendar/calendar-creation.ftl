@@ -4,6 +4,14 @@
 
 select-all-calendars = Seleccionar todo
 select-none-calendars = No seleccionar ninguno
+calendar-creation-wizard-title = Crear nuevo calendario
+calendar-creation-initial-description = Tu calendario puede ser almacenado en tu computadora o ser almacenado en un servidor para tener acceso remotamente o compartirlo con tus amigos o compañeros.
+calendar-creation-initial-computer =
+    .label = En mi computadora
+calendar-creation-initial-network =
+    .label = En la red
+calendar-creation-username =
+    .value = Nombre de usuario:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = Crear calendario
     .buttonaccesskeyaccept = r
