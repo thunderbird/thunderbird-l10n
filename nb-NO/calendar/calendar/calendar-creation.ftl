@@ -4,6 +4,14 @@
 
 select-all-calendars = Merk alle
 select-none-calendars = Merk ingen
+calendar-creation-wizard-title = Opprett ny kalender
+calendar-creation-initial-description = Kalenderen kan enten lagres lokalt, eller på en server på nettverket slik at den er tilgjengelig for andre.
+calendar-creation-initial-computer =
+    .label = På min datamaskin
+calendar-creation-initial-network =
+    .label = På nettverket
+calendar-creation-username =
+    .value = Brukernavn:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = Opprett kalender
     .buttonaccesskeyaccept = r
@@ -36,5 +44,6 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = Vent mens kalenderene dine blir oppdaget.
 calendar-creation-network-notfound = Kan ikke finne noen kalender på denne adressen. Kontroller dine innstillinger.
 calendar-creation-network-authfail = Innloggingen du spesifiserte fungerte ikke. Kontroller innstillingene dine.
+calendar-creation-network-certerror = Finner ikke kalendere på denne plasseringen på grunn av et sertifikatproblem.
 calendar-creation-network-subscribe-single = Velg kalendrene du vil abonnere på.
 calendar-creation-network-subscribe-multiple = Flere kalendertyper er tilgjengelig på denne adressen. Velg en kalendertype og marker kalendrene du vil abonnere på.
