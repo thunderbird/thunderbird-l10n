@@ -2,6 +2,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-creation-wizard-title = Krouiñ un deiziataer nevez
+calendar-creation-initial-description = Gallout a ra ho teiziataer bezañ kadavet war hoc'h urzhiataer pe war un dafariad evit e haeziñ a-bell pe rannañ anezhañ gant ho mignoned pe genseurted.
+calendar-creation-initial-computer =
+    .label = War va urzhiataer
+calendar-creation-initial-network =
+    .label = War ar rouedad
+calendar-creation-username =
+    .value = Anv implijer :
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = Krouiñ un deiziataer
     .buttonaccesskeyaccept = r
