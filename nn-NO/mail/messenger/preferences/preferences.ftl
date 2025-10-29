@@ -612,7 +612,7 @@ do-not-track-label =
     .accesskey = n
 dnt-learn-more-button =
     .value = Les meir
-passwords-description = { -brand-short-name } kan hugse passordinformasjon for alle kontoane dine, slik at du ikkje treng å skriva inn innloggingsdetaljane fleire gonger.
+passwords-description = { -brand-short-name } kan hugse passordinformasjon for alle kontoane dine, slik at du ikkje treng å skrive inn innloggingsdetaljane fleire gonger.
 passwords-button =
     .label = Lagra passord…
     .accesskey = L
@@ -622,7 +622,7 @@ primary-password-label =
     .accesskey = B
 # This operation requires the user to authenticate with the operating system (device sign-in)
 forms-os-reauth =
-    .label = Krev einingsinnlogging for å fylle ut og behandle passord
+    .label = Krev einingsinnlogging for å fylle ut og handsame passord
 primary-password-button =
     .label = Endre hovudpassord…
     .accesskey = E
