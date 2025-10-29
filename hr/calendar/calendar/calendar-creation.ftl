@@ -4,6 +4,14 @@
 
 select-all-calendars = Označi sve
 select-none-calendars = Nemoj odabrati ništa
+calendar-creation-wizard-title = Stvori novi kalendar
+calendar-creation-initial-description = Kalendar može biti spremljen na vašem računalu ili na poslužitelju kako biste mu mogli pristupiti od bilo kuda ili ga dijeliti sa svojim prijateljima ili suradnicima.
+calendar-creation-initial-computer =
+    .label = Na mom računalu
+calendar-creation-initial-network =
+    .label = Na mreži
+calendar-creation-username =
+    .value = Korisničko ime:
 calendar-creation-panel-local-settings =
     .buttonlabelaccept = Stvori kalendar
     .buttonaccesskeyaccept = r
@@ -36,3 +44,6 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = Pričekajte dok otkrivamo dostupne kalendare.
 calendar-creation-network-notfound = Nije moguće pronaći kalendare na ovoj lokaciji. Provjerite postavke.
 calendar-creation-network-authfail = Podaci za prijavu koje ste unijeli nisu prihvaćeni. Provjerite postavke.
+calendar-creation-network-certerror = Nije moguće pronaći kalendare na ovoj lokaciji zbog problema s certifikatom.
+calendar-creation-network-subscribe-single = Odaberite kalendare na koje se želite pretplatiti.
+calendar-creation-network-subscribe-multiple = Više tipova kalendara je dostupno na ovoj lokaciji. Odaberite tip kalendara i onda označite kalendare na koje se želite pretplatiti.
