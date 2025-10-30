@@ -47,6 +47,7 @@ compose-html-style-title = Estilo HTML
 composition-addressing-header = Endereçamento
 privacy-main-header = Privacidade
 privacy-passwords-header = Senhas
+privacy-spam-header = Spam
 privacy-junk-header = Spam
 collection-header = Coleta e uso de dados pelo { -brand-short-name }
 collection-description = Nos esforçamos para proporcionar escolhas e coletar somente o necessário para melhorar e fornecer o { -brand-short-name } para todos. Sempre pedimos permissão antes de receber informações pessoais.
@@ -691,6 +692,30 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     As decisões automáticas podem ser substituídas ativando ou desativando manualmente a criptografia ao redigir uma mensagem.
     Nota: a criptografia é sempre ativada automaticamente ao responder a uma mensagem criptografada.
+
+## DoH Section
+
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Status: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Provedor: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = URL inválida
+preferences-doh-steering-status = Usando provedor local
+preferences-doh-status-active = Ativo
+preferences-doh-status-disabled = Desativado
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Não ativo ({ $reason })
+preferences-doh-group-message = Ativar DNS sobre HTTPS usando:
+preferences-doh-expand-section =
+    .tooltiptext = Mais informações
+preferences-doh-setting-default =
+    .label = Proteção padrão
+    .accesskey = P
 
 ## Chat Tab
 

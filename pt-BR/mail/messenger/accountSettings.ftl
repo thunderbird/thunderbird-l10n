@@ -24,3 +24,6 @@ ews-override-oauth-details =
 ews-applicationid-label =
     .value = ID da aplicação:
     .accesskey = I
+ews-redirecturi-label =
+    .value = URL de redirecionamento
+    .accesskey = r

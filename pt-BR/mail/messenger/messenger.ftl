@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Exibição compacta
     .accesskey = c
 
+## Folder names
+
+folder-name-spam = Spam
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Arquivar
     .tooltiptext = Arquivar
+context-menu-mark-spam =
+    .aria-label = Marcar como spam
+    .tooltiptext = Marcar como spam
+context-menu-mark-not-spam =
+    .aria-label = Marcar como não spam
+    .tooltiptext = Marcar como não spam
 context-menu-mark-junk =
     .aria-label = Marcar como spam
     .tooltiptext = Marcar como spam
@@ -475,8 +485,14 @@ quota-panel-percent-used = { $percent }% ocupado
 
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Como spam
+    .accesskey = s
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Como não spam
+    .accesskey = n
 mark-not-junk-key =
     .key = j
 
