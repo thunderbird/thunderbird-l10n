@@ -760,6 +760,12 @@ preferences-doh-setting-strict =
     .accesskey = M
 preferences-doh-strict-desc = { -brand-short-name } vil alltid bruke sikker DNS. Du vil sjå ei sikkerheitsåtvaring før du brukar system DNS-et ditt.
 preferences-doh-strict-detailed-desc-1 = Bruk berre tilbydaren du vel
+preferences-doh-strict-detailed-desc-2 = Åtvar alltid om sikker DNS ikkje er tilgjengeleg
+preferences-doh-strict-detailed-desc-3 = Om sikker DNS ikkje er tilgjengeleg vil nettstaden ikkje lastast eller fungere skikkeleg
+preferences-doh-setting-off =
+    .label = Av
+    .accesskey = A
+preferences-doh-off-desc = Bruk standard DNS-resolver
 preferences-doh-select-resolver = Vel leverandør:
 # Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider
