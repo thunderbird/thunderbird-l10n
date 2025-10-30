@@ -12,6 +12,10 @@ allday-event = Heldagshendelse
 recurrent-event =
     .value = Gjentakende hendelse
 # $locationProperty is the location of the event
+calendar-invitation-location =
+    .value = Plassering: { $locationProperty }
+    .tooltiptext = { $locationProperty }
+# $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Plassering: { $locationProperty }
 # $organizerProperty is the organizer of the event
