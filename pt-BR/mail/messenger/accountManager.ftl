@@ -34,3 +34,6 @@ outgoing-server-settings-title = Configurações do servidor de envio
 outgoing-server-settings-description = Ao gerenciar suas identidades, você pode usar um servidor desta lista, selecionando como servidor de envio, ou pode usar o servidor padrão desta lista, selecionando “Usar servidor padrão”.
 outgoing-server-type = Nome do servidor:
 panel-settings-spam = Configurações de spam
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Detectado problema nas configurações de spam de { $account }. Quer revisar antes de salvar as alterações?
