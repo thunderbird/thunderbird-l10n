@@ -720,6 +720,8 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = DNS over HTTPS
+preferences-doh-description = Domain Name System (DNS) over HTTPS sender førespurnaden din om eit domenenamn gjennom ei kryptert tilkopling, og gir eit sikkert DNS og gjer det vanskelegare for andre å sjå kva for nettstad du er i ferd med å besøke.
 # Variables:
 #   $status (string) - The status of the DoH connection
 preferences-doh-status = Status: { $status }
@@ -738,6 +740,26 @@ preferences-doh-status-not-active = Ikkje aktiv ({ $reason })
 preferences-doh-group-message = Slå på DNS-over-HTTPS med:
 preferences-doh-expand-section =
     .tooltiptext = Meir informasjon
+preferences-doh-setting-default =
+    .label = Standardvern
+    .accesskey = S
+preferences-doh-default-desc = { -brand-short-name } avgjer når sikker DNS skal brukast for å ta vare på personvernet ditt.
+preferences-doh-default-detailed-desc-1 = Bruk sikker DNS i regionar der det er tilgjengeleg
+preferences-doh-default-detailed-desc-2 = Bruk standard DNS-resolver om det oppstår eit problem med den sikre DNS-leverandøren
+preferences-doh-default-detailed-desc-3 = Bruk ein lokal tilbydar, om muleg
+preferences-doh-default-detailed-desc-4 = Slå av når VPN, foreldrekontroll eller bedriftspolicyar er aktive
+preferences-doh-default-detailed-desc-5 = Slå av når eit nettverk seier til { -brand-short-name } at det ikkje skal bruke sikker DNS
+preferences-doh-setting-enabled =
+    .label = Auka vern
+    .accesskey = A
+preferences-doh-enabled-desc = Du bestemmer når du skal bruke sikker DNS, og vel sjølv nettleverandør.
+preferences-doh-enabled-detailed-desc-1 = Bruk leverandøren du vel
+preferences-doh-enabled-detailed-desc-2 = Bruk berre standard DNS-resolver om det er problem med sikker DNS
+preferences-doh-setting-strict =
+    .label = Maks vern
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } vil alltid bruke sikker DNS. Du vil sjå ei sikkerheitsåtvaring før du brukar system DNS-et ditt.
+preferences-doh-strict-detailed-desc-1 = Bruk berre tilbydaren du vel
 preferences-doh-select-resolver = Vel leverandør:
 # Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider
