@@ -560,3 +560,21 @@ menuitem-label-spam =
     .label = Nevyžádaná
 menuitem-label-spam-score-origin =
     .label = Původ skóre nevyžádané pošty
+menuitem-label-spam-percentage =
+    .label = Procento nevyžádané pošty
+menuitem-label-spam-status =
+    .label = Stav nevyžádané pošty
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Vyprázdnit složku { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Smazat všechny zprávy a podsložky ve složce { $folder }?
+prompt-dont-ask-again = Příště se už neptat.
+
+## Spam commands
+
+spam-processing-message = Zpracovává se nevyžádaná pošta

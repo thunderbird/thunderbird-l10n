@@ -47,6 +47,7 @@ compose-html-style-title = Styl HTML
 composition-addressing-header = Adresování
 privacy-main-header = Soukromí
 privacy-passwords-header = Hesla
+privacy-spam-header = Nevyžádaná
 privacy-junk-header = Nevyžádaná
 collection-header =
     { -brand-short-name.case-status ->
@@ -710,6 +711,12 @@ primary-password-button =
     .accesskey = m
 forms-primary-pw-fips-title = Momentálně jste v režimu FIPS, který vyžaduje neprázdné hlavní heslo.
 forms-master-pw-fips-desc = Neúspěšná změna hesla
+spam-log-button =
+    .label = Zobrazit protokol
+    .accesskey = Z
+reset-spam-button =
+    .label = Vymazat naučená pravidla
+    .accesskey = V
 junk-description = Další nastavení nevyžádané pošty lze provést v dialogu Nastavení účtu.
 junk-marked-label =
     .label = Když jsou zprávy označeny jako nevyžádané:
@@ -779,6 +786,8 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = DNS over HTTPS
+preferences-doh-description = Systém DNS (Domain Name System) přes HTTPS odesílá váš požadavek na název domény prostřednictvím šifrovaného připojení, čímž zajišťuje bezpečný systém DNS a znemožňuje ostatním zjistit, kterou webovou stránku se chystáte navštívit.
 # Variables:
 #   $status (string) - The status of the DoH connection
 preferences-doh-status = Stav: { $status }
@@ -788,7 +797,18 @@ preferences-doh-resolver = Poskytovatel: { $name }
 # This is displayed instead of $name in preferences-doh-resolver
 # when the DoH URL is not a valid URL
 preferences-doh-bad-url = Neplatná adresa URL
+preferences-doh-steering-status = Pomocí místního poskytovatele
 preferences-doh-status-active = Aktivní
+preferences-doh-status-disabled = Vypnuto
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Neaktivní ({ $reason })
+preferences-doh-group-message = Zapnout DNS over HTTPS pomocí:
+preferences-doh-expand-section =
+    .tooltiptext = Více informací
+preferences-doh-setting-default =
+    .label = Výchozí ochrana
+    .accesskey = V
 
 ## Chat Tab
 
