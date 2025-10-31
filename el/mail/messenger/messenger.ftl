@@ -542,6 +542,8 @@ archive-action = Αρχειοθέτηση
 message-flag-spam = Ανεπιθύμητο
 menuitem-label-spam =
     .label = Ανεπιθύμητο
+menuitem-label-spam-score-origin =
+    .label = Προέλευση βαθμολογίας ανεπιθύμητου
 menuitem-label-spam-percentage =
     .label = Ποσοστό ανεπιθύμητων
 menuitem-label-spam-status =
@@ -549,8 +551,17 @@ menuitem-label-spam-status =
 
 ## Prompts
 
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Άδειασμα του φακέλου «{ $folder }»;
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Διαγραφή όλων των μηνυμάτων και των υποφακέλων του φακέλου «{ $folder }»;
 prompt-dont-ask-again = Να μην γίνει ξανά ερώτηση.
 
 ## Spam commands
 
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Η ανάλυση ανεπιθύμητης αλληλογραφίας { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } ολοκληρώθηκε
 spam-processing-message = Επεξεργασία ανεπιθύμητων μηνυμάτων
