@@ -809,6 +809,40 @@ preferences-doh-expand-section =
 preferences-doh-setting-default =
     .label = Výchozí ochrana
     .accesskey = V
+preferences-doh-default-desc = { -brand-short-name } se rozhodne, kdy používat bezpečné DNS pro ochranu vašeho soukromí.
+preferences-doh-default-detailed-desc-1 = Zabezpečené DNS se použije v oblastech, kde je dostupné
+preferences-doh-default-detailed-desc-2 = Pokud se zabezpečeným DNS nastane problém, použije se výchozí překladač DNS
+preferences-doh-default-detailed-desc-3 = Pokud je to možné, použijte místního poskytovatele
+preferences-doh-default-detailed-desc-4 = Vypne se, když je aktivní VPN, rodičovská kontrola nebo podnikové zásady
+preferences-doh-default-detailed-desc-5 = Vypne se, když síť oznámí aplikaci { -brand-short-name }, že nemá používat zabezpečené DNS
+preferences-doh-setting-enabled =
+    .label = Zvýšená ochrana
+    .accesskey = Z
+preferences-doh-enabled-desc = Sami si nastavíte, kdy se zabezpečené DNS použije, a od jakého poskytovatele.
+preferences-doh-enabled-detailed-desc-1 = Použije se poskytovatel, kterého jste si vybrali
+preferences-doh-enabled-detailed-desc-2 = Výchozí překladač DNS se použijte jen v případě problému se zabezpečeným DNS
+preferences-doh-setting-strict =
+    .label = Maximální ochrana
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } vždy použije zabezpečené DNS. Před použitím systémového překladače DNS vždy uvidíte bezpečnostní varování.
+preferences-doh-strict-detailed-desc-1 = Použije pouze poskytovatele, kterého si vyberete
+preferences-doh-strict-detailed-desc-2 = Vždy upozorní, pokud není zabezpečené DNS dostupné
+preferences-doh-strict-detailed-desc-3 = Pokud není zabezpečené DNS dostupné, webové stránky se nenačtou nebo nemusí správně fungovat
+preferences-doh-setting-off =
+    .label = Vypnuto
+    .accesskey = V
+preferences-doh-off-desc = Použije výchozí překladač DNS
+preferences-doh-checkbox-warn =
+    .label = Upozornit, pokud třetí strana aktivně brání zabezpečenému DNS
+    .accesskey = U
+preferences-doh-select-resolver = Vyberte poskytovatele:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (výchozí)
+preferences-doh-url-custom =
+    .label = Vlastní
+    .accesskey = V
 
 ## Chat Tab
 
