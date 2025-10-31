@@ -160,6 +160,7 @@ account-hub-result-addon-label = Krev tillegg
 account-hub-edit-configuration = Rediger konfigurasjon
 account-hub-config-success = Innstillingar funne i Mozilla ISPDB
 account-hub-config-success-exchange = Fann konfigurasjon for ein Microsoft Exchange-server
+account-hub-config-success-unknown = Fann konfigurasjonen
 account-hub-password-info = Påloggingsinformasjonen din blir berre lagra lokalt på datamaskina di
 account-hub-creating-account = Opprettar konto…
 account-hub-sync-accounts-found = { -brand-short-name } fann nokre tilkopla tenester
