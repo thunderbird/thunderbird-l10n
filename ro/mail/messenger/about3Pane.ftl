@@ -464,3 +464,56 @@ apply-current-view-to-folder-message = Aplici vizualizarea dosarului curent la {
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Aplici vizualizarea dosarului curent la { $name } și elementelor din el?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> necitit din <span>1</span> mesaj
+                [few] <span>1</span> necitit din <span>{ $total }</span> mesaje
+               *[other] <span>1</span> necitit din <span>{ $total }</span> de mesaje
+            }
+        [few]
+            { $total ->
+                [one] <span>{ $unread }</span> necitite din <span>1</span> mesaj
+                [few] <span>{ $unread }</span> necitite din <span>1</span> mesaje
+               *[other] <span>{ $unread }</span> necitite din <span>1</span> de mesaje
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> necitite din <span>{ $total }</span> mesaj
+                [few] <span>{ $unread }</span> necitite din <span>{ $total }</span> mesaje
+               *[other] <span>{ $unread }</span> necitite din <span>{ $total }</span> de mesaje
+            }
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> mesaj
+        [few] <span>{ $total }</span> mesaje
+       *[other] <span>{ $total }</span> de mesaje
+    }
+threadpane-card-menu-button =
+    .title = Meniu mesaje
+message-list-placeholder-no-messages = Nu s-a găsit niciun mesaj
+message-list-placeholder-multiple-folders = Sunt selectate mai multe dosare
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Marchează dosarul ca citit
+           *[other] Marchează dosarele ca citite
+        }
+    .accesskey = k
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = Resetează ordinea dosarelor
+    .accesskey = R

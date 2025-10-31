@@ -48,3 +48,5 @@ file-profile2 = Importă un profil salvat în copie de rezervă
 file-profile-description = Selectează un profil Thunderbird cu care ai făcut anterior o copie de rezervă (.zip)
 file-calendar = Importă calendare
 file-calendar-description = Selectează un fișier care conține calendare sau evenimente exportate (.ics)
+file-addressbook = Importă agende de contacte
+file-addressbook-description = Selectează un fișier care conține agende și contacte exportate

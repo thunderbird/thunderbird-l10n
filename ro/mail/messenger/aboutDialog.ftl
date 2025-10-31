@@ -2,7 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+about-update-whats-new = Ce este nou
+about-dialog-title = Despre { -brand-full-name }
 release-notes-link = Note privind versiunea
+update-internal-error = Nu a fost posibilă verificarea de actualizări din cauza unei erori interne. Actualizările sunt disponibile la <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Caută actualizări
     .accesskey = V
 update-update-button = Repornește pentru a actualiza { -brand-shorter-name }
@@ -15,6 +18,7 @@ update-failed = Actualizarea a eșuat. <a data-l10n-name="failed-link">Descarcă
 update-admin-disabled = Actualizările sunt dezactivate de către administratorul de sistem
 update-no-updates-found = { -brand-short-name } este actualizat
 update-other-instance-handling-updates = { -brand-short-name } este actualizat într-o altă instanță
+update-manual = Actualizări disponibile la <a data-l10n-name="manual-link"/>
 update-unsupported = Nu poți efectua actualizări suplimentare pe acest sistem. <a data-l10n-name="unsupported-link">Află mai multe</a>
 update-restarting = Se repornește…
 # Variables:
@@ -22,6 +26,11 @@ update-restarting = Se repornește…
 channel-description = Acum folosești <span data-l10n-name="current-channel">{ $channel }</span> drept canal de actualizare.
 warning-desc-version = { -brand-short-name } este experimental și poate fi instabil.
 warning-desc-telemetry = Trimite automat informații despre performanță, hardware, utilizare și personalizări către { -vendor-short-name } pentru a ajuta la crearea unui { -brand-short-name } mai bun.
+# Example of resulting string: 66.0.1 (64-bit)
+# Variables:
+#   $version (String): version of Thunderbird, e.g. 66.0.1
+#   $bits (Number): bits of the architecture (32 or 64)
+aboutDialog-version = { $version } ({ $bits }-bit)
 # Example of resulting string: 66.0a1 (2019-01-16) (64-bit)
 # Variables:
 #   $version (String): version of Thunderbird for Daily builds, e.g. 66.0a1
