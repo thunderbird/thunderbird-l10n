@@ -539,6 +539,12 @@ column-status-spam =
     .label = Stav nevyžádané pošty
     .tooltiptext = Seřadí dle stavu nevyžádané pošty
 
+## Message header.
+
+header-spam-button =
+    .label = Nevyžádaná
+    .tooltiptext = Označí tuto zprávu jako nevyžádanou
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Označit jako přečtené
@@ -546,3 +552,11 @@ delete-action = Smazat
 mark-as-starred-action = Označit hvězdičkou
 mark-as-spam-action = Označit jako spam
 archive-action = Archivovat
+
+## Message list.
+
+message-flag-spam = Nevyžádaná
+menuitem-label-spam =
+    .label = Nevyžádaná
+menuitem-label-spam-score-origin =
+    .label = Původ skóre nevyžádané pošty
