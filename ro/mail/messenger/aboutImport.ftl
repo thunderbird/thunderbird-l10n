@@ -50,3 +50,41 @@ file-calendar = Importă calendare
 file-calendar-description = Selectează un fișier care conține calendare sau evenimente exportate (.ics)
 file-addressbook = Importă agende de contacte
 file-addressbook-description = Selectează un fișier care conține agende și contacte exportate
+
+## Import from app profile steps
+
+from-app-thunderbird = Importă dintr-un profil { app-name-thunderbird }
+from-app-seamonkey = Importă dintr-un profil { app-name-seamonkey }
+from-app-outlook = Importă din { app-name-outlook }
+from-app-apple-mail = Importă din { app-name-apple-mail }
+profiles-pane-title-thunderbird = Importă setările și datele dintr-un profil { app-name-thunderbird }.
+profiles-pane-title-seamonkey = Importă setările și datele dintr-un profil { app-name-seamonkey }.
+profiles-pane-title-outlook = Importă date din { app-name-outlook }.
+profiles-pane-title-apple-mail = Importă mesaje din { app-name-apple-mail }.
+profile-source = Importă din profil
+# $profileName (string) - name of the profile
+profile-source-named = Importă din profilul <strong>"{ $profileName }"</strong>
+profile-file-picker-directory = Alege un dosar de profiluri
+profile-file-picker-archive = Alege un fișier <strong>ZIP</strong>
+profile-file-picker-archive-description = Fișierul ZIP trebuie să fie mai mic de 2GB.
+profile-file-picker-archive-title = Alege un fișier ZIP (mai mic de 2 GB)
+items-pane-title2 = Alege ce să se importe:
+items-pane-directory = Director:
+items-pane-profile-name = Nume profil:
+items-pane-checkbox-accounts = Conturi și setări
+items-pane-checkbox-address-books = Agende de contacte
+items-pane-checkbox-calendars = Calendare
+items-pane-checkbox-mail-messages = Mesaje e-mail
+items-pane-override = Orice date existente sau identice nu vor fi suprascrise.
+items-pane-nothing-to-import = Nu se poate importa nimic din sursa selectată.
+
+## Import from address book file steps
+
+import-from-addr-book-file-description = Alege formatul de fișier care conține datele agendei tale de contacte.
+addr-book-csv-file = Fișier separat prin virgulă sau tab (.csv, .tsv)
+addr-book-ldif-file = Fișier LDIF (.ldif)
+addr-book-vcard-file = Fișier vCard (.vcf, .vcard)
+addr-book-sqlite-file = Fișier bază de date SQLite (.sqlite)
+addr-book-mab-file = Fișier bază de date Mork (.mab)
+addr-book-file-picker = Selectează un fișier de agendă de contacte
+addr-book-csv-field-map-title = Fă să corespundă denumirile câmpurilor
