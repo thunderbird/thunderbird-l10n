@@ -18,3 +18,6 @@ automatic-spam-purge-label =
     .value = dnech
 spam-classification-legend = Rozpoznání
 spam-actions-legend = Navazující akce
+global-spam-preferences-button =
+    .label = Globální nastavení nevyžádané pošty…
+    .accesskey = G
