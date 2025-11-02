@@ -97,6 +97,9 @@ toolbar-undelete-button =
 toolbar-spam-button =
     .label = Spam
     .tooltiptext = Marcar mensagens selecionadas como spam
+toolbar-not-spam-button =
+    .label = Não spam
+    .tooltiptext = Marcar mensagens selecionadas como não spam
 
 ## View
 

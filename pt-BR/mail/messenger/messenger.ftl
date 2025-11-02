@@ -483,6 +483,12 @@ openpgp-forget = Esquecer senhas de OpenPGP
 quota-panel-percent-used = { $percent }% ocupado
     .title = Cota de IMAP: Usado { $usage } de { $limit } no total
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Status de spam
+    .accesskey = S
+
 ## Message menu.
 
 menu-mark-as-spam =
@@ -495,6 +501,33 @@ menu-mark-not-spam =
     .accesskey = n
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Executar controles de spam
+    .accesskey = c
+menu-run-spam-on-folder =
+    .label = Executar controles de spam na pasta
+    .accesskey = C
+menu-delete-spam =
+    .label = Excluir emails marcados como spam na pasta
+    .accesskey = x
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Esvaziar spam
+    .accesskey = v
+
+## Thread pane.
+
+column-status-spam =
+    .label = Status de spam
+    .tooltiptext = Ordenar por status de spam
+
+## Message header.
+
+header-spam-button =
+    .label = Spam
+    .tooltiptext = Marcar esta mensagem como spam
 
 ## Actions for the New Mail Notification
 
@@ -503,3 +536,32 @@ delete-action = Excluir
 mark-as-starred-action = Marcar com estrela
 mark-as-spam-action = Marcar como spam
 archive-action = Arquivar
+
+## Message list.
+
+message-flag-spam = Spam
+menuitem-label-spam =
+    .label = Spam
+menuitem-label-spam-score-origin =
+    .label = Origem da pontuação de spam
+menuitem-label-spam-percentage =
+    .label = Percentual de spam
+menuitem-label-spam-status =
+    .label = Status de spam
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Esvaziar { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Excluir todas as mensagens e subpastas da pasta { $folder }?
+prompt-dont-ask-again = Não perguntar novamente.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Análise de spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } concluída
+spam-processing-message = Processando mensagens de spam
