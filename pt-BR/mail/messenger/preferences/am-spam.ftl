@@ -5,6 +5,7 @@
 spam-settings-title = Configurações de spam
 dialog-header-title =
     .value = Configurações de spam
+training-description-spam = Se ativado, primeiro você deve treinar o { -brand-short-name } para identificar spam usando o botão Spam na barra de ferramentas, para marcar mensagens como spam ou não spam. Você precisa identificar mensagens tanto spam como não spam. Depois disso, o { -brand-short-name } pode marcar spam automaticamente.
 spam-level-checkbox =
     .label = Ativar controles adaptativos de spam nesta conta
     .accesskey = A
