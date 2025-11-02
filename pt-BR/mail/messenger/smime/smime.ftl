@@ -3,3 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 configured-cert-ok-sig = O certificado passou no teste e pode ser usado para assinatura de email.
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+configured-cert-failure-detail = A verificação do certificado falhou com o seguinte erro: { $errorMsg } (código do erro: { $errorCodeStr })
+# $errorCode A numeric error code
+configured-cert-failure = A verificação do certificado falhou com o código de erro { $errorCode }

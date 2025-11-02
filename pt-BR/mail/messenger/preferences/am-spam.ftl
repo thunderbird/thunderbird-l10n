@@ -5,6 +5,15 @@
 spam-settings-title = Configurações de spam
 dialog-header-title =
     .value = Configurações de spam
+spam-level-checkbox =
+    .label = Ativar controles adaptativos de spam nesta conta
+    .accesskey = A
+move-spam-message-menuitem =
+    .label = Mover novas mensagens de spam para:
+    .accesskey = M
+set-spam-folder-menuitem =
+    .label = Pasta “Spam” em:
+    .accesskey = P
 move-message-other =
     .label = Outra:
     .accesskey = O
