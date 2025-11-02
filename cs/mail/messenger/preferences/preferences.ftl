@@ -711,6 +711,7 @@ primary-password-button =
     .accesskey = m
 forms-primary-pw-fips-title = Momentálně jste v režimu FIPS, který vyžaduje neprázdné hlavní heslo.
 forms-master-pw-fips-desc = Neúspěšná změna hesla
+spam-description = Nastavte výchozí nastavení nevyžádané pošty. Nastavení nevyžádané pošty pro konkrétní účet lze nakonfigurovat v Nastavení účtu.
 spam-marked-label =
     .label = Když jsou zprávy označeny jako nevyžádané:
     .accesskey = K
