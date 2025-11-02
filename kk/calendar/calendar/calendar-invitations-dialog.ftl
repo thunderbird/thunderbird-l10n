@@ -12,6 +12,10 @@ allday-event = Толық күн оқиғасы
 recurrent-event =
     .value = Қайталанатын оқиға
 # $locationProperty is the location of the event
+calendar-invitation-location =
+    .value = Орналасу: { $locationProperty }
+    .tooltiptext = { $locationProperty }
+# $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Орналасуы: { $locationProperty }
 # $organizerProperty is the organizer of the event
