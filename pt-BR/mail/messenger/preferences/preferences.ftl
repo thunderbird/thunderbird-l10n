@@ -645,6 +645,15 @@ spam-read-manual-label =
 spam-read-auto-label =
     .label = Quando o { -brand-short-name } determina que é spam
     .accesskey = t
+spam-log-label =
+    .label = Ativar registro em log de filtragem adaptativa de spam
+    .accesskey = A
+spam-log-button =
+    .label = Mostrar log
+    .accesskey = M
+reset-spam-button =
+    .label = Reiniciar dados de treinamento
+    .accesskey = R
 junk-description = Defina suas configurações padrão de spam. Opções específicas de cada conta podem ser definidas nas configurações da conta.
 junk-marked-label =
     .label = Quando mensagens são marcadas como spam:
@@ -712,6 +721,8 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = DNS sobre HTTPS
+preferences-doh-description = O DNS (Domain Name System) sobre HTTPS envia sua requisição de nome de domínio através de uma conexão criptografada, fornecendo um DNS seguro e dificultando a outras pessoas ver qual site você irá acessar.
 # Variables:
 #   $status (string) - The status of the DoH connection
 preferences-doh-status = Status: { $status }
@@ -732,6 +743,40 @@ preferences-doh-expand-section =
     .tooltiptext = Mais informações
 preferences-doh-setting-default =
     .label = Proteção padrão
+    .accesskey = P
+preferences-doh-default-desc = O { -brand-short-name } decide quando usar DNS seguro para proteger sua privacidade.
+preferences-doh-default-detailed-desc-1 = Usar DNS seguro em regiões onde estiver disponível
+preferences-doh-default-detailed-desc-2 = Usar seu resolvedor de DNS padrão se houver um problema com o provedor de DNS seguro
+preferences-doh-default-detailed-desc-3 = Usar um provedor local, se possível
+preferences-doh-default-detailed-desc-4 = Desativar quando estiver ativo VPN, controle dos pais ou diretivas corporativas
+preferences-doh-default-detailed-desc-5 = Desativar quando uma rede informar ao { -brand-short-name } que ele não deve usar DNS seguro
+preferences-doh-setting-enabled =
+    .label = Proteção reforçada
+    .accesskey = f
+preferences-doh-enabled-desc = Você controla quando usar DNS seguro e escolhe seu provedor.
+preferences-doh-enabled-detailed-desc-1 = Usar o provedor selecionado
+preferences-doh-enabled-detailed-desc-2 = Só usar seu resolvedor de DNS padrão se houver um problema com DNS seguro
+preferences-doh-setting-strict =
+    .label = Proteção máxima
+    .accesskey = m
+preferences-doh-strict-desc = O { -brand-short-name } sempre usa DNS seguro. Aparece um aviso de risco de segurança antes de usar o DNS do seu sistema.
+preferences-doh-strict-detailed-desc-1 = Só usar o provedor que você selecionar
+preferences-doh-strict-detailed-desc-2 = Sempre avisar se DNS seguro não estiver disponível
+preferences-doh-strict-detailed-desc-3 = Se não tiver DNS seguro disponível, alguns sites podem não ser carregados ou não funcionar corretamente
+preferences-doh-setting-off =
+    .label = Desativado
+    .accesskey = D
+preferences-doh-off-desc = Usar seu resolvedor de DNS padrão
+preferences-doh-checkbox-warn =
+    .label = Avisar se um terceiro impedir DNS seguro ativamente
+    .accesskey = v
+preferences-doh-select-resolver = Escolher provedor:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (padrão)
+preferences-doh-url-custom =
+    .label = Personalizado
     .accesskey = P
 
 ## Chat Tab
