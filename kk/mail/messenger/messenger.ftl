@@ -501,6 +501,12 @@ menu-mark-not-spam =
 mark-not-junk-key =
     .key = j
 
+## Message header.
+
+header-spam-button =
+    .label = Спам
+    .tooltiptext = Бұл хабарламаны спам етіп белгілеу
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Оқылған ретінде белгілеу
@@ -508,3 +514,20 @@ delete-action = Өшіру
 mark-as-starred-action = Жұлдызша қою
 mark-as-spam-action = Спам деп белгілеу
 archive-action = Архивтеу
+
+## Message list.
+
+message-flag-spam = Спам
+menuitem-label-spam =
+    .label = Спам
+
+## Prompts
+
+prompt-dont-ask-again = Келесі рет сұрамау.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Спам талдауы { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } дайын
+spam-processing-message = Спам хабарламаларын өңдеу

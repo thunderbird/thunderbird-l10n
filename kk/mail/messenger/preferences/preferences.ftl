@@ -47,6 +47,7 @@ compose-html-style-title = HTML стилі
 composition-addressing-header = Адрестеу
 privacy-main-header = Жекелік
 privacy-passwords-header = Парольдер
+privacy-spam-header = Спам
 privacy-junk-header = Спам
 collection-header = { -brand-short-name } деректер жинауы және қолдануы
 collection-description = Біз сізге таңдауды қолыңызға беріп, тек әркім үшін { -brand-short-name } өнімін ұсыну және жақсарту мақсатында керек деректерді жинаймыз. Жеке ақпаратты алу алдында біз әрқашан рұқсатты сұраймыз.
@@ -627,6 +628,25 @@ primary-password-button =
     .accesskey = з
 forms-primary-pw-fips-title = Сіз FIPS-ке сәйкестеу режимінде жұмыс істеп отырсыз. Бұл режим бос емес басты парольді талап етеді.
 forms-master-pw-fips-desc = Парольді өзгерту сәтсіз аяқталды
+spam-delete-label =
+    .label = Оларды өшіру
+    .accesskey = ш
+spam-read-description = Хабарламаларды оқылған ретінде белгілеу
+spam-read-manual-label =
+    .label = Спам ретінде қолмен белгіленген кезде
+    .accesskey = м
+spam-read-auto-label =
+    .label = { -brand-short-name } олардың спам екенін анықтаған кезде
+    .accesskey = т
+spam-log-label =
+    .label = Адаптивті антиспам сүзгінің журналдауын іске қосу
+    .accesskey = е
+spam-log-button =
+    .label = Журналды көрсету
+    .accesskey = с
+reset-spam-button =
+    .label = Үйрету деректерін тастау
+    .accesskey = р
 junk-description = Бастапқы спам баптауларын орнатыңыз. Тіркелгілердің спам баптаулары Тіркелгі баптауларында өзгертуге болады.
 junk-marked-label =
     .label = Хабарлама спам ретінде белгіленген кезде:
@@ -693,6 +713,48 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Хабарламаны құрастыру кезінде шифрлеуді қолмен іске қосу немесе сөндіру арқылы автоматты шешімдерді қайта анықтауға болады.
     Ескертпе: шифрленген хабарламаға жауап беру кезінде шифрлеу әрқашан автоматты түрде іске қосылады.
+
+## DoH Section
+
+preferences-doh-expand-section =
+    .tooltiptext = Көбірек ақпарат
+preferences-doh-setting-default =
+    .label = Қалыпты қорғаныс
+    .accesskey = ы
+preferences-doh-default-desc = { -brand-short-name } жекелігіңізді қорғау үшін қауіпсіз DNS қашан пайдалану керектігін шешеді.
+preferences-doh-default-detailed-desc-1 = Қауіпсіз DNS қолжетімді аймақтарда пайдалану
+preferences-doh-default-detailed-desc-2 = Қауіпсіз DNS провайдеріне қатысты мәселе болса, үнсіз келісім DNS провайдерін пайдалану
+preferences-doh-default-detailed-desc-3 = Мүмкін болса, жергілікті провайдерді пайдалану
+preferences-doh-default-detailed-desc-4 = VPN, ата-аналық бақылау немесе кәсіпорын саясаттары белсенді болғанда сөндіру
+preferences-doh-default-detailed-desc-5 = Желі { -brand-short-name } өніміне қауіпсіз DNS пайдаланбау керектігін айтқан кезде сөндіру
+preferences-doh-setting-enabled =
+    .label = Жақсартылған қорғаныс
+    .accesskey = т
+preferences-doh-enabled-desc = Сіз қауіпсіз DNS пайдалану уақытын өзіңіз басқарасыз және провайдеріңізді таңдайсыз.
+preferences-doh-enabled-detailed-desc-1 = Сіз тандаған провайдерді пайдалану
+preferences-doh-enabled-detailed-desc-2 = Үнсіз келісім DNS провайдерін тек қауіпсіз DNS провайдеріне қатысты мәселе болса, пайдалану
+preferences-doh-setting-strict =
+    .label = Максималды қорғаныс
+    .accesskey = М
+preferences-doh-strict-desc = { -brand-short-name } әрқашан қауіпсіз DNS пайдаланады. Жүйенің DNS жүйесін пайдаланбас бұрын қауіпсіздік тәуекел қаупі туралы ескертуді көресіз.
+preferences-doh-strict-detailed-desc-1 = Тек сіз тандаған провайдерді пайдалану
+preferences-doh-strict-detailed-desc-2 = Қауіпсіз DNS қолжетімді болмаса, әрқашан ескерту
+preferences-doh-strict-detailed-desc-3 = Қауіпсіз DNS қолжетімді болмаса, сайттар жүктелмейді немесе дұрыс жұмыс істемейді
+preferences-doh-setting-off =
+    .label = Сөндірулі
+    .accesskey = д
+preferences-doh-off-desc = Үнсіз келісім DNS шешушісін қолдану
+preferences-doh-checkbox-warn =
+    .label = Үшінші тарап қауіпсіз DNS-ке белсенді түрде кедергі жасаса, ескерту
+    .accesskey = к
+preferences-doh-select-resolver = Провайдерді таңдау:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (Бастапқы)
+preferences-doh-url-custom =
+    .label = Таңдауыңызша
+    .accesskey = д
 
 ## Chat Tab
 

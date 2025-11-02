@@ -105,3 +105,12 @@ dark-message-mode-toggle-enabled =
     .title = Хабарламалардың күңгірт режимін сөндіру
 dark-message-mode-toggle-disabled =
     .title = Хабарламалардың күңгірт режимін іске қосу
+
+## Spam filter
+
+message-bar-not-spam-button =
+    .label = Спам емес
+    .accesskey = м
+message-bar-learn-more-button =
+    .label = Көбірек білу…
+    .accesskey = л
