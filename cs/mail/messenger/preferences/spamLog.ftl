@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 spam-log-title = Protokol adaptivní nevyžádané pošty
+spam-log-info-label =
+    .value = Povolit protokol aktivit adaptivní nevyžádané pošty.
 clear-log-button =
     .label = Vymazat protokol
     .accesskey = m
