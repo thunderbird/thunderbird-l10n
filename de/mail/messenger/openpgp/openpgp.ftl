@@ -561,7 +561,7 @@ already-revoked = Dieser Schlüssel wurde bereits widerrufen.
 #   $identity (String) - the id and associated user identity of the key being revoked
 revoke-key-question =
     Sie sind im Begriff, den Schlüssel „{ $identity }“ zu widerrufen.
-    Sie können diesen Schlüssel nicht mehr zum Signieren verwenden und sobald der Widerruf veröffentlicht wurde, können andere nicht mehr mit diesem Schlüssel verschlüsseln. Sie können den Schlüssel jedoch weiterhin verwenden, um alte Nachrichten zu entschlüsseln.
+    Sie können diesen Schlüssel nicht mehr zum Signieren verwenden und, sobald der Widerruf veröffentlicht wurde, können andere nicht mehr mit diesem Schlüssel verschlüsseln. Sie können den Schlüssel jedoch weiterhin verwenden, um alte Nachrichten zu entschlüsseln.
     Möchten Sie fortfahren?
 #   $keyId (String) - the id of the key being revoked
 revoke-key-not-present =

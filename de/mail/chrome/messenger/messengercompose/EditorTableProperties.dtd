@@ -43,7 +43,7 @@
 <!ENTITY cellSelectNext.accessKey "N">
 <!ENTITY cellSelectPrevious.label "Vorherige">
 <!ENTITY cellSelectPrevious.accessKey "V">
-<!ENTITY applyBeforeChange.label "Aktuelle Änderungen werden angewendet bevor die Auswahl verändert wird.">
+<!ENTITY applyBeforeChange.label "Aktuelle Änderungen werden angewendet, bevor die Auswahl verändert wird.">
 <!ENTITY cellContentAlignment.label "Inhalt ausrichten:">
 <!ENTITY cellHorizontal.label "Horizontal:">
 <!ENTITY cellHorizontal.accessKey "H">
