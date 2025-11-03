@@ -44,5 +44,6 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = Mesedez itxaron zure egutegiak bilatu artean.
 calendar-creation-network-notfound = Ezin bilatu egutegirik kokapen honetan. Mesedez begiratu zure ezarpenak.
 calendar-creation-network-authfail = Zuk sartutako kredentzialak ez dira onartu. Mesedez begiratu zure ezarpenak.
+calendar-creation-network-certerror = Ezin izan dira egutegiak aurkitu kokapen honetan ziurtagiri arazo bat dela eta.
 calendar-creation-network-subscribe-single = Mesedez aukeratu harpidetu nahi duzun egutegiak.
 calendar-creation-network-subscribe-multiple = Kokapen honetan hainbat egutegi mota daude eskuragarri. Mesedez aukeratu egutegi mota, ondoren markatu harpidetu nahi zaren egutegiak.

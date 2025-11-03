@@ -965,6 +965,30 @@ calendar-alarm-snooze-for =
     .label = Atzeratu
 calendar-alarm-snooze-all-for =
     .label = Atzeratu
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] Minutu { $count }
+           *[other] { $count } minutu
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] Ordu { $count }
+           *[other] { $count } ordu
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] Egun { $count }
+           *[other] { $count } egun
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.

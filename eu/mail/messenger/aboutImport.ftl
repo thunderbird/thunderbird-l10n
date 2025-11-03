@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Helbide-liburuak
 items-pane-checkbox-calendars = Egutegiak
 items-pane-checkbox-mail-messages = Posta-mezuak
 items-pane-override = Badagoen edo berdinak diren datuak ez dira gainidatziko.
+items-pane-nothing-to-import = Ezin da ezer inportatu hautatutako iturburutik.
 
 ## Import from address book file steps
 
