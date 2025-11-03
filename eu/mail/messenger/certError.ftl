@@ -16,3 +16,6 @@ cert-error-not-yet-valid = { $hostname } ziurtagiria { $not-after } data arte ez
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = { $hostname }-ren ziurtagiria ez dator iturri fidagarri batetik.
+certificate-check-view-button = Ikusi ziurtagiria
+certificate-check-add-exception-button = Gehitu salbuespena
+certificate-check-remove-exception-button = Kendu salbuespena

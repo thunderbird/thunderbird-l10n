@@ -691,6 +691,31 @@ email-e2ee-automatism-post =
     Erabaki automatikoak baliogabetu daitezke mezu bat idazterakoan zifratzea eskuz gaituz edo desgaituz.
     oharra: Zifratzea automatikoki gaituta dago beti zifratutako mezu bati erantzutean.
 
+## DoH Section
+
+preferences-doh-setting-strict =
+    .label = Babes maximoa
+    .accesskey = m
+preferences-doh-strict-desc = { -brand-short-name }(e)k DNS segurua erabiliko du beti. Segurtasun arriskuaren abisua ikusiko duzu zure sistemaren DNSa erabili aurretik.
+preferences-doh-strict-detailed-desc-1 = Erabili soilik hautatzen duzun hornitzailea
+preferences-doh-strict-detailed-desc-2 = Abisatu beti DNS segurua ez badago erabilgarri
+preferences-doh-strict-detailed-desc-3 = DNS segurua ez badago erabilgarri guneak ez dira kargatuko edo ez dira ondo ibiliko
+preferences-doh-setting-off =
+    .label = Desaktibatuta
+    .accesskey = D
+preferences-doh-off-desc = Erabili zure DNS ebazle lehenetsia
+preferences-doh-checkbox-warn =
+    .label = Abisatu hirugarren batek DNS segurua aktiboki eragozten badu
+    .accesskey = A
+preferences-doh-select-resolver = Aukeratu hornitzailea:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (lehenetsia)
+preferences-doh-url-custom =
+    .label = Pertsonalizatua
+    .accesskey = P
+
 ## Chat Tab
 
 startup-label =

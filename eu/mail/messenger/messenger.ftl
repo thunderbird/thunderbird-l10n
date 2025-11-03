@@ -487,3 +487,7 @@ delete-action = Ezabatu
 mark-as-starred-action = Markatu izardun gisa
 mark-as-spam-action = Markatu spam gisa
 archive-action = Artxibatu
+
+## Prompts
+
+prompt-dont-ask-again = Ez galdetu berriz.
