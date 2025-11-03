@@ -658,7 +658,7 @@ passphrase-prompt2 = Geben Sie die Passphrase ein, um den geheimen Schlüssel mi
 # $key (String) - This is the main key, to which the subkey belongs.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2-sub = Geben Sie die Passphrase ein, um den geheimen Schlüssel mit der ID { $subkey }, zu entsperren, der ein Unterschlüssel des Schlüssel mit der ID { $key } ist, der am { $date }, { $username_and_email } erstellt wurde
+passphrase-prompt2-sub = Geben Sie die Passphrase ein, um den geheimen Schlüssel mit der ID { $subkey } zu entsperren, der ein Unterschlüssel des Schlüssels mit der ID { $key } ist, der am { $date }, { $username_and_email } erstellt wurde
 file-to-big-to-import = Die Datei ist zu groß. Bitte importieren Sie nicht viele Schlüssel auf einmal.
 
 ## Strings used in enigmailKeygen.js

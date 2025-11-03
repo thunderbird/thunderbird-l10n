@@ -183,7 +183,7 @@ account-setup-warning-cleartext = <b>{ $server }</b> verwendet keine Verschlüss
 account-setup-warning-cleartext-details = Ungesicherte E-Mail-Server verwenden keine Verschlüsselung, um Ihre privaten Daten und Passwörter zu schützen. Eine Verbindung zu diesen Servern könnte Ihr Passwort und private Daten gegenüber Dritten offenbaren.
 account-setup-insecure-server-checkbox = Ich verstehe die Risiken.
     .accesskey = R
-account-setup-insecure-description = { -brand-short-name } kann Ihre Nachrichten mit den gewählten Einstellungen abrufen. Sie sollten jedoch Ihren Administrator oder Anbieter des E-Mail-Diensts wegen dieser mangelhaften Verbindungsmöglichkeit kontaktieren. Lesen Sie in der <a data-l10n-name="thunderbird-faq-link">Thunderbird-FAQ</a> für weitere Informationen.
+account-setup-insecure-description = { -brand-short-name } kann Ihre Nachrichten mit den gewählten Einstellungen abrufen. Sie sollten jedoch Ihren Administrator oder Anbieter des E-Mail-Diensts wegen dieser mangelhaften Verbindungsmöglichkeit kontaktieren. Weitere Informationen finden Sie in den <a data-l10n-name="thunderbird-faq-link">Thunderbird-FAQ</a>.
 insecure-dialog-cancel-button = Einstellungen ändern
     .accesskey = n
 insecure-dialog-confirm-button = Bestätigen

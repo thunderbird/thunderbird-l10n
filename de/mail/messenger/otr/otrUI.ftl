@@ -38,8 +38,8 @@ state-not-private = Das derzeitige Gespräch ist nicht privat.
 state-generic-not-private = Das derzeitige Gespräch ist nicht privat.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-state-unverified = Das derzeitige Gespräch ist verschlüsselt aber nicht privat, da die Identität von { $name } nicht bestätigt wurde.
-state-generic-unverified = Das derzeitige Gespräch ist verschlüsselt aber nicht privat, da einige Identitäten noch nicht bestätigt wurden.
+state-unverified = Das derzeitige Gespräch ist verschlüsselt, aber nicht privat, da die Identität von { $name } noch nicht bestätigt wurde.
+state-generic-unverified = Das derzeitige Gespräch ist verschlüsselt, aber nicht privat, da einige Identitäten noch nicht bestätigt wurden.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-private = Die Identität von { $name } wurde bestätigt. Das derzeitige Gespräch ist verschlüsselt und privat.
