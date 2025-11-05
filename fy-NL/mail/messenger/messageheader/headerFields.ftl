@@ -108,6 +108,10 @@ dark-message-mode-toggle-disabled =
 
 ## Spam filter
 
+message-bar-spam = { -brand-short-name } tinkt dat dit berjocht net-winske is.
+message-bar-not-spam-button =
+    .label = Gjin net-winske
+    .accesskey = G
 message-bar-learn-more-button =
     .label = Mear ynfo…
     .accesskey = M

@@ -34,3 +34,6 @@ outgoing-server-settings-title = Ynstellingen fan útgeande server
 outgoing-server-settings-description = By it behearen fan jo identiteiten kinne jo in server fan dizze list brûke troch it te selektearjen as de útgeande server, of jo kinne de standertserver fan dizze list brûke troch ‘Standertserver brûke’ te selektearjen.
 outgoing-server-type = Servertype:
 panel-settings-spam = Spamynstellingen
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Probleem mei de net-winske-e-mailynstellingen foar { $account } ûntdutsen. Wolle jo se kontrolearje eardat jo de wizigingen bewarje?

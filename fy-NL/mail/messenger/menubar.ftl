@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Fuortsmiten ûngedien meitsje
     .tooltiptext = Fuortsmiten fan selektearre berjochten ûngedien meitsje
+toolbar-spam-button =
+    .label = Net-winske
+    .tooltiptext = De selektearre berjochten as net-winske markearje
+toolbar-not-spam-button =
+    .label = Gjin net-winske
+    .tooltiptext = De selektearre berjochten as gjin net-winske markearje
 
 ## View
 
