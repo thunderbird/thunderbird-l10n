@@ -5,7 +5,7 @@
 spam-settings-title = Net-winskeynstellingen
 dialog-header-title =
     .value = Net-winskeynstellingen
-training-description-spam = As aktivearre, moat { -brand-short-name } earst traind wurde yn it identifisearjen fan net-winske berjochten. Dit bart troch mei de arkbalkeknop Net winske oan te jaan oft berjochten wol of net net winske binne. Jo moatte sawol net-winske as winske berjochten identifisearje. Dêrnei sil { -brand-short-name } net-winske berjochten automatysk markearje kinne.
+training-description-spam = As aktivearre, moat { -brand-short-name } earst traind wurde yn it identifisearjen fan net-winske berjochten. Dit bart troch mei de arkbalkeknop Net-winske oan te jaan oft berjochten wol of net net winske binne. Jo moatte sawol net-winske as winske berjochten identifisearje. Dêrnei sil { -brand-short-name } net-winske berjochten automatysk markearje kinne.
 spam-level-checkbox =
     .label = Selslearende net-winske-berjochtedeteksje foar dizze account ynskeakelje
     .accesskey = b

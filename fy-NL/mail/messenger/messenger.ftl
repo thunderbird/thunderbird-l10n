@@ -131,7 +131,7 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Folder names
 
-folder-name-spam = Net winske
+folder-name-spam = Net-winske
 
 ## File Menu
 
@@ -526,7 +526,7 @@ column-status-spam =
 ## Message header.
 
 header-spam-button =
-    .label = Net winske
+    .label = Net-winske
     .tooltiptext = Dit berjocht as net-winske markearje
 
 ## Actions for the New Mail Notification
@@ -539,9 +539,9 @@ archive-action = Argivearje
 
 ## Message list.
 
-message-flag-spam = Net winske
+message-flag-spam = Net-winske
 menuitem-label-spam =
-    .label = Net winske
+    .label = Net-winske
 menuitem-label-spam-score-origin =
     .label = Net-winske begjinskoare
 menuitem-label-spam-percentage =
@@ -564,4 +564,4 @@ prompt-dont-ask-again = Dit net mear freegje.
 # Variables:
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Net-winskeanalyze { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } foltôge
-spam-processing-message = Net winske berjochten ferwurkje
+spam-processing-message = Net-winske berjochten ferwurkje
