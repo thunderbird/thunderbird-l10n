@@ -129,6 +129,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompakte werjefte
     .accesskey = K
 
+## Folder names
+
+folder-name-spam = Net winske
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -200,6 +204,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Argivearje
     .tooltiptext = Argivearje
+context-menu-mark-spam =
+    .aria-label = Markearje as net-winske
+    .tooltiptext = Markearje as net-winske
+context-menu-mark-not-spam =
+    .aria-label = Demarkearje as net-winske
+    .tooltiptext = Demarkearje as net-winske
 context-menu-mark-junk =
     .aria-label = Markearje as net-winske
     .tooltiptext = Markearje as net-winske
@@ -473,12 +483,51 @@ openpgp-forget = Ferjit OpenPGP-wachtwurden
 quota-panel-percent-used = { $percent }% fol
     .title = IMAP-kwota: { $usage } fan totaal { $limit } brûkt
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Net-winskesteat
+    .accesskey = s
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = As net-winske
+    .accesskey = w
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = As gjin net-winske
+    .accesskey = g
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Net-winskekontrôle útfiere
+    .accesskey = k
+menu-run-spam-on-folder =
+    .label = Net-winskekontrôle op map útfiere
+    .accesskey = k
+menu-delete-spam =
+    .label = As net-winske e-mailberjochten yn map fuortsmite
+    .accesskey = f
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Net-winske leegje
+    .accesskey = l
+
+## Thread pane.
+
+column-status-spam =
+    .label = Net-winskesteat
+    .tooltiptext = Sortearje op net-winskesteat
+
+## Message header.
+
+header-spam-button =
+    .label = Net winske
+    .tooltiptext = Dit berjocht as net-winske markearje
 
 ## Actions for the New Mail Notification
 
@@ -487,6 +536,18 @@ delete-action = Fuortsmite
 mark-as-starred-action = Markearje mei stjer
 mark-as-spam-action = Markearje as net-winske
 archive-action = Argivearje
+
+## Message list.
+
+message-flag-spam = Net winske
+menuitem-label-spam =
+    .label = Net winske
+menuitem-label-spam-score-origin =
+    .label = Net-winske begjinskoare
+menuitem-label-spam-percentage =
+    .label = Net-winskepersintaazje
+menuitem-label-spam-status =
+    .label = Net-winskesteat
 
 ## Prompts
 
@@ -497,3 +558,10 @@ prompt-empty-folder-title = { $folder } leechmeitsje?
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-message = Alle berjochten en submappen yn de map { $folder } fuortsmite?
 prompt-dont-ask-again = Dit net mear freegje.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Net-winskeanalyze { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } foltôge
+spam-processing-message = Net winske berjochten ferwurkje
