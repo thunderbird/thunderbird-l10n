@@ -55,6 +55,7 @@ toolbar-next-unread =
 toolbar-next-label = Folgjende
 toolbar-next =
     .title = Nei it folgjende berjocht gean
+toolbar-spam-label = Net winske
 toolbar-junk-label = Net-winske
 toolbar-junk =
     .title = De selektearre berjochten as net-winske markearje
