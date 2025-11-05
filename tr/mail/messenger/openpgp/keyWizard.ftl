@@ -133,6 +133,8 @@ openpgp-save-external-button = Anahtar kimliğini kaydet
 openpgp-external-key-label = Gizli anahtar kimliği:
 openpgp-import-own-key-title = Ortak anahtarınızı içe aktarın
 #   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name }, { $keyId } kimliğine sahip ortak anahtarı bulamadı. Devam etmek için lütfen içe aktarın.
+#   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = { $keyId } ortak anahtarı bu dosyadan içe aktarılamadı.
 openpgp-external-key-input =
     .placeholder = 123456789341298340

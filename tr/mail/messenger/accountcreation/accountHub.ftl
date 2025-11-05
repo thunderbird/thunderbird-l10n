@@ -128,6 +128,7 @@ account-hub-result-unknown-cert = Doğrulanmamış sertifika
 account-hub-close-button =
     .title = Kapat
 account-hub-email-manual-configuration = Manuel yapılandırma
+account-hub-ssl-noencryption = Yok
 account-hub-result-username-label = Kullanıcı adı
     .title = Kullanıcı adı
 account-hub-name-label = Tam isim

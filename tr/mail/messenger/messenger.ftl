@@ -511,6 +511,12 @@ menu-delete-spam =
     .label = Klasörde spam olarak işaretlenen iletileri sil
     .accesskey = K
 
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Spam’i boşalt
+    .accesskey = S
+
 ## Thread pane.
 
 column-status-spam =
