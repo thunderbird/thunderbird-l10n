@@ -201,6 +201,46 @@ exchange-dialog-cancel-button = Anulează
 
 exit-dialog-title = Niciun cont de e-mail configurat
 exit-dialog-description = Sigur vrei să anulezi procesul de configurare? { -brand-short-name } poate fi folosit în continuare fără un cont de e-mail, dar multe funcții nu vor fi disponibile.
+account-setup-no-account-checkbox = Folosește { -brand-short-name } fără un cont de e-mail
+    .accesskey = U
+exit-dialog-cancel-button = Continuă configurarea
+    .accesskey = C
+exit-dialog-confirm-button = Ieși din configurare
+    .accesskey = E
+
+## Alert dialogs
+
+account-setup-creation-error-title = Eroare la crearea contului
+account-setup-error-server-exists = Serverul de primire există deja.
+account-setup-confirm-advanced-title = Confirmă configurația avansată
+account-setup-confirm-advanced-description = Caseta de dialog se va închide și va fi creat un cont cu setările actuale, chiar dacă configurația este incorectă. Vrei să continui?
+
+## Addon installation section
+
+account-setup-addon-install-title = Instalează
+account-setup-addon-install-intro = Un supliment de la terți îți poate permite să îți accesezi contul de e-mail pe acest server:
+account-setup-addon-no-protocol = Din păcate, acest server de e-mail nu acceptă protocoale deschise. { account-setup-addon-install-intro }
+
+## Success view
+
+account-setup-settings-button = Setări cont
+account-setup-encryption-button = Criptare end-to-end
+account-setup-signature-button = Adaugă o semnătură
+account-setup-dictionaries-button = Descarcă dicționare
+account-setup-address-book-carddav-button = Conectează-te la o agendă de contacte CardDav
+account-setup-address-book-ldap-button = Conectează-te la o agendă de contacte LDAP
+account-setup-calendar-button = Conectează-te la un calendar la distanță
+account-setup-linked-services-title = Conectează-ți serviciile conexe
+account-setup-linked-services-description = { -brand-short-name } a detectat alte servicii asociate la contul tău de e-mail.
+account-setup-no-linked-description = Configurează alte servicii pentru a profita la maxim de experiența pe { -brand-short-name }.
+# Variables:
+# $count (Number) - The number of address books found during autoconfig.
+account-setup-found-address-books-description =
+    { $count ->
+        [one] { -brand-short-name } a găsit o agendă de contacte asociată la contul tău de e-mail.
+        [few] { -brand-short-name } a găsit { $count } agende de contacte asociate la contul tău de e-mail.
+       *[other] { -brand-short-name } a găsit { $count } de agende de contacte asociate la contul tău de e-mail.
+    }
 
 ## Calendar synchronization dialog
 

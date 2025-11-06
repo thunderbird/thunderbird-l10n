@@ -72,5 +72,5 @@
 <!ENTITY goForwardCmd.commandKey "Ä">
 <!ENTITY copyLinkCmd.label "Link-Adresse kopieren">
 <!ENTITY copyLinkCmd.accesskey "L">
-<!ENTITY copyEmailCmd.label "E-Mail-Addresse kopieren">
+<!ENTITY copyEmailCmd.label "E-Mail-Adresse kopieren">
 <!ENTITY copyEmailCmd.accesskey "E">
