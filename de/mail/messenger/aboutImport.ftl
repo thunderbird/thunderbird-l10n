@@ -40,7 +40,7 @@ source-outlook-description = Konten, Adressbücher und Nachrichten aus { app-nam
 source-apple-mail = Import aus { app-name-apple-mail }
 source-apple-mail-description = Nachrichten aus { app-name-apple-mail } importieren
 source-file2 = Import aus Datei
-source-file-description = Wählen Sie eine Datei, um Adressbücher, Kalender oder eine Sicherheitskopie des Profiles zu importieren (.zip-Datei).
+source-file-description = Wählen Sie eine Datei, um Adressbücher, Kalender oder eine Sicherheitskopie des Profils zu importieren (.zip-Datei).
 
 ## Import from file selections
 
