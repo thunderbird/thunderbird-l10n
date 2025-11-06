@@ -258,9 +258,16 @@ account-setup-calendars-button = Calendare
 account-setup-connect-link = Conectare
 account-setup-existing-address-book = Conectată
     .title = Agenda de contacte este deja conectată
+account-setup-existing-calendar = Conectat
+    .title = Calendarul este deja conectat
+account-setup-connect-all-calendars = Conectează toate calendarele
+account-setup-connect-all-address-books = Conectează toate agendele de contacte
 
 ## Calendar synchronization dialog
 
+calendar-dialog-title = Conectează calendarul
+calendar-dialog-cancel-button = Anulează
+    .accesskey = C
 account-setup-calendar-read-only = Numai cu drept de citire
     .accesskey = R
 account-setup-calendar-show-reminders = Afișează mementouri
