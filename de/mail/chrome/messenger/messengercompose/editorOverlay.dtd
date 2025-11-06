@@ -271,7 +271,7 @@
 <!ENTITY alignLeftButton.tooltip "Text am linken Rand ausrichten">
 <!ENTITY alignCenterButton.tooltip "Text zentriert ausrichten">
 <!ENTITY alignRightButton.tooltip "Text am rechten Rand ausrichten">
-<!ENTITY alignJustifyButton.tooltip "Text an linkem und rechten Rand ausrichten">
+<!ENTITY alignJustifyButton.tooltip "Text am linken und rechten Rand ausrichten">
 <!-- TOC manipulation -->
 <!ENTITY insertTOC.label "Einfügen">
 <!ENTITY insertTOC.accesskey "E">
