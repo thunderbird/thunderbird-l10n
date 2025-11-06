@@ -575,7 +575,7 @@ after-revoke-info =
     Der Schlüssel wurde widerrufen.
     Teilen Sie den Schlüssel erneut per E-Mail oder durch Hochladen auf Schlüsselserver, damit andere Personen erfahren, dass Sie den Schlüssel widerrufen haben.
     Sobald die Software der anderen Personen die Information über den Widerruf Ihres Schlüssels erhält, wird sie diesen nicht mehr verwenden.
-    Falls Sie einen neuen Schlüssel für dieselbe E-Mail-Adresse verwenden und diesen an Ihre E-Mails anhängen, ist die Information über den Widerruf Ihes alten Zertifikats automatisch enthalten.
+    Falls Sie einen neuen Schlüssel für dieselbe E-Mail-Adresse verwenden und diesen an Ihre E-Mails anhängen, ist die Information über den Widerruf Ihres alten Zertifikats automatisch enthalten.
 
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
