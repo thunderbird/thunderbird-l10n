@@ -30,3 +30,6 @@ tree-list-view-row-ignored-subthread-button =
 tree-list-view-row-watched-thread = Fir de discuție urmărit
 tree-list-view-row-watched-thread-button =
     .title = Acest mesaj cu fir de discuție este urmărit
+tree-list-view-row-flagged =
+    .alt = Indicator de mesaje cu stea
+    .title = Mesaj cu stea

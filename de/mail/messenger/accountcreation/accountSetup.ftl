@@ -147,7 +147,7 @@ account-setup-exchange-config-unverifiable = Konfiguration konnte nicht √ºberpr√
 
 ## Manual configuration area
 
-account-setup-manual-config-title = Manuelle Einrichtigung
+account-setup-manual-config-title = Manuelle Einrichtung
 account-setup-incoming-server-legend = Posteingangs-Server
 account-setup-protocol-label = Protokoll:
 account-setup-hostname-label = Hostname:

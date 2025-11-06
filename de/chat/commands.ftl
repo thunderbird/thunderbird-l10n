@@ -14,7 +14,7 @@ no-command = Befehl '{ $command }' ist unbekannt.
 no-help-key = Für den Befehl '{ $command }' liegen keine Hilfeinformationen vor. Tut uns leid!
 say-help-string = say &lt;Nachricht&gt;: Eine Nachricht senden, ohne enthaltene Befehle auszuführen.
 raw-help-string = raw &lt;Nachricht&gt;: Eine Nachricht senden, ohne HTML-Sonderzeichen zu kodieren.
-help-help-string = help &lt;Befehl&gt;: Die Hilfe für den Befehl &lt;Befehl&gt; an oder die Liste verfügbarer Befehle, wenn kein Parameter übergeben wird.
+help-help-string = help &lt;Befehl&gt;: Zeigt die Hilfe für den Befehl &lt;Befehl&gt; an oder die Liste verfügbarer Befehle, wenn kein Parameter übergeben wird.
 # LOCALIZATION NOTE (status-command):
 #  $command (String): is replaced with a status command name (one of "back-key-key", "away-key-key", "busy-key-key", "dnd-key-key", or "offline-key-key").
 #  $status (String): is replaced with the localized version of that status type (one of the 5 strings below).

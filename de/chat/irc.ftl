@@ -193,7 +193,7 @@ error-was-no-such-nick = Es gab diesen Teilnehmer nicht: { $name }
 #    $name is the nickname or channel name that isn't available.
 error-no-such-channel = Es gibt diesen Raum nicht: { $name }.
 #    $name is the nickname or channel name that isn't available.
-error-unavailable = { $name } ist zur Zeit nicht erreichbar.
+error-unavailable = { $name } ist zurzeit nicht erreichbar.
 #    $name is the channel name.
 error-channel-banned = Ihnen wurde der Zugang zu { $name } gesperrt.
 #    $name is the channel name.

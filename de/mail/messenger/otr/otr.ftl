@@ -9,7 +9,7 @@ msgevent-encryption-required-part2 = Es wird versucht, ein privates Gespräch zu
 msgevent-encryption-error = Beim Verschlüsseln der Nachricht trat ein Fehler auf. Die Nachricht wurde nicht gesendet.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-msgevent-connection-ended = { $name } hat die verschlüsselte Verbindung mit Ihnen bereits beendet. Um das unbeabsichtige Senden einer unverschlüsselten Nachricht zu verhindern, wurde die Nachricht nicht gesendet. Bitte beenden Sie die verschlüsselte Verbindung oder starten Sie diese neu.
+msgevent-connection-ended = { $name } hat die verschlüsselte Verbindung mit Ihnen bereits beendet. Um das unbeabsichtigte Senden einer unverschlüsselten Nachricht zu verhindern, wurde die Nachricht nicht gesendet. Bitte beenden Sie die verschlüsselte Verbindung oder starten Sie diese neu.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 msgevent-setup-error = Beim Einrichten eines privaten Gesprächs mit { $name } trat ein Fehler auf.

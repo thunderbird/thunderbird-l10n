@@ -619,7 +619,7 @@ fail-key-import = Fehler - Schlüssel konnte nicht importiert werden
 # Variables:
 # $output (String) - File that writing was attempted to.
 file-write-failed = Fehler beim Schreiben der Datei { $output }
-no-pgp-block = Fehler - Keinen gültigen armored-OpenPGP Datenblock gefunden
+no-pgp-block = Fehler - Keinen gültigen armored-OpenPGP-Datenblock gefunden
 confirm-permissive-import = Fehler beim Import. Der zu importierende Schlüssel könnte beschädigt sein oder unbekannte Attribute verwenden. Sollen die korrekten Teile des Schlüssels importiert werden? Dies kann zum Import unvollständiger oder unbrauchbarer Schlüssel führen.
 
 ## Strings used in keyRing.sys.mjs

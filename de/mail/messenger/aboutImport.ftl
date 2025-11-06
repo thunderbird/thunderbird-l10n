@@ -44,7 +44,7 @@ source-file-description = Wählen Sie eine Datei, um Adressbücher, Kalender ode
 
 ## Import from file selections
 
-file-profile2 = Profil aus Sicherheitkopie importieren
+file-profile2 = Profil aus Sicherheitskopie importieren
 file-profile-description = Vorher angelegte Sicherheitskopie eine Thunderbird-Profils auswählen (.zip)
 file-calendar = Kalender importieren
 file-calendar-description = Datei auswählen, welche Kalender oder Termine enthält (.ics)
