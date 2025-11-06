@@ -41,7 +41,7 @@ openpgp-key-assistant-valid-description = Wählen Sie den zu akzeptierenden Schl
 openpgp-key-assistant-invalid-title =
     { $numKeys ->
         [one] Der folgende Schlüssel kann nicht verwendet werden, da er eine Aktualisierung benötigt.
-       *[other] Die folgenden Schlüssel können nicht verwendent werden, da sie Aktualisierungen benötigen.
+       *[other] Die folgenden Schlüssel können nicht verwendet werden, da sie Aktualisierungen benötigen.
     }
 openpgp-key-assistant-no-key-available = Kein Schlüssel verfügbar
 openpgp-key-assistant-multiple-keys = Mehrere Schlüssel verfügbar
