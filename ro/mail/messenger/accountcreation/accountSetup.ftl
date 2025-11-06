@@ -268,6 +268,22 @@ account-setup-connect-all-address-books = Conectează toate agendele de contacte
 calendar-dialog-title = Conectează calendarul
 calendar-dialog-cancel-button = Anulează
     .accesskey = C
+calendar-dialog-confirm-button = Conectează
+    .accesskey = n
+account-setup-calendar-name-label = Nume
+account-setup-calendar-name-input =
+    .placeholder = Calendarul meu
+account-setup-calendar-color-label = Culoare
+account-setup-calendar-refresh-label = Reîmprospătează
+account-setup-calendar-refresh-manual = Manual
+# Variables:
+# $count (Number) - Number of minutes in the calendar refresh interval.
+account-setup-calendar-refresh-interval =
+    { $count ->
+        [one] La fiecare minut
+        [few] La fiecare { $minute } minute
+       *[other] La fiecare { $minute } de minute
+    }
 account-setup-calendar-read-only = Numai cu drept de citire
     .accesskey = R
 account-setup-calendar-show-reminders = Afișează mementouri

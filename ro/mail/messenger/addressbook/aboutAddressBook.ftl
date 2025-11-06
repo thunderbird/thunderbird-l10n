@@ -45,15 +45,114 @@ about-addressbook-books-context-edit =
     .label = Editează
 about-addressbook-books-context-print =
     .label = Listează…
+about-addressbook-books-context-export =
+    .label = Exportă…
+about-addressbook-books-context-delete =
+    .label = Șterge
+about-addressbook-books-context-remove =
+    .label = Elimină
+about-addressbook-books-context-startup-default =
+    .label = Director de pornire implicit
+about-addressbook-confirm-delete-book-title = Șterge agenda de contacte
+# Variables:
+# $name (String) - Name of the address book to be deleted.
+about-addressbook-confirm-delete-book = Sigur vrei să ștergi { $name } și toate contactele?
+about-addressbook-confirm-remove-remote-book-title = Elimină agenda de contacte
+# Variables:
+# $name (String) - Name of the remote address book to be removed.
+about-addressbook-confirm-remove-remote-book = Sigur vrei să elimini { $name }?
 
 ## Cards
 
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Caută { $name }
+    .placeholder = Caută { $name }…
+about-addressbook-search-all2 =
+    .label = Caută toate adresele de contacte
+    .placeholder = Caută toate adresele de contacte…
+about-addressbook-sort-button2 =
+    .title = Opțiuni de afișare a listei
 about-addressbook-name-format-display =
     .label = Nume afișat
+about-addressbook-sort-name-ascending =
+    .label = Sortează după nume (A > Z)
+about-addressbook-sort-name-descending =
+    .label = Sortează după nume (Z > A)
+about-addressbook-sort-email-ascending =
+    .label = Sortează după adresa de e-mail (A > Z)
+about-addressbook-sort-email-descending =
+    .label = Sortează după adresa de e-mail (Z > A)
+about-addressbook-table-layout =
+    .label = Aspectul tabelului
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-header-generatedname2 = Nume
+    .title = Sortează după nume
+about-addressbook-column-label-generatedname2 =
+    .label = Nume
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Nume
+    .title = { $title }
+about-addressbook-column-header-emailaddresses2 = Adrese de e-mail
+    .title = Sortează după adresele de e-mail
+about-addressbook-column-label-emailaddresses2 =
+    .label = Adrese de e-mail
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = Adrese de e-mail
+    .title = { $title }
+about-addressbook-column-header-nickname2 = Pseudonim
+    .title = Sortează după pseudonim
+about-addressbook-column-label-nickname2 =
+    .label = Pseudonim
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Pseudonim
+    .title = { $title }
+about-addressbook-column-header-phonenumbers2 = Numere de telefon
+    .title = Sortează după numerele de telefon
+about-addressbook-column-label-phonenumbers2 =
+    .label = Numere de telefon
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Numere de telefon
+    .title = { $title }
+about-addressbook-column-header-addresses2 = Adrese
+    .title = Sortează după adrese
+about-addressbook-column-label-addresses2 =
+    .label = Adrese
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Adrese
+    .title = { $title }
+about-addressbook-column-header-title2 = Funcție
+    .title = Sortează după funcții
+about-addressbook-column-label-title2 =
+    .label = Funcție
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Funcție
+    .title = { $title }
+about-addressbook-column-header-department2 = Departament
+    .title = Sortează după departament
+about-addressbook-column-label-department2 =
+    .label = Departament
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Departament
+    .title = { $title }
 about-addressbook-column-header-organization2 = Organizație
     .title = Sortează după organizație
 about-addressbook-column-label-organization2 =
@@ -195,9 +294,28 @@ about-addressbook-entry-type-cell = Celulă
 about-addressbook-entry-type-pager = Pager
 about-addressbook-entry-name-birthday = Zi de naștere
 about-addressbook-entry-name-anniversary = Aniversare
+about-addressbook-entry-name-title = Funcție
+about-addressbook-entry-name-role = Rol
+about-addressbook-entry-name-organization = Organizație
+about-addressbook-entry-name-website = Site web
+about-addressbook-entry-name-time-zone = Fus orar
+about-addressbook-entry-name-custom1 = Diverse 1
+about-addressbook-entry-name-custom2 = Diverse 2
+about-addressbook-entry-name-custom3 = Diverse 3
+about-addressbook-entry-name-custom4 = Diverse 4
+about-addressbook-unsaved-changes-prompt-title = Modificări nesalvate
+about-addressbook-unsaved-changes-prompt = Vrei să salvezi modificările înainte de a ieși din ecranul de editare?
 
 # Photo dialog
 
+about-addressbook-photo-drop-target = Plasează sau inserează o fotografie aici sau dă clic ca să selectezi un fișier.
+about-addressbook-photo-drop-loading = Se încarcă fotografia…
+about-addressbook-photo-drop-error = Fotografia nu a putut fi încărcată.
+about-addressbook-photo-filepicker-title = Selectează un fișier de imagine
+about-addressbook-photo-discard = Renunță la fotografia existentă
+about-addressbook-photo-cancel = Anulează
+about-addressbook-photo-save = Salvează
 
 # Keyboard shortcuts
 
+about-addressbook-new-contact-key = N

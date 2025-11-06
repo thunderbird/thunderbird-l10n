@@ -5,9 +5,13 @@
 
 # Display Name
 
+vcard-displayname = Nume afișat
+vcard-displayname-placeholder =
+    .placeholder = { vcard-displayname }
 
 # Type selection
 
+vcard-entry-type-label = Tip
 
 # N vCard field
 
