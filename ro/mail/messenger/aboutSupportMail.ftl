@@ -16,3 +16,4 @@ accounts-default = Implicită?
 identity-name = Identitate
 send-via-email = Trimite prin e-mail
 app-basics-telemetry = Date de telemetrie
+libs-otr-status-error = Încărcarea nu a reușit. Criptarea chatului OTR nu va funcționa.

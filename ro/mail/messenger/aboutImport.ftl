@@ -121,3 +121,57 @@ calendar-summary-title =
     }
 # $targetCalendar (string) - name of the calendar that will be created
 calendar-summary-description = Va fi creat un calendar nou denumit „{ $targetCalendar }”.
+
+## Import dialog
+
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-importing2 = Se importă… { $progressPercent }
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-exporting2 = Se exportă… { $progressPercent }
+progress-pane-finished-desc2 = Terminat.
+error-pane-title = Eroare
+error-message-zip-file-too-big2 = Fișierul ZIP selectat este mai mare de 2GB. Extrage-l mai întâi, apoi importă din dosarul extras.
+error-message-extract-zip-file-failed2 = Nu s-a putut extrage fișierul ZIP. Extrage-l manual, apoi importă din dosarul extras.
+error-message-failed = Importul a eșuat în mod neașteptat, pot fi disponibile mai multe informații în Consola de erori.
+error-failed-to-parse-ics-file = Nu s-au găsit elemente care să poată fi importate din fișier.
+error-export-failed = Exportul a eșuat în mod neașteptat, pot fi disponibile mai multe informații în Consola de erori.
+error-message-no-profile = Nu s-a găsit niciun profil.
+
+## <csv-field-map> element
+
+csv-first-row-contains-headers = Primul rând conține denumirile câmpurilor
+csv-source-field = Câmp-sursă
+csv-source-first-record = Prima înregistrare
+csv-source-second-record = A doua înregistrare
+csv-target-field = Câmp din agenda de contacte
+
+## Export tab
+
+export-profile-title = Exportă conturi, mesaje, agende de contacte și setări într-un fișier ZIP.
+export-profile-description = Dacă profilul tău actual este mai mare de 2GB, îți recomandăm să îi faci o copie de rezervă.
+export-open-profile-folder = Deschide dosarul profilului
+export-file-picker2 = Exportă într-un fișier ZIP
+export-brand-name = { -brand-product-name }
+
+## Summary pane
+
+summary-pane-title = Date de importat
+summary-pane-start = Începe importul
+summary-pane-warning = { -brand-product-name } trebuie repornit după finalizarea importului.
+summary-pane-start-over = Repornește Instrumentul de importare
+
+## Footer area
+
+footer-help = Ai nevoie de ajutor?
+footer-import-documentation = Documentație despre import
+footer-export-documentation = Documentație despre export
+footer-support-forum = Forum de asistență
+
+## Step navigation on top of the wizard pages
+
+step-list =
+    .aria-label = Pași pentru importare
+step-confirm = Confirmă
+# Variables:
+# $number (number) - step number
+step-count = { $number }

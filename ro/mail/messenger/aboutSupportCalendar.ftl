@@ -2,7 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendars-title = Setări calendar
 calendars-table-heading-property = Nume
 calendars-table-heading-value = Valoare
 calendars-table-name = Nume
 calendars-table-type = Tip
+calendars-table-disabled = Dezactivat
+calendars-table-username = Nume de utilizator
