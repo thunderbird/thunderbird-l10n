@@ -91,9 +91,46 @@ account-hub-username-warning-icon = Necesită nume de utilizator
 account-hub-address-book-username-error-text = Te rugăm să introduci un nume de utilizator
 account-hub-server-label = URL/Nume gazdă
 address-book-ldap-creation-error = Nu s-a putut crea directorul LDAP.
+account-hub-email-setup-ews = Setări server
+account-hub-result-host-url-label = URL punct final EWS
+account-hub-email-credentials-confirmation = Configurația contului
+account-hub-result-unknown-hostname = Nume de gazdă necunoscut
+account-hub-result-unknown-cert = Certificat neverificat
+account-hub-close-button =
+    .title = Închide
+account-hub-email-manual-configuration = Configurare manuală
+account-hub-notification-unknown-host = Informații de configurare găsite pe un domeniu terț
+account-hub-ssl-noencryption = Niciuna
 account-hub-result-username-label = Nume de utilizator
     .title = Nume de utilizator
 account-hub-name-label = Nume complet
     .accesskey = n
 account-hub-adding-account-title = Se adaugă contul
 account-hub-password-info = Datele tale de autentificare vor fi stocate doar local pe calculator
+account-hub-creating-account = Se creează contul…
+account-hub-sync-accounts-found = { -brand-short-name } a găsit câteva servicii conectate
+account-hub-sync-accounts-not-found = { -brand-short-name } nu a putut găsi servicii conectate
+account-hub-sync-accounts-failure = { -brand-short-name } nu a putut conecta serviciile selectate
+account-hub-email-added-success = Cont de e-mail conectat cu succes
+account-hub-config-test-success = Setările de configurare sunt valide
+account-hub-select-all = Selectează tot
+account-hub-deselect-all = Deselectează tot
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { $count ->
+        [one] { $count } selectat
+       *[other] { $count } selected
+    }
+account-hub-no-address-books = Nu au fost găsite agende de contacte
+account-hub-no-calendars = Nu s-au găsit calendare
+account-hub-email-added-success-links-title = Explorează opțiunile pentru securitate și personalizare:
+account-hub-signature-link = Semnătură de e-mail
+account-hub-email-error-text = Te rugăm să introduci o adresă de e-mail validă
+account-hub-name-error-text = Te rugăm să introduci un nume
+account-hub-hostname-error-text = Numele de gazdă este gol sau nevalid. Sunt permise doar litere, cifre, - și .
+    .title = Numele de gazdă este gol sau nevalid. Sunt permise doar litere, cifre, - și .
+account-hub-port-error-text = Portul trebuie să fie între 1 și 65535
+    .title = Portul trebuie să fie între 1 și 65535
+account-hub-username-error-text = Necesită nume de utilizator
+    .title = Necesită nume de utilizator
+account-hub-oauth-pending = Se așteaptă autorizarea în fereastra pop-up de autentificare…
