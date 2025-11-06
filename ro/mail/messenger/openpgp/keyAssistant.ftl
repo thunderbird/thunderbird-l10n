@@ -61,3 +61,65 @@ openpgp-key-assistant-keys-accepted-expired = Mai multe chei acceptate au expira
 # Variables:
 # $date (String) - The expiration date of the key.
 openpgp-key-assistant-this-key-accepted-expired = Cheia a fost acceptată anterior, dar a expirat pe { $date }.
+# Variables:
+# $date (String) - The expiration date of the key.
+openpgp-key-assistant-key-unaccepted-expired-one = Cheia a expirat pe { $date }.
+openpgp-key-assistant-key-unaccepted-expired-many = Mai multe chei au expirat.
+openpgp-key-assistant-key-fingerprint = Amprentă
+# Variables:
+# $count (Number) - Number of key sources.
+openpgp-key-assistant-key-source =
+    { $count ->
+        [one] Sursă
+       *[other] Surse
+    }
+openpgp-key-assistant-key-collected-attachment = atașament de e-mail
+# Autocrypt is the name of a standard.
+openpgp-key-assistant-key-collected-autocrypt = Antet Autocrypt
+openpgp-key-assistant-key-collected-keyserver = server de chei
+# Web Key Directory (WKD) is a concept.
+openpgp-key-assistant-key-collected-wkd = Director de chei web
+# Do not translate GnuPG, it's a name of other software.
+openpgp-key-assistant-key-collected-gnupg = Breloc GnuPG
+# Variables:
+# $count (Number) - Number of found keys.
+openpgp-key-assistant-keys-has-collected =
+    { $count ->
+        [one] A fost găsită o cheie, dar nu a fost acceptată încă.
+       *[other] Au fost găsite mai multe chei, dar niciuna dintre ele nu a fost încă acceptată.
+    }
+openpgp-key-assistant-key-rejected = Cheia a fost respinsă anterior.
+openpgp-key-assistant-key-accepted-other = Cheia a fost acceptată anterior pentru o altă adresă de e-mail.
+# Variables:
+# $recipient (String) - The email address of the recipient needing resolution.
+openpgp-key-assistant-resolve-discover-info = Descoperă chei suplimentare sau actualizate pentru { $recipient } online sau importă-le dintr-un fișier.
+
+## Discovery section
+
+openpgp-key-assistant-discover-title = Descoperire online în curs.
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-discover-keys = Se descoperă chei pentru { $recipient }…
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-expired-key-update =
+    A fost găsită o actualizare pentru una dintre cheile acceptate anterior pentru { $recipient }.
+    Acum poate fi utilizată, deoarece nu mai este expirată.
+
+## Dialog buttons
+
+openpgp-key-assistant-discover-online-button = Descoperă chei publice online…
+openpgp-key-assistant-import-keys-button = Importă chei publice din fișier…
+openpgp-key-assistant-issue-resolve-button = Rezolvă…
+openpgp-key-assistant-view-key-button = Afișează cheia…
+openpgp-key-assistant-recipients-show-button = Afișează
+openpgp-key-assistant-recipients-hide-button = Ascunde
+openpgp-key-assistant-cancel-button = Anulează
+openpgp-key-assistant-back-button = Înapoi
+openpgp-key-assistant-accept-button = Acceptă
+openpgp-key-assistant-close-button = Închide
+openpgp-key-assistant-disable-button = Dezactivează criptarea
+openpgp-key-assistant-confirm-button = Trimite criptat
+# Variables:
+# $date (String) - The key creation date.
+openpgp-key-assistant-key-created = creat pe { $date }
