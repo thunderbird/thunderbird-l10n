@@ -90,6 +90,13 @@ account-hub-username-label = Nume de utilizator
 account-hub-username-warning-icon = Necesită nume de utilizator
 account-hub-address-book-username-error-text = Te rugăm să introduci un nume de utilizator
 account-hub-server-label = URL/Nume gazdă
+account-hub-server-tip = Thunderbird va încerca să detecteze automat numele gazdei
+account-hub-server-warning-icon = URL nevalid
+account-hub-server-error-text = Te rugăm să introduci un URL valid
+account-hub-address-book-enter-password = Introdu parola contului CardDav
+account-hub-address-book-name-label = Nume
+account-hub-address-book-name-error-text = Te rugăm să introduci un nume
+account-hub-address-book-base-dn = DN de bază
 address-book-ldap-creation-error = Nu s-a putut crea directorul LDAP.
 account-hub-email-setup-ews = Setări server
 account-hub-result-host-url-label = URL punct final EWS
@@ -106,6 +113,17 @@ account-hub-result-username-label = Nume de utilizator
 account-hub-name-label = Nume complet
     .accesskey = n
 account-hub-adding-account-title = Se adaugă contul
+account-hub-adding-account-subheader = Retestarea setărilor de configurare a contului
+account-hub-lookup-email-configuration-title = Se caută configurația
+account-hub-lookup-email-configuration-subheader = Se încearcă nume comune de servere…
+account-hub-email-account-added-title = Contul a fost adăugat cu succes
+account-hub-find-account-settings-failed = { -brand-short-name } nu a reușit să găsească setările pentru contul tău de e-mail.
+account-hub-find-settings-failed = { -brand-full-name } nu a reușit să găsească setările pentru contul tău de e-mail.
+account-hub-notification-show-more = Afișează mai multe
+account-hub-notification-show-less = Arată mai puțin
+account-hub-email-setup-header = Adaugă adresa de e-mail
+account-hub-config-success-exchange = S-a găsit configurația pentru un server Microsoft Exchange
+account-hub-config-success-guess = Configurație găsită prin încercarea denumirilor de server uzuale
 account-hub-password-info = Datele tale de autentificare vor fi stocate doar local pe calculator
 account-hub-creating-account = Se creează contul…
 account-hub-sync-accounts-found = { -brand-short-name } a găsit câteva servicii conectate
@@ -134,3 +152,48 @@ account-hub-port-error-text = Portul trebuie să fie între 1 și 65535
 account-hub-username-error-text = Necesită nume de utilizator
     .title = Necesită nume de utilizator
 account-hub-oauth-pending = Se așteaptă autorizarea în fereastra pop-up de autentificare…
+address-book-sync-existing = Sincronizează dintr-un cont existent
+address-book-add-remote-icon =
+    .alt = Adaugă o nouă agendă de contacte de la distanță
+address-book-add-remote = Adaugă agenda de contacte de la distanță
+address-book-add-remote-description = Conectează-te la o agendă de contacte CardDav de la distanță
+address-book-add-local-icon =
+    .alt = Creează o agendă de contacte locală
+address-book-add-local = Agendă de contacte locală nouă
+address-book-add-local-description = Creează o nouă agendă de contacte locală pe dispozitivul tău
+address-book-add-ldap-icon =
+    .alt = Conectează-te la o agendă de contacte LDAP de la distanță
+address-book-add-ldap = Agendă de contacte LDAP nouă
+address-book-add-ldap-description = Conectează-te la o agendă de contacte LDAP de la distanță
+account-hub-fetching-sync-accounts = Se descoperă agende și calendare…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] 1 agendă de contacte din 1 cont disponibil
+                [few] 1 agendă de contacte din { $accounts } conturi disponibile
+               *[other] 1 agendă de contacte din { $accounts } de conturi disponibile
+            }
+        [few]
+            { $accounts ->
+                [one] { $addressBooks } agende de contacte din 1 cont disponibil
+                [few] { $addressBooks } agende de contacte din { $accounts } conturi disponibile
+               *[other] { $addressBooks } agende de contacte din { $accounts } de conturi disponibile
+            }
+       *[other]
+            { $accounts ->
+                [one] { $addressBooks } de agende de contacte din 1 cont disponibil
+                [few] { $addressBooks } de agende de contacte din { $accounts } conturi disponibile
+               *[other] { $addressBooks } de agende de contacte din { $accounts } de conturi disponibile
+            }
+    }
+address-book-sync-existing-description = Se preiau conturile existente…
+account-hub-select-address-book-account = Selectează un cont cu agende de contacte
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } din { $total }
+    .title = { $synced } agende sincronizate, { $available } disponibile
+account-hub-add-local-address-book = Creează o agendă locală de contacte
