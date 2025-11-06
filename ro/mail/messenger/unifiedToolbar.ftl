@@ -65,3 +65,37 @@ customize-spaces-tabs =
     .aria-label = Spații
 customize-main-toolbar-target =
     .aria-label = Bară de instrumente principală
+customize-palette-generic-title = Disponibilă pentru toate spațiile
+customize-palette-mail-specific-title = Disponibilă doar pentru spațiul de e-mail
+customize-palette-addressbook-specific-title = Disponibilă doar pentru spațiul de agendă de contacte
+customize-palette-calendar-specific-title = Disponibilă doar pentru spațiul de calendar
+customize-palette-tasks-specific-title = Disponibilă doar pentru spațiul de sarcini
+customize-palette-chat-specific-title = Disponibilă doar pentru spațiul de chat
+customize-palette-settings-specific-title = Disponibilă doar pentru spațiul de setări
+customize-palette-extension-specific-title = Disponibilă doar pentru acest spațiu
+
+## Unified toolbar customization palette context menu
+
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Adaugă la { $target }
+customize-palette-add-everywhere =
+    .label = Adaugă la toate barele de instrumente
+
+## Unified toolbar customization target context menu
+
+customize-target-forward =
+    .label = Mută în față
+customize-target-backward =
+    .label = Mută în spate
+customize-target-remove =
+    .label = Elimină
+customize-target-remove-everywhere =
+    .label = Elimină din toate barele de instrumente
+customize-target-add-everywhere =
+    .label = Adaugă la toate barele de instrumente
+customize-target-start =
+    .label = Mută la început
+customize-target-end =
+    .label = Mută la sfârșit
