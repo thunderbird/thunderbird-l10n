@@ -10,6 +10,7 @@
 ## Header
 
 account-hub-brand = { -brand-full-name }
+account-hub-welcome-line = Bine ai venit pe <span data-l10n-name="brand-name">{ -brand-full-name }</span>
 account-hub-title = Centru de conturi
 
 ## Footer
@@ -50,10 +51,10 @@ account-hub-email-manually-configure-button = Configurează manual
 account-hub-email-continue-button = Continuă
 account-hub-email-confirm-button = Confirmă
 account-hub-incoming-server-legend = Server de primire
-account-hub-outgoing-server-legend = Servere de trimitere
+account-hub-outgoing-server-legend = Server de trimitere a mesajelor
 account-hub-result-incoming-server-legend = Server de primire a mesajelor
     .title = Server de primire
-account-hub-result-outgoing-server-legend = Servere de trimitere a mesajelor
+account-hub-result-outgoing-server-legend = Server de trimitere a mesajelor
     .title = Server de trimitere
 account-hub-protocol-label = Protocol
 account-hub-hostname-label = Nume gazdă
