@@ -29,3 +29,8 @@ account-manager-server-default-icon =
     .title = Cont implicit
     .alt = Pictogramă stea
 outgoing-server-section-name = Server de trimitere a mesajelor
+outgoing-server-type = Tip server:
+panel-settings-spam = Setări pentru mesaje nedorite
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = A fost detectată o problemă cu setările pentru mesaje nedorite în { $account }. Vrei să le verifici înainte de a salva modificările?

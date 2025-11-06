@@ -78,8 +78,11 @@ account-setup-looking-up-mx = Se caută configurația: Domeniu de primire a mesa
 account-setup-looking-up-exchange = Se caută configurația: Server de schimb…
 account-setup-checking-password = Se verifică parola…
 account-setup-installing-addon = Se descarcă și se instalează suplimentul…
-account-setup-success-half-manual = Următoarele setări au fost identificate încercând serverul dat:
+account-setup-success-half-manual = Au fost identificate următoarele setări prin încercarea serverului dat:
 account-setup-success-guess = Configurație găsită prin încercarea denumirilor uzuale de server.
+account-setup-success-guess-offline = Ești offline. Am dedus unele setări, dar va trebui să le introduci pe cele corecte.
+account-setup-success-password = Parolă OK
+account-setup-success-addon = Supliment instalat cu succes
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-success-settings-db = Configurație găsită în baza de date Mozilla ISP.
 account-setup-success-settings-disk = Configurație găsită în instalarea { -brand-short-name }.
@@ -177,12 +180,27 @@ account-setup-insecure-outgoing-title = Setări de trimitere:
 # Variables:
 #  $server (String): The name of the hostname of the server the user was trying to connect to.
 account-setup-warning-cleartext = <b>{ $server }</b> nu folosește criptare.
+account-setup-warning-cleartext-details = Serverele nesecurizate de e-mail nu folosesc conexiuni criptate pentru a-ți proteja parolele și informațiile private. Conectarea la acest server îți poate expune parolele și informațiile private.
+account-setup-insecure-server-checkbox = Înțeleg riscurile
+    .accesskey = u
+account-setup-insecure-description = { -brand-short-name } poate permite accesarea contului de e-mail folosind configurațiile furnizate. Totuși, trebuie să contactezi administratorul sau furnizorul de e-mail pentru conexiuni necorespunzătoare. Vezi întrebări adresate frecvent în <a data-l10n-name="thunderbird-faq-link">Thunderbird FAQ</a> pentru mai multe informații.
+insecure-dialog-cancel-button = Schimbă setările
+    .accesskey = S
+insecure-dialog-confirm-button = Confirmă
+    .accesskey = C
 
 ## Warning Exchange confirmation dialog
 
 # Variables:
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
 exchange-dialog-question = { -brand-short-name } ți-a găsit informațiile de configurare a contului pe { $domain }. Vrei să continui și să trimiți credențialele?
+exchange-dialog-confirm-button = Autentificare
+exchange-dialog-cancel-button = Anulează
+
+## Dismiss account creation dialog
+
+exit-dialog-title = Niciun cont de e-mail configurat
+exit-dialog-description = Sigur vrei să anulezi procesul de configurare? { -brand-short-name } poate fi folosit în continuare fără un cont de e-mail, dar multe funcții nu vor fi disponibile.
 
 ## Calendar synchronization dialog
 
