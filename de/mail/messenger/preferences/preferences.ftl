@@ -944,7 +944,7 @@ qr-export-select-all-accounts = Alle auswählen
 qr-export-security-legend = Sicherheit
 qr-export-include-passwords = Passwörter aller Konten einschließen
 qr-export-oauth-warning = Einige Ihrer Konten verwenden eine Authentifizierungsmethode, für die möglicherweise eine erneute Authentifizierung auf Ihrem Mobilgerät erforderlich ist. Möglicherweise müssen Sie während dieses Vorgangs Ihre Passwörter erneut eingeben.
-qr-export-security-hint = Wenn Sie die folgenden QR-Codes scannen, werden Ihre Kontoeinstellungen – einschließlich Ihrer E-Mail-Adresse und Ihres Passworts – sicher übertragen. Wir sammeln, speichern, oder teilen diese Daten während des Prozesses nicht. Die Übertragung erfolgt direkt zwischen Ihren Geräten.
+qr-export-security-hint = Wenn Sie die folgenden QR-Codes scannen, werden Ihre Kontoeinstellungen – einschließlich Ihrer E-Mail-Adresse und Ihres Passworts – sicher übertragen. Wir sammeln, speichern oder teilen diese Daten während des Prozesses nicht. Die Übertragung erfolgt direkt zwischen Ihren Geräten.
 qr-export-security-warning = Stellen Sie zu Ihrer Sicherheit bitte sicher, dass Sie sich in einer privaten Umgebung befinden, und scannen Sie nur QR-Codes aus vertrauenswürdigen Quellen.
 qr-export-start-export = Exportieren
 # Variables:

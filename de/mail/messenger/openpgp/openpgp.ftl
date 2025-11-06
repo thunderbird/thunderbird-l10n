@@ -27,7 +27,7 @@ e2e-csr-select-strength = Wählen Sie die gewünschte Verschlüsselungsstärke (
 # $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
 # $file A filename
 # Do not translate: CSR
-e2e-csr-summary = In den Einstellungen von { -brand-short-name } wird ein neuer Geheimschlüssel { $type } { $strong } erzeugt. Dieser Prozess kann einige Zeit in Anspruch nehmen und zu vorübergehendem Nichtreagieren führen; Bitte haben Sie während dieses Schritts etwas Geduld. Die CSR-Datei („Zertifikatssunterzeichnungsanfrage“) wird als { $file } gespeichert und währenddessen erstellt.
+e2e-csr-summary = In den Einstellungen von { -brand-short-name } wird ein neuer Geheimschlüssel { $type } { $strong } erzeugt. Dieser Prozess kann einige Zeit in Anspruch nehmen und zu vorübergehendem Nichtreagieren führen; Bitte haben Sie während dieses Schritts etwas Geduld. Die CSR-Datei („Zertifikatsunterzeichnungsanfrage“) wird als { $file } gespeichert und währenddessen erstellt.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = E-Mail-Adresse ({ $email }) in die CSR einschließen (empfohlen)
