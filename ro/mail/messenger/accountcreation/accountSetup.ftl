@@ -231,16 +231,33 @@ account-setup-address-book-carddav-button = Conectează-te la o agendă de conta
 account-setup-address-book-ldap-button = Conectează-te la o agendă de contacte LDAP
 account-setup-calendar-button = Conectează-te la un calendar la distanță
 account-setup-linked-services-title = Conectează-ți serviciile conexe
-account-setup-linked-services-description = { -brand-short-name } a detectat alte servicii asociate la contul tău de e-mail.
+account-setup-linked-services-description = { -brand-short-name } a detectat alte servicii asociate contului tău de e-mail.
 account-setup-no-linked-description = Configurează alte servicii pentru a profita la maxim de experiența pe { -brand-short-name }.
 # Variables:
 # $count (Number) - The number of address books found during autoconfig.
 account-setup-found-address-books-description =
     { $count ->
-        [one] { -brand-short-name } a găsit o agendă de contacte asociată la contul tău de e-mail.
-        [few] { -brand-short-name } a găsit { $count } agende de contacte asociate la contul tău de e-mail.
-       *[other] { -brand-short-name } a găsit { $count } de agende de contacte asociate la contul tău de e-mail.
+        [one] { -brand-short-name } a găsit o agendă de contacte asociată contului tău de e-mail.
+        [few] { -brand-short-name } a găsit { $count } agende de contacte asociate contului tău de e-mail.
+       *[other] { -brand-short-name } a găsit { $count } de agende de contacte asociate contului tău de e-mail.
     }
+# Variables:
+# $count (Number) - The number of calendars found during autoconfig.
+account-setup-found-calendars-description =
+    { $count ->
+        [one] { -brand-short-name } a găsit un calendar asociat contului tău de e-mail.
+        [few] { -brand-short-name } a găsit { $count } calendare asociate contului tău de e-mail.
+       *[other] { -brand-short-name } a găsit { $count } de calendare asociate contului tău de e-mail.
+    }
+account-setup-button-finish = Termină
+    .accesskey = F
+account-setup-looking-up-address-books = Se caută agende…
+account-setup-looking-up-calendars = Se caută calendare…
+account-setup-address-books-button = Agende de contacte
+account-setup-calendars-button = Calendare
+account-setup-connect-link = Conectare
+account-setup-existing-address-book = Conectată
+    .title = Agenda de contacte este deja conectată
 
 ## Calendar synchronization dialog
 

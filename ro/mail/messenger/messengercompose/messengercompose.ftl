@@ -93,3 +93,26 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Confirmare de primire
     .tooltiptext = Solicită confirmare de primire pentru acest mesaj
+
+## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+# A line of text describing how many uploaded files have been appended to this
+# message. Emphasis should be on sharing as opposed to attaching. This item is
+# used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
+cloud-file-count-header =
+    { $count ->
+        [one] Am pus un link cu { $count } fișier la acest mesaj pe e-mail:
+        [few] Am pus un link cu { $count } fișiere la acest mesaj pe e-mail:
+       *[other] Am pus un link cu { $count } de fișiere la acest mesaj pe e-mail:
+    }
+
+# Messages
+
