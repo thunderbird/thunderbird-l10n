@@ -5,4 +5,5 @@
 mail-view-known-people = Cunoscuți
 mail-view-recent = Corespondență recentă
 mail-view-last-five-days = Ultimele 5 zile
+mail-view-not-spam = Nu este mesaj nedorit
 mail-view-has-attachments = Are atașamente

@@ -6,7 +6,19 @@ rule-menuitem-spam =
     .label = Mesaje nedorite
 rule-menuitem-not-spam =
     .label = Nu este mesaj nedorit
+run-filter-before-spam =
+    .label = Filtrează înainte de clasificarea ca mesaj nedorit
+run-filter-after-spam =
+    .label = Filtrează după clasificarea ca mesaj nedorit
+rule-action-set-spam-status =
+    .label = Setează starea de nedorit la
+# Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = Mesaj nedorit detectat de la { $author } - { $subject } la { $date }
 # Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = mutat mesajul { $id } în { $folder }
+filter-action-log-spam = scor de spam

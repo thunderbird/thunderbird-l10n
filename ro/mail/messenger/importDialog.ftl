@@ -12,6 +12,7 @@ import-from-thunderbird-zip =
 import-from-thunderbird-dir =
     .label = Thunderbird (dosar de profil)
     .accesskey = T
+import-select-profile-zip = Selectează un director de profiluri arhivat în format zip
 import-select-profile-dir = Selectează un director de profiluri
 zip-file-too-big-title = Fișier zip prea mare
 zip-file-too-big-message = Fișierul zip selectat este mai mare de 2 GB. Extrage-l mai întâi, apoi importă-l din dosarul extras.

@@ -77,3 +77,10 @@ password-os-auth-dialog-message = Verifică-ți identitatea pentru a dezvălui p
 password-os-auth-dialog-message-macosx = afișează parolele salvate
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] modifică setările pentru parole
+       *[other] { -brand-short-name } încearcă să schimbe setările pentru parole. Folosește autentificarea pe dispozitiv ca să permiți acțiunea.
+    }

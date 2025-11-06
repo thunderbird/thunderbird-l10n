@@ -55,6 +55,7 @@ policy-ExtensionSettings = Gestionează toate aspectele instalării extensiei.
 policy-ExtensionUpdate = Activează sau dezactivează actualizările automate de extensii.
 policy-Handlers = Configurează handlerele implicite ale aplicației.
 policy-HardwareAcceleration = Dacă este fals, dezactivează accelerarea hardware.
+policy-InAppNotification = Activează sau dezactivează tipurile de notificări.
 policy-InstallAddonsPermission = Permite anumitor site-uri să instaleze suplimente.
 policy-LegacyProfiles = Dezactivează funcționalitatea care impune forțat un profil separat pentru fiecare instalare.
 

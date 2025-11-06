@@ -132,5 +132,10 @@ openpgp-external-key-info = În plus, trebuie să folosești managerul de chei c
 openpgp-external-key-warning = <b>Poți configura numai o cheie GnuPG externă.</b> Datele introduse anterior vor fi înlocuite.
 openpgp-save-external-button = Salvează ID cheie
 openpgp-external-key-label = ID cheie secretă:
+openpgp-import-own-key-title = Importă-ți cheia publică
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name } nu a putut găsi cheia publică cu ID-ul { $keyId }. Te rugăm să o imporți pentru a continua.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = Nu s-a putut importa cheia publică { $keyId } din fișierul respectiv.
 openpgp-external-key-input =
     .placeholder = 123456789341298340
