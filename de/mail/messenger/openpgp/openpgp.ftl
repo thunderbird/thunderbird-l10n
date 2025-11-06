@@ -794,4 +794,4 @@ dlg-button-skip = Ü&berspringen
 ## Strings used in enigmailMsgBox.js
 
 enig-alert-title =
-    .title = OpenPGP - Alarm
+    .title = OpenPGP – Alarm
