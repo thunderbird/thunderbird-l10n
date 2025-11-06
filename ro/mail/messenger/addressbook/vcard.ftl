@@ -74,6 +74,19 @@ vcard-org-role = Rol
 vcard-org-role-input =
     .title = Funcție sau rol jucat într-o anumită situație
     .placeholder = Rol într-un proiect
+vcard-org-org = Organizație
+vcard-org-org-input =
+    .title = Denumire organizație
+    .placeholder = Denumire firmă
+vcard-org-org-unit = Departament
+vcard-org-org-unit-input =
+    .title = Denumire unitate organizațională
+    .placeholder = Departament
 
 # Custom properties
 
+vcard-custom-header = Proprietăți personalizate
+vcard-custom-add = Adaugă proprietăți personalizate
+vcard-remove-button-title =
+    .title = Elimină
+vcard-remove-button = Elimină
