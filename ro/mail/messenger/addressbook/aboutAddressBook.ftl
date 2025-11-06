@@ -294,7 +294,7 @@ about-addressbook-entry-type-work = Serviciu
 about-addressbook-entry-type-home = Acasă
 about-addressbook-entry-type-fax = Fax
 # Or "Mobile"
-about-addressbook-entry-type-cell = Celulă
+about-addressbook-entry-type-cell = Celular
 about-addressbook-entry-type-pager = Pager
 about-addressbook-entry-name-birthday = Zi de naștere
 about-addressbook-entry-name-anniversary = Aniversare

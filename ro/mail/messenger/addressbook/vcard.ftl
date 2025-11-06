@@ -12,27 +12,69 @@ vcard-displayname-placeholder =
 # Type selection
 
 vcard-entry-type-label = Tip
+vcard-entry-type-home = Acasă
+vcard-entry-type-work = Serviciu
+vcard-entry-type-none = Niciuna
+vcard-entry-type-custom = Personalizat
 
 # N vCard field
 
+vcard-name-header = Nume
+vcard-n-prefix = Prefix
+vcard-n-add-prefix =
+    .title = Adaugă prefix
+vcard-n-firstname = Prenume
+vcard-n-add-firstname =
+    .title = Adaugă prenume
+vcard-n-middlename = Al doilea nume
+vcard-n-add-middlename =
+    .title = Adaugă al doilea prenume
+vcard-n-lastname = Nume de familie
+vcard-n-add-lastname =
+    .title = Adaugă nume de familie
+vcard-n-suffix = Sufix
+vcard-n-add-suffix =
+    .title = Adaugă sufix
 
 # Nickname
 
+vcard-nickname = Pseudonim
 
 # Email vCard field
 
+vcard-email-header = Adrese de e-mail
+vcard-email-add = Adaugă adresa de e-mail
+vcard-email-label = Adresă de e-mail
+vcard-primary-email-label = Implicit
 
 # URL vCard field
 
+vcard-url-header = Site-uri web
+vcard-url-add = Adaugă site web
+vcard-url-label = Site web
 
 # Tel vCard field
 
+vcard-tel-header = Numere de telefon
+vcard-tel-add = Adaugă număr de telefon
+vcard-tel-label = Număr de telefon
+# Or "Mobile"
+vcard-entry-type-cell = Celular
+vcard-entry-type-fax = Fax
+vcard-entry-type-pager = Pager
 
 # TZ vCard field
 
+vcard-tz-header = Fus orar
+vcard-tz-add = Adaugă fus orar
 
 # IMPP vCard field
 
+vcard-impp2-header = Mesagerie instant
+vcard-impp-add = Adaugă cont de chat
+vcard-impp-label = Cont de chat
+vcard-impp-select = Protocol
+vcard-impp-option-other = Altele
 vcard-impp-input-label = URI
 vcard-impp-input-title = URI pentru mesagerie instant
 
