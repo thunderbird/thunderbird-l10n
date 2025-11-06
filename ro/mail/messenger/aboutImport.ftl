@@ -88,3 +88,36 @@ addr-book-sqlite-file = Fișier bază de date SQLite (.sqlite)
 addr-book-mab-file = Fișier bază de date Mork (.mab)
 addr-book-file-picker = Selectează un fișier de agendă de contacte
 addr-book-csv-field-map-title = Fă să corespundă denumirile câmpurilor
+addr-book-csv-field-map-desc = Selectează câmpurile din agendă corespunzătoare câmpurilor-sursă. Debifează câmpurile pe care nu vrei să le imporți.
+addr-book-directories-title = Alege unde să fie importate datele selectate
+addr-book-directories-pane-source = Fișier-sursă:
+# $addressBookName (string) - name of the new address book that would be created.
+addr-book-import-into-new-directory2 = Creează un director nou numit <strong>„{ $addressBookName }”</strong>
+# $addressBookName (string) - name of the address book to import into
+addr-book-summary-title = Importă datele alese în directorul „{ $addressBookName }”
+# $addressBookName (string) - name of the address book that will be created.
+addr-book-summary-description = Va fi creată o nouă agendă numită „{ $addressBookName }”.
+
+## Import from calendar file steps
+
+import-from-calendar-file-desc = Selectează fișierul iCalendar (.ics) pe care vrei să îl imporți.
+calendar-items-title = Selectează elementele de importat.
+calendar-items-loading = Se încarcă elementele...
+calendar-items-filter-input2 =
+    .label = Filtrează elementele
+    .placeholder = Filtrează elementele…
+calendar-select-all-items = Selectează tot
+calendar-deselect-all-items = Deselectează tot
+calendar-target-title = Selectează unde să imporți elementele alese.
+# $targetCalendar (string) - name of the new calendar that would be created
+calendar-import-into-new-calendar2 = Creează un calendar nou numit <strong>„{ $targetCalendar }”</strong>
+# $itemCount (number) - count of selected items (tasks, events) that will be imported
+# $targetCalendar (string) - name of the calendar the items will be imported into
+calendar-summary-title =
+    { $itemCount ->
+        [one] Importă un element în calendarul „{ $targetCalendar }”
+        [few] Importă { $itemCount } elemente în calendarul „{ $targetCalendar }”
+       *[other] Importă { $itemCount } de elemente în calendarul „{ $targetCalendar }”
+    }
+# $targetCalendar (string) - name of the calendar that will be created
+calendar-summary-description = Va fi creat un calendar nou denumit „{ $targetCalendar }”.
