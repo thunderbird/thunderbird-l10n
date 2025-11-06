@@ -171,3 +171,32 @@ appmenu-help-shortcuts =
 appmenu-help-get-involved =
     .label = Implică-te
     .accesskey = G
+appmenu-help-donation =
+    .label = Donează
+    .accesskey = D
+appmenu-help-share-feedback =
+    .label = Împărtășește idei și feedbackuri
+    .accesskey = S
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = Mod de depanare…
+    .accesskey = M
+appmenu-help-exit-troubleshoot-mode2 =
+    .label = Oprește modul de depanare
+    .accesskey = M
+appmenu-help-troubleshooting-info =
+    .label = Informații de depanare
+    .accesskey = T
+appmenu-help-about-product =
+    .label = Despre { -brand-short-name }
+    .accesskey = A
+
+## Application Update
+
+appmenuitem-banner-update-downloading =
+    .label = Se descarcă actualizarea { -brand-shorter-name }
+appmenuitem-banner-update-available =
+    .label = Actualizare disponibilă — descarcă acum
+appmenuitem-banner-update-manual =
+    .label = Actualizare disponibilă — descarcă acum
+appmenuitem-banner-update-unsupported =
+    .label = Nu se poate actualiza — sistem incompatibil
