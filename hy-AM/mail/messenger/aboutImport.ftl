@@ -8,7 +8,9 @@ export-page-title = Արտահանել
 ## Header
 
 import-start = Ներմուծման գործիք
+import-from-app = Ներմուծել հավելվածից
 import-file = Ներմուծել ֆայլից
+import-file-title = Ընտրեք ֆայլ՝ դրա բովանդակությունը ներմուծելու համար։
 import-address-book-title = Ներմուծել Հասցեագրքի ֆայլը
 import-calendar-title = Ներմուծել օրացույցի ֆայլ
 export-profile = Արտահանել
@@ -26,6 +28,7 @@ app-name-thunderbird = Thunderbird
 app-name-seamonkey = SeaMonkey
 app-name-outlook = Outlook
 app-name-apple-mail = Apple Mail
+source-file2 = Ներմուծել ֆայլից
 
 ## Import from file selections
 
@@ -132,6 +135,8 @@ summary-pane-start-over = Վերագործարկել ներմուծման գոր
 ## Footer area
 
 footer-help = Օգնության կարիք ունե՞ք
+footer-import-documentation = Ներմուծման փաստաթղթեր
+footer-export-documentation = Արտահանման փաստաթղթեր
 footer-support-forum = Աջակցման ֆորում
 
 ## Step navigation on top of the wizard pages

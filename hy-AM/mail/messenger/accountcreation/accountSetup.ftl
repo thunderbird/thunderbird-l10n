@@ -138,6 +138,8 @@ account-setup-insecure-outgoing-title = Ելքային կարգավորումն�
 account-setup-warning-cleartext = <b>{ $server } </b>-ը չի օգտագործում կոդավորում։
 insecure-dialog-cancel-button = Փոխել կարգավորումները
     .accesskey = S
+insecure-dialog-confirm-button = Հաստատել
+    .accesskey = C
 
 ## Warning Exchange confirmation dialog
 
