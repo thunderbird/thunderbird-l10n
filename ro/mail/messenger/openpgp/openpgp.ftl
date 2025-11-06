@@ -4,6 +4,56 @@
 
 e2e-intro-description = Pentru a transmite mesaje criptate sau semnate digital, trebuie să configurezi o tehnologie de criptare, fie OpenPGP, fie S/MIME.
 e2e-intro-description-more = Selectează cheia personală pentru a permite utilizarea OpenPGP sau certificatul personal pentru a permite utilizarea S/MIME. Pentru cheile personale sau certificate ai cheia secretă corespunzătoare.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Pentru a obține un nou certificat S/MIME personal, generează o cerere de semnare a certificatului (CSR) și trimite-o unei autorități de certificare (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Selectează un director local și o denumire pentru fișierul CSR și răspunde la următoarele întrebări pentru setarea algoritmului și a puterii.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Generează CSR
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Continuă
+# A label for a button that goes back one step
+e2e-csr-back = Înapoi
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Generează și salvează un fișier CSR ca…
+# Do not translate: CSR
+e2e-csr-select-title = Algoritm CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Alege dintre RSA (recomandat) sau ECC ca algoritm criptografic pentru noul certificat S/MIME.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Alege puterea criptografică dorită (mai rapidă cu numere mai mici sau securitate mai bună cu numere mai mari) pentru noul certificat S/MIME sau păstrează setarea implicită.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Include adresa de e-mail ({ $email }) în CSR (recomandat)
+# $file A filename
+e2e-csr-success = CSR-ul a fost salvat cu succes în { $file }
+e2e-sign-message =
+    .label = Semnează mesaje necriptate
+    .accesskey = u
+e2e-disable-enc =
+    .label = Dezactivează criptarea pentru mesajele noi
+    .accesskey = D
+e2e-enable-enc =
+    .label = Activează criptarea pentru mesajele noi
+    .accesskey = n
+e2e-enable-description = Vei putea dezactiva criptarea pentru mesaje individuale.
+e2e-advanced-section = Setări avansate
+e2e-attach-key =
+    .label = Atașează cheia mea publică la adăugarea unei semnături digitale OpenPGP
+    .accesskey = p
+e2e-encrypt-subject =
+    .label = Criptează subiectul mesajelor OpenPGP
+    .accesskey = b
+e2e-encrypt-drafts =
+    .label = Stochează mesajele nefinalizate în format criptat
+    .accesskey = r
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Trimite cheia(ele) publică(e) OpenPGP în anteturile de e-mail pentru compatibilitate cu Autocrypt
+    .accesskey = t
+openpgp-key-created-label =
+    .label = Creat
 openpgp-key-expiry-label =
     .label = Data expirării
 openpgp-key-id-label =
@@ -15,6 +65,9 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Certificat de revocare
     .accesskey = R
+openpgp-key-man-gen-revocation =
+    .label = Salvează certificatul de revocare în fișier
+    .accesskey = C
 openpgp-key-man-file-menu =
     .label = Fișier
     .accesskey = F
@@ -55,8 +108,18 @@ openpgp-key-man-backup-secret-keys =
 openpgp-key-man-discover-cmd =
     .label = Caută chei online
     .accesskey = D
+openpgp-key-man-publish-cmd =
+    .label = Publică
+    .accesskey = P
+openpgp-key-publish = Publică
 openpgp-key-man-discover-prompt = Pentru a căuta chei OpenPGP online, pe servere de chei sau folosind protocolul WKD, introdu o adresă de e-mail sau un ID de cheie.
 openpgp-key-man-discover-progress = Căutare în curs…
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-ok = Cheia publică a fost trimisă către „{ $keyserver }”.
+# Variables:
+# $keyserver (String) - The address of a server that contains a directory of OpenPGP public keys
+openpgp-key-publish-fail = Cheia publică nu a putut fi trimisă către „{ $keyserver }”.
 openpgp-key-copy-key =
     .label = Copiază cheia publică
     .accesskey = C
@@ -134,6 +197,11 @@ openpgp-key-man-reload =
 openpgp-key-man-change-expiry =
     .label = Schimbă data de expirare
     .accesskey = E
+openpgp-key-man-refresh-online =
+    .label = Reîmprospătare online
+    .accesskey = R
+openpgp-key-man-ignored-ids =
+    .label = Adrese de e-mail
 openpgp-key-man-del-key =
     .label = Șterge cheile
     .accesskey = D
@@ -179,17 +247,27 @@ openpgp-key-man-select-all-key =
     .key = A
 openpgp-key-man-key-details-key =
     .key = I
+openpgp-ign-addr-intro = Accepți utilizarea acestei chei pentru următoarele adrese de e-mail selectate:
+openpgp-key-details-doc-title = Proprietăți cheie
 openpgp-key-details-signatures-tab =
     .label = Certificări
 openpgp-key-details-structure-tab =
     .label = Structură
 openpgp-key-details-uid-certified-col =
     .label = ID utilizator / certificat de
+openpgp-key-details-key-id-label = ID cheie
+openpgp-key-details-user-id3-label = Proprietar pretins al cheii
 openpgp-key-details-id-label =
     .label = ID
 openpgp-key-details-key-type-label = Tip
 openpgp-key-details-key-part-label =
     .label = Parte de cheie
+openpgp-key-details-attr-ignored = Avertisment: Este posibil ca această cheie să nu funcționeze conform așteptărilor, deoarece unele dintre proprietățile ei sunt nesigure și ar putea fi ignorate.
+openpgp-key-details-attr-upgrade-sec = Ar trebui să actualizezi proprietățile nesigure.
+openpgp-key-details-attr-upgrade-pub = Ar trebui să ceri proprietarului acestei chei să actualizeze proprietățile nesigure.
+openpgp-key-details-upgrade-unsafe =
+    .label = Actualizează proprietățile nesigure
+    .accesskey = P
 openpgp-key-details-algorithm-label =
     .label = Algoritm
 openpgp-key-details-size-label =

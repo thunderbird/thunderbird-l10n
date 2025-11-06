@@ -12,6 +12,7 @@ message-header-reply-to-list-name = Răspuns către
 message-header-cc-list-name = Cc
 message-header-bcc-list-name = Bcc
 message-header-newsgroups-list-name = Grupuri de discuții
+message-header-followup-to-list-name = Continuare la
 message-header-tags-list-name = Etichete
 # List management header - RFC 2369.
 message-header-list-id = ID listă
@@ -49,3 +50,68 @@ message-header-list-subscribe-field = Listă-Abonare<span data-l10n-name="field-
 message-header-list-post-field = Listă-Postare<span data-l10n-name="field-separator">:</span>
 message-header-list-owner-field = Listă-Proprietar<span data-l10n-name="field-separator">:</span>
 message-header-list-archive-field = Listă-Arhivă<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = Arhivat-La<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Obține ajutor
+    .accesskey = H
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Dezabonare…
+    .accesskey = U
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Abonare…
+    .accesskey = S
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Scrie
+    .accesskey = W
+# Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
+list-id-list-owner =
+    .label = Contactează administratorul…
+    .accesskey = C
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Arhive listă
+    .accesskey = A
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = Link permanent mesaj
+    .accesskey = P
+# An additional email header field that the user has chosen to display. Unlike
+# the other headers, the name of this header is not expected to be localised
+# because it is generated from the raw field name found in the email header.
+#   $fieldName (String) - The field name.
+message-header-custom-field = { $fieldName }<span data-l10n-name="field-separator">:</span>
+
+##
+
+message-header-address-in-address-book-icon2 =
+    .alt = În agenda de contacte
+message-header-address-not-in-address-book-icon2 =
+    .alt = Nu în agenda de contacte
+message-header-address-not-in-address-book-button =
+    .title = Salvează adresa în agenda de contacte
+message-header-address-in-address-book-button =
+    .title = Editează contactul
+message-header-field-show-more = Mai multe
+    .title = Afișează toți destinatarii
+message-ids-field-show-all = Afișează tot
+
+## Dark Message Mode
+
+dark-message-mode-toggle-enabled =
+    .title = Dezactivează modul de mesaje întunecate
+dark-message-mode-toggle-disabled =
+    .title = Activează modul de mesaje întunecate
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } consideră că acest mesaj este spam.
+message-bar-not-spam-button =
+    .label = Nu este mesaj nedorit
+    .accesskey = N
+message-bar-learn-more-button =
+    .label = Află mai multe…
+    .accesskey = L
