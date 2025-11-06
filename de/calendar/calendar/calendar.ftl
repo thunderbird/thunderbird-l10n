@@ -234,7 +234,7 @@ cal-dav-request-status-code-string-404 = Ressource nicht gefunden.
 cal-dav-request-status-code-string-409 = Ressourcen-Konflikt.
 cal-dav-request-status-code-string-412 = Voraussetzung nicht erfüllt.
 cal-dav-request-status-code-string-500 = Interner Serverfehler.
-cal-dav-request-status-code-string-502 = Fehlerhafter Gateway (Proxy-Konfiguration?).
+cal-dav-request-status-code-string-502 = Fehlerhaftes Gateway (Proxy-Konfiguration?).
 cal-dav-request-status-code-string-503 = Interner Serverfehler (temporärer Serverausfall?).
 # $name name of calendar
 cal-dav-redirect-title = Adresse für Kalender { $name } aktualisieren?

@@ -141,7 +141,7 @@ account-setup-result-username-different = Posteingangs-Server: { $incoming }, Po
 
 # Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
 account-setup-credentials-incomplete = Anmeldung fehlgeschlagen. Entweder stimmen die eingegebenen Zugangsdaten nicht oder es werden andere, gesonderte Zugangsdaten benötigt. Der Benutzername ist im Allgemeinen der Kontoname Ihres Zugangs zur Windows-Domäne, mit oder ohne Domäne (z.B. mariamustermann oder AD\\mariamustermann).
-account-setup-credentials-wrong = Anmeldung fehlgeschlagen. Bitte überprüfen Sie Benutername und Passwort.
+account-setup-credentials-wrong = Anmeldung fehlgeschlagen. Bitte überprüfen Sie Benutzername und Passwort.
 account-setup-find-settings-failed = { -brand-short-name } konnte keine Einstellungen für Ihr E-Mail-Konto finden.
 account-setup-exchange-config-unverifiable = Konfiguration konnte nicht überprüft werden. Falls der Benutzername und das Passwort korrekt sind, hat der Server-Administrator vermutlich die gewählte Konfiguration für Ihr Konto deaktiviert. Versuchen Sie, ein anderes Protokoll zu verwenden.
 
