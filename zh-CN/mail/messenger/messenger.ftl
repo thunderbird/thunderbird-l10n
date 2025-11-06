@@ -508,7 +508,7 @@ column-status-spam =
 ## Message header.
 
 header-spam-button =
-    .label = 垃圾邮件
+    .label = 垃圾
     .tooltiptext = 将此邮件标记为垃圾邮件
 
 ## Actions for the New Mail Notification
