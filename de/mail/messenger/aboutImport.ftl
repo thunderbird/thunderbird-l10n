@@ -67,7 +67,7 @@ profile-source-named = Aus Profil <strong>"{ $profileName }"</strong> importiere
 profile-file-picker-directory = Profilordner auswählen
 profile-file-picker-archive = <strong>.zip</strong>-Datei auswählen
 profile-file-picker-archive-description = Die .zip-Datei muss kleiner als 2 GB sein.
-profile-file-picker-archive-title = ZIP-Datei auswählen (kleiner als 2GB)
+profile-file-picker-archive-title = ZIP-Datei auswählen (kleiner als 2 GB)
 items-pane-title2 = Zu importierende Daten:
 items-pane-directory = Ordner:
 items-pane-profile-name = Profilname:
@@ -129,7 +129,7 @@ progress-pane-importing2 = Import wird durchgeführt… { $progressPercent }
 progress-pane-exporting2 = Export wird durchgeführt… { $progressPercent }
 progress-pane-finished-desc2 = Fertig
 error-pane-title = Fehler
-error-message-zip-file-too-big2 = Die ausgewählte .zip-Datei ist größer als 2GB. Entpacken Sie diese erst und importieren Sie anschließend den entpackten Ordner.
+error-message-zip-file-too-big2 = Die ausgewählte .zip-Datei ist größer als 2 GB. Entpacken Sie diese zuerst und importieren Sie anschließend den entpackten Ordner.
 error-message-extract-zip-file-failed2 = Fehler beim Entpacken der .zip-Datei. Entpacken Sie diese erst und importieren Sie anschließend den entpackten Ordner.
 error-message-failed = Der Import schlug unerwartet fehl. Weitere Informationen in der Fehlerkonsole.
 error-failed-to-parse-ics-file = Keine importierbaren Einträge in der Kalenderdatei erkannt.
@@ -147,7 +147,7 @@ csv-target-field = Adressbuchfeld
 ## Export tab
 
 export-profile-title = Konten, Nachrichten, Adressbücher und Einstellungen in eine .zip-Datei exportieren
-export-profile-description = Falls der Profilordner größer als 2GB ist, wird das manuelle Erstellen der Sicherheitskopie empfohlen.
+export-profile-description = Falls Ihr Profilordner größer als 2 GB ist, wird das manuelle Erstellen der Sicherheitskopie empfohlen.
 export-open-profile-folder = Profilordner öffnen
 export-file-picker2 = In ZIP-Datei exportieren
 export-brand-name = { -brand-product-name }

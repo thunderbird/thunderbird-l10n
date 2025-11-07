@@ -110,7 +110,7 @@ import-key-file = OpenPGP-Schlüsseldatei importieren
 import-key-personal-checkbox =
     .label = Diesen Schlüssel als persönlichen Schlüssel verwenden
 gnupg-file = GnuPG-Dateien
-import-error-file-size = <b>Fehler:</b> Dateien größer als 5MB werden nicht unterstützt.
+import-error-file-size = <b>Fehler:</b> Dateien größer als 5 MB werden nicht unterstützt.
 #   $error (String) - the reported error from the failed key import method
 import-error-failed = <b>Fehler:</b> Datei konnte nicht importiert werden. { $error }
 #   $error (String) - the reported error from the failed key import method
