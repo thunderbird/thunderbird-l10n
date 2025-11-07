@@ -197,7 +197,7 @@ account-setup-calendar-name-label = שם
 account-setup-calendar-name-input =
     .placeholder = לוח השנה שלי
 account-setup-calendar-color-label = צבע
-account-setup-calendar-refresh-label = רענון
+account-setup-calendar-refresh-label = ריענון
 account-setup-calendar-refresh-manual = באופן ידני
 # Variables:
 # $count (Number) - Number of minutes in the calendar refresh interval.
