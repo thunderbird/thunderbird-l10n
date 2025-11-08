@@ -42,7 +42,7 @@
 <!ENTITY sendLaterCmd.label "Trimite mai târziu">
 <!ENTITY sendLaterCmd.keycode "VK_RETURN">
 <!ENTITY sendLaterCmd.accesskey "r">
-<!ENTITY printCmd.label "Tipărește…">
+<!ENTITY printCmd.label "Printează…">
 <!ENTITY printCmd.key "P">
 <!ENTITY printCmd.accesskey "p">
 <!-- Edit Menu -->
@@ -178,7 +178,7 @@
 <!ENTITY addressButton.label "Adrese">
 <!ENTITY spellingButton.label "Ortografie">
 <!ENTITY saveButton.label "Salvează">
-<!ENTITY printButton.label "Tipărește">
+<!ENTITY printButton.label "Printează">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Trimite acum acest mesaj">
 <!ENTITY sendlaterButton.tooltip "Trimite acest mesaj mai târziu">
@@ -189,7 +189,7 @@
 <!ENTITY cutButton.tooltip "Taie">
 <!ENTITY copyButton.tooltip "Copiază">
 <!ENTITY pasteButton.tooltip "Inserează">
-<!ENTITY printButton.tooltip "Tipărește acest mesaj">
+<!ENTITY printButton.tooltip "Printează mesajul">
 <!-- Headers
      LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
     Subject: rows. It should be larger than the largest Header label -->

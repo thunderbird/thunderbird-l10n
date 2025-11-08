@@ -75,7 +75,7 @@
 <!ENTITY downloadSelectedCmd.accesskey "l">
 <!ENTITY downloadStarredCmd.label "Descarcă mesajele cu steluță">
 <!ENTITY downloadStarredCmd.accesskey "A">
-<!ENTITY printCmd.label "Tipărește…">
+<!ENTITY printCmd.label "Printează…">
 <!ENTITY printCmd.accesskey "p">
 <!ENTITY printCmd.key "P">
 <!-- Edit Menu -->
@@ -488,7 +488,7 @@
 <!ENTITY goForwardButton1.label "Redirecționează">
 <!ENTITY deleteItem.title "Șterge">
 <!ENTITY markButton.label "Marchează">
-<!ENTITY printButton.label "Tipărește">
+<!ENTITY printButton.label "Printează">
 <!ENTITY stopButton.label "Oprește">
 <!ENTITY throbberItem.title "Indicator de activitate">
 <!ENTITY junkItem.title "Nesolicitat">
@@ -523,7 +523,7 @@
 <!ENTITY goForwardButton.tooltip "Înainte cu un mesaj">
 <!ENTITY goBackButton.tooltip "Mergi la mesajul precedent">
 <!ENTITY markButton.tooltip "Marchează mesajele">
-<!ENTITY printButton.tooltip "Tipărește acest mesaj">
+<!ENTITY printButton.tooltip "Printează mesajul">
 <!ENTITY stopButton.tooltip "Oprește transferul actual">
 <!ENTITY addressBookButton.tooltip "Mergi la agenda de contacte">
 <!ENTITY chatButton.tooltip "Afișează fila pentru chat">
@@ -710,9 +710,9 @@
 <!ENTITY contextWatchThreadMenu.accesskey "">
 <!ENTITY contextSaveAs.label "Salvează ca…">
 <!ENTITY contextSaveAs.accesskey "S">
-<!ENTITY contextPrint.label "Tipărește…">
+<!ENTITY contextPrint.label "Printează…">
 <!ENTITY contextPrint.accesskey "p">
-<!ENTITY contextPrintPreview.label "Previzualizează pentru tipărire">
+<!ENTITY contextPrintPreview.label "Previzualizare pentru printare">
 <!ENTITY contextPrintPreview.accesskey "v">
 <!-- LOCALIZATION NOTE (columnPicker.applyTo.label):
      This option in the thread pane column picker pops up a sub-menu containing

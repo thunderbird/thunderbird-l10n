@@ -18,7 +18,7 @@
 <!ENTITY savePageCmd.label "Salvează pagina ca…">
 <!ENTITY savePageCmd.accesskey "a">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY printCmd.label "Tipărire…">
+<!ENTITY printCmd.label "Printează…">
 <!ENTITY printCmd.accesskey "p">
 <!ENTITY printCmd.commandkey "p">
 <!ENTITY closeCmd.label "Închide">

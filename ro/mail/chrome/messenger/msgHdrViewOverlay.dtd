@@ -61,7 +61,7 @@
 <!ENTITY saveAsMenuItem1.accesskey "S">
 <!ENTITY viewSourceMenuItem1.label "Vizualizează sursa">
 <!ENTITY viewSourceMenuItem1.accesskey "V">
-<!ENTITY otherActionsPrint1.label "Tipărește…">
+<!ENTITY otherActionsPrint1.label "Printează…">
 <!ENTITY otherActionsPrint1.accesskey "p">
 <!-- Attachment bar context menu items -->
 <!ENTITY startExpandedCmd.label "Afișează inițial panoul de atașamente">

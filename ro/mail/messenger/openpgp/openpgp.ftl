@@ -651,8 +651,8 @@ msg-compose-partially-encrypted-inlinePGP =
 msg-compose-cannot-save-draft = Eroare la salvarea ciornei
 msg-compose-partially-encrypted-short = Atenție la divulgarea de informații sensibile - mesaj parțial criptat.
 quoted-printable-warn =
-    Ai activat codarea „citat tipăribil” pentru transmiterea mesajelor. Poate conduce la decriptarea și/sau verificarea incorectă(e) a mesajelor tale.
-    Vrei să dezactivezi trimiterea de mesaje cu „citat tipăribil” acum?
+    Ai activat codarea „citat printabil” pentru transmiterea mesajelor. Poate conduce la decriptarea și/sau verificarea incorectă(e) a mesajelor tale.
+    Vrei să dezactivezi trimiterea de mesaje cu „citat printabil” acum?
 # Variables:
 # $width (Number) - Number of characters per line.
 minimal-line-wrapping =
