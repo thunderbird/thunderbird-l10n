@@ -9,7 +9,7 @@
 <!ENTITY addToAddressBook.accesskey "A">
 <!ENTITY ListName.label "Denumirea listei: ">
 <!ENTITY ListName.accesskey "l">
-<!ENTITY ListNickName.label "Listează pseudonime: ">
+<!ENTITY ListNickName.label "Printează pseudonime: ">
 <!ENTITY ListNickName.accesskey "n">
 <!ENTITY ListDescription.label "Descriere: ">
 <!ENTITY ListDescription.accesskey "D">
