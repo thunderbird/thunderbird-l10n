@@ -67,7 +67,7 @@
 <!ENTITY offlineMenu.accesskey "А">
 <!ENTITY offlineGoOfflineCmd.label "Работать автономно">
 <!ENTITY offlineGoOfflineCmd.accesskey "б">
-<!ENTITY synchronizeOfflineCmd.label "Загрузить/синхронизировать сейчас…">
+<!ENTITY synchronizeOfflineCmd.label "Скачать/синхронизировать сейчас…">
 <!ENTITY synchronizeOfflineCmd.accesskey "с">
 <!ENTITY settingsOfflineCmd2.label "Параметры автономной работы">
 <!ENTITY settingsOfflineCmd2.accesskey "м">
