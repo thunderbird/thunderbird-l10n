@@ -334,7 +334,7 @@ cloud-file-placeholder-title = { $filename } - вложение на Filelink
 # A text describing that the file was attached as a Filelink and can be downloaded
 # from the link shown below.
 # $filename - name of the file
-cloud-file-placeholder-intro = Файл { $filename } был прикреплён в виде ссылки на Filelink. Его можно загрузить по указанной ниже ссылке.
+cloud-file-placeholder-intro = Файл { $filename } был прикреплён в виде ссылки на Filelink. Его можно скачать по указанной ниже ссылке.
 
 # Template
 

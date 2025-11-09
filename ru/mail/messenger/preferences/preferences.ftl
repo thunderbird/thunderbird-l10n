@@ -887,7 +887,7 @@ search-results-empty-message2 =
         [windows] Извините! В настройках не найдено результатов для «<span data-l10n-name="query"></span>».
        *[other] Извините! В настройках не найдено результатов для «<span data-l10n-name="query"></span>».
     }
-search-results-help-link = Нужна помощь? Посетите <a data-l10n-name="url">Сайт поддержки { -brand-short-name }</a>
+search-results-help-link = Нужна помощь? Зайдите на <a data-l10n-name="url">сайт поддержки { -brand-short-name }</a>
 
 ## Sync Tab
 
