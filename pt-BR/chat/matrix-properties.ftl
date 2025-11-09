@@ -70,7 +70,7 @@ tooltip-last-active = Última atividade
 power-level-default = Normal
 power-level-moderator = Moderador
 power-level-admin = Administrador
-power-level-restricted = Limitado
+power-level-restricted = Com restrição
 power-level-custom = Personalizado
 #    $powerLevelName is the power level name
 #    $powerLevelNumber is the power level number
