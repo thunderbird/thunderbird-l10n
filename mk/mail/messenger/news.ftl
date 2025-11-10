@@ -8,6 +8,15 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Преземање на заглавја
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Има { $count } нови заглавја на пораки кои можат да се преземат од оваа дискусиона група.
+download-all-headers =
+    .label = Преземи ги сите заглавја
+    .accesskey = р
+download-headers-ok-button =
+    .label = Преземи
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -24,6 +33,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Сигурно сакате да ја откажете пораката?
 
 ## Auto-Subscribe Dialog
 
