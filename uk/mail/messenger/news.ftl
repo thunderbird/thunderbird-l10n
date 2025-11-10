@@ -32,6 +32,13 @@ no-articles-to-download = Немає статей до завантаження 
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Завантаження заголовків
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = У цій групі новин є { $count } нових заголовків повідомлень, які можна завантажити.
+download-all-headers =
+    .label = Завантажити всі заголовки
+    .accesskey = с
 download-headers-ok-button =
     .label = Завантажити
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -50,6 +57,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Ви дійсно бажаєте вилучити це повідомлення?
 
 ## Auto-Subscribe Dialog
 
@@ -59,6 +67,7 @@ auto-subscribe-text = Бажаєте підписатися на { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Потрібно вказати користувача і пароль для сервера новин
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Введіть ім'я користувача й пароль для { $server }:
