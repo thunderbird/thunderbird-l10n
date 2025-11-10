@@ -501,6 +501,12 @@ menu-mark-not-spam =
 mark-not-junk-key =
     .key = j
 
+## Folder pane context.
+
+
+## Thread pane.
+
+
 ## Message header.
 
 header-spam-button =
@@ -520,6 +526,9 @@ archive-action = Архивтеу
 message-flag-spam = Спам
 menuitem-label-spam =
     .label = Спам
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = және басқалар
 
 ## Prompts
 
