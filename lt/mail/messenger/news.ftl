@@ -37,6 +37,13 @@ no-such-newsgroup = Naujienų grupė „{ $newsgroup }“ nepasiekiama serveryje
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Antraščių atsiuntimas
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Šioje naujienų grupėje yra { $count } naujų laiškų antraštės.
+download-all-headers =
+    .label = Atsiųsti visas antraštes
+    .accesskey = A
 download-headers-ok-button =
     .label = Atsiųsti
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -55,6 +62,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Ar tikrai norite atsisakyti šio laiško?
 
 ## Auto-Subscribe Dialog
 
@@ -64,6 +72,7 @@ auto-subscribe-text = Ar pageidaujate prenumeruoti „{ $newsgroup }“?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Reikalingas naujienų serverio abonento vardas ir slaptažodis
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Įveskite abonento vardą ir slaptažodį prisijungimui prie serverio { $server }:
