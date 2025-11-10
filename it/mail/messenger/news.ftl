@@ -33,6 +33,13 @@ no-such-newsgroup = Il gruppo di discussione { $newsgroup } non è disponibile s
 
 ## Download Headers Dialog
 
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Scarica
+    .accesskey = c
 n-headers =
     .value = intestazioni
     .accesskey = n
@@ -55,3 +62,13 @@ mark-headers-read =
 news-error-title = Errore caricamento articolo
 # The main heading for the news error page.
 article-not-found-title = Articolo non trovato
+# A longer description for the news error page.
+article-not-found-desc = Il server gruppi di discussione asserisce che non può trovare l’articolo.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Il server gruppi di discussione ha risposto:
+# A string explaining that the article may have expired.
+article-may-have-expired = L’articolo potrebbe essere scaduto?
+# A string preceding the message's ID.
+try-searching-prefix = Tentare di cercare l’articolo:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Eliminare tutti gli articoli scaduti
