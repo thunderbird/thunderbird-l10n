@@ -552,6 +552,27 @@ menuitem-label-spam-percentage =
     .label = Pourcentage d’indésirables
 menuitem-label-spam-status =
     .label = État indésirable
+message-priority-lowest = Minimale
+message-priority-low = Basse
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normale
+message-priority-high = Haute
+message-priority-highest = Maximale
+# Grouped By Date thread pane titles
+message-group-today = Aujourd’hui
+message-group-yesterday = Hier
+message-group-last-seven-days = Ces 7 derniers jours
+message-group-last-fourteen-days = Ces 14 derniers jours
+message-group-older = Anciens messages
+message-group-future-date = Futurs messages
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Messages sans étiquette
+message-group-no-status = Aucun statut
+message-group-no-priority = Aucune priorité
+message-group-no-attachments = Sans pièces jointes
+message-group-attachments = Avec pièces jointes
+message-group-not-starred = Non suivis
+message-group-starred = Suivis
 
 ## Prompts
 
