@@ -11,6 +11,13 @@ no-new-messages = Uudistegrupis { $newsgroup } pole uusi kirju.
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Päiste tõmbamine
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Selle uudistegrupi jaoks leiti { $count } päist, mida tõmmata.
+download-all-headers =
+    .label = Tõmba alla kõik päised
+    .accesskey = T
 download-headers-ok-button =
     .label = Tõmba
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -29,6 +36,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Kas oled kindel, et soovid kirja tühistada?
 
 ## Auto-Subscribe Dialog
 
@@ -38,6 +46,7 @@ auto-subscribe-text = Kas soovid tellida uudistegrupi { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Uudisteserver nõuab kasutajanime ja parooli
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Sisesta uudisteserveri { $server } kasutajanimi ja parool:
