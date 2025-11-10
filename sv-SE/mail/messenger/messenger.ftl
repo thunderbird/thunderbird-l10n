@@ -548,6 +548,33 @@ menuitem-label-spam-percentage =
     .label = Skräppostprocent
 menuitem-label-spam-status =
     .label = Skräppoststatus
+message-priority-lowest = Lägsta
+message-priority-low = Låg
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normal
+message-priority-high = Hög
+message-priority-highest = Högsta
+message-flag-replied = Besvarat
+message-flag-forwarded = Vidarebefordrat
+message-flag-redirected = Omdirigerad
+message-flag-new = Nytt
+message-flag-read = Läst
+message-flag-starred = Märkta
+# Grouped By Date thread pane titles
+message-group-today = Idag
+message-group-yesterday = Igår
+message-group-last-seven-days = Senaste 7 dagarna
+message-group-last-fourteen-days = Senaste 14 dagarna
+message-group-older = Äldre
+message-group-future-date = Framtida
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Omärkta meddelanden
+message-group-no-status = Ingen status
+message-group-no-priority = Ingen prioritet
+message-group-no-attachments = Inga bilagor
+message-group-attachments = Bilagor
+message-group-not-starred = Ej märkta
+message-group-starred = Märkta
 
 ## Prompts
 
