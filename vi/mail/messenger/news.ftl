@@ -25,6 +25,21 @@ no-such-newsgroup = Nhóm tin { $newsgroup } không có sẵn trên máy chủ.
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Tải xuống
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Tải xuống
+    .accesskey = o
+n-headers =
+    .value = tiêu đề
+    .accesskey = h
+mark-headers-read =
+    .label = Đánh dấu các tiêu đề còn lại là đã đọc
+    .accesskey = M
 
 ## Cancel Message Dialog
 
@@ -37,6 +52,27 @@ auto-subscribe-text = Bạn có muốn đăng kí { $newsgroup }?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Vui lòng nhập tên người dùng và mật khẩu cho { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Vui lòng nhập tên người dùng và mật khẩu cho { $newsgroup } trên { $server }:
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Gặp vấn đề khi tải bài viết
+# The main heading for the news error page.
+article-not-found-title = Không tìm thấy bài viết
+# A longer description for the news error page.
+article-not-found-desc = Máy chủ nhóm tin báo cáo rằng nó không tìm thấy bài viết nào.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Máy chủ nhóm tin đã trả lời:
+# A string explaining that the article may have expired.
+article-may-have-expired = Có lẽ bài viết đã hết hạn?
+# A string preceding the message's ID.
+try-searching-prefix = Hãy thử tìm kiếm bài viết:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Xóa tất cả các bài viết đã hết hạn
