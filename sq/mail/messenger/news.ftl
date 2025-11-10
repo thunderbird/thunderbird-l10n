@@ -33,6 +33,13 @@ no-such-newsgroup = Grupi i lajmeve { $newsgroup } s’është i passhëm te sh�
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Shkarko Tituj
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Për këtë grup lajmesh ka { $count } tituj mesazhesh të rinj për shkarkim.
+download-all-headers =
+    .label = Shkarko krejt titujt
+    .accesskey = k
 download-headers-ok-button =
     .label = Shkarko
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -51,6 +58,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Jeni i sigurt se doni të fshihet ky mesazh?
 
 ## Auto-Subscribe Dialog
 
@@ -60,6 +68,7 @@ auto-subscribe-text = Doni të pajtoheni te { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Lypsen Emër Përdoruesi dhe Fjalëkalim Për Te Shërbyesi i Lajmeve
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Ju lutemi, jepni emër përdoruesi dhe fjalëkalim për { $server }:
