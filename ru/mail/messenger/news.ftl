@@ -35,6 +35,13 @@ no-such-newsgroup = Группа новостей { $newsgroup } недосту�
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Загрузка заголовков
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = В этой группе новостей можно загрузить { $count } новых заголовков сообщений.
+download-all-headers =
+    .label = Загрузить все заголовки
+    .accesskey = в
 download-headers-ok-button =
     .label = Загрузить
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -53,6 +60,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Вы действительно хотите стереть это сообщение?
 
 ## Auto-Subscribe Dialog
 
@@ -62,6 +70,7 @@ auto-subscribe-text = Хотите подписаться на «{ $newsgroup }�
 
 ## News Server Credentials
 
+enter-news-credentials-title = Требуется имя пользователя и пароль для сервера новостей
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Пожалуйста, введите имя пользователя и пароль для { $server }:
