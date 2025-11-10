@@ -431,6 +431,33 @@ mark-not-junk-key =
 
 ## Message list.
 
+message-priority-lowest = La más baja
+message-priority-low = Baja
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normal
+message-priority-high = Alta
+message-priority-highest = La más alta
+message-flag-replied = Respondido
+message-flag-forwarded = Reenviado
+message-flag-redirected = Redirigido
+message-flag-new = Nuevo
+message-flag-read = Leído
+message-flag-starred = Destacado
+# Grouped By Date thread pane titles
+message-group-today = Hoy
+message-group-yesterday = Ayer
+message-group-last-seven-days = Los últimos 7 días
+message-group-last-fourteen-days = Los últimos 14 días
+message-group-older = Antiguo
+message-group-future-date = Futuro
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Mensajes sin etiqueta
+message-group-no-status = Sin estado
+message-group-no-priority = Sin prioridad
+message-group-no-attachments = Sin adjuntos
+message-group-attachments = Adjuntos
+message-group-not-starred = No destacado
+message-group-starred = Destacado
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
