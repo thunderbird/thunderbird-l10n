@@ -25,6 +25,19 @@ no-such-newsgroup = 無法使用伺服器上的新聞群組 { $newsgroup }。
 
 ## Download Headers Dialog
 
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = 下載
+    .accesskey = o
+n-headers =
+    .value = 封郵件資訊
+    .accesskey = h
+mark-headers-read =
+    .label = 把剩下的郵件標示為已讀
+    .accesskey = M
 
 ## Cancel Message Dialog
 
