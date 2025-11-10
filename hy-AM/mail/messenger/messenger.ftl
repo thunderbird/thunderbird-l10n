@@ -32,11 +32,20 @@ addons-and-themes-toolbarbutton =
     .label = Հավելումներ և ոճեր
     .tooltiptext = Կառավարել հավելումները
 
+## Folder Pane
+
+
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Պիտակներ
     .accesskey = T
+
+## Folder names
+
+
+## File Menu
+
 
 ## Edit Menu
 
@@ -71,6 +80,9 @@ menu-edit-newsgroup-properties =
     .label = Լուրախմբերի հատկությունը
     .accesskey = o
 
+## Message Menu
+
+
 ## AppMenu
 
 appmenu-addons-and-themes =
@@ -81,6 +93,33 @@ appmenu-addons-and-themes =
 mail-context-menu-forward-forward =
     .label = Փոխանցել
     .accesskey = F
+
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
+## Add-on removal warning
+
+
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
 
 ## Quick Filter Bar
 
@@ -94,9 +133,69 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = Ո
 mark-not-junk-key =
     .key = Ո
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
+
+## Message list.
+
+message-priority-lowest = Ամենացածր
+message-priority-low = Ցածր
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Նորմալ
+message-priority-high = Բարձր
+message-priority-highest = Ամենաբարձր
+message-flag-replied = Պատասխանած
+message-flag-forwarded = Փոխանցած
+message-flag-redirected = Վերահղված է
+message-flag-new = Նոր
+message-flag-read = Ընթերցել
+message-flag-starred = Աստղով
+# Grouped By Date thread pane titles
+message-group-today = Այսօր
+message-group-yesterday = Երեկ
+message-group-last-seven-days = Վերջին 7 օրում
+message-group-last-fourteen-days = Վերջին 14 օրում
+message-group-older = Հին
+message-group-future-date = Ապագա
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Չպիտակավորված նամակներ
+message-group-no-status = Չկա վիճակ
+message-group-no-priority = Չկա առաջնայն.
+message-group-no-attachments = Չկա կցորդ
+message-group-attachments = Կցորդներ
+message-group-not-starred = Աստղով չէ
+message-group-starred = Աստղով
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = և այլոք
+
+## Prompts
+
+
+## Spam commands
+

@@ -3,11 +3,41 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Window controls
+
+
+## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
+## Toolbar
+
+
+## Folder Pane
+
+
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Tag
     .accesskey = T
+
+## Folder names
+
+
+## File Menu
+
 
 ## Edit Menu
 
@@ -42,11 +72,44 @@ menu-edit-newsgroup-properties =
     .label = Sifat Kumpulan berita
     .accesskey = u
 
+## Message Menu
+
+
+## AppMenu
+
+
 ## Context menu
 
 mail-context-menu-forward-forward =
     .label = Kirim semula
     .accesskey = K
+
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
+## Add-on removal warning
+
+
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
 
 ## Quick Filter Bar
 
@@ -60,9 +123,65 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
+
+## Message list.
+
+message-priority-lowest = Paling rendah
+message-priority-low = Rendah
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normal
+message-priority-high = Tinggi
+message-priority-highest = Paling tinggi
+message-flag-replied = Dibalas
+message-flag-forwarded = Dikirim semula
+message-flag-new = Baru
+message-flag-read = Dibaca
+message-flag-starred = Berbintang
+# Grouped By Date thread pane titles
+message-group-today = Hari ini
+message-group-yesterday = Semalam
+message-group-last-seven-days = 7 Hari Lepas
+message-group-last-fourteen-days = 14 Hari Lepas
+message-group-older = Lebih lama
+message-group-future-date = Akan datang
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Mesej tanpa Tag
+message-group-no-status = Tiada Status
+message-group-no-priority = Tiada Prioriti
+message-group-no-attachments = Tiada Lampiran
+message-group-attachments = Lampiran
+message-group-not-starred = Tidak Berbintang
+message-group-starred = Berbintang
+
+## Prompts
+
+
+## Spam commands
+

@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Newsgroup Status Messages
+
 # Variables:
 # $count (Number) - Number of headers.
 # $newsgroup (String) - The name of the newsgroup.
@@ -27,3 +30,66 @@ no-articles-to-download = Nincsenek letölthető cikkek ehhez: { $newsgroup }.
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-such-newsgroup = A(z) { $newsgroup } hírcsoport nem érhető el a kiszolgálón.
+
+## Download Headers Dialog
+
+download-headers-dialog-title = Fejlécek letöltése
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = { $count } új, letöltésre váró fejléc van ebben a hírcsoportban.
+download-all-headers =
+    .label = Az összes fejléc letöltése
+    .accesskey = A
+download-headers-ok-button =
+    .label = Letöltés
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Download
+    .accesskey = o
+n-headers =
+    .value = fejléc letöltése
+    .accesskey = f
+mark-headers-read =
+    .label = A további fejlécek megjelölése olvasottként
+    .accesskey = t
+
+## Cancel Message Dialog
+
+cancel-confirm = Biztos benne, hogy ezt a cikket vissza kívánja vonni?
+
+## Auto-Subscribe Dialog
+
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Szeretne feliratkozni erre: { $newsgroup }?
+
+## News Server Credentials
+
+enter-news-credentials-title = Hírcsoport-kiszolgáló eléréséhez felhasználónév és jelszó szükséges
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Adja meg a felhasználónevét és jelszavát a következőhöz: { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Adja meg { $newsgroup } felhasználói nevét és jelszavát ezen: { $server }:
+
+## News Error Page Messages
+
+# The title of the news error page. Not generally visible.
+news-error-title = Probléma a cikk betöltésekor
+# The main heading for the news error page.
+article-not-found-title = A cikk nem található
+# A longer description for the news error page.
+article-not-found-desc = A hírcsoport-kiszolgáló nem találja a cikket.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = A hírcsoport-kiszolgáló válasza:
+# A string explaining that the article may have expired.
+article-may-have-expired = Lehet, hogy a cikk lejárt?
+# A string preceding the message's ID.
+try-searching-prefix = Próbálja megkeresni a cikket:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Minden lejárt cikk eltávolítása

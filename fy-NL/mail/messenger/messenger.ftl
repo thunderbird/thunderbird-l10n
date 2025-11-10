@@ -548,6 +548,36 @@ menuitem-label-spam-percentage =
     .label = Net-winskepersintaazje
 menuitem-label-spam-status =
     .label = Net-winskesteat
+message-priority-lowest = Leechst
+message-priority-low = Leech
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Gewoan
+message-priority-high = Heech
+message-priority-highest = Heechst
+message-flag-replied = Beäntwurde
+message-flag-forwarded = Trochstjoerd
+message-flag-redirected = Omlaat
+message-flag-new = Nij
+message-flag-read = Lêzen
+message-flag-starred = Mei stjer
+# Grouped By Date thread pane titles
+message-group-today = Hjoed
+message-group-yesterday = Juster
+message-group-last-seven-days = Lêste 7 dagen
+message-group-last-fourteen-days = Lêste 14 dagen
+message-group-older = Alde e-mail
+message-group-future-date = Takomst
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Net-labele berjochten
+message-group-no-status = Gjin steat
+message-group-no-priority = Gjin prioriteit
+message-group-no-attachments = Gjin bylagen
+message-group-attachments = Bylagen
+message-group-not-starred = Sûnder stjer
+message-group-starred = Mei stjer
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = en oaren.
 
 ## Prompts
 

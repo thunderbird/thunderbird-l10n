@@ -125,6 +125,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = 간단히 보기
     .accesskey = C
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -453,12 +456,24 @@ openpgp-forget = OpenPGP 암호 지우기
 quota-panel-percent-used = { $percent }% 사용
     .title = IMAP 용량: 총 { $limit } 중 { $usage } 사용
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -467,3 +482,42 @@ delete-action = 삭제
 mark-as-starred-action = 별표 표시
 mark-as-spam-action = 스팸으로 표시
 archive-action = 보관
+
+## Message list.
+
+message-priority-lowest = 최하위
+message-priority-low = 하위
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = 기본
+message-priority-high = 상위
+message-priority-highest = 최상위
+message-flag-replied = 회신 완료
+message-flag-forwarded = 전달 완료
+message-flag-redirected = 리디렉션됨
+message-flag-new = 새로 만들기
+message-flag-read = 읽음
+message-flag-starred = 별표
+# Grouped By Date thread pane titles
+message-group-today = 오늘
+message-group-yesterday = 어제
+message-group-last-seven-days = 최근 7일
+message-group-last-fourteen-days = 최근 14일
+message-group-older = 이전 메일
+message-group-future-date = 미래
+# Different Grouped By Sort thread pane titles
+message-group-untagged = 태깅 없는 메시지
+message-group-no-status = 상태 없음
+message-group-no-priority = 중요도 없음
+message-group-no-attachments = 첨부 파일 없음
+message-group-attachments = 첨부 파일
+message-group-not-starred = 별표 없음
+message-group-starred = 별표
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = 외.
+
+## Prompts
+
+
+## Spam commands
+

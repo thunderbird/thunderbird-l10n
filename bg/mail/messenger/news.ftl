@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Newsgroup Status Messages
+
 # Variables:
 # $count (Number) - Number of headers.
 # $newsgroup (String) - The name of the newsgroup.
@@ -27,3 +30,66 @@ no-articles-to-download = Няма статии за изтегляне за { $
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-such-newsgroup = Дискусионната група { $newsgroup } не е налична на сървъра.
+
+## Download Headers Dialog
+
+download-headers-dialog-title = Изтегляне на заглавки
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = В тази група има { $count } нови заглавки на съобщения за изтегляне.
+download-all-headers =
+    .label = Изтегляне на всички заглавки
+    .accesskey = И
+download-headers-ok-button =
+    .label = Изтегляне
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Изтегляне на
+    .accesskey = И
+n-headers =
+    .value = заглавки
+    .accesskey = з
+mark-headers-read =
+    .label = Маркиране на останалите заглавки като прочетени
+    .accesskey = М
+
+## Cancel Message Dialog
+
+cancel-confirm = Сигурен ли сте, че искате да прекъснете писмото?
+
+## Auto-Subscribe Dialog
+
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Искате ли да се абонирате за { $newsgroup }?
+
+## News Server Credentials
+
+enter-news-credentials-title = Изискват се потребител и парола за сървъра за новини
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Моля, въведете потребителско име и парола за { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Моля, въведете потребителско име и парола за { $newsgroup } в { $server }:
+
+## News Error Page Messages
+
+# The title of the news error page. Not generally visible.
+news-error-title = Проблем при зареждане на статия
+# The main heading for the news error page.
+article-not-found-title = Статията не е намерена
+# A longer description for the news error page.
+article-not-found-desc = Сървърът на дискусионната група не може да намери статията.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Отговор от сървъра на дискусионната група:
+# A string explaining that the article may have expired.
+article-may-have-expired = Възможно ли е статията да е с изтекъл срок?
+# A string preceding the message's ID.
+try-searching-prefix = Опитайте да търсите статия:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Премахване на всички статии с изтекъл срок

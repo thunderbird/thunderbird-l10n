@@ -128,6 +128,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Кампактны выгляд
     .accesskey = К
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -346,6 +349,9 @@ repair-text-encoding-button =
 no-reply-title = Адказ не падтрымліваецца
 no-reply-reply-anyway-button = Усё роўна адказаць
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -441,9 +447,65 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
+
+## Message list.
+
+message-priority-lowest = Найніжэйшы
+message-priority-low = Нізкі
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Звычайны
+message-priority-high = Высокі
+message-priority-highest = Найвышэйшы
+message-flag-replied = Адказаны
+message-flag-forwarded = Накіраваны
+message-flag-new = Новы
+message-flag-read = Прачытаны
+message-flag-starred = З зоркаю
+# Grouped By Date thread pane titles
+message-group-today = Сёння
+message-group-yesterday = Учора
+message-group-last-seven-days = Апошнія 7 дзён
+message-group-last-fourteen-days = Апошнія 14 дзён
+message-group-older = Старэйшы
+message-group-future-date = Будучыня
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Лісты без метак
+message-group-no-status = Без статуса
+message-group-no-priority = Без прыярытэту
+message-group-no-attachments = Няма далучэнняў
+message-group-attachments = Далучэнні
+message-group-not-starred = Без зорак
+message-group-starred = З зоркамі
+
+## Prompts
+
+
+## Spam commands
+

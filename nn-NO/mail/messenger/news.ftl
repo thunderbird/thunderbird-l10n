@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Newsgroup Status Messages
+
 # Variables:
 # $count (Number) - Number of headers.
 # $newsgroup (String) - The name of the newsgroup.
@@ -27,3 +30,66 @@ no-articles-to-download = Det finst ikkje artiklar å laste ned for { $newsgroup
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-such-newsgroup = Temagruppa { $newsgroup } er ikkje tilgjengeleg på serveren.
+
+## Download Headers Dialog
+
+download-headers-dialog-title = Last ned meldingshovud
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Det er { $count } nye meldingshovud å laste ned for denne nyheitsgruppa.
+download-all-headers =
+    .label = Last ned alle meldingshovud
+    .accesskey = L
+download-headers-ok-button =
+    .label = Last ned
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Last ned
+    .accesskey = a
+n-headers =
+    .value = meldingshovud
+    .accesskey = e
+mark-headers-read =
+    .label = Merk resterande meldingshovud som lesne
+    .accesskey = M
+
+## Cancel Message Dialog
+
+cancel-confirm = Er du sikker på at du vil slette denne meldinga?
+
+## Auto-Subscribe Dialog
+
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Vil du abonnera på { $newsgroup }?
+
+## News Server Credentials
+
+enter-news-credentials-title = Skriv inn brukarnamn og passord for nyhendetenaren
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Skriv inn brukarnamn og passord for { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Skriv inn brukarnamn og passord for { $newsgroup } på { $server }:
+
+## News Error Page Messages
+
+# The title of the news error page. Not generally visible.
+news-error-title = Problem med lasting av artikkel
+# The main heading for the news error page.
+article-not-found-title = Fann ikkje artikkelen
+# A longer description for the news error page.
+article-not-found-desc = Nyheitsgruppetenaren rapporterer at han ikkje finn artikkelen.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Nyheitsgruppetenaren varte:
+# A string explaining that the article may have expired.
+article-may-have-expired = Kanskje artikkelen har gått ut?
+# A string preceding the message's ID.
+try-searching-prefix = Prøv å søkje etter artikkelen:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Fjern alle utgåtte artiklar

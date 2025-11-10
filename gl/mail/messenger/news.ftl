@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Newsgroup Status Messages
+
 # Variables:
 # $count (Number) - Number of headers.
 # $newsgroup (String) - The name of the newsgroup.
@@ -27,3 +30,66 @@ no-articles-to-download = Non hai artigos para descargar para { $newsgroup }.
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-such-newsgroup = O grupo de novas { $newsgroup } non está dispoñible no servidor.
+
+## Download Headers Dialog
+
+download-headers-dialog-title = Descargar cabeceiras
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Hai { $count } novas mensaxes para descargar neste grupo de noticias.
+download-all-headers =
+    .label = Descargar todas as cabeceiras
+    .accesskey = D
+download-headers-ok-button =
+    .label = Descargar
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Descargar
+    .accesskey = g
+n-headers =
+    .value = cabeceiras
+    .accesskey = b
+mark-headers-read =
+    .label = Marcar cabeceiras restantes como lidas
+    .accesskey = M
+
+## Cancel Message Dialog
+
+cancel-confirm = Confirma que quere cancelar esta mensaxe?
+
+## Auto-Subscribe Dialog
+
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Desexa cancelar a súa subscrición a { $newsgroup }?
+
+## News Server Credentials
+
+enter-news-credentials-title = Requiriuse o nome de usuario e contrasinal do servidor de novas
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Introduza un nome de usuario e contrasinal para { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Introduza un nome de usuario e contrasinal para { $newsgroup } en { $server }:
+
+## News Error Page Messages
+
+# The title of the news error page. Not generally visible.
+news-error-title = Produciuse un problema cargando o artigo
+# The main heading for the news error page.
+article-not-found-title = Non se atopou o artigo
+# A longer description for the news error page.
+article-not-found-desc = O servidor do grupo de noticias informa que non é quen de atopar o artigo.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = O servidor do grupo de noticias respondeu:
+# A string explaining that the article may have expired.
+article-may-have-expired = Talvez o artigo caducou?
+# A string preceding the message's ID.
+try-searching-prefix = Tente buscar polo artigo:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Retirar todos os artigos caducados

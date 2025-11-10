@@ -547,6 +547,36 @@ menuitem-label-spam-percentage =
     .label = Përqindje të Padëshiruarish
 menuitem-label-spam-status =
     .label = Gjendje Spam-i
+message-priority-lowest = Më e ulëta
+message-priority-low = E ulët
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normale
+message-priority-high = E lartë
+message-priority-highest = Më e larta
+message-flag-replied = I përgjigjur
+message-flag-forwarded = I përcjellë
+message-flag-redirected = I ridrejtuar
+message-flag-new = I ri
+message-flag-read = I lexuar
+message-flag-starred = Me yllkë
+# Grouped By Date thread pane titles
+message-group-today = Sot
+message-group-yesterday = Dje
+message-group-last-seven-days = 7 Ditët e Kaluara
+message-group-last-fourteen-days = 14 Ditët e Kaluara
+message-group-older = Më të vjetër
+message-group-future-date = E ardhshme
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Mesazhe të Paetiketuar
+message-group-no-status = Pa Gjendje
+message-group-no-priority = Pa Përparësi
+message-group-no-attachments = Pa Bashkëngjitje
+message-group-attachments = Bashkëngjitje
+message-group-not-starred = Pa Yllkë
+message-group-starred = Me yllkë
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = dhe të tjerë.
 
 ## Prompts
 

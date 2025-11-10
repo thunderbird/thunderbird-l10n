@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Newsgroup Status Messages
+
 # Variables:
 # $count (Number) - Number of headers.
 # $newsgroup (String) - The name of the newsgroup.
@@ -35,3 +38,66 @@ no-articles-to-download = Does dim erthyglau gan { $newsgroup } i'w llwytho i la
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-such-newsgroup = Nid yw'r grŵp newyddion { $newsgroup } ar gael ar y gweinydd.
+
+## Download Headers Dialog
+
+download-headers-dialog-title = Llwytho Penynnau i Lawr
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Mae yna { $count } pennawd neges newydd i'w llwytho i lawr ar gyfer y grŵp newyddion yma.
+download-all-headers =
+    .label = Llwytho pob pennyn i lawr
+    .accesskey = p
+download-headers-ok-button =
+    .label = Llwytho i Lawr
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Llwytho i Lawr
+    .accesskey = L
+n-headers =
+    .value = penynnau
+    .accesskey = p
+mark-headers-read =
+    .label = Marcio gweddill y penynnau fel wedi darllen
+    .accesskey = M
+
+## Cancel Message Dialog
+
+cancel-confirm = Ydych chi'n siŵr eich bod am ddiddymu'r neges?
+
+## Auto-Subscribe Dialog
+
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Hoffech chi danysgrifio i { $newsgroup }?
+
+## News Server Credentials
+
+enter-news-credentials-title = Mae Angen Enw Defnyddiwr a Chyfrinair Gweinydd Newyddion
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Rhowch enw defnyddiwr a chyfrinair ar gyfer: { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Rhowch enw defnyddiwr a chyfrinair ar gyfer { $newsgroup } ar { $server }:
+
+## News Error Page Messages
+
+# The title of the news error page. Not generally visible.
+news-error-title = Anhawster Llwytho Erthygl
+# The main heading for the news error page.
+article-not-found-title = Heb ganfod erthygl
+# A longer description for the news error page.
+article-not-found-desc = Mae y grwp gweinydd newyddion yn adrodd nad yw'n gallu canfod yr erthygl.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Ymateb gweinydd y grwp newyddion yw:
+# A string explaining that the article may have expired.
+article-may-have-expired = Efallai fod yr erthygl wedi dod i ben?
+# A string preceding the message's ID.
+try-searching-prefix = Ceisio chwilio am yr erthygl:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Tynnu'r Holl Erthyglau sydd wedi dod i Ben

@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ikuspegi trinkoa
     .accesskey = t
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -473,12 +476,24 @@ openpgp-forget = Ahaztu OpenPGP pasa-esdaldiak
 quota-panel-percent-used = { $percent }% full
     .title = IMAP kuota: { $usage } erabilia { $limit } guztirako limitetik
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -488,6 +503,42 @@ mark-as-starred-action = Markatu izardun gisa
 mark-as-spam-action = Markatu spam gisa
 archive-action = Artxibatu
 
+## Message list.
+
+message-priority-lowest = Baxuena
+message-priority-low = Baxua
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normala
+message-priority-high = Altua
+message-priority-highest = Altuena
+message-flag-replied = Erantzunda
+message-flag-forwarded = Birbidalita
+message-flag-redirected = Berbideratuta
+message-flag-new = Berria
+message-flag-read = Irakurrita
+message-flag-starred = Izarduna
+# Grouped By Date thread pane titles
+message-group-today = Gaur
+message-group-yesterday = Atzo
+message-group-last-seven-days = Azken 7 egunak
+message-group-last-fourteen-days = Azken 14 egunak
+message-group-older = Posta zaharra
+message-group-future-date = Etorkizuna
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Etiketa gabeko mezuak
+message-group-no-status = Egoerarik gabe
+message-group-no-priority = Lehentasunik gabe
+message-group-no-attachments = Eranskinik ez
+message-group-attachments = Eranskinak
+message-group-not-starred = Izarrik gabeak
+message-group-starred = Izarduna
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = eta beste
+
 ## Prompts
 
 prompt-dont-ask-again = Ez galdetu berriz.
+
+## Spam commands
+

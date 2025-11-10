@@ -14,6 +14,24 @@ messenger-window-restore-down-button =
 messenger-window-close-button =
     .tooltiptext = Titz'apïx
 
+## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
+## Toolbar
+
+
 ## Folder Pane
 
 folder-pane-toolbar =
@@ -47,6 +65,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Molk'ïy Tz'etoj
     .accesskey = M
+
+## Folder names
+
 
 ## File Menu
 
@@ -87,6 +108,9 @@ menu-edit-newsgroup-properties =
     .label = Kichinil Kimolaj Tzijol
     .accesskey = o
 
+## Message Menu
+
+
 ## AppMenu
 
 appmenu-save-as-file =
@@ -101,6 +125,9 @@ appmenu-addons-and-themes =
 mail-context-menu-forward-forward =
     .label = Jun chik
     .accesskey = J
+
+## Message header pane
+
 
 ## Message header customize panel
 
@@ -127,6 +154,12 @@ toolbar-context-menu-remove-extension =
 addon-removal-title = ¿La niyuj { $name }?
 addon-removal-confirmation-button = Tiyuj
 caret-browsing-prompt-title = Okem pa K'amaya'l Rik'in Retal Ch'oy
+
+## no-reply handling
+
+
+## error messages
+
 
 ## Spaces toolbar
 
@@ -190,9 +223,69 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = s
 mark-not-junk-key =
     .key = s
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
+
+## Message list.
+
+message-priority-lowest = Ch'utin
+message-priority-low = Ko'öl
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Relik
+message-priority-high = Nïm
+message-priority-highest = Yalan nïm
+message-flag-replied = Tzolin rutzij
+message-flag-forwarded = Taqon chik
+message-flag-redirected = Xtaq chik
+message-flag-new = K'ak'a'
+message-flag-read = Tisik'ïx
+message-flag-starred = Ya'on ruq'ij
+# Grouped By Date thread pane titles
+message-group-today = Wakami
+message-group-yesterday = Iwir
+message-group-last-seven-days = Ruk'isib'äl 7 Taq q'ij
+message-group-last-fourteen-days = Ruk'isib'äl 14 Taq q'ij
+message-group-older = Ojer
+message-group-future-date = Chwa'q kab'ij
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Majun Ketal Rutzijol
+message-group-no-status = Majun B'anikil
+message-group-no-priority = Man Ya'on ta ruq'ij
+message-group-no-attachments = Majun Taqoj
+message-group-attachments = Taq taqoj
+message-group-not-starred = Man Ya'on ta Ruq'ij
+message-group-starred = Ya'on ruq'ij
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = et al.
+
+## Prompts
+
+
+## Spam commands
+

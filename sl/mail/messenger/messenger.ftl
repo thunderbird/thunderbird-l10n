@@ -499,6 +499,9 @@ openpgp-forget = Pozabi gesla za OpenPGP
 quota-panel-percent-used = { $percent }-% zasedeno
     .title = Kvota IMAP: zasedeno { $usage } od skupno { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 menu-mark-as-spam =
@@ -518,6 +521,12 @@ folder-context-empty-spam =
     .label = Izprazni neželeno pošto
     .accesskey = I
 
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Označi kot prebrano
@@ -525,6 +534,39 @@ delete-action = Izbriši
 mark-as-starred-action = Označi z zvezdico
 mark-as-spam-action = Označi kot neželeno
 archive-action = Arhiviraj
+
+## Message list.
+
+message-priority-lowest = Najnižje
+message-priority-low = Nizko
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Običajno
+message-priority-high = Visoko
+message-priority-highest = Najvišje
+message-flag-replied = Odgovorjeno
+message-flag-forwarded = Posredovano
+message-flag-redirected = Preusmerjeno
+message-flag-new = Novo
+message-flag-read = Prebrano
+message-flag-starred = Označeno z zvezdico
+# Grouped By Date thread pane titles
+message-group-today = Danes
+message-group-yesterday = Včeraj
+message-group-last-seven-days = Zadnjih 7 dni
+message-group-last-fourteen-days = Zadnjih 14 dni
+message-group-older = Stara pošta
+message-group-future-date = Prihodnja pošta
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Neoznačena sporočila
+message-group-no-status = Ni stanja
+message-group-no-priority = Brez prednosti
+message-group-no-attachments = Ni priponk
+message-group-attachments = Priponke
+message-group-not-starred = Brez zvezdice
+message-group-starred = Označeno z zvezdico
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = idr.
 
 ## Prompts
 

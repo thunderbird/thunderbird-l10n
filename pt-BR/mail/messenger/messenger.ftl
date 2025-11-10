@@ -548,6 +548,36 @@ menuitem-label-spam-percentage =
     .label = Percentual de spam
 menuitem-label-spam-status =
     .label = Status de spam
+message-priority-lowest = Baixíssima
+message-priority-low = Baixa
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normal
+message-priority-high = Alta
+message-priority-highest = Altíssima
+message-flag-replied = Respondida
+message-flag-forwarded = Encaminhada
+message-flag-redirected = Redirecionado
+message-flag-new = Nova
+message-flag-read = Lida
+message-flag-starred = Com estrela
+# Grouped By Date thread pane titles
+message-group-today = Hoje
+message-group-yesterday = Ontem
+message-group-last-seven-days = Últimos 7 dias
+message-group-last-fourteen-days = Últimos 14 dias
+message-group-older = Mais antigas
+message-group-future-date = Futuro
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Mensagens sem etiquetas
+message-group-no-status = Sem status
+message-group-no-priority = Sem prioridade
+message-group-no-attachments = Sem anexos
+message-group-attachments = Anexos
+message-group-not-starred = Sem estrela
+message-group-starred = Com estrela
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = e outros.
 
 ## Prompts
 

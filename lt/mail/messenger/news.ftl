@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Newsgroup Status Messages
+
 # Variables:
 # $count (Number) - Number of headers.
 # $newsgroup (String) - The name of the newsgroup.
@@ -31,3 +34,66 @@ no-articles-to-download = Grupėje { $newsgroup } nėra pranešimų, kuriuos bū
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-such-newsgroup = Naujienų grupė „{ $newsgroup }“ nepasiekiama serveryje.
+
+## Download Headers Dialog
+
+download-headers-dialog-title = Antraščių atsiuntimas
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Šioje naujienų grupėje yra { $count } naujų laiškų antraštės.
+download-all-headers =
+    .label = Atsiųsti visas antraštes
+    .accesskey = A
+download-headers-ok-button =
+    .label = Atsiųsti
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Atsiųsti
+    .accesskey = s
+n-headers =
+    .value = antraščių
+    .accesskey = n
+mark-headers-read =
+    .label = Likusias antraštes pažymėti kaip skaitytas
+    .accesskey = p
+
+## Cancel Message Dialog
+
+cancel-confirm = Ar tikrai norite atsisakyti šio laiško?
+
+## Auto-Subscribe Dialog
+
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Ar pageidaujate prenumeruoti „{ $newsgroup }“?
+
+## News Server Credentials
+
+enter-news-credentials-title = Reikalingas naujienų serverio abonento vardas ir slaptažodis
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Įveskite abonento vardą ir slaptažodį prisijungimui prie serverio { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Įveskite abonento vardą ir slaptažodį prisijungimui prie naujienų grupės { $newsgroup } serveryje { $server }:
+
+## News Error Page Messages
+
+# The title of the news error page. Not generally visible.
+news-error-title = Nepavyko įkelti žinutės
+# The main heading for the news error page.
+article-not-found-title = Nėra tokios žinutės
+# A longer description for the news error page.
+article-not-found-desc = Naujienų grupės serveris praneša: tokios žinutės nėra.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Naujienų grupės serveris atsakė:
+# A string explaining that the article may have expired.
+article-may-have-expired = Galbūt žinutė nebegalioja?
+# A string preceding the message's ID.
+try-searching-prefix = Pabandyti surasti žinutę:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Pašalinti visas nebegaliojančias žinutes

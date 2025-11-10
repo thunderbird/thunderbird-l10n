@@ -548,6 +548,36 @@ menuitem-label-spam-percentage =
     .label = ჯართის პროცენტი
 menuitem-label-spam-status =
     .label = ჯართად მიჩნევა
+message-priority-lowest = უდაბლესი
+message-priority-low = დაბალი
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = ჩვეულებრივი
+message-priority-high = მაღალი
+message-priority-highest = უმაღლესი
+message-flag-replied = ნაპასუხები
+message-flag-forwarded = გადაგზავნილი
+message-flag-redirected = გადამისამართებული
+message-flag-new = ახალი
+message-flag-read = წაკითხული
+message-flag-starred = ალმიანი
+# Grouped By Date thread pane titles
+message-group-today = დღევანდელი
+message-group-yesterday = გუშინდელი
+message-group-last-seven-days = ბოლო 7 დღის
+message-group-last-fourteen-days = ბოლო 14 დღის
+message-group-older = ძველი
+message-group-future-date = სამომავლო
+# Different Grouped By Sort thread pane titles
+message-group-untagged = წერილები ჭდეების გარეშე
+message-group-no-status = სტატუსის გარეშე
+message-group-no-priority = პრიორიტეტის გარეშე
+message-group-no-attachments = დანართების გარეშე
+message-group-attachments = დანართები
+message-group-not-starred = ალმის გარეშე
+message-group-starred = ალმით
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = და სხვ.
 
 ## Prompts
 

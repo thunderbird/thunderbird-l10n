@@ -9,6 +9,21 @@ messenger-window-close-button =
     .tooltiptext = Затвори
 about-rights-notification-text = { -brand-short-name } је слободан и отворен софтвер који је изградила заједница више хиљада особа из целог света.
 
+## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -51,6 +66,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Сажети преглед
     .accesskey = г
+
+## Folder names
+
 
 ## File Menu
 
@@ -233,6 +251,9 @@ repair-text-encoding-button =
 no-reply-title = Одговор није подржан
 no-reply-reply-anyway-button = Ипак одговори
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-button-mail2 =
@@ -297,9 +318,69 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
+
+## Message list.
+
+message-priority-lowest = Најниже
+message-priority-low = Ниско
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Обичан
+message-priority-high = Високо
+message-priority-highest = Највише
+message-flag-replied = Одговорено
+message-flag-forwarded = Прослеђено
+message-flag-redirected = Преусмерено
+message-flag-new = Нова
+message-flag-read = Прочитана
+message-flag-starred = Са звездицом
+# Grouped By Date thread pane titles
+message-group-today = Данас
+message-group-yesterday = Јуче
+message-group-last-seven-days = Последњих 7 дана
+message-group-last-fourteen-days = Последњих 14 дана
+message-group-older = Старије
+message-group-future-date = Будућност
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Неозначене поруке
+message-group-no-status = Без стања
+message-group-no-priority = Без првенства
+message-group-no-attachments = Без прилога
+message-group-attachments = Прилози
+message-group-not-starred = Без звездице
+message-group-starred = Са звездицом
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = и др.
+
+## Prompts
+
+
+## Spam commands
+

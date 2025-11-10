@@ -130,6 +130,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Zbijeni prikaz
     .accesskey = Z
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -481,12 +484,24 @@ openpgp-forget = Zaboravi OpenPGP šifre
 quota-panel-percent-used = { $percent }% popunjeno
     .title = IMAP kvota: { $usage } iskorišteno od ukupno { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -495,3 +510,42 @@ delete-action = Obriši
 mark-as-starred-action = Označi zvjezdicom
 mark-as-spam-action = Označi kao neželjena pošta
 archive-action = Arhiviraj
+
+## Message list.
+
+message-priority-lowest = Najniži
+message-priority-low = Nizak
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normalan
+message-priority-high = Visok
+message-priority-highest = Najviši
+message-flag-replied = Odgovoreno
+message-flag-forwarded = Proslijeđeno
+message-flag-redirected = Preusmjereno
+message-flag-new = Novo
+message-flag-read = Pročitano
+message-flag-starred = Označeno zvjezdicom
+# Grouped By Date thread pane titles
+message-group-today = Danas
+message-group-yesterday = Jučer
+message-group-last-seven-days = Zadnjih 7 dana
+message-group-last-fourteen-days = Zadnjih 14 dana
+message-group-older = Starije
+message-group-future-date = Budući
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Neoznačene poruke
+message-group-no-status = Bez statusa
+message-group-no-priority = Bez prioriteta
+message-group-no-attachments = Bez privitaka
+message-group-attachments = Privici
+message-group-not-starred = Bez zvjezdice
+message-group-starred = Zvjezdica
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = i dr.
+
+## Prompts
+
+
+## Spam commands
+

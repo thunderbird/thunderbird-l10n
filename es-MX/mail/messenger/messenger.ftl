@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista compacta
     .accesskey = C
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -298,6 +301,9 @@ no-reply-title = Respuesta no admitida
 no-reply-message = La dirección de respuesta ({ $email }) no parece ser una dirección supervisada. Es probable que los mensajes a esta dirección no sean leídos por nadie.
 no-reply-reply-anyway-button = Responder de todos modos
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -398,9 +404,66 @@ quick-filter-bar-show =
 
 openpgp-forget = Olvídate de las frases de contraseña de OpenPGP
 
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = b
 mark-not-junk-key =
     .key = l
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
+
+## Message list.
+
+message-priority-lowest = La más baja
+message-priority-low = Baja
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normal
+message-priority-high = Alta
+message-priority-highest = La más alta
+message-flag-replied = Respondido
+message-flag-forwarded = Reenviado
+message-flag-redirected = Redirigido
+message-flag-new = Nuevo
+message-flag-read = Leído
+message-flag-starred = Destacado
+# Grouped By Date thread pane titles
+message-group-today = Hoy
+message-group-yesterday = Ayer
+message-group-last-seven-days = Los últimos 7 días
+message-group-last-fourteen-days = Los últimos 14 días
+message-group-older = Antiguo
+message-group-future-date = Futuro
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Mensajes sin etiqueta
+message-group-no-status = Sin estado
+message-group-no-priority = Sin prioridad
+message-group-no-attachments = Sin adjuntos
+message-group-attachments = Adjuntos
+message-group-not-starred = No destacado
+message-group-starred = Destacado
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = et al.
+
+## Prompts
+
+
+## Spam commands
+

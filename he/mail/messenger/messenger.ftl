@@ -65,6 +65,9 @@ show-tags-folders-label =
     .label = תווית
     .accesskey = ת
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -104,6 +107,9 @@ menu-edit-newsgroup-properties =
     .label = מאפייני קבוצת חדשות
     .accesskey = א
 
+## Message Menu
+
+
 ## AppMenu
 
 appmenu-save-as-file =
@@ -118,6 +124,12 @@ appmenu-addons-and-themes =
 mail-context-menu-forward-forward =
     .label = העבר
     .accesskey = ע
+
+## Message header pane
+
+
+## Message header customize panel
+
 
 ## Action Button Context Menu
 
@@ -144,6 +156,21 @@ repair-text-encoding-button =
     .label = תיקון קידוד טקסט
     .tooltiptext = ניחוש קידוד הטקסט הנכון בהסתמך על תוכן ההודעה
 
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
+
 ## Quick Filter Bar
 
 # The label to display for the "View... Toolbars..." menu item that controls
@@ -156,9 +183,65 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = ס
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
+
+## Message list.
+
+message-priority-lowest = הכי נמוכה
+message-priority-low = נמוכה
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = רגילה
+message-priority-high = גבוהה
+message-priority-highest = הכי גבוהה
+message-flag-replied = הודעה נענתה
+message-flag-forwarded = הודעה הועברה
+message-flag-new = הודעה חדשה
+message-flag-read = הודעה נקראה
+message-flag-starred = מסומנת בכוכבית
+# Grouped By Date thread pane titles
+message-group-today = היום
+message-group-yesterday = אתמול
+message-group-last-seven-days = השבוע האחרון
+message-group-last-fourteen-days = השבועיים האחרונים
+message-group-older = דואר ישן
+message-group-future-date = עתיד
+# Different Grouped By Sort thread pane titles
+message-group-untagged = הודעות לא מסומנות בתגיות
+message-group-no-status = ללא מצב
+message-group-no-priority = ללא עדיפות
+message-group-no-attachments = ללא קבצים מצורפים
+message-group-attachments = קבצים מצורפים
+message-group-not-starred = לא מסומנת בכוכבית
+message-group-starred = מסומנת בכוכבית
+
+## Prompts
+
+
+## Spam commands
+

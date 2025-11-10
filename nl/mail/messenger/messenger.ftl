@@ -548,6 +548,36 @@ menuitem-label-spam-percentage =
     .label = Spampercentage
 menuitem-label-spam-status =
     .label = Spamstatus
+message-priority-lowest = Laagst
+message-priority-low = Laag
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normaal
+message-priority-high = Hoog
+message-priority-highest = Hoogst
+message-flag-replied = Beantwoord
+message-flag-forwarded = Doorgestuurd
+message-flag-redirected = Omgeleid
+message-flag-new = Nieuw
+message-flag-read = Gelezen
+message-flag-starred = Met ster
+# Grouped By Date thread pane titles
+message-group-today = Vandaag
+message-group-yesterday = Gisteren
+message-group-last-seven-days = Afgelopen 7 dagen
+message-group-last-fourteen-days = Afgelopen 14 dagen
+message-group-older = Oude e-mail
+message-group-future-date = Toekomst
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Ongelabelde berichten
+message-group-no-status = Geen status
+message-group-no-priority = Geen prioriteit
+message-group-no-attachments = Geen bijlagen
+message-group-attachments = Bijlagen
+message-group-not-starred = Zonder ster
+message-group-starred = Met ster
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = e.a.
 
 ## Prompts
 

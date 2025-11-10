@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Newsgroup Status Messages
+
 # Variables:
 # $count (Number) - Number of headers.
 # $newsgroup (String) - The name of the newsgroup.
@@ -31,3 +34,66 @@ no-articles-to-download = Njedaju nastawki k ześěgowanjeju za { $newsgroup }.
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-such-newsgroup = Diskusijna kupka { $newsgroup } njejo na serwerje k dispoziciji.
+
+## Download Headers Dialog
+
+download-headers-dialog-title = Głowowe smužki ześěgnuś
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Jo { $count } nowych powěsćowych głowowych smužkow za toś tu diskusijnu kupku za ześěgnjenje.
+download-all-headers =
+    .label = Wšykne głowowe smužki ześěgnuś
+    .accesskey = W
+download-headers-ok-button =
+    .label = Ześěgnuś
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Ześěgnuś
+    .accesskey = Z
+n-headers =
+    .value = głowowych smužkow ześěgnuś
+    .accesskey = h
+mark-headers-read =
+    .label = Zbytne głowowe smužki ako pśecytane markěrowaś
+    .accesskey = Z
+
+## Cancel Message Dialog
+
+cancel-confirm = Cośo napšawdu toś tu powěsć anulěrowaś?
+
+## Auto-Subscribe Dialog
+
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Cośo { $newsgroup } aboněrowaś?
+
+## News Server Credentials
+
+enter-news-credentials-title = Wužywaŕske mě a gronidło serwera diskusijnych kupkow trjebnej
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Pšosym zapódajśo wužywaŕske mě a gronidło za { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Pšosym zapódajśo wužywaŕske mě a gronidło za { $newsgroup } na { $server }:
+
+## News Error Page Messages
+
+# The title of the news error page. Not generally visible.
+news-error-title = Problem pśi zacytowanju nastawka
+# The main heading for the news error page.
+article-not-found-title = Nastawk njejo se namakał
+# A longer description for the news error page.
+article-not-found-desc = Serwer diskusijneje kupki dajo k wěsći, až njamóžo nastawk namakaś.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Serwer diskusijneje kupki jo wótegronił:
+# A string explaining that the article may have expired.
+article-may-have-expired = Jo nastawk snaź spadnjony?
+# A string preceding the message's ID.
+try-searching-prefix = Pytajśo nastawk:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Wše spadnjone nastawki wótwónoźeś

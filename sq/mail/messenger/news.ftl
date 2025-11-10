@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Newsgroup Status Messages
+
 # Variables:
 # $count (Number) - Number of headers.
 # $newsgroup (String) - The name of the newsgroup.
@@ -27,3 +30,66 @@ no-articles-to-download = S’ka artikuj për shkarkim për { $newsgroup }.
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-such-newsgroup = Grupi i lajmeve { $newsgroup } s’është i passhëm te shërbyesi.
+
+## Download Headers Dialog
+
+download-headers-dialog-title = Shkarko Tituj
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Për këtë grup lajmesh ka { $count } tituj mesazhesh të rinj për shkarkim.
+download-all-headers =
+    .label = Shkarko krejt titujt
+    .accesskey = k
+download-headers-ok-button =
+    .label = Shkarko
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Shkarko
+    .accesskey = S
+n-headers =
+    .value = tituj
+    .accesskey = t
+mark-headers-read =
+    .label = Shënoji titujt e mbetur si të lexuar
+    .accesskey = n
+
+## Cancel Message Dialog
+
+cancel-confirm = Jeni i sigurt se doni të fshihet ky mesazh?
+
+## Auto-Subscribe Dialog
+
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Doni të pajtoheni te { $newsgroup }?
+
+## News Server Credentials
+
+enter-news-credentials-title = Lypsen Emër Përdoruesi dhe Fjalëkalim Për Te Shërbyesi i Lajmeve
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Ju lutemi, jepni emër përdoruesi dhe fjalëkalim për { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Ju lutemi, jepni emër përdoruesi dhe fjalëkalim për { $newsgroup } te { $server }:
+
+## News Error Page Messages
+
+# The title of the news error page. Not generally visible.
+news-error-title = Problem Në Ngarkim Artikulli
+# The main heading for the news error page.
+article-not-found-title = Artikulli s’u gjet
+# A longer description for the news error page.
+article-not-found-desc = Shërbyesi i grupit të lajmeve njofton se s’e gjen dot artikullin.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Shërbyesi i grupit të lajmeve u përgjigj:
+# A string explaining that the article may have expired.
+article-may-have-expired = Ndoshta artikulli ka skaduar?
+# A string preceding the message's ID.
+try-searching-prefix = Provoni të kërkoni për artikullin:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Hiqi Krejt Artikujt e Skaduar

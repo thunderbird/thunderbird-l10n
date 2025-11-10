@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Newsgroup Status Messages
+
 # Variables:
 # $count (Number) - Number of headers.
 # $newsgroup (String) - The name of the newsgroup.
@@ -31,3 +34,66 @@ no-articles-to-download = V skupine { $newsgroup } nie sú k dispozícii žiadne
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-such-newsgroup = Diskusná skupina { $newsgroup } nie je na serveri dostupná.
+
+## Download Headers Dialog
+
+download-headers-dialog-title = Stiahnuť hlavičky
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = V tejto diskusnej skupine je k dispozícií na stiahnutie { $count } nových hlavičiek správ.
+download-all-headers =
+    .label = Stiahnuť všetky hlavičky
+    .accesskey = S
+download-headers-ok-button =
+    .label = Stiahnuť
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Stiahnuť
+    .accesskey = t
+n-headers =
+    .value = hlavičiek
+    .accesskey = h
+mark-headers-read =
+    .label = Ostatné hlavičky označiť ako prečítané
+    .accesskey = O
+
+## Cancel Message Dialog
+
+cancel-confirm = Chcete zrušiť túto správu?
+
+## Auto-Subscribe Dialog
+
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Chcete sa prihlásiť k odberu príspevkov skupiny { $newsgroup }?
+
+## News Server Credentials
+
+enter-news-credentials-title = Vyžaduje sa používateľské meno a heslo pre diskusné skupiny
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Zadajte používateľské meno a heslo pre skupinu { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Zadajte používateľské meno a heslo pre skupinu { $newsgroup } na serveri { $server }:
+
+## News Error Page Messages
+
+# The title of the news error page. Not generally visible.
+news-error-title = Problém pri načítaní článku
+# The main heading for the news error page.
+article-not-found-title = Článok nebol nájdený
+# A longer description for the news error page.
+article-not-found-desc = Server diskusných skupín hlási, že nemôže nájsť článok.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Odpoveď servera diskusných skupín:
+# A string explaining that the article may have expired.
+article-may-have-expired = Je možné, že platnosť článku už vypršala?
+# A string preceding the message's ID.
+try-searching-prefix = Skúste hľadať článok:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Odstrániť všetky články, ktorých platnosť vypršala

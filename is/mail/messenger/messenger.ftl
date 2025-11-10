@@ -548,6 +548,36 @@ menuitem-label-spam-percentage =
     .label = Ruslpóstprósenta
 menuitem-label-spam-status =
     .label = Staða ruslpósts
+message-priority-lowest = Lægst
+message-priority-low = Lágt
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Venjulegt
+message-priority-high = Hátt
+message-priority-highest = Hæst
+message-flag-replied = Svarað
+message-flag-forwarded = Áframsent
+message-flag-redirected = Endurbeint
+message-flag-new = Nýtt
+message-flag-read = Lesið
+message-flag-starred = Stjörnumerkt
+# Grouped By Date thread pane titles
+message-group-today = Í dag
+message-group-yesterday = Í gær
+message-group-last-seven-days = Síðustu 7 dagar
+message-group-last-fourteen-days = Síðustu 14 dagar
+message-group-older = Gamall póstur
+message-group-future-date = Framtíð
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Ómerkt skilaboð
+message-group-no-status = Engin staða
+message-group-no-priority = Enginn forgangur
+message-group-no-attachments = Engin viðhengi
+message-group-attachments = Viðhengi
+message-group-not-starred = Ekki stjörnumerkt
+message-group-starred = Stjörnumerkt
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = o.fl.
 
 ## Prompts
 

@@ -548,6 +548,36 @@ menuitem-label-spam-percentage =
     .label = Ποσοστό ανεπιθύμητων
 menuitem-label-spam-status =
     .label = Κατάσταση ανεπιθύμητης αλληλογραφίας
+message-priority-lowest = Πολύ χαμηλή
+message-priority-low = Χαμηλή
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Κανονική
+message-priority-high = Υψηλή
+message-priority-highest = Πολύ υψηλή
+message-flag-replied = Απαντήθηκε
+message-flag-forwarded = Προωθήθηκε
+message-flag-redirected = Ανακατευθύνθηκε
+message-flag-new = Νέο
+message-flag-read = Αναγνωσμένο
+message-flag-starred = Με αστέρι
+# Grouped By Date thread pane titles
+message-group-today = Σήμερα
+message-group-yesterday = Χθες
+message-group-last-seven-days = Τις τελευταίες 7 ημέρες
+message-group-last-fourteen-days = Τις τελευταίες 14 ημέρες
+message-group-older = Παλιότερα
+message-group-future-date = Μελλοντικά
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Μηνύματα χωρίς ετικέτα
+message-group-no-status = Χωρίς κατάσταση
+message-group-no-priority = Χωρίς προτεραιότητα
+message-group-no-attachments = Χωρίς συνημμένα
+message-group-attachments = Συνημμένα
+message-group-not-starred = Χωρίς αστέρι
+message-group-starred = Με αστέρι
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = κ.ά.
 
 ## Prompts
 

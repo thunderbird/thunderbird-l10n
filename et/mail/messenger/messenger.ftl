@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktne vaade
     .accesskey = v
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -469,12 +472,24 @@ openpgp-forget = Unusta OpenPGP paroolid
 quota-panel-percent-used = { $percent }% täis
     .title = IMAP kvoot: kasutusel { $usage }, kokku { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -483,3 +498,42 @@ delete-action = Kustuta
 mark-as-starred-action = Tähista tärniga
 mark-as-spam-action = Märgi rämpspostiks
 archive-action = Arhiveeri
+
+## Message list.
+
+message-priority-lowest = Madalaim
+message-priority-low = Madal
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Tavaline
+message-priority-high = Kõrge
+message-priority-highest = Kõrgeim
+message-flag-replied = Vastatud
+message-flag-forwarded = Edastatud
+message-flag-redirected = Ümbersuunatud
+message-flag-new = Uus
+message-flag-read = Loetud
+message-flag-starred = Tähistatud
+# Grouped By Date thread pane titles
+message-group-today = Täna
+message-group-yesterday = Eile
+message-group-last-seven-days = Viimased 7 päeva
+message-group-last-fourteen-days = Viimased 14 päeva
+message-group-older = Vanad kirjad
+message-group-future-date = Tulevik
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Sildistamata kirjad
+message-group-no-status = Olekuta
+message-group-no-priority = Prioriteedita
+message-group-no-attachments = Manuseta
+message-group-attachments = Manused
+message-group-not-starred = Tähistamata
+message-group-starred = Tähistatud
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = jt
+
+## Prompts
+
+
+## Spam commands
+
