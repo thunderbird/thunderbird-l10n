@@ -214,6 +214,9 @@ message-group-no-attachments = Fără atașamente
 message-group-attachments = Atașamente
 message-group-not-starred = Fără steluță
 message-group-starred = Cu steluță
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = et al.
 
 ## Prompts
 
