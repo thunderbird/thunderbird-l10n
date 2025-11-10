@@ -33,6 +33,8 @@ no-such-newsgroup = Keskusteluryhmä { $newsgroup } ei ole käytettävissä palv
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Nouda
 
 ## Cancel Message Dialog
 
@@ -45,6 +47,13 @@ auto-subscribe-text = Tilataanko ryhmä { $newsgroup }?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Kirjoita käyttäjätunnus ja salasana palvelimelle { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Kirjoita käyttäjätunnus ja salasana ryhmälle { $newsgroup } palvelimella { $server }:
 
 ## News Error Page Messages
 
