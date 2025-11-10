@@ -32,3 +32,7 @@ enter-news-group-credentials = Te rugăm să introduci un nume de utilizator și
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = A apărut o problemă la încărcarea articolului
+# The main heading for the news error page.
+article-not-found-title = Articolul nu a fost găsit
