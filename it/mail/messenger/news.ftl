@@ -51,3 +51,7 @@ mark-headers-read =
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Errore caricamento articolo
+# The main heading for the news error page.
+article-not-found-title = Articolo non trovato
