@@ -57,3 +57,17 @@ enter-news-group-credentials = Veuillez saisir un nom d’utilisateur et un mot 
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Erreur de chargement de l’article
+# The main heading for the news error page.
+article-not-found-title = Article introuvable
+# A longer description for the news error page.
+article-not-found-desc = Le serveur de groupes indique qu’il ne peut pas trouver l’article.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Le serveur de groupes a répondu :
+# A string explaining that the article may have expired.
+article-may-have-expired = L’article a peut-être expiré ?
+# A string preceding the message's ID.
+try-searching-prefix = Essayez de rechercher cet article :
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Supprimer tous les articles ayant expiré
