@@ -8,6 +8,8 @@
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Загрузіць
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -27,9 +29,19 @@ mark-headers-read =
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Вы хочаце падпісацца на { $newsgroup }?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Увядзіце, калі ласка, імя карыстальніка і пароль для { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Увядзіце, калі ласка, імя карыстальніка і пароль для { $newsgroup } на { $server }:
 
 ## News Error Page Messages
 
