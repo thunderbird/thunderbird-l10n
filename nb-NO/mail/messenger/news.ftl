@@ -33,6 +33,8 @@ no-such-newsgroup = Temagruppen { $newsgroup } er ikke tilgjengelig på serveren
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Last ned
 
 ## Cancel Message Dialog
 
@@ -45,6 +47,13 @@ auto-subscribe-text = Vil du melde deg inn i { $newsgroup }?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Skriv inn brukernavn og passord for { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Skriv inn brukernavn og passord for { $newsgroup } på { $server }:
 
 ## News Error Page Messages
 
