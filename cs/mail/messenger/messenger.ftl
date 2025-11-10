@@ -591,6 +591,9 @@ message-group-no-attachments = Bez přílohy
 message-group-attachments = S přílohou
 message-group-not-starred = Bez hvězdičky
 message-group-starred = S hvězdičkou
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = a další
 
 ## Prompts
 
