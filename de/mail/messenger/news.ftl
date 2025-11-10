@@ -33,6 +33,13 @@ no-such-newsgroup = Die Newsgroup { $newsgroup } ist auf dem Server nicht verfü
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Kopfzeilen herunterladen
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Die Kopfzeilen für { $count } neue Beiträge in dieser Newsgruppe sind herunterzuladen.
+download-all-headers =
+    .label = Alle Kopfzeilen herunterladen
+    .accesskey = A
 download-headers-ok-button =
     .label = Herunterladen
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -51,6 +58,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Sind Sie sicher, dass Sie diesen Beitrag zurückziehen wollen?
 
 ## Auto-Subscribe Dialog
 
@@ -60,6 +68,7 @@ auto-subscribe-text = Soll { $newsgroup } abonniert werden?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Benutzername und Passwort für News-Server werden benötigt
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Bitte geben Sie Ihren Benutzernamen und das Passwort für { $server } ein:
