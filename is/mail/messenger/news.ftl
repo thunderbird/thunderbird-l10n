@@ -35,6 +35,13 @@ no-such-newsgroup = Fréttahópurinn { $newsgroup } er ekki tiltækur á netþj�
 
 download-headers-ok-button =
     .label = Sækja
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Sækja
+    .accesskey = n
 n-headers =
     .value = hausar
     .accesskey = h
