@@ -25,6 +25,13 @@ no-such-newsgroup = Nhóm tin { $newsgroup } không có sẵn trên máy chủ.
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Tải xuống header
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Có { $count } đầu đề mới để tải cho nhóm tin này.
+download-all-headers =
+    .label = Tải xuống tất cả tiêu đề
+    .accesskey = D
 download-headers-ok-button =
     .label = Tải xuống
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -43,6 +50,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Bạn có chắc là bạn muốn hủy thư này?
 
 ## Auto-Subscribe Dialog
 
@@ -52,6 +60,7 @@ auto-subscribe-text = Bạn có muốn đăng kí { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Yêu cầu tên người dùng và mật khẩu cho máy chủ tin tức
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Vui lòng nhập tên người dùng và mật khẩu cho { $server }:
