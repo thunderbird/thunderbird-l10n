@@ -32,3 +32,17 @@ enter-news-group-credentials = Introduïu un nom d'usuari i contrasenya per a { 
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = S'ha produït un problema en carregar l'article
+# The main heading for the news error page.
+article-not-found-title = No s'ha trobat l'article
+# A longer description for the news error page.
+article-not-found-desc = El servidor de grups de discussió ha notificat que no ha trobat l'article.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = El servidor de grups de discussió ha respost:
+# A string explaining that the article may have expired.
+article-may-have-expired = Potser l'article ha caducat?
+# A string preceding the message's ID.
+try-searching-prefix = Proveu de cercar l'article:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Elimina tots els articles caducats
