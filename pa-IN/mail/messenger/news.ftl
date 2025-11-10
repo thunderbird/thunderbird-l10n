@@ -10,6 +10,19 @@
 
 download-headers-ok-button =
     .label = Download
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = ਡਾਊਨਲੋਡ
+    .accesskey = o
+n-headers =
+    .value = ਹੈੱਡਰ
+    .accesskey = h
+mark-headers-read =
+    .label = ਬਕਾਇਆ ਹੈੱਡਰਾਂ ਨੂੰ ਪੜ੍ਹਿਆ ਐਲਾਨੋ
+    .accesskey = M
 
 ## Cancel Message Dialog
 
