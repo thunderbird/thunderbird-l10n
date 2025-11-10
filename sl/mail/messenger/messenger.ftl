@@ -511,6 +511,9 @@ menu-mark-not-spam =
     .accesskey = ž
 mark-not-junk-key =
     .key = n
+menu-delete-spam =
+    .label = Izbriši neželena sporočila v tej mapi
+    .accesskey = I
 
 ## Folder pane context.
 
