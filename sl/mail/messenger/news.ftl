@@ -67,3 +67,17 @@ enter-news-group-credentials = Vnesite uporabniško ime in geslo za { $newsgroup
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Napaka pri nalaganju članka
+# The main heading for the news error page.
+article-not-found-title = Članka ni mogoče najti
+# A longer description for the news error page.
+article-not-found-desc = Novičarski strežnik poroča, da ne more najti članka.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Novičarski strežnik se je odzval:
+# A string explaining that the article may have expired.
+article-may-have-expired = Morda je članek pretekel?
+# A string preceding the message's ID.
+try-searching-prefix = Poskusite z iskanjem članka:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Odstrani vse pretečene članke
