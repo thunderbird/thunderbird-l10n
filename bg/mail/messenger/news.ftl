@@ -54,3 +54,17 @@ auto-subscribe-text = Искате ли да се абонирате за { $new
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Проблем при зареждане на статия
+# The main heading for the news error page.
+article-not-found-title = Статията не е намерена
+# A longer description for the news error page.
+article-not-found-desc = Сървърът на дискусионната група не може да намери статията.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Отговор от сървъра на дискусионната група:
+# A string explaining that the article may have expired.
+article-may-have-expired = Възможно ли е статията да е с изтекъл срок?
+# A string preceding the message's ID.
+try-searching-prefix = Опитайте да търсите статия:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Премахване на всички статии с изтекъл срок
