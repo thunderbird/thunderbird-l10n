@@ -521,6 +521,33 @@ menuitem-label-spam-percentage =
     .label = Persentase Spam
 menuitem-label-spam-status =
     .label = Status Spam
+message-priority-lowest = Terendah
+message-priority-low = Rendah
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normal
+message-priority-high = Tinggi
+message-priority-highest = Tertinggi
+message-flag-replied = Dibalas
+message-flag-forwarded = Diteruskan
+message-flag-redirected = Dialihkan
+message-flag-new = Baru
+message-flag-read = Dibaca
+message-flag-starred = Dibintangi
+# Grouped By Date thread pane titles
+message-group-today = Hari Ini
+message-group-yesterday = Kemarin
+message-group-last-seven-days = 7 Hari Terakhir
+message-group-last-fourteen-days = 14 Hari Terakhir
+message-group-older = Email Lama
+message-group-future-date = Mendatang
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Pesan Tanpa Tag
+message-group-no-status = Tanpa Status
+message-group-no-priority = Tanpa Prioritas
+message-group-no-attachments = Tanpa Lampiran
+message-group-attachments = Lampiran
+message-group-not-starred = Tidak Dibintangi
+message-group-starred = Dibintangi
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
