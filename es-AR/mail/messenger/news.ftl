@@ -65,3 +65,9 @@ article-not-found-title = Artículo no encontrado
 article-not-found-desc = El servidor de noticias informa que no puede encontrar el artículo.
 # A string preceding the text response from the newsgroup server describing the error.
 news-server-responded-prefix = El servidor de noticias informó:
+# A string explaining that the article may have expired.
+article-may-have-expired = ¿Tal vez el artículo ya caducó?
+# A string preceding the message's ID.
+try-searching-prefix = Intente buscar el artículo:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Eliminar todos los artículos expirados
