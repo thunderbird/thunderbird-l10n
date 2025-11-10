@@ -498,6 +498,9 @@ message-group-no-attachments = Ei liitteitä
 message-group-attachments = On liitteitä
 message-group-not-starred = Ei tähteä
 message-group-starred = Tähti
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = jne.
 
 ## Prompts
 
