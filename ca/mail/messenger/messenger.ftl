@@ -511,6 +511,9 @@ message-group-no-attachments = Sense adjuncions
 message-group-attachments = Adjuncions
 message-group-not-starred = No destacats
 message-group-starred = Destacats
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = i altres
 
 ## Prompts
 
