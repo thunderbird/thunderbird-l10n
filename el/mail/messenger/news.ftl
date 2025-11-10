@@ -33,6 +33,8 @@ no-such-newsgroup = Η ομάδα συζητήσεων «{ $newsgroup }» δεν
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Λήψη
 n-headers =
     .value = κεφαλίδων
     .accesskey = φ
@@ -48,6 +50,13 @@ mark-headers-read =
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Εισαγάγετε το όνομα χρήστη και τον κωδικό πρόσβασης για το { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Εισαγάγετε το όνομα χρήστη και τον κωδικό πρόσβασης για το «{ $newsgroup }» στο { $server }:
 
 ## News Error Page Messages
 
