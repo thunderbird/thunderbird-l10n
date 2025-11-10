@@ -33,6 +33,13 @@ no-such-newsgroup = { $newsgroup } haber grubu bu sunucuda mevcut değil.
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Üst bilgileri indir
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Bu haber grubundan indirilebilecek { $count } yeni ileti başlığı var.
+download-all-headers =
+    .label = Tüm üst bilgileri indir
+    .accesskey = T
 download-headers-ok-button =
     .label = İndir
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -42,9 +49,16 @@ download-headers-ok-button =
 download-n =
     .label = Sadece
     .accesskey = a
+n-headers =
+    .value = üst bilgi indir
+    .accesskey = ü
+mark-headers-read =
+    .label = Kalan üst bilgileri okundu olarak işaretle
+    .accesskey = d
 
 ## Cancel Message Dialog
 
+cancel-confirm = Bu iletiden vazgeçmek istediğinizden emin misiniz?
 
 ## Auto-Subscribe Dialog
 
@@ -54,6 +68,7 @@ auto-subscribe-text = { $newsgroup } haber grubuna abone olmak ister misiniz?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Haber sunucusu kullanıcı adı ve parolası gerekli
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Lütfen { $server } için bir kullanıcı adı ve parola girin:
