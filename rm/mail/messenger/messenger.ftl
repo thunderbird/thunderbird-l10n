@@ -525,6 +525,9 @@ message-group-no-attachments = Naginas agiuntas
 message-group-attachments = Agiuntas
 message-group-not-starred = Senza staila
 message-group-starred = Cun staila
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = et al.
 
 ## Prompts
 
