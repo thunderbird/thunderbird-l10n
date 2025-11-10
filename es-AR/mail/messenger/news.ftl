@@ -57,3 +57,11 @@ enter-news-group-credentials = Ingrese nombre de usuario y contraseña para { $n
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Problema cargando el artículo
+# The main heading for the news error page.
+article-not-found-title = Artículo no encontrado
+# A longer description for the news error page.
+article-not-found-desc = El servidor de noticias informa que no puede encontrar el artículo.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = El servidor de noticias informó:
