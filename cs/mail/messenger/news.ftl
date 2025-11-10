@@ -37,6 +37,8 @@ no-such-newsgroup = Diskusní skupina { $newsgroup } není na serveru dostupná.
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Stáhnout
 
 ## Cancel Message Dialog
 
@@ -49,6 +51,13 @@ auto-subscribe-text = Chcete se přihlásit k odběru { $newsgroup }?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Vložte prosím uživatelské jméno a heslo k { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Vložte prosím uživatelské jméno a heslo k { $newsgroup } na { $server }:
 
 ## News Error Page Messages
 
