@@ -548,6 +548,33 @@ menuitem-label-spam-percentage =
     .label = Søppelpostprosent
 menuitem-label-spam-status =
     .label = Status for søppelpost
+message-priority-lowest = Lavest
+message-priority-low = Lav
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normal
+message-priority-high = Høy
+message-priority-highest = Høyest
+message-flag-replied = Besvart
+message-flag-forwarded = Videresendt
+message-flag-redirected = Omdirigert
+message-flag-new = Ny
+message-flag-read = Lest
+message-flag-starred = Stjerne
+# Grouped By Date thread pane titles
+message-group-today = I dag
+message-group-yesterday = I går
+message-group-last-seven-days = Siste 7 dager
+message-group-last-fourteen-days = Siste 14 dager
+message-group-older = Eldre
+message-group-future-date = Fremtidig
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Umerket melding
+message-group-no-status = Ingen status
+message-group-no-priority = Ingen prioritet
+message-group-no-attachments = Ingen vedlegg
+message-group-attachments = Vedlegg
+message-group-not-starred = Ikke stjerne
+message-group-starred = Stjerne
 
 ## Prompts
 
