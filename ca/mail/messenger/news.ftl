@@ -10,6 +10,19 @@
 
 download-headers-ok-button =
     .label = Baixa
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Baixa
+    .accesskey = x
+n-headers =
+    .value = capçaleres
+    .accesskey = c
+mark-headers-read =
+    .label = Marca les capçaleres restants com a llegides
+    .accesskey = M
 
 ## Cancel Message Dialog
 
