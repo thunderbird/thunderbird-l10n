@@ -527,6 +527,9 @@ menuitem-label-spam-percentage =
     .label = Phần trăm thư rác
 menuitem-label-spam-status =
     .label = Trạng thái thư rác
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = và những người khác.
 
 ## Prompts
 
