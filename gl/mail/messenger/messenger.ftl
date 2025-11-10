@@ -509,6 +509,33 @@ archive-action = Arquivar
 
 ## Message list.
 
+message-priority-lowest = Moi baixa
+message-priority-low = Baixa
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normal
+message-priority-high = Alta
+message-priority-highest = Moi alta
+message-flag-replied = Respondida
+message-flag-forwarded = Reenviada
+message-flag-redirected = Redirixido
+message-flag-new = Nova
+message-flag-read = Lida
+message-flag-starred = Con estrela
+# Grouped By Date thread pane titles
+message-group-today = Hoxe
+message-group-yesterday = Onte
+message-group-last-seven-days = Últimos 7 días
+message-group-last-fourteen-days = Últimos 14 días
+message-group-older = Correo antigo
+message-group-future-date = Futuro
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Mensaxes sen etiquetar
+message-group-no-status = Sen estado
+message-group-no-priority = Sen prioridade
+message-group-no-attachments = Sen anexos
+message-group-attachments = Anexos
+message-group-not-starred = Sen estrela
+message-group-starred = Con estrela
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = e outros.
