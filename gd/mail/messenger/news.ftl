@@ -8,6 +8,13 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Luchdaich a-nuas na bannan-cinn
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Tha { $count } bann(an)-cinn ùra ri luchdachadh a-nuas sa bhuidheann-naidheachd seo.
+download-all-headers =
+    .label = Luchdaich a-nuas a h-uile bann-cinn
+    .accesskey = d
 download-headers-ok-button =
     .label = Luchdaich a-nuas
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -26,6 +33,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = A bheil thu cinnteach gu bheil thu airson sgur dhen teachdaireachd seo?
 
 ## Auto-Subscribe Dialog
 
@@ -35,6 +43,7 @@ auto-subscribe-text = A bheil thu airson fo-sgrìobhadh gu { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Tha feum air ainm-cleachdaiche 's facal-faire airson an fhrithealaiche naidheachdan
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Cuir a-steach ainm-cleachdaiche 's facal-faire airson { $server }:
