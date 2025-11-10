@@ -33,11 +33,32 @@ no-such-newsgroup = De nijsgroep { $newsgroup } is net beskikber op de server.
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Berjochtkoppen downloade
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Der binne { $count } nije berjochtkoppen yn te laden foar dizze nijsgroep.
+download-all-headers =
+    .label = Alle berjochtkoppen downloade
+    .accesskey = d
 download-headers-ok-button =
     .label = Downloade
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Downloade
+    .accesskey = n
+n-headers =
+    .value = berjochtkoppen
+    .accesskey = k
+mark-headers-read =
+    .label = Oare berjochten as lêzen markearje
+    .accesskey = M
 
 ## Cancel Message Dialog
 
+cancel-confirm = Witte jo seker dat jo dit berjocht annulearje wolle?
 
 ## Auto-Subscribe Dialog
 
@@ -47,6 +68,7 @@ auto-subscribe-text = Wolle jo jo oanmelde by { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Nijsserverbrûkersnamme en wachtwurd fereaske
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Fier in brûkersnamme en wachtwurd yn foar { $server }:
