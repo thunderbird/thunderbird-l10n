@@ -25,6 +25,19 @@ no-such-newsgroup = { $newsgroup } 뉴스그룹은 서버에 존재하지 않습
 
 ## Download Headers Dialog
 
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = 받기
+    .accesskey = o
+n-headers =
+    .value = 머릿말
+    .accesskey = h
+mark-headers-read =
+    .label = 읽은 메시지 표시
+    .accesskey = M
 
 ## Cancel Message Dialog
 
