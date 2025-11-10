@@ -33,6 +33,19 @@ no-such-newsgroup = Nyhedsgruppen { $newsgroup } er ikke tilgængelig på server
 
 ## Download Headers Dialog
 
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Hent
+    .accesskey = H
+n-headers =
+    .value = meddelelseshoveder
+    .accesskey = d
+mark-headers-read =
+    .label = Marker resterende meddelelseshoveder som læste
+    .accesskey = M
 
 ## Cancel Message Dialog
 
