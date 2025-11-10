@@ -35,6 +35,13 @@ no-such-newsgroup = Grupi i lajmeve { $newsgroup } s’është i passhëm te sh�
 
 download-headers-ok-button =
     .label = Shkarko
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Shkarko
+    .accesskey = S
 n-headers =
     .value = tituj
     .accesskey = t
