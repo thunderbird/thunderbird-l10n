@@ -33,6 +33,8 @@ no-such-newsgroup = Diskussionsgruppen { $newsgroup } är inte tillgänglig på 
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Ladda ner
 
 ## Cancel Message Dialog
 
@@ -45,6 +47,27 @@ auto-subscribe-text = Vill du prenumerera på { $newsgroup }?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Ange ett användarnamn och lösenord för { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Ange ett användarnamn och lösenord för { $newsgroup } på { $server }:
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Problem att ladda artikel
+# The main heading for the news error page.
+article-not-found-title = Artikel hittades inte
+# A longer description for the news error page.
+article-not-found-desc = Diskussionsgruppsservern rapporterar att det inte kan hitta artikeln.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Diskussionsgruppsservern svarade:
+# A string explaining that the article may have expired.
+article-may-have-expired = Kanske har artikeln upphört?
+# A string preceding the message's ID.
+try-searching-prefix = Försök att söka efter artikel:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Ta bort alla upphörda artiklar
