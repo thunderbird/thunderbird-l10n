@@ -526,6 +526,33 @@ archive-action = Архивтеу
 message-flag-spam = Спам
 menuitem-label-spam =
     .label = Спам
+message-priority-lowest = Ең төмен
+message-priority-low = Төмен
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Қалыпты
+message-priority-high = Жоғары
+message-priority-highest = Ең жоғары
+message-flag-replied = Жауап берілген
+message-flag-forwarded = Әрі қарай жіберілген
+message-flag-redirected = Қайта бағдарланған
+message-flag-new = Жаңа
+message-flag-read = Оқу
+message-flag-starred = Жұлдызы бар
+# Grouped By Date thread pane titles
+message-group-today = Бүгін
+message-group-yesterday = Кеше
+message-group-last-seven-days = Соңғы 7 күн
+message-group-last-fourteen-days = Соңғы 14 күн
+message-group-older = Ескілеу
+message-group-future-date = Болашақ
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Тегтері жоқ хабарламалар
+message-group-no-status = Қалып-күйі жоқ
+message-group-no-priority = Приоритеті жоқ
+message-group-no-attachments = Салынымдар жоқ
+message-group-attachments = Салынымдар
+message-group-not-starred = Жұлдызшасы жоқ
+message-group-starred = Жұлдызы бар
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = және басқалар
