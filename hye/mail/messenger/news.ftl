@@ -8,15 +8,49 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Ներբեռնել գլխագիրները
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Այս լրատուական խմբի համար կան { $count } նոր հաղորդագրութիւնների վերնագրեր՝ ներբեռնելու համար:
+download-all-headers =
+    .label = Ներբեռնել բոլոր գլխագրերը
+    .accesskey = D
+download-headers-ok-button =
+    .label = Ներբեռնել
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Ներբեռնել
+    .accesskey = o
+n-headers =
+    .value = գլխագրեր
+    .accesskey = h
+mark-headers-read =
+    .label = Նշել մնացած գլխագրերը որպէս ընթերցուած
+    .accesskey = M
 
 ## Cancel Message Dialog
 
+cancel-confirm = Համոզուա՞ծ էք, որ ուզում էք չեղարկել այս հաղորդագրութիւնը։
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Կը ցանկայի՞ք բաժանորդագրուել { $newsgroup }֊ին։
 
 ## News Server Credentials
 
+enter-news-credentials-title = Պահանջուում է նորութիւնների սպասարկչի աւգտանուն եւ գաղտնաբառ
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Խնդրում ենք մուտքագրել աւգտանուն եւ գաղտնաբառ { $server } ի համար,
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Խնդրում ենք մուտքագրել աւգտանուն եւ գաղտնաբառ { $newsgroup }-ի համար { $server }-ում.
 
 ## News Error Page Messages
 
