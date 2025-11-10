@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Newsgroup Status Messages
+
 # Variables:
 # $count (Number) - Number of headers.
 # $newsgroup (String) - The name of the newsgroup.
@@ -19,3 +22,32 @@ no-articles-to-download = { $newsgroup }에 대하여 다운로드할 기사가 
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-such-newsgroup = { $newsgroup } 뉴스그룹은 서버에 존재하지 않습니다.
+
+## Download Headers Dialog
+
+
+## Cancel Message Dialog
+
+
+## Auto-Subscribe Dialog
+
+
+## News Server Credentials
+
+
+## News Error Page Messages
+
+# The title of the news error page. Not generally visible.
+news-error-title = 글을 읽지 못함
+# The main heading for the news error page.
+article-not-found-title = 글이 없음
+# A longer description for the news error page.
+article-not-found-desc = 뉴스그룹 서버가 글을 찾을 수 없습니다.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = 뉴스그룹 서버 응답:
+# A string explaining that the article may have expired.
+article-may-have-expired = 글이 만료되었을까요?
+# A string preceding the message's ID.
+try-searching-prefix = 글 검색 시도:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = 만료된 글 모두 삭제
