@@ -33,6 +33,15 @@ no-such-newsgroup = Дискусионната група { $newsgroup } не е
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Изтегляне на заглавки
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = В тази група има { $count } нови заглавки на съобщения за изтегляне.
+download-all-headers =
+    .label = Изтегляне на всички заглавки
+    .accesskey = И
+download-headers-ok-button =
+    .label = Изтегляне
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -49,6 +58,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Сигурен ли сте, че искате да прекъснете писмото?
 
 ## Auto-Subscribe Dialog
 
@@ -58,6 +68,14 @@ auto-subscribe-text = Искате ли да се абонирате за { $new
 
 ## News Server Credentials
 
+enter-news-credentials-title = Изискват се потребител и парола за сървъра за новини
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Моля, въведете потребителско име и парола за { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Моля, въведете потребителско име и парола за { $newsgroup } в { $server }:
 
 ## News Error Page Messages
 
