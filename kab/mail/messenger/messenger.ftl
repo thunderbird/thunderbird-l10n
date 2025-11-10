@@ -412,6 +412,33 @@ delete-action = Kkes
 
 ## Message list.
 
+message-priority-lowest = Ameẓyan
+message-priority-low = Meẓẓi
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Amagnu
+message-priority-high = Awriran
+message-priority-highest = Ameqqran
+message-flag-replied = ittwar
+message-flag-forwarded = Yettuwelleh
+message-flag-redirected = Yettuwelleh i tikkelt-nniḍen
+message-flag-new = Amaynut
+message-flag-read = Yettwaɣra
+message-flag-starred = Ɣur-s itri
+# Grouped By Date thread pane titles
+message-group-today = Assa
+message-group-yesterday = Iḍelli
+message-group-last-seven-days = 7 n wussan ineggura
+message-group-last-fourteen-days = 14 n wussan ineggura
+message-group-older = Iqbuṛen
+message-group-future-date = Imal
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Iznan war tabzimt
+message-group-no-status = Ulac addad
+message-group-no-priority = Ulac tazwart
+message-group-no-attachments = Ulac ticeqqufin yeddan
+message-group-attachments = Ticeqqufin yeddan
+message-group-not-starred = S war itri
+message-group-starred = Ɣur-s itri
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = d wiyaḍ
