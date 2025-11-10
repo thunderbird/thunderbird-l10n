@@ -37,6 +37,19 @@ no-such-newsgroup = Diskusijna skupina { $newsgroup } na serwerje k dispoziciji 
 
 ## Download Headers Dialog
 
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Sćahnyć
+    .accesskey = S
+n-headers =
+    .value = Powěsćowe hłowy
+    .accesskey = h
+mark-headers-read =
+    .label = Zbytne powěsćowe hłowy jako přečitane woznamjenić
+    .accesskey = Z
 
 ## Cancel Message Dialog
 
