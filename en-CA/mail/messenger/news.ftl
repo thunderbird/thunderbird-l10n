@@ -65,3 +65,13 @@ auto-subscribe-text = Would you like to subscribe to { $newsgroup }?
 news-error-title = Problem Loading Article
 # The main heading for the news error page.
 article-not-found-title = Article not found
+# A longer description for the news error page.
+article-not-found-desc = The newsgroup server reports that it can’t find the article.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Newsgroup server responded:
+# A string explaining that the article may have expired.
+article-may-have-expired = Perhaps the article has expired?
+# A string preceding the message's ID.
+try-searching-prefix = Try searching for article:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Remove All Expired Articles
