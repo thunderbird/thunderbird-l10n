@@ -26,3 +26,7 @@ mark-headers-read =
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Праблема загрузкі артыкула
+# The main heading for the news error page.
+article-not-found-title = Артыкул не знойдзены
