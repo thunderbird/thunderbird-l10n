@@ -38,3 +38,7 @@ enter-news-group-credentials = Նշեք օգտվողի անուն և գաղտն�
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Հոդվածը բեռնելու սխալ
+# The main heading for the news error page.
+article-not-found-title = Հոդվածը չի գտնվել
