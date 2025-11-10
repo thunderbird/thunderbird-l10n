@@ -547,6 +547,9 @@ menuitem-label-spam-percentage =
     .label = Përqindje të Padëshiruarish
 menuitem-label-spam-status =
     .label = Gjendje Spam-i
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = dhe të tjerë.
 
 ## Prompts
 
