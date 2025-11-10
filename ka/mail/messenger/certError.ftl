@@ -41,6 +41,15 @@ certificate-check-add-exception-button = გამონაკლისის �
 certificate-check-remove-exception-button = გამონაკლისის წაშლა
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = მოწმდება კავშირი სერვერთან { $hostname }…
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = წარმატებით დამყარდა დაცული კავშირი კვანძთან { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-failure = { $hostname } სერვერთან დაკავშირება ვერ მოხერხდა.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = სერტიფიკატის მიღება მისამართისთვის { $hostname }.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.

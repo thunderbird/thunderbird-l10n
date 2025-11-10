@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = წ
 email-e2ee-header = ელფოსტის გამჭოლი დაშიფვრა
 account-settings = ანგარიშის პარამეტრები
+email-e2ee-enable-accounts-info = გამართეთ ელფოსტის ანგარიშები და ვინაობის მონაცემები გამჭოლი დაშიფვრისთვის <a data-l10n-name="account-settings-url">ანგარიშის პარამეტრებიდან</a>.
 email-e2ee-enable-info = გამართეთ ელფოსტის ანგარიშები და ვინაობის მონაცემები გამჭოლი დაშიფვრისთვის ანგარიშის პარამეტრებიდან.
 email-e2ee-automatism = დაშიფვრის თვითგამოყენება
 email-e2ee-automatism-pre =
@@ -780,6 +781,20 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = მითითებული
     .accesskey = თ
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP-გასაღებების სერვერები
+email-e2ee-key-servers-intro =
+    გასაღებების სერვერი იღებს და შემდეგ ემსახურება არსებული საჯარო გასაღებებით მომხმარებლებისთვის.
+    საშუალებას გაძლევთ, გამოაქვეყნოთ საკუთარი საჯარო გასაღები, ამასთანავე, მოიძიოთ და განაახლოთ სხვების გასაღებები.
+email-e2ee-key-servers-use-following = გასაღებების მოცემული სერვერების გამოყენება:
+email-e2ee-key-servers-add = დამატება…
+email-e2ee-key-servers-reset = სერვერების სიის განულება
+email-e2ee-key-servers-add-title = გასაღების სერვერის დამატება
+email-e2ee-key-servers-add-text = მიუთითეთ გასაღების სერვერის URL-ბმული დასამატებლად.
+email-e2ee-key-servers-add-failed-title = გასაღების სერვერის დამატება ვერ მოხერხდა
+email-e2ee-key-servers-add-failed-text = ვერ უკავშირდება გასაღებების სერვერს მითითებულ URL-ბმულზე.
 
 ## Chat Tab
 
