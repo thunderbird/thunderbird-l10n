@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = K
 email-e2ee-header = Ende-zu-Ende-Verschlüsselung für E-Mails
 account-settings = Konten-Einstellungen
+email-e2ee-enable-accounts-info = Richten Sie E-Mail-Konten und Identitäten für die Ende-zu-Ende-Verschlüsselung in den <a data-l10n-name="account-settings-url">Konto-Einstellungen</a> ein.
 email-e2ee-enable-info = Richten Sie E-Mail-Konten und Identitäten für die Ende-zu-Ende-Verschlüsselung in den Konten-Einstellungen ein.
 email-e2ee-automatism = Automatische Verwendung der Verschlüsselung
 email-e2ee-automatism-pre =
@@ -780,6 +781,20 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Benutzerdefiniert
     .accesskey = B
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP-Schlüsselserver
+email-e2ee-key-servers-intro =
+    Ein Schlüsselserver erhält und stellt bestehende öffentliche Schlüssel an Benutzer zur Verfügung.
+    Es ermöglicht Ihnen, Ihren öffentlichen Schlüssel zu veröffentlichen und Schlüssel anderer zu finden und zu aktualisieren.
+email-e2ee-key-servers-use-following = Folgende Schlüsselserver verwenden:
+email-e2ee-key-servers-add = Hinzufügen…
+email-e2ee-key-servers-reset = Serverliste zurücksetzen
+email-e2ee-key-servers-add-title = Schlüsselserver hinzufügen
+email-e2ee-key-servers-add-text = Geben Sie die URL des Schlüsselservers ein, der hinzugefügt werden soll.
+email-e2ee-key-servers-add-failed-title = Hinzufügen eines Schlüsselservers fehlgeschlagen
+email-e2ee-key-servers-add-failed-text = Verbindung mit einem Schlüsselserver unter der angegebenen URL konnte nicht hergestellt werden.
 
 ## Chat Tab
 
