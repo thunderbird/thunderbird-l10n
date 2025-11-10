@@ -548,6 +548,9 @@ menuitem-label-spam-percentage =
     .label = Percentuale spam
 menuitem-label-spam-status =
     .label = Stato spam
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = et al.
 
 ## Prompts
 
