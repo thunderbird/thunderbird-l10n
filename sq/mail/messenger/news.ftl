@@ -33,6 +33,14 @@ no-such-newsgroup = Grupi i lajmeve { $newsgroup } s’është i passhëm te sh�
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Shkarko
+n-headers =
+    .value = tituj
+    .accesskey = t
+mark-headers-read =
+    .label = Shënoji titujt e mbetur si të lexuar
+    .accesskey = n
 
 ## Cancel Message Dialog
 
@@ -45,6 +53,27 @@ auto-subscribe-text = Doni të pajtoheni te { $newsgroup }?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Ju lutemi, jepni emër përdoruesi dhe fjalëkalim për { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Ju lutemi, jepni emër përdoruesi dhe fjalëkalim për { $newsgroup } te { $server }:
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Problem Në Ngarkim Artikulli
+# The main heading for the news error page.
+article-not-found-title = Artikulli s’u gjet
+# A longer description for the news error page.
+article-not-found-desc = Shërbyesi i grupit të lajmeve njofton se s’e gjen dot artikullin.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Shërbyesi i grupit të lajmeve u përgjigj:
+# A string explaining that the article may have expired.
+article-may-have-expired = Ndoshta artikulli ka skaduar?
+# A string preceding the message's ID.
+try-searching-prefix = Provoni të kërkoni për artikullin:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Hiqi Krejt Artikujt e Skaduar
