@@ -33,6 +33,8 @@ no-such-newsgroup = O grupo de notícias { $newsgroup } não está disponível n
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = OK
 
 ## Cancel Message Dialog
 
@@ -45,6 +47,13 @@ auto-subscribe-text = Quer se inscrever em { $newsgroup }?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Forneça um nome de usuário e senha de { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Forneça um nome de usuário e senha de { $newsgroup } em { $server }:
 
 ## News Error Page Messages
 
