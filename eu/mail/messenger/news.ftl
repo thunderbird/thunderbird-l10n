@@ -57,3 +57,17 @@ enter-news-group-credentials = Sartu erabiltzaile-izena eta pasahitza { $server 
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Arazoa artikulua kargatzerakoan
+# The main heading for the news error page.
+article-not-found-title = Artikulua ez da aurkitu
+# A longer description for the news error page.
+article-not-found-desc = Berri-taldeen zerbitzariak artikulua ezin duela aurkitu adierazten du.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Berri-taldeen zerbitzariaren erantzuna:
+# A string explaining that the article may have expired.
+article-may-have-expired = Beharbada artikulua iraungia dago?
+# A string preceding the message's ID.
+try-searching-prefix = Saiatu artikulua bilatzen:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Ezabatu iraungitako artikulu denak
