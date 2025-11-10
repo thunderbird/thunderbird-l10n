@@ -8,6 +8,15 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Sider iqeṛṛa
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Llan { $count } n iqeṛṛa n yeznan imaynuten ara d-sidreḍ i ugraw-agi n isalen
+download-all-headers =
+    .label = Sider akk iqeṛṛa
+    .accesskey = i
+download-headers-ok-button =
+    .label = Sider
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -24,12 +33,24 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Tebɣiḍ ad tesfesxeḍ izen-agi?
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Tebɣiḍ ad tejerdeḍ di  { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Isem n useqdac akked wawal uffir n uqeddac n isallen laqen
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Ma ulac aɣilif sekcem isem n useqdac d wawal uffir i { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Ma ulac aɣilif sekcem awal-ik i useqdac  { $newsgroup } ɣef { $server }:
 
 ## News Error Page Messages
 
