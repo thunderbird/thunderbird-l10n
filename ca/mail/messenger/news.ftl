@@ -8,6 +8,13 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Baixa les capçaleres
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Hi ha { $count } capçaleres de missatge noves per baixar d'aquest grup de discussió.
+download-all-headers =
+    .label = Baixa totes les capçaleres
+    .accesskey = B
 download-headers-ok-button =
     .label = Baixa
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -26,6 +33,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Esteu segur que voleu cancel·lar aquest missatge?
 
 ## Auto-Subscribe Dialog
 
@@ -35,6 +43,7 @@ auto-subscribe-text = Voleu subscriure-us a { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Cal el nom d'usuari i la contrasenya del servidor de grups de discussió
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Introduïu un nom d'usuari i contrasenya per a { $server }:
