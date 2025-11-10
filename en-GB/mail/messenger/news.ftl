@@ -33,6 +33,19 @@ no-such-newsgroup = The newsgroup { $newsgroup } is not available on the server.
 
 ## Download Headers Dialog
 
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Download
+    .accesskey = o
+n-headers =
+    .value = headers
+    .accesskey = h
+mark-headers-read =
+    .label = Mark remaining headers as read
+    .accesskey = M
 
 ## Cancel Message Dialog
 
@@ -48,3 +61,17 @@ auto-subscribe-text = Would you like to subscribe to { $newsgroup }?
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Problem Loading Article
+# The main heading for the news error page.
+article-not-found-title = Article not found
+# A longer description for the news error page.
+article-not-found-desc = The newsgroup server reports that it can't find the article.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Newsgroup server responded:
+# A string explaining that the article may have expired.
+article-may-have-expired = Perhaps the article has expired?
+# A string preceding the message's ID.
+try-searching-prefix = Try searching for article:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Remove All Expired Articles
