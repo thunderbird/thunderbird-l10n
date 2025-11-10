@@ -91,6 +91,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ամփոփ տեսք
     .accesskey = Ա
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -210,6 +213,9 @@ no-reply-title = Պատասխանը չի աջակցուում
 no-reply-message = Պատասխանի հասցէն ({ $email }) կարծէս վերահսկուող հասցէ չէ: Այս հասցէին ուղղուած հաղորդագրութիւնները հաւանաբար ոչ ոք չի կարդայ:
 no-reply-reply-anyway-button = Պատասխանել ամէն դէպքում
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -294,9 +300,69 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = թ
 mark-not-junk-key =
     .key = փ
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
+
+## Message list.
+
+message-priority-lowest = Ամենացածր
+message-priority-low = Ցածր
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Սովորական
+message-priority-high = Բարձր
+message-priority-highest = Ամենաբարձր
+message-flag-replied = Պատասխանուած
+message-flag-forwarded = Փոխանցուած
+message-flag-redirected = Վերաուղղորդուած
+message-flag-new = Նոր
+message-flag-read = Կարդացուած
+message-flag-starred = Աստղանշուած
+# Grouped By Date thread pane titles
+message-group-today = Այսաւր
+message-group-yesterday = Երեկ
+message-group-last-seven-days = Վերջին 7 օրում
+message-group-last-fourteen-days = Վերջին 14 օրում
+message-group-older = Աւելի հին
+message-group-future-date = Ապագայ
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Չպիտակաւորուած նամակներ
+message-group-no-status = Կարգավիճակ չկայ
+message-group-no-priority = Չկայ առաջնայնութիւն
+message-group-no-attachments = Առանց կցորդների
+message-group-attachments = Կցորդներ
+message-group-not-starred = Չաստղանշուած
+message-group-starred = Աստղանշուած
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = եւ այղոք
+
+## Prompts
+
+
+## Spam commands
+
