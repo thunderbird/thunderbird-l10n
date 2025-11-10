@@ -35,6 +35,8 @@ no-such-newsgroup = Группа новостей { $newsgroup } недосту�
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Загрузить
 n-headers =
     .value = заголовков
     .accesskey = а
@@ -47,9 +49,19 @@ mark-headers-read =
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Хотите подписаться на «{ $newsgroup }»?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Пожалуйста, введите имя пользователя и пароль для { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Пожалуйста, введите имя пользователя и пароль для { $newsgroup } на { $server }:
 
 ## News Error Page Messages
 
