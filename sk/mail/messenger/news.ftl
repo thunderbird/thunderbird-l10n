@@ -37,6 +37,8 @@ no-such-newsgroup = Diskusná skupina { $newsgroup } nie je na serveri dostupná
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Stiahnuť
 
 ## Cancel Message Dialog
 
@@ -49,6 +51,27 @@ auto-subscribe-text = Chcete sa prihlásiť k odberu príspevkov skupiny { $news
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Zadajte používateľské meno a heslo pre skupinu { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Zadajte používateľské meno a heslo pre skupinu { $newsgroup } na serveri { $server }:
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Problém pri načítaní článku
+# The main heading for the news error page.
+article-not-found-title = Článok nebol nájdený
+# A longer description for the news error page.
+article-not-found-desc = Server diskusných skupín hlási, že nemôže nájsť článok.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Odpoveď servera diskusných skupín:
+# A string explaining that the article may have expired.
+article-may-have-expired = Je možné, že platnosť článku už vypršala?
+# A string preceding the message's ID.
+try-searching-prefix = Skúste hľadať článok:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Odstrániť všetky články, ktorých platnosť vypršala
