@@ -35,6 +35,12 @@ no-such-newsgroup = Die Newsgroup { $newsgroup } ist auf dem Server nicht verfü
 
 download-headers-ok-button =
     .label = Herunterladen
+n-headers =
+    .value = Kopfzeilen herunterladen
+    .accesskey = K
+mark-headers-read =
+    .label = Restliche Kopfzeilen als gelesen markieren
+    .accesskey = R
 
 ## Cancel Message Dialog
 
@@ -57,3 +63,17 @@ enter-news-group-credentials = Bitte geben Sie Ihren Benutzernamen und das Passw
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Problem beim Laden des Beitrags
+# The main heading for the news error page.
+article-not-found-title = Beitrag nicht gefunden
+# A longer description for the news error page.
+article-not-found-desc = Der Newsgroup-Server kann den Beitrag nicht finden.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Antwort des Newsgroup-Servers:
+# A string explaining that the article may have expired.
+article-may-have-expired = Eventuell ist der Beitrag abgelaufen.
+# A string preceding the message's ID.
+try-searching-prefix = Versuchen Sie, nach dem Beitrag zu suchen:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Alle abgelaufenen Beiträge entfernen
