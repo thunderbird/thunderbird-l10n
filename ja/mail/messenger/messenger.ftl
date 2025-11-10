@@ -573,6 +573,9 @@ message-group-no-attachments = 添付ファイルなし
 message-group-attachments = 添付ファイルあり
 message-group-not-starred = スターなし
 message-group-starred = スター付き
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = 他
 
 ## Prompts
 
