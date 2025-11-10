@@ -44,7 +44,7 @@ certificate-check-remove-exception-button = Wuwzaće wotstronić
 certificate-checking = Zwisk ze serwerom { $hostname } so testuje …
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-success = Wěsty zwisk z { $hostname } je so wuspěšnje nawjazaŁ
+certificate-test-success = Wěsty zwisk z { $hostname } je so wuspěšnje nawjazał
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = Zwisk ze serwerom { $hostname } njeje so poradźił.

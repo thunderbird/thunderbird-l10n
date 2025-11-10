@@ -785,7 +785,7 @@ preferences-doh-url-custom =
 ## Keyservers
 
 email-e2ee-key-servers-legend = Klučowe serwery OpenPGP
-email-e2ee-key-servers-intro = Klučowy serwer zjawne kluče dóstawa a staji eksistowace zjawne kluče wužiwarjam k dispoziciji. Zmóžnja wam, waš zjawny kluč wozjewić a kluče druhich namakać a aktualizować.
+email-e2ee-key-servers-intro = Klučowy serwer zjawne kluče dóstawa a staja wužiwarjam eksistowace zjawne kluče k dispoziciji. Zmóžnja wam, waš zjawny kluč wozjewić a kluče druhich namakać a aktualizować.
 email-e2ee-key-servers-use-following = Wužiwajće slědowace klučowe serwery:
 email-e2ee-key-servers-add = Přidać…
 email-e2ee-key-servers-reset = Lisćinu serwerow wróćo stajić

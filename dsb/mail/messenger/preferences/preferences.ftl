@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = W
 email-e2ee-header = Koděrowanje wót kóńca do kóńca za mejlki
 account-settings = Kontowe nastajenja
+email-e2ee-enable-accounts-info = Konfigurěrujśo e-mailowe konta a identity za koděrowanje kóńc do kóńca w <a data-l10n-name="account-settings-url">kontowych nastajenjach</a>.
 email-e2ee-enable-info = Konfigurěrujśo e-mailowe konta a identity za koděrowanje kóńc do kóńca w kontowych nastajenjach.
 email-e2ee-automatism = Awtomatiske wužywanje koděrowanja
 email-e2ee-automatism-pre =
@@ -780,6 +781,18 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Swójski
     .accesskey = S
+
+## Keyservers
+
+email-e2ee-key-servers-legend = Klucowe serwery OpenPGP
+email-e2ee-key-servers-intro = Klucowy serwer zjawne kluce dostawa a staja wužywarjam eksistěrujuce zjawne kluce k dispoziciji. Zmóžnja wam, waš zjawny kluc wózjawiś a kluce drugich namakaś a aktualizěrowaś.
+email-e2ee-key-servers-use-following = Wužywajśo slědujuce klucowe serwery:
+email-e2ee-key-servers-add = Pśidaś…
+email-e2ee-key-servers-reset = Lisćinu serwerow slědk stajiś
+email-e2ee-key-servers-add-title = Klucowy serwer pśidaś
+email-e2ee-key-servers-add-text = Zapódajśo URL klucowego serwera, kótaryž se ma pśidaś.
+email-e2ee-key-servers-add-failed-title = Pśidawanje klucowego serwera njejo se raźiło
+email-e2ee-key-servers-add-failed-text = Njejo móžno, pśez pódany URL z klucowym serwerom zwězaś.
 
 ## Chat Tab
 

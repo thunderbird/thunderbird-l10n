@@ -34,10 +34,20 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Zwiskowa zmólka. Certifikat za { $hostname } z dowěry gódnego žrědła njepśiźo. Klikniśo, aby wěstotne nastajenja serwera wócynił.
+certificate-check-test-button = Zwisk ze serwerom testowaś
 certificate-check-fetch-button = Certifikat wobstaraś
 certificate-check-view-button = Certifikat pokazaś
 certificate-check-add-exception-button = Wuwześe pśidaś
 certificate-check-remove-exception-button = Wuwześe wótwónoźeś
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = Zwisk ze serwerom { $hostname } se testujo …
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = Wěsty zwisk z { $hostname } jo se wuspěšnje nawězał
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-failure = Zwisk ze serwerom { $hostname } njejo se raźił.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Certifikat za { $hostname } se wobstarujo.
