@@ -37,6 +37,13 @@ no-such-newsgroup = Diskusní skupina { $newsgroup } není na serveru dostupná.
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Stažení záhlaví zpráv
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = V této diskusní skupině je ke stažení { $count } nových záhlaví zpráv.
+download-all-headers =
+    .label = Stáhnout všechna záhlaví
+    .accesskey = S
 download-headers-ok-button =
     .label = Stáhnout
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -55,6 +62,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Opravdu chcete zrušit tuto zprávu?
 
 ## Auto-Subscribe Dialog
 
@@ -64,6 +72,7 @@ auto-subscribe-text = Chcete se přihlásit k odběru { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Server vyžaduje uživatelské jméno a heslo
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Vložte prosím uživatelské jméno a heslo k { $server }:
