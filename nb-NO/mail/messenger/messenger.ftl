@@ -575,6 +575,9 @@ message-group-no-attachments = Ingen vedlegg
 message-group-attachments = Vedlegg
 message-group-not-starred = Ikke stjerne
 message-group-starred = Stjerne
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = mfl.
 
 ## Prompts
 
