@@ -25,6 +25,15 @@ no-such-newsgroup = 無法使用伺服器上的新聞群組 { $newsgroup }。
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = 下載檔頭資訊
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = 此新聞群組中有 { $count } 項新文章資訊 (Header) 要下載。
+download-all-headers =
+    .label = 下載所有郵件資訊
+    .accesskey = D
+download-headers-ok-button =
+    .label = 下載
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -41,6 +50,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = 您確定要取消這封郵件嗎？
 
 ## Auto-Subscribe Dialog
 
@@ -50,9 +60,14 @@ auto-subscribe-text = 您想訂閱 { $newsgroup } 嗎？
 
 ## News Server Credentials
 
+enter-news-credentials-title = 需要輸入新聞群組伺服器的使用者名稱與密碼
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = 請輸入 { $server } 伺服器的使用者名稱與密碼:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = 請輸入 { $server } 伺服器上 { $newsgroup } 新聞群組的使用者名稱與密碼：
 
 ## News Error Page Messages
 
