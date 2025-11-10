@@ -75,3 +75,11 @@ news-error-title = Проблема завантаження статті
 article-not-found-title = Статтю не знайдено
 # A longer description for the news error page.
 article-not-found-desc = Сервер груп новин повідомляє, що не може знайти статтю.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Відповідь сервера групи новин:
+# A string explaining that the article may have expired.
+article-may-have-expired = Можливо, стаття вже застаріла?
+# A string preceding the message's ID.
+try-searching-prefix = Спробуйте пошукати статтю:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Видалити усі застарілі статті
