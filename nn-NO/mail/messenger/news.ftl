@@ -57,3 +57,17 @@ enter-news-group-credentials = Skriv inn brukarnamn og passord for { $newsgroup 
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Problem med lasting av artikkel
+# The main heading for the news error page.
+article-not-found-title = Fann ikkje artikkelen
+# A longer description for the news error page.
+article-not-found-desc = Nyheitsgruppetenaren rapporterer at han ikkje finn artikkelen.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Nyheitsgruppetenaren varte:
+# A string explaining that the article may have expired.
+article-may-have-expired = Kanskje artikkelen har gått ut?
+# A string preceding the message's ID.
+try-searching-prefix = Prøv å søkje etter artikkelen:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Fjern alle utgåtte artiklar
