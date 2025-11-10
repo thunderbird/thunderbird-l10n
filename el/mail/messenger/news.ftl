@@ -60,3 +60,7 @@ enter-news-group-credentials = Εισαγάγετε το όνομα χρήστη
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Πρόβλημα φόρτωσης άρθρου
+# The main heading for the news error page.
+article-not-found-title = Το άρθρο δεν βρέθηκε
