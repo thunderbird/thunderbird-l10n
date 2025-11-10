@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Visualització compacta
     .accesskey = c
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -457,9 +460,60 @@ openpgp-forget = Oblida les frases de contrasenya de l'OpenPGP
 quota-panel-percent-used = { $percent }% ple
     .title = Quota d'IMAP: { $usage } en ús d'un total de { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
+
+## Message list.
+
+message-priority-lowest = Mínima
+message-priority-low = Baixa
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normal
+message-priority-high = Alta
+message-priority-highest = Màxima
+message-flag-replied = Respost
+message-flag-forwarded = Reenviat
+message-flag-redirected = Redirigit
+message-flag-new = Nou
+message-flag-read = Llegit
+message-flag-starred = Destacat
+# Grouped By Date thread pane titles
+message-group-today = Avui
+message-group-yesterday = Ahir
+message-group-last-seven-days = Darrers 7 dies
+message-group-last-fourteen-days = Darrers 14 dies
+message-group-older = Correu antic
+message-group-future-date = Futur
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Missatges no marcats
+message-group-no-status = Sense estatus
+message-group-no-priority = Sense prioritat
+message-group-no-attachments = Sense adjuncions
+message-group-attachments = Adjuncions
+message-group-not-starred = No destacats
+message-group-starred = Destacats
+
+## Prompts
+
+
+## Spam commands
+
