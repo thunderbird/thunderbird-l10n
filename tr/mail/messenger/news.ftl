@@ -33,6 +33,8 @@ no-such-newsgroup = { $newsgroup } haber grubu bu sunucuda mevcut değil.
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = İndir
 
 ## Cancel Message Dialog
 
@@ -45,6 +47,13 @@ auto-subscribe-text = { $newsgroup } haber grubuna abone olmak ister misiniz?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Lütfen { $server } için bir kullanıcı adı ve parola girin:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Lütfen { $server } üzerindeki { $newsgroup } için kullanıcı adı ve parola girin:
 
 ## News Error Page Messages
 
