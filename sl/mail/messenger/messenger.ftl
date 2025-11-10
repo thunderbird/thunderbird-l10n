@@ -499,6 +499,9 @@ openpgp-forget = Pozabi gesla za OpenPGP
 quota-panel-percent-used = { $percent }-% zasedeno
     .title = Kvota IMAP: zasedeno { $usage } od skupno { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 menu-mark-as-spam =
@@ -518,6 +521,12 @@ folder-context-empty-spam =
     .label = Izprazni neželeno pošto
     .accesskey = I
 
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Označi kot prebrano
@@ -525,6 +534,12 @@ delete-action = Izbriši
 mark-as-starred-action = Označi z zvezdico
 mark-as-spam-action = Označi kot neželeno
 archive-action = Arhiviraj
+
+## Message list.
+
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = idr.
 
 ## Prompts
 
