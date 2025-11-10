@@ -33,11 +33,32 @@ no-such-newsgroup = El grupo de noticias { $newsgroup } no está disponible en e
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Descargar encabezados
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Hay { $count } encabezados nuevos de mensajes para descargar en este grupo de noticias.
+download-all-headers =
+    .label = Descargar todos los encabezados
+    .accesskey = D
 download-headers-ok-button =
     .label = Descargar
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Descargar
+    .accesskey = g
+n-headers =
+    .value = encabezados
+    .accesskey = z
+mark-headers-read =
+    .label = Marcar los encabezados restantes como leídos
+    .accesskey = M
 
 ## Cancel Message Dialog
 
+cancel-confirm = ¿Quiere cancelar este mensaje?
 
 ## Auto-Subscribe Dialog
 
@@ -47,6 +68,7 @@ auto-subscribe-text = ¿Quiere suscribirse a { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = El servidor de noticias requiere nombre de usuario y contraseña
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Ingrese nombre de usuario y contraseña para { $server }:
