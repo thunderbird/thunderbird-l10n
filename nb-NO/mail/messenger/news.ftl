@@ -33,6 +33,13 @@ no-such-newsgroup = Temagruppen { $newsgroup } er ikke tilgjengelig på serveren
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Last ned meldingshoder
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Det er { $count } nye meldingshoder å laste ned for denne nyhetsgruppen.
+download-all-headers =
+    .label = Last ned alle meldingshoder
+    .accesskey = L
 download-headers-ok-button =
     .label = Last ned
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -51,6 +58,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Er du sikker på at du vil slette denne meldingen?
 
 ## Auto-Subscribe Dialog
 
@@ -60,6 +68,7 @@ auto-subscribe-text = Vil du melde deg inn i { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Nyhetsgruppebrukernavn og passord må oppgis
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Skriv inn brukernavn og passord for { $server }:
