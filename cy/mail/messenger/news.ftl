@@ -41,6 +41,15 @@ no-such-newsgroup = Nid yw'r grŵp newyddion { $newsgroup } ar gael ar y gweinyd
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Llwytho Penynnau i Lawr
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Mae yna { $count } pennawd neges newydd i'w llwytho i lawr ar gyfer y grŵp newyddion yma.
+download-all-headers =
+    .label = Llwytho pob pennyn i lawr
+    .accesskey = p
+download-headers-ok-button =
+    .label = Llwytho i Lawr
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -57,12 +66,24 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Ydych chi'n siŵr eich bod am ddiddymu'r neges?
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Hoffech chi danysgrifio i { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Mae Angen Enw Defnyddiwr a Chyfrinair Gweinydd Newyddion
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Rhowch enw defnyddiwr a chyfrinair ar gyfer: { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Rhowch enw defnyddiwr a chyfrinair ar gyfer { $newsgroup } ar { $server }:
 
 ## News Error Page Messages
 
