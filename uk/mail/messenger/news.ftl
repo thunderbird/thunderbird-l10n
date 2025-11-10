@@ -34,6 +34,19 @@ no-articles-to-download = Немає статей до завантаження 
 
 download-headers-ok-button =
     .label = Завантажити
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Завантажити
+    .accesskey = З
+n-headers =
+    .value = заголовків
+    .accesskey = г
+mark-headers-read =
+    .label = Позначити решту прочитаними
+    .accesskey = П
 
 ## Cancel Message Dialog
 
