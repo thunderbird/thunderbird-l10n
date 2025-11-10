@@ -33,6 +33,15 @@ no-such-newsgroup = { $newsgroup } жаңалықтар тобы серверд�
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Тақырыптамаларды жүктеп алу
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Бұл жаңалықтар тобы үшін жүктеп алуға { $count } жаңа хабарлама тақырыптамасы бар.
+download-all-headers =
+    .label = Барлық тақырыптамаларды жүктеп алу
+    .accesskey = Б
+download-headers-ok-button =
+    .label = Жүктеп алу
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -49,12 +58,24 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Бұл хабарламадан бас тартуды қалайсыз ба?
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = { $newsgroup } тобына жазылуды қалайсыз ба?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Жаңалықтар серверінің пайдаланушы аты және паролі керек
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = { $server } үшін пайдаланушы атын және парольді енгізіңіз:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = { $newsgroup } үшін { $server } жеріндегі пайдаланушы атын және парольді енгізіңіз:
 
 ## News Error Page Messages
 
