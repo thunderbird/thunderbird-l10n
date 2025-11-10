@@ -33,6 +33,13 @@ no-such-newsgroup = Η ομάδα συζητήσεων «{ $newsgroup }» δεν
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Λήψη κεφαλίδων
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Υπάρχουν { $count } νέες κεφαλίδες μηνυμάτων για λήψη σε αυτήν την ομάδα συζητήσεων.
+download-all-headers =
+    .label = Λήψη όλων των κεφαλίδων
+    .accesskey = Λ
 download-headers-ok-button =
     .label = Λήψη
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -51,12 +58,17 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Είστε βέβαιοι ότι θέλετε να ακυρώσετε αυτό το μήνυμα;
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Θέλετε να εγγραφείτε στο «{ $newsgroup }»;
 
 ## News Server Credentials
 
+enter-news-credentials-title = Απαιτείται όνομα χρήστη και κωδικός πρόσβασης για τον διακομιστή συζητήσεων
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Εισαγάγετε το όνομα χρήστη και τον κωδικό πρόσβασης για το { $server }:
