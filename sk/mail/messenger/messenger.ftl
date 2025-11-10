@@ -560,6 +560,36 @@ menuitem-label-spam-percentage =
     .label = Percento nevyžiadanej pošty
 menuitem-label-spam-status =
     .label = Stav nevyžiadanej pošty
+message-priority-lowest = Najnižšia
+message-priority-low = Nízka
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normálna
+message-priority-high = Vysoká
+message-priority-highest = Najvyššia
+message-flag-replied = Odpovedané
+message-flag-forwarded = Preposlaná
+message-flag-redirected = Presmerované
+message-flag-new = Nová
+message-flag-read = Prečítaná
+message-flag-starred = S hviezdičkou
+# Grouped By Date thread pane titles
+message-group-today = Dnes
+message-group-yesterday = Včera
+message-group-last-seven-days = Posledných 7 dní
+message-group-last-fourteen-days = Posledných 14 dní
+message-group-older = Staršie
+message-group-future-date = V budúcnosti
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Správy bez štítkov
+message-group-no-status = Bez stavu
+message-group-no-priority = Bez priority
+message-group-no-attachments = Bez príloh
+message-group-attachments = Prílohy
+message-group-not-starred = Bez hviezdičky
+message-group-starred = S hviezdičkou
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = a ďalší
 
 ## Prompts
 
