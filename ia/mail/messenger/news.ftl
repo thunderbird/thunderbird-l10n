@@ -33,6 +33,22 @@ no-such-newsgroup = Le gruppos de discussion { $newsgroup } non es disponibile s
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Discargar titulos
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Il ha { $count } nove capites de messages a discargar pro iste gruppo.
+download-all-headers =
+    .label = Discargar tote le testas
+    .accesskey = D
+download-headers-ok-button =
+    .label = Discargar
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Discargar
+    .accesskey = o
 n-headers =
     .value = testas
     .accesskey = t
@@ -42,12 +58,24 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Desira tu vermente cancellar iste message?
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Vole tu abonar te a { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Nomine de usator e contrasigno del servitor de gruppos de discussion obligatori
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Insere un nomine de osator e contrasigno pro { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Insere un nomine de usator e contrasigno pro { $newsgroup } sur { $server }:
 
 ## News Error Page Messages
 
