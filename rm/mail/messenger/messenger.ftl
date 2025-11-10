@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista cumpacta
     .accesskey = c
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -469,6 +472,9 @@ openpgp-forget = Emblidar las frasas-clav OpenPGP
 quota-panel-percent-used = Occupà: { $percent }%
     .title = Quota IMAP: { $usage } occupà da  { $limit } en total
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
@@ -476,7 +482,52 @@ mark-as-junk-key =
 mark-not-junk-key =
     .key = j
 
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Marcar sco legì
 delete-action = Stizzar
+
+## Message list.
+
+message-priority-lowest = Il pli bass
+message-priority-low = Bass
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normal
+message-priority-high = Aut
+message-priority-highest = Il pli aut
+message-flag-replied = Respundì
+message-flag-forwarded = Renvià
+message-flag-redirected = Renvià
+message-flag-new = Nov
+message-flag-read = Legì
+message-flag-starred = Cun staila
+# Grouped By Date thread pane titles
+message-group-today = Oz
+message-group-yesterday = Ier
+message-group-last-seven-days = Ultims 7 dis
+message-group-last-fourteen-days = Ultims 14 dis
+message-group-older = Messadis pli vegls
+message-group-future-date = Futur
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Messadis senza etichetta
+message-group-no-status = Nagin status
+message-group-no-priority = Nagina prioritad
+message-group-no-attachments = Naginas agiuntas
+message-group-attachments = Agiuntas
+message-group-not-starred = Senza staila
+message-group-starred = Cun staila
+
+## Prompts
+
+
+## Spam commands
+
