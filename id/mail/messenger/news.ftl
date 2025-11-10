@@ -66,3 +66,13 @@ enter-news-group-credentials = Masukkan nama pengguna dan sandi untuk { $newsgro
 news-error-title = Masalah Saat Memuat Artikel
 # The main heading for the news error page.
 article-not-found-title = Artikel tidak ditemukan
+# A longer description for the news error page.
+article-not-found-desc = Server newsgroup melaporkan bahwa tidak dapat menemukan artikel.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Server newsgroup merespons:
+# A string explaining that the article may have expired.
+article-may-have-expired = Mungkin artikelnya sudah kedaluwarsa?
+# A string preceding the message's ID.
+try-searching-prefix = Mencoba mencari artikel:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Hapus Semua Artikel Kedaluwarsa
