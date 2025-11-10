@@ -35,6 +35,12 @@ no-such-newsgroup = Grupa za vijesti { $newsgroup } nije dostupna na poslužitel
 
 ## Download Headers Dialog
 
+n-headers =
+    .value = zaglavlja
+    .accesskey = z
+mark-headers-read =
+    .label = Označi preostala zaglavlja kao pročitana
+    .accesskey = O
 
 ## Cancel Message Dialog
 
