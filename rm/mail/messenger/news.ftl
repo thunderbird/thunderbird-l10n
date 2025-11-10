@@ -8,6 +8,13 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Telechargiar ils chaus-pagina per:
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = I dat { $count } chaus-pagina da messadis novs da questa gruppa da discussiun per telechargiar.
+download-all-headers =
+    .label = Telechargiar tut ils chaus-pagina
+    .accesskey = T
 download-headers-ok-button =
     .label = Telechargiar
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -26,6 +33,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Es ti segir che ti vuls stizzar quest messadi?
 
 ## Auto-Subscribe Dialog
 
@@ -35,6 +43,7 @@ auto-subscribe-text = Vuls ti abunar { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Il num d'utilisader ed il pled-clav per il server da gruppas da discussiun vegnan dumandads
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Endatescha per plaschair in num d'utilisader ed in pled-clav per { $server }:
