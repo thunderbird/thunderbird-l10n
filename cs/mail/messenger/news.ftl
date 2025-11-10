@@ -61,3 +61,17 @@ enter-news-group-credentials = Vložte prosím uživatelské jméno a heslo k { 
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Článek se nepodařilo načíst
+# The main heading for the news error page.
+article-not-found-title = Článek nenalezen
+# A longer description for the news error page.
+article-not-found-desc = Diskusní server hlásí, že nemůže najít článek.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Diskusní server odpověděl:
+# A string explaining that the article may have expired.
+article-may-have-expired = Možná, že článek už vypršel?
+# A string preceding the message's ID.
+try-searching-prefix = Zkuste vyhledat článek:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Odebrat všechny články, jejichž platnost vypršela
