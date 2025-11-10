@@ -39,6 +39,19 @@ no-such-newsgroup = Naujienų grupė „{ $newsgroup }“ nepasiekiama serveryje
 
 download-headers-ok-button =
     .label = Atsiųsti
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Atsiųsti
+    .accesskey = s
+n-headers =
+    .value = antraščių
+    .accesskey = n
+mark-headers-read =
+    .label = Likusias antraštes pažymėti kaip skaitytas
+    .accesskey = p
 
 ## Cancel Message Dialog
 
