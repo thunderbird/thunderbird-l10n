@@ -38,3 +38,17 @@ enter-news-group-credentials = Mar plij roit un anv arveriad hag ur ger-tremen e
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Kudenn o kargañ ar pennad
+# The main heading for the news error page.
+article-not-found-title = Pennad nann kavet
+# A longer description for the news error page.
+article-not-found-desc = Danevelliñ a ra n'hall ket kavout ar pennad ar strolladoù-nevez servijerioù.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Dafariad an nevestrollad en deus respontetet:
+# A string explaining that the article may have expired.
+article-may-have-expired = Ar pennad a zo diamzeriet marteze?
+# A string preceding the message's ID.
+try-searching-prefix = Klaskit war-lerc'h ar pennad-mañ:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Dilemel an holl bennadoù diamzeriet
