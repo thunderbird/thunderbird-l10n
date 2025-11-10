@@ -548,6 +548,33 @@ menuitem-label-spam-percentage =
     .label = Levélszemét szátalékosan
 menuitem-label-spam-status =
     .label = Levélszemét állapot
+message-priority-lowest = Nem sürgős
+message-priority-low = Kevéssé sürgős
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normál
+message-priority-high = Sürgős
+message-priority-highest = Rendkívül sürgős
+message-flag-replied = Megválaszolt
+message-flag-forwarded = Továbbított
+message-flag-redirected = Átirányítva
+message-flag-new = Új
+message-flag-read = Olvasott
+message-flag-starred = Csillagozott
+# Grouped By Date thread pane titles
+message-group-today = Mai üzenetek
+message-group-yesterday = Tegnapi üzenetek
+message-group-last-seven-days = Elmúlt 7 nap
+message-group-last-fourteen-days = Elmúlt 14 nap
+message-group-older = Régebbi
+message-group-future-date = A jövőben
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Címkézetlen üzenetek
+message-group-no-status = Állapot nélkül
+message-group-no-priority = Prioritás nélkül
+message-group-no-attachments = Nincs melléklet
+message-group-attachments = Van melléklet
+message-group-not-starred = Nem csillagozott
+message-group-starred = Csillagozott
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = és mások
