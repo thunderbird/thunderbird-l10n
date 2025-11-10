@@ -37,6 +37,12 @@ no-such-newsgroup = Novičarska skupina { $newsgroup } ni na voljo na strežniku
 
 ## Download Headers Dialog
 
+n-headers =
+    .value = glav
+    .accesskey = a
+mark-headers-read =
+    .label = Označi preostale glave kot prebrane
+    .accesskey = O
 
 ## Cancel Message Dialog
 
