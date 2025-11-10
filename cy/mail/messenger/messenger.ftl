@@ -580,6 +580,33 @@ menuitem-label-spam-percentage =
     .label = Canran Sbam
 menuitem-label-spam-status =
     .label = Statws Sbam
+message-priority-lowest = Isaf
+message-priority-low = Isel
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Arferol
+message-priority-high = Uchel
+message-priority-highest = Uchaf
+message-flag-replied = Atebwyd
+message-flag-forwarded = Anfonwyd Ymlaen
+message-flag-redirected = Ailgyfeiriwyd
+message-flag-new = Newydd
+message-flag-read = Darllenwyd
+message-flag-starred = Serennog
+# Grouped By Date thread pane titles
+message-group-today = Heddiw
+message-group-yesterday = Ddoe
+message-group-last-seven-days = 7 Diwrnod Diwethaf
+message-group-last-fourteen-days = 14 Diwrnod Diwethaf
+message-group-older = Hŷn
+message-group-future-date = Y Dyfodol
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Negeseuon heb eu Tagio
+message-group-no-status = Dim Statws
+message-group-no-priority = Dim Blaenoriaeth
+message-group-no-attachments = Dim Atodiad
+message-group-attachments = Atodiadau
+message-group-not-starred = Dim Serenog
+message-group-starred = Serennog
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
