@@ -33,6 +33,15 @@ no-such-newsgroup = A(z) { $newsgroup } hírcsoport nem érhető el a kiszolgál
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Fejlécek letöltése
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = { $count } új, letöltésre váró fejléc van ebben a hírcsoportban.
+download-all-headers =
+    .label = Az összes fejléc letöltése
+    .accesskey = A
+download-headers-ok-button =
+    .label = Letöltés
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -49,6 +58,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Biztos benne, hogy ezt a cikket vissza kívánja vonni?
 
 ## Auto-Subscribe Dialog
 
@@ -58,6 +68,14 @@ auto-subscribe-text = Szeretne feliratkozni erre: { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Hírcsoport-kiszolgáló eléréséhez felhasználónév és jelszó szükséges
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Adja meg a felhasználónevét és jelszavát a következőhöz: { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Adja meg { $newsgroup } felhasználói nevét és jelszavát ezen: { $server }:
 
 ## News Error Page Messages
 
