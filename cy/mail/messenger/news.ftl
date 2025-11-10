@@ -41,6 +41,19 @@ no-such-newsgroup = Nid yw'r grŵp newyddion { $newsgroup } ar gael ar y gweinyd
 
 ## Download Headers Dialog
 
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Llwytho i Lawr
+    .accesskey = L
+n-headers =
+    .value = penynnau
+    .accesskey = p
+mark-headers-read =
+    .label = Marcio gweddill y penynnau fel wedi darllen
+    .accesskey = M
 
 ## Cancel Message Dialog
 
