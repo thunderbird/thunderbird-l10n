@@ -35,6 +35,8 @@ no-such-newsgroup = Grupa za vijesti { $newsgroup } nije dostupna na poslužitel
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Preuzmi
 n-headers =
     .value = zaglavlja
     .accesskey = z
@@ -53,6 +55,13 @@ auto-subscribe-text = Želite li se pretplatiti na { $newsgroup }?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Upišite korisničko ime i lozinku za { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Upišite korisničko ime i lozinku za { $newsgroup } na { $server }:
 
 ## News Error Page Messages
 
