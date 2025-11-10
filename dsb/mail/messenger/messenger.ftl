@@ -564,6 +564,33 @@ menuitem-label-spam-percentage =
     .label = Spamowy późěl
 menuitem-label-spam-status =
     .label = Spamowy status
+message-priority-lowest = Najniša
+message-priority-low = Niska
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normalna
+message-priority-high = Wusoka
+message-priority-highest = Najwuša
+message-flag-replied = Wótegronjony
+message-flag-forwarded = Dalej pósrědnjony
+message-flag-redirected = Dalej pósrědnjony
+message-flag-new = Nowy
+message-flag-read = Pśecytany
+message-flag-starred = Z gwězdkami
+# Grouped By Date thread pane titles
+message-group-today = Źinsa
+message-group-yesterday = Cora
+message-group-last-seven-days = Zachadne 7 dnjow
+message-group-last-fourteen-days = Zachadne 14 dnjow
+message-group-older = Staršy
+message-group-future-date = Pśichod
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Powěsći bźez wobznamjenjow
+message-group-no-status = Žeden status
+message-group-no-priority = Žedna priorita
+message-group-no-attachments = Žedne pśiłožki
+message-group-attachments = Pśiłožki
+message-group-not-starred = Bźez gwězdkow
+message-group-starred = Z gwězdkami
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = a dr.
