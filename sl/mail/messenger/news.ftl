@@ -37,6 +37,13 @@ no-such-newsgroup = Novičarska skupina { $newsgroup } ni na voljo na strežniku
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Prenesi glave
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Za to novičarsko skupino obstaja { $count } novih glav sporočil za prenos.
+download-all-headers =
+    .label = Prenesi vse glave
+    .accesskey = v
 download-headers-ok-button =
     .label = Prenesi
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -55,6 +62,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Ali želite to sporočilo preklicati?
 
 ## Auto-Subscribe Dialog
 
@@ -64,6 +72,7 @@ auto-subscribe-text = Bi se radi naročili na { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Zahtevano je geslo za novičarski strežnik
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Vnesite uporabniško ime in geslo za { $server }:
