@@ -575,6 +575,9 @@ message-group-no-attachments = Geen bijlagen
 message-group-attachments = Bijlagen
 message-group-not-starred = Zonder ster
 message-group-starred = Met ster
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = e.a.
 
 ## Prompts
 
