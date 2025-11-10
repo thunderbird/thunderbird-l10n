@@ -558,6 +558,12 @@ message-priority-low = Basse
 message-priority-normal = Normale
 message-priority-high = Haute
 message-priority-highest = Maximale
+message-flag-replied = Répondu
+message-flag-forwarded = Transféré
+message-flag-redirected = Redirigé
+message-flag-new = Nouveau
+message-flag-read = Lu
+message-flag-starred = Suivi
 # Grouped By Date thread pane titles
 message-group-today = Aujourd’hui
 message-group-yesterday = Hier
