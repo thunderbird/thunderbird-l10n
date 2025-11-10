@@ -8,6 +8,13 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Download Headers
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = There are { $count } new message headers to download for this newsgroup.
+download-all-headers =
+    .label = ਸਭ ਹੈੱਡਰ ਡਾਊਨਲੋਡ ਕਰੋ
+    .accesskey = D
 download-headers-ok-button =
     .label = Download
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -26,6 +33,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Are you sure you want to cancel this message?
 
 ## Auto-Subscribe Dialog
 
@@ -35,6 +43,7 @@ auto-subscribe-text = Would you like to subscribe to { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = News Server Username and Password Required
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Please enter a username and password for { $server }:
