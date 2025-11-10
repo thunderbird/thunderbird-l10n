@@ -548,6 +548,33 @@ menuitem-label-spam-percentage =
     .label = Spam yüzdesi
 menuitem-label-spam-status =
     .label = Spam durumu
+message-priority-lowest = En düşük
+message-priority-low = Düşük
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normal
+message-priority-high = Yüksek
+message-priority-highest = En yüksek
+message-flag-replied = Yanıtlandı
+message-flag-forwarded = İletildi
+message-flag-redirected = Yönlendirildi
+message-flag-new = Yeni
+message-flag-read = Okundu
+message-flag-starred = Yıldızlı
+# Grouped By Date thread pane titles
+message-group-today = Bugün
+message-group-yesterday = Dün
+message-group-last-seven-days = Son 7 gün
+message-group-last-fourteen-days = Son 14 gün
+message-group-older = Eski posta
+message-group-future-date = Gelecek
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Etiketsiz iletiler
+message-group-no-status = Durum yok
+message-group-no-priority = Öncelik yok
+message-group-no-attachments = Ek yok
+message-group-attachments = Ekler
+message-group-not-starred = Yıldızsız
+message-group-starred = Yıldızlı
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = ve diğerleri
