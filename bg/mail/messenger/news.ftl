@@ -33,6 +33,13 @@ no-such-newsgroup = Дискусионната група { $newsgroup } не е
 
 ## Download Headers Dialog
 
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Изтегляне на
+    .accesskey = И
 n-headers =
     .value = заглавки
     .accesskey = з
