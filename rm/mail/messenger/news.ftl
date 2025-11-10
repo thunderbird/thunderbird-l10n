@@ -42,3 +42,13 @@ enter-news-group-credentials = Endatescha per plaschair in num d'utilisader ed i
 news-error-title = Errur cun chargiar l'artitgel
 # The main heading for the news error page.
 article-not-found-title = Impussibel da chattar l'artitgel
+# A longer description for the news error page.
+article-not-found-desc = Il server da gruppas da discussiun annunzia ch'el na chattia betg l'artitgel.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Il server da gruppas da discussiun ha respundì:
+# A string explaining that the article may have expired.
+article-may-have-expired = Forsa è l'artitgel scrudà?
+# A string preceding the message's ID.
+try-searching-prefix = Emprova da tschertgar l'artitgel:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Allontanar tut ils artitgels scrudads
