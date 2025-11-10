@@ -71,3 +71,13 @@ enter-news-group-credentials = Εισαγάγετε το όνομα χρήστη
 news-error-title = Πρόβλημα φόρτωσης άρθρου
 # The main heading for the news error page.
 article-not-found-title = Το άρθρο δεν βρέθηκε
+# A longer description for the news error page.
+article-not-found-desc = Ο διακομιστής της ομάδας συζητήσεων αναφέρει ότι δεν μπορεί να βρει το άρθρο.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Ο διακομιστής της ομάδας συζητήσεων απάντησε:
+# A string explaining that the article may have expired.
+article-may-have-expired = Μήπως έχει λήξει το άρθρο;
+# A string preceding the message's ID.
+try-searching-prefix = Δοκιμάστε να αναζητήσετε το άρθρο:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Αφαίρεση όλων των ληγμένων άρθρων
