@@ -10,6 +10,19 @@
 
 download-headers-ok-button =
     .label = Luchdaich a-nuas
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Luchdaich a-nuas
+    .accesskey = L
+n-headers =
+    .value = bannan-cinn
+    .accesskey = b
+mark-headers-read =
+    .label = Cuir comharra air na bannan-cinn eile gun deach an leughadh
+    .accesskey = m
 
 ## Cancel Message Dialog
 
