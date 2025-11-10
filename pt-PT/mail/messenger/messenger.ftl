@@ -532,6 +532,9 @@ message-group-no-attachments = Sem anexos
 message-group-attachments = Anexos
 message-group-not-starred = Sem estrela
 message-group-starred = Com estrela
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = et al.
 
 ## Prompts
 
