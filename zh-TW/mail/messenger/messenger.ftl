@@ -571,6 +571,9 @@ message-group-no-attachments = 無附件
 message-group-attachments = 附件
 message-group-not-starred = 未加星號
 message-group-starred = 已標星號
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = 等人
 
 ## Prompts
 
