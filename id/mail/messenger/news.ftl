@@ -25,6 +25,13 @@ no-such-newsgroup = Newsgroup { $newsgroup } tidak tersedia di server.
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Unduh Header
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Ada { $count } head pesan baru yang dapat diunduh dari newsgroup ini.
+download-all-headers =
+    .label = Unduh semua header
+    .accesskey = U
 download-headers-ok-button =
     .label = Unduh
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -43,6 +50,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Yakin akan membatalkan pesan ini?
 
 ## Auto-Subscribe Dialog
 
@@ -52,6 +60,7 @@ auto-subscribe-text = Anda ingin berlangganan { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Nama Pengguna Server dan Sandi Dibutuhkan
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Masukkan nama pengguna dan sandi untuk { $server }:
