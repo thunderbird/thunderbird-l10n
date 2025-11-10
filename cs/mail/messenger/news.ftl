@@ -39,6 +39,19 @@ no-such-newsgroup = Diskusní skupina { $newsgroup } není na serveru dostupná.
 
 download-headers-ok-button =
     .label = Stáhnout
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Stáhnout
+    .accesskey = o
+n-headers =
+    .value = záhlaví
+    .accesskey = h
+mark-headers-read =
+    .label = Označit zbylá záhlaví jako přečtená
+    .accesskey = O
 
 ## Cancel Message Dialog
 
