@@ -33,6 +33,19 @@ no-such-newsgroup = このサーバー上のニュースグループ { $newsgrou
 
 ## Download Headers Dialog
 
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = ダウンロード
+    .accesskey = o
+n-headers =
+    .value = ヘッダー
+    .accesskey = h
+mark-headers-read =
+    .label = 残りのヘッダーを既読にする
+    .accesskey = M
 
 ## Cancel Message Dialog
 
