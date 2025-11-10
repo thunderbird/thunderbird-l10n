@@ -35,6 +35,19 @@ no-such-newsgroup = O grupo de notícias { $newsgroup } não está disponível n
 
 download-headers-ok-button =
     .label = OK
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Baixar
+    .accesskey = e
+n-headers =
+    .value = cabeçalhos
+    .accesskey = c
+mark-headers-read =
+    .label = Marcar os cabeçalhos restantes como lidos
+    .accesskey = M
 
 ## Cancel Message Dialog
 
