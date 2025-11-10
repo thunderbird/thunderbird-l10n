@@ -10,6 +10,13 @@
 
 download-headers-ok-button =
     .label = Pellgargañ
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Pellgargañ
+    .accesskey = g
 n-headers =
     .value = talbennoù
     .accesskey = l
