@@ -33,6 +33,13 @@ no-such-newsgroup = { $newsgroup } berri-taldea ez dago zerbitzarian eskuragarri
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Deskargatu goiburuak
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Berri-talde honentzat { $count } goiburu berri daude deskargatzeko.
+download-all-headers =
+    .label = Deskargatu goiburu guztiak
+    .accesskey = D
 download-headers-ok-button =
     .label = Deskargatu
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -51,6 +58,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Ziur zaude mezu hau bertan behera utzi nahi duzula?
 
 ## Auto-Subscribe Dialog
 
@@ -60,6 +68,7 @@ auto-subscribe-text = { $newsgroup } berri-taldera harpidetu nahi duzu?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Berri-zerbitzariaren erabiltzaile-izena eta pasahitza beharrezkoa
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Sartu erabiltzaile-izena eta pasahitza { $server } zerbitzarirako:
