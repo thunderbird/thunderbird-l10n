@@ -575,6 +575,9 @@ message-group-no-attachments = Χωρίς συνημμένα
 message-group-attachments = Συνημμένα
 message-group-not-starred = Χωρίς αστέρι
 message-group-starred = Με αστέρι
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = κ.ά.
 
 ## Prompts
 
