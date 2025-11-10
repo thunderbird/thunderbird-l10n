@@ -57,6 +57,8 @@ enter-news-group-credentials = Por favor introduza o nome de utilizador e a pala
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Problema ao carregar artigo
 # The main heading for the news error page.
 article-not-found-title = Artigo não encontrado
 # A longer description for the news error page.
