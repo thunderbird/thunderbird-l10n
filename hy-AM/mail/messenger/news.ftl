@@ -42,3 +42,13 @@ enter-news-group-credentials = Նշեք օգտվողի անուն և գաղտն�
 news-error-title = Հոդվածը բեռնելու սխալ
 # The main heading for the news error page.
 article-not-found-title = Հոդվածը չի գտնվել
+# A longer description for the news error page.
+article-not-found-desc = newsgroup սպասարկիչը հայտնում է, որ չի կարողանում գտնել հոդվածը:
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Newsgroup -ի սպասարկիչը պատասխանեց.
+# A string explaining that the article may have expired.
+article-may-have-expired = Հավանաբար, հոդվածը լրացե՞լ է:
+# A string preceding the message's ID.
+try-searching-prefix = Փորձել որոնել հոդվածը.
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Հեռացրեք բոլոր ժամկետանց հոդվածները
