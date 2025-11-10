@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Newsgroup Status Messages
+
 # Variables:
 # $count (Number) - Number of headers.
 # $newsgroup (String) - The name of the newsgroup.
@@ -35,3 +38,32 @@ no-articles-to-download = Does dim erthyglau gan { $newsgroup } i'w llwytho i la
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-such-newsgroup = Nid yw'r grŵp newyddion { $newsgroup } ar gael ar y gweinydd.
+
+## Download Headers Dialog
+
+
+## Cancel Message Dialog
+
+
+## Auto-Subscribe Dialog
+
+
+## News Server Credentials
+
+
+## News Error Page Messages
+
+# The title of the news error page. Not generally visible.
+news-error-title = Anhawster Llwytho Erthygl
+# The main heading for the news error page.
+article-not-found-title = Heb ganfod erthygl
+# A longer description for the news error page.
+article-not-found-desc = Mae y grwp gweinydd newyddion yn adrodd nad yw'n gallu canfod yr erthygl.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Ymateb gweinydd y grwp newyddion yw:
+# A string explaining that the article may have expired.
+article-may-have-expired = Efallai fod yr erthygl wedi dod i ben?
+# A string preceding the message's ID.
+try-searching-prefix = Ceisio chwilio am yr erthygl:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Tynnu'r Holl Erthyglau sydd wedi dod i Ben
