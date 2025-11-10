@@ -8,6 +8,12 @@
 
 ## Download Headers Dialog
 
+n-headers =
+    .value = kopskrifte
+    .accesskey = k
+mark-headers-read =
+    .label = Merk oorblywende kopskrifte as gelees
+    .accesskey = M
 
 ## Cancel Message Dialog
 
