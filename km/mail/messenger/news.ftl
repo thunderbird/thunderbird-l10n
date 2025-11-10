@@ -8,6 +8,8 @@
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Download
 
 ## Cancel Message Dialog
 
@@ -20,6 +22,13 @@ auto-subscribe-text = Would you like to subscribe to { $newsgroup }?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = សូម​បញ្ចូល​ឈ្មោះ​អ្នក​ប្រើ និង​ពាក្យ​សម្ងាត់​សម្រាប់ { $server } ៖
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = សូម​បញ្ចូល​ឈ្មោះ​អ្នក​ប្រើ និង​ពាក្យ​សម្ងាត់​សម្រាប់ { $newsgroup } នៅ​លើ { $server } ៖
 
 ## News Error Page Messages
 
