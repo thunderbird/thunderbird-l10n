@@ -33,6 +33,15 @@ no-such-newsgroup = The newsgroup { $newsgroup } is not available on the server.
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Download Headers
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = There are { $count } new message headers to download for this newsgroup.
+download-all-headers =
+    .label = Download all headers
+    .accesskey = D
+download-headers-ok-button =
+    .label = Download
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -49,6 +58,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Are you sure you want to cancel this message?
 
 ## Auto-Subscribe Dialog
 
@@ -58,6 +68,14 @@ auto-subscribe-text = Would you like to subscribe to { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = News Server Username and Password Required
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Please enter a username and password for { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Please enter a username and password for { $newsgroup } on { $server }:
 
 ## News Error Page Messages
 
