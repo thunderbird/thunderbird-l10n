@@ -49,3 +49,17 @@ enter-news-group-credentials = 请输入用于 { $server } 上的 { $newsgroup }
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = 加载文章出错
+# The main heading for the news error page.
+article-not-found-title = 找不到文章
+# A longer description for the news error page.
+article-not-found-desc = 新闻组服务器报告找不到该文章。
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = 新闻组服务器响应：
+# A string explaining that the article may have expired.
+article-may-have-expired = 也许该文章已过期？
+# A string preceding the message's ID.
+try-searching-prefix = 尝试搜索文章：
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = 移除所有已过期文章
