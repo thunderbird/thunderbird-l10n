@@ -57,3 +57,17 @@ enter-news-group-credentials = Kirjoita käyttäjätunnus ja salasana ryhmälle 
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Ongelma artikkelin lataamisessa
+# The main heading for the news error page.
+article-not-found-title = Artikkelia ei löydy
+# A longer description for the news error page.
+article-not-found-desc = Keskusteluryhmäpalvelin ilmoitaa, että se ei löydä artikkelia.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Keskusteluryhmäpalvelin vastasi:
+# A string explaining that the article may have expired.
+article-may-have-expired = Olisiko artikkeli vanhentunut?
+# A string preceding the message's ID.
+try-searching-prefix = Yritä artikkelin etsimistä:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Poista kaikki vanhentuneet artikkelit
