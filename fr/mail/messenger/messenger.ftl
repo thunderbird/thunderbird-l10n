@@ -579,6 +579,9 @@ message-group-no-attachments = Sans pièces jointes
 message-group-attachments = Avec pièces jointes
 message-group-not-starred = Non suivis
 message-group-starred = Suivis
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = et d’autres
 
 ## Prompts
 
