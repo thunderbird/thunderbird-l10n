@@ -37,6 +37,9 @@ auto-subscribe-text = 您想訂閱 { $newsgroup } 嗎？
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = 請輸入 { $server } 伺服器的使用者名稱與密碼:
 
 ## News Error Page Messages
 
