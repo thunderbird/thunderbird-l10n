@@ -702,6 +702,7 @@ security-devices-button =
     .accesskey = k
 email-e2ee-header = E-postkryptering end-to-end
 account-settings = Kontoinställningar
+email-e2ee-enable-accounts-info = Konfigurera e-postkonton och identiteter för End-To-End-kryptering i <a data-l10n-name="account-settings-url">kontoinställningarna</a>.
 email-e2ee-enable-info = Ställ in e-postkonton och identiteter för end-to-end-kryptering i kontoinställningar.
 email-e2ee-automatism = Automatisk användning av kryptering
 email-e2ee-automatism-pre =
@@ -776,6 +777,16 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Anpassad
     .accesskey = A
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP-nyckelservrar
+email-e2ee-key-servers-add = Lägg till…
+email-e2ee-key-servers-reset = Återställ serverlista
+email-e2ee-key-servers-add-title = Lägg till nyckelserver
+email-e2ee-key-servers-add-text = Ange webbadressen till den nyckelserver som du vill lägga till.
+email-e2ee-key-servers-add-failed-title = Det gick inte att lägga till nyckelserver
+email-e2ee-key-servers-add-failed-text = Det gick inte att ansluta till en nyckelserver på den angivna URL:en.
 
 ## Chat Tab
 

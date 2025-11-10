@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Crittografia end-to-end delle email
 account-settings = Impostazioni account
+email-e2ee-enable-accounts-info = Configura account di posta elettronica e identità per la crittografia end-to-end nelle <a data-l10n-name="account-settings-url">Impostazioni account</a>.
 email-e2ee-enable-info = Configura account di posta elettronica e identità per la crittografia end-to-end in Impostazioni account.
 email-e2ee-automatism = Utilizza automaticamente crittografia
 email-e2ee-automatism-pre = { -brand-short-name } può aiutarti attivando o disattivando automaticamente la crittografia durante la composizione di un’email. L’attivazione/disattivazione automatica si basa sulla disponibilità di chiavi o certificati validi e accettati.
@@ -776,6 +777,18 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Personalizzato
     .accesskey = P
+
+## Keyservers
+
+email-e2ee-key-servers-legend = Keyserver OpenPGP
+email-e2ee-key-servers-intro = Un keyserver riceve e poi distribuisce agli utenti le chiavi pubbliche esistenti. Ti consente di pubblicare la tua chiave pubblica e trovare e aggiornare le chiavi di altri utenti.
+email-e2ee-key-servers-use-following = Utilizza i seguenti keyserver:
+email-e2ee-key-servers-add = Aggiungi…
+email-e2ee-key-servers-reset = Reimposta elenco server
+email-e2ee-key-servers-add-title = Aggiungi keyserver
+email-e2ee-key-servers-add-text = Inserire l’URL del keyserver da aggiungere.
+email-e2ee-key-servers-add-failed-title = Aggiunta del keyserver non riuscita
+email-e2ee-key-servers-add-failed-text = Impossibile connettersi a un keyserver all’URL fornito.
 
 ## Chat Tab
 

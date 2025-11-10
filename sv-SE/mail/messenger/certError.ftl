@@ -34,10 +34,20 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Anslutningsfel. Certifikatet för { $hostname } kommer inte från en betrodd källa. Klicka för att öppna serverns säkerhetsinställningar.
+certificate-check-test-button = Testa anslutningen till servern
 certificate-check-fetch-button = Hämta certifikat
 certificate-check-view-button = Visa certifikat
 certificate-check-add-exception-button = Lägg till undantag
 certificate-check-remove-exception-button = Ta bort undantag
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = Testar anslutningen till servern { $hostname }…
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = Har etablerat en säker anslutning till { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-failure = Anslutning till servern { $hostname } misslyckades.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Hämtar certifikatet för { $hostname }.

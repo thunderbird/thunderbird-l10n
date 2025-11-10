@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Amgryptio E-bost Pen-i-Ben
 account-settings = Gosodiadau Cyfrif
+email-e2ee-enable-accounts-info = Gosodwch gyfrifon e-bost a manylion adnabod ar gyfer Amgryptio o'r Dechrau i'r Diwedd yn y <a data-l10n-name="account-settings-url">Gosodiadau Cyfrif</a>.
 email-e2ee-enable-info = Gosodwch gyfrifon e-bost a manylion adnabod Amgryptio o Ben-i-Ben yn Gosodiadau Cyfrif.
 email-e2ee-automatism = Defnydd Awtomatig o Amgryptio
 email-e2ee-automatism-pre = Gall { -brand-short-name } gynorthwyo drwy alluogi neu analluogi amgryptio yn awtomatig wrth ysgrifennu e-byst. Mae awto alluogi/analluogi yn seiliedig ar argaeledd allweddi neu dystysgrifau gohebwyr dilys a derbyniol.
@@ -776,6 +777,18 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Cyfaddas
     .accesskey = C
+
+## Keyservers
+
+email-e2ee-key-servers-legend = Allweddyddion OpenPGP
+email-e2ee-key-servers-intro = Mae gweinydd allweddi yn derbyn ac yna'n gwasanaethu allweddi cyhoeddus presennol i ddefnyddwyr. Mae'n caniatáu ichi gyhoeddi'ch allwedd gyhoeddus a darganfod ac adnewyddu allweddi rhai eraill.
+email-e2ee-key-servers-use-following = Defnyddiwch y gweinyddion bysell canlynol:
+email-e2ee-key-servers-add = Ychwanegu…
+email-e2ee-key-servers-reset = Ailosod Rhestr Gweinydd
+email-e2ee-key-servers-add-title = Ychwanegu Keyserver
+email-e2ee-key-servers-add-text = Rhowch URL y gweinydd allweddi i'w ychwanegu.
+email-e2ee-key-servers-add-failed-title = Methwyd ychwanegu Keyserver
+email-e2ee-key-servers-add-failed-text = Methu cysylltu â gweinydd bysellau yn yr URL a ddarparwyd.
 
 ## Chat Tab
 

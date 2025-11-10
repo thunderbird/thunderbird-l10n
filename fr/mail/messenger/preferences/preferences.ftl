@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = P
 email-e2ee-header = Chiffrement de bout en bout des e-mails
 account-settings = Paramètres du compte
+email-e2ee-enable-accounts-info = Configurez les comptes de messagerie et les identités pour le chiffrement de bout en bout dans les <a data-l10n-name="account-settings-url">paramètres des comptes</a>.
 email-e2ee-enable-info = Configurez les comptes de messagerie et les identités pour le chiffrement de bout en bout dans les paramètres des comptes.
 email-e2ee-automatism = Utilisation automatique du chiffrement
 email-e2ee-automatism-pre = { -brand-short-name } peut vous aider en activant ou désactivant automatiquement le chiffrement lors de la rédaction d’un e-mail. L’activation/la désactivation automatique est effectuée en fonction de la disponibilité de clés ou de certificats valides et acceptés pour les correspondants.
@@ -778,6 +779,18 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Personnalisé
     .accesskey = P
+
+## Keyservers
+
+email-e2ee-key-servers-legend = Serveurs de clés OpenPGP
+email-e2ee-key-servers-intro = Un serveur de clés reçoit puis fournit des clés publiques existantes aux utilisateurs. Il vous permet de publier votre clé publique, ainsi que de trouver et d’actualiser les clés des autres.
+email-e2ee-key-servers-use-following = Utiliser les serveurs de clés suivants :
+email-e2ee-key-servers-add = Ajouter…
+email-e2ee-key-servers-reset = Réinitialiser la liste des serveurs
+email-e2ee-key-servers-add-title = Ajouter un serveur de clés
+email-e2ee-key-servers-add-text = Saisissez l’URL du serveur de clés à ajouter.
+email-e2ee-key-servers-add-failed-title = Échec de l’ajout du serveur de clés
+email-e2ee-key-servers-add-failed-text = Impossible de se connecter à un serveur de clés à l’URL fournie.
 
 ## Chat Tab
 
