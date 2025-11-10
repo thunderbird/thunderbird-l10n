@@ -8,6 +8,8 @@
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Descarcă
 
 ## Cancel Message Dialog
 
@@ -20,6 +22,13 @@ auto-subscribe-text = Vrei să te abonezi la { $newsgroup }?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Te rugăm să introduci un nume de utilizator și o parolă pentru { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Te rugăm să introduci un nume de utilizator și o parolă pentru { $newsgroup } pe { $server }:
 
 ## News Error Page Messages
 
