@@ -544,6 +544,33 @@ menuitem-label-spam-percentage =
     .label = 垃圾信百分比
 menuitem-label-spam-status =
     .label = 垃圾信狀態
+message-priority-lowest = 最低
+message-priority-low = 低
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = 標準
+message-priority-high = 高
+message-priority-highest = 最高
+message-flag-replied = 已回信
+message-flag-forwarded = 已轉寄
+message-flag-redirected = 已重新導向
+message-flag-new = 新增
+message-flag-read = 已讀
+message-flag-starred = 已標星號
+# Grouped By Date thread pane titles
+message-group-today = 今天
+message-group-yesterday = 昨天
+message-group-last-seven-days = 最近 7 天
+message-group-last-fourteen-days = 最近 14 天
+message-group-older = 舊郵件
+message-group-future-date = 未來
+# Different Grouped By Sort thread pane titles
+message-group-untagged = 無標籤郵件
+message-group-no-status = 無狀態
+message-group-no-priority = 無重要性
+message-group-no-attachments = 無附件
+message-group-attachments = 附件
+message-group-not-starred = 未加星號
+message-group-starred = 已標星號
 
 ## Prompts
 
