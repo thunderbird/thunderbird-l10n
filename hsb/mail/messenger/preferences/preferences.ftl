@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = W
 email-e2ee-header = Zaklučowanje wot kónca do kónca za e-mejle
 account-settings = Kontowe nastajenja
+email-e2ee-enable-accounts-info = Konfigurujće e-mejlowe konta a identity za zaklučowanje kónc do kónca w <a data-l10n-name="account-settings-url">kontowych nastajenjach</a>.
 email-e2ee-enable-info = Konfigurujće e-mejlowe konta a identity za zaklučowanje kónc do kónca w kontowych nastajenjach.
 email-e2ee-automatism = Awtomatiske wužiwanje zaklučowanja
 email-e2ee-automatism-pre =
@@ -783,7 +784,15 @@ preferences-doh-url-custom =
 
 ## Keyservers
 
+email-e2ee-key-servers-legend = Klučowe serwery OpenPGP
+email-e2ee-key-servers-intro = Klučowy serwer zjawne kluče dóstawa a staji eksistowace zjawne kluče wužiwarjam k dispoziciji. Zmóžnja wam, waš zjawny kluč wozjewić a kluče druhich namakać a aktualizować.
+email-e2ee-key-servers-use-following = Wužiwajće slědowace klučowe serwery:
 email-e2ee-key-servers-add = Přidać…
+email-e2ee-key-servers-reset = Lisćinu serwerow wróćo stajić
+email-e2ee-key-servers-add-title = Klučowy serwer přidać
+email-e2ee-key-servers-add-text = Zapodajće URL klučoweho serwera, kotryž so ma přidać.
+email-e2ee-key-servers-add-failed-title = Přidawanje klučoweho serwera njeje so poradźiło
+email-e2ee-key-servers-add-failed-text = Njeje móžno, přez podaty URL z klučowym serwerom zwjazać.
 
 ## Chat Tab
 
