@@ -33,6 +33,13 @@ no-such-newsgroup = Diskussionsgruppen { $newsgroup } är inte tillgänglig på 
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Hämta rubriker
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Det finns { $count } nya meddelanden att hämta i den här diskussionsgruppen.
+download-all-headers =
+    .label = Hämta alla rubriker
+    .accesskey = H
 download-headers-ok-button =
     .label = Ladda ner
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -51,6 +58,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Är du säker på att du vill ta tillbaka meddelandet?
 
 ## Auto-Subscribe Dialog
 
@@ -60,6 +68,7 @@ auto-subscribe-text = Vill du prenumerera på { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Servern för diskussionsgrupper kräver användarnamn och lösenord
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Ange ett användarnamn och lösenord för { $server }:
