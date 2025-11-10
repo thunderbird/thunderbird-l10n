@@ -8,6 +8,15 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Muat turun Pengepala
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Ada { $count } pengepala mesej baru untuk dimuat turun bagi kumpulan berita ini.
+download-all-headers =
+    .label = Muat turun semua pengepala
+    .accesskey = M
+download-headers-ok-button =
+    .label = Muat turun
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -24,12 +33,24 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Adakah anda pasti mahu membatalkan mesej ini?
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Adakah anda mahu melanggan { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Nama Pengguna Pelayan Berita dan Kata laluan Diperlukan
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Sila masukkan nama pengguna dan kata laluan untuk { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Sila masukkan nama pengguna dan kata laluan untuk { $newsgroup } dalam { $server }:
 
 ## News Error Page Messages
 
