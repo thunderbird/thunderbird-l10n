@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Tiivis näkymä
     .accesskey = T
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -442,6 +445,9 @@ openpgp-forget = Unohda OpenPGP-salalauseet
 quota-panel-percent-used = { $percent } % täynnä
     .title = IMAP-kiintiö: Käytetty { $usage }/{ $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
@@ -449,7 +455,52 @@ mark-as-junk-key =
 mark-not-junk-key =
     .key = j
 
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Merkitse luetuksi
 delete-action = Poista
+
+## Message list.
+
+message-priority-lowest = Matalin
+message-priority-low = Matala
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normaali
+message-priority-high = Korkea
+message-priority-highest = Korkein
+message-flag-replied = Vastattu
+message-flag-forwarded = Välitetty
+message-flag-redirected = Uudelleenohjattu
+message-flag-new = Uusi
+message-flag-read = Luettu
+message-flag-starred = Merkitty tähdellä
+# Grouped By Date thread pane titles
+message-group-today = Tänään saapuneet
+message-group-yesterday = Eilen saapuneet
+message-group-last-seven-days = Viimeiset 7 päivää
+message-group-last-fourteen-days = Viimeiset 14 päivää
+message-group-older = Vanhemmat
+message-group-future-date = Tulevat
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Viestit, joihin ei liity tunnusta
+message-group-no-status = Viestit, joilla ei ole tilaa
+message-group-no-priority = Ei tärkeysastetta
+message-group-no-attachments = Ei liitteitä
+message-group-attachments = On liitteitä
+message-group-not-starred = Ei tähteä
+message-group-starred = Tähti
+
+## Prompts
+
+
+## Spam commands
+
