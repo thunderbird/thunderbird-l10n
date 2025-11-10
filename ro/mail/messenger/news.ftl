@@ -36,3 +36,13 @@ enter-news-group-credentials = Te rugăm să introduci un nume de utilizator și
 news-error-title = A apărut o problemă la încărcarea articolului
 # The main heading for the news error page.
 article-not-found-title = Articolul nu a fost găsit
+# A longer description for the news error page.
+article-not-found-desc = Serverul de grupuri de discuții raportează că nu poate găsi articolul.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Serverul de grupuri de discuții a răspuns:
+# A string explaining that the article may have expired.
+article-may-have-expired = Poate a expirat articolul?
+# A string preceding the message's ID.
+try-searching-prefix = Încearcă să cauți articolul:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Elimină toate articolele expirate
