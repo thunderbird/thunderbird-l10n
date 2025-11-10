@@ -575,6 +575,9 @@ message-group-no-attachments = Sin adjuntos
 message-group-attachments = Adjuntos
 message-group-not-starred = No destacado
 message-group-starred = Destacado
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = et al.
 
 ## Prompts
 
