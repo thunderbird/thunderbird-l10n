@@ -33,6 +33,8 @@ no-such-newsgroup = სასაუბრო { $newsgroup } მიუწვდ�
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = ჩამოტვირთვა
 
 ## Cancel Message Dialog
 
@@ -45,6 +47,13 @@ auto-subscribe-text = გსურთ, გამოიწეროთ { $newsgro
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = გთხოვთ მიუთითოთ სახელი და პაროლი სერვერისთვის { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = გთხოვთ მიუთითოთ სახელი და პაროლი სიახლეთა ჯგუფისთვის { $newsgroup } სერვერზე { $server }:
 
 ## News Error Page Messages
 
