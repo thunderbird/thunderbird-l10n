@@ -35,6 +35,13 @@ no-such-newsgroup = Grupa dyskusyjna { $newsgroup } nie jest dostępna na serwer
 
 ## Download Headers Dialog
 
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Pobierz nagłówki
+    .accesskey = o
 n-headers =
     .value = wiadomości
     .accesskey = w
