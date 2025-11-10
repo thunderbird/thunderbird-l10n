@@ -8,6 +8,13 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Íoslódáil Ceanntásca
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Tá { $count } ceanntásc nua le híoslódáil don ghrúpa nuachta seo.
+download-all-headers =
+    .label = Íoslódáil gach ceanntásc
+    .accesskey = l
 download-headers-ok-button =
     .label = Íoslódáil
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -26,6 +33,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = An bhfuil tú cinnte gur mian leat an teachtaireacht seo a chealú?
 
 ## Auto-Subscribe Dialog
 
@@ -35,6 +43,7 @@ auto-subscribe-text = An bhfuil tú ag iarraidh liostáil le { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Ainm Úsáideora agus Focal Faire de dhíth don bhfreastalaí nuachta
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Cuir ainm úsáideora agus focal faire isteach le haghaidh { $server }:
