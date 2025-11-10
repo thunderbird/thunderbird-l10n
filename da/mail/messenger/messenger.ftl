@@ -548,6 +548,33 @@ menuitem-label-spam-percentage =
     .label = Spam-procent
 menuitem-label-spam-status =
     .label = Spam-status
+message-priority-lowest = Laveste
+message-priority-low = Lav
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normal
+message-priority-high = Høj
+message-priority-highest = Højeste
+message-flag-replied = Besvaret
+message-flag-forwarded = Videresendt
+message-flag-redirected = Omdirigeret
+message-flag-new = Ny
+message-flag-read = Læst
+message-flag-starred = Stjernemarkeret
+# Grouped By Date thread pane titles
+message-group-today = I dag
+message-group-yesterday = I går
+message-group-last-seven-days = Seneste 7 dage
+message-group-last-fourteen-days = Seneste 14 dage
+message-group-older = Ældre meddelelser
+message-group-future-date = Fremtidige meddelelser
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Meddelelser uden mærkat
+message-group-no-status = Ingen status
+message-group-no-priority = Ingen prioritet
+message-group-no-attachments = Ingen vedhæftede filer
+message-group-attachments = Vedhæftede filer
+message-group-not-starred = Ikke-stjernemarkerede meddelelser
+message-group-starred = Stjernemarkerede
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = m.fl.
