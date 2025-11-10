@@ -33,6 +33,15 @@ no-such-newsgroup = Nyhedsgruppen { $newsgroup } er ikke tilgængelig på server
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Hent meddelelseshoveder
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Der er { $count } nye meddelelser, som kan hentes, i denne nyhedsgruppe.
+download-all-headers =
+    .label = Hent alle meddelelseshoveder
+    .accesskey = A
+download-headers-ok-button =
+    .label = Hent
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -49,12 +58,24 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Er du sikker på, at du vil annullere denne meddelelse?
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Ønsker du at abonnere på { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Nyhedsserveren kræver brugernavn og adgangskode
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Indtast brugernavn og adgangskode til { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Indtast et brugernavn og en adgangskode til { $newsgroup } på { $server }:
 
 ## News Error Page Messages
 
