@@ -8,6 +8,13 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = הורד כותרות
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = ישנם { $count } כותרות הודעות חדשות להורדה לקבוצת דיון זו.
+download-all-headers =
+    .label = הורד את כל הכותרות
+    .accesskey = D
 download-headers-ok-button =
     .label = הורדה
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -26,6 +33,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = האם אתה בטוח שברצונך לבטל הודעה זו?
 
 ## Auto-Subscribe Dialog
 
@@ -35,6 +43,7 @@ auto-subscribe-text = האם ברצונך להירשם כמנוי על { $newsgr
 
 ## News Server Credentials
 
+enter-news-credentials-title = נדרש שם משתמש וססמה לשרת החדשות
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = נא להקליד שם משתמש וססמה עבור { $server }:
