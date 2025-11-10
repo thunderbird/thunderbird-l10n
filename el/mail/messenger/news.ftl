@@ -35,6 +35,13 @@ no-such-newsgroup = Η ομάδα συζητήσεων «{ $newsgroup }» δεν
 
 download-headers-ok-button =
     .label = Λήψη
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Λήψη
+    .accesskey = ψ
 n-headers =
     .value = κεφαλίδων
     .accesskey = φ
