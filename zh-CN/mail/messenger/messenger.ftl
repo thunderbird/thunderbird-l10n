@@ -530,6 +530,33 @@ menuitem-label-spam-percentage =
     .label = 垃圾邮件百分比
 menuitem-label-spam-status =
     .label = 垃圾邮件状态
+message-priority-lowest = 最低
+message-priority-low = 低
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = 正常
+message-priority-high = 高
+message-priority-highest = 最高
+message-flag-replied = 已回复
+message-flag-forwarded = 已转发
+message-flag-redirected = 已重定向
+message-flag-new = 新
+message-flag-read = 已读
+message-flag-starred = 已加星标
+# Grouped By Date thread pane titles
+message-group-today = 今天
+message-group-yesterday = 昨天
+message-group-last-seven-days = 过去一周
+message-group-last-fourteen-days = 过去两周
+message-group-older = 旧邮件。
+message-group-future-date = 未来
+# Different Grouped By Sort thread pane titles
+message-group-untagged = 未添加标签的消息
+message-group-no-status = 无状态
+message-group-no-priority = 无优先级
+message-group-no-attachments = 无附件
+message-group-attachments = 附件
+message-group-not-starred = 未加星标
+message-group-starred = 已加星标
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = 等人
