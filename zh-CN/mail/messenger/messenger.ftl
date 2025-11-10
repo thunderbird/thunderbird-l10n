@@ -530,6 +530,9 @@ menuitem-label-spam-percentage =
     .label = 垃圾邮件百分比
 menuitem-label-spam-status =
     .label = 垃圾邮件状态
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = 等人
 
 ## Prompts
 
