@@ -509,6 +509,33 @@ mark-as-starred-action = Позначити зірочкою
 
 ## Message list.
 
+message-priority-lowest = Найнижча
+message-priority-low = Низька
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Звичайна
+message-priority-high = Висока
+message-priority-highest = Найвища
+message-flag-replied = Відповідь написана
+message-flag-forwarded = Переслане
+message-flag-redirected = Переслане
+message-flag-new = Нове
+message-flag-read = Прочитано
+message-flag-starred = Відмічено
+# Grouped By Date thread pane titles
+message-group-today = Сьогодні
+message-group-yesterday = Вчора
+message-group-last-seven-days = Останні 7 днів
+message-group-last-fourteen-days = Останні 14 днів
+message-group-older = Старіші
+message-group-future-date = Майбутні
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Невідмічені повідомлення
+message-group-no-status = Без стану
+message-group-no-priority = Без позначки важливості
+message-group-no-attachments = Без вкладень
+message-group-attachments = Із вкладеннями
+message-group-not-starred = Без зірки
+message-group-starred = З зіркою
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = та ін.
