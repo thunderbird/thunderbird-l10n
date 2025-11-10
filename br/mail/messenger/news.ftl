@@ -8,6 +8,13 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Pellgargañ an talbennoù
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = { $count } a dalbennoù kemennadennoù nevez da bellgargañ evit ar strollad-keleier-mañ.
+download-all-headers =
+    .label = Pellgargañ pep talbenn
+    .accesskey = P
 download-headers-ok-button =
     .label = Pellgargañ
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -26,6 +33,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Ha fellout a ra deoc'h nullañ ar gemennadenn-se ?
 
 ## Auto-Subscribe Dialog
 
@@ -35,6 +43,7 @@ auto-subscribe-text = Ha daoust e fell deoc'h koumanantiñ da { $newsgroup } ?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Un anv arveriad hag ur ger-tremen zo azgoulennet evit an dafariad keleier
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Mar plij roit un anv arveriad hag ur ger-tremen evit { $server } :
