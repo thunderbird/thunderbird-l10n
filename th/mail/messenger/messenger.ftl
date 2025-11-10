@@ -485,6 +485,33 @@ archive-action = เก็บถาวร
 
 ## Message list.
 
+message-priority-lowest = ต่ำสุด
+message-priority-low = ต่ำ
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = ปกติ
+message-priority-high = สูง
+message-priority-highest = สูงสุด
+message-flag-replied = ตอบกลับแล้ว
+message-flag-forwarded = ส่งต่อแล้ว
+message-flag-redirected = ถูกเปลี่ยนเส้นทาง
+message-flag-new = ใหม่
+message-flag-read = อ่านแล้ว
+message-flag-starred = ติดดาวแล้ว
+# Grouped By Date thread pane titles
+message-group-today = วันนี้
+message-group-yesterday = เมื่อวานนี้
+message-group-last-seven-days = 7 วันที่แล้ว
+message-group-last-fourteen-days = 14 วันที่แล้ว
+message-group-older = เก่ากว่า
+message-group-future-date = อนาคต
+# Different Grouped By Sort thread pane titles
+message-group-untagged = ข้อความที่ยังไม่ได้ติดป้ายกำกับ
+message-group-no-status = ไม่มีสถานะ
+message-group-no-priority = ไม่มีความสำคัญ
+message-group-no-attachments = ไม่มีไฟล์แนบ
+message-group-attachments = ไฟล์แนบ
+message-group-not-starred = ยังไม่ได้ติดดาว
+message-group-starred = ติดดาวแล้ว
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = ฯลฯ
