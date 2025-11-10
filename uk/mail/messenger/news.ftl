@@ -56,3 +56,9 @@ enter-news-group-credentials = Введіть ім'я користувача й 
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Проблема завантаження статті
+# The main heading for the news error page.
+article-not-found-title = Статтю не знайдено
+# A longer description for the news error page.
+article-not-found-desc = Сервер груп новин повідомляє, що не може знайти статтю.
