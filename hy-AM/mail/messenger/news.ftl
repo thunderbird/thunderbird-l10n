@@ -10,6 +10,12 @@
 
 download-headers-ok-button =
     .label = Ներբեռնել
+n-headers =
+    .value = գլխագրերը
+    .accesskey = h
+mark-headers-read =
+    .label = Նշել գլխագրերը որպես ընթերցած
+    .accesskey = M
 
 ## Cancel Message Dialog
 
