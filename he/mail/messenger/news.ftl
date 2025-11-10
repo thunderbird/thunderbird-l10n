@@ -20,6 +20,9 @@ mark-headers-read =
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = האם ברצונך להירשם כמנוי על { $newsgroup }?
 
 ## News Server Credentials
 
