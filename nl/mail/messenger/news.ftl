@@ -33,6 +33,14 @@ no-such-newsgroup = De nieuwsgroep { $newsgroup } is niet beschikbaar op de serv
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Downloaden
+n-headers =
+    .value = berichtkoppen
+    .accesskey = k
+mark-headers-read =
+    .label = Overige berichtkoppen markeren als gelezen
+    .accesskey = m
 
 ## Cancel Message Dialog
 
@@ -45,6 +53,13 @@ auto-subscribe-text = Wilt u zich abonneren op { $newsgroup }?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Voer een gebruikersnaam en wachtwoord in voor { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Voer een gebruikersnaam en wachtwoord in voor { $newsgroup } op { $server }:
 
 ## News Error Page Messages
 
