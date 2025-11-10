@@ -12,9 +12,3 @@ looking-for-messages-account = { $accountName }의 새 메시지 찾는 중…
 # Variables:
 # $folderName (String) - The folder's name.
 looking-for-messages-folder = { $folderName }에서 새 메시지 찾는 중…
-# Feedback message shown in the status bar while we're deleting messages in a
-# specific folder (and waiting for the remote operation to complete).
-# Variables:
-# $number (Number) - Number of messages being deleted.
-# $folderName (String) - The folder's name.
-deleting-messages = { $folderName }에서 메시지 { $number }개 삭제중…

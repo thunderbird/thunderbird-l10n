@@ -22,13 +22,3 @@ deleting-message =
         [one] Eliminazione di un messaggio da { $folderName }…
        *[other] Eliminazione di { $number } messaggi da { $folderName }…
     }
-# Feedback message shown in the status bar while we're deleting messages in a
-# specific folder (and waiting for the remote operation to complete).
-# Variables:
-# $number (Number) - Number of messages being deleted.
-# $folderName (String) - The folder's name.
-deleting-messages =
-    { $number ->
-        [one] Eliminazione di 1 messaggio da { $folderName }…
-       *[other] Eliminazione di { $number } messaggi da { $folderName }…
-    }

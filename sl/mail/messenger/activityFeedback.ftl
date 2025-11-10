@@ -24,9 +24,3 @@ deleting-message =
         [few] Brisanje { $number } sporočil iz mape { $folderName } …
        *[other] Brisanje { $number } sporočil iz mape { $folderName } …
     }
-# Feedback message shown in the status bar while we're deleting messages in a
-# specific folder (and waiting for the remote operation to complete).
-# Variables:
-# $number (Number) - Number of messages being deleted.
-# $folderName (String) - The folder's name.
-deleting-messages = Brisanje { $number } sporočil(a) iz mape { $folderName } …

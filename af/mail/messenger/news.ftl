@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Newsgroup Status Messages
-
-
 ## Download Headers Dialog
 
 download-headers-dialog-title = Laai kopstukke af
@@ -40,9 +37,3 @@ cancel-confirm = Is u seker u wil hierdie boodskap kanselleer?
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Wil u op { $newsgroup } inteken?
-
-## News Server Credentials
-
-
-## News Error Page Messages
-

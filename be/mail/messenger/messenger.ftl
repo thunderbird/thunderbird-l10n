@@ -128,9 +128,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Кампактны выгляд
     .accesskey = К
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -349,9 +346,6 @@ repair-text-encoding-button =
 no-reply-title = Адказ не падтрымліваецца
 no-reply-reply-anyway-button = Усё роўна адказаць
 
-## error messages
-
-
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -447,33 +441,12 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
-## Actions for the New Mail Notification
-
 
 ## Message list.
 
@@ -503,9 +476,3 @@ message-group-no-attachments = Няма далучэнняў
 message-group-attachments = Далучэнні
 message-group-not-starred = Без зорак
 message-group-starred = З зоркамі
-
-## Prompts
-
-
-## Spam commands
-

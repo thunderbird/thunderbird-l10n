@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Newsgroup Status Messages
-
-
 ## Download Headers Dialog
 
 download-headers-dialog-title = Bosh sahifalarni yuklab olish
@@ -51,6 +48,3 @@ enter-news-server-credentials = { $server } uchun foydalanuvchi nomi va parolni 
 # $newsgroup (String) - A specific newsgroup to set the password for.
 # $server (String) - The server from which the newsgroup is accessed.
 enter-news-group-credentials = { $server } serveridagi { $newsgroup } uchun foydalanuvchi nomi va parolni kiriting:
-
-## News Error Page Messages
-

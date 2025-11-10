@@ -499,9 +499,6 @@ openpgp-forget = Pozabi gesla za OpenPGP
 quota-panel-percent-used = { $percent }-% zasedeno
     .title = Kvota IMAP: zasedeno { $usage } od skupno { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 menu-mark-as-spam =
@@ -520,12 +517,6 @@ mark-not-junk-key =
 folder-context-empty-spam =
     .label = Izprazni neželeno pošto
     .accesskey = I
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 

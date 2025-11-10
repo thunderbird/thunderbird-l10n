@@ -12,21 +12,6 @@ messenger-window-maximize-button =
 messenger-window-close-button =
     .tooltiptext = Dún
 
-## Content tabs
-
-
-# Back
-
-
-# Forward
-
-
-# Reload
-
-
-# Stop
-
-
 ## Toolbar
 
 quick-filter-toolbarbutton =
@@ -63,9 +48,6 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Dlúthamharc
     .accesskey = c
-
-## Folder names
-
 
 ## File Menu
 
@@ -106,9 +88,6 @@ menu-edit-newsgroup-properties =
     .label = Airíonna an Ghrúpa Nuachta
     .accesskey = o
 
-## Message Menu
-
-
 ## AppMenu
 
 appmenu-save-as-file =
@@ -122,25 +101,10 @@ mail-context-menu-forward-forward =
     .label = Cuir Ar Aghaidh
     .accesskey = C
 
-## Message header pane
-
-
 ## Message header customize panel
 
 message-header-button-style-text =
     .label = Téacs
-
-## Action Button Context Menu
-
-
-## Add-on removal warning
-
-
-## no-reply handling
-
-
-## error messages
-
 
 ## Spaces toolbar
 
@@ -165,9 +129,6 @@ settings-context-open-settings-item2 =
 settings-context-open-account-settings-item2 =
     .label = Socruithe Cuntais
 
-## Spaces toolbar pinned tab menupopup
-
-
 ## Spaces toolbar customize panel
 
 menuitem-customize-label =
@@ -185,33 +146,12 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
-## Actions for the New Mail Notification
-
 
 ## Message list.
 
@@ -241,9 +181,3 @@ message-group-no-attachments = Gan Iatán
 message-group-attachments = Iatáin
 message-group-not-starred = Gan Réiltín
 message-group-starred = Marcáilte
-
-## Prompts
-
-
-## Spam commands
-

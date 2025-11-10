@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Newsgroup Status Messages
-
-
 ## Download Headers Dialog
 
 download-headers-dialog-title = Descarcă anteturile

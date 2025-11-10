@@ -18,9 +18,3 @@ looking-for-messages-folder = 正在 { $folderName } 中查找新邮件…
 # $number (Number) - Number of messages being deleted.
 # $folderName (String) - The folder's name.
 deleting-message = 正在从“{ $folderName }”删除 { $number } 封邮件…
-# Feedback message shown in the status bar while we're deleting messages in a
-# specific folder (and waiting for the remote operation to complete).
-# Variables:
-# $number (Number) - Number of messages being deleted.
-# $folderName (String) - The folder's name.
-deleting-messages = 正在从 { $folderName } 删除 { $number } 封邮件…

@@ -501,12 +501,6 @@ menu-mark-not-spam =
 mark-not-junk-key =
     .key = j
 
-## Folder pane context.
-
-
-## Thread pane.
-
-
 ## Message header.
 
 header-spam-button =

@@ -22,9 +22,3 @@ deleting-message =
         [one] Deleting one message from { $folderName }…
        *[other] Deleting { $number } messages from { $folderName }…
     }
-# Feedback message shown in the status bar while we're deleting messages in a
-# specific folder (and waiting for the remote operation to complete).
-# Variables:
-# $number (Number) - Number of messages being deleted.
-# $folderName (String) - The folder's name.
-deleting-messages = Deleting { $number } message(s) from { $folderName }…

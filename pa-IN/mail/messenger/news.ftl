@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Newsgroup Status Messages
-
-
 ## Download Headers Dialog
 
 download-headers-dialog-title = Download Headers
@@ -51,6 +48,3 @@ enter-news-server-credentials = Please enter a username and password for { $serv
 # $newsgroup (String) - A specific newsgroup to set the password for.
 # $server (String) - The server from which the newsgroup is accessed.
 enter-news-group-credentials = Please enter a username and password for { $newsgroup } on { $server }:
-
-## News Error Page Messages
-

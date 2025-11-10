@@ -130,9 +130,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Zbijeni prikaz
     .accesskey = Z
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -484,24 +481,12 @@ openpgp-forget = Zaboravi OpenPGP šifre
 quota-panel-percent-used = { $percent }% popunjeno
     .title = IMAP kvota: { $usage } iskorišteno od ukupno { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -543,9 +528,3 @@ message-group-starred = Zvjezdica
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = i dr.
-
-## Prompts
-
-
-## Spam commands
-

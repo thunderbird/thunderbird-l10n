@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Newsgroup Status Messages
-
-
 ## Download Headers Dialog
 
 download-headers-dialog-title = Преземање на заглавја
@@ -40,9 +37,3 @@ cancel-confirm = Сигурно сакате да ја откажете пора
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Дали сакате да се претплатите на { $newsgroup }?
-
-## News Server Credentials
-
-
-## News Error Page Messages
-

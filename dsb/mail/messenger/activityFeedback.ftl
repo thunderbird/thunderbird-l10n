@@ -24,9 +24,3 @@ deleting-message =
         [few] { $number } powěsći z { $folderName } se lašuju …
        *[other] { $number } powěsćow z { $folderName } se lašujo …
     }
-# Feedback message shown in the status bar while we're deleting messages in a
-# specific folder (and waiting for the remote operation to complete).
-# Variables:
-# $number (Number) - Number of messages being deleted.
-# $folderName (String) - The folder's name.
-deleting-messages = Powěsći, kótarež se z { $folderName } lašuju: { $number }…

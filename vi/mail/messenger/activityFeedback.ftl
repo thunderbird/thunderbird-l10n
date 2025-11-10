@@ -18,9 +18,3 @@ looking-for-messages-folder = Đang tìm kiếm thư mới trong { $accountName 
 # $number (Number) - Number of messages being deleted.
 # $folderName (String) - The folder's name.
 deleting-message = Đang xoá { $number } thư từ { $folderName }…
-# Feedback message shown in the status bar while we're deleting messages in a
-# specific folder (and waiting for the remote operation to complete).
-# Variables:
-# $number (Number) - Number of messages being deleted.
-# $folderName (String) - The folder's name.
-deleting-messages = Đang xoá { $number } thư từ { $folderName }…
