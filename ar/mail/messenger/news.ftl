@@ -8,6 +8,15 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = نزل الترويسات
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = يوجد { $count } ترويسات رسائل جديدة لتنزيلها لمجموعة الأخبار هذه.
+download-all-headers =
+    .label = نزّل كل الترويسات
+    .accesskey = ك
+download-headers-ok-button =
+    .label = نزّل
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -24,6 +33,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = أمتأكد أنك ترغب في إلغاء هذه الرسالة؟
 
 ## Auto-Subscribe Dialog
 
@@ -33,6 +43,14 @@ auto-subscribe-text = أتريد الاشتراك في { $newsgroup }؟
 
 ## News Server Credentials
 
+enter-news-credentials-title = اسم مستخدم وكلمة سر خادوم الأخبار مطلوبيْن
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = من فضلك أدخِل اسم مستخدم وكلمة سر { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = من فضلك أدخِل اسم مستخدم وكلمة سر { $newsgroup } على { $server }:
 
 ## News Error Page Messages
 
