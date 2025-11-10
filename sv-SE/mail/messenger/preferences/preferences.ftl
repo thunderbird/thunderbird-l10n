@@ -781,10 +781,14 @@ preferences-doh-url-custom =
 ## Keyservers
 
 email-e2ee-key-servers-legend = OpenPGP-nyckelservrar
+email-e2ee-key-servers-intro =
+    En nyckelserver tar emot och skickar sedan befintliga publika nycklar till användare.
+    Den låter dig publicera din publika nyckel och hitta och uppdatera andras nycklar.
+email-e2ee-key-servers-use-following = Använd följande nyckelservrar:
 email-e2ee-key-servers-add = Lägg till…
 email-e2ee-key-servers-reset = Återställ serverlista
 email-e2ee-key-servers-add-title = Lägg till nyckelserver
-email-e2ee-key-servers-add-text = Ange webbadressen till den nyckelserver som du vill lägga till.
+email-e2ee-key-servers-add-text = Ange URL:en till den nyckelserver som du vill lägga till.
 email-e2ee-key-servers-add-failed-title = Det gick inte att lägga till nyckelserver
 email-e2ee-key-servers-add-failed-text = Det gick inte att ansluta till en nyckelserver på den angivna URL:en.
 

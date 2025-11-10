@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = U
 email-e2ee-header = Szyfrowanie „end-to-end” wiadomości
 account-settings = Ustawienia konta
+email-e2ee-enable-accounts-info = Skonfiguruj konta e-mail i tożsamości do szyfrowania „end-to-end” w <a data-l10n-name="account-settings-url">ustawieniach konta</a>.
 email-e2ee-enable-info = Skonfiguruj konta e-mail i tożsamości do szyfrowania „end-to-end” w ustawieniach konta.
 email-e2ee-automatism = Automatyczne używanie szyfrowania
 email-e2ee-automatism-pre =
@@ -783,7 +784,17 @@ preferences-doh-url-custom =
 
 ## Keyservers
 
+email-e2ee-key-servers-legend = Serwery kluczy OpenPGP
+email-e2ee-key-servers-intro =
+    Serwer kluczy odbiera i udostępnia użytkownikom istniejące klucze publiczne.
+    Umożliwia publikowanie klucza publicznego oraz wyszukiwanie i odświeżanie kluczy innych użytkowników.
+email-e2ee-key-servers-use-following = Użyj następujących serwerów kluczy:
 email-e2ee-key-servers-add = Dodaj…
+email-e2ee-key-servers-reset = Przywróć listę serwerów
+email-e2ee-key-servers-add-title = Dodaj serwer kluczy
+email-e2ee-key-servers-add-text = Wprowadź adres URL serwera kluczy, który chcesz dodać.
+email-e2ee-key-servers-add-failed-title = Dodawanie serwera kluczy się nie powiodło
+email-e2ee-key-servers-add-failed-text = Nie można połączyć się z serwerem kluczy pod podanym adresem URL.
 
 ## Chat Tab
 
