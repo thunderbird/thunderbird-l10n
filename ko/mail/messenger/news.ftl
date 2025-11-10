@@ -44,6 +44,9 @@ mark-headers-read =
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = { $newsgroup }에 구독하시겠습니까?
 
 ## News Server Credentials
 
