@@ -38,3 +38,15 @@ enter-news-group-credentials = נא להקליד שם משתמש וססמה עב
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = בעיה בטעינת המאמר
+# The main heading for the news error page.
+article-not-found-title = המאמר לא נמצא
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = שרת קבוצות החדשות הגיב:
+# A string explaining that the article may have expired.
+article-may-have-expired = אולי פג תוקפו של המאמר?
+# A string preceding the message's ID.
+try-searching-prefix = כדאי לנסות לחפש אחר מאמר:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = הסרת כל המאמרים שתוקפם פג
