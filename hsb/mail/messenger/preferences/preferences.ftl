@@ -781,6 +781,10 @@ preferences-doh-url-custom =
     .label = Swójski
     .accesskey = S
 
+## Keyservers
+
+email-e2ee-key-servers-add = Přidać…
+
 ## Chat Tab
 
 startup-label =
