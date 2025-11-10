@@ -70,3 +70,17 @@ enter-news-group-credentials = Settu inn notandanafn og lykilorð fyrir { $newsg
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Vandamál við að hlaða inn grein
+# The main heading for the news error page.
+article-not-found-title = Grein fannst ekki
+# A longer description for the news error page.
+article-not-found-desc = Fréttaþjónninn greinir frá því að hann finni ekki greinina.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Fréttaþjónn svaraði:
+# A string explaining that the article may have expired.
+article-may-have-expired = Er greinin kannski útrunnin?
+# A string preceding the message's ID.
+try-searching-prefix = Prófa að leita að grein:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Fjarlægja allar útrunnar greinar
