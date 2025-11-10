@@ -8,6 +8,15 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Laai kopstukke af
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Daar is { $count } nuwe boodskapkopstukke wat vir hierdie nuusgroep afgelaai moet word.
+download-all-headers =
+    .label = Laai alle kopskrifte af
+    .accesskey = L
+download-headers-ok-button =
+    .label = Aflaai
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -24,6 +33,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Is u seker u wil hierdie boodskap kanselleer?
 
 ## Auto-Subscribe Dialog
 
