@@ -35,6 +35,12 @@ no-such-newsgroup = Fréttahópurinn { $newsgroup } er ekki tiltækur á netþj�
 
 download-headers-ok-button =
     .label = Sækja
+n-headers =
+    .value = hausar
+    .accesskey = h
+mark-headers-read =
+    .label = Merkja þá hausa sem eftir eru sem lesna
+    .accesskey = M
 
 ## Cancel Message Dialog
 
