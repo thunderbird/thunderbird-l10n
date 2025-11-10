@@ -37,6 +37,15 @@ no-such-newsgroup = Diskusijna skupina { $newsgroup } na serwerje k dispoziciji 
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Hłowy sćahnyć
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Je { $count } nowych powěsćowych hłowow, kotrež so za tutu diskusijnu skupinu sćahuja.
+download-all-headers =
+    .label = Wšě hłowy
+    .accesskey = W
+download-headers-ok-button =
+    .label = Sćahnyć
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -53,12 +62,24 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Chceće woprawdźe tutu powěsć přetorhnyć?
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Chceće { $newsgroup } abonować?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Wužiwarske mjeno a hesło serwera diskusijnych skupinow trěbnej
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Prošu zapodajće wužiwarske mjeno a hesło za { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Prošu zapodajće wužiwarske mjeno a hesło za { $newsgroup } na { $server }:
 
 ## News Error Page Messages
 
