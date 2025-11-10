@@ -8,6 +8,13 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Descarcă anteturile
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Există { $count } anteturi noi de mesaje de descărcat pentru acest grup de discuții.
+download-all-headers =
+    .label = Descarcă toate anteturile
+    .accesskey = D
 download-headers-ok-button =
     .label = Descarcă
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -26,6 +33,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Sigur vrei să anulezi acest mesaj?
 
 ## Auto-Subscribe Dialog
 
@@ -35,6 +43,7 @@ auto-subscribe-text = Vrei să te abonezi la { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Nume de utilizator și parolă necesare pentru serverul de grupuri de discuții
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Te rugăm să introduci un nume de utilizator și o parolă pentru { $server }:
