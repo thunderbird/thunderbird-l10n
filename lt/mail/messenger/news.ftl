@@ -37,6 +37,8 @@ no-such-newsgroup = Naujienų grupė „{ $newsgroup }“ nepasiekiama serveryje
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Atsiųsti
 
 ## Cancel Message Dialog
 
@@ -49,6 +51,13 @@ auto-subscribe-text = Ar pageidaujate prenumeruoti „{ $newsgroup }“?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Įveskite abonento vardą ir slaptažodį prisijungimui prie serverio { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Įveskite abonento vardą ir slaptažodį prisijungimui prie naujienų grupės { $newsgroup } serveryje { $server }:
 
 ## News Error Page Messages
 
