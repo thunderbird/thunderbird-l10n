@@ -33,6 +33,15 @@ no-such-newsgroup = Il gruppo di discussione { $newsgroup } non è disponibile s
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Scarica intestazioni
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Ci sono { $count } nuove intestazioni di messaggio da scaricare per questo gruppo di discussione.
+download-all-headers =
+    .label = Scarica tutte le intestazioni
+    .accesskey = S
+download-headers-ok-button =
+    .label = Scarica
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -49,12 +58,24 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Eliminare questo messaggio?
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Sottoscrivere { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Nome utente e password obbligatori per il server delle news
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Inserire nome utente e password per { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Inserire nome utente e password per { $newsgroup } su { $server }:
 
 ## News Error Page Messages
 
