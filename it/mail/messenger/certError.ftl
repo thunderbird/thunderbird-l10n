@@ -34,7 +34,7 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Errore di connessione. Il certificato per { $hostname } non proviene da una fonte attendibile. Fare clic per aprire le impostazioni di sicurezza del server.
-certificate-check-test-button = Testare la connessione al server
+certificate-check-test-button = Prova la connessione al server
 certificate-check-fetch-button = Recupera certificato
 certificate-check-view-button = Visualizza certificato
 certificate-check-add-exception-button = Aggiungi eccezione
