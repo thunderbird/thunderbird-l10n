@@ -35,6 +35,19 @@ no-such-newsgroup = Temagruppa { $newsgroup } er ikkje tilgjengeleg på serveren
 
 download-headers-ok-button =
     .label = Last ned
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Last ned
+    .accesskey = a
+n-headers =
+    .value = meldingshovud
+    .accesskey = e
+mark-headers-read =
+    .label = Merk resterande meldingshovud som lesne
+    .accesskey = M
 
 ## Cancel Message Dialog
 
