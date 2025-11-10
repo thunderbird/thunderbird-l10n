@@ -25,6 +25,15 @@ no-such-newsgroup = { $newsgroup } 뉴스그룹은 서버에 존재하지 않습
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = 목록 받기
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = 현재 뉴스 그룹에서 받을 { $count }개의 새 뉴스가 있습니다.
+download-all-headers =
+    .label = 모든 목록 받기
+    .accesskey = D
+download-headers-ok-button =
+    .label = 받기
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -41,6 +50,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = 메시지를 취소하시겠습니까?
 
 ## Auto-Subscribe Dialog
 
@@ -50,6 +60,14 @@ auto-subscribe-text = { $newsgroup }에 구독하시겠습니까?
 
 ## News Server Credentials
 
+enter-news-credentials-title = 뉴스 서버의 사용자명과 비밀번호 필요
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = { $server } 서버의 사용자명과 비밀번호를 입력해 주십시오:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = { $server } 서버상의 뉴스 그룹 { $newsgroup } 에 접근하기 위한 사용자명과 비밀번호를 입력해 주십시오:
 
 ## News Error Page Messages
 
