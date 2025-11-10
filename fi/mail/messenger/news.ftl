@@ -33,11 +33,32 @@ no-such-newsgroup = Keskusteluryhmä { $newsgroup } ei ole käytettävissä palv
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Otsakkeiden nouto
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Tässä keskusteluryhmässä on { $count } uutta viestiä ladattavana.
+download-all-headers =
+    .label = Nouda kaikki viestiotsakkeet
+    .accesskey = N
 download-headers-ok-button =
     .label = Nouda
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = Nouda
+    .accesskey = d
+n-headers =
+    .value = viestiä
+    .accesskey = v
+mark-headers-read =
+    .label = Merkitse jäljelle jääneet viestit luetuiksi
+    .accesskey = M
 
 ## Cancel Message Dialog
 
+cancel-confirm = Poistetaanko tämä viesti?
 
 ## Auto-Subscribe Dialog
 
@@ -47,6 +68,7 @@ auto-subscribe-text = Tilataanko ryhmä { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Tarvitaan käyttäjätunnus ja salasana keskusteluryhmäpalvelimelle
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Kirjoita käyttäjätunnus ja salasana palvelimelle { $server }:
