@@ -548,6 +548,9 @@ menuitem-label-spam-percentage =
     .label = Levélszemét szátalékosan
 menuitem-label-spam-status =
     .label = Levélszemét állapot
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = és mások
 
 ## Prompts
 
