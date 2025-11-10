@@ -33,6 +33,13 @@ no-such-newsgroup = სასაუბრო { $newsgroup } მიუწვდ�
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = თავსართების ჩატვირთვა
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = ამ ჯგუფიდან ჩამოსატვირთის წერილების { $count } ახალი თავსართი.
+download-all-headers =
+    .label = ყველა თავსართის ჩამოტვირთვა
+    .accesskey = D
 download-headers-ok-button =
     .label = ჩამოტვირთვა
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -51,6 +58,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = ნამდვილად გსურთ ამ წერილის გაუქმება?
 
 ## Auto-Subscribe Dialog
 
@@ -60,6 +68,7 @@ auto-subscribe-text = გსურთ, გამოიწეროთ { $newsgro
 
 ## News Server Credentials
 
+enter-news-credentials-title = სიახლეთ სერვერის მონაწილის სახელი და პაროლი სავალდებულოა
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = გთხოვთ მიუთითოთ სახელი და პაროლი სერვერისთვის { $server }:
@@ -74,3 +83,13 @@ enter-news-group-credentials = გთხოვთ მიუთითოთ ს�
 news-error-title = გვერდის ჩატვირთვის ხარვეზი
 # The main heading for the news error page.
 article-not-found-title = სტატია ვერ მოიძებნა
+# A longer description for the news error page.
+article-not-found-desc = სასაუბრო ჯგუფის სერვერი გადმოსცემს, რომ სტატია ვერ მოიძებნა.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = სასაუბრო ჯგუფის სერვერის პასუხი:
+# A string explaining that the article may have expired.
+article-may-have-expired = შესაძლოა ვადაგასული იყოს?
+# A string preceding the message's ID.
+try-searching-prefix = სცადეთ სტატიის მონახვა:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = ყველა, ვადაგასული სტატიის წაშლა
