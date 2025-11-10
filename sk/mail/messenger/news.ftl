@@ -37,6 +37,13 @@ no-such-newsgroup = Diskusná skupina { $newsgroup } nie je na serveri dostupná
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Stiahnuť hlavičky
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = V tejto diskusnej skupine je k dispozícií na stiahnutie { $count } nových hlavičiek správ.
+download-all-headers =
+    .label = Stiahnuť všetky hlavičky
+    .accesskey = S
 download-headers-ok-button =
     .label = Stiahnuť
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -55,6 +62,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Chcete zrušiť túto správu?
 
 ## Auto-Subscribe Dialog
 
@@ -64,6 +72,7 @@ auto-subscribe-text = Chcete sa prihlásiť k odberu príspevkov skupiny { $news
 
 ## News Server Credentials
 
+enter-news-credentials-title = Vyžaduje sa používateľské meno a heslo pre diskusné skupiny
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Zadajte používateľské meno a heslo pre skupinu { $server }:
