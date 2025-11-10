@@ -8,6 +8,15 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Preuzmi zaglavlja
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Za ovu novinsku grupu postoji { $count } novih zaglavlja poruka za preuzeti.
+download-all-headers =
+    .label = Preuzmi sva zaglavlja
+    .accesskey = P
+download-headers-ok-button =
+    .label = Preuzmi
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
@@ -24,12 +33,24 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Jeste li sigurni da želite otkazati ovu poruku?
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = Želite li se pretplatiti na { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Potrebno korisničko ime i lozinka za server novinskih grupa
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Upišite korisničko ime i lozinku za { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Upišite korisničko ime i lozinku za { $newsgroup } na { $server }:
 
 ## News Error Page Messages
 
