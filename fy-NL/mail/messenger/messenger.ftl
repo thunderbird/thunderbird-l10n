@@ -548,6 +548,9 @@ menuitem-label-spam-percentage =
     .label = Net-winskepersintaazje
 menuitem-label-spam-status =
     .label = Net-winskesteat
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = en oaren.
 
 ## Prompts
 
