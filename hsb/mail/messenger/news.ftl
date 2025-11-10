@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Newsgroup Status Messages
+
 # Variables:
 # $count (Number) - Number of headers.
 # $newsgroup (String) - The name of the newsgroup.
@@ -31,3 +34,32 @@ no-articles-to-download = Nastawki k sćahowanju za { $newsgroup } njejsu.
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-such-newsgroup = Diskusijna skupina { $newsgroup } na serwerje k dispoziciji njeje.
+
+## Download Headers Dialog
+
+
+## Cancel Message Dialog
+
+
+## Auto-Subscribe Dialog
+
+
+## News Server Credentials
+
+
+## News Error Page Messages
+
+# The title of the news error page. Not generally visible.
+news-error-title = Problem při začitowanju nastawka
+# The main heading for the news error page.
+article-not-found-title = Nastawk njeje so namakał
+# A longer description for the news error page.
+article-not-found-desc = Serwer diskusijneje skupiny zdźěla, zo njemóže nastawk namakać.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Serwer diskusijneje skupiny je wotmołwił:
+# A string explaining that the article may have expired.
+article-may-have-expired = Je nastawk snano spadnjeny?
+# A string preceding the message's ID.
+try-searching-prefix = Pytajće nastawk:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Wšě spadnjene nastawki wotstronić
