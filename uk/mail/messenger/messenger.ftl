@@ -130,6 +130,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Компактне подання
     .accesskey = К
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -479,6 +482,9 @@ openpgp-forget = Забути парольні фрази OpenPGP
 quota-panel-percent-used = { $percent }% заповнено
     .title = Квота IMAP: Усього використано { $usage } з { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
@@ -486,8 +492,29 @@ mark-as-junk-key =
 mark-not-junk-key =
     .key = j
 
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Позначити прочитаним
 delete-action = Видалити
 mark-as-starred-action = Позначити зірочкою
+
+## Message list.
+
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = та ін.
+
+## Prompts
+
+
+## Spam commands
+
