@@ -527,6 +527,33 @@ menuitem-label-spam-percentage =
     .label = Phần trăm thư rác
 menuitem-label-spam-status =
     .label = Trạng thái thư rác
+message-priority-lowest = Thấp nhất
+message-priority-low = Thấp
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Bình thường
+message-priority-high = Cao
+message-priority-highest = Cao nhất
+message-flag-replied = Đã trả lời
+message-flag-forwarded = Đã chuyển tiếp
+message-flag-redirected = Đã chuyển hướng
+message-flag-new = Mới
+message-flag-read = Đã đọc
+message-flag-starred = Gắn sao
+# Grouped By Date thread pane titles
+message-group-today = Hôm nay
+message-group-yesterday = Hôm qua
+message-group-last-seven-days = 7 ngày qua
+message-group-last-fourteen-days = 14 ngày qua
+message-group-older = Cũ hơn
+message-group-future-date = Tương lai
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Thư không dán nhãn
+message-group-no-status = Không trạng thái
+message-group-no-priority = Không ưu tiên
+message-group-no-attachments = Không đính kèm
+message-group-attachments = Đính kèm
+message-group-not-starred = Không gắn sao
+message-group-starred = Gắn sao
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = và những người khác.
