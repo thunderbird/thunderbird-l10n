@@ -41,3 +41,13 @@ no-such-newsgroup = กลุ่มข่าว { $newsgroup } ไม่พร�
 news-error-title = เกิดปัญหาในการโหลดบทความ
 # The main heading for the news error page.
 article-not-found-title = ไม่พบบทความ
+# A longer description for the news error page.
+article-not-found-desc = เซิร์ฟเวอร์กลุ่มข่าวรายงานว่าไม่พบบทความ
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = เซิร์ฟเวอร์กลุ่มข่าวตอบกลับว่า:
+# A string explaining that the article may have expired.
+article-may-have-expired = บางทีบทความหมดอายุแล้ว?
+# A string preceding the message's ID.
+try-searching-prefix = ลองค้นหาบทความ:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = เอาบทความที่หมดอายุแล้วออก
