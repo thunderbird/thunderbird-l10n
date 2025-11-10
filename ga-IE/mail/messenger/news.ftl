@@ -32,3 +32,17 @@ enter-news-group-credentials = Cuir ainm úsáideora agus focal faire isteach le
 
 ## News Error Page Messages
 
+# The title of the news error page. Not generally visible.
+news-error-title = Fadhb le Lódáil an Ailt
+# The main heading for the news error page.
+article-not-found-title = Níor aimsíodh an t-alt
+# A longer description for the news error page.
+article-not-found-desc = Deir freastalaí an ghrúpa nuachta nach féidir leis teacht ar an alt.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = Freagra faighte ó fhreastalaí an ghrúpa nuachta:
+# A string explaining that the article may have expired.
+article-may-have-expired = Seans gur éag an t-alt?
+# A string preceding the message's ID.
+try-searching-prefix = Bain triail as an alt a chuardach:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Bain Gach Alt Éagtha
