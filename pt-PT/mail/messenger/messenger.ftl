@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista compacta
     .accesskey = i
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -473,12 +476,24 @@ openpgp-forget = Esquecer as frases de acesso do OpenPGP
 quota-panel-percent-used = { $percent }% utilizado
     .title = Quota de IMAP: { $usage } utilizado de total { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -487,3 +502,39 @@ delete-action = Eliminar
 mark-as-starred-action = Marcar como favorito
 mark-as-spam-action = Marcar como Spam
 archive-action = Arquivar
+
+## Message list.
+
+message-priority-lowest = Muito baixa
+message-priority-low = Baixa
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Normal
+message-priority-high = Alta
+message-priority-highest = Muito alta
+message-flag-replied = Respondida
+message-flag-forwarded = Reencaminhada
+message-flag-redirected = Redirecionado
+message-flag-new = Nova
+message-flag-read = Lida
+message-flag-starred = Com estrela
+# Grouped By Date thread pane titles
+message-group-today = Hoje
+message-group-yesterday = Ontem
+message-group-last-seven-days = Últimos 7 dias
+message-group-last-fourteen-days = Últimos 14 dias
+message-group-older = Correio antigo
+message-group-future-date = Futuro
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Mensagens sem etiqueta
+message-group-no-status = Sem estado
+message-group-no-priority = Sem prioridade
+message-group-no-attachments = Sem anexos
+message-group-attachments = Anexos
+message-group-not-starred = Sem estrela
+message-group-starred = Com estrela
+
+## Prompts
+
+
+## Spam commands
+
