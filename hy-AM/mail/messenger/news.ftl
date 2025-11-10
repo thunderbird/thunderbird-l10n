@@ -8,6 +8,13 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Ներբեռնել գլխագրերը
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Հասանելի են { $count } նոր նամակների գլխագրեր՝ այս լուրախմբի համար։
+download-all-headers =
+    .label = Ներեռնել բոլորի գլխագրերը
+    .accesskey = Ն
 download-headers-ok-button =
     .label = Ներբեռնել
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -26,6 +33,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Չեղարկե՞լ այս գրառումը։
 
 ## Auto-Subscribe Dialog
 
@@ -35,6 +43,7 @@ auto-subscribe-text = Բաժանորդագրվե՞լ { $newsgroup }-ին։
 
 ## News Server Credentials
 
+enter-news-credentials-title = Նորությունների սպասարկիչը պահանջում է օգտվողի անուն և գաղտնաբառ
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Նշեք օգտվողի անուն և գաղտնաբառ { $server }-ի համար.
