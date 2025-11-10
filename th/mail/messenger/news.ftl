@@ -25,15 +25,49 @@ no-such-newsgroup = กลุ่มข่าว { $newsgroup } ไม่พร�
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = ดาวน์โหลดส่วนหัว
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = มี { $count } ส่วนหัวข้อความใหม่ที่สามารถดาวน์โหลดได้สำหรับกลุ่มข่าวนี้
+download-all-headers =
+    .label = ดาวน์โหลดส่วนหัวทั้งหมด
+    .accesskey = ด
+download-headers-ok-button =
+    .label = ดาวน์โหลด
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = ดาวน์โหลด
+    .accesskey = ว
+n-headers =
+    .value = ส่วนหัว
+    .accesskey = ส
+mark-headers-read =
+    .label = ทำเครื่องหมายส่วนหัวที่เหลือว่าอ่านแล้ว
+    .accesskey = ท
 
 ## Cancel Message Dialog
 
+cancel-confirm = คุณแน่ใจหรือไม่ว่าต้องการยกเลิกข้อความนี้?
 
 ## Auto-Subscribe Dialog
 
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+auto-subscribe-text = คุณต้องการบอกรับ { $newsgroup } หรือไม่?
 
 ## News Server Credentials
 
+enter-news-credentials-title = จำเป็นต้องกรอกชื่อผู้ใช้และรหัสผ่านของเซิร์ฟเวอร์ข่าว
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = โปรดป้อนชื่อผู้ใช้และรหัสผ่านสำหรับ { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = โปรดป้อนชื่อผู้ใช้และรหัสผ่านสำหรับ { $newsgroup } บน { $server }:
 
 ## News Error Page Messages
 
