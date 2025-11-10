@@ -33,6 +33,13 @@ no-such-newsgroup = Le groupe de discussion { $newsgroup } n’est pas disponibl
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Télécharger les en-têtes pour :
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Il y a { $count } nouveaux en-têtes de messages à télécharger pour ce groupe de discussion.
+download-all-headers =
+    .label = Télécharger tous les en-têtes
+    .accesskey = T
 download-headers-ok-button =
     .label = Téléchargement
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -51,6 +58,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Voulez-vous vraiment annuler ce message ?
 
 ## Auto-Subscribe Dialog
 
@@ -60,6 +68,7 @@ auto-subscribe-text = Voulez-vous vous abonner à { $newsgroup } ?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Un nom d’utilisateur et un mot de passe sont requis pour le serveur de groupes
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Veuillez saisir un nom d’utilisateur et un mot de passe pour { $server } :
