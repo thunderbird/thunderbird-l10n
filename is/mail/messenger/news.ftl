@@ -33,6 +33,13 @@ no-such-newsgroup = Fréttahópurinn { $newsgroup } er ekki tiltækur á netþj�
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Sækja hausa
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Það eru { $count } nýir pósthausar fyrir þennan fréttahóp sem hægt er að sækja.
+download-all-headers =
+    .label = Sækja alla hausa
+    .accesskey = N
 download-headers-ok-button =
     .label = Sækja
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -51,6 +58,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Ertu viss um að þú viljir eyða þessum pósti?
 
 ## Auto-Subscribe Dialog
 
@@ -60,6 +68,7 @@ auto-subscribe-text = Viltu gerast áskrifandi að { $newsgroup }?
 
 ## News Server Credentials
 
+enter-news-credentials-title = Nauðsynlegt er að setja inn notandadafn og lykilorð fyrir fréttaþjón
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Settu inn notandanafn og lykilorð fyrir { $server }:
