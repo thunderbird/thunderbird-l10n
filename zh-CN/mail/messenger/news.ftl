@@ -25,6 +25,13 @@ no-such-newsgroup = 新闻组“{ $newsgroup }”在此服务器上不可用。
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = 下载标题
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = 此新闻组共有 { $count } 条新消息头需要下载。
+download-all-headers =
+    .label = 下载所有消息头
+    .accesskey = D
 download-headers-ok-button =
     .label = 下载
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -43,6 +50,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = 确实想要取消此消息吗？
 
 ## Auto-Subscribe Dialog
 
@@ -52,6 +60,7 @@ auto-subscribe-text = 您要订阅 { $newsgroup } 吗？
 
 ## News Server Credentials
 
+enter-news-credentials-title = 需要填写新闻服务器的用户名和密码
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = 请输入用于 { $server } 的用户名和密码：
