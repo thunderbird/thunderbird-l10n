@@ -27,6 +27,19 @@ no-such-newsgroup = 新闻组“{ $newsgroup }”在此服务器上不可用。
 
 download-headers-ok-button =
     .label = 下载
+# Consider the download-n.label and n-headers.label as a single sentence with
+# the number of headers to be downloaded inserted between them:
+# EXAMPLE: "Download" <some number> "headers"
+# Either label could be set to null ("") if required grammatically.
+download-n =
+    .label = 下载
+    .accesskey = o
+n-headers =
+    .value = 消息头
+    .accesskey = h
+mark-headers-read =
+    .label = 标记剩余消息头为已读
+    .accesskey = M
 
 ## Cancel Message Dialog
 
