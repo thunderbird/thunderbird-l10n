@@ -33,6 +33,8 @@ no-such-newsgroup = O grupo de notícias { $newsgroup } não está disponível n
 
 ## Download Headers Dialog
 
+download-headers-ok-button =
+    .label = Descarregar
 
 ## Cancel Message Dialog
 
@@ -45,6 +47,25 @@ auto-subscribe-text = Deseja subscrever { $newsgroup }?
 
 ## News Server Credentials
 
+# Variables:
+# $server (String) - The server being accessed.
+enter-news-server-credentials = Por favor introduza o nome de utilizador e a palavra-passe para { $server }:
+# Variables:
+# $newsgroup (String) - A specific newsgroup to set the password for.
+# $server (String) - The server from which the newsgroup is accessed.
+enter-news-group-credentials = Por favor introduza o nome de utilizador e a palavra-passe para { $newsgroup } em { $server }:
 
 ## News Error Page Messages
 
+# The main heading for the news error page.
+article-not-found-title = Artigo não encontrado
+# A longer description for the news error page.
+article-not-found-desc = O servidor de grupo de notícias reporta que não consegue encontrar o artigo.
+# A string preceding the text response from the newsgroup server describing the error.
+news-server-responded-prefix = O servidor de grupo de notícias respondeu:
+# A string explaining that the article may have expired.
+article-may-have-expired = Talvez o artigo expirou?
+# A string preceding the message's ID.
+try-searching-prefix = Tentar pesquisar pelo artigo:
+# The label for the button to remove all expired articles from the newsgroup.
+remove-expired-articles-label = Remover todos os artigos expirados
