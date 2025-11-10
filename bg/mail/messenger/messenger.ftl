@@ -548,6 +548,33 @@ menuitem-label-spam-percentage =
     .label = Процент на нежелана поща
 menuitem-label-spam-status =
     .label = Състояние на нежеланата поща
+message-priority-lowest = По-нисък
+message-priority-low = Нисък
+# Normal priority is often blank, depending on the consumers of these strings.
+message-priority-normal = Нормален
+message-priority-high = Висок
+message-priority-highest = По-висок
+message-flag-replied = Отговорено
+message-flag-forwarded = Препратено
+message-flag-redirected = Пренасочване
+message-flag-new = Ново
+message-flag-read = Четене
+message-flag-starred = Със звезда
+# Grouped By Date thread pane titles
+message-group-today = Днес
+message-group-yesterday = Вчера
+message-group-last-seven-days = Преди 7 дена
+message-group-last-fourteen-days = Преди 14 дена
+message-group-older = По-стари
+message-group-future-date = Бъдещи
+# Different Grouped By Sort thread pane titles
+message-group-untagged = Писма без етикет
+message-group-no-status = Без състояние
+message-group-no-priority = Без приоритет
+message-group-no-attachments = Няма прикачен файл
+message-group-attachments = Прикачени файлове
+message-group-not-starred = Без звезда
+message-group-starred = Със звезда
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = и др.
