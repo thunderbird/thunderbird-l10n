@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Newsgroup Status Messages
+
 # Variables:
 # $count (Number) - Number of headers.
 # $newsgroup (String) - The name of the newsgroup.
@@ -27,3 +30,24 @@ no-articles-to-download = Δεν υπάρχουν άρθρα προς λήψη �
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-such-newsgroup = Η ομάδα συζητήσεων «{ $newsgroup }» δεν είναι διαθέσιμη στον διακομιστή.
+
+## Download Headers Dialog
+
+n-headers =
+    .value = κεφαλίδων
+    .accesskey = φ
+mark-headers-read =
+    .label = Επισήμανση υπολειπόμενων κεφαλίδων ως αναγνωσμένων
+    .accesskey = μ
+
+## Cancel Message Dialog
+
+
+## Auto-Subscribe Dialog
+
+
+## News Server Credentials
+
+
+## News Error Page Messages
+
