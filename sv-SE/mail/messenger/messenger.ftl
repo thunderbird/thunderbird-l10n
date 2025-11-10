@@ -575,6 +575,9 @@ message-group-no-attachments = Inga bilagor
 message-group-attachments = Bilagor
 message-group-not-starred = Ej märkta
 message-group-starred = Märkta
+# For multiple authors, add this abbreviation to the first author to indicate
+# there are more; for the From column in the threadpane message list.
+and-others = et al.
 
 ## Prompts
 
