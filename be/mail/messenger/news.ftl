@@ -8,6 +8,13 @@
 
 ## Download Headers Dialog
 
+download-headers-dialog-title = Загрузка загалоўкаў
+# Variables:
+# $count (Number) - The number of new message headers.
+download-headers-info-text = Існуе { $count } загалоўкаў новых лістоў, якія можна загрузіць з гэтай навінакупы.
+download-all-headers =
+    .label = Спампаваць усе загалоўкі
+    .accesskey = з
 download-headers-ok-button =
     .label = Загрузіць
 # Consider the download-n.label and n-headers.label as a single sentence with
@@ -26,6 +33,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
+cancel-confirm = Вы сапраўды жадаеце скасаваць гэты ліст?
 
 ## Auto-Subscribe Dialog
 
@@ -35,6 +43,7 @@ auto-subscribe-text = Вы хочаце падпісацца на { $newsgroup }
 
 ## News Server Credentials
 
+enter-news-credentials-title = Патрабуюцца імя карыстальніка і пароль для сервера навін
 # Variables:
 # $server (String) - The server being accessed.
 enter-news-server-credentials = Увядзіце, калі ласка, імя карыстальніка і пароль для { $server }:
