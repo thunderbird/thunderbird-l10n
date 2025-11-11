@@ -718,6 +718,7 @@ security-devices-button =
     .accesskey = B
 email-e2ee-header = E-mail end-to-end-versleuteling
 account-settings = Accountinstellingen
+email-e2ee-enable-accounts-info = Stel e-mailaccounts en identiteiten in voor end-to-end-versleuteling in de <a data-l10n-name="account-settings-url">Accountinstellingen</a>.
 email-e2ee-enable-info = E-mailaccounts en identiteiten voor end-to-end-versleuteling in accountinstellingen instellen.
 email-e2ee-automatism = Automatisch gebruik van versleuteling
 email-e2ee-automatism-pre =
@@ -792,6 +793,20 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Aangepast
     .accesskey = A
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP-sleutelservers
+email-e2ee-key-servers-intro =
+    Een sleutelserver ontvangt en levert vervolgens bestaande publieke sleutels aan gebruikers.
+    Hiermee kunt u uw openbare sleutel publiceren en sleutels van anderen vinden en vernieuwen.
+email-e2ee-key-servers-use-following = De volgende sleutelservers gebruiken:
+email-e2ee-key-servers-add = Toevoegen…
+email-e2ee-key-servers-reset = Serverlijst herinitialiseren
+email-e2ee-key-servers-add-title = Sleutelserver toevoegen
+email-e2ee-key-servers-add-text = Voer de URL in van de sleutelserver die u wilt toevoegen.
+email-e2ee-key-servers-add-failed-title = Toevoegen van sleutelserver mislukt
+email-e2ee-key-servers-add-failed-text = Kan geen verbinding maken met een sleutelserver via de opgegeven URL.
 
 ## Chat Tab
 

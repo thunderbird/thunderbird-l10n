@@ -34,10 +34,20 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Verbindingsfout. Het certificaat voor { $hostname } komt niet van een vertrouwde bron. Klik om serverbeveiligingsinstellingen te openen.
+certificate-check-test-button = Verbinding met server testen
 certificate-check-fetch-button = Certificaat ophalen
 certificate-check-view-button = Certificaat bekijken
 certificate-check-add-exception-button = Uitzondering toevoegen
 certificate-check-remove-exception-button = Uitzondering verwijderen
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = Verbinding met server { $hostname } testen…
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = Er is met succes een beveiligde verbinding met { $hostname } tot stand gebracht.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-failure = Verbinding met server { $hostname } mislukt.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Het certificaat voor { $hostname } ophalen.
