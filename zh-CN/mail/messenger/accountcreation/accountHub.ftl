@@ -128,6 +128,7 @@ account-hub-result-unknown-cert = 未验证的证书
 account-hub-close-button =
     .title = 关闭
 account-hub-email-manual-configuration = 手动配置
+account-hub-notification-unknown-host = 通过第三方域名找到设置信息
 account-hub-ssl-noencryption = 无
 account-hub-result-username-label = 用户名
     .title = 用户名
