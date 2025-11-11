@@ -704,6 +704,7 @@ security-devices-button =
     .accesskey = б
 email-e2ee-header = Шифроване  на електронните съобщения от край до край
 account-settings = Настройки на профила
+email-e2ee-enable-accounts-info = Настройване на профили за поща и самоличности, шифровани от край до край, чрез <a data-l10n-name="account-settings-url">настройките на профила</a>.
 email-e2ee-enable-info = Настройте имейл профил и самоличности за шифроване от край до край в настройките на профила.
 email-e2ee-automatism = Автоматично използване на шифроване
 email-e2ee-automatism-pre =
@@ -778,6 +779,18 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Потребителско
     .accesskey = р
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP съвръри за ключове за сигурност.
+email-e2ee-key-servers-intro = Ключовият сървър получава и след това обслужва съществуващи публични ключове на потребителите. Позволява ви да публикувате свой публичен ключ и да намирате и опреснявате ключове на други.
+email-e2ee-key-servers-use-following = Използване на следните сървъри за ключове:
+email-e2ee-key-servers-add = Добавяне…
+email-e2ee-key-servers-reset = Нулиране на списъка със сървъри
+email-e2ee-key-servers-add-title = Добавяне на сървър за ключове за сигурност
+email-e2ee-key-servers-add-text = Въвеждане на URL адреса на сървъра за ключове.
+email-e2ee-key-servers-add-failed-title = Добавянето на ключов сървър се провали
+email-e2ee-key-servers-add-failed-text = Не може да се осъществи връзка със сървър за ключове на предоставения URL.
 
 ## Chat Tab
 
