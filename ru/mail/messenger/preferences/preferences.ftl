@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = ы
 email-e2ee-header = Сквозное шифрование электронной почты
 account-settings = Параметры учётной записи
+email-e2ee-enable-accounts-info = Настройте учётные записи электронной почты и идентификаторы для сквозного шифрования в <a data-l10n-name="account-settings-url">Настройках учётной записи</a>.
 email-e2ee-enable-info = Настройте учётные записи электронной почты и идентификаторы для сквозного шифрования в настройках учётной записи.
 email-e2ee-automatism = Автоматическое использование шифрования
 email-e2ee-automatism-pre =
@@ -780,6 +781,20 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Персональный
     .accesskey = С
+
+## Keyservers
+
+email-e2ee-key-servers-legend = Сервера ключей OpenPGP
+email-e2ee-key-servers-intro =
+    Сервер ключей получает, а затем предоставляет существующие открытые ключи пользователям.
+    Он позволяет вам опубликовать ваш открытый ключ, а также находить и обновлять ключи других пользователей.
+email-e2ee-key-servers-use-following = Использовать следующие серверы ключей:
+email-e2ee-key-servers-add = Добавить…
+email-e2ee-key-servers-reset = Сбросить список серверов
+email-e2ee-key-servers-add-title = Добавить сервер ключей
+email-e2ee-key-servers-add-text = Введите URL сервера ключей для добавления.
+email-e2ee-key-servers-add-failed-title = Добавление сервера ключей не удалось
+email-e2ee-key-servers-add-failed-text = Не удалось соединиться с сервером ключей по указанному URL.
 
 ## Chat Tab
 
