@@ -41,13 +41,13 @@ certificate-check-add-exception-button = 新增例外
 certificate-check-remove-exception-button = 移除例外
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-checking = 正在測試與伺服器 { $hostname } 的連線…
+certificate-checking = 正在測試與伺服器 { $hostname } 之間的連線…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = 已成功與 { $hostname } 建立安全連線。
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = 與伺服器 { $hostname } 的連線失敗。
+certificate-test-failure = 連線至伺服器 { $hostname } 失敗。
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = 正在取得 { $hostname } 的憑證。

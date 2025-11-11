@@ -706,7 +706,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = 電子郵件端到端加密
 account-settings = 帳號設定
-email-e2ee-enable-accounts-info = 到<a data-l10n-name="account-settings-url">帳號設定</a>當中設定要使用端到端加密的郵件帳號與身份。
+email-e2ee-enable-accounts-info = 到<a data-l10n-name="account-settings-url">帳號設定</a>設定要使用端到端加密的郵件帳號與身份。
 email-e2ee-enable-info = 可以在「帳號設定」中設定用來進行端到端加密的電子郵件帳號與身份。
 email-e2ee-automatism = 自動使用加密
 email-e2ee-automatism-pre = { -brand-short-name } 可在撰寫郵件時自動開啟或關閉加密功能。是否要自動開啟 / 關閉，取決於您有多少往來通訊者的有效且已接受的金鑰或憑證。
@@ -781,14 +781,14 @@ preferences-doh-url-custom =
 ## Keyservers
 
 email-e2ee-key-servers-legend = OpenPGP 金鑰伺服器
-email-e2ee-key-servers-intro = 金鑰伺服器接收現有的公鑰後就會提供給使用者。它允許您公開自己的公鑰以及尋找並重新整理別人的公鑰。
-email-e2ee-key-servers-use-following = 使用下列金鑰伺服器:
+email-e2ee-key-servers-intro = 金鑰伺服器會接收公鑰，然後提供給使用者。它讓您可公開自己的公鑰，並尋找、重新整理其他人的公鑰。
+email-e2ee-key-servers-use-following = 使用下列金鑰伺服器：
 email-e2ee-key-servers-add = 新增…
 email-e2ee-key-servers-reset = 重設伺服器清單
 email-e2ee-key-servers-add-title = 新增金鑰伺服器
-email-e2ee-key-servers-add-text = 輸入要新增的金鑰伺服器的網址。
+email-e2ee-key-servers-add-text = 請輸入要新增的金鑰伺服器的網址。
 email-e2ee-key-servers-add-failed-title = 金鑰伺服器新增失敗
-email-e2ee-key-servers-add-failed-text = 無法連線至位於所提供網址的金鑰伺服器。
+email-e2ee-key-servers-add-failed-text = 無法連線至所指定網址的金鑰伺服器。
 
 ## Chat Tab
 
