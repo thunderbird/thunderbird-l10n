@@ -34,10 +34,20 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Error de connexion. Le certificato pro { $hostname } non veni de un fonte digne de fide. Clicca pro aperir le configuration de securitate del servitor.
+certificate-check-test-button = Verificar connexion a servitor
 certificate-check-fetch-button = Recuperar certificato
 certificate-check-view-button = Vider certificato
 certificate-check-add-exception-button = Adder exception
 certificate-check-remove-exception-button = Remover exception
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = Verificante connexion a servitor { $hostname }…
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = Establite con successo un connexion secur a { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-failure = Connexion a servitor { $hostname } fallite.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Recuperante certificato pro { $hostname }.

@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Cryptation de extremo-a-extremo de email
 account-settings = Parametros del conto
+email-e2ee-enable-accounts-info = Configura contos email e identitates pro le cryptation de extremo-a-extremo in le <a data-l10n-name="account-settings-url">Parametros de conto</a>.
 email-e2ee-enable-info = Configura contos e identitates email pro cryptation de extremo-a-extremo in Parametros de conto.
 email-e2ee-automatism = Uso automatic del cryptation
 email-e2ee-automatism-pre =
@@ -783,7 +784,17 @@ preferences-doh-url-custom =
 
 ## Keyservers
 
+email-e2ee-key-servers-legend = Servitores-de-claves OpenPGP
+email-e2ee-key-servers-intro =
+    Un servitor-de-claves recipe e pois forni claves public existente a usatores.
+    Illo te permitte de publicar tu clave public e trovar e actualisar claves de alteres.
+email-e2ee-key-servers-use-following = Usar le sequente servitores-de-claves:
 email-e2ee-key-servers-add = Addente…
+email-e2ee-key-servers-reset = Reinitialisar lista de servitores
+email-e2ee-key-servers-add-title = Adder servitor-de-claves
+email-e2ee-key-servers-add-text = Insere le URL del servitor-de-claves a adder.
+email-e2ee-key-servers-add-failed-title = Addition de servitor-de-claves fallite
+email-e2ee-key-servers-add-failed-text = Impossibile connecter se a un servitor-de-claves al URL fornite.
 
 ## Chat Tab
 
