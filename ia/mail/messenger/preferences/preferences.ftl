@@ -781,6 +781,10 @@ preferences-doh-url-custom =
     .label = Personalisate
     .accesskey = P
 
+## Keyservers
+
+email-e2ee-key-servers-add = Addente…
+
 ## Chat Tab
 
 startup-label =
