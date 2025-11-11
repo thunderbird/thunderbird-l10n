@@ -790,7 +790,7 @@ email-e2ee-key-servers-reset = Réinitialiser la liste des serveurs
 email-e2ee-key-servers-add-title = Ajouter un serveur de clés
 email-e2ee-key-servers-add-text = Saisissez l’URL du serveur de clés à ajouter.
 email-e2ee-key-servers-add-failed-title = Échec de l’ajout du serveur de clés
-email-e2ee-key-servers-add-failed-text = Impossible de se connecter à un serveur de clés à l’URL fournie.
+email-e2ee-key-servers-add-failed-text = Impossible de se connecter au serveur de clés à l’URL fournie.
 
 ## Chat Tab
 
