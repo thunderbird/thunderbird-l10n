@@ -34,10 +34,20 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Chyba pripojenia. Certifikát servera { $hostname } nepochádza z dôveryhodného zdroja. Kliknutím otvoríte nastavenia zabezpečenia servera.
+certificate-check-test-button = Otestovať pripojenie k serveru
 certificate-check-fetch-button = Načítať certifikát
 certificate-check-view-button = Zobraziť certifikát
 certificate-check-add-exception-button = Pridať výnimku
 certificate-check-remove-exception-button = Odstrániť výnimku
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = Testovanie pripojenia k serveru { $hostname }…
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = Úspešne nadviazané zabezpečené pripojenie k { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-failure = Pripojenie k serveru { $hostname } zlyhalo.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Načítava sa certifikát pre { $hostname }.
