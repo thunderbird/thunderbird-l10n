@@ -15,7 +15,7 @@
 <!ENTITY newevent.eventStatus.cancelled.label "Annulleret">
 <!ENTITY newevent.eventStatus.cancelled.accesskey "a">
 <!ENTITY newevent.todoStatus.cancelled.label "Annulleret">
-<!ENTITY newevent.status.tentative.label "Forsøgsvis">
+<!ENTITY newevent.status.tentative.label "Foreløbig">
 <!ENTITY newevent.status.tentative.accesskey "f">
 <!ENTITY newevent.status.confirmed.label "Bekræftet">
 <!ENTITY newevent.status.confirmed.accesskey "b">
