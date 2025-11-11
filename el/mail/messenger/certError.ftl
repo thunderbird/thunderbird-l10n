@@ -44,6 +44,9 @@ certificate-check-remove-exception-button = Αφαίρεση εξαίρεσης
 certificate-checking = Δοκιμή σύνδεσης με τον διακομιστή { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = Επιτυχής δημιουργία ασφαλούς σύνδεσης με το { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = Αποτυχία σύνδεσης με τον διακομιστή { $hostname }.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.

@@ -780,6 +780,7 @@ preferences-doh-url-custom =
 ## Keyservers
 
 email-e2ee-key-servers-legend = Διακομιστές κλειδιών OpenPGP
+email-e2ee-key-servers-use-following = Χρήση των εξής διακομιστών κλειδιών:
 email-e2ee-key-servers-add = Προσθήκη…
 email-e2ee-key-servers-reset = Επαναφορά λίστας διακομιστών
 email-e2ee-key-servers-add-title = Προσθήκη διακομιστή κλειδιών
