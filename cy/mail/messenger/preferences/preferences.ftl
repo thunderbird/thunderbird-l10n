@@ -781,11 +781,13 @@ preferences-doh-url-custom =
 ## Keyservers
 
 email-e2ee-key-servers-legend = Allweddyddion OpenPGP
-email-e2ee-key-servers-intro = Mae gweinydd allweddi yn derbyn ac yna'n gwasanaethu allweddi cyhoeddus presennol i ddefnyddwyr. Mae'n caniatáu ichi gyhoeddi'ch allwedd gyhoeddus a darganfod ac adnewyddu allweddi rhai eraill.
-email-e2ee-key-servers-use-following = Defnyddiwch y gweinyddion bysell canlynol:
+email-e2ee-key-servers-intro =
+    Mae gweinydd allweddyddion yn derbyn ac yna'n gwasanaethu'r allweddi cyhoeddus presennol ar gyfer defnyddwyr.
+    Mae'n caniatáu ichi gyhoeddi'ch allwedd gyhoeddus a darganfod ac adnewyddu allweddi rhai eraill.
+email-e2ee-key-servers-use-following = Defnyddiwch yr4 allweddyddion canlynol:
 email-e2ee-key-servers-add = Ychwanegu…
 email-e2ee-key-servers-reset = Ailosod Rhestr Gweinydd
-email-e2ee-key-servers-add-title = Ychwanegu Keyserver
+email-e2ee-key-servers-add-title = Ychwanegu Allweddyddyn
 email-e2ee-key-servers-add-text = Rhowch URL y gweinydd allweddi i'w ychwanegu.
 email-e2ee-key-servers-add-failed-title = Methwyd ychwanegu Keyserver
 email-e2ee-key-servers-add-failed-text = Methu cysylltu â gweinydd bysellau yn yr URL a ddarparwyd.

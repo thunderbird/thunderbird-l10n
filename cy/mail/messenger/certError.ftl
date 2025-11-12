@@ -34,7 +34,7 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Gwall cysylltu. Nid yw tystysgrif { $hostname } yn dod o ffynhonnell ddibynadwy. Cliciwch i agor gosodiadau diogelwch y gweinydd.
-certificate-check-test-button = Prawf cysylltiad â gweinydd
+certificate-check-test-button = Profi cysylltiad â gweinydd
 certificate-check-fetch-button = Nôl Tystysgrif
 certificate-check-view-button = Darllen Tystysgrif
 certificate-check-add-exception-button = Ychwanegu Eithriad
@@ -44,7 +44,7 @@ certificate-check-remove-exception-button = Tynnu Eithriad
 certificate-checking = Wrthi'n profi cysylltiad â gweinydd { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-success = Llwyddwyd i sefydlu cysylltiad diogel i { $hostname }.
+certificate-test-success = Llwyddwyd i osod cysylltiad diogel i { $hostname }.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = Methwyd cysylltu â gweinydd { $hostname }.
