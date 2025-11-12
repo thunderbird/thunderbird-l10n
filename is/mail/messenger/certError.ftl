@@ -34,10 +34,17 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Villa í tengingu. Skilríkið fyrir { $hostname } kemur ekki frá treystum útgefanda. Smelltu til að opna öryggisstillingar netþjónsins.
+certificate-check-test-button = Prófa tengingu við netþjón
 certificate-check-fetch-button = Ná í skilríki
 certificate-check-view-button = Skoða skilríki
 certificate-check-add-exception-button = Bæta við undantekningu
 certificate-check-remove-exception-button = Fjarlægja undantekningu
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = Prófa tengingu við netþjóninn { $hostname }…
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = Tókst að koma á öruggri tengingu við { $hostname }.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Sæki skilríkið fyrir { $hostname }.
