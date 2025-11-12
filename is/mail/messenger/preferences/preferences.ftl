@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = g
 email-e2ee-header = Enda-í-enda dulritun tölvupósts
 account-settings = Stillingar reiknings
+email-e2ee-enable-accounts-info = Settu upp tölvupóstreikninga og auðkenni fyrir enda-í-enda dulritun í <a data-l10n-name="account-settings-url">stillingum reikninga</a>.
 email-e2ee-enable-info = Settu upp tölvupóstreikninga og auðkenni fyrir enda-til-enda dulritun í stillingum reikningsins.
 email-e2ee-automatism = Sjálfvirk notkun dulritunar
 email-e2ee-automatism-pre =
@@ -780,6 +781,17 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Sérsniðið
     .accesskey = n
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP-lyklaþjónar
+email-e2ee-key-servers-intro = Lyklaþjónn tekur við og afhendir síðan núverandi opinbera dreifilykla til notenda. Hann gerir þér kleift að birta opinbera lykilinn þinn og finna og uppfæra lykla annarra.
+email-e2ee-key-servers-use-following = Nota eftirfarandi lyklaþjóna:
+email-e2ee-key-servers-add = Bæta við…
+email-e2ee-key-servers-reset = Endurstilla lista yfir netþjóna
+email-e2ee-key-servers-add-title = Bæta við lyklaþjóni
+email-e2ee-key-servers-add-text = Settu inn vefslóð lyklaþjónsins sem á að bæta við.
+email-e2ee-key-servers-add-failed-title = Mistókst að bæta við lyklaþjóni
 
 ## Chat Tab
 
