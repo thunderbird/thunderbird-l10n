@@ -34,6 +34,7 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Napaka pri povezovanju. Digitalno potrdilo za { $hostname } ne prihaja iz zaupanja vrednega vira. Kliknite, da odprete varnostne nastavitve strežnika.
+certificate-check-test-button = Preizkusi povezavo s strežnikom
 certificate-check-fetch-button = Pridobi digitalno potrdilo
 certificate-check-view-button = Preglej digitalno potrdilo
 certificate-check-add-exception-button = Dodaj izjemo
