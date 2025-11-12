@@ -781,7 +781,9 @@ preferences-doh-url-custom =
 ## Keyservers
 
 email-e2ee-key-servers-legend = Servidores de claves OpenPGP
-email-e2ee-key-servers-intro = Un servidor de claves recibe y luego entrega las claves públicas existentes a los usuarios. Le permite publicar su clave pública y buscar y actualizar las claves de otros.
+email-e2ee-key-servers-intro =
+    Un servidor de claves recibe y luego entrega las claves públicas existentes a los usuarios.
+    Le permite publicar su clave pública y buscar y actualizar las claves de otros.
 email-e2ee-key-servers-use-following = Usar los siguientes servidores de claves:
 email-e2ee-key-servers-add = Agregar…
 email-e2ee-key-servers-reset = Restablecer lista de servidores
