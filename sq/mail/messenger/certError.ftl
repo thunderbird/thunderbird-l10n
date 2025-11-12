@@ -34,10 +34,20 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Gabim lidhjeje. Dëshmia për { $hostname } s’vjen nga burim i besuar. Klikoni që të hapen rregullime sigurie shërbyesi.
+certificate-check-test-button = Provoni lidhjen me shërbyesin
 certificate-check-fetch-button = Merr Dëshminë
 certificate-check-view-button = Shihini Dëshminë
 certificate-check-add-exception-button = Shtoni Përjashtim
 certificate-check-remove-exception-button = Hiqeni Përjashtimin
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = Po provohet lidhja me shërbyesin { $hostname }…
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = U vendos me sukses një lidhje e siguruar me { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-failure = Lidhja me shërbyesin { $hostname } dështoi.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Po sillet dëshmia për { $hostname }.

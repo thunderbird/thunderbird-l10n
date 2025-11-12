@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = P
 email-e2ee-header = Fshehtëzim Email-esh Skaj-Më-Skaj
 account-settings = Rregullime Llogarie
+email-e2ee-enable-accounts-info = Ujdisni llogari email dhe identitete për Fshehtëzim Skaj-Më-Skaj, te <a data-l10n-name="account-settings-url">Rregullime Llogarie</a>.
 email-e2ee-enable-info = Ujdisni llogari dhe identitete email-i për Fshehtëzim Skaj-Më-Skaj, te Rregullime Llogarie.
 email-e2ee-automatism = Përdorim i Automatizuar i Fshehtëzimit
 email-e2ee-automatism-pre =
@@ -780,6 +781,20 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Vetjak
     .accesskey = V
+
+## Keyservers
+
+email-e2ee-key-servers-legend = Shërbyes Kyçesh OpenPGP
+email-e2ee-key-servers-intro =
+    Një shërbyes kyçesh merr dhe mandej shërben kyçe publikë ekzistues për përdoruesit.
+    Ju lejon të publikoni kyçin tuaj publik dhe të gjeni dhe rifreskoni kyçe të të tjerëve.
+email-e2ee-key-servers-use-following = Përdor shërbyesit vijues të kyçeve:
+email-e2ee-key-servers-add = Shtoni…
+email-e2ee-key-servers-reset = Riktheni Listë Shërbyesish Te Parazgjedhja
+email-e2ee-key-servers-add-title = Shtoni Shërbyes Kyçesh
+email-e2ee-key-servers-add-text = Jepni URL-në e shërbyesit të kyçeve për t’u shtuar.
+email-e2ee-key-servers-add-failed-title = Shtimi i Shërbyesit të Kyçeve Dështoi
+email-e2ee-key-servers-add-failed-text = S’u arrit të lidhej te shërbyesi i kyçeve te URl-ja e dhënë.
 
 ## Chat Tab
 
