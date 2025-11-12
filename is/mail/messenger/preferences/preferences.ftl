@@ -792,6 +792,7 @@ email-e2ee-key-servers-reset = Endurstilla lista yfir netþjóna
 email-e2ee-key-servers-add-title = Bæta við lyklaþjóni
 email-e2ee-key-servers-add-text = Settu inn vefslóð lyklaþjónsins sem á að bæta við.
 email-e2ee-key-servers-add-failed-title = Mistókst að bæta við lyklaþjóni
+email-e2ee-key-servers-add-failed-text = Ekki tókst að tengjast lyklaþjóni á uppgefinni vefslóð.
 
 ## Chat Tab
 
