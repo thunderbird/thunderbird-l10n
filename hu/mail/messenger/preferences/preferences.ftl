@@ -792,7 +792,9 @@ email-e2ee-key-servers-use-following = A következő kulcskiszolgálók használ
 email-e2ee-key-servers-add = Hozzáadás…
 email-e2ee-key-servers-reset = Kiszolgálólista visszaállítása
 email-e2ee-key-servers-add-title = Kulcskiszolgáló hozzáadása
+email-e2ee-key-servers-add-text = Adja meg a hozzáadandó kulcskiszolgáló webcímét.
 email-e2ee-key-servers-add-failed-title = A kulcskiszolgáló hozzáadása sikertelen
+email-e2ee-key-servers-add-failed-text = Nem sikerült csatlakozni egy kulcskiszolgálóhoz a megadott webcímen.
 
 ## Chat Tab
 
