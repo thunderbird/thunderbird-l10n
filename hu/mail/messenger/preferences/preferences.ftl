@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = B
 email-e2ee-header = E-mail végpontok közötti titkosítása
 account-settings = Fiókbeállítások
+email-e2ee-enable-accounts-info = Állítsa be az e-mail-fiókokat és személyazonosságokat a végpontok közötti titkosításhoz a <a data-l10n-name="account-settings-url">Postafiók beállításaiban</a>.
 email-e2ee-enable-info = Állítsa be a végpontok közötti titkosításhoz használható e-mail-fiókokat és személyazonosságokat a Fiókbeállításokban.
 email-e2ee-automatism = Titkosítás automatikus használata
 email-e2ee-automatism-pre =
@@ -780,6 +781,18 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Egyéni
     .accesskey = E
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP-kulcskiszolgálók
+email-e2ee-key-servers-intro =
+    A kulcskiszolgáló megkapja, majd kiszolgálja a meglévő nyilvános kulcsokat a felhasználóknak.
+    Lehetővé teszi nyilvános kulcsának közzétételét, valamint mások kulcsainak megkeresését és frissítését.
+email-e2ee-key-servers-use-following = A következő kulcskiszolgálók használata:
+email-e2ee-key-servers-add = Hozzáadás…
+email-e2ee-key-servers-reset = Kiszolgálólista visszaállítása
+email-e2ee-key-servers-add-title = Kulcskiszolgáló hozzáadása
+email-e2ee-key-servers-add-failed-title = A kulcskiszolgáló hozzáadása sikertelen
 
 ## Chat Tab
 
