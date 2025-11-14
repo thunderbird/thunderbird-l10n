@@ -781,6 +781,11 @@ preferences-doh-url-custom =
     .label = Özel
     .accesskey = Ö
 
+## Keyservers
+
+email-e2ee-key-servers-add = Ekle…
+email-e2ee-key-servers-reset = Sunucu listesini sıfırla
+
 ## Chat Tab
 
 startup-label =
