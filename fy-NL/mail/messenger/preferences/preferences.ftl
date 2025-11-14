@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = a
 email-e2ee-header = E-mail end-to-end-fersifering
 account-settings = Accountynstellingen
+email-e2ee-enable-accounts-info = Stel e-mailaccounts en identiteiten yn foar end-to-end-fersifering yn de <a data-l10n-name="account-settings-url">Accountynstellingen</a>.
 email-e2ee-enable-info = E-mailaccounts en identiteiten foar end-to-end-fersifering yn accountynstellingen ynstelle.
 email-e2ee-automatism = Automatysk gebrûk fan fersifering
 email-e2ee-automatism-pre =
