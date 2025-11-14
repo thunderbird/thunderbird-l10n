@@ -782,6 +782,20 @@ preferences-doh-url-custom =
     .label = Oanpast
     .accesskey = O
 
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP-kaaiservers
+email-e2ee-key-servers-intro =
+    In kaaiserver ûntfangt en leveret dêrnei besteande iepenbiere kaaien oan brûkers.
+    It lit jo jo iepenbiere kaai publisearje en kaaien fan oaren fine en ferfarskje.
+email-e2ee-key-servers-use-following = De folgjende kaaiservers brûke:
+email-e2ee-key-servers-add = Tafoegje…
+email-e2ee-key-servers-reset = Serverlist opnij inisjalisearje
+email-e2ee-key-servers-add-title = Kaaiserver tafoegje
+email-e2ee-key-servers-add-text = Fier de URL yn fan de kaaiserver dy’t jo tafoegje wolle.
+email-e2ee-key-servers-add-failed-title = Tafoegjen fan kaaiserver mislearre
+email-e2ee-key-servers-add-failed-text = Kin gjin ferbining meitsje mei in kaaiserver fia de opjûne URL.
+
 ## Chat Tab
 
 startup-label =
