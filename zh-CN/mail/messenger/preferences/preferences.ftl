@@ -783,6 +783,10 @@ preferences-doh-url-custom =
     .label = 自定义
     .accesskey = C
 
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP 密钥服务器
+
 ## Chat Tab
 
 startup-label =
