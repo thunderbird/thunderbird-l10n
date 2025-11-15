@@ -702,6 +702,7 @@ security-devices-button =
     .accesskey = Σ
 email-e2ee-header = Διατερματική κρυπτογράφηση email
 account-settings = Ρυθμίσεις λογαριασμού
+email-e2ee-enable-accounts-info = Ρυθμίστε λογαριασμούς email και ταυτότητες για τη διατερματική κρυπτογράφηση στις <a data-l10n-name="account-settings-url">Ρυθμίσεις λογαριασμού</a>.
 email-e2ee-enable-info = Διαμορφώστε λογαριασμούς email και ταυτότητες για διατερματική κρυπτογράφηση στις ρυθμίσεις λογαριασμού.
 email-e2ee-automatism = Αυτόματη χρήση κρυπτογράφησης
 email-e2ee-automatism-pre =
@@ -780,12 +781,16 @@ preferences-doh-url-custom =
 ## Keyservers
 
 email-e2ee-key-servers-legend = Διακομιστές κλειδιών OpenPGP
+email-e2ee-key-servers-intro =
+    Ένας διακομιστής κλειδιών λαμβάνει και έπειτα, διακομίζει υπάρχοντα δημόσια κλειδιά στους χρήστες.
+    Σας επιτρέπει να δημοσιεύσετε το δημόσιο κλειδί σας, καθώς και να βρείτε και να ανανεώσετε τα κλειδιά τρίτων.
 email-e2ee-key-servers-use-following = Χρήση των εξής διακομιστών κλειδιών:
 email-e2ee-key-servers-add = Προσθήκη…
 email-e2ee-key-servers-reset = Επαναφορά λίστας διακομιστών
 email-e2ee-key-servers-add-title = Προσθήκη διακομιστή κλειδιών
 email-e2ee-key-servers-add-text = Εισαγάγετε το URL του διακομιστή κλειδιών προς προσθήκη.
 email-e2ee-key-servers-add-failed-title = Αποτυχία προσθήκης διακομιστή κλειδιών
+email-e2ee-key-servers-add-failed-text = Δεν ήταν δυνατή η σύνδεση με έναν διακομιστή κλειδιών στο παρεχόμενο URL.
 
 ## Chat Tab
 
