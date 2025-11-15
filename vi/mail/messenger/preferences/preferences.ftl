@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Mã hóa đầu cuối email
 account-settings = Cài đặt tài khoản
+email-e2ee-enable-accounts-info = Thiết lập tài khoản email và danh tính để mã hóa đầu cuối trong <a data-l10n-name="account-settings-url">cài đặt tài khoản</a>.
 email-e2ee-enable-info = Thiết lập tài khoản email và danh tính cho mã hóa đầu cuối trong cài đặt tài khoản.
 email-e2ee-automatism = Tự động sử dụng mã hóa
 email-e2ee-automatism-pre =
@@ -780,6 +781,20 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Tuỳ chỉnh
     .accesskey = C
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP Keyserver
+email-e2ee-key-servers-intro =
+    Keyserver nhận và sau đó cung cấp khóa công khai hiện có cho người dùng.
+    Nó cho phép bạn công bố khóa công khai của mình và tìm và làm mới khóa của người khác.
+email-e2ee-key-servers-use-following = Sử dụng các keyserver sau:
+email-e2ee-key-servers-add = Thêm…
+email-e2ee-key-servers-reset = Đặt lại danh sách máy chủ
+email-e2ee-key-servers-add-title = Thêm Keyserver
+email-e2ee-key-servers-add-text = Nhập URL của keyserver để thêm.
+email-e2ee-key-servers-add-failed-title = Thêm Keyserver không thành công
+email-e2ee-key-servers-add-failed-text = Không thể kết nối với keyserver tại URL được cung cấp.
 
 ## Chat Tab
 

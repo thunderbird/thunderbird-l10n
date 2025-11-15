@@ -34,10 +34,20 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Lỗi kết nối. Chứng chỉ cho { $hostname } không đến từ nguồn đáng tin cậy. Nhấp để mở cài đặt bảo mật máy chủ.
+certificate-check-test-button = Kiểm tra kết nối với máy chủ
 certificate-check-fetch-button = Tải chứng chỉ
 certificate-check-view-button = Xem chứng chỉ
 certificate-check-add-exception-button = Thêm ngoại lệ
 certificate-check-remove-exception-button = Xoá ngoại lệ
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = Kiểm tra kết nối tới máy chủ { $hostname }…
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = Đã thiết lập thành công kết nối an toàn tới { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-failure = Kết nối tới máy chủ { $hostname } không thành công.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Đang tải chứng chỉ cho { $hostname }.
