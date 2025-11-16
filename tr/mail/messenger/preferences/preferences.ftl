@@ -783,8 +783,17 @@ preferences-doh-url-custom =
 
 ## Keyservers
 
+email-e2ee-key-servers-legend = OpenPGP anahtar sunucuları
+email-e2ee-key-servers-intro =
+    Anahtar sunucusu, mevcut ortak anahtarları alıp kullanıcılara sunar.
+    Ortak anahtarınızı yayımlamanıza ve başkalarının anahtarlarını bulup yenilemenize olanak tanır.
+email-e2ee-key-servers-use-following = Aşağıdaki anahtar sunucularını kullan:
 email-e2ee-key-servers-add = Ekle…
 email-e2ee-key-servers-reset = Sunucu listesini sıfırla
+email-e2ee-key-servers-add-title = Anahtar sunucusu ekle
+email-e2ee-key-servers-add-text = Eklenecek anahtar sunucusunun adresini girin.
+email-e2ee-key-servers-add-failed-title = Anahtar sunucusu eklenemedi
+email-e2ee-key-servers-add-failed-text = Belirtilen adresteki anahtar sunucusuna bağlanılamadı.
 
 ## Chat Tab
 
