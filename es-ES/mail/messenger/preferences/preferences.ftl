@@ -702,6 +702,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Cifrado de extremo a extremo del correo electrónico
 account-settings = Configuración de la cuenta
+email-e2ee-enable-accounts-info = Configure las cuentas de correo electrónico y las identidades para el cifrado de extremo a extremo en la <a data-l10n-name="account-settings-url">Configuración de la cuenta</a>.
 email-e2ee-enable-info = Configurar cuentas de correo electrónico e identidades para el cifrado de extremo a extremo en la configuración de la cuenta.
 email-e2ee-automatism = Uso automático de cifrado
 email-e2ee-automatism-pre =
@@ -776,6 +777,20 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Personalizado
     .accesskey = P
+
+## Keyservers
+
+email-e2ee-key-servers-legend = Servidores de claves OpenPGP
+email-e2ee-key-servers-intro =
+    Un servidor de claves recibe y proporciona claves públicas existentes a los usuarios. 
+    Le permite publicar su clave pública, así como encontrar y actualizar las claves de otros usuarios.
+email-e2ee-key-servers-use-following = Usar los siguientes servidores de claves:
+email-e2ee-key-servers-add = Añadir…
+email-e2ee-key-servers-reset = Restablecer lista de servidores
+email-e2ee-key-servers-add-title = Añadir servidor de claves
+email-e2ee-key-servers-add-text = Introduzca la URL del servidor de claves a añadir.
+email-e2ee-key-servers-add-failed-title = Error al añadir el servidor de claves
+email-e2ee-key-servers-add-failed-text = No se ha podido conectar a un servidor de claves en la URL proporcionada.
 
 ## Chat Tab
 
