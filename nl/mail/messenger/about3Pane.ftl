@@ -184,7 +184,7 @@ folder-pane-header-context-toggle-new-message =
 folder-pane-header-context-hide =
     .label = Koptekst mappenpaneel verbergen
 folder-pane-show-total-toggle =
-    .label = Toon het totaal aantal berichten
+    .label = Totaal aantal berichten tonen
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Mapgrootte tonen
