@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = 參加者：{ $attendeeProperty }
 calendar-invitations-none = 無
+# Invitations dialog
+calendar-invitations-title = 邀請
+calendar-invitations-status-updating = 正在更新邀請清單。
+calendar-invitations-status-none = 沒有找到未確認的邀請。
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = 接受
+calendar-invitations-decline =
+    .label = 拒絕
