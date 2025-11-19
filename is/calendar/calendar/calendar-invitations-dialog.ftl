@@ -25,3 +25,8 @@ organizer =
 calendar-invitations-attendee =
     .value = Þátttakandi: { $attendeeProperty }
 calendar-invitations-none = Enginn
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Samþykkja
+calendar-invitations-decline =
+    .label = Hafna
