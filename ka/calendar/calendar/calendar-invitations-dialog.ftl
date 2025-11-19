@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = დამსწრე: { $attendeeProperty }
 calendar-invitations-none = არცერთი
+# Invitations dialog
+calendar-invitations-title = მოსაწვევები
+calendar-invitations-status-updating = მოსაწვევთა სიის განახლება.
+calendar-invitations-status-none = დაუდასტურებელი მოწვევა ვერ მოიძებნა.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = მიღება
+calendar-invitations-decline =
+    .label = უარყოფა
