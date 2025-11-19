@@ -137,7 +137,7 @@ folder-toolbar-toggle-folder-compact-view =
 
 folder-name-spam = Sbam
 # Gmail's "All Mail" folder. Please make sure this is the same string used in the Gmail web UI for your language.
-folder-name-all-mail = Pob Post
+folder-name-all-mail = Pob Neges
 
 ## File Menu
 
