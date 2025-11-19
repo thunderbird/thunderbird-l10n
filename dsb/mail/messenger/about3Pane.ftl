@@ -194,6 +194,9 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Wjelikosć zarědnika pokazaś
+# Context menu item to toggle display of full folder path in compact mode.
+folder-pane-header-toggle-full-path =
+    .label = Dopołnu sćažku pokazaś
 folder-pane-header-hide-local-folders =
     .label = Lokalne zarědniki schowaś
 folder-pane-mode-context-button =
