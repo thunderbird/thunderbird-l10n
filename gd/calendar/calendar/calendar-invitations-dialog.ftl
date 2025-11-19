@@ -21,3 +21,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Freastalaiche: { $attendeeProperty }
 calendar-invitations-none = Chan eil gin
+# Invitations dialog
+calendar-invitations-title = Cuiridhean
+calendar-invitations-status-updating = Ag ùrachadh liosta nan cuiridhean.
+calendar-invitations-status-none = Chan deach cuireadh a lorg nach deach a dhearbhadh.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Gabh ris
+calendar-invitations-decline =
+    .label = Diùlt
