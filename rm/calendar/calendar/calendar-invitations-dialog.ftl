@@ -21,3 +21,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Participant: { $attendeeProperty }
 calendar-invitations-none = Nagin
+# Invitations dialog
+calendar-invitations-title = Invitaziuns
+calendar-invitations-status-updating = actualisar la glista dad intivaziuns.
+calendar-invitations-status-none = Chattà naginas invitaziuns betg confermadas.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Acceptar
+calendar-invitations-decline =
+    .label = Refusar
