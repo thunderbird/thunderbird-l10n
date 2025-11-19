@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Қатысушы: { $attendeeProperty }
 calendar-invitations-none = Ешнәрсе
+# Invitations dialog
+calendar-invitations-title = Шақырулар
+calendar-invitations-status-updating = Шақырулар тізімін жаңарту.
+calendar-invitations-status-none = Расталмаған шақырулар табылмады.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Қабылдау
+calendar-invitations-decline =
+    .label = Тайдыру
