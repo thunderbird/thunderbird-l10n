@@ -12,3 +12,12 @@ calendar-invitations-location =
 organizer =
     .value = Nuk'unem: { $organizerProperty }
 calendar-invitations-none = Majun
+# Invitations dialog
+calendar-invitations-title = Taq peyonïk
+calendar-invitations-status-updating = Nsamajïx rucholajem ri taq peyonïk
+calendar-invitations-status-none = Man xilitäj ta taq peyonïk ri man kiya'on ta rutzijol.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Tik'ul
+calendar-invitations-decline =
+    .label = Ruxaxul
