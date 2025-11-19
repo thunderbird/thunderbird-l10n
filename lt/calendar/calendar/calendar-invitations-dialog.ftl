@@ -21,3 +21,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Dalyvauja: { $attendeeProperty }
 calendar-invitations-none = nėra
+# Invitations dialog
+calendar-invitations-title = Pakvietimai
+calendar-invitations-status-updating = Atnaujinamas pakvietimų sąrašas.
+calendar-invitations-status-none = Nepatvirtintų pakvietimų nerasta.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Priimti
+calendar-invitations-decline =
+    .label = Atmesti
