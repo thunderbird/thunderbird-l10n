@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Người tham dự: { $attendeeProperty }
 calendar-invitations-none = Không có
+# Invitations dialog
+calendar-invitations-title = Thư mời
+calendar-invitations-status-updating = Cập nhật danh sách thư mời.
+calendar-invitations-status-none = Không tìm thấy các thư mời chưa có xác nhận.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Chấp nhận
+calendar-invitations-decline =
+    .label = Từ chối
