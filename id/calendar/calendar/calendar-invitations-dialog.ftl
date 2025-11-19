@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Peserta: { $attendeeProperty }
 calendar-invitations-none = Tidak ada
+# Invitations dialog
+calendar-invitations-title = Undangan
+calendar-invitations-status-updating = Memutakhirkan daftar undangan.
+calendar-invitations-status-none = Tidak ada undangan yang telah dikonfirmasi ditemukan.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Terima
+calendar-invitations-decline =
+    .label = Tolak
