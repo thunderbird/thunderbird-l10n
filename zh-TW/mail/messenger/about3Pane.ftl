@@ -182,6 +182,9 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = 顯示信件匣大小
+# Context menu item to toggle display of full folder path in compact mode.
+folder-pane-header-toggle-full-path =
+    .label = 顯示完整路徑
 folder-pane-header-hide-local-folders =
     .label = 隱藏本機信件匣
 folder-pane-mode-context-button =
