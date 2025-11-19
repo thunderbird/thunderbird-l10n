@@ -21,3 +21,12 @@ organizer =
 calendar-invitations-attendee =
     .value = 참석자: { $attendeeProperty }
 calendar-invitations-none = 없음
+# Invitations dialog
+calendar-invitations-title = 초대
+calendar-invitations-status-updating = 초대 항목을 갱신 합니다.
+calendar-invitations-status-none = 초대 항목이 없습니다.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = 허가
+calendar-invitations-decline =
+    .label = 거절
