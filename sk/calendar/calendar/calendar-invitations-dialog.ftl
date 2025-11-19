@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Účastník: { $attendeeProperty }
 calendar-invitations-none = Žiadny
+# Invitations dialog
+calendar-invitations-title = Pozvánky
+calendar-invitations-status-updating = Aktualizuje sa zoznam pozvánok.
+calendar-invitations-status-none = Neboli nájdené žiadne nepotvrdené pozvánky.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Prijať
+calendar-invitations-decline =
+    .label = Odmietnuť
