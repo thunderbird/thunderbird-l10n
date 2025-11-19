@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Pjesëmarrës: { $attendeeProperty }
 calendar-invitations-none = Asnjë
+# Invitations dialog
+calendar-invitations-title = Ftesa
+calendar-invitations-status-updating = Po përditësohet lista e ftesave.
+calendar-invitations-status-none = Nuk u gjetën ftesa të papërgjigjura.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Pranoje
+calendar-invitations-decline =
+    .label = Hidhe poshtë
