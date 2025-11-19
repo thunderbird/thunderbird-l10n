@@ -21,3 +21,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Win ittekkan: { $attendeeProperty }
 calendar-invitations-none = Ula yiwen
+# Invitations dialog
+calendar-invitations-title = Tinubgiwin
+calendar-invitations-status-updating = Aleqqem n tebdart n tnubgiwin
+calendar-invitations-status-none = Ula tinubgiwin yettwasentmen i yettwafen.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Qbel
+calendar-invitations-decline =
+    .label = Agwi
