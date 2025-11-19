@@ -123,6 +123,7 @@ address-book-ldap-creation-error = Klarte ikkje å opprette LDAP-katalog.
 account-hub-email-setup-ews = Serverinnstillingar
 account-hub-result-host-url-label = URL-adresse for EWS-endepunkt
 account-hub-email-credentials-confirmation = Kontokonfigurasjon
+account-hub-result-unknown-hostname = Ukjent vertsnamn
 account-hub-result-unknown-cert = Ikkje-stadfesta sertifikat
 account-hub-close-button =
     .title = Lat att

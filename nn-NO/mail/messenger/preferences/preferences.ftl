@@ -778,6 +778,10 @@ preferences-doh-url-custom =
     .label = Tilpassa
     .accesskey = T
 
+## Keyservers
+
+email-e2ee-key-servers-add = Legg til…
+
 ## Chat Tab
 
 startup-label =
