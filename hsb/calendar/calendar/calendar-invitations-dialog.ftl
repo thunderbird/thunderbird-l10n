@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Wobdźělnik: { $attendeeProperty }
 calendar-invitations-none = Žadyn
+# Invitations dialog
+calendar-invitations-title = Přeprošenja
+calendar-invitations-status-updating = Lisćinu přeprošenjow aktualizować.
+calendar-invitations-status-none = Žane njewobkrućene přeprošenja namakane.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Akceptować
+calendar-invitations-decline =
+    .label = Wotpokazać
