@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Katılımcı: { $attendeeProperty }
 calendar-invitations-none = Hiçbiri
+# Invitations dialog
+calendar-invitations-title = Davetler
+calendar-invitations-status-updating = Davet listesi güncelleniyor.
+calendar-invitations-status-none = Kabul edilmeyen davet bulunamadı.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Kabul et
+calendar-invitations-decline =
+    .label = Reddet
