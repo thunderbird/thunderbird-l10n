@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Partaideak: { $attendeeProperty }
 calendar-invitations-none = Bat ere ez
+# Invitations dialog
+calendar-invitations-title = Gonbidapenak
+calendar-invitations-status-updating = Gonbidapenen zerrenda eguneratzen.
+calendar-invitations-status-none = Ez da berretsi gabeko gonbidapenik aurkitu.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Onartu
+calendar-invitations-decline =
+    .label = Baztertu

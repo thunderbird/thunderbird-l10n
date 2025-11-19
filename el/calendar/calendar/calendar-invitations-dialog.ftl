@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Συμμετέχων: { $attendeeProperty }
 calendar-invitations-none = Κανένας
+# Invitations dialog
+calendar-invitations-title = Προσκλήσεις
+calendar-invitations-status-updating = Ενημέρωση λίστας προσκλήσεων.
+calendar-invitations-status-none = Δεν βρέθηκαν ανεπιβεβαίωτες προσκλήσεις.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Αποδοχή
+calendar-invitations-decline =
+    .label = Απόρριψη

@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Dielnimmer: { $attendeeProperty }
 calendar-invitations-none = Gjin
+# Invitations dialog
+calendar-invitations-title = Utnûgingen
+calendar-invitations-status-updating = Utnûgingslist bywurkje.
+calendar-invitations-status-none = Gjin ûnbefêstige útnûgingen fûn.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Akseptearje
+calendar-invitations-decline =
+    .label = Wegerje

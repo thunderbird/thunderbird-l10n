@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Uczestnik: { $attendeeProperty }
 calendar-invitations-none = Brak
+# Invitations dialog
+calendar-invitations-title = Zaproszenia
+calendar-invitations-status-updating = Aktualizowanie listy zaproszeń.
+calendar-invitations-status-none = Nie znaleziono niepotwierdzonych zaproszeń.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Akceptuj
+calendar-invitations-decline =
+    .label = Odrzuć

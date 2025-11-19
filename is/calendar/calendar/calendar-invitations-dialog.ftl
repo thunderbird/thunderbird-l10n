@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Þátttakandi: { $attendeeProperty }
 calendar-invitations-none = Enginn
+# Invitations dialog
+calendar-invitations-title = Fundarboð
+calendar-invitations-status-updating = Uppfæri lista af fundarboðum.
+calendar-invitations-status-none = Fann engin óstaðfest fundarboð.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Samþykkja
+calendar-invitations-decline =
+    .label = Hafna

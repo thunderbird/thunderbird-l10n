@@ -21,3 +21,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Assistent: { $attendeeProperty }
 calendar-invitations-none = Cap
+# Invitations dialog
+calendar-invitations-title = Invitacions
+calendar-invitations-status-updating = S'està actualitzant la llista d'invitacions.
+calendar-invitations-status-none = No s'han trobat invitacions per confirmar.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Accepta
+calendar-invitations-decline =
+    .label = Declina

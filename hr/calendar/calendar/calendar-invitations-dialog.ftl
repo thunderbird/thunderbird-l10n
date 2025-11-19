@@ -21,3 +21,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Sudionik: { $attendeeProperty }
 calendar-invitations-none = Ništa
+# Invitations dialog
+calendar-invitations-title = Pozivnice
+calendar-invitations-status-updating = Ažuriranje popisa pozivnica.
+calendar-invitations-status-none = Nisu pronađene nepotvrđene pozivnice.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Prihvati
+calendar-invitations-decline =
+    .label = Odbij

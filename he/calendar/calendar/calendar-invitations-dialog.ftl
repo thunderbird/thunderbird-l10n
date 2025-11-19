@@ -9,3 +9,12 @@ recurrent-event =
 calendar-invitations-location =
     .value = מיקום: { $locationProperty }
 calendar-invitations-none = ללא
+# Invitations dialog
+calendar-invitations-title = זימונים
+calendar-invitations-status-updating = מעדכן רשימת מוזמנים.
+calendar-invitations-status-none = לא נמצאו מוזמנים שלא אישרו.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = קבל
+calendar-invitations-decline =
+    .label = דחה

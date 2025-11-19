@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Résztvevő: { $attendeeProperty }
 calendar-invitations-none = Nincs
+# Invitations dialog
+calendar-invitations-title = Meghívók
+calendar-invitations-status-updating = Meghívók listájának frissítése
+calendar-invitations-status-none = Nem találhatók visszaigazolatlan meghívók.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Elfogadás
+calendar-invitations-decline =
+    .label = Elvetés

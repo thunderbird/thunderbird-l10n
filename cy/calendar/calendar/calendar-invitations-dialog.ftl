@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Mynychwr: { $attendeeProperty }
 calendar-invitations-none = Dim
+# Invitations dialog
+calendar-invitations-title = Gwahoddiadau
+calendar-invitations-status-updating = Diweddaru'r rhestr gwahoddedigion.
+calendar-invitations-status-none = Heb ganfod gwahoddiadau heb eu cadarnhau.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Derbyn
+calendar-invitations-decline =
+    .label = Gwrthod

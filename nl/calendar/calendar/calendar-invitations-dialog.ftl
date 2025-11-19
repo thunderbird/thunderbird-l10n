@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Genodigde: { $attendeeProperty }
 calendar-invitations-none = Geen
+# Invitations dialog
+calendar-invitations-title = Uitnodigingen
+calendar-invitations-status-updating = Uitnodigingenlijst bijwerken.
+calendar-invitations-status-none = Geen onbevestigde uitnodigingen gevonden.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Accepteren
+calendar-invitations-decline =
+    .label = Weigeren

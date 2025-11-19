@@ -19,3 +19,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Perzhiad: { $attendeeProperty }
 calendar-invitations-none = Tra ebet
+# Invitations dialog
+calendar-invitations-title = Pedadennoù
+calendar-invitations-status-updating = Oc'h hizivaat listenn ar pedadennoù.
+calendar-invitations-status-none = N'eo bet kavet pedadenn digadarnet ebet.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Asañtiñ
+calendar-invitations-decline =
+    .label = Nac'hañ

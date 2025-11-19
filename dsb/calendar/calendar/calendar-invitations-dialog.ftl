@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Wobźělnik: { $attendeeProperty }
 calendar-invitations-none = Žeden
+# Invitations dialog
+calendar-invitations-title = Pśepšosenja
+calendar-invitations-status-updating = Lisćinu pśepšosenjow aktualizěrowaś.
+calendar-invitations-status-none = Žedne njewobkšuśone pśepšosenja namakane.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Akceptěrowaś
+calendar-invitations-decline =
+    .label = Wótpokazaś

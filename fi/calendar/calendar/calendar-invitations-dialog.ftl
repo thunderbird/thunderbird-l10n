@@ -21,3 +21,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Osallistuja: { $attendeeProperty }
 calendar-invitations-none = Ei mitään
+# Invitations dialog
+calendar-invitations-title = Kutsut
+calendar-invitations-status-updating = Päivitetään kutsulistaa.
+calendar-invitations-status-none = Vahvistamattomia kutsuja ei löytynyt.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Hyväksy
+calendar-invitations-decline =
+    .label = Älä hyväksy

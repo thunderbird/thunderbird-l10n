@@ -21,3 +21,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Удзельнік: { $attendeeProperty }
 calendar-invitations-none = Няма
+# Invitations dialog
+calendar-invitations-title = Запрашэнні
+calendar-invitations-status-updating = Абнаўленне спіса запрашэнняў.
+calendar-invitations-status-none = Непацверджаныя запрашэнні не знойдзены.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Прыняць
+calendar-invitations-decline =
+    .label = Адхіліць
