@@ -21,3 +21,12 @@ organizer =
 calendar-invitations-attendee =
     .value = ผู้เข้าร่วม: { $attendeeProperty }
 calendar-invitations-none = ไม่มี
+# Invitations dialog
+calendar-invitations-title = คำเชิญ
+calendar-invitations-status-updating = กำลังอัปเดตรายการคำเชิญ
+calendar-invitations-status-none = ไม่พบคำเชิญที่ไม่ได้ยืนยัน
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = ยอมรับ
+calendar-invitations-decline =
+    .label = ปฏิเสธ
