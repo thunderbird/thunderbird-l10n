@@ -25,3 +25,12 @@ organizer =
 calendar-invitations-attendee =
     .value = Deltaker: { $attendeeProperty }
 calendar-invitations-none = Ingen
+# Invitations dialog
+calendar-invitations-title = Invitasjoner
+calendar-invitations-status-updating = Oppdaterer liste over invitasjoner.
+calendar-invitations-status-none = Ingen ubekreftede invitasjoner funnet.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Aksepter
+calendar-invitations-decline =
+    .label = Avslå
