@@ -645,6 +645,9 @@ spam-read-manual-label =
 spam-read-auto-label =
     .label = ko jih { -brand-short-name } prepozna kot neželena
     .accesskey = T
+spam-log-button =
+    .label = Prikaži dnevnik
+    .accesskey = P
 junk-description = Nastavite svoje privzete nastavitve za neželeno pošto. Nastavitve neželene pošte za posamezni račun lahko prilagodite v nastavitvah računa.
 junk-marked-label =
     .label = Ko so sporočila označena kot neželena:
@@ -771,6 +774,11 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Po meri
     .accesskey = m
+
+## Keyservers
+
+email-e2ee-key-servers-add = Dodaj …
+email-e2ee-key-servers-reset = Ponastavi seznam strežnikov
 
 ## Chat Tab
 
