@@ -133,7 +133,7 @@ folder-toolbar-toggle-folder-compact-view =
 
 folder-name-spam = Spam
 # Gmail's "All Mail" folder. Please make sure this is the same string used in the Gmail web UI for your language.
-folder-name-all-mail = Todo
+folder-name-all-mail = Todos
 
 ## File Menu
 
