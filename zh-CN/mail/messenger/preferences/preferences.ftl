@@ -786,6 +786,9 @@ preferences-doh-url-custom =
 ## Keyservers
 
 email-e2ee-key-servers-legend = OpenPGP 密钥服务器
+email-e2ee-key-servers-add-title = 添加密钥服务器
+email-e2ee-key-servers-add-text = 输入要添加的密钥服务器的网址。
+email-e2ee-key-servers-add-failed-title = 添加密钥服务器失败
 
 ## Chat Tab
 
