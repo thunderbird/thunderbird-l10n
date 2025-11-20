@@ -786,6 +786,10 @@ preferences-doh-url-custom =
 ## Keyservers
 
 email-e2ee-key-servers-legend = OpenPGP 密钥服务器
+email-e2ee-key-servers-intro = 密钥服务器负责接收现有的公钥，并将其提供给用户。它允许您发布自己的公钥，并查找和更新他人的公钥。
+email-e2ee-key-servers-use-following = 使用以下密钥服务器：
+email-e2ee-key-servers-add = 添加…
+email-e2ee-key-servers-reset = 重置服务器列表
 email-e2ee-key-servers-add-title = 添加密钥服务器
 email-e2ee-key-servers-add-text = 输入要添加的密钥服务器的网址。
 email-e2ee-key-servers-add-failed-title = 添加密钥服务器失败
