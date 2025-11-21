@@ -864,6 +864,10 @@ preferences-doh-url-custom =
     .label = Vlastní
     .accesskey = V
 
+## Keyservers
+
+email-e2ee-key-servers-add = Přidat…
+
 ## Chat Tab
 
 startup-label =
