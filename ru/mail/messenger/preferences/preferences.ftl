@@ -979,7 +979,7 @@ qr-export-scan-description =
         [few] Сканируйте QR-коды с помощью { -brand-product-name } на вашем мобильном устройстве
        *[many] Сканируйте QR-коды с помощью { -brand-product-name } на вашем мобильном устройстве
     }
-qr-export-scan-step1 = Откройте { -brand-product-name } на своем мобильном устройстве
+qr-export-scan-step1 = Откройте { -brand-product-name } на своём мобильном устройстве
 qr-export-scan-step2 = Перейти в настройки
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Выберите <strong>Настройки импорта</strong>.
