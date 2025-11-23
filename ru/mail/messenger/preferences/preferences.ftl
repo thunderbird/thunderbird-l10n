@@ -959,7 +959,7 @@ qr-export-select-all-accounts = Выбрать все
 qr-export-security-legend = Защита
 qr-export-include-passwords = Включить пароли всех учётных записей
 qr-export-oauth-warning = В некоторых ваших учетных записях используется метод аутентификации, который может потребовать повторной аутентификации на вашем мобильном устройстве. В ходе этого процесса вам может потребоваться повторно ввести свои пароли.
-qr-export-security-hint = При сканировании следующих QR-кодов параметры вашей учётной записи, включая ваш адрес электронной почты и пароль, будут безопасно перенесены. Мы не собираем, не храним и не передаем какие-либо из этих данных в процессе работы. Передача происходит напрямую между вашими устройствами.
+qr-export-security-hint = При сканировании следующих QR-кодов параметры вашего аккаунта, включая ваш адрес электронной почты и пароль, будут безопасно перенесены. Мы не собираем, не храним и не передаём какие-либо из этих данных в процессе работы. Передача происходит напрямую между вашими устройствами.
 qr-export-security-warning = В целях вашей безопасности, пожалуйста, убедитесь, что вы находитесь в приватном режиме, и сканируйте QR-коды только из надёжных источников.
 qr-export-start-export = Экспорт
 # Variables:
@@ -984,7 +984,7 @@ qr-export-scan-step2 = Перейти в настройки
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Выберите <strong>Настройки импорта</strong>.
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
-qr-export-scan-step4-revision = Нажмите <strong>Сканировать QR-код</strong> и держите телефон над этим кодом
+qr-export-scan-step4-revision = Нажмите «<strong>Сканировать QR-код</strong>» и держите телефон над этим кодом
 qr-export-back = Назад
 qr-export-next = Далее
 qr-export-done = Готово
