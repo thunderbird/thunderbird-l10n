@@ -106,7 +106,8 @@ timezone-error = Nepoznata i nedefinirana vremenska zona je pronađena čitajuć
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
     { $count ->
-        [one] { $count } stavki je zanemareno pošto postoje u odredišnom kalendaru i { $filePath }.
+        [one] { $count } stavka je zanemarena pošto postoji u odredišnom kalendaru i { $filePath }.
+        [few] { $count } stavke su zanemarene pošto postoje u odredišnom kalendaru i { $filePath }.
        *[other] { $count } stavki je zanemareno pošto postoje u odredišnom kalendaru i { $filePath }.
     }
 # $location unknown calendar location
