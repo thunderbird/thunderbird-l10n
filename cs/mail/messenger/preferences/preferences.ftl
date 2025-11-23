@@ -867,6 +867,7 @@ preferences-doh-url-custom =
 ## Keyservers
 
 email-e2ee-key-servers-add = Přidat…
+email-e2ee-key-servers-add-failed-text = Nelze se připojit k serveru klíčů na zadané URL.
 
 ## Chat Tab
 
