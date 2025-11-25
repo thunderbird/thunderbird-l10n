@@ -781,6 +781,7 @@ preferences-doh-url-custom =
 ## Keyservers
 
 email-e2ee-key-servers-add = Legg til…
+email-e2ee-key-servers-add-title = Legg til nøkkelserver
 
 ## Chat Tab
 
