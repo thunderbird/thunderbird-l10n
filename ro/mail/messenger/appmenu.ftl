@@ -25,7 +25,7 @@ appmenu-sync-settings =
     .label = Setări de sincronizare
     .accesskey = S
 appmenu-sync-sign-out =
-    .label = Deconectare…
+    .label = Ieși din cont…
     .accesskey = O
 
 ## New Account

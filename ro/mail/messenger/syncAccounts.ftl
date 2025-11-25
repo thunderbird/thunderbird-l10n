@@ -16,7 +16,7 @@ sync-verification-not-sent-body = Nu putem să trimitem un e-mail de verificare 
 
 sync-signout-dialog-title = Ieși din cont?
 sync-signout-dialog-body = Datele sincronizate vor rămâne în cont.
-sync-signout-dialog-button = Deconectare
+sync-signout-dialog-button = Ieși din cont
 
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
 
