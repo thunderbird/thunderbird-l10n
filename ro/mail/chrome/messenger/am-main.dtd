@@ -24,7 +24,7 @@
 <!ENTITY signatureText.accesskey "x">
 <!ENTITY signatureHtml.label "Folosește HTML (ex: &lt;b&gt;bold&lt;/b&gt;)">
 <!ENTITY signatureHtml.accesskey "L">
-<!ENTITY signatureFile.label "A&amp;tașează semnătura dintr-un fișier (text, HTML sau imagine):">
+<!ENTITY signatureFile.label "Atașează semnătura dintr-un fișier (text, HTML sau imagine):">
 <!ENTITY signatureFile.accesskey "t">
 <!ENTITY edit.label "Editează…">
 <!ENTITY choose.label "Alege…">
