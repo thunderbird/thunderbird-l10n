@@ -526,7 +526,7 @@ menu-delete-spam =
 ## Folder pane context.
 
 folder-context-empty-spam =
-    .label = Пустой спам
+    .label = Очистить спам
     .accesskey = Ы
 
 ## Thread pane.
