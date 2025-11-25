@@ -9,7 +9,7 @@
 <!ENTITY chat.noConv.description "Bruk kontaktlista i panelet til venstre for å starta ein samtale.">
 <!ENTITY chat.noPreviousConv.description "&brandShortName; har ingen tidlegare samtalar lagra for denne kontakten. ">
 <!ENTITY chat.noAccount.title "Du har ikkje sett opp ein nettprat-konto enno.">
-<!ENTITY chat.noAccount.description "La &brandShortName; guida deg gjennom å setta opp ein nettprat-konto.">
+<!ENTITY chat.noAccount.description "La &brandShortName; rettleie deg gjennom prosessen med å setje opp chatkontoen din.">
 <!ENTITY chat.accountWizard.button "Kom i gang">
 <!ENTITY chat.noConnectedAccount.title "Nettpratkontoane dine er no tilkopla.">
 <!ENTITY chat.noConnectedAccount.description "Du kan kopla dei til frå «Nettpratstatus»-dialogen:">
