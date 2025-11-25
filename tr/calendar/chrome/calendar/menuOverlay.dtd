@@ -10,7 +10,7 @@
 <!ENTITY calendar.import.label "İçe aktar…">
 <!ENTITY calendar.import.accesskey "e">
 <!ENTITY calendar.export.label "Dışa aktar…">
-<!ENTITY calendar.export.accesskey "e">
+<!ENTITY calendar.export.accesskey "D">
 <!ENTITY calendar.publish.label "Yayımla…">
 <!ENTITY calendar.publish.accesskey "Y">
 <!ENTITY calendar.deletecalendar.label "Seçili takvimi sil">

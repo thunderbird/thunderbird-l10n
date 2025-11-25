@@ -668,7 +668,7 @@ show-calendar-title =
 # $name (String) - The calendar name
 show-calendar-name =
     .label = { $name } takvimini göster
-    .accesskey = h
+    .accesskey = t
 # Variables:
 # $name (String) - The calendar name
 hide-calendar-name =
