@@ -87,7 +87,7 @@ conversation-error-failed-jid-not-found = Klarte ikke å nå { $jabberIdentifier
 conversation-error-invalid-jid = { $jabberIdentifier } er ein ugyldig jid (Jabber-identifikatorar må ha formatet brukar@domene).
 conversation-error-command-failed-not-in-room = Du må kopla til rommet på nytt for å bruka denne kommandoen.
 #   $recipient (String) is the name of the recipient.
-conversation-error-resource-not-available = Du må prata fyrst fordi { $recipient } kan vera tilkopla meir enn ein klient.
+conversation-error-resource-not-available = Du må prate fyrst fordi { $recipient } kan vere tilkopla meir enn ein klient.
 # LOCALIZATION NOTE (conversation-error-version-*):
 #   $recipient is the name of the recipient.
 conversation-error-version-unknown = { $recipient } klienten støttar ikkje spørsmål om programversjon.
@@ -270,9 +270,9 @@ command-part2 = { $commandName } [&lt;melding&gt;]: Forlat rommet med ei valfri 
 # $commandName (String): command name
 command-topic = { $commandName } [&lt;nytt emne&gt;]: Vel emne for dette rommet.
 # $commandName (String): command name
-command-ban = { $commandName } &lt;nick&gt;[&lt;message&gt;]: Utesteng nokon frå rommet. Du må vera administrator for rommet for å gjera dette.
+command-ban = { $commandName } &lt;nick&gt;[&lt;message&gt;]: Utesteng nokon frå rommet. Du må vere administrator for rommet for å gjere dette.
 # $commandName (String): command name
-command-kick = { $commandName } &lt;nick&gt;[&lt;message&gt;]: Fjern nokon frå rommet. Du må vera moderator for rommet for å gjera dette.
+command-kick = { $commandName } &lt;nick&gt;[&lt;message&gt;]: Fjern nokon frå rommet. Du må vere moderator for rommet for å gjere dette.
 # $commandName (String): command name
 command-invite = { $commandName } &lt;jid&gt;[&lt;message&gt;]: Inviter ein brukar til å kopla til dette rommet med ei valfri melding.
 # $commandName (String): command name

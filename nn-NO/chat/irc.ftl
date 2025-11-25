@@ -52,15 +52,15 @@ command-ctcp = { $commandName } &lt;kallenamn&gt; &lt;msg&gt;: Sender ei CTCP-me
 # $commandName is the command name
 command-chanserv = { $commandName } &lt;kommando&gt;: Sender ein kommando til ChanServ.
 # $commandName is the command name
-command-deop = { $commandName } &lt;kallenamn1&gt;[,&lt;kallenamn2&gt;]*: Fjern kanaloperatørstatus frå nokon. Du må vera kanaloperatør for å gjera dette.
+command-deop = { $commandName } &lt;kallenamn1&gt;[,&lt;kallenamn2&gt;]*: Fjern kanaloperatørstatus frå nokon. Du må vere kanaloperatør for å gjere dette.
 # $commandName is the command name
-command-devoice = { $commandName } &lt;kallenamn1&gt;[,&lt;kallenamn2&gt;]*: Fjern voice-status i kanalen frå somme, slik at dei vert hindra i å prata i kanalen dersom han er moderert (+m). Du må vera kanaloperatør for å gjera dette.
+command-devoice = { $commandName } &lt;kallenamn1&gt;[,&lt;kallenamn2&gt;]*: Fjern voice-status i kanalen frå somme, slik at dei vert hindra i å prata i kanalen dersom han er moderert (+m). Du må vere kanaloperatør for å gjere dette.
 # $commandName is the command name
 command-invite2 = { $commandName } &lt;kallenamn&gt;[ &lt;kallenamn&gt;]* [&lt;kanal&gt;]: Inviter ein eller fleire kallenamn til å vere med deg i denne kanalen, eller kople til den spesifiserte kanalen.
 # $commandName is the command name
 command-join = { $commandName } &lt;rom1&gt;[,&lt;rom2&gt;]* [&lt;nykel1&gt;[,&lt;nykel2&gt;]*]: Skriv inn ein eller fleire kanalar, og valfritt spesifiser ein kanalnykel for kvar av dei dersom det er påkravd.
 # $commandName is the command name
-command-kick = { $commandName } &lt;kallenamn&gt; [&lt;melding&gt;]: Fjern nokre frå ein kanal. Du må vera kanaloperatør for å gjera dette.
+command-kick = { $commandName } &lt;kallenamn&gt; [&lt;melding&gt;]: Fjern nokre frå ein kanal. Du må vere kanaloperatør for å gjere dette.
 # $commandName is the command name
 command-list = { $commandName }: Viser ei liste over alle praterom på dette nettverket. Åtvaring, nokre serverar vil kopla deg frå dersom du prøver dette.
 # $commandName is the command name
@@ -78,7 +78,7 @@ command-nickserv = { $commandName } &lt;kommando&gt;: Send ein kommando til Nick
 # $commandName is the command name
 command-notice = { $commandName } &lt;mål&gt; &lt;melding&gt;: Send ein notis til ein brukar eller kanal.
 # $commandName is the command name
-command-op = { $commandName } &lt;kallenamn1&gt;[,&lt;kallenamn2&gt;]*: Gje kanaloperatørstatus til nokon. Du må vera kanaloperatør for å gjera dette.
+command-op = { $commandName } &lt;kallenamn1&gt;[,&lt;kallenamn2&gt;]*: Gje kanaloperatørstatus til nokon. Du må vere kanaloperatør for å gjere dette.
 # $commandName is the command name
 command-operserv = { $commandName } &lt;kommando&gt;: Send ein kommando til OperServ.
 # $commandName is the command name

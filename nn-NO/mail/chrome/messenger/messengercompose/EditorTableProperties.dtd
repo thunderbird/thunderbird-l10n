@@ -62,7 +62,7 @@
 <!ENTITY cellAlignBottom.label "Botn">
 <!ENTITY cellAlignJustify.label "Justering">
 <!ENTITY cellInheritColor.label "(Lat tabellfargen skina gjennom)">
-<!ENTITY cellUseCheckboxHelp.label "Bruk avkryssingsboksar for å avgjera kva eigenskapar som skal gjelda alle merka celler">
+<!ENTITY cellUseCheckboxHelp.label "Bruk avkryssingsboksar for å avgjere kva eigenskapar som skal gjelde alle merkte celler">
 <!-- Used in both Table and Cell panels -->
 <!ENTITY size.label "Storleik">
 <!ENTITY pixels.label "pikslar">
