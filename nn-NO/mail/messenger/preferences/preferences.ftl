@@ -156,7 +156,7 @@ mail-play-sound-label =
 mail-play-button =
     .label = Spel av
     .accesskey = e
-change-dock-icon = Endra innstillingar for app-ikonet
+change-dock-icon = Endre innstillingar for app-ikonet
 app-icon-options =
     .label = Innstillingar for app-ikon …
     .accesskey = n
@@ -231,7 +231,7 @@ search-engine-name =
        *[other] { "" }
     }
 search-integration-label =
-    .label = Tillat { search-engine-name } å søkja i meldingar
+    .label = Tillat { search-engine-name } å søkje i meldingar
     .accesskey = T
 config-editor-button =
     .label = Konfigurasjonseditor …
@@ -368,7 +368,7 @@ choose-folder-label =
 always-ask-label =
     .label = Alltid spør meg om kvar eg vil lagre filer
     .accesskey = A
-display-tags-text = Merkelapp-stikkord kan brukast for å kategorisera og prioritera meldingane dine.
+display-tags-text = Etikettar kan brukast for å kategorisere og prioritere meldingane dine.
 new-tag-button =
     .label = Ny…
     .accesskey = N

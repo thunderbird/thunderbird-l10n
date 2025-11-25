@@ -80,10 +80,10 @@ quick-filter-bar-inaddrbook-label = Kontaktar
 # The tooltip for the filter button that causes us to filter results to only
 # include messages with at least one tag on them.
 quick-filter-bar-tags =
-    .title = Vis berre meldingar som har merkelapp-stikkord
+    .title = Vis berre meldingar som har etikettar
 # The label for the filter button that causes us to filter results to only
 # include messages with at least one tag on them.
-quick-filter-bar-tags-label = Merkelapp-stikkord
+quick-filter-bar-tags-label = Etikettar
 # The tooltip for the filter button that causes us to filter results to only
 # include messages with attachments.
 quick-filter-bar-attachment =
@@ -336,10 +336,10 @@ threadpane-column-label-size =
 threadpane-cell-size-title =
     .aria-label = Storleik
     .title = { $title }
-threadpane-column-header-tags = Merkelapp-stikkord
-    .title = Sorter etter: Merkelapp-stikkord
+threadpane-column-header-tags = Etikettar
+    .title = Sorter etter etikett
 threadpane-column-label-tags =
-    .label = Merkelapp-stikkord
+    .label = Etikett
 # Variables:
 # $title (String) - Tags for tooltip.
 threadpane-cell-tags-title =

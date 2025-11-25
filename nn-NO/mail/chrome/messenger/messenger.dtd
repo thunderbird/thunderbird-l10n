@@ -152,7 +152,7 @@
 <!ENTITY sortBySizeCmd.accesskey "t">
 <!ENTITY sortByStatusCmd.label "Status">
 <!ENTITY sortByStatusCmd.accesskey "u">
-<!ENTITY sortByTagsCmd.label "Merkelapp-stikkord">
+<!ENTITY sortByTagsCmd.label "Etikettar">
 <!ENTITY sortByTagsCmd.accesskey "k">
 <!ENTITY sortByJunkStatusCmd.label "Uønskt-status">
 <!ENTITY sortByJunkStatusCmd.accesskey "U">
@@ -354,7 +354,7 @@
 <!ENTITY watchThreadMenu.label "Overvak tråd">
 <!ENTITY watchThreadMenu.accesskey "O">
 <!ENTITY watchThreadMenu.key "w">
-<!ENTITY tagMenu.label "Merkelapp-stikkord">
+<!ENTITY tagMenu.label "Etikett">
 <!ENTITY tagMenu.accesskey "k">
 <!ENTITY tagCmd0.key "0">
 <!ENTITY tagCmd1.key "1">
@@ -498,7 +498,7 @@
 <!ENTITY searchItem.title "Snøggsøk">
 <!ENTITY mailViewsToolbarItem.title "Meldingsoversyn">
 <!ENTITY folderLocationToolbarItem.title "Mappeplassering">
-<!ENTITY tagButton.label "Merkelapp-stikkord">
+<!ENTITY tagButton.label "Etikett">
 <!ENTITY compactButton.label "Komprimer">
 <!ENTITY appmenuButton.label "AppMeny">
 <!-- Mail Toolbar Tooltips -->
@@ -552,9 +552,9 @@
 <!ENTITY appmenuNewContactCmd.label "Adressebokkontaktar …">
 <!ENTITY appmenuToolbarLayout.label "Verktøylinjeutsjånad…">
 <!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Nytt merkelapp-stikkord…">
+<!ENTITY addNewTag.label "Ny etikett…">
 <!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "Handsam merkelapp-stikkord…">
+<!ENTITY manageTags.label "Handsam etikettar…">
 <!ENTITY manageTags.accesskey "H">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Namn">
@@ -622,7 +622,7 @@
 <!ENTITY subjectColumn.label "Emne">
 <!ENTITY dateColumn.label "Dato">
 <!ENTITY priorityColumn.label "Prioritet">
-<!ENTITY tagsColumn.label "Merkelapp-stikkord">
+<!ENTITY tagsColumn.label "Etikett">
 <!ENTITY accountColumn.label "Konto">
 <!ENTITY statusColumn.label "Status">
 <!ENTITY sizeColumn.label "Storleik">
@@ -646,7 +646,7 @@
 <!ENTITY subjectColumn2.tooltip "Sorter etter: Emne">
 <!ENTITY dateColumn2.tooltip "Sorter etter: Dato">
 <!ENTITY priorityColumn2.tooltip "Sorter etter: Prioritet">
-<!ENTITY tagsColumn2.tooltip "Sorter etter: Merkelapp-stikkord">
+<!ENTITY tagsColumn2.tooltip "Sorter etter etikett">
 <!ENTITY accountColumn2.tooltip "Sorter etter konto">
 <!ENTITY statusColumn2.tooltip "Sorter etter: Status">
 <!ENTITY sizeColumn2.tooltip "Sorter etter: Storleik">
