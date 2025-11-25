@@ -113,7 +113,7 @@ addon-install-error-not-signed = { -brand-short-name } har hindra denne sida fr�
 addon-install-error-invalid-domain = Tillegget { $addonName } kan ikkje installerast frå denne plasseringa.
 addon-local-install-error-network-failure = Denne utvidinga kan ikkje installerast på grunn av ein feil på filsystemet.
 addon-local-install-error-incorrect-hash = Klarte ikkje å installere denne utvidinga på grunn av at ho ikkje passar med utvidinga som { -brand-short-name } venta.
-addon-local-install-error-corrupt-file = Denne utvidinga kan ikkje installerast fordi ho ser ut til å vera skadd.
+addon-local-install-error-corrupt-file = Denne utvidinga kan ikkje installerast fordi ho ser ut til å vere skadd.
 addon-local-install-error-file-access = Klarte ikkje å installere { $addonName } fordi { -brand-short-name } kan ikkje endre den påkravde fila.
 addon-local-install-error-not-signed = Klarte ikkje å installera denne utvidinga fordi ho ikkje er stadfesta.
 # Variables:
