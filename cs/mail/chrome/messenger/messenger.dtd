@@ -103,7 +103,7 @@
 <!ENTITY redoDefaultCmd.label "Znovu">
 <!ENTITY redoDefaultCmd.accesskey "o">
 <!-- View Menu -->
-<!ENTITY menubarCmd.label "Hlavní nabídka">
+<!ENTITY menubarCmd.label "Lišta nabídek">
 <!ENTITY menubarCmd.accesskey "n">
 <!ENTITY showMessengerToolbarCmd.label "Lišta pošty">
 <!ENTITY showMessengerToolbarCmd.accesskey "p">

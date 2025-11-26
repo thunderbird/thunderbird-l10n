@@ -57,7 +57,7 @@ policy-DisableSystemAddonUpdate =
        *[no-cases] Blokování aplikaci { -brand-short-name } aktualizovat systémové doplňky.
     }
 policy-DisableTelemetry = Vypnutí telemetrie.
-policy-DisplayMenuBar = Zobrazení hlavní nabídky ve výchozím nastavení.
+policy-DisplayMenuBar = Zobrazení lišty nabídek ve výchozím nastavení.
 policy-DNSOverHTTPS = Nastavení DNS over HTTPS.
 policy-DontCheckDefaultClient = Vypnutí kontroly nastavení výchozí aplikace při spuštění.
 policy-DownloadDirectory = Nastavení a uzamčení nastavení adresáře pro stahování souborů.

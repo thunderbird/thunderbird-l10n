@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 toolbar-context-menu-menu-bar =
-    .toolbarname = Hlavní nabídka
-    .accesskey = H
+    .toolbarname = Lišta nabídek
+    .accesskey = A
 
 ## Tools Menu
 
