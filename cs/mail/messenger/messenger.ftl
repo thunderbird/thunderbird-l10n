@@ -361,8 +361,8 @@ addon-removal-confirmation-message =
         [with-cases] Opravdu chcete odebrat doplněk { $name } a jeho nastavení a data z { -brand-short-name(case: "gen") }?
        *[no-cases] Opravdu chcete odebrat doplněk { $name } a jeho nastavení a data z aplikace { -brand-short-name }?
     }
-caret-browsing-prompt-title = Procházení stránky
-caret-browsing-prompt-text = Stisknutím klávesy F7 zapnete či vypnete funkci Procházení stránky. Ta umístí do obsahu textový kurzor, který vám umožní vybírat text pomocí klávesnice. Chcete zapnout funkci Procházení stránky?
+caret-browsing-prompt-title = Procházení pomocí kurzoru
+caret-browsing-prompt-text = Stisknutím klávesy F7 zapnete či vypnete funkci Procházení pomocí kurzoru. Ta umístí do obsahu textový kurzor, který vám umožní vybírat text pomocí klávesnice. Chcete zapnout funkci Procházení pomocí kurzoru?
 caret-browsing-prompt-check-text = Příště se už neptat.
 repair-text-encoding-button =
     .label = Opravit znakovou sadu textu
