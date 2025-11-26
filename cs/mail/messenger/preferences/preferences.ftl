@@ -235,7 +235,7 @@ biff-use-system-alert =
 tray-icon-unread-label =
     .label = Zobrazit pro nepřečtené zprávy ikonu na liště
     .accesskey = t
-tray-icon-unread-description = Doporučeno, pokud máte na hlavním panelu jen malá tlačítka
+tray-icon-unread-description = Doporučeno, pokud máte na systémovém hlavním panelu jen malá tlačítka
 mail-system-sound-label =
     .label = Zvuk nové pošty v systému
     .accesskey = u
@@ -916,7 +916,7 @@ notification-type-label =
     .label =
         { PLATFORM() ->
             [macos] Animovat ikonku v doku
-           *[other] Blikat v hlavním panelu
+           *[other] Blikat v systémovém hlavním panelu
         }
     .accesskey =
         { PLATFORM() ->
