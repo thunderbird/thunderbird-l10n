@@ -162,6 +162,7 @@ account-hub-result-addon-label = 需要使用附加组件
 account-hub-edit-configuration = 编辑配置
 account-hub-config-success = 在 Mozilla ISPDB 中找到配置
 account-hub-config-success-exchange = 找到 Microsoft Exchange 服务器配置
+account-hub-config-success-disk = 在 { -brand-short-name } 安装中找到配置
 account-hub-config-success-unknown = 找到配置
 account-hub-password-info = 您的登录凭据只会存储在您的计算机本地
 account-hub-creating-account = 正在创建账户…
