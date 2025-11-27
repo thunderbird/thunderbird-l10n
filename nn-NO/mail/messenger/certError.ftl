@@ -34,10 +34,14 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Tilkoplingsfeil. Sertifikatet for { $hostname } kjem ikkje frå ei påliteleg kjelde. Klikk for å opne tryggingsinnstillingane til serveren.
+certificate-check-test-button = Test tilkopling til serveren
 certificate-check-fetch-button = Hent sertifikat
 certificate-check-view-button = Vis sertifikat
 certificate-check-add-exception-button = Legg til unnatak
 certificate-check-remove-exception-button = Fjern unntak
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = Testar tilkoplinga til serveren { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Hentar sertifikatet for { $hostname }.
