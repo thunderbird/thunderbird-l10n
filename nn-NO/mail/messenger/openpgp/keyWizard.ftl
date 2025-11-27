@@ -134,5 +134,7 @@ openpgp-external-key-label = Hemmeleg nøkkel-ID:
 openpgp-import-own-key-title = Importer den offentlege nøkkelen din
 #   $keyId (String) - The Key ID.
 openpgp-import-own-key-description = { -brand-short-name } klarte ikkje å finne den offentlege nøkkelen med ID { $keyId }. Importer han for å fortsette.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = Klarte ikkje å importere den offentlege nøkkelen { $keyId } frå den fila.
 openpgp-external-key-input =
     .placeholder = 123456789341298340

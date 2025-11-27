@@ -5,3 +5,10 @@
 smime-test-cert-button =
     .label = Test
 configured-cert-not-found = Fann ikkje sertifikatet.
+configured-cert-ok-enc = Sertifikatet bestod testen og kan brukast til e-postkryptering.
+configured-cert-ok-sig = Sertifikatet bestod testen og kan brukast til e-postsignering.
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+configured-cert-failure-detail = Stadfestinga av sertifikatet mislykkast med følgjande feil: { $errorMsg } (Feilkode: { $errorCodeStr })
+# $errorCode A numeric error code
+configured-cert-failure = Stadfestinga av sertifikatet mislykkast med feilkode { $errorCode }

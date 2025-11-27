@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = e
 email-e2ee-header = Ende-til-ende-kryptering for e-post
 account-settings = Kontoinnstillingar
+email-e2ee-enable-accounts-info = Sett opp e-postkontoar og identitetar for ende-til-ende-kryptering i <a data-l10n-name="account-settings-url">Kontoinnstillingar</a>.
 email-e2ee-enable-info = Still inn e-postkonton og identitetar for ende-til-ende-kryptering i kontoinstillingar.
 email-e2ee-automatism = Automatisk bruk av kryptering
 email-e2ee-automatism-pre =
@@ -769,6 +770,9 @@ preferences-doh-setting-off =
     .label = Av
     .accesskey = A
 preferences-doh-off-desc = Bruk standard DNS-resolver
+preferences-doh-checkbox-warn =
+    .label = Åtvar viss ein tredjepart aktivt hindrar sikker DNS
+    .accesskey = Å
 preferences-doh-select-resolver = Vel leverandør:
 # Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider
@@ -780,10 +784,17 @@ preferences-doh-url-custom =
 
 ## Keyservers
 
+email-e2ee-key-servers-legend = OpenPGP-nøkkelserverar
+email-e2ee-key-servers-intro =
+    Ein nøkkelserver får og leverer eksisterande offentlege nøklar til brukarar.
+    Den lèt deg publisere den offentlege nøkkelen din og dessutan finne og oppdatere andres nøklar.
+email-e2ee-key-servers-use-following = Bruk følgjande nøkkelserverar:
 email-e2ee-key-servers-add = Legg til…
+email-e2ee-key-servers-reset = Tilbakestill serverliste
 email-e2ee-key-servers-add-title = Legg til nøkkelserver
 email-e2ee-key-servers-add-text = Skriv inn URL-en til nøkkelserveren som skal leggjast til.
 email-e2ee-key-servers-add-failed-title = Klarte ikkje å leggje til nøkkelserver
+email-e2ee-key-servers-add-failed-text = Klarte ikkje å kople til ein nøkkelserver på den oppgitte URL-en.
 
 ## Chat Tab
 
