@@ -588,7 +588,7 @@ and-others = mfl.
 prompt-empty-folder-title = Tømme { $folder }?
 # Variables:
 # $folder (String) - The name of the selected folder.
-prompt-empty-folder-message = Slett alle meldinger og undermapper i { $folder }-mappen?
+prompt-empty-folder-message = Slette alle meldinger og undermapper i { $folder }-mappen?
 prompt-dont-ask-again = Ikke spør igjen.
 
 ## Spam commands

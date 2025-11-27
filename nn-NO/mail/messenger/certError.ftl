@@ -44,6 +44,12 @@ certificate-check-remove-exception-button = Fjern unntak
 certificate-checking = Testar tilkoplinga til serveren { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = Eit sikkert samband til { $hostname } er oppretta.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-failure = Tilkopling til serveren { $hostname } mislykkast.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Hentar sertifikatet for { $hostname }.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
