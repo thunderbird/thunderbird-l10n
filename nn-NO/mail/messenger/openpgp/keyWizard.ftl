@@ -132,5 +132,7 @@ openpgp-external-key-warning = <b>Du kan berre konfigurere ein ekstern GnuPG-nø
 openpgp-save-external-button = Lagre nøkkel-ID
 openpgp-external-key-label = Hemmeleg nøkkel-ID:
 openpgp-import-own-key-title = Importer den offentlege nøkkelen din
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name } klarte ikkje å finne den offentlege nøkkelen med ID { $keyId }. Importer han for å fortsette.
 openpgp-external-key-input =
     .placeholder = 123456789341298340

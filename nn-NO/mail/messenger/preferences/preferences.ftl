@@ -782,6 +782,8 @@ preferences-doh-url-custom =
 
 email-e2ee-key-servers-add = Legg til…
 email-e2ee-key-servers-add-title = Legg til nøkkelserver
+email-e2ee-key-servers-add-text = Skriv inn URL-en til nøkkelserveren som skal leggjast til.
+email-e2ee-key-servers-add-failed-title = Klarte ikkje å leggje til nøkkelserver
 
 ## Chat Tab
 
