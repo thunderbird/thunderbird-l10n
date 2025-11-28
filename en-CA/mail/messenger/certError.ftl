@@ -44,6 +44,12 @@ certificate-check-remove-exception-button = Remove Exception
 certificate-checking = Testing connection to server { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = Successfully established a secure connection to { $hostname }.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-failure = Connection to server { $hostname } failed.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Fetching the certificate for { $hostname }.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.

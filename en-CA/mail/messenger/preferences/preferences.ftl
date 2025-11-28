@@ -47,6 +47,7 @@ compose-html-style-title = HTML Style
 composition-addressing-header = Addressing
 privacy-main-header = Privacy
 privacy-passwords-header = Passwords
+privacy-spam-header = Spam
 privacy-junk-header = Junk
 collection-header = { -brand-short-name } Data Collection and Use
 collection-description = We strive to provide you with choices and collect only what we need to provide and improve { -brand-short-name } for everyone. We always ask permission before receiving personal information.
