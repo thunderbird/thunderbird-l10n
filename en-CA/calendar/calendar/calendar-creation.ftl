@@ -44,5 +44,6 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = Please wait while your calendars are being discovered.
 calendar-creation-network-notfound = Could not find calendars at this location. Please check your settings.
 calendar-creation-network-authfail = The credentials you have entered were not accepted. Please check your settings.
+calendar-creation-network-certerror = Could not find calendars at this location because of a certificate problem.
 calendar-creation-network-subscribe-single = Please select the calendars you would like to subscribe to.
 calendar-creation-network-subscribe-multiple = Multiple calendar types are available for this location. Please select the calendar type, then mark the calendars you would like to subscribe to.

@@ -627,6 +627,32 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = You are currently in FIPS mode. FIPS requires a non-empty Primary Password.
 forms-master-pw-fips-desc = Password Change Failed
+spam-description = Set your default spam settings. Account-specific spam settings can be configured in Account Settings.
+spam-marked-label =
+    .label = When messages are marked as spam:
+    .accesskey = W
+spam-move-label =
+    .label = Move them to the account’s “Spam” folder
+    .accesskey = o
+spam-delete-label =
+    .label = Delete them
+    .accesskey = D
+spam-read-description = Mark messages as read
+spam-read-manual-label =
+    .label = When manually marked as spam
+    .accesskey = M
+spam-read-auto-label =
+    .label = When { -brand-short-name } determines that they are spam
+    .accesskey = T
+spam-log-label =
+    .label = Enable adaptive spam filter logging
+    .accesskey = E
+spam-log-button =
+    .label = Show log
+    .accesskey = S
+reset-spam-button =
+    .label = Reset Training Data
+    .accesskey = R
 junk-description = Set your default junk mail settings. Account-specific junk mail settings can be configured in Account Settings.
 junk-marked-label =
     .label = When messages are marked as junk:
@@ -679,6 +705,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Email End-To-End Encryption
 account-settings = Account Settings
+email-e2ee-enable-accounts-info = Set up email accounts and identities for End-To-End Encryption in the <a data-l10n-name="account-settings-url">Account Settings</a>.
 email-e2ee-enable-info = Set up email accounts and identities for End-To-End Encryption in Account Settings.
 email-e2ee-automatism = Automatic Use of Encryption
 email-e2ee-automatism-pre =
@@ -693,6 +720,77 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Automatic decisions may be overridden by manually enabling or disabling encryption when composing a message.
     Note: encryption is always automatically enabled when replying to an encrypted message.
+
+## DoH Section
+
+preferences-doh-header = DNS over HTTPS
+preferences-doh-description = Domain Name System (DNS) over HTTPS sends your request for a domain name through an encrypted connection, providing a secure DNS and making it harder for others to see which website you’re about to access.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Status: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Provider: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Invalid URL
+preferences-doh-steering-status = Using local provider
+preferences-doh-status-active = Active
+preferences-doh-status-disabled = Off
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Not active ({ $reason })
+preferences-doh-group-message = Enable DNS over HTTPS using:
+preferences-doh-expand-section =
+    .tooltiptext = More information
+preferences-doh-setting-default =
+    .label = Default Protection
+    .accesskey = D
+preferences-doh-default-desc = { -brand-short-name } decides when to use secure DNS to protect your privacy.
+preferences-doh-default-detailed-desc-1 = Use secure DNS in regions where it’s available
+preferences-doh-default-detailed-desc-2 = Use your default DNS resolver if there is a problem with the secure DNS provider
+preferences-doh-default-detailed-desc-3 = Use a local provider, if possible
+preferences-doh-default-detailed-desc-4 = Turn off when VPN, parental control, or enterprise policies are active
+preferences-doh-default-detailed-desc-5 = Turn off when a network tells { -brand-short-name } it shouldn’t use secure DNS
+preferences-doh-setting-enabled =
+    .label = Increased Protection
+    .accesskey = I
+preferences-doh-enabled-desc = You control when to use secure DNS and choose your provider.
+preferences-doh-enabled-detailed-desc-1 = Use the provider you select
+preferences-doh-enabled-detailed-desc-2 = Only use your default DNS resolver if there is a problem with secure DNS
+preferences-doh-setting-strict =
+    .label = Max Protection
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } will always use secure DNS. You’ll see a security risk warning before we use your system DNS.
+preferences-doh-strict-detailed-desc-1 = Only use the provider you select
+preferences-doh-strict-detailed-desc-2 = Always warn if secure DNS isn’t available
+preferences-doh-strict-detailed-desc-3 = If secure DNS is not available sites will not load or function properly
+preferences-doh-setting-off =
+    .label = Off
+    .accesskey = O
+preferences-doh-off-desc = Use your default DNS resolver
+preferences-doh-checkbox-warn =
+    .label = Warn if a third party actively prevents secure DNS
+    .accesskey = W
+preferences-doh-select-resolver = Choose provider:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (Default)
+preferences-doh-url-custom =
+    .label = Custom
+    .accesskey = C
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP Keyservers
+email-e2ee-key-servers-intro =
+    A keyserver receives and then serves existing public keys to users.
+    It allows you to publish your public key and find and refresh keys of others.
+email-e2ee-key-servers-use-following = Use the following keyservers:
+email-e2ee-key-servers-add = Add…
+email-e2ee-key-servers-reset = Reset Server List
+email-e2ee-key-servers-add-title = Add Keyserver
 
 ## Chat Tab
 
