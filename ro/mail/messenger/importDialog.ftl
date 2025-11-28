@@ -7,7 +7,7 @@ thunderbird-import-name = Thunderbird
 # Description of the import module
 thunderbird-import-description = Importă mesaje de e-mail dintr-un dosar de profil Thunderbird.
 import-from-thunderbird-zip =
-    .label = Thunderbird (backup-ul de profil a fost exportat; fișier zip mai mic de 2 GB)
+    .label = Thunderbird (backupul de profil a fost exportat; fișier zip mai mic de 2 GB)
     .accesskey = Z
 import-from-thunderbird-dir =
     .label = Thunderbird (dosar de profil)
