@@ -792,6 +792,9 @@ email-e2ee-key-servers-use-following = Use the following keyservers:
 email-e2ee-key-servers-add = Add…
 email-e2ee-key-servers-reset = Reset Server List
 email-e2ee-key-servers-add-title = Add Keyserver
+email-e2ee-key-servers-add-text = Enter the URL of the keyserver to add.
+email-e2ee-key-servers-add-failed-title = Adding Keyserver Failed
+email-e2ee-key-servers-add-failed-text = Could not connect to a keyserver at the provided URL.
 
 ## Chat Tab
 
