@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Criptografia de ponta a ponta de email
 account-settings = Configurações de contas
+email-e2ee-enable-accounts-info = Configure contas de email e identidades para criptografia de ponta a ponta nas <a data-l10n-name="account-settings-url">configurações de contas</a>
 email-e2ee-enable-info = Configure contas e identidades de criptografia de ponta a ponta de email nas configurações de contas.
 email-e2ee-automatism = Uso automático de criptografia
 email-e2ee-automatism-pre = O { -brand-short-name } pode ajudar ativando ou desativando automaticamente a criptografia ao redigir um email. A ativação/desativação automática é baseada na disponibilidade de chaves ou certificados de correspondentes válidos e aceitos.
@@ -778,6 +779,15 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Personalizado
     .accesskey = P
+
+## Keyservers
+
+email-e2ee-key-servers-legend = Servidores de chaves OpenPGP
+email-e2ee-key-servers-intro =
+    Um servidor de chaves recebe e distribui chaves públicas existentes aos usuários.
+    Ele permite que você publique sua chave pública e encontre ou atualize chaves de outros.
+email-e2ee-key-servers-use-following = Use os seguintes servidores de chaves:
+email-e2ee-key-servers-add = Adicionar…
 
 ## Chat Tab
 
