@@ -769,6 +769,8 @@ preferences-doh-url-custom =
 ## Keyservers
 
 email-e2ee-key-servers-legend = OpenPGP кілт серверлері
+email-e2ee-key-servers-use-following = Келесі кілт серверлерін пайдалану:
+email-e2ee-key-servers-add = Қосу…
 
 ## Chat Tab
 
