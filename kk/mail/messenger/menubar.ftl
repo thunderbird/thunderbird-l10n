@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Қалпына келтіру
     .tooltiptext = Өшірілгенді қалпына келтіру
+toolbar-spam-button =
+    .label = Спам
+    .tooltiptext = Таңдалған хабарламаларды спам етіп белгілеу
+toolbar-not-spam-button =
+    .label = Спам емес
+    .tooltiptext = Таңдалған хабарламаларды спам емес етіп белгілеу
 
 ## View
 

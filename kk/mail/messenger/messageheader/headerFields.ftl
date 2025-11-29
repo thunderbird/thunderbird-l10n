@@ -108,6 +108,7 @@ dark-message-mode-toggle-disabled =
 
 ## Spam filter
 
+message-bar-spam = { -brand-short-name } бұл хабарламаны спам деп санайды.
 message-bar-not-spam-button =
     .label = Спам емес
     .accesskey = м
