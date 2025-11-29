@@ -725,6 +725,7 @@ preferences-doh-status-disabled = Сөндірулі
 # Variables:
 #   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
 preferences-doh-status-not-active = Белсенді емес ({ $reason })
+preferences-doh-group-message = HTTPS арқылы DNS іске қосу, келесіні қолданып:
 preferences-doh-expand-section =
     .tooltiptext = Көбірек ақпарат
 preferences-doh-setting-default =
@@ -764,6 +765,10 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Таңдауыңызша
     .accesskey = д
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP кілт серверлері
 
 ## Chat Tab
 
