@@ -187,6 +187,9 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Бума өлшемін көрсету
+# Context menu item to toggle display of full folder path in compact mode.
+folder-pane-header-toggle-full-path =
+    .label = Толық жолды көрсету
 folder-pane-header-hide-local-folders =
     .label = Жергілікті бумаларды жасыру
 folder-pane-mode-context-button =

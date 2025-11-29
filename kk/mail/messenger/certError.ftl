@@ -34,6 +34,7 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Байланысты орнату қатесі. { $hostname } сертификаты сенімді көзден алынған емес. Сервердің қауіпсіздік параметрлерін ашу үшін басыңыз.
+certificate-check-test-button = Сервермен байланысты тексеру
 certificate-check-fetch-button = Сертификатты алу
 certificate-check-view-button = Сертификатты қарау
 certificate-check-add-exception-button = Ережеден тыс жағдайды қосу
