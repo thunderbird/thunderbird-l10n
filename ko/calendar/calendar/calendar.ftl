@@ -910,6 +910,10 @@ calendar-alarm-snooze-for =
     .label = 대기
 calendar-alarm-snooze-all-for =
     .label = 전체 대기
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label = { $count }분
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
