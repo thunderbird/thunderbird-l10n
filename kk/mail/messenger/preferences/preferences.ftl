@@ -716,6 +716,15 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Жарамсыз URL
+preferences-doh-steering-status = Жергілікті провайдерді пайдалану
+preferences-doh-status-active = Белсенді
+preferences-doh-status-disabled = Сөндірулі
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Белсенді емес ({ $reason })
 preferences-doh-expand-section =
     .tooltiptext = Көбірек ақпарат
 preferences-doh-setting-default =
