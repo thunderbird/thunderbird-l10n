@@ -14,7 +14,7 @@
 <!ENTITY purge1.label "Automaticky smazat zprávy označené jako nevyžádané po">
 <!ENTITY purge1.accesskey "m">
 <!ENTITY purge2.label "dnech">
-<!ENTITY whitelistHeader.label "Neoznačovat zprávy jako nevyžádané, pokud se jejich odesílatel nachází v: ">
+<!ENTITY whitelistHeader.label "Neoznačovat zprávy jako nevyžádané, pokud se jejich odesílatel nachází ve složce kontaktů: ">
 <!ENTITY whitelistHeader.accesskey "N">
 <!ENTITY ispHeadersWarning.label "Je-li povoleno, bude &brandShortName; automaticky považovat zprávy označené tímto externím klasifikátorem za nevyžádané.">
 <!ENTITY ispHeaders.label "Důvěřovat příznaku nevyžádané pošty od: ">
