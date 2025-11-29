@@ -125,6 +125,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = 간단히 보기
     .accesskey = C
 
+## Folder names
+
+folder-name-spam = 스팸
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -196,6 +200,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = 보관
     .tooltiptext = 보관
+context-menu-mark-spam =
+    .aria-label = 스팸으로 표시
+    .tooltiptext = 스팸으로 표시
+context-menu-mark-not-spam =
+    .aria-label = 스팸 아님으로 표시
+    .tooltiptext = 스팸 아님으로 표시
 context-menu-mark-junk =
     .aria-label = 스팸 메일로 표시
     .tooltiptext = 스팸 메일로 표시
@@ -453,12 +463,51 @@ openpgp-forget = OpenPGP 암호 지우기
 quota-panel-percent-used = { $percent }% 사용
     .title = IMAP 용량: 총 { $limit } 중 { $usage } 사용
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = 스팸 상태
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = 스팸으로
+    .accesskey = S
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = 스팸 아님으로
+    .accesskey = N
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = 스팸 제어 실행
+    .accesskey = C
+menu-run-spam-on-folder =
+    .label = 폴더에서 스팸 제어 실행
+    .accesskey = C
+menu-delete-spam =
+    .label = 폴더에서 스팸으로 표시된 메일 삭제
+    .accesskey = D
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = 스팸 비우기
+    .accesskey = S
+
+## Thread pane.
+
+column-status-spam =
+    .label = 스팸 상태
+    .tooltiptext = 스팸 상태로 정렬
+
+## Message header.
+
+header-spam-button =
+    .label = 스팸
+    .tooltiptext = 이 메시지를 스팸으로 표시
 
 ## Actions for the New Mail Notification
 
@@ -470,6 +519,15 @@ archive-action = 보관
 
 ## Message list.
 
+message-flag-spam = 스팸
+menuitem-label-spam =
+    .label = 스팸
+menuitem-label-spam-score-origin =
+    .label = 스팸 점수 출처
+menuitem-label-spam-percentage =
+    .label = 스팸 비율
+menuitem-label-spam-status =
+    .label = 스팸 상태
 message-priority-lowest = 최하위
 message-priority-low = 하위
 # Normal priority is often blank, depending on the consumers of these strings.
@@ -500,3 +558,20 @@ message-group-starred = 별표
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = 외.
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = { $folder } 폴더를 비울까요?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = { $folder } 폴더의 모든 메시지와 하위 폴더를 삭제할까요?
+prompt-dont-ask-again = 다시 묻지 않기
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = 스팸 분석 { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } 완료됨
+spam-processing-message = 스팸 메시지 처리
