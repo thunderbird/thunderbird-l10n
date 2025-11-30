@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Peruuta poistaminen
     .tooltiptext = Peruuta valittujen viestien poistaminen
+toolbar-spam-button =
+    .label = Roskaposti
+    .tooltiptext = Merkitse valitut viestit roskapostiksi
+toolbar-not-spam-button =
+    .label = Ei roskapostia
+    .tooltiptext = Merkitse etteivät valitut viestit ole roskapostia
 
 ## View
 
