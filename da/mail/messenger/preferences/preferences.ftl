@@ -703,6 +703,7 @@ security-devices-button =
     .accesskey = E
 email-e2ee-header = End to end-kryptering for mails
 account-settings = Kontoindstillinger
+email-e2ee-enable-accounts-info = Opsæt mailkonti og identiteter til end to end-kryptering under <a data-l10n-name="account-settings-url">Kontoindstillinger</a>.
 email-e2ee-enable-info = Opret mailkonti og identiteter til end to end-kryptering under Kontoindstillinger.
 email-e2ee-automatism = Automatisk brug af kryptering
 email-e2ee-automatism-pre =
@@ -777,6 +778,20 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Tilpasset
     .accesskey = e
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP nøgleservere
+email-e2ee-key-servers-intro =
+    En nøgleserver modtager og leverer derefter eksisterende offentlige nøgler til brugere.
+    Den giver dig mulighed for at udgive din offentlige nøgle og finde og ajourføre andres nøgler.
+email-e2ee-key-servers-use-following = Brug følgende nøgleservere:
+email-e2ee-key-servers-add = Tilføj…
+email-e2ee-key-servers-reset = Nulstil serverlisten
+email-e2ee-key-servers-add-title = Tilføj nøgleserver
+email-e2ee-key-servers-add-text = Indtast URL'en på den nøgleserver, der skal tilføjes.
+email-e2ee-key-servers-add-failed-title = Tilføjelse af nøgleserver mislykkedes
+email-e2ee-key-servers-add-failed-text = Kunne ikke oprette forbindelse til en nøgleserver på den angivne URL.
 
 ## Chat Tab
 
