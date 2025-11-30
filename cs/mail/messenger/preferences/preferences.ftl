@@ -789,6 +789,7 @@ security-devices-button =
     .accesskey = B
 email-e2ee-header = Oboustranné šifrování e-mailů
 account-settings = Nastavení účtu
+email-e2ee-enable-accounts-info = Nastavte e-mailové účty a identity pro oboustranné šifrování v <a data-l10n-name="account-settings-url">Nastavení účtu</a>.
 email-e2ee-enable-info = V Nastavení účtu nastavte koncové šifrování pro e-mailové účty a identity.
 email-e2ee-automatism = Automatické použití šifrování
 email-e2ee-automatism-pre =
@@ -866,7 +867,16 @@ preferences-doh-url-custom =
 
 ## Keyservers
 
+email-e2ee-key-servers-legend = Servery klíčů OpenPGP
+email-e2ee-key-servers-intro =
+    Server klíčů přijímá a poskytuje existující veřejné klíče uživatelům.
+    To vám umožní publikovat váš veřejný klíč a najít a obnovit klíče ostatních.
+email-e2ee-key-servers-use-following = Použít následující servery klíčů:
 email-e2ee-key-servers-add = Přidat…
+email-e2ee-key-servers-reset = Obnovit seznam serverů
+email-e2ee-key-servers-add-title = Přidat server klíčů
+email-e2ee-key-servers-add-text = Zadejte adresu serveru klíčů, který chcete přidat.
+email-e2ee-key-servers-add-failed-title = Přidání serveru klíčů se nezdařilo
 email-e2ee-key-servers-add-failed-text = Nelze se připojit k serveru klíčů na zadané URL.
 
 ## Chat Tab
