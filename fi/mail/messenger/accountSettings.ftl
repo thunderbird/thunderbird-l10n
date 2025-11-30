@@ -15,3 +15,6 @@ outgoing-server-name = Lähtevän postin palvelin:
 outgoing-server-edit =
     .label = Muokkaa lähtevän postin palvelinta…
     .accesskey = o
+ews-override-oauth-details =
+    .label = Ohita Office365-asetukset:
+    .accesskey = O
