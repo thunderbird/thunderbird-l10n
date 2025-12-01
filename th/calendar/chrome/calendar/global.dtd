@@ -13,6 +13,9 @@
 <!ENTITY month.10.name "ตุลาคม">
 <!ENTITY month.11.name "พฤศจิกายน">
 <!ENTITY month.12.name "ธันวาคม">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY showToday.tooltip "ไปยังวันนี้">
 <!ENTITY onedayforward.tooltip "เดินหน้าหนึ่งวัน">
 <!ENTITY onedaybackward.tooltip "ย้อนกลับหนึ่งวัน">

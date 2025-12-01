@@ -13,6 +13,9 @@
 <!ENTITY month.10.name "ਅਕਤੂਬਰ">
 <!ENTITY month.11.name "ਨਵੰਬਰ">
 <!ENTITY month.12.name "ਦਸੰਬਰ">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY showToday.tooltip "ਅੱਜ ਉੱਤੇ ਜਾਓ">
 <!ENTITY onedayforward.tooltip "ਇੱਕ ਦਿਨ ਅੱਗੇ">
 <!ENTITY onedaybackward.tooltip "ਇੱਕ ਦਿਨ ਪਿੱਛੇ">

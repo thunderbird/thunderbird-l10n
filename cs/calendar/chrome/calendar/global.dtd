@@ -13,6 +13,9 @@
 <!ENTITY month.10.name "říjen">
 <!ENTITY month.11.name "listopad">
 <!ENTITY month.12.name "prosinec">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY showToday.tooltip "Přejde na dnešní den">
 <!ENTITY onedayforward.tooltip "Přejde na následující den">
 <!ENTITY onedaybackward.tooltip "Přejde na následující den">

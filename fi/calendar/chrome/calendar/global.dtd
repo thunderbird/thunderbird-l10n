@@ -13,6 +13,9 @@
 <!ENTITY month.10.name "lokakuu">
 <!ENTITY month.11.name "marraskuu">
 <!ENTITY month.12.name "joulukuu">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY showToday.tooltip "Siirry tähän päivään">
 <!ENTITY onedayforward.tooltip "Siirry seuraavaan päivään">
 <!ENTITY onedaybackward.tooltip "Siirry edelliseen päivään">

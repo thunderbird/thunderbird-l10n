@@ -13,6 +13,9 @@
 <!ENTITY month.10.name "октомври">
 <!ENTITY month.11.name "ноември">
 <!ENTITY month.12.name "декември">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY showToday.tooltip "Отваряне на днешния ден">
 <!ENTITY onedayforward.tooltip "Един ден напред">
 <!ENTITY onedaybackward.tooltip "Един ден назад">

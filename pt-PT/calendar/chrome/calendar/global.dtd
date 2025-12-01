@@ -13,6 +13,9 @@
 <!ENTITY month.10.name "outubro">
 <!ENTITY month.11.name "novembro">
 <!ENTITY month.12.name "dezembro">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY showToday.tooltip "Ir para hoje">
 <!ENTITY onedayforward.tooltip "Avançar um dia">
 <!ENTITY onedaybackward.tooltip "Recuar um dia">

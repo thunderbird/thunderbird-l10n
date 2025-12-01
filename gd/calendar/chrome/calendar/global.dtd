@@ -13,6 +13,9 @@
 <!ENTITY month.10.name "An Dàmhair">
 <!ENTITY month.11.name "An t-Samhain">
 <!ENTITY month.12.name "An Dùbhlachd">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY showToday.tooltip "Rach gun latha an-diugh">
 <!ENTITY onedayforward.tooltip "Latha air adhart">
 <!ENTITY onedaybackward.tooltip "Latha air ais">

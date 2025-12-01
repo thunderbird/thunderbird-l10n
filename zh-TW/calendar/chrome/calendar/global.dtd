@@ -13,6 +13,9 @@
 <!ENTITY month.10.name "十月">
 <!ENTITY month.11.name "十一月">
 <!ENTITY month.12.name "十二月">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY showToday.tooltip "前往今日">
 <!ENTITY onedayforward.tooltip "後一天">
 <!ENTITY onedaybackward.tooltip "前一天">
