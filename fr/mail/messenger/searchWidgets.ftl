@@ -5,5 +5,15 @@
 
 ## Search Values
 
+search-val-priority-lowest =
+    .label = Minimale
+search-val-priority-low =
+    .label = Basse
+search-val-priority-normal =
+    .label = Normale
+search-val-priority-high =
+    .label = Haute
+search-val-priority-highest =
+    .label = Maximale
 search-val-spam =
     .label = Indésirable
