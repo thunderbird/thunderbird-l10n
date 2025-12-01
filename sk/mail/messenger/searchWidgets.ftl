@@ -25,3 +25,5 @@ search-val-flag-forwarded =
     .label = Preposlaná
 search-val-flag-starred =
     .label = S hviezdičkou
+search-val-spam =
+    .label = Nevyžiadaná správa
