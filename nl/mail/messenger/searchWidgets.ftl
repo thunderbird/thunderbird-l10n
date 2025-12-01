@@ -5,5 +5,25 @@
 
 ## Search Values
 
+search-val-priority-lowest =
+    .label = Laagst
+search-val-priority-low =
+    .label = Laag
+search-val-priority-normal =
+    .label = Normaal
+search-val-priority-high =
+    .label = Hoog
+search-val-priority-highest =
+    .label = Hoogst
+search-val-flag-replied =
+    .label = Beantwoord
+search-val-flag-read =
+    .label = Gelezen
+search-val-flag-new =
+    .label = Nieuw
+search-val-flag-forwarded =
+    .label = Doorgestuurd
+search-val-flag-starred =
+    .label = Met ster
 search-val-spam =
     .label = Spam
