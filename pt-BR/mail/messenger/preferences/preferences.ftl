@@ -788,6 +788,11 @@ email-e2ee-key-servers-intro =
     Ele permite que você publique sua chave pública e encontre ou atualize chaves de outros.
 email-e2ee-key-servers-use-following = Use os seguintes servidores de chaves:
 email-e2ee-key-servers-add = Adicionar…
+email-e2ee-key-servers-reset = Redefinir lista de servidores
+email-e2ee-key-servers-add-title = Adicionar servidor de chaves
+email-e2ee-key-servers-add-text = Digite a URL do servidor de chaves a adicionar.
+email-e2ee-key-servers-add-failed-title = Falha ao adicionar servidor de chaves
+email-e2ee-key-servers-add-failed-text = Não foi possível conectar com um servidor de chaves na URL fornecida.
 
 ## Chat Tab
 
