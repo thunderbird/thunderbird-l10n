@@ -5,5 +5,25 @@
 
 ## Search Values
 
+search-val-priority-lowest =
+    .label = Lowest
+search-val-priority-low =
+    .label = Low
+search-val-priority-normal =
+    .label = Normal
+search-val-priority-high =
+    .label = High
+search-val-priority-highest =
+    .label = Highest
+search-val-flag-replied =
+    .label = Replied
+search-val-flag-read =
+    .label = Read
+search-val-flag-new =
+    .label = New
+search-val-flag-forwarded =
+    .label = Forwarded
+search-val-flag-starred =
+    .label = Starred
 search-val-spam =
     .label = Spam
