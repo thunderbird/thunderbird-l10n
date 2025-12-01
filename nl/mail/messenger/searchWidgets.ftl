@@ -26,4 +26,4 @@ search-val-flag-forwarded =
 search-val-flag-starred =
     .label = Met ster
 search-val-spam =
-    .label = Spam
+    .label = Ongewenst

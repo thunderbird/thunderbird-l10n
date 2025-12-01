@@ -3,9 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 rule-menuitem-spam =
-    .label = Spam
+    .label = Ongewenst
 rule-menuitem-not-spam =
-    .label = Geen spam
+    .label = Niet ongewenst
 run-filter-before-spam =
     .label = Filteren voor spamclassificatie
 run-filter-after-spam =
