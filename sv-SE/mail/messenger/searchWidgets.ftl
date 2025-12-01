@@ -5,5 +5,25 @@
 
 ## Search Values
 
+search-val-priority-lowest =
+    .label = Lägsta
+search-val-priority-low =
+    .label = Låg
+search-val-priority-normal =
+    .label = Normal
+search-val-priority-high =
+    .label = Hög
+search-val-priority-highest =
+    .label = Högsta
+search-val-flag-replied =
+    .label = Besvarat
+search-val-flag-read =
+    .label = Läst
+search-val-flag-new =
+    .label = Nytt
+search-val-flag-forwarded =
+    .label = Vidarebefordrat
+search-val-flag-starred =
+    .label = Märkta
 search-val-spam =
     .label = Skräppost
