@@ -25,3 +25,5 @@ search-val-flag-forwarded =
     .label = Encaminhada
 search-val-flag-starred =
     .label = Com estrela
+search-val-spam =
+    .label = Spam
