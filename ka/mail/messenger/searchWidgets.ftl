@@ -25,3 +25,5 @@ search-val-flag-forwarded =
     .label = გადაგზავნილი
 search-val-flag-starred =
     .label = ალმიანი
+search-val-spam =
+    .label = ჯართი
