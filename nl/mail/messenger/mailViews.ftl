@@ -5,5 +5,5 @@
 mail-view-known-people = Bekenden
 mail-view-recent = Recente e-mail
 mail-view-last-five-days = Afgelopen 5 dagen
-mail-view-not-spam = Geen spam
+mail-view-not-spam = Niet ongewenst
 mail-view-has-attachments = Heeft bijlagen

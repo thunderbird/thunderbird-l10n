@@ -94,7 +94,7 @@ addr-book-directories-pane-source = Fișier-sursă:
 # $addressBookName (string) - name of the new address book that would be created.
 addr-book-import-into-new-directory2 = Creează un director nou numit <strong>„{ $addressBookName }”</strong>
 # $addressBookName (string) - name of the address book to import into
-addr-book-summary-title = Importă datele alese în directorul „{ $addressBookName }”
+addr-book-summary-title = Importă datele alese în directorul „{ $addressBookName }” la
 # $addressBookName (string) - name of the address book that will be created.
 addr-book-summary-description = Va fi creată o nouă agendă numită „{ $addressBookName }”.
 
