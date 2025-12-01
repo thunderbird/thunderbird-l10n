@@ -25,3 +25,5 @@ search-val-flag-forwarded =
     .label = Weitergeleitet
 search-val-flag-starred =
     .label = Gekennzeichnet
+search-val-spam =
+    .label = Spam
