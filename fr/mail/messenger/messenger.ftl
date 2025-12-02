@@ -537,10 +537,10 @@ header-spam-button =
 
 ## Actions for the New Mail Notification
 
-mark-as-read-action = Marquer comme lu
+mark-as-read-action = Marquer lu
 delete-action = Supprimer
-mark-as-starred-action = Marquer comme suivi
-mark-as-spam-action = Marquer comme spam
+mark-as-starred-action = Marquer suivi
+mark-as-spam-action = Marquer indésirable
 archive-action = Archiver
 
 ## Message list.
