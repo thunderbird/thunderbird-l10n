@@ -27,7 +27,7 @@ e2e-csr-select-strength = Kies de gewenste cryptografische sterkte (sneller met 
 # $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
 # $file A filename
 # Do not translate: CSR
-e2e-csr-summary = Er wordt een nieuwe geheime sleutel ({ $type } { $stringth }) aangemaakt in de instellingen van { -brand-short-name }. Dit proces kan enige tijd duren en tijdelijk niet-reageren veroorzaken; heb geduld tijdens deze stap. Het Certificate Signing Request (CSR)-bestand, opgeslagen als { $file }, wordt ondertussen gemaakt.
+e2e-csr-summary = Er wordt een nieuwe geheime sleutel ({ $type } { $strength }) aangemaakt in de instellingen van { -brand-short-name }. Dit proces kan enige tijd duren en tijdelijk niet-reageren veroorzaken; heb geduld tijdens deze stap. Het Certificate Signing Request (CSR)-bestand, opgeslagen als { $file }, wordt ondertussen gemaakt.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = E-mailadres ({ $email }) opnemen in CSR (aanbevolen)
