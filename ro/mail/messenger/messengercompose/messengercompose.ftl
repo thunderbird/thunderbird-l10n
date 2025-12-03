@@ -225,6 +225,54 @@ key-notification-resolve =
     .tooltiptext = Deschide asistentul de chei OpenPGP
 can-encrypt-smime-notification = Criptarea end-to-end S/MIME este posibilă.
 can-encrypt-openpgp-notification = Criptarea end-to-end OpenPGP este posibilă.
+can-e2e-encrypt-button =
+    .label = Criptează
+    .accesskey = E
+
+## Addressing Area
+
+to-address-row-label =
+    .value = Către
+#   $key (String) - the shortcut key for this field
+show-to-row-main-menuitem =
+    .label = Câmp către
+    .accesskey = T
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-to-row-button text.
+show-to-row-extra-menuitem =
+    .label = Către
+    .accesskey = T
+#   $key (String) - the shortcut key for this field
+show-to-row-button = Către
+    .title = Afișează câmpul Către { ctrl-cmd-shift-pretty-prefix }{ $key }
+cc-address-row-label =
+    .value = Cc
+#   $key (String) - the shortcut key for this field
+show-cc-row-main-menuitem =
+    .label = Câmp CC
+    .accesskey = C
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-cc-row-button text.
+show-cc-row-extra-menuitem =
+    .label = Cc
+    .accesskey = C
+#   $key (String) - the shortcut key for this field
+show-cc-row-button = Cc
+    .title = Afișează câmpul Cc ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+bcc-address-row-label =
+    .value = Bcc
+#   $key (String) - the shortcut key for this field
+show-bcc-row-main-menuitem =
+    .label = Câmp Bcc
+    .accesskey = B
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+# No acceltext should be shown.
+# The label should match the show-bcc-row-button text.
+show-bcc-row-extra-menuitem =
+    .label = Bcc
+    .accesskey = B
 
 ## Editing
 
