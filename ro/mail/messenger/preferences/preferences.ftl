@@ -87,7 +87,7 @@ account-button = Setări cont
 ## OS Authentication dialog
 
 # This message can be seen by trying to add a Primary Password.
-primary-password-os-auth-dialog-message-win = Pentru a crea o parolă primară, introdu credențialele de autentificare în Windows. Acest lucru ajută la protejarea securității conturilor tale.
+primary-password-os-auth-dialog-message-win = Pentru a crea o parolă primară, introdu datele de autentificare autentificare în Windows. Ajută la protejarea securității conturilor tale.
 # This message can be seen by trying to add a Primary Password.
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
