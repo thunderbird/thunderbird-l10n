@@ -34,10 +34,20 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Eroare de conexiune. Certificatul pentru { $hostname } nu provine dintr-o sursă de încredere. Dă clic ca să deschizi setările de securitate ale serverului.
+certificate-check-test-button = Testează conexiunea la server
 certificate-check-fetch-button = Preia certificatul
 certificate-check-view-button = Vezi certificatul
 certificate-check-add-exception-button = Adaugă excepție
 certificate-check-remove-exception-button = Elimină excepția
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = Se testează conexiunea la serverul { $hostname }…
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = Conexiune securizată la { $hostname } stabilită cu succes.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-failure = Conexiunea la serverul { $hostname } a eșuat.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-check-fetching = Se preia certificatul pentru { $hostname }.

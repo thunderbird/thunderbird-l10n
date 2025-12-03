@@ -3,8 +3,29 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Send Format
+
+compose-send-format-menu =
+    .label = Format de expediere
+    .accesskey = F
+compose-send-auto-menu-item =
+    .label = Automat
+    .accesskey = A
+compose-send-both-menu-item =
+    .label = Și HTML, și text simplu
+    .accesskey = B
+compose-send-html-menu-item =
+    .label = Numai HTML
+    .accesskey = H
+compose-send-plain-menu-item =
+    .label = Numai text simplu
+    .accesskey = P
+
 ## Addressing widget
 
+#   $type (String) - the type of the addressing row
+remove-address-row-button =
+    .title = Elimină câmpul { $type }
 #   $type (String) - the type of the addressing row
 #   $count (Number) - the number of address pills currently present in the addressing row
 address-input-type-aria-label =
