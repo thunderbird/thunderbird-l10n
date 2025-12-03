@@ -273,6 +273,9 @@ show-bcc-row-main-menuitem =
 show-bcc-row-extra-menuitem =
     .label = Bcc
     .accesskey = B
+#   $key (String) - the shortcut key for this field
+show-bcc-row-button = Bcc
+    .title = Afișează câmpul Bcc ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 
 ## Editing
 
