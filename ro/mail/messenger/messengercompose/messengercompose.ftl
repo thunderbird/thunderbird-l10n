@@ -6,7 +6,7 @@
 ## Send Format
 
 compose-send-format-menu =
-    .label = Format de expediere
+    .label = Format de trimitere
     .accesskey = F
 compose-send-auto-menu-item =
     .label = Automat
@@ -50,6 +50,13 @@ pill-tooltip-not-in-address-book = { $email } nu se află în agenda de contacte
 pill-action-edit =
     .label = Editează adresa
     .accesskey = e
+#   $type (String) - the type of the addressing row, e.g. Cc, Bcc, etc.
+pill-action-select-all-sibling-pills =
+    .label = Selectează toate adresele din { $type }
+    .accesskey = A
+pill-action-select-all-pills =
+    .label = Selectează toate adresele
+    .accesskey = S
 pill-action-move-to =
     .label = Mută în Către:
     .accesskey = t
@@ -59,6 +66,9 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = Mută în Bcc
     .accesskey = b
+pill-action-expand-list =
+    .label = Extinde lista
+    .accesskey = x
 
 ## Attachment widget
 
@@ -76,6 +86,10 @@ menuitem-toggle-attachment-pane =
 toolbar-button-add-attachment =
     .label = Atașează
     .tooltiptext = Adaugă un ataşament ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
+add-attachment-notification-reminder2 =
+    .label = Adaugă un atașament…
+    .accesskey = A
+    .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
 menuitem-attach-files =
     .label = Fișier(e)…
     .accesskey = F
@@ -84,6 +98,25 @@ context-menuitem-attach-files =
     .label = Atașează fișier(e)…
     .accesskey = F
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+# Note: Do not translate the term 'vCard'.
+context-menuitem-attach-vcard =
+    .label = cCardul meu
+    .accesskey = C
+context-menuitem-attach-openpgp-key =
+    .label = Cheia mea publică OpenPGP
+    .accesskey = K
+#   $count (Number) - the number of attachments in the attachment bucket
+attachment-bucket-count-value =
+    { $count ->
+        [1] { $count } atașament
+        [one] { $count } atașament
+        [few] { $count } atașamente
+       *[other] { $count } de atașamente
+    }
+attachment-area-show =
+    .title = Afișează panoul de atașamente ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+attachment-area-hide =
+    .title = Ascunde panoul de atașamente ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
 
 ## Variables:
 ## $count (Number) - Number of files being dropped onto the composer.
@@ -115,8 +148,97 @@ button-return-receipt =
     .label = Confirmare de primire
     .tooltiptext = Solicită confirmare de primire pentru acest mesaj
 
+## Encryption
+
+encryption-menu =
+    .label = Securitate
+    .accesskey = c
+encryption-toggle =
+    .label = Criptează
+    .tooltiptext = Folosește criptare end-to-end pentru acest mesaj
+encryption-options-openpgp =
+    .label = OpenPGP
+    .tooltiptext = Afișează sau modifică setările de criptare OpenPGP
+encryption-options-smime =
+    .label = S/MIME
+    .tooltiptext = Afișează sau modifică setările de criptare S/MIME
+signing-toggle =
+    .label = Semnează
+    .tooltiptext = Folosește semnătura digitală pentru acest mesaj
+menu-openpgp =
+    .label = OpenPGP
+    .accesskey = O
+menu-smime =
+    .label = S/MIME
+    .accesskey = S
+menu-encrypt =
+    .label = Criptează
+    .accesskey = E
+menu-encrypt-subject =
+    .label = Criptare subiect
+    .accesskey = B
+menu-sign =
+    .label = Semnează digital
+    .accesskey = i
+menu-manage-keys =
+    .label = Asistent cheie
+    .accesskey = A
+menu-view-certificates =
+    .label = Vezi certificatele destinatarilor
+    .accesskey = V
+menu-open-key-manager =
+    .label = Manager de chei
+    .accesskey = M
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Nu ai configurat să trimiți mesaje criptate end-to-end de la { $addr }.
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Criptarea end-to-end necesită rezolvarea problemelor-cheie pentru { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [one] Criptarea end-to-end necesită rezolvarea problemelor-cheie pentru { $count } destinatar.
+        [few] Criptarea end-to-end necesită rezolvarea problemelor-cheie pentru { $count } destinatari.
+       *[other] Criptarea end-to-end necesită rezolvarea problemelor-cheie pentru { $count } de destinatari.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Criptarea end-to-end necesită rezolvarea problemelor legate de certificate pentru { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [one] Criptarea end-to-end necesită rezolvarea problemelor legate de certificate pentru { $count } destinatar.
+        [few] Criptarea end-to-end necesită rezolvarea problemelor legate de certificate pentru { $count } destinatari.
+       *[other] Criptarea end-to-end necesită rezolvarea problemelor legate de certificate pentru { $count } de destinatari.
+    }
+key-notification-disable-encryption =
+    .label = Nu cripta
+    .accesskey = D
+    .tooltiptext = Dezactivează criptarea end-to-end
+key-notification-resolve =
+    .label = Rezolvă…
+    .accesskey = R
+    .tooltiptext = Deschide asistentul de chei OpenPGP
+can-encrypt-smime-notification = Criptarea end-to-end S/MIME este posibilă.
+can-encrypt-openpgp-notification = Criptarea end-to-end OpenPGP este posibilă.
+
+## Editing
+
+
+# Tools
+
+compose-tool-button-remove-text-styling =
+    .tooltiptext = Elimină stilul textului
+
 ## Filelink
 
+# A text used in a tooltip of Filelink attachments, whose account has been
+# removed or is unknown.
+cloud-file-unknown-account-tooltip = Încărcat într-un cont Filelink necunoscut.
 
 # Placeholder file
 
