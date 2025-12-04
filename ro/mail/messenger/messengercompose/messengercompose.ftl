@@ -378,3 +378,5 @@ link-preview-yes-replace = Da
 spell-add-dictionaries =
     .label = Adaugă dicționare…
     .accesskey = A
+subject-encription-icon =
+    .title = Subiectul nu va fi criptat

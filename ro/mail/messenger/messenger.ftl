@@ -5,7 +5,44 @@
 
 ## Window controls
 
+messenger-window-minimize-button =
+    .tooltiptext = Minimizează
+messenger-window-maximize-button =
+    .tooltiptext = Maximizează
+messenger-window-restore-down-button =
+    .tooltiptext = Micșorează
+messenger-window-close-button =
+    .tooltiptext = Închide
+# Variables:
+# $count (Number) - Number of unread messages.
+unread-messages-os-tooltip =
+    { $count ->
+        [one] 1 mesaj necitit
+        [few] { $count } mesaje necitite
+       *[other] { $count } de mesaje necitite
+    }
 about-rights-notification-text = { -brand-short-name } este un software liber și cu sursă deschisă, construit de o comunitate de mii de oameni din lumea întreagă.
+
+## Content tabs
+
+content-tab-page-loading-icon =
+    .alt = Pagina se încarcă
+content-tab-security-high-icon =
+    .alt = Conexiunea este securizată
+content-tab-security-broken-icon =
+    .alt = Conexiunea nu este securizată
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
 
 ## Toolbar
 
@@ -84,6 +121,15 @@ menu-edit-newsgroup-properties =
 
 ## Context menu
 
+context-menu-archive =
+    .aria-label = Arhivă
+    .tooltiptext = Arhivă
+mail-context-menu-open =
+    .label = Deschide
+    .accesskey = O
+mail-context-menu-reply =
+    .label = Răspunde
+    .accesskey = R
 mail-context-menu-forward-forward =
     .label = Redirecționează
     .accesskey = a
