@@ -276,6 +276,37 @@ show-bcc-row-extra-menuitem =
 #   $key (String) - the shortcut key for this field
 show-bcc-row-button = Bcc
     .title = Afișează câmpul Bcc ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+extra-address-rows-menu-button =
+    .title = Alte câmpuri de adrese de destinatari de afișat
+public-recipients-notice-single = Mesajul are un destinatar public. Poți evita dezvăluirea destinatarului utilizând în schimb Bcc.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [few] Cei { $count } destinatari din câmpurile Către și Cc își vor vedea unul adresa celuilalt. Poți evita dezvăluirea destinatarilor folosind, în schimb, Bcc.
+       *[other] Cei { $count } de destinatari din câmpurile Către și Cc își vor vedea unul adresa celuilalt. Poți evita dezvăluirea destinatarilor folosind, în schimb, Bcc.
+    }
+many-public-recipients-bcc =
+    .label = Folosește Bcc în schimb
+    .accesskey = U
+many-public-recipients-ignore =
+    .label = Păstrează destinatarii publici
+    .accesskey = K
+many-public-recipients-prompt-title = Prea mulți destinatari publici
+#   $count (Number) - the count of addresses in the public recipients fields.
+many-public-recipients-prompt-msg =
+    { $count ->
+        [few] Mesajul are { $count } destinatari publici, care își vor putea vedea unii altora adresele. Ar putea fi o problemă de confidențialitate. Poți evita dezvăluirea destinatarilor mutând destinatarii din Către/Cc în Bcc.
+       *[other] Mesajul are { $count } de destinatari publici, care își vor putea vedea unii altora adresele. Ar putea fi o problemă de confidențialitate. Poți evita dezvăluirea destinatarilor mutând destinatarii din Către/Cc în Bcc.
+    }
+many-public-recipients-prompt-cancel = Anulează trimiterea
+many-public-recipients-prompt-send = Trimite oricum
+
+## Notifications
+
+# Variables:
+# $identity (string) - The name of the used identity, most likely an email address.
+compose-missing-identity-warning = Nu a fost găsită o identitate unică care să corespundă cu adresa din câmpul „De la”. Mesajul va fi trimis folosind câmpul „De la” actual și setările din identitatea { $identity }.
 
 ## Editing
 
