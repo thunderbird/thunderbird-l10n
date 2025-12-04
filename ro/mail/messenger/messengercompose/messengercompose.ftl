@@ -338,6 +338,43 @@ cloud-file-count-header =
         [few] Am pus un link cu { $count } fișiere la acest mesaj pe e-mail:
        *[other] Am pus un link cu { $count } de fișiere la acest mesaj pe e-mail:
     }
+cloud-file-template-password-protected-link = Link protejat prin parolă:
+cloud-file-template-expiry-date = Data expirării:
+cloud-file-template-download-limit = Limită de descărcare:
 
 # Messages
 
+cloud-file-connection-error-title = Eroare de conexiune
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-connection-error = { -brand-short-name } este offline. Nu s-a putut conecta la { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = Încărcarea { $filename } către { $provider } a eșuat
+cloud-file-rename-error-title = Eroare de redenumire
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error = A apărut o problemă la redenumirea { $filename } pe { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = Redenumirea { $filename } pe { $provider } a eșuat
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-rename-not-supported = { $provider } nu acceptă redenumirea fișierelor deja încărcate.
+cloud-file-attachment-error-title = Eroare atașament Filelink
+
+## Link Preview
+
+link-preview-title = Previzualizare link
+link-preview-autoadd = Adaugă automat previzualizări ale linkurilor când este posibil
+link-preview-replace-now = Adaugi o previzualizare pentru acest link?
+link-preview-yes-replace = Da
+
+## Dictionary selection popup
+
+spell-add-dictionaries =
+    .label = Adaugă dicționare…
+    .accesskey = A
