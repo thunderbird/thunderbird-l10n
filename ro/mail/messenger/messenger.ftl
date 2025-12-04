@@ -133,6 +133,69 @@ mail-context-menu-reply =
 mail-context-menu-forward-forward =
     .label = Redirecționează
     .accesskey = a
+mail-context-menu-organize =
+    .label = Organizează
+    .accesskey = g
+mail-context-menu-threads =
+    .label = Conversații
+    .accesskey = T
+context-menu-redirect-msg =
+    .label = Redirecţionează
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Anulează mesajul
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Șterge mesajul
+            [few] Șterge mesajele selectate
+           *[other] Șterge mesajele selectate
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Recuperează mesajul
+            [few] Recuperează mesajele selectate
+           *[other] Recuperează mesajele selectate
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
+context-menu-decrypt-to-folder2 =
+    .label = Creează o copie decriptată în
+    .accesskey = y
+
+## Message header pane
+
+other-action-redirect-msg =
+    .label = Redirecţionează
+other-action-copy-message-link =
+    .label = Copiază linkul mesajului
+message-header-msg-flagged =
+    .title = Cu steluță
+    .aria-label = Cu steluță
+message-header-delete =
+    .label = Șterge
+    .tooltiptext = Șterge mesajul
+message-header-undelete =
+    .label = Anulează ștergerea
+    .tooltiptext = Anulează ștergerea mesajului
+
+## Message header customize panel
+
+message-header-customize-panel-title = Setări antet mesaj
+message-header-customize-button-style =
+    .value = Stil buton
+    .accesskey = B
+message-header-button-style-default =
+    .label = Pictograme și text
+message-header-button-style-text =
+    .label = Text
+message-header-button-style-icons =
+    .label = Pictograme
 
 ## Add-on removal warning
 
