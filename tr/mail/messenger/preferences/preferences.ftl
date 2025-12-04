@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = G
 email-e2ee-header = Uçtan Uca E-posta Şifreleme
 account-settings = Hesap ayarları
+email-e2ee-enable-accounts-info = Uçtan uca şifreleme için e-posta hesaplarını ve kimlikleri <a data-l10n-name="account-settings-url">Hesap ayarları</a>’ndan ayarlayabilirsiniz.
 email-e2ee-enable-info = Uçtan uca şifreleme için e-posta hesaplarını ve kimlikleri hesap ayarlarından ayarlayabilirsiniz.
 email-e2ee-automatism = Otomatik Şifreleme Kullanımı
 email-e2ee-automatism-pre =
@@ -1077,6 +1078,7 @@ default-sort-ascending-description = Yeni iletiler altta
 default-sort-descending =
     .label = Azalan
 default-sort-descending-description = Yeni iletiler üstte
+apply-thread-sort-label = Dizileme ve sıralama ayarlarını buraya uygula:
 apply-sort-to-all-button =
     .label = Mevcut tüm klasörler
     .accesskey = M

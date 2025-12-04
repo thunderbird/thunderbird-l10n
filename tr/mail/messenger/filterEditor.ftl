@@ -13,7 +13,12 @@ run-filter-after-spam =
 rule-action-set-spam-status =
     .label = Spam durumunu ayarla
 # Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = Spam tespit edildi. Gönderen: { $author }, konu: { $subject }, tarih: { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
-moved-message-log = ileti kimliği taşındı = { $id } -> { $folder }
+moved-message-log = { $id } kimlikli ileti { $folder } klasörüne taşındı
 filter-action-log-spam = spam puanı
