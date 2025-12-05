@@ -55,7 +55,7 @@ collection-privacy-notice = Уведомление о конфиденциаль
 collection-health-report-telemetry-disabled = Вы больше не разрешаете { -vendor-short-name } собирать технические данные и данные взаимодействия. Все собранные ранее данные будут удалены в течение 30 дней.
 collection-health-report-telemetry-disabled-link = Подробнее
 collection-health-report =
-    .label = Разрешить { -brand-short-name } отправлять технические данные и данные взаимодействия в { -vendor-short-name }
+    .label = Разрешить { -brand-short-name(case: "dative") } отправлять технические данные и данные взаимодействия в { -vendor-short-name }
     .accesskey = е
 collection-health-report-link = Подробнее
 # This message is displayed above disabled data sharing options in developer builds
@@ -706,7 +706,7 @@ security-devices-button =
     .accesskey = ы
 email-e2ee-header = Сквозное шифрование электронной почты
 account-settings = Параметры учётной записи
-email-e2ee-enable-accounts-info = Настройте учётные записи электронной почты и идентификаторы для сквозного шифрования в <a data-l10n-name="account-settings-url">Настройках учётной записи</a>.
+email-e2ee-enable-accounts-info = Настройте учётные записи электронной почты и идентификаторы для сквозного шифрования в «<a data-l10n-name="account-settings-url">Настройках учётной записи</a>».
 email-e2ee-enable-info = Настройте учётные записи электронной почты и идентификаторы для сквозного шифрования в настройках учётной записи.
 email-e2ee-automatism = Автоматическое использование шифрования
 email-e2ee-automatism-pre =
@@ -890,7 +890,7 @@ chat-variant-label =
 # Do not translate.
 search-preferences-input2 =
     .style = width: 15.4em
-    .placeholder = Поиск в Настройках
+    .placeholder = Поиск в настройках
 managed-notice = { -brand-short-name } управляется вашей организацией.
 
 ## Settings UI Search Results

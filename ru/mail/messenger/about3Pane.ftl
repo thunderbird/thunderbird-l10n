@@ -6,7 +6,7 @@
 ## Message List Header Bar
 
 quick-filter-button =
-    .title = Включить/выключить панель быстрого фильтра
+    .title = Включить/отключить панель быстрого фильтра
 quick-filter-button-label = Быстрый фильтр
 thread-pane-header-display-button =
     .title = Настройки отображения списка сообщений
