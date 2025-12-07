@@ -10,6 +10,7 @@
 <!ENTITY allFoldersOfflineNote.label "Примечание: Это изменение затронет все папки в этой учётной записи. Чтобы задать отдельные папки, используйте кнопку «Дополнительно…».">
 <!ENTITY offlineNotDownload.label "Сообщения размером более">
 <!ENTITY offlineNotDownload.accesskey "б">
+<!ENTITY autosyncNotDownload.label "Не скачивать сообщения размером более">
 <!ENTITY autosyncNotDownload.accesskey "ж">
 <!ENTITY kb.label "КБ">
 <!ENTITY daysOld.label "дней">

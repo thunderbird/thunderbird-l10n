@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY all.label "Загрузить все заголовки">
+<!ENTITY all.label "Скачать все заголовки">
 <!ENTITY all.accesskey "в">
 
 <!-- LOCALIZATION NOTE (download.label):
@@ -11,7 +11,7 @@
     EXAMPLE: "Download" <some number> "headers"
     Either label could be set to null ("") if required grammatically. -->
 
-<!ENTITY download.label "Загрузить">
+<!ENTITY download.label "Скачать">
 <!ENTITY download.accesskey "З">
 <!-- LOCALIZATION NOTE (headers.label): see note for download.label -->
 <!ENTITY headers.label "заголовков">

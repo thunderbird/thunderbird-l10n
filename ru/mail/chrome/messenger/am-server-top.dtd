@@ -38,7 +38,7 @@
 <!ENTITY daysEnd.label "дней">
 <!ENTITY deleteOnServer2.label "Пока я не удалю их">
 <!ENTITY deleteOnServer2.accesskey "у">
-<!ENTITY downloadOnBiff.label "Автоматически загружать новые сообщения">
+<!ENTITY downloadOnBiff.label "Автоматически скачивать новые сообщения">
 <!ENTITY downloadOnBiff.accesskey "а">
 <!ENTITY deleteMessagePrefix.label "При удалении сообщения:">
 <!ENTITY modelMoveToTrash.label "Переместить его в папку:">
@@ -57,7 +57,7 @@
 <!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency
     maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
     of messages between them -->
-<!ENTITY maxMessagesStart.label "Спрашивать перед загрузкой более чем">
+<!ENTITY maxMessagesStart.label "Спрашивать перед скачиванием более чем">
 <!ENTITY maxMessagesStart.accesskey "ш">
 <!-- LOCALIZATION NOTE (maxMessagesEnd.label) : see note for maxMessagesStart.label -->
 <!ENTITY maxMessagesEnd.label "сообщений">

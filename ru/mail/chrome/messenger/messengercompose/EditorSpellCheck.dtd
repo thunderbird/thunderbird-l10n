@@ -22,7 +22,7 @@
 <!ENTITY stopButton.label "Остановить">
 <!ENTITY stopButton.accessKey "н">
 <!ENTITY userDictionary.label "Словарь пользователя:">
-<!ENTITY moreDictionaries.label "Загрузить дополнительные словари…">
+<!ENTITY moreDictionaries.label "Скачать дополнительные словари…">
 <!ENTITY addToUserDictionaryButton.label "Добавить слово">
 <!ENTITY addToUserDictionaryButton.accessKey "б">
 <!ENTITY editUserDictionaryButton.label "Изменить…">

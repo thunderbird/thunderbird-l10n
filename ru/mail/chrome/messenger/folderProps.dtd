@@ -31,11 +31,11 @@
 <!ENTITY folderCheckForNewMessages2.accesskey "о">
 <!ENTITY offlineFolder.check.label "Выбрать эту папку для автономной работы">
 <!ENTITY offlineFolder.check.accesskey "ы">
-<!ENTITY offlineFolder.button.label "Загрузить">
+<!ENTITY offlineFolder.button.label "Скачать сейчас">
 <!ENTITY offlineFolder.button.accesskey "а">
 <!ENTITY selectofflineNewsgroup.check.label "Выбрать эту группу новостей для автономной работы">
 <!ENTITY selectofflineNewsgroup.check.accesskey "э">
-<!ENTITY offlineNewsgroup.button.label "Загрузить">
+<!ENTITY offlineNewsgroup.button.label "Скачать сейчас">
 <!ENTITY offlineNewsgroup.button.accesskey "а">
 <!ENTITY folderProps.name.label "Имя:">
 <!ENTITY folderProps.name.accesskey "м">

@@ -11,10 +11,10 @@ update-check-for-updates-button = Проверить на обновления
 update-update-button = Перезапустить { -brand-shorter-name } для обновления
     .accesskey = е
 update-checking-for-updates = Проверка наличия обновлений…
-update-downloading-message = Загрузка обновления — <span data-l10n-name="download-status"></span>
+update-downloading-message = Скачивание обновления — <span data-l10n-name="download-status"></span>
 update-applying = Применение обновления…
-update-downloading = <img data-l10n-name="icon"/>Загрузка обновления — <span data-l10n-name="download-status"></hspan>
-update-failed = Обновление не удалось. <a data-l10n-name="failed-link">Загрузите последнюю версию</a>
+update-downloading = <img data-l10n-name="icon"/>Скачивание обновления — <span data-l10n-name="download-status"></hspan>
+update-failed = Обновление не удалось. <a data-l10n-name="failed-link">Скачайте последнюю версию</a>
 update-admin-disabled = Обновления отключены вашим системным администратором
 update-no-updates-found = Установлена последняя версия { -brand-short-name }
 update-other-instance-handling-updates = Обновление производится другим процессом { -brand-short-name }

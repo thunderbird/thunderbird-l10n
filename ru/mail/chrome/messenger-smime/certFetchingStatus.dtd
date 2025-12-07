@@ -3,6 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE shown while obtaining certificates from a directory -->
-<!ENTITY title.label "Загрузка сертификатов">
+<!ENTITY title.label "Скачивание сертификатов">
 <!ENTITY info.message "Поиск сертификатов адресатов в каталоге. Это может занять несколько минут.">
 <!ENTITY stop.label "Остановка поиска">
