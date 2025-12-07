@@ -53,3 +53,18 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Lisää
     .title = Näytä kaikki vastaanottajat
 message-ids-field-show-all = Näytä kaikki
+
+## Dark Message Mode
+
+dark-message-mode-toggle-disabled =
+    .title = Ota tummien viestien tila käyttöön
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } pitää tätä viestiä roskapostina.
+message-bar-not-spam-button =
+    .label = Ei roskapostia
+    .accesskey = E
+message-bar-learn-more-button =
+    .label = Lue lisää…
+    .accesskey = L
