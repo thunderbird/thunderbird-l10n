@@ -10,46 +10,46 @@
 # $newsgroup (String) - The name of the newsgroup.
 new-newsgroup-headers =
     { $count ->
-        [one] Загрузка { $count } заголовка для { $newsgroup }…
-        [few] Загрузка { $count } заголовков для { $newsgroup }…
-       *[many] Загрузка { $count } заголовков для { $newsgroup }…
+        [one] Скачивание { $count } заголовка из «{ $newsgroup }»…
+        [few] Скачивание { $count } заголовков из «{ $newsgroup }»…
+       *[many] Скачивание { $count } заголовков из «{ $newsgroup }»…
     }
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
-no-new-messages = Нет новых сообщений в { $newsgroup }.
+no-new-messages = Нет новых сообщений в «{ $newsgroup }».
 # Variables:
 # $count (Number) - Number of articles.
 # $newsgroup (String) - The name of the newsgroup.
 downloading-articles-for-offline =
     { $count ->
-        [one] Загрузка { $count } статьи для { $newsgroup }…
-        [few] Загрузка { $count } статей для { $newsgroup }…
-       *[many] Загрузка { $count } статей для { $newsgroup }…
+        [one] Скачивание { $count } статьи из «{ $newsgroup }»…
+        [few] Скачивание { $count } статей из «{ $newsgroup }»…
+       *[many] Скачивание { $count } статей из «{ $newsgroup }»…
     }
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
-no-articles-to-download = Нет статей для загрузки из { $newsgroup }.
+no-articles-to-download = Нет статей для скачивания из «{ $newsgroup }».
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-such-newsgroup = Группа новостей { $newsgroup } недоступна на сервере.
 
 ## Download Headers Dialog
 
-download-headers-dialog-title = Загрузка заголовков
+download-headers-dialog-title = Скачивание заголовков
 # Variables:
 # $count (Number) - The number of new message headers.
-download-headers-info-text = В этой группе новостей можно загрузить { $count } новых заголовков сообщений.
+download-headers-info-text = В этой группе новостей можно скачать { $count } новых заголовков сообщений.
 download-all-headers =
-    .label = Загрузить все заголовки
+    .label = Скачать все заголовки
     .accesskey = в
 download-headers-ok-button =
-    .label = Загрузить
+    .label = Скачать
 # Consider the download-n.label and n-headers.label as a single sentence with
 # the number of headers to be downloaded inserted between them:
 # EXAMPLE: "Download" <some number> "headers"
 # Either label could be set to null ("") if required grammatically.
 download-n =
-    .label = Загрузить
+    .label = Скачать
     .accesskey = З
 n-headers =
     .value = заголовков

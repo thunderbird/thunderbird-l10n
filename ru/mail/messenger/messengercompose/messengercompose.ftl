@@ -375,7 +375,7 @@ cloud-file-template-size = Размер:
 cloud-file-template-link = Ссылка:
 cloud-file-template-password-protected-link = Ссылка, защищённая паролем:
 cloud-file-template-expiry-date = Срок действия:
-cloud-file-template-download-limit = Лимит на загрузку:
+cloud-file-template-download-limit = Предел скачиваний:
 
 # Messages
 

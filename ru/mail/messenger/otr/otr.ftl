@@ -5,7 +5,7 @@
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 msgevent-encryption-required-part1 = Вы попытались отправить незашифрованное сообщение { $name }. Текущие настройки запрещают отправлять незашифрованные сообщения.
-msgevent-encryption-required-part2 = Попытка начать конфиденциальный разговор. Ваше сообщение будет повторно отправлено, когда начнется конфиденциальный разговор.
+msgevent-encryption-required-part2 = Попытка начать конфиденциальный разговор. Ваше сообщение будет повторно отправлено, когда начнётся конфиденциальный разговор.
 msgevent-encryption-error = При шифровании вашего сообщения произошла ошибка. Сообщение не было отправлено.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
