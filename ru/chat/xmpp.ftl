@@ -12,7 +12,7 @@ connection-initializing-stream = Инициализация потока
 connection-initializing-encryption = Инициализация шифрования
 connection-authenticating = Аутентификация
 connection-getting-resource = Получение ресурса
-connection-downloading-roster = Загрузка списка контактов
+connection-downloading-roster = Скачивание списка контактов
 connection-srv-lookup = Поиск SRV-записи
 # LOCALIZATION NOTE (connection-error-*)
 #   These will show in the account manager if an error occurs during the
