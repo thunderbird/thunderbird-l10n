@@ -5,12 +5,12 @@
 <!ENTITY readMsgsLink.label "Les meldingar">
 <!ENTITY composeMsgLink.label "Skriv ny melding">
 <!ENTITY newsSectionHdr.label "Nyheitsgrupper">
-<!ENTITY subscribeNewsLink.label "Behandle medlemskap i nyheitsgrupper">
+<!ENTITY subscribeNewsLink.label "Handsame medlemskap i nyheitsgrupper">
 <!ENTITY feedsSectionHdr.label "Nyheitskjelder">
 <!ENTITY subscribeFeeds.label "Handter abonnement">
 <!ENTITY chat.label "Chatt">
 <!ENTITY accountsSectionHdr.label "Kontoar">
-<!ENTITY subscribeImapFolders.label "Behandle medlemskap i mapper">
+<!ENTITY subscribeImapFolders.label "Handsame medlemskap i mapper">
 <!ENTITY settingsLink.label "Vis innstillingar for denne kontoen">
 <!ENTITY setupNewAcct.label "Konfigurer ein konto:">
 <!ENTITY advFeaturesSectionHdr.label "Avanserte funksjonar">

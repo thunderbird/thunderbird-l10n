@@ -12,7 +12,7 @@ commands-key =
 no-command = Ingen kommando «{ $command }» finst.
 #  $command (String): is the command name the user typed.
 no-help-key = Ingen hjelpetekst for kommandoen «{ $command }» finst, beklagar!
-say-help-string = say &lt;message&gt;: send ei melding utan å behandle kommandoar.
+say-help-string = say &lt;message&gt;: send ei melding utan å handsame kommandoar.
 raw-help-string = raw &lt;message&gt;: send ei melding utan å verne HTML-entitetar.
 help-help-string = help &lt;name&gt;: vis hjelpetekst om &lt;name&gt;-kommandoen, eller ei liste over tilgjengelege kommandoar når ingen parameter er spesifiserte.
 # LOCALIZATION NOTE (status-command):

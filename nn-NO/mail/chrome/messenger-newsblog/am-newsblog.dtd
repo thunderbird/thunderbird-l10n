@@ -4,7 +4,7 @@
 <!ENTITY biffAll.label "Slå på oppdateringar for alle nyheitskjelder">
 <!ENTITY biffAll.accesskey "S">
 <!ENTITY newFeedSettings.label "Standardinnstillingar for nye nyheitskjelder">
-<!ENTITY manageSubscriptions.label "Behandle abonnement…">
+<!ENTITY manageSubscriptions.label "Handsame abonnement…">
 <!ENTITY manageSubscriptions.accesskey "B">
 <!ENTITY feedWindowTitle.label "Kontovegvisar for nyheitskjelder">
 <!ENTITY feeds.accountName "Bloggar og nyheitskjelder">
