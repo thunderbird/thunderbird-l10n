@@ -17,7 +17,7 @@ carddav-location =
 carddav-loading = 正在尋找設定…
 # Variables:
 # $url (String) - CardDAV endpoint hostname. For example "example.com".
-carddav-known-incompatible = { $url } 與 { -brand-short-name } 不相容。
+carddav-known-incompatible = 已知 { $url } 與 { -brand-short-name } 不相容。
 carddav-connection-error = 連線失敗。
 carddav-none-found = 找不到指定帳號中可以新增的通訊錄。
 carddav-already-added = 已新增指定帳號的所有通訊錄。

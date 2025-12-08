@@ -278,9 +278,9 @@ command-invite = { $commandName } &lt;jid&gt;[&lt;message&gt;]：邀請使用者
 # $commandName (String): command name
 command-inviteto = { $commandName } &lt;聊天室 jid&gt;[&lt;密碼&gt;]: 邀請您的通訊夥伴加入聊天室，若需要的話可輸入密碼。
 # $commandName (String): command name
-command-me = { $commandName } &lt;要做的動作&gt;: 做出某個動作。
+command-me = { $commandName } &lt;要做的動作&gt;：做出某個動作。
 # $commandName (String): command name
-command-nick = { $commandName } &lt;新暱稱&gt;: 修改您的暱稱。
+command-nick = { $commandName } &lt;新暱稱&gt;：修改您的暱稱。
 # $commandName (String): command name
 command-msg = { $commandName } &lt;暱稱&gt; &lt;訊息&gt;: 傳送私人訊息給聊天室內的成員。
 # $commandName (String): command name
