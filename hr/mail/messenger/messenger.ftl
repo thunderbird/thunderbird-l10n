@@ -498,6 +498,8 @@ archive-action = Arhiviraj
 
 ## Message list.
 
+menuitem-label-spam-status =
+    .label = Stanje neželjene pošte
 message-priority-lowest = Najniži
 message-priority-low = Nizak
 # Normal priority is often blank, depending on the consumers of these strings.
@@ -528,3 +530,20 @@ message-group-starred = Zvjezdica
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = i dr.
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Isprazniti mapu { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Izbrisati sve poruke i podmape u mapi { $folder }?
+prompt-dont-ask-again = Ne pitaj ponovo.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Analiza neželjene pošte dovršena { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
+spam-processing-message = Obrada neželjene pošte

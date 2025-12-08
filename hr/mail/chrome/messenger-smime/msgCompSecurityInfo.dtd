@@ -4,10 +4,9 @@
 
 <!-- LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
 <!ENTITY title.label "Sigurnost poruke">
-<!ENTITY subject.plaintextWarning "Napomena: naslovi poruka e-pošte nisu nikada kriptirani.">
 <!ENTITY status.heading "Sadržaj vaše poruke će biti poslan na sljedeći način:">
 <!ENTITY status.signed "Digitalno potpisan:">
-<!ENTITY status.encrypted "Kriptiran:">
+<!ENTITY status.encrypted "Šifrirano:">
 <!ENTITY status.certificates "Certifikati:">
 <!ENTITY view.label "Pogled">
 <!ENTITY view.accesskey "P">

@@ -6,9 +6,9 @@
 
 <!ENTITY status.label "Sigurnost poruke">
 <!ENTITY signatureCert.label "Prikaži certifikat potpisa">
-<!ENTITY encryptionCert.label "Prikaži certifikat kriptiranja">
+<!ENTITY encryptionCert.label "Prikaži certifikat za šifriranje">
 <!ENTITY signer.name "Potpisao:">
-<!ENTITY recipient.name "Kriptirano za:">
+<!ENTITY recipient.name "Šifriranje za:">
 <!ENTITY email.address "Adresa e-pošte:">
 <!ENTITY issuer.name "Certifikat izdao:">
 <!-- LOCALIZATION NOTE(SMIME.label): This a name for a technical standard. You should not translate it, but if applicable, you may write it using localized characters. -->

@@ -19,7 +19,7 @@ update-admin-disabled = Dopune onemogućene od vašeg sistem administratora
 update-no-updates-found = { -brand-short-name } je ažuriran
 update-other-instance-handling-updates = { -brand-short-name } se nadograđuje od strane druge instance
 update-manual = Nova ažuriranja su dostupna na <a data-l10n-name="manual-link"/>
-update-unsupported = Nije moguće raditi daljnja ažuriranja na ovom sustavu. <a data-l10n-name="unsupported-link">Saznajte više</a>
+update-unsupported = Nije moguće izvoditi daljnja aktualiziranja na ovom sustavu. <a data-l10n-name="unsupported-link">Saznaj više</a>
 update-restarting = Ponovno pokretanje…
 # Variables:
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)

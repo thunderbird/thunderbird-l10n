@@ -4,7 +4,7 @@
 
 <!-- Subscription Dialog -->
 <!ENTITY feedSubscriptions.label "Pretplate kanala">
-<!ENTITY learnMore.label "Saznajte više o Kanalima">
+<!ENTITY learnMore.label "Saznaj više o Kanalima">
 <!ENTITY feedTitle.label "Naslov:">
 <!ENTITY feedTitle.accesskey "N">
 <!ENTITY feedLocation.label "URL kanala:">
