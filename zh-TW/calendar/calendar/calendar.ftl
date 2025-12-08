@@ -439,7 +439,7 @@ tooltip-calendar-read-only =
 task-edit-instructions = 按這裡來新增工作
 task-edit-instructions-readonly = 請選擇可寫入的日曆
 task-edit-instructions-capability = 請選擇支援工作的日曆
-event-details-start-date = 開始:
+event-details-start-date = 開始：
 event-details-end-date = 結束:
 # LOCALIZATION NOTE (datetime-with-timezone):
 # used for a display of a date-time with timezone 'Thu 2 Oct 2008 13:21', Europe/Paris
@@ -886,7 +886,7 @@ calendar-tasks-view-filtertasks =
 calendar-properties-color =
     .value = 色彩：
 calendar-properties-location =
-    .value = 網址:
+    .value = 網址：
 calendar-properties-refresh =
     .value = 重新載入日曆:
 calendar-properties-refresh-manual =

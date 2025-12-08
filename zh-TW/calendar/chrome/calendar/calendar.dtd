@@ -67,7 +67,7 @@
 <!-- Context Menu -->
 <!ENTITY calendar.context.modifyorviewitem.label "開啟舊檔">
 <!ENTITY calendar.context.modifyorviewitem.accesskey "O">
-<!ENTITY calendar.context.modifyorviewtask.label "開啟工作內容">
+<!ENTITY calendar.context.modifyorviewtask.label "開啟工作…">
 <!ENTITY calendar.context.modifyorviewtask.accesskey "O">
 <!ENTITY calendar.context.newevent.label "新增事件…">
 <!ENTITY calendar.context.newevent.accesskey "N">
@@ -241,7 +241,7 @@
 <!ENTITY calendarproperties.webdav.label "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label "CalDAV">
 <!ENTITY calendarproperties.format.label "格式：">
-<!ENTITY calendarproperties.location.label "網址:">
+<!ENTITY calendarproperties.location.label "網址：">
 <!ENTITY calendarproperties.refreshInterval.label "重新載入日曆:">
 <!ENTITY calendarproperties.refreshInterval.manual.label "手動">
 <!ENTITY calendarproperties.name.label "名稱：">

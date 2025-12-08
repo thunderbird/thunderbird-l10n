@@ -28,7 +28,7 @@
 <!ENTITY buttons.subscribe.label "訂閱">
 <!ENTITY buttons.subscribe.accesskey "S">
 <!ENTITY calendartype.label "行事曆類型:">
-<!ENTITY location.label "位置:">
+<!ENTITY location.label "位置：">
 <!ENTITY location.placeholder "行事曆伺服器的網址或主機名稱">
 <!ENTITY network.nocredentials.label "此網址不需輸入帳號密碼">
 <!ENTITY network.loading.description "請稍等，我們正在尋找您的行事曆。">

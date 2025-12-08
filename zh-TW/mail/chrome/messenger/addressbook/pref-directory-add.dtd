@@ -10,7 +10,7 @@
 <!ENTITY directoryBaseDN.accesskey "B">
 <!ENTITY findButton.label "尋找">
 <!ENTITY findButton.accesskey "F">
-<!ENTITY directorySecure.label "使用安全連線 (SSL)">
+<!ENTITY directorySecure.label "使用安全連線（SSL）">
 <!ENTITY directorySecure.accesskey "U">
 <!ENTITY directoryLogin.label "Bind DN: ">
 <!ENTITY directoryLogin.accesskey "i">

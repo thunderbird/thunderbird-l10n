@@ -5,7 +5,7 @@
 <!ENTITY messageStorage.label "郵件儲存">
 <!ENTITY securitySettings.label "安全設定">
 <!ENTITY serverSettings.label "伺服器設定">
-<!ENTITY serverType.label "伺服器類型:">
+<!ENTITY serverType.label "伺服器類型：">
 <!ENTITY serverName.label "伺服器名稱：">
 <!ENTITY serverName.accesskey "S">
 <!ENTITY userName.label "使用者名稱：">

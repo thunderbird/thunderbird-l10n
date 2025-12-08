@@ -60,7 +60,7 @@ openpgp-enc-key-id = 您的解密金鑰 ID：{ $key }
 # $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = 您的解密金鑰 ID：{ $key }（子金鑰 ID：{ $subkey }）
 openpgp-enc-none = 郵件未加密
-openpgp-enc-none-label = 此郵件寄出前沒被加密過。未加密的資訊在網際網路傳輸過程中有可能被偷看。
+openpgp-enc-none-label = 此郵件寄出前沒有加密。未加密的資訊在網際網路傳輸過程中有可能被偷看。
 openpgp-enc-invalid-label = 無法解密郵件
 openpgp-enc-invalid = 此郵件寄出前已被加密過，但無法解密。
 openpgp-enc-clueless = 這封已加密的郵件有未知的問題。

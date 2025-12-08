@@ -148,12 +148,12 @@ account-setup-exchange-config-unverifiable = 無法確認設定方式。若您�
 
 ## Manual configuration area
 
-account-setup-manual-config-title = 伺服器設定
+account-setup-manual-config-title = 手動設定
 account-setup-incoming-server-legend = 收件伺服器
 account-setup-protocol-label = 通訊協定:
 account-setup-hostname-label = 主機名稱：
 account-setup-port-label = Port：
-    .title = 輸入 0 即可進行自動偵測
+    .title = 埠號設定為 0 即可自動偵測
 account-setup-auto-description = { -brand-short-name } 將嘗試自動偵測留白的欄位。
 account-setup-ssl-label = 連線安全性：
 account-setup-outgoing-server-legend = 寄件伺服器

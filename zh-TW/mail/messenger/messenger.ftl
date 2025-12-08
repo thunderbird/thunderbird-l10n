@@ -72,12 +72,12 @@ content-tab-menu-reload-mac =
 
 content-tab-menu-stop =
     .tooltiptext = 停止載入頁面
-    .aria-label = 停止載入
+    .aria-label = 停止
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
     .tooltiptext = 停止載入頁面
-    .label = 停止載入
+    .label = 停止
     .accesskey = S
 
 ## Toolbar

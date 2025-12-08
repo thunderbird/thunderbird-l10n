@@ -120,7 +120,7 @@ start-page-label =
     .label = 當啟動 { -brand-short-name } 時，在郵件區顯示開始頁
     .accesskey = W
 location-label =
-    .value = 位置:
+    .value = 位置：
     .accesskey = o
 restore-default-label =
     .label = 回復預設值
@@ -903,7 +903,7 @@ search-results-help-link = 需要幫忙嗎？請到 <a data-l10n-name="url">{ -b
 sync-signedout-caption = 把 Web 隨身帶著走
 sync-signedout-description = 在您所有裝置間同步帳號設定、通訊錄、行事曆、附加元件與各種選項。
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
-sync-signedout-account-signin-btn = 登入進行同步…
+sync-signedout-account-signin-btn = 登入至 Sync…
 sync-pane-header = Sync
 # Variables:
 # $userEmail (String) - The email logged into Sync.

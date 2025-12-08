@@ -793,6 +793,7 @@ email-e2ee-key-servers-reset = 重置服务器列表
 email-e2ee-key-servers-add-title = 添加密钥服务器
 email-e2ee-key-servers-add-text = 输入要添加的密钥服务器的网址。
 email-e2ee-key-servers-add-failed-title = 添加密钥服务器失败
+email-e2ee-key-servers-add-failed-text = 无法连接到位于所提供网址的密钥服务器。
 
 ## Chat Tab
 
