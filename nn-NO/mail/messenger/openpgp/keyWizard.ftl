@@ -98,7 +98,7 @@ openpgp-import-key-list-amount-2 =
         [one] { -brand-short-name } fann ein nøkkel som kan importerast.
        *[other] { -brand-short-name } fann { $count } nøklar som kan importerast.
     }
-openpgp-import-key-list-description = Bekreft hvilke nøklar som kan behandles som dine personlige nøkler. Bare nøkler som du opprettet selv og som viser din egen identitet, skal brukes som personlige nøkler. Du kan endre dette alternativet senere i dialogboksen Nøkkelegenskaper.
+openpgp-import-key-list-description = Stadfest kva nøklar som kan handsamast som dei personlege nøklane dine. Berre nøklar som du oppretta sjølv og som viser din eigen identitet, skal brukast som personlege nøklar. Du kan endre dette alternativet seinare i dialogboksen Nøkkelegenskaper.
 openpgp-import-key-list-caption = Nøklar merkte for å bli behandla som personlege nøklar vil bli oppførte i avsnittet ende-til-ende-kryptering. Dei andre vil vere tilgjengelege i nøkkelhandsamaren.
 openpgp-import-keep-passphrases =
     .label = Behald passordfrasevern for importerte hemmelege nøklar
@@ -108,7 +108,7 @@ openpgp-import-key-button =
     .accesskey = V
 import-key-file = Importer OpenPGP-nøkkelfil
 import-key-personal-checkbox =
-    .label = Behandle denne nøkkelen som ein personleg nøkkel
+    .label = Handsam denne nøkkelen som ein personleg nøkkel
 gnupg-file = GnuPG-filer
 import-error-file-size = <b>Feil!</b> Filer som er større enn 5 MB er ikkje støtta.
 #   $error (String) - the reported error from the failed key import method
