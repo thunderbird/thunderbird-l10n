@@ -25,3 +25,5 @@ search-val-flag-forwarded =
     .label = Proslijeđeno
 search-val-flag-starred =
     .label = Označeno zvjezdicom
+search-val-spam =
+    .label = Neželjena pošta

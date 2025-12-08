@@ -578,7 +578,7 @@ exceptions-button =
     .label = Izuzeci…
     .accesskey = I
 remote-content-info =
-    .value = Saznaj više o problemima oko privatnosti kod vanjskog sadržaja
+    .value = Saznaj više o problemima o privatnosti pri vanjskom sadržaju
 web-content = Web sadržaj
 history-label =
     .label = Zapamti web stranice i poveznice koje sam posjetio
@@ -610,7 +610,7 @@ do-not-track-label =
     .label = Šalji “Ne prati me” signal web stranicama (stranice ga ne moraju poštivati)
     .accesskey = N
 dnt-learn-more-button =
-    .value = Saznajte više
+    .value = Saznaj više
 passwords-description = { -brand-short-name } može zapamtiti lozinke za sve vaše račune.
 passwords-button =
     .label = Spremljene lozinke…
@@ -693,6 +693,10 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Automatske odluke se mogu nadjačati ručnim omogućavanjem ili isključivanjem šifriranja prilikom pisanja poruke.
     Napomena: Šifriranje je uvijek automatski omogućeno prilikom odgovora na šifriranu poruku.
+
+## DoH Section
+
+preferences-doh-off-desc = Koristi svoj standardni DNS pretvarač
 
 ## Chat Tab
 
@@ -831,7 +835,7 @@ sync-pane-show-synced-header-off = Sinkroniziranje ISKLJUČENO
 sync-pane-sync-now = Sinkroniziraj sada
 sync-panel-sync-now-syncing = Sinkroniziranje…
 show-synced-list-heading = Trenutno sinkronizirate ove stavke:
-show-synced-learn-more = Saznajte više…
+show-synced-learn-more = Saznaj više…
 show-synced-item-account = Računi e-pošte
 show-synced-item-address = Adresari
 show-synced-item-calendar = Kalendari
