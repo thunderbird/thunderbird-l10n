@@ -45,5 +45,5 @@ compose = Nowu powěsć pisaś
 search = Powěsći pytaś
 filter = Powěsćowe filtry zastojaś
 nntp-subscription = Abonementy diskusijnych kupkow zastojaś
-rss-subscription = Kanalowe abonomenty zastojaś
+rss-subscription = Kanalowe abonementy zastojaś
 e2e = Koděrowanje wót kóńca do kóńca

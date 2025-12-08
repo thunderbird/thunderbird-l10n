@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Subscription Dialog -->
-<!ENTITY feedSubscriptions.label "Kanalowe abonomenty">
+<!ENTITY feedSubscriptions.label "Kanalowe abonementy">
 <!ENTITY learnMore.label "Zhońće wjace wo kanalach">
 <!ENTITY feedTitle.label "Titul:">
 <!ENTITY feedTitle.accesskey "T">
