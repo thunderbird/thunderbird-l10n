@@ -91,7 +91,7 @@ import-items-failed = 匯入 { $count } 個項目失敗。最後一個錯誤是�
 #    $filePath will be replaced with file path
 no-items-in-calendar-file2 = 無法從 { $filePath } 匯入。此檔案中沒有可匯入的項目。
 # spaces needed at the end of the following lines
-event-description = 描述：
+event-description = 說明：
 unable-to-read = 無法讀取檔案：
 # $filePath
 unable-to-write = 無法寫入檔案：{ $filePath }
@@ -464,8 +464,8 @@ several-long-calendar-weeks = 第 { $startIndex }-{ $endIndex } 週
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
 #    $endIndex will be replaced with the index of the end-week
-several-calendar-weeks = 週數範圍：{ $startIndex }-{ $endIndex }
-    .title = 週數範圍 { $startIndex }-{ $endIndex }
+several-calendar-weeks = 第 { $startIndex }-{ $endIndex } 週
+    .title = 第 { $startIndex }-{ $endIndex } 週
 # LOCALIZATION NOTE (multiweek-view-week):
 # Used for displaying the week number in the first day box of every week
 # in multiweek and month views.
@@ -985,7 +985,7 @@ calendar-error-detail =
 calendar-error-code =
     .value = 錯誤代碼：
 calendar-error-description =
-    .value = 描述：
+    .value = 說明：
 calendar-error-title =
     .title = 發生錯誤
 calendar-extract-event-button =

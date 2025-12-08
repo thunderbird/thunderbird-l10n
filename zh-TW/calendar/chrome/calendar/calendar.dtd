@@ -262,7 +262,7 @@
 <!-- Error reporting -->
 <!ENTITY calendar.error.detail "詳細資訊…">
 <!ENTITY calendar.error.code "錯誤代碼：">
-<!ENTITY calendar.error.description "描述：">
+<!ENTITY calendar.error.description "說明：">
 <!ENTITY calendar.error.title "發生錯誤">
 <!-- Extract buttons in message header -->
 <!ENTITY calendar.extract.event.button "新增為事件">

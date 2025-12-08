@@ -438,7 +438,7 @@ apply-current-view-to-menu =
 apply-current-view-to-folder =
     .label = 信件匣…
 apply-current-view-to-folder-children =
-    .label = 信件匣與其子信件匣
+    .label = 信件匣與其子信件匣…
 
 ## Apply columns confirmation dialog
 

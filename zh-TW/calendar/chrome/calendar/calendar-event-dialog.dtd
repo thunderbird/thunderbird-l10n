@@ -198,7 +198,7 @@
 <!ENTITY event.until.accesskey "i">
 <!ENTITY event.reminder.label "提醒:">
 <!ENTITY event.reminder.accesskey "m">
-<!ENTITY event.description.label "描述：">
+<!ENTITY event.description.label "說明：">
 <!ENTITY event.description.accesskey "p">
 <!ENTITY event.attachments.label "附件:">
 <!ENTITY event.attachments.accesskey "h">
