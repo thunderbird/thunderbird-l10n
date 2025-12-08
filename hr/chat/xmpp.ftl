@@ -9,7 +9,7 @@
 #    accounts.properties, which adds … at the end, so do not include
 #    periods at the end of these messages.)
 connection-initializing-stream = Inicijalizacija toka
-connection-initializing-encryption = Inicijalizacija kriptiranja
+connection-initializing-encryption = Inicijalizacija šifriranja
 connection-authenticating = Autentifikacija
 connection-getting-resource = Dohvaćanje izvora
 connection-downloading-roster = Preuzimanje popisa kontakata
@@ -24,9 +24,9 @@ connection-error-reset-by-peer = Korisnik je prekinuo vezu
 connection-error-timed-out = Vezi je isteklo vrijeme
 connection-error-received-unexpected-data = Primljeni neočekivani podaci
 connection-error-incorrect-response = Primljen pogrešan odgovor
-connection-error-start-tls-required = Poslužitelj zahtjeva kriptiranje, ali vi ste to isključili
-connection-error-start-tls-not-supported = Poslužitelj ne podržava kriptiranje, ali vaše postavke to zahtijevaju
-connection-error-failed-to-start-tls = Neuspješno pokretanje kriptiranja
+connection-error-start-tls-required = Server zahtijeva šifriranje, ali ti si to isključio/la
+connection-error-start-tls-not-supported = Server ne podržava šifriranje, ali tvoje postavke to zahtijevaju
+connection-error-failed-to-start-tls = Neuspjelo pokretanje šifriranja
 connection-error-no-auth-mec = Nikakav mehanizam provjere autentičnosti nije ponuđen od strane poslužitelja
 connection-error-no-compatible-auth-mec = Niti jedan od mehanizama provjere autentičnosti ponuđenih od strane poslužitelja nije podržan
 connection-error-not-sending-password-in-clear = Poslužitelj podržava jedino autentifikaciju slanjem lozinke kao običan tekst
@@ -242,9 +242,9 @@ conversation-message-version-with-os = { $user } koristi "{ $clientName } { $cli
 options-resource = Izvor
 options-priority = Prioritet
 options-connection-security = Sigurnost veze
-options-connection-security-require-encryption = Zahtijevaj kriptiranje
-options-connection-security-opportunistic-tls = Koristi kriptiranje ako je dostupno
-options-connection-security-allow-unencrypted-auth = Dozvoli slanje nekriptirane lozinke
+options-connection-security-require-encryption = Zahtijevaj šifriranje
+options-connection-security-opportunistic-tls = Koristi šifriranje, ako je dostupno
+options-connection-security-allow-unencrypted-auth = Dozvoli slanje nešifrirane lozinke
 options-connect-server = Poslužitelj
 options-connect-port = Port
 options-domain = Domena

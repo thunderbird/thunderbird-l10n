@@ -137,6 +137,16 @@ message-kicked = { $user } izbacuje korisnika { $userGotKicked }.
 #    $userGotKicked is the name of the user who got kicked.
 #    $reason is the reason for the kick.
 message-kicked-with-reason = { $user } izbacuje korisnika { $userGotKicked }. Razlog: { $reason }
+message-verification-done = Potvrđivanje je završeno.
+message-decrypting = Dešifriranje …
+message-redacted = Poruka je redigirana.
+#    Label in the message context menu
+message-action-request-key = Ponovo zatraži ključeve
+message-action-redact = Redigiraj
 message-action-report = Prijavi poruku
 message-action-retry = Ponovni pokušaj slanja
 message-action-cancel = Otkaži poruku
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Došlo je do greške pri slanju tvoje poruke „{ $message }”.
