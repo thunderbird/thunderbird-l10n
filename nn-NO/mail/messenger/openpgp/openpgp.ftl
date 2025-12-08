@@ -312,7 +312,7 @@ key-accept-personal =
 openpgp-personal-no-label =
     .label = Nei, ikkje bruk han som den personlege nøkkelen min.
 openpgp-personal-yes-label =
-    .label = Ja, behandle denne nøkkelen som ein personeig nøkkel.
+    .label = Ja, handsam denne nøkkelen som ein personleg nøkkel.
 openpgp-passphrase-protection =
     .label = Passordfrasevern
 openpgp-passphrase-status-unprotected = Ubeskytta
@@ -476,7 +476,7 @@ import-info-dialog-title = Nøklar importerte!
 import-info-bits = Bit
 import-info-created = Laga
 import-info-fpr = Fingeravtrykk
-import-info-details = Vis detaljar og behandle nøkkelgodkjenning
+import-info-details = Vis detaljar og handsam nøkkelgodkjenning
 import-info-no-keys = Ingen nøklar importerte.
 
 ## Strings in enigmailKeyManager.js
