@@ -9,3 +9,6 @@ automatic-spam-purge-label =
     .value = dana
 spam-classification-legend = Odabir
 spam-actions-legend = Odredište i zadržavanje
+global-spam-preferences-button =
+    .label = Globalne postavke neželjene pošte …
+    .accesskey = G
