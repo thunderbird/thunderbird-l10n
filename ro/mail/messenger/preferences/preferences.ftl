@@ -739,6 +739,25 @@ preferences-doh-steering-status = Utilizare furnizor local
 preferences-doh-status-active = Activ
 preferences-doh-status-disabled = Dezactivat
 # Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Inactiv ({ $reason })
+preferences-doh-group-message = Activează DNS prin HTTPS folosind:
+preferences-doh-expand-section =
+    .tooltiptext = Mai multe informații
+preferences-doh-setting-default =
+    .label = Protecție implicită
+    .accesskey = D
+preferences-doh-default-desc = { -brand-short-name } decide când să utilizeze un DNS securizat pentru a-ți proteja confidențialitatea.
+preferences-doh-default-detailed-desc-1 = Folosește DNS securizat în regiunile în care este disponibil
+preferences-doh-default-detailed-desc-2 = Folosește rezolverul DNS implicit dacă există o problemă cu furnizorul de DNS securizat
+preferences-doh-default-detailed-desc-3 = Folosește un furnizor local, dacă este posibil
+preferences-doh-default-detailed-desc-4 = Dezactivează când sunt active VPN-ul, controlul parental sau politicile companiei
+preferences-doh-default-detailed-desc-5 = Dezactivează când o rețea transmite către { -brand-short-name } că nu ar trebui să utilizeze DNS securizat
+preferences-doh-setting-enabled =
+    .label = Protecție sporită
+    .accesskey = I
+preferences-doh-enabled-desc = Tu controlezi când să utilizezi DNS securizat și îți alegi furnizorul.
+# Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider
 preferences-doh-url-default =
     .label = { $name } (Implicit)
@@ -855,16 +874,37 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Găsește în setări
+managed-notice = { -brand-short-name } este gestionat de organizația ta.
 
 ## Settings UI Search Results
 
 search-results-header = Rezultatele căutării
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message2 =
+    { PLATFORM() ->
+        [windows] Ne pare rău! Nu sunt rezultate în Opțiuni pentru „<span data-l10n-name="query"></span>”.
+       *[other] Ne pare rău! Nu sunt rezultate în Setări pentru „<span data-l10n-name="query"></span>”.
+    }
 search-results-help-link = Ai nevoie de ajutor? Intră pe <a data-l10n-name="url">Asistență { -brand-short-name }</a>
 
 ## Sync Tab
 
+sync-signedout-caption = Ia webul cu tine
+sync-signedout-description = Sincronizează-ți conturile, agendele de contacte, calendarele, suplimentele și setările pe toate dispozitivele.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Intră în cont pentru sincronizare…
+sync-pane-header = Sincronizare
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = „{ $userEmail }” nu este verificat.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Te rugăm să te autentifici pentru reconectare la „{ $userEmail }”
+sync-pane-resend-verification = Retrimite verificarea
+sync-pane-sign-in = Intră în cont
+sync-pane-remove-account = Elimină contul
+sync-pane-edit-photo =
+    .title = Schimbă fotografia de profil
 sync-pane-sign-out = Ieși din cont…
 sync-panel-sync-now-syncing = Se sincronizează…
 show-synced-list-heading = Sincronizezi aceste elemente:
@@ -917,3 +957,24 @@ qr-export-scan-step1 = Deschide { -brand-product-name } pe dispozitivul mobil
 qr-export-scan-step2 = Mergi la setări
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Selectează <strong>Setări de import</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Atinge <strong>Scanează cod QR</strong> și ține telefonul deasupra codului
+qr-export-back = Înapoi
+qr-export-next = Înainte
+qr-export-done = Terminat
+qr-export-summary-description = Conturi exportate. Continuă pe dispozitivul mobil.
+qr-export-summary-title = Rezumatul exportului:
+
+## Appearance Tab
+
+apply-thread-sort-label = Propagă setările de fire de conversații și sortare în:
+apply-changes-prompt-title = Aplici modificările?
+apply-changes-prompt-message = Aplici setările actuale de fire de conversații și sortare în toate dosarele?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Aplici setările actuale de fire de conversații și sortare în „{ $name }”?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Aplici setările actuale de fire de conversații și sortare în „{ $name }” și subdosarele lui?
+apply-current-view-error = Setările actuale de vizualizare nu pot fi aplicate
+apply-current-view-success = Setările actuale de vizualizare au fost aplicate cu succes

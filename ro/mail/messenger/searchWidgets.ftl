@@ -25,3 +25,5 @@ search-val-flag-forwarded =
     .label = Redirecționat
 search-val-flag-starred =
     .label = Cu steluță
+search-val-spam =
+    .label = Mesaje nedorite
