@@ -90,6 +90,9 @@ addons-and-themes-toolbarbutton =
 quick-filter-toolbarbutton =
     .label = Filtru rapid
     .tooltiptext = Filtrează mesajele
+redirect-msg-button =
+    .label = Redirecţionează
+    .tooltiptext = Redirecționează mesajul selectat
 
 ## Folder Pane
 
@@ -127,11 +130,26 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Mod de afișare compact
     .accesskey = C
 
+## Folder names
+
+folder-name-spam = Spam
+# Gmail's "All Mail" folder. Please make sure this is the same string used in the Gmail web UI for your language.
+folder-name-all-mail = Toate mesajele
+
+## File Menu
+
+menu-file-save-as-file =
+    .label = Fișier…
+    .accesskey = F
+
 ## Edit Menu
 
 menu-edit-delete-folder =
     .label = Șterge dosar
     .accesskey = d
+menu-edit-unsubscribe-newsgroup =
+    .label = Dezabonează-mă de la grupul de discuții
+    .accesskey = b
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -160,11 +178,41 @@ menu-edit-newsgroup-properties =
     .label = Proprietăți grup de discuții
     .accesskey = o
 
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Redirecţionează
+    .accesskey = D
+
+## AppMenu
+
+appmenu-save-as-file =
+    .label = Fișier…
+appmenu-settings =
+    .label = Setări
+appmenu-addons-and-themes =
+    .label = Suplimente și teme
+
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Marchează ca citit
+    .tooltiptext = Marchează ca citit
+context-menu-mark-unread =
+    .aria-label = Marchează ca necitit
+    .tooltiptext = Marchează ca necitit
+context-menu-mark-reply =
+    .aria-label = Răspunde
+    .tooltiptext = Răspunde
 context-menu-archive =
     .aria-label = Arhivă
     .tooltiptext = Arhivă
+context-menu-mark-spam =
+    .aria-label = Marchează ca spam
+    .tooltiptext = Marchează ca spam
+context-menu-mark-junk =
+    .aria-label = Marchează ca nedorit
+    .tooltiptext = Marchează ca nedorit
 mail-context-menu-open =
     .label = Deschide
     .accesskey = O
@@ -174,6 +222,19 @@ mail-context-menu-reply =
 mail-context-menu-forward-forward =
     .label = Redirecționează
     .accesskey = a
+mail-context-menu-forward-inline =
+    .label = Incluse în mesaj
+    .accesskey = I
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [one] Ca atașament
+            [few] Ca atașamente
+           *[other] Ca atașamente
+        }
+    .accesskey = A
 mail-context-menu-organize =
     .label = Organizează
     .accesskey = g
@@ -224,6 +285,10 @@ message-header-delete =
 message-header-undelete =
     .label = Anulează ștergerea
     .tooltiptext = Anulează ștergerea mesajului
+# Variables:
+# $address (String) - The email address of the recipient this picture belongs to.
+message-header-recipient-avatar =
+    .alt = Fotografie de profil { $address }.
 
 ## Message header customize panel
 
@@ -237,12 +302,66 @@ message-header-button-style-text =
     .label = Text
 message-header-button-style-icons =
     .label = Pictograme
+message-header-show-sender-full-address =
+    .label = Afișează întotdeauna adresa completă a expeditorului
+    .accesskey = f
+message-header-show-sender-full-address-description = Adresa de e-mail va fi afișată sub numele afișat.
+message-header-show-recipient-avatar =
+    .label = Afișează fotografia de profil a expeditorului
+    .accesskey = p
+message-header-show-big-avatar =
+    .label = Fotografie de profil mai mare
+    .accesskey = g
+message-header-hide-label-column =
+    .label = Ascunde coloana etichetelor
+    .accesskey = l
+message-header-large-subject =
+    .label = Subiect mare
+    .accesskey = s
+message-header-all-headers =
+    .label = Afișează toate anteturile
+    .accesskey = a
+message-header-dark-message-toggle =
+    .label = Afișează opțiunea de activare/dezactivare a modului întunecat pentru mesaje
+    .accesskey = d
+
+## Action Button Context Menu
+
+toolbar-context-menu-manage-extension =
+    .label = Gestionează extensia
+    .accesskey = E
+toolbar-context-menu-remove-extension =
+    .label = Elimină extensia
+    .accesskey = v
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Elimini { $name }?
+addon-removal-confirmation-button = Elimină
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-confirmation-message = Elimini { $name }, precum și configurația și datele din { -brand-short-name }?
+caret-browsing-prompt-title = Navigare cu cursorul
+caret-browsing-prompt-check-text = Nu mai întreba.
 repair-text-encoding-button =
     .label = Repară codarea de text
     .tooltiptext = Determină codarea de text corectă din conținutul mesajului
+
+## no-reply handling
+
+# Variables:
+# $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
+no-reply-message = Adresa de răspuns ({ $email }) nu pare a fi o adresă monitorizată. Mesajele către această adresă probabil nu vor fi citite de nimeni.
+no-reply-reply-anyway-button = Răspunde oricum
+
+## Spaces toolbar customize panel
+
+spaces-customize-button-restore = Revenire la valorile implicite
+    .accesskey = R
+customize-panel-button-save = Terminat
+    .accesskey = D
 
 ## Quick Filter Bar
 
@@ -256,12 +375,23 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+openpgp-forget = Uită parolele OpenPGP
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Actions for the New Mail Notification
+
+mark-as-read-action = Marchează ca citit
+delete-action = Șterge
+mark-as-starred-action = Marchează cu steluță
+mark-as-spam-action = Marchează ca spam
 
 ## Message list.
 
