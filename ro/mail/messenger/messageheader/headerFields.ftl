@@ -102,9 +102,9 @@ message-ids-field-show-all = Afișează tot
 ## Dark Message Mode
 
 dark-message-mode-toggle-enabled =
-    .title = Dezactivează modul de mesaje întunecate
+    .title = Dezactivează modul întunecat pentru mesaje
 dark-message-mode-toggle-disabled =
-    .title = Activează modul de mesaje întunecate
+    .title = Activează modul întunecat pentru mesaje
 
 ## Spam filter
 

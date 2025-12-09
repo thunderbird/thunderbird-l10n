@@ -440,6 +440,20 @@ dark-message-mode-legend = Stil cititor de mesaje
 dark-message-mode-checkbox-label =
     .label = Activează modul întunecat pentru mesaje
     .accesskey = d
+dark-message-mode-description = Forțează corpul mesajului să aplice teme întunecate
+dark-message-mode-toggle-label =
+    .label = Afișează opțiunea de activare/dezactivare a modului întunecat pentru mesaje
+    .accesskey = t
+dark-message-mode-toggle-description = Afișează un comutator în antetul mesajului pentru dezactivarea rapidă a modului întunecat pentru mesaje
+account-hub-legend = Centru de conturi
+account-hub-checkbox-label =
+    .label = Creează conturi în noul centru de conturi
+    .accesskey = C
+account-hub-checkbox-description = Flux experimental de creare a unui cont nou de e-mail
+account-hub-ab-checkbox-label =
+    .label = Creează agende de contacte în noul centru de conturi
+    .accesskey = A
+account-hub-ab-checkbox-description = Flux experimental de creare a unei agende noi de contacte
 
 ## Compose Tab
 
@@ -466,6 +480,9 @@ auto-save-end = minute
 
 warn-on-send-accel-key =
     .label = Confirmă trimiterea când se folosește comanda rapidă de la tastatură
+    .accesskey = i
+add-link-previews =
+    .label = Adaugă previzualizări ale linkurilor la inserarea de URL-uri
     .accesskey = i
 spellcheck-label =
     .label = Verifică ortografia înainte de a trimite
@@ -498,6 +515,19 @@ restore-html-label =
 default-format-label =
     .label = Folosește implicit formatarea „Paragraf” în loc de „Corp text”
     .accesskey = P
+compose-send-format-title = Format de trimitere
+compose-send-automatic-option =
+    .label = Automat
+compose-send-automatic-description = Dacă în mesaj nu se folosește niciun stil, trimite text simplu. În caz contrar, trimite HTML cu o soluție alternativă de text simplu.
+compose-send-both-option =
+    .label = Și HTML, și text simplu
+compose-send-both-description = Aplicația de e-mail a destinatarului va determina ce versiune va fi afișată.
+compose-send-html-option =
+    .label = Numai HTML
+compose-send-html-description = Este posibil ca unii destinatari să nu poată citi mesajul fără o opțiune de rezervă de text simplu.
+compose-send-plain-option =
+    .label = Numai text simplu
+compose-send-plain-description = Unele stiluri vor fi convertite într-o alternativă simplă, iar alte funcții de compoziție vor fi dezactivate.
 autocomplete-description = La introducerea adresei destinatarului, caută rezultate corespondente în:
 ab-label =
     .label = Agende locale de contacte
@@ -569,6 +599,14 @@ third-party-visited =
 cookies-button =
     .label = Afișează cookie-urile…
     .accesskey = S
+# Do not translate.
+# "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
+# included to facilitate power-user search of the about:preferences page.
+global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-description =
+    .label = Spune site-urilor web să nu-mi vândă sau să nu-mi partajeze datele
+    .accesskey = n
+do-not-track-removal = Nu mai oferim suport pentru semnalul „Nu urmări”
 do-not-track-label =
     .label = Trimite site-urilor web un semnal „Nu urmări” pentru a indica faptul că nu vrei să fii urmărit
     .accesskey = n
@@ -582,14 +620,40 @@ primary-password-description = O parolă primară îți protejează toate parole
 primary-password-label =
     .label = Folosește o parolă primară
     .accesskey = U
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = Necesită să intri în cont pe dispozitiv ca să completezi și să gestionezi parole
 primary-password-button =
     .label = Schimbă parola primară...
     .accesskey = C
 forms-primary-pw-fips-title = Acum ești în modul FIPS. FIPS nu permite inexistența unei parole primare.
 forms-master-pw-fips-desc = Schimbarea parolei a eșuat
+spam-description = Definește setările implicite pentru mesaje nedorite. Setările specifice contului pentru mesaje nedorite pot fi configurate în setările contului.
+spam-marked-label =
+    .label = Când mesajele sunt marcate ca nedorite:
+    .accesskey = W
+spam-move-label =
+    .label = Mută-le în dosarul de „Nedorite” al contului
+    .accesskey = o
+spam-delete-label =
+    .label = Șterge-le
+    .accesskey = D
+spam-read-description = Marchează mesajele ca citite
+spam-read-manual-label =
+    .label = Când sunt marcate manual ca nedorite
+    .accesskey = M
+spam-read-auto-label =
+    .label = Când { -brand-short-name } le clasifică drept nedorite
+    .accesskey = T
 spam-log-label =
     .label = Activează jurnalizarea filtrării adaptative de mesaje nedorite
     .accesskey = E
+spam-log-button =
+    .label = Afișează jurnalul
+    .accesskey = S
+reset-spam-button =
+    .label = Resetează datele de antrenament
+    .accesskey = R
 junk-description = Definește setările implicite pentru mesaje nesolicitate. Setările specifice contului pentru mesaje nesolicitate pot fi configurate în setările contului.
 junk-marked-label =
     .label = Când mesajele sunt marcate ca nesolicitate:
@@ -600,6 +664,7 @@ junk-move-label =
 junk-delete-label =
     .label = Șterge-le
     .accesskey = t
+junk-read-description = Marchează mesajele ca citite
 junk-read-manual-label =
     .label = Când sunt marcate manual ca nesolicitate
     .accesskey = M
@@ -639,6 +704,27 @@ certificate-button =
 security-devices-button =
     .label = Dispozitive de securitate…
     .accesskey = D
+email-e2ee-header = Criptare end-to-end a mesajelor e-mail
+account-settings = Setări cont
+email-e2ee-enable-accounts-info = Configurează conturi de e-mail și identități pentru criptarea end-to-end în <a data-l10n-name="account-settings-url">setările contului</a>.
+email-e2ee-enable-info = Configurează conturi de e-mail și identități pentru criptarea end-to-end în setările contului.
+email-e2ee-automatism = Utilizarea automată a criptării
+email-e2ee-automatism-pre =
+    { -brand-short-name } te poate ajuta prin activarea sau dezactivarea automată a criptării în timpul redactării unui mesaje pe e-mail.
+    Activarea/dezactivarea automată se bazează pe disponibilitatea cheilor sau certificatelor valide și acceptate ale  corespondenților.
+email-e2ee-auto-on =
+    .label = Activează automat criptarea când este posibil
+email-e2ee-auto-off =
+    .label = Dezactivează automat criptarea când destinatarii se schimbă și criptarea nu mai este posibilă
+email-e2ee-auto-off-notify =
+    .label = Afișează o notificare de fiecare dată când criptarea este dezactivată automat
+email-e2ee-automatism-post =
+    Deciziile automate pot fi anulate prin activarea sau dezactivarea manuală a criptării la redactarea unui mesaj.
+    Notă: criptarea este întotdeauna activată automat când se răspunde la un mesaj criptat.
+
+## DoH Section
+
+preferences-doh-header = DNS prin HTTPS
 
 ## Chat Tab
 
@@ -708,6 +794,8 @@ chat-browse-sound-button =
 theme-label =
     .value = Temă:
     .accesskey = T
+style-mail =
+    .label = { -brand-short-name }
 style-bubbles =
     .label = Bule
 style-dark =
