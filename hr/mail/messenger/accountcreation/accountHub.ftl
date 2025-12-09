@@ -121,6 +121,7 @@ address-book-carddav-connection-error = Neuspjelo povezivanje.
 address-book-ldap-duplicate-error = Naziv LDAP mape već postoji. Unesite drugi naziv mape.
 address-book-ldap-creation-error = Nije moguće stvoriti LDAP mapu.
 account-hub-email-setup-ews = Postavke servera
+account-hub-result-host-url-label = URL krajnje točke EWS-a
 account-hub-email-credentials-confirmation = Konfiguracija računa
 account-hub-result-unknown-hostname = Nepoznato ime glavnog računala
 account-hub-result-unknown-cert = Nepotvrđeni certifikat
@@ -162,6 +163,9 @@ account-hub-edit-configuration = Uredi konfiguraciju
 account-hub-config-success = Postavke pronađene u Mozilla ISPDB
 account-hub-config-success-exchange = Pronađena je konfiguracija za Microsoft Exchange server
 account-hub-config-success-guess = Pronađena je konfiguracija isprobavanjem čestih imena servera
+account-hub-config-success-disk = Pronađena je konfiguracija u { -brand-short-name } instalaciji
+account-hub-config-success-isp = Pronađena je konfiguracija kod pružatelja usluge e-pošte
+account-hub-config-success-unknown = Pronađena konfiguracija
 account-hub-password-info = Vaše vjerodajnice biti će pohranjene samo lokalno na vašem računalu
 account-hub-creating-account = Stvaranje računa…
 account-hub-sync-accounts-found = { -brand-short-name } je pronašao neke povezane usluge
@@ -191,6 +195,7 @@ account-hub-port-error-text = Port mora biti između 1 i 65535
 account-hub-username-error-text = Korisničko ime je potrebno
     .title = Korisničko ime je potrebno
 account-hub-oauth-pending = Čekanje na autorizaciju u skočnom prozoru za prijavu…
+account-hub-addon-install-button = Instaliraj
 account-hub-addon-install-needed = { -brand-short-name } ne podržava izvorno ovaj poslužitelj. Za pristup e-pošti na usluzi Exchange, <a data-l10n-name="addon-install">instaliraj dodatak treće strane, poput dodatka Owl (plaća se).</a>
 account-hub-addon-error = Instalacija dodatka nije uspjela. Pokušaj ponovno ili kontaktiraj autora dodatka za pomoć.
 account-hub-security-warning = <span data-l10n-name="security-warning">Upozorenje: Otkriven je nesiguran poslužitelj e-pošte.</span> Ovom poslužitelju nedostaje šifriranje, što otkriva vašu lozinku i podatke. Obratite se administratoru kako biste osigurali vezu ili nastavite na vlastitu odgovornost. <a data-l10n-name="faq-link">Za više informacija pogledajte Često postavljana pitanja.</a>

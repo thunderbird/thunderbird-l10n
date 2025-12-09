@@ -105,3 +105,10 @@ dark-message-mode-toggle-enabled =
     .title = Onemogući tamni način rada u porukama
 dark-message-mode-toggle-disabled =
     .title = Omogući tamni način rada u porukama
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } misli da je ova poruka neželjena pošta.
+message-bar-not-spam-button =
+    .label = Nije neželjena pošta
+    .accesskey = N

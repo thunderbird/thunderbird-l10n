@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Vrati obrisano
     .tooltiptext = Poništi brisanje odabranih poruka
+toolbar-spam-button =
+    .label = Neželjena pošta
+    .tooltiptext = Označi odabrane poruke kao neželjenu poštu
+toolbar-not-spam-button =
+    .label = Nije neželjena pošta
+    .tooltiptext = Označi odabrane poruke da nisu neželjena pošta
 
 ## View
 
