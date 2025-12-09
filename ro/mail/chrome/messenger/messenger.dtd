@@ -83,7 +83,7 @@
 <!ENTITY selectMenu.accesskey "S">
 <!ENTITY all.label "Toate">
 <!ENTITY all.accesskey "a">
-<!ENTITY selectThreadCmd.label "Conversația">
+<!ENTITY selectThreadCmd.label "Conversație">
 <!ENTITY selectThreadCmd.accesskey "C">
 <!ENTITY selectThreadCmd.key "A">
 <!ENTITY selectFlaggedCmd.label "Mesaje cu steluță">
@@ -172,9 +172,9 @@
 <!ENTITY sortAscending.accesskey "e">
 <!ENTITY sortDescending.label "Descrescător">
 <!ENTITY sortDescending.accesskey "D">
-<!ENTITY sortThreaded.label "Grupează după conversații">
+<!ENTITY sortThreaded.label "Pe conversații">
 <!ENTITY sortThreaded.accesskey "c">
-<!ENTITY sortUnthreaded.label "Nu grupa după conversații">
+<!ENTITY sortUnthreaded.label "Fără grupare pe conversații">
 <!ENTITY sortUnthreaded.accesskey "v">
 <!ENTITY groupBySort.label "Grupează după criteriul de sortare">
 <!ENTITY groupBySort.accesskey "G">
