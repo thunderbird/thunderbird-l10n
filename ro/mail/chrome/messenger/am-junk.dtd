@@ -14,12 +14,12 @@
 <!ENTITY purge1.label "Șterge automat mesajele nesolicitate mai vechi de">
 <!ENTITY purge1.accesskey "u">
 <!ENTITY purge2.label "zile">
-<!ENTITY whitelistHeader.label "Nu marca acest mesaj ca nesolicitat dacă expeditorul este în: ">
+<!ENTITY whitelistHeader.label "Nu marca automat ca nesolicitat dacă expeditorul este în: ">
 <!ENTITY whitelistHeader.accesskey "D">
-<!ENTITY ispHeadersWarning.label "Dacă este activată, &brandShortName; va considera automat mesajele marcate de clasificarea externă ca și spam.">
-<!ENTITY ispHeaders.label "Ai încredere în marcările de nesolicitare făcute de: ">
+<!ENTITY ispHeadersWarning.label "Dacă este activată, &brandShortName; va considera automat mesajele marcate de clasificarea externă ca nedorite.">
+<!ENTITY ispHeaders.label "Ai încredere în anteturile de mesaje nesolicitare făcute de: ">
 <!ENTITY ispHeaders.accesskey "T">
 <!ENTITY junkClassification.label "Selecție">
 <!ENTITY junkActions.label "Destinație și păstrare">
-<!ENTITY globalJunkPrefs.label "Preferințe globale pentru mesajele nesolicitate…">
+<!ENTITY globalJunkPrefs.label "Preferințe globale pentru mesaje nesolicitate…">
 <!ENTITY globalJunkPrefs.accesskey "G">

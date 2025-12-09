@@ -154,7 +154,7 @@
 <!ENTITY sortByStatusCmd.accesskey "S">
 <!ENTITY sortByTagsCmd.label "Etichete">
 <!ENTITY sortByTagsCmd.accesskey "h">
-<!ENTITY sortByJunkStatusCmd.label "Mesaj nesolicitat">
+<!ENTITY sortByJunkStatusCmd.label "Stare de nesolicitat">
 <!ENTITY sortByJunkStatusCmd.accesskey "e">
 <!ENTITY sortBySubjectCmd.label "Subiect">
 <!ENTITY sortBySubjectCmd.accesskey "b">
@@ -626,7 +626,7 @@
 <!ENTITY accountColumn.label "Cont">
 <!ENTITY statusColumn.label "Stare">
 <!ENTITY sizeColumn.label "Mărime">
-<!ENTITY junkStatusColumn.label "Mesaj nesolicitat">
+<!ENTITY junkStatusColumn.label "Stare de nesolicitat">
 <!ENTITY unreadColumn.label "Necitite">
 <!ENTITY totalColumn.label "Total">
 <!ENTITY readColumn.label "Citit">
@@ -650,7 +650,7 @@
 <!ENTITY accountColumn2.tooltip "Sortează după cont">
 <!ENTITY statusColumn2.tooltip "Sortează după stare">
 <!ENTITY sizeColumn2.tooltip "Sortează după mărime">
-<!ENTITY junkStatusColumn2.tooltip "Sortează după nesolicitate">
+<!ENTITY junkStatusColumn2.tooltip "Sortează după starea de nesolicitat">
 <!ENTITY unreadColumn2.tooltip "Numărul de mesaje necitite din conversație">
 <!ENTITY totalColumn2.tooltip "Numărul total de mesaje din conversație">
 <!ENTITY readColumn2.tooltip "Sortare după citire">

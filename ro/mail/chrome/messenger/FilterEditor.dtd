@@ -38,7 +38,7 @@
 <!ENTITY markMessageStarred.label "Adaugă steluță">
 <!ENTITY setPriority.label "Schimbă prioritatea în">
 <!ENTITY addTag.label "Etichetează mesaj">
-<!ENTITY setJunkScore.label "Setează starea de nesolicitare la">
+<!ENTITY setJunkScore.label "Setează starea de nesolicitat la">
 <!ENTITY deleteMessage.label "Șterge mesajul">
 <!ENTITY deleteFromPOP.label "Șterge de pe serverul POP">
 <!ENTITY fetchFromPOP.label "Adu de pe serverul POP">
