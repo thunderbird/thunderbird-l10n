@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Păstrează structura actuală a dosarelor cu mesaje arhivate
     .accesskey = P
+recreate-inbox =
+    .label = Recreează dosarul de mesaje primite
+    .accesskey = R
 archive-example-label = Exemplu
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Mesaje primite
+child-folder-name =
+    .label = Subdosar în mesaje primite
+sibling-folder-name =
+    .label = Fratele dosarului de mesaje primite

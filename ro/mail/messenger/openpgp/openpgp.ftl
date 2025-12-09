@@ -316,11 +316,39 @@ openpgp-personal-yes-label =
 openpgp-passphrase-protection =
     .label = Protecție prin parolă
 openpgp-passphrase-status-unprotected = Neprotejată
+openpgp-passphrase-status-primary-password = Protejată cu parola primară { -brand-short-name }
+openpgp-passphrase-status-user-passphrase = Protejată printr-o parolă
+openpgp-passphrase-instruction-unprotected = Setează o parolă pentru protejarea cheii
+openpgp-passphrase-instruction-primary-password = Alternativ, protejează cheia cu o parolă separată
+openpgp-passphrase-instruction-user-passphrase = Deblochează cheia pentru a-i schimba protecția.
+openpgp-passphrase-unlock = Deblochează
+openpgp-passphrase-unlocked = Cheia a fost deblocată cu succes.
+openpgp-remove-protection = Elimină protecția prin parolă
+openpgp-use-primary-password = Elimină parola și protejeaz-o cu parola primară
+openpgp-passphrase-new = Parolă nouă
+openpgp-passphrase-new-repeat = Confirmă parola nouă
+openpgp-passphrase-set = Setează parola
+openpgp-passphrase-change = Schimbă parola
 openpgp-copy-cmd-label =
     .label = Copiază
 
 ## e2e encryption settings
 
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-no-key = { -brand-short-name } nu are o cheie OpenPGP personală pentru <b>{ $identity }</b>
+#   $count (Number) - the number of configured keys associated with the current identity
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-has-keys =
+    { $count ->
+        [one] { -brand-short-name } a găsit { $count } cheie OpenPGP personală asociată cu<b>{ $identity }</b>
+        [few] { -brand-short-name } a găsit { $count } chei OpenPGP personale asociate cu<b>{ $identity }</b>
+       *[other] { -brand-short-name } a găsit { $count } de chei OpenPGP personale asociate cu<b>{ $identity }</b>
+    }
+#   $key (String) - the currently selected OpenPGP key
+openpgp-selection-status-have-key = Configurația actuală folosește ID-ul de cheie <b>{ $key }</b>
+#   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Configurația actuală folosește cheia <b>{ $key }</b>, care va expira la { $when }. Pentru a menține cheia valabilă, te rugăm să iei în considerare prelungirea datei de expirare a cheii acum.
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Configurația ta curentă folosește cheia <b>{ $key }</b>, care a expirat.
 openpgp-add-key-button =
@@ -336,11 +364,18 @@ openpgp-keygen-external-success = ID-ul cheii externe GnuPG a fost salvat!
 openpgp-radio-none =
     .label = Niciuna
 openpgp-radio-none-desc = Nu folosi OpenPGP pentru această identitate.
+openpgp-radio-key-not-usable = Cheia nu poate fi utilizată drept cheie personală, deoarece lipsește cheia secretă!
+openpgp-radio-key-not-accepted = Pentru a utiliza această cheie, trebuie să o aprobi drept cheie personală!
 openpgp-radio-key-not-found = Cheia este de negăsit! Dacă vrei să o folosești, trebuie să o imporți în { -brand-short-name }.
 #   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Expiră la: { $date }
 #   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Expiră la: { $date }
+openpgp-key-expires-within-6-months-icon =
+    .title = Cheia expiră în mai puțin de 6 luni
+openpgp-key-has-expired-icon =
+    .title = Cheia a expirat
+openpgp-suggest-publishing-key = Publicarea cheii publice pe un server de chei permite altora să o descopere.
 openpgp-key-expand-section =
     .tooltiptext = Mai multe informații
 openpgp-key-revoke-title = Revocă cheia
@@ -373,6 +408,9 @@ key-expired-date = Cheia a expirat la { $keyExpiry }
 key-expired-simple = Cheia a expirat
 key-revoked-simple = Cheia a fost revocată
 key-do-you-accept = Accepți cheia pentru verificarea semnăturilor digitale și pentru criptarea mesajelor?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
+key-verification = Verifică amprenta cheii folosind un canal de comunicare securizat, altul decât e-mailul, pentru a asigurarea că este într-adevăr cheia pentru { $addr }.
 
 ## Strings enigmailMsgComposeOverlay.js
 
@@ -473,6 +511,7 @@ key-man-button-export-pub-key = Exportă numai chei &publice
 key-man-button-refresh-all = &Reîmprospătează toate cheile
 key-man-loading-keys = Se încarcă cheile, te rugăm să aștepți...
 ascii-armor-file = Fișiere blindate ASCII (*.asc)
+text-file = Fișiere text (*.txt)
 no-key-selected = Trebuie să selectezi cel puțin o cheie ca să poți efectua operația selectată
 export-to-file = Exportă cheia publică într-un fișier
 export-keypair-to-file = Exportă cheia secretă și cheia publică într-un fișier
@@ -561,6 +600,11 @@ key-error-not-accepted-as-personal = Nu ai confirmat cheia cu ID-ul „{ $keySpe
 
 need-online = Funcția pe care ai selectat-o nu este disponibilă în modul offline. Treci în modul online și încearcă din nou.
 
+## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
+
+no-key-found2 = Nu am găsit nicio cheie potrivită pentru criteriile de căutare specificate.
+no-update-found = Ai deja cheile descoperite online.
+
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Eroare - Comanda de extragere a cheii a eșuat
@@ -576,6 +620,13 @@ fail-key-import = Eroare - Importul cheii a eșuat
 file-write-failed = Nu s-a reușit scrierea în fișierul { $output }
 no-pgp-block = Eroare - Nu s-a găsit niciun bloc valid de date blindate OpenPGP
 confirm-permissive-import = Importul a eșuat. Cheia pe care încerci să o imporți poate fi coruptă sau folosește atribute necunoscute. Vrei să încerci să imporți părțile corecte? Poate conduce la importarea de chei incomplete și neutilizabile.
+
+## Strings used in keyRing.sys.mjs
+
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Unele dintre cheile secrete importate promovează o funcționalitate neacceptată. Dacă folosești o astfel de cheie drept cheie personală, corespondenții îți pot trimite mesaje pe e-mail sau chei publice într-un format incompatibil. Acest lucru afectează cheile secrete importate cu următoarele amprente digitale: { $fingerprints }.
+help-button = Ajutor
 
 ## Strings used in trust.sys.mjs
 
@@ -596,6 +647,17 @@ import-key-file = Importă un fișier de chei OpenPGP
 import-rev-file = Importă un fișier de revocare OpenPGP
 gnupg-file = Fișiere GnuPG
 import-keys-failed = Importul cheilor a eșuat
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Introdu parola pentru deblocarea cheii secrete cu ID-ul { $key }, creată la { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Introdu parola pentru deblocarea cheii secrete cu ID-ul { $subkey }, care este o subcheie a ID-ului de cheie { $key }, creată la { $date }, { $username_and_email }
 file-to-big-to-import = Fișierul este prea mare. Nu importa un set mare de chei deodată.
 
 ## Strings used in enigmailKeygen.js

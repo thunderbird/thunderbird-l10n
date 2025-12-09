@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 finger-intro = Amprente de chei OTR din conversații criptate anterioare.
+finger-screen-name =
+    .label = Contact
 finger-verified =
     .label = Stare de verificare
 finger-fingerprint =
