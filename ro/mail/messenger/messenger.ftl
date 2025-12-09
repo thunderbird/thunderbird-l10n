@@ -34,21 +34,62 @@ content-tab-security-broken-icon =
 
 # Back
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .tooltiptext = Înapoi cu o pagină ({ $shortcut })
+    .aria-label = Înapoi
+    .accesskey = B
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Înapoi
+    .accesskey = B
 
 # Forward
 
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .tooltiptext = Înainte cu o pagină ({ $shortcut })
+    .aria-label = Înainte
+    .accesskey = F
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Înainte
+    .accesskey = F
 
 # Reload
 
+content-tab-menu-reload =
+    .tooltiptext = Reîncarcă pagina
+    .aria-label = Reîncarcă
+    .accesskey = R
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .tooltiptext = Reîncarcă pagina
+    .label = Reîncarcă
+    .accesskey = R
 
 # Stop
 
+content-tab-menu-stop =
+    .tooltiptext = Oprește încărcarea paginii
+    .aria-label = Oprește
+    .accesskey = S
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .tooltiptext = Oprește încărcarea paginii
+    .label = Oprește
+    .accesskey = S
 
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
     .label = Suplimente și teme
     .tooltiptext = Gestionează-ți suplimentele
+quick-filter-toolbarbutton =
+    .label = Filtru rapid
+    .tooltiptext = Filtrează mesajele
 
 ## Folder Pane
 

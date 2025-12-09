@@ -307,6 +307,9 @@ many-public-recipients-prompt-send = Trimite oricum
 # Variables:
 # $identity (string) - The name of the used identity, most likely an email address.
 compose-missing-identity-warning = Nu a fost găsită o identitate unică care să corespundă cu adresa din câmpul „De la”. Mesajul va fi trimis folosind câmpul „De la” actual și setările din identitatea { $identity }.
+encrypted-bcc-warning = Când se trimite un mesaj criptat, destinatarii din Bcc nu sunt complet ascunși. Este posibil ca toți destinatarii să îi poată identifica.
+encrypted-bcc-ignore-button = Am înțeles
+auto-disable-e2ee-warning = Criptarea end-to-end pentru acest mesaj a fost dezactivată automat.
 
 ## Editing
 
@@ -324,6 +327,13 @@ cloud-file-unknown-account-tooltip = Încărcat într-un cont Filelink necunoscu
 
 # Placeholder file
 
+# Title for the html placeholder file.
+# $filename - name of the file
+cloud-file-placeholder-title = { $filename } - Atașament Filelink
+# A text describing that the file was attached as a Filelink and can be downloaded
+# from the link shown below.
+# $filename - name of the file
+cloud-file-placeholder-intro = Fișierul { $filename } a fost atașat ca Filelink. Poate fi descărcat prin clic pe linkul de mai jos.
 
 # Template
 
@@ -338,6 +348,30 @@ cloud-file-count-header =
         [few] Am pus un link cu { $count } fișiere la acest mesaj pe e-mail:
        *[other] Am pus un link cu { $count } de fișiere la acest mesaj pe e-mail:
     }
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service provider.
+# $link (string) - html a-tag for a link pointing to the web page of the provider
+cloud-file-service-provider-footer-single = Află mai multe despre { $link }.
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service providers. Links for the used providers are
+# split into a comma separated list of the first n-1 providers and a single entry
+# at the end.
+# $firstLinks (string) - comma separated list of html a-tags pointing to web pages
+#                        of the first n-1 used providers
+# $lastLink (string) - html a-tag pointing the web page of the n-th used provider
+cloud-file-service-provider-footer-multiple = Află mai multe despre { $firstLinks } și { $lastLink }.
+# Tooltip for an icon, indicating that the link is protected by a password.
+cloud-file-tooltip-password-protected-link = Link protejat prin parolă
+# Used in a list of stats about a specific file
+# Service - the used service provider to host the file (Filelink Service: BOX.com)
+# Size - the size of the file (Size: 4.2 MB)
+# Link - the link to the file (Link: https://some.provider.com)
+# Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
+# Download Limit - stating the maximum allowed downloads, before the link becomes invalid
+#                  (Download Limit: 6)
+cloud-file-template-service-name = Serviciu Filelink:
+cloud-file-template-size = Mărime:
+cloud-file-template-link = Link:
 cloud-file-template-password-protected-link = Link protejat prin parolă:
 cloud-file-template-expiry-date = Data expirării:
 cloud-file-template-download-limit = Limită de descărcare:
@@ -365,10 +399,18 @@ cloud-file-rename-error-with-custom-message-title = Redenumirea { $filename } pe
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-rename-not-supported = { $provider } nu acceptă redenumirea fișierelor deja încărcate.
 cloud-file-attachment-error-title = Eroare atașament Filelink
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = Atașamentul Filelink { $filename } nu a putut fi actualizat, deoarece fișierul local a fost mutat sau șters.
+cloud-file-account-error-title = Eroare cont Filelink
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-account-error = Atașamentul Filelink { $filename } nu a putut fi actualizat, deoarece contul Filelink aferent a fost șters.
 
 ## Link Preview
 
 link-preview-title = Previzualizare link
+link-preview-description = { -brand-short-name } poate adăuga o previzualizare încorporată la inserarea linkurilor.
 link-preview-autoadd = Adaugă automat previzualizări ale linkurilor când este posibil
 link-preview-replace-now = Adaugi o previzualizare pentru acest link?
 link-preview-yes-replace = Da
