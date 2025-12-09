@@ -757,6 +757,23 @@ preferences-doh-setting-enabled =
     .label = Protecție sporită
     .accesskey = I
 preferences-doh-enabled-desc = Tu controlezi când să utilizezi DNS securizat și îți alegi furnizorul.
+preferences-doh-enabled-detailed-desc-1 = Folosește furnizorul pe care îl alegi
+preferences-doh-enabled-detailed-desc-2 = Folosește rezolverul DNS implicit doar dacă există o problemă cu DNS-ul securizat
+preferences-doh-setting-strict =
+    .label = Protecție max
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } va folosi întotdeauna un DNS securizat. Vei vedea un avertisment privind riscul de securitate înainte de a utiliza DNS-ul sistemului tău.
+preferences-doh-strict-detailed-desc-1 = Folosește doar furnizorul pe care îl alegi
+preferences-doh-strict-detailed-desc-2 = Avertizează întotdeauna dacă DNS-ul securizat nu este disponibil
+preferences-doh-strict-detailed-desc-3 = Dacă DNS-ul securizat nu este disponibil, site-urile nu se vor încărca sau nu vor funcționa corect
+preferences-doh-setting-off =
+    .label = Dezactivat
+    .accesskey = O
+preferences-doh-off-desc = Folosește rezolverul DNS implicit
+preferences-doh-checkbox-warn =
+    .label = Avertizează dacă un terț împiedică în mod activ utilizarea unui DNS securizat
+    .accesskey = W
+preferences-doh-select-resolver = Alege furnizorul:
 # Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider
 preferences-doh-url-default =
@@ -905,7 +922,15 @@ sync-pane-sign-in = Intră în cont
 sync-pane-remove-account = Elimină contul
 sync-pane-edit-photo =
     .title = Schimbă fotografia de profil
+sync-pane-manage-account = Gestionează contul
 sync-pane-sign-out = Ieși din cont…
+sync-pane-device-name-title = Denumire dispozitiv
+sync-pane-change-device-name = Schimbă numele dispozitivului
+sync-pane-cancel = Anulează
+sync-pane-save = Salvează
+sync-pane-show-synced-header-on = Sincronizare activată
+sync-pane-show-synced-header-off = Sincronizare dezactivată
+sync-pane-sync-now = Sincronizează acum
 sync-panel-sync-now-syncing = Se sincronizează…
 show-synced-list-heading = Sincronizezi aceste elemente:
 show-synced-learn-more = Află mai multe…
@@ -964,10 +989,109 @@ qr-export-next = Înainte
 qr-export-done = Terminat
 qr-export-summary-description = Conturi exportate. Continuă pe dispozitivul mobil.
 qr-export-summary-title = Rezumatul exportului:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } cod QR generat
+        [few] { $count } coduri QR generate
+       *[other] { $count } de coduri QR generate
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } cont exportat:
+        [few] { $count } conturi exportate:
+       *[other] { $count } de conturi exportate:
+    }
+qr-export-summary-passwords-included = Parole incluse
+qr-export-summary-passwords-excluded = Parole excluse
+qr-export-more-accounts = Exportă mai multe conturi
 
 ## Appearance Tab
 
+appearance-category-header = Aspect
+default-message-list-legend = Listă de mesaje
+appearance-view-style =
+    .value = Stil de vizualizare:
+appearance-radio-table =
+    .label = Vizualizare tip tabel
+appearance-radio-cards =
+    .label = Vizualizare tip fișe
+cards-view-legend = Opțiuni de vizualizare pe fișe
+table-view-legend = Opțiuni de vizualizare tip tabel
+appearance-card-rows =
+    .value = Număr de rânduri:
+appearance-card-style-3 =
+    .label = 3 rânduri
+appearance-card-style-2 =
+    .label = 2 rânduri
+default-message-list-sorting-legend = Sortare și afișare pe conversații
+default-message-list-description = Definește opțiunile implicite de sortare și organizare pe fire de conversații pentru dosarele nou-create.
+default-flag-label =
+    .value = Mod implicit de afișare pe fire de conversații:
+default-flag-unthreaded =
+    .label = Fără grupare pe conversații
+default-flag-threaded =
+    .label = Pe conversații
+default-flag-grouped =
+    .label = Grupare după criteriul de sortare
+default-sort-label = Sortare implicită după:
+default-sort-date =
+    .label = Dată
+default-sort-subject =
+    .label = Subiect
+default-sort-from =
+    .label = De la
+default-sort-id =
+    .label = ID
+default-sort-thread =
+    .label = Conversație
+default-sort-priority =
+    .label = Prioritate
+default-sort-status =
+    .label = Stare
+default-sort-size =
+    .label = Mărime
+default-sort-star =
+    .label = Stea
+default-sort-unread =
+    .label = Citit
+default-sort-recipient =
+    .label = Destinatar
+default-sort-location =
+    .label = Locație
+default-sort-tags =
+    .label = Etichete
+default-sort-spam =
+    .label = Stare mesaje nedorite
+default-sort-attachments =
+    .label = Atașamente
+default-sort-account =
+    .label = Cont
+default-sort-received =
+    .label = Ordinea primirii
+default-sort-correspondents =
+    .label = Corespondenți
+default-order-label = Ordine implicită de sortare:
+default-sort-ascending =
+    .label = Crescător
+default-sort-ascending-description = Mesaje noi în partea de jos
+default-sort-descending =
+    .label = Descrescător
+default-sort-descending-description = Mesaje noi în partea de sus
 apply-thread-sort-label = Propagă setările de fire de conversații și sortare în:
+apply-sort-to-all-button =
+    .label = Toate dosarele existente
+    .accesskey = A
+choose-apply-sort-button =
+    .label = Alege…
+    .accesskey = C
+apply-current-view-to-folder =
+    .label = Dosar…
+apply-current-view-to-folder-children =
+    .label = Dosar și subdosare…
 apply-changes-prompt-title = Aplici modificările?
 apply-changes-prompt-message = Aplici setările actuale de fire de conversații și sortare în toate dosarele?
 # Variables:
