@@ -23,11 +23,19 @@ e2e-csr-select-title = Algoritm CSR
 e2e-csr-select-alg = Alege dintre RSA (recomandat) sau ECC ca algoritm criptografic pentru noul certificat S/MIME.
 # Do not translate: S/MIME
 e2e-csr-select-strength = Alege puterea criptografică dorită (mai rapidă cu numere mai mici sau securitate mai bună cu numere mai mari) pentru noul certificat S/MIME sau păstrează setarea implicită.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Va fi generată o cheie secretă nouă { $type } { $strength } în setările { -brand-short-name }. Poate dura ceva timp și poate cauza întreruperi temporare de răspuns; te rugăm să ai răbdare în timpul acestui pas. Între timp, va fi creat fișierul de cerere de semnare a certificatului (CSR), salvat ca { $file }.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Include adresa de e-mail ({ $email }) în CSR (recomandat)
 # $file A filename
 e2e-csr-success = CSR-ul a fost salvat cu succes în { $file }
+# $file A filename
+e2e-csr-failure = CSR nu a putut fi salvată în fișierul { $file }
+e2e-signing-description = O semnătură digitală permite destinatarilor să verifice dacă mesajul a fost trimis de tine și că nu i-a fost modificat conținutul. Mesajele criptate sunt întotdeauna semnate implicit.
 e2e-sign-message =
     .label = Semnează mesaje necriptate
     .accesskey = u

@@ -14,6 +14,24 @@ new-newsgroup-headers =
         [few] Se descarcă { $count } anteturi pentru { $newsgroup }…
        *[other] Se descarcă { $count } de anteturi pentru { $newsgroup }…
     }
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-new-messages = Nu sunt mesaje noi în { $newsgroup }.
+# Variables:
+# $count (Number) - Number of articles.
+# $newsgroup (String) - The name of the newsgroup.
+downloading-articles-for-offline =
+    { $count ->
+        [one] Se descarcă { $count } articol pentru { $newsgroup }…
+        [few] Se descarcă { $count } articole pentru { $newsgroup }…
+       *[other] Se descarcă { $count } de articole pentru { $newsgroup }…
+    }
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-articles-to-download = Nu sunt articole de descărcat pentru { $newsgroup }.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = Grupul de discuții { $newsgroup } nu este disponibil pe server.
 
 ## Download Headers Dialog
 

@@ -19,8 +19,19 @@ openpgp-view-your-encryption-key =
     .label = Afișează cheia de decriptare
 openpgp-openpgp = OpenPGP
 openpgp-no-sig = Nicio semnătură digitală
+openpgp-no-sig-info = Mesajul nu conține semnătura digitală a expeditorului. Absența semnăturii digitale înseamnă că mesajul ar fi putut fi trimis de către cineva care pretinde că are această adresă de e-mail. Este de asemenea posibil ca mesajul să fi fost alterat în timpul tranzitului în rețea.
 openpgp-uncertain-sig = Semnătură digitală incertă
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-uncertain-sig-with-date = Semnătură digitală incertă - Semnat la { $date }
 openpgp-invalid-sig = Semnătură digitală nevalidă
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-invalid-sig-with-date = Semnătură digitală nevalidă - Semnat la { $date }
+openpgp-bad-date-sig = Nepotrivire între dată și semnătură
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Nepotrivire între dată și semnătură - Semnat la { $date }
 openpgp-good-sig = Semnătură digitală bună
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -69,3 +80,7 @@ openpgp-message-header-signed-mismatch-icon =
     .alt = Semnătură greșită
 openpgp-message-header-signed-unknown-icon =
     .alt = Stare necunoscută a semnăturii
+openpgp-message-header-signed-verified-icon =
+    .alt = Semnătură verificată
+openpgp-message-header-signed-unverified-icon =
+    .alt = Semnătură neverificată
