@@ -3,6 +3,18 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Newsgroup Status Messages
+
+# Variables:
+# $count (Number) - Number of headers.
+# $newsgroup (String) - The name of the newsgroup.
+new-newsgroup-headers =
+    { $count ->
+        [one] Se descarcă { $count } antet pentru { $newsgroup }…
+        [few] Se descarcă { $count } anteturi pentru { $newsgroup }…
+       *[other] Se descarcă { $count } de anteturi pentru { $newsgroup }…
+    }
+
 ## Download Headers Dialog
 
 download-headers-dialog-title = Descarcă anteturile

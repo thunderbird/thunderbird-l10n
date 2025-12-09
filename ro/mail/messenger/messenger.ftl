@@ -225,6 +225,9 @@ mail-context-menu-open =
 mail-context-menu-reply =
     .label = Răspunde
     .accesskey = R
+mail-context-menu-forward-redirect =
+    .label = Înaintează și redirecționează
+    .accesskey = F
 mail-context-menu-forward-forward =
     .label = Redirecționează
     .accesskey = a
@@ -282,6 +285,8 @@ other-action-redirect-msg =
     .label = Redirecţionează
 other-action-copy-message-link =
     .label = Copiază linkul mesajului
+other-action-copy-news-link =
+    .label = Copiază linkul de știri
 message-header-msg-flagged =
     .title = Cu steluță
     .aria-label = Cu steluță
@@ -350,6 +355,7 @@ addon-removal-confirmation-button = Elimină
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Elimini { $name }, precum și configurația și datele din { -brand-short-name }?
 caret-browsing-prompt-title = Navigare cu cursorul
+caret-browsing-prompt-text = Apăsarea pe F7 activează sau dezactivează navigarea la cursor. Funcția plasează un cursor mobil în anumite conținuturi, permițându-ți să selectezi text din tastatură. Vrei să activezi navigarea la cursor?
 caret-browsing-prompt-check-text = Nu mai întreba.
 repair-text-encoding-button =
     .label = Repară codarea de text
@@ -357,6 +363,7 @@ repair-text-encoding-button =
 
 ## no-reply handling
 
+no-reply-title = Nu acceptă răspuns
 # Variables:
 # $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Adresa de răspuns ({ $email }) nu pare a fi o adresă monitorizată. Mesajele către această adresă probabil nu vor fi citite de nimeni.
@@ -512,6 +519,24 @@ menu-delete-spam =
     .label = Șterge mesajele marcate ca spam din dosar
     .accesskey = D
 
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Golește dosarul de nedorite
+    .accesskey = S
+
+## Thread pane.
+
+column-status-spam =
+    .label = Stare de nedorit
+    .tooltiptext = Sortează după starea de nedorit
+
+## Message header.
+
+header-spam-button =
+    .label = Nedorit
+    .tooltiptext = Marchează mesajul ca nedorit
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Marchează ca citit
@@ -522,6 +547,15 @@ archive-action = Arhivează
 
 ## Message list.
 
+message-flag-spam = Mesaje nedorite
+menuitem-label-spam =
+    .label = Mesaje nedorite
+menuitem-label-spam-score-origin =
+    .label = Origine scor de mesaj nedorit
+menuitem-label-spam-percentage =
+    .label = Procent de mesaj nedorit
+menuitem-label-spam-status =
+    .label = Stare mesaje nedorite
 message-priority-lowest = Cea mai mică
 message-priority-low = Mică
 # Normal priority is often blank, depending on the consumers of these strings.
@@ -552,3 +586,20 @@ message-group-starred = Cu steluță
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Golești { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Ștergi toate mesajele și subdosarele din dosarul { $folder }?
+prompt-dont-ask-again = Nu mai întreba.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Analiză mesaje nedorite realizată { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
+spam-processing-message = Se procesează mesajele nedorite

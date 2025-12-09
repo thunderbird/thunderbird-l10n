@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 spam-log-title = Jurnal adaptativ de mesaje nedorite
+spam-log-info-label =
+    .value = Jurnal de activitate pentru controlul adaptativ al mesajelor nedorite.
 clear-log-button =
     .label = Golește jurnalul
     .accesskey = G

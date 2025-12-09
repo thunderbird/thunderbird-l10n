@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Șterge
     .tooltiptext = Șterge
+multi-message-undelete-button =
+    .label = Anulează ștergerea
+    .tooltiptext = Anulează ștergerea
