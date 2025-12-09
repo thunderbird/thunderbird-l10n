@@ -725,6 +725,40 @@ email-e2ee-automatism-post =
 ## DoH Section
 
 preferences-doh-header = DNS prin HTTPS
+preferences-doh-description = Sistemul de nume de domeniu (DNS) prin HTTPS îți trimite cererea pentru un nume de domeniu printr-o conexiune criptată, creând un DNS securizat și făcând mai dificil pentru alții să vadă pe ce site web urmează să intri.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Stare: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Furnizor: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = URL nevalid
+preferences-doh-steering-status = Utilizare furnizor local
+preferences-doh-status-active = Activ
+preferences-doh-status-disabled = Dezactivat
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (Implicit)
+preferences-doh-url-custom =
+    .label = Personalizat
+    .accesskey = C
+
+## Keyservers
+
+email-e2ee-key-servers-legend = Servere de chei OpenPGP
+email-e2ee-key-servers-intro =
+    Un server de chei primește și apoi servește utilizatorilor cheile publice existente.
+    Îți permite să publici cheia publică și să găsești și să actualizezi cheile altora.
+email-e2ee-key-servers-use-following = Folosește următoarele servere de chei:
+email-e2ee-key-servers-add = Adaugă…
+email-e2ee-key-servers-reset = Resetează lista de servere
+email-e2ee-key-servers-add-title = Adaugă un server de chei
+email-e2ee-key-servers-add-text = Introdu URL-ul serverului de chei pe care vrei să îl adaugi.
+email-e2ee-key-servers-add-failed-title = Adăugarea serverului de chei a eșuat
+email-e2ee-key-servers-add-failed-text = Nu s-a putut realiza conexiunea la un server de chei la adresa URL furnizată.
 
 ## Chat Tab
 
@@ -810,6 +844,17 @@ no-preview-description = Această temă nu este validă sau nu este disponibilă
 chat-variant-label =
     .value = Variantă:
     .accesskey = V
+# This is used to determine the width of the search field in about:preferences,
+# in order to make the entire placeholder string visible
+#
+# Please keep the placeholder string short to avoid truncation.
+#
+# Notice: The value of the `.style` attribute is a CSS string, and the `width`
+# is the name of the CSS property. It is intended only to adjust the element's width.
+# Do not translate.
+search-preferences-input2 =
+    .style = width: 15.4em
+    .placeholder = Găsește în setări
 
 ## Settings UI Search Results
 
@@ -821,3 +866,54 @@ search-results-help-link = Ai nevoie de ajutor? Intră pe <a data-l10n-name="url
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Intră în cont pentru sincronizare…
 sync-pane-sign-out = Ieși din cont…
+sync-panel-sync-now-syncing = Se sincronizează…
+show-synced-list-heading = Sincronizezi aceste elemente:
+show-synced-learn-more = Află mai multe…
+show-synced-item-account = Conturi de e-mail
+show-synced-item-address = Agende de contacte
+show-synced-item-calendar = Calendare
+show-synced-item-identity = Identități
+show-synced-item-passwords = Parole
+show-synced-change = Schimbă…
+synced-acount-item-server-config = Configurare server
+synced-acount-item-filters = Filtre
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Sincronizează-ți conturile de e-mail, agendele de contacte, calendarele și identitățile pe toate dispozitivele.
+sync-disconnected-turn-on-sync = Activează sincronizarea…
+
+## Mobile QR Export Pane
+
+qr-export-pane-header = Exportă conturile către { -brand-product-name } Mobile
+qr-export-description = Transferă rapid setările contului de pe desktop pe mobil generând un cod QR. Selectează conturile pe care vrei să le incluzi, decide dacă vrei să transferi parola și scanează codul cu dispozitivul mobil. Rapid, sigur și simplu.
+qr-export-get-app = Nu ai încă { -brand-product-name } pe mobil? <a data-l10n-name="app-link">Descarcă-o de pe Google Play</a>
+qr-export-create = Creează un cod QR pentru a-ți exporta conturile
+qr-export-select-accounts = Selectează conturile de exportat:
+qr-export-no-accounts = Nu îți vezi toate conturile? Este posibil ca unele conturi să fie dezactivate deoarece nu sunt acceptate de { -brand-product-name } pentru Android. <a data-l10n-name="account-support-link">Asistență</a>
+qr-export-accounts-legend = Conturi de e-mail
+qr-export-select-all-accounts = Selectează tot
+qr-export-security-legend = Securitate
+qr-export-include-passwords = Include toate parolele conturilor
+qr-export-oauth-warning = Unele conturi utilizează o metodă de autentificare care poate necesita reautentificarea pe dispozitivul mobil. Este posibil să fie nevoie să introduci din nou parolele.
+qr-export-security-hint = Prin scanarea următoarelor coduri QR, setările contului — inclusiv adresa de e-mail și parola — vor fi transferate în siguranță. Nu colectăm, nu stocăm și nu partajăm aceste date în timpul procesului. Transferul are loc direct între dispozitivele tale.
+qr-export-security-warning = Pentru securitatea ta, te rugăm să te asiguri că ești într-un mediu privat și scanezi coduri QR doar din surse de încredere.
+qr-export-start-export = Exportă
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } din { $count } cod QR
+        [few] { $step } din { $count } coduri QR
+       *[other] { $step } din { $count } de coduri QR
+    }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Scanează codul QR cu { -brand-product-name } pe dispozitivul mobil
+       *[other] Scanează codul QR cu { -brand-product-name } pe dispozitivul mobil
+    }
+qr-export-scan-step1 = Deschide { -brand-product-name } pe dispozitivul mobil
+qr-export-scan-step2 = Mergi la setări
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Selectează <strong>Setări de import</strong>
