@@ -47,6 +47,7 @@ compose-html-style-title = HTML stil
 composition-addressing-header = Adresiranje
 privacy-main-header = Privatnost
 privacy-passwords-header = Lozinke
+privacy-spam-header = Neželjena pošta
 privacy-junk-header = Neželjena pošta
 collection-header = { -brand-short-name } – prikupljanje i upotreba podataka
 collection-description = Želimo ti omogućiti izbor i prikupljamo samo onoliko koliko nam treba da omogućimo i unaprijedimo { -brand-short-name } za sve. Uvijek pitamo za dozvolu prije nego što počnemo primati osobne podatke.

@@ -130,6 +130,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Zbijeni prikaz
     .accesskey = Z
 
+## Folder names
+
+folder-name-spam = Neželjena pošta
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -203,6 +207,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Arhiviraj
     .tooltiptext = Arhiviraj
+context-menu-mark-spam =
+    .aria-label = Označi kao neželjeno
+    .tooltiptext = Označi kao neželjeno
+context-menu-mark-not-spam =
+    .aria-label = Označi da nije neželjeno
+    .tooltiptext = Označi da nije neželjeno
 context-menu-mark-junk =
     .aria-label = Označi kao neželjena pošta
     .tooltiptext = Označi kao neželjena pošta
@@ -481,12 +491,30 @@ openpgp-forget = Zaboravi OpenPGP šifre
 quota-panel-percent-used = { $percent }% popunjeno
     .title = IMAP kvota: { $usage } iskorišteno od ukupno { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Status neželjene pošte
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Kao neželjenu poštu
+    .accesskey = e
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Kao željenu poštu
+    .accesskey = ž
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Pokreni kontrole neželjene pošte
+    .accesskey = k
+menu-run-spam-on-folder =
+    .label = Pokreni kontrole neželjene pošte na mapi
+    .accesskey = k
 
 ## Actions for the New Mail Notification
 
@@ -498,6 +526,9 @@ archive-action = Arhiviraj
 
 ## Message list.
 
+message-flag-spam = Neželjena pošta
+menuitem-label-spam =
+    .label = Neželjena pošta
 menuitem-label-spam-status =
     .label = Stanje neželjene pošte
 message-priority-lowest = Najniži

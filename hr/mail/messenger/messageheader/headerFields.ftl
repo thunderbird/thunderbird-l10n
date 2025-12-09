@@ -112,3 +112,6 @@ message-bar-spam = { -brand-short-name } misli da je ova poruka neželjena pošt
 message-bar-not-spam-button =
     .label = Nije neželjena pošta
     .accesskey = N
+message-bar-learn-more-button =
+    .label = Saznaj više…
+    .accesskey = z
