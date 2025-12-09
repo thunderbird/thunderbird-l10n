@@ -87,7 +87,7 @@ toolbar-junk-button =
     .tooltiptext = Marchează mesajele selectate ca nesolicitate
 toolbar-not-junk-button =
     .label = Nu sunt nesolicitate
-    .tooltiptext = Marchează mesajele selectate ca „Nu sunt nesolicitate”
+    .tooltiptext = Marchează mesajele selectate ca nefiind nesolicitate
 toolbar-delete-button =
     .label = Șterge
     .tooltiptext = Șterge mesajele selectate sau dosarul
@@ -99,7 +99,7 @@ toolbar-spam-button =
     .tooltiptext = Marchează mesajele selectate ca nedorite
 toolbar-not-spam-button =
     .label = Nu sunt nedorite
-    .tooltiptext = Marchează mesajele selectate că nu sunt nedorite
+    .tooltiptext = Marchează mesajele selectate ca nefiind nedorite
 
 ## View
 

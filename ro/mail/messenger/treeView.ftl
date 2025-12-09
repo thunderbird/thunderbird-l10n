@@ -33,3 +33,6 @@ tree-list-view-row-watched-thread-button =
 tree-list-view-row-flagged =
     .alt = Indicator de mesaje cu stea
     .title = Mesaj cu stea
+tree-list-view-row-not-spam =
+    .alt = Indicator stare de nedorit
+    .title = Mesajul nu este marcat ca nedorit

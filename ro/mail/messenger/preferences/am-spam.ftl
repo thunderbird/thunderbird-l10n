@@ -5,7 +5,7 @@
 spam-settings-title = Setări pentru spam
 dialog-header-title =
     .value = Setări pentru spam
-training-description-spam = Dacă este activată, trebuie mai întâi să înveți { -brand-short-name } să identifice mesajele spam folosind butonul de Spam din bara de instrumente ca să marchezi mesajele ca spam sau nu. Trebuie să identifici atât mesajele spam, cât și cele non-spam. După aceea, { -brand-short-name } va putea marca automat ca spam.
+training-description-spam = Dacă este activată, trebuie mai întâi să înveți { -brand-short-name } să identifice mesajele nedorite folosind butonul de Nedorit din bara de instrumente ca să marchezi mesajele ca nedorite sau nu. Trebuie să identifici atât mesajele nedorite, cât și cele care nu sunt nedorite. După aceea, { -brand-short-name } va putea marca automat ca mesaje nedorite.
 spam-level-checkbox =
     .label = Activează controalele adaptive de spam pentru acest cont
     .accesskey = E
@@ -20,5 +20,8 @@ move-message-other =
     .accesskey = A
 automatic-spam-purge-label =
     .value = zile
+allowlist-header-label =
+    .value = Nu marca automat mesajele ca nedorite dacă expeditorul este în:
+    .accesskey = D
 spam-classification-legend = Selecție
 spam-actions-legend = Destinație și păstrare
