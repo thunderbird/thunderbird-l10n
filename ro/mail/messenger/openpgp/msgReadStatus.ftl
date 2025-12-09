@@ -22,11 +22,15 @@ openpgp-no-sig = Nicio semnătură digitală
 openpgp-uncertain-sig = Semnătură digitală incertă
 openpgp-invalid-sig = Semnătură digitală nevalidă
 openpgp-good-sig = Semnătură digitală bună
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-good-sig-with-date = Semnătură digitală bună - Semnat la { $date }
 openpgp-sig-uncertain-no-key = Mesajul conține o semnătură digitală, dar nu este sigur dacă este corectă. Pentru verificarea semnăturii, trebuie să obții un exemplar al cheii publice a expeditorului.
 openpgp-sig-uncertain-uid-mismatch = Mesajul conține o semnătură digitală, dar s-a depistat o nepotrivire. Mesajul a fost trimis de la o adresă de e-mail care nu se potrivește cu cheia publică a semnatarului.
 openpgp-sig-uncertain-not-accepted = Mesajul conține o semnătură digitală, dar nu ai decis încă dacă această cheie a semnatarului este acceptabilă pentru tine.
 openpgp-sig-invalid-rejected = Mesajul conține o semnătură digitală, dar ai decis anterior să respingi cheia semnatarului.
 openpgp-sig-invalid-technical-problem = Mesajul conține o cheie digitală, dar s-a depistat o eroare tehnică. Mesajul este ori corupt, ori a fost modificat de altcineva.
+openpgp-sig-invalid-date-mismatch = Mesajul conține o semnătură digitală, dar semnătura nu a fost făcută în același timp cu trimiterea mesajului de e-mail. Ar putea fi o încercare de a te înșela cu conținut dintr-un context greșit: de ex. conținut scris într-un alt context sau destinat altcuiva.
 openpgp-sig-valid-unverified = Mesajul include o semnătură digitală validă dintr-o cheie pe care ai acceptat-o deja. Dar încă nu ai verificat dacă expeditorul chiar deține cheia.
 openpgp-sig-valid-verified = Mesajul include o semnătură digitală validă dintr-o cheie verificată.
 openpgp-sig-valid-own-key = Mesajul include o semnătură digitală validă din cheia ta personală.
@@ -44,6 +48,24 @@ openpgp-enc-key-id = ID cheie de decriptare: { $key }
 # $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
 # $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = ID cheie de decriptare: { $key } (IS subcheie: { $subkey })
+openpgp-enc-none = Mesajul nu este necriptat
+openpgp-enc-none-label = Mesajul nu a fost criptat înainte de a fi trimis. Informațiile trimise prin internet fără criptare pot fi văzute de alte persoane cât timp este în tranzit.
+openpgp-enc-invalid-label = Mesajul nu poate fi decriptat
+openpgp-enc-invalid = Mesajul a fost criptat înainte de a fi trimis către tine, dar nu poate fi decriptat.
+openpgp-enc-clueless = Există probleme necunoscute cu acest mesaj criptat.
+openpgp-enc-valid-label = Mesajul este criptat
+openpgp-enc-valid = Mesajul a fost criptat înainte de a fi trimis către tine. Criptarea asigură că mesajul poate fi citit doar de destinatarii intenționați.
 openpgp-unknown-key-id = Cheie necunoscută
 openpgp-other-enc-additional-key-ids = În plus, mesajul a fost criptat pentru proprietarii cheilor următoare:
 openpgp-other-enc-all-key-ids = Mesajul a fost criptat pentru proprietarii cheilor următoare:
+openpgp-message-header-encrypted-ok-icon =
+    .alt = Decriptarea a reușit
+openpgp-message-header-encrypted-notok-icon =
+    .alt = Decriptarea a eșuat
+openpgp-message-header-signed-ok-icon =
+    .alt = Semnătură bună
+# Mismatch icon is used for notok state as well
+openpgp-message-header-signed-mismatch-icon =
+    .alt = Semnătură greșită
+openpgp-message-header-signed-unknown-icon =
+    .alt = Stare necunoscută a semnăturii

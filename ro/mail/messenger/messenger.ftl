@@ -356,8 +356,98 @@ repair-text-encoding-button =
 no-reply-message = Adresa de răspuns ({ $email }) nu pare a fi o adresă monitorizată. Mesajele către această adresă probabil nu vor fi citite de nimeni.
 no-reply-reply-anyway-button = Răspunde oricum
 
+## error messages
+
+# Variables:
+# $failures (Number) - Number of messages that could not be decrypted.
+# $total (Number) - Total number of messages that were attempted to be decrypted.
+decrypt-and-copy-failures-multiple =
+    { $failures ->
+        [one] { $failures } din { $total } mesaj nu a putut fi decriptat și nu a fost copiat.
+        [few] { $failures } din { $total } mesaje nu au putut fi decriptate și nu au fost copiate.
+       *[other] { $failures } din { $total } de mesaje nu au putut fi decriptate și nu au fost copiate.
+    }
+
+## Spaces toolbar
+
+spaces-toolbar-element =
+    .toolbarname = Bară de instrumente pentru spații
+    .aria-label = Bară de instrumente pentru spații
+    .aria-description = Bară de instrumente verticală pentru trecerea de la un spațiu la latul. Folosește tastele cu săgeți pentru a merge la butoanele disponibile.
+spaces-toolbar-button-mail2 =
+    .title = E-mail
+spaces-toolbar-button-address-book2 =
+    .title = Agendă de contacte
+spaces-toolbar-button-calendar2 =
+    .title = Calendar
+spaces-toolbar-button-tasks2 =
+    .title = Sarcini
+spaces-toolbar-button-chat2 =
+    .title = Chat
+spaces-toolbar-button-overflow =
+    .title = Mai multe spații…
+spaces-toolbar-button-settings2 =
+    .title = Setări
+spaces-toolbar-button-hide =
+    .title = Ascunde bara de instrumente pentru spații
+spaces-toolbar-button-show =
+    .title = Afișează bara de instrumente pentru spații
+spaces-context-new-tab-item =
+    .label = Deschide într-o filă nouă
+spaces-context-new-window-item =
+    .label = Deschide într-o fereastră nouă
+# Variables:
+# $tabName (String) - The name of the tab this item will switch to.
+spaces-context-switch-tab-item =
+    .label = Treci la { $tabName }
+settings-context-open-settings-item2 =
+    .label = Setări
+settings-context-open-account-settings-item2 =
+    .label = Setări cont
+settings-context-open-addons-item2 =
+    .label = Suplimente și teme
+
+## Spaces toolbar pinned tab menupopup
+
+spaces-toolbar-pinned-tab-button =
+    .tooltiptext = Meniu Spații
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
+spaces-pinned-button-menuitem-show =
+    .label = { spaces-toolbar-button-show.title }
+# Variables:
+# $count (Number) - Number of unread messages.
+chat-button-unread-messages = { $count }
+    .title =
+        { $count ->
+            [one] Un mesaj necitit
+            [few] { $count } mesaje necitite
+           *[other] { $count } de mesaje necitite
+        }
+
 ## Spaces toolbar customize panel
 
+menuitem-customize-label =
+    .label = Personalizează…
+spaces-customize-panel-title = Setări bară de instrumente pentru spații
+spaces-customize-background-color = Culoare de fundal
+spaces-customize-icon-color = Culoare buton
+# The background color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-background-color = Culoare de fundal buton selectat
+# The icon color used on the buttons of the spaces toolbar when they are
+# `current`, meaning the related space/tab is active and visible.
+spaces-customize-accent-text-color = Culoare buton selectat
 spaces-customize-button-restore = Revenire la valorile implicite
     .accesskey = R
 customize-panel-button-save = Terminat
@@ -379,12 +469,42 @@ quick-filter-bar-show =
 
 openpgp-forget = Uită parolele OpenPGP
 
+## Quota panel.
+
+# Variables:
+#   $percent (Number) - Usage percentage of the assigned IMAP quota.
+#   $usage (String) - Current quota usage (may include unit)
+#   $limit (String) - Current quota limit (may include unit)
+quota-panel-percent-used = { $percent }% plin
+    .title = Limită IMAP: { $usage } folosit din { $limit } în total
+
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Stare spam
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Ca spam
+    .accesskey = S
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Că nu este spam
+    .accesskey = N
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Execută controalele anti-spam
+    .accesskey = C
+menu-run-spam-on-folder =
+    .label = Execută controalele de spam pe dosar
+    .accesskey = C
+menu-delete-spam =
+    .label = Șterge mesajele marcate ca spam din dosar
+    .accesskey = D
 
 ## Actions for the New Mail Notification
 
@@ -392,6 +512,7 @@ mark-as-read-action = Marchează ca citit
 delete-action = Șterge
 mark-as-starred-action = Marchează cu steluță
 mark-as-spam-action = Marchează ca spam
+archive-action = Arhivează
 
 ## Message list.
 
