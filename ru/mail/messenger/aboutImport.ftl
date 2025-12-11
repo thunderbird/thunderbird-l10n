@@ -81,7 +81,7 @@ items-pane-nothing-to-import = Из выбранного источника ни
 ## Import from address book file steps
 
 import-from-addr-book-file-description = Выберите формат файла, содержащего данные вашей адресной книги.
-addr-book-csv-file = Файл данных, разделенных запятыми или табуляциями (.csv, .tsv)
+addr-book-csv-file = Файл данных, разделённых запятыми или табуляциями (.csv, .tsv)
 addr-book-ldif-file = LDIF-файл (.ldif)
 addr-book-vcard-file = vCard-файл (.vcf, .vcard)
 addr-book-sqlite-file = Файл базы данных SQLite (.sqlite)

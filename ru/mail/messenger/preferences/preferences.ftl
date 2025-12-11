@@ -950,7 +950,7 @@ sync-disconnected-turn-on-sync = Включить Cинхронизацию…
 
 qr-export-pane-header = Экспорт учётных записей в { -brand-product-name } для мобильных устройств
 qr-export-description = Быстро перенесите настройки своего аккаунта с ПК на мобильное устройство, сгенерировав QR-код. Выберите, какие учётные записи включить, решите, хотите ли вы передать свой пароль, и отсканируйте код мобильным устройством. Быстро, безопасно и просто.
-qr-export-get-app = У вас ещё нет { -brand-product-name } на мобильных устройствах? <a data-l10n-name="app-link">Загрузите в Google Play</a>
+qr-export-get-app = У вас ещё нет { -brand-product-name } на мобильных устройствах? <a data-l10n-name="app-link">Скачайте в Google Play</a>
 qr-export-create = Создайте QR-код для экспорта ваших учётных записей
 qr-export-select-accounts = Выберите учётные записи для экспорта:
 qr-export-no-accounts = Не видите все ваши учётные записи? Некоторые учётные записи могут быть отключены, поскольку они не поддерживаются { -brand-product-name } для Android. <a data-l10n-name="account-support-link">Поддержка</a>
