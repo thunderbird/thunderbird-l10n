@@ -628,6 +628,7 @@ primary-password-button =
     .accesskey = m
 forms-primary-pw-fips-title = Trenutačno si u FIPS modusu. FIPS ne dopušta praznu primarnu lozinku.
 forms-master-pw-fips-desc = Promjena lozinke nije uspjela
+spam-read-description = Označi poruke kao pročitane
 junk-description = Postavite svoje zadane postavke neželjene pošte. Specifične postavke za pojedini račun se mogu podesiti u postavkama računa.
 junk-marked-label =
     .label = Kada su poruke označene kao neželjena pošta:
@@ -697,7 +698,35 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Stanje: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Pružatelj usluge: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Neispravan URL
+preferences-doh-steering-status = Korištenje lokalnog pružatelja usluga
+preferences-doh-status-active = Aktivno
+preferences-doh-status-disabled = Isključeno
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Nije aktivno ({ $reason })
+preferences-doh-group-message = Aktiviraj DNS preko HTTPS-a pomoću:
+preferences-doh-expand-section =
+    .tooltiptext = Više informacija
+preferences-doh-setting-default =
+    .label = Standardna zaštita
+    .accesskey = d
+preferences-doh-setting-off =
+    .label = Isključeno
+    .accesskey = o
 preferences-doh-off-desc = Koristi svoj standardni DNS pretvarač
+
+## Keyservers
+
+email-e2ee-key-servers-add = Dodaj …
 
 ## Chat Tab
 

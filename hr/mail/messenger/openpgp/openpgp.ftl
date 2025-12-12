@@ -41,6 +41,9 @@ openpgp-key-man-view-menu =
 openpgp-key-man-generate-menu =
     .label = Generiraj
     .accesskey = G
+openpgp-key-man-keyserver-menu =
+    .label = Server ključeva
+    .accesskey = S
 openpgp-key-man-ctx-copy =
     .label = Kopiraj
     .accesskey = K
@@ -55,6 +58,10 @@ openpgp-key-details-created-label =
 openpgp-key-details-created-header = Stvoreno
 openpgp-key-details-expiry-label =
     .label = Istek
+openpgp-key-details-expiry-header = Istek
+openpgp-key-details-fingerprint-label = Digitalni otisak
+openpgp-card-details-close-window-label =
+    .buttonlabelaccept = Zatvori
 openpgp-passphrase-status-primary-password = Zaštićeno primarnom lozinkom { -brand-short-name(case: "gen") }
 openpgp-use-primary-password = Ukloni lozinku i zaštiti primarnom lozinkom
 openpgp-copy-cmd-label =
@@ -76,3 +83,7 @@ openpgp-add-key-button =
     .label = Dodaj ključ…
     .accesskey = a
 e2e-learn-more = Saznaj više
+
+## Strings in gnupg-keylist.sys.mjs
+
+keyring-photo = Slika

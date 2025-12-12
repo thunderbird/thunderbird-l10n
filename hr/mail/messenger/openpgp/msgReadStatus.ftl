@@ -39,12 +39,20 @@ openpgp-sig-key-id-with-subkey-id = ID ključa potpisnika: { $key } (ID podklju�
 # Variables:
 # $key (String) - The ID of the user's OpenPGP key used to decrypt the message.
 openpgp-enc-key-id = ID tvog ključa za dešifriranje: { $key }
+# Variables:
+# $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
+# $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
+openpgp-enc-key-with-subkey-id = ID tvog ključa za dešifriranje: { $key } (ID potključa: { $subkey })
 openpgp-enc-none = Poruka nije šifrirana
+openpgp-enc-none-label = Ova poruka nije šifrirana prije slanja. Druge osobe mogu vidjeti nešifrirane informacije poslane preko Interneta prilikom njihovog putovanja.
 openpgp-enc-invalid-label = Poruka se ne može dešifrirati
 openpgp-enc-invalid = Ova je poruka šifrirana prije nego ti je poslana, ali se ne može dešifrirati.
 openpgp-enc-clueless = Pojavili su se nepoznati problemi s ovom kriptiranom porukom.
 openpgp-enc-valid-label = Poruka je kriptirana
+openpgp-enc-valid = Ova je poruka šifrirana prije nego ti je poslana. Šifriranje osigurava da poruku mogu pročitati samo primatelji kojima je namijenjena.
 openpgp-unknown-key-id = Nepoznat ključ
+openpgp-other-enc-additional-key-ids = Osim toga, poruka je šifrirana i za vlasnike sljedećih ključeva:
+openpgp-other-enc-all-key-ids = Poruka je šifrirana za vlasnike sljedećih ključeva:
 openpgp-message-header-encrypted-ok-icon =
     .alt = Dešifriranje je uspjelo
 openpgp-message-header-encrypted-notok-icon =

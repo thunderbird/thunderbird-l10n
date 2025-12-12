@@ -43,10 +43,10 @@ state-generic-unverified = Trenutni razgovor je kriptiran, ali nije privatan po�
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-private = Identitet { $name } je provjeren. Trenutni razgovor je kriptiran i privatan.
-state-generic-private = Trenutni razgovor je kriptiran i privatan.
+state-generic-private = Trenutačni razgovor je šifriran i privatan.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-state-finished = { $name } je završio svoj kriptirani razgovor s vama, trebali biste učiniti isto.
+state-finished = { $name } je završio/la svoj šifrirani razgovor s tobom; učini isto.
 state-not-private-label = Nesigurno
 state-unverified-label = Neprovjereno
 state-private-label = Privatno
