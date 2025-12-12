@@ -39,5 +39,24 @@ openpgp-sig-key-id-with-subkey-id = ID ključa potpisnika: { $key } (ID podklju�
 # Variables:
 # $key (String) - The ID of the user's OpenPGP key used to decrypt the message.
 openpgp-enc-key-id = ID tvog ključa za dešifriranje: { $key }
+openpgp-enc-none = Poruka nije šifrirana
+openpgp-enc-invalid-label = Poruka se ne može dešifrirati
+openpgp-enc-invalid = Ova je poruka šifrirana prije nego ti je poslana, ali se ne može dešifrirati.
 openpgp-enc-clueless = Pojavili su se nepoznati problemi s ovom kriptiranom porukom.
 openpgp-enc-valid-label = Poruka je kriptirana
+openpgp-unknown-key-id = Nepoznat ključ
+openpgp-message-header-encrypted-ok-icon =
+    .alt = Dešifriranje je uspjelo
+openpgp-message-header-encrypted-notok-icon =
+    .alt = Dešifriranje nije uspjelo
+openpgp-message-header-signed-ok-icon =
+    .alt = Dobar potpis
+# Mismatch icon is used for notok state as well
+openpgp-message-header-signed-mismatch-icon =
+    .alt = Loš potpis
+openpgp-message-header-signed-unknown-icon =
+    .alt = Nepoznato stanje potpisa
+openpgp-message-header-signed-verified-icon =
+    .alt = Potvrđeni potpis
+openpgp-message-header-signed-unverified-icon =
+    .alt = Nepotvrđeni potpis

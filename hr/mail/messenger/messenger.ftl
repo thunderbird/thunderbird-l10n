@@ -133,6 +133,8 @@ folder-toolbar-toggle-folder-compact-view =
 ## Folder names
 
 folder-name-spam = Neželjena pošta
+# Gmail's "All Mail" folder. Please make sure this is the same string used in the Gmail web UI for your language.
+folder-name-all-mail = Sva pošta
 
 ## File Menu
 
@@ -515,6 +517,27 @@ menu-recalculate-spam-score =
 menu-run-spam-on-folder =
     .label = Pokreni kontrole neželjene pošte na mapi
     .accesskey = k
+menu-delete-spam =
+    .label = Izbriši poštu u mapi označenu kao neželjenu
+    .accesskey = r
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Isprazni neželjenu poštu
+    .accesskey = s
+
+## Thread pane.
+
+column-status-spam =
+    .label = Stanje neželjene pošte
+    .tooltiptext = Razvrstaj prema stanju neželjene pošte
+
+## Message header.
+
+header-spam-button =
+    .label = Neželjena pošta
+    .tooltiptext = Označi ovu poruku kao neželjenu poštu
 
 ## Actions for the New Mail Notification
 
@@ -529,6 +552,8 @@ archive-action = Arhiviraj
 message-flag-spam = Neželjena pošta
 menuitem-label-spam =
     .label = Neželjena pošta
+menuitem-label-spam-percentage =
+    .label = Postotak neželjene pošte
 menuitem-label-spam-status =
     .label = Stanje neželjene pošte
 message-priority-lowest = Najniži
