@@ -6,6 +6,13 @@
 ## Message Header Encryption Button
 
 message-header-show-security-info-key = S
+#   $type (String) - the shortcut key defined in the message-header-show-security-info-key
+message-security-button =
+    .title =
+        { PLATFORM() ->
+            [macos] Prikaži sigurnost poruke (⌃ ⌘ { message-header-show-security-info-key })
+           *[other] Prikaži sigurnost poruke (Ctrl+Alt+{ message-header-show-security-info-key })
+        }
 openpgp-view-signer-key =
     .label = Prikaži ključ potpisnika
 openpgp-view-your-encryption-key =
@@ -29,10 +36,15 @@ openpgp-good-sig = Dobar digitalni potpis
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-good-sig-with-date = Dobar digitalni potpis – potpisano { $date }
+openpgp-sig-uncertain-no-key = Ova poruka sadrži digitalni potpis, ali nije sigurno je li ispravan. Za provjeru potpisa potrebno je dobiti kopiju javnog ključa pošiljatelja.
 openpgp-sig-uncertain-uid-mismatch = Ova poruka sadrži digitalni potpis, ali je otkrivena neusklađenost. Poruka je poslana s adrese e-pošte koja ne odgovara javnom ključu potpisnika.
 openpgp-sig-uncertain-not-accepted = Ova poruka sadrži digitalni potpis, ali još niste odlučili je li vam ključ potpisnika prihvatljiv.
 openpgp-sig-invalid-rejected = Ova poruka sadrži digitalni potpis, ali ste prethodno odlučili odbiti ključ potpisnika.
 openpgp-sig-invalid-technical-problem = Ova poruka sadrži digitalni potpis, ali je otkrivena tehnička pogreška. Poruka je oštećena ili ju je netko drugi izmijenio.
+openpgp-sig-invalid-date-mismatch = Ova poruka sadrži digitalni potpis, ali potpis nije napravljen istovremeno sa slanjem e-pošte. To bi mogao biti pokušaj obmane sadržajem iz pogrešnog konteksta: npr. sadržaj napisan u drugom vremenskom kontekstu ili namijenjen nekome drugome.
+openpgp-sig-valid-unverified = Ova poruka sadrži ispravni digitalni potpis ključa koji ste već prihvatili. Međutim, još niste potvrdili da je to doista ključ pošiljatelja.
+openpgp-sig-valid-verified = Ova poruka sadrži ispravni digitalni potpis s provjerenog ključa.
+openpgp-sig-valid-own-key = Ova poruka sadrži ispravni digitalni potpis s vašeg osobnog ključa.
 # Variables:
 # $key (String) - The ID of the OpenPGP key used to create the signature.
 openpgp-sig-key-id = ID ključa potpisnika: { $key }
