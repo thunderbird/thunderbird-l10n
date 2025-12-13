@@ -724,6 +724,8 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = DNS preko HTTPS-a
+preferences-doh-description = Domain Name System (DNS) preko HTTPS šalje tvoje zahtjeve s imenom domene putem šifrirane veze, stvarajući siguran DNS i otežava drugima da vide koje web stranice namjeravaš posjetiti.
 # Variables:
 #   $status (string) - The status of the DoH connection
 preferences-doh-status = Stanje: { $status }
@@ -745,6 +747,23 @@ preferences-doh-expand-section =
 preferences-doh-setting-default =
     .label = Standardna zaštita
     .accesskey = d
+preferences-doh-default-desc = { -brand-short-name } odlučuje kada koristiti sigurni DNS za zaštitu tvoje privatnosti.
+preferences-doh-default-detailed-desc-1 = Koristi sigurni DNS u regijama gdje je dostupan
+preferences-doh-default-detailed-desc-2 = Koristi svoj standardni DNS pretvarač, ako postoji problem s pružateljem sigurnog DNS-a
+preferences-doh-default-detailed-desc-3 = Koristi lokalnog pružatelja usluga, ukoliko je moguće
+preferences-doh-default-detailed-desc-4 = Isključi kada su VPN, roditeljska kontrola ili pravila poduzeća aktivna
+preferences-doh-default-detailed-desc-5 = Isključi kada mreža kaže { -brand-short-name }u da ne bi trebao koristiti sigurni DNS
+preferences-doh-setting-enabled =
+    .label = Povećana zaštita
+    .accesskey = i
+preferences-doh-enabled-desc = Ti određuješ kada koristiti sigurni DNS i biraš svog pružatelja usluge.
+preferences-doh-enabled-detailed-desc-1 = Koristi odabranog pružatelja usluge
+preferences-doh-enabled-detailed-desc-2 = Koristi svoj standardni DNS pretvarač samo ako postoji problem sa sigurnim DNS-om
+preferences-doh-setting-strict =
+    .label = Maksimalna zaštita
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } će uvijek koristiti sigurni DNS. Vidjeti ćete sigurnosno upozorenje prije nego što upotrijebimo DNS vašeg sustav.
+preferences-doh-strict-detailed-desc-1 = Koristi samo odabranog pružatelja usluge
 preferences-doh-setting-off =
     .label = Isključeno
     .accesskey = o
