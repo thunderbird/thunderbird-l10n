@@ -764,14 +764,37 @@ preferences-doh-setting-strict =
     .accesskey = M
 preferences-doh-strict-desc = { -brand-short-name } će uvijek koristiti sigurni DNS. Vidjeti ćete sigurnosno upozorenje prije nego što upotrijebimo DNS vašeg sustav.
 preferences-doh-strict-detailed-desc-1 = Koristi samo odabranog pružatelja usluge
+preferences-doh-strict-detailed-desc-2 = Uvijek upozori ako sigurni DNS nije dostupan
+preferences-doh-strict-detailed-desc-3 = Ako sigurni DNS nije dostupan stranice se neće učitati ili neće ispravno funkcionirati
 preferences-doh-setting-off =
     .label = Isključeno
     .accesskey = o
 preferences-doh-off-desc = Koristi svoj standardni DNS pretvarač
+preferences-doh-checkbox-warn =
+    .label = Upozori ukoliko treća strana aktivno sprečava sigurni DNS
+    .accesskey = U
+preferences-doh-select-resolver = Odaberi pružatelja usluge:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (zadano)
+preferences-doh-url-custom =
+    .label = Prilagođeno
+    .accesskey = P
 
 ## Keyservers
 
+email-e2ee-key-servers-legend = OpenPGP poslužitelji ključeva
+email-e2ee-key-servers-intro =
+    Poslužitelj ključeva prima i zatim poslužuje postojeće javne ključeve korisnicima.
+    Omogućuje vam objavljivanje vašeg javnog ključa te pronalaženje i osvježavanje ključeva drugih.
+email-e2ee-key-servers-use-following = Koristi sljedeće poslužitelje ključeva:
 email-e2ee-key-servers-add = Dodaj …
+email-e2ee-key-servers-reset = Vrati popis poslužitelja na početne postavke
+email-e2ee-key-servers-add-title = Dodaj poslužitelj ključeva
+email-e2ee-key-servers-add-text = Unesite URL poslužitelja ključeva koji želite dodati.
+email-e2ee-key-servers-add-failed-title = Dodavanje poslužitelja ključeva nije uspjelo
+email-e2ee-key-servers-add-failed-text = Nije se moguće povezati s poslužiteljem ključeva na navedenom URL-u.
 
 ## Chat Tab
 

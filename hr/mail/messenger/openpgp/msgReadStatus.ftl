@@ -29,6 +29,10 @@ openpgp-good-sig = Dobar digitalni potpis
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-good-sig-with-date = Dobar digitalni potpis – potpisano { $date }
+openpgp-sig-uncertain-uid-mismatch = Ova poruka sadrži digitalni potpis, ali je otkrivena neusklađenost. Poruka je poslana s adrese e-pošte koja ne odgovara javnom ključu potpisnika.
+openpgp-sig-uncertain-not-accepted = Ova poruka sadrži digitalni potpis, ali još niste odlučili je li vam ključ potpisnika prihvatljiv.
+openpgp-sig-invalid-rejected = Ova poruka sadrži digitalni potpis, ali ste prethodno odlučili odbiti ključ potpisnika.
+openpgp-sig-invalid-technical-problem = Ova poruka sadrži digitalni potpis, ali je otkrivena tehnička pogreška. Poruka je oštećena ili ju je netko drugi izmijenio.
 # Variables:
 # $key (String) - The ID of the OpenPGP key used to create the signature.
 openpgp-sig-key-id = ID ključa potpisnika: { $key }
