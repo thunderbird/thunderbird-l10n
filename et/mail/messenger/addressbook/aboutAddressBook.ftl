@@ -321,5 +321,13 @@ about-addressbook-photo-save = Salvesta
 ab-search-dialog-search-button =
     .label = Otsi
     .accesskey = O
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] Leiti { $count } vaste
+           *[other] Leiti { $count } vastet
+        }
 ab-search-dialog-no-matches-found =
     .value = Vasteid ei leitud
