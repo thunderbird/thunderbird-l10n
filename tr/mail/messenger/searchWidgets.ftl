@@ -69,3 +69,6 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-any =
+    .label = Aşağıdakilerin herhangi biriyle eşleştir
+    .accesskey = h
