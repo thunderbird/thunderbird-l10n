@@ -300,3 +300,7 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = 查找
     .accesskey = S
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value = { $count } 项匹配
