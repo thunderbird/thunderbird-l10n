@@ -348,3 +348,5 @@ ab-search-dialog-matches-found =
             [few] { $count } wotpowědniki namakane
            *[other] { $count } wotpowědnikow namakanych
         }
+ab-search-dialog-no-matches-found =
+    .value = Žane wotpowědniki namakane
