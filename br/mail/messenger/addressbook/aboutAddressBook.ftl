@@ -61,3 +61,17 @@ about-addressbook-photo-cancel = Dilezel
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = D
+
+## Address Book Search Dialog
+
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } kenglotadur kavet
+            [two] { $count } genglotadur kavet
+            [few] { $count } c'henglotadur kavet
+            [many] { $count } a genglotadurioù kavet
+           *[other] { $count } kenglotadur kavet
+        }
