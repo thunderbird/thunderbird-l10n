@@ -284,3 +284,5 @@ ab-search-dialog-matches-found =
             [few] { $count } seisean air a lorg
            *[other] { $count } seise air a lorg
         }
+ab-search-dialog-no-matches-found =
+    .value = Cha deach seise a lorg
