@@ -3,6 +3,12 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -25,3 +31,15 @@ search-val-flag-forwarded =
     .label = Proslijeđeno
 search-val-flag-starred =
     .label = Označeno zvjezdicom
+
+## Buttons
+
+
+## Search Term List
+
+search-match-any =
+    .label = Podudara s bilo čim od sljedećeg
+    .accesskey = o
+search-match-all-msgs =
+    .label = Podudara sa svim porukama
+    .accesskey = m
