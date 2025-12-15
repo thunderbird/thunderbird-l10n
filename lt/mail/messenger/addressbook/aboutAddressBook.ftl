@@ -151,3 +151,14 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Ieškoti
     .accesskey = e
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] Rastas { $count } atitikmuo
+            [few] Rasti { $count } atitikmenys
+           *[other] Rasta { $count } atitikmenų
+        }
+ab-search-dialog-no-matches-found =
+    .value = Nieko nerasta
