@@ -22,6 +22,11 @@ search-attrib-street = Calle
 search-attrib-title = Título
 search-attrib-organization = Organización
 search-attrib-department = Departamento
+search-attrib-from-to-cc-or-bcc = De, Para, CC o CCO
+search-attrib-attachment-status = Estado del adjunto
+search-attrib-label = Etiqueta
+search-attrib-customize = Personalizar…
+search-attrib-missing-custom-term = Término personalizado faltante
 
 ## Search Operators
 
@@ -50,9 +55,29 @@ search-val-flag-starred =
     .label = Destacado
 search-val-spam =
     .label = Spam
+search-val-spam-score-origin-plugin =
+    .label = Plugin
+search-val-spam-score-origin-filter =
+    .label = Filtro
+search-val-spam-score-origin-allowlist =
+    .label = Lista de permitidos
+search-val-spam-score-origin-user =
+    .label = Usuario
+search-val-spam-score-origin-imap-flag =
+    .label = Bandera IMAP
+search-val-has-attachments =
+    .label = Tiene adjuntos
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Agregar una nueva regla
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Eliminar esta regla
 
 ## Search Term List
 
