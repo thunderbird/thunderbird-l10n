@@ -64,6 +64,12 @@ about-addressbook-new-contact-key = D
 
 ## Address Book Search Dialog
 
+ab-search-dialog-search-button =
+    .label = Klask
+    .accesskey = s
+ab-search-dialog-reset-button =
+    .label = Skarzhañ
+    .accesskey = k
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -77,3 +83,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = kenglotadur ebet kavet
+ab-search-dialog-search-heading =
+    .label = Klask e-barzh :
+    .accesskey = s
+ab-search-dialog-properties-button =
+    .label = Perzhioù
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = Skrivañ
+    .accesskey = S
+ab-search-dialog-delete-button =
+    .label = Dilemel
+    .accesskey = D
+ab-search-dialog-title = Klask kempleshoc'h er c'harned posteloù
+ab-search-dialog-close-cmd =
+    .key = W
