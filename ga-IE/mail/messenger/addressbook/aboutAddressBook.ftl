@@ -34,3 +34,14 @@
 ab-search-dialog-search-button =
     .label = Cuardaigh
     .accesskey = S
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] Aimsíodh { $count } rud
+            [two] Aimsíodh { $count } rud
+            [few] Aimsíodh { $count } rud
+            [many] Aimsíodh { $count } rud
+           *[other] Aimsíodh { $count } rud
+        }
