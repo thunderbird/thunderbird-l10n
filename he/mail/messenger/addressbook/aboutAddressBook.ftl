@@ -95,6 +95,9 @@ about-addressbook-details-other-info-header = מידע אחר
 ab-search-dialog-search-button =
     .label = חיפוש
     .accesskey = ח
+ab-search-dialog-reset-button =
+    .label = ניקוי
+    .accesskey = נ
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -105,3 +108,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = לא נמצאו התאמות
+ab-search-dialog-search-heading =
+    .label = חיפוש בתוך:
+    .accesskey = ב
+ab-search-dialog-properties-button =
+    .label = מאפיינים
+    .accesskey = מ
+ab-search-dialog-compose-button =
+    .label = כתיבת הודעה
+    .accesskey = כ
+ab-search-dialog-delete-button =
+    .label = מחיקה
+    .accesskey = ח
+ab-search-dialog-title = חיפוש מתקדם בפנקס כתובות
+ab-search-dialog-close-cmd =
+    .key = W
