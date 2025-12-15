@@ -317,3 +317,19 @@ about-addressbook-photo-save = Ruaje
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = R
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Kërko
+    .accesskey = K
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] U gjet { $count } përputhje
+           *[other] U gjetën { $count } përputhje
+        }
+ab-search-dialog-no-matches-found =
+    .value = S’u gjetën përputhje
