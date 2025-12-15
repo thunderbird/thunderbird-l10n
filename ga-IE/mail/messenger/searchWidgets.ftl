@@ -5,6 +5,18 @@
 
 ## Search Attributes
 
+search-attrib-subject = Ábhar
+search-attrib-from = Ó
+search-attrib-body = Corp
+search-attrib-date = Dáta
+search-attrib-priority = Tosaíocht
+search-attrib-status = Stádas
+search-attrib-to = Chuig
+search-attrib-cc = Cc
+search-attrib-to-or-cc = Chuig nó Cc
+search-attrib-age-in-days = Laethanta d'aois
+search-attrib-size-kb = Méid (kB)
+search-attrib-tags = Clibeanna
 search-attrib-any-name = Ainm Ar Bith
 search-attrib-display-name = Ainm Taispeána
 search-attrib-nickname = Leasainm
@@ -30,6 +42,27 @@ search-attrib-missing-custom-term = Téarma Saincheaptha Ar Iarraidh
 
 ## Search Operators
 
+search-op-contains = ina bhfuil
+search-op-doesnt-contain = gan
+search-op-is = atá
+search-op-isnt = nach bhfuil
+search-op-is-empty = atá folamh
+search-op-is-before = a thagann roimh
+search-op-is-after = atá i ndiaidh
+search-op-is-higher-than = atá níos airde ná
+search-op-is-lower-than = atá níos ísle ná
+search-op-begins-with = a thosaíonn le
+search-op-ends-with = a chríochnaíonn le
+search-op-sounds-like = a fhuaimnítear cosúil le
+search-op-ldap-dwim = LdapDwim
+search-op-is-greater-than = níos mó ná
+search-op-is-less-than = níos lú ná
+search-op-name-completion = Comhlánú Ainmneacha
+search-op-is-in-ab = atá i mo leabhar seoltaí
+search-op-isnt-in-ab = nach bhfuil i mo leabhar seoltaí
+search-op-isnt-empty = nach bhfuil folamh
+search-op-matches = a mheaitseálann
+search-op-doesnt-match = nach meaitseálann
 
 ## Search Values
 
@@ -77,6 +110,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-all =
+    .label = Meaitseáil gach rud a leanas
+    .accesskey = a
 search-match-any =
     .label = Meaitseáil aon rud a leanas
     .accesskey = o
