@@ -3,6 +3,12 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -25,3 +31,15 @@ search-val-flag-forwarded =
     .label = Reunviáu
 search-val-flag-starred =
     .label = Con estrella
+
+## Buttons
+
+
+## Search Term List
+
+search-match-any =
+    .label = Cualquiera d'estas regles
+    .accesskey = q
+search-match-all-msgs =
+    .label = Incluyir tolos mensaxes
+    .accesskey = m
