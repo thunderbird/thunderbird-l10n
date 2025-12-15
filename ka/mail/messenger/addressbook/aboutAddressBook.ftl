@@ -323,3 +323,13 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = ძიება
     .accesskey = S
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] მოიძებნა { $count } თანხვედრა
+           *[other] მოიძებნა { $count } თანხვედრა
+        }
+ab-search-dialog-no-matches-found =
+    .value = თანხვედრა ვერ მოიძებნა
