@@ -3,6 +3,29 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+search-attrib-any-name = Çfarëdo Emri
+search-attrib-display-name = Emër i Shfaqur
+search-attrib-nickname = Nofkë
+search-attrib-screen-name = Emër në Ekran
+search-attrib-email = Email
+search-attrib-additional-email = Email Shtesë
+search-attrib-any-number = Çfarëdo Numri
+search-attrib-work-phone = Telefon Pune
+search-attrib-home-phone = Telefon Shtëpie
+search-attrib-fax = Faks
+search-attrib-pager = Faques
+search-attrib-mobile = Celular
+search-attrib-city = Qytet
+search-attrib-street = Rrugë
+search-attrib-title = Titull
+search-attrib-organization = Ent
+search-attrib-department = Degë
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -27,3 +50,9 @@ search-val-flag-starred =
     .label = Me yllkë
 search-val-spam =
     .label = Mesazh i padëshiruar
+
+## Buttons
+
+
+## Search Term List
+
