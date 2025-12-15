@@ -268,3 +268,19 @@ about-addressbook-photo-save = Sàbhail
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Lorg
+    .accesskey = L
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } seise air a lorg
+            [two] { $count } sheise air a lorg
+            [few] { $count } seisean air a lorg
+           *[other] { $count } seise air a lorg
+        }
