@@ -82,3 +82,6 @@ search-remove-rule-button =
 search-match-any =
     .label = Arau hauetako edozein
     .accesskey = e
+search-match-all-msgs =
+    .label = Mezu guztiak
+    .accesskey = M
