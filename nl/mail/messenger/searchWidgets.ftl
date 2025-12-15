@@ -22,6 +22,11 @@ search-attrib-street = Straat
 search-attrib-title = Functie
 search-attrib-organization = Organisatie
 search-attrib-department = Afdeling
+search-attrib-from-to-cc-or-bcc = Van, Aan, Cc of Bcc
+search-attrib-attachment-status = Bijlagestatus
+search-attrib-label = Label
+search-attrib-customize = Aanpassen…
+search-attrib-missing-custom-term = Aangepaste term ontbreekt
 
 ## Search Operators
 
@@ -50,9 +55,29 @@ search-val-flag-starred =
     .label = Met ster
 search-val-spam =
     .label = Ongewenst
+search-val-spam-score-origin-plugin =
+    .label = Plug-in
+search-val-spam-score-origin-filter =
+    .label = Filter
+search-val-spam-score-origin-allowlist =
+    .label = Toegestane lijst
+search-val-spam-score-origin-user =
+    .label = Gebruiker
+search-val-spam-score-origin-imap-flag =
+    .label = IMAP-vlag
+search-val-has-attachments =
+    .label = Heeft bijlagen
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Een nieuwe regel toevoegen
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Deze regel verwijderen
 
 ## Search Term List
 
