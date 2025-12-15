@@ -520,7 +520,6 @@ archive-action = Lưu trữ
 
 ## Message list.
 
-message-flag-spam = Thư rác
 menuitem-label-spam =
     .label = Thư rác
 menuitem-label-spam-score-origin =

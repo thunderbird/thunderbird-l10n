@@ -519,7 +519,6 @@ archive-action = Архивтеу
 
 ## Message list.
 
-message-flag-spam = Спам
 menuitem-label-spam =
     .label = Спам
 message-priority-lowest = Ең төмен

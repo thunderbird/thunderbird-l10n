@@ -519,7 +519,6 @@ archive-action = 보관
 
 ## Message list.
 
-message-flag-spam = 스팸
 menuitem-label-spam =
     .label = 스팸
 menuitem-label-spam-score-origin =

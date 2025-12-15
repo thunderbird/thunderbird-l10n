@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = დაკავშირების შეცდომა. სერტიფიკატი მისამართისთვის { $hostname } არაა მოწოდებული სანდო წყაროდან. დაწკაპეთ სერვერის უსაფრთხოების პარამეტრების გასახსნელად.
 certificate-check-test-button = კავშირის შემოწმება სერვერთან
-certificate-check-fetch-button = სერტიფიკატის მოპოვება
 certificate-check-view-button = სერტიფიკატის ნახვა
 certificate-check-add-exception-button = გამონაკლისის დამატება
 certificate-check-remove-exception-button = გამონაკლისის წაშლა
@@ -48,15 +47,6 @@ certificate-test-success = წარმატებით დამყარდ�
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = { $hostname } სერვერთან დაკავშირება ვერ მოხერხდა.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = სერტიფიკატის მიღება მისამართისთვის { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = სერტიფიკატი მოქმედი ჩანს მისამართისთვის { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = ვერ მოხერხდა სერტიფიკატის მიღება მისამართისთვის { $hostname }.
 certificate-check-exception-added = სერტიფიკატის გამონაკლისი დამატებულია.
 certificate-check-exception-removed = სერტიფიკატის გამონაკლისი მოცილებულია.
 # Variables:

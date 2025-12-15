@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = 連線發生錯誤，{ $hostname } 的憑證並非來自受信任的來源。點擊此處即可開啟伺服器安全性選項。
 certificate-check-test-button = 測試與伺服器的連線
-certificate-check-fetch-button = 取得憑證
 certificate-check-view-button = 檢視憑證
 certificate-check-add-exception-button = 新增例外
 certificate-check-remove-exception-button = 移除例外
@@ -48,15 +47,6 @@ certificate-test-success = 已成功與 { $hostname } 建立安全連線。
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = 連線至伺服器 { $hostname } 失敗。
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = 正在取得 { $hostname } 的憑證。
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = { $hostname } 的憑證似乎有效。
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = 無法取得 { $hostname } 的憑證。
 certificate-check-exception-added = 已新增憑證例外。
 certificate-check-exception-removed = 已移除憑證例外。
 # Variables:

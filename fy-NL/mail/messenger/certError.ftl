@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = Ferbiningsflater. It sertifikaat foar { $hostname } komt net fan in fertroude boarne. Klik om de serverbefeiligensynstellingen te iepenjen.
 certificate-check-test-button = Ferbining mei server teste
-certificate-check-fetch-button = Sertifikaat ophelje
 certificate-check-view-button = Sertifikaat besjen
 certificate-check-add-exception-button = Utsûndering tafoegje
 certificate-check-remove-exception-button = Utsûndering fuortsmite
@@ -48,15 +47,6 @@ certificate-test-success = Der is mei sukses in befeilige ferbining mei { $hostn
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = Ferbining mei server { $hostname } mislearre.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = It sertifikaat foar { $hostname } ophelje.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = It sertifikaat foar { $hostname } liket jildich te wêzen.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = Kin it sertifikaat foar { $hostname } net ophelje.
 certificate-check-exception-added = Sertifikaatútsûndering tafoege.
 certificate-check-exception-removed = Sertifikaatútsûndering fuortsmiten.
 # Variables:

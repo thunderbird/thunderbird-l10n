@@ -34,6 +34,5 @@
 <!ENTITY network.loading.description "Pšosym cakajśo, daniž waše kalendery njejsui namakane.">
 <!ENTITY network.notfound.description "Kalendery njejsu se dali na toś tom městnje namakaś. Pšosym pśeglědujśo swóje nastajenja.">
 <!ENTITY network.authfail.description "Pśizjawjeńske daty, kótarež sćo zapódał, njejsu se akceptěrowali. Pšosym pśeglědujśo swóje nastajenja.">
-<!ENTITY network.certerror.description "Problema z certifikatom dla njejsu se kalendarje na toś tom městnje namakaś.">
 <!ENTITY network.subscribe.single.description "Pšosym wubjeŕśo kalendery, kótarež wy by rady aboněrował.">
 <!ENTITY network.subscribe.multiple.description "Za toś to městno su někotare kalenderowe typy k dispoziciji. Pšosym wubjeŕśo kalenderowy typ a markěrujśo pón kalendery, kótarež cośo aboněrowaś.">

@@ -34,19 +34,9 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Kesalahan sambungan. Sertifikat untuk { $hostname } tidak berasal dari sumber tepercaya. Klik untuk membuka pengaturan keamanan server.
-certificate-check-fetch-button = Ambil Sertifikat
 certificate-check-view-button = Lihat Sertifikat
 certificate-check-add-exception-button = Tambah Pengecualian
 certificate-check-remove-exception-button = Buang Pengecualian
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = Mengambil sertifikat untuk { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = Sertifikat untuk { $hostname } tampaknya valid.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = Gagal mengambil sertifikat untuk { $hostname }.
 certificate-check-exception-added = Pengecualian sertifikat ditambahkan.
 certificate-check-exception-removed = Pengecualian sertifikat dihapus.
 # Variables:

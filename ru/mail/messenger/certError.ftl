@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = Ошибка соединения. К источнику, издавшему сертификат для { $hostname }, нет доверия. Нажмите, чтобы открыть настройки защиты сервера.
 certificate-check-test-button = Проверить соединение с сервером
-certificate-check-fetch-button = Получить сертификат
 certificate-check-view-button = Просмотреть сертификат
 certificate-check-add-exception-button = Добавить исключение
 certificate-check-remove-exception-button = Удалить исключение
@@ -48,15 +47,6 @@ certificate-test-success = Успешно установлено защищён�
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = Ошибка соединения с сервером { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = Получение сертификата для { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = Сертификат для { $hostname } выглядит действительным.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = Не удалось получить сертификат для { $hostname }.
 certificate-check-exception-added = Добавлено исключение для сертификата.
 certificate-check-exception-removed = Исключение для сертификата удалено.
 # Variables:

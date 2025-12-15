@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = Forbindelsesfejl. Certifikatet for { $hostname } kommer ikke fra en kilde, der er tillid til. Klik her for at åbne sikkerhedsindstillingerne.
 certificate-check-test-button = Test forbindelse til serveren
-certificate-check-fetch-button = Hent certifikat
 certificate-check-view-button = Vis certifikat
 certificate-check-add-exception-button = Tilføj undtagelse
 certificate-check-remove-exception-button = Fjern undtagelse
@@ -48,15 +47,6 @@ certificate-test-success = Etablerede sikker forbindelse til serveren { $hostnam
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = Forbindelse til serveren { $hostname } mislykkedes.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = Henter certifikatet for { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = Certifikatet for { $hostname } ser ud til at være gyldigt.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = Kunne ikke hente certifikatet for { $hostname }.
 certificate-check-exception-added = Certifikatundtagelse tilføjet.
 certificate-check-exception-removed = Certifikatundtagelse fjernet.
 # Variables:

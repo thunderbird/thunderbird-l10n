@@ -34,6 +34,5 @@
 <!ENTITY network.loading.description "Várjon amíg a naptárai felfedezésre kerülnek.">
 <!ENTITY network.notfound.description "Ezen a helyen nem találhatóak naptárak. Ellenőrizze a beállításait.">
 <!ENTITY network.authfail.description "A megadott hitelesítő adatok nem lettek elfogadva. Ellenőrizze a beállításait.">
-<!ENTITY network.certerror.description "Tanúsítványhiba miatt nem találhatók naptárak ezen a helyen.">
 <!ENTITY network.subscribe.single.description "Válassza ki a naptárakat, amelyekre fel szeretne iratkozni.">
 <!ENTITY network.subscribe.multiple.description "Több naptártípus is elérhető ehhez a helyhez. Válasszon egy naptártípust, és jelölje meg a naptárakat, amelyekre fel akar iratkozni.">

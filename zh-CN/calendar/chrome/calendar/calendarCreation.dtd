@@ -34,6 +34,5 @@
 <!ENTITY network.loading.description "请稍等，我们正在检测您的日历。">
 <!ENTITY network.notfound.description "未能在此位置找到日历。请检查设置。">
 <!ENTITY network.authfail.description "您输入的账号密码未被接受。请检查设置。">
-<!ENTITY network.certerror.description "由于证书问题，未能在此位置找到日历。">
 <!ENTITY network.subscribe.single.description "请选择您要订阅的日历。">
 <!ENTITY network.subscribe.multiple.description "此位置有几种不同类型的日历。请先选择要订阅的日历类型，再勾选要订阅的日历。">

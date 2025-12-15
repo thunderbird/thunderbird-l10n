@@ -34,6 +34,5 @@
 <!ENTITY network.loading.description "Күнтізбелеріңіз өңделгенше күте тұрыңыз.">
 <!ENTITY network.notfound.description "Бұл орналасудан күнтізбелер табылмады. Баптауларды тексеріңіз.">
 <!ENTITY network.authfail.description "Сіз енгізген тіркелу мәліметтері қабылданбады. Баптауларды тексеріңіз.">
-<!ENTITY network.certerror.description "Сертификат мәселесіне байланысты бұл жерде күнтізбелер табылмады.">
 <!ENTITY network.subscribe.single.description "Жазылғыңыз келетін күнтізбелерді таңдаңыз.">
 <!ENTITY network.subscribe.multiple.description "Бұл орналасу үшін бірнеше түрлі күнтізбелер қолжетімді. Күнтізбе түрін таңдап, жазылғыңыз келетін күнтізбелерді белгілеңіз.">

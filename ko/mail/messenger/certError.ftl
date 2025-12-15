@@ -34,19 +34,9 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = 연결 오류입니다. { $hostname }에 대한 인증서가 신뢰할 수 있는 출처에서 제공되지 않았습니다. 서버 보안 설정을 열려면 클릭하세요.
-certificate-check-fetch-button = 인증서 가져오기
 certificate-check-view-button = 인증서 보기
 certificate-check-add-exception-button = 예외 추가
 certificate-check-remove-exception-button = 예외 제거
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = { $hostname }에 대한 인증서를 가져오는 중입니다.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = { $hostname }에 대한 인증서가 유효한 것으로 보입니다.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = { $hostname }에 대한 인증서를 가져오지 못했습니다.
 certificate-check-exception-added = 인증서 예외가 추가되었습니다.
 certificate-check-exception-removed = 인증서 예외가 제거되었습니다.
 # Variables:

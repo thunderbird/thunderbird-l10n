@@ -34,6 +34,5 @@
 <!ENTITY network.loading.description "Pričekajte dok otkrivamo dostupne kalendare.">
 <!ENTITY network.notfound.description "Nije moguće pronaći kalendare na ovoj lokaciji. Provjerite postavke.">
 <!ENTITY network.authfail.description "Podaci za prijavu koje ste unijeli nisu prihvaćeni. Provjerite postavke.">
-<!ENTITY network.certerror.description "Nije moguće pronaći kalendare na ovoj lokaciji zbog problema s certifikatom.">
 <!ENTITY network.subscribe.single.description "Odaberite kalendare na koje se želite pretplatiti.">
 <!ENTITY network.subscribe.multiple.description "Više tipova kalendara je dostupno na ovoj lokaciji. Odaberite tip kalendara i onda označite kalendare na koje se želite pretplatiti.">

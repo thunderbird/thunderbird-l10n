@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = Yhteysvirhe. Varmenne palvelimelle { $hostname } ei ole peräisin luotettavasta lähteestä. Avaa palvelimen suojausasetukset napsauttamalla tätä.
 certificate-check-test-button = Testaa yhteys palvelimeen
-certificate-check-fetch-button = Nouda varmenne
 certificate-check-view-button = Näytä varmenne
 certificate-check-add-exception-button = Lisää poikkeus
 certificate-check-remove-exception-button = Poista poikkeus
@@ -48,15 +47,6 @@ certificate-test-success = Suojattu yhteys palvelimeen { $hostname } muodostetti
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = Yhteys palvelimeen { $hostname } epäonnistui.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = Noudetaan palvelimen { $hostname } varmennetta.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = Palvelimen { $hostname } varmenne vaikuttaa olevan kelvollinen.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = Palvelimen { $hostname } varmenteen nouto epäonnistui.
 certificate-check-exception-added = Varmennepoikkeus lisätty.
 certificate-check-exception-removed = Varmennepoikkeus poistettu.
 # Variables:

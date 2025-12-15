@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = Bağlantı hatası. { $hostname } sertifikası güvenilir bir kaynaktan gelmiyor. Sunucu güvenlik ayarlarını açmak için tıklayın.
 certificate-check-test-button = Sunucu bağlantısını test et
-certificate-check-fetch-button = Sertifikayı getir
 certificate-check-view-button = Sertifikayı göster
 certificate-check-add-exception-button = İstisna ekle
 certificate-check-remove-exception-button = İstisnayı kaldır
@@ -48,15 +47,6 @@ certificate-test-success = { $hostname } ile güvenli bağlantı kuruldu.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = { $hostname } sunucusuna bağlanılamadı.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = { $hostname } sertifikası getiriliyor.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = { $hostname } sertifikası geçerli görünüyor.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = { $hostname } sertifikası getirilemedi.
 certificate-check-exception-added = Sertifika istisnası eklendi.
 certificate-check-exception-removed = Sertifika istisnası kaldırıldı.
 # Variables:

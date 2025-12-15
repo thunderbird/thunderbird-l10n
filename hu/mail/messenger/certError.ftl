@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = Kapcsolódási hiba. A(z) { $hostname } tanúsítványa nem biztonságos forrásból származik. Kattintson a kiszolgáló biztonsági beállításainak megnyitásához.
 certificate-check-test-button = A kiszolgálóval való kapcsolat tesztelése
-certificate-check-fetch-button = Tanúsítvány lekérése
 certificate-check-view-button = Tanúsítvány megtekintése
 certificate-check-add-exception-button = Kivétel hozzáadása
 certificate-check-remove-exception-button = Kivétel eltávolítása
@@ -48,15 +47,6 @@ certificate-test-success = Sikeresen biztonságos kapcsolatot hozott létre a k�
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = A(z) { $hostname } kiszolgálóhoz való kapcsolódás sikertelen.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = A(z) { $hostname } tanúsítványának lekérése.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = A(z) { $hostname } tanúsítványa érvényesnek tűnik.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = Nem sikerült lekérni a(z) { $hostname } tanúsítványát.
 certificate-check-exception-added = Tanúsítványkivétel hozzáadva.
 certificate-check-exception-removed = Tanúsítványkivétel eltávolítva.
 # Variables:

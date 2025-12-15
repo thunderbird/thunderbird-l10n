@@ -541,7 +541,6 @@ archive-action = დაარქივება
 
 ## Message list.
 
-message-flag-spam = ჯართი
 menuitem-label-spam =
     .label = ჯართი
 menuitem-label-spam-score-origin =

@@ -544,7 +544,6 @@ archive-action = Archiwizuj
 
 ## Message list.
 
-message-flag-spam = Niechciana
 menuitem-label-spam =
     .label = Niechciana
 menuitem-label-spam-score-origin =

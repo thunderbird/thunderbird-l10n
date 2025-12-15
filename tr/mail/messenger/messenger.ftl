@@ -541,7 +541,6 @@ archive-action = Arşivle
 
 ## Message list.
 
-message-flag-spam = Spam
 menuitem-label-spam =
     .label = Spam
 menuitem-label-spam-score-origin =

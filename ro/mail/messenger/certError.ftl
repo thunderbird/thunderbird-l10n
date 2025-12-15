@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = Eroare de conexiune. Certificatul pentru { $hostname } nu provine dintr-o sursă de încredere. Dă clic ca să deschizi setările de securitate ale serverului.
 certificate-check-test-button = Testează conexiunea la server
-certificate-check-fetch-button = Preia certificatul
 certificate-check-view-button = Vezi certificatul
 certificate-check-add-exception-button = Adaugă excepție
 certificate-check-remove-exception-button = Elimină excepția
@@ -48,15 +47,6 @@ certificate-test-success = Conexiune securizată la { $hostname } stabilită cu 
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = Conexiunea la serverul { $hostname } a eșuat.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = Se preia certificatul pentru { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = Certificatul pentru { $hostname } pare a fi valid.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = Nu s-a putut prelua certificatul pentru { $hostname }.
 certificate-check-exception-added = Excepția de certificat a fost adăugată.
 certificate-check-exception-removed = Excepția de certificat a fost eliminată.
 # Variables:

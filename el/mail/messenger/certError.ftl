@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = Σφάλμα σύνδεσης. Το πιστοποιητικό για το { $hostname } δεν προέρχεται από έμπιστη πηγή. Κάντε κλικ για να ανοίξετε τις ρυθμίσεις ασφαλείας του διακομιστή.
 certificate-check-test-button = Δοκιμή σύνδεσης με τον διακομιστή
-certificate-check-fetch-button = Λήψη πιστοποιητικού
 certificate-check-view-button = Προβολή πιστοποιητικού
 certificate-check-add-exception-button = Προσθήκη εξαίρεσης
 certificate-check-remove-exception-button = Αφαίρεση εξαίρεσης
@@ -48,15 +47,6 @@ certificate-test-success = Επιτυχής δημιουργία ασφαλού�
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = Αποτυχία σύνδεσης με τον διακομιστή { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = Λήψη πιστοποιητικού για το { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = Το πιστοποιητικό για το { $hostname } φαίνεται να είναι έγκυρο.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = Αποτυχία λήψης πιστοποιητικού για το { $hostname }.
 certificate-check-exception-added = Η εξαίρεση του πιστοποιητικού προστέθηκε.
 certificate-check-exception-removed = Η εξαίρεση του πιστοποιητικού αφαιρέθηκε.
 # Variables:

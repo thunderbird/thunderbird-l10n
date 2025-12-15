@@ -541,7 +541,6 @@ archive-action = Архивиране
 
 ## Message list.
 
-message-flag-spam = Нежелана поща
 menuitem-label-spam =
     .label = Нежелана поща
 menuitem-label-spam-score-origin =

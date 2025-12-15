@@ -541,7 +541,6 @@ archive-action = Argivearje
 
 ## Message list.
 
-message-flag-spam = Net-winske
 menuitem-label-spam =
     .label = Net-winske
 menuitem-label-spam-score-origin =

@@ -547,7 +547,6 @@ archive-action = Arhivează
 
 ## Message list.
 
-message-flag-spam = Mesaje nedorite
 menuitem-label-spam =
     .label = Mesaje nedorite
 menuitem-label-spam-score-origin =

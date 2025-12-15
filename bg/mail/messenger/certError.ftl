@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = Грешка при свързване. Сертификатът за { $hostname } не идва от доверен източник. Щракнете, за да отворите настройките за защита на сървъра.
 certificate-check-test-button = Тест на връзката със сървъра
-certificate-check-fetch-button = Извличане на сертификат
 certificate-check-view-button = Преглед на сертификат
 certificate-check-add-exception-button = Добавяне на изключениe
 certificate-check-remove-exception-button = Премахване на изключението
@@ -48,15 +47,6 @@ certificate-test-success = Установена е защитена връзка
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = Защитената връзка с  { $hostname }  се провали.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = Извличане на сертификата за { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = Сертификатът за { $hostname } изглежда е валиден.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = Неуспешно извличане на сертификата за { $hostname }.
 certificate-check-exception-added = Добавено е изключение за сертификат.
 certificate-check-exception-removed = Изключението за сертификата е премахнато.
 # Variables:

@@ -541,7 +541,6 @@ archive-action = Arkiver
 
 ## Message list.
 
-message-flag-spam = Søppelpost
 menuitem-label-spam =
     .label = Søppelpost
 menuitem-label-spam-score-origin =

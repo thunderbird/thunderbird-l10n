@@ -34,6 +34,5 @@
 <!ENTITY network.loading.description "Even geduld, uw agenda’s worden gedetecteerd.">
 <!ENTITY network.notfound.description "Er zijn geen agenda’s op deze locatie gevonden. Controleer uw instellingen.">
 <!ENTITY network.authfail.description "De ingevoerde referenties werden niet geaccepteerd. Controleer uw instellingen.">
-<!ENTITY network.certerror.description "Kan geen agenda’s op deze locatie vinden, vanwege een certificaatprobleem.">
 <!ENTITY network.subscribe.single.description "Selecteer de agenda’s waarop u zich wilt abonneren.">
 <!ENTITY network.subscribe.multiple.description "Voor deze locatie zijn meerdere agendatypen beschikbaar. Selecteer het agendatype, en markeer daarna de agenda’s waarop u zich wilt abonneren.">

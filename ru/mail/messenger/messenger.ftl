@@ -551,7 +551,6 @@ archive-action = Архивировать
 
 ## Message list.
 
-message-flag-spam = Спам
 menuitem-label-spam =
     .label = Спам
 menuitem-label-spam-score-origin =

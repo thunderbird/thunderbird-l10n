@@ -541,7 +541,6 @@ archive-action = Arkivera
 
 ## Message list.
 
-message-flag-spam = Skräppost
 menuitem-label-spam =
     .label = Skräppost
 menuitem-label-spam-score-origin =

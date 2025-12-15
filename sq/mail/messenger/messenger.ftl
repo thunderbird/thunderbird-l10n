@@ -538,7 +538,6 @@ archive-action = Arkivoje
 
 ## Message list.
 
-message-flag-spam = Mesazh i padëshiruar
 menuitem-label-spam =
     .label = Mesazh i padëshiruar
 menuitem-label-spam-score-origin =

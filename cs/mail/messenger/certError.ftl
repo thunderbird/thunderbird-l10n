@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = Chyba připojení. Certifikát pro { $hostname } nepochází z důvěryhodného zdroje. Klepnutím otevřete nastavení zabezpečení serveru.
 certificate-check-test-button = Vyzkoušet spojení se serverem
-certificate-check-fetch-button = Získat certifikát
 certificate-check-view-button = Zobrazit certifikát
 certificate-check-add-exception-button = Přidat výjimku
 certificate-check-remove-exception-button = Odstranit výjimku
@@ -48,15 +47,6 @@ certificate-test-success = Zabezpečené spojení se serverem { $hostname } bylo
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = Připojení k serveru { $hostname } se nezdařilo.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = Získání certifikátu pro { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = Zdá se, že certifikát pro { $hostname } je platný.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = Nepodařilo se načíst certifikát pro { $hostname }.
 certificate-check-exception-added = Výjimka pro certifikát byla přidána.
 certificate-check-exception-removed = Výjimka z certifikátu byla odebrána.
 # Variables:

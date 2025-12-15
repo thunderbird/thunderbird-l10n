@@ -553,7 +553,6 @@ archive-action = Archivovať
 
 ## Message list.
 
-message-flag-spam = Nevyžiadaná správa
 menuitem-label-spam =
     .label = Nevyžiadaná správa
 menuitem-label-spam-score-origin =

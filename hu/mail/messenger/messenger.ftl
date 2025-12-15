@@ -541,7 +541,6 @@ archive-action = Archiválás
 
 ## Message list.
 
-message-flag-spam = Levélszemét
 menuitem-label-spam =
     .label = Levélszemét
 menuitem-label-spam-score-origin =

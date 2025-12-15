@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = Błąd połączenia. Certyfikat witryny „{ $hostname }” nie pochodzi z zaufanego źródła. Kliknij, aby otworzyć ustawienia zabezpieczeń serwera.
 certificate-check-test-button = Testuj połączenie z serwerem
-certificate-check-fetch-button = Pobierz certyfikat
 certificate-check-view-button = Wyświetl certyfikat
 certificate-check-add-exception-button = Dodaj wyjątek
 certificate-check-remove-exception-button = Usuń wyjątek
@@ -48,15 +47,6 @@ certificate-test-success = Pomyślnie nawiązano bezpieczne połączenie z { $h
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = Połączenie z serwerem { $hostname } się nie powiodło.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = Pobieranie certyfikatu witryny „{ $hostname }”.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = Certyfikat witryny „{ $hostname }” wydaje się ważny.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = Pobranie certyfikatu witryny „{ $hostname }” się nie powiodło.
 certificate-check-exception-added = Dodano wyjątek certyfikatu.
 certificate-check-exception-removed = Usunięto wyjątek certyfikatu.
 # Variables:

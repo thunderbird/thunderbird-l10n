@@ -34,6 +34,5 @@
 <!ENTITY network.loading.description "Mohon tunggu sembari menemukan kalender.">
 <!ENTITY network.notfound.description "Kalender tidak ditemukan di lokasi ini. Mohon periksa pengaturan Anda.">
 <!ENTITY network.authfail.description "Pengenal yang telah Anda masukkan tidak diterima. Silakan periksa pengaturan Anda.">
-<!ENTITY network.certerror.description "Tidak bisa menemukan kalender di lokasi ini karena masalah sertifikat.">
 <!ENTITY network.subscribe.single.description "Pilih kalender yang ingin Anda langgani.">
 <!ENTITY network.subscribe.multiple.description "Berbagai tipe kalender tersedia untuk lokasi ini. Silakan memilih tipe kalender, lalu tandai kalender yang ingin Anda ikuti.">

@@ -34,6 +34,5 @@
 <!ENTITY network.loading.description "Bitte warten, es wird nach Kalendern gesucht.">
 <!ENTITY network.notfound.description "Keine Kalender unter dieser Adresse gefunden. Bitte die Einstellungen überprüfen.">
 <!ENTITY network.authfail.description "Die eingegebenen Zugangsdaten wurden abgelehnt. Bitte die Einstellungen überprüfen.">
-<!ENTITY network.certerror.description "An dieser Adresse wurden aufgrund eines Zertifikatsproblems keine Kalender gefunden.">
 <!ENTITY network.subscribe.single.description "Bitte die zu abonnierenden Kalender auswählen.">
 <!ENTITY network.subscribe.multiple.description "Unter dieser Adresse stehen verschiedene Kalendertypen zur Auswahl. Wählen Sie zuerst den Kalendertyp und anschließend die zu abonnierenden Kalender.">

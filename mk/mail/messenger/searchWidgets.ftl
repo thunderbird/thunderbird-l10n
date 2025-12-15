@@ -3,9 +3,6 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
-## Search Attributes
-
-
 ## Search Operators
 
 search-op-contains = содржи

@@ -541,7 +541,6 @@ archive-action = Skjalageymsla
 
 ## Message list.
 
-message-flag-spam = Ruslpóstur
 menuitem-label-spam =
     .label = Ruslpóstur
 menuitem-label-spam-score-origin =

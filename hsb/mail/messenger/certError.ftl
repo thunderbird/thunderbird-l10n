@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = Zwiskowy zmylk. Certifikat za { $hostname } z dowěry hódneho žórła njepřińdźe. Klikńće, zo byšće wěstotne nastajenja serwera wočinił.
 certificate-check-test-button = Zwisk ze serwerom testować
-certificate-check-fetch-button = Certifikat wobstarać
 certificate-check-view-button = Certifikat pokazać
 certificate-check-add-exception-button = Wuwzaće přidać
 certificate-check-remove-exception-button = Wuwzaće wotstronić
@@ -48,15 +47,6 @@ certificate-test-success = Wěsty zwisk z { $hostname } je so wuspěšnje nawjaz
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = Zwisk ze serwerom { $hostname } njeje so poradźił.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = Certifikat za { $hostname } so wobstaruje.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = Certifikat za { $hostname } zda so płaćiwy być.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = Njeje móžno, certifikat za { $hostname } wobstarać.
 certificate-check-exception-added = Wuwzaće certifikata je so přidało.
 certificate-check-exception-removed = Wuwzaće certifikata je so wotstroniło.
 # Variables:

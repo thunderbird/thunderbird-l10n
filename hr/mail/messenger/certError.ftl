@@ -35,7 +35,6 @@ cert-error-inline-not-yet-valid =
 cert-error-inline-untrusted-default =
     .title = Pogreška veze. Certifikat za { $hostname } ne dolazi iz pouzdanog izvora. Kliknite za otvaranje sigurnosnih postavki poslužitelja.
 certificate-check-test-button = Testiraj vezu s poslužiteljem
-certificate-check-fetch-button = Dohvati certifikat
 certificate-check-view-button = Pregled certifikata
 certificate-check-add-exception-button = Dodaj iznimku
 certificate-check-remove-exception-button = Ukloni iznimku
@@ -48,15 +47,6 @@ certificate-test-success = Uspješno je uspostavljena sigurna veze s { $hostname
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-failure = Povezivanje s poslužiteljem { $hostname } nije uspjelo.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-fetching = Dohvaćanje certifikata za { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-success = Čini se da je certifikat za { $hostname } važeći.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-check-failure = Nije uspjelo dohvaćanje certifikata za { $hostname }.
 certificate-check-exception-added = Dodana je iznimka certifikata.
 certificate-check-exception-removed = Uklonjena je iznimka certifikata.
 # Variables:

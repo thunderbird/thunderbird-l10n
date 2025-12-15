@@ -537,7 +537,6 @@ archive-action = 備存
 
 ## Message list.
 
-message-flag-spam = 是垃圾信
 menuitem-label-spam =
     .label = 是垃圾信
 menuitem-label-spam-score-origin =

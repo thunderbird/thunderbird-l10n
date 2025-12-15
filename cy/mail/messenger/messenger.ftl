@@ -573,7 +573,6 @@ archive-action = Archifo
 
 ## Message list.
 
-message-flag-spam = Sbam
 menuitem-label-spam =
     .label = Sbam
 menuitem-label-spam-score-origin =
