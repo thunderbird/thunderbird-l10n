@@ -3,6 +3,34 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+search-attrib-any-name = Tüm adlar
+search-attrib-display-name = Görüntülenecek ad
+search-attrib-nickname = Takma ad
+search-attrib-screen-name = Ekran adı
+search-attrib-email = E-posta
+search-attrib-additional-email = Ek e-posta
+search-attrib-any-number = Tüm telefonlar
+search-attrib-work-phone = İş telefonu
+search-attrib-home-phone = Ev telefonu
+search-attrib-fax = Faks
+search-attrib-pager = Çağrı cihazı
+search-attrib-mobile = Mobil
+search-attrib-city = Şehir
+search-attrib-street = Sokak
+search-attrib-title = Unvan
+search-attrib-organization = Kurum
+search-attrib-department = Bölüm
+search-attrib-from-to-cc-or-bcc = Kimden, Kime, Cc veya Bcc
+search-attrib-attachment-status = Ek durumu
+search-attrib-label = Etiket
+search-attrib-customize = Özelleştir…
+search-attrib-missing-custom-term = Eksik özel koşul
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -27,3 +55,9 @@ search-val-flag-starred =
     .label = Yıldızlı
 search-val-spam =
     .label = Spam
+
+## Buttons
+
+
+## Search Term List
+
