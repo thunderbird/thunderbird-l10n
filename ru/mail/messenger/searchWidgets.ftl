@@ -5,6 +5,28 @@
 
 ## Search Attributes
 
+search-attrib-any-name = Любое имя
+search-attrib-display-name = Отображаемое имя
+search-attrib-nickname = Псевдоним
+search-attrib-screen-name = Интернет-пейджер
+search-attrib-email = Электронная почта
+search-attrib-additional-email = Доп. адрес электронной почты
+search-attrib-any-number = Любой номер телефона
+search-attrib-work-phone = Рабочий телефон
+search-attrib-home-phone = Домашний телефон
+search-attrib-fax = Факс
+search-attrib-pager = Пейджер
+search-attrib-mobile = Мобильный
+search-attrib-city = Город
+search-attrib-street = Улица
+search-attrib-title = Должность
+search-attrib-organization = Организация
+search-attrib-department = Отдел
+search-attrib-from-to-cc-or-bcc = От, кому, копия, скрытая копия
+search-attrib-attachment-status = Наличие вложения
+search-attrib-label = Метка
+search-attrib-customize = Настроить…
+search-attrib-missing-custom-term = Заданный термин отсутствует
 
 ## Search Operators
 
