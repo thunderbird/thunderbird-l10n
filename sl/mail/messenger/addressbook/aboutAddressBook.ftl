@@ -341,3 +341,15 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Išči
     .accesskey = š
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } zadetek
+            [two] { $count } zadetka
+            [few] { $count } zadetki
+           *[other] { $count } zadetkov
+        }
+ab-search-dialog-no-matches-found =
+    .value = Ni zadetkov
