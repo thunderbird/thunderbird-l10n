@@ -331,3 +331,5 @@ ab-search-dialog-matches-found =
             [one] { $count } találat van
            *[other] { $count } találat van
         }
+ab-search-dialog-no-matches-found =
+    .value = Nincs találat
