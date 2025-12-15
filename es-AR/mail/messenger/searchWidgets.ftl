@@ -81,6 +81,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-any =
+    .label = Que cumplan cualquiera de las siguientes
+    .accesskey = Q
 search-match-all-msgs =
     .label = Todos los mensajes
     .accesskey = m
