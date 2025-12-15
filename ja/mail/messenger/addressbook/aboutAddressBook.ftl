@@ -285,3 +285,12 @@ about-addressbook-photo-save = 保存
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value = { $count } 件の連絡先が見つかりました
+ab-search-dialog-no-matches-found =
+    .value = 検索条件に一致する連絡先はありませんでした
