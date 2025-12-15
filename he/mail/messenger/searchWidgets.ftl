@@ -5,6 +5,18 @@
 
 ## Search Attributes
 
+search-attrib-subject = נושא
+search-attrib-from = מאת
+search-attrib-body = גוף
+search-attrib-date = תאריך
+search-attrib-priority = עדיפות
+search-attrib-status = מצב:
+search-attrib-to = אל
+search-attrib-cc = עותק
+search-attrib-to-or-cc = עבור או עותק
+search-attrib-age-in-days = גיל בימים
+search-attrib-size-kb = גודל (ק״ב)
+search-attrib-tags = תווית
 search-attrib-any-name = כל שם
 search-attrib-display-name = שם תצוגה
 search-attrib-nickname = כינוי
@@ -30,6 +42,27 @@ search-attrib-missing-custom-term = מונח מותאם אישית חסר
 
 ## Search Operators
 
+search-op-contains = מכיל
+search-op-doesnt-contain = אינו מכיל
+search-op-is = הינו
+search-op-isnt = אינו
+search-op-is-empty = ריק
+search-op-is-before = בא לפני
+search-op-is-after = בא אחרי
+search-op-is-higher-than = גבוה מאשר
+search-op-is-lower-than = נמוך מאשר
+search-op-begins-with = מתחיל עם
+search-op-ends-with = מסתיים עם
+search-op-sounds-like = נשמע כמו
+search-op-ldap-dwim = LdapDwim
+search-op-is-greater-than = גדול מאשר
+search-op-is-less-than = קטן מאשר
+search-op-name-completion = השלמת שם
+search-op-is-in-ab = נמצא בפנקס הכתובות שלי
+search-op-isnt-in-ab = לא נמצא בפנקס הכתובות שלי
+search-op-isnt-empty = לא ריק
+search-op-matches = זהה
+search-op-doesnt-match = לא זהה
 
 ## Search Values
 
@@ -77,6 +110,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-all =
+    .label = התאם את כל התנאים הבאים
+    .accesskey = a
 search-match-any =
     .label = התאם לפחות לתנאי אחד מהבאים
     .accesskey = ל
