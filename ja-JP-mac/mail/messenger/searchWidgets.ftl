@@ -37,9 +37,16 @@ search-attrib-department = 部門
 search-attrib-from-to-cc-or-bcc = 差出人または宛先、Cc、Bcc
 search-attrib-attachment-status = 添付ファイルの有無
 search-attrib-label = ラベル
+search-attrib-customize = カスタムヘッダー...
+search-attrib-missing-custom-term = 不明なカスタム検索項目
 
 ## Search Operators
 
+search-op-contains = に次を含む
+search-op-doesnt-contain = に次を含まない
+search-op-is = が次と一致する
+search-op-isnt = が次と異なる
+search-op-is-empty = が未設定
 search-op-is-before = が次の日付より前
 search-op-is-after = が次の日付より後
 search-op-is-higher-than = が次より高い
@@ -96,6 +103,14 @@ search-val-has-attachments =
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = 新規ルールを追加します
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = このルールを削除します
 
 ## Search Term List
 
@@ -105,3 +120,6 @@ search-match-all =
 search-match-any =
     .label = いずれかの条件に一致
     .accesskey = o
+search-match-all-msgs =
+    .label = 条件なし
+    .accesskey = m
