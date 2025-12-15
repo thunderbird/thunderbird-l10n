@@ -294,3 +294,9 @@ about-addressbook-photo-save = 保存
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = 查找
+    .accesskey = S
