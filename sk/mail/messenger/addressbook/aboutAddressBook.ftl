@@ -346,3 +346,5 @@ ab-search-dialog-matches-found =
             [few] { $count } nájdené výsledky
            *[other] { $count } nájdených výsledkov
         }
+ab-search-dialog-no-matches-found =
+    .value = Neboli nájdené žiadne výsledky
