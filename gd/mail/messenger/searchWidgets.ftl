@@ -56,6 +56,20 @@ search-val-flag-starred =
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Cuir riaghailt ùr ris
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Thoir air falbh an riaghailt seo
 
 ## Search Term List
 
+search-match-any =
+    .label = Maidsich gin de dhe na leanas
+    .accesskey = n
+search-match-all-msgs =
+    .label = Maids a h-uile teachdaireachd
+    .accesskey = M
