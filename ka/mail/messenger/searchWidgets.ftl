@@ -3,6 +3,29 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+search-attrib-any-name = სახელი
+search-attrib-display-name = სახელის ასახვა
+search-attrib-nickname = მეტსახელი
+search-attrib-screen-name = ეკრანული სახელი
+search-attrib-email = ელფოსტა
+search-attrib-additional-email = დამატებითი ელფოსტა
+search-attrib-any-number = რიცხვი
+search-attrib-work-phone = სამსახურის ტელეფონი
+search-attrib-home-phone = ბინის ტელეფონი
+search-attrib-fax = ფაქსი
+search-attrib-pager = პეიჯერი
+search-attrib-mobile = მობილური
+search-attrib-city = ქალაქი
+search-attrib-street = ქუჩა
+search-attrib-title = თანამდებობა
+search-attrib-organization = დაწესებულება
+search-attrib-department = განყოფილება
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -27,3 +50,15 @@ search-val-flag-starred =
     .label = ალმიანი
 search-val-spam =
     .label = ჯართი
+
+## Buttons
+
+
+## Search Term List
+
+search-match-any =
+    .label = ემთხვევა რომელიმეს შემდეგიდან
+    .accesskey = o
+search-match-all-msgs =
+    .label = ემთხვევა ყველა წერილში
+    .accesskey = m
