@@ -55,6 +55,18 @@ search-val-flag-starred =
     .label = Suivi
 search-val-spam =
     .label = Indésirable
+search-val-spam-score-origin-plugin =
+    .label = Plugin
+search-val-spam-score-origin-filter =
+    .label = Filtre
+search-val-spam-score-origin-allowlist =
+    .label = Liste d’autorisation
+search-val-spam-score-origin-user =
+    .label = Utilisateur
+search-val-spam-score-origin-imap-flag =
+    .label = Étiquette IMAP
+search-val-has-attachments =
+    .label = Avec pièces jointes
 
 ## Buttons
 
