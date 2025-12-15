@@ -302,3 +302,5 @@ ab-search-dialog-matches-found =
             [one] { $count } tenmeɣṛut tettwaf
            *[other] { $count } tinmeɣruḍin ttwafent
         }
+ab-search-dialog-no-matches-found =
+    .value = Ulac tanmeɣṛut iţwafen
