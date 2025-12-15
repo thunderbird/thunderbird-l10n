@@ -70,6 +70,14 @@ search-val-has-attachments =
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Přidat pravidlo
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Odebrat pravidlo
 
 ## Search Term List
 
