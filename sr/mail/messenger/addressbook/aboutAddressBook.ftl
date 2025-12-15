@@ -143,3 +143,15 @@ about-addressbook-photo-save = Сачувај
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } нађено подударање
+            [few] { $count } нађена подударања
+           *[other] { $count } нађених подударања
+        }
