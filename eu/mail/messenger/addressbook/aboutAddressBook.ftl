@@ -331,3 +331,5 @@ ab-search-dialog-matches-found =
             [one] bat datorren { $count } aurkitu da
            *[other] bat datozen { $count } aurkitu dira
         }
+ab-search-dialog-no-matches-found =
+    .value = Ez da aurkitu bat datorrenik
