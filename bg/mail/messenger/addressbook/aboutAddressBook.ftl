@@ -317,3 +317,9 @@ about-addressbook-photo-save = Запазване
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = А
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Търсене
+    .accesskey = Т
