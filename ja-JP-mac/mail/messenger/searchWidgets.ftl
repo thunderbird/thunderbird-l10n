@@ -3,6 +3,18 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+
+## Search Operators
+
+search-op-is-before = が次の日付より前
+search-op-is-after = が次の日付より後
+search-op-is-higher-than = が次より高い
+search-op-is-lower-than = が次より低い
+search-op-begins-with = が次で始まる
+search-op-ends-with = が次で終わる
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -27,3 +39,15 @@ search-val-flag-starred =
     .label = スター付き
 search-val-spam =
     .label = 迷惑メール
+
+## Buttons
+
+
+## Search Term List
+
+search-match-all =
+    .label = すべての条件に一致
+    .accesskey = a
+search-match-any =
+    .label = いずれかの条件に一致
+    .accesskey = o
