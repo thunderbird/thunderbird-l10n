@@ -138,3 +138,5 @@ ab-search-dialog-matches-found =
             [one] { $count } գտնված համընկնում
            *[other] { $count } գտնված համընկումներ
         }
+ab-search-dialog-no-matches-found =
+    .value = Չի գտնվել
