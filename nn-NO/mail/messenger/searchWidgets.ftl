@@ -5,6 +5,18 @@
 
 ## Search Attributes
 
+search-attrib-subject = Emne
+search-attrib-from = Frå
+search-attrib-body = Meldingstekst
+search-attrib-date = Dato
+search-attrib-priority = Prioritet
+search-attrib-status = Status
+search-attrib-to = Til
+search-attrib-cc = Kopi
+search-attrib-to-or-cc = Til eller kopi
+search-attrib-age-in-days = Alder i dagar
+search-attrib-size-kb = Storleik (KB)
+search-attrib-tags = Stikkord
 search-attrib-any-name = Namn
 search-attrib-display-name = Fullt namn
 search-attrib-nickname = Kallenamn
@@ -23,13 +35,37 @@ search-attrib-title = Tittel
 search-attrib-organization = Organisasjon
 search-attrib-department = Avdeling
 search-attrib-from-to-cc-or-bcc = Frå, Til, Kopi eller Bcc
+search-attrib-spam-score-origin = Opphav for søppelpostpoeng
+search-attrib-spam-percent = Søppelpostprosent
 search-attrib-attachment-status = Vedleggstatus
+search-attrib-spam-status = Søppelpoststatus
 search-attrib-label = Merkelapp
 search-attrib-customize = Tilpass …
 search-attrib-missing-custom-term = Manglar tilpassa term
 
 ## Search Operators
 
+search-op-contains = inneheld
+search-op-doesnt-contain = inneheld ikkje
+search-op-is = er
+search-op-isnt = er ikkje
+search-op-is-empty = er tom
+search-op-is-before = er før
+search-op-is-after = er etter
+search-op-is-higher-than = er høgare enn
+search-op-is-lower-than = er lågare enn
+search-op-begins-with = startar med
+search-op-ends-with = sluttar med
+search-op-sounds-like = høyrest ut som
+search-op-ldap-dwim = LdapDwim
+search-op-is-greater-than = er større enn
+search-op-is-less-than = er mindre enn
+search-op-name-completion = NameCompletion
+search-op-is-in-ab = er i adresseboka
+search-op-isnt-in-ab = er ikkje i adresseboka
+search-op-isnt-empty = er ikkje tom
+search-op-matches = samsvarar
+search-op-doesnt-match = samsvarar ikkje
 
 ## Search Values
 
@@ -59,6 +95,14 @@ search-val-spam-score-origin-plugin =
     .label = Utviding
 search-val-spam-score-origin-filter =
     .label = Filter
+search-val-spam-score-origin-allowlist =
+    .label = Løyveliste
+search-val-spam-score-origin-user =
+    .label = Brukar
+search-val-spam-score-origin-imap-flag =
+    .label = IMAP-flagg
+search-val-has-attachments =
+    .label = Har vedlegg
 
 ## Buttons
 
@@ -73,6 +117,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-all =
+    .label = Alle reglane passar
+    .accesskey = A
 search-match-any =
     .label = Ein av reglane passar
     .accesskey = E
