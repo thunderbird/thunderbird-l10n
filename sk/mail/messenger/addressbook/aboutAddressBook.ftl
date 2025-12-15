@@ -331,3 +331,18 @@ about-addressbook-photo-save = Uložiť
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Hľadať
+    .accesskey = H
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } nájdený výsledok
+            [few] { $count } nájdené výsledky
+           *[other] { $count } nájdených výsledkov
+        }
