@@ -325,3 +325,5 @@ ab-search-dialog-matches-found =
             [one] { $count } сәйкестік табылды
            *[other] { $count } сәйкестік табылды
         }
+ab-search-dialog-no-matches-found =
+    .value = Сәйкестіктер табылмады
