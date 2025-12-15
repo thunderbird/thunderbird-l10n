@@ -338,3 +338,17 @@ about-addressbook-photo-save = Zapisz
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] Znaleziono { $count } adres
+            [few] Znaleziono { $count } adresy
+           *[many] Znaleziono { $count } adresów
+        }
+ab-search-dialog-no-matches-found =
+    .value = Nie znaleziono adresów spełniających warunki wyszukiwania
