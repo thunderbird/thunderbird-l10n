@@ -320,3 +320,11 @@ about-addressbook-new-contact-key = n
 ab-search-dialog-search-button =
     .label = Cerca
     .accesskey = C
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] S'ha trobat { $count } coincidència
+           *[other] S'han trobat { $count } coincidències
+        }
