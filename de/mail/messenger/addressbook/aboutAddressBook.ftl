@@ -320,6 +320,9 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Suchen
     .accesskey = S
+ab-search-dialog-reset-button =
+    .label = Neue Suche
+    .accesskey = c
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -330,3 +333,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = Keine Übereinstimmung gefunden
+ab-search-dialog-search-heading =
+    .label = Suchen in:
+    .accesskey = u
+ab-search-dialog-properties-button =
+    .label = Eigenschaften
+    .accesskey = E
+ab-search-dialog-compose-button =
+    .label = Verfassen
+    .accesskey = V
+ab-search-dialog-delete-button =
+    .label = Löschen
+    .accesskey = L
+ab-search-dialog-title = Adressen suchen
+ab-search-dialog-close-cmd =
+    .key = W
