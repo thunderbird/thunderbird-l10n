@@ -329,6 +329,9 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Caută
     .accesskey = C
+ab-search-dialog-reset-button =
+    .label = Golește
+    .accesskey = G
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -340,3 +343,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = Nicio fișă găsită
+ab-search-dialog-search-heading =
+    .label = Caută în:
+    .accesskey = C
+ab-search-dialog-properties-button =
+    .label = Proprietăți
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = Scrie mesaj
+    .accesskey = S
+ab-search-dialog-delete-button =
+    .label = Șterge
+    .accesskey = g
+ab-search-dialog-title = Căutare avansată în agenda de contacte
+ab-search-dialog-close-cmd =
+    .key = w
