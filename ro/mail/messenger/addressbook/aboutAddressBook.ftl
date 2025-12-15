@@ -329,3 +329,12 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Caută
     .accesskey = C
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } rezultat găsit
+            [few] { $count } rezultate găsite
+           *[other] { $count } de rezultate găsite
+        }
