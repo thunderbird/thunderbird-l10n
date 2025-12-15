@@ -48,6 +48,16 @@ search-val-flag-forwarded =
     .label = Forwarded
 search-val-flag-starred =
     .label = Starred
+search-val-spam-score-origin-plugin =
+    .label = Plugin
+search-val-spam-score-origin-filter =
+    .label = Filter
+search-val-spam-score-origin-user =
+    .label = User
+search-val-spam-score-origin-imap-flag =
+    .label = IMAP Flag
+search-val-has-attachments =
+    .label = Has Attachments
 
 ## Buttons
 
