@@ -331,3 +331,5 @@ ab-search-dialog-matches-found =
             [one] { $count } eşleşme bulundu
            *[other] { $count } eşleşme bulundu
         }
+ab-search-dialog-no-matches-found =
+    .value = Eşleşme bulunamadı
