@@ -5,6 +5,18 @@
 
 ## Search Attributes
 
+search-attrib-subject = Assumpte
+search-attrib-from = Remitent
+search-attrib-body = Cos
+search-attrib-date = Data
+search-attrib-priority = Prioritat
+search-attrib-status = Estat
+search-attrib-to = A
+search-attrib-cc = Cc
+search-attrib-to-or-cc = A o Cc
+search-attrib-age-in-days = Antiguitat en dies
+search-attrib-size-kb = Mida (kB)
+search-attrib-tags = Etiquetes
 search-attrib-any-name = Qualsevol nom
 search-attrib-display-name = Nom a mostrar
 search-attrib-nickname = Sobrenom
@@ -30,6 +42,27 @@ search-attrib-missing-custom-term = Falta el terme personalitzat
 
 ## Search Operators
 
+search-op-contains = conté
+search-op-doesnt-contain = no conté
+search-op-is = és
+search-op-isnt = no és
+search-op-is-empty = és buit
+search-op-is-before = és abans de
+search-op-is-after = és després de
+search-op-is-higher-than = és superior a
+search-op-is-lower-than = és inferior a
+search-op-begins-with = comença per
+search-op-ends-with = acaba amb
+search-op-sounds-like = sona com
+search-op-ldap-dwim = LdapDwim
+search-op-is-greater-than = és superior a
+search-op-is-less-than = és inferior a
+search-op-name-completion = Compleció de noms
+search-op-is-in-ab = és a la llibreta d'adreces
+search-op-isnt-in-ab = no és a la llibreta d'adreces
+search-op-isnt-empty = no és buit
+search-op-matches = coincideix
+search-op-doesnt-match = no coincideix
 
 ## Search Values
 
@@ -77,6 +110,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-all =
+    .label = Tots els següents
+    .accesskey = T
 search-match-any =
     .label = Qualsevol dels següents
     .accesskey = Q
