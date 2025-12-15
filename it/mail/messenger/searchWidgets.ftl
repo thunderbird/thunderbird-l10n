@@ -3,6 +3,12 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -27,3 +33,15 @@ search-val-flag-starred =
     .label = Speciale
 search-val-spam =
     .label = Spam
+
+## Buttons
+
+
+## Search Term List
+
+search-match-any =
+    .label = Soddisfano anche una sola condizione
+    .accesskey = z
+search-match-all-msgs =
+    .label = Tutte incondizionatamente
+    .accesskey = m
