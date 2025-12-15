@@ -5,6 +5,18 @@
 
 ## Search Attributes
 
+search-attrib-subject = Aihe
+search-attrib-from = Lähettäjä
+search-attrib-body = Viestin runko
+search-attrib-date = Päiväys
+search-attrib-priority = Tärkeysaste
+search-attrib-status = Tila
+search-attrib-to = Vastaanottaja
+search-attrib-cc = Kopio
+search-attrib-to-or-cc = Vastaanottaja tai kopio
+search-attrib-age-in-days = Ikä päivissä
+search-attrib-size-kb = Koko (kt)
+search-attrib-tags = Tunnukset
 search-attrib-any-name = Mikä tahansa nimi
 search-attrib-display-name = Näyttönimi
 search-attrib-nickname = Lempinimi
@@ -30,6 +42,27 @@ search-attrib-missing-custom-term = Puuttuva oma ehto
 
 ## Search Operators
 
+search-op-contains = sisältää
+search-op-doesnt-contain = ei sisällä
+search-op-is = on
+search-op-isnt = ei ole
+search-op-is-empty = on tyhjä
+search-op-is-before = on ennen
+search-op-is-after = on jälkeen
+search-op-is-higher-than = on suurempi kuin
+search-op-is-lower-than = on pienempi kuin
+search-op-begins-with = alkaa merkeillä
+search-op-ends-with = päättyy merkkeihin
+search-op-sounds-like = kuulostaa
+search-op-ldap-dwim = LdapDwim
+search-op-is-greater-than = on suurempi kuin
+search-op-is-less-than = on pienempi kuin
+search-op-name-completion = NameCompletion
+search-op-is-in-ab = on osoitekirjassani
+search-op-isnt-in-ab = ei ole osoitekirjassani
+search-op-isnt-empty = ei ole tyhjä
+search-op-matches = vastaa
+search-op-doesnt-match = ei vastaa
 
 ## Search Values
 
@@ -79,3 +112,12 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-all =
+    .label = Osumat täyttävät kaikki ehdot
+    .accesskey = u
+search-match-any =
+    .label = Osumat täyttävät jotkin ehdoista
+    .accesskey = m
+search-match-all-msgs =
+    .label = Kaikki viestit (ei ehtoja)
+    .accesskey = K
