@@ -323,6 +323,9 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Etsi
     .accesskey = e
+ab-search-dialog-reset-button =
+    .label = Tyhjennä
+    .accesskey = T
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -333,3 +336,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = Ei yhtään osumaa
+ab-search-dialog-search-heading =
+    .label = Etsi kohteesta:
+    .accesskey = k
+ab-search-dialog-properties-button =
+    .label = Ominaisuudet
+    .accesskey = O
+ab-search-dialog-compose-button =
+    .label = Kirjoita
+    .accesskey = K
+ab-search-dialog-delete-button =
+    .label = Poista
+    .accesskey = P
+ab-search-dialog-title = Etsi osoitekirjasta
+ab-search-dialog-close-cmd =
+    .key = W
