@@ -323,3 +323,11 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Etsi
     .accesskey = e
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } vastaavuus löytyi
+           *[other] { $count } vastaavuutta löytyi
+        }
