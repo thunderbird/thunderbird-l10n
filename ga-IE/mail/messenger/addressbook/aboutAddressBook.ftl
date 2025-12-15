@@ -34,6 +34,9 @@
 ab-search-dialog-search-button =
     .label = Cuardaigh
     .accesskey = S
+ab-search-dialog-reset-button =
+    .label = Bánaigh
+    .accesskey = B
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -45,3 +48,20 @@ ab-search-dialog-matches-found =
             [many] Aimsíodh { $count } rud
            *[other] Aimsíodh { $count } rud
         }
+ab-search-dialog-no-matches-found =
+    .value = Níor aimsíodh aon rud
+ab-search-dialog-search-heading =
+    .label = Cuardaigh i:
+    .accesskey = h
+ab-search-dialog-properties-button =
+    .label = Airíonna
+    .accesskey = A
+ab-search-dialog-compose-button =
+    .label = Scríobh
+    .accesskey = S
+ab-search-dialog-delete-button =
+    .label = Scrios
+    .accesskey = S
+ab-search-dialog-title = Ardchuardach an Leabhair Sheoltaí
+ab-search-dialog-close-cmd =
+    .key = W
