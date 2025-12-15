@@ -22,6 +22,11 @@ search-attrib-street = Rue
 search-attrib-title = Fonction
 search-attrib-organization = Société
 search-attrib-department = Service
+search-attrib-from-to-cc-or-bcc = De, Pour, Copie à ou Copie cachée à
+search-attrib-attachment-status = Statut des pièces jointes
+search-attrib-label = Étiquette
+search-attrib-customize = Personnaliser…
+search-attrib-missing-custom-term = Terme personnalisé manquant
 
 ## Search Operators
 
