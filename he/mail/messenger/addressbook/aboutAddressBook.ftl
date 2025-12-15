@@ -95,3 +95,11 @@ about-addressbook-details-other-info-header = מידע אחר
 ab-search-dialog-search-button =
     .label = חיפוש
     .accesskey = ח
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] נמצאה התאמה אחת
+           *[other] נמצאו { $count } התאמות
+        }
