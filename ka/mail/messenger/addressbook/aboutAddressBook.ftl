@@ -317,3 +317,37 @@ about-addressbook-photo-save = შენახვა
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = ძიება
+    .accesskey = S
+ab-search-dialog-reset-button =
+    .label = გასუფთავება
+    .accesskey = ფ
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] მოიძებნა { $count } თანხვედრა
+           *[other] მოიძებნა { $count } თანხვედრა
+        }
+ab-search-dialog-no-matches-found =
+    .value = თანხვედრა ვერ მოიძებნა
+ab-search-dialog-search-heading =
+    .label = ძიების არე:
+    .accesskey = რ
+ab-search-dialog-properties-button =
+    .label = პარამეტრები
+    .accesskey = პ
+ab-search-dialog-compose-button =
+    .label = შედგენა
+    .accesskey = დ
+ab-search-dialog-delete-button =
+    .label = წაშლა
+    .accesskey = წ
+ab-search-dialog-title = დეტალური ძიება წიგნაკში
+ab-search-dialog-close-cmd =
+    .key = W

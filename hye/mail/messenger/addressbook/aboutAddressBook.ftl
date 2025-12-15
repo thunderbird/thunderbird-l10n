@@ -95,6 +95,10 @@ about-addressbook-confirm-delete-contacts-title =
        *[other] Ջնջել կապորդները
     }
 
+## Card list placeholder
+## Shown when there are no cards in the list
+
+
 ## Details
 
 about-addressbook-write-action-button = Գրել
@@ -137,3 +141,37 @@ about-addressbook-photo-save = Պահպանել
 
 # Keyboard shortcuts
 
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Որոնել
+    .accesskey = Ո
+ab-search-dialog-reset-button =
+    .label = Մաքրել
+    .accesskey = C
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] Գտնուել է { $count } հանընկնում
+           *[other] գտնուել է { $count } հանընկնում
+        }
+ab-search-dialog-no-matches-found =
+    .value = Համընկնում չի գտնուել
+ab-search-dialog-search-heading =
+    .label = Որոնել հետեւեալում.
+    .accesskey = h
+ab-search-dialog-properties-button =
+    .label = Յատկութիւններ
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = Գրել
+    .accesskey = W
+ab-search-dialog-delete-button =
+    .label = Ջնջել
+    .accesskey = D
+ab-search-dialog-title = Ընդլայնուած որոնում հասցէագրքում
+ab-search-dialog-close-cmd =
+    .key = W

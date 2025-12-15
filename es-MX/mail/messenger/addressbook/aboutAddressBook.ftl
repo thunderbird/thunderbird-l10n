@@ -292,3 +292,37 @@ about-addressbook-photo-save = Guardar
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Buscar
+    .accesskey = S
+ab-search-dialog-reset-button =
+    .label = Limpiar
+    .accesskey = C
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } coincidencia
+           *[other] { $count } coincidencias
+        }
+ab-search-dialog-no-matches-found =
+    .value = No se encuentran coincidencias
+ab-search-dialog-search-heading =
+    .label = Buscar en:
+    .accesskey = h
+ab-search-dialog-properties-button =
+    .label = Propiedades
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = Escribir
+    .accesskey = W
+ab-search-dialog-delete-button =
+    .label = Eliminar
+    .accesskey = D
+ab-search-dialog-title = Búsqueda avanzada en la libreta de direcciones
+ab-search-dialog-close-cmd =
+    .key = W

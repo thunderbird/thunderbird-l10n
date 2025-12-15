@@ -317,3 +317,37 @@ about-addressbook-photo-save = Gorde
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = B
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Bilatu
+    .accesskey = t
+ab-search-dialog-reset-button =
+    .label = Garbitu
+    .accesskey = G
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] bat datorren { $count } aurkitu da
+           *[other] bat datozen { $count } aurkitu dira
+        }
+ab-search-dialog-no-matches-found =
+    .value = Ez da aurkitu bat datorrenik
+ab-search-dialog-search-heading =
+    .label = Bilatu hemen:
+    .accesskey = B
+ab-search-dialog-properties-button =
+    .label = Propietateak
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = Idatzi
+    .accesskey = I
+ab-search-dialog-delete-button =
+    .label = Ezabatu
+    .accesskey = E
+ab-search-dialog-title = Bilaketa aurreratua helbide-liburuan
+ab-search-dialog-close-cmd =
+    .key = W

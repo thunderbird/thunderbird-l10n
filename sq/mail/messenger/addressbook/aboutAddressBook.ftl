@@ -317,3 +317,37 @@ about-addressbook-photo-save = Ruaje
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = R
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Kërko
+    .accesskey = K
+ab-search-dialog-reset-button =
+    .label = Spastroje
+    .accesskey = P
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] U gjet { $count } përputhje
+           *[other] U gjetën { $count } përputhje
+        }
+ab-search-dialog-no-matches-found =
+    .value = S’u gjetën përputhje
+ab-search-dialog-search-heading =
+    .label = Kërko në:
+    .accesskey = o
+ab-search-dialog-properties-button =
+    .label = Veti
+    .accesskey = V
+ab-search-dialog-compose-button =
+    .label = Shkruani
+    .accesskey = S
+ab-search-dialog-delete-button =
+    .label = Fshije
+    .accesskey = F
+ab-search-dialog-title = Kërkim i Mëtejshëm në Libër Adresash
+ab-search-dialog-close-cmd =
+    .key = W

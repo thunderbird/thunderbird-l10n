@@ -114,3 +114,37 @@ about-addressbook-photo-save = Tiyak
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Tikanöx
+    .accesskey = T
+ab-search-dialog-reset-button =
+    .label = Tijosq'ïx
+    .accesskey = j
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } nuk'äm ri', ri xilitäj
+           *[other] { $count } nikik'äm ki', ri xe'ilitäj
+        }
+ab-search-dialog-no-matches-found =
+    .value = Majun rujunamil xe'ilitäj
+ab-search-dialog-search-heading =
+    .label = Tikanöx pa:
+    .accesskey = k
+ab-search-dialog-properties-button =
+    .label = Taq ichinil
+    .accesskey = i
+ab-search-dialog-compose-button =
+    .label = Titz'ib'äx
+    .accesskey = T
+ab-search-dialog-delete-button =
+    .label = Tiyuj
+    .accesskey = y
+ab-search-dialog-title = Q'axinäq Kikanoxik Kitz'ib'awuj Ochochib'äl
+ab-search-dialog-close-cmd =
+    .key = W

@@ -291,3 +291,37 @@ about-addressbook-photo-save = Sekles
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Nadi
+    .accesskey = S
+ab-search-dialog-reset-button =
+    .label = Sfeḍ
+    .accesskey = S
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } tenmeɣṛut tettwaf
+           *[other] { $count } tinmeɣruḍin ttwafent
+        }
+ab-search-dialog-no-matches-found =
+    .value = Ulac tanmeɣṛut iţwafen
+ab-search-dialog-search-heading =
+    .label = Nadi di:
+    .accesskey = d
+ab-search-dialog-properties-button =
+    .label = Taɣaṛa
+    .accesskey = T
+ab-search-dialog-compose-button =
+    .label = Aru
+    .accesskey = A
+ab-search-dialog-delete-button =
+    .label = Kkes
+    .accesskey = K
+ab-search-dialog-title = Anadi leqqayen n imedlis n tensa
+ab-search-dialog-close-cmd =
+    .key = W

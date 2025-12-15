@@ -315,3 +315,37 @@ about-addressbook-photo-save = Salvesta
 
 # Keyboard shortcuts
 
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Otsi
+    .accesskey = O
+ab-search-dialog-reset-button =
+    .label = Puhasta
+    .accesskey = P
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] Leiti { $count } vaste
+           *[other] Leiti { $count } vastet
+        }
+ab-search-dialog-no-matches-found =
+    .value = Vasteid ei leitud
+ab-search-dialog-search-heading =
+    .label = Otsitakse:
+    .accesskey = t
+ab-search-dialog-properties-button =
+    .label = Omadused
+    .accesskey = O
+ab-search-dialog-compose-button =
+    .label = Kirjuta
+    .accesskey = K
+ab-search-dialog-delete-button =
+    .label = Kustuta
+    .accesskey = u
+ab-search-dialog-title = Laiendatud otsing aadressiraamatust
+ab-search-dialog-close-cmd =
+    .key = W

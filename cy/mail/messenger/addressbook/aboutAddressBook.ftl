@@ -353,3 +353,41 @@ about-addressbook-photo-save = Cadw
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Chwilio
+    .accesskey = C
+ab-search-dialog-reset-button =
+    .label = Clirio
+    .accesskey = C
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [zero] Heb ganfod dim cydweddiadau
+            [one] Wedi canfod { $count } sy'n cydweddu
+            [two] Wedi canfod { $count } sy'n cydweddu
+            [few] Wedi canfod { $count } sy'n cydweddu
+            [many] Wedi canfod { $count } sy'n cydweddu
+           *[other] Wedi canfod { $count } sy'n cydweddu
+        }
+ab-search-dialog-no-matches-found =
+    .value = Heb ganfod cydweddiad
+ab-search-dialog-search-heading =
+    .label = Chwilio yn:
+    .accesskey = h
+ab-search-dialog-properties-button =
+    .label = Priodweddau
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = Ysgrifennu
+    .accesskey = Y
+ab-search-dialog-delete-button =
+    .label = Dileu
+    .accesskey = D
+ab-search-dialog-title = Chwilio Uwch drwy'r Llyfr Cyfeiriadau
+ab-search-dialog-close-cmd =
+    .key = W

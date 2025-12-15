@@ -309,3 +309,33 @@ about-addressbook-photo-save = 儲存
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = 搜尋
+    .accesskey = S
+ab-search-dialog-reset-button =
+    .label = 清除
+    .accesskey = C
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value = 找到 { $count } 筆符合項目
+ab-search-dialog-no-matches-found =
+    .value = 找不到符合的項目
+ab-search-dialog-search-heading =
+    .label = 尋找:
+    .accesskey = h
+ab-search-dialog-properties-button =
+    .label = 屬性
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = 寫信
+    .accesskey = W
+ab-search-dialog-delete-button =
+    .label = 刪除
+    .accesskey = D
+ab-search-dialog-title = 進階通訊錄搜尋
+ab-search-dialog-close-cmd =
+    .key = W

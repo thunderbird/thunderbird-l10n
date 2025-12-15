@@ -317,3 +317,37 @@ about-addressbook-photo-save = Gem
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Søg
+    .accesskey = S
+ab-search-dialog-reset-button =
+    .label = Ryd
+    .accesskey = R
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } forekomst fundet
+           *[other] { $count } forekomster fundet
+        }
+ab-search-dialog-no-matches-found =
+    .value = Ingen forekomster fundet
+ab-search-dialog-search-heading =
+    .label = Søg i:
+    .accesskey = ø
+ab-search-dialog-properties-button =
+    .label = Egenskaber
+    .accesskey = E
+ab-search-dialog-compose-button =
+    .label = Skriv
+    .accesskey = k
+ab-search-dialog-delete-button =
+    .label = Slet
+    .accesskey = S
+ab-search-dialog-title = Avanceret adressebogssøgning
+ab-search-dialog-close-cmd =
+    .key = W

@@ -317,3 +317,37 @@ about-addressbook-photo-save = Spara
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Sök
+    .accesskey = S
+ab-search-dialog-reset-button =
+    .label = Rensa
+    .accesskey = n
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } träff hittades
+           *[other] { $count } träffar hittades
+        }
+ab-search-dialog-no-matches-found =
+    .value = Inga matchningar hittades
+ab-search-dialog-search-heading =
+    .label = Sök i:
+    .accesskey = ö
+ab-search-dialog-properties-button =
+    .label = Egenskaper
+    .accesskey = E
+ab-search-dialog-compose-button =
+    .label = Skriv
+    .accesskey = r
+ab-search-dialog-delete-button =
+    .label = Ta bort
+    .accesskey = T
+ab-search-dialog-title = Avancerad sökning i adressbok
+ab-search-dialog-close-cmd =
+    .key = W

@@ -317,3 +317,37 @@ about-addressbook-photo-save = Kaydet
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Ara
+    .accesskey = A
+ab-search-dialog-reset-button =
+    .label = Temizle
+    .accesskey = T
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } eşleşme bulundu
+           *[other] { $count } eşleşme bulundu
+        }
+ab-search-dialog-no-matches-found =
+    .value = Eşleşme bulunamadı
+ab-search-dialog-search-heading =
+    .label = İçinde ara:
+    .accesskey = a
+ab-search-dialog-properties-button =
+    .label = Özellikler
+    .accesskey = z
+ab-search-dialog-compose-button =
+    .label = Oluştur
+    .accesskey = t
+ab-search-dialog-delete-button =
+    .label = Sil
+    .accesskey = S
+ab-search-dialog-title = Gelişmiş Adres Defteri Araması
+ab-search-dialog-close-cmd =
+    .key = W

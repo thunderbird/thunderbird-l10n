@@ -335,3 +335,39 @@ about-addressbook-photo-save = Składowaś
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Pytaś
+    .accesskey = P
+ab-search-dialog-reset-button =
+    .label = Wuprozniś
+    .accesskey = u
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } wótpowědnik namakany
+            [two] { $count } wótpowědnika namakanej
+            [few] { $count } wótpowědniki namakane
+           *[other] { $count } wótpowědnikow namakane
+        }
+ab-search-dialog-no-matches-found =
+    .value = Žedne wótpowědniki namakane
+ab-search-dialog-search-heading =
+    .label = Pytaś w:
+    .accesskey = t
+ab-search-dialog-properties-button =
+    .label = Kakosći
+    .accesskey = K
+ab-search-dialog-compose-button =
+    .label = Spisaś
+    .accesskey = i
+ab-search-dialog-delete-button =
+    .label = Wulašowaś
+    .accesskey = l
+ab-search-dialog-title = Rozšyrjone adresnikowe pytanje
+ab-search-dialog-close-cmd =
+    .key = W

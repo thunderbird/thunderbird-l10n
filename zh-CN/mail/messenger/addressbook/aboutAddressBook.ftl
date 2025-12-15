@@ -294,3 +294,33 @@ about-addressbook-photo-save = 保存
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = 查找
+    .accesskey = S
+ab-search-dialog-reset-button =
+    .label = 清除
+    .accesskey = C
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value = { $count } 项匹配
+ab-search-dialog-no-matches-found =
+    .value = 无法找到符合条件的结果
+ab-search-dialog-search-heading =
+    .label = 搜索在:
+    .accesskey = h
+ab-search-dialog-properties-button =
+    .label = 属性
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = 写信
+    .accesskey = W
+ab-search-dialog-delete-button =
+    .label = 删除
+    .accesskey = D
+ab-search-dialog-title = 通讯录高级搜索
+ab-search-dialog-close-cmd =
+    .key = W

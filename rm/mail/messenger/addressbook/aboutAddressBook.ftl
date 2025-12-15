@@ -317,3 +317,37 @@ about-addressbook-photo-save = Memorisar
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Tschertgar
+    .accesskey = S
+ab-search-dialog-reset-button =
+    .label = Nova tschertga
+    .accesskey = N
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } resultat
+           *[other] { $count } resultats
+        }
+ab-search-dialog-no-matches-found =
+    .value = Chattà naginas congrugenzas
+ab-search-dialog-search-heading =
+    .label = Tschertgar en:
+    .accesskey = h
+ab-search-dialog-properties-button =
+    .label = Caracteristicas
+    .accesskey = t
+ab-search-dialog-compose-button =
+    .label = Scriver
+    .accesskey = v
+ab-search-dialog-delete-button =
+    .label = Stizzar
+    .accesskey = S
+ab-search-dialog-title = Tschertga avanzada en il cudeschet d'adressas
+ab-search-dialog-close-cmd =
+    .key = W

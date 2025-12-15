@@ -317,3 +317,37 @@ about-addressbook-photo-save = Opslaan
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Zoeken
+    .accesskey = Z
+ab-search-dialog-reset-button =
+    .label = Wissen
+    .accesskey = W
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } overeenkomst gevonden
+           *[other] { $count } overeenkomsten gevonden
+        }
+ab-search-dialog-no-matches-found =
+    .value = Geen overeenkomsten gevonden
+ab-search-dialog-search-heading =
+    .label = Zoeken in:
+    .accesskey = k
+ab-search-dialog-properties-button =
+    .label = Eigenschappen
+    .accesskey = E
+ab-search-dialog-compose-button =
+    .label = Opstellen
+    .accesskey = O
+ab-search-dialog-delete-button =
+    .label = Verwijderen
+    .accesskey = V
+ab-search-dialog-title = Adresboek uitgebreid doorzoeken
+ab-search-dialog-close-cmd =
+    .key = W

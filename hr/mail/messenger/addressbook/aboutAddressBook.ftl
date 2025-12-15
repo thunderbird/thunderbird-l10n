@@ -326,3 +326,38 @@ about-addressbook-photo-save = Spremi
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Traži
+    .accesskey = T
+ab-search-dialog-reset-button =
+    .label = Očisti
+    .accesskey = O
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } podudaranje pronađeno
+            [few] { $count } podudaranja pronađeno
+           *[other] { $count } podudaranja pronađeno
+        }
+ab-search-dialog-no-matches-found =
+    .value = Nema podudaranja
+ab-search-dialog-search-heading =
+    .label = Traži u:
+    .accesskey = i
+ab-search-dialog-properties-button =
+    .label = Postavke
+    .accesskey = s
+ab-search-dialog-compose-button =
+    .label = Piši
+    .accesskey = P
+ab-search-dialog-delete-button =
+    .label = Obriši
+    .accesskey = O
+ab-search-dialog-title = Napredno pretraživanje adresara
+ab-search-dialog-close-cmd =
+    .key = W

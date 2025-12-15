@@ -145,3 +145,38 @@ about-addressbook-photo-save = Įrašyti
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Ieškoti
+    .accesskey = e
+ab-search-dialog-reset-button =
+    .label = Išvalyti
+    .accesskey = v
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] Rastas { $count } atitikmuo
+            [few] Rasti { $count } atitikmenys
+           *[other] Rasta { $count } atitikmenų
+        }
+ab-search-dialog-no-matches-found =
+    .value = Nieko nerasta
+ab-search-dialog-search-heading =
+    .label = Kur ieškoti:
+    .accesskey = K
+ab-search-dialog-properties-button =
+    .label = Savybės
+    .accesskey = S
+ab-search-dialog-compose-button =
+    .label = Rašyti laišką
+    .accesskey = l
+ab-search-dialog-delete-button =
+    .label = Pašalinti
+    .accesskey = š
+ab-search-dialog-title = Paieška adresų knygoje
+ab-search-dialog-close-cmd =
+    .key = W

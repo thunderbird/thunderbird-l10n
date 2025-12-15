@@ -285,3 +285,33 @@ about-addressbook-photo-save = 저장
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = 찾기
+    .accesskey = S
+ab-search-dialog-reset-button =
+    .label = 초기화
+    .accesskey = C
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value = { $count }개 발견
+ab-search-dialog-no-matches-found =
+    .value = 검색 결과가 없습니다.
+ab-search-dialog-search-heading =
+    .label = 검색:
+    .accesskey = h
+ab-search-dialog-properties-button =
+    .label = 속성
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = 쓰기
+    .accesskey = W
+ab-search-dialog-delete-button =
+    .label = 삭제
+    .accesskey = D
+ab-search-dialog-title = 주소록 검색
+ab-search-dialog-close-cmd =
+    .key = W

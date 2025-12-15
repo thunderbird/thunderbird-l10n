@@ -317,3 +317,37 @@ about-addressbook-photo-save = Mentés
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Keresés
+    .accesskey = K
+ab-search-dialog-reset-button =
+    .label = Alaphelyzet
+    .accesskey = A
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } találat van
+           *[other] { $count } találat van
+        }
+ab-search-dialog-no-matches-found =
+    .value = Nincs találat
+ab-search-dialog-search-heading =
+    .label = Keresési hely:
+    .accesskey = h
+ab-search-dialog-properties-button =
+    .label = Tulajdonságok
+    .accesskey = u
+ab-search-dialog-compose-button =
+    .label = Új üzenet
+    .accesskey = z
+ab-search-dialog-delete-button =
+    .label = Törlés
+    .accesskey = T
+ab-search-dialog-title = Összetett keresés a címjegyzékben
+ab-search-dialog-close-cmd =
+    .key = W

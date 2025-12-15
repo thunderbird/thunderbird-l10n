@@ -314,3 +314,37 @@ about-addressbook-photo-save = Desa
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = n
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Cerca
+    .accesskey = C
+ab-search-dialog-reset-button =
+    .label = Esborra
+    .accesskey = B
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] S'ha trobat { $count } coincidència
+           *[other] S'han trobat { $count } coincidències
+        }
+ab-search-dialog-no-matches-found =
+    .value = No s'ha trobat cap coincidència
+ab-search-dialog-search-heading =
+    .label = Cerca a:
+    .accesskey = e
+ab-search-dialog-properties-button =
+    .label = Propietats
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = Redacta
+    .accesskey = d
+ab-search-dialog-delete-button =
+    .label = Suprimeix
+    .accesskey = u
+ab-search-dialog-title = Cerca avançada de la llibreta d'adreces
+ab-search-dialog-close-cmd =
+    .key = W

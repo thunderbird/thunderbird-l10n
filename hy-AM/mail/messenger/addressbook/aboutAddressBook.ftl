@@ -127,3 +127,37 @@ about-addressbook-photo-save = Պահել
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Որոնում
+    .accesskey = Փ
+ab-search-dialog-reset-button =
+    .label = Մաքրել
+    .accesskey = C
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } գտնված համընկնում
+           *[other] { $count } գտնված համընկումներ
+        }
+ab-search-dialog-no-matches-found =
+    .value = Չի գտնվել
+ab-search-dialog-search-heading =
+    .label = Որոնել հետևյալում.
+    .accesskey = լ
+ab-search-dialog-properties-button =
+    .label = Հատկություններ
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = Գրել
+    .accesskey = W
+ab-search-dialog-delete-button =
+    .label = Ջնջել
+    .accesskey = Ջ
+ab-search-dialog-title = Ընդլայնված որոնում Հասցեագրքում
+ab-search-dialog-close-cmd =
+    .key = W

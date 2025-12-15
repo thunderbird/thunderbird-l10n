@@ -326,3 +326,38 @@ about-addressbook-photo-save = Сохранить
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Найти
+    .accesskey = Н
+ab-search-dialog-reset-button =
+    .label = Очистить
+    .accesskey = и
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] Найдено { $count } совпадение
+            [few] Найдено { $count } совпадения
+           *[many] Найдено { $count } совпадений
+        }
+ab-search-dialog-no-matches-found =
+    .value = Совпадений не найдено
+ab-search-dialog-search-heading =
+    .label = Место поиска:
+    .accesskey = с
+ab-search-dialog-properties-button =
+    .label = Свойства
+    .accesskey = о
+ab-search-dialog-compose-button =
+    .label = Создать
+    .accesskey = з
+ab-search-dialog-delete-button =
+    .label = Удалить
+    .accesskey = а
+ab-search-dialog-title = Расширенный режим поиска в адресной книге
+ab-search-dialog-close-cmd =
+    .key = W
