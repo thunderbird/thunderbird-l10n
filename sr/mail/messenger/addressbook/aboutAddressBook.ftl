@@ -146,6 +146,12 @@ about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog
 
+ab-search-dialog-search-button =
+    .label = Претражи
+    .accesskey = П
+ab-search-dialog-reset-button =
+    .label = Очисти
+    .accesskey = с
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -157,3 +163,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = Нема подударања
+ab-search-dialog-search-heading =
+    .label = Тражи у:
+    .accesskey = и
+ab-search-dialog-properties-button =
+    .label = Својства
+    .accesskey = С
+ab-search-dialog-compose-button =
+    .label = Пиши
+    .accesskey = П
+ab-search-dialog-delete-button =
+    .label = Обриши
+    .accesskey = б
+ab-search-dialog-title = Напредна претрага именика
+ab-search-dialog-close-cmd =
+    .key = W
