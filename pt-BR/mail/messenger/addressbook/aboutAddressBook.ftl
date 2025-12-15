@@ -331,3 +331,5 @@ ab-search-dialog-matches-found =
             [one] { $count } contato encontrado
            *[other] { $count } contatos encontrados
         }
+ab-search-dialog-no-matches-found =
+    .value = Nenhum foi encontrado
