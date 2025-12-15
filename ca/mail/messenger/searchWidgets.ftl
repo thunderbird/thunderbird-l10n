@@ -22,6 +22,11 @@ search-attrib-street = Carrer
 search-attrib-title = Títol
 search-attrib-organization = Organització
 search-attrib-department = Departament
+search-attrib-from-to-cc-or-bcc = Remitent, A, Cc o Cco
+search-attrib-attachment-status = Estat de l'adjunció
+search-attrib-label = Etiqueta
+search-attrib-customize = Personalitza…
+search-attrib-missing-custom-term = Falta el terme personalitzat
 
 ## Search Operators
 
@@ -61,6 +66,14 @@ search-val-has-attachments =
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Afegeix una regla nova
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Suprimeix aquesta regla
 
 ## Search Term List
 
