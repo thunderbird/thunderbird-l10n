@@ -3,6 +3,12 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -27,3 +33,15 @@ search-val-flag-starred =
     .label = Жұлдызы бар
 search-val-spam =
     .label = Спам
+
+## Buttons
+
+
+## Search Term List
+
+search-match-any =
+    .label = Келесі шарттардың кез келгеніне сай сәйкестеу
+    .accesskey = е
+search-match-all-msgs =
+    .label = Барлық хабарламаларды сәйкестеу
+    .accesskey = м
