@@ -139,6 +139,20 @@ folder-name-all-mail = 所有郵件
 menu-file-save-as-file =
     .label = 檔案…
     .accesskey = F
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [1] 壓實重整郵件匣
+           *[other] 壓實重整郵件匣
+        }
+    .accesskey = 壓
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = 壓實重整所有資料夾
+    .accesskey = 壓
 
 ## Edit Menu
 

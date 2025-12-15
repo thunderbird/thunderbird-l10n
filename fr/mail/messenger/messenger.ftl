@@ -140,6 +140,21 @@ folder-name-all-mail = Tous les messages
 menu-file-save-as-file =
     .label = Fichier…
     .accesskey = F
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [1] Compacter un dossier
+            [one] Compacter les dossiers
+           *[other] Compacter les dossiers
+        }
+    .accesskey = C
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = Compacter tous les dossiers
+    .accesskey = C
 
 ## Edit Menu
 

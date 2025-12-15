@@ -491,3 +491,17 @@ folder-pane-context-mark-folder-read =
 folder-pane-context-reset-sort =
     .label = 重設信件匣順序
     .accesskey = R
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+folder-pane-context-compact =
+    .label =
+        { $count ->
+            [1] 壓實重整郵件匣
+           *[other] 壓實重整郵件匣
+        }
+    .accesskey = 壓
+# One or more servers selected for compacting ALL their folders. Only this or
+# folder-pane-context-compact string will appear at a time, not both.
+folder-pane-context-compact-all =
+    .label = 壓實重整所有資料夾
+    .accesskey = 壓
