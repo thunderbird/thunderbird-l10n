@@ -3,6 +3,12 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -25,3 +31,15 @@ search-val-flag-forwarded =
     .label = Pārsūtīja
 search-val-flag-starred =
     .label = Zvaigžņoja
+
+## Buttons
+
+
+## Search Term List
+
+search-match-any =
+    .label = Atbilst jebkuram no šiem
+    .accesskey = j
+search-match-all-msgs =
+    .label = Atbilst visām vēstulēm
+    .accesskey = a
