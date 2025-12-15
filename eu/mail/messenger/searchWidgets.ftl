@@ -22,6 +22,11 @@ search-attrib-street = Kalea
 search-attrib-title = Titulua
 search-attrib-organization = Erakundea
 search-attrib-department = Saila
+search-attrib-from-to-cc-or-bcc = Nork, Nori, Cc edo Bcc
+search-attrib-attachment-status = Eranskinaren egoera
+search-attrib-label = Etiketa
+search-attrib-customize = Pertsonalizatu…
+search-attrib-missing-custom-term = Termino pertsonalizatua falta da
 
 ## Search Operators
 
@@ -48,9 +53,29 @@ search-val-flag-forwarded =
     .label = Birbidalita
 search-val-flag-starred =
     .label = Izarduna
+search-val-spam-score-origin-plugin =
+    .label = Plugin-a
+search-val-spam-score-origin-filter =
+    .label = Iragazkia
+search-val-spam-score-origin-allowlist =
+    .label = Onartuen zerrenda
+search-val-spam-score-origin-user =
+    .label = Erabiltzailea
+search-val-spam-score-origin-imap-flag =
+    .label = IMAP marka
+search-val-has-attachments =
+    .label = Eranskinak ditu
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Gehitu arau berri bat
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Ezabatu arau hau
 
 ## Search Term List
 
