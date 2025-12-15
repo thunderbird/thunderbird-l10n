@@ -22,6 +22,11 @@ search-attrib-street = Street
 search-attrib-title = Title
 search-attrib-organization = Organization
 search-attrib-department = Department
+search-attrib-from-to-cc-or-bcc = From, To, Cc or Bcc
+search-attrib-attachment-status = Attachment Status
+search-attrib-label = Label
+search-attrib-customize = Customize…
+search-attrib-missing-custom-term = Missing Custom Term
 
 ## Search Operators
 
@@ -61,6 +66,14 @@ search-val-has-attachments =
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = ਨਵਾਂ ਨਿਯਮ ਸ਼ਾਮਿਲ ਕਰੋ
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = ਇਹ ਨਿਯਮ ਹਟਾਓ
 
 ## Search Term List
 
