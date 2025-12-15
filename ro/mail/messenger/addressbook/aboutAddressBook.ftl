@@ -338,3 +338,5 @@ ab-search-dialog-matches-found =
             [few] { $count } rezultate găsite
            *[other] { $count } de rezultate găsite
         }
+ab-search-dialog-no-matches-found =
+    .value = Nicio fișă găsită
