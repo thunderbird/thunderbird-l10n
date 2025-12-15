@@ -48,6 +48,16 @@ search-val-flag-forwarded =
     .label = Reenviat
 search-val-flag-starred =
     .label = Destacat
+search-val-spam-score-origin-plugin =
+    .label = Connector
+search-val-spam-score-origin-filter =
+    .label = Filtre
+search-val-spam-score-origin-user =
+    .label = Usuari
+search-val-spam-score-origin-imap-flag =
+    .label = Etiqueta IMAP
+search-val-has-attachments =
+    .label = Té adjuncions
 
 ## Buttons
 
