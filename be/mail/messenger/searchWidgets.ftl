@@ -5,6 +5,24 @@
 
 ## Search Attributes
 
+search-attrib-any-name = Любое імя
+search-attrib-display-name = Бачнае імя
+search-attrib-nickname = Псеўданім
+search-attrib-email = Электронная пошта
+search-attrib-additional-email = Дадатковая электронная пошта
+search-attrib-any-number = Любы нумар тэлефона
+search-attrib-work-phone = Працоўны тэлефон
+search-attrib-home-phone = Хатні тэлефон
+search-attrib-fax = Факс
+search-attrib-pager = Пэйджар
+search-attrib-mobile = Мабільны
+search-attrib-city = Горад
+search-attrib-street = Вуліца
+search-attrib-title = Пасада
+search-attrib-organization = Установа
+search-attrib-department = Дэпартамент
+search-attrib-from-to-cc-or-bcc = Ад, Каму, Копія або Схаваная Копія
+search-attrib-customize = Персаналізаваць…
 
 ## Search Operators
 
