@@ -292,3 +292,5 @@ about-addressbook-new-contact-key = N
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
     .value = { $count }개 발견
+ab-search-dialog-no-matches-found =
+    .value = 검색 결과가 없습니다.
