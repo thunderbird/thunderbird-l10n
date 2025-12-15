@@ -5,6 +5,18 @@
 
 ## Search Attributes
 
+search-attrib-subject = Emne
+search-attrib-from = Avsender
+search-attrib-body = Meldingstekst
+search-attrib-date = Dato
+search-attrib-priority = Prioritet
+search-attrib-status = Status
+search-attrib-to = Til
+search-attrib-cc = Kopi
+search-attrib-to-or-cc = Til eller Kopi
+search-attrib-age-in-days = Alder i dager
+search-attrib-size-kb = Størrelse (KB)
+search-attrib-tags = Etiketter
 search-attrib-any-name = Et navn
 search-attrib-display-name = Fullt navn
 search-attrib-nickname = Kallenavn
@@ -23,13 +35,37 @@ search-attrib-title = Tittel
 search-attrib-organization = Organisasjon
 search-attrib-department = Avdeling
 search-attrib-from-to-cc-or-bcc = Fra, Til, Kopi eller Blindkopi
+search-attrib-spam-score-origin = Opprinnelse for søppelpostpoengsum
+search-attrib-spam-percent = Søppelpostprosent
 search-attrib-attachment-status = Vedleggstatus
+search-attrib-spam-status = Status for søppelpost
 search-attrib-label = Etikett
 search-attrib-customize = Tilpass …
 search-attrib-missing-custom-term = Mangler tilpasset term
 
 ## Search Operators
 
+search-op-contains = inneholder
+search-op-doesnt-contain = inneholder ikke
+search-op-is = er
+search-op-isnt = er ikke
+search-op-is-empty = er tom
+search-op-is-before = er før
+search-op-is-after = er etter
+search-op-is-higher-than = er høyere enn
+search-op-is-lower-than = er lavere enn
+search-op-begins-with = starter med
+search-op-ends-with = slutter med
+search-op-sounds-like = høres ut som
+search-op-ldap-dwim = LdapDwim
+search-op-is-greater-than = er større enn
+search-op-is-less-than = er mindre enn
+search-op-name-completion = NameCompletion
+search-op-is-in-ab = er i adresseboken
+search-op-isnt-in-ab = er ikke i adresseboken
+search-op-isnt-empty = er ikke tom
+search-op-matches = passer
+search-op-doesnt-match = passer ikke
 
 ## Search Values
 
@@ -81,6 +117,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-all =
+    .label = Alle reglene passer
+    .accesskey = A
 search-match-any =
     .label = En av reglene passer
     .accesskey = E
