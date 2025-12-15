@@ -3,6 +3,12 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -27,3 +33,12 @@ search-val-flag-starred =
     .label = Με αστέρι
 search-val-spam =
     .label = Ανεπιθύμητο
+
+## Buttons
+
+
+## Search Term List
+
+search-match-any =
+    .label = Αντιστοίχιση οποιωνδήποτε από τα παρακάτω
+    .accesskey = π
