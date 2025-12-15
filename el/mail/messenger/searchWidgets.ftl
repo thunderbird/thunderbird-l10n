@@ -5,6 +5,28 @@
 
 ## Search Attributes
 
+search-attrib-any-name = Οποιοδήποτε όνομα
+search-attrib-display-name = Εμφανιζόμενο όνομα
+search-attrib-nickname = Ψευδώνυμο
+search-attrib-screen-name = Εμφανιζόμενο όνομα
+search-attrib-email = Email
+search-attrib-additional-email = Επιπρόσθετο email
+search-attrib-any-number = Οποιοσδήποτε αριθμός
+search-attrib-work-phone = Τηλέφωνο εργασίας
+search-attrib-home-phone = Τηλέφωνο οικίας
+search-attrib-fax = Φαξ
+search-attrib-pager = Βομβητής
+search-attrib-mobile = Κινητό
+search-attrib-city = Πόλη
+search-attrib-street = Οδός
+search-attrib-title = Τίτλος
+search-attrib-organization = Εταιρεία
+search-attrib-department = Τμήμα
+search-attrib-from-to-cc-or-bcc = Από, Προς, Κοιν. ή Κρυφή κοιν.
+search-attrib-attachment-status = Κατάσταση συνημμένου
+search-attrib-label = Ετικέτα
+search-attrib-customize = Προσαρμογή…
+search-attrib-missing-custom-term = Λείπει ο προσαρμοσμένος όρος
 
 ## Search Operators
 
