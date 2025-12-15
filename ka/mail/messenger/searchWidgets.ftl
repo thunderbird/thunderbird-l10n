@@ -22,6 +22,11 @@ search-attrib-street = ქუჩა
 search-attrib-title = თანამდებობა
 search-attrib-organization = დაწესებულება
 search-attrib-department = განყოფილება
+search-attrib-from-to-cc-or-bcc = ვისგან, ვის, ასლი ან ფარული ასლი
+search-attrib-attachment-status = დანართის მდგომარეობა
+search-attrib-label = წარწერა
+search-attrib-customize = მორგება…
+search-attrib-missing-custom-term = მცდარი საკუთარი პირობა
 
 ## Search Operators
 
@@ -50,9 +55,29 @@ search-val-flag-starred =
     .label = ალმიანი
 search-val-spam =
     .label = ჯართი
+search-val-spam-score-origin-plugin =
+    .label = მოდული
+search-val-spam-score-origin-filter =
+    .label = ფილტრი
+search-val-spam-score-origin-allowlist =
+    .label = ნებადართული
+search-val-spam-score-origin-user =
+    .label = მომხმარებელი
+search-val-spam-score-origin-imap-flag =
+    .label = IMAP ალამი
+search-val-has-attachments =
+    .label = აქვს დანართი
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = ახალი წესის დამატება
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = წესის გაუქმება
 
 ## Search Term List
 
