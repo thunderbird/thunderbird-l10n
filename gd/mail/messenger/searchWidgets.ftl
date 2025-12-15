@@ -3,6 +3,34 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+search-attrib-any-name = Ainm sam bith
+search-attrib-display-name = Ainm-taisbeanaidh
+search-attrib-nickname = Far-ainm
+search-attrib-screen-name = Ainm-sgrìn
+search-attrib-email = Post-dealain
+search-attrib-additional-email = Post-dealain eile
+search-attrib-any-number = Àireamh sam bith
+search-attrib-work-phone = Fòn na h-obrach
+search-attrib-home-phone = Fòn na dachaighe
+search-attrib-fax = Facs
+search-attrib-pager = Pèidsear
+search-attrib-mobile = Fòn-làimhe
+search-attrib-city = Baile
+search-attrib-street = Sràid
+search-attrib-title = Tiotal
+search-attrib-organization = Buidheann
+search-attrib-department = Roinn
+search-attrib-from-to-cc-or-bcc = O, Gu, Cc no Bcc
+search-attrib-attachment-status = Cor a' cheanglachain
+search-attrib-label = Leubail
+search-attrib-customize = Gnàthaich…
+search-attrib-missing-custom-term = Briathair gnàthaichte a dhìth
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -25,3 +53,9 @@ search-val-flag-forwarded =
     .label = Air a shìneadh air adhart
 search-val-flag-starred =
     .label = Le rionnag ris
+
+## Buttons
+
+
+## Search Term List
+
