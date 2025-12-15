@@ -323,6 +323,9 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Sykje
     .accesskey = S
+ab-search-dialog-reset-button =
+    .label = Wiskje
+    .accesskey = W
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -333,3 +336,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = Gjin oerienkomsten fûn
+ab-search-dialog-search-heading =
+    .label = Adressen sykje yn:
+    .accesskey = k
+ab-search-dialog-properties-button =
+    .label = Eigenskippen
+    .accesskey = E
+ab-search-dialog-compose-button =
+    .label = Opstelle
+    .accesskey = O
+ab-search-dialog-delete-button =
+    .label = Fuortsmite
+    .accesskey = F
+ab-search-dialog-title = Adresboek wiidweidich trochsykje
+ab-search-dialog-close-cmd =
+    .key = W
