@@ -331,3 +331,5 @@ ab-search-dialog-matches-found =
             [one] { $count } overeenkomst gevonden
            *[other] { $count } overeenkomsten gevonden
         }
+ab-search-dialog-no-matches-found =
+    .value = Geen overeenkomsten gevonden
