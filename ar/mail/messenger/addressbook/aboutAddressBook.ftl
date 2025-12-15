@@ -34,3 +34,15 @@
 ab-search-dialog-search-button =
     .label = ابحث
     .accesskey = ب
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [zero] عُثر على { $count } تطابق
+            [one] عُثر على تطابق واحد
+            [two] عُثر على تطابقين
+            [few] عُثر على { $count } تطابقات
+            [many] عُثر على { $count } تطابقًا
+           *[other] عُثر على { $count } تطابق
+        }
