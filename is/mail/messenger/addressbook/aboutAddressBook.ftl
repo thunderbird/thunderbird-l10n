@@ -323,6 +323,9 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Leita
     .accesskey = L
+ab-search-dialog-reset-button =
+    .label = Hreinsa
+    .accesskey = H
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -333,3 +336,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = Engin samsvörun fannst
+ab-search-dialog-search-heading =
+    .label = Leita í:
+    .accesskey = L
+ab-search-dialog-properties-button =
+    .label = Eiginleikar
+    .accesskey = E
+ab-search-dialog-compose-button =
+    .label = Skrifa
+    .accesskey = S
+ab-search-dialog-delete-button =
+    .label = Eyða
+    .accesskey = ð
+ab-search-dialog-title = Ítarleg nafnaskrá leit
+ab-search-dialog-close-cmd =
+    .key = W
