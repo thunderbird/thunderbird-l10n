@@ -58,6 +58,14 @@ search-val-spam =
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Ajouter une nouvelle règle
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Supprimer cette règle
 
 ## Search Term List
 
