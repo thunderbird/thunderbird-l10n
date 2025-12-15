@@ -103,3 +103,5 @@ ab-search-dialog-matches-found =
             [one] נמצאה התאמה אחת
            *[other] נמצאו { $count } התאמות
         }
+ab-search-dialog-no-matches-found =
+    .value = לא נמצאו התאמות
