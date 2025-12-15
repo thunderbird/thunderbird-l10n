@@ -75,3 +75,5 @@ ab-search-dialog-matches-found =
             [many] { $count } a genglotadurioù kavet
            *[other] { $count } kenglotadur kavet
         }
+ab-search-dialog-no-matches-found =
+    .value = kenglotadur ebet kavet
