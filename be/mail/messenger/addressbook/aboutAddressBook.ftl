@@ -38,6 +38,9 @@ about-addressbook-new-list-action-button = Новы спіс
 ab-search-dialog-search-button =
     .label = Пошук
     .accesskey = ш
+ab-search-dialog-reset-button =
+    .label = Ачысціць
+    .accesskey = ч
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -49,3 +52,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = Супадзенні не знойдзены
+ab-search-dialog-search-heading =
+    .label = Шукаць у:
+    .accesskey = Ш
+ab-search-dialog-properties-button =
+    .label = Уласцівасці
+    .accesskey = л
+ab-search-dialog-compose-button =
+    .label = Стварыць
+    .accesskey = С
+ab-search-dialog-delete-button =
+    .label = Выдаліць
+    .accesskey = д
+ab-search-dialog-title = Пашыраны рэжым пошуку ў адраснай кнізе
+ab-search-dialog-close-cmd =
+    .key = W
