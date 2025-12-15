@@ -331,3 +331,5 @@ ab-search-dialog-matches-found =
             [one] { $count } vastaavuus löytyi
            *[other] { $count } vastaavuutta löytyi
         }
+ab-search-dialog-no-matches-found =
+    .value = Ei yhtään osumaa
