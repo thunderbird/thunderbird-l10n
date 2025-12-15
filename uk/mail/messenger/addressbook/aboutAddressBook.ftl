@@ -341,3 +341,5 @@ ab-search-dialog-matches-found =
             [few] { $count } збіги знайдено
            *[many] { $count } збігів знайдено
         }
+ab-search-dialog-no-matches-found =
+    .value = Збігів не знайдено
