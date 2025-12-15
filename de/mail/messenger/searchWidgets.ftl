@@ -5,6 +5,11 @@
 
 ## Search Attributes
 
+search-attrib-from-to-cc-or-bcc = Von, An, CC oder BCC
+search-attrib-attachment-status = Anhang-Status
+search-attrib-label = Schlagwort
+search-attrib-customize = Anpassen…
+search-attrib-missing-custom-term = Benutzerdefinierte Bedingung fehlt
 
 ## Search Operators
 
@@ -33,9 +38,29 @@ search-val-flag-starred =
     .label = Gekennzeichnet
 search-val-spam =
     .label = Spam
+search-val-spam-score-origin-plugin =
+    .label = Plugin
+search-val-spam-score-origin-filter =
+    .label = Filter
+search-val-spam-score-origin-allowlist =
+    .label = Positivliste
+search-val-spam-score-origin-user =
+    .label = Anwender
+search-val-spam-score-origin-imap-flag =
+    .label = IMAP-Markierung
+search-val-has-attachments =
+    .label = Enthält Anhänge
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Neue Bedingung hinzufügen
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Diese Bedingung entfernen
 
 ## Search Term List
 
