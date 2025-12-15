@@ -299,9 +299,27 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Tìm kiếm
     .accesskey = S
+ab-search-dialog-reset-button =
+    .label = Xóa trắng
+    .accesskey = C
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
     .value = { $count } kết quả phù hợp
 ab-search-dialog-no-matches-found =
     .value = Không tìm thấy
+ab-search-dialog-search-heading =
+    .label = Tìm kiếm trong:
+    .accesskey = h
+ab-search-dialog-properties-button =
+    .label = Thuộc tính
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = Viết thư
+    .accesskey = W
+ab-search-dialog-delete-button =
+    .label = Xóa
+    .accesskey = D
+ab-search-dialog-title = Tìm kiếm sổ địa chỉ nâng cao
+ab-search-dialog-close-cmd =
+    .key = W
