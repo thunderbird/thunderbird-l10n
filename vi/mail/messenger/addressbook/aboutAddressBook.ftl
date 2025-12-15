@@ -299,3 +299,9 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Tìm kiếm
     .accesskey = S
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value = { $count } kết quả phù hợp
+ab-search-dialog-no-matches-found =
+    .value = Không tìm thấy
