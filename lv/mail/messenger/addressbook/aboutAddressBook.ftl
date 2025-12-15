@@ -40,3 +40,5 @@ ab-search-dialog-matches-found =
             [one] atrastas { $count } atbilstības
            *[other] atrastas { $count } atbilstības
         }
+ab-search-dialog-no-matches-found =
+    .value = Atbilstība nav atrasta
