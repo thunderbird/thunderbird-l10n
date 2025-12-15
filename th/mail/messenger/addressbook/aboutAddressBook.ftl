@@ -288,9 +288,30 @@ about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog
 
+ab-search-dialog-search-button =
+    .label = ค้นหา
+    .accesskey = ค
+ab-search-dialog-reset-button =
+    .label = ล้าง
+    .accesskey = ล
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
     .value = พบ { $count } ที่ตรงกัน
 ab-search-dialog-no-matches-found =
     .value = ไม่พบที่ตรงกัน
+ab-search-dialog-search-heading =
+    .label = ค้นหาใน:
+    .accesskey = ค
+ab-search-dialog-properties-button =
+    .label = คุณสมบัติ
+    .accesskey = ส
+ab-search-dialog-compose-button =
+    .label = เขียน
+    .accesskey = ข
+ab-search-dialog-delete-button =
+    .label = ลบ
+    .accesskey = ล
+ab-search-dialog-title = การค้นหาสมุดรายชื่อขั้นสูง
+ab-search-dialog-close-cmd =
+    .key = W
