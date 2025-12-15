@@ -39,6 +39,9 @@ search-val-spam =
 
 ## Search Term List
 
+search-match-any =
+    .label = Выполнении любого из условий
+    .accesskey = л
 search-match-all-msgs =
     .label = Без каких-либо условий
     .accesskey = е
