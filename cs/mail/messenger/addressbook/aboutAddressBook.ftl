@@ -336,3 +336,9 @@ about-addressbook-photo-save = Uložit
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Hledat
+    .accesskey = H
