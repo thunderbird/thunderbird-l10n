@@ -58,6 +58,14 @@ search-val-spam =
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Thêm một quy tắc mới
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Xóa quy luật này
 
 ## Search Term List
 
