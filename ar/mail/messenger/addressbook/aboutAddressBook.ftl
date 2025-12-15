@@ -34,6 +34,9 @@
 ab-search-dialog-search-button =
     .label = ابحث
     .accesskey = ب
+ab-search-dialog-reset-button =
+    .label = امسح
+    .accesskey = م
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -48,3 +51,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = لا تطابقات
+ab-search-dialog-search-heading =
+    .label = ابحث في:
+    .accesskey = ث
+ab-search-dialog-properties-button =
+    .label = الخصائص
+    .accesskey = خ
+ab-search-dialog-compose-button =
+    .label = اكتب
+    .accesskey = ك
+ab-search-dialog-delete-button =
+    .label = احذف
+    .accesskey = ذ
+ab-search-dialog-title = بحث متقدّم في دفتر العناوين
+ab-search-dialog-close-cmd =
+    .key = W
