@@ -3,10 +3,24 @@
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Toolbar
+
+
 ## Books
 
 about-addressbook-books-context-synchronize =
     .label = Сінхранізаваць
+
+## Cards
+
+
+## Card column headers
+## Each string is listed here twice, and the values should match.
+
+
+## Card list placeholder
+## Shown when there are no cards in the list
+
 
 ## Details
 
@@ -18,3 +32,17 @@ about-addressbook-new-list-action-button = Новы спіс
 
 # Keyboard shortcuts
 
+
+## Address Book Search Dialog
+
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] знойдзена { $count } супадзенне
+            [few] знойдзены { $count } супадзенні
+           *[many] знойдзена { $count } супадзенняў
+        }
+ab-search-dialog-no-matches-found =
+    .value = Супадзенні не знойдзены
