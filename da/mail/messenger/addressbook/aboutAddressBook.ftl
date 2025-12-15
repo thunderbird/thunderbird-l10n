@@ -317,3 +317,16 @@ about-addressbook-photo-save = Gem
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } forekomst fundet
+           *[other] { $count } forekomster fundet
+        }
+ab-search-dialog-no-matches-found =
+    .value = Ingen forekomster fundet
