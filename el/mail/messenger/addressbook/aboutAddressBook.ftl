@@ -325,3 +325,5 @@ ab-search-dialog-matches-found =
             [one] Βρέθηκε { $count } αντιστοιχία
            *[other] Βρέθηκαν { $count } αντιστοιχίες
         }
+ab-search-dialog-no-matches-found =
+    .value = Δεν βρέθηκαν αντιστοιχίες
