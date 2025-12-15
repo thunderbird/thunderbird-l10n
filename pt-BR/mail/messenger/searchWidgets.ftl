@@ -22,6 +22,11 @@ search-attrib-street = Rua
 search-attrib-title = Cargo
 search-attrib-organization = Organização
 search-attrib-department = Setor
+search-attrib-from-to-cc-or-bcc = De, Para, Cc ou Cco
+search-attrib-attachment-status = Existência de anexos
+search-attrib-label = Label
+search-attrib-customize = Personalizar…
+search-attrib-missing-custom-term = Termo personalizado ausente
 
 ## Search Operators
 
@@ -50,6 +55,18 @@ search-val-flag-starred =
     .label = Com estrela
 search-val-spam =
     .label = Spam
+search-val-spam-score-origin-plugin =
+    .label = Plugin
+search-val-spam-score-origin-filter =
+    .label = Filtro
+search-val-spam-score-origin-allowlist =
+    .label = Lista de permissões
+search-val-spam-score-origin-user =
+    .label = Usuário
+search-val-spam-score-origin-imap-flag =
+    .label = Sinalização IMAP
+search-val-has-attachments =
+    .label = Com anexos
 
 ## Buttons
 
