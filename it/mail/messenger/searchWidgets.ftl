@@ -33,6 +33,14 @@ search-val-flag-starred =
     .label = Speciale
 search-val-spam =
     .label = Spam
+search-val-spam-score-origin-allowlist =
+    .label = Lista consentiti
+search-val-spam-score-origin-user =
+    .label = Utente
+search-val-spam-score-origin-imap-flag =
+    .label = IMAP Flag
+search-val-has-attachments =
+    .label = Contiene allegati
 
 ## Buttons
 
