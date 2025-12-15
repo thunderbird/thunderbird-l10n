@@ -5,6 +5,18 @@
 
 ## Search Attributes
 
+search-attrib-subject = 主旨
+search-attrib-from = 從
+search-attrib-body = 內文
+search-attrib-date = 日期
+search-attrib-priority = 重要性
+search-attrib-status = 狀態
+search-attrib-to = 到
+search-attrib-cc = 副本
+search-attrib-to-or-cc = 正副本收件者 (To/Cc)
+search-attrib-age-in-days = 發信日數
+search-attrib-size-kb = 大小 (KB)
+search-attrib-tags = 標籤
 search-attrib-any-name = 任何名稱
 search-attrib-display-name = 顯示名稱
 search-attrib-nickname = 暱稱
@@ -23,13 +35,37 @@ search-attrib-title = 頭銜
 search-attrib-organization = 公司
 search-attrib-department = 部門
 search-attrib-from-to-cc-or-bcc = 寄件者、收件者、副本或密件副本收件者
+search-attrib-spam-score-origin = 垃圾分數來源
+search-attrib-spam-percent = 垃圾信百分比
 search-attrib-attachment-status = 附件狀態
+search-attrib-spam-status = 垃圾信狀態
 search-attrib-label = 標籤
 search-attrib-customize = 自訂…
 search-attrib-missing-custom-term = 遺失的自訂條件
 
 ## Search Operators
 
+search-op-contains = 包含
+search-op-doesnt-contain = 不包含
+search-op-is = 是
+search-op-isnt = 不是
+search-op-is-empty = 是空的
+search-op-is-before = 早於
+search-op-is-after = 晚於
+search-op-is-higher-than = 高於
+search-op-is-lower-than = 低於
+search-op-begins-with = 開始於
+search-op-ends-with = 結束於
+search-op-sounds-like = 聽起來像
+search-op-ldap-dwim = LdapDwim
+search-op-is-greater-than = 大於
+search-op-is-less-than = 小於
+search-op-name-completion = 名稱自動完成
+search-op-is-in-ab = 在我的通訊錄中
+search-op-isnt-in-ab = 不在我的通訊錄中
+search-op-isnt-empty = 不是空的
+search-op-matches = 符合
+search-op-doesnt-match = 不符合
 
 ## Search Values
 
@@ -81,6 +117,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-all =
+    .label = 符合下列全部
+    .accesskey = a
 search-match-any =
     .label = 符合下列任一項
     .accesskey = o
