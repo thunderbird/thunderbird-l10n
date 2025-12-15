@@ -317,3 +317,17 @@ about-addressbook-photo-save = Mentés
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Keresés
+    .accesskey = K
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } találat van
+           *[other] { $count } találat van
+        }
