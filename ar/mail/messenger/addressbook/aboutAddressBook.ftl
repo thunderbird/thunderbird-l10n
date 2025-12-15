@@ -46,3 +46,5 @@ ab-search-dialog-matches-found =
             [many] عُثر على { $count } تطابقًا
            *[other] عُثر على { $count } تطابق
         }
+ab-search-dialog-no-matches-found =
+    .value = لا تطابقات
