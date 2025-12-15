@@ -5,6 +5,18 @@
 
 ## Search Attributes
 
+search-attrib-subject = თემა
+search-attrib-from = ვისგან
+search-attrib-body = შიგთავსი
+search-attrib-date = თარიღი
+search-attrib-priority = პრიორიტეტი
+search-attrib-status = სტატუსი
+search-attrib-to = ვის
+search-attrib-cc = ასლი
+search-attrib-to-or-cc = ვის ან ასლი
+search-attrib-age-in-days = ასაკი დღეებში
+search-attrib-size-kb = მოცულობა (კბ)
+search-attrib-tags = ჭდეები
 search-attrib-any-name = სახელი
 search-attrib-display-name = სახელის ასახვა
 search-attrib-nickname = მეტსახელი
@@ -23,13 +35,37 @@ search-attrib-title = თანამდებობა
 search-attrib-organization = დაწესებულება
 search-attrib-department = განყოფილება
 search-attrib-from-to-cc-or-bcc = ვისგან, ვის, ასლი ან ფარული ასლი
+search-attrib-spam-score-origin = ჯართად შეფასების წარმომავლობა
+search-attrib-spam-percent = ჯართის პროცენტი
 search-attrib-attachment-status = დანართის მდგომარეობა
+search-attrib-spam-status = ჯართად მიჩნევა
 search-attrib-label = წარწერა
 search-attrib-customize = მორგება…
 search-attrib-missing-custom-term = მცდარი საკუთარი პირობა
 
 ## Search Operators
 
+search-op-contains = შეიცავს
+search-op-doesnt-contain = არ შეიცავს
+search-op-is = ემთხვევა
+search-op-isnt = არ ემთხვევა
+search-op-is-empty = ცარიელია
+search-op-is-before = წინაა
+search-op-is-after = შემდეგაა
+search-op-is-higher-than = მეტია
+search-op-is-lower-than = ნაკლებია
+search-op-begins-with = იწყება
+search-op-ends-with = მთავრდება
+search-op-sounds-like = ჰგავს
+search-op-ldap-dwim = LdapDwim
+search-op-is-greater-than = მეტია
+search-op-is-less-than = ნაკლებია
+search-op-name-completion = სახელის დასრულება
+search-op-is-in-ab = არის ჩემს წიგნაკში
+search-op-isnt-in-ab = არ არის ჩემს წიგნაკში
+search-op-isnt-empty = ცარიელი არაა
+search-op-matches = ემთხვევა
+search-op-doesnt-match = არ ემთხვევა
 
 ## Search Values
 
@@ -81,6 +117,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-all =
+    .label = ემთხვევა ყველას შემდეგიდან
+    .accesskey = a
 search-match-any =
     .label = ემთხვევა რომელიმეს შემდეგიდან
     .accesskey = o
