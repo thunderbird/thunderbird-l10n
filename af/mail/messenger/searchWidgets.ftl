@@ -22,6 +22,11 @@ search-attrib-street = Straat
 search-attrib-title = Titel
 search-attrib-organization = Organisasie
 search-attrib-department = Afdeling
+search-attrib-from-to-cc-or-bcc = Van, Aan, CC of BCC
+search-attrib-attachment-status = Aanhegselstatus
+search-attrib-label = Etiket
+search-attrib-customize = Doelmaak…
+search-attrib-missing-custom-term = Vermiste doelgemaakte term
 
 ## Search Operators
 
