@@ -323,3 +323,5 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Sök
     .accesskey = S
+ab-search-dialog-no-matches-found =
+    .value = Inga matchningar hittades
