@@ -22,6 +22,11 @@ search-attrib-street = Ulice
 search-attrib-title = Pozice
 search-attrib-organization = Společnost
 search-attrib-department = Oddělení
+search-attrib-from-to-cc-or-bcc = Od, komu, kopie nebo skrytá kopie
+search-attrib-attachment-status = Stav přílohy
+search-attrib-label = Štítek
+search-attrib-customize = Přizpůsobit…
+search-attrib-missing-custom-term = Chybí vlastní výraz
 
 ## Search Operators
 
@@ -50,9 +55,27 @@ search-val-flag-starred =
     .label = S hvězdičkou
 search-val-spam =
     .label = Nevyžádaná
+search-val-spam-score-origin-plugin =
+    .label = Zásuvný modul
+search-val-spam-score-origin-filter =
+    .label = Filtr
+search-val-spam-score-origin-allowlist =
+    .label = Seznam povolených
+search-val-spam-score-origin-user =
+    .label = Uživatel
+search-val-spam-score-origin-imap-flag =
+    .label = Příznak IMAP
+search-val-has-attachments =
+    .label = Má přílohu
 
 ## Buttons
 
 
 ## Search Term List
 
+search-match-any =
+    .label = Odpovídající některému pravidlu
+    .accesskey = d
+search-match-all-msgs =
+    .label = Odpovídající všem zprávám
+    .accesskey = v
