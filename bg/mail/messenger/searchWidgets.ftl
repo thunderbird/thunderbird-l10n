@@ -5,6 +5,18 @@
 
 ## Search Attributes
 
+search-attrib-subject = Тема
+search-attrib-from = От
+search-attrib-body = Текст
+search-attrib-date = Дата
+search-attrib-priority = Приоритет
+search-attrib-status = Състояние
+search-attrib-to = До
+search-attrib-cc = Копие
+search-attrib-to-or-cc = До или Копие
+search-attrib-age-in-days = Възраст в дни
+search-attrib-size-kb = Размер (Кб)
+search-attrib-tags = Етикети
 search-attrib-any-name = Всякакво име
 search-attrib-display-name = Показвано име
 search-attrib-nickname = Псевдоним
@@ -23,13 +35,37 @@ search-attrib-title = Заглавие
 search-attrib-organization = Организация
 search-attrib-department = Отдел
 search-attrib-from-to-cc-or-bcc = От, До, Копие или Скрито
+search-attrib-spam-score-origin = Източник на рейтинг за нежелана поща
+search-attrib-spam-percent = Процент на нежелана поща
 search-attrib-attachment-status = Наличие на прикачен файл
+search-attrib-spam-status = Състояние на нежеланата поща
 search-attrib-label = Етикет
 search-attrib-customize = Персонализация…
 search-attrib-missing-custom-term = Липсващ потребителски термин
 
 ## Search Operators
 
+search-op-contains = съдържа
+search-op-doesnt-contain = не съдържа
+search-op-is = е
+search-op-isnt = не е
+search-op-is-empty = е празно
+search-op-is-before = е преди
+search-op-is-after = е след
+search-op-is-higher-than = е по-висок от
+search-op-is-lower-than = е по-нисък от
+search-op-begins-with = започва с
+search-op-ends-with = завършва на
+search-op-sounds-like = звучи като
+search-op-ldap-dwim = LdapDwim
+search-op-is-greater-than = е по-голям от
+search-op-is-less-than = е по-малък от
+search-op-name-completion = NameCompletion
+search-op-is-in-ab = е в моя адресник
+search-op-isnt-in-ab = не е в моя адресник
+search-op-isnt-empty = не е празно
+search-op-matches = съвпада
+search-op-doesnt-match = несъвпада
 
 ## Search Values
 
@@ -55,6 +91,18 @@ search-val-flag-starred =
     .label = Със звезда
 search-val-spam =
     .label = Нежелана поща
+search-val-spam-score-origin-plugin =
+    .label = Приставка
+search-val-spam-score-origin-filter =
+    .label = Филтър
+search-val-spam-score-origin-allowlist =
+    .label = Списък с разрешени
+search-val-spam-score-origin-user =
+    .label = Потребител
+search-val-spam-score-origin-imap-flag =
+    .label = IMAP флаг
+search-val-has-attachments =
+    .label = Имат прикачени файлове
 
 ## Buttons
 
@@ -69,6 +117,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-all =
+    .label = Съвпадат с всички
+    .accesskey = в
 search-match-any =
     .label = Съвпадат с някое
     .accesskey = н
