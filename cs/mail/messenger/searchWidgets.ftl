@@ -5,6 +5,18 @@
 
 ## Search Attributes
 
+search-attrib-subject = Předmět
+search-attrib-from = Od
+search-attrib-body = Tělo
+search-attrib-date = Datum
+search-attrib-priority = Priorita
+search-attrib-status = Stav
+search-attrib-to = Komu
+search-attrib-cc = Kopie
+search-attrib-to-or-cc = Komu nebo kopie
+search-attrib-age-in-days = Stáří ve dnech
+search-attrib-size-kb = Velikost (KB)
+search-attrib-tags = Štítky
 search-attrib-any-name = Libovolné jméno
 search-attrib-display-name = Zobrazované jméno
 search-attrib-nickname = Přezdívka
@@ -23,13 +35,37 @@ search-attrib-title = Pozice
 search-attrib-organization = Společnost
 search-attrib-department = Oddělení
 search-attrib-from-to-cc-or-bcc = Od, komu, kopie nebo skrytá kopie
+search-attrib-spam-score-origin = Původ skóre nevyžádané pošty
+search-attrib-spam-percent = Procento nevyžádané pošty
 search-attrib-attachment-status = Stav přílohy
+search-attrib-spam-status = Stav nevyžádané pošty
 search-attrib-label = Štítek
 search-attrib-customize = Přizpůsobit…
 search-attrib-missing-custom-term = Chybí vlastní výraz
 
 ## Search Operators
 
+search-op-contains = obsahuje
+search-op-doesnt-contain = neobsahuje
+search-op-is = je
+search-op-isnt = není
+search-op-is-empty = je prázdný
+search-op-is-before = je před
+search-op-is-after = je za
+search-op-is-higher-than = je vyšší než
+search-op-is-lower-than = je nižší než
+search-op-begins-with = začíná na
+search-op-ends-with = končí na
+search-op-sounds-like = je podobný
+search-op-ldap-dwim = LdapDwim
+search-op-is-greater-than = je větší než
+search-op-is-less-than = je menší než
+search-op-name-completion = NameCompletion
+search-op-is-in-ab = je v kontaktech
+search-op-isnt-in-ab = není v kontaktech
+search-op-isnt-empty = není prázdný
+search-op-matches = odpovídá
+search-op-doesnt-match = neodpovídá
 
 ## Search Values
 
@@ -81,6 +117,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-all =
+    .label = Odpovídající všem pravidlům
+    .accesskey = O
 search-match-any =
     .label = Odpovídající některému pravidlu
     .accesskey = d
