@@ -304,3 +304,5 @@ ab-search-dialog-search-button =
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
     .value = { $count } 项匹配
+ab-search-dialog-no-matches-found =
+    .value = 无法找到符合条件的结果
