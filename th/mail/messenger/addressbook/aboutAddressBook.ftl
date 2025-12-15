@@ -285,3 +285,12 @@ about-addressbook-photo-save = บันทึก
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value = พบ { $count } ที่ตรงกัน
+ab-search-dialog-no-matches-found =
+    .value = ไม่พบที่ตรงกัน
