@@ -22,6 +22,8 @@ search-attrib-street = Strjitte
 search-attrib-title = Titel
 search-attrib-organization = Organisaasje
 search-attrib-department = Ofdieling
+search-attrib-from-to-cc-or-bcc = Fan, Nei, Cc of Bcc
+search-attrib-attachment-status = Bylagesteat
 
 ## Search Operators
 
