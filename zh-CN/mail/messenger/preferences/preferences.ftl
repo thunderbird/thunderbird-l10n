@@ -708,6 +708,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = 电子邮件端到端加密
 account-settings = 账户设置
+email-e2ee-enable-accounts-info = 在<a data-l10n-name="account-settings-url">账户设置</a>中设置端到端加密的电子邮件账户与身份。
 email-e2ee-enable-info = 在账户设置中为端到端加密设置电子邮件账户和身份。
 email-e2ee-automatism = 自动使用加密
 email-e2ee-automatism-pre =
