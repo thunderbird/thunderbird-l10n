@@ -5,6 +5,18 @@
 
 ## Search Attributes
 
+search-attrib-subject = A' chuspair
+search-attrib-from = O
+search-attrib-body = Bodhaig
+search-attrib-date = Ceann-là
+search-attrib-priority = Prìomhachas
+search-attrib-status = Staid
+search-attrib-to = Gu
+search-attrib-cc = Cc
+search-attrib-to-or-cc = Gu no Cc
+search-attrib-age-in-days = Aois ann an làithean
+search-attrib-size-kb = Meud (KB)
+search-attrib-tags = Tagaichean
 search-attrib-any-name = Ainm sam bith
 search-attrib-display-name = Ainm-taisbeanaidh
 search-attrib-nickname = Far-ainm
@@ -30,6 +42,27 @@ search-attrib-missing-custom-term = Briathair gnàthaichte a dhìth
 
 ## Search Operators
 
+search-op-contains = anns a bheil
+search-op-doesnt-contain = anns nach eil
+search-op-is = a tha
+search-op-isnt = nach eil
+search-op-is-empty = a tha falamh
+search-op-is-before = a tha ron
+search-op-is-after = a tha às dèidh
+search-op-is-higher-than = a tha nas àirde na
+search-op-is-lower-than = a tha nas ìsle na
+search-op-begins-with = a tha a' tòiseachadh le
+search-op-ends-with = a tha a' crìochnachadh le
+search-op-sounds-like = a tha an fhuaim air coltach ri
+search-op-ldap-dwim = LdapDwim
+search-op-is-greater-than = a tha nas motha na
+search-op-is-less-than = a tha nas lugha na
+search-op-name-completion = CoileanadhAinm
+search-op-is-in-ab = a tha ann an leabhar nan seòladh agam
+search-op-isnt-in-ab = nach eil ann an leabhar nan seòladh agam
+search-op-isnt-empty = nach eil falamh
+search-op-matches = a tha 'na sheise dha
+search-op-doesnt-match = nach eil 'na sheise dha
 
 ## Search Values
 
@@ -77,6 +110,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-all =
+    .label = Maidsich gach aon dhe na leanas
+    .accesskey = a
 search-match-any =
     .label = Maidsich gin de dhe na leanas
     .accesskey = n
