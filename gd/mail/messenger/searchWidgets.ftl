@@ -53,6 +53,16 @@ search-val-flag-forwarded =
     .label = Air a shìneadh air adhart
 search-val-flag-starred =
     .label = Le rionnag ris
+search-val-spam-score-origin-plugin =
+    .label = Plugan
+search-val-spam-score-origin-filter =
+    .label = Criathrag
+search-val-spam-score-origin-user =
+    .label = Cleachdaiche
+search-val-spam-score-origin-imap-flag =
+    .label = Bratach IMAP
+search-val-has-attachments =
+    .label = Tha ceanglachain ris
 
 ## Buttons
 
