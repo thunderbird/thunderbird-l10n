@@ -22,6 +22,11 @@ search-attrib-street = Gate
 search-attrib-title = Tittel
 search-attrib-organization = Organisasjon
 search-attrib-department = Avdeling
+search-attrib-from-to-cc-or-bcc = Fra, Til, Kopi eller Blindkopi
+search-attrib-attachment-status = Vedleggstatus
+search-attrib-label = Etikett
+search-attrib-customize = Tilpass …
+search-attrib-missing-custom-term = Mangler tilpasset term
 
 ## Search Operators
 
@@ -50,9 +55,29 @@ search-val-flag-starred =
     .label = Stjerne
 search-val-spam =
     .label = Søppelpost
+search-val-spam-score-origin-plugin =
+    .label = Utvidelse
+search-val-spam-score-origin-filter =
+    .label = Filter
+search-val-spam-score-origin-allowlist =
+    .label = Tillatelsesliste
+search-val-spam-score-origin-user =
+    .label = Bruker
+search-val-spam-score-origin-imap-flag =
+    .label = IMAP-flagg
+search-val-has-attachments =
+    .label = Har vedlegg
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Legg til ny regel
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Fjern denne regelen
 
 ## Search Term List
 
