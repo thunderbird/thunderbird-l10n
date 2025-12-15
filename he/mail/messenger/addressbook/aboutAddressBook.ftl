@@ -3,6 +3,9 @@
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Toolbar
+
+
 ## Books
 
 about-addressbook-books-context-properties =
@@ -68,6 +71,10 @@ about-addressbook-confirm-delete-contacts-title =
        *[other] מחיקת אנשי קשר
     }
 
+## Card list placeholder
+## Shown when there are no cards in the list
+
+
 ## Details
 
 about-addressbook-begin-edit-contact-button = עריכה
@@ -82,3 +89,9 @@ about-addressbook-details-other-info-header = מידע אחר
 
 # Keyboard shortcuts
 
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = חיפוש
+    .accesskey = ח
