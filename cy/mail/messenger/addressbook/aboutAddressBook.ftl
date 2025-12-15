@@ -353,3 +353,18 @@ about-addressbook-photo-save = Cadw
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [zero] Heb ganfod dim cydweddiadau
+            [one] Wedi canfod { $count } sy'n cydweddu
+            [two] Wedi canfod { $count } sy'n cydweddu
+            [few] Wedi canfod { $count } sy'n cydweddu
+            [many] Wedi canfod { $count } sy'n cydweddu
+           *[other] Wedi canfod { $count } sy'n cydweddu
+        }
