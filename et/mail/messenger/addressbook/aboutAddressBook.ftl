@@ -315,3 +315,11 @@ about-addressbook-photo-save = Salvesta
 
 # Keyboard shortcuts
 
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Otsi
+    .accesskey = O
+ab-search-dialog-no-matches-found =
+    .value = Vasteid ei leitud
