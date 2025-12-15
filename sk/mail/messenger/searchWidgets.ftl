@@ -5,6 +5,18 @@
 
 ## Search Attributes
 
+search-attrib-subject = Predmet
+search-attrib-from = Odosielateľ
+search-attrib-body = Telo
+search-attrib-date = Dátum
+search-attrib-priority = Priorita
+search-attrib-status = Stav
+search-attrib-to = Komu
+search-attrib-cc = Kópia
+search-attrib-to-or-cc = Komu alebo Kópia
+search-attrib-age-in-days = Doba od prijatia (v dňoch)
+search-attrib-size-kb = Veľkosť (kB)
+search-attrib-tags = Štítky
 search-attrib-any-name = Ľubovoľné meno
 search-attrib-display-name = Zobrazované meno
 search-attrib-nickname = Prezývka
@@ -23,13 +35,37 @@ search-attrib-title = Titul
 search-attrib-organization = Organizácia
 search-attrib-department = Oddelenie
 search-attrib-from-to-cc-or-bcc = Od, Komu, Kópia alebo Skrytá kópia
+search-attrib-spam-score-origin = Pôvod skóre nevyžiadanej pošty
+search-attrib-spam-percent = Percento nevyžiadanej pošty
 search-attrib-attachment-status = Stav prílohy
+search-attrib-spam-status = Stav nevyžiadanej pošty
 search-attrib-label = Popis
 search-attrib-customize = Prispôsobiť…
 search-attrib-missing-custom-term = Chýbajúci vlastný výraz
 
 ## Search Operators
 
+search-op-contains = obsahuje
+search-op-doesnt-contain = neobsahuje
+search-op-is = je
+search-op-isnt = nie je
+search-op-is-empty = je prázdny
+search-op-is-before = je pred
+search-op-is-after = je po
+search-op-is-higher-than = je viac ako
+search-op-is-lower-than = je menej ako
+search-op-begins-with = začína na
+search-op-ends-with = končí na
+search-op-sounds-like = podobá sa na
+search-op-ldap-dwim = LpadDwim
+search-op-is-greater-than = je väčšia ako
+search-op-is-less-than = je menšia ako
+search-op-name-completion = Celé meno
+search-op-is-in-ab = je v mojom adresári
+search-op-isnt-in-ab = nie je v mojom adresári
+search-op-isnt-empty = nie je prázdny
+search-op-matches = sa zhoduje s
+search-op-doesnt-match = sa nezhoduje s
 
 ## Search Values
 
@@ -81,6 +117,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-all =
+    .label = Správy spĺňajúce všetky nasledujúce podmienky
+    .accesskey = S
 search-match-any =
     .label = Správy spĺňajúce aspoň jednu podmienku
     .accesskey = c
