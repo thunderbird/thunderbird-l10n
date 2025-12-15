@@ -341,6 +341,12 @@ about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog
 
+ab-search-dialog-search-button =
+    .label = Znajdź
+    .accesskey = Z
+ab-search-dialog-reset-button =
+    .label = Wyczyść
+    .accesskey = c
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -352,3 +358,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = Nie znaleziono adresów spełniających warunki wyszukiwania
+ab-search-dialog-search-heading =
+    .label = Szukaj w:
+    .accesskey = u
+ab-search-dialog-properties-button =
+    .label = Właściwości
+    .accesskey = a
+ab-search-dialog-compose-button =
+    .label = Napisz
+    .accesskey = N
+ab-search-dialog-delete-button =
+    .label = Usuń
+    .accesskey = U
+ab-search-dialog-title = Zaawansowane wyszukiwanie w książce adresowej
+ab-search-dialog-close-cmd =
+    .key = W
