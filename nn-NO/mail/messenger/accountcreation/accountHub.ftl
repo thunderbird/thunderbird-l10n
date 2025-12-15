@@ -130,6 +130,7 @@ account-hub-close-button =
 account-hub-email-manual-configuration = Manuell konfigurasjon
 account-hub-notification-unknown-host = Oppsettinformasjon funne på tredjepartsdomene
 account-hub-ssl-noencryption = Ingen
+account-hub-email-skip-button = Hopp over
 account-hub-result-username-label = Brukarnamn
     .title = Brukarnamn
 account-hub-name-label = Fullt namn
