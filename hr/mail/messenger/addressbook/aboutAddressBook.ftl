@@ -338,3 +338,5 @@ ab-search-dialog-matches-found =
             [few] { $count } podudaranja pronađeno
            *[other] { $count } podudaranja pronađeno
         }
+ab-search-dialog-no-matches-found =
+    .value = Nema podudaranja
