@@ -309,3 +309,11 @@ about-addressbook-photo-save = Enregistrer
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Rechercher
+    .accesskey = R
+ab-search-dialog-no-matches-found =
+    .value = Aucune occurrence trouvée
