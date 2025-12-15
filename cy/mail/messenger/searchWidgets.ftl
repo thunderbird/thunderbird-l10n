@@ -3,6 +3,12 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -27,3 +33,17 @@ search-val-flag-starred =
     .label = Serennog
 search-val-spam =
     .label = Sbam
+search-val-spam-score-origin-allowlist =
+    .label = Rhestr caniatâd
+search-val-spam-score-origin-user =
+    .label = Defnyddiwr
+search-val-spam-score-origin-imap-flag =
+    .label = Baner IMAP
+search-val-has-attachments =
+    .label = Atodiadau Ynghlwm
+
+## Buttons
+
+
+## Search Term List
+
