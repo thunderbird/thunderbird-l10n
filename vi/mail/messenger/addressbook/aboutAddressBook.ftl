@@ -293,3 +293,9 @@ about-addressbook-photo-save = Lưu
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Tìm kiếm
+    .accesskey = S
