@@ -3,6 +3,34 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+search-attrib-any-name = Suvaline nimi
+search-attrib-display-name = Kuvatav nimi
+search-attrib-nickname = Hüüdnimi
+search-attrib-screen-name = Kuvatav nimi
+search-attrib-email = E-post
+search-attrib-additional-email = Muu e-post
+search-attrib-any-number = Suvaline number
+search-attrib-work-phone = Töötelefon
+search-attrib-home-phone = Kodune telefon
+search-attrib-fax = Faks
+search-attrib-pager = Peiler
+search-attrib-mobile = Mobiil
+search-attrib-city = Linn
+search-attrib-street = Tänav
+search-attrib-title = Amet
+search-attrib-organization = Organisatsioon
+search-attrib-department = Osakond
+search-attrib-from-to-cc-or-bcc = Saatja, saaja, koopia või pimekoopia
+search-attrib-attachment-status = Manuste olek
+search-attrib-label = Lipik
+search-attrib-customize = Kohanda...
+search-attrib-missing-custom-term = Kohandatud parameeter puudub
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -25,3 +53,17 @@ search-val-flag-forwarded =
     .label = Edastatud
 search-val-flag-starred =
     .label = Tähistatud
+
+## Buttons
+
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Lisa uus reegel
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Eemalda see reegel
+
+## Search Term List
+
