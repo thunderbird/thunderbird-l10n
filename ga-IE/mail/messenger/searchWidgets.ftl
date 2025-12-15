@@ -3,6 +3,29 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+search-attrib-any-name = Ainm Ar Bith
+search-attrib-display-name = Ainm Taispeána
+search-attrib-nickname = Leasainm
+search-attrib-screen-name = Ainm Taispeána
+search-attrib-email = Ríomhphost
+search-attrib-additional-email = Seoladh Ríomhphoist sa Bhreis
+search-attrib-any-number = Uimhir Ar Bith
+search-attrib-work-phone = Fón Oibre
+search-attrib-home-phone = Fón Baile
+search-attrib-fax = Facs
+search-attrib-pager = Glaoire
+search-attrib-mobile = Soghluaiste
+search-attrib-city = Cathair
+search-attrib-street = Sráid
+search-attrib-title = Teideal
+search-attrib-organization = Eagras
+search-attrib-department = Roinn
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -25,3 +48,12 @@ search-val-flag-forwarded =
     .label = Curtha ar aghaidh
 search-val-flag-starred =
     .label = Marcáilte
+
+## Buttons
+
+
+## Search Term List
+
+search-match-any =
+    .label = Meaitseáil aon rud a leanas
+    .accesskey = o
