@@ -53,6 +53,14 @@ search-val-spam =
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Shtoni rregull të ri
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Hiqeni këtë rregull
 
 ## Search Term List
 
