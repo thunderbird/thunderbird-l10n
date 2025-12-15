@@ -22,6 +22,11 @@ search-attrib-street = Rua
 search-attrib-title = Título
 search-attrib-organization = Organização
 search-attrib-department = Departamento
+search-attrib-from-to-cc-or-bcc = De, Para, Cc ou Bcc
+search-attrib-attachment-status = Estado do anexo
+search-attrib-label = Etiqueta
+search-attrib-customize = Personalizar...
+search-attrib-missing-custom-term = Termo personalizado em falta
 
 ## Search Operators
 
