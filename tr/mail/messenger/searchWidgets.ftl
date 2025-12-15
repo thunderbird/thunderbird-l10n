@@ -72,3 +72,6 @@ search-remove-rule-button =
 search-match-any =
     .label = Aşağıdakilerin herhangi biriyle eşleştir
     .accesskey = h
+search-match-all-msgs =
+    .label = Tüm iletilerle eşleştir
+    .accesskey = T
