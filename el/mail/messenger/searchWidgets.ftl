@@ -42,3 +42,6 @@ search-val-spam =
 search-match-any =
     .label = Αντιστοίχιση οποιωνδήποτε από τα παρακάτω
     .accesskey = π
+search-match-all-msgs =
+    .label = Αντιστοίχιση όλων των μηνυμάτων
+    .accesskey = μ
