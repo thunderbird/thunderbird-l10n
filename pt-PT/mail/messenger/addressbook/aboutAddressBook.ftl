@@ -331,3 +331,5 @@ ab-search-dialog-matches-found =
             [one] { $count } correspondência encontrada
            *[other] { $count } correspondências encontradas
         }
+ab-search-dialog-no-matches-found =
+    .value = Nenhuma ocorrência
