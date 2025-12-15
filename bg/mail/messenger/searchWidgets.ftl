@@ -22,6 +22,11 @@ search-attrib-street = Улица
 search-attrib-title = Заглавие
 search-attrib-organization = Организация
 search-attrib-department = Отдел
+search-attrib-from-to-cc-or-bcc = От, До, Копие или Скрито
+search-attrib-attachment-status = Наличие на прикачен файл
+search-attrib-label = Етикет
+search-attrib-customize = Персонализация…
+search-attrib-missing-custom-term = Липсващ потребителски термин
 
 ## Search Operators
 
@@ -53,9 +58,20 @@ search-val-spam =
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Добавяне на ново правило
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Премахване на правилото
 
 ## Search Term List
 
 search-match-any =
     .label = Съвпадат с някое
     .accesskey = н
+search-match-all-msgs =
+    .label = Съвпадат всички писма
+    .accesskey = С
