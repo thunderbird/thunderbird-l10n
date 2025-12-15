@@ -317,3 +317,9 @@ about-addressbook-photo-save = შენახვა
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = ძიება
+    .accesskey = S
