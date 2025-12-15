@@ -22,6 +22,11 @@ search-attrib-street = 街道
 search-attrib-title = 頭銜
 search-attrib-organization = 公司
 search-attrib-department = 部門
+search-attrib-from-to-cc-or-bcc = 寄件者、收件者、副本或密件副本收件者
+search-attrib-attachment-status = 附件狀態
+search-attrib-label = 標籤
+search-attrib-customize = 自訂…
+search-attrib-missing-custom-term = 遺失的自訂條件
 
 ## Search Operators
 
@@ -50,6 +55,18 @@ search-val-flag-starred =
     .label = 已標星號
 search-val-spam =
     .label = 是垃圾信
+search-val-spam-score-origin-plugin =
+    .label = 外掛程式
+search-val-spam-score-origin-filter =
+    .label = 篩選條件
+search-val-spam-score-origin-allowlist =
+    .label = 允許清單
+search-val-spam-score-origin-user =
+    .label = 使用者
+search-val-spam-score-origin-imap-flag =
+    .label = IMAP 標記
+search-val-has-attachments =
+    .label = 內含附件
 
 ## Buttons
 
@@ -59,3 +76,6 @@ search-val-spam =
 search-match-any =
     .label = 符合下列任一項
     .accesskey = o
+search-match-all-msgs =
+    .label = 符合全部郵件
+    .accesskey = M
