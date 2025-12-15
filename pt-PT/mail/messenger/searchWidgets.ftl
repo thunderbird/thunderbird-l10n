@@ -53,6 +53,10 @@ search-val-flag-forwarded =
     .label = Reencaminhada
 search-val-flag-starred =
     .label = Com estrela
+search-val-spam-score-origin-plugin =
+    .label = Plugin
+search-val-spam-score-origin-filter =
+    .label = Filtro
 
 ## Buttons
 
