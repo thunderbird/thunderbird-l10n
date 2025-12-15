@@ -5,6 +5,18 @@
 
 ## Search Attributes
 
+search-attrib-subject = Gaia
+search-attrib-from = Nork
+search-attrib-body = Gorputza
+search-attrib-date = Data
+search-attrib-priority = Lehentasuna
+search-attrib-status = Egoera
+search-attrib-to = Nori
+search-attrib-cc = Cc
+search-attrib-to-or-cc = Nori edo Cc
+search-attrib-age-in-days = Adina egunetan
+search-attrib-size-kb = Tamaina (KB)
+search-attrib-tags = Etiketak
 search-attrib-any-name = Edozein izen
 search-attrib-display-name = Bistaratzeko izena
 search-attrib-nickname = Ezizena
@@ -30,6 +42,27 @@ search-attrib-missing-custom-term = Termino pertsonalizatua falta da
 
 ## Search Operators
 
+search-op-contains = hau duena
+search-op-doesnt-contain = hau ez duena
+search-op-is = hau da
+search-op-isnt = ez da
+search-op-is-empty = hutsik dago
+search-op-is-before = honen aurrekoa da
+search-op-is-after = honen ondorengoa da
+search-op-is-higher-than = hau baino handiagoa da
+search-op-is-lower-than = hau baino txikiagoa da
+search-op-begins-with = honekin hasten da
+search-op-ends-with = honekin amaitzen da
+search-op-sounds-like = honen antzekoa da
+search-op-ldap-dwim = LdapDwim
+search-op-is-greater-than = hau baino handiagoa da
+search-op-is-less-than = hau baino txikiagoa da
+search-op-name-completion = IzenOsaketa
+search-op-is-in-ab = helbide-liburuan dago
+search-op-isnt-in-ab = ez dago helbide-liburuan
+search-op-isnt-empty = ez dago hutsik
+search-op-matches = bat dator
+search-op-doesnt-match = ez dator bat
 
 ## Search Values
 
@@ -79,6 +112,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-all =
+    .label = Arau hauetako guztiak
+    .accesskey = t
 search-match-any =
     .label = Arau hauetako edozein
     .accesskey = e
