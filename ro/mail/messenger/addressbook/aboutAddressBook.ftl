@@ -323,3 +323,9 @@ about-addressbook-photo-save = Salvează
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Caută
+    .accesskey = C
