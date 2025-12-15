@@ -315,3 +315,9 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = 搜尋
     .accesskey = S
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value = 找到 { $count } 筆符合項目
+ab-search-dialog-no-matches-found =
+    .value = 找不到符合的項目
