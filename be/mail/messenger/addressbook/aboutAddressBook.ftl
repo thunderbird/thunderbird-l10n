@@ -35,6 +35,9 @@ about-addressbook-new-list-action-button = Новы спіс
 
 ## Address Book Search Dialog
 
+ab-search-dialog-search-button =
+    .label = Пошук
+    .accesskey = ш
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
