@@ -3,6 +3,12 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -25,3 +31,15 @@ search-val-flag-forwarded =
     .label = Препратенa
 search-val-flag-starred =
     .label = Набљудувани
+
+## Buttons
+
+
+## Search Term List
+
+search-match-any =
+    .label = Да се совпаѓа било кој од следниве
+    .accesskey = о
+search-match-all-msgs =
+    .label = Да се совпаѓа со сите пораки
+    .accesskey = с
