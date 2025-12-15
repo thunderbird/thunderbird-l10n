@@ -64,3 +64,6 @@ search-val-spam =
 search-match-any =
     .label = Podudara s bilo čime od sljedećeg
     .accesskey = o
+search-match-all-msgs =
+    .label = Za sve poruke
+    .accesskey = Z
