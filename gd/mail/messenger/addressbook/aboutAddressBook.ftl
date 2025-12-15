@@ -274,6 +274,9 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Lorg
     .accesskey = L
+ab-search-dialog-reset-button =
+    .label = Falamhaich
+    .accesskey = c
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -286,3 +289,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = Cha deach seise a lorg
+ab-search-dialog-search-heading =
+    .label = Lorg ann an:
+    .accesskey = L
+ab-search-dialog-properties-button =
+    .label = Roghainnean
+    .accesskey = R
+ab-search-dialog-compose-button =
+    .label = Sgrìobh
+    .accesskey = S
+ab-search-dialog-delete-button =
+    .label = Sguab às
+    .accesskey = S
+ab-search-dialog-title = Rannsachadh adhartach leabhar nan seòladh
+ab-search-dialog-close-cmd =
+    .key = W
