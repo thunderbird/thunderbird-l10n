@@ -330,3 +330,5 @@ ab-search-dialog-matches-found =
             [one] fekk { $count } treff
            *[other] fekk { $count } treff
         }
+ab-search-dialog-no-matches-found =
+    .value = Ingen treff funne
