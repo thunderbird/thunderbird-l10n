@@ -22,6 +22,11 @@ search-attrib-street = Katu
 search-attrib-title = Ammattinimi
 search-attrib-organization = Organisaatio
 search-attrib-department = Osasto
+search-attrib-from-to-cc-or-bcc = Lähettäjä, vastaanottaja ja kopio tai piilokopio-osoite
+search-attrib-attachment-status = Liitteen tila
+search-attrib-label = Tunnus
+search-attrib-customize = Muokkaa…
+search-attrib-missing-custom-term = Puuttuva oma ehto
 
 ## Search Operators
 
@@ -48,9 +53,29 @@ search-val-flag-forwarded =
     .label = Välitetty
 search-val-flag-starred =
     .label = Merkitty tähdellä
+search-val-spam-score-origin-plugin =
+    .label = Liitännäinen
+search-val-spam-score-origin-filter =
+    .label = Suodatin
+search-val-spam-score-origin-allowlist =
+    .label = Sallittujen lista
+search-val-spam-score-origin-user =
+    .label = Käyttäjä
+search-val-spam-score-origin-imap-flag =
+    .label = IMAP-lippu
+search-val-has-attachments =
+    .label = Sisältää liitteitä
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Lisää tämä sääntö
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Poista tämä sääntö
 
 ## Search Term List
 
