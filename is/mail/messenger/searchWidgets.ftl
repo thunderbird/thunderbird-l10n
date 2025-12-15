@@ -69,3 +69,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-any =
+    .label = Passar við eitthvað af eftirtöldu
+    .accesskey = e
+search-match-all-msgs =
+    .label = Passar við allan póst
+    .accesskey = P
