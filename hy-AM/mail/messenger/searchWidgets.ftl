@@ -62,3 +62,6 @@ search-val-flag-starred =
 search-match-any =
     .label = Համապատասխան ցանկ. հետևյալին
     .accesskey = o
+search-match-all-msgs =
+    .label = Համապատասխան բոլոր նամակներին
+    .accesskey = ն
