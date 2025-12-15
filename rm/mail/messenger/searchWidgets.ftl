@@ -53,6 +53,18 @@ search-val-flag-forwarded =
     .label = Renvià
 search-val-flag-starred =
     .label = Cun staila
+search-val-spam-score-origin-plugin =
+    .label = Plug-in
+search-val-spam-score-origin-filter =
+    .label = Filter
+search-val-spam-score-origin-allowlist =
+    .label = Glista autorisads
+search-val-spam-score-origin-user =
+    .label = Utilisader
+search-val-spam-score-origin-imap-flag =
+    .label = Bandiera IMAP
+search-val-has-attachments =
+    .label = Messadis cun agiuntas
 
 ## Buttons
 
