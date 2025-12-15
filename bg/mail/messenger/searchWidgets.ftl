@@ -3,6 +3,29 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+search-attrib-any-name = Всякакво име
+search-attrib-display-name = Показвано име
+search-attrib-nickname = Псевдоним
+search-attrib-screen-name = Изобразено име
+search-attrib-email = Ел. адрес
+search-attrib-additional-email = Допълнителен ел. адрес
+search-attrib-any-number = Всякакъв номер
+search-attrib-work-phone = Служебен телефон
+search-attrib-home-phone = Домашен телефон
+search-attrib-fax = Факс
+search-attrib-pager = Пейджър
+search-attrib-mobile = Мобилен телефон
+search-attrib-city = Град
+search-attrib-street = Улица
+search-attrib-title = Заглавие
+search-attrib-organization = Организация
+search-attrib-department = Отдел
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -27,3 +50,12 @@ search-val-flag-starred =
     .label = Със звезда
 search-val-spam =
     .label = Нежелана поща
+
+## Buttons
+
+
+## Search Term List
+
+search-match-any =
+    .label = Съвпадат с някое
+    .accesskey = н
