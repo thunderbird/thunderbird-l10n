@@ -314,3 +314,9 @@ about-addressbook-photo-save = Desa
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = n
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Cerca
+    .accesskey = C
