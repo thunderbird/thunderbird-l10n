@@ -155,3 +155,5 @@ ab-search-dialog-matches-found =
             [few] { $count } нађена подударања
            *[other] { $count } нађених подударања
         }
+ab-search-dialog-no-matches-found =
+    .value = Нема подударања
