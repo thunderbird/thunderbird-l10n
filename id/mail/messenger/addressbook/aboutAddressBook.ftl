@@ -291,3 +291,5 @@ ab-search-dialog-search-button =
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
     .value = { $count } kecocokan ditemukan
+ab-search-dialog-no-matches-found =
+    .value = Tidak ada yang cocok ditemukan
