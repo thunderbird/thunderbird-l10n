@@ -22,6 +22,11 @@ search-attrib-street = Gate
 search-attrib-title = Tittel
 search-attrib-organization = Organisasjon
 search-attrib-department = Avdeling
+search-attrib-from-to-cc-or-bcc = Frå, Til, Kopi eller Bcc
+search-attrib-attachment-status = Vedleggstatus
+search-attrib-label = Merkelapp
+search-attrib-customize = Tilpass …
+search-attrib-missing-custom-term = Manglar tilpassa term
 
 ## Search Operators
 
@@ -50,12 +55,27 @@ search-val-flag-starred =
     .label = Stjernemarkert
 search-val-spam =
     .label = Søppelpost
+search-val-spam-score-origin-plugin =
+    .label = Utviding
+search-val-spam-score-origin-filter =
+    .label = Filter
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Legg til ny regel
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Fjern denne regelen
 
 ## Search Term List
 
 search-match-any =
     .label = Ein av reglane passar
     .accesskey = E
+search-match-all-msgs =
+    .label = Alle meldingane passar
+    .accesskey = m
