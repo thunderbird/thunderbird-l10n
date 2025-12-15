@@ -287,3 +287,7 @@ about-addressbook-new-contact-key = B
 ab-search-dialog-search-button =
     .label = Cari
     .accesskey = C
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value = { $count } kecocokan ditemukan
