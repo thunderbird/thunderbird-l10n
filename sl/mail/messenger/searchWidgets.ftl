@@ -56,6 +56,20 @@ search-val-flag-starred =
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Dodaj novo pravilo
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Odstrani to pravilo
 
 ## Search Term List
 
+search-match-any =
+    .label = Izpolni vsaj eno merilo
+    .accesskey = e
+search-match-all-msgs =
+    .label = Uporabi za vsa sporočila
+    .accesskey = U
