@@ -31,6 +31,12 @@
 
 ## Address Book Search Dialog
 
+ab-search-dialog-search-button =
+    .label = Traži
+    .accesskey = T
+ab-search-dialog-reset-button =
+    .label = Očisti
+    .accesskey = O
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -40,3 +46,20 @@ ab-search-dialog-matches-found =
             [few] { $count } podudaranja pronađeno
            *[other] { $count } podudaranja pronađeno
         }
+ab-search-dialog-no-matches-found =
+    .value = Nema podudarnih rezultata
+ab-search-dialog-search-heading =
+    .label = Traži u:
+    .accesskey = i
+ab-search-dialog-properties-button =
+    .label = Postavke
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = Piši
+    .accesskey = P
+ab-search-dialog-delete-button =
+    .label = Izbriši
+    .accesskey = I
+ab-search-dialog-title = Napredno pretraživanje adresara
+ab-search-dialog-close-cmd =
+    .key = W
