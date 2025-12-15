@@ -317,6 +317,12 @@ about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog
 
+ab-search-dialog-search-button =
+    .label = Іздеу
+    .accesskey = у
+ab-search-dialog-reset-button =
+    .label = Тазарту
+    .accesskey = Т
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -327,3 +333,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = Сәйкестіктер табылмады
+ab-search-dialog-search-heading =
+    .label = Қайда іздеу:
+    .accesskey = з
+ab-search-dialog-properties-button =
+    .label = Қасиеттері
+    .accesskey = с
+ab-search-dialog-compose-button =
+    .label = Жазу
+    .accesskey = з
+ab-search-dialog-delete-button =
+    .label = Өшіру
+    .accesskey = ш
+ab-search-dialog-title = Кеңейтілген адрестік кітапшадан іздеу
+ab-search-dialog-close-cmd =
+    .key = W
