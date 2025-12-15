@@ -320,6 +320,9 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Søk
     .accesskey = S
+ab-search-dialog-reset-button =
+    .label = Tilbakestill
+    .accesskey = T
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -330,3 +333,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = Ingen treff funnet
+ab-search-dialog-search-heading =
+    .label = Søk i:
+    .accesskey = S
+ab-search-dialog-properties-button =
+    .label = Egenskaper …
+    .accesskey = p
+ab-search-dialog-compose-button =
+    .label = Skriv ny e-post til
+    .accesskey = n
+ab-search-dialog-delete-button =
+    .label = Slett
+    .accesskey = t
+ab-search-dialog-title = Avansert adresseboksøk
+ab-search-dialog-close-cmd =
+    .key = W
