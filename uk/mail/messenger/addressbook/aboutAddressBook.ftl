@@ -332,3 +332,12 @@ about-addressbook-new-contact-key = Н
 ab-search-dialog-search-button =
     .label = Пошук
     .accesskey = ш
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } збіг знайдено
+            [few] { $count } збіги знайдено
+           *[many] { $count } збігів знайдено
+        }
