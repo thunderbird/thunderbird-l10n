@@ -84,3 +84,6 @@ search-remove-rule-button =
 search-match-any =
     .label = Valider au moins une des conditions suivantes
     .accesskey = u
+search-match-all-msgs =
+    .label = Appliquer à tous les messages
+    .accesskey = m
