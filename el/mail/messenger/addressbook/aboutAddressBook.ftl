@@ -314,3 +314,14 @@ about-addressbook-photo-save = Αποθήκευση
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = Ν
+
+## Address Book Search Dialog
+
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] Βρέθηκε { $count } αντιστοιχία
+           *[other] Βρέθηκαν { $count } αντιστοιχίες
+        }
