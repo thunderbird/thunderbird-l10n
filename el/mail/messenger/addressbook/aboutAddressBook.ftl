@@ -317,6 +317,12 @@ about-addressbook-new-contact-key = Ν
 
 ## Address Book Search Dialog
 
+ab-search-dialog-search-button =
+    .label = Αναζήτηση
+    .accesskey = ζ
+ab-search-dialog-reset-button =
+    .label = Απαλοιφή
+    .accesskey = Α
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -327,3 +333,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = Δεν βρέθηκαν αντιστοιχίες
+ab-search-dialog-search-heading =
+    .label = Αναζήτηση σε:
+    .accesskey = ν
+ab-search-dialog-properties-button =
+    .label = Ιδιότητες
+    .accesskey = δ
+ab-search-dialog-compose-button =
+    .label = Σύνταξη
+    .accesskey = Σ
+ab-search-dialog-delete-button =
+    .label = Διαγραφή
+    .accesskey = ι
+ab-search-dialog-title = Σύνθετη αναζήτηση ευρετηρίου
+ab-search-dialog-close-cmd =
+    .key = W
