@@ -287,9 +287,27 @@ about-addressbook-new-contact-key = B
 ab-search-dialog-search-button =
     .label = Cari
     .accesskey = C
+ab-search-dialog-reset-button =
+    .label = Bersihkan
+    .accesskey = B
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
     .value = { $count } kecocokan ditemukan
 ab-search-dialog-no-matches-found =
     .value = Tidak ada yang cocok ditemukan
+ab-search-dialog-search-heading =
+    .label = Cari di:
+    .accesskey = C
+ab-search-dialog-properties-button =
+    .label = Properti
+    .accesskey = P
+ab-search-dialog-compose-button =
+    .label = Tulis
+    .accesskey = T
+ab-search-dialog-delete-button =
+    .label = Hapus
+    .accesskey = D
+ab-search-dialog-title = Pencarian Canggih Daftar Alamat
+ab-search-dialog-close-cmd =
+    .key = W
