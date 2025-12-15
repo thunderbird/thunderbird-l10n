@@ -331,3 +331,5 @@ ab-search-dialog-matches-found =
             [one] Fann { $count } niðurstöðu
            *[other] Fann { $count } niðurstöður
         }
+ab-search-dialog-no-matches-found =
+    .value = Engin samsvörun fannst
