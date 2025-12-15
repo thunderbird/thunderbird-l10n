@@ -342,3 +342,14 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Hledat
     .accesskey = H
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] Nalezen { $count } výskyt
+            [few] Nalezeny { $count } výskyty
+           *[other] Nalezeno { $count } výskytů
+        }
+ab-search-dialog-no-matches-found =
+    .value = Nic nebylo nalezeno
