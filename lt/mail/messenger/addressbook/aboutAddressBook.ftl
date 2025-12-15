@@ -145,3 +145,9 @@ about-addressbook-photo-save = Įrašyti
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = N
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Ieškoti
+    .accesskey = e
