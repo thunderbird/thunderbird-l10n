@@ -331,3 +331,5 @@ ab-search-dialog-matches-found =
             [one] { $count } resultat
            *[other] { $count } resultats
         }
+ab-search-dialog-no-matches-found =
+    .value = Chattà naginas congrugenzas
