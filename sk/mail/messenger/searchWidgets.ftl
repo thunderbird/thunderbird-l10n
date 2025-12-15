@@ -3,6 +3,29 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+search-attrib-any-name = Ľubovoľné meno
+search-attrib-display-name = Zobrazované meno
+search-attrib-nickname = Prezývka
+search-attrib-screen-name = Účet pre IM
+search-attrib-email = E‑mail
+search-attrib-additional-email = Ďalší e‑mail
+search-attrib-any-number = Ľubovoľné číslo
+search-attrib-work-phone = Telefón do zamestnania
+search-attrib-home-phone = Telefón domov
+search-attrib-fax = Fax
+search-attrib-pager = Pager
+search-attrib-mobile = Mobil
+search-attrib-city = Mesto
+search-attrib-street = Ulica
+search-attrib-title = Titul
+search-attrib-organization = Organizácia
+search-attrib-department = Oddelenie
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -27,3 +50,9 @@ search-val-flag-starred =
     .label = S hviezdičkou
 search-val-spam =
     .label = Nevyžiadaná správa
+
+## Buttons
+
+
+## Search Term List
+
