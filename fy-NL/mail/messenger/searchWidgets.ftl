@@ -55,6 +55,14 @@ search-val-spam =
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Nije rigel tafoegje
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Dizze rigel fuortsmite
 
 ## Search Term List
 
