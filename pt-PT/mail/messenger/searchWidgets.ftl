@@ -67,6 +67,9 @@ search-remove-rule-button =
 
 ## Search Term List
 
+search-match-any =
+    .label = Coincidente com qualquer dos seguintes
+    .accesskey = o
 search-match-all-msgs =
     .label = Coincidente com todas as mensagens
     .accesskey = m
