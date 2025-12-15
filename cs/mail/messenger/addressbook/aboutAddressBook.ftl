@@ -342,6 +342,9 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Hledat
     .accesskey = H
+ab-search-dialog-reset-button =
+    .label = Vymazat
+    .accesskey = y
 # Variables:
 # $count (Number) - Number of matches found.
 ab-search-dialog-matches-found =
@@ -353,3 +356,18 @@ ab-search-dialog-matches-found =
         }
 ab-search-dialog-no-matches-found =
     .value = Nic nebylo nalezeno
+ab-search-dialog-search-heading =
+    .label = Hledat v:
+    .accesskey = H
+ab-search-dialog-properties-button =
+    .label = Vlastnosti
+    .accesskey = V
+ab-search-dialog-compose-button =
+    .label = Napsat zprávu
+    .accesskey = z
+ab-search-dialog-delete-button =
+    .label = Smazat
+    .accesskey = S
+ab-search-dialog-title = Rozšířené hledání v kontaktech
+ab-search-dialog-close-cmd =
+    .key = W
