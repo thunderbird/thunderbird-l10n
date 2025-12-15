@@ -3,6 +3,34 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+search-attrib-any-name = Eitthvað nafn
+search-attrib-display-name = Birtingarnafn
+search-attrib-nickname = Gælunafn
+search-attrib-screen-name = Skjáheiti
+search-attrib-email = Tölvupóstur
+search-attrib-additional-email = Auka tölvupóstfang
+search-attrib-any-number = Eitthvað númer
+search-attrib-work-phone = Vinnusími
+search-attrib-home-phone = Heimasími
+search-attrib-fax = Fax
+search-attrib-pager = Símboði
+search-attrib-mobile = Farsími
+search-attrib-city = Borg/Sveitarfélag
+search-attrib-street = Gata
+search-attrib-title = Titill
+search-attrib-organization = Fyrirtæki/Stofnun
+search-attrib-department = Deild
+search-attrib-from-to-cc-or-bcc = Frá, Til, Afrit eða Falið afrit
+search-attrib-attachment-status = Staða viðhengis
+search-attrib-label = Merki
+search-attrib-customize = Sérsníða…
+search-attrib-missing-custom-term = Vantar sérsniðið leitarskilyrði
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -27,3 +55,9 @@ search-val-flag-starred =
     .label = Stjörnumerkt
 search-val-spam =
     .label = Ruslpóstur
+
+## Buttons
+
+
+## Search Term List
+
