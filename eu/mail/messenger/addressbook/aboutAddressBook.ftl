@@ -317,3 +317,9 @@ about-addressbook-photo-save = Gorde
 # Keyboard shortcuts
 
 about-addressbook-new-contact-key = B
+
+## Address Book Search Dialog
+
+ab-search-dialog-search-button =
+    .label = Bilatu
+    .accesskey = t
