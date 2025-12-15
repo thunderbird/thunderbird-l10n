@@ -3,6 +3,29 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+search-attrib-any-name = Samar in namme
+search-attrib-display-name = Werjeftenamme
+search-attrib-nickname = Bynamme
+search-attrib-screen-name = Skermnamme
+search-attrib-email = E-mail
+search-attrib-additional-email = Alternative e-mail
+search-attrib-any-number = Samar in nûmer
+search-attrib-work-phone = Telefoan wurk
+search-attrib-home-phone = Telefoan thús
+search-attrib-fax = Faks
+search-attrib-pager = Piper
+search-attrib-mobile = Mobyl
+search-attrib-city = Wenplak
+search-attrib-street = Strjitte
+search-attrib-title = Titel
+search-attrib-organization = Organisaasje
+search-attrib-department = Ofdieling
+
+## Search Operators
+
+
 ## Search Values
 
 search-val-priority-lowest =
@@ -27,3 +50,15 @@ search-val-flag-starred =
     .label = Mei stjer
 search-val-spam =
     .label = Net-winske
+
+## Buttons
+
+
+## Search Term List
+
+search-match-any =
+    .label = Dy't foldogge oan ien fan it folgjende
+    .accesskey = d
+search-match-all-msgs =
+    .label = Foldogge oan alle berjochten
+    .accesskey = b
