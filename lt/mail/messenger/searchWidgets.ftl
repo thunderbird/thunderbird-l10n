@@ -22,6 +22,11 @@ search-attrib-street = Gatvė
 search-attrib-title = Pareigos
 search-attrib-organization = Organizacija
 search-attrib-department = Padalinys
+search-attrib-from-to-cc-or-bcc = „Nuo“, „Kam“, „Kopija“ arba „Nematomoji kopija“
+search-attrib-attachment-status = Priedo būsena
+search-attrib-label = Žymė
+search-attrib-customize = Naujas laukas…
+search-attrib-missing-custom-term = Trūksta tinkinto lauko
 
 ## Search Operators
 
@@ -48,9 +53,27 @@ search-val-flag-forwarded =
     .label = Persiųstas
 search-val-flag-starred =
     .label = Pažymėtas žvaigždute
+search-val-spam-score-origin-plugin =
+    .label = Papildinys
+search-val-spam-score-origin-filter =
+    .label = Filtras
+search-val-spam-score-origin-user =
+    .label = Naudotojas
+search-val-spam-score-origin-imap-flag =
+    .label = IMAP žymė
+search-val-has-attachments =
+    .label = Su priedais
 
 ## Buttons
 
+# Do not translate the label.
+search-add-rule-button =
+    .label = +
+    .tooltiptext = Pridėti naują sąlygą
+# Do not translate the label.
+search-remove-rule-button =
+    .label = -
+    .tooltiptext = Pašalinti šią sąlygą
 
 ## Search Term List
 
