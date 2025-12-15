@@ -323,3 +323,11 @@ about-addressbook-new-contact-key = N
 ab-search-dialog-search-button =
     .label = Zoeken
     .accesskey = Z
+# Variables:
+# $count (Number) - Number of matches found.
+ab-search-dialog-matches-found =
+    .value =
+        { $count ->
+            [one] { $count } overeenkomst gevonden
+           *[other] { $count } overeenkomsten gevonden
+        }
