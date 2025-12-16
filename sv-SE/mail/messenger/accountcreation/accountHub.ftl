@@ -133,6 +133,7 @@ account-hub-email-manual-configuration = Manuell konfiguration
 account-hub-notification-unknown-host = Installationsinformation hittades på tredjepartsdomänen
 account-hub-ssl-noencryption = Ingen
 account-hub-email-skip-button = Hoppa över
+account-hub-finding-sync-accounts = Konto skapat. Upptäcker adressböcker och kalendrar…
 account-hub-result-username-label = Användarnamn
     .title = Användarnamn
 account-hub-name-label = Fullständigt namn
