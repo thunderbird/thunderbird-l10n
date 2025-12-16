@@ -145,8 +145,7 @@ menu-file-save-as-file =
 menu-file-compact =
     .label =
         { $count ->
-            [1] Cartella compatta
-            [one] Compatta cartelle
+            [1] Compatta cartella
            *[other] Compatta cartelle
         }
     .accesskey = C

@@ -504,8 +504,7 @@ folder-pane-context-reset-sort =
 folder-pane-context-compact =
     .label =
         { $count ->
-            [1] Cartella compatta
-            [one] Compatta cartelle
+            [1] Compatta cartella
            *[other] Compatta cartelle
         }
     .accesskey = C
