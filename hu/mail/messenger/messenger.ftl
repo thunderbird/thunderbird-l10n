@@ -140,6 +140,21 @@ folder-name-all-mail = Összes levél
 menu-file-save-as-file =
     .label = Fájl…
     .accesskey = F
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [1] Mappa tömörítése
+            [one] Mappa tömörítése
+           *[other] Mappák tömörítése
+        }
+    .accesskey = m
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = Összes mappa tömörítése
+    .accesskey = e
 
 ## Edit Menu
 
