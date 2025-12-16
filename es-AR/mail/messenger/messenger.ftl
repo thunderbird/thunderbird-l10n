@@ -146,10 +146,10 @@ menu-file-compact =
     .label =
         { $count ->
             [1] Compactar carpeta
-            [one] Compactar carpetas
+            [one] Compactar carpeta
            *[other] Compactar carpetas
         }
-    .accesskey = C
+    .accesskey = t
 # One or more servers selected for compacting all their folders. Only this or
 # menu-file-compact string will appear at a time, not both.
 menu-file-compact-all =
