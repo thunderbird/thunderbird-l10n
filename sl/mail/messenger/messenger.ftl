@@ -142,6 +142,22 @@ folder-name-all-mail = Vsa pošta
 menu-file-save-as-file =
     .label = Datoteko …
     .accesskey = D
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [1] Strni mapo
+            [two] Strni mapi
+            [few] Strni mape
+           *[other] Strni mape
+        }
+    .accesskey = t
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = Strni vse mape
+    .accesskey = t
 
 ## Edit Menu
 
