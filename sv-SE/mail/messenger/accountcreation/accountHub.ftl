@@ -11,7 +11,7 @@
 
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = Välkommen till <span data-l10n-name="brand-name">{ -brand-full-name }</span>
-account-hub-title = Kontocenter
+account-hub-title = Kontonav
 
 ## Footer
 
@@ -129,6 +129,8 @@ account-hub-close-button =
     .title = Stäng
 account-hub-minimize-button =
     .title = Minimera
+account-hub-maximize-button =
+    .title = Maximera kontonav
 account-hub-email-manual-configuration = Manuell konfiguration
 account-hub-notification-unknown-host = Installationsinformation hittades på tredjepartsdomänen
 account-hub-ssl-noencryption = Ingen
