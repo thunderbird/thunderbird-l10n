@@ -512,8 +512,7 @@ folder-pane-context-reset-sort =
 folder-pane-context-compact =
     .label =
         { $count ->
-            [1] Compacter un dossier
-            [one] Compacter les dossiers
+            [one] Compacter le dossier
            *[other] Compacter les dossiers
         }
     .accesskey = C
