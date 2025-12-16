@@ -496,12 +496,12 @@ folder-pane-context-reset-sort =
 folder-pane-context-compact =
     .label =
         { $count ->
-            [1] 壓實重整郵件匣
-           *[other] 壓實重整郵件匣
+            [1] 壓實重整信件匣
+           *[other] 壓實重整信件匣
         }
-    .accesskey = 壓
+    .accesskey = F
 # One or more servers selected for compacting ALL their folders. Only this or
 # folder-pane-context-compact string will appear at a time, not both.
 folder-pane-context-compact-all =
-    .label = 壓實重整所有資料夾
-    .accesskey = 壓
+    .label = 壓實重整所有信件匣
+    .accesskey = F

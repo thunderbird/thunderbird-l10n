@@ -144,14 +144,14 @@ menu-file-save-as-file =
 menu-file-compact =
     .label =
         { $count ->
-            [1] 壓實重整郵件匣
-           *[other] 壓實重整郵件匣
+            [1] 壓實重整信件匣
+           *[other] 壓實重整信件匣
         }
-    .accesskey = 壓
+    .accesskey = F
 # One or more servers selected for compacting all their folders. Only this or
 # menu-file-compact string will appear at a time, not both.
 menu-file-compact-all =
-    .label = 壓實重整所有資料夾
+    .label = 壓實重整所有信件匣
     .accesskey = 壓
 
 ## Edit Menu
