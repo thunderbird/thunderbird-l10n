@@ -140,6 +140,21 @@ folder-name-all-mail = Allur póstur
 menu-file-save-as-file =
     .label = Skrá…
     .accesskey = S
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [1] Þjappa möppu
+            [one] Þjappa möppu
+           *[other] Þjappa möppum
+        }
+    .accesskey = p
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = Þjappa öllum möppum
+    .accesskey = p
 
 ## Edit Menu
 
