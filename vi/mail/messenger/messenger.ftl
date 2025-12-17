@@ -139,6 +139,20 @@ folder-name-all-mail = Tất cả thư
 menu-file-save-as-file =
     .label = Tập tin…
     .accesskey = F
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [1] Làm gọn thư mục
+           *[other] Làm gọn thư mục
+        }
+    .accesskey = F
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = Làm gọn tất cả thư mục
+    .accesskey = F
 
 ## Edit Menu
 
