@@ -540,3 +540,20 @@ folder-pane-context-mark-folder-read =
 folder-pane-context-reset-sort =
     .label = Obnoviť poradie priečinkov
     .accesskey = r
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+folder-pane-context-compact =
+    .label =
+        { $count ->
+            [1] Vykonať údržbu priečinka
+            [one] Vykonať údržbu priečinka
+            [few] Vykonať údržbu priečinkov
+            [many] Vykonať údržbu priečinkov
+           *[other] Vykonať údržbu priečinkov
+        }
+    .accesskey = V
+# One or more servers selected for compacting ALL their folders. Only this or
+# folder-pane-context-compact string will appear at a time, not both.
+folder-pane-context-compact-all =
+    .label = Vykonať údržbu všetkých priečinkov
+    .accesskey = V
