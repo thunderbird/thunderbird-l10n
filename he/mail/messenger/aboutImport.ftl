@@ -52,6 +52,21 @@ profiles-pane-title-seamonkey = ייבוא הגדרות ונתונים מפרו�
 profiles-pane-title-outlook = ייבא נתונים מ־{ app-name-outlook }.
 profiles-pane-title-apple-mail = ייבא הודעות מ־{ app-name-apple-mail }.
 profile-source = ייבוא מפרופיל
+profile-file-picker-archive-description = קובץ ה־ZIP חייב להיות קטן מ־2GB.
+items-pane-checkbox-accounts = חשבונות והגדרות
+items-pane-checkbox-calendars = לוחות שנה
+items-pane-checkbox-mail-messages = הודעות דואר
+items-pane-override = כל מידע קיים או זהה לא יידרס.
+items-pane-nothing-to-import = לא ניתן לייבא דבר מהמקור שנבחר.
+
+## Import from address book file steps
+
+addr-book-csv-file = קובץ מופרד בפסיקים או בטאבים (‎.csv, .tsv)‏
+addr-book-ldif-file = קובץ LDIF ‏(‎.ldif)‏
+addr-book-vcard-file = קובץ vCard ‏(‎.vcf, .vcard)
+addr-book-sqlite-file = קובץ מסד נתונים של SQLite‏ (‎.sqlite)
+addr-book-mab-file = קובץ מסד נתונים של Mork‏ (‎.mab)
+addr-book-directories-pane-source = קובץ מקור:
 
 ## Import from calendar file steps
 
