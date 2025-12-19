@@ -62,6 +62,9 @@ profile-file-picker-directory = בחירת תיקיית פרופיל
 profile-file-picker-archive = בחירת קובץ <strong>ZIP</strong>
 profile-file-picker-archive-description = קובץ ה־ZIP חייב להיות קטן מ־2GB.
 profile-file-picker-archive-title = בחירת קובץ ZIP (קטן מ־2GB)
+items-pane-title2 = נא לבחור בפריטים לייבוא:
+items-pane-directory = ספרייה:
+items-pane-profile-name = שם הפרופיל:
 items-pane-checkbox-accounts = חשבונות והגדרות
 items-pane-checkbox-calendars = לוחות שנה
 items-pane-checkbox-mail-messages = הודעות דואר
@@ -129,6 +132,14 @@ export-brand-name = { -brand-product-name }
 summary-pane-title = נתונים לייבוא
 summary-pane-start = התחלה בייבוא
 summary-pane-warning = יהיה צורך להפעיל מחדש את { -brand-product-name } לאחר השלמת הייבוא.
+summary-pane-start-over = הפעלה מחדש של כלי הייבוא
+
+## Footer area
+
+footer-help = זקוקים לעזרה?
+footer-import-documentation = תיעוד לייבוא
+footer-export-documentation = תיעוד לייצוא
+footer-support-forum = פורום תמיכה
 
 ## Step navigation on top of the wizard pages
 
