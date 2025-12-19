@@ -9,8 +9,10 @@ export-page-title = ייצוא
 
 import-start = כלי ייבוא
 import-start-title = ייבוא הגדרות או נתונים מיישום או קובץ.
+import-start-description = יש לבחור במקור שממנו ברצונך לייבא. בהמשך תוצג בקשה לבחור אילו נתונים יש לייבא.
 import-from-app = ייבוא מיישום
 import-file = ייבוא מקובץ
+import-file-title = יש לבחור בקובץ כדי לייבא את התוכן שלו.
 import-calendar-title = ייבוא קובץ לוח שנה
 export-profile = ייצוא
 
@@ -89,8 +91,24 @@ calendar-import-into-new-calendar2 = יצירת לוח שנה חדש בשם <str
 # $targetCalendar (string) - name of the calendar that will be created
 calendar-summary-description = ייווצר לוח שנה חדש בשם ״{ $targetCalendar }״.
 
+## Import dialog
+
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-importing2 = בתהליך ייבוא… { $progressPercent }
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-exporting2 = בתהליך ייצוא… { $progressPercent }
+progress-pane-finished-desc2 = הושלם.
+error-pane-title = שגיאה
+error-message-zip-file-too-big2 = קובץ ה־ZIP שנבחר גדול מ־2GB. נא לחלץ אותו קודם, ולאחר מכן לבצע ייבוא מהתיקייה שחולצה במקום זאת.
+error-message-extract-zip-file-failed2 = חילוץ קובץ ה־ZIP נכשל. נא לחלץ אותו באופן ידני, ולאחר מכן לבצע ייבוא מהתיקייה שחולצה במקום זאת.
+error-message-failed = הייבוא נכשל באופן בלתי צפוי, ייתכן שמידע נוסף זמין במסוף השגיאות.
+error-failed-to-parse-ics-file = לא נמצאו פריטים הניתנים לייבוא בקובץ.
+error-export-failed = הייצוא נכשל באופן בלתי צפוי, ייתכן שמידע נוסף זמין במסוף השגיאות.
+error-message-no-profile = לא נמצא פרופיל.
+
 ## <csv-field-map> element
 
+csv-first-row-contains-headers = השורה הראשונה מכילה שמות שדות
 csv-source-field = שדה המקור
 
 ## Export tab
