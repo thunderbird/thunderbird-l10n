@@ -41,9 +41,9 @@ source-file2 = ייבוא מקובץ
 ## Import from file selections
 
 file-profile2 = ייבוא פרופיל מגובה
-file-profile-description = יש לבחור פרופיל Thunderbird שגובה בעבר (‎.zip)‏
+file-profile-description = נא לבחור פרופיל Thunderbird שגובה בעבר (‎.zip)‏
 file-calendar = ייבוא לוחות שנה
-file-calendar-description = יש לבחור קובץ המכיל לוחות שנה או אירועים מיוצאים (‎.ics)‏
+file-calendar-description = נא לבחור קובץ המכיל לוחות שנה או אירועים מיוצאים (‎.ics)‏
 
 ## Import from app profile steps
 
@@ -76,18 +76,22 @@ addr-book-vcard-file = קובץ vCard ‏(‎.vcf, .vcard)
 addr-book-sqlite-file = קובץ מסד נתונים של SQLite‏ (‎.sqlite)
 addr-book-mab-file = קובץ מסד נתונים של Mork‏ (‎.mab)
 addr-book-csv-field-map-title = התאמת שמות השדות
+addr-book-directories-title = נא לבחור לאן לייבא את הנתונים שנבחרו
 addr-book-directories-pane-source = קובץ המקור:
 # $addressBookName (string) - name of the address book to import into
 addr-book-summary-title = ייבוא הנתונים שנבחרו לספרייה ״{ $addressBookName }״
 
 ## Import from calendar file steps
 
+import-from-calendar-file-desc = נא לבחור את קובץ ה־iCalendar (‏‎.ics)‏ שברצונך לייבא.
+calendar-items-title = נא לבחור אילו פריטים לייבא.
 calendar-items-loading = פריטים נטענים…
 calendar-items-filter-input2 =
     .label = סינון פריטים
     .placeholder = סינון פריטים…
 calendar-select-all-items = בחירת הכול
 calendar-deselect-all-items = ביטול בחירה מהכול
+calendar-target-title = נא לבחור לאן לייבא את הפריטים שנבחרו.
 # $targetCalendar (string) - name of the new calendar that would be created
 calendar-import-into-new-calendar2 = יצירת לוח שנה חדש בשם <strong>״{ $targetCalendar }״</strong>
 # $targetCalendar (string) - name of the calendar that will be created
