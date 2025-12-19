@@ -49,10 +49,15 @@ from-app-outlook = ייבוא מ־{ app-name-outlook }
 from-app-apple-mail = ייבוא מ־{ app-name-apple-mail }
 profiles-pane-title-thunderbird = ייבוא הגדרות ונתונים מפרופיל { app-name-thunderbird }.
 profiles-pane-title-seamonkey = ייבוא הגדרות ונתונים מפרופיל { app-name-seamonkey }.
-profiles-pane-title-outlook = ייבא נתונים מ־{ app-name-outlook }.
-profiles-pane-title-apple-mail = ייבא הודעות מ־{ app-name-apple-mail }.
+profiles-pane-title-outlook = ייבוא נתונים מ־{ app-name-outlook }.
+profiles-pane-title-apple-mail = ייבוא הודעות מ־{ app-name-apple-mail }.
 profile-source = ייבוא מפרופיל
+# $profileName (string) - name of the profile
+profile-source-named = ייבוא מהפרופיל <strong>"{ $profileName }"</strong>
+profile-file-picker-directory = בחירת תיקיית פרופיל
+profile-file-picker-archive = בחירת קובץ <strong>ZIP</strong>
 profile-file-picker-archive-description = קובץ ה־ZIP חייב להיות קטן מ־2GB.
+profile-file-picker-archive-title = בחירת קובץ ZIP (קטן מ־2GB)
 items-pane-checkbox-accounts = חשבונות והגדרות
 items-pane-checkbox-calendars = לוחות שנה
 items-pane-checkbox-mail-messages = הודעות דואר
@@ -66,9 +71,46 @@ addr-book-ldif-file = קובץ LDIF ‏(‎.ldif)‏
 addr-book-vcard-file = קובץ vCard ‏(‎.vcf, .vcard)
 addr-book-sqlite-file = קובץ מסד נתונים של SQLite‏ (‎.sqlite)
 addr-book-mab-file = קובץ מסד נתונים של Mork‏ (‎.mab)
-addr-book-directories-pane-source = קובץ מקור:
+addr-book-csv-field-map-title = התאמת שמות השדות
+addr-book-directories-pane-source = קובץ המקור:
+# $addressBookName (string) - name of the address book to import into
+addr-book-summary-title = ייבוא הנתונים שנבחרו לספרייה ״{ $addressBookName }״
 
 ## Import from calendar file steps
 
+calendar-items-loading = פריטים נטענים…
+calendar-items-filter-input2 =
+    .label = סינון פריטים
+    .placeholder = סינון פריטים…
 calendar-select-all-items = בחירת הכול
 calendar-deselect-all-items = ביטול בחירה מהכול
+# $targetCalendar (string) - name of the new calendar that would be created
+calendar-import-into-new-calendar2 = יצירת לוח שנה חדש בשם <strong>״{ $targetCalendar }״</strong>
+# $targetCalendar (string) - name of the calendar that will be created
+calendar-summary-description = ייווצר לוח שנה חדש בשם ״{ $targetCalendar }״.
+
+## <csv-field-map> element
+
+csv-source-field = שדה המקור
+
+## Export tab
+
+export-profile-description = אם הפרופיל הנוכחי שלך גדול מ־2GB, אנו ממליצים לך לגבות אותו בעצמך.
+export-open-profile-folder = פתיחת תיקיית הפרופיל
+export-file-picker2 = ייצוא לקובץ ZIP
+export-brand-name = { -brand-product-name }
+
+## Summary pane
+
+summary-pane-title = נתונים לייבוא
+summary-pane-start = התחלה בייבוא
+summary-pane-warning = יהיה צורך להפעיל מחדש את { -brand-product-name } לאחר השלמת הייבוא.
+
+## Step navigation on top of the wizard pages
+
+step-list =
+    .aria-label = שלבי ייבוא
+step-confirm = אישור
+# Variables:
+# $number (number) - step number
+step-count = { $number }
