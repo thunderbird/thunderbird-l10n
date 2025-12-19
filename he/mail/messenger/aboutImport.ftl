@@ -41,7 +41,9 @@ source-file2 = ייבוא מקובץ
 ## Import from file selections
 
 file-profile2 = ייבוא פרופיל מגובה
+file-profile-description = יש לבחור פרופיל Thunderbird שגובה בעבר (‎.zip)‏
 file-calendar = ייבוא לוחות שנה
+file-calendar-description = יש לבחור קובץ המכיל לוחות שנה או אירועים מיוצאים (‎.ics)‏
 
 ## Import from app profile steps
 
