@@ -18,7 +18,7 @@
 <!ENTITY SearchNameOrEmail.label "Enw neu E-bost">
 <!ENTITY addtoToFieldMenu.label "Ychwanegu i'r maes">
 <!ENTITY addtoToFieldMenu.accesskey "m">
-<!ENTITY addtoCcFieldMenu.label "Ychwanegu i faes Cc">
+<!ENTITY addtoCcFieldMenu.label "Ychwanegu at faes Cc">
 <!ENTITY addtoCcFieldMenu.accesskey "C">
 <!ENTITY addtoBccFieldMenu.label "Ychwanegu i faed Bcc">
 <!ENTITY addtoBccFieldMenu.accesskey "B">
