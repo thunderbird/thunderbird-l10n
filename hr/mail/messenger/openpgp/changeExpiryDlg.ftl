@@ -7,7 +7,7 @@ openpgp-change-expiry-title = Promjena isteka ključa
 # $date (String) - Date the key is expiring on.
 info-will-expire = Ovaj ključ je trenutno postavljen da ističe { $date }.
 info-already-expired = Ovaj je ključ već istekao.
-info-does-not-expire = Ovaj je ključ trenutno konfiguriran da nikada ne istječe.
+info-does-not-expire = Ovaj je ključ trenutno konfiguriran da nikada ne ističe.
 info-explanation-1 = <b>Kada ključ istekne</b>, više se neće moći koristiti za kriptiranje ili digitalno potpisivanje.
 # Do not translate: OpenPGP
 info-explanation-1-complex = Ovaj OpenPGP ključ sastoji se od primarnog ključa i barem jednog podključa <b>s različitim datumima isteka</b>.
@@ -17,10 +17,10 @@ usage-label = Upotreba:
 algorithm-label = Algoritam:
 created-label = Stvoreno:
 expire-no-change-label = Nemojte mijenjati datum isteka
-expire-in-time-label = Ključ istječe za:
-expire-never-expire-label = Ključ nikada ne istječe
+expire-in-time-label = Ključ ističe za:
+expire-never-expire-label = Ključ nikada ne ističe
 partial-label-expired = isteklo
-partial-label-never-expires = nikad ne istječe
+partial-label-never-expires = nikad ne ističe
 # Variables:
 # $date (String) - Date the key is expiring on.
-partial-label-expires = istječe: { $date }
+partial-label-expires = ističe: { $date }
