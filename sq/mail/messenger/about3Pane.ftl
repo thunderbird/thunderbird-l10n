@@ -187,6 +187,9 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Shfaq Madhësi Dosjeje
+# Context menu item to toggle display of full folder path in compact mode.
+folder-pane-header-toggle-full-path =
+    .label = Shfaq Shtegun e Plotë
 folder-pane-header-hide-local-folders =
     .label = Fshihi Dosjet Vendore
 folder-pane-mode-context-button =
@@ -503,3 +506,17 @@ folder-pane-context-mark-folder-read =
 folder-pane-context-reset-sort =
     .label = Rikthe te Parazgjedhja Renditje Dosjesh
     .accesskey = R
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+folder-pane-context-compact =
+    .label =
+        { $count ->
+            [1] Ngjeshe Dosjen
+           *[other] Compact Folders
+        }
+    .accesskey = N
+# One or more servers selected for compacting ALL their folders. Only this or
+# folder-pane-context-compact string will appear at a time, not both.
+folder-pane-context-compact-all =
+    .label = Ngjeshi Krejt Dosjet
+    .accesskey = N
