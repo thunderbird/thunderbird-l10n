@@ -588,17 +588,17 @@ folder-pane-context-reset-sort =
 folder-pane-context-compact =
     .label =
         { $count ->
-            [1] Ffolder Compact
-            [zero] Cywasgu'r Ffolderi
-            [one] Cywasgu'r Ffolderi
-            [two] Cywasgu'r Ffolderi
-            [few] Cywasgu'r Ffolderi
-            [many] Cywasgu'r Ffolderi
-           *[other] Cywasgu'r Ffolderi
+            [1] Cywasgu Ffolder
+            [zero] Cywasgu Ffolderi
+            [one] Cywasgu Ffolder
+            [two] Cywasgu Ffolder
+            [few] Cywasgu Ffolder
+            [many] Cywasgu Ffolder
+           *[other] Cywasgu Ffolder
         }
-    .accesskey = C
+    .accesskey = F
 # One or more servers selected for compacting ALL their folders. Only this or
 # folder-pane-context-compact string will appear at a time, not both.
 folder-pane-context-compact-all =
-    .label = Compact Pob Ffolder
+    .label = Cywasgu Pob Ffolder
     .accesskey = C

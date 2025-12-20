@@ -149,20 +149,20 @@ menu-file-save-as-file =
 menu-file-compact =
     .label =
         { $count ->
-            [1] Ffolder Compact
-            [zero] Cywasgu'r Ffolderi
-            [one] Cywasgu'r Ffolderi
-            [two] Cywasgu'r Ffolderi
-            [few] Cywasgu'r Ffolderi
-            [many] Cywasgu'r Ffolderi
-           *[other] Cywasgu'r Ffolderi
+            [1] Cywasgu Ffolder
+            [zero] Cywasgu Ffolderi
+            [one] Cywasgu Ffolder
+            [two] Cywasgu Ffolderi
+            [few] Cywasgu Ffolderi
+            [many] Cywasgu Ffolderi
+           *[other] Cywasgu Ffolderi
         }
-    .accesskey = C
+    .accesskey = F
 # One or more servers selected for compacting all their folders. Only this or
 # menu-file-compact string will appear at a time, not both.
 menu-file-compact-all =
-    .label = Compact Pob Ffolder
-    .accesskey = C
+    .label = Cywasgu Pob Ffolder
+    .accesskey = F
 
 ## Edit Menu
 
