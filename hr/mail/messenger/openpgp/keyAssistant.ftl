@@ -30,6 +30,7 @@ openpgp-key-assistant-key-collected-attachment = privitak e-pošte
 
 ## Dialog buttons
 
+openpgp-key-assistant-issue-resolve-button = Razriješi…
 openpgp-key-assistant-view-key-button = Prikaži ključ …
 openpgp-key-assistant-recipients-show-button = Prikaži
 openpgp-key-assistant-recipients-hide-button = Sakrij
