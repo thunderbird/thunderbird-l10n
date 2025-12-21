@@ -507,3 +507,17 @@ folder-pane-context-mark-folder-read =
 folder-pane-context-reset-sort =
     .label = Επαναφορά σειράς φακέλων
     .accesskey = Ε
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+folder-pane-context-compact =
+    .label =
+        { $count ->
+            [1] Συμπίεση φακέλου
+           *[other] Συμπίεση φακέλων
+        }
+    .accesskey = φ
+# One or more servers selected for compacting ALL their folders. Only this or
+# folder-pane-context-compact string will appear at a time, not both.
+folder-pane-context-compact-all =
+    .label = Συμπίεση όλων των φακέλων
+    .accesskey = φ
