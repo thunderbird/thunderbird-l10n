@@ -133,6 +133,7 @@ account-hub-email-manual-configuration = Configuration manual
 account-hub-notification-unknown-host = Informationes de configuration trovates sur un dominio de tertie partes
 account-hub-ssl-noencryption = Necun
 account-hub-email-skip-button = Saltar
+account-hub-finding-sync-accounts = Conto create. Discoperiente libros de adresses e agendas…
 account-hub-result-username-label = Nomine de usator
     .title = Nomine de usator
 account-hub-name-label = Nomine complete
