@@ -140,6 +140,21 @@ folder-name-all-mail = Alle mails
 menu-file-save-as-file =
     .label = Fil…
     .accesskey = F
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [1] Optimer mappe
+            [one] Optimer mappe
+           *[other] Optimer mapper
+        }
+    .accesskey = i
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = Optimer alle mapper
+    .accesskey = i
 
 ## Edit Menu
 

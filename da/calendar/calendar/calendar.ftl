@@ -24,7 +24,7 @@ home-calendar-name = Min kalender
 untitled-calendar-name = Unavngivet kalender
 # Event status: Tentative, Confirmed, Cancelled
 # ToDo task status: NeedsAction, InProcess, Completed, Cancelled
-status-tentative = Forsøgsvis
+status-tentative = Foreløbig
 status-confirmed = Bekræftet
 event-status-cancelled = Annulleret
 todo-status-cancelled = Annulleret
