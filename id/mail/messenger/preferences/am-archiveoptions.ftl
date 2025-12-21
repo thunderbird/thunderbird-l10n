@@ -28,3 +28,5 @@ inbox-folder-name =
     .label = Kotak Masuk
 child-folder-name =
     .label = Sub Folder Kotak Masuk
+sibling-folder-name =
+    .label = Sejajar Kotak Masuk

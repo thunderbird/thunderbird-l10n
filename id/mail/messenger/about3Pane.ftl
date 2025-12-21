@@ -176,6 +176,9 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Tampilkan Ukuran Folder
+# Context menu item to toggle display of full folder path in compact mode.
+folder-pane-header-toggle-full-path =
+    .label = Tampilkan Path Lengkap
 folder-pane-header-hide-local-folders =
     .label = Sembunyikan Folder Lokal
 folder-pane-mode-context-button =
@@ -460,3 +463,17 @@ folder-pane-context-mark-folder-read =
 folder-pane-context-reset-sort =
     .label = Atur Ulang Urutan Folder
     .accesskey = r
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+folder-pane-context-compact =
+    .label =
+        { $count ->
+            [1] Mampatkan Folder
+           *[other] Mampatkan Folder
+        }
+    .accesskey = F
+# One or more servers selected for compacting ALL their folders. Only this or
+# folder-pane-context-compact string will appear at a time, not both.
+folder-pane-context-compact-all =
+    .label = Mampatkan Semua Folder
+    .accesskey = F

@@ -128,12 +128,28 @@ folder-toolbar-toggle-folder-compact-view =
 ## Folder names
 
 folder-name-spam = Spam
+# Gmail's "All Mail" folder. Please make sure this is the same string used in the Gmail web UI for your language.
+folder-name-all-mail = Semua Surat
 
 ## File Menu
 
 menu-file-save-as-file =
     .label = Berkas…
     .accesskey = B
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [1] Mampatkan Folder
+           *[other] Mampatkan Folder
+        }
+    .accesskey = F
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = Mampatkan Semua Folder
+    .accesskey = F
 
 ## Edit Menu
 
@@ -224,6 +240,9 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Teruskan
     .accesskey = T
+mail-context-menu-forward-inline =
+    .label = Menyatu
+    .accesskey = M
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-menu-forward-as-attachment =

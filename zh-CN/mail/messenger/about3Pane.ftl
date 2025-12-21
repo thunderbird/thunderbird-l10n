@@ -463,3 +463,17 @@ folder-pane-context-mark-folder-read =
 folder-pane-context-reset-sort =
     .label = 重置文件夹顺序
     .accesskey = R
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+folder-pane-context-compact =
+    .label =
+        { $count ->
+            [1] 压缩文件夹
+           *[other] 压缩文件夹
+        }
+    .accesskey = F
+# One or more servers selected for compacting ALL their folders. Only this or
+# folder-pane-context-compact string will appear at a time, not both.
+folder-pane-context-compact-all =
+    .label = 压缩所有文件夹
+    .accesskey = F
