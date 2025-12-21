@@ -32,3 +32,6 @@ isp-headers-checkbox =
 isp-warning-description = Jika diaktifkan, { -brand-short-name } akan secara otomatis menganggap pesan yang ditandai oleh pengklasifikasi eksternal ini sebagai spam.
 spam-classification-legend = Pilihan
 spam-actions-legend = Tujuan dan Retensi
+global-spam-preferences-button =
+    .label = Pengaturan Spam Global…
+    .accesskey = G

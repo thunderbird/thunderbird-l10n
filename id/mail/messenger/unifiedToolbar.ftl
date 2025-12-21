@@ -57,6 +57,7 @@ customize-button-style-icons-only-option = Ikon saja
 customize-button-style-text-only-option = Teks saja
 customize-cancel = Batal
 customize-save = Simpan
+customize-unsaved-changes = Perubahan yang belum disimpan di ruang lain
 customize-search-bar2 =
     .label = Cari tombol bilah alat
     .placeholder = Cari tombol bilah alat…
@@ -65,6 +66,13 @@ customize-spaces-tabs =
 customize-main-toolbar-target =
     .aria-label = Bilah alat utama
 customize-palette-generic-title = Tersedia untuk semua Spaces
+customize-palette-mail-specific-title = Hanya tersedia untuk Ruang Surat
+customize-palette-addressbook-specific-title = Hanya tersedia untuk Ruang Buku Alamat
+customize-palette-calendar-specific-title = Hanya tersedia untuk Ruang Kalender
+customize-palette-tasks-specific-title = Hanya tersedia untuk Ruang Tugas
+customize-palette-chat-specific-title = Hanya tersedia untuk Ruang Obrolan
+customize-palette-settings-specific-title = Hanya tersedia untuk Ruang Pengaturan
+customize-palette-extension-specific-title = Hanya tersedia untuk Ruang ini
 
 ## Unified toolbar customization palette context menu
 

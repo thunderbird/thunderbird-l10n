@@ -47,6 +47,7 @@ compose-html-style-title = Gaya HTML
 composition-addressing-header = Pengalamatan
 privacy-main-header = Privasi
 privacy-passwords-header = Sandi
+privacy-spam-header = Spam
 privacy-junk-header = Sampah
 collection-header = { -brand-short-name } Pengumpulan dan Penggunaan Data
 collection-description = Kami berusaha memberi Anda pilihan dan mengumpulkan hanya apa yang kami butuhkan untuk menyediakan dan meningkatkan { -brand-short-name } bagi semua orang. Kami selalu meminta izin sebelum menerima informasi pribadi.
@@ -379,6 +380,9 @@ auto-mark-as-read =
 mark-read-no-delay =
     .label = Langsung saat ditampilkan
     .accesskey = d
+view-attachments-inline =
+    .label = Lihat lampiran memadu
+    .accesskey = L
 
 ## Note: This will concatenate to "After displaying for [___] seconds",
 ## using (mark-read-delay) and a number (seconds-label).
@@ -437,7 +441,14 @@ dark-message-mode-toggle-label =
     .label = Tampilkan pengalih mode pesan gelap
     .accesskey = T
 dark-message-mode-toggle-description = Tampilkan penjungkit di header pesan untuk menonaktifkan mode pesan gelap dengan cepat
+account-hub-legend = Hub akun
+account-hub-checkbox-label =
+    .label = Buat akun di Hub Akun baru
+    .accesskey = k
 account-hub-checkbox-description = Alur pembuatan akun surel baru eksperimental
+account-hub-ab-checkbox-label =
+    .label = Buat buku alamat di Hub Akun baru
+    .accesskey = A
 account-hub-ab-checkbox-description = Alur pembuatan buku alamat baru eksperimental
 
 ## Compose Tab
