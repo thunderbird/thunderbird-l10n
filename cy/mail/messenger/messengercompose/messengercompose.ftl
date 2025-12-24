@@ -256,7 +256,7 @@ to-address-row-label =
     .value = At
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
-    .label = At Faes
+    .label = Maes At
     .accesskey = F
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
@@ -266,7 +266,7 @@ show-to-row-extra-menuitem =
     .accesskey = A
 #   $key (String) - the shortcut key for this field
 show-to-row-button = At
-    .title = Dangos At Faes ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+    .title = Dangos Maes At ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 cc-address-row-label =
     .value = Cc
 #   $key (String) - the shortcut key for this field
