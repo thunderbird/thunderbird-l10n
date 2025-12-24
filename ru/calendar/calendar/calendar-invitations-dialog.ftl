@@ -28,7 +28,7 @@ calendar-invitations-none = Нет
 # Invitations dialog
 calendar-invitations-title = Приглашения
 calendar-invitations-status-updating = Обновление списка приглашений.
-calendar-invitations-status-none = Не найдено не подтвержденнных приглашений.
+calendar-invitations-status-none = Не найдено неподтверждённных приглашений.
 # Invitations list buttons
 calendar-invitations-accept =
     .label = Принять

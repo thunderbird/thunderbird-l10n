@@ -5,7 +5,7 @@
 <!-- Calendar Invitations Dialog -->
 <!ENTITY calendar.invitations.dialog.invitations.text "Приглашения">
 <!ENTITY calendar.invitations.dialog.statusmessage.updating.text "Обновление списка приглашений.">
-<!ENTITY calendar.invitations.dialog.statusmessage.noinvitations.text "Не найдено не подтвержденнных приглашений.">
+<!ENTITY calendar.invitations.dialog.statusmessage.noinvitations.text "Не найдено неподтверждённных приглашений.">
 <!-- Calendar Invitations List -->
 <!ENTITY calendar.invitations.list.accept.button.label "Принять">
 <!ENTITY calendar.invitations.list.decline.button.label "Отклонить">

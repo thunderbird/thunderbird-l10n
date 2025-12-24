@@ -138,7 +138,7 @@ command-invite = { $commandName } &lt;userId&gt;: Пригласить поль�
 # $commandName is the command name
 command-kick = { $commandName } &lt;userId&gt; [&lt;причина&gt;]: Изгнать пользователя с userId из комнаты с дополнительным сообщением о причине. Требуется разрешение на изгнание пользователей.
 # $commandName is the command name
-command-nick = { $commandName }&lt;отображаемое имя&gt;: Изменить свое отображаемое имя.
+command-nick = { $commandName }&lt;отображаемое имя&gt;: Изменить своё отображаемое имя.
 # $commandName is the command name
 command-op = { $commandName } &lt;userId&gt; [&lt;уровень власти&gt;]: Определить уровень власти пользователя. Введите целочисленное значение: Пользователь: 0, Модератор: 50 и Администратор: 100. Если не указан уровень, по умолчанию он равен 50. Требуется разрешение на изменение уровней власти участника. Не работает на других админах, кроме вас самих.
 # $commandName is the command name
@@ -192,7 +192,7 @@ message-invited = { $user } пригласил(а) { $userWhoGotInvited }.
 message-display-name-changed = { $user } изменил(а) своё отображаемое имя с { $oldDisplayName } на { $newDisplayName }.
 #    $user is the name of the user who set their display name.
 #    $changedName is the newly set display name.
-message-display-name-set = { $user } установил(а) в качестве своего отображаемого имени { $changedName }.
+message-display-name-set = { $user } устанавливает в качестве своего отображаемого имени: { $changedName }.
 #    $user is the name of the user who removed their display name.
 #    $nameRemoved is the old display name which has been removed.
 message-display-name-remove = { $user } удалил(а) своё отображаемое имя { $nameRemoved }.
