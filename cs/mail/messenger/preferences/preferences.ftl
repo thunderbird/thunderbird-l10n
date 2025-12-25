@@ -687,7 +687,7 @@ cookies-button =
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Global Privacy Control (GPC)
 global-privacy-control-description =
-    .label = Říkat stránkám, aby neprodávaly a nesdílely vaše data
+    .label = Říkat webům, aby neprodávaly ani nesdílely vaše údaje
     .accesskey = n
 do-not-track-removal = Funkce „Do Not Track“ už není podporována
 do-not-track-label =
