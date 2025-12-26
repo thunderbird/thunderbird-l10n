@@ -744,6 +744,45 @@ preferences-doh-setting-default =
 preferences-doh-default-desc = { -brand-short-name } memutuskan kapan menggunakan DNS aman untuk melindungi privasi Anda.
 preferences-doh-default-detailed-desc-1 = Gunakan DNS aman di wilayah yang itu tersedia
 preferences-doh-default-detailed-desc-2 = Gunakan resolver DNS bawaan Anda jika ada masalah dengan penyedia DNS aman
+preferences-doh-default-detailed-desc-3 = Gunakan penyedia lokal, jika memungkinkan
+preferences-doh-default-detailed-desc-4 = Matikan saat VPN, kontrol orang tua, atau kebijakan perusahaan aktif
+preferences-doh-default-detailed-desc-5 = Matikan jika jaringan memberi tahu { -brand-short-name } agar tidak menggunakan DNS aman
+preferences-doh-enabled-desc = Anda mengontrol kapan harus menggunakan DNS aman dan memilih penyedia Anda.
+preferences-doh-enabled-detailed-desc-1 = Gunakan penyedia yang Anda pilih
+preferences-doh-enabled-detailed-desc-2 = Hanya gunakan resolver DNS bawaan Anda jika ada masalah dengan DNS aman
+preferences-doh-setting-strict =
+    .label = Perlindungan Maksimal
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } akan selalu menggunakan DNS aman. Anda akan mendapatkan peringatan risiko keamanan sebelum kami menggunakan DNS sistem Anda.
+preferences-doh-strict-detailed-desc-1 = Hanya gunakan penyedia yang Anda pilih
+preferences-doh-strict-detailed-desc-2 = Selalu peringatkan jika DNS aman tidak tersedia
+preferences-doh-strict-detailed-desc-3 = Jika DNS aman tidak tersedia, situs tidak akan dimuat atau berfungsi dengan baik
+preferences-doh-setting-off =
+    .label = Mati
+    .accesskey = M
+preferences-doh-off-desc = Gunakan resolver DNS bawaan Anda
+preferences-doh-checkbox-warn =
+    .label = Peringatkan jika pihak ketiga secara aktif mencegah DNS aman
+    .accesskey = P
+preferences-doh-select-resolver = Pilih penyedia:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (Baku)
+preferences-doh-url-custom =
+    .label = Ubahan
+    .accesskey = U
+
+## Keyservers
+
+email-e2ee-key-servers-legend = Server Kunci OpenPGP
+email-e2ee-key-servers-intro =
+    Server kunci menerima dan kemudian menyajikan kunci publik yang ada kepada pengguna.
+    Ini memungkinkan Anda untuk memublikasikan kunci publik Anda dan menemukan dan menyegarkan kunci orang lain.
+email-e2ee-key-servers-use-following = Gunakan server kunci berikut:
+email-e2ee-key-servers-add = Tambah…
+email-e2ee-key-servers-reset = Setel Ulang Daftar Server
+email-e2ee-key-servers-add-title = Tambahkan Server Kunci
 
 ## Chat Tab
 
