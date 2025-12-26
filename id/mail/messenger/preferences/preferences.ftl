@@ -624,6 +624,31 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = Anda tengah dalam mode FIPS. Mode ini mewajibkan Sandi Utama harus diisi.
 forms-master-pw-fips-desc = Sandi Gagal Diubah
+spam-marked-label =
+    .label = Saat pesan ditandai sebagai spam:
+    .accesskey = m
+spam-move-label =
+    .label = Pindahkan ke folder "Spam" akun
+    .accesskey = o
+spam-delete-label =
+    .label = Hapus pesan
+    .accesskey = H
+spam-read-description = Tandai pesan sebagai telah dibaca
+spam-read-manual-label =
+    .label = Saat ditandai sebagai spam secara manual
+    .accesskey = m
+spam-read-auto-label =
+    .label = Ketika { -brand-short-name } menentukan bahwa mereka adalah spam
+    .accesskey = t
+spam-log-label =
+    .label = Aktifkan pencatatan log filter spam adaptif
+    .accesskey = e
+spam-log-button =
+    .label = Tampilkan log
+    .accesskey = T
+reset-spam-button =
+    .label = Setel Ulang Data Pelatihan
+    .accesskey = P
 junk-description = Atur pengaturan surel sampah bawaan. Pengaturan surel sampah masing-masing akun dapat diatur pada Pengaturan Akun.
 junk-marked-label =
     .label = Saat pesan ditandai sebagai sampah:
@@ -690,6 +715,35 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Keputusan otomatis dapat ditimpa dengan mengaktifkan atau menonaktifkan enkripsi secara manual saat menulis pesan.
     Catatan: enkripsi selalu diaktifkan secara otomatis saat membalas pesan terenkripsi.
+
+## DoH Section
+
+preferences-doh-header = DNS melalui HTTPS
+preferences-doh-description = Domain Name System (DNS) melalui HTTPS mengirimkan permintaan Anda tentang nama domain melalui koneksi terenkripsi, menyediakan DNS yang aman dan mempersulit orang lain untuk melihat situs web mana yang akan Anda akses.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Status: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Penyedia: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = URL tidak valid
+preferences-doh-steering-status = Menggunakan penyedia lokal
+preferences-doh-status-active = Aktif
+preferences-doh-status-disabled = Mati
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Tidak aktif ({ $reason })
+preferences-doh-group-message = Aktifkan DNS melalui HTTPS menggunakan:
+preferences-doh-expand-section =
+    .tooltiptext = Informasi lebih lanjut
+preferences-doh-setting-default =
+    .label = Perlindungan Baku
+    .accesskey = d
+preferences-doh-default-desc = { -brand-short-name } memutuskan kapan menggunakan DNS aman untuk melindungi privasi Anda.
+preferences-doh-default-detailed-desc-1 = Gunakan DNS aman di wilayah yang itu tersedia
+preferences-doh-default-detailed-desc-2 = Gunakan resolver DNS bawaan Anda jika ada masalah dengan penyedia DNS aman
 
 ## Chat Tab
 
