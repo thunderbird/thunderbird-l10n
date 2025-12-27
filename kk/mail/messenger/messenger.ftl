@@ -503,6 +503,18 @@ menu-mark-not-spam =
 mark-not-junk-key =
     .key = j
 
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Спамды тазарту
+    .accesskey = з
+
+## Thread pane.
+
+column-status-spam =
+    .label = Спам қалып-күйі
+    .tooltiptext = Спам қалып-күйі бойынша сұрыптау
+
 ## Message header.
 
 header-spam-button =
