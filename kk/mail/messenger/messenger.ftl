@@ -139,6 +139,21 @@ folder-name-all-mail = Барлық пошта
 menu-file-save-as-file =
     .label = Файл…
     .accesskey = Ф
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [1] Буманы ықшамдау
+            [one] Бумаларды ықшамдау
+           *[other] Буманы ықшамдау
+        }
+    .accesskey = Б
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = Барлық бумаларды ықшамдау
+    .accesskey = Б
 
 ## Edit Menu
 
@@ -502,6 +517,15 @@ menu-mark-not-spam =
     .accesskey = н
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Антиспам сүзгілерін орындау
+    .accesskey = С
+menu-run-spam-on-folder =
+    .label = Бумаға антиспам сүзгілерін орындау
+    .accesskey = с
+menu-delete-spam =
+    .label = Бумадан спам ретінде белгіленгендерді өшіру
+    .accesskey = ш
 
 ## Folder pane context.
 
@@ -533,6 +557,12 @@ archive-action = Архивтеу
 
 menuitem-label-spam =
     .label = Спам
+menuitem-label-spam-score-origin =
+    .label = Спам деңгейінің қайнар көзі
+menuitem-label-spam-percentage =
+    .label = Спам пайызы
+menuitem-label-spam-status =
+    .label = Спам қалып-күйі
 message-priority-lowest = Ең төмен
 message-priority-low = Төмен
 # Normal priority is often blank, depending on the consumers of these strings.
@@ -566,6 +596,12 @@ and-others = және басқалар
 
 ## Prompts
 
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = { $folder } босату керек пе?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = { $folder } бумасынан барлық хабарламалар және ішкі бумаларды өшіру керек пе?
 prompt-dont-ask-again = Келесі рет сұрамау.
 
 ## Spam commands

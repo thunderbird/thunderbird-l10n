@@ -38,6 +38,15 @@ certificate-check-test-button = Сервермен байланысты текс
 certificate-check-view-button = Сертификатты қарау
 certificate-check-add-exception-button = Ережеден тыс жағдайды қосу
 certificate-check-remove-exception-button = Ережеден тыс жағдайды өшіру
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = { $hostname } серверіне қосылым тексерілуде…
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = { $hostname } серверіне қауіпсіз қосылым сәтті орнатылды.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-failure = { $hostname } серверіне қосылу сәтсіз аяқталды.
 certificate-check-exception-added = Сертификаттың ережеден тыс жағдайы қосылды.
 certificate-check-exception-removed = Сертификаттың ережеден тыс жағдайы өшірілді.
 # Variables:

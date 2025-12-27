@@ -716,6 +716,8 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = HTTPS арқылы DNS
+preferences-doh-description = HTTPS арқылы домендік атаулар жүйесі (DNS) шифрленген байланыс арқылы домендік атқа сұрауыңызды жібереді, осылай ол қауіпсіз DNS ұсынады және басқаларға қай веб-сайтқа кіргіңіз келетінін көруді қиындатады.
 # Variables:
 #   $status (string) - The status of the DoH connection
 preferences-doh-status = Қалып-күйі: { $status }
@@ -775,8 +777,16 @@ preferences-doh-url-custom =
 ## Keyservers
 
 email-e2ee-key-servers-legend = OpenPGP кілт серверлері
+email-e2ee-key-servers-intro =
+    Кілттер сервері бұрыннан бар ашық кілттерді қабылдайды және оларды пайдаланушыларға ұсынады.
+    Ол сізге өзіңіздің ашық кілтіңізді жариялауға, сондай-ақ басқалардың кілттерін табуға және жаңартуға мүмкіндік береді.
 email-e2ee-key-servers-use-following = Келесі кілт серверлерін пайдалану:
 email-e2ee-key-servers-add = Қосу…
+email-e2ee-key-servers-reset = Сервер тізімін қалпына келтіру
+email-e2ee-key-servers-add-title = Кілттер серверін қосу
+email-e2ee-key-servers-add-text = Қосу үшін кілттер серверінің URL адресін енгізіңіз.
+email-e2ee-key-servers-add-failed-title = Кілттер серверін қосу сәтсіз аяқталды
+email-e2ee-key-servers-add-failed-text = Берілген URL адресіндені кілттер серверіне қосылу мүмкін болмады.
 
 ## Chat Tab
 
