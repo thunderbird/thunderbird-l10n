@@ -62,15 +62,15 @@ collection-description =
 collection-privacy-notice = Zásady ochrany osobních údajů
 collection-health-report-telemetry-disabled =
     { -vendor-short-name.case-status ->
-        [with-cases] Odesílání technických dat a dat o interakcích { -vendor-short-name(case: "dat") } není nadále povoleno. Všechna historická data budou smazána do 30 dnů.
-       *[no-cases] Odesílání technických dat a dat o interakcích organizaci { -vendor-short-name } není nadále povoleno. Všechna historická data budou smazána do 30 dnů.
+        [with-cases] Odesílání technických údajů a údajů o interakcích { -vendor-short-name(case: "dat") } není nadále povoleno. Všechny historické údaje budou smazány do 30 dnů.
+       *[no-cases] Odesílání technických údajů a údajů o interakcích organizaci { -vendor-short-name } není nadále povoleno. Všechny historické údaje budou smazány do 30 dnů.
     }
 collection-health-report-telemetry-disabled-link = Zjistit více
 collection-health-report =
     .label =
         { -vendor-short-name.case-status ->
-            [with-cases] Odesílat { -vendor-short-name(case: "dat") } technická data a data o interakcích
-           *[no-cases] Odesílat technická data a data o interakcích
+            [with-cases] Odesílat { -vendor-short-name(case: "dat") } technické údaje a údaje o interakcích
+           *[no-cases] Odesílat technické údaje a údaje o interakcích
         }
     .accesskey = r
 collection-health-report-link = Zjistit více
