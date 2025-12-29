@@ -375,7 +375,7 @@ addon-removal-confirmation-button = Удалить
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Удалить { $name }, а также его конфигурацию и данные из { -brand-short-name }?
 caret-browsing-prompt-title = Активный курсор
-caret-browsing-prompt-text = Нажатие клавиши F7 включает или выключает режим активного курсора. В этом режиме, поместив курсор в текст, вы можете выделять текст с помощью клавиатуры. Включить этот режим?
+caret-browsing-prompt-text = Нажатие клавиши F7 включает или отключает режим активного курсора. В этом режиме, поместив курсор в текст, вы можете выделять текст с помощью клавиатуры. Включить этот режим?
 caret-browsing-prompt-check-text = Больше не спрашивать.
 repair-text-encoding-button =
     .label = Исправить кодировку текста

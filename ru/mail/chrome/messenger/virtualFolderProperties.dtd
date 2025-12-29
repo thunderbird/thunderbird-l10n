@@ -10,7 +10,7 @@
 <!ENTITY folderSelectionCaption.label "Выберите папки, в которых будет производиться поиск:">
 <!ENTITY chooseFoldersButton.label "Выбрать…">
 <!ENTITY chooseFoldersButton.accesskey "б">
-<!ENTITY searchOnline.label "Поиск онлайн (дает актуальные результаты для папок IMAP и групп новостей, но увеличивает время открытия папки)">
+<!ENTITY searchOnline.label "Поиск в сети (даёт актуальные результаты для папок IMAP и групп новостей, но увеличивает время открытия папки)">
 <!ENTITY searchOnline.accesskey "с">
 <!ENTITY newFolderButton.label "Создать">
 <!ENTITY newFolderButton.accesskey "з">

@@ -6,5 +6,5 @@
 <!ENTITY newFeedSettings.label "Настройки по умолчанию для новых лент новостей">
 <!ENTITY manageSubscriptions.label "Управление подписками…">
 <!ENTITY manageSubscriptions.accesskey "п">
-<!ENTITY feedWindowTitle.label "Мастер учетной записи лент новостей">
+<!ENTITY feedWindowTitle.label "Мастер учётной записи лент новостей">
 <!ENTITY feeds.accountName "Блоги и ленты новостей">

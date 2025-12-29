@@ -7,7 +7,7 @@ account-setup-tab-title = Настройка учётной записи
 ## Header
 
 account-setup-title = Настройка имеющейся у вас учётной записи электронной почты
-account-setup-description = Чтобы использовать текущий адрес электронной почты, введите свои учетные данные.
+account-setup-description = Чтобы использовать текущий адрес электронной почты, введите свои учётные данные.
 account-setup-secondary-description = { -brand-product-name } автоматически выполнит поиск рабочей и рекомендованной конфигурации сервера.
 account-setup-success-title = Учётная запись успешно создана
 account-setup-success-description = Теперь вы можете использовать эту учётную запись в { -brand-short-name }.
@@ -143,8 +143,8 @@ account-setup-result-username-different = Для получения: { $incoming
 # Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
 account-setup-credentials-incomplete = Ошибка аутентификации. Введённые учётные данные неверны, либо для входа в систему требуется отдельное имя пользователя. Обычно это имя пользователя, используемое для входа в домен Windows, с именем домена или без него (например, janedoe или AD\\janedoe)
 account-setup-credentials-wrong = Ошибка аутентификации. Пожалуйста, проверьте имя пользователя и пароль
-account-setup-find-settings-failed = { -brand-short-name } не удалось найти настройки для вашей учетной записи почты
-account-setup-exchange-config-unverifiable = Конфигурация не может быть проверена. Если ваше имя пользователя и пароль верны, вероятно, администратор сервера отключил выбранную конфигурацию для вашей учетной записи. Попробуйте выбрать другой протокол.
+account-setup-find-settings-failed = { -brand-short-name } не удалось найти настройки для вашей учётной записи почты
+account-setup-exchange-config-unverifiable = Конфигурация не может быть проверена. Если ваше имя пользователя и пароль верны, вероятно, администратор сервера отключил выбранную конфигурацию для вашей учётной записи. Попробуйте выбрать другой протокол.
 
 ## Manual configuration area
 

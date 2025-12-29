@@ -6,4 +6,4 @@ webext-experiment-warning = Вредоносные дополнения могу
 webext-perms-learn-more = Подробнее
 # Variables:
 #   $addonName (String): localized named of the extension that was just installed.
-addon-post-install-message = { $addonName } было добавлено.
+addon-post-install-message = «{ $addonName }» было добавлено.

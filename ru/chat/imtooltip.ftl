@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 buddy-username = Имя пользователя
-buddy-account = Учетная запись
+buddy-account = Учётная запись
 contact-tags = Метки
 encryption-tag = Статус шифрования
 message-status = Сообщение зашифровано

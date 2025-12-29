@@ -7,5 +7,5 @@
 <!ENTITY providerUninstall.cancel.label "Сохранить дополнение">
 <!ENTITY providerUninstall.cancel.accesskey "С">
 <!ENTITY providerUninstall.preName.label "Вы запросили удаление или отключение:">
-<!ENTITY providerUninstall.postName.label "Это приведет к тому, что календари представленные ниже будут отключены.">
+<!ENTITY providerUninstall.postName.label "Это приведёт к тому, что календари, представленные ниже, будут отключены.">
 <!ENTITY providerUninstall.reinstallNote.label "Если вы не планируете переустанавливать этот провайдер, вы можете отказаться от подписки на календари этого провайдера.">

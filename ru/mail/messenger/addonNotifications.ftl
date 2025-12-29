@@ -48,16 +48,16 @@ xpinstall-disabled-button =
 # Variables:
 #   $addonName (String): the name of the add-on.
 #   $addonId (String): the ID of add-on.
-addon-install-blocked-by-policy = { $addonName } ({ $addonId }) заблокировано вашим системным администратором.
+addon-install-blocked-by-policy = «{ $addonName }» ({ $addonId }) заблокировано вашим системным администратором.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Ваш системный администратор запретил этому сайту запрашивать установку ПО на ваш компьютер.
 addon-install-full-screen-blocked = Установка дополнений не разрешена во время или перед входом в полноэкранный режим.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
-webext-perms-sideload-menu-item = { $addonName } добавлено в { -brand-short-name }
+webext-perms-sideload-menu-item = «{ $addonName }» добавлено в { -brand-short-name }
 # Variables:
 #   $addonName (String): the localized name of the extension which has been updated.
-webext-perms-update-menu-item = { $addonName } запрашивает новые права
+webext-perms-update-menu-item = «{ $addonName }» запрашивает новые права
 
 ## Add-on removal warning
 
@@ -116,15 +116,15 @@ addon-confirm-install-some-unsigned-message =
 addon-install-error-network-failure = Дополнение не может быть скачано из-за ошибки соединения.
 addon-install-error-incorrect-hash = Дополнение не может быть установлено, так как оно не соответствует дополнению, ожидаемому { -brand-short-name }.
 addon-install-error-corrupt-file = Дополнение, скачанное с этого сайта, не может быть установлено, так как оно, по-видимому, повреждено.
-addon-install-error-file-access = { $addonName } не может быть установлено, так как { -brand-short-name } не может изменить нужный файл.
+addon-install-error-file-access = «{ $addonName }» не может быть установлено, так как { -brand-short-name } не может изменить нужный файл.
 addon-install-error-not-signed = { -brand-short-name } заблокировал установку непроверенного дополнения с этого сайта.
-addon-install-error-invalid-domain = Дополнение { $addonName } не может быть установлено из этого расположения.
+addon-install-error-invalid-domain = Дополнение «{ $addonName }» не может быть установлено из этого расположения.
 addon-local-install-error-network-failure = Это дополнение не может быть установлено из-за ошибки файловой системы.
 addon-local-install-error-incorrect-hash = Это дополнение не может быть установлено, так как оно не соответствует дополнению, ожидаемому { -brand-short-name }.
 addon-local-install-error-corrupt-file = Это дополнение не может быть установлено, так как оно, по-видимому, повреждено.
-addon-local-install-error-file-access = { $addonName } не может быть установлено, так как { -brand-short-name } не может изменить нужный файл.
+addon-local-install-error-file-access = «{ $addonName }» не может быть установлено, так как { -brand-short-name } не может изменить нужный файл.
 addon-local-install-error-not-signed = Это дополнение не может быть установлено, так как оно не было проверено.
 # Variables:
 #   $appVersion (String): the application version.
-addon-install-error-incompatible = { $addonName } не может быть установлено, так как оно несовместимо с { -brand-short-name } { $appVersion }.
-addon-install-error-blocklisted = { $addonName } не может быть установлено, так как есть высокий риск, что оно вызовет проблемы со стабильностью или безопасностью.
+addon-install-error-incompatible = «{ $addonName }» не может быть установлено, так как оно несовместимо с { -brand-short-name } { $appVersion }.
+addon-install-error-blocklisted = «{ $addonName }» не может быть установлено, так как есть высокий риск, что оно вызовет проблемы со стабильностью или безопасностью.

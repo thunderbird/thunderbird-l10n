@@ -100,7 +100,7 @@ html-title = Mozilla Calendar
 # LOCALIZATION NOTE (timezone-error):
 # used for an error message like 'An unknown and undefined timezone was found while reading c:\Mycalendarfile.ics'
 #    $filePath will be replaced with the path to a file
-timezone-error = Во время чтения { $filePath } был найден неизвестный или неопределенный часовой пояс.
+timezone-error = Во время чтения { $filePath } был найден неизвестный или неопределённый часовой пояс.
 # LOCALIZATION NOTE (duplicate-error):
 #    $count will be replaced with number of duplicate items
 #    $filePath will be replaced with a file path pointing to a calendar

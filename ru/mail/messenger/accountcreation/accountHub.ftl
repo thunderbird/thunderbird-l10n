@@ -40,8 +40,8 @@ account-hub-sync-button = Войти для Синхронизации…
 
 ## Email page
 
-account-hub-add-email-title = Добавьте свою учетную запись
-account-hub-manually-configure-email-title = Настройка конфигурации учетной записи
+account-hub-add-email-title = Добавьте свою учётную запись
+account-hub-manually-configure-email-title = Настройка конфигурации учётной записи
 account-hub-email-cancel-button = Отмена
 account-hub-email-stop-button = Остановить
 account-hub-email-back-button = Назад
@@ -140,13 +140,13 @@ account-hub-result-username-label = Имя пользователя
     .title = Имя пользователя
 account-hub-name-label = Полное имя
     .accesskey = т
-account-hub-adding-account-title = Добавление учетной записи
-account-hub-adding-account-subheader = Повторное тестирование параметров конфигурации учетной записи
+account-hub-adding-account-title = Добавление учётной записи
+account-hub-adding-account-subheader = Повторное тестирование параметров конфигурации учётной записи
 account-hub-lookup-email-configuration-title = Поиск конфигурации
 account-hub-lookup-email-configuration-subheader = Проверка типичных имён серверов…
 account-hub-email-account-added-title = Учётная запись успешно добавлена
 account-hub-find-account-settings-failed = { -brand-short-name } не удалось найти настройки для вашей учётной записи почты.
-account-hub-find-settings-failed = { -brand-full-name } не удалось найти настройки для вашей учетной записи почты
+account-hub-find-settings-failed = { -brand-full-name } не удалось найти настройки для вашей учётной записи почты
 account-hub-notification-show-more = Показать больше
 account-hub-notification-show-less = Показать меньше
 account-hub-email-setup-header = Добавьте свой адрес эл. почты

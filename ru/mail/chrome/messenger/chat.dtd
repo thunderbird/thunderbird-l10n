@@ -8,7 +8,7 @@
 <!ENTITY chat.noConv.title "Разговоры будут показаны здесь.">
 <!ENTITY chat.noConv.description "Для начала разговора используйте список контактов в левой панели.">
 <!ENTITY chat.noPreviousConv.description "В данный момент &brandShortName; не хранит никаких предыдущих разговоров с этим контактом.">
-<!ENTITY chat.noAccount.title "Учетные записи чата отсутствуют.">
+<!ENTITY chat.noAccount.title "Учётные записи чата отсутствуют.">
 <!ENTITY chat.noAccount.description "Позвольте &brandShortName; провести вас через процесс создания учётной записи чата.">
 <!ENTITY chat.accountWizard.button "Начать">
 <!ENTITY chat.noConnectedAccount.title "Ваши учётные записи чата не подключены.">

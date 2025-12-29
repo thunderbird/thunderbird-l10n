@@ -39,8 +39,8 @@ status-known = Ваша учётная запись снова подключе�
 status-known-with-status-text = Ваша учётная запись снова подключена ({ $displayName } — { $statusType }: { $statusText }).
 # LOCALIZATION NOTE (status-unknown):
 #  $displayName is the display name of the contact.
-status-unknown = Ваша учетная запись отключена (статус { $displayName } больше не известен).
-account-disconnected = Ваша учетная запись отключена.
+status-unknown = Ваша учётная запись отключена (статус { $displayName } больше не известен).
+account-disconnected = Ваша учётная запись отключена.
 account-reconnected = Ваша учётная запись снова подключена.
 # LOCALIZATION NOTE (auto-reply):
 #  $message is replaced by the text of a message that was sent as an automatic reply.
