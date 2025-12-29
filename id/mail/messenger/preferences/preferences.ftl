@@ -624,6 +624,7 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = Anda tengah dalam mode FIPS. Mode ini mewajibkan Sandi Utama harus diisi.
 forms-master-pw-fips-desc = Sandi Gagal Diubah
+spam-description = Tata pengaturan spam baku Anda. Pengaturan spam spesifik akun dapat dikonfigurasi di Pengaturan Akun.
 spam-marked-label =
     .label = Saat pesan ditandai sebagai spam:
     .accesskey = m
@@ -701,6 +702,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Enkripsi Ujung-Ke-Ujung Surel
 account-settings = Pengaturan Akun
+email-e2ee-enable-accounts-info = Siapkan akun surel dan identitas untuk Enkripsi Ujung-Ke-Ujung di <a data-l10n-name="account-settings-url">Pengaturan Akun</a>.
 email-e2ee-enable-info = Siapkan akun surel dan identitas untuk Enkripsi Ujung-Ke-Ujung di Pengaturan Akun.
 email-e2ee-automatism = Penggunaan Enkripsi Otomatis
 email-e2ee-automatism-pre =
@@ -747,6 +749,9 @@ preferences-doh-default-detailed-desc-2 = Gunakan resolver DNS bawaan Anda jika 
 preferences-doh-default-detailed-desc-3 = Gunakan penyedia lokal, jika memungkinkan
 preferences-doh-default-detailed-desc-4 = Matikan saat VPN, kontrol orang tua, atau kebijakan perusahaan aktif
 preferences-doh-default-detailed-desc-5 = Matikan jika jaringan memberi tahu { -brand-short-name } agar tidak menggunakan DNS aman
+preferences-doh-setting-enabled =
+    .label = Perlindungan yang Ditingkatkan
+    .accesskey = i
 preferences-doh-enabled-desc = Anda mengontrol kapan harus menggunakan DNS aman dan memilih penyedia Anda.
 preferences-doh-enabled-detailed-desc-1 = Gunakan penyedia yang Anda pilih
 preferences-doh-enabled-detailed-desc-2 = Hanya gunakan resolver DNS bawaan Anda jika ada masalah dengan DNS aman
@@ -783,6 +788,9 @@ email-e2ee-key-servers-use-following = Gunakan server kunci berikut:
 email-e2ee-key-servers-add = Tambah…
 email-e2ee-key-servers-reset = Setel Ulang Daftar Server
 email-e2ee-key-servers-add-title = Tambahkan Server Kunci
+email-e2ee-key-servers-add-text = Masukkan URL server kunci yang akan ditambahkan.
+email-e2ee-key-servers-add-failed-title = Penambahan Server Kunci Gagal
+email-e2ee-key-servers-add-failed-text = Tidak dapat tersambung ke server kunci pada URL yang disediakan.
 
 ## Chat Tab
 
