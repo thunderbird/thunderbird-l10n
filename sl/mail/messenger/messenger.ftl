@@ -539,6 +539,12 @@ folder-context-empty-spam =
     .label = Izprazni neželeno pošto
     .accesskey = I
 
+## Message header.
+
+header-spam-button =
+    .label = Neželeno
+    .tooltiptext = Označi to sporočilo kot neželeno
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Označi kot prebrano
@@ -549,6 +555,8 @@ archive-action = Arhiviraj
 
 ## Message list.
 
+menuitem-label-spam =
+    .label = Neželeno
 message-priority-lowest = Najnižje
 message-priority-low = Nizko
 # Normal priority is often blank, depending on the consumers of these strings.

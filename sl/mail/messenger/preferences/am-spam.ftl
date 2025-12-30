@@ -5,6 +5,7 @@
 spam-settings-title = Nastavitve neželene pošte
 dialog-header-title =
     .value = Nastavitve neželene pošte
+training-description-spam = Če se odločite za to izbiro, morate najprej s pomočjo gumba za neželeno pošto v orodni vrstici sporočila označevati kot neželena ali želena, da se { -brand-short-name } lahko nauči, katero pošto naj označi kot neželeno. Označiti je treba tako neželena kot tudi želena sporočila. Po tem bo { -brand-short-name } zmožen neželeno pošto samodejno označiti.
 spam-level-checkbox =
     .label = Za ta račun omogoči prilagodljiv nadzor nad neželeno pošto
     .accesskey = m
