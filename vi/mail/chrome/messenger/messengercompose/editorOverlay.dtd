@@ -156,7 +156,7 @@
 <!ENTITY listTermCmd.accesskey "T">
 <!ENTITY listDefinitionCmd.label "Định nghĩa">
 <!ENTITY listDefinitionCmd.accesskey "D">
-<!ENTITY listPropsCmd.label "Danh sách thuộc tính…">
+<!ENTITY listPropsCmd.label "Thuộc tính danh sách…">
 <!ENTITY listPropsCmd.accesskey "L">
 <!ENTITY ParagraphSelect.tooltip "Chọn một định dạng đoạn văn">
 <!-- Shared in Paragraph, and Toolbar menulist -->
