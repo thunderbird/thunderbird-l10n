@@ -73,7 +73,7 @@ policy-OfferToSaveLogins = Tving innstillinga til å tillate { -brand-short-name
 policy-OfferToSaveLoginsDefault = Vel om { -brand-short-name } skal tilby å hugse innloggingar og passord. Vel true, dersom { -brand-short-name } skal tilby å hugse innloggingar og passord, elles vel false.
 policy-OverrideFirstRunPage = Erstatt sida som vert vist ved første oppstart. La policyen vere tom, viss sida ved første oppstart skal deaktiverast.
 policy-OverridePostUpdatePage = Byt ut «Kva er nytt»-sida som vert vist etter ei oppdatering. La policyen stå tom viss sida etter ei oppdatering skal deaktiverast.
-policy-PasswordManagerEnabled = Tillat at brukaren kan lagre passord i passord-handteraren.
+policy-PasswordManagerEnabled = Tillat at brukaren kan lagre passord i passord-handsamaren.
 # PDF.js and PDF should not be translated
 policy-PDFjs = Slå av eller konfigurer PDF.js, det innebygde PDF-visingsprogrammet i { -brand-short-name }.
 policy-Permissions2 = Konfigurer løyve for kamera, mikrofon, posisjon, varsel og automatisk avspeling.
