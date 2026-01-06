@@ -150,6 +150,11 @@ menu-file-compact =
            *[other] Compactar pastas
         }
     .accesskey = C
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = Compactar todas as pastas
+    .accesskey = m
 
 ## Edit Menu
 
@@ -216,6 +221,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Arquivar
     .tooltiptext = Arquivar
+context-menu-mark-spam =
+    .aria-label = Marcar como lixo eletrónico
+    .tooltiptext = Marcar como lixo eletrónico
+context-menu-mark-not-spam =
+    .aria-label = Marcar como não é lixo eletrónico
+    .tooltiptext = Marcar como não é lixo eletrónico
 context-menu-mark-junk =
     .aria-label = Marcar como Lixo
     .tooltiptext = Marcar como Lixo
@@ -489,12 +500,45 @@ openpgp-forget = Esquecer as frases de acesso do OpenPGP
 quota-panel-percent-used = { $percent }% utilizado
     .title = Quota de IMAP: { $usage } utilizado de total { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Estado do lixo eletrónico
+    .accesskey = s
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Como lixo eletrónico
+    .accesskey = l
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Como não é lixo eletrónico
+    .accesskey = n
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Executar controlos de lixo eletrónico
+    .accesskey = c
+menu-run-spam-on-folder =
+    .label = Executar controlos de lixo eletrónico na pasta
+    .accesskey = c
+menu-delete-spam =
+    .label = Eliminar correio marcado como lixo eletrónico na pasta
+    .accesskey = d
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Limpar lixo eletrónico
+    .accesskey = L
+
+## Thread pane.
+
+column-status-spam =
+    .label = Estado do lixo eletrónico
+    .tooltiptext = Ordenar pelo estado do lixo eletrónico
 
 ## Actions for the New Mail Notification
 

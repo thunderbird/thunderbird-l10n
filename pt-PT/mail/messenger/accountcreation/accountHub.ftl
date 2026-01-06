@@ -121,6 +121,21 @@ address-book-carddav-connection-error = A ligação falhou.
 address-book-ldap-duplicate-error = O nome do diretório de LDAP já existe. Insira um nome de diretório diferente.
 address-book-ldap-creation-error = Não foi possível criar o diretório de LDAP.
 account-hub-email-setup-ews = Definições do servidor
+account-hub-result-host-url-label = URL do endpoint EWS
+account-hub-email-credentials-confirmation = Configuração da conta
+account-hub-result-unknown-hostname = Nome de servidor desconhecido
+account-hub-result-unknown-cert = Certificado não verificado
+account-hub-close-button =
+    .title = Fechar
+account-hub-minimize-button =
+    .title = Minimizar
+account-hub-maximize-button =
+    .title = Maximizar centro da conta
+account-hub-email-manual-configuration = Configuração manual
+account-hub-notification-unknown-host = Encontrada a informação da configuração num domínio de terceiros
+account-hub-ssl-noencryption = Nenhuma
+account-hub-email-skip-button = Saltar
+account-hub-finding-sync-accounts = Criada conta. A descobrir livros de endereços e calendários…
 account-hub-result-username-label = Nome de utilizador
     .title = Nome de utilizador
 account-hub-name-label = Nome completo
@@ -152,6 +167,11 @@ account-hub-result-recommended-label = Recomendado
 account-hub-result-addon-label = Requer Extra
 account-hub-edit-configuration = Editar configuração
 account-hub-config-success = Configuração encontrada na ISPDB da Mozilla
+account-hub-config-success-exchange = Configuração encontrada para um servidor Microsoft Exchange
+account-hub-config-success-guess = Configuração encontrada ao tentar nomes comuns de servidores
+account-hub-config-success-disk = Encontrada configuração na instalação do { -brand-short-name }
+account-hub-config-success-isp = Encontrada configuração no fornecedor de e-mail
+account-hub-config-success-unknown = Configuração encontrada
 account-hub-password-info = As suas credenciais serão guardadas localmente no seu computador.
 account-hub-creating-account = A criar a conta…
 account-hub-sync-accounts-found = O { -brand-short-name } encontrou alguns serviços associados
@@ -180,7 +200,52 @@ account-hub-port-error-text = A porta deve estar entre 1 e 65535
 account-hub-username-error-text = É necessário um nome de utilizador
     .title = É necessário um nome de utilizador
 account-hub-oauth-pending = A aguardar por autorização na janela de autenticação…
+account-hub-addon-install-button = Instalar
 account-hub-addon-install-needed = O { -brand-short-name } não suporta nativamente este servidor. Para aceder ao e-mail de Exchange, <a data-l10n-name="addon-install">instale um extra de terceiros, como o Owl (pago).</a>
 account-hub-addon-error = A instalação do extra falhou. Por favor, tente novamente ou contacte o autor do extra para assistência.
 account-hub-security-warning = <span data-l10n-name="security-warning">Aviso: foi detetado um servidor de correio inseguro.</span> Este servidor não tem encriptação, expondo a sua palavra-passe e os dados. Contacte o seu administrador para proteger a ligação ou prossiga por sua conta e risco. <a data-l10n-name="faq-link">Consulte as perguntas frequentes para saber mais.</a>
 account-hub-account-authentication-error = Erro de autenticação.
+account-hub-add-address-book = Adicionar um livro de endereços
+address-book-sync-existing-icon =
+    .alt = Sincronizar um livro de endereços de uma conta existente
+address-book-sync-existing = Sincronizar a partir de uma conta existente
+address-book-add-remote-icon =
+    .alt = Adicionar um novo livro de endereços remoto
+address-book-add-remote = Adicionar livro de endereços remoto
+address-book-add-remote-description = Ligar a um livro de endereços CardDav remoto
+address-book-add-local-icon =
+    .alt = Criar um novo livro de endereços local
+address-book-add-local = Novo livro de endereços local
+address-book-add-local-description = Criar um novo livro de endereços local no seu dispositivo
+address-book-add-ldap-icon =
+    .alt = Ligar a um livro de endereços LDAP remoto
+address-book-add-ldap = Novo livro de endereços LDAP
+address-book-add-ldap-description = Ligar a um livro de endereços LDAP remoto
+account-hub-fetching-sync-accounts = A descobrir livros de endereços e calendários…
+# $addressBooks (Number) - The number of address books that can be synced.
+# $accounts (Number) - The number of accounts.
+account-hub-address-book-sync-option-data =
+    { $addressBooks ->
+        [one]
+            { $accounts ->
+                [one] 1 livro de endereços disponível de 1 conta
+               *[other] 1 livro de endereços disponível de { $accounts } contas
+            }
+       *[other]
+            { $accounts ->
+                [one] { $addressBooks } livros de endereços disponíveis de 1 conta
+               *[other] { $addressBooks } livros de endereços disponíveis { $accounts } contas
+            }
+    }
+address-book-sync-existing-description = A obter contas existentes…
+account-hub-select-address-book-account = Selecione uma conta com livros de endereços
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } de { $total }
+    .title = { $synced } livros de endereços sincronizados, { $available } disponíveis
+account-hub-add-local-address-book = Criar um livro de endereços local
+account-hub-local-address-book-label = Nome do livro de endereços
+account-hub-local-error-text = Por favor, insira um nome do livro de endereços
+account-hub-sync-address-books = Sincronizar os livros de endereços existentes
+account-hub-new-remote-address-book = Novo livro de endereços remoto
