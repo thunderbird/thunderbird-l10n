@@ -28,3 +28,7 @@ edit-vcard-dialog-cancel-button = Cancelar
 account-manager-server-default-icon =
     .title = Conta predefinida
     .alt = Ícone de estrela
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Definições do servidor de envio
+outgoing-server-type = Tipo de servidor:
+panel-settings-spam = Definições de lixo eletrónico

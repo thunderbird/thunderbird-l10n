@@ -311,12 +311,17 @@ openpgp-keygen-external-success = ID da chave GnuPG externa guardada!
 openpgp-radio-none =
     .label = Nenhuma
 openpgp-radio-none-desc = Não utilizar o OpenPGP para esta identidade.
+openpgp-radio-key-not-accepted = Para utilizar esta chave deve aprová-la como uma chave pessoal!
+openpgp-radio-key-not-found = Esta chave não foi encontrada! Se a quiser utilizar, deve importá-la para o { -brand-short-name }.
 #   $date (String) - the future expiration date of when the OpenPGP key will expire
 openpgp-radio-key-expires = Expira a: { $date }
 #   $date (String) - the past expiration date of when the OpenPGP key expired
 openpgp-radio-key-expired = Expirou a: { $date }
+openpgp-key-expires-within-6-months-icon =
+    .title = A chave expira em menos de 6 meses
 openpgp-key-has-expired-icon =
     .title = Chave expirada
+openpgp-suggest-publishing-key = Publicar a chave pública num servidor de chaves permite que outros a descubram.
 openpgp-key-expand-section =
     .tooltiptext = Mais informação
 openpgp-key-revoke-title = Revogar chave
@@ -349,6 +354,9 @@ key-expired-date = A chave expirou a { $keyExpiry }
 key-expired-simple = A chave expirou
 key-revoked-simple = A chave foi revogada
 key-do-you-accept = Aceita esta chave para validar assinaturas digitais e para encriptar mensagens?
+# Variables:
+# $addr (String) - Email address the key claims it belongs to.
+key-verification = Confirme a impressão digital da chave utilizando um canal de comunicação seguro que seja o e-mail para ter a certeza de que é mesmo a chave de { $addr }.
 
 ## Strings enigmailMsgComposeOverlay.js
 
@@ -449,6 +457,7 @@ key-man-button-export-pub-key = Exportar apenas chaves &públicas
 key-man-button-refresh-all = Atuali&zar todas as chaves
 key-man-loading-keys = A carregar chaves, por favor aguarde...
 ascii-armor-file = ASCII Armored Files (*.asc)
+text-file = Ficheiros de texto (*.txt)
 no-key-selected = Deve selecionar pelo menos uma chave para realizar a operação selecionada
 export-to-file = Exportar chave pública para um ficheiro
 export-keypair-to-file = Exportar chave pública e chave privada para um ficheiro
@@ -540,6 +549,7 @@ need-online = A função que selecionou não está disponível no modo desligado
 ## Strings used in keyRing.sys.mjs & keyLookupHelper.sys.mjs
 
 no-key-found2 = Não foi possível encontrar qualquer tecla que corresponda aos critérios de pesquisa especificados.
+no-update-found = Já tem as chaves que foram descobertas na Internet.
 
 ## Strings used in keyRing.sys.mjs
 

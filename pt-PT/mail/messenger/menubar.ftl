@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Anular eliminação
     .tooltiptext = Anular a eliminação das mensagens selecionadas
+toolbar-spam-button =
+    .label = Lixo eletrónico
+    .tooltiptext = Marcar as mensagens selecionadas como lixo eletrónico
+toolbar-not-spam-button =
+    .label = Não é lixo eletrónico
+    .tooltiptext = Marcar as mensagens selecionadas como não sendo lixo eletrónico
 
 ## View
 
@@ -148,3 +154,15 @@ file-new-email-account =
 file-new-newsgroup-account =
     .label = Conta de grupo de notícias…
     .accesskey = N
+file-new-addressbook =
+    .label = Livro de endereços
+    .accesskey = e
+file-new-local-addressbook =
+    .label = Livro de endereços local
+    .accesskey = l
+file-new-carddav-addressbook =
+    .label = Livro de endereços CardDav
+    .accesskey = C
+file-new-ldap-addressbook =
+    .label = Livro de endereços LDAP
+    .accesskey = L

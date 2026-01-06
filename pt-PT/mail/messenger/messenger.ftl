@@ -129,11 +129,27 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista compacta
     .accesskey = i
 
+## Folder names
+
+folder-name-spam = Lixo eletrónico
+# Gmail's "All Mail" folder. Please make sure this is the same string used in the Gmail web UI for your language.
+folder-name-all-mail = Todo o correio
+
 ## File Menu
 
 menu-file-save-as-file =
     .label = Ficheiro…
     .accesskey = F
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [1] Compactar pasta
+            [one] Compactar pasta
+           *[other] Compactar pastas
+        }
+    .accesskey = C
 
 ## Edit Menu
 

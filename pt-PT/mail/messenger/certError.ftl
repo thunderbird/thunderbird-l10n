@@ -16,3 +16,21 @@ cert-error-not-yet-valid = O certificado para { $hostname } não será válido a
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = O certificado para { $hostname } não vem de uma fonte confiável.
+certificate-check-test-button = Testar ligação ao servidor
+certificate-check-view-button = Ver certificado
+certificate-check-add-exception-button = Adicionar exceção
+certificate-check-remove-exception-button = Remover exceção
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = A testar a ligação ao servidor { $hostname }…
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = A ligação segura a { $hostname } foi estabelecida com sucesso.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-failure = A ligação ao servidor { $hostname } falhou.
+certificate-check-exception-added = Adicionada exceção do certificado.
+certificate-check-exception-removed = Removida exceção do certificado.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Existe uma exceção de certificado para { $hostname }.
