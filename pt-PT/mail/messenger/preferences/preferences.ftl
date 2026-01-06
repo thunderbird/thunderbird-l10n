@@ -407,6 +407,9 @@ close-move-delete =
     .accesskey = F
 address-display-legend = Lista de mensagens
 address-display-description = Formato preferencial de apresentação do endereço:
+address-display-full =
+    .label = Nome completo e endereço de e-mail
+    .accesskey = m
 address-display-email =
     .label = Apenas e-mail
     .accesskey = e
@@ -416,6 +419,10 @@ address-display-name =
 condensed-addresses-label =
     .label = Mostrar apenas o nome para pessoas nos meus contactos
     .accesskey = m
+table-layout-legend = Vista de tabela
+table-layout-horizontal-scroll-label =
+    .label = Permitir o deslocamento horizontal
+    .accesskey = h
 label-experiment = Experimental
 
 ## Compose Tab

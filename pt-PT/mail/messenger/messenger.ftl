@@ -540,6 +540,12 @@ column-status-spam =
     .label = Estado do lixo eletrónico
     .tooltiptext = Ordenar pelo estado do lixo eletrónico
 
+## Message header.
+
+header-spam-button =
+    .label = Lixo eletrónico
+    .tooltiptext = Marcar esta mensagem como lixo eletrónico
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Marcar como lida
@@ -550,6 +556,14 @@ archive-action = Arquivar
 
 ## Message list.
 
+menuitem-label-spam =
+    .label = Lixo eletrónico
+menuitem-label-spam-score-origin =
+    .label = Origem da pontuação de lixo eletrónico
+menuitem-label-spam-percentage =
+    .label = Percentagem de lixo eletrónico
+menuitem-label-spam-status =
+    .label = Estado do lixo eletrónico
 message-priority-lowest = Muito baixa
 message-priority-low = Baixa
 # Normal priority is often blank, depending on the consumers of these strings.
@@ -580,3 +594,20 @@ message-group-starred = Com estrela
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Limpar { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Eliminar todas as mensagens e subpastas na pasta { $folder }?
+prompt-dont-ask-again = Não voltar a perguntar.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Análise do lixo eletrónico { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } concluída
+spam-processing-message = A processar as mensagens de lixo eletrónico

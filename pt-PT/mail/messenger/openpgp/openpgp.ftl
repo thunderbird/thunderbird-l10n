@@ -37,6 +37,16 @@ e2e-advanced-section = Definições avançadas
 e2e-attach-key =
     .label = Anexar a minha chave pública quando adicionar uma assinatura digital OpenPGP
     .accesskey = p
+e2e-encrypt-subject =
+    .label = Encriptar o assunto das mensagens OpenPGP
+    .accesskey = a
+e2e-encrypt-drafts =
+    .label = Guardar as mensagens rascunho no formato encriptado
+    .accesskey = r
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Enviar a(s) chave(s) pública(s) de OpenPGP nos cabeçalhos da mensagem para compatibilidade com o Autocrypt
+    .accesskey = t
 openpgp-key-created-label =
     .label = Criado
 openpgp-key-expiry-label =
@@ -50,6 +60,9 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Certificado de revogação
     .accesskey = r
+openpgp-key-man-gen-revocation =
+    .label = Guardar certificado de revogação para ficheiro
+    .accesskey = c
 openpgp-key-man-file-menu =
     .label = Ficheiro
     .accesskey = F
@@ -238,11 +251,19 @@ openpgp-key-details-structure-tab =
 openpgp-key-details-uid-certified-col =
     .label = ID de utilizador / certificado por
 openpgp-key-details-key-id-label = ID da chave
+openpgp-key-details-user-id3-label = Proprietário da chave declarado
 openpgp-key-details-id-label =
     .label = ID
 openpgp-key-details-key-type-label = Tipo
 openpgp-key-details-key-part-label =
     .label = Parte da chave
+openpgp-key-details-attr-ignored = Aviso: esta chave pode não funcionar conforme o esperado, porque algumas das suas propriedades não são seguras e podem ser ignoradas.
+openpgp-key-details-attr-upgrade-sec = Deve atualizar as propriedades inseguras.
+openpgp-key-details-attr-upgrade-pub = Deve solicitar ao proprietário desta chave para atualizar as propriedades inseguras.
+openpgp-key-details-upgrade-unsafe =
+    .label = Atualizar propriedades não seguras
+    .accesskey = p
+openpgp-key-details-upgrade-ok = A chave foi atualizada com sucesso. Deve partilhar a chave pública atualizada com os seus correspondentes.
 openpgp-key-details-algorithm-label =
     .label = Algoritmo
 openpgp-key-details-size-label =
@@ -256,6 +277,7 @@ openpgp-key-details-expiry-header = Validade
 openpgp-key-details-usage-label =
     .label = Utilização
 openpgp-key-details-fingerprint-label = Identificador digital
+openpgp-key-details-legend-secret-missing = Para chaves marcadas com (!), a chave secreta não está disponível.
 openpgp-key-details-sel-action =
     .label = Selecione a ação…
     .accesskey = S
@@ -281,10 +303,13 @@ openpgp-personal-yes-label =
 openpgp-passphrase-protection =
     .label = Proteção de frase de acesso
 openpgp-passphrase-status-unprotected = Desprotegido
+openpgp-passphrase-status-primary-password = Protegido pela palavra-passe principal do { -brand-short-name }
 openpgp-passphrase-status-user-passphrase = Protegido por uma frase de acesso
 openpgp-passphrase-instruction-unprotected = Definir uma frase de acesso para proteger esta chave
 openpgp-passphrase-instruction-primary-password = Em alternativa, proteger esta chave com uma frase de acesso separada
+openpgp-passphrase-instruction-user-passphrase = Desbloqueie esta chave para alterar a sua proteção.
 openpgp-passphrase-unlock = Desbloquear
+openpgp-passphrase-unlocked = Chave desbloqueada com sucesso.
 openpgp-remove-protection = Remover proteção de frase de acesso
 openpgp-use-primary-password = Remover frase de acesso e proteger com a palavra-passe primária
 openpgp-passphrase-new = Nova frase de acesso
@@ -296,6 +321,10 @@ openpgp-copy-cmd-label =
 
 ## e2e encryption settings
 
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-no-key = O { -brand-short-name } não tem uma chave OpenPGP pessoal para <b>{ $identity }</b>
+#   $key (String) - the currently selected OpenPGP key
+openpgp-selection-status-have-key = A sua configuração atual utiliza a chave com o ID <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = A sua configuração atual utiliza a chave <b>{ $key }</b>, que expirou.
 openpgp-add-key-button =
@@ -311,6 +340,7 @@ openpgp-keygen-external-success = ID da chave GnuPG externa guardada!
 openpgp-radio-none =
     .label = Nenhuma
 openpgp-radio-none-desc = Não utilizar o OpenPGP para esta identidade.
+openpgp-radio-key-not-usable = Esta chave não pode ser utilizada como uma chave pessoal, porque a chave secreta está em falta!
 openpgp-radio-key-not-accepted = Para utilizar esta chave deve aprová-la como uma chave pessoal!
 openpgp-radio-key-not-found = Esta chave não foi encontrada! Se a quiser utilizar, deve importá-la para o { -brand-short-name }.
 #   $date (String) - the future expiration date of when the OpenPGP key will expire
