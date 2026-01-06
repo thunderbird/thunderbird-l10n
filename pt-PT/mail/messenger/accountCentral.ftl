@@ -46,4 +46,4 @@ search = Pesquisar mensagens
 filter = Gerir filtros de mensagens
 nntp-subscription = Gerir subscrições de grupos de notícias
 rss-subscription = Gerir subscrições de fontes
-e2e = Encriptação de ponta a ponta
+e2e = Encriptação ponto a ponto

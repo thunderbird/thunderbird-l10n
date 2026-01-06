@@ -621,6 +621,31 @@ primary-password-button =
     .accesskey = l
 forms-primary-pw-fips-title = Atualmente, está no modo FIPS. Este modo requer uma palavra-passe principal não vazia.
 forms-master-pw-fips-desc = Falha ao alterar palavra-passe
+spam-marked-label =
+    .label = Quando as mensagens são marcadas como lixo eletrónico:
+    .accesskey = Q
+spam-move-label =
+    .label = Movê-las para a pasta “Lixo eletrónico” da conta
+    .accesskey = o
+spam-delete-label =
+    .label = Eliminá-las
+    .accesskey = E
+spam-read-description = Marcar as mensagem como lidas
+spam-read-manual-label =
+    .label = Quando marcada manualmente como lixo eletrónico
+    .accesskey = m
+spam-read-auto-label =
+    .label = Quando o { -brand-short-name } determina que são lixo eletrónico
+    .accesskey = t
+spam-log-label =
+    .label = Ativar registo inteligente do filtro de lixo eletrónico
+    .accesskey = A
+spam-log-button =
+    .label = Mostrar registo
+    .accesskey = s
+reset-spam-button =
+    .label = Repor dados de treino
+    .accesskey = R
 junk-description = Configure as predefinições para o lixo eletrónico. As definições específicas de lixo eletrónico podem ser efetuadas nas definições da conta.
 junk-marked-label =
     .label = Quando as mensagens estiverem marcadas como lixo eletrónico:
@@ -635,6 +660,9 @@ junk-read-description = Marcar as mensagens como lidas
 junk-read-manual-label =
     .label = Quando marcada manualmente como lixo eletrónico
     .accesskey = m
+junk-read-auto-label =
+    .label = Quando o { -brand-short-name } determina que são lixo
+    .accesskey = t
 junk-log-label =
     .label = Ativar registo inteligente do filtro do lixo eletrónico
     .accesskey = x
@@ -668,10 +696,27 @@ certificate-button =
 security-devices-button =
     .label = Dispositivos de segurança…
     .accesskey = D
+email-e2ee-header = Encriptação de e-mail ponto a ponto
 account-settings = Definições da Conta
+email-e2ee-enable-info = Configurar contas de e-mail e identidades para a encriptação ponto a ponto nas Definições de conta.
+email-e2ee-automatism = Utilização automática de encriptação
+email-e2ee-auto-on =
+    .label = Quando possível, ativar automaticamente a encriptação
+email-e2ee-auto-off =
+    .label = Desativar automaticamente a encriptação quando os destinatários forem alterados e a encriptação já não for possível
+email-e2ee-auto-off-notify =
+    .label = Mostrar uma notificação quando a encriptação é desativada automaticamente
 
 ## DoH Section
 
+preferences-doh-header = DNS sobre HTTPS
+preferences-doh-description = O Domain Name System (DNS) sobre HTTPS envia o seu pedido para um nome de domínio através de uma ligação encriptada, fornecendo um DNS seguro e tornando mais difícil para outros verem qual o website que está prestes a aceder.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Estado: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Fornecedor: { $name }
 # This is displayed instead of $name in preferences-doh-resolver
 # when the DoH URL is not a valid URL
 preferences-doh-bad-url = URL inválido
@@ -728,6 +773,12 @@ email-e2ee-key-servers-intro =
     Um servidor de chaves recebe e depois serve as chaves públicas existentes para os utilizadores.
     Isto permite-lhe publicar a sua chave pública e encontrar e atualizar as chaves de outros.
 email-e2ee-key-servers-use-following = Utilizar os seguintes servidores de chaves:
+email-e2ee-key-servers-add = Adicionar…
+email-e2ee-key-servers-reset = Repor lista de servidores
+email-e2ee-key-servers-add-title = Adicionar servidor de chaves
+email-e2ee-key-servers-add-text = Digite o URL do servidor de chaves a adicionar.
+email-e2ee-key-servers-add-failed-title = A adição do servidor de chaves falhou
+email-e2ee-key-servers-add-failed-text = Não foi possível ligar a um servidor de chaves no URL fornecido.
 
 ## Chat Tab
 
@@ -873,21 +924,75 @@ show-synced-item-calendar = Calendários
 show-synced-item-identity = Identidades
 show-synced-item-passwords = Palavras-passe
 show-synced-change = Alterar…
+synced-acount-item-server-config = Configuração do servidor
 synced-acount-item-filters = Filtros
+synced-acount-item-keys = OpenPGP - S/MIME
+sync-disconnected-text = Sincronize as suas contas de correio eletrónico, livros de endereço, calendários e identidades entre todos os seus dispositivos.
+sync-disconnected-turn-on-sync = Ativar a sincronização…
 
 ## Mobile QR Export Pane
 
+qr-export-pane-header = Exportar as contas para o { -brand-product-name } para dispositivos móveis
+qr-export-get-app = Ainda não tem o { -brand-product-name } para dispositivos móveis? <a data-l10n-name="app-link">Obtenha-o no Google Play</a>
+qr-export-create = Crie um código QR para exportar as suas contas
+qr-export-select-accounts = Selecione as contas a exportar:
+qr-export-accounts-legend = Contas de correio eletrónico
 qr-export-select-all-accounts = Selecionar tudo
 qr-export-security-legend = Segurança
+qr-export-include-passwords = Incluir todas as palavras-passe das contas
 qr-export-start-export = Exportar
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+# $step (Number) - Current step number of the QR code displayed.
+qr-export-scan-progress =
+    { $count ->
+        [one] { $step } de { $count } código QR
+       *[other] { $step } de { $count } códigos QR
+    }
 qr-export-scan-step2 = Ir para as definições
 qr-export-back = Retroceder
 qr-export-next = Seguinte
 qr-export-done = Concluído
+qr-export-summary-title = Resumo da exportação:
+# Variables:
+# $count (Number) - Total number of QR codes shown to the user.
+qr-export-summary-qr-count =
+    { $count ->
+        [one] { $count } código QR gerado
+       *[other] { $count } códigos QR gerados
+    }
+# Variables:
+# $count (Number) - Number of accounts included in the export.
+qr-export-summary-accounts =
+    { $count ->
+        [one] { $count } conta exportada:
+       *[other] { $count } contas exportadas:
+    }
+qr-export-summary-passwords-included = Palavras-passe incluídas
+qr-export-summary-passwords-excluded = Palavras-passe excluídas
+qr-export-more-accounts = Exportar mais contas
 
 ## Appearance Tab
 
 appearance-category-header = Aspeto
+default-message-list-legend = Lista de mensagens
+appearance-view-style =
+    .value = Estilo de visualização:
+appearance-radio-table =
+    .label = Vista de tabela
+appearance-radio-cards =
+    .label = Vista de cartões
+cards-view-legend = Opções de visualização de cartões
+table-view-legend = Opções de vista de tabela
+default-flag-label =
+    .value = Agrupamento predefinido:
+default-flag-unthreaded =
+    .label = Não agrupar
+default-flag-threaded =
+    .label = Agrupar por tópicos
+default-flag-grouped =
+    .label = Agrupado pela ordem
+default-sort-label = Ordenação predefinida por:
 default-sort-date =
     .label = Data
 default-sort-subject =
