@@ -641,6 +641,35 @@ preferences-doh-setting-enabled =
 preferences-doh-enabled-desc = Você controla quando deve utilizar o DNS seguro e escolhe o seu fornecedor.
 preferences-doh-enabled-detailed-desc-1 = Utiliza o fornecedor que você selecionar
 preferences-doh-enabled-detailed-desc-2 = Utilizar apenas o seu tradutor de DNS predefinido se existir um problema com o DNS seguro
+preferences-doh-setting-strict =
+    .label = Proteção máxima
+    .accesskey = m
+preferences-doh-strict-detailed-desc-1 = Utilizar apenas o fornecedor que você selecionar
+preferences-doh-strict-detailed-desc-2 = Avisar sempre se o DNS seguro não estiver disponível
+preferences-doh-strict-detailed-desc-3 = Se o DNS seguro não estiver disponível, os sites não serão carregados ou não funcionarão corretamente
+preferences-doh-setting-off =
+    .label = Desligado
+    .accesskey = D
+preferences-doh-off-desc = Utilize o seu tradutor de DNS predefinido
+preferences-doh-checkbox-warn =
+    .label = Avisar se um terceiro impedir ativamente o DNS seguro
+    .accesskey = A
+preferences-doh-select-resolver = Escolher fornecedor:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (Predefinido)
+preferences-doh-url-custom =
+    .label = Personalizado
+    .accesskey = P
+
+## Keyservers
+
+email-e2ee-key-servers-legend = Servidores de chaves OpenPGP
+email-e2ee-key-servers-intro =
+    Um servidor de chaves recebe e depois serve as chaves públicas existentes para os utilizadores.
+    Isto permite-lhe publicar a sua chave pública e encontrar e atualizar as chaves de outros.
+email-e2ee-key-servers-use-following = Utilizar os seguintes servidores de chaves:
 
 ## Chat Tab
 
@@ -770,10 +799,20 @@ sync-pane-edit-photo =
     .title = Alterar imagem do perfil
 sync-pane-manage-account = Gerir conta
 sync-pane-sign-out = Terminar sessão…
+sync-pane-device-name-title = Nome do dispositivo
+sync-pane-change-device-name = Alterar nome do dispositivo
 sync-pane-cancel = Cancelar
 sync-pane-save = Guardar
+sync-pane-show-synced-header-on = Sincronização ATIVADA
+sync-pane-show-synced-header-off = Sincronização DESATIVADA
+sync-pane-sync-now = Sincronizar agora
+sync-panel-sync-now-syncing = A sincronizar…
+show-synced-list-heading = Atualmente, está a sincronizar estes itens:
+show-synced-learn-more = Saber mais…
+show-synced-item-account = Contas de correio eletrónico
 show-synced-item-address = Livros de Endereços
 show-synced-item-calendar = Calendários
+show-synced-item-identity = Identidades
 show-synced-item-passwords = Palavras-passe
 show-synced-change = Alterar…
 synced-acount-item-filters = Filtros
