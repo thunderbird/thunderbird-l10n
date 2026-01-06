@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+spam-log-info-label =
+    .value = Registo de atividade adaptativa do controlo de spam
 clear-log-button =
     .label = Limpar registo
     .accesskey = L

@@ -149,8 +149,23 @@ toolbar-throbber-label = Indicador de atividade
 toolbar-throbber =
     .title = Indicador de atividade
 toolbar-create-contact-label = Novo contacto
+toolbar-create-contact =
+    .title = Criar um novo contacto
 toolbar-create-address-book-label = Novo Livro de Endereços
+toolbar-create-address-book =
+    .title = Criar um novo livro de endereços
 toolbar-create-list-label = Nova lista
 toolbar-create-list =
     .title = Criar uma nova lista de correio
 toolbar-import-contacts-label = Importar
+toolbar-import-contacts =
+    .title = Importar contactos de um ficheiro
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Adicionar livro de endereços local
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Adicionar livro de endereços CardDAV
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Adicionar livro de endereços LDAP
