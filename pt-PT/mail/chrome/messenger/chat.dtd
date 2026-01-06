@@ -7,7 +7,7 @@
 <!ENTITY searchResultConversation.label "Resultado da pesquisa">
 <!ENTITY chat.noConv.title "As conversas serão mostradas aqui.">
 <!ENTITY chat.noConv.description "Utilize a lista de contactos no painel da esquerda para iniciar uma conversa.">
-<!ENTITY chat.noPreviousConv.description "Atualmente, o &brandShortName; não tem qualquer conversa guardada para este contacto.">
+<!ENTITY chat.noPreviousConv.description "Atualmente, o &brandShortName; não tem quaisquer conversações anteriores guardadas para este contacto.">
 <!ENTITY chat.noAccount.title "Ainda não configurou uma conta de chat.">
 <!ENTITY chat.noAccount.description "Deixar que o &brandShortName; o ajude no processo de configuração da conta de chat.">
 <!ENTITY chat.accountWizard.button "Começar">

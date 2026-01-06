@@ -11,7 +11,7 @@
 
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = Bem-vindo ao <span data-l10n-name="brand-name">{ -brand-full-name }</span>
-account-hub-title = Centro da conta
+account-hub-title = Centro da Conta
 
 ## Footer
 
@@ -60,6 +60,8 @@ account-hub-protocol-label = Protocolo
 account-hub-hostname-label = Nome de anfitrião
 account-hub-result-hostname-label = Nome de anfitrião
     .title = Nome de anfitrião
+account-hub-result-socket-type-label = Segurança da ligação
+account-hub-on-port-label = Porta
 account-hub-result-authentication-label = Autenticação
     .title = Autenticação
 account-hub-port-label = Porta
@@ -86,6 +88,36 @@ account-hub-auth-no-authentication-option =
     .label = Sem Autenticação
 account-hub-auth-label = Método de autenticação
 account-hub-username-label = Nome de utilizador
+account-hub-username-warning-icon = É necessário um nome de utilizador
+account-hub-address-book-username-error-text = Por favor, insira um nome de utilizador
+account-hub-server-label = URL/Nome do servidor
+account-hub-server-tip = O Thunderbird irá tentar detetar automaticamente o seu nome de servidor
+account-hub-server-warning-icon = URL inválido
+account-hub-server-error-text = Por favor, insira um URL válido
+account-hub-address-book-enter-password = Insira a palavra-passe da sua conta CardDav
+account-hub-address-book-name-label = Nome
+account-hub-address-book-name-error-text = Por favor, insira um nome
+account-hub-address-book-base-dn = DN base
+account-hub-address-book-bind-dn = DN de bind
+account-hub-ldap-form = Ligar a um diretório LDAP
+account-hub-advanced-configuration-button = Configuração avançada
+account-hub-ldap-ssl-toggle-label = Utilizar ligação segura (SSL)
+account-hub-max-results-label = Resultados máximos
+account-hub-max-results-error-text = Por favor, insira um número maior que 0
+account-hub-address-book-scope-label = Âmbito
+account-hub-address-book-scope-level-one-label =
+    .label = Um nível
+account-hub-address-book-scope-subtree-label =
+    .label = Sub-árvore
+account-hub-address-book-login-method-label = Método de autenticação
+account-hub-address-book-login-simple-label =
+    .label = Simples
+account-hub-address-book-search-label = Filtro de procura
+account-hub-simple-configuration-button = Configuração simples
+address-book-finding-remote-address-books = A procurar por livros de endereços…
+# $url (String) - URL of CardDAV endpoint we don't support.
+address-book-carddav-known-incompatible = { $url } é conhecido por ser incompatível com o { -brand-short-name }.
+address-book-carddav-connection-error = A ligação falhou.
 account-hub-result-username-label = Nome de utilizador
     .title = Nome de utilizador
 account-hub-name-label = Nome completo

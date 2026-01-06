@@ -12,6 +12,10 @@ allday-event = Evento para todo o dia
 recurrent-event =
     .value = Evento recorrente
 # $locationProperty is the location of the event
+calendar-invitation-location =
+    .value = Localização: { $locationProperty }
+    .tooltiptext = { $locationProperty }
+# $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Localização: { $locationProperty }
 # $organizerProperty is the organizer of the event
