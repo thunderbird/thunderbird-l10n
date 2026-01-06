@@ -46,6 +46,7 @@ compose-html-style-title = Estilo HTML
 composition-addressing-header = Endereçamento
 privacy-main-header = Privacidade
 privacy-passwords-header = Palavras-passe
+privacy-spam-header = Lixo eletrónico
 privacy-junk-header = Lixo
 collection-header = Recolha de dados e utilização do { -brand-short-name }
 collection-description = Nós empenhamo-nos para lhe dar escolhas e recolher apenas o que precisamos para fornecer e melhorar o { -brand-short-name } para todos. Pedimos sempre autorização antes de receber informação pessoal.
@@ -124,9 +125,13 @@ restore-default-label =
     .label = Restaurar predefinição
     .accesskey = R
 default-search-engine = Motor de pesquisa predefinido
+add-web-search-engine =
+    .label = Adicionar…
+    .accesskey = A
 remove-search-engine =
     .label = Remover
     .accesskey = v
+add-opensearch-provider-title = Adicionar fornecedor OpenSearch
 minimize-to-tray-label =
     .label = Quando o { -brand-short-name } for minimizado, movê-lo para a bandeja
     .accesskey = m
@@ -192,6 +197,9 @@ autoscroll-label =
 smooth-scrolling-label =
     .label = Utilizar deslocação suave
     .accesskey = u
+browsing-gtk-use-non-overlay-scrollbars =
+    .label = Mostrar sempre as barras de deslocamento
+    .accesskey = c
 window-layout-legend = Disposição da Janela
 draw-in-titlebar-label =
     .label = Ocultar a barra de título da janela do sistema
@@ -236,6 +244,9 @@ automatic-updates-label =
 check-updates-label =
     .label = Procurar atualizações, mas deixar-me escolher quais instalar
     .accesskey = c
+update-application-background-enabled =
+    .label = Quando o { -brand-short-name } não estiver em execução
+    .accesskey = Q
 update-history-button =
     .label = Mostrar histórico de atualizações
     .accesskey = h
@@ -283,6 +294,10 @@ clear-cache-button =
 clear-cache-shutdown-label =
     .label = Limpar cache ao desligar
     .accesskey = c
+always-underline-links =
+    .label = Sublinhar sempre as ligações
+    .accesskey = g
+font-legend = Tipos de letra
 fonts-legend = Tipos de letra
 default-font-label =
     .value = Tipo de letra predefinido:
@@ -390,6 +405,8 @@ open-msg-ex-window =
 close-move-delete =
     .label = Fechar janela/separador de mensagem ao mover ou apagar
     .accesskey = F
+address-display-legend = Lista de mensagens
+address-display-description = Formato preferencial de apresentação do endereço:
 address-display-email =
     .label = Apenas e-mail
     .accesskey = e
@@ -595,6 +612,36 @@ security-devices-button =
     .accesskey = D
 account-settings = Definições da Conta
 
+## DoH Section
+
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = URL inválido
+preferences-doh-steering-status = A utilizar um fornecedor local
+preferences-doh-status-active = Ativo
+preferences-doh-status-disabled = Desligado
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Inativo ({ $reason })
+preferences-doh-group-message = Ativar DNS sobre HTTPS, utilizando:
+preferences-doh-expand-section =
+    .tooltiptext = Mais informação
+preferences-doh-setting-default =
+    .label = Proteção predefinida
+    .accesskey = P
+preferences-doh-default-desc = O { -brand-short-name } decide quando utilizar o DNS seguro para proteger a sua privacidade.
+preferences-doh-default-detailed-desc-1 = Utilizar o DNS seguro nas regiões onde este está disponível
+preferences-doh-default-detailed-desc-2 = Utilizar o seu tradutor de DNS predefinido se houver um problema com o fornecedor de DNS seguro
+preferences-doh-default-detailed-desc-3 = Se possível, utilizar um fornecedor local
+preferences-doh-default-detailed-desc-4 = Desligar quando a VPN, controlo parental, ou as políticas empresariais estão ativas
+preferences-doh-default-detailed-desc-5 = Desativar quando uma rede informar que o { -brand-short-name } não deveria utilizar o DNS seguro
+preferences-doh-setting-enabled =
+    .label = Maior proteção
+    .accesskey = M
+preferences-doh-enabled-desc = Você controla quando deve utilizar o DNS seguro e escolhe o seu fornecedor.
+preferences-doh-enabled-detailed-desc-1 = Utiliza o fornecedor que você selecionar
+preferences-doh-enabled-detailed-desc-2 = Utilizar apenas o seu tradutor de DNS predefinido se existir um problema com o DNS seguro
+
 ## Chat Tab
 
 startup-label =
@@ -690,6 +737,7 @@ chat-variant-label =
 search-preferences-input2 =
     .style = width: 15.4em
     .placeholder = Encontrar nas Definições
+managed-notice = O { -brand-short-name } está a ser gerido pela sua organização.
 
 ## Settings UI Search Results
 
@@ -704,12 +752,24 @@ search-results-help-link = Precisa de ajuda? Visite o <a data-l10n-name="url">Ap
 
 ## Sync Tab
 
+sync-signedout-caption = Leve a sua Web consigo
 sync-signedout-description = Sincronize as suas contas, livros de endereço, calendários, extras e definições entre todos os seus dispositivos.
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Iniciar a sessão para sincronizar…
 sync-pane-header = Sincronização
 # Variables:
 # $userEmail (String) - The email logged into Sync.
+sync-pane-email-not-verified = “{ $userEmail }” não está verificado.
+# Variables:
+# $userEmail (String) - The email logged into Sync.
 sync-signedin-login-failure = Por favor, inicie a sessão para reassociar “{ $userEmail }”
+sync-pane-resend-verification = Reenviar verificação
 sync-pane-sign-in = Iniciar sessão
+sync-pane-remove-account = Remover conta
+sync-pane-edit-photo =
+    .title = Alterar imagem do perfil
+sync-pane-manage-account = Gerir conta
+sync-pane-sign-out = Terminar sessão…
 sync-pane-cancel = Cancelar
 sync-pane-save = Guardar
 show-synced-item-address = Livros de Endereços

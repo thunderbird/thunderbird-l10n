@@ -4,8 +4,63 @@
 
 # Variables:
 #   $name (String) - the screen name of a chat contact person
+msgevent-encryption-required-part1 = Tentou enviar uma mensagem não encriptada para { $name }. Como política, não são permitidas mensagens não encriptadas.
+msgevent-encryption-required-part2 = A tentar iniciar uma conversação privada. A sua mensagem será reenviada quando a conversação privada iniciar.
+msgevent-encryption-error = Ocorreu um erro ao encriptar a sua mensagem. A mensagem não foi enviada.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-connection-ended = { $name } já fechou a ligação encriptada que tinha consigo. Para evitar o envio acidental de uma mensagem sem encriptação, a sua mensagem não foi enviada. Encerre a sua conversa encriptada ou reinicie a mesma.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-setup-error = Ocorreu um erro ao estabelecer uma conversa privada com { $name }.
+# Do not translate 'OTR' (name of an encryption protocol)
+msgevent-msg-reflected = Está a receber as suas próprias mensagens OTR. Está a tentar falar consigo próprio, ou alguém está a repetir as suas mensagens para si.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-msg-resent = A última mensagem para { $name } foi reenviada.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-not-private = A mensagem encriptada recebida de { $name } é ilegível, pois neste momento não está a comunicar em modo privado.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-unreadable = Recebeu uma mensagem encriptada ilegível de { $name }.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-malformed = Recebeu uma mensagem de dados mal codificada de { $name }.
+# A Heartbeat is a technical message used to keep a connection alive.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-log-heartbeat-rcvd = Pulsação recebida de { $name }.
+# A Heartbeat is a technical message used to keep a connection alive.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-log-heartbeat-sent = Pulsação enviada para { $name }.
+# Do not translate 'OTR' (name of an encryption protocol)
+msgevent-rcvdmsg-general-err = Ocorreu um erro inesperado ao tentar proteger a sua conversa utilizando o OTR.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+#   $msg (string) - the message that was received.
+msgevent-rcvdmsg-unencrypted = A seguinte mensagem, recebida de { $name }, não foi encriptada: { $msg }
+# Do not translate 'OTR' (name of an encryption protocol)
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-unrecognized = Recebeu uma mensagem OTR irreconhecível de { $name }.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
 msgevent-rcvdmsg-for-other-instance = { $name } enviou uma mensagem destinada a uma sessão diferente. Se tiver iniciado sessão várias vezes, a mensagem pode ter sido recebida noutra sessão.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+context-gone-secure-private = A conversa privada com { $name } foi iniciada.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+context-gone-secure-unverified = A conversa encriptada, mas não confirmada, com { $name } foi iniciada.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+context-still-secure = Renovou com sucesso a conversa encriptada com { $name }.
 error-enc = Ocorreu um erro ao encriptar a mensagem.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+error-not-priv = Enviou dados encriptados para { $name }, que não estava à esperava dos mesmos.
 error-unreadable = Transmitiu uma mensagem encriptada ilegível.
 error-malformed = Transmitiu uma mensagem de dados mal codificada.
 resent = [reenviar]

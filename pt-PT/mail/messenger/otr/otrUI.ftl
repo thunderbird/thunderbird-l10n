@@ -7,12 +7,16 @@ refresh-label = Renovar a conversa encriptada
 auth-label = Confirmar a identidade do seu contacto
 reauth-label = Confirmar novamente a identidade do seu contacto
 auth-cancel = Cancelar
+auth-cancel-access-key = C
 auth-error = Ocorreu um erro ao confirmar a identidade do seu contacto.
 auth-success = A confirmação da identidade do seu contacto foi concluída com sucesso.
+auth-success-them = O seu contacto verificou a sua identidade com sucesso. Também pode confirmar a identidade do mesmo fazendo a sua própria pergunta.
 auth-fail = Falha ao confirmar a identidade do seu contacto.
 auth-waiting = A aguardar que o seu contacto termine a confirmação…
 finger-verify = Confirmar
+finger-verify-access-key = V
 finger-ignore = Ignorar
+finger-ignore-access-key = I
 # Do not translate 'OTR' (name of an encryption protocol)
 buddycontextmenu-label = Adicionar identificador OTR
 # Variables:
@@ -23,16 +27,23 @@ alert-start = A tentar iniciar uma conversa encriptada com { $name }.
 alert-refresh = A tentar renovar uma conversa encriptada com { $name }.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
+alert-gone-insecure = A conversação encriptada com { $name } terminou.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
 finger-unseen = A identidade de { $name } ainda não foi confirmada. A escuta casual não é possível, mas com algum esforço alguém pode ter acesso à conversa. Impeça a vigilância confirmando a identidade deste contacto.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 finger-seen = { $name } está a contactá-lo a partir de um computador não reconhecido. A escuta casual não é possível, mas com algum esforço alguém pode ter acesso à conversa. Impeça a vigilância confirmando a identidade deste contacto.
+state-not-private = A conversação atual não é privada.
+state-generic-not-private = A conversação atual não é privada.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-unverified = A conversa atual é encriptada, mas não é privada, pois a identidade de { $name } ainda não foi confirmada.
+state-generic-unverified = A conversação atual está encriptada, mas não é privada, porque algumas identidades ainda não foram confirmadas.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-private = A identidade de { $name } foi verificada. A conversa atual é encriptada e privada.
+state-generic-private = A conversação está encriptada e é privada.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-finished = { $name } terminou a conversa encriptada consigo; você deve fazer o mesmo.

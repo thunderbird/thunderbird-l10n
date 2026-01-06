@@ -12,7 +12,12 @@ view-fingerprint-button =
     .label = Gerir identificadores digitais de contactos
     .accesskey = f
 otr-settings-title = Definições OTR
+otr-require-encryption =
+    .label = Requerer encriptação ponto-a-ponto para conversas um-para-um
 otr-require-encryption-info =
     Ao exigir encriptação ponto a ponto, as mensagens em conversas de um para um
     não serão enviadas, a menos que possam ser encriptadas. As mensagens não encriptadas recebidas
     não serão mostradas como parte da conversa normal e também não serão registadas.
+otr-verify-nudge =
+    .label = Lembrar-me sempre para validar um contacto não-verificado
+otr-not-yet-available = ainda não está disponível
