@@ -180,9 +180,9 @@ message-banned = { $user } забанил(а) { $userBanned }.
 message-banned-with-reason = { $user } забанил(а) { $userBanned }. Причина: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
-message-accepted-invite-for = { $user } принял(а) приглашение { $userWhoSent }.
+message-accepted-invite-for = { $user } принимает приглашение { $userWhoSent }.
 #    $user is the name of the user who accepted an invitation.
-message-accepted-invite = { $user } принял(а) приглашение.
+message-accepted-invite = { $user } принимает приглашение.
 #    $user is the name of the user who invited.
 #    $userWhoGotInvited is the name of the user who got invited.
 message-invited = { $user } пригласил(а) { $userWhoGotInvited }.
@@ -199,7 +199,7 @@ message-display-name-remove = { $user } удалил(а) своё отображ
 #    $user is the name of the user who has joined the room.
 message-joined = { $user } присоединился(лась) к комнате.
 #    $user is the name of the user who has rejected the invitation.
-message-rejected-invite = { $user } отклонил(а) приглашение.
+message-rejected-invite = { $user } отклоняет приглашение.
 #    $user is the name of the user who has left the room.
 message-left = { $user } покинул(а) комнату.
 #    $user is the name of the user who unbanned.
@@ -214,11 +214,11 @@ message-kicked = { $user } изгнал(а) { $userGotKicked }.
 message-kicked-with-reason = { $user } изгнал(а) { $userGotKicked }. Причина: { $reason }
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
-message-withdrew-invite = { $user } отозвал(а) приглашение { $userInvitationWithdrawn }.
+message-withdrew-invite = { $user } отзывает приглашение { $userInvitationWithdrawn }.
 #    $user is the name of the user who withdrew invitation.
 #    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
 #    $reason is the reason the invite was withdrawn.
-message-withdrew-invite-with-reason = { $user } отозвал(а) приглашение { $userInvitationWithdrawn }. Причина: { $reason }
+message-withdrew-invite-with-reason = { $user } отзывает приглашение { $userInvitationWithdrawn }. Причина: { $reason }
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user } удалил(а) название комнаты.
 #    $user is the name of the user who changed the room name.
@@ -241,7 +241,7 @@ message-history-anyone = { $user } сделал(а) будущую истори�
 #    $user is the name of the user who has made future room history visible to all room members.
 message-history-shared = { $user } сделал(а) будущую историю комнаты видимой для всех участников комнаты.
 #    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
-message-history-invited = { $user } сделал(а) будущую историю комнаты видимой для всех участников комнаты с момента их приглашения.
+message-history-invited = { $user } делает будущую историю комнаты видимой для всех участников комнаты с момента их приглашения.
 #    $user is the name of the user who has made future room history visible to all room members, from the point they joined.
 message-history-joined = { $user } сделал(а) будущую историю комнаты видимой для всех участников комнаты с момента их присоединения.
 #    $user is the name of the user who changed the address.

@@ -161,10 +161,10 @@ conversation-message-parted = { $participant } покинул комнату.
 conversation-message-parted-reason = { $participant } покинул комнату: { $message }
 # LOCALIZATION NOTE (conversation-message-invitation-declined*):
 #   $invitee (String) is the invitee that declined the invitation.
-conversation-message-invitation-declined = { $invitee } отклонил ваше приглашение.
+conversation-message-invitation-declined = { $invitee } отклоняет ваше приглашение.
 #   $invitee (String) is the invitee that declined the invitation.
 #   $declineMessage (String) is the decline message supplied by the invitee.
-conversation-message-invitation-declined-reason = { $invitee } отклонил ваше приглашение: { $declineMessage }
+conversation-message-invitation-declined-reason = { $invitee } отклоняет ваше приглашение: { $declineMessage }
 # LOCALIZATION NOTE (conversation-message-banned-*):
 #   These are displayed as a system message when a participant is banned from
 #   a room.
