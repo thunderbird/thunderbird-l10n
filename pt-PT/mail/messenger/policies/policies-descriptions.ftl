@@ -61,7 +61,7 @@ policy-LegacyProfiles = Desativar a funcionalidade de forçar um perfil separado
 
 ## Do not translate "SameSite", it's the name of a cookie attribute.
 
-policy-LegacySameSiteCookieBehaviorEnabled = Ativar a definição legada de comportamento predefinido para a cookie SameSite.
+policy-LegacySameSiteCookieBehaviorEnabled = Ativar a definição legada de comportamento predefinido para o cookie SameSite.
 policy-LegacySameSiteCookieBehaviorEnabledForDomainList = Reverter para o comportamento legado de SameSite para os cookies nos sites especificados.
 
 ##
