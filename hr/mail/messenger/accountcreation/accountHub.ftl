@@ -11,7 +11,7 @@
 
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = Dobro došli u <span data-l10n-name="brand-name">{ -brand-full-name }</span>
-account-hub-title = Početna stranica računa
+account-hub-title = Centar računa
 
 ## Footer
 

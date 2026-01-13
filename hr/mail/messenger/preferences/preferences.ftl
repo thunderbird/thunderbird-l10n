@@ -445,13 +445,13 @@ dark-message-mode-toggle-label =
     .label = Prikaži prekidač za tamni način rada u porukama
     .accesskey = t
 dark-message-mode-toggle-description = Prikaži prekidač u zaglavlju poruke za brzo onemogućavanje tamnog načina rada u porukama
-account-hub-legend = Početna stranica računa
+account-hub-legend = Centar računa
 account-hub-checkbox-label =
-    .label = Stvori račune na početnoj stranici računa
+    .label = Stvori račune u novom centru za račune
     .accesskey = c
 account-hub-checkbox-description = Eksperimentalni tijek izrade novog računa e-pošte
 account-hub-ab-checkbox-label =
-    .label = Stvori adresar na novoj početnoj stranici računa
+    .label = Stvori adresar u novom centru za račune
     .accesskey = a
 account-hub-ab-checkbox-description = Eksperimentalni tijek izrade novog adresara
 
