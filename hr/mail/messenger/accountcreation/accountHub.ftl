@@ -133,6 +133,7 @@ account-hub-email-manual-configuration = Ručna konfiguracija
 account-hub-notification-unknown-host = Informacije za postavljanje su pronađene na domeni treće strane
 account-hub-ssl-noencryption = Nema
 account-hub-email-skip-button = Preskoči
+account-hub-finding-sync-accounts = Račun je stvoren. Otkrivanje adresara i kalendara …
 account-hub-result-username-label = Korisničko ime
     .title = Korisničko ime
 account-hub-name-label = Puno ime
