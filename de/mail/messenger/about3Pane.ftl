@@ -519,5 +519,5 @@ folder-pane-context-compact =
 # One or more servers selected for compacting ALL their folders. Only this or
 # folder-pane-context-compact string will appear at a time, not both.
 folder-pane-context-compact-all =
-    .label = alle Ordner komprimieren
+    .label = Alle Ordner komprimieren
     .accesskey = O
