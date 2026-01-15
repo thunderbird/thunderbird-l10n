@@ -9,8 +9,8 @@ troubleshoot-mode-dialog-title =
     }
 troubleshoot-mode-description =
     { -brand-short-name.case-status ->
-        [with-cases] Režim řešení potíží { -brand-short-name(case: "gen") } vám pomůže s diagnostikou problémů. Vaše doplňky a uživatelská nastavení budou dočasně zakázány.
-       *[no-cases] Režim řešení potíží aplikace { -brand-short-name } vám pomůže s diagnostikou problémů. Vaše doplňky a uživatelská nastavení budou dočasně zakázány.
+        [with-cases] Režim řešení potíží { -brand-short-name(case: "gen") } vám pomůže s diagnostikou problémů. Vaše doplňky budou dočasně zakázány a uživatelská nastavení potlačena.
+       *[no-cases] Režim řešení potíží aplikace { -brand-short-name } vám pomůže s diagnostikou problémů. Vaše doplňky budou dočasně zakázány a uživatelská nastavení potlačena.
     }
 troubleshoot-mode-description2 = Některé z těchto změn můžete provést natrvalo:
 troubleshoot-mode-disable-addons =
