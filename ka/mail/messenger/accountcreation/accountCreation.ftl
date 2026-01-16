@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = კონფიგურაციის XML ფაილი ელფოსტის ანგარიშის კონფიგურაციას არ შეიცავს.
+outgoing-not-smtp-error = გამავალი ფოსტის სერვერი უნდა იყოს SMTP-სახის
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = ვერ ხერხდება სერვერზე შესვლა. შესაძლოა მცდარი კონფიგურაციის, სახელის ან პაროლის მიზეზით.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = სერვერის პოვნა ვერ ხერხდება
 
 ## ExhcangeAutoDiscover.sys.mjs
 
