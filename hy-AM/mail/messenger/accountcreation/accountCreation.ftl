@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Կարգավորման XML ֆայլը չի պարունակում փոստարկղի կարգավորումներ։
+outgoing-not-smtp-error = Ելքային սպասարկիչը պետք է լինի SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Սպասարկիչին կապակցելու սխալ։ Ստուգեք կարգավորումները, անունը և գաղտնաբառը։
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Սպասարկիչը չի գտնվել
 
 ## ExhcangeAutoDiscover.sys.mjs
 
