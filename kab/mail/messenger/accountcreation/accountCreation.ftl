@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Afaylu XML n twila ur yegbir ara tawila n umiḍan n yimayl.
+outgoing-not-smtp-error = Yessefk aqeddac uffiɣ ad yili s wanaw SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Ur yezmir ara ad yekcem ɣer uqeddac. Ahat tawila, isem n useqdac neɣ awal uffir mačči d ameɣtu.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Ur yezmir ara ad d-yaff aqeddac
 
 ## ExhcangeAutoDiscover.sys.mjs
 
