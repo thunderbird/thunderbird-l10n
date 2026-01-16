@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = ჰოსტის სახელი არ მითითებულა ან მიუღებელ სიმბოლოებს შეიცავს. მისაღებია მხოლოდ ასოები, ციფრები და სიმბოლოები «-» და «_».
+alphanumdash-error = ტექსტი მიუღებელ სიმბოლოებს შეიცავს. მისაღებია მხოლოდ ასოები, ციფრები და სიმბოლოები «-» და «_».
+allowed-value-error = მითითებული მნიშვნელბა არაა მისაღებთა სიაში
+url-scheme-error = URL სქემა მიუღებელია
+url-parsing-error = ბმულის ამოცნობა ვერ ხერხდება
+string-empty-error = უნდა მიუთითოთ მნიშვნელობა
+boolean-error = არაა ლოგიკური ოპერატორი
+no-number-error = არაა რიცხვი
+number-too-large-error = რიცხვი მეტისმეტად დიდია
+number-too-small-error = რიცხვი მეტისმეტად მცირეა
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = სერვერთან დაკავშირება ვერ ხერხდება
+bad-response-content-error = პასუხი უმართებულოა
 
 ## readFromXML.sys.mjs
 
