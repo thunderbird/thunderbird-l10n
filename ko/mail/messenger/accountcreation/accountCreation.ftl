@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = 호스트 이름이 비었거나 사용할 수 없는 문자가 포함되어 있습니다. 영문자, 숫자, -, .만 가능합니다.
+alphanumdash-error = 사용할 수 없는 문자를 포함하고 있습니다. 영문자, 숫자, -와 .만 가능합니다.
+allowed-value-error = 허용 목록에 없는 값
+url-scheme-error = URL scheme 사용 못함
+url-parsing-error = URL 알 수 없음
+string-empty-error = 이 문자열에 대한 값이 없음
+boolean-error = 불린 값이 아님
+no-number-error = 숫자가 아님
+number-too-large-error = 너무 긴 숫자
+number-too-small-error = 너무 짧은 숫자
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = 서버에 접속할 수 없음
+bad-response-content-error = 부정확한 서버 응답
 
 ## readFromXML.sys.mjs
 
