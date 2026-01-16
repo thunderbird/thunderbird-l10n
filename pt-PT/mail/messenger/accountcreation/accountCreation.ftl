@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = O ficheiro de configuração XML não possui uma configuração de conta de correio.
+outgoing-not-smtp-error = O servidor de envio tem que ser do tipo SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Não foi possível iniciar a sessão no servidor. Provavelmente uma configuração, nome de utilizador ou palavra-passe inválida.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Servidor não encontrado
 
 ## ExhcangeAutoDiscover.sys.mjs
 
