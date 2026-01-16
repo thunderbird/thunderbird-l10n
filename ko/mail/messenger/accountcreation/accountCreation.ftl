@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = 설정 XML 파일에 메일 계정 정보가 없습니다.
+outgoing-not-smtp-error = 보내기 서버는 SMTP를 사용해야 합니다.
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = 서버에 로그인 할 수 없습니다. 설정이나 계정 이름, 비밀번호가 잘못되었을 수 있습니다.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = 서버를 찾을 수 없습니다.
 
 ## ExhcangeAutoDiscover.sys.mjs
 
