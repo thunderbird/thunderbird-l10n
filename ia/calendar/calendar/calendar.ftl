@@ -842,6 +842,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Activitate…
     .accesskey = A
+calendar-task-filter-title2 = Filtrar activitates
 calendar-task-filter-title = Monstrar
 calendar-task-filter-all =
     .label = Toto
