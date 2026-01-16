@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Назва трымальніка ці пустая, ці змяшчае забароненыя знакі. Дазволены толькі літары, лікі, '-' і '.'.
+alphanumdash-error = Радок змяшчае непадтрымальныя знакі. Дазволены толькі літары, лікі, '-' і '_'.
+allowed-value-error = Дадзенае значэнне не знаходзіцца ў спісе дапушчальных
+url-scheme-error = Схема URL не дазваляецца
+url-parsing-error = URL не распазнаны
+string-empty-error = Вы мусіце даць значэнне гэтаму радку
+boolean-error = Не лагічнае
+no-number-error = Не лік
+number-too-large-error = Лік занадта вялікі
+number-too-small-error = Лік занадта малы
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Не атрымліваецца звязацца з серверам
+bad-response-content-error = Дрэннае змесціва адказу
 
 ## readFromXML.sys.mjs
 
