@@ -75,7 +75,7 @@
 <!ENTITY detachAttachmentCmd.accesskey "y">
 <!ENTITY deleteAttachmentCmd.label "Sil">
 <!ENTITY deleteAttachmentCmd.accesskey "S">
-<!ENTITY openAllAttachmentsCmd.label "Tümünü aç...">
+<!ENTITY openAllAttachmentsCmd.label "Tümünü aç…">
 <!ENTITY openAllAttachmentsCmd.accesskey "n">
 <!ENTITY saveAllAttachmentsCmd.label "Tümünü kaydet…">
 <!ENTITY saveAllAttachmentsCmd.accesskey "e">
