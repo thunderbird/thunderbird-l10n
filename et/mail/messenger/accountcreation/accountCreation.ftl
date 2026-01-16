@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Häälestusfaili XML ei sisalda e-posti konto häälestust.
+outgoing-not-smtp-error = Kirju saatev server peab olema SMTP tüüpi
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Serverisse pole võimalik sisse logida. Tõenäoliselt on tegemist vale häälestuse, kasutajanime või parooliga.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Serverit ei leitud
 
 ## ExhcangeAutoDiscover.sys.mjs
 
