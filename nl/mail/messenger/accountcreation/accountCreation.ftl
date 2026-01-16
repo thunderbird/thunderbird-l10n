@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = De configuratiebestands-XML bevat geen e-mailaccountconfiguratie.
+outgoing-not-smtp-error = De uitgaande server moet van het type SMTP zijn
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Aanmelden bij server is niet mogelijk. Waarschijnlijk een onjuiste configuratie, gebruikersnaam of wachtwoord.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Kan geen server vinden
 
 ## ExhcangeAutoDiscover.sys.mjs
 
