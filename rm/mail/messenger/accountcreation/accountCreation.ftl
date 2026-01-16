@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Il champ per l'adressa dal server è vid u cuntegna caracters betg permess. Mo letras, numers, - e . èn lubids.
+alphanumdash-error = La chadaina da caracters cuntegna caracters betg sustegnids. Mo letras, numers, - e _ èn lubids.
+allowed-value-error = La valur inditgada n'è betg en la glista permessa
+url-scheme-error = Schema URL betg permess
+url-parsing-error = Betg reconuschì l’URL
+string-empty-error = Ti stos far ina endataziun
+boolean-error = Betg ina valur boolean
+no-number-error = Betg in numer
+number-too-large-error = Numer memia grond
+number-too-small-error = Numer memia pitschen
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Impussibel da contactar il server
+bad-response-content-error = Cuntegn nuncorrect da la resposta
 
 ## readFromXML.sys.mjs
 
