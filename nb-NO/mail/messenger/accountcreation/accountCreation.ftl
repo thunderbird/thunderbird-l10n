@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Servernavnet er tomt eller inneholder ugyldige tegn. Bare bokstaver, tall, - og . er tillatt.
+alphanumdash-error = En tekst inneholder ugyldige tegn. Bare bokstaver, tall, - og _ er tillatt.
+allowed-value-error = Angitt verdi ikke i liste over tillatte verdier
+url-scheme-error = URL-skjema ikke tillatt
+url-parsing-error = URL ikke gjenkjent
+string-empty-error = Du må oppgi en verdi for denne strengen
+boolean-error = Ikke en boolsk verdi
+no-number-error = Ikke et tall
+number-too-large-error = Tallet er for stort
+number-too-small-error = Tallet er for lite
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Klarte ikke koble til serveren
+bad-response-content-error = Feil i responsdata
 
 ## readFromXML.sys.mjs
 
