@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Die Konfigurationsdatei enthält nicht die notwendigen Angaben in XML zum Einrichten eines E-Mail-Kontos.
+outgoing-not-smtp-error = Der Postausgangs-Server muss vom Typ SMTP sein.
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Anmeldung auf dem Server fehlgeschlagen. Eventuell sind Konfiguration, Benutzername oder Passwort nicht korrekt.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Server kann nicht gefunden werden.
 
 ## ExhcangeAutoDiscover.sys.mjs
 
