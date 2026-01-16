@@ -567,7 +567,7 @@ menu-delete-spam =
 ## Folder pane context.
 
 folder-context-empty-spam =
-    .label = Gwag'r Sbam
+    .label = Gwagio'r Sbam
     .accesskey = G
 
 ## Thread pane.
