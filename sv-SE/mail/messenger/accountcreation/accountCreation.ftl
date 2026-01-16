@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = XML-konfigurationsfilen innehåller inte några inställningar för e-postkonto.
+outgoing-not-smtp-error = Den utgående servern måste vara av typen SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Kan inte logga in på servern. Beror antagligen på fel inställningar, användarnamn eller lösenord.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Kan inte hitta någon server
 
 ## ExhcangeAutoDiscover.sys.mjs
 
