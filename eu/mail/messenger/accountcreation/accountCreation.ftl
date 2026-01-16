@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Ostalari-izena hutsik dago edo debekatutako karaktereak ditu. Letrak, zenbakiak, - eta . onartzen dira soilik.
+alphanumdash-error = Karaktere-kateak onartzen ez diren karaktereak ditu. Letrak, zenbakiak, - eta _ onartzen dira soilik.
+allowed-value-error = Emandako balioa ez dago onartutakoen zerrendan
+url-scheme-error = URL eskema ez da onartzen
+url-parsing-error = URL ezezaguna
+string-empty-error = Balio bat eman behar duzu karaktere-kate honentzat
+boolean-error = Ez da boolearra
+no-number-error = Ez da zenbakia
+number-too-large-error = Zenbaki handiegia
+number-too-small-error = Zenbaki txikiegia
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Ezin da zerbitzaria kontaktatu
+bad-response-content-error = Erantzunaren eduki okerra
 
 ## readFromXML.sys.mjs
 
