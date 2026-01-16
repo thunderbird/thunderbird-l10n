@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = ชื่อโฮสต์ว่างเปล่าหรือมีอักขระต้องห้าม อนุญาตให้ป้อนเฉพาะตัวอักษร ตัวเลข เครื่องหมาย - และ . เท่านั้น
+alphanumdash-error = สตริงมีอักขระที่ไม่รองรับ อนุญาตให้ป้อนเฉพาะตัวอักษร ตัวเลข เครื่องหมาย - และ _ เท่านั้น
+allowed-value-error = ค่าที่ให้มาไม่อยู่ในรายการที่อนุญาต
+url-scheme-error = แบบแผน URL ไม่ได้รับอนุญาต
+url-parsing-error = ไม่รู้จัก URL
+string-empty-error = คุณต้องระบุค่าสำหรับสตริงนี้
+boolean-error = ไม่ใช่ค่าตรรกะ
+no-number-error = ไม่ใช่ตัวเลข
+number-too-large-error = จำนวนเลขมากเกินไป
+number-too-small-error = จำนวนเลขน้อยเกินไป
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = ไม่สามารถติดต่อเซิร์ฟเวอร์
+bad-response-content-error = เนื้อหาการตอบสนองไม่ถูกต้อง
 
 ## readFromXML.sys.mjs
 
