@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Konfigurazio-fitxategiko XMLak ez du posta-kontuaren konfiguraziorik.
+outgoing-not-smtp-error = Irteerako SMTP zerbitzariak motakoa izan behar du
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Ezin da zerbitzarian saioa hasi. Baliteke konfigurazioa, erabiltze-izena edo pasahitza oker egotea.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Ezin da zerbitzaria aurkitu
 
 ## ExhcangeAutoDiscover.sys.mjs
 
