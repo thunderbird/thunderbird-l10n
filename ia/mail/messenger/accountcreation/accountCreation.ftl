@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Le nomine del servitor es vacue o contine characteres prohibite. Solmente le litteras, numeros, - e . es permittite.
+alphanumdash-error = Le valor contine characteres non supportate. Solmente litteras, numeros, - e _ es permittite.
+allowed-value-error = Le valor fornite non es in le lista de valores permittite
+url-scheme-error = Schema de adresses URL non permittite
+url-parsing-error = URL non recognoscite
+string-empty-error = Tu debe fornir un valor pro iste parametro
+boolean-error = Non es boolean
+no-number-error = Non es un numero
+number-too-large-error = Numero troppo grande
+number-too-small-error = Numero troppo micre
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Impossibile contactar le servitor
+bad-response-content-error = Responsa con contento incorrecte
 
 ## readFromXML.sys.mjs
 
