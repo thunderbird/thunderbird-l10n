@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Sunucu adı boş veya yasak karakterler içeriyor. Yalnızca harfler, rakamlar, tire (-) ve nokta (.) kullanılabilir.
+alphanumdash-error = Dizgi desteklenmeyen karakterler içeriyor. Yalnızca harfler, rakamlar, tire (-) ve alt çizgi (_) kullanılabilir.
+allowed-value-error = Sunulan değer izin verilenler listesinde değil
+url-scheme-error = URL şemasına izin verilmiyor
+url-parsing-error = URL tanınmadı
+string-empty-error = Bu dizgi için bir değer atamak zorundasınız
+boolean-error = Mantıksal değer değil
+no-number-error = Sayı değil
+number-too-large-error = Sayı çok büyük
+number-too-small-error = Sayı çok küçük
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Sunucu bağlantısı kurulamadı
+bad-response-content-error = Geçersiz yanıt içeriği
 
 ## readFromXML.sys.mjs
 
