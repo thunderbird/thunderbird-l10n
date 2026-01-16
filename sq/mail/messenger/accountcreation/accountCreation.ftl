@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Strehëemri është i zbrazët ose përmban shenja të ndaluara. Lejohen vetëm shkronja, numra, - dhe . .
+alphanumdash-error = Vargu përmban shenja të pambuluara ende. Lejohen vetëm shkronja, numra, - dhe . .
+allowed-value-error = U dha vlerë e palejuar në listë
+url-scheme-error = Skemë URL e palejuar
+url-parsing-error = URL e papranuar
+string-empty-error = Duhet të jepni një vlerë për këtë varg
+boolean-error = Jo buleane
+no-number-error = Jo numër
+number-too-large-error = Numër shumë i madh
+number-too-small-error = Numë shumë i vogël
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Nuk lidhet dot me shërbyesin
+bad-response-content-error = Lëndë përgjigjeje e gabuar
 
 ## readFromXML.sys.mjs
 
