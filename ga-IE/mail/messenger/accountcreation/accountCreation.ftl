@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Tá an t-óstainm folamh nó tá carachtair neamhcheadaithe ann. Ní cheadaítear ach litreacha, uimhreacha, . agus -.
+alphanumdash-error = Tá carachtair sa teaghrán nach dtacaítear leo. Ní cheadaítear ach litreacha, uimhreacha, - agus _.
+allowed-value-error = Níl an luach a soláthraíodh sa liosta ceadaithe.
+url-scheme-error = Ní cheadaítear an scéim URL seo
+url-parsing-error = Ní aithnítear an URL
+string-empty-error = Caithfear luach a sholáthar don teaghrán seo.
+boolean-error = Ní luach Boole é
+no-number-error = Ní uimhir é
+number-too-large-error = Uimhir rómhór
+number-too-small-error = Uimhir róbheag
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Ní féidir dul i dteagmháil leis an bhfreastalaí
+bad-response-content-error = Droch-inneachar freagartha
 
 ## readFromXML.sys.mjs
 
