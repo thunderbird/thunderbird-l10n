@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Servernamnet är tomt eller innehåller ogiltiga tecken. Endast bokstäver, nummer, - och . är tillåtna.
+alphanumdash-error = Textsträngen innehåller ogiltiga tecken. Endast bokstäver, nummer, - och _ är tillåtna.
+allowed-value-error = Det angivna värdet är inte tillåtet
+url-scheme-error = URL-schemat är inte tillåtet
+url-parsing-error = URL:en är okänd
+string-empty-error = Du måste uppge ett värde för denna sträng
+boolean-error = Ej boolesk
+no-number-error = Inte ett nummer
+number-too-large-error = Numret är för stort
+number-too-small-error = Numret är för litet
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Kan inte kontakta servern
+bad-response-content-error = Fel svarsinnehåll
 
 ## readFromXML.sys.mjs
 
