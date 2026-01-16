@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Servernavnet er ikke angivet, eller det indeholder forbudte tegn. Det er kun tilladt at bruge bogstaver tal, - (bindestreg) og . (punktum).
+alphanumdash-error = Strengen indeholder tegn, der ikke er understøttet. Det er kun tilladt at bruge bogstaver tal, - (bindestreg) og _ (understreg).
+allowed-value-error = Den angivne værdi findes ikke i listen over tilladte værdier.
+url-scheme-error = URL-protokollen er ikke tilladt
+url-parsing-error = URL genkendes ikke
+string-empty-error = Du skal angive en værdi til denne streng
+boolean-error = Ikke en boolsk
+no-number-error = Ikke et tal
+number-too-large-error = Tallet er for stort
+number-too-small-error = Tallet er for lille
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Kan ikke forbinde til serveren
+bad-response-content-error = Ugyldigt svar
 
 ## readFromXML.sys.mjs
 
