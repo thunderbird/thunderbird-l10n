@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Kartela XML e konfigurimit s’përmban formësim llogarie email.
+outgoing-not-smtp-error = Shërbyesi dërgues duhet të jetë i llojit SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = S’arrihet të hyhet në shërbyes. Ndoshta për shkak formësimi, emër përdoruesi ose fjalëkalimi të gabuar.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = S’gjen dot shërbyes
 
 ## ExhcangeAutoDiscover.sys.mjs
 
