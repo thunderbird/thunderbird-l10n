@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Nazwa hosta jest pusta lub zawiera niedozwolone znaki. Wyłącznie litery, cyfry oraz znaki „-” i „.” są dozwolone.
+alphanumdash-error = Łańcuch zawiera niedozwolone znaki. Wyłącznie litery, cyfry oraz znaki „-” i „_” są dozwolone.
+allowed-value-error = Podana wartość nie znajduje się na liście dozwolonych
+url-scheme-error = Nieobsługiwany protokół adresu URL
+url-parsing-error = Nierozpoznany adres URL
+string-empty-error = Ten łańcuch musi mieć wartość
+boolean-error = Wartość nie jest typu logicznego
+no-number-error = Wartość nie jest typu liczbowego
+number-too-large-error = Zbyt duża liczba
+number-too-small-error = Zbyt mała liczba
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Nie można uzyskać odpowiedzi od serwera
+bad-response-content-error = Zła treść odpowiedzi
 
 ## readFromXML.sys.mjs
 
