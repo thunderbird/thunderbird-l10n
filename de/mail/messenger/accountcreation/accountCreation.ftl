@@ -19,6 +19,7 @@ boolean-error = Kein boolescher Wert
 no-number-error = Kein numerischer Wert
 number-too-large-error = Nummer zu hoch
 number-too-small-error = Nummer zu niedrig
+emailaddress-syntax-error = Keine gültige E-Mail-Adresse
 
 ## FetchHTTP.sys.mjs
 
