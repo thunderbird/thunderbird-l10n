@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Nama host kosong atau mengandung karakter yang tidak diizinkan. Hanya huruf, angka, - dan . yang diizinkan.
+alphanumdash-error = String mengandung karakter yang tidak didukung. Hanya huruf, angka, - dan . yang diizinkan.
+allowed-value-error = Nilai yang disediakan tidak ada pada daftar yang diizinkan
+url-scheme-error = Skema URL tidak diizinkan
+url-parsing-error = URL tidak dikenali
+string-empty-error = Anda harus menyediakan sebuah nilai untuk string ini
+boolean-error = Bukan nilai boolean
+no-number-error = Bukan sebuah angka
+number-too-large-error = Angka terlalu besar
+number-too-small-error = Angka terlalu kecil
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Tidak dapat menghubungi server
+bad-response-content-error = Balasan konten yang salah
 
 ## readFromXML.sys.mjs
 
