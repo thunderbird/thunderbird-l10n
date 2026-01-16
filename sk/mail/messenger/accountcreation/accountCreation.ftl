@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Konfiguračný súbor XML neobsahuje nastavenia pre e‑mailový účet.
+outgoing-not-smtp-error = Server pre odosielanie pošty musí byť typu SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Nie je možné prihlásiť sa na server. Pravdepodobne nesprávna konfigurácia, používateľské meno alebo heslo.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Nie je možné nájsť server
 
 ## ExhcangeAutoDiscover.sys.mjs
 
