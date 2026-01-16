@@ -842,6 +842,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Tarea…
     .accesskey = T
+calendar-task-filter-title2 = Filtrar Tareas
 calendar-task-filter-title = Mostrar
 calendar-task-filter-all =
     .label = Todo

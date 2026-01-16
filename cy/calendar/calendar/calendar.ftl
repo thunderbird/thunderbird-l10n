@@ -879,6 +879,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Tasg…
     .accesskey = T
+calendar-task-filter-title2 = Hidlo Tasgau
 calendar-task-filter-title = Dangos
 calendar-task-filter-all =
     .label = Y Cyfan

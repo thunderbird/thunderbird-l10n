@@ -121,6 +121,7 @@ address-book-carddav-connection-error = No se pudo conectar.
 address-book-ldap-duplicate-error = El nombre del directorio LDAP ya existe. Ingrese un nombre de directorio diferente.
 address-book-ldap-creation-error = No se pudo crear el directorio LDAP.
 account-hub-email-setup-ews = Configuración del servidor
+account-hub-result-exchange-url-label = URL de extremo de Exchange
 account-hub-result-host-url-label = URL de extremo de EWS
 account-hub-email-credentials-confirmation = Configuración de la cuenta
 account-hub-result-unknown-hostname = Nombre de servidor desconocido

@@ -121,6 +121,7 @@ address-book-carddav-connection-error = Échec de la connexion.
 address-book-ldap-duplicate-error = Ce nom d’annuaire LDAP existe déjà. Veuillez saisir un nom différent.
 address-book-ldap-creation-error = Impossible de créer l’annuaire LDAP.
 account-hub-email-setup-ews = Paramètres serveur
+account-hub-result-exchange-url-label = URL du point de terminaison Exchange
 account-hub-result-host-url-label = URL du point de terminaison EWS
 account-hub-email-credentials-confirmation = Configuration du compte
 account-hub-result-unknown-hostname = Nom d’hôte inconnu
