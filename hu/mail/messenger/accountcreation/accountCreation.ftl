@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = A gépnév üres, vagy tiltott karaktereket tartalmaz. Csak betűk, számok és a . engedélyezett.
+alphanumdash-error = A karakterlánc nem támogatott karaktereket tartalmaz. Csak betűk, számok, a - és a _ engedélyezett.
+allowed-value-error = A megadott érték nincs az engedélyezettek listájában
+url-scheme-error = A webcímséma nem engedélyezett
+url-parsing-error = A webcím nem ismerhető fel
+string-empty-error = Kötelező értéket adni ennek a karakterláncnak
+boolean-error = Nem logikai
+no-number-error = Nem szám
+number-too-large-error = Túl nagy szám
+number-too-small-error = Túl kicsi szám
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Nem lehet kapcsolódni a kiszolgálóhoz
+bad-response-content-error = A válasz tartalma rossz
 
 ## readFromXML.sys.mjs
 
