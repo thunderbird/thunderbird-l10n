@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Nafn netþjóns er tómt eða inniheldur ólöglega stafi. Aðeins er leyfilegt að hafa stafi, tölustafi, - og . í nafni netþjóns.
+alphanumdash-error = Strengur inniheldur óstudda stafi. Aðeins er leyfilegt að hafa stafi, tölustafi, - og _ í nafni netþjóns.
+allowed-value-error = Innslegið gildi er ekki í lista yfir leyfileg gildi
+url-scheme-error = URL skema er ekki leyfilegt
+url-parsing-error = URL er ekki viðurkennt
+string-empty-error = Þú verður að setja inn gildi fyrir þennan streng
+boolean-error = Ekki boole gildi
+no-number-error = Ekki tala
+number-too-large-error = Tala of stór
+number-too-small-error = Tala of lítil
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Get ekki tengst við netþjón
+bad-response-content-error = Gallað efni í svari
 
 ## readFromXML.sys.mjs
 
