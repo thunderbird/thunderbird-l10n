@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = XML-asetustiedosto ei sisällä sähköpostitilin asetustietoja.
+outgoing-not-smtp-error = Lähtevän postin palvelimen täytyy olla SMTP-palvelin
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Palvelimelle kirjautuminen ei onnistunut. Luultavasti asetukset, käyttäjätunnus tai salasana ovat väärin.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Palvelinta ei löydy
 
 ## ExhcangeAutoDiscover.sys.mjs
 
