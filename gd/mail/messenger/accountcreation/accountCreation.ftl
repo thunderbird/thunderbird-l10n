@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Chan eil rèiteachadh airson cunntas puist-dhealain san fhaidhle rèiteachaidh XML.
+outgoing-not-smtp-error = Feumaidh am frithealaiche a-mach a bhith dhen t-seòrsa SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Chan urrainnear logadh a-steach aig an fhrithealaiche. 'S mathaid gu bheil an rèiteachadh, an t-ainm-cleachdaiche no am facal-faire cearr.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Cha ghabh frithealaiche a lorg
 
 ## ExhcangeAutoDiscover.sys.mjs
 
