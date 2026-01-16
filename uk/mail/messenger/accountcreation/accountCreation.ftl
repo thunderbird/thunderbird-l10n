@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = XML-файл конфігурації не містить конфігурацію облікового запису.
+outgoing-not-smtp-error = Вихідний сервер має бути SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Неможливо виконати вхід на сервері. Можливо, неправильна конфігурація, ім'я користувача чи пароль.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Не можу знайти сервер
 
 ## ExhcangeAutoDiscover.sys.mjs
 
