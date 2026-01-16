@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = שם שרת מארח ריק או מכיל תווים אסורים. מותרים רק אותיות, מספרים, והתווים '-' ו־'.'.
+alphanumdash-error = מחרוזת כוללת תווים לא נתמכים. מותרים רק אותיות, מספרים, והסימנים '-' ו־'_'.
+allowed-value-error = הערך שסופק אינו ברשימה המותרת
+url-scheme-error = תבנית URL לא מותרת
+url-parsing-error = URL לא מזוהה
+string-empty-error = עליך לספק ערך למחרוזת זו
+boolean-error = לא בוליאני
+no-number-error = לא מספר
+number-too-large-error = מספר גדול מדי
+number-too-small-error = מספר קטן מדי
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = לא ניתן לתקשר עם השרת
+bad-response-content-error = תוכן תשובה לא חוקי
 
 ## readFromXML.sys.mjs
 
