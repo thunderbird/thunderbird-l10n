@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Mītnes nosaukums ir tukšs vai satur aizliegtas rakstzīmes. Ir atļauti tikai burti, cipari, - un ..
+alphanumdash-error = Virkne satur neatbalstītas rakstzīmes. Ir atļauti tikai burti, cipari, - un _.
+allowed-value-error = Norādītā vērtība nav atļautajā sarakstā
+url-scheme-error = URL shēma nav atļauta
+url-parsing-error = URL nav atpazīts
+string-empty-error = Jums jāievada šīs virknes vērtība
+boolean-error = Nav būla
+no-number-error = Nav skaitlis
+number-too-large-error = Pārāk liels skaitlis
+number-too-small-error = Pārāk mazs skaitlis
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Nevar sazināties ar serveri
+bad-response-content-error = Slikts atbildes saturs
 
 ## readFromXML.sys.mjs
 
