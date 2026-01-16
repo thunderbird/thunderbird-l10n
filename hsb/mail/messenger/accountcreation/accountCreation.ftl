@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Serwerowe mjeno je prózdne abo wobsahuje njedowolene znamješka. Jenož pismiki, ličby a znamješce - a . su dowolene.
+alphanumdash-error = Znamješkowy rjećazk wobsahuje njepodpěrowane znamješka. Jenož pismiki, ličby a znamješce - a _ su dowolene.
+allowed-value-error = Podata hódnota w dowolenej lisćinje njeje
+url-scheme-error = Šema URL dowoleny njeje
+url-parsing-error = URL njeje so spóznał
+string-empty-error = Dyrbiš hódnotu za tutón znamješkowy rjećazk podać
+boolean-error = To typ boolean njeje
+no-number-error = To ličba njeje
+number-too-large-error = Ličba je přewulka
+number-too-small-error = Ličba je přemała
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Njebě móžno, so ze serwerom do zwiska stajić
+bad-response-content-error = Špatny wotmołwny wobsah
 
 ## readFromXML.sys.mjs
 
