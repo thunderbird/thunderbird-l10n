@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Хост аты бос немесе оның құрамында рұқсат етілмеген таңбалар бар. Тек әріптер, сандар, - және . таңбаларын қолдануға болады.
+alphanumdash-error = Жол құрамында рұқсат етілмеген таңбалар бар. Тек әріптер, сандар, - және . таңбаларын қолдануға болады.
+allowed-value-error = Көрсетілген мән рұқсат етілген тізімде емес
+url-scheme-error = URL схемасына рұқсат етілмеген
+url-parsing-error = URL танылмады
+string-empty-error = Бұл жол үшін мәнді көрсетуіңіз керек
+boolean-error = Логикалық емес
+no-number-error = Сан емес
+number-too-large-error = Сан тым үлкен
+number-too-small-error = Сан тым кіші
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Сервермен байланысу мүмкін емес
+bad-response-content-error = Жауап құрамасы жарамсыз
 
 ## readFromXML.sys.mjs
 
