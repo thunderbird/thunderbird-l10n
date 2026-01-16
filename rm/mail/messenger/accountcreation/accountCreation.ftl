@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = La datoteca da configuraziun XML na cuntegna nagina configuraziun per in conto dad e-mail.
+outgoing-not-smtp-error = Il server da sortida sto esser dal tip SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Impussibel da s'annunziar al server. Probablamain n'è la configuraziun betg correcta ubain il num d'utilisader u il pled-clav è nunvalid.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Impussibel da chattar in server
 
 ## ExhcangeAutoDiscover.sys.mjs
 
