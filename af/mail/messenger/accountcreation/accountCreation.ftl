@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Gasheernaam is leeg of bevat verbode karakters. Net letters, syfers, - en . word toegelaat.
+alphanumdash-error = String bevat nieondersteunde karakters. Net letters, syfers, - en _ word toegelaat.
+allowed-value-error = Voorsiende waarde nie in toegelate lys nie
+url-scheme-error = URL-skema nie toegelaat nie
+url-parsing-error = URL nie herken nie
+string-empty-error = U moet 'n waarde vir hierdie instelling gee
+boolean-error = Nie 'n boolese nie
+no-number-error = Nie 'n syfer nie
+number-too-large-error = Syfer te groot
+number-too-small-error = Syfer te klein
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Kan nie bediener kontak nie
+bad-response-content-error = Slegterespons-inhoud
 
 ## readFromXML.sys.mjs
 
