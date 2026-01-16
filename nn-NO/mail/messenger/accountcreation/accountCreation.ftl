@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Nettadressa er tom eller inneheld ugyldige teikn. Berre bokstavar, tal, - og . er tillatne.
+alphanumdash-error = Ein tekst inneheld ugyldige teikn. Berre bokstavar, tal, - og _ er tillatne.
+allowed-value-error = Innskriven verdi ikkje i liste over tillatne verdiar
+url-scheme-error = URL-skjema ikkje tillate
+url-parsing-error = URL ikkje attkjend
+string-empty-error = Du må gje opp ein verdi for denne strengen
+boolean-error = Ikkje ein bolsk verdi
+no-number-error = Ikkje eit tal
+number-too-large-error = Talet er for stort
+number-too-small-error = Talet er for lite
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Klarte ikkje å kople til serveren
+bad-response-content-error = Feil i responsdata
 
 ## readFromXML.sys.mjs
 
