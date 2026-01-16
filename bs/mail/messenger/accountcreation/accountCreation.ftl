@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Naziv servera je prazan ili sadrži zabranjene znakove. Dopuštena su samo slova, brojevi, te . i -.
+alphanumdash-error = Strin sadrži nepodržane znakove. Dopuštena su samo slova, brojevi, te - i _.
+allowed-value-error = Isporučena vrijednost nije na listi dopuštenih
+url-scheme-error = URL shema nije dopuštena
+url-parsing-error = URL nije prepoznat
+string-empty-error = Morate isporučiti vrijednost za ovaj string
+boolean-error = Nije boolean
+no-number-error = Nije broj
+number-too-large-error = Prevelik broj
+number-too-small-error = Premalen broj
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Ne mogu kontaktirati server
+bad-response-content-error = Pogrešan sadržaj odgovora﻿
 
 ## readFromXML.sys.mjs
 
