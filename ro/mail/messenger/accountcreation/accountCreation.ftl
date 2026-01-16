@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Fișierul XML de configurare nu conține o configurație pentru un cont de e-mail.
+outgoing-not-smtp-error = Serverul de trimitere trebuie să fie de tip SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Nu se poate realiza autentificarea pe server. Probabil configurație, utilizator sau parolă greșit(ă).
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Nu am găsit niciun server
 
 ## ExhcangeAutoDiscover.sys.mjs
 
