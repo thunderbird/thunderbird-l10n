@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = 没有主机名或者包含禁止的字符。只能是字母，数字，- 和 . 。
+alphanumdash-error = 字符串包含不支持的字符。只能是字母，数字，- 和_ 。
+allowed-value-error = 支持的值不在允许列表中
+url-scheme-error = 不允许 URL 规格
+url-parsing-error = 无法识别 URL
+string-empty-error = 必须为这个字符串指定一个值
+boolean-error = 不是逻辑值
+no-number-error = 不是数字
+number-too-large-error = 数字太大
+number-too-small-error = 数字太小
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = 无法连接服务器
+bad-response-content-error = 无效的响应内容
 
 ## readFromXML.sys.mjs
 
