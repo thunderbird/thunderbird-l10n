@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Tệp cấu hình XML không chứa cấu hình tài khoản email.
+outgoing-not-smtp-error = Máy chủ gửi thư phải là loại SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Không thể đăng nhập vào máy chủ. Có lẽ là do cấu hình, tên đăng nhập, hoặc mật khẩu sai.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Không thể tìm thấy máy chủ
 
 ## ExhcangeAutoDiscover.sys.mjs
 
