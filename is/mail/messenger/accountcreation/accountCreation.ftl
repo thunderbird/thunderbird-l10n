@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = XML stilliskráin inniheldur ekki stillingar fyrir tölvupóstsreikning.
+outgoing-not-smtp-error = Tegund netþjóns fyrir útsendan póst verður að vera SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Get ekki innskráð á netþjón. Líklega rangar stillingar, annaðhvort notandanafn eða lykilorð.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Finn ekki netþjón
 
 ## ExhcangeAutoDiscover.sys.mjs
 
