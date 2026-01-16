@@ -121,6 +121,7 @@ address-book-carddav-connection-error = Falta al connexion.
 address-book-ldap-duplicate-error = Le nomine de directorio LDAP jam existe. Insere un nomine de directorio differente.
 address-book-ldap-creation-error = Impossibile crear directorio LDAP.
 account-hub-email-setup-ews = Parametros de servitor
+account-hub-result-exchange-url-label = URL del puncto terminal de excambio
 account-hub-result-host-url-label = URL del puncto terminal EWS
 account-hub-email-credentials-confirmation = Configuration del conto
 account-hub-result-unknown-hostname = Nomine de hoste incognite
