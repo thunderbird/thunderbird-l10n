@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = 此 XML 配置文件不包含邮件账户配置。
+outgoing-not-smtp-error = 发件服务器必须是 SMTP 类型
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = 无法登录到服务器。可能是配置、用户名或者密码错误。
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = 无法找到服务器
 
 ## ExhcangeAutoDiscover.sys.mjs
 
