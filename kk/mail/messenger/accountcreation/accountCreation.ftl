@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = XML баптаулар файлында эл. пошта тіркелгісі баптауларының ақпараты жоқ.
+outgoing-not-smtp-error = Шығыс сервері SMTP түрінде болуы тиіс
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Серверге кіру мүмкін емес. Мүмкін, баптаулар, пайдаланушы аты немесе паролі қате.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Серверді табу мүмкін емес
 
 ## ExhcangeAutoDiscover.sys.mjs
 
