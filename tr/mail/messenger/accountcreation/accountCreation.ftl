@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Yapılandırma XML dosyası e-posta hesabı yapılandırması içermiyor.
+outgoing-not-smtp-error = Giden sunucu türü SMTP olmalı
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Sunucuya giriş yapılamıyor. Yapılandırma, kullanıcı adı veya parola yanlış olabilir.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Sunucu bulunamadı
 
 ## ExhcangeAutoDiscover.sys.mjs
 
