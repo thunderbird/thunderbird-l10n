@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Asenneftaɣ d ilem ɣeɣ yegber isekkilen yettwagedlen. Ala isekkilen n tira ilatiniyen, imḍanen, - akked . i yettwasergen.
+alphanumdash-error = Azrir yegber isekkilen ur nettusefrak ara. Ala isekkilen ilaṭiniyen, imḍanen, - akked _ i yettusirgen.
+allowed-value-error = Azal d-ittunefken ulac-it di tebdart yettwasirgen.
+url-scheme-error = Azenziɣ URL ur yettusireg ara
+url-parsing-error = URL ur yettwassen ara
+string-empty-error = Yessefk ad tmuddeḍ azal i wuzrir-agi
+boolean-error = Mačči d abulan.
+no-number-error = Mačči d amḍan
+number-too-large-error = Amḍan meqqer aṭas
+number-too-small-error = Amḍan meẓẓi aṭas
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Ur izmir ara ad inermes aqeddac
+bad-response-content-error = Yir agbur n tririt
 
 ## readFromXML.sys.mjs
 
