@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Masinanimi on tühi või sisaldab lubamatuid tähemärke. Ainult tähed, numbrid, - ja . on lubatud.
+alphanumdash-error = String sisaldab lubamatuid tähemärke. Ainult tähed, numbrid, - ja _ on lubatud.
+allowed-value-error = Sisestatud väärtus ei ole lubatavate nimekirjas
+url-scheme-error = URLi kuju pole lubatud
+url-parsing-error = URL pole tuvastatav
+string-empty-error = Sa pead sellele stringile väärtuse sisestama
+boolean-error = Pole tõeväärtus
+no-number-error = Pole number
+number-too-large-error = Number liiga suur
+number-too-small-error = Number liiga väike
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Serveriga pole võimalik ühenduda
+bad-response-content-error = Vigane vastuse sisu
 
 ## readFromXML.sys.mjs
 
