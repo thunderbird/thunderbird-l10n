@@ -67,7 +67,7 @@
 <!-- Context Menu -->
 <!ENTITY calendar.context.modifyorviewitem.label "Aç">
 <!ENTITY calendar.context.modifyorviewitem.accesskey "A">
-<!ENTITY calendar.context.modifyorviewtask.label "Görevi aç...">
+<!ENTITY calendar.context.modifyorviewtask.label "Görevi aç…">
 <!ENTITY calendar.context.modifyorviewtask.accesskey "G">
 <!ENTITY calendar.context.newevent.label "Yeni etkinlik…">
 <!ENTITY calendar.context.newevent.accesskey "k">

@@ -29,7 +29,7 @@
 <!ENTITY archivesTitle.label "İleti arşivleri">
 <!ENTITY keepArchives.label "İleti arşivlerini burada tut:">
 <!ENTITY keepArchives.accesskey "r">
-<!ENTITY archiveHierarchyButton.label "Arşivleme seçenekleri...">
+<!ENTITY archiveHierarchyButton.label "Arşivleme seçenekleri…">
 <!ENTITY archiveHierarchyButton.accesskey "A">
 <!ENTITY archivesFolderOn.label "&quot;Arşiv&quot; klasörü:">
 <!ENTITY archivesFolderOn.accesskey "v">

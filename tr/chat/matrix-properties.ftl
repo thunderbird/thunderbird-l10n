@@ -262,7 +262,7 @@ message-verification-request2 = { $user }, { $userReceiving } kullanıcısını 
 message-verification-cancel2 = { $user }, doğrulamayı şu nedenle iptal etti: { $reason }
 message-verification-done = Doğrulama tamamlandı.
 message-decryption-error = Bu iletinin içeriğinin şifresi çözülemedi. Şifreleme anahtarlarını diğer cihazlarınızdan istemek için bu iletiye sağ tıklayın.
-message-decrypting = Şifre çözülüyor...
+message-decrypting = Şifre çözülüyor…
 message-redacted = İleti gizlendi.
 #    $userThatReacted is the username of the user that reacted.
 #    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
