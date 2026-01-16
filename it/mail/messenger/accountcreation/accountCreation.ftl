@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Il nome del server è vuoto o contiene caratteri non consentiti. Si possono utilizzare solo lettere, numeri, “-” e “.”.
+alphanumdash-error = La stringa contiene caratteri non validi. Si possono utilizzare solo lettere, numeri, - e _
+allowed-value-error = Il valore fornito non è nella lista dei valori consentiti
+url-scheme-error = Schema URL non consentito
+url-parsing-error = URL non riconosciuto
+string-empty-error = Obbligatorio inserire un valore per questa stringa
+boolean-error = Non è booleano
+no-number-error = Non è un numero
+number-too-large-error = Numero troppo grande
+number-too-small-error = Numero troppo piccolo
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Impossibile contattare il server
+bad-response-content-error = contenuto risposta non valido
 
 ## readFromXML.sys.mjs
 
