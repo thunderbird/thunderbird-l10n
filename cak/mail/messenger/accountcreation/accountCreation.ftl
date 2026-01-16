@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Kowöl rupam ri rub'i' rajawal o eruk'wan itzel taq tz'ib'. Xa xe yek'ul taq tz'ib', taq ajilab'äl chuqa' taq chuq'.
+alphanumdash-error = Ri rucholajem tzij eruk'wan taq tz'ib' ri man nuk'äm ta. Xa xe ri taq tz'ib', taq ajilab'äl, - chuqa'_ yek'ulutäj.
+allowed-value-error = Man k'o ta chi kikojol ri taq cholb'äl najowäch ri rejqalem niya'
+url-scheme-error = URL chib'al ri man nik'ul ta
+url-parsing-error = URL ri man nitamäx ta ruwäch
+string-empty-error = K'atzinel naya' jun rejqalem re rucholajem re'
+boolean-error = Majun na'owinäq ta chi ejqalem
+no-number-error = Majun ta ajilab'äl
+number-too-large-error = Yalan nïm ri ajilab'äl
+number-too-small-error = Yalan ko'öl ri ajilab'äl
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Man tikirel ta nib'an ch'owen rik'in ri k'uxasamaj
+bad-response-content-error = Rupam rik'in me'ütz tzolin tzij
 
 ## readFromXML.sys.mjs
 
