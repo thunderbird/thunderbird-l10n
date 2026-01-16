@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Datoteka XML za nastavitev ne vsebuje podatkov o e-poštnem računu.
+outgoing-not-smtp-error = Odhodni strežnik mora biti vrste SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Na strežnik se ni mogoče prijaviti. Verjetno napačna nastavitev, uporabniško ime ali geslo.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Strežnika ni mogoče najti
 
 ## ExhcangeAutoDiscover.sys.mjs
 
