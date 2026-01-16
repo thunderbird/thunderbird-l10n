@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Το όνομα κεντρικού υπολογιστή είναι κενό ή περιέχει μη έγκυρους χαρακτήρες. Επιτρέπονται μόνο γράμματα, αριθμοί, «-» και «.».
+alphanumdash-error = Το αλφαριθμητικό περιέχει μη υποστηριζόμενους χαρακτήρες. Επιτρέπονται μόνο γράμματα, αριθμοί, «-» και «_».
+allowed-value-error = Η παρεχόμενη τιμή δεν είναι στη λίστα επιτρεπόμενων
+url-scheme-error = Το σχήμα URL δεν επιτρέπεται
+url-parsing-error = Το URL δεν αναγνωρίζεται
+string-empty-error = Πρέπει να εισαγάγετε μια τιμή για αυτό το αλφαριθμητικό
+boolean-error = Δεν είναι boolean
+no-number-error = Δεν είναι αριθμός
+number-too-large-error = Πολύ μεγάλος αριθμός
+number-too-small-error = Ο αριθμός είναι πολύ μικρός
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Δεν είναι δυνατή η επικοινωνία με τον διακομιστή
+bad-response-content-error = Εσφαλμένο περιεχόμενο απάντησης
 
 ## readFromXML.sys.mjs
 
