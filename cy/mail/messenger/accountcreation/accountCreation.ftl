@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Mae'r enw gweinydd yn wag neu yn cynnwys nodau anghymeradwy. Dim ond llythrennau, rhifau, - a . sy'n cael eu caniatáu.
+alphanumdash-error = Mae'r llinyn yn cynnwys nodau anghymeradwy. Dim ond llythrennau, rhifau, - a . sy'n cael eu caniatáu.
+allowed-value-error = Nid yw'r gwerth hwn yn gymeradwy
+url-scheme-error = Nid oes caniatâd i'r cynllun URL
+url-parsing-error = Heb adnabod yr URL
+string-empty-error = Rhaid darparu gwerth ar gyfer y llinyn
+boolean-error = Nid booleanaidd
+no-number-error = Nid rhif
+number-too-large-error = Rhif yn rhy fawr
+number-too-small-error = Rhif yn rhy fach
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Methu cysylltu â'r gweinydd
+bad-response-content-error = Cynnwys ymateb gwael
 
 ## readFromXML.sys.mjs
 
