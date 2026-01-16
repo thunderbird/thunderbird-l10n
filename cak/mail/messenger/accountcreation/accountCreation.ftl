@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Ri ruyakb'al nuk'ulem XML majun runuk'ulem jun taqoya'l k'o chupam.
+outgoing-not-smtp-error = Ri k'uxasamaj tajin nel k'o chi ruwäch SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Man nitikïr ta nok pa ri k'uxasamaj. Rik'in jub'a' jun rusachoj ri nuk'ulem, winäq o ewan tzij.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Man nilitäj ta ri k'uxasamaj
 
 ## ExhcangeAutoDiscover.sys.mjs
 
