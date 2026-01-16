@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = El nome del sirvidor ta baleru o contién caráuteres prohibíos. Namás se permiten lletres, númberos, guiones (-) y puntos (.).
+alphanumdash-error = La cadena contién caráuteres non almitíos. Namás se permiten lletres, númberos, - y _.
+allowed-value-error = El valor dau nun ta na llista d'almitíos
+url-scheme-error = Esquema URL non permitíu
+url-parsing-error = URL non reconocida
+string-empty-error = Tienes de dar un valor pa esta cadena
+boolean-error = Nun ye un campu lóxicu
+no-number-error = Nun ye un campu numbéricu
+number-too-large-error = Númberu enforma grande
+number-too-small-error = Númberu enforma pequeñu
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Nun pue contautase col sirvidor
+bad-response-content-error = Conteníu de rempuesta fallíu
 
 ## readFromXML.sys.mjs
 
