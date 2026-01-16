@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Câmpul cu denumirea gazdei este gol sau conține caractere interzise. Sunt permise doar litere, cifre, cratimă și punct.
+alphanumdash-error = Șirul conține caractere neacceptate. Sunt permise doar litere, cifre, - și _.
+allowed-value-error = Valoarea furnizată nu e în lista cu cele permise
+url-scheme-error = Schemă URL nepermisă
+url-parsing-error = URL nerecunoscut
+string-empty-error = Trebuie să furnizezi o valoare pentru acest text
+boolean-error = Nu e o valoare logică
+no-number-error = Nu e un număr
+number-too-large-error = Număr prea mare
+number-too-small-error = Număr prea mic
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Serverul nu poate fi contactat
+bad-response-content-error = Conținutul răspunsului greșit
 
 ## readFromXML.sys.mjs
 
