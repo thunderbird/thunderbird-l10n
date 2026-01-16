@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Hostnamme is leech of befettet ferbeane karakters. Allinnich letters, sifers, - en . binne tastien.
+alphanumdash-error = String befettet net stipe karakters. Allinnich letters, sifers, - en _ binne tastien.
+allowed-value-error = opjûne wearde stiet net yn de tasteane list
+url-scheme-error = URL-skema net tastien
+url-parsing-error = URL net werkend
+string-empty-error = Jo moatte in wearde ynjaan foar dizze string
+boolean-error = Net in boolean
+no-number-error = Net in sifer
+number-too-large-error = Nûmer te heech
+number-too-small-error = Nûmer te leech
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Kin gjin ferbining meitsje mei server
+bad-response-content-error = Antwurd ynhâld ferkeard
 
 ## readFromXML.sys.mjs
 
