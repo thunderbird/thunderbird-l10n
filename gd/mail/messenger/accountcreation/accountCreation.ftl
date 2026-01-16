@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Tha ainm an òstair falamh no tha caractairean ann nach eil ceadaichte. Chan eil ach litrichean, àireamhan, - agus . ceadaichte.
+alphanumdash-error = Tha caractairean san t-sreang nach eil ceadaichte. Chan eil ach litrichean, àireamhan - agus _ ceadaichte.
+allowed-value-error = Chan eil an luach a chuir thu ann an liosta na feadhainn cheadaichte
+url-scheme-error = Chan eil an sgeama URL ceadaichte
+url-parsing-error = URL gun aithneachadh
+string-empty-error = Feumaidh tu luach a chur ann airson na sreinge seo
+boolean-error = Chan eil e booleach
+no-number-error = Chan eil e 'na àireamh
+number-too-large-error = Tha an àireamh ro mhòr
+number-too-small-error = Tha an àireamh ro bheag
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Cha ghabh conaltradh a dhèanamh leis an fhrithealaiche
+bad-response-content-error = Droch-shusbaint san fhreagairt
 
 ## readFromXML.sys.mjs
 
