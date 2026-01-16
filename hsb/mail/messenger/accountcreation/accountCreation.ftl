@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Konfiguraciska XML-dataja njewobsahuje konfiguraciju e-mejloweho konta.
+outgoing-not-smtp-error = Wuchadny serwer dyrbi typ SMTP měć
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Njeje móžno, so pola serwera přizjewić. Přičina je najskerje wopačna konfiguracija, wopačne wužiwarske mjeno abo wopačne hesło.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Serwer njeda so namakać
 
 ## ExhcangeAutoDiscover.sys.mjs
 
