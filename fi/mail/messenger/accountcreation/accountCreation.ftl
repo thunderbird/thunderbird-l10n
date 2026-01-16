@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Palvelinkenttä on tyhjä tai sisältää kiellettyjä merkkejä. Vain kirjaimet, numerot, - ja . ovat sallittuja merkkejä.
+alphanumdash-error = Merkkijono sisältää merkkejä, joita ei tueta. Vain kirjaimet, numerot, - ja _ ovat sallittuja merkkejä.
+allowed-value-error = Annettu arvo ei ole sallittujen listalla
+url-scheme-error = URL-muoto ei ole sallittu
+url-parsing-error = URL-osoitetta ei tunnistettu
+string-empty-error = Tälle merkkijonolle täytyy antaa arvo
+boolean-error = Ei boolean
+no-number-error = Ei numero
+number-too-large-error = Numero on liian suuri
+number-too-small-error = Numero on liian pieni
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Ei saada yhteyttä palvelimeen
+bad-response-content-error = Virheellinen vastaus palvelimelta
 
 ## readFromXML.sys.mjs
 
