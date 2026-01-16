@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Host nomi bo‘sh yoki taqiqlangan belgilar mavjud. Faqat, harf, raqam, - va . belgilariga ruxsat berilgan.
+alphanumdash-error = Qatorda mos kelmaydigan belgilar bor. Faqat, harf, raqam, - va _ belgilariga ruxsat berilgan.
+allowed-value-error = Berilgan qiymat ruxsat berilgan ro'yxatda yo'q
+url-scheme-error = URL sxemaga ruxsat berilmagan
+url-parsing-error = URL aniqlanmadi
+string-empty-error = Bu qator uchun qiymat berishingiz lozim
+boolean-error = Boolean emas
+no-number-error = Raqam emas
+number-too-large-error = Raqam juda katta
+number-too-small-error = Raqam juda kichik
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Serverga ulanib boʻlmadi
+bad-response-content-error = Tarkibdan yomon javob keldi
 
 ## readFromXML.sys.mjs
 
