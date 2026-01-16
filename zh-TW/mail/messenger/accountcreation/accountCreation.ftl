@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = 主機名稱為空白的或者包含被禁止的字元。只有英文字母、數字、「-」和「.」是被允許的。
+alphanumdash-error = 包含了不支援的字元。只有英文字母、數字、「-」和「_」是被允許的。
+allowed-value-error = 提供的值並不在允許清單裡
+url-scheme-error = 網址(URL)結構不被允許
+url-parsing-error = 網址(URL)不被認可
+string-empty-error = 您必須提供一個值給這個字串
+boolean-error = 並非一個布林值(Boolean)
+no-number-error = 並非一個數字
+number-too-large-error = 數值太大了
+number-too-small-error = 數值太小了
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = 無法連繫伺服器
+bad-response-content-error = 錯誤的回應內容
 
 ## readFromXML.sys.mjs
 
