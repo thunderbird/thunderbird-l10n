@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = Berkas konfigurasi XML tidak mengandung konfigurasi akun email.
+outgoing-not-smtp-error = Server keluar harus merupakan server dengan tipe SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = Gagal masuk log ke server. Kemungkinan konfigurasi, nama pengguna, atau sandi salah.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = Tidak dapat menemukan server
 
 ## ExhcangeAutoDiscover.sys.mjs
 
