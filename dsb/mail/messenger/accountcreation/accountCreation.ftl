@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Serwerowe mě jo prozne abo wopśimujo zakazane znamuška. Jano pismiki, licby, - a . su dowólone.
+alphanumdash-error = Znamuškowy rjeśazk wopśimujo njepódpěrane znamuška. Jano pismiki, licby, - a _ su dowólone.
+allowed-value-error = Pódana gódnota njejo w dowólonej lisćinje
+url-scheme-error = URL-šema njejo dowólona
+url-parsing-error = URL njejo se spóznał
+string-empty-error = Musyśo gódnotu za toś ten znamuškowy rjeśazk pódaś
+boolean-error = To njejo gódnota typa boolean
+no-number-error = To njejo licba
+number-too-large-error = Licba jo pśewjelika
+number-too-small-error = Licba jo pśemała
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Zwisk ze serwerom njejo móžny
+bad-response-content-error = Špatne wopśimjeśe wótegrona
 
 ## readFromXML.sys.mjs
 
