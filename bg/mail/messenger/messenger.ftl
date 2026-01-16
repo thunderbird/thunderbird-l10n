@@ -556,8 +556,6 @@ archive-action = Архивиране
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Нежелана поща
 menuitem-label-spam-score-origin =
     .label = Източник на рейтинг за нежелана поща
 menuitem-label-spam-percentage =

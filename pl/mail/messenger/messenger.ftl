@@ -560,8 +560,6 @@ archive-action = Archiwizuj
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Niechciana
 menuitem-label-spam-score-origin =
     .label = Źródło stanu niechcianej poczty
 menuitem-label-spam-percentage =

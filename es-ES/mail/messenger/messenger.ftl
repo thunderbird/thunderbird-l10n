@@ -556,8 +556,6 @@ archive-action = Archivar
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Mensaje no deseado
 menuitem-label-spam-score-origin =
     .label = Origen de la puntuación del correo no deseado
 menuitem-label-spam-percentage =

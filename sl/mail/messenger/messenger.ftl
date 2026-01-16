@@ -555,8 +555,6 @@ archive-action = Arhiviraj
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Neželeno
 message-priority-lowest = Najnižje
 message-priority-low = Nizko
 # Normal priority is often blank, depending on the consumers of these strings.

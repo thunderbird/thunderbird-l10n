@@ -551,8 +551,6 @@ archive-action = 備存
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = 是垃圾信
 menuitem-label-spam-score-origin =
     .label = 垃圾分數來源
 menuitem-label-spam-percentage =

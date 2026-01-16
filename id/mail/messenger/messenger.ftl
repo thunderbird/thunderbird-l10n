@@ -531,8 +531,6 @@ archive-action = Arsipkan
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Spam
 menuitem-label-spam-score-origin =
     .label = Asal Skor Spam
 menuitem-label-spam-percentage =

@@ -574,8 +574,6 @@ archive-action = Archiwować
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Spam
 menuitem-label-spam-score-origin =
     .label = Pochad spamoweho pohódnoćenja
 menuitem-label-spam-percentage =

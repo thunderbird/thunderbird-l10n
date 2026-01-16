@@ -556,8 +556,6 @@ archive-action = Skjalageymsla
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Ruslpóstur
 menuitem-label-spam-score-origin =
     .label = Uppruni stigafjölda ruslpósts
 menuitem-label-spam-percentage =

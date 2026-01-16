@@ -554,8 +554,6 @@ archive-action = Arkivoje
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Mesazh i padëshiruar
 menuitem-label-spam-score-origin =
     .label = Origjinë Vlerësimi si i Padëshiruar
 menuitem-label-spam-percentage =

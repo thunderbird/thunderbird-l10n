@@ -565,8 +565,6 @@ archive-action = Arhiviraj
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Neželjena pošta
 menuitem-label-spam-score-origin =
     .label = Podrijetlo rezultata neželjene pošte
 menuitem-label-spam-percentage =

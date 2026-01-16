@@ -563,8 +563,6 @@ archive-action = Arhivează
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Mesaje nedorite
 menuitem-label-spam-score-origin =
     .label = Origine scor de mesaj nedorit
 menuitem-label-spam-percentage =

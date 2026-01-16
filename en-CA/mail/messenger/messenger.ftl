@@ -555,8 +555,6 @@ archive-action = Archive
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Spam
 menuitem-label-spam-score-origin =
     .label = Spam Score Origin
 menuitem-label-spam-percentage =

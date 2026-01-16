@@ -519,8 +519,6 @@ archive-action = 보관
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = 스팸
 menuitem-label-spam-score-origin =
     .label = 스팸 점수 출처
 menuitem-label-spam-percentage =

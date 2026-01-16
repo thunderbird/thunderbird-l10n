@@ -556,8 +556,6 @@ archive-action = Arquivar
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Lixo eletrónico
 menuitem-label-spam-score-origin =
     .label = Origem da pontuação de lixo eletrónico
 menuitem-label-spam-percentage =

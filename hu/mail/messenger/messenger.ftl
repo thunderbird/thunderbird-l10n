@@ -556,8 +556,6 @@ archive-action = Archiválás
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Levélszemét
 menuitem-label-spam-score-origin =
     .label = Levélszemét-pontszám eredete
 menuitem-label-spam-percentage =

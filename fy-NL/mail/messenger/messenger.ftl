@@ -556,8 +556,6 @@ archive-action = Argivearje
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Net-winske
 menuitem-label-spam-score-origin =
     .label = Net-winske begjinskoare
 menuitem-label-spam-percentage =

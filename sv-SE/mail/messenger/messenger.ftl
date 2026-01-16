@@ -555,8 +555,6 @@ archive-action = Arkivera
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Skräppost
 menuitem-label-spam-score-origin =
     .label = Ursprung för skräppostpoäng
 menuitem-label-spam-percentage =

@@ -592,8 +592,6 @@ archive-action = Archifo
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Sbam
 menuitem-label-spam-score-origin =
     .label = Tarddiad Sgôr Sbam
 menuitem-label-spam-percentage =

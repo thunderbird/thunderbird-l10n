@@ -555,8 +555,6 @@ archive-action = Arkiver
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Søppelpost
 menuitem-label-spam-score-origin =
     .label = Opprinnelse for søppelpostpoengsum
 menuitem-label-spam-percentage =

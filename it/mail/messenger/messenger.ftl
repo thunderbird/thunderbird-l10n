@@ -555,8 +555,6 @@ archive-action = Archivia
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Spam
 menuitem-label-spam-score-origin =
     .label = Origine punteggio spam
 menuitem-label-spam-percentage =

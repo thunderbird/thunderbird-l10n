@@ -555,8 +555,6 @@ archive-action = Αρχειοθέτηση
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Ανεπιθύμητο
 menuitem-label-spam-score-origin =
     .label = Προέλευση βαθμολογίας ανεπιθύμητου
 menuitem-label-spam-percentage =

@@ -534,8 +534,6 @@ archive-action = Lưu trữ
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Thư rác
 menuitem-label-spam-score-origin =
     .label = Nguồn gốc điểm thư rác
 menuitem-label-spam-percentage =

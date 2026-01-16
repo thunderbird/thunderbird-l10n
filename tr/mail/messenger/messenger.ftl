@@ -556,8 +556,6 @@ archive-action = Arşivle
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Spam
 menuitem-label-spam-score-origin =
     .label = Spam puanının kaynağı
 menuitem-label-spam-percentage =

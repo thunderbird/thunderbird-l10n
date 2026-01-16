@@ -574,8 +574,6 @@ archive-action = Archivovat
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Nevyžádaná
 menuitem-label-spam-score-origin =
     .label = Původ skóre nevyžádané pošty
 menuitem-label-spam-percentage =

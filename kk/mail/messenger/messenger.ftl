@@ -555,8 +555,6 @@ archive-action = Архивтеу
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = Спам
 menuitem-label-spam-score-origin =
     .label = Спам деңгейінің қайнар көзі
 menuitem-label-spam-percentage =
