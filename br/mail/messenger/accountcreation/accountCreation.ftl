@@ -15,12 +15,16 @@
 
 ## readFromXML.sys.mjs
 
+no-email-provider-error = N'endalc'h ket ar restr XML kefluniañ ur c'hefluniañ kont postel.
+outgoing-not-smtp-error = Ret eo an dafariad kas bezañ he rizh SMTP
 
 ## ConfigVerifier.sys.mjs
 
+cannot-login-error = N'haller ket kennask ouzh an dafariad. Marteze ez eo fall ar c'hefluniadur, an anv arveriad pe ar ger-tremen.
 
 ## GuessConfig.sys.mjs
 
+cannot-find-server-error = N'haller kavout dafariad ebet
 
 ## ExhcangeAutoDiscover.sys.mjs
 
