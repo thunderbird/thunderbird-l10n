@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = An anv ostiz zo goullo pe a endalc'h arouezennoù difennet. Aotreet eo al lizherennoù, an niverennoù, - ha . nemetken.
+alphanumdash-error = An hedad a endalc'h arouezennoù anskoret. Aotreet eo al lizherennoù, an niverennoù, - ha . nemetken.
+allowed-value-error = An dalvoudegezh roet n'eo ket war ar roll aotreet
+url-scheme-error = N'eo ket aotreet ar reizhiad URL
+url-parsing-error = N'eo ket bet anavezet an URL
+string-empty-error = Ret eo deoc'h reiñ un dalvoudegezh evit an hedad-mañ
+boolean-error = N'eo ket ur boulean
+no-number-error = N'eo ket un niverenn
+number-too-large-error = Niverenn re vras
+number-too-small-error = Niverenn re vihan
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = N'haller ket kennaskañ ouzh an dafariad
+bad-response-content-error = Direizh eo endalc'h ar respont
 
 ## readFromXML.sys.mjs
 
