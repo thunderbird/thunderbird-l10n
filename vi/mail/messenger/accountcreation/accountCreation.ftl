@@ -9,9 +9,21 @@
 
 ## Sanitizer.sys.mjs
 
+hostname-syntax-error = Tên máy chủ trống hoặc chứa các ký tự bị cấm. Chỉ các chữ cái, số, - và . được cho phép.
+alphanumdash-error = Chuỗi chứa các kí tự không được hỗ trợ. Chỉ chữ cái, số, - và _ là được dùng.
+allowed-value-error = Giá trị đã cung cấp không có trong danh sách được phép dùng
+url-scheme-error = Giao thức URL không được phép
+url-parsing-error = Không nhận ra URL
+string-empty-error = Bạn phải cung cấp giá trị cho chuỗi này
+boolean-error = Không phải giá trị luận lý
+no-number-error = Không phải số
+number-too-large-error = Số lớn quá
+number-too-small-error = Số nhỏ quá
 
 ## FetchHTTP.sys.mjs
 
+cannot-contact-server-error = Không thể liên hệ máy chủ
+bad-response-content-error = Phản hồi có nội dung hỏng
 
 ## readFromXML.sys.mjs
 
