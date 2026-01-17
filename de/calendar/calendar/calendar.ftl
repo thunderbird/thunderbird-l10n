@@ -843,6 +843,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Aufgabe…
     .accesskey = A
+calendar-task-filter-title2 = Aufgaben suchen
 calendar-task-filter-title = Anzeigen
 calendar-task-filter-all =
     .label = Alle
