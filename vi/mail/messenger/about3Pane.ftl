@@ -122,6 +122,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = Nguyên văn của
     .title = Tất cả các tiêu chí nhãn được chọn phải phù hợp
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = Chỉ không gắn thẻ
+    .title = Chỉ những thư không gắn thẻ
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
