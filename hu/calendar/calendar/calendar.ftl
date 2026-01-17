@@ -842,6 +842,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Feladat…
     .accesskey = F
+calendar-task-filter-title2 = Feladatok szűrése
 calendar-task-filter-title = Megjelenítés
 calendar-task-filter-all =
     .label = Összes

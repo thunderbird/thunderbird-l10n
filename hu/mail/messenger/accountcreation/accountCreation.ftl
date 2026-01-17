@@ -19,6 +19,7 @@ boolean-error = Nem logikai
 no-number-error = Nem szám
 number-too-large-error = Túl nagy szám
 number-too-small-error = Túl kicsi szám
+emailaddress-syntax-error = Érvénytelen e-mail-cím
 
 ## FetchHTTP.sys.mjs
 
