@@ -131,7 +131,7 @@ quick-filter-bar-boolean-mode-all =
 # The None tagging mode.
 quick-filter-bar-tag-mode-none =
     .label = 僅未加上標籤
-    .title = 僅不包含標籤的訊息
+    .title = 僅有不含標籤的訊息
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text

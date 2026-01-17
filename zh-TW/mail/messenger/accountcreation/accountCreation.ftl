@@ -19,6 +19,7 @@ boolean-error = 並非一個布林值(Boolean)
 no-number-error = 並非一個數字
 number-too-large-error = 數值太大了
 number-too-small-error = 數值太小了
+emailaddress-syntax-error = 不是有效的電子郵件地址
 
 ## FetchHTTP.sys.mjs
 
