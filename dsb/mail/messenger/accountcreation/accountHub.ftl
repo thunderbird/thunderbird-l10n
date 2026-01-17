@@ -121,6 +121,7 @@ address-book-carddav-connection-error = Zwisk njejo móžny.
 address-book-ldap-duplicate-error = Mě zapisa LDAP južo eksistěrujo. Zapódajśo pšosym druge mě za zapis.
 address-book-ldap-creation-error = Zapis LDAP njedajo se załožyś.
 account-hub-email-setup-ews = Serwerowe nastajenja
+account-hub-result-exchange-url-label = URL kóńcnego dypka Exchange
 account-hub-result-host-url-label = URL kóńcnego dypka EWS
 account-hub-email-credentials-confirmation = Kontowa konfiguracija
 account-hub-result-unknown-hostname = Njeznate hostmě

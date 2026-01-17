@@ -870,6 +870,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Nadawk…
     .accesskey = N
+calendar-task-filter-title2 = Nadawki filtrowaś
 calendar-task-filter-title = Pokazaś
 calendar-task-filter-all =
     .label = Wšykne

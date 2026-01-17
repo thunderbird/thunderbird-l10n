@@ -140,6 +140,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = Wšykne
     .title = Wšykne wubrane wobznamjenjowe kriterije muse wótpowědowaś
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = Jano bźez wobznamjenjow
+    .title = Jano powěsći bźez wobznamjenjow
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text

@@ -19,6 +19,7 @@ boolean-error = To njejo gódnota typa boolean
 no-number-error = To njejo licba
 number-too-large-error = Licba jo pśewjelika
 number-too-small-error = Licba jo pśemała
+emailaddress-syntax-error = Njejo płaśiwa e-mailowa adresa
 
 ## FetchHTTP.sys.mjs
 
