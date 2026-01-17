@@ -134,6 +134,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = Alla
     .title = Alla de markerade kriterierna måste matcha etiketten
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = Endast otaggad
+    .title = Endast meddelanden utan taggar
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
