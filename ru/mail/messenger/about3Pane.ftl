@@ -137,6 +137,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = Все из
     .title = Должны подходить под все выбранные теги с критериями
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = Только без меток
+    .title = Только сообщения без меток
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
