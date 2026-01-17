@@ -121,6 +121,7 @@ address-book-carddav-connection-error = Tilkoplingsfeil.
 address-book-ldap-duplicate-error = LDAP-katalognamnet finst allereie. Skriv inn eit anna katalognamn.
 address-book-ldap-creation-error = Klarte ikkje å opprette LDAP-katalog.
 account-hub-email-setup-ews = Serverinnstillingar
+account-hub-result-exchange-url-label = URL-adresse for Exchange-endepunkt
 account-hub-result-host-url-label = URL-adresse for EWS-endepunkt
 account-hub-email-credentials-confirmation = Kontokonfigurasjon
 account-hub-result-unknown-hostname = Ukjent vertsnamn
