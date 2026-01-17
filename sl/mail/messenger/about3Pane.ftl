@@ -140,6 +140,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = Vse
     .title = Ustrezati morajo vsa izbrana merila oznak
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = Samo neoznačena
+    .title = Samo sporočila brez oznak
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text

@@ -870,6 +870,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Opravilo …
     .accesskey = O
+calendar-task-filter-title2 = Filtriraj opravila
 calendar-task-filter-title = Prikaži
 calendar-task-filter-all =
     .label = Vse

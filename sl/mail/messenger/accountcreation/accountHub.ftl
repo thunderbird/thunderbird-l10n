@@ -121,6 +121,7 @@ address-book-carddav-connection-error = Povezava neuspešna.
 address-book-ldap-duplicate-error = Ime imenika LDAP že obstaja. Vnesite drugačno ime.
 address-book-ldap-creation-error = Imenika LDAP ni bilo mogoče ustvariti.
 account-hub-email-setup-ews = Nastavitve strežnika
+account-hub-result-exchange-url-label = URL končne točke Exchange
 account-hub-result-host-url-label = URL končne točke EWS
 account-hub-email-credentials-confirmation = Nastavitev računa
 account-hub-result-unknown-hostname = Neznano ime gostitelja
