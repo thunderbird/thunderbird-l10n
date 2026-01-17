@@ -860,6 +860,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Úloha…
     .accesskey = h
+calendar-task-filter-title2 = Filtrovať úlohy
 calendar-task-filter-title = Zobraziť
 calendar-task-filter-all =
     .label = Všetky
