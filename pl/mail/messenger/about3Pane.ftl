@@ -137,6 +137,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = Wszystkie z:
     .title = Wszystkie wybrane etykiety muszą być obecne
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = Tylko bez etykiety
+    .title = Tylko wiadomości bez etykiety
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
