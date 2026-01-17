@@ -842,6 +842,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Uppgift…
     .accesskey = t
+calendar-task-filter-title2 = Sortera uppgifter
 calendar-task-filter-title = Visa
 calendar-task-filter-all =
     .label = Allt
