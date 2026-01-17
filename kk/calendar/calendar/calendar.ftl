@@ -845,6 +845,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Тапсырма…
     .accesskey = Т
+calendar-task-filter-title2 = Тапсырмаларды сүзгілеу
 calendar-task-filter-title = Көрсету
 calendar-task-filter-all =
     .label = Барлығы

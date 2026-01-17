@@ -19,6 +19,7 @@ boolean-error = Логикалық емес
 no-number-error = Сан емес
 number-too-large-error = Сан тым үлкен
 number-too-small-error = Сан тым кіші
+emailaddress-syntax-error = Жарамды эл. пошта адресі емес
 
 ## FetchHTTP.sys.mjs
 

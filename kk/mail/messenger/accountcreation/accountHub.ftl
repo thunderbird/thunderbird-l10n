@@ -121,6 +121,7 @@ address-book-carddav-connection-error = Байланысты орнату сәт
 address-book-ldap-duplicate-error = Бұл LDAP бума атауы бар болып тұр. Басқа атауын енгізіңіз.
 address-book-ldap-creation-error = LDAP бумасын жасау мүмкін болмады.
 account-hub-email-setup-ews = Сервер баптаулары
+account-hub-result-exchange-url-label = Exchange соңғы нүктесінің URL адресі
 account-hub-result-host-url-label = EWS соңғы нүктесінің URL адресі
 account-hub-email-credentials-confirmation = Тіркелгіні баптау
 account-hub-result-unknown-hostname = Белгісіз хост аты
