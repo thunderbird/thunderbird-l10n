@@ -790,6 +790,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Tác vụ…
     .accesskey = v
+calendar-task-filter-title2 = Lọc tác vụ
 calendar-task-filter-title = Hiện
 calendar-task-filter-all =
     .label = Tất cả
