@@ -139,6 +139,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = Všetky uvedené
     .title = Správa musí mať priradené všetky nasledujúce štítky
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = Len bez štítkov
+    .title = Len správy bez štítkov
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
