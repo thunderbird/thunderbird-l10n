@@ -856,6 +856,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Sarcină…
     .accesskey = S
+calendar-task-filter-title2 = Filtrează sarcinile
 calendar-task-filter-title = Afișează
 calendar-task-filter-all =
     .label = Toate

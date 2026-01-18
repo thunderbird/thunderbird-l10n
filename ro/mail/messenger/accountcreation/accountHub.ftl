@@ -121,6 +121,7 @@ address-book-carddav-connection-error = Conectare eșuată.
 address-book-ldap-duplicate-error = Numele directorului LDAP există deja. Introdu alt nume de director.
 address-book-ldap-creation-error = Nu s-a putut crea directorul LDAP.
 account-hub-email-setup-ews = Setări server
+account-hub-result-exchange-url-label = Adresa URL a punctului final Exchange
 account-hub-result-host-url-label = URL punct final EWS
 account-hub-email-credentials-confirmation = Configurația contului
 account-hub-result-unknown-hostname = Nume de gazdă necunoscut
