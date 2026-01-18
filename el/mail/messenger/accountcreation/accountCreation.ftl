@@ -19,6 +19,7 @@ boolean-error = Δεν είναι boolean
 no-number-error = Δεν είναι αριθμός
 number-too-large-error = Πολύ μεγάλος αριθμός
 number-too-small-error = Ο αριθμός είναι πολύ μικρός
+emailaddress-syntax-error = Μη έγκυρη διεύθυνση email
 
 ## FetchHTTP.sys.mjs
 

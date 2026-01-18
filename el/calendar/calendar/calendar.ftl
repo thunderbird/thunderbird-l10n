@@ -842,6 +842,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Εργασία…
     .accesskey = Ε
+calendar-task-filter-title2 = Φιλτράρισμα εργασιών
 calendar-task-filter-title = Εμφάνιση
 calendar-task-filter-all =
     .label = Όλες
