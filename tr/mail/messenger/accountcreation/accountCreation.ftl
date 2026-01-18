@@ -19,6 +19,7 @@ boolean-error = Mantıksal değer değil
 no-number-error = Sayı değil
 number-too-large-error = Sayı çok büyük
 number-too-small-error = Sayı çok küçük
+emailaddress-syntax-error = Geçerli bir e-posta adresi değil
 
 ## FetchHTTP.sys.mjs
 

@@ -838,6 +838,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Görev…
     .accesskey = G
+calendar-task-filter-title2 = Görevleri süz
 calendar-task-filter-title = Göster
 calendar-task-filter-all =
     .label = Tümü
