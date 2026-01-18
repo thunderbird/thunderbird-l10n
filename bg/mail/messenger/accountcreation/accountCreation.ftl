@@ -19,6 +19,7 @@ boolean-error = Не е булев
 no-number-error = Не е цифра
 number-too-large-error = Твърде голямо число
 number-too-small-error = Твърде малко число
+emailaddress-syntax-error = Невалиден мейл адрес
 
 ## FetchHTTP.sys.mjs
 
