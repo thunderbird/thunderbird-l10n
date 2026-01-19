@@ -19,6 +19,7 @@ boolean-error = Geen boolean
 no-number-error = Geen getal
 number-too-large-error = Getal te groot
 number-too-small-error = Getal te klein
+emailaddress-syntax-error = Geen geldig e-mailadres
 
 ## FetchHTTP.sys.mjs
 
