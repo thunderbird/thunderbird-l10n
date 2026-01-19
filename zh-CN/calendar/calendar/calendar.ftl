@@ -781,6 +781,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = 任务…
     .accesskey = T
+calendar-task-filter-title2 = 筛选任务
 calendar-task-filter-title = 显示
 calendar-task-filter-all =
     .label = 所有
