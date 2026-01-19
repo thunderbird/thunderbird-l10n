@@ -121,6 +121,7 @@ address-book-carddav-connection-error = Ferbining meitsje mislearre.
 address-book-ldap-duplicate-error = LDAP-directorynamme bestiet al. Fier in oare directorynamme yn.
 address-book-ldap-creation-error = Kin LDAP-directory net meitsje.
 account-hub-email-setup-ews = Serverynstellingen
+account-hub-result-exchange-url-label = URL fan Exchange-einpunt
 account-hub-result-host-url-label = EWS-einpunt-URL
 account-hub-email-credentials-confirmation = Accountkonfiguraasje
 account-hub-result-unknown-hostname = Unbekende hostnamme

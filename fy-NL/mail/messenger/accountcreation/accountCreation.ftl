@@ -19,6 +19,7 @@ boolean-error = Net in boolean
 no-number-error = Net in sifer
 number-too-large-error = Nûmer te heech
 number-too-small-error = Nûmer te leech
+emailaddress-syntax-error = Gjin jildich e-mailadres
 
 ## FetchHTTP.sys.mjs
 

@@ -846,6 +846,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Taak…
     .accesskey = T
+calendar-task-filter-title2 = Taken filterje
 calendar-task-filter-title = Toane
 calendar-task-filter-all =
     .label = Alle
