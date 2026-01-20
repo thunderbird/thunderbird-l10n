@@ -148,7 +148,7 @@ quick-filter-bar-boolean-mode-all =
     .title = Dylai pob un o'r meini prawf tag hyn gydweddu
 # The None tagging mode.
 quick-filter-bar-tag-mode-none =
-    .label = Heb ei dagio yn unig
+    .label = Dim ond heb ei dagio
     .title = Dim ond negeseuon heb dagiau
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
