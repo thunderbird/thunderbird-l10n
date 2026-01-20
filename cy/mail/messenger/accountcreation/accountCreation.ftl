@@ -19,6 +19,7 @@ boolean-error = Nid booleanaidd
 no-number-error = Nid rhif
 number-too-large-error = Rhif yn rhy fawr
 number-too-small-error = Rhif yn rhy fach
+emailaddress-syntax-error = Ddim yn gyfeiriad e-bost dilys
 
 ## FetchHTTP.sys.mjs
 
