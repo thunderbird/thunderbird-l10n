@@ -19,6 +19,7 @@ boolean-error = Bukan nilai boolean
 no-number-error = Bukan sebuah angka
 number-too-large-error = Angka terlalu besar
 number-too-small-error = Angka terlalu kecil
+emailaddress-syntax-error = Bukan alamat surel yang valid
 
 ## FetchHTTP.sys.mjs
 

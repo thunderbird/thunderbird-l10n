@@ -122,6 +122,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = Seluruh
     .title = Semua kriteria tag yang dipilih harus cocok
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = Hanya tanpa tag
+    .title = Hanya pesan tanpa tag
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
