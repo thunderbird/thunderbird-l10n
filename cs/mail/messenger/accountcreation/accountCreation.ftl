@@ -19,6 +19,7 @@ boolean-error = Není pravdivostní hodnota
 no-number-error = Není číslo
 number-too-large-error = Číslo je příliš velké
 number-too-small-error = Číslo je příliš malé
+emailaddress-syntax-error = Neplatná e-mailová adresa
 
 ## FetchHTTP.sys.mjs
 
