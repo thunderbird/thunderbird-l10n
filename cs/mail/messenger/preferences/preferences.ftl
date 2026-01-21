@@ -1034,7 +1034,7 @@ show-synced-change = Změnit…
 synced-acount-item-server-config = Nastavení serveru
 synced-acount-item-filters = Filtry
 synced-acount-item-keys = OpenPGP - S/MIME
-sync-disconnected-text = Synchronizujte své e-mailové účty, kontakty, kalendáře, doplňky a identity ve všech svých zařízeních.
+sync-disconnected-text = Synchronizujte své e-mailové účty, kontakty, kalendáře, doplňky a identity napříč všemi svými zařízeními.
 sync-disconnected-turn-on-sync = Zapnout synchronizaci…
 
 ## Mobile QR Export Pane
