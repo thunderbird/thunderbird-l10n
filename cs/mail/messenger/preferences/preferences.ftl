@@ -998,7 +998,7 @@ search-results-help-link =
 ## Sync Tab
 
 sync-signedout-caption = Vezměte si web s sebou
-sync-signedout-description = Synchronizujte své účty, kontakty, kalendáře, doplňky a nastavení ve všech svých zařízeních.
+sync-signedout-description = Synchronizujte své účty, kontakty, kalendáře, doplňky a nastavení napříč všemi svými zařízeními.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Přihlásit se k synchronizaci…
 sync-pane-header = Synchronizace
