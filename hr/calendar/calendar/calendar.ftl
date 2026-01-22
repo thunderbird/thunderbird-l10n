@@ -856,6 +856,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Zadatak…
     .accesskey = t
+calendar-task-filter-title2 = Filtriraj zadatke
 calendar-task-filter-title = Prikaži
 calendar-task-filter-all =
     .label = Svi

@@ -121,6 +121,7 @@ address-book-carddav-connection-error = Neuspjelo povezivanje.
 address-book-ldap-duplicate-error = Naziv LDAP mape već postoji. Unesite drugi naziv mape.
 address-book-ldap-creation-error = Nije moguće stvoriti LDAP mapu.
 account-hub-email-setup-ews = Postavke servera
+account-hub-result-exchange-url-label = URL krajnje točke Exchangea
 account-hub-result-host-url-label = URL krajnje točke EWS-a
 account-hub-email-credentials-confirmation = Konfiguracija računa
 account-hub-result-unknown-hostname = Nepoznato ime glavnog računala
