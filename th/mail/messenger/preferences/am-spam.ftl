@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+spam-settings-title = การตั้งค่าสแปม
+dialog-header-title =
+    .value = การตั้งค่าสแปม
 move-message-other =
     .label = อื่น ๆ:
     .accesskey = อ
