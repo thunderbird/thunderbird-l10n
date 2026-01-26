@@ -336,6 +336,9 @@ openpgp-description-has-keys = { -brand-short-name } พบคีย์ OpenPGP 
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = การกำหนดค่าปัจจุบันของคุณใช้ ID คีย์ <b>{ $key }</b>
 #   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = การกำหนดค่าปัจจุบันของคุณใช้คีย์ <b>{ $key }</b> ซึ่งจะหมดอายุใน { $when } เพื่อให้คีย์ยังคงใช้ได้ โปรดพิจารณาขยายวันหมดอายุของคีย์ตอนนี้
+#   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = การกำหนดค่าปัจจุบันของคุณใช้คีย์ <b>{ $key }</b> ซึ่งหมดอายุแล้ว
 openpgp-add-key-button =
     .label = เพิ่มคีย์…

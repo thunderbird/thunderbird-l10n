@@ -127,5 +127,10 @@ openpgp-external-key-info = นอกจากนี้ คุณต้องใ
 openpgp-external-key-warning = <b>คุณสามารถกำหนดค่าคีย์ GnuPG ภายนอกได้เพียงคีย์เดียวเท่านั้น</b> รายการก่อนหน้าของคุณจะถูกแทนที่
 openpgp-save-external-button = บันทึกรหัสคีย์
 openpgp-external-key-label = รหัสคีย์ลับ:
+openpgp-import-own-key-title = นำเข้าคีย์สาธารณะของคุณ
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name } ไม่พบคีย์สาธารณะที่มี ID { $keyId } โปรดนำเข้าเพื่อดำเนินการต่อ
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = ไม่สามารถนำเข้าคีย์สาธารณะ { $keyId } จากไฟล์นั้นได้
 openpgp-external-key-input =
     .placeholder = 123456789341298340

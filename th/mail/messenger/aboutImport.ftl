@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = สมุดรายชื่อ
 items-pane-checkbox-calendars = ปฏิทิน
 items-pane-checkbox-mail-messages = ข้อความจดหมาย
 items-pane-override = ข้อมูลใดๆ ที่มีอยู่แล้วหรือเหมือนกันจะไม่ถูกเขียนทับ
+items-pane-nothing-to-import = ไม่สามารถนำเข้าข้อมูลใด ๆ จากแหล่งที่เลือกได้
 
 ## Import from address book file steps
 

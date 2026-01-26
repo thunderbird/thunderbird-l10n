@@ -122,6 +122,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = ทั้งหมด
     .title = เกณฑ์ป้ายกำกับที่เลือกทั้งหมดต้องตรงกัน
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = เฉพาะที่ไม่มีป้ายกำกับ
+    .title = เฉพาะข้อความที่ไม่มีป้ายกำกับเท่านั้น
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
@@ -176,6 +180,9 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = แสดงขนาดโฟลเดอร์
+# Context menu item to toggle display of full folder path in compact mode.
+folder-pane-header-toggle-full-path =
+    .label = แสดงเส้นทางแบบเต็ม
 folder-pane-header-hide-local-folders =
     .label = ซ่อนโฟลเดอร์ภายในเครื่อง
 folder-pane-mode-context-button =
@@ -471,3 +478,22 @@ message-list-placeholder-multiple-folders = เลือกโฟลเดอร
 folder-pane-context-mark-folder-read =
     .label = ทำเครื่องหมายโฟลเดอร์ว่าอ่านแล้ว
     .accesskey = ท
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = ล้างค่าลำดับโฟลเดอร์
+    .accesskey = ล
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+folder-pane-context-compact =
+    .label =
+        { $count ->
+            [1] กระชับโฟลเดอร์
+           *[other] กระชับโฟลเดอร์
+        }
+    .accesskey = ฟ
+# One or more servers selected for compacting ALL their folders. Only this or
+# folder-pane-context-compact string will appear at a time, not both.
+folder-pane-context-compact-all =
+    .label = กระชับโฟลเดอร์ทั้งหมด
+    .accesskey = ฟ

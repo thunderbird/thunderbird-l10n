@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = ปิดใช้งานโหมดข้อความมืด
 dark-message-mode-toggle-disabled =
     .title = เปิดใช้งานโหมดข้อความมืด
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name } คิดว่าข้อความนี้เป็นสแปม
+message-bar-not-spam-button =
+    .label = ไม่ใช่สแปม
+    .accesskey = ม
+message-bar-learn-more-button =
+    .label = เรียนรู้เพิ่มเติม…
+    .accesskey = ร

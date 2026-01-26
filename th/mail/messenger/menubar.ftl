@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = เลิกลบ
     .tooltiptext = เลิกลบข้อความที่เลือก
+toolbar-spam-button =
+    .label = สแปม
+    .tooltiptext = ทำเครื่องหมายข้อความที่เลือกว่าเป็นสแปม
+toolbar-not-spam-button =
+    .label = ไม่ใช่สแปม
+    .tooltiptext = ทำเครื่องหมายข้อความที่เลือกว่าไม่ใช่สแปม
 
 ## View
 
@@ -148,3 +154,15 @@ file-new-email-account =
 file-new-newsgroup-account =
     .label = บัญชีกลุ่มข่าว…
     .accesskey = ก
+file-new-addressbook =
+    .label = สมุดรายชื่อ
+    .accesskey = ส
+file-new-local-addressbook =
+    .label = สมุดรายชื่อในเครื่อง
+    .accesskey = ส
+file-new-carddav-addressbook =
+    .label = สมุดรายชื่อ CardDAV
+    .accesskey = C
+file-new-ldap-addressbook =
+    .label = สมุดรายชื่อ LDAP
+    .accesskey = L

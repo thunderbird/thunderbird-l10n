@@ -5,4 +5,5 @@
 mail-view-known-people = คนที่ฉันรู้จัก
 mail-view-recent = จดหมายล่าสุด
 mail-view-last-five-days = 5 วันที่ผ่านมา
+mail-view-not-spam = ไม่ใช่สแปม
 mail-view-has-attachments = มีไฟล์แนบ
