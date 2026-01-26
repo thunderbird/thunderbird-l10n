@@ -44,5 +44,6 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = โปรดรอในขณะที่กำลังค้นพบปฏิทินของคุณ
 calendar-creation-network-notfound = ไม่พบปฏิทินที่ตำแหน่งที่ตั้งนี้ โปรดตรวจสอบการตั้งค่าของคุณ
 calendar-creation-network-authfail = ไม่ยอมรับข้อมูลรับรองที่คุณป้อน โปรดตรวจสอบการตั้งค่าของคุณ
+calendar-creation-network-certerror = ไม่พบปฏิทินที่ตำแหน่งที่ตั้งนี้เนื่องจากปัญหาเกี่ยวกับใบรับรอง
 calendar-creation-network-subscribe-single = โปรดเลือกปฏิทินที่คุณต้องการบอกรับ
 calendar-creation-network-subscribe-multiple = มีปฏิทินหลายชนิดสำหรับตำแหน่งที่ตั้งนี้ โปรดเลือกชนิดปฏิทิน จากนั้นทำเครื่องหมายปฏิทินที่คุณต้องการบอกรับ

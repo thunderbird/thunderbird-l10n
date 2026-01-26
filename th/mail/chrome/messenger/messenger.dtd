@@ -691,6 +691,8 @@
 <!ENTITY contextReplyList.accesskey "ร">
 <!ENTITY contextMoveMsgMenu.label "ย้ายไปยัง">
 <!ENTITY contextMoveMsgMenu.accesskey "ย">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "สถานที่ปลายทางล่าสุด">
+<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "ล">
 <!ENTITY contextMoveCopyMsgRecentMenu.label "ล่าสุด">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "ล">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "รายการโปรด">

@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "หน้าบริสุทธิ์">
 <!ENTITY smiley15Cmd.label "หน้าร้องไห้">
 <!ENTITY smiley16Cmd.label "หน้าปิดปากสนิท">
+<!ENTITY smiley17Cmd.label "โกรธ">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "ไม่พบคำแนะนำ">
 <!ENTITY spellCheckIgnoreWord.label "เพิกเฉยคำ">
