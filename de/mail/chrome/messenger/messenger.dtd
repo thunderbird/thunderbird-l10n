@@ -823,7 +823,7 @@
 <!ENTITY copyEmailCmd.accesskey "d">
 <!ENTITY openInBrowser.label "In Browser öffnen">
 <!ENTITY openInBrowser.accesskey "B">
-<!ENTITY openLinkInBrowser.label "Link in Browser öffnen">
+<!ENTITY openLinkInBrowser.label "Link im Browser öffnen">
 <!ENTITY openLinkInBrowser.accesskey "B">
 <!-- Statusbar -->
 <!ENTITY statusText.label "Fertig">
