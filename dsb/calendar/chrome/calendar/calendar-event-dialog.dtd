@@ -252,7 +252,7 @@
 <!ENTITY event.recurrence.pattern.every.weekday.label "Kuždy wšedny źeń">
 <!ENTITY event.recurrence.pattern.weekly.every.label "Kuždy">
 <!ENTITY repeat.units.weeks.both "tyźeń">
-<!ENTITY event.recurrence.on.label "On:">
+<!ENTITY event.recurrence.on.label "Dnja:">
 <!ENTITY event.recurrence.pattern.monthly.every.label "Kuždy">
 <!ENTITY repeat.units.months.both "mjasec">
 <!ENTITY event.recurrence.monthly.every.label "Kuždy">
