@@ -31,7 +31,7 @@
 <!ENTITY keepArchives.accesskey "P">
 <!ENTITY archiveHierarchyButton.label "Archiwowe opcije…">
 <!ENTITY archiveHierarchyButton.accesskey "A">
-<!ENTITY archivesFolderOn.label "&quot;Archiwowym&quot; zarědniku na:">
+<!ENTITY archivesFolderOn.label "&quot;Archiwowem&quot; zarědniku na:">
 <!ENTITY archivesFolderOn.accesskey "z">
 <!ENTITY archiveInOtherFolder.label "Drugem zarědniku:">
 <!ENTITY archiveInOtherFolder.accesskey "D">
