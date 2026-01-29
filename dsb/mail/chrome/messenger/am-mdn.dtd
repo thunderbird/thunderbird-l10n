@@ -17,7 +17,7 @@
 <!-- LOCALIZATION NOTE moveToSent.label Translate: 'Sent' according to Netscape glossary -->
 <!ENTITY moveToSent.label "Jo do mójogo zarědnika &quot;Pósłany&quot; pśesunuś">
 <!ENTITY moveToSent.accesskey "m">
-<!ENTITY requestMDN.label "Gaž dostanjom pominanje za wobtwarźenim dostaśa:">
+<!ENTITY requestMDN.label "Gaž dostawam pominanje za wobtwarźenim dostaśa:">
 <!ENTITY returnSome.label "Wobtwarźenja dostaśa za někotare powěsći dowóliś">
 <!ENTITY returnSome.accesskey "e">
 <!ENTITY never.label "Nigdy wobtwarźenje dostaśa njesłaś">
