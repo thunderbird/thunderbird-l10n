@@ -7,7 +7,7 @@
 <!ENTITY doNotDownloadImap.label "Aby rum na plaśe žarił, dajo se ześěgowanje powěsćow ze serwera a wobchowanje kopijow za wužywanje offline pó starstwje abo wjelikosći wobgranicowaś.">
 <!ENTITY allFoldersOffline2.label "Powěsći we wšych zarědnikach za toś to konto na toś tom licadle wobchowaś">
 <!ENTITY allFoldersOffline2.accesskey "o">
-<!ENTITY allFoldersOfflineNote.label "Glědajśo: Gaž to změnijośo, se to na wše zarědniki w toś tom konśe wustatkujo. Wužywajśo tłocašk Rozšyrjene…, aby jadnotliwe zarědniki nastajił.">
+<!ENTITY allFoldersOfflineNote.label "Glědajśo: Gaž to změnijośo, se to na wše zarědniki w toś tom konśe wustatkujo. Wužywajśo tłocašk Rozšyrjone…, aby jadnotliwe zarědniki nastajił.">
 <!ENTITY offlineNotDownload.label "Powěsći, kótarež su wětše ako">
 <!ENTITY offlineNotDownload.accesskey "w">
 <!ENTITY autosyncNotDownload.label "Powěsći njeześěgnuś, kótarež su wětše ako">
@@ -19,9 +19,9 @@
 <!ENTITY nntpNotDownloadRead.accesskey "z">
 <!ENTITY nntpDownloadMsg.label "Powěsći, kótarež su wěcej ako">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "Aby rum na plaśe wótnowilo, daju se stare powěsći na pśecej lašowas.">
-<!ENTITY retentionCleanupImap.label "Aby rum na plase wótnowilo, daju se stare powěsći na pśecej lašowas, ako lokalne kopije tak teke originale na zdalonem serwerje.">
-<!ENTITY retentionCleanupPop.label "Aby wótnowił rum na plaśe, daju se stare powěsći na pśecej lašowaś, inkluziwnje originale na dalokem serwerje.">
+<!ENTITY retentionCleanup.label "Aby se rum na plaśe wótnowił, daju se stare powěsći na pśecej lašowaś.">
+<!ENTITY retentionCleanupImap.label "Aby se rum na plaśe wótnowił, daju se stare powěsći na pśecej lašowaś, ako lokalne kopije tak teke originale na zdalonem serwerje.">
+<!ENTITY retentionCleanupPop.label "Aby se rum na plaśe wótnowił, daju se stare powěsći na pśecej lašowaś, inkluziwnje originale na zdalonem serwerje.">
 <!ENTITY retentionKeepMsg.label "Powěsći lašowaś, kótarež su wěcej ako">
 <!ENTITY retentionKeepMsg.accesskey "l">
 <!ENTITY retentionKeepAll.label "Žedne powěsći njelašowaś">
