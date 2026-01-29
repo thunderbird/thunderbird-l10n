@@ -9,7 +9,7 @@
 <!-- Entities for Identity page -->
 
 <!ENTITY identityTitle.label "Identita">
-<!ENTITY identityDesc.label "Kužde konto jo identita, kótaraž wopśimujo informacije, kótarež identificěrujo śi napśeśiwo drugim luźam, gaž wóne dostaju waše powěsći.">
+<!ENTITY identityDesc.label "Kužde konto jo identita, kótaraž wopśimujo informacije, kótarež identificěrujo was napśeśiwo drugim luźam, gaž wóne dostanu waše powěsći.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY fullnameDesc.label "Zapódajśo mě, kótarež dej se w pólu &quot;Wót&quot; wašych wuchadnych powěsćow pokazaś">
 <!-- LOCALIZATION NOTE (fullnameExample.label) : use following directions for below line
