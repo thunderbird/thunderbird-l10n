@@ -780,3 +780,5 @@
 <!ENTITY showAllAppsCmdMac.label "Show All">
 <!-- Mac OS X Dock Icon pop-up menu -->
 <!ENTITY dockOptions.label "ជម្រើស​រូបតំណាង​កម្មវិធី…">
+<!-- Content tab Navigation buttons -->
+<!ENTITY browseBackButton.tooltip "ថយក្រោយ​មួយ​ទំព័រ">
