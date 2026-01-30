@@ -26,7 +26,7 @@
 <!ENTITY contextPeriodic.accesskey "e">
 <!ENTITY filterActionDesc.label "Toś te akcije wuwjasć:">
 <!ENTITY filterActionDesc.accesskey "T">
-<!ENTITY filterActionOrderWarning.label "Glědajśo: Filtrowe akcije wuwjeduju se w rozdźělnym pórěźe.">
+<!ENTITY filterActionOrderWarning.label "Glědajśo: Filtrowe akcije wuwjeduju se w rozdźělnem pórěźe.">
 <!ENTITY filterActionOrder.label "Glejśo wuwjeźeński pórěd">
 <!-- New Style Filter Rule Actions -->
 <!ENTITY moveMessage.label "Powěsć pśesunuś do">
