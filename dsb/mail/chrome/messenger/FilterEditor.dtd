@@ -43,7 +43,7 @@
 <!ENTITY deleteFromPOP.label "Ze serwera POP wulašowaś">
 <!ENTITY fetchFromPOP.label "Ze serwera POP wótwołaś">
 <!ENTITY ignoreThread.label "Nitku ignorěrowaś">
-<!ENTITY ignoreSubthread.label "Pódnitku ingorěrowaś">
+<!ENTITY ignoreSubthread.label "Pódnitku ignorěrowaś">
 <!ENTITY watchThread.label "Nitku wobglědaś">
 <!ENTITY stopExecution.label "Wuwjeźenje filtra zastajiś">
 <!ENTITY addAction.tooltip "Nowu akciju pśidaś">
