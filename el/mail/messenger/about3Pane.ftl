@@ -134,6 +134,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = Όλες
     .title = Όλα από τα επιλεγμένα κριτήρια ετικετών θα πρέπει να ταιριάζουν
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = Μόνο χωρίς ετικέτα
+    .title = Μόνο μηνύματα χωρίς ετικέτες
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
