@@ -17,7 +17,7 @@
 <!ENTITY General.tab "Powšykne">
 <!ENTITY Offline.tab "Offline">
 <!ENTITY Advanced.tab "Rozšyrjone">
-<!ENTITY portNumber.label "Portowe cysło: ">
+<!ENTITY portNumber.label "Portowy numer: ">
 <!ENTITY portNumber.accesskey "c">
 <!ENTITY searchFilter.label "Pytański filter: ">
 <!ENTITY searchFilter.accesskey "f">
