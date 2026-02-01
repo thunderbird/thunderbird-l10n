@@ -25,6 +25,6 @@ calendar-editable-item-reminder-icon-alarm =
 calendar-editable-item-reminder-icon-suppressed-alarm =
     .alt = Dopominańske warnowanje jo planowane, ale tuchylu pódtłocone
 calendar-editable-item-reminder-icon-email =
-    .alt = Dopominaśska mejlka jo planowana
+    .alt = Dopominańska mejlka jo planowana
 calendar-editable-item-reminder-icon-audio =
     .alt = Dopominańske awdiowarnowanje jo planowane
