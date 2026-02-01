@@ -4,6 +4,7 @@
 
 event-status-cancelled = បាន​បោះបង់
 todo-status-cancelled = បាន​បោះបង់
+yesterday = ម្សិលមិញ
 # LOCALIZATION NOTE (alarm-yesterday-at):
 # used for a display the date-time of an alarm like 'Yesterday at Thu 2 Oct 2008 13:21'
 #    $datetime will be replaced with a date-time

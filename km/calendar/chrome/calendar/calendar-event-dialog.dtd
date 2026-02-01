@@ -4,3 +4,5 @@
 
 <!ENTITY newevent.eventStatus.cancelled.label "បាន​បោះបង់">
 <!ENTITY newevent.todoStatus.cancelled.label "បាន​បោះបង់">
+<!ENTITY event.repeat.monthly.label "ប្រចាំខែ">
+<!ENTITY event.recurrence.month.label "ប្រចាំខែ">
