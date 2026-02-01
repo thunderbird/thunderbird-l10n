@@ -479,7 +479,7 @@
 <!ENTITY archiveButton.label "Archiw">
 <!ENTITY openConversationButton.label "Rozgrono">
 <!ENTITY nextButton.label "Dalej">
-<!ENTITY nextButtonToolbarItem.label "Pśidujuca njepśecytana">
+<!ENTITY nextButtonToolbarItem.label "Pśiduca njepśecytana">
 <!ENTITY nextMsgButton.label "Dalej">
 <!ENTITY previousButton.label "Pjerwjejšna">
 <!ENTITY previousButtonToolbarItem.label "Pjerwjejšna njepśecytana">
@@ -516,8 +516,8 @@
 <!ENTITY fileButton.tooltip "Wubranu powěsć wótpołožyś">
 <!ENTITY archiveButton.tooltip "Wubrane powěsći archiwěrowaś">
 <!ENTITY openMsgConversationButton.tooltip "Rozgrono wubraneje powěsći pokazaś">
-<!ENTITY nextButton.tooltip "K pśidujucej njepśecytanej powěsći">
-<!ENTITY nextMsgButton.tooltip "K pśidujucej powěsći pśesunuś">
+<!ENTITY nextButton.tooltip "K pśiducej njepśecytanej powěsći">
+<!ENTITY nextMsgButton.tooltip "K pśiducej powěsći pśesunuś">
 <!ENTITY previousButton.tooltip "K pjerjwjejšnej njepśecytanej powěsći">
 <!ENTITY previousMsgButton.tooltip "K pjerwjejšnej powěsći pśesunuś">
 <!ENTITY goForwardButton.tooltip "Wó jadnu powěsć doprědka">
