@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-invitation-panel-status-new = Maśo pšepšosenje na toś to tšojenje.
+calendar-invitation-panel-status-new = Maśo pśepšosenje na toś to tšojenje.
 calendar-invitation-panel-status-processed = Toś to tšojenje jo se južo pśidało wašomu kalendarjoju.
 calendar-invitation-panel-status-updateminor = Toś ta powěsć aktualizaciju za toś to tšojenje wopśimujo.
 calendar-invitation-panel-status-updatemajor = Toś ta powěsć aktualizaciju za toś to tšojenje wopśimujo. Wy měł swóje wobźělenje znowego wobkšuśiś.
