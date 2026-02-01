@@ -842,6 +842,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Verkefni…
     .accesskey = V
+calendar-task-filter-title2 = Sía verkefni
 calendar-task-filter-title = Sýna
 calendar-task-filter-all =
     .label = Allar

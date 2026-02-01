@@ -19,6 +19,7 @@ boolean-error = Ekki boole gildi
 no-number-error = Ekki tala
 number-too-large-error = Tala of stór
 number-too-small-error = Tala of lítil
+emailaddress-syntax-error = Ekki gilt tölvupóstfang
 
 ## FetchHTTP.sys.mjs
 
