@@ -219,6 +219,15 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Verschieben in
     .accesskey = v
+menu-copy-to =
+    .label = Kopieren in
+    .accesskey = K
+menu-move-copy-recent-destinations =
+    .label = Letzte Ziele
+    .accesskey = L
+menu-move-copy-favorites =
+    .label = Favoriten
+    .accesskey = F
 
 ## AppMenu
 
