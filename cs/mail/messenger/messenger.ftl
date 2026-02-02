@@ -221,6 +221,9 @@ menu-move-to-folder-again =
 menu-copy-to-folder-again =
     .label = Kopírovat opět do složky "{ $folderName }"
     .accesskey = p
+menu-move-to =
+    .label = Přesunout do
+    .accesskey = s
 
 ## AppMenu
 
