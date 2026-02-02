@@ -195,6 +195,34 @@ redirect-msg-menuitem =
 
 ## Shared Menu Items
 
+menu-move-again =
+    .label = 前回と同じフォルダーに移動
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = 前回と同じ "{ $folderName }" に移動
+    .accesskey = t
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = 前回と同じ "{ $folderName }" にコピー
+    .accesskey = t
+menu-move-to =
+    .label = メッセージを移動
+    .accesskey = M
+menu-copy-to =
+    .label = メッセージをコピー
+    .accesskey = C
+menu-move-copy-recent-destinations =
+    .label = 最近使用
+    .accesskey = R
+menu-move-copy-favorites =
+    .label = お気に入り
+    .accesskey = F
 
 ## AppMenu
 
