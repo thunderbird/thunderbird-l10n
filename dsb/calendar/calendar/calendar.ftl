@@ -225,8 +225,8 @@ dav-not-dav = Resursa na { $name } pak njejo DAV-zběrka pak njejo k dispoziciji
 dav-dav-not-cal-dav = Resursa na { $name } jo DAV-zběrka, ale njejo CalDAV-kalender
 item-put-error = Pśi składowanju zapiska na serweru jo zmólka nastała.
 item-delete-error = Pśi lašowanju zapiska ze serwera jo zmólka nastała.
-cal-dav-request-error = Pśi słanju pśepšosenja jo se zmólka nastała.
-cal-dav-response-error = Pśi słanju wótegrona jo se zmólka nastała.
+cal-dav-request-error = Pśi słanju pśepšosenja jo zmólka nastała.
+cal-dav-response-error = Pśi słanju wótegrona jo zmólka nastała.
 # $statusCode status code
 cal-dav-request-status-code = Statusowy kod: { $statusCode }
 cal-dav-request-status-code-string-generic = Napšašowanje njedajo se pśeźěłaś.
@@ -235,9 +235,9 @@ cal-dav-request-status-code-string-403 = Wužywaŕ njama trjebne pšawo, aby nap
 cal-dav-request-status-code-string-404 = Resursa njejo se namakała.
 cal-dav-request-status-code-string-409 = Resursowy konflikt.
 cal-dav-request-status-code-string-412 = Wuměnjenje njejo docynjone.
-cal-dav-request-status-code-string-500 = Nutśkowna serwerowa zmólka.
+cal-dav-request-status-code-string-500 = Nutśikowna serwerowa zmólka.
 cal-dav-request-status-code-string-502 = Gateway ze zmólkami (proksy-konfiguracija?).
-cal-dav-request-status-code-string-503 = Nutśkowna serwerowa zmólka (nachylny wupad serwera?).
+cal-dav-request-status-code-string-503 = Nutśikowna serwerowa zmólka (nachylny wupad serwera?).
 # $name name of calendar
 cal-dav-redirect-title = Městno za kalender { $name } aktualizěrowaś?
 # $name name of calendar
@@ -292,7 +292,7 @@ likely-timezone = Europe/Berlin, Europe/Prague, Europe/Zurich, Europe/Vienna, Eu
 # $zoneInfoTimezoneId ZoneInfo timezone id
 warning-os-tz-no-match =
     Warnowanje: Casowa cona "{ $timezone }"
-    wěcej njejo jadnak z nutśkowneju casoweju conu ZoneInfo "{ $zoneInfoTimezoneId }".
+    wěcej njejo jadnak z nutśikowneju casoweju conu ZoneInfo "{ $zoneInfoTimezoneId }".
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
 # OS uses different version of ZoneInfo database which has a timezone name
@@ -326,7 +326,7 @@ tz-almost-matches-os-differ-at-mostaweek =
     Toś ta casowa cona maka se skóro z casoweju conu źěłowego systema.
     Tak pśiducy pśechad mjazy lěśojskim casom a normalnym casom
     rozeznawa se wó maksimalnje jaden tyźeń wót pśechada casoweje cony źěłowego systema.
-    Mógu wótchylenja w datach byś, na pś. wótchilny zachopny datum.
+    Mógu wótchylenja w datach byś, na pś. wótchylny zachopny datum.
     abo wótchylne pšawidło abo pśibliženja za pšawidła, kótarež njewótpowěduju gregorjaniskemu kalenderoju.
 tz-seems-to-matchos = Zda se, až casowa cona maka se w tom lěśe z casoweju conu źěłowego systema.
 # LOCALIZATION NOTE (tz-fromos):
