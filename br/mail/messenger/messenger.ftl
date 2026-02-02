@@ -108,6 +108,12 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Dilec'hiañ etrezek
     .accesskey = D
+menu-copy-to =
+    .label = Eilañ etrezek
+    .accesskey = k
+menu-move-copy-favorites =
+    .label = Pennrolloù
+    .accesskey = P
 
 ## AppMenu
 
