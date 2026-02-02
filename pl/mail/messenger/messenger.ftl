@@ -200,6 +200,12 @@ redirect-msg-menuitem =
     .label = Przekieruj
     .accesskey = k
 
+## Shared Menu Items
+
+menu-move-to =
+    .label = Przenieś do
+    .accesskey = z
+
 ## AppMenu
 
 appmenu-save-as-file =
