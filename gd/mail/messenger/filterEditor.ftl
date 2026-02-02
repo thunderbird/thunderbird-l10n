@@ -41,3 +41,6 @@ filter-action-log-pop3-fetch = bodhaig air fhaighinn on fhrithealaiche POP3
 filter-action-log-tagged = air taga a chur ris
 filter-action-log-ignore-subthread = fo-shnàth air a leigeil seachad
 filter-action-log-unread = cuir comharra nach deach a leughadh
+filter-editor-must-select-target-folder = Feumaidh tu pasgan-amais a thaghadh.
+filter-editor-enter-valid-email-forward = Cuir a-steach seòladh puist-dhealain dligheach a thèid a shìneadh air adhart dha.
+filter-editor-pick-template-reply = Tagh teamplaid airson na freagairt.
