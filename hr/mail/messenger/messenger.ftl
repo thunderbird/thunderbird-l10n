@@ -202,6 +202,21 @@ redirect-msg-menuitem =
     .label = Preusmjeri
     .accesskey = u
 
+## Shared Menu Items
+
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Premjesti ponovno u "{ $folderName }"
+    .accesskey = t
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Kopiraj ponovno u "{ $folderName }"
+    .accesskey = K
+
 ## AppMenu
 
 appmenu-save-as-file =
