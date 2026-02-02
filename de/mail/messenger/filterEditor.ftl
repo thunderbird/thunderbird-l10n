@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = Komplette Nachricht vom POP3-Server geladen
 filter-action-log-tagged = Schlagwort hinzugefügt
 filter-action-log-ignore-subthread = Unterthema ignoriert
 filter-action-log-unread = als ungelesen markiert
+filter-editor-must-select-target-folder = Sie müssen einen Zielordner angeben.
+filter-editor-enter-valid-email-forward = Geben Sie eine gültige E-Mail-Adresse an, auf die weitergeleitet werden soll.
+filter-editor-pick-template-reply = Wählen Sie eine Vorlage, mit der geantwortet werden soll.
