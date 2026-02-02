@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = សកម្មភាព​ត្រង​បាន​បរាជ័យ៖ "{ $errorMsg }" ជាមួយ​កូដ​កំហុស={ $errorCode } នៅ​ពេល​ព្យាយាម៖
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
