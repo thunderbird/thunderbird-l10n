@@ -197,6 +197,12 @@ redirect-msg-menuitem =
     .label = Reindirizza
     .accesskey = d
 
+## Shared Menu Items
+
+menu-move-to =
+    .label = Sposta in
+    .accesskey = p
+
 ## AppMenu
 
 appmenu-save-as-file =
