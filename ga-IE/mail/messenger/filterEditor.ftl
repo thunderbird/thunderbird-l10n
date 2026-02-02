@@ -36,3 +36,6 @@ filter-action-log-pop3-fetch = corp faighte ó fhreastalaí POP3
 filter-action-log-tagged = clibeáilte
 filter-action-log-ignore-subthread = foshnáithe ar a dtugtar neamhaird
 filter-action-log-unread = marcáilte "neamhléite"
+filter-editor-must-select-target-folder = Caithfidh tú spriocfhillteán a roghnú.
+filter-editor-enter-valid-email-forward = Iontráil seoladh bailí ríomhphoist le cur ar aghaidh chuige.
+filter-editor-pick-template-reply = Roghnaigh teimpléad don fhreagra.
