@@ -222,6 +222,12 @@ menu-move-to =
 menu-copy-to =
     .label = Copiar para
     .accesskey = C
+menu-move-copy-recent-destinations =
+    .label = Destinos Recentes
+    .accesskey = R
+menu-move-copy-favorites =
+    .label = Marcadores
+    .accesskey = F
 
 ## AppMenu
 
