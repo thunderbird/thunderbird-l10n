@@ -143,6 +143,15 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Perkelti į
     .accesskey = e
+menu-copy-to =
+    .label = Kopijuoti į
+    .accesskey = o
+menu-move-copy-recent-destinations =
+    .label = Paskiausi aplankai
+    .accesskey = P
+menu-move-copy-favorites =
+    .label = Dažniausi
+    .accesskey = F
 
 ## AppMenu
 
