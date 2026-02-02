@@ -115,6 +115,24 @@ menu-move-again =
     .label = Bog Arís
 move-to-folder-again-key =
     .key = a
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Bog go "{ $folderName }" Arís
+    .accesskey = t
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Cóipeáil go "{ $folderName }" Arís
+    .accesskey = t
+menu-move-to =
+    .label = Bog Go
+    .accesskey = B
+menu-copy-to =
+    .label = Cóipeáil Go
+    .accesskey = C
 
 ## AppMenu
 
