@@ -29,6 +29,10 @@ status-completed = Завршено
 # Task priority, these should match the priority.level.* labels in calendar.dtd
 high-priority = Високо
 low-priority = Ниско
+status-priority-img-high-priority =
+    .alt = Високо
+status-priority-img-low-priority =
+    .alt = Ниско
 import-prompt = Во кој календар сакате да ги увезете овие настани?
 export-prompt = Кој календар сакате да го извезете?
 publish-prompt = Кој календар сакате да го објавите?
