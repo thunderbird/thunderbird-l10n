@@ -199,6 +199,8 @@ redirect-msg-menuitem =
 
 ## Shared Menu Items
 
+menu-move-again =
+    .label = Sposta di nuovo
 move-to-folder-again-key =
     .key = m
 # Variables:
