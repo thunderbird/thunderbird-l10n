@@ -93,6 +93,12 @@ menu-move-to-folder-again =
 menu-copy-to-folder-again =
     .label = ចម្លង​ទៅ "{ $folderName }" ម្ដងទៀត
     .accesskey = t
+menu-move-to =
+    .label = Տեղափոխել՝
+    .accesskey = M
+menu-copy-to =
+    .label = Պատճենել՝
+    .accesskey = C
 
 ## AppMenu
 
