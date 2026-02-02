@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = tijela poruka dohvaćena s POP3 poslužitelja
 filter-action-log-tagged = označeno
 filter-action-log-ignore-subthread = ignorirana podtema
 filter-action-log-unread = označeno kao nepročitano
+filter-editor-must-select-target-folder = Morate odabrati odredišnu mapu.
+filter-editor-enter-valid-email-forward = Upišite važeću adresu e-pošte na koju želite proslijediti.
+filter-editor-pick-template-reply = Odaberite predložak za odgovaranje.
