@@ -27,7 +27,33 @@ filter-failure-move-failed = Spostamento non riuscito
 filter-failure-copy-failed = Copia non riuscita
 filter-failure-action = Applicazione del filtro non riuscita
 # Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Applicato filtro “{ $filterName }” al messaggio da { $author } - { $subject } a { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = spostato l’id del messaggio = { $id } a { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = copiato l’id del messaggio = { $id } a { $folder }
+filter-missing-custom-action = Azione predefinita mancante
+filter-action-log-priority = cambiata la priorità
+filter-action-log-deleted = eliminato
+filter-action-log-read = segnato come già letto
+filter-action-log-kill = discussione eliminata
+filter-action-log-watch = discussione controllata
+filter-action-log-starred = speciale
+filter-action-log-replied = risposto
+filter-action-log-forwarded = inoltrato
+filter-action-log-stop = esecuzione interrotta
+filter-action-log-pop3-delete = eliminato dal server POP3
+filter-action-log-pop3-leave = lasciato nel server POP3
 filter-action-log-spam = punteggio spam
+filter-action-log-pop3-fetch = scaricato il corpo dal server POP3
+filter-action-log-tagged = etichettato
+filter-action-log-ignore-subthread = ignora le sotto discussioni
+filter-action-log-unread = segnato come non letto
