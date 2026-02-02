@@ -9,3 +9,4 @@
 #   character of the string should be used as the access key for this
 #   field.
 chat-room-field-room = _បន្ទប់
+message-action-cancel = បោះបង់សារ

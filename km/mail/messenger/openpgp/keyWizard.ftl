@@ -7,3 +7,5 @@
 
 openpgp-keygen-months-label =
     .label = ខែ
+openpgp-keygen-dismiss =
+    .label = បោះបង់

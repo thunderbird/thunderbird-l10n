@@ -16,3 +16,7 @@ customize-menu-customize =
 toolbar-get-all-messages-menuitem =
     .label = Ստանալ բոլոր նոր նամակները
     .accesskey = G
+
+## Unified Toolbar customization
+
+customize-cancel = បោះបង់

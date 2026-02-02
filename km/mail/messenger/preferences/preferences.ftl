@@ -429,3 +429,7 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = រក​មើល…
     .accesskey = B
+
+## Sync Tab
+
+sync-pane-cancel = បោះបង់

@@ -3,10 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Addressing Area
+## Warning Exchange confirmation dialog
 
-many-public-recipients-prompt-cancel = បោះបង់ការផ្ញើ
-
-## Link Preview
-
-link-preview-yes-replace = បាទ/ចាស៎
+exchange-dialog-cancel-button = បោះបង់

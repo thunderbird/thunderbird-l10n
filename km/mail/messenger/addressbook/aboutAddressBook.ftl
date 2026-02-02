@@ -3,6 +3,16 @@
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Details
+
+about-addressbook-cancel-edit-contact-button = បោះបង់
+
+# Photo dialog
+
+
+# Keyboard shortcuts
+
+
 ## Address Book Search Dialog
 
 ab-search-dialog-search-button =

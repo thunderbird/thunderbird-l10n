@@ -2,11 +2,4 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-## Addressing Area
-
-many-public-recipients-prompt-cancel = បោះបង់ការផ្ញើ
-
-## Link Preview
-
-link-preview-yes-replace = បាទ/ចាស៎
+auth-cancel = បោះបង់

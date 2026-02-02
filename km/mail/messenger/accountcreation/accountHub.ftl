@@ -3,10 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Addressing Area
+### Account Hub
+### Account hub is where user can setup new accounts in Thunderbird.
 
-many-public-recipients-prompt-cancel = បោះបង់ការផ្ញើ
 
-## Link Preview
+## Email page
 
-link-preview-yes-replace = បាទ/ចាស៎
+account-hub-email-cancel-button = បោះបង់
