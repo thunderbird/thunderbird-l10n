@@ -196,6 +196,16 @@ redirect-msg-menuitem =
     .label = Chuyển hướng
     .accesskey = D
 
+## Shared Menu Items
+
+menu-move-again =
+    .label = Thử di chuyển lại
+move-to-folder-again-key =
+    .key = m
+menu-move-to =
+    .label = Di chuyển đến
+    .accesskey = D
+
 ## AppMenu
 
 appmenu-save-as-file =
