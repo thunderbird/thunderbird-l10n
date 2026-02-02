@@ -18,7 +18,33 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Message indésirable de { $author } détecté - { $subject } le { $date }
 # Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Filtre « { $filterName } » appliqué au message de { $author } - { $subject } le { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = message id = { $id } déplacé vers { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = message id = { $id } copié vers { $folder }
+filter-missing-custom-action = Action personnalisée manquante
+filter-action-log-priority = priorité modifiée
+filter-action-log-deleted = supprimé
+filter-action-log-read = marqué comme lu
+filter-action-log-kill = discussion ignorée
+filter-action-log-watch = discussion surveillée
+filter-action-log-starred = suivi
+filter-action-log-replied = répondu
+filter-action-log-forwarded = transféré
+filter-action-log-stop = exécution arrêtée
+filter-action-log-pop3-delete = supprimé du serveur POP3
+filter-action-log-pop3-leave = laissé sur le serveur POP3
 filter-action-log-spam = score de spam
+filter-action-log-pop3-fetch = corps du message récupéré du serveur POP3
+filter-action-log-tagged = étiqueté
+filter-action-log-ignore-subthread = sous-fil de discussion ignoré
+filter-action-log-unread = marquer comme non lu
