@@ -18,6 +18,15 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Spam wot { $author } – { $subject } dnja { $date } namakany
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Filtrowanska akcija je so nimokuliło: "{ $errorMsg }" ze zmylkowym kodom={ $errorCode } za pospyt:
+filter-failure-sending-reply-error = Zmylk při słanju wotmołwy
+filter-failure-sending-reply-aborted = Słanje wotmołwy je so přetorhnyło
+filter-failure-move-failed = Přesunjenje je so nimokuliło
+filter-failure-copy-failed = Kopěrowanje je so nimokuliło
+filter-failure-action = Nałožowanje filtroweje akcije njeje so poradźiło
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = powěsć z id = { $id } na { $folder } přesunjena
