@@ -146,11 +146,11 @@ command-deop = { $commandName } &lt;userId&gt;: Stajće wužiwarja na woprawnjen
 # $commandName is the command name
 command-leave = { $commandName }: Aktualny rum wopušćić.
 # $commandName is the command name
-command-topic = { $commandName } &lt;topic&gt;: Nastaja temu za rum. Wužaduje sej prawa, zo by temu ruma změnił.
+command-topic = { $commandName } &lt;tema&gt;: Nastaja temu za rum. Wužaduje sej prawa, zo by temu ruma změnił.
 # $commandName is the command name
 command-unban = { $commandName } &lt;userId&gt;: Zběhńće wuhnaće wužiwarja, kotryž je so z ruma wuhnał. Wužaduje sej prawo za wuhnawanje wužiwarjow.
 # $commandName is the command name
-command-visibility = { $commandName } [&lt;visibility&gt;]: Stajće widźomnosć aktualneho ruma w aktualnym zapisu domjaceho serwera. Zapodajće cyłu ličbu, priwatny: 0 a zjawny: 1. Standard budźe priwatny (0), jeli argument podaty njeje. Wužaduje sej prawo za měnjenje rumoweje widźomnosće.
+command-visibility = { $commandName } [&lt;widźomnosć&gt;]: Stajće widźomnosć aktualneho ruma w aktualnym zapisu domjaceho serwera. Zapodajće cyłu ličbu, priwatny: 0 a zjawny: 1. Standard budźe priwatny (0), jeli argument podaty njeje. Wužaduje sej prawo za měnjenje rumoweje widźomnosće.
 # $commandName is the command name
 command-guest = { $commandName } &lt;guest access&gt; &lt;history visibility&gt;: Nastajće přistup a widźomnosć historije aktualneho ruma za hóstnych wužiwarjow. Zapodajće dwě cyłej ličbje, prěnja za hóstny přistup (njedowoleny: 0 a dowoleny: 1) a druha za widźomnosć historije (njewidźomny: 0 a widźomny: 1). Wužaduje sej prawo za měnjenje widźomnosće historije.
 # $commandName is the command name

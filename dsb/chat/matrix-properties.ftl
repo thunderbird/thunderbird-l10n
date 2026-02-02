@@ -132,11 +132,11 @@ detail-power = Wugbaśowe rowniny:
 #   These are the help messages for each command, the $commandName is the command name
 #   Each command first gives the parameter it accepts and then a description of
 #   the command.
-command-ban = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Wužeńśo wužywarja z userId z ruma z opcionalneju powěźeńku z pśicynu. Pomina se pšawo za wuganjanje wužywarjow.
+command-ban = { $commandName } &lt;userId&gt; [&lt;pćicyna&gt;]: Wužeńśo wužywarja z userId z ruma z opcionalneju powěźeńku z pśicynu. Pomina se pšawo za wuganjanje wužywarjow.
 # $commandName is the command name
 command-invite = { $commandName } &lt;userId&gt;: Wužywarja do ruma pśepšosyś.
 # $commandName is the command name
-command-kick = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: Chyśćo wužywarja z userId z ruma z opcionalneju powěźeńku z pśicynu wen. Pomina se pšawo za wuchyśenje wužywarjow.
+command-kick = { $commandName } &lt;userId&gt; [&lt;pśicyna&gt;]: Chyśćo wužywarja z userId z ruma z opcionalneju powěźeńku z pśicynu wen. Pomina se pšawo za wuchyśenje wužywarjow.
 # $commandName is the command name
 command-nick = { $commandName } &lt;display_name&gt;: Wašo zwobraznjeńske mě změniś.
 # $commandName is the command name
@@ -146,11 +146,11 @@ command-deop = { $commandName } &lt;userId&gt;: Nastajśo wužywarja na wopšawn
 # $commandName is the command name
 command-leave = { $commandName }: Aktualny rum spušćiś.
 # $commandName is the command name
-command-topic = { $commandName } &lt;topic&gt;: Nastajće temu za rum. Pomina se pšawa, aby temu ruma změnił.
+command-topic = { $commandName } &lt;tema&gt;: Nastajśo temu za rum. Pomina se pšawa, aby temu ruma změnił.
 # $commandName is the command name
-command-unban = { $commandName } &lt;userId&gt;: Wutpórajśo wugnaśe wužywarja, kótaryž jo se wugnał z ruma. Pomina se pšawo za wuganjanje wužywarjow.
+command-unban = { $commandName } &lt;userId&gt;: Wótpórajśo wugnaśe wužywarja, kótaryž jo se wugnał z ruma. Pomina se pšawo za wuganjanje wužywarjow.
 # $commandName is the command name
-command-visibility = { $commandName } [&lt;visibility&gt;]: Nastajśo widobnosć aktualnego ruma w aktualnem zapisu domacnego serwera. Zapódajśo cełu licbu, priwatny: 0 a zjawny: 1. Standard buźo priwatny (0), jolic argument njejo pódany. Pomina se pšawo za změnjanje rumoweje widobnosći.
+command-visibility = { $commandName } [&lt;widobnosć&gt;]: Nastajśo widobnosć aktualnego ruma w aktualnem zapisu domacnego serwera. Zapódajśo cełu licbu, priwatny: 0 a zjawny: 1. Standard buźo priwatny (0), jolic argument njejo pódany. Pomina se pšawo za změnjanje rumoweje widobnosći.
 # $commandName is the command name
 command-guest = { $commandName } &lt;guest access&gt; &lt;history visibility&gt;: Nastajśo pśistup a widobnosć historije aktualnego ruma za góstne wužywarje. Zapódajśo dwě cełej licbje, prědna za góstny pśistup (njedowólony: 0 a dowólony: 1) a druga za widobnosć historije (njewidobny: 0 a widobny: 1). Pomina se pšawo za změnjanje widobnosći historije.
 # $commandName is the command name
