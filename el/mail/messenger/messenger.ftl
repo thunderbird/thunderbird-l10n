@@ -197,6 +197,12 @@ redirect-msg-menuitem =
     .label = Ανακατεύθυνση
     .accesskey = κ
 
+## Shared Menu Items
+
+menu-move-to =
+    .label = Μετακίνηση σε
+    .accesskey = Μ
+
 ## AppMenu
 
 appmenu-save-as-file =
