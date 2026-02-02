@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = სხეული გადმოტანილ
 filter-action-log-tagged = ჭდეებიანი
 filter-action-log-ignore-subthread = მიმოწერის უგულებელყოფილი განშტოება
 filter-action-log-unread = მონიშნულია, როგორც წასაკითხი
+filter-editor-must-select-target-folder = აუცილებელია სასურველი საქაღალდის მითითება.
+filter-editor-enter-valid-email-forward = მიუთითეთ ელფოსტის მართებული მისამართი გადასაგზავნად.
+filter-editor-pick-template-reply = მიუთითეთ თარგი პასუხისთვის.
