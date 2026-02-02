@@ -12,7 +12,7 @@ matrix-username-hint = Matrix ID
 #   account wizard windows.
 options-save-token = Token za pristup trgovini
 options-device-display-name = Naziv za prikaz uređaja
-options-homeserver = Poslužitelj
+options-homeserver = Server
 options-backup-passphrase = Lozinka sigurnosne kopije ključa
 # LOCALIZATION NOTE (options-encryption-*):
 #   These are strings used to build the status information of the encryption
@@ -40,7 +40,7 @@ connection-request-access = Završavanje autorizacije
 # LOCALIZATION NOTE (connection-error-*):
 #   These will show in the account manager if an error occurs during the
 #   connection attempt.
-connection-error-no-supported-flow = Poslužitelj ne nudi kompatibilni tijek prijave.
+connection-error-no-supported-flow = Server ne nudi kompatibilni tijek prijave.
 connection-error-auth-cancelled = Prekinuli ste proces autorizacije.
 connection-error-session-ended = Sesija je odjavljena.
 # LOCALIZATION NOTE (chat-room-field-*):

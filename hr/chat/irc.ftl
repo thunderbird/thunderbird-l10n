@@ -11,10 +11,10 @@ irc-username-hint = nadimak
 #   These will show in the account manager if the account is
 #   disconnected because of an error.
 connection-error-lost = Izgubljena veza sa serverom
-connection-error-time-out = Istekla veza s poslužiteljem
+connection-error-time-out = Istekla veza sa serverom
 # $username (String) username
 connection-error-invalid-username = { $username } nije dozvoljeno korisničko ime
-connection-error-invalid-password = Netočna lozinka poslužitelja
+connection-error-invalid-password = Netočna lozinka z server
 connection-error-password-required = Potrebna je lozinka
 connection-error-invalid-user-password = Neispravna lozinka
 # LOCALIZATION NOTE (join-chat-*):
@@ -24,13 +24,13 @@ join-chat-password = _Lozinka
 # LOCALIZATION NOTE (options-*):
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
-options-server = Poslužitelj
+options-server = Server
 options-port = Priključak
 options-ssl = Koristi SSL
 options-encoding = Kodna stranica
 options-quit-message = Odlazna poruka
 options-part-message = Odjavna poruka
-options-show-server-tab = Prikaži poruke od poslužitelja
+options-show-server-tab = Prikaži poruke od servera
 options-alternate-nicks = Alternativni nadimci
 # LOCALIZATION NOTE (ctcp-version):
 #   $username is the nickname of the user whose version was requested.
@@ -62,7 +62,7 @@ command-join = { $commandName } &lt;soba1&gt;[ &lt;ključ1&gt;][,&lt;soba2&gt;[ 
 # $commandName is the command name
 command-kick = { $commandName } &lt;nadimak&gt; [&lt;poruka&gt;]: Uklanja nekoga iz kanala. Morate biti rukovoditelj kanala kako biste ovo uradili.
 # $commandName is the command name
-command-list = { $commandName }: Prikazuje popis soba za razgovor na mreži. Upozorenje, neki poslužitelji vas mogu isključiti nakon ove naredbe.
+command-list = { $commandName }: Prikazuje popis soba za razgovor na mreži. Upozorenje, neki serveri te mogu isključiti nakon ove naredbe.
 # $commandName is the command name
 command-memoserv = { $commandName } &lt;naredba&gt;: Šalje naredbu za MemoServ.
 # $commandName is the command name
@@ -84,13 +84,13 @@ command-operserv = { $commandName } &lt;naredba&gt;: Šalje naredbu za OperServ.
 # $commandName is the command name
 command-part = { $commandName } [poruka]: Napuštanje trenutnog kanala s mogućom porukom.
 # $commandName is the command name
-command-ping = { $commandName } [&lt;nadimak&gt;]: Šalje upit koliko kašnjenje ima korisnik (ili poslužitelj, ako nije određen korisnik).
+command-ping = { $commandName } [&lt;nadimak&gt;]: Šalje upit koliko kašnjenje ima korisnik (ili server, ako nije određen korisnik).
 # $commandName is the command name
-command-quit = { $commandName } &lt;poruka&gt;: Odjavljuje s poslužitelja, s mogućom porukom.
+command-quit = { $commandName } &lt;poruka&gt;: Prekini vezu sa serverom, s mogućom porukom.
 # $commandName is the command name
-command-quote = { $commandName } &lt;naredba&gt;: Šalje naredbu poslužitelju.
+command-quote = { $commandName } &lt;naredba&gt;: Šalje naredbu serveru.
 # $commandName is the command name
-command-time = { $commandName }: Prikazuje trenutno lokalno vrijeme IRC poslužitelja.
+command-time = { $commandName }: Prikazuje trenutno lokalno vrijeme IRC servera.
 # $commandName is the command name
 command-topic = { $commandName } [&lt;nova tema&gt;]: Prikazuje ili mijenja temu kanala.
 # $commandName is the command name
@@ -184,8 +184,8 @@ error-too-many-channels = Nije se moguće prijaviti u { $name }; prijavljeni ste
 error-nick-collision = Nadimak je već u upotrebi, mijenjanje nadimka u { $name } [{ $details }].
 #    $name is the nickname or channel name that isn't available.
 error-erroneous-nickname = { $name } nije dozvoljen nadimak.
-error-banned = Zabranjen vam je pristup na ovaj poslužitelj.
-error-banned-soon = Uskoro će vam biti zabranjen pristup na ovaj poslužitelj.
+error-banned = Zabranjen ti je pristup na ovaj server.
+error-banned-soon = Uskoro će ti biti zabranjen pristup na ovaj server.
 error-mode-wrong-user = Ne možete mijenjati načine za druge korisnike.
 #    $name is the nickname or channel name that isn't available.
 error-no-such-nick = { $name } nije na mreži.
@@ -217,7 +217,7 @@ error-send-message-failed = Došlo je do greške prilikom slanja vaše zadnje po
 error-channel-forward = Ne možete se prijaviti u { $name }, i automatski ste preusmjereni u { $details }.
 #    $mode is the mode that the user tried to set but was not recognized
 #    by the server as a valid mode.
-error-unknown-mode = '{ $mode }' nije ispravan korisnički način na ovom poslužitelju.
+error-unknown-mode = '{ $mode }' nije ispravan korisnički način na ovom serveru.
 # LOCALIZATION NOTE (tooltip-*):
 #    These are the descriptions given in a tooltip with information received
 #    from a whois response.

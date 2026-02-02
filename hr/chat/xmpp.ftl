@@ -19,7 +19,7 @@ connection-srv-lookup = Traženje SRV zapisa
 #   connection attempt.
 connection-error-invalid-username = Pogrešno korisničko ime (korisničko ime treba sadržavati znak '@')
 connection-error-failed-to-create-a-socket = Neuspješno stvaranje priključka (Jeste li izvan mreže?)
-connection-error-server-closed-connection = Poslužitelj je zatvorio vezu
+connection-error-server-closed-connection = Server je zatvorio vezu
 connection-error-reset-by-peer = Korisnik je prekinuo vezu
 connection-error-timed-out = Vezi je isteklo vrijeme
 connection-error-received-unexpected-data = Primljeni neočekivani podaci
@@ -27,15 +27,15 @@ connection-error-incorrect-response = Primljen pogrešan odgovor
 connection-error-start-tls-required = Server zahtijeva šifriranje, ali ti si to isključio/la
 connection-error-start-tls-not-supported = Server ne podržava šifriranje, ali tvoje postavke to zahtijevaju
 connection-error-failed-to-start-tls = Neuspjelo pokretanje šifriranja
-connection-error-no-auth-mec = Nikakav mehanizam provjere autentičnosti nije ponuđen od strane poslužitelja
-connection-error-no-compatible-auth-mec = Niti jedan od mehanizama provjere autentičnosti ponuđenih od strane poslužitelja nije podržan
-connection-error-not-sending-password-in-clear = Poslužitelj podržava jedino autentifikaciju slanjem lozinke kao običan tekst
+connection-error-no-auth-mec = Nikakav mehanizam provjere autentičnosti nije ponuđen od servera
+connection-error-no-compatible-auth-mec = Nijedan od servera ponuđenih mehanizama provjere autentičnosti nije podržan
+connection-error-not-sending-password-in-clear = Server podržava samo autentifikaciju slanjem lozinke kao običan tekst
 connection-error-authentication-failure = Neuspjela autentifikacija
 connection-error-not-authorized = Nije odobreno (Jeste li unjeli pogrešnu lozinku?)
 connection-error-failed-to-get-a-resource = Neuspješno dohvaćanje izvora
 connection-error-failed-max-resource-limit = Na ovaj račun je istovremeno spojeno s previše mjesta.
 connection-error-failed-resource-not-valid = Resurs nije ispravan.
-connection-error-xmpp-not-supported = Ovaj poslužitelj ne podržava XMPP
+connection-error-xmpp-not-supported = Ovaj server ne podržava XMPP
 # LOCALIZATION NOTE (conversation-error-not-delivered):
 #   This is displayed in a conversation as an error message when a message
 #   the user has sent wasn't delivered.
@@ -54,7 +54,7 @@ conversation-error-creation-failed-not-allowed = Ograničen pristup: Nemate dozv
 #   This is displayed in a conversation as an error message when remote server
 #   is not found.
 #   $mucName is the name of MUC room.
-conversation-error-join-failed-remote-server-not-found = Nije se moguće prijaviti u sobu { $mucName } jer poslužitelj na kojem se soba nalazi nije dostupan.
+conversation-error-join-failed-remote-server-not-found = Nije se moguće prijaviti u sobu { $mucName } jer server na kojem se soba nalazi nije dostupan.
 conversation-error-change-topic-failed-not-authorized = Niste ovlašteni postavljati temu za ovu sobu.
 #   This is displayed in a conversation as an error message when the user sends
 #   a message to a room that he is not in.
@@ -67,7 +67,7 @@ conversation-error-send-failed-as-not-inroom = Nije moguće poslati poruku { $mu
 #   $message is the text of the message that wasn't delivered.
 conversation-error-send-failed-as-recipient-not-inroom = Nije moguće poslati poruku { $jabberIdentifier } jer primatelj nije više u sobi: { $message }
 #   These are displayed in a conversation as a system error message.
-conversation-error-remote-server-not-found = Nije moguće dosegnuti poslužitelj primatelja.
+conversation-error-remote-server-not-found = Nije moguće dosegnuti server primatelja.
 conversation-error-unknown-send-error = Prilikom je slanja ove poruke došlo do (nepoznate) greške.
 #   $nick is the name of the message recipient.
 conversation-error-send-service-unavailable = Trenutno nije moguće poslati poruku korisniku: { $nick }
@@ -116,7 +116,7 @@ tooltip-telephone = Broj telefona
 #   character of the string should be used as the access key for this
 #   field.
 chat-room-field-room = _Soba
-chat-room-field-server = _Poslužitelj
+chat-room-field-server = _Server
 chat-room-field-nick = _Nadimak
 chat-room-field-password = _Lozinka
 # LOCALIZATION NOTE (conversation-muc-*):
@@ -245,7 +245,7 @@ options-connection-security = Sigurnost veze
 options-connection-security-require-encryption = Zahtijevaj šifriranje
 options-connection-security-opportunistic-tls = Koristi šifriranje, ako je dostupno
 options-connection-security-allow-unencrypted-auth = Dozvoli slanje nešifrirane lozinke
-options-connect-server = Poslužitelj
+options-connect-server = Server
 options-connect-port = Port
 options-domain = Domena
 # LOCALIZATION NOTE (*-protocol-name)
