@@ -3,6 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Dh'fhàillig an criathradh: "{ $errorMsg }" leis a' chòd mhearachd={ $errorCode } fhad 's a dh'fheuch sinn na leanas:
+filter-failure-sending-reply-error = Mearachd a’ cur na freagairt
+filter-failure-sending-reply-aborted = Sguireadh de chur na freagairt
+filter-failure-move-failed = Dh’fhàillig a ghluasad
+filter-failure-copy-failed = Dh’fhàillig an lethbhreac
+filter-failure-action = Cha deach leinn a’ chriathrag a chur an sàs
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
