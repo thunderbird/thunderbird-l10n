@@ -46,3 +46,6 @@ filter-action-log-pop3-fetch = viestirunko noudettiin POP3-palvelimelta
 filter-action-log-tagged = merkittiin avainsanalla
 filter-action-log-ignore-subthread = ohitettiin aliketju
 filter-action-log-unread = merkittiin ei luetuksi
+filter-editor-must-select-target-folder = Valitse kohdekansio.
+filter-editor-enter-valid-email-forward = Kirjoita sähköpostiosoite, johon viesti välitetään.
+filter-editor-pick-template-reply = Valitse vastauksen mallipohja.
