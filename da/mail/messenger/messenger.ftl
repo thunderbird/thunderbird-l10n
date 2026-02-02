@@ -198,6 +198,22 @@ redirect-msg-menuitem =
     .label = Omdiriger
     .accesskey = d
 
+## Shared Menu Items
+
+menu-move-again =
+    .label = Flyt igen
+move-to-folder-again-key =
+    .key = m
+menu-move-to =
+    .label = Flyt til
+    .accesskey = F
+menu-copy-to =
+    .label = Kopier til
+    .accesskey = K
+menu-move-copy-favorites =
+    .label = Favoritter
+    .accesskey = F
+
 ## AppMenu
 
 appmenu-save-as-file =
