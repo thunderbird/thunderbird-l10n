@@ -138,6 +138,12 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Помери у
     .accesskey = П
+menu-copy-to =
+    .label = Копирај у
+    .accesskey = У
+menu-move-copy-favorites =
+    .label = Омиљено
+    .accesskey = О
 
 ## AppMenu
 
