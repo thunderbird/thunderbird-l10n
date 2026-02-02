@@ -27,7 +27,33 @@ filter-failure-move-failed = Methodd y symud
 filter-failure-copy-failed = Methodd y copïo
 filter-failure-action = Methu gosod y weithred hidlo
 # Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Gosod hidl "{ $filterName }" i neges gan { $author } - { $subject } ar { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = symud enw'r neges = { $id } i { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = copïwyd enw neges = { $id } i { $folder }
+filter-missing-custom-action = Gweithred Cyfaddas Coll
+filter-action-log-priority = blaenoriaeth wedi newid
+filter-action-log-deleted = dilëwyd
+filter-action-log-read = marcio wedi darllen
+filter-action-log-kill = lladd edefyn
+filter-action-log-watch = edefyn yn cael ei wylio
+filter-action-log-starred = serenog
+filter-action-log-replied = atebwyd
+filter-action-log-forwarded = anfonwyd ymlaen
+filter-action-log-stop = atal gweithredu
+filter-action-log-pop3-delete = dilëwyd o'r gweinydd POP3
+filter-action-log-pop3-leave = gadawyd ar y gweinydd POP3
 filter-action-log-spam = sgôr sbam
+filter-action-log-pop3-fetch = estyn y corff o weinydd POP3
+filter-action-log-tagged = tagiwyd
+filter-action-log-ignore-subthread = anwybyddwyd is-edefyn
+filter-action-log-unread = wedi'i farcio heb ei darllen
