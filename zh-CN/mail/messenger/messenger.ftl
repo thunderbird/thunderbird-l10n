@@ -205,6 +205,12 @@ move-to-folder-again-key =
 menu-move-to =
     .label = 移动到
     .accesskey = M
+menu-copy-to =
+    .label = 复制到
+    .accesskey = C
+menu-move-copy-favorites =
+    .label = 我的收藏
+    .accesskey = F
 
 ## AppMenu
 
