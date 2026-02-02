@@ -201,6 +201,15 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Siirrä kansioon
     .accesskey = S
+menu-copy-to =
+    .label = Kopioi kansioon
+    .accesskey = K
+menu-move-copy-recent-destinations =
+    .label = Viimeisimmät kohteet
+    .accesskey = R
+menu-move-copy-favorites =
+    .label = Suosikit
+    .accesskey = o
 
 ## AppMenu
 
