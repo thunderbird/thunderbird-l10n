@@ -203,9 +203,30 @@ menu-move-again =
     .label = Displaciar de novo
 move-to-folder-again-key =
     .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Displaciar a "{ $folderName }" de novo
+    .accesskey = p
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Copiar a "{ $folderName }" de novo
+    .accesskey = p
 menu-move-to =
     .label = Mover a
     .accesskey = M
+menu-copy-to =
+    .label = Copiar a
+    .accesskey = C
+menu-move-copy-recent-destinations =
+    .label = Destinationes recente
+    .accesskey = r
+menu-move-copy-favorites =
+    .label = Favoritos
+    .accesskey = F
 
 ## AppMenu
 
