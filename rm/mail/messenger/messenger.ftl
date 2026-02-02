@@ -182,6 +182,10 @@ redirect-msg-menuitem =
 
 ## Shared Menu Items
 
+menu-move-again =
+    .label = Spustar danovamain
+move-to-folder-again-key =
+    .key = m
 # Variables:
 # $folderName (String) - The name of the folder to which the message(s) will be moved.
 # Note: The access key should be a letter that occurs before $folderName in the translated string.
@@ -200,6 +204,9 @@ menu-move-to =
 menu-copy-to =
     .label = Copiar en
     .accesskey = C
+menu-move-copy-recent-destinations =
+    .label = Destinaziuns recentas
+    .accesskey = D
 menu-move-copy-favorites =
     .label = Favurits
     .accesskey = F
