@@ -41,3 +41,6 @@ filter-action-log-pop3-fetch = Tafekka tettunadi seg uqeddac POP3
 filter-action-log-tagged = yettwabzem
 filter-action-log-ignore-subthread = asqerdec asnawan yettwazgel
 filter-action-log-unread = Yettwacrad ur yettwaɣri ara
+filter-editor-must-select-target-folder = Yessefk ad tferneḍ akaram asaḍas.
+filter-editor-enter-valid-email-forward = Fren tansa imayl tameɣtut aniɣer ad twelheḍ
+filter-editor-pick-template-reply = Fren taneɣruft s wayes ara terred
