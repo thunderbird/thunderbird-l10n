@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = body fetched from POP3 server
 filter-action-log-tagged = tagged
 filter-action-log-ignore-subthread = ignored subthread
 filter-action-log-unread = marked as unread
+filter-editor-must-select-target-folder = You must select a target folder.
+filter-editor-enter-valid-email-forward = Enter a valid email address to forward to.
+filter-editor-pick-template-reply = Choose a template to reply with.
