@@ -60,19 +60,19 @@ paste-tasks-also = Wašo zasajźenje pśipokazane nadawki wopśimujo
 paste-items-also = Wašo zasajźenje zamakanja a pśipokazane nadawki wopśimujo
 # LOCALIZATION NOTE (paste-event-only): The users is pasting a meeting -
 # this is used as a affix in paste-notify-about
-paste-event-only = Zasajźujoš zmakanje
+paste-event-only = Zasajźujośo zmakanje
 # LOCALIZATION NOTE (paste-events-only): The users is pasting several meetings -
 # this is used as a affix in paste-notify-about
-paste-events-only = Zasajźujoš zmakanja
+paste-events-only = Zasajźujośo zmakanja
 # LOCALIZATION NOTE (paste-event-only): The users is pasting an assigned task -
 # this is used as a affix in paste-notify-about
-paste-task-only = Zasajźujoš pśipokazany nadawk
+paste-task-only = Zasajźujośo pśipokazany nadawk
 # LOCALIZATION NOTE (paste-events-only): The users is pasting several assigned
 # tasks - this is used as a affix in paste-notify-about
-paste-tasks-only = Zasajźujoš pśipokazane nadawki
+paste-tasks-only = Zasajźujośo pśipokazane nadawki
 # LOCALIZATION NOTE (paste-events-only): The users is pasting assigned task(s) and
 # meeting(s) - this is used as a affix in paste-notify-about
-paste-items-only = Zasajźujoš zmakanja a pśipokazane nadawki
+paste-items-only = Zasajźujośo zmakanja a pśipokazane nadawki
 # LOCALIZATION NOTE (paste-notify-about): Text displayed if pasting an invitation
 # or assigned task
 # $pasteItem - pasteEvent* or pasteTask*
@@ -106,9 +106,9 @@ timezone-error = Njeznata a njedefiněrowana casowa cona jo se pśi cytanju { $f
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
     { $count ->
-        [one] { $count } zapiskow jo se ignorěrowało, dokulaž eksistěrujo ako w celowem kalenderu tak teke w { $filePath }.
+        [one] { $count } zapisk jo se ignorěrował, dokulaž eksistěrujo ako w celowem kalenderu tak teke w { $filePath }.
         [two] { $count } zapiska stej se ignorěrowałej, dokulaž eksistěrujotej ako w celowem kalenderu tak teke w { $filePath }.
-        [few] { $count } zapiski si se ignorěrowali, dokulaž eksistěruju ako w celowem kalenderu tak teke w { $filePath }.
+        [few] { $count } zapiski su se ignorěrowali, dokulaž eksistěruju ako w celowem kalenderu tak teke w { $filePath }.
        *[other] { $count } zapiskow jo se ignorěrowało, dokulaž eksistěruju ako w celowem kalenderu tak teke w { $filePath }.
     }
 # $location unknown calendar location
