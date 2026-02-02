@@ -5,6 +5,20 @@
 rule-menuitem-spam =
     .label = Spam
 # Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = "{ $filterName }" iragazkia mezu honetara aplikatuta: { $author } - { $subject } - { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = { $folder }(e)ra lekuz aldatutako mezu-IDa = { $id }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = { $folder }(e)ra kopiatutako mezu-IDa = { $id }
+filter-missing-custom-action = Pertsonalizatutako ekintza falta da
+filter-action-log-priority = lehentasuna aldatuta
+filter-action-log-deleted = ezabatuta
+filter-action-log-read = irakurrita gisa markatuta
