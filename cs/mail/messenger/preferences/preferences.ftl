@@ -190,7 +190,7 @@ remove-search-engine =
     .label = Odebrat
     .accesskey = r
 add-opensearch-provider-title = Přidat poskytovatele OpenSearch
-add-opensearch-provider-text = Zadejte URL adresu poskytovatele OpenSearch, kterého chcete přidat. Použijte buď přímou adresu popisného souboru OpenSearch, nebo adresu, kde ho lze automaticky zjistit.
+add-opensearch-provider-text = Zadejte adresu URL poskytovatele OpenSearch, kterého chcete přidat. Použijte buď přímou adresu popisného souboru OpenSearch, nebo adresu, kde ho lze automaticky zjistit.
 adding-opensearch-provider-failed-title = Přidání poskytovatele OpenSearch se nezdařilo
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
