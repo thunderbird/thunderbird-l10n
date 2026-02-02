@@ -41,3 +41,6 @@ filter-action-log-pop3-fetch = laiško tekstas paimtas iš POP3 serverio
 filter-action-log-tagged = priskirta gairė
 filter-action-log-ignore-subthread = nepaisoma gijos atšaka
 filter-action-log-unread = pažymėtas kaip neskaitytas
+filter-editor-must-select-target-folder = Reikia pasirinkti paskirties aplanką.
+filter-editor-enter-valid-email-forward = Įrašykite teisingą el. pašto adresą.
+filter-editor-pick-template-reply = Atsakymui pasirinkite šabloną.
