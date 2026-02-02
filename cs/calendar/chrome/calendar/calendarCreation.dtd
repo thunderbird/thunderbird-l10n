@@ -29,7 +29,7 @@
 <!ENTITY buttons.subscribe.accesskey "O">
 <!ENTITY calendartype.label "Typ kalendáře:">
 <!ENTITY location.label "Adresa:">
-<!ENTITY location.placeholder "URL nebo jméno hostitele kalendářového serveru">
+<!ENTITY location.placeholder "Adresa URL nebo název hostitele kalendářového serveru">
 <!ENTITY network.nocredentials.label "Toto umístění nevyžaduje přihlašovací údaje">
 <!ENTITY network.loading.description "Počkejte prosím než budou nalezeny vaše kalendáře.">
 <!ENTITY network.notfound.description "Kalendáře se v tomto umístění nepodařilo najít. Zkontrolujte prosím svá nastavení.">
