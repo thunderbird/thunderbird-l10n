@@ -196,6 +196,12 @@ redirect-msg-menuitem =
     .label = 重定向
     .accesskey = D
 
+## Shared Menu Items
+
+menu-move-to =
+    .label = 移动到
+    .accesskey = M
+
 ## AppMenu
 
 appmenu-save-as-file =
