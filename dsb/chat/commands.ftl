@@ -19,7 +19,7 @@ help-help-string = help &lt;mě&gt;: informaciju pomocy za pśikaz &lt;mě&gt; p
 #  $command (String): is replaced with a status command name (one of "back-key-key", "away-key-key", "busy-key-key", "dnd-key-key", or "offline-key-key").
 #  $status (String): is replaced with the localized version of that status type (one of the 5 strings below).
 status-command = { $command } &lt;statusowa powěźeńka&gt;: staja status na { $status } z opcionalneju statusoweju powěźeńku.
-back-key-key = stoj k dispoziciji
+back-key-key = jo k dispoziciji
 away-key-key = njepśibytny
 busy-key-key = źěła
 dnd-key-key = pšosym njemóliś
