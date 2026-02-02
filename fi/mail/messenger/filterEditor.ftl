@@ -7,6 +7,15 @@ rule-menuitem-spam =
 rule-menuitem-not-spam =
     .label = Ei roskapostia
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Suodatintoiminto epäonnistui: "{ $errorMsg }" virhekoodilla={ $errorCode } yritettäessä:
+filter-failure-sending-reply-error = Virhe vastauksen lähettämisessä
+filter-failure-sending-reply-aborted = Vastauksen lähettäminen keskeytettiin
+filter-failure-move-failed = Siirtäminen epäonnistui
+filter-failure-copy-failed = Kopiointi epäonnistui
+filter-failure-action = Suodatustoiminto epäonnistui
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
