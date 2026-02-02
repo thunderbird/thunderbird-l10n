@@ -18,7 +18,33 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Đã phát hiện thư rác từ { $author } - { $subject } vào lúc { $date }
 # Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Đã áp dụng bộ lọc "{ $filterName }" vào thư từ { $author } - { $subject } vào lúc { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = đã di chuyển thư id = { $id } tới { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = đã sao chép thư id = { $id } đến { $folder }
+filter-missing-custom-action = Thiếu hành động tùy chỉnh
+filter-action-log-priority = mức ưu tiên đã thay đổi
+filter-action-log-deleted = đã xóa
+filter-action-log-read = đã đánh dấu là đã đọc
+filter-action-log-kill = chủ đề đã xóa
+filter-action-log-watch = chủ đề đã xem
+filter-action-log-starred = đã gắn dấu sao
+filter-action-log-replied = đã trả lời
+filter-action-log-forwarded = đã chuyển tiếp
+filter-action-log-stop = thực thi bị dừng
+filter-action-log-pop3-delete = đã xóa khỏi máy chủ POP3
+filter-action-log-pop3-leave = để trên máy chủ POP3
 filter-action-log-spam = điểm thư rác
+filter-action-log-pop3-fetch = nội dung được lấy từ máy chủ POP3
+filter-action-log-tagged = đã dán nhãn
+filter-action-log-ignore-subthread = chủ đề con đã bỏ qua
+filter-action-log-unread = đánh dấu là chưa đọc
