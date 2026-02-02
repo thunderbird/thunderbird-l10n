@@ -203,6 +203,12 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Gluais gu
     .accesskey = G
+menu-copy-to =
+    .label = Cuir lethbhreac gu
+    .accesskey = C
+menu-move-copy-favorites =
+    .label = Annsachdan
+    .accesskey = F
 
 ## AppMenu
 
