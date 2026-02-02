@@ -117,6 +117,18 @@ menu-move-again =
     .label = Tisilöx Chik
 move-to-folder-again-key =
     .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Tisilöx pa "{ $folderName }" Jumul chik
+    .accesskey = p
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Tiwachib'ëx pa "{ $folderName }" Jumul chik
+    .accesskey = p
 menu-move-to =
     .label = Tiq'asäx Pa
     .accesskey = T
