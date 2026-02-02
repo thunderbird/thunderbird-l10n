@@ -18,7 +18,42 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = ตรวจพบสแปมจาก { $author } - { $subject } เมื่อ { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = การกระทำตัวกรองล้มเหลว: "{ $errorMsg }" ด้วยรหัสผิดพลาด={ $errorCode } ขณะพยายาม:
+filter-failure-sending-reply-error = เกิดข้อผิดพลาดในการส่งการตอบกลับ
+filter-failure-sending-reply-aborted = การส่งการตอบกลับถูกยกเลิก
+filter-failure-move-failed = การย้ายล้มเหลว
+filter-failure-copy-failed = การคัดลอกล้มเหลว
+filter-failure-action = เกิดความล้มเหลวในขณะที่กำลังนำการกระทำของตัวกรองไปใช้
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = นำตัวกรอง "{ $filterName }" ไปใช้กับข้อความจาก { $author } - { $subject } เมื่อ { $date } แล้ว
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = ย้าย id ข้อความแล้ว = { $id } ไปยัง { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = คัดลอก id ข้อความแล้ว = { $id } ไปยัง { $folder }
+filter-missing-custom-action = การกระทำที่กำหนดเองขาดหายไป
+filter-action-log-priority = เปลี่ยนแปลงลำดับความสำคัญแล้ว
+filter-action-log-deleted = ลบแล้ว
+filter-action-log-read = ทำเครื่องหมายว่าอ่านแล้ว
+filter-action-log-kill = ทำลายเธรดแล้ว
+filter-action-log-watch = เฝ้าดูเธรดแล้ว
+filter-action-log-starred = ติดดาวแล้ว
+filter-action-log-replied = ตอบกลับแล้ว
+filter-action-log-forwarded = ส่งต่อแล้ว
+filter-action-log-stop = หยุดการดำเนินการแล้ว
+filter-action-log-pop3-delete = ลบจากเซิร์ฟเวอร์ POP3 แล้ว
+filter-action-log-pop3-leave = เหลืออยู่บนเซิร์ฟเวอร์ POP3
 filter-action-log-spam = คะแนนสแปม
+filter-action-log-pop3-fetch = ดึงเนื้อความจากเซิร์ฟเวอร์ POP3 แล้ว
+filter-action-log-tagged = ติดแท็กแล้ว
+filter-action-log-ignore-subthread = เพิกเฉยเธรดย่อยแล้ว
+filter-action-log-unread = ทำเครื่องหมายว่ายังไม่ได้อ่าน
