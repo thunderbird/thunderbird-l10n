@@ -269,7 +269,7 @@ message-verification-cancel2 = { $user } jo anulěrował wobkšuśenje ze slědu
 message-verification-done = Pśeglědanje jo dokóńcone.
 message-decryption-error = Wopśimjeśe toś teje powěsći njedajo se dešifrěrowaś. Aby koděrowańske kluce ze swójich drugich rědow pominał, kliknišo z pšaweju tastu na powěsć.
 message-decrypting = Dešifrěrujo se…
-message-redacted = Powěsć jo se wucyniła k njepóznaśeju.
+message-redacted = Powěsć jo se redigěrowała.
 #    $userThatReacted is the username of the user that reacted.
 #    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
 #    $reaction is the content (typically an emoji) of the reaction.
