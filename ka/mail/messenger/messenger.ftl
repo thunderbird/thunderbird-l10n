@@ -197,6 +197,9 @@ menu-move-to-folder-again =
 menu-copy-to-folder-again =
     .label = კვლავ ასლის აღება – "{ $folderName }"
     .accesskey = კ
+menu-move-to =
+    .label = გადატანა
+    .accesskey = ტ
 
 ## AppMenu
 
