@@ -212,6 +212,9 @@ menu-move-to-folder-again =
 menu-copy-to-folder-again =
     .label = "{ $folderName }" klasörüne yeniden kopyala
     .accesskey = d
+menu-move-to =
+    .label = Taşı
+    .accesskey = T
 
 ## AppMenu
 
