@@ -72,6 +72,24 @@ menu-move-again =
     .label = Повторно премести
 move-to-folder-again-key =
     .key = м
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Повторно премести во „{ $folderName }“
+    .accesskey = т
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Повторно копирај во „{ $folderName }“
+    .accesskey = т
+menu-move-to =
+    .label = Премести во
+    .accesskey = м
+menu-copy-to =
+    .label = Копирај во
+    .accesskey = К
 
 ## AppMenu
 
