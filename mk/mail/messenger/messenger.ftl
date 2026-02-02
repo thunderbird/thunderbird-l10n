@@ -3,11 +3,41 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Window controls
+
+
+## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
+## Toolbar
+
+
+## Folder Pane
+
+
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Етикети
     .accesskey = т
+
+## Folder names
+
+
+## File Menu
+
 
 ## Edit Menu
 
@@ -33,11 +63,63 @@ menu-edit-undelete-messages =
         }
     .accesskey = д
 
+## Message Menu
+
+
+## Shared Menu Items
+
+menu-move-again =
+    .label = Повторно премести
+move-to-folder-again-key =
+    .key = м
+
+## AppMenu
+
+
 ## Context menu
 
 mail-context-menu-forward-forward =
     .label = Препрати
     .accesskey = р
+
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
+## Add-on removal warning
+
+
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
+
+## Quick Filter Bar
+
+
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
 
 ## Message menu.
 
@@ -45,6 +127,18 @@ mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -71,3 +165,9 @@ message-group-no-attachments = Без прилози
 message-group-attachments = Прилози
 message-group-not-starred = Не набљудувана
 message-group-starred = Набљудувани
+
+## Prompts
+
+
+## Spam commands
+
