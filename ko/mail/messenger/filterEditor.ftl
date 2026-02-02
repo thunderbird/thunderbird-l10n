@@ -41,3 +41,6 @@ filter-action-log-pop3-fetch = POP3 서버에서 본문 가져오기
 filter-action-log-tagged = 태그 추가하기
 filter-action-log-ignore-subthread = 하위 글타래 무시
 filter-action-log-unread = 읽지않음 표시
+filter-editor-must-select-target-folder = 타겟 폴더를 선택해야 합니다.
+filter-editor-enter-valid-email-forward = 전달할 정확한 메일 주소를 선택하십시오.
+filter-editor-pick-template-reply = 회신에 사용할 양식을 선택하십시오.
