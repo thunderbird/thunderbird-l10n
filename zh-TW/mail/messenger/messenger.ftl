@@ -217,6 +217,12 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = 移至
     .accesskey = M
+menu-copy-to =
+    .label = 複製到
+    .accesskey = C
+menu-move-copy-favorites =
+    .label = 我的最愛
+    .accesskey = F
 
 ## AppMenu
 
