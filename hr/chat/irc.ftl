@@ -10,7 +10,7 @@ irc-username-hint = nadimak
 # LOCALIZATION NOTE (connection-error-*):
 #   These will show in the account manager if the account is
 #   disconnected because of an error.
-connection-error-lost = Izgubljena veza s poslužiteljem
+connection-error-lost = Izgubljena veza sa serverom
 connection-error-time-out = Istekla veza s poslužiteljem
 # $username (String) username
 connection-error-invalid-username = { $username } nije dozvoljeno korisničko ime

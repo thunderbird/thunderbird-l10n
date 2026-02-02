@@ -5,7 +5,7 @@
 <!ENTITY wizard.title "Stvori novi kalendar">
 <!ENTITY wizard.label "Stvori novi kalendar">
 <!ENTITY wizard.description "Pronađite svoj kalendar">
-<!ENTITY initialpage.description "Kalendar može biti spremljen na vašem računalu ili na poslužitelju kako biste mu mogli pristupiti od bilo kuda ili ga dijeliti sa svojim prijateljima ili suradnicima.">
+<!ENTITY initialpage.description "Kalendar može biti spremljen na tvom računalu ili na serveru kako biste mu mogli pristupiti od bilo kuda ili ga dijeliti sa svojim prijateljima ili suradnicima.">
 <!ENTITY initialpage.computer.label "Na mom računalu">
 <!ENTITY initialpage.network.label "Na mreži">
 <!ENTITY locationpage.description "Navedite potrebne informacije za pristup vašem udaljenom kalendaru">
@@ -29,7 +29,7 @@
 <!ENTITY buttons.subscribe.accesskey "s">
 <!ENTITY calendartype.label "Tip kalendara:">
 <!ENTITY location.label "Lokacija:">
-<!ENTITY location.placeholder "URL ili adresa kalendarskog poslužitelja">
+<!ENTITY location.placeholder "URL ili adresa kalendarskog servera">
 <!ENTITY network.nocredentials.label "Ova lokacija ne zahtjeva prijavu">
 <!ENTITY network.loading.description "Pričekajte dok otkrivamo dostupne kalendare.">
 <!ENTITY network.notfound.description "Nije moguće pronaći kalendare na ovoj lokaciji. Provjerite postavke.">

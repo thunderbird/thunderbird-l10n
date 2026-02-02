@@ -208,10 +208,10 @@ minor-error = Došlo je do greške prilikom čitanja podataka za kalendar: { $na
 still-read-only-error = Došlo je do greške prilikom čitanja podataka za kalendar: { $name }.
 utf8-decode-error = Dogodila se greška prilikom dekodiranja iCalendar (ics) datoteke kao UTF-8. Provjeri da li je datoteka, uključujući simbole i znakove s kvačicama, kodirana koristeći UTF-8 kodnu stranicu.
 ics-malformed-error = Sintaktička analiza iCalendar (ics) datoteke nije uspjela. Provjerite da li se datoteka pridržava iCalendar (ics) sintaksi.
-item-modified-on-server-title = Stavka promijenjena na poslužitelju
-item-modified-on-server = Ova stavka je nedavno promijenjena na poslužitelju.
-modify-will-lose-data = Slanje vaših promjena će prebrisati promjene napravljene na poslužitelju.
-delete-will-lose-data = Brisanje ove stavke će uzrokovati gubitak promjena napravljenih na poslužitelju.
+item-modified-on-server-title = Stavka promijenjena na serveru
+item-modified-on-server = Ova je stavka nedavno promijenjena na serveru.
+modify-will-lose-data = Slanje tojih promjena će prepisati promjene napravljene na serveru.
+delete-will-lose-data = Brisanje ove stavke će uzrokovati gubitak promjena napravljenih na serveru.
 calendar-conflicts-dialog =
     .buttonlabelcancel = Zanemari moje promjene i ponovno učitaj
 proceed-modify =
@@ -222,8 +222,8 @@ proceed-delete =
 dav-not-dav = Izvor na { $name } ili nije DAV zbirka ili nije dostupan
 # $name calendar name
 dav-dav-not-cal-dav = Izvor na { $name } je DAV zbirka, ali nije CalDAV kalendar
-item-put-error = Došlo je do pogreške u spremanju stavke na poslužitelj.
-item-delete-error = Došlo je do pogreške u brisanju stavke s poslužitelja.
+item-put-error = Došlo je do greške u spremanju stavke na server.
+item-delete-error = Došlo je do greške u brisanju stavke sa servera.
 cal-dav-request-error = Došlo je do pogreške prilikom slanja pozivnice.
 cal-dav-response-error = Došlo je do pogreške prilikom slanja odgovora.
 # $statusCode status code
@@ -234,9 +234,9 @@ cal-dav-request-status-code-string-403 = Korisnik nema potrebna dopuštenja za i
 cal-dav-request-status-code-string-404 = Izvor nije pronađen.
 cal-dav-request-status-code-string-409 = Sukob izvora.
 cal-dav-request-status-code-string-412 = Neuspjela pretpostavka.
-cal-dav-request-status-code-string-500 = Interna greška poslužitelja.
+cal-dav-request-status-code-string-500 = Interna greška servera.
 cal-dav-request-status-code-string-502 = Loše povezivanje (Proxy postavke?).
-cal-dav-request-status-code-string-503 = Interna greška poslužitelja (privremeni prekid rada poslužitelja?).
+cal-dav-request-status-code-string-503 = Interna greška servera (privremeni prekid rada servera?).
 # $name name of calendar
 cal-dav-redirect-title = Ažurirati lokaciju za kalendar { $name }?
 # $name name of calendar

@@ -37,8 +37,8 @@
      lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "Za sada, možete omogućiti ovo nakon što podesite ovaj kalendar unutar njegovih postavki ako se kalendarski poslužitelj pobrinuo za zakazivanje.">
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Ova mogućnost je dostupna samo ako je kalendarski poslužitelj zadužen za zakazivanje. Omogućavanjem ćete omogućiti povratak na uobičajeno zakazivanje preko e-pošte umjesto da to prepustite poslužitelju.">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "Za sada se ovo može aktivirati nakon što podesiš ovaj kalendar unutar njegovih postavki ako se kalendarski server brine o planiranju.">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Ova je opcija dostupna samo ako je kalendarski server zadužen za planiranje. Aktiviranje opcije omogućuje povratak na uobičajeno planiranje putem e-pošte umjesto da to prepustiš serveru.">
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label "Obavijesti">
 <!ENTITY lightning.calendarproperties.globalNotifications.label "Postavke globalnih obavijesti …">

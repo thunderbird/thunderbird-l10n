@@ -74,7 +74,7 @@ command-msg = { $commandName } &lt;pśimě&gt; &lt;powěsć&gt;: Wužywarjeju pr
 # $commandName is the command name
 command-nick = { $commandName } &lt;nowe pśimě&gt;: Wašo pśimě změniś.
 # $commandName is the command name
-command-nickserv = { $commandName } &lt;pśikaz&gt;: Pśikaza na NickServ pósłaś.
+command-nickserv = { $commandName } &lt;pśikaz&gt;: Pśikaz na NickServ pósłaś.
 # $commandName is the command name
 command-notice = { $commandName } &lt;cel&gt; &lt;powěsć&gt;: Wužywarjeju abo kanaloju powěźeńku pósłaś.
 # $commandName is the command name
