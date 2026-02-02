@@ -18,7 +18,19 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = 迷惑メールを検出しました。差出人: { $author } 件名: { $subject } 日時: { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = フィルター処理失敗: "{ $errorMsg }" 適用中のエラーコード={ $errorCode }:
+filter-failure-sending-reply-error = 返信時にエラーが発生しました
+filter-failure-sending-reply-aborted = 返信を中止しました
+filter-failure-move-failed = 移動に失敗しました
+filter-failure-copy-failed = コピーに失敗しました
+filter-failure-action = フィルターの適用に失敗しました
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = メッセージを移動しました。メッセージ ID: { $id } 移動先: { $folder }
 filter-action-log-spam = 迷惑メールスコアを設定しました
+filter-editor-must-select-target-folder = フォルダーを選択してください。
+filter-editor-enter-valid-email-forward = 正しい転送先メールアドレスを入力してください。
+filter-editor-pick-template-reply = 適用するテンプレートを選択してください。
