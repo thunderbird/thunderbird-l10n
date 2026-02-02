@@ -3,6 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Զտիչի գործույթի ձախողում. "{ $errorMsg }"՝ սխալի կոդ={ $errorCode }.
+filter-failure-sending-reply-error = Պատասխան ուղարկելու սխալ
+filter-failure-sending-reply-aborted = Պատասխանի ուղարկումը դադարեցվել է
+filter-failure-move-failed = Տեղափոխումը ձախողվեց
+filter-failure-copy-failed = Պատճենման ձախողում
+filter-failure-action = Չհաջողվեց կիրառել զտիչի գործողությունը
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
