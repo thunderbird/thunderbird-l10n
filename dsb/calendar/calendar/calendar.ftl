@@ -147,7 +147,7 @@ calendar-none =
 # LOCALIZATION NOTE (too-new-schema-error-text):
 #    $hostApplication will be replaced with the name of the host application, e.g. 'Thunderbird'
 #    $fileName will be replaced with the name of the new copy of the file, e.g. 'local-2020-05-11T21-30-17.sqlite'
-too-new-schema-error-text = Waše kalenderowe daty njejsu kompatibelne z wersiju { $hostApplication }. Kalenderowe daty we wašom profilu su se zaktualizěrowali pśez nowšu wersiju { $hostApplication }. Zawěsćenje datoweje dataje z mjenim „{ $fileName }“ jo se napórało. Pókšacujo se z nowo napóranejuj datoweju dataju.
+too-new-schema-error-text = Waše kalenderowe daty njejsu kompatibelne z wersiju { $hostApplication }. Kalenderowe daty we wašom profilu su se zaktualizěrowali pśez nowšu wersiju { $hostApplication }. Zawěsćenje datoweje dataje z mjenim „{ $fileName }“ jo se napórało. Pókšacujo se z nowo napóraneju datoweju dataju.
 # List of events or todos (unifinder)
 event-untitled = Bźez titela
 # Tooltips of events or todos
