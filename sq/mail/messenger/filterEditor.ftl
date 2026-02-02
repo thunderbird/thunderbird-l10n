@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = lëndë e sjellë prej shërbyesi POP3
 filter-action-log-tagged = etiketuar
 filter-action-log-ignore-subthread = nënrrjedhë e shpërfillur
 filter-action-log-unread = e shënuar si e palexuar
+filter-editor-must-select-target-folder = Duhet të përzgjidhni një dosje objektiv.
+filter-editor-enter-valid-email-forward = Jepni për përcjellje një adresë të vlefshme email.
+filter-editor-pick-template-reply = Zgjidhni gjedhe sipas së cilës të përgjigjet.
