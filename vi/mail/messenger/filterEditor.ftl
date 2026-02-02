@@ -18,6 +18,15 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Đã phát hiện thư rác từ { $author } - { $subject } vào lúc { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Hành động lọc không thành công: "{ $errorMsg }" với mã lỗi={ $errorCode } trong khi thử:
+filter-failure-sending-reply-error = Lỗi khi gửi trả lời
+filter-failure-sending-reply-aborted = Đã hủy gửi trả lời
+filter-failure-move-failed = Di chuyển thất bại
+filter-failure-copy-failed = Sao chép thất bại
+filter-failure-action = Không thể áp dụng hành động lọc
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
