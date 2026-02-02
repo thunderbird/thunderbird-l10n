@@ -218,6 +218,12 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Қайда жылжыту
     .accesskey = й
+menu-copy-to =
+    .label = Қайда көшіріп алу
+    .accesskey = к
+menu-move-copy-favorites =
+    .label = Таңдамалы
+    .accesskey = Т
 
 ## AppMenu
 
