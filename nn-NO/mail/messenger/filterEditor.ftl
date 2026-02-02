@@ -18,7 +18,45 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Oppdaga søppelpost frå { $author } - { $subject } den { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Filterhandling mislukkast: "{ $errorMsg }" med feilkode={ $errorCode } ved freistnad på:
+filter-failure-sending-reply-error = Feil ved sending av svar
+filter-failure-sending-reply-aborted = Sending av svar avbrote
+filter-failure-move-failed = Flytting mislykkast
+filter-failure-copy-failed = Mislykka kopiering
+filter-failure-action = Kunne ikkje bruka filterhandlinga
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Køyrde filteret «{ $filterName }» på meldinga frå { $author } - { $subject } på { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = flytta meldings-ID = { $id } til { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = kopierte meldings-ID = { $id } til { $folder }
+filter-missing-custom-action = Manglar eigendefinert handling
+filter-action-log-priority = prioritet endra
+filter-action-log-deleted = sletta
+filter-action-log-read = markerte som lesne
+filter-action-log-kill = tråd avslutta
+filter-action-log-watch = tråd overvaka
+filter-action-log-starred = stjernemarkert
+filter-action-log-replied = svart på
+filter-action-log-forwarded = vidaresendt
+filter-action-log-stop = utføring stoppa
+filter-action-log-pop3-delete = sletta frå POP3-server
+filter-action-log-pop3-leave = lagt att på POP3-server
 filter-action-log-spam = Søppelpostpoeng
+filter-action-log-pop3-fetch = meldingskropp henta frå POP3-server
+filter-action-log-tagged = med merkelapp
+filter-action-log-ignore-subthread = ignorert deltråd
+filter-action-log-unread = markert som ulesen
+filter-editor-must-select-target-folder = Du må velje ei målmappe.
+filter-editor-enter-valid-email-forward = Skriv inn ei gyldig e-postadresse å vidaresende til.
+filter-editor-pick-template-reply = Vel ein mal å svare med.

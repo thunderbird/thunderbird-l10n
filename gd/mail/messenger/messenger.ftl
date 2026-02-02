@@ -131,6 +131,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Sealladh dùmhail
     .accesskey = S
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -178,6 +181,34 @@ menu-edit-newsgroup-properties =
 redirect-msg-menuitem =
     .label = Ath-stiùirich
     .accesskey = A
+
+## Shared Menu Items
+
+menu-move-again =
+    .label = Gluais a-rithist
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Gluais gu "{ $folderName }" a-rithist
+    .accesskey = t
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Cuir lethbhreac dheth gu "{ $folderName }" a-rithist
+    .accesskey = t
+menu-move-to =
+    .label = Gluais gu
+    .accesskey = G
+menu-copy-to =
+    .label = Cuir lethbhreac gu
+    .accesskey = C
+menu-move-copy-favorites =
+    .label = Annsachdan
+    .accesskey = F
 
 ## AppMenu
 
@@ -275,6 +306,9 @@ no-reply-title = Chan eil taic ri freagairtean
 # $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Tha coltas nach eil duine sam bith a’ cumail sùil air an t-seòladh airson freagairtean, { $email }, agus tha e cha mhòr cinnteach nach leugh duine sam bith teachdaireachdan a chuirear gun t-seòladh seo.
 no-reply-reply-anyway-button = Cuir an fhreagairt co-dhiù
+
+## error messages
+
 
 ## Spaces toolbar
 
@@ -387,12 +421,27 @@ openpgp-forget = Dìochuimhnich abairtean-faire OpenPGP
 quota-panel-percent-used = { $percent }% làn
     .title = Cuòta IMAP: { $usage } à { $limit } air a chleachdadh uile gu lèir
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -426,3 +475,9 @@ message-group-starred = Le rionnag ris
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
+
+## Prompts
+
+
+## Spam commands
+

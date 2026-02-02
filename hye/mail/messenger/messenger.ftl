@@ -91,6 +91,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ամփոփ տեսք
     .accesskey = Ա
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -135,6 +138,34 @@ menu-edit-newsgroup-properties =
 redirect-msg-menuitem =
     .label = Վերահասցէաւորել
     .accesskey = հ
+
+## Shared Menu Items
+
+menu-move-again =
+    .label = Կրկին տեղափոխել
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Տեղափոխուէք { $folderName } նորից
+    .accesskey = տ
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Պատճէնել { $folderName }֊ում  կրկին
+    .accesskey = Պ
+menu-move-to =
+    .label = Տեղափոխել՝
+    .accesskey = Տ
+menu-copy-to =
+    .label = Պատճէնել՝
+    .accesskey = Պ
+menu-move-copy-favorites =
+    .label = Ընտրեալներ
+    .accesskey = Ը
 
 ## AppMenu
 
@@ -209,6 +240,9 @@ no-reply-title = Պատասխանը չի աջակցուում
 # $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = Պատասխանի հասցէն ({ $email }) կարծէս վերահսկուող հասցէ չէ: Այս հասցէին ուղղուած հաղորդագրութիւնները հաւանաբար ոչ ոք չի կարդայ:
 no-reply-reply-anyway-button = Պատասխանել ամէն դէպքում
+
+## error messages
+
 
 ## Spaces toolbar
 
@@ -294,12 +328,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = թ
 mark-not-junk-key =
     .key = փ
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -333,3 +388,9 @@ message-group-starred = Աստղանշուած
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = եւ այղոք
+
+## Prompts
+
+
+## Spam commands
+

@@ -197,6 +197,37 @@ redirect-msg-menuitem =
     .label = Қайта бағдарлау
     .accesskey = д
 
+## Shared Menu Items
+
+menu-move-again =
+    .label = Қайта жылжыту
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = "{ $folderName }" ішіне қайта жылжыту
+    .accesskey = т
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = "{ $folderName }" ішіне қайта көшіріп алу
+    .accesskey = т
+menu-move-to =
+    .label = Қайда жылжыту
+    .accesskey = й
+menu-copy-to =
+    .label = Қайда көшіріп алу
+    .accesskey = к
+menu-move-copy-recent-destinations =
+    .label = Жуырдағы мақсаттар
+    .accesskey = R
+menu-move-copy-favorites =
+    .label = Таңдамалы
+    .accesskey = Т
+
 ## AppMenu
 
 appmenu-save-as-file =

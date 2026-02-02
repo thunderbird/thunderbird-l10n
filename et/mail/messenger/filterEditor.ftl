@@ -3,6 +3,44 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Filtri tegevus ebaõnnestus: "{ $errorMsg }" (veakood: { $errorCode }), kui üritati:
+filter-failure-sending-reply-error = Vastuse saatmisel esines viga
+filter-failure-sending-reply-aborted = Vastuse saatmine katkestati
+filter-failure-move-failed = Liigutamine ebaõnnestus
+filter-failure-copy-failed = Kopeerimine ebaõnnestus
+filter-failure-action = Filtritoimingu rakendamine ebaõnnestus
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Filtrit "{ $filterName }" rakendati kirjale saatjalt { $author } - { $subject } ({ $date })
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = kiri id-ga { $id } liigutati kausta { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = kiri id-ga { $id } kopeeriti kausta { $folder }
+filter-missing-custom-action = Puudub kohandatud tegevus
+filter-action-log-priority = muudeti prioriteeti
+filter-action-log-deleted = kustutati
+filter-action-log-read = märgiti loetuks
+filter-action-log-kill = lõim tapeti
+filter-action-log-watch = lõime vaadati
+filter-action-log-starred = tähistati
+filter-action-log-replied = vastati
+filter-action-log-forwarded = edastati
+filter-action-log-stop = rakendamine peatati
+filter-action-log-pop3-delete = kustutati POP3-serverist
+filter-action-log-pop3-leave = jäeti POP3-serverisse
+filter-action-log-pop3-fetch = tõmmati sisu POP3-serverist
+filter-action-log-tagged = sildistati
+filter-action-log-ignore-subthread = ignoreeriti alamlõime
+filter-action-log-unread = märgiti mitteloetuks
+filter-editor-must-select-target-folder = Sa pead valima sihtkausta.
+filter-editor-enter-valid-email-forward = Sisesta edastamiseks korrektne e-posti aadress.
+filter-editor-pick-template-reply = Vali vastamiseks kasutatav mall.

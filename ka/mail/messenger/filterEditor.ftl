@@ -18,7 +18,45 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = აღმოჩენილი ჯართი გამომგზავნისგან { $author } – { $subject }, თარიღით { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = გაფილტვრა ვერ მოხერხდა: "{ $errorMsg }" შეცდომის კოდით={ $errorCode } მცდელობისას:
+filter-failure-sending-reply-error = შეცდომა პასუხის გაგზავნისას
+filter-failure-sending-reply-aborted = პასუხის გაგზავნა გაუქმებულია
+filter-failure-move-failed = გადატანა ვერ მოხერხდა
+filter-failure-copy-failed = ასლის აღება ვერ მოხერხდა
+filter-failure-action = ფილტრის გამოყენება ვერ მოხერხდა
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = გამოყენებული ფილტრი - "{ $filterName }", ავტორი - { $author }, თემა - { $subject }, { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = გადატანილი წერილის კოდი = { $id } - { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = აღებული წერილის კოდი = { $id } - { $folder }
+filter-missing-custom-action = მცდარი საკუთარი ქმედება
+filter-action-log-priority = პრიორიტეტი შეიცვალა
+filter-action-log-deleted = წაიშალა
+filter-action-log-read = მონიშნულია წაკითხულად
+filter-action-log-kill = მიმოწერა განადგურდა
+filter-action-log-watch = მიმოწერას თვალს ადევნებთ
+filter-action-log-starred = მონიშნულია
+filter-action-log-replied = ნაპასუხები
+filter-action-log-forwarded = გადაგზავნილი
+filter-action-log-stop = შესრულება შეჩერდა
+filter-action-log-pop3-delete = წაიშალა POP3 სერვერიდან
+filter-action-log-pop3-leave = დარჩა POP3 სერვერზე
 filter-action-log-spam = ჯართის შეფასება
+filter-action-log-pop3-fetch = სხეული გადმოტანილია POP3 სერვერიდან
+filter-action-log-tagged = ჭდეებიანი
+filter-action-log-ignore-subthread = მიმოწერის უგულებელყოფილი განშტოება
+filter-action-log-unread = მონიშნულია, როგორც წასაკითხი
+filter-editor-must-select-target-folder = აუცილებელია სასურველი საქაღალდის მითითება.
+filter-editor-enter-valid-email-forward = მიუთითეთ ელფოსტის მართებული მისამართი გადასაგზავნად.
+filter-editor-pick-template-reply = მიუთითეთ თარგი პასუხისთვის.

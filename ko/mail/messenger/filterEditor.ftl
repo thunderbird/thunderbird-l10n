@@ -3,6 +3,44 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = 필터 적용 실패: "{ $errorMsg }" 오류 코드={ $errorCode }, 시도된 내용:
+filter-failure-sending-reply-error = 답장 보내는 중 오류
+filter-failure-sending-reply-aborted = 답장 전송 중단됨
+filter-failure-move-failed = 이동 실패
+filter-failure-copy-failed = 복사 실패
+filter-failure-action = 필터 동작을 적용하지 못했습니다
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = 메시지({ $author }: { $subject } - { $date })에 필터 "{ $filterName }"를 적용
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = 메시지 아이디 { $id }을(를) { $folder }(으)로 이동
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = 메시지 아이다 { $id }을(를) { $folder }(으)로 복사
+filter-missing-custom-action = 변경 동작이 없음
+filter-action-log-priority = 중요도 변경
+filter-action-log-deleted = 삭제
+filter-action-log-read = 읽음으로 표시
+filter-action-log-kill = 쓰레드 접기
+filter-action-log-watch = 쓰레드 펼치기
+filter-action-log-starred = 별표
+filter-action-log-replied = 회신
+filter-action-log-forwarded = 포워딩
+filter-action-log-stop = 실행 중지
+filter-action-log-pop3-delete = POP3 서버에서 삭제
+filter-action-log-pop3-leave = POP3 서버에 남기기
+filter-action-log-pop3-fetch = POP3 서버에서 본문 가져오기
+filter-action-log-tagged = 태그 추가하기
+filter-action-log-ignore-subthread = 하위 글타래 무시
+filter-action-log-unread = 읽지않음 표시
+filter-editor-must-select-target-folder = 타겟 폴더를 선택해야 합니다.
+filter-editor-enter-valid-email-forward = 전달할 정확한 메일 주소를 선택하십시오.
+filter-editor-pick-template-reply = 회신에 사용할 양식을 선택하십시오.

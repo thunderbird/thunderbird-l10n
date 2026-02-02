@@ -197,6 +197,37 @@ redirect-msg-menuitem =
     .label = Omdiriger
     .accesskey = d
 
+## Shared Menu Items
+
+menu-move-again =
+    .label = Flytt igjen
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Flytt til «{ $folderName }» igjen
+    .accesskey = t
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Kopier til «{ $folderName }» igjen
+    .accesskey = t
+menu-move-to =
+    .label = Flytt til
+    .accesskey = F
+menu-copy-to =
+    .label = Kopier til
+    .accesskey = K
+menu-move-copy-recent-destinations =
+    .label = Nylege destinasjonar
+    .accesskey = N
+menu-move-copy-favorites =
+    .label = Favorittar
+    .accesskey = F
+
 ## AppMenu
 
 appmenu-save-as-file =

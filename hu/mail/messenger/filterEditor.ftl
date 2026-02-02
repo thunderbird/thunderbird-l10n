@@ -18,7 +18,45 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Levélszemét észlelve ettől: { $author } – { $subject }, ekkor: { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = A szűrőművelet sikertelen: „{ $errorMsg }”, hibakód: { $errorCode }, a következő során:
+filter-failure-sending-reply-error = Hiba a válasz küldésekor
+filter-failure-sending-reply-aborted = Válasz küldése megszakítva
+filter-failure-move-failed = Áthelyezés sikertelen
+filter-failure-copy-failed = Másolás sikertelen
+filter-failure-action = A szűrőművelet alkalmazása nem sikerült
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = „{ $filterName }” szűrő alkalmazva { $author } - { $subject } feladótól { $date } dátummal érkezett üzenetre
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = áthelyezett üzenet, azonosító = { $id } cél: { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = átmásolt üzenet, azonosító = { $id } cél: { $folder }
+filter-missing-custom-action = Hiányzó egyéni művelet
+filter-action-log-priority = prioritás megváltozott
+filter-action-log-deleted = törölve
+filter-action-log-read = megjelölve olvasottként
+filter-action-log-kill = témacsoport törölve
+filter-action-log-watch = témacsoport figyelve
+filter-action-log-starred = csillagozva
+filter-action-log-replied = megválaszolva
+filter-action-log-forwarded = továbbítva
+filter-action-log-stop = végrehajtás leállítva
+filter-action-log-pop3-delete = törölve a POP3-kiszolgálóról
+filter-action-log-pop3-leave = megtartva a POP3-kiszolgálón
 filter-action-log-spam = levélszemét-pontszám
+filter-action-log-pop3-fetch = levéltörzs letöltve a POP3-kiszolgálóról
+filter-action-log-tagged = megcímkézve
+filter-action-log-ignore-subthread = kihagyott témacsoportrész
+filter-action-log-unread = megjelölés olvasatlanként
+filter-editor-must-select-target-folder = Ki kell választania a célmappát.
+filter-editor-enter-valid-email-forward = A továbbításhoz adjon meg érvényes e-mail címet.
+filter-editor-pick-template-reply = Válassza ki a sablont, amelyet a válaszhoz fel kíván használni.

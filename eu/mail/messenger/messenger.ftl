@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ikuspegi trinkoa
     .accesskey = t
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -176,6 +179,37 @@ menu-edit-newsgroup-properties =
 redirect-msg-menuitem =
     .label = Birbideratzea
     .accesskey = B
+
+## Shared Menu Items
+
+menu-move-again =
+    .label = Mugitu berriz
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Aldatu berriz lekuz "{ $folderName }"(e)ra
+    .accesskey = b
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Kopiatu berriz "{ $folderName }"(e)ra
+    .accesskey = K
+menu-move-to =
+    .label = Eraman hona
+    .accesskey = m
+menu-copy-to =
+    .label = Kopiatu hona
+    .accesskey = K
+menu-move-copy-recent-destinations =
+    .label = Azken Helmugak
+    .accesskey = R
+menu-move-copy-favorites =
+    .label = Gogokoak
+    .accesskey = a
 
 ## AppMenu
 
@@ -473,12 +507,24 @@ openpgp-forget = Ahaztu OpenPGP pasa-esdaldiak
 quota-panel-percent-used = { $percent }% full
     .title = IMAP kuota: { $usage } erabilia { $limit } guztirako limitetik
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -524,3 +570,6 @@ and-others = eta beste
 ## Prompts
 
 prompt-dont-ask-again = Ez galdetu berriz.
+
+## Spam commands
+

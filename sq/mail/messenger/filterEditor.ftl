@@ -18,7 +18,45 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = U pikasën mesazhe të padëshiruar nga { $author } - { $subject } më { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Veprimi i Filtrit Dështoi: "{ $errorMsg }" me kod gabimi={ $errorCode }, teksa provohej:
+filter-failure-sending-reply-error = Gabim në dërgimin e përgjigjes
+filter-failure-sending-reply-aborted = Dërgimi i përgjigjes u ndërpre
+filter-failure-move-failed = Lëvizja dështoi
+filter-failure-copy-failed = Kopjimi dështoi
+filter-failure-action = S’u arrit të zbatohet veprimi i filtrimit
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Mbi mesazhin nga { $author } - { $subject } më { $date } u zbatua filtri "{ $filterName }"
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = mesazhi me titull = { $id } u kalua te { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = mesazhi me titull = { $id } u kopjua te { $folder }
+filter-missing-custom-action = Veprim Vetjak që Mungon
+filter-action-log-priority = ndryshim përparësie
+filter-action-log-deleted = fshirje
+filter-action-log-read = shënjim si i lexuar
+filter-action-log-kill = rrjedhë e asgjësuar
+filter-action-log-watch = rrjedhë e mbikëqyrur
+filter-action-log-starred = me yllkë
+filter-action-log-replied = përgjigjur
+filter-action-log-forwarded = përcjellë
+filter-action-log-stop = ndalim ekzekutimi
+filter-action-log-pop3-delete = fshirje prej shërbyesit POP3
+filter-action-log-pop3-leave = lënë në shërbyesin POP3
 filter-action-log-spam = vlerësim si i padëshiruar
+filter-action-log-pop3-fetch = lëndë e sjellë prej shërbyesi POP3
+filter-action-log-tagged = etiketuar
+filter-action-log-ignore-subthread = nënrrjedhë e shpërfillur
+filter-action-log-unread = e shënuar si e palexuar
+filter-editor-must-select-target-folder = Duhet të përzgjidhni një dosje objektiv.
+filter-editor-enter-valid-email-forward = Jepni për përcjellje një adresë të vlefshme email.
+filter-editor-pick-template-reply = Zgjidhni gjedhe sipas së cilës të përgjigjet.

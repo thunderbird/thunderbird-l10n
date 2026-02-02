@@ -18,7 +18,45 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Detectado spam de { $author } - { $subject } em { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Ação do filtro falhou: "{ $errorMsg }" com o código de erro { $errorCode } ao tentar:
+filter-failure-sending-reply-error = Erro ao enviar resposta
+filter-failure-sending-reply-aborted = Foi interrompido o envio da resposta
+filter-failure-move-failed = Falha ao mover
+filter-failure-copy-failed = Falha ao copiar
+filter-failure-action = Falha ao aplicar a ação de filtragem
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Aplicado filtro “{ $filterName }” na mensagem de { $author } - { $subject } em { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = mensagem movida id = { $id } para { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = mensagem copiada id = { $id } para { $folder }
+filter-missing-custom-action = Ação personalizada ausente
+filter-action-log-priority = prioridade alterada
+filter-action-log-deleted = excluída
+filter-action-log-read = marcada como lida
+filter-action-log-kill = tópico excluído
+filter-action-log-watch = tópico monitorado
+filter-action-log-starred = marcada com estrela
+filter-action-log-replied = respondida
+filter-action-log-forwarded = encaminhada
+filter-action-log-stop = execução interrompida
+filter-action-log-pop3-delete = excluída do servidor POP3
+filter-action-log-pop3-leave = deixada no servidor POP3
 filter-action-log-spam = pontuação de spam
+filter-action-log-pop3-fetch = texto da mensagem recebido do servidor POP3
+filter-action-log-tagged = etiquetada
+filter-action-log-ignore-subthread = subtópico ignorado
+filter-action-log-unread = marcada como não lida
+filter-editor-must-select-target-folder = Você deve selecionar uma pasta de destino.
+filter-editor-enter-valid-email-forward = Insira um endereço de email válido para onde encaminhar.
+filter-editor-pick-template-reply = Escolha um modelo para responder.

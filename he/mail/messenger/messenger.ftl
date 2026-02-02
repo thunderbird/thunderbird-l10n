@@ -65,6 +65,9 @@ show-tags-folders-label =
     .label = תווית
     .accesskey = ת
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -104,6 +107,34 @@ menu-edit-newsgroup-properties =
     .label = מאפייני קבוצת חדשות
     .accesskey = א
 
+## Message Menu
+
+
+## Shared Menu Items
+
+menu-move-again =
+    .label = העבר שוב
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = העבר אל "{ $folderName }" שוב
+    .accesskey = ש
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = העתק את "{ $folderName }" שוב
+    .accesskey = ש
+menu-move-to =
+    .label = העבר אל
+    .accesskey = ע
+menu-copy-to =
+    .label = העתק אל
+    .accesskey = ת
+
 ## AppMenu
 
 appmenu-save-as-file =
@@ -118,6 +149,12 @@ appmenu-addons-and-themes =
 mail-context-menu-forward-forward =
     .label = העבר
     .accesskey = ע
+
+## Message header pane
+
+
+## Message header customize panel
+
 
 ## Action Button Context Menu
 
@@ -144,6 +181,21 @@ repair-text-encoding-button =
     .label = תיקון קידוד טקסט
     .tooltiptext = ניחוש קידוד הטקסט הנכון בהסתמך על תוכן ההודעה
 
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
+
 ## Quick Filter Bar
 
 # The label to display for the "View... Toolbars..." menu item that controls
@@ -156,12 +208,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = ס
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -191,3 +264,9 @@ message-group-no-attachments = ללא קבצים מצורפים
 message-group-attachments = קבצים מצורפים
 message-group-not-starred = לא מסומנת בכוכבית
 message-group-starred = מסומנת בכוכבית
+
+## Prompts
+
+
+## Spam commands
+

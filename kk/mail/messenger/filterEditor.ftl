@@ -18,7 +18,45 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = { $author } - { $subject } адресінен { $date } уақытында спам анықталды
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Сүзгі әрекеті сәтсіз: "{ $errorMsg }" қате коды={ $errorCode }, орындалу кезінде:
+filter-failure-sending-reply-error = Жауапты жіберу қатесі
+filter-failure-sending-reply-aborted = Жауапты жіберу үзілді
+filter-failure-move-failed = Жылжыту сәтсіз аяқталды
+filter-failure-copy-failed = Көшіріп алу сәтсіз аяқталды
+filter-failure-action = Сүзгі әрекетін іске асыру сәтсіз аяқталды
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = "{ $filterName }" сүзгісі іске асырылды, хабарлама жіберуші { $author } - { $subject }, уақыты { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = жылжытылды хабарлама id = { $id }, { $folder } ішіне
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = көшірілді хабарлама id = { $id }, { $folder } ішіне
+filter-missing-custom-action = Таңдауыңызша әрекет жоқ
+filter-action-log-priority = приоритеті өзгертілді
+filter-action-log-deleted = өшірілген
+filter-action-log-read = оқылған ретінде белгіленді
+filter-action-log-kill = ағын өлтірілді
+filter-action-log-watch = ағын бақыланды
+filter-action-log-starred = жұлдызша қойылды
+filter-action-log-replied = жауап берілді
+filter-action-log-forwarded = әрі қарай жіберілді
+filter-action-log-stop = орындалу аяқталды
+filter-action-log-pop3-delete = POP серверінен өшірілді
+filter-action-log-pop3-leave = POP серверінде қалдырылды
 filter-action-log-spam = спам деңгейі
+filter-action-log-pop3-fetch = POP серверінен денесі алынды
+filter-action-log-tagged = тег қойылды
+filter-action-log-ignore-subthread = ішкі ағынды елемеу
+filter-action-log-unread = оқылмаған ретінде белгіленді
+filter-editor-must-select-target-folder = Мақсат буманы таңдауыңыз керек.
+filter-editor-enter-valid-email-forward = Әрі қарай жіберу үшін жарамды эл. пошта адресін енгізіңіз.
+filter-editor-pick-template-reply = Жауап берілгенде қолданылатын үлгіні таңдаңыз.

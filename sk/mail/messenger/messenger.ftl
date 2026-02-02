@@ -203,6 +203,37 @@ redirect-msg-menuitem =
     .label = Presmerovať
     .accesskey = r
 
+## Shared Menu Items
+
+menu-move-again =
+    .label = Znova presunúť
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Znova presunúť do priečinka "{ $folderName }"
+    .accesskey = u
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Znova kopírovať do priečinka "{ $folderName }"
+    .accesskey = u
+menu-move-to =
+    .label = Presunúť do
+    .accesskey = P
+menu-copy-to =
+    .label = Skopírovať do
+    .accesskey = r
+menu-move-copy-recent-destinations =
+    .label = Nedávne umiestnenia
+    .accesskey = N
+menu-move-copy-favorites =
+    .label = Obľúbené položky
+    .accesskey = O
+
 ## AppMenu
 
 appmenu-save-as-file =

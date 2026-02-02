@@ -198,6 +198,37 @@ redirect-msg-menuitem =
     .label = Átirányítás
     .accesskey = i
 
+## Shared Menu Items
+
+menu-move-again =
+    .label = Áthelyezés ismét
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Áthelyezés ismét: „{ $folderName }”
+    .accesskey = i
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Másolás ismét: „{ $folderName }”
+    .accesskey = i
+menu-move-to =
+    .label = Áthelyezés
+    .accesskey = h
+menu-copy-to =
+    .label = Átmásolás
+    .accesskey = m
+menu-move-copy-recent-destinations =
+    .label = Legutóbbi célok
+    .accesskey = L
+menu-move-copy-favorites =
+    .label = Kedvencek
+    .accesskey = K
+
 ## AppMenu
 
 appmenu-save-as-file =

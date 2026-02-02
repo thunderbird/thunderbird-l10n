@@ -183,6 +183,37 @@ redirect-msg-menuitem =
     .label = გადამისამართება
     .accesskey = დ
 
+## Shared Menu Items
+
+menu-move-again =
+    .label = კვლავ გადატანა
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = კვლავ გადატანა „{ $folderName }“ საქაღალდეში
+    .accesskey = t
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = კვლავ ასლის აღება – "{ $folderName }"
+    .accesskey = კ
+menu-move-to =
+    .label = გადატანა
+    .accesskey = ტ
+menu-copy-to =
+    .label = ასლი საქაღალდეში
+    .accesskey = ლ
+menu-move-copy-recent-destinations =
+    .label = ბოლოს გამოყენებული ადგილები
+    .accesskey = ო
+menu-move-copy-favorites =
+    .label = რჩეულები
+    .accesskey = ჩ
+
 ## AppMenu
 
 appmenu-save-as-file =

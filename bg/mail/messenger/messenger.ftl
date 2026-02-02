@@ -198,6 +198,37 @@ redirect-msg-menuitem =
     .label = Пренасочване
     .accesskey = П
 
+## Shared Menu Items
+
+menu-move-again =
+    .label = Преместване отново
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Преместване отново в "{ $folderName }"
+    .accesskey = т
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Копиране отново в "{ $folderName }"
+    .accesskey = т
+menu-move-to =
+    .label = Преместване в
+    .accesskey = м
+menu-copy-to =
+    .label = Копиране в
+    .accesskey = и
+menu-move-copy-recent-destinations =
+    .label = Скорошни дестинации
+    .accesskey = С
+menu-move-copy-favorites =
+    .label = Любими
+    .accesskey = л
+
 ## AppMenu
 
 appmenu-save-as-file =

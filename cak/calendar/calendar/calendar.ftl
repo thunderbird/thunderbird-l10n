@@ -34,6 +34,12 @@ status-completed = Tz'aqatisan
 high-priority = Nïm
 normal-priority = Relik
 low-priority = Ko'öl
+status-priority-img-high-priority =
+    .alt = Nïm
+status-priority-img-normal-priority =
+    .alt = Relik
+status-priority-img-low-priority =
+    .alt = Ko'öl
 publish-prompt = Achike chre ri cholb'aniknwajo' naya' rutzijol?
 # LOCALIZATION NOTE (paste-events-also): The users pasting operation includes among
 # others also several meeting invitations  - this is used as a affix in

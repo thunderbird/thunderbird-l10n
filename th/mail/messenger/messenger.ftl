@@ -125,6 +125,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = มุมมองแบบกะทัดรัด
     .accesskey = ก
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -172,6 +175,37 @@ menu-edit-newsgroup-properties =
 redirect-msg-menuitem =
     .label = เปลี่ยนเส้นทาง
     .accesskey = D
+
+## Shared Menu Items
+
+menu-move-again =
+    .label = ย้ายอีกครั้ง
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = ย้ายไปยัง "{ $folderName }" อีกครั้ง
+    .accesskey = ป
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = คัดลอกไปยัง "{ $folderName }" อีกครั้ง
+    .accesskey = ป
+menu-move-to =
+    .label = ย้ายไปยัง
+    .accesskey = ย
+menu-copy-to =
+    .label = คัดลอกไปยัง
+    .accesskey = ค
+menu-move-copy-recent-destinations =
+    .label = สถานที่ปลายทางล่าสุด
+    .accesskey = ล
+menu-move-copy-favorites =
+    .label = รายการโปรด
+    .accesskey = ร
 
 ## AppMenu
 
@@ -453,12 +487,24 @@ openpgp-forget = ลืมวลีรหัสผ่าน OpenPGP
 quota-panel-percent-used = เต็ม { $percent }%
     .title = โควตา IMAP: ใช้ไป { $usage } จากทั้งหมด { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -500,3 +546,9 @@ message-group-starred = ติดดาวแล้ว
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = ฯลฯ
+
+## Prompts
+
+
+## Spam commands
+

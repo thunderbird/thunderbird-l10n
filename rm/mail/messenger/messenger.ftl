@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista cumpacta
     .accesskey = c
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -176,6 +179,37 @@ menu-edit-newsgroup-properties =
 redirect-msg-menuitem =
     .label = Renviar
     .accesskey = R
+
+## Shared Menu Items
+
+menu-move-again =
+    .label = Spustar danovamain
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Spustar puspè a "{ $folderName }"
+    .accesskey = t
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Copiar puspè a "{ $folderName }"
+    .accesskey = t
+menu-move-to =
+    .label = Spustar a
+    .accesskey = p
+menu-copy-to =
+    .label = Copiar en
+    .accesskey = C
+menu-move-copy-recent-destinations =
+    .label = Destinaziuns recentas
+    .accesskey = D
+menu-move-copy-favorites =
+    .label = Favurits
+    .accesskey = F
 
 ## AppMenu
 
@@ -469,12 +503,24 @@ openpgp-forget = Emblidar las frasas-clav OpenPGP
 quota-panel-percent-used = Occupà: { $percent }%
     .title = Quota IMAP: { $usage } occupà da  { $limit } en total
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -513,3 +559,9 @@ message-group-starred = Cun staila
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
+
+## Prompts
+
+
+## Spam commands
+

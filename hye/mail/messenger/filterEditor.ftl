@@ -3,6 +3,44 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Զտիչի գործողութիւնը ձախողուեl 1. «{ $errorMsg }» սխալի կոդ={ $errorCode }․
+filter-failure-sending-reply-error = Սխալ՝ պատասխան ուղարկելիս
+filter-failure-sending-reply-aborted = Պատասխանի ուղարկումն ընդհատուել է
+filter-failure-move-failed = Տեղափոխումը ձախողուել է
+filter-failure-copy-failed = Պատճենումն ձախողուել է
+filter-failure-action = Չի յաջողուել կիրառել զտիչը
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Կիրառուել է «{ $filterName }» զտիչը { $author } { $subject }-ից { $date }-ին հաղորդագրութիւն ուղարկելու համար
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = հաղորդագրութեան ID = { $id } տեղափոխուեց { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = հաղորդագրության ID = { $id }-ից պատճենուեց { $folder }
+filter-missing-custom-action = Գործողութիւնը բացակայում է
+filter-action-log-priority = առաջնահերթութիւնը փոխուել է
+filter-action-log-deleted = ջնջուած
+filter-action-log-read = նշել, որպէս կարդացուած
+filter-action-log-kill = հանգոյցը խափանուել է
+filter-action-log-watch = հանգոյցը դիտարկուել է
+filter-action-log-starred = աստղանշուած
+filter-action-log-replied = պատասխանուել է
+filter-action-log-forwarded = փոխանցուել է
+filter-action-log-stop = կատարումը դադարեցուել է
+filter-action-log-pop3-delete = հեռացուած է POP3 սպասարկչից
+filter-action-log-pop3-leave = մնացել է POP3 սպասարկչի վրայ
+filter-action-log-pop3-fetch = բովանդակութիւնը բերուել է POP3 սպասարկիչից
+filter-action-log-tagged = պիտակաւորուած
+filter-action-log-ignore-subthread = անտեսուած ենթահանգոյցներ
+filter-action-log-unread = նշուած է որպէս չընթերցուած
+filter-editor-must-select-target-folder = Հարկաւոր է ընտրել թիրախային պանակ։
+filter-editor-enter-valid-email-forward = Մուտքագրէք հասանելի հասցէ փոխանցման համար։
+filter-editor-pick-template-reply = Պատասխանելու համար ընտրէք նմուշ։

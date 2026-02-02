@@ -214,6 +214,37 @@ redirect-msg-menuitem =
     .label = Ailgyfeirio
     .accesskey = A
 
+## Shared Menu Items
+
+menu-move-again =
+    .label = Symud Eto
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Symud i "{ $folderName }" Eto
+    .accesskey = t
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Copïo i "{ $folderName }" Eto
+    .accesskey = t
+menu-move-to =
+    .label = Symud i
+    .accesskey = S
+menu-copy-to =
+    .label = Copïo i
+    .accesskey = C
+menu-move-copy-recent-destinations =
+    .label = Cyrchfannau Diweddar
+    .accesskey = D
+menu-move-copy-favorites =
+    .label = Ffefrynnau
+    .accesskey = F
+
 ## AppMenu
 
 appmenu-save-as-file =

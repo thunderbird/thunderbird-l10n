@@ -18,7 +18,45 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Spam wót { $author } – { $subject } dnja { $date } namakany
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Filtrowańska akcija njejo se raźiło: "{ $errorMsg }" ze zmólkowym kodom={ $errorCode } za wopyt:
+filter-failure-sending-reply-error = Zmólka pśi słanju wótegrona
+filter-failure-sending-reply-aborted = Słanje wótegrona jo se pśetergnuło
+filter-failure-move-failed = Pśesunjenje njejo se raźiło
+filter-failure-copy-failed = Kopěrowanje njejo se raźiło
+filter-failure-action = Nałožowanje filtroweje akcije njejo se raźiło
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Filter "{ $filterName }" na powesć wót { $author } - { $subject } na { $date } nałožony
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = powěsć z id = { $id } do { $folder } pśesunjona
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = powěsć z id = { $id } do { $folder } kopěrowana
+filter-missing-custom-action = Felujuca swójska akcija
+filter-action-log-priority = priorita změnjona
+filter-action-log-deleted = wulašowany
+filter-action-log-read = ako pśecytany markěrowany
+filter-action-log-kill = nitka wulašowana
+filter-action-log-watch = nitka wobglědowana
+filter-action-log-starred = z gwězdku
+filter-action-log-replied = wótegronjony
+filter-action-log-forwarded = dalej pósrědnjony
+filter-action-log-stop = wuwjeźenje zastajony
+filter-action-log-pop3-delete = z POP3-serwera wulašowany
+filter-action-log-pop3-leave = na POP3-serwerje wóstajony
 filter-action-log-spam = spamowe pógódnośenje
+filter-action-log-pop3-fetch = śěleso z POP3-serwera wótwołane
+filter-action-log-tagged = z marku
+filter-action-log-ignore-subthread = pódnitka ignorěrowany
+filter-action-log-unread = ako njepśecytany markěrowany
+filter-editor-must-select-target-folder = Wy dejśo celowy zarědnik wubraś.
+filter-editor-enter-valid-email-forward = Zapódajśo płaśiwu e-mailowu adresu za dalejpósrědnjenje.
+filter-editor-pick-template-reply = Wubjeŕśo pśedłogu za wótegrono.

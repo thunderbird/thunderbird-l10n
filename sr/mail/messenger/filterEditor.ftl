@@ -3,6 +3,44 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Радња филтера није успела: "{ $errorMsg }" са грешком са кодом={ $errorCode } приликом покушавања:
+filter-failure-sending-reply-error = Грешка при слању одговора
+filter-failure-sending-reply-aborted = Слање одговора је прекинуто
+filter-failure-move-failed = Премештање није успело
+filter-failure-copy-failed = Копирање није успело
+filter-failure-action = Аплицирање филтера није успело
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Применио сам филтер "{ $filterName }" на поруку од { $author } - { $subject } добијену дана { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = померио поруку са иб-ом = { $id } у { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = копирао id поруке = { $id } у { $folder }
+filter-missing-custom-action = Недостаје прилагођена радња
+filter-action-log-priority = првенство промењено
+filter-action-log-deleted = обрисано
+filter-action-log-read = означено као прочитано
+filter-action-log-kill = нит убијена
+filter-action-log-watch = нит се надгледана
+filter-action-log-starred = дата звездица
+filter-action-log-replied = одговорено
+filter-action-log-forwarded = прослеђено
+filter-action-log-stop = извршавање заустављено
+filter-action-log-pop3-delete = обрисано са POP3 сервера
+filter-action-log-pop3-leave = остављено на POP3 серверу
+filter-action-log-pop3-fetch = садржај добављен са POP3 сервера
+filter-action-log-tagged = означено
+filter-action-log-ignore-subthread = поднит занемарена
+filter-action-log-unread = означено као непрочитано
+filter-editor-must-select-target-folder = Морате изабрати одредишну фасциклу.
+filter-editor-enter-valid-email-forward = Унесите исправну мејл адресу на коју ће се прослеђивати.
+filter-editor-pick-template-reply = Изаберите шаблон са којим ће се одговарати.

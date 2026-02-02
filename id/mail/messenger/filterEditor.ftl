@@ -18,7 +18,45 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Terdeteksi spam dari { $author } - { $subject } pada { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Gagal memfilter: "{ $errorMsg }" dengan kode kesalahan ={ $errorCode } saat mencoba:
+filter-failure-sending-reply-error = Kesalahan mengirim balasan
+filter-failure-sending-reply-aborted = Mengirim balasan dibatalkan
+filter-failure-move-failed = Gagal bergerak
+filter-failure-copy-failed = Gagl menyalin.
+filter-failure-action = Gagal menerapkan tindakan penyaringan
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Filter "{ $filterName }" telah diterapkan pada pesan dari from { $author } - { $subject } pada { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = memindahkan pesan dengan id { $id } hingga { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = menyalin pesan dengan id={ $id } hingga { $folder }
+filter-missing-custom-action = Pilih sedikitnya satu aksi filter
+filter-action-log-priority = prioritas berubah
+filter-action-log-deleted = dihapus
+filter-action-log-read = ditandai sudah dibaca
+filter-action-log-kill = utas yang mati
+filter-action-log-watch = utas yang dimonitor
+filter-action-log-starred = diberi bintang
+filter-action-log-replied = dibalas
+filter-action-log-forwarded = diteruskan
+filter-action-log-stop = proses berhenti
+filter-action-log-pop3-delete = dihapus dari server POP3
+filter-action-log-pop3-leave = tinggalkan pada server POP3
 filter-action-log-spam = skor spam
+filter-action-log-pop3-fetch = isi diunduh dari server POP3
+filter-action-log-tagged = diberi tag
+filter-action-log-ignore-subthread = abaikan sub utas
+filter-action-log-unread = ditandai belum dibaca
+filter-editor-must-select-target-folder = Anda harus memilih folder target.
+filter-editor-enter-valid-email-forward = Masukkan email yang benar sebagai tujuan.
+filter-editor-pick-template-reply = Pilih templat email balasan.

@@ -111,6 +111,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Timeẓri yessden
     .accesskey = T
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -155,6 +158,34 @@ menu-edit-newsgroup-properties =
 redirect-msg-menuitem =
     .label = Abeddel n uwelleh
     .accesskey = A
+
+## Shared Menu Items
+
+menu-move-again =
+    .label = Senkez tikelt nniḍen.
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Senkez tikelt nniḍen ɣeṛ "{ $folderName }"
+    .accesskey = t
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Nɣel tikelt nniḍen ɣeṛ "{ $folderName }"
+    .accesskey = t
+menu-move-to =
+    .label = Senkez ɣer
+    .accesskey = k
+menu-copy-to =
+    .label = Nɣel ɣeṛ
+    .accesskey = N
+menu-move-copy-favorites =
+    .label = Inurifen
+    .accesskey = f
 
 ## AppMenu
 
@@ -378,12 +409,30 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -421,3 +470,9 @@ message-group-starred = Ɣur-s itri
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = d wiyaḍ
+
+## Prompts
+
+
+## Spam commands
+

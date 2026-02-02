@@ -193,6 +193,37 @@ redirect-msg-menuitem =
     .label = Alihkan
     .accesskey = A
 
+## Shared Menu Items
+
+menu-move-again =
+    .label = Pindahkan Lagi
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Pindahkan Lagi ke "{ $folderName }"
+    .accesskey = L
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Ulangi Salin ke "{ $folderName }"
+    .accesskey = U
+menu-move-to =
+    .label = Pindahkan Ke
+    .accesskey = P
+menu-copy-to =
+    .label = Salin Ke
+    .accesskey = S
+menu-move-copy-recent-destinations =
+    .label = Destinasi Terbaru
+    .accesskey = R
+menu-move-copy-favorites =
+    .label = Favorit
+    .accesskey = F
+
 ## AppMenu
 
 appmenu-save-as-file =

@@ -205,6 +205,37 @@ redirect-msg-menuitem =
     .label = Preusmeri
     .accesskey = u
 
+## Shared Menu Items
+
+menu-move-again =
+    .label = Premakni znova
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Premakni znova v "{ $folderName }"
+    .accesskey = z
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Kopiraj znova v "{ $folderName }"
+    .accesskey = z
+menu-move-to =
+    .label = Premakni v
+    .accesskey = m
+menu-copy-to =
+    .label = Kopiraj v
+    .accesskey = K
+menu-move-copy-recent-destinations =
+    .label = Nedavni cilji
+    .accesskey = d
+menu-move-copy-favorites =
+    .label = Priljubljene
+    .accesskey = P
+
 ## AppMenu
 
 appmenu-save-as-file =
@@ -517,6 +548,9 @@ openpgp-forget = Pozabi gesla za OpenPGP
 quota-panel-percent-used = { $percent }-% zasedeno
     .title = Kvota IMAP: zasedeno { $usage } od skupno { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 menu-mark-as-spam =
@@ -538,6 +572,9 @@ menu-delete-spam =
 folder-context-empty-spam =
     .label = Izprazni neželeno pošto
     .accesskey = I
+
+## Thread pane.
+
 
 ## Message header.
 
