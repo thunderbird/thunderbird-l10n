@@ -180,6 +180,12 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Senkez ɣer
     .accesskey = k
+menu-copy-to =
+    .label = Nɣel ɣeṛ
+    .accesskey = N
+menu-move-copy-favorites =
+    .label = Inurifen
+    .accesskey = f
 
 ## AppMenu
 
