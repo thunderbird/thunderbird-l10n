@@ -41,3 +41,6 @@ filter-action-log-pop3-fetch = садржај добављен са POP3 сер�
 filter-action-log-tagged = означено
 filter-action-log-ignore-subthread = поднит занемарена
 filter-action-log-unread = означено као непрочитано
+filter-editor-must-select-target-folder = Морате изабрати одредишну фасциклу.
+filter-editor-enter-valid-email-forward = Унесите исправну мејл адресу на коју ће се прослеђивати.
+filter-editor-pick-template-reply = Изаберите шаблон са којим ће се одговарати.
