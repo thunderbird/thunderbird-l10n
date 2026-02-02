@@ -18,6 +18,15 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Oppdaget søppelpost fra { $author } – { $subject } den { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Filterhandling mislyktes: «{ $errorMsg }» med feilkode={ $errorCode } ved forsøk på:
+filter-failure-sending-reply-error = Feil ved sending av svar
+filter-failure-sending-reply-aborted = Sending av svar avbrutt
+filter-failure-move-failed = Flytting mislyktes
+filter-failure-copy-failed = Kopiering mislyktes
+filter-failure-action = Kunne ikke bruke filterhandlingen
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
