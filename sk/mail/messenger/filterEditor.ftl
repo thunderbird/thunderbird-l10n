@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = telo stiahnuté zo servera POP3
 filter-action-log-tagged = pridaný štítok
 filter-action-log-ignore-subthread = ignorované podvlákno
 filter-action-log-unread = označená ako neprečítaná
+filter-editor-must-select-target-folder = Musíte vybrať cieľový priečinok.
+filter-editor-enter-valid-email-forward = Zadajte platnú e‑mailovú adresu, na ktorú chcete poštu preposlať.
+filter-editor-pick-template-reply = Vyberte šablónu, pomocou ktorej chcete odpovedať.
