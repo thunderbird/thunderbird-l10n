@@ -125,6 +125,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = มุมมองแบบกะทัดรัด
     .accesskey = ก
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -172,6 +175,13 @@ menu-edit-newsgroup-properties =
 redirect-msg-menuitem =
     .label = เปลี่ยนเส้นทาง
     .accesskey = D
+
+## Shared Menu Items
+
+menu-move-again =
+    .label = ย้ายอีกครั้ง
+move-to-folder-again-key =
+    .key = m
 
 ## AppMenu
 
@@ -453,12 +463,24 @@ openpgp-forget = ลืมวลีรหัสผ่าน OpenPGP
 quota-panel-percent-used = เต็ม { $percent }%
     .title = โควตา IMAP: ใช้ไป { $usage } จากทั้งหมด { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -500,3 +522,9 @@ message-group-starred = ติดดาวแล้ว
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = ฯลฯ
+
+## Prompts
+
+
+## Spam commands
+
