@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = estyn y corff o weinydd POP3
 filter-action-log-tagged = tagiwyd
 filter-action-log-ignore-subthread = anwybyddwyd is-edefyn
 filter-action-log-unread = wedi'i farcio heb ei darllen
+filter-editor-must-select-target-folder = Rhaid dewis ffolder targed.
+filter-editor-enter-valid-email-forward = Rhowch gyfeiriad e-bost dilys i'w anfon ymlaen.
+filter-editor-pick-template-reply = Dewiswch dempled i ymateb.
