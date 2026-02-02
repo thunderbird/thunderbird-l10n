@@ -41,3 +41,6 @@ filter-action-log-pop3-fetch = тіло повідомлення отриман�
 filter-action-log-tagged = помічено
 filter-action-log-ignore-subthread = гілку проігноровано
 filter-action-log-unread = позначено нечитаним
+filter-editor-must-select-target-folder = Виберіть теку для збереження.
+filter-editor-enter-valid-email-forward = Введіть адресу електронної пошти для пересилки на неї повідомлень.
+filter-editor-pick-template-reply = Виберіть шаблон для відповіді.
