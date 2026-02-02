@@ -31,3 +31,6 @@ filter-action-log-pop3-leave = op POP3-bediener gelaat
 filter-action-log-pop3-fetch = lyf van POP3-bediener gehaal
 filter-action-log-tagged = gemerk
 filter-action-log-ignore-subthread = geïgnoreerde subdraad
+filter-editor-must-select-target-folder = U moet eers 'n teikenvouer kies.
+filter-editor-enter-valid-email-forward = Tik 'n geldige e-posadres in om na aan te stuur.
+filter-editor-pick-template-reply = Kies 'n sjabloon om mee te antwoord.
