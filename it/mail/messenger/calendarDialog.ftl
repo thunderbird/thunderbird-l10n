@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Posizione
 calendar-dialog-description-row-icon =
     .alt = Descrizione
+calendar-dialog-reminders-row-icon =
+    .alt = Promemoria
 calendar-dialog-description-label = Descrizione
 calendar-dialog-description-expand-icon =
     .alt = Mostra la descrizione completa
@@ -28,3 +30,12 @@ calendar-dialog-more-categories =
        *[other] +{ $additionalCategories } altri
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Elimina promemoria
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } Promemoria
+       *[other] { $count } Promemoria
+    }

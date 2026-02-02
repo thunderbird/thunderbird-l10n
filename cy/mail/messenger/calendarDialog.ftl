@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Lleoliad
 calendar-dialog-description-row-icon =
     .alt = Disgrifiad
+calendar-dialog-reminders-row-icon =
+    .alt = Atgoffwyr
 calendar-dialog-description-label = Disgrifiad
 calendar-dialog-description-expand-icon =
     .alt = Dangos y disgrifiad llawn
@@ -32,3 +34,16 @@ calendar-dialog-more-categories =
        *[other] +{ $additionalCategories } arall
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Dileu Nodyn Atgoffa
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } Nodyn atgoffa
+        [zero] { $count } Atgoffwr
+        [two] { $count } Atgoffwr
+        [few] { $count } Atgoffwr
+        [many] { $count } Atgoffwr
+       *[other] { $count } Atgoffwr
+    }

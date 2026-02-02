@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Lieu
 calendar-dialog-description-row-icon =
     .alt = Description
+calendar-dialog-reminders-row-icon =
+    .alt = Rappels
 calendar-dialog-description-label = Description
 calendar-dialog-description-expand-icon =
     .alt = Afficher la description complète
@@ -28,3 +30,12 @@ calendar-dialog-more-categories =
        *[other] et { $additionalCategories } de plus
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Supprimer le rappel
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] Rappel pour { $count }
+       *[other] { $count } rappels
+    }

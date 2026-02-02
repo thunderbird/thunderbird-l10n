@@ -434,6 +434,12 @@ key-does-not-expire = Nid yw'r allwedd yn dod i ben
 key-expired-date = Daeth yr allwedd i ben ar { $keyExpiry }
 key-expired-simple = Mae'r allwedd wedi dod i ben
 key-revoked-simple = Mae'r allwedd wedi'i dirymu
+key-revoked-revocation-code-superseded = Diddymwyd yr allwedd oherwydd bod yr allwedd yn cael ei disodli.
+key-revoked-revocation-code-compromised = Diddymwyd yr allwedd oherwydd bod y deunydd allweddol wedi'i beryglu.
+key-revoked-revocation-code-retired = Diddymwyd yr allwedd oherwydd bod yr allwedd wedi ymddeol ac nid yw'n cael ei defnyddio mwyach.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Rheswm dirymu fel y nodwyd gan berchennog yr allwedd: { $reason }
 key-do-you-accept = Ydych chi'n derbyn yr allwedd hon ar gyfer gwirio llofnodion digidol ac ar gyfer amgryptio negeseuon?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
