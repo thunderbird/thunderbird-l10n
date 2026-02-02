@@ -196,6 +196,21 @@ redirect-msg-menuitem =
     .label = 重導
     .accesskey = D
 
+## Shared Menu Items
+
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = 再次移動到「{ $folderName }」
+    .accesskey = t
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = 再次複製到「{ $folderName }」
+    .accesskey = t
+
 ## AppMenu
 
 appmenu-save-as-file =
