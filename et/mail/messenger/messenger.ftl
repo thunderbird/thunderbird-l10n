@@ -198,6 +198,15 @@ menu-move-to-folder-again =
 menu-copy-to-folder-again =
     .label = Kopeeri kausta "{ $folderName }"
     .accesskey = i
+menu-move-to =
+    .label = Liiguta kausta
+    .accesskey = L
+menu-copy-to =
+    .label = Kopeeri kausta
+    .accesskey = K
+menu-move-copy-favorites =
+    .label = Lemmikud
+    .accesskey = L
 
 ## AppMenu
 
