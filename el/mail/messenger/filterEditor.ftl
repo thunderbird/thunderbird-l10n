@@ -18,6 +18,15 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Εντοπίστηκε ανεπιθύμητο μήνυμα από { $author } - { $subject } στις { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Απέτυχε η ενέργεια του φίλτρου: «{ $errorMsg }» με κωδικό σφάλματος={ $errorCode } κατά την απόπειρα:
+filter-failure-sending-reply-error = Σφάλμα αποστολής απάντησης
+filter-failure-sending-reply-aborted = Η αποστολή απάντησης ακυρώθηκε
+filter-failure-move-failed = Αποτυχία μετακίνησης
+filter-failure-copy-failed = Αποτυχία αντιγραφής
+filter-failure-action = Αποτυχία εφαρμογής της ενέργειας φίλτρου
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = μετακινήθηκε το μήνυμα με id = { $id } στο «{ $folder }»
