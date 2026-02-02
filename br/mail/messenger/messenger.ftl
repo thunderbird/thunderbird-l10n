@@ -89,6 +89,18 @@ menu-edit-newsgroup-properties =
 
 ## Shared Menu Items
 
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Dilec'hiañ da "{ $folderName }" ur wech c'hoazh
+    .accesskey = d
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Eilañ e-barzh "{ $folderName }" adarre
+    .accesskey = i
 menu-move-to =
     .label = Dilec'hiañ etrezek
     .accesskey = D
