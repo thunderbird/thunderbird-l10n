@@ -27,7 +27,33 @@ filter-failure-move-failed = Αποτυχία μετακίνησης
 filter-failure-copy-failed = Αποτυχία αντιγραφής
 filter-failure-action = Αποτυχία εφαρμογής της ενέργειας φίλτρου
 # Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Εφαρμόστηκε το φίλτρο «{ $filterName }» στο μήνυμα από τον/την { $author } - { $subject } στις { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = μετακινήθηκε το μήνυμα με id = { $id } στο «{ $folder }»
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = αντιγράφηκε το μήνυμα με id={ $id } στο «{ $folder }»
+filter-missing-custom-action = Λείπει προσαρμοσμένη ενέργεια
+filter-action-log-priority = η προτεραιότητα άλλαξε
+filter-action-log-deleted = διαγράφηκε
+filter-action-log-read = σημειώθηκε ως αναγνωσμένο
+filter-action-log-kill = το νήμα τερματίστηκε
+filter-action-log-watch = το νήμα παρακολουθείται
+filter-action-log-starred = με αστέρι
+filter-action-log-replied = απαντήθηκε
+filter-action-log-forwarded = προωθήθηκε
+filter-action-log-stop = η εκτέλεση διακόπηκε
+filter-action-log-pop3-delete = διαγράφηκε από τον διακομιστή POP3
+filter-action-log-pop3-leave = διατηρήθηκε στον διακομιστή POP3
 filter-action-log-spam = βαθμολογία ανεπιθύμητων
+filter-action-log-pop3-fetch = έγινε λήψη σώματος από διακομιστή POP3
+filter-action-log-tagged = με ετικέτα
+filter-action-log-ignore-subthread = αγνοημένο υπονήμα
+filter-action-log-unread = σημειώθηκε ως μη αναγνωσμένο
