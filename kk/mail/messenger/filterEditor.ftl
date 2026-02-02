@@ -18,6 +18,15 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = { $author } - { $subject } адресінен { $date } уақытында спам анықталды
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Сүзгі әрекеті сәтсіз: "{ $errorMsg }" қате коды={ $errorCode }, орындалу кезінде:
+filter-failure-sending-reply-error = Жауапты жіберу қатесі
+filter-failure-sending-reply-aborted = Жауапты жіберу үзілді
+filter-failure-move-failed = Жылжыту сәтсіз аяқталды
+filter-failure-copy-failed = Көшіріп алу сәтсіз аяқталды
+filter-failure-action = Сүзгі әрекетін іске асыру сәтсіз аяқталды
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = жылжытылды хабарлама id = { $id }, { $folder } ішіне
