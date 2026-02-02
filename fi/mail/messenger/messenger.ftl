@@ -182,6 +182,10 @@ redirect-msg-menuitem =
 
 ## Shared Menu Items
 
+menu-move-again =
+    .label = Siirrä uudestaan
+move-to-folder-again-key =
+    .key = m
 # Variables:
 # $folderName (String) - The name of the folder to which the message(s) will be moved.
 # Note: The access key should be a letter that occurs before $folderName in the translated string.
