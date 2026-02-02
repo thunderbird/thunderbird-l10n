@@ -18,6 +18,15 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = U pikasën mesazhe të padëshiruar nga { $author } - { $subject } më { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Veprimi i Filtrit Dështoi: "{ $errorMsg }" me kod gabimi={ $errorCode }, teksa provohej:
+filter-failure-sending-reply-error = Gabim në dërgimin e përgjigjes
+filter-failure-sending-reply-aborted = Dërgimi i përgjigjes u ndërpre
+filter-failure-move-failed = Lëvizja dështoi
+filter-failure-copy-failed = Kopjimi dështoi
+filter-failure-action = S’u arrit të zbatohet veprimi i filtrimit
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
