@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = nội dung được lấy từ máy chủ POP3
 filter-action-log-tagged = đã dán nhãn
 filter-action-log-ignore-subthread = chủ đề con đã bỏ qua
 filter-action-log-unread = đánh dấu là chưa đọc
+filter-editor-must-select-target-folder = Bạn phải chọn một thư mục đích.
+filter-editor-enter-valid-email-forward = Nhập một địa chỉ e-mail hợp lệ để chuyển tiếp tới.
+filter-editor-pick-template-reply = Chọn một thư mẫu để trả lời.
