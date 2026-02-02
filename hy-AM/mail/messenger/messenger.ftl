@@ -104,6 +104,12 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Տեղափոխել՝
     .accesskey = M
+menu-copy-to =
+    .label = Պատճենել՝
+    .accesskey = C
+menu-move-copy-favorites =
+    .label = Ընտրյալներ
+    .accesskey = F
 
 ## AppMenu
 
