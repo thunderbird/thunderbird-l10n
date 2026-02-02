@@ -38,3 +38,6 @@ filter-action-log-pop3-fetch = جُلِب المتن من خادوم POP3
 filter-action-log-tagged = موسومة
 filter-action-log-ignore-subthread = نقاشاتها الفرعية متجاهَلة
 filter-action-log-unread = أشِّرت كغير مقروءة
+filter-editor-must-select-target-folder = عليك أن تختار المجلد الهدف.
+filter-editor-enter-valid-email-forward = أدخل عنوان بريد صحيح ليُمرّر إليه.
+filter-editor-pick-template-reply = اختر قالبًا للرد به.
