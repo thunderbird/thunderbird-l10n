@@ -340,8 +340,8 @@ tz-from-locale =
     Casowa cona jo se ze za serbskorěcne wužywarje wěrjepódobnych casowych conow
     wubrała, kótaraž maka se z casoweju conu źěłowego systema.
 tz-from-known-timezones =
-    Casowa cona jo se wubrała, z tym až pśepytuju se znate casowe cony w
-    alfabetiskem pórěźe ID casoweje cony za jadnakosću z casoweju conu źěłowego systema.
+    Casowa cona jo se wubrała na zakłaźe zmakanja casoweje cony
+    źěłowego systema ze znatymi casowymi conami w alfabetiskem pórěźe ID casoweje cony.
 # Print Layout
 tasks-with-no-due-date = Nadawki bźez termina
 # Providers
