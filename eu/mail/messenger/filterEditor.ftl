@@ -5,6 +5,15 @@
 rule-menuitem-spam =
     .label = Spam
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Iragazketa ekintzak huts egin du: "{ $errorMsg }" ekintzak { $errorCode } errore mezua ondokoa saiatzean:
+filter-failure-sending-reply-error = Errorea erantzuna bidaltzean
+filter-failure-sending-reply-aborted = Erantzuna bidaltzea abortatua
+filter-failure-move-failed = Mugitzeak huts egin du
+filter-failure-copy-failed = Kopiatzeak huts egin du
+filter-failure-action = Huts egin du iragazkia aplikatzean
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
