@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = meddelandetext hämtad från POP3-server
 filter-action-log-tagged = satt etikett
 filter-action-log-ignore-subthread = ignorerad undertråd
 filter-action-log-unread = märkt som oläst
+filter-editor-must-select-target-folder = Du måste välja en målmapp.
+filter-editor-enter-valid-email-forward = Skriv in en giltig e-postadress att vidarebefordra till.
+filter-editor-pick-template-reply = Välj en mall för svaret.
