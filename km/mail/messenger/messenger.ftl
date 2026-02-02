@@ -3,11 +3,41 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Window controls
+
+
+## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+
+## Toolbar
+
+
+## Folder Pane
+
+
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Պիտակներ
     .accesskey = T
+
+## Folder names
+
+
+## File Menu
+
 
 ## Edit Menu
 
@@ -42,11 +72,63 @@ menu-edit-newsgroup-properties =
     .label = លក្ខណសម្បត្តិ​វេទិកា​ព័ត៌មាន…
     .accesskey = o
 
+## Message Menu
+
+
+## Shared Menu Items
+
+menu-move-again =
+    .label = Կրկնել
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = ផ្លាស់ទី​ទៅ "{ $folderName }" ម្ដងទៀត
+    .accesskey = t
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = ចម្លង​ទៅ "{ $folderName }" ម្ដងទៀត
+    .accesskey = t
+
+## AppMenu
+
+
 ## Context menu
 
 mail-context-menu-forward-forward =
     .label = Փոխանցել
     .accesskey = F
+
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
+## Add-on removal warning
+
+
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
 
 ## Quick Filter Bar
 
@@ -60,12 +142,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = Ո
 mark-not-junk-key =
     .key = Ո
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -92,3 +195,9 @@ message-group-no-attachments = គ្មាន​ឯកសារ​ភ្ជា�
 message-group-attachments = ឯកសារ​ភ្ជាប់
 message-group-not-starred = មិន​បាន​ដាក់​ផ្កាយ
 message-group-starred = បាន​ដាក់​ផ្កាយ
+
+## Prompts
+
+
+## Spam commands
+
