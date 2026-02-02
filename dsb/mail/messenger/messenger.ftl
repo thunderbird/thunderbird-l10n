@@ -206,6 +206,13 @@ redirect-msg-menuitem =
     .label = Dalej pósrědniś
     .accesskey = D
 
+## Shared Menu Items
+
+menu-move-again =
+    .label = Dalej pśesunuś
+move-to-folder-again-key =
+    .key = m
+
 ## AppMenu
 
 appmenu-save-as-file =
