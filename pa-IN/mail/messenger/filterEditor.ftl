@@ -32,3 +32,6 @@ filter-action-log-pop3-fetch = POP3 ਸਰਵਰ ਤੋਂ ਪ੍ਰਾਪਤ �
 filter-action-log-tagged = ਟੈਗ ਕੀਤੇ
 filter-action-log-ignore-subthread = ਸਬ-ਥਰਿੱਡ ਅਣਡਿੱਠਾ ਕੀਤਾ
 filter-action-log-unread = marked as unread
+filter-editor-must-select-target-folder = ਤੁਹਾਨੂੰ ਇੱਕ ਨਿਸ਼ਾਨਾ ਫੋਲਡਰ ਚੁਣਨਾ ਚਾਹੀਦਾ ਹੈ।
+filter-editor-enter-valid-email-forward = ਅੱਗੇ ਭੇਜਣ ਲਈ ਠੀਕ ਈ-ਮੇਲ ਐਡਰੈੱਸ ਦਿਓ।
+filter-editor-pick-template-reply = ਜਵਾਬ ਦੇਣ ਲਈ ਟੈਪਲੇਟ ਦੀ ਚੋਣ ਕਰੋ।
