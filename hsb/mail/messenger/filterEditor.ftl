@@ -27,7 +27,33 @@ filter-failure-move-failed = Přesunjenje je so nimokuliło
 filter-failure-copy-failed = Kopěrowanje je so nimokuliło
 filter-failure-action = Nałožowanje filtroweje akcije njeje so poradźiło
 # Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Filter "{ $filterName }" na powěsć wot { $author } - { $subject } { $date } nałoženy
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = powěsć z id = { $id } na { $folder } přesunjena
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = powěsć z id = { $id } na { $folder } kopěrowana
+filter-missing-custom-action = Swójska akcija faluje
+filter-action-log-priority = priorita změnjena
+filter-action-log-deleted = zhašana
+filter-action-log-read = jako přečitany woznamjenjena
+filter-action-log-kill = nitka zhašana
+filter-action-log-watch = nitka wobkedźbowana
+filter-action-log-starred = z hwěžku
+filter-action-log-replied = wotmołwjeny
+filter-action-log-forwarded = sposrědkowany
+filter-action-log-stop = wuwjedźenje zastajene
+filter-action-log-pop3-delete = na serwerje POP3 zhašeny
+filter-action-log-pop3-leave = na serwerje POP3 zawostajeny
 filter-action-log-spam = spamowe pohódnoćenje
+filter-action-log-pop3-fetch = tekst powěsć ze serwera POP3 wobstarany
+filter-action-log-tagged = ze značku
+filter-action-log-ignore-subthread = podnitka ignorowana
+filter-action-log-unread = jako njepřečitany markěrowany
