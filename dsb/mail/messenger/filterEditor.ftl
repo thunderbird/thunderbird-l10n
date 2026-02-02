@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = śěleso z POP3-serwera wótwołane
 filter-action-log-tagged = z marku
 filter-action-log-ignore-subthread = pódnitka ignorěrowany
 filter-action-log-unread = ako njepśecytany markěrowany
+filter-editor-must-select-target-folder = Wy dejśo celowy zarědnik wubraś.
+filter-editor-enter-valid-email-forward = Zapódajśo płaśiwu e-mailowu adresu za dalejpósrědnjenje.
+filter-editor-pick-template-reply = Wubjeŕśo pśedłogu za wótegrono.
