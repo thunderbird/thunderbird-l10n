@@ -203,6 +203,9 @@ menu-move-again =
     .label = Déplacer à nouveau
 move-to-folder-again-key =
     .key = m
+menu-move-to =
+    .label = Déplacer vers
+    .accesskey = D
 
 ## AppMenu
 
