@@ -84,6 +84,12 @@ menu-move-to-folder-again =
 menu-copy-to-folder-again =
     .label = Kopieer weer na "{ $folderName }"
     .accesskey = w
+menu-move-to =
+    .label = Skuif na
+    .accesskey = S
+menu-copy-to =
+    .label = Kopieer na
+    .accesskey = K
 
 ## AppMenu
 
