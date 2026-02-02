@@ -219,6 +219,12 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Áthelyezés
     .accesskey = h
+menu-copy-to =
+    .label = Átmásolás
+    .accesskey = m
+menu-move-copy-favorites =
+    .label = Kedvencek
+    .accesskey = K
 
 ## AppMenu
 
