@@ -18,6 +18,15 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Wedi canfod sbam oddi wrth { $author } - { $subject } ar { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Methodd Gweithredu'r Hidl: "{ $errorMsg }" gyda error code={ $errorCode } wrth geisio:
+filter-failure-sending-reply-error = Gwall wrth anfon ateb
+filter-failure-sending-reply-aborted = Ataliwyd anfon yr ateb
+filter-failure-move-failed = Methodd y symud
+filter-failure-copy-failed = Methodd y copïo
+filter-failure-action = Methu gosod y weithred hidlo
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = symud enw'r neges = { $id } i { $folder }
