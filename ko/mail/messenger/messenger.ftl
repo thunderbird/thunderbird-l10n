@@ -183,6 +183,18 @@ menu-move-again =
     .label = 같은 폴더로 이동
 move-to-folder-again-key =
     .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = "{ $folderName }"로 다시 이동
+    .accesskey = t
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = "{ $folderName }"로 다시 복사
+    .accesskey = t
 menu-move-to =
     .label = 이동
     .accesskey = M
