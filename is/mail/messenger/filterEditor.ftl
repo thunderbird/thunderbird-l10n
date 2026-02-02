@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = meginmál náð í frá POP3 póstþjóni
 filter-action-log-tagged = merkt
 filter-action-log-ignore-subthread = hunsaður undirumræða
 filter-action-log-unread = merkt sem ólesið
+filter-editor-must-select-target-folder = Þú verður að velja möppu.
+filter-editor-enter-valid-email-forward = Settu inn löglegt tölvupóstfang til að áframsenda á.
+filter-editor-pick-template-reply = Veldu sniðmát til að svara með.
