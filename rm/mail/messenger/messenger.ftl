@@ -194,6 +194,15 @@ menu-move-to-folder-again =
 menu-copy-to-folder-again =
     .label = Copiar puspè a "{ $folderName }"
     .accesskey = t
+menu-move-to =
+    .label = Spustar a
+    .accesskey = p
+menu-copy-to =
+    .label = Copiar en
+    .accesskey = C
+menu-move-copy-favorites =
+    .label = Favurits
+    .accesskey = F
 
 ## AppMenu
 
