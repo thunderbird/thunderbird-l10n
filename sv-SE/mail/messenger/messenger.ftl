@@ -218,6 +218,12 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Flytta till
     .accesskey = F
+menu-copy-to =
+    .label = Kopiera till
+    .accesskey = o
+menu-move-copy-favorites =
+    .label = Favoriter
+    .accesskey = F
 
 ## AppMenu
 
