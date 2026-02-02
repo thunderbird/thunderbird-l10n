@@ -214,6 +214,15 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Pindahkan Ke
     .accesskey = P
+menu-copy-to =
+    .label = Salin Ke
+    .accesskey = S
+menu-move-copy-recent-destinations =
+    .label = Destinasi Terbaru
+    .accesskey = R
+menu-move-copy-favorites =
+    .label = Favorit
+    .accesskey = F
 
 ## AppMenu
 
