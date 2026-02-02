@@ -18,6 +18,15 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Net-winske-e-mail ûntdutsen fan { $author } – { $subject } op { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Filteraksje mislearre: ‘{ $errorMsg }’ mei flaterkoade={ $errorCode } by it folgjende besykjen:
+filter-failure-sending-reply-error = Flater by ferstjoeren antwurd
+filter-failure-sending-reply-aborted = Antwurd ferstjoere ôfbrutsen
+filter-failure-move-failed = Ferpleatsen mislearre
+filter-failure-copy-failed = Kopiearjen mislearre
+filter-failure-action = De filteraksje is net tapast
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
@@ -48,3 +57,6 @@ filter-action-log-pop3-fetch = kearn ophelle fan POP3-server
 filter-action-log-tagged = labele
 filter-action-log-ignore-subthread = negearre subpetear
 filter-action-log-unread = markearre as net lêze
+filter-editor-must-select-target-folder = Jo moatte in doelmap selektearje.
+filter-editor-enter-valid-email-forward = Jou in jildich e-mailadres yn om nei troch te stjoeren.
+filter-editor-pick-template-reply = Kies een sjabloan om mei te antwurdzjen.
