@@ -218,6 +218,15 @@ menu-move-to-folder-again =
 menu-copy-to-folder-again =
     .label = Copiază din nou în „{ $folderName }”
     .accesskey = t
+menu-move-to =
+    .label = Mută în
+    .accesskey = M
+menu-copy-to =
+    .label = Copiază în
+    .accesskey = C
+menu-move-copy-favorites =
+    .label = Favorite
+    .accesskey = F
 
 ## AppMenu
 
