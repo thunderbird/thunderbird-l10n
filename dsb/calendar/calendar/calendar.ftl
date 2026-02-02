@@ -414,8 +414,8 @@ alarm-snooze-limit-exceeded =
     { $count ->
         [one] Njamóžośo alarm za wěcej ako { $count } mjasec drěmaś daś.
         [two] Njamóžośo alarm za wěcej ako { $count } mjaseca drěmaś daś.
-        [few] Njemóžośo alarm za wěcej ako { $count } mjasece drěmaś daś.
-       *[other] Njamóžośo alarm za wěcej ako { $count } mjasecow drěmas daś.
+        [few] Njamóžośo alarm za wěcej ako { $count } mjasece drěmaś daś.
+       *[other] Njamóžośo alarm za wěcej ako { $count } mjasecow drěmaś daś.
     }
 task-details-status-needs-action = Pomina akciju
 # LOCALIZATION NOTE (task-details-status-in-progress):
@@ -445,7 +445,7 @@ error-description = Wopisanje:{ $errorDescription }
 # LOCALIZATION NOTE (error-writing):
 # used for an message like 'An error occurred when writing to the calendar Home!'
 #    $name will be replaced with the name of a calendar
-error-writing2 = Pśi pisanju do kalendarja { $name } jo zmólka nastała! Glědajśo pšosym dołojce za dalšymi informacijami.
+error-writing2 = Pśi pisanju do kalendarja { $name } jo zmólka nastała! Glědajśo pšosym dołojce za dalšnymi informacijami.
 # LOCALIZATION NOTE (error-writing-details):
 # This will be displayed in the detail section of the error dialog
 error-writing-details = Jolic toś tu powěsć wiźiśo, za tym až sćo dopomnjeśe drěmas dał abo schował a to jo za kalendaŕ, za kótaryž njocośo tšojenja pśidaś abo wobźěłaś, móžośo toś ten kalendaŕ ako janož cytajobnu markěrowaś, aby se wobinuł takego dožywjenja w pśichoźe. Aby to cynił, klikniśo z pšaweju tastu myški na toś ten kalendaŕ w lisćinje w kalenderowem abo nadawkowem naglěźe, aby do kakosćow kalendarja pśejšeł.
