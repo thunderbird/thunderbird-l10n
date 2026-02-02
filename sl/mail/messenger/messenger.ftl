@@ -226,6 +226,12 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Premakni v
     .accesskey = m
+menu-copy-to =
+    .label = Kopiraj v
+    .accesskey = K
+menu-move-copy-favorites =
+    .label = Priljubljene
+    .accesskey = P
 
 ## AppMenu
 
