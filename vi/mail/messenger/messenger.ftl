@@ -202,9 +202,30 @@ menu-move-again =
     .label = Thử di chuyển lại
 move-to-folder-again-key =
     .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Di chuyển lần nữa đến "{ $folderName }"
+    .accesskey = L
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Sao chép đến "{ $folderName }" một lần nữa
+    .accesskey = L
 menu-move-to =
     .label = Di chuyển đến
     .accesskey = D
+menu-copy-to =
+    .label = Sao chép đến
+    .accesskey = C
+menu-move-copy-recent-destinations =
+    .label = Điểm đến gần đây
+    .accesskey = R
+menu-move-copy-favorites =
+    .label = Ưa thích
+    .accesskey = F
 
 ## AppMenu
 
