@@ -81,6 +81,24 @@ menu-move-again =
     .label = Mover de nueves
 move-to-folder-again-key =
     .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Mover de nueves a "{ $folderName }"
+    .accesskey = n
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Copiar de nueves a "{ $folderName }"
+    .accesskey = n
+menu-move-to =
+    .label = Mover a
+    .accesskey = m
+menu-copy-to =
+    .label = Copiar a
+    .accesskey = C
 
 ## AppMenu
 
