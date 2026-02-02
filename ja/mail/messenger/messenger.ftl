@@ -193,6 +193,9 @@ redirect-msg-menuitem =
     .label = リダイレクト
     .accesskey = D
 
+## Shared Menu Items
+
+
 ## AppMenu
 
 appmenu-save-as-file =
@@ -549,8 +552,6 @@ archive-action = アーカイブ
 
 ## Message list.
 
-menuitem-label-spam =
-    .label = 迷惑メール
 menuitem-label-spam-score-origin =
     .label = 迷惑メールの判別元
 menuitem-label-spam-percentage =
