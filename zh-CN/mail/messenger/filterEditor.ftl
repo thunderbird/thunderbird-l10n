@@ -18,7 +18,42 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = 检测到 { $date } 来自 { $author } 的垃圾邮件“{ $subject }”
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = 过滤器操作失败：“{ $errorMsg }”操作，错误码={ $errorCode }：
+filter-failure-sending-reply-error = 发送回复时出错
+filter-failure-sending-reply-aborted = 已中止发送回复
+filter-failure-move-failed = 移动失败
+filter-failure-copy-failed = 复制失败
+filter-failure-action = 筛选操作应用失败
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = 对位于 { $date } 的从 { $author } 至 { $subject } 的消息执行 "{ $filterName }" 过滤器
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = 已复制消息 id = { $id } 至 { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = 已复制消息 id = { $id } 至 { $folder }
+filter-missing-custom-action = 缺失自定义动作
+filter-action-log-priority = 优先级已修改
+filter-action-log-deleted = 已删除
+filter-action-log-read = 标记为已读
+filter-action-log-kill = 已删除论题
+filter-action-log-watch = 已跟踪此话题
+filter-action-log-starred = 已加星标
+filter-action-log-replied = 已回复
+filter-action-log-forwarded = 已转发
+filter-action-log-stop = 执行已停止
+filter-action-log-pop3-delete = 从 POP3 服务器删除
+filter-action-log-pop3-leave = 保留在 POP3 服务器上
 filter-action-log-spam = 垃圾邮件分值
+filter-action-log-pop3-fetch = 消息体已从 POP3 服务器获取
+filter-action-log-tagged = 已加标签
+filter-action-log-ignore-subthread = 忽略的子论题
+filter-action-log-unread = 标记为未读
