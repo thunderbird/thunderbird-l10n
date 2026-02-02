@@ -28,3 +28,6 @@ filter-action-log-stop = извшрувањето е сопрено
 filter-action-log-pop3-delete = избришана од POP3 сервер
 filter-action-log-pop3-leave = оставена на POP3 сервер
 filter-action-log-pop3-fetch = телото е симнато од POP3 сервер
+filter-editor-must-select-target-folder = Мора да изберете целна папка.
+filter-editor-enter-valid-email-forward = Внесете важечка адреса за е-пошта до која ќе се препраќа.
+filter-editor-pick-template-reply = Изберете шаблон со која ќе одговорите.
