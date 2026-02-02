@@ -224,6 +224,15 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Přesunout do
     .accesskey = s
+menu-copy-to =
+    .label = Kopírovat do
+    .accesskey = K
+menu-move-copy-recent-destinations =
+    .label = Nedávná umístění
+    .accesskey = N
+menu-move-copy-favorites =
+    .label = Oblíbené
+    .accesskey = O
 
 ## AppMenu
 
