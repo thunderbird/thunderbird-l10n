@@ -184,6 +184,8 @@ redirect-msg-menuitem =
 
 menu-move-again =
     .label = Mover de novo
+move-to-folder-again-key =
+    .key = m
 menu-move-to =
     .label = Mover a
     .accesskey = M
