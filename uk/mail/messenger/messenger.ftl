@@ -130,6 +130,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Компактне подання
     .accesskey = К
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -181,6 +184,21 @@ menu-edit-newsgroup-properties =
 redirect-msg-menuitem =
     .label = Переслати
     .accesskey = П
+
+## Shared Menu Items
+
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Перемістити до «{ $folderName }» знову
+    .accesskey = т
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Скопіювати до «{ $folderName }» знову
+    .accesskey = к
 
 ## AppMenu
 
@@ -479,12 +497,24 @@ openpgp-forget = Забути парольні фрази OpenPGP
 quota-panel-percent-used = { $percent }% заповнено
     .title = Квота IMAP: Усього використано { $usage } з { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -524,3 +554,9 @@ message-group-starred = З зіркою
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = та ін.
+
+## Prompts
+
+
+## Spam commands
+
