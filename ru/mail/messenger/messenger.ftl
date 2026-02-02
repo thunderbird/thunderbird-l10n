@@ -204,6 +204,18 @@ redirect-msg-menuitem =
     .label = Перенаправить
     .accesskey = н
 
+## Shared Menu Items
+
+menu-move-to =
+    .label = Переместить в папку
+    .accesskey = е
+menu-copy-to =
+    .label = Копировать в папку
+    .accesskey = К
+menu-move-copy-favorites =
+    .label = Избранное
+    .accesskey = о
+
 ## AppMenu
 
 appmenu-save-as-file =
