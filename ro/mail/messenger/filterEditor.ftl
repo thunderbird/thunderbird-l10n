@@ -18,6 +18,15 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Mesaj nedorit detectat de la { $author } - { $subject } la { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Acțiunea filtrului a eșuat: „{ $errorMsg }” cu codul de eroare={ $errorCode } la încercarea:
+filter-failure-sending-reply-error = Eroare la trimiterea răspunsului
+filter-failure-sending-reply-aborted = Trimitere răspuns abandonată
+filter-failure-move-failed = Mutarea a eșuat
+filter-failure-copy-failed = Copierea a eșuat
+filter-failure-action = Eșec de aplicare a acțiunii de filtrare
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
