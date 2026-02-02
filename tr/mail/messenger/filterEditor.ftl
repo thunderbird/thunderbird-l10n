@@ -18,6 +18,15 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Spam tespit edildi. Gönderen: { $author }, konu: { $subject }, tarih: { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Süzgeç eylemi başarısız oldu: "{ $errorMsg }". Hata kodu: { $errorCode }: Denenen:
+filter-failure-sending-reply-error = Yanıt gönderme hatası
+filter-failure-sending-reply-aborted = Yanıtın gönderilmesinden vazgeçildi
+filter-failure-move-failed = Taşıma başarısız oldu
+filter-failure-copy-failed = Kopyalama başarısız oldu
+filter-failure-action = Süzgeç eyleminin uygulanması başarısız oldu
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
