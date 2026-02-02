@@ -18,6 +18,15 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = აღმოჩენილი ჯართი გამომგზავნისგან { $author } – { $subject }, თარიღით { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = გაფილტვრა ვერ მოხერხდა: "{ $errorMsg }" შეცდომის კოდით={ $errorCode } მცდელობისას:
+filter-failure-sending-reply-error = შეცდომა პასუხის გაგზავნისას
+filter-failure-sending-reply-aborted = პასუხის გაგზავნა გაუქმებულია
+filter-failure-move-failed = გადატანა ვერ მოხერხდა
+filter-failure-copy-failed = ასლის აღება ვერ მოხერხდა
+filter-failure-action = ფილტრის გამოყენება ვერ მოხერხდა
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
