@@ -202,9 +202,19 @@ redirect-msg-menuitem =
 
 ## Shared Menu Items
 
+menu-move-again =
+    .label = Przenieś ponownie
+move-to-folder-again-key =
+    .key = m
 menu-move-to =
     .label = Przenieś do
     .accesskey = z
+menu-copy-to =
+    .label = Kopiuj do
+    .accesskey = K
+menu-move-copy-favorites =
+    .label = Ulubione
+    .accesskey = U
 
 ## AppMenu
 
