@@ -18,6 +18,15 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Wykryto niechcianą wiadomość od { $author } – { $subject }, wysłana { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Filtrowanie się nie powiodło: „{ $errorMsg }” zgłasza błąd „code={ $errorCode }” podczas:
+filter-failure-sending-reply-error = Błąd podczas wysyłania odpowiedzi
+filter-failure-sending-reply-aborted = Przerwano wysyłanie odpowiedzi
+filter-failure-move-failed = Przeniesienie się nie powiodło
+filter-failure-copy-failed = Skopiowanie się nie powiodło
+filter-failure-action = Zastosowanie filtrowania się nie powiodło
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
