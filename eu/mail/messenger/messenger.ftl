@@ -201,6 +201,15 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = Eraman hona
     .accesskey = m
+menu-copy-to =
+    .label = Kopiatu hona
+    .accesskey = K
+menu-move-copy-recent-destinations =
+    .label = Azken Helmugak
+    .accesskey = R
+menu-move-copy-favorites =
+    .label = Gogokoak
+    .accesskey = a
 
 ## AppMenu
 
