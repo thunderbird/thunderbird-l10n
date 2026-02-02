@@ -211,6 +211,9 @@ menu-move-to-folder-again =
 menu-copy-to-folder-again =
     .label = Ulangi Salin ke "{ $folderName }"
     .accesskey = U
+menu-move-to =
+    .label = Pindahkan Ke
+    .accesskey = P
 
 ## AppMenu
 
