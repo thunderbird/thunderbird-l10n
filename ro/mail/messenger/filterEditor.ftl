@@ -18,7 +18,21 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Mesaj nedorit detectat de la { $author } - { $subject } la { $date }
 # Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Filtrul „{ $filterName }” aplicat mesajului de la { $author } - { $subject } în { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = mutat mesajul { $id } în { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = copiat mesajul { $id } în { $folder }
+filter-missing-custom-action = Acțiune personalizată lipsă
+filter-action-log-priority = prioritate schimbată
+filter-action-log-deleted = șters
+filter-action-log-read = marcat ca citit
 filter-action-log-spam = scor de mesaj nedorit
