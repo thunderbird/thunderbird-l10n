@@ -206,6 +206,10 @@ redirect-msg-menuitem =
 
 ## Shared Menu Items
 
+menu-move-again =
+    .label = Повторить перемещение
+move-to-folder-again-key =
+    .key = m
 menu-move-to =
     .label = Переместить в папку
     .accesskey = е
