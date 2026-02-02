@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = corpo obtido do servidor POP3
 filter-action-log-tagged = com etiqueta
 filter-action-log-ignore-subthread = subtópico ignorado
 filter-action-log-unread = marcada como não lida
+filter-editor-must-select-target-folder = Tem de escolher uma pasta de destino.
+filter-editor-enter-valid-email-forward = Introduza um endereço de e-mail para reencaminhamento.
+filter-editor-pick-template-reply = Escolha o modelo a incluir na resposta.
