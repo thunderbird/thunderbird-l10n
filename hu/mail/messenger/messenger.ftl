@@ -216,6 +216,9 @@ menu-move-to-folder-again =
 menu-copy-to-folder-again =
     .label = Másolás ismét: „{ $folderName }”
     .accesskey = i
+menu-move-to =
+    .label = Áthelyezés
+    .accesskey = h
 
 ## AppMenu
 
