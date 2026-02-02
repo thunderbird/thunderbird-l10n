@@ -41,3 +41,6 @@ filter-action-log-pop3-fetch = s'ha recollit el cos del servidor POP3
 filter-action-log-tagged = etiquetat
 filter-action-log-ignore-subthread = subconversa ignorada
 filter-action-log-unread = marcat com a no llegit
+filter-editor-must-select-target-folder = Heu de seleccionar una carpeta de destí.
+filter-editor-enter-valid-email-forward = Introduïu una adreça electrònica vàlida per reenviar-ho.
+filter-editor-pick-template-reply = Trieu la plantilla que utilitzareu per respondre.
