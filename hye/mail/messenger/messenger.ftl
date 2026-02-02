@@ -141,6 +141,10 @@ redirect-msg-menuitem =
 
 ## Shared Menu Items
 
+menu-move-again =
+    .label = Կրկին տեղափոխել
+move-to-folder-again-key =
+    .key = m
 menu-move-to =
     .label = Տեղափոխել՝
     .accesskey = Տ
