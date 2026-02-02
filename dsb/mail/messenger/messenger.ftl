@@ -212,6 +212,15 @@ menu-move-again =
     .label = Dalej pśesunuś
 move-to-folder-again-key =
     .key = m
+menu-move-to =
+    .label = Pśesunuś do
+    .accesskey = P
+menu-copy-to =
+    .label = Kopěrowaś do
+    .accesskey = K
+menu-move-copy-favorites =
+    .label = Fawority
+    .accesskey = F
 
 ## AppMenu
 
