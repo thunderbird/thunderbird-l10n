@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = hoofdtekst opgehaald van POP3-server
 filter-action-log-tagged = gelabeld
 filter-action-log-ignore-subthread = subconversatie genegeerd
 filter-action-log-unread = gemarkeerd als ongelezen
+filter-editor-must-select-target-folder = U moet een doelmap selecteren.
+filter-editor-enter-valid-email-forward = Voer een geldig e-mailadres in om naar door te sturen.
+filter-editor-pick-template-reply = Kies een sjabloon om mee te antwoorden.
