@@ -216,6 +216,12 @@ menu-move-to-folder-again =
 menu-copy-to-folder-again =
     .label = Copiar novamente para "{ $folderName }"
     .accesskey = t
+menu-move-to =
+    .label = Mover para
+    .accesskey = M
+menu-copy-to =
+    .label = Copiar para
+    .accesskey = C
 
 ## AppMenu
 
