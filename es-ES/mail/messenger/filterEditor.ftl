@@ -18,7 +18,45 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Se detectó mensaje no deseado de { $author } - { $subject } el { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Acción de filtro fallida: "{ $errorMsg }" con el código de error={ $errorCode } al intentar:
+filter-failure-sending-reply-error = Error al enviar la respuesta
+filter-failure-sending-reply-aborted = Envío de respuesta interrumpido
+filter-failure-move-failed = Movimiento fallido
+filter-failure-copy-failed = Copia fallida
+filter-failure-action = Ha fallado la aplicación del filtro
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Aplicado filtro "{ $filterName }" al mensaje de { $author } - { $subject } de fecha { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = movido mensaje con id = { $id } a { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = copiado mensaje con id = { $id } a { $folder }
+filter-missing-custom-action = Falta la acción personalizada
+filter-action-log-priority = prioridad cambiada
+filter-action-log-deleted = borrado
+filter-action-log-read = marcado como leído
+filter-action-log-kill = conversación eliminada
+filter-action-log-watch = conversación marcada para observación
+filter-action-log-starred = con estrella
+filter-action-log-replied = contestado
+filter-action-log-forwarded = reenviado
+filter-action-log-stop = ejecución detenida
+filter-action-log-pop3-delete = borrado del servidor POP3
+filter-action-log-pop3-leave = mantenido en el servidor POP3
 filter-action-log-spam = puntuación de correo no deseado
+filter-action-log-pop3-fetch = cuerpo recuperado del servidor POP3
+filter-action-log-tagged = etiquetado
+filter-action-log-ignore-subthread = sub-conversación ignorada
+filter-action-log-unread = marcado como no leído
+filter-editor-must-select-target-folder = Debe seleccionar una carpeta de destino.
+filter-editor-enter-valid-email-forward = Introducir una dirección de correo válida a la que reenviar.
+filter-editor-pick-template-reply = Elegir una plantilla para responder.
