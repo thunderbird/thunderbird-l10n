@@ -513,7 +513,7 @@ import-info-no-keys = Nebyly naimportovány žádné klíče.
 ## Strings in enigmailKeyManager.js
 
 import-from-clip = Přejete si naimportovat nějaké klíče ze schránky?
-import-from-url = Stáhnout veřejný klíč z této URL adresy:
+import-from-url = Stáhnout veřejný klíč z této adresy URL:
 copy-to-clipbrd-failed = Vybrané klíče nelze zkopírovat do schránky.
 copy-to-clipbrd-ok = Klíče byly zkopírovány do schránky
 # Variables:
