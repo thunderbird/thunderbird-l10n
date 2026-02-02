@@ -198,6 +198,10 @@ redirect-msg-menuitem =
 
 ## Shared Menu Items
 
+menu-move-again =
+    .label = 重复移动
+move-to-folder-again-key =
+    .key = m
 menu-move-to =
     .label = 移动到
     .accesskey = M
