@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktne vaade
     .accesskey = v
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -176,6 +179,25 @@ menu-edit-newsgroup-properties =
 redirect-msg-menuitem =
     .label = Suuna ümber
     .accesskey = m
+
+## Shared Menu Items
+
+menu-move-again =
+    .label = Liiguta uuesti
+move-to-folder-again-key =
+    .key = m
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be moved.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-move-to-folder-again =
+    .label = Liiguta kausta "{ $folderName }"
+    .accesskey = i
+# Variables:
+# $folderName (String) - The name of the folder to which the message(s) will be copied.
+# Note: The access key should be a letter that occurs before $folderName in the translated string.
+menu-copy-to-folder-again =
+    .label = Kopeeri kausta "{ $folderName }"
+    .accesskey = i
 
 ## AppMenu
 
@@ -469,12 +491,24 @@ openpgp-forget = Unusta OpenPGP paroolid
 quota-panel-percent-used = { $percent }% täis
     .title = IMAP kvoot: kasutusel { $usage }, kokku { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -516,3 +550,9 @@ message-group-starred = Tähistatud
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = jt
+
+## Prompts
+
+
+## Spam commands
+
