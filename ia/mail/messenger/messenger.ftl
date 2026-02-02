@@ -197,6 +197,16 @@ redirect-msg-menuitem =
     .label = Re-diriger
     .accesskey = d
 
+## Shared Menu Items
+
+menu-move-again =
+    .label = Displaciar de novo
+move-to-folder-again-key =
+    .key = m
+menu-move-to =
+    .label = Mover a
+    .accesskey = M
+
 ## AppMenu
 
 appmenu-save-as-file =
