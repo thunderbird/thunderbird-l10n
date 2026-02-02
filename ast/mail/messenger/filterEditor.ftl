@@ -36,3 +36,6 @@ filter-action-log-pop3-fetch = cuerpu recuperáu del sirvidor POP3
 filter-action-log-tagged = etiquetáu
 filter-action-log-ignore-subthread = sub-conversación inorada
 filter-action-log-unread = conseñáu como non lleíu
+filter-editor-must-select-target-folder = Tienes d'esbillar una carpeta de destín.
+filter-editor-enter-valid-email-forward = Introducir una direición de corréu válida a la que reunviar.
+filter-editor-pick-template-reply = Escoyer una plantía pa responder.
