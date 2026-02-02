@@ -41,3 +41,6 @@ filter-action-log-pop3-fetch = retschavì il corp dal messadi dal server POP3
 filter-action-log-tagged = etichettà
 filter-action-log-ignore-subthread = ignorà il suttema
 filter-action-log-unread = marcà sco nunlegì
+filter-editor-must-select-target-folder = Ti stos tscherner in ordinatur da destinaziun.
+filter-editor-enter-valid-email-forward = Endatescha ina adressa dad e-mail valida a la quala duai vegnir renvià.
+filter-editor-pick-template-reply = Tscherna in model per utilisar cun respunder.
