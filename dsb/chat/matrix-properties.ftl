@@ -43,7 +43,7 @@ connection-request-access = Awtentifikacija se kóńcy
 # LOCALIZATION NOTE (connection-error-*):
 #   These will show in the account manager if an error occurs during the
 #   connection attempt.
-connection-error-no-supported-flow = Serwer kompatibelny pśizjewjański běh njepóbitujo.
+connection-error-no-supported-flow = Serwer kompatibelny pśizjawjeński běg njepóbitujo.
 connection-error-auth-cancelled = Sćo awtorizaciski proces pśetergnuł.
 connection-error-session-ended = Pósejźenje jo se wótzjawiło.
 connection-error-server-not-found = Serwer Matrix njedajo se za pódane konto Matrix identificěrowaś.
