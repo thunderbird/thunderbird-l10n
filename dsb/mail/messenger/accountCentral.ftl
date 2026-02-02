@@ -35,7 +35,7 @@ import-title = Z drugego programa importěrowaś
 import-paragraph2 = { -brand-short-name } wam zmóžnja, e-mailowe powěsći, zapiski adresnikow, kanalowe abonementy, nastajenja a/abo filtry z drugich e-mailowych programow a zwuconych formatow adresnikow importěrowaś.
 import-label = Importěrowaś
     .aria-label = Daty z drugich programow importěrowaś
-about-paragraph = Thunderbird jo wjeducy program wótwórjonego žrědła za e-mail a źěło z kalendrami na někotarych platformach a jo dermotny za komercielne a priwatne wužyśe. Comy, až wóstanjo wěsty a se samo pólěpša. Pósćiwanka nam zmóžnja, wuwijarje pśistajiś, infrastruktura płaśiś a jen dalej pólěpšyś.
+about-paragraph = Thunderbird jo wjeducy program wótwórjonego žrědła za e-mail a źěło z kalendrami na někotarych platformach a jo dermotny za komercielne a priwatne wužyśe. Comy, až wóstanjo wěsty a se samo pólěpša. Pósćiwanka nam zmóžnja, wuwijarje pśistajiś, infrastrukturu płaśiś a jen dalej pólěpšyś.
 about-paragraph-consider-donation = <b>Thunderbird se pśez pósćiwanki financěrujo! Jolic se Thunderbird wam spódoba, rozwažćo pósćiwanku.</b> Aby zawěsćił, až Thunderbird dalej eksistěrujo, <a data-l10n-name="donation-link"> pósććo pšosym.</a>
 support-link = Pomoc
 involved-link = Cyńśo sobu
