@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = POP серверінен денесі алынд�
 filter-action-log-tagged = тег қойылды
 filter-action-log-ignore-subthread = ішкі ағынды елемеу
 filter-action-log-unread = оқылмаған ретінде белгіленді
+filter-editor-must-select-target-folder = Мақсат буманы таңдауыңыз керек.
+filter-editor-enter-valid-email-forward = Әрі қарай жіберу үшін жарамды эл. пошта адресін енгізіңіз.
+filter-editor-pick-template-reply = Жауап берілгенде қолданылатын үлгіні таңдаңыз.
