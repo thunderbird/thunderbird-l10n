@@ -129,6 +129,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista compacta
     .accesskey = C
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -176,6 +179,19 @@ menu-edit-newsgroup-properties =
 redirect-msg-menuitem =
     .label = Redirigir
     .accesskey = d
+
+## Shared Menu Items
+
+menu-move-again =
+    .label = Mover de nuevo
+move-to-folder-again-key =
+    .key = m
+menu-copy-to =
+    .label = Copiar a
+    .accesskey = C
+menu-move-copy-favorites =
+    .label = Favoritos
+    .accesskey = F
 
 ## AppMenu
 
@@ -298,6 +314,9 @@ no-reply-title = Respuesta no admitida
 no-reply-message = La dirección de respuesta ({ $email }) no parece ser una dirección supervisada. Es probable que los mensajes a esta dirección no sean leídos por nadie.
 no-reply-reply-anyway-button = Responder de todos modos
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -398,12 +417,30 @@ quick-filter-bar-show =
 
 openpgp-forget = Olvídate de las frases de contraseña de OpenPGP
 
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = b
 mark-not-junk-key =
     .key = l
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -437,3 +474,9 @@ message-group-starred = Destacado
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
+
+## Prompts
+
+
+## Spam commands
+
