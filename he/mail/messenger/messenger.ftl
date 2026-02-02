@@ -128,6 +128,12 @@ menu-move-to-folder-again =
 menu-copy-to-folder-again =
     .label = העתק את "{ $folderName }" שוב
     .accesskey = ש
+menu-move-to =
+    .label = העבר אל
+    .accesskey = ע
+menu-copy-to =
+    .label = העתק אל
+    .accesskey = ת
 
 ## AppMenu
 
