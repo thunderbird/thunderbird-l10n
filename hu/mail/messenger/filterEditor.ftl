@@ -57,3 +57,6 @@ filter-action-log-pop3-fetch = levéltörzs letöltve a POP3-kiszolgálóról
 filter-action-log-tagged = megcímkézve
 filter-action-log-ignore-subthread = kihagyott témacsoportrész
 filter-action-log-unread = megjelölés olvasatlanként
+filter-editor-must-select-target-folder = Ki kell választania a célmappát.
+filter-editor-enter-valid-email-forward = A továbbításhoz adjon meg érvényes e-mail címet.
+filter-editor-pick-template-reply = Válassza ki a sablont, amelyet a válaszhoz fel kíván használni.
