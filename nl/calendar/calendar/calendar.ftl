@@ -31,7 +31,7 @@ todo-status-cancelled = Geannuleerd
 status-needs-action = Handeling vereist
 status-in-process = Bezig
 status-completed = Voltooid
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Hoog
 normal-priority = Normaal
 low-priority = Laag

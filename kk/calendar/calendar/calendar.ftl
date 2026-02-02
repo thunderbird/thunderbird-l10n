@@ -31,7 +31,7 @@ todo-status-cancelled = Тоқтатылды
 status-needs-action = Әрекет қажет етіледі
 status-in-process = Іс етілуде
 status-completed = Аяқталған
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Жоғары
 normal-priority = Қалыпты
 low-priority = Төмен

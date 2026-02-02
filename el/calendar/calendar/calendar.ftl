@@ -31,7 +31,7 @@ todo-status-cancelled = Ακυρωμένη
 status-needs-action = Απαιτείται ενέργεια
 status-in-process = Σε εξέλιξη
 status-completed = Ολοκληρωμένο
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Υψηλή
 normal-priority = Κανονική
 low-priority = Χαμηλή

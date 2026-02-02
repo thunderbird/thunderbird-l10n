@@ -131,6 +131,9 @@ folder-toolbar-toggle-folder-compact-view =
 
 ## Folder names
 
+folder-name-spam = Spam
+# Gmail's "All Mail" folder. Please make sure this is the same string used in the Gmail web UI for your language.
+folder-name-all-mail = Todo el correo
 
 ## File Menu
 
@@ -262,6 +265,9 @@ other-action-redirect-msg =
 message-header-msg-flagged =
     .title = Destacados
     .aria-label = Destacados
+message-header-delete =
+    .label = Eliminar
+    .tooltiptext = Eliminar este mensaje
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -328,9 +334,6 @@ no-reply-title = Respuesta no admitida
 # $email (String) - Email address the reply will be sent to. Example: "noreply@example.com"
 no-reply-message = La dirección de respuesta ({ $email }) no parece ser una dirección supervisada. Es probable que los mensajes a esta dirección no sean leídos por nadie.
 no-reply-reply-anyway-button = Responder de todos modos
-
-## error messages
-
 
 ## Spaces toolbar
 
@@ -432,30 +435,12 @@ quick-filter-bar-show =
 
 openpgp-forget = Olvídate de las frases de contraseña de OpenPGP
 
-## Quota panel.
-
-
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = b
 mark-not-junk-key =
     .key = l
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
-## Actions for the New Mail Notification
-
 
 ## Message list.
 
@@ -489,9 +474,3 @@ message-group-starred = Destacado
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
-
-## Prompts
-
-
-## Spam commands
-

@@ -31,7 +31,7 @@ todo-status-cancelled = Nullaet
 status-needs-action = Gwered dleet
 status-in-process = En Ardreug
 status-completed = Klokaet
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Uhel
 normal-priority = Reizh
 low-priority = Izel

@@ -31,7 +31,7 @@ todo-status-cancelled = Atšauktas
 status-needs-action = Reikalingas veiksmas
 status-in-process = Vyksta
 status-completed = Užbaigtas
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Aukštas
 normal-priority = Normalus
 low-priority = Žemas

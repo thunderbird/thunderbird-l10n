@@ -31,7 +31,7 @@ todo-status-cancelled = Dibatalkan
 status-needs-action = Butuh Tindakan
 status-in-process = Dalam Proses
 status-completed = Selesai
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Tinggi
 normal-priority = Normal
 low-priority = Rendah

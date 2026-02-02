@@ -31,7 +31,7 @@ todo-status-cancelled = Չեղարկուած
 status-needs-action = Անհրաժեշտ են գործողութիւններ
 status-in-process = Ընթացքում է
 status-completed = Կատարուած է
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Բարձր
 normal-priority = Միջին
 low-priority = Ցածր

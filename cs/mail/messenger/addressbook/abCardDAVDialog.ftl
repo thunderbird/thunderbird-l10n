@@ -13,7 +13,7 @@ carddav-location-label =
     .value = Adresa:
     .accesskey = A
 carddav-location =
-    .default-placeholder = Adresa URL nebo adresa serveru s kontakty
+    .default-placeholder = Adresa URL nebo název hostitele serveru s kontakty
 carddav-loading = Vyhledávání nastavení…
 # Variables:
 # $url (String) - CardDAV endpoint hostname. For example "example.com".

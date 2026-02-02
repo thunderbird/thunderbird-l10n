@@ -31,7 +31,7 @@ todo-status-cancelled = Bertan behera utzita
 status-needs-action = Ekintza behar da
 status-in-process = Prozesuan
 status-completed = Osatua
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Altua
 normal-priority = Normala
 low-priority = Txikia

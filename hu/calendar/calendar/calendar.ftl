@@ -31,7 +31,7 @@ todo-status-cancelled = Megszakítva
 status-needs-action = Foglalkozni kell vele
 status-in-process = Folyamatban
 status-completed = Kész van
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Sürgős
 normal-priority = Normál
 low-priority = Kevéssé sürgős

@@ -3,24 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Window controls
-
-
-## Content tabs
-
-
-# Back
-
-
-# Forward
-
-
-# Reload
-
-
-# Stop
-
-
 ## Toolbar
 
 quick-filter-toolbarbutton =
@@ -36,12 +18,6 @@ folder-pane-header-label = Teuliad
 show-tags-folders-label =
     .label = Merkoù
     .accesskey = M
-
-## Folder names
-
-
-## File Menu
-
 
 ## Edit Menu
 
@@ -84,9 +60,6 @@ menu-edit-newsgroup-properties =
     .label = Perzhioù ar strollad-keleier
     .accesskey = s
 
-## Message Menu
-
-
 ## Shared Menu Items
 
 menu-move-again =
@@ -128,24 +101,6 @@ mail-context-menu-forward-forward =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Dilezel ar gemennadenn
-
-## Message header pane
-
-
-## Message header customize panel
-
-
-## Action Button Context Menu
-
-
-## Add-on removal warning
-
-
-## no-reply handling
-
-
-## error messages
-
 
 ## Spaces toolbar
 
@@ -226,33 +181,12 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
-## Actions for the New Mail Notification
-
 
 ## Message list.
 
@@ -285,9 +219,3 @@ message-group-starred = Steredennet
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = hag all.
-
-## Prompts
-
-
-## Spam commands
-

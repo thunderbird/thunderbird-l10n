@@ -14,6 +14,8 @@ message-header-bcc-list-name = Cco
 message-header-newsgroups-list-name = Grupos de noticias
 message-header-followup-to-list-name = Redireccionar a
 message-header-tags-list-name = Etiquetas
+# List management header - RFC 2369.
+message-header-list-id = ID de la lista
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -62,3 +64,9 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Más
     .title = Mostrar todos los destinatarios
 message-ids-field-show-all = Mostrar todo
+
+## Spam filter
+
+message-bar-not-spam-button =
+    .label = No es spam
+    .accesskey = N

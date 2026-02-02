@@ -31,7 +31,7 @@ todo-status-cancelled = Yettwasefsex
 status-needs-action = Isra tigawt
 status-in-process = Iteddu akka tura
 status-completed = Yemmed
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Meqqer
 normal-priority = Amagnu
 low-priority = Meẓẓi

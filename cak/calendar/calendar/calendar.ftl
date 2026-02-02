@@ -30,7 +30,7 @@ todo-status-cancelled = Q'aton
 status-needs-action = Nawajo' chi Nb'anatäj
 status-in-process = Nitajin
 status-completed = Tz'aqatisan
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Nïm
 normal-priority = Relik
 low-priority = Ko'öl

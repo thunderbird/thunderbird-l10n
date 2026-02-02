@@ -30,7 +30,7 @@ todo-status-cancelled = Bekor qilindi
 status-needs-action = Kerakli amallar
 status-in-process = Amalda
 status-completed = Tugadi
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Yuqori
 normal-priority = O‘rtacha
 low-priority = Past

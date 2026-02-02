@@ -129,9 +129,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Tiivis näkymä
     .accesskey = T
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -476,24 +473,12 @@ openpgp-forget = Unohda OpenPGP-salalauseet
 quota-panel-percent-used = { $percent } % täynnä
     .title = IMAP-kiintiö: Käytetty { $usage }/{ $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -532,9 +517,3 @@ message-group-starred = Tähti
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = jne.
-
-## Prompts
-
-
-## Spam commands
-

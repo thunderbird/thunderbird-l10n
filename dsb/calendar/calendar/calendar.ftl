@@ -31,7 +31,7 @@ todo-status-cancelled = Pśetergnjony
 status-needs-action = Pomina akciju
 status-in-process = Běžy
 status-completed = Dokóńcony
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Wusoka
 normal-priority = Normalna
 low-priority = Niska

@@ -31,7 +31,7 @@ todo-status-cancelled = tühistatud
 status-needs-action = vajab tähelepanu
 status-in-process = pooleli
 status-completed = lõpetatud
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = kõrge
 normal-priority = tavaline
 low-priority = madal

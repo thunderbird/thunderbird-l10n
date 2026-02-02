@@ -31,7 +31,7 @@ todo-status-cancelled = გაუქმდა
 status-needs-action = საჭიროებს ქმედებას
 status-in-process = მიმდინარეობს
 status-completed = დასრულდა
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = მაღალი
 normal-priority = საშუალო
 low-priority = დაბალი

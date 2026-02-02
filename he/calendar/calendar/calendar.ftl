@@ -31,7 +31,7 @@ todo-status-cancelled = בוטל
 status-needs-action = דורש פעולה
 status-in-process = בתהליך
 status-completed = הושלמה
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = גבוהה
 normal-priority = רגילה
 low-priority = נמוכה

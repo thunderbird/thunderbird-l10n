@@ -31,7 +31,7 @@ todo-status-cancelled = ਰੱਦ ਕੀਤਾ
 status-needs-action = ਕਾਰਵਾਈ ਲੋੜੀਂਦੀ ਹੈ
 status-in-process = ਕਾਰਵਾਈ ਚੱਲ ਰਹੀ ਹੈ
 status-completed = ਪੂਰਾ ਹੋਇਆ
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = ਜਿਆਦਾ
 normal-priority = ਆਮ
 low-priority = ਘੱਟ

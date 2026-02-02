@@ -6,7 +6,7 @@
 # $count (Number) - The number of messages in the conversation.
 total-message-count =
     { $count ->
-        [one] { $count } powěsćow
+        [one] { $count } powěsć
         [two] { $count } powěsći
         [few] { $count } powěsći
        *[other] { $count } powěsćow

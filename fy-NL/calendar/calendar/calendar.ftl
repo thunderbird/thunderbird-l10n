@@ -31,7 +31,7 @@ todo-status-cancelled = Annulearre
 status-needs-action = Hanneling nedich
 status-in-process = Dwaande
 status-completed = Foltôge
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Heech
 normal-priority = Normaal
 low-priority = Leech

@@ -24,7 +24,7 @@ event-status-cancelled = Скасавана
 todo-status-cancelled = Скасавана
 status-in-process = У працэсе
 status-completed = Выканана
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Высокі
 normal-priority = Звычайны
 low-priority = Нізкі

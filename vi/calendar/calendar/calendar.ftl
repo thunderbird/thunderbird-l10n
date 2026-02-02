@@ -31,7 +31,7 @@ todo-status-cancelled = Đã hủy
 status-needs-action = Cần thao tác
 status-in-process = Đang xử lí
 status-completed = Hoàn tất
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Cao
 normal-priority = Bình thường
 low-priority = Thấp

@@ -31,7 +31,7 @@ todo-status-cancelled = Anulată
 status-needs-action = Necesită acțiune
 status-in-process = În desfășurare
 status-completed = Finalizată
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Ridicată
 normal-priority = Normală
 low-priority = Scăzută

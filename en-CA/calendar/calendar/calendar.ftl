@@ -31,7 +31,7 @@ todo-status-cancelled = Cancelled
 status-needs-action = Needs Action
 status-in-process = In Process
 status-completed = Completed
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = High
 normal-priority = Normal
 low-priority = Low

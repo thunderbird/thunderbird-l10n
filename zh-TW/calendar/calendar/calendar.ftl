@@ -31,7 +31,7 @@ todo-status-cancelled = 已取消
 status-needs-action = 待處理
 status-in-process = 進行中
 status-completed = 已完成
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = 高
 normal-priority = 標準
 low-priority = 低

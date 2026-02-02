@@ -31,7 +31,7 @@ todo-status-cancelled = Peruttu
 status-needs-action = Tarvitsee toimintaa
 status-in-process = Käynnissä
 status-completed = Valmis
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Korkea
 normal-priority = Normaali
 low-priority = Matala

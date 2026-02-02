@@ -31,7 +31,7 @@ todo-status-cancelled = E anuluar
 status-needs-action = Lyp Veprim
 status-in-process = Në Proces
 status-completed = E plotësuar
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = E lartë
 normal-priority = Normale
 low-priority = E ulët

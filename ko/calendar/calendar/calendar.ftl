@@ -31,7 +31,7 @@ todo-status-cancelled = 취소됨
 status-needs-action = 처리 요망
 status-in-process = 진행 중
 status-completed = 완료됨
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = 높음
 normal-priority = 보통
 low-priority = 낮음

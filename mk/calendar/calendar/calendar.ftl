@@ -26,7 +26,7 @@ status-confirmed = Потврдено
 status-needs-action = Треба да се делува
 status-in-process = Во тек
 status-completed = Завршено
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Високо
 low-priority = Ниско
 status-priority-img-high-priority =

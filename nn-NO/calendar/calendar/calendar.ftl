@@ -31,7 +31,7 @@ todo-status-cancelled = Avbrote
 status-needs-action = Treng handling
 status-in-process = I framdrift
 status-completed = Ferdig
-# Task priority, these should match the priority.level.* labels in calendar.dtd
+# Task priority, these should match the calendar-priority-* levels
 high-priority = Høg
 normal-priority = Normal
 low-priority = Låg
