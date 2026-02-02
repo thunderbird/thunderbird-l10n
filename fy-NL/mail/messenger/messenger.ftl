@@ -216,6 +216,15 @@ menu-move-to-folder-again =
 menu-copy-to-folder-again =
     .label = Opnij nei ‘{ $folderName }’ kopiearje
     .accesskey = i
+menu-move-to =
+    .label = Ferpleatse nei
+    .accesskey = F
+menu-copy-to =
+    .label = Kopiearje nei
+    .accesskey = K
+menu-move-copy-favorites =
+    .label = Favoriten
+    .accesskey = F
 
 ## AppMenu
 
