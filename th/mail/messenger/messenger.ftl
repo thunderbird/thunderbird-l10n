@@ -197,6 +197,15 @@ menu-copy-to-folder-again =
 menu-move-to =
     .label = ย้ายไปยัง
     .accesskey = ย
+menu-copy-to =
+    .label = คัดลอกไปยัง
+    .accesskey = ค
+menu-move-copy-recent-destinations =
+    .label = สถานที่ปลายทางล่าสุด
+    .accesskey = ล
+menu-move-copy-favorites =
+    .label = รายการโปรด
+    .accesskey = ร
 
 ## AppMenu
 
