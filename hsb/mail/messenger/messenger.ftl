@@ -224,6 +224,15 @@ menu-move-to-folder-again =
 menu-copy-to-folder-again =
     .label = Znowa do "{ $folderName }" kopěrować
     .accesskey = n
+menu-move-to =
+    .label = Přesunyć do
+    .accesskey = u
+menu-copy-to =
+    .label = Kopěrować do
+    .accesskey = K
+menu-move-copy-favorites =
+    .label = Fawority
+    .accesskey = F
 
 ## AppMenu
 
