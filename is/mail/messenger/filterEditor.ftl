@@ -18,7 +18,42 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Ruslpóstur greindur frá { $author } - { $subject } þann { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Síuaðgerð mistókst: "{ $errorMsg }" með villunúmeri={ $errorCode } þegar reynt var:
+filter-failure-sending-reply-error = Villa við að senda svar
+filter-failure-sending-reply-aborted = Hætt við að senda svar
+filter-failure-move-failed = Færsla mistókst
+filter-failure-copy-failed = Afritun mistókst
+filter-failure-action = Mistókst að beita síuaðgerðinni
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+# $author (String) - The sender of the message.
+# $subject (String) - The subject line of the message.
+# $date (String) - The date/time the filter was applied.
+filter-log-match-summary = Beitti síu "{ $filterName }" á póst frá { $author } - { $subject } á { $date }
+# Variables:
 # $id (String) - The author of the moved message.
 # $folder (String) - The destination folder of the moved message.
 moved-message-log = færði póstauðkenni = { $id } í { $folder }
+# Variables:
+# $id (String) - The author of the copied message.
+# $folder (String) - The destination folder of the copied message.
+copied-message-log = afritaði póstauðkenni = { $id } í { $folder }
+filter-missing-custom-action = Vantar sérsniðna aðgerð
+filter-action-log-priority = forgangi breytt
+filter-action-log-deleted = eytt
+filter-action-log-read = merkt sem lesið
+filter-action-log-kill = henda umræðu
+filter-action-log-watch = fylgjast með umræðu
+filter-action-log-starred = stjörnumerkt
+filter-action-log-replied = svarað
+filter-action-log-forwarded = áframsent
+filter-action-log-stop = stöðva keyrslu
+filter-action-log-pop3-delete = eytt frá POP3 póstþjóni
+filter-action-log-pop3-leave = eftir á POP3 póstþjóni
 filter-action-log-spam = ruslpóstsstig
+filter-action-log-pop3-fetch = meginmál náð í frá POP3 póstþjóni
+filter-action-log-tagged = merkt
+filter-action-log-ignore-subthread = hunsaður undirumræða
+filter-action-log-unread = merkt sem ólesið
