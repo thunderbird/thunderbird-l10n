@@ -18,6 +18,15 @@ rule-action-set-spam-status =
 # $date (String) - The date of the message.
 spam-message-detection-log = Zistená nevyžiadaná správa od { $author } - { $subject } dňa { $date }
 # Variables:
+# $errorMsg (String) - The error message about the action that failed.
+# $errorCode (String) - The hexadecimal error code.
+filter-failure-warning-prefix = Chybový kód={ $errorCode }, akcia filtra "{ $errorMsg }" zlyhala pri pokuse o:
+filter-failure-sending-reply-error = Chyba pri odosielaní odpovede
+filter-failure-sending-reply-aborted = Odoslanie odpovede bolo prerušené
+filter-failure-move-failed = Presúvanie sa nepodarilo
+filter-failure-copy-failed = Kopírovanie zlyhalo
+filter-failure-action = Nepodarilo sa použiť filter
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
