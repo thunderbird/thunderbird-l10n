@@ -177,6 +177,22 @@ redirect-msg-menuitem =
     .label = 리디렉션
     .accesskey = D
 
+## Shared Menu Items
+
+menu-move-again =
+    .label = 같은 폴더로 이동
+move-to-folder-again-key =
+    .key = m
+menu-move-to =
+    .label = 이동
+    .accesskey = M
+menu-copy-to =
+    .label = 복사
+    .accesskey = C
+menu-move-copy-favorites =
+    .label = 즐겨찾기
+    .accesskey = F
+
 ## AppMenu
 
 appmenu-save-as-file =
