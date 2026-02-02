@@ -7,4 +7,4 @@
 password-prompt-title = Gronidło za { $accountName }
 # $accountName (String): is replaced with the name of the account
 password-prompt-text = Pšosym zapódajśo swójo gronidło za { $accountName }, aby jo zwězał.
-password-prompt-save-checkbox = Wužyjśo zastojnik gronidło, aby toś to gronidło składował.
+password-prompt-save-checkbox = Wužyjśo zastojnik gronidłow, aby toś to gronidło składował.
