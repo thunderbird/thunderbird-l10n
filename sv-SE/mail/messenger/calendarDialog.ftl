@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Plats
 calendar-dialog-description-row-icon =
     .alt = Beskrivning
+calendar-dialog-reminders-row-icon =
+    .alt = Påminnelser
 calendar-dialog-description-label = Beskrivning
 calendar-dialog-description-expand-icon =
     .alt = Visa fullständig beskrivning
@@ -27,3 +29,12 @@ calendar-dialog-more-categories =
        *[other] +{ $additionalCategories } fler
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Ta bort påminnelse
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } påminnelse
+       *[other] { $count } påminnelser
+    }
