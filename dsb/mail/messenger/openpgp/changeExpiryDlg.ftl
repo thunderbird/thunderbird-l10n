@@ -12,7 +12,7 @@ info-explanation-1 = <b>Gaž kluc jo spadnuł</b> njejo wěcej móžno, jen za k
 # Do not translate: OpenPGP
 info-explanation-1-complex = Toś ten kluc OpenPGP z primarnego kluca a najnejmjenjej pódkluca <b>z rozdźělnymi datumami spadnjenja</b> zestaja.
 select-key-prompt = Kluc, kótaryž se ma změniś:
-info-explanation-2 = Aby toś ten kluc dleje wužywał, změńśo datum płaśiwosć a źělśo pón zjawny kluc z wašymi partnarjami znowego.
+info-explanation-2 = Aby toś ten kluc dlej wužywał, změńśo datum płaśiwosći a źělśo pón zjawny kluc z wašymi partnarjami znowego.
 usage-label = Wužyśe:
 algorithm-label = Algoritmus:
 created-label = Napórany:
