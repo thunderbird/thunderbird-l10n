@@ -403,6 +403,8 @@ key-does-not-expire = Кілттің мерзімі бітпейді
 key-expired-date = Кілттің мерзімі { $keyExpiry } күні аяқталды
 key-expired-simple = Кілттің мерзімі аяқталды
 key-revoked-simple = Кілт қайта шақырылды
+key-revoked-revocation-code-superseded = Кілт кері қайтарылды, себебі ол жаңа нұсқамен алмастырылды.
+key-revoked-revocation-code-compromised = Кілт кері қайтарылды, өйткені оның құпия мазмұны үшінші тұлғаларға белгілі болған.
 key-do-you-accept = Бұл кілтті цифрлық қолтаңбаларды тексеру және хабарламаларды шифрлеу үшін қабылдайсыз ба?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.

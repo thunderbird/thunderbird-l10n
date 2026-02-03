@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Орналасу
 calendar-dialog-description-row-icon =
     .alt = Сипаттамасы
+calendar-dialog-reminders-row-icon =
+    .alt = Еске салулар
 calendar-dialog-description-label = Сипаттамасы
 calendar-dialog-description-expand-icon =
     .alt = Толық сипаттаманы көрсету
@@ -27,3 +29,12 @@ calendar-dialog-more-categories =
        *[other] +{ $additionalCategories } more
     }
     .title = тағы +{ $additionalCategories }
+calendar-dialog-delete-reminder-button =
+    .alt = Еске салуды өшіру
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } еске салу
+       *[other] { $count } еске салу
+    }
