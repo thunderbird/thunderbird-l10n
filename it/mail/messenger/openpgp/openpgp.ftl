@@ -406,8 +406,8 @@ key-does-not-expire = La chiave non ha scadenza
 key-expired-date = La chiave è scaduta il { $keyExpiry }
 key-expired-simple = La chiave è scaduta
 key-revoked-simple = La chiave è stata revocata
-key-revoked-revocation-code-superseded = La chiave è stata revocata in quanto la chiave è stata sostituita.
-key-revoked-revocation-code-compromised = La chiave è stata revocata in quanto il materiale della chiave è stato compromesso.
+key-revoked-revocation-code-superseded = La chiave è stata revocata poiché è stata sostituita da un’altra.
+key-revoked-revocation-code-compromised = La chiave è stata revocata in quanto il contenuto della chiave è stato compromesso.
 key-revoked-revocation-code-retired = La chiave è stata revocata in quanto è stata ritirata e non è più utilizzata.
 # Variables:
 # $reason (String) - Key owner entered reason for revocation.

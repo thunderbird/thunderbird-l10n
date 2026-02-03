@@ -34,8 +34,4 @@ calendar-dialog-delete-reminder-button =
     .alt = Elimina promemoria
 # Variables:
 #   $count (Number): Number of reminders.
-calendar-dialog-reminder-count =
-    { $count ->
-        [one] { $count } Promemoria
-       *[other] { $count } Promemoria
-    }
+calendar-dialog-reminder-count = { $count } promemoria
