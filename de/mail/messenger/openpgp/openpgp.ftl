@@ -406,6 +406,12 @@ key-does-not-expire = Der Schlüssel läuft nicht ab.
 key-expired-date = Der Schlüssel lief am { $keyExpiry } ab.
 key-expired-simple = Der Schlüssel ist abgelaufen.
 key-revoked-simple = Der Schlüssel wurde widerrufen.
+key-revoked-revocation-code-superseded = Der Schlüssel wurde widerrufen, weil er ersetzt wird.
+key-revoked-revocation-code-compromised = Der Schlüssel wurde widerrufen, weil die Schlüsselinformationen kompromittiert wurde.
+key-revoked-revocation-code-retired = Der Schlüssel wurde widerrufen, weil er veraltet ist und nicht mehr verwendet wird.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Vom Schlüsselbesitzer angegebener Widerrufsgrund: { $reason }
 key-do-you-accept = Akzeptieren Sie diesen Schlüssel für das Verifizieren digitaler Signaturen und das Verschlüsseln von Nachrichten?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.

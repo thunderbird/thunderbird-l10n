@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Position
 calendar-dialog-description-row-icon =
     .alt = Description
+calendar-dialog-reminders-row-icon =
+    .alt = Mementos
 calendar-dialog-description-label = Description
 calendar-dialog-description-expand-icon =
     .alt = Monstrar le description integre
@@ -27,3 +29,12 @@ calendar-dialog-more-categories =
        *[other] +{ $additionalCategories } more
     }
     .title = +{ $additionalCategories } more
+calendar-dialog-delete-reminder-button =
+    .alt = Deler memento
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] memento
+       *[other] mementos
+    }
