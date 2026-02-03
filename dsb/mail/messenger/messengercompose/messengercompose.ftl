@@ -285,14 +285,14 @@ show-bcc-row-button = Schowana kopija
     .title = Pólo Schowana kopija pokazaś ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Druge adresowe póla, kótarež se maju pokazaś
-public-recipients-notice-single = Waša powěsć ma zjawnego dostawarja. Móžośo  se togo wobinuś, až se dostawaŕ pśeraźijo, gaž město togo schowanu kopiju wužywaśo.
+public-recipients-notice-single = Waša powěsć ma zjawnego dostawarja. Móžośo se togo wobinuś, až se dostawaŕ pśeraźijo, gaž město togo schowanu kopiju wužywaśo.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
 public-recipients-notice-multi =
     { $count ->
         [one] { $count } dostawaŕ buźo w póloma Komu a Kopija adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje pśeraźuju.
-        [two] { $count } dostawarja buźo w póloma Komu a Kopija adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje pśeraźuju.
-        [few] { $count } dostawarje buźo w póloma Komu a Kopija adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje pśeraźuju.
+        [two] { $count } dostawarja buźotej w póloma Komu a Kopija adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje pśeraźuju.
+        [few] { $count } dostawarje budu w póloma Komu a Kopija adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje pśeraźuju.
        *[other] { $count } dostawarjow buźo w póloma Komu a Kopija adresu drugich wiźeś. Wužywajśo město togo pólo Schowana kopija, aby tomu zajźował, až se dostawarje pśeraźuju.
     }
 many-public-recipients-bcc =
@@ -305,10 +305,10 @@ many-public-recipients-prompt-title = Pśewjele zjawnych dostawarjow
 #   $count (Number) - the count of addresses in the public recipients fields.
 many-public-recipients-prompt-msg =
     { $count ->
-        [one] Waša powěsć ma zjawnego dostawarja. To móžo priwatnosć wobgrozyś. Pśesuńśo dostawarja wót póla Komu/Kopija do póla Schowana kopija.
-        [two] Waša powěsć ma { $count } zjawneju dostawarjowu, kótarejž móžotej mjazsobnje swóje adrese wiźeś. To móžo priwatnosć wobgrozyś. Pśesuńśo togodla dostawarje wót póla Komu/Kopija do póla Schowana kopija.
-        [few] Waša powěsć ma { $count } zjawnych dostawarjow, kótarež mógu mjazsobnje swóje adrese wiźeś. To móžo priwatnosć wobgrozyś. Pśesuńśo togodla dostawarje wót póla Komu/Kopija do póla Schowana kopija.
-       *[other] Waša powěsć ma { $count } zjawnych dostawarjow, kótarež mógu mjazsobnje swóje adrese wiźeś. To móžo priwatnosć wobgrozyś. Pśesuńśo togodla dostawarje wót póla Komu/Kopija do póla Schowana kopija.
+        [one] Waša powěsć ma zjawnego dostawarja. To móžo priwatnosć wobgrozyś. Pśesuniśo dostawarja wót póla Komu/Kopija do póla Schowana kopija.
+        [two] Waša powěsć ma { $count } zjawneju dostawarjowu, kótarejž móžotej mjazsobnje swóje adrese wiźeś. To móžo priwatnosć wobgrozyś. Pśesuniśo togodla dostawarje wót póla Komu/Kopija do póla Schowana kopija.
+        [few] Waša powěsć ma { $count } zjawnych dostawarjow, kótarež mógu mjazsobnje swóje adrese wiźeś. To móžo priwatnosć wobgrozyś. Pśesuniśo togodla dostawarje wót póla Komu/Kopija do póla Schowana kopija.
+       *[other] Waša powěsć ma { $count } zjawnych dostawarjow, kótarež mógu mjazsobnje swóje adrese wiźeś. To móžo priwatnosć wobgrozyś. Pśesuniśo togodla dostawarje wót póla Komu/Kopija do póla Schowana kopija.
     }
 many-public-recipients-prompt-cancel = Słanje pśetergnuś
 many-public-recipients-prompt-send = Weto słaś
@@ -344,7 +344,7 @@ cloud-file-placeholder-title = { $filename } - pśidank Filelink
 # A text describing that the file was attached as a Filelink and can be downloaded
 # from the link shown below.
 # $filename - name of the file
-cloud-file-placeholder-intro = Dataja { $filename } jo se pśipowjesyła ako Filelink. Dajo se z pomocu slědujuego wótkaza ześěgnuś.
+cloud-file-placeholder-intro = Dataja { $filename } jo se pśipowjesyła ako Filelink. Dajo se z pomocu slědujucego wótkaza ześěgnuś.
 
 # Template
 
