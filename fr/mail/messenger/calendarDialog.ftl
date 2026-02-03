@@ -36,6 +36,6 @@ calendar-dialog-delete-reminder-button =
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
     { $count ->
-        [one] Rappel pour { $count }
+        [one] { $count } rappel
        *[other] { $count } rappels
     }
