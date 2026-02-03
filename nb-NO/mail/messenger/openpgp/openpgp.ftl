@@ -406,6 +406,12 @@ key-does-not-expire = Nøkkelen utløper ikke
 key-expired-date = Nøkkelen utløp den { $keyExpiry }
 key-expired-simple = Nøkkelen er utløpt
 key-revoked-simple = Nøkkelen ble tilbakekalt
+key-revoked-revocation-code-superseded = Nøkkelen ble tilbakekalt fordi den er erstattet.
+key-revoked-revocation-code-compromised = Nøkkelen ble tilbakekalt fordi nøkkelmaterialet er kompromittert.
+key-revoked-revocation-code-retired = Nøkkelen ble tilbakekalt fordi nøkkelen er utfaset og ikke lenger i bruk.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Tilbakekallingsårsak oppgitt av nøkkeleieren: { $reason }
 key-do-you-accept = Godtar du denne nøkkelen for å bekrefte digitale signaturer og for å kryptere meldinger?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
