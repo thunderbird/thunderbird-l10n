@@ -414,7 +414,7 @@ key-expired-date = Klucz wygasł w dniu { $keyExpiry }
 key-expired-simple = Klucz wygasł
 key-revoked-simple = Klucz został unieważniony
 key-revoked-revocation-code-superseded = Klucz został unieważniony, ponieważ go zastąpiono.
-key-revoked-revocation-code-compromised = Klucz został unieważniony, ponieważ naruszono jego treść.
+key-revoked-revocation-code-compromised = Klucz został unieważniony, ponieważ ujawniono jego treść.
 key-revoked-revocation-code-retired = Klucz został unieważniony, ponieważ wycofano go z użytku i nie jest już używany.
 # Variables:
 # $reason (String) - Key owner entered reason for revocation.
