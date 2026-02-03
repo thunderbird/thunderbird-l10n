@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Městno
 calendar-dialog-description-row-icon =
     .alt = Wopisanje
+calendar-dialog-reminders-row-icon =
+    .alt = Dopomnjeća
 calendar-dialog-description-label = Wopisanje
 calendar-dialog-description-expand-icon =
     .alt = Dospołne wopisanje składować
@@ -30,3 +32,5 @@ calendar-dialog-more-categories =
        *[other] + { $additionalCategories } dalšich kategorijow
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Dopomnjeće zhašeć
