@@ -413,6 +413,12 @@ key-does-not-expire = У ключа нет срока действия
 key-expired-date = Срок действия ключа истёк { $keyExpiry }
 key-expired-simple = Срок действия ключа истёк
 key-revoked-simple = Ключ был отозван
+key-revoked-revocation-code-superseded = Ключ был отозван, так как ключ был заменён.
+key-revoked-revocation-code-compromised = Ключ был отозван, так как материал ключа был скомпрометирован.
+key-revoked-revocation-code-retired = Ключ был отозван, так как ключ устарел и больше не используется.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Причина отзыва, указанная владельцем ключа: { $reason }
 key-do-you-accept = Принимаете ли вы этот ключ для проверки цифровых подписей и шифрования сообщений?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.

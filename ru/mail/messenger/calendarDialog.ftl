@@ -33,3 +33,11 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Удалить напоминание
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } напоминание
+        [few] { $count } напоминания
+       *[many] { $count } напоминаний
+    }
