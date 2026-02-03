@@ -406,6 +406,9 @@ key-does-not-expire = Le clave non expira
 key-expired-date = Le clave ha expirate le { $keyExpiry }
 key-expired-simple = Le clave ha expirate
 key-revoked-simple = Le clave ha essite revocate
+key-revoked-revocation-code-superseded = Clave revocate perque es obsolete.
+key-revoked-revocation-code-compromised = Clave revocate perque su elementos era compromittite.
+key-revoked-revocation-code-retired = Clave revocate perque es retirate e non plus usate.
 key-do-you-accept = Accepta tu iste clave pro verificante firmas digital e pro cryptar messages?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.

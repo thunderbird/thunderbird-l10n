@@ -149,7 +149,7 @@ menu-file-compact =
             [one] Ordner komprimieren
            *[other] Ordner komprimieren
         }
-    .accesskey = O
+    .accesskey = k
 # One or more servers selected for compacting all their folders. Only this or
 # menu-file-compact string will appear at a time, not both.
 menu-file-compact-all =

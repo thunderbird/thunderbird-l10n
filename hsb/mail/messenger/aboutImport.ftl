@@ -81,7 +81,7 @@ items-pane-nothing-to-import = Z wubraneho žórła njeda so ničo importować.
 ## Import from address book file steps
 
 import-from-addr-book-file-description = Wubjerće datajowy format, kotryž waše adresnikowe daty wobsahuje.
-addr-book-csv-file = Dataja dźělena přez komu abo rajtark (.csv, .tsv)
+addr-book-csv-file = Dataja dźělena přez komu abo tabulator (.csv, .tsv)
 addr-book-ldif-file = Dataja LDIF (.ldif)
 addr-book-vcard-file = Dataja vCard (.vcf, .vcard)
 addr-book-sqlite-file = Dataja datoweje banki SQLite (.sqlite)

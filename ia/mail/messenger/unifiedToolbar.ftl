@@ -12,6 +12,13 @@ search-bar-button =
     .alt = Cercar
 search-bar-item2 =
     .label = Cercar
+# Keyboard shortcut for the quick filter search box.
+# This should match the key from quickSearchCmd.key in messenger.dtd.
+search-bar-placeholder-search-shortcut =
+    { PLATFORM() ->
+        [macos] <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd>+<kbd>K</kbd>
+    }
 search-bar-placeholder = Cercante…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key

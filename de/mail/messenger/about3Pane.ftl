@@ -519,7 +519,7 @@ folder-pane-context-compact =
             [one] Ordner komprimieren
            *[other] Ordner komprimieren
         }
-    .accesskey = O
+    .accesskey = k
 # One or more servers selected for compacting ALL their folders. Only this or
 # folder-pane-context-compact string will appear at a time, not both.
 folder-pane-context-compact-all =
