@@ -432,4 +432,5 @@ chat-browse-sound-button =
 
 ## Sync Tab
 
+sync-pane-manage-account = គ្រប់គ្រង​គណនី
 sync-pane-cancel = បោះបង់
