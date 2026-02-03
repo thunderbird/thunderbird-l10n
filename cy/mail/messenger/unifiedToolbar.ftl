@@ -19,10 +19,6 @@ search-bar-placeholder-search-shortcut =
         [macos] <kbd>⌘</kbd> <kbd>K</kbd>
        *[other] <kbd>Ctrl</kbd>+ <kbd>K</kbd>
     }
-# This is the empty text for the quick filter text search box.
-# The goal is to convey to the user that typing in the box will filter the
-# messages and that there is a hotkey they can press to get to the box faster.
-search-bar-placeholder-with-key = Chwilio… { search-bar-placeholder-search-shortcut }
 search-bar-placeholder = Chwilio…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key

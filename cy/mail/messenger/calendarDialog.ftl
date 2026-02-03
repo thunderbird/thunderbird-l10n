@@ -40,8 +40,8 @@ calendar-dialog-delete-reminder-button =
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
     { $count ->
-        [one] { $count } Nodyn atgoffa
-        [zero] { $count } Atgoffwr
+        [one] { $count } Atgoffwr
+        [zero] { $count } Atgoffwyr
         [two] { $count } Atgoffwr
         [few] { $count } Atgoffwr
         [many] { $count } Atgoffwr
