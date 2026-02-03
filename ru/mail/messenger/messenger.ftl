@@ -463,7 +463,7 @@ spaces-context-new-window-item =
 # Variables:
 # $tabName (String) - The name of the tab this item will switch to.
 spaces-context-switch-tab-item =
-    .label = Переключиться на { $tabName }
+    .label = Переключиться на «{ $tabName }»
 settings-context-open-settings-item2 =
     .label = Настройки
 settings-context-open-account-settings-item2 =

@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Место
 calendar-dialog-description-row-icon =
     .alt = Описание
+calendar-dialog-reminders-row-icon =
+    .alt = Напоминания
 calendar-dialog-description-label = Описание
 calendar-dialog-description-expand-icon =
     .alt = Показать полное описание
@@ -29,3 +31,5 @@ calendar-dialog-more-categories =
        *[many] + ещё { $additionalCategories }
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Удалить напоминание
