@@ -20,7 +20,7 @@ openpgp-ctx-verify-att =
 openpgp-has-sender-key = Toś ta powěsć twarźi, až zjawny OpenPGP-kluc wótpósłowarja wopśimujo.
 # Variables:
 # $email (String) - Email address with the problematic public key.
-openpgp-be-careful-new-key = Warnowanje: Nowy zjawny OpenPGP-kluc w toś tej powěsći se wót zjawnych klucow rozeznawa, kótarež sćo do toho akceptěrował za { $email }.
+openpgp-be-careful-new-key = Warnowanje: Nowy zjawny OpenPGP-kluc w toś tej powěsći se wót zjawnych klucow rozeznawa, kótarež sćo do togo akceptěrował za { $email }.
 openpgp-import-sender-key =
     .label = Importěrowaś…
 openpgp-search-keys-openpgp =
