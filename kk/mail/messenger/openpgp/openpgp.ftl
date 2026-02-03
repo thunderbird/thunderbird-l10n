@@ -405,6 +405,10 @@ key-expired-simple = Кілттің мерзімі аяқталды
 key-revoked-simple = Кілт қайта шақырылды
 key-revoked-revocation-code-superseded = Кілт кері қайтарылды, себебі ол жаңа нұсқамен алмастырылды.
 key-revoked-revocation-code-compromised = Кілт кері қайтарылды, өйткені оның құпия мазмұны үшінші тұлғаларға белгілі болған.
+key-revoked-revocation-code-retired = Кілт кері қайтарылды, себебі ол қолданыстан шығарылды және бұдан былай пайдаланылмайды.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Кілт иесі мәлімдеген кері қайтару себебі: { $reason }
 key-do-you-accept = Бұл кілтті цифрлық қолтаңбаларды тексеру және хабарламаларды шифрлеу үшін қабылдайсыз ба?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
