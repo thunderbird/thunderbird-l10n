@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Městno
 calendar-dialog-description-row-icon =
     .alt = Wopisanje
+calendar-dialog-reminders-row-icon =
+    .alt = Dopomnjeśa
 calendar-dialog-description-label = Wopisanje
 calendar-dialog-description-expand-icon =
     .alt = Dopołne wopisanje składowaś
@@ -30,3 +32,14 @@ calendar-dialog-more-categories =
        *[other] + { $additionalCategories } dalšnych kategorijow
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Dopomnjeśe lašowaś
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } dopomnjeśe
+        [two] { $count } dopomnjeśi
+        [few] { $count } dopomnjeśa
+       *[other] { $count } dopomnjeśow
+    }
