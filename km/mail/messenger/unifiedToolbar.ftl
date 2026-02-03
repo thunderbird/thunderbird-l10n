@@ -19,4 +19,5 @@ toolbar-get-all-messages-menuitem =
 
 ## Unified Toolbar customization
 
+customize-button-style-label = រចនាប័ទ្មប៊ូតុង៖
 customize-cancel = បោះបង់

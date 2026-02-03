@@ -73,6 +73,10 @@ mail-context-menu-forward-forward =
     .label = Փոխանցել
     .accesskey = F
 
+## Spaces toolbar customize panel
+
+spaces-customize-icon-color = ពណ៌ប៊ូតុង
+
 ## Quick Filter Bar
 
 # The label to display for the "View... Toolbars..." menu item that controls
