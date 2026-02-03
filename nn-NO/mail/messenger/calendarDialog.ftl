@@ -27,3 +27,5 @@ calendar-dialog-more-categories =
        *[other] +{ $additionalCategories } fleire
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Slett påminning

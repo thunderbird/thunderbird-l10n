@@ -12,6 +12,10 @@ search-bar-button =
     .alt = Søk
 search-bar-item2 =
     .label = Søk
+# This is the empty text for the quick filter text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+search-bar-placeholder-with-key = Søk… { search-bar-placeholder-search-shortcut }
 search-bar-placeholder = Søk…
 # Search bar placeholder with formatted key shortcut hint (platform dependent).
 # The key after the control modifier should match the key from quickSearchCmd.key
