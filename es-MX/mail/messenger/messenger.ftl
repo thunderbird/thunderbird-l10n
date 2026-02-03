@@ -442,6 +442,11 @@ mark-as-junk-key =
 mark-not-junk-key =
     .key = l
 
+## Actions for the New Mail Notification
+
+delete-action = Eliminar
+mark-as-starred-action = Marcar como destacado
+
 ## Message list.
 
 message-priority-lowest = La más baja
