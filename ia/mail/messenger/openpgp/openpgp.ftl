@@ -409,6 +409,9 @@ key-revoked-simple = Le clave ha essite revocate
 key-revoked-revocation-code-superseded = Clave revocate perque es obsolete.
 key-revoked-revocation-code-compromised = Clave revocate perque su elementos era compromittite.
 key-revoked-revocation-code-retired = Clave revocate perque es retirate e non plus usate.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Ration de revocation stabilite per proprietario del clave: { $reason }
 key-do-you-accept = Accepta tu iste clave pro verificante firmas digital e pro cryptar messages?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
