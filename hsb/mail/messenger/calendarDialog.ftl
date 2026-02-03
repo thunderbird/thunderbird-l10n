@@ -34,3 +34,12 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Dopomnjeće zhašeć
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } dopomnjeće
+        [two] { $count } dopomnjeći
+        [few] { $count } dopomnjeća
+       *[other] { $count } dopomnjećow
+    }
