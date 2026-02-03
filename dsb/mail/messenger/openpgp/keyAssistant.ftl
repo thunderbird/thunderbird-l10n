@@ -46,10 +46,10 @@ openpgp-key-assistant-valid-description = Wubjeŕśo kluc, kótaryž cośo akcep
 # $numKeys (Number) - The number of available keys.
 openpgp-key-assistant-invalid-title =
     { $numKeys ->
-        [one] Slědujucy $numKeys kluc njedajo se wužywaś, snaźkuli wobstarujośo see aktualizaciju.
-        [two] Slědujucej $numKeys kluca njedajotej se wužywaś, snaźkuli wobstarujośo see aktualizaciju.
-        [few] Slědujuce $numKeys kluce njedaju se wužywaś, snaźkuli wobstarujośo see aktualizaciju.
-       *[other] Slědujuce $numKeys klucow njedajo se wužywaś, snaźkuli wobstarujośo see aktualizaciju.
+        [one] Slědujucy { $numKeys } kluc njedajo se wužywaś, snaźkuli wobstarujośo se aktualizaciju.
+        [two] Slědujucej { $numKeys } kluca njedajotej se wužywaś, snaźkuli wobstarujośo se aktualizaciju.
+        [few] Slědujuce { $numKeys } kluce njedaju se wužywaś, snaźkuli wobstarujośo se aktualizaciju.
+       *[other] Slědujuce { $numKeys } klucow njedajo se wužywaś, snaźkuli wobstarujośo se aktualizaciju.
     }
 openpgp-key-assistant-no-key-available = Žeden kluc k dispoziciji.
 openpgp-key-assistant-multiple-keys = Někotare kluce su k dispoziciji.
