@@ -435,8 +435,17 @@ quick-filter-bar-show =
 
 openpgp-forget = Olvídate de las frases de contraseña de OpenPGP
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Estatus de spam
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Como spam
+    .accesskey = S
 mark-as-junk-key =
     .key = b
 mark-not-junk-key =
@@ -446,6 +455,8 @@ mark-not-junk-key =
 
 delete-action = Eliminar
 mark-as-starred-action = Marcar como destacado
+mark-as-spam-action = Marcar como spam
+archive-action = Archivo
 
 ## Message list.
 
