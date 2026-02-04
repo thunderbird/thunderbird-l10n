@@ -66,9 +66,9 @@ error-malformed = Sćo pósrědnił powěsć z wobškóźonymi datami.
 resent = [znowego pósłany]
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-tlv-disconnected = { $name } jo skóńcył swóju skoděrowane rozgrono z wami skónčił; wy měł to teke cyniś.
+tlv-disconnected = { $name } jo skóńcył swóju skoděrowane rozgrono z wami; wy měł to teke cyniś.
 # Do not translate "Off-the-Record" and "OTR" which is the name of an encryption protocol
 # Make sure that this string does NOT contain any numbers, e.g. like "3".
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-query-msg = { $name } jo pšosył wó pśez OTR skoděrowane rozgrono. Njamaśo pak žeden tykac, kótaryž to pódpěra. Glejśo https://de.wikipedia.org/wiki/Off-the-Record_Messaging za dalšne informacije.
+query-msg = { $name } jo pšosył wó pśez OTR skoděrowane rozgrono. Njamaśo pak žeden tykac, kótaryž to pódpěra. Lej https://de.wikipedia.org/wiki/Off-the-Record_Messaging za dalšne informacije.
