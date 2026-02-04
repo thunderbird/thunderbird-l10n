@@ -47,7 +47,7 @@ account-setup-exchange-label = Wašo pśizjawjenje
     .accesskey = z
 #   YOURDOMAIN refers to the Windows domain in ActiveDirectory. yourusername refers to the user's account name in Windows.
 account-setup-exchange-input =
-    .placeholder = YOURDOMAIN\yourusername
+    .placeholder = WAŠADOMENA\\wašowužywaŕskemě
 #   Domain refers to the Windows domain in ActiveDirectory. We mean the user's login in Windows at the local corporate network.
 account-setup-exchange-info-icon =
     .title = Domenowe pśizjawjenje
