@@ -119,10 +119,10 @@ account-setup-getting-started = Prědne kšace
 #  $count (Number) - Number of available protocols.
 account-setup-results-area-title =
     { $count ->
-        [one] K dispoziciji stojeca konfiguracija
-        [two] K dispoziciji stojecej konfiguraciji
-        [few] K dispoziciji stojece konfiguracije
-       *[other] K dispoziciji stojecych konfiguracijow
+        [one] { $count } k dispoziciji stojeca konfiguracija
+        [two] { $count } k dispoziciji stojecej konfiguraciji
+        [few] { $count } k dispoziciji stojece konfiguracije
+       *[other] { $count } k dispoziciji stojecych konfiguracijow
     }
 account-setup-result-imap-description = Źaržćo swóje zarědniki a mejlki na swójom serwerje synchrone
 account-setup-result-pop-description = Wobchowajśo swóje zastojniki a mejlki na swójom licadle

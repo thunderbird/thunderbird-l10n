@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Lokacija
 calendar-dialog-description-row-icon =
     .alt = Opis
+calendar-dialog-reminders-row-icon =
+    .alt = Opomniki
 calendar-dialog-description-label = Opis
 calendar-dialog-description-expand-icon =
     .alt = Prikaži celoten opis
@@ -27,3 +29,14 @@ calendar-dialog-more-categories =
        *[other] + še { $additionalCategories }
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Izbriši opomnik
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } opomnik
+        [two] { $count } opomnika
+        [few] { $count } opomniki
+       *[other] { $count } opomnikov
+    }
