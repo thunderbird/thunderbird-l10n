@@ -397,6 +397,9 @@ key-does-not-expire = 密钥永不过期
 key-expired-date = 密钥已于 { $keyExpiry } 过期
 key-expired-simple = 密钥已过期
 key-revoked-simple = 密钥已被吊销
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = 密钥所有者声明的吊销原因：{ $reason }
 key-do-you-accept = 您要接受将此密钥用于验证数字签名与加密消息吗？
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.

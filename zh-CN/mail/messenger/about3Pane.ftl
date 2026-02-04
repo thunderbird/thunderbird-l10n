@@ -122,6 +122,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = 完全
     .title = 完全匹配选定的标签标准
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = 仅无标签
+    .title = 仅显示未加标签的邮件
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text

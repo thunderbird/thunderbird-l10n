@@ -19,6 +19,7 @@ boolean-error = 不是逻辑值
 no-number-error = 不是数字
 number-too-large-error = 数字太大
 number-too-small-error = 数字太小
+emailaddress-syntax-error = 电子邮件地址无效
 
 ## FetchHTTP.sys.mjs
 

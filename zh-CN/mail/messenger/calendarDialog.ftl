@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = 位置
 calendar-dialog-description-row-icon =
     .alt = 说明
+calendar-dialog-reminders-row-icon =
+    .alt = 提醒
 calendar-dialog-description-label = 说明
 calendar-dialog-description-expand-icon =
     .alt = 显示完整说明
@@ -24,3 +26,8 @@ calendar-dialog-description-expand-icon =
 #   $categories (String): List of all categories.
 calendar-dialog-more-categories = +还有 { $additionalCategories } 个
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = 删除提醒
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count = { $count } 个提醒
