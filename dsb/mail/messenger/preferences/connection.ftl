@@ -21,7 +21,7 @@ disable-extension-button = Rozšyrjenje znjemóžniś
 #
 # The extension-icon is the extension's icon, or a fallback image. It should be
 # purely decoration for the actual extension name, with alt="".
-proxy-settings-controlled-by-extension = Rozšěrjenje <img data-l10n-name="extension-icon" alt="" /> { $name } wóźi, kak { -brand-short-name } z internetom zwězujo.
+proxy-settings-controlled-by-extension = Rozšyrjenje <img data-l10n-name="extension-icon" alt="" /> { $name } wóźi, kak { -brand-short-name } z internetom zwězujo.
 connection-proxy-legend = Proksy za pśistup k internetoju konfigěrurowaś
 proxy-type-no =
     .label = Žeden proksy
@@ -75,9 +75,9 @@ no-proxy-example = Pśikład: .mozilla.org, .net.nz, 192.168.1.0/24
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = Zwiski z localhost, 127.0.0.1/8 a ::1 nigda pśez proksy njejdu.
 proxy-password-prompt =
-    .label = Za awtentificěrowanim se njepšašaś, jolic gronidło jo składowane
+    .label = Za awtentificěrowanim se njepšašaś, jolic gronidło jo skłaźone
     .accesskey = i
-    .tooltiptext = Toś to nastajenje awtentificěrujo was w slězynje pla proksyjow, gaž sćo pśizjwjańske daty za nje składował. Dostanjośo informaciju, jolic se awtentificěrowanje njeraźijo.
+    .tooltiptext = Toś to nastajenje awtentificěrujo was w slězynje pla proksyjow, gaž sćo pśizjawjańske daty za nje składował. Dostanjośo informaciju, jolic se awtentificěrowanje njeraźijo.
 proxy-remote-dns =
     .label = Proksy-DNS, gaž se SOCKS v5 wužywa
     .accesskey = D
