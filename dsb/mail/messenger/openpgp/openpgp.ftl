@@ -766,7 +766,7 @@ do-import-multiple =
 # $id (String) - Key id of the key.
 do-import-one = { $name } ({ $id }) importěrowaś?
 cant-import = Zmólka pśi importěrowanju zjawnego kluca
-unverified-reply = Zasunjony powěsćowy źěl (wótegrono) jo se njeskerjej změnił
+unverified-reply = Zasunjony powěsćowy źěl (wótegrono) jo se nejskerjej změnił
 key-in-message-body = Kluc jo se namakał we wopśimjeśu powěsći. Klikniśo na ‚Kluc importěrowaś‘, aby kluc importěrował
 sig-mismatch = Zmólka - signatura njepasujo
 invalid-email = Zmólka - njepłaśiwe e-mailowe adrese
