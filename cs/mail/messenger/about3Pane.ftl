@@ -6,7 +6,7 @@
 ## Message List Header Bar
 
 quick-filter-button =
-    .title = Přepnout panel Rychlý filtr
+    .title = Přepne lištu rychlého filtru
 quick-filter-button-label = Rychlý filtr
 thread-pane-header-display-button =
     .title = Možnosti zobrazení seznamu zpráv
@@ -68,7 +68,7 @@ quick-filter-bar-unread-label = Nepřečtené
 # The tooltip for the filter button that causes us to filter results to only
 # include messages that have been starred/flagged.
 quick-filter-bar-starred =
-    .title = Zobrazí pouze zprávy s hvězdičkou
+    .title = Zobrazí pouze zprávy označené hvězdičkou
 # The label for the filter button that causes us to filter results to only
 # include messages that have been starred/flagged.
 quick-filter-bar-starred-label = S hvězdičkou
@@ -84,14 +84,14 @@ quick-filter-bar-inaddrbook-label = Kontakt
 # The tooltip for the filter button that causes us to filter results to only
 # include messages with at least one tag on them.
 quick-filter-bar-tags =
-    .title = Zobrazí pouze zprávy s přiřazeným štítkem
+    .title = Zobrazí pouze zprávy opatřené štítkem
 # The label for the filter button that causes us to filter results to only
 # include messages with at least one tag on them.
 quick-filter-bar-tags-label = Štítky
 # The tooltip for the filter button that causes us to filter results to only
 # include messages with attachments.
 quick-filter-bar-attachment =
-    .title = Zobrazí pouze zprávy s přílohami
+    .title = Zobrazí pouze zprávy obsahující přílohu
 # The label for the filter button that causes us to filter results to only
 # include messages with attachments.
 quick-filter-bar-attachment-label = Příloha
