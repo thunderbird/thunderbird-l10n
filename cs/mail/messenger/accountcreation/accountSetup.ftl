@@ -14,8 +14,8 @@ account-setup-secondary-description = { -brand-product-name } automaticky vyhled
 account-setup-success-title = Účet byl úspěšně vytvořen
 account-setup-success-description =
     { -brand-short-name.case-status ->
-        [with-cases] Nyní můžete tento účet používat používat v { -brand-short-name(case: "loc") }.
-       *[no-cases] Nyní můžete tento účet používat používat v aplikaci { -brand-short-name }.
+        [with-cases] Nyní můžete tento účet používat v { -brand-short-name(case: "loc") }.
+       *[no-cases] Nyní můžete tento účet používat v aplikaci { -brand-short-name }.
     }
 account-setup-success-secondary-description = Připojení souvisejících služeb a konfigurace pokročilého nastavení účtu vám může usnadnit další práci.
 
