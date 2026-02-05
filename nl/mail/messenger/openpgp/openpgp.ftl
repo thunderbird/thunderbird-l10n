@@ -406,6 +406,12 @@ key-does-not-expire = De sleutel vervalt niet
 key-expired-date = De sleutel is vervallen op { $keyExpiry }
 key-expired-simple = De sleutel is vervallen
 key-revoked-simple = De sleutel is ingetrokken
+key-revoked-revocation-code-superseded = De sleutel is ingetrokken, omdat deze is vervangen.
+key-revoked-revocation-code-compromised = De sleutel is ingetrokken, omdat er inbreuk is gemaakt op het sleutelmateriaal.
+key-revoked-revocation-code-retired = De sleutel is ingetrokken, omdat de sleutel niet meer actief is en niet meer wordt gebruikt.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Reden voor intrekking zoals opgegeven door sleuteleigenaar: { $reason }
 key-do-you-accept = Accepteert u deze sleutel voor het verifiëren van digitale ondertekeningen en voor het versleutelen van berichten?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.

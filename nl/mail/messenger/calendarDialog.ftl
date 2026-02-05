@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Locatie
 calendar-dialog-description-row-icon =
     .alt = Beschrijving
+calendar-dialog-reminders-row-icon =
+    .alt = Herinneringen
 calendar-dialog-description-label = Beschrijving
 calendar-dialog-description-expand-icon =
     .alt = Volledige beschrijving tonen
@@ -28,3 +30,12 @@ calendar-dialog-more-categories =
        *[other] + nog { $additionalCategories }
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Herinnering verwijderen
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } herinnering
+       *[other] { $count } herinneringen
+    }
