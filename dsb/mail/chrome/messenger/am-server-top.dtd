@@ -57,10 +57,10 @@
 <!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency
     maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
     of messages between them -->
-<!ENTITY maxMessagesStart.label "Pšašaś se, nježli až se wěcej ako">
+<!ENTITY maxMessagesStart.label "Pšašaś se, nježli až ześěguju se wěcej ako">
 <!ENTITY maxMessagesStart.accesskey "w">
 <!-- LOCALIZATION NOTE (maxMessagesEnd.label) : see note for maxMessagesStart.label -->
-<!ENTITY maxMessagesEnd.label "powěsćow se pšašaś">
+<!ENTITY maxMessagesEnd.label "powěsćow">
 <!ENTITY alwaysAuthenticate.label "Pśi zwězowanju z toś tym serwerom pśecej awtentificěrowanje pominaś">
 <!ENTITY alwaysAuthenticate.accesskey "z">
 <!ENTITY newsrcFilePath1.label "Dataja News.rc:">
