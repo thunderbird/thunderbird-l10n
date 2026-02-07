@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Umiestnenie
 calendar-dialog-description-row-icon =
     .alt = Popis
+calendar-dialog-reminders-row-icon =
+    .alt = Pripomienky
 calendar-dialog-description-label = Popis
 calendar-dialog-description-expand-icon =
     .alt = Zobraziť celý popis
@@ -30,3 +32,14 @@ calendar-dialog-more-categories =
        *[other] + { $additionalCategories } ďalších
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Odstrániť pripomienku
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } pripomienka
+        [few] { $count } pripomienky
+        [many] { $count } pripomienok
+       *[other] { $count } pripomienok
+    }

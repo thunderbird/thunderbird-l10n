@@ -413,6 +413,12 @@ key-does-not-expire = Platnosť kľúča nevyprší
 key-expired-date = Platnosť kľúča vypršala { $keyExpiry }
 key-expired-simple = Platnosť kľúča vypršala
 key-revoked-simple = Kľúč bol zneplatnený
+key-revoked-revocation-code-superseded = Kľúč bol zrušený, pretože je nahradený.
+key-revoked-revocation-code-compromised = Kľúč bol zrušený, pretože materiál kľúča bol ohrozený.
+key-revoked-revocation-code-retired = Kľúč bol zrušený, pretože je vyradený a už sa nepoužíva.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Dôvod zrušenia uvedený vlastníkom kľúča: { $reason }
 key-do-you-accept = Prijímate tento kľúč na overovanie digitálnych podpisov a na šifrovanie správ?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
