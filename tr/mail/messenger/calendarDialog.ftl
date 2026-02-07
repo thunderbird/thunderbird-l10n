@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Konum
 calendar-dialog-description-row-icon =
     .alt = Açıklama
+calendar-dialog-reminders-row-icon =
+    .alt = Anımsatıcılar
 calendar-dialog-description-label = Açıklama
 calendar-dialog-description-expand-icon =
     .alt = Tam açıklamayı göster
@@ -28,3 +30,12 @@ calendar-dialog-more-categories =
        *[other] +{ $additionalCategories } kategori daha
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Anımsatıcıyı sil
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } anımsatıcı
+       *[other] { $count } anımsatıcı
+    }
