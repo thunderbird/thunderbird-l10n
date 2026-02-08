@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Τοποθεσία
 calendar-dialog-description-row-icon =
     .alt = Περιγραφή
+calendar-dialog-reminders-row-icon =
+    .alt = Υπενθυμίσεις
 calendar-dialog-description-label = Περιγραφή
 calendar-dialog-description-expand-icon =
     .alt = Εμφάνιση πλήρους περιγραφής
@@ -27,3 +29,5 @@ calendar-dialog-more-categories =
        *[other] +{ $additionalCategories } ακόμα
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Διαγραφή υπενθύμισης
