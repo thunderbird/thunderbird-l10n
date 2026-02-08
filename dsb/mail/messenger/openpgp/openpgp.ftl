@@ -421,6 +421,11 @@ key-expired-date = Kluc jo spadnuł { $keyExpiry }
 key-expired-simple = Kluc jo spadnuł
 key-revoked-simple = Kluc jo se wótwołał
 key-revoked-revocation-code-superseded = Kluc jo se wótwołał, dokulaž kluc se wuměnijo.
+key-revoked-revocation-code-compromised = Kluc jo se wótwołał, dokulaž klucowe informacije su se wobgrozyli.
+key-revoked-revocation-code-retired = Kluc jo se wótwołał, dokulaž kluc jo se slědk wzeł a se wěcej njewužywa.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Pśicyna wótwołanja pó wugronjenja klucowego wobsejźarja: { $reason }
 key-do-you-accept = Akceptěrujośo, až se za toś ten kluc digitalne signatury a koděrowanje powěsćow pśeglědujo?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
