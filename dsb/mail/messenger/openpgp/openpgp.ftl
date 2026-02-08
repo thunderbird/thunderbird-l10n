@@ -420,6 +420,7 @@ key-does-not-expire = Kluc njespadnjo
 key-expired-date = Kluc jo spadnuł { $keyExpiry }
 key-expired-simple = Kluc jo spadnuł
 key-revoked-simple = Kluc jo se wótwołał
+key-revoked-revocation-code-superseded = Kluc jo se wótwołał, dokulaž kluc se wuměnijo.
 key-do-you-accept = Akceptěrujośo, až se za toś ten kluc digitalne signatury a koděrowanje powěsćow pśeglědujo?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
