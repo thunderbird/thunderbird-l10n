@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Noņemt
     .accesskey = N
+custom-headers-overflow = Jūs esat pārsniedzis 50 pielāgoto galveņu ierobežojumu. Lūdzu, noņemiet vienu vai vairākas pielāgotās galvenes un mēģiniet vēlreiz.
+custom-headers-colon-in-header = Ievadītajā galvenē ir nederīga rakstzīme, piemēram, ':', neizdrukājama rakstzīme, rakstzīme, kas nav ASCII vai astoņu bitu ASCII rakstzīme. Lūdzu, noņemiet nederīgo rakstzīmi un mēģiniet vēlreiz.
