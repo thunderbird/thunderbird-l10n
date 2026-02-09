@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Allontanar
     .accesskey = R
+custom-headers-overflow = Ti has surpassà la limita da 50 chaus-pagina persunalisads. Stizza per plaschair in u plirs ed emprova anc ina giada.
+custom-headers-colon-in-header = Il chau-pagina che ti has endatà cuntegna in caracter nunvalid, sco ':', in caracter che na pon betg vegnir stampà, in caracter betg ASCII u in caracter ASCII da 8 bits. Stizza per plaschair quest caracter nunvalid ed emprova anc ina giada.
