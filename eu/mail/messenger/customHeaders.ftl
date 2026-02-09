@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Ezabatu
     .accesskey = E
+custom-headers-overflow = 50 goiburu pertsonalizatuen muga gainditu duzu. Ezabatu goiburu pertsonalizaturen bat eta saiatu berriro.
+custom-headers-colon-in-header = Zuk sartutako goiburuak baliogabeko karaktere bat du, adibidez ':', karaktere inprimaezin bat, ascii ez den karaktere bat, edo zortzi biteko ascii ez den karaktere bat. Ezabatu baliogabeko karakterea eta saiatu berriro.
