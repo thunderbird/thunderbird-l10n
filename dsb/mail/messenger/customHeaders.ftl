@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Wótwónoźeś
     .accesskey = W
+custom-headers-overflow = Sćo limit 50 swójskich głowowych smužkow pśestupił. Wótwónoźćo jadnu swójsku głowowu smužku abo někotare głowowe smužki a wopytajśo hyšći raz.
+custom-headers-colon-in-header = Glowowa smužka, kótaruž sćo zapódał, wopśimujo njepłaśiwe znamuško, kaž na pś. ':', njeśišćajobne znamuško a nje-ascii-znamuško abo wósombitowe ascii-znamuško. Wótwónoźćo njepłaśiwe znamuško a wopytajśo hyšći raz.
