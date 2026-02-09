@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = estyn y corff o weinydd POP3
 filter-action-log-tagged = tagiwyd
 filter-action-log-ignore-subthread = anwybyddwyd is-edefyn
 filter-action-log-unread = wedi'i farcio heb ei darllen
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Neges o hidl "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Rhaid dewis ffolder targed.
 filter-editor-enter-valid-email-forward = Rhowch gyfeiriad e-bost dilys i'w anfon ymlaen.
 filter-editor-pick-template-reply = Dewiswch dempled i ymateb.
