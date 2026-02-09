@@ -68,3 +68,8 @@ filter-log-message = Message du filtre « { $filterName } » : { $message }
 filter-editor-must-select-target-folder = Vous devez sélectionner un dossier cible.
 filter-editor-enter-valid-email-forward = Saisissez une adresse e-mail valide pour faire suivre le message.
 filter-editor-pick-template-reply = Choisissez un modèle pour la réponse.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Échec de l’application du filtre { $filterName }. Voulez-vous continuer à appliquer les filtres ?
+filter-list-backup-message = Vos filtres ne fonctionnent pas car le fichier msgFilterRules.dat, qui contient les filtres, ne peut être lu. Un nouveau fichier msgFilterRules.dat sera créé et une sauvegarde de l’ancien, nommée rulesbackup.dat, sera créée dans le même répertoire.
+filter-invalid-custom-header = Un de vos filtres utilise un en-tête personnalisé qui contient un caractère invalide, tel que « : », un caractère non imprimable, un caractère non ASCII ou un caractère ASCII 8 bits. Veuillez modifier le fichier msgFilterRules.dat, qui contient vos filtres, afin de supprimer les caractères invalides de vos en-têtes personnalisés.

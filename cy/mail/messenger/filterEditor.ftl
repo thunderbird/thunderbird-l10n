@@ -68,3 +68,8 @@ filter-log-message = Neges o hidl "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Rhaid dewis ffolder targed.
 filter-editor-enter-valid-email-forward = Rhowch gyfeiriad e-bost dilys i'w anfon ymlaen.
 filter-editor-pick-template-reply = Dewiswch dempled i ymateb.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Methwyd defnyddio'r hidlydd { $filterName }. Hoffech chi barhau i gymhwyso hidlwyr?
+filter-list-backup-message = Nid yw eich hidlau'n gweithio oherwydd nad oes modd darllen ffeil msg.FilterRules.dat sy'n cynnwys eich hidlau. Bydd ffeil msg.FilterRules.dat newydd yn cael ei greu a bydd yr hen ffeil yn cael ei gadw ar ffurf rulesbackup.dat yn yr un cyfeiriadur.
+filter-invalid-custom-header = Mae un o'ch hidlwyr yn defnyddio pennyn wedi'i deilwra sy'n cynnwys nod annilys, fel ':', nod na ellir ei argraffu, nod nad yw'n ascii, neu nod ascii wyth-did. Golygwch y ffeil msgFilterRules.dat, sy'n cynnwys eich hidlwyr, i dynnu nodau annilys o'ch penawdau personol.

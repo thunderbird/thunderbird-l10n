@@ -47,3 +47,9 @@ calendar-dialog-reminder-count =
         [many] { $count } Atgoffwr
        *[other] { $count } Atgoffwr
     }
+calendar-dialog-accept = Mynd
+    .title = Mynd
+calendar-dialog-accept-tentative = Efallai
+    .title = Efallai
+calendar-dialog-decline = Ddim yn Mynd
+    .title = Ddim yn Mynd

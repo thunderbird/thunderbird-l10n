@@ -68,3 +68,8 @@ filter-log-message = Messaggio dal filtro “{ $filterName }”: { $message }
 filter-editor-must-select-target-folder = Selezionare la cartella di destinazione.
 filter-editor-enter-valid-email-forward = Inserire un indirizzo email valido a cui inoltrare.
 filter-editor-pick-template-reply = Scegliere un modello con cui rispondere.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Applicazione del filtro { $filterName } non riuscita. Continuare ad applicare i filtri?
+filter-list-backup-message = I filtri non funzionano perché il file che contiene i filtri (msgFilterRules.dat) non è leggibile. Per risolvere il problema è necessario creare un nuovo file msgFilterRules.dat; una copia del file originale, con nome rulesbackup.dat, è disponibile nella stessa cartella.
+filter-invalid-custom-header = Uno dei filtri utilizza un’intestazione personalizzata che contiene un carattere non valido, come “:”, un carattere non stampabile, un carattere non ascii o un carattere ascii a otto bit. Modificare il file msgFilterRules.dat, che contiene i filtri, per rimuovere i caratteri non validi dalle intestazioni personalizzate.

@@ -39,3 +39,9 @@ calendar-dialog-reminder-count =
         [one] { $count } Recordatorio
        *[other] { $count } recordatorios
     }
+calendar-dialog-accept = Hacia
+    .title = Hacia
+calendar-dialog-accept-tentative = Quizás
+    .title = Quizás
+calendar-dialog-decline = No asistirá
+    .title = No asistirá
