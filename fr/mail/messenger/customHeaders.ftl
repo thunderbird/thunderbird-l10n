@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 custom-headers-window = Configurer les en-têtes
+custom-headers-new-msg-header =
+    .value = Nouvel en-tête de message :
+    .accesskey = N
 custom-headers-add-button =
     .label = Ajouter
     .accesskey = A
