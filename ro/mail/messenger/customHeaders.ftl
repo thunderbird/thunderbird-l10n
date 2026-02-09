@@ -8,3 +8,6 @@ custom-headers-new-msg-header =
 custom-headers-add-button =
     .label = Adaugă
     .accesskey = A
+custom-headers-remove-button =
+    .label = Elimină
+    .accesskey = t
