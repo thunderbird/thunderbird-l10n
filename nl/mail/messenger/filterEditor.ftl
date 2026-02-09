@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = hoofdtekst opgehaald van POP3-server
 filter-action-log-tagged = gelabeld
 filter-action-log-ignore-subthread = subconversatie genegeerd
 filter-action-log-unread = gemarkeerd als ongelezen
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Melding van filter ‘{ $filterName }’: { $message }
 filter-editor-must-select-target-folder = U moet een doelmap selecteren.
 filter-editor-enter-valid-email-forward = Voer een geldig e-mailadres in om naar door te sturen.
 filter-editor-pick-template-reply = Kies een sjabloon om mee te antwoorden.
