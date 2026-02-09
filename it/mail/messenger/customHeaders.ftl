@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Elimina
     .accesskey = E
+custom-headers-overflow = Si è superato il limite di 50 intestazioni personalizzate. Eliminare una o più intestazioni personalizzate e riprovare.
+custom-headers-colon-in-header = Uno dei filtri utilizza un’intestazione personalizzata contenente caratteri non validi, quali ad esempio “:”, caratteri non stampabili, caratteri non ASCII, caratteri nel campo di valori 128-255. Rimuovere i caratteri non validi e riprovare.
