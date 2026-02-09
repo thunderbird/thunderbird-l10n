@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = أزل
     .accesskey = ز
+custom-headers-overflow = لقد تجاوزت حد الخمسين ترويسة مخصّصة. من فضلك احذف ترويسة أو أكثر وحاول مرة أخرى.
+custom-headers-colon-in-header = الترويسة التي أدخلتها تحتوي على محرف غير صحيح، مثل':'، محرف لا يطبع، محرف خارج آسكي (ascii)، أو محرف أسكي ثمانية بايت. من فضلك احذف المحرف غير الصحيح وحاول ثانية.
