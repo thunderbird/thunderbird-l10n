@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Ukloni
     .accesskey = U
+custom-headers-overflow = Prekoračili ste ograničenje od 50 prilagođenih zaglavlja. Uklonite jedno ili više prilagođenih zaglavlja i pokušajte ponovo.
+custom-headers-colon-in-header = Zaglavlje koje ste unijeli sadrži nedozvoljen znak kao što je ':', znak koji se ne može ispisati, znak koji nije ascii ili 8 bitni ascii znak. Uklonite nedozvoljeni znak i pokušajte ponovo.
