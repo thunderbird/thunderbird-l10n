@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = ਹਟਾਓ
     .accesskey = R
+custom-headers-overflow = ਤੁਸੀਂ ਆਪਣੀ  50 ਪਸੰਦੀਦਾ ਹੈੱਡਰ ਸੀਮਾ ਤੋਂ ਟੱਪ ਗਏ ਹੋ। ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਜਾਂ ਵਧੇਰੇ ਪਸੰਦੀਦਾ ਹੈੱਡਰ ਹਟਾ ਕੇ ਮੁੜ ਕੋਸ਼ਿਸ ਕਰੋ।
+custom-headers-colon-in-header = ਹੈੱਡਰ, ਜੋ ਕਿ ਤੁਸੀਂ ਦਿੱਤਾ ਹੈ, ਵਿੱਚ ਗਲਤ ਅੱਖਰ ਜਿਵੇਂ ਕਿ ':', ਇੱਕ ਨਾ-ਛਪਣਯੋਗ, ਨਾ-ascii ਅੱਖਰ ਜਾਂ  ਇੱਕ ਅੱਠ ਬਿੱਟ ਅੱਖਰ ਸ਼ਾਮਿਲ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਗਲਤ ਅੱਖਰ ਹਟਾਉ ਅਤੇ ਮੁੜ ਕੋਸ਼ਿਸ ਕਰੋ।
