@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = სხეული გადმოტანილ
 filter-action-log-tagged = ჭდეებიანი
 filter-action-log-ignore-subthread = მიმოწერის უგულებელყოფილი განშტოება
 filter-action-log-unread = მონიშნულია, როგორც წასაკითხი
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = შეტყობინება ფილტრით „{ $filterName }“: { $message }
 filter-editor-must-select-target-folder = აუცილებელია სასურველი საქაღალდის მითითება.
 filter-editor-enter-valid-email-forward = მიუთითეთ ელფოსტის მართებული მისამართი გადასაგზავნად.
 filter-editor-pick-template-reply = მიუთითეთ თარგი პასუხისთვის.
