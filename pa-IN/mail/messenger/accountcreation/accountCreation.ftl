@@ -37,6 +37,3 @@ cannot-login-error = Unable to log in at server. Probably wrong configuration, u
 ## GuessConfig.sys.mjs
 
 cannot-find-server-error = ਸਰਵਰ ਨਹੀਂ ਲੱਭਿਆ ਜਾ ਸਕਦਾ
-
-## ExhcangeAutoDiscover.sys.mjs
-

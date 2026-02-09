@@ -37,6 +37,3 @@ cannot-login-error = Tidak dapat log masuk pelayan. Mungkin salah konfigurasi, n
 ## GuessConfig.sys.mjs
 
 cannot-find-server-error = Tidak dapat mencari pelayan
-
-## ExhcangeAutoDiscover.sys.mjs
-

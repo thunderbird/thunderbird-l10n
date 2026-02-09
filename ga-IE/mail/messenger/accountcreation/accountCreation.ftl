@@ -37,6 +37,3 @@ cannot-login-error = Ní féidir logáil isteach ar an bhfreastalaí. Is é is d
 ## GuessConfig.sys.mjs
 
 cannot-find-server-error = Ní féidir freastalaí a aimsiú
-
-## ExhcangeAutoDiscover.sys.mjs
-

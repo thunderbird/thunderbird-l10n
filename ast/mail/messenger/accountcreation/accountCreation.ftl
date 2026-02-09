@@ -37,6 +37,3 @@ cannot-login-error = Nun pue aniciase sesión nel sirvidor. La configuración, e
 ## GuessConfig.sys.mjs
 
 cannot-find-server-error = Nun pue alcontrase un sirvidor
-
-## ExhcangeAutoDiscover.sys.mjs
-

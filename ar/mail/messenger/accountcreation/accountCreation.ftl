@@ -37,6 +37,3 @@ cannot-login-error = تعذر الولوج إلى الخادوم. لعل الخ�
 ## GuessConfig.sys.mjs
 
 cannot-find-server-error = تعذر إيجاد خادوم
-
-## ExhcangeAutoDiscover.sys.mjs
-

@@ -37,6 +37,3 @@ cannot-login-error = Սպասարկիչին միանալու սխալ։ Ստու
 ## GuessConfig.sys.mjs
 
 cannot-find-server-error = Սպասարկիչը չի գտնվել
-
-## ExhcangeAutoDiscover.sys.mjs
-

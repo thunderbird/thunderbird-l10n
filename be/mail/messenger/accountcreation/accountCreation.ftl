@@ -37,6 +37,3 @@ cannot-login-error = На атрымліваецца ўвайсці на сер�
 ## GuessConfig.sys.mjs
 
 cannot-find-server-error = Не атрымаліваецца знайсці сервер
-
-## ExhcangeAutoDiscover.sys.mjs
-

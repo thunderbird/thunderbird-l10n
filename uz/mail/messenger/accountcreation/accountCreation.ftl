@@ -37,6 +37,3 @@ cannot-login-error = Serverga kirib bo‘lmadi. Noto‘g‘ri moslangan bo‘lis
 ## GuessConfig.sys.mjs
 
 cannot-find-server-error = Server topilmadi
-
-## ExhcangeAutoDiscover.sys.mjs
-

@@ -37,6 +37,3 @@ cannot-login-error = Kon nie by die bediener aanmeld nie. Waarskynlik verkeerde 
 ## GuessConfig.sys.mjs
 
 cannot-find-server-error = Kon nie bediener vind nie
-
-## ExhcangeAutoDiscover.sys.mjs
-

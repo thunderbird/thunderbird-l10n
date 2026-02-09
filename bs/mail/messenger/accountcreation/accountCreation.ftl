@@ -37,6 +37,3 @@ cannot-login-error = Nije moguća prijava na server. Vjerovatan razlog su pogre�
 ## GuessConfig.sys.mjs
 
 cannot-find-server-error = Ne mogu naći server
-
-## ExhcangeAutoDiscover.sys.mjs
-
