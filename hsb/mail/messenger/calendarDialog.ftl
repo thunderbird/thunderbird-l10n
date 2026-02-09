@@ -43,3 +43,9 @@ calendar-dialog-reminder-count =
         [few] { $count } dopomnjeća
        *[other] { $count } dopomnjećow
     }
+calendar-dialog-accept = Běži
+    .title = Běži
+calendar-dialog-accept-tentative = Snano
+    .title = Snano
+calendar-dialog-decline = Njeběži
+    .title = Njeběži

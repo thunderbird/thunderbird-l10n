@@ -68,3 +68,7 @@ filter-log-message = Melding fra filter «{ $filterName }»: { $message }
 filter-editor-must-select-target-folder = Du må velge en målmappe
 filter-editor-enter-valid-email-forward = Skriv inn en gyldig e-postadresse å videresende til.
 filter-editor-pick-template-reply = Velg en mal å svare med.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Bruk av filter { $filterName } mislyktes. Vil du fortsette å bruke filtre?
+filter-list-backup-message = Filtrene dine virker ikke fordi msgFilterRules.dat-filen, som inneholder filtrene dine, kunne ikke bli funnet. En ny msgFilterRules.dat vil bli opprettet, og en sikkerhetskopi av den gamle filen, rulesbackup.dat, vil bli lagt i den samme mappen.

@@ -68,3 +68,8 @@ filter-log-message = Powěsć z filtra "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Dyrbiće cilowy rjadowak podać.
 filter-editor-enter-valid-email-forward = Zapodajće płaćiwu e-mejlowu adresu, na kotruž ma so dale sposrědkować.
 filter-editor-pick-template-reply = Wubjerće předłohu, z kotrejž ma so wotmołwić.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Nałožowanje filtra { $filterName } njeje poradźiło. Chceće z nałožowanjom filtra pokročować?
+filter-list-backup-message = Waše filtry njefunguja, dokelž dataja rules.dat, kotraž waše filtry wobsahuje, njeda so čitać. Nowa dataja rules.dat so załoži a zawěsćenska kopija tuteje dataje, kotraž rulesbackup.dat rěka, so w samsnym rjadowaku załoži.
+filter-invalid-custom-header = Jedyn z filtrow wužiwarsku hłowu wužiwa, kotryž njepłaćiwe znamješko kaž ':', njećišćomne znamješko, nje-ascii-znamješko abo wosombitowe ascii-znamješko wobsahuje. Prošu wobdźěłajće dataju rules.dat, kotraž waše filtry wobsahuje, zo byšće njepłaćiwe znamješka z wašich wužiwarskich hłowow wotstronił.

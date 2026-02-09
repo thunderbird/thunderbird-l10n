@@ -43,3 +43,5 @@ calendar-dialog-reminder-count =
         [few] { $count } dopomnjeśa
        *[other] { $count } dopomnjeśow
     }
+calendar-dialog-accept = Běžy
+    .title = Běžy
