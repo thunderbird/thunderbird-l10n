@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Odstrániť
     .accesskey = d
+custom-headers-overflow = Prekročili ste hranicu 50 vlastných hlavičiek. Odstráňte jednu alebo viac vlastných hlavičiek a skúste to znova.
+custom-headers-colon-in-header = Hlavička, ktorú ste zadali, obsahuje neplatný znak, ako napríklad ":", netlačiteľný znak, nie-ascii alebo osembitový ascii znak. Odstráňte neplatný znak a skúste znova.
