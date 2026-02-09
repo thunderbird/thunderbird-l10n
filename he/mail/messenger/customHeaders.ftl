@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = הסרה
     .accesskey = ס
+custom-headers-overflow = חרגת ממכסת 50 כותרות מותאמות אישית. נא להסיר כותרת מותאמת אישית אחת או יותר ולנסות שוב.
+custom-headers-colon-in-header = הכותרת שהכנסת מכילה תו לא חוקי, כגון ':', תו שאינו ניתן להדפסה, תו שאינו תו ASCII, או תו ASCII בן שמונה סיביות. נא להסיר את התו הבלתי חוקי ולנסות שוב.
