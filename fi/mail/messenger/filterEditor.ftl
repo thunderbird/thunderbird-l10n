@@ -46,6 +46,14 @@ filter-action-log-pop3-fetch = viestirunko noudettiin POP3-palvelimelta
 filter-action-log-tagged = merkittiin avainsanalla
 filter-action-log-ignore-subthread = ohitettiin aliketju
 filter-action-log-unread = merkittiin ei luetuksi
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Sanoma suodattimelta "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Valitse kohdekansio.
 filter-editor-enter-valid-email-forward = Kirjoita sähköpostiosoite, johon viesti välitetään.
 filter-editor-pick-template-reply = Valitse vastauksen mallipohja.
