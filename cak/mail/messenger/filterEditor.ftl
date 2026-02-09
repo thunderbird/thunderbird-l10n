@@ -41,6 +41,14 @@ filter-action-log-pop3-fetch = ch'akul qasan pa ri POP3 k'uxasamaj
 filter-action-log-tagged = ya'on retal
 filter-action-log-ignore-subthread = tirepüx achch'ab'enïk
 filter-action-log-unread = ya'on retal achi'el man sik'in ta
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Rutzijol chayub'äl "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = K'o chi nicha' jun rub'ey yakwuj.
 filter-editor-enter-valid-email-forward = Titz'ib'äx jun okel rochochib'al taqoya'l achoq chi re nitaq chik.
 filter-editor-pick-template-reply = Ticha' jun kaxawäch achoq rik'in nitzolïx tzij.
