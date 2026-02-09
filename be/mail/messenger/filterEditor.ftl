@@ -24,6 +24,14 @@ filter-action-log-pop3-fetch = цела паведамлення атрыман�
 filter-action-log-tagged = з мецінамі
 filter-action-log-ignore-subthread = галіна абмеркавання ігнаруецца
 filter-action-log-unread = пазначаны непрачытаным
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Паведамленне для фільтру «{ $filterName }»: { $message }
 filter-editor-must-select-target-folder = Вам трэба выбраць папку прызначэння.
 filter-editor-enter-valid-email-forward = Увядзіце сапраўдны адрас электроннай пошты, на які будуць перасылацца паведамленні.
 filter-editor-pick-template-reply = Выберыце шаблон для адказу.
