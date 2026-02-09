@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = corpore del message recuperate ex le servitor POP
 filter-action-log-tagged = etiquettate:
 filter-action-log-ignore-subthread = sub-argumento ignorate
 filter-action-log-unread = marcate como non legite
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Message ex filtro "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Tu debe eliger un dossier de destination.
 filter-editor-enter-valid-email-forward = Insere un adresse de e-mail valide al qual inviar ultra.
 filter-editor-pick-template-reply = Selige un modello con le qual responder.

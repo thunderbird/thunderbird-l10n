@@ -43,6 +43,14 @@ filter-action-log-pop3-fetch = POP3 zerbitzaritik gorputza deskargatuta
 filter-action-log-tagged = etiketatuta
 filter-action-log-ignore-subthread = azpi-haria alde batetara utzita
 filter-action-log-unread = irakurri gabea gisa markatuta
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = "{ $filterName }" iragazkiaren mezua: { $message }
 filter-editor-must-select-target-folder = Helburu-karpeta bat hautatu behar duzu.
 filter-editor-enter-valid-email-forward = Sartu baliodun e-posta helbide bat birbidalketa egiteko.
 filter-editor-pick-template-reply = Aukeratu erantzuna emateko txantiloi bat.

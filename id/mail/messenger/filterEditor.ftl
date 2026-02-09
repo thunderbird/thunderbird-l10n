@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = isi diunduh dari server POP3
 filter-action-log-tagged = diberi tag
 filter-action-log-ignore-subthread = abaikan sub utas
 filter-action-log-unread = ditandai belum dibaca
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Pesan dari filter "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Anda harus memilih folder target.
 filter-editor-enter-valid-email-forward = Masukkan email yang benar sebagai tujuan.
 filter-editor-pick-template-reply = Pilih templat email balasan.

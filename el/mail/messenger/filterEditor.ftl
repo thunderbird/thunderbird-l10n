@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = έγινε λήψη σώματος από δια�
 filter-action-log-tagged = με ετικέτα
 filter-action-log-ignore-subthread = αγνοημένο υπονήμα
 filter-action-log-unread = σημειώθηκε ως μη αναγνωσμένο
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Μήνυμα από το φίλτρο «{ $filterName }»: { $message }
 filter-editor-must-select-target-folder = Πρέπει να επιλέξετε έναν φάκελο προορισμού.
 filter-editor-enter-valid-email-forward = Εισαγάγετε μια έγκυρη διεύθυνση email για προώθηση.
 filter-editor-pick-template-reply = Επιλέξτε ένα πρότυπο για να απαντήσετε με αυτό.

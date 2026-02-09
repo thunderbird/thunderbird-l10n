@@ -41,6 +41,14 @@ filter-action-log-pop3-fetch = corpo descargado do servidor POP3
 filter-action-log-tagged = etiquetado
 filter-action-log-ignore-subthread = fío de conversación secundario ignorado
 filter-action-log-unread = marcado como non lido
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Mensaxe do filtro «{ $filterName }»: { $message }
 filter-editor-must-select-target-folder = Seleccione un cartafol de destino.
 filter-editor-enter-valid-email-forward = Introduza un enderezo de correo correcto ao que reenviar.
 filter-editor-pick-template-reply = Escolla un modelo co que responder.

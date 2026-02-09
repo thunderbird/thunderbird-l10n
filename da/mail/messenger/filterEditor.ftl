@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = meddelelsesindhold hentet fra POP3-server
 filter-action-log-tagged = mærkat påsat
 filter-action-log-ignore-subthread = ignoreret undertråd
 filter-action-log-unread = marker som ulæst
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Besked fra filer "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Du bedes vælge en destinationsmappe.
 filter-editor-enter-valid-email-forward = Indtast en gyldig mailadresse at videresende til.
 filter-editor-pick-template-reply = Vælg en skabelon at besvare med.

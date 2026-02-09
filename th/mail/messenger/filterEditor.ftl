@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = ดึงเนื้อความจากเ�
 filter-action-log-tagged = ติดแท็กแล้ว
 filter-action-log-ignore-subthread = เพิกเฉยเธรดย่อยแล้ว
 filter-action-log-unread = ทำเครื่องหมายว่ายังไม่ได้อ่าน
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = ข้อความจากตัวกรอง "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = คุณต้องเลือกโฟลเดอร์เป้าหมาย
 filter-editor-enter-valid-email-forward = ป้อนที่อยู่อีเมลที่ถูกต้องที่จะส่งต่อ
 filter-editor-pick-template-reply = เลือกแม่แบบที่จะตอบกลับ

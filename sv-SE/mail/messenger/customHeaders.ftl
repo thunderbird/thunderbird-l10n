@@ -1,0 +1,16 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+custom-headers-window = Anpassa huvud
+custom-headers-new-msg-header =
+    .value = Ny rad i meddelandehuvud:
+    .accesskey = N
+custom-headers-add-button =
+    .label = Lägg till
+    .accesskey = L
+custom-headers-remove-button =
+    .label = Ta bort
+    .accesskey = T
+custom-headers-overflow = Du har överskridit gränsen på 50 egna sidhuvuden. Ta bort ett eller flera egna huvuden och försök igen.
+custom-headers-colon-in-header = Huvudet du angav innehåller ett ogiltigt tecken, såsom ett ":", ett tomt tecken, ett tecken som inte är ett ascii-tecken, eller ett 8-bitars ascii-tecken. Ta bort det ogiltiga tecknet och försök igen.

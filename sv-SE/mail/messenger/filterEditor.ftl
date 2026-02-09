@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = meddelandetext hämtad från POP3-server
 filter-action-log-tagged = satt etikett
 filter-action-log-ignore-subthread = ignorerad undertråd
 filter-action-log-unread = märkt som oläst
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Meddelande från filter "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Du måste välja en målmapp.
 filter-editor-enter-valid-email-forward = Skriv in en giltig e-postadress att vidarebefordra till.
 filter-editor-pick-template-reply = Välj en mall för svaret.

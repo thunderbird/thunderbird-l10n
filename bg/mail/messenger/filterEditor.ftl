@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = получено съдържание от POP3 �
 filter-action-log-tagged = с етикет
 filter-action-log-ignore-subthread = пренебрегнати поддискусии
 filter-action-log-unread = отбелязано като непрочетено
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Съобщение от филтър „{ $filterName }“: { $message }
 filter-editor-must-select-target-folder = Трябва да изберете папка.
 filter-editor-enter-valid-email-forward = Въведете валиден адрес за препращане.
 filter-editor-pick-template-reply = Изберете шаблон за отговор.

@@ -34,6 +34,10 @@ filter-action-log-pop3-fetch = גוף ההודעה נטען משרת POP3
 filter-action-log-tagged = מסומן
 filter-action-log-ignore-subthread = התעלם משרשור
 filter-action-log-unread = סומן כלא נקרא
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = הודעה מהמסנן ״{ $filterName }״:‏ { $message }
 filter-editor-must-select-target-folder = חובה לבחור תיקיית יעד.
 filter-editor-enter-valid-email-forward = נא להכניס כתובת דוא״ל חוקית להעברה.
 filter-editor-pick-template-reply = בחר תבנית כדי להשיב

@@ -41,6 +41,14 @@ filter-action-log-pop3-fetch = s'ha recollit el cos del servidor POP3
 filter-action-log-tagged = etiquetat
 filter-action-log-ignore-subthread = subconversa ignorada
 filter-action-log-unread = marcat com a no llegit
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Missatge del filtre «{ $filterName }»: { $message }
 filter-editor-must-select-target-folder = Heu de seleccionar una carpeta de destí.
 filter-editor-enter-valid-email-forward = Introduïu una adreça electrònica vàlida per reenviar-ho.
 filter-editor-pick-template-reply = Trieu la plantilla que utilitzareu per respondre.

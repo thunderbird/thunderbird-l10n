@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = POP серверінен денесі алынд�
 filter-action-log-tagged = тег қойылды
 filter-action-log-ignore-subthread = ішкі ағынды елемеу
 filter-action-log-unread = оқылмаған ретінде белгіленді
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = "{ $filterName }" сүзгісінен хабарлама: { $message }
 filter-editor-must-select-target-folder = Мақсат буманы таңдауыңыз керек.
 filter-editor-enter-valid-email-forward = Әрі қарай жіберу үшін жарамды эл. пошта адресін енгізіңіз.
 filter-editor-pick-template-reply = Жауап берілгенде қолданылатын үлгіні таңдаңыз.

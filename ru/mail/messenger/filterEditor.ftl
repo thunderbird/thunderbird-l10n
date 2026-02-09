@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = тело сообщения получено с �
 filter-action-log-tagged = присвоена метка
 filter-action-log-ignore-subthread = ветка обсуждения пропущена
 filter-action-log-unread = отмечено как непрочитанное
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Сообщение для фильтра «{ $filterName }»: { $message }
 filter-editor-must-select-target-folder = Выберите папку для сохранения.
 filter-editor-enter-valid-email-forward = Введите адрес электронной почты для пересылки на него сообщений.
 filter-editor-pick-template-reply = Выберите шаблон для ответа.

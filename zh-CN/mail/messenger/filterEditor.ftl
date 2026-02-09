@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = 消息体已从 POP3 服务器获取
 filter-action-log-tagged = 已加标签
 filter-action-log-ignore-subthread = 忽略的子论题
 filter-action-log-unread = 标记为未读
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = 来自过滤器“{ $filterName }”的消息：{ $message }
 filter-editor-must-select-target-folder = 必须选择一个目标文件夹。
 filter-editor-enter-valid-email-forward = 请输入一个有效的转发电子邮件地址。
 filter-editor-pick-template-reply = 请选择回复所用的模板。

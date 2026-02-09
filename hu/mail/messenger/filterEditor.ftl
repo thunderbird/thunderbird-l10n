@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = levéltörzs letöltve a POP3-kiszolgálóról
 filter-action-log-tagged = megcímkézve
 filter-action-log-ignore-subthread = kihagyott témacsoportrész
 filter-action-log-unread = megjelölés olvasatlanként
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Üzenet a(z) „{ $filterName }” szűrőtől: { $message }
 filter-editor-must-select-target-folder = Ki kell választania a célmappát.
 filter-editor-enter-valid-email-forward = A továbbításhoz adjon meg érvényes e-mail címet.
 filter-editor-pick-template-reply = Válassza ki a sablont, amelyet a válaszhoz fel kíván használni.

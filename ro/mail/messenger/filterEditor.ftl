@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = conținutul adus de pe serverul POP3
 filter-action-log-tagged = etichetat
 filter-action-log-ignore-subthread = conversație subordonată ignorată
 filter-action-log-unread = marcat ca necitit
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Mesaj de la filtrul „{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Trebuie să selectezi un dosar destinație.
 filter-editor-enter-valid-email-forward = Introdu o adresă de e-mail validă spre care să se redirecționeze mesajul.
 filter-editor-pick-template-reply = Alege un șablon cu care să răspund.

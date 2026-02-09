@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = 從 POP3 伺服器讀取內文
 filter-action-log-tagged = 已貼標籤
 filter-action-log-ignore-subthread = 忽略回覆討論串
 filter-action-log-unread = 已標示為未讀
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = 來自篩選器「{ $filterName }」的訊息：{ $message }
 filter-editor-must-select-target-folder = 您必須指定目的郵件匣。
 filter-editor-enter-valid-email-forward = 請輸入要轉寄的電子郵件地址。
 filter-editor-pick-template-reply = 選取回信用的範本。

@@ -40,6 +40,10 @@ filter-action-log-pop3-fetch = korf eztennet diouzh an dafariad POP3
 filter-action-log-tagged = merket
 filter-action-log-ignore-subthread = isneudennad laosket a-gostez
 filter-action-log-unread = merket evel Anlennet
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
 filter-editor-must-select-target-folder = Ret eo deoc'h diuzañ un teuliad bukenn.
 filter-editor-enter-valid-email-forward = Enankañ ur chomlec'h postel talvoudek da lakaat da dremen daviti.
 filter-editor-pick-template-reply = Dibab ur patrom da respont gantañ.

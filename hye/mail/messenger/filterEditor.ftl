@@ -41,6 +41,14 @@ filter-action-log-pop3-fetch = բովանդակութիւնը բերուել է 
 filter-action-log-tagged = պիտակաւորուած
 filter-action-log-ignore-subthread = անտեսուած ենթահանգոյցներ
 filter-action-log-unread = նշուած է որպէս չընթերցուած
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Հաղորդագրութիւն «{ $filterName }» զտիչից՝ { $message }
 filter-editor-must-select-target-folder = Հարկաւոր է ընտրել թիրախային պանակ։
 filter-editor-enter-valid-email-forward = Մուտքագրէք հասանելի հասցէ փոխանցման համար։
 filter-editor-pick-template-reply = Պատասխանելու համար ընտրէք նմուշ։
