@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Usuń
     .accesskey = U
+custom-headers-overflow = Limit 50 nagłówków użytkownika został przekroczony. Należy usunąć jeden lub więcej nagłówków, a następnie spróbować ponownie.
+custom-headers-colon-in-header = Wprowadzona nazwa nagłówka zawiera nieprawidłowy znak, jak na przykład: „:”, niedrukowalny znak, znak spoza zestawu ASCII lub znak ASCII w trybie ośmiobitowym. Należy usunąć nieprawidłowy znak, a następnie spróbować ponownie.
