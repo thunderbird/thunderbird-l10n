@@ -41,6 +41,14 @@ filter-action-log-pop3-fetch = pamatteksts iegūts no POP3 servera
 filter-action-log-tagged = birkota
 filter-action-log-ignore-subthread = apakšpavediens ignorēts
 filter-action-log-unread = atzīmēta kā nelasīta
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Vēstule no filtra "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Jums jāizvēlas mērķa mape.
 filter-editor-enter-valid-email-forward = Ievadiet derīgu epasta adresi, uz kuru pārsūtīt.
 filter-editor-pick-template-reply = Izvēlieties veidni, ar kuru atbildēt.
