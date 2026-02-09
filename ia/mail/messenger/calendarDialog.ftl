@@ -38,3 +38,5 @@ calendar-dialog-reminder-count =
         [one] memento
        *[other] mementos
     }
+calendar-dialog-accept-tentative = Forsan
+    .title = Forsan

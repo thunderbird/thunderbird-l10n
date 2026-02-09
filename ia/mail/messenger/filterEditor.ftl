@@ -68,3 +68,8 @@ filter-log-message = Message ex filtro "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Tu debe eliger un dossier de destination.
 filter-editor-enter-valid-email-forward = Insere un adresse de e-mail valide al qual inviar ultra.
 filter-editor-pick-template-reply = Selige un modello con le qual responder.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Le application del filtro { $filterName } falleva. Desira tu continuar applicar filtros?
+filter-list-backup-message = Tu filtros non functiona perque le file msgFilterRules.dat, que contine tu filtros, non pote esser legite. Un nove file msgFilterRules.dat sera create e un copia de reserva del vetere file, appellate rulesbackup.dat, sera create in le mesme plica.
+filter-invalid-custom-header = Un de tu filtros usa un titulo personalisate que contine un character non valide, tal como ‘:’, non-imprimibile, non-ascii o ascii a octo-bit. Redige le file msgFilterRules.dat, que contine tu filtros, pro eliminar le characteres invalide ex tu titulos personalisate.
