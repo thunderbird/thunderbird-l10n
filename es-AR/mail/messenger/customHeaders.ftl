@@ -3,3 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 custom-headers-window = Personalizar encabezados
+custom-headers-new-msg-header =
+    .value = Nuevo encabezado de mensaje:
+    .accesskey = N
+custom-headers-add-button =
+    .label = Agregar
+    .accesskey = A
+custom-headers-remove-button =
+    .label = Eliminar
+    .accesskey = r
