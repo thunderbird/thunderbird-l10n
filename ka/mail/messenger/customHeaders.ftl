@@ -3,3 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 custom-headers-window = თავსართების შერჩევა
+custom-headers-new-msg-header =
+    .value = წერილის ახალი თავსართი:
+    .accesskey = ხ
+custom-headers-remove-button =
+    .label = მოცილება
+    .accesskey = მ
