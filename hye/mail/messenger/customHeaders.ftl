@@ -3,3 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 custom-headers-window = Կարգաւորել գլխագրերը
+custom-headers-new-msg-header =
+    .value = Նոր նամակի գլխագիրը.
+    .accesskey = N
+custom-headers-add-button =
+    .label = Աւելացնել
+    .accesskey = Ա
+custom-headers-remove-button =
+    .label = Հեռացնել
+    .accesskey = Հ
