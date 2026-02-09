@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = gövde POP3 sunucusundan alındı
 filter-action-log-tagged = etiketlendi
 filter-action-log-ignore-subthread = göz ardı edilmiş alt dizi
 filter-action-log-unread = okunmadı olarak işaretlenen
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = "{ $filterName }" süzgecinden mesaj: { $message }
 filter-editor-must-select-target-folder = Bir hedef klasör seçmelisiniz.
 filter-editor-enter-valid-email-forward = İletilecek adrese geçerli bir e-posta adresi yazın.
 filter-editor-pick-template-reply = Yanıt için kullanılacak şablonu seçin.
