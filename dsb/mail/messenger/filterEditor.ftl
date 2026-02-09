@@ -68,3 +68,8 @@ filter-log-message = Powěsć z filtra "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Wy dejśo celowy zarědnik wubraś.
 filter-editor-enter-valid-email-forward = Zapódajśo płaśiwu e-mailowu adresu za dalejpósrědnjenje.
 filter-editor-pick-template-reply = Wubjeŕśo pśedłogu za wótegrono.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Nałožowanje filtra { $filterName } njejo se raźiło. Cośo dalej filtry nałožowaś?
+filter-list-backup-message = Waše filtry njefunkcioněruju, dokulaž dataja msgFilterRules.dat, kótaraž waše filtry wopśimujo, njedajo se cytaś. Nowa dataja msgFilterRules.dat napórajo se w tom samem zapisu.
+filter-invalid-custom-header = Jaden z wašych filtrow wužywa swójsku głowowu smužku, kótaraž wopśimujo njepłaśiwe znamuško, kaž na pś. ':', njeśišćajobne znamuško, nje-ascii-znamuško abo wósymbitowe ascii-znamuško. Wobźěłajśo pšosym dataju msgFilterRules.dat, kótaraž waše filtry wopśimujo, aby njepłaśiwe znamuška z wašych swójskich głowowych smužkow wótwónoźeł.

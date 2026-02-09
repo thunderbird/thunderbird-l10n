@@ -45,3 +45,7 @@ calendar-dialog-reminder-count =
     }
 calendar-dialog-accept = Běžy
     .title = Běžy
+calendar-dialog-accept-tentative = Snaź
+    .title = Snaź
+calendar-dialog-decline = Njeběžy
+    .title = Njeběžy
