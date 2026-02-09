@@ -68,3 +68,8 @@ filter-log-message = Wiadomość z filtru „{ $filterName }”: { $message }
 filter-editor-must-select-target-folder = Musisz wybrać folder docelowy.
 filter-editor-enter-valid-email-forward = Proszę podać poprawny adres e-mail, na który przekazana zostanie wiadomość.
 filter-editor-pick-template-reply = Proszę wybrać szablon, który ma zostać użyty do odpowiedzi.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Zastosowanie filtru { $filterName } się nie powiodło. Czy kontynuować uruchamianie filtrów?
+filter-list-backup-message = Filtry wiadomości nie działają, ponieważ plik msgFilterRules.dat, który zawiera filtry wiadomości, nie może być odczytany. Zostanie utworzony nowy plik msgFilterRules.dat oraz kopia starszego pliku, nazwana rulesbackup.dat, w tym samym katalogu.
+filter-invalid-custom-header = Jeden z filtrów używa nagłówka, który zawiera niedozwolone znaki, takie jak „:”, znaki niedrukowalne, znaki niezgodne ze standardem ascii, lub ośmiobitowe znaki ascii. Proszę usunąć błędne znaki w pliku msgFilterRules.dat, który to zawiera ustawienia filtrów.

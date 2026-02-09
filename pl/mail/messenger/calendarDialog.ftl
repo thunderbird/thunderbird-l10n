@@ -41,3 +41,9 @@ calendar-dialog-reminder-count =
         [few] { $count } przypomnienia
        *[many] { $count } przypomnień
     }
+calendar-dialog-accept = Zamierzam
+    .title = Zamierzam
+calendar-dialog-accept-tentative = Może
+    .title = Może
+calendar-dialog-decline = Nie zamierzam
+    .title = Nie zamierzam
