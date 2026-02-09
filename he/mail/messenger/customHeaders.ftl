@@ -5,3 +5,9 @@
 custom-headers-new-msg-header =
     .value = כותרת חדשה להודעה:
     .accesskey = ח
+custom-headers-add-button =
+    .label = הוספה
+    .accesskey = ה
+custom-headers-remove-button =
+    .label = הסרה
+    .accesskey = ס
