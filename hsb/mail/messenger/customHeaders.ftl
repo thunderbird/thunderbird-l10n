@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Wotstronić
     .accesskey = W
+custom-headers-overflow = Sće limit 50 wužiwarskich hłowow překročił. Prošu wotstrońće jednu hłowu abo wjacore hłowy a spytajće hišće raz.
+custom-headers-colon-in-header = Hłowa, kotruž sće zapisał, njepłaćiwe znamješko wobsahuje, tajke kaž ':', njećišćomne znamješko, nje-ascii znamješko abo wosombitowe ASCII-znamješko. Prošu wotstrońće njepłaćiwe znamješko a spytajće hišće raz.
