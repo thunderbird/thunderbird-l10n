@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Verwyder
     .accesskey = V
+custom-headers-overflow = U het die perk van 50 pasgemaakte kopskrifte oorskry. Verwyder een of meer pasgemaakte kopskrifte en probeer weer.
+custom-headers-colon-in-header = Die kopskrif wat u ingetik het, bevat 'n ongeldige karakter, soos ':', 'n niedrukkarakter, 'n nie-ASCI-karakter, of 'n 8-bis-ASCII-handves. Verwyder die ongeldige karakter en probeer weer.
