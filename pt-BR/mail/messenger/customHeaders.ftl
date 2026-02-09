@@ -5,3 +5,6 @@
 custom-headers-add-button =
     .label = Adicionar
     .accesskey = A
+custom-headers-remove-button =
+    .label = Remover
+    .accesskey = R
