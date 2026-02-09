@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Fjern
     .accesskey = F
+custom-headers-overflow = Du har brukt mer enn 50 selvvalgte meldingshoder. Fjern ett eller flere av dem og prøv igjen.
+custom-headers-colon-in-header = Meldingshodet du har skrevet inn, inneholder et ugyldig tegn, som f.eks. «:», et uskrivbart tegn, et ikke-ASCII-tegn eller et åtte-bits ASCII-tegn. Fjern det ugyldige tegnet og prøv igjen.
