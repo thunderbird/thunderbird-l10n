@@ -6,3 +6,6 @@ custom-headers-window = Configurer les en-têtes
 custom-headers-add-button =
     .label = Ajouter
     .accesskey = A
+custom-headers-remove-button =
+    .label = Supprimer
+    .accesskey = S
