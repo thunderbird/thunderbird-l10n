@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Buang
     .accesskey = B
+custom-headers-overflow = Anda telah melebihi had 50 pengepala penyesuaian. Sila buang satu atau lebih pengepala dan cuba lagi.
+custom-headers-colon-in-header = Pengepala yang dimasukkan mengandungi aksara tidak sah, seperti ':', aksara tidak boleh-cetak, aksara bukan-ascii, atau aksara ascii lapan bit. Sila buang aksara tidak sah ini dan cuba lagi.
