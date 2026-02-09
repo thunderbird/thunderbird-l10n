@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Eltávolítás
     .accesskey = E
+custom-headers-overflow = Túllépte az egyéni fejlécekre vonatkozó 50 darabos határt. Távolítson el egy vagy több egyéni fejlécet, és próbálja újra.
+custom-headers-colon-in-header = A beírt fejléc érvénytelen karaktert tartalmaz, például ':' jelet, nem nyomtatható karaktert, nem ASCII-karaktert vagy nyolcbites ASCII-karaktert. Törölje az érvénytelen karaktert, és próbálja újra.
