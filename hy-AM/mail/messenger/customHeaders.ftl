@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Հեռացնել
     .accesskey = R
+custom-headers-overflow = Դուք բացառել եք 50 ընտրված գլխագրերի սահմանափակումը։ Հեռացրեք որոշ գլխագրեր և կրկին փորձեք։
+custom-headers-colon-in-header = Ձեր մուտքագրած գլխագիրը պարունակում է սխալ նշան, օրինակ՝ ':', չտպվող նշան, ոչ ascii նշան կամ 8 բիթանոց ascii նշան։ Ջնջեք սխալ նշանները և կրկին փորձեք։
