@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Fjern
     .accesskey = F
+custom-headers-overflow = Du har overstige grensa på 50 sjølvvalde meldingshovud. Fjern eitt eller fleire av dei og prøv på nytt.
+custom-headers-colon-in-header = Meldingshovudet du har skrive inn, inneheld eit ugyldig teikn, som t.d. «:», eit uskriveleg teikn, eit ikkje-ASCII-tegn eller eit åtte-bits ASCII-teikn. Fjern det ugyldige teiknet og prøv på nytt.
