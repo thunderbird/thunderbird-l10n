@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Remover
     .accesskey = R
+custom-headers-overflow = Excedeu o limite de 50 cabeçalhos personalizados. Por favor elimine um ou mais filtros personalizados e tente novamente.
+custom-headers-colon-in-header = O cabeçalho introduzido contém uma letra inválida, tal como':', uma letra não impressa, uma letra não ASCII ou uma letra ASCII de oito bit. Remova o caractere inválido e tente novamente.
