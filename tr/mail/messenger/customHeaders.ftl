@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Kaldır
     .accesskey = r
+custom-headers-overflow = 50 kullanıcı tanımlı başlık sınırını aştınız. Lütfen bir veya birden fazla kullanıcı tanımlı başlığı silerek yeniden deneyin.
+custom-headers-colon-in-header = Girdiğiniz başlık satırı geçersiz bir karakter içeriyor (örneğin ':', yazdırılamayan bir karakter, ASCII olmayan bir karakter veya 8 bit ASCII karakter). Lütfen geçersiz karakteri silip yeniden deneyin.
