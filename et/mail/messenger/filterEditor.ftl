@@ -41,6 +41,14 @@ filter-action-log-pop3-fetch = tõmmati sisu POP3-serverist
 filter-action-log-tagged = sildistati
 filter-action-log-ignore-subthread = ignoreeriti alamlõime
 filter-action-log-unread = märgiti mitteloetuks
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Sõnum filtrist "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Sa pead valima sihtkausta.
 filter-editor-enter-valid-email-forward = Sisesta edastamiseks korrektne e-posti aadress.
 filter-editor-pick-template-reply = Vali vastamiseks kasutatav mall.
