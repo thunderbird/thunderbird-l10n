@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Elimină
     .accesskey = t
+custom-headers-overflow = Ai depășit limita de 50 de anteturi personalizate. Te rugăm să elimini unul sau mai multe anteturi personalizate și să încerci din nou.
+custom-headers-colon-in-header = Antetul pe care l-ai introdus conține un caracter nevalid, cum ar fi „:”, un caracter neprintabil, un caracter non-ASCII sau un caracter din codul ASCII extins. Te rugăm să elimini caracterul nevalid și să încerci din nou.
