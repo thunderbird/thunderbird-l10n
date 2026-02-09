@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Eliminar
     .accesskey = R
+custom-headers-overflow = Excediste el límite de 50 encabezados personalizados. Por favor, elimina una o más encabezados personalizados y vuelve a intentarlo.
+custom-headers-colon-in-header = El encabezado introducido contiene un caracter, tal como ';', un caracter no imprimible, un caracter que no es ascii, o un caracter ascii de ocho bits. Por favor, elimina el caracter inválido y vuelve a intentarlo.
