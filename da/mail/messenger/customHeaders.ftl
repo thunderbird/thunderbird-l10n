@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Fjern
     .accesskey = R
+custom-headers-overflow = Du har overskredet grænsen på 50 brugerdefinerede headers. Fjern et eller flere brugerdefinerede headers og prøv igen.
+custom-headers-colon-in-header = Den brugerdefinerede header du skrev, indeholder et ugyldigt tegn som fx ":", et tegn der ikke kan skrives, et ikke-ascii tegn eller et 8-bit ascii-tegn (æøå). Fjern det ugyldige tegn fra den brugerdefinerede header og prøv igen.
