@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Fjarlægja
     .accesskey = F
+custom-headers-overflow = Þú ert yfir 50 sérsniðna hausa hámarkinu. Fjarlægðu einn eða fleiri sérsniðna hausa og reyndu aftur.
+custom-headers-colon-in-header = Hausinn sem þú slóst inn inniheldur ógildan staf, svo sem eins og ':', óprentanlegan staf, staf sem er ekki ascii, eða átta bita ascii staf. Fjarlægðu stafinn sem er ógildur og reyndu aftur.
