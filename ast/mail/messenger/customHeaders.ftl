@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Desaniciar
     .accesskey = R
+custom-headers-overflow = Perpasóse'l llímite de 50 testeres personalizaes. Por favor, desanicia una o más testeres personalizaes y vuelvi a intentalo.
+custom-headers-colon-in-header = La testera qu'introduxisti contién un caráuter non válidu, talo como ':', un caráuter non imprentable, un caráuter non-ASCII, o un caráuter col octavu bit activáu. Por favor, desanicia'l caráuter non válidu y vuelvi a intentalo.
