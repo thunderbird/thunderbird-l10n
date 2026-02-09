@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Xóa
     .accesskey = R
+custom-headers-overflow = Bạn đã vượt quá giới hạn 50 đầu đề tùy biến. Vui lòng xóa bớt đầu đề và thử lại.
+custom-headers-colon-in-header = Tiêu đề bạn đã nhập chứa một ký tự không hợp lệ, chẳng hạn như ':', ký tự không in được, ký tự không ascii hoặc ký tự ascii 8 bit. Vui lòng xóa ký tự không hợp lệ và thử lại.
