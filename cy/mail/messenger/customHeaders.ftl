@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Tynnu
     .accesskey = T
+custom-headers-overflow = Rydych wedi mynd dros yr uchafswm o 50 penynnau cyfaddasu. Tynnwch un neu ragor o'r penynnau cyfaddasu a cheisiwch eto.
+custom-headers-colon-in-header = Mae'r pennyn rydych wedi ei roi yn cynnwys nodau annilys, megis ':', nod anargraffadwy, nod nad yw'n ascii, neu nod ascii wyth did. Tynnwch y nod annilys a cheisiwch eto.
