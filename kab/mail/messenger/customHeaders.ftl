@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Kkes
     .accesskey = K
+custom-headers-overflow = Tɛeddaḍ talast n 50 n iqeṛṛa udmawanen. Ma ulac aɣilif, kkes yiwen neɣ kra n iqeṛṛa udmawanen sakin ɛreḍ tikelt nniḍen.
+custom-headers-colon-in-header = Aqeṛṛu i teskecmeḍ yegber asekkil mačči d ameɣtu, am ':', asekkil ur nettwasaggaz ara, asekkil mačči n ascii, neɣ asekkil ascii n ṭam n ibiten. Ma ulac aɣilif, kkes asekkil arameɣtu sakin ɛreḍ tikelt nniḍen.
