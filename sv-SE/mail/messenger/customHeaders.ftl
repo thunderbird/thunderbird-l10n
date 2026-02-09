@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Ta bort
     .accesskey = T
+custom-headers-overflow = Du har överskridit gränsen på 50 egna sidhuvuden. Ta bort ett eller flera egna huvuden och försök igen.
+custom-headers-colon-in-header = Huvudet du angav innehåller ett ogiltigt tecken, såsom ett ":", ett tomt tecken, ett tecken som inte är ett ascii-tecken, eller ett 8-bitars ascii-tecken. Ta bort det ogiltiga tecknet och försök igen.
