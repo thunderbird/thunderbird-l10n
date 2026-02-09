@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = telo dobljeno s strežnika POP3
 filter-action-log-tagged = označeno
 filter-action-log-ignore-subthread = prezrta podnit
 filter-action-log-unread = označeno kot neprebrano
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Sporočilo filtra "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Izbrati morate ciljno mapo.
 filter-editor-enter-valid-email-forward = Vnesite veljaven poštni naslov za posredovanje.
 filter-editor-pick-template-reply = Izberite predlogo za odgovor.
