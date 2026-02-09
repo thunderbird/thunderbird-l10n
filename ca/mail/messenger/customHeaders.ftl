@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Elimina
     .accesskey = i
+custom-headers-overflow = Heu superat el límit de 50 capçaleres personalitzades. Elimineu-ne una o més i torneu-ho a provar.
+custom-headers-colon-in-header = La capçalera que heu introduït conté un caràcter no vàlid, com ara «:», un caràcter no imprimible, un caràcter no ASCII o un caràcter ASCII de vuit bits. Elimineu el caràcter no vàlid i torneu-ho a provar.
