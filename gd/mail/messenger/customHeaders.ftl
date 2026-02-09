@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Thoir air falbh
     .accesskey = r
+custom-headers-overflow = Chaidh thu thar a' chrìoch 's barrachd air 50 bann-cinn gnàthaiche agad. Thoir air falbh aonan no barrachd dhiubh 's feuch ris a-rithist.
+custom-headers-colon-in-header = Tha caractair mì-dhligheach sa bhann-cinn a chuir thu a-steach, leithid ':', caractair nach gabh a chlò-bhualadh, caractair nach eil air nòs ascii no caractair eight bit ascii. Thoir air falbh an caractair mì-dhligheach is feuch ris a-rithist.
