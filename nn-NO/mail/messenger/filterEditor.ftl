@@ -57,6 +57,14 @@ filter-action-log-pop3-fetch = meldingskropp henta frå POP3-server
 filter-action-log-tagged = med merkelapp
 filter-action-log-ignore-subthread = ignorert deltråd
 filter-action-log-unread = markert som ulesen
+# Variables:
+# $timestamp (String) - The timestamp of the log entry.
+# $message (String) - The actual log message.
+filter-log-line = [{ $timestamp }] { $message }
+# Variables:
+# $filterName (String) - The name of the filter.
+# $message (String) - The log message from the filter.
+filter-log-message = Melding frå filter «{ $filterName }»: { $message }
 filter-editor-must-select-target-folder = Du må velje ei målmappe.
 filter-editor-enter-valid-email-forward = Skriv inn ei gyldig e-postadresse å vidaresende til.
 filter-editor-pick-template-reply = Vel ein mal å svare med.
