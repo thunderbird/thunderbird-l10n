@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Odebrat
     .accesskey = r
+custom-headers-overflow = Překročili jste maximum 50 vlastních záhlaví. Prosím odeberte jedno nebo více záhlaví a zkuste to znovu.
+custom-headers-colon-in-header = Vložené vlastní záhlaví obsahuje neplatný znak, např. ':', netisknutelný znak nebo znak v osmibitovém kódování. Odeberte prosím neplatný znak a zkuste to znovu.
