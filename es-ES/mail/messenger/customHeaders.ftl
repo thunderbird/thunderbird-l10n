@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Eliminar
     .accesskey = R
+custom-headers-overflow = Ha excedido el límite de 50 cabeceras personalizadas. Elimine una o más cabeceras personalizadas y vuelva a intentarlo.
+custom-headers-colon-in-header = La cabecera que ha introducido contiene un carácter no válido, tal como ':', un carácter no imprimible, un carácter no-ASCII, o un carácter con el octavo bit activado. Elimine el carácter no válido y vuelva a intentarlo.
