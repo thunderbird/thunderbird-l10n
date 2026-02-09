@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Bain
     .accesskey = B
+custom-headers-overflow = Tá an teorainn de 50 ceanntásc saincheaptha sáraithe agat. Bain ceann amhain, nó níos mó ná sin, agus déan iarracht eile.
+custom-headers-colon-in-header = Tá carachtar neamhbhailí sa cheanntásc a d'iontráil tú, m.sh. ":", carachtar dophriontáilte, carachtar nach ASCII é, nó carachtar ASCII ocht ngiotán. Bain an carachtar neamhbhailí, le do thoil, agus déan iarracht eile.
