@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Fuortsmite
     .accesskey = F
+custom-headers-overflow = Jo binne oer de grins fan 50 oanpaste koprigels gien. Smyt ien of mear oanpaste koprigels fuort en probearje it nochris.
+custom-headers-colon-in-header = De koprigel dy’t jo ynfierd hawwe befettet in ûnjildich teken, lykas ':', in net-ôfdrukber teken, in net-ascii-teken, of in 8-bits ascii-teken. Smyt it ûnjildige teken fuort en probearje it opnij.
