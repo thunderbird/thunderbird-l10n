@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Hiqi
     .accesskey = H
+custom-headers-overflow = Keni tejkaluar kufirin prej 50 titujsh vetjakë. Ju lutemi, hiqni një ose më shumë tituj vetjakë dhe riprovoni.
+custom-headers-colon-in-header = Titulli që dhatë përmban një shenjë të pavlefshme, si ':', ndonjë shkronjë të pashtypshme, ndonjë shenjë jo ascii, ose ndonjë shenjë ascii tetë bitëshe. Ju lutemi, hiqeni shenjën e pavlefshme dhe riprovoni.
