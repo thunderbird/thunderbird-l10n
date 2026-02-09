@@ -3,3 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 custom-headers-window = Cyfaddasu Penynnau
+custom-headers-new-msg-header =
+    .value = Pennyn neges newydd:
+    .accesskey = P
+custom-headers-add-button =
+    .label = Ychwanegu
+    .accesskey = a
+custom-headers-remove-button =
+    .label = Tynnu
+    .accesskey = T
