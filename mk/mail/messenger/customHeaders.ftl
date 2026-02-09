@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Отстрани
     .accesskey = р
+custom-headers-overflow = Ја надминвте границата од 50 сопствени заглавја. Отстранете некој од сопствените заглавја и обидете се повторно.
+custom-headers-colon-in-header = Заглавјето кое го внесовте содржи неважечи знак, како ':', знак кој не се печати, не-ascii знак, или осум-битен ascii знак. Отстранете го тој знак и обидете се повторно.
