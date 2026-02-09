@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Dilemel
     .accesskey = D
+custom-headers-overflow = Aet oc'h dreist bevenn ar 50 talbenn personelaet. Dilamit unan pe veur a dalbenn ha klaskit en-dro.
+custom-headers-colon-in-header = Arouezennoù didalvoudek evel ':' pe un arouezenn anvoullus un arouezenn anascii pe un arouezenn ascii eizh bit ez eus en talbenn enanket ganeoc'h. Dilamit an arouezenn didalvoudek ha klaskit en-dro.
