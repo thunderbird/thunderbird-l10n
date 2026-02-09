@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Hapus
     .accesskey = H
+custom-headers-overflow = Batas maksimum header kustom adalah 50 buah. Silakan hapus satu atau lebih header kustom dan coba lagi.
+custom-headers-colon-in-header = Header yang Anda masukkan mengandung karakter yang tidak sah seperti ':', karakter yang tidak dapat dicetak, karakter non-ascii, atau karakter delapan bit. Hapus karakter yang tidak sah tersebut dan coba lagi.
