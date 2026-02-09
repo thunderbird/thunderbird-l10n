@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 custom-headers-window = Pasmaak kopskrifte
+custom-headers-new-msg-header =
+    .value = Nuwe boodskapkopskrif:
+    .accesskey = N
 custom-headers-add-button =
     .label = Voeg by
     .accesskey = V
