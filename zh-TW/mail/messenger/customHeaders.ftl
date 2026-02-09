@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = 移除
     .accesskey = R
+custom-headers-overflow = 您使用超過 50 個自定標頭 (Header)。請減少標頭後重試。
+custom-headers-colon-in-header = 您輸入的標頭內含不正確的字元，如「:」、不可列印或非 ASCII 的字元。請移除這些字元後重試。
