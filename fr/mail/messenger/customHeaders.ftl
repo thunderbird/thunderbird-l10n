@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Supprimer
     .accesskey = S
+custom-headers-overflow = Vous avez dépassé la limite de 50 en-têtes personnalisés. Veuillez en supprimer un ou plusieurs et essayez à nouveau.
+custom-headers-colon-in-header = L’en-tête que vous avez saisi contient un caractère invalide (tel que « : »), un caractère non imprimable, un caractère non ASCII ou un caractère ASCII 8 bits. Veuillez enlever le caractère invalide et réessayer.
