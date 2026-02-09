@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Odstrani
     .accesskey = d
+custom-headers-overflow = Presegli ste mejo 50-ih glav po meri. Odstranite nekaj glav po meri in poskusite znova.
+custom-headers-colon-in-header = Glava, ki ste jo vnesli, vsebuje neveljaven znak, kot npr. ':', nenatisljiv znak, znak, ki ni znak ASCII ali pa osem bitni znak ASCII. Odstranite neveljaven znak in poskusite znova.
