@@ -12,3 +12,5 @@ custom-headers-add-button =
 custom-headers-remove-button =
     .label = Olib tashlash
     .accesskey = O
+custom-headers-overflow = Odatdagi sarlavhalar 50 tadan oshdi. Bir yoki bir nechta sarlavhalarni olib tashlang va qayta urinib ko‘ring.
+custom-headers-colon-in-header = Siz kiritgan sarlavhada ':', chop etib bo‘lmaydigan, ascii xususiyatig yoki sakkiz bitlik ascii xususiyatiga ega bo‘lgan yaroqsiz belgilar bor. Yaroqsiz belgilarni olib tashlang va qaytadan urinib ko‘ring.
