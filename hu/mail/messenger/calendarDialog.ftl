@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Hely
 calendar-dialog-description-row-icon =
     .alt = Leírás
+calendar-dialog-reminders-row-icon =
+    .alt = Emlékeztetők
 calendar-dialog-description-label = Leírás
 calendar-dialog-description-expand-icon =
     .alt = Teljes leírás megjelenítése
@@ -28,3 +30,18 @@ calendar-dialog-more-categories =
        *[other] +{ $additionalCategories } további
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Emlékeztető törlése
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } emlékeztető
+       *[other] { $count } emlékeztető
+    }
+calendar-dialog-accept = Részt vesz
+    .title = Részt vesz
+calendar-dialog-accept-tentative = Talán
+    .title = Talán
+calendar-dialog-decline = Nem megy
+    .title = Nem megy

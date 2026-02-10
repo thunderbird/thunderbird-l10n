@@ -41,3 +41,9 @@ calendar-dialog-reminder-count =
         [few] { $count } напоминания
        *[many] { $count } напоминаний
     }
+calendar-dialog-accept = Идёт
+    .title = Идёт
+calendar-dialog-accept-tentative = Возможно
+    .title = Возможно
+calendar-dialog-decline = Не идёт
+    .title = Не идёт

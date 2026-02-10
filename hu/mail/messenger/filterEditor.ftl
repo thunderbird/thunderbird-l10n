@@ -68,3 +68,8 @@ filter-log-message = Üzenet a(z) „{ $filterName }” szűrőtől: { $message 
 filter-editor-must-select-target-folder = Ki kell választania a célmappát.
 filter-editor-enter-valid-email-forward = A továbbításhoz adjon meg érvényes e-mail címet.
 filter-editor-pick-template-reply = Válassza ki a sablont, amelyet a válaszhoz fel kíván használni.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Nem sikerült alkalmazni ezt a szűrőt: { $filterName }. Folytatja a szűrők alkalmazását?
+filter-list-backup-message = A szűrők nem működnek, mert az msgFilterRules.dat fájl, amely a szűrőket tartalmazza, nem olvasható. Új msgFilterRules.dat fájl lesz létrehozva, és a régi fájlról biztonsági mentés készül rulesbackup.dat néven ugyanabban a könyvtárban.
+filter-invalid-custom-header = Az egyik szűrő olyan egyéni fejlécet használ, amely érvénytelen karaktert tartalmaz, például „:”, nem nyomtatható karakter, nem ASCII-karakter vagy 8 bites ASCII-karakter. Szerkessze az msgFilterRules.dat fájlt, amely a szűrőket tartalmazza, és távolítsa el az érvénytelen karaktereket az egyéni fejlécekből.

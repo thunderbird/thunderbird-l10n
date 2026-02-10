@@ -406,6 +406,12 @@ key-does-not-expire = A kulcs nem jár le
 key-expired-date = A kulcs ekkor lejárt: { $keyExpiry }
 key-expired-simple = A kulcs lejárt
 key-revoked-simple = A kulcsot visszavonták
+key-revoked-revocation-code-superseded = A kulcsot visszavonták, mert a kulcsot lecserélték.
+key-revoked-revocation-code-compromised = A kulcsot visszavonták, mert a kulcs tartalma kompromittálódott.
+key-revoked-revocation-code-retired = A kulcsot visszavonták, mert a kulcs már nincs használatban.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = A kulcstulajdonos által megadott visszavonási ok: { $reason }
 key-do-you-accept = Elfogadja ezt a kulcsot a digitális aláírások ellenőrzéséhez és az üzenetek titkosításához?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
