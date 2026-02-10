@@ -68,3 +68,8 @@ filter-log-message = Správa z filtra "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Musíte vybrať cieľový priečinok.
 filter-editor-enter-valid-email-forward = Zadajte platnú e‑mailovú adresu, na ktorú chcete poštu preposlať.
 filter-editor-pick-template-reply = Vyberte šablónu, pomocou ktorej chcete odpovedať.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Použitie filtra { $filterName } zlyhalo. Chcete pokračovať vo filtrovaní?
+filter-list-backup-message = Vaše filtre nefungujú, pretože súbor msgFilterRules.dat, ktorý obsahuje vaše filtre, sa nepodarilo prečítať. Vytvorí sa nový súbor msgFilterRules.dat a v rovnakom priečinku sa vytvorí záloha starého súboru s názvom rulesbackup.dat.
+filter-invalid-custom-header = Jeden z vašich filtrov používa vlastnú hlavičku, ktorá obsahuje neplatný znak, ako napríklad ":", netlačiteľný znak, nie-ascii alebo osembitový ascii znak. Upravte súbor msgFilterRules.dat, ktorý obsahuje vaše filtre tak, aby ste odstránili neplatné znaky z hlavičiek.
