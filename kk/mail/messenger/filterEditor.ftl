@@ -68,3 +68,8 @@ filter-log-message = "{ $filterName }" сүзгісінен хабарлама: 
 filter-editor-must-select-target-folder = Мақсат буманы таңдауыңыз керек.
 filter-editor-enter-valid-email-forward = Әрі қарай жіберу үшін жарамды эл. пошта адресін енгізіңіз.
 filter-editor-pick-template-reply = Жауап берілгенде қолданылатын үлгіні таңдаңыз.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = { $filterName } сүзгісін іске асыру сәтсіз аяқталды. Сүзгілерді іске асыруды жалғастыруды қалайсыз ба?
+filter-list-backup-message = Сіздің сүзгілеріңіз жасамайды, өйткені сіздің барлық сүзгілеріңіз орналасқан msgFilterRules.dat файлын оқу мүмкін емес. Жаңа msgFilterRules.dat файлы жасалады, және ескі файлдың қор көшірмесі rulesbackup.dat деп аталып, сол бумада жасалатын болады.
+filter-invalid-custom-header = Сіздің сүзгілеріңіздің біреуі таңдауыңызша тақырыптаманы қолданады, ал оның ішінде жарамсыз таңба бар, ол ‘:’, баспаға шығарылмайтын, ascii-емес, немесе 8-биттік ascii таңбасы сияқты. Сіздің сүзгілеріңіз орналасқан msgFilterRules.dat файлын таңдауыңызша тақырыптамалардан жарамсыз таңбаларды өшіру мақсатында түзетіңіз.

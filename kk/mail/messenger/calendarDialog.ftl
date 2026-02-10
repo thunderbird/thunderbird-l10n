@@ -38,3 +38,9 @@ calendar-dialog-reminder-count =
         [one] { $count } еске салу
        *[other] { $count } еске салу
     }
+calendar-dialog-accept = Барамын
+    .title = Барамын
+calendar-dialog-accept-tentative = Мүмкін
+    .title = Мүмкін
+calendar-dialog-decline = Бармаймын
+    .title = Бармаймын

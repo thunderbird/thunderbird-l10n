@@ -68,3 +68,8 @@ filter-log-message = Mitteilung von Filter "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Sie müssen einen Zielordner angeben.
 filter-editor-enter-valid-email-forward = Geben Sie eine gültige E-Mail-Adresse an, auf die weitergeleitet werden soll.
 filter-editor-pick-template-reply = Wählen Sie eine Vorlage, mit der geantwortet werden soll.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Anwenden des Filters { $filterName } fehlgeschlagen. Sollen weiterhin Filter angewendet werden?
+filter-list-backup-message = Ihre Filter funktionieren nicht, weil die Datei msgFilterRules.dat, die Ihre Filter enthält, nicht gelesen werden konnte. Eine neue Datei msgFilterRules.dat wird erstellt und ein Backup der alten Datei mit dem Namen rulesbackup.dat wird im gleichen Ordner erstellt.
+filter-invalid-custom-header = Einer Ihrer Filter verwendet eine benutzerdefinierte Kopfzeile, die ein ungültiges Zeichen wie ':' enthält, ein nicht druckbares Zeichen, ein Nicht-ASCII-Zeichen oder ein 8-Bit-ASCII-Zeichen. Bitte bearbeiten Sie die Datei msgFilterRules.dat, die Ihre Filter enthält, um ungültige Zeichen aus Ihren benutzerdefinierten Kopfzeilen zu entfernen.
