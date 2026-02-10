@@ -35,9 +35,9 @@ calendar-dialog-delete-reminder-button =
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count = { $count } promemoria
-calendar-dialog-accept = In corso
-    .title = In corso
+calendar-dialog-accept = Partecipo
+    .title = Partecipo
 calendar-dialog-accept-tentative = Forse
     .title = Forse
-calendar-dialog-decline = Non in corso
-    .title = Non in corso
+calendar-dialog-decline = Non partecipo
+    .title = Non partecipo
