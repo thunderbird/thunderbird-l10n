@@ -68,3 +68,8 @@ filter-log-message = Meddelande från filter "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Du måste välja en målmapp.
 filter-editor-enter-valid-email-forward = Skriv in en giltig e-postadress att vidarebefordra till.
 filter-editor-pick-template-reply = Välj en mall för svaret.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Användningen av filtret { $filterName } misslyckades. Vill du fortsätta tillämpa filter?
+filter-list-backup-message = Dina filter fungerar inte eftersom filen msgFilterRules.dat, som innehåller dina filter, inte kunde läsas. En ny msgFilterRules.dat-fil kommer att skapas och en säkerhetskopia av den gamla filen, kallad rulesbackup.dat, kommer att skapas i samma katalog.
+filter-invalid-custom-header = Ett av dina filter använder ett anpassat huvud som innehåller ett ogiltigt tecken, till exempel ”:”, ett icke-utskrivbart tecken, ett icke-ascii-tecken eller ett åtta-bitars ascii-tecken. Redigera filen msgFilterRules.dat, som innehåller dina filter, för att ta bort ogiltiga tecken från dina anpassade rubriker.
