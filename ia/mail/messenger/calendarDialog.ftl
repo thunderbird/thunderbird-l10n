@@ -38,5 +38,9 @@ calendar-dialog-reminder-count =
         [one] memento
        *[other] mementos
     }
+calendar-dialog-accept = Acceptar
+    .title = Acceptar
 calendar-dialog-accept-tentative = Forsan
     .title = Forsan
+calendar-dialog-decline = Non acceptar
+    .title = Non acceptar
