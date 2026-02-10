@@ -49,5 +49,60 @@
 <!ENTITY event.invite.attendees.label "អញ្ជើញអ្នកចូលរួម…">
 <!ENTITY event.email.attendees.label "សរសេរអ៊ីមែលទៅកាន់ អ្នកចូលរួមទាំងអស់…">
 <!ENTITY event.email.tentative.attendees.label "សរសេរអ៊ីមែលទៅកាន់ អ្នកចូលរួមដែលមិនទាន់សម្រេចចិត្ត…">
+<!ENTITY event.remove.attendees.label2 "ដកអ្នកចូលរួមចេញទាំងអស់">
+<!ENTITY event.remove.attendee.label "លុបអ្នកចូលរួមចេញ">
+<!-- Toolbar -->
+<!ENTITY event.toolbar.save.label2 "រក្សា​ទុក">
+<!ENTITY event.toolbar.saveandclose.label "រក្សាទុក និងបិទ">
+<!ENTITY task.to.label "ថ្ងៃផុតកំណត់៖">
+<!ENTITY task.status.label "ស្ថានភាព៖">
+<!ENTITY event.repeat.label "ធ្វើម្តងទៀត៖">
+<!ENTITY event.until.label "រហូតដល់៖">
+<!ENTITY event.reminder.label "ការរំលឹក៖">
+<!ENTITY event.description.label "សេចក្ដី​ពិពណ៌នា៖">
+<!ENTITY event.attachments.label "ឯកសារ​ភ្ជាប់ ៖">
+<!ENTITY event.attachments.menubutton.label "ភ្ជាប់">
+<!ENTITY event.attachments.url.label "គេហទំព័រ…">
+<!ENTITY event.attachments.popup.remove.label "យកចេញ">
+<!ENTITY event.attachments.popup.open.label "បើក">
+<!ENTITY event.attachments.popup.removeAll.label "លុប​ចេញ​ទាំងអស់">
+<!ENTITY event.attachments.popup.attachPage.label "ភ្ជាប់​គេហទំព័រ…">
+<!ENTITY event.url.label "តំណភ្ជាប់ពាក់ព័ន្ធ៖">
+<!ENTITY event.priority2.label "អាទិភាព៖">
+<!ENTITY event.reminder.none.label "គ្មានការរំលឹកទេ ">
+<!ENTITY event.reminder.0minutes.before.label "មុនពេល 0 នាទី">
+<!ENTITY event.reminder.5minutes.before.label "មុនពេល 5 នាទី">
+<!ENTITY event.reminder.15minutes.before.label "មុនពេល 15 នាទី">
+<!ENTITY event.reminder.30minutes.before.label "មុនពេល 30 នាទី">
+<!ENTITY event.reminder.1hour.before.label "មុនពេល 1 ម៉ោង">
+<!ENTITY event.reminder.2hours.before.label "មុនពេល 2 ម៉ោង">
+<!ENTITY event.reminder.12hours.before.label "មុនពេល 12 ម៉ោង">
+<!ENTITY event.reminder.1day.before.label "មុនពេល 1 ថ្ងៃ">
+<!ENTITY event.reminder.2days.before.label "មុនពេល 2 ថ្ងៃ">
+<!ENTITY event.reminder.1week.before.label "មុនពេល 1 សប្ដាហ៍">
+<!ENTITY event.reminder.custom.label "ផ្ទាល់ខ្លួន…">
+<!ENTITY event.reminder.multiple.label "ការរំលឹកច្រើន…">
+<!ENTITY event.statusbarpanel.freebusy.label "ពេលវេលាជា៖">
+<!ENTITY event.statusbarpanel.privacy.label "ភាពឯកជន៖">
+<!ENTITY event.repeat.daily.label "ប្រចាំថ្ងៃ">
+<!ENTITY event.repeat.weekly.label "ប្រចាំសប្តាហ៍">
+<!ENTITY event.repeat.every.weekday.label "រាល់ថ្ងៃធ្វើការ">
 <!ENTITY event.repeat.monthly.label "ប្រចាំខែ">
 <!ENTITY event.recurrence.month.label "ប្រចាំខែ">
+<!ENTITY event.recurrence.pattern.yearly.every.month.label "រាល់">
+<!ENTITY event.recurrence.pattern.yearly.month.1.label "មករា">
+<!ENTITY event.recurrence.pattern.yearly.month.2.label "កុម្ភៈ">
+<!ENTITY event.recurrence.pattern.yearly.month.3.label "មីនា">
+<!ENTITY event.recurrence.pattern.yearly.month.4.label "មេសា">
+<!ENTITY event.recurrence.pattern.yearly.month.5.label "ឧសភា">
+<!ENTITY event.recurrence.pattern.yearly.month.6.label "មិថុនា">
+<!ENTITY event.recurrence.pattern.yearly.month.7.label "កក្កដា">
+<!ENTITY event.recurrence.pattern.yearly.month.8.label "សីហា">
+<!ENTITY event.recurrence.pattern.yearly.month.9.label "កញ្ញា">
+<!ENTITY event.recurrence.pattern.yearly.month.10.label "តុលា">
+<!ENTITY event.recurrence.pattern.yearly.month.11.label "វិច្ឆិកា">
+<!ENTITY event.recurrence.pattern.yearly.month.12.label "ធ្នូ">
+<!ENTITY event.recurrence.yearly.every.label "រាល់">
+<!ENTITY event.recurrence.yearly.first.label "លើកដំបូង">
+<!ENTITY event.recurrence.yearly.second.label "លើកទីពីរ">
+<!ENTITY event.recurrence.yearly.third.label "លើកទីបី">
