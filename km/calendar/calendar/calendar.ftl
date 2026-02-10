@@ -118,3 +118,85 @@ error-code = កំហុសកូដ៖ { $errorCode }
 # LOCALIZATION NOTE (error-description):
 #    $errorDescription will be replaced with the description of an error
 error-description = ការពិពណ៌នា៖ { $errorDescription }
+event-details-start-date = ចាប់ផ្ដើម៖
+event-details-end-date = បញ្ចប់៖
+# LOCALIZATION NOTE (datetime-with-timezone):
+# used for a display of a date-time with timezone 'Thu 2 Oct 2008 13:21', Europe/Paris
+#    $datetime will be replaced with the completion date-time
+#    $timezone will be replaced with the name of the timezone
+datetime-with-timezone = { $datetime }, { $timezone }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label = ម៉ោង
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label = ថ្ងៃ
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+# LOCALIZATION NOTE (show-calendar)
+# Used in calendar list context menu
+#    $name will be replaced with the calendar name
+# uses the access key calendar.context.togglevisible.accesskey
+# $name calendar name
+show-calendar = បង្ហាញ { $name }
+# $name calendar name
+hide-calendar = លាក់ { $name }
+# $name calendar name
+hide-calendar-title =
+    .title = បង្ហាញ { $name }
+# $name calendar name
+show-calendar-title =
+    .title = លាក់ { $name }
+# $name calendar name
+show-calendar-label =
+    .label = បង្ហាញ { $name }
+# $name calendar name
+hide-calendar-label =
+    .label = លាក់ { $name }
+# uses the access key calendar.context.showonly.accesskey
+# $name calendar name
+show-only-calendar =
+    .label = បង្ហាញតែ { $name } ប៉ុណ្ណោះ
+modify-conflict-prompt-button2 = បោះបង់​ការ​ផ្លាស់ប្ដូរ​ទាំងនេះ
+calendar-task-details-title = ចំណងជើង
+calendar-task-details-organizer = ពី
+calendar-task-details-priority = អាទិភាព
+calendar-task-details-priority-low = ទាប
+calendar-task-details-priority-normal = ធម្មតា
+calendar-task-details-priority-high = ខ្ពស់
+calendar-task-details-status = ស្ថានភាព
+calendar-task-details-category = ប្រភេទ
+calendar-task-details-repeat = ធ្វើម្តងទៀត
+calendar-task-details-attachments = ឯកសារភ្ជាប់
+calendar-task-details-start = ថ្ងៃចាប់ផ្តើម
+calendar-task-details-due = ថ្ងៃផុតកំណត់
+calendar-properties-color =
+    .value = ពណ៌៖
+calendar-properties-location =
+    .value = ទីតាំង ៖
+calendar-properties-read-only =
+    .label = អានតែប៉ុណ្ណោះ
+calendar-properties-show-reminders =
+    .label = បង្ហាញការរំលឹក
+calendar-properties-offline-support =
+    .label = ការគាំទ្រក្រៅបណ្តាញ
+calendar-properties-enable-calendar =
+    .label = បើក​ប្រតិទិន​នេះ
+calendar-server-dialog-title-edit =
+    .title = កែសម្រួលប្រតិទិន
+calendar-server-dialog-name-label =
+    .value = ឈ្មោះប្រតិទិន៖
+calendar-publish-close-button = បិទ
+calendar-select-dialog-title = ជ្រើសរើសប្រតិទិន
+calendar-error-detail =
+    .label = សេចក្ដី​លម្អិត…
+calendar-error-code =
+    .value = កំហុសកូដ៖
+calendar-error-description =
+    .value = សេចក្ដី​ពិពណ៌នា៖
+calendar-error-title =
+    .title = កំហុសមួយបានកើតឡើង
