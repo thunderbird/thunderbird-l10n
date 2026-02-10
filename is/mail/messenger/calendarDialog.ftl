@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Staðsetning
 calendar-dialog-description-row-icon =
     .alt = Lýsing
+calendar-dialog-reminders-row-icon =
+    .alt = Áminningar
 calendar-dialog-description-label = Lýsing
 calendar-dialog-description-expand-icon =
     .alt = Birta alla lýsinguna
@@ -28,3 +30,12 @@ calendar-dialog-more-categories =
        *[other] +{ $additionalCategories } í viðbót
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Eyða áminningu
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } áminning
+       *[other] { $count } áminningar
+    }
