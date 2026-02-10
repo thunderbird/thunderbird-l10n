@@ -39,3 +39,9 @@ calendar-dialog-reminder-count =
         [one] { $count } áminning
        *[other] { $count } áminningar
     }
+calendar-dialog-accept = Mæti
+    .title = Mæti
+calendar-dialog-accept-tentative = Kannski
+    .title = Kannski
+calendar-dialog-decline = Kem ekki
+    .title = Kem ekki

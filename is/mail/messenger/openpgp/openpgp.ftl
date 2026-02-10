@@ -406,6 +406,12 @@ key-does-not-expire = Lykillinn rennur ekki út
 key-expired-date = Lykillinn rann út { $keyExpiry }
 key-expired-simple = Lykillinn er útrunninn
 key-revoked-simple = Lykillinn var afturkallaður
+key-revoked-revocation-code-superseded = Lykillinn var afturkallaður vegna þess að lykillinn er úreltur.
+key-revoked-revocation-code-compromised = Lykillinn var afturkallaður vegna þess að efni lykilsins hefur verið lekið.
+key-revoked-revocation-code-retired = Lykillinn var afturkallaður vegna þess að hætt er að nota lykillinn.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Ástæða afturköllunar eins og eigandi lykilsins gaf upp: { $reason }
 key-do-you-accept = Samþykkir þú þennan lykil til að staðfesta stafrænar undirritanir og til að dulrita skilaboð?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.

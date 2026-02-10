@@ -68,3 +68,8 @@ filter-log-message = Skilaboð úr síu "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Þú verður að velja möppu.
 filter-editor-enter-valid-email-forward = Settu inn löglegt tölvupóstfang til að áframsenda á.
 filter-editor-pick-template-reply = Veldu sniðmát til að svara með.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Beiting á síu { $filterName } mistókst. Viltu halda áfram að beita síum?
+filter-list-backup-message = Síurnar þínar virka ekki, því ekki var hægt að lesa msgFilterRules.dat skrána, sem inniheldur síurnar þínar. Ný msgFilterRules.dat skrá verður búinn til og afrit af eldri skránni, sem verður kölluð rulesbackup.dat, mun verða búin til í sömu möppu.
+filter-invalid-custom-header = Einhver af síunum þínum notar sérsniðinn haus sem inniheldur ógildan staf, svo sem eins og ':', óprentanlegan staf, staf sem er ekki ascii, eða átta bita ascii-staf. Endilega breyttu msgFilterRules.dat skránni, sem inniheldur síurnar þínar, þannig að ógildir stafir í sérsniðnum hausum séu fjarlægðir.
