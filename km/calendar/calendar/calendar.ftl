@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Titles for the event/task dialog
+new-event-dialog = ព្រឹត្តិការណ៍ថ្មី
+edit-event-dialog = កែសម្រួលព្រឹត្តិការណ៍
 event-status-cancelled = បាន​បោះបង់
 todo-status-cancelled = បាន​បោះបង់
 yesterday = ម្សិលមិញ
