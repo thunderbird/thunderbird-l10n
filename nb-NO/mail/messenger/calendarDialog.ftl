@@ -38,5 +38,9 @@ calendar-dialog-reminder-count =
         [one] { $count } påminnelse
        *[other] { $count } påminnelser
     }
+calendar-dialog-accept = Deltar
+    .title = Deltar
 calendar-dialog-accept-tentative = Kanskje
     .title = Kanskje
+calendar-dialog-decline = Deltar ikke
+    .title = Deltar ikke
