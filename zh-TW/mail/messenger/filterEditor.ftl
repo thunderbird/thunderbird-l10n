@@ -70,6 +70,6 @@ filter-editor-enter-valid-email-forward = 請輸入要轉寄的電子郵件地�
 filter-editor-pick-template-reply = 選取回信用的範本。
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
-filter-continue-execution = 使用篩選條件 { $filterName } 失敗。您是否要繼續套用篩選條件
-filter-list-backup-message = 您的篩選條件無法作用，因為程式無法讀取 msgFilterRuless.dat 檔 (內含您的篩選條件)。程式會備份舊檔案為 rulesbackup.dat，再建立新的檔案。
-filter-invalid-custom-header = 您的某個篩選條件使用了自訂的檔頭當中包含無效的字元例如「:」、不可列印的字元、非 ASCII 字元或 8 位元的 ASCII 字元。請編輯包含過濾器的 msgFilterRules.dat 檔案以移除自訂標頭中的無效字元。
+filter-continue-execution = 無法套用篩選條件「{ $filterName }」。您要繼續套用其它篩選條件嗎？
+filter-list-backup-message = 程式無法讀取 msgFilterRuless.dat 檔（內含您的篩選條件），您的篩選條件無法作用。程式會備份舊檔案為 rulesbackup.dat，再建立新的檔案。
+filter-invalid-custom-header = 您有某條篩選條件使用了不正確的字元（如「:」、不可列印或非 ASCII 字元。）作為標頭，請編輯您的篩選條件設定檔「msgFilterRules.dat」以移除這些不正確的字元。

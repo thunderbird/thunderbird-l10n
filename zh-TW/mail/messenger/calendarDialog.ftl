@@ -37,8 +37,8 @@ calendar-dialog-reminder-count =
     { $count ->
        *[other] { $count } 個提醒
     }
-calendar-dialog-accept = 進行中
-    .title = 進行中
+calendar-dialog-accept = 參加
+    .title = 參加
 calendar-dialog-accept-tentative = 也許會參加
     .title = 也許會參加
 calendar-dialog-decline = 不參加
