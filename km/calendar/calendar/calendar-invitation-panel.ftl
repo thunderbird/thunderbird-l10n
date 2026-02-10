@@ -28,3 +28,5 @@ calendar-invitation-interval-all-day = { $startDate }
 # $endDay     (String) - The day of the month the interval ends.
 # $endYear    (String) - The year the interval ends.
 calendar-invitation-interval-all-day-between-years = { $startMonth } { $startDay }, { $startYear } – { $endMonth } { $endDay }, { $endYear }
+calendar-invitation-panel-prop-title-recurrence = ធ្វើម្តងទៀត៖
+calendar-invitation-panel-prop-title-attendees = អ្នកចូលរួម៖

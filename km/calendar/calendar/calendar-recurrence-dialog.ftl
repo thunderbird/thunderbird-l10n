@@ -4,3 +4,9 @@
 
 calendar-recurrence-next = ខែក្រោយ
 calendar-recurrence-previous = ខែមុន
+# LOCALIZATION NOTE (event-recurrence-monthly-last-day-label):
+# Edit dialog recurrence -> Monthly Recurrence pattern -> Monthly daypicker
+# The label on the monthly daypicker's last button that allows to select
+# the last day of the month inside a BYMONTHDAY rule.
+event-recurrence-monthly-last-day-label =
+    .label = ថ្ងៃចុងក្រោយ
