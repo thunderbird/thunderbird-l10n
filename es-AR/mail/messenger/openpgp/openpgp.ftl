@@ -406,7 +406,7 @@ key-does-not-expire = La clave no expira
 key-expired-date = La clave expiró el { $keyExpiry }
 key-expired-simple = La clave ya expiró
 key-revoked-simple = La clave fue revocada
-key-revoked-revocation-code-superseded = Se revocó la clave porque se reemplazó la clave.
+key-revoked-revocation-code-superseded = La clave fue revocada porque fue reemplazada.
 key-revoked-revocation-code-compromised = Se revocó la clave porque el material de la clave se vio comprometido.
 key-revoked-revocation-code-retired = Se revocó la clave porque está retirada y ya no se usa.
 # Variables:
