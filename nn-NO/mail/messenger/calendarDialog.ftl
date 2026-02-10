@@ -31,3 +31,12 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Slett påminning
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } påminning
+       *[other] { $count } påminningar
+    }
+calendar-dialog-accept-tentative = Kanskje
+    .title = Kanskje

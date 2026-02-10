@@ -1,0 +1,26 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY wizard.title "បង្កើតប្រតិទិនថ្មី">
+<!ENTITY wizard.label "បង្កើតប្រតិទិនថ្មី">
+<!ENTITY wizard.description "កំណត់ទីតាំងប្រតិទិនរបស់អ្នក">
+<!ENTITY initialpage.computer.label "នៅលើកុំព្យូទ័ររបស់ខ្ញុំ">
+<!ENTITY initialpage.network.label "នៅលើបណ្តាញ">
+<!ENTITY locationpage.username.label "ឈ្មោះ​អ្នកប្រើ៖">
+<!ENTITY locationpage.password.label "ពាក្យ​សម្ងាត់ ៖">
+<!ENTITY custompage.shortdescription "ប្ដូរតាមបំណងប្រតិទិនរបស់អ្នក">
+<!ENTITY finishpage.shortdescription "ប្រតិទិនត្រូវបានបង្កើត">
+<!ENTITY finishpage.longdescription "ប្រតិទិនរបស់អ្នកត្រូវបានបង្កើតហើយ។">
+<!-- Below are new strings for the revised new calendar dialog. The above strings should be
+    removed/renamed later on -->
+<!ENTITY sourcetabs.other.label "ផ្សេងទៀត">
+<!ENTITY buttons.create.label "បង្កើតប្រតិទិន">
+<!ENTITY buttons.create.accesskey "r">
+<!ENTITY buttons.find.label "ស្វែងរកប្រតិទិន">
+<!ENTITY buttons.find.accesskey "F">
+<!ENTITY buttons.back.label "ថយក្រោយ">
+<!ENTITY buttons.back.accesskey "B">
+<!ENTITY buttons.subscribe.label "ជាវ">
+<!ENTITY calendartype.label "ប្រភេទប្រតិទិន៖">
+<!ENTITY location.label "ទីតាំង ៖">

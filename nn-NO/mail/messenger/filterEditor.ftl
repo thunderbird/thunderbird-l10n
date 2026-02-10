@@ -68,3 +68,4 @@ filter-log-message = Melding frå filter «{ $filterName }»: { $message }
 filter-editor-must-select-target-folder = Du må velje ei målmappe.
 filter-editor-enter-valid-email-forward = Skriv inn ei gyldig e-postadresse å vidaresende til.
 filter-editor-pick-template-reply = Vel ein mal å svare med.
+filter-list-backup-message = Filtra dine verkar ikkje fordi msgFilterRules.dat-fila, som inneheld filtra dine, ikkje vert funne. Ei ny msgFilterRules.dat-fil vert oppretta, og ein tryggingskopi av den gamle fila, rulesbackup.dat, vil bli lagt i den same mappa.
