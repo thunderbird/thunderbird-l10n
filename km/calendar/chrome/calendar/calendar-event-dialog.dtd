@@ -104,5 +104,78 @@
 <!ENTITY event.recurrence.pattern.yearly.month.12.label "ធ្នូ">
 <!ENTITY event.recurrence.yearly.every.label "រាល់">
 <!ENTITY event.recurrence.yearly.first.label "លើកដំបូង">
-<!ENTITY event.recurrence.yearly.second.label "លើកទីពីរ">
-<!ENTITY event.recurrence.yearly.third.label "លើកទីបី">
+<!ENTITY event.recurrence.yearly.second.label "ទីពីរ">
+<!ENTITY event.recurrence.yearly.third.label "ទីបី">
+<!ENTITY event.recurrence.yearly.fourth.label "ទីបួន">
+<!ENTITY event.recurrence.yearly.fifth.label "ទីប្រាំ">
+<!ENTITY event.recurrence.yearly.last.label "ចុងក្រោយ">
+<!ENTITY event.recurrence.pattern.yearly.week.1.label "អាទិត្យ">
+<!ENTITY event.recurrence.pattern.yearly.week.2.label "ច័ន្ទ">
+<!ENTITY event.recurrence.pattern.yearly.week.3.label "អង្គារ">
+<!ENTITY event.recurrence.pattern.yearly.week.4.label "ពុធ">
+<!ENTITY event.recurrence.pattern.yearly.week.5.label "ព្រហស្បតិ៍​">
+<!ENTITY event.recurrence.pattern.yearly.week.6.label "សុក្រ">
+<!ENTITY event.recurrence.pattern.yearly.week.7.label "សៅរ៍​">
+<!ENTITY event.recurrence.pattern.yearly.day.label "ថ្ងៃ">
+<!ENTITY event.recurrence.of.label "នៃ">
+<!ENTITY event.recurrence.pattern.yearly.month2.1.label "មករា">
+<!ENTITY event.recurrence.pattern.yearly.month2.2.label "កុម្ភៈ">
+<!ENTITY event.recurrence.pattern.yearly.month2.3.label "មីនា">
+<!ENTITY event.recurrence.pattern.yearly.month2.4.label "មេសា">
+<!ENTITY event.recurrence.pattern.yearly.month2.5.label "ឧសភា">
+<!ENTITY event.recurrence.pattern.yearly.month2.6.label "មិថុនា">
+<!ENTITY event.recurrence.pattern.yearly.month2.7.label "កក្កដា">
+<!ENTITY event.recurrence.pattern.yearly.month2.8.label "សីហា">
+<!ENTITY event.recurrence.pattern.yearly.month2.9.label "កញ្ញា">
+<!ENTITY event.recurrence.pattern.yearly.month2.10.label "តុលា">
+<!ENTITY event.recurrence.pattern.yearly.month2.11.label "វិច្ឆិកា">
+<!ENTITY event.recurrence.pattern.yearly.month2.12.label "ធ្នូ">
+<!ENTITY event.recurrence.forever.label "គ្មានកាលបរិច្ឆេទបញ្ចប់">
+<!ENTITY event.recurrence.repeat.for.label "​បង្កើត">
+<!ENTITY event.repeat.until.label "ធ្វើម្តងទៀតរហូតដល់">
+<!-- Attendees dialog -->
+<!ENTITY invite.title.label "អញ្ជើញអ្នកចូលរួម">
+<!ENTITY event.organizer.label "អ្នករៀបចំ">
+<!ENTITY event.freebusy.suggest.slot "ស្នើចន្លោះពេល៖">
+<!ENTITY event.freebusy.button.next.slot "ចន្លោះពេលបន្ទាប់">
+<!ENTITY event.freebusy.zoom "ពង្រីក៖">
+<!ENTITY event.freebusy.legend.free "ទំនេរ">
+<!ENTITY event.freebusy.legend.busy "រវល់">
+<!ENTITY event.freebusy.legend.busy_tentative "បណ្តោះអាសន្ន">
+<!ENTITY event.freebusy.legend.busy_unavailable "នៅក្រៅការិយាល័យ">
+<!ENTITY event.freebusy.legend.unknown "គ្មានព័ត៌មាន">
+<!ENTITY event.attendee.role.required "អ្នកចូលរួមដែលត្រូវការ">
+<!ENTITY event.attendee.role.optional "អ្នកចូលរួមជាជម្រើស">
+<!ENTITY event.attendee.role.nonparticipant "អ្នកមិនចូលរួម">
+<!ENTITY event.attendee.usertype.individual "បុគ្គល">
+<!ENTITY event.attendee.usertype.group "ក្រុម">
+<!ENTITY event.attendee.usertype.resource "ប្រភព">
+<!ENTITY event.attendee.usertype.room "បន្ទប់">
+<!ENTITY event.attendee.usertype.unknown "មិន​ស្គាល់">
+<!-- Read-Only dialog -->
+<!ENTITY read.only.general.label "ទូទៅ">
+<!ENTITY read.only.title.label "ចំណងជើង៖">
+<!ENTITY read.only.calendar.label "ប្រតិទិន៖">
+<!ENTITY read.only.event.start.label "ថ្ងៃចាប់ផ្តើម៖">
+<!ENTITY read.only.task.start.label "ថ្ងៃចាប់ផ្តើម៖">
+<!ENTITY read.only.event.end.label "កាលបរិច្ឆេទបញ្ចប់៖">
+<!ENTITY read.only.task.due.label "ថ្ងៃផុតកំណត់៖">
+<!ENTITY read.only.repeat.label "ធ្វើម្តងទៀត៖">
+<!ENTITY read.only.location.label "ទីតាំង ៖">
+<!ENTITY read.only.category.label "ប្រភេទ ៖">
+<!ENTITY read.only.organizer.label "អ្នករៀបចំ៖">
+<!ENTITY read.only.reminder.label "ការរំលឹក៖">
+<!ENTITY read.only.attachments.label "ឯកសារ​ភ្ជាប់ ៖">
+<!ENTITY read.only.attendees.label "អ្នកចូលរួម">
+<!ENTITY read.only.description.label "សេចក្ដី​ពិពណ៌នា">
+<!ENTITY read.only.link.label "តំណភ្ជាប់ពាក់ព័ន្ធ">
+<!-- Summary dialog -->
+<!ENTITY summary.dialog.saveclose.label "រក្សាទុក និងបិទ">
+<!ENTITY summary.dialog.accept.label "ទទួលយក">
+<!ENTITY summary.dialog.accept.tooltiptext "ទទួលយកការអញ្ជើញ">
+<!ENTITY summary.dialog.tentative.label "បណ្តោះអាសន្ន">
+<!ENTITY summary.dialog.tentative.tooltiptext "ទទួលយកការអញ្ជើញដោយបណ្តោះអាសន្ន">
+<!ENTITY summary.dialog.decline.label "បដិសេធ">
+<!ENTITY summary.dialog.decline.tooltiptext "បដិសេធការអញ្ជើញ">
+<!ENTITY summary.dialog.dontsend.label "កុំផ្ញើការឆ្លើយតប">
+<!ENTITY summary.dialog.send.label "ផ្ញើការឆ្លើយតបឥឡូវនេះ">
