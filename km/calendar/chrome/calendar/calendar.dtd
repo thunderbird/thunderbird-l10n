@@ -70,4 +70,37 @@
 <!ENTITY calendar.alarm.snoozefor.label "ផ្អាក​សម្រាប់">
 <!ENTITY calendar.alarm.snoozeallfor.label "ផ្អាកទាំងអស់សម្រាប់">
 <!ENTITY calendar.alarm.title.label "ការរំលឹកប្រតិទិន">
-<!ENTITY calendar.alarm.dismiss.label "បោះបង់ចោល">
+<!ENTITY calendar.alarm.dismiss.label "បដិសេធ">
+<!ENTITY calendar.alarm.dismissall.label "បដិសេធទាំងអស់">
+<!ENTITY calendar.alarm.snooze.5minutes.label "5 នាទី">
+<!ENTITY calendar.alarm.snooze.10minutes.label "10 នាទី">
+<!ENTITY calendar.alarm.snooze.15minutes.label "15 នាទី">
+<!ENTITY calendar.alarm.snooze.30minutes.label "30 នាទី">
+<!ENTITY calendar.alarm.snooze.45minutes.label "45 នាទី">
+<!ENTITY calendar.alarm.snooze.1hour.label "1 ម៉ោង">
+<!ENTITY calendar.alarm.snooze.2hours.label "2 ម៉ោង">
+<!ENTITY calendar.alarm.snooze.1day.label "1 ថ្ងៃ">
+<!-- LOCALIZATION NOTE (calendar.alarm.snooze.cancel)
+     This string is not seen in the UI, it is read by screen readers when the
+     user focuses the "Cancel" button in the "Snooze for..." popup of the alarm
+     dialog. -->
+<!ENTITY calendar.alarm.snooze.cancel "បោះបង់​ការ​ផ្អាក">
+<!-- Calendar Server Dialog -->
+<!ENTITY calendar.server.dialog.title.edit "កែសម្រួលប្រតិទិន">
+<!ENTITY calendar.server.dialog.name.label "ឈ្មោះប្រតិទិន៖">
+<!-- Calendar Properties -->
+<!ENTITY calendarproperties.color.label "ពណ៌៖">
+<!ENTITY calendarproperties.format.label "ទម្រង់៖">
+<!ENTITY calendarproperties.location.label "ទីតាំង ៖">
+<!ENTITY calendarproperties.name.label "ឈ្មោះ៖">
+<!ENTITY calendarproperties.readonly.label "អានតែប៉ុណ្ណោះ">
+<!ENTITY calendarproperties.firealarms.label "បង្ហាញការរំលឹក">
+<!ENTITY calendarproperties.cache3.label "ការគាំទ្រក្រៅបណ្តាញ">
+<!ENTITY calendarproperties.enabled2.label "បើក​ប្រតិទិន​នេះ">
+<!ENTITY calendarproperties.unsubscribe.label "ឈប់ជាវ">
+<!ENTITY calendar.publish.close.button "បិទ">
+<!-- Select Calendar Dialog -->
+<!ENTITY calendar.select.dialog.title "ជ្រើសរើសប្រតិទិន">
+<!-- Error reporting -->
+<!ENTITY calendar.error.detail "សេចក្ដី​លម្អិត…">
+<!ENTITY calendar.error.code "កំហុសកូដ៖">

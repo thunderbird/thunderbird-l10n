@@ -4,5 +4,50 @@
 
 <!ENTITY newevent.eventStatus.cancelled.label "បាន​បោះបង់">
 <!ENTITY newevent.todoStatus.cancelled.label "បាន​បោះបង់">
+<!-- Menubar -->
+<!ENTITY event.menu.item.new.label "ថ្មី">
+<!ENTITY event.menu.item.new.event.label "ព្រឹត្តិការណ៍">
+<!ENTITY event.menu.item.new.task.label "ភារកិច្ច">
+<!ENTITY event.menu.item.new.message.label "សារ">
+<!ENTITY event.menu.item.close.label "បិទ">
+<!-- LOCALIZATION NOTE
+   - event.menu.item.save.accesskey is used for the "Save" menu item
+   - when editing events/tasks in a dialog window.
+   - event.menu.item.save.tab.accesskey is used for the "Save" menu item
+   - when editing events/tasks in a tab. -->
+<!ENTITY event.menu.item.save.label "រក្សា​ទុក">
+<!-- LOCALIZATION NOTE
+    - event.menu.item.saveandclose.accesskey is used for "Save and Close"
+    - menu item when editing events/tasks in a dialog window.
+    - event.menu.item.saveandclose.tab.accesskey is used for "Save and Close"
+    - when editing events/tasks in a tab. -->
+<!ENTITY event.menu.item.saveandclose.label "រក្សាទុក និងបិទ">
+<!ENTITY event.menu.item.delete.label "លុប…">
+<!ENTITY event.menu.edit.label "កែសម្រួល">
+<!ENTITY event.menu.edit.undo.label "មិនធ្វើវិញ">
+<!ENTITY event.menu.edit.redo.label "ធ្វើវិញ">
+<!ENTITY event.menu.edit.cut.label "កាត់">
+<!ENTITY event.menu.edit.copy.label "ចម្លង">
+<!ENTITY event.menu.edit.paste.label "បិទភ្ជាប់">
+<!ENTITY event.menu.edit.select.all.label "ជ្រើស​ទាំងអស់">
+<!ENTITY event.menu.view.label "មើល">
+<!ENTITY event.menu.view.toolbars.label "របារ​ឧបករណ៍">
+<!ENTITY event.menu.view.toolbars.event.label "របារឧបករណ៍ព្រឹត្តិការណ៍">
+<!ENTITY event.menu.view.toolbars.customize.label "ប្ដូរតាមបំណង…">
+<!ENTITY event.menu.options.label "ជម្រើស">
+<!ENTITY event.menu.options.attendees.label "អញ្ជើញអ្នកចូលរួម…">
+<!ENTITY event.menu.options.priority2.label "អាទិភាព">
+<!ENTITY event.menu.options.priority.low.label "ទាប">
+<!ENTITY event.menu.options.priority.normal.label "ធម្មតា">
+<!ENTITY event.menu.options.priority.high.label "ខ្ពស់">
+<!ENTITY event.menu.options.privacy.label "ឯកជនភាព">
+<!ENTITY event.menu.options.privacy.public.label "ព្រឹត្តិការណ៍សាធារណៈ">
+<!ENTITY event.menu.options.privacy.private.label "ព្រឹត្តិការណ៍ឯកជន">
+<!ENTITY event.menu.options.show.time.label "បង្ហាញពេលវេលាជា">
+<!ENTITY event.menu.options.show.time.busy.label "រវល់">
+<!ENTITY event.menu.options.show.time.free.label "ទំនេរ">
+<!ENTITY event.invite.attendees.label "អញ្ជើញអ្នកចូលរួម…">
+<!ENTITY event.email.attendees.label "សរសេរអ៊ីមែលទៅកាន់ អ្នកចូលរួមទាំងអស់…">
+<!ENTITY event.email.tentative.attendees.label "សរសេរអ៊ីមែលទៅកាន់ អ្នកចូលរួមដែលមិនទាន់សម្រេចចិត្ត…">
 <!ENTITY event.repeat.monthly.label "ប្រចាំខែ">
 <!ENTITY event.recurrence.month.label "ប្រចាំខែ">
