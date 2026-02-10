@@ -70,6 +70,6 @@ filter-editor-enter-valid-email-forward = Ingrese una dirección válida de corr
 filter-editor-pick-template-reply = Seleccione una plantilla con la cual responder.
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
-filter-continue-execution = Falló la aplicación del filtro { $filterName }. ¿Desea continuar aplicando filtros?
+filter-continue-execution = Ha fallado la aplicación del filtro { $filterName }. ¿Quiere continuar aplicando filtros?
 filter-list-backup-message = Sus filtros no funcionan porque el archivo msgFilterRules.dat, que contiene sus filtros, no se puede leer. Se creará un nuevo archivo msgFilterRules.dat y se hará una copia del antiguo en el mismo directorio, llamado rulesbackup.dat.
-filter-invalid-custom-header = Uno de sus filtros usa un encabezado personalizado que contiene un carácter no válido, como ':', un carácter no imprimible, un carácter que no es ASCII o un carácter ASCII de 8 bits. Edite el archivo msgFilterRules.dat, que contiene sus filtros, para eliminar los caracteres no válidos de sus encabezados personalizados.
+filter-invalid-custom-header = Uno de sus filtros usa un encabezado personalizado que contiene un carácter no válido, como ‘:’, un carácter no imprimible, un carácter que no es ASCII o un carácter ASCII de 8 bits. Edite el archivo msgFilterRules.dat, que contiene sus filtros, para eliminar los caracteres no válidos de sus encabezados personalizados.
