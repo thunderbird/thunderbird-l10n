@@ -3,12 +3,47 @@
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Books
+
+about-addressbook-books-context-delete =
+    .label = លុប
+about-addressbook-confirm-delete-book-title = លុបសៀវភៅអាសយដ្ឋាន
+# Variables:
+# $name (String) - Name of the address book to be deleted.
+about-addressbook-confirm-delete-book = តើអ្នកពិតជាចង់លុប { $name } និងទំនាក់ទំនងទាំងអស់របស់វាមែនទេ?
+
+## Card column headers
+## Each string is listed here twice, and the values should match.
+
+about-addressbook-confirm-delete-mixed-title = លុបទំនាក់ទំនង និងបញ្ជី
+# Variables:
+# $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
+about-addressbook-confirm-delete-mixed = តើអ្នកពិតជាចង់លុបទំនាក់ទំនង និងបញ្ជី { $count } ទាំងនេះមែនទេ?
+# Variables:
+# $count (Number) - The number of lists to be deleted.
+about-addressbook-confirm-delete-lists-title = លុបបញ្ជី
+# Variables:
+# $count (Number) - The number of lists to be deleted.
+# $name (String) - The name of the list to be deleted, if $count is 1.
+about-addressbook-confirm-delete-lists = តើអ្នកពិតជាចង់លុបបញ្ជី { $count } ទាំងនេះមែនទេ?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-title = លុបទំនាក់ទំនង
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = តើអ្នកពិតជាចង់លុបទំនាក់ទំនង { $name } មែនទេ?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi = តើអ្នកពិតជាចង់លុបទំនាក់ទំនង { $count } ទាំងនេះមែនទេ?
+
 ## Details
 
+about-addressbook-delete-edit-contact-button = លុប
 about-addressbook-cancel-edit-contact-button = បោះបង់
 
 # Photo dialog
 
+about-addressbook-photo-cancel = បោះបង់
 
 # Keyboard shortcuts
 

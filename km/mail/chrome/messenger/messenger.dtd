@@ -594,6 +594,7 @@
 <!ENTITY locationColumn.label "Location">
 <!ENTITY idColumn.label "Order Received">
 <!ENTITY attachmentColumn.label "ឯកសារ​ភ្ជាប់">
+<!ENTITY deleteColumn.label "លុប">
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip "ជ្រើស​​ជួរឈរ​ដែល​ត្រូវ​បង្ហាញ">
 <!ENTITY threadColumn2.tooltip "បង្ហាញ​ប្រធាន​បទ​សារ">
@@ -616,6 +617,7 @@
 <!ENTITY locationColumn2.tooltip "តម្រៀប​តាម​ទីតាំង">
 <!ENTITY idColumn2.tooltip "តម្រៀប​តាម​លំដាប់​​បាន​ទទួល">
 <!ENTITY attachmentColumn2.tooltip "តម្រៀប​តាម​ឯកសារ​ភ្ជាប់">
+<!ENTITY deleteColumn.tooltip "លុបសារមួយ">
 <!ENTITY contextOpenNewWindow.label "Նամակը բացլ նոր պատուհանում">
 <!ENTITY contextOpenNewWindow.accesskey "W">
 <!-- The contextOpenNewTab.accesskey ("T") potentially conflicts with

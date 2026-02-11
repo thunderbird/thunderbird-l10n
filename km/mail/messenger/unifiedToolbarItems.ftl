@@ -5,6 +5,17 @@
 
 ### Unified Toolbar Item Label strings
 
+toolbar-delete-label = លុប
+toolbar-delete-title =
+    .title = លុបសារដែលបានជ្រើសរើស
+toolbar-undelete-label = មិនទាន់លុប
+toolbar-undelete =
+    .title = សារដែលបានជ្រើសរើសមិនទាន់លុប
+toolbar-compact =
+    .title = លុបសារដែលបានលុបចេញ ពីថតឯកសារដែលបានជ្រើសរើស
+toolbar-delete-event-label = លុប
+toolbar-delete-event =
+    .title = លុបព្រឹត្តិការណ៍ ឬកិច្ចការដែលបានជ្រើសរើស
 toolbar-go-back-label = Back
 toolbar-go-back =
     .title = Go back one message

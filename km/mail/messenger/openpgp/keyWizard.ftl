@@ -11,3 +11,5 @@ openpgp-keygen-months-label =
     .label = ខែ
 openpgp-keygen-dismiss =
     .label = បោះបង់
+openpgp-keygen-cancel =
+    .label = បោះបង់ដំណើរការ…

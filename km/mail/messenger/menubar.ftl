@@ -17,3 +17,12 @@ menu-help-help-title =
 menu-help-get-help =
     .label = ទទួលបានជំនួយ
     .accesskey = H
+
+## Mail Toolbar
+
+toolbar-delete-button =
+    .label = លុប
+    .tooltiptext = លុបសារដែលបានជ្រើស ឬថតឯកសារ
+toolbar-undelete-button =
+    .label = មិនទាន់លុប
+    .tooltiptext = មិនទាន់លុបសារដែលបានជ្រើសរើស

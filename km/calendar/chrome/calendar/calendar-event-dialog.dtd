@@ -54,6 +54,8 @@
 <!-- Toolbar -->
 <!ENTITY event.toolbar.save.label2 "រក្សា​ទុក">
 <!ENTITY event.toolbar.saveandclose.label "រក្សាទុក និងបិទ">
+<!ENTITY event.toolbar.delete.label "លុប">
+<!ENTITY event.toolbar.delete.tooltip "លុប">
 <!ENTITY task.to.label "ថ្ងៃផុតកំណត់៖">
 <!ENTITY task.status.label "ស្ថានភាព៖">
 <!ENTITY event.repeat.label "ធ្វើម្តងទៀត៖">

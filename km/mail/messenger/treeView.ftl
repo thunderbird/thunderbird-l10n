@@ -5,5 +5,7 @@
 
 ## Table
 
+tree-list-view-row-delete =
+    .title = លុបជួរបច្ចុប្បន្ន
 tree-list-view-column-picker =
     .title = ជ្រើស​​ជួរឈរ​ដែល​ត្រូវ​បង្ហាញ

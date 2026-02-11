@@ -72,6 +72,18 @@ menu-copy-to =
 mail-context-menu-forward-forward =
     .label = Փոխանցել
     .accesskey = F
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = បោះបង់សារ
+
+## Message header pane
+
+message-header-delete =
+    .label = លុប​
+    .tooltiptext = លុបសារនេះ
+message-header-undelete =
+    .label = មិនទាន់លុប
+    .tooltiptext = មិនទាន់លុបសារនេះ
 
 ## Spaces toolbar customize panel
 
@@ -95,6 +107,13 @@ mark-as-junk-key =
     .key = Ո
 mark-not-junk-key =
     .key = Ո
+menu-delete-spam =
+    .label = លុបសារ ដែលបានសម្គាល់ថា ជាសារឥតបានការនៅក្នុងថតឯកសារ
+    .accesskey = D
+
+## Actions for the New Mail Notification
+
+delete-action = លុប
 
 ## Message list.
 
@@ -121,3 +140,9 @@ message-group-no-attachments = គ្មាន​ឯកសារ​ភ្ជា�
 message-group-attachments = ឯកសារ​ភ្ជាប់
 message-group-not-starred = មិន​បាន​ដាក់​ផ្កាយ
 message-group-starred = បាន​ដាក់​ផ្កាយ
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = លុបសារ និងថតឯកសាររងទាំងអស់នៅក្នុងថត { $folder }?

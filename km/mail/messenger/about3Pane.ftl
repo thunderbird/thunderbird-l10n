@@ -177,6 +177,12 @@ threadpane-column-header-id = Order Received
     .title = តម្រៀប​តាម​លំដាប់​​បាន​ទទួល
 threadpane-column-label-id =
     .label = Order Received
+threadpane-column-header-delete =
+    .title = លុបសារមួយ
+threadpane-column-label-delete =
+    .label = លុប
+threadpane-cell-delete =
+    .aria-label = លុប
 
 ## Message state variations
 

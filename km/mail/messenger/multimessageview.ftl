@@ -10,3 +10,6 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Delete
     .tooltiptext = Delete
+multi-message-undelete-button =
+    .label = មិនទាន់លុប
+    .tooltiptext = មិនទាន់លុប
