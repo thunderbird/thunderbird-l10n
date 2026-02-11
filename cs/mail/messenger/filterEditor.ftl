@@ -72,3 +72,4 @@ filter-editor-pick-template-reply = Zvolte šablonu, pomocí které chcete odpov
 # $filterName (String) - The name of the filter that was applied.
 filter-continue-execution = Aplikace filtru { $filterName } selhala. Chcete pokračovat v aplikaci dalších filtrů?
 filter-list-backup-message = Vaše filtry nefungují, protože soubor rules.dat, který obsahuje definice filtrů nelze přečíst. Bude vytvořen nový soubor rules.dat a starý bude zálohován ve stejném adresáři pod názvem rulesbackup.dat.
+filter-invalid-custom-header = Jeden z vašich filtrů používá vlastní hlavičku, která obsahuje neplatný znak, například „:“, netisknutelný znak, jiný než ASCII znak nebo osmibitový ASCII znak. Upravte prosím soubor msgFilterRules.dat, který obsahuje vaše filtry, abyste odstranili neplatné znaky z vašich vlastních hlaviček.
