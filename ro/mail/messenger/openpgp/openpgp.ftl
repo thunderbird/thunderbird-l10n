@@ -407,6 +407,12 @@ key-does-not-expire = Cheia nu expiră
 key-expired-date = Cheia a expirat la { $keyExpiry }
 key-expired-simple = Cheia a expirat
 key-revoked-simple = Cheia a fost revocată
+key-revoked-revocation-code-superseded = Cheia a fost revocată deoarece este perimată.
+key-revoked-revocation-code-compromised = Cheia a fost revocată deoarece materialul cheii a fost compromis.
+key-revoked-revocation-code-retired = Cheia a fost revocată deoarece este retrasă și nu mai este utilizată.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Motivul revocării, declarat de proprietarul cheii: { $reason }
 key-do-you-accept = Accepți cheia pentru verificarea semnăturilor digitale și pentru criptarea mesajelor?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.

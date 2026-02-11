@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Locație
 calendar-dialog-description-row-icon =
     .alt = Descriere
+calendar-dialog-reminders-row-icon =
+    .alt = Mementouri
 calendar-dialog-description-label = Descriere
 calendar-dialog-description-expand-icon =
     .alt = Afișează descrierea completă
@@ -28,3 +30,19 @@ calendar-dialog-more-categories =
        *[other] încă +{ $additionalCategories }
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Șterge mementoul
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] memento
+        [few] mementouri
+       *[other] de mementouri
+    }
+calendar-dialog-accept = Particip
+    .title = Particip
+calendar-dialog-accept-tentative = Poate
+    .title = Poate
+calendar-dialog-decline = Nu particip
+    .title = Nu particip

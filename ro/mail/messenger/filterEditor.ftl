@@ -68,3 +68,8 @@ filter-log-message = Mesaj de la filtrul „{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Trebuie să selectezi un dosar destinație.
 filter-editor-enter-valid-email-forward = Introdu o adresă de e-mail validă spre care să se redirecționeze mesajul.
 filter-editor-pick-template-reply = Alege un șablon cu care să răspund.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Aplicarea filtrului { $filterName } a eșuat. Vrei să continui cu aplicarea de filtre?
+filter-list-backup-message = Filtrele tale nu funcționează deoarece fișierul msgFilterRules.dat, în care se află filtrele, nu poate fi citit. Voi crea un nou fișier msgFilterRules.dat și voi crea în același director o copie de siguranță a vechiului fișier, cu denumirea rulesbackup.dat.
+filter-invalid-custom-header = Unul dintre filtre folosește un antet personalizat care conține un caracter nevalid, cum ar fi „:”, un caracter netipăribil, un caracter non-ASCII sau un caracter din codul ASCII de opt biți. Te rugăm să editezi fișierul msgFilterRules.dat, în care se află filtrele, și să elimini caracterele nevalide din antetele personalizate.
