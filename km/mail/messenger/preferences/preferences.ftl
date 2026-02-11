@@ -8,6 +8,15 @@ category-compose =
 pane-chat-title = ជជែក
 category-chat =
     .tooltiptext = ជជែក
+privacy-passwords-header = ពាក្យ​សម្ងាត់
+
+## OS Authentication dialog
+
+# This message can be seen by trying to add a Primary Password.
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to "
+# and includes subtitle of "Enter password for the user "xxx" to allow this." These
+# notes are only valid for English. Please test in your locale.
+primary-password-os-auth-dialog-message-macosx = បង្កើតពាក្យសម្ងាត់ចម្បង
 
 ## General Tab
 
@@ -344,6 +353,14 @@ passwords-description = { -brand-short-name } can remember passwords for all of 
 passwords-button =
     .label = Saved Passwords…
     .accesskey = S
+primary-password-description = ពាក្យសម្ងាត់ចម្បងការពារពាក្យសម្ងាត់របស់អ្នកទាំងអស់ ប៉ុន្តែអ្នកត្រូវតែបញ្ចូលវាម្តងក្នុងមួយវគ្គ។
+primary-password-label =
+    .label = ប្រើពាក្យសម្ងាត់ចម្បង
+    .accesskey = U
+primary-password-button =
+    .label = ប្តូរពាក្យសម្ងាត់ចម្បង...
+    .accesskey = C
+forms-master-pw-fips-desc = ការផ្លាស់ប្ដូរពាក្យសម្ងាត់បរាជ័យ
 junk-description = Set your default junk mail settings. Account-specific junk mail settings can be configured in Account Settings.
 junk-move-label =
     .label = Move them to the account's "Junk" folder
@@ -434,3 +451,9 @@ chat-browse-sound-button =
 
 sync-pane-manage-account = គ្រប់គ្រង​គណនី
 sync-pane-cancel = បោះបង់
+show-synced-item-passwords = ពាក្យ​សម្ងាត់
+
+## Mobile QR Export Pane
+
+qr-export-summary-passwords-included = រួមបញ្ចូលពាក្យសម្ងាត់
+qr-export-summary-passwords-excluded = ពាក្យសម្ងាត់មិនរាប់បញ្ចូល

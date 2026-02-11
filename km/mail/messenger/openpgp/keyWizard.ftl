@@ -5,6 +5,8 @@
 
 ## Generate key section
 
+radio-keygen-protect-primary-pass =
+    .label = ការពារជាមួយពាក្យសម្ងាត់ចម្បង
 openpgp-keygen-months-label =
     .label = ខែ
 openpgp-keygen-dismiss =
