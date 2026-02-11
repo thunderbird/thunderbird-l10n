@@ -68,3 +68,7 @@ filter-log-message = Zpráva z filtru "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Musíte vybrat cílovou složku.
 filter-editor-enter-valid-email-forward = Zadejte platnou e-mailovou adresu, na kterou chcete přeposílat.
 filter-editor-pick-template-reply = Zvolte šablonu, pomocí které chcete odpovídat.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Aplikace filtru { $filterName } selhala. Chcete pokračovat v aplikaci dalších filtrů?
+filter-list-backup-message = Vaše filtry nefungují, protože soubor rules.dat, který obsahuje definice filtrů nelze přečíst. Bude vytvořen nový soubor rules.dat a starý bude zálohován ve stejném adresáři pod názvem rulesbackup.dat.

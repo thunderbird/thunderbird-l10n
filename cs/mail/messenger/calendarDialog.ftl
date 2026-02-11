@@ -43,3 +43,9 @@ calendar-dialog-reminder-count =
         [many] { $count } připomenutí
        *[other] { $count } připomenutí
     }
+calendar-dialog-accept = Zúčastním se
+    .title = Zúčastním se
+calendar-dialog-accept-tentative = Možná
+    .title = Možná
+calendar-dialog-decline = Nezúčastním se
+    .title = Nezúčastním se
