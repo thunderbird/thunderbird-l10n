@@ -145,14 +145,14 @@ menu-file-save-as-file =
 menu-file-compact =
     .label =
         { $count ->
-            [1] საქაღალდის შემჭიდროება
-           *[other] საქაღალდის შემჭიდროება
+            [1] საქაღალდის შეკუმშვა
+           *[other] საქაღალდის შეკუმშვა
         }
     .accesskey = დ
 # One or more servers selected for compacting all their folders. Only this or
 # menu-file-compact string will appear at a time, not both.
 menu-file-compact-all =
-    .label = ყველა საქაღალდის შემჭიდროება
+    .label = ყველა საქაღალდის შეკუმშვა
     .accesskey = ლ
 
 ## Edit Menu
