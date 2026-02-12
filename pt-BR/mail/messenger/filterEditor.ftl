@@ -72,3 +72,4 @@ filter-editor-pick-template-reply = Escolha um modelo para responder.
 # $filterName (String) - The name of the filter that was applied.
 filter-continue-execution = Falha ao aplicar o filtro { $filterName }. Quer continuar aplicando filtros?
 filter-list-backup-message = Seus filtros não funcionam porque o arquivo msgFilterRules.dat, que contém seus filtros, não pôde ser lido. Um novo msgFilterRules.dat será criado e uma cópia do arquivo atual, renomeada para rulesbackup.dat, será criada na mesma pasta.
+filter-invalid-custom-header = Um de seus filtros usa um cabeçalho personalizado que contém um caractere inválido, como ‘:’, um caractere não imprimível, um caractere não ASCII ou um caractere ASCII de 8 bits. Edite o arquivo msgFilterRules.dat, que contém seus filtros, para remover caracteres inválidos de seus cabeçalhos personalizados.
