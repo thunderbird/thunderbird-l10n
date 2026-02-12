@@ -68,3 +68,7 @@ filter-log-message = Mensagem do filtro "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Você deve selecionar uma pasta de destino.
 filter-editor-enter-valid-email-forward = Insira um endereço de email válido para onde encaminhar.
 filter-editor-pick-template-reply = Escolha um modelo para responder.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Falha ao aplicar o filtro { $filterName }. Quer continuar aplicando filtros?
+filter-list-backup-message = Seus filtros não funcionam porque o arquivo msgFilterRules.dat, que contém seus filtros, não pôde ser lido. Um novo msgFilterRules.dat será criado e uma cópia do arquivo atual, renomeada para rulesbackup.dat, será criada na mesma pasta.

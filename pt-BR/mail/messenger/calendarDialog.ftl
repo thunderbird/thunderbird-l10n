@@ -38,3 +38,9 @@ calendar-dialog-reminder-count =
         [one] { $count } lembrete
        *[other] { $count } lembretes
     }
+calendar-dialog-accept = Aceitar
+    .title = Aceitar
+calendar-dialog-accept-tentative = Talvez
+    .title = Talvez
+calendar-dialog-decline = Não aceitar
+    .title = Não aceitar
