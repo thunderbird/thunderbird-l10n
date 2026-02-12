@@ -34,6 +34,7 @@ status-priority-img-low-priority =
     .alt = ទាប
 # spaces needed at the end of the following lines
 event-description = ការពិពណ៌នា៖
+remove-calendar-button-delete = លុបប្រតិទិន
 # event calendar name
 tooltip-cal-name = ឈ្មោះប្រតិទិន៖
 # event status: tentative, confirmed, cancelled
@@ -54,6 +55,8 @@ filepicker-title-export = នាំចេញ
 # Filters for export/import/open file picker.  $wildmat will be replaced with
 # wildmat used to filter files by extension, such as (*.html; *.htm).
 filter-ics = iCalendar ({ $wildmat })
+proceed-delete =
+    .label = លុប​ចោល​ទៅ​ចុះ
 # Used in created html code for export
 html-prefix-title = ចំណង​ជើង
 html-prefix-when = នៅពេល
@@ -128,6 +131,15 @@ event-details-end-date = បញ្ចប់៖
 #    $datetime will be replaced with the completion date-time
 #    $timezone will be replaced with the name of the timezone
 datetime-with-timezone = { $datetime }, { $timezone }
+delete-task =
+    .label = លុបភារកិច្ច
+    .accesskey = I
+delete-item =
+    .label = លុប
+    .accesskey = I
+delete-event =
+    .label = លុបព្រឹត្តិការណ៍
+    .accesskey = I
 # Variables:
 # $count (Number) - Number of hours used to determine the correct plural form.
 event-duration-menuitem-hours =
@@ -171,6 +183,15 @@ calendar-context-new-event =
 calendar-context-new-task =
     .label = ភារកិច្ចថ្មី…
     .accesskey = k
+calendar-context-delete-task =
+    .label = លុបភារកិច្ច
+    .accesskey = I
+calendar-context-delete-event =
+    .label = លុបព្រឹត្តិការណ៍
+    .accesskey = I
+calendar-taskview-delete =
+    .label = លុប
+    .tooltiptext = លុបភារកិច្ច
 calendar-context-attendance-occ-completed =
     .label = បាន​បញ្ចប់
     .accesskey = C
@@ -180,6 +201,9 @@ calendar-context-attendance-all-completed =
 calendar-context-new-server =
     .label = ប្រតិទិនថ្មី…
     .accesskey = N
+calendar-context-delete-server =
+    .label = លុបប្រតិទិន…
+    .accesskey = D
 calendar-task-filter-completed =
     .label = កិច្ចការដែលបានបញ្ចប់
     .accesskey = C

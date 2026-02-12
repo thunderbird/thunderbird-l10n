@@ -84,6 +84,10 @@ message-header-delete =
 message-header-undelete =
     .label = មិនទាន់លុប
     .tooltiptext = មិនទាន់លុបសារនេះ
+# Variables:
+# $address (String) - The email address of the recipient this picture belongs to.
+message-header-recipient-avatar =
+    .alt = រូបភាពប្រវត្តិរូបរបស់ { $address }។
 
 ## Spaces toolbar customize panel
 

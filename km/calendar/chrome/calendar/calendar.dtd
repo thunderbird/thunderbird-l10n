@@ -34,6 +34,8 @@
 <!ENTITY calendar.task-details.organizer.label "ពី">
 <!ENTITY calendar.context.newevent.label "ព្រឹត្តិការណ៍ថ្មី…">
 <!ENTITY calendar.context.newtodo.label "ភារកិច្ចថ្មី…">
+<!ENTITY calendar.context.deletetask.label "លុបភារកិច្ច">
+<!ENTITY calendar.context.deleteevent.label "លុបព្រឹត្តិការណ៍">
 <!ENTITY calendar.context.attendance.occ.completed.label "បាន​បញ្ចប់">
 <!ENTITY calendar.context.attendance.all.inprogress.label "កំពុងដំណើរការ">
 <!ENTITY calendar.context.attendance.all.completed.label "បាន​បញ្ចប់">
