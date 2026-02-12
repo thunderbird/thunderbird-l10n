@@ -70,6 +70,6 @@ filter-editor-enter-valid-email-forward = Rhowch gyfeiriad e-bost dilys i'w anfo
 filter-editor-pick-template-reply = Dewiswch dempled i ymateb.
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
-filter-continue-execution = Methwyd defnyddio'r hidlydd { $filterName }. Hoffech chi barhau i gymhwyso hidlwyr?
-filter-list-backup-message = Nid yw eich hidlau'n gweithio oherwydd nad oes modd darllen ffeil msg.FilterRules.dat sy'n cynnwys eich hidlau. Bydd ffeil msg.FilterRules.dat newydd yn cael ei greu a bydd yr hen ffeil yn cael ei gadw ar ffurf rulesbackup.dat yn yr un cyfeiriadur.
-filter-invalid-custom-header = Mae un o'ch hidlwyr yn defnyddio pennyn wedi'i deilwra sy'n cynnwys nod annilys, fel ':', nod na ellir ei argraffu, nod nad yw'n ascii, neu nod ascii wyth-did. Golygwch y ffeil msgFilterRules.dat, sy'n cynnwys eich hidlwyr, i dynnu nodau annilys o'ch penawdau personol.
+filter-continue-execution = Methwyd defnyddio'r hidlydd { $filterName }. Hoffech chi barhau i osod hidlwyr?
+filter-list-backup-message = Dyw eich hidlau ddim yn gweithio oherwydd nad oes modd darllen ffeil msg.FilterRules.dat sy'n cynnwys eich hidlau. Bydd ffeil msg.FilterRules.dat newydd yn cael ei greu a bydd yr hen ffeil yn cael ei gadw ar ffurf rulesbackup.dat yn yr un cyfeiriadur.
+filter-invalid-custom-header = Mae un o'ch hidlwyr yn defnyddio pennyn cyfaddas sy'n cynnwys nod annilys, fel ':', nod nad oes modd ei argraffu, nod nad yw'n ascii, neu nod ascii wyth-did. Golygwch y ffeil msgFilterRules.dat, sy'n cynnwys eich hidlwyr, i dynnu nodau annilys o'ch penynnau cyfaddas.
