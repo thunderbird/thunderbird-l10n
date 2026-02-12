@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Default name for new events
+new-event =
+    .placeholder = ព្រឹត្តិការណ៍ថ្មី
 # Titles for the event/task dialog
 new-event-dialog = ព្រឹត្តិការណ៍ថ្មី
 edit-event-dialog = កែសម្រួលព្រឹត្តិការណ៍
@@ -162,12 +165,21 @@ hide-calendar-label =
 show-only-calendar =
     .label = បង្ហាញតែ { $name } ប៉ុណ្ណោះ
 modify-conflict-prompt-button2 = បោះបង់​ការ​ផ្លាស់ប្ដូរ​ទាំងនេះ
+calendar-context-new-event =
+    .label = ព្រឹត្តិការណ៍ថ្មី…
+    .accesskey = N
+calendar-context-new-task =
+    .label = ភារកិច្ចថ្មី…
+    .accesskey = k
 calendar-context-attendance-occ-completed =
     .label = បាន​បញ្ចប់
     .accesskey = C
 calendar-context-attendance-all-completed =
     .label = បាន​បញ្ចប់
     .accesskey = m
+calendar-context-new-server =
+    .label = ប្រតិទិនថ្មី…
+    .accesskey = N
 calendar-task-filter-completed =
     .label = កិច្ចការដែលបានបញ្ចប់
     .accesskey = C
@@ -214,6 +226,12 @@ calendar-properties-offline-support =
     .label = ការគាំទ្រក្រៅបណ្តាញ
 calendar-properties-enable-calendar =
     .label = បើក​ប្រតិទិន​នេះ
+calendar-newevent-button =
+    .label = ព្រឹត្តិការណ៍ថ្មី
+    .tooltiptext = បង្កើតព្រឹត្តិការណ៍ថ្មីមួយ
+calendar-newtask-button =
+    .label = ភារកិច្ចថ្មី
+    .tooltiptext = បង្កើតភារកិច្ចថ្មីមួយ
 calendar-unifinder-show-completed-todos =
     .label = បង្ហាញកិច្ចការដែលបានបញ្ចប់
 calendar-completed-tasks-checkbox =

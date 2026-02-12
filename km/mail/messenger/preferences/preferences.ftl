@@ -203,6 +203,9 @@ always-ask-label =
     .label = Միշտ հարցնել ֆայլերի պահման տեղը
     .accesskey = A
 display-tags-text = Tags can be used to categorize and prioritize your messages.
+new-tag-button =
+    .label = ថ្មី…
+    .accesskey = N
 delete-tag-button =
     .label = Delete
     .accesskey = D
@@ -457,3 +460,8 @@ show-synced-item-passwords = ពាក្យ​សម្ងាត់
 
 qr-export-summary-passwords-included = រួមបញ្ចូលពាក្យសម្ងាត់
 qr-export-summary-passwords-excluded = ពាក្យសម្ងាត់មិនរាប់បញ្ចូល
+
+## Appearance Tab
+
+default-sort-ascending-description = សារថ្មីៗនៅខាងក្រោម
+default-sort-descending-description = សារថ្មីៗនៅផ្នែកខាងលើ

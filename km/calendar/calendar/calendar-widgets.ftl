@@ -9,6 +9,8 @@ calendar-add-notification-button =
 
 calendar-list-header = ប្រតិទិន
 calendar-enable-button = បើក
+calendar-import-new-calendar = ប្រតិទិនថ្មី…
+    .title = បង្កើត ឬជាវប្រតិទិនថ្មី
 calendar-new-event-primary-button = ព្រឹត្តិការណ៍ថ្មី
 calendar-new-task-primary-button = ភារកិច្ចថ្មី
 

@@ -2,4 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- Event Menu -->
+<!ENTITY event.new.event "ព្រឹត្តិការណ៍ថ្មី…">
+<!ENTITY event.new.task "ភារកិច្ចថ្មី…">
 <!ENTITY calendar.deletecalendar.label "លុបប្រតិទិនដែលបានជ្រើសរើស…">

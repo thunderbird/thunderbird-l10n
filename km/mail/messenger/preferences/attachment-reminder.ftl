@@ -4,8 +4,12 @@
 
 attachment-reminder-dialog-title = Attachment Reminder Keywords
 attachment-reminder-label = { -brand-short-name } will warn you about missing attachments if you're about to send an e-mail containing one of these keywords.
+keyword-new-button =
+    .label = ថ្មី…
+    .accesskey = N
 keyword-remove-button =
     .label = Delete
     .accesskey = D
+new-keyword-title = ពាក្យគន្លឹះថ្មី
 edit-keyword-title = Edit Keyword
 edit-keyword-label = Keyword:

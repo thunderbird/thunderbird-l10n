@@ -3,6 +3,11 @@
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Toolbar
+
+books-pane-create-contact-button = ទំនាក់ទំនងថ្មី
+    .title = បង្កើតទំនាក់ទំនងថ្មី
+
 ## Books
 
 about-addressbook-books-context-delete =
@@ -36,8 +41,15 @@ about-addressbook-confirm-delete-contacts-single = តើអ្នកពិត�
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-multi = តើអ្នកពិតជាចង់លុបទំនាក់ទំនង { $count } ទាំងនេះមែនទេ?
 
+## Card list placeholder
+## Shown when there are no cards in the list
+
+about-addressbook-placeholder-new-contact = ទំនាក់ទំនងថ្មី
+
 ## Details
 
+about-addressbook-new-contact-header = ទំនាក់ទំនងថ្មី
+about-addressbook-new-list-action-button = បញ្ជីថ្មី
 about-addressbook-delete-edit-contact-button = លុប
 about-addressbook-cancel-edit-contact-button = បោះបង់
 

@@ -32,6 +32,8 @@
 <!ENTITY calendar.task.filter.current.label "ភារកិច្ចបច្ចុប្បន្ន">
 <!ENTITY calendar.task-details.title.label "ចំណងជើង">
 <!ENTITY calendar.task-details.organizer.label "ពី">
+<!ENTITY calendar.context.newevent.label "ព្រឹត្តិការណ៍ថ្មី…">
+<!ENTITY calendar.context.newtodo.label "ភារកិច្ចថ្មី…">
 <!ENTITY calendar.context.attendance.occ.completed.label "បាន​បញ្ចប់">
 <!ENTITY calendar.context.attendance.all.inprogress.label "កំពុងដំណើរការ">
 <!ENTITY calendar.context.attendance.all.completed.label "បាន​បញ្ចប់">
