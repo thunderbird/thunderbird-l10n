@@ -844,6 +844,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = დავალებად…
     .accesskey = დ
+calendar-task-filter-title2 = დავალებების გაფილტვრა
 calendar-task-filter-title = ჩვენება
 calendar-task-filter-all =
     .label = ყველა

@@ -68,3 +68,7 @@ filter-log-message = შეტყობინება ფილტრით „
 filter-editor-must-select-target-folder = აუცილებელია სასურველი საქაღალდის მითითება.
 filter-editor-enter-valid-email-forward = მიუთითეთ ელფოსტის მართებული მისამართი გადასაგზავნად.
 filter-editor-pick-template-reply = მიუთითეთ თარგი პასუხისთვის.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = ფილტრი { $filterName } ვერ ამუშავდა. გსურთ ფილტრების დამატების გაგრძელება?
+filter-list-backup-message = თქვენი ფილტრები არ მუშაობს, რადგან ფაილი rules.dat, რომელიც თქვენს ფილტრებს შეიცავს, ვერ იკითხება. შეიქმნება ახალი ფაილი rules.dat, ხოლო ძველი ფაილის ასლი შეინახება იმავე საქაღალდეში, ფაილად rulesbackup.dat.

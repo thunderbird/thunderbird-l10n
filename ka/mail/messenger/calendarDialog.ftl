@@ -24,3 +24,18 @@ calendar-dialog-description-expand-icon =
 #   $categories (String): List of all categories.
 calendar-dialog-more-categories = +{ $additionalCategories } სხვა
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = შემხსენებელის წაშლა
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } შემხსენებელი
+       *[other] { $count } შემხსენებლები
+    }
+calendar-dialog-accept = აპირებს
+    .title = აპირებს
+calendar-dialog-accept-tentative = შესაძლოა
+    .title = შესაძლოა
+calendar-dialog-decline = არ აპირებს
+    .title = არ აპირებს
