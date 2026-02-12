@@ -13,6 +13,8 @@ account-setup-password-label = ពាក្យ​សម្ងាត់
 
 account-setup-button-cancel = បោះបង់
     .accesskey = a
+account-setup-button-done = ធ្វើ​រួច
+    .accesskey = D
 
 ## Notifications
 

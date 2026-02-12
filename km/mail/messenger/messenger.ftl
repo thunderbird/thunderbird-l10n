@@ -88,6 +88,8 @@ message-header-undelete =
 ## Spaces toolbar customize panel
 
 spaces-customize-icon-color = ពណ៌ប៊ូតុង
+customize-panel-button-save = ធ្វើ​រួច
+    .accesskey = D
 
 ## Quick Filter Bar
 
