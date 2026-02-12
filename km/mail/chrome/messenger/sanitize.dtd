@@ -16,6 +16,7 @@
 <!-- Localization note (clearTimeDuration.suffix) - trailing entity for languages
      that require it. -->
 <!ENTITY clearTimeDuration.suffix "កុំ​ផ្ញើ​ត្រឡប់​ទៅ​អ្នក​ទទួល">
+<!ENTITY historyGroup.label "ប្រវត្តិ">
 <!ENTITY itemHistory.label "ប្រវត្តិ​រុករក">
 <!ENTITY itemHistory.accesskey "B">
 <!ENTITY itemCookies.label "ខូឃី">
