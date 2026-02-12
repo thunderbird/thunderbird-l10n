@@ -406,6 +406,12 @@ key-does-not-expire = გასაღები უვადოა
 key-expired-date = გასაღების ვადა იწურება { $keyExpiry }
 key-expired-simple = გასაღები ვადაგასულია
 key-revoked-simple = გასაღები გაუქმებულია
+key-revoked-revocation-code-superseded = გასაღები გაუქმებულია, ვინაიდან ჩანაცვლებულია.
+key-revoked-revocation-code-compromised = გასაღები გაუქმებულია, ვინაიდან შემცველი მასალა ხელყოფილია.
+key-revoked-revocation-code-retired = გასაღები გაუქმებულია, ვინაიდან გამოთხოვილია და აღარ გამოიყენება.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = გაუქმების მიზეზი გასაღების მფლობელის განცხადებით: { $reason }
 key-do-you-accept = გსურთ მიიღოთ ეს გასაღები ციფრული ხელმოწერებისა და დაშიფრული წერილების დასამოწმებლად?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
