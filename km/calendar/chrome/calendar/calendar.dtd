@@ -32,16 +32,22 @@
 <!ENTITY calendar.task.filter.current.label "ភារកិច្ចបច្ចុប្បន្ន">
 <!ENTITY calendar.task-details.title.label "ចំណងជើង">
 <!ENTITY calendar.task-details.organizer.label "ពី">
+<!ENTITY calendar.context.attendance.occ.completed.label "បាន​បញ្ចប់">
 <!ENTITY calendar.context.attendance.all.inprogress.label "កំពុងដំណើរការ">
 <!ENTITY calendar.context.attendance.all.completed.label "បាន​បញ្ចប់">
 <!-- Task Context Menu -->
 <!ENTITY calendar.context.progress.label "ដំណើរការ">
 <!ENTITY calendar.context.priority.label "អាទិភាព">
 <!ENTITY calendar.context.markcompleted.label "សម្គាល់ថាបានបញ្ចប់">
+<!ENTITY progress.level.0 "បានបញ្ចប់ 0&percnt;">
 <!ENTITY progress.level.0.accesskey "0">
+<!ENTITY progress.level.25 "បានបញ្ចប់ 25&percnt;">
 <!ENTITY progress.level.25.accesskey "2">
+<!ENTITY progress.level.50 "បានបញ្ចប់ 50&percnt;">
 <!ENTITY progress.level.50.accesskey "5">
+<!ENTITY progress.level.75 "បានបញ្ចប់ 75&percnt;">
 <!ENTITY progress.level.75.accesskey "7">
+<!ENTITY progress.level.100 "បានបញ្ចប់ 100&percnt;">
 <!ENTITY progress.level.100.accesskey "1">
 <!ENTITY priority.level.low "ទាប">
 <!ENTITY priority.level.normal "ធម្មតា">

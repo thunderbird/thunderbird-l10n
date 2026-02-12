@@ -4,6 +4,7 @@
 
 <!ENTITY newevent.eventStatus.cancelled.label "បាន​បោះបង់">
 <!ENTITY newevent.todoStatus.cancelled.label "បាន​បោះបង់">
+<!ENTITY newevent.status.completed.label "បានបញ្ចប់នៅ">
 <!-- Menubar -->
 <!ENTITY event.menu.item.new.label "ថ្មី">
 <!ENTITY event.menu.item.new.event.label "ព្រឹត្តិការណ៍">

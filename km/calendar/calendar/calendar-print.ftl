@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-print-layout-list = បញ្ជី
+calendar-print-filter-completedtasks = កិច្ចការដែលបានបញ្ចប់

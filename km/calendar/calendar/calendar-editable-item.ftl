@@ -4,3 +4,5 @@
 
 calendar-editable-item-todo-icon-task =
     .alt = ភារកិច្ច
+calendar-editable-item-todo-icon-completed-task =
+    .alt = កិច្ចការដែលបានបញ្ចប់
