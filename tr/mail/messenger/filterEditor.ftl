@@ -68,3 +68,5 @@ filter-log-message = "{ $filterName }" süzgecinden mesaj: { $message }
 filter-editor-must-select-target-folder = Bir hedef klasör seçmelisiniz.
 filter-editor-enter-valid-email-forward = İletilecek adrese geçerli bir e-posta adresi yazın.
 filter-editor-pick-template-reply = Yanıt için kullanılacak şablonu seçin.
+filter-list-backup-message = Süzgeçleriniz çalışmıyor çünkü süzgeçlerinizi içeren msgFilterRules.dat dosyası okunamadı. Yeni bir msgFilterRules.dat dosyası oluşturulacak ve eski dosyanızın yedeği rulesbackup.dat adıyla aynı dizine kopyalanacak.
+filter-invalid-custom-header = Süzgeçlerinizden bir tanesi, geçersiz bir karakter (‘:’ vb., yazdırılamaz bir karakter, ascii olmayan bir karakter veya 8 bit ascii karakter) içeren bir kullanıcı tanımlı başlık kullanıyor. Lütfen süzgeçlerinizi içeren msgFilterRules.dat dosyasını düzenleyerek kullanıcı tanımlı başlıklarınızdaki geçersiz karakterleri silin.
