@@ -39,3 +39,5 @@ calendar-dialog-reminder-count =
         [one] { $count } anımsatıcı
        *[other] { $count } anımsatıcı
     }
+calendar-dialog-accept-tentative = Belki
+    .title = Belki
