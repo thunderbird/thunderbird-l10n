@@ -706,6 +706,7 @@ security-devices-button =
     .accesskey = V
 email-e2ee-header = Šifriranje e-pošte od konca do konca
 account-settings = Nastavitve računa
+email-e2ee-enable-accounts-info = Nastavite e-poštne račune in identitete za šifriranje od konca do konca v <a data-l10n-name="account-settings-url">nastavitvah računa</a>.
 email-e2ee-enable-info = E-poštne račune in identitete za šifriranje od konca do konca nastavite v nastavitvah računa.
 email-e2ee-automatism = Samodejna uporaba šifriranja
 email-e2ee-automatism-pre =
@@ -783,6 +784,10 @@ preferences-doh-url-custom =
 
 ## Keyservers
 
+email-e2ee-key-servers-legend = Strežniki ključev OpenPGP
+email-e2ee-key-servers-intro =
+    Strežnik ključev prejema in nato uporabnikom servira obstoječe javne ključe.
+    Omogoča vam objavo vašega javnega ključa ter iskanje in osveževanje ključev drugih.
 email-e2ee-key-servers-use-following = Uporabi naslednje strežnike ključev:
 email-e2ee-key-servers-add = Dodaj …
 email-e2ee-key-servers-reset = Ponastavi seznam strežnikov

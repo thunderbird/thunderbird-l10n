@@ -35,6 +35,7 @@ search-attrib-title = Naziv
 search-attrib-organization = Organizacija
 search-attrib-department = Oddelek
 search-attrib-from-to-cc-or-bcc = Od, Za, Kp ali Skp
+search-attrib-spam-score-origin = Vir ocene za neželeno pošto
 search-attrib-attachment-status = Stanje priponk
 search-attrib-label = Označba
 search-attrib-customize = Prilagodi …
