@@ -68,3 +68,8 @@ filter-log-message = Besked fra filer "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Du bedes vælge en destinationsmappe.
 filter-editor-enter-valid-email-forward = Indtast en gyldig mailadresse at videresende til.
 filter-editor-pick-template-reply = Vælg en skabelon at besvare med.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Kunne ikke anvende filteret { $filterName }. Vil du fortsætte med at anvende filtre?
+filter-list-backup-message = Dine filtre virker ikke, fordi filen msgFilterrules.dat, som indeholder dine filtre, ikke kunne læses. En ny msgFilterrules.dat fil vil blive oprettet og en sikkerhedskopi af den gamle fil, kaldet rulesbackup.dat, vil blive oprettet i samme mappe.
+filter-invalid-custom-header = Et af dine filtre benytter et tilpasset meddelelseshoved, som indeholder ugyldige tegn, fx ‘:’, tegn, der ikke kan udskrives, ikke ascii-tegn eller 8-bit ascii-tegn. Rediger filen msgFilterRules.dat, som indeholder dine filtre, og fjern alle ugyldige tegn fra dine meddelelseshoveder.
