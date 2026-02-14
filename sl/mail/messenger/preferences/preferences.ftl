@@ -783,8 +783,13 @@ preferences-doh-url-custom =
 
 ## Keyservers
 
+email-e2ee-key-servers-use-following = Uporabi naslednje strežnike ključev:
 email-e2ee-key-servers-add = Dodaj …
 email-e2ee-key-servers-reset = Ponastavi seznam strežnikov
+email-e2ee-key-servers-add-title = Dodaj strežnik ključev
+email-e2ee-key-servers-add-text = Vnesite URL strežnika ključev, ki ga želite dodati.
+email-e2ee-key-servers-add-failed-title = Dodajanje strežnika ključev ni uspelo
+email-e2ee-key-servers-add-failed-text = S strežnikom ključev na navedenem naslovu se ni bilo mogoče povezati.
 
 ## Chat Tab
 

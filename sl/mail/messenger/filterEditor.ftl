@@ -68,3 +68,8 @@ filter-log-message = Sporočilo filtra "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Izbrati morate ciljno mapo.
 filter-editor-enter-valid-email-forward = Vnesite veljaven poštni naslov za posredovanje.
 filter-editor-pick-template-reply = Izberite predlogo za odgovor.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Uporaba filtra { $filterName } ni uspela. Ali želite nadaljevati z uporabo filtrov?
+filter-list-backup-message = Vaši filtri ne delujejo, ker datoteke msgFilterRules.dat, ki vsebuje filtre, ni bilo mogoče prebrati. V isti mapi se bo ustvarila nova datoteka msgFilterRules.dat in varnostna kopija prejšnje datoteke z imenom rulesbackup.dat.
+filter-invalid-custom-header = Eden od filtrov vsebuje glavo po meri, v kateri je neveljaven znak, na primer ':', nenatisljiv znak, znak, ki ni znak ASCII, ali osembitni znak ASCII. Uredite datoteko msgFilterRules.dat, v kateri so vaši filtri shranjeni, in iz glav po meri odstranite neveljavne znake.

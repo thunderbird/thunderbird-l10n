@@ -40,3 +40,9 @@ calendar-dialog-reminder-count =
         [few] { $count } opomniki
        *[other] { $count } opomnikov
     }
+calendar-dialog-accept = Pridem
+    .title = Pridem
+calendar-dialog-accept-tentative = Morda
+    .title = Morda
+calendar-dialog-decline = Ne pridem
+    .title = Ne pridem
