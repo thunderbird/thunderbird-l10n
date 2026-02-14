@@ -27,3 +27,9 @@ calendar-dialog-more-categories =
        *[other] +{ $additionalCategories } mere
     }
     .title = { $categories }
+calendar-dialog-accept = Deltager
+    .title = Deltager
+calendar-dialog-accept-tentative = Måske
+    .title = Måske
+calendar-dialog-decline = Deltager ikke
+    .title = Deltager ikke
