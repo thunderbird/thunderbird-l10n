@@ -19,6 +19,7 @@ boolean-error = Ikke en boolsk
 no-number-error = Ikke et tal
 number-too-large-error = Tallet er for stort
 number-too-small-error = Tallet er for lille
+emailaddress-syntax-error = Ugyldig mailadresse
 
 ## FetchHTTP.sys.mjs
 

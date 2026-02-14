@@ -848,6 +848,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Opgave…
     .accesskey = O
+calendar-task-filter-title2 = Filtrer opgaver
 calendar-task-filter-title = Vis
 calendar-task-filter-all =
     .label = Alle
