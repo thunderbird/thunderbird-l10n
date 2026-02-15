@@ -47,6 +47,7 @@ compose-html-style-title = ลักษณะ HTML
 composition-addressing-header = การกำหนดที่อยู่
 privacy-main-header = ความเป็นส่วนตัว
 privacy-passwords-header = รหัสผ่าน
+privacy-spam-header = สแปม
 privacy-junk-header = ขยะ
 collection-header = การเก็บรวบรวมและใช้ข้อมูล { -brand-short-name }
 collection-description = เรามุ่งมั่นที่จะให้ทางเลือกกับคุณและเก็บรวบรวมเฉพาะสิ่งที่เราจำเป็นต้องจัดหาและปรับปรุง { -brand-short-name } สำหรับทุกคน เราร้องขอการอนุญาตก่อนที่จะรับข้อมูลส่วนบุคคลเสมอ
@@ -627,6 +628,7 @@ primary-password-button =
     .accesskey = ป
 forms-primary-pw-fips-title = คุณกำลังอยู่ในโหมด FIPS ซึ่ง FIPS จำเป็นต้องมีรหัสผ่านหลักที่ไม่ว่างเปล่า
 forms-master-pw-fips-desc = การเปลี่ยนรหัสผ่านล้มเหลว
+spam-read-description = ทำเครื่องหมายข้อความว่าอ่านแล้ว
 junk-description = ตั้งค่าการตั้งค่าจดหมายขยะเริ่มต้นของคุณ สามารถกำหนดค่าการตั้งค่าจดหมายขยะเฉพาะบัญชีได้ในการตั้งค่าบัญชี
 junk-marked-label =
     .label = เมื่อทำเครื่องหมายข้อความว่าเป็นขยะ:
@@ -1018,3 +1020,30 @@ default-sort-received =
 default-sort-correspondents =
     .label = ผู้สื่อสาร
 default-order-label = การเรียงลำดับเริ่มต้น:
+default-sort-ascending =
+    .label = จากน้อยไปมาก
+default-sort-ascending-description = ให้ข้อความใหม่อยู่ด้านล่าง
+default-sort-descending =
+    .label = จากมากไปน้อย
+default-sort-descending-description = ให้ข้อความใหม่อยู่ด้านบน
+apply-thread-sort-label = ส่งต่อการตั้งค่าการจัดกระทู้และการเรียงลำดับไปยัง:
+apply-sort-to-all-button =
+    .label = โฟลเดอร์ที่มีอยู่ทั้งหมด
+    .accesskey = ฟ
+choose-apply-sort-button =
+    .label = เลือก…
+    .accesskey = ล
+apply-current-view-to-folder =
+    .label = โฟลเดอร์…
+apply-current-view-to-folder-children =
+    .label = โฟลเดอร์และโฟลเดอร์รองที่อยู่ภายใน…
+apply-changes-prompt-title = นำการเปลี่ยนแปลงไปใช้หรือไม่?
+apply-changes-prompt-message = นำการตั้งค่าการจัดกระทู้และการเรียงลำดับปัจจุบันไปใช้กับทุกโฟลเดอร์หรือไม่?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = นำการตั้งค่าการจัดกระทู้และการเรียงลำดับปัจจุบันไปใช้กับ “{ $name }” หรือไม่?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = นำการตั้งค่าการจัดกระทู้และการเรียงลำดับปัจจุบันไปใช้กับ “{ $name }” และโฟลเดอร์รองที่อยู่ภายในหรือไม่?
+apply-current-view-error = ไม่สามารถนำการตั้งค่าการแสดงผลปัจจุบันไปใช้ได้
+apply-current-view-success = นำการตั้งค่าการแสดงผลปัจจุบันไปใช้เรียบร้อยแล้ว
