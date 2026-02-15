@@ -28,3 +28,6 @@ edit-vcard-dialog-cancel-button = ยกเลิก
 account-manager-server-default-icon =
     .title = บัญชีเริ่มต้น
     .alt = ไอคอนรูปดาว
+outgoing-server-section-name = เซิร์ฟเวอร์ขาออก
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = การตั้งค่าเซิร์ฟเวอร์ขาออก
