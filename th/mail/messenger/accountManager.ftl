@@ -31,3 +31,9 @@ account-manager-server-default-icon =
 outgoing-server-section-name = เซิร์ฟเวอร์ขาออก
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = การตั้งค่าเซิร์ฟเวอร์ขาออก
+outgoing-server-settings-description = เมื่อจัดการข้อมูลประจำตัวของคุณ คุณสามารถใช้เซิร์ฟเวอร์จากรายการนี้โดยเลือกเป็นเซิร์ฟเวอร์ขาออก หรือคุณสามารถใช้เซิร์ฟเวอร์เริ่มต้นจากรายการนี้โดยเลือก “ใช้เซิร์ฟเวอร์เริ่มต้น”
+outgoing-server-type = ชนิดเซิร์ฟเวอร์:
+panel-settings-spam = การตั้งค่าสแปม
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = ตรวจพบปัญหาเกี่ยวกับการตั้งค่าการป้องกันสแปมสำหรับ { $account } คุณต้องการตรวจสอบการตั้งค่าก่อนบันทึกการเปลี่ยนแปลงหรือไม่

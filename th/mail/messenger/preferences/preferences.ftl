@@ -452,6 +452,7 @@ account-hub-checkbox-description = โฟลว์สำหรับสร้า
 account-hub-ab-checkbox-label =
     .label = สร้างสมุดรายชื่อในฮับบัญชีใหม่
     .accesskey = ส
+account-hub-ab-checkbox-description = โฟลว์สำหรับสร้างสมุดรายชื่อใหม่ระยะทดลอง
 
 ## Compose Tab
 
@@ -692,6 +693,70 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     การตัดสินใจโดยอัตโนมัติอาจถูกยกเลิกได้โดยการเปิดหรือปิดใช้งานการเข้ารหัสลับด้วยตนเองเมื่อเขียนข้อความ
     หมายเหตุ: การเข้ารหัสลับจะเปิดใช้งานโดยอัตโนมัติเสมอเมื่อตอบกลับข้อความที่เข้ารหัสลับ
+
+## DoH Section
+
+preferences-doh-header = DNS over HTTPS
+preferences-doh-description = Domain Name System (DNS) over HTTPS จะส่งคำขอชื่อโดเมนของคุณผ่านการเชื่อมต่อที่มีการเข้ารหัส เพื่อเสริมความปลอดภัยให้กับ DNS และทำให้ผู้อื่นดูว่าคุณกำลังจะเข้าถึงเว็บไซต์ใดได้ยากขึ้น
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = สถานะ: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = ผู้ให้บริการ: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = URL ไม่ถูกต้อง
+preferences-doh-steering-status = ใช้ผู้ให้บริการเฉพาะที่
+preferences-doh-status-active = ใช้งานอยู่
+preferences-doh-status-disabled = ปิด
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = ไม่ทำงาน ({ $reason })
+preferences-doh-group-message = เปิดใช้งาน DNS over HTTPS โดยใช้:
+preferences-doh-expand-section =
+    .tooltiptext = ข้อมูลเพิ่มเติม
+preferences-doh-setting-default =
+    .label = การปกป้องแบบเริ่มต้น
+    .accesskey = เ
+preferences-doh-default-desc = { -brand-short-name } จะตัดสินใจว่าควรใช้ secure DNS เมื่อใดเพื่อที่จะปกป้องความเป็นส่วนตัวของคุณ
+preferences-doh-default-detailed-desc-1 = ใช้ secure DNS ในภูมิภาคที่สามารถใช้ได้
+preferences-doh-default-detailed-desc-2 = ใช้ DNS resolver เริ่มต้นของคุณถ้ามีปัญหากับผู้ให้บริการ secure DNS
+preferences-doh-default-detailed-desc-3 = ใช้ผู้ให้บริการเฉพาะที่ถ้าเป็นไปได้
+preferences-doh-default-detailed-desc-4 = ปิดใช้เมื่อ VPN, การควบคุมโดยผู้ปกครอง, หรือนโยบายองค์กรทำงาน
+preferences-doh-default-detailed-desc-5 = ปิดใช้เมื่อเครือข่ายบอกกับ { -brand-short-name } ว่าไม่ควรใช้ secure DNS
+preferences-doh-setting-enabled =
+    .label = การปกป้องแบบเพิ่มเติม
+    .accesskey = พ
+preferences-doh-enabled-desc = ให้คุณควบคุมว่าควรใช้ secure DNS เมื่อใดและเลือกผู้ให้บริการของคุณเองได้
+preferences-doh-enabled-detailed-desc-1 = ใช้ผู้ให้บริการที่คุณเลือก
+preferences-doh-enabled-detailed-desc-2 = ใช้ DNS resolver เริ่มต้นของคุณเฉพาะเมื่อมีปัญหากับ secure DNS เท่านั้น
+preferences-doh-setting-strict =
+    .label = การปกป้องแบบสูงสุด
+    .accesskey = ส
+preferences-doh-strict-desc = { -brand-short-name } จะใช้ secure DNS เสมอ คุณจะเห็นคำเตือนเกี่ยวกับความเสี่ยงด้านความปลอดภัยก่อนที่เราจะใช้ DNS ของระบบของคุณ
+preferences-doh-strict-detailed-desc-1 = ใช้เฉพาะผู้ให้บริการที่คุณเลือกเท่านั้น
+preferences-doh-strict-detailed-desc-2 = เตือนเสมอเมื่อ secure DNS ใช้ไม่ได้
+preferences-doh-strict-detailed-desc-3 = ถ้า secure DNS ใช้ไม่ได้ ไซต์ต่างๆ จะไม่โหลดหรือทำงานถูกต้อง
+preferences-doh-setting-off =
+    .label = ปิด
+    .accesskey = ป
+preferences-doh-off-desc = ใช้ DNS resolver เริ่มต้นของคุณ
+preferences-doh-checkbox-warn =
+    .label = เตือนถ้ามีบุคคลที่สามเข้ามาขัดขวาง secure DNS อย่างต่อเนื่อง
+    .accesskey = ต
+preferences-doh-select-resolver = เลือกผู้ให้บริการ:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (ค่าเริ่มต้น)
+preferences-doh-url-custom =
+    .label = กำหนดเอง
+    .accesskey = ก
+
+## Keyservers
+
+email-e2ee-key-servers-add = เพิ่ม…
 
 ## Chat Tab
 

@@ -125,6 +125,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = มุมมองแบบกะทัดรัด
     .accesskey = ก
 
+## Folder names
+
+folder-name-spam = สแปม
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -227,6 +231,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = เก็บถาวร
     .tooltiptext = เก็บถาวร
+context-menu-mark-spam =
+    .aria-label = ทำเครื่องหมายว่าเป็นสแปม
+    .tooltiptext = ทำเครื่องหมายว่าเป็นสแปม
+context-menu-mark-not-spam =
+    .aria-label = ทำเครื่องหมายว่าไม่เป็นสแปม
+    .tooltiptext = ทำเครื่องหมายว่าไม่เป็นสแปม
 context-menu-mark-junk =
     .aria-label = ทำเครื่องหมายว่าเป็นขยะ
     .tooltiptext = ทำเครื่องหมายว่าเป็นขยะ
@@ -290,6 +300,10 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = เปลี่ยนเส้นทาง
+other-action-copy-message-link =
+    .label = คัดลอกลิงก์ข้อความ
+other-action-copy-news-link =
+    .label = คัดลอกลิงก์ข่าว
 message-header-msg-flagged =
     .title = ติดดาวแล้ว
     .aria-label = ติดดาวแล้ว
@@ -484,12 +498,51 @@ openpgp-forget = ลืมวลีรหัสผ่าน OpenPGP
 quota-panel-percent-used = เต็ม { $percent }%
     .title = โควตา IMAP: ใช้ไป { $usage } จากทั้งหมด { $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = สถานะสแปม
+    .accesskey = ส
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = เป็นสแปม
+    .accesskey = ส
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = ไม่เป็นสแปม
+    .accesskey = ม
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = เรียกใช้การควบคุมสแปม
+    .accesskey = ต
+menu-run-spam-on-folder =
+    .label = เรียกใช้การควบคุมสแปมกับโฟลเดอร์
+    .accesskey = ค
+menu-delete-spam =
+    .label = ลบจดหมายที่ถูกทำเครื่องหมายว่าเป็นสแปมในโฟลเดอร์
+    .accesskey = ล
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = ล้างสแปม
+    .accesskey = า
+
+## Thread pane.
+
+column-status-spam =
+    .label = สถานะสแปม
+    .tooltiptext = เรียงตามสถานะสแปม
+
+## Message header.
+
+header-spam-button =
+    .label = สแปม
+    .tooltiptext = ทำเครื่องหมายข้อความนี้ว่าเป็นสแปม
 
 ## Actions for the New Mail Notification
 
@@ -501,6 +554,12 @@ archive-action = เก็บถาวร
 
 ## Message list.
 
+menuitem-label-spam-score-origin =
+    .label = ที่มาคะแนนสแปม
+menuitem-label-spam-percentage =
+    .label = เปอร์เซ็นต์สแปม
+menuitem-label-spam-status =
+    .label = สถานะสแปม
 message-priority-lowest = ต่ำสุด
 message-priority-low = ต่ำ
 # Normal priority is often blank, depending on the consumers of these strings.
@@ -531,3 +590,20 @@ message-group-starred = ติดดาวแล้ว
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = ฯลฯ
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = ล้าง { $folder } หรือไม่?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = ลบข้อความและโฟลเดอร์ย่อยทั้งหมดในโฟลเดอร์ { $folder } หรือไม่?
+prompt-dont-ask-again = ไม่ต้องถามอีก
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = การวิเคราะห์สแปมเสร็จสมบูรณ์ { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
+spam-processing-message = กำลังประมวลผลข้อความสแปม
