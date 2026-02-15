@@ -68,3 +68,8 @@ filter-log-message = Mensaje del filtro "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Debe seleccionar una carpeta de destino.
 filter-editor-enter-valid-email-forward = Introducir una dirección de correo válida a la que reenviar.
 filter-editor-pick-template-reply = Elegir una plantilla para responder.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Error al aplicar el filtro { $filterName }. ¿Quiere continuar aplicando los filtros?
+filter-list-backup-message = Sus filtros no funcionan porque el archivo msgFilterRules.dat, que contiene sus filtros, no se puede leer. Se creará un nuevo archivo msgFilterRules.dat y se hará una copia del antiguo en el mismo directorio, llamado rulesbackup.dat.
+filter-invalid-custom-header = Uno de sus filtros utiliza  una cabecera personalizada que contiene un carácter no válido, como ':', un carácter no imprimible, un carácter no ASCII o un carácter ASCII de 8 bits. Edite el archivo msgFilterRules.dat, que contiene sus filtros, para eliminar los caracteres no válidos de sus cabeceras personalizadas.
