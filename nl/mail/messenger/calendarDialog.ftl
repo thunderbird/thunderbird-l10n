@@ -39,3 +39,9 @@ calendar-dialog-reminder-count =
         [one] { $count } herinnering
        *[other] { $count } herinneringen
     }
+calendar-dialog-accept = Aanwezig
+    .title = Aanwezig
+calendar-dialog-accept-tentative = Misschien
+    .title = Misschien
+calendar-dialog-decline = Niet aanwezig
+    .title = Niet aanwezig
