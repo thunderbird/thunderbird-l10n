@@ -68,3 +68,8 @@ filter-log-message = Melding van filter ‘{ $filterName }’: { $message }
 filter-editor-must-select-target-folder = U moet een doelmap selecteren.
 filter-editor-enter-valid-email-forward = Voer een geldig e-mailadres in om naar door te sturen.
 filter-editor-pick-template-reply = Kies een sjabloon om mee te antwoorden.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Het toepassen van filter { $filterName } is mislukt. Wilt u doorgaan met het toepassen van filters?
+filter-list-backup-message = Uw filters werken niet omdat het bestand msgFilterRules.dat, dat uw filters bevat, niet kon worden gelezen. Er zal een nieuw msgFilterRules.dat-bestand worden gemaakt en een reservekopie van het oude bestand, genaamd rulesbackup.dat, zal worden gemaakt in dezelfde map.
+filter-invalid-custom-header = Een van uw filters gebruikt een aangepaste kopregel die een ongeldig teken bevat, zoals ‘:’, een niet-afdrukbaar teken, een niet-ASCII-teken, of een 8-bits ASCII-teken. Bewerk het bestand msgFilterRules.dat, dat uw filters bevat, om ongeldige tekens uit uw aangepaste kopregels te verwijderen.
