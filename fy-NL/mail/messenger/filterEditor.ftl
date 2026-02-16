@@ -68,3 +68,8 @@ filter-log-message = Berjocht fan filter ‘{ $filterName }’: { $message }
 filter-editor-must-select-target-folder = Jo moatte in doelmap selektearje.
 filter-editor-enter-valid-email-forward = Jou in jildich e-mailadres yn om nei troch te stjoeren.
 filter-editor-pick-template-reply = Kies een sjabloan om mei te antwurdzjen.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = It tapassen fan filter { $filterName } is mislearre. Wolle jo trochgean mei it tapassen fan filters?
+filter-list-backup-message = Jo filters wurkje net om't it bestân msgFilterRules.dat, dêr’t jo filters yn steane, net lêzen wurde koe. Der sil in nije msgFilterRules.dat-bestân makke wurde en in reservekopy fan it âlde bestân, mei de namme rulesbackup.dat, wurdt yn deselde map makke.
+filter-invalid-custom-header = Ien fan jo filters brûkt in oanpaste koprigel dy’t in ûnjildich teken befettet, lykas ‘:’, in net ôf te drukken teken, in net-ascii-teken, of in 8-bits ascii-teken. Bewurkje it bestân msgFilterRules.dat, dêr’t jo filters yn steane, om ûnjildige tekens út jo oanpaste koprigels fuort te smiten.

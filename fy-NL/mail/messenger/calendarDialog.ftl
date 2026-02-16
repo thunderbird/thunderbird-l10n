@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Lokaasje
 calendar-dialog-description-row-icon =
     .alt = Beskriuwing
+calendar-dialog-reminders-row-icon =
+    .alt = Omtinkens
 calendar-dialog-description-label = Beskriuwing
 calendar-dialog-description-expand-icon =
     .alt = Folsleine beskriuwing toane
@@ -28,3 +30,18 @@ calendar-dialog-more-categories =
        *[other] + noch { $additionalCategories }
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Omtinken fuortsmite
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } omtinken
+       *[other] { $count } omtinkens
+    }
+calendar-dialog-accept = Oanwêzich
+    .title = Oanwêzich
+calendar-dialog-accept-tentative = Miskien
+    .title = Miskien
+calendar-dialog-decline = Net oanwêzich
+    .title = Net oanwêzich

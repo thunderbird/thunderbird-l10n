@@ -406,6 +406,12 @@ key-does-not-expire = De kaai ferrint net
 key-expired-date = De kaai is ferrûn op { $keyExpiry }
 key-expired-simple = De kaai is ferrûn
 key-revoked-simple = De kaai is ynlutsen
+key-revoked-revocation-code-superseded = De kaai is ynlutsen, omdat de kaai ferfongen is.
+key-revoked-revocation-code-compromised = De kaai is ynlutsen, omdat der ynbrek makke is op it kaaimateriaal.
+key-revoked-revocation-code-retired = De kaai is ynlutsen omdat de kaai net mear aktyf is en net mear brûkt wurdt.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Reden foar ynlûking lykas oanjûn troch kaai-eigner: { $reason }
 key-do-you-accept = Akseptearje jo dizze kaai foar it ferifiearjen fan digitale hantekeningen en foar it fersiferjen fan berjochten?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
