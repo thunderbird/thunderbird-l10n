@@ -406,6 +406,12 @@ key-does-not-expire = Το κλειδί δεν λήγει
 key-expired-date = Το κλειδί έληξε στις { $keyExpiry }
 key-expired-simple = Το κλειδί έχει λήξει
 key-revoked-simple = Το κλειδί ανακλήθηκε
+key-revoked-revocation-code-superseded = Το κλειδί ανακλήθηκε επειδή έχει αντικατασταθεί.
+key-revoked-revocation-code-compromised = Το κλειδί ανακλήθηκε επειδή το υλικό του έχει παραβιαστεί.
+key-revoked-revocation-code-retired = Το κλειδί ανακλήθηκε επειδή έχει αποσυρθεί και δεν χρησιμοποιείται πλέον.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Λόγος ανάκλησης από τον κάτοχο του κλειδιού: { $reason }
 key-do-you-accept = Αποδέχεστε αυτό το κλειδί για την επαλήθευση ψηφιακών υπογραφών και για την κρυπτογράφηση μηνυμάτων;
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
