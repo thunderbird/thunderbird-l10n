@@ -68,3 +68,8 @@ filter-log-message = Thông báo từ bộ lọc "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Bạn phải chọn một thư mục đích.
 filter-editor-enter-valid-email-forward = Nhập một địa chỉ e-mail hợp lệ để chuyển tiếp tới.
 filter-editor-pick-template-reply = Chọn một thư mẫu để trả lời.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Thất bại khi áp dụng bộ lọc { $filterName }. Bạn có muốn tiếp tục áp dụng bộ lọc?
+filter-list-backup-message = Bộ lọc của bạn không hoạt động vì tập tin msgFilterRules.dat, nơi chứa bộ lọc của bạn, không thể đọc được. Một tập tin msgFilterRules.dat mới sẽ được tạo và một bản sao lưu của tập tin cũ, có tên rulesbackup.dat, sẽ được tạo trong cùng thư mục.
+filter-invalid-custom-header = Một trong số các bộ lọc của bạn dùng một header tùy chỉnh có chứa một ký tự không hợp lệ, có thể là ‘:’, một ký tự không-in-được, một ký tự không-phải-ascii, hoặc một ký tự ascii 8 bit. Vui lòng chỉnh sửa tập tin msgFilterRules.dat, nơi chứa bộ lọc của bạn, để xóa ký tự không hợp lệ ra khỏi header tuỳ chỉnh.

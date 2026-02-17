@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Địa chỉ
 calendar-dialog-description-row-icon =
     .alt = Mô tả
+calendar-dialog-reminders-row-icon =
+    .alt = Lời nhắc
 calendar-dialog-description-label = Mô tả
 calendar-dialog-description-expand-icon =
     .alt = Hiển thị đầy đủ mô tả
@@ -24,3 +26,14 @@ calendar-dialog-description-expand-icon =
 #   $categories (String): List of all categories.
 calendar-dialog-more-categories = +{ $additionalCategories } mục khác
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Xoá lời nhắc
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count = { $count } lời nhắc
+calendar-dialog-accept = Sẽ đi
+    .title = Sẽ đi
+calendar-dialog-accept-tentative = Phân vân
+    .title = Phân vân
+calendar-dialog-decline = Không đi
+    .title = Không đi
