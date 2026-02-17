@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 not-found-alert-title = Εύρεση
+not-found-alert-message = Το κείμενο που πληκτρολογήσατε δεν βρέθηκε.

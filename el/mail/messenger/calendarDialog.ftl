@@ -38,3 +38,9 @@ calendar-dialog-reminder-count =
         [one] { $count } υπενθύμιση
        *[other] { $count } υπενθυμίσεις
     }
+calendar-dialog-accept = Θα παρευρεθώ
+    .title = Θα παρευρεθώ
+calendar-dialog-accept-tentative = Ίσως
+    .title = Ίσως
+calendar-dialog-decline = Δεν θα παρευρεθώ
+    .title = Δεν θα παρευρεθώ
