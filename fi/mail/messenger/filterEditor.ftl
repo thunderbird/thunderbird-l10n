@@ -7,6 +7,11 @@ rule-menuitem-spam =
 rule-menuitem-not-spam =
     .label = Ei roskapostia
 # Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = Havaittu roskapostia käyttäjältä { $author } - { $subject }, ajankohta { $date }
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Suodatintoiminto epäonnistui: "{ $errorMsg }" virhekoodilla={ $errorCode } yritettäessä:
@@ -57,3 +62,7 @@ filter-log-message = Sanoma suodattimelta "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Valitse kohdekansio.
 filter-editor-enter-valid-email-forward = Kirjoita sähköpostiosoite, johon viesti välitetään.
 filter-editor-pick-template-reply = Valitse vastauksen mallipohja.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Suodattimen { $filterName } käyttöönotto epäonnistui. Jatketaanko suodattimien käyttöönottoa?
+filter-list-backup-message = Suodattimesi eivät toimi, koska msgFilterRules.dat-tiedostoa, joka sisältää suodattimesi, ei voi lukea. Uusi msgFilterRules.dat-tiedosto luodaan, ja kopio vanhasta tiedostosta, nimeltä rulesbackup.dat, luodaan samaan hakemistoon.

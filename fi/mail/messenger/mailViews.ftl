@@ -5,4 +5,5 @@
 mail-view-known-people = Tutut ihmiset
 mail-view-recent = Tuoreet viestit
 mail-view-last-five-days = Viimeiset 5 pv
+mail-view-not-spam = Ei roskapostia
 mail-view-has-attachments = Sis. liitteitä

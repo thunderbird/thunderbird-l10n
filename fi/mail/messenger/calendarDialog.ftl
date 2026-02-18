@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Sijainti
 calendar-dialog-description-row-icon =
     .alt = Kuvaus
+calendar-dialog-reminders-row-icon =
+    .alt = Muistutukset
 calendar-dialog-description-label = Kuvaus
 calendar-dialog-description-expand-icon =
     .alt = Näytä koko kuvaus
@@ -27,3 +29,18 @@ calendar-dialog-more-categories =
        *[other] +{ $additionalCategories } more
     }
     .title = +{ $additionalCategories } lisää
+calendar-dialog-delete-reminder-button =
+    .alt = Poista muistutus
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } muistutus
+       *[other] { $count } muistutusta
+    }
+calendar-dialog-accept = Osallistun
+    .title = Osallistun
+calendar-dialog-accept-tentative = Ehkä
+    .title = Ehkä
+calendar-dialog-decline = En osallistu
+    .title = En osallistu

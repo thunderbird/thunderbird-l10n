@@ -129,6 +129,12 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Tiivis näkymä
     .accesskey = T
 
+## Folder names
+
+folder-name-spam = Roskaposti
+# Gmail's "All Mail" folder. Please make sure this is the same string used in the Gmail web UI for your language.
+folder-name-all-mail = Kaikki viestit
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -484,6 +490,7 @@ mark-not-junk-key =
 
 mark-as-read-action = Merkitse luetuksi
 delete-action = Poista
+mark-as-spam-action = Merkitse roskapostiksi
 
 ## Message list.
 
@@ -517,3 +524,20 @@ message-group-starred = Tähti
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = jne.
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Tyhjennetäänkö { $folder }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Poistetaanko kaikki viestit ja alikansiot kansiosta { $folder }?
+prompt-dont-ask-again = Älä kysy uudestaan.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Roskapostianalyysi { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } valmis
+spam-processing-message = Käsitellään roskapostiviestejä
