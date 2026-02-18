@@ -134,6 +134,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = Kaikki
     .title = Kaikki valitut tunnukset täytyy löytyä
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = Vain ilman tunnistetta olevat
+    .title = Vain ilman tunnisteita olevat viestit
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text

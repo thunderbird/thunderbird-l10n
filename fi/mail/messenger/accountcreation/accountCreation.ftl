@@ -19,6 +19,7 @@ boolean-error = Ei boolean
 no-number-error = Ei numero
 number-too-large-error = Numero on liian suuri
 number-too-small-error = Numero on liian pieni
+emailaddress-syntax-error = Ei kelvollinen sähköpostiosoite
 
 ## FetchHTTP.sys.mjs
 

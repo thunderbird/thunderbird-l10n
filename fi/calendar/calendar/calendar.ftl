@@ -848,6 +848,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Tehtäväksi…
     .accesskey = T
+calendar-task-filter-title2 = Suodata tehtäviä
 calendar-task-filter-title = Näytä
 calendar-task-filter-all =
     .label = Kaikki
