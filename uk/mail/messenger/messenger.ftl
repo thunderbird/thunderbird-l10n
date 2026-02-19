@@ -81,6 +81,24 @@ content-tab-menu-stop-mac =
     .tooltiptext = Зупинити завантаження сторінки
     .label = Зупинити
     .accesskey = З
+open-windows-warning-confirmation-title = Підтвердити
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Відкриття { $count } повідомлення може бути повільним. Продовжити?
+        [few] Відкриття { $count } повідомлень може бути повільним. Продовжити?
+       *[many] Відкриття { $count } повідомлень може бути повільним. Продовжити?
+    }
+open-tabs-warning-confirmation-title = Підтвердити
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Відкриття { $count } повідомлення може бути повільним. Продовжити?
+        [few] Відкриття { $count } повідомлень може бути повільним. Продовжити?
+       *[many] Відкриття { $count } повідомлень може бути повільним. Продовжити?
+    }
 
 ## Toolbar
 
@@ -129,6 +147,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Компактне подання
     .accesskey = К
+
+## Folder names
+
 
 ## File Menu
 
@@ -510,12 +531,24 @@ openpgp-forget = Забути парольні фрази OpenPGP
 quota-panel-percent-used = { $percent }% заповнено
     .title = Квота IMAP: Усього використано { $usage } з { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -555,3 +588,12 @@ message-group-starred = З зіркою
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = та ін.
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
