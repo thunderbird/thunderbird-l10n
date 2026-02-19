@@ -13,3 +13,81 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Врати
     .tooltiptext = Врати
+# Variables:
+#   $count - total number of conversations (threads or solitary messages) selected
+num-conversations =
+    { $count ->
+        [one] { $count } разговор
+        [few] { $count } разговора
+       *[other] { $count } разговора
+    }
+# Variables:
+#   $count - the number of conversations. We use this when we didn't actually
+#       scan the entire list of selected messages, so there may be more
+#       conversations than reported (or maybe not!).
+at-least-num-conversations =
+    { $count ->
+        [one] { $count }+ разговор
+        [few] { $count }+ разговора
+       *[other] { $count }+ разговора
+    }
+# Variables:
+#   $count - number of messages.
+num-messages =
+    { $count ->
+        [one] { $count } порука
+        [few] { $count } поруке
+       *[other] { $count } порука
+    }
+# The number of unread messages in a thread; meant to be appended to "num-messages".
+# Variables:
+#   $count - the number of unread messages.
+num-unread =
+    { $count ->
+        [one] , { $count } непрочитана
+        [few] , { $count } непрочитане
+       *[other] , { $count } непрочитаних
+    }
+# The number of ignored messages in a thread; meant to be appended to
+# "num-messages".
+# Variables:
+#   $count - the number of ignored messages.
+num-ignored =
+    { $count ->
+        [one] , { $count } занемарена
+        [few] , { $count } занемарене
+       *[other] , { $count } занемарених
+    }
+# The number of ignored messages in a thread; meant to be appended to "num-messages".
+# Variables:
+#   $count - is the number of ignored messages. We use this when we
+#       didn't actually scan the entire list of selected messages, so there may
+#       be more ignored messages than reported (or maybe not!).
+at-least-num-ignored =
+    { $count ->
+        [one] , { $count }+ занемарена
+        [few] , { $count }+ занемарене
+       *[other] , { $count }+ занемарених
+    }
+# What to display for a message if it has no subject.
+no-subject = (без теме)
+# A message indicating the total size on disk of the selected messages.
+# Variables:
+#   $numBytes - the size, e.g. "123 KB".
+messages-total-size = Ове поруке заузимају око { $numBytes }.
+# A message indicating the total size on disk of the selected messages. We use
+# this when we didn't actually scan the entire list of selected messages, so
+# this is a *minimum* size.
+# Variables:
+#   $numBytes - the size, e.g. "123 KB".
+messages-total-size-more-than = Ове поруке заузимају више од { $numBytes }.
+# A message to let the user know that not all of the selected messages were summarized.
+# Variables:
+#   $total - the total number of messages selected
+#   $shown - is the number of messages actually shown
+max-count-exceeded = (Напомена: { $total } порука је одабрано, првих { $shown } порука је приказано)
+# A message to let the user know that all of the selected threads were summarized.
+# Variables:
+#   $total - is the total number of threads selected
+#   $shown - the number of threads actually shown
+max-thread-count-exceeded = (Напомена: { $total } нити је изабрано, приказано првих { $shown })
