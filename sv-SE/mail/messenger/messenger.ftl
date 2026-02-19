@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Stoppa sidladdning
     .label = Stoppa
     .accesskey = S
+open-windows-warning-confirmation-title = Bekräfta
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Öppna { $count } meddelande kan gå långsamt. Fortsätt?
+       *[other] Öppning av { $count } meddelanden kan gå långsamt. Fortsätt?
+    }
 open-tabs-warning-confirmation-title = Bekräfta
 # Variables:
 #   $count - number of messages to open
