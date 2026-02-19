@@ -4,6 +4,25 @@
 
 recurrence-rule-too-complex = Repetera detaljer okänd
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] varje dag
+       *[other] var { $interval } dag
+    }
+recurrence-every-weekday = varje vardag
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] varje { $weekdays }
+       *[other] var { $interval } vecka på { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] varje vecka
+       *[other] var { $interval } vecka
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] varje dag var månad
@@ -22,6 +41,12 @@ recurrence-monthly-every-of-every =
     { $interval ->
         [one] varje { $weekdays } i varje månad
        *[other] varje { $weekdays } var { $interval } månad
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [one] { $weekdays } i varje månad
+       *[other] { $weekdays } i var { $interval } månad
     }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
