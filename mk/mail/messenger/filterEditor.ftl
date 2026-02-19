@@ -31,3 +31,8 @@ filter-action-log-pop3-fetch = телото е симнато од POP3 серв
 filter-editor-must-select-target-folder = Мора да изберете целна папка.
 filter-editor-enter-valid-email-forward = Внесете важечка адреса за е-пошта до која ќе се препраќа.
 filter-editor-pick-template-reply = Изберете шаблон со која ќе одговорите.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Примената на филтерот { $filterName } не успеа. Сакате да продолжите да применувате филтри?
+filter-list-backup-message = Вашите филтри не работат бидејќи msgFilterRules.dat датотеката, која ги содржи Вашите филтри не може да се прочита. Ќе биде креирана нова msgFilterRules.dat датотека. Резерва на старата датотека, со име rulesbackup.dat, ќе биде креирана во истиот директориум.
+filter-invalid-custom-header = Некој од Вашите филтри користи сопствено заглавје кое содржи неважечки знак, како ‘:’, знак кој не се печати, не-ascii знак, или осум-битен ascii знак. Изменете ја датотеката msgFilterRules.dat, која ги содржи Вашите филтри, за да ги отстраните неважечките знаци.
