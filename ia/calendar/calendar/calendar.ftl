@@ -10,6 +10,14 @@ new-event-dialog = Nove evento
 edit-event-dialog = Rediger evento
 new-task-dialog = Nove activitate
 edit-task-dialog = Rediger activitate
+# Remove attachments prompt.
+prompt-remove-attachments-title = Remover annexos
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Desira tu vermente remover { $count } annexo?
+       *[other] Desira tu vermente remover { $count } annexos?
+    }
 # Do you want to save changes?
 ask-save-title-event = Salvar evento
 ask-save-title-task = Salvar activitate
