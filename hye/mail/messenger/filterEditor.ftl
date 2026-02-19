@@ -61,3 +61,8 @@ filter-log-message = Հաղորդագրութիւն «{ $filterName }» զտիչ
 filter-editor-must-select-target-folder = Հարկաւոր է ընտրել թիրախային պանակ։
 filter-editor-enter-valid-email-forward = Մուտքագրէք հասանելի հասցէ փոխանցման համար։
 filter-editor-pick-template-reply = Պատասխանելու համար ընտրէք նմուշ։
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = { $filterName } զտիչի կիրառումը ձախողուեց: Ցանկանու՞մ էք շարունակել զտիչների կիրառումը:
+filter-list-backup-message = Ձեր զտիչները չէն աշխատում, քանի որ msgFilterRules.dat նիշին, որը պարունակում էր Ձեր զտիչները, չյաջողուեց կարդալ։ Կը ստեղծուի մի նոր msgFilterRules.dat նիշ եւ հին նիշի կրկնաւրինակը, որը կոչուում է rulesbackup.dat, կը ստեղծուի նոյն գրացուցակում։
+filter-invalid-custom-header = Ձեր զտիչներից մեկն օգտագործում է յատուկ գլխագիր, որը պարունակում է անվաւեր նիշ, աւրինակ՝ «:», չտպուող նիշ, ոչ ascii նիշ կամ ութ բիթանոց ascii նիշ: Խնդրում ենք խմբագրել msgFilterRules.dat ֆայղը, որը պարունակում է Ձեր զտիչները՝ յատուկ գլխագրերից անվաւեր նիշերը հեռացնելու համար:
