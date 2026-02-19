@@ -4,6 +4,28 @@
 
 recurrence-rule-too-complex = Manylion ailadrodd yn anhysbys
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [zero] pob diwrnod
+        [one] pob { $interval } diwrnod
+       *[other] pob { $interval } diwrnod
+    }
+recurrence-every-weekday = pob diwrnod o'r wythnos
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [zero] pob { $weekdays }
+        [one] pob { $interval } wythnos ar { $weekdays }
+       *[other] pob { $interval } wythnos ar { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [zero] pob wythnos
+        [one] pob { $interval } wythnos
+       *[other] pob { $interval } wythnos
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [zero] pob diwrnod o bob mis
@@ -16,6 +38,22 @@ recurrence-repeat-ordinal-3 = y trydydd
 recurrence-repeat-ordinal-4 = y pedwerydd
 recurrence-repeat-ordinal-5 = y pumed
 recurrence-repeat-ordinal--1 = yr olaf
+#  $ordinal - ordinal with article
+recurrence-ordinal-weekday = { $ordinal } { $weekday }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-every-of-every =
+    { $interval ->
+        [zero] bob { $weekdays } o bob mis
+        [one] bob { $weekdays } o bob { $interval } mis
+       *[other] bob { $weekdays } o bob { $interval } mis
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [zero] { $weekdays } o bob mis
+        [one] { $weekdays } o bob { $interval } mis
+       *[other] { $weekdays } o bob { $interval } mis
+    }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
     { $interval ->
