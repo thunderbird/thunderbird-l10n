@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Oldalbetöltés leállítása
     .label = Leállítás
     .accesskey = L
+open-tabs-warning-confirmation-title = Megerősítés
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] { $count } üzenet megnyitása lassú lehet. Folytatja?
+       *[other] { $count } üzenet megnyitása lassú lehet. Folytatja?
+    }
 
 ## Toolbar
 
@@ -640,3 +648,6 @@ prompt-dont-ask-again = Ne kérdezze meg újra.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Levélszemét-ellenőrzés { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }-ban kész
 spam-processing-message = Levélszemetek feldolgozása
+
+## Ignore threads
+
