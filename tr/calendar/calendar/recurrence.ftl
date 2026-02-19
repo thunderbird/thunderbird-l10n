@@ -23,6 +23,7 @@ recurrence-monthly-every-of-every =
         [one] her ayın { $weekdays } günü
        *[other] { $interval } ayda bir her { $weekdays } günü
     }
+recurrence-monthly-last-day = son gün
 
 # Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
 
