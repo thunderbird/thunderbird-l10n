@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+recurrence-rule-too-complex = Herhalingsdetails onbekend
 #  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
@@ -26,15 +27,42 @@ recurrence-repeat-ordinal-3 = de derde
 recurrence-repeat-ordinal-4 = de vierde
 recurrence-repeat-ordinal-5 = de vijfde
 recurrence-repeat-ordinal--1 = de laatste
+#  $ordinal - ordinal with article
+recurrence-ordinal-weekday = { $ordinal } { $weekday }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-every-of-every =
+    { $interval ->
+        [one] elke { $weekdays } van elke maand
+       *[other] om de { $interval } maanden op elke { $weekdays }
+    }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-nth-of-every =
     { $interval ->
         [one] { $weekdays } van elke maand
        *[other] om de { $interval } maanden op { $weekdays }
     }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-last-day-of-nth =
+    { $interval ->
+        [one] de laatste dag van de maand
+       *[other] om de { $interval } maanden op de laatste dag
+    }
+recurrence-monthly-last-day = de laatste dag
+#  $days - day of month or a sequence of days of month, possibly followed by an ordinal symbol
+recurrence-monthly-days-of-nth-day =
+    { $count ->
+        [one] dag { $days }
+       *[other] dagen { $days }
+    }
 
 # Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
 
+#  $interval is a number, the recurrence interval
+recurrence-monthly-days-of-nth =
+    { $interval ->
+        [one] { $monthlyDays } van elke maand
+       *[other] om de { $interval } maanden op { $monthlyDays }
+    }
 #  $interval is a number, the recurrence interval
 recurrence-yearly-nth-on =
     { $interval ->
@@ -76,6 +104,21 @@ recurrence-repeat-count-all-day =
 # Variables:
 #   $ruleString - A rule as text
 #   $startDate - event start date (e.g. mm/gg/yyyy)
+#   $untilDate - event occurrence times: number
+# e.g. "Occurs day 3 of every 5 month effective 1/1/2009 until 1/1/2010"
+recurrence-details-until-all-day =
+    Vindt { $ruleString } plaats
+    van { $startDate } tot { $untilDate }.
+# LOCALIZATION NOTE (recurrence-details-infinite-all-day):
+# $ruleString - A rule as text
+# $startDate - event start date (e.g. mm/gg/yyyy)
+# e.g. "Occurs day 3 of every 5 month effective 1/1/2009"
+recurrence-details-infinite-all-day =
+    Vindt { $ruleString } plaats
+    vanaf { $startDate }.
+# Variables:
+#   $ruleString - A rule as text
+#   $startDate - event start date (e.g. mm/gg/yyyy)
 #   $startTime - event start time (e.g. hh:mm (PM/AM))
 #   $endTime - event end time (e.g. hh:mm (PM/AM))
 #   $count - event occurrence times: number
@@ -105,4 +148,16 @@ recurrence-repeat-count =
 recurrence-repeat-details-until =
     Vindt { $ruleString } plaats
     van { $startDate } tot { $untilDate }
+    van { $startTime } tot { $endTime }.
+# Variables:
+#   $ruleString - A rule as text
+#   $startDate - event start date (e.g. mm/gg/yyyy)
+#   $startTime - event start time (e.g. hh:mm (PM/AM))
+#   $endTime - event end time (e.g. hh:mm (PM/AM))
+# E.g. "Occurs day 3 of every 5 month
+#  effective 1/1/2009
+#  from 5:00 PM to 6:00 PM"
+recurrence-repeat-details-infinite =
+    Vindt { $ruleString } plaats
+    vanaf { $startDate }
     van { $startTime } tot { $endTime }.
