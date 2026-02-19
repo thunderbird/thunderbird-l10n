@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Stopp sidelasting
     .label = Stopp
     .accesskey = S
+open-tabs-warning-confirmation-title = Confirm
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Opning av { $count } melding kan vera tregt. Halda fram?
+       *[other] Opning av { $count } meldingar kan vera tregt. Halda fram?
+    }
 
 ## Toolbar
 
@@ -639,3 +647,6 @@ prompt-dont-ask-again = Ikkje spør meg fleire gongar.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Søppelpostanalyse { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } fullført
 spam-processing-message = Behandlar søppelpostmeldingar
+
+## Ignore threads
+
