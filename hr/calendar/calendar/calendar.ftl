@@ -10,6 +10,15 @@ new-event-dialog = Novi događaj
 edit-event-dialog = Uredi događaj
 new-task-dialog = Novi zadatak
 edit-task-dialog = Uredi zadatak
+# Remove attachments prompt.
+prompt-remove-attachments-title = Ukloni privitke
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Stvarno ukloniti { $count } privitak?
+        [few] Stvarno ukloniti { $count } privitka?
+       *[other] Stvarno ukloniti { $count } privitaka?
+    }
 # Do you want to save changes?
 ask-save-title-event = Spremi događaj
 ask-save-title-task = Spremi zadatak
