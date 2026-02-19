@@ -10,6 +10,32 @@ pop3-event-status-text =
        *[other] { $count } mensagens transferidas
     }
 # Variables:
+#   $count - number of messages
+#   $folderName - folder name
+deleted-messages-from-folder =
+    { $count ->
+        [one] { $count } mensagem apagada de { $folderName }
+       *[other] { $count } mensagens apagadas de { $folderName }
+    }
+# Variables:
+#   $count - number of messages
+#   $source - source folder name
+#   $destination - destination folder name
+moved-messages-from-folder =
+    { $count ->
+        [one] { $count } mensagem movida de { $source } para { $destination }
+       *[other] { $count } mensagens movidas de { $source } para { $destination }
+    }
+# Variables:
+#   $count - number of messages
+#   $source - source folder name
+#   $destination - destination folder name
+copied-messages-from-folder =
+    { $count ->
+        [one] { $count } mensagem copiada de { $source } para { $destination }
+       *[other] { $count } mensagens copiadas de { $source } para { $destination }
+    }
+# Variables:
 #   $count - the total number of messages being indexed
 #   $msgNumber - the number of the message currently being indexed
 #   $percentComplete - percentage of indexing that is complete
