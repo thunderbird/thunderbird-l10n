@@ -39,3 +39,8 @@ filter-action-log-unread = označeno kao nepročitano
 filter-editor-must-select-target-folder = Morate izabrati ciljni direktorij.
 filter-editor-enter-valid-email-forward = Unesite ispravnu email adresu na koju želite proslijediti.
 filter-editor-pick-template-reply = Odaberite šablon za odgovaranje.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Primjena filtera { $filterName } nije uspjela. Želite li nastaviti primjenjivati filtere?
+filter-list-backup-message = Vaši filteri ne rade jer nije bilo moguće pročitati fajl msgFilterRules.dat koji sadrži vaše filtere. Novi fajl msgFilterRules.dat će biti kreiran i backup starog fajla, nazvan rulesbackup.dat, bit će kreirani u istom direktoriju.
+filter-invalid-custom-header = Jedan od vaših filtera koristi prilagođeno zaglavlje koje koristi nepodržani znak poput ‘:’, znak koji nije moguće ispisati, znak koji nije ascii ili 8-bitni ascii znak. Uredite fajl msgFilterRules.dat, koji sadrži vaše filtere, kako biste uklonili nepodržani znak iz prilagođenog zaglavlja.
