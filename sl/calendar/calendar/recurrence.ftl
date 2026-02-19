@@ -4,6 +4,15 @@
 
 recurrence-rule-too-complex = Podrobnosti ponovitve so neznane
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] vsak dan
+        [two] vsaka { $interval } dni
+        [few] vsake { $interval } dni
+       *[other] vsakih { $interval } dni
+    }
+recurrence-every-weekday = vsak delavnik
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] vsak { $weekdays }
