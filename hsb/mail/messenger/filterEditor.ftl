@@ -10,6 +10,17 @@ run-filter-before-spam =
     .label = Před spamowej klasifikaciju filtrować
 run-filter-after-spam =
     .label = Po spamowej klasifikaciji filtrować
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periodisce, kóždu mjeńšinu
+            [two] Periodisce, kóždej { $minutes } mjeńšinje
+            [few] Periodisce, kóžde { $minutes } mjeńšiny
+           *[other] Periodisce, kóžde { $minutes } mjeńšin
+        }
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Spamowy status stajić na
 # Variables:
