@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Detener carga de página
     .label = Detener
     .accesskey = t
+open-windows-warning-confirmation-title = Confirmar
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Abrir { $count } mensaje puede resultar lento.  ¿Continuar?
+       *[other] Abrir { $count } mensajes puede resultar lento.  ¿Continuar?
+    }
 open-tabs-warning-confirmation-title = Confirmar
 # Variables:
 #   $count - number of messages to open
