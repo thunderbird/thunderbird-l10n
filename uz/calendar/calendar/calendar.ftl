@@ -10,6 +10,14 @@ new-event-dialog = Yangi tadbir
 edit-event-dialog = Tadbirni tahrirlash
 new-task-dialog = Yangi vazifa
 edit-task-dialog = Vazifani tahrirlash
+# Remove attachments prompt.
+prompt-remove-attachments-title = Biriktirlgan fayllarni o‘chirish
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] { $count } ta biriktirmani olib tashlashni xohlaysizmi?
+       *[other] { $count } ta biriktirmani olib tashlashni xohlaysizmi?
+    }
 # Do you want to save changes?
 ask-save-title-event = Tadbirni saqlash
 ask-save-title-task = Vazifani saqlash
