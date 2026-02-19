@@ -10,6 +10,15 @@ new-event-dialog = Eveniment nou
 edit-event-dialog = Editează evenimentul
 new-task-dialog = Sarcină nouă
 edit-task-dialog = Editează sarcina
+# Remove attachments prompt.
+prompt-remove-attachments-title = Elimină atașamentele
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Chiar vrei să elimini { $count } atașament?
+        [few] Chiar vrei să elimini { $count } atașamente?
+       *[other] Chiar vrei să elimini { $count } de atașamente?
+    }
 # Do you want to save changes?
 ask-save-title-event = Salvează evenimentul
 ask-save-title-task = Salvează sarcina
