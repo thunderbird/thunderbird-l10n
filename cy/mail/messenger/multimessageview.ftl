@@ -14,6 +14,17 @@ multi-message-undelete-button =
     .label = Dad-ddileu
     .tooltiptext = Dad-ddileu
 # Variables:
+#   $count - total number of conversations (threads or solitary messages) selected
+num-conversations =
+    { $count ->
+        [zero] Dim trafodaethau
+        [one] { $count } trafodaeth
+        [two] { $count } drafodaeth
+        [few] { $count } trafodaeth
+        [many] { $count } thrafodaeth
+       *[other] { $count } trafodaeth
+    }
+# Variables:
 #   $count - the number of conversations. We use this when we didn't actually
 #       scan the entire list of selected messages, so there may be more
 #       conversations than reported (or maybe not!).
