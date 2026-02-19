@@ -10,6 +10,14 @@ new-event-dialog = Új esemény
 edit-event-dialog = Esemény szerkesztése
 new-task-dialog = Új feladat
 edit-task-dialog = Feladat szerkesztése
+# Remove attachments prompt.
+prompt-remove-attachments-title = Melléklet eltávolítása
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Valóban el szeretne távolítani { $count } mellékletet?
+       *[other] Valóban el szeretne távolítani { $count } mellékletet?
+    }
 # Do you want to save changes?
 ask-save-title-event = Esemény mentése
 ask-save-title-task = Feladat mentése
