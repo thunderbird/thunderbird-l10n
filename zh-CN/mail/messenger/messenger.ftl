@@ -79,6 +79,10 @@ content-tab-menu-stop-mac =
     .tooltiptext = 停止页面加载
     .label = 停止
     .accesskey = S
+open-windows-warning-confirmation-title = 确定
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation = 打开 { $count } 个消息可能很慢。确定继续吗？
 open-tabs-warning-confirmation-title = 确认
 # Variables:
 #   $count - number of messages to open
