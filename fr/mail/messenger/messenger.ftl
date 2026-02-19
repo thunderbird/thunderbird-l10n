@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Arrêter le chargement de la page
     .label = Arrêter
     .accesskey = A
+open-windows-warning-confirmation-title = Ouverture de messages
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] L’ouverture de ce message risque de prendre beaucoup de temps. Continuer ?
+       *[other] L’ouverture de { $count } messages risque de prendre beaucoup de temps. Continuer ?
+    }
 
 ## Toolbar
 
@@ -643,3 +651,6 @@ prompt-dont-ask-again = Ne plus demander à l’avenir.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analyse des messages indésirables { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } terminée
 spam-processing-message = Traitement des messages indésirables
+
+## Ignore threads
+
