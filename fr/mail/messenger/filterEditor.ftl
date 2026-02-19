@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Filtrer avant la vérification des indésirables
 run-filter-after-spam =
     .label = Filtrer après la vérification des indésirables
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Périodiquement, chaque minute
+           *[other] Périodiquement, toutes les { $minutes } minutes
+        }
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Définir le statut indésirable à
 # Variables:
