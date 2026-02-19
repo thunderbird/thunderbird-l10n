@@ -4,6 +4,9 @@
 
 recurrence-rule-too-complex = 반복하는 상세정보를 알 수 없음
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth = 매일
+recurrence-every-weekday = 매주
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on = 매주 { $weekdays }
 #  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth = 매주
