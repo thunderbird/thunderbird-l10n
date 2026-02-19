@@ -80,6 +80,22 @@ content-tab-menu-stop-mac =
     .tooltiptext = Διακοπή φόρτωσης σελίδας
     .label = Διακοπή
     .accesskey = Δ
+open-windows-warning-confirmation-title = Επιβεβαίωση
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Το άνοιγμα { $count } μηνύματος ενδέχεται να καθυστερήσει. Θέλετε να συνεχίσετε;
+       *[other] Το άνοιγμα { $count } μηνυμάτων ενδέχεται να καθυστερήσει. Θέλετε να συνεχίσετε;
+    }
+open-tabs-warning-confirmation-title = Επιβεβαίωση
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Το άνοιγμα { $count } μηνύματος ενδέχεται να καθυστερήσει. Θέλετε να συνεχίσετε;
+       *[other] Το άνοιγμα { $count } μηνυμάτων ενδέχεται να καθυστερήσει. Θέλετε να συνεχίσετε;
+    }
 
 ## Toolbar
 
@@ -639,3 +655,6 @@ prompt-dont-ask-again = Να μην γίνει ξανά ερώτηση.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Η ανάλυση ανεπιθύμητης αλληλογραφίας { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } ολοκληρώθηκε
 spam-processing-message = Επεξεργασία ανεπιθύμητων μηνυμάτων
+
+## Ignore threads
+
