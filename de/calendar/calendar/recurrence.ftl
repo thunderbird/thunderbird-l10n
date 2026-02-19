@@ -27,6 +27,14 @@ recurrence-repeat-ordinal-3 = am dritten
 recurrence-repeat-ordinal-4 = am vierten
 recurrence-repeat-ordinal-5 = am fünften
 recurrence-repeat-ordinal--1 = am letzten
+#  $ordinal - ordinal with article
+recurrence-ordinal-weekday = { $ordinal } { $weekday }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-every-of-every =
+    { $interval ->
+        [one] jeden { $weekdays } jedes Monats
+       *[other] jeden { $weekdays } jedes { $interval }. Monats
+    }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
     { $interval ->
