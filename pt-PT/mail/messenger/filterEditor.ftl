@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Filtrar antes da classificação de lixo eletrónico
 run-filter-after-spam =
     .label = Filtrar depois da classificação de lixo eletrónico
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periodicamente, a cada minuto
+           *[other] Periodicamente, a cada { $minutes } minutos
+        }
+    .accesskey = o
 rule-action-set-spam-status =
     .label = Definir estado de lixo eletrónico para
 # Variables:
