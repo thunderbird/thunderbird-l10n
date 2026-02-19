@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Spam sınıflandırmasından önce süz
 run-filter-after-spam =
     .label = Spam sınıflandırmasından sonra süz
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Düzenli olarak, her dakika
+           *[other] Düzenli olarak, { $minutes } dakikada bir
+        }
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Spam durumunu ayarla
 # Variables:
