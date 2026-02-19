@@ -20,6 +20,18 @@
 
 # Stop
 
+open-windows-warning-confirmation-title = أكِّد
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [zero] فتح رسالة قد يكون بطيئًا. أتريد المواصلة؟
+        [one] فتح رسالة قد يكون بطيئًا. أتريد المواصلة؟
+        [two] فتح رسالتين قد يكون بطيئًا. أتريد المواصلة؟
+        [few] فتح { $count } رسائل قد يكون بطيئًا. أتريد المواصلة؟
+        [many] فتح { $count } رسالة قد يكون بطيئًا. أتريد المواصلة؟
+       *[other] فتح { $count } رسالة قد يكون بطيئًا. أتريد المواصلة؟
+    }
 open-tabs-warning-confirmation-title = أكّد
 # Variables:
 #   $count - number of messages to open
