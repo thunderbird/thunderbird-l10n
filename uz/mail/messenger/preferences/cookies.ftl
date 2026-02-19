@@ -37,3 +37,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Yopish
     .accesskey = Y
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Tanlanganni olib tashlash
+           *[other] Tanlanganni olib tashlash
+        }
