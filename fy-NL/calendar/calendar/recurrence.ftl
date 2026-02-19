@@ -4,6 +4,13 @@
 
 recurrence-rule-too-complex = werheldetails net bekend
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] elke dei
+       *[other] elke { $interval } dagen
+    }
+recurrence-every-weekday = elke wykdei
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] elke { $weekdays }
