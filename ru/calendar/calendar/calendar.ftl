@@ -10,6 +10,8 @@ new-event-dialog = Новое событие
 edit-event-dialog = Изменение события
 new-task-dialog = Новая задача
 edit-task-dialog = Изменение задачи
+# Remove attachments prompt.
+prompt-remove-attachments-title = Удаление вложений
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->
