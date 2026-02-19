@@ -15,12 +15,22 @@ recurrence-repeat-ordinal-3 = thứ ba
 recurrence-repeat-ordinal-4 = thứ tư
 recurrence-repeat-ordinal-5 = thứ năm
 recurrence-repeat-ordinal--1 = cuối cùng
+#  $ordinal - ordinal with article
+recurrence-ordinal-weekday = { $weekday } { $ordinal }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-every-of-every = mỗi { $weekdays } của mỗi tháng
 #  $interval is a number, the recurrence interval
 recurrence-monthly-nth-of-every = { $weekdays } của mỗi tháng
+#  $interval is a number, the recurrence interval
+recurrence-monthly-last-day-of-nth = ngày cuối của mỗi tháng
 recurrence-monthly-last-day = ngày cuối cùng
+#  $days - day of month or a sequence of days of month, possibly followed by an ordinal symbol
+recurrence-monthly-days-of-nth-day = ngày { $days }
 
 # Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
 
+#  $interval is a number, the recurrence interval
+recurrence-monthly-days-of-nth = { $monthlyDays } của mỗi tháng
 #  $interval is a number, the recurrence interval
 recurrence-yearly-nth-on = mỗi { $monthDay } { $month }
 #  $interval is a number, the recurrence interval
