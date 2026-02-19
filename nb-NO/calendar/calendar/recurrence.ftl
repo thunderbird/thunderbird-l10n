@@ -4,6 +4,18 @@
 
 recurrence-rule-too-complex = Gjentakelsesdetaljer er ukjente
 #  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] hver { $weekdays }
+       *[other] hver { $interval }. uke på { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] hver uke
+       *[other] hver { $interval }. uke
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] hver dag i hver måned
