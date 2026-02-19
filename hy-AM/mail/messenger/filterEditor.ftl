@@ -61,3 +61,8 @@ filter-log-message = Հաղորդագրություն «{ $filterName }» զտի
 filter-editor-must-select-target-folder = Պետք է ընտրեք թղթապանակ։
 filter-editor-enter-valid-email-forward = Նշեք ճիշտ էլ. հասցե՝ փոխանցելու համար։
 filter-editor-pick-template-reply = Պատասխանի համար ընտրեք նմուշ։
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = { $filterName } զտիչի կիրառումը ձախողվեց։ Շարունակե՞լ զտիչերի կիրառումը։
+filter-list-backup-message = Ձեր զտիչները չեն աշխատում, քանի որ msgFilterRules.dat ֆայլը, որում դրանք գտնվում են, հնարավոր չէ կարդալ։ Նոր msgFilterRules.dat ֆայլ կստեղծվի և կպահուստացվի ֆայլի հին տարբերակը՝ rulesbackup.dat անվամբ միևնույն թղթապանակում։
+filter-invalid-custom-header = Ձեր զտիչներից մեկը օգտագործում է ընտրված գլխագիր, որը պարունակում է սխալ նշան, ինչպես օր.՝ ‘:’, չտպվող, ոչ-ascii կամ 8 բիթանոց ascii նշան։ Խմբագրեք msgFilterRules.dat ֆայլը, որտեղ գտնվում են զտիչները՝ ջնջելու համար սխալ նշանները։
