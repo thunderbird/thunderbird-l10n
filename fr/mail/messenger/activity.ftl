@@ -3,6 +3,32 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $count - number of messages
+#   $folderName - folder name
+deleted-messages-from-folder =
+    { $count ->
+        [one] { $count } message supprimé dans { $folderName }
+       *[other] { $count } messages supprimés dans { $folderName }
+    }
+# Variables:
+#   $count - number of messages
+#   $source - source folder name
+#   $destination - destination folder name
+moved-messages-from-folder =
+    { $count ->
+        [one] { $count } message déplacé de { $source } vers { $destination }
+       *[other] { $count } messages déplacés de { $source } vers { $destination }
+    }
+# Variables:
+#   $count - number of messages
+#   $source - source folder name
+#   $destination - destination folder name
+copied-messages-from-folder =
+    { $count ->
+        [one] { $count } message copié de { $source } vers { $destination }
+       *[other] { $count } messages copiés de { $source } vers { $destination }
+    }
+# Variables:
 #   $count - the total number of messages being indexed
 #   $msgNumber - the number of the message currently being indexed
 #   $percentComplete - percentage of indexing that is complete
