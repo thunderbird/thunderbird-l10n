@@ -3,6 +3,16 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [zero] Periodiski, katru minūti
+            [one] Periodiski, ik pēc { $minutes } minūtēm
+           *[other] Periodiski, ik pēc { $minutes } minūtēm
+        }
+    .accesskey = A
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Filtrēšanas darbība "{ $errorMsg }" neizdevās ar kļūdas kodu={ $errorCode }, mēģinot:
