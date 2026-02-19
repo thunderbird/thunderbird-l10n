@@ -10,6 +10,14 @@ new-event-dialog = Նոր իրադարձություն
 edit-event-dialog = Խմբագրել իրադարձությունը
 new-task-dialog = Նոր առաջադրանք
 edit-task-dialog = Խմբագրել առաջադրանք
+# Remove attachments prompt.
+prompt-remove-attachments-title = Հեռացնել կցորդները
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Հեռացնե՞լ { $count } attachment կցորդը։
+       *[other] Հեռացնե՞լ { $count } attachment կցորդները։
+    }
 # Do you want to save changes?
 ask-save-title-event = Պահել իրադարձությունը
 ask-save-title-task = Պահել առաջադրանքը
