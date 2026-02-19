@@ -62,3 +62,8 @@ filter-log-message = Pranešimas iš filtro „{ $filterName }“: { $message }
 filter-editor-must-select-target-folder = Reikia pasirinkti paskirties aplanką.
 filter-editor-enter-valid-email-forward = Įrašykite teisingą el. pašto adresą.
 filter-editor-pick-template-reply = Atsakymui pasirinkite šabloną.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Nepavyko įvykdyti filtro { $filterName }. Ar tęsti kitų filtrų vykdymą?
+filter-list-backup-message = Filtrai neveikia, nes nepavyksta skaityti taisyklių failo „msgFilterRules.dat“. Bus sukurtas naujas taisyklių failas „msgFilterRules.dat“, o senasis pervardytas į „rulesbackup.dat“ ir liks tame pačiame aplanke.
+filter-invalid-custom-header = Viename iš filtrų panaudotas laukas, kuriame yra ženklų, nenaudojamų laiškų antraščių laukų varduose. Prašom pakoreguoti filtrų taisyklių failą „msgFilterRules.dat“, pašalinant iš jo neleistinus laukų vardus.
