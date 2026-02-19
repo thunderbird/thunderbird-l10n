@@ -14,6 +14,13 @@ multi-message-undelete-button =
     .label = Verwijderen ongedaan maken
     .tooltiptext = Verwijderen ongedaan maken
 # Variables:
+#   $count - total number of conversations (threads or solitary messages) selected
+num-conversations =
+    { $count ->
+        [one] { $count } conversatie
+       *[other] { $count } conversaties
+    }
+# Variables:
 #   $count - the number of conversations. We use this when we didn't actually
 #       scan the entire list of selected messages, so there may be more
 #       conversations than reported (or maybe not!).
