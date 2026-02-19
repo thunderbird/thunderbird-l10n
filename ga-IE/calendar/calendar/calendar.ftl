@@ -10,6 +10,17 @@ new-event-dialog = Imeacht Nua
 edit-event-dialog = Cuir Imeacht in Eagar
 new-task-dialog = Tasc Nua
 edit-task-dialog = Cuir Tasc in Eagar
+# Remove attachments prompt.
+prompt-remove-attachments-title = Bain Iatáin
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] An bhfuil tú cinnte gur mhaith leat iatán amháin a bhaint?
+        [two] An bhfuil tú cinnte gur mhaith leat { $count } iatán a bhaint?
+        [few] An bhfuil tú cinnte gur mhaith leat { $count } iatán a bhaint?
+        [many] An bhfuil tú cinnte gur mhaith leat { $count } n-iatán a bhaint?
+       *[other] An bhfuil tú cinnte gur mhaith leat { $count } iatán a bhaint?
+    }
 # Do you want to save changes?
 ask-save-title-event = Sábháil Imeacht
 ask-save-title-task = Sábháil Tasc
