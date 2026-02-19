@@ -46,10 +46,30 @@ recurrence-monthly-nth-of-every =
         [few] kas { $interval } mėnesio { $weekdays }
        *[other] kas { $interval } mėnesio { $weekdays }
     }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-last-day-of-nth =
+    { $interval ->
+        [one] paskutinę mėnesio dieną kas #2 mėnesį
+        [few] paskutinę mėnesio dieną kas #2 mėnesius
+       *[other] paskutinę mėnesio dieną kas #2 mėnesių
+    }
 recurrence-monthly-last-day = paskutinę dieną
+#  $days - day of month or a sequence of days of month, possibly followed by an ordinal symbol
+recurrence-monthly-days-of-nth-day =
+    { $count ->
+        [one] { $days } dieną
+       *[other] { $days } dienomis
+    }
 
 # Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
 
+#  $interval is a number, the recurrence interval
+recurrence-monthly-days-of-nth =
+    { $interval ->
+        [one] kas { $interval } mėnesio { $monthlyDays }
+        [few] kas { $interval } mėnesio { $monthlyDays }
+       *[other] kas { $interval } mėnesio { $monthlyDays }
+    }
 #  $interval is a number, the recurrence interval
 recurrence-yearly-nth-on =
     { $interval ->
