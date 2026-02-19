@@ -30,6 +30,12 @@ recurrence-repeat-ordinal--1 = den sidste
 #  $ordinal - ordinal with article
 recurrence-ordinal-weekday = { $ordinal } { $weekday }
 #  $interval is a number, the recurrence interval
+recurrence-monthly-every-of-every =
+    { $interval ->
+        [one] hver { $weekdays } i hver måned
+       *[other] hver { $weekdays } i hver { $interval }. måned
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-nth-of-every =
     { $interval ->
         [one] { $weekdays } i hver måned
@@ -41,6 +47,7 @@ recurrence-monthly-last-day-of-nth =
         [one] den sidste dag i måneden
        *[other] den sidste dag hver { $interval }. måned
     }
+recurrence-monthly-last-day = den sidste dag
 #  $days - day of month or a sequence of days of month, possibly followed by an ordinal symbol
 recurrence-monthly-days-of-nth-day =
     { $count ->
