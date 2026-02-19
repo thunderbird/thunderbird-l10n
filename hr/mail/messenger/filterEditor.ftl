@@ -10,6 +10,16 @@ run-filter-before-spam =
     .label = Filtriraj prije označavanja neželjene pošte
 run-filter-after-spam =
     .label = Filtriraj nakon označavanja neželjene pošte
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Povremeno, svaku { $minutes } minutu
+            [few] Povremeno, svake { $minutes } minute
+           *[other] Povremeno, svakih { $minutes } minuta
+        }
+    .accesskey = v
 rule-action-set-spam-status =
     .label = Postavi status neželjene pošte na
 # Variables:
