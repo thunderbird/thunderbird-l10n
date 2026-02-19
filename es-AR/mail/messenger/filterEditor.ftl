@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Filtrar antes de la clasificación de spam
 run-filter-after-spam =
     .label = Filtrar después de la clasificación de spam
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periódicamente, cada minuto
+           *[other] Periódicamente, cada { $minutes } minutos
+        }
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Establecer estado de spam a
 # Variables:
