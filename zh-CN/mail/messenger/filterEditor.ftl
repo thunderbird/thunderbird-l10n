@@ -10,6 +10,11 @@ run-filter-before-spam =
     .label = 在分类垃圾邮件前过滤
 run-filter-after-spam =
     .label = 在分类垃圾邮件后过滤
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label = 定期，每 { $minutes } 分钟
+    .accesskey = e
 rule-action-set-spam-status =
     .label = 设置垃圾邮件状态为
 # Variables:
