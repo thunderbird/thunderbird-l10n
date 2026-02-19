@@ -14,6 +14,14 @@ recurrence-weekly-every-nth =
         [one] her hafta
        *[other] { $interval } haftada bir
     }
+#  $ordinal - ordinal with article
+recurrence-ordinal-weekday = { $ordinal } { $weekday }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-every-of-every =
+    { $interval ->
+        [one] her ayın { $weekdays } günü
+       *[other] { $interval } ayda bir her { $weekdays } günü
+    }
 
 # Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
 
