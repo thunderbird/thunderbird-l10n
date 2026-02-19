@@ -81,6 +81,24 @@ content-tab-menu-stop-mac =
     .tooltiptext = Zastaviť načítavanie stránky
     .label = Zastaviť
     .accesskey = Z
+open-windows-warning-confirmation-title = Potvrdenie
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Otvorenie { $count } správy môže trvať dlho. Pokračovať?
+        [few] Otvorenie { $count } správ môže trvať dlho. Pokračovať?
+       *[other] Otvorenie { $count } správ môže trvať dlho. Pokračovať?
+    }
+open-tabs-warning-confirmation-title = Potvrdenie
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Otvorenie { $count } správy môže trvať dlho. Pokračovať?
+        [few] Otvorenie { $count } správ môže trvať dlho. Pokračovať?
+       *[other] Otvorenie { $count } správ môže trvať dlho. Pokračovať?
+    }
 
 ## Toolbar
 
@@ -654,3 +672,6 @@ prompt-dont-ask-again = Nabudúce sa už nepýtať
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analýza nevyžiadanej pošty dokončená na { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = Spracováva sa nevyžiadaná pošta
+
+## Ignore threads
+
