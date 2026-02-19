@@ -4,6 +4,13 @@
 
 recurrence-rule-too-complex = Endurtekningar upplýsingar óþekktar
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] hvern { $interval } dag
+       *[other] hverja { $interval } daga
+    }
+recurrence-every-weekday = alla virka daga
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] hverja { $interval } viku á { $weekdays }
