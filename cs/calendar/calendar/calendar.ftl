@@ -10,6 +10,8 @@ new-event-dialog = Nová událost
 edit-event-dialog = Upravit událost
 new-task-dialog = Nový úkol
 edit-task-dialog = Upravit úkol
+# Remove attachments prompt.
+prompt-remove-attachments-title = Odstranit přílohu
 # Do you want to save changes?
 ask-save-title-event = Uložení události
 ask-save-title-task = Uložení úkolu

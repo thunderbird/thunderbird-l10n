@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+recurrence-rule-too-complex = Podrobnosti opakování jsou neznámé
 #  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
@@ -15,6 +16,22 @@ recurrence-repeat-ordinal-3 = třetí
 recurrence-repeat-ordinal-4 = čtvrtý
 recurrence-repeat-ordinal-5 = pátý
 recurrence-repeat-ordinal--1 = poslední
+#  $ordinal - ordinal with article
+recurrence-ordinal-weekday = { $ordinal } { $weekday }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-every-of-every =
+    { $interval ->
+        [one] každý { $weekdays } každý měsíc
+        [few] každý { $weekdays } každé { $interval } měsíce
+       *[other] každý { $weekdays } každých { $interval } měsíců
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [one] { $weekdays }. den každý měsíc
+        [few] { $weekdays }. den každé { $interval } měsíce
+       *[other] { $weekdays }. den každých { $interval } měsíců
+    }
 recurrence-monthly-last-day = poslední den
 
 # Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
