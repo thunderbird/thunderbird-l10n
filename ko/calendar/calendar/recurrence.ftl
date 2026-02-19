@@ -4,6 +4,10 @@
 
 recurrence-rule-too-complex = 반복하는 상세정보를 알 수 없음
 #  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on = 매주 { $weekdays }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth = 매주
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth = 매일
 recurrence-repeat-ordinal-1 = 첫번째
 recurrence-repeat-ordinal-2 = 두번째
@@ -11,6 +15,12 @@ recurrence-repeat-ordinal-3 = 세번째
 recurrence-repeat-ordinal-4 = 네번째
 recurrence-repeat-ordinal-5 = 다섯번째
 recurrence-repeat-ordinal--1 = 마지막
+#  $ordinal - ordinal with article
+recurrence-ordinal-weekday = { $ordinal } { $weekday }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-every-of-every = 매월 { $weekdays }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every = 매월 { $weekdays }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth = 월말
 recurrence-monthly-last-day = 월말
