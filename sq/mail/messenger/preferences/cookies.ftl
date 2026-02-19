@@ -38,3 +38,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Mbylleni
     .accesskey = M
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Hiqe të Përzgjedhurën
+           *[other] Hiqi të Përzgjedhurat
+        }
