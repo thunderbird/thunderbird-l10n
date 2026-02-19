@@ -37,3 +37,14 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Dún
     .accesskey = D
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Bain an Ceann Roghnaithe
+            [two] Bain na Cinn Roghnaithe
+            [few] Bain na Cinn Roghnaithe
+            [many] Bain na Cinn Roghnaithe
+           *[other] Bain na Cinn Roghnaithe
+        }
