@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Detener carga de página
     .label = Detener
     .accesskey = t
+open-tabs-warning-confirmation-title = Confirmar
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Abrir { $count } mensaje puede resultar lento. ¿Continuar?
+       *[other] Abrir { $count } mensajes puede resultar lento. ¿Continuar?
+    }
 
 ## Toolbar
 
@@ -640,3 +648,6 @@ prompt-dont-ask-again = No preguntar de nuevo.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Análisis de spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } completo
 spam-processing-message = Procesando mensajes de spam
+
+## Ignore threads
+
