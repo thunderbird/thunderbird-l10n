@@ -4,6 +4,34 @@
 
 recurrence-rule-too-complex = Ní féidir na mionsonraí athdéanta a chur i bhfeidhm
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] gach lá
+        [two] gach dara lá
+        [few] gach { $interval } lá
+        [many] gach { $interval } lá
+       *[other] gach { $interval } lá
+    }
+recurrence-every-weekday = gach lá oibre
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] gach { $weekdays }
+        [two] gach { $interval } sheachtain ar { $weekdays }
+        [few] gach { $interval } seachtaine ar { $weekdays }
+        [many] gach { $interval } seachtaine ar { $weekdays }
+       *[other] gach { $interval } seachtain ar { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] gach seachtain
+        [two] gach { $interval } sheachtain
+        [few] gach { $interval } seachtaine
+        [many] gach { $interval } seachtaine
+       *[other] gach { $interval } seachtain
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] gach lá de gach mí
@@ -28,6 +56,15 @@ recurrence-monthly-every-of-every =
         [few] gach { $weekdays } de gach { $interval } mhí
         [many] gach { $weekdays } de gach { $interval } mí
        *[other] gach { $weekdays } de gach { $interval } mí
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [one] { $weekdays } de gach mí
+        [two] { $weekdays } de gach { $interval } mhí
+        [few] { $weekdays } de gach { $interval } mhí
+        [many] { $weekdays } de gach { $interval } mí
+       *[other] { $weekdays } de gach { $interval } mí
     }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
