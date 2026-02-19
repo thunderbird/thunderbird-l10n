@@ -3,6 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label = 주기적으로 { $minutes }분 마다
+    .accesskey = e
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = 필터 적용 실패: "{ $errorMsg }" 오류 코드={ $errorCode }, 시도된 내용:
