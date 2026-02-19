@@ -62,3 +62,8 @@ filter-log-message = Повідомлення від фільтра "{ $filterNa
 filter-editor-must-select-target-folder = Виберіть теку для збереження.
 filter-editor-enter-valid-email-forward = Введіть адресу електронної пошти для пересилки на неї повідомлень.
 filter-editor-pick-template-reply = Виберіть шаблон для відповіді.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Помилка запуску фільтру { $filterName }. Запустити решту фільтрів?
+filter-list-backup-message = Фільтри не працюють, тому що файл msgFilterRules.dat, що містить їх, не може бути прочитаний. У тому ж самому каталозі буде створені новий файл msgFilterRules.dat і резервна копія старого з назвою rulesbackup.dat.
+filter-invalid-custom-header = У одному з фільтрів використовується додатковий заголовок, що містить недійсний символ, наприклад «:»; недрукований символ; символ, що не входить в таблицю ASCII, або восьмибітовий ASCII-символ. Відредагуйте файл msgFilterRules.dat, що містить фільтри, так, щоб вилучити недійсні символи з додаткових заголовків.
