@@ -25,6 +25,22 @@ content-tab-security-broken-icon =
 
 # Stop
 
+open-windows-warning-confirmation-title = Հաստատել
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Opening { $count } message may be slow.  Continue?
+       *[other] Opening { $count } messages may be slow.  Continue?
+    }
+open-tabs-warning-confirmation-title = Հաստատել
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] { $count } նամակի բացումը ժամանակ կխլի: Շարունակե՞լ
+       *[other] { $count } նամակների բացումը ժամանակ կխլի: Շարունակե՞լ:
+    }
 
 ## Toolbar
 
@@ -32,11 +48,20 @@ addons-and-themes-toolbarbutton =
     .label = Հավելումներ և ոճեր
     .tooltiptext = Կառավարել հավելումները
 
+## Folder Pane
+
+
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Պիտակներ
     .accesskey = T
+
+## Folder names
+
+
+## File Menu
+
 
 ## Edit Menu
 
@@ -70,6 +95,9 @@ menu-edit-folder-properties =
 menu-edit-newsgroup-properties =
     .label = Լուրախմբերի հատկությունը
     .accesskey = o
+
+## Message Menu
+
 
 ## Shared Menu Items
 
@@ -110,6 +138,33 @@ mail-context-menu-forward-forward =
     .label = Փոխանցել
     .accesskey = F
 
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
+## Add-on removal warning
+
+
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
+
 ## Quick Filter Bar
 
 # The label to display for the "View... Toolbars..." menu item that controls
@@ -122,12 +177,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = Ո
 mark-not-junk-key =
     .key = Ո
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -161,3 +237,12 @@ message-group-starred = Աստղով
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = և այլոք
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
