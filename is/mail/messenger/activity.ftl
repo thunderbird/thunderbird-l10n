@@ -35,3 +35,37 @@ copied-messages-from-folder =
         [one] Afritaði { $count } póst frá { $source } til { $destination }
        *[other] Afritaði { $count } pósta frá { $source } til { $destination }
     }
+# Variables:
+#   $count - the total number of messages being indexed
+#   $msgNumber - the number of the message currently being indexed
+#   $percentComplete - percentage of indexing that is complete
+gloda-indexing-status-exact =
+    { $count ->
+        [one] Flokka { $msgNumber } af { $count } pósti
+       *[other] Flokka { $msgNumber } af { $count } póstum ({ $percentComplete }% lokið)
+    }
+# Variables:
+#   $count - the total number of messages being indexed
+#   $msgNumber - the number of the message currently being indexed
+#   $percentComplete - percentage of indexing that is complete
+#   $folder - folder name
+gloda-indexing-folder-status-exact =
+    { $count ->
+        [one] Flokka { $msgNumber } af { $count } pósti í { $folder }
+       *[other] Flokka { $msgNumber } af { $count } póstum í { $folder } ({ $percentComplete }% lokið)
+    }
+# Variables:
+#   $count - number of messages
+#   $folder - folder name
+gloda-indexed-folder =
+    { $count ->
+        [one] Flokka { $count } póst í { $folder }
+       *[other] Flokka { $count } pósta í { $folder }
+    }
+# Variables:
+#   $count - number of seconds
+gloda-indexed-folder-status =
+    { $count ->
+        [one] { $count } sekúnda liðin
+       *[other] { $count } sekúndur liðnar
+    }
