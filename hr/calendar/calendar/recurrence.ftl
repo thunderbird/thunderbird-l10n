@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 recurrence-rule-too-complex = Detalji ponavljanja nepoznati
+recurrence-monthly-last-day = zadnji dan
 
 # Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
 
