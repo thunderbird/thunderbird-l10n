@@ -2,6 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+recurrence-rule-too-complex = Repetir detalhes desconhecidos
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] a cada { $weekdays }
+       *[other] a cada { $interval } semanas à { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] a cada semana
+       *[other] a cada { $interval } semanas
+    }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
@@ -34,6 +47,7 @@ recurrence-monthly-last-day-of-nth =
         [one] o último dia do mês
        *[other] o último dia a cada { $interval } meses
     }
+recurrence-monthly-last-day = o último dia
 #  $days - day of month or a sequence of days of month, possibly followed by an ordinal symbol
 recurrence-monthly-days-of-nth-day =
     { $count ->
