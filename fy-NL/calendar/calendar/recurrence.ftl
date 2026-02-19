@@ -4,6 +4,18 @@
 
 recurrence-rule-too-complex = werheldetails net bekend
 #  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] elke { $weekdays }
+       *[other] elke { $interval } wiken op { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] elke wike
+       *[other] elke { $interval } wiken
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] elke dei fan elke moanne
@@ -15,6 +27,20 @@ recurrence-repeat-ordinal-3 = de tredde
 recurrence-repeat-ordinal-4 = de fjirde
 recurrence-repeat-ordinal-5 = de fiifde
 recurrence-repeat-ordinal--1 = de lêste
+#  $ordinal - ordinal with article
+recurrence-ordinal-weekday = { $ordinal } { $weekday }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-every-of-every =
+    { $interval ->
+        [one] elke { $weekdays } fan elke moanne
+       *[other] elke { $weekdays } fan elke { $interval } moannen
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [one] de { $weekdays } fan elke moanne
+       *[other] de { $weekdays } fan elke { $interval } moannen
+    }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
     { $interval ->
