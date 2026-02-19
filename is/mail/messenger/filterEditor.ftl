@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Sía áður en flokkun ruslpósts fer fram
 run-filter-after-spam =
     .label = Sía eftir að flokkun ruslpósts fer fram
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Reglulega, á mínútu fresti
+           *[other] Reglulega, á { $minutes } mínútna fresti
+        }
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Setja ruslpóstsstöðu sem
 # Variables:
