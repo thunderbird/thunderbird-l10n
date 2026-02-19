@@ -12,3 +12,4 @@ edit-vcard-dialog-accept-button = Сачувај
     .accesskey = С
 edit-vcard-dialog-cancel-button = Откажи
     .accesskey = О
+panel-settings-spam = Подешавања непожељног

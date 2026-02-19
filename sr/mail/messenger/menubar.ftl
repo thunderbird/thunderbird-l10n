@@ -88,6 +88,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Поништи брисање
     .tooltiptext = Поништи брисање изабраних порука
+toolbar-spam-button =
+    .label = Непожељно
+    .tooltiptext = Означи изабране поруке као непожељне
+toolbar-not-spam-button =
+    .label = Није непожељно
+    .tooltiptext = Означи изабране поклоне као пожељне
 
 ## View
 

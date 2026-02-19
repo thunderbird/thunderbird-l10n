@@ -52,6 +52,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Сажети преглед
     .accesskey = г
 
+## Folder names
+
+folder-name-spam = Непожељно
+
 ## File Menu
 
 menu-file-save-as-file =
