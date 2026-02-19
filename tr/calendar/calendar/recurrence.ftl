@@ -4,6 +4,13 @@
 
 recurrence-rule-too-complex = Tekrarlama ayrıntıları bilinmiyor
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] her gün
+       *[other] { $interval } günde bir
+    }
+recurrence-every-weekday = hafta içi her gün
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] her { $weekdays }
@@ -34,6 +41,12 @@ recurrence-monthly-every-of-every =
     { $interval ->
         [one] her ayın { $weekdays } günü
        *[other] { $interval } ayda bir her { $weekdays } günü
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [one] her ayın { $weekdays }
+       *[other] { $interval } ayda bir her { $weekdays }
     }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
