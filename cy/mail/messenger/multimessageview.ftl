@@ -93,3 +93,8 @@ messages-total-size-more-than = Mae'r negeseuon yma'n cymryd mwy na { $numBytes 
 #   $total - the total number of messages selected
 #   $shown - is the number of messages actually shown
 max-count-exceeded = (Sylwch: { $total } neges wedi'u dewis, mae'r { $shown } cyntaf yn cael eu dangos)
+# A message to let the user know that all of the selected threads were summarized.
+# Variables:
+#   $total - is the total number of threads selected
+#   $shown - the number of threads actually shown
+max-thread-count-exceeded = (Nodyn: { $total } trywydd wedi'u dewis, { $shown } cyntaf yn cael eu dewis)
