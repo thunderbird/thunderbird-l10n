@@ -73,3 +73,8 @@ messages-total-size-more-than = These messages take up more than { $numBytes }.
 #   $total - the total number of messages selected
 #   $shown - is the number of messages actually shown
 max-count-exceeded = (Note: { $total } messages are selected, the first { $shown } are shown)
+# A message to let the user know that all of the selected threads were summarized.
+# Variables:
+#   $total - is the total number of threads selected
+#   $shown - the number of threads actually shown
+max-thread-count-exceeded = (Note: { $total } threads are selected, the first { $shown } are shown)
