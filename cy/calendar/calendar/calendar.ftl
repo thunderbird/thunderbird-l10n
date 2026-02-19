@@ -10,6 +10,8 @@ new-event-dialog = Digwyddiad Newydd
 edit-event-dialog = Golygu Digwyddiad
 new-task-dialog = Tasg Newydd
 edit-task-dialog = Golygu Tasg
+# Remove attachments prompt.
+prompt-remove-attachments-title = Tynnu Atodiad
 # Do you want to save changes?
 ask-save-title-event = Cadw Digwyddiad
 ask-save-title-task = Cadw Tasg
