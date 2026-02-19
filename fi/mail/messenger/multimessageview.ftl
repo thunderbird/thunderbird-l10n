@@ -14,6 +14,13 @@ multi-message-undelete-button =
     .label = Peru poistaminen
     .tooltiptext = Peru poistaminen
 # Variables:
+#   $count - total number of conversations (threads or solitary messages) selected
+num-conversations =
+    { $count ->
+        [one] { $count } viestiketju
+       *[other] { $count } viestiketjua
+    }
+# Variables:
 #   $count - the number of conversations. We use this when we didn't actually
 #       scan the entire list of selected messages, so there may be more
 #       conversations than reported (or maybe not!).
