@@ -15,6 +15,18 @@ recurrence-weekly-every-nth =
         [one] iga nädal
        *[other] iga { $interval } nädala järel
     }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-every-day-of-nth =
+    { $interval ->
+        [one] iga päev
+       *[other] iga { $interval } kuu järel iga päev
+    }
+recurrence-repeat-ordinal-1 = esimesel
+recurrence-repeat-ordinal-2 = teisel
+recurrence-repeat-ordinal-3 = kolmandal
+recurrence-repeat-ordinal-4 = neljandal
+recurrence-repeat-ordinal-5 = viiendal
+recurrence-repeat-ordinal--1 = viimasel
 #  $ordinal - ordinal with article
 recurrence-ordinal-weekday = { $ordinal } { $weekday }
 #  $interval is a number, the recurrence interval
@@ -29,15 +41,51 @@ recurrence-monthly-nth-of-every =
         [one] iga kuu { $weekdays }
        *[other] iga { $interval } kuu järel kuu { $weekdays }
     }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-last-day-of-nth =
+    { $interval ->
+        [one] kuu viimasel päeval
+       *[other] iga { $interval } kuu viimasel päeval
+    }
 recurrence-monthly-last-day = viimasel päeval
+#  $days - day of month or a sequence of days of month, possibly followed by an ordinal symbol
+recurrence-monthly-days-of-nth-day =
+    { $count ->
+        [one] igal { $days } kuupäeval
+       *[other] igal { $days } kuupäeval
+    }
 
 # Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
 
+#  $interval is a number, the recurrence interval
+recurrence-monthly-days-of-nth =
+    { $interval ->
+        [one] igal { $monthlyDays } kuupäeval
+       *[other] iga { $interval } kuu järel { $monthlyDays } kuupäeval
+    }
+#  $interval is a number, the recurrence interval
+recurrence-yearly-nth-on =
+    { $interval ->
+        [one] igal { $monthDay } { $month }l
+       *[other] iga { $interval } aasta järel { $monthDay } { $month }l
+    }
 #  $interval is a number, the recurrence interval
 recurrence-yearly-every-day-of =
     { $interval ->
         [one] igal { $month } päeval
        *[other] iga { $interval } aasta järel igal { $month } päeval
+    }
+#  $interval is a number, the recurrence interval
+recurrence-yearly-nth-of-nth =
+    { $interval ->
+        [one] igal { $month } { $weekday }
+       *[other] iga { $interval } aasta järel igal { $month } { $weekday }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-yearly-nth-on-nth-of =
+    { $interval ->
+        [one] { $month } { $ordinal } { $weekday }
+       *[other] iga { $interval } aasta järel { $month } { $ordinal } { $weekday }
     }
 # Variables:
 #   $ruleString - A rule as text
