@@ -4,6 +4,9 @@
 
 recurrence-rule-too-complex = Detail perulangan tidak diketahui
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth = setiap hari
+recurrence-every-weekday = setiap hari kerja
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on = setiap { $weekdays }
 #  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth = setiap minggu
