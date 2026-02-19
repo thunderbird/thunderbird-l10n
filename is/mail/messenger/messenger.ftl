@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Hætta að hlaða síðu
     .label = Hætta
     .accesskey = H
+open-windows-warning-confirmation-title = Staðfesta
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Að opna { $count } póst gæti verið hægvirkt.  Halda áfram?
+       *[other] Að opna { $count } pósta gæti verið hægvirkt.  Halda áfram?
+    }
 open-tabs-warning-confirmation-title = Staðfesta
 # Variables:
 #   $count - number of messages to open
