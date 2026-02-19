@@ -4,6 +4,13 @@
 
 recurrence-rule-too-complex = No es coneixen els detalls de repetició
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] cada dia
+       *[other] cada { $interval } dies
+    }
+recurrence-every-weekday = cada dia feiner
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] cada { $weekdays }
