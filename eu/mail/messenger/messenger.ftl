@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Gelditu orria kargatzea
     .label = Gelditu
     .accesskey = G
+open-tabs-warning-confirmation-title = Berretsi
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Mezua irekitzea makala izan daiteke. Jarraitu?
+       *[other] { $count } mezu irekitzea makala izan daiteke. Jarraitu?
+    }
 
 ## Toolbar
 
@@ -128,6 +136,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Ikuspegi trinkoa
     .accesskey = t
+
+## Folder names
+
 
 ## File Menu
 
@@ -504,12 +515,24 @@ openpgp-forget = Ahaztu OpenPGP pasa-esdaldiak
 quota-panel-percent-used = { $percent }% full
     .title = IMAP kuota: { $usage } erabilia { $limit } guztirako limitetik
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -555,3 +578,9 @@ and-others = eta beste
 ## Prompts
 
 prompt-dont-ask-again = Ez galdetu berriz.
+
+## Spam commands
+
+
+## Ignore threads
+
