@@ -4,6 +4,25 @@
 
 recurrence-rule-too-complex = Detalles da repetición descoñecidos
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] cada día
+       *[other] cada { $interval } días
+    }
+recurrence-every-weekday = cada semana
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] cada { $weekdays }
+       *[other] cada { $interval } semanas o { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] cada semana
+       *[other] cada { $interval } semanas
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] cada día de cada mes
@@ -22,6 +41,12 @@ recurrence-monthly-every-of-every =
     { $interval ->
         [one] cada { $weekdays } de cada mes
        *[other] cada { $weekdays } de cada { $interval } meses
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [one] { $weekdays } de cada mes
+       *[other] { $weekdays } de cada { $interval } meses
     }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
