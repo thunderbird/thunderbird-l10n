@@ -4,6 +4,31 @@
 
 recurrence-rule-too-complex = Tha riaghailt an ath-dhèanaimh ro thoinnte dhuinn
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] a h-uile latha
+        [two] a h-uile { $interval } latha
+        [few] a h-uile { $interval } làithean
+       *[other] a h-uile { $interval } latha
+    }
+recurrence-every-weekday = gach là-obrach
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] a h-uile { $weekdays } { $interval } seachdain
+        [two] a h-uile { $interval } sheachdain { $weekdays }
+        [few] a h-uile { $interval } seachdainean { $weekdays }
+       *[other] a h-uile { $interval } seachdain { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] a h-uile seachdain
+        [two] a h-uile { $interval } sheachdain
+        [few] a h-uile { $interval } seachdainean
+       *[other] a h-uile { $interval } seachdain
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] gach latha de gach mìos
@@ -25,6 +50,13 @@ recurrence-monthly-every-of-every =
         [two] a h-uile { $weekdays } de gach { $interval } mhìos
         [few] a h-uile { $weekdays } de gach { $interval } mìosan
        *[other] a h-uile { $weekdays } de gach { $interval } mìos
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [one] { $weekdays } de gach mìos
+        [two] { $weekdays } de gach { $interval } mìos(an)
+       *[other] { $weekdays } de gach { $interval } mìos(an)
     }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
