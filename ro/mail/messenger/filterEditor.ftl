@@ -10,6 +10,16 @@ run-filter-before-spam =
     .label = Filtrează înainte de clasificarea ca nedorite
 run-filter-after-spam =
     .label = Filtrează după clasificarea ca nedorite
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periodic, din minut în minut
+            [few] Periodic, la fiecare { $minutes } minute
+           *[other] Periodic, la fiecare { $minutes } de minute
+        }
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Setează starea de nedorit la
 # Variables:
