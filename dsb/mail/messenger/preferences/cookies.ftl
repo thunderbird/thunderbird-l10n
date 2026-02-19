@@ -38,3 +38,13 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Zacyniś
     .accesskey = Z
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] { $count } wubrany wótpóraś
+            [two] { $count } wubranej wótpóraś
+            [few] { $count } wubrane wótpóraś
+           *[other] { $count } wubranych wótpóraś
+        }
