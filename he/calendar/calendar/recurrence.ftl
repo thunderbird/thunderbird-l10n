@@ -4,6 +4,13 @@
 
 recurrence-rule-too-complex = פרטי החזרה לא ידועים
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] בכל יום
+       *[other] בכל { $interval } ימים
+    }
+recurrence-every-weekday = כל יום חול בשבוע
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] בכל { $weekdays }
