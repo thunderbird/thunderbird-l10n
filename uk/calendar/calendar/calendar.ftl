@@ -10,6 +10,15 @@ new-event-dialog = Нова подія
 edit-event-dialog = Редагувати подію
 new-task-dialog = Нове завдання
 edit-task-dialog = Редагувати завдання
+# Remove attachments prompt.
+prompt-remove-attachments-title = Вилучити вкладення
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Ви дійсно хочете вилучити { $count } вкладення?
+        [few] Ви дійсно хочете вилучити { $count } вкладення?
+       *[many] Ви дійсно хочете вилучити { $count } вкладень?
+    }
 # Do you want to save changes?
 ask-save-title-event = Зберегти подію
 ask-save-title-task = Зберегти завдання
