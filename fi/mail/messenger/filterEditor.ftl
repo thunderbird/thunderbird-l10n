@@ -7,6 +7,15 @@ rule-menuitem-spam =
 rule-menuitem-not-spam =
     .label = Ei roskapostia
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Määräajoin, minuutin välein
+           *[other] Määräajoin, { $minutes } minuutin välein
+        }
+    .accesskey = i
+# Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.
 # $date (String) - The date of the message.
