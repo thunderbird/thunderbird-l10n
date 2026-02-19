@@ -14,6 +14,9 @@ multi-message-undelete-button =
     .label = 恢复
     .tooltiptext = 恢复
 # Variables:
+#   $count - total number of conversations (threads or solitary messages) selected
+num-conversations = { $count } 个讨论
+# Variables:
 #   $count - the number of conversations. We use this when we didn't actually
 #       scan the entire list of selected messages, so there may be more
 #       conversations than reported (or maybe not!).
