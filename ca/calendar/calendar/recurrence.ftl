@@ -29,6 +29,7 @@ recurrence-monthly-nth-of-every =
         [one] { $weekdays } de cada mes
        *[other] { $weekdays } de cada { $interval } mesos
     }
+recurrence-monthly-last-day = l'últim dia
 
 # Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
 
