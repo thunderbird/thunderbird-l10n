@@ -4,6 +4,13 @@
 
 recurrence-rule-too-complex = Detaljar om repetering er ukjende
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] kvar dag
+       *[other] kvar { $interval }. dag
+    }
+recurrence-every-weekday = kvar vekedag
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] kvar { $weekdays }
