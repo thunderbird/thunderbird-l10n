@@ -37,3 +37,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Mdel
     .accesskey = M
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Kkes anagi n tuqqna yettwafernen
+           *[other] Kkes inagan n tuqqna yettwafernen
+        }
