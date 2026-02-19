@@ -14,6 +14,14 @@ multi-message-undelete-button =
     .label = Vrati obrisano
     .tooltiptext = Vrati obrisano
 # Variables:
+#   $count - total number of conversations (threads or solitary messages) selected
+num-conversations =
+    { $count ->
+        [one] { $count } razgovor
+        [few] { $count } razgovora
+       *[other] { $count } razgovora
+    }
+# Variables:
 #   $count - the number of conversations. We use this when we didn't actually
 #       scan the entire list of selected messages, so there may be more
 #       conversations than reported (or maybe not!).
