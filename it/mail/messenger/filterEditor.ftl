@@ -64,7 +64,7 @@ filter-action-log-pop3-leave = lasciato nel server POP3
 filter-action-log-spam = punteggio spam
 filter-action-log-pop3-fetch = scaricato il corpo dal server POP3
 filter-action-log-tagged = etichettato
-filter-action-log-ignore-subthread = ignora le sotto discussioni
+filter-action-log-ignore-subthread = ignora le sottodiscussioni
 filter-action-log-unread = segnato come non letto
 # Variables:
 # $timestamp (String) - The timestamp of the log entry.

@@ -671,6 +671,6 @@ ignored-theads-feedback =
 #    $subject - the message thread title (subject)
 ignored-subtheads-feedback =
     { $count ->
-        [one] Le risposte alla sottodiscussione “{ $subject }” non verranno mostrate.
-       *[other] Le risposte aile { $count } sottodiscussioni selezionate non verranno mostrate.
+        [one] Le risposte alla sottodiscussione “{ $subject }” non verranno visualizzate.
+       *[other] Le risposte alle { $count } sottodiscussione selezionate non verranno visualizzate.
     }
