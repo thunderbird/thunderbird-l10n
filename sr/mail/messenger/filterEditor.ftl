@@ -7,6 +7,16 @@ rule-menuitem-spam =
 rule-menuitem-not-spam =
     .label = Није непожељно
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Периодично, сваке минуте
+            [few] Периодично, сваки { $minutes } минут
+           *[other] Периодично, сваки { $minutes } минут
+        }
+    .accesskey = е
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Радња филтера није успела: "{ $errorMsg }" са грешком са кодом={ $errorCode } приликом покушавања:
