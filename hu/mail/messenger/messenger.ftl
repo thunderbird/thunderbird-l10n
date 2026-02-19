@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Oldalbetöltés leállítása
     .label = Leállítás
     .accesskey = L
+open-windows-warning-confirmation-title = Megerősítés
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] { $count } üzenet megnyitása lassú lehet. Folytatja?
+       *[other] { $count } üzenet megnyitása lassú lehet. Folytatja?
+    }
 open-tabs-warning-confirmation-title = Megerősítés
 # Variables:
 #   $count - number of messages to open
