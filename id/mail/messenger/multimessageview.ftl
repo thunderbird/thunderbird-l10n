@@ -13,3 +13,8 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Batal hapus
     .tooltiptext = Batal hapus
+# A message to let the user know that all of the selected threads were summarized.
+# Variables:
+#   $total - is the total number of threads selected
+#   $shown - the number of threads actually shown
+max-thread-count-exceeded = (Catatan: { $total } utas dipilih, { $shown } pertama ditampilkan)
