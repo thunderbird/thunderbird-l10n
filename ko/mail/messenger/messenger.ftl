@@ -76,6 +76,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = 페이지 로딩 중지
     .label = 중지
     .accesskey = S
+open-windows-warning-confirmation-title = 확인
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation = { $count } 메시지를 열기 위해서는 많은 시간이 소요됩니다. 계속 하시겠습니까?
+open-tabs-warning-confirmation-title = 확인
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation = 메시지 { $count }개를 여는 작업은 느릴 수 있습니다. 계속하시겠습니까?
 
 ## Toolbar
 
@@ -603,3 +611,6 @@ prompt-dont-ask-again = 다시 묻지 않기
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = 스팸 분석 { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } 완료됨
 spam-processing-message = 스팸 메시지 처리
+
+## Ignore threads
+
