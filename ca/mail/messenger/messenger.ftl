@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Atura la càrrega de la pàgina
     .label = Atura
     .accesskey = A
+open-windows-warning-confirmation-title = Confirmeu
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Obrir { $count } missatge pot ser lent. Voleu continuar?
+       *[other] Obrir { $count } missatges pot ser lent. Voleu continuar?
+    }
 open-tabs-warning-confirmation-title = Confirmeu
 # Variables:
 #   $count - number of messages to open
