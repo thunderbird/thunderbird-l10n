@@ -10,6 +10,14 @@ new-event-dialog = Νέα εκδήλωση
 edit-event-dialog = Επεξεργασία εκδήλωσης
 new-task-dialog = Νέα εργασία
 edit-task-dialog = Επεξεργασία εργασίας
+# Remove attachments prompt.
+prompt-remove-attachments-title = Διαγραφή συνημμένων
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Θέλετε σίγουρα να αφαιρέσετε { $count } συνημμένο;
+       *[other] Θέλετε σίγουρα να αφαιρέσετε { $count } συνημμένα;
+    }
 # Do you want to save changes?
 ask-save-title-event = Αποθήκευση εκδήλωσης
 ask-save-title-task = Αποθήκευση εργασίας
