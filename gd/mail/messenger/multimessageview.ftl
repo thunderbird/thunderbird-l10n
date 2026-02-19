@@ -80,3 +80,8 @@ messages-total-size-more-than = Tha na teachdaireachdan seo nas motha na { $numB
 #   $total - the total number of messages selected
 #   $shown - is the number of messages actually shown
 max-count-exceeded = (Aire: Tha { $total } teachdaireachd(an) air an taghadh, tha a' chiad { $shown } dhiubh 'gan sealltainn)
+# A message to let the user know that all of the selected threads were summarized.
+# Variables:
+#   $total - is the total number of threads selected
+#   $shown - the number of threads actually shown
+max-thread-count-exceeded = (An aire: Chaidh { $total } threads a thaghadh, tha a’ chiad { $shown } dhiubh ’gan sealltainn)
