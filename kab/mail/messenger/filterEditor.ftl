@@ -3,6 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Sya ɣer da, yal tasdat
+           *[other] Sya ɣer da, yal { $minutes } n tesdatin
+        }
+    .accesskey = e
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Tigawt n uzizdeg ur teddi ara: "{ $errorMsg }" s tengalt n tuccḍa ={ $errorCode } makken yettaɛraḍ:
