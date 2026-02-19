@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Filterje foar net-winskeklassifikaasje
 run-filter-after-spam =
     .label = Filterje nei net-winskeklassifikaasje
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periodyk, elke minút
+           *[other] Periodyk, elke { $minutes } minuten
+        }
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Net-winske-steat ynstelle op
 # Variables:
