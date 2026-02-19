@@ -32,10 +32,31 @@ recurrence-monthly-nth-of-every =
         [few] { $weekdays }. den každé { $interval } měsíce
        *[other] { $weekdays }. den každých { $interval } měsíců
     }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-last-day-of-nth =
+    { $interval ->
+        [one] poslední den v měsíci
+        [few] poslední den každé { $interval } měsíce
+       *[other] poslední den každých { $interval } měsíců
+    }
 recurrence-monthly-last-day = poslední den
+#  $days - day of month or a sequence of days of month, possibly followed by an ordinal symbol
+recurrence-monthly-days-of-nth-day =
+    { $count ->
+        [one] { $days } den
+        [few] { $days } den
+       *[other] { $days } den
+    }
 
 # Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
 
+#  $interval is a number, the recurrence interval
+recurrence-monthly-days-of-nth =
+    { $interval ->
+        [one] { $monthlyDays }. den každý měsíc
+        [few] { $monthlyDays }. den každé { $interval } měsíce
+       *[other] { $monthlyDays }. den každých { $interval } měsíců
+    }
 #  $interval is a number, the recurrence interval
 recurrence-yearly-nth-on =
     { $interval ->
