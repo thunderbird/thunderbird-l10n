@@ -10,6 +10,11 @@ run-filter-before-spam =
     .label = Filter sebelum Klasifikasi Spam
 run-filter-after-spam =
     .label = Filter setelah Klasifikasi Spam
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label = Secara berkala, setiap menit
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Setel Status Spam ke
 # Variables:
