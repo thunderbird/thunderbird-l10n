@@ -42,6 +42,22 @@ content-tab-security-broken-icon =
 
 # Stop
 
+open-windows-warning-confirmation-title = Հաստատել
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] { $count } նամակ բացելը կարող է տեւել դանդաղ։ Շարունակե՞լ
+       *[other] { $count } նամակներ բացելը կարող է տեւել դանդաղ։ Շարունակե՞լ։
+    }
+open-tabs-warning-confirmation-title = Հաստատել
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] { $count } հաղորդագրութեան բացումը հաւանաբար դանդաղ կը տեւի: Շարունակե՞լ
+       *[other] { $count } հաղոորդագրութիւնների բացումը հաւանաբար երկար կը տեւի: Շարունակե՞լ:
+    }
 
 ## Toolbar
 
@@ -90,6 +106,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Ամփոփ տեսք
     .accesskey = Ա
+
+## Folder names
+
 
 ## File Menu
 
@@ -238,6 +257,9 @@ no-reply-title = Պատասխանը չի աջակցուում
 no-reply-message = Պատասխանի հասցէն ({ $email }) կարծէս վերահսկուող հասցէ չէ: Այս հասցէին ուղղուած հաղորդագրութիւնները հաւանաբար ոչ ոք չի կարդայ:
 no-reply-reply-anyway-button = Պատասխանել ամէն դէպքում
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -322,12 +344,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = թ
 mark-not-junk-key =
     .key = փ
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -361,3 +404,12 @@ message-group-starred = Աստղանշուած
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = եւ այղոք
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
