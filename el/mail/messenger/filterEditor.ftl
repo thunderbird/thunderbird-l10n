@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Φιλτράρισμα πριν από την ταξινόμηση ανεπιθύμητων
 run-filter-after-spam =
     .label = Φιλτράρισμα μετά την ταξινόμηση ανεπιθύμητων
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Περιοδικά, κάθε λεπτό
+           *[other] Περιοδικά, κάθε { $minutes } λεπτά
+        }
+    .accesskey = ε
 rule-action-set-spam-status =
     .label = Ορισμός κατάστασης ανεπιθύμητου σε
 # Variables:
