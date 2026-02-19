@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+recurrence-rule-too-complex = Tekrarlama ayrıntıları bilinmiyor
 #  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
