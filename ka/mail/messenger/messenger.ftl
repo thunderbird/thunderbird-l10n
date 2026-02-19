@@ -80,6 +80,10 @@ content-tab-menu-stop-mac =
     .tooltiptext = გვერდის ჩატვირთვის შეწყვეტა
     .label = შეწყვეტა
     .accesskey = წ
+open-tabs-warning-confirmation-title = დადასტურება
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation = { $count } წერილის გახსნას შეიძლება დიდი დრო დასჭირდეს.  გავაგრძელო?
 
 ## Toolbar
 
@@ -639,3 +643,6 @@ prompt-dont-ask-again = მომავალში შეკითხვის 
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = ჯართის გარჩევის { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } დასრულებულია
 spam-processing-message = მუშავდება უსარგებლო წერილები
+
+## Ignore threads
+
