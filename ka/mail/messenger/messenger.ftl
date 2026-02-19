@@ -80,6 +80,10 @@ content-tab-menu-stop-mac =
     .tooltiptext = გვერდის ჩატვირთვის შეწყვეტა
     .label = შეწყვეტა
     .accesskey = წ
+open-windows-warning-confirmation-title = თანხმობა
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation = { $count } წერილის გახსნას შეიძლება დიდი დრო დასჭირდეს.  გავაგრძელო?
 open-tabs-warning-confirmation-title = დადასტურება
 # Variables:
 #   $count - number of messages to open
