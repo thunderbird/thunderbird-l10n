@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Filtrar antes de identificar el correo no deseado
 run-filter-after-spam =
     .label = Filtrar después de identificar el correo no deseado
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periódicamente, cada minuto
+           *[other] Periódicamente, cada { $minutes } minutos
+        }
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Establecer estado de correo no deseado a
 # Variables:
