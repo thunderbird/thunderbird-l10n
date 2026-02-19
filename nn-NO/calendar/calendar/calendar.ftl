@@ -10,6 +10,8 @@ new-event-dialog = Ny hending
 edit-event-dialog = Rediger hending
 new-task-dialog = Ny oppgåve
 edit-task-dialog = Rediger oppgåve
+# Remove attachments prompt.
+prompt-remove-attachments-title = Fjern vedlegg
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->
