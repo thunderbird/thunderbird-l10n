@@ -10,6 +10,8 @@ new-event-dialog = 新增事件
 edit-event-dialog = 編輯事件
 new-task-dialog = 新增工作
 edit-task-dialog = 編輯工作
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text = 您真的想要移除 { $count } 個附件嗎？
 # Do you want to save changes?
 ask-save-title-event = 儲存事件
 ask-save-title-task = 儲存工作
