@@ -38,3 +38,7 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = 닫기
     .accesskey = C
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label = 선택한 쿠키 삭제
