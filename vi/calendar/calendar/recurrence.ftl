@@ -4,6 +4,9 @@
 
 recurrence-rule-too-complex = Không xác định lặp lại chi tiết
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth = mỗi ngày
+recurrence-every-weekday = mỗi ngày-làm-việc
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on = mỗi { $weekdays }
 #  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth = mỗi tuần
