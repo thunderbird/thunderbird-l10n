@@ -10,6 +10,14 @@ new-event-dialog = Uus sündmus
 edit-event-dialog = Sündmuse omadused
 new-task-dialog = Uus ülesanne
 edit-task-dialog = Ülesande omadused
+# Remove attachments prompt.
+prompt-remove-attachments-title = Lisatud failide eemaldamine
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Kas soovid tõesti lisatud manuse eemaldada?
+       *[other] Kas soovid tõesti eemaldada { $count } lisatud manust?
+    }
 # Do you want to save changes?
 ask-save-title-event = Sündmuse salvestamine
 ask-save-title-task = Ülesande salvestamine
