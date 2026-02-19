@@ -10,6 +10,8 @@ new-event-dialog = Cita nova
 edit-event-dialog = Edita la cita
 new-task-dialog = Tasca nova
 edit-task-dialog = Edita la tasca
+# Remove attachments prompt.
+prompt-remove-attachments-title = Suprimeix les adjuncions
 # Do you want to save changes?
 ask-save-title-event = Desa la cita
 ask-save-title-task = Desa la tasca
