@@ -3,6 +3,16 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periodiškai, kas { $minutes } minutę
+            [few] Periodiškai, kas { $minutes } minutes
+           *[other] Periodiškai, kas { $minutes } minučių
+        }
+    .accesskey = e
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Filtro pritaikyti nepavyko: „{ $errorMsg }“, klaidos kodas { $errorCode }, bandant atlikti:
