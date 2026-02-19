@@ -66,3 +66,22 @@ gloda-indexing-folder-status-exact =
         [few] { $msgNumber } z { $count } powěsćow indicěruju se w { $folder }
        *[other] { $msgNumber } z { $count } powěsćow indicěrujo se w { $folder } ({ $percentComplete } % dokóńcone)
     }
+# Variables:
+#   $count - number of messages
+#   $folder - folder name
+gloda-indexed-folder =
+    { $count ->
+        [one] { $count } powěsć w { $folder } indicěrowana
+        [two] { $count } powěsći w { $folder } indicěrowanej
+        [few] { $count } powěsći w { $folder } indicěrowane
+       *[other] { $count } powěsćow w { $folder } indicěrowanych
+    }
+# Variables:
+#   $count - number of seconds
+gloda-indexed-folder-status =
+    { $count ->
+        [one] { $count } sekunda jo se minuła
+        [two] { $count } sekunźe stej se minułej
+        [few] { $count } sekundy su se minuli
+       *[other] { $count } sekundow jo se minuło
+    }
