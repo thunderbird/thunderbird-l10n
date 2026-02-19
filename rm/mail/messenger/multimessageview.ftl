@@ -13,6 +13,56 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Restaurar
     .tooltiptext = Restaurar
+# Variables:
+#   $count - total number of conversations (threads or solitary messages) selected
+num-conversations =
+    { $count ->
+        [one] { $count } conversaziun
+       *[other] { $count } conversaziuns
+    }
+# Variables:
+#   $count - the number of conversations. We use this when we didn't actually
+#       scan the entire list of selected messages, so there may be more
+#       conversations than reported (or maybe not!).
+at-least-num-conversations =
+    { $count ->
+        [one] { $count }+ conversaziun
+       *[other] { $count }+ conversaziuns
+    }
+# Variables:
+#   $count - number of messages.
+num-messages =
+    { $count ->
+        [one] { $count } messadi
+       *[other] { $count } messadis
+    }
+# The number of unread messages in a thread; meant to be appended to "num-messages".
+# Variables:
+#   $count - the number of unread messages.
+num-unread =
+    { $count ->
+        [one] , { $count } nunlegì
+       *[other] , { $count } nunlegids
+    }
+# The number of ignored messages in a thread; meant to be appended to
+# "num-messages".
+# Variables:
+#   $count - the number of ignored messages.
+num-ignored =
+    { $count ->
+        [one] , ignorà { $count }
+       *[other] , ignorà { $count }
+    }
+# The number of ignored messages in a thread; meant to be appended to "num-messages".
+# Variables:
+#   $count - is the number of ignored messages. We use this when we
+#       didn't actually scan the entire list of selected messages, so there may
+#       be more ignored messages than reported (or maybe not!).
+at-least-num-ignored =
+    { $count ->
+        [one] , ignorà { $count }+
+       *[other] , ignorà { $count }+
+    }
 # What to display for a message if it has no subject.
 no-subject = (nagin object)
 # A message indicating the total size on disk of the selected messages.
