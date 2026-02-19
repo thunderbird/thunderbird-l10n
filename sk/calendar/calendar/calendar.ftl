@@ -10,6 +10,15 @@ new-event-dialog = Nová udalosť
 edit-event-dialog = Upraviť udalosť
 new-task-dialog = Nová úloha
 edit-task-dialog = Upraviť úlohu
+# Remove attachments prompt.
+prompt-remove-attachments-title = Odstrániť prílohy
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Naozaj chcete odstrániť { $count } prílohu?
+        [few] Naozaj chcete odstrániť { $count } prílohy?
+       *[other] Naozaj chcete odstrániť { $count } príloh?
+    }
 # Do you want to save changes?
 ask-save-title-event = Uložiť udalosť
 ask-save-title-task = Uložiť úlohu
