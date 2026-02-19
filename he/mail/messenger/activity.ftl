@@ -3,6 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $count -  total number of downloaded messages
+pop3-event-status-text =
+    { $count ->
+        [one] הודעה אחת הורדה
+       *[other] { $count } הודעות הורדו
+    }
+# Variables:
 #   $count - number of messages
 #   $folderName - folder name
 deleted-messages-from-folder =
