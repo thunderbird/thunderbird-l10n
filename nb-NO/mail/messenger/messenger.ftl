@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Stopp sideinnlasting
     .label = Stopp
     .accesskey = S
+open-windows-warning-confirmation-title = Bekreft
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Åpning av { $count } melding kan ta lang tid. Fortsett?
+       *[other] Åpning av { $count } meldinger kan ta lang tid. Fortsett?
+    }
 open-tabs-warning-confirmation-title = Bekreft
 # Variables:
 #   $count - number of messages to open
