@@ -4,6 +4,25 @@
 
 recurrence-rule-too-complex = Repeat details unknown
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] every day
+       *[other] every { $interval } days
+    }
+recurrence-every-weekday = every weekday
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] every { $weekdays }
+       *[other] every { $interval } weeks on { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] every week
+       *[other] every { $interval } weeks
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] every day of every month
@@ -15,6 +34,20 @@ recurrence-repeat-ordinal-3 = the third
 recurrence-repeat-ordinal-4 = the fourth
 recurrence-repeat-ordinal-5 = the fifth
 recurrence-repeat-ordinal--1 = the last
+#  $ordinal - ordinal with article
+recurrence-ordinal-weekday = { $ordinal } { $weekday }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-every-of-every =
+    { $interval ->
+        [one] every { $weekdays } of every month
+       *[other] every { $weekdays } of every { $interval } months
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [one] { $weekdays } of every month
+       *[other] { $weekdays } of every { $interval } months
+    }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
     { $interval ->
