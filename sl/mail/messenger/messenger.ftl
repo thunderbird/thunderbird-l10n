@@ -82,6 +82,16 @@ content-tab-menu-stop-mac =
     .tooltiptext = Ustavi nalaganje strani
     .label = Ustavi
     .accesskey = U
+open-windows-warning-confirmation-title = Potrdi
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Odpiranje sporočila lahko traja. Želite nadaljevati?
+        [two] Odpiranje { $count } sporočil lahko traja. Želite nadaljevati?
+        [few] Odpiranje { $count } sporočil lahko traja. Želite nadaljevati?
+       *[other] Odpiranje { $count } sporočil lahko traja. Želite nadaljevati?
+    }
 open-tabs-warning-confirmation-title = Potrdi
 # Variables:
 #   $count - number of messages to open
