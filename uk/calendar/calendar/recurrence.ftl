@@ -4,6 +4,28 @@
 
 recurrence-rule-too-complex = Подробиці повторення невідомі
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] щоденно
+        [few] кожного { $interval } дня
+       *[many] кожного { $interval } дня
+    }
+recurrence-every-weekday = кожного буднього дня
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] кожного { $weekdays }
+        [few] кожного { $interval } тижня кожного { $weekdays }
+       *[many] кожного { $interval } тижня кожного { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] щотижня
+        [few] кожного { $interval } тижня
+       *[many] кожного { $interval } тижня
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] кожного дня кожного місяця
@@ -24,6 +46,13 @@ recurrence-monthly-every-of-every =
         [one] кожного { $weekdays } кожного місяця
         [few] кожного { $weekdays } кожного { $interval } місяця
        *[many] кожного { $weekdays } кожного { $interval } місяця
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [one] { $weekdays } кожного місяця
+        [few] { $weekdays } кожні { $interval } місяці
+       *[many] { $weekdays } кожні { $interval } місяців
     }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
