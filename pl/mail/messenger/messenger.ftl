@@ -81,6 +81,24 @@ content-tab-menu-stop-mac =
     .tooltiptext = Zatrzymaj wczytywanie strony
     .label = Zatrzymaj
     .accesskey = Z
+open-windows-warning-confirmation-title = Potwierdź
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Otworzenie wiadomości może trochę potrwać. Kontynuować?
+        [few] Otworzenie { $count } wiadomości może trochę potrwać. Kontynuować?
+       *[many] Otworzenie { $count } wiadomości może trochę potrwać. Kontynuować?
+    }
+open-tabs-warning-confirmation-title = Potwierdź
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Otworzenie wiadomości może trochę potrwać. Kontynuować?
+        [few] Otworzenie { $count } wiadomości może trochę potrwać. Kontynuować?
+       *[many] Otworzenie { $count } wiadomości może trochę potrwać. Kontynuować?
+    }
 
 ## Toolbar
 
@@ -644,3 +662,6 @@ prompt-dont-ask-again = Nie pytaj ponownie.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analiza niechcianej poczty ukończona w { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = Przetwarzanie niechcianej poczty
+
+## Ignore threads
+
