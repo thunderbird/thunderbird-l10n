@@ -4,6 +4,25 @@
 
 recurrence-rule-too-complex = Toistuvuuden lisätiedot tuntemattomia
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] joka päivä
+       *[other] joka { $interval }. päivä
+    }
+recurrence-every-weekday = joka arkipäivä
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] joka { $weekdays }
+       *[other] joka { $interval }. viikon { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] joka viikko
+       *[other] joka { $interval }. viikko
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] joka kuun jokainen päivä
@@ -15,6 +34,20 @@ recurrence-repeat-ordinal-3 = kolmas
 recurrence-repeat-ordinal-4 = neljäs
 recurrence-repeat-ordinal-5 = viides
 recurrence-repeat-ordinal--1 = viimeinen
+#  $ordinal - ordinal with article
+recurrence-ordinal-weekday = { $ordinal } { $weekday }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-every-of-every =
+    { $interval ->
+        [one] joka kuun jokainen { $weekdays }
+       *[other] joka { $interval }. kuun jokainen { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [one] joka kuun { $weekdays }
+       *[other] joka { $interval }. kuun { $weekdays }
+    }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
     { $interval ->
