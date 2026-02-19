@@ -10,6 +10,14 @@ new-event-dialog = Ny hendelse
 edit-event-dialog = Rediger hendelse
 new-task-dialog = Ny oppgave
 edit-task-dialog = Rediger oppgave
+# Remove attachments prompt.
+prompt-remove-attachments-title = Fjern vedlegg
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Vil du virkelig fjerne { $count } vedlegg?
+       *[other] Vil du virkelig fjerne { $count } vedlegg?
+    }
 # Do you want to save changes?
 ask-save-title-event = Lagre hendelse
 ask-save-title-task = Lagre oppgave
