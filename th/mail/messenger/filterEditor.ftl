@@ -10,6 +10,11 @@ run-filter-before-spam =
     .label = กรองก่อนจำแนกสแปม
 run-filter-after-spam =
     .label = กรองหลังจำแนกสแปม
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label = เป็นระยะทุกๆ นาที
+    .accesskey = e
 rule-action-set-spam-status =
     .label = ตั้งค่าสถานะสแปมเป็น
 # Variables:
