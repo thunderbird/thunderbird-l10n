@@ -26,6 +26,17 @@ messenger-window-close-button =
 
 # Stop
 
+open-windows-warning-confirmation-title = Dearbhaigh
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Seans go dtógfaidh sé tamall { $count } teachtaireacht a oscailt. An bhfuil fonn ort dul ar aghaidh?
+        [two] Seans go dtógfaidh sé tamall { $count } theachtaireacht a oscailt. An bhfuil fonn ort dul ar aghaidh?
+        [few] Seans go dtógfaidh sé tamall { $count } theachtaireacht a oscailt. An bhfuil fonn ort dul ar aghaidh?
+        [many] Seans go dtógfaidh sé tamall { $count } dteachtaireacht a oscailt. An bhfuil fonn ort dul ar aghaidh?
+       *[other] Seans go dtógfaidh sé tamall { $count } teachtaireacht a oscailt. An bhfuil fonn ort dul ar aghaidh?
+    }
 open-tabs-warning-confirmation-title = Dearbhaigh
 # Variables:
 #   $count - number of messages to open
