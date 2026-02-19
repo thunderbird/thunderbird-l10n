@@ -4,6 +4,13 @@
 
 recurrence-rule-too-complex = Kordumise üksikasjad teadmata
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] iga päev
+       *[other] iga { $interval } päeva järel
+    }
+recurrence-every-weekday = igal tööpäeval
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] igal { $weekdays }
