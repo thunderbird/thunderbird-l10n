@@ -75,3 +75,4 @@ filter-editor-pick-template-reply = Valitse vastauksen mallipohja.
 # $filterName (String) - The name of the filter that was applied.
 filter-continue-execution = Suodattimen { $filterName } käyttöönotto epäonnistui. Jatketaanko suodattimien käyttöönottoa?
 filter-list-backup-message = Suodattimesi eivät toimi, koska msgFilterRules.dat-tiedostoa, joka sisältää suodattimesi, ei voi lukea. Uusi msgFilterRules.dat-tiedosto luodaan, ja kopio vanhasta tiedostosta, nimeltä rulesbackup.dat, luodaan samaan hakemistoon.
+filter-invalid-custom-header = Yksi suodattimistasi käyttää otsaketta, jossa on virheellinen merkki, kuten ":", ei-tulostuva merkki, muu kuin ascii-merkki tai 8-bittinen ascii-merkki. Muokkaa msgFilterRules.dat -tiedostoa, joka sisältää suodattimesi, poistaaksesi virheelliset merkit otsakkeista.
