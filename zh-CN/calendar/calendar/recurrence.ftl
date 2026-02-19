@@ -4,6 +4,9 @@
 
 recurrence-rule-too-complex = 未知的详细重复信息
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth = 每天
+recurrence-every-weekday = 每周日
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on = 每 { $weekdays }
 #  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth = 每周
