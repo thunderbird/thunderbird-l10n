@@ -17,3 +17,11 @@ facets-mode-to-list-all-label =
         [one] Listar { $count }
        *[other] Listar tote le { $count }
     }
+# Last item in a a list like A, B, C and "3 others".
+# Variables:
+#   $count - the number items
+facet-view-and-others =
+    { $count ->
+        [one] { $count } altere
+       *[other] { $count } altere
+    }
