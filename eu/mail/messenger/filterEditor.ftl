@@ -5,6 +5,15 @@
 rule-menuitem-spam =
     .label = Spam
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Errepikatu, minutuero
+           *[other] Errepikatu, { $minutes } minututik behin
+        }
+    .accesskey = e
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Iragazketa ekintzak huts egin du: "{ $errorMsg }" ekintzak { $errorCode } errore mezua ondokoa saiatzean:
