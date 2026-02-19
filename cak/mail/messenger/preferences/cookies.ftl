@@ -37,3 +37,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Titz'apïx
     .accesskey = x
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Tiyuj ri Cha'on
+           *[other] Tiyuj ri Cha'on
+        }
