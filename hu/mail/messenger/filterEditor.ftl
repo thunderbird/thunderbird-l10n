@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Szűrés a levélszemét-osztályozás előtt
 run-filter-after-spam =
     .label = Szűrés a levélszemét-osztályozás után
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Időszakonként, percenként
+           *[other] Időszakonként, { $minutes } percenként
+        }
+    .accesskey = p
 rule-action-set-spam-status =
     .label = Levélszemét-állapot beállítása erre:
 # Variables:
