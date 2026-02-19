@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Filtroji përpara Klasifikimit Si të Padëshiruar
 run-filter-after-spam =
     .label = Filtroji pas Klasifikimit Si të Padëshiruar
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periodikisht, çdo minutë
+           *[other] Periodikisht, çdo { $minutes } minutë
+        }
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Vërja Gjendjen Për të Padëshiruar si
 # Variables:
