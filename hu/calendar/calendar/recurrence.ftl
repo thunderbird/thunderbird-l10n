@@ -4,6 +4,25 @@
 
 recurrence-rule-too-complex = Ismétlődés részletei ismeretlenek
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] minden nap
+       *[other] minden { $interval }. nap
+    }
+recurrence-every-weekday = minden hétköznap
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] minden { $weekdays }
+       *[other] minden { $interval }. héten { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] minden héten
+       *[other] minden { $interval }. héten
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] minden hónap minden napján
@@ -22,6 +41,12 @@ recurrence-monthly-every-of-every =
     { $interval ->
         [one] minden { $weekdays } minden hónapban
        *[other] minden { $weekdays } minden { $interval }. hónapban
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [one] { $weekdays } minden hónapban
+       *[other] { $weekdays } minden { $interval }. hónapban
     }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
