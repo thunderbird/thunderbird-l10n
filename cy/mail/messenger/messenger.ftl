@@ -694,3 +694,30 @@ prompt-dont-ask-again = Peidio â gofyn eto.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Wedi cwblhau { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } o'r dadansoddiad sbam
 spam-processing-message = Wrthi'n prosesu negeseuon sbam
+
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Ni fydd atebion i'r edefyn "{ $subject }" yn cael eu dangos.
+        [zero] Ni fydd atebion i'r { $count } edafedd a ddewiswyd yn cael eu dangos.
+        [two] Ni fydd atebion i'r { $count } edafedd a ddewiswyd yn cael eu dangos.
+        [few] Ni fydd atebion i'r { $count } edafedd a ddewiswyd yn cael eu dangos.
+        [many] Ni fydd atebion i'r { $count } edafedd a ddewiswyd yn cael eu dangos.
+       *[other] Ni fydd atebion i'r { $count } edafedd a ddewiswyd yn cael eu dangos.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Ni fydd atebion i'r is-linyn "{ $subject }" yn cael eu dangos.
+        [zero] Ni fydd atebion i'r { $count } is-edau a ddewiswyd yn cael eu dangos.
+        [two] Ni fydd atebion i'r { $count } is-edau a ddewiswyd yn cael eu dangos.
+        [few] Ni fydd atebion i'r { $count } is-edau a ddewiswyd yn cael eu dangos.
+        [many] Ni fydd atebion i'r { $count } is-edau a ddewiswyd yn cael eu dangos.
+       *[other] Ni fydd atebion i'r { $count } is-edau a ddewiswyd yn cael eu dangos.
+    }

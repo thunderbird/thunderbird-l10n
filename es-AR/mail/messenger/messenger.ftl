@@ -656,3 +656,22 @@ prompt-dont-ask-again = No preguntar de nuevo.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Análisis de spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } completo
 spam-processing-message = Procesando mensajes de spam
+
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Las respuestas al hilo "{ $subject }" no se mostrarán.
+       *[other] No se mostrarán las respuestas a las { $count } conversaciones que fueron seleccionadas.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Las respuestas al subconversación "{ $subject }" no se mostrarán.
+       *[other] Las respuestas a los { $count } subconversaciones que fueron seleccionadas no serán mostradas.
+    }

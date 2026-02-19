@@ -659,3 +659,22 @@ prompt-dont-ask-again = Ne plus demander à l’avenir.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analyse des messages indésirables { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } terminée
 spam-processing-message = Traitement des messages indésirables
+
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Les réponses au sujet de discussion « { $subject } » ne seront pas affichées.
+       *[other] Les réponses aux { $count } discussions qui étaient sélectionnées ne seront pas affichées.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Les réponses au sous-fil de discussion « { $subject } » ne seront pas affichées.
+       *[other] Les réponses aux sous-fils de discussion { $count } qui étaient sélectionnés ne seront pas affichées.
+    }

@@ -643,3 +643,20 @@ prompt-dont-ask-again = 不要再問我。
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = 垃圾信分析已完成 { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = 正在處理垃圾信
+
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+       *[other] 將不會顯示對 { $count } 被選擇的討論串的回覆。
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+       *[other] 將不會顯示對 { $count } 被選擇的討論串的回覆。
+    }
