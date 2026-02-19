@@ -4,6 +4,13 @@
 
 recurrence-rule-too-complex = Wiederholungsdetails unbekannt
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] jeden Tag
+       *[other] alle { $interval } Tage
+    }
+recurrence-every-weekday = jeden Werktag
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] jeden { $weekdays }
