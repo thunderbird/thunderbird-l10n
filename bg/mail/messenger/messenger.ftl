@@ -80,6 +80,22 @@ content-tab-menu-stop-mac =
     .tooltiptext = Спиране на зареждането на страницата
     .label = Спиране
     .accesskey = С
+open-windows-warning-confirmation-title = Потвърждаване
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Отварянето на { $count } съобщение може да е бавно. Продължаване?
+       *[other] Отварянето на { $count } съобщения може да е бавно. Продължаване?
+    }
+open-tabs-warning-confirmation-title = Потвърждаване
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Отварянето на { $count } съобщение може да е бавно. Продължаване?
+       *[other] Отварянето на { $count } съобщения може да е бавно. Продължаване?
+    }
 
 ## Toolbar
 
@@ -640,3 +656,6 @@ prompt-dont-ask-again = Спиране на този въпрос.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Анализ на нежелана поща { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } завършен
 spam-processing-message = Обработване на нежелани съобщения
+
+## Ignore threads
+
