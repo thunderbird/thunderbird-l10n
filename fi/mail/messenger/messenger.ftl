@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Pysäytä sivun lataaminen
     .label = Pysäytä
     .accesskey = S
+open-windows-warning-confirmation-title = Vahvista
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Viestin avaaminen voi olla hidasta. Jatketaanko silti?
+       *[other] { $count } viestin avaaminen voi olla hidasta. Jatketaanko silti?
+    }
 open-tabs-warning-confirmation-title = Vahvista
 # Variables:
 #   $count - number of messages to open
