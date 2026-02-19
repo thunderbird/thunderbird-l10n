@@ -88,6 +88,14 @@ open-windows-warning-confirmation =
         [one] { $count } Nachricht zu öffnen könnte lange dauern. Fortfahren?
        *[other] { $count } Nachrichten zu öffnen könnte lange dauern. Fortfahren?
     }
+open-tabs-warning-confirmation-title = Bestätigen
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] { $count } Nachricht zu öffnen könnte lange dauern. Fortfahren?
+       *[other] { $count } Nachrichten zu öffnen könnte lange dauern. Fortfahren?
+    }
 
 ## Toolbar
 
