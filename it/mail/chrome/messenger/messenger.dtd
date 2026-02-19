@@ -348,7 +348,7 @@
 <!ENTITY killThreadMenu.label "Ignora la discussione">
 <!ENTITY killThreadMenu.accesskey "o">
 <!ENTITY killThreadMenu.key "k">
-<!ENTITY killSubthreadMenu.label "Ignora sotto discussioni">
+<!ENTITY killSubthreadMenu.label "Ignora sottodiscussione">
 <!ENTITY killSubthreadMenu.accesskey "S">
 <!ENTITY killSubthreadMenu.key "k">
 <!ENTITY watchThreadMenu.label "Tieni d’occhio la discussione">
@@ -702,7 +702,7 @@
 <!ENTITY contextKillThreadMenu.label "Ignora la discussione">
 <!ENTITY contextKillSubthreadMenu.accesskey "d">
 <!ENTITY contextKillThreadMenu.accesskey "I">
-<!ENTITY contextKillSubthreadMenu.label "Ignora le sotto discussioni">
+<!ENTITY contextKillSubthreadMenu.label "Ignora sottodiscussione">
 <!ENTITY contextWatchThreadMenu.label "Tieni d’occhio la discussione">
 <!-- LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
      In the en-US locale we ran out of access keys, so there is an empty access key for
