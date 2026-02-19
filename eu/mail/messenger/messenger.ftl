@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Gelditu orria kargatzea
     .label = Gelditu
     .accesskey = G
+open-windows-warning-confirmation-title = Berretsi
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Mezua irekitzea makala izan daiteke. Jarraitu?
+       *[other] { $count } mezu irekitzea makala izan daiteke. Jarraitu?
+    }
 open-tabs-warning-confirmation-title = Berretsi
 # Variables:
 #   $count - number of messages to open
