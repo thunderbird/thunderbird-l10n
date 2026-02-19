@@ -4,6 +4,13 @@
 
 recurrence-rule-too-complex = Hollësira të panjohura përsëritjeje
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] çdo ditë
+       *[other] çdo { $interval } ditë
+    }
+recurrence-every-weekday = çdo ditë
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] çdo { $weekdays }
