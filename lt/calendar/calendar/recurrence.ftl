@@ -4,6 +4,14 @@
 
 recurrence-rule-too-complex = Kartojimosi ciklas nežinomas
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] kas { $interval } dieną
+        [few] kas { $interval } dienas
+       *[other] kas { $interval } dienų
+    }
+recurrence-every-weekday = kiekvieną darbo dieną
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] kas { $interval } savaitę, { $weekdays }
