@@ -44,8 +44,94 @@ recurrence-yearly-nth-on =
        *[other] every { $interval } years on { $month } { $monthDay }
     }
 #  $interval is a number, the recurrence interval
+recurrence-yearly-every-day-of =
+    { $interval ->
+        [one] every day of { $month }
+       *[other] every { $interval } years every day of { $month }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-yearly-nth-of-nth =
+    { $interval ->
+        [one] every { $weekday } of { $month }
+       *[other] every { $interval } years on every { $weekday } of { $month }
+    }
+#  $interval is a number, the recurrence interval
 recurrence-yearly-nth-on-nth-of =
     { $interval ->
         [one] { $ordinal } { $weekday } of every { $month }
        *[other] every { $interval } years on { $ordinal } { $weekday } of { $month }
     }
+# Variables:
+#   $ruleString - A rule as text
+#   $startDate - event start date (e.g. mm/gg/yyyy)
+#   $count - event occurrence times: number
+# e.g. "Occurs the first Sunday of every 3 month effective 1/1/2009 for 5 times"
+recurrence-repeat-count-all-day =
+    { $count ->
+        [one]
+            Occurs { $ruleString }
+            effective { $startDate } for { $count } time.
+       *[other]
+            Occurs { $ruleString }
+            effective { $startDate } for { $count } times.
+    }
+# Variables:
+#   $ruleString - A rule as text
+#   $startDate - event start date (e.g. mm/gg/yyyy)
+#   $untilDate - event occurrence times: number
+# e.g. "Occurs day 3 of every 5 month effective 1/1/2009 until 1/1/2010"
+recurrence-details-until-all-day =
+    Occurs { $ruleString }
+    effective { $startDate } until { $untilDate }.
+# LOCALIZATION NOTE (recurrence-details-infinite-all-day):
+# $ruleString - A rule as text
+# $startDate - event start date (e.g. mm/gg/yyyy)
+# e.g. "Occurs day 3 of every 5 month effective 1/1/2009"
+recurrence-details-infinite-all-day =
+    Occurs { $ruleString }
+    effective { $startDate }.
+# Variables:
+#   $ruleString - A rule as text
+#   $startDate - event start date (e.g. mm/gg/yyyy)
+#   $startTime - event start time (e.g. hh:mm (PM/AM))
+#   $endTime - event end time (e.g. hh:mm (PM/AM))
+#   $count - event occurrence times: number
+# E.g. "Occurs the first Sunday of every 3 month
+#  effective 1/1/2009 for 5 times
+#  from 5:00 PM to 6:00 PM"
+recurrence-repeat-count =
+    { $count ->
+        [one]
+            Occurs { $ruleString }
+            effective { $startDate } for { $count } time
+            from { $startTime } to { $endTime }.
+       *[other]
+            Occurs { $ruleString }
+            effective { $startDate } for { $count } times
+            from { $startTime } to { $endTime }.
+    }
+# Variables:
+#   $ruleString - A rule as text
+#   $startDate - event start date (e.g. mm/gg/yyyy)
+#   $untilDate - event end date (e.g. mm/gg/yyyy)
+#   $startTime - event start time (e.g. hh:mm (PM/AM))
+#   $endTime - event end time (e.g. hh:mm (PM/AM))
+# E.g. "Occurs every 2 weeks on Sunday and Friday
+#  effective 1/1/2009 until 1/1/2010
+#  from 5:00 PM to 6:00 PM"
+recurrence-repeat-details-until =
+    Occurs { $ruleString }
+    effective { $startDate } until { $untilDate }
+    from { $startTime } to { $endTime }.
+# Variables:
+#   $ruleString - A rule as text
+#   $startDate - event start date (e.g. mm/gg/yyyy)
+#   $startTime - event start time (e.g. hh:mm (PM/AM))
+#   $endTime - event end time (e.g. hh:mm (PM/AM))
+# E.g. "Occurs day 3 of every 5 month
+#  effective 1/1/2009
+#  from 5:00 PM to 6:00 PM"
+recurrence-repeat-details-infinite =
+    Occurs { $ruleString }
+    effective { $startDate }
+    from { $startTime } to { $endTime }.
