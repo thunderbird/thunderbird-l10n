@@ -81,6 +81,15 @@ content-tab-menu-stop-mac =
     .tooltiptext = Zastaví načítání stránky
     .label = Zastavit
     .accesskey = Z
+open-windows-warning-confirmation-title = Potvrzení
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Otevření { $count } zprávy může být pomalé. Chcete pokračovat?
+        [few] Otevření { $count } zpráv může být pomalé. Chcete pokračovat?
+       *[other] Otevření { $count } zpráv může být pomalé. Chcete pokračovat?
+    }
 open-tabs-warning-confirmation-title = Potvrzení
 # Variables:
 #   $count - number of messages to open
