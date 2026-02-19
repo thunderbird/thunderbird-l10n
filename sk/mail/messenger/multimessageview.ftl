@@ -13,3 +13,73 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Zrušiť odstránenie
     .tooltiptext = Zrušiť odstránenie
+# Variables:
+#   $count - the number of conversations. We use this when we didn't actually
+#       scan the entire list of selected messages, so there may be more
+#       conversations than reported (or maybe not!).
+at-least-num-conversations =
+    { $count ->
+        [one] { $count }+ konverzácia
+        [few] { $count }+ konverzácie
+       *[other] { $count }+ konverzácií
+    }
+# Variables:
+#   $count - number of messages.
+num-messages =
+    { $count ->
+        [one] { $count } správa
+        [few] { $count } správy
+       *[other] { $count } správ
+    }
+# The number of unread messages in a thread; meant to be appended to "num-messages".
+# Variables:
+#   $count - the number of unread messages.
+num-unread =
+    { $count ->
+        [one] , { $count } neprečítaná
+        [few] , { $count } neprečítané
+       *[other] , { $count } neprečítaných
+    }
+# The number of ignored messages in a thread; meant to be appended to
+# "num-messages".
+# Variables:
+#   $count - the number of ignored messages.
+num-ignored =
+    { $count ->
+        [one] , { $count } ignorovaná
+        [few] , { $count } ignorované
+       *[other] , { $count } ignorovaných
+    }
+# The number of ignored messages in a thread; meant to be appended to "num-messages".
+# Variables:
+#   $count - is the number of ignored messages. We use this when we
+#       didn't actually scan the entire list of selected messages, so there may
+#       be more ignored messages than reported (or maybe not!).
+at-least-num-ignored =
+    { $count ->
+        [one] , { $count }+ ignorovaná
+        [few] , { $count }+ ignorované
+       *[other] , { $count }+ ignorovaných
+    }
+# What to display for a message if it has no subject.
+no-subject = (bez predmetu)
+# A message indicating the total size on disk of the selected messages.
+# Variables:
+#   $numBytes - the size, e.g. "123 KB".
+messages-total-size = Súhrnná veľkosť týchto správ: { $numBytes }.
+# A message indicating the total size on disk of the selected messages. We use
+# this when we didn't actually scan the entire list of selected messages, so
+# this is a *minimum* size.
+# Variables:
+#   $numBytes - the size, e.g. "123 KB".
+messages-total-size-more-than = Súhrnná veľkosť týchto správ: viac ako { $numBytes }.
+# A message to let the user know that not all of the selected messages were summarized.
+# Variables:
+#   $total - the total number of messages selected
+#   $shown - is the number of messages actually shown
+max-count-exceeded = (Poznámka: označených je { $total } správ, zobrazuje sa prvých { $shown })
+# A message to let the user know that all of the selected threads were summarized.
+# Variables:
+#   $total - is the total number of threads selected
+#   $shown - the number of threads actually shown
+max-thread-count-exceeded = (Poznámka: označených je { $total } vlákien, zobrazuje sa prvých { $shown })
