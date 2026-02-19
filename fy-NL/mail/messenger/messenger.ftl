@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Side laden stopje
     .label = Stopje
     .accesskey = S
+open-windows-warning-confirmation-title = Befêstigje
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] It iepenjen fan { $count } berjocht ferrint miskien stadich. Trochgean?
+       *[other] It iepenjen fan { $count } berjochten ferrint miskien stadich. Trochgean?
+    }
 open-tabs-warning-confirmation-title = Befêstigje
 # Variables:
 #   $count - number of messages to open
