@@ -82,6 +82,16 @@ content-tab-menu-stop-mac =
     .tooltiptext = Sguir de luchdadh na duilleige
     .label = Sguir dheth
     .accesskey = { "" }
+open-windows-warning-confirmation-title = Dearbh
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Dh'fhaodadh gum biodh e slaodadh { $count } teachdaireachd fhosgladh. A bheil tu airson leantainn air adhart?
+        [two] Dh'fhaodadh gum biodh e slaodadh { $count } theachdaireachd fhosgladh. A bheil tu airson leantainn air adhart?
+        [few] Dh'fhaodadh gum biodh e slaodadh { $count } teachdaireachdan fhosgladh. A bheil tu airson leantainn air adhart?
+       *[other] Dh'fhaodadh gum biodh e slaodadh { $count } teachdaireachd fhosgladh. A bheil tu airson leantainn air adhart?
+    }
 open-tabs-warning-confirmation-title = Dearbh
 # Variables:
 #   $count - number of messages to open
