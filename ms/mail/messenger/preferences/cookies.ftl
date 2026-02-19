@@ -37,3 +37,7 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Tutup
     .accesskey = T
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label = Buang Yang Dipilih
