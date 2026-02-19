@@ -4,6 +4,13 @@
 
 recurrence-rule-too-complex = გამეორების დეტალები უცნობია
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] ყოველდღე
+       *[other] ყოველ { $interval } დღეში
+    }
+recurrence-every-weekday = კვირის ყოველ დღეში
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] ყოველი { $weekdays }
