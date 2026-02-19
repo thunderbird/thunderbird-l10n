@@ -4,6 +4,14 @@
 
 recurrence-rule-too-complex = Detalii de repetare necunoscute
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] zilnic
+        [few] la fiecare { $interval } zile
+       *[other] la fiecare { $interval } zile
+    }
+recurrence-every-weekday = în fiecare zi a săptămânii
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] în fiecare { $weekdays }
