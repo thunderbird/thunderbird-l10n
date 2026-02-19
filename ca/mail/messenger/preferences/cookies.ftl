@@ -38,3 +38,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Tanca
     .accesskey = T
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Suprimeix la seleccionada
+           *[other] Suprimeix les seleccionades
+        }
