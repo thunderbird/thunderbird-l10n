@@ -39,3 +39,8 @@ filter-action-log-unread = o‘qilmagan deb belgilandi
 filter-editor-must-select-target-folder = Siz mo‘ljaldagi jildni tanlashingiz lozim.
 filter-editor-enter-valid-email-forward = Uzatish uchun ishlaydigan e-pochta manzilini kiriting.
 filter-editor-pick-template-reply = Javob yozish uchun namuna matnni tanlang.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = { $filterName } filterini qo‘llab bo‘lmadi. Filterlarni qo‘llashda davom etasizmi?
+filter-list-backup-message = Filterlaringiz ishlamadi, chunki filterlaringiz saqlangan msgFilterRules.dat faylini o‘qib bo‘lmadi. Yangi msgFilterRules.dat fayli yaratiladi va eski faylning rulesbackup.dat deb nomlangan zaxira nusxasi ayni shu jillda yaratiladi.
+filter-invalid-custom-header = Filterlaringizdan birida ‘:’, chop qilib bo‘lmaydigan, ascii yoki sakkiz bitlik ascii xususiyatga ega bo‘lmagan noto‘g‘ri belgilar bor. Odatdagi sarlavhalaringizdan yaroqsiz belgilarni olib tashlash uchun filterlaringiz joylashgan msgFilterRules.dat faylini tahrir qiling.
