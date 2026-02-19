@@ -14,6 +14,13 @@ multi-message-undelete-button =
     .label = Fortryd sletning
     .tooltiptext = Fortryd sletning
 # Variables:
+#   $count - total number of conversations (threads or solitary messages) selected
+num-conversations =
+    { $count ->
+        [one] { $count } korrespondance
+       *[other] { $count } korrespondancer
+    }
+# Variables:
 #   $count - the number of conversations. We use this when we didn't actually
 #       scan the entire list of selected messages, so there may be more
 #       conversations than reported (or maybe not!).
