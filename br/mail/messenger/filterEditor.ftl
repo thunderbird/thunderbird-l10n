@@ -47,3 +47,8 @@ filter-log-line = [{ $timestamp }] { $message }
 filter-editor-must-select-target-folder = Ret eo deoc'h diuzañ un teuliad bukenn.
 filter-editor-enter-valid-email-forward = Enankañ ur chomlec'h postel talvoudek da lakaat da dremen daviti.
 filter-editor-pick-template-reply = Dibab ur patrom da respont gantañ.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = C'hwitadenn war arloañ ar sil { $filterName }. Ha fellout a ra deoc'h kenderc'hel gant arloañ siloù ?
+filter-list-backup-message = Ned a ket ho siloù en-dro rak n'hall ket bezañ lennet ar restr  msgFilterRules.dat, enni emañ ho siloù. Ur restr msgFilterRules.dat nevez a vo krouet hag ur gwared eus ar restr kozh, anvet rulesbackup.dat, a vo krouet en hevelep kavlec'hiad.
+filter-invalid-custom-header = Unan eus ho siloù a arver un talbenn ennañ arouezennoù didalvoudek evel ‘:’ pe un arouezenn anvoullus un arouezenn anascii pe un arouezenn ascii eizh bit. Embannit ar restr msgFilterRules.dat, enni ho siloù, evit dilemel an arouezenn didalvoudek diouzh ho talbennoù personelaet.
