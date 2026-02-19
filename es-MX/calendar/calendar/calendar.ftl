@@ -12,6 +12,7 @@ new-task-dialog = Nueva tarea
 edit-task-dialog = Editar tarea
 # Remove attachments prompt.
 prompt-remove-attachments-title = Eliminar adjuntos
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

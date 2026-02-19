@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = มีชื่อไดเรกทอร�
 address-book-ldap-creation-error = ไม่สามารถสร้างไดเรกทอรี LDAP ได้
 account-hub-email-setup-ews = การตั้งค่าเซิร์ฟเวอร์
 account-hub-result-exchange-url-label = URL ของตำแหน่งข้อมูล Exchange
-account-hub-result-host-url-label = URL ของตำแหน่งข้อมูล EWS
 account-hub-email-credentials-confirmation = การกำหนดค่าบัญชี
 account-hub-result-unknown-hostname = ไม่รู้จักชื่อโฮสต์
 account-hub-result-username-label = ชื่อผู้ใช้

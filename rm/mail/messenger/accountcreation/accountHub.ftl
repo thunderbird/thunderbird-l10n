@@ -119,7 +119,6 @@ address-book-carddav-connection-error = Connexiun betg reussida.
 address-book-ldap-duplicate-error = Il num dal register LDAP exista gia. Endatescha per plaschair in auter num.
 address-book-ldap-creation-error = Impussibel da crear in register LDAP.
 account-hub-email-setup-ews = Parameters dal server
-account-hub-result-host-url-label = URL dal punct final EWS
 account-hub-email-credentials-confirmation = Configuraziun dal conto
 account-hub-result-unknown-hostname = Num da host nunenconuschent
 account-hub-result-unknown-cert = Certificat betg verifitgà

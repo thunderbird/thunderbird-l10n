@@ -12,6 +12,7 @@ new-task-dialog = Uus ülesanne
 edit-task-dialog = Ülesande omadused
 # Remove attachments prompt.
 prompt-remove-attachments-title = Lisatud failide eemaldamine
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

@@ -656,6 +656,3 @@ prompt-dont-ask-again = Das nächste Mal nicht nachfragen
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Spam-Analyse zu { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } abgeschlossen
 spam-processing-message = Spam-Nachrichten werden verarbeitet
-
-## Ignore threads
-

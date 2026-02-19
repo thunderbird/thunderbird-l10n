@@ -12,6 +12,7 @@ new-task-dialog = Sarcină nouă
 edit-task-dialog = Editează sarcina
 # Remove attachments prompt.
 prompt-remove-attachments-title = Elimină atașamentele
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

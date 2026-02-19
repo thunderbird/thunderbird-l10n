@@ -120,7 +120,6 @@ address-book-carddav-connection-error = S’u arrit të lidhet.
 address-book-ldap-duplicate-error = Emri i drejtorisë LDAP ekziston tashmë. Ju lutemi, jepni për një emër tjetër drejtorie.
 address-book-ldap-creation-error = S"u krijua dot Drejtori LDAP.
 account-hub-email-setup-ews = Rregullime Shërbyesi
-account-hub-result-host-url-label = URL pikëmbarimi EWS
 account-hub-email-credentials-confirmation = Formësim Llogarie
 account-hub-result-unknown-hostname = Strehëemër i Panjohur
 account-hub-result-unknown-cert = Dëshmi e Paverifikuar

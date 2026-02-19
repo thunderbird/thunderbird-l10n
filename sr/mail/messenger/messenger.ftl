@@ -298,9 +298,6 @@ repair-text-encoding-button =
 no-reply-title = Одговор није подржан
 no-reply-reply-anyway-button = Ипак одговори
 
-## error messages
-
-
 ## Spaces toolbar
 
 spaces-toolbar-button-mail2 =
@@ -365,33 +362,12 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
-## Actions for the New Mail Notification
-
 
 ## Message list.
 
@@ -425,12 +401,3 @@ message-group-starred = Са звездицом
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = и др.
-
-## Prompts
-
-
-## Spam commands
-
-
-## Ignore threads
-

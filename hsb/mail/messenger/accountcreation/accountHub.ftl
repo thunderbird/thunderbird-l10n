@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = Mjeno zapisa LDAP hižo eksistuje. Prošu za
 address-book-ldap-creation-error = Zapis LDAP njeda so załožić.
 account-hub-email-setup-ews = Serwerowe nastajenja
 account-hub-result-exchange-url-label = URL kónčneho dypka Exchange
-account-hub-result-host-url-label = URL kónčneho dypka EWS
 account-hub-email-credentials-confirmation = Kontowa konfiguracija
 account-hub-result-unknown-hostname = Njeznate hostmjeno
 account-hub-result-unknown-cert = Njewobkrućeny certifikat

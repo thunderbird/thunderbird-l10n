@@ -12,6 +12,7 @@ new-task-dialog = Tawuri tamaynut
 edit-task-dialog = Ẓreg tawuri
 # Remove attachments prompt.
 prompt-remove-attachments-title = Kkes imeddayen
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

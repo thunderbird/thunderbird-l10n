@@ -12,6 +12,7 @@ new-task-dialog = Punë e Re
 edit-task-dialog = Përpunoni Punë
 # Remove attachments prompt.
 prompt-remove-attachments-title = Hiqni Bashkëngjitjet
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

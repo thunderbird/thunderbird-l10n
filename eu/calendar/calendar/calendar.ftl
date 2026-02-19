@@ -12,6 +12,7 @@ new-task-dialog = Zeregin berria
 edit-task-dialog = Editatu zeregina
 # Remove attachments prompt.
 prompt-remove-attachments-title = Ezabatu eranskinak
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

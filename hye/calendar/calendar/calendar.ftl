@@ -12,6 +12,7 @@ new-task-dialog = Նոր առաջադրանք
 edit-task-dialog = Խմբագրել առաջադրանքը
 # Remove attachments prompt.
 prompt-remove-attachments-title = Հեռացնել կցորդները
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text = Արդեւք ցանկանում է՞ք հեռացնել { $count } կցորդը։Արդե՞ւք ցանկանում է՞ք հեռացնել  { $count } կցորդները։
 # Do you want to save changes?

@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = Nama direktori LDAP sudah ada. Masukkan nama
 address-book-ldap-creation-error = Tidak dapat membuat Direktori LDAP.
 account-hub-email-setup-ews = Pengaturan Server
 account-hub-result-exchange-url-label = URL titik akhir Exchange
-account-hub-result-host-url-label = URL titik akhir EWS
 account-hub-email-credentials-confirmation = Konfigurasi Akun
 account-hub-result-unknown-hostname = Nama Host Tidak Dikenal
 account-hub-result-unknown-cert = Sertifikat Belum Diverifikasi

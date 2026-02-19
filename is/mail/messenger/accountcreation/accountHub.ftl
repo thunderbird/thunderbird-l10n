@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = Heiti LDAP-möppunnar er þegar til staðar.
 address-book-ldap-creation-error = Gat ekki útbúið LDAP-möppu.
 account-hub-email-setup-ews = Stillingar netþjóns
 account-hub-result-exchange-url-label = Vefslóð Exchange-endapunkts
-account-hub-result-host-url-label = Slóð á endapunkt EWS
 account-hub-email-credentials-confirmation = Stillingar reiknings
 account-hub-result-unknown-hostname = Óþekkt vélarheiti
 account-hub-result-unknown-cert = Óstaðfest skilríki

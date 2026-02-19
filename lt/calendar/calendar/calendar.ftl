@@ -12,6 +12,7 @@ new-task-dialog = Naujas darbas
 edit-task-dialog = Darbo aprašo taisa
 # Remove attachments prompt.
 prompt-remove-attachments-title = Pašalinti priedus
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

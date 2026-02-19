@@ -676,6 +676,3 @@ prompt-dont-ask-again = Příště se už neptat.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analýza nevyžádané pošty dokončena z { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = Zpracovává se nevyžádaná pošta
-
-## Ignore threads
-

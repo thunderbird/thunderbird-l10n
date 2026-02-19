@@ -12,6 +12,7 @@ new-task-dialog = 新建任务
 edit-task-dialog = 编辑任务
 # Remove attachments prompt.
 prompt-remove-attachments-title = 移除附件
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text = 您确定要移除 { $count } 个附件吗？
 # Do you want to save changes?

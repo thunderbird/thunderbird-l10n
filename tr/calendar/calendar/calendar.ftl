@@ -12,6 +12,7 @@ new-task-dialog = Yeni görev
 edit-task-dialog = Görevi düzenle
 # Remove attachments prompt.
 prompt-remove-attachments-title = Ekleri sil
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

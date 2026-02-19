@@ -12,6 +12,7 @@ new-task-dialog = Ny uppgift
 edit-task-dialog = Ändra uppgift
 # Remove attachments prompt.
 prompt-remove-attachments-title = Radera bifogade filer
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

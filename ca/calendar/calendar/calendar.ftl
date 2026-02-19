@@ -12,6 +12,7 @@ new-task-dialog = Tasca nova
 edit-task-dialog = Edita la tasca
 # Remove attachments prompt.
 prompt-remove-attachments-title = Suprimeix les adjuncions
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

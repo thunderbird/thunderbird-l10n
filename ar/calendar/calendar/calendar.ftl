@@ -12,6 +12,7 @@ new-task-dialog = مهمة جديدة
 edit-task-dialog = تحرير مهمة
 # Remove attachments prompt.
 prompt-remove-attachments-title = إزالة المرفقات
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

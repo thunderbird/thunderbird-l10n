@@ -626,6 +626,3 @@ prompt-dont-ask-again = Đừng hỏi lại.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Phân tích thư rác { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } đã hoàn tất
 spam-processing-message = Đang xử lý thư rác
-
-## Ignore threads
-

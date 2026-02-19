@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = LDAP-katalognavnet finnes allerede. Skriv in
 address-book-ldap-creation-error = Kunne ikke opprette LDAP-katalog.
 account-hub-email-setup-ews = Serverinnstillinger
 account-hub-result-exchange-url-label = URL-adresse for Exchange-endepunkt
-account-hub-result-host-url-label = URL-adresse for EWS-endepunkt
 account-hub-email-credentials-confirmation = Kontokonfigurasjon
 account-hub-result-unknown-hostname = Ukjent hostnavn
 account-hub-result-unknown-cert = Ubekreftet sertifikat

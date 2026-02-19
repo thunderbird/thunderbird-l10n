@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = LDAP 目录名已经存在，请输入其他
 address-book-ldap-creation-error = 无法创建 LDAP 目录。
 account-hub-email-setup-ews = 服务器设置
 account-hub-result-exchange-url-label = Exchange 端点网址
-account-hub-result-host-url-label = EWS 端点网址
 account-hub-email-credentials-confirmation = 账户配置
 account-hub-result-unknown-hostname = 未知的主机名
 account-hub-result-unknown-cert = 未验证的证书

@@ -12,6 +12,7 @@ new-task-dialog = Nieuwe taak
 edit-task-dialog = Taak bewerken
 # Remove attachments prompt.
 prompt-remove-attachments-title = Bijlagen verwijderen
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

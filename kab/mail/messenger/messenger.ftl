@@ -127,9 +127,6 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Timeẓri yessden
     .accesskey = T
 
-## Folder names
-
-
 ## File Menu
 
 menu-file-save-as-file =
@@ -425,30 +422,12 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -486,12 +465,3 @@ message-group-starred = Ɣur-s itri
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = d wiyaḍ
-
-## Prompts
-
-
-## Spam commands
-
-
-## Ignore threads
-

@@ -656,6 +656,3 @@ prompt-dont-ask-again = Dit net mear freegje.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Net-winskeanalyze { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } foltôge
 spam-processing-message = Net-winske berjochten ferwurkje
-
-## Ignore threads
-

@@ -12,6 +12,7 @@ new-task-dialog = ახალი მოვლენა
 edit-task-dialog = დავალების ჩასწორება
 # Remove attachments prompt.
 prompt-remove-attachments-title = დანართების მოცილება
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

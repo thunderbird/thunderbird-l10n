@@ -12,6 +12,7 @@ new-task-dialog = Nový úkol
 edit-task-dialog = Upravit úkol
 # Remove attachments prompt.
 prompt-remove-attachments-title = Odstranit přílohu
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

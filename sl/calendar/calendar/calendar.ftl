@@ -12,6 +12,7 @@ new-task-dialog = Novo opravilo
 edit-task-dialog = Uredi opravilo
 # Remove attachments prompt.
 prompt-remove-attachments-title = Odstrani priponke
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

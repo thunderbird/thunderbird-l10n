@@ -12,6 +12,7 @@ new-task-dialog = Tasg Newydd
 edit-task-dialog = Golygu Tasg
 # Remove attachments prompt.
 prompt-remove-attachments-title = Tynnu Atodiad
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

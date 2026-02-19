@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = LDAP directory name already exists. Please i
 address-book-ldap-creation-error = Could not create LDAP Directory.
 account-hub-email-setup-ews = Server Settings
 account-hub-result-exchange-url-label = Exchange endpoint URL
-account-hub-result-host-url-label = EWS endpoint URL
 account-hub-email-credentials-confirmation = Account Configuration
 account-hub-result-unknown-hostname = Unknown Hostname
 account-hub-result-unknown-cert = Unverified Certificate

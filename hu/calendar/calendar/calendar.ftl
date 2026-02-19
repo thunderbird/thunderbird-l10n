@@ -12,6 +12,7 @@ new-task-dialog = Új feladat
 edit-task-dialog = Feladat szerkesztése
 # Remove attachments prompt.
 prompt-remove-attachments-title = Melléklet eltávolítása
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

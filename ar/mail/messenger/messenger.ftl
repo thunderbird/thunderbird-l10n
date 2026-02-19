@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Window controls
-
-
 ## Content tabs
 
 
@@ -45,23 +42,11 @@ open-tabs-warning-confirmation =
        *[other] فتح { $count } رسالة قد يكون بطيئًا. أتريد المواصلة؟
     }
 
-## Toolbar
-
-
-## Folder Pane
-
-
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = الوسوم
     .accesskey = و
-
-## Folder names
-
-
-## File Menu
-
 
 ## Edit Menu
 
@@ -96,9 +81,6 @@ menu-edit-newsgroup-properties =
     .label = خصائص مجموعة البريد
     .accesskey = م
 
-## Message Menu
-
-
 ## Shared Menu Items
 
 menu-move-again =
@@ -124,41 +106,11 @@ menu-copy-to =
     .label = انسخ إلى
     .accesskey = خ
 
-## AppMenu
-
-
 ## Context menu
 
 mail-context-menu-forward-forward =
     .label = إلى الأمام
     .accesskey = م
-
-## Message header pane
-
-
-## Message header customize panel
-
-
-## Action Button Context Menu
-
-
-## Add-on removal warning
-
-
-## no-reply handling
-
-
-## error messages
-
-
-## Spaces toolbar
-
-
-## Spaces toolbar pinned tab menupopup
-
-
-## Spaces toolbar customize panel
-
 
 ## Quick Filter Bar
 
@@ -172,33 +124,12 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
-## Actions for the New Mail Notification
-
 
 ## Message list.
 
@@ -228,12 +159,3 @@ message-group-no-attachments = لا مرفقات
 message-group-attachments = مُرفقات
 message-group-not-starred = بلا نجمة
 message-group-starred = عليها نجمة
-
-## Prompts
-
-
-## Spam commands
-
-
-## Ignore threads
-

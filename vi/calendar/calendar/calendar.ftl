@@ -12,6 +12,7 @@ new-task-dialog = Tác vụ mới
 edit-task-dialog = Chỉnh sửa tác vụ
 # Remove attachments prompt.
 prompt-remove-attachments-title = Xóa phần đính kèm
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text = Bạn có thực sự muốn xóa { $count } đính kèm không?
 # Do you want to save changes?

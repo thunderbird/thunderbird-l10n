@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = Mae enw cyfeiriadur LDAP eisoes yn bodoli. R
 address-book-ldap-creation-error = Methu creu Cyfeiriadur LDAP.
 account-hub-email-setup-ews = Gosodiadau'r Gweinydd
 account-hub-result-exchange-url-label = Cyfnewid URL pwynt terfyn
-account-hub-result-host-url-label = URL diweddbwynt EWS
 account-hub-email-credentials-confirmation = Ffurfweddu Cyfrif
 account-hub-result-unknown-hostname = Enw Gwesteiwr Anhysbys
 account-hub-result-unknown-cert = Tystysgrif heb ei Gwirio

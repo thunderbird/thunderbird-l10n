@@ -12,6 +12,7 @@ new-task-dialog = Nouvelle tâche{ " " }
 edit-task-dialog = Modifier la tâche{ " " }
 # Remove attachments prompt.
 prompt-remove-attachments-title = Supprimer les pièces jointes
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

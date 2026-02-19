@@ -12,6 +12,7 @@ new-task-dialog = K'ak'a' Samaj
 edit-task-dialog = Tinuk' Samaj
 # Remove attachments prompt.
 prompt-remove-attachments-title = Keyuj ri taqoj
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = LDAP-directorynaam bestaat al. Voer een ande
 address-book-ldap-creation-error = Kan LDAP-directory niet maken.
 account-hub-email-setup-ews = Serverinstellingen
 account-hub-result-exchange-url-label = Exchange-eindpunt-URL
-account-hub-result-host-url-label = EWS-eindpunt-URL
 account-hub-email-credentials-confirmation = Accountconfiguratie
 account-hub-result-unknown-hostname = Onbekende hostnaam
 account-hub-result-unknown-cert = Niet-geverifieerd certificaat

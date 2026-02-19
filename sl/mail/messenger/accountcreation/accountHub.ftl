@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = Ime imenika LDAP 탑e obstaja. Vnesite druga�
 address-book-ldap-creation-error = Imenika LDAP ni bilo mogo훾e ustvariti.
 account-hub-email-setup-ews = Nastavitve stre탑nika
 account-hub-result-exchange-url-label = URL kon훾ne to훾ke Exchange
-account-hub-result-host-url-label = URL kon훾ne to훾ke EWS
 account-hub-email-credentials-confirmation = Nastavitev ra훾una
 account-hub-result-unknown-hostname = Neznano ime gostitelja
 account-hub-result-unknown-cert = Nepotrjeno digitalno potrdilo

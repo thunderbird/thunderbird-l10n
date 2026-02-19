@@ -615,6 +615,3 @@ prompt-dont-ask-again = ไม่ต้องถามอีก
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = การวิเคราะห์สแปมเสร็จสมบูรณ์ { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = กำลังประมวลผลข้อความสแปม
-
-## Ignore threads
-

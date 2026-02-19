@@ -12,6 +12,7 @@ new-task-dialog = Нови задатак
 edit-task-dialog = Уреди задатак
 # Remove attachments prompt.
 prompt-remove-attachments-title = Уклони прилоге
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

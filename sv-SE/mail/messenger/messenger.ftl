@@ -655,6 +655,3 @@ prompt-dont-ask-again = Fråga inte igen.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Skräppostanalys { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } slutförd
 spam-processing-message = Bearbetar skräppostmeddelanden
-
-## Ignore threads
-

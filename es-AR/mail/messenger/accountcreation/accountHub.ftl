@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = El nombre del directorio LDAP ya existe. Ing
 address-book-ldap-creation-error = No se pudo crear el directorio LDAP.
 account-hub-email-setup-ews = Configuración del servidor
 account-hub-result-exchange-url-label = URL de endpoint de Exchange
-account-hub-result-host-url-label = URL de extremo de EWS
 account-hub-email-credentials-confirmation = Configuración de la cuenta
 account-hub-result-unknown-hostname = Nombre de servidor desconocido
 account-hub-result-unknown-cert = Certificado no verificado

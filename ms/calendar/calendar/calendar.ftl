@@ -12,6 +12,7 @@ new-task-dialog = Tugasan Baru
 edit-task-dialog = Edit Tugasan
 # Remove attachments prompt.
 prompt-remove-attachments-title = Buang Lampiran
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text = Adakah anda mahu mengalih keluar lampiran { $count }?
 # Do you want to save changes?

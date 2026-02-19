@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = Nazwa katalogu LDAP już istnieje. Wpisz inn
 address-book-ldap-creation-error = Nie można utworzyć katalogu LDAP.
 account-hub-email-setup-ews = Konfiguracja serwera
 account-hub-result-exchange-url-label = Adres URL punktu końcowego Exchange
-account-hub-result-host-url-label = Adres URL punktu końcowego EWS
 account-hub-email-credentials-confirmation = Konfiguracja konta
 account-hub-result-unknown-hostname = Nieznana nazwa hosta
 account-hub-result-unknown-cert = Niezweryfikowany certyfikat

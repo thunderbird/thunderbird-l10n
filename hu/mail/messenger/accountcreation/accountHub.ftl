@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = Az LDAP-címtárnév már létezik. Adjon me
 address-book-ldap-creation-error = Nem sikerült létrehozni az LDAP-címtárat.
 account-hub-email-setup-ews = Kiszolgálóbeállítások
 account-hub-result-exchange-url-label = Exchange végpont webcíme
-account-hub-result-host-url-label = EWS végpont webcíme
 account-hub-email-credentials-confirmation = Fiókbeállítás
 account-hub-result-unknown-hostname = Ismeretlen gépnév
 account-hub-result-unknown-cert = Nem ellenőrzött tanúsítvány

@@ -12,6 +12,7 @@ new-task-dialog = Nova incumbensa
 edit-task-dialog = Modifitgar l'incumbensa
 # Remove attachments prompt.
 prompt-remove-attachments-title = Allontanar las agiuntas
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

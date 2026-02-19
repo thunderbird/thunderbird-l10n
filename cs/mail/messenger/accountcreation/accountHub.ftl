@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = Název adresáře LDAP již existuje. Zadejt
 address-book-ldap-creation-error = Nelze vytvořit LDAP adresář.
 account-hub-email-setup-ews = Nastavení serveru
 account-hub-result-exchange-url-label = Adresa URL koncového bodu Exchange
-account-hub-result-host-url-label = URL koncového bodu EWS
 account-hub-email-credentials-confirmation = Nastavení účtu
 account-hub-result-unknown-hostname = Neznámý název serveru
 account-hub-result-unknown-cert = Neověřený certifikát

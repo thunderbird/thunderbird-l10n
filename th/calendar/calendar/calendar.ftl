@@ -12,6 +12,7 @@ new-task-dialog = งานใหม่
 edit-task-dialog = แก้ไขงาน
 # Remove attachments prompt.
 prompt-remove-attachments-title = เอาไฟล์แนบออก
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text = คุณต้องการเอา { $count } ไฟล์แนบออกหรือไม่?
 # Do you want to save changes?

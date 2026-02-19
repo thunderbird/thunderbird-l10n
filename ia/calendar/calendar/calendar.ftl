@@ -12,6 +12,7 @@ new-task-dialog = Nove activitate
 edit-task-dialog = Rediger activitate
 # Remove attachments prompt.
 prompt-remove-attachments-title = Remover annexos
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

@@ -12,6 +12,7 @@ new-task-dialog = משימה חדשה
 edit-task-dialog = עריכת משימה
 # Remove attachments prompt.
 prompt-remove-attachments-title = הסרת קבצים מצורפים
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

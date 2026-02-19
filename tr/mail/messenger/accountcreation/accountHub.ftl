@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = LDAP dizin adı zaten mevcut. Lütfen farkl�
 address-book-ldap-creation-error = LDAP dizini oluşturulamadı.
 account-hub-email-setup-ews = Sunucu ayarları
 account-hub-result-exchange-url-label = Exchange uç nokta adresi
-account-hub-result-host-url-label = EWS uç nokta adresi
 account-hub-email-credentials-confirmation = Hesap yapılandırması
 account-hub-result-unknown-hostname = Bilinmeyen sunucu
 account-hub-result-unknown-cert = Doğrulanmamış sertifika

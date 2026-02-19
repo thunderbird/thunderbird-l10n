@@ -12,6 +12,7 @@ new-task-dialog = Нове завдання
 edit-task-dialog = Редагувати завдання
 # Remove attachments prompt.
 prompt-remove-attachments-title = Вилучити вкладення
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

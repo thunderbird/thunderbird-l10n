@@ -694,6 +694,3 @@ prompt-dont-ask-again = Peidio â gofyn eto.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Wedi cwblhau { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } o'r dadansoddiad sbam
 spam-processing-message = Wrthi'n prosesu negeseuon sbam
-
-## Ignore threads
-

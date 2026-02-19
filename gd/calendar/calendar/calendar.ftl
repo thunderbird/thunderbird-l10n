@@ -12,6 +12,7 @@ new-task-dialog = Saothair ùr
 edit-task-dialog = Deasaich an t-saothair
 # Remove attachments prompt.
 prompt-remove-attachments-title = Thoir air falbh na ceanglachain
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

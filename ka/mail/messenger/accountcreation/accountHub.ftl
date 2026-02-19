@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = LDAP-საქაღალდის სა�
 address-book-ldap-creation-error = ვერ შეიქმნა LDAP-საქაღალდე.
 account-hub-email-setup-ews = სერვერის პარამეტრები
 account-hub-result-exchange-url-label = Exchange-წერტილის URL-ბმული
-account-hub-result-host-url-label = EWS-წერტილის URL-ბმული
 account-hub-email-credentials-confirmation = ანგარიშის გამართულობა
 account-hub-result-unknown-hostname = კვანძის უცნობი სახელი
 account-hub-result-unknown-cert = დაუმოწმებელი სერტიფიკატი

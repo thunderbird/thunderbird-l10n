@@ -12,6 +12,7 @@ new-task-dialog = Trevell nevez
 edit-task-dialog = Embann an drevell
 # Remove attachments prompt.
 prompt-remove-attachments-title = Dilemel ar stagadennoù
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

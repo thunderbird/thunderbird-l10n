@@ -12,6 +12,7 @@ new-task-dialog = Жаңа тапсырма
 edit-task-dialog = Тапсырманы түзету
 # Remove attachments prompt.
 prompt-remove-attachments-title = Салынымдарды өшіру
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

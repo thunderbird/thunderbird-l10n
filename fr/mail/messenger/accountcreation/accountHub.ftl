@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = Ce nom d’annuaire LDAP existe déjà. Veui
 address-book-ldap-creation-error = Impossible de créer l’annuaire LDAP.
 account-hub-email-setup-ews = Paramètres serveur
 account-hub-result-exchange-url-label = URL du point de terminaison Exchange
-account-hub-result-host-url-label = URL du point de terminaison EWS
 account-hub-email-credentials-confirmation = Configuration du compte
 account-hub-result-unknown-hostname = Nom d’hôte inconnu
 account-hub-result-unknown-cert = Certificat non vérifié

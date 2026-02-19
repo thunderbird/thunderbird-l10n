@@ -12,6 +12,7 @@ new-task-dialog = Nowy nadawk
 edit-task-dialog = Nadawk wobdźěłać
 # Remove attachments prompt.
 prompt-remove-attachments-title = Přiwěški wotstronić
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

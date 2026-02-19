@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = Tên thư mục LDAP đã tồn tại. Vui l
 address-book-ldap-creation-error = Không thể tạo Thư mục LDAP.
 account-hub-email-setup-ews = Cài đặt máy chủ
 account-hub-result-exchange-url-label = URL endpoint của Exchange
-account-hub-result-host-url-label = EWS endpoint URL
 account-hub-email-credentials-confirmation = Cấu hình tài khoản
 account-hub-result-unknown-hostname = Máy chủ không xác định
 account-hub-result-unknown-cert = Chứng chỉ chưa được xác minh

@@ -120,7 +120,6 @@ address-book-carddav-connection-error = Yhteyden muodostus epäonnistui.
 address-book-ldap-duplicate-error = LDAP-hakemiston nimi on jo olemassa. Anna toinen hakemiston nimi.
 address-book-ldap-creation-error = LDAP-hakemiston luominen epäonnistui.
 account-hub-email-setup-ews = Palvelimen asetukset
-account-hub-result-host-url-label = EWS-päätepisteen URL-osoite
 account-hub-email-credentials-confirmation = Tilin määritys
 account-hub-result-unknown-hostname = Tuntematon isäntänimi
 account-hub-result-unknown-cert = Vahvistamaton varmenne

@@ -12,6 +12,7 @@ new-task-dialog = Ny opgave
 edit-task-dialog = Rediger opgave
 # Remove attachments prompt.
 prompt-remove-attachments-title = Fjern vedhæftede filer
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text =
     { $count ->

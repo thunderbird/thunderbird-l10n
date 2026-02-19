@@ -122,7 +122,6 @@ address-book-ldap-duplicate-error = Το όνομα καταλόγου LDAP υπ
 address-book-ldap-creation-error = Δεν ήταν δυνατή η δημιουργία του καταλόγου LDAP.
 account-hub-email-setup-ews = Ρυθμίσεις διακομιστή
 account-hub-result-exchange-url-label = URL τελικού σημείου Exchange
-account-hub-result-host-url-label = URL τελικού σημείου EWS
 account-hub-email-credentials-confirmation = Ρύθμιση λογαριασμού
 account-hub-result-unknown-hostname = Άγνωστο όνομα κεντρικού υπολογιστή
 account-hub-result-unknown-cert = Μη επαληθευμένο πιστοποιητικό

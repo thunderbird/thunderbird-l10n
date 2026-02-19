@@ -12,6 +12,7 @@ new-task-dialog = 새 태스크
 edit-task-dialog = 태스크 편집
 # Remove attachments prompt.
 prompt-remove-attachments-title = 첨부 파일 삭제
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
 #  $count will be replaced with number of attachments
 prompt-remove-attachments-text = { $count }개의 첨부 파일을 삭제 하시겠습니까?
 # Do you want to save changes?
