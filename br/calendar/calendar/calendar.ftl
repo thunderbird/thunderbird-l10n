@@ -10,6 +10,17 @@ new-event-dialog = Darvoud nevez
 edit-event-dialog = Embann an darvoud
 new-task-dialog = Trevell nevez
 edit-task-dialog = Embann an drevell
+# Remove attachments prompt.
+prompt-remove-attachments-title = Dilemel ar stagadennoù
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Ha sur oc'h e fell deoc'h dilemel { $count } stagadenn?
+        [two] Ha sur oc'h e fell deoc'h dilemel { $count } stagadenn?
+        [few] Ha sur oc'h e fell deoc'h dilemel { $count } stagadenn?
+        [many] Ha sur oc'h e fell deoc'h dilemel { $count } a stagadennoù ?
+       *[other] Ha sur oc'h e fell deoc'h dilemel { $count } stagadenn?
+    }
 # Do you want to save changes?
 ask-save-title-event = Enrollañ an darvoud
 ask-save-title-task = Enrollañ an drevell
