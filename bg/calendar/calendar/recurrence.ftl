@@ -4,6 +4,25 @@
 
 recurrence-rule-too-complex = Данните за повторение са неизвестни
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] всеки ден
+       *[other] на всеки { $interval } дена
+    }
+recurrence-every-weekday = всеки делник
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] всеки { $weekdays }
+       *[other] на всеки { $interval } седмици в { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] всяка седмица
+       *[other] на всеки { $interval } седмици
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] всеки ден на всеки месец
@@ -22,6 +41,12 @@ recurrence-monthly-every-of-every =
     { $interval ->
         [one] всеки { $weekdays } на всеки месец
        *[other] всеки { $weekdays } на всеки { $interval } месеца
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [one] { $weekdays } на всеки месец
+       *[other] { $weekdays } на всеки { $interval } месеца
     }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
