@@ -10,6 +10,10 @@ new-event-dialog = เหตุการณ์ใหม่
 edit-event-dialog = แก้ไขเหตุการณ์
 new-task-dialog = งานใหม่
 edit-task-dialog = แก้ไขงาน
+# Remove attachments prompt.
+prompt-remove-attachments-title = เอาไฟล์แนบออก
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text = คุณต้องการเอา { $count } ไฟล์แนบออกหรือไม่?
 # Do you want to save changes?
 ask-save-title-event = บันทึกเหตุการณ์
 ask-save-title-task = บันทึกงาน
