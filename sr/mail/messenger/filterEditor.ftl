@@ -66,3 +66,8 @@ filter-log-message = Порука од филтера "{ $filterName }": { $mess
 filter-editor-must-select-target-folder = Морате изабрати одредишну фасциклу.
 filter-editor-enter-valid-email-forward = Унесите исправну мејл адресу на коју ће се прослеђивати.
 filter-editor-pick-template-reply = Изаберите шаблон са којим ће се одговарати.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Примена филтера { $filterName } није успела. Наставити са применом филтера?
+filter-list-backup-message = Ваши филтери не раде зато што се датотека msgFilterRules.dat, која садржи ваше филтере, не може прочитати. Нова msgFilterRules.dat датотека ће бити направљена и резерва старе датотеке са називом rulesbackup.dat исто направљена у истој фасцикли.
+filter-invalid-custom-header = Један од ваших филтера користи прилагођено заглавље које садржи неисправан знак, на пример „:“, знак који се не може приказати, знак ван ASCII табеле или осмобитни ASCII знак. Уредите msgFilterRules.dat датотеку, која садржи ваше филтере, тако да уклоните неисправне карактере из ваших прилагођених заглавља.
