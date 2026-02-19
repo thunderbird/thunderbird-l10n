@@ -10,6 +10,8 @@ new-event-dialog = Tachartas ùr
 edit-event-dialog = Deasaich an tachartas
 new-task-dialog = Saothair ùr
 edit-task-dialog = Deasaich an t-saothair
+# Remove attachments prompt.
+prompt-remove-attachments-title = Thoir air falbh na ceanglachain
 # Do you want to save changes?
 ask-save-title-event = Sàbhail an tachartas
 ask-save-title-task = Sàbhail an t-saothair
