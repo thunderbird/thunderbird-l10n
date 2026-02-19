@@ -10,6 +10,14 @@ new-event-dialog = ਨਵਾਂ ਈਵੈਂਟ
 edit-event-dialog = ਈਵੈਂਟ ਸੋਧੋ
 new-task-dialog = ਨਵਾਂ ਟਾਸਕ
 edit-task-dialog = ਟਾਸਕ ਸੋਧੋ
+# Remove attachments prompt.
+prompt-remove-attachments-title = Remove Attachments
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Do you really want to remove { $count } attachment?
+       *[other] Do you really want to remove { $count } attachments?
+    }
 # Do you want to save changes?
 ask-save-title-event = ਈਵੈਂਟ ਸੰਭਾਲੋ
 ask-save-title-task = ਟਾਸਕ ਸੰਭਾਲੋ
