@@ -10,6 +10,16 @@ new-event-dialog = Nowy podawk
 edit-event-dialog = Podawk wobdźěłać
 new-task-dialog = Nowy nadawk
 edit-task-dialog = Nadawk wobdźěłać
+# Remove attachments prompt.
+prompt-remove-attachments-title = Přiwěški wotstronić
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Chceće woprawdźe { $count } přiwěšk wotstronić?
+        [two] Chceće woprawdźe { $count } přiwěškaj wotstronić?
+        [few] Chceće woprawdźe { $count } přiwěški wotstronić?
+       *[other] Chceće woprawdźe { $count } přiwěškow wotstronić?
+    }
 # Do you want to save changes?
 ask-save-title-event = Podawk składować
 ask-save-title-task = Nadawk składować
