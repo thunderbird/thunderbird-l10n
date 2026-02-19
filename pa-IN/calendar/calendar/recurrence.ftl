@@ -14,6 +14,14 @@ recurrence-weekly-every-nth =
         [one] every week
        *[other] every { $interval } weeks
     }
+#  $ordinal - ordinal with article
+recurrence-ordinal-weekday = { $ordinal } { $weekday }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-every-of-every =
+    { $interval ->
+        [one] every { $weekdays } of every month
+       *[other] every { $weekdays } of every { $interval } months
+    }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-nth-of-every =
     { $interval ->
