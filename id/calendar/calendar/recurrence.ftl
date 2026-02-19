@@ -4,6 +4,10 @@
 
 recurrence-rule-too-complex = Detail perulangan tidak diketahui
 #  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on = setiap { $weekdays }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth = setiap minggu
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth = setiap hari tiap bulan
 recurrence-repeat-ordinal-1 = pertama
 recurrence-repeat-ordinal-2 = kedua
