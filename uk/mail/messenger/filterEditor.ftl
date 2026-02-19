@@ -3,6 +3,16 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Щохвилини
+            [few] Кожні { $minutes } хвилини
+           *[many] Кожні { $minutes } хвилин
+        }
+    .accesskey = х
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Збій застосування фільтру: "{ $errorMsg }" з кодом помилки={ $errorCode } при спробі:
