@@ -88,6 +88,14 @@ open-windows-warning-confirmation =
         [one] L’ouverture de ce message risque de prendre beaucoup de temps. Continuer ?
        *[other] L’ouverture de { $count } messages risque de prendre beaucoup de temps. Continuer ?
     }
+open-tabs-warning-confirmation-title = Confirmer
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] L’ouverture de ce message risque de prendre beaucoup de temps. Continuer ?
+       *[other] L’ouverture de { $count } messages risque de prendre beaucoup de temps. Continuer ?
+    }
 
 ## Toolbar
 
