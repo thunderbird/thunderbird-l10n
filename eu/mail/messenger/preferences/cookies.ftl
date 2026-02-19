@@ -38,3 +38,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Itxi
     .accesskey = I
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Kendu hautatutakoa
+           *[other] Kendu hautatutakoak
+        }
