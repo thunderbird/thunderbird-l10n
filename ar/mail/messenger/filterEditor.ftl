@@ -41,3 +41,8 @@ filter-action-log-unread = أشِّرت كغير مقروءة
 filter-editor-must-select-target-folder = عليك أن تختار المجلد الهدف.
 filter-editor-enter-valid-email-forward = أدخل عنوان بريد صحيح ليُمرّر إليه.
 filter-editor-pick-template-reply = اختر قالبًا للرد به.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = فشل تطبيق المرشِّح { $filterName }. أترغب في إكمال تطبيق المرشِّحات؟
+filter-list-backup-message = مُرشِّحاتك لا تعمل لأن ملف msgFilterRules.dat -الذي يحتوي على مرشِّحاتك- لا يمكن قراءته. سيُنشأ ملف msgFilterRules.dat جديد ونسخة احتياطية من القديم باسم rulesbackup.dat في نفس المجلّد.
+filter-invalid-custom-header = يستخدم واحدًا من مرشِّحاتك ترويسة مخصّصة تحتوي على محرف غير صحيح، مثل ‘:’، محرف لا يطبع، محرف خارج أسكي (ascii)، أو محرف أسكي 8 بت. من فضلك حرِّر ملف msgFilterRules.dat -الذي يحتوي على مرشِّحاتك- و احذف المحارف غير السليمة من ترويساتك المخصّصة.
