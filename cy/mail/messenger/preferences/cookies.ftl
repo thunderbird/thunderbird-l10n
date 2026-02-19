@@ -38,3 +38,15 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Cau
     .accesskey = u
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [zero] Peidio tynnu'r dewisiadau
+            [one] Tynnu'r dewis
+            [two] Tynnu'r dewis
+            [few] Tynnu'r dewis
+            [many] Tynnu'r dewis
+           *[other] Tynnu'r dewis
+        }
