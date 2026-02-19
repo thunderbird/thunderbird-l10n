@@ -81,6 +81,24 @@ content-tab-menu-stop-mac =
     .tooltiptext = Zaustavi učitavanje stranice
     .label = Zaustavi
     .accesskey = s
+open-windows-warning-confirmation-title = Potvrda
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Otvaranje { $count } poruke će možda biti sporo. Nastavi?
+        [few] Otvaranje { $count } poruke će možda biti sporo. Nastavi?
+       *[other] Otvaranje { $count } poruka će možda biti sporo. Nastavi?
+    }
+open-tabs-warning-confirmation-title = Potvrdi
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Otvaranje { $count } poruke će možda biti sporo. Nastavi?
+        [few] Otvaranje { $count } poruke će možda biti sporo. Nastavi?
+       *[other] Otvaranje { $count } poruka će možda biti sporo. Nastavi?
+    }
 
 ## Toolbar
 
@@ -649,3 +667,6 @@ prompt-dont-ask-again = Ne pitaj ponovo.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analiza neželjene pošte dovršena { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = Obrada neželjene pošte
+
+## Ignore threads
+
