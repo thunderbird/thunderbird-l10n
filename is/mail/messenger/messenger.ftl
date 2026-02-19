@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Hætta að hlaða síðu
     .label = Hætta
     .accesskey = H
+open-tabs-warning-confirmation-title = Staðfesta
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Að opna { $count } póst gæti verið hægvirkt. Halda áfram?
+       *[other] Að opna { $count } pósta gæti verið hægvirkt. Halda áfram?
+    }
 
 ## Toolbar
 
@@ -640,3 +648,6 @@ prompt-dont-ask-again = Ekki spyrja aftur.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Ruslpóstsgreiningu { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } lokið
 spam-processing-message = Vinn úr ruslpósti
+
+## Ignore threads
+
