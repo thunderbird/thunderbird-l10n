@@ -79,6 +79,10 @@ content-tab-menu-stop-mac =
     .tooltiptext = 停止載入頁面
     .label = 停止
     .accesskey = S
+open-windows-warning-confirmation-title = 確認
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation = 一次開啟 { $count } 封訊息可能會很緩慢，要繼續嗎？
 open-tabs-warning-confirmation-title = 確認
 # Variables:
 #   $count - number of messages to open
