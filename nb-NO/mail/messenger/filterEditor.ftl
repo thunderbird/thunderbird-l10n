@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Filtrer før søppelpost-klassifisering
 run-filter-after-spam =
     .label = Filtrer etter søppelpost-klassifisering
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periodisk, hvert minutt
+           *[other] Periodisk, hvert { $minutes } minutt
+        }
+    .accesskey = p
 rule-action-set-spam-status =
     .label = Sett søppelpoststatus til
 # Variables:
