@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Atura la càrrega de la pàgina
     .label = Atura
     .accesskey = A
+open-tabs-warning-confirmation-title = Confirmeu
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Obrir { $count } missatge pot ser lent. Voleu continuar?
+       *[other] Obrir { $count } missatges pot ser lent. Voleu continuar?
+    }
 
 ## Toolbar
 
@@ -128,6 +136,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Visualització compacta
     .accesskey = c
+
+## Folder names
+
 
 ## File Menu
 
@@ -485,12 +496,27 @@ openpgp-forget = Oblida les frases de contrasenya de l'OpenPGP
 quota-panel-percent-used = { $percent }% ple
     .title = Quota d'IMAP: { $usage } en ús d'un total de { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -524,3 +550,12 @@ message-group-starred = Destacats
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = i altres
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
