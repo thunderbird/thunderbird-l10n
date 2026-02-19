@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Filtrar ante le classification de posta indesirate
 run-filter-after-spam =
     .label = Filtrar post le classification de posta indesirate
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periodicamente cata minuta
+           *[other] Periodicamente, cata { $minutes } minutas
+        }
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Configurar como indesirate
 # Variables:
