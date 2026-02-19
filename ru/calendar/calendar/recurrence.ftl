@@ -4,6 +4,14 @@
 
 recurrence-rule-too-complex = Подробности повторения неизвестны
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] каждый день
+        [few] каждый { $interval } день
+       *[many] каждый { $interval } день
+    }
+recurrence-every-weekday = каждый будний день
+#  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] каждый { $weekdays }
