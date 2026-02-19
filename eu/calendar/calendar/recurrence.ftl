@@ -4,6 +4,25 @@
 
 recurrence-rule-too-complex = Errepikatzeko xehetasun ezezagunak
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] egunero
+       *[other] { $interval } egunetik behin
+    }
+recurrence-every-weekday = aste egunero
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] { $weekdays } guztietan
+       *[other] { $interval } astetik behin { $weekdays } guztietan
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] astero
+       *[other] { $interval } astetik behin
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] Hileko egun bakoitzean
@@ -15,6 +34,16 @@ recurrence-repeat-ordinal-3 = hirugarren
 recurrence-repeat-ordinal-4 = laugarren
 recurrence-repeat-ordinal-5 = bosgarren
 recurrence-repeat-ordinal--1 = azken
+#  $ordinal - ordinal with article
+recurrence-ordinal-weekday = { $ordinal } { $weekday }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-every-of-every =
+    { $interval ->
+        [one] Hilero, { $weekdays } guztietan
+       *[other] { $weekdays } guztietan { $interval } hiletik behin
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every = Hileroko { $weekdays }: { $interval } hiletik behin { $weekdays }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
     { $interval ->
