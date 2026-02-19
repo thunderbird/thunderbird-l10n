@@ -36,6 +36,12 @@ recurrence-monthly-every-of-every =
        *[other] jeden { $weekdays } jedes { $interval }. Monats
     }
 #  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [one] { $weekdays } jedes Monats
+       *[other] { $weekdays } jedes { $interval }. Monats
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
     { $interval ->
         [one] am letzten Tag des Monats
