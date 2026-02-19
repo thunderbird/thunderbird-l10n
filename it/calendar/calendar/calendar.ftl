@@ -10,6 +10,14 @@ new-event-dialog = Nuovo evento
 edit-event-dialog = Modifica evento
 new-task-dialog = Nuova attività
 edit-task-dialog = Modifica attività
+# Remove attachments prompt.
+prompt-remove-attachments-title = Rimuovi allegati
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Rimuovere { $count } allegato?
+       *[other] Rimuovere { $count } allegati?
+    }
 # Do you want to save changes?
 ask-save-title-event = Salva evento
 ask-save-title-task = Salva attività

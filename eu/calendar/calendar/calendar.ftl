@@ -10,6 +10,14 @@ new-event-dialog = Gertaera berria
 edit-event-dialog = Editatu gertaera
 new-task-dialog = Zeregin berria
 edit-task-dialog = Editatu zeregina
+# Remove attachments prompt.
+prompt-remove-attachments-title = Ezabatu eranskinak
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Ziur zaude eranskin { $count } kendu nahi duzula?
+       *[other] Ziur zaude { $count } eranskin kendu nahi dituzula?
+    }
 # Do you want to save changes?
 ask-save-title-event = Gorde gertaera
 ask-save-title-task = Gorde zeregina

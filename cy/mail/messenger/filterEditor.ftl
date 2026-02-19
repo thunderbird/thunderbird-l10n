@@ -10,6 +10,19 @@ run-filter-before-spam =
     .label = Hidlo cyn Dosbarthu'r Sbam
 run-filter-after-spam =
     .label = Hidlo ar ôl Dosbarthu'r Sbam
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [zero] O bryd i'w gilydd, bob munud
+            [one] O bryd i'w gilydd, bob { $minutes } munud
+            [two] O bryd i'w gilydd, bob { $minutes } funud
+            [few] O bryd i'w gilydd, bob { $minutes } munud
+            [many] O bryd i'w gilydd, bob { $minutes } munud
+           *[other] O bryd i'w gilydd, bob { $minutes } munud
+        }
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Gosod Statws Sbam i
 # Variables:

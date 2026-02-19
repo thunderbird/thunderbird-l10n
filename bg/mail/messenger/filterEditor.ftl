@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Филтриране пред класификация на нежелана поща
 run-filter-after-spam =
     .label = Филтриране след класификация на нежелана поща
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Периодично всяка минута
+           *[other] Периодично на всеки { $minutes } минути
+        }
+    .accesskey = е
 rule-action-set-spam-status =
     .label = Задаване на статус нежелана поща на
 # Variables:
@@ -68,3 +77,8 @@ filter-log-message = Съобщение от филтър „{ $filterName }“:
 filter-editor-must-select-target-folder = Трябва да изберете папка.
 filter-editor-enter-valid-email-forward = Въведете валиден адрес за препращане.
 filter-editor-pick-template-reply = Изберете шаблон за отговор.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Прилагането на филтъра { $filterName } е неуспешно. Ще продължите ли да прилагате филтри?
+filter-list-backup-message = Вашите филтри не работят, понеже файла msgFilterRules.dat, който съдържа тези филтри е нечетим. Ще бъде създаден нов файл msgFilterRules.dat, както и резервно копие на стария файл с име rulesbackup.dat в същата директория.
+filter-invalid-custom-header = Един от вашите филтри използва заглавка, която съдържа неподходящ знак, като ‘:’, знак, който не се отпечатва, не-ASCII знак или 8-битов знак. Моля, редактирайте файла msgFilterRules.dat, който съдържа вашите филтри, за да премахнете неподходящите знаци от личните ви заглавки.

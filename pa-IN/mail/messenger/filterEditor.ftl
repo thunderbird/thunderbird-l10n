@@ -35,3 +35,8 @@ filter-action-log-unread = marked as unread
 filter-editor-must-select-target-folder = ਤੁਹਾਨੂੰ ਇੱਕ ਨਿਸ਼ਾਨਾ ਫੋਲਡਰ ਚੁਣਨਾ ਚਾਹੀਦਾ ਹੈ।
 filter-editor-enter-valid-email-forward = ਅੱਗੇ ਭੇਜਣ ਲਈ ਠੀਕ ਈ-ਮੇਲ ਐਡਰੈੱਸ ਦਿਓ।
 filter-editor-pick-template-reply = ਜਵਾਬ ਦੇਣ ਲਈ ਟੈਪਲੇਟ ਦੀ ਚੋਣ ਕਰੋ।
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = ਫਿਲਟਰ { $filterName } ਲਾਗੂ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ ਹੈ। ਕੀ ਤੁਸੀ ਫਿਲਟਰ ਲਗਾਉਣ ਨੂੰ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?
+filter-list-backup-message = ਤੁਹਾਡਾ ਫਿਲਟਰ ਕੰਮ ਨਹੀਂ ਕਰੇਗਾ, ਕਿਉਕਿ msgFilterRules.dat ਫਾਇਲ, ਜਿਸ ਵਿੱਚ ਤੁਹਾਡੇ ਫਿਲਟਰ ਹਨ, ਨੂੰ ਪੜ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ ਹੈ। ਇੱਕ ਨਵੀਂ msgFilterRules.dat ਫਾਇਲ ਬਣਾਈ ਜਾਵੇਗੀ ਅਤੇ ਪੁਰਾਣੀ ਫਾਇਲ ਦਾ ਬੈਕਅੱਪ ਬਣਾਇਆ ਜਾਵੇਗਾ, ਜਿਸ ਨੂੰ rulesbackup.dat ਨਾਂ ਦਿੱਤਾ ਗਿਆ ਹੈ, ਇਸੇ ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਬਣੇਗਾ।
+filter-invalid-custom-header = ਤੁਹਾਡੇ ਫਿਲਟਰਾਂ ਵਿੱਚ ਇੱਕ ਵਿੱਚ ਪਸੰਦੀਦਾ ਹੈੱਡਰ ਇਸਤੇਮਾਲ ਕੀਤਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਇੱਕ ਗਲਤ ਅੱਖਰ, ਜਿਵੇਂ ਕਿ ‘:’, ਇੱਕ ਨਾ-ਛਾਪਣਯੋਗ ਅੱਖਰ, ਨਾ-ascii ਅੱਖਰ, ਜਾਂ ਅੱਠ-ਬਿੱਟ  ascii ਅੱਖਰ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ msgFilterRules.dat ਫਾਇਲ ਵਿੱਚ ਸੋਧ ਕਰੋ, ਜੋ ਕਿ ਤੁਹਾਡੇ ਫਿਲਟਰ ਰੱਖਦੀ ਹੈ, ਤਾਂ ਤੁਹਾਡੇ ਪਸੰਦੀਦਾ ਹੈੱਡਰ ਵਿੱਚ ਗਲਤ ਅੱਖਰ ਹਟਾਇਆ ਜਾ ਸਕੇ।

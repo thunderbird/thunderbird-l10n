@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Filtrar antes da classificação de lixo eletrónico
 run-filter-after-spam =
     .label = Filtrar depois da classificação de lixo eletrónico
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periodicamente, a cada minuto
+           *[other] Periodicamente, a cada { $minutes } minutos
+        }
+    .accesskey = o
 rule-action-set-spam-status =
     .label = Definir estado de lixo eletrónico para
 # Variables:
@@ -68,3 +77,8 @@ filter-log-message = Mensagem do filtro "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Tem de escolher uma pasta de destino.
 filter-editor-enter-valid-email-forward = Introduza um endereço de e-mail para reencaminhamento.
 filter-editor-pick-template-reply = Escolha o modelo a incluir na resposta.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Erro ao aplicar o filtro { $filterName }. Continuar a aplicar os filtros?
+filter-list-backup-message = Os seus filtros não funcionam porque o ficheiro msgFilterRules.dat , que contém os seus filtros, não pode ser lido. Um novo ficheiro msgFilterRules.dat será criado, assim como uma cópia de segurança do ficheiro antigo, com o nome rulesbackup.dat.
+filter-invalid-custom-header = Um ou mais filtros utilizam um cabeçalho personalizado que contém um caractere inválido, tal como ‘:’, um caractere não impresso, um caractere não-ascii, ou caracteres de oito-bit ascii. Por favor edite o ficheiro msgFilterRules.dat, que contém os seus filtros, para remover caracteres inválidos dos seus cabeçalhos personalizados.

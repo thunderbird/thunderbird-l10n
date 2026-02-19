@@ -10,6 +10,11 @@ run-filter-before-spam =
     .label = Filter sebelum Klasifikasi Spam
 run-filter-after-spam =
     .label = Filter setelah Klasifikasi Spam
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label = Secara berkala, setiap menit
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Setel Status Spam ke
 # Variables:
@@ -68,3 +73,8 @@ filter-log-message = Pesan dari filter "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Anda harus memilih folder target.
 filter-editor-enter-valid-email-forward = Masukkan email yang benar sebagai tujuan.
 filter-editor-pick-template-reply = Pilih templat email balasan.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Penerapan filter { $filterName } gagal. Apakah ingin melanjutkan menerapkan filter?
+filter-list-backup-message = Filter Anda tidak dapat bekerja karena berkas msgFilterRules.dat yang berisi filter Anda tidak dapat dibaca. Berkas msgFilterRules.dat yang baru telah dibuat dan cadangan berkas lama juga telah diberi nama rulesbackup.dat pada direktori yang sama.
+filter-invalid-custom-header = Salah satu filter Anda menggunakan header khusus yang mengandung karakter tidak sah seperti ‘:’, karakter yang tidak dapat dicetak, karakter non-ascii, atau karakter ascii delapan bit. Mohon sunting berkas msgFilterRules.dat yang mengandung filter Anda dan hapus karakter tidak sah dari header khusus Anda.

@@ -10,6 +10,14 @@ new-event-dialog = Rnu tadyant
 edit-event-dialog = Ẓreg tadyant
 new-task-dialog = Tawuri tamaynut
 edit-task-dialog = Ẓreg tawuri
+# Remove attachments prompt.
+prompt-remove-attachments-title = Kkes imeddayen
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Tebɣiḍ ad tekkseḍ { $count } n umedday?
+       *[other] Tebɣiḍ ad tekkseḍ { $count } n imeddayen?
+    }
 # Do you want to save changes?
 ask-save-title-event = Sekles tadyant
 ask-save-title-task = Sekles tawuri

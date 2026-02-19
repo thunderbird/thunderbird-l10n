@@ -10,6 +10,16 @@ new-event-dialog = Tachartas ùr
 edit-event-dialog = Deasaich an tachartas
 new-task-dialog = Saothair ùr
 edit-task-dialog = Deasaich an t-saothair
+# Remove attachments prompt.
+prompt-remove-attachments-title = Thoir air falbh na ceanglachain
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] A bheil thu cinnteach gu bheil thu airson an { $count } cheanglachan seo a thoirt air falbh?
+        [two] A bheil thu cinnteach gu bheil thu airson an { $count } cheanglachan seo a thoirt air falbh?
+        [few] A bheil thu cinnteach gu bheil thu airson na { $count } ceanglachain seo a thoirt air falbh?
+       *[other] A bheil thu cinnteach gu bheil thu airson an { $count } ceanglachan seo a thoirt air falbh?
+    }
 # Do you want to save changes?
 ask-save-title-event = Sàbhail an tachartas
 ask-save-title-task = Sàbhail an t-saothair

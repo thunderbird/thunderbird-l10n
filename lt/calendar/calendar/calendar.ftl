@@ -10,6 +10,15 @@ new-event-dialog = Naujas įvykis
 edit-event-dialog = Įvykio aprašo taisa
 new-task-dialog = Naujas darbas
 edit-task-dialog = Darbo aprašo taisa
+# Remove attachments prompt.
+prompt-remove-attachments-title = Pašalinti priedus
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Ar pašalinti { $count } priedą?
+        [few] Ar pašalinti { $count } priedus?
+       *[other] Ar pašalinti { $count } priedų?
+    }
 # Do you want to save changes?
 ask-save-title-event = Įvykio įrašymas
 ask-save-title-task = Darbo įrašymas

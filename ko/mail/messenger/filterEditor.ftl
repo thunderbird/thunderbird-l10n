@@ -3,6 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label = 주기적으로 { $minutes }분 마다
+    .accesskey = e
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = 필터 적용 실패: "{ $errorMsg }" 오류 코드={ $errorCode }, 시도된 내용:
@@ -52,3 +57,8 @@ filter-log-message = "{ $filterName }" 필터 메시지: { $message }
 filter-editor-must-select-target-folder = 타겟 폴더를 선택해야 합니다.
 filter-editor-enter-valid-email-forward = 전달할 정확한 메일 주소를 선택하십시오.
 filter-editor-pick-template-reply = 회신에 사용할 양식을 선택하십시오.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = { $filterName } 필터 적용 실패. 필터 적용을 다시 시도하시겠습니까?
+filter-list-backup-message = rules.dat 파일을 읽을 수 없어 필터를 실행할 수 없습니다. 파일을 백업하면 새로운 파일이 같은 디렉터리에 생성됩니다.
+filter-invalid-custom-header = 필터에 유효하지 않은 문자, 인쇄 불가 문자 또는 8-비트 문자 등을 사용하고 있습니다. 이 문자들을 삭제하기 위해서는 필터가 있는 rules.dat 파일을 수정하십시오.

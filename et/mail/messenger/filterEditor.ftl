@@ -3,6 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Perioodiliselt, iga minuti järel
+           *[other] Perioodiliselt iga { $minutes } minuti järel
+        }
+    .accesskey = e
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Filtri tegevus ebaõnnestus: "{ $errorMsg }" (veakood: { $errorCode }), kui üritati:
@@ -52,3 +61,8 @@ filter-log-message = Sõnum filtrist "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Sa pead valima sihtkausta.
 filter-editor-enter-valid-email-forward = Sisesta edastamiseks korrektne e-posti aadress.
 filter-editor-pick-template-reply = Vali vastamiseks kasutatav mall.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Filtri { $filterName } rakendamine nurjus. Kas soovid jätkata filtrite rakendamist?
+filter-list-backup-message = Sinu filtrid ei tööta, sest neid sisaldavat faili msgFilterRules.dat pole võimalik lugeda. Luuakse uus fail msgFilterRules.dat ja vana faili varukoopia salvestatakse nimega rulesbackup.dat samasse kausta.
+filter-invalid-custom-header = Üks sinu filter kasutab kohandatud päist, mis sisaldab keelatud märki nagu ‘:’, mitteprinditavat märki, ASCII-välist märki või kaheksabitist ASCII märki. Palun redigeeri faili msgFilterRules.dat, mis sisaldab sinu filtreid, ja eemalda kohandatud päistest keelatud märgid.

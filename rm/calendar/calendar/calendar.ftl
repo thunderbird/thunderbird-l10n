@@ -10,6 +10,14 @@ new-event-dialog = Nov eveniment
 edit-event-dialog = Modifitgar l'eveniment
 new-task-dialog = Nova incumbensa
 edit-task-dialog = Modifitgar l'incumbensa
+# Remove attachments prompt.
+prompt-remove-attachments-title = Allontanar las agiuntas
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Vuls ti propi allontanar { $count } agiunta?
+       *[other] Vuls ti propi allontanar { $count } agiuntas?
+    }
 # Do you want to save changes?
 ask-save-title-event = Memorisar l'eveniment
 ask-save-title-task = Memorisar l'incumbensa

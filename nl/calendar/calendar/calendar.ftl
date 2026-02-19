@@ -10,6 +10,14 @@ new-event-dialog = Nieuwe gebeurtenis
 edit-event-dialog = Gebeurtenis bewerken
 new-task-dialog = Nieuwe taak
 edit-task-dialog = Taak bewerken
+# Remove attachments prompt.
+prompt-remove-attachments-title = Bijlagen verwijderen
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Wilt u echt { $count } bijlage verwijderen?
+       *[other] Wilt u echt { $count } bijlagen verwijderen?
+    }
 # Do you want to save changes?
 ask-save-title-event = Gebeurtenis opslaan
 ask-save-title-task = Taak opslaan

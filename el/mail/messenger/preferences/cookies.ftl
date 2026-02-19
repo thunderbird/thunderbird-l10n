@@ -38,3 +38,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Κλείσιμο
     .accesskey = Κ
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Αφαίρεση επιλεγμένου
+           *[other] Αφαίρεση επιλεγμένων
+        }

@@ -38,3 +38,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Sulge
     .accesskey = u
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Kustuta valitud küpsis
+           *[other] Kustuta { $count } valitud küpsist
+        }

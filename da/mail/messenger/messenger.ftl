@@ -80,6 +80,22 @@ content-tab-menu-stop-mac =
     .tooltiptext = Stop indlæsning af side
     .label = Stop
     .accesskey = S
+open-windows-warning-confirmation-title = Godkend
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Åbning af { $count } meddelelse kan tage lang tid. Fortsæt?
+       *[other] Åbning af { $count } meddelelser kan tage lang tid. Fortsæt?
+    }
+open-tabs-warning-confirmation-title = Bekræft
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Åbning af { $count } meddelelse kan tage lang tid. Fortsæt?
+       *[other] Åbning af { $count } meddelelser kan tage lang tid. Fortsæt?
+    }
 
 ## Toolbar
 
@@ -640,3 +656,6 @@ prompt-dont-ask-again = Spørg ikke igen.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Spam-analyse { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } fuldført
 spam-processing-message = Behandler spam-meddelelser
+
+## Ignore threads
+

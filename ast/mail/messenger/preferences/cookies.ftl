@@ -37,3 +37,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Zarrar
     .accesskey = Z
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Desaniciar esbilláu
+           *[other] Desaniciar esbillaos
+        }

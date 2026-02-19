@@ -10,6 +10,14 @@ new-event-dialog = אירוע חדש
 edit-event-dialog = עריכת אירוע
 new-task-dialog = משימה חדשה
 edit-task-dialog = עריכת משימה
+# Remove attachments prompt.
+prompt-remove-attachments-title = הסרת קבצים מצורפים
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] להסיר את הקובץ המצורף?
+       *[other] להסיר את { $count } הקבצים המצורפים?
+    }
 # Do you want to save changes?
 ask-save-title-event = שמור אירוע
 ask-save-title-task = שמור משימה

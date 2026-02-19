@@ -80,6 +80,22 @@ content-tab-menu-stop-mac =
     .tooltiptext = Pagina laden stoppen
     .label = Stoppen
     .accesskey = S
+open-windows-warning-confirmation-title = Bevestigen
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Het openen van { $count } bericht gaat wellicht langzaam. Doorgaan?
+       *[other] Het openen van { $count } berichten gaat wellicht langzaam. Doorgaan?
+    }
+open-tabs-warning-confirmation-title = Bevestigen
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Het openen van { $count } bericht gaat wellicht langzaam. Doorgaan?
+       *[other] Het openen van { $count } berichten gaat wellicht langzaam. Doorgaan?
+    }
 
 ## Toolbar
 
@@ -640,3 +656,6 @@ prompt-dont-ask-again = Dit niet meer vragen.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Spamanalyse { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } voltooid
 spam-processing-message = Spamberichten verwerken
+
+## Ignore threads
+

@@ -38,3 +38,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = დახურვა
     .accesskey = C
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] მონიშნულის წაშლა
+           *[other] მონიშნულების წაშლა
+        }

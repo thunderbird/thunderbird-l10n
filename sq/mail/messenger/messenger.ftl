@@ -80,6 +80,22 @@ content-tab-menu-stop-mac =
     .tooltiptext = Ndale ngarkimin e faqes
     .label = Ndale
     .accesskey = N
+open-windows-warning-confirmation-title = Ripohojeni
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Hapja e { $count } mesazhi mund të jetë e ngadaltë. Të vazhdohet?
+       *[other] Hapja e { $count } mesazheve mund të jetë e ngadaltë. Të vazhdohet?
+    }
+open-tabs-warning-confirmation-title = Ripohojeni
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Hapja e { $count } mesazhi mund të jetë e ngadaltë. Të vazhdohet?
+       *[other] Hapja e { $count } mesazheve mund të jetë e ngadaltë. Të vazhdohet?
+    }
 
 ## Toolbar
 
@@ -638,3 +654,6 @@ prompt-dont-ask-again = Mos pyet sërish.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analiza për mesazhe të padëshiruar { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } u plotësua
 spam-processing-message = Po trajtohen mesazhet e padëshiruar
+
+## Ignore threads
+

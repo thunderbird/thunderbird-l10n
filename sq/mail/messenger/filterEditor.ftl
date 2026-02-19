@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Filtroji përpara Klasifikimit Si të Padëshiruar
 run-filter-after-spam =
     .label = Filtroji pas Klasifikimit Si të Padëshiruar
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periodikisht, çdo minutë
+           *[other] Periodikisht, çdo { $minutes } minutë
+        }
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Vërja Gjendjen Për të Padëshiruar si
 # Variables:
@@ -68,3 +77,8 @@ filter-log-message = Mesazh nga filtri "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Duhet të përzgjidhni një dosje objektiv.
 filter-editor-enter-valid-email-forward = Jepni për përcjellje një adresë të vlefshme email.
 filter-editor-pick-template-reply = Zgjidhni gjedhe sipas së cilës të përgjigjet.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Zbatimi i filtrit { $filterName } dështoi. Do donit të vazhdohet me zbatim filtrash?
+filter-list-backup-message = Filtrat tuaj nuk punojnë, sepse kartela msgFilterRules.dat file, që përmban filtrat tuaj, nuk lexohet dot. Do të krijohet një kartelë e re msgFilterRules.dat dhe një kopjeruajtje e kartelës së vjetër, e quajtur rulesbackup.dat, do të krijohet në të njëjtën drejtori.
+filter-invalid-custom-header = Një nga filtrat tuaj përdor një titull të përshtatur që përmban shenjë të pavlefshme, si ‘:’, ndonjë shkronjë të pashtypshme, ndonjë shenjë jo ascii, ose ndonjë shenjë ascii tetëbitshe. Ju lutemi, përpunoni kartelën msgFilterRules.dat, që përmban filtrat tuaj, duke hequr shenja të pavlefshme prej titujsh vetjakë.

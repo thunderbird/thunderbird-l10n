@@ -38,3 +38,7 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = ปิด
     .accesskey = ป
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label = เอาที่เลือกออก

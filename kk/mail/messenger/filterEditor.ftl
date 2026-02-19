@@ -10,6 +10,15 @@ run-filter-before-spam =
     .label = Спамды анықтау алдында сүзгілеу
 run-filter-after-spam =
     .label = Спамды анықтаудан кейін сүзгілеу
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Мерзімді, әр минут сайын
+           *[other] Мерзімді, әр { $minutes } минут сайын
+        }
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Спам күйін келесіге орнату
 # Variables:

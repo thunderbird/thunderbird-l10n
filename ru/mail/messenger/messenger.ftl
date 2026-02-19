@@ -81,6 +81,24 @@ content-tab-menu-stop-mac =
     .tooltiptext = Остановить загрузку страницы
     .label = Остановить
     .accesskey = н
+open-windows-warning-confirmation-title = Подтверждение
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Открытие { $count } сообщения может быть медленным. Продолжить?
+        [few] Открытие { $count } сообщений может быть медленным. Продолжить?
+       *[many] Открытие { $count } сообщений может быть медленным. Продолжить?
+    }
+open-tabs-warning-confirmation-title = Подтверждение
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Открытие { $count } сообщения может быть медленным. Продолжить?
+        [few] Открытие { $count } сообщений может быть медленным. Продолжить?
+       *[many] Открытие { $count } сообщений может быть медленным. Продолжить?
+    }
 
 ## Toolbar
 
@@ -651,3 +669,6 @@ prompt-dont-ask-again = Больше не спрашивать.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Спам-анализ завершен на { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = Обработка спам-сообщений
+
+## Ignore threads
+

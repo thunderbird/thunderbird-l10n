@@ -3,6 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Պարբերաբար, ամեն րոպե
+           *[other] Պարբերաբար, ամեն { $minutes } րոպեն մեկ
+        }
+    .accesskey = e
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Զտիչի գործույթի ձախողում. "{ $errorMsg }"՝ սխալի կոդ={ $errorCode }.
@@ -52,3 +61,8 @@ filter-log-message = Հաղորդագրություն «{ $filterName }» զտի
 filter-editor-must-select-target-folder = Պետք է ընտրեք թղթապանակ։
 filter-editor-enter-valid-email-forward = Նշեք ճիշտ էլ. հասցե՝ փոխանցելու համար։
 filter-editor-pick-template-reply = Պատասխանի համար ընտրեք նմուշ։
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = { $filterName } զտիչի կիրառումը ձախողվեց։ Շարունակե՞լ զտիչերի կիրառումը։
+filter-list-backup-message = Ձեր զտիչները չեն աշխատում, քանի որ msgFilterRules.dat ֆայլը, որում դրանք գտնվում են, հնարավոր չէ կարդալ։ Նոր msgFilterRules.dat ֆայլ կստեղծվի և կպահուստացվի ֆայլի հին տարբերակը՝ rulesbackup.dat անվամբ միևնույն թղթապանակում։
+filter-invalid-custom-header = Ձեր զտիչներից մեկը օգտագործում է ընտրված գլխագիր, որը պարունակում է սխալ նշան, ինչպես օր.՝ ‘:’, չտպվող, ոչ-ascii կամ 8 բիթանոց ascii նշան։ Խմբագրեք msgFilterRules.dat ֆայլը, որտեղ գտնվում են զտիչները՝ ջնջելու համար սխալ նշանները։

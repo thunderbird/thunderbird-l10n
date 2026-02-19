@@ -10,3 +10,5 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Delete
     .tooltiptext = Delete
+# What to display for a message if it has no subject.
+no-subject = (no subject)

@@ -38,3 +38,12 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Zavřít
     .accesskey = Z
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Odebrat { $count } zvolenou
+            [few] Odebrat { $count } zvolené
+           *[other] Odebrat { $count } zvolených
+        }

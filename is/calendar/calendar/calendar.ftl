@@ -10,6 +10,14 @@ new-event-dialog = Nýr atburður
 edit-event-dialog = Breyta atburði
 new-task-dialog = Nýtt verkefni
 edit-task-dialog = Breyta verkefni
+# Remove attachments prompt.
+prompt-remove-attachments-title = Fjarlægja viðhengi
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Viltu virkilega fjarlægja { $count } viðhengi?
+       *[other] Viltu virkilega fjarlægja { $count } viðhengi?
+    }
 # Do you want to save changes?
 ask-save-title-event = Vista atburð
 ask-save-title-task = Vista verkefni

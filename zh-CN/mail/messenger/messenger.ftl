@@ -79,6 +79,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = 停止页面加载
     .label = 停止
     .accesskey = S
+open-windows-warning-confirmation-title = 确定
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation = 打开 { $count } 个消息可能很慢。确定继续吗？
+open-tabs-warning-confirmation-title = 确认
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation = 打开 { $count } 个消息可能很慢。确定继续吗？
 
 ## Toolbar
 
@@ -621,3 +629,6 @@ prompt-dont-ask-again = 不再询问
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = 垃圾邮件分析已完成 { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = 正在处理垃圾邮件
+
+## Ignore threads
+

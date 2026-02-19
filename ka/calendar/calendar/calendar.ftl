@@ -10,6 +10,14 @@ new-event-dialog = ახალი ღონისძიება
 edit-event-dialog = ღონისძიების ჩასწორება
 new-task-dialog = ახალი მოვლენა
 edit-task-dialog = დავალების ჩასწორება
+# Remove attachments prompt.
+prompt-remove-attachments-title = დანართების მოცილება
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] ნამდვილად გსურთ დანართის მოცილება?
+       *[other] ნამდვილად გსურთ { $count } დანართის მოცილება?
+    }
 # Do you want to save changes?
 ask-save-title-event = ღონისძიების შენახვა
 ask-save-title-task = დავალების შენახვა

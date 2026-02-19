@@ -10,6 +10,14 @@ new-event-dialog = Veprimtari e Re
 edit-event-dialog = Përpunoni Veprimtari
 new-task-dialog = Punë e Re
 edit-task-dialog = Përpunoni Punë
+# Remove attachments prompt.
+prompt-remove-attachments-title = Hiqni Bashkëngjitjet
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Doni vërtet të hiqet { $count } bashkëngjitje?
+       *[other] Doni vërtet të hiqen { $count } bashkëngjitje?
+    }
 # Do you want to save changes?
 ask-save-title-event = Ruajeni Veprimtarinë
 ask-save-title-task = Ruajeni Punën

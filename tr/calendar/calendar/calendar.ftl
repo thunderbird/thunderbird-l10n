@@ -10,6 +10,14 @@ new-event-dialog = Yeni etkinlik
 edit-event-dialog = Etkinliği düzenle
 new-task-dialog = Yeni görev
 edit-task-dialog = Görevi düzenle
+# Remove attachments prompt.
+prompt-remove-attachments-title = Ekleri sil
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] { $count } eki gerçekten silmek istiyor musunuz?
+       *[other] { $count } eki gerçekten silmek istiyor musunuz?
+    }
 # Do you want to save changes?
 ask-save-title-event = Etkinliği kaydet
 ask-save-title-task = Görevi kaydet

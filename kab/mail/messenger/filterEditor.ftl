@@ -3,6 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Sya ɣer da, yal tasdat
+           *[other] Sya ɣer da, yal { $minutes } n tesdatin
+        }
+    .accesskey = e
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Tigawt n uzizdeg ur teddi ara: "{ $errorMsg }" s tengalt n tuccḍa ={ $errorCode } makken yettaɛraḍ:
@@ -52,3 +61,8 @@ filter-log-message = Izen n yisizdeg "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Yessefk ad tferneḍ akaram asaḍas.
 filter-editor-enter-valid-email-forward = Fren tansa imayl tameɣtut aniɣer ad twelheḍ
 filter-editor-pick-template-reply = Fren taneɣruft s wayes ara terred
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Asnas n imzizdig { $filterName } ur yeddi ara. Tebɣiḍ ad tkemleḍ asnas n imzizdigen?
+filter-list-backup-message = Imzizdig-inek ur iteddu ara acku afaylu msgFilterRules.dat, igebren imzizdigen-inek, ur yezmir ara ad yettwaɣaṛ. Afaylu maynut msgFilterRules.dat ad yettwarnu u aḥraz n ufaylu, s yisem rulesbackup.dat, ad yettwarnu deg iwen n ukaram.
+filter-invalid-custom-header = Yiwen seg imzizdigen-inek iseqdac aqeṛṛu udmawan igebren asekkil arameɣtu, am  ‘:’, asekkil-agi ur yettwasiggaz ara, d asekkil ur nelli ara ascii, neɣ mačči d asekkil n ṭam n ibiten. Ma ulac aɣilif, ẓreg afaylu msgFilterRules.dat, igebren imzizdigen-inek, akke ad tekkseḍ isekkilen seg iqeṛṛa udmawanen.

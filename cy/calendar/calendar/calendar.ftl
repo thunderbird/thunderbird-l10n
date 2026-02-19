@@ -10,6 +10,18 @@ new-event-dialog = Digwyddiad Newydd
 edit-event-dialog = Golygu Digwyddiad
 new-task-dialog = Tasg Newydd
 edit-task-dialog = Golygu Tasg
+# Remove attachments prompt.
+prompt-remove-attachments-title = Tynnu Atodiad
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [zero] Peidio tynnu atodiadau?
+        [one] Ydych chi wir eisiau tynnu { $count } atodiad?
+        [two] Ydych chi wir eisiau tynnu { $count } o atodiadau?
+        [few] Ydych chi wir eisiau tynnu { $count } o atodiadau?
+        [many] Ydych chi wir eisiau tynnu { $count } o atodiadau?
+       *[other] Ydych chi wir eisiau tynnu { $count } o atodiadau?
+    }
 # Do you want to save changes?
 ask-save-title-event = Cadw Digwyddiad
 ask-save-title-task = Cadw Tasg

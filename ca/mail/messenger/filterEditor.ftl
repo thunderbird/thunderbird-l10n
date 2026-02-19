@@ -3,6 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periòdicament, cada minut
+           *[other] Periòdicament, cada { $minutes } minuts
+        }
+    .accesskey = e
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Ha fallat l'acció de filtre: «{ $errorMsg }» amb el codi d'error={ $errorCode } en intentar:
@@ -52,3 +61,8 @@ filter-log-message = Missatge del filtre «{ $filterName }»: { $message }
 filter-editor-must-select-target-folder = Heu de seleccionar una carpeta de destí.
 filter-editor-enter-valid-email-forward = Introduïu una adreça electrònica vàlida per reenviar-ho.
 filter-editor-pick-template-reply = Trieu la plantilla que utilitzareu per respondre.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = No s'ha pogut aplicar el filtre { $filterName }. Voleu seguir aplicant filtres?
+filter-list-backup-message = Els filtres no funcionen perquè no s'ha pogut llegir el fitxer msgFilterRules.dat, que conté els filtres. Es crearà un fitxer msgFilterRules.dat nou i es farà una còpia de seguretat del fitxer antic, anomenada rulesbackup.dat, al mateix directori.
+filter-invalid-custom-header = Un dels vostres filtres utilitza una capçalera personalitzada que conté un caràcter no vàlid, , com ara «:», un caràcter no imprimible, un caràcter que no pertany a l'ASCII o un caràcter ASCII de vuit bits. Editeu el fitxer msgFilterRules.dat, que conté els vostres filtres, per treure els caràcters no vàlids de les capçaleres personalitzades.

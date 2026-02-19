@@ -39,3 +39,8 @@ filter-action-log-unread = conseñáu como non lleíu
 filter-editor-must-select-target-folder = Tienes d'esbillar una carpeta de destín.
 filter-editor-enter-valid-email-forward = Introducir una direición de corréu válida a la que reunviar.
 filter-editor-pick-template-reply = Escoyer una plantía pa responder.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Falló l'aplicación del filtru { $filterName }. ¿Quies continuar aplicando filtros?
+filter-list-backup-message = Los filtros nun funcionen porque'l ficheru msgFilterRules.dat, que contién los filtros, nun pue lleese. Va crease un ficheru nuevu denomáu msgFilterRules.dat y va facese un copia del antiguu nel mesmu direutoriu, denomáu rulesbackup.dat.
+filter-invalid-custom-header = Ún de los fitros usa una testera personalizada que contién un caráuter non válidu, talo como ‘:’, un caráuter non imprentable, un caráuter non-ASCII, o un caráuter col octavu bit activáu. Por favor, edita'l ficheru msgFilterRules.dat, que contién los filtros, pa desaniciar los caráuteres non válidos de les tos testeres personalizaes.

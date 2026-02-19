@@ -37,3 +37,14 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Serriñ
     .accesskey = S
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Dilemel an hini diuzet
+            [two] Dilemel ar re ziuzet
+            [few] Dilemel ar re ziuzet
+            [many] Dilemel ar re ziuzet
+           *[other] Dilemel ar re ziuzet
+        }

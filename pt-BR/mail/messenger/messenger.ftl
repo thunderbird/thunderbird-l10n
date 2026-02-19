@@ -80,6 +80,22 @@ content-tab-menu-stop-mac =
     .tooltiptext = Interromper carregamento da página
     .label = Interromper
     .accesskey = I
+open-windows-warning-confirmation-title = Confirmar
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] A abertura de { $count } mensagem pode ser lenta. Continuar?
+       *[other] A abertura de { $count } mensagens pode ser lenta. Continuar?
+    }
+open-tabs-warning-confirmation-title = Confirmar
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] A abertura de { $count } mensagem pode ser lenta. Continuar?
+       *[other] A abertura de { $count } mensagens pode ser lenta. Continuar?
+    }
 
 ## Toolbar
 
@@ -639,3 +655,6 @@ prompt-dont-ask-again = Não perguntar novamente.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Análise de spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } concluída
 spam-processing-message = Processando mensagens de spam
+
+## Ignore threads
+

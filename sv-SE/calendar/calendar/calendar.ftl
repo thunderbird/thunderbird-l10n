@@ -10,6 +10,14 @@ new-event-dialog = Ny händelse
 edit-event-dialog = Ändra händelse
 new-task-dialog = Ny uppgift
 edit-task-dialog = Ändra uppgift
+# Remove attachments prompt.
+prompt-remove-attachments-title = Radera bifogade filer
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Är du säker på att du vill radera { $count } bifogad fil?
+       *[other] Är du säker på att du vill radera { $count } bifogade filer?
+    }
 # Do you want to save changes?
 ask-save-title-event = Spara händelse
 ask-save-title-task = Spara uppgift

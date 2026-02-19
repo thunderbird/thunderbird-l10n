@@ -10,6 +10,11 @@ run-filter-before-spam =
     .label = กรองก่อนจำแนกสแปม
 run-filter-after-spam =
     .label = กรองหลังจำแนกสแปม
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label = เป็นระยะทุกๆ นาที
+    .accesskey = e
 rule-action-set-spam-status =
     .label = ตั้งค่าสถานะสแปมเป็น
 # Variables:
@@ -68,3 +73,8 @@ filter-log-message = ข้อความจากตัวกรอง "{ $fil
 filter-editor-must-select-target-folder = คุณต้องเลือกโฟลเดอร์เป้าหมาย
 filter-editor-enter-valid-email-forward = ป้อนที่อยู่อีเมลที่ถูกต้องที่จะส่งต่อ
 filter-editor-pick-template-reply = เลือกแม่แบบที่จะตอบกลับ
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = การนำตัวกรอง { $filterName } ไปใช้ล้มเหลว คุณต้องการนำตัวกรองไปใช้ต่อไปหรือไม่?
+filter-list-backup-message = ตัวกรองของคุณไม่ทำงานเนื่องจากไฟล์ msgFilterRules.dat ซึ่งมีตัวกรองของคุณไม่สามารถอ่านได้ ไฟล์ msgFilterRules.dat ใหม่จะถูกสร้างขึ้นและข้อมูลสำรองของไฟล์เก่าที่เรียกว่า rulesbackup.dat จะถูกสร้างขึ้นในไดเรกทอรีเดียวกัน
+filter-invalid-custom-header = ตัวกรองตัวใดตัวหนึ่งของคุณใช้ส่วนหัวที่กำหนดเองที่มีอักขระที่ไม่ถูกต้อง เช่น ‘:’, อักขระที่ไม่สามารถพิมพ์ได้, อักขระที่ไม่ใช่ ASCII, หรืออักขระ ASCII 8 บิต โปรดแก้ไขไฟล์ msgFilterRules.dat ซึ่งมีตัวกรองของคุณเพื่อเอาอักขระที่ไม่ถูกต้องออกจากส่วนหัวที่กำหนดเองของคุณ

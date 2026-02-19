@@ -81,6 +81,24 @@ content-tab-menu-stop-mac =
     .tooltiptext = Oprește încărcarea paginii
     .label = Oprește
     .accesskey = S
+open-windows-warning-confirmation-title = Confirmare
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Deschiderea a { $count } mesaj poate fi lentă. Continuați?
+        [few] Deschiderea a { $count } mesaje poate fi lentă. Continuați?
+       *[other] Deschiderea a { $count } mesaje poate fi lentă. Continuați?
+    }
+open-tabs-warning-confirmation-title = Confirmare
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Deschiderea a { $count } mesaj poate fi lentă. Continuați?
+        [few] Deschiderea a { $count } mesaje poate fi lentă. Continuați?
+       *[other] Deschiderea a { $count } mesaje poate fi lentă. Continuați?
+    }
 
 ## Toolbar
 
@@ -647,3 +665,6 @@ prompt-dont-ask-again = Nu mai întreba.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analiză mesaje nedorite realizată { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = Se procesează mesajele nedorite
+
+## Ignore threads
+

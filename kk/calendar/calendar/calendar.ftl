@@ -10,6 +10,14 @@ new-event-dialog = Жаңа оқиға
 edit-event-dialog = Оқиғаны түзету
 new-task-dialog = Жаңа тапсырма
 edit-task-dialog = Тапсырманы түзету
+# Remove attachments prompt.
+prompt-remove-attachments-title = Салынымдарды өшіру
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] { $count } салынымды өшіруді шынымен қалайсыз ба?
+       *[other] { $count } салынымды өшіруді шынымен қалайсыз ба?
+    }
 # Do you want to save changes?
 ask-save-title-event = Оқиғаны сақтау
 ask-save-title-task = Тапсырманы сақтау

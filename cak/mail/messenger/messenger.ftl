@@ -14,6 +14,40 @@ messenger-window-restore-down-button =
 messenger-window-close-button =
     .tooltiptext = Titz'apïx
 
+## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+open-windows-warning-confirmation-title = Tijikib'äx
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Nijaq { $count } rutzijol rik'in jub'a' eqal. ¿La k'a nasamajij?
+       *[other] Yejaq { $count } taq rutzijol rik'in jub'a' eqal. ¿La k'a nasamajij?
+    }
+open-tabs-warning-confirmation-title = Tijikib'äx
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Nijaq { $count } rutzijol rik'in jub'a' eqal. ¿La k'a nasamajij?
+       *[other] Yejaq { $count } taq rutzijol rik'in jub'a' eqal. ¿La k'a nasamajij?
+    }
+
+## Toolbar
+
+
 ## Folder Pane
 
 folder-pane-toolbar =
@@ -47,6 +81,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Molk'ïy Tz'etoj
     .accesskey = M
+
+## Folder names
+
 
 ## File Menu
 
@@ -86,6 +123,9 @@ menu-edit-folder-properties =
 menu-edit-newsgroup-properties =
     .label = Kichinil Kimolaj Tzijol
     .accesskey = o
+
+## Message Menu
+
 
 ## Shared Menu Items
 
@@ -130,6 +170,9 @@ mail-context-menu-forward-forward =
     .label = Jun chik
     .accesskey = J
 
+## Message header pane
+
+
 ## Message header customize panel
 
 message-header-button-style-default =
@@ -155,6 +198,12 @@ toolbar-context-menu-remove-extension =
 addon-removal-title = ¿La niyuj { $name }?
 addon-removal-confirmation-button = Tiyuj
 caret-browsing-prompt-title = Okem pa K'amaya'l Rik'in Retal Ch'oy
+
+## no-reply handling
+
+
+## error messages
+
 
 ## Spaces toolbar
 
@@ -218,12 +267,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = s
 mark-not-junk-key =
     .key = s
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -257,3 +327,12 @@ message-group-starred = Ya'on ruq'ij
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+

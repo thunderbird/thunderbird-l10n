@@ -10,6 +10,14 @@ new-event-dialog = K'ak'a' Molojri'ïl
 edit-event-dialog = Tichojmïx Molojri'ïl
 new-task-dialog = K'ak'a' Samaj
 edit-task-dialog = Tinuk' Samaj
+# Remove attachments prompt.
+prompt-remove-attachments-title = Keyuj ri taqoj
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Kan nawajo' nayuj ri yakäl { $count } taqoj?
+       *[other] Kan nawajo' nayuj ri yakäl { $count } taq taqoj?
+    }
 # Do you want to save changes?
 ask-save-title-event = Tiyak Molojri'ïl
 ask-save-title-task = Tiyak Samaj

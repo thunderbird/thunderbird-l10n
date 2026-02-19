@@ -10,6 +10,18 @@ new-event-dialog = حدث جديد
 edit-event-dialog = تحرير حدث
 new-task-dialog = مهمة جديدة
 edit-task-dialog = تحرير مهمة
+# Remove attachments prompt.
+prompt-remove-attachments-title = إزالة المرفقات
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [zero] أتريد حقّا إزالة المرفق؟
+        [one] أتريد حقّا إزالة المرفق؟
+        [two] أتريد حقّا إزالة المرفقين؟
+        [few] أتريد حقّا إزالة { $count } مرفقات؟
+        [many] أتريد حقّا إزالة { $count } مرفقا؟
+       *[other] أتريد حقّا إزالة { $count } مرفق؟
+    }
 # Do you want to save changes?
 ask-save-title-event = حفظ الحدث
 ask-save-title-task = حفظ المهمة

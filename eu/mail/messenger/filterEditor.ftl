@@ -5,6 +5,15 @@
 rule-menuitem-spam =
     .label = Spam
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Errepikatu, minutuero
+           *[other] Errepikatu, { $minutes } minututik behin
+        }
+    .accesskey = e
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Iragazketa ekintzak huts egin du: "{ $errorMsg }" ekintzak { $errorCode } errore mezua ondokoa saiatzean:
@@ -54,3 +63,8 @@ filter-log-message = "{ $filterName }" iragazkiaren mezua: { $message }
 filter-editor-must-select-target-folder = Helburu-karpeta bat hautatu behar duzu.
 filter-editor-enter-valid-email-forward = Sartu baliodun e-posta helbide bat birbidalketa egiteko.
 filter-editor-pick-template-reply = Aukeratu erantzuna emateko txantiloi bat.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = { $filterName } iragazkia ezartzeak huts egin du. Iragazkiak ezartzen jarraitu nahi duzu?
+filter-list-backup-message = Zure iragazkiak ez dabiltza ezin delako zure iragazkiak dituen msgFilterRules.dat fitxategia irakurri. msgFilterRules.dat fitxategi berri bat sortuko da eta fitxategi zaharra direktorio berean gordeko da, rulesbackup.dat izenarekin.
+filter-invalid-custom-header = Zure iragazkietako batek pertsonalizatutako goiburu bat erabiltzen du, zeinak baliogabeko karakteren bat duen, esate baterako ‘:’ karakterea, inprima ezin daitekeen karaktere bat, ascii ez den karaktere bat edo zortzi biteko ascii karaktere bat. Editatu msgFilterRules.dat fitxategia eta ezaba itzazu karaktere baliogabeak goiburu pertsonalizatuetatik.

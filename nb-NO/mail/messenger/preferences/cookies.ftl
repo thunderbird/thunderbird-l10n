@@ -38,3 +38,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Lukk
     .accesskey = L
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Slett valgt
+           *[other] Slett valgte
+        }

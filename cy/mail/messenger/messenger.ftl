@@ -84,6 +84,24 @@ content-tab-menu-stop-mac =
     .tooltiptext = Atal llwytho tudalen
     .label = Atal
     .accesskey = l
+open-windows-warning-confirmation-title = Cadarnhau
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [zero] Efallai bydd agor { $count } neges yn araf. Parhau?
+        [one] Efallai bydd agor { $count }neges yn araf. Parhau?
+       *[other] Efallai bydd agor { $count }neges yn araf. Parhau?
+    }
+open-tabs-warning-confirmation-title = Cadarnhau
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [zero] Efallai bydd agor { $count } neges yn araf. Parhau?
+        [one] Efallai bydd agor { $count }neges yn araf. Parhau?
+       *[other] Efallai bydd agor { $count }neges yn araf. Parhau?
+    }
 
 ## Toolbar
 
@@ -676,3 +694,6 @@ prompt-dont-ask-again = Peidio â gofyn eto.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Wedi cwblhau { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } o'r dadansoddiad sbam
 spam-processing-message = Wrthi'n prosesu negeseuon sbam
+
+## Ignore threads
+

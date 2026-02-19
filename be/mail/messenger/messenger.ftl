@@ -79,6 +79,24 @@ content-tab-menu-stop-mac =
     .tooltiptext = Спыніць загрузку старонкі
     .label = Спыніць
     .accesskey = С
+open-windows-warning-confirmation-title = Сцвярджэнне
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Адкрыццё { $count } ліста можа быць марудным.  Працягнуць?
+        [few] Адкрыццё { $count } лістоў можа быць марудным.  Працягнуць?
+       *[many] Адкрыццё { $count } лістоў можа быць марудным.  Працягнуць?
+    }
+open-tabs-warning-confirmation-title = Сцвярджэнне
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Адкрыццё { $count } ліста можа быць марудным.  Працягнуць?
+        [few] Адкрыццё { $count } лістоў можа быць марудным.  Працягнуць?
+       *[many] Адкрыццё { $count } лістоў можа быць марудным.  Працягнуць?
+    }
 
 ## Toolbar
 
@@ -127,6 +145,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Кампактны выгляд
     .accesskey = К
+
+## Folder names
+
 
 ## File Menu
 
@@ -365,6 +386,9 @@ repair-text-encoding-button =
 no-reply-title = Адказ не падтрымліваецца
 no-reply-reply-anyway-button = Усё роўна адказаць
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -460,12 +484,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -495,3 +540,12 @@ message-group-no-attachments = Няма далучэнняў
 message-group-attachments = Далучэнні
 message-group-not-starred = Без зорак
 message-group-starred = З зоркамі
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+

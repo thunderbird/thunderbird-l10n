@@ -3,6 +3,16 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [zero] Periodiski, katru minūti
+            [one] Periodiski, ik pēc { $minutes } minūtēm
+           *[other] Periodiski, ik pēc { $minutes } minūtēm
+        }
+    .accesskey = A
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Filtrēšanas darbība "{ $errorMsg }" neizdevās ar kļūdas kodu={ $errorCode }, mēģinot:
@@ -52,3 +62,8 @@ filter-log-message = Vēstule no filtra "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Jums jāizvēlas mērķa mape.
 filter-editor-enter-valid-email-forward = Ievadiet derīgu epasta adresi, uz kuru pārsūtīt.
 filter-editor-pick-template-reply = Izvēlieties veidni, ar kuru atbildēt.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Neizdevās pielietot filtru { $filterName }. Vai vēlaties turpināt filtru lietošanu?
+filter-list-backup-message = Jūsu filtri nedarbojas, jo failu msgFilterRules.dat ar jūsu filtriem neizdevās nolasīt. Tiks izveidots jauns msgFilterRules.dat fails un tajā pašā mapē tiks izveidots vecā faila dublējums ar nosaukumu rulesbackup.dat.
+filter-invalid-custom-header = Vienā no jūsu filtriem tiek izmantota pielāgota galvene, kas satur nederīgu rakstzīmi, piemēram, ‘:’, nedrukājamu rakstzīmi vai rakstzīmi, kas nav astoņu bitu ASCII rakstzīme. Lūdzu, rediģējiet failu msgFilterRules.dat ar jūsu filtriem, lai no pielāgotajām galvenēm izņemtu nederīgās rakstzīmes.

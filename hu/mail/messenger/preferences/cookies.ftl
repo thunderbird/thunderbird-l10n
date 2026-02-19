@@ -38,3 +38,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Bezárás
     .accesskey = B
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Kijelölt eltávolítása
+           *[other] Kijelöltek eltávolítása
+        }

@@ -38,3 +38,12 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Închide
     .accesskey = c
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Elimină { $count } selectat
+            [few] Elimină { $count } selectate
+           *[other] Elimină { $count } selectate
+        }

@@ -80,6 +80,22 @@ content-tab-menu-stop-mac =
     .tooltiptext = Stoppa sidladdning
     .label = Stoppa
     .accesskey = S
+open-windows-warning-confirmation-title = Bekräfta
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Öppna { $count } meddelande kan gå långsamt. Fortsätt?
+       *[other] Öppning av { $count } meddelanden kan gå långsamt. Fortsätt?
+    }
+open-tabs-warning-confirmation-title = Bekräfta
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Öppning av { $count } meddelande kan gå långsamt. Fortsätt?
+       *[other] Öppning av { $count } meddelanden kan gå långsamt. Fortsätt?
+    }
 
 ## Toolbar
 
@@ -639,3 +655,6 @@ prompt-dont-ask-again = Fråga inte igen.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Skräppostanalys { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } slutförd
 spam-processing-message = Bearbetar skräppostmeddelanden
+
+## Ignore threads
+

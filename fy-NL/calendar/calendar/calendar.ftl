@@ -10,6 +10,14 @@ new-event-dialog = Nij barren
 edit-event-dialog = Barren bewurkje
 new-task-dialog = Nije taak
 edit-task-dialog = Taak bewurkje
+# Remove attachments prompt.
+prompt-remove-attachments-title = Bylagen fuortsmite
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Wolle jo echt { $count } bylage fuortsmite?
+       *[other] Wolle jo echt { $count } bylagen fuortsmite?
+    }
 # Do you want to save changes?
 ask-save-title-event = Barren bewarje
 ask-save-title-task = Taak bewarje

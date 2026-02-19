@@ -10,3 +10,87 @@ multi-message-archive-button =
 multi-message-delete-button =
     .label = Sguab às
     .tooltiptext = Sguab às
+# Variables:
+#   $count - total number of conversations (threads or solitary messages) selected
+num-conversations =
+    { $count ->
+        [one] { $count } chòmhradh
+        [two] { $count } chòmhradh
+        [few] { $count } còmhraidhean
+       *[other] { $count } còmhradh
+    }
+# Variables:
+#   $count - the number of conversations. We use this when we didn't actually
+#       scan the entire list of selected messages, so there may be more
+#       conversations than reported (or maybe not!).
+at-least-num-conversations =
+    { $count ->
+        [one] { $count }+ chòmhradh
+        [two] { $count }+ chòmhradh
+        [few] { $count }+ còmhraidhean
+       *[other] { $count }+ còmhradh
+    }
+# Variables:
+#   $count - number of messages.
+num-messages =
+    { $count ->
+        [one] { $count } teachdaireachd
+        [two] { $count } theachdaireachd
+        [few] { $count } teachdaireachdan
+       *[other] { $count } teachdaireachd
+    }
+# The number of unread messages in a thread; meant to be appended to "num-messages".
+# Variables:
+#   $count - the number of unread messages.
+num-unread =
+    { $count ->
+        [one] , { $count } gun leughadh
+        [two] , { $count } gun leughadh
+        [few] , { $count } gun leughadh
+       *[other] , { $count } gun leughadh
+    }
+# The number of ignored messages in a thread; meant to be appended to
+# "num-messages".
+# Variables:
+#   $count - the number of ignored messages.
+num-ignored =
+    { $count ->
+        [one] { $count } air leigeil seachad
+        [two] { $count } air leigeil seachad
+        [few] { $count } air leigeil seachad
+       *[other] { $count } air leigeil seachad
+    }
+# The number of ignored messages in a thread; meant to be appended to "num-messages".
+# Variables:
+#   $count - is the number of ignored messages. We use this when we
+#       didn't actually scan the entire list of selected messages, so there may
+#       be more ignored messages than reported (or maybe not!).
+at-least-num-ignored =
+    { $count ->
+        [one] { $count }+ air leigeil seachad
+        [two] { $count }+ air leigeil seachad
+        [few] { $count }+ air leigeil seachad
+       *[other] { $count }+ air leigeil seachad
+    }
+# What to display for a message if it has no subject.
+no-subject = (gun chuspair)
+# A message indicating the total size on disk of the selected messages.
+# Variables:
+#   $numBytes - the size, e.g. "123 KB".
+messages-total-size = Tha na teachdaireachdan seo a' lìonadh { $numBytes }.
+# A message indicating the total size on disk of the selected messages. We use
+# this when we didn't actually scan the entire list of selected messages, so
+# this is a *minimum* size.
+# Variables:
+#   $numBytes - the size, e.g. "123 KB".
+messages-total-size-more-than = Tha na teachdaireachdan seo nas motha na { $numBytes }.
+# A message to let the user know that not all of the selected messages were summarized.
+# Variables:
+#   $total - the total number of messages selected
+#   $shown - is the number of messages actually shown
+max-count-exceeded = (Aire: Tha { $total } teachdaireachd(an) air an taghadh, tha a' chiad { $shown } dhiubh 'gan sealltainn)
+# A message to let the user know that all of the selected threads were summarized.
+# Variables:
+#   $total - is the total number of threads selected
+#   $shown - the number of threads actually shown
+max-thread-count-exceeded = (An aire: Chaidh { $total } threads a thaghadh, tha a’ chiad { $shown } dhiubh ’gan sealltainn)

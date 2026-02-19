@@ -80,6 +80,22 @@ content-tab-menu-stop-mac =
     .tooltiptext = Side laden stopje
     .label = Stopje
     .accesskey = S
+open-windows-warning-confirmation-title = Befêstigje
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] It iepenjen fan { $count } berjocht ferrint miskien stadich. Trochgean?
+       *[other] It iepenjen fan { $count } berjochten ferrint miskien stadich. Trochgean?
+    }
+open-tabs-warning-confirmation-title = Befêstigje
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] It iepenjen fan { $count } berjocht ferrint miskien stadich. Trochgean?
+       *[other] It iepenjen fan { $count } berjochten ferrint miskien stadich. Trochgean?
+    }
 
 ## Toolbar
 
@@ -640,3 +656,6 @@ prompt-dont-ask-again = Dit net mear freegje.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Net-winskeanalyze { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } foltôge
 spam-processing-message = Net-winske berjochten ferwurkje
+
+## Ignore threads
+

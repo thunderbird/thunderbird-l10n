@@ -62,6 +62,22 @@ content-tab-menu-forward-mac =
 
 # Stop
 
+open-windows-warning-confirmation-title = Sentem
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Tulya n { $count } n yizen yezmer ad yili ẓẓay. Ad tkemleḍ?
+       *[other] Tulya n { $count } n yeznan yezmer ad yili ẓẓay. Ad tkemleḍ?
+    }
+open-tabs-warning-confirmation-title = Sentem
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Tulya n { $count } n yizen yezmer ad yili ẓẓay. Ad tkemleḍ?
+       *[other] Tulya n { $count } n yeznan yezmer ad yili ẓẓay. Ad tkemleḍ?
+    }
 
 ## Toolbar
 
@@ -110,6 +126,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Timeẓri yessden
     .accesskey = T
+
+## Folder names
+
 
 ## File Menu
 
@@ -406,12 +425,30 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -449,3 +486,12 @@ message-group-starred = Ɣur-s itri
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = d wiyaḍ
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+

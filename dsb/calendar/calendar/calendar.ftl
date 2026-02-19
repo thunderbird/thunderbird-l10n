@@ -10,6 +10,16 @@ new-event-dialog = Nowe tšojenje
 edit-event-dialog = Tšojenje wobźěłaś
 new-task-dialog = Nowy nadawk
 edit-task-dialog = Nadawk wobźěłaś
+# Remove attachments prompt.
+prompt-remove-attachments-title = Pśidanki wótpóraś
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Cośo napšawdu { $count } pśidank wótpóraś?
+        [two] Cośo napšawdu { $count } pśidanka wótpóraś?
+        [few] Cośo napšawdu { $count } pśidanki wótpóraś?
+       *[other] Cośo napšawdu { $count } pśidankow wótpóraś?
+    }
 # Do you want to save changes?
 ask-save-title-event = Tšojenje składowaś
 ask-save-title-task = Nadawk składowaś

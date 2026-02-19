@@ -41,3 +41,8 @@ filter-log-message = הודעה מהמסנן ״{ $filterName }״:‏ { $message 
 filter-editor-must-select-target-folder = חובה לבחור תיקיית יעד.
 filter-editor-enter-valid-email-forward = נא להכניס כתובת דוא״ל חוקית להעברה.
 filter-editor-pick-template-reply = בחר תבנית כדי להשיב
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = הפעלת המסנן { $filterName } נכשלה. האם ברצונך להמשיך ליישם את המסננים?
+filter-list-backup-message = המסננים שלך אינם פועלים משום שלא ניתן לקרוא את הקובץ msgFilterRules.dat, המכיל את המסננים שלך. קובץ msgFilterRules.dat חדש יווצר, וגיבוי של הקובץ המקורי, שיקרא rulesbackup.dat, יווצר באותה ספרייה.
+filter-invalid-custom-header = אחד מן המסננים שלך משתמש בכותרת מותאמת אישית, המכילה תו לא חוקי, כגון ‘:’, תו שאינו ניתן להדפסה, תו שאינו תו ASCII, או תו ASCII בן שמונה סיביות. נא לערוך את הקובץ msgFilterRules.dat, המכיל את המסננים שלך, כדי להסיר תווים בלתי חוקיים מן הכותרות המותאמות אישית שלך.

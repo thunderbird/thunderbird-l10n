@@ -82,6 +82,26 @@ content-tab-menu-stop-mac =
     .tooltiptext = Ustavi nalaganje strani
     .label = Ustavi
     .accesskey = U
+open-windows-warning-confirmation-title = Potrdi
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Odpiranje sporočila lahko traja. Želite nadaljevati?
+        [two] Odpiranje { $count } sporočil lahko traja. Želite nadaljevati?
+        [few] Odpiranje { $count } sporočil lahko traja. Želite nadaljevati?
+       *[other] Odpiranje { $count } sporočil lahko traja. Želite nadaljevati?
+    }
+open-tabs-warning-confirmation-title = Potrdi
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Odpiranje sporočila lahko traja. Želite nadaljevati?
+        [two] Odpiranje { $count } sporočil lahko traja. Želite nadaljevati?
+        [few] Odpiranje { $count } sporočil lahko traja. Želite nadaljevati?
+       *[other] Odpiranje { $count } sporočil lahko traja. Želite nadaljevati?
+    }
 
 ## Toolbar
 
@@ -548,6 +568,9 @@ openpgp-forget = Pozabi gesla za OpenPGP
 quota-panel-percent-used = { $percent }-% zasedeno
     .title = Kvota IMAP: zasedeno { $usage } od skupno { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 menu-mark-as-spam =
@@ -569,6 +592,9 @@ menu-delete-spam =
 folder-context-empty-spam =
     .label = Izprazni neželeno pošto
     .accesskey = I
+
+## Thread pane.
+
 
 ## Message header.
 
@@ -630,3 +656,6 @@ prompt-dont-ask-again = Ne sprašuj več.
 ## Spam commands
 
 spam-processing-message = Obdelovanje neželene pošte
+
+## Ignore threads
+

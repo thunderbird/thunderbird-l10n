@@ -10,6 +10,11 @@ run-filter-before-spam =
     .label = Lọc trước khi phân loại thư rác
 run-filter-after-spam =
     .label = Lọc sau khi phân loại thư rác
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label = Định kỳ, sau { $minutes } phút
+    .accesskey = e
 rule-action-set-spam-status =
     .label = Đặt trạng thái thư rác thành
 # Variables:

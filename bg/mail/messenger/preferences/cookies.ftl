@@ -38,3 +38,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Затваряне
     .accesskey = З
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Премахване на избраната
+           *[other] Премахване на избраните
+        }

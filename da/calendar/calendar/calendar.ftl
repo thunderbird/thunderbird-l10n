@@ -10,6 +10,14 @@ new-event-dialog = Ny begivenhed
 edit-event-dialog = Rediger begivenhed
 new-task-dialog = Ny opgave
 edit-task-dialog = Rediger opgave
+# Remove attachments prompt.
+prompt-remove-attachments-title = Fjern vedhæftede filer
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Vil du fjerne { $count } vedhæftet fil?
+       *[other] Vil du fjerne { $count } vedhæftede filer?
+    }
 # Do you want to save changes?
 ask-save-title-event = Gem begivenhed
 ask-save-title-task = Gem opgave

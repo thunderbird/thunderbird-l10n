@@ -38,3 +38,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Loka
     .accesskey = L
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Fjarlægja valið
+           *[other] Fjarlægja valið
+        }

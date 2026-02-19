@@ -39,3 +39,8 @@ filter-action-log-unread = marcáilte "neamhléite"
 filter-editor-must-select-target-folder = Caithfidh tú spriocfhillteán a roghnú.
 filter-editor-enter-valid-email-forward = Iontráil seoladh bailí ríomhphoist le cur ar aghaidh chuige.
 filter-editor-pick-template-reply = Roghnaigh teimpléad don fhreagra.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Theip ar chur i bhfeidhm an scagaire { $filterName }. An bhfuil fonn ort leanúint le cur i bhfeidhm na scagairí?
+filter-list-backup-message = Ní oibríonn do chuid scagairí toisc nach féidir an comhad msgFilterRules.dat ina bhfuil siad a léamh. Cruthófar comhad nua msgFilterRules.dat agus cuirfear cóip den seanchomhad sa chomhadlann chéanna leis an ainm rulesbackup.dat.
+filter-invalid-custom-header = Úsáideann ceann de do chuid scagairí ceanntásc ina bhfuil carachtar neamhbhailí, m.sh. ":", carachtar dophriontáilte, carachtar nach ASCII é, nó carachtar ASCII ocht ngiotán. Cuir an comhad msgFilterRules.dat, ina bhfuil do chuid scagairí, in eagar ionas nach n-úsáidfear carachtair neamhbhailí i do chuid cheanntásca saincheaptha.

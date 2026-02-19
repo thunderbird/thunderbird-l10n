@@ -10,6 +10,14 @@ new-event-dialog = Uusi tapahtuma
 edit-event-dialog = Muokkaa tapahtumaa
 new-task-dialog = Uusi tehtävä
 edit-task-dialog = Muokkaa tehtävää
+# Remove attachments prompt.
+prompt-remove-attachments-title = Poista liitetiedostot
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Haluatko varmasti poistaa yhden liitetiedoston?
+       *[other] Haluatko varmasti poistaa { $count } liitetiedostoa?
+    }
 # Do you want to save changes?
 ask-save-title-event = Tallenna tapahtuma
 ask-save-title-task = Tallenna tehtävä

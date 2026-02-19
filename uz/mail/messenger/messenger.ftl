@@ -3,11 +3,57 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Window controls
+
+
+## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+open-windows-warning-confirmation-title = Tasdiqlash
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] { $count } ta xabarni ochish juda sekin amalga oshishi mumkin. Davom etasizmi?
+       *[other] { $count } ta xabarni ochish juda sekin amalga oshishi mumkin. Davom etasizmi?
+    }
+open-tabs-warning-confirmation-title = Tasdiqlash
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] { $count } ta xabarni ochish juda sekin amalga oshishi mumkin. Davom etasizmi?
+       *[other] { $count } ta xabarni ochish juda sekin amalga oshishi mumkin. Davom etasizmi?
+    }
+
+## Toolbar
+
+
+## Folder Pane
+
+
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Teglar
     .accesskey = T
+
+## Folder names
+
+
+## File Menu
+
 
 ## Edit Menu
 
@@ -42,6 +88,9 @@ menu-edit-newsgroup-properties =
     .label = Yangiliklar to‘plami xossalari
     .accesskey = o
 
+## Message Menu
+
+
 ## Shared Menu Items
 
 menu-move-again =
@@ -67,17 +116,44 @@ menu-copy-to =
     .label = Nusxa olish
     .accesskey = N
 
+## AppMenu
+
+
 ## Context menu
 
 mail-context-menu-forward-forward =
     .label = Uzatish
     .accesskey = U
 
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
 ## Add-on removal warning
 
 repair-text-encoding-button =
     .label = Matn shifrini tuzatish
     .tooltiptext = Sahifa tarkibidan toʻgʻri matn shifrini taxmin qiling
+
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
 
 ## Quick Filter Bar
 
@@ -91,12 +167,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -126,3 +223,12 @@ message-group-no-attachments = Biriktirmalar yo‘q
 message-group-attachments = Biriktirmalar
 message-group-not-starred = Yulduz qo‘yilmagan
 message-group-starred = Yulduz qo‘yilgan
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+

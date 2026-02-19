@@ -10,6 +10,14 @@ new-event-dialog = Nouvel évènement{ " " }
 edit-event-dialog = Modifier l’évènement{ " " }
 new-task-dialog = Nouvelle tâche{ " " }
 edit-task-dialog = Modifier la tâche{ " " }
+# Remove attachments prompt.
+prompt-remove-attachments-title = Supprimer les pièces jointes
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Voulez-vous vraiment supprimer la pièce jointe ?
+       *[other] Voulez-vous vraiment supprimer { $count } pièces jointes ?
+    }
 # Do you want to save changes?
 ask-save-title-event = Enregistrer l’évènement
 ask-save-title-task = Enregistrer la tâche

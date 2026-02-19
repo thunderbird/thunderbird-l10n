@@ -3,6 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periodic, mintga minuta
+           *[other] Periodic, mintga { $minutes } minutas
+        }
+    .accesskey = e
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Errur cun l'acziun dal filter "{ $errorMsg }" cun il code d'errur { $errorCode } durant:
@@ -52,3 +61,8 @@ filter-log-message = Messadi dal filter «{ $filterName }»: { $message }
 filter-editor-must-select-target-folder = Ti stos tscherner in ordinatur da destinaziun.
 filter-editor-enter-valid-email-forward = Endatescha ina adressa dad e-mail valida a la quala duai vegnir renvià.
 filter-editor-pick-template-reply = Tscherna in model per utilisar cun respunder.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = L'execuziun dal filter { $filterName } n'è betg reussida. Vuls ti cuntinuar ed exequir ils ulteriurs filters?
+filter-list-backup-message = Tes filters na funcziunan betg perquai che la datoteca msgFilterRules.dat che cuntegna ils filters na po betg vegnir legida. Ina nova datoteca msgFilterRules.dat vegn creada ed ina copia da segirezza da la datoteca veglia che sa numa rulesbackup.dat vegn creada en il medem ordinatur.
+filter-invalid-custom-header = In da tes filters utilisescha in chau-pagina persunalisà che cuntegna in caracter nunvalid (p.ex. ‘:’, in caracter betg stampabel, in caracter betg ASCII u in caracter ASCII dad 8 bits). Modifitgescha per plaschair la datoteca msgFilterRules.dat che cuntegna tes filters per remplazzar ils caracters nunvalids en ils chaus-pagina persunalisads.

@@ -82,6 +82,26 @@ content-tab-menu-stop-mac =
     .tooltiptext = Zacytanje boka zastajiś
     .label = Zastajiś
     .accesskey = Z
+open-windows-warning-confirmation-title = Wobkšuśiś
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Wócynjanje { $count } powěsći móžo dlej traś. Pókšacowaś?
+        [two] Wócynjanje { $count } powěsćowu móžo dlej traś. Pókšacowaś?
+        [few] Wócynjanje { $count } powěsćow móžo dlej traś. Pókšacowaś?
+       *[other] Wócynjanje { $count } powěsćow móžo dlej traś. Pókšacowaś?
+    }
+open-tabs-warning-confirmation-title = Wobkšuśiś
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Wócynjanje { $count } powěsći móžo dlej traś. Pókšacowaś?
+        [two] Wócynjanje { $count } powěsćowu móžo dlej traś. Pókšacowaś?
+        [few] Wócynjanje { $count } powěsćow móžo dlej traś. Pókšacowaś?
+       *[other] Wócynjanje { $count } powěsćow móžo dlej traś. Pókšacowaś?
+    }
 
 ## Toolbar
 
@@ -658,3 +678,6 @@ prompt-dont-ask-again = Wěcej se njepšašaś.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Spamowa analyza { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } dokóńcona
 spam-processing-message = Spamowe powěsći se pśeźěłuju
+
+## Ignore threads
+

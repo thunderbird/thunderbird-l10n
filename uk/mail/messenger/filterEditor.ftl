@@ -3,6 +3,16 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Щохвилини
+            [few] Кожні { $minutes } хвилини
+           *[many] Кожні { $minutes } хвилин
+        }
+    .accesskey = х
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Збій застосування фільтру: "{ $errorMsg }" з кодом помилки={ $errorCode } при спробі:
@@ -52,3 +62,8 @@ filter-log-message = Повідомлення від фільтра "{ $filterNa
 filter-editor-must-select-target-folder = Виберіть теку для збереження.
 filter-editor-enter-valid-email-forward = Введіть адресу електронної пошти для пересилки на неї повідомлень.
 filter-editor-pick-template-reply = Виберіть шаблон для відповіді.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Помилка запуску фільтру { $filterName }. Запустити решту фільтрів?
+filter-list-backup-message = Фільтри не працюють, тому що файл msgFilterRules.dat, що містить їх, не може бути прочитаний. У тому ж самому каталозі буде створені новий файл msgFilterRules.dat і резервна копія старого з назвою rulesbackup.dat.
+filter-invalid-custom-header = У одному з фільтрів використовується додатковий заголовок, що містить недійсний символ, наприклад «:»; недрукований символ; символ, що не входить в таблицю ASCII, або восьмибітовий ASCII-символ. Відредагуйте файл msgFilterRules.dat, що містить фільтри, так, щоб вилучити недійсні символи з додаткових заголовків.

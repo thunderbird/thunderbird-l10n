@@ -3,6 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Periodicamente, cada minuto
+           *[other] Periodicamente, cada { $minutes } minutos
+        }
+    .accesskey = e
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Fallou a acción de filtro: "{ $errorMsg }" co código de erro={ $errorCode } ao tentar:
@@ -52,3 +61,8 @@ filter-log-message = Mensaxe do filtro «{ $filterName }»: { $message }
 filter-editor-must-select-target-folder = Seleccione un cartafol de destino.
 filter-editor-enter-valid-email-forward = Introduza un enderezo de correo correcto ao que reenviar.
 filter-editor-pick-template-reply = Escolla un modelo co que responder.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Produciuse un fallo na aplicación do filtro { $filterName }. Desexa continuar aplicando os filtros?
+filter-list-backup-message = Os filtros non funcionan porque non foi posíbel ler o ficheiro que os contén msgFilterRules.dat. Crearase un novo ficheiro msgFilterRules.dat e farase unha copia de seguranza, chamada rulesbackup.dat, no mesmo directorio.
+filter-invalid-custom-header = Un filtro utiliza unha cabeceira personalizada que contén un carácter non válido, como ‘:’, un carácter non imprimíbel, non ASCII ou ASCII de oito bits. Edite o ficheiro que contén os filtros msgFilterRules.dat file para eliminar caracteres non válidos das cabeceiras.

@@ -38,3 +38,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Serrar
     .accesskey = S
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Allontanar il tschernì
+           *[other] Allontanar ils tschernids
+        }

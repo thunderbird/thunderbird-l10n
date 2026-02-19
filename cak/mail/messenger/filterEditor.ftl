@@ -3,6 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Jutaqil, pa ch'utaq ramaj
+           *[other] Jutaqil, pa { $minutes } ch'utaq ramaj
+        }
+    .accesskey = C
+# Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
 filter-failure-warning-prefix = Xsach ri Chayub'äl: "{ $errorMsg }" rik'in rub'itz'ib' sachoj={ $errorCode } toq nitojtob'ëx:
@@ -52,3 +61,8 @@ filter-log-message = Rutzijol chayub'äl "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = K'o chi nicha' jun rub'ey yakwuj.
 filter-editor-enter-valid-email-forward = Titz'ib'äx jun okel rochochib'al taqoya'l achoq chi re nitaq chik.
 filter-editor-pick-template-reply = Ticha' jun kaxawäch achoq rik'in nitzolïx tzij.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Xsach rusamajixik ri { $filterName } chayub'äl. ¿La k'a nawajo' ye'awokisaj taq chayub'äl?
+filter-list-backup-message = Man ütz ta yesamäj ri taq achayub'al ruma chi ri msgFilterRules.dat yakb'äl k'o taq achayub'al chupam, man tikirel ta nisik'ïx. Xtinuk' jun k'ak'a' msgFilterRules.dat yakb'äl chuqa' xtiwachib'ëx ri ojer yakb'äl pa ri cholb'äl, rub'ina'am rulesbackup.dat.
+filter-invalid-custom-header = Jun chi ke ri taq achayub'al nrokisaj jun ichinan jub'i'aj ruk'wan jun man okel ta chi tz'ib', achi'el ‘:’, jun man tz'ajel ta chi tz'ib', jun no-ASCII chi tz'ib' o jun tz'ib' tzijon rik'in ri ruwaqxaq-b'it. Tanuku' ri msgFilterRules.dat yakb'äl, ri eruk'wan ri taq achayub'al, richin yeyuj el ri man okel ta taq tz'ib' pa ri ichinan taq ajub'i'aj.

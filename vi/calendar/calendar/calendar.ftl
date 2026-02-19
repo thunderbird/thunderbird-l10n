@@ -10,6 +10,10 @@ new-event-dialog = Sự kiện mới
 edit-event-dialog = Chỉnh sửa sự kiện
 new-task-dialog = Tác vụ mới
 edit-task-dialog = Chỉnh sửa tác vụ
+# Remove attachments prompt.
+prompt-remove-attachments-title = Xóa phần đính kèm
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text = Bạn có thực sự muốn xóa { $count } đính kèm không?
 # Do you want to save changes?
 ask-save-title-event = Lưu sự kiện
 ask-save-title-task = Lưu tác vụ

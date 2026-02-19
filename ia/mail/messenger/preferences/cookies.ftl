@@ -38,3 +38,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Clauder
     .accesskey = C
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Remover le seligite
+           *[other] remover le seligites
+        }

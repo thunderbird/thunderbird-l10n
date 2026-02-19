@@ -76,6 +76,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = หยุดโหลดหน้า
     .label = หยุด
     .accesskey = ห
+open-windows-warning-confirmation-title = ยืนยัน
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation = การเปิด { $count } ข้อความอาจช้า ดำเนินการต่อหรือไม่?
+open-tabs-warning-confirmation-title = ยืนยัน
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation = การเปิด { $count } ข้อความอาจช้า ดำเนินการต่อหรือไม่?
 
 ## Toolbar
 
@@ -607,3 +615,6 @@ prompt-dont-ask-again = ไม่ต้องถามอีก
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = การวิเคราะห์สแปมเสร็จสมบูรณ์ { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = กำลังประมวลผลข้อความสแปม
+
+## Ignore threads
+

@@ -10,6 +10,10 @@ new-event-dialog = Acara Baru
 edit-event-dialog = Ubah Acara
 new-task-dialog = Tugas Baru
 edit-task-dialog = Ubah Tugas
+# Remove attachments prompt.
+prompt-remove-attachments-title = Hapus Lampiran
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text = Apakah Anda benar-benar ingin menghapus lampiran { $count }?
 # Do you want to save changes?
 ask-save-title-event = Simpan Acara
 ask-save-title-task = Simpan Tugas

@@ -38,3 +38,11 @@ remove-all-cookies-button =
 cookie-close-button =
     .label = Kapat
     .accesskey = K
+# Variables:
+#   $count - the number selected cookies
+remove-selected-cookies =
+    .label =
+        { $count ->
+            [one] Seçileni sil
+           *[other] Seçilenleri sil
+        }

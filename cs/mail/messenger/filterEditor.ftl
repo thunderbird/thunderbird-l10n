@@ -10,6 +10,16 @@ run-filter-before-spam =
     .label = Filtrovat před kontrolou nevyžádané pošty
 run-filter-after-spam =
     .label = Filtrovat po kontrole nevyžádané pošty
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Opakovaně, každou minutu
+            [few] Opakovaně, každé { $minutes } minuty
+           *[other] Opakovaně, každých { $minutes } minut
+        }
+    .accesskey = p
 rule-action-set-spam-status =
     .label = Nastavit druh zprávy na
 # Variables:
