@@ -4,6 +4,28 @@
 
 recurrence-rule-too-complex = Detalji ponavljanja nepoznati
 #  $interval is a number, the recurrence interval
+recurrence-daily-every-nth =
+    { $interval ->
+        [one] svaki dan
+        [few] svakih { $interval } dana
+       *[other] svakih { $interval } dana
+    }
+recurrence-every-weekday = svaki radni dan
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] svaki { $weekdays }
+        [few] svaka { $interval } tjedna u { $weekdays }
+       *[other] svakih { $interval } tjedana u { $weekdays }
+    }
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] svaki { $interval } tjedan
+        [few] svaka { $interval } tjedna
+       *[other] svakih { $interval } tjedana
+    }
+#  $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] svaki dan svakog mjeseca
@@ -16,6 +38,22 @@ recurrence-repeat-ordinal-3 = treći
 recurrence-repeat-ordinal-4 = četvrti
 recurrence-repeat-ordinal-5 = peti
 recurrence-repeat-ordinal--1 = zadnji
+#  $ordinal - ordinal with article
+recurrence-ordinal-weekday = { $ordinal } { $weekday }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-every-of-every =
+    { $interval ->
+        [one] svaki { $weekdays } svakog mjeseca
+        [few] svaki { $weekdays } svaka { $interval } mjeseca
+       *[other] svaki { $weekdays } svakih { $interval } mjeseci
+    }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [one] { $weekdays } svakog mjeseca
+        [few] { $weekdays } svaka { $interval } mjeseca
+       *[other] { $weekdays } svakih { $interval } mjeseci
+    }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
     { $interval ->
