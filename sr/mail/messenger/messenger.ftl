@@ -9,6 +9,39 @@ messenger-window-close-button =
     .tooltiptext = Затвори
 about-rights-notification-text = { -brand-short-name } је слободан и отворен софтвер који је изградила заједница више хиљада особа из целог света.
 
+## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
+open-windows-warning-confirmation-title = Потврди
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Отварање { $count } поруке може бити споро. Наставити?
+        [few] Отварање { $count } порука може бити споро. Наставити?
+       *[other] Отварање { $count } порука може бити споро. Наставити?
+    }
+open-tabs-warning-confirmation-title = Потврди
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation =
+    { $count ->
+        [one] Отварање { $count } поруке може бити споро. Наставити?
+        [few] Отварање { $count } порука може бити споро. Наставити?
+       *[other] Отварање { $count } порука може бити споро. Наставити?
+    }
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -265,6 +298,9 @@ repair-text-encoding-button =
 no-reply-title = Одговор није подржан
 no-reply-reply-anyway-button = Ипак одговори
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-button-mail2 =
@@ -329,12 +365,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -368,3 +425,12 @@ message-group-starred = Са звездицом
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = и др.
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
