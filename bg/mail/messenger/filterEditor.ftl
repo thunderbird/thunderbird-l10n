@@ -77,3 +77,8 @@ filter-log-message = Съобщение от филтър „{ $filterName }“:
 filter-editor-must-select-target-folder = Трябва да изберете папка.
 filter-editor-enter-valid-email-forward = Въведете валиден адрес за препращане.
 filter-editor-pick-template-reply = Изберете шаблон за отговор.
+# Variables:
+# $filterName (String) - The name of the filter that was applied.
+filter-continue-execution = Прилагането на филтъра { $filterName } е неуспешно. Ще продължите ли да прилагате филтри?
+filter-list-backup-message = Вашите филтри не работят, понеже файла msgFilterRules.dat, който съдържа тези филтри е нечетим. Ще бъде създаден нов файл msgFilterRules.dat, както и резервно копие на стария файл с име rulesbackup.dat в същата директория.
+filter-invalid-custom-header = Един от вашите филтри използва заглавка, която съдържа неподходящ знак, като ‘:’, знак, който не се отпечатва, не-ASCII знак или 8-битов знак. Моля, редактирайте файла msgFilterRules.dat, който съдържа вашите филтри, за да премахнете неподходящите знаци от личните ви заглавки.
