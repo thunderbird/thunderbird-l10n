@@ -11,6 +11,17 @@ multi-message-delete-button =
     .label = احذف
     .tooltiptext = احذف
 # Variables:
+#   $count - total number of conversations (threads or solitary messages) selected
+num-conversations =
+    { $count ->
+        [zero] لا محادثات
+        [one] محادثة واحدة
+        [two] محادثتان
+        [few] { $count } محادثات
+        [many] { $count } محادثة
+       *[other] { $count } محادثة
+    }
+# Variables:
 #   $count - the number of conversations. We use this when we didn't actually
 #       scan the entire list of selected messages, so there may be more
 #       conversations than reported (or maybe not!).
