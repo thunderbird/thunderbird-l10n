@@ -10,6 +10,16 @@ run-filter-before-spam =
     .label = (przed filtrowaniem niechcianych)
 run-filter-after-spam =
     .label = (po filtrowaniu niechcianych)
+# Variables:
+#   $minutes - the number of minutes
+run-periodically =
+    .label =
+        { $minutes ->
+            [one] Co minutę
+            [few] Co { $minutes } minuty
+           *[many] Co { $minutes } minut
+        }
+    .accesskey = o
 rule-action-set-spam-status =
     .label = Ustaw stan niechcianej poczty na
 # Variables:
