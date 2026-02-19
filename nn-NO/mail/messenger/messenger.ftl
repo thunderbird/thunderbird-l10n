@@ -80,6 +80,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Stopp sidelasting
     .label = Stopp
     .accesskey = S
+open-windows-warning-confirmation-title = Stadfest
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation =
+    { $count ->
+        [one] Opning av { $count } melding kan ta tid. Vil du halda fram?
+       *[other] Opning av { $count } meldingar kan ta lang tid. Halda fram?
+    }
 open-tabs-warning-confirmation-title = Confirm
 # Variables:
 #   $count - number of messages to open
