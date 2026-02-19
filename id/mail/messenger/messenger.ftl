@@ -76,6 +76,14 @@ content-tab-menu-stop-mac =
     .tooltiptext = Hentikan pemuatan laman
     .label = Berhenti
     .accesskey = h
+open-windows-warning-confirmation-title = Konfirmasi
+# Variables:
+#   $count - number of messages to open
+open-windows-warning-confirmation = Membuka pesan { $count } mungkin lambat. Lanjutkan?
+open-tabs-warning-confirmation-title = Konfirmasi
+# Variables:
+#   $count - number of messages to open
+open-tabs-warning-confirmation = Membuka pesan { $count } mungkin lambat. Lanjutkan?
 
 ## Toolbar
 
@@ -615,3 +623,6 @@ prompt-dont-ask-again = Jangan tanya lagi.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analisis spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } selesai
 spam-processing-message = Memroses pesan spam
+
+## Ignore threads
+
