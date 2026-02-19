@@ -678,3 +678,26 @@ prompt-dont-ask-again = Hižo so njeprašeć.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Spamowa analyza { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } dokónčena
 spam-processing-message = Spamowe powěsće so předźěłuja
+
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Wotmołwy na nitku „{ $subject }“ so njepokazaja.
+        [two] Wotmołwy na { $count } nitce so njepokazaja.
+        [few] Wotmołwy na { $count } nitki so njepokazaja.
+       *[other] Wotmołwy na { $count } nitkow so njepokazaja.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Wotmołwy na podnitku „{ $subject }“ so njepokazaja.
+        [two] Wotmołwy na { $count } podnitce so njepokazaja.
+        [few] Wotmołwy na { $count } podnitki so njepokazaja.
+       *[other] Wotmołwy na { $count } podnitkow so njepokazaja.
+    }
