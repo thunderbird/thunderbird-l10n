@@ -141,6 +141,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Retschavida
     .tooltiptext = Dumandar ina conferma da retschavida per quest messadi
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Allontanar l'agiunta
+           *[other] Allontanar las agiuntas
+        }
+    .accesskey = l
+default-delete-cmd =
+    .label = Stizzar
+    .accesskey = S
 
 ## Encryption
 
