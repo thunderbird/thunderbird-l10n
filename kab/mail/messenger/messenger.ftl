@@ -516,6 +516,10 @@ attachment-view-attachment-count =
 ## Remote content blocking
 
 # Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Sireg agbur anmeggag si { $origin }
+# Variables:
 #    $count - the number of origins to allow
 remote-content-option-allow-all =
     .label =
