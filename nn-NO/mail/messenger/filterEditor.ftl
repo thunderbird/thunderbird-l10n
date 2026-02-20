@@ -82,3 +82,14 @@ filter-editor-pick-template-reply = Vel ein mal å svare med.
 filter-continue-execution = Bruk av filteret { $filterName } mislykkast. Vil du halde fram med å bruke filter?
 filter-list-backup-message = Filtra dine verkar ikkje fordi msgFilterRules.dat-fila, som inneheld filtra dine, ikkje vert funne. Ei ny msgFilterRules.dat-fil vert oppretta, og ein tryggingskopi av den gamle fila, rulesbackup.dat, vil bli lagt i den same mappa.
 filter-invalid-custom-header = Eit av filtera dine brukar eit eigendefinert meldingshovud som inneheld eit ugyldig teikn, til dømes ’:’, eit ikkje-skrivbart teikn, eit ikkje-ascii-teikn eller eit åtte-bitar ascii-teikn. Rediger msgFilterRules.dat-fila, som inneheld filtera dine, for å fjerne ugyldige teikn frå dei tilpassa meldingshovuda dine.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } treff
+       *[other] { $count } treff
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } av { $total }
