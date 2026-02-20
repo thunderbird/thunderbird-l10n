@@ -251,6 +251,32 @@ message-group-starred = عليها نجمة
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [zero] لا مرفقات
+        [one] مرفق واحد
+        [two] مرفقان
+        [few] { $count } مرفقات
+        [many] { $count } مرفقًا
+       *[other] { $count } مرفق
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = اسمح بالمحتوى البعيد من { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] اسمح بالمحتوى البعيد من مصدر واحد مذكور أعلاه
+            [two] اسمح بالمحتوى البعيد من مصدريْن مذكوريْن أعلاه
+            [few] اسمح بالمحتوى البعيد من { $count } مصادر مذكورة أعلاه
+            [many] اسمح بالمحتوى البعيد من { $count } مصدرًا مذكورًا أعلاه
+           *[other] اسمح بالمحتوى البعيد من { $count } مصدر مذكور أعلاه
+        }
