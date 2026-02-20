@@ -83,6 +83,13 @@ filter-continue-execution = Échec de l’application du filtre { $filterName }.
 filter-list-backup-message = Vos filtres ne fonctionnent pas car le fichier msgFilterRules.dat, qui contient les filtres, ne peut être lu. Un nouveau fichier msgFilterRules.dat sera créé et une sauvegarde de l’ancien, nommée rulesbackup.dat, sera créée dans le même répertoire.
 filter-invalid-custom-header = Un de vos filtres utilise un en-tête personnalisé qui contient un caractère invalide, tel que « : », un caractère non imprimable, un caractère non ASCII ou un caractère ASCII sur 8 bits. Veuillez modifier le fichier msgFilterRules.dat, qui contient vos filtres, afin de supprimer les caractères invalides de vos en-têtes personnalisés.
 # Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } élément
+       *[other] { $count } éléments
+    }
+# Variables:
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } sur { $total }
