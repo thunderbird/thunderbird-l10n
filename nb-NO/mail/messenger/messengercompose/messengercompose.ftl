@@ -141,6 +141,15 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Kvittering
     .tooltiptext = Be om returkvittering for denne meldingen
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Fjern vedlegg
+           *[other] Fjern vedlegg
+        }
+    .accesskey = v
 
 ## Encryption
 
