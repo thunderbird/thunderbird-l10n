@@ -142,6 +142,15 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Alındı onayı
     .tooltiptext = Bu ileti için alındı onayı iste
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Eki sil
+           *[other] Ekleri sil
+        }
+    .accesskey = k
 
 ## Encryption
 
@@ -303,6 +312,13 @@ compose-missing-identity-warning = Gönderen adresiyle eşleşen benzersiz kimli
 encrypted-bcc-warning = Şifrelenmiş ileti gönderirken Bcc’deki alıcılar tamamen gizlenmez. Tüm alıcılar diğer alıcıları görebilir.
 encrypted-bcc-ignore-button = Anladım
 auto-disable-e2ee-warning = Bu ileti için uçtan uca şifreleme otomatik olarak devre dışı bırakıldı.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } bir dosyanın bu iletide yüklenmesini engelledi. Engeli kaldırırsanız bu dosya gönderdiğiniz iletiye dahil olacak.
+       *[other] { -brand-short-name } bazı dosyaların bu iletide yüklenmesini engelledi. Engeli kaldırırsanız bu dosyalar gönderdiğiniz iletiye dahil olacak.
+    }
 
 ## Editing
 
