@@ -83,6 +83,13 @@ filter-continue-execution = { $filterName } süzgeci uygulanamadı. Süzgeçleri
 filter-list-backup-message = Süzgeçleriniz çalışmıyor çünkü süzgeçlerinizi içeren msgFilterRules.dat dosyası okunamadı. Yeni bir msgFilterRules.dat dosyası oluşturulacak ve eski dosyanızın yedeği rulesbackup.dat adıyla aynı dizine kopyalanacak.
 filter-invalid-custom-header = Süzgeçlerinizden bir tanesi, geçersiz bir karakter (‘:’ vb., yazdırılamaz bir karakter, ascii olmayan bir karakter veya 8 bit ascii karakter) içeren bir kullanıcı tanımlı başlık kullanıyor. Lütfen süzgeçlerinizi içeren msgFilterRules.dat dosyasını düzenleyerek kullanıcı tanımlı başlıklarınızdaki geçersiz karakterleri silin.
 # Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } öğe
+       *[other] { $count } öğe
+    }
+# Variables:
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } / { $total }
