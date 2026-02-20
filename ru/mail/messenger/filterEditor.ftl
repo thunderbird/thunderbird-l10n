@@ -91,3 +91,7 @@ filter-count-items =
         [few] { $count } фильтра
        *[many] { $count } фильтров
     }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } из { $total }
