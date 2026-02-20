@@ -66,3 +66,7 @@ filter-editor-pick-template-reply = Tscherna in model per utilisar cun respunder
 filter-continue-execution = L'execuziun dal filter { $filterName } n'è betg reussida. Vuls ti cuntinuar ed exequir ils ulteriurs filters?
 filter-list-backup-message = Tes filters na funcziunan betg perquai che la datoteca msgFilterRules.dat che cuntegna ils filters na po betg vegnir legida. Ina nova datoteca msgFilterRules.dat vegn creada ed ina copia da segirezza da la datoteca veglia che sa numa rulesbackup.dat vegn creada en il medem ordinatur.
 filter-invalid-custom-header = In da tes filters utilisescha in chau-pagina persunalisà che cuntegna in caracter nunvalid (p.ex. ‘:’, in caracter betg stampabel, in caracter betg ASCII u in caracter ASCII dad 8 bits). Modifitgescha per plaschair la datoteca msgFilterRules.dat che cuntegna tes filters per remplazzar ils caracters nunvalids en ils chaus-pagina persunalisads.
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } da { $total }
