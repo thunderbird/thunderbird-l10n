@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = Bestân…
     .accesskey = B
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Folgjende { $count } nijsberjocht downloade
+       *[other] Folgjende { $count } nijsberjochten downloade
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -675,3 +682,9 @@ ignored-subtheads-feedback =
         [one] Antwurden op it subpetear ‘{ $subject }’ sille net toand wurde.
        *[other] Antwurden op de { $count } selektearre subpetearen sille net toand wurde.
     }
+
+## Attachments
+
+
+## Remote content blocking
+
