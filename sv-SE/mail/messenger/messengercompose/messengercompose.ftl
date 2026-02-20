@@ -150,6 +150,9 @@ remove-attachment-cmd =
            *[other] Ta bort bilagor
         }
     .accesskey = o
+default-delete-cmd =
+    .label = Ta bort
+    .accesskey = T
 
 ## Encryption
 
