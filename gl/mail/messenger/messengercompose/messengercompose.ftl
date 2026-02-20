@@ -142,6 +142,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Aviso de recepción
     .tooltiptext = Solicita un aviso de recepción desta mensaxe
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Eliminar anexo
+           *[other] Eliminar anexos
+        }
+    .accesskey = E
+default-delete-cmd =
+    .label = Eliminar
+    .accesskey = l
 
 ## Encryption
 
