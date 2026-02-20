@@ -298,6 +298,13 @@ compose-missing-identity-warning = გამგზავნის მისა�
 encrypted-bcc-warning = დაშიფრული შეტყობინების გაგზავნისას, მიმღებები ფარული ასლის ველში, სრულად დამალული არაა. ყველა მიმღებს შეეძლება მათი გამომჟღავნება.
 encrypted-bcc-ignore-button = გასაგებია
 auto-disable-e2ee-warning = გამჭოლი დაშიფვრა ამ წერილისთვის თავისთავად გამოირთო.
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] მოიძებნა დანართის საკვანძო სიტყვა:
+       *[other] მოიძებნა დანართის { $count } საკვანძო სიტყვა:
+    }
 
 ## Editing
 
@@ -393,6 +400,21 @@ cloud-file-account-error-title = Filelink-ანგარიშის შეც�
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink-დანართი { $filename } ვერ განახლდა, ვინაიდან Filelink-ანგარიში წაშლილია.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] ეს ფაილი დიდი ზომისა. შესაძლოა მის ნაცვლად ფაილის ბმულის გამოყენება სჯობდეს.
+           *[other] ეს ფაილები დიდი ზომისაა. შესაძლოა მათ ნაცვლად ბმულების გამოყენება სჯობდეს.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] თქვენ ფაილის ბმული იქმნება. ტექსტში აისახება დასრულებისთანავე.
+       *[other] თქვენი ფაილების ბმულები იქმნება. ტექსტში აისახება დასრულებისთანავე.
+    }
 
 ## Link Preview
 
