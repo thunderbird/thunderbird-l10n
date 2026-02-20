@@ -279,6 +279,9 @@ encrypted-bcc-warning = Khi gửi một thư được mã hóa, người nhận 
 encrypted-bcc-ignore-button = Đã hiểu
 auto-disable-e2ee-warning = Mã hóa đầu cuối cho thư này đã tự động bị tắt.
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message = { -brand-short-name } đã chặn một số tập tin tải vào thư này. Bỏ chặn tập tin sẽ bao gồm nó trong thư đã gửi của bạn.
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg = Đã tìm thấy { $count } từ khóa đính kèm:
 
