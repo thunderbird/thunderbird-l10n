@@ -28,6 +28,16 @@
 ## Notifications
 
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] حجب { -brand-short-name } ملفًا من التحميل إلى هذه الرسالة. رفع حجب الملف سيُضمنّه في الرسالة المُرسلة.
+        [two] حجب { -brand-short-name } ملفين من التحميل إلى هذه الرسالة. رفع حجبهما سيُضمنّهما في الرسالة المُرسلة.
+        [few] حجب { -brand-short-name } بعض الملفات من التحميل إلى هذه الرسالة. رفع حجبهم سيُضمنّهم في الرسالة المُرسلة.
+        [many] حجب { -brand-short-name } بعض الملفات من التحميل إلى هذه الرسالة. رفع حجبهم سيُضمنّهم في الرسالة المُرسلة.
+       *[other] حجب { -brand-short-name } بعض الملفات من التحميل إلى هذه الرسالة. رفع حجبهم سيُضمنّهم في الرسالة المُرسلة.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
