@@ -81,6 +81,9 @@ remove-attachment-cmd =
            *[other] Ջնջել կցորդները
         }
     .accesskey = m
+default-delete-cmd =
+    .label = Ջնջել
+    .accesskey = D
 
 ## Encryption
 
