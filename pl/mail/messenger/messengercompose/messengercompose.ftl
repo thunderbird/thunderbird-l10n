@@ -147,6 +147,16 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Potwierdzenie
     .tooltiptext = Żądaj potwierdzenia dostarczenia tej wiadomości
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Usuń załącznik
+            [few] Usuń załączniki
+           *[many] Usuń załączniki
+        }
+    .accesskey = N
 
 ## Encryption
 
@@ -312,6 +322,14 @@ compose-missing-identity-warning = Nie odnaleziono unikalnej tożsamości pasuj�
 encrypted-bcc-warning = Podczas wysyłania zaszyfrowanej wiadomości odbiorcy w polu Ukryta kopia nie są w pełni ukryci. Wszyscy odbiorcy mogą być w stanie ich rozpoznać.
 encrypted-bcc-ignore-button = Rozumiem
 auto-disable-e2ee-warning = Szyfrowanie typu „end-to-end” dla tej wiadomości zostało automatycznie wyłączone.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } zablokował wczytanie pliku w tej wiadomości. Odblokowanie pliku spowoduje dołączenie go w wysyłanej wiadomości.
+        [few] { -brand-short-name } zablokował wczytanie plików w tej wiadomości. Odblokowanie pliku spowoduje dołączenie go w wysyłanej wiadomości.
+       *[many] { -brand-short-name } zablokował wczytanie plików w tej wiadomości. Odblokowanie pliku spowoduje dołączenie go w wysyłanej wiadomości.
+    }
 
 ## Editing
 
