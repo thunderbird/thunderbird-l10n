@@ -18,6 +18,22 @@
 
 ## Reorder Attachment Panel
 
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [zero] أزِل المرفقات
+            [one] أزِل المرفق
+            [two] أزِل المرفقين
+            [few] أزِل المرفقات
+            [many] أزِل المرفقات
+           *[other] أزِل المرفقات
+        }
+    .accesskey = ر
+default-delete-cmd =
+    .label = احذف
+    .accesskey = ذ
 
 ## Encryption
 
