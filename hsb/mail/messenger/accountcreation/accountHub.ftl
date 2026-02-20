@@ -205,6 +205,7 @@ account-hub-oauth-pending = Čaka so za awtorizaciju we wuskakowacym woknje při
 account-hub-addon-install-button = Instalować
 account-hub-addon-install-needed = { -brand-short-name } wot doma tutón serwer njepodpěruje. Zo by přistup k e-mejli Exchange měł, <a data-l10n-name="addon-install">instalujće přidatk třećeho poskićowarja kaž Owl (płaćomny).</a>
 account-hub-addon-error = Instalacija přidatka je so nimokuliła. Prošu spytajće hišće raz abo stajće so z awtorom přidatka do zwiska, zo byšće pomoc dóstał.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Warnowanje: Njewěsty e-mejlowy serwer je so wotkrył.</span> Tutón serwer zaklučowanje nima, wozjawnja waše hesło a waše daty. Stajće so ze swojim administratorom do zwiska, zo byšće zwisk zawěsćił abo na swójske riziko pokročował. <a data-l10n-name="error-link">Hlejće Husto stajene prašenja za dalše informacije.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Warnowanje: Njewěsty e-mejlowy serwer je so wotkrył.</span> Tutón serwer zaklučowanje nima, wozjawnja waše hesło a waše daty. Stajće so ze swojim administratorom do zwiska, zo byšće zwisk zawěsćił abo na swójske riziko pokročował. <a data-l10n-name="faq-link">Hlejće Husto stajene prašenja za dalše informacije.</a>
 account-hub-account-authentication-error = Awtentifikaciski zmylk.
 account-hub-add-address-book = Adresnik přidać
