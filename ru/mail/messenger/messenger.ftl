@@ -681,3 +681,12 @@ ignored-theads-feedback =
         [few] Ответы в { $count } выбранных обсуждениях показаны не будут.
        *[many] Ответы в { $count } выбранных обсуждениях показаны не будут.
     }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Ответы в ветке обсуждения «{ $subject }» показаны не будут.
+        [few] Ответы в { $count } выбранных ветках обсуждений показаны не будут.
+       *[many] Ответы в { $count } выбранных ветках обсуждений показаны не будут.
+    }
