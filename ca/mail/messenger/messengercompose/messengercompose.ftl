@@ -397,6 +397,21 @@ cloud-file-account-error-title = Error de compte de Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = No s'ha pogut actualitzar l'adjunció de Filelink { $filename } perquè s'ha suprimit el compte de Filelink.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] És un fitxer gran. Podria ser millor utilitzar el Filelink.
+           *[other] Són fitxers grans. Podria ser millor utilitzar el Filelink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] S'està enllaçant el fitxer. Apareixerà en el cos del missatge en acabar.
+       *[other] S'estan enllaçant els fitxers. Apareixeran en el cos del missatge en acabar.
+    }
 
 ## Link Preview
 
