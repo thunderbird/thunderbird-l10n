@@ -602,6 +602,13 @@ prompt-dont-ask-again = Ez galdetu berriz.
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] eranskin bat
+       *[other] { $count } eranskin
+    }
 
 ## Remote content blocking
 
@@ -609,3 +616,11 @@ prompt-dont-ask-again = Ez galdetu berriz.
 #    $origin - origin of the remote content to allow
 allow-remote-content-resource =
     .label = Baimendu { $origin }ko urruneko edukia
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Baimendu urruneko edukia goian zerrendatutako { $count } jatorritik
+           *[other] Baimendu urruneko edukiak goian zerrendatutako { $count } jatorrietatik
+        }
