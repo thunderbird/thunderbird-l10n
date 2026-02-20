@@ -18,6 +18,15 @@
 
 ## Reorder Attachment Panel
 
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Remove Attachment
+           *[other] Remove Attachments
+        }
+    .accesskey = M
 
 ## Encryption
 
@@ -52,6 +61,21 @@ attachment-reminder-keywords-msg =
 
 # Messages
 
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] This is a large file. It might be better to use Filelink instead.
+           *[other] These are large files. It might be better to use Filelink instead.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Your file is being linked. It will appear in the body of the message when it's done.
+       *[other] Your files are being linked. They will appear in the body of the message when they're done.
+    }
 
 ## Link Preview
 
