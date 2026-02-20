@@ -163,6 +163,15 @@ menu-file-save-as-file =
     .label = Dataja…
     .accesskey = D
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Dalšu { $count } diskusijnu powěsć wobstarać
+        [two] Dalšej { $count } diskusijnej powěsći wobstarać
+        [few] Dalše { $count } diskusijne powěsće wobstarać
+       *[other] Dalšich { $count } diskusijnych powěsćow wobstarać
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -701,3 +710,9 @@ ignored-subtheads-feedback =
         [few] Wotmołwy na { $count } podnitki so njepokazaja.
        *[other] Wotmołwy na { $count } podnitkow so njepokazaja.
     }
+
+## Attachments
+
+
+## Remote content blocking
+
