@@ -68,6 +68,14 @@ filter-continue-execution = Помилка запуску фільтру { $filt
 filter-list-backup-message = Фільтри не працюють, тому що файл msgFilterRules.dat, що містить їх, не може бути прочитаний. У тому ж самому каталозі буде створені новий файл msgFilterRules.dat і резервна копія старого з назвою rulesbackup.dat.
 filter-invalid-custom-header = У одному з фільтрів використовується додатковий заголовок, що містить недійсний символ, наприклад «:»; недрукований символ; символ, що не входить в таблицю ASCII, або восьмибітовий ASCII-символ. Відредагуйте файл msgFilterRules.dat, що містить фільтри, так, щоб вилучити недійсні символи з додаткових заголовків.
 # Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } елемент
+        [few] { $count } елементи
+       *[many] { $count } елементів
+    }
+# Variables:
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } з { $total }
