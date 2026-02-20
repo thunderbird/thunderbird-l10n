@@ -684,6 +684,25 @@ ignored-subtheads-feedback =
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } allegato
+       *[other] { $count } allegati
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Consenti contenuto remoto da { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Consenti contenuti remoti originati dalla sorgente indicata
+           *[other] Consenti contenuti remoti originati dalle { $count } sorgenti indicate
+        }
