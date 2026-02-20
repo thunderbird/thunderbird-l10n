@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Send Format
+
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -94,6 +97,9 @@ button-return-receipt =
     .label = Patvirtinimas
     .tooltiptext = Paprašyti pristatymo patvirtinimo šiam pranešimui
 
+## Encryption
+
+
 ## Addressing Area
 
 to-address-row-label =
@@ -104,3 +110,55 @@ many-public-recipients-bcc =
 many-public-recipients-ignore =
     .label = Gavėjai matys kitus adresus
     .accesskey = m
+
+## Notifications
+
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Rastas { $count } su priedu susijęs reikšminis žodis:
+        [few] Rasti { $count } su priedu susiję reikšminiai žodžiai:
+       *[other] Rasta { $count } su priedu susijusių reikšminių žodžių:
+    }
+
+## Editing
+
+
+# Tools
+
+
+## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
+
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Šis failas gan didelis. Galbūt geriau nusiųsti tik saitą į jį?
+            [few] Šie failai gan dideli. Galbūt geriau nusiųsti tik saitą į juos?
+           *[other] Šie failai gan dideli. Galbūt geriau nusiųsti tik saitą į juos?
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Kuriama nuoroda į failą. Užbaigus, ji bus pridėta į laiško tekstą.
+        [few] Kuriamos nuorodos į failus. Užbaigus, jos bus pridėtos į laiško tekstą.
+       *[other] Kuriamos nuorodos į failus. Užbaigus, jos bus pridėtos į laiško tekstą.
+    }
+
+## Link Preview
+
+
+## Dictionary selection popup
+
