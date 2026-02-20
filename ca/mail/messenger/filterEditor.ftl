@@ -66,3 +66,7 @@ filter-editor-pick-template-reply = Trieu la plantilla que utilitzareu per respo
 filter-continue-execution = No s'ha pogut aplicar el filtre { $filterName }. Voleu seguir aplicant filtres?
 filter-list-backup-message = Els filtres no funcionen perquè no s'ha pogut llegir el fitxer msgFilterRules.dat, que conté els filtres. Es crearà un fitxer msgFilterRules.dat nou i es farà una còpia de seguretat del fitxer antic, anomenada rulesbackup.dat, al mateix directori.
 filter-invalid-custom-header = Un dels vostres filtres utilitza una capçalera personalitzada que conté un caràcter no vàlid, , com ara «:», un caràcter no imprimible, un caràcter que no pertany a l'ASCII o un caràcter ASCII de vuit bits. Editeu el fitxer msgFilterRules.dat, que conté els vostres filtres, per treure els caràcters no vàlids de les capçaleres personalitzades.
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } de { $total }
