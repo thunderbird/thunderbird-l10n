@@ -18,6 +18,16 @@
 
 ## Reorder Attachment Panel
 
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Ukloni prilog
+            [few] Ukloni priloge
+           *[other] Ukloni priloge
+        }
+    .accesskey = M
 
 ## Encryption
 
