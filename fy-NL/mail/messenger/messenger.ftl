@@ -656,3 +656,22 @@ prompt-dont-ask-again = Dit net mear freegje.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Net-winskeanalyze { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } foltôge
 spam-processing-message = Net-winske berjochten ferwurkje
+
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Antwurden op it petear ‘{ $subject }’ sille net toand wurde.
+       *[other] Antwurden op de { $count } selektearre petearen sille net toand wurde.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Antwurden op it subpetear ‘{ $subject }’ sille net toand wurde.
+       *[other] Antwurden op de { $count } selektearre subpetearen sille net toand wurde.
+    }
