@@ -674,9 +674,6 @@ prompt-dont-ask-again = Nu mai întreba.
 spam-analysis-percentage = Analiză mesaje nedorite realizată { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = Se procesează mesajele nedorite
 
-## Ignore threads
-
-
 ## Attachments
 
 # Variables:

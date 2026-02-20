@@ -4,4 +4,4 @@
 
 # Variables:
 #   $count - the number items
-facets-mode-to-list-all-label = 列出所有 { $count }
+facets-mode-to-list-all-label = 列出全部 { $count } 項

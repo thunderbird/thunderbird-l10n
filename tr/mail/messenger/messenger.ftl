@@ -660,9 +660,6 @@ prompt-dont-ask-again = Tekrar sorma.
 spam-analysis-percentage = Spam analizi { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } tamamlandı
 spam-processing-message = Spam iletiler işleniyor
 
-## Ignore threads
-
-
 ## Attachments
 
 # Variables:

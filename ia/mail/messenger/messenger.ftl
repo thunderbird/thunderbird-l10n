@@ -663,9 +663,6 @@ prompt-dont-ask-again = Non plus demandar.
 spam-analysis-percentage = Analysis de spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } completate
 spam-processing-message = Processante messages spam
 
-## Ignore threads
-
-
 ## Attachments
 
 # Variables:

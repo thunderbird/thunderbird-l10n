@@ -651,9 +651,6 @@ prompt-dont-ask-again = მომავალში შეკითხვის 
 spam-analysis-percentage = ჯართის გარჩევის { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } დასრულებულია
 spam-processing-message = მუშავდება უსარგებლო წერილები
 
-## Ignore threads
-
-
 ## Attachments
 
 # Variables:

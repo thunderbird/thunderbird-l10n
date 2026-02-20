@@ -40,20 +40,11 @@ open-tabs-warning-confirmation =
        *[other] { $count } vēstuļu atvēršana var būt lēna. Turpināt?
     }
 
-## Toolbar
-
-
-## Folder Pane
-
-
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Birkas
     .accesskey = B
-
-## Folder names
-
 
 ## File Menu
 
@@ -99,9 +90,6 @@ menu-edit-newsgroup-properties =
     .label = Ziņu grupas īpašības
     .accesskey = Z
 
-## Message Menu
-
-
 ## Shared Menu Items
 
 menu-move-again =
@@ -130,41 +118,11 @@ menu-move-copy-favorites =
     .label = Izlase
     .accesskey = I
 
-## AppMenu
-
-
 ## Context menu
 
 mail-context-menu-forward-forward =
     .label = Pārsūtīt
     .accesskey = P
-
-## Message header pane
-
-
-## Message header customize panel
-
-
-## Action Button Context Menu
-
-
-## Add-on removal warning
-
-
-## no-reply handling
-
-
-## error messages
-
-
-## Spaces toolbar
-
-
-## Spaces toolbar pinned tab menupopup
-
-
-## Spaces toolbar customize panel
-
 
 ## Quick Filter Bar
 
@@ -178,33 +136,12 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
-## Actions for the New Mail Notification
-
 
 ## Message list.
 
@@ -237,15 +174,6 @@ message-group-starred = Zvaigžņotas
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = un citi.
-
-## Prompts
-
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

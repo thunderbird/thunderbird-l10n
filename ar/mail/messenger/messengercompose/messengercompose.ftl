@@ -3,19 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Send Format
-
-
-## Addressing widget
-
-
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 # Variables:
@@ -34,12 +21,6 @@ remove-attachment-cmd =
 default-delete-cmd =
     .label = احذف
     .accesskey = ذ
-
-## Encryption
-
-
-## Addressing Area
-
 
 ## Notifications
 
@@ -64,12 +45,6 @@ attachment-reminder-keywords-msg =
         [many] وُجدت { $count } كلمة تدل على مُرفق:
        *[other] وُجدت { $count } كلمة تدل على مُرفق:
     }
-
-## Editing
-
-
-# Tools
-
 
 ## Filelink
 
@@ -105,9 +80,3 @@ cloudfile-uploading-notification =
         [many] يجري ربط ملفاتك. ستظهر في متن الرسالة عندما ينتهي ربطها.
        *[other] يجري ربط ملفاتك. ستظهر في متن الرسالة عندما ينتهي ربطها.
     }
-
-## Link Preview
-
-
-## Dictionary selection popup
-

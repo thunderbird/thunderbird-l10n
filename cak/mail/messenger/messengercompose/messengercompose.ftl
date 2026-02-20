@@ -24,13 +24,6 @@ pill-action-move-bcc =
     .label = Tisilöx pa Bcc
     .accesskey = B
 
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 # Variables:
@@ -92,12 +85,6 @@ attachment-reminder-keywords-msg =
         [one] Xilitäj jun tzij chi rij ri taqoj:
        *[other] Xeilitäj { $count } taq tzij chi kij ri taqoj:
     }
-
-## Editing
-
-
-# Tools
-
 
 ## Filelink
 

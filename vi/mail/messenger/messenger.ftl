@@ -630,9 +630,6 @@ prompt-dont-ask-again = Đừng hỏi lại.
 spam-analysis-percentage = Phân tích thư rác { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } đã hoàn tất
 spam-processing-message = Đang xử lý thư rác
 
-## Ignore threads
-
-
 ## Attachments
 
 # Variables:

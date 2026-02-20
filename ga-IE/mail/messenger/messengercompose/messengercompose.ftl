@@ -3,19 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Send Format
-
-
-## Addressing widget
-
-
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 # Variables:
@@ -33,12 +20,6 @@ remove-attachment-cmd =
 default-delete-cmd =
     .label = Scrios
     .accesskey = S
-
-## Encryption
-
-
-## Addressing Area
-
 
 ## Notifications
 
@@ -62,12 +43,6 @@ attachment-reminder-keywords-msg =
         [many] Aimsíodh { $count } lorgfhocal iatáin:
        *[other] Aimsíodh { $count } lorgfhocal iatáin:
     }
-
-## Editing
-
-
-# Tools
-
 
 ## Filelink
 
@@ -101,9 +76,3 @@ cloudfile-uploading-notification =
         [many] Tá do chuid comhad á nascadh. Feicfidh tú i gcorp na teachtaireachta iad nuair a bheidh sé críochnaithe.
        *[other] Tá do chuid comhad á nascadh. Feicfidh tú i gcorp na teachtaireachta iad nuair a bheidh sé críochnaithe.
     }
-
-## Link Preview
-
-
-## Dictionary selection popup
-

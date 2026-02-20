@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Send Format
-
-
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -110,9 +107,6 @@ default-delete-cmd =
     .label = Pašalinti
     .accesskey = š
 
-## Encryption
-
-
 ## Addressing Area
 
 to-address-row-label =
@@ -143,12 +137,6 @@ attachment-reminder-keywords-msg =
        *[other] Rasta { $count } su priedu susijusių reikšminių žodžių:
     }
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
 
 
@@ -177,9 +165,3 @@ cloudfile-uploading-notification =
         [few] Kuriamos nuorodos į failus. Užbaigus, jos bus pridėtos į laiško tekstą.
        *[other] Kuriamos nuorodos į failus. Užbaigus, jos bus pridėtos į laiško tekstą.
     }
-
-## Link Preview
-
-
-## Dictionary selection popup
-

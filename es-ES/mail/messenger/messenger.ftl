@@ -664,9 +664,6 @@ prompt-dont-ask-again = No volver a preguntar.
 spam-analysis-percentage = Análisis de correo no deseado { NUMBER($percentage, maximumSignificantDigits: 2, style: "por ciento") } completado
 spam-processing-message = Procesando mensajes de correo no deseado
 
-## Ignore threads
-
-
 ## Attachments
 
 # Variables:

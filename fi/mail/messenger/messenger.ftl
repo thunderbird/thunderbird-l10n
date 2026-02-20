@@ -502,24 +502,12 @@ openpgp-forget = Unohda OpenPGP-salalauseet
 quota-panel-percent-used = { $percent } % täynnä
     .title = IMAP-kiintiö: Käytetty { $usage }/{ $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -576,9 +564,6 @@ prompt-dont-ask-again = Älä kysy uudestaan.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Roskapostianalyysi { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } valmis
 spam-processing-message = Käsitellään roskapostiviestejä
-
-## Ignore threads
-
 
 ## Attachments
 

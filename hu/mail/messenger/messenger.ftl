@@ -664,9 +664,6 @@ prompt-dont-ask-again = Ne kérdezze meg újra.
 spam-analysis-percentage = Levélszemét-ellenőrzés { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }-ban kész
 spam-processing-message = Levélszemetek feldolgozása
 
-## Ignore threads
-
-
 ## Attachments
 
 # Variables:

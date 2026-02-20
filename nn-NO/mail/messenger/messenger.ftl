@@ -663,9 +663,6 @@ prompt-dont-ask-again = Ikkje spør meg fleire gongar.
 spam-analysis-percentage = Søppelpostanalyse { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } fullført
 spam-processing-message = Behandlar søppelpostmeldingar
 
-## Ignore threads
-
-
 ## Attachments
 
 # Variables:

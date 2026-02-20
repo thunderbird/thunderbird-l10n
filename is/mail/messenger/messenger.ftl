@@ -664,9 +664,6 @@ prompt-dont-ask-again = Ekki spyrja aftur.
 spam-analysis-percentage = Ruslpóstsgreiningu { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } lokið
 spam-processing-message = Vinn úr ruslpósti
 
-## Ignore threads
-
-
 ## Attachments
 
 # Variables:

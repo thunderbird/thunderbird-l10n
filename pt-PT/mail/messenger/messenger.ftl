@@ -664,9 +664,6 @@ prompt-dont-ask-again = Não voltar a perguntar.
 spam-analysis-percentage = Análise do lixo eletrónico { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } concluída
 spam-processing-message = A processar as mensagens de lixo eletrónico
 
-## Ignore threads
-
-
 ## Attachments
 
 # Variables:

@@ -615,9 +615,6 @@ prompt-dont-ask-again = 다시 묻지 않기
 spam-analysis-percentage = 스팸 분석 { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } 완료됨
 spam-processing-message = 스팸 메시지 처리
 
-## Ignore threads
-
-
 ## Attachments
 
 # Variables:
