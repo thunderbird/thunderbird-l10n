@@ -52,6 +52,16 @@ bcc-address-row-label =
 ## Notifications
 
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] Stanket eo bet ur restr da gargañ er gemennadenn-mañ gant { -brand-short-name }. Distankañ ar restr a ebarzho anezhañ en ho kemennadenn kaset.
+        [two] Stanket eo bet restroù da gargañ er gemennadenn-mañ gant { -brand-short-name }. Distankañ ur restr a ebarzho anezhañ en ho kemennadenn kaset.
+        [few] Stanket eo bet restroù da gargañ er gemennadenn-mañ gant { -brand-short-name }. Distankañ ur restr a ebarzho anezhañ en ho kemennadenn kaset.
+        [many] Stanket eo bet restroù da gargañ er gemennadenn-mañ gant { -brand-short-name }. Distankañ ur restr a ebarzho anezhañ en ho kemennadenn kaset.
+       *[other] Stanket eo bet restroù da gargañ er gemennadenn-mañ gant { -brand-short-name }. Distankañ ur restr a ebarzho anezhañ en ho kemennadenn kaset.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
