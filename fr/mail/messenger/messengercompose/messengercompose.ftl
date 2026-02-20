@@ -302,6 +302,13 @@ compose-missing-identity-warning = Une identité unique correspondant à l’adr
 encrypted-bcc-warning = Lors de l’envoi d’un message chiffré, les destinataires en copie cachée ne sont pas complètement masqués. Tous les destinataires pourraient les identifier.
 encrypted-bcc-ignore-button = C’est compris
 auto-disable-e2ee-warning = Le chiffrement de bout en bout de ce message a été automatiquement désactivé.
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Mot-clé de pièce jointe trouvé :
+       *[other] { $count } mots-clés de pièce jointe trouvés :
+    }
 
 ## Editing
 
