@@ -83,6 +83,13 @@ filter-continue-execution = Falha ao aplicar o filtro { $filterName }. Quer cont
 filter-list-backup-message = Seus filtros não funcionam porque o arquivo msgFilterRules.dat, que contém seus filtros, não pôde ser lido. Um novo msgFilterRules.dat será criado e uma cópia do arquivo atual, renomeada para rulesbackup.dat, será criada na mesma pasta.
 filter-invalid-custom-header = Um de seus filtros usa um cabeçalho personalizado que contém um caractere inválido, como ‘:’, um caractere não imprimível, um caractere não ASCII ou um caractere ASCII de 8 bits. Edite o arquivo msgFilterRules.dat, que contém seus filtros, para remover caracteres inválidos de seus cabeçalhos personalizados.
 # Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } item
+       *[other] { $count } itens
+    }
+# Variables:
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } de { $total }
