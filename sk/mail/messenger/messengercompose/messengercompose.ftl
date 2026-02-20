@@ -326,6 +326,14 @@ encrypted-bcc-warning = Pri odosielaní šifrovanej správy nie sú príjemcovia
 encrypted-bcc-ignore-button = Rozumiem
 auto-disable-e2ee-warning = Obojstranné šifrovanie bolo pre túto správu automaticky zakázané.
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } zablokoval pridávanie súboru do tejto správy. Odblokovaním ho môžete pridať do vašej správy na odoslanie.
+        [few] { -brand-short-name } zablokoval pridanie niekoľkých súborov do tejto správy. Odblokovaním ich môžete pridať do vašej správy na odoslanie.
+       *[other] { -brand-short-name } zablokoval pridanie niekoľkých súborov do tejto správy. Odblokovaním ich môžete pridať do vašej správy na odoslanie.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
