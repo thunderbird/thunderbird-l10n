@@ -141,6 +141,15 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Accusé de réception
     .tooltiptext = Demander un accusé de réception pour ce message
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Supprimer la pièce jointe
+           *[other] Supprimer les pièces jointes
+        }
+    .accesskey = j
 
 ## Encryption
 
