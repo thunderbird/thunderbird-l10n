@@ -142,6 +142,15 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Dëftesë
     .tooltiptext = Kërko një dëftesë kthimi për këtë mesazh
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Hiqe Bashkëngjitjen
+           *[other] Hiqi Bashkëngjitjet
+        }
+    .accesskey = H
 
 ## Encryption
 
@@ -303,6 +312,13 @@ compose-missing-identity-warning = S’u gjet ndonjë identitet unik që përput
 encrypted-bcc-warning = Kur dërgohet një mesazh i fshehtëzuar, marrësit te fusha Bcc tani s’janë plotësisht të fshehur. Krejt marrësit mund të jenë në gjendje t’i identifikojnë ata.
 encrypted-bcc-ignore-button = E kuptova
 auto-disable-e2ee-warning = Për këtë mesazh u çaktivizua automatilisht fshehtëzimi skaj-më-skaj.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } ka bllokuar ngarkimin në mesazh të një kartele. Zhbllokimi i kartelës do të sjellë përfshirjen e saj në mesazhin tuaj të dërguar.
+       *[other] { -brand-short-name } ka bllokuar ngarkimin në mesazh të disa kartelave. Zhbllokimi i një kartele do të sjellë përfshirjen e saj në mesazhin tuaj të dërguar.
+    }
 
 ## Editing
 
@@ -398,6 +414,21 @@ cloud-file-account-error-title = Gabim Llogarie Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = S’u arrit të përditësohej bashkëngjitja Filelink { $filename }, ngaqë llogaria Filelink për të është fshirë.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Kjo është kartelë e madhe. Mund të ishte më mirë të përdorej Filelink-u.
+           *[other] Këto janë kartela të mëdha. Mund të ishte më mirë të përdorej Filelink-u.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Kartela juaj po lidhet. Sapo të jetë kryer, do të duket te lënda e mesazhit.
+       *[other] Kartelat tuaja po lidhen. Sapo të jetë kryer, do të duken te lënda e mesazhit.
+    }
 
 ## Link Preview
 
