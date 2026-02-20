@@ -203,6 +203,7 @@ account-hub-oauth-pending = Esperando autorización en la ventana emergente de i
 account-hub-addon-install-button = Instalar
 account-hub-addon-install-needed = { -brand-short-name } no es compatible de forma nativa con este servidor. Para acceder al correo electrónico de Exchange, <a data-l10n-name="addon-install">instale un complemento de terceros como Owl (pago).</a>
 account-hub-addon-error = Falló la instalación del complemento. Pruebe nuevamente o contacte al autor del complemento para obtener ayuda.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Advertencia: Se detectó un servidor de correo inseguro.</span> Este servidor carece de cifrado, exponiendo su contraseña y datos. Contacte a su administrador para asegurar la conexión o proceda bajo su propio riesgo. <a data-l10n-name="error-link">Vea las preguntas frecuentes para más.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Advertencia: Se detectó un servidor de correo inseguro.</span> Este servidor carece de cifrado, lo que expone su contraseña y datos. Contacte a su administrador para asegurar la conexión o proceda bajo su propio riesgo. <a data-l10n-name="faq-link">Para más información, vea las preguntas frecuentes.</a>
 account-hub-account-authentication-error = Error de autenticación.
 account-hub-add-address-book = Agregar una libreta de direcciones
