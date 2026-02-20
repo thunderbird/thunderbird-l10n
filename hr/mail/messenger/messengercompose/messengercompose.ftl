@@ -312,6 +312,22 @@ compose-missing-identity-warning = Jedinstven identitet koji odgovara polju Šal
 encrypted-bcc-warning = Kada šaljete šifriranu poruku, primatelji u Bcc polju nisu potpuno skriveni. Svi primatelji će ih možda moći identificirati.
 encrypted-bcc-ignore-button = Razumijem
 auto-disable-e2ee-warning = Obostrano šifriranje za ovu poruku je automatski onemogućeno.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } je blokirao datoteku da se učita u ovoj poruci. Deblokiranjem datoteke uključit ćete ju u svoju poslanu poruku.
+        [few] { -brand-short-name } je blokirao datoteke da se učitaju u ovoj poruci. Deblokiranjem datoteka uključit ćete ih u svoju poslanu poruku.
+       *[other] { -brand-short-name } je blokirao datoteke da se učitaju u ovoj poruci. Deblokiranjem datoteka uključit ćete ih u svoju poslanu poruku.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Pronađena je ključna riječ za dodavanje privitka:
+        [few] Pronađeno je { $count } ključnih riječi za dodavanje privitka:
+       *[other] Pronađeno je { $count } ključnih riječi za dodavanje privitka:
+    }
 
 ## Editing
 
