@@ -82,3 +82,7 @@ filter-editor-pick-template-reply = მიუთითეთ თარგი პ
 filter-continue-execution = ფილტრი { $filterName } ვერ ამუშავდა. გსურთ ფილტრების დამატების გაგრძელება?
 filter-list-backup-message = თქვენი ფილტრები არ მუშაობს, რადგან ფაილი rules.dat, რომელიც თქვენს ფილტრებს შეიცავს, ვერ იკითხება. შეიქმნება ახალი ფაილი rules.dat, ხოლო ძველი ფაილის ასლი შეინახება იმავე საქაღალდეში, ფაილად rulesbackup.dat.
 filter-invalid-custom-header = ერთ-ერთი თქვენი ფილტრი შეიცავს თავსართს დაუშვებელი ასონიშნით, როგორიცაა, მაგალითად ‘:’, არაბეჭდვადი ნიშანი, ASCII-ს მიღმა მყოფი ან 8-ბიტიანი ASCII-სიმბოლო. გთხოვთ შეასწოროთ ფილტრების ფაილი msgFilterRules.dat თავსართიდან მცდარი ასონიშნის მოსაცილებლად.
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible }, სულ { $total }-დან
