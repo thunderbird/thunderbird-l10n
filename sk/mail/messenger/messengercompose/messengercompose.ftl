@@ -157,6 +157,9 @@ remove-attachment-cmd =
            *[other] Odstrániť prílohy
         }
     .accesskey = d
+default-delete-cmd =
+    .label = Odstrániť
+    .accesskey = O
 
 ## Encryption
 
