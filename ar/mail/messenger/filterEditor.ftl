@@ -46,3 +46,18 @@ filter-editor-pick-template-reply = اختر قالبًا للرد به.
 filter-continue-execution = فشل تطبيق المرشِّح { $filterName }. أترغب في إكمال تطبيق المرشِّحات؟
 filter-list-backup-message = مُرشِّحاتك لا تعمل لأن ملف msgFilterRules.dat -الذي يحتوي على مرشِّحاتك- لا يمكن قراءته. سيُنشأ ملف msgFilterRules.dat جديد ونسخة احتياطية من القديم باسم rulesbackup.dat في نفس المجلّد.
 filter-invalid-custom-header = يستخدم واحدًا من مرشِّحاتك ترويسة مخصّصة تحتوي على محرف غير صحيح، مثل ‘:’، محرف لا يطبع، محرف خارج أسكي (ascii)، أو محرف أسكي 8 بت. من فضلك حرِّر ملف msgFilterRules.dat -الذي يحتوي على مرشِّحاتك- و احذف المحارف غير السليمة من ترويساتك المخصّصة.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [zero] لا عناصر
+        [one] عنصر واحد
+        [two] عنصرين
+        [few] { $count } عناصر
+        [many] { $count } عنصرًا
+       *[other] { $count } عنصر
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = ‏{ $visible } من { $total }
