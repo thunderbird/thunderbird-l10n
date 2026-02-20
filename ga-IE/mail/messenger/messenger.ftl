@@ -323,3 +323,18 @@ attachment-view-attachment-count =
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Ceadaigh ábhar i gcéin ó { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Ceadaigh ábhar i gcéin ón { $count } fhoinse amháin thuasluaite
+            [two] Ceadaigh ábhar i gcéin ón { $count } fhoinse thuasluaite
+            [few] Ceadaigh ábhar i gcéin ó na { $count } fhoinse thuasluaite
+            [many] Ceadaigh ábhar i gcéin ó na { $count } bhfoinse thuasluaite
+           *[other] Ceadaigh ábhar i gcéin ó na { $count } foinse thuasluaite
+        }
