@@ -668,6 +668,25 @@ spam-processing-message = Processante messages spam
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } annexo
+       *[other] { $count } annexos
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Consentir contento remote ab { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Consentir contento remote del { $count } fonte in le lista supra
+           *[other] Consentir contento remote de tote le { $count } fontes in le lista supra
+        }
