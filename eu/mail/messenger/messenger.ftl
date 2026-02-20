@@ -605,3 +605,7 @@ prompt-dont-ask-again = Ez galdetu berriz.
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Baimendu { $origin }ko urruneko edukia
