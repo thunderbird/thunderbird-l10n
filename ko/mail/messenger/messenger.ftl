@@ -620,6 +620,17 @@ spam-processing-message = 스팸 메시지 처리
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count = 첨부 파일 { $count }개
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = { $origin }로 부터의 원격 콘텐츠 허용
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label = 위에 나열된 { $count } 출처의 원격 콘텐츠 허용
