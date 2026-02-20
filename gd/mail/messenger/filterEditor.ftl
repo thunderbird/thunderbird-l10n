@@ -69,6 +69,15 @@ filter-continue-execution = Cha b' urrainn dhuinn a' chriathrag { $filterName } 
 filter-list-backup-message = Chan eil na criathragan agad ag obair a chionn 's nach gabh am faidhle msgFilterRules.dat (far a bheil na criathragan agad) a leughadh. Thèid faidhle msgFilterRules.dat ùr a chruthachadh agus cuideachd lethbhreac glèidhidh dhen t-seann-fhaidhle (air a bhios rulesbackup.dat) san dearbh-phasgan.
 filter-invalid-custom-header = Tha caractair mì-dhligheach ann an criathrag agad, leithid ‘:’, caractair nach gabh a chlò-bhualadh, caractair nach eil air nòs ascii no caractair eight bit ascii. Deasaich am faidhle msgFilterRules.dat (far a bheil na criathragan agad) 's tu a' toirt air falbh na caractairean mì-dhligheach o na bannan-cinn gnàthaichte agad.
 # Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } nì
+        [two] { $count } nì
+        [few] { $count } nithean
+       *[other] { $count } nì
+    }
+# Variables:
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } à { $total }
