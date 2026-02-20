@@ -735,3 +735,7 @@ ignored-subtheads-feedback =
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Caniatáu cynnwys pell o { $origin }
