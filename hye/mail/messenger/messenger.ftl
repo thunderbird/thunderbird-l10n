@@ -419,6 +419,21 @@ and-others = եւ այղոք
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } կցորդ
+       *[other] { $count } կցորդներ
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Թոյլատրել հեռակայ բովանդակութիւնը { $origin }֊ից
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label = Թոյղատրել հեռակայ բովանդակութիւնը { $count } սկզբնականից։ Թոյղատրել հեռակայ բովանդակութիւնը { $count } սկզբնականներից
