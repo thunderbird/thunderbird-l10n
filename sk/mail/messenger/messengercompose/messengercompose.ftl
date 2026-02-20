@@ -315,6 +315,14 @@ compose-missing-identity-warning = Unikátna identita zodpovedajúca adrese odos
 encrypted-bcc-warning = Pri odosielaní šifrovanej správy nie sú príjemcovia v skrytých kópiách úplne skrytí. Všetci príjemcovia ich môžu byť schopní identifikovať.
 encrypted-bcc-ignore-button = Rozumiem
 auto-disable-e2ee-warning = Obojstranné šifrovanie bolo pre túto správu automaticky zakázané.
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Nájdené kľúčové slovo pre prílohy:
+        [few] Nájdené { $count } kľúčové slová pre prílohy:
+       *[other] Nájdených { $count } kľúčových slov pre prílohy:
+    }
 
 ## Editing
 
@@ -411,6 +419,23 @@ cloud-file-account-error-title = Chyba účtu Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Prílohu Filelink { $filename } sa nepodarilo aktualizovať, pretože jej účet Filelink bol odstránený.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Tento súbor je príliš veľký. Zrejme by bolo vhodnejšie využiť úložisko online.
+            [few] Tieto súbory sú príliš veľké. Zrejme by bolo vhodnejšie využiť úložisko online.
+           *[other] Tieto súbory sú príliš veľké. Zrejme by bolo vhodnejšie využiť úložisko online.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Prebieha vytváranie odkazu na súbor. Po ukončení procesu sa odkaz objaví v tele správy.
+        [few] Prebieha vytváranie odkazov na súbory. Po ukončení procesu sa odkazy objavia v tele správy.
+       *[other] Prebieha vytváranie odkazov na súbory. Po ukončení procesu sa odkazy objavia v tele správy.
+    }
 
 ## Link Preview
 
