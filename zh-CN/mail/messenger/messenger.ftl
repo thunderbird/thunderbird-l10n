@@ -648,3 +648,7 @@ attachment-view-attachment-count = { $count } 个附件
 #    $origin - origin of the remote content to allow
 allow-remote-content-resource =
     .label = 允许来自 { $origin } 的远程内容
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label = 允许上方列出的 { $count } 个来源的远程内容
