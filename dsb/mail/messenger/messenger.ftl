@@ -716,3 +716,7 @@ ignored-subtheads-feedback =
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Daloke wopśimjeśe z { $origin } dowóliś
