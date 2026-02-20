@@ -60,6 +60,9 @@ remove-attachment-cmd =
            *[other] Noņemt pielikumus
         }
     .accesskey = N
+default-delete-cmd =
+    .label = Dzēst
+    .accesskey = D
 
 ## Encryption
 
