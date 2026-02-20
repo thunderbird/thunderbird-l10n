@@ -312,6 +312,13 @@ encrypted-bcc-warning = När du skickar ett krypterat meddelande döljs inte mot
 encrypted-bcc-ignore-button = Förstått
 auto-disable-e2ee-warning = End-to-end-kryptering för detta meddelande inaktiverades automatiskt.
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } har blockerat en fil från laddning i det här meddelandet. Avblockera kommer att inkludera filen i ditt skickade meddelande.
+       *[other] { -brand-short-name } har blockerat vissa filer från laddning i det här meddelandet. Avblockera kommer att inkludera filen i ditt skickade meddelande.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
