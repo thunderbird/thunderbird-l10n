@@ -641,3 +641,11 @@ attachment-view-attachment-count = { $count } đính kèm
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Cho phép nội dung từ xa từ { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label = Cho phép nội dung từ xa từ tất cả { $count } nguồn gốc được liệt kê ở trên
