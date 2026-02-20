@@ -139,6 +139,15 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Awwaḍ
     .tooltiptext = Suter anagi n wawwaḍ i yizen-a
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Kkes amedday
+           *[other] Kkes imeddayen
+        }
+    .accesskey = d
 
 ## Encryption
 
@@ -277,6 +286,13 @@ blocked-content-message =
         [one] { -brand-short-name } isewḥel afaylu seg usali n yizen-agi. Aseṛṛeḥ n ufaylu-agi ad t-iseddu deg izen inek yettwaznen.
        *[other] { -brand-short-name } isewḥel kra n ifuyla seg usali n yizen-agi. Aseṛṛeḥ n ufaylu-agi ad t-iseddu deg izen inek yettwaznen.
     }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Awal n tsarutt n umedday yettwaf
+       *[other] Ttwafen { $count } awalen n tsura n umedday:
+    }
 
 ## Editing
 
@@ -365,6 +381,21 @@ cloud-file-account-error-title = Tuccḍa n umiḍan Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Yecceḍ uleqqem n umedday n Filelink { $filename }, acku amiḍan n Filelink yettwakkes.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Wagi d afaylu meqqren. Yif-it limer ad tesqedceḍ Filelink deg umḍiq-is
+           *[other] Wigi d ifuylu meqqren. Yif-it limer ad tesqedceḍ Filelink deg umḍiq-nsen.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Afaylu amedday yettali yakan. Ad d-iban di tfekka n yizen ticki yuli.
+       *[other] Ifuyla imeddayen ttalin yakan. Ad d-banen di tfekka n yizen ticki ulin.
+    }
 
 ## Link Preview
 
