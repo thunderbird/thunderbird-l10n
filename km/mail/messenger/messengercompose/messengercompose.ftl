@@ -23,6 +23,9 @@
 remove-attachment-cmd =
     .label = ដក​​ឯកសារ​ភ្ជាប់ចេញ
     .accesskey = m
+default-delete-cmd =
+    .label = Ջնջել
+    .accesskey = D
 
 ## Encryption
 
