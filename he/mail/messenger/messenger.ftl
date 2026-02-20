@@ -67,6 +67,9 @@ show-tags-folders-label =
     .label = תווית
     .accesskey = ת
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -105,6 +108,9 @@ menu-edit-folder-properties =
 menu-edit-newsgroup-properties =
     .label = מאפייני קבוצת חדשות
     .accesskey = א
+
+## Message Menu
+
 
 ## Shared Menu Items
 
@@ -146,6 +152,12 @@ mail-context-menu-forward-forward =
     .label = העבר
     .accesskey = ע
 
+## Message header pane
+
+
+## Message header customize panel
+
+
 ## Action Button Context Menu
 
 toolbar-context-menu-manage-extension =
@@ -171,6 +183,21 @@ repair-text-encoding-button =
     .label = תיקון קידוד טקסט
     .tooltiptext = ניחוש קידוד הטקסט הנכון בהסתמך על תוכן ההודעה
 
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
+
 ## Quick Filter Bar
 
 # The label to display for the "View... Toolbars..." menu item that controls
@@ -183,12 +210,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = ס
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -218,3 +266,29 @@ message-group-no-attachments = ללא קבצים מצורפים
 message-group-attachments = קבצים מצורפים
 message-group-not-starred = לא מסומנת בכוכבית
 message-group-starred = מסומנת בכוכבית
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] קובץ אחד מצורף
+       *[other] { $count } קבצים מצורפים
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = לאפשר תוכן מרוחק מ־{ $origin }
