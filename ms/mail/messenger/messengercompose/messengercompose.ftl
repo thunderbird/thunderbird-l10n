@@ -18,6 +18,14 @@
 
 ## Reorder Attachment Panel
 
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label = Buang Lampiran
+    .accesskey = L
+default-delete-cmd =
+    .label = Buang
+    .accesskey = B
 
 ## Encryption
 
