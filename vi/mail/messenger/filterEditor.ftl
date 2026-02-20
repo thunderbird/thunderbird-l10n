@@ -78,3 +78,10 @@ filter-editor-pick-template-reply = Chọn một thư mẫu để trả lời.
 filter-continue-execution = Thất bại khi áp dụng bộ lọc { $filterName }. Bạn có muốn tiếp tục áp dụng bộ lọc?
 filter-list-backup-message = Bộ lọc của bạn không hoạt động vì tập tin msgFilterRules.dat, nơi chứa bộ lọc của bạn, không thể đọc được. Một tập tin msgFilterRules.dat mới sẽ được tạo và một bản sao lưu của tập tin cũ, có tên rulesbackup.dat, sẽ được tạo trong cùng thư mục.
 filter-invalid-custom-header = Một trong số các bộ lọc của bạn dùng một header tùy chỉnh có chứa một ký tự không hợp lệ, có thể là ‘:’, một ký tự không-in-được, một ký tự không-phải-ascii, hoặc một ký tự ascii 8 bit. Vui lòng chỉnh sửa tập tin msgFilterRules.dat, nơi chứa bộ lọc của bạn, để xóa ký tự không hợp lệ ra khỏi header tuỳ chỉnh.
+# Variables:
+#   $count - the number items
+filter-count-items = { $count } mục
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } của { $total }
