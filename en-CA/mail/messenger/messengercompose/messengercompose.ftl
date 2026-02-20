@@ -300,6 +300,13 @@ compose-missing-identity-warning = A unique identity matching the From address w
 encrypted-bcc-warning = When sending an encrypted message, recipients in Bcc are not fully hidden. All recipients may be able to identify them.
 encrypted-bcc-ignore-button = Understood
 auto-disable-e2ee-warning = End-to-end encryption for this message was automatically disabled.
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Found an attachment keyword:
+       *[other] Found { $count } attachment keywords:
+    }
 
 ## Editing
 
