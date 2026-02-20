@@ -683,3 +683,11 @@ attachment-view-attachment-count =
 #    $origin - origin of the remote content to allow
 allow-remote-content-resource =
     .label = Permitir conteúdo remoto de { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Permitir conteúdo remoto de { $count } origem acima listada
+           *[other] Permitir conteúdo remoto de { $count } origens acima listadas
+        }
