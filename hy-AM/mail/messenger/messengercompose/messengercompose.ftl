@@ -72,6 +72,15 @@ drop-file-label-attachment =
 button-return-receipt =
     .label = Ստացական
     .tooltiptext = Հետադարձ ստացական հայցել նամակի համար
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Ջնջել կցորդը
+           *[other] Ջնջել կցորդները
+        }
+    .accesskey = m
 
 ## Encryption
 
