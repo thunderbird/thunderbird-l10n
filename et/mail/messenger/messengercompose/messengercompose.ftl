@@ -303,6 +303,20 @@ compose-missing-identity-warning = Saatja väljale sisestatud aadressiga sobivat
 encrypted-bcc-warning = Krüptitud kirja saatmisel ei ole adressaadid väljal Pimekoopia täielikult peidetud. Kõigil adressaatidel on võimalik neid tuvastada.
 encrypted-bcc-ignore-button = Sain aru
 auto-disable-e2ee-warning = Selle sõnumi otspunktkrüptimine keelati automaatselt.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } blokeeris faili laadimise selles kirjas. Bloki eemaldamine kaasab selle sinu saadetud kirja.
+       *[other] { -brand-short-name } blokeeris mõne faili laadimise selles kirjas. Bloki eemaldamine failidelt kaasab need sinu saadetud kirja.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Leiti manuse märgusõna:
+       *[other] Leiti { $count } manuse märgusõna:
+    }
 
 ## Editing
 
@@ -398,6 +412,21 @@ cloud-file-account-error-title = Filelinki konto viga
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelinki lisatud manust { $filename } polnud võimalik uuendada, sest Filelinki konto on kustutatud.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Tegemist on suure failiga. Praktilisem on ehk salvestada fail pilves ja lisada selle link.
+           *[other] Tegemist on suurte failidega. Praktilisem on ehk salvestada need pilves ja lisada nende lingid.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Sinu fail lingitakse. Link ilmub kirja sisusse, kui tegevus lõpetatakse.
+       *[other] Sinu failid lingitakse. Lingid ilmuvad kirja sisusse, kui tegevus lõpetatakse.
+    }
 
 ## Link Preview
 
