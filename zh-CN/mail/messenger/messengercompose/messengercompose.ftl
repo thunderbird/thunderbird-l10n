@@ -143,6 +143,9 @@ button-return-receipt =
 remove-attachment-cmd =
     .label = 删除附件
     .accesskey = m
+default-delete-cmd =
+    .label = 删除
+    .accesskey = D
 
 ## Encryption
 
