@@ -283,6 +283,9 @@ auto-disable-e2ee-warning = การเข้ารหัสลับต้น�
 # Variables:
 #   $count - the number of files that will be unblocked
 blocked-content-message = { -brand-short-name } ได้ปิดกั้นบางไฟล์ไม่ให้โหลดไปยังข้อความนี้ การเลิกปิดกั้นไฟล์จะรวมไฟล์ดังกล่าวในข้อความที่ส่งแล้วของคุณ
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg = พบ { $count } คำสำคัญไฟล์แนบ:
 
 ## Editing
 
@@ -374,6 +377,13 @@ cloud-file-account-error-title = บัญชี Filelink ผิดพลาด
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = ไม่สามารถอัปเดตไฟล์แนบ Filelink { $filename } ได้ เนื่องจากบัญชี Filelink สำหรับไฟล์นั้นถูกลบไปแล้ว
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label = ไฟล์เหล่านี้มีขนาดใหญ่ จะดีกว่าหากใช้ Filelink แทน
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification = ไฟล์ของคุณกำลังถูกเชื่อมโยง ซึ่งจะปรากฏในเนื้อความของข้อความเมื่อเสร็จสมบูรณ์
 
 ## Link Preview
 
