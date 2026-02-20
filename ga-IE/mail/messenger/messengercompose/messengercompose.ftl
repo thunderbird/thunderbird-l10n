@@ -30,6 +30,9 @@ remove-attachment-cmd =
            *[other] Bain Iatáin
         }
     .accesskey = B
+default-delete-cmd =
+    .label = Scrios
+    .accesskey = S
 
 ## Encryption
 
