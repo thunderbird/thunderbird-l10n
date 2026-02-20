@@ -150,6 +150,9 @@ remove-attachment-cmd =
            *[other] Anhänge entfernen
         }
     .accesskey = h
+default-delete-cmd =
+    .label = Löschen
+    .accesskey = L
 
 ## Encryption
 
