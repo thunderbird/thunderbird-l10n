@@ -304,6 +304,13 @@ encrypted-bcc-warning = As jo in fersifere berjocht ferstjoere, wurde ûntfanger
 encrypted-bcc-ignore-button = Begrepen
 auto-disable-e2ee-warning = Ein-ta-ein-fersifering foar dit berjocht is automatysk útskeakele.
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } hat it laden fan in bestân yn dit berjocht blokkearre. Deblokkearjen sil it bestân opnimme yn jo ferstjoerde berjocht.
+       *[other] { -brand-short-name } hat it laden fan guon bestnnen yn dit berjocht blokkearre. Deblokkearjen sil it bestân opnimme yn jo ferstjoerde berjocht.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
