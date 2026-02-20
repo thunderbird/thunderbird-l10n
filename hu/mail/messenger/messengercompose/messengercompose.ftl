@@ -142,6 +142,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Visszaigazolás
     .tooltiptext = Visszaigazolás kérése az üzenetről
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Melléklet eltávolítása
+           *[other] Mellékletek eltávolítása
+        }
+    .accesskey = e
+default-delete-cmd =
+    .label = Törlés
+    .accesskey = s
 
 ## Encryption
 
