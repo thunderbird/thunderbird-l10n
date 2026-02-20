@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = Datei…
     .accesskey = D
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Nächsten { $count } News-Beitrag abrufen
+       *[other] Nächste { $count } News-Beiträge abrufen
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -675,3 +682,9 @@ ignored-subtheads-feedback =
         [one] Antworten an das Unterthema „{ $subject }“ werden nicht angezeigt.
        *[other] Antworten an die { $count } ausgewählten Unterthemen werden nicht angezeigt.
     }
+
+## Attachments
+
+
+## Remote content blocking
+
