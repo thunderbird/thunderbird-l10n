@@ -242,6 +242,25 @@ message-group-starred = Yulduz qo‘yilgan
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } biriktirma
+       *[other] { $count } biriktirma
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = { $origin }dagi masofadagi tarkibga ruxsat berish
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Yuqorida ro‘yxati keltirilgan { $count } ta masofadagi tarkibga ruxsat berilsin
+           *[other] Yuqorida ro‘yxati keltirilgan { $count } ta masofadagi tarkibga ruxsat berilsin
+        }
