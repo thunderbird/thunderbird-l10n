@@ -635,6 +635,9 @@ spam-processing-message = Đang xử lý thư rác
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count = { $count } đính kèm
 
 ## Remote content blocking
 
