@@ -321,6 +321,15 @@ compose-missing-identity-warning = Jadnorazowa identita, kótaraž adresy wótp�
 encrypted-bcc-warning = Pśi słanju skoděrowaneje powěsći, dostawarje schowaneje kopije njejsu połnje schowane. Wše dostawarje mógu jich identificěrowaś.
 encrypted-bcc-ignore-button = Som zrozměł
 auto-disable-e2ee-warning = Koděrowanje kóńc do kóńca jo se awtomatiski znjemóžniło za toś tu powěsć.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } jo zajźował, až se dataja do toś teje powěsći zacytajo. Gaž wěcej njeblokěrujośo, buźo se dataja do wašeje pósłaneje powěsći zapśimjeś.
+        [two] { -brand-short-name } jo zajźował, až se dataji do toś teje powěsći zacytajotej. Gaž wěcej njeblokěrujośo, buźo se dataja do wašeje pósłaneje powěsći zapśimjeś.
+        [few] { -brand-short-name } jo zajźował, až se dataje do toś teje powěsći zacytaju. Gaž wěcej njeblokěrujośo, buźo se dataja do wašeje pósłaneje powěsći zapśimjeś.
+       *[other] { -brand-short-name } jo zajźował, až se dataje do toś teje powěsći zacytaju. Gaž wěcej njeblokěrujośo, buźo se dataja do wašeje pósłaneje powěsći zapśimjeś.
+    }
 
 ## Editing
 
