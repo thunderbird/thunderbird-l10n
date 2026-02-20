@@ -156,6 +156,13 @@ menu-file-save-as-file =
     .label = Файл…
     .accesskey = Ф
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Келесі { $count } жаңалықтар хабарламасын алу
+       *[other] Келесі { $count } жаңалықтар хабарламасын алу
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -674,3 +681,9 @@ ignored-subtheads-feedback =
         [one] "{ $subject }" ішкі ағынына жауаптар көрсетілмейтін болады.
        *[other] Таңдалған "{ $subject }" ішкі ағынына жауаптар көрсетілмейтін болады.
     }
+
+## Attachments
+
+
+## Remote content blocking
+
