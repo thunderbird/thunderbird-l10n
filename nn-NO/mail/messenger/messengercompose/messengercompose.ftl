@@ -310,6 +310,13 @@ compose-missing-identity-warning = Ein unik identitet som passar med frå-adress
 encrypted-bcc-warning = Når du sender ei kryptert melding, er ikkje mottakarane i blindkopi (Bcc) fullstendig skjulte. Alle mottakarar kan kanskje identifisere dei.
 encrypted-bcc-ignore-button = Forstått
 auto-disable-e2ee-warning = Ende-til-ende-kryptering for denne meldinga vart automatisk deaktivert.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } har blokkert ei fil frå å lasta i denne meldinga. Om du tek vekk blokkeringa vil fila verta send saman med meldinga.
+       *[other] { -brand-short-name } har blokkert nokre filer frå å lasta i denne meldinga. Om du tek vekk blokkeringa vil fila verta send saman med meldinga.
+    }
 
 ## Editing
 
