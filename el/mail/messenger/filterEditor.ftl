@@ -82,3 +82,7 @@ filter-editor-pick-template-reply = Επιλέξτε ένα πρότυπο γι�
 filter-continue-execution = Αποτυχία εφαρμογής του φίλτρου { $filterName }. Θέλετε να συνεχίσετε με την εφαρμογή των φίλτρων;
 filter-list-backup-message = Τα φίλτρα σας δεν λειτουργούν επειδή δεν ήταν δυνατή η ανάγνωση του αρχείου msgFilterRules.dat που τα περιέχει. Θα δημιουργηθεί ένα νέο αρχείο msgFilterRules.dat και ένα αντίγραφο του παλιού αρχείου, με το όνομα rulesbackup.dat, στον ίδιο κατάλογο.
 filter-invalid-custom-header = Ένα από τα φίλτρα σας χρησιμοποιεί προσαρμοσμένη κεφαλίδα που περιέχει μη έγκυρο χαρακτήρα, όπως «:», μη εκτυπώσιμο χαρακτήρα, μη-ascii χαρακτήρα ή χαρακτήρα ascii οκτώ bit. Επεξεργαστείτε το αρχείο msgFilterRules.dat, που περιέχει τα φίλτρα σας, για να αφαιρέσετε τους μη έγκυρους χαρακτήρες από τις προσαρμοσμένες κεφαλίδες.
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } από { $total }
