@@ -287,6 +287,9 @@ compose-missing-identity-warning = 找不到匹配发件人（From）地址的�
 encrypted-bcc-warning = 发送加密邮件时，并未完全隐藏密送的收件者。所有收件者都可能识别出他们。
 encrypted-bcc-ignore-button = 好的
 auto-disable-e2ee-warning = 已自动禁用此消息的端到端加密。
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message = { -brand-short-name } 已阻止此消息加载某些文件。取消屏蔽将在您的发送消息中包含这些文件。
 
 ## Editing
 
