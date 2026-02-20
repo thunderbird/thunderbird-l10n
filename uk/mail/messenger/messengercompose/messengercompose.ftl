@@ -147,6 +147,16 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Підтвердження отримання
     .tooltiptext = Надсилати запит про підтвердження отримання цього повідомлення
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Вилучити вкладення
+            [few] Вилучити вкладення
+           *[many] Вилучити вкладення
+        }
+    .accesskey = к
 
 ## Encryption
 
