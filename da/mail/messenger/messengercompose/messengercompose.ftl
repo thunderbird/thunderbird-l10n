@@ -141,6 +141,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Kvittering
     .tooltiptext = Bed om en kvittering for modtagelse af denne meddelelse
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Fjern vedhæftet fil
+           *[other] Fjern vedhæftede filer
+        }
+    .accesskey = F
+default-delete-cmd =
+    .label = Slet
+    .accesskey = S
 
 ## Encryption
 
