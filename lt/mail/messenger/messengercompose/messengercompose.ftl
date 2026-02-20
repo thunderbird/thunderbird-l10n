@@ -114,6 +114,14 @@ many-public-recipients-ignore =
 ## Notifications
 
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] Programa „{ -brand-short-name }“ užblokavo failą ir neleido įkelti jo į šį laišką. Jei nuspręsite jo nebeblokuoti, failas bus įtrauktas į siunčiamą laišką.
+        [few] Programa „{ -brand-short-name }“ užblokavo keletą failų ir neleido įkelti jų į šį laišką. Jei nuspręsite kurių nors failų nebeblokuoti, jie bus įtraukti į siunčiamą laišką.
+       *[other] Programa „{ -brand-short-name }“ užblokavo keletą failų ir neleido įkelti jų į šį laišką. Jei nuspręsite kurių nors failų nebeblokuoti, jie bus įtraukti į siunčiamą laišką.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
