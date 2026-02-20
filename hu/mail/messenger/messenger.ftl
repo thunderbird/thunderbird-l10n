@@ -683,3 +683,11 @@ attachment-view-attachment-count =
 #    $origin - origin of the remote content to allow
 allow-remote-content-resource =
     .label = Távoli tartalom engedélyezése tőle: { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Távoli tartalom engedélyezése a fent felsorolt { $count } eredettől
+           *[other] Távoli tartalom engedélyezése a fent felsorolt { $count } eredettől
+        }
