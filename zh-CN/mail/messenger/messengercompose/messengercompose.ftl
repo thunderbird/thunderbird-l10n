@@ -138,6 +138,11 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = 回执
     .tooltiptext = 要求对方收件后发送回执
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label = 删除附件
+    .accesskey = m
 
 ## Encryption
 
