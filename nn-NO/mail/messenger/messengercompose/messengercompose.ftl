@@ -150,6 +150,9 @@ remove-attachment-cmd =
            *[other] Fjern vedlegg
         }
     .accesskey = v
+default-delete-cmd =
+    .label = Slett
+    .accesskey = S
 
 ## Encryption
 
