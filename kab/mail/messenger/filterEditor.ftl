@@ -73,3 +73,7 @@ filter-count-items =
         [one] { $count } aferdis
        *[other] { $count } iferdisen
     }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } si { $total }
