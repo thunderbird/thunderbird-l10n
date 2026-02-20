@@ -149,6 +149,9 @@ menu-file-save-as-file =
     .label = ფაილი…
     .accesskey = ფ
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs = ჯგუფის შემდეგი { $count } წერილის მიღება
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -647,3 +650,31 @@ prompt-dont-ask-again = მომავალში შეკითხვის 
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = ჯართის გარჩევის { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } დასრულებულია
 spam-processing-message = მუშავდება უსარგებლო წერილები
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] დანართი
+       *[other] { $count } დანართი
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = ვებშიგთავსის დაშვება { $origin }-იდან
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] ვებშიგთავსის დაშვება ზემოთ აღნიშნული { $count } წყაროდან
+           *[other] ვებშიგთავსის დაშვება ზემოთ აღნიშნული { $count } წყაროდან
+        }

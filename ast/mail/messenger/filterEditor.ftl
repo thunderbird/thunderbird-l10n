@@ -44,3 +44,14 @@ filter-editor-pick-template-reply = Escoyer una plantía pa responder.
 filter-continue-execution = Falló l'aplicación del filtru { $filterName }. ¿Quies continuar aplicando filtros?
 filter-list-backup-message = Los filtros nun funcionen porque'l ficheru msgFilterRules.dat, que contién los filtros, nun pue lleese. Va crease un ficheru nuevu denomáu msgFilterRules.dat y va facese un copia del antiguu nel mesmu direutoriu, denomáu rulesbackup.dat.
 filter-invalid-custom-header = Ún de los fitros usa una testera personalizada que contién un caráuter non válidu, talo como ‘:’, un caráuter non imprentable, un caráuter non-ASCII, o un caráuter col octavu bit activáu. Por favor, edita'l ficheru msgFilterRules.dat, que contién los filtros, pa desaniciar los caráuteres non válidos de les tos testeres personalizaes.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } elementu
+       *[other] { $count } elementos
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } de { $total }

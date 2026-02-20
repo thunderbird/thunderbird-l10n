@@ -141,6 +141,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Kvittering
     .tooltiptext = Bed om en kvittering for modtagelse af denne meddelelse
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Fjern vedhæftet fil
+           *[other] Fjern vedhæftede filer
+        }
+    .accesskey = F
+default-delete-cmd =
+    .label = Slet
+    .accesskey = S
 
 ## Encryption
 
@@ -302,6 +314,20 @@ compose-missing-identity-warning = Der blev ikke fundet en unik identitet, der m
 encrypted-bcc-warning = Når du sender en krypteret meddelelse, er modtagere i Bcc (Skjult kopi til) ikke helt skjult. Alle modtagere kan muligvis identificere dem.
 encrypted-bcc-ignore-button = Forstået
 auto-disable-e2ee-warning = End to end-kryptering blev automatisk slået fra for denne meddelelse.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } har blokeret en fil, så den ikke indlæses i meddelelsen. Hvis du vil inkludere filen i meddelelsen, kan du fjerne blokeringen.
+       *[other] { -brand-short-name } har blokeret nogle filer, så de ikke indlæses i meddelelsen. Hvis du vil inkludere en fil i meddelelsen, kan du fjerne blokeringen.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Fandt et stikord for vedhæftning af fil:
+       *[other] Fandt { $count } stikord for vedhæftning af fil:
+    }
 
 ## Editing
 
@@ -397,6 +423,21 @@ cloud-file-account-error-title = Fejl i Filelink-konto
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Kunne ikke opdatere Filelink-vedhæftningen { $filename }, fordi dens Filelink-konto er blevet slettet.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Dette er en stor fil. Det vil måske være bedre at bruge Filelink i stedet.
+           *[other] Dette er store filer. Det vil måske være bedre at bruge Filelink i stedet.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Din fil vil blive linket. Linket vil blive vist i meddelelsen, når den er uploadet.
+       *[other] Dine filer vil blive linket. Linkene vil blive vist i meddelelsen, når de er blevet uploadet.
+    }
 
 ## Link Preview
 

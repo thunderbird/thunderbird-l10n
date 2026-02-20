@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Send Format
+
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -93,6 +96,22 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Patvirtinimas
     .tooltiptext = Paprašyti pristatymo patvirtinimo šiam pranešimui
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Pašalinti priedą
+            [few] Pašalinti priedus
+           *[other] Pašalinti priedus
+        }
+    .accesskey = š
+default-delete-cmd =
+    .label = Pašalinti
+    .accesskey = š
+
+## Encryption
+
 
 ## Addressing Area
 
@@ -104,3 +123,63 @@ many-public-recipients-bcc =
 many-public-recipients-ignore =
     .label = Gavėjai matys kitus adresus
     .accesskey = m
+
+## Notifications
+
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] Programa „{ -brand-short-name }“ užblokavo failą ir neleido įkelti jo į šį laišką. Jei nuspręsite jo nebeblokuoti, failas bus įtrauktas į siunčiamą laišką.
+        [few] Programa „{ -brand-short-name }“ užblokavo keletą failų ir neleido įkelti jų į šį laišką. Jei nuspręsite kurių nors failų nebeblokuoti, jie bus įtraukti į siunčiamą laišką.
+       *[other] Programa „{ -brand-short-name }“ užblokavo keletą failų ir neleido įkelti jų į šį laišką. Jei nuspręsite kurių nors failų nebeblokuoti, jie bus įtraukti į siunčiamą laišką.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Rastas { $count } su priedu susijęs reikšminis žodis:
+        [few] Rasti { $count } su priedu susiję reikšminiai žodžiai:
+       *[other] Rasta { $count } su priedu susijusių reikšminių žodžių:
+    }
+
+## Editing
+
+
+# Tools
+
+
+## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
+
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Šis failas gan didelis. Galbūt geriau nusiųsti tik saitą į jį?
+            [few] Šie failai gan dideli. Galbūt geriau nusiųsti tik saitą į juos?
+           *[other] Šie failai gan dideli. Galbūt geriau nusiųsti tik saitą į juos?
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Kuriama nuoroda į failą. Užbaigus, ji bus pridėta į laiško tekstą.
+        [few] Kuriamos nuorodos į failus. Užbaigus, jos bus pridėtos į laiško tekstą.
+       *[other] Kuriamos nuorodos į failus. Užbaigus, jos bus pridėtos į laiško tekstą.
+    }
+
+## Link Preview
+
+
+## Dictionary selection popup
+

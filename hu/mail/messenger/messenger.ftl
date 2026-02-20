@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = Fájl…
     .accesskey = F
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] A következő { $count } cikk letöltése
+       *[other] A következő { $count } cikk letöltése
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -656,3 +663,31 @@ prompt-dont-ask-again = Ne kérdezze meg újra.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Levélszemét-ellenőrzés { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }-ban kész
 spam-processing-message = Levélszemetek feldolgozása
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } melléklet
+       *[other] { $count } melléklet
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Távoli tartalom engedélyezése tőle: { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Távoli tartalom engedélyezése a fent felsorolt { $count } eredettől
+           *[other] Távoli tartalom engedélyezése a fent felsorolt { $count } eredettől
+        }

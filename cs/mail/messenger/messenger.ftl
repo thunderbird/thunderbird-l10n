@@ -160,6 +160,14 @@ menu-file-save-as-file =
     .label = Soubor…
     .accesskey = S
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Načíst další { $count } zprávu
+        [few] Načíst další { $count } zprávy
+       *[other] Načíst dalších { $count } zpráv
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -676,3 +684,33 @@ prompt-dont-ask-again = Příště se už neptat.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analýza nevyžádané pošty dokončena z { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = Zpracovává se nevyžádaná pošta
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } příloha
+        [few] { $count } přílohy
+       *[other] { $count } příloh
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Povolit vzdálený obsah z { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Povolit vzdálený obsah z { $count } zdroje uvedeného výše
+            [few] Povolit vzdálený obsah ze všech { $count } zdrojů uvedených výše
+           *[other] Povolit vzdálený obsah ze všech { $count } zdrojů uvedených výše
+        }

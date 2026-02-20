@@ -44,3 +44,17 @@ filter-editor-pick-template-reply = Roghnaigh teimpléad don fhreagra.
 filter-continue-execution = Theip ar chur i bhfeidhm an scagaire { $filterName }. An bhfuil fonn ort leanúint le cur i bhfeidhm na scagairí?
 filter-list-backup-message = Ní oibríonn do chuid scagairí toisc nach féidir an comhad msgFilterRules.dat ina bhfuil siad a léamh. Cruthófar comhad nua msgFilterRules.dat agus cuirfear cóip den seanchomhad sa chomhadlann chéanna leis an ainm rulesbackup.dat.
 filter-invalid-custom-header = Úsáideann ceann de do chuid scagairí ceanntásc ina bhfuil carachtar neamhbhailí, m.sh. ":", carachtar dophriontáilte, carachtar nach ASCII é, nó carachtar ASCII ocht ngiotán. Cuir an comhad msgFilterRules.dat, ina bhfuil do chuid scagairí, in eagar ionas nach n-úsáidfear carachtair neamhbhailí i do chuid cheanntásca saincheaptha.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } mhír
+        [two] { $count } mhír
+        [few] { $count } mhír
+        [many] { $count } mír
+       *[other] { $count } mír
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } as { $total }

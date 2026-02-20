@@ -24,6 +24,28 @@ pill-action-move-bcc =
     .label = Tisilöx pa Bcc
     .accesskey = B
 
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
+## Reorder Attachment Panel
+
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Tiyuj Taqoj
+           *[other] Keyuj Taqoj
+        }
+    .accesskey = T
+default-delete-cmd =
+    .label = Tiyuj
+    .accesskey = y
+
 ## Encryption
 
 encryption-menu =
@@ -54,6 +76,29 @@ bcc-address-row-label =
     .value = Bcc
 many-public-recipients-prompt-cancel = Tiq'at Rutaqik
 
+## Notifications
+
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } xuq'ät rusamajib'exik jun yakb'äl pa re rutzijol re'. Toq xtimeq'at ri yakb'äl xtuyäk qa ri taqon atzijol.
+       *[other] { -brand-short-name } xuruq'ät kisamajib'exik jujun yakb'äl pa re rutzijol re'. Toq xtimeq'at jun yakb'äl xtuyäk qa ri taqon atzijol.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Xilitäj jun tzij chi rij ri taqoj:
+       *[other] Xeilitäj { $count } taq tzij chi kij ri taqoj:
+    }
+
+## Editing
+
+
+# Tools
+
+
 ## Filelink
 
 
@@ -71,6 +116,21 @@ cloud-file-template-link = Ximonel:
 
 # Messages
 
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Nïm re yakb'äl re'. Ütz we nokisäx Filelink.
+           *[other] Nima'q yakb'äl. Ütz we nokisäx Filelink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Nixim ri ayakb'al. Xtiwachin pe pa ruchakulal rutzijol toq xtuk'ïs.
+       *[other] Yexim ri taq ayakb'al. Xtiwachin pe pa ruchakulal rutzijol toq xkeruk'ïs.
+    }
 
 ## Link Preview
 

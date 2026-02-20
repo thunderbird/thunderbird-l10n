@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Send Format
+
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -69,7 +72,74 @@ drop-file-label-attachment =
 button-return-receipt =
     .label = Ստացական
     .tooltiptext = Հետադարձ ստացական հայցել նամակի համար
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Ջնջել կցորդը
+           *[other] Ջնջել կցորդները
+        }
+    .accesskey = m
+default-delete-cmd =
+    .label = Ջնջել
+    .accesskey = D
+
+## Encryption
+
 
 ## Addressing Area
 
 many-public-recipients-prompt-cancel = Չեղարկել ուղարկումը
+
+## Notifications
+
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name }- ն արգելափակում է ֆայլի բեռնումը այս հաղորդագրության մեջ: Ֆայլը ապակողպելն այն կներառի ձեր ուղարկած հաղորդագրության մեջ:
+       *[other] { -brand-short-name }-ն արգելափակում է որոշ ֆայլերի բեռնումը այս հաղորդագրության մեջ: Ֆայլը ապակողպելն այն կներառի ձեր ուղարկված հաղորդագրության մեջ:
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Գտնվել է կցորդ հիմնաբառը.
+       *[other] Գտնվել է { $count } կցորդ հիմնաբառ.
+    }
+
+## Editing
+
+
+# Tools
+
+
+## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
+
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Սա մեծ ֆայլ է։ Լավ կլինի, որ օգտագործեք Ֆայլի հղումը։
+           *[other] Կան մեծ ֆայլեր։ Ավելի լավ է օգտագործեք Ֆայլի հղումը։
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification = Ձեր ֆայլը կհղվի։ Այն տեսանելի կլինի նամակում, երբ պատրաստ լինի։ Ձեր ֆայլերը կհղվեն։ Դրանք տեսանելի կլինեն նամակում, երբ պատրաստ լինեն։
+
+## Link Preview
+
+
+## Dictionary selection popup
+

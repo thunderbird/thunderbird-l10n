@@ -141,6 +141,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Accusé de réception
     .tooltiptext = Demander un accusé de réception pour ce message
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Supprimer la pièce jointe
+           *[other] Supprimer les pièces jointes
+        }
+    .accesskey = j
+default-delete-cmd =
+    .label = Supprimer
+    .accesskey = E
 
 ## Encryption
 
@@ -302,6 +314,20 @@ compose-missing-identity-warning = Une identité unique correspondant à l’adr
 encrypted-bcc-warning = Lors de l’envoi d’un message chiffré, les destinataires en copie cachée ne sont pas complètement masqués. Tous les destinataires pourraient les identifier.
 encrypted-bcc-ignore-button = C’est compris
 auto-disable-e2ee-warning = Le chiffrement de bout en bout de ce message a été automatiquement désactivé.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } a bloqué le chargement d’un fichier dans ce message. Débloquer le fichier l’inclut dans le message à envoyer.
+       *[other] { -brand-short-name } a bloqué le chargement de certains fichiers dans ce message. Débloquer un fichier l’inclut dans le message à envoyer.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Mot-clé de pièce jointe trouvé :
+       *[other] { $count } mots-clés de pièce jointe trouvés :
+    }
 
 ## Editing
 
@@ -397,6 +423,21 @@ cloud-file-account-error-title = Erreur de compte Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Échec de la mise à jour de la pièce jointe Filelink { $filename }, car son compte Filelink a été supprimé.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Ce fichier est volumineux. Il serait préférable d’utiliser un espace de stockage de fichiers.
+           *[other] Ces fichiers sont volumineux. Il serait préférable d’utiliser un espace de stockage de fichiers.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Votre fichier a été lié. Le lien apparaîtra dans le corps du message lorsque le téléchargement sera terminé.
+       *[other] Vos fichiers ont été liés. Les liens apparaîtront dans le corps du message lorsque les téléchargements seront terminés.
+    }
 
 ## Link Preview
 

@@ -66,3 +66,14 @@ filter-editor-pick-template-reply = Պատասխանելու համար ընտր
 filter-continue-execution = { $filterName } զտիչի կիրառումը ձախողուեց: Ցանկանու՞մ էք շարունակել զտիչների կիրառումը:
 filter-list-backup-message = Ձեր զտիչները չէն աշխատում, քանի որ msgFilterRules.dat նիշին, որը պարունակում էր Ձեր զտիչները, չյաջողուեց կարդալ։ Կը ստեղծուի մի նոր msgFilterRules.dat նիշ եւ հին նիշի կրկնաւրինակը, որը կոչուում է rulesbackup.dat, կը ստեղծուի նոյն գրացուցակում։
 filter-invalid-custom-header = Ձեր զտիչներից մեկն օգտագործում է յատուկ գլխագիր, որը պարունակում է անվաւեր նիշ, աւրինակ՝ «:», չտպուող նիշ, ոչ ascii նիշ կամ ութ բիթանոց ascii նիշ: Խնդրում ենք խմբագրել msgFilterRules.dat ֆայղը, որը պարունակում է Ձեր զտիչները՝ յատուկ գլխագրերից անվաւեր նիշերը հեռացնելու համար:
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } իր
+       *[other] { $count } իրեր
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $total }-ից { $visible }

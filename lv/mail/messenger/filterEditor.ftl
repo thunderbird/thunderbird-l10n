@@ -67,3 +67,15 @@ filter-editor-pick-template-reply = Izvēlieties veidni, ar kuru atbildēt.
 filter-continue-execution = Neizdevās pielietot filtru { $filterName }. Vai vēlaties turpināt filtru lietošanu?
 filter-list-backup-message = Jūsu filtri nedarbojas, jo failu msgFilterRules.dat ar jūsu filtriem neizdevās nolasīt. Tiks izveidots jauns msgFilterRules.dat fails un tajā pašā mapē tiks izveidots vecā faila dublējums ar nosaukumu rulesbackup.dat.
 filter-invalid-custom-header = Vienā no jūsu filtriem tiek izmantota pielāgota galvene, kas satur nederīgu rakstzīmi, piemēram, ‘:’, nedrukājamu rakstzīmi vai rakstzīmi, kas nav astoņu bitu ASCII rakstzīme. Lūdzu, rediģējiet failu msgFilterRules.dat ar jūsu filtriem, lai no pielāgotajām galvenēm izņemtu nederīgās rakstzīmes.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [zero] { $count } vienums
+        [one] { $count } vienumi
+       *[other] { $count } vienumi
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } no { $total }

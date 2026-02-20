@@ -3,6 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Send Format
+
+
+## Addressing widget
+
+
 ## Attachment widget
 
 ctrl-cmd-shift-pretty-prefix =
@@ -21,6 +27,31 @@ attachment-bucket-count-value =
        *[other] { $count } kenstagadur
     }
 
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
+## Reorder Attachment Panel
+
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Lemel ar c'henstagadur
+            [two] Lemel ar c'henstagadurioù
+            [few] Lemel ar c'henstagadurioù
+            [many] Lemel ar c'henstagadurioù
+           *[other] Lemel ar c'henstagadurioù
+        }
+    .accesskey = L
+default-delete-cmd =
+    .label = Dilemel
+    .accesskey = D
+
+## Encryption
+
+
 ## Addressing Area
 
 cc-address-row-label =
@@ -33,6 +64,69 @@ show-cc-row-extra-menuitem =
 bcc-address-row-label =
     .value = Bcc
 
+## Notifications
+
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] Stanket eo bet ur restr da gargañ er gemennadenn-mañ gant { -brand-short-name }. Distankañ ar restr a ebarzho anezhañ en ho kemennadenn kaset.
+        [two] Stanket eo bet restroù da gargañ er gemennadenn-mañ gant { -brand-short-name }. Distankañ ur restr a ebarzho anezhañ en ho kemennadenn kaset.
+        [few] Stanket eo bet restroù da gargañ er gemennadenn-mañ gant { -brand-short-name }. Distankañ ur restr a ebarzho anezhañ en ho kemennadenn kaset.
+        [many] Stanket eo bet restroù da gargañ er gemennadenn-mañ gant { -brand-short-name }. Distankañ ur restr a ebarzho anezhañ en ho kemennadenn kaset.
+       *[other] Stanket eo bet restroù da gargañ er gemennadenn-mañ gant { -brand-short-name }. Distankañ ur restr a ebarzho anezhañ en ho kemennadenn kaset.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Kavet ez eus bet ur ger-alc'hwez kenstagadur:
+        [two] Kavet ez eus bet { $count } c'her-alc'hwez kenstagadur:
+        [few] Kavet ez eus bet { $count } ger-alc'hwez kenstagadur:
+        [many] Kavet ez eus bet { $count } a c'herioù-alc'hwez kenstagadur:
+       *[other] Kavet ez eus bet { $count } a ger-alc'hwez kenstagadur:
+    }
+
+## Editing
+
+
+# Tools
+
+
+## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
+
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Ur restr vras eo. Marteze e vefe gwelloc'h arverañ Filelink.
+            [two] Restroù bras eo. Marteze e vefe gwelloc'h arverañ Filelink.
+            [few] Restroù bras eo. Marteze e vefe gwelloc'h arverañ Filelink.
+            [many] Restroù bras eo. Marteze e vefe gwelloc'h arverañ Filelink.
+           *[other] Restroù bras eo. Marteze e vefe gwelloc'h arverañ Filelink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Emañ ho restr o vezañ ereet. Dont a raio war wel e korf ar gemennadenn pa vo echu.
+        [two] Emañ ho restroù o vezañ ereet. Dont a raint war wel e korf ar gemennadenn pa vo echu.
+       *[other] Emañ ho restroù o vezañ ereet. Dont a raint war wel e korf ar gemennadenn pa vo echu.
+    }
+
 ## Link Preview
 
 link-preview-yes-replace = Ya
+
+## Dictionary selection popup
+

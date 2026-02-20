@@ -66,3 +66,14 @@ filter-editor-pick-template-reply = Fren taneɣruft s wayes ara terred
 filter-continue-execution = Asnas n imzizdig { $filterName } ur yeddi ara. Tebɣiḍ ad tkemleḍ asnas n imzizdigen?
 filter-list-backup-message = Imzizdig-inek ur iteddu ara acku afaylu msgFilterRules.dat, igebren imzizdigen-inek, ur yezmir ara ad yettwaɣaṛ. Afaylu maynut msgFilterRules.dat ad yettwarnu u aḥraz n ufaylu, s yisem rulesbackup.dat, ad yettwarnu deg iwen n ukaram.
 filter-invalid-custom-header = Yiwen seg imzizdigen-inek iseqdac aqeṛṛu udmawan igebren asekkil arameɣtu, am  ‘:’, asekkil-agi ur yettwasiggaz ara, d asekkil ur nelli ara ascii, neɣ mačči d asekkil n ṭam n ibiten. Ma ulac aɣilif, ẓreg afaylu msgFilterRules.dat, igebren imzizdigen-inek, akke ad tekkseḍ isekkilen seg iqeṛṛa udmawanen.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } aferdis
+       *[other] { $count } iferdisen
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } si { $total }

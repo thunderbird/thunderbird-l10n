@@ -142,6 +142,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Confirmació de recepció
     .tooltiptext = Sol·licita una confirmació de recepció per a aquest missatge
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Elimina l'adjunció
+           *[other] Elimina les adjuncions
+        }
+    .accesskey = m
+default-delete-cmd =
+    .label = Suprimeix
+    .accesskey = u
 
 ## Encryption
 
@@ -302,6 +314,20 @@ compose-missing-identity-warning = S'ha trobat més d'una identitat que coincide
 encrypted-bcc-warning = Quan s'envia un missatge xifrat, els destinataris del camp «Cco»  no estan totalment ocults. Tots els destinataris podrien identificar-los.
 encrypted-bcc-ignore-button = Entès
 auto-disable-e2ee-warning = El xifratge d'extrem a extrem d'aquest missatge s'ha desactivat automàticament.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] El { -brand-short-name } ha blocat la càrrega d'un fitxer en aquest missatge. Si desbloqueu el fitxer, s'inclourà en el missatge que envieu.
+       *[other] El { -brand-short-name } ha blocat la càrrega d'alguns fitxers en aquest missatge. Si desbloqueu un fitxer, s'inclourà en el missatge que envieu.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] S'ha trobat una paraula clau d'adjunció:
+       *[other] S'ha trobat { $count } paraules clau d'adjunció:
+    }
 
 ## Editing
 
@@ -397,6 +423,21 @@ cloud-file-account-error-title = Error de compte de Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = No s'ha pogut actualitzar l'adjunció de Filelink { $filename } perquè s'ha suprimit el compte de Filelink.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] És un fitxer gran. Podria ser millor utilitzar el Filelink.
+           *[other] Són fitxers grans. Podria ser millor utilitzar el Filelink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] S'està enllaçant el fitxer. Apareixerà en el cos del missatge en acabar.
+       *[other] S'estan enllaçant els fitxers. Apareixeran en el cos del missatge en acabar.
+    }
 
 ## Link Preview
 

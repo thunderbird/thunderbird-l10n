@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = Файл…
     .accesskey = Ф
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Взимане на следващото { $count } съобщение
+       *[other] Взимане на следващите { $count } съобщения
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -656,3 +663,31 @@ prompt-dont-ask-again = Спиране на този въпрос.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Анализ на нежелана поща { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } завършен
 spam-processing-message = Обработване на нежелани съобщения
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } прикачен файл
+       *[other] { $count } прикачени файла
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Разрешаване на отдалечено съдържание от { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Разрешаване на отдалечено съдържание от { $count } адрес по-горе
+           *[other] Разрешаване на отдалечено съдържание от всички { $count } адреса по-горе
+        }

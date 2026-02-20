@@ -141,6 +141,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Quitantia
     .tooltiptext = Requirer un quitantia de retorno pro iste message
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Remover annexo
+           *[other] Remover annexos
+        }
+    .accesskey = x
+default-delete-cmd =
+    .label = Deler
+    .accesskey = D
 
 ## Encryption
 
@@ -302,6 +314,20 @@ compose-missing-identity-warning = Non ha essite trovate un identitate unic que 
 encrypted-bcc-warning = Inviante un message cryptate, le destinatarios in Ccn non es plenmente celate. Tote le destinatarios pote esser capace a identificar illes.
 encrypted-bcc-ignore-button = Io comprende
 auto-disable-e2ee-warning = Cryptation de extremo-a-extremo pro iste message era automaticamente disactivate.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } ha blocate le cargamento de un file in iste message. Si tu disbloca le file, illo essera includite in le message inviate.
+       *[other] { -brand-short-name } ha blocate le cargamento de alcun files in iste message. Si tu disbloca un file, illo essera includite in le message inviate.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Parola-clave de annexo trovate:
+       *[other] { $count } parolas-clave de annexo trovate:
+    }
 
 ## Editing
 
@@ -397,6 +423,21 @@ cloud-file-account-error-title = Error de conto Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Impossibile actualisar le annexo de Filelink { $filename }, perque su conto de Filelink ha essite delite.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Isto es un file grande. Il pote esser melio usar in vice Filelink.
+           *[other] Il ha grande files. Il pote esser melio usar in vice Filelink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Le ligation de tu file es in curso. Illo apparera in le corpore del message quando es finite.
+       *[other] Le ligation de tu files es in curso. Illos apparera in le corpore del message quando es finite.
+    }
 
 ## Link Preview
 

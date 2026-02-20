@@ -142,6 +142,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Untfangstbefêstiging
     .tooltiptext = In ûntfangstbefêstiging foar dit berjocht freegje
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Bylage fuortsmite
+           *[other] Bylagen fuortsmite
+        }
+    .accesskey = f
+default-delete-cmd =
+    .label = Fuortsmite
+    .accesskey = F
 
 ## Encryption
 
@@ -303,6 +315,20 @@ compose-missing-identity-warning = Der is gjin unike identiteit lyk oan it Fan-a
 encrypted-bcc-warning = As jo in fersifere berjocht ferstjoere, wurde ûntfangers yn Bcc net folslein ferstoppe. Alle ûntfangers kinne se mooglik identifisearje.
 encrypted-bcc-ignore-button = Begrepen
 auto-disable-e2ee-warning = Ein-ta-ein-fersifering foar dit berjocht is automatysk útskeakele.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } hat it laden fan in bestân yn dit berjocht blokkearre. Deblokkearjen sil it bestân opnimme yn jo ferstjoerde berjocht.
+       *[other] { -brand-short-name } hat it laden fan guon bestnnen yn dit berjocht blokkearre. Deblokkearjen sil it bestân opnimme yn jo ferstjoerde berjocht.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Bylagekaaiwurd fûn:
+       *[other] { $count } bylagekaaiwurden fûn:
+    }
 
 ## Editing
 
@@ -398,6 +424,21 @@ cloud-file-account-error-title = Filelink-accountflater
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Kin de Filelink-bylage { $filename } net bywurkje, omdat it de Filelink-account fuortsmiten is.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Dit is in grut bestân. It is miskien better om Filelink te brûken.
+           *[other] Dit binne grutte bestannen. It is miskien better om Filelink te brûken.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Jo bestân is keppele. Dit wurdt toand yn de kern fan it berjocht as it klear is.
+       *[other] Jo bestannen binne keppele. Se wurde toand yn de kern fan it berjocht as it klear is.
+    }
 
 ## Link Preview
 

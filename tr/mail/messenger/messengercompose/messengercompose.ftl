@@ -142,6 +142,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Alındı onayı
     .tooltiptext = Bu ileti için alındı onayı iste
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Eki sil
+           *[other] Ekleri sil
+        }
+    .accesskey = k
+default-delete-cmd =
+    .label = Sil
+    .accesskey = S
 
 ## Encryption
 
@@ -303,6 +315,20 @@ compose-missing-identity-warning = Gönderen adresiyle eşleşen benzersiz kimli
 encrypted-bcc-warning = Şifrelenmiş ileti gönderirken Bcc’deki alıcılar tamamen gizlenmez. Tüm alıcılar diğer alıcıları görebilir.
 encrypted-bcc-ignore-button = Anladım
 auto-disable-e2ee-warning = Bu ileti için uçtan uca şifreleme otomatik olarak devre dışı bırakıldı.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } bir dosyanın bu iletide yüklenmesini engelledi. Engeli kaldırırsanız bu dosya gönderdiğiniz iletiye dahil olacak.
+       *[other] { -brand-short-name } bazı dosyaların bu iletide yüklenmesini engelledi. Engeli kaldırırsanız bu dosyalar gönderdiğiniz iletiye dahil olacak.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Bir ek dosya anahtar kelimesi bulundu:
+       *[other] { $count } ek dosya anahtar kelimesi bulundu:
+    }
 
 ## Editing
 
@@ -398,6 +424,21 @@ cloud-file-account-error-title = Filelink Hesap Hatası
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink hesabı silindiği için Filelink eki { $filename } güncellenemedi.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Bu büyük bir dosya. Filelink kullanmak daha iyi olabilir.
+           *[other] Bunlar büyük dosyalar. Filelink kullanmak daha iyi olabilir.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Dosyanız bağlanıyor. İşlem tamamlandığında ileti gövdesinde görünecek.
+       *[other] Dosyalarınız bağlanıyor. İşlem tamamlandığında ileti gövdesinde görünecekler.
+    }
 
 ## Link Preview
 

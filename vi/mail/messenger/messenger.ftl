@@ -148,6 +148,9 @@ menu-file-save-as-file =
     .label = Tập tin…
     .accesskey = F
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs = Nhận { $count } tin tức tiếp theo
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -626,3 +629,23 @@ prompt-dont-ask-again = Đừng hỏi lại.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Phân tích thư rác { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } đã hoàn tất
 spam-processing-message = Đang xử lý thư rác
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count = { $count } đính kèm
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Cho phép nội dung từ xa từ { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label = Cho phép nội dung từ xa từ tất cả { $count } nguồn gốc được liệt kê ở trên

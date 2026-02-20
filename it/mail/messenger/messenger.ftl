@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = File…
     .accesskey = e
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Scaricare il prossimo { $count } messaggio di news
+       *[other] Scaricare i prossimi { $count } messaggio di news
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -674,3 +681,28 @@ ignored-subtheads-feedback =
         [one] Le risposte alla sottodiscussione “{ $subject }” non verranno visualizzate.
        *[other] Le risposte alle { $count } sottodiscussione selezionate non verranno visualizzate.
     }
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } allegato
+       *[other] { $count } allegati
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Consenti contenuto remoto da { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Consenti contenuti remoti originati dalla sorgente indicata
+           *[other] Consenti contenuti remoti originati dalle { $count } sorgenti indicate
+        }

@@ -149,6 +149,9 @@ menu-file-save-as-file =
     .label = ファイル...
     .accesskey = F
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs = 次の { $count } 本の記事を受信する
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label = フォルダーを最適化
@@ -644,3 +647,20 @@ spam-processing-message = 迷惑メールを処理しています
 
 ## Ignore threads
 
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count = 添付ファイル { $count } 個
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = { $origin } からのリモートコンテンツを許可する
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label = 上記リストの { $count } か所からのリモートコンテンツをすべて許可する

@@ -138,6 +138,14 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = 回执
     .tooltiptext = 要求对方收件后发送回执
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label = 删除附件
+    .accesskey = m
+default-delete-cmd =
+    .label = 删除
+    .accesskey = D
 
 ## Encryption
 
@@ -287,6 +295,12 @@ compose-missing-identity-warning = 找不到匹配发件人（From）地址的�
 encrypted-bcc-warning = 发送加密邮件时，并未完全隐藏密送的收件者。所有收件者都可能识别出他们。
 encrypted-bcc-ignore-button = 好的
 auto-disable-e2ee-warning = 已自动禁用此消息的端到端加密。
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message = { -brand-short-name } 已阻止此消息加载某些文件。取消屏蔽将在您的发送消息中包含这些文件。
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg = 找到 { $count } 个附件关键词：
 
 ## Editing
 
@@ -381,6 +395,13 @@ cloud-file-account-error-title = 文件快传账户错误
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = 由于文件快传已被删除，文件快传附件 { $filename } 未能更新。
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label = 文件有点大。我们建议您将大文件先上传到云端，再使用插入文件链接的形式传送文件。
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification = 正在上传您的文件。上传完成后将会在消息体当中插入该文件链接。
 
 ## Link Preview
 

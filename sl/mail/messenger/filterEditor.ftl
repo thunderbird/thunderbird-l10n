@@ -84,3 +84,16 @@ filter-editor-pick-template-reply = Izberite predlogo za odgovor.
 filter-continue-execution = Uporaba filtra { $filterName } ni uspela. Ali želite nadaljevati z uporabo filtrov?
 filter-list-backup-message = Vaši filtri ne delujejo, ker datoteke msgFilterRules.dat, ki vsebuje filtre, ni bilo mogoče prebrati. V isti mapi se bo ustvarila nova datoteka msgFilterRules.dat in varnostna kopija prejšnje datoteke z imenom rulesbackup.dat.
 filter-invalid-custom-header = Eden od filtrov vsebuje glavo po meri, v kateri je neveljaven znak, na primer ':', nenatisljiv znak, znak, ki ni znak ASCII, ali osembitni znak ASCII. Uredite datoteko msgFilterRules.dat, v kateri so vaši filtri shranjeni, in iz glav po meri odstranite neveljavne znake.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } predmet
+        [two] { $count } predmeta
+        [few] { $count } predmeti
+       *[other] { $count } predmetov
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } od { $total }

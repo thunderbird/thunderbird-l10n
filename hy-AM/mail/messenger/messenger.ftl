@@ -48,11 +48,27 @@ addons-and-themes-toolbarbutton =
     .label = Հավելումներ և ոճեր
     .tooltiptext = Կառավարել հավելումները
 
+## Folder Pane
+
+
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Պիտակներ
     .accesskey = T
+
+## Folder names
+
+
+## File Menu
+
+# Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Get Next { $count } News Message
+       *[other] Get Next { $count } News Messages
+    }
 
 ## Edit Menu
 
@@ -86,6 +102,9 @@ menu-edit-folder-properties =
 menu-edit-newsgroup-properties =
     .label = Լուրախմբերի հատկությունը
     .accesskey = o
+
+## Message Menu
+
 
 ## Shared Menu Items
 
@@ -126,6 +145,33 @@ mail-context-menu-forward-forward =
     .label = Փոխանցել
     .accesskey = F
 
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
+## Add-on removal warning
+
+
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
+
 ## Quick Filter Bar
 
 # The label to display for the "View... Toolbars..." menu item that controls
@@ -138,12 +184,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = Ո
 mark-not-junk-key =
     .key = Ո
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -177,3 +244,37 @@ message-group-starred = Աստղով
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = և այլոք
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } կցորդ
+       *[other] { $count } կցորդներ
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Թույլատրել հեռակա բովանդակությունը { $origin }-ից
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Թույլատրել հեռակա բովանդակությունը { $count } սկզբնականից
+           *[other] Թույլատրել հեռակա բովանդակությունը { $count } սկզբնականներից
+        }

@@ -148,11 +148,22 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Компактне подання
     .accesskey = К
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
     .label = Файл…
     .accesskey = Ф
+# Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Отримати наступне { $count } повідомлення про новини
+        [few] Отримати наступні { $count } повідомлення про новини
+       *[many] Отримати наступні { $count } повідомлень про новини
+    }
 
 ## Edit Menu
 
@@ -528,12 +539,24 @@ openpgp-forget = Забути парольні фрази OpenPGP
 quota-panel-percent-used = { $percent }% заповнено
     .title = Квота IMAP: Усього використано { $usage } з { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -573,3 +596,39 @@ message-group-starred = З зіркою
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = та ін.
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } вкладення
+        [few] { $count } вкладення
+       *[many] { $count } вкладень
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Дозволити віддалений вміст з { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Дозволити віддалений вміст з { $count } джерела, вказаного вище
+            [few] Дозволити віддалений вміст з { $count } джерел, вказаних вище
+           *[many] Дозволити віддалений вміст з { $count } джерел, вказаних вище
+        }

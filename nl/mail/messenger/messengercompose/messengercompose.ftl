@@ -142,6 +142,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Ontvangstbevestiging
     .tooltiptext = Een ontvangstbevestiging voor dit bericht vragen
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Bijlage verwijderen
+           *[other] Bijlagen verwijderen
+        }
+    .accesskey = v
+default-delete-cmd =
+    .label = Verwijderen
+    .accesskey = V
 
 ## Encryption
 
@@ -303,6 +315,20 @@ compose-missing-identity-warning = Er is geen unieke identiteit gevonden die met
 encrypted-bcc-warning = Als u een versleuteld bericht verstuurt, worden ontvangers in Bcc niet volledig verborgen. Alle ontvangers kunnen ze mogelijk identificeren.
 encrypted-bcc-ignore-button = Begrepen
 auto-disable-e2ee-warning = End-to-end-versleuteling voor dit bericht is automatisch uitgeschakeld.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } heeft het laden van een bestand in dit bericht geblokkeerd. Door het bestand te deblokkeren, zal het in uw uitgaande bericht worden bijgevoegd.
+       *[other] { -brand-short-name } heeft het laden van enkele bestanden in dit bericht geblokkeerd. Door een bestand te deblokkeren, zal het in uw uitgaande bericht worden bijgevoegd.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Bijlagesleutelwoord gevonden:
+       *[other] { $count } bijlagesleutelwoorden gevonden:
+    }
 
 ## Editing
 
@@ -398,6 +424,21 @@ cloud-file-account-error-title = Filelink-accountfout
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Kan de Filelink-bijlage { $filename } niet bijwerken, omdat de Filelink-account is verwijderd.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Dit is een groot bestand. Het is misschien beter om Filelink te gebruiken.
+           *[other] Dit zijn grote bestanden. Het is misschien beter om Filelink te gebruiken.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Uw bestand wordt gekoppeld. Het verschijnt in de hoofdtekst van het bericht zodra dit is voltooid.
+       *[other] Uw bestanden worden gekoppeld. Ze verschijnen in de hoofdtekst van het bericht zodra dit is voltooid.
+    }
 
 ## Link Preview
 

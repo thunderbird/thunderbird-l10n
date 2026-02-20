@@ -162,6 +162,22 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Derbynneb
     .tooltiptext = Gofyn am dderbynneb dychwelyd i'r neges hon
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [zero] Dim Atodiadau
+            [one] Tynnu Atodiad
+            [two] Tynnu Atodiadau
+            [few] Tynnu Atodiadau
+            [many] Tynnu Atodiadau
+           *[other] Tynnu Atodiadau
+        }
+    .accesskey = y
+default-delete-cmd =
+    .label = Dileu
+    .accesskey = D
 
 ## Encryption
 
@@ -339,6 +355,28 @@ compose-missing-identity-warning = Methu canfod hunaniaeth unigryw sy'n cyd-fynd
 encrypted-bcc-warning = Wrth anfon neges wedi'i hamgryptio, nid yw'r derbynwyr yn Bcc wedi'u cuddio'n llawn. Efallai y bydd pob derbynnydd yn gallu eu hadnabod.
 encrypted-bcc-ignore-button = Wedi Deall
 auto-disable-e2ee-warning = Analluogwyd amgryptio pen-i-ben y neges hon yn awtomatig.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [zero] Nid yw { -brand-short-name } wedi rhwystro ffeiliau rhag llwytho i'r neges hon. Bydd dad-rwystro'r ffeil yn ei chynnwys yn eich neges a anfonwyd
+        [one] Mae { -brand-short-name } wedi rhwystro ffeiliau rhag llwytho i'r neges hon. Bydd dad-rwystro'r ffeil yn ei chynnwys yn eich neges a anfonwyd.
+        [two] Mae { -brand-short-name } wedi rhwystro ffeiliau rhag llwytho i'r neges hon. Bydd dad-rwystro'r ffeil yn ei chynnwys yn eich neges a anfonwyd.
+        [few] Mae { -brand-short-name } wedi rhwystro ffeiliau rhag llwytho i'r neges hon. Bydd dad-rwystro'r ffeil yn ei chynnwys yn eich neges a anfonwyd.
+        [many] Mae { -brand-short-name } wedi rhwystro ffeiliau rhag llwytho i'r neges hon. Bydd dad-rwystro'r ffeil yn ei chynnwys yn eich neges a anfonwyd.
+       *[other] Mae { -brand-short-name } wedi rhwystro ffeiliau rhag llwytho i'r neges hon. Bydd dad-rwystro'r ffeil yn ei chynnwys yn eich neges a anfonwyd.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [zero] Wedi canfod dim allweddeiriau atodiadau:
+        [one] Wedi canfod { $count } allweddair atodiad:
+        [two] Wedi canfod { $count } allweddair atodiad:
+        [few] Wedi canfod { $count } allweddair atodiad:
+        [many] Wedi canfod { $count } allweddair atodiad:
+       *[other] Wedi canfod { $count } allweddair atodiad:
+    }
 
 ## Editing
 
@@ -438,6 +476,26 @@ cloud-file-account-error-title = Gwall Cyfrif Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Wedi methu diweddaru'r atodiad Filelink { $filename }, oherwydd bod ei ffeil leol wedi'i symud neu ei dileu.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [zero] Dim ffeiliau.
+            [one] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
+            [two] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
+            [few] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
+            [many] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
+           *[other] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [zero] Mae eich ffeil wedi'i chysylltu. Bydd yn ymddangos yng nghorff y neges ar ôl ei gwblhau.
+        [one] Mae eich ffeiliau wedi'u cysylltu. Byddant yn ymddangos yng nghorff y neges ar ôl ei gwblhau.
+       *[other] Mae eich ffeiliau wedi'u cysylltu. Byddant yn ymddangos yng nghorff y neges ar ôl ei gwblhau.
+    }
 
 ## Link Preview
 

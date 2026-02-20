@@ -83,3 +83,15 @@ filter-editor-pick-template-reply = Proszę wybrać szablon, który ma zostać u
 filter-continue-execution = Zastosowanie filtru { $filterName } się nie powiodło. Czy kontynuować uruchamianie filtrów?
 filter-list-backup-message = Filtry wiadomości nie działają, ponieważ plik msgFilterRules.dat, który zawiera filtry wiadomości, nie może być odczytany. Zostanie utworzony nowy plik msgFilterRules.dat oraz kopia starszego pliku, nazwana rulesbackup.dat, w tym samym katalogu.
 filter-invalid-custom-header = Jeden z filtrów używa nagłówka, który zawiera niedozwolone znaki, takie jak „:”, znaki niedrukowalne, znaki niezgodne ze standardem ascii, lub ośmiobitowe znaki ascii. Proszę usunąć błędne znaki w pliku msgFilterRules.dat, który to zawiera ustawienia filtrów.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } element
+        [few] { $count } elementy
+       *[many] { $count } elementów
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } z { $total }

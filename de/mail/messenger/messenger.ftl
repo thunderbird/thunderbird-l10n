@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = Datei…
     .accesskey = D
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Nächsten { $count } News-Beitrag abrufen
+       *[other] Nächste { $count } News-Beiträge abrufen
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -675,3 +682,28 @@ ignored-subtheads-feedback =
         [one] Antworten an das Unterthema „{ $subject }“ werden nicht angezeigt.
        *[other] Antworten an die { $count } ausgewählten Unterthemen werden nicht angezeigt.
     }
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } Anhang
+       *[other] { $count } Anhänge
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Externe Inhalte erlauben von { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Externe Inhalte erlauben von { $count } oben aufgeführter Quelle
+           *[other] Externe Inhalte erlauben von { $count } oben aufgeführten Quellen
+        }

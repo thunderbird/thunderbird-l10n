@@ -157,6 +157,9 @@ menu-file-save-as-file =
     .label = Dosya…
     .accesskey = D
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs = Sonraki { $count } yeni iletiyi indir
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -656,3 +659,31 @@ prompt-dont-ask-again = Tekrar sorma.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Spam analizi { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } tamamlandı
 spam-processing-message = Spam iletiler işleniyor
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } ek
+       *[other] { $count } ek
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = { $origin } konumundan uzak içeriğe izin ver
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Yukarıdaki { $count } kökenli uzak içeriğe izin ver
+           *[other] Yukarıdaki { $count } kökenden gelen uzak içeriğe izin ver
+        }

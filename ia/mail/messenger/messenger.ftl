@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = File…
     .accesskey = F
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Acquirer le proxime { $count } message de novas
+       *[other] Acquirer le proxime { $count } messages de novas
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -655,3 +662,31 @@ prompt-dont-ask-again = Non plus demandar.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analysis de spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } completate
 spam-processing-message = Processante messages spam
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } annexo
+       *[other] { $count } annexos
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Consentir contento remote ab { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Consentir contento remote del { $count } fonte in le lista supra
+           *[other] Consentir contento remote de tote le { $count } fontes in le lista supra
+        }

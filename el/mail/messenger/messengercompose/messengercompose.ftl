@@ -141,6 +141,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Αποδεικτικό
     .tooltiptext = Απαίτηση αποδεικτικού προβολής για αυτό το μήνυμα
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Αφαίρεση συνημμένου
+           *[other] Αφαίρεση συνημμένων
+        }
+    .accesskey = ρ
+default-delete-cmd =
+    .label = Διαγραφή
+    .accesskey = Δ
 
 ## Encryption
 
@@ -299,6 +311,20 @@ compose-missing-identity-warning = Δεν βρέθηκε μοναδική ταυ
 encrypted-bcc-warning = Κατά την αποστολή ενός κρυπτογραφημένου μηνύματος, οι παραλήπτες στο πεδίο «Κρυφή Κοιν.» δεν αποκρύπτονται πλήρως. Όλοι οι παραλήπτες ενδέχεται να μπορέσουν να τους αναγνωρίσουν.
 encrypted-bcc-ignore-button = Κατάλαβα
 auto-disable-e2ee-warning = Η διατερματική κρυπτογράφηση απενεργοποιήθηκε αυτόματα για αυτό το μήνυμα.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] Το { -brand-short-name } έχει αποκλείσει τη φόρτωση ενός αρχείου μέσα στο μήνυμα. Η απεμπλοκή θα συμπεριλάβει το αρχείο στο απεσταλμένο μήνυμά σας.
+       *[other] Το { -brand-short-name } έχει αποκλείσει τη φόρτωση ορισμένων αρχείων μέσα στο μήνυμα. Η απεμπλοκή θα συμπεριλάβει το αρχείο στο απεσταλμένο μήνυμά σας.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Βρέθηκε μια λέξη-κλειδί συνημμένου:
+       *[other] Βρέθηκαν { $count } λέξεις-κλειδιά συνημμένου:
+    }
 
 ## Editing
 
@@ -394,6 +420,21 @@ cloud-file-account-error-title = Σφάλμα λογαριασμού FileLink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Αποτυχία ενημέρωσης του συνημμένου «{ $filename }» στο FileLink, επειδή ο λογαριασμός FileLink του έχει διαγραφεί.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Αυτό είναι ένα μεγάλο αρχείο. Ίσως είναι καλύτερα να χρησιμοποιήσετε το FileLink.
+           *[other] Αυτά είναι μεγάλα αρχεία. Ίσως είναι καλύτερα να χρησιμοποιήσετε το FileLink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Δημιουργείται σύνδεσμος για το αρχείο σας. Θα εμφανιστεί στο σώμα του μηνύματος όταν ολοκληρωθεί η διαδικασία.
+       *[other] Δημιουργούνται σύνδεσμοι για τα αρχεία σας. Θα εμφανιστούν στο σώμα του μηνύματος όταν ολοκληρωθεί η διαδικασία.
+    }
 
 ## Link Preview
 

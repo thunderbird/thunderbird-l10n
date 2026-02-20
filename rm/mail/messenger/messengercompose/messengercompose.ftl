@@ -141,6 +141,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Retschavida
     .tooltiptext = Dumandar ina conferma da retschavida per quest messadi
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Allontanar l'agiunta
+           *[other] Allontanar las agiuntas
+        }
+    .accesskey = l
+default-delete-cmd =
+    .label = Stizzar
+    .accesskey = S
 
 ## Encryption
 
@@ -302,6 +314,20 @@ compose-missing-identity-warning = Betg chattà ina identitad univoca che corres
 encrypted-bcc-warning = Cun trametter in messadi criptà n'èn ils destinaturs en Bcc betg zuppads dal tuttafatg. Tut ils destinaturs pon potenzialmain identifitgar ils auters destinaturs.
 encrypted-bcc-ignore-button = Chapì
 auto-disable-e2ee-warning = Il criptadi fin-a-fin per quest messadi è vegnì deactivà automaticamain.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } ha impedì ch'ina datoteca en quest messadi vegnia chargiada. Cun debloccar la datoteca vegn ella integrada en tes messadi tramess.
+       *[other] { -brand-short-name } ha impedì che pliras datotecas en quest messadi vegnian chargiadas. Cun debloccar ina datoteca vegn ella integrada en tes messadi tramess.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Chattà in chavazzin d'agiunta:
+       *[other] Chattà { $count } chavazzins d'agiunta:
+    }
 
 ## Editing
 
@@ -397,6 +423,21 @@ cloud-file-account-error-title = Errur da conto Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = I n'è betg reussì dad actualisar l'agiunta Filelink { $filename } perquai ch'il conto da Filelink correspundent è vegnì stizzà.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Quai è ina gronda datoteca. Forsa fissi pli simpel dad utilisar in servetsch per memorisar datotecas.
+           *[other] Quai èn grondas datotecas. Forsa fissi pli simpel dad utilisar in servetsch per memorisar datotecas.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Tia datoteca vegn colliada. La colliaziun vegn a cumparair en il corp dal messadi sche la datoteca è chargiada.
+       *[other] Tias datotecas vegnan colliadas. La colliaziun vegn a cumparair en il corp dal messadi sche las datotecas èn chargiadas.
+    }
 
 ## Link Preview
 

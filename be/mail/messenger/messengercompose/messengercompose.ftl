@@ -125,6 +125,19 @@ move-attachment-right-panel-button =
     .label = Перамясціць управа
 move-attachment-last-panel-button =
     .label = Перамясціць у канец
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Выдаліць прымацаванне
+            [few] Выдаліць прымацаванні
+           *[many] Выдаліць прымацаванні
+        }
+    .accesskey = д
+default-delete-cmd =
+    .label = Выдаліць
+    .accesskey = В
 
 ## Encryption
 
@@ -175,6 +188,28 @@ many-public-recipients-prompt-send = Усё роўна адправіць
 
 encrypted-bcc-ignore-button = Зразумела
 auto-disable-e2ee-warning = Скразное шыфраванне для гэтага паведамлення было аўтаматычна адключана.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } заблакаваў загрузку файла ў гэта паведамленне. Разблакаванне файла ўключыць яго ў адпраўленае вамі паведамленне.
+        [few] { -brand-short-name } заблакаваў загрузку некалькіх файлаў у гэта паведамленне. Разблакаванне файла ўключыць яго ў адпраўленае вамі паведамленне.
+       *[many] { -brand-short-name } заблакаваў загрузку некалькіх файлаў у гэта паведамленне. Разблакаванне файла ўключыць яго ў адпраўленае вамі паведамленне.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Знойдзена { $count } ключавое слова далучэння:
+        [few] Знойдзены { $count } ключавыя словы далучэння:
+       *[many] Знойдзены { $count } ключавых словаў далучэння:
+    }
+
+## Editing
+
+
+# Tools
+
 
 ## Filelink
 
@@ -228,6 +263,15 @@ cloud-file-rename-error-with-custom-message-title = Не атрымалася п
 cloud-file-rename-not-supported = { $provider } не падтрымлівае перайменаванне ўжо запампаваных файлаў.
 cloud-file-attachment-error-title = Памылка прымацавання Filelink
 cloud-file-account-error-title = Памылка ўліковага запісу Filelink
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Гэта вялікі файл. Магчыма, будзе лепш выкарыстаць Filelink замест прымацавання.
+            [few] Гэта вялікія файлы. Магчыма, будзе лепш выкарыстаць Filelink замест прымацавання.
+           *[many] Гэта вялікія файлы. Магчыма, будзе лепш выкарыстаць Filelink замест прымацавання.
+        }
 
 ## Link Preview
 

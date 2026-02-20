@@ -160,6 +160,14 @@ menu-file-save-as-file =
     .label = Datoteka…
     .accesskey = D
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Dohvati { $count } sljedeću poruku vijesti
+        [few] Dohvati { $count } sljedeće poruke vijesti
+       *[other] Dohvati { $count } sljedećih poruka vijesti
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -667,3 +675,33 @@ prompt-dont-ask-again = Ne pitaj ponovo.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analiza neželjene pošte dovršena { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = Obrada neželjene pošte
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } privitak
+        [few] { $count } privitka
+       *[other] { $count } privitaka
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Dozvoli vanjski sadržaj od { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Dozvoli vanjski sadržaj od { $count } izvora navedenog iznad
+            [few] Dozvoli vanjski sadržaj od { $count } izvora navedenih iznad
+           *[other] Dozvoli vanjski sadržaj od { $count } izvora navedenih iznad
+        }

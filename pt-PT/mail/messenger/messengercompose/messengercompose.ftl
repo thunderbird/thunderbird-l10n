@@ -142,6 +142,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Recibo
     .tooltiptext = Solicitar um recibo de leitura para esta mensagem
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Remover anexo
+           *[other] Remover anexos
+        }
+    .accesskey = m
+default-delete-cmd =
+    .label = Apagar
+    .accesskey = A
 
 ## Encryption
 
@@ -303,6 +315,20 @@ compose-missing-identity-warning = Não foi encontrada uma identidade única que
 encrypted-bcc-warning = Ao enviar uma mensagem encriptada, os destinatários em Bcc não estão totalmente ocultos. Todos os destinatários poderão identificá-los.
 encrypted-bcc-ignore-button = Compreendi
 auto-disable-e2ee-warning = A encriptação ponto a ponto para esta mensagem foi desativada automaticamente.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] O { -brand-short-name } bloqueou o carregamento de um ficheiro para esta mensagem. Se desbloquear o ficheiro, este será incluído na mensagem enviada.
+       *[other] O { -brand-short-name } bloqueou o carregamento de alguns ficheiro para esta mensagem. Se desbloquear os ficheiros, estes será incluídos na mensagem enviada.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Encontrada uma palavra-chave de anexo:
+       *[other] Encontradas { $count } palavras-chave de anexo:
+    }
 
 ## Editing
 
@@ -398,6 +424,21 @@ cloud-file-account-error-title = Erro de conta do Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Não foi possível atualizar o anexo { $filename } do Filelink, porque a respetiva conta Filelink foi eliminada.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Este ficheiro é muito grande. É capaz de ser melhor usar o Filelink.
+           *[other] Estes ficheiros são muito grandes. É capaz de ser melhor usar o Filelink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] O seu ficheiro está a ser ligado. Irá aparecer no corpo da mensagem ao terminar.
+       *[other] Os seus ficheiros estão a ser ligados. Irão aparecer no corpo da mensagem ao terminar.
+    }
 
 ## Link Preview
 

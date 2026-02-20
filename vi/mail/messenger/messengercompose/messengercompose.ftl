@@ -133,6 +133,14 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Xác nhận
     .tooltiptext = Yêu cầu xác nhận đã nhận thư cho thư này
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label = Xóa (các) phần đính kèm
+    .accesskey = M
+default-delete-cmd =
+    .label = Xóa
+    .accesskey = D
 
 ## Encryption
 
@@ -278,6 +286,12 @@ compose-missing-identity-warning = Không tìm thấy danh tính duy nhất phù
 encrypted-bcc-warning = Khi gửi một thư được mã hóa, người nhận trong Bcc không bị ẩn hoàn toàn. Tất cả người nhận có thể xác định được họ.
 encrypted-bcc-ignore-button = Đã hiểu
 auto-disable-e2ee-warning = Mã hóa đầu cuối cho thư này đã tự động bị tắt.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message = { -brand-short-name } đã chặn một số tập tin tải vào thư này. Bỏ chặn tập tin sẽ bao gồm nó trong thư đã gửi của bạn.
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg = Đã tìm thấy { $count } từ khóa đính kèm:
 
 ## Editing
 
@@ -372,6 +386,13 @@ cloud-file-account-error-title = Lỗi tài khoản Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Không cập nhật được đính kèm Filelink { $filename } vì tài khoản Filelink của nó đã bị xóa.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label = Đây là những tập tin lớn. Có thể tốt hơn nếu sử dụng Filelink.
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification = Tập tin của bạn đang được liên kết. Nó sẽ xuất hiện trong phần nội dung thư khi hoàn tất.
 
 ## Link Preview
 

@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Send Format
+
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -35,8 +38,94 @@ pill-action-move-bcc =
     .label = Pārvietot uz Slēpta kopija
     .accesskey = S
 
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 button-return-receipt =
     .label = Ziņa
     .tooltiptext = Pieprasīt saņemšanas apliecinājuma ziņu
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [zero] Noņemt pielikumu
+            [one] Noņemt pielikumus
+           *[other] Noņemt pielikumus
+        }
+    .accesskey = N
+default-delete-cmd =
+    .label = Dzēst
+    .accesskey = D
+
+## Encryption
+
+
+## Addressing Area
+
+
+## Notifications
+
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [zero] { -brand-short-name } ir bloķējis faila ielādi šajā vēstulē. Atbloķējot failu, tas tiks iekļauts jūsu nosūtītajā vēstulē.
+        [one] { -brand-short-name } ir bloķējis dažu failu ielādi šajā vēstulē. Atbloķējot failu, tas tiks iekļauts jūsu nosūtītajā vēstulē.
+       *[other] { -brand-short-name } ir bloķējis dažu failu ielādi šajā vēstulē. Atbloķējot failu, tas tiks iekļauts jūsu nosūtītajā vēstulē.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [zero] Atrasts pielikuma atslēgvārds:
+        [one] Atrasti { $count } pielikuma atslēgvārdi:
+       *[other] Atrasti { $count } pielikuma atslēgvārdi:
+    }
+
+## Editing
+
+
+# Tools
+
+
+## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
+
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [zero] Šis ir liels fails. Tā vietā varētu būt labāk izmantot Filelink.
+            [one] Tie ir lieli faili. To vietā varētu būt labāk izmantot Filelink.
+           *[other] Tie ir lieli faili. To vietā varētu būt labāk izmantot Filelink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [zero] Jūsu fails tiek sasaistīts. Tas parādīsies vēstules pamattekstā, kad tas būs pabeigts.
+        [one] Jūsu faili tiek sasaistīti. Tie parādīsies vēstules pamattekstā, kad tas būs pabeigts.
+       *[other] Jūsu faili tiek sasaistīti. Tie parādīsies vēstules pamattekstā, kad tas būs pabeigts.
+    }
+
+## Link Preview
+
+
+## Dictionary selection popup
+

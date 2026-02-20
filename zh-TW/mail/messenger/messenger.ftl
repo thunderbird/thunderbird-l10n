@@ -148,6 +148,9 @@ menu-file-save-as-file =
     .label = 檔案…
     .accesskey = F
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs = 取得下 { $count } 封新聞群組訊息
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -662,3 +665,20 @@ ignored-subtheads-feedback =
         [one] 不顯示「{ $subject }」子討論串的回覆。
        *[other] 不顯示 { $count } 個選擇的子討論串的回覆。
     }
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count = { $count } 個附件
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = 允許來自 { $origin } 的遠端內容
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label = 允許上方列出的 { $count } 個來源的遠端內容

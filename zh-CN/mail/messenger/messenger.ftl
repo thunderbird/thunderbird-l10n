@@ -148,6 +148,9 @@ menu-file-save-as-file =
     .label = 文件…
     .accesskey = F
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs = 获取下一个 { $count } 新闻消息
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -629,3 +632,23 @@ prompt-dont-ask-again = 不再询问
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = 垃圾邮件分析已完成 { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = 正在处理垃圾邮件
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count = { $count } 个附件
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = 允许来自 { $origin } 的远程内容
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label = 允许上方列出的 { $count } 个来源的远程内容

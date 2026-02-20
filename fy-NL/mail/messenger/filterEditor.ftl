@@ -82,3 +82,14 @@ filter-editor-pick-template-reply = Kies een sjabloan om mei te antwurdzjen.
 filter-continue-execution = It tapassen fan filter { $filterName } is mislearre. Wolle jo trochgean mei it tapassen fan filters?
 filter-list-backup-message = Jo filters wurkje net om't it bestân msgFilterRules.dat, dêr’t jo filters yn steane, net lêzen wurde koe. Der sil in nije msgFilterRules.dat-bestân makke wurde en in reservekopy fan it âlde bestân, mei de namme rulesbackup.dat, wurdt yn deselde map makke.
 filter-invalid-custom-header = Ien fan jo filters brûkt in oanpaste koprigel dy’t in ûnjildich teken befettet, lykas ‘:’, in net ôf te drukken teken, in net-ascii-teken, of in 8-bits ascii-teken. Bewurkje it bestân msgFilterRules.dat, dêr’t jo filters yn steane, om ûnjildige tekens út jo oanpaste koprigels fuort te smiten.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } item
+       *[other] { $count } items
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } fan { $total }

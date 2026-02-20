@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = Kartelë…
     .accesskey = K
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Merr { $count } Mesazh Pasues Lajmesh
+       *[other] Merr { $count } Mesazhe Pasues Lajmesh
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -654,3 +661,31 @@ prompt-dont-ask-again = Mos pyet sërish.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analiza për mesazhe të padëshiruar { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } u plotësua
 spam-processing-message = Po trajtohen mesazhet e padëshiruar
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } bashkëngjitje
+       *[other] { $count } bashkëngjitje
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Lejo lëndë të largët prej { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Lejo lëndë të largët prej { $count } origjine të treguar më poshtë
+           *[other] Lejo lëndë të largët prej krejt { $count } origjinave të treguara më poshtë
+        }

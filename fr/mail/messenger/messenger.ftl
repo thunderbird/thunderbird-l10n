@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = Fichier…
     .accesskey = F
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Relever le prochain message du groupe
+       *[other] Relever les { $count } prochains messages du groupe
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -678,3 +685,28 @@ ignored-subtheads-feedback =
         [one] Les réponses au sous-fil de discussion « { $subject } » ne seront pas affichées.
        *[other] Les réponses aux { $count } sous-fils de discussion qui étaient sélectionnés ne seront pas affichées.
     }
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } pièce jointe
+       *[other] { $count } pièces jointes
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Autoriser le contenu distant depuis { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Autoriser le contenu distant depuis la source listée ci-dessus
+           *[other] Autoriser le contenu distant depuis les { $count } sources listées ci-dessus
+        }

@@ -147,6 +147,19 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Confirmare de primire
     .tooltiptext = Solicită confirmare de primire pentru acest mesaj
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Elimină atașamentul
+            [few] Elimină atașamentele
+           *[other] Elimină atașamentele
+        }
+    .accesskey = m
+default-delete-cmd =
+    .label = Șterge
+    .accesskey = g
 
 ## Encryption
 
@@ -310,6 +323,22 @@ compose-missing-identity-warning = Nu a fost găsită o identitate unică care s
 encrypted-bcc-warning = Când se trimite un mesaj criptat, destinatarii din Bcc nu sunt complet ascunși. Este posibil ca toți destinatarii să îi poată identifica.
 encrypted-bcc-ignore-button = Am înțeles
 auto-disable-e2ee-warning = Criptarea end-to-end pentru acest mesaj a fost dezactivată automat.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } a blocat încărcarea unui fișier în mesaj. Deblocarea fișierului îl va include în mesajul trimis.
+        [few] { -brand-short-name } a blocat încărcarea unor fișiere în mesaj. Deblocarea fișierelor le va include în mesajul trimis.
+       *[other] { -brand-short-name } a blocat încărcarea unor fișiere în mesaj. Deblocarea fișierelor le va include în mesajul trimis.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] S-a găsit un cuvânt cheie pentru atașament:
+        [few] S-au găsit { $count } cuvinte cheie pentru atașamente:
+       *[other] S-au găsit { $count } de cuvinte cheie pentru atașamente:
+    }
 
 ## Editing
 
@@ -406,6 +435,23 @@ cloud-file-account-error-title = Eroare cont Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Atașamentul Filelink { $filename } nu a putut fi actualizat, deoarece contul Filelink aferent a fost șters.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Acesta este un fișier mare. Ar putea fi mai bine să folosești în schimb Filelink.
+            [few] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
+           *[other] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Fișierul este adăugat cu link. Va apărea în conținutul mesajului când este gata.
+        [few] Fișierele sunt adăugate cu linkuri. Vor apărea în conținutul mesajului când sunt gata.
+       *[other] Fișierele sunt adăugate cu linkuri. Vor apărea în conținutul mesajului când sunt gata.
+    }
 
 ## Link Preview
 

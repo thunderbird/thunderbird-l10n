@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = Arkiv…
     .accesskey = A
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Hämta { $count } nytt inlägg
+       *[other] Hämta { $count } nya inlägg
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -655,3 +662,31 @@ prompt-dont-ask-again = Fråga inte igen.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Skräppostanalys { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } slutförd
 spam-processing-message = Bearbetar skräppostmeddelanden
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } bilaga
+       *[other] { $count } bilagor
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Tillåt fjärrinnehåll från { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Tillåt innehåll från ursprung { $count } som anges ovan
+           *[other] Tillåt fjärrinnehåll från alla ursprung { $count } som anges ovan
+        }

@@ -131,6 +131,14 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = การแจ้งเตือน
     .tooltiptext = จำเป็นต้องมีการแจ้งเตือนการเปิดอ่านสำหรับข้อความนี้
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label = เอาไฟล์แนบออก
+    .accesskey = อ
+default-delete-cmd =
+    .label = ลบ
+    .accesskey = บ
 
 ## Encryption
 
@@ -280,6 +288,12 @@ compose-missing-identity-warning = ไม่พบข้อมูลประจ
 encrypted-bcc-warning = เมื่อส่งข้อความที่เข้ารหัสลับ ผู้รับในช่อง "สำเนาลับถึง" จะไม่ถูกซ่อนโดยสมบูรณ์ ผู้รับทั้งหมดอาจจะยังสามารถระบุตัวตนของผู้รับเหล่านั้นได้
 encrypted-bcc-ignore-button = เข้าใจแล้ว
 auto-disable-e2ee-warning = การเข้ารหัสลับต้นทางถึงปลายทางสำหรับข้อความนี้ถูกปิดใช้งานโดยอัตโนมัติ
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message = { -brand-short-name } ได้ปิดกั้นบางไฟล์ไม่ให้โหลดไปยังข้อความนี้ การเลิกปิดกั้นไฟล์จะรวมไฟล์ดังกล่าวในข้อความที่ส่งแล้วของคุณ
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg = พบ { $count } คำสำคัญไฟล์แนบ:
 
 ## Editing
 
@@ -371,6 +385,13 @@ cloud-file-account-error-title = บัญชี Filelink ผิดพลาด
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = ไม่สามารถอัปเดตไฟล์แนบ Filelink { $filename } ได้ เนื่องจากบัญชี Filelink สำหรับไฟล์นั้นถูกลบไปแล้ว
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label = ไฟล์เหล่านี้มีขนาดใหญ่ จะดีกว่าหากใช้ Filelink แทน
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification = ไฟล์ของคุณกำลังถูกเชื่อมโยง ซึ่งจะปรากฏในเนื้อความของข้อความเมื่อเสร็จสมบูรณ์
 
 ## Link Preview
 

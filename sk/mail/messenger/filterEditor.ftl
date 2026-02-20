@@ -83,3 +83,15 @@ filter-editor-pick-template-reply = Vyberte šablónu, pomocou ktorej chcete odp
 filter-continue-execution = Použitie filtra { $filterName } zlyhalo. Chcete pokračovať vo filtrovaní?
 filter-list-backup-message = Vaše filtre nefungujú, pretože súbor msgFilterRules.dat, ktorý obsahuje vaše filtre, sa nepodarilo prečítať. Vytvorí sa nový súbor msgFilterRules.dat a v rovnakom priečinku sa vytvorí záloha starého súboru s názvom rulesbackup.dat.
 filter-invalid-custom-header = Jeden z vašich filtrov používa vlastnú hlavičku, ktorá obsahuje neplatný znak, ako napríklad ":", netlačiteľný znak, nie-ascii alebo osembitový ascii znak. Upravte súbor msgFilterRules.dat, ktorý obsahuje vaše filtre tak, aby ste odstránili neplatné znaky z hlavičiek.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } filter
+        [few] { $count } filtre
+       *[other] { $count } filtrov
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } z { $total }

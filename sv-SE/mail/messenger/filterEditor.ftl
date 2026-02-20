@@ -82,3 +82,14 @@ filter-editor-pick-template-reply = Välj en mall för svaret.
 filter-continue-execution = Användningen av filtret { $filterName } misslyckades. Vill du fortsätta tillämpa filter?
 filter-list-backup-message = Dina filter fungerar inte eftersom filen msgFilterRules.dat, som innehåller dina filter, inte kunde läsas. En ny msgFilterRules.dat-fil kommer att skapas och en säkerhetskopia av den gamla filen, kallad rulesbackup.dat, kommer att skapas i samma katalog.
 filter-invalid-custom-header = Ett av dina filter använder ett anpassat huvud som innehåller ett ogiltigt tecken, till exempel ”:”, ett icke-utskrivbart tecken, ett icke-ascii-tecken eller ett åtta-bitars ascii-tecken. Redigera filen msgFilterRules.dat, som innehåller dina filter, för att ta bort ogiltiga tecken från dina anpassade rubriker.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } objekt
+       *[other] { $count } objekt
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } av { $total }

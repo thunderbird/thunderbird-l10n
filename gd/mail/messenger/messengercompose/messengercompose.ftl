@@ -152,6 +152,20 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Cuidhteas
     .tooltiptext = Iarr cuidhteas tillidh airson na teachdaireachd seo
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Thoir air falbh an ceanglachan
+            [two] Thoir air falbh an dà cheanglachan
+            [few] Thoir air falbh na ceanglachain
+           *[other] Thoir air falbh na ceanglachain
+        }
+    .accesskey = T
+default-delete-cmd =
+    .label = Sguab às
+    .accesskey = S
 
 ## Encryption
 
@@ -320,6 +334,24 @@ compose-missing-identity-warning = Cha deach eintiteas àraidh a lorg a fhreagra
 encrypted-bcc-warning = Ma chuireas tu teachdaireachd crioptaichte, cha bhi na faightearan ann am Bcc am falach buileach agus b’ urrainn gum faic an còrr dhe na faightearan iad.
 encrypted-bcc-ignore-button = Tha mi a’ tuigsinn
 auto-disable-e2ee-warning = Chaidh an crioptachadh ceann ri ceann aig an teachdaireachd seo a chur à comas gu fèin-obrachail.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] Bhac { -brand-short-name } luchdadh de dh’fhaidhle dhan teachdaireachd seo. Ma bheir thu am bacadh air falbh, thèid a ghabhail a-staigh san teachdaireachd nuair a chuireas tu e.
+        [two] Bhac { -brand-short-name } luchdadh de dh’fhaidhlichean dhan teachdaireachd seo. Ma bheir thu am bacadh air falbh, thèid a ghabhail a-staigh san teachdaireachd nuair a chuireas tu e.
+        [few] Bhac { -brand-short-name } luchdadh de dh’fhaidhlichean dhan teachdaireachd seo. Ma bheir thu am bacadh air falbh, thèid a ghabhail a-staigh san teachdaireachd nuair a chuireas tu e.
+       *[other] Bhac { -brand-short-name } luchdadh de dh’fhaidhlichean dhan teachdaireachd seo. Ma bheir thu am bacadh air falbh, thèid a ghabhail a-staigh san teachdaireachd nuair a chuireas tu e.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Chaidh facal a lorg a tha a' cur 'nar sùilean gu bheil dùil agad ceanglachan a chur ris:
+        [two] Chaidh { $count } fhacal a lorg a tha a' cur 'nar sùilean gu bheil dùil agad ceanglachan a chur ris:
+        [few] Chaidh { $count } faclan a lorg a tha a' cur 'nar sùilean gu bheil dùil agad ceanglachan a chur ris:
+       *[other] Chaidh { $count } facal a lorg a tha a' cur 'nar sùilean gu bheil dùil agad ceanglachan a chur ris:
+    }
 
 ## Editing
 
@@ -417,6 +449,24 @@ cloud-file-account-error-title = Mearachd le cunntas FileLink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Cha b’ urrainn dhuinn an ceanglachan FileLink { $filename } ùrachadh a chionn ’s gun deach an cunntas FileLink aige a sguabadh às.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] ’S e faidhle mòr a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
+            [two] ’S e faidhlichean mòra a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
+            [few] ’S e faidhle mòr a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
+           *[other] ’S e faidhlichean mòra a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Tha am faidhle agad 'ga cheangal an-dràsta fhèin. Nochdaidh e ann am bodhaig na teachdaireachd nuair a bhios e deiseil.
+        [two] Tha na faidhlichean agad 'ga cheangal an-dràsta fhèin. Nochdaidh iad ann am bodhaig na teachdaireachd nuair a bhios iad deiseil.
+       *[other] Tha na faidhlichean agad 'ga cheangal an-dràsta fhèin. Nochdaidh iad ann am bodhaig na teachdaireachd nuair a bhios iad deiseil.
+    }
 
 ## Link Preview
 

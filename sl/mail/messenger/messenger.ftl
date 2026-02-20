@@ -163,6 +163,15 @@ menu-file-save-as-file =
     .label = Datoteko …
     .accesskey = D
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Prejmi naslednje novo sporočilo
+        [two] Prejmi naslednji { $count } novi sporočili
+        [few] Prejmi naslednje { $count } nova sporočila
+       *[other] Prejmi naslednjih { $count } novih sporočil
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -568,6 +577,9 @@ openpgp-forget = Pozabi gesla za OpenPGP
 quota-panel-percent-used = { $percent }-% zasedeno
     .title = Kvota IMAP: zasedeno { $usage } od skupno { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 menu-mark-as-spam =
@@ -589,6 +601,9 @@ menu-delete-spam =
 folder-context-empty-spam =
     .label = Izprazni neželeno pošto
     .accesskey = I
+
+## Thread pane.
+
 
 ## Message header.
 
@@ -650,3 +665,35 @@ prompt-dont-ask-again = Ne sprašuj več.
 ## Spam commands
 
 spam-processing-message = Obdelovanje neželene pošte
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } priponka
+        [two] { $count } priponki
+        [few] { $count } priponke
+       *[other] { $count } priponk
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Dovoli oddaljeno vsebino od { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Dovoli oddaljeno vsebino zgoraj navedenega vira
+            [two] Dovoli oddaljeno vsebino zgoraj navedenih { $count } virov
+            [few] Dovoli oddaljeno vsebino zgoraj navedenih { $count } virov
+           *[other] Dovoli oddaljeno vsebino zgoraj navedenih { $count } virov
+        }

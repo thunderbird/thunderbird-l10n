@@ -160,6 +160,14 @@ menu-file-save-as-file =
     .label = Plik…
     .accesskey = P
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Pobierz następną wiadomość
+        [few] Pobierz następne { $count } wiadomości
+       *[many] Pobierz następne { $count } wiadomości
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -683,3 +691,30 @@ ignored-subtheads-feedback =
         [few] Odpowiedzi w { $count } zaznaczonych podwątkach nie będą wyświetlane.
        *[many] Odpowiedzi w { $count } zaznaczonych podwątkach nie będą wyświetlane.
     }
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } załącznik
+        [few] { $count } załączniki
+       *[many] { $count } załączników
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Zezwalaj na zdalną zawartość z { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Zezwalaj na zdalną zawartość z { $count } źródła wymienionego powyżej
+            [few] Zezwalaj na zdalną zawartość z { $count } źródeł wymienionych powyżej
+           *[many] Zezwalaj na zdalną zawartość z { $count } źródeł wymienionych powyżej
+        }

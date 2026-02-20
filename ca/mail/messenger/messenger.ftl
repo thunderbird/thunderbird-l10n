@@ -145,11 +145,21 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Visualització compacta
     .accesskey = c
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
     .label = Fitxer…
     .accesskey = F
+# Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Recupera el següent missatge dels grups de discussió
+       *[other] Recupera els següents { $count } missatges dels grups de discussió
+    }
 
 ## Edit Menu
 
@@ -501,12 +511,27 @@ openpgp-forget = Oblida les frases de contrasenya de l'OpenPGP
 quota-panel-percent-used = { $percent }% ple
     .title = Quota d'IMAP: { $usage } en ús d'un total de { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -540,3 +565,37 @@ message-group-starred = Destacats
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = i altres
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } adjunció
+       *[other] { $count } adjuncions
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Permet el contingut remot de { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Permet el contingut remot d'{ $count } origen de la llista anterior
+           *[other] Permet el contingut remot dels { $count } orígens de la llista anterior
+        }

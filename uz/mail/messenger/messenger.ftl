@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Window controls
+
+
 ## Content tabs
 
 
@@ -34,11 +37,30 @@ open-tabs-warning-confirmation =
        *[other] { $count } ta xabarni ochish juda sekin amalga oshishi mumkin. Davom etasizmi?
     }
 
+## Toolbar
+
+
+## Folder Pane
+
+
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Teglar
     .accesskey = T
+
+## Folder names
+
+
+## File Menu
+
+# Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Keyingi { $count } yangilik xabarini olish
+       *[other] Keyingi { $count } yangilik xabarini olish
+    }
 
 ## Edit Menu
 
@@ -73,6 +95,9 @@ menu-edit-newsgroup-properties =
     .label = Yangiliklar to‘plami xossalari
     .accesskey = o
 
+## Message Menu
+
+
 ## Shared Menu Items
 
 menu-move-again =
@@ -98,17 +123,44 @@ menu-copy-to =
     .label = Nusxa olish
     .accesskey = N
 
+## AppMenu
+
+
 ## Context menu
 
 mail-context-menu-forward-forward =
     .label = Uzatish
     .accesskey = U
 
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
 ## Add-on removal warning
 
 repair-text-encoding-button =
     .label = Matn shifrini tuzatish
     .tooltiptext = Sahifa tarkibidan toʻgʻri matn shifrini taxmin qiling
+
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
 
 ## Quick Filter Bar
 
@@ -122,12 +174,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -157,3 +230,37 @@ message-group-no-attachments = Biriktirmalar yo‘q
 message-group-attachments = Biriktirmalar
 message-group-not-starred = Yulduz qo‘yilmagan
 message-group-starred = Yulduz qo‘yilgan
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } biriktirma
+       *[other] { $count } biriktirma
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = { $origin }dagi masofadagi tarkibga ruxsat berish
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Yuqorida ro‘yxati keltirilgan { $count } ta masofadagi tarkibga ruxsat berilsin
+           *[other] Yuqorida ro‘yxati keltirilgan { $count } ta masofadagi tarkibga ruxsat berilsin
+        }

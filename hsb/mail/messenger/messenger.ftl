@@ -163,6 +163,15 @@ menu-file-save-as-file =
     .label = Dataja…
     .accesskey = D
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Dalšu { $count } diskusijnu powěsć wobstarać
+        [two] Dalšej { $count } diskusijnej powěsći wobstarać
+        [few] Dalše { $count } diskusijne powěsće wobstarać
+       *[other] Dalšich { $count } diskusijnych powěsćow wobstarać
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -701,3 +710,32 @@ ignored-subtheads-feedback =
         [few] Wotmołwy na { $count } podnitki so njepokazaja.
        *[other] Wotmołwy na { $count } podnitkow so njepokazaja.
     }
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } přiwěsk
+        [two] { $count } přiwěškaj
+        [few] { $count } přiwěški
+       *[other] { $count } přiwěškow
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Zdaleny wobsah z { $origin } dowolić
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Zdaleny wobsah horjeka naspomnjeneho pochada { $count } zmóžnić
+            [two] Zdaleny wobsah horjeka naspomnjeneju pochadow { $count } zmóžnić
+            [few] Zdaleny wobsah horjeka naspomnjenych pochadow { $count } zmóžnić
+           *[other] Zdaleny wobsah horjeka naspomnjenych pochadow { $count } zmóžnić
+        }

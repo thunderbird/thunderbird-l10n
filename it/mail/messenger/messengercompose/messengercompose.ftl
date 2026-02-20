@@ -141,6 +141,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Ricevuta
     .tooltiptext = Richiedi una ricevuta di ritorno per questo messaggio
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Elimina l’allegato
+           *[other] Elimina gli allegati
+        }
+    .accesskey = m
+default-delete-cmd =
+    .label = Elimina
+    .accesskey = E
 
 ## Encryption
 
@@ -302,6 +314,20 @@ compose-missing-identity-warning = Non è stata trovata un’identità univoca c
 encrypted-bcc-warning = Quando si invia un messaggio crittato, i destinatari in Ccn non sono completamente nascosti. Tutti i destinatari possono essere in grado di identificarli.
 encrypted-bcc-ignore-button = Ho capito
 auto-disable-e2ee-warning = La crittografia end-to-end per questo messaggio è stata disattivata automaticamente.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } ha bloccato un file in modo che non sia caricato in questo messaggio. Sbloccare il file farà si che sia incluso nel messaggio inviato.
+       *[other] { -brand-short-name } ha bloccato alcuni file in modo che non siano caricati in questo messaggio. Sbloccare un file farà si che sia incluso nel messaggio inviato.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] È stata trovata una parola chiave promemoria allegati:
+       *[other] Sono state trovate { $count } parole chiave promemoria allegati:
+    }
 
 ## Editing
 
@@ -397,6 +423,21 @@ cloud-file-account-error-title = Errore con l’account Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Non è stato possibile aggiornare l’allegato Filelink { $filename } in quanto il relativo account Filelink è stato eliminato.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Questo file è di grandi dimensioni. Potrebbe essere meglio utilizzare Filelink
+           *[other] Questi file sono di grandi dimensioni. Potrebbe essere meglio utilizzare Filelink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Viene creato un link al file. Il link apparirà nel corpo del messaggio.
+       *[other] Vengono creati dei link ai file. I link appariranno nel corpo del messaggio.
+    }
 
 ## Link Preview
 

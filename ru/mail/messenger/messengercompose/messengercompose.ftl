@@ -146,6 +146,19 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Уведомление о прочтении
     .tooltiptext = Запросить уведомление о прочтении этого сообщения
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Удалить вложение
+            [few] Удалить вложения
+           *[many] Удалить вложения
+        }
+    .accesskey = л
+default-delete-cmd =
+    .label = Удалить
+    .accesskey = У
 
 ## Encryption
 
@@ -311,6 +324,22 @@ compose-missing-identity-warning = Адрес электронной почты,
 encrypted-bcc-warning = При отправке зашифрованного сообщения получатели в поле «Скрытая копия» скрыты не полностью. Их могут идентифицировать все получатели.
 encrypted-bcc-ignore-button = Понятно
 auto-disable-e2ee-warning = Сквозное шифрование для этого сообщения было автоматически отключено.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } заблокировал загрузку в это сообщение файла. Разблокирование файла включит его в отправленное вами сообщение.
+        [few] { -brand-short-name } заблокировал загрузку в это сообщение нескольких файлов. Разблокирование какого-либо файла включит его в отправленное вами сообщение.
+       *[many] { -brand-short-name } заблокировал загрузку в это сообщение нескольких файлов. Разблокирование какого-либо файла включит его в отправленное вами сообщение.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Найдено { $count } ключевое слово вложения:
+        [few] Найдено { $count } ключевых слова вложения:
+       *[many] Найдено { $count } ключевых слов вложения:
+    }
 
 ## Editing
 
@@ -407,6 +436,23 @@ cloud-file-account-error-title = Ошибка учётной записи Fileli
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Не удалось обновить вложение Filelink { $filename }, так как его учётная запись Filelink была удалена.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Это большой файл. Возможно, будет лучше использовать Filelink.
+            [few] Это большие файлы. Возможно, будет лучше использовать Filelink.
+           *[many] Это большие файлы. Возможно, будет лучше использовать Filelink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Идёт процесс создания ссылки на ваш файл. Она появится в теле сообщения по завершении процесса.
+        [few] Идёт процесс создания ссылок на ваши файлы. Они появятся в теле сообщения по завершении процесса.
+       *[many] Идёт процесс создания ссылок на ваши файлы. Они появятся в теле сообщения по завершении процесса.
+    }
 
 ## Link Preview
 

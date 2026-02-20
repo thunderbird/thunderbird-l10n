@@ -94,6 +94,14 @@ folder-name-spam = Непожељно
 menu-file-save-as-file =
     .label = Датотека…
     .accesskey = Д
+# Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Добави { $count } следећу новинску поруку
+        [few] Добави { $count } следећих новинских порука
+       *[other] Добави { $count } следећих новинских порука
+    }
 
 ## Edit Menu
 
@@ -298,6 +306,9 @@ repair-text-encoding-button =
 no-reply-title = Одговор није подржан
 no-reply-reply-anyway-button = Ипак одговори
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-button-mail2 =
@@ -362,12 +373,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -401,3 +433,39 @@ message-group-starred = Са звездицом
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = и др.
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } прилог
+        [few] { $count } прилога
+       *[other] { $count } прилога
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Дозволи удаљени садржај са { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Дозволи удаљени садржај са { $count } места излистаног изнад
+            [few] Дозволи удаљени садржај са { $count } места излистана изнад
+           *[other] Дозволи удаљени садржај са { $count } места излистаних изнад
+        }

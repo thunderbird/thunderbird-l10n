@@ -152,6 +152,20 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Kwitowanka
     .tooltiptext = Kwitowanku za tutu powěsć požadać
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Přiwěšk wotstronić
+            [two] Přiwěškaj wotstronić
+            [few] Přiwěški wotstronić
+           *[other] Přiwěški wotstronić
+        }
+    .accesskey = w
+default-delete-cmd =
+    .label = Wotstronić
+    .accesskey = r
 
 ## Encryption
 
@@ -321,6 +335,24 @@ compose-missing-identity-warning = Jónkróćna identita, kotraž adresy wotpós
 encrypted-bcc-warning = Při słanju zaklučowaneje powěsće, přijimarjo schowaneje kopije połnje schowani njejsu. Wšitcy přijimarjo móža jich identifikować.
 encrypted-bcc-ignore-button = Sym zrozumił
 auto-disable-e2ee-warning = Zaklučowanje kónc do kónca je so za tutu powěsć awtomatisce znjemóžniło.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } je zadźěwał, zo so dataja do tuteje powěsće začita. Hdyž wjace njeblokujeće, budźe so dataja do wašeje pósłaneje powěsće zapřijimać.
+        [two] { -brand-short-name } je zadźěwał, zo so dataji do tuteje powěsće začitatej. Hdyž wjace njeblokujeće, budźetej so dataji do wašeje pósłaneje powěsće zapřijimać.
+        [few] { -brand-short-name } je zadźěwał, zo so dataje do tuteje powěsće začitaja. Hdyž wjace njeblokujeće, budu so dataje do wašeje pósłaneje powěsće zapřijimać.
+       *[other] { -brand-short-name } je zadźěwał, zo so dataje do tuteje powěsće začitaja. Hdyž wjace njeblokujeće, budu so dataje do wašeje pósłaneje powěsće zapřijimać.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Přiwěškowe hesło namakane:
+        [two] { $count } přiwěškowej hesle namakanej:
+        [few] { $count } přiwěškowe hesła namakane:
+       *[other] { $count } přiwěškowych hesłow namakanych:
+    }
 
 ## Editing
 
@@ -418,6 +450,25 @@ cloud-file-account-error-title = Kontowy zmylk Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Přiwěšk { $filename } Filelink njeda so aktualizować, dokelž jeho lokalna dataja je so zhašała.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] To je wulka dataja. Snano je lěpje, město toho Filelink wužiwać.
+            [two] To stej wulkej dataji. Snano je lěpje, město toho Filelink wužiwać
+            [few] To su wulke dataje. Snano je lěpje, město toho Filelink wužiwać
+           *[other] To su wulke dataje. Snano je lěpje, město toho Filelink wužiwać.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Waša dataja so wotkazuje. Budźe so w ćělesu powěsće jewić, hdyž to je zakónčene.
+        [two] Wašej dataji so wotkazujetej. Budźetej so w ćělesu powěsće jewić, hdyž to je zakónčene.
+        [few] Waše dataje so wotkazuja. Budu so w ćělesu powěsće jewić, hdyž to je zakónčene.
+       *[other] Waše dataje so wotkazuja. Budu so w ćělesu powěsće jewić, hdyž to je zakónčene.
+    }
 
 ## Link Preview
 

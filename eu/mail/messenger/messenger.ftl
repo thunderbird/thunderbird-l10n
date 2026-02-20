@@ -145,11 +145,21 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ikuspegi trinkoa
     .accesskey = t
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
     .label = Fitxategia…
     .accesskey = F
+# Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Eskuratu hurrengo berri-mezua
+       *[other] Eskuratu hurrengo { $count } berri-mezu
+    }
 
 ## Edit Menu
 
@@ -520,12 +530,24 @@ openpgp-forget = Ahaztu OpenPGP pasa-esdaldiak
 quota-panel-percent-used = { $percent }% full
     .title = IMAP kuota: { $usage } erabilia { $limit } guztirako limitetik
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -571,3 +593,34 @@ and-others = eta beste
 ## Prompts
 
 prompt-dont-ask-again = Ez galdetu berriz.
+
+## Spam commands
+
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] eranskin bat
+       *[other] { $count } eranskin
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Baimendu { $origin }ko urruneko edukia
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Baimendu urruneko edukia goian zerrendatutako { $count } jatorritik
+           *[other] Baimendu urruneko edukiak goian zerrendatutako { $count } jatorrietatik
+        }

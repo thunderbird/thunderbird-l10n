@@ -147,6 +147,19 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Потврда
     .tooltiptext = Враћа потврду о пријему ове поруке
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Уклони прилог
+            [few] Уклони прилоге
+           *[other] Уклони прилоге
+        }
+    .accesskey = к
+default-delete-cmd =
+    .label = Обриши
+    .accesskey = б
 
 ## Encryption
 
@@ -266,6 +279,22 @@ many-public-recipients-prompt-send = Ипак пошаљи
 compose-missing-identity-warning = Није пронађен ниједан јединствени идентитет који одговара адреси пошиљаоца. Порука ће бити послана са подешавањима поља Од и идентитета { $identity }.
 encrypted-bcc-warning = Слање шифроване поруке не сакрива у потпуности примаоце у сКоп. Сви примаоци могу да их идентификују.
 encrypted-bcc-ignore-button = Разумем
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } је блокирао учитавање датотеке у ову поруку. Деблокирање датотеке ће је укључити у поруку коју шаљете.
+        [few] { -brand-short-name } је блокирао учитавање неких датотека у ову поруку. Деблокирање тих датотеке ће их укључити у поруку коју шаљете.
+       *[other] { -brand-short-name } је блокирао учитавање неких датотека у ову поруку. Деблокирање тих датотеке ће их укључити у поруку коју шаљете.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Нашао кључну реч за качење прилога:
+        [few] Нашао { $count } кључне речи за качење прилога:
+       *[other] Нашао { $count } кључних речи за качење прилога:
+    }
 
 ## Editing
 
@@ -351,6 +380,23 @@ cloud-file-account-error-title = Грешка Filelink налога
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Ажурирање Filelink прилога { $filename } није успело зато што је Filelink налог избрисан.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Ово је велика датотека. Можда је боље да искористите Filelink за слање.
+            [few] Ово су велике датотеке. Можда је боље да искористите Filelink за слање.
+           *[other] Ово су велике датотеке. Можда је боље да искористите Filelink за слање.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Ваша датотека се отпрема на FileLink. Појавиће се у телу поруке када се отпремање заврши.
+        [few] Ваше датотеке се отпремају на FileLink. Појавиће се у телу поруке када се отпремање заврши.
+       *[other] Ваше датотеке се отпремају на FileLink. Појавиће се у телу поруке када се отпремање заврши.
+    }
 
 ## Link Preview
 

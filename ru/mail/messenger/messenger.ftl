@@ -160,6 +160,14 @@ menu-file-save-as-file =
     .label = Файл…
     .accesskey = а
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Получить следующее { $count } новостное сообщение
+        [few] Получить следующие { $count } новостных сообщения
+       *[many] Получить следующие { $count } новостных сообщений
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -690,3 +698,30 @@ ignored-subtheads-feedback =
         [few] Ответы в { $count } выбранных ветках обсуждений показаны не будут.
        *[many] Ответы в { $count } выбранных ветках обсуждений показаны не будут.
     }
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } вложение
+        [few] { $count } вложения
+       *[many] { $count } вложений
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Разрешить содержимое из Интернета с { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Разрешить содержимое из Интернета с { $count } перечисленного выше источника
+            [few] Разрешить содержимое из Интернета с { $count } перечисленных выше источников
+           *[many] Разрешить содержимое из Интернета с { $count } перечисленных выше источников
+        }

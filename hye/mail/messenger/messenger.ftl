@@ -107,11 +107,17 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ամփոփ տեսք
     .accesskey = Ա
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
     .label = Նիշ…
     .accesskey = Ն
+# Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs = Ստանալ յաջորդ { $count } նորութիւնների հաղորդագրութիւնը։ Ստանալ յաջորդ { $count }  նորութիւնների հաղորդագրութիւնը
 
 ## Edit Menu
 
@@ -254,6 +260,9 @@ no-reply-title = Պատասխանը չի աջակցուում
 no-reply-message = Պատասխանի հասցէն ({ $email }) կարծէս վերահսկուող հասցէ չէ: Այս հասցէին ուղղուած հաղորդագրութիւնները հաւանաբար ոչ ոք չի կարդայ:
 no-reply-reply-anyway-button = Պատասխանել ամէն դէպքում
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -338,12 +347,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = թ
 mark-not-junk-key =
     .key = փ
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -377,3 +407,33 @@ message-group-starred = Աստղանշուած
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = եւ այղոք
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } կցորդ
+       *[other] { $count } կցորդներ
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Թոյլատրել հեռակայ բովանդակութիւնը { $origin }֊ից
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label = Թոյղատրել հեռակայ բովանդակութիւնը { $count } սկզբնականից։ Թոյղատրել հեռակայ բովանդակութիւնը { $count } սկզբնականներից

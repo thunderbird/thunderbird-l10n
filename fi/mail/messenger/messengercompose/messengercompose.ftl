@@ -138,6 +138,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Vastaanottokuittaus
     .tooltiptext = Pyydä tämän viestin vastaanottokuittausta
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Poista liitetiedosto
+           *[other] Poista liitetiedostot
+        }
+    .accesskey = l
+default-delete-cmd =
+    .label = Poista
+    .accesskey = o
 
 ## Encryption
 
@@ -266,6 +278,20 @@ many-public-recipients-prompt-send = Lähetä silti
 compose-missing-identity-warning = Lähettäjä-osoitetta vastaavaa yksilöllistä identiteettiä ei löytynyt. Viesti lähetetään käyttämällä nykyistä lähettäjä-kenttää ja identiteetin { $identity } asetuksia.
 encrypted-bcc-warning = Kun lähetät salattua viestiä, piilokopion vastaanottajat eivät ole täysin piilossa. Kaikki vastaanottajat voivat tunnistaa ne.
 encrypted-bcc-ignore-button = Ymmärretty
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } on estänyt tähän viestiin liitetyn tiedoston lataamisen. Eston poistaminen sisällyttää tiedoston lähetettyyn viestiisi.
+       *[other] { -brand-short-name } on estänyt joidenkin tähän viestiin liitettyjen tiedostojen lataamisen. Eston poistaminen sisällyttää tiedostot lähetettyyn viestiisi.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Löydettiin liitetiedosto-avainsana:
+       *[other] Löydettiin { $count } liitetiedosto-avainsanaa:
+    }
 
 ## Editing
 
@@ -361,6 +387,21 @@ cloud-file-account-error-title = Filelink-tilivirhe
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink-liitteen { $filename } päivittäminen epäonnistui, koska sen Filelink-tili on poistettu.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Tämä on suuri tiedosto. Olisi ehkä parempi käyttää Filelink-palvelua.
+           *[other] Nämä ovat suuria tiedostoja. Olisi ehkä parempi käyttää Filelink-palvelua.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Tiedostoasi linkitetään. Linkki ilmestyy viestin runkoon kun linkitys on valmis.
+       *[other] Tiedostojasi linkitetään. Linkit ilmestyvät viestin runkoon kun linkitykset ovat valmiita.
+    }
 
 ## Link Preview
 

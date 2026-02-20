@@ -66,3 +66,14 @@ filter-editor-pick-template-reply = Vali vastamiseks kasutatav mall.
 filter-continue-execution = Filtri { $filterName } rakendamine nurjus. Kas soovid jätkata filtrite rakendamist?
 filter-list-backup-message = Sinu filtrid ei tööta, sest neid sisaldavat faili msgFilterRules.dat pole võimalik lugeda. Luuakse uus fail msgFilterRules.dat ja vana faili varukoopia salvestatakse nimega rulesbackup.dat samasse kausta.
 filter-invalid-custom-header = Üks sinu filter kasutab kohandatud päist, mis sisaldab keelatud märki nagu ‘:’, mitteprinditavat märki, ASCII-välist märki või kaheksabitist ASCII märki. Palun redigeeri faili msgFilterRules.dat, mis sisaldab sinu filtreid, ja eemalda kohandatud päistest keelatud märgid.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } objekt
+       *[other] { $count } objekti
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } (kokku { $total })

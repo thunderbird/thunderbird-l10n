@@ -46,3 +46,14 @@ filter-editor-pick-template-reply = בחר תבנית כדי להשיב
 filter-continue-execution = הפעלת המסנן { $filterName } נכשלה. האם ברצונך להמשיך ליישם את המסננים?
 filter-list-backup-message = המסננים שלך אינם פועלים משום שלא ניתן לקרוא את הקובץ msgFilterRules.dat, המכיל את המסננים שלך. קובץ msgFilterRules.dat חדש יווצר, וגיבוי של הקובץ המקורי, שיקרא rulesbackup.dat, יווצר באותה ספרייה.
 filter-invalid-custom-header = אחד מן המסננים שלך משתמש בכותרת מותאמת אישית, המכילה תו לא חוקי, כגון ‘:’, תו שאינו ניתן להדפסה, תו שאינו תו ASCII, או תו ASCII בן שמונה סיביות. נא לערוך את הקובץ msgFilterRules.dat, המכיל את המסננים שלך, כדי להסיר תווים בלתי חוקיים מן הכותרות המותאמות אישית שלך.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] פריט אחד
+       *[other] { $count } פריטים
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } מתוך { $total }

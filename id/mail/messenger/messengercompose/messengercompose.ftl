@@ -130,6 +130,14 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Tanda Terima
     .tooltiptext = Minta tanda terima untuk pesan ini
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label = Buang Lampiran
+    .accesskey = H
+default-delete-cmd =
+    .label = Hapus
+    .accesskey = H
 
 ## Encryption
 
@@ -275,6 +283,12 @@ compose-missing-identity-warning = Identitas unik yang cocok dengan alamat Dari 
 encrypted-bcc-warning = Saat mengirim pesan terenkripsi, penerima di Bcc tidak sepenuhnya disembunyikan. Semua penerima mungkin dapat mengidentifikasi mereka.
 encrypted-bcc-ignore-button = Dipahami
 auto-disable-e2ee-warning = Enkripsi ujung-ke-ujung untuk pesan ini secara otomatis dinonaktifkan.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message = { -brand-short-name } telah memblokir beberapa berkas untuk dimuat ke dalam pesan ini. Membuka blokir berkas akan memasukkannya dalam pesan terkirim Anda.
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg = Ditemukan { $count } kata kunci tentang lampiran:
 
 ## Editing
 
@@ -366,6 +380,13 @@ cloud-file-account-error-title = Kesalahan Akun Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Gagal memperbarui lampiran Filelink { $filename }, karena akun Filelink-nya telah dihapus.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label = Berkas ini berukuran besar. Mungkin lebih baik menggunakan Filelink.
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification = File Anda sedang ditautkan. Ini akan muncul di badan pesan ketika selesai.
 
 ## Link Preview
 

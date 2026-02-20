@@ -44,3 +44,10 @@ filter-editor-pick-template-reply = Pilih templat untuk membuat balasan.
 filter-continue-execution = Gagal melaksanakan tapisan { $filterName }. Adakah anda mahu terus melaksanakan tapisan?
 filter-list-backup-message = Penapis tidak berfungsi kerana fail msgFilterRules.dat, tidak boleh dibaca. Fail msgFilterRules.dat baru akan dicipta dan sandaran fail lama, yang dipanggil rulesbackup.dat, akan dicipta dalam direktori yang sama.
 filter-invalid-custom-header = Salah satu penapis menggunakan pengepala tersuai yang mengandungi aksara tidak sah, seperti ‘:’, aksara tidak boleh-dicetak, aksara bukan ascii atau aksara ascii lapan-bit. Sila edit fail msgFilterRules.dat yang mengandungi penapis anda supaya menghapuskan aksara yang tidak sah dari pengepala tersuai anda.
+# Variables:
+#   $count - the number items
+filter-count-items = { $count } item
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } daripada { $total }

@@ -82,3 +82,14 @@ filter-editor-pick-template-reply = Жауап берілгенде қолдан
 filter-continue-execution = { $filterName } сүзгісін іске асыру сәтсіз аяқталды. Сүзгілерді іске асыруды жалғастыруды қалайсыз ба?
 filter-list-backup-message = Сіздің сүзгілеріңіз жасамайды, өйткені сіздің барлық сүзгілеріңіз орналасқан msgFilterRules.dat файлын оқу мүмкін емес. Жаңа msgFilterRules.dat файлы жасалады, және ескі файлдың қор көшірмесі rulesbackup.dat деп аталып, сол бумада жасалатын болады.
 filter-invalid-custom-header = Сіздің сүзгілеріңіздің біреуі таңдауыңызша тақырыптаманы қолданады, ал оның ішінде жарамсыз таңба бар, ол ‘:’, баспаға шығарылмайтын, ascii-емес, немесе 8-биттік ascii таңбасы сияқты. Сіздің сүзгілеріңіз орналасқан msgFilterRules.dat файлын таңдауыңызша тақырыптамалардан жарамсыз таңбаларды өшіру мақсатында түзетіңіз.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } элемент
+       *[other] { $count } элемент
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible }, барлығы { $total }

@@ -163,6 +163,14 @@ menu-file-save-as-file =
     .label = Ffeil…
     .accesskey = F
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [zero] Estyn y { $count } Neges Newyddion Nesaf
+        [one] Estyn y { $count } Neges Newyddion Nesaf
+       *[other] Estyn y { $count } Neges Newyddion Nesaf
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -721,3 +729,36 @@ ignored-subtheads-feedback =
         [many] Bydd atebion i'r { $count } is-edefyn dewiswyd ddim yn cael eu dangos.
        *[other] Bydd atebion i'r { $count } is-edefyn dewiswyd ddim yn cael eu dangos.
     }
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [zero] Dim atodiadau
+        [one] { $count } atodiad
+        [two] { $count } atodiad
+        [few] { $count } atodiad
+        [many] { $count } atodiad
+       *[other] { $count } atodiad
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Caniatáu cynnwys pell o { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [zero] Peidio â chaniatáu cynnwys pell o'r ffynonellau uchod
+            [one] Caniatáu cynnwys pell o'r { $count } ffynhonnell uchod
+            [two] Caniatáu cynnwys pell o'r { $count } ffynhonnell uchod
+            [few] Caniatáu cynnwys pell o'r { $count } ffynhonnell uchod
+            [many] Caniatáu cynnwys pell o'r { $count } ffynhonnell uchod
+           *[other] Caniatáu cynnwys pell o'r { $count } ffynhonnell uchod
+        }

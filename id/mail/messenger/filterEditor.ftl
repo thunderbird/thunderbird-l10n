@@ -78,3 +78,10 @@ filter-editor-pick-template-reply = Pilih templat email balasan.
 filter-continue-execution = Penerapan filter { $filterName } gagal. Apakah ingin melanjutkan menerapkan filter?
 filter-list-backup-message = Filter Anda tidak dapat bekerja karena berkas msgFilterRules.dat yang berisi filter Anda tidak dapat dibaca. Berkas msgFilterRules.dat yang baru telah dibuat dan cadangan berkas lama juga telah diberi nama rulesbackup.dat pada direktori yang sama.
 filter-invalid-custom-header = Salah satu filter Anda menggunakan header khusus yang mengandung karakter tidak sah seperti ‘:’, karakter yang tidak dapat dicetak, karakter non-ascii, atau karakter ascii delapan bit. Mohon sunting berkas msgFilterRules.dat yang mengandung filter Anda dan hapus karakter tidak sah dari header khusus Anda.
+# Variables:
+#   $count - the number items
+filter-count-items = { $count } item
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } dari { $total }

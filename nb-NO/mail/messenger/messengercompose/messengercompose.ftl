@@ -141,6 +141,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Kvittering
     .tooltiptext = Be om returkvittering for denne meldingen
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Fjern vedlegg
+           *[other] Fjern vedlegg
+        }
+    .accesskey = v
+default-delete-cmd =
+    .label = Slett
+    .accesskey = S
 
 ## Encryption
 
@@ -301,6 +313,20 @@ compose-missing-identity-warning = En unik identitet som passer med fra-adressen
 encrypted-bcc-warning = Når du sender en kryptert melding, er ikke mottakerne i blindkopi (Bcc) fullstendig skjult. Alle mottakere kan kanskje identifisere dem.
 encrypted-bcc-ignore-button = Forstått
 auto-disable-e2ee-warning = Ende-til-ende-kryptering for denne meldingen ble automatisk deaktivert.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } har blokkert en fil frå å laste i denne meldingen. Om du tar vekk blokkeringen vil filen bli sendt sammen med meldingen.
+       *[other] { -brand-short-name } har blokkert noen filer frå å laste i denne meldingen. Om du tar vekk blokkeringen vil filene bli sendt sammen med meldingen.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Nøkkelord for vedleggspåminnelse:
+       *[other] Fant { $count } nøkkelord for vedleggspåminnelse:
+    }
 
 ## Editing
 
@@ -396,6 +422,21 @@ cloud-file-account-error-title = Filelink-kontofeil
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Kunne ikke oppdatere Filelink-vedlegget { $filename }, fordi Filelink-kontoen er slettet.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Dette er en stor fil. Det kan være bedre å bruke FileLink isteden.
+           *[other] Dette er store filer. Det kan være bedre å bruke FileLink isteden.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Filen din lenkes inn. Den vil bli synlig i meldingskroppen når den er ferdig.
+       *[other] Filene dine blir lenket inn. De vil bli synlige i meldingskroppen når de er ferdige.
+    }
 
 ## Link Preview
 

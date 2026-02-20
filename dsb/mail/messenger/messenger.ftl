@@ -163,6 +163,15 @@ menu-file-save-as-file =
     .label = Dataja…
     .accesskey = D
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Dalšnu { $count } diskusijnu powěsć wobstaraś
+        [two] Dalšnej { $count } diskusijnej powěsći wobstaraś
+        [few] Dalšne { $count } diskusijne powěsći wobstaraś
+       *[other] Dalšne { $count } diskusijnych powěsćow wobstaraś
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -701,3 +710,32 @@ ignored-subtheads-feedback =
         [few] Wótegrona na { $count } pódnitki se njepokažu.
        *[other] Wótegrona na { $count } pódnitkow se njepokažu.
     }
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } pśidank
+        [two] { $count } pśidanka
+        [few] { $count } pśidanki
+       *[other] { $count } pśidankow
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Daloke wopśimjeśe z { $origin } dowóliś
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Daloke wopśimjeśe górjejce naspomnjetego póchada { $count } zmóžniś
+            [two] Daloke wopśimjeśe górjejce naspomnjeteju póchadowu { $count } zmóžniś
+            [few] Daloke wopśimjeśe górjejce naspomnjetych póchadow { $count } zmóžniś
+           *[other] Daloke wopśimjeśe górjejce naspomnjetych póchadow { $count } zmóžniś
+        }

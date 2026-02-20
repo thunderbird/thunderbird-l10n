@@ -84,3 +84,16 @@ filter-editor-pick-template-reply = Wubjerće předłohu, z kotrejž ma so wotmo
 filter-continue-execution = Nałožowanje filtra { $filterName } njeje poradźiło. Chceće z nałožowanjom filtra pokročować?
 filter-list-backup-message = Waše filtry njefunguja, dokelž dataja rules.dat, kotraž waše filtry wobsahuje, njeda so čitać. Nowa dataja rules.dat so załoži a zawěsćenska kopija tuteje dataje, kotraž rulesbackup.dat rěka, so w samsnym rjadowaku załoži.
 filter-invalid-custom-header = Jedyn z filtrow wužiwarsku hłowu wužiwa, kotryž njepłaćiwe znamješko kaž ':', njećišćomne znamješko, nje-ascii-znamješko abo wosombitowe ascii-znamješko wobsahuje. Prošu wobdźěłajće dataju rules.dat, kotraž waše filtry wobsahuje, zo byšće njepłaćiwe znamješka z wašich wužiwarskich hłowow wotstronił.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } zapisk
+        [two] { $count } zapiskaj
+        [few] { $count } zapiski
+       *[other] { $count } zapiskow
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } z { $total }

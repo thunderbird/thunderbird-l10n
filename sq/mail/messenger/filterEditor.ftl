@@ -82,3 +82,14 @@ filter-editor-pick-template-reply = Zgjidhni gjedhe sipas së cilës të përgji
 filter-continue-execution = Zbatimi i filtrit { $filterName } dështoi. Do donit të vazhdohet me zbatim filtrash?
 filter-list-backup-message = Filtrat tuaj nuk punojnë, sepse kartela msgFilterRules.dat file, që përmban filtrat tuaj, nuk lexohet dot. Do të krijohet një kartelë e re msgFilterRules.dat dhe një kopjeruajtje e kartelës së vjetër, e quajtur rulesbackup.dat, do të krijohet në të njëjtën drejtori.
 filter-invalid-custom-header = Një nga filtrat tuaj përdor një titull të përshtatur që përmban shenjë të pavlefshme, si ‘:’, ndonjë shkronjë të pashtypshme, ndonjë shenjë jo ascii, ose ndonjë shenjë ascii tetëbitshe. Ju lutemi, përpunoni kartelën msgFilterRules.dat, që përmban filtrat tuaj, duke hequr shenja të pavlefshme prej titujsh vetjakë.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } element
+       *[other] { $count } elemente
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } nga { $total }

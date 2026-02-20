@@ -142,6 +142,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Hartu-agiria
     .tooltiptext = Eskatu hartu-agiria mezu honetarako
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Kendu eranskina
+           *[other] Kendu eranskinak
+        }
+    .accesskey = K
+default-delete-cmd =
+    .label = Ezabatu
+    .accesskey = E
 
 ## Encryption
 
@@ -303,6 +315,20 @@ compose-missing-identity-warning = Ez da aurkitu identitate bakarra bat datorren
 encrypted-bcc-warning = Mezu zifratua bidaltzean, Bcc hartzaileak ez daude erabat gordeta. Hartzaile guztiek hauek identifikatzeko gai dira.
 encrypted-bcc-ignore-button = Ulertua
 auto-disable-e2ee-warning = Mezu honetarako muturretik muturrerako zifratzea automatikoki desgaitu zen.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name }k fitxategia mezu honetan kargatzea blokeatu du. Desblokeatzeak fitxategia zure bidalketa mezuan kargatuko du.
+       *[other] { -brand-short-name }k hainbat fitxategi mezu honetan kargatzea blokeatu du. Desblokeatzeak fitxategiak zure bidalketa mezuan kargatuko ditu.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Eranskinetako gako-hitz bat aurkitu da:
+       *[other] Eranskinetako { $count } gako-hitz aurkitu dira:
+    }
 
 ## Editing
 
@@ -398,6 +424,21 @@ cloud-file-account-error-title = Filelink kontuan errorea
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Huts egin du eguneratzea { $filename } eranskina Filelinken, Filelink kontua ezabatu delako.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Fitxategi handia da hau. Hobe izan daiteke Filelink erabiltzea.
+           *[other] Fitxategi handiak dira hauek. Hobe izan daiteke Filelink erabiltzea.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Zure fitxategirako lotura egiten ari da. Amaitzean, mezuaren gorputzean agertuko da.
+       *[other] Zure fitxategietarako loturak egiten ari dira. Amaitzean, mezuaren gorputzean agertuko dira.
+    }
 
 ## Link Preview
 

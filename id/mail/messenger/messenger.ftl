@@ -145,6 +145,9 @@ menu-file-save-as-file =
     .label = Berkas…
     .accesskey = B
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs = Dapatkan Pesan Berita { $count } Berikutnya
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -623,3 +626,23 @@ prompt-dont-ask-again = Jangan tanya lagi.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analisis spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } selesai
 spam-processing-message = Memroses pesan spam
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count = { $count } lampiran
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Selalu ijinkan konten jarak jauh dari { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label = Izinkan konten jarak jauh dari asal { $count } yang terdaftar di atas

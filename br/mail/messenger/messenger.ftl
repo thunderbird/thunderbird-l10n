@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Window controls
+
+
 ## Content tabs
 
 
@@ -52,6 +55,20 @@ show-tags-folders-label =
     .label = Merkoù
     .accesskey = M
 
+## Folder names
+
+
+## File Menu
+
+# Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Kerc'hat { $count } gemennadenn kelaouiñ war-lerc'h
+        [two] Kerc'hat { $count } a gemennadennoù kelaouiñ war-lerc'h
+       *[other] Kerc'hat { $count } a gemennadennoù kelaouiñ war-lerc'h
+    }
+
 ## Edit Menu
 
 menu-edit-delete-folder =
@@ -92,6 +109,9 @@ menu-edit-folder-properties =
 menu-edit-newsgroup-properties =
     .label = Perzhioù ar strollad-keleier
     .accesskey = s
+
+## Message Menu
+
 
 ## Shared Menu Items
 
@@ -134,6 +154,24 @@ mail-context-menu-forward-forward =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Dilezel ar gemennadenn
+
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
+## Add-on removal warning
+
+
+## no-reply handling
+
+
+## error messages
+
 
 ## Spaces toolbar
 
@@ -214,12 +252,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -252,3 +311,43 @@ message-group-starred = Steredennet
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = hag all.
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } kenstagadur
+        [two] { $count } genstagadur
+        [few] { $count } c'henstagadur
+        [many] { $count } a genstagadurioù
+       *[other] { $count } kenstagadur
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Aotren an endalc'hadoù a-bell evit { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Aotren endalc’hadoù a-bell diouzh an/ar { $count } orin er roll a-us
+            [two] Aotren endalc'hadoù a-bell diouzh an { $count } orin er roll a-us
+            [few] Aotren endalc’hadoù a-bell diouzh an { $count } orin er roll a-us
+            [many] Aotren endalc’hadoù a-bell diouzh ar { $count } a orinoù er roll a-us
+           *[other] Aotren endalc’hadoù a-bell diouzh ar { $count } orin er roll a-us
+        }

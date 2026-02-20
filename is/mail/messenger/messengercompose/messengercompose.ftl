@@ -142,6 +142,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Leskvittun
     .tooltiptext = Biðja um leskvittun fyrir þessi skilaboð
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Fjarlægja viðhengi
+           *[other] Fjarlægja viðhengi
+        }
+    .accesskey = F
+default-delete-cmd =
+    .label = Eyða
+    .accesskey = E
 
 ## Encryption
 
@@ -303,6 +315,20 @@ compose-missing-identity-warning = Einstakt auðkenni sem samsvarar Frá-póstfa
 encrypted-bcc-warning = Þegar þú sendir dulrituð skilaboð eru viðtakendur í 'Falinn afrit' ekki að fullu faldir. Aðrir viðtakendur gætu borið kennsl á þá.
 encrypted-bcc-ignore-button = Skilið
 auto-disable-e2ee-warning = Enda-í-enda dulritun þessara skilaboða var sjálfvirkt gerð óvirk.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } kom í veg fyrir að skrá frá pósti væri hlaðið inn. Ef þú opnar fyrir þessa skrá þá verður hún send með póstinum.
+       *[other] { -brand-short-name } kom í veg fyrir að skrám frá pósti væri hlaðið inn. Ef þú opnar fyrir þessar skrár þá verða þær sendar með póstinum.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Fann { $count } stikkorð fyrir viðhengi:
+       *[other] Fann { $count } stikkorð fyrir viðhengi:
+    }
 
 ## Editing
 
@@ -398,6 +424,21 @@ cloud-file-account-error-title = Villa í Filelink-reikningi
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Mistókst að uppfæra Filelink-viðhengið { $filename } vegna þess að Filelink-reikningi þess hefur verið eytt.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Þetta er stór skrá. Betra væri að nota Filelink-tengil á skrána í staðinn.
+           *[other] Þetta eru stórar skrár. Betra væri að nota Filelink-tengil á skrárnar í staðinn.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Verið er að tengja skrárnar. Skrárnar munu birtast í póstinum þegar það er búið.
+       *[other] Verið er að tengja skrárnar. Skrárnar munu birtast í póstinum þegar það er búið.
+    }
 
 ## Link Preview
 

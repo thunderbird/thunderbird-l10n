@@ -82,3 +82,14 @@ filter-editor-pick-template-reply = Veldu sniðmát til að svara með.
 filter-continue-execution = Beiting á síu { $filterName } mistókst. Viltu halda áfram að beita síum?
 filter-list-backup-message = Síurnar þínar virka ekki, því ekki var hægt að lesa msgFilterRules.dat skrána, sem inniheldur síurnar þínar. Ný msgFilterRules.dat skrá verður búinn til og afrit af eldri skránni, sem verður kölluð rulesbackup.dat, mun verða búin til í sömu möppu.
 filter-invalid-custom-header = Einhver af síunum þínum notar sérsniðinn haus sem inniheldur ógildan staf, svo sem eins og ':', óprentanlegan staf, staf sem er ekki ascii, eða átta bita ascii-staf. Endilega breyttu msgFilterRules.dat skránni, sem inniheldur síurnar þínar, þannig að ógildir stafir í sérsniðnum hausum séu fjarlægðir.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } atriði
+       *[other] { $count } atriði
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } af { $total }

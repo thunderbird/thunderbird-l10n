@@ -142,6 +142,9 @@ folder-name-spam = สแปม
 menu-file-save-as-file =
     .label = ไฟล์…
     .accesskey = F
+# Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs = รับ { $count } ข้อความข่าวถัดไป
 
 ## Edit Menu
 
@@ -615,3 +618,23 @@ prompt-dont-ask-again = ไม่ต้องถามอีก
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = การวิเคราะห์สแปมเสร็จสมบูรณ์ { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = กำลังประมวลผลข้อความสแปม
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count = { $count } ไฟล์แนบ
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = อนุญาตเนื้อหาระยะไกลจาก { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label = อนุญาตเนื้อหาระยะไกลจาก { $count } ที่มาที่ระบุไว้ด้านบน

@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Send Format
+
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -63,10 +66,38 @@ drop-file-label-attachment =
        *[other] הוספה כקבצים מצורפים
     }
 
+## Reorder Attachment Panel
+
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] הסרת הקובץ המצורף
+           *[other] הסרת הקבצים המצורפים
+        }
+    .accesskey = מ
+default-delete-cmd =
+    .label = מחיקה
+    .accesskey = ח
+
+## Encryption
+
+
 ## Addressing Area
 
 many-public-recipients-prompt-cancel = ביטול השליחה
 many-public-recipients-prompt-send = לשלוח בכל מקרה
+
+## Notifications
+
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] נמצאה מילת מפתח:
+       *[other] נמצאו { $count } מילות מפתח:
+    }
 
 ## Editing
 
@@ -75,3 +106,21 @@ many-public-recipients-prompt-send = לשלוח בכל מקרה
 
 compose-tool-button-remove-text-styling =
     .tooltiptext = הסרת עיצוב הטקסט
+
+## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
+
+
+## Link Preview
+
+
+## Dictionary selection popup
+

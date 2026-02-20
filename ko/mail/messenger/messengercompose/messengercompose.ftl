@@ -138,6 +138,14 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = 수신 확인
     .tooltiptext = 이 메시지에 대한 수신 확인을 요청
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label = 첨부 파일 삭제
+    .accesskey = M
+default-delete-cmd =
+    .label = 삭제
+    .accesskey = d
 
 ## Encryption
 
@@ -285,6 +293,12 @@ compose-missing-identity-warning = 보낸 사람 주소와 일치하는 고유�
 encrypted-bcc-warning = 암호화된 메시지를 전송할 때 숨은 참조의 수신자는 완전히 숨겨지지 않습니다. 모든 수신자가 숨은 참조의 수신자를 식별할 수도 있습니다.
 encrypted-bcc-ignore-button = 이해함
 auto-disable-e2ee-warning = 이 메시지의 종단 간 암호화는 자동으로 비활성화되었습니다.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message = { -brand-short-name }가 이 메시지를 읽는 중 파일을 차단했습니다. 차단을 해제하면 보낸 메시지에 파일을 포함합니다.
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg = { $count }개의 첨부 파일 키워드 발견:
 
 ## Editing
 
@@ -376,6 +390,13 @@ cloud-file-account-error-title = Filelink 계정 오류
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = { $filename } Filelink 첨부 파일의 Filelink 계정이 삭제되어 업데이트에 실패했습니다.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label = 사이즈 큰 파일 첨부에는 Filelink 기능 사용을 추천합니다.
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification = 첨부 파일을 링크하고 있습니다. 업로드가 완료한다고 메시지 본문에 링크를 추가합니다.
 
 ## Link Preview
 

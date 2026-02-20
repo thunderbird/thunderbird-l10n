@@ -78,3 +78,10 @@ filter-editor-pick-template-reply = 请选择回复所用的模板。
 filter-continue-execution = 应用过滤器 { $filterName } 失败。您要继续选择其他过滤器吗？
 filter-list-backup-message = 您的过滤器因为无法读取包含您过滤器的 msgFilterRules.dat 文件而无法工作。将创建名称为 msgFilterRules.dat 的新文件，名称为 rulesbackup.dat 的旧文件的备份也将保存在同一个目录中。
 filter-invalid-custom-header = 您的某个过滤器使用了一个包含非法字符的自定义的头，例如“:”，一个不可打印的字符，一个非 ascii 字符，或者一个八位 ascii 字符。请编辑 msgFilterRules.dat 文件（其中包含了您的过滤器信息），并从您的自定义头中移除非法字符。
+# Variables:
+#   $count - the number items
+filter-count-items = { $count } 项
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } / { $total }

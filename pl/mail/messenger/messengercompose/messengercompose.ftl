@@ -147,6 +147,19 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Potwierdzenie
     .tooltiptext = Żądaj potwierdzenia dostarczenia tej wiadomości
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Usuń załącznik
+            [few] Usuń załączniki
+           *[many] Usuń załączniki
+        }
+    .accesskey = N
+default-delete-cmd =
+    .label = Usuń
+    .accesskey = U
 
 ## Encryption
 
@@ -312,6 +325,22 @@ compose-missing-identity-warning = Nie odnaleziono unikalnej tożsamości pasuj�
 encrypted-bcc-warning = Podczas wysyłania zaszyfrowanej wiadomości odbiorcy w polu Ukryta kopia nie są w pełni ukryci. Wszyscy odbiorcy mogą być w stanie ich rozpoznać.
 encrypted-bcc-ignore-button = Rozumiem
 auto-disable-e2ee-warning = Szyfrowanie typu „end-to-end” dla tej wiadomości zostało automatycznie wyłączone.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } zablokował wczytanie pliku w tej wiadomości. Odblokowanie pliku spowoduje dołączenie go w wysyłanej wiadomości.
+        [few] { -brand-short-name } zablokował wczytanie plików w tej wiadomości. Odblokowanie pliku spowoduje dołączenie go w wysyłanej wiadomości.
+       *[many] { -brand-short-name } zablokował wczytanie plików w tej wiadomości. Odblokowanie pliku spowoduje dołączenie go w wysyłanej wiadomości.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Znaleziono słowo wskazujące na brakujący załącznik:
+        [few] Znaleziono { $count } słowa wskazujące na brakujący załącznik:
+       *[many] Znaleziono { $count } słów wskazujących na brakujący załącznik:
+    }
 
 ## Editing
 
@@ -408,6 +437,23 @@ cloud-file-account-error-title = Błąd konta serwisu przechowywania plików
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Zaktualizowanie załącznika { $filename } w serwisie przechowywania plików się nie powiodło, ponieważ jego konto zostało usunięte.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] To jest duży plik – być może lepiej byłoby użyć serwisu przechowywania plików?
+            [few] To są duże pliki – być może lepiej byłoby użyć serwisu przechowywania plików?
+           *[many] To są duże pliki – być może lepiej byłoby użyć serwisu przechowywania plików?
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Tworzenie odnośnika dla pliku. Gdy odnośnik będzie gotowy, pojawi się w treści wiadomości.
+        [few] Tworzenie odnośników dla plików. Gdy odnośniki będą gotowe, pojawią się w treści wiadomości.
+       *[many] Tworzenie odnośników dla plików. Gdy odnośniki będą gotowe, pojawią się w treści wiadomości.
+    }
 
 ## Link Preview
 

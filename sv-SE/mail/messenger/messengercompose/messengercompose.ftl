@@ -141,6 +141,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Kvitto
     .tooltiptext = Begär ett returkvitto för detta meddelande
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Ta bort bilaga
+           *[other] Ta bort bilagor
+        }
+    .accesskey = o
+default-delete-cmd =
+    .label = Ta bort
+    .accesskey = T
 
 ## Encryption
 
@@ -302,6 +314,20 @@ compose-missing-identity-warning = En unik identitet som matchar Från-adressen 
 encrypted-bcc-warning = När du skickar ett krypterat meddelande döljs inte mottagare i dold kopia helt. Alla mottagare kan kanske identifiera dem.
 encrypted-bcc-ignore-button = Förstått
 auto-disable-e2ee-warning = End-to-end-kryptering för detta meddelande inaktiverades automatiskt.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } har blockerat en fil från laddning i det här meddelandet. Avblockera kommer att inkludera filen i ditt skickade meddelande.
+       *[other] { -brand-short-name } har blockerat vissa filer från laddning i det här meddelandet. Avblockera kommer att inkludera filen i ditt skickade meddelande.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Hittade ett nyckelord för bilaga:
+       *[other] Hittade { $count } nyckelord för bilaga:
+    }
 
 ## Editing
 
@@ -397,6 +423,21 @@ cloud-file-account-error-title = Fillänkskontofel
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Det gick inte att uppdatera fillänksbilagan { $filename }, eftersom dess fillänkskonto har tagits bort.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Det här är en stor fil. Det kan vara bättre att använda Filelink istället.
+           *[other] Det här är stora filer. Det kan vara bättre att använda Filelink istället.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Din fil håller på att länkas. Den kommer att visas i meddelandet när det är gjort.
+       *[other] Dina filer håller på att länkas. De kommer att visas i meddelandet när det är gjort.
+    }
 
 ## Link Preview
 

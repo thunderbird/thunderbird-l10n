@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = File…
     .accesskey = F
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Get Next { $count } News Message
+       *[other] Get Next { $count } News Messages
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -674,3 +681,28 @@ ignored-subtheads-feedback =
         [one] Replies to the subthread "{ $subject }" will not be shown.
        *[other] Replies to the { $count } subthreads that were selected will not be shown.
     }
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } attachment
+       *[other] { $count } attachments
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Allow remote content from { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Allow remote content from the { $count } origin listed above
+           *[other] Allow remote content from all { $count } origins listed above
+        }

@@ -142,6 +142,19 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Potvrzení o přijetí
     .tooltiptext = Zažádá o potvrzení o přijetí této zprávy
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Odebrat přílohu
+            [few] Odebrat přílohy
+           *[other] Odebrat přílohy
+        }
+    .accesskey = d
+default-delete-cmd =
+    .label = Smazat
+    .accesskey = m
 
 ## Encryption
 
@@ -310,6 +323,22 @@ compose-missing-identity-warning = Unikátní identita odpovídající adrese od
 encrypted-bcc-warning = Při odesílání zašifrované zprávy nejsou příjemci v poli Skrytá kopie zcela utajeni. Všichni příjemci je mohou být schopni identifikovat.
 encrypted-bcc-ignore-button = Rozumím
 auto-disable-e2ee-warning = Oboustranné šifrování této zprávy bylo automaticky vypnuto.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] Aplikace { -brand-short-name } zablokovala nahrání souboru do této zprávy. Odblokováním ho můžete nahrát do vaší zprávy k odeslání.
+        [few] Aplikace { -brand-short-name } zablokovala nahrání několika souborů do této zprávy. Odblokováním je můžete nahrát vaší zprávy k odeslání.
+       *[other] Aplikace { -brand-short-name } zablokovala nahrání několika souborů do této zprávy. Odblokováním je můžete nahrát vaší zprávy k odeslání.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Nalezeno klíčové slovo přílohy:
+        [few] Nalezena { $count } klíčová slova přílohy:
+       *[other] Nalezeno { $count } klíčových slov příloh:
+    }
 
 ## Editing
 
@@ -406,6 +435,23 @@ cloud-file-account-error-title = Chyba účtu úložiště
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Nepodařilo se aktualizovat soubor { $filename } posílaný přes úložiště, protože byl účet úložiště smazán.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Tento soubor je velký. Bylo by vhodnější použít úložiště a poslat pouze odkaz.
+            [few] Tyto soubory jsou velké. Bylo by vhodnější použít úložiště a poslat pouze odkaz.
+           *[other] Tyto soubory jsou velké. Bylo by vhodnější použít úložiště a poslat pouze odkaz.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Soubor je nahráván. Po dokončení se objeví v těle zprávy.
+        [few] Soubory jsou nahrávány. Po dokončení se objeví v těle zprávy.
+       *[other] Soubory jsou nahrávány. Po dokončení se objeví v těle zprávy.
+    }
 
 ## Link Preview
 

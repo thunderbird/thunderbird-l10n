@@ -151,6 +151,20 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Povratnica
     .tooltiptext = Zahtevaj potrdilo o prejemu za to sporočilo
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Odstrani priponko
+            [two] Odstrani priponki
+            [few] Odstrani priponke
+           *[other] Odstrani priponke
+        }
+    .accesskey = s
+default-delete-cmd =
+    .label = Izbriši
+    .accesskey = b
 
 ## Encryption
 
@@ -320,6 +334,24 @@ compose-missing-identity-warning = Edinstvene identitete za naslov v polju Od ni
 encrypted-bcc-warning = Ko pošiljate šifrirano sporočilo, prejemniki skrite kopije niso popolnoma skriti. Morda jih bodo lahko prepoznali vsi prejemniki.
 encrypted-bcc-ignore-button = Razumem
 auto-disable-e2ee-warning = Šifriranje od konca do konca je bilo za to sporočilo samodejno onemogočeno.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } je zavrnil nalaganje datoteke v to sporočilo. Če nalaganje dovolite, bo datoteka vključena v poslano sporočilo.
+        [two] { -brand-short-name } je zavrnil nalaganje datotek v to sporočilo. Če nalaganje dovolite, bosta datoteki vključeni v poslano sporočilo.
+        [few] { -brand-short-name } je zavrnil nalaganje datotek v to sporočilo. Če nalaganje dovolite, bodo datoteke vključene v poslano sporočilo.
+       *[other] { -brand-short-name } je zavrnil nalaganje datotek v to sporočilo. Če nalaganje dovolite, bodo datoteke vključene v poslano sporočilo.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Najdena je bila ključna beseda za priponko:
+        [two] Najdeni sta bili { $count } ključni besedi za priponko:
+        [few] Najdene so bile { $count } ključne besede za priponko:
+       *[other] Najdenih je bilo { $count } ključnih besed za priponko:
+    }
 
 ## Editing
 
@@ -417,6 +449,25 @@ cloud-file-account-error-title = Napaka računa Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Priponke Filelink { $filename } ni bilo mogoče posodobiti, ker je bil račun za Filelink izbrisan.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Gre za veliko datoteko. Mogoče bi bilo bolje uporabiti Filelink.
+            [two] Gre za veliki datoteki. Mogoče bi bilo bolje uporabiti Filelink.
+            [few] Gre za velike datoteke. Mogoče bi bilo bolje uporabiti Filelink.
+           *[other] Gre za velike datoteke. Mogoče bi bilo bolje uporabiti Filelink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Vaša datoteka se povezuje. Ko bo končano, se bo nahajala v telesu sporočila.
+        [two] Vaši datoteki se povezujeta. Ko bo končano, se bosta nahajali v telesu sporočila.
+        [few] Vaše datoteke se povezujejo. Ko bo končano, se bodo nahajale v telesu sporočila.
+       *[other] Vaše datoteke se povezujejo. Ko bo končano, se bodo nahajale v telesu sporočila.
+    }
 
 ## Link Preview
 

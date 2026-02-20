@@ -138,6 +138,14 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = 收件回執
     .tooltiptext = 要求對方收信後寄發回執
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label = 移除附件
+    .accesskey = m
+default-delete-cmd =
+    .label = 刪除
+    .accesskey = D
 
 ## Encryption
 
@@ -296,6 +304,12 @@ compose-missing-identity-warning = 找不到寄件地址對應的唯一識別資
 encrypted-bcc-warning = 寄出加密郵件時，不會完全隱藏密件副本收件者。所有的收件者都可能識別出他們。
 encrypted-bcc-ignore-button = 知道了！
 auto-disable-e2ee-warning = 已自動針對此訊息停用端到端加密功能。
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message = { -brand-short-name } 已封鎖在訊息中載入某些檔案的操作。取消封鎖後，才會將該檔案載入至訊息中一同寄出。
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg = 找到 { $count } 個附件關鍵字：
 
 ## Editing
 
@@ -390,6 +404,13 @@ cloud-file-account-error-title = 雲端鏈結帳號錯誤
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = 由於雲端鏈結帳號已遭刪除，雲端鏈結附件 { $filename } 更新失敗。
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label = 我們建議您將大檔案傳送到雲端，再透過插入檔案鏈結的方式傳送。
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification = 正在上傳您的檔案。上傳完成後將會在訊息當中插入檔案鏈結。
 
 ## Link Preview
 

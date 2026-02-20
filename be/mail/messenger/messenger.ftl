@@ -146,11 +146,22 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Кампактны выгляд
     .accesskey = К
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
     .label = Файл…
     .accesskey = Ф
+# Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Атрымаць наступнае { $count } паведамленне з навінамі
+        [few] Атрымаць наступныя { $count } паведамленні з навінамі
+       *[many] Атрымаць наступныя { $count } паведамленняў з навінамі
+    }
 
 ## Edit Menu
 
@@ -383,6 +394,9 @@ repair-text-encoding-button =
 no-reply-title = Адказ не падтрымліваецца
 no-reply-reply-anyway-button = Усё роўна адказаць
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -478,12 +492,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -513,3 +548,39 @@ message-group-no-attachments = Няма далучэнняў
 message-group-attachments = Далучэнні
 message-group-not-starred = Без зорак
 message-group-starred = З зоркамі
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } далучэнне
+        [few] { $count } далучэнні
+       *[many] { $count } далучэнняў
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Дазволіць адлеглае змесціва з { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Дазволіць адлеглае змесціва з { $count } пералічанай вышэй крыніцы
+            [few] Дазволіць адлеглае змесціва з { $count } пералічаных вышэй крыніц
+           *[many] Дазволіць адлеглае змесціва з { $count } пералічаных вышэй крыніц
+        }

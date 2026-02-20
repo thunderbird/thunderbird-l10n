@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = Skrá…
     .accesskey = S
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Ná í næstu { $count } frétt
+       *[other] Ná í næstu { $count } fréttir
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -656,3 +663,31 @@ prompt-dont-ask-again = Ekki spyrja aftur.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Ruslpóstsgreiningu { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } lokið
 spam-processing-message = Vinn úr ruslpósti
+
+## Ignore threads
+
+
+## Attachments
+
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } viðhengi
+       *[other] { $count } viðhengi
+    }
+
+## Remote content blocking
+
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Leyfa fjarlæg gögn frá { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Leyfa fjarlæg gögn frá { $count } hér fyrir ofan
+           *[other] Leyfa fjarlæg gögn frá { $count } hér fyrir ofan
+        }

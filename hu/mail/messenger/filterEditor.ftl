@@ -82,3 +82,14 @@ filter-editor-pick-template-reply = Válassza ki a sablont, amelyet a válaszhoz
 filter-continue-execution = Nem sikerült alkalmazni ezt a szűrőt: { $filterName }. Folytatja a szűrők alkalmazását?
 filter-list-backup-message = A szűrők nem működnek, mert az msgFilterRules.dat fájl, amely a szűrőket tartalmazza, nem olvasható. Új msgFilterRules.dat fájl lesz létrehozva, és a régi fájlról biztonsági mentés készül rulesbackup.dat néven ugyanabban a könyvtárban.
 filter-invalid-custom-header = Az egyik szűrő olyan egyéni fejlécet használ, amely érvénytelen karaktert tartalmaz, például „:”, nem nyomtatható karakter, nem ASCII-karakter vagy 8 bites ASCII-karakter. Szerkessze az msgFilterRules.dat fájlt, amely a szűrőket tartalmazza, és távolítsa el az érvénytelen karaktereket az egyéni fejlécekből.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } elem
+       *[other] { $count } elem
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } / { $total }
