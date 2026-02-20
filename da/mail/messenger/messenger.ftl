@@ -669,6 +669,21 @@ spam-processing-message = Behandler spam-meddelelser
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } vedhæftet fil
+       *[other] { $count } vedhæftede filer
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Tillad eksternt indhold fra { $count } sted, vist ovenfor
+           *[other] Tillad eksternt indhold fra { $count } steder, vist ovenfor
+        }
