@@ -96,6 +96,16 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Patvirtinimas
     .tooltiptext = Paprašyti pristatymo patvirtinimo šiam pranešimui
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Pašalinti priedą
+            [few] Pašalinti priedus
+           *[other] Pašalinti priedus
+        }
+    .accesskey = š
 
 ## Encryption
 
