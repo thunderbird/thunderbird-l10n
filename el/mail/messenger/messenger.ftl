@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = Αρχείο…
     .accesskey = Α
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Λήψη επόμενου { $count } μηνύματος συζήτησης
+       *[other] Λήψη επόμενων %S μηνυμάτων συζήτησης
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -674,3 +681,9 @@ ignored-subtheads-feedback =
         [one] Οι απαντήσεις στο υπονήμα «{ $subject }» δεν θα εμφανίζονται.
        *[other] Οι απαντήσεις στα { $count } επιλεγμένα υπονήματα δεν θα εμφανίζονται.
     }
+
+## Attachments
+
+
+## Remote content blocking
+
