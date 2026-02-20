@@ -594,6 +594,25 @@ and-others = et al.
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } agiunta
+       *[other] { $count } agiuntas
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Permetter cuntegn extern da { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Permetter cuntegn extern da l'adressa en la glista survart
+           *[other] Permetter cuntegn extern da las { $count } adressas en la glista survart
+        }
