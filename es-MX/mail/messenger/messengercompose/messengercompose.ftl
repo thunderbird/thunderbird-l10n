@@ -151,6 +151,9 @@ remove-attachment-cmd =
            *[other] Quitar adjuntos
         }
     .accesskey = M
+default-delete-cmd =
+    .label = Eliminar
+    .accesskey = D
 
 ## Encryption
 
