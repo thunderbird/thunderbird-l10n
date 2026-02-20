@@ -135,6 +135,9 @@ remove-attachment-cmd =
            *[many] Выдаліць прымацаванні
         }
     .accesskey = д
+default-delete-cmd =
+    .label = Выдаліць
+    .accesskey = В
 
 ## Encryption
 
