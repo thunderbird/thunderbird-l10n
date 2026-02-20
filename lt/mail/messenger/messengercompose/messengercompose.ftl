@@ -106,6 +106,9 @@ remove-attachment-cmd =
            *[other] Pašalinti priedus
         }
     .accesskey = š
+default-delete-cmd =
+    .label = Pašalinti
+    .accesskey = š
 
 ## Encryption
 
