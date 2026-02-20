@@ -242,6 +242,27 @@ message-group-starred = Označeno zvjezdicom
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } prilog
+        [few] { $count } priloga
+       *[other] { $count } priloga
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Dozvoli vanjski sadržaj od { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Dozvoli vanjski sadržaj od { $count } izvora navedenog iznad
+            [few] Dozvoli vanjski sadržaj od { $count } izvora navedenih iznad
+           *[other] Dozvoli vanjski sadržaj od { $count } izvora navedenih iznad
+        }
