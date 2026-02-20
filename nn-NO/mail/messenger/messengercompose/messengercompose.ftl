@@ -317,6 +317,13 @@ blocked-content-message =
         [one] { -brand-short-name } har blokkert ei fil frå å lasta i denne meldinga. Om du tek vekk blokkeringa vil fila verta send saman med meldinga.
        *[other] { -brand-short-name } har blokkert nokre filer frå å lasta i denne meldinga. Om du tek vekk blokkeringa vil fila verta send saman med meldinga.
     }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Nykelord for vedleggspåminning:
+       *[other] Fann { $count } nykelord for vedleggspåminning:
+    }
 
 ## Editing
 
@@ -412,6 +419,21 @@ cloud-file-account-error-title = Filelink-kontofeil
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Klarte ikkje å oppdatere Filelink-vedlegget { $filename }, fordi Filelink-kontoen er sletta.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Dette er ei stor fil. Det kan vera betre å bruke FileLink i staden.
+           *[other] Dette er store filer. Det kan vere betre å bruke FileLink i staden.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Fila di vert lenka inn. Ho vert synleg i meldingskroppen når ho er ferdig.
+       *[other] Filene dine vert lenka inn.
+    }
 
 ## Link Preview
 
