@@ -286,6 +286,9 @@ encrypted-bcc-warning = 암호화된 메시지를 전송할 때 숨은 참조의
 encrypted-bcc-ignore-button = 이해함
 auto-disable-e2ee-warning = 이 메시지의 종단 간 암호화는 자동으로 비활성화되었습니다.
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message = { -brand-short-name }가 이 메시지를 읽는 중 파일을 차단했습니다. 차단을 해제하면 보낸 메시지에 파일을 포함합니다.
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg = { $count }개의 첨부 파일 키워드 발견:
 
