@@ -320,6 +320,24 @@ compose-missing-identity-warning = Cha deach eintiteas àraidh a lorg a fhreagra
 encrypted-bcc-warning = Ma chuireas tu teachdaireachd crioptaichte, cha bhi na faightearan ann am Bcc am falach buileach agus b’ urrainn gum faic an còrr dhe na faightearan iad.
 encrypted-bcc-ignore-button = Tha mi a’ tuigsinn
 auto-disable-e2ee-warning = Chaidh an crioptachadh ceann ri ceann aig an teachdaireachd seo a chur à comas gu fèin-obrachail.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] Bhac { -brand-short-name } luchdadh de dh’fhaidhle dhan teachdaireachd seo. Ma bheir thu am bacadh air falbh, thèid a ghabhail a-staigh san teachdaireachd nuair a chuireas tu e.
+        [two] Bhac { -brand-short-name } luchdadh de dh’fhaidhlichean dhan teachdaireachd seo. Ma bheir thu am bacadh air falbh, thèid a ghabhail a-staigh san teachdaireachd nuair a chuireas tu e.
+        [few] Bhac { -brand-short-name } luchdadh de dh’fhaidhlichean dhan teachdaireachd seo. Ma bheir thu am bacadh air falbh, thèid a ghabhail a-staigh san teachdaireachd nuair a chuireas tu e.
+       *[other] Bhac { -brand-short-name } luchdadh de dh’fhaidhlichean dhan teachdaireachd seo. Ma bheir thu am bacadh air falbh, thèid a ghabhail a-staigh san teachdaireachd nuair a chuireas tu e.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Chaidh facal a lorg a tha a' cur 'nar sùilean gu bheil dùil agad ceanglachan a chur ris:
+        [two] Chaidh { $count } fhacal a lorg a tha a' cur 'nar sùilean gu bheil dùil agad ceanglachan a chur ris:
+        [few] Chaidh { $count } faclan a lorg a tha a' cur 'nar sùilean gu bheil dùil agad ceanglachan a chur ris:
+       *[other] Chaidh { $count } facal a lorg a tha a' cur 'nar sùilean gu bheil dùil agad ceanglachan a chur ris:
+    }
 
 ## Editing
 
