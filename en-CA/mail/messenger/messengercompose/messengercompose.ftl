@@ -301,6 +301,13 @@ encrypted-bcc-warning = When sending an encrypted message, recipients in Bcc are
 encrypted-bcc-ignore-button = Understood
 auto-disable-e2ee-warning = End-to-end encryption for this message was automatically disabled.
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } has blocked a file from loading into this message. Unblocking the file will include it in your sent message.
+       *[other] { -brand-short-name } has blocked some files from loading into this message. Unblocking a file will include it in your sent message.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
@@ -402,6 +409,21 @@ cloud-file-account-error-title = Filelink Account Error
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Failed to update the Filelink attachment { $filename }, because its Filelink account has been deleted.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] This is a large file. It might be better to use Filelink instead.
+           *[other] These are large files. It might be better to use Filelink instead.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Your file is being linked. It will appear in the body of the message when it’s done.
+       *[other] Your files are being linked. They will appear in the body of the message when it’s done.
+    }
 
 ## Link Preview
 
