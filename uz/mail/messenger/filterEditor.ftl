@@ -44,3 +44,14 @@ filter-editor-pick-template-reply = Javob yozish uchun namuna matnni tanlang.
 filter-continue-execution = { $filterName } filterini qo‘llab bo‘lmadi. Filterlarni qo‘llashda davom etasizmi?
 filter-list-backup-message = Filterlaringiz ishlamadi, chunki filterlaringiz saqlangan msgFilterRules.dat faylini o‘qib bo‘lmadi. Yangi msgFilterRules.dat fayli yaratiladi va eski faylning rulesbackup.dat deb nomlangan zaxira nusxasi ayni shu jillda yaratiladi.
 filter-invalid-custom-header = Filterlaringizdan birida ‘:’, chop qilib bo‘lmaydigan, ascii yoki sakkiz bitlik ascii xususiyatga ega bo‘lmagan noto‘g‘ri belgilar bor. Odatdagi sarlavhalaringizdan yaroqsiz belgilarni olib tashlash uchun filterlaringiz joylashgan msgFilterRules.dat faylini tahrir qiling.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } ta
+       *[other] { $count } ta
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } – { $total }
