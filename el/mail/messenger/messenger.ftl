@@ -684,6 +684,21 @@ ignored-subtheads-feedback =
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } συνημμένο
+       *[other] { $count } συνημμένα
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Αποδοχή απομακρυσμένου περιεχομένου από την παραπάνω πηγή
+           *[other] Αποδοχή απομακρυσμένου περιεχομένου και από τις { $count } παραπάνω πηγές
+        }
