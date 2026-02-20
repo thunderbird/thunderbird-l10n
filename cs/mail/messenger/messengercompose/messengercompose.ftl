@@ -311,6 +311,14 @@ encrypted-bcc-warning = Při odesílání zašifrované zprávy nejsou příjemc
 encrypted-bcc-ignore-button = Rozumím
 auto-disable-e2ee-warning = Oboustranné šifrování této zprávy bylo automaticky vypnuto.
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] Aplikace { -brand-short-name } zablokovala nahrání souboru do této zprávy. Odblokováním ho můžete nahrát do vaší zprávy k odeslání.
+        [few] Aplikace { -brand-short-name } zablokovala nahrání několika souborů do této zprávy. Odblokováním je můžete nahrát vaší zprávy k odeslání.
+       *[other] Aplikace { -brand-short-name } zablokovala nahrání několika souborů do této zprávy. Odblokováním je můžete nahrát vaší zprávy k odeslání.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
