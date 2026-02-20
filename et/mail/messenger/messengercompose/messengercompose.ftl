@@ -142,6 +142,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Kättesaamise kinnitus
     .tooltiptext = Taotle selle kirja kättesaamise kinnitust
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Eemalda manus
+           *[other] Eemalda manused
+        }
+    .accesskey = E
+default-delete-cmd =
+    .label = Kustuta
+    .accesskey = K
 
 ## Encryption
 
