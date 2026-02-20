@@ -141,6 +141,15 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Empfangsbestätigung
     .tooltiptext = Eine Empfangsbestätigung für diese Nachricht anfordern
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Anhang entfernen
+           *[other] Anhänge entfernen
+        }
+    .accesskey = h
 
 ## Encryption
 
@@ -299,6 +308,13 @@ compose-missing-identity-warning = Es wurde keine Identität gefunden, welche mi
 encrypted-bcc-warning = Beim Senden einer verschlüsselten Nachricht sind die Empfänger in der Blindkopie (BCC) nicht vollständig verborgen. Jeder Empfänger kann sie identifizieren.
 encrypted-bcc-ignore-button = OK
 auto-disable-e2ee-warning = Die Ende-zu-Ende-Verschlüsselung für diese Nachricht wurde automatisch deaktiviert.
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Schlüsselwort der Anhang-Erinnerung gefunden:
+       *[other] { $count } Schlüsselwörter der Anhang-Erinnerung gefunden:
+    }
 
 ## Editing
 
@@ -394,6 +410,21 @@ cloud-file-account-error-title = Filelink - Kontenfehler
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Fehler beim Hochladen des Filelink-Anhangs { $filename }, da das Filelink-Konto gelöscht wurde.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Dies ist eine große Datei. Es könnte empfehlenswert sein, Filelink für sie zu benutzen.
+           *[other] Dies sind große Dateien. Es könnte empfehlenswert sein, Filelink für sie zu benutzen.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Ihre Datei wird hochgeladen. Sie erscheint im Nachrichtentext, nachdem das Hochladen abgeschlossen ist.
+       *[other] Ihre Dateien werden hochgeladen. Sie erscheinen im Nachrichtentext, nachdem das Hochladen abgeschlossen ist.
+    }
 
 ## Link Preview
 
