@@ -131,6 +131,14 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = การแจ้งเตือน
     .tooltiptext = จำเป็นต้องมีการแจ้งเตือนการเปิดอ่านสำหรับข้อความนี้
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label = เอาไฟล์แนบออก
+    .accesskey = อ
+default-delete-cmd =
+    .label = ลบ
+    .accesskey = บ
 
 ## Encryption
 
