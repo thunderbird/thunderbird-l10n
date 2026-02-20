@@ -162,6 +162,9 @@ remove-attachment-cmd =
            *[other] Odstrani priponke
         }
     .accesskey = s
+default-delete-cmd =
+    .label = Izbriši
+    .accesskey = b
 
 ## Encryption
 
