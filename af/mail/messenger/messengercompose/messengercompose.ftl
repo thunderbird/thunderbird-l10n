@@ -18,6 +18,9 @@
 
 ## Reorder Attachment Panel
 
+default-delete-cmd =
+    .label = Skrap
+    .accesskey = S
 
 ## Encryption
 
