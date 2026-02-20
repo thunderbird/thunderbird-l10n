@@ -330,6 +330,15 @@ blocked-content-message =
         [few] { -brand-short-name } jo zajźował, až se dataje do toś teje powěsći zacytaju. Gaž wěcej njeblokěrujośo, buźo se dataja do wašeje pósłaneje powěsći zapśimjeś.
        *[other] { -brand-short-name } jo zajźował, až se dataje do toś teje powěsći zacytaju. Gaž wěcej njeblokěrujośo, buźo se dataja do wašeje pósłaneje powěsći zapśimjeś.
     }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Pśidankowe gronidło namakane:
+        [two] { $count } pśidankowej gronidle namakanej:
+        [few] { $count } pśidankowe gronidła namakane:
+       *[other] { $count } pśidankowych gronidłow namakanych:
+    }
 
 ## Editing
 
@@ -427,6 +436,25 @@ cloud-file-account-error-title = Kontowa zmólka Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Pśidank { $filename } Filelink njedajo se aktualizěrowaś, dokulaž jogo lokalna dataja jo se wulašowała.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] To jo wjelika dataja. Snaź jo lěpjej, až wužywaśo Filelink město togo.
+            [two] To stej wjelikej dataji. Snaź jo lěpjej, až wužywaśo Filelink město togo.
+            [few] To su wjelike dataje. Snaź jo lěpjej, až wužywaśo Filelink město togo.
+           *[other] To su wjelike dataje. Snaź jo lěpjej, až wužywaśo Filelink město togo.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Waša dataja se wótkazujo. Buźo se w śělesu powěsći pokazowaś, gaž to jo skóńcone.
+        [two] Wašej dataji se wótkazujotej. Buźotej se w śělesu powěsći pokazowaś, gaž to jo skóńcone.
+        [few] Waše dataje se wótkazuju. Budu se w śělesu powěsći pokazowaś, gaž to jo skóńcone.
+       *[other] Waše dataje se wótkazuju. Budu se w śělesu powěsći pokazowaś, gaž to jo skóńcone.
+    }
 
 ## Link Preview
 
