@@ -302,6 +302,13 @@ compose-missing-identity-warning = Não foi encontrada uma identidade única cor
 encrypted-bcc-warning = Ao enviar uma mensagem criptografada, destinatários em Cco não ficam totalmente ocultos. Todos os destinatários podem conseguir identificar.
 encrypted-bcc-ignore-button = Entendi
 auto-disable-e2ee-warning = A criptografia de ponta a ponta desta mensagem foi desativada automaticamente.
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Encontrada uma palavra-chave de anexo:
+       *[other] Encontradas { $count } palavras-chave de anexo:
+    }
 
 ## Editing
 
@@ -397,6 +404,21 @@ cloud-file-account-error-title = Erro de conta de anexo online
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Falha ao atualizar o anexo online { $filename } porque sua conta de anexo online foi excluída.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Esse é um arquivo grande. No lugar, seria melhor usar um anexo online.
+           *[other] Esses são arquivos grandes. No lugar, seria melhor usar anexos online.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Está sendo criado um link para seu arquivo. Ele aparecerá no texto da mensagem quando estiver pronto.
+       *[other] Estão sendo criados links para seus arquivos. Eles aparecerão no texto da mensagem quando estiverem prontos.
+    }
 
 ## Link Preview
 
