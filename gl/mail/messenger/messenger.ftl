@@ -145,11 +145,21 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista compacta
     .accesskey = c
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
     .label = Ficheiro…
     .accesskey = F
+# Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Obter a seguinte mensaxe de novas
+       *[other] Obter as { $count } seguintes mensaxes de novas
+    }
 
 ## Edit Menu
 
@@ -524,12 +534,24 @@ quota-panel-percent-used = { $percent }% cheo
         IMAP quota: { $usage } used of { $limit } total
         Cota de IMAP: { $usage } usado dun total de { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -571,3 +593,18 @@ message-group-starred = Con estrela
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = e outros.
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
+## Attachments
+
+
+## Remote content blocking
+
