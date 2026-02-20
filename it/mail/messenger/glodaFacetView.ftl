@@ -11,7 +11,7 @@ items-m-of-n = { $m } di { $n }{ $m } di { $n }
 facets-mode-to-list-all-label =
     { $count ->
         [one] Visualizza ({ $count })
-       *[other] Visualizza tutti({ $count })
+       *[other] Visualizza tutti ({ $count })
     }
 # Last item in a a list like A, B, C and "3 others".
 # Variables:
