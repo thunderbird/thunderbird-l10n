@@ -695,3 +695,15 @@ attachment-view-attachment-count =
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Externe inhoud van { $origin } toestaan
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Externe inhoud van de bovenvermelde { $count } bron toestaan
+           *[other] Externe inhoud van alle bovenvermelde { $count } bronnen toestaan
+        }
