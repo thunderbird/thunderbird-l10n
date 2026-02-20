@@ -669,6 +669,13 @@ spam-processing-message = A processar as mensagens de lixo eletrónico
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } anexo
+       *[other] { $count } anexos
+    }
 
 ## Remote content blocking
 
