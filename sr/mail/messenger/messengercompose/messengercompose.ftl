@@ -157,6 +157,9 @@ remove-attachment-cmd =
            *[other] Уклони прилоге
         }
     .accesskey = к
+default-delete-cmd =
+    .label = Обриши
+    .accesskey = б
 
 ## Encryption
 
