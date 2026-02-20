@@ -236,6 +236,13 @@ message-group-starred = Con estrella
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } axuntu
+       *[other] { $count } axuntos
+    }
 
 ## Remote content blocking
 
