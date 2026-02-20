@@ -163,6 +163,14 @@ menu-file-save-as-file =
     .label = Ffeil…
     .accesskey = F
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [zero] Estyn y { $count } Neges Newyddion Nesaf
+        [one] Estyn y { $count } Neges Newyddion Nesaf
+       *[other] Estyn y { $count } Neges Newyddion Nesaf
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -721,3 +729,9 @@ ignored-subtheads-feedback =
         [many] Bydd atebion i'r { $count } is-edefyn dewiswyd ddim yn cael eu dangos.
        *[other] Bydd atebion i'r { $count } is-edefyn dewiswyd ddim yn cael eu dangos.
     }
+
+## Attachments
+
+
+## Remote content blocking
+
