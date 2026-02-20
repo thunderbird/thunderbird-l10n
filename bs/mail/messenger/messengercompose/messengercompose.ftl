@@ -28,6 +28,9 @@ remove-attachment-cmd =
            *[other] Ukloni priloge
         }
     .accesskey = M
+default-delete-cmd =
+    .label = Obriši
+    .accesskey = O
 
 ## Encryption
 
