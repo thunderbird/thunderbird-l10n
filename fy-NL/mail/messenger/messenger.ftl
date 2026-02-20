@@ -699,3 +699,11 @@ attachment-view-attachment-count =
 #    $origin - origin of the remote content to allow
 allow-remote-content-resource =
     .label = Eksterne ynhâld fan { $origin } tastean
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Eksterne ynhâld fan de boppe fermelde { $count } boarne tastean
+           *[other] Eksterne ynhâld fan alle boppe fermelde { $count } boarnen tastean
+        }
