@@ -150,6 +150,9 @@ remove-attachment-cmd =
            *[other] Elimina gli allegati
         }
     .accesskey = m
+default-delete-cmd =
+    .label = Elimina
+    .accesskey = E
 
 ## Encryption
 
