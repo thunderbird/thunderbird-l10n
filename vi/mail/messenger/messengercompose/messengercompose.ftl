@@ -133,6 +133,14 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Xác nhận
     .tooltiptext = Yêu cầu xác nhận đã nhận thư cho thư này
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label = Xóa (các) phần đính kèm
+    .accesskey = M
+default-delete-cmd =
+    .label = Xóa
+    .accesskey = D
 
 ## Encryption
 
