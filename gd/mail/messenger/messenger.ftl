@@ -516,6 +516,29 @@ and-others = et al.
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } cheanglachan
+        [two] { $count } cheanglachan
+        [few] { $count } ceanglachain
+       *[other] { $count } ceanglachan
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Ceadaich susbaint chèin o { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Ceadaich susbaint chèin on na tùsan gu h‑àrd ({ $count })
+            [two] Ceadaich susbaint chèin on na tùsan gu h‑àrd ({ $count })
+            [few] Ceadaich susbaint chèin on na tùsan gu h‑àrd ({ $count })
+           *[other] Ceadaich susbaint chèin on na tùsan gu h‑àrd ({ $count })
+        }
