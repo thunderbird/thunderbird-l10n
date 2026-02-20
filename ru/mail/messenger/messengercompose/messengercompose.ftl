@@ -156,6 +156,9 @@ remove-attachment-cmd =
            *[many] Удалить вложения
         }
     .accesskey = л
+default-delete-cmd =
+    .label = Удалить
+    .accesskey = У
 
 ## Encryption
 
