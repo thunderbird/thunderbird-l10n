@@ -40,6 +40,16 @@ remove-attachment-cmd =
 ## Notifications
 
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] Níor lig { -brand-short-name } duit comhad a lódáil sa teachtaireacht seo. Má bhaineann tú an bac, cuirfear an comhad sa teachtaireacht nuair a sheolfaidh tú í.
+        [two] Níor lig { -brand-short-name } duit comhaid a lódáil sa teachtaireacht seo. Má bhaineann tú an bac, cuirfear na comhaid sa teachtaireacht nuair a sheolfaidh tú í.
+        [few] Níor lig { -brand-short-name } duit comhaid a lódáil sa teachtaireacht seo. Má bhaineann tú an bac, cuirfear na comhaid sa teachtaireacht nuair a sheolfaidh tú í.
+        [many] Níor lig { -brand-short-name } duit comhaid a lódáil sa teachtaireacht seo. Má bhaineann tú an bac, cuirfear na comhaid sa teachtaireacht nuair a sheolfaidh tú í.
+       *[other] Níor lig { -brand-short-name } duit comhaid a lódáil sa teachtaireacht seo. Má bhaineann tú an bac, cuirfear na comhaid sa teachtaireacht nuair a sheolfaidh tú í.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
