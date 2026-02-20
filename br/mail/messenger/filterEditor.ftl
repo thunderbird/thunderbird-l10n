@@ -52,3 +52,7 @@ filter-editor-pick-template-reply = Dibab ur patrom da respont gantañ.
 filter-continue-execution = C'hwitadenn war arloañ ar sil { $filterName }. Ha fellout a ra deoc'h kenderc'hel gant arloañ siloù ?
 filter-list-backup-message = Ned a ket ho siloù en-dro rak n'hall ket bezañ lennet ar restr  msgFilterRules.dat, enni emañ ho siloù. Ur restr msgFilterRules.dat nevez a vo krouet hag ur gwared eus ar restr kozh, anvet rulesbackup.dat, a vo krouet en hevelep kavlec'hiad.
 filter-invalid-custom-header = Unan eus ho siloù a arver un talbenn ennañ arouezennoù didalvoudek evel ‘:’ pe un arouezenn anvoullus un arouezenn anascii pe un arouezenn ascii eizh bit. Embannit ar restr msgFilterRules.dat, enni ho siloù, evit dilemel an arouezenn didalvoudek diouzh ho talbennoù personelaet.
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } eus { $total }
