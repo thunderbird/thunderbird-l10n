@@ -142,6 +142,9 @@ folder-name-spam = 스팸
 menu-file-save-as-file =
     .label = 파일…
     .accesskey = F
+# Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs = 다음 { $count } 뉴스 메시지 받기
 
 ## Edit Menu
 
@@ -611,3 +614,12 @@ prompt-dont-ask-again = 다시 묻지 않기
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = 스팸 분석 { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } 완료됨
 spam-processing-message = 스팸 메시지 처리
+
+## Ignore threads
+
+
+## Attachments
+
+
+## Remote content blocking
+
