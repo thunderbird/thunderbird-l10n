@@ -151,6 +151,9 @@ remove-attachment-cmd =
            *[other] Elimina les adjuncions
         }
     .accesskey = m
+default-delete-cmd =
+    .label = Suprimeix
+    .accesskey = u
 
 ## Encryption
 
