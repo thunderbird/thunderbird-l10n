@@ -150,6 +150,9 @@ remove-attachment-cmd =
            *[other] Αφαίρεση συνημμένων
         }
     .accesskey = ρ
+default-delete-cmd =
+    .label = Διαγραφή
+    .accesskey = Δ
 
 ## Encryption
 
@@ -425,6 +428,13 @@ big-file-notification =
             [one] Αυτό είναι ένα μεγάλο αρχείο. Ίσως είναι καλύτερα να χρησιμοποιήσετε το FileLink.
            *[other] Αυτά είναι μεγάλα αρχεία. Ίσως είναι καλύτερα να χρησιμοποιήσετε το FileLink.
         }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Δημιουργείται σύνδεσμος για το αρχείο σας. Θα εμφανιστεί στο σώμα του μηνύματος όταν ολοκληρωθεί η διαδικασία.
+       *[other] Δημιουργούνται σύνδεσμοι για τα αρχεία σας. Θα εμφανιστούν στο σώμα του μηνύματος όταν ολοκληρωθεί η διαδικασία.
+    }
 
 ## Link Preview
 
