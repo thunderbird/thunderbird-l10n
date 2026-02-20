@@ -404,6 +404,21 @@ cloud-file-account-error-title = Erreur de compte Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Échec de la mise à jour de la pièce jointe Filelink { $filename }, car son compte Filelink a été supprimé.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Ce fichier est volumineux. Il serait préférable d’utiliser un espace de stockage de fichiers.
+           *[other] Ces fichiers sont volumineux. Il serait préférable d’utiliser un espace de stockage de fichiers.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Votre fichier a été lié. Le lien apparaîtra dans le corps du message lorsque le téléchargement sera terminé.
+       *[other] Vos fichiers ont été liés. Les liens apparaîtront dans le corps du message lorsque les téléchargements seront terminés.
+    }
 
 ## Link Preview
 
