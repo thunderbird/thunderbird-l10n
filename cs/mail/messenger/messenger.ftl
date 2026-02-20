@@ -690,6 +690,14 @@ spam-processing-message = Zpracovává se nevyžádaná pošta
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } příloha
+        [few] { $count } přílohy
+       *[other] { $count } příloh
+    }
 
 ## Remote content blocking
 
