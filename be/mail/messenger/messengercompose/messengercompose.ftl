@@ -125,6 +125,16 @@ move-attachment-right-panel-button =
     .label = Перамясціць управа
 move-attachment-last-panel-button =
     .label = Перамясціць у канец
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Выдаліць прымацаванне
+            [few] Выдаліць прымацаванні
+           *[many] Выдаліць прымацаванні
+        }
+    .accesskey = д
 
 ## Encryption
 
