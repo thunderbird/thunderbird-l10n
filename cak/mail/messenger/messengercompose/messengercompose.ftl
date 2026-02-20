@@ -42,6 +42,9 @@ remove-attachment-cmd =
            *[other] Keyuj Taqoj
         }
     .accesskey = T
+default-delete-cmd =
+    .label = Tiyuj
+    .accesskey = y
 
 ## Encryption
 
