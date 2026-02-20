@@ -142,6 +142,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Leskvittun
     .tooltiptext = Biðja um leskvittun fyrir þessi skilaboð
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Fjarlægja viðhengi
+           *[other] Fjarlægja viðhengi
+        }
+    .accesskey = F
+default-delete-cmd =
+    .label = Eyða
+    .accesskey = E
 
 ## Encryption
 
