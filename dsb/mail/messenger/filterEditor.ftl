@@ -85,6 +85,15 @@ filter-continue-execution = Nałožowanje filtra { $filterName } njejo se raźi�
 filter-list-backup-message = Waše filtry njefunkcioněruju, dokulaž dataja msgFilterRules.dat, kótaraž waše filtry wopśimujo, njedajo se cytaś. Nowa dataja msgFilterRules.dat napórajo se w tom samem zapisu.
 filter-invalid-custom-header = Jaden z wašych filtrow wužywa swójsku głowowu smužku, kótaraž wopśimujo njepłaśiwe znamuško, kaž na pś. ':', njeśišćajobne znamuško, nje-ascii-znamuško abo wósymbitowe ascii-znamuško. Wobźěłajśo pšosym dataju msgFilterRules.dat, kótaraž waše filtry wopśimujo, aby njepłaśiwe znamuška z wašych swójskich głowowych smužkow wótwónoźeł.
 # Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } zapisk
+        [two] { $count } zapiska
+        [few] { $count } zapiski
+       *[other] { $count } zapiskow
+    }
+# Variables:
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } z { $total }
