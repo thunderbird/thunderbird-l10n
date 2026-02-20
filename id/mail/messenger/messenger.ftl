@@ -638,3 +638,11 @@ attachment-view-attachment-count = { $count } lampiran
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Selalu ijinkan konten jarak jauh dari { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label = Izinkan konten jarak jauh dari asal { $count } yang terdaftar di atas
