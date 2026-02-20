@@ -83,3 +83,7 @@ filter-editor-pick-template-reply = Odaberite predložak za odgovaranje.
 filter-continue-execution = Primjena filtera { $filterName } nije uspjela. Želite li nastaviti primjenjivati filtere?
 filter-list-backup-message = Vaši filteri ne rade jer nije bilo moguće pročitati datoteku msgFilterRules.dat koja sadrži vaše filtere. Nova datoteka msgFilterRules.dat će biti stvorena i rezervna kopija stare datoteke, nazvana rulesbackup.dat, će biti stvorena u istom direktoriju.
 filter-invalid-custom-header = Jedan od vaših filtera koristi prilagođeno zaglavlje koje koristi nepodržani znak poput ‘:’, znak koji nije moguće ispisati, znak koji nije ascii ili 8-bitni ascii znak. Uredite datoteku msgFilterRules.dat, koja sadrži vaše filtere, kako biste uklonili nepodržani znak iz prilagođenog zaglavlja.
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } od { $total }
