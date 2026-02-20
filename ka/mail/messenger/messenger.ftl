@@ -656,6 +656,21 @@ spam-processing-message = მუშავდება უსარგებლ�
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] დანართი
+       *[other] { $count } დანართი
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] ვებშიგთავსის დაშვება ზემოთ აღნიშნული { $count } წყაროდან
+           *[other] ვებშიგთავსის დაშვება ზემოთ აღნიშნული { $count } წყაროდან
+        }
