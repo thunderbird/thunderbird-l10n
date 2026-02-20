@@ -33,6 +33,18 @@ attachment-bucket-count-value =
 
 ## Reorder Attachment Panel
 
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Lemel ar c'henstagadur
+            [two] Lemel ar c'henstagadurioù
+            [few] Lemel ar c'henstagadurioù
+            [many] Lemel ar c'henstagadurioù
+           *[other] Lemel ar c'henstagadurioù
+        }
+    .accesskey = L
 
 ## Encryption
 
