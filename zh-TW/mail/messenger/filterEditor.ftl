@@ -79,6 +79,9 @@ filter-continue-execution = 無法套用篩選條件「{ $filterName }」。您�
 filter-list-backup-message = 程式無法讀取 msgFilterRuless.dat 檔（內含您的篩選條件），您的篩選條件無法作用。程式會備份舊檔案為 rulesbackup.dat，再建立新的檔案。
 filter-invalid-custom-header = 您有某條篩選條件使用了不正確的字元（如「:」、不可列印或非 ASCII 字元。）作為標頭，請編輯您的篩選條件設定檔「msgFilterRules.dat」以移除這些不正確的字元。
 # Variables:
+#   $count - the number items
+filter-count-items = { $count } 個項目
+# Variables:
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = 在 { $total } 筆當中找到 { $visible } 筆
