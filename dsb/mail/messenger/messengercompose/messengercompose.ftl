@@ -152,6 +152,20 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Kwitowanka
     .tooltiptext = Kwintowanku za toś tu powěsć pominaś
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Pśidank wótpóraś
+            [two] Pśidanka wótpóraś
+            [few] Pśidanki wótpóraś
+           *[other] Pśidanki wótpóraś
+        }
+    .accesskey = w
+default-delete-cmd =
+    .label = Wulašowaś
+    .accesskey = l
 
 ## Encryption
 
