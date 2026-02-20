@@ -303,6 +303,13 @@ encrypted-bcc-warning = Lors de l’envoi d’un message chiffré, les destinata
 encrypted-bcc-ignore-button = C’est compris
 auto-disable-e2ee-warning = Le chiffrement de bout en bout de ce message a été automatiquement désactivé.
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } a bloqué le chargement d’un fichier dans ce message. Débloquer le fichier l’inclut dans le message à envoyer.
+       *[other] { -brand-short-name } a bloqué le chargement de certains fichiers dans ce message. Débloquer un fichier l’inclut dans le message à envoyer.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
