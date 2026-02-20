@@ -505,6 +505,21 @@ and-others = d wiyaḍ
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } taceqquf yeddan
+       *[other] { $count } ticeqqufin yeddan
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Sireg agbur anmeggag si { $count } aneẓli i d-yettwabedren nig-a
+           *[other] Sireg agbur anmeggag si { $count } ineẓliyen i d-yettwabedren nig-a
+        }
