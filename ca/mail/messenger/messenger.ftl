@@ -577,6 +577,13 @@ and-others = i altres
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } adjunció
+       *[other] { $count } adjuncions
+    }
 
 ## Remote content blocking
 
