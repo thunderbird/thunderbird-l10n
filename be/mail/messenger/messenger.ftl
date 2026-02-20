@@ -560,6 +560,27 @@ message-group-starred = З зоркамі
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } далучэнне
+        [few] { $count } далучэнні
+       *[many] { $count } далучэнняў
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Дазволіць адлеглае змесціва з { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Дазволіць адлеглае змесціва з { $count } пералічанай вышэй крыніцы
+            [few] Дазволіць адлеглае змесціва з { $count } пералічаных вышэй крыніц
+           *[many] Дазволіць адлеглае змесціва з { $count } пералічаных вышэй крыніц
+        }
