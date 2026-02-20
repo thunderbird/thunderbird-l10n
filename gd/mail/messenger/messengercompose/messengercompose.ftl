@@ -163,6 +163,9 @@ remove-attachment-cmd =
            *[other] Thoir air falbh na ceanglachain
         }
     .accesskey = T
+default-delete-cmd =
+    .label = Sguab às
+    .accesskey = S
 
 ## Encryption
 
