@@ -655,3 +655,22 @@ prompt-dont-ask-again = Να μην γίνει ξανά ερώτηση.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Η ανάλυση ανεπιθύμητης αλληλογραφίας { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } ολοκληρώθηκε
 spam-processing-message = Επεξεργασία ανεπιθύμητων μηνυμάτων
+
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Οι απαντήσεις στο νήμα «{ $subject }» δεν θα εμφανίζονται.
+       *[other] Οι απαντήσεις στα { $count } επιλεγμένα νήματα δεν θα εμφανίζονται.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Οι απαντήσεις στο υπονήμα «{ $subject }» δεν θα εμφανίζονται.
+       *[other] Οι απαντήσεις στα { $count } επιλεγμένα υπονήματα δεν θα εμφανίζονται.
+    }
