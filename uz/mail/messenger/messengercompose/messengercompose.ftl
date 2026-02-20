@@ -27,6 +27,9 @@ remove-attachment-cmd =
            *[other] Biriktirmalarni olib tashlash
         }
     .accesskey = o
+default-delete-cmd =
+    .label = O‘chirish
+    .accesskey = O
 
 ## Encryption
 
