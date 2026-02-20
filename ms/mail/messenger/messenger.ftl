@@ -227,6 +227,13 @@ message-group-starred = Berbintang
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count = { $count } lampiran
 
 ## Remote content blocking
 
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label = Izinkan kandungan jauh dari { $count } asal yang disenaraikan di atas
