@@ -290,6 +290,9 @@ auto-disable-e2ee-warning = 已自动禁用此消息的端到端加密。
 # Variables:
 #   $count - the number of files that will be unblocked
 blocked-content-message = { -brand-short-name } 已阻止此消息加载某些文件。取消屏蔽将在您的发送消息中包含这些文件。
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg = 找到 { $count } 个附件关键词：
 
 ## Editing
 
