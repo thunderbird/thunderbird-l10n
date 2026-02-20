@@ -669,6 +669,13 @@ spam-processing-message = Vinn úr ruslpósti
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } viðhengi
+       *[other] { $count } viðhengi
+    }
 
 ## Remote content blocking
 
