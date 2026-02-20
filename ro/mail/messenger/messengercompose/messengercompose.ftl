@@ -147,6 +147,16 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Confirmare de primire
     .tooltiptext = Solicită confirmare de primire pentru acest mesaj
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Elimină atașamentul
+            [few] Elimină atașamentele
+           *[other] Elimină atașamentele
+        }
+    .accesskey = m
 
 ## Encryption
 
@@ -318,6 +328,14 @@ blocked-content-message =
         [few] { -brand-short-name } a blocat încărcarea unor fișiere în mesaj. Deblocarea fișierelor le va include în mesajul trimis.
        *[other] { -brand-short-name } a blocat încărcarea unor fișiere în mesaj. Deblocarea fișierelor le va include în mesajul trimis.
     }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] S-a găsit un cuvânt cheie pentru atașament:
+        [few] S-au găsit { $count } cuvinte cheie pentru atașamente:
+       *[other] S-au găsit { $count } de cuvinte cheie pentru atașamente:
+    }
 
 ## Editing
 
@@ -414,6 +432,15 @@ cloud-file-account-error-title = Eroare cont Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Atașamentul Filelink { $filename } nu a putut fi actualizat, deoarece contul Filelink aferent a fost șters.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Acesta este un fișier mare. Ar putea fi mai bine să folosești în schimb Filelink.
+            [few] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
+           *[other] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
+        }
 
 ## Link Preview
 
