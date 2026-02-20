@@ -84,6 +84,14 @@ filter-continue-execution = Aplicarea filtrului { $filterName } a eșuat. Vrei s
 filter-list-backup-message = Filtrele tale nu funcționează deoarece fișierul msgFilterRules.dat, în care se află filtrele, nu poate fi citit. Voi crea un nou fișier msgFilterRules.dat și voi crea în același director o copie de siguranță a vechiului fișier, cu denumirea rulesbackup.dat.
 filter-invalid-custom-header = Unul dintre filtre folosește un antet personalizat care conține un caracter nevalid, cum ar fi „:”, un caracter netipăribil, un caracter non-ASCII sau un caracter din codul ASCII de opt biți. Te rugăm să editezi fișierul msgFilterRules.dat, în care se află filtrele, și să elimini caracterele nevalide din antetele personalizate.
 # Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } element
+        [few] { $count } elemente
+       *[other] { $count } de elemente
+    }
+# Variables:
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } din { $total }
