@@ -665,6 +665,13 @@ spam-processing-message = Spam iletiler işleniyor
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } ek
+       *[other] { $count } ek
+    }
 
 ## Remote content blocking
 
