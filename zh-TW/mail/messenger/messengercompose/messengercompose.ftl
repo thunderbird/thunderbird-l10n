@@ -138,6 +138,11 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = 收件回執
     .tooltiptext = 要求對方收信後寄發回執
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label = 移除附件
+    .accesskey = m
 
 ## Encryption
 
@@ -390,6 +395,13 @@ cloud-file-account-error-title = 雲端鏈結帳號錯誤
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = 由於雲端鏈結帳號已遭刪除，雲端鏈結附件 { $filename } 更新失敗。
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label = 我們建議您將大檔案傳送到雲端，再透過插入檔案鏈結的方式傳送。
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification = 正在上傳您的檔案。上傳完成後將會在訊息當中插入檔案鏈結。
 
 ## Link Preview
 
