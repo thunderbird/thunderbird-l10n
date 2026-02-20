@@ -27,6 +27,9 @@ remove-attachment-cmd =
            *[other] Remove Attachments
         }
     .accesskey = M
+default-delete-cmd =
+    .label = ਹਟਾਓ
+    .accesskey = d
 
 ## Encryption
 
