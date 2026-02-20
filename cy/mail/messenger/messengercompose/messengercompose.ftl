@@ -339,6 +339,17 @@ compose-missing-identity-warning = Methu canfod hunaniaeth unigryw sy'n cyd-fynd
 encrypted-bcc-warning = Wrth anfon neges wedi'i hamgryptio, nid yw'r derbynwyr yn Bcc wedi'u cuddio'n llawn. Efallai y bydd pob derbynnydd yn gallu eu hadnabod.
 encrypted-bcc-ignore-button = Wedi Deall
 auto-disable-e2ee-warning = Analluogwyd amgryptio pen-i-ben y neges hon yn awtomatig.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [zero] Nid yw { -brand-short-name } wedi rhwystro ffeiliau rhag llwytho i'r neges hon. Bydd dad-rwystro'r ffeil yn ei chynnwys yn eich neges a anfonwyd
+        [one] Mae { -brand-short-name } wedi rhwystro ffeiliau rhag llwytho i'r neges hon. Bydd dad-rwystro'r ffeil yn ei chynnwys yn eich neges a anfonwyd.
+        [two] Mae { -brand-short-name } wedi rhwystro ffeiliau rhag llwytho i'r neges hon. Bydd dad-rwystro'r ffeil yn ei chynnwys yn eich neges a anfonwyd.
+        [few] Mae { -brand-short-name } wedi rhwystro ffeiliau rhag llwytho i'r neges hon. Bydd dad-rwystro'r ffeil yn ei chynnwys yn eich neges a anfonwyd.
+        [many] Mae { -brand-short-name } wedi rhwystro ffeiliau rhag llwytho i'r neges hon. Bydd dad-rwystro'r ffeil yn ei chynnwys yn eich neges a anfonwyd.
+       *[other] Mae { -brand-short-name } wedi rhwystro ffeiliau rhag llwytho i'r neges hon. Bydd dad-rwystro'r ffeil yn ei chynnwys yn eich neges a anfonwyd.
+    }
 
 ## Editing
 
