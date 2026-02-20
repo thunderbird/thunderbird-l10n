@@ -336,3 +336,18 @@ attachment-view-attachment-count =
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Aotren an endalc'hadoù a-bell evit { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Aotren endalc’hadoù a-bell diouzh an/ar { $count } orin er roll a-us
+            [two] Aotren endalc'hadoù a-bell diouzh an { $count } orin er roll a-us
+            [few] Aotren endalc’hadoù a-bell diouzh an { $count } orin er roll a-us
+            [many] Aotren endalc’hadoù a-bell diouzh ar { $count } a orinoù er roll a-us
+           *[other] Aotren endalc’hadoù a-bell diouzh ar { $count } orin er roll a-us
+        }
