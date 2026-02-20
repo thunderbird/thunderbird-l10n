@@ -147,6 +147,16 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Potvrdenka
     .tooltiptext = Požiadať o potvrdenie o prijatí tejto správy
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Odstrániť prílohu
+            [few] Odstrániť prílohy
+           *[other] Odstrániť prílohy
+        }
+    .accesskey = d
 
 ## Encryption
 
