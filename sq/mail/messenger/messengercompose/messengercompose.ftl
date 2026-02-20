@@ -151,6 +151,9 @@ remove-attachment-cmd =
            *[other] Hiqi Bashkëngjitjet
         }
     .accesskey = H
+default-delete-cmd =
+    .label = Fshije
+    .accesskey = F
 
 ## Encryption
 
@@ -318,6 +321,13 @@ blocked-content-message =
     { $count ->
         [one] { -brand-short-name } ka bllokuar ngarkimin në mesazh të një kartele. Zhbllokimi i kartelës do të sjellë përfshirjen e saj në mesazhin tuaj të dërguar.
        *[other] { -brand-short-name } ka bllokuar ngarkimin në mesazh të disa kartelave. Zhbllokimi i një kartele do të sjellë përfshirjen e saj në mesazhin tuaj të dërguar.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] U gjet fjalëkyç bashkëngjitjeje:
+       *[other] U gjetën { $count } fjalëkyçe bashkëngjitjesh:
     }
 
 ## Editing
