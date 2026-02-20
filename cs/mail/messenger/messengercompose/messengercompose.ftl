@@ -142,6 +142,19 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Potvrzení o přijetí
     .tooltiptext = Zažádá o potvrzení o přijetí této zprávy
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Odebrat přílohu
+            [few] Odebrat přílohy
+           *[other] Odebrat přílohy
+        }
+    .accesskey = d
+default-delete-cmd =
+    .label = Smazat
+    .accesskey = m
 
 ## Encryption
 
