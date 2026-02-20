@@ -702,12 +702,12 @@ spam-processing-message = Wrthi'n prosesu negeseuon sbam
 #    $subject - the message thread title (subject)
 ignored-theads-feedback =
     { $count ->
-        [one] Ni fydd atebion i'r edefyn "{ $subject }" yn cael eu dangos.
-        [zero] Ni fydd atebion i'r { $count } edafedd a ddewiswyd yn cael eu dangos.
-        [two] Ni fydd atebion i'r { $count } edafedd a ddewiswyd yn cael eu dangos.
-        [few] Ni fydd atebion i'r { $count } edafedd a ddewiswyd yn cael eu dangos.
-        [many] Ni fydd atebion i'r { $count } edafedd a ddewiswyd yn cael eu dangos.
-       *[other] Ni fydd atebion i'r { $count } edafedd a ddewiswyd yn cael eu dangos.
+        [one] Bydd atebion i'r edefyn "{ $subject }" ddim yn cael eu dangos.
+        [zero] Bydd atebion i'r { $count } edefyn dewiswyd ddim yn cael eu dangos.
+        [two] Bydd atebion i'r { $count } edefyn dewiswyd ddim yn cael eu dangos.
+        [few] Bydd atebion i'r { $count } edefyn dewiswyd ddim yn cael eu dangos.
+        [many] Bydd atebion i'r { $count } edefyn dewiswyd ddim yn cael eu dangos.
+       *[other] Bydd atebion i'r { $count } edefyn dewiswyd ddim yn cael eu dangos.
     }
 # Variables:
 #    $count - the number of threads that were selected
