@@ -141,6 +141,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Quitantia
     .tooltiptext = Requirer un quitantia de retorno pro iste message
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Remover annexo
+           *[other] Remover annexos
+        }
+    .accesskey = x
+default-delete-cmd =
+    .label = Deler
+    .accesskey = D
 
 ## Encryption
 
