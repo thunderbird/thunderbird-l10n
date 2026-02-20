@@ -713,6 +713,15 @@ ignored-subtheads-feedback =
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } pśidank
+        [two] { $count } pśidanka
+        [few] { $count } pśidanki
+       *[other] { $count } pśidankow
+    }
 
 ## Remote content blocking
 
