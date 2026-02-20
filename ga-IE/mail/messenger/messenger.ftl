@@ -310,6 +310,16 @@ message-group-starred = Marcáilte
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } iatán
+        [two] { $count } iatán
+        [few] { $count } iatán
+        [many] { $count } n-iatán
+       *[other] { $count } iatán
+    }
 
 ## Remote content blocking
 
