@@ -150,6 +150,9 @@ remove-attachment-cmd =
            *[other] Fjern vedlegg
         }
     .accesskey = v
+default-delete-cmd =
+    .label = Slett
+    .accesskey = S
 
 ## Encryption
 
@@ -316,6 +319,13 @@ blocked-content-message =
     { $count ->
         [one] { -brand-short-name } har blokkert en fil frå å laste i denne meldingen. Om du tar vekk blokkeringen vil filen bli sendt sammen med meldingen.
        *[other] { -brand-short-name } har blokkert noen filer frå å laste i denne meldingen. Om du tar vekk blokkeringen vil filene bli sendt sammen med meldingen.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Nøkkelord for vedleggspåminnelse:
+       *[other] Fant { $count } nøkkelord for vedleggspåminnelse:
     }
 
 ## Editing
