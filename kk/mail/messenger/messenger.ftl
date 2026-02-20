@@ -655,3 +655,22 @@ prompt-dont-ask-again = Келесі рет сұрамау.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Спам талдауы { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } дайын
 spam-processing-message = Спам хабарламаларын өңдеу
+
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] "{ $subject }" ағынына жауаптар көрсетілмейтін болады.
+       *[other] Таңдалған { $count } ағынына жауаптар көрсетілмейтін болады.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] "{ $subject }" ішкі ағынына жауаптар көрсетілмейтін болады.
+       *[other] Таңдалған "{ $subject }" ішкі ағынына жауаптар көрсетілмейтін болады.
+    }
