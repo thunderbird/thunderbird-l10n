@@ -608,6 +608,14 @@ and-others = та ін.
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } вкладення
+        [few] { $count } вкладення
+       *[many] { $count } вкладень
+    }
 
 ## Remote content blocking
 
