@@ -732,6 +732,17 @@ ignored-subtheads-feedback =
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [zero] Dim atodiadau
+        [one] { $count } atodiad
+        [two] { $count } atodiad
+        [few] { $count } atodiad
+        [many] { $count } atodiad
+       *[other] { $count } atodiad
+    }
 
 ## Remote content blocking
 
@@ -739,3 +750,15 @@ ignored-subtheads-feedback =
 #    $origin - origin of the remote content to allow
 allow-remote-content-resource =
     .label = Caniatáu cynnwys pell o { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [zero] Peidio â chaniatáu cynnwys pell o'r ffynonellau uchod
+            [one] Caniatáu cynnwys pell o'r { $count } ffynhonnell uchod
+            [two] Caniatáu cynnwys pell o'r { $count } ffynhonnell uchod
+            [few] Caniatáu cynnwys pell o'r { $count } ffynhonnell uchod
+            [many] Caniatáu cynnwys pell o'r { $count } ffynhonnell uchod
+           *[other] Caniatáu cynnwys pell o'r { $count } ffynhonnell uchod
+        }
