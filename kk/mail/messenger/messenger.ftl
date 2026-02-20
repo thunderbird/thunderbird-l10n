@@ -684,6 +684,13 @@ ignored-subtheads-feedback =
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } салыным
+       *[other] { $count } салыным
+    }
 
 ## Remote content blocking
 
@@ -691,3 +698,11 @@ ignored-subtheads-feedback =
 #    $origin - origin of the remote content to allow
 allow-remote-content-resource =
     .label = { $origin } адресінен қашықтағы құраманы рұқсат ету
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Жоғарыда тізілген { $count } көзден қашықтағы құраманы рұқсат ету
+           *[other] Жоғарыда тізілген барлық { $count } көзден қашықтағы құраманы рұқсат ету
+        }
