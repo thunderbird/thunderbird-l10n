@@ -82,3 +82,14 @@ filter-editor-pick-template-reply = Elegir una plantilla para responder.
 filter-continue-execution = Error al aplicar el filtro { $filterName }. ¿Quiere continuar aplicando los filtros?
 filter-list-backup-message = Sus filtros no funcionan porque el archivo msgFilterRules.dat, que contiene sus filtros, no se puede leer. Se creará un nuevo archivo msgFilterRules.dat y se hará una copia del antiguo en el mismo directorio, llamado rulesbackup.dat.
 filter-invalid-custom-header = Uno de sus filtros utiliza  una cabecera personalizada que contiene un carácter no válido, como ':', un carácter no imprimible, un carácter no ASCII o un carácter ASCII de 8 bits. Edite el archivo msgFilterRules.dat, que contiene sus filtros, para eliminar los caracteres no válidos de sus cabeceras personalizadas.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } elemento
+       *[other] { $count } elementos
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } de { $total }
