@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = Fil…
     .accesskey = F
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Hent næste nyhedsgruppe-meddelelse
+       *[other] Hent næste { $count } nyhedsgruppe-meddelelser
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -656,3 +663,12 @@ prompt-dont-ask-again = Spørg ikke igen.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Spam-analyse { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } fuldført
 spam-processing-message = Behandler spam-meddelelser
+
+## Ignore threads
+
+
+## Attachments
+
+
+## Remote content blocking
+
