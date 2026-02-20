@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Send Format
+
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -70,6 +73,47 @@ button-return-receipt =
     .label = Ստացական
     .tooltiptext = Հետադարձ ստացական հայցել նամակի համար
 
+## Encryption
+
+
 ## Addressing Area
 
 many-public-recipients-prompt-cancel = Չեղարկել ուղարկումը
+
+## Notifications
+
+
+## Editing
+
+
+# Tools
+
+
+## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
+
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Սա մեծ ֆայլ է։ Լավ կլինի, որ օգտագործեք Ֆայլի հղումը։
+           *[other] Կան մեծ ֆայլեր։ Ավելի լավ է օգտագործեք Ֆայլի հղումը։
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification = Ձեր ֆայլը կհղվի։ Այն տեսանելի կլինի նամակում, երբ պատրաստ լինի։ Ձեր ֆայլերը կհղվեն։ Դրանք տեսանելի կլինեն նամակում, երբ պատրաստ լինեն։
+
+## Link Preview
+
+
+## Dictionary selection popup
+
