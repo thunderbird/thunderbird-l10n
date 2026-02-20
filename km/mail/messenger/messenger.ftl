@@ -247,6 +247,9 @@ prompt-empty-folder-message = លុបសារ និងថតឯកសារ�
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count = ឯកសារ​ភ្ជាប់ { $count }
 
 ## Remote content blocking
 
