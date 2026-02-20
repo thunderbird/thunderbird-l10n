@@ -150,6 +150,9 @@ remove-attachment-cmd =
            *[other] Supprimer les pièces jointes
         }
     .accesskey = j
+default-delete-cmd =
+    .label = Supprimer
+    .accesskey = E
 
 ## Encryption
 
