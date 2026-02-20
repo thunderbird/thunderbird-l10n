@@ -671,6 +671,15 @@ spam-processing-message = Obdelovanje neželene pošte
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } priponka
+        [two] { $count } priponki
+        [few] { $count } priponke
+       *[other] { $count } priponk
+    }
 
 ## Remote content blocking
 
