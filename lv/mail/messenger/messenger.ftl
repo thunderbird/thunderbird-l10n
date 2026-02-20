@@ -249,6 +249,27 @@ and-others = un citi.
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [zero] { $count } pielikums
+        [one] { $count } pielikumi
+       *[other] { $count } pielikumi
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Ļaut attālo saturu no { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [zero] Atļaut attālo saturu no augstāk norādītā { $count } avota
+            [one] Atļaut attālo saturu no augstāk norādītajiem { $count } avotiem
+           *[other] Atļaut attālo saturu no augstāk norādītajiem { $count } avotiem
+        }
