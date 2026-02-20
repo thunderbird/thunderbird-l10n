@@ -204,6 +204,7 @@ account-hub-oauth-pending = Oczekiwanie na upoważnienie w wyskakującym oknie 
 account-hub-addon-install-button = Zainstaluj
 account-hub-addon-install-needed = { -brand-short-name } nie obsługuje natywnie tego serwera. Aby uzyskać dostęp do poczty e-mail Exchange, <a data-l10n-name="addon-install"> zainstaluj dodatek zewnętrznego producenta, taki jak Owl (płatny).</a>
 account-hub-addon-error = Instalacja dodatku się nie powiodła. Spróbuj ponownie lub skontaktuj się z autorem dodatku, aby uzyskać pomoc.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Ostrzeżenie: wykryto niezabezpieczony serwer pocztowy.</span> Ten serwer nie obsługuje szyfrowania, co naraża hasło i dane użytkownika. Skontaktuj się z administratorem, aby zabezpieczyć połączenie, lub kontynuuj na własne ryzyko. <a data-l10n-name="error-link">Więcej informacji znajdziesz w dokumencie FAQ.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Ostrzeżenie: wykryto niezabezpieczony serwer pocztowy.</span> Ten serwer nie obsługuje szyfrowania, co naraża hasło i dane użytkownika. Skontaktuj się z administratorem, aby zabezpieczyć połączenie, lub kontynuuj na własne ryzyko. <a data-l10n-name="faq-link">Więcej informacji znajdziesz w dokumencie FAQ.</a>
 account-hub-account-authentication-error = Błąd uwierzytelniania.
 account-hub-add-address-book = Dodaj książkę adresową
