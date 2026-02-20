@@ -301,6 +301,13 @@ compose-missing-identity-warning = Nem található egyedi személyazonosság, am
 encrypted-bcc-warning = Titkosított üzenet küldésekor a rejtett másolatot kapóként hozzáadott címzettjei nincsenek teljesen elrejtve. Minden címzett képes lehet azonosítani őket.
 encrypted-bcc-ignore-button = Értettem
 auto-disable-e2ee-warning = Az üzenet végpontok közti titkosítása automatikusan le lett tiltva.
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Mellékletre utaló kulcsszó van jelen:
+       *[other] { $count } mellékletre utaló kulcsszó van jelen:
+    }
 
 ## Editing
 
@@ -396,6 +403,21 @@ cloud-file-account-error-title = Filelink fiókhiba
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Nem sikerült frissíteni a(z) { $filename } Filelink mellékletet, mert a Filelink-fiókot törölték.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Ez egy nagy fájl. Jobb volna inkább az óriásfájl-küldést használni.
+           *[other] Ezek nagy fájlok. Jobb volna inkább az óriásfájl-küldést használni.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] A fájlra mutató hivatkozás készítése. Ez az üzenet törzsében jelenik meg, amikor a feltöltés kész.
+       *[other] A fájljaira mutató hivatkozások készítése. Ezek az üzenet törzsében jelennek meg, amikor a feltöltésük kész.
+    }
 
 ## Link Preview
 
