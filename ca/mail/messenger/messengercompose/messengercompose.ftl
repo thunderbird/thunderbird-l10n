@@ -142,6 +142,15 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Confirmació de recepció
     .tooltiptext = Sol·licita una confirmació de recepció per a aquest missatge
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Elimina l'adjunció
+           *[other] Elimina les adjuncions
+        }
+    .accesskey = m
 
 ## Encryption
 
