@@ -270,6 +270,13 @@ many-public-recipients-prompt-send = Azen akken ibɣu yili
 # $identity (string) - The name of the used identity, most likely an email address.
 compose-missing-identity-warning = Timagit tasuft icedden ar tensa Si ur tettwaf ara. Izen ad yettwazen s useqdec n wurti Si akked iɣewwaṛen n tmagit { $identity }.
 encrypted-bcc-ignore-button = Yettwafham
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } isewḥel afaylu seg usali n yizen-agi. Aseṛṛeḥ n ufaylu-agi ad t-iseddu deg izen inek yettwaznen.
+       *[other] { -brand-short-name } isewḥel kra n ifuyla seg usali n yizen-agi. Aseṛṛeḥ n ufaylu-agi ad t-iseddu deg izen inek yettwaznen.
+    }
 
 ## Editing
 
