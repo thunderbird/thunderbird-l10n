@@ -302,6 +302,13 @@ encrypted-bcc-warning = Titkosított üzenet küldésekor a rejtett másolatot k
 encrypted-bcc-ignore-button = Értettem
 auto-disable-e2ee-warning = Az üzenet végpontok közti titkosítása automatikusan le lett tiltva.
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] A { -brand-short-name } blokkolta egy fájl betöltődését ebbe a levélbe. A blokkolás feloldása be fogja venni a fájlt az elküldött üzenetbe.
+       *[other] A { -brand-short-name } blokkolta néhány fájl betöltődését ebbe a levélbe. A blokkolás feloldása be fogja venni a fájlt az elküldött üzenetbe.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
