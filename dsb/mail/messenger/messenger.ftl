@@ -720,3 +720,13 @@ ignored-subtheads-feedback =
 #    $origin - origin of the remote content to allow
 allow-remote-content-resource =
     .label = Daloke wopśimjeśe z { $origin } dowóliś
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Daloke wopśimjeśe górjejce naspomnjetego póchada { $count } zmóžniś
+            [two] Daloke wopśimjeśe górjejce naspomnjeteju póchadowu { $count } zmóžniś
+            [few] Daloke wopśimjeśe górjejce naspomnjetych póchadow { $count } zmóžniś
+           *[other] Daloke wopśimjeśe górjejce naspomnjetych póchadow { $count } zmóžniś
+        }
