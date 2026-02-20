@@ -310,6 +310,14 @@ compose-missing-identity-warning = Nu a fost găsită o identitate unică care s
 encrypted-bcc-warning = Când se trimite un mesaj criptat, destinatarii din Bcc nu sunt complet ascunși. Este posibil ca toți destinatarii să îi poată identifica.
 encrypted-bcc-ignore-button = Am înțeles
 auto-disable-e2ee-warning = Criptarea end-to-end pentru acest mesaj a fost dezactivată automat.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } a blocat încărcarea unui fișier în mesaj. Deblocarea fișierului îl va include în mesajul trimis.
+        [few] { -brand-short-name } a blocat încărcarea unor fișiere în mesaj. Deblocarea fișierelor le va include în mesajul trimis.
+       *[other] { -brand-short-name } a blocat încărcarea unor fișiere în mesaj. Deblocarea fișierelor le va include în mesajul trimis.
+    }
 
 ## Editing
 
