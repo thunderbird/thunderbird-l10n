@@ -138,6 +138,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Vastaanottokuittaus
     .tooltiptext = Pyydä tämän viestin vastaanottokuittausta
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Poista liitetiedosto
+           *[other] Poista liitetiedostot
+        }
+    .accesskey = l
+default-delete-cmd =
+    .label = Poista
+    .accesskey = o
 
 ## Encryption
 
