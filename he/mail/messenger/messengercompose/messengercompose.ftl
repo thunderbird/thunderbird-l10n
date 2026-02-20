@@ -77,6 +77,9 @@ remove-attachment-cmd =
            *[other] הסרת הקבצים המצורפים
         }
     .accesskey = מ
+default-delete-cmd =
+    .label = מחיקה
+    .accesskey = ח
 
 ## Encryption
 
