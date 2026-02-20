@@ -142,6 +142,15 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Recibo
     .tooltiptext = Solicitar un de recibo de respuesta para este mensaje
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Quitar adjunto
+           *[other] Quitar adjuntos
+        }
+    .accesskey = M
 
 ## Encryption
 
@@ -275,6 +284,13 @@ compose-missing-identity-warning = No se encontró una identidad única que coin
 encrypted-bcc-warning = Al enviar un mensaje cifrado, los destinatarios en Cco no están completamente ocultos. Todos los destinatarios pueden identificarlos.
 encrypted-bcc-ignore-button = Entendido
 auto-disable-e2ee-warning = El cifrado de extremo a extremo para este mensaje se deshabilitó automáticamente.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } ha bloqueado un archivo de ser cargado en este mensaje. Desbloquear el archivo lo incluirá en tu mensaje enviado.
+       *[other] { -brand-short-name } ha bloqueado algunos archivos de ser cargados en este mensaje. Desbloquear un archivo lo incluirá en tu mensaje enviado.
+    }
 # Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
