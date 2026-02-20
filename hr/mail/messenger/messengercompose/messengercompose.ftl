@@ -147,6 +147,19 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Potvrda
     .tooltiptext = Zatraži potvrdu za ovu poruku
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Ukloni privitak
+            [few] Ukloni privitke
+           *[other] Ukloni privitke
+        }
+    .accesskey = U
+default-delete-cmd =
+    .label = Obriši
+    .accesskey = O
 
 ## Encryption
 
@@ -424,6 +437,23 @@ cloud-file-account-error-title = Filelink greška računa
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Nije uspjelo ažuriranje Filelink privitka { $filename }, iz razloga što je Filelink račun obrisan.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Ovo je velika datoteka. Možda je bolje da koristite Filelink.
+            [few] Ovo su velike datoteke. Možda je bolje da koristite Filelink.
+           *[other] Ovo su velike datoteke. Možda je bolje da koristite Filelink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Vaša datoteka se povezuje. Pojavit će se u tijelu poruke kada povezivanje završi.
+        [few] Vaše datoteke se povezuju. Pojavit će se u tijelu poruke kada povezivanje završi.
+       *[other] Vaše datoteke se povezuju. Pojavit će se u tijelu poruke kada povezivanje završi.
+    }
 
 ## Link Preview
 
