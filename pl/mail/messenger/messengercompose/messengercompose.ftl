@@ -330,6 +330,14 @@ blocked-content-message =
         [few] { -brand-short-name } zablokował wczytanie plików w tej wiadomości. Odblokowanie pliku spowoduje dołączenie go w wysyłanej wiadomości.
        *[many] { -brand-short-name } zablokował wczytanie plików w tej wiadomości. Odblokowanie pliku spowoduje dołączenie go w wysyłanej wiadomości.
     }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Znaleziono słowo wskazujące na brakujący załącznik:
+        [few] Znaleziono { $count } słowa wskazujące na brakujący załącznik:
+       *[many] Znaleziono { $count } słów wskazujących na brakujący załącznik:
+    }
 
 ## Editing
 
@@ -426,6 +434,23 @@ cloud-file-account-error-title = Błąd konta serwisu przechowywania plików
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Zaktualizowanie załącznika { $filename } w serwisie przechowywania plików się nie powiodło, ponieważ jego konto zostało usunięte.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] To jest duży plik – być może lepiej byłoby użyć serwisu przechowywania plików?
+            [few] To są duże pliki – być może lepiej byłoby użyć serwisu przechowywania plików?
+           *[many] To są duże pliki – być może lepiej byłoby użyć serwisu przechowywania plików?
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Tworzenie odnośnika dla pliku. Gdy odnośnik będzie gotowy, pojawi się w treści wiadomości.
+        [few] Tworzenie odnośników dla plików. Gdy odnośniki będą gotowe, pojawią się w treści wiadomości.
+       *[many] Tworzenie odnośników dla plików. Gdy odnośniki będą gotowe, pojawią się w treści wiadomości.
+    }
 
 ## Link Preview
 
