@@ -280,6 +280,9 @@ compose-missing-identity-warning = ไม่พบข้อมูลประจ
 encrypted-bcc-warning = เมื่อส่งข้อความที่เข้ารหัสลับ ผู้รับในช่อง "สำเนาลับถึง" จะไม่ถูกซ่อนโดยสมบูรณ์ ผู้รับทั้งหมดอาจจะยังสามารถระบุตัวตนของผู้รับเหล่านั้นได้
 encrypted-bcc-ignore-button = เข้าใจแล้ว
 auto-disable-e2ee-warning = การเข้ารหัสลับต้นทางถึงปลายทางสำหรับข้อความนี้ถูกปิดใช้งานโดยอัตโนมัติ
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message = { -brand-short-name } ได้ปิดกั้นบางไฟล์ไม่ให้โหลดไปยังข้อความนี้ การเลิกปิดกั้นไฟล์จะรวมไฟล์ดังกล่าวในข้อความที่ส่งแล้วของคุณ
 
 ## Editing
 
