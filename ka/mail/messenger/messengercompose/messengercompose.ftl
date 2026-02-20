@@ -150,6 +150,9 @@ remove-attachment-cmd =
            *[other] დანართების მოცილება
         }
     .accesskey = ღ
+default-delete-cmd =
+    .label = წაშლა
+    .accesskey = წ
 
 ## Encryption
 
