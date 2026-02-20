@@ -130,6 +130,14 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Tanda Terima
     .tooltiptext = Minta tanda terima untuk pesan ini
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label = Buang Lampiran
+    .accesskey = H
+default-delete-cmd =
+    .label = Hapus
+    .accesskey = H
 
 ## Encryption
 
