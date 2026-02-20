@@ -445,6 +445,27 @@ and-others = и др.
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } прилог
+        [few] { $count } прилога
+       *[other] { $count } прилога
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Дозволи удаљени садржај са { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Дозволи удаљени садржај са { $count } места излистаног изнад
+            [few] Дозволи удаљени садржај са { $count } места излистана изнад
+           *[other] Дозволи удаљени садржај са { $count } места излистаних изнад
+        }
