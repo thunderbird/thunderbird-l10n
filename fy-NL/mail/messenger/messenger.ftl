@@ -685,6 +685,13 @@ ignored-subtheads-feedback =
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } bylage
+       *[other] { $count } bylagen
+    }
 
 ## Remote content blocking
 
