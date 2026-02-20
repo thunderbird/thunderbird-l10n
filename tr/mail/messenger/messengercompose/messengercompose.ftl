@@ -151,6 +151,9 @@ remove-attachment-cmd =
            *[other] Ekleri sil
         }
     .accesskey = k
+default-delete-cmd =
+    .label = Sil
+    .accesskey = S
 
 ## Encryption
 
