@@ -679,6 +679,14 @@ spam-processing-message = Se procesează mesajele nedorite
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } atașament
+        [few] { $count } atașamente
+       *[other] { $count } de atașamente
+    }
 
 ## Remote content blocking
 
@@ -686,3 +694,12 @@ spam-processing-message = Se procesează mesajele nedorite
 #    $origin - origin of the remote content to allow
 allow-remote-content-resource =
     .label = Permite conținuturi de la distanță de la { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Permite conținut aflat la distanță de la sursa de mai sus
+            [few] Permite conținut aflat la distanță de la cele { $count } surse de mai sus
+           *[other] Permite conținut aflat la distanță de la cele { $count } de surse de mai sus
+        }
