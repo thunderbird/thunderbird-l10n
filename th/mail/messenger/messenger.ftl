@@ -624,6 +624,17 @@ spam-processing-message = กำลังประมวลผลข้อคว
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count = { $count } ไฟล์แนบ
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = อนุญาตเนื้อหาระยะไกลจาก { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label = อนุญาตเนื้อหาระยะไกลจาก { $count } ที่มาที่ระบุไว้ด้านบน
