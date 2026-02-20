@@ -309,6 +309,13 @@ encrypted-bcc-warning = Beim Senden einer verschlüsselten Nachricht sind die Em
 encrypted-bcc-ignore-button = OK
 auto-disable-e2ee-warning = Die Ende-zu-Ende-Verschlüsselung für diese Nachricht wurde automatisch deaktiviert.
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } hat das Laden einer Datei in diese Nachricht verhindert. Das Beenden dieser Blockierung wird sie zu dieser zu sendenden Nachricht hinzufügen.
+       *[other] { -brand-short-name } hat das Laden von Dateien in diese Nachricht verhindert. Das Beenden dieser Blockierung wird sie zu dieser zu sendenden Nachricht hinzufügen.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
