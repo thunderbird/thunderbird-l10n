@@ -148,6 +148,9 @@ remove-attachment-cmd =
            *[other] Kkes imeddayen
         }
     .accesskey = d
+default-delete-cmd =
+    .label = Kkes
+    .accesskey = K
 
 ## Encryption
 
