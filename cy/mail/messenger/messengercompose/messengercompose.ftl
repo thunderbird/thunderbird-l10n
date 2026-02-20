@@ -162,6 +162,22 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Derbynneb
     .tooltiptext = Gofyn am dderbynneb dychwelyd i'r neges hon
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [zero] Dim Atodiadau
+            [one] Tynnu Atodiad
+            [two] Tynnu Atodiadau
+            [few] Tynnu Atodiadau
+            [many] Tynnu Atodiadau
+           *[other] Tynnu Atodiadau
+        }
+    .accesskey = y
+default-delete-cmd =
+    .label = Dileu
+    .accesskey = D
 
 ## Encryption
 
