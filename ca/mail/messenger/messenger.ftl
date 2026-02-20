@@ -587,3 +587,15 @@ attachment-view-attachment-count =
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Permet el contingut remot de { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Permet el contingut remot d'{ $count } origen de la llista anterior
+           *[other] Permet el contingut remot dels { $count } orígens de la llista anterior
+        }
