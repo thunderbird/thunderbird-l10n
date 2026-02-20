@@ -142,6 +142,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Hartu-agiria
     .tooltiptext = Eskatu hartu-agiria mezu honetarako
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Kendu eranskina
+           *[other] Kendu eranskinak
+        }
+    .accesskey = K
+default-delete-cmd =
+    .label = Ezabatu
+    .accesskey = E
 
 ## Encryption
 
