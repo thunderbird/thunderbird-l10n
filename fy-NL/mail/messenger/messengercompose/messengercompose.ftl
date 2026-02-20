@@ -142,6 +142,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Untfangstbefêstiging
     .tooltiptext = In ûntfangstbefêstiging foar dit berjocht freegje
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Bylage fuortsmite
+           *[other] Bylagen fuortsmite
+        }
+    .accesskey = f
+default-delete-cmd =
+    .label = Fuortsmite
+    .accesskey = F
 
 ## Encryption
 
