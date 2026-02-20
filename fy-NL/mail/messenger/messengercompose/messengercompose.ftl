@@ -303,6 +303,13 @@ compose-missing-identity-warning = Der is gjin unike identiteit lyk oan it Fan-a
 encrypted-bcc-warning = As jo in fersifere berjocht ferstjoere, wurde ûntfangers yn Bcc net folslein ferstoppe. Alle ûntfangers kinne se mooglik identifisearje.
 encrypted-bcc-ignore-button = Begrepen
 auto-disable-e2ee-warning = Ein-ta-ein-fersifering foar dit berjocht is automatysk útskeakele.
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Bylagekaaiwurd fûn:
+       *[other] { $count } bylagekaaiwurden fûn:
+    }
 
 ## Editing
 
