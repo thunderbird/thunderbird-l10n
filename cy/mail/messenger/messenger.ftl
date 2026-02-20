@@ -714,10 +714,10 @@ ignored-theads-feedback =
 #    $subject - the message thread title (subject)
 ignored-subtheads-feedback =
     { $count ->
-        [one] Ni fydd atebion i'r is-linyn "{ $subject }" yn cael eu dangos.
-        [zero] Ni fydd atebion i'r { $count } is-edau a ddewiswyd yn cael eu dangos.
-        [two] Ni fydd atebion i'r { $count } is-edau a ddewiswyd yn cael eu dangos.
-        [few] Ni fydd atebion i'r { $count } is-edau a ddewiswyd yn cael eu dangos.
-        [many] Ni fydd atebion i'r { $count } is-edau a ddewiswyd yn cael eu dangos.
-       *[other] Ni fydd atebion i'r { $count } is-edau a ddewiswyd yn cael eu dangos.
+        [one] Bydd atebion i'r is-edefyn  "{ $subject }" ddim yn cael eu dangos.
+        [zero] Bydd atebion i'r { $count } is-edefyn dewiswyd ddim yn cael eu dangos.
+        [two] Bydd atebion i'r { $count } is-edefyn dewiswyd ddim yn cael eu dangos.
+        [few] Bydd atebion i'r { $count } is-edefyn dewiswyd ddim yn cael eu dangos.
+        [many] Bydd atebion i'r { $count } is-edefyn dewiswyd ddim yn cael eu dangos.
+       *[other] Bydd atebion i'r { $count } is-edefyn dewiswyd ddim yn cael eu dangos.
     }
