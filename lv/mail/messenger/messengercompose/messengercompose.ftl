@@ -50,6 +50,16 @@ pill-action-move-bcc =
 button-return-receipt =
     .label = Ziņa
     .tooltiptext = Pieprasīt saņemšanas apliecinājuma ziņu
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [zero] Noņemt pielikumu
+            [one] Noņemt pielikumus
+           *[other] Noņemt pielikumus
+        }
+    .accesskey = N
 
 ## Encryption
 
