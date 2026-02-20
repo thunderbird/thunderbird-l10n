@@ -682,3 +682,7 @@ spam-processing-message = Se procesează mesajele nedorite
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Permite conținuturi de la distanță de la { $origin }
