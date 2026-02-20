@@ -66,3 +66,14 @@ filter-editor-pick-template-reply = Ticha' jun kaxawäch achoq rik'in nitzolïx 
 filter-continue-execution = Xsach rusamajixik ri { $filterName } chayub'äl. ¿La k'a nawajo' ye'awokisaj taq chayub'äl?
 filter-list-backup-message = Man ütz ta yesamäj ri taq achayub'al ruma chi ri msgFilterRules.dat yakb'äl k'o taq achayub'al chupam, man tikirel ta nisik'ïx. Xtinuk' jun k'ak'a' msgFilterRules.dat yakb'äl chuqa' xtiwachib'ëx ri ojer yakb'äl pa ri cholb'äl, rub'ina'am rulesbackup.dat.
 filter-invalid-custom-header = Jun chi ke ri taq achayub'al nrokisaj jun ichinan jub'i'aj ruk'wan jun man okel ta chi tz'ib', achi'el ‘:’, jun man tz'ajel ta chi tz'ib', jun no-ASCII chi tz'ib' o jun tz'ib' tzijon rik'in ri ruwaqxaq-b'it. Tanuku' ri msgFilterRules.dat yakb'äl, ri eruk'wan ri taq achayub'al, richin yeyuj el ri man okel ta taq tz'ib' pa ri ichinan taq ajub'i'aj.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } ruch'akul
+       *[other] { $count } taq ruch'akul
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } richin { $total }
