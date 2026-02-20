@@ -62,3 +62,10 @@ filter-editor-pick-template-reply = 회신에 사용할 양식을 선택하십�
 filter-continue-execution = { $filterName } 필터 적용 실패. 필터 적용을 다시 시도하시겠습니까?
 filter-list-backup-message = rules.dat 파일을 읽을 수 없어 필터를 실행할 수 없습니다. 파일을 백업하면 새로운 파일이 같은 디렉터리에 생성됩니다.
 filter-invalid-custom-header = 필터에 유효하지 않은 문자, 인쇄 불가 문자 또는 8-비트 문자 등을 사용하고 있습니다. 이 문자들을 삭제하기 위해서는 필터가 있는 rules.dat 파일을 수정하십시오.
+# Variables:
+#   $count - the number items
+filter-count-items = { $count }개
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $total } 중 { $visible }
