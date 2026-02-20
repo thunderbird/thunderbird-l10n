@@ -597,6 +597,25 @@ and-others = jt
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } manus
+       *[other] { $count } manust
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Luba väline sisu allikast { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Luba väline sisu ülaltoodud allikast
+           *[other] Luba väline sisu kõigist ülaltoodud { $count } allikast
+        }
