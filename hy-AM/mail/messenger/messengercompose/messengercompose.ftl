@@ -82,6 +82,20 @@ many-public-recipients-prompt-cancel = Չեղարկել ուղարկումը
 
 ## Notifications
 
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name }- ն արգելափակում է ֆայլի բեռնումը այս հաղորդագրության մեջ: Ֆայլը ապակողպելն այն կներառի ձեր ուղարկած հաղորդագրության մեջ:
+       *[other] { -brand-short-name }-ն արգելափակում է որոշ ֆայլերի բեռնումը այս հաղորդագրության մեջ: Ֆայլը ապակողպելն այն կներառի ձեր ուղարկված հաղորդագրության մեջ:
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Գտնվել է կցորդ հիմնաբառը.
+       *[other] Գտնվել է { $count } կցորդ հիմնաբառ.
+    }
 
 ## Editing
 
