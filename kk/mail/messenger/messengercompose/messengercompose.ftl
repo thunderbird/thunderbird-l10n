@@ -139,6 +139,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Түбіртек
     .tooltiptext = Бұл хабарлама үшін оқу туралы түбіртегін сұрау
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Салынымды өшіру
+           *[other] Салынымдарды өшіру
+        }
+    .accesskey = ш
+default-delete-cmd =
+    .label = Өшіру
+    .accesskey = ш
 
 ## Encryption
 
