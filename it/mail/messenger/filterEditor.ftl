@@ -83,6 +83,13 @@ filter-continue-execution = Esecuzione del filtro { $filterName } non riuscita. 
 filter-list-backup-message = I filtri non funzionano perché non è stato possibile accedere al file msgFilterRules.dat che li contiene. Verrà generato un nuovo file msgFilterRules.dat e, nella stessa cartella, sarà salvata una copia di backup del vecchio file con il nome rulesbackup.dat.
 filter-invalid-custom-header = Uno dei tuoi filtri utilizza un’intestazione personalizzata che include un carattere non valido (ad esempio “:”), un carattere non stampabile, un carattere non ASCII o un carattere ASCII a otto bit. Prova a modificare il file msgFilterRules.dat che contiene i tuoi filtri, eliminando i caratteri non validi dalle intestazioni personalizzate
 # Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } oggetto
+       *[other] { $count } oggetti
+    }
+# Variables:
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } su { $total }
