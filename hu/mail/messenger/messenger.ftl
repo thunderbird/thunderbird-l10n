@@ -669,6 +669,17 @@ spam-processing-message = Levélszemetek feldolgozása
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } melléklet
+       *[other] { $count } melléklet
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Távoli tartalom engedélyezése tőle: { $origin }
