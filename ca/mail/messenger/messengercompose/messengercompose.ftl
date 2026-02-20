@@ -303,6 +303,13 @@ encrypted-bcc-warning = Quan s'envia un missatge xifrat, els destinataris del ca
 encrypted-bcc-ignore-button = Entès
 auto-disable-e2ee-warning = El xifratge d'extrem a extrem d'aquest missatge s'ha desactivat automàticament.
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] El { -brand-short-name } ha blocat la càrrega d'un fitxer en aquest missatge. Si desbloqueu el fitxer, s'inclourà en el missatge que envieu.
+       *[other] El { -brand-short-name } ha blocat la càrrega d'alguns fitxers en aquest missatge. Si desbloqueu un fitxer, s'inclourà en el missatge que envieu.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
