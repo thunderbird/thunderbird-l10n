@@ -303,6 +303,20 @@ compose-missing-identity-warning = Non se atopou unha identidade única que coin
 encrypted-bcc-warning = Ao enviar unha mensaxe cifrada, os destinatarios en «Cco» non están completamente ocultos. É posible que os outros destinatarios poidan identificalos.
 encrypted-bcc-ignore-button = Entendido
 auto-disable-e2ee-warning = O cifrado de extremo a extremo para esta mensaxe desactivouse automaticamente.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] O { -brand-short-name } bloqueou a carga dun ficheiro nesta mensaxe. Se desbloquea o ficheiro, este será incluído na mensaxe enviada.
+       *[other] O { -brand-short-name } bloqueou a carga dalgúns ficheiros nesta mensaxe. Se desbloquea o ficheiro, este será incluído na mensaxe enviada.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Atopouse unha palabra clave de anexo:
+       *[other] Atopáronse { $count } palabras claves de anexo:
+    }
 
 ## Editing
 
@@ -398,6 +412,21 @@ cloud-file-account-error-title = Erro na conta Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Produciuse un erro ao actualizar o anexo Filelink { $filename } porque a súa conta Filelink foi eleminada.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Este ficheiro é moi grande. No seu lugar pode ser mellor usar Filelink.
+           *[other] Estes ficheiros son moi grandes. No seu lugar pode ser mellor usar Filelink.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Estase a ligar o ficheiro. Este aparecerá no corpo da mensaxe cando remate a operación.
+       *[other] Estanse a ligar os ficheiros. Estes aparecerán no corpo da mensaxe cando remate a operación.
+    }
 
 ## Link Preview
 
