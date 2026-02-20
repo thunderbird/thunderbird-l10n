@@ -669,6 +669,25 @@ spam-processing-message = Обработване на нежелани съоб�
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } прикачен файл
+       *[other] { $count } прикачени файла
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Разрешаване на отдалечено съдържание от { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Разрешаване на отдалечено съдържание от { $count } адрес по-горе
+           *[other] Разрешаване на отдалечено съдържание от всички { $count } адреса по-горе
+        }
