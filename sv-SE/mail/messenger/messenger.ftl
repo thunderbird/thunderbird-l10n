@@ -668,6 +668,13 @@ spam-processing-message = Bearbetar skräppostmeddelanden
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } bilaga
+       *[other] { $count } bilagor
+    }
 
 ## Remote content blocking
 
