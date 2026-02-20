@@ -668,6 +668,13 @@ ignored-subtheads-feedback =
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count = { $count } 個附件
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = 允許來自 { $origin } 的遠端內容
