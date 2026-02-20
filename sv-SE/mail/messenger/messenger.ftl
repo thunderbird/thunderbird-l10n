@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = Arkiv…
     .accesskey = A
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Hämta { $count } nytt inlägg
+       *[other] Hämta { $count } nya inlägg
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -655,3 +662,12 @@ prompt-dont-ask-again = Fråga inte igen.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Skräppostanalys { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } slutförd
 spam-processing-message = Bearbetar skräppostmeddelanden
+
+## Ignore threads
+
+
+## Attachments
+
+
+## Remote content blocking
+
