@@ -414,6 +414,23 @@ cloud-file-account-error-title = Chyba účtu úložiště
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Nepodařilo se aktualizovat soubor { $filename } posílaný přes úložiště, protože byl účet úložiště smazán.
+# Variables:
+#   $count - the number big attached files
+big-file-notification =
+    .label =
+        { $count ->
+            [one] Tento soubor je velký. Bylo by vhodnější použít úložiště a poslat pouze odkaz.
+            [few] Tyto soubory jsou velké. Bylo by vhodnější použít úložiště a poslat pouze odkaz.
+           *[other] Tyto soubory jsou velké. Bylo by vhodnější použít úložiště a poslat pouze odkaz.
+        }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Soubor je nahráván. Po dokončení se objeví v těle zprávy.
+        [few] Soubory jsou nahrávány. Po dokončení se objeví v těle zprávy.
+       *[other] Soubory jsou nahrávány. Po dokončení se objeví v těle zprávy.
+    }
 
 ## Link Preview
 
