@@ -302,6 +302,13 @@ compose-missing-identity-warning = S'ha trobat més d'una identitat que coincide
 encrypted-bcc-warning = Quan s'envia un missatge xifrat, els destinataris del camp «Cco»  no estan totalment ocults. Tots els destinataris podrien identificar-los.
 encrypted-bcc-ignore-button = Entès
 auto-disable-e2ee-warning = El xifratge d'extrem a extrem d'aquest missatge s'ha desactivat automàticament.
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] S'ha trobat una paraula clau d'adjunció:
+       *[other] S'ha trobat { $count } paraules clau d'adjunció:
+    }
 
 ## Editing
 
