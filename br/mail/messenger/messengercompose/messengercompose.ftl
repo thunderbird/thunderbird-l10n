@@ -45,6 +45,9 @@ remove-attachment-cmd =
            *[other] Lemel ar c'henstagadurioù
         }
     .accesskey = L
+default-delete-cmd =
+    .label = Dilemel
+    .accesskey = D
 
 ## Encryption
 
