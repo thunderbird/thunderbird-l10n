@@ -582,6 +582,17 @@ spam-processing-message = Käsitellään roskapostiviestejä
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } liite
+       *[other] { $count } liitettä
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Salli etäsisältö lähteestä { $origin }
