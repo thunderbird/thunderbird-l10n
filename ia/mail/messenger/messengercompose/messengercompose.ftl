@@ -303,6 +303,13 @@ encrypted-bcc-warning = Inviante un message cryptate, le destinatarios in Ccn no
 encrypted-bcc-ignore-button = Io comprende
 auto-disable-e2ee-warning = Cryptation de extremo-a-extremo pro iste message era automaticamente disactivate.
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } ha blocate le cargamento de un file in iste message. Si tu disbloca le file, illo essera includite in le message inviate.
+       *[other] { -brand-short-name } ha blocate le cargamento de alcun files in iste message. Si tu disbloca un file, illo essera includite in le message inviate.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
