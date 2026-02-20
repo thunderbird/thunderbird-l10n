@@ -323,6 +323,16 @@ and-others = hag all.
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } kenstagadur
+        [two] { $count } genstagadur
+        [few] { $count } c'henstagadur
+        [many] { $count } a genstagadurioù
+       *[other] { $count } kenstagadur
+    }
 
 ## Remote content blocking
 
