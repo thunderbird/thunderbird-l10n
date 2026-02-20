@@ -143,6 +143,9 @@ button-return-receipt =
 remove-attachment-cmd =
     .label = 移除附件
     .accesskey = m
+default-delete-cmd =
+    .label = 刪除
+    .accesskey = D
 
 ## Encryption
 
@@ -304,6 +307,9 @@ auto-disable-e2ee-warning = 已自動針對此訊息停用端到端加密功能�
 # Variables:
 #   $count - the number of files that will be unblocked
 blocked-content-message = { -brand-short-name } 已封鎖在訊息中載入某些檔案的操作。取消封鎖後，才會將該檔案載入至訊息中一同寄出。
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg = 找到 { $count } 個附件關鍵字：
 
 ## Editing
 
