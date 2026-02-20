@@ -151,6 +151,17 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Povratnica
     .tooltiptext = Zahtevaj potrdilo o prejemu za to sporočilo
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Odstrani priponko
+            [two] Odstrani priponki
+            [few] Odstrani priponke
+           *[other] Odstrani priponke
+        }
+    .accesskey = s
 
 ## Encryption
 
@@ -328,6 +339,15 @@ blocked-content-message =
         [two] { -brand-short-name } je zavrnil nalaganje datotek v to sporočilo. Če nalaganje dovolite, bosta datoteki vključeni v poslano sporočilo.
         [few] { -brand-short-name } je zavrnil nalaganje datotek v to sporočilo. Če nalaganje dovolite, bodo datoteke vključene v poslano sporočilo.
        *[other] { -brand-short-name } je zavrnil nalaganje datotek v to sporočilo. Če nalaganje dovolite, bodo datoteke vključene v poslano sporočilo.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Najdena je bila ključna beseda za priponko:
+        [two] Najdeni sta bili { $count } ključni besedi za priponko:
+        [few] Najdene so bile { $count } ključne besede za priponko:
+       *[other] Najdenih je bilo { $count } ključnih besed za priponko:
     }
 
 ## Editing
