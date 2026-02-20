@@ -157,6 +157,13 @@ menu-file-save-as-file =
     .label = Файл…
     .accesskey = Ф
 # Variables:
+#   $count - number of messages to get
+menu-file-get-next-n-news-msgs =
+    { $count ->
+        [one] Взимане на следващото { $count } съобщение
+       *[other] Взимане на следващите { $count } съобщения
+    }
+# Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
     .label =
@@ -656,3 +663,12 @@ prompt-dont-ask-again = Спиране на този въпрос.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Анализ на нежелана поща { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } завършен
 spam-processing-message = Обработване на нежелани съобщения
+
+## Ignore threads
+
+
+## Attachments
+
+
+## Remote content blocking
+
