@@ -141,6 +141,15 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Αποδεικτικό
     .tooltiptext = Απαίτηση αποδεικτικού προβολής για αυτό το μήνυμα
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Αφαίρεση συνημμένου
+           *[other] Αφαίρεση συνημμένων
+        }
+    .accesskey = ρ
 
 ## Encryption
 
