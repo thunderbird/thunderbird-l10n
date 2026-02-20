@@ -676,5 +676,5 @@ ignored-theads-feedback =
 ignored-subtheads-feedback =
     { $count ->
         [one] Les réponses au sous-fil de discussion « { $subject } » ne seront pas affichées.
-       *[other] Les réponses aux sous-fils de discussion { $count } qui étaient sélectionnés ne seront pas affichées.
+       *[other] Les réponses aux { $count } sous-fils de discussion qui étaient sélectionnés ne seront pas affichées.
     }
