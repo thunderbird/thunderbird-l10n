@@ -301,6 +301,9 @@ compose-missing-identity-warning = 找不到寄件地址對應的唯一識別資
 encrypted-bcc-warning = 寄出加密郵件時，不會完全隱藏密件副本收件者。所有的收件者都可能識別出他們。
 encrypted-bcc-ignore-button = 知道了！
 auto-disable-e2ee-warning = 已自動針對此訊息停用端到端加密功能。
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message = { -brand-short-name } 已封鎖在訊息中載入某些檔案的操作。取消封鎖後，才會將該檔案載入至訊息中一同寄出。
 
 ## Editing
 
