@@ -142,6 +142,18 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Разписка
     .tooltiptext = Връща потвърждение от получателя, когато отвори писмото, подобно на обратна разписка
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Премахване
+           *[other] Премахване
+        }
+    .accesskey = х
+default-delete-cmd =
+    .label = Изтриване
+    .accesskey = т
 
 ## Encryption
 
@@ -420,6 +432,13 @@ big-file-notification =
             [one] Това е голям файл. Може би е по-добре да използвате Filelink вместо това.
            *[other] Това са големи файлове. Може би е по-добре да използвате Filelink вместо това.
         }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Вашият файл е свързан. Ще се появи в тялото на съобщението, когато то е готово.
+       *[other] Вашите файлове са свързани. Ще се появят в тялото на съобщението, когато то е готово.
+    }
 
 ## Link Preview
 
