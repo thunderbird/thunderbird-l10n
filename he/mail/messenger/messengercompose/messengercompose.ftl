@@ -68,6 +68,15 @@ drop-file-label-attachment =
 
 ## Reorder Attachment Panel
 
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] הסרת הקובץ המצורף
+           *[other] הסרת הקבצים המצורפים
+        }
+    .accesskey = מ
 
 ## Encryption
 
