@@ -667,6 +667,25 @@ spam-processing-message = Po trajtohen mesazhet e padëshiruar
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } bashkëngjitje
+       *[other] { $count } bashkëngjitje
+    }
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Lejo lëndë të largët prej { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Lejo lëndë të largët prej { $count } origjine të treguar më poshtë
+           *[other] Lejo lëndë të largët prej krejt { $count } origjinave të treguara më poshtë
+        }
