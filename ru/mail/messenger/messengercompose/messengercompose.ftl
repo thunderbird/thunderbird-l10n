@@ -146,6 +146,16 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Уведомление о прочтении
     .tooltiptext = Запросить уведомление о прочтении этого сообщения
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Удалить вложение
+            [few] Удалить вложения
+           *[many] Удалить вложения
+        }
+    .accesskey = л
 
 ## Encryption
 
