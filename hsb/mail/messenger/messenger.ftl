@@ -713,6 +713,15 @@ ignored-subtheads-feedback =
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } přiwěsk
+        [two] { $count } přiwěškaj
+        [few] { $count } přiwěški
+       *[other] { $count } přiwěškow
+    }
 
 ## Remote content blocking
 
@@ -720,3 +729,13 @@ ignored-subtheads-feedback =
 #    $origin - origin of the remote content to allow
 allow-remote-content-resource =
     .label = Zdaleny wobsah z { $origin } dowolić
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Zdaleny wobsah horjeka naspomnjeneho pochada { $count } zmóžnić
+            [two] Zdaleny wobsah horjeka naspomnjeneju pochadow { $count } zmóžnić
+            [few] Zdaleny wobsah horjeka naspomnjenych pochadow { $count } zmóžnić
+           *[other] Zdaleny wobsah horjeka naspomnjenych pochadow { $count } zmóžnić
+        }
