@@ -395,3 +395,16 @@ attachment-view-attachment-count =
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = Rodyti nuotolinį turinį iš { $origin }
+# Variables:
+#    $count - the number of origins to allow
+remote-content-option-allow-all =
+    .label =
+        { $count ->
+            [one] Leisti rodyti nuotolinį turinį iš { $count } aukščiau paminėto šaltinio
+            [few] Leisti rodyti nuotolinį turinį iš { $count } aukščiau išvardytų šaltinių
+           *[other] Leisti rodyti nuotolinį turinį iš { $count } aukščiau išvardytų šaltinių
+        }
