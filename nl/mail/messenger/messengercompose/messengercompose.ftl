@@ -151,6 +151,9 @@ remove-attachment-cmd =
            *[other] Bijlagen verwijderen
         }
     .accesskey = v
+default-delete-cmd =
+    .label = Verwijderen
+    .accesskey = V
 
 ## Encryption
 
