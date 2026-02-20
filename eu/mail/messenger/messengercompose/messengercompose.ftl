@@ -304,6 +304,13 @@ encrypted-bcc-warning = Mezu zifratua bidaltzean, Bcc hartzaileak ez daude eraba
 encrypted-bcc-ignore-button = Ulertua
 auto-disable-e2ee-warning = Mezu honetarako muturretik muturrerako zifratzea automatikoki desgaitu zen.
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name }k fitxategia mezu honetan kargatzea blokeatu du. Desblokeatzeak fitxategia zure bidalketa mezuan kargatuko du.
+       *[other] { -brand-short-name }k hainbat fitxategi mezu honetan kargatzea blokeatu du. Desblokeatzeak fitxategiak zure bidalketa mezuan kargatuko ditu.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
