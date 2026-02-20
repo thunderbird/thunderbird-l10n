@@ -656,3 +656,22 @@ prompt-dont-ask-again = Dit niet meer vragen.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Spamanalyse { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } voltooid
 spam-processing-message = Spamberichten verwerken
+
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Antwoorden op de conversatie ‘{ $subject }’ zullen niet worden getoond.
+       *[other] Antwoorden op de { $count } geselecteerde conversaties zullen niet worden getoond.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Antwoorden op de subconversatie ‘{ $subject }’ zullen niet worden getoond.
+       *[other] Antwoorden op de { $count } geselecteerde subconversaties zullen niet worden getoond.
+    }
