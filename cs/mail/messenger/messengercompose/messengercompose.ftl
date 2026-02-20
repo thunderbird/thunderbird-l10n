@@ -310,6 +310,14 @@ compose-missing-identity-warning = Unikátní identita odpovídající adrese od
 encrypted-bcc-warning = Při odesílání zašifrované zprávy nejsou příjemci v poli Skrytá kopie zcela utajeni. Všichni příjemci je mohou být schopni identifikovat.
 encrypted-bcc-ignore-button = Rozumím
 auto-disable-e2ee-warning = Oboustranné šifrování této zprávy bylo automaticky vypnuto.
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Nalezeno klíčové slovo přílohy:
+        [few] Nalezena { $count } klíčová slova přílohy:
+       *[other] Nalezeno { $count } klíčových slov příloh:
+    }
 
 ## Editing
 
