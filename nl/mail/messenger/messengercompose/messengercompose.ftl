@@ -312,6 +312,20 @@ compose-missing-identity-warning = Er is geen unieke identiteit gevonden die met
 encrypted-bcc-warning = Als u een versleuteld bericht verstuurt, worden ontvangers in Bcc niet volledig verborgen. Alle ontvangers kunnen ze mogelijk identificeren.
 encrypted-bcc-ignore-button = Begrepen
 auto-disable-e2ee-warning = End-to-end-versleuteling voor dit bericht is automatisch uitgeschakeld.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } heeft het laden van een bestand in dit bericht geblokkeerd. Door het bestand te deblokkeren, zal het in uw uitgaande bericht worden bijgevoegd.
+       *[other] { -brand-short-name } heeft het laden van enkele bestanden in dit bericht geblokkeerd. Door een bestand te deblokkeren, zal het in uw uitgaande bericht worden bijgevoegd.
+    }
+# Variables:
+#   $count - the number keywords
+attachment-reminder-keywords-msg =
+    { $count ->
+        [one] Bijlagesleutelwoord gevonden:
+       *[other] { $count } bijlagesleutelwoorden gevonden:
+    }
 
 ## Editing
 
