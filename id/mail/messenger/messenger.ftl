@@ -632,6 +632,9 @@ spam-processing-message = Memroses pesan spam
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count = { $count } lampiran
 
 ## Remote content blocking
 
