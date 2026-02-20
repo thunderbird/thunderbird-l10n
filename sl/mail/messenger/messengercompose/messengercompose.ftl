@@ -320,6 +320,15 @@ compose-missing-identity-warning = Edinstvene identitete za naslov v polju Od ni
 encrypted-bcc-warning = Ko pošiljate šifrirano sporočilo, prejemniki skrite kopije niso popolnoma skriti. Morda jih bodo lahko prepoznali vsi prejemniki.
 encrypted-bcc-ignore-button = Razumem
 auto-disable-e2ee-warning = Šifriranje od konca do konca je bilo za to sporočilo samodejno onemogočeno.
+# Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } je zavrnil nalaganje datoteke v to sporočilo. Če nalaganje dovolite, bo datoteka vključena v poslano sporočilo.
+        [two] { -brand-short-name } je zavrnil nalaganje datotek v to sporočilo. Če nalaganje dovolite, bosta datoteki vključeni v poslano sporočilo.
+        [few] { -brand-short-name } je zavrnil nalaganje datotek v to sporočilo. Če nalaganje dovolite, bodo datoteke vključene v poslano sporočilo.
+       *[other] { -brand-short-name } je zavrnil nalaganje datotek v to sporočilo. Če nalaganje dovolite, bodo datoteke vključene v poslano sporočilo.
+    }
 
 ## Editing
 
