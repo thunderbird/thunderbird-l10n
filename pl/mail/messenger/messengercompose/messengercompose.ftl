@@ -157,6 +157,9 @@ remove-attachment-cmd =
            *[many] Usuń załączniki
         }
     .accesskey = N
+default-delete-cmd =
+    .label = Usuń
+    .accesskey = U
 
 ## Encryption
 
