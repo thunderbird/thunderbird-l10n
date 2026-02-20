@@ -304,6 +304,13 @@ encrypted-bcc-warning = Al enviar un mensaje cifrado, los destinatarios en CCO n
 encrypted-bcc-ignore-button = Entendido
 auto-disable-e2ee-warning = El cifrado de extremo a extremo para este mensaje se deshabilitó automáticamente.
 # Variables:
+#   $count - the number of files that will be unblocked
+blocked-content-message =
+    { $count ->
+        [one] { -brand-short-name } bloqueó la carga de un archivo en este mensaje. Desbloquearlo lo incluirá en el mensaje enviado
+       *[other] { -brand-short-name } bloqueó la carga de algunos archivos en este mensaje. Si desbloquea un archivo se incluirá en su mensaje enviado.
+    }
+# Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg =
     { $count ->
