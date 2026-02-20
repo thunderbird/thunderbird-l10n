@@ -152,6 +152,17 @@ move-attachment-last-panel-button =
 button-return-receipt =
     .label = Cuidhteas
     .tooltiptext = Iarr cuidhteas tillidh airson na teachdaireachd seo
+# Variables:
+#   $count - the number of attachments
+remove-attachment-cmd =
+    .label =
+        { $count ->
+            [one] Thoir air falbh an ceanglachan
+            [two] Thoir air falbh an dà cheanglachan
+            [few] Thoir air falbh na ceanglachain
+           *[other] Thoir air falbh na ceanglachain
+        }
+    .accesskey = T
 
 ## Encryption
 
