@@ -651,12 +651,14 @@ spam-processing-message = 正在處理垃圾信
 #    $subject - the message thread title (subject)
 ignored-theads-feedback =
     { $count ->
-       *[other] 將不會顯示對 { $count } 被選擇的討論串的回覆。
+        [one] 不顯示「{ $subject }」討論串的回覆。
+       *[other] 不顯示 { $count } 個選擇的討論串的回覆。
     }
 # Variables:
 #    $count - the number of threads that were selected
 #    $subject - the message thread title (subject)
 ignored-subtheads-feedback =
     { $count ->
-       *[other] 將不會顯示對 { $count } 被選擇的討論串的回覆。
+        [one] 不顯示「{ $subject }」子討論串的回覆。
+       *[other] 不顯示 { $count } 個選擇的子討論串的回覆。
     }
