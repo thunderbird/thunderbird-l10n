@@ -638,6 +638,13 @@ spam-processing-message = 正在处理垃圾邮件
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count = { $count } 个附件
 
 ## Remote content blocking
 
+# Variables:
+#    $origin - origin of the remote content to allow
+allow-remote-content-resource =
+    .label = 允许来自 { $origin } 的远程内容
