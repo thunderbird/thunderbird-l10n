@@ -157,6 +157,9 @@ remove-attachment-cmd =
            *[other] Elimină atașamentele
         }
     .accesskey = m
+default-delete-cmd =
+    .label = Șterge
+    .accesskey = g
 
 ## Encryption
 
@@ -441,6 +444,14 @@ big-file-notification =
             [few] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
            *[other] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
         }
+# Variables:
+#   $count - the number of files being linked
+cloudfile-uploading-notification =
+    { $count ->
+        [one] Fișierul este adăugat cu link. Va apărea în conținutul mesajului când este gata.
+        [few] Fișierele sunt adăugate cu linkuri. Vor apărea în conținutul mesajului când sunt gata.
+       *[other] Fișierele sunt adăugate cu linkuri. Vor apărea în conținutul mesajului când sunt gata.
+    }
 
 ## Link Preview
 
