@@ -67,3 +67,15 @@ filter-editor-pick-template-reply = Atsakymui pasirinkite šabloną.
 filter-continue-execution = Nepavyko įvykdyti filtro { $filterName }. Ar tęsti kitų filtrų vykdymą?
 filter-list-backup-message = Filtrai neveikia, nes nepavyksta skaityti taisyklių failo „msgFilterRules.dat“. Bus sukurtas naujas taisyklių failas „msgFilterRules.dat“, o senasis pervardytas į „rulesbackup.dat“ ir liks tame pačiame aplanke.
 filter-invalid-custom-header = Viename iš filtrų panaudotas laukas, kuriame yra ženklų, nenaudojamų laiškų antraščių laukų varduose. Prašom pakoreguoti filtrų taisyklių failą „msgFilterRules.dat“, pašalinant iš jo neleistinus laukų vardus.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } elementas
+        [few] { $count } elementai
+       *[other] { $count } elementų
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } iš { $total }
