@@ -236,6 +236,13 @@ message-group-starred = Starred
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } attachment
+       *[other] { $count } attachments
+    }
 
 ## Remote content blocking
 
