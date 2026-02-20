@@ -82,3 +82,14 @@ filter-editor-pick-template-reply = Vælg en skabelon at besvare med.
 filter-continue-execution = Kunne ikke anvende filteret { $filterName }. Vil du fortsætte med at anvende filtre?
 filter-list-backup-message = Dine filtre virker ikke, fordi filen msgFilterrules.dat, som indeholder dine filtre, ikke kunne læses. En ny msgFilterrules.dat fil vil blive oprettet og en sikkerhedskopi af den gamle fil, kaldet rulesbackup.dat, vil blive oprettet i samme mappe.
 filter-invalid-custom-header = Et af dine filtre benytter et tilpasset meddelelseshoved, som indeholder ugyldige tegn, fx ‘:’, tegn, der ikke kan udskrives, ikke ascii-tegn eller 8-bit ascii-tegn. Rediger filen msgFilterRules.dat, som indeholder dine filtre, og fjern alle ugyldige tegn fra dine meddelelseshoveder.
+# Variables:
+#   $count - the number items
+filter-count-items =
+    { $count ->
+        [one] { $count } element
+       *[other] { $count } elementer
+    }
+# Variables:
+#   $visible - the number of visible items
+#   $total - the total number of items
+filter-count-visible-of-total = { $visible } af { $total }
