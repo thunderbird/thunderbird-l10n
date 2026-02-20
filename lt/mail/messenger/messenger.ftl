@@ -384,6 +384,14 @@ and-others = et al.
 
 ## Attachments
 
+# Variables:
+#    $count - the number of attachments
+attachment-view-attachment-count =
+    { $count ->
+        [one] { $count } priedas
+        [few] { $count } priedai
+       *[other] { $count } priedų
+    }
 
 ## Remote content blocking
 
