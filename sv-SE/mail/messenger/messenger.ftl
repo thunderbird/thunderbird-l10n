@@ -663,6 +663,25 @@ prompt-dont-ask-again = Fråga inte igen.
 spam-analysis-percentage = Skräppostanalys { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } slutförd
 spam-processing-message = Bearbetar skräppostmeddelanden
 
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Svar på tråden "{ $subject }" kommer inte att visas.
+       *[other] Svar på de { $count } trådar som valdes kommer inte att visas.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Svar på undertråden "{ $subject }" kommer inte att visas.
+       *[other] Svar på de { $count } undertrådar som valdes kommer inte att visas.
+    }
+
 ## Attachments
 
 # Variables:
