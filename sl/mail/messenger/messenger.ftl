@@ -660,6 +660,31 @@ prompt-dont-ask-again = Ne sprašuj več.
 
 spam-processing-message = Obdelovanje neželene pošte
 
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [1] Odgovori na nit "{ $subject }" ne bodo prikazani.
+        [one] Odgovori na { $count } izbrano nit ne bodo prikazani.
+        [two] Odgovori na { $count } izbrani niti ne bodo prikazani.
+        [few] Odgovori na { $count } izbrane niti ne bodo prikazani.
+       *[other] Odgovori na { $count } izbranih niti ne bodo prikazani.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [1] Odgovori na podnit "{ $subject }" ne bodo prikazani.
+        [one] Odgovori na { $count } izbrano podnit ne bodo prikazani.
+        [two] Odgovori na { $count } izbrani podniti ne bodo prikazani.
+        [few] Odgovori na { $count } izbrane podniti ne bodo prikazani.
+       *[other] Odgovori na { $count } izbranih podniti ne bodo prikazani.
+    }
+
 ## Attachments
 
 # Variables:
