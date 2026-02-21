@@ -663,6 +663,25 @@ prompt-dont-ask-again = Non plus demandar.
 spam-analysis-percentage = Analysis de spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } completate
 spam-processing-message = Processante messages spam
 
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Le responsas al discussion "{ $subject }" non sera monstrate.
+       *[other] Le responsas al { $count } discussiones que era seligite non sera monstrate.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Le responsas al sub-discussion "{ $subject }" non sera monstrate.
+       *[other] Le responsas al { $count } sub-discussiones que era seligite non sera monstrate.
+    }
+
 ## Attachments
 
 # Variables:
