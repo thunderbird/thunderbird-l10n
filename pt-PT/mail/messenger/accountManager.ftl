@@ -31,5 +31,9 @@ account-manager-server-default-icon =
 outgoing-server-section-name = Servidor de envio
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Definições do servidor de envio
+outgoing-server-settings-description = Ao gerir as suas identidades, pode utilizar um servidor desta lista selecionando-o como servidor de envio““, ou pode utilizar o servidor pré-definido indicado nesta lista selecionando “Usar servidor pré-definido”.
 outgoing-server-type = Tipo de servidor:
 panel-settings-spam = Definições de lixo eletrónico
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Problema detetado com as definições de spam para { $account }. Gostaria de rever as mesmas antes de guardar as alterações?
