@@ -33,3 +33,17 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Izbriši podsjetnik
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } podsjetnik
+        [few] { $count } podsjetnika
+       *[other] { $count } podsjetnika
+    }
+calendar-dialog-accept = Idem
+    .title = Idem
+calendar-dialog-accept-tentative = Možda
+    .title = Možda
+calendar-dialog-decline = Ne idem
+    .title = Ne idem

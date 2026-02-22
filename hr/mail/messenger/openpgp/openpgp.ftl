@@ -44,6 +44,48 @@ openpgp-key-man-generate-menu =
 openpgp-key-man-keyserver-menu =
     .label = Server ključeva
     .accesskey = S
+openpgp-key-copy-key =
+    .label = Kopiraj javni ključ
+    .accesskey = K
+openpgp-key-export-key =
+    .label = Izvezi javni ključa u datoteku
+    .accesskey = I
+openpgp-key-backup-key =
+    .label = Spremi sigurnosnu kopiju tajnog ključa u datoteku
+    .accesskey = S
+openpgp-key-send-key =
+    .label = Pošalji javni ključ putem e-pošte
+    .accesskey = P
+# Variables:
+# $count (Number) - Number of keys ids to copy.
+openpgp-key-man-copy-key-ids =
+    .label =
+        { $count ->
+            [one] Kopiraj ID ključa u međuspremnik
+            [few] Kopiraj ID-ove ključeva u međuspremnik
+           *[other] Kopiraj ID-ove ključeva u međuspremnik
+        }
+    .accesskey = I
+# Variables:
+# $count (Number) - Number of fingerprints to copy.
+openpgp-key-man-copy-fprs =
+    .label =
+        { $count ->
+            [one] Kopiraj otisak prsta u međuspremnik
+            [few] Kopiraj otiske prstiju u međuspremnik
+           *[other] Kopiraj otiske prstiju u međuspremnik
+        }
+    .accesskey = o
+# Variables:
+# $count (Number) - Number of public keys to copy.
+openpgp-key-man-copy-to-clipboard =
+    .label =
+        { $count ->
+            [one] Kopiraj javni ključ u međuspremnik
+            [few] Kopiraj javne ključeve u međuspremnik
+           *[other] Kopiraj javne ključeve u međuspremnik
+        }
+    .accesskey = m
 openpgp-key-man-ctx-copy =
     .label = Kopiraj
     .accesskey = K
