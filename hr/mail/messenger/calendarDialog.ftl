@@ -31,3 +31,5 @@ calendar-dialog-more-categories =
        *[other] + još { $additionalCategories }
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Izbriši podsjetnik
