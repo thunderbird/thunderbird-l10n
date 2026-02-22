@@ -89,8 +89,51 @@ openpgp-key-man-copy-to-clipboard =
 openpgp-key-man-ctx-copy =
     .label = Kopiraj
     .accesskey = K
+# Variables:
+# $count (Number) - Number of fingerprints.
+openpgp-key-man-ctx-copy-fprs =
+    .label =
+        { $count ->
+            [one] Otisak prsta
+            [few] Otiska prsta
+           *[other] Otiska prstiju
+        }
+    .accesskey = O
+# Variables:
+# $count (Number) - Number of key ids.
+openpgp-key-man-ctx-copy-key-ids =
+    .label =
+        { $count ->
+            [one] ID ključa
+            [few] ID-eva ključeva
+           *[other] ID-eva ključeva
+        }
+    .accesskey = k
+# Variables:
+# $count (Number) - Number of public keys.
+openpgp-key-man-ctx-copy-public-keys =
+    .label =
+        { $count ->
+            [one] Javni ključ
+            [few] Javna ključa
+           *[other] Javnih ključeva
+        }
+    .accesskey = k
+openpgp-key-man-close =
+    .label = Zatvori
+openpgp-key-man-reload =
+    .label = Ponovo učitaj predmemoriju ključeva
+    .accesskey = u
 openpgp-key-man-filter-label =
     .placeholder = Traži ključeve
+openpgp-key-details-doc-title = Svojstva ključa
+openpgp-key-details-signatures-tab =
+    .label = Certificiranja
+openpgp-key-details-structure-tab =
+    .label = Struktura
+openpgp-key-details-id-label =
+    .label = ID
+openpgp-key-details-key-type-label = Vrsta
 openpgp-key-details-algorithm-label =
     .label = Algoritam
 openpgp-key-details-size-label =
