@@ -203,6 +203,7 @@ account-hub-oauth-pending = Wachtsje op autorisaasje yn oanmeldingspopup…
 account-hub-addon-install-button = Ynstallearje
 account-hub-addon-install-needed = { -brand-short-name } stipet dizze server net ynboud. Om tagong te krijen ta Exchange-e-mail, <a data-l10n-name="addon-install"> ynstallearje in add-on fan tredden lykas Owl (betelle).</a>
 account-hub-addon-error = Add-on-ynstallaasje is mislearre. Probearje it opnij of nim kontakt op mei de add-on-auteur foar help.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Warskôging: ûnfeilige e-mailserver ûntdutsen.</span> Dizze tsjinner mist fersifering, wêrtroch jo wachtwurd en gegevens iepenbier binne. Nim kontakt op mei jo behearder om de ferbining te befeiligjen of troch te gean op jo eigen risiko. <a data-l10n-name="error-link">Sjoch FAQ foar mear ynformaasje.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Warskôging: ûnfeilige e-mailserver ûntdutsen.</span> Dizze tsjinner mist fersifering, wêrtroch jo wachtwurd en gegevens iepenbier binne. Nim kontakt op mei jo behearder om de ferbining te befeiligjen of troch te gean op jo eigen risiko. <a data-l10n-name="faq-link">Sjoch FAQ foar mear ynformaasje.</a>
 account-hub-account-authentication-error = Autentikaasjeflater.
 account-hub-add-address-book = In adresboek tafoegje
