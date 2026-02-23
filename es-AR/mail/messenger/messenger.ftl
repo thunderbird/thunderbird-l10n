@@ -672,15 +672,15 @@ spam-processing-message = Procesando mensajes de spam
 ignored-theads-feedback =
     { $count ->
         [one] Las respuestas al hilo "{ $subject }" no se mostrarán.
-       *[other] No se mostrarán las respuestas a las { $count } conversaciones que fueron seleccionadas.
+       *[other] Las respuestas a las { $count } conversaciones que fueron seleccionadas no se mostrarán.
     }
 # Variables:
 #    $count - the number of threads that were selected
 #    $subject - the message thread title (subject)
 ignored-subtheads-feedback =
     { $count ->
-        [one] Las respuestas al subconversación "{ $subject }" no se mostrarán.
-       *[other] Las respuestas a los { $count } subconversaciones que fueron seleccionadas no serán mostradas.
+        [one] Las respuestas a la subconversación "{ $subject }" no se mostrarán.
+       *[other] Las respuestas a las { $count } subconversaciones que fueron seleccionadas no se mostrarán.
     }
 
 ## Attachments
