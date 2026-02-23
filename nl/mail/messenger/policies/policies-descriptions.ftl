@@ -76,7 +76,7 @@ policy-OverridePostUpdatePage = De pagina ‘Wat is er nieuw’ na een update ve
 policy-PasswordManagerEnabled = Opslaan van wachtwoorden in de wachtwoordenbeheerder inschakelen.
 # PDF.js and PDF should not be translated
 policy-PDFjs = PDF.js, de in { -brand-short-name } ingebouwde PDF-lezer, uitschakelen of instellen.
-policy-Permissions2 = Toestemmingen voor camera, microfoon, locatie, notificaties en automatisch afspelen configureren.
+policy-Permissions2 = Toestemmingen voor camera, microfoon, locatie, meldingen en automatisch afspelen configureren.
 policy-Preferences = De waarde voor een subset van voorkeuren instellen en vergrendelen.
 policy-PrimaryPassword = Een hoofdwachtwoord vereisen of voorkomen.
 policy-PromptForDownloadLocation = Vragen waar gedownloade bestanden moeten worden opgeslagen.
