@@ -203,6 +203,7 @@ account-hub-oauth-pending = Ventar på autorisasjon i påloggingsvindauget …
 account-hub-addon-install-button = Installer
 account-hub-addon-install-needed = { -brand-short-name } støttar ikkje denne serveren som standard. For å få tilgang til Exchange-e-post, <a data-l10n-name="addon-install">installer eit tredjeparts tillegg som Owl (betalt).</a>
 account-hub-addon-error = Mislykka installasjon av tillegget. Prøv på nytt, eller kontakt forfattaren av tillegget for å få hjelp.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Åtvaring: Usikker e-postserver oppdaga.</span> Denne serveren manglar kryptering, noko som eksponerer passordet og dataa dine. Kontakt administratoren din for å sikre tilkoplinga, eller hald fram på eigen risiko. <a data-l10n-name="error-link">Sjå ofte stilte spørsmål for meir informasjon.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Åtvaring: Usikker e-postserver oppdaga.</span> Denne serveren manglar kryptering, noko som eksponerer passordet og dataa dine. Kontakt administratoren din for å sikre tilkoplinga, eller hald fram på eigen risiko. <a data-l10n-name="faq-link">Sjå ofte stilte spørsmål for meir informasjon.</a>y
 account-hub-account-authentication-error = Autentiseringsfeil.
 account-hub-add-address-book = Legg til ei adressebok
