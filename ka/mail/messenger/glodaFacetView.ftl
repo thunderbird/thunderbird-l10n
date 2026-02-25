@@ -10,6 +10,13 @@ items-m-of-n =
         [one] { $m }, სულ { $n }{ $m }, სულ { $n }
        *[other] { $m }, სულ { $n }{ $m }, სულ { $n }
     }
+# Variables:
+#   $count - the number items
+facets-mode-to-list-all-label =
+    { $count ->
+        [one] ჩამოიწეროს ყველა, სულ { $count }
+       *[other] ჩამოიწეროს ყველა, სულ { $count }
+    }
 # Last item in a a list like A, B, C and "3 others".
 # Variables:
 #   $count - the number items
