@@ -10,3 +10,11 @@ items-m-of-n =
         [one] { $m }, სულ { $n }{ $m }, სულ { $n }
        *[other] { $m }, სულ { $n }{ $m }, სულ { $n }
     }
+# Last item in a a list like A, B, C and "3 others".
+# Variables:
+#   $count - the number items
+facet-view-and-others =
+    { $count ->
+        [one] { $count } სხვა
+       *[other] { $count } სხვა
+    }
