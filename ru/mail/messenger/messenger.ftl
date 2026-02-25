@@ -426,11 +426,11 @@ toolbar-context-menu-remove-extension =
 
 # Variables:
 #  $name (String): The name of the add-on that will be removed.
-addon-removal-title = Удалить { $name }?
+addon-removal-title = Удалить «{ $name }»?
 addon-removal-confirmation-button = Удалить
 # Variables:
 #  $name (String): The name of the add-on that will be removed.
-addon-removal-confirmation-message = Удалить { $name }, а также его конфигурацию и данные из { -brand-short-name }?
+addon-removal-confirmation-message = Удалить «{ $name }», а также его конфигурацию и данные из { -brand-short-name }?
 caret-browsing-prompt-title = Активный курсор
 caret-browsing-prompt-text = Нажатие клавиши F7 включает или отключает режим активного курсора. В этом режиме, поместив курсор в текст, вы можете выделять текст с помощью клавиатуры. Включить этот режим?
 caret-browsing-prompt-check-text = Больше не спрашивать.
@@ -668,7 +668,7 @@ and-others = и другие авторы.
 prompt-empty-folder-title = { $folder } пустая?
 # Variables:
 # $folder (String) - The name of the selected folder.
-prompt-empty-folder-message = Удалить все сообщения и вложенные папки в папке { $folder }?
+prompt-empty-folder-message = Удалить все сообщения и вложенные папки в папке «{ $folder }»?
 prompt-dont-ask-again = Больше не спрашивать.
 
 ## Spam commands
