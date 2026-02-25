@@ -51,8 +51,8 @@ privacy-spam-header = Nevyžádaná
 privacy-junk-header = Nevyžádaná
 collection-header =
     { -brand-short-name.case-status ->
-        [with-cases] Sběr a použití údajů ve { -brand-short-name(case: "loc") }
-       *[no-cases] Sběr a použití údajů v aplikaci { -brand-short-name }
+        [with-cases] Sběr a použití údajů o { -brand-short-name(case: "loc") }
+       *[no-cases] Sběr a použití údajů o aplikaci { -brand-short-name }
     }
 collection-description =
     { -brand-short-name.case-status ->
