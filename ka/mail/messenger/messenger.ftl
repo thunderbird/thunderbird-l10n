@@ -651,6 +651,25 @@ prompt-dont-ask-again = მომავალში შეკითხვის 
 spam-analysis-percentage = ჯართის გარჩევის { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } დასრულებულია
 spam-processing-message = მუშავდება უსარგებლო წერილები
 
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] პასუხები სასაუბროში „{ $subject }“ არ აისახება.
+       *[other] პასუხები { $count } სასაუბროში თემიდან არ აისახება.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] პასუხები ქვესასაუბროში „{ $subject }“ არ აისახება.
+       *[other] პასუხები { $count } ქვესასაუბროში თემიდან არ აისახება.
+    }
+
 ## Attachments
 
 # Variables:
