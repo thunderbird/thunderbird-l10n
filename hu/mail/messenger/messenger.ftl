@@ -664,6 +664,25 @@ prompt-dont-ask-again = Ne kérdezze meg újra.
 spam-analysis-percentage = Levélszemét-ellenőrzés { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }-ban kész
 spam-processing-message = Levélszemetek feldolgozása
 
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] A(z) „{ $subject }” témacsoportra érkezett válaszok nem lesznek megjelenítve.
+       *[other] A(z) { $count } kiválasztott témacsoportra érkezett válaszok nem lesznek megjelenítve.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] A(z) „{ $subject }” témacsoportrészre érkezett válaszok nem lesznek megjelenítve.
+       *[other] A(z) { $count } kiválasztott témacsoportrészre érkezett válaszok nem lesznek megjelenítve.
+    }
+
 ## Attachments
 
 # Variables:
