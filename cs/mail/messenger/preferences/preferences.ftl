@@ -1051,7 +1051,7 @@ qr-export-security-legend = Zabezpečení
 qr-export-include-passwords = Zahrnout hesla všech účtů
 qr-export-oauth-warning = Některé vaše účty používají metodu ověřování, která může vyžadovat opětovné ověření na vašem mobilním zařízení. Během tohoto procesu může být nutné znovu zadat hesla.
 qr-export-security-hint = Naskenováním následujících QR kódů se bezpečně přenesou nastavení vašeho účtu včetně e-mailu a hesla. Během tohoto procesu neshromažďujeme, neukládáme ani nesdílíme žádné z těchto údajů. Přenos probíhá přímo mezi vašimi zařízeními.
-qr-export-security-warning = V zájmu své bezpečnosti se ujistěte, že jste v soukromí, a skenujte pouze QR kódy z důvěryhodných zdrojů.
+qr-export-security-warning = V zájmu své bezpečnosti se ujistěte, že máte soukromí, a skenujte pouze QR kódy pocházející z důvěryhodných zdrojů.
 qr-export-start-export = Exportovat
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
