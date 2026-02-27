@@ -11,11 +11,3 @@ items-m-of-n =
         [few] { $m } od { $n }{ $m } od { $n }
        *[other] { $m } od { $n }{ $m } od { $n }
     }
-# Last item in a a list like A, B, C and "3 others".
-# Variables:
-#   $count - the number items
-facet-view-and-others =
-    { $count ->
-        [one] još { $count }
-       *[other] { $count } others
-    }
