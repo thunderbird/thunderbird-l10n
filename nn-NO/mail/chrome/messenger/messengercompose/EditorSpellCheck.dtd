@@ -22,7 +22,7 @@
 <!ENTITY stopButton.label "Stopp">
 <!ENTITY stopButton.accessKey "t">
 <!ENTITY userDictionary.label "Eigendefinert ordbok:">
-<!ENTITY moreDictionaries.label "Last ned fleire">
+<!ENTITY moreDictionaries.label "Last ned fleire ordbøker…">
 <!ENTITY addToUserDictionaryButton.label "Legg til ord">
 <!ENTITY addToUserDictionaryButton.accessKey "g">
 <!ENTITY editUserDictionaryButton.label "Rediger …">
