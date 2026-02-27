@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Vendndodhje
 calendar-dialog-description-row-icon =
     .alt = Përshkrim
+calendar-dialog-reminders-row-icon =
+    .alt = Kujtues
 calendar-dialog-description-label = Përshkrim
 calendar-dialog-description-expand-icon =
     .alt = Shfaq përshkrimin e plotë
@@ -27,3 +29,18 @@ calendar-dialog-more-categories =
        *[other] +{ $additionalCategories } more
     }
     .title = +{ $additionalCategories } më tepër
+calendar-dialog-delete-reminder-button =
+    .alt = Fshini Kujtuesin
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] { $count } Kujtues
+       *[other] { $count } Kujtues
+    }
+calendar-dialog-accept = Do shkohet
+    .title = Do shkohet
+calendar-dialog-accept-tentative = Mundet
+    .title = Mundet
+calendar-dialog-decline = Nuk shkohet
+    .title = Nuk shkohet

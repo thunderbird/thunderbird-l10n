@@ -858,6 +858,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Punë…
     .accesskey = P
+calendar-task-filter-title2 = Filtroni Punë
 calendar-task-filter-title = Shfaq
 calendar-task-filter-all =
     .label = Krejt
