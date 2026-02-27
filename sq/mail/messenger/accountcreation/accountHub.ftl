@@ -201,6 +201,7 @@ account-hub-oauth-pending = Po pritet për autorizim te flluska për hyrjen…
 account-hub-addon-install-button = Instaloje
 account-hub-addon-install-needed = { -brand-short-name }-i s’e mbulon së brendshmi këtë shërbyes. Që të përdorni email Exchange, <a data-l10n-name="addon-install"> instaloni një shtesë prej pale të tretë, bie fjala Owl (me pagesë).</a>
 account-hub-addon-error = Instalimi i shtesës dështoi. Ju lutemi, riprovoni, ose lidhuni me autorin e shtesës, për asistencë.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Kujdes: U pikas shërbyes email jo i siguruar.</span> Këtij shërbyesi i mungon fshehtëzimi, duke ekspozuar kështu fjalëkalimin dhe të dhëna tuajat. Lidhuni me përgjegjësin tuaj që të sigurojë lidhjen, ose vazhdoni duke e marrë vetë rrezikun përsipër. <a data-l10n-name="error-link">Për më tepër hollësi, shihni PBR.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Kujdes: U pikas shërbyes poste i pasiguruar.</span> Këtij shërbyesi i mungon fshehtëzimi, duke ekspozuar kështu fjalëkalim dhe të dhëna tuajat. Lidhuni me përgjegjësin tuaj që të bëhet lidhja e siguruar, ose vazhdoni me kokën tuaj. <a data-l10n-name="faq-link">Për më tepër, shihni PBR.</a>
 account-hub-account-authentication-error = Gabim mirëfilltësimi.
 account-hub-add-address-book = Shtoni një libër adresash
