@@ -406,6 +406,11 @@ key-does-not-expire = Kyçi nuk skadon
 key-expired-date = Kyçi skadoi më { $keyExpiry }
 key-expired-simple = Kyçi ka skaduar
 key-revoked-simple = Kyçi u shfuqizua
+key-revoked-revocation-code-compromised = Kyçi u shfuqizua ngaqë materiali i kyçit është komprometuar.
+key-revoked-revocation-code-retired = Kyçi u shfuqizua ngaqë është hequr nga qarkullimi dhe s’përdoret më.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Arsye shfuqizimi, sipas pohimit nga i zoti i kyçit: { $reason }
 key-do-you-accept = E pranoni këtë kyç për verifikim nënshkrimesh dixhitale dhe për fshehtëzim mesazhesh?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
