@@ -664,6 +664,25 @@ prompt-dont-ask-again = Ekki spyrja aftur.
 spam-analysis-percentage = Ruslpóstsgreiningu { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } lokið
 spam-processing-message = Vinn úr ruslpósti
 
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Svör við umræðunni "{ $subject }" verða ekki sýnd.
+       *[other] Svör við { $count } umræðum sem voru valdar verða ekki sýnd.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Svör við undirumræðunni "{ $subject }" verða ekki sýnd.
+       *[other] Svör við { $count } undirumræður sem voru valdar verða ekki sýnd.
+    }
+
 ## Attachments
 
 # Variables:

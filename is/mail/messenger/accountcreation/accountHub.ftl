@@ -203,6 +203,7 @@ account-hub-oauth-pending = Bíður eftir auðkenningu í sérstökum innskráni
 account-hub-addon-install-button = Setja upp
 account-hub-addon-install-needed = { -brand-short-name } styður ekki þennan netþjón. Til að fá aðgang að Exchange tölvupósti skaltu <a data-l10n-name="addon-install"> setja upp viðbót frá utanaðkomandi aðila eins og t.d. Owl (keypt þjónusta).</a>
 account-hub-addon-error = Uppsetning viðbótar mistókst. Reyndu aftur eða hafðu samband við höfund viðbótarinnar til að fá aðstoð.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Aðvörun: Óöruggur póstþjónn fannst.</span> Þennan netþjón skortir dulritun, sem getur afhjúpað lykilorðið þitt og önnur gögn. Hafðu samband við kerfisstjóra til að gera tenginguna örugga eða haltu áfram á eigin ábyrgð. <a data-l10n-name="error-link">Skoðaðu algengar spurningar til að sjá frekari upplýsingar.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Aðvörun: Óöruggur póstþjónn fannst.</span> Þennan netþjón skortir dulritun, sem getur afhjúpað lykilorðið þitt og önnur gögn. Hafðu samband við kerfisstjóra til að gera tenginguna örugga eða haltu áfram á eigin ábyrgð. <a data-l10n-name="faq-link">Skoðaðu algengar spurningar til að sjá frekari upplýsingar.</a>
 account-hub-account-authentication-error = Villa í auðkenningu.
 account-hub-add-address-book = Bæta við nafnaskrá
