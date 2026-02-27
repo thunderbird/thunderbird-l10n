@@ -603,6 +603,7 @@ header-spam-button =
 
 mark-as-read-action = Vëri Shenjë si të Lexuar
 delete-action = Fshije
+mark-as-starred-action = Vëri Shenjë si Me Yll
 mark-as-spam-action = Vëri shenjë si i Padëshiruar
 archive-action = Arkivoje
 
@@ -661,6 +662,25 @@ prompt-dont-ask-again = Mos pyet sërish.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analiza për mesazhe të padëshiruar { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } u plotësua
 spam-processing-message = Po trajtohen mesazhet e padëshiruar
+
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Përgjigjet te rrjedha “{ $subject }” s’do të shfaqen.
+       *[other] Përgjigjet që qenë përzgjedhur te { $count } rrjedha, s’do të shfaqen.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Përgjigjet te nënrrjedha “{ $subject }” s’do të shfaqen.
+       *[other] Përgjigjet që qenë përzgjedhur te { $count } nënrrjedha, s’do të shfaqen.
+    }
 
 ## Attachments
 

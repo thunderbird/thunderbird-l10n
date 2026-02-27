@@ -406,6 +406,7 @@ key-does-not-expire = Kyçi nuk skadon
 key-expired-date = Kyçi skadoi më { $keyExpiry }
 key-expired-simple = Kyçi ka skaduar
 key-revoked-simple = Kyçi u shfuqizua
+key-revoked-revocation-code-superseded = Kyçi u shfuqizua ngaqë qe zëvendësuar.
 key-revoked-revocation-code-compromised = Kyçi u shfuqizua ngaqë materiali i kyçit është komprometuar.
 key-revoked-revocation-code-retired = Kyçi u shfuqizua ngaqë është hequr nga qarkullimi dhe s’përdoret më.
 # Variables:
