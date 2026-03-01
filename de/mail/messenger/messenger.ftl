@@ -580,7 +580,7 @@ menu-run-spam-on-folder =
     .accesskey = a
 menu-delete-spam =
     .label = Spam in diesem Ordner löschen
-    .accesskey = S
+    .accesskey = l
 
 ## Folder pane context.
 
