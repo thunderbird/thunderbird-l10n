@@ -118,6 +118,14 @@ search-remove-rule-button-2 =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Ta bort en regel
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Lägg till en ny åtgärd
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Ta bort denna åtgärd
 
 ## Search Term List
 
@@ -133,6 +141,16 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Flytta meddelande till
+rule-action-copy =
+    .label = Kopiera meddelande till
+rule-action-forward =
+    .label = Vidarebefordra meddelande till
+rule-action-reply =
+    .label = Svara med mall
+rule-action-read =
+    .label = Märk som läst
 rule-action-unread =
     .label = Märk som oläst
 rule-action-star =
@@ -158,3 +176,13 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-priority-highest =
+    .label = Högsta
+rule-priority-high =
+    .label = Hög
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Låg
+rule-priority-lowest =
+    .label = Lägsta

@@ -103,7 +103,41 @@ filter-count-visible-of-total = { $visible } av { $total }
 ## Filter Editor
 
 filter-editor-window-title = Filterregler
+filter-editor-name =
+    .value = Filternamn:
+    .accesskey = N
 filter-editor-context-desc = Tillämpa filter vid:
+filter-editor-context-incoming =
+    .label = E-posthämtning:
+    .accesskey = H
+filter-editor-context-manual =
+    .label = Manuell körning
+    .accesskey = M
+filter-editor-context-outgoing =
+    .label = Efter att ha skickat
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Arkivering
+    .accesskey = A
+filter-editor-action-order-warning =
+    .value = OBS: Filteråtgärder kommer att köras i en annan ordning.
+filter-editor-action-order-link =
+    .value = Se exekveringsordning
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopia av { $name }
+filter-editor-invalid-search-title = Ogiltiga söktermer
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Detta filter kan inte sparas eftersom vissa söktermer "{ $attribute } { $operator }" är ogiltiga i det aktuella sammanhanget.
+filter-editor-action-order-explanation = När ett meddelande matchar filtret kommer åtgärderna att köras i denna ordning:
+filter-editor-action-order-title = Verklig åtgärdsordning
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
