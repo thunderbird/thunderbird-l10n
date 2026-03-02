@@ -83,6 +83,10 @@ filter-count-visible-of-total = { $visible } de { $total }
 
 ## Filter List Dialog
 
+filter-name-column =
+    .label = Nom del filtre
+filter-active-column =
+    .label = Habilitat
 
 ## Filter Editor
 
