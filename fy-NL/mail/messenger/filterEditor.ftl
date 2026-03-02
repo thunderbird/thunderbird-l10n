@@ -144,8 +144,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Selektearre filter(s) tapasse op:
     .accesskey = S
+filter-search-box =
+    .placeholder = Filters op namme sykje…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Binne jo der wis fan dat jo de selektearre filter(s) fuortsmite wolle?
 filter-dont-warn-delete-checkbox = My net wer freegje
 filter-cannot-enable-incompatible = Dit filter is nei alle gedachten makke troch in nijere of ynkompatibele ferzje fan { -brand-product-name }. Jo kinne dit filter net aktivearje om't wy net witte hoe’t it tapast wurde moat.
+filter-running-title = Dwaande mei it tapassen fan filters
+filter-running-message =
+    Op dit stuit rint it proses fan berjochtefiltering.
+    Wolle jo trochgean mei it tapassen fan filters?
+filter-stop-button = Ophâlde
+filter-continue-button = Trochgean
 
 ## Filter Editor
 
