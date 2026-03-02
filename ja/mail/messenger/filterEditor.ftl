@@ -91,6 +91,11 @@ filter-count-visible-of-total = { $visible } / { $total }
 
 ## Filter List Dialog
 
+filter-active-column =
+    .label = 有効
+filter-new-button =
+    .label = 新規...
+    .accesskey = N
 
 ## Filter Editor
 
