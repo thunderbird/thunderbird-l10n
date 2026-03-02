@@ -63,6 +63,11 @@ filter-count-visible-of-total = { $visible } מתוך { $total }
 
 ## Filter List Dialog
 
+filter-window-title = מסננים להודעות
+filter-name-column =
+    .label = שם מסנן
+filter-active-column =
+    .label = מאופשר
 
 ## Filter Editor
 
