@@ -79,6 +79,16 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Laat gemêrkte filter(s) loop op:
     .accesskey = k
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Is u seker u wil die gemerkte filter(s) skrap?
+filter-dont-warn-delete-checkbox = Moenie my weer vra nie
+filter-running-title = Huidig lopende filters
+filter-running-message =
+    U is tans besig om boodskappe te filter.
+    Wil u voortgaan om die filters toe te pas?
+filter-stop-button = Stop
+filter-continue-button = Gaan voort
 
 ## Filter Editor
 
