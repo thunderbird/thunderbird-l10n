@@ -85,6 +85,7 @@ filter-count-visible-of-total = { $visible } з { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Фільтри повідомлень
 filter-name-column =
     .label = Назва фільтру
 filter-active-column =
