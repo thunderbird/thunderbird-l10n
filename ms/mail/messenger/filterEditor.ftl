@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
@@ -51,3 +54,33 @@ filter-count-items = { $count } item
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } daripada { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Peraturan Tapisan
+filter-editor-name =
+    .value = Nama penapis:
+    .accesskey = i
+filter-editor-context-desc = Laksanakan tapisan apabila:
+filter-editor-context-incoming =
+    .label = Mendapatkan Mel Baru:
+    .accesskey = M
+filter-editor-context-manual =
+    .label = Laksanakan secara Manual
+    .accesskey = L
+filter-editor-context-outgoing =
+    .label = Selepas Menghantar
+    .accesskey = M
+filter-editor-context-archive =
+    .label = Arkib
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Laksanakan tindakan ini:
+    .accesskey = L
+filter-editor-action-order-warning =
+    .value = Nota: Tindakan tapisan akan dilaksanakan dalam turutan berbeza.
+filter-editor-action-order-link =
+    .value = Lihat pelaksanaan perintah
