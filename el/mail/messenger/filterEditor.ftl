@@ -106,6 +106,9 @@ filter-editor-window-title = Κανόνες φίλτρου
 filter-editor-name =
     .value = Όνομα φίλτρου:
     .accesskey = ν
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Αντίγραφο του «{ $name }»
 filter-editor-invalid-search-title = Μη έγκυροι όροι αναζήτησης
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
