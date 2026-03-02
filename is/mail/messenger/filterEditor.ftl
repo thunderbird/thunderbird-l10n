@@ -148,8 +148,15 @@ filter-search-box =
     .placeholder = Leita í síum eftir nafni…
 filter-close-key =
     .key = W
+filter-delete-confirmation = Ertu viss um að þú viljir eyða þessari síu?
 filter-dont-warn-delete-checkbox = Ekki spyrja aftur
 filter-cannot-enable-incompatible = Þessi sía var líklega búin til af nýrri eða ósamhæfðri útgáfu af { -brand-product-name }. Þú getur ekki virkjað þessa síu vegna þess að við vitum ekki hvernig á að nota hana.
+filter-running-title = Keyri síur
+filter-running-message =
+    Þú ert nú þegar að keyra síu á póst.
+    Viltu halda áfram að keyra síur?
+filter-stop-button = Stöðva
+filter-continue-button = Áfram
 
 ## Filter Editor
 
