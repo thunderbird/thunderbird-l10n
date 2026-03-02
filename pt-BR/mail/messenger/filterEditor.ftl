@@ -105,6 +105,19 @@ filter-count-visible-of-total = { $visible } de { $total }
 filter-editor-name =
     .value = Nome do filtro:
     .accesskey = N
+filter-editor-action-order-link =
+    .value = Ver ordem de execução
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Este filtro não pôde ser salvo porque os termos de pesquisa "{ $attribute } { $operator }" são inválidos no contexto atual.
+filter-editor-action-order-explanation = Quando uma mensagem atender aos critérios deste filtro as ações serão executadas nesta ordem:
+filter-editor-action-order-title = Ordem real de ações
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
