@@ -148,6 +148,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Zaženi izbrane filtre na:
     .accesskey = a
+filter-dont-warn-delete-checkbox = Ne sprašuj več
+filter-cannot-enable-incompatible = Ta filter je verjetno ustvarila novejša ali nezdružljiva različica { -brand-product-name }. Ne morete ga omogočiti, ker ga vaša različica ne zna uporabiti.
 
 ## Filter Editor
 
