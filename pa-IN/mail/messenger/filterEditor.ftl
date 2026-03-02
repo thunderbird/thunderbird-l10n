@@ -57,6 +57,20 @@ filter-count-visible-of-total = { $total } ਵਿੱਚੋਂ  { $visible }
 
 ## Filter List Dialog
 
+filter-window-title = ਸੁਨੇਹੇ ਫਿਲਟਰ
+filter-name-column =
+    .label = ਫਿਲਟਰ ਨਾਂ
+filter-active-column =
+    .label = ਯੋਗ
+filter-new-button =
+    .label = ਨਵਾਂ...
+    .accesskey = N
+filter-edit-button =
+    .label = ਸੋਧ...
+    .accesskey = E
+filter-delete-button =
+    .label = ਹਟਾਓ
+    .accesskey = t
 
 ## Filter Editor
 
