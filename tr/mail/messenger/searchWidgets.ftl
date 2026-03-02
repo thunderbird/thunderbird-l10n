@@ -129,6 +129,24 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-star =
+    .label = Yıldız ekle
+rule-action-priority =
+    .label = Öncelik ata
+rule-action-tag =
+    .label = İletiyi etiketle
+rule-action-delete =
+    .label = İletiyi sil
+rule-action-delete-pop =
+    .label = POP sunucusundan sil
+rule-action-fetch-pop =
+    .label = POP sunucusundan indir
+rule-action-ignore-thread =
+    .label = Diziyi görmezden gel
+rule-action-ignore-subthread =
+    .label = Alt diziyi görmezden gel
+rule-action-watch-thread =
+    .label = Diziyi takip et
 
 ## Rule Action Targets
 
