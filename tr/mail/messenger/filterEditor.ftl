@@ -101,6 +101,15 @@ filter-count-visible-of-total = { $visible } / { $total }
 
 filter-active-column =
     .label = Etkin
+filter-new-button =
+    .label = Yeni…
+    .accesskey = Y
+filter-view-log-button =
+    .label = Süzgeç günlüğü
+    .accesskey = l
+filter-run-filters-button =
+    .label = Şimdi çalıştır
+    .accesskey = a
 
 ## Filter Editor
 
