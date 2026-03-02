@@ -114,6 +114,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = เอากฎนี้ออก
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = เพิ่มการกระทำใหม่
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = เอาการกระทำนี้ออก
 
 ## Search Term List
 
@@ -155,6 +163,14 @@ rule-action-delete-pop =
     .label = ลบจากเซิร์ฟเวอร์ POP
 rule-action-fetch-pop =
     .label = ดึงจากเซิร์ฟเวอร์ POP
+rule-action-ignore-thread =
+    .label = เพิกเฉยเธรด
+rule-action-ignore-subthread =
+    .label = เพิกเฉยเธรดย่อย
+rule-action-watch-thread =
+    .label = เฝ้าดูเธรด
+rule-action-stop =
+    .label = หยุดการทำงานของตัวกรอง
 
 ## Rule Action Targets
 
