@@ -107,6 +107,34 @@ filter-active-column =
 filter-new-button =
     .label = Nuevo…
     .accesskey = N
+filter-reorder-top-button =
+    .label = Mover al inicio
+    .accesskey = o
+    .tooltiptext = Reordenar filtro para que se ejecute antes que todos los otros
+filter-reorder-up-button =
+    .label = Subir
+    .accesskey = S
+filter-reorder-down-button =
+    .label = Bajar
+    .accesskey = j
+filter-reorder-bottom-button =
+    .label = Mover al final
+    .accesskey = f
+    .tooltiptext = Reordenar filtro para que se ejecute después que todos los otros
+filter-header-label =
+    .value = Los filtros activos se ejecutan automáticamente en el orden indicado debajo.
+filter-filters-for-prefix =
+    .value = Filtros para:
+    .accesskey = F
+filter-view-log-button =
+    .label = Registro de filtros
+    .accesskey = l
+filter-run-filters-button =
+    .label = Ejecutar ahora
+    .accesskey = r
+filter-folder-picker-prefix =
+    .value = Ejecutar los filtros seleccionados en:
+    .accesskey = c
 
 ## Filter Editor
 
