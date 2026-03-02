@@ -144,6 +144,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Таңдалған сүзгі(лер)ді қайда қолдану:
     .accesskey = д
+filter-dont-warn-delete-checkbox = Мені қайта сұрамау
+filter-cannot-enable-incompatible = Бұл сүзгі { -brand-product-name } болашақ нұсқасымен жасалған сияқты. Бұл сүзгіні іске қоса алмайсыз, өйткені біз оны қалай іске асыру керектігін білмейміз.
 
 ## Filter Editor
 
