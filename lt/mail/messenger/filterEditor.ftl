@@ -130,6 +130,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Pažymėtus filtrus taikyti aplankui:
     .accesskey = f
+filter-dont-warn-delete-checkbox = Šio klausimo ateityje nepateikti
+filter-cannot-enable-incompatible = Panašu, kad šis filtras buvo sukurtas naujesne „{ -brand-product-name }“ laida. Šio filtro negalima įjungti, nes neaišku, kaip jį taikyti.
 
 ## Filter Editor
 
