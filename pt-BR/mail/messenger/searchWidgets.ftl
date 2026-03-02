@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Adicionar uma regra
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Remover esta regra
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Remover esta regra
@@ -137,6 +141,14 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-unread =
+    .label = Marcar como não lida
+rule-action-star =
+    .label = Marcar com estrela
+rule-action-priority =
+    .label = Definir prioridade como
+rule-action-tag =
+    .label = Aplicar etiqueta
 rule-action-ignore-subthread =
     .label = Ignorar subtópico
 rule-action-watch-thread =
