@@ -119,6 +119,9 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = დაარქივება
     .accesskey = დ
+filter-editor-action-desc =
+    .value = ამ მოქმედებების შესრულება:
+    .accesskey = ქ
 filter-editor-action-order-warning =
     .value = შენიშვნა: გამოხშირვის ქმედებები სხვა რიგით შესრულდება.
 filter-editor-action-order-link =
@@ -126,6 +129,7 @@ filter-editor-action-order-link =
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name }-ის ასლი
+filter-editor-invalid-search-title = ძიების პირობები უმართებულოა
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
