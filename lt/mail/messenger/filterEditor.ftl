@@ -112,6 +112,11 @@ filter-editor-action-order-warning =
     .value = Pastaba: filtrai bus vykdomi kita tvarka.
 filter-editor-action-order-link =
     .value = Parodyti vykdymo tvarką
+filter-editor-duplicate-title = Pakartotas filtro pavadinimas
+filter-editor-duplicate-msg = Toks filtras jau yra. Įveskite kitą filtro pavadinimą.
+filter-editor-no-event-title = Nepasirinkta, kada taikyti filtrą
+filter-editor-no-event-msg = Turite pasirinkti bent vieną filtro taikymo aplinkybę. Jeigu norite, kad filtras laikinai nebūtų taikomas apskritai, pašalinkite pažymėjimą ties juo laiškų filtrų lango stulpelyje „Taikymas“.
+filter-editor-match-all-name = Visi laiškai tenkina
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } – kopija
