@@ -99,6 +99,8 @@ filter-count-visible-of-total = { $visible } af { $total }
 
 ## Filter List Dialog
 
+filter-dont-warn-delete-checkbox = Spørg mig ikke igen.
+filter-cannot-enable-incompatible = Dette filter er sandsynligvis oprettet i en nyere eller inkompatibel version af { -brand-product-name }. Du kan ikke aktivere filteret, for vi ved ikke, hvordan vi skal anvende det.
 
 ## Filter Editor
 
