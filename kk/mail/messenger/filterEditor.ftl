@@ -99,11 +99,27 @@ filter-count-visible-of-total = { $visible }, барлығы { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Хабарламалар сүзгілері
+filter-name-column =
+    .label = Сүзгі атауы
 filter-active-column =
     .label = Іске қосылған
 filter-new-button =
     .label = Жаңа…
     .accesskey = Ж
+filter-new-copy-button =
+    .label = Көшіріп алу…
+    .accesskey = К
+filter-edit-button =
+    .label = Өзгерту…
+    .accesskey = Ө
+filter-delete-button =
+    .label = Өшіру
+    .accesskey = р
+filter-reorder-top-button =
+    .label = Жоғарыға жылжыту
+    .accesskey = о
+    .tooltiptext = Сүзгіні басқалардан бұрын орындалатындай етіп орналастыру
 filter-reorder-up-button =
     .label = Жоғарыға
     .accesskey = а
@@ -125,6 +141,9 @@ filter-view-log-button =
 filter-run-filters-button =
     .label = Қазір жөнелту
     .accesskey = ж
+filter-folder-picker-prefix =
+    .value = Таңдалған сүзгі(лер)ді қайда қолдану:
+    .accesskey = д
 
 ## Filter Editor
 
