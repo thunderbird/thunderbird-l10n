@@ -107,6 +107,25 @@ filter-active-column =
 filter-new-button =
     .label = ახალი…
     .accesskey = ა
+filter-new-copy-button =
+    .label = ასლი…
+    .accesskey = ლ
+filter-edit-button =
+    .label = ჩასწორება…
+    .accesskey = ჩ
+filter-delete-button =
+    .label = წაშლა
+    .accesskey = წ
+filter-reorder-top-button =
+    .label = დასაწყისში
+    .accesskey = ა
+    .tooltiptext = ფილტრის გადაადგილება, რომ ყველა სხვა დანარჩენზე ადრე შესრულდეს
+filter-reorder-up-button =
+    .label = აწევა
+    .accesskey = ე
+filter-reorder-down-button =
+    .label = ჩამოწევა
+    .accesskey = ო
 filter-reorder-bottom-button =
     .label = ბოლოში
     .accesskey = ბ
@@ -129,6 +148,8 @@ filter-search-box =
     .placeholder = ფილტრის მოძიება სახელით…
 filter-close-key =
     .key = W
+filter-dont-warn-delete-checkbox = შეკითხვის გარეშე.
+filter-cannot-enable-incompatible = ეს ფილტრი, როგორც ჩანს { -brand-product-name }-ის მომავალი ან არათავსებადი ვერსიის მიერაა შექმნილი. ამ ფილტრს ვერ გამოიყენებთ, რადგან ვერ ხერხდება მისი დამუშავება.
 
 ## Filter Editor
 
