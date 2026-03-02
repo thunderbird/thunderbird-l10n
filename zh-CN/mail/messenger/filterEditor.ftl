@@ -115,6 +115,9 @@ filter-editor-action-order-warning =
     .value = 注：过滤器操作将以不同的顺序运行。
 filter-editor-action-order-link =
     .value = 见执行顺序
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } 的副本
 filter-editor-invalid-search-title = 无效的搜索条件
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
