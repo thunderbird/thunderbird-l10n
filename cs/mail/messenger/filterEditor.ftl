@@ -109,6 +109,21 @@ filter-active-column =
 filter-new-button =
     .label = Nový…
     .accesskey = N
+filter-reorder-up-button =
+    .label = Posunout výše
+    .accesskey = v
+filter-reorder-down-button =
+    .label = Posunout níže
+    .accesskey = t
+filter-reorder-bottom-button =
+    .label = Přesunout dolů
+    .accesskey = d
+    .tooltiptext = Přesune filtr tak, aby se spouštěl jako poslední
+filter-header-label =
+    .value = Aktivní filtry jsou automaticky prováděny v níže uvedeném pořadí.
+filter-filters-for-prefix =
+    .value = Filtr pro:
+    .accesskey = F
 
 ## Filter Editor
 
