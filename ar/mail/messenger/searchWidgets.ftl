@@ -104,9 +104,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = أضِف قاعدة جديدة
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = احذف هذه القاعدة
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = احذف هذه القاعدة
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = أضِف إجراءً جديدًا
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = أزِل هذا الإجراء
 
 ## Search Term List
 
@@ -122,6 +134,38 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = انقل الرسالة إلى
+rule-action-copy =
+    .label = انسخ الرسالة إلى
+rule-action-forward =
+    .label = مرِّر الرسالة إلى
+rule-action-reply =
+    .label = رُد باستخدام قالب
+rule-action-read =
+    .label = أشِّر كمقروء
+rule-action-unread =
+    .label = علّم كغير مقروء
+rule-action-star =
+    .label = أضِف نجمة
+rule-action-priority =
+    .label = اجعل الأولويّة
+rule-action-tag =
+    .label = سِمْ الرّسالة
+rule-action-delete =
+    .label = احذف الرسالة
+rule-action-delete-pop =
+    .label = احذف من خادوم POP
+rule-action-fetch-pop =
+    .label = اجلب من خادوم POP
+rule-action-ignore-thread =
+    .label = تجاهل النقاش
+rule-action-ignore-subthread =
+    .label = تجاهل النقاش الفرعي
+rule-action-watch-thread =
+    .label = راقب النقاش
+rule-action-stop =
+    .label = أوقِف تشغيل التصفية
 
 ## Rule Action Targets
 

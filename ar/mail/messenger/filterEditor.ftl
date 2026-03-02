@@ -94,6 +94,11 @@ filter-editor-action-order-warning =
     .value = ملاحظة: ستُنفّذ إجراءات المرشِّح بترتيب مختلف.
 filter-editor-action-order-link =
     .value = اطّلع على ترتيب التنفيذ
+filter-editor-duplicate-title = اسم المرشِّح مكرر
+filter-editor-duplicate-msg = اسم المرشِّح الذي أدخلته موجود بالفعل. من فضلك أدخل اسم مرشِّح مختلف.
+filter-editor-no-event-title = لم يحدد أي حدث للمرشِّح
+filter-editor-no-event-msg = عليك اختيار حدث واحد على الأقل يطبق عنده المرشِّح. إذا كنت تريد ألا يُطبق هذا المرشح عند أي حدث مؤقتا، فارفع التأشير عن حالة التفعيل في حوار مرشحات الرسائل.
+filter-editor-match-all-name = مطابقة مع جميع الرسائل
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = نسخة من { $name }
