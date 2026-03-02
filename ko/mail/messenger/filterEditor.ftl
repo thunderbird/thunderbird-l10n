@@ -120,6 +120,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = 폴더에 선택한 필터 실행:
     .accesskey = c
+filter-dont-warn-delete-checkbox = 다시 묻지 않음
+filter-cannot-enable-incompatible = 이 필터는 새로운 버전이나 { -brand-product-name }와 호환되지 않는 버전에서 만들어 진 것 같습니다. 적용 방법을 알 수 없기 때문에 이 필터를 활성화 할 수 없습니다.
 
 ## Filter Editor
 
