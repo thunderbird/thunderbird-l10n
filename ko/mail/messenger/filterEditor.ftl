@@ -120,8 +120,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = 폴더에 선택한 필터 실행:
     .accesskey = c
+filter-search-box =
+    .placeholder = 이름으로 검색하기…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = 선택한 필터를 삭제하시겠습니까?
 filter-dont-warn-delete-checkbox = 다시 묻지 않음
 filter-cannot-enable-incompatible = 이 필터는 새로운 버전이나 { -brand-product-name }와 호환되지 않는 버전에서 만들어 진 것 같습니다. 적용 방법을 알 수 없기 때문에 이 필터를 활성화 할 수 없습니다.
+filter-running-title = 필터 실행
+filter-running-message =
+    현재 메시지에 대한 필터링을 시작합니다.
+    계속 하시겠습니까?
+filter-stop-button = 중지
+filter-continue-button = 계속
 
 ## Filter Editor
 
