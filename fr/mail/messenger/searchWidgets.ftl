@@ -129,6 +129,14 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-copy =
+    .label = Copier le message vers
+rule-action-forward =
+    .label = Transférer le message à
+rule-action-reply =
+    .label = Répondre avec le modèle
+rule-action-read =
+    .label = Marquer comme lu
 
 ## Rule Action Targets
 
