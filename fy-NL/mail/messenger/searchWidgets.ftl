@@ -126,3 +126,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Foldogge oan alle berjochten
     .accesskey = b
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Heechst
+rule-priority-high =
+    .label = Heech
+rule-priority-normal =
+    .label = Normaal
+rule-priority-low =
+    .label = Leech
+rule-priority-lowest =
+    .label = Leechst
