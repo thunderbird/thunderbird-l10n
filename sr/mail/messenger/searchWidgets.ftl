@@ -130,6 +130,8 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Помери поруку у
 rule-action-copy =
     .label = Ископирај поруку у
 rule-action-forward =

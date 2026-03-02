@@ -109,6 +109,13 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = Архивирам
     .accesskey = А
+filter-editor-action-desc =
+    .value = Одради ове радње:
+    .accesskey = О
+filter-editor-action-order-warning =
+    .value = Напомена: Радње у филтеру биће извршене по другачијем редоследу.
+filter-editor-action-order-link =
+    .value = Погледај редослед извршавања
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Копија од { $name }
