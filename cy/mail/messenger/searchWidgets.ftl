@@ -129,6 +129,16 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Symud Neges i
+rule-action-copy =
+    .label = Copïo Neges i
+rule-action-forward =
+    .label = Anfon Neges Ymlaen i
+rule-action-reply =
+    .label = Ateb gyda Thempled
+rule-action-read =
+    .label = Marcio wedi Darllen
 
 ## Rule Action Targets
 
