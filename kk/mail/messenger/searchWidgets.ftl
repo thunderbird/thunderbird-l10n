@@ -126,3 +126,11 @@ search-match-any =
 search-match-all-msgs =
     .label = Барлық хабарламаларды сәйкестеу
     .accesskey = м
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-low =
+    .label = Төмен
