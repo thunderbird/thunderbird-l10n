@@ -177,6 +177,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Lixo eletrónico
+rule-menuitem-not-spam =
+    .label = Não é lixo eletrónico
 rule-priority-highest =
     .label = Muito alta
 rule-priority-high =
