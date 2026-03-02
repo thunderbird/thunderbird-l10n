@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Nije rigel tafoegje
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Dizze rigel fuortsmite
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Dizze rigel fuortsmite
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Nije aksje tafoegje
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Dizze aksje fuortsmite
 
 ## Search Term List
 
@@ -129,6 +141,10 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-unread =
+    .label = Berjocht as net lêzen markearje
+rule-action-star =
+    .label = Stjer tafoegje
 
 ## Rule Action Targets
 

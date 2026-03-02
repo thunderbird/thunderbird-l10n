@@ -102,10 +102,28 @@ filter-count-visible-of-total = { $visible } fan { $total }
 
 ## Filter Editor
 
+filter-editor-window-title = Filterrigels
 filter-editor-name =
     .value = Filternamme:
     .accesskey = F
 filter-editor-context-desc = Filter tapasse by it:
+filter-editor-context-incoming =
+    .label = Opheljen nije berjochten:
+    .accesskey = O
+filter-editor-context-manual =
+    .label = Hânmjittich útfiere
+    .accesskey = H
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Dit filter kin net bewarre wurde, omdat de sykterm ‘{ $attribute } { $operator }’ yn de aktuele kontekst net jildich is.
+filter-editor-action-order-explanation = Wannear’t in berjocht oerienkomt mei dit filter sille de aksjes útfierd wurde yn dizze folchoarder:
+filter-editor-action-order-title = Werklike aksjefolchoarder
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
