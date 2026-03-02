@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Nowe pšawidło pśidaś
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Toś to pšawidło wótpóraś
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Toś to pšawidło wótpóraś
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Nowu akciju pśidaś
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Toś tu akciju wótpóraś
 
 ## Search Term List
 
@@ -129,11 +141,47 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Powěsć pśesunuś do
+rule-action-copy =
+    .label = Powěsć kopěrowaś do
+rule-action-forward =
+    .label = Powěsć dalej pósrědniś do
+rule-action-reply =
+    .label = Z pśedłogu wótegroniś
+rule-action-read =
+    .label = Ako pśecytany markěrowaś
+rule-action-unread =
+    .label = Ako njepśecytany markěrowaś
+rule-action-star =
+    .label = Gwězdku pśidaś
+rule-action-priority =
+    .label = Prioritu stajiś na
+rule-action-tag =
+    .label = Powěsći toflicku pśidaś
 rule-action-set-spam-status =
     .label = Spamowy status stajiś na
+rule-action-delete =
+    .label = Powěsć wulašowaś
+rule-action-delete-pop =
+    .label = Ze serwera POP wulašowaś
+rule-action-fetch-pop =
+    .label = Ze serwera POP wótwołaś
+rule-action-ignore-thread =
+    .label = Nitku ignorěrowaś
+rule-action-ignore-subthread =
+    .label = Pódnitku ignorěrowaś
+rule-action-watch-thread =
+    .label = Nitku wobglědaś
+rule-action-stop =
+    .label = Wuwjeźenje filtra zastajiś
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = Njejo spam
 rule-priority-highest =
     .label = Nejwuša
 rule-priority-high =

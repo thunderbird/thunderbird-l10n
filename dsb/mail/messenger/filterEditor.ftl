@@ -126,6 +126,15 @@ filter-editor-context-archive =
 filter-editor-action-desc =
     .value = Toś te akcije wuwjasć:
     .accesskey = T
+filter-editor-action-order-warning =
+    .value = Glědajśo: Filtrowe akcije wuwjeduju se w rozdźělnem pórěźe.
+filter-editor-action-order-link =
+    .value = Glejśo wuwjeźeński pórěd
+filter-editor-duplicate-title = Dwójne filtrowe mě
+filter-editor-duplicate-msg = Filtrowe mě, kótarež sćo zapódał, južo eksistěrujo. Pšosym zapódajśo druge filtowe mě.
+filter-editor-no-event-title = Žedno filtrowe tšojenje wubrane
+filter-editor-no-event-msg = Musyśo nanejmjenjej jedno tšojenje wubraś, gaž toś ten filter se nałožujo. Jolic nachylu njocośo filter ze žednym elementom wuwjasć daś, znjemóžniśo jen w dialogu powěsćowych filtrow.
+filter-editor-match-all-name = Wšyknym powěsćam wótpowědowaś
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } kopěrowaś
