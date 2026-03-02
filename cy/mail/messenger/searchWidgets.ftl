@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Ychwanegu rheol newydd
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Tynnu'r rheol
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Tynnu'r rheol
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Ychwanegu gweithred newydd
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Tynnu'r weithred hon
 
 ## Search Term List
 
@@ -139,11 +151,37 @@ rule-action-reply =
     .label = Ateb gyda Thempled
 rule-action-read =
     .label = Marcio wedi Darllen
+rule-action-unread =
+    .label = Marcio fel Heb eu Darllen
+rule-action-star =
+    .label = Ychwanegu Seren
+rule-action-priority =
+    .label = Gosod Blaenoriaeth i
+rule-action-tag =
+    .label = Tagio Neges
 rule-action-set-spam-status =
     .label = Gosod Statws Sbam i
+rule-action-delete =
+    .label = Dileu Neges
+rule-action-delete-pop =
+    .label = Dileu o'r Gweinydd POP
+rule-action-fetch-pop =
+    .label = Estyn o'r Gweinydd POP
+rule-action-ignore-thread =
+    .label = Anwybyddu'r Edefyn
+rule-action-ignore-subthread =
+    .label = Anwybyddu'r Is-edefyn
+rule-action-watch-thread =
+    .label = Gwylio'r Edefyn
+rule-action-stop =
+    .label = Atal Gweithredu'r Hidl
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Sbam
+rule-menuitem-not-spam =
+    .label = Nid Sbam
 rule-priority-highest =
     .label = Uchaf
 rule-priority-high =

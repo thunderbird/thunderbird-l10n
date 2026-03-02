@@ -134,6 +134,11 @@ filter-editor-action-order-warning =
     .value = Sylw: Bydd gweithredoedd hidlo'n cael eu rhedeg mewn trefn gwahanol.
 filter-editor-action-order-link =
     .value = Gw. trefn weithredu
+filter-editor-duplicate-title = Dyblygu Enw'r Hidl
+filter-editor-duplicate-msg = Mae'r enw hidl rydych wedi'i roi yn bodoli eisoes. Rhowch enw hidl gwahanol.
+filter-editor-no-event-title = Heb ddewis hidl digwyddiad
+filter-editor-no-event-msg = Rhaid dewis o leiaf un digwyddiad pan mae'r hidl yn cael ei osod. Os nad ydych am i'r hidl redeg dros dro ar gyfer unrhyw ddigwyddiad, dad-diciwch ei gyflwr gweithredol yn y deialog Hidlau Negeseuon.
+filter-editor-match-all-name = Cydweddu Pob Neges
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Copi o { $name }
