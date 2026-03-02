@@ -150,8 +150,15 @@ filter-search-box =
     .placeholder = Nazwa filtru…
 filter-close-key =
     .key = W
+filter-delete-confirmation = Czy na pewno usunąć wybrany(-e) filtr(y)?
 filter-dont-warn-delete-checkbox = Nie pytaj ponownie
 filter-cannot-enable-incompatible = Ten filtr został prawdopodobnie utworzony w nowszej lub niezgodnej wersji programu { -brand-product-name }. Nie można włączyć tego filtru, ponieważ nie wiadomo, jak go zastosować.
+filter-running-title = Uruchomione filtry
+filter-running-message =
+    Trwa filtrowanie wiadomości.
+    Czy kontynuować uruchamianie filtrów?
+filter-stop-button = Zatrzymaj
+filter-continue-button = Kontynuuj
 
 ## Filter Editor
 
