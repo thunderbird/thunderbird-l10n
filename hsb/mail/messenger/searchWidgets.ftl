@@ -126,3 +126,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Wšě powěsće namakać
     .accesskey = m
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Najwyša
+rule-priority-high =
+    .label = Wysoka
+rule-priority-normal =
+    .label = Normalna
+rule-priority-low =
+    .label = Niska
+rule-priority-lowest =
+    .label = Najniša
