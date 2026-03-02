@@ -132,8 +132,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Cuir na leanas tro na criathragan a thagh thu:
     .accesskey = C
+filter-search-box =
+    .placeholder = Lorg criathragan a-rèir ainm…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = A bheil thu cinnteach gu bheil thu airson na criathragan a thagh thu a sguabadh às?
 filter-dont-warn-delete-checkbox = Na faighnich dhìom a-rithist
 filter-cannot-enable-incompatible = 'S mathaid gun deach a’ chriathrag seo a chruthachadh le tionndadh de { -brand-product-name } a tha ri tighinn fhathast no nach eil co-chòrdail. Chan urrainn dhut a’ chriathrag seo a chur an comas a chionn ’s nach eil fhios againn mar a chuireas sinn an sàs e.
+filter-running-title = Criathragan beòtha
+filter-running-message =
+    Tha thu ri criathradh theachdaireachdan an-dràsta fhèin.
+    A bheil thu airson leantainn ort le bhith a' cleachdadh nan criathragan?
+filter-stop-button = Sguir dheth
+filter-continue-button = Lean air adhart
 
 ## Filter Editor
 
