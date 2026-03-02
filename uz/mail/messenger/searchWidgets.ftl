@@ -119,3 +119,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Barcha xabarlarni topish
     .accesskey = x
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Eng yuqori
+rule-priority-high =
+    .label = Yuqori
+rule-priority-normal =
+    .label = O‘rtacha
+rule-priority-low =
+    .label = Past
+rule-priority-lowest =
+    .label = Juda past

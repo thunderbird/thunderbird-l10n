@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
@@ -55,3 +58,36 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } – { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Filterlash qoidalari
+filter-editor-name =
+    .value = Filtrning nomi:
+    .accesskey = i
+filter-editor-context-desc = Filterni qo‘llash:
+filter-editor-context-incoming =
+    .label = Yangi xat kelganda:
+    .accesskey = Y
+filter-editor-context-manual =
+    .label = Qo‘lbola ishga tushirish
+    .accesskey = i
+filter-editor-context-outgoing =
+    .label = Jo‘natilgandanso‘ng
+    .accesskey = J
+filter-editor-context-archive =
+    .label = Arxivlash
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Bu amallarni bajarish:
+    .accesskey = B
+filter-editor-action-order-warning =
+    .value = Eslatma: filterlash amallari boshqa tartibda ishga tushiriladi.
+filter-editor-action-order-link =
+    .value = Bajarish tartibini ko‘rish
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } nusxasi
