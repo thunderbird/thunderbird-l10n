@@ -144,6 +144,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Kjør valgte filter på:
     .accesskey = v
+filter-dont-warn-delete-checkbox = Ikke spør meg om dette igjen
+filter-cannot-enable-incompatible = Dette filteret ble sannsynligvis opprettet av en nyere eller inkompatibel versjon av { -brand-product-name }. Du kan ikke slå på dette filteret, fordi programmet ikke vet hvordan det skal behandles.
 
 ## Filter Editor
 
