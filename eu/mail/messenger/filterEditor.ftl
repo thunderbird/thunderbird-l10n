@@ -130,8 +130,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Exekutatu eskuz aukeratutako iragazkia(k) karpeta honetan:
     .accesskey = k
+filter-search-box =
+    .placeholder = Bilatu iragazkiak izenearen arabera…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Ziur zaude iragazki hau ezabatu nahi duzula?
 filter-dont-warn-delete-checkbox = Ez galdetu berriz
 filter-cannot-enable-incompatible = Iragazki hau beharbada { -brand-product-name } bertsio berriago batek sortua izan da. Ezin duzu iragazki hau gaitu ezin delako jakin nola aplikatu.
+filter-running-title = Exekutatzen ari diren iragazkiak
+filter-running-message =
+    Mezuak iragazten ari zara.
+    Iragazkiak ezartzen jarraitu nahi duzu?
+filter-stop-button = Gelditu
+filter-continue-button = Jarraitu
 
 ## Filter Editor
 
