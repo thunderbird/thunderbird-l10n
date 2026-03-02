@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Adder un nove regula
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Remover iste regula
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Remover iste regula
@@ -155,6 +159,8 @@ rule-action-priority =
     .label = Configurar prioritate a
 rule-action-tag =
     .label = Message etiquetta
+rule-action-set-spam-status =
+    .label = Configurar como indesirate
 rule-action-delete =
     .label = Deler message
 rule-action-delete-pop =
@@ -172,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = Non Spam
 rule-priority-highest =
     .label = Plus alte
 rule-priority-high =
