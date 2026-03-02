@@ -115,3 +115,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Адпавядаюць усім лістам
     .accesskey = А
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Найвышэйшы
+rule-priority-high =
+    .label = Высокі
+rule-priority-normal =
+    .label = Звычайны
+rule-priority-low =
+    .label = Нізкі
+rule-priority-lowest =
+    .label = Найніжэйшы
