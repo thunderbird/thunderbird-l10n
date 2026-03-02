@@ -125,6 +125,10 @@ filter-header-label =
 filter-filters-for-prefix =
     .value = Filtre pentru:
     .accesskey = F
+filter-search-box =
+    .placeholder = Caută filtre după nume…
+filter-close-key =
+    .key = w
 
 ## Filter Editor
 
