@@ -99,11 +99,53 @@ filter-count-visible-of-total = { $visible } av { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Meddelandefilter
+filter-name-column =
+    .label = Filternamn
 filter-active-column =
     .label = Aktiv
 filter-new-button =
     .label = Ny…
     .accesskey = N
+filter-new-copy-button =
+    .label = Kopiera…
+    .accesskey = K
+filter-edit-button =
+    .label = Redigera…
+    .accesskey = R
+filter-delete-button =
+    .label = Ta bort
+    .accesskey = T
+filter-reorder-top-button =
+    .label = Flytta till toppen
+    .accesskey = o
+    .tooltiptext = Ordna filter så det utförs före alla andra
+filter-reorder-up-button =
+    .label = Flytta upp
+    .accesskey = u
+filter-reorder-down-button =
+    .label = Flytta ner
+    .accesskey = y
+filter-reorder-bottom-button =
+    .label = Flytta till botten
+    .accesskey = b
+    .tooltiptext = Ordna filter så det utförs efter alla andra
+filter-header-label =
+    .value = Aktiva filterregler körs i följande ordning.
+filter-filters-for-prefix =
+    .value = Filterregler för:
+    .accesskey = F
+filter-view-log-button =
+    .label = Filterlogg
+    .accesskey = L
+filter-run-filters-button =
+    .label = Kör nu
+    .accesskey = K
+filter-folder-picker-prefix =
+    .value = Kör markerade filter på:
+    .accesskey = å
+filter-dont-warn-delete-checkbox = Fråga mig inte igen
+filter-cannot-enable-incompatible = Filtret skapades troligen av en nyare eller inkompatibel version av { -brand-product-name }. Du kan inte aktivera det här filtret eftersom vi inte vet hur det ska appliceras.
 
 ## Filter Editor
 
