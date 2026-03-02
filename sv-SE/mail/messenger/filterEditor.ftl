@@ -144,8 +144,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Kör markerade filter på:
     .accesskey = å
+filter-search-box =
+    .placeholder = Sök filter efter namn…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Är du säker på att du vill ta bort den markerade filterregeln?
 filter-dont-warn-delete-checkbox = Fråga mig inte igen
 filter-cannot-enable-incompatible = Filtret skapades troligen av en nyare eller inkompatibel version av { -brand-product-name }. Du kan inte aktivera det här filtret eftersom vi inte vet hur det ska appliceras.
+filter-running-title = Pågående filtrering
+filter-running-message =
+    Du är i färd med att filtrera meddelanden.
+    Vill du fortsätta med tillämpningen av filter?
+filter-stop-button = Avbryt
+filter-continue-button = Fortsätt
 
 ## Filter Editor
 
