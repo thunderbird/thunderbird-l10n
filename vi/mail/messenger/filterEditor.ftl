@@ -91,6 +91,8 @@ filter-count-visible-of-total = { $visible } của { $total }
 
 ## Filter List Dialog
 
+filter-active-column =
+    .label = Đã bật
 filter-new-button =
     .label = Mới…
     .accesskey = N
