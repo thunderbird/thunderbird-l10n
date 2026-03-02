@@ -132,6 +132,20 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Տեղափոխել նամակը՝
+rule-action-copy =
+    .label = Պատճենել՝
+rule-action-forward =
+    .label = Փոխանցել՝
+rule-action-reply =
+    .label = Պատասխանել ձևանմուշով
+rule-action-read =
+    .label = Նշել որպես ընթերցված
+rule-action-unread =
+    .label = Նշել որպես ընթերցված
+rule-action-star =
+    .label = Ավելացնել աստղ
 rule-action-priority =
     .label = Առաջնահերթ-ը՝
 rule-action-tag =

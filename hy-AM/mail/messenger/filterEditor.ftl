@@ -86,6 +86,10 @@ filter-count-visible-of-total = { $visible }՝ { $total }-ից
 
 ## Filter Editor
 
+filter-editor-window-title = Զտիչի կանոնները
+filter-editor-name =
+    .value = Զտիչի անունը.
+    .accesskey = տ
 filter-editor-context-desc = Կիրառել զտիչը, երբ՝
 filter-editor-context-incoming =
     .label = Նոր նամակի ստացում.
@@ -93,6 +97,18 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = Ձեռադիր բացում
     .accesskey = R
+filter-editor-context-outgoing =
+    .label = Ուղարկելուց հետո
+    .accesskey = հ
+filter-editor-context-archive =
+    .label = Արխիվացում
+    .accesskey = Ա
+filter-editor-action-order-link =
+    .value = Դիտել կատարման կարգը
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } ֊ի պատճե
+filter-editor-invalid-search-title = Պայմանների որոնումը սխալ է
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
