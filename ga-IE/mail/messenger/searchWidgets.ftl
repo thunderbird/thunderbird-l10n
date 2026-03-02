@@ -119,3 +119,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Meaitseáil gach teachtaireacht
     .accesskey = M
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Is Airde
+rule-priority-high =
+    .label = Ard
+rule-priority-normal =
+    .label = Gnách
+rule-priority-low =
+    .label = Íseal
+rule-priority-lowest =
+    .label = Is Ísle
