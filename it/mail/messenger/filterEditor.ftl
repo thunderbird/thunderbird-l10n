@@ -99,6 +99,14 @@ filter-count-visible-of-total = { $visible } su { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Filtri messaggi
+filter-name-column =
+    .label = Nome filtro
+filter-active-column =
+    .label = Attivato
+filter-new-button =
+    .label = Nuovo…
+    .accesskey = N
 
 ## Filter Editor
 
