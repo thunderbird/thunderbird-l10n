@@ -58,6 +58,15 @@ filter-count-visible-of-total = { $visible } з { $total }
 
 ## Filter List Dialog
 
+filter-new-copy-button =
+    .label = Капіяваць…
+    .accesskey = К
+filter-edit-button =
+    .label = Рэдагаваць…
+    .accesskey = Р
+filter-delete-button =
+    .label = Выдаліць
+    .accesskey = д
 filter-folder-picker-prefix =
     .value = Выканаць выбраны(я) фільтр(ы) ў папцы:
     .accesskey = ы
