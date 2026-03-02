@@ -126,3 +126,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Keine Bedingungen
     .accesskey = K
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Sehr hoch
+rule-priority-high =
+    .label = Hoch
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Niedrig
+rule-priority-lowest =
+    .label = Sehr niedrig
