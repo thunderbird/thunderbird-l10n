@@ -132,6 +132,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Cuir na leanas tro na criathragan a thagh thu:
     .accesskey = C
+filter-dont-warn-delete-checkbox = Na faighnich dhìom a-rithist
+filter-cannot-enable-incompatible = 'S mathaid gun deach a’ chriathrag seo a chruthachadh le tionndadh de { -brand-product-name } a tha ri tighinn fhathast no nach eil co-chòrdail. Chan urrainn dhut a’ chriathrag seo a chur an comas a chionn ’s nach eil fhios againn mar a chuireas sinn an sàs e.
 
 ## Filter Editor
 
