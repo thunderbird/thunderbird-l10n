@@ -120,6 +120,11 @@ filter-editor-action-order-warning =
     .value = Huom.: Suodatintoiminnot suoritetaan eri järjestyksessä.
 filter-editor-action-order-link =
     .value = Näytä suoritusjärjestys
+filter-editor-duplicate-title = Kahdella suodattimella on sama nimi
+filter-editor-duplicate-msg = Kirjoittamasi suodattimen nimi on jo olemassa. Kirjoita toinen nimi.
+filter-editor-no-event-title = Suodatintoimintoa ei ole valittu
+filter-editor-no-event-msg = Suodattimeen täytyy valita ainakin yksi toiminto sitä suoritettaessa. Jos et väliaikaisesti halua suodattaa mitään viestejä, poista suodattimet käytöstä viestien suodatusikkunasta.
+filter-editor-match-all-name = Valitse kaikki viestit
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } - kopio

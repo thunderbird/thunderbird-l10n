@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Lisää tämä sääntö
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Poista tämä sääntö
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Poista tämä sääntö
@@ -172,6 +176,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Roskaposti
+rule-menuitem-not-spam =
+    .label = Ei roskapostia
 rule-priority-highest =
     .label = Korkein
 rule-priority-high =
