@@ -132,6 +132,12 @@ search-match-all-msgs =
 
 ## Rule Action Targets
 
+rule-priority-highest =
+    .label = En yüksek
+rule-priority-high =
+    .label = Yüksek
+rule-priority-normal =
+    .label = Normal
 rule-priority-low =
     .label = Düşük
 rule-priority-lowest =
