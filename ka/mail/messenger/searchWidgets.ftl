@@ -126,3 +126,11 @@ search-match-any =
 search-match-all-msgs =
     .label = ემთხვევა ყველა წერილში
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = წერილის გადატანა -
+
+## Rule Action Targets
+

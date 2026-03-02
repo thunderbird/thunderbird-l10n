@@ -103,3 +103,30 @@ filter-count-visible-of-total = { $visible }, სულ { $total }-დან
 ## Filter Editor
 
 filter-editor-window-title = ფილტრის წესები
+filter-editor-context-desc = ფილტრებით სარგებლობა:
+filter-editor-context-incoming =
+    .label = ახალი ფოსტის მიღებისას
+    .accesskey = ღ
+filter-editor-context-manual =
+    .label = ხელით შესრულებისას
+    .accesskey = ხ
+filter-editor-action-order-warning =
+    .value = შენიშვნა: გამოხშირვის ქმედებები სხვა რიგით შესრულდება.
+filter-editor-action-order-link =
+    .value = შესრულების რიგის ჩვენება
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = ფილტრი ვერ შეინახება, რადგან საძიებო პირობა "{ $attribute } { $operator }" მიმდინარე კონტექსტში უმართებულოა.
+filter-editor-action-order-explanation = როცა გზავნილი ამ ფილტრს შეესაბამება ქმედებები შემდეგი რიგით შესრულდება:
+filter-editor-action-order-title = ქმედებათა რეალური რიგი
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
