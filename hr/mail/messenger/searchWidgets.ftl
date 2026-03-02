@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Dodaj novo pravilo
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Ukloni ovo pravilo
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Ukloni ovo pravilo
@@ -155,6 +159,8 @@ rule-action-priority =
     .label = Postavi prioritet na
 rule-action-tag =
     .label = Označi poruku
+rule-action-set-spam-status =
+    .label = Postavi status neželjene pošte na
 rule-action-delete =
     .label = Obriši poruku
 rule-action-delete-pop =
@@ -172,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Neželjena pošta
+rule-menuitem-not-spam =
+    .label = Nije neželjena pošta
 rule-priority-highest =
     .label = Najviši
 rule-priority-high =

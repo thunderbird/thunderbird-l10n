@@ -128,6 +128,11 @@ filter-editor-action-order-warning =
     .value = Napomena: radnje filtera će biti pokrenute drugačijim redoslijedom.
 filter-editor-action-order-link =
     .value = Prikaži redoslijed izvršavanja
+filter-editor-duplicate-title = Identičan naziv filtera
+filter-editor-duplicate-msg = Naziv filtera kojeg ste upisali već postoji. Upišite drugačiji naziv filtera.
+filter-editor-no-event-title = Niti jedan događaj nije odabran za ovaj filter
+filter-editor-no-event-msg = Morate odabrati barem jedan događaj kada će se ovaj filter izvršiti. Ukoliko privremeno želite da se filter ne izvršava na niti jedan događaj, uklonite oznaku iz stupca Omogućeno u prozoru Filteri poruka.
+filter-editor-match-all-name = Za sve poruke
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Kopija { $name }
