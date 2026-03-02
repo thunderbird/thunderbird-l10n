@@ -114,6 +114,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Elimina questa regola
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Aggiungere una nuova azione
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Elimina questa azione
 
 ## Search Term List
 
@@ -129,6 +137,32 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Sposta il messaggio in
+rule-action-copy =
+    .label = Copia il messaggio in
+rule-action-forward =
+    .label = Inoltra il messaggio a
+rule-action-reply =
+    .label = Rispondi con un modello
+rule-action-read =
+    .label = Segna come già letto
+rule-action-unread =
+    .label = Segna come non letto
+rule-action-star =
+    .label = Aggiungi a Speciali
+rule-action-priority =
+    .label = Imposta priorità a
+rule-action-tag =
+    .label = Etichetta il messaggio
+rule-action-delete =
+    .label = Elimina messaggio
+rule-action-delete-pop =
+    .label = Elimina dal server POP
+rule-action-fetch-pop =
+    .label = Scarica dal server POP
+rule-action-ignore-thread =
+    .label = Ignora la discussione
 
 ## Rule Action Targets
 
