@@ -101,6 +101,13 @@ filter-count-visible-of-total = { $visible } z { $total }
 
 ## Filter List Dialog
 
+filter-name-column =
+    .label = Název filtru
+filter-active-column =
+    .label = Povoleno
+filter-new-button =
+    .label = Nový…
+    .accesskey = N
 
 ## Filter Editor
 
