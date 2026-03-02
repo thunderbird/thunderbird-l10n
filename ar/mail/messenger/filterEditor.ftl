@@ -81,6 +81,31 @@ filter-edit-button =
 filter-delete-button =
     .label = احذف
     .accesskey = ح
+filter-reorder-top-button =
+    .label = انقل إلى البداية
+    .accesskey = ن
+    .tooltiptext = غيّر ترتيب المُرشَّح لينفّذ قبل الآخرين
+filter-reorder-up-button =
+    .label = انقل لأعلى
+    .accesskey = ع
+filter-reorder-down-button =
+    .label = انقل لأسفل
+    .accesskey = س
+filter-reorder-bottom-button =
+    .label = انقل إلى النهاية
+    .accesskey = ق
+    .tooltiptext = غيّر ترتيب المُرشَّح لينفّذ بعد الآخرين
+filter-header-label =
+    .value = تُشغّل المرشحات تلقائيًّا حسب التّرتيب الظّاهر أدناه.
+filter-filters-for-prefix =
+    .value = مرشّحات لأجل:
+    .accesskey = م
+filter-view-log-button =
+    .label = سجل المرشّح
+    .accesskey = س
+filter-run-filters-button =
+    .label = شغّل الآن
+    .accesskey = ش
 
 ## Filter Editor
 
