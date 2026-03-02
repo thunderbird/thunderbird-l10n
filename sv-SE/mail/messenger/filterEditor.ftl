@@ -99,6 +99,11 @@ filter-count-visible-of-total = { $visible } av { $total }
 
 ## Filter List Dialog
 
+filter-active-column =
+    .label = Aktiv
+filter-new-button =
+    .label = Ny…
+    .accesskey = N
 
 ## Filter Editor
 
