@@ -57,6 +57,53 @@ filter-count-visible-of-total = { $visible } daripada { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Tapis Mesej
+filter-name-column =
+    .label = Nama Penapis
+filter-active-column =
+    .label = Didayakan
+filter-new-button =
+    .label = Baru…
+    .accesskey = B
+filter-new-copy-button =
+    .label = Salin…
+    .accesskey = S
+filter-edit-button =
+    .label = Edit…
+    .accesskey = E
+filter-delete-button =
+    .label = Buang
+    .accesskey = g
+filter-reorder-top-button =
+    .label = Pindah ke Atas
+    .accesskey = t
+    .tooltiptext = Susun semula penapis supaya dilaksanakan sebelum semua yang lain
+filter-reorder-up-button =
+    .label = Pindah Atas
+    .accesskey = A
+filter-reorder-down-button =
+    .label = Pindah Bawah
+    .accesskey = B
+filter-reorder-bottom-button =
+    .label = Pindah ke Bawah
+    .accesskey = B
+    .tooltiptext = Susun semula penapis supaya dilaksanakan selepas semua yang lain
+filter-header-label =
+    .value = Penapis yang aktif dilaksanakan secara automatik mengikut susunan di bawah.
+filter-filters-for-prefix =
+    .value = Tapis untuk:
+    .accesskey = P
+filter-view-log-button =
+    .label = Tapis Log
+    .accesskey = L
+filter-run-filters-button =
+    .label = Laksanakan Sekarang
+    .accesskey = L
+filter-folder-picker-prefix =
+    .value = Laksanakan penapis yang dipilih pada:
+    .accesskey = l
+filter-search-box =
+    .placeholder = Cari penapis mengikut nama…
 
 ## Filter Editor
 
