@@ -100,12 +100,39 @@ filter-count-visible-of-total = { $visible } de { $total }
 ## Filter List Dialog
 
 filter-window-title = Filtros de mensagens
+filter-active-column =
+    .label = Ativado
+filter-new-button =
+    .label = Novo…
+    .accesskey = N
 filter-edit-button =
     .label = Editar…
     .accesskey = E
 filter-delete-button =
     .label = Excluir
     .accesskey = x
+filter-reorder-top-button =
+    .label = Mover para o topo
+    .accesskey = o
+    .tooltiptext = Reposicionar o filtro para ser aplicado antes de todos os outros
+filter-reorder-up-button =
+    .label = Para cima
+    .accesskey = c
+filter-reorder-down-button =
+    .label = Para baixo
+    .accesskey = b
+filter-reorder-bottom-button =
+    .label = Último
+    .accesskey = T
+    .tooltiptext = Reposicionar o filtro para ser aplicado após todos os outros
+filter-header-label =
+    .value = Filtros ativados são aplicados automaticamente na ordem exibida abaixo.
+filter-search-box =
+    .placeholder = Pesquisar filtros por nome…
+filter-close-key =
+    .key = W
+filter-dont-warn-delete-checkbox = Não perguntar novamente
+filter-cannot-enable-incompatible = Este filtro provavelmente foi criado por uma versão mais recente ou incompatível do { -brand-product-name }. Você não pode ativar este filtro porque esta versão não sabe como aplicar.
 
 ## Filter Editor
 
