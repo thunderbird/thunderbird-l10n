@@ -128,6 +128,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Աշխատեցնել ընտրված զտիչները.
     .accesskey = ր
+filter-dont-warn-delete-checkbox = Այլևս չհարցնես
+filter-cannot-enable-incompatible = Հնարավոր է զտիչը ստեղծվել է նոր կամ անհամատեղելի { -brand-product-name } տարբերակի  կողմից։ Դուք չեք կարող միացնել այս զտիչը, քանզի մենք չգիտենք, թե ինչպես այն կիրառել։
 
 ## Filter Editor
 
