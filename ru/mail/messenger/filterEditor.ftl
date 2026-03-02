@@ -105,3 +105,10 @@ filter-count-visible-of-total = { $visible } из { $total }
 ## Filter Editor
 
 filter-editor-window-title = Правила фильтрации
+filter-editor-context-desc = Применять фильтр при:
+filter-editor-context-incoming =
+    .label = Получении новой почты:
+    .accesskey = о
+filter-editor-context-manual =
+    .label = Запуске вручную
+    .accesskey = а
