@@ -88,6 +88,11 @@ filter-editor-action-order-warning =
     .value = Nota: les aiciones del filtru van executase nun orde distintu.
 filter-editor-action-order-link =
     .value = Ver orde d'execución
+filter-editor-duplicate-title = Nome de filtru duplicáu
+filter-editor-duplicate-msg = El nome de filtru qu'esbillaste yá esiste. Por favor, elixe un nome distintu.
+filter-editor-no-event-title = Nun se seleicionó un eventu de filtru.
+filter-editor-no-event-msg = Tienes de seleicionar polo menos un eventu pa cuando s'aplique esti filtru. Si temporalmente nun necesites que'l filtru lleve a cau dengún eventu, desmarca'l to estáu activáu nel diálogu Filtros de mensaxe.
+filter-editor-match-all-name = Facer concasar tolos mensaxes
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Copia de { $name }

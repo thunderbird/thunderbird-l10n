@@ -104,6 +104,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Amestar una regla nueva
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Desaniciar esta regla
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Desaniciar esta regla
