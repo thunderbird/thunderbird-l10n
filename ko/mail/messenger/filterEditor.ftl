@@ -75,6 +75,51 @@ filter-count-visible-of-total = { $total } 중 { $visible }
 
 ## Filter List Dialog
 
+filter-window-title = 메시지 필터
+filter-name-column =
+    .label = 필터 이름
+filter-active-column =
+    .label = 선택
+filter-new-button =
+    .label = 새 필터 추가…
+    .accesskey = N
+filter-new-copy-button =
+    .label = 복사…
+    .accesskey = C
+filter-edit-button =
+    .label = 편집…
+    .accesskey = E
+filter-delete-button =
+    .label = 삭제
+    .accesskey = t
+filter-reorder-top-button =
+    .label = 처음으로 이동
+    .accesskey = o
+    .tooltiptext = 이 필터를 가장 먼저 실행하도록 재배치
+filter-reorder-up-button =
+    .label = 위로 이동
+    .accesskey = U
+filter-reorder-down-button =
+    .label = 아래로 이동
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = 끝으로 이동
+    .accesskey = B
+    .tooltiptext = 필터를 가장 나중에 실행하도록 재배치
+filter-header-label =
+    .value = 아래 순서로 필터를 자동으로 실행합니다.
+filter-filters-for-prefix =
+    .value = 필터:
+    .accesskey = F
+filter-view-log-button =
+    .label = 필터 로그
+    .accesskey = L
+filter-run-filters-button =
+    .label = 지금 실행
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = 폴더에 선택한 필터 실행:
+    .accesskey = c
 
 ## Filter Editor
 
