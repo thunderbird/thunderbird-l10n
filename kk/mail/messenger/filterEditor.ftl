@@ -119,6 +119,13 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = Архивтеу
     .accesskey = А
+filter-editor-action-desc =
+    .value = Келесі әрекеттерді орындау:
+    .accesskey = н
+filter-editor-action-order-warning =
+    .value = Ескерту: Сүзгі әрекеттері басқа ретпен орындалатын болады.
+filter-editor-action-order-link =
+    .value = Орындалу ретін қарау
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } көшірмесі
@@ -134,3 +141,8 @@ filter-editor-action-order-title = Шын әрекеттер реті
 #   $action (String) - The action label
 #   $argument (String) - The folder or value associated with the action
 filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

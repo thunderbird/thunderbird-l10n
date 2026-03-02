@@ -137,6 +137,14 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Хабарламаны қайда жылжыту
+rule-action-copy =
+    .label = Хабарлама көшірмесін қайда жасау
+rule-action-forward =
+    .label = Хабарламаны қайда әрі қарай жіберу
+rule-action-reply =
+    .label = Үлгімен жауап беру
 rule-action-read =
     .label = Оқылған ретінде белгілеу
 rule-action-unread =
@@ -147,6 +155,8 @@ rule-action-priority =
     .label = Приоритетті келесідей орнату
 rule-action-tag =
     .label = Хабарламаға тег қою
+rule-action-set-spam-status =
+    .label = Спам күйін келесіге орнату
 rule-action-delete =
     .label = Хабарламаны өшіру
 rule-action-delete-pop =
