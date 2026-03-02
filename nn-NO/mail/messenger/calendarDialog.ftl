@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = Lat att
     .title = Lat att
+calendar-dialog-menu-button =
+    .aria-label = Opne meny
+    .title = Opne meny
 calendar-dialog-back-button =
     .aria-label = Tilbake
     .title = Tilbake
@@ -18,9 +21,27 @@ calendar-dialog-description-row-icon =
     .alt = Skildring
 calendar-dialog-reminders-row-icon =
     .alt = Påminningar
+calendar-dialog-attendees-row-icon =
+    .alt = Gjestar
+calendar-dialog-attendee-organizer = Organisert av
+calendar-dialog-attendee-optional = Valfri
+calendar-dialog-icon-attending =
+    .alt = Deltek
+calendar-dialog-icon-declined =
+    .alt = Avvist
+calendar-dialog-icon-maybe =
+    .alt = Kanskje
+calendar-dialog-attendees-expand-icon =
+    .alt = Vis alle gjestar
 calendar-dialog-description-label = Skildring
 calendar-dialog-description-expand-icon =
     .alt = Vis fullstendig skildring
+calendar-dialog-menu-duplicate =
+    .label = Dupliser hending
+calendar-dialog-menu-delete =
+    .label = Slett hending
+calendar-dialog-menu-print =
+    .label = Skriv ut
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -44,3 +65,6 @@ calendar-dialog-accept-tentative = Kanskje
     .title = Kanskje
 calendar-dialog-decline = Deltek ikkje
     .title = Deltek ikkje
+calendar-dialog-attachments-row-icon =
+    .alt = Vedlegg
+calendar-dialog-attachments-label = Vedlegg

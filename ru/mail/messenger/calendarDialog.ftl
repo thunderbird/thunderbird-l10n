@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = Закрыть
     .title = Закрыть
+calendar-dialog-menu-button =
+    .aria-label = Открыть меню
+    .title = Открыть меню
 calendar-dialog-back-button =
     .aria-label = Назад
     .title = Назад
@@ -18,6 +21,16 @@ calendar-dialog-description-row-icon =
     .alt = Описание
 calendar-dialog-reminders-row-icon =
     .alt = Напоминания
+calendar-dialog-attendees-row-icon =
+    .alt = Гости
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } гость
+        [few] { $count } гостя
+       *[many] { $count } гостей
+    }
 calendar-dialog-description-label = Описание
 calendar-dialog-description-expand-icon =
     .alt = Показать полное описание
