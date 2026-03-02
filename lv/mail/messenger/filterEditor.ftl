@@ -134,6 +134,15 @@ filter-search-box =
     .placeholder = Meklēt filtrus pēc nosaukuma…
 filter-close-key =
     .key = W
+filter-delete-confirmation = Vai tiešām vēlaties dzēst izvēlēto(-os) filtru(-us)?
+filter-dont-warn-delete-checkbox = Turpmāk vairs nejautāt
+filter-cannot-enable-incompatible = Šo filtru, iespējams, izveidoja jaunāka vai nesaderīga { -brand-product-name } versija. Jūs nevarat iespējot šo filtru, jo mēs nezinām, kā to lietot.
+filter-running-title = Darbojošies filtri
+filter-running-message =
+    Jūs šobrīd filtrējat ziņojumus.
+    Vai vēlaties turpināt filtrēšanu?
+filter-stop-button = Apturēt
+filter-continue-button = Turpināt
 
 ## Filter Editor
 
