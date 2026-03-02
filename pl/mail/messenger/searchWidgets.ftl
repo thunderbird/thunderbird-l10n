@@ -114,6 +114,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Usuń ten warunek
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Dodaj nową czynność
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Usuń tę czynność
 
 ## Search Term List
 
@@ -164,3 +172,9 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-priority-highest =
+    .label = Najwyższy
+rule-priority-low =
+    .label = Niski
+rule-priority-lowest =
+    .label = Najniższy

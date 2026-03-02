@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Niechciana
 rule-menuitem-not-spam =
@@ -95,3 +98,28 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } z { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-context-desc = Stosuj filtr podczas:
+filter-editor-context-incoming =
+    .label = pobierania poczty
+    .accesskey = a
+filter-editor-context-outgoing =
+    .label = Po wysłaniu
+    .accesskey = w
+filter-editor-context-archive =
+    .label = Archiwizowania
+    .accesskey = c
+filter-editor-action-order-warning =
+    .value = Filtrowanie odbędzie się w innej niż wyświetlana kolejności.
+filter-editor-action-order-link =
+    .value = Wyświetl kolejność
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator } { $value }
