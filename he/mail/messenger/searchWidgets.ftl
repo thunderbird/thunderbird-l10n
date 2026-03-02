@@ -130,6 +130,16 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = העבר הודעה אל
+rule-action-copy =
+    .label = העתק הודעה אל
+rule-action-forward =
+    .label = העבר אל:
+rule-action-reply =
+    .label = השב עם תבנית:
+rule-action-read =
+    .label = סמן כנקרא
 rule-action-unread =
     .label = סימון כלא נקרא
 rule-action-star =

@@ -70,6 +70,7 @@ filter-editor-window-title = חוקי מסנן
 filter-editor-name =
     .value = שם מסנן:
     .accesskey = i
+filter-editor-context-desc = הפעלת מסננים כאשר:
 filter-editor-context-incoming =
     .label = קבלת הודעת דוא״ל חדשה:
     .accesskey = ק
@@ -82,6 +83,13 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = העברה לארכיון
     .accesskey = א
+filter-editor-action-desc =
+    .value = ביצוע פעולות אלו:
+    .accesskey = ב
+filter-editor-action-order-warning =
+    .value = לתשומת לבך: פעולות המסנן תרוצנה בסדר שונה.
+filter-editor-action-order-link =
+    .value = הצגת סדר הפעולות
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = עותק של { $name }
