@@ -108,3 +108,4 @@ filter-editor-window-title = Úprava filtra
 filter-editor-name =
     .value = Názov filtra:
     .accesskey = N
+filter-editor-context-desc = Filter použiť pri:
