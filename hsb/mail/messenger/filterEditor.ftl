@@ -103,6 +103,51 @@ filter-count-visible-of-total = { $visible } z { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Powěsćowe filtry
+filter-name-column =
+    .label = Mjeno filtra
+filter-active-column =
+    .label = Zmóžnjeny
+filter-new-button =
+    .label = Nowy…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Kopěrować…
+    .accesskey = K
+filter-edit-button =
+    .label = Wobdźěłać…
+    .accesskey = b
+filter-delete-button =
+    .label = Zhašeć
+    .accesskey = Z
+filter-reorder-top-button =
+    .label = Do spočatka přesunyć
+    .accesskey = s
+    .tooltiptext = Filter takle přerjadować, zo by so před wšěmi druhimi wuwjedł
+filter-reorder-up-button =
+    .label = Horje
+    .accesskey = H
+filter-reorder-down-button =
+    .label = Dele
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = Do kónca přesunyć
+    .accesskey = k
+    .tooltiptext = Filter takle přerjadować, zo by so po wšěch druhich wuwjedł
+filter-header-label =
+    .value = Zmóžnjene filtry so awtomatisce w deleka podatym porjedźe nałožuja.
+filter-filters-for-prefix =
+    .value = Filtry za:
+    .accesskey = F
+filter-view-log-button =
+    .label = Protokol filtrow
+    .accesskey = P
+filter-run-filters-button =
+    .label = Nětko nałožić
+    .accesskey = N
+filter-folder-picker-prefix =
+    .value = Wubrane filtry nałožić na:
+    .accesskey = u
 
 ## Filter Editor
 
