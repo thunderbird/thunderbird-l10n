@@ -138,8 +138,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Suorita valitut suodattimet kansiolle:
     .accesskey = v
+filter-search-box =
+    .placeholder = Etsi suodatinta nimellä…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Poistetaanko tämä suodatin?
 filter-dont-warn-delete-checkbox = Älä kysy uudelleen
 filter-cannot-enable-incompatible = Tämä suodatin on todennäköisesti luotu uudemmalla tai yhteensopimattomalla { -brand-product-name }in versiolla. Et voi ottaa tätä suodatinta käyttöön, koska emme tiedä kuinka sitä tulisi käyttää.
+filter-running-title = Suoritetaan suodattimia
+filter-running-message =
+    Suodatat parhaillaan viestejä.
+    Jatketaanko suodattimien käyttöönottoa?
+filter-stop-button = Pysäytä
+filter-continue-button = Jatka
 
 ## Filter Editor
 
