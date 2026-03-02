@@ -103,6 +103,18 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Tanlangan filterlarni ishga tushirish:
     .accesskey = T
+filter-search-box =
+    .placeholder = Filterlarni nomi bo‘yicha izlash…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Tanlangan filterlarni o‘chirishni xohlaysizmi?
+filter-dont-warn-delete-checkbox = &Yana so‘ralmasin
+filter-running-title = Filterlar ishga tushirilmoqda
+filter-running-message =
+    Siz hozir xabarlarni filterlash jarayonidasiz.
+    Filterlarni qo‘llashni davom ettirishni xohlaysizmi?
+filter-stop-button = To‘xtatish
+filter-continue-button = Davom etish
 
 ## Filter Editor
 
