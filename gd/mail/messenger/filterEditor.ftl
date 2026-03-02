@@ -94,6 +94,21 @@ filter-editor-window-title = Riaghailtean a' chriathraidh
 filter-editor-name =
     .value = Ainm na criathraige:
     .accesskey = i
+filter-editor-action-order-warning =
+    .value = An aire: Thèid gnìomhan criathradh a chur an gnìomh ann an òrdugh eadar-dhealaichte.
+filter-editor-action-order-link =
+    .value = Faic òrdugh a' ghnìomhachaidh
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Cha ghabh a' chriathrag seo a shàbhaladh a chionn 's gu bheil am facal-luirg "{ $attribute } { $operator }" mì-dhligheach sa cho-theacsa seo.
+filter-editor-action-order-explanation = Ma mhaidseas teachdaireachd ris a' chriathrag seo, thèid na gnìomhan a ruith san òrdugh seo:
+filter-editor-action-order-title = Fìor-òrdugh nan gnìomhan
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
