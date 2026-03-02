@@ -178,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Net winske
+rule-menuitem-not-spam =
+    .label = Gjin net-winske e-mail
 rule-priority-highest =
     .label = Heechst
 rule-priority-high =

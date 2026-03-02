@@ -126,6 +126,11 @@ filter-editor-action-order-warning =
     .value = Noat: filteraksjes wurde útfierd yn in oare folchoarder.
 filter-editor-action-order-link =
     .value = Sjoch útfierfolchoarder
+filter-editor-duplicate-title = Filternamme bestiet al
+filter-editor-duplicate-msg = Dizze filternamme bestiet al. Jou in oare filternamme yn.
+filter-editor-no-event-title = Gjin filterbarren selektearre
+filter-editor-no-event-msg = Jo moatte op syn minst ien barren selektearje by it tapassen fan dit filter. As jo tydlik dit filter net brûke wolle by in barren de-aktivearje de steat yn it berjochtenfilterfinster.
+filter-editor-match-all-name = Lyk oan alle berjochten
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Kopy fan { $name }
