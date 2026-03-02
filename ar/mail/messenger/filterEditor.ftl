@@ -81,10 +81,23 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = التشغيل اليدوي
     .accesskey = ش
+filter-editor-context-outgoing =
+    .label = بعد الإرسال
+    .accesskey = س
+filter-editor-context-archive =
+    .label = الأرشفة
+    .accesskey = ش
+filter-editor-action-desc =
+    .value = نفذ الإجراءات التالية:
+    .accesskey = ن
 filter-editor-action-order-warning =
     .value = ملاحظة: ستُنفّذ إجراءات المرشِّح بترتيب مختلف.
 filter-editor-action-order-link =
     .value = اطّلع على ترتيب التنفيذ
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = نسخة من { $name }
+filter-editor-invalid-search-title = كلمات البحث غير صالحة
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
