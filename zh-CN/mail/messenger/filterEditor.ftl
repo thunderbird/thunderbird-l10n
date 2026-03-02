@@ -136,6 +136,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = 执行所选的过滤器，对于:
     .accesskey = c
+filter-dont-warn-delete-checkbox = 不再询问
+filter-cannot-enable-incompatible = 此过滤器很可能是 { -brand-product-name } 的较新版本或不兼容版本创建的。您无法启用此过滤器，因为我们也不知如何应用。
 
 ## Filter Editor
 
