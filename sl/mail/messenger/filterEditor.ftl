@@ -130,6 +130,11 @@ filter-editor-action-order-warning =
     .value = Opomba: Dejanja filtra se bodo izvajala v drugačnem vrstnem redu.
 filter-editor-action-order-link =
     .value = Vrstni red izvajanja
+filter-editor-duplicate-title = Kopirajte ime filtra
+filter-editor-duplicate-msg = Ime za filter, ki ste ga vnesli, že obstaja. Vnesite drugo ime za filter.
+filter-editor-no-event-title = Dogodek filtra ni izbran
+filter-editor-no-event-msg = Izbrati morate vsaj en dogodek, kdaj naj se filter uporablja. Če filtra začasno ne želite uporabljati, ga izključite v pogovornem oknu Filtri sporočil.
+filter-editor-match-all-name = Uporabi za vsa sporočila
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Kopija od { $name }

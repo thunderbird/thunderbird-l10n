@@ -176,6 +176,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Neželeno
+rule-menuitem-not-spam =
+    .label = Ni neželeno
 rule-priority-highest =
     .label = Najvišje
 rule-priority-high =
