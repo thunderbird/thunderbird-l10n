@@ -99,6 +99,48 @@ filter-count-visible-of-total = { $visible } de { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Filtros de messages
+filter-name-column =
+    .label = Nomine de filtro
+filter-active-column =
+    .label = Activate
+filter-new-button =
+    .label = Nove…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Copiar…
+    .accesskey = C
+filter-edit-button =
+    .label = Rediger…
+    .accesskey = R
+filter-delete-button =
+    .label = Deler
+    .accesskey = r
+filter-reorder-top-button =
+    .label = Mover al initio
+    .accesskey = o
+    .tooltiptext = Reordinar le filtro assi que illo es exequite prime
+filter-reorder-up-button =
+    .label = Mover supra
+    .accesskey = S
+filter-reorder-down-button =
+    .label = Mover infra
+    .accesskey = i
+filter-reorder-bottom-button =
+    .label = Mover al fundo
+    .accesskey = f
+    .tooltiptext = Reordinar le filtro assi que illo es exequite ultime
+filter-header-label =
+    .value = Le filtros activate es exequite automaticamente in le ordine monstrate infra.
+filter-filters-for-prefix =
+    .value = Filtros pro:
+    .accesskey = p
+filter-view-log-button =
+    .label = Registro del filtro
+    .accesskey = R
+filter-run-filters-button =
+    .label = Exequer ora
+    .accesskey = E
 
 ## Filter Editor
 
