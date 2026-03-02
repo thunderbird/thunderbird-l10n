@@ -102,8 +102,14 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = 備存中
     .accesskey = A
+filter-editor-action-desc =
+    .value = 執行下列動作:
+    .accesskey = P
 filter-editor-action-order-link =
     .value = 檢視執行順序
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } 的副本
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
