@@ -134,6 +134,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Изврши одабран(е) филтер(е) над:
     .accesskey = р
+filter-dont-warn-delete-checkbox = Не питај ме поново
+filter-cannot-enable-incompatible = Овај филтер је вероватно направљен од новије или некомпатибилне { -brand-product-name } верзије. Не можете да омогућите овај филтер зато што не знамо како да га применимо.
 
 ## Filter Editor
 
