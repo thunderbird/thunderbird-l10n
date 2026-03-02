@@ -83,6 +83,22 @@ filter-count-visible-of-total = { $visible } (kokku { $total })
 
 ## Filter List Dialog
 
+filter-header-label =
+    .value = Aktiivsed filtrid rakenduvad alljärgnevas järjestuses.
+filter-filters-for-prefix =
+    .value = Filtrid kontole:
+    .accesskey = F
+filter-view-log-button =
+    .label = Filtri logi
+    .accesskey = l
+filter-run-filters-button =
+    .label = Käivita kohe
+    .accesskey = K
+filter-folder-picker-prefix =
+    .value = Rakenda valitud filtrit (filtreid) kaustale:
+    .accesskey = i
+filter-dont-warn-delete-checkbox = Rohkem ei küsita
+filter-cannot-enable-incompatible = Võimalik, et filter on loodud mõne { -brand-product-name }i uuema või mitteühilduva versiooniga. Seda filtrit pole võimalik aktiveerida, sest me ei tea, kuidas seda rakendada.
 
 ## Filter Editor
 
