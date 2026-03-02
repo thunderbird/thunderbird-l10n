@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Adaugă o nouă regulă
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Elimină această regulă
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Elimină această regulă
@@ -157,6 +161,14 @@ rule-action-tag =
     .label = Etichetează mesaj
 rule-action-set-spam-status =
     .label = Setează starea de nedorit la
+rule-action-delete =
+    .label = Șterge mesajul
+rule-action-delete-pop =
+    .label = Șterge de pe serverul POP
+rule-action-fetch-pop =
+    .label = Adu de pe serverul POP
+rule-action-ignore-thread =
+    .label = Ignoră conversația
 rule-action-ignore-subthread =
     .label = Ignoră conversația subordonată
 rule-action-watch-thread =
@@ -166,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Mesaje nedorite
+rule-menuitem-not-spam =
+    .label = Nu este nedorit
 rule-priority-highest =
     .label = Cea mai mare
 rule-priority-high =
