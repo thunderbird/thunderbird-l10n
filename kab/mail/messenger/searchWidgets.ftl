@@ -106,6 +106,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Rnu alugan amaynut
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Kkes alugan-agi
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Kkes alugan-agi

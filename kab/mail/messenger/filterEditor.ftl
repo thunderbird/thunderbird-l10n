@@ -110,6 +110,11 @@ filter-editor-action-order-warning =
     .value = Tamawt: Tigawin n uzizdeg ad ttwaselkment s umizzwer nniḍen.
 filter-editor-action-order-link =
     .value = Wali amizzwer n uselkem
+filter-editor-duplicate-title = Sleg isem n imzizdeg
+filter-editor-duplicate-msg = Isem n imzizdeg i tessekcmeḍ yella yakan. Ma ulac aɣilif sekcem isem n umzidig nniḍen.
+filter-editor-no-event-title = Ula d yiwet n tedyant n imzizdig ur tettwafren
+filter-editor-no-event-msg = Yessefk xaṛsum ad tefferneḍ yiwet n tedyant ticki imzizdig yettwasnes. Ma yella ur tebɣiḍ ara tura ad tesselkmeḍ tadyant, kkes acraḍ n waddad ines n urmad si tnaka n udiwenni n imzizdigen n yeznan.
+filter-editor-match-all-name = Meɣru akk iznan
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Anɣel n { $name }
