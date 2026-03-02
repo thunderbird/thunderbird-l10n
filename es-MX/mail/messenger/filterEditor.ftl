@@ -87,6 +87,53 @@ filter-count-visible-of-total = { $visible } de { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Filtros de mensajes
+filter-name-column =
+    .label = Nombre del filtro
+filter-active-column =
+    .label = Habilitado
+filter-new-button =
+    .label = Nuevo…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Copiar…
+    .accesskey = C
+filter-edit-button =
+    .label = Editar…
+    .accesskey = E
+filter-delete-button =
+    .label = Eliminar
+    .accesskey = t
+filter-reorder-top-button =
+    .label = Mover hasta arriba
+    .accesskey = o
+    .tooltiptext = Reordenar filtro para que se ejecute antes que todos los otros
+filter-reorder-up-button =
+    .label = Subir
+    .accesskey = U
+filter-reorder-down-button =
+    .label = Bajar
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = Mover al fondo
+    .accesskey = B
+    .tooltiptext = Reordenar filtro para que se ejecute después que todos los otros
+filter-header-label =
+    .value = Los filtros habilitados se ejecutan automáticamente en el orden indicado debajo.
+filter-filters-for-prefix =
+    .value = Filtros para:
+    .accesskey = F
+filter-view-log-button =
+    .label = Registro de filtros
+    .accesskey = L
+filter-run-filters-button =
+    .label = Ejecutar ahora
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = Ejecutar los filtros seleccionados en:
+    .accesskey = c
+filter-dont-warn-delete-checkbox = No me preguntes de nuevo
+filter-cannot-enable-incompatible = Este filtro fue probablemente creado por una versión de { -brand-product-name } nueva o incompatible. No se puede habilitar este filtro porque no sabemos cómo aplicarlo.
 
 ## Filter Editor
 
