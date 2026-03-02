@@ -144,8 +144,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Kijelölt szűrők futtatása ezen a mappán:
     .accesskey = K
+filter-search-box =
+    .placeholder = Szűrők keresése név szerint…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Biztos benne, hogy törölni akarja a kijelölt szűrőket?
 filter-dont-warn-delete-checkbox = Ne kérdezze meg többet
 filter-cannot-enable-incompatible = Ezt a szűrőt valószínűleg a { -brand-product-name } egy későbbi vagy nem kompatibilis változatával készítették. Nem lehet engedélyezni, mert a program nem tudja, hogy kell alkalmazni.
+filter-running-title = Szűrők futtatása
+filter-running-message =
+    Jelenleg folyamatban van az üzenetek szűrése.
+    Szeretné folytatni a szűrők alkalmazását?
+filter-stop-button = Leállítás
+filter-continue-button = Folytatás
 
 ## Filter Editor
 
