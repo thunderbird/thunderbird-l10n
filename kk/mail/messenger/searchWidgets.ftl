@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Жаңа ережені қосу
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Бұл ережені өшіру
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Бұл ережені өшіру
@@ -174,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Спам
+rule-menuitem-not-spam =
+    .label = Спам емес
 rule-priority-highest =
     .label = Ең жоғары
 rule-priority-high =

@@ -126,6 +126,11 @@ filter-editor-action-order-warning =
     .value = Ескерту: Сүзгі әрекеттері басқа ретпен орындалатын болады.
 filter-editor-action-order-link =
     .value = Орындалу ретін қарау
+filter-editor-duplicate-title = Қайталанатын сүзгі атауы
+filter-editor-duplicate-msg = Сіз енгізген сүзгі атауы бар болып тұр. Басқа сүзгі атауын енгізіңіз.
+filter-editor-no-event-title = Сүзгі оқиғасы таңдалмады
+filter-editor-no-event-msg = Сізге бұл сүзгі іске қосылатын кем дегенде бір оқиғаны таңдау керек. Егер сіз уақытша бұл сүзгінің ешбір оқиғаға жөнелтілмейтінін қаласаңыз, оны іске қосылған қалып-күйін Хабарламалар сүзгілері сұхбатынан сөндіріңіз.
+filter-editor-match-all-name = Барлық хабарламаларды сәйкестеу
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } көшірмесі
