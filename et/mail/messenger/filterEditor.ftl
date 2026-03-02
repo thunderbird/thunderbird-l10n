@@ -83,6 +83,37 @@ filter-count-visible-of-total = { $visible } (kokku { $total })
 
 ## Filter List Dialog
 
+filter-window-title = Kirjade filtrid
+filter-name-column =
+    .label = Filtri nimi
+filter-active-column =
+    .label = Lubatud
+filter-new-button =
+    .label = Uus...
+    .accesskey = U
+filter-new-copy-button =
+    .label = Kopeeri…
+    .accesskey = K
+filter-edit-button =
+    .label = Redigeeri...
+    .accesskey = R
+filter-delete-button =
+    .label = Kustuta
+    .accesskey = K
+filter-reorder-top-button =
+    .label = Liiguta esimeseks
+    .accesskey = g
+    .tooltiptext = Liiguta filter esimeseks, nii et see käivituks enne teisi
+filter-reorder-up-button =
+    .label = Liiguta üles
+    .accesskey = t
+filter-reorder-down-button =
+    .label = Liiguta alla
+    .accesskey = a
+filter-reorder-bottom-button =
+    .label = Liiguta viimaseks
+    .accesskey = v
+    .tooltiptext = Liiguta filter viimaseks, nii et see käivituks pärast teisi
 filter-header-label =
     .value = Aktiivsed filtrid rakenduvad alljärgnevas järjestuses.
 filter-filters-for-prefix =
