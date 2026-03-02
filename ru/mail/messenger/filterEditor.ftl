@@ -128,6 +128,9 @@ filter-editor-action-order-warning =
     .value = Примечание: Действия фильтра будут запускаться в другом порядке.
 filter-editor-action-order-link =
     .value = Посмотреть порядок выполнения
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Копия { $name }
 filter-editor-invalid-search-title = Поисковые запросы некорректны
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.

@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Добавить новое условие
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Удалить это условие
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Удалить это условие
@@ -137,6 +141,8 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Переместить сообщение в
 rule-action-unread =
     .label = Отметить как непрочитанное
 rule-action-star =
