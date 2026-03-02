@@ -118,6 +118,11 @@ filter-editor-action-order-warning =
     .value = หมายเหตุ: การกระทำตัวกรองจะทำงานในลำดับที่แตกต่างกัน
 filter-editor-action-order-link =
     .value = ดูลำดับการทำงาน
+filter-editor-duplicate-title = ชื่อตัวกรองซ้ำกัน
+filter-editor-duplicate-msg = ชื่อตัวกรองที่คุณป้อนมีอยู่แล้ว โปรดป้อนชื่อตัวกรองอื่น
+filter-editor-no-event-title = ไม่ได้เลือกเหตุการณ์ตัวกรอง
+filter-editor-no-event-msg = คุณต้องเลือกอย่างน้อยหนึ่งเหตุการณ์เมื่อใช้ตัวกรองนี้ หากคุณไม่ต้องการให้ตัวกรองทำงานในเหตุการณ์ใด ๆ ชั่วคราว ให้ยกเลิกการกาเครื่องหมายสถานะที่เปิดใช้งานจากกล่องโต้ตอบตัวกรองข้อความ
+filter-editor-match-all-name = ตรงกับข้อความทั้งหมด
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = สำเนาของ { $name }

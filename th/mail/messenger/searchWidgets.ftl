@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = เพิ่มกฎใหม่
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = เอากฎนี้ออก
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = เอากฎนี้ออก
@@ -174,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = สแปม
+rule-menuitem-not-spam =
+    .label = ไม่ใช่สแปม
 rule-priority-highest =
     .label = สูงสุด
 rule-priority-high =
