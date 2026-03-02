@@ -115,6 +115,10 @@ search-remove-rule-button =
     .label = -
     .tooltiptext = Deze regel verwijderen
 # Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Een nieuwe actie toevoegen
+# Do not translate the label.
 rule-remove-action-button =
     .label = −
     .tooltiptext = Deze actie verwijderen
@@ -133,6 +137,40 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Bericht verplaatsen naar
+rule-action-copy =
+    .label = Bericht kopiëren naar
+rule-action-forward =
+    .label = Bericht doorsturen naar
+rule-action-reply =
+    .label = Antwoorden met sjabloon
+rule-action-read =
+    .label = Markeren als gelezen
+rule-action-unread =
+    .label = Markeren als ongelezen
+rule-action-star =
+    .label = Ster toevoegen
+rule-action-priority =
+    .label = Prioriteit wijzigen naar
+rule-action-tag =
+    .label = Bericht labelen
+rule-action-set-spam-status =
+    .label = Spamstatus instellen op
+rule-action-delete =
+    .label = Bericht verwijderen
+rule-action-delete-pop =
+    .label = Verwijderen van POP-server
+rule-action-fetch-pop =
+    .label = Ophalen van POP-server
+rule-action-ignore-thread =
+    .label = Conversatie negeren
+rule-action-ignore-subthread =
+    .label = Subconversatie negeren
+rule-action-watch-thread =
+    .label = Conversatie volgen
+rule-action-stop =
+    .label = Uitvoeren van filter stoppen
 
 ## Rule Action Targets
 

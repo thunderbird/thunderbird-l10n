@@ -113,6 +113,23 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = Handmatig uitvoeren
     .accesskey = H
+filter-editor-context-outgoing =
+    .label = Na verzenden
+    .accesskey = N
+filter-editor-context-archive =
+    .label = Archiveren
+    .accesskey = r
+filter-editor-action-desc =
+    .value = Deze acties uitvoeren:
+    .accesskey = v
+filter-editor-action-order-warning =
+    .value = Noot: filteracties worden in een andere volgorde uitgevoerd.
+filter-editor-action-order-link =
+    .value = Uitvoeringsvolgorde bekijken
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopie van { $name }
+filter-editor-invalid-search-title = Zoektermen ongeldig
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
