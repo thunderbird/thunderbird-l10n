@@ -128,6 +128,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Exequir ils filters tschernids en:
     .accesskey = c
+filter-dont-warn-delete-checkbox = Betg pli dumandar
+filter-cannot-enable-incompatible = Quest filter è probablamain vegnì creà dad ina versiun pli nova u incumpatibla da { -brand-product-name }. Ti na pos betg activar quest filter perquai che questa versiun da l'applicaziun na sa betg co al applitgar.
 
 ## Filter Editor
 
