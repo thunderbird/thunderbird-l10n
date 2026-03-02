@@ -99,6 +99,14 @@ filter-count-visible-of-total = { $visible } / { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Üzenetszűrők
+filter-name-column =
+    .label = Szűrő neve
+filter-active-column =
+    .label = Engedélyezve
+filter-new-button =
+    .label = Új…
+    .accesskey = Ú
 
 ## Filter Editor
 
