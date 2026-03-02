@@ -15,8 +15,8 @@ menu-addons-and-themes =
     .label = Doplňky a vzhledy
     .accesskey = a
 menu-export-for-mobile =
-    .label = Exportovat pro mobily…
-    .accesskey = E
+    .label = Exportovat do mobilu…
+    .accesskey = m
 
 ## Help Menu
 

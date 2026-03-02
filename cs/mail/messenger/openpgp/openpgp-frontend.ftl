@@ -4,7 +4,7 @@
 
 openpgp-manage-keys-openpgp-cmd =
     .label = Správce klíčů OpenPGP
-    .accesskey = S
+    .accesskey = k
 openpgp-ctx-decrypt-open =
     .label = Dešifrovat a otevřít
     .accesskey = o
