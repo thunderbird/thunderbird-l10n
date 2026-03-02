@@ -101,6 +101,30 @@ filter-count-visible-of-total = { $visible } din { $total }
 
 ## Filter List Dialog
 
+filter-new-button =
+    .label = Nou…
+    .accesskey = N
+filter-edit-button =
+    .label = Editează…
+    .accesskey = E
+filter-delete-button =
+    .label = Șterge
+    .accesskey = t
+filter-reorder-up-button =
+    .label = Mută sus
+    .accesskey = s
+filter-reorder-down-button =
+    .label = Mută jos
+    .accesskey = j
+filter-reorder-bottom-button =
+    .label = Mută în partea de jos
+    .accesskey = j
+    .tooltiptext = Reordonează filtrul ca să fie executat după toate celelalte
+filter-header-label =
+    .value = Filtrele active vor fi rulate automat în ordinea de mai jos.
+filter-filters-for-prefix =
+    .value = Filtre pentru:
+    .accesskey = F
 
 ## Filter Editor
 
