@@ -107,6 +107,34 @@ filter-active-column =
 filter-new-button =
     .label = Nytt …
     .accesskey = N
+filter-reorder-top-button =
+    .label = Flytt øverst
+    .accesskey = v
+    .tooltiptext = Omorganiser filtre slik at det utføres før alle andre
+filter-reorder-up-button =
+    .label = Flytt opp
+    .accesskey = o
+filter-reorder-down-button =
+    .label = Flytt ned
+    .accesskey = n
+filter-reorder-bottom-button =
+    .label = Flytt nederst
+    .accesskey = d
+    .tooltiptext = Omorganiser filtre slik at det utføres etter alle andre
+filter-header-label =
+    .value = Filtre som er påslått utføres i den rekkefølgen de står i nedenfor.
+filter-filters-for-prefix =
+    .value = Filtre for:
+    .accesskey = F
+filter-view-log-button =
+    .label = Filterlogg
+    .accesskey = e
+filter-run-filters-button =
+    .label = Kjør nå
+    .accesskey = K
+filter-folder-picker-prefix =
+    .value = Kjør valgte filter på:
+    .accesskey = v
 
 ## Filter Editor
 
