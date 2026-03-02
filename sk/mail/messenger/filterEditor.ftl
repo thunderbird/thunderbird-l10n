@@ -121,10 +121,16 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = Archivácii
     .accesskey = A
+filter-editor-action-desc =
+    .value = Vykonať tieto akcie:
+    .accesskey = V
 filter-editor-action-order-warning =
     .value = Poznámka: akcie filtra budú spustené v inom poradí.
 filter-editor-action-order-link =
     .value = Pozrieť sa na poradie akcií
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } – kópia
 filter-editor-invalid-search-title = Neplatné výrazy vyhľadávania
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.

@@ -153,6 +153,8 @@ rule-action-star =
     .label = Pridať hviezdičku
 rule-action-priority =
     .label = Zmeniť prioritu na
+rule-action-set-spam-status =
+    .label = Nastaviť stav správy na
 rule-action-stop =
     .label = Zastaviť vykonávanie filtra
 
