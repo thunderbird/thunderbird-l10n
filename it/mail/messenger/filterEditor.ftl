@@ -126,6 +126,11 @@ filter-editor-action-order-warning =
     .value = Nota: le azioni del filtro saranno eseguite in un ordine differente.
 filter-editor-action-order-link =
     .value = Mostra l’ordine di esecuzione
+filter-editor-duplicate-title = Nome filtro già utilizzato
+filter-editor-duplicate-msg = Il nome scelto è già presente. Inserire un nome diverso.
+filter-editor-no-event-title = Nessun evento selezionato
+filter-editor-no-event-msg = Si deve inserire almeno un evento che faccia attivare questo filtro. Se momentaneamente si desidera che questo filtro non sia applicato renderlo non attivo dalla finestra di dialogo dei Filtri.
+filter-editor-match-all-name = Tutte incondizionatamente
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Copia di { $name }
@@ -141,3 +146,8 @@ filter-editor-action-order-title = Ordine reale delle azioni
 #   $action (String) - The action label
 #   $argument (String) - The folder or value associated with the action
 filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

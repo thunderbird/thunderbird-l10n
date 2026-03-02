@@ -155,6 +155,8 @@ rule-action-priority =
     .label = Imposta priorità a
 rule-action-tag =
     .label = Etichetta il messaggio
+rule-action-set-spam-status =
+    .label = Imposta stato spam a
 rule-action-delete =
     .label = Elimina messaggio
 rule-action-delete-pop =
@@ -163,9 +165,19 @@ rule-action-fetch-pop =
     .label = Scarica dal server POP
 rule-action-ignore-thread =
     .label = Ignora la discussione
+rule-action-ignore-subthread =
+    .label = Ignora sottodiscussione
+rule-action-watch-thread =
+    .label = Tieni d’occhio la discussione
+rule-action-stop =
+    .label = Interrompi l’esecuzione dei filtri
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = Non spam
 rule-priority-highest =
     .label = Massima
 rule-priority-high =
