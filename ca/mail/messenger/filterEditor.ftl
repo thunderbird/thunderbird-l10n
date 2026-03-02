@@ -90,3 +90,8 @@ filter-editor-window-title = Regles de filtratge
 filter-editor-name =
     .value = Nom del filtre:
     .accesskey = i
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = El camp { $attribute } { $operator }: { $value }

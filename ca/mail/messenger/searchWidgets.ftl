@@ -107,6 +107,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Suprimeix aquesta regla
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Afegeix una acció nova
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Suprimeix aquesta acció
 
 ## Search Term List
 
@@ -119,3 +127,17 @@ search-match-any =
 search-match-all-msgs =
     .label = Tots els missatges
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-unread =
+    .label = Marca'l com a no llegit
+rule-action-ignore-subthread =
+    .label = Ignora la subconversa
+rule-action-watch-thread =
+    .label = Vigila la conversa
+rule-action-stop =
+    .label = Atura l'execució del filtre
+
+## Rule Action Targets
+
