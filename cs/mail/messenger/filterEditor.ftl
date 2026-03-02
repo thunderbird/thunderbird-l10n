@@ -150,8 +150,15 @@ filter-search-box =
     .placeholder = Hledat filtry podle názvu…
 filter-close-key =
     .key = W
+filter-delete-confirmation = Opravdu chcete smazat tento filtr?
 filter-dont-warn-delete-checkbox = Příště se již neptat
 filter-cannot-enable-incompatible = Tento filtr byl pravděpodobně vytvořen v nesprávné verzi aplikace { -brand-product-name }. Není možné jej povolit, protože ho nelze použít.
+filter-running-title = Spuštěné filtry
+filter-running-message =
+    Teď se bude provádět filtrování zpráv.
+    Chcete pokračovat v aplikaci filtrů?
+filter-stop-button = Zastavit
+filter-continue-button = Pokračovat
 
 ## Filter Editor
 
