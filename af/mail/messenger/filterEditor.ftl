@@ -50,6 +50,12 @@ filter-name-column =
     .label = Filternaam
 filter-active-column =
     .label = Geaktiveer
+filter-edit-button =
+    .label = Redigeer…
+    .accesskey = e
+filter-delete-button =
+    .label = Skrap
+    .accesskey = a
 
 ## Filter Editor
 
