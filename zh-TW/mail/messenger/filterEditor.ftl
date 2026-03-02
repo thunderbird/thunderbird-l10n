@@ -95,7 +95,16 @@ filter-count-visible-of-total = 在 { $total } 筆當中找到 { $visible } 筆
 ## Filter Editor
 
 filter-editor-window-title = 篩選條件規則
+filter-editor-name =
+    .value = 篩選條件名稱：
+    .accesskey = i
 filter-editor-context-desc = 做下列動作時進行篩選:
+filter-editor-context-incoming =
+    .label = 取回新郵件時：
+    .accesskey = G
+filter-editor-context-manual =
+    .label = 手動執行時
+    .accesskey = R
 filter-editor-context-outgoing =
     .label = 傳送後
     .accesskey = S
@@ -105,11 +114,19 @@ filter-editor-context-archive =
 filter-editor-action-desc =
     .value = 執行下列動作:
     .accesskey = P
+filter-editor-action-order-warning =
+    .value = 註：篩選條件將以不同的順序執行。
 filter-editor-action-order-link =
     .value = 檢視執行順序
+filter-editor-duplicate-title = 複製篩選條件名稱
+filter-editor-duplicate-msg = 您輸入的篩選條件名稱已存在，請使用別的名稱。
+filter-editor-no-event-title = 未選擇篩選事件
+filter-editor-no-event-msg = 您必須至少選擇一項此篩選條件要在什麼情況下套用的事件。若您暫時不想讓條件在任何情況下執行，請直接在訊息篩選條件對話視窗中取消勾選啟用的狀態。
+filter-editor-match-all-name = 符合所有郵件
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } 的副本
+filter-editor-invalid-search-title = 無效搜尋條件
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
@@ -121,3 +138,8 @@ filter-editor-action-order-title = 實際執行順序
 #   $action (String) - The action label
 #   $argument (String) - The folder or value associated with the action
 filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }：{ $value }

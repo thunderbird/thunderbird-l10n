@@ -178,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = 是垃圾信
+rule-menuitem-not-spam =
+    .label = 非垃圾信
 rule-priority-highest =
     .label = 最高
 rule-priority-high =
