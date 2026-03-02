@@ -106,6 +106,13 @@ filter-editor-window-title = Правила за филтриране
 filter-editor-name =
     .value = Име на филтър:
     .accesskey = И
+filter-editor-context-desc = Прилагане на филтъра когато:
+filter-editor-context-incoming =
+    .label = Получаване на нова поща:
+    .accesskey = П
+filter-editor-context-manual =
+    .label = се стартира ръчно
+    .accesskey = р
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
