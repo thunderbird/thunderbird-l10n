@@ -148,8 +148,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Zaženi izbrane filtre na:
     .accesskey = a
+filter-search-box =
+    .placeholder = Išči filtre po imenu …
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Ali želite izbrisati ta filter oz. filtre?
 filter-dont-warn-delete-checkbox = Ne sprašuj več
 filter-cannot-enable-incompatible = Ta filter je verjetno ustvarila novejša ali nezdružljiva različica { -brand-product-name }. Ne morete ga omogočiti, ker ga vaša različica ne zna uporabiti.
+filter-running-title = Filtri se izvajajo
+filter-running-message =
+    Trenutno se vaša sporočila filtrirajo.
+    Ali želite nadaljevati z uporabo filtrov?
+filter-stop-button = Ustavi
+filter-continue-button = Nadaljuj
 
 ## Filter Editor
 
