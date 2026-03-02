@@ -141,6 +141,13 @@ filter-view-log-button =
 filter-run-filters-button =
     .label = Exequer ora
     .accesskey = E
+filter-folder-picker-prefix =
+    .value = Exequer le filtro(s) seligite sur:
+    .accesskey = g
+filter-search-box =
+    .placeholder = Cercar filtros por nomine…
+filter-close-key =
+    .key = W
 
 ## Filter Editor
 
