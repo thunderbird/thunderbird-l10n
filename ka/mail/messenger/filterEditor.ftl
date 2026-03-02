@@ -103,6 +103,9 @@ filter-count-visible-of-total = { $visible }, სულ { $total }-დან
 ## Filter Editor
 
 filter-editor-window-title = ფილტრის წესები
+filter-editor-name =
+    .value = ფილტრის სახელი:
+    .accesskey = ი
 filter-editor-context-desc = ფილტრებით სარგებლობა:
 filter-editor-context-incoming =
     .label = ახალი ფოსტის მიღებისას
@@ -110,10 +113,19 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = ხელით შესრულებისას
     .accesskey = ხ
+filter-editor-context-outgoing =
+    .label = გაგზავნის შემდეგ
+    .accesskey = გ
+filter-editor-context-archive =
+    .label = დაარქივება
+    .accesskey = დ
 filter-editor-action-order-warning =
     .value = შენიშვნა: გამოხშირვის ქმედებები სხვა რიგით შესრულდება.
 filter-editor-action-order-link =
     .value = შესრულების რიგის ჩვენება
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name }-ის ასლი
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.

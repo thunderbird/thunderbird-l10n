@@ -114,6 +114,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = წესის გაუქმება
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = ახალი მოქმედების დამატება
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = ამ მოქმედების მოცილება
 
 ## Search Term List
 
@@ -131,6 +139,24 @@ search-match-all-msgs =
 
 rule-action-move =
     .label = წერილის გადატანა -
+rule-action-ignore-thread =
+    .label = მიმოწერის უგულებელყოფა
+rule-action-ignore-subthread =
+    .label = მიმოწერის განშტოების უგულებელყოფა
+rule-action-watch-thread =
+    .label = მიმოწერისთვის თვალის მიდევნება
+rule-action-stop =
+    .label = ფილტრის გამოყენების შეწყვეტა
 
 ## Rule Action Targets
 
+rule-priority-highest =
+    .label = უმაღლესი
+rule-priority-high =
+    .label = მაღალი
+rule-priority-normal =
+    .label = ჩვეულებრივი
+rule-priority-low =
+    .label = დაბალი
+rule-priority-lowest =
+    .label = უდაბლესი
