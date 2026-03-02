@@ -102,4 +102,12 @@ filter-count-visible-of-total = { $visible } fan { $total }
 
 ## Filter Editor
 
+filter-editor-name =
+    .value = Filternamme:
+    .accesskey = F
 filter-editor-context-desc = Filter tapasse by it:
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
