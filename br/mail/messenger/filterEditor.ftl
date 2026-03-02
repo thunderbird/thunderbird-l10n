@@ -72,6 +72,28 @@ filter-count-visible-of-total = { $visible } eus { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Siloù ar c'hemennadennoù
+filter-name-column =
+    .label = Anv ar sil
+filter-active-column =
+    .label = Gweredekaet
+filter-new-button =
+    .label = Nevez…
+    .accesskey = N
+filter-header-label =
+    .value = Lañset eo ar siloù gweredekaet ent emgefreek diouzh an urzh da heul.
+filter-filters-for-prefix =
+    .value = Siloù evit :
+    .accesskey = S
+filter-view-log-button =
+    .label = Logaritm silañ
+    .accesskey = t
+filter-run-filters-button =
+    .label = Lañsañ diouzhtu
+    .accesskey = d
+filter-folder-picker-prefix =
+    .value = Lañsañ ar sil(où) diuzet war :
+    .accesskey = i
 
 ## Filter Editor
 
