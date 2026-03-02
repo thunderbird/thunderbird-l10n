@@ -91,10 +91,20 @@ filter-editor-name =
     .value = Nom del filtre:
     .accesskey = i
 filter-editor-context-desc = Aplica el filtre:
+filter-editor-context-incoming =
+    .label = En rebre missatges nous:
+    .accesskey = g
+filter-editor-context-manual =
+    .label = En executar-lo manualment
+    .accesskey = x
 filter-editor-action-order-warning =
     .value = Nota: les accions del filtre s'executaran en un altre ordre.
 filter-editor-action-order-link =
     .value = Mostra l'ordre d'execució
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Aquest filtre no es pot desar perquè el terme de cerca «{ $attribute } { $operator }» no és vàlid en el context actual.
 filter-editor-action-order-explanation = Quan un missatge coincideixi amb aquest filtre, les accions s'executaran en aquest ordre:
 filter-editor-action-order-title = Ordre real de les accions
 # Variables:
