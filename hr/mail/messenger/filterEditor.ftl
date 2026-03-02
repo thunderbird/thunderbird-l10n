@@ -101,6 +101,18 @@ filter-count-visible-of-total = { $visible } od { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Filteri poruka
+filter-name-column =
+    .label = Naziv filtera
+filter-active-column =
+    .label = Omogućen
+filter-new-button =
+    .label = Novi…
+    .accesskey = N
+filter-reorder-top-button =
+    .label = Pomakni na vrh
+    .accesskey = v
+    .tooltiptext = Pomakni filter kako bi se izvršavao prije svih ostalih
 filter-reorder-up-button =
     .label = Pomakni gore
     .accesskey = g
