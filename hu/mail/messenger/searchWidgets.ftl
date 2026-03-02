@@ -126,3 +126,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Minden üzenet illeszkedjen
     .accesskey = i
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Rendkívül sürgős
+rule-priority-high =
+    .label = Sürgős
+rule-priority-normal =
+    .label = Normál
+rule-priority-low =
+    .label = Kevéssé sürgős
+rule-priority-lowest =
+    .label = Nem sürgős
