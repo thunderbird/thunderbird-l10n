@@ -92,6 +92,9 @@ filter-name-column =
     .label = Ainm na criathraige
 filter-active-column =
     .label = Air a chur an comas
+filter-new-button =
+    .label = Ùr…
+    .accesskey = r
 
 ## Filter Editor
 
