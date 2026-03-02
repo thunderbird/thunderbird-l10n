@@ -126,3 +126,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Wše powěsći
     .accesskey = W
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Nejwuša
+rule-priority-high =
+    .label = Wusoka
+rule-priority-normal =
+    .label = Normalna
+rule-priority-low =
+    .label = Niša
+rule-priority-lowest =
+    .label = Nejniša

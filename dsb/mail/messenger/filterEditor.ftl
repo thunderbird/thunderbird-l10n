@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Spam
 rule-menuitem-not-spam =
@@ -97,3 +100,41 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } z { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Filtrowe pšawidła
+filter-editor-name =
+    .value = Filtrowe mě:
+    .accesskey = i
+filter-editor-context-desc = Filter nałožyś, gaž:
+filter-editor-context-incoming =
+    .label = Nowy post se wobstarujo:
+    .accesskey = N
+filter-editor-context-manual =
+    .label = Gaž se manuelnje nałožujo
+    .accesskey = G
+filter-editor-context-outgoing =
+    .label = Pó słanju
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Archiwěrowanje
+    .accesskey = A
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } kopěrowaś
+filter-editor-invalid-search-title = Pytańske zapśimjeśa su njepłaśiwe
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Toś ten filter njedajo se składowaś, dokulaž pytański wuraz "{ $attribute } { $operator }" jo njepłaśiwy w aktualnem konteksće.
+filter-editor-action-order-explanation = Gaž powěsć wótpowědujo toś tomu filtroju, akcije pśewjadu se pó toś tom pórěźe:
+filter-editor-action-order-title = Napšawdny pórěd akcijow
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
