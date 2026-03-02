@@ -101,6 +101,10 @@ filter-count-visible-of-total = { $visible } z { $total }
 
 ## Filter List Dialog
 
+filter-search-box =
+    .placeholder = Nazwa filtru…
+filter-close-key =
+    .key = W
 
 ## Filter Editor
 
