@@ -99,6 +99,9 @@ filter-count-visible-of-total = { $visible } από { $total }
 
 ## Filter List Dialog
 
+filter-new-copy-button =
+    .label = Αντιγραφή…
+    .accesskey = Α
 filter-filters-for-prefix =
     .value = Φίλτρα για:
     .accesskey = Φ
