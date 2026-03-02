@@ -97,10 +97,17 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = En executar-lo manualment
     .accesskey = x
+filter-editor-context-outgoing =
+    .label = Després d'enviar
+    .accesskey = e
 filter-editor-action-order-warning =
     .value = Nota: les accions del filtre s'executaran en un altre ordre.
 filter-editor-action-order-link =
     .value = Mostra l'ordre d'execució
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Còpia de { $name }
+filter-editor-invalid-search-title = Els termes de la cerca no són vàlids
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
