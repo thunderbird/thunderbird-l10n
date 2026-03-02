@@ -109,6 +109,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Eemalda see reegel
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Lisa uus tegevus
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Eemalda see tegevus
 
 ## Search Term List
 
@@ -121,3 +129,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Sobivad kõik kirjad
     .accesskey = S
+
+## Rule Action Types
+
+rule-action-move =
+    .label = kiri tõstetakse kausta
+rule-action-copy =
+    .label = kiri kopeeritakse kausta
+rule-action-forward =
+    .label = kiri edastatakse aadressile
+rule-action-reply =
+    .label = vastatakse malli abil
+rule-action-read =
+    .label = märgitakse loetuks
+rule-action-unread =
+    .label = märgitakse mitteloetuks
+rule-action-star =
+    .label = lisatakse märgistus
+rule-action-priority =
+    .label = prioriteediks määratakse
+rule-action-tag =
+    .label = kiri sildistatakse
+rule-action-delete =
+    .label = kiri kustutatakse
+rule-action-delete-pop =
+    .label = kustutatakse POP-serverist
+rule-action-fetch-pop =
+    .label = tõmmatakse POP-serverist
+rule-action-ignore-thread =
+    .label = lõime eiratakse
+rule-action-ignore-subthread =
+    .label = alamlõime eiratakse
+rule-action-watch-thread =
+    .label = lõime jälgitakse
+rule-action-stop =
+    .label = filtri rakendamine peatatakse
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Kõrgeim
+rule-priority-high =
+    .label = Kõrge
+rule-priority-normal =
+    .label = Tavaline
+rule-priority-low =
+    .label = Madal
+rule-priority-lowest =
+    .label = Madalaim

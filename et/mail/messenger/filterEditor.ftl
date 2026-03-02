@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -77,3 +80,50 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } (kokku { $total })
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Filtri reeglid
+filter-editor-name =
+    .value = Filtri nimi:
+    .accesskey = n
+filter-editor-context-desc = Filtrit rakendatakse:
+filter-editor-context-incoming =
+    .label = uute kirjade hankimisel:
+    .accesskey = h
+filter-editor-context-manual =
+    .label = manuaalsel käivitamisel
+    .accesskey = m
+filter-editor-context-outgoing =
+    .label = pärast saatmist
+    .accesskey = p
+filter-editor-context-archive =
+    .label = arhiveerimisel
+    .accesskey = a
+filter-editor-action-desc =
+    .value = Sooritatakse järgnev tegevus:
+    .accesskey = R
+filter-editor-action-order-warning =
+    .value = Märkus: filtri tegevused käivituvad teistsuguses järjekorras.
+filter-editor-action-order-link =
+    .value = Vaata käivitumise järjekorda
+filter-editor-invalid-search-title = Vigased otsinguparameetrid
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Seda filtrit pole võimalik salvestada, sest otsingutingimus "{ $attribute } { $operator }" on antud kontekstis vigane.
+filter-editor-action-order-explanation = Kui kiri vastab sellele filtrile, siis käivitatakse tegevused järgnevas järjekorras:
+filter-editor-action-order-title = Tegelik tegevuste järjekord
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
