@@ -113,10 +113,23 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = Manuellem Ausführen
     .accesskey = u
+filter-editor-context-outgoing =
+    .label = Versand
+    .accesskey = V
+filter-editor-context-archive =
+    .label = Archivieren
+    .accesskey = r
+filter-editor-action-desc =
+    .value = Auszuführende Aktionen:
+    .accesskey = z
 filter-editor-action-order-warning =
     .value = Hinweis: Die Filter werden in einer anderen Reihenfolge ausgeführt.
 filter-editor-action-order-link =
     .value = Ausführreihenfolge anzeigen
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } - Kopie
+filter-editor-invalid-search-title = Suchbedingungen ungültig
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
