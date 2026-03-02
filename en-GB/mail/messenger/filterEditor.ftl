@@ -144,8 +144,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Run selected filter(s) on:
     .accesskey = c
+filter-search-box =
+    .placeholder = Search filters by name…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Are you sure you want to delete the selected filter(s)?
 filter-dont-warn-delete-checkbox = Don't ask me again
 filter-cannot-enable-incompatible = This filter was probably created by a newer or incompatible version of { -brand-product-name }. You cannot enable this filter because we don't know how to apply it.
+filter-running-title = Running Filters
+filter-running-message =
+    You are currently in the process of filtering messages.
+    Would you like to continue applying filters?
+filter-stop-button = Stop
+filter-continue-button = Continue
 
 ## Filter Editor
 
