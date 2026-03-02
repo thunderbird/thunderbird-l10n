@@ -148,8 +148,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Wubrane filtry nałožić na:
     .accesskey = u
+filter-search-box =
+    .placeholder = Filtry po mjenje přepytać…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Chceće woprawdźe wubrane filtry zhašeć?
 filter-dont-warn-delete-checkbox = Hižo so njeprašeć
 filter-cannot-enable-incompatible = Tutón filter je so najskerje přez nowšu abo inkompatibelnu wersiju { -brand-product-name } wutworił. Njemóžeće tutón filter zmóžnić, dokelž njewěmy, kak dyrbi so nałožić.
+filter-running-title = Aktiwne filtry
+filter-running-message =
+    Sće tuchwilu w procesu filtrowanja powěsćow.
+    Chceće z nałožowanjom filtra pokročować?
+filter-stop-button = Stój
+filter-continue-button = Pokročować
 
 ## Filter Editor
 
