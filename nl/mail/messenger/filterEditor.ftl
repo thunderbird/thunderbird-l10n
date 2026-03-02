@@ -102,6 +102,15 @@ filter-count-visible-of-total = { $visible } van { $total }
 filter-window-title = Berichtenfilters
 filter-name-column =
     .label = Filternaam
+filter-active-column =
+    .label = Ingeschakeld
+filter-new-button =
+    .label = Nieuw…
+    .accesskey = N
+filter-search-box =
+    .placeholder = Filters zoeken op naam…
+filter-close-key =
+    .key = W
 
 ## Filter Editor
 
