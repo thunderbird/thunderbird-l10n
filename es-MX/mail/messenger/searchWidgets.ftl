@@ -167,3 +167,13 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-priority-highest =
+    .label = La más alta
+rule-priority-high =
+    .label = Alta
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Baja
+rule-priority-lowest =
+    .label = La más baja
