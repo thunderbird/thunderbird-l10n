@@ -144,6 +144,8 @@ filter-search-box =
     .placeholder = Pesquisar filtros por nome…
 filter-close-key =
     .key = W
+filter-dont-warn-delete-checkbox = Não perguntar novamente
+filter-cannot-enable-incompatible = Este filtro provavelmente foi criado por uma versão mais recente ou incompatível do { -brand-product-name }. Não pode ativar este filtro porque não sabemos como o aplicar o mesmo.
 
 ## Filter Editor
 
