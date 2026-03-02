@@ -91,6 +91,7 @@ filter-count-visible-of-total = 在 { $total } 筆當中找到 { $visible } 筆
 
 ## Filter List Dialog
 
+filter-window-title = 郵件篩選器
 filter-name-column =
     .label = 篩選條件名稱
 filter-active-column =
@@ -98,6 +99,12 @@ filter-active-column =
 filter-new-button =
     .label = 新增…
     .accesskey = N
+filter-new-copy-button =
+    .label = 複製…
+    .accesskey = C
+filter-edit-button =
+    .label = 編輯…
+    .accesskey = E
 filter-delete-button =
     .label = 刪除
     .accesskey = t
@@ -133,6 +140,8 @@ filter-search-box =
     .placeholder = 用名稱搜尋篩選條件…
 filter-close-key =
     .key = W
+filter-dont-warn-delete-checkbox = 不要再問我
+filter-cannot-enable-incompatible = 此篩選器似乎是由新版或不相容版本的 { -brand-product-name } 建立的。我們無法了解如何套用規則，故無法啟用此篩選器。
 
 ## Filter Editor
 
