@@ -128,6 +128,11 @@ filter-editor-action-order-warning =
     .value = Примечание: Действия фильтра будут запускаться в другом порядке.
 filter-editor-action-order-link =
     .value = Посмотреть порядок выполнения
+filter-editor-duplicate-title = Совпадающее имя фильтра
+filter-editor-duplicate-msg = Фильтр с таким именем уже существует. Введите другое имя.
+filter-editor-no-event-title = Не выбрано ни одного события для фильтра
+filter-editor-no-event-msg = Вы должны выбрать по меньшей мере одно событие, при котором происходит применение этого фильтра. Если вы хотите, чтобы фильтр временно не запускался при наступлении какого-либо события, отключите его в окне Фильтров сообщений.
+filter-editor-match-all-name = Подходит под все сообщения
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Копия { $name }
