@@ -130,6 +130,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Exekutatu eskuz aukeratutako iragazkia(k) karpeta honetan:
     .accesskey = k
+filter-dont-warn-delete-checkbox = Ez galdetu berriz
+filter-cannot-enable-incompatible = Iragazki hau beharbada { -brand-product-name } bertsio berriago batek sortua izan da. Ezin duzu iragazki hau gaitu ezin delako jakin nola aplikatu.
 
 ## Filter Editor
 
