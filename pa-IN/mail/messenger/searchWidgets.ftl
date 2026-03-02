@@ -111,6 +111,14 @@ search-remove-rule-button-2 =
 search-remove-rule-button =
     .label = -
     .tooltiptext = ਇਹ ਨਿਯਮ ਹਟਾਓ
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Add a new action
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Remove this action
 
 ## Search Term List
 
@@ -126,6 +134,48 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = ਸੁਨੇਹਾ ਭੇਜੋ
+rule-action-copy =
+    .label = ਸੁਨੇਹਾ ਕਾਪੀ ਕਰੋ
+rule-action-forward =
+    .label = ਸੁਨੇਹਾ ਅੱਗੇ ਭੇਜੋ
+rule-action-reply =
+    .label = ਟੈਪਲੇਟ ਨਾਲ ਜਵਾਬ
+rule-action-read =
+    .label = ਪੜ੍ਹਿਆ ਮਾਰਕ ਕਰੋ
+rule-action-unread =
+    .label = Mark As Unread
+rule-action-star =
+    .label = ਤਾਰਾ ਸ਼ਾਮਲ
+rule-action-priority =
+    .label = ਤਰਜੀਹ ਸੈੱਟ ਕਰੋ
+rule-action-tag =
+    .label = ਸੁਨੇਹਾ ਟੈਗ ਕਰੋ
+rule-action-delete =
+    .label = ਸੁਨੇਹਾ ਹਟਾਓ
+rule-action-delete-pop =
+    .label = POP ਸਰਵਰ ਤੋਂ ਹਟਾਓ
+rule-action-fetch-pop =
+    .label = POP ਸਰਵਰ ਤੋਂ ਲਵੋ
+rule-action-ignore-thread =
+    .label = ਥਰਿੱਡ ਅਣਡਿੱਠਾ
+rule-action-ignore-subthread =
+    .label = ਸਬ-ਥਰਿੱਡ ਅਣਡਿੱਠਾ
+rule-action-watch-thread =
+    .label = ਥਰਿੱਡ ਨਿਗਰਾਨੀ
+rule-action-stop =
+    .label = ਫਿਲਟਰ ਚਲਾਉਣਾ ਰੋਕੋ
 
 ## Rule Action Targets
 
+rule-priority-highest =
+    .label = ਸਭ ਤੋਂ ਵੱਧ
+rule-priority-high =
+    .label = ਵੱਧ
+rule-priority-normal =
+    .label = ਸਧਾਰਨ
+rule-priority-low =
+    .label = ਘੱਟ
+rule-priority-lowest =
+    .label = ਸਭ ਤੋਂ ਘੱਟ

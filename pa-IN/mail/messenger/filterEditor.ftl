@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
@@ -51,3 +54,32 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $total } ਵਿੱਚੋਂ  { $visible }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = ਫਿਲਟਰ ਨਿਯਮ
+filter-editor-name =
+    .value = ਫਿਲਟਰ ਨਾਂ:
+    .accesskey = i
+filter-editor-context-desc = Apply filter when:
+filter-editor-context-incoming =
+    .label = Getting New Mail:
+    .accesskey = G
+filter-editor-context-manual =
+    .label = Manually Run
+    .accesskey = R
+filter-editor-action-desc =
+    .value = ਇਹ ਐਕਸ਼ਨ ਕਰੋ:
+    .accesskey = P
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = This filter cannot be saved because the search term "{ $attribute } { $operator }" is invalid in the current context.
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
