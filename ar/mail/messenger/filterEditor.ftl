@@ -75,6 +75,9 @@ filter-active-column =
 filter-new-button =
     .label = جديد…
     .accesskey = ج
+filter-new-copy-button =
+    .label = انسخ…
+    .accesskey = س
 filter-edit-button =
     .label = حرّر…
     .accesskey = ح
@@ -106,6 +109,9 @@ filter-view-log-button =
 filter-run-filters-button =
     .label = شغّل الآن
     .accesskey = ش
+filter-folder-picker-prefix =
+    .value = شغّل المرشّحات المختارة على:
+    .accesskey = م
 
 ## Filter Editor
 
