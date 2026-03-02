@@ -106,9 +106,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Gehitu arau berri bat
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Ezabatu arau hau
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Ezabatu arau hau
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Gehitu ekintza berria
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Kendu ekintza hau
 
 ## Search Term List
 
@@ -121,3 +133,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Mezu guztiak
     .accesskey = M
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Mugitu mezua hona:
+rule-action-copy =
+    .label = Kopiatu mezua hona:
+rule-action-forward =
+    .label = Birbidali mezua hona:
+rule-action-reply =
+    .label = Erantzun txantiloiarekin:
+rule-action-read =
+    .label = Markatu irakurritako gisa
+rule-action-unread =
+    .label = Markatu irakurri gabeko gisa
+rule-action-star =
+    .label = Gehitu izarra
+rule-action-priority =
+    .label = Ezarri lehentasuna honi:
+rule-action-tag =
+    .label = Etiketatu mezua
+rule-action-delete =
+    .label = Ezabatu mezua
+rule-action-delete-pop =
+    .label = Ezabatu POP zerbitzaritik
+rule-action-fetch-pop =
+    .label = Deskargatu POP zerbitzaritik
+rule-action-ignore-thread =
+    .label = Ezikusi haria
+rule-action-ignore-subthread =
+    .label = Ezikusi azpiharia
+rule-action-watch-thread =
+    .label = Ikusi haria
+rule-action-stop =
+    .label = Gelditu iragazkiaren exekuzioa
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Altuena
+rule-priority-high =
+    .label = Altua
+rule-priority-normal =
+    .label = Ertaina
+rule-priority-low =
+    .label = Baxua
+rule-priority-lowest =
+    .label = Baxuena

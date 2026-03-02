@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Spam
 # Variables:
@@ -79,3 +82,39 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $total } / { $visible }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-name =
+    .value = Iragazkiaren izena:
+    .accesskey = I
+filter-editor-context-desc = Iragazkia noiz aplikatu:
+filter-editor-context-incoming =
+    .label = Posta berria eskuratzea:
+    .accesskey = b
+filter-editor-context-manual =
+    .label = Exekutatu eskuz
+    .accesskey = E
+filter-editor-action-order-warning =
+    .value = Oharra: iragazte-ekintzak beste ordena batean exekutatuko dira.
+filter-editor-action-order-link =
+    .value = Ikusi exekuzio-ordena
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Iragazki hau ezin da gorde "{ $attribute } { $operator }" bilaketa-terminoa baliogabea delako uneko testuinguruan.
+filter-editor-action-order-explanation = Mezu bat iragazki honekin bat datorrenean ekintzak ordena honetan exekutatuko dira:
+filter-editor-action-order-title = Ekintzen benetako ordena
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
