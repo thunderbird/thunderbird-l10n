@@ -126,3 +126,15 @@ search-match-any =
 search-match-all-msgs =
     .label = Αντιστοίχιση όλων των μηνυμάτων
     .accesskey = μ
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Ύψιστη
+rule-priority-high =
+    .label = Υψηλή
+rule-priority-normal =
+    .label = Κανονική
