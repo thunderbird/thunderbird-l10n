@@ -132,8 +132,15 @@ filter-search-box =
     .placeholder = Taq chayub'äl richin nikanöx chi b'i'aj…
 filter-close-key =
     .key = W
+filter-delete-confirmation = ¿La kan nawajo' ye'ayüj el re taq chayub'äl echa'on?
 filter-dont-warn-delete-checkbox = Mani nik'utüx chik pe chwe
 filter-cannot-enable-incompatible = Ri chayub'äl re' rik'in jub'a' xtz'uk rik'in jun k'ak'a' o man k'amonel ta ruwäch { -brand-product-name }. Man yojtikïr ta niqatzïj re chayub'äl ruma man qetaman ta rub'eyal niqasamajij.
+filter-running-title = Yesamajïx taq Chayub'äl
+filter-running-message =
+    Wakami nib'anatäj kichayuxik taq rutzijol.
+    ¿La k'a nawajo' ye'awokisaj taq chayub'äl?
+filter-stop-button = Tiq'at
+filter-continue-button = Titikïr chik el
 
 ## Filter Editor
 
