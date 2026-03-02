@@ -110,9 +110,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Adicionar uma regra
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Remover esta regra
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Remover esta regra
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Adicionar uma nova ação
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Remover esta ação
 
 ## Search Term List
 
@@ -128,6 +140,10 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-unread =
+    .label = Marcar como não lida
+rule-action-star =
+    .label = Adicionar estrela
 
 ## Rule Action Targets
 
@@ -139,3 +155,5 @@ rule-priority-normal =
     .label = Normal
 rule-priority-low =
     .label = Baixa
+rule-priority-lowest =
+    .label = Muito baixa

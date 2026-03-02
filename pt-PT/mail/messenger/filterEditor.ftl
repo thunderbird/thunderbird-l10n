@@ -102,7 +102,32 @@ filter-count-visible-of-total = { $visible } de { $total }
 
 ## Filter Editor
 
+filter-editor-window-title = Regras de filtros
+filter-editor-name =
+    .value = Nome do filtro:
+    .accesskey = N
 filter-editor-context-desc = Aplicar filtro:
+filter-editor-context-incoming =
+    .label = Ao obter novo correio:
+    .accesskey = b
+filter-editor-context-manual =
+    .label = Ao verificar manualmente
+    .accesskey = f
+filter-editor-context-outgoing =
+    .label = Após enviar
+    .accesskey = s
+filter-editor-invalid-search-title = Termos da pesquisa inválidos
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Este filtro não pode ser guardado porque o termo de pesquisa "{ $attribute } { $operator }" é inválido no contexto atual.
+filter-editor-action-order-explanation = Quando uma mensagem corresponde com este filtro, as ações serão executadas por esta ordem:
+filter-editor-action-order-title = Ordem de ações
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
