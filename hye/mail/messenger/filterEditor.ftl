@@ -132,6 +132,15 @@ filter-search-box =
     .placeholder = Որոնել զտիչներ անունով…
 filter-close-key =
     .key = W
+filter-delete-confirmation = Դուք համոզուա՞ծ էք, որ ուզում էք ջնջել նշուած զտիչ(ներ)ը։
+filter-dont-warn-delete-checkbox = Այղեւս չհարցնել
+filter-cannot-enable-incompatible = Այս զտիչը հաւանաբար ստեղծուել է { -brand-product-name }-ի աւելի նոր կամ անհամատեղելի տարբերակով: Դուք չէք կարող միացնել այս զտիչը, քանի որ մենք չգիտենք, թե ինչպէս կիրառել այն:
+filter-running-title = Գործող Զտիչներ
+filter-running-message =
+    Դուք ներկայումս հաղորդագրութիւնների զտման գործընթացում էք:
+    Ցանկանու՞մ էք շարունակել զտիչների կիրառումը:
+filter-stop-button = Դադարեցնել
+filter-continue-button = Շարունակել
 
 ## Filter Editor
 
