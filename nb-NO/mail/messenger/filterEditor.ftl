@@ -144,8 +144,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Kjør valgte filter på:
     .accesskey = v
+filter-search-box =
+    .placeholder = Søk i filtre etter navn …
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Er du sikker på at du vil slette dette filteret?
 filter-dont-warn-delete-checkbox = Ikke spør meg om dette igjen
 filter-cannot-enable-incompatible = Dette filteret ble sannsynligvis opprettet av en nyere eller inkompatibel versjon av { -brand-product-name }. Du kan ikke slå på dette filteret, fordi programmet ikke vet hvordan det skal behandles.
+filter-running-title = Kjører filtre
+filter-running-message =
+    Meldinger blir nå filtrert.
+    Ønsker du å fortsette å kjøre filtrering?
+filter-stop-button = Stopp
+filter-continue-button = Fortsett
 
 ## Filter Editor
 
