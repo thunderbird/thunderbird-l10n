@@ -100,6 +100,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Дадаць новае правіла
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Выдаліць гэтае правіла
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Выдаліць гэтае правіла
