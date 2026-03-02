@@ -117,6 +117,13 @@ filter-editor-action-desc =
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = "{ $attribute } { $operator }" arama terimi bu bağlamda geçersiz olduğu için bu süzgeç kaydedilemez.
+filter-editor-action-order-explanation = Bir ileti bu süzgeçle eşleştiği zaman eylemler bu sırayla çalıştırılacaktır:
+filter-editor-action-order-title = Gerçek eylem sırası
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number } { $argument } { $action }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
