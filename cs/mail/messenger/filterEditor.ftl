@@ -109,6 +109,16 @@ filter-active-column =
 filter-new-button =
     .label = Nový…
     .accesskey = N
+filter-edit-button =
+    .label = Upravit…
+    .accesskey = p
+filter-delete-button =
+    .label = Smazat
+    .accesskey = m
+filter-reorder-top-button =
+    .label = Přesunout nahoru
+    .accesskey = h
+    .tooltiptext = Přesune filtr tak, aby se spouštěl jako první
 filter-reorder-up-button =
     .label = Posunout výše
     .accesskey = v
@@ -124,6 +134,16 @@ filter-header-label =
 filter-filters-for-prefix =
     .value = Filtr pro:
     .accesskey = F
+filter-run-filters-button =
+    .label = Spustit teď
+    .accesskey = S
+filter-folder-picker-prefix =
+    .value = Ručně spustit vybraný filtr na složce:
+    .accesskey = R
+filter-search-box =
+    .placeholder = Hledat filtry podle názvu…
+filter-close-key =
+    .key = W
 
 ## Filter Editor
 
