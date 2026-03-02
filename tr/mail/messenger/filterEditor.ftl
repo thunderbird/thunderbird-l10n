@@ -137,6 +137,15 @@ filter-view-log-button =
 filter-run-filters-button =
     .label = Şimdi çalıştır
     .accesskey = a
+filter-folder-picker-prefix =
+    .value = Seçili süzgeçleri bu klasörde uygula:
+    .accesskey = i
+filter-search-box =
+    .placeholder = Süzgeçleri isme göre ara…
+filter-close-key =
+    .key = W
+filter-dont-warn-delete-checkbox = Bunu bir daha sorma
+filter-cannot-enable-incompatible = Bu süzgeç, büyük olasılıkla daha yeni veya uyumsuz bir { -brand-product-name } sürümü tarafından oluşturulmuş. Bu süzgecin nasıl uygulanacağını bilmediğimiz için süzgeci etkinleştiremiyoruz.
 
 ## Filter Editor
 
