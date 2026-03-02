@@ -107,6 +107,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Уклони ово правило
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Додај нову радњу
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Уклони ову радњу
 
 ## Search Term List
 
@@ -119,3 +127,49 @@ search-match-any =
 search-match-all-msgs =
     .label = Уклопи све поруке
     .accesskey = л
+
+## Rule Action Types
+
+rule-action-copy =
+    .label = Ископирај поруку у
+rule-action-forward =
+    .label = Проследи поруку ка
+rule-action-reply =
+    .label = Одговори са шаблоном
+rule-action-read =
+    .label = Означи као прочитано
+rule-action-unread =
+    .label = Означи као непрочитано
+rule-action-star =
+    .label = Додај звездицу
+rule-action-priority =
+    .label = Подеси првенство на
+rule-action-tag =
+    .label = Означи поруку
+rule-action-delete =
+    .label = Обриши поруку
+rule-action-delete-pop =
+    .label = Обриши поруку са POP сервера
+rule-action-fetch-pop =
+    .label = Добави са POP сервера
+rule-action-ignore-thread =
+    .label = Занемари нит
+rule-action-ignore-subthread =
+    .label = Занемари поднит
+rule-action-watch-thread =
+    .label = Надгледај нит
+rule-action-stop =
+    .label = Прекини са извршавањем филтера
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Највише
+rule-priority-high =
+    .label = Високо
+rule-priority-normal =
+    .label = Обично
+rule-priority-low =
+    .label = Ниско
+rule-priority-lowest =
+    .label = Најниже

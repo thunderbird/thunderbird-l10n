@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Непожељно
 rule-menuitem-not-spam =
@@ -83,3 +86,46 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } од { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Правила филтера
+filter-editor-name =
+    .value = Име филтера:
+    .accesskey = и
+filter-editor-context-desc = Примени филтер када:
+filter-editor-context-incoming =
+    .label = Добијам нову пошту:
+    .accesskey = Д
+filter-editor-context-manual =
+    .label = Ручно извршавам
+    .accesskey = Р
+filter-editor-context-outgoing =
+    .label = После слања
+    .accesskey = с
+filter-editor-context-archive =
+    .label = Архивирам
+    .accesskey = А
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Копија од { $name }
+filter-editor-invalid-search-title = Појмови претраге неисправни
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Овај филтер се не може сачувати зато што појам претраге "{ $attribute } { $operator }" није исправан у тренутном контексту.
+filter-editor-action-order-explanation = Када се порука уклопи у овај филтер радње ће бити извршене у овом редоследу:
+filter-editor-action-order-title = Редослед правих радњи
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
