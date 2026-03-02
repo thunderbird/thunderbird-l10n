@@ -113,6 +113,13 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = Hânmjittich útfiere
     .accesskey = H
+filter-editor-context-outgoing =
+    .label = Nei ferstjoeren
+    .accesskey = N
+filter-editor-context-archive =
+    .label = Argivearje
+    .accesskey = r
+filter-editor-invalid-search-title = Syktermen ferkeard
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.

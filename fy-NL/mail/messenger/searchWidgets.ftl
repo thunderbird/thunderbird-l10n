@@ -145,6 +145,18 @@ rule-action-unread =
     .label = Berjocht as net lêzen markearje
 rule-action-star =
     .label = Stjer tafoegje
+rule-action-delete-pop =
+    .label = Fan POP-server smite
+rule-action-fetch-pop =
+    .label = Fan POP-server ophelje
+rule-action-ignore-thread =
+    .label = Petear negearje
+rule-action-ignore-subthread =
+    .label = Subpetear negearje
+rule-action-watch-thread =
+    .label = Petear folgje
+rule-action-stop =
+    .label = Ophâlde mei útfieren fan filter
 
 ## Rule Action Targets
 
