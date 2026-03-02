@@ -101,6 +101,7 @@ filter-count-visible-of-total = { $visible } z { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Filtry zpráv
 filter-name-column =
     .label = Název filtru
 filter-active-column =
