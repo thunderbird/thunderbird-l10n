@@ -140,8 +140,15 @@ filter-search-box =
     .placeholder = Pencarian filter berdasarkan nama ...
 filter-close-key =
     .key = W
+filter-delete-confirmation = Yakin akan menghapus filter terpilih?
 filter-dont-warn-delete-checkbox = Jangan tanya lagi
 filter-cannot-enable-incompatible = Filter ini mungkin dibuat oleh versi { -brand-product-name } yang lebih baru atau tidak kompatibel. Anda tidak dapat mengaktifkan filter ini karena kami tidak tahu cara menerapkannya.
+filter-running-title = Menjalankan Filter
+filter-running-message =
+    Anda sedang dalam proses memfilter pesan.
+    Apakah ingin melanjutkan memfilter pesan?
+filter-stop-button = Berhenti
+filter-continue-button = Lanjutkan
 
 ## Filter Editor
 
