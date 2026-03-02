@@ -137,6 +137,12 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-forward =
+    .label = Redirecționează mesajul către
+rule-action-reply =
+    .label = Răspunde cu un șablon
+rule-action-read =
+    .label = Marchează ca citit
 rule-action-unread =
     .label = Marchează ca necitit
 rule-action-star =

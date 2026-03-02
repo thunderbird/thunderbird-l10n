@@ -111,6 +111,29 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = La rularea manuală
     .accesskey = R
+filter-editor-context-outgoing =
+    .label = După trimitere
+    .accesskey = u
+filter-editor-context-archive =
+    .label = La arhivare
+    .accesskey = A
+filter-editor-action-order-warning =
+    .value = Notă: Acțiunile filtrului vor fi executate într-o ordine diferită.
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Copie a { $name }
+filter-editor-invalid-search-title = Termeni de căutare nevalizi
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Acest filtru nu poate fi salvat deoarece termenul de căutare „{ $attribute } { $operator }” este nevalid în contextul actual.
+filter-editor-action-order-explanation = Când un mesaj corespunde filtrului, acțiunile vin executate în această ordine:
+filter-editor-action-order-title = Ordine reală a acțiunilor
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
