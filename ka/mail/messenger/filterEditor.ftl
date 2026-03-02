@@ -148,8 +148,15 @@ filter-search-box =
     .placeholder = ფილტრის მოძიება სახელით…
 filter-close-key =
     .key = W
+filter-delete-confirmation = ნამდვილად გსურთ მონიშნული ფილტრის წაშლა?
 filter-dont-warn-delete-checkbox = შეკითხვის გარეშე.
 filter-cannot-enable-incompatible = ეს ფილტრი, როგორც ჩანს { -brand-product-name }-ის მომავალი ან არათავსებადი ვერსიის მიერაა შექმნილი. ამ ფილტრს ვერ გამოიყენებთ, რადგან ვერ ხერხდება მისი დამუშავება.
+filter-running-title = მუშა ფილტრები
+filter-running-message =
+    ამჯერად მიმდინარეობს წერილების ფილტრაცია.
+    გსურთ ფილტრების დამატების გაგრძელება?
+filter-stop-button = შეჩერება
+filter-continue-button = გაგრძელება
 
 ## Filter Editor
 
