@@ -108,6 +108,15 @@ filter-name-column =
     .label = Ime filtra
 filter-active-column =
     .label = Omogočeno
+filter-view-log-button =
+    .label = Dnevnik filtrov
+    .accesskey = D
+filter-run-filters-button =
+    .label = Zaženi zdaj
+    .accesskey = Z
+filter-folder-picker-prefix =
+    .value = Zaženi izbrane filtre na:
+    .accesskey = a
 
 ## Filter Editor
 
