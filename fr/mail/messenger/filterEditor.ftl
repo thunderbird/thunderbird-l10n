@@ -106,6 +106,34 @@ filter-editor-name =
     .value = Nom du filtre :
     .accesskey = i
 filter-editor-context-desc = Appliquer le filtre :
+filter-editor-context-incoming =
+    .label = Lors de la réception du courrier :
+    .accesskey = L
+filter-editor-context-manual =
+    .label = Lors de son exécution manuelle
+    .accesskey = r
+filter-editor-context-outgoing =
+    .label = Après l’envoi
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Lors de l’archivage
+    .accesskey = a
+filter-editor-action-order-warning =
+    .value = Note : les actions des filtres sont exécutées dans un ordre différent.
+filter-editor-action-order-link =
+    .value = Voir l’ordre d’exécution
+filter-editor-invalid-search-title = Termes recherchés invalides
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Ce filtre ne peut pas être enregistré car le terme recherché « { $attribute } { $operator } » est invalide dans le contexte actuel.
+filter-editor-action-order-explanation = Lorsqu’un message correspond à ce filtre, les actions sont exécutées dans cet ordre :
+filter-editor-action-order-title = Ordre d’exécution des actions
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")

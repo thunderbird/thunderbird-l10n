@@ -141,6 +141,8 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Déplacer le message vers
 rule-action-copy =
     .label = Copier le message vers
 rule-action-forward =
