@@ -88,6 +88,28 @@ filter-editor-action-order-warning =
     .value = Eslatma: filterlash amallari boshqa tartibda ishga tushiriladi.
 filter-editor-action-order-link =
     .value = Bajarish tartibini ko‘rish
+filter-editor-duplicate-title = Filter nomini nusxalash
+filter-editor-duplicate-msg = Siz kiritgan nom mavjud. Boshqa filter nomini kiriting.
+filter-editor-no-event-title = Tadbirlarni filterlash tanlanmadi.
+filter-editor-no-event-msg = Bu filterni qo‘llash uchun kamida bitta tadbirni tanlashingiz lozim. Agar siz vaqtincha filterni tadbirlarda ishlashini xohlamasangiz, Xabarlar filteri oynasidan belgilashni olib tashlang.
+filter-editor-match-all-name = Barcha xabarlardan izlash
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } nusxasi
+filter-editor-invalid-search-title = Izlash uchun kiritilgan atama noto‘g‘ri
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Filter saqlanmaydi, chunki joriy matndagi "{ $attribute } { $operator }" qidiruv amatasi noto‘g‘ri.
+filter-editor-action-order-explanation = Xabar bu filterga mos kelsa, amallar bu buyruqqa ko‘ra bajariladi:
+filter-editor-action-order-title = Haqiqiy amal tartibi:
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
