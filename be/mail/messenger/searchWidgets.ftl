@@ -126,6 +126,10 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-reply =
+    .label = Адказаць па шаблоне
+rule-action-read =
+    .label = Пазначыць прачытаным
 rule-action-unread =
     .label = Пазначыць непрачытаным
 rule-action-star =
@@ -140,6 +144,14 @@ rule-action-delete-pop =
     .label = Выдаліць з POP-сервера
 rule-action-fetch-pop =
     .label = Загрузіць з POP-сервера
+rule-action-ignore-thread =
+    .label = Ігнараваць абмеркаванне
+rule-action-ignore-subthread =
+    .label = Ігнараваць галіну абмеркавання
+rule-action-watch-thread =
+    .label = Сачыць за абмеркаваннем
+rule-action-stop =
+    .label = Спыніць выкананне фільтру
 
 ## Rule Action Targets
 

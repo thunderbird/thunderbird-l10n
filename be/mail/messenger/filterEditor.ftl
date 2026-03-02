@@ -61,6 +61,10 @@ filter-count-visible-of-total = { $visible } з { $total }
 
 ## Filter Editor
 
+filter-editor-window-title = Правілы фільтравання
+filter-editor-name =
+    .value = Імя фільтру:
+    .accesskey = м
 filter-editor-context-desc = Ужываць фільтр пры:
 filter-editor-context-incoming =
     .label = Атрыманні новай пошты:
