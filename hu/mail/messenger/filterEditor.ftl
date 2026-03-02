@@ -110,10 +110,24 @@ filter-editor-context-desc = Szűrő alkalmazása:
 filter-editor-context-incoming =
     .label = Új levelek letöltése:
     .accesskey = t
+filter-editor-context-manual =
+    .label = Kézzel futtatva
+    .accesskey = K
+filter-editor-context-outgoing =
+    .label = Küldés után
+    .accesskey = d
+filter-editor-context-archive =
+    .label = Archiválás
+    .accesskey = A
 filter-editor-action-order-warning =
     .value = Megjegyzés: a szűrési műveletek más sorrendben lesznek futtatva.
 filter-editor-action-order-link =
     .value = Végrehajtási sorrend megjelenítése
+filter-editor-invalid-search-title = Érvénytelen keresési kifejezés
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Ezt a szűrőt nem lehet menteni, mert a(z) „{ $attribute } { $operator }” keresési kifejezés érvénytelen ebben a kontextusban.
 filter-editor-action-order-explanation = Amikor egy üzenet illeszkedik erre a szűrőre, a műveletek ebben a sorrendben lesznek futtatva:
 filter-editor-action-order-title = Valódi műveletsorrend
 # Variables:
