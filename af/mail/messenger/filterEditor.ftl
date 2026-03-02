@@ -56,6 +56,26 @@ filter-edit-button =
 filter-delete-button =
     .label = Skrap
     .accesskey = a
+filter-reorder-up-button =
+    .label = Skuif op
+    .accesskey = o
+filter-reorder-down-button =
+    .label = Skuif af
+    .accesskey = a
+filter-header-label =
+    .value = Geaktiveerde filters loop outomaties in die volgorde hieronder.
+filter-filters-for-prefix =
+    .value = Filters vir:
+    .accesskey = F
+filter-view-log-button =
+    .label = Filterstaaflêer
+    .accesskey = s
+filter-run-filters-button =
+    .label = Laat loop nou
+    .accesskey = L
+filter-folder-picker-prefix =
+    .value = Laat gemêrkte filter(s) loop op:
+    .accesskey = k
 
 ## Filter Editor
 
