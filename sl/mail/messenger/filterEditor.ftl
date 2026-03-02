@@ -103,6 +103,11 @@ filter-count-visible-of-total = { $visible } od { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Filtri sporočil
+filter-name-column =
+    .label = Ime filtra
+filter-active-column =
+    .label = Omogočeno
 
 ## Filter Editor
 
