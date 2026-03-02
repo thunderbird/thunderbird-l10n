@@ -107,6 +107,18 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Pokreni izabrane filtere na:
     .accesskey = b
+filter-search-box =
+    .placeholder = Pretraži filtere prema nazivu...
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Da li ste sigurni da želite obrisati izabrane filtere?
+filter-dont-warn-delete-checkbox = Ne pitaj me ponovo
+filter-running-title = Pokrenuti filteri
+filter-running-message =
+    Trenutno ste u postupku filtriranja poruka.
+    Želite li nastaviti primjenjivati filtere?
+filter-stop-button = Zaustavi
+filter-continue-button = Nastavi
 
 ## Filter Editor
 
