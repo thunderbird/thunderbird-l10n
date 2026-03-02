@@ -95,3 +95,23 @@ filter-count-visible-of-total = 在 { $total } 筆當中找到 { $visible } 筆
 ## Filter Editor
 
 filter-editor-window-title = 篩選條件規則
+filter-editor-context-desc = 做下列動作時進行篩選:
+filter-editor-context-outgoing =
+    .label = 傳送後
+    .accesskey = S
+filter-editor-context-archive =
+    .label = 備存中
+    .accesskey = A
+filter-editor-action-order-link =
+    .value = 檢視執行順序
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = 因為所搜尋的詞彙「{ $attribute } { $operator }」在此環境中無效，無法儲存此篩選條件。
+filter-editor-action-order-explanation = 當有訊息符合此篩選條件時，將依照此順序進行篩選:
+filter-editor-action-order-title = 實際執行順序
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
