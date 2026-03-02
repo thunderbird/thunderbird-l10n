@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Neželjena pošta
 rule-menuitem-not-spam =
@@ -95,3 +98,14 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } od { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

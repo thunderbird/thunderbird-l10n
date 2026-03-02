@@ -126,3 +126,25 @@ search-match-any =
 search-match-all-msgs =
     .label = Za sve poruke
     .accesskey = Z
+
+## Rule Action Types
+
+rule-action-reply =
+    .label = Odgovori s predloškom
+rule-action-read =
+    .label = Označi kao pročitano
+rule-action-unread =
+    .label = Označi kao nepročitano
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Najviši
+rule-priority-high =
+    .label = Visok
+rule-priority-normal =
+    .label = Normalan
+rule-priority-low =
+    .label = Niski
+rule-priority-lowest =
+    .label = Najniži
