@@ -84,6 +84,8 @@ filter-count-visible-of-total = { $total }-ից { $visible }
 ## Filter List Dialog
 
 filter-window-title = Հաղորդագրութիւնների զտիչներ
+filter-name-column =
+    .label = Զտիչի անունը
 filter-active-column =
     .label = Միացուել է
 filter-reorder-top-button =
