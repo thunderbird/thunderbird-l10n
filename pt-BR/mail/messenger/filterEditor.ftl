@@ -100,6 +100,9 @@ filter-count-visible-of-total = { $visible } de { $total }
 ## Filter List Dialog
 
 filter-window-title = Filtros de mensagens
+filter-edit-button =
+    .label = Editar…
+    .accesskey = E
 filter-delete-button =
     .label = Excluir
     .accesskey = x
