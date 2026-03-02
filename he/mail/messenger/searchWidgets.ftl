@@ -104,6 +104,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = הוסף מסנן חדש
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = הסר מסנן זה
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = הסר מסנן זה

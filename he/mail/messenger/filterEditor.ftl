@@ -90,6 +90,10 @@ filter-editor-action-order-warning =
     .value = לתשומת לבך: פעולות המסנן תרוצנה בסדר שונה.
 filter-editor-action-order-link =
     .value = הצגת סדר הפעולות
+filter-editor-duplicate-title = שם מסנן כפול
+filter-editor-duplicate-msg = שם המסנן שהכנסת כבר קיים. נא להכניס שם מסנן שונה.
+filter-editor-no-event-title = לא נבחר אירוע מסנן
+filter-editor-match-all-name = מצא את כל ההודעות
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = עותק של { $name }
