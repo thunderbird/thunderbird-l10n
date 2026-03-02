@@ -104,6 +104,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Додај ново правило
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Уклони ово правило
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Уклони ово правило
@@ -165,6 +169,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Непожељно
+rule-menuitem-not-spam =
+    .label = Није непожељно
 rule-priority-highest =
     .label = Највише
 rule-priority-high =
