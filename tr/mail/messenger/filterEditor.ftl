@@ -148,8 +148,15 @@ filter-search-box =
     .placeholder = Süzgeçleri isme göre ara…
 filter-close-key =
     .key = W
+filter-delete-confirmation = Seçilen süzgeç(ler)i silmek istediğinizden emin misiniz?
 filter-dont-warn-delete-checkbox = Bunu bir daha sorma
 filter-cannot-enable-incompatible = Bu süzgeç, büyük olasılıkla daha yeni veya uyumsuz bir { -brand-product-name } sürümü tarafından oluşturulmuş. Bu süzgecin nasıl uygulanacağını bilmediğimiz için süzgeci etkinleştiremiyoruz.
+filter-running-title = Çalışan süzgeçler
+filter-running-message =
+    Şu anda iletiler süzülüyor.
+    Süzgeçlerin uygulanmasına devam etmek istiyor musunuz?
+filter-stop-button = Durdur
+filter-continue-button = Devam et
 
 ## Filter Editor
 
