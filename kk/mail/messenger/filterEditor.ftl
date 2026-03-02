@@ -99,6 +99,32 @@ filter-count-visible-of-total = { $visible }, барлығы { $total }
 
 ## Filter List Dialog
 
+filter-active-column =
+    .label = Іске қосылған
+filter-new-button =
+    .label = Жаңа…
+    .accesskey = Ж
+filter-reorder-up-button =
+    .label = Жоғарыға
+    .accesskey = а
+filter-reorder-down-button =
+    .label = Төменге
+    .accesskey = е
+filter-reorder-bottom-button =
+    .label = Астына жылжыту
+    .accesskey = м
+    .tooltiptext = Сүзгіні басқалардан кейін орындалатындай етіп орналастыру
+filter-header-label =
+    .value = Іске қосылған сүзгілер төмендегідей ретпен автожөнелтіледі.
+filter-filters-for-prefix =
+    .value = Келесі үшін сүзгілер:
+    .accesskey = з
+filter-view-log-button =
+    .label = Журналды сүзгілеу
+    .accesskey = л
+filter-run-filters-button =
+    .label = Қазір жөнелту
+    .accesskey = ж
 
 ## Filter Editor
 
