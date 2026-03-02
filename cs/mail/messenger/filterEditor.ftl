@@ -125,6 +125,9 @@ filter-editor-action-order-warning =
     .value = Poznámka: Akce filtru budou spouštěny v jiném pořadí.
 filter-editor-action-order-link =
     .value = viz pořadí spouštění
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } - kopie
 filter-editor-invalid-search-title = Neplatný hledací výraz
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
