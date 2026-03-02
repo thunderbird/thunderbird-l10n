@@ -103,6 +103,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Выдаліць гэтае правіла
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Дадаць новае дзеянне
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Выдаліць гэта дзеянне
 
 ## Search Term List
 
@@ -118,6 +126,20 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-unread =
+    .label = Пазначыць непрачытаным
+rule-action-star =
+    .label = Пазначыць
+rule-action-priority =
+    .label = Змяніць прыярытэт на
+rule-action-tag =
+    .label = Памеціць
+rule-action-delete =
+    .label = Выдаліць паведамленне
+rule-action-delete-pop =
+    .label = Выдаліць з POP-сервера
+rule-action-fetch-pop =
+    .label = Загрузіць з POP-сервера
 
 ## Rule Action Targets
 
