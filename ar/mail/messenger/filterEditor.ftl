@@ -112,6 +112,18 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = شغّل المرشّحات المختارة على:
     .accesskey = م
+filter-search-box =
+    .placeholder = ابحث في المُرشّحات بالاسم…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = أمتأكد من أنك تريد حذف هذا المرشِّح؟
+filter-dont-warn-delete-checkbox = لا تسألني مجددًا
+filter-running-title = المرشِّحات العاملة
+filter-running-message =
+    أنت حاليًا في وسط عملية ترشيح الرسائل.
+    أترغب في متابعة تطبيق المرشِّحات؟
+filter-stop-button = قف
+filter-continue-button = واصِل
 
 ## Filter Editor
 
