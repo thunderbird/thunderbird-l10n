@@ -88,6 +88,7 @@ filter-count-visible-of-total = { $total } / { $visible }
 
 ## Filter Editor
 
+filter-editor-window-title = Iragazkien arauak
 filter-editor-name =
     .value = Iragazkiaren izena:
     .accesskey = I
@@ -98,10 +99,20 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = Exekutatu eskuz
     .accesskey = E
+filter-editor-context-outgoing =
+    .label = Bidali ostean
+    .accesskey = o
+filter-editor-context-archive =
+    .label = Artxibatzen
+    .accesskey = A
 filter-editor-action-order-warning =
     .value = Oharra: iragazte-ekintzak beste ordena batean exekutatuko dira.
 filter-editor-action-order-link =
     .value = Ikusi exekuzio-ordena
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopiatu { $name }tik
+filter-editor-invalid-search-title = Bilaketa-termino baliogabeak
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
