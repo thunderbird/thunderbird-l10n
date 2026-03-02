@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Přidat pravidlo
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Odebrat pravidlo
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Odebrat pravidlo
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Přidá novou akci
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Odebere akci
 
 ## Search Term List
 
@@ -129,6 +141,38 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Přesunout zprávu do složky
+rule-action-copy =
+    .label = Kopírovat zprávu do složky
+rule-action-forward =
+    .label = Přeposlat zprávu na
+rule-action-reply =
+    .label = Odpovědět pomocí šablony
+rule-action-read =
+    .label = Označit jako přečtené
+rule-action-unread =
+    .label = Označit jako nepřečtené
+rule-action-star =
+    .label = Přidat hvězdičku
+rule-action-priority =
+    .label = Nastavit prioritu na
+rule-action-tag =
+    .label = Přiřadit štítek
+rule-action-delete =
+    .label = Smazat zprávu
+rule-action-delete-pop =
+    .label = Smazat zprávu z POP serveru
+rule-action-fetch-pop =
+    .label = Stáhnout tělo zprávy z POP serveru
+rule-action-ignore-thread =
+    .label = Ignorovat vlákno
+rule-action-ignore-subthread =
+    .label = Ignorovat podvlákno
+rule-action-watch-thread =
+    .label = Sledovat vlákno
+rule-action-stop =
+    .label = Zastavit vykonávání filtru
 
 ## Rule Action Targets
 

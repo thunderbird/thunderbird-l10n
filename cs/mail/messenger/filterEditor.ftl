@@ -109,6 +109,27 @@ filter-editor-name =
     .value = Název filtru:
     .accesskey = N
 filter-editor-context-desc = Použít filtr při:
+filter-editor-context-incoming =
+    .label = Přijímání pošty:
+    .accesskey = P
+filter-editor-context-manual =
+    .label = Manuálním spuštění
+    .accesskey = M
+filter-editor-action-order-warning =
+    .value = Poznámka: Akce filtru budou spouštěny v jiném pořadí.
+filter-editor-action-order-link =
+    .value = viz pořadí spouštění
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Tento filtr nelze uložit, protože výraz „{ $attribute } { $operator }“ není v aktuálním kontextu platný.
+filter-editor-action-order-explanation = Pokud zpráva odpovídá filtru, budou akce provedeny v tomto pořadí:
+filter-editor-action-order-title = Skutečné pořadí akcí
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
