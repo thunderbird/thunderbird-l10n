@@ -91,6 +91,22 @@ filter-count-visible-of-total = { $visible } của { $total }
 
 ## Filter List Dialog
 
+filter-new-button =
+    .label = Mới…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Sao chép…
+    .accesskey = C
+filter-edit-button =
+    .label = Chỉnh sửa…
+    .accesskey = E
+filter-delete-button =
+    .label = Xóa
+    .accesskey = t
+filter-reorder-top-button =
+    .label = Chuyển lên trên cùng
+    .accesskey = o
+    .tooltiptext = Sắp xếp lại bộ lọc để nó thực thi trước tất cả các bộ lọc khác
 
 ## Filter Editor
 
