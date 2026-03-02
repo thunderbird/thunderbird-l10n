@@ -109,6 +109,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Dodaj novo pravilo
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Odstrani to pravilo
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Odstrani to pravilo
@@ -135,6 +139,16 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Premakni sporočilo v
+rule-action-copy =
+    .label = Kopiraj sporočilo v
+rule-action-forward =
+    .label = Posreduj sporočilo v
+rule-action-reply =
+    .label = Odgovori s predlogo
+rule-action-read =
+    .label = Označi kot prebrano
 rule-action-unread =
     .label = Označi kot neprebrano
 rule-action-star =

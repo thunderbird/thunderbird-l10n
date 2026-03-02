@@ -107,9 +107,22 @@ filter-count-visible-of-total = { $visible } od { $total }
 ## Filter Editor
 
 filter-editor-window-title = Pravila za filtriranje
+filter-editor-name =
+    .value = Ime filtra:
+    .accesskey = m
 filter-editor-context-desc = Uporabi filter:
+filter-editor-context-incoming =
+    .label = ob prejemu nove pošte:
+    .accesskey = o
+filter-editor-context-outgoing =
+    .label = po pošiljanju
+    .accesskey = š
+filter-editor-context-archive =
+    .label = ob arhiviranju
+    .accesskey = a
 filter-editor-action-order-link =
     .value = Vrstni red izvajanja
+filter-editor-invalid-search-title = Neveljavni pogoji iskanja
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
