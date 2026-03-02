@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -69,3 +72,53 @@ filter-count-items = { $count }개
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $total } 중 { $visible }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = 필터 규칙
+filter-editor-name =
+    .value = 필터 이름:
+    .accesskey = i
+filter-editor-context-desc = 필터 적용:
+filter-editor-context-incoming =
+    .label = 새 메일 받을 때:
+    .accesskey = G
+filter-editor-context-manual =
+    .label = 수동으로 실행
+    .accesskey = R
+filter-editor-context-outgoing =
+    .label = 발송 이후에 적용
+    .accesskey = S
+filter-editor-context-archive =
+    .label = 보관
+    .accesskey = A
+filter-editor-action-desc =
+    .value = 다음 방식으로 처리:
+    .accesskey = P
+filter-editor-action-order-warning =
+    .value = 참고: 필터는 다른 순서대로 적용됩니다.
+filter-editor-action-order-link =
+    .value = 실행 순서를 참고하세요.
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } 복사본
+filter-editor-invalid-search-title = 올바르지 않은 검색 기간
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = 검색어 "{ $attribute } { $operator }"는 현재 문맥에서 올바르지 않기 때문에 이 필터를 저장할 수 없습니다.
+filter-editor-action-order-explanation = 메시지가 이 필터에 적용될 때 이 순서대로 동작이 적용됨:
+filter-editor-action-order-title = 실제 동작 순서
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
