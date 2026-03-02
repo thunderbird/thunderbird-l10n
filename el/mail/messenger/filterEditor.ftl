@@ -126,6 +126,11 @@ filter-editor-action-order-warning =
     .value = Σημείωση: Οι ενέργειες των φίλτρων θα εκτελεστούν με διαφορετική σειρά.
 filter-editor-action-order-link =
     .value = Προβολή σειράς εκτέλεσης
+filter-editor-duplicate-title = Διπλότυπο όνομα φίλτρου
+filter-editor-duplicate-msg = Το όνομα φίλτρου που πληκτρολογήσατε υπάρχει ήδη. Εισαγάγετε ένα άλλο όνομα φίλτρου.
+filter-editor-no-event-title = Δεν επιλέχθηκε φίλτρο γεγονότος
+filter-editor-no-event-msg = Πρέπει να επιλέξετε τουλάχιστον μία εκδήλωση κατά την εφαρμογή του φίλτρου. Αν δεν επιθυμείτε το φίλτρο να εκτελείται σε καμία εκδήλωση, μην επιλέξετε την κατάσταση ενεργοποίησής του από τον διάλογο «Φίλτρα μηνυμάτων».
+filter-editor-match-all-name = Αντιστοίχιση όλων των μηνυμάτων
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Αντίγραφο του «{ $name }»

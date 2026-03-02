@@ -178,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Ανεπιθύμητα
+rule-menuitem-not-spam =
+    .label = Επιθυμητό
 rule-priority-highest =
     .label = Ύψιστη
 rule-priority-high =
