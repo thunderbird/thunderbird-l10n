@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Pridať nové pravidlo
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Odstrániť toto pravidlo
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Odstrániť toto pravidlo
@@ -174,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Nevyžiadaná
+rule-menuitem-not-spam =
+    .label = Nie je nevyžiadaná
 rule-priority-highest =
     .label = Najvyššia
 rule-priority-high =
