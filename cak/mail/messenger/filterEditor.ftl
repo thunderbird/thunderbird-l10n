@@ -83,6 +83,52 @@ filter-count-visible-of-total = { $visible } richin { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Taq Ruchayub'al Tzijol
+filter-name-column =
+    .label = Chayub'äl B'i'aj
+filter-active-column =
+    .label = Tzijon
+filter-new-button =
+    .label = K'ak'a'…
+    .accesskey = K
+filter-new-copy-button =
+    .label = Tiwachib'ëx…
+    .accesskey = w
+filter-edit-button =
+    .label = Tinuk'…
+    .accesskey = n
+filter-delete-button =
+    .label = Tiyuj
+    .accesskey = y
+filter-reorder-top-button =
+    .label = Tisilöx pa Rutikirib'al
+    .accesskey = s
+    .tooltiptext = Ticholajïx chik ri chayub'äl richin tunab'eyij rusamajib'exik chi kiwäch ri ch'aqa' chik
+filter-reorder-up-button =
+    .label = Tijotob'äx
+    .accesskey = j
+filter-reorder-down-button =
+    .label = Tiqasäx Qa
+    .accesskey = Q
+filter-reorder-bottom-button =
+    .label = Tisilöx pa Ruk'isib'al
+    .accesskey = R
+    .tooltiptext = Ticholajïx chik ri chayub'äl richin tunab'eyij rusamajib'exik chi kij ri ch'aqa' chik
+filter-header-label =
+    .value = Ri etzijon taq chayub'äl ruyonil xkesamajib'ëx rik'in ri rucholajen nik'ut ikim.
+filter-filters-for-prefix =
+    .value = Taq ruchayub'al:
+    .accesskey = T
+filter-view-log-button =
+    .label = Tichayüx Tz'ib'anïk
+    .accesskey = T
+filter-folder-picker-prefix =
+    .value = Tisamajib'ëx chayub'äl (e)cha'on pa:
+    .accesskey = c
+filter-search-box =
+    .placeholder = Taq chayub'äl richin nikanöx chi b'i'aj…
+filter-close-key =
+    .key = W
 
 ## Filter Editor
 
