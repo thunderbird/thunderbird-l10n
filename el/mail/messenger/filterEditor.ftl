@@ -148,8 +148,15 @@ filter-search-box =
     .placeholder = Αναζήτηση φίλτρων με όνομα…
 filter-close-key =
     .key = W
+filter-delete-confirmation = Θέλετε σίγουρα να διαγράψετε τα επιλεγμένα φίλτρα;
 filter-dont-warn-delete-checkbox = Να μην ερωτηθώ ξανά
 filter-cannot-enable-incompatible = To φίλτρο ίσως να δημιουργήθηκε από μια νέα ή ασύμβατη έκδοση του { -brand-product-name }. Δεν μπορείτε να το ενεργοποιήσετε, επειδή δεν γνωρίζουμε πώς να το εφαρμόσουμε.
+filter-running-title = Εκτέλεση φίλτρων
+filter-running-message =
+    Βρίσκεστε στη διαδικασία δημιουργία φίλτρων για μηνύματα.
+    Θέλετε να συνεχίσετε με την εφαρμογή φίλτρων;
+filter-stop-button = Διακοπή
+filter-continue-button = Συνέχεια
 
 ## Filter Editor
 
