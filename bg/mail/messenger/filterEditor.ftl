@@ -107,6 +107,10 @@ filter-active-column =
 filter-new-button =
     .label = Нов…
     .accesskey = Н
+filter-reorder-top-button =
+    .label = Преместване в началото
+    .accesskey = ч
+    .tooltiptext = Пренареждане на филтъра така, че да бъде изпълнен първи
 
 ## Filter Editor
 
