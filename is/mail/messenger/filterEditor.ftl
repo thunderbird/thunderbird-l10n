@@ -102,6 +102,20 @@ filter-count-visible-of-total = { $visible } af { $total }
 
 ## Filter Editor
 
+filter-editor-window-title = Síureglur
+filter-editor-name =
+    .value = Nafn síu:
+    .accesskey = s
+filter-editor-context-desc = Beita síu þegar:
+filter-editor-context-incoming =
+    .label = Næ í nýjan póst:
+    .accesskey = æ
+filter-editor-context-manual =
+    .label = Keyrt handvirkt
+    .accesskey = r
+filter-editor-context-outgoing =
+    .label = Eftir að sent er
+    .accesskey = s
 filter-editor-invalid-search-title = Leitarskilyrði ógilt
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.

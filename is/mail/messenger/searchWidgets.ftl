@@ -148,3 +148,13 @@ rule-action-priority =
 
 ## Rule Action Targets
 
+rule-priority-highest =
+    .label = Hæst
+rule-priority-high =
+    .label = Hátt
+rule-priority-normal =
+    .label = Venjulegt
+rule-priority-low =
+    .label = Lágt
+rule-priority-lowest =
+    .label = Lægst
