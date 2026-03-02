@@ -83,11 +83,23 @@ filter-count-visible-of-total = { $visible }՝ { $total }-ից
 
 ## Filter List Dialog
 
+filter-window-title = Նամակի զտիչներ
+filter-name-column =
+    .label = Զտիչի անունը
 filter-active-column =
     .label = Միացված
 filter-new-button =
     .label = Նոր...
     .accesskey = N
+filter-new-copy-button =
+    .label = Պատճենել...
+    .accesskey = Պ
+filter-edit-button =
+    .label = Խմբագրել...
+    .accesskey = E
+filter-delete-button =
+    .label = Ջնջել
+    .accesskey = t
 filter-reorder-top-button =
     .label = Տեղափոխել առջև
     .accesskey = o
