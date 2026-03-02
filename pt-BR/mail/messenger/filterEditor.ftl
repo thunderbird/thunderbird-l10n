@@ -119,6 +119,11 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = Arquivamento
     .accesskey = a
+filter-editor-action-desc =
+    .value = Executar estas ações:
+    .accesskey = E
+filter-editor-action-order-warning =
+    .value = Nota: as ações de filtragem serão executadas numa ordem diferente.
 filter-editor-action-order-link =
     .value = Ver ordem de execução
 # Variables:
