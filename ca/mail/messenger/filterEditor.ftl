@@ -103,6 +103,27 @@ filter-reorder-top-button =
     .label = Mou a la part superior
     .accesskey = o
     .tooltiptext = Reorganitza el filtre perquè s'executi abans de tots els altres
+filter-reorder-up-button =
+    .label = Mou amunt
+    .accesskey = M
+filter-reorder-down-button =
+    .label = Mou cap avall
+    .accesskey = o
+filter-reorder-bottom-button =
+    .label = Mou a la part inferior
+    .accesskey = i
+    .tooltiptext = Reorganitza el filtre perquè s'executi després de tots els altres
+filter-header-label =
+    .value = Els filtres habilitats s'executen automàticament en l'ordre que s'indica a sota.
+filter-filters-for-prefix =
+    .value = Filtres per a:
+    .accesskey = F
+filter-view-log-button =
+    .label = Registre dels filtres
+    .accesskey = l
+filter-run-filters-button =
+    .label = Executa ara
+    .accesskey = r
 filter-folder-picker-prefix =
     .value = Executa manualment els filtres seleccionats a la carpeta:
     .accesskey = i
@@ -110,6 +131,8 @@ filter-search-box =
     .placeholder = Cerca els filtres pel nom…
 filter-close-key =
     .key = W
+filter-dont-warn-delete-checkbox = No m'ho tornis a demanar
+filter-cannot-enable-incompatible = Probablement, aquest filtre es va crear amb una versió més recent o incompatible del { -brand-product-name }. No podeu habilitar aquest filtre perquè es desconeix com aplicar-lo.
 
 ## Filter Editor
 
