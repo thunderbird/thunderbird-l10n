@@ -138,6 +138,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Suorita valitut suodattimet kansiolle:
     .accesskey = v
+filter-dont-warn-delete-checkbox = Älä kysy uudelleen
+filter-cannot-enable-incompatible = Tämä suodatin on todennäköisesti luotu uudemmalla tai yhteensopimattomalla { -brand-product-name }in versiolla. Et voi ottaa tätä suodatinta käyttöön, koska emme tiedä kuinka sitä tulisi käyttää.
 
 ## Filter Editor
 
