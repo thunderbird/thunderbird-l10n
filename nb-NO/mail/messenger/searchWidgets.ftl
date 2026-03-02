@@ -178,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Søppelpost
+rule-menuitem-not-spam =
+    .label = Ikke søppelpost
 rule-priority-highest =
     .label = Høyest
 rule-priority-high =
