@@ -104,6 +104,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Pievienot jaunu noteikumu
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Noņemt šo noteikumu
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Noņemt šo noteikumu

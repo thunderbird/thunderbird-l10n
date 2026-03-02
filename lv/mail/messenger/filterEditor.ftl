@@ -112,3 +112,28 @@ filter-editor-action-order-warning =
     .value = Piezīme: Filtrēšanas darbības tiks izpildītas citā secībā.
 filter-editor-action-order-link =
     .value = Skatīt izpildīšanas secību
+filter-editor-duplicate-title = Dublēts filtra nosaukums
+filter-editor-duplicate-msg = Ievadītais filtra nosaukums jau pastāv. Lūdzu, ievadiet citu filtra nosaukumu.
+filter-editor-no-event-title = Nav izvēlēts neviens filtrēšanas notikums
+filter-editor-no-event-msg = Kad pielietojat filtru, jums jāizvēlas vismaz viens notikums. Ja īslaicīgi nevēlaties, lai filtrs darbotos uz jebkuru notikumu, dialogā Ziņojumu filtri noņemiet atzīmi no tā iespējotā stāvokļa.
+filter-editor-match-all-name = Atbilst visām vēstulēm
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } kopija
+filter-editor-invalid-search-title = Nepareizi meklēšanas noteikumi
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Šo filtru nevar saglabāt, jo meklēšanas likums "{ $attribute }{ $operator }" pašreizējā kontekstā nav pareizs.
+filter-editor-action-order-explanation = Kad ziņojums atbilst šim filtram, darbības tiks veiktas šādā secībā:
+filter-editor-action-order-title = Patiesā darbību kārtība
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
