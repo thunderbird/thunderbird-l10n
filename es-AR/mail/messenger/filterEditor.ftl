@@ -103,3 +103,40 @@ filter-count-visible-of-total = { $visible } de { $total }
 ## Filter Editor
 
 filter-editor-window-title = Reglas de filtrado
+filter-editor-name =
+    .value = Nombre del filtro
+    .accesskey = f
+filter-editor-context-desc = Aplicar el filtro cuando:
+filter-editor-context-incoming =
+    .label = se busque correo nuevo:
+    .accesskey = b
+filter-editor-context-manual =
+    .label = se ejecute manualmente
+    .accesskey = e
+filter-editor-context-outgoing =
+    .label = Después de enviar
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Archivar
+    .accesskey = A
+filter-editor-action-order-warning =
+    .value = Nota: Las acciones de filtrado se ejecutaran en distinto orden.
+filter-editor-action-order-link =
+    .value = Ver orden de ejecución
+filter-editor-invalid-search-title = Términos de búsqueda no válidos
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Este filtro no puede guardarse porque el término de búsqueda "{ $attribute } { $operator }" no es válido en el contexto actual.
+filter-editor-action-order-explanation = Cuando un mensaje coincida con este filtro, las acciones se ejecutarán en este orden:
+filter-editor-action-order-title = Orden real de acciones
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
