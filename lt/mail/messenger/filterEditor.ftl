@@ -85,6 +85,14 @@ filter-count-visible-of-total = { $visible } iš { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Laiškų filtrai
+filter-name-column =
+    .label = Filtro pavadinimas
+filter-active-column =
+    .label = Taikymas
+filter-new-button =
+    .label = Naujas…
+    .accesskey = N
 
 ## Filter Editor
 
