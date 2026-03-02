@@ -115,10 +115,17 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = Manuálním spuštění
     .accesskey = M
+filter-editor-context-outgoing =
+    .label = Po odeslání
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Archivaci
+    .accesskey = A
 filter-editor-action-order-warning =
     .value = Poznámka: Akce filtru budou spouštěny v jiném pořadí.
 filter-editor-action-order-link =
     .value = viz pořadí spouštění
+filter-editor-invalid-search-title = Neplatný hledací výraz
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
