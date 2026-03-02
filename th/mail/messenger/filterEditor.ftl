@@ -91,6 +91,21 @@ filter-count-visible-of-total = { $visible } จาก { $total }
 
 ## Filter List Dialog
 
+filter-name-column =
+    .label = ชื่อตัวกรอง
+filter-active-column =
+    .label = เปิดใช้งานอยู่
+filter-new-button =
+    .label = ใหม่…
+    .accesskey = ห
+filter-new-copy-button =
+    .label = คัดลอก…
+    .accesskey = ค
+filter-edit-button =
+    .label = แก้ไข…
+    .accesskey = ก
+filter-dont-warn-delete-checkbox = ไม่ต้องถามฉันอีก
+filter-cannot-enable-incompatible = ตัวกรองนี้เป็นไปได้ว่าได้รับการสร้างโดยรุ่นที่ใหม่กว่าหรือรุ่นที่ไม่รองรับของ { -brand-product-name } คุณไม่สามารถเปิดใช้งานตัวกรองนี้ได้ เพราะเราไม่รู้วิธีการใช้งานของมัน
 
 ## Filter Editor
 
