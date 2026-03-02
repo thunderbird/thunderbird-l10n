@@ -84,8 +84,34 @@ filter-reorder-top-button =
     .label = העברה כעליון
     .accesskey = ל
     .tooltiptext = סידור המסנן מחדש כדי שיופעל לפני כל האחרים
+filter-reorder-up-button =
+    .label = העברה למעלה
+    .accesskey = ע
+filter-reorder-down-button =
+    .label = העברה למטה
+    .accesskey = ט
+filter-reorder-bottom-button =
+    .label = העברה כתחתון
+    .accesskey = ת
+    .tooltiptext = סידור המסנן מחדש כדי שיופעל אחרי כל האחרים
+filter-header-label =
+    .value = מסננים מאופשרים יופעלו אוטומטית בסדר הנראה להלן.
+filter-filters-for-prefix =
+    .value = מסננים עבור:
+    .accesskey = ע
+filter-view-log-button =
+    .label = יומן מסנן
+    .accesskey = י
+filter-run-filters-button =
+    .label = הפעלה כעת
+    .accesskey = ה
+filter-folder-picker-prefix =
+    .value = הפעלת מסננים נבחרים על:
+    .accesskey = מ
 filter-search-box =
     .placeholder = חיפוש מסננים לפי שם…
+filter-close-key =
+    .key = W
 
 ## Filter Editor
 
