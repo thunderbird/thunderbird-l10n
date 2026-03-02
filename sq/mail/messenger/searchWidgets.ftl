@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Shtoni rregull të ri
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Hiqeni këtë rregull
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Hiqeni këtë rregull
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Shtoni një veprim të ri
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Hiqeni këtë veprim
 
 ## Search Term List
 
@@ -126,3 +138,49 @@ search-match-any =
 search-match-all-msgs =
     .label = Kanë përputhje me krejt mesazhet
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Kaloje Mesazhin te
+rule-action-copy =
+    .label = Kopjoje Mesazhin te
+rule-action-forward =
+    .label = Përcillja Mesazhin
+rule-action-reply =
+    .label = Përgjigju me Gjedhe
+rule-action-read =
+    .label = Shënoje Si Të lexuar
+rule-action-unread =
+    .label = Shënoje Si Të palexuar
+rule-action-star =
+    .label = Shto Yllkë
+rule-action-priority =
+    .label = Vërja Përparësinë
+rule-action-tag =
+    .label = Etiketoje Mesazhin Si
+rule-action-delete =
+    .label = Fshije Mesazhin
+rule-action-delete-pop =
+    .label = Fshije Prej Shërbyesi POP
+rule-action-fetch-pop =
+    .label = Sille Prej Shërbyesi POP
+rule-action-ignore-thread =
+    .label = Shpërfille Rrjedhën
+rule-action-ignore-subthread =
+    .label = Shpërfille Nënrrjedhën
+rule-action-watch-thread =
+    .label = Vëzhgoje Rrjedhën
+rule-action-stop =
+    .label = Ndale Përmbushjen e Filtrit
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Më e madhe
+rule-priority-high =
+    .label = E madhe
+rule-priority-normal =
+    .label = Normale
+rule-priority-low =
+    .label = E vogël

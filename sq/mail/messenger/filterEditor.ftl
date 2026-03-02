@@ -103,3 +103,38 @@ filter-count-visible-of-total = { $visible } nga { $total }
 ## Filter Editor
 
 filter-editor-window-title = Rregulla Filtrash
+filter-editor-context-desc = Zbatoje filtrin kur:
+filter-editor-context-incoming =
+    .label = Merret Postë e Re:
+    .accesskey = M
+filter-editor-context-manual =
+    .label = Xhirohet Dorazi
+    .accesskey = D
+filter-editor-context-outgoing =
+    .label = Pas Dërgimit
+    .accesskey = D
+filter-editor-context-archive =
+    .label = Arkivohet
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Kryej këto veprime:
+    .accesskey = K
+filter-editor-action-order-warning =
+    .value = Shënim: Veprimet e filtrimit do të kryhen sipas një radhe tjetër.
+filter-editor-action-order-link =
+    .value = Shihni radhën e përmbushjes
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopjim i { $name }
+filter-editor-invalid-search-title = Terma të Pavlefshëm Kërkimi
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Ky filtër nuk mund të ruhet, sepse termi i kërkimit "{ $attribute } { $operator }" është i pavlefshëm në kontekstin e tanishëm.
+filter-editor-action-order-explanation = Kur një mesazh ka përputhje me këtë filtër, veprimet do të kryhen sipas kësaj radhe:
+filter-editor-action-order-title = Rendi real i veprimeve
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
