@@ -148,8 +148,15 @@ filter-search-box =
     .placeholder = Søg i filtre efter navn…
 filter-close-key =
     .key = W
+filter-delete-confirmation = Er du sikker på, at du vil slette dette filter?
 filter-dont-warn-delete-checkbox = Spørg mig ikke igen.
 filter-cannot-enable-incompatible = Dette filter er sandsynligvis oprettet i en nyere eller inkompatibel version af { -brand-product-name }. Du kan ikke aktivere filteret, for vi ved ikke, hvordan vi skal anvende det.
+filter-running-title = Kører filtre
+filter-running-message =
+    Du er igang med at filtrere meddelelser.
+    Vil du fortsætte med at tilføje filtre?
+filter-stop-button = Stop
+filter-continue-button = Fortsæt
 
 ## Filter Editor
 
