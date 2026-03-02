@@ -122,6 +122,9 @@ filter-filters-for-prefix =
 filter-view-log-button =
     .label = Tichayüx Tz'ib'anïk
     .accesskey = T
+filter-run-filters-button =
+    .label = Tib'an Wakami
+    .accesskey = T
 filter-folder-picker-prefix =
     .value = Tisamajib'ëx chayub'äl (e)cha'on pa:
     .accesskey = c
@@ -129,6 +132,8 @@ filter-search-box =
     .placeholder = Taq chayub'äl richin nikanöx chi b'i'aj…
 filter-close-key =
     .key = W
+filter-dont-warn-delete-checkbox = Mani nik'utüx chik pe chwe
+filter-cannot-enable-incompatible = Ri chayub'äl re' rik'in jub'a' xtz'uk rik'in jun k'ak'a' o man k'amonel ta ruwäch { -brand-product-name }. Man yojtikïr ta niqatzïj re chayub'äl ruma man qetaman ta rub'eyal niqasamajij.
 
 ## Filter Editor
 
