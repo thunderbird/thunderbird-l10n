@@ -115,6 +115,10 @@ search-remove-rule-button =
     .label = -
     .tooltiptext = Ukloni ovo pravilo
 # Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Dodaj novu radnju
+# Do not translate the label.
 rule-remove-action-button =
     .label = −
     .tooltiptext = Ukloni ovu radnju
@@ -139,6 +143,26 @@ rule-action-read =
     .label = Označi kao pročitano
 rule-action-unread =
     .label = Označi kao nepročitano
+rule-action-star =
+    .label = Dodaj zvjezdicu
+rule-action-priority =
+    .label = Postavi prioritet na
+rule-action-tag =
+    .label = Označi poruku
+rule-action-delete =
+    .label = Obriši poruku
+rule-action-delete-pop =
+    .label = Obriši s POP poslužitelja
+rule-action-fetch-pop =
+    .label = Dohvati s POP poslužitelja
+rule-action-ignore-thread =
+    .label = Ignoriraj temu
+rule-action-ignore-subthread =
+    .label = Ignoriraj podtemu
+rule-action-watch-thread =
+    .label = Prati temu
+rule-action-stop =
+    .label = Zaustavi izvršavanje filtera
 
 ## Rule Action Targets
 
