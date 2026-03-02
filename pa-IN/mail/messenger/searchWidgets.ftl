@@ -104,6 +104,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = ਨਵਾਂ ਨਿਯਮ ਸ਼ਾਮਿਲ ਕਰੋ
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = ਇਹ ਨਿਯਮ ਹਟਾਓ
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = ਇਹ ਨਿਯਮ ਹਟਾਓ
@@ -119,3 +123,9 @@ search-match-any =
 search-match-all-msgs =
     .label = ਸਭ ਸੁਨੇਹੇ ਮੇਲਾਓ
     .accesskey = m
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
