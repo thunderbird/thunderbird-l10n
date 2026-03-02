@@ -203,6 +203,7 @@ account-hub-oauth-pending = Изчакване за упълномощаване
 account-hub-addon-install-button = Инсталиране
 account-hub-addon-install-needed = { -brand-short-name } не поддържа този сървър по подразбиране. За достъп до електронната поща на Exchange <a data-l10n-name="addon-install"> инсталирайте добавка от трета страна, като Owl (платена).</a>
 account-hub-addon-error = Инсталирането на добавката е неуспешно. Моля, опитайте отново или се свържете с автора на добавката за съдействие.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Внимание: Засечен е незащитен имейл сървър.</span> Този сървър не е шифрован, което излага на показ паролата и данните ви. Свържете се с администратора си, за да защити връзката или продължете на свой собствен риск. <a data-l10n-name="error-link">Вижте често задавани въпроси за повече детайли.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Внимание: Открит е несигурен сървър за електронна поща.</span> Този сървър не е шифрован и не пази паролата и данните ви. Свържете се с администратора си, за да защити връзката или продължете на свой собствен риск. <a data-l10n-name="faq-link">Вижте тук за повече.</a>
 account-hub-account-authentication-error = Грешка при удостоверяване.
 account-hub-add-address-book = Добавяне на адресник
