@@ -103,6 +103,23 @@ filter-count-visible-of-total = { $visible } z { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Powěsćowe filtry
+filter-name-column =
+    .label = Filtrowe mě
+filter-active-column =
+    .label = Zmóžnjony
+filter-new-button =
+    .label = Nowy…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Kopěrowaś…
+    .accesskey = K
+filter-edit-button =
+    .label = Wobźěłaś…
+    .accesskey = b
+filter-delete-button =
+    .label = Wulašowaś
+    .accesskey = l
 
 ## Filter Editor
 
