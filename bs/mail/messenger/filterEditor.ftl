@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
@@ -56,3 +59,36 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } od { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Pravila filtriranja
+filter-editor-name =
+    .value = Naziv filtera:
+    .accesskey = i
+filter-editor-context-desc = Primjeni filter kada:
+filter-editor-context-incoming =
+    .label = Dobavljanje novog maila:
+    .accesskey = D
+filter-editor-context-manual =
+    .label = Ručnog pokretanja
+    .accesskey = R
+filter-editor-context-outgoing =
+    .label = Nakon slanja
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Arhiviranje
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Izvrši ove radnje:
+    .accesskey = I
+filter-editor-action-order-warning =
+    .value = Napomena: radnje filtera će biti pokrenute drugačijim redoslijedom.
+filter-editor-action-order-link =
+    .value = Prikaži redoslijed izvršavanja
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopija od { $name }

@@ -119,3 +119,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Podudara sa svim porukama
     .accesskey = m
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Najviši
+rule-priority-high =
+    .label = Visok
+rule-priority-normal =
+    .label = Normalan
+rule-priority-low =
+    .label = Niski
+rule-priority-lowest =
+    .label = Najniži
