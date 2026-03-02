@@ -68,6 +68,9 @@ filter-name-column =
     .label = שם מסנן
 filter-active-column =
     .label = מאופשר
+filter-new-button =
+    .label = חדש…
+    .accesskey = ח
 
 ## Filter Editor
 
