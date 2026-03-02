@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Ανεπιθύμητα
 rule-menuitem-not-spam =
@@ -93,3 +96,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } από { $total }
+
+## Filter List Dialog
+
+filter-window-title = Φίλτρα μηνυμάτων
+filter-name-column =
+    .label = Όνομα φίλτρου
+filter-active-column =
+    .label = Ενεργό
+filter-new-button =
+    .label = Νέο…
+    .accesskey = Ν
+filter-new-copy-button =
+    .label = Αντιγραφή…
+    .accesskey = Α
+filter-edit-button =
+    .label = Επεξεργασία…
+    .accesskey = Ε
+filter-delete-button =
+    .label = Διαγραφή
+    .accesskey = φ
+filter-reorder-top-button =
+    .label = Μετακίνηση στο πάνω μέρος
+    .accesskey = ο
+    .tooltiptext = Αναδιατάξτε το φίλτρο ώστε να εκτελείται πριν από τα άλλα
+filter-reorder-up-button =
+    .label = Μετακίνηση πάνω
+    .accesskey = π
+filter-reorder-down-button =
+    .label = Μετακίνηση κάτω
+    .accesskey = κ
+filter-reorder-bottom-button =
+    .label = Μετακίνηση στο κάτω μέρος
+    .accesskey = μ
+    .tooltiptext = Αναδιατάξτε το φίλτρο ώστε να εκτελείται μετά τα άλλα
+filter-header-label =
+    .value = Τα ενεργά φίλτρα θα εκτελούνται αυτόματα με την παρακάτω σειρά.
+filter-filters-for-prefix =
+    .value = Φίλτρα για:
+    .accesskey = Φ
+filter-view-log-button =
+    .label = Αρχείο καταγραφής φίλτρου
+    .accesskey = χ
+filter-run-filters-button =
+    .label = Εκτέλεση τώρα
+    .accesskey = ρ
+filter-folder-picker-prefix =
+    .value = Εκτέλεση επιλεγμένων φίλτρων στο:
+    .accesskey = λ
+filter-search-box =
+    .placeholder = Αναζήτηση φίλτρων με όνομα…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Θέλετε σίγουρα να διαγράψετε τα επιλεγμένα φίλτρα;
+filter-dont-warn-delete-checkbox = Να μην ερωτηθώ ξανά
+filter-cannot-enable-incompatible = To φίλτρο ίσως να δημιουργήθηκε από μια νέα ή ασύμβατη έκδοση του { -brand-product-name }. Δεν μπορείτε να το ενεργοποιήσετε, επειδή δεν γνωρίζουμε πώς να το εφαρμόσουμε.
+filter-running-title = Εκτέλεση φίλτρων
+filter-running-message =
+    Βρίσκεστε στη διαδικασία δημιουργία φίλτρων για μηνύματα.
+    Θέλετε να συνεχίσετε με την εφαρμογή φίλτρων;
+filter-stop-button = Διακοπή
+filter-continue-button = Συνέχεια
+
+## Filter Editor
+
+filter-editor-window-title = Κανόνες φίλτρου
+filter-editor-name =
+    .value = Όνομα φίλτρου:
+    .accesskey = ν
+filter-editor-context-desc = Εφαρμογή φίλτρου:
+filter-editor-context-incoming =
+    .label = Κατά τη λήψη νέων email:
+    .accesskey = λ
+filter-editor-context-manual =
+    .label = Κατά τη χειροκίνητη εκτέλεση
+    .accesskey = χ
+filter-editor-context-outgoing =
+    .label = Μετά την αποστολή
+    .accesskey = Μ
+filter-editor-context-archive =
+    .label = Αρχειοθέτηση
+    .accesskey = Α
+filter-editor-action-desc =
+    .value = Εκτέλεση των εξής ενεργειών:
+    .accesskey = Ε
+filter-editor-action-order-warning =
+    .value = Σημείωση: Οι ενέργειες των φίλτρων θα εκτελεστούν με διαφορετική σειρά.
+filter-editor-action-order-link =
+    .value = Προβολή σειράς εκτέλεσης
+filter-editor-duplicate-title = Διπλότυπο όνομα φίλτρου
+filter-editor-duplicate-msg = Το όνομα φίλτρου που πληκτρολογήσατε υπάρχει ήδη. Εισαγάγετε ένα άλλο όνομα φίλτρου.
+filter-editor-no-event-title = Δεν επιλέχθηκε φίλτρο γεγονότος
+filter-editor-no-event-msg = Πρέπει να επιλέξετε τουλάχιστον μία εκδήλωση κατά την εφαρμογή του φίλτρου. Αν δεν επιθυμείτε το φίλτρο να εκτελείται σε καμία εκδήλωση, μην επιλέξετε την κατάσταση ενεργοποίησής του από τον διάλογο «Φίλτρα μηνυμάτων».
+filter-editor-match-all-name = Αντιστοίχιση όλων των μηνυμάτων
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Αντίγραφο του «{ $name }»
+filter-editor-invalid-search-title = Μη έγκυροι όροι αναζήτησης
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Δεν είναι δυνατή η αποθήκευση του φίλτρου επειδή οι όροι αναζήτησης «{ $attribute } { $operator }» δεν είναι έγκυροι στο παρόν πλαίσιο.
+filter-editor-action-order-explanation = Όταν ένα μήνυμα ταιριάξει με το φίλτρο, οι ενέργειες θα εκτελεστούν με την ακόλουθη σειρά:
+filter-editor-action-order-title = Πραγματική σειρά ενεργειών
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

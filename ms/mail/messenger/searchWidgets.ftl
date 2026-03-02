@@ -104,9 +104,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Tambah peraturan baru
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Buang peraturan ini
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Buang peraturan ini
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Tambah tindakan baru
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Batal tindakan ini
 
 ## Search Term List
 
@@ -119,3 +131,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Sepadan semua mesej
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Pindah Mesej ke
+rule-action-copy =
+    .label = Salin Mesej ke
+rule-action-forward =
+    .label = Kirim semula Mesej kepada
+rule-action-reply =
+    .label = Balas menggunakan Templat
+rule-action-read =
+    .label = Tandakan sebagai telah Dibaca
+rule-action-unread =
+    .label = Tandakan sebagai Belum Dibaca
+rule-action-star =
+    .label = Tandakan Bintang
+rule-action-priority =
+    .label = Tetapkan Prioriti ke
+rule-action-tag =
+    .label = Tag Mesej
+rule-action-delete =
+    .label = Buang Mesej
+rule-action-delete-pop =
+    .label = Buang Daripada Pelayan POP
+rule-action-fetch-pop =
+    .label = Ambil Daripada Pelayan POP
+rule-action-ignore-thread =
+    .label = Abaikan Thread
+rule-action-ignore-subthread =
+    .label = Abaikan Sub-thread
+rule-action-watch-thread =
+    .label = Ikuti Thread
+rule-action-stop =
+    .label = Henti Pelaksanaan Tapisan
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Paling tinggi
+rule-priority-high =
+    .label = Tinggi
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Rendah
+rule-priority-lowest =
+    .label = Paling rendah

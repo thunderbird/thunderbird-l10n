@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Thư rác
 rule-menuitem-not-spam =
@@ -85,3 +88,116 @@ filter-count-items = { $count } mục
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } của { $total }
+
+## Filter List Dialog
+
+filter-window-title = Bộ lọc thư
+filter-name-column =
+    .label = Tên bộ lọc
+filter-active-column =
+    .label = Đã bật
+filter-new-button =
+    .label = Mới…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Sao chép…
+    .accesskey = C
+filter-edit-button =
+    .label = Chỉnh sửa…
+    .accesskey = E
+filter-delete-button =
+    .label = Xóa
+    .accesskey = t
+filter-reorder-top-button =
+    .label = Chuyển lên trên cùng
+    .accesskey = o
+    .tooltiptext = Sắp xếp lại bộ lọc để nó thực thi trước tất cả các bộ lọc khác
+filter-reorder-up-button =
+    .label = Di chuyển lên
+    .accesskey = U
+filter-reorder-down-button =
+    .label = Di chuyển xuống
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = Chuyển xuống dưới cùng
+    .accesskey = B
+    .tooltiptext = Sắp xếp lại bộ lọc để nó thực thi sau tất cả các bộ lọc khác
+filter-header-label =
+    .value = Các bộ lọc đã kích hoạt sẽ được chạy tự động theo thứ tự bên dưới.
+filter-filters-for-prefix =
+    .value = Bộ lọc cho:
+    .accesskey = F
+filter-view-log-button =
+    .label = Nhật kí bộ lọc
+    .accesskey = L
+filter-run-filters-button =
+    .label = Chạy ngay
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = Chạy các bộ lọc đã chọn cho:
+    .accesskey = c
+filter-search-box =
+    .placeholder = Tìm kiếm bộ lọc theo tên…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Bạn có chắc là bạn muốn xóa bộ lọc đã chọn không?
+filter-dont-warn-delete-checkbox = Đừng hỏi lại tôi
+filter-cannot-enable-incompatible = Bộ lọc này có thể được tạo bởi phiên bản mới hơn hoặc không tương thích với { -brand-product-name }. Bạn không thể kích hoạt bộ lọc này vì chúng tôi không biết cách áp dụng nó.
+filter-running-title = Bộ lọc đang chạy
+filter-running-message =
+    Bạn hiện đang trong quá trình lọc thư.
+    Bạn có muốn tiếp tục áp dụng các bộ lọc?
+filter-stop-button = Dừng
+filter-continue-button = Tiếp tục
+
+## Filter Editor
+
+filter-editor-window-title = Quy tắc bộ lọc
+filter-editor-name =
+    .value = Tên bộ lọc:
+    .accesskey = i
+filter-editor-context-desc = Áp dụng bộ lọc khi:
+filter-editor-context-incoming =
+    .label = Nhận thư mới:
+    .accesskey = G
+filter-editor-context-manual =
+    .label = Chạy thủ công
+    .accesskey = R
+filter-editor-context-outgoing =
+    .label = Sau khi gửi
+    .accesskey = S
+filter-editor-context-archive =
+    .label = Lưu trữ
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Thực hiện các hành động này:
+    .accesskey = P
+filter-editor-action-order-warning =
+    .value = Lưu ý: Các hành động lọc sẽ được chạy theo thứ tự khác.
+filter-editor-action-order-link =
+    .value = Xem thứ tự thực hiện
+filter-editor-duplicate-title = Trùng lặp tên bộ lọc
+filter-editor-duplicate-msg = Tên bộ lọc đã tồn tại. Vui lòng nhập tên bộ lọc khác.
+filter-editor-no-event-title = Không có sự kiện bộ lọc nào được chọn
+filter-editor-no-event-msg = Bạn phải chọn ít nhất một sự kiện khi bộ lọc này được áp dụng. Nếu bạn tạm thời không muốn bộ lọc chạy ở bất kỳ sự kiện nào, hãy bỏ chọn trạng thái được bật từ hộp thoại bộ lọc thư.
+filter-editor-match-all-name = Khớp tất cả thư
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Bản sao của { $name }
+filter-editor-invalid-search-title = Thuật ngữ tìm kiếm không hợp lệ
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Bộ lọc này không thể được lưu vì thuật ngữ tìm kiếm "{ $attribute } { $operator }" không hợp lệ trong ngữ cảnh hiện tại.
+filter-editor-action-order-explanation = Khi một thông báo khớp với bộ lọc này, các hành động sẽ được chạy theo thứ tự này:
+filter-editor-action-order-title = Lệnh hành động thực sự
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

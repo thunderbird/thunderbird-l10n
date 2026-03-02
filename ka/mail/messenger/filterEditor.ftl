@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = ჯართი
 rule-menuitem-not-spam =
@@ -93,3 +96,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible }, სულ { $total }-დან
+
+## Filter List Dialog
+
+filter-window-title = წერილის ფილტრები
+filter-name-column =
+    .label = ფილტრის სახელი
+filter-active-column =
+    .label = ჩართვა
+filter-new-button =
+    .label = ახალი…
+    .accesskey = ა
+filter-new-copy-button =
+    .label = ასლი…
+    .accesskey = ლ
+filter-edit-button =
+    .label = ჩასწორება…
+    .accesskey = ჩ
+filter-delete-button =
+    .label = წაშლა
+    .accesskey = წ
+filter-reorder-top-button =
+    .label = დასაწყისში
+    .accesskey = ა
+    .tooltiptext = ფილტრის გადაადგილება, რომ ყველა სხვა დანარჩენზე ადრე შესრულდეს
+filter-reorder-up-button =
+    .label = აწევა
+    .accesskey = ე
+filter-reorder-down-button =
+    .label = ჩამოწევა
+    .accesskey = ო
+filter-reorder-bottom-button =
+    .label = ბოლოში
+    .accesskey = ბ
+    .tooltiptext = ფილტრის გადაადგილება, რომ ყველა სხვა დანარჩენზე გვიან შესრულდეს
+filter-header-label =
+    .value = ჩართული ფილტრები გაეშვება შემდეგი თანმიმდევრობით.
+filter-filters-for-prefix =
+    .value = ფილტრები:
+    .accesskey = ფ
+filter-view-log-button =
+    .label = ფილტრის ჩანაწერები
+    .accesskey = ჩ
+filter-run-filters-button =
+    .label = გაშვება ახლავე
+    .accesskey = გ
+filter-folder-picker-prefix =
+    .value = არჩეული ფილტრ(ებ)ის გაშვება:
+    .accesskey = რ
+filter-search-box =
+    .placeholder = ფილტრის მოძიება სახელით…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = ნამდვილად გსურთ მონიშნული ფილტრის წაშლა?
+filter-dont-warn-delete-checkbox = შეკითხვის გარეშე.
+filter-cannot-enable-incompatible = ეს ფილტრი, როგორც ჩანს { -brand-product-name }-ის მომავალი ან არათავსებადი ვერსიის მიერაა შექმნილი. ამ ფილტრს ვერ გამოიყენებთ, რადგან ვერ ხერხდება მისი დამუშავება.
+filter-running-title = მუშა ფილტრები
+filter-running-message =
+    ამჯერად მიმდინარეობს წერილების ფილტრაცია.
+    გსურთ ფილტრების დამატების გაგრძელება?
+filter-stop-button = შეჩერება
+filter-continue-button = გაგრძელება
+
+## Filter Editor
+
+filter-editor-window-title = ფილტრის წესები
+filter-editor-name =
+    .value = ფილტრის სახელი:
+    .accesskey = ი
+filter-editor-context-desc = ფილტრებით სარგებლობა:
+filter-editor-context-incoming =
+    .label = ახალი ფოსტის მიღებისას
+    .accesskey = ღ
+filter-editor-context-manual =
+    .label = ხელით შესრულებისას
+    .accesskey = ხ
+filter-editor-context-outgoing =
+    .label = გაგზავნის შემდეგ
+    .accesskey = გ
+filter-editor-context-archive =
+    .label = დაარქივება
+    .accesskey = დ
+filter-editor-action-desc =
+    .value = ამ მოქმედებების შესრულება:
+    .accesskey = ქ
+filter-editor-action-order-warning =
+    .value = შენიშვნა: გამოხშირვის ქმედებები სხვა რიგით შესრულდება.
+filter-editor-action-order-link =
+    .value = შესრულების რიგის ჩვენება
+filter-editor-duplicate-title = ფილტრის სახელის დუბლირება
+filter-editor-duplicate-msg = მითითებული ფილტრის სახელი უკვე არსებობს. გთხოვთ მიუთითოთ განსხვავებული სახელი.
+filter-editor-no-event-title = ფილტრის მოვლენა არ შერჩეულა
+filter-editor-no-event-msg = წერილების გასაფილტრად უნდა შეარჩიოთ ერთი მაინც ფილტრის მოვლენა. თუ დროებით არ გსურთ რაიმე მოვლენით გაფილტვრა, უბრალოდ ამორთეთ იგი წერილთა ფილტრების სარკმელში.
+filter-editor-match-all-name = თანხვედრა ყველა წერილისთვის
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name }-ის ასლი
+filter-editor-invalid-search-title = ძიების პირობები უმართებულოა
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = ფილტრი ვერ შეინახება, რადგან საძიებო პირობა "{ $attribute } { $operator }" მიმდინარე კონტექსტში უმართებულოა.
+filter-editor-action-order-explanation = როცა გზავნილი ამ ფილტრს შეესაბამება ქმედებები შემდეგი რიგით შესრულდება:
+filter-editor-action-order-title = ქმედებათა რეალური რიგი
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Ongewenst
 rule-menuitem-not-spam =
@@ -93,3 +96,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } van { $total }
+
+## Filter List Dialog
+
+filter-window-title = Berichtenfilters
+filter-name-column =
+    .label = Filternaam
+filter-active-column =
+    .label = Ingeschakeld
+filter-new-button =
+    .label = Nieuw…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Kopie…
+    .accesskey = K
+filter-edit-button =
+    .label = Bewerken…
+    .accesskey = B
+filter-delete-button =
+    .label = Verwijderen
+    .accesskey = V
+filter-reorder-top-button =
+    .label = Bovenaan plaatsen
+    .accesskey = e
+    .tooltiptext = Filter verplaatsen, zodat het als eerste wordt uitgevoerd
+filter-reorder-up-button =
+    .label = Omhoog verplaatsen
+    .accesskey = m
+filter-reorder-down-button =
+    .label = Omlaag verplaatsen
+    .accesskey = l
+filter-reorder-bottom-button =
+    .label = Onderaan plaatsen
+    .accesskey = O
+    .tooltiptext = Filter verplaatsen, zodat het als laatste wordt uitgevoerd
+filter-header-label =
+    .value = Ingeschakelde filters worden automatisch in de onderstaande volgorde uitgevoerd.
+filter-filters-for-prefix =
+    .value = Filters voor:
+    .accesskey = F
+filter-view-log-button =
+    .label = Filterlogboek
+    .accesskey = i
+filter-run-filters-button =
+    .label = Nu uitvoeren
+    .accesskey = u
+filter-folder-picker-prefix =
+    .value = Geselecteerde filter(s) uitvoeren op:
+    .accesskey = c
+filter-search-box =
+    .placeholder = Filters zoeken op naam…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Weet u zeker dat u de geselecteerde filters wilt verwijderen?
+filter-dont-warn-delete-checkbox = Dit niet meer vragen
+filter-cannot-enable-incompatible = Dit filter is waarschijnlijk gemaakt door een nieuwere of incompatibele versie van { -brand-product-name }. U kunt dit filter niet activeren, omdat we niet weten hoe het moet worden toegepast.
+filter-running-title = Filters worden uitgevoerd
+filter-running-message =
+    U bevindt zich momenteel in het proces van berichtenfiltering.
+    Wilt u doorgaan met het toepassen van filters?
+filter-stop-button = Stoppen
+filter-continue-button = Doorgaan
+
+## Filter Editor
+
+filter-editor-window-title = Filterregels
+filter-editor-name =
+    .value = Filternaam:
+    .accesskey = F
+filter-editor-context-desc = Filter toepassen bij het:
+filter-editor-context-incoming =
+    .label = Ophalen van nieuwe e-mail:
+    .accesskey = O
+filter-editor-context-manual =
+    .label = Handmatig uitvoeren
+    .accesskey = H
+filter-editor-context-outgoing =
+    .label = Na verzenden
+    .accesskey = N
+filter-editor-context-archive =
+    .label = Archiveren
+    .accesskey = r
+filter-editor-action-desc =
+    .value = Deze acties uitvoeren:
+    .accesskey = v
+filter-editor-action-order-warning =
+    .value = Noot: filteracties worden in een andere volgorde uitgevoerd.
+filter-editor-action-order-link =
+    .value = Uitvoeringsvolgorde bekijken
+filter-editor-duplicate-title = Filternaam bestaat al
+filter-editor-duplicate-msg = Deze filternaam bestaat al. Voer een andere filternaam in.
+filter-editor-no-event-title = Geen filtergebeurtenis geselecteerd
+filter-editor-no-event-msg = U moet ten minste één gebeurtenis selecteren waarbij dit filter wordt toegepast. Als u het filter tijdelijk helemaal niet wilt laten uitvoeren, haal dan het vinkje weg bij de inschakelstatus in het dialoogvenster Berichtenfilters.
+filter-editor-match-all-name = Alle berichten vergelijken
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopie van { $name }
+filter-editor-invalid-search-title = Zoektermen ongeldig
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Dit filter kan niet worden opgeslagen, omdat de zoekterm ‘{ $attribute } { $operator }’ in de huidige context ongeldig is.
+filter-editor-action-order-explanation = Als een bericht met dit filter overeenkomt, worden de acties in deze volgorde uitgevoerd:
+filter-editor-action-order-title = Werkelijke actievolgorde
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

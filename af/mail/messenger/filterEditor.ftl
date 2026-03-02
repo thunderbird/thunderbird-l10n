@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
@@ -39,3 +42,69 @@ filter-editor-pick-template-reply = Kies 'n sjabloon om mee te antwoord.
 filter-continue-execution = Toepas van filter { $filterName } het misluk. Wil u voortgaan om die filters toe te pas?
 filter-list-backup-message = U filters werk nie omdat die msgFilterRules.dat-lêer wat u filters bevat, nie gelees kon word nie. 'n Nuwe msgFilterRules.dat-lêer sal geskep word en 'n dekkopie van die ou lêer gemaak word genaamd rulesbackup.dat, wat in dieselfde subgids geskep sal word.
 filter-invalid-custom-header = Een van u filters gebruik 'n pasgemaakte kopskrif wat 'n ongeldige karakter bevat, soos ‘:’, 'n niedrukkarakter, 'n nie-ASCII-karakter of 'n 8-bis-ASCII-karakter. Redigeer die msgFilterRules.dat-lêer, wat u filters bevat, om ongeldige karakters uit u pasgemaakte kopskrifte te skrap.
+
+## Filter List Dialog
+
+filter-window-title = Boodskapfilters
+filter-name-column =
+    .label = Filternaam
+filter-active-column =
+    .label = Geaktiveer
+filter-new-button =
+    .label = Nuwe…
+    .accesskey = N
+filter-edit-button =
+    .label = Redigeer…
+    .accesskey = e
+filter-delete-button =
+    .label = Skrap
+    .accesskey = a
+filter-reorder-up-button =
+    .label = Skuif op
+    .accesskey = o
+filter-reorder-down-button =
+    .label = Skuif af
+    .accesskey = a
+filter-header-label =
+    .value = Geaktiveerde filters loop outomaties in die volgorde hieronder.
+filter-filters-for-prefix =
+    .value = Filters vir:
+    .accesskey = F
+filter-view-log-button =
+    .label = Filterstaaflêer
+    .accesskey = s
+filter-run-filters-button =
+    .label = Laat loop nou
+    .accesskey = L
+filter-folder-picker-prefix =
+    .value = Laat gemêrkte filter(s) loop op:
+    .accesskey = k
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Is u seker u wil die gemerkte filter(s) skrap?
+filter-dont-warn-delete-checkbox = Moenie my weer vra nie
+filter-running-title = Huidig lopende filters
+filter-running-message =
+    U is tans besig om boodskappe te filter.
+    Wil u voortgaan om die filters toe te pas?
+filter-stop-button = Stop
+filter-continue-button = Gaan voort
+
+## Filter Editor
+
+filter-editor-window-title = Filterreëls
+filter-editor-name =
+    .value = Filternaam:
+    .accesskey = l
+filter-editor-action-desc =
+    .value = Doen hierdie aksies:
+    .accesskey = D
+filter-editor-duplicate-title = Duplikaatfilternaam
+filter-editor-duplicate-msg = Die filternaam wat u ingetik het, bestaan reeds. Kies asseblief 'n ander filternaam.
+filter-editor-match-all-name = Pas by alle boodskappe
+filter-editor-invalid-search-title = Soekwoorde ongeldig
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

@@ -106,9 +106,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Rnu alugan amaynut
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Kkes alugan-agi
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Kkes alugan-agi
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Rnu tigawt tamaynut
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Kkes tigawt-agi
 
 ## Search Term List
 
@@ -121,3 +133,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Yemeɣra akk iznan
     .accesskey = z
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Awi izen ɣer
+rule-action-copy =
+    .label = Nɣel izen ɣer
+rule-action-forward =
+    .label = Welleh izen i
+rule-action-reply =
+    .label = Err s tneɣruft
+rule-action-read =
+    .label = Creḍ amzun yettwaɣṛa
+rule-action-unread =
+    .label = Creḍ-it amzun ur yettwaɣri ara
+rule-action-star =
+    .label = Rnu itri
+rule-action-priority =
+    .label = Sbadu tazwart i
+rule-action-tag =
+    .label = Rnu tabzimt i yizen
+rule-action-delete =
+    .label = Kkes izen
+rule-action-delete-pop =
+    .label = Kkes seg uqeddac POP
+rule-action-fetch-pop =
+    .label = Awi-d seg  uqeddac POP
+rule-action-ignore-thread =
+    .label = Ttu akala afessas
+rule-action-ignore-subthread =
+    .label = Eǧǧ akin ikalan ifessasen
+rule-action-watch-thread =
+    .label = Ɛas ikalan ifessasen
+rule-action-stop =
+    .label = Seḥbes aselkem n imzizdeg
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Ameqqran
+rule-priority-high =
+    .label = Awriran
+rule-priority-normal =
+    .label = Amagnu
+rule-priority-low =
+    .label = Meẓẓi
+rule-priority-lowest =
+    .label = Ameẓyan

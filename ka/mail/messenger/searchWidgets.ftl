@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = ახალი წესის დამატება
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = წესის გაუქმება
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = წესის გაუქმება
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = ახალი მოქმედების დამატება
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = ამ მოქმედების მოცილება
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = ემთხვევა ყველა წერილში
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = წერილის გადატანა -
+rule-action-copy =
+    .label = წერილის ასლი –
+rule-action-forward =
+    .label = წერილის გადაგზავნა -
+rule-action-reply =
+    .label = პასუხი თარგით
+rule-action-read =
+    .label = მონიშვნა წაკითხულად
+rule-action-unread =
+    .label = მონიშვნა წასაკითხად
+rule-action-star =
+    .label = მონიშვნა ალმით
+rule-action-priority =
+    .label = უპირატესობის მინიჭება –
+rule-action-tag =
+    .label = წერილის დაჭდევება
+rule-action-set-spam-status =
+    .label = ჯართის აღნიშვნის მითითება
+rule-action-delete =
+    .label = წერილის წაშლა
+rule-action-delete-pop =
+    .label = წაშლა POP სერვერიდან
+rule-action-fetch-pop =
+    .label = მიღება POP სერვერიდან
+rule-action-ignore-thread =
+    .label = მიმოწერის უგულებელყოფა
+rule-action-ignore-subthread =
+    .label = მიმოწერის განშტოების უგულებელყოფა
+rule-action-watch-thread =
+    .label = მიმოწერისთვის თვალის მიდევნება
+rule-action-stop =
+    .label = ფილტრის გამოყენების შეწყვეტა
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = ჯართი
+rule-menuitem-not-spam =
+    .label = არაა ჯართი
+rule-priority-highest =
+    .label = უმაღლესი
+rule-priority-high =
+    .label = მაღალი
+rule-priority-normal =
+    .label = ჩვეულებრივი
+rule-priority-low =
+    .label = დაბალი
+rule-priority-lowest =
+    .label = უდაბლესი

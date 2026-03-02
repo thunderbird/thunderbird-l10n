@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = สแปม
 rule-menuitem-not-spam =
@@ -85,3 +88,116 @@ filter-count-items = { $count } รายการ
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } จาก { $total }
+
+## Filter List Dialog
+
+filter-window-title = ตัวกรองข้อความ
+filter-name-column =
+    .label = ชื่อตัวกรอง
+filter-active-column =
+    .label = เปิดใช้งานอยู่
+filter-new-button =
+    .label = ใหม่…
+    .accesskey = ห
+filter-new-copy-button =
+    .label = คัดลอก…
+    .accesskey = ค
+filter-edit-button =
+    .label = แก้ไข…
+    .accesskey = ก
+filter-delete-button =
+    .label = ลบ
+    .accesskey = บ
+filter-reorder-top-button =
+    .label = ย้ายไปด้านบนสุด
+    .accesskey = น
+    .tooltiptext = จัดเรียงตัวกรองใหม่เพื่อให้ตัวกรองนี้ทำงานก่อนตัวกรองอื่น
+filter-reorder-up-button =
+    .label = ย้ายขึ้น
+    .accesskey = ข
+filter-reorder-down-button =
+    .label = ย้ายลง
+    .accesskey = ล
+filter-reorder-bottom-button =
+    .label = ย้ายไปด้านล่างสุด
+    .accesskey = ง
+    .tooltiptext = จัดเรียงตัวกรองใหม่เพื่อให้ตัวกรองนี้ทำงานหลังจากตัวกรองอื่นทั้งหมด
+filter-header-label =
+    .value = ตัวกรองที่เปิดใช้งานจะทำงานโดยอัตโนมัติตามลำดับที่แสดงด้านล่าง
+filter-filters-for-prefix =
+    .value = ตัวกรองสำหรับ:
+    .accesskey = ต
+filter-view-log-button =
+    .label = รายการบันทึกตัวกรอง
+    .accesskey = ร
+filter-run-filters-button =
+    .label = เรียกใช้เดี๋ยวนี้
+    .accesskey = เ
+filter-folder-picker-prefix =
+    .value = เรียกใช้ตัวกรองที่เลือกบน:
+    .accesskey = ใ
+filter-search-box =
+    .placeholder = ค้นหาตัวกรองตามชื่อ…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = คุณแน่ใจหรือไม่ว่าต้องการลบตัวกรองที่เลือก?
+filter-dont-warn-delete-checkbox = ไม่ต้องถามฉันอีก
+filter-cannot-enable-incompatible = ตัวกรองนี้เป็นไปได้ว่าได้รับการสร้างโดยรุ่นที่ใหม่กว่าหรือรุ่นที่ไม่รองรับของ { -brand-product-name } คุณไม่สามารถเปิดใช้งานตัวกรองนี้ได้ เพราะเราไม่รู้วิธีการใช้งานของมัน
+filter-running-title = ตัวกรองที่กำลังทำงาน
+filter-running-message =
+    ขณะนี้คุณกำลังทำการกรองข้อความ
+    คุณต้องการใช้ตัวกรองต่อไปหรือไม่?
+filter-stop-button = หยุด
+filter-continue-button = ดำเนินการต่อ
+
+## Filter Editor
+
+filter-editor-window-title = กฎตัวกรอง
+filter-editor-name =
+    .value = ชื่อตัวกรอง:
+    .accesskey = ช
+filter-editor-context-desc = ใช้ตัวกรองเมื่อ:
+filter-editor-context-incoming =
+    .label = เมื่อรับจดหมายใหม่:
+    .accesskey = ร
+filter-editor-context-manual =
+    .label = เรียกใช้ด้วยตนเอง
+    .accesskey = เ
+filter-editor-context-outgoing =
+    .label = หลังจากที่ส่งแล้ว
+    .accesskey = ห
+filter-editor-context-archive =
+    .label = เก็บถาวร
+    .accesskey = ก
+filter-editor-action-desc =
+    .value = ดำเนินการการกระทำเหล่านี้:
+    .accesskey = ด
+filter-editor-action-order-warning =
+    .value = หมายเหตุ: การกระทำตัวกรองจะทำงานในลำดับที่แตกต่างกัน
+filter-editor-action-order-link =
+    .value = ดูลำดับการทำงาน
+filter-editor-duplicate-title = ชื่อตัวกรองซ้ำกัน
+filter-editor-duplicate-msg = ชื่อตัวกรองที่คุณป้อนมีอยู่แล้ว โปรดป้อนชื่อตัวกรองอื่น
+filter-editor-no-event-title = ไม่ได้เลือกเหตุการณ์ตัวกรอง
+filter-editor-no-event-msg = คุณต้องเลือกอย่างน้อยหนึ่งเหตุการณ์เมื่อใช้ตัวกรองนี้ หากคุณไม่ต้องการให้ตัวกรองทำงานในเหตุการณ์ใด ๆ ชั่วคราว ให้ยกเลิกการกาเครื่องหมายสถานะที่เปิดใช้งานจากกล่องโต้ตอบตัวกรองข้อความ
+filter-editor-match-all-name = ตรงกับข้อความทั้งหมด
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = สำเนาของ { $name }
+filter-editor-invalid-search-title = คำค้นหาไม่ถูกต้อง
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = ไม่สามารถบันทึกตัวกรองนี้ได้เนื่องจากคำค้นหา "{ $attribute } { $operator }" ไม่ถูกต้องในบริบทปัจจุบัน
+filter-editor-action-order-explanation = เมื่อมีข้อความที่ตรงกับตัวกรองนี้ จะเรียกใช้การกระทำตามลำดับนี้:
+filter-editor-action-order-title = ลำดับการกระทำจริง
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

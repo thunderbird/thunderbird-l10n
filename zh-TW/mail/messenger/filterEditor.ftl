@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = 是垃圾信
 rule-menuitem-not-spam =
@@ -85,3 +88,116 @@ filter-count-items = { $count } 個項目
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = 在 { $total } 筆當中找到 { $visible } 筆
+
+## Filter List Dialog
+
+filter-window-title = 郵件篩選器
+filter-name-column =
+    .label = 篩選條件名稱
+filter-active-column =
+    .label = 啟用
+filter-new-button =
+    .label = 新增…
+    .accesskey = N
+filter-new-copy-button =
+    .label = 複製…
+    .accesskey = C
+filter-edit-button =
+    .label = 編輯…
+    .accesskey = E
+filter-delete-button =
+    .label = 刪除
+    .accesskey = t
+filter-reorder-top-button =
+    .label = 移到頂端
+    .accesskey = o
+    .tooltiptext = 重新整理篩選條件，讓它最早執行
+filter-reorder-up-button =
+    .label = 上移
+    .accesskey = U
+filter-reorder-down-button =
+    .label = 下移
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = 移到底端
+    .accesskey = B
+    .tooltiptext = 重新整理篩選條件，讓它最晚執行
+filter-header-label =
+    .value = 勾選的篩選條件將自動依照下列順序進行篩選。
+filter-filters-for-prefix =
+    .value = 篩選:
+    .accesskey = F
+filter-view-log-button =
+    .label = 篩選記錄
+    .accesskey = l
+filter-run-filters-button =
+    .label = 立刻執行
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = 執行篩選條件於:
+    .accesskey = c
+filter-search-box =
+    .placeholder = 用名稱搜尋篩選條件…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = 您確定要刪除此篩選條件？
+filter-dont-warn-delete-checkbox = 不要再問我
+filter-cannot-enable-incompatible = 此篩選器似乎是由新版或不相容版本的 { -brand-product-name } 建立的。我們無法了解如何套用規則，故無法啟用此篩選器。
+filter-running-title = 正在篩選
+filter-running-message =
+    您正使用篩選條件過濾郵件。
+    您要繼續篩選其他郵件嗎？
+filter-stop-button = 停止
+filter-continue-button = 繼續
+
+## Filter Editor
+
+filter-editor-window-title = 篩選條件規則
+filter-editor-name =
+    .value = 篩選條件名稱：
+    .accesskey = i
+filter-editor-context-desc = 做下列動作時進行篩選:
+filter-editor-context-incoming =
+    .label = 取回新郵件時：
+    .accesskey = G
+filter-editor-context-manual =
+    .label = 手動執行時
+    .accesskey = R
+filter-editor-context-outgoing =
+    .label = 傳送後
+    .accesskey = S
+filter-editor-context-archive =
+    .label = 備存中
+    .accesskey = A
+filter-editor-action-desc =
+    .value = 執行下列動作:
+    .accesskey = P
+filter-editor-action-order-warning =
+    .value = 註：篩選條件將以不同的順序執行。
+filter-editor-action-order-link =
+    .value = 檢視執行順序
+filter-editor-duplicate-title = 複製篩選條件名稱
+filter-editor-duplicate-msg = 您輸入的篩選條件名稱已存在，請使用別的名稱。
+filter-editor-no-event-title = 未選擇篩選事件
+filter-editor-no-event-msg = 您必須至少選擇一項此篩選條件要在什麼情況下套用的事件。若您暫時不想讓條件在任何情況下執行，請直接在訊息篩選條件對話視窗中取消勾選啟用的狀態。
+filter-editor-match-all-name = 符合所有郵件
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } 的副本
+filter-editor-invalid-search-title = 無效搜尋條件
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = 因為所搜尋的詞彙「{ $attribute } { $operator }」在此環境中無效，無法儲存此篩選條件。
+filter-editor-action-order-explanation = 當有訊息符合此篩選條件時，將依照此順序進行篩選:
+filter-editor-action-order-title = 實際執行順序
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }：{ $value }

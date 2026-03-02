@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Spam
 rule-menuitem-not-spam =
@@ -97,3 +100,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } z { $total }
+
+## Filter List Dialog
+
+filter-window-title = Powěsćowe filtry
+filter-name-column =
+    .label = Filtrowe mě
+filter-active-column =
+    .label = Zmóžnjony
+filter-new-button =
+    .label = Nowy…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Kopěrowaś…
+    .accesskey = K
+filter-edit-button =
+    .label = Wobźěłaś…
+    .accesskey = b
+filter-delete-button =
+    .label = Wulašowaś
+    .accesskey = l
+filter-reorder-top-button =
+    .label = Do zachopjeńka pśesunuś
+    .accesskey = s
+    .tooltiptext = Filter tak pśerědowaś, aby se pśed wšymi drugimi wuwjadł
+filter-reorder-up-button =
+    .label = Górjej
+    .accesskey = G
+filter-reorder-down-button =
+    .label = Dołoj
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = Do kóńca pśesunuś
+    .accesskey = k
+    .tooltiptext = Filter tak pśerědowaś, aby se pó wšych drugich wuwjadł
+filter-header-label =
+    .value = Zmóznjone filtry funkcioněruju awtomatiski w tom pórěźe, kótaryž se dołojce pokazujo.
+filter-filters-for-prefix =
+    .value = Filtry za:
+    .accesskey = F
+filter-view-log-button =
+    .label = Filtrowy protokol
+    .accesskey = k
+filter-run-filters-button =
+    .label = Něnto nałožyś
+    .accesskey = N
+filter-folder-picker-prefix =
+    .value = Wubrane filtry nałožyś na:
+    .accesskey = u
+filter-search-box =
+    .placeholder = Filtry pó mjenju pśepytaś…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Cośo napšawdu wubrane filtry lašowaś?
+filter-dont-warn-delete-checkbox = Wěcej se njepšašaś
+filter-cannot-enable-incompatible = Toś ten filter jo se nejskerjej pśez nowšu abo inkompatibelnu wersiju { -brand-product-name } napórał. Njamóžośo toś ten filter zmóžniś, dokulaž njewěmy, kak dej se jen nałožowaś.
+filter-running-title = Běžne filtry
+filter-running-message =
+    Filtrujośo tuchylu powěsći.
+    Cośo dalej filtry nałožowaś?
+filter-stop-button = Stoj
+filter-continue-button = Pókšacowaś
+
+## Filter Editor
+
+filter-editor-window-title = Filtrowe pšawidła
+filter-editor-name =
+    .value = Filtrowe mě:
+    .accesskey = i
+filter-editor-context-desc = Filter nałožyś, gaž:
+filter-editor-context-incoming =
+    .label = Nowy post se wobstarujo:
+    .accesskey = N
+filter-editor-context-manual =
+    .label = Gaž se manuelnje nałožujo
+    .accesskey = G
+filter-editor-context-outgoing =
+    .label = Pó słanju
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Archiwěrowanje
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Toś te akcije wuwjasć:
+    .accesskey = T
+filter-editor-action-order-warning =
+    .value = Glědajśo: Filtrowe akcije wuwjeduju se w rozdźělnem pórěźe.
+filter-editor-action-order-link =
+    .value = Glejśo wuwjeźeński pórěd
+filter-editor-duplicate-title = Dwójne filtrowe mě
+filter-editor-duplicate-msg = Filtrowe mě, kótarež sćo zapódał, južo eksistěrujo. Pšosym zapódajśo druge filtowe mě.
+filter-editor-no-event-title = Žedno filtrowe tšojenje wubrane
+filter-editor-no-event-msg = Musyśo nanejmjenjej jedno tšojenje wubraś, gaž toś ten filter se nałožujo. Jolic nachylu njocośo filter ze žednym elementom wuwjasć daś, znjemóžniśo jen w dialogu powěsćowych filtrow.
+filter-editor-match-all-name = Wšyknym powěsćam wótpowědowaś
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } kopěrowaś
+filter-editor-invalid-search-title = Pytańske zapśimjeśa su njepłaśiwe
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Toś ten filter njedajo se składowaś, dokulaž pytański wuraz "{ $attribute } { $operator }" jo njepłaśiwy w aktualnem konteksće.
+filter-editor-action-order-explanation = Gaž powěsć wótpowědujo toś tomu filtroju, akcije pśewjadu se pó toś tom pórěźe:
+filter-editor-action-order-title = Napšawdny pórěd akcijow
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

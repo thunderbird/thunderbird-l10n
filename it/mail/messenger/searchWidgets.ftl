@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Aggiungi regola
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Elimina questa regola
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Elimina questa regola
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Aggiungere una nuova azione
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Elimina questa azione
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Tutte incondizionatamente
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Sposta il messaggio in
+rule-action-copy =
+    .label = Copia il messaggio in
+rule-action-forward =
+    .label = Inoltra il messaggio a
+rule-action-reply =
+    .label = Rispondi con un modello
+rule-action-read =
+    .label = Segna come già letto
+rule-action-unread =
+    .label = Segna come non letto
+rule-action-star =
+    .label = Aggiungi a Speciali
+rule-action-priority =
+    .label = Imposta priorità a
+rule-action-tag =
+    .label = Etichetta il messaggio
+rule-action-set-spam-status =
+    .label = Imposta stato spam a
+rule-action-delete =
+    .label = Elimina messaggio
+rule-action-delete-pop =
+    .label = Elimina dal server POP
+rule-action-fetch-pop =
+    .label = Scarica dal server POP
+rule-action-ignore-thread =
+    .label = Ignora la discussione
+rule-action-ignore-subthread =
+    .label = Ignora sottodiscussione
+rule-action-watch-thread =
+    .label = Tieni d’occhio la discussione
+rule-action-stop =
+    .label = Interrompi l’esecuzione dei filtri
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = Non spam
+rule-priority-highest =
+    .label = Massima
+rule-priority-high =
+    .label = Alta
+rule-priority-normal =
+    .label = Normale
+rule-priority-low =
+    .label = Bassa
+rule-priority-lowest =
+    .label = Minima

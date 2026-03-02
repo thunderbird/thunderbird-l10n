@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Жаңа ережені қосу
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Бұл ережені өшіру
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Бұл ережені өшіру
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Жаңа әрекетті қосу
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Бұл әрекетті өшіру
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Барлық хабарламаларды сәйкестеу
     .accesskey = м
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Хабарламаны қайда жылжыту
+rule-action-copy =
+    .label = Хабарлама көшірмесін қайда жасау
+rule-action-forward =
+    .label = Хабарламаны қайда әрі қарай жіберу
+rule-action-reply =
+    .label = Үлгімен жауап беру
+rule-action-read =
+    .label = Оқылған ретінде белгілеу
+rule-action-unread =
+    .label = Оқылмаған ретінде белгілеу
+rule-action-star =
+    .label = Жұлдызшаны қосу
+rule-action-priority =
+    .label = Приоритетті келесідей орнату
+rule-action-tag =
+    .label = Хабарламаға тег қою
+rule-action-set-spam-status =
+    .label = Спам күйін келесіге орнату
+rule-action-delete =
+    .label = Хабарламаны өшіру
+rule-action-delete-pop =
+    .label = POP серверінен өшіру
+rule-action-fetch-pop =
+    .label = POP серверінен алу
+rule-action-ignore-thread =
+    .label = Ағындарды елемеу
+rule-action-ignore-subthread =
+    .label = Ағындарды елемеу
+rule-action-watch-thread =
+    .label = Ағынды бақылау
+rule-action-stop =
+    .label = Сүзгі орындалуын тоқтату
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Спам
+rule-menuitem-not-spam =
+    .label = Спам емес
+rule-priority-highest =
+    .label = Ең жоғары
+rule-priority-high =
+    .label = Жоғары
+rule-priority-normal =
+    .label = Қалыпты
+rule-priority-low =
+    .label = Төмен
+rule-priority-lowest =
+    .label = Ең төмен

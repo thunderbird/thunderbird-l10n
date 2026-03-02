@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Προσθήκη νέου κανόνα
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Αφαίρεση κανόνα
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Αφαίρεση κανόνα
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Προσθήκη νέας ενέργειας
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Αφαίρεση ενέργειας
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Αντιστοίχιση όλων των μηνυμάτων
     .accesskey = μ
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Μετακίνηση μηνύματος σε
+rule-action-copy =
+    .label = Αντιγραφή μηνύματος σε
+rule-action-forward =
+    .label = Προώθηση μηνύματος σε
+rule-action-reply =
+    .label = Απάντηση με πρότυπο
+rule-action-read =
+    .label = Επισήμανση ως αναγνωσμένο
+rule-action-unread =
+    .label = Επισήμανση ως μη αναγνωσμένο
+rule-action-star =
+    .label = Προσθήκη αστεριού
+rule-action-priority =
+    .label = Ορισμός προτεραιότητας σε
+rule-action-tag =
+    .label = Προσθήκη ετικέτας στο μήνυμα
+rule-action-set-spam-status =
+    .label = Ορισμός κατάστασης ανεπιθύμητου σε
+rule-action-delete =
+    .label = Διαγραφή μηνύματος
+rule-action-delete-pop =
+    .label = Διαγραφή από διακομιστή POP
+rule-action-fetch-pop =
+    .label = Λήψη από διακομιστή POP
+rule-action-ignore-thread =
+    .label = Παράβλεψη νήματος
+rule-action-ignore-subthread =
+    .label = Παράβλεψη υπονήματος
+rule-action-watch-thread =
+    .label = Παρακολούθηση νήματος
+rule-action-stop =
+    .label = Διακοπή εκτέλεσης φίλτρου
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Ανεπιθύμητα
+rule-menuitem-not-spam =
+    .label = Επιθυμητό
+rule-priority-highest =
+    .label = Ύψιστη
+rule-priority-high =
+    .label = Υψηλή
+rule-priority-normal =
+    .label = Κανονική
+rule-priority-low =
+    .label = Χαμηλή
+rule-priority-lowest =
+    .label = Κατώτατη

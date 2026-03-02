@@ -104,9 +104,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Afegeix una regla nova
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Suprimeix aquesta regla
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Suprimeix aquesta regla
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Afegeix una acció nova
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Suprimeix aquesta acció
 
 ## Search Term List
 
@@ -119,3 +131,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Tots els missatges
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Mou el missatge a
+rule-action-copy =
+    .label = Copia el missatge a
+rule-action-forward =
+    .label = Reenvia el missatge a
+rule-action-reply =
+    .label = Respon amb plantilla
+rule-action-read =
+    .label = Marca'l com a llegit
+rule-action-unread =
+    .label = Marca'l com a no llegit
+rule-action-star =
+    .label = Destaca'l
+rule-action-priority =
+    .label = Defineix la prioritat a
+rule-action-tag =
+    .label = Etiqueta el missatge
+rule-action-delete =
+    .label = Suprimeix el missatge
+rule-action-delete-pop =
+    .label = Suprimeix-lo del servidor POP
+rule-action-fetch-pop =
+    .label = Baixa'l del servidor POP
+rule-action-ignore-thread =
+    .label = Ignora la conversa
+rule-action-ignore-subthread =
+    .label = Ignora la subconversa
+rule-action-watch-thread =
+    .label = Vigila la conversa
+rule-action-stop =
+    .label = Atura l'execució del filtre
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Màxima
+rule-priority-high =
+    .label = Alta
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Baixa
+rule-priority-lowest =
+    .label = Mínima

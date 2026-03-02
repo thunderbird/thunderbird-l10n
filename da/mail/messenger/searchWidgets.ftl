@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Tilføj ny regel
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Fjern denne regel
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Fjern denne regel
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Tilføj en ny handling
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Fjern denne handling
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Match alle meddelelser
     .accesskey = M
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Flyt meddelelse til
+rule-action-copy =
+    .label = Kopier meddelelse til
+rule-action-forward =
+    .label = Videresend meddelelse til
+rule-action-reply =
+    .label = Besvar med skabelon
+rule-action-read =
+    .label = Marker som læst
+rule-action-unread =
+    .label = Marker som ulæst
+rule-action-star =
+    .label = Tilføj stjerne
+rule-action-priority =
+    .label = Sæt prioritet til
+rule-action-tag =
+    .label = Marker meddelelse
+rule-action-set-spam-status =
+    .label = Sæt spam-status til
+rule-action-delete =
+    .label = Slet meddelelse
+rule-action-delete-pop =
+    .label = Slet fra POP-server
+rule-action-fetch-pop =
+    .label = Hent fra POP-server
+rule-action-ignore-thread =
+    .label = Ignorer tråd
+rule-action-ignore-subthread =
+    .label = Ignorer undertråd
+rule-action-watch-thread =
+    .label = Overvåg tråden
+rule-action-stop =
+    .label = Stop filter
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = Ikke spam
+rule-priority-highest =
+    .label = Højeste
+rule-priority-high =
+    .label = Høj
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Lav
+rule-priority-lowest =
+    .label = Laveste

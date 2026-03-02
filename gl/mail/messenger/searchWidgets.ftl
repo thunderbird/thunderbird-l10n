@@ -106,9 +106,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Engadir unha nova regra
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Eliminar esta regra
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Eliminar esta regra
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Engadir unha nova acción
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Retirar esta acción
 
 ## Search Term List
 
@@ -121,3 +133,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Coincidir con todas as mensaxes
     .accesskey = t
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Mover mensaxe a
+rule-action-copy =
+    .label = Copiar mensaxe en
+rule-action-forward =
+    .label = Reenviar mensaxe a
+rule-action-reply =
+    .label = Responder co modelo
+rule-action-read =
+    .label = Marcar como lido
+rule-action-unread =
+    .label = Marcar como non lido
+rule-action-star =
+    .label = Engadir estrela
+rule-action-priority =
+    .label = Definir prioridade en
+rule-action-tag =
+    .label = Etiquetar mensaxe
+rule-action-delete =
+    .label = Eliminar mensaxe
+rule-action-delete-pop =
+    .label = Eliminar do servidor POP
+rule-action-fetch-pop =
+    .label = Descargar do servidor POP
+rule-action-ignore-thread =
+    .label = Ignorar fío
+rule-action-ignore-subthread =
+    .label = Ignorar fío secundario
+rule-action-watch-thread =
+    .label = Amosar fío
+rule-action-stop =
+    .label = Deter a execución do filtro
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = A máis alta
+rule-priority-high =
+    .label = Alta
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Baixa
+rule-priority-lowest =
+    .label = A máis baixa

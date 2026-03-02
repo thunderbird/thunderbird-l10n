@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Nije rigel tafoegje
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Dizze rigel fuortsmite
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Dizze rigel fuortsmite
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Nije aksje tafoegje
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Dizze aksje fuortsmite
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Foldogge oan alle berjochten
     .accesskey = b
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Berjocht ferpleatse nei
+rule-action-copy =
+    .label = Berjocht kopiearje nei
+rule-action-forward =
+    .label = Berjocht trochstjoere nei
+rule-action-reply =
+    .label = Mei sjabloan antwurdzje
+rule-action-read =
+    .label = Berjocht as lêzen markearje
+rule-action-unread =
+    .label = Berjocht as net lêzen markearje
+rule-action-star =
+    .label = Stjer tafoegje
+rule-action-priority =
+    .label = Prioriteit wizigje nei
+rule-action-tag =
+    .label = Berjocht labelje
+rule-action-set-spam-status =
+    .label = Net-winske-steat ynstelle op
+rule-action-delete =
+    .label = Berjocht fuortsmite
+rule-action-delete-pop =
+    .label = Fan POP-server smite
+rule-action-fetch-pop =
+    .label = Fan POP-server ophelje
+rule-action-ignore-thread =
+    .label = Petear negearje
+rule-action-ignore-subthread =
+    .label = Subpetear negearje
+rule-action-watch-thread =
+    .label = Petear folgje
+rule-action-stop =
+    .label = Ophâlde mei útfieren fan filter
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Net winske
+rule-menuitem-not-spam =
+    .label = Gjin net-winske e-mail
+rule-priority-highest =
+    .label = Heechst
+rule-priority-high =
+    .label = Heech
+rule-priority-normal =
+    .label = Normaal
+rule-priority-low =
+    .label = Leech
+rule-priority-lowest =
+    .label = Leechst

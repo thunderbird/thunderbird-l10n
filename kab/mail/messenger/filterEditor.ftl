@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -77,3 +80,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } si { $total }
+
+## Filter List Dialog
+
+filter-window-title = Imzizdigen n yizen
+filter-name-column =
+    .label = Isem n imzizdig
+filter-active-column =
+    .label = Irmed
+filter-new-button =
+    .label = Amaynut…
+    .accesskey = m
+filter-new-copy-button =
+    .label = Nɣel…
+    .accesskey = N
+filter-edit-button =
+    .label = Ẓreg…
+    .accesskey = g
+filter-delete-button =
+    .label = Kkes
+    .accesskey = k
+filter-reorder-top-button =
+    .label = Senkez s afella
+    .accesskey = o
+    .tooltiptext = Seggem imzizdigen akken ad ttwaselkmen wa deffir wa
+filter-reorder-up-button =
+    .label = Ali
+    .accesskey = A
+filter-reorder-down-button =
+    .label = Ader
+    .accesskey = d
+filter-reorder-bottom-button =
+    .label = Senkez s adda
+    .accesskey = B
+    .tooltiptext = Seggem imzizdigen akken ad ttwaselkmen wa deffir wa
+filter-header-label =
+    .value = Imzizdigen yettwaremden ttwaselkamen s wudem awurman deg umizzwer d-yettwaseknen daw-a.
+filter-filters-for-prefix =
+    .value = Imzizdigen i:
+    .accesskey = I
+filter-view-log-button =
+    .label = Zizdeg aɣmis
+    .accesskey = m
+filter-run-filters-button =
+    .label = Selkem tura
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = Selkem imzizdeg (i-en) yettwafernen di:
+    .accesskey = w
+filter-search-box =
+    .placeholder = Nadi imzizdigen s yisem...
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Tebɣid ad tekkseḍ imzizdig (i-en) yettwafernen?
+filter-dont-warn-delete-checkbox = Ur y-id-sutur ara tikelt nniḍen
+filter-cannot-enable-incompatible = Imsizdig yettwarna ahat sɣur lqem n { -brand-product-name } amaynut neɣ win ur yemṣadan ara. Ur tezmireḍ ara ad tremdeḍ imsizdig-a acku ur neẓri ara amek ara t-nseqdec.
+filter-running-title = Aselkmen n imzizdigen
+filter-running-message =
+    Aqlak tura deg ukala n uzizdeg n yeznan.
+    Tebɣiḍ ad tkemleḍ asnas n imzizdigen?
+filter-stop-button = Seḥbes
+filter-continue-button = Kemmel
+
+## Filter Editor
+
+filter-editor-window-title = Ilugan n imzizdeg
+filter-editor-name =
+    .value = Isem n imzizdeg:
+    .accesskey = i
+filter-editor-context-desc = Snes imzideg ticki:
+filter-editor-context-incoming =
+    .label = Aggay n yimaylen imaynuten.
+    .accesskey = g
+filter-editor-context-manual =
+    .label = Selkem s ufus
+    .accesskey = e
+filter-editor-context-outgoing =
+    .label = Seld tuzzna
+    .accesskey = z
+filter-editor-context-archive =
+    .label = Aḥraz
+    .accesskey = ḥ
+filter-editor-action-desc =
+    .value = Selkem tigawin-agi:
+    .accesskey = l
+filter-editor-action-order-warning =
+    .value = Tamawt: Tigawin n uzizdeg ad ttwaselkment s umizzwer nniḍen.
+filter-editor-action-order-link =
+    .value = Wali amizzwer n uselkem
+filter-editor-duplicate-title = Sleg isem n imzizdeg
+filter-editor-duplicate-msg = Isem n imzizdeg i tessekcmeḍ yella yakan. Ma ulac aɣilif sekcem isem n umzidig nniḍen.
+filter-editor-no-event-title = Ula d yiwet n tedyant n imzizdig ur tettwafren
+filter-editor-no-event-msg = Yessefk xaṛsum ad tefferneḍ yiwet n tedyant ticki imzizdig yettwasnes. Ma yella ur tebɣiḍ ara tura ad tesselkmeḍ tadyant, kkes acraḍ n waddad ines n urmad si tnaka n udiwenni n imzizdigen n yeznan.
+filter-editor-match-all-name = Meɣru akk iznan
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Anɣel n { $name }
+filter-editor-invalid-search-title = Awalen n unadi mačči d imeɣta
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Imzizdig ur yezmir ara ad yettwakles acku awal n unadi "{ $attribute } { $operator }" mačči d ameɣtu deg umnaḍ amiran.
+filter-editor-action-order-explanation = Ticki izen yemmeɣra imzizdig tigawin ad ttwaselkment s umizzwer:
+filter-editor-action-order-title = Amizzwer n tigawt tilawt
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

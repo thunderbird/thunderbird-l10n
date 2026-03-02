@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -77,3 +80,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } richin { $total }
+
+## Filter List Dialog
+
+filter-window-title = Taq Ruchayub'al Tzijol
+filter-name-column =
+    .label = Chayub'äl B'i'aj
+filter-active-column =
+    .label = Tzijon
+filter-new-button =
+    .label = K'ak'a'…
+    .accesskey = K
+filter-new-copy-button =
+    .label = Tiwachib'ëx…
+    .accesskey = w
+filter-edit-button =
+    .label = Tinuk'…
+    .accesskey = n
+filter-delete-button =
+    .label = Tiyuj
+    .accesskey = y
+filter-reorder-top-button =
+    .label = Tisilöx pa Rutikirib'al
+    .accesskey = s
+    .tooltiptext = Ticholajïx chik ri chayub'äl richin tunab'eyij rusamajib'exik chi kiwäch ri ch'aqa' chik
+filter-reorder-up-button =
+    .label = Tijotob'äx
+    .accesskey = j
+filter-reorder-down-button =
+    .label = Tiqasäx Qa
+    .accesskey = Q
+filter-reorder-bottom-button =
+    .label = Tisilöx pa Ruk'isib'al
+    .accesskey = R
+    .tooltiptext = Ticholajïx chik ri chayub'äl richin tunab'eyij rusamajib'exik chi kij ri ch'aqa' chik
+filter-header-label =
+    .value = Ri etzijon taq chayub'äl ruyonil xkesamajib'ëx rik'in ri rucholajen nik'ut ikim.
+filter-filters-for-prefix =
+    .value = Taq ruchayub'al:
+    .accesskey = T
+filter-view-log-button =
+    .label = Tichayüx Tz'ib'anïk
+    .accesskey = T
+filter-run-filters-button =
+    .label = Tib'an Wakami
+    .accesskey = T
+filter-folder-picker-prefix =
+    .value = Tisamajib'ëx chayub'äl (e)cha'on pa:
+    .accesskey = c
+filter-search-box =
+    .placeholder = Taq chayub'äl richin nikanöx chi b'i'aj…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = ¿La kan nawajo' ye'ayüj el re taq chayub'äl echa'on?
+filter-dont-warn-delete-checkbox = Mani nik'utüx chik pe chwe
+filter-cannot-enable-incompatible = Ri chayub'äl re' rik'in jub'a' xtz'uk rik'in jun k'ak'a' o man k'amonel ta ruwäch { -brand-product-name }. Man yojtikïr ta niqatzïj re chayub'äl ruma man qetaman ta rub'eyal niqasamajij.
+filter-running-title = Yesamajïx taq Chayub'äl
+filter-running-message =
+    Wakami nib'anatäj kichayuxik taq rutzijol.
+    ¿La k'a nawajo' ye'awokisaj taq chayub'äl?
+filter-stop-button = Tiq'at
+filter-continue-button = Titikïr chik el
+
+## Filter Editor
+
+filter-editor-window-title = Ketab'al Chayub'äl
+filter-editor-name =
+    .value = Chayub'äl b'i'aj:
+    .accesskey = a
+filter-editor-context-desc = Tokisäx chayub'äl toq:
+filter-editor-context-incoming =
+    .label = Nik'ul K'ak'a' Taqoya'l:
+    .accesskey = N
+filter-editor-context-manual =
+    .label = Tisamajin chi Q'ab'aj
+    .accesskey = T
+filter-editor-context-outgoing =
+    .label = Chi rij toq Nitaq
+    .accesskey = N
+filter-editor-context-archive =
+    .label = Niyak
+    .accesskey = N
+filter-editor-action-desc =
+    .value = Kesamajib'ëx re taq b'anoj re':
+    .accesskey = K
+filter-editor-action-order-warning =
+    .value = Ch'utitzijol: Ri taq rub'anoj chayuj xkisamajib'ëx rik'in jalajöj rucholajem.
+filter-editor-action-order-link =
+    .value = Titz'et rucholajem taqoj
+filter-editor-duplicate-title = Rub'i' Chayub'äl Kamulun
+filter-editor-duplicate-msg = Ri rub'i' chayub'äl xatz'ib'aj k'o chik. Tatz'ib'aj jun chik wi rub'i' chayub'äl.
+filter-editor-no-event-title = Majun rumolojri'ïl chayub'äl cha'on
+filter-editor-no-event-msg = K'o chi nacha' jun molojri'ïl toq nawokisaj re chayub'äl re'. We wakami man nawajo' ta chi ri chayub'äl nisamäj chuwäch xab'achike molojri'ïl, tawelesaj el ri retal ri tzijïl rub'anikil pa ri kitzijonem kitzijol chayub'äl.
+filter-editor-match-all-name = Tikik'ama' ki' Konojel ri taq Rutzijol
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Ruwachib'al ri { $name }
+filter-editor-invalid-search-title = Kekanöx ri Me'okel taq Ojqanem
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Man tikirel ta niyak re chayub'äl re' ruma chi ri tzij richin nikanöx "{ $attribute } { $operator }" man okel ta pa ri ruk'ojlemal wakami.
+filter-editor-action-order-explanation = Toq jun rutzijol nuk'äm ri' rik'in re chayub'äl re', xkesamajïx ri taq b'anoj pa re rucholajem re':
+filter-editor-action-order-title = Qitzij rucholajem taqoj
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Nevyžádaná
 rule-menuitem-not-spam =
@@ -95,3 +98,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } z { $total }
+
+## Filter List Dialog
+
+filter-window-title = Filtry zpráv
+filter-name-column =
+    .label = Název filtru
+filter-active-column =
+    .label = Povoleno
+filter-new-button =
+    .label = Nový…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Kopírovat…
+    .accesskey = K
+filter-edit-button =
+    .label = Upravit…
+    .accesskey = p
+filter-delete-button =
+    .label = Smazat
+    .accesskey = m
+filter-reorder-top-button =
+    .label = Přesunout nahoru
+    .accesskey = h
+    .tooltiptext = Přesune filtr tak, aby se spouštěl jako první
+filter-reorder-up-button =
+    .label = Posunout výše
+    .accesskey = v
+filter-reorder-down-button =
+    .label = Posunout níže
+    .accesskey = t
+filter-reorder-bottom-button =
+    .label = Přesunout dolů
+    .accesskey = d
+    .tooltiptext = Přesune filtr tak, aby se spouštěl jako poslední
+filter-header-label =
+    .value = Aktivní filtry jsou automaticky prováděny v níže uvedeném pořadí.
+filter-filters-for-prefix =
+    .value = Filtr pro:
+    .accesskey = F
+filter-view-log-button =
+    .label = Protokol filtrů
+    .accesskey = l
+filter-run-filters-button =
+    .label = Spustit teď
+    .accesskey = S
+filter-folder-picker-prefix =
+    .value = Ručně spustit vybraný filtr na složce:
+    .accesskey = R
+filter-search-box =
+    .placeholder = Hledat filtry podle názvu…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Opravdu chcete smazat tento filtr?
+filter-dont-warn-delete-checkbox = Příště se již neptat
+filter-cannot-enable-incompatible = Tento filtr byl pravděpodobně vytvořen v nesprávné verzi aplikace { -brand-product-name }. Není možné jej povolit, protože ho nelze použít.
+filter-running-title = Spuštěné filtry
+filter-running-message =
+    Teď se bude provádět filtrování zpráv.
+    Chcete pokračovat v aplikaci filtrů?
+filter-stop-button = Zastavit
+filter-continue-button = Pokračovat
+
+## Filter Editor
+
+filter-editor-window-title = Pravidla filtru
+filter-editor-name =
+    .value = Název filtru:
+    .accesskey = N
+filter-editor-context-desc = Použít filtr při:
+filter-editor-context-incoming =
+    .label = Přijímání pošty:
+    .accesskey = P
+filter-editor-context-manual =
+    .label = Manuálním spuštění
+    .accesskey = M
+filter-editor-context-outgoing =
+    .label = Po odeslání
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Archivaci
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Provést tyto akce:
+    .accesskey = a
+filter-editor-action-order-warning =
+    .value = Poznámka: Akce filtru budou spouštěny v jiném pořadí.
+filter-editor-action-order-link =
+    .value = viz pořadí spouštění
+filter-editor-duplicate-title = Duplicitní název filtru
+filter-editor-duplicate-msg = Filtr s tímto názvem už existuje. Zadejte prosím pro filtr jiný název.
+filter-editor-no-event-title = Nebyla vybrána žádná událost
+filter-editor-no-event-msg = U každého filtru je potřeba vybrat alespoň jednu událost, při které je filtr spuštěn. Pokud chcete, aby filtr nebyl spouštěn při žádné události, zrušte výběr jeho stavu v seznamu filtrů v dialogu Filtry zpráv.
+filter-editor-match-all-name = Odpovídá všem zprávám
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } - kopie
+filter-editor-invalid-search-title = Neplatný hledací výraz
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Tento filtr nelze uložit, protože výraz „{ $attribute } { $operator }“ není v aktuálním kontextu platný.
+filter-editor-action-order-explanation = Pokud zpráva odpovídá filtru, budou akce provedeny v tomto pořadí:
+filter-editor-action-order-title = Skutečné pořadí akcí
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

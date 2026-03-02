@@ -100,9 +100,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Дадаць новае правіла
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Выдаліць гэтае правіла
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Выдаліць гэтае правіла
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Дадаць новае дзеянне
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Выдаліць гэта дзеянне
 
 ## Search Term List
 
@@ -115,3 +127,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Адпавядаюць усім лістам
     .accesskey = А
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Перамясціць паведамленне ў
+rule-action-copy =
+    .label = Капіяваць паведамленне ў
+rule-action-forward =
+    .label = Перанакіраваць паведамленне ў
+rule-action-reply =
+    .label = Адказаць па шаблоне
+rule-action-read =
+    .label = Пазначыць прачытаным
+rule-action-unread =
+    .label = Пазначыць непрачытаным
+rule-action-star =
+    .label = Пазначыць
+rule-action-priority =
+    .label = Змяніць прыярытэт на
+rule-action-tag =
+    .label = Памеціць
+rule-action-delete =
+    .label = Выдаліць паведамленне
+rule-action-delete-pop =
+    .label = Выдаліць з POP-сервера
+rule-action-fetch-pop =
+    .label = Загрузіць з POP-сервера
+rule-action-ignore-thread =
+    .label = Ігнараваць абмеркаванне
+rule-action-ignore-subthread =
+    .label = Ігнараваць галіну абмеркавання
+rule-action-watch-thread =
+    .label = Сачыць за абмеркаваннем
+rule-action-stop =
+    .label = Спыніць выкананне фільтру
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Найвышэйшы
+rule-priority-high =
+    .label = Высокі
+rule-priority-normal =
+    .label = Звычайны
+rule-priority-low =
+    .label = Нізкі
+rule-priority-lowest =
+    .label = Найніжэйшы

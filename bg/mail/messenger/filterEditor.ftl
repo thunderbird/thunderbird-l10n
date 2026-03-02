@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Нежелана поща
 rule-menuitem-not-spam =
@@ -93,3 +96,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } от { $total }
+
+## Filter List Dialog
+
+filter-window-title = Филтриране на писма
+filter-name-column =
+    .label = Име на филтър
+filter-active-column =
+    .label = Активен
+filter-new-button =
+    .label = Нов…
+    .accesskey = Н
+filter-new-copy-button =
+    .label = Копиране…
+    .accesskey = К
+filter-edit-button =
+    .label = Промяна…
+    .accesskey = П
+filter-delete-button =
+    .label = Изтриване
+    .accesskey = з
+filter-reorder-top-button =
+    .label = Преместване в началото
+    .accesskey = ч
+    .tooltiptext = Пренареждане на филтъра така, че да бъде изпълнен първи
+filter-reorder-up-button =
+    .label = Преместване нагоре
+    .accesskey = г
+filter-reorder-down-button =
+    .label = Премества надолу
+    .accesskey = д
+filter-reorder-bottom-button =
+    .label = Преместване в края
+    .accesskey = я
+    .tooltiptext = Пренареждане на филтъра така, че да бъде изпълнен последен
+filter-header-label =
+    .value = Разрешените филтри се стартират автоматично в реда по-долу.
+filter-filters-for-prefix =
+    .value = Филтри за:
+    .accesskey = Ф
+filter-view-log-button =
+    .label = Журнал на филтрирането
+    .accesskey = Ж
+filter-run-filters-button =
+    .label = Стартиране
+    .accesskey = С
+filter-folder-picker-prefix =
+    .value = Стартиране на избраните филтри в:
+    .accesskey = а
+filter-search-box =
+    .placeholder = Търсене на филтри по име…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Наистина ли искате да изтриете избрани(я)те филт(ъ)ри?
+filter-dont-warn-delete-checkbox = Спиране на този въпрос
+filter-cannot-enable-incompatible = Филтър вероятно е създаден от по-ново или несъвместимо издание на { -brand-product-name }. Не можете да го включите, защото не знаем как да го приложим.
+filter-running-title = Работещи филтри
+filter-running-message =
+    В момента се филтрират писма.
+    Искате ли да продължи филтрирането?
+filter-stop-button = Стоп
+filter-continue-button = Продължение
+
+## Filter Editor
+
+filter-editor-window-title = Правила за филтриране
+filter-editor-name =
+    .value = Име на филтър:
+    .accesskey = И
+filter-editor-context-desc = Прилагане на филтъра когато:
+filter-editor-context-incoming =
+    .label = Получаване на нова поща:
+    .accesskey = П
+filter-editor-context-manual =
+    .label = се стартира ръчно
+    .accesskey = р
+filter-editor-context-outgoing =
+    .label = След Изпращане
+    .accesskey = И
+filter-editor-context-archive =
+    .label = Архивиране
+    .accesskey = А
+filter-editor-action-desc =
+    .value = Изпълняват се следните действия:
+    .accesskey = л
+filter-editor-action-order-warning =
+    .value = Бележка: Филтрите ще бъдат приложени в различна последователност.
+filter-editor-action-order-link =
+    .value = Преглед на заявките за изпълнение
+filter-editor-duplicate-title = Дублирано име на филтър
+filter-editor-duplicate-msg = Това име на филтър вече съществува. Моля, изберете друго име.
+filter-editor-no-event-title = Няма избран филтър на събития
+filter-editor-no-event-msg = Трябва да изберете поне едно събитие, когато се приложи този филтър. Ако временно не искате да използвате този филтър върху което и да е събитие, махнете отметката на активирането от диалога на филтрите за съобщения.
+filter-editor-match-all-name = Съвпада с всички съобщения
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Копие на { $name }
+filter-editor-invalid-search-title = Невалидни термини за търсене
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Филтърът не може да бъде запазен, защото термините за търсене „{ $attribute } { $operator }“ са невалидни в текущуя контекст.
+filter-editor-action-order-explanation = При съвпадение избраните действия ще бъдат изпълнени в следния ред:
+filter-editor-action-order-title = Действителна последователност на действията
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -79,3 +82,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } iš { $total }
+
+## Filter List Dialog
+
+filter-window-title = Laiškų filtrai
+filter-name-column =
+    .label = Filtro pavadinimas
+filter-active-column =
+    .label = Taikymas
+filter-new-button =
+    .label = Naujas…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Kopijuoti…
+    .accesskey = K
+filter-edit-button =
+    .label = Taisyti…
+    .accesskey = T
+filter-delete-button =
+    .label = Pašalinti
+    .accesskey = š
+filter-reorder-top-button =
+    .label = Viršun
+    .accesskey = V
+    .tooltiptext = Perkelti filtrą į viršų, kad jis būtų vykdomas pirmiausia
+filter-reorder-up-button =
+    .label = Pakelti
+    .accesskey = k
+filter-reorder-down-button =
+    .label = Nuleisti
+    .accesskey = u
+filter-reorder-bottom-button =
+    .label = Apačion
+    .accesskey = a
+    .tooltiptext = Perkelti filtrą į apačią, kad jis būtų vykdomas paskiausiai
+filter-header-label =
+    .value = Gaunamiems laiškams taikomi pažymėti filtrai žemiau pateikta eile.
+filter-filters-for-prefix =
+    .value = Paskyros pavadinimas:
+    .accesskey = P
+filter-view-log-button =
+    .label = Filtravimo žurnalas
+    .accesskey = r
+filter-run-filters-button =
+    .label = Filtruoti dabar
+    .accesskey = d
+filter-folder-picker-prefix =
+    .value = Pažymėtus filtrus taikyti aplankui:
+    .accesskey = f
+filter-search-box =
+    .placeholder = Ieškoti filtro pavadinimo…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Ar tikrai norite pašalinti šį filtrą?
+filter-dont-warn-delete-checkbox = Šio klausimo ateityje nepateikti
+filter-cannot-enable-incompatible = Panašu, kad šis filtras buvo sukurtas naujesne „{ -brand-product-name }“ laida. Šio filtro negalima įjungti, nes neaišku, kaip jį taikyti.
+filter-running-title = Vykdomi filtrai
+filter-running-message =
+    Šiuo metu filtruojami laiškai.
+    Ar tęsti filtrų vykdymą?
+filter-stop-button = Stabdyti
+filter-continue-button = Tęsti
+
+## Filter Editor
+
+filter-editor-window-title = Filtravimo taisyklės
+filter-editor-name =
+    .value = Filtro pavadinimas:
+    .accesskey = F
+filter-editor-context-desc = Filtrą taikyti, kai:
+filter-editor-context-incoming =
+    .label = tikrinamas paštas:
+    .accesskey = t
+filter-editor-context-manual =
+    .label = nurodoma filtruoti laiškus
+    .accesskey = n
+filter-editor-context-outgoing =
+    .label = Išsiuntus
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Archyvavimas
+    .accesskey = A
+filter-editor-action-desc =
+    .value = atlikti šiuos veiksmus:
+    .accesskey = v
+filter-editor-action-order-warning =
+    .value = Pastaba: filtrai bus vykdomi kita tvarka.
+filter-editor-action-order-link =
+    .value = Parodyti vykdymo tvarką
+filter-editor-duplicate-title = Pakartotas filtro pavadinimas
+filter-editor-duplicate-msg = Toks filtras jau yra. Įveskite kitą filtro pavadinimą.
+filter-editor-no-event-title = Nepasirinkta, kada taikyti filtrą
+filter-editor-no-event-msg = Turite pasirinkti bent vieną filtro taikymo aplinkybę. Jeigu norite, kad filtras laikinai nebūtų taikomas apskritai, pašalinkite pažymėjimą ties juo laiškų filtrų lango stulpelyje „Taikymas“.
+filter-editor-match-all-name = Visi laiškai tenkina
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } – kopija
+filter-editor-invalid-search-title = Paieškos kriterijai netinkami
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Šio filtro įrašyti negalima, nes paieškos kriterijus „{ $attribute } { $operator }“ šiame kontekste yra netinkamas.
+filter-editor-action-order-explanation = Pranešimui atitikus šį filtrą, veiksmai bus vykdomi šia tvarka:
+filter-editor-action-order-title = Tikroji veiksmų tvarka
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

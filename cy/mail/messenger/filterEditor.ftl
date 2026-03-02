@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Sbam
 rule-menuitem-not-spam =
@@ -101,3 +104,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } o { $total }
+
+## Filter List Dialog
+
+filter-window-title = Hidlau Negeseuon
+filter-name-column =
+    .label = Enw Hidl
+filter-active-column =
+    .label = Galluogwyd
+filter-new-button =
+    .label = Newydd…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Copïo…
+    .accesskey = C
+filter-edit-button =
+    .label = Golygu…
+    .accesskey = G
+filter-delete-button =
+    .label = Dileu
+    .accesskey = D
+filter-reorder-top-button =
+    .label = Symud i'r Brig
+    .accesskey = B
+    .tooltiptext = Ad-drefnu'r hidl fel ei fod yn gweithredu cyn pob un arall
+filter-reorder-up-button =
+    .label = Symud i Fyny
+    .accesskey = F
+filter-reorder-down-button =
+    .label = Symud i Lawr
+    .accesskey = L
+filter-reorder-bottom-button =
+    .label = Symud i'r Gwaelod
+    .accesskey = w
+    .tooltiptext = Ad-drefnu'r hidl fel ei fod yn gweithredu ar ôl pob un arall
+filter-header-label =
+    .value = Bydd hidlau sydd wedi'u galluogi yn rhedeg yn awtomatig yn ôl y drefn â nodir isod.
+filter-filters-for-prefix =
+    .value = Hidlau ar gyfer:
+    .accesskey = H
+filter-view-log-button =
+    .label = Cofnod Hidl
+    .accesskey = C
+filter-run-filters-button =
+    .label = Rhedeg Nawr
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = Rhedeg yr hidl(au) ar:
+    .accesskey = R
+filter-search-box =
+    .placeholder = Chwilio yn ôl enw…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Ydych chi'n siŵr eich bod eisiau dileu'r hidl(au)?
+filter-dont-warn-delete-checkbox = Peidio â gofyn eto
+filter-cannot-enable-incompatible = Cafodd yr hidl ei greu gan fersiwn y dyfodol neu anghymarus o { -brand-product-name }. Nid oes modd galluogi'r hidl am nad ydym yn gwybod sut mae ei weithredu.
+filter-running-title = Rhedeg Hidlau
+filter-running-message =
+    Rydych yn y broses o hidlo negeseuon.
+    Hoffech chi barhau i osod yr hidlau?
+filter-stop-button = Atal
+filter-continue-button = Parhau
+
+## Filter Editor
+
+filter-editor-window-title = Rheolau Hidlo
+filter-editor-name =
+    .value = Enw'r hidl:
+    .accesskey = E
+filter-editor-context-desc = Gosod yr hidl pan yn:
+filter-editor-context-incoming =
+    .label = Estyn E-bost Newydd:
+    .accesskey = E
+filter-editor-context-manual =
+    .label = Rhedeg â Llaw
+    .accesskey = L
+filter-editor-context-outgoing =
+    .label = Ar ôl Anfon
+    .accesskey = n
+filter-editor-context-archive =
+    .label = Archifo
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Gwneud hyn:
+    .accesskey = G
+filter-editor-action-order-warning =
+    .value = Sylw: Bydd gweithredoedd hidlo'n cael eu rhedeg mewn trefn gwahanol.
+filter-editor-action-order-link =
+    .value = Gw. trefn weithredu
+filter-editor-duplicate-title = Dyblygu Enw'r Hidl
+filter-editor-duplicate-msg = Mae'r enw hidl rydych wedi'i roi yn bodoli eisoes. Rhowch enw hidl gwahanol.
+filter-editor-no-event-title = Heb ddewis hidl digwyddiad
+filter-editor-no-event-msg = Rhaid dewis o leiaf un digwyddiad pan mae'r hidl yn cael ei osod. Os nad ydych am i'r hidl redeg dros dro ar gyfer unrhyw ddigwyddiad, dad-diciwch ei gyflwr gweithredol yn y deialog Hidlau Negeseuon.
+filter-editor-match-all-name = Cydweddu Pob Neges
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Copi o { $name }
+filter-editor-invalid-search-title = Termau Chwilio yn Annilys
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Nid oes modd cadw'r hidl gan fod y term chwilio "{ $attribute } { $operator }" yn annilys yn y cyd-destun cyfredol.
+filter-editor-action-order-explanation = Pan fydd neges yn cydweddu'r hidl bydd gweithredoedd yn cael eu rhedeg yn y drefn yma:
+filter-editor-action-order-title = Trefn gweithredu go iawn
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

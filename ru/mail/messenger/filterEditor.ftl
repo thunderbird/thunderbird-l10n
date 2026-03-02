@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Спам
 rule-menuitem-not-spam =
@@ -95,3 +98,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } из { $total }
+
+## Filter List Dialog
+
+filter-window-title = Фильтры сообщений
+filter-name-column =
+    .label = Имя фильтра
+filter-active-column =
+    .label = Включён
+filter-new-button =
+    .label = Создать…
+    .accesskey = з
+filter-new-copy-button =
+    .label = Копировать…
+    .accesskey = в
+filter-edit-button =
+    .label = Изменить…
+    .accesskey = м
+filter-delete-button =
+    .label = Удалить
+    .accesskey = д
+filter-reorder-top-button =
+    .label = В начало
+    .accesskey = ч
+    .tooltiptext = Переместить фильтр, чтобы он выполнялся перед всеми остальными
+filter-reorder-up-button =
+    .label = Выше
+    .accesskey = ш
+filter-reorder-down-button =
+    .label = Ниже
+    .accesskey = ж
+filter-reorder-bottom-button =
+    .label = В конец
+    .accesskey = е
+    .tooltiptext = Переместить фильтр, чтобы он выполнялся после всех остальных
+filter-header-label =
+    .value = Включённые фильтры запускаются автоматически в указанном ниже порядке.
+filter-filters-for-prefix =
+    .value = Фильтры для:
+    .accesskey = и
+filter-view-log-button =
+    .label = Журнал фильтров
+    .accesskey = а
+filter-run-filters-button =
+    .label = Запустить
+    .accesskey = п
+filter-folder-picker-prefix =
+    .value = Запустить выбранные фильтры в папке:
+    .accesskey = ы
+filter-search-box =
+    .placeholder = Поиск фильтров по имени…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Вы действительно хотите удалить выделенный фильтр(ы)?
+filter-dont-warn-delete-checkbox = Не спрашивать в следующий раз
+filter-cannot-enable-incompatible = Возможно, фильтр был создан более поздней или несовместимой версией { -brand-product-name }. Вы не можете использовать этот фильтр, так как мы не знаем, как его применить.
+filter-running-title = Запущенные фильтры
+filter-running-message =
+    Сейчас идёт процесс фильтрации сообщений.
+    Вы хотите продолжить применение фильтров?
+filter-stop-button = Остановить
+filter-continue-button = Продолжить
+
+## Filter Editor
+
+filter-editor-window-title = Правила фильтрации
+filter-editor-name =
+    .value = Имя фильтра:
+    .accesskey = м
+filter-editor-context-desc = Применять фильтр при:
+filter-editor-context-incoming =
+    .label = Получении новой почты:
+    .accesskey = о
+filter-editor-context-manual =
+    .label = Запуске вручную
+    .accesskey = а
+filter-editor-context-outgoing =
+    .label = После отправки почты
+    .accesskey = е
+filter-editor-context-archive =
+    .label = Архивации
+    .accesskey = х
+filter-editor-action-desc =
+    .value = Производить следующие действия:
+    .accesskey = и
+filter-editor-action-order-warning =
+    .value = Примечание: Действия фильтра будут запускаться в другом порядке.
+filter-editor-action-order-link =
+    .value = Посмотреть порядок выполнения
+filter-editor-duplicate-title = Совпадающее имя фильтра
+filter-editor-duplicate-msg = Фильтр с таким именем уже существует. Введите другое имя.
+filter-editor-no-event-title = Не выбрано ни одного события для фильтра
+filter-editor-no-event-msg = Вы должны выбрать по меньшей мере одно событие, при котором происходит применение этого фильтра. Если вы хотите, чтобы фильтр временно не запускался при наступлении какого-либо события, отключите его в окне Фильтров сообщений.
+filter-editor-match-all-name = Подходит под все сообщения
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Копия { $name }
+filter-editor-invalid-search-title = Поисковые запросы некорректны
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Этот фильтр не может быть сохранён, так как поисковый запрос "{ $attribute } { $operator }" в текущем контексте некорректен.
+filter-editor-action-order-explanation = Когда сообщение подходит под этот фильтр, действия будут произведены в следующем порядке:
+filter-editor-action-order-title = Реальный порядок действий
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = 새 규칙 추가
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = 규칙 제거
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = 규칙 제거
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = 새로운 동작 추가
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = 동작 제거
 
 ## Search Term List
 
@@ -126,3 +138,51 @@ search-match-any =
 search-match-all-msgs =
     .label = 모든 메시지에서 찾기
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = 메시지 이동 위치:
+rule-action-copy =
+    .label = 메시지 복사 위치:
+rule-action-forward =
+    .label = 메시지 전달 위치:
+rule-action-reply =
+    .label = 템플릿으로 회신:
+rule-action-read =
+    .label = 읽음으로 표시
+rule-action-unread =
+    .label = 읽지 않음 표시
+rule-action-star =
+    .label = 별표 추가
+rule-action-priority =
+    .label = 중요도 설정
+rule-action-tag =
+    .label = 태그 작성
+rule-action-delete =
+    .label = 메시지 삭제
+rule-action-delete-pop =
+    .label = POP3 서버에서 삭제
+rule-action-fetch-pop =
+    .label = POP3 서버에서 받아오기
+rule-action-ignore-thread =
+    .label = 글타래 무시
+rule-action-ignore-subthread =
+    .label = 하위 글타래 무시
+rule-action-watch-thread =
+    .label = 글타래 보기
+rule-action-stop =
+    .label = 필터 실행 중단
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = 최상위
+rule-priority-high =
+    .label = 상위
+rule-priority-normal =
+    .label = 기본
+rule-priority-low =
+    .label = 하위
+rule-priority-lowest =
+    .label = 최하위

@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Nowe prawidło přidać
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Tute prawidło wotstronić
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Tute prawidło wotstronić
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Nowu akciju přidać
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Tutu akciju wotstronić
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Wšě powěsće namakać
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Powěsć přesunyć do
+rule-action-copy =
+    .label = Powěsć kopěrować do
+rule-action-forward =
+    .label = Powěsć dale sposrědkować do
+rule-action-reply =
+    .label = Z předłohu wotmołwić
+rule-action-read =
+    .label = Jako přečitany markěrować
+rule-action-unread =
+    .label = Jako njepřečitany markěrować
+rule-action-star =
+    .label = Hwěžku přidać
+rule-action-priority =
+    .label = Prioritu stajić na
+rule-action-tag =
+    .label = Powěsć markěrować
+rule-action-set-spam-status =
+    .label = Spamowy status stajić na
+rule-action-delete =
+    .label = Powěsć zhašeć
+rule-action-delete-pop =
+    .label = Na POP-serwerje zhašeć
+rule-action-fetch-pop =
+    .label = Z Pop-serwera wobstarać
+rule-action-ignore-thread =
+    .label = Nitku ignorować
+rule-action-ignore-subthread =
+    .label = Podnitku ignorować
+rule-action-watch-thread =
+    .label = Nitku wobkedźbować
+rule-action-stop =
+    .label = Wuwjedźenje filtra zastajić
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = Njeje spam
+rule-priority-highest =
+    .label = Najwyša
+rule-priority-high =
+    .label = Wysoka
+rule-priority-normal =
+    .label = Normalna
+rule-priority-low =
+    .label = Niska
+rule-priority-lowest =
+    .label = Najniša

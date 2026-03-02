@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
@@ -51,3 +54,92 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $total } ਵਿੱਚੋਂ  { $visible }
+
+## Filter List Dialog
+
+filter-window-title = ਸੁਨੇਹੇ ਫਿਲਟਰ
+filter-name-column =
+    .label = ਫਿਲਟਰ ਨਾਂ
+filter-active-column =
+    .label = ਯੋਗ
+filter-new-button =
+    .label = ਨਵਾਂ...
+    .accesskey = N
+filter-edit-button =
+    .label = ਸੋਧ...
+    .accesskey = E
+filter-delete-button =
+    .label = ਹਟਾਓ
+    .accesskey = t
+filter-reorder-top-button =
+    .label = Move to Top
+    .accesskey = o
+    .tooltiptext = Rearrange filter so it executes before all others
+filter-reorder-up-button =
+    .label = Move Up
+    .accesskey = U
+filter-reorder-down-button =
+    .label = Move Down
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = Move to Bottom
+    .accesskey = B
+    .tooltiptext = Rearrange filter so it executes after all others
+filter-header-label =
+    .value = ਹੇਠਾਂ ਦਿੱਤੇ ਕ੍ਰਮ ਵਿੱਚ ਫਿਲਟਰ ਖੁਦ ਹੀ ਚਲਾਉਣੇ ਯੋਗ ਹਨ।
+filter-filters-for-prefix =
+    .value = ਇਸ ਲਈ ਫਿਲਟਰ:
+    .accesskey = F
+filter-view-log-button =
+    .label = ਫਿਲਟਰ ਲਾੱਗ
+    .accesskey = L
+filter-run-filters-button =
+    .label = ਹੁਣੇ ਚਲਾਓ
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = ਚੁਣੇ ਫੋਲਡਰ ਤੇ ਚਲਾਓ:
+    .accesskey = c
+filter-search-box =
+    .placeholder = Search filters by name…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Are you sure you want to delete the selected filter(s)?
+filter-dont-warn-delete-checkbox = ਮੈਨੂੰ ਮੁੜ ਨਾਲ ਪੁੱਛੋ
+filter-running-title = ਫਿਲਟਰ ਚੱਲ ਰਿਹਾ ਹੈ
+filter-running-message =
+    ਇਸ ਸਮੇਂ ਸੁਨੇਹੇ ਫਿਲਟਰ ਕਾਰਵਾਈ ਅਧੀਨ ਹਨ
+    ਕੀ ਤੁਸੀਂ ਫਿਲਟਰ ਲਗਾਉਣ ਨੂੰ ਜਾਰੀ ਰੱਖਣਾ ਪਸੰਦ ਕਰੋਗੇ?
+filter-stop-button = ਰੋਕੋ
+filter-continue-button = ਜਾਰੀ ਰੱਖੋ
+
+## Filter Editor
+
+filter-editor-window-title = ਫਿਲਟਰ ਨਿਯਮ
+filter-editor-name =
+    .value = ਫਿਲਟਰ ਨਾਂ:
+    .accesskey = i
+filter-editor-context-desc = Apply filter when:
+filter-editor-context-incoming =
+    .label = Getting New Mail:
+    .accesskey = G
+filter-editor-context-manual =
+    .label = Manually Run
+    .accesskey = R
+filter-editor-action-desc =
+    .value = ਇਹ ਐਕਸ਼ਨ ਕਰੋ:
+    .accesskey = P
+filter-editor-duplicate-title = ਡੁਪਲੀਕੇਟ ਫਿਲਟਰ ਨਾਂ
+filter-editor-duplicate-msg = ਫਿਲਟਰ ਨਾਂ, ਜੋ ਤੁਸੀਂ ਦਿੱਤਾ ਹੈ, ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। ਵੱਖਰਾ ਫਿਲਟਰ ਨਾਂ ਦਿਓ ਜੀ।
+filter-editor-no-event-title = No filter event selected
+filter-editor-no-event-msg = You must select at least one event when this filter is applied. If you temporarily do not wish the filter to run at any event, uncheck its enabled state from the Message Filters dialog.
+filter-editor-match-all-name = ਸਭ ਸੁਨੇਹੇ ਮਿਲਾਓ
+filter-editor-invalid-search-title = ਖੋਜ ਸ਼ਬਦ ਗਲਤ ਹੈ
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = This filter cannot be saved because the search term "{ $attribute } { $operator }" is invalid in the current context.
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

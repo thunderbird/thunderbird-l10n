@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Søppelpost
 rule-menuitem-not-spam =
@@ -93,3 +96,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } av { $total }
+
+## Filter List Dialog
+
+filter-window-title = Meldingsfilter
+filter-name-column =
+    .label = Filternamn
+filter-active-column =
+    .label = Påslått
+filter-new-button =
+    .label = Nytt …
+    .accesskey = N
+filter-new-copy-button =
+    .label = Kopier…
+    .accesskey = K
+filter-edit-button =
+    .label = Rediger …
+    .accesskey = R
+filter-delete-button =
+    .label = Slett
+    .accesskey = S
+filter-reorder-top-button =
+    .label = Flytt øvst
+    .accesskey = v
+    .tooltiptext = Omorganiser filteret slik at det køyrer før alle andre
+filter-reorder-up-button =
+    .label = Flytt opp
+    .accesskey = o
+filter-reorder-down-button =
+    .label = Flytt ned
+    .accesskey = n
+filter-reorder-bottom-button =
+    .label = Flytt nedst
+    .accesskey = d
+    .tooltiptext = Omorganiser filteret slik at det køyrer etter alle andre
+filter-header-label =
+    .value = Filter som er slått på køyrer i den rekkjefølgja dei står i nedanfor.
+filter-filters-for-prefix =
+    .value = Filter for:
+    .accesskey = F
+filter-view-log-button =
+    .label = Filterlogg
+    .accesskey = e
+filter-run-filters-button =
+    .label = Køyr no
+    .accesskey = K
+filter-folder-picker-prefix =
+    .value = Køyr valde filter på:
+    .accesskey = v
+filter-search-box =
+    .placeholder = Søk i filter etter namn …
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Er du sikker på at du ønskjer å slette dette filteret?
+filter-dont-warn-delete-checkbox = Ikkje spør meg meir
+filter-cannot-enable-incompatible = Dette filteret vart truleg oppretta av ein nyare eller inkompatibel versjon av { -brand-product-name }. Du kan ikkje slå på dette filteret, fordi programmet ikkje veit korleis det skal nyttast.
+filter-running-title = Køyrer filter
+filter-running-message =
+    Du er i ferd med å filtrere meldingar.
+    Ønskjer du å fortsetja med filtreringa?
+filter-stop-button = Stopp
+filter-continue-button = Hald fram
+
+## Filter Editor
+
+filter-editor-window-title = Filterreglar
+filter-editor-name =
+    .value = Filternamn:
+    .accesskey = F
+filter-editor-context-desc = Bruk filteret ved:
+filter-editor-context-incoming =
+    .label = Hentar ny e-post::
+    .accesskey = H
+filter-editor-context-manual =
+    .label = Manuell filtrering
+    .accesskey = r
+filter-editor-context-outgoing =
+    .label = Etter sending
+    .accesskey = E
+filter-editor-context-archive =
+    .label = Arkivering
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Gjer dette med meldingane:
+    .accesskey = G
+filter-editor-action-order-warning =
+    .value = Merk: Filterhandlingar vert køyrd i ei anna rekkjefølgje
+filter-editor-action-order-link =
+    .value = Sjå utføringsrekkjefølgje
+filter-editor-duplicate-title = Filternamnet finst frå før
+filter-editor-duplicate-msg = Filternamnet du skreiv inn finst allereie frå før. Skriv inn eit nytt namn.
+filter-editor-no-event-title = Inga filterhending valt
+filter-editor-no-event-msg = Du må velje minst ei hending når dette filteret er valt. Om du mellombels ikkje ønskjer at filteret skal køyre, ta vekk avkryssinga i meldingsfilter-dialogen.
+filter-editor-match-all-name = Vis alle meldingane
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopi av { $name }
+filter-editor-invalid-search-title = Søkjeorda er ugyldige
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Dette filteret kan ikkje lagrast fordi søkjetermane "{ $attribute } { $operator }" er ugyldige i samanhengen.
+filter-editor-action-order-explanation = Når ei melding passar til dette filteret, vert handlingar utførte i denne rekkjefølgja:
+filter-editor-action-order-title = Reell handlingsrekkjefølgje
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

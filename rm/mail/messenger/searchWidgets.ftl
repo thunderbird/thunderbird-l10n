@@ -106,9 +106,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Agiuntar ina nova regla
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Allontanar questa regla
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Allontanar questa regla
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Agiuntar ina nova acziun
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Allontanar questa acziun
 
 ## Search Term List
 
@@ -121,3 +133,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Nagins criteris
     .accesskey = N
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Spustar messadi a
+rule-action-copy =
+    .label = Copiar messadi a
+rule-action-forward =
+    .label = Transmetter il messadi a
+rule-action-reply =
+    .label = Respunder cun il model
+rule-action-read =
+    .label = Marcar sco legì
+rule-action-unread =
+    .label = Marcar sco nunlegì
+rule-action-star =
+    .label = Segnar
+rule-action-priority =
+    .label = Midar prioritad tar
+rule-action-tag =
+    .label = Agiuntar ina etichetta
+rule-action-delete =
+    .label = Stizzar il messadi
+rule-action-delete-pop =
+    .label = Stizzar dal server POP
+rule-action-fetch-pop =
+    .label = Telechargiar dal server POP
+rule-action-ignore-thread =
+    .label = Ignorar il tema
+rule-action-ignore-subthread =
+    .label = Ignorar il suttema
+rule-action-watch-thread =
+    .label = Observar il tema
+rule-action-stop =
+    .label = Fermar l'execuziun dal filter
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Il pli aut
+rule-priority-high =
+    .label = Aut
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Bass
+rule-priority-lowest =
+    .label = Il pli bass

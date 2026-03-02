@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 filter-failure-move-failed = ההעברה נכשלה
 filter-failure-copy-failed = ההעתקה נכשלה
 # Variables:
@@ -57,3 +60,109 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } מתוך { $total }
+
+## Filter List Dialog
+
+filter-window-title = מסננים להודעות
+filter-name-column =
+    .label = שם מסנן
+filter-active-column =
+    .label = מאופשר
+filter-new-button =
+    .label = חדש…
+    .accesskey = ח
+filter-new-copy-button =
+    .label = העתקה…
+    .accesskey = ע
+filter-edit-button =
+    .label = עריכה…
+    .accesskey = ע
+filter-delete-button =
+    .label = מחיקה
+    .accesskey = מ
+filter-reorder-top-button =
+    .label = העברה כעליון
+    .accesskey = ל
+    .tooltiptext = סידור המסנן מחדש כדי שיופעל לפני כל האחרים
+filter-reorder-up-button =
+    .label = העברה למעלה
+    .accesskey = ע
+filter-reorder-down-button =
+    .label = העברה למטה
+    .accesskey = ט
+filter-reorder-bottom-button =
+    .label = העברה כתחתון
+    .accesskey = ת
+    .tooltiptext = סידור המסנן מחדש כדי שיופעל אחרי כל האחרים
+filter-header-label =
+    .value = מסננים מאופשרים יופעלו אוטומטית בסדר הנראה להלן.
+filter-filters-for-prefix =
+    .value = מסננים עבור:
+    .accesskey = ע
+filter-view-log-button =
+    .label = יומן מסנן
+    .accesskey = י
+filter-run-filters-button =
+    .label = הפעלה כעת
+    .accesskey = ה
+filter-folder-picker-prefix =
+    .value = הפעלת מסננים נבחרים על:
+    .accesskey = מ
+filter-search-box =
+    .placeholder = חיפוש מסננים לפי שם…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = האם אתה בטוח שברצונך למחוק מסנן זה?
+filter-dont-warn-delete-checkbox = לא לשאול אותי שוב
+filter-running-title = מסננים פועלים
+filter-running-message =
+    אתה כרגע בתהליך של סינון הודעות.
+    האם ברצונך להמשיך ליישם את המסננים?
+filter-stop-button = עצור
+filter-continue-button = המשך
+
+## Filter Editor
+
+filter-editor-window-title = חוקי מסנן
+filter-editor-name =
+    .value = שם מסנן:
+    .accesskey = i
+filter-editor-context-desc = הפעלת מסננים כאשר:
+filter-editor-context-incoming =
+    .label = קבלת הודעת דוא״ל חדשה:
+    .accesskey = ק
+filter-editor-context-manual =
+    .label = מורץ ידנית
+    .accesskey = ר
+filter-editor-context-outgoing =
+    .label = לאחר השליחה
+    .accesskey = ש
+filter-editor-context-archive =
+    .label = העברה לארכיון
+    .accesskey = א
+filter-editor-action-desc =
+    .value = ביצוע פעולות אלו:
+    .accesskey = ב
+filter-editor-action-order-warning =
+    .value = לתשומת לבך: פעולות המסנן תרוצנה בסדר שונה.
+filter-editor-action-order-link =
+    .value = הצגת סדר הפעולות
+filter-editor-duplicate-title = שם מסנן כפול
+filter-editor-duplicate-msg = שם המסנן שהכנסת כבר קיים. נא להכניס שם מסנן שונה.
+filter-editor-no-event-title = לא נבחר אירוע מסנן
+filter-editor-match-all-name = מצא את כל ההודעות
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = עותק של { $name }
+filter-editor-invalid-search-title = מונחי חיפוש לא תקינים
+filter-editor-action-order-title = סדר הפעולות בפועל
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

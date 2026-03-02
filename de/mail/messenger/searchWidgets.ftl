@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Neue Bedingung hinzufügen
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Diese Bedingung entfernen
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Diese Bedingung entfernen
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Weitere Aktion hinzufügen
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Aktion entfernen
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Keine Bedingungen
     .accesskey = K
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Verschieben der Nachricht in:
+rule-action-copy =
+    .label = Kopieren der Nachricht in:
+rule-action-forward =
+    .label = Weiterleiten an:
+rule-action-reply =
+    .label = Antworten mit Vorlage:
+rule-action-read =
+    .label = Als gelesen markieren
+rule-action-unread =
+    .label = Als ungelesen markieren
+rule-action-star =
+    .label = Kennzeichnen der Nachricht
+rule-action-priority =
+    .label = Priorität ändern auf:
+rule-action-tag =
+    .label = Schlagwort hinzufügen:
+rule-action-set-spam-status =
+    .label = Spam-Status setzen auf
+rule-action-delete =
+    .label = Löschen der Nachricht
+rule-action-delete-pop =
+    .label = Vom Server löschen
+rule-action-fetch-pop =
+    .label = Vom Server herunterladen
+rule-action-ignore-thread =
+    .label = Thema ignorieren
+rule-action-ignore-subthread =
+    .label = Unterthema ignorieren
+rule-action-watch-thread =
+    .label = Thema beobachten
+rule-action-stop =
+    .label = Filter stoppen
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = Kein Spam
+rule-priority-highest =
+    .label = Sehr hoch
+rule-priority-high =
+    .label = Hoch
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Niedrig
+rule-priority-lowest =
+    .label = Sehr niedrig

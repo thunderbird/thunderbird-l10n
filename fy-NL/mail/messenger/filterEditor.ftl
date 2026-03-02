@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Net winske
 rule-menuitem-not-spam =
@@ -93,3 +96,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } fan { $total }
+
+## Filter List Dialog
+
+filter-window-title = Berjochtefilters
+filter-name-column =
+    .label = Filternamme
+filter-active-column =
+    .label = Aktyf
+filter-new-button =
+    .label = Nij…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Kopiearje…
+    .accesskey = K
+filter-edit-button =
+    .label = Bewurkje…
+    .accesskey = B
+filter-delete-button =
+    .label = Fuortsmite
+    .accesskey = F
+filter-reorder-top-button =
+    .label = Boppe-oan pleatse
+    .accesskey = B
+    .tooltiptext = Ferpleats filter sadat it as earste útfierd wurdt
+filter-reorder-up-button =
+    .label = Omheech ferpleatse
+    .accesskey = h
+filter-reorder-down-button =
+    .label = Omleech ferpleatse
+    .accesskey = l
+filter-reorder-bottom-button =
+    .label = Underoan pleatse
+    .accesskey = U
+    .tooltiptext = Ferpleats filter sadat it as lêste útfierd wurdt
+filter-header-label =
+    .value = Aktivearre filters wurkje automatysk yn ûndersteande folchoarder.
+filter-filters-for-prefix =
+    .value = Filters foar:
+    .accesskey = F
+filter-view-log-button =
+    .label = Filterlochboek
+    .accesskey = i
+filter-run-filters-button =
+    .label = No tapasse
+    .accesskey = t
+filter-folder-picker-prefix =
+    .value = Selektearre filter(s) tapasse op:
+    .accesskey = S
+filter-search-box =
+    .placeholder = Filters op namme sykje…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Binne jo der wis fan dat jo de selektearre filter(s) fuortsmite wolle?
+filter-dont-warn-delete-checkbox = My net wer freegje
+filter-cannot-enable-incompatible = Dit filter is nei alle gedachten makke troch in nijere of ynkompatibele ferzje fan { -brand-product-name }. Jo kinne dit filter net aktivearje om't wy net witte hoe’t it tapast wurde moat.
+filter-running-title = Dwaande mei it tapassen fan filters
+filter-running-message =
+    Op dit stuit rint it proses fan berjochtefiltering.
+    Wolle jo trochgean mei it tapassen fan filters?
+filter-stop-button = Ophâlde
+filter-continue-button = Trochgean
+
+## Filter Editor
+
+filter-editor-window-title = Filterrigels
+filter-editor-name =
+    .value = Filternamme:
+    .accesskey = F
+filter-editor-context-desc = Filter tapasse by it:
+filter-editor-context-incoming =
+    .label = Opheljen nije berjochten:
+    .accesskey = O
+filter-editor-context-manual =
+    .label = Hânmjittich útfiere
+    .accesskey = H
+filter-editor-context-outgoing =
+    .label = Nei ferstjoeren
+    .accesskey = N
+filter-editor-context-archive =
+    .label = Argivearje
+    .accesskey = r
+filter-editor-action-desc =
+    .value = Dizze aksjes útfiere:
+    .accesskey = f
+filter-editor-action-order-warning =
+    .value = Noat: filteraksjes wurde útfierd yn in oare folchoarder.
+filter-editor-action-order-link =
+    .value = Sjoch útfierfolchoarder
+filter-editor-duplicate-title = Filternamme bestiet al
+filter-editor-duplicate-msg = Dizze filternamme bestiet al. Jou in oare filternamme yn.
+filter-editor-no-event-title = Gjin filterbarren selektearre
+filter-editor-no-event-msg = Jo moatte op syn minst ien barren selektearje by it tapassen fan dit filter. As jo tydlik dit filter net brûke wolle by in barren de-aktivearje de steat yn it berjochtenfilterfinster.
+filter-editor-match-all-name = Lyk oan alle berjochten
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopy fan { $name }
+filter-editor-invalid-search-title = Syktermen ferkeard
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Dit filter kin net bewarre wurde, omdat de sykterm ‘{ $attribute } { $operator }’ yn de aktuele kontekst net jildich is.
+filter-editor-action-order-explanation = Wannear’t in berjocht oerienkomt mei dit filter sille de aksjes útfierd wurde yn dizze folchoarder:
+filter-editor-action-order-title = Werklike aksjefolchoarder
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
@@ -55,3 +58,112 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } – { $total }
+
+## Filter List Dialog
+
+filter-window-title = Xabar filterlari
+filter-name-column =
+    .label = Filtrning nomi
+filter-active-column =
+    .label = Yoqib qo‘yilgan
+filter-new-button =
+    .label = Yangi…
+    .accesskey = Y
+filter-edit-button =
+    .label = Tahrirlash…
+    .accesskey = T
+filter-delete-button =
+    .label = O‘chirish
+    .accesskey = c
+filter-reorder-top-button =
+    .label = Yuqoriga ko‘chirish
+    .accesskey = o
+    .tooltiptext = Boshqa barchasini filterlashdan oldin uni tartiblash
+filter-reorder-up-button =
+    .label = Yuqoriga ko‘chirish
+    .accesskey = Y
+filter-reorder-down-button =
+    .label = Pastga ko‘chirish
+    .accesskey = P
+filter-reorder-bottom-button =
+    .label = Eng pastga ko‘chirish
+    .accesskey = B
+    .tooltiptext = Boshqa barchasini filterlashdan keyin uni tartiblash
+filter-header-label =
+    .value = Yoqib qo‘yilgan filterlar pastga ko‘rsatilgan tartibga ko‘ra avtomatik ishga tushadi.
+filter-filters-for-prefix =
+    .value = Filterlar:
+    .accesskey = F
+filter-view-log-button =
+    .label = Filter jurnali
+    .accesskey = j
+filter-run-filters-button =
+    .label = Hozir ishga tushirish
+    .accesskey = i
+filter-folder-picker-prefix =
+    .value = Tanlangan filterlarni ishga tushirish:
+    .accesskey = T
+filter-search-box =
+    .placeholder = Filterlarni nomi bo‘yicha izlash…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Tanlangan filterlarni o‘chirishni xohlaysizmi?
+filter-dont-warn-delete-checkbox = &Yana so‘ralmasin
+filter-running-title = Filterlar ishga tushirilmoqda
+filter-running-message =
+    Siz hozir xabarlarni filterlash jarayonidasiz.
+    Filterlarni qo‘llashni davom ettirishni xohlaysizmi?
+filter-stop-button = To‘xtatish
+filter-continue-button = Davom etish
+
+## Filter Editor
+
+filter-editor-window-title = Filterlash qoidalari
+filter-editor-name =
+    .value = Filtrning nomi:
+    .accesskey = i
+filter-editor-context-desc = Filterni qo‘llash:
+filter-editor-context-incoming =
+    .label = Yangi xat kelganda:
+    .accesskey = Y
+filter-editor-context-manual =
+    .label = Qo‘lbola ishga tushirish
+    .accesskey = i
+filter-editor-context-outgoing =
+    .label = Jo‘natilgandanso‘ng
+    .accesskey = J
+filter-editor-context-archive =
+    .label = Arxivlash
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Bu amallarni bajarish:
+    .accesskey = B
+filter-editor-action-order-warning =
+    .value = Eslatma: filterlash amallari boshqa tartibda ishga tushiriladi.
+filter-editor-action-order-link =
+    .value = Bajarish tartibini ko‘rish
+filter-editor-duplicate-title = Filter nomini nusxalash
+filter-editor-duplicate-msg = Siz kiritgan nom mavjud. Boshqa filter nomini kiriting.
+filter-editor-no-event-title = Tadbirlarni filterlash tanlanmadi.
+filter-editor-no-event-msg = Bu filterni qo‘llash uchun kamida bitta tadbirni tanlashingiz lozim. Agar siz vaqtincha filterni tadbirlarda ishlashini xohlamasangiz, Xabarlar filteri oynasidan belgilashni olib tashlang.
+filter-editor-match-all-name = Barcha xabarlardan izlash
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } nusxasi
+filter-editor-invalid-search-title = Izlash uchun kiritilgan atama noto‘g‘ri
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Filter saqlanmaydi, chunki joriy matndagi "{ $attribute } { $operator }" qidiruv amatasi noto‘g‘ri.
+filter-editor-action-order-explanation = Xabar bu filterga mos kelsa, amallar bu buyruqqa ko‘ra bajariladi:
+filter-editor-action-order-title = Haqiqiy amal tartibi:
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

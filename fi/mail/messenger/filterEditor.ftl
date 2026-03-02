@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Roskaposti
 rule-menuitem-not-spam =
@@ -87,3 +90,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } / { $total }
+
+## Filter List Dialog
+
+filter-window-title = Viestisuodattimet
+filter-name-column =
+    .label = Suodattimen nimi
+filter-active-column =
+    .label = Käytössä
+filter-new-button =
+    .label = Uusi…
+    .accesskey = U
+filter-new-copy-button =
+    .label = Kopioi…
+    .accesskey = K
+filter-edit-button =
+    .label = Muokkaa…
+    .accesskey = M
+filter-delete-button =
+    .label = Poista
+    .accesskey = o
+filter-reorder-top-button =
+    .label = Siirrä ylimmäksi
+    .accesskey = y
+    .tooltiptext = Siirrä suodatin niin, että se suoritetaan ensimmäisenä
+filter-reorder-up-button =
+    .label = Siirrä ylös
+    .accesskey = y
+filter-reorder-down-button =
+    .label = Siirrä alas
+    .accesskey = a
+filter-reorder-bottom-button =
+    .label = Siirrä alimmaiseksi
+    .accesskey = a
+    .tooltiptext = Siirrä suodatin niin, että se suoritetaan viimeisenä
+filter-header-label =
+    .value = Käytössä olevat suodattimet suoritetaan alla näkyvässä järjestyksessä.
+filter-filters-for-prefix =
+    .value = Suodattimet kohteelle:
+    .accesskey = S
+filter-view-log-button =
+    .label = Suodatinloki
+    .accesskey = S
+filter-run-filters-button =
+    .label = Suorita nyt
+    .accesskey = n
+filter-folder-picker-prefix =
+    .value = Suorita valitut suodattimet kansiolle:
+    .accesskey = v
+filter-search-box =
+    .placeholder = Etsi suodatinta nimellä…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Poistetaanko tämä suodatin?
+filter-dont-warn-delete-checkbox = Älä kysy uudelleen
+filter-cannot-enable-incompatible = Tämä suodatin on todennäköisesti luotu uudemmalla tai yhteensopimattomalla { -brand-product-name }in versiolla. Et voi ottaa tätä suodatinta käyttöön, koska emme tiedä kuinka sitä tulisi käyttää.
+filter-running-title = Suoritetaan suodattimia
+filter-running-message =
+    Suodatat parhaillaan viestejä.
+    Jatketaanko suodattimien käyttöönottoa?
+filter-stop-button = Pysäytä
+filter-continue-button = Jatka
+
+## Filter Editor
+
+filter-editor-window-title = Suodatusehdot
+filter-editor-name =
+    .value = Suodattimen nimi:
+    .accesskey = S
+filter-editor-context-desc = Suodata viestit, kun:
+filter-editor-context-incoming =
+    .label = Haetaan uusia viestejä:
+    .accesskey = H
+filter-editor-context-manual =
+    .label = Suorita käsin
+    .accesskey = k
+filter-editor-context-outgoing =
+    .label = Lähettämisen jälkeen
+    .accesskey = L
+filter-editor-context-archive =
+    .label = Arkistoitaessa
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Suorita nämä toiminnot:
+    .accesskey = o
+filter-editor-action-order-warning =
+    .value = Huom.: Suodatintoiminnot suoritetaan eri järjestyksessä.
+filter-editor-action-order-link =
+    .value = Näytä suoritusjärjestys
+filter-editor-duplicate-title = Kahdella suodattimella on sama nimi
+filter-editor-duplicate-msg = Kirjoittamasi suodattimen nimi on jo olemassa. Kirjoita toinen nimi.
+filter-editor-no-event-title = Suodatintoimintoa ei ole valittu
+filter-editor-no-event-msg = Suodattimeen täytyy valita ainakin yksi toiminto sitä suoritettaessa. Jos et väliaikaisesti halua suodattaa mitään viestejä, poista suodattimet käytöstä viestien suodatusikkunasta.
+filter-editor-match-all-name = Valitse kaikki viestit
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } - kopio
+filter-editor-invalid-search-title = Virheelliset hakutermit
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Suodatinta ei voi tallentaa, koska hakutermi ja ehto "{ $attribute } { $operator }" eivät sovi tähän käyttötarkoitukseen.
+filter-editor-action-order-explanation = Kun viesti on suodattimen mukainen, suodattimen toimet suoritetaan seuraavassa järjestyksessä:
+filter-editor-action-order-title = Todellinen toimintajärjestys
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

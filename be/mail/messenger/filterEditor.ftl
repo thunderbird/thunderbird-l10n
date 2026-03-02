@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
@@ -52,3 +55,104 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } з { $total }
+
+## Filter List Dialog
+
+filter-window-title = Фільтры паведамленняў
+filter-name-column =
+    .label = Імя фільтру
+filter-active-column =
+    .label = Уключаны
+filter-new-button =
+    .label = Новы…
+    .accesskey = Н
+filter-new-copy-button =
+    .label = Капіяваць…
+    .accesskey = К
+filter-edit-button =
+    .label = Рэдагаваць…
+    .accesskey = Р
+filter-delete-button =
+    .label = Выдаліць
+    .accesskey = д
+filter-reorder-top-button =
+    .label = Угору
+    .accesskey = У
+    .tooltiptext = Перамясціць фільтр так, каб ён выконваўся перад усімі астатнімі
+filter-reorder-up-button =
+    .label = Рухаць угору
+    .accesskey = Р
+filter-reorder-down-button =
+    .label = Рухаць уніз
+    .accesskey = х
+filter-reorder-bottom-button =
+    .label = Уніз
+    .accesskey = н
+    .tooltiptext = Перамясціць фільтр так, каб ён выконваўся пасля ўсіх астатніх
+filter-header-label =
+    .value = Уключаныя фільтры выконваюцца аўтаматычна ў паказаным ніжэй парадку.
+filter-filters-for-prefix =
+    .value = Фільтры для:
+    .accesskey = Ф
+filter-view-log-button =
+    .label = Журнал фільтраў
+    .accesskey = Ж
+filter-run-filters-button =
+    .label = Выканаць зараз
+    .accesskey = В
+filter-folder-picker-prefix =
+    .value = Выканаць выбраны(я) фільтр(ы) ў папцы:
+    .accesskey = ы
+filter-search-box =
+    .placeholder = Пошук фільтраў па імях…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Вы ўпэўнены, што жадаеце выдаліць выбраны(я) фільтр(ы)?
+filter-dont-warn-delete-checkbox = Не запытваць мяне зноў.
+filter-cannot-enable-incompatible = Магчыма, гэты фільтр быў створаны ў найноўшай або несумяшчальнай версіі { -brand-product-name }. Вы не можаце ўключыць гэты фільтр, таму што мы не ведаем, як яго ужываць.
+filter-stop-button = Спыніць
+filter-continue-button = Працягнуць
+
+## Filter Editor
+
+filter-editor-window-title = Правілы фільтравання
+filter-editor-name =
+    .value = Імя фільтру:
+    .accesskey = м
+filter-editor-context-desc = Ужываць фільтр пры:
+filter-editor-context-incoming =
+    .label = Атрыманні новай пошты:
+    .accesskey = А
+filter-editor-context-manual =
+    .label = Ручным запусканні
+    .accesskey = Р
+filter-editor-context-outgoing =
+    .label = Пасля адпраўкі
+    .accesskey = П
+filter-editor-context-archive =
+    .label = Архіваванні
+    .accesskey = А
+filter-editor-action-desc =
+    .value = Выканаць гэтыя дзеянні:
+    .accesskey = В
+filter-editor-action-order-warning =
+    .value = Заўвага: дзеянні фільтру будуць выконвацца ў іншым парадку.
+filter-editor-action-order-link =
+    .value = Праглядзець парадак выканання
+filter-editor-duplicate-title = Фільтр з такім імем ужо існуе
+filter-editor-duplicate-msg = Фільтр з такім імем ужо існуе. Калі ласка, увядзіце іншае імя.
+filter-editor-no-event-title = Не выбрана ніводнай падзеі для фільтру
+filter-editor-no-event-msg = Вам трэба выбраць хаця б адну падзею, пры якой ужываецца гэты фільтр. Калі вы жадаеце часова не запускаць фільтр, адключыце яго ў акне «Фільтры паведамленняў».
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Копія { $name }
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

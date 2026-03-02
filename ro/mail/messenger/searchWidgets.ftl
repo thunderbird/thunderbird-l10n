@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Adaugă o nouă regulă
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Elimină această regulă
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Elimină această regulă
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Adaugă o secțiune nouă
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Elimină această acțiune
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Potrivire la toate mesajele
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Mută mesajul în
+rule-action-copy =
+    .label = Copiază mesajul în
+rule-action-forward =
+    .label = Redirecționează mesajul către
+rule-action-reply =
+    .label = Răspunde cu un șablon
+rule-action-read =
+    .label = Marchează ca citit
+rule-action-unread =
+    .label = Marchează ca necitit
+rule-action-star =
+    .label = Adaugă steluță
+rule-action-priority =
+    .label = Schimbă prioritatea în
+rule-action-tag =
+    .label = Etichetează mesaj
+rule-action-set-spam-status =
+    .label = Setează starea de nedorit la
+rule-action-delete =
+    .label = Șterge mesajul
+rule-action-delete-pop =
+    .label = Șterge de pe serverul POP
+rule-action-fetch-pop =
+    .label = Adu de pe serverul POP
+rule-action-ignore-thread =
+    .label = Ignoră conversația
+rule-action-ignore-subthread =
+    .label = Ignoră conversația subordonată
+rule-action-watch-thread =
+    .label = Urmărește conversația
+rule-action-stop =
+    .label = Oprește executarea filtrului
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Mesaje nedorite
+rule-menuitem-not-spam =
+    .label = Nu este nedorit
+rule-priority-highest =
+    .label = Cea mai mare
+rule-priority-high =
+    .label = Mare
+rule-priority-normal =
+    .label = Normală
+rule-priority-low =
+    .label = Mică
+rule-priority-lowest =
+    .label = Cea mai mică

@@ -106,9 +106,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Agregar una nueva regla
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Eliminar esta regla
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Eliminar esta regla
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Agregar una nueva acción
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Eliminar esta acción
 
 ## Search Term List
 
@@ -121,3 +133,55 @@ search-match-any =
 search-match-all-msgs =
     .label = Todos los mensajes
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Mover mensaje a
+rule-action-copy =
+    .label = Copiar mensaje a
+rule-action-forward =
+    .label = Reenviar mensaje a
+rule-action-reply =
+    .label = Responder con plantilla
+rule-action-read =
+    .label = Marcar como leído
+rule-action-unread =
+    .label = Marcar como no leído
+rule-action-star =
+    .label = Agregar estrella
+rule-action-priority =
+    .label = Establecer prioridad a
+rule-action-tag =
+    .label = Etiquetar mensaje
+rule-action-delete =
+    .label = Eliminar mensaje
+rule-action-delete-pop =
+    .label = Eliminar del Servidor POP
+rule-action-fetch-pop =
+    .label = Traer del servidor POP
+rule-action-ignore-thread =
+    .label = Ignorar hilo
+rule-action-ignore-subthread =
+    .label = Ignorar subhilo
+rule-action-watch-thread =
+    .label = Ver hilo
+rule-action-stop =
+    .label = Detener ejecución del filtro
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = No es spam
+rule-priority-highest =
+    .label = La más alta
+rule-priority-high =
+    .label = Alta
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Baja
+rule-priority-lowest =
+    .label = La más baja

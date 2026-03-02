@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Spam
 rule-menuitem-not-spam =
@@ -93,3 +96,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } / { $total }
+
+## Filter List Dialog
+
+filter-window-title = İleti Süzgeçleri
+filter-name-column =
+    .label = Süzgeç adı
+filter-active-column =
+    .label = Etkin
+filter-new-button =
+    .label = Yeni…
+    .accesskey = Y
+filter-new-copy-button =
+    .label = Kopyala…
+    .accesskey = K
+filter-edit-button =
+    .label = Düzenle…
+    .accesskey = e
+filter-delete-button =
+    .label = Sil
+    .accesskey = S
+filter-reorder-top-button =
+    .label = Üste taşı
+    .accesskey = Ü
+    .tooltiptext = Süzgeci diğerlerinden önce çalışacak şekilde yeniden düzenle
+filter-reorder-up-button =
+    .label = Yukarı taşı
+    .accesskey = Y
+filter-reorder-down-button =
+    .label = Aşağı taşı
+    .accesskey = A
+filter-reorder-bottom-button =
+    .label = Alta taşı
+    .accesskey = A
+    .tooltiptext = Süzgeci diğerlerinden sonra çalışacak şekilde yeniden düzenle
+filter-header-label =
+    .value = Etkin süzgeçler aşağıdaki sıralamaya göre otomatik olarak çalıştırılır.
+filter-filters-for-prefix =
+    .value = Süzülecek hesap:
+    .accesskey = S
+filter-view-log-button =
+    .label = Süzgeç günlüğü
+    .accesskey = l
+filter-run-filters-button =
+    .label = Şimdi çalıştır
+    .accesskey = a
+filter-folder-picker-prefix =
+    .value = Seçili süzgeçleri bu klasörde uygula:
+    .accesskey = i
+filter-search-box =
+    .placeholder = Süzgeçleri isme göre ara…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Seçilen süzgeç(ler)i silmek istediğinizden emin misiniz?
+filter-dont-warn-delete-checkbox = Bunu bir daha sorma
+filter-cannot-enable-incompatible = Bu süzgeç, büyük olasılıkla daha yeni veya uyumsuz bir { -brand-product-name } sürümü tarafından oluşturulmuş. Bu süzgecin nasıl uygulanacağını bilmediğimiz için süzgeci etkinleştiremiyoruz.
+filter-running-title = Çalışan süzgeçler
+filter-running-message =
+    Şu anda iletiler süzülüyor.
+    Süzgeçlerin uygulanmasına devam etmek istiyor musunuz?
+filter-stop-button = Durdur
+filter-continue-button = Devam et
+
+## Filter Editor
+
+filter-editor-window-title = Süzgeç Kuralları
+filter-editor-name =
+    .value = Süzgeç adı:
+    .accesskey = S
+filter-editor-context-desc = Süzgecin uygulanma zamanı:
+filter-editor-context-incoming =
+    .label = Yeni posta alırken:
+    .accesskey = Y
+filter-editor-context-manual =
+    .label = Elle çalıştır
+    .accesskey = E
+filter-editor-context-outgoing =
+    .label = Gönderdikten sonra
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Arşivlerken
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Bu eylemleri uygula:
+    .accesskey = u
+filter-editor-action-order-warning =
+    .value = Not: Süzgeç eylemleri farklı bir sırayla çalıştırılacaktır.
+filter-editor-action-order-link =
+    .value = Çalıştırma sırasını gör
+filter-editor-duplicate-title = Çift süzgeç adı
+filter-editor-duplicate-msg = Girmiş olduğunuz süzgeç adı zaten mevcut. Lütfen farklı bir süzgeç adı girin.
+filter-editor-no-event-title = Hiçbir süzgeç olayı seçilmedi
+filter-editor-no-event-msg = Bu süzgeç uygulandığında en az bir olay seçmelisiniz. Süzgecin geçici olarak hiçbir olayda çalışmasını istemiyorsanız, İleti Süzgeçleri penceresinden devre dışı bırakın.
+filter-editor-match-all-name = Tüm iletilerle eşleştir
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } kopyası
+filter-editor-invalid-search-title = Arama terimleri geçersiz
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = "{ $attribute } { $operator }" arama terimi bu bağlamda geçersiz olduğu için bu süzgeç kaydedilemez.
+filter-editor-action-order-explanation = Bir ileti bu süzgeçle eşleştiği zaman eylemler bu sırayla çalıştırılacaktır:
+filter-editor-action-order-title = Gerçek eylem sırası
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number } { $argument } { $action }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $value } { $operator }

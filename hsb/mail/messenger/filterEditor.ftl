@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Spam
 rule-menuitem-not-spam =
@@ -97,3 +100,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } z { $total }
+
+## Filter List Dialog
+
+filter-window-title = Powěsćowe filtry
+filter-name-column =
+    .label = Mjeno filtra
+filter-active-column =
+    .label = Zmóžnjeny
+filter-new-button =
+    .label = Nowy…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Kopěrować…
+    .accesskey = K
+filter-edit-button =
+    .label = Wobdźěłać…
+    .accesskey = b
+filter-delete-button =
+    .label = Zhašeć
+    .accesskey = Z
+filter-reorder-top-button =
+    .label = Do spočatka přesunyć
+    .accesskey = s
+    .tooltiptext = Filter takle přerjadować, zo by so před wšěmi druhimi wuwjedł
+filter-reorder-up-button =
+    .label = Horje
+    .accesskey = H
+filter-reorder-down-button =
+    .label = Dele
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = Do kónca přesunyć
+    .accesskey = k
+    .tooltiptext = Filter takle přerjadować, zo by so po wšěch druhich wuwjedł
+filter-header-label =
+    .value = Zmóžnjene filtry so awtomatisce w deleka podatym porjedźe nałožuja.
+filter-filters-for-prefix =
+    .value = Filtry za:
+    .accesskey = F
+filter-view-log-button =
+    .label = Protokol filtrow
+    .accesskey = P
+filter-run-filters-button =
+    .label = Nětko nałožić
+    .accesskey = N
+filter-folder-picker-prefix =
+    .value = Wubrane filtry nałožić na:
+    .accesskey = u
+filter-search-box =
+    .placeholder = Filtry po mjenje přepytać…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Chceće woprawdźe wubrane filtry zhašeć?
+filter-dont-warn-delete-checkbox = Hižo so njeprašeć
+filter-cannot-enable-incompatible = Tutón filter je so najskerje přez nowšu abo inkompatibelnu wersiju { -brand-product-name } wutworił. Njemóžeće tutón filter zmóžnić, dokelž njewěmy, kak dyrbi so nałožić.
+filter-running-title = Aktiwne filtry
+filter-running-message =
+    Sće tuchwilu w procesu filtrowanja powěsćow.
+    Chceće z nałožowanjom filtra pokročować?
+filter-stop-button = Stój
+filter-continue-button = Pokročować
+
+## Filter Editor
+
+filter-editor-window-title = Filtrowe prawidła
+filter-editor-name =
+    .value = Mjeno filtra:
+    .accesskey = i
+filter-editor-context-desc = Filter nałožić:
+filter-editor-context-incoming =
+    .label = Nowa e-mejl so wobstaruje:
+    .accesskey = N
+filter-editor-context-manual =
+    .label = Hdyž so manuelnje nałožuje
+    .accesskey = H
+filter-editor-context-outgoing =
+    .label = Po słanju
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Archiwowanje
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Tute akcije wuwjesć:
+    .accesskey = T
+filter-editor-action-order-warning =
+    .value = Kedźbu: Filtrowe akcije so w rozdźělnym porjedźe wuwjedu.
+filter-editor-action-order-link =
+    .value = Hlejće wuwjedźenski porjad
+filter-editor-duplicate-title = Dwójne mjeno filtra
+filter-editor-duplicate-msg = Mjeno filtra, kotrež sće zapodał, hižo eksistuje. Prošu zapodajće druhe.
+filter-editor-no-event-title = Žadyn filtrowy podawk wubrany
+filter-editor-no-event-msg = Dyrbiće znajmjeńša jedyn podawk wubrać, hdyž tutón filter so nałožuje. Jeli nachwilu nochceće filter ze žanym elementom wuwjesć dać, znjemóžńće w dialogu powěsćowych filtrow.
+filter-editor-match-all-name = Wšě powěsće zapřijeć
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } kopěrować
+filter-editor-invalid-search-title = Pytanske wurazy njepłaćiwe
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Tutón filter njeda so składować, dokelž pytanski wuraz "{ $attribute } { $operator }" je njepłaćiwy w aktualnym konteksće.
+filter-editor-action-order-explanation = Hdyž powěsć tutómu filtrej wotpowěduje, akcije přewjedu so po tutym porjedźe:
+filter-editor-action-order-title = Woprawdźity porjad akcijow
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

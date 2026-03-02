@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -77,3 +80,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } da { $total }
+
+## Filter List Dialog
+
+filter-window-title = Filters da messadi
+filter-name-column =
+    .label = Num dal filter
+filter-active-column =
+    .label = Activà
+filter-new-button =
+    .label = Nov…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Copiar…
+    .accesskey = C
+filter-edit-button =
+    .label = Modifitgar…
+    .accesskey = M
+filter-delete-button =
+    .label = Stizzar
+    .accesskey = z
+filter-reorder-top-button =
+    .label = Plazzar sisum
+    .accesskey = i
+    .tooltiptext = Spustar il filter uschia ch'el vegn exequì avant tut ils auters
+filter-reorder-up-button =
+    .label = Ensi
+    .accesskey = E
+filter-reorder-down-button =
+    .label = Engiu
+    .accesskey = g
+filter-reorder-bottom-button =
+    .label = Plazzar giusut
+    .accesskey = u
+    .tooltiptext = Spustar il filter uschia ch'el vegn exequì suenter tut ils auters
+filter-header-label =
+    .value = Filters activads vegnan exequids automaticamain en la suandanta successiun.
+filter-filters-for-prefix =
+    .value = Filters per:
+    .accesskey = F
+filter-view-log-button =
+    .label = Protocol da filters
+    .accesskey = L
+filter-run-filters-button =
+    .label = Exequir ussa
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = Exequir ils filters tschernids en:
+    .accesskey = c
+filter-search-box =
+    .placeholder = Tschertgar filters tenor num…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Es ti segir che ti vuls stizzar ils filters tschernids?
+filter-dont-warn-delete-checkbox = Betg pli dumandar
+filter-cannot-enable-incompatible = Quest filter è probablamain vegnì creà dad ina versiun pli nova u incumpatibla da { -brand-product-name }. Ti na pos betg activar quest filter perquai che questa versiun da l'applicaziun na sa betg co al applitgar.
+filter-running-title = Filters activs
+filter-running-message =
+    Actualmain vegnan messadis filtrads.
+    Duain ils filters vegnir exequids vinavant?
+filter-stop-button = Fermar
+filter-continue-button = Vinavant
+
+## Filter Editor
+
+filter-editor-window-title = Modifitgar il filter
+filter-editor-name =
+    .value = Num dal filter:
+    .accesskey = i
+filter-editor-context-desc = Applitgar il filter cun:
+filter-editor-context-incoming =
+    .label = Retschaiver e-mails:
+    .accesskey = R
+filter-editor-context-manual =
+    .label = Exequir manualmain
+    .accesskey = R
+filter-editor-context-outgoing =
+    .label = Suenter trametter
+    .accesskey = S
+filter-editor-context-archive =
+    .label = Archivar
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Exequir questas acziuns:
+    .accesskey = E
+filter-editor-action-order-warning =
+    .value = Avis: Las acziuns da filtrar vegnan exequidas en in'autra successiun.
+filter-editor-action-order-link =
+    .value = Vesair la successiun d'execuziun
+filter-editor-duplicate-title = Num da filter exista gia
+filter-editor-duplicate-msg = Il num dal filter endatà exista gia. Endatescha per plaschair in auter num.
+filter-editor-no-event-title = Betg tschernì in eveniment da filtrar
+filter-editor-no-event-msg = Ti stos tscherner almain in eveniment per applitgar quest filter. Sche ti vuls deactivar temporarmain quest filter, deactivescha il status activà en il dialog dals filters da messadis.
+filter-editor-match-all-name = Sincronisar tut ils messadis
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Copia da { $name }
+filter-editor-invalid-search-title = Criteris da tschertgar nunvalids
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Impussibel da memorisar quest filter perquai ch'il term da tschertgar "{ $attribute } { $operator }" è nunvalid en il context actual.
+filter-editor-action-order-explanation = Sch'in messadi correspunda a quest filter vegnan las acziuns exequidas en questa successiun:
+filter-editor-action-order-title = Successiun d'execuziun reala
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

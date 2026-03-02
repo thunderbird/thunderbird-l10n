@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = 垃圾邮件
 rule-menuitem-not-spam =
@@ -85,3 +88,116 @@ filter-count-items = { $count } 项
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } / { $total }
+
+## Filter List Dialog
+
+filter-window-title = 消息过滤器
+filter-name-column =
+    .label = 描述
+filter-active-column =
+    .label = 启用
+filter-new-button =
+    .label = 新建…
+    .accesskey = N
+filter-new-copy-button =
+    .label = 复制…
+    .accesskey = C
+filter-edit-button =
+    .label = 编辑…
+    .accesskey = E
+filter-delete-button =
+    .label = 删除
+    .accesskey = t
+filter-reorder-top-button =
+    .label = 移动到顶端
+    .accesskey = o
+    .tooltiptext = 重新排列过滤器以便它可以最先执行
+filter-reorder-up-button =
+    .label = 上移
+    .accesskey = U
+filter-reorder-down-button =
+    .label = 下移
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = 移动到底部
+    .accesskey = B
+    .tooltiptext = 重新排列过滤器以便它可以最后执行
+filter-header-label =
+    .value = 可用过滤器按如下显示的顺序运行。
+filter-filters-for-prefix =
+    .value = 此过滤器用于:
+    .accesskey = F
+filter-view-log-button =
+    .label = 过滤器日志
+    .accesskey = L
+filter-run-filters-button =
+    .label = 立即执行
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = 执行所选的过滤器，对于:
+    .accesskey = c
+filter-search-box =
+    .placeholder = 按名称搜索过滤器…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = 确定要删除选中的过滤器吗？
+filter-dont-warn-delete-checkbox = 不再询问
+filter-cannot-enable-incompatible = 此过滤器很可能是 { -brand-product-name } 的较新版本或不兼容版本创建的。您无法启用此过滤器，因为我们也不知如何应用。
+filter-running-title = 正在执行的过滤器
+filter-running-message =
+    您当前正在对消息过滤。
+    您要继续执行过滤器吗？
+filter-stop-button = 停止
+filter-continue-button = 继续
+
+## Filter Editor
+
+filter-editor-window-title = 过滤器规则
+filter-editor-name =
+    .value = 过滤器名称:
+    .accesskey = i
+filter-editor-context-desc = 执行过滤器，当：
+filter-editor-context-incoming =
+    .label = 正在获取新邮件：
+    .accesskey = G
+filter-editor-context-manual =
+    .label = 手动运行
+    .accesskey = R
+filter-editor-context-outgoing =
+    .label = 发送后
+    .accesskey = S
+filter-editor-context-archive =
+    .label = 存档
+    .accesskey = A
+filter-editor-action-desc =
+    .value = 执行动作:
+    .accesskey = P
+filter-editor-action-order-warning =
+    .value = 注：过滤器操作将以不同的顺序运行。
+filter-editor-action-order-link =
+    .value = 见执行顺序
+filter-editor-duplicate-title = 过滤器名称重复
+filter-editor-duplicate-msg = 您输入的过滤器名称已经存在，请重新输入不同名称。
+filter-editor-no-event-title = 未选择过滤器事件
+filter-editor-no-event-msg = 这个过滤器应用时，你至少要选择一个事件。如果你希望在所有事件中临时停止运行这个过滤器，从消息过滤器对话框中选空他的启用状态即可。
+filter-editor-match-all-name = 匹配所有信息
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } 的副本
+filter-editor-invalid-search-title = 无效的搜索条件
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = 过滤器无法保存，因为搜索的关键词 "{ $attribute } { $operator }" 在当前上下文环境中是无效的。
+filter-editor-action-order-explanation = 当一个消息匹配此过滤器时，将以下顺序执行操作：
+filter-editor-action-order-title = 实际操作顺序
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }: { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

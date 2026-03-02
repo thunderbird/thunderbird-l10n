@@ -104,9 +104,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Yangi qoida qo‘shish
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Bu qoidani olib tashlash
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Bu qoidani olib tashlash
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Yangi amal qo‘shish
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Bu amalni olib tashlash
 
 ## Search Term List
 
@@ -119,3 +131,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Barcha xabarlarni topish
     .accesskey = x
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Xabarni ko‘chirish
+rule-action-copy =
+    .label = Xabardan nusxa ko‘chirish
+rule-action-forward =
+    .label = Xabarni uzatish
+rule-action-reply =
+    .label = Namuna yordamida javob yozish
+rule-action-read =
+    .label = O‘qilgan deb belgilash
+rule-action-unread =
+    .label = O‘qilmagan deb belgilash
+rule-action-star =
+    .label = Yulduz qo‘shish
+rule-action-priority =
+    .label = Muhimligini o‘zgartirish
+rule-action-tag =
+    .label = Xabarga teg qo‘shish
+rule-action-delete =
+    .label = Xatni oʻchirish
+rule-action-delete-pop =
+    .label = POP serverdan o‘chirish
+rule-action-fetch-pop =
+    .label = POP serverdan olish
+rule-action-ignore-thread =
+    .label = Yozishmalarni e’tiborsiz qoldirish
+rule-action-ignore-subthread =
+    .label = Quyi yozishmalarni e’tiborsiz qoldirish
+rule-action-watch-thread =
+    .label = Yozishmani ko‘rish
+rule-action-stop =
+    .label = Filterlashni to‘xtatish
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Eng yuqori
+rule-priority-high =
+    .label = Yuqori
+rule-priority-normal =
+    .label = O‘rtacha
+rule-priority-low =
+    .label = Past
+rule-priority-lowest =
+    .label = Juda past

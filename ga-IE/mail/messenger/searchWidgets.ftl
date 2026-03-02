@@ -104,9 +104,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Cuir riail nua leis
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Bain an riail seo
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Bain an riail seo
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Cuir gníomh nua leis
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Bain an gníomh seo
 
 ## Search Term List
 
@@ -119,3 +131,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Meaitseáil gach teachtaireacht
     .accesskey = M
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Bog an teachtaireacht go
+rule-action-copy =
+    .label = Cóipeáil an teachtaireacht go
+rule-action-forward =
+    .label = Cuir an teachtaireacht ar aghaidh chuig
+rule-action-reply =
+    .label = Freagair le teimpléad
+rule-action-read =
+    .label = Marcáil "Léite"
+rule-action-unread =
+    .label = Marcáil "Neamhléite"
+rule-action-star =
+    .label = Cuir réiltín leis
+rule-action-priority =
+    .label = Socraigh tosaíocht mar
+rule-action-tag =
+    .label = Clibeáil an teachtaireacht
+rule-action-delete =
+    .label = Scrios an teachtaireacht
+rule-action-delete-pop =
+    .label = Scrios ar an bhfreastalaí POP
+rule-action-fetch-pop =
+    .label = Faigh ón bhfreastalaí POP
+rule-action-ignore-thread =
+    .label = Tabhair Neamhaird ar an Snáithe
+rule-action-ignore-subthread =
+    .label = Tabhair Neamhaird ar an bhFoshnáithe
+rule-action-watch-thread =
+    .label = Bí ag Faire ar an Snáithe
+rule-action-stop =
+    .label = Stop rith an scagaire
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Is Airde
+rule-priority-high =
+    .label = Ard
+rule-priority-normal =
+    .label = Gnách
+rule-priority-low =
+    .label = Íseal
+rule-priority-lowest =
+    .label = Is Ísle

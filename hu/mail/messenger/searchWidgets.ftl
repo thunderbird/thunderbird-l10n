@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Új szabály hozzáadása
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Szabály eltávolítása
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Szabály eltávolítása
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Új művelet hozzáadása
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = A művelet eltávolítása
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Minden üzenet illeszkedjen
     .accesskey = i
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Üzenet áthelyezése
+rule-action-copy =
+    .label = Üzenet átmásolása
+rule-action-forward =
+    .label = Üzenet továbbítása
+rule-action-reply =
+    .label = Válasz sablon használatával
+rule-action-read =
+    .label = Megjelölés olvasottként
+rule-action-unread =
+    .label = Megjelölés olvasatlanként
+rule-action-star =
+    .label = Csillag hozzáadása
+rule-action-priority =
+    .label = Prioritás beállítása
+rule-action-tag =
+    .label = Üzenet címkézése
+rule-action-set-spam-status =
+    .label = Levélszemét-állapot beállítása erre:
+rule-action-delete =
+    .label = Üzenet törlése
+rule-action-delete-pop =
+    .label = Törlés a POP-kiszolgálóról
+rule-action-fetch-pop =
+    .label = Letöltés a POP-kiszolgálóról
+rule-action-ignore-thread =
+    .label = Témacsoport kihagyása
+rule-action-ignore-subthread =
+    .label = Témacsoportrész kihagyása
+rule-action-watch-thread =
+    .label = Témacsoport figyelése
+rule-action-stop =
+    .label = Szűrő végrehajtásának leállítása
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Levélszemét
+rule-menuitem-not-spam =
+    .label = Nem levélszemét
+rule-priority-highest =
+    .label = Rendkívül sürgős
+rule-priority-high =
+    .label = Sürgős
+rule-priority-normal =
+    .label = Normál
+rule-priority-low =
+    .label = Kevéssé sürgős
+rule-priority-lowest =
+    .label = Nem sürgős

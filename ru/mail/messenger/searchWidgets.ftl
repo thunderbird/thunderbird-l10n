@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Добавить новое условие
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Удалить это условие
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Удалить это условие
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Добавить новое действие
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Удалить это действие
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Без каких-либо условий
     .accesskey = е
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Переместить сообщение в
+rule-action-copy =
+    .label = Копировать сообщение в
+rule-action-forward =
+    .label = Переслать сообщение на
+rule-action-reply =
+    .label = Ответить по шаблону
+rule-action-read =
+    .label = Отметить как прочитанное
+rule-action-unread =
+    .label = Отметить как непрочитанное
+rule-action-star =
+    .label = Отметить звёздочкой
+rule-action-priority =
+    .label = Изменить важность на
+rule-action-tag =
+    .label = Присвоить сообщению метку
+rule-action-set-spam-status =
+    .label = Установить статус спама для
+rule-action-delete =
+    .label = Удалить сообщение
+rule-action-delete-pop =
+    .label = Удалить с сервера POP
+rule-action-fetch-pop =
+    .label = Загрузить с сервера POP
+rule-action-ignore-thread =
+    .label = Пропустить обсуждение
+rule-action-ignore-subthread =
+    .label = Пропустить ветку обсуждения
+rule-action-watch-thread =
+    .label = Отслеживать обсуждение
+rule-action-stop =
+    .label = Остановить выполнение фильтра
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Спам
+rule-menuitem-not-spam =
+    .label = Не спам
+rule-priority-highest =
+    .label = самую высокую
+rule-priority-high =
+    .label = высокую
+rule-priority-normal =
+    .label = обычную
+rule-priority-low =
+    .label = низкую
+rule-priority-lowest =
+    .label = самую низкую

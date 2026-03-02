@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
@@ -36,3 +39,61 @@ filter-editor-pick-template-reply = Изберете шаблон со која 
 filter-continue-execution = Примената на филтерот { $filterName } не успеа. Сакате да продолжите да применувате филтри?
 filter-list-backup-message = Вашите филтри не работат бидејќи msgFilterRules.dat датотеката, која ги содржи Вашите филтри не може да се прочита. Ќе биде креирана нова msgFilterRules.dat датотека. Резерва на старата датотека, со име rulesbackup.dat, ќе биде креирана во истиот директориум.
 filter-invalid-custom-header = Некој од Вашите филтри користи сопствено заглавје кое содржи неважечки знак, како ‘:’, знак кој не се печати, не-ascii знак, или осум-битен ascii знак. Изменете ја датотеката msgFilterRules.dat, која ги содржи Вашите филтри, за да ги отстраните неважечките знаци.
+
+## Filter List Dialog
+
+filter-window-title = Филтри за пораките
+filter-name-column =
+    .label = Име на филтерот
+filter-active-column =
+    .label = Овозможен
+filter-new-button =
+    .label = Нов…
+    .accesskey = Н
+filter-edit-button =
+    .label = Уреди…
+    .accesskey = е
+filter-delete-button =
+    .label = Избриши
+    .accesskey = б
+filter-reorder-up-button =
+    .label = Оди нагоре
+    .accesskey = г
+filter-reorder-down-button =
+    .label = Оди надолу
+    .accesskey = д
+filter-header-label =
+    .value = Овозможените филтри се извршуваат автоматски по долниот редослед.
+filter-filters-for-prefix =
+    .value = Филтри за:
+    .accesskey = Ф
+filter-view-log-button =
+    .label = Дневник на филтри
+    .accesskey = н
+filter-run-filters-button =
+    .label = Изврши сега
+    .accesskey = с
+filter-folder-picker-prefix =
+    .value = Изврши ги избраните филтри на:
+    .accesskey = з
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Сигурно сакате да го избришете овој филтер?
+filter-running-title = Извршување на филтрите
+filter-running-message =
+    Во тек е процес на филтрирање на пораки.
+    Дали сакате да продолжите да ги применувате филтрите?
+filter-stop-button = Стоп
+filter-continue-button = Продолжи
+
+## Filter Editor
+
+filter-editor-window-title = Правила за филтрите
+filter-editor-name =
+    .value = Име на филтер:
+    .accesskey = И
+filter-editor-action-desc =
+    .value = Изврши ги следниве дејствија:
+    .accesskey = р
+filter-editor-duplicate-title = Дупликат име на филтер
+filter-editor-duplicate-msg = Името на филтерот кое го внесовте веќе постои. Изберете друго име.

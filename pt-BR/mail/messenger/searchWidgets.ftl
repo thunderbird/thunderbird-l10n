@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Adicionar uma regra
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Remover esta regra
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Remover esta regra
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Adicionar uma nova ação
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Remover esta ação
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Todas as mensagens
     .accesskey = o
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Mover para
+rule-action-copy =
+    .label = Copiar para
+rule-action-forward =
+    .label = Encaminhar para
+rule-action-reply =
+    .label = Responder com o modelo
+rule-action-read =
+    .label = Marcar como lida
+rule-action-unread =
+    .label = Marcar como não lida
+rule-action-star =
+    .label = Marcar com estrela
+rule-action-priority =
+    .label = Definir prioridade como
+rule-action-tag =
+    .label = Aplicar etiqueta
+rule-action-set-spam-status =
+    .label = Definir status de spam como
+rule-action-delete =
+    .label = Excluir mensagem
+rule-action-delete-pop =
+    .label = Excluir do servidor POP
+rule-action-fetch-pop =
+    .label = Buscar do servidor POP
+rule-action-ignore-thread =
+    .label = Ignorar tópico
+rule-action-ignore-subthread =
+    .label = Ignorar subtópico
+rule-action-watch-thread =
+    .label = Monitorar tópico
+rule-action-stop =
+    .label = Interromper a aplicação do filtro
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = Não spam
+rule-priority-highest =
+    .label = Altíssima
+rule-priority-high =
+    .label = Alta
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Baixa
+rule-priority-lowest =
+    .label = Baixíssima

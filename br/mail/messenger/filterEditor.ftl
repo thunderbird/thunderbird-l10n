@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
@@ -66,3 +69,115 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } eus { $total }
+
+## Filter List Dialog
+
+filter-window-title = Siloù ar c'hemennadennoù
+filter-name-column =
+    .label = Anv ar sil
+filter-active-column =
+    .label = Gweredekaet
+filter-new-button =
+    .label = Nevez…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Eilañ...
+    .accesskey = E
+filter-edit-button =
+    .label = Embann…
+    .accesskey = E
+filter-delete-button =
+    .label = Dilemel
+    .accesskey = D
+filter-reorder-top-button =
+    .label = Dilec'hiañ d'ar c'hrec'h
+    .accesskey = l
+    .tooltiptext = Adkempenn ar sil evit erounit anezhañ a-raok ar re all
+filter-reorder-up-button =
+    .label = Dilec'hiañ uheloc'h
+    .accesskey = u
+filter-reorder-down-button =
+    .label = Dilec'hiañ izeloc'h
+    .accesskey = i
+filter-reorder-bottom-button =
+    .label = Dilec'hiañ d'an traoñ
+    .accesskey = t
+    .tooltiptext = Adkempenn ar sil evit erounit anezhañ goude ar re all
+filter-header-label =
+    .value = Lañset eo ar siloù gweredekaet ent emgefreek diouzh an urzh da heul.
+filter-filters-for-prefix =
+    .value = Siloù evit :
+    .accesskey = S
+filter-view-log-button =
+    .label = Logaritm silañ
+    .accesskey = t
+filter-run-filters-button =
+    .label = Lañsañ diouzhtu
+    .accesskey = d
+filter-folder-picker-prefix =
+    .value = Lañsañ ar sil(où) diuzet war :
+    .accesskey = i
+filter-search-box =
+    .placeholder = Klask siloù dre o anvioù…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Ha fellout a ra deoc'h dilemel ar sil-mañ ?
+filter-dont-warn-delete-checkbox = Na c'houlenn diganin en-dro
+filter-running-title = Siloù war erounit
+filter-running-message =
+    Emaoc'h o silañ kemennadennoù bremañ.
+    Ha fellout a ra deoc'h kenderc'hel gant arloañ siloù ?
+filter-stop-button = Paouez
+filter-continue-button = Kenderc'hel
+
+## Filter Editor
+
+filter-editor-window-title = Reolennoù silañ
+filter-editor-name =
+    .value = Anv ar sil :
+    .accesskey = i
+filter-editor-context-desc = Arloañ ar sil pa vez:
+filter-editor-context-incoming =
+    .label = Kerc'het kemennadennoù nevez :
+    .accesskey = K
+filter-editor-context-manual =
+    .label = Lañset dre zorn
+    .accesskey = r
+filter-editor-context-outgoing =
+    .label = Goude bezañ bet kaset
+    .accesskey = S
+filter-editor-context-archive =
+    .label = Diellerezh
+    .accesskey = D
+filter-editor-action-desc =
+    .value = Lañsañ ar gwezhioù da-heul :
+    .accesskey = o
+filter-editor-action-order-warning =
+    .value = Notenn : Loc'het e vo gwezhioù ar siloù dre un urzh disheñvel.
+filter-editor-action-order-link =
+    .value = Gwelout urzh loc'hañ ar gwezhioù
+filter-editor-duplicate-title = Eilañ anv ar sil
+filter-editor-duplicate-msg = An anv sil bet enanket ganeoc'h ez eus anezhañ endeo. Enankit un anv sil disheñvel, mar plij.
+filter-editor-no-event-title = Degouezh silañ ebet bet diuzet
+filter-editor-no-event-msg = Ret eo deoc'h diuzañ un degouezh da nebeutañ pa'z eo arloet ar sil-mañ. Ma ne fell ket deoc'h erounit ar sil-mañ war degouezh ebet, digevaskit anezhañ e voest diviz ar siloù kemennadennoù.
+filter-editor-match-all-name = Diuzañ an holl gemennadennoù
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Eilad eus { $name }
+filter-editor-invalid-search-title = Termenoù enklask didalvoudek
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Ar sil-mañ n'hall ket bezañ enrollet rak an termen enklask "{ $attribute } { $operator }" zo didalvoudek er c'hemperzh-mañ.
+filter-editor-action-order-explanation = Pa genglot ur gemennadenn gant ar sil-mañ e vez loc'het ar gwezhioù dre an urzh-mañ :
+filter-editor-action-order-title = Urzh loc'hañ ar gwezhioù
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator } : { $value }

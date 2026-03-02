@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Een nieuwe regel toevoegen
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Deze regel verwijderen
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Deze regel verwijderen
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Een nieuwe actie toevoegen
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Deze actie verwijderen
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Alle berichten
     .accesskey = b
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Bericht verplaatsen naar
+rule-action-copy =
+    .label = Bericht kopiëren naar
+rule-action-forward =
+    .label = Bericht doorsturen naar
+rule-action-reply =
+    .label = Antwoorden met sjabloon
+rule-action-read =
+    .label = Markeren als gelezen
+rule-action-unread =
+    .label = Markeren als ongelezen
+rule-action-star =
+    .label = Ster toevoegen
+rule-action-priority =
+    .label = Prioriteit wijzigen naar
+rule-action-tag =
+    .label = Bericht labelen
+rule-action-set-spam-status =
+    .label = Spamstatus instellen op
+rule-action-delete =
+    .label = Bericht verwijderen
+rule-action-delete-pop =
+    .label = Verwijderen van POP-server
+rule-action-fetch-pop =
+    .label = Ophalen van POP-server
+rule-action-ignore-thread =
+    .label = Conversatie negeren
+rule-action-ignore-subthread =
+    .label = Subconversatie negeren
+rule-action-watch-thread =
+    .label = Conversatie volgen
+rule-action-stop =
+    .label = Uitvoeren van filter stoppen
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Ongewenst
+rule-menuitem-not-spam =
+    .label = Niet ongewenst
+rule-priority-highest =
+    .label = Hoogst
+rule-priority-high =
+    .label = Hoog
+rule-priority-normal =
+    .label = Normaal
+rule-priority-low =
+    .label = Laag
+rule-priority-lowest =
+    .label = Laagst

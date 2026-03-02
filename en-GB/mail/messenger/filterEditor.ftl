@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Spam
 rule-menuitem-not-spam =
@@ -93,3 +96,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } of { $total }
+
+## Filter List Dialog
+
+filter-window-title = Message Filters
+filter-name-column =
+    .label = Filter Name
+filter-active-column =
+    .label = Enabled
+filter-new-button =
+    .label = New…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Copy…
+    .accesskey = C
+filter-edit-button =
+    .label = Edit…
+    .accesskey = E
+filter-delete-button =
+    .label = Delete
+    .accesskey = t
+filter-reorder-top-button =
+    .label = Move to Top
+    .accesskey = o
+    .tooltiptext = Rearrange filter so it executes before all others
+filter-reorder-up-button =
+    .label = Move Up
+    .accesskey = U
+filter-reorder-down-button =
+    .label = Move Down
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = Move to Bottom
+    .accesskey = B
+    .tooltiptext = Rearrange filter so it executes after all others
+filter-header-label =
+    .value = Enabled filters are run automatically in the order shown below.
+filter-filters-for-prefix =
+    .value = Filters for:
+    .accesskey = F
+filter-view-log-button =
+    .label = Filter Log
+    .accesskey = L
+filter-run-filters-button =
+    .label = Run Now
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = Run selected filter(s) on:
+    .accesskey = c
+filter-search-box =
+    .placeholder = Search filters by name…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Are you sure you want to delete the selected filter(s)?
+filter-dont-warn-delete-checkbox = Don't ask me again
+filter-cannot-enable-incompatible = This filter was probably created by a newer or incompatible version of { -brand-product-name }. You cannot enable this filter because we don't know how to apply it.
+filter-running-title = Running Filters
+filter-running-message =
+    You are currently in the process of filtering messages.
+    Would you like to continue applying filters?
+filter-stop-button = Stop
+filter-continue-button = Continue
+
+## Filter Editor
+
+filter-editor-window-title = Filter Rules
+filter-editor-name =
+    .value = Filter name:
+    .accesskey = i
+filter-editor-context-desc = Apply filter when:
+filter-editor-context-incoming =
+    .label = Getting New Mail:
+    .accesskey = G
+filter-editor-context-manual =
+    .label = Manually Run
+    .accesskey = R
+filter-editor-context-outgoing =
+    .label = After Sending
+    .accesskey = S
+filter-editor-context-archive =
+    .label = Archiving
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Perform these actions:
+    .accesskey = P
+filter-editor-action-order-warning =
+    .value = Note: Filter actions will be run in a different order.
+filter-editor-action-order-link =
+    .value = See execution order
+filter-editor-duplicate-title = Duplicate Filter Name
+filter-editor-duplicate-msg = The filter name you entered already exists. Please enter a different filter name.
+filter-editor-no-event-title = No filter event selected
+filter-editor-no-event-msg = You must select at least one event when this filter is applied. If you temporarily do not wish the filter to run at any event, uncheck its enabled state from the Message Filters dialog.
+filter-editor-match-all-name = Match All Messages
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Copy of { $name }
+filter-editor-invalid-search-title = Search Terms Invalid
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = This filter cannot be saved because the search term "{ $attribute } { $operator }" is invalid in the current context.
+filter-editor-action-order-explanation = When a message matches this filter the actions will be run in this order:
+filter-editor-action-order-title = Real action order
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

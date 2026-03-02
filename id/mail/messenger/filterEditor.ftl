@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Spam
 rule-menuitem-not-spam =
@@ -85,3 +88,116 @@ filter-count-items = { $count } item
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } dari { $total }
+
+## Filter List Dialog
+
+filter-window-title = Filter Pesan
+filter-name-column =
+    .label = Nama Filter
+filter-active-column =
+    .label = Aktifkan
+filter-new-button =
+    .label = Baru…
+    .accesskey = B
+filter-new-copy-button =
+    .label = Salin…
+    .accesskey = C
+filter-edit-button =
+    .label = Ubah…
+    .accesskey = U
+filter-delete-button =
+    .label = Hapus
+    .accesskey = H
+filter-reorder-top-button =
+    .label = Pindahkan ke Atas
+    .accesskey = o
+    .tooltiptext = Atur ulang filter agar dijalankan sebelum yang lainnya
+filter-reorder-up-button =
+    .label = Naikkan
+    .accesskey = N
+filter-reorder-down-button =
+    .label = Turunkan
+    .accesskey = T
+filter-reorder-bottom-button =
+    .label = Pindahkan ke Bawah
+    .accesskey = B
+    .tooltiptext = Susun ulang filter sehingga dijalankan setelah semua yang lain
+filter-header-label =
+    .value = Filter yang aktif akan dijalankan secara otomatis sesuai urutan di bawah ini.
+filter-filters-for-prefix =
+    .value = Filter untuk:
+    .accesskey = F
+filter-view-log-button =
+    .label = Log Filter
+    .accesskey = L
+filter-run-filters-button =
+    .label = Jalankan Sekarang
+    .accesskey = J
+filter-folder-picker-prefix =
+    .value = Jalankan Filter yang Terpilih pada:
+    .accesskey = a
+filter-search-box =
+    .placeholder = Pencarian filter berdasarkan nama ...
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Yakin akan menghapus filter terpilih?
+filter-dont-warn-delete-checkbox = Jangan tanya lagi
+filter-cannot-enable-incompatible = Filter ini mungkin dibuat oleh versi { -brand-product-name } yang lebih baru atau tidak kompatibel. Anda tidak dapat mengaktifkan filter ini karena kami tidak tahu cara menerapkannya.
+filter-running-title = Menjalankan Filter
+filter-running-message =
+    Anda sedang dalam proses memfilter pesan.
+    Apakah ingin melanjutkan memfilter pesan?
+filter-stop-button = Berhenti
+filter-continue-button = Lanjutkan
+
+## Filter Editor
+
+filter-editor-window-title = Aturan Filter
+filter-editor-name =
+    .value = Nama filter:
+    .accesskey = i
+filter-editor-context-desc = Terapkan filter ketika:
+filter-editor-context-incoming =
+    .label = Mendapatkan Surel Baru:
+    .accesskey = G
+filter-editor-context-manual =
+    .label = Jalankan Secara Manual
+    .accesskey = R
+filter-editor-context-outgoing =
+    .label = Setelah Mengirim
+    .accesskey = S
+filter-editor-context-archive =
+    .label = Mengarsipkan
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Lakukan aksi berikut:
+    .accesskey = L
+filter-editor-action-order-warning =
+    .value = Catatan: Tindakan penyaringan akan dijalankan dalam urutan yang berbeda.
+filter-editor-action-order-link =
+    .value = Lihat pesanan eksekusi
+filter-editor-duplicate-title = Nama Filter Ganda
+filter-editor-duplicate-msg = Nama filter yang dimasukkan sudah ada. Silakan masukkan nama filter yang berbeda.
+filter-editor-no-event-title = Tidak ada acara filter yang dipilih
+filter-editor-no-event-msg = Anda harus memilih setidaknya satu acara saat filter ini diterapkan. Jika Anda sementara tidak ingin filter berjalan pada acara apa pun, hapus centang status yang diaktifkan dari dialog Filter Pesan.
+filter-editor-match-all-name = Cocok dengan Semua Pesan
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Salinan dari { $name }
+filter-editor-invalid-search-title = Kata Kunci Pencarian Tidak Sah
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Filter ini tidak dapat disimpan karena istilah pencarian "{ $attribute } { $operator }" tidak sah dalam konteks saat ini.
+filter-editor-action-order-explanation = Saat pesan sesuai dengan filter ini, tindakan akan dijalankan sesuai urutan ini:
+filter-editor-action-order-title = Urutan tindakan nyata
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Dodaj nowy warunek
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Usuń ten warunek
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Usuń ten warunek
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Dodaj nową czynność
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Usuń tę czynność
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Brak warunków, wszystkie wiadomości
     .accesskey = B
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Przenieś wiadomość do
+rule-action-copy =
+    .label = Kopiuj wiadomość do
+rule-action-forward =
+    .label = Przekaż wiadomość do
+rule-action-reply =
+    .label = Odpowiedz używając szablonu
+rule-action-read =
+    .label = Oznacz jako przeczytaną
+rule-action-unread =
+    .label = Oznacz jako nieprzeczytaną
+rule-action-star =
+    .label = Oznacz gwiazdką
+rule-action-priority =
+    .label = Ustaw priorytet na
+rule-action-tag =
+    .label = Oznacz etykietą
+rule-action-set-spam-status =
+    .label = Ustaw stan niechcianej poczty na
+rule-action-delete =
+    .label = Usuń wiadomość
+rule-action-delete-pop =
+    .label = Usuń z serwera POP
+rule-action-fetch-pop =
+    .label = Pobierz treść z serwera POP
+rule-action-ignore-thread =
+    .label = Ignoruj wątek
+rule-action-ignore-subthread =
+    .label = Ignoruj odpowiedzi
+rule-action-watch-thread =
+    .label = Śledź wątek
+rule-action-stop =
+    .label = Zatrzymaj wykonywanie filtru
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Niechciana
+rule-menuitem-not-spam =
+    .label = Pożądana
+rule-priority-highest =
+    .label = Najwyższy
+rule-priority-high =
+    .label = Wysoki
+rule-priority-normal =
+    .label = Zwykły
+rule-priority-low =
+    .label = Niski
+rule-priority-lowest =
+    .label = Najniższy

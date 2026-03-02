@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Niechciana
 rule-menuitem-not-spam =
@@ -95,3 +98,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } z { $total }
+
+## Filter List Dialog
+
+filter-window-title = Filtry wiadomości
+filter-name-column =
+    .label = Nazwa filtru
+filter-active-column =
+    .label = Włączony
+filter-new-button =
+    .label = Nowy…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Kopiuj…
+    .accesskey = K
+filter-edit-button =
+    .label = Edytuj…
+    .accesskey = E
+filter-delete-button =
+    .label = Usuń
+    .accesskey = U
+filter-reorder-top-button =
+    .label = Przenieś na górę
+    .accesskey = a
+    .tooltiptext = Zmień kolejność tak, aby filtr był wykonywany przed pozostałymi
+filter-reorder-up-button =
+    .label = Przenieś w górę
+    .accesskey = g
+filter-reorder-down-button =
+    .label = Przenieś w dół
+    .accesskey = d
+filter-reorder-bottom-button =
+    .label = Przenieś na dół
+    .accesskey = i
+    .tooltiptext = Zmień kolejność tak, aby filtr był wykonywany po pozostałych
+filter-header-label =
+    .value = Włączone filtry będą uruchomione w następującej kolejności:
+filter-filters-for-prefix =
+    .value = Filtry konta:
+    .accesskey = F
+filter-view-log-button =
+    .label = Dziennik filtrów
+    .accesskey = l
+filter-run-filters-button =
+    .label = Filtruj
+    .accesskey = r
+filter-folder-picker-prefix =
+    .value = Zastosuj wybrane filtry w folderze:
+    .accesskey = Z
+filter-search-box =
+    .placeholder = Nazwa filtru…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Czy na pewno usunąć wybrany(-e) filtr(y)?
+filter-dont-warn-delete-checkbox = Nie pytaj ponownie
+filter-cannot-enable-incompatible = Ten filtr został prawdopodobnie utworzony w nowszej lub niezgodnej wersji programu { -brand-product-name }. Nie można włączyć tego filtru, ponieważ nie wiadomo, jak go zastosować.
+filter-running-title = Uruchomione filtry
+filter-running-message =
+    Trwa filtrowanie wiadomości.
+    Czy kontynuować uruchamianie filtrów?
+filter-stop-button = Zatrzymaj
+filter-continue-button = Kontynuuj
+
+## Filter Editor
+
+filter-editor-window-title = Edycja filtru
+filter-editor-name =
+    .value = Nazwa filtru:
+    .accesskey = N
+filter-editor-context-desc = Stosuj filtr podczas:
+filter-editor-context-incoming =
+    .label = pobierania poczty
+    .accesskey = a
+filter-editor-context-manual =
+    .label = ręcznego uruchamiania
+    .accesskey = r
+filter-editor-context-outgoing =
+    .label = Po wysłaniu
+    .accesskey = w
+filter-editor-context-archive =
+    .label = Archiwizowania
+    .accesskey = c
+filter-editor-action-desc =
+    .value = …i wykonuj następujące czynności:
+    .accesskey = k
+filter-editor-action-order-warning =
+    .value = Filtrowanie odbędzie się w innej niż wyświetlana kolejności.
+filter-editor-action-order-link =
+    .value = Wyświetl kolejność
+filter-editor-duplicate-title = Zduplikowana nazwa filtru
+filter-editor-duplicate-msg = Wprowadzona nazwa filtru już istnieje. Wprowadź inną nazwę filtru.
+filter-editor-no-event-title = Nie wybrano zdarzenia uruchamiającego filtr
+filter-editor-no-event-msg = Przynajmniej jedno zdarzenie uruchamiające ten filtr musi być wybrane. Aby tymczasowo wyłączyć działanie tego filtru, należy odznaczyć go w kolumnie „Włączony” w oknie Filtry wiadomości.
+filter-editor-match-all-name = Wszystkie wiadomości
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopia „{ $name }”
+filter-editor-invalid-search-title = Nieprawidłowe atrybuty wyszukiwania
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Filtr nie może zostać zapisany, ponieważ warunek „{ $attribute } { $operator }” jest nieprawidłowy w tym kontekście.
+filter-editor-action-order-explanation = Gdy wiadomość pasuje do filtru, następujące czynności zostaną kolejno wykonane:
+filter-editor-action-order-title = Rzeczywista kolejność czynności
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator } { $value }

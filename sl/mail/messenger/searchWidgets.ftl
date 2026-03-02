@@ -109,9 +109,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Dodaj novo pravilo
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Odstrani to pravilo
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Odstrani to pravilo
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Dodaj novo dejanje
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Odstrani to dejanje
 
 ## Search Term List
 
@@ -124,3 +136,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Uporabi za vsa sporočila
     .accesskey = U
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Premakni sporočilo v
+rule-action-copy =
+    .label = Kopiraj sporočilo v
+rule-action-forward =
+    .label = Posreduj sporočilo v
+rule-action-reply =
+    .label = Odgovori s predlogo
+rule-action-read =
+    .label = Označi kot prebrano
+rule-action-unread =
+    .label = Označi kot neprebrano
+rule-action-star =
+    .label = Dodaj zvezdico
+rule-action-priority =
+    .label = Nastavi prednost na
+rule-action-tag =
+    .label = Označi sporočilo
+rule-action-set-spam-status =
+    .label = Nastavi stanje Neželeno na
+rule-action-delete =
+    .label = Izbriši sporočilo
+rule-action-delete-pop =
+    .label = Izbriši s strežnika POP
+rule-action-fetch-pop =
+    .label = Prenesi s strežnika POP
+rule-action-ignore-thread =
+    .label = Prezri nit
+rule-action-ignore-subthread =
+    .label = Prezri podnit
+rule-action-watch-thread =
+    .label = Spremljaj nit
+rule-action-stop =
+    .label = Ustavi izvajanje filtra
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Neželeno
+rule-menuitem-not-spam =
+    .label = Ni neželeno
+rule-priority-highest =
+    .label = Najvišje
+rule-priority-high =
+    .label = Visoko
+rule-priority-normal =
+    .label = Običajno
+rule-priority-low =
+    .label = Nizko
+rule-priority-lowest =
+    .label = Najnižje

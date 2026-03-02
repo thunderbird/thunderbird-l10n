@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Добавяне на ново правило
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Премахване на правилото
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Премахване на правилото
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Добавяне на ново действие
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Премахване на това действие
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Съвпадат всички писма
     .accesskey = С
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Преместване на писмото в
+rule-action-copy =
+    .label = Копиране на писмото в
+rule-action-forward =
+    .label = Препращане до
+rule-action-reply =
+    .label = Отговор с шаблон
+rule-action-read =
+    .label = Отбелязване като прочетено
+rule-action-unread =
+    .label = Отбелязване като непрочетено
+rule-action-star =
+    .label = Добавяне на звезда
+rule-action-priority =
+    .label = Задаване приоритета на
+rule-action-tag =
+    .label = Отбелязване на писмо
+rule-action-set-spam-status =
+    .label = Задаване на статус нежелана поща на
+rule-action-delete =
+    .label = Изтриване на писмо
+rule-action-delete-pop =
+    .label = Изтриване от POP сървъра
+rule-action-fetch-pop =
+    .label = Извличане от POP сървъра
+rule-action-ignore-thread =
+    .label = Пренебрегване на дискусия
+rule-action-ignore-subthread =
+    .label = Пренебрегване на поддискусия
+rule-action-watch-thread =
+    .label = Наблюдаване на дискусия
+rule-action-stop =
+    .label = Спиране изпълнението на филтър
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Нежелана поща
+rule-menuitem-not-spam =
+    .label = Не е нежелана поща
+rule-priority-highest =
+    .label = По-висок
+rule-priority-high =
+    .label = Висок
+rule-priority-normal =
+    .label = Нормален
+rule-priority-low =
+    .label = Нисък
+rule-priority-lowest =
+    .label = По-нисък

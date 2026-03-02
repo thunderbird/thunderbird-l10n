@@ -104,9 +104,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = הוסף מסנן חדש
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = הסר מסנן זה
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = הסר מסנן זה
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = הוספת פעולה חדשה
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = הסרת פעולה זו
 
 ## Search Term List
 
@@ -119,3 +131,51 @@ search-match-any =
 search-match-all-msgs =
     .label = התאם את כל ההודעות
     .accesskey = כ
+
+## Rule Action Types
+
+rule-action-move =
+    .label = העבר הודעה אל
+rule-action-copy =
+    .label = העתק הודעה אל
+rule-action-forward =
+    .label = העבר אל:
+rule-action-reply =
+    .label = השב עם תבנית:
+rule-action-read =
+    .label = סמן כנקרא
+rule-action-unread =
+    .label = סימון כלא נקרא
+rule-action-star =
+    .label = הוסף כוכבית
+rule-action-priority =
+    .label = קבע עדיפות ל:
+rule-action-tag =
+    .label = סמן הודעה
+rule-action-delete =
+    .label = מחק הודעה
+rule-action-delete-pop =
+    .label = מחק משרת POP
+rule-action-fetch-pop =
+    .label = טען משרת POP
+rule-action-ignore-thread =
+    .label = התעלם מנושא דיון
+rule-action-ignore-subthread =
+    .label = התעלם מתת שרשור
+rule-action-watch-thread =
+    .label = עקוב אחר נושא דיון
+rule-action-stop =
+    .label = הפסק הפעלת מסננים
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = הכי גבוהה
+rule-priority-high =
+    .label = גבוהה
+rule-priority-normal =
+    .label = רגילה
+rule-priority-low =
+    .label = נמוכה
+rule-priority-lowest =
+    .label = הכי נמוכה

@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Pridať nové pravidlo
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Odstrániť toto pravidlo
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Odstrániť toto pravidlo
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Pridať novú akciu
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Odstrániť túto akciu
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Všetky správy
     .accesskey = e
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Presunúť do priečinka
+rule-action-copy =
+    .label = Kopírovať do priečinka
+rule-action-forward =
+    .label = Odoslať ďalej komu
+rule-action-reply =
+    .label = Odpovedať pomocou šablóny
+rule-action-read =
+    .label = Označiť ako prečítané
+rule-action-unread =
+    .label = Označiť ako neprečítané
+rule-action-star =
+    .label = Pridať hviezdičku
+rule-action-priority =
+    .label = Zmeniť prioritu na
+rule-action-tag =
+    .label = Priradiť správe štítok
+rule-action-set-spam-status =
+    .label = Nastaviť stav správy na
+rule-action-delete =
+    .label = Odstrániť správu
+rule-action-delete-pop =
+    .label = Odstrániť zo servera POP
+rule-action-fetch-pop =
+    .label = Stiahnuť telo správy zo servera POP
+rule-action-ignore-thread =
+    .label = Ignorovať vlákno
+rule-action-ignore-subthread =
+    .label = Ignorovať podvlákno
+rule-action-watch-thread =
+    .label = Sledovať vlákno
+rule-action-stop =
+    .label = Zastaviť vykonávanie filtra
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Nevyžiadaná
+rule-menuitem-not-spam =
+    .label = Nie je nevyžiadaná
+rule-priority-highest =
+    .label = Najvyššia
+rule-priority-high =
+    .label = Vysoká
+rule-priority-normal =
+    .label = Normálna
+rule-priority-low =
+    .label = Nízka
+rule-priority-lowest =
+    .label = Najnižšia

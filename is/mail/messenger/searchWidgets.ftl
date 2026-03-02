@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Bæta við nýrri reglu
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Fjarlægja reglu
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Fjarlægja reglu
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Bæta við nýrri aðgerð
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Fjarlægja þessa aðgerð
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Passar við allan póst
     .accesskey = P
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Færa póst í
+rule-action-copy =
+    .label = Afrita póst í
+rule-action-forward =
+    .label = Áframsenda póst á
+rule-action-reply =
+    .label = Svara með sniðmáti
+rule-action-read =
+    .label = Merkja sem lesið
+rule-action-unread =
+    .label = Merkja sem ólesið
+rule-action-star =
+    .label = Stjörnumerkja
+rule-action-priority =
+    .label = Setja mikilvægi sem
+rule-action-tag =
+    .label = Merkja skilaboð
+rule-action-set-spam-status =
+    .label = Setja ruslpóstsstöðu sem
+rule-action-delete =
+    .label = Eyða pósti
+rule-action-delete-pop =
+    .label = Eyða af POP-póstþjóni
+rule-action-fetch-pop =
+    .label = Ná í frá POP póstþjóni
+rule-action-ignore-thread =
+    .label = Hunsa umræðu
+rule-action-ignore-subthread =
+    .label = Hunsa undirumræðu
+rule-action-watch-thread =
+    .label = Fylgjast með umræðu
+rule-action-stop =
+    .label = Stöðva keyrslu síu
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Ruslpóstur
+rule-menuitem-not-spam =
+    .label = Ekki ruslpóstur
+rule-priority-highest =
+    .label = Hæst
+rule-priority-high =
+    .label = Hátt
+rule-priority-normal =
+    .label = Venjulegt
+rule-priority-low =
+    .label = Lágt
+rule-priority-lowest =
+    .label = Lægst

@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Adder un nove regula
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Remover iste regula
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Remover iste regula
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Adder un nove action
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Remover iste action
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Concordar tote le messages
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Mover le message a
+rule-action-copy =
+    .label = Copiar le message a
+rule-action-forward =
+    .label = Inviar le message ultra a
+rule-action-reply =
+    .label = Responder con modello
+rule-action-read =
+    .label = Marcar como legite
+rule-action-unread =
+    .label = Marcar como non legite
+rule-action-star =
+    .label = Adder stella
+rule-action-priority =
+    .label = Configurar prioritate a
+rule-action-tag =
+    .label = Message etiquetta
+rule-action-set-spam-status =
+    .label = Configurar como indesirate
+rule-action-delete =
+    .label = Deler message
+rule-action-delete-pop =
+    .label = Deler ex Servitor POP
+rule-action-fetch-pop =
+    .label = Discargar ex servitor POP
+rule-action-ignore-thread =
+    .label = Ignorar argumento
+rule-action-ignore-subthread =
+    .label = Ignorar sub-argumento
+rule-action-watch-thread =
+    .label = Surveliar la discussion
+rule-action-stop =
+    .label = Stoppar le execution del filtro
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = Non Spam
+rule-priority-highest =
+    .label = Plus alte
+rule-priority-high =
+    .label = Alte
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Basse
+rule-priority-lowest =
+    .label = Plus basse

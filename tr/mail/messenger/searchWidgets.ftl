@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Yeni bir kural ekle
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Bu kuralı sil
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Bu kuralı sil
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Yeni eylem ekle
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Bu eylemi kaldır
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Tüm iletilerle eşleştir
     .accesskey = T
+
+## Rule Action Types
+
+rule-action-move =
+    .label = İletiyi taşı
+rule-action-copy =
+    .label = İletiyi kopyala
+rule-action-forward =
+    .label = İletiyi ilet
+rule-action-reply =
+    .label = Şablonla yanıtla
+rule-action-read =
+    .label = Okundu olarak işaretle
+rule-action-unread =
+    .label = Okunmadı olarak işaretle
+rule-action-star =
+    .label = Yıldız ekle
+rule-action-priority =
+    .label = Öncelik ata
+rule-action-tag =
+    .label = İletiyi etiketle
+rule-action-set-spam-status =
+    .label = Spam durumunu ayarla
+rule-action-delete =
+    .label = İletiyi sil
+rule-action-delete-pop =
+    .label = POP sunucusundan sil
+rule-action-fetch-pop =
+    .label = POP sunucusundan indir
+rule-action-ignore-thread =
+    .label = Diziyi görmezden gel
+rule-action-ignore-subthread =
+    .label = Alt diziyi görmezden gel
+rule-action-watch-thread =
+    .label = Diziyi takip et
+rule-action-stop =
+    .label = Süzgeci çalıştırmayı durdur
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = Spam değil
+rule-priority-highest =
+    .label = En yüksek
+rule-priority-high =
+    .label = Yüksek
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Düşük
+rule-priority-lowest =
+    .label = En düşük

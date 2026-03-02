@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -77,3 +80,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $total }-ից { $visible }
+
+## Filter List Dialog
+
+filter-window-title = Հաղորդագրութիւնների զտիչներ
+filter-name-column =
+    .label = Զտիչի անունը
+filter-active-column =
+    .label = Միացուել է
+filter-new-button =
+    .label = Նոր…
+    .accesskey = Ն
+filter-new-copy-button =
+    .label = Պատճենել…
+    .accesskey = Պ
+filter-edit-button =
+    .label = Խմբագրել…
+    .accesskey = Խ
+filter-delete-button =
+    .label = Ջնջել
+    .accesskey = ե
+filter-reorder-top-button =
+    .label = Տեղափոխել վերեւ
+    .accesskey = ե
+    .tooltiptext = Վերադասաւորել զտիչը, որ այն գործի բոլորից առաջ
+filter-reorder-up-button =
+    .label = Տեղափոխել վերեւ
+    .accesskey = Վ
+filter-reorder-down-button =
+    .label = Տեղափոխել ներքեւ
+    .accesskey = ն
+filter-reorder-bottom-button =
+    .label = Տեղափոխել դեպի ներքեւ
+    .accesskey = Ն
+    .tooltiptext = Վերադասաւորել զտիչը, որ այն գործի բոլորից յետոյ
+filter-header-label =
+    .value = Միացուած զտիչները կը գործարկուէն միանգամից։
+filter-filters-for-prefix =
+    .value = Զտիչներ՝
+    .accesskey = Զ
+filter-view-log-button =
+    .label = Զտիչի մատեան
+    .accesskey = Մ
+filter-run-filters-button =
+    .label = Գործարկել հիմա
+    .accesskey = Գ
+filter-folder-picker-prefix =
+    .value = Աշխատեցնել ընտրուած զտիչները.
+    .accesskey = ա
+filter-search-box =
+    .placeholder = Որոնել զտիչներ անունով…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Դուք համոզուա՞ծ էք, որ ուզում էք ջնջել նշուած զտիչ(ներ)ը։
+filter-dont-warn-delete-checkbox = Այղեւս չհարցնել
+filter-cannot-enable-incompatible = Այս զտիչը հաւանաբար ստեղծուել է { -brand-product-name }-ի աւելի նոր կամ անհամատեղելի տարբերակով: Դուք չէք կարող միացնել այս զտիչը, քանի որ մենք չգիտենք, թե ինչպէս կիրառել այն:
+filter-running-title = Գործող Զտիչներ
+filter-running-message =
+    Դուք ներկայումս հաղորդագրութիւնների զտման գործընթացում էք:
+    Ցանկանու՞մ էք շարունակել զտիչների կիրառումը:
+filter-stop-button = Դադարեցնել
+filter-continue-button = Շարունակել
+
+## Filter Editor
+
+filter-editor-window-title = Զտիչի կանոններ
+filter-editor-name =
+    .value = Զտիչի անունը.
+    .accesskey = i
+filter-editor-context-desc = Կիրառել զտիչը, երբ՝
+filter-editor-context-incoming =
+    .label = Նոր նամակի ստացում.
+    .accesskey = Ս
+filter-editor-context-manual =
+    .label = գործարկել՝ ոչ ինքնաշխատ կերպով
+    .accesskey = R
+filter-editor-context-outgoing =
+    .label = Ուղարկելուց յետոյ
+    .accesskey = Ու
+filter-editor-context-archive =
+    .label = Արխիւացում
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Կատարել այս գործողութիւնը.
+    .accesskey = P
+filter-editor-action-order-warning =
+    .value = Յիշեցում․ զտիչի գործողութիւնները կը կատարուեն տարբեր հրամաններով։
+filter-editor-action-order-link =
+    .value = Դիտել կատարման կարգը
+filter-editor-duplicate-title = Կրկնաւրինակել զտիչի անուանումը։
+filter-editor-duplicate-msg = Ձեր մուտքագրած զտիչի անունը արդէն գոյութիւն ունի: Ընտրէք զտիչի այղ անուն:
+filter-editor-no-event-title = Զտիչի իրադարձութիւն ընտրուած չէ
+filter-editor-no-event-msg = Դուք պէտք է ընտրէք առնուազն մեկ իրադարձութիւն, երբ այս զտիչը կիրառուի: Եթե դուք չէք ցանկանում, որ զտիչը ժամանակաւորապես աշխատացնի որեւէ իրադարձութիւն, ապա նշէք դրա միացուած վիճակը հաղորդագրութիւնների զտիչների պատուհանից:
+filter-editor-match-all-name = Համապատասխանեցրէ՛ք բոլոր հաղորդագրութիւններին
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name }֊ի պատճէն
+filter-editor-invalid-search-title = Որոնման եզրերը հասանելի չէն
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Այս զտիչը չի կարող պահպանուել, քանի որ «{ $attribute } { $operator }» որոնման հարցումն անվաւեր է ընթացիկ կոնտեքստում:
+filter-editor-action-order-explanation = Երբ հաղորդագրութիւնը համապատասխանում է տարբերուող գործողութիւններին, պէտք է դասաւորուած լինի հետեւեալ հերթականութեամբ՝
+filter-editor-action-order-title = Գործողութիւնների իրական հերթականութիւնը
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

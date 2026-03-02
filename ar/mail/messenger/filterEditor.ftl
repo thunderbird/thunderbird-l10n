@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
@@ -61,3 +64,115 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = ‏{ $visible } من { $total }
+
+## Filter List Dialog
+
+filter-window-title = مرشِّحات الرسائِل
+filter-name-column =
+    .label = اسم المرشِّح
+filter-active-column =
+    .label = مُفعّل
+filter-new-button =
+    .label = جديد…
+    .accesskey = ج
+filter-new-copy-button =
+    .label = انسخ…
+    .accesskey = س
+filter-edit-button =
+    .label = حرّر…
+    .accesskey = ح
+filter-delete-button =
+    .label = احذف
+    .accesskey = ح
+filter-reorder-top-button =
+    .label = انقل إلى البداية
+    .accesskey = ن
+    .tooltiptext = غيّر ترتيب المُرشَّح لينفّذ قبل الآخرين
+filter-reorder-up-button =
+    .label = انقل لأعلى
+    .accesskey = ع
+filter-reorder-down-button =
+    .label = انقل لأسفل
+    .accesskey = س
+filter-reorder-bottom-button =
+    .label = انقل إلى النهاية
+    .accesskey = ق
+    .tooltiptext = غيّر ترتيب المُرشَّح لينفّذ بعد الآخرين
+filter-header-label =
+    .value = تُشغّل المرشحات تلقائيًّا حسب التّرتيب الظّاهر أدناه.
+filter-filters-for-prefix =
+    .value = مرشّحات لأجل:
+    .accesskey = م
+filter-view-log-button =
+    .label = سجل المرشّح
+    .accesskey = س
+filter-run-filters-button =
+    .label = شغّل الآن
+    .accesskey = ش
+filter-folder-picker-prefix =
+    .value = شغّل المرشّحات المختارة على:
+    .accesskey = م
+filter-search-box =
+    .placeholder = ابحث في المُرشّحات بالاسم…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = أمتأكد من أنك تريد حذف هذا المرشِّح؟
+filter-dont-warn-delete-checkbox = لا تسألني مجددًا
+filter-running-title = المرشِّحات العاملة
+filter-running-message =
+    أنت حاليًا في وسط عملية ترشيح الرسائل.
+    أترغب في متابعة تطبيق المرشِّحات؟
+filter-stop-button = قف
+filter-continue-button = واصِل
+
+## Filter Editor
+
+filter-editor-window-title = قواعد التّرشيح
+filter-editor-name =
+    .value = اسم المرشِّح:
+    .accesskey = ر
+filter-editor-context-desc = طبّق المُرشّح عند:
+filter-editor-context-incoming =
+    .label = وصول بريد جديد:
+    .accesskey = ص
+filter-editor-context-manual =
+    .label = التشغيل اليدوي
+    .accesskey = ش
+filter-editor-context-outgoing =
+    .label = بعد الإرسال
+    .accesskey = س
+filter-editor-context-archive =
+    .label = الأرشفة
+    .accesskey = ش
+filter-editor-action-desc =
+    .value = نفذ الإجراءات التالية:
+    .accesskey = ن
+filter-editor-action-order-warning =
+    .value = ملاحظة: ستُنفّذ إجراءات المرشِّح بترتيب مختلف.
+filter-editor-action-order-link =
+    .value = اطّلع على ترتيب التنفيذ
+filter-editor-duplicate-title = اسم المرشِّح مكرر
+filter-editor-duplicate-msg = اسم المرشِّح الذي أدخلته موجود بالفعل. من فضلك أدخل اسم مرشِّح مختلف.
+filter-editor-no-event-title = لم يحدد أي حدث للمرشِّح
+filter-editor-no-event-msg = عليك اختيار حدث واحد على الأقل يطبق عنده المرشِّح. إذا كنت تريد ألا يُطبق هذا المرشح عند أي حدث مؤقتا، فارفع التأشير عن حالة التفعيل في حوار مرشحات الرسائل.
+filter-editor-match-all-name = مطابقة مع جميع الرسائل
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = نسخة من { $name }
+filter-editor-invalid-search-title = كلمات البحث غير صالحة
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = تعذر حفظ هذا المرشِّح لأن عبارة البحث "{ $attribute }‏ { $operator }" لا تصلح في السياق الحالي.
+filter-editor-action-order-explanation = عندما تُطابق رسالة هذا المرشِّح، ستُطبّق الإجراءات بهذا الترتيب:
+filter-editor-action-order-title = ترتيب الإجراءات الفعلي
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = ‏{ $number }.‏ { $action } ‏{ $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

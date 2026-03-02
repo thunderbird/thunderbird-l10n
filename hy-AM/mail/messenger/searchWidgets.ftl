@@ -106,9 +106,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Ավելացնել նոր կանոն
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Ջնջել կանոնը
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Ջնջել կանոնը
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Նոր գործողություն
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Հեռացնել գործողությունը
 
 ## Search Term List
 
@@ -121,3 +133,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Համապատասխան բոլոր նամակներին
     .accesskey = ն
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Տեղափոխել նամակը՝
+rule-action-copy =
+    .label = Պատճենել՝
+rule-action-forward =
+    .label = Փոխանցել՝
+rule-action-reply =
+    .label = Պատասխանել ձևանմուշով
+rule-action-read =
+    .label = Նշել որպես ընթերցված
+rule-action-unread =
+    .label = Նշել որպես ընթերցված
+rule-action-star =
+    .label = Ավելացնել աստղ
+rule-action-priority =
+    .label = Առաջնահերթ-ը՝
+rule-action-tag =
+    .label = Պիտակված նամակ
+rule-action-delete =
+    .label = Ջնջել նամակը
+rule-action-delete-pop =
+    .label = Ջնջել POP սպասարկիչից
+rule-action-fetch-pop =
+    .label = Ընտրել POP սպասարկիչից
+rule-action-ignore-thread =
+    .label = Անտեսել շղթան
+rule-action-ignore-subthread =
+    .label = Անտեսել ենթաշղթան
+rule-action-watch-thread =
+    .label = Հետևել շղթային
+rule-action-stop =
+    .label = Կանգնեցնել զտիչը
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Ամենաբարձր
+rule-priority-high =
+    .label = Բարձր
+rule-priority-normal =
+    .label = Նորմալ
+rule-priority-low =
+    .label = Ցածր
+rule-priority-lowest =
+    .label = Ամենացածր

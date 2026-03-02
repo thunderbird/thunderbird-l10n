@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = 增加新規則
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = 移除此規則
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = 移除此規則
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = 新增動作
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = 移除此動作
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = 符合全部郵件
     .accesskey = M
+
+## Rule Action Types
+
+rule-action-move =
+    .label = 移動郵件到
+rule-action-copy =
+    .label = 複製郵件到
+rule-action-forward =
+    .label = 轉寄郵件給
+rule-action-reply =
+    .label = 使用範本回信
+rule-action-read =
+    .label = 標示為已讀
+rule-action-unread =
+    .label = 標示為未讀
+rule-action-star =
+    .label = 加上星號
+rule-action-priority =
+    .label = 設定重要性為
+rule-action-tag =
+    .label = 加上標籤
+rule-action-set-spam-status =
+    .label = 設定垃圾信狀態為
+rule-action-delete =
+    .label = 刪除郵件
+rule-action-delete-pop =
+    .label = 由 POP 伺服器刪除
+rule-action-fetch-pop =
+    .label = 由 POP 伺服器取回
+rule-action-ignore-thread =
+    .label = 忽略討論串
+rule-action-ignore-subthread =
+    .label = 忽略回覆討論串
+rule-action-watch-thread =
+    .label = 追蹤討論串
+rule-action-stop =
+    .label = 停止篩選
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = 是垃圾信
+rule-menuitem-not-spam =
+    .label = 非垃圾信
+rule-priority-highest =
+    .label = 最高
+rule-priority-high =
+    .label = 高
+rule-priority-normal =
+    .label = 標準
+rule-priority-low =
+    .label = 低
+rule-priority-lowest =
+    .label = 最低

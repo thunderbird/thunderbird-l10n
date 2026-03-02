@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Mesaje nedorite
 rule-menuitem-not-spam =
@@ -95,3 +98,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } din { $total }
+
+## Filter List Dialog
+
+filter-window-title = Filtre de mesaje
+filter-name-column =
+    .label = Denumire filtru
+filter-active-column =
+    .label = Activat
+filter-new-button =
+    .label = Nou…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Copiază…
+    .accesskey = C
+filter-edit-button =
+    .label = Editează…
+    .accesskey = E
+filter-delete-button =
+    .label = Șterge
+    .accesskey = t
+filter-reorder-top-button =
+    .label = Mută în partea de sus
+    .accesskey = s
+    .tooltiptext = Reordonează filtrul ca să fie executat înaintea tuturor celorlalte
+filter-reorder-up-button =
+    .label = Mută sus
+    .accesskey = s
+filter-reorder-down-button =
+    .label = Mută jos
+    .accesskey = j
+filter-reorder-bottom-button =
+    .label = Mută în partea de jos
+    .accesskey = j
+    .tooltiptext = Reordonează filtrul ca să fie executat după toate celelalte
+filter-header-label =
+    .value = Filtrele active vor fi rulate automat în ordinea de mai jos.
+filter-filters-for-prefix =
+    .value = Filtre pentru:
+    .accesskey = F
+filter-view-log-button =
+    .label = Jurnal pentru filtre
+    .accesskey = J
+filter-run-filters-button =
+    .label = Rulează acum
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = Rulează filtrul(ele) selectate pe:
+    .accesskey = c
+filter-search-box =
+    .placeholder = Caută filtre după nume…
+filter-close-key =
+    .key = w
+filter-delete-confirmation = Sigur vrei să ștergi filtrul(filtrele) selectat(e)?
+filter-dont-warn-delete-checkbox = Nu mă mai întreba
+filter-cannot-enable-incompatible = Acest filtru a fost creat probabil de o versiune mai nouă sau incompatibilă de { -brand-product-name }. Nu poți activa acest filtru deoarece nu știm cum să îl aplicăm.
+filter-running-title = Rulare filtre
+filter-running-message =
+    Acum mesajele sunt filtrate mesaje.
+    Vrei să continui filtrarea?
+filter-stop-button = Oprește
+filter-continue-button = Continuă
+
+## Filter Editor
+
+filter-editor-window-title = Reguli pentru filtrare
+filter-editor-name =
+    .value = Denumire filtru:
+    .accesskey = i
+filter-editor-context-desc = Aplică filtrul:
+filter-editor-context-incoming =
+    .label = La obținerea unui mail nou:
+    .accesskey = m
+filter-editor-context-manual =
+    .label = La rularea manuală
+    .accesskey = R
+filter-editor-context-outgoing =
+    .label = După trimitere
+    .accesskey = u
+filter-editor-context-archive =
+    .label = La arhivare
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Efectuează următoarele acțiuni:
+    .accesskey = E
+filter-editor-action-order-warning =
+    .value = Notă: Acțiunile filtrului vor fi executate într-o ordine diferită.
+filter-editor-action-order-link =
+    .value = Vezi ordinea de execuție
+filter-editor-duplicate-title = Nume filtru duplicat
+filter-editor-duplicate-msg = Există deja un filtru cu denumirea introdusă. Te rugăm să introduci o denumire diferită.
+filter-editor-no-event-title = Niciun filtru de eveniment selectat
+filter-editor-no-event-msg = Trebuie să selectezi cel puțin un eveniment când este aplicat acest filtru. Dacă nu vrei deocamdată ca filtrul să vină executat la orice eveniment, debifează-i starea de activat în fereastra de dialog Filtre de mesaje.
+filter-editor-match-all-name = Potrivește toate mesajele
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Copie a { $name }
+filter-editor-invalid-search-title = Termeni de căutare nevalizi
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Acest filtru nu poate fi salvat deoarece termenul de căutare „{ $attribute } { $operator }” este nevalid în contextul actual.
+filter-editor-action-order-explanation = Când un mesaj corespunde filtrului, acțiunile vin executate în această ordine:
+filter-editor-action-order-title = Ordine reală a acțiunilor
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = เพิ่มกฎใหม่
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = เอากฎนี้ออก
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = เอากฎนี้ออก
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = เพิ่มการกระทำใหม่
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = เอาการกระทำนี้ออก
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = ตรงกับข้อความทั้งหมด
     .accesskey = ข
+
+## Rule Action Types
+
+rule-action-move =
+    .label = ย้ายข้อความไปยัง
+rule-action-copy =
+    .label = คัดลอกข้อความไปยัง
+rule-action-forward =
+    .label = ส่งต่อข้อความไปยัง
+rule-action-reply =
+    .label = ตอบกลับด้วยแม่แบบ
+rule-action-read =
+    .label = ทำเครื่องหมายว่าอ่านแล้ว
+rule-action-unread =
+    .label = ทำเครื่องหมายว่ายังไม่ได้อ่าน
+rule-action-star =
+    .label = เพิ่มดาว
+rule-action-priority =
+    .label = ตั้งค่าลำดับความสำคัญเป็น
+rule-action-tag =
+    .label = ติดป้ายกำกับข้อความ
+rule-action-set-spam-status =
+    .label = ตั้งค่าสถานะสแปมเป็น
+rule-action-delete =
+    .label = ลบข้อความ
+rule-action-delete-pop =
+    .label = ลบจากเซิร์ฟเวอร์ POP
+rule-action-fetch-pop =
+    .label = ดึงจากเซิร์ฟเวอร์ POP
+rule-action-ignore-thread =
+    .label = เพิกเฉยเธรด
+rule-action-ignore-subthread =
+    .label = เพิกเฉยเธรดย่อย
+rule-action-watch-thread =
+    .label = เฝ้าดูเธรด
+rule-action-stop =
+    .label = หยุดการทำงานของตัวกรอง
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = สแปม
+rule-menuitem-not-spam =
+    .label = ไม่ใช่สแปม
+rule-priority-highest =
+    .label = สูงสุด
+rule-priority-high =
+    .label = สูง
+rule-priority-normal =
+    .label = ปกติ
+rule-priority-low =
+    .label = ต่ำ
+rule-priority-lowest =
+    .label = ต่ำสุด

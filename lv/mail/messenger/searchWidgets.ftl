@@ -104,9 +104,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Pievienot jaunu noteikumu
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Noņemt šo noteikumu
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Noņemt šo noteikumu
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Pievienot jaunu darbību
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Noņemt šo darbību
 
 ## Search Term List
 
@@ -119,3 +131,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Atbilst visām vēstulēm
     .accesskey = a
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Pārvietot vēstuli uz
+rule-action-copy =
+    .label = Kopēt vēstuli uz
+rule-action-forward =
+    .label = Pārsūtīt vēstuli uz
+rule-action-reply =
+    .label = Atbildēt ar veidni
+rule-action-read =
+    .label = Atzīmēt kā lasītu
+rule-action-unread =
+    .label = Atzīmēt kā nelasītu
+rule-action-star =
+    .label = Pievienot zvaigznīti
+rule-action-priority =
+    .label = Iestatīt prioritāti uz
+rule-action-tag =
+    .label = Birkot vēstuli
+rule-action-delete =
+    .label = Dzēst vēstuli
+rule-action-delete-pop =
+    .label = Dzēst no POP servera
+rule-action-fetch-pop =
+    .label = Ielādēt no POP servera
+rule-action-ignore-thread =
+    .label = Ignorēt pavedienu
+rule-action-ignore-subthread =
+    .label = Ignorēt apakšpavedienu
+rule-action-watch-thread =
+    .label = Skatīt pavedienu
+rule-action-stop =
+    .label = Pārtraukt filtru izpildi
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Augstākā
+rule-priority-high =
+    .label = Augsta
+rule-priority-normal =
+    .label = Parasta
+rule-priority-low =
+    .label = Zema
+rule-priority-lowest =
+    .label = Zemākā

@@ -104,9 +104,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Cuir riaghailt ùr ris
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Thoir air falbh an riaghailt seo
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Thoir air falbh an riaghailt seo
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Cuir gnìomh ùr ris
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Thoir air falbh an gnìomh seo
 
 ## Search Term List
 
@@ -119,3 +131,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Maids a h-uile teachdaireachd
     .accesskey = M
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Gluais an teachdaireachd gu
+rule-action-copy =
+    .label = Cuir lethbhreac dhen teachdaireachd gu
+rule-action-forward =
+    .label = Sìn an teachdaireachd air adhart gu
+rule-action-reply =
+    .label = Thoir freagairt le teamplaid
+rule-action-read =
+    .label = Cuir comharra air gun deach a leughadh
+rule-action-unread =
+    .label = Cuir comharra nach deach a leughadh
+rule-action-star =
+    .label = Cuir rionnag ris
+rule-action-priority =
+    .label = Atharraich a prìomhachas gu
+rule-action-tag =
+    .label = Cuir taga ris an teachdaireachd
+rule-action-delete =
+    .label = Sguab às an teachdaireachd
+rule-action-delete-pop =
+    .label = Sguab às on fhrithealaiche POP
+rule-action-fetch-pop =
+    .label = Faigh on fhrithealaiche POP
+rule-action-ignore-thread =
+    .label = Leig seachad an snàth
+rule-action-ignore-subthread =
+    .label = Leig seachad am fo-shnàth
+rule-action-watch-thread =
+    .label = Cum sùil air an t-snàth
+rule-action-stop =
+    .label = Sguir dhen chriathradh
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = As àirde
+rule-priority-high =
+    .label = Àrd
+rule-priority-normal =
+    .label = Àbhaisteach
+rule-priority-low =
+    .label = Ìseal
+rule-priority-lowest =
+    .label = As ìsle

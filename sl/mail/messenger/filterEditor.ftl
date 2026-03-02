@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Neželeno
 rule-menuitem-not-spam =
@@ -97,3 +100,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } od { $total }
+
+## Filter List Dialog
+
+filter-window-title = Filtri sporočil
+filter-name-column =
+    .label = Ime filtra
+filter-active-column =
+    .label = Omogočeno
+filter-new-button =
+    .label = Nov …
+    .accesskey = N
+filter-new-copy-button =
+    .label = Kopiraj …
+    .accesskey = K
+filter-edit-button =
+    .label = Uredi …
+    .accesskey = U
+filter-delete-button =
+    .label = Izbriši
+    .accesskey = b
+filter-reorder-top-button =
+    .label = Premakni na vrh
+    .accesskey = v
+    .tooltiptext = Preuredi filter, tako da se izvede pred vsemi ostalimi
+filter-reorder-up-button =
+    .label = Premakni gor
+    .accesskey = g
+filter-reorder-down-button =
+    .label = Premakni dol
+    .accesskey = d
+filter-reorder-bottom-button =
+    .label = Premakni na dno
+    .accesskey = o
+    .tooltiptext = Preuredi filter, tako da se izvede za vsemi ostalimi
+filter-header-label =
+    .value = Omogočeni filtri se samodejno zaženejo po spodnjem vrstnem redu.
+filter-filters-for-prefix =
+    .value = Filtri za:
+    .accesskey = F
+filter-view-log-button =
+    .label = Dnevnik filtrov
+    .accesskey = D
+filter-run-filters-button =
+    .label = Zaženi zdaj
+    .accesskey = Z
+filter-folder-picker-prefix =
+    .value = Zaženi izbrane filtre na:
+    .accesskey = a
+filter-search-box =
+    .placeholder = Išči filtre po imenu …
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Ali želite izbrisati ta filter oz. filtre?
+filter-dont-warn-delete-checkbox = Ne sprašuj več
+filter-cannot-enable-incompatible = Ta filter je verjetno ustvarila novejša ali nezdružljiva različica { -brand-product-name }. Ne morete ga omogočiti, ker ga vaša različica ne zna uporabiti.
+filter-running-title = Filtri se izvajajo
+filter-running-message =
+    Trenutno se vaša sporočila filtrirajo.
+    Ali želite nadaljevati z uporabo filtrov?
+filter-stop-button = Ustavi
+filter-continue-button = Nadaljuj
+
+## Filter Editor
+
+filter-editor-window-title = Pravila za filtriranje
+filter-editor-name =
+    .value = Ime filtra:
+    .accesskey = m
+filter-editor-context-desc = Uporabi filter:
+filter-editor-context-incoming =
+    .label = ob prejemu nove pošte:
+    .accesskey = o
+filter-editor-context-manual =
+    .label = ob ročnem zagonu
+    .accesskey = č
+filter-editor-context-outgoing =
+    .label = po pošiljanju
+    .accesskey = š
+filter-editor-context-archive =
+    .label = ob arhiviranju
+    .accesskey = a
+filter-editor-action-desc =
+    .value = Izvedi ta dejanja:
+    .accesskey = z
+filter-editor-action-order-warning =
+    .value = Opomba: Dejanja filtra se bodo izvajala v drugačnem vrstnem redu.
+filter-editor-action-order-link =
+    .value = Vrstni red izvajanja
+filter-editor-duplicate-title = Kopirajte ime filtra
+filter-editor-duplicate-msg = Ime za filter, ki ste ga vnesli, že obstaja. Vnesite drugo ime za filter.
+filter-editor-no-event-title = Dogodek filtra ni izbran
+filter-editor-no-event-msg = Izbrati morate vsaj en dogodek, kdaj naj se filter uporablja. Če filtra začasno ne želite uporabljati, ga izključite v pogovornem oknu Filtri sporočil.
+filter-editor-match-all-name = Uporabi za vsa sporočila
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopija od { $name }
+filter-editor-invalid-search-title = Neveljavni pogoji iskanja
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Tega filtra ni mogoče shraniti, ker je iskalni niz "{ $attribute } { $operator }" neveljaven v trenutnem kontekstu.
+filter-editor-action-order-explanation = Ko sporočilo ustreza temu filtru, se bodo dejanja izvedla v tem vrstnem redu:
+filter-editor-action-order-title = Vrstni red dejanj
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

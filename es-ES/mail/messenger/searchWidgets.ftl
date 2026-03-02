@@ -111,9 +111,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Añadir una nueva regla
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Eliminar esta regla
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Eliminar esta regla
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Añadir una acción nueva
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Eliminar esta acción
 
 ## Search Term List
 
@@ -126,3 +138,57 @@ search-match-any =
 search-match-all-msgs =
     .label = Incluir todos los mensajes
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Mover mensaje a
+rule-action-copy =
+    .label = Copiar mensaje a
+rule-action-forward =
+    .label = Reenviar mensaje a
+rule-action-reply =
+    .label = Responder con plantilla
+rule-action-read =
+    .label = Marcar como leído
+rule-action-unread =
+    .label = Marcar como no leído
+rule-action-star =
+    .label = Añadir estrella
+rule-action-priority =
+    .label = Fijar prioridad a
+rule-action-tag =
+    .label = Etiquetar mensaje
+rule-action-set-spam-status =
+    .label = Establecer estado de correo no deseado a
+rule-action-delete =
+    .label = Eliminar mensaje
+rule-action-delete-pop =
+    .label = Eliminar del servidor POP
+rule-action-fetch-pop =
+    .label = Recuperar del servidor POP
+rule-action-ignore-thread =
+    .label = Ignorar conversación
+rule-action-ignore-subthread =
+    .label = Ignorar sub-conversación
+rule-action-watch-thread =
+    .label = Observar conversación
+rule-action-stop =
+    .label = Detener ejecución de los filtros
+
+## Rule Action Targets
+
+rule-menuitem-spam =
+    .label = Mensaje no deseado
+rule-menuitem-not-spam =
+    .label = Mensaje legítimo
+rule-priority-highest =
+    .label = La más alta
+rule-priority-high =
+    .label = Alta
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Baja
+rule-priority-lowest =
+    .label = La más baja

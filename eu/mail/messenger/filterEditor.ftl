@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Spam
 # Variables:
@@ -79,3 +82,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $total } / { $visible }
+
+## Filter List Dialog
+
+filter-window-title = Mezuen iragazkiak
+filter-name-column =
+    .label = Iragazkiaren izena
+filter-active-column =
+    .label = Gaituta
+filter-new-button =
+    .label = Berria…
+    .accesskey = B
+filter-new-copy-button =
+    .label = Kopiatu…
+    .accesskey = K
+filter-edit-button =
+    .label = Editatu…
+    .accesskey = E
+filter-delete-button =
+    .label = Ezabatu
+    .accesskey = t
+filter-reorder-top-button =
+    .label = Mugitu gora
+    .accesskey = o
+    .tooltiptext = Berrordenatu iragazkia gainontzeko guztien aurretik exekuta dadin
+filter-reorder-up-button =
+    .label = Eraman gorantz
+    .accesskey = g
+filter-reorder-down-button =
+    .label = Eraman beherantz
+    .accesskey = b
+filter-reorder-bottom-button =
+    .label = Mugitu behera
+    .accesskey = b
+    .tooltiptext = Berrordenatu iragazkia gainontzekoen ondoren exekuta dadin
+filter-header-label =
+    .value = Gaitutako iragazkiak automatikoki exekutatzen dira, behean erakutsitako ordenan.
+filter-filters-for-prefix =
+    .value = Honen iragazkiak:
+    .accesskey = H
+filter-view-log-button =
+    .label = Iragazkien erregistroa
+    .accesskey = e
+filter-run-filters-button =
+    .label = Abiarazi orain
+    .accesskey = r
+filter-folder-picker-prefix =
+    .value = Exekutatu eskuz aukeratutako iragazkia(k) karpeta honetan:
+    .accesskey = k
+filter-search-box =
+    .placeholder = Bilatu iragazkiak izenearen arabera…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Ziur zaude iragazki hau ezabatu nahi duzula?
+filter-dont-warn-delete-checkbox = Ez galdetu berriz
+filter-cannot-enable-incompatible = Iragazki hau beharbada { -brand-product-name } bertsio berriago batek sortua izan da. Ezin duzu iragazki hau gaitu ezin delako jakin nola aplikatu.
+filter-running-title = Exekutatzen ari diren iragazkiak
+filter-running-message =
+    Mezuak iragazten ari zara.
+    Iragazkiak ezartzen jarraitu nahi duzu?
+filter-stop-button = Gelditu
+filter-continue-button = Jarraitu
+
+## Filter Editor
+
+filter-editor-window-title = Iragazkien arauak
+filter-editor-name =
+    .value = Iragazkiaren izena:
+    .accesskey = I
+filter-editor-context-desc = Iragazkia noiz aplikatu:
+filter-editor-context-incoming =
+    .label = Posta berria eskuratzea:
+    .accesskey = b
+filter-editor-context-manual =
+    .label = Exekutatu eskuz
+    .accesskey = E
+filter-editor-context-outgoing =
+    .label = Bidali ostean
+    .accesskey = o
+filter-editor-context-archive =
+    .label = Artxibatzen
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Burutu ekintza hauek:
+    .accesskey = B
+filter-editor-action-order-warning =
+    .value = Oharra: iragazte-ekintzak beste ordena batean exekutatuko dira.
+filter-editor-action-order-link =
+    .value = Ikusi exekuzio-ordena
+filter-editor-duplicate-title = Iragazkiaren izena bikoiztuta
+filter-editor-duplicate-msg = Sartu duzun iragazkiaren izena badago. Erabili beste izen bat.
+filter-editor-no-event-title = Ez da iragazte-gertaerarik hautatu
+filter-editor-no-event-msg = Iragazkia aplikatuko den gertaera bat hautatu behar duzu gutxienez. Behin-behinean ez baduzu nahi iragazkia exekutatzea edozein gertaerarentzat, kendu bere gaitze-egoeraren marka 'Mezuen iragazkiak' elkarrizketa-koadroan.
+filter-editor-match-all-name = Mezu guztiak
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopiatu { $name }tik
+filter-editor-invalid-search-title = Bilaketa-termino baliogabeak
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Iragazki hau ezin da gorde "{ $attribute } { $operator }" bilaketa-terminoa baliogabea delako uneko testuinguruan.
+filter-editor-action-order-explanation = Mezu bat iragazki honekin bat datorrenean ekintzak ordena honetan exekutatuko dira:
+filter-editor-action-order-title = Ekintzen benetako ordena
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

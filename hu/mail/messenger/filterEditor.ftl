@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Levélszemét
 rule-menuitem-not-spam =
@@ -93,3 +96,116 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } / { $total }
+
+## Filter List Dialog
+
+filter-window-title = Üzenetszűrők
+filter-name-column =
+    .label = Szűrő neve
+filter-active-column =
+    .label = Engedélyezve
+filter-new-button =
+    .label = Új…
+    .accesskey = Ú
+filter-new-copy-button =
+    .label = Másolás…
+    .accesskey = M
+filter-edit-button =
+    .label = Szerkesztés…
+    .accesskey = S
+filter-delete-button =
+    .label = Törlés
+    .accesskey = T
+filter-reorder-top-button =
+    .label = Mozgatás a tetejére
+    .accesskey = M
+    .tooltiptext = Szűrő átrendezése, hogy a többi előtt fusson
+filter-reorder-up-button =
+    .label = Mozgatás felfelé
+    .accesskey = f
+filter-reorder-down-button =
+    .label = Mozgatás lefelé
+    .accesskey = l
+filter-reorder-bottom-button =
+    .label = Mozgatás az aljára
+    .accesskey = a
+    .tooltiptext = Szűrő átrendezése, hogy a többi után fusson
+filter-header-label =
+    .value = Az engedélyezett szűrők a következő sorrendben fognak futni:
+filter-filters-for-prefix =
+    .value = Szűrők a következőkhöz:
+    .accesskey = z
+filter-view-log-button =
+    .label = Szűrőnapló
+    .accesskey = n
+filter-run-filters-button =
+    .label = Futtatás most
+    .accesskey = u
+filter-folder-picker-prefix =
+    .value = Kijelölt szűrők futtatása ezen a mappán:
+    .accesskey = K
+filter-search-box =
+    .placeholder = Szűrők keresése név szerint…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Biztos benne, hogy törölni akarja a kijelölt szűrőket?
+filter-dont-warn-delete-checkbox = Ne kérdezze meg többet
+filter-cannot-enable-incompatible = Ezt a szűrőt valószínűleg a { -brand-product-name } egy későbbi vagy nem kompatibilis változatával készítették. Nem lehet engedélyezni, mert a program nem tudja, hogy kell alkalmazni.
+filter-running-title = Szűrők futtatása
+filter-running-message =
+    Jelenleg folyamatban van az üzenetek szűrése.
+    Szeretné folytatni a szűrők alkalmazását?
+filter-stop-button = Leállítás
+filter-continue-button = Folytatás
+
+## Filter Editor
+
+filter-editor-window-title = Szűrés szabályai
+filter-editor-name =
+    .value = Szűrő neve:
+    .accesskey = z
+filter-editor-context-desc = Szűrő alkalmazása:
+filter-editor-context-incoming =
+    .label = Új levelek letöltése:
+    .accesskey = t
+filter-editor-context-manual =
+    .label = Kézzel futtatva
+    .accesskey = K
+filter-editor-context-outgoing =
+    .label = Küldés után
+    .accesskey = d
+filter-editor-context-archive =
+    .label = Archiválás
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Műveletek végrehajtása:
+    .accesskey = v
+filter-editor-action-order-warning =
+    .value = Megjegyzés: a szűrési műveletek más sorrendben lesznek futtatva.
+filter-editor-action-order-link =
+    .value = Végrehajtási sorrend megjelenítése
+filter-editor-duplicate-title = Már létező szűrő
+filter-editor-duplicate-msg = A beírt névvel már létezik szűrő. Adjon meg egy másik nevet.
+filter-editor-no-event-title = Nincs kiválasztva szűrőesemény
+filter-editor-no-event-msg = Legalább egy eseményt ki kell választania ezen szűrő alkalmazásához. Ha ideiglenesen nem szeretné, hogy a szűrő bármikor is lefusson, akkor törölje az engedélyezett állapotát az Üzenetszűrők ablakban.
+filter-editor-match-all-name = Minden üzenet illeszkedjen
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } másolata
+filter-editor-invalid-search-title = Érvénytelen keresési kifejezés
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Ezt a szűrőt nem lehet menteni, mert a(z) „{ $attribute } { $operator }” keresési kifejezés érvénytelen ebben a kontextusban.
+filter-editor-action-order-explanation = Amikor egy üzenet illeszkedik erre a szűrőre, a műveletek ebben a sorrendben lesznek futtatva:
+filter-editor-action-order-title = Valódi műveletsorrend
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

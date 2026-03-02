@@ -104,9 +104,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Ouzhpennañ ur reolenn nevez
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Lemel kuit ar reolenn-se
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Lemel kuit ar reolenn-se
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Ouzhpennañ ur gwezh nevez
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Lemel ar gwezh-mañ
 
 ## Search Term List
 
@@ -119,3 +131,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Kenglotañ gant an holl gemennadennoù
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Dilec'hiañ ar gemennadenn etrezek
+rule-action-copy =
+    .label = Eilañ ar gemennadenn e
+rule-action-forward =
+    .label = Kas ar gemennadenn en-dro da
+rule-action-reply =
+    .label = Respont gant ur patrom
+rule-action-read =
+    .label = Merkañ evel Lennet
+rule-action-unread =
+    .label = Merkañ evel Anlennet
+rule-action-star =
+    .label = Ouzhpennañ ur steredenn
+rule-action-priority =
+    .label = Lakaat tevet da
+rule-action-tag =
+    .label = Kemennadenn gant ur merk
+rule-action-delete =
+    .label = Dilemel ar gemennadenn
+rule-action-delete-pop =
+    .label = Lemel kuit diouzh an dafariad POP
+rule-action-fetch-pop =
+    .label = Kerc’hat diouzh an dafariad POP
+rule-action-ignore-thread =
+    .label = Leuskel an neudennad a-gostez
+rule-action-ignore-subthread =
+    .label = Leuskel an isneudennad a-gostez
+rule-action-watch-thread =
+    .label = Sellout ouzh an neudennad
+rule-action-stop =
+    .label = Paouez erounezadur ar sil
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Uhelañ
+rule-priority-high =
+    .label = Uhel
+rule-priority-normal =
+    .label = Reizh
+rule-priority-low =
+    .label = Izel
+rule-priority-lowest =
+    .label = Izelañ

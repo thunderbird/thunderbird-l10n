@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
@@ -51,3 +54,115 @@ filter-count-items = { $count } item
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } daripada { $total }
+
+## Filter List Dialog
+
+filter-window-title = Tapis Mesej
+filter-name-column =
+    .label = Nama Penapis
+filter-active-column =
+    .label = Didayakan
+filter-new-button =
+    .label = Baru…
+    .accesskey = B
+filter-new-copy-button =
+    .label = Salin…
+    .accesskey = S
+filter-edit-button =
+    .label = Edit…
+    .accesskey = E
+filter-delete-button =
+    .label = Buang
+    .accesskey = g
+filter-reorder-top-button =
+    .label = Pindah ke Atas
+    .accesskey = t
+    .tooltiptext = Susun semula penapis supaya dilaksanakan sebelum semua yang lain
+filter-reorder-up-button =
+    .label = Pindah Atas
+    .accesskey = A
+filter-reorder-down-button =
+    .label = Pindah Bawah
+    .accesskey = B
+filter-reorder-bottom-button =
+    .label = Pindah ke Bawah
+    .accesskey = B
+    .tooltiptext = Susun semula penapis supaya dilaksanakan selepas semua yang lain
+filter-header-label =
+    .value = Penapis yang aktif dilaksanakan secara automatik mengikut susunan di bawah.
+filter-filters-for-prefix =
+    .value = Tapis untuk:
+    .accesskey = P
+filter-view-log-button =
+    .label = Tapis Log
+    .accesskey = L
+filter-run-filters-button =
+    .label = Laksanakan Sekarang
+    .accesskey = L
+filter-folder-picker-prefix =
+    .value = Laksanakan penapis yang dipilih pada:
+    .accesskey = l
+filter-search-box =
+    .placeholder = Cari penapis mengikut nama…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Adakah anda pasti mahu menghapuskan penapis yang dipilih?
+filter-dont-warn-delete-checkbox = Jangan tanya lagi
+filter-running-title = Penapisan Berlangsung
+filter-running-message =
+    Anda sedang dalam proses menapis mesej.
+    Adakah anda mahu terus menggunakan penapis?
+filter-stop-button = Berhenti
+filter-continue-button = Teruskan
+
+## Filter Editor
+
+filter-editor-window-title = Peraturan Tapisan
+filter-editor-name =
+    .value = Nama penapis:
+    .accesskey = i
+filter-editor-context-desc = Laksanakan tapisan apabila:
+filter-editor-context-incoming =
+    .label = Mendapatkan Mel Baru:
+    .accesskey = M
+filter-editor-context-manual =
+    .label = Laksanakan secara Manual
+    .accesskey = L
+filter-editor-context-outgoing =
+    .label = Selepas Menghantar
+    .accesskey = M
+filter-editor-context-archive =
+    .label = Arkib
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Laksanakan tindakan ini:
+    .accesskey = L
+filter-editor-action-order-warning =
+    .value = Nota: Tindakan tapisan akan dilaksanakan dalam turutan berbeza.
+filter-editor-action-order-link =
+    .value = Lihat pelaksanaan perintah
+filter-editor-duplicate-title = Duplikasi Nama Penapis
+filter-editor-duplicate-msg = Nama penapis yang anda masukkan telah wujud. Sila masukkan nama penapis yang berbeza.
+filter-editor-no-event-title = Tiada acara penapis yang dipilih
+filter-editor-no-event-msg = Anda perlu pilih sekurang-kurangnya satu acara apabila penapis ini dilaksanakan. Jika anda tidak mahu penapis melaksanakan acara buat sementara waktu, buang tanda dalam dialog Penapis Mesej.
+filter-editor-match-all-name = Padankan Semua Mesej
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Salinan { $name }
+filter-editor-invalid-search-title = Terma Carian Tidah Sah
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Penapis ini tidak dapat disimpan kerana istilah carian "{ $operator } { $attribute }" tidak sah dalam konteks semasa.
+filter-editor-action-order-explanation = Apabila mesej sepadan dengan penapis ini, tindakan akan dijalankan mengikut susunan ini:
+filter-editor-action-order-title = Susunan tindakan sebenar
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
