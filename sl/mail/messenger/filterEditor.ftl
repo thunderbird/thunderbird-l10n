@@ -108,6 +108,19 @@ filter-count-visible-of-total = { $visible } od { $total }
 
 filter-editor-window-title = Pravila za filtriranje
 filter-editor-context-desc = Uporabi filter:
+filter-editor-action-order-link =
+    .value = Vrstni red izvajanja
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Tega filtra ni mogoče shraniti, ker je iskalni niz "{ $attribute } { $operator }" neveljaven v trenutnem kontekstu.
+filter-editor-action-order-explanation = Ko sporočilo ustreza temu filtru, se bodo dejanja izvedla v tem vrstnem redu:
+filter-editor-action-order-title = Vrstni red dejanj
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
