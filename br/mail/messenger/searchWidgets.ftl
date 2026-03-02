@@ -104,6 +104,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Ouzhpennañ ur reolenn nevez
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Lemel kuit ar reolenn-se
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Lemel kuit ar reolenn-se

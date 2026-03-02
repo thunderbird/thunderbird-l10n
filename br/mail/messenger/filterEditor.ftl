@@ -99,6 +99,11 @@ filter-editor-action-order-warning =
     .value = Notenn : Loc'het e vo gwezhioù ar siloù dre un urzh disheñvel.
 filter-editor-action-order-link =
     .value = Gwelout urzh loc'hañ ar gwezhioù
+filter-editor-duplicate-title = Eilañ anv ar sil
+filter-editor-duplicate-msg = An anv sil bet enanket ganeoc'h ez eus anezhañ endeo. Enankit un anv sil disheñvel, mar plij.
+filter-editor-no-event-title = Degouezh silañ ebet bet diuzet
+filter-editor-no-event-msg = Ret eo deoc'h diuzañ un degouezh da nebeutañ pa'z eo arloet ar sil-mañ. Ma ne fell ket deoc'h erounit ar sil-mañ war degouezh ebet, digevaskit anezhañ e voest diviz ar siloù kemennadennoù.
+filter-editor-match-all-name = Diuzañ an holl gemennadennoù
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Eilad eus { $name }
