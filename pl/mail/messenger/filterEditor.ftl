@@ -101,6 +101,34 @@ filter-count-visible-of-total = { $visible } z { $total }
 
 ## Filter List Dialog
 
+filter-reorder-top-button =
+    .label = Przenieś na górę
+    .accesskey = a
+    .tooltiptext = Zmień kolejność tak, aby filtr był wykonywany przed pozostałymi
+filter-reorder-up-button =
+    .label = Przenieś w górę
+    .accesskey = g
+filter-reorder-down-button =
+    .label = Przenieś w dół
+    .accesskey = d
+filter-reorder-bottom-button =
+    .label = Przenieś na dół
+    .accesskey = i
+    .tooltiptext = Zmień kolejność tak, aby filtr był wykonywany po pozostałych
+filter-header-label =
+    .value = Włączone filtry będą uruchomione w następującej kolejności:
+filter-filters-for-prefix =
+    .value = Filtry konta:
+    .accesskey = F
+filter-view-log-button =
+    .label = Dziennik filtrów
+    .accesskey = l
+filter-run-filters-button =
+    .label = Filtruj
+    .accesskey = r
+filter-folder-picker-prefix =
+    .value = Zastosuj wybrane filtry w folderze:
+    .accesskey = Z
 filter-search-box =
     .placeholder = Nazwa filtru…
 filter-close-key =
