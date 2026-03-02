@@ -127,6 +127,13 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = Archifo
     .accesskey = A
+filter-editor-action-desc =
+    .value = Gwneud hyn:
+    .accesskey = G
+filter-editor-action-order-warning =
+    .value = Sylw: Bydd gweithredoedd hidlo'n cael eu rhedeg mewn trefn gwahanol.
+filter-editor-action-order-link =
+    .value = Gw. trefn weithredu
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Copi o { $name }

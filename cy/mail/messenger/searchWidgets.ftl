@@ -139,6 +139,8 @@ rule-action-reply =
     .label = Ateb gyda Thempled
 rule-action-read =
     .label = Marcio wedi Darllen
+rule-action-set-spam-status =
+    .label = Gosod Statws Sbam i
 
 ## Rule Action Targets
 
