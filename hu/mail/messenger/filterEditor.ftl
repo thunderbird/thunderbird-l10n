@@ -123,6 +123,9 @@ filter-editor-action-order-warning =
     .value = Megjegyzés: a szűrési műveletek más sorrendben lesznek futtatva.
 filter-editor-action-order-link =
     .value = Végrehajtási sorrend megjelenítése
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } másolata
 filter-editor-invalid-search-title = Érvénytelen keresési kifejezés
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
