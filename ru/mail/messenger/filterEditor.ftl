@@ -105,6 +105,9 @@ filter-count-visible-of-total = { $visible } из { $total }
 ## Filter Editor
 
 filter-editor-window-title = Правила фильтрации
+filter-editor-name =
+    .value = Имя фильтра:
+    .accesskey = м
 filter-editor-context-desc = Применять фильтр при:
 filter-editor-context-incoming =
     .label = Получении новой почты:
@@ -112,3 +115,28 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = Запуске вручную
     .accesskey = а
+filter-editor-context-outgoing =
+    .label = После отправки почты
+    .accesskey = е
+filter-editor-context-archive =
+    .label = Архивации
+    .accesskey = х
+filter-editor-action-desc =
+    .value = Производить следующие действия:
+    .accesskey = и
+filter-editor-action-order-warning =
+    .value = Примечание: Действия фильтра будут запускаться в другом порядке.
+filter-editor-action-order-link =
+    .value = Посмотреть порядок выполнения
+filter-editor-invalid-search-title = Поисковые запросы некорректны
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Этот фильтр не может быть сохранён, так как поисковый запрос "{ $attribute } { $operator }" в текущем контексте некорректен.
+filter-editor-action-order-explanation = Когда сообщение подходит под этот фильтр, действия будут произведены в следующем порядке:
+filter-editor-action-order-title = Реальный порядок действий
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
