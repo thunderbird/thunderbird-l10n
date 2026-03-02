@@ -106,6 +106,9 @@ filter-name-column =
     .label = Имя фильтра
 filter-active-column =
     .label = Включён
+filter-folder-picker-prefix =
+    .value = Запустить выбранные фильтры в папке:
+    .accesskey = ы
 
 ## Filter Editor
 
