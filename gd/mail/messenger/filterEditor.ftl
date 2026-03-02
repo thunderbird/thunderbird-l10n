@@ -94,10 +94,27 @@ filter-editor-window-title = Riaghailtean a' chriathraidh
 filter-editor-name =
     .value = Ainm na criathraige:
     .accesskey = i
+filter-editor-context-desc = Cleachd a’ chriathrag aig na h-amannan a leanas:
+filter-editor-context-incoming =
+    .label = Nuair a gheibhear post ùr:
+    .accesskey = g
+filter-editor-context-manual =
+    .label = Nuair a chuirear gu dol a làimh
+    .accesskey = r
+filter-editor-context-outgoing =
+    .label = An dèidh a chuir
+    .accesskey = d
+filter-editor-context-archive =
+    .label = Aig àm tasglannaidh
+    .accesskey = a
 filter-editor-action-order-warning =
     .value = An aire: Thèid gnìomhan criathradh a chur an gnìomh ann an òrdugh eadar-dhealaichte.
 filter-editor-action-order-link =
     .value = Faic òrdugh a' ghnìomhachaidh
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Lethbhreac de { $name }
+filter-editor-invalid-search-title = Faclan-luirg mì-dhligheach
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
