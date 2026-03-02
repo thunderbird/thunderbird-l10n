@@ -103,3 +103,8 @@ filter-count-visible-of-total = { $visible } de { $total }
 ## Filter Editor
 
 filter-editor-context-desc = Aplicar filtro:
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
