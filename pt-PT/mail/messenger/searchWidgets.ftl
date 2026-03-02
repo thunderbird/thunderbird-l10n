@@ -140,6 +140,16 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Mover mensagem para
+rule-action-copy =
+    .label = Copiar mensagem para
+rule-action-forward =
+    .label = Reencaminhar mensagem para
+rule-action-reply =
+    .label = Responder com modelo
+rule-action-read =
+    .label = Marcar como lida
 rule-action-unread =
     .label = Marcar como não lida
 rule-action-star =
