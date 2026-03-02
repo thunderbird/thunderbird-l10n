@@ -123,6 +123,9 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = Archiwěrowanje
     .accesskey = A
+filter-editor-action-desc =
+    .value = Toś te akcije wuwjasć:
+    .accesskey = T
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } kopěrowaś
@@ -138,3 +141,8 @@ filter-editor-action-order-title = Napšawdny pórěd akcijow
 #   $action (String) - The action label
 #   $argument (String) - The folder or value associated with the action
 filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

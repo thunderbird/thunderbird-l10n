@@ -129,6 +129,8 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-set-spam-status =
+    .label = Spamowy status stajiś na
 
 ## Rule Action Targets
 
