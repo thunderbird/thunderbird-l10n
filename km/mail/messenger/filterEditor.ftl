@@ -71,6 +71,34 @@ filter-edit-button =
 filter-delete-button =
     .label = Ջնջել
     .accesskey = t
+filter-reorder-top-button =
+    .label = ផ្លាស់ទី​ទៅ​​លើ
+    .accesskey = o
+    .tooltiptext = រៀបចំ​តម្រង​ឡើងវិញ ដូច្នេះ​វា​ប្រតិបត្តិ​មុន​អ្នក​ផ្សេង​ទាំងអស់
+filter-reorder-up-button =
+    .label = Վեր
+    .accesskey = U
+filter-reorder-down-button =
+    .label = Վար
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = ផ្លាស់ទី​ទៅ​ក្រោម
+    .accesskey = B
+    .tooltiptext = រៀបចំ​តម្រង​ឡើងវិញ ដូច្នេះ​វា​ប្រតិបត្តិ​បន្ទាប់​​តម្រង​ផ្សេង​ទាំងអស់
+filter-header-label =
+    .value = Միացված ֆիլտրերը կկատարվեն միանգամից։
+filter-filters-for-prefix =
+    .value = Ֆիլտրեր՝
+    .accesskey = F
+filter-view-log-button =
+    .label = Ֆիլտրի մատյանը
+    .accesskey = L
+filter-run-filters-button =
+    .label = Բացել
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = Կատարել ընտրված ֆիլտրերը.
+    .accesskey = c
 
 ## Filter Editor
 
