@@ -99,6 +99,14 @@ filter-count-visible-of-total = { $visible } af { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Póstsíur
+filter-name-column =
+    .label = Nafn síu
+filter-active-column =
+    .label = Virk
+filter-new-button =
+    .label = Ný…
+    .accesskey = N
 
 ## Filter Editor
 
