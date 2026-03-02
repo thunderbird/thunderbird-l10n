@@ -152,8 +152,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Rhedeg yr hidl(au) ar:
     .accesskey = R
+filter-search-box =
+    .placeholder = Chwilio yn ôl enw…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Ydych chi'n siŵr eich bod eisiau dileu'r hidl(au)?
 filter-dont-warn-delete-checkbox = Peidio â gofyn eto
 filter-cannot-enable-incompatible = Cafodd yr hidl ei greu gan fersiwn y dyfodol neu anghymarus o { -brand-product-name }. Nid oes modd galluogi'r hidl am nad ydym yn gwybod sut mae ei weithredu.
+filter-running-title = Rhedeg Hidlau
+filter-running-message =
+    Rydych yn y broses o hidlo negeseuon.
+    Hoffech chi barhau i osod yr hidlau?
+filter-stop-button = Atal
+filter-continue-button = Parhau
 
 ## Filter Editor
 
