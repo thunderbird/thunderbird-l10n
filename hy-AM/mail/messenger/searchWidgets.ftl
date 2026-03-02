@@ -121,3 +121,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Համապատասխան բոլոր նամակներին
     .accesskey = ն
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Ամենաբարձր
+rule-priority-high =
+    .label = Բարձր
+rule-priority-normal =
+    .label = Նորմալ
+rule-priority-low =
+    .label = Ցածր
+rule-priority-lowest =
+    .label = Ամենացածր
