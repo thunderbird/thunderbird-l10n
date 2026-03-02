@@ -113,6 +113,31 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = Manually Run
     .accesskey = R
+filter-editor-context-outgoing =
+    .label = After Sending
+    .accesskey = S
+filter-editor-context-archive =
+    .label = Archiving
+    .accesskey = A
+filter-editor-action-order-warning =
+    .value = Note: Filter actions will be run in a different order.
+filter-editor-action-order-link =
+    .value = See execution order
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Copy of { $name }
+filter-editor-invalid-search-title = Search Terms Invalid
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = This filter cannot be saved because the search term "{ $attribute } { $operator }" is invalid in the current context.
+filter-editor-action-order-explanation = When a message matches this filter the actions will be run in this order:
+filter-editor-action-order-title = Real action order
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
