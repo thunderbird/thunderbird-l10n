@@ -106,3 +106,31 @@ filter-editor-window-title = Filterregler
 filter-editor-name =
     .value = Filternavn:
     .accesskey = F
+filter-editor-context-desc = Bruk filteret når:
+filter-editor-context-outgoing =
+    .label = Etter sending
+    .accesskey = E
+filter-editor-context-archive =
+    .label = Arkivering
+    .accesskey = A
+filter-editor-action-order-warning =
+    .value = Merk: Filterhandlinger vil kjøres i en annen rekkefølge.
+filter-editor-action-order-link =
+    .value = Se utførelsesrekkefølge
+filter-editor-invalid-search-title = Søkeordene er ugyldige
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Dette filteret kan ikke lagres fordi søketermene "{ $attribute } { $operator }" er ugyldige i sammenhengen.
+filter-editor-action-order-explanation = Når en melding passer til dette filteret, vil handlinger utføres i denne rekkefølgen:
+filter-editor-action-order-title = Reell handlingsrekkefølge
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
