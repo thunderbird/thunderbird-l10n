@@ -99,6 +99,18 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = ਚੁਣੇ ਫੋਲਡਰ ਤੇ ਚਲਾਓ:
     .accesskey = c
+filter-search-box =
+    .placeholder = Search filters by name…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Are you sure you want to delete the selected filter(s)?
+filter-dont-warn-delete-checkbox = ਮੈਨੂੰ ਮੁੜ ਨਾਲ ਪੁੱਛੋ
+filter-running-title = ਫਿਲਟਰ ਚੱਲ ਰਿਹਾ ਹੈ
+filter-running-message =
+    ਇਸ ਸਮੇਂ ਸੁਨੇਹੇ ਫਿਲਟਰ ਕਾਰਵਾਈ ਅਧੀਨ ਹਨ
+    ਕੀ ਤੁਸੀਂ ਫਿਲਟਰ ਲਗਾਉਣ ਨੂੰ ਜਾਰੀ ਰੱਖਣਾ ਪਸੰਦ ਕਰੋਗੇ?
+filter-stop-button = ਰੋਕੋ
+filter-continue-button = ਜਾਰੀ ਰੱਖੋ
 
 ## Filter Editor
 
