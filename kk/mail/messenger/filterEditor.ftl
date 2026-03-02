@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Спам
 rule-menuitem-not-spam =
@@ -93,3 +96,41 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible }, барлығы { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Сүзгі ережелері
+filter-editor-name =
+    .value = Сүзгі атауы:
+    .accesskey = С
+filter-editor-context-desc = Сүзгіні қолдану шарты:
+filter-editor-context-incoming =
+    .label = Жаңа поштаны алу:
+    .accesskey = л
+filter-editor-context-manual =
+    .label = Қолмен орындау
+    .accesskey = р
+filter-editor-context-outgoing =
+    .label = Жібергеннен кейін
+    .accesskey = б
+filter-editor-context-archive =
+    .label = Архивтеу
+    .accesskey = А
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } көшірмесі
+filter-editor-invalid-search-title = Іздеу ұғымдары жарамсыз
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Сүзгіні сақтау мүмкін емес, өйткені "{ $attribute } { $operator }" іздеу ұғымдары ағымдағы контекстте жарамсыз.
+filter-editor-action-order-explanation = Хабарлама бұл сүзгіге сәйкес келсе, әрекеттер келесі ретпен орындалады:
+filter-editor-action-order-title = Шын әрекеттер реті
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }

@@ -114,6 +114,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Бұл ережені өшіру
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Жаңа әрекетті қосу
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Бұл әрекетті өшіру
 
 ## Search Term List
 
@@ -129,8 +137,40 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-read =
+    .label = Оқылған ретінде белгілеу
+rule-action-unread =
+    .label = Оқылмаған ретінде белгілеу
+rule-action-star =
+    .label = Жұлдызшаны қосу
+rule-action-priority =
+    .label = Приоритетті келесідей орнату
+rule-action-tag =
+    .label = Хабарламаға тег қою
+rule-action-delete =
+    .label = Хабарламаны өшіру
+rule-action-delete-pop =
+    .label = POP серверінен өшіру
+rule-action-fetch-pop =
+    .label = POP серверінен алу
+rule-action-ignore-thread =
+    .label = Ағындарды елемеу
+rule-action-ignore-subthread =
+    .label = Ағындарды елемеу
+rule-action-watch-thread =
+    .label = Ағынды бақылау
+rule-action-stop =
+    .label = Сүзгі орындалуын тоқтату
 
 ## Rule Action Targets
 
+rule-priority-highest =
+    .label = Ең жоғары
+rule-priority-high =
+    .label = Жоғары
+rule-priority-normal =
+    .label = Қалыпты
 rule-priority-low =
     .label = Төмен
+rule-priority-lowest =
+    .label = Ең төмен
