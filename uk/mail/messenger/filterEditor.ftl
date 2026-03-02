@@ -85,6 +85,36 @@ filter-count-visible-of-total = { $visible } з { $total }
 
 ## Filter List Dialog
 
+filter-name-column =
+    .label = Назва фільтру
+filter-reorder-up-button =
+    .label = Вгору
+    .accesskey = г
+filter-reorder-down-button =
+    .label = Вниз
+    .accesskey = н
+filter-reorder-bottom-button =
+    .label = Перемістити донизу
+    .accesskey = д
+    .tooltiptext = Переставити фільтр так, щоб він виконувався після всіх інших
+filter-header-label =
+    .value = Включені фільтри запускаються автоматично у вказаному нижче порядку.
+filter-filters-for-prefix =
+    .value = Фільтри для:
+    .accesskey = і
+filter-view-log-button =
+    .label = Журнал фільтрів
+    .accesskey = Ж
+filter-run-filters-button =
+    .label = Запустити
+    .accesskey = З
+filter-folder-picker-prefix =
+    .value = Запустити вибрані фільтр(и) в теці:
+    .accesskey = а
+filter-search-box =
+    .placeholder = Шукати фільтр за іменем…
+filter-close-key =
+    .key = W
 
 ## Filter Editor
 
