@@ -110,6 +110,11 @@ filter-editor-action-order-warning =
     .value = Avis: Las acziuns da filtrar vegnan exequidas en in'autra successiun.
 filter-editor-action-order-link =
     .value = Vesair la successiun d'execuziun
+filter-editor-duplicate-title = Num da filter exista gia
+filter-editor-duplicate-msg = Il num dal filter endatà exista gia. Endatescha per plaschair in auter num.
+filter-editor-no-event-title = Betg tschernì in eveniment da filtrar
+filter-editor-no-event-msg = Ti stos tscherner almain in eveniment per applitgar quest filter. Sche ti vuls deactivar temporarmain quest filter, deactivescha il status activà en il dialog dals filters da messadis.
+filter-editor-match-all-name = Sincronisar tut ils messadis
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Copia da { $name }
