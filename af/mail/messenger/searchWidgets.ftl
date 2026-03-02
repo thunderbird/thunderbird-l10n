@@ -143,6 +143,12 @@ rule-action-fetch-pop =
     .label = Haal van POP-bediener
 rule-action-ignore-thread =
     .label = Ignoreer draad
+rule-action-ignore-subthread =
+    .label = Ignoreer subdraad
+rule-action-watch-thread =
+    .label = Hou draad dop
+rule-action-stop =
+    .label = Stop filteruitvoering
 
 ## Rule Action Targets
 
