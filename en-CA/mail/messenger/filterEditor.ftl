@@ -144,6 +144,12 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Run selected filter(s) on:
     .accesskey = c
+filter-search-box =
+    .placeholder = Search filters by name…
+filter-close-key =
+    .key = W
+filter-dont-warn-delete-checkbox = Don’t ask me again
+filter-cannot-enable-incompatible = This filter was probably created by a newer or incompatible version of { -brand-product-name }. You cannot enable this filter because we don’t know how to apply it.
 
 ## Filter Editor
 
