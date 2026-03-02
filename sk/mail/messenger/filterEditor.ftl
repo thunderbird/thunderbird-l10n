@@ -146,8 +146,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Spustiť vybrané filtre na priečinok:
     .accesskey = v
+filter-search-box =
+    .placeholder = Hľadať filtre podľa názvu…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Naozaj chcete odstrániť vybrané filtre?
 filter-dont-warn-delete-checkbox = Nabudúce sa už nepýtať
 filter-cannot-enable-incompatible = Tento filter bol pravdepodobne vytvorený v novšej alebo nekompatibilnej verzii aplikácie { -brand-product-name }. Nemožno ho povoliť, pretože táto verzia programu ho nevie použiť.
+filter-running-title = Spustené filtre
+filter-running-message =
+    Práve prebieha filtrovanie správ.
+    Chcete pokračovať vo filtrovaní?
+filter-stop-button = Zastaviť
+filter-continue-button = Pokračovať
 
 ## Filter Editor
 
