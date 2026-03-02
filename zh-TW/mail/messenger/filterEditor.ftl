@@ -140,8 +140,15 @@ filter-search-box =
     .placeholder = 用名稱搜尋篩選條件…
 filter-close-key =
     .key = W
+filter-delete-confirmation = 您確定要刪除此篩選條件？
 filter-dont-warn-delete-checkbox = 不要再問我
 filter-cannot-enable-incompatible = 此篩選器似乎是由新版或不相容版本的 { -brand-product-name } 建立的。我們無法了解如何套用規則，故無法啟用此篩選器。
+filter-running-title = 正在篩選
+filter-running-message =
+    您正使用篩選條件過濾郵件。
+    您要繼續篩選其他郵件嗎？
+filter-stop-button = 停止
+filter-continue-button = 繼續
 
 ## Filter Editor
 
