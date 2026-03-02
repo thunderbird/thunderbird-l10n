@@ -45,6 +45,11 @@ filter-invalid-custom-header = Een van u filters gebruik 'n pasgemaakte kopskrif
 
 ## Filter List Dialog
 
+filter-window-title = Boodskapfilters
+filter-name-column =
+    .label = Filternaam
+filter-active-column =
+    .label = Geaktiveer
 
 ## Filter Editor
 
