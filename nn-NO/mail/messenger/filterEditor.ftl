@@ -110,6 +110,9 @@ filter-editor-context-desc = Bruk filteret ved:
 filter-editor-context-incoming =
     .label = Hentar ny e-post::
     .accesskey = H
+filter-editor-context-manual =
+    .label = Manuell filtrering
+    .accesskey = r
 filter-editor-context-outgoing =
     .label = Etter sending
     .accesskey = E
@@ -120,6 +123,9 @@ filter-editor-action-order-warning =
     .value = Merk: Filterhandlingar vert køyrd i ei anna rekkjefølgje
 filter-editor-action-order-link =
     .value = Sjå utføringsrekkjefølgje
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopi av { $name }
 filter-editor-invalid-search-title = Søkjeorda er ugyldige
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
