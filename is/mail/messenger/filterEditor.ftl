@@ -107,6 +107,34 @@ filter-active-column =
 filter-new-button =
     .label = Ný…
     .accesskey = N
+filter-new-copy-button =
+    .label = Afrita…
+    .accesskey = A
+filter-edit-button =
+    .label = Breyta…
+    .accesskey = B
+filter-delete-button =
+    .label = Eyða
+    .accesskey = E
+filter-reorder-top-button =
+    .label = Færa efst
+    .accesskey = o
+    .tooltiptext = Endurraða síu þannig að hún keyri á undan öðrum
+filter-reorder-up-button =
+    .label = Færa upp
+    .accesskey = u
+filter-reorder-down-button =
+    .label = Færa niður
+    .accesskey = i
+filter-reorder-bottom-button =
+    .label = Færa neðst
+    .accesskey = B
+    .tooltiptext = Endurraða síu þannig að hún keyri á eftir öðrum
+filter-header-label =
+    .value = Virkar síur eru keyrðar sjálfkrafa í þeirri röð sem er hér fyrir neðan.
+filter-filters-for-prefix =
+    .value = Sía fyrir:
+    .accesskey = f
 
 ## Filter Editor
 
