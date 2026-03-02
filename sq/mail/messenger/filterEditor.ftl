@@ -99,6 +99,9 @@ filter-count-visible-of-total = { $visible } nga { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Filtra Mesazhesh
+filter-name-column =
+    .label = Emër Filtri
 
 ## Filter Editor
 
