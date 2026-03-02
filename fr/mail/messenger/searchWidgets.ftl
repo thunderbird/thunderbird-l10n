@@ -149,6 +149,12 @@ rule-action-reply =
     .label = Répondre avec le modèle
 rule-action-read =
     .label = Marquer comme lu
+rule-action-ignore-subthread =
+    .label = Ignorer le sous-fil de discussion
+rule-action-watch-thread =
+    .label = Surveiller la discussion
+rule-action-stop =
+    .label = Arrêter l’exécution du filtre
 
 ## Rule Action Targets
 
