@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -77,3 +80,47 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } de { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Regras de filtraxe
+filter-editor-name =
+    .value = Nome do filtro:
+    .accesskey = o
+filter-editor-context-desc = Aplicar filtro cando:
+filter-editor-context-incoming =
+    .label = se reciba o correo novo:
+    .accesskey = b
+filter-editor-context-manual =
+    .label = se execute manualmente
+    .accesskey = x
+filter-editor-context-outgoing =
+    .label = Despois de enviar
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Ao arquivar
+    .accesskey = A
+filter-editor-action-order-warning =
+    .value = Nota: As accións do filtro executáranse nunha orde diferente.
+filter-editor-action-order-link =
+    .value = Ver a orde de execución
+filter-editor-invalid-search-title = Os termos de busca son incorrectos
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Non é posíbel que se garde este filtro porque  o termo de busca "{ $attribute } { $operator }" é incorrecto no contexto actual.
+filter-editor-action-order-explanation = Cando unha mensaxe coincide con este filtro, executáranse as accións na seguinte orde:
+filter-editor-action-order-title = Orde real da acción
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
