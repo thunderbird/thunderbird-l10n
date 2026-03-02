@@ -130,6 +130,14 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Dilec'hiañ ar gemennadenn etrezek
+rule-action-copy =
+    .label = Eilañ ar gemennadenn e
+rule-action-forward =
+    .label = Kas ar gemennadenn en-dro da
+rule-action-reply =
+    .label = Respont gant ur patrom
 rule-action-read =
     .label = Merkañ evel Lennet
 rule-action-unread =
