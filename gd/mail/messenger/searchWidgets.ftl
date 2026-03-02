@@ -119,3 +119,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Maids a h-uile teachdaireachd
     .accesskey = M
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = As àirde
+rule-priority-high =
+    .label = Àrd
+rule-priority-normal =
+    .label = Àbhaisteach
+rule-priority-low =
+    .label = Ìseal
+rule-priority-lowest =
+    .label = As ìsle

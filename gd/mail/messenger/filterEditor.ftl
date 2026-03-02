@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -81,3 +84,18 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } à { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Riaghailtean a' chriathraidh
+filter-editor-name =
+    .value = Ainm na criathraige:
+    .accesskey = i
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
