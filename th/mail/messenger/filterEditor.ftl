@@ -140,8 +140,15 @@ filter-search-box =
     .placeholder = ค้นหาตัวกรองตามชื่อ…
 filter-close-key =
     .key = W
+filter-delete-confirmation = คุณแน่ใจหรือไม่ว่าต้องการลบตัวกรองที่เลือก?
 filter-dont-warn-delete-checkbox = ไม่ต้องถามฉันอีก
 filter-cannot-enable-incompatible = ตัวกรองนี้เป็นไปได้ว่าได้รับการสร้างโดยรุ่นที่ใหม่กว่าหรือรุ่นที่ไม่รองรับของ { -brand-product-name } คุณไม่สามารถเปิดใช้งานตัวกรองนี้ได้ เพราะเราไม่รู้วิธีการใช้งานของมัน
+filter-running-title = ตัวกรองที่กำลังทำงาน
+filter-running-message =
+    ขณะนี้คุณกำลังทำการกรองข้อความ
+    คุณต้องการใช้ตัวกรองต่อไปหรือไม่?
+filter-stop-button = หยุด
+filter-continue-button = ดำเนินการต่อ
 
 ## Filter Editor
 
