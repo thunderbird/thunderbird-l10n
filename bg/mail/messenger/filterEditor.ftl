@@ -119,10 +119,16 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = Архивиране
     .accesskey = А
+filter-editor-action-desc =
+    .value = Изпълняват се следните действия:
+    .accesskey = л
 filter-editor-action-order-warning =
     .value = Бележка: Филтрите ще бъдат приложени в различна последователност.
 filter-editor-action-order-link =
     .value = Преглед на заявките за изпълнение
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Копие на { $name }
 filter-editor-invalid-search-title = Невалидни термини за търсене
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
