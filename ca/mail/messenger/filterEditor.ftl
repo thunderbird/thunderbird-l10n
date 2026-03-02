@@ -90,6 +90,18 @@ filter-editor-window-title = Regles de filtratge
 filter-editor-name =
     .value = Nom del filtre:
     .accesskey = i
+filter-editor-context-desc = Aplica el filtre:
+filter-editor-action-order-warning =
+    .value = Nota: les accions del filtre s'executaran en un altre ordre.
+filter-editor-action-order-link =
+    .value = Mostra l'ordre d'execució
+filter-editor-action-order-explanation = Quan un missatge coincideixi amb aquest filtre, les accions s'executaran en aquest ordre:
+filter-editor-action-order-title = Ordre real de les accions
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
