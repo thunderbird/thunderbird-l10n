@@ -104,6 +104,23 @@ filter-count-visible-of-total = { $visible } od { $total }
 
 ## Filter Editor
 
+filter-editor-window-title = Filter pravila
+filter-editor-name =
+    .value = Naziv filtra:
+    .accesskey = i
+filter-editor-context-desc = Primijeni filter prilikom:
+filter-editor-context-incoming =
+    .label = Dohvaćanje nove pošte:
+    .accesskey = D
+filter-editor-context-manual =
+    .label = Ručnog pokretanja
+    .accesskey = u
+filter-editor-action-order-warning =
+    .value = Napomena: radnje filtera će biti pokrenute drugačijim redoslijedom.
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Ovaj filter ne može biti spremljen jer pojam pretrage "{ $attribute } { $operator }" nije ispravan u trenutnom kontekstu.
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")

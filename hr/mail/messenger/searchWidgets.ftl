@@ -114,6 +114,10 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Ukloni ovo pravilo
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Ukloni ovu radnju
 
 ## Search Term List
 
