@@ -126,3 +126,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Alle meldinger passer
     .accesskey = m
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Høyest
+rule-priority-high =
+    .label = Høy
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Lav
+rule-priority-lowest =
+    .label = Lavest
