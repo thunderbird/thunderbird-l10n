@@ -150,8 +150,15 @@ filter-search-box =
     .placeholder = Поиск фильтров по имени…
 filter-close-key =
     .key = W
+filter-delete-confirmation = Вы действительно хотите удалить выделенный фильтр(ы)?
 filter-dont-warn-delete-checkbox = Не спрашивать в следующий раз
 filter-cannot-enable-incompatible = Возможно, фильтр был создан более поздней или несовместимой версией { -brand-product-name }. Вы не можете использовать этот фильтр, так как мы не знаем, как его применить.
+filter-running-title = Запущенные фильтры
+filter-running-message =
+    Сейчас идёт процесс фильтрации сообщений.
+    Вы хотите продолжить применение фильтров?
+filter-stop-button = Остановить
+filter-continue-button = Продолжить
 
 ## Filter Editor
 
