@@ -89,6 +89,28 @@ filter-editor-action-order-warning =
     .value = Napomena: radnje filtera će biti pokrenute drugačijim redoslijedom.
 filter-editor-action-order-link =
     .value = Prikaži redoslijed izvršavanja
+filter-editor-duplicate-title = Dupli naziv filtera
+filter-editor-duplicate-msg = Naziv filtera koji ste upisali već postoji. Upišite drugačiji naziv filtera.
+filter-editor-no-event-title = Nije izabran nijedan događaj za ovaj filter
+filter-editor-no-event-msg = Morate izabrati barem jedan događaj kada će se ovaj filter izvršiti. Ukoliko privremeno želite da se filter ne izvršava niti na jedan događaj, uklonite oznaku iz polja Omogućeno u dijalogu Filteri poruka.
+filter-editor-match-all-name = Uporedite sve poruke
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Kopija od { $name }
+filter-editor-invalid-search-title = Neispravni pojmovi pretrage
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Ovaj filter ne može biti spašen jer pojam pretrage "{ $attribute } { $operator }" nije ispravan u trenutnom kontekstu.
+filter-editor-action-order-explanation = Kada poruka odgovara ovom filteru, radnje će se izvršiti ovim redoslijedom:
+filter-editor-action-order-title = Stvaran redoslijed radnji
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
