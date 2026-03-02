@@ -126,3 +126,23 @@ search-match-any =
 search-match-all-msgs =
     .label = 符合全部郵件
     .accesskey = M
+
+## Rule Action Types
+
+rule-action-move =
+    .label = 移動郵件到
+rule-action-copy =
+    .label = 複製郵件到
+rule-action-forward =
+    .label = 轉寄郵件給
+rule-action-reply =
+    .label = 使用範本回信
+rule-action-read =
+    .label = 標示為已讀
+rule-action-unread =
+    .label = 標示為未讀
+rule-action-star =
+    .label = 加上星號
+
+## Rule Action Targets
+
