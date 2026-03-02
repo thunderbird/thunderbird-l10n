@@ -135,6 +135,21 @@ filter-header-label =
 filter-filters-for-prefix =
     .value = Sía fyrir:
     .accesskey = f
+filter-view-log-button =
+    .label = Atvikaskrá síu
+    .accesskey = a
+filter-run-filters-button =
+    .label = Keyra núna
+    .accesskey = r
+filter-folder-picker-prefix =
+    .value = Keyra síu(r) á:
+    .accesskey = K
+filter-search-box =
+    .placeholder = Leita í síum eftir nafni…
+filter-close-key =
+    .key = W
+filter-dont-warn-delete-checkbox = Ekki spyrja aftur
+filter-cannot-enable-incompatible = Þessi sía var líklega búin til af nýrri eða ósamhæfðri útgáfu af { -brand-product-name }. Þú getur ekki virkjað þessa síu vegna þess að við vitum ekki hvernig á að nota hana.
 
 ## Filter Editor
 
