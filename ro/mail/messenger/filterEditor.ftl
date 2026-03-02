@@ -104,6 +104,9 @@ filter-count-visible-of-total = { $visible } din { $total }
 
 ## Filter Editor
 
+filter-editor-name =
+    .value = Denumire filtru:
+    .accesskey = i
 filter-editor-context-desc = Aplică filtrul:
 filter-editor-context-incoming =
     .label = La obținerea unui mail nou:
@@ -117,8 +120,13 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = La arhivare
     .accesskey = A
+filter-editor-action-desc =
+    .value = Efectuează următoarele acțiuni:
+    .accesskey = E
 filter-editor-action-order-warning =
     .value = Notă: Acțiunile filtrului vor fi executate într-o ordine diferită.
+filter-editor-action-order-link =
+    .value = Vezi ordinea de execuție
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Copie a { $name }

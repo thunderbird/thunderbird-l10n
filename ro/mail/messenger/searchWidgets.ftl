@@ -137,6 +137,10 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Mută mesajul în
+rule-action-copy =
+    .label = Copiază mesajul în
 rule-action-forward =
     .label = Redirecționează mesajul către
 rule-action-reply =
@@ -151,6 +155,12 @@ rule-action-priority =
     .label = Schimbă prioritatea în
 rule-action-tag =
     .label = Etichetează mesaj
+rule-action-set-spam-status =
+    .label = Setează starea de nedorit la
+rule-action-ignore-subthread =
+    .label = Ignoră conversația subordonată
+rule-action-watch-thread =
+    .label = Urmărește conversația
 rule-action-stop =
     .label = Oprește executarea filtrului
 
