@@ -119,3 +119,19 @@ search-match-any =
 search-match-all-msgs =
     .label = طابق كل الرسائل
     .accesskey = ق
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = القصوى
+rule-priority-high =
+    .label = عالية
+rule-priority-normal =
+    .label = عادية
+rule-priority-low =
+    .label = قليلة
+rule-priority-lowest =
+    .label = الدنيا
