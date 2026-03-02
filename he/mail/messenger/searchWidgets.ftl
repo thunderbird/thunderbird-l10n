@@ -119,3 +119,19 @@ search-match-any =
 search-match-all-msgs =
     .label = התאם את כל ההודעות
     .accesskey = כ
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = הכי גבוהה
+rule-priority-high =
+    .label = גבוהה
+rule-priority-normal =
+    .label = רגילה
+rule-priority-low =
+    .label = נמוכה
+rule-priority-lowest =
+    .label = הכי נמוכה
