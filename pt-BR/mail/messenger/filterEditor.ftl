@@ -113,6 +113,9 @@ filter-editor-context-outgoing =
     .accesskey = e
 filter-editor-action-order-link =
     .value = Ver ordem de execução
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Cópia de { $name }
 filter-editor-invalid-search-title = Termos de pesquisa inválidos
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
