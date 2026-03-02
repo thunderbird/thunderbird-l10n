@@ -110,9 +110,15 @@ filter-editor-context-desc = Aplicar filtro:
 filter-editor-context-incoming =
     .label = Ao receber novas mensagens:
     .accesskey = r
+filter-editor-context-manual =
+    .label = Executar manualmente
+    .accesskey = x
 filter-editor-context-outgoing =
     .label = Após enviar
     .accesskey = e
+filter-editor-context-archive =
+    .label = Arquivamento
+    .accesskey = a
 filter-editor-action-order-link =
     .value = Ver ordem de execução
 # Variables:
