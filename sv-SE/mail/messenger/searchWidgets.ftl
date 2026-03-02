@@ -159,6 +159,8 @@ rule-action-priority =
     .label = Sätt prioritet till
 rule-action-tag =
     .label = Sätt en etikett på meddelandet
+rule-action-set-spam-status =
+    .label = Sätt skräppoststatus till
 rule-action-delete =
     .label = Ta bort meddelandet
 rule-action-delete-pop =
@@ -176,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Skräppost
+rule-menuitem-not-spam =
+    .label = Inte skräppost
 rule-priority-highest =
     .label = Högsta
 rule-priority-high =

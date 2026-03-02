@@ -126,6 +126,11 @@ filter-editor-action-order-warning =
     .value = OBS: Filteråtgärder kommer att köras i en annan ordning.
 filter-editor-action-order-link =
     .value = Se exekveringsordning
+filter-editor-duplicate-title = Namnet är redan upptaget
+filter-editor-duplicate-msg = Det finns redan en filterregel med detta namn. Ange ett annat namn.
+filter-editor-no-event-title = Ingen filterhändelse vald
+filter-editor-no-event-msg = Du måste välja minst en händelse när filtret tillämpas. Om du tillfälligt inte vill att filtret ska köras på alla händelser, avmarkera rutan för aktiva filter i dialogrutan filterregler.
+filter-editor-match-all-name = Matcha alla meddelanden
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Kopia av { $name }
