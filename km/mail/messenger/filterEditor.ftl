@@ -71,6 +71,20 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = ដំណើរការ​ដោយ​ដៃ
     .accesskey = R
+filter-editor-context-outgoing =
+    .label = បន្ទាប់ពីផ្ញើ
+    .accesskey = ផ
+filter-editor-context-archive =
+    .label = ទុក​ក្នុង​ប័ណ្ណសារ
+    .accesskey = ទ
+filter-editor-action-desc =
+    .value = Կատարել այս գործողությունը.
+    .accesskey = P
+filter-editor-action-order-warning =
+    .value = ចំណាំ៖ ត្រង​សកម្មភាព​នឹង​ត្រូវ​បាន​ដំណើរការ​ក្នុង​លំដាប់​ផ្សេង។
+filter-editor-action-order-link =
+    .value = មើល​លំដាប់ប្រតិបត្តិ
+filter-editor-invalid-search-title = Search Terms Invalid
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
