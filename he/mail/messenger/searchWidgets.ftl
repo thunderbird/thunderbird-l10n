@@ -122,6 +122,28 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-unread =
+    .label = סימון כלא נקרא
+rule-action-star =
+    .label = הוסף כוכבית
+rule-action-priority =
+    .label = קבע עדיפות ל:
+rule-action-tag =
+    .label = סמן הודעה
+rule-action-delete =
+    .label = מחק הודעה
+rule-action-delete-pop =
+    .label = מחק משרת POP
+rule-action-fetch-pop =
+    .label = טען משרת POP
+rule-action-ignore-thread =
+    .label = התעלם מנושא דיון
+rule-action-ignore-subthread =
+    .label = התעלם מתת שרשור
+rule-action-watch-thread =
+    .label = עקוב אחר נושא דיון
+rule-action-stop =
+    .label = הפסק הפעלת מסננים
 
 ## Rule Action Targets
 

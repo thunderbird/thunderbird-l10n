@@ -70,3 +70,17 @@ filter-editor-window-title = חוקי מסנן
 filter-editor-name =
     .value = שם מסנן:
     .accesskey = i
+filter-editor-context-manual =
+    .label = מורץ ידנית
+    .accesskey = ר
+filter-editor-context-outgoing =
+    .label = לאחר השליחה
+    .accesskey = ש
+filter-editor-context-archive =
+    .label = העברה לארכיון
+    .accesskey = א
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
