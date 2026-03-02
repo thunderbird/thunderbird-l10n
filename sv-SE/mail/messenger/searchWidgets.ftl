@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Lägg till en ny regel
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Ta bort en regel
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Ta bort en regel
@@ -126,3 +130,31 @@ search-match-any =
 search-match-all-msgs =
     .label = Matcha alla meddelanden
     .accesskey = d
+
+## Rule Action Types
+
+rule-action-unread =
+    .label = Märk som oläst
+rule-action-star =
+    .label = Lägg till märke
+rule-action-priority =
+    .label = Sätt prioritet till
+rule-action-tag =
+    .label = Sätt en etikett på meddelandet
+rule-action-delete =
+    .label = Ta bort meddelandet
+rule-action-delete-pop =
+    .label = Ta bort från POP-server
+rule-action-fetch-pop =
+    .label = Hämta från POP-server
+rule-action-ignore-thread =
+    .label = Ignorera tråd
+rule-action-ignore-subthread =
+    .label = Ignorera undertråd
+rule-action-watch-thread =
+    .label = Bevaka tråd
+rule-action-stop =
+    .label = Avbryt filterkörning
+
+## Rule Action Targets
+

@@ -103,3 +103,9 @@ filter-count-visible-of-total = { $visible } av { $total }
 ## Filter Editor
 
 filter-editor-window-title = Filterregler
+filter-editor-context-desc = Tillämpa filter vid:
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
