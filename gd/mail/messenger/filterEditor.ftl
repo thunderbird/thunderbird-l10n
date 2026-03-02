@@ -114,6 +114,11 @@ filter-editor-action-order-warning =
     .value = An aire: Thèid gnìomhan criathradh a chur an gnìomh ann an òrdugh eadar-dhealaichte.
 filter-editor-action-order-link =
     .value = Faic òrdugh a' ghnìomhachaidh
+filter-editor-duplicate-title = Ainm criathraige dùbailte
+filter-editor-duplicate-msg = Tha an t-ainm a chuir thu a-steach airson na criathraige ann mu thràth. Tagh ainm eile air a son.
+filter-editor-no-event-title = Cha deach tachartas criathraidh a thaghadh
+filter-editor-no-event-msg = Feumaidh tu co-dhiù aon tachartas a thaghadh ma tha a' chriathrag seo an sàs. Ma tha thu airson a chur à comas fad tachartais air choireigin, thoir a' chromag aige air falbh ann an còmhradh criathragan na teachdaireachd.
+filter-editor-match-all-name = &Maidsich a h-uile teachdaireachd
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Lethbhreac de { $name }
