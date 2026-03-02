@@ -118,6 +118,14 @@ search-remove-rule-button-2 =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Αφαίρεση κανόνα
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Προσθήκη νέας ενέργειας
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Αφαίρεση ενέργειας
 
 ## Search Term List
 
