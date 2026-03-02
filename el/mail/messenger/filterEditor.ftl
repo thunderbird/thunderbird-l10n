@@ -99,12 +99,39 @@ filter-count-visible-of-total = { $visible } από { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Φίλτρα μηνυμάτων
+filter-name-column =
+    .label = Όνομα φίλτρου
+filter-active-column =
+    .label = Ενεργό
+filter-new-button =
+    .label = Νέο…
+    .accesskey = Ν
 filter-new-copy-button =
     .label = Αντιγραφή…
     .accesskey = Α
 filter-edit-button =
     .label = Επεξεργασία…
     .accesskey = Ε
+filter-delete-button =
+    .label = Διαγραφή
+    .accesskey = φ
+filter-reorder-top-button =
+    .label = Μετακίνηση στο πάνω μέρος
+    .accesskey = ο
+    .tooltiptext = Αναδιατάξτε το φίλτρο ώστε να εκτελείται πριν από τα άλλα
+filter-reorder-up-button =
+    .label = Μετακίνηση πάνω
+    .accesskey = π
+filter-reorder-down-button =
+    .label = Μετακίνηση κάτω
+    .accesskey = κ
+filter-reorder-bottom-button =
+    .label = Μετακίνηση στο κάτω μέρος
+    .accesskey = μ
+    .tooltiptext = Αναδιατάξτε το φίλτρο ώστε να εκτελείται μετά τα άλλα
+filter-header-label =
+    .value = Τα ενεργά φίλτρα θα εκτελούνται αυτόματα με την παρακάτω σειρά.
 filter-filters-for-prefix =
     .value = Φίλτρα για:
     .accesskey = Φ
@@ -117,6 +144,12 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Εκτέλεση επιλεγμένων φίλτρων στο:
     .accesskey = λ
+filter-search-box =
+    .placeholder = Αναζήτηση φίλτρων με όνομα…
+filter-close-key =
+    .key = W
+filter-dont-warn-delete-checkbox = Να μην ερωτηθώ ξανά
+filter-cannot-enable-incompatible = To φίλτρο ίσως να δημιουργήθηκε από μια νέα ή ασύμβατη έκδοση του { -brand-product-name }. Δεν μπορείτε να το ενεργοποιήσετε, επειδή δεν γνωρίζουμε πώς να το εφαρμόσουμε.
 
 ## Filter Editor
 
