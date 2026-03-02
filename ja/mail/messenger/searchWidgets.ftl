@@ -126,3 +126,19 @@ search-match-any =
 search-match-all-msgs =
     .label = 条件なし
     .accesskey = m
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = 最高
+rule-priority-high =
+    .label = 高
+rule-priority-normal =
+    .label = 標準
+rule-priority-low =
+    .label = 低
+rule-priority-lowest =
+    .label = 最低
