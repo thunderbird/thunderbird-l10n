@@ -114,6 +114,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Odstrániť toto pravidlo
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Pridať novú akciu
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Odstrániť túto akciu
 
 ## Search Term List
 
@@ -126,3 +134,27 @@ search-match-any =
 search-match-all-msgs =
     .label = Všetky správy
     .accesskey = e
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Presunúť do priečinka
+rule-action-copy =
+    .label = Kopírovať do priečinka
+rule-action-forward =
+    .label = Odoslať ďalej komu
+rule-action-reply =
+    .label = Odpovedať pomocou šablóny
+rule-action-read =
+    .label = Označiť ako prečítané
+rule-action-unread =
+    .label = Označiť ako neprečítané
+rule-action-star =
+    .label = Pridať hviezdičku
+rule-action-priority =
+    .label = Zmeniť prioritu na
+rule-action-stop =
+    .label = Zastaviť vykonávanie filtra
+
+## Rule Action Targets
+

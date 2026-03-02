@@ -109,3 +109,36 @@ filter-editor-name =
     .value = Názov filtra:
     .accesskey = N
 filter-editor-context-desc = Filter použiť pri:
+filter-editor-context-incoming =
+    .label = Kontrole pošty
+    .accesskey = K
+filter-editor-context-manual =
+    .label = Manuálnom spustení
+    .accesskey = M
+filter-editor-context-outgoing =
+    .label = Po odoslaní
+    .accesskey = d
+filter-editor-context-archive =
+    .label = Archivácii
+    .accesskey = A
+filter-editor-action-order-warning =
+    .value = Poznámka: akcie filtra budú spustené v inom poradí.
+filter-editor-action-order-link =
+    .value = Pozrieť sa na poradie akcií
+filter-editor-invalid-search-title = Neplatné výrazy vyhľadávania
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Tento filter nie je možné uložiť, pretože výraz vyhľadávania "{ $attribute } { $operator }" nie je v aktuálnom kontexte platný.
+filter-editor-action-order-explanation = Ak správa zodpovedá filtru, akcie budú spustené v tomto poradí:
+filter-editor-action-order-title = Skutočné poradie akcií
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
