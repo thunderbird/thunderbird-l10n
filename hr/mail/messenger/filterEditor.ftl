@@ -148,6 +148,8 @@ filter-folder-picker-prefix =
     .accesskey = b
 filter-search-box =
     .placeholder = Pretraži filtere prema imenu…
+filter-dont-warn-delete-checkbox = Ne pitaj me ponovno
+filter-cannot-enable-incompatible = Ovaj filter je vjerojatno stvoren od novije ili nekompatibilne { -brand-product-name } inačice. Ne možete omogućiti ovaj filter iz razloga što ne znamo kako ga primijeniti.
 
 ## Filter Editor
 
