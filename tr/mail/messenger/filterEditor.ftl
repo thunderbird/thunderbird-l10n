@@ -99,6 +99,8 @@ filter-count-visible-of-total = { $visible } / { $total }
 
 ## Filter List Dialog
 
+filter-active-column =
+    .label = Etkin
 
 ## Filter Editor
 
