@@ -89,6 +89,51 @@ filter-count-visible-of-total = { $visible } од { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Филтери порука
+filter-name-column =
+    .label = Име филтера
+filter-active-column =
+    .label = Укључено
+filter-new-button =
+    .label = Нови…
+    .accesskey = Н
+filter-new-copy-button =
+    .label = Копирај…
+    .accesskey = К
+filter-edit-button =
+    .label = Уреди…
+    .accesskey = У
+filter-delete-button =
+    .label = Обриши
+    .accesskey = б
+filter-reorder-top-button =
+    .label = Помери нагоре
+    .accesskey = о
+    .tooltiptext = Преуреди филтер тако да се први изврши
+filter-reorder-up-button =
+    .label = Помери горе
+    .accesskey = г
+filter-reorder-down-button =
+    .label = Помери доле
+    .accesskey = д
+filter-reorder-bottom-button =
+    .label = Помери на дно
+    .accesskey = н
+    .tooltiptext = Преуреди филтер тако да се последњи изврши
+filter-header-label =
+    .value = Укључени филтери се аутоматски извршавају у редоследу приказаном испод.
+filter-filters-for-prefix =
+    .value = Филтери за:
+    .accesskey = Ф
+filter-view-log-button =
+    .label = Записник филтера
+    .accesskey = З
+filter-run-filters-button =
+    .label = Изврши сада
+    .accesskey = И
+filter-folder-picker-prefix =
+    .value = Изврши одабран(е) филтер(е) над:
+    .accesskey = р
 
 ## Filter Editor
 
