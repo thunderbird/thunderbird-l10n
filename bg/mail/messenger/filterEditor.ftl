@@ -106,3 +106,19 @@ filter-editor-window-title = Правила за филтриране
 filter-editor-name =
     .value = Име на филтър:
     .accesskey = И
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Филтърът не може да бъде запазен, защото термините за търсене „{ $attribute } { $operator }“ са невалидни в текущуя контекст.
+filter-editor-action-order-explanation = При съвпадение избраните действия ще бъдат изпълнени в следния ред:
+filter-editor-action-order-title = Действителна последователност на действията
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Добавяне на ново правило
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Премахване на правилото
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Премахване на правилото
@@ -129,6 +133,28 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Преместване на писмото в
+rule-action-copy =
+    .label = Копиране на писмото в
+rule-action-forward =
+    .label = Препращане до
+rule-action-reply =
+    .label = Отговор с шаблон
+rule-action-read =
+    .label = Отбелязване като прочетено
+rule-action-unread =
+    .label = Отбелязване като непрочетено
+rule-action-star =
+    .label = Добавяне на звезда
+rule-action-priority =
+    .label = Задаване приоритета на
+rule-action-tag =
+    .label = Отбелязване на писмо
+rule-action-delete =
+    .label = Изтриване на писмо
+rule-action-delete-pop =
+    .label = Изтриване от POP сървъра
 
 ## Rule Action Targets
 
