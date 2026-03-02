@@ -122,6 +122,8 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-fetch-pop =
+    .label = Ներբեռնել POP սպասարկչից
 
 ## Rule Action Targets
 
