@@ -101,6 +101,9 @@ filter-count-visible-of-total = { $visible } din { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Filtre de mesaje
+filter-name-column =
+    .label = Denumire filtru
 filter-active-column =
     .label = Activat
 filter-new-button =
@@ -115,6 +118,10 @@ filter-edit-button =
 filter-delete-button =
     .label = Șterge
     .accesskey = t
+filter-reorder-top-button =
+    .label = Mută în partea de sus
+    .accesskey = s
+    .tooltiptext = Reordonează filtrul ca să fie executat înaintea tuturor celorlalte
 filter-reorder-up-button =
     .label = Mută sus
     .accesskey = s
@@ -134,6 +141,8 @@ filter-search-box =
     .placeholder = Caută filtre după nume…
 filter-close-key =
     .key = w
+filter-dont-warn-delete-checkbox = Nu mă mai întreba
+filter-cannot-enable-incompatible = Acest filtru a fost creat probabil de o versiune mai nouă sau incompatibilă de { -brand-product-name }. Nu poți activa acest filtru deoarece nu știm cum să îl aplicăm.
 
 ## Filter Editor
 
