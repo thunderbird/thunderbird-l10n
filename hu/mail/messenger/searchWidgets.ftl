@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Új szabály hozzáadása
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Szabály eltávolítása
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Szabály eltávolítása
@@ -174,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Levélszemét
+rule-menuitem-not-spam =
+    .label = Nem levélszemét
 rule-priority-highest =
     .label = Rendkívül sürgős
 rule-priority-high =

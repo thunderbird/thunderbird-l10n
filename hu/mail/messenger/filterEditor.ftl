@@ -126,6 +126,11 @@ filter-editor-action-order-warning =
     .value = Megjegyzés: a szűrési műveletek más sorrendben lesznek futtatva.
 filter-editor-action-order-link =
     .value = Végrehajtási sorrend megjelenítése
+filter-editor-duplicate-title = Már létező szűrő
+filter-editor-duplicate-msg = A beírt névvel már létezik szűrő. Adjon meg egy másik nevet.
+filter-editor-no-event-title = Nincs kiválasztva szűrőesemény
+filter-editor-no-event-msg = Legalább egy eseményt ki kell választania ezen szűrő alkalmazásához. Ha ideiglenesen nem szeretné, hogy a szűrő bármikor is lefusson, akkor törölje az engedélyezett állapotát az Üzenetszűrők ablakban.
+filter-editor-match-all-name = Minden üzenet illeszkedjen
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } másolata
