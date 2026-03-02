@@ -85,11 +85,42 @@ filter-count-visible-of-total = { $total } / { $visible }
 
 ## Filter List Dialog
 
+filter-window-title = Mezuen iragazkiak
+filter-name-column =
+    .label = Iragazkiaren izena
 filter-active-column =
     .label = Gaituta
 filter-new-button =
     .label = Berria…
     .accesskey = B
+filter-reorder-top-button =
+    .label = Mugitu gora
+    .accesskey = o
+    .tooltiptext = Berrordenatu iragazkia gainontzeko guztien aurretik exekuta dadin
+filter-reorder-up-button =
+    .label = Eraman gorantz
+    .accesskey = g
+filter-reorder-down-button =
+    .label = Eraman beherantz
+    .accesskey = b
+filter-reorder-bottom-button =
+    .label = Mugitu behera
+    .accesskey = b
+    .tooltiptext = Berrordenatu iragazkia gainontzekoen ondoren exekuta dadin
+filter-header-label =
+    .value = Gaitutako iragazkiak automatikoki exekutatzen dira, behean erakutsitako ordenan.
+filter-filters-for-prefix =
+    .value = Honen iragazkiak:
+    .accesskey = H
+filter-view-log-button =
+    .label = Iragazkien erregistroa
+    .accesskey = e
+filter-run-filters-button =
+    .label = Abiarazi orain
+    .accesskey = r
+filter-folder-picker-prefix =
+    .value = Exekutatu eskuz aukeratutako iragazkia(k) karpeta honetan:
+    .accesskey = k
 
 ## Filter Editor
 
