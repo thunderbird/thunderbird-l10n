@@ -106,3 +106,15 @@ filter-editor-window-title = Κανόνες φίλτρου
 filter-editor-name =
     .value = Όνομα φίλτρου:
     .accesskey = ν
+filter-editor-invalid-search-title = Μη έγκυροι όροι αναζήτησης
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Δεν είναι δυνατή η αποθήκευση του φίλτρου επειδή οι όροι αναζήτησης «{ $attribute } { $operator }» δεν είναι έγκυροι στο παρόν πλαίσιο.
+filter-editor-action-order-explanation = Όταν ένα μήνυμα ταιριάξει με το φίλτρο, οι ενέργειες θα εκτελεστούν με την ακόλουθη σειρά:
+filter-editor-action-order-title = Πραγματική σειρά ενεργειών
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }

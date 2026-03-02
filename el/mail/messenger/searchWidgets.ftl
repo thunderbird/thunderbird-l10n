@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Προσθήκη νέου κανόνα
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Αφαίρεση κανόνα
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Αφαίρεση κανόνα
@@ -129,6 +133,14 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Μετακίνηση μηνύματος σε
+rule-action-copy =
+    .label = Αντιγραφή μηνύματος σε
+rule-action-forward =
+    .label = Προώθηση μηνύματος σε
+rule-action-reply =
+    .label = Απάντηση με πρότυπο
 
 ## Rule Action Targets
 
