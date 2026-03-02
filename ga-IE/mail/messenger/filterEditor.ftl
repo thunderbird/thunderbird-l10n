@@ -91,6 +91,11 @@ filter-editor-action-order-warning =
     .value = Nóta: Cuirfear na scagairí i bhfeidhm in ord difriúil.
 filter-editor-action-order-link =
     .value = Féach ar ord curtha i bhfeidhm
+filter-editor-duplicate-title = Ainm dúbailte scagaire
+filter-editor-duplicate-msg = Tá an t-ainm scagaire a d'iontráil tú ann cheana. Iontráil ainm eile le do thoil.
+filter-editor-no-event-title = Níl aon teagmhas scagtha roghnaithe
+filter-editor-no-event-msg = Caithfidh tú teagmhas a roghnú chun an scagaire seo a chur i bhfeidhm. Mura mian leat an scagaire a chur i bhfeidhm riamh, bain an tic ó Cumasaithe sa dialóg Scagairí Teachtaireachta.
+filter-editor-match-all-name = Meaitseáil Gach Teachtaireacht
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Cóip de { $name }
