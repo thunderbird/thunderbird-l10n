@@ -109,6 +109,11 @@ filter-editor-action-order-warning =
     .value = Примітка: Дії фільтру запустяться в іншому порядку.
 filter-editor-action-order-link =
     .value = див. Порядок виконання
+filter-editor-duplicate-title = Збіг імені фільтру
+filter-editor-duplicate-msg = Фільтр з такою назвою вже існує. Введіть іншу назву.
+filter-editor-no-event-title = Не вибрано жодної події для фільтра
+filter-editor-no-event-msg = Ви маєте вибрати принаймні одну подію, для якої застосовується цей фільтр. Якщо ви наразі хочете, щоб цей фільтр не спрацьовував ні на яку подію, зніміть галку Увімкнено у вікні Фільтрів повідомлень.
+filter-editor-match-all-name = Працює для всіх повідомлень
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Копія { $name }

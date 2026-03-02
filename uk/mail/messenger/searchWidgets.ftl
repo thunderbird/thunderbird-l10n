@@ -106,6 +106,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Додати нове правило
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Вилучити це правило
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Вилучити це правило
