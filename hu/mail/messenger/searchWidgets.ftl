@@ -114,6 +114,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Szabály eltávolítása
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Új művelet hozzáadása
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = A művelet eltávolítása
 
 ## Search Term List
 
@@ -129,6 +137,38 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Üzenet áthelyezése
+rule-action-copy =
+    .label = Üzenet átmásolása
+rule-action-forward =
+    .label = Üzenet továbbítása
+rule-action-reply =
+    .label = Válasz sablon használatával
+rule-action-read =
+    .label = Megjelölés olvasottként
+rule-action-unread =
+    .label = Megjelölés olvasatlanként
+rule-action-star =
+    .label = Csillag hozzáadása
+rule-action-priority =
+    .label = Prioritás beállítása
+rule-action-tag =
+    .label = Üzenet címkézése
+rule-action-delete =
+    .label = Üzenet törlése
+rule-action-delete-pop =
+    .label = Törlés a POP-kiszolgálóról
+rule-action-fetch-pop =
+    .label = Letöltés a POP-kiszolgálóról
+rule-action-ignore-thread =
+    .label = Témacsoport kihagyása
+rule-action-ignore-subthread =
+    .label = Témacsoportrész kihagyása
+rule-action-watch-thread =
+    .label = Témacsoport figyelése
+rule-action-stop =
+    .label = Szűrő végrehajtásának leállítása
 
 ## Rule Action Targets
 

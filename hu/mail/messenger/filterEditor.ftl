@@ -106,3 +106,23 @@ filter-editor-window-title = Szűrés szabályai
 filter-editor-name =
     .value = Szűrő neve:
     .accesskey = z
+filter-editor-context-desc = Szűrő alkalmazása:
+filter-editor-context-incoming =
+    .label = Új levelek letöltése:
+    .accesskey = t
+filter-editor-action-order-warning =
+    .value = Megjegyzés: a szűrési műveletek más sorrendben lesznek futtatva.
+filter-editor-action-order-link =
+    .value = Végrehajtási sorrend megjelenítése
+filter-editor-action-order-explanation = Amikor egy üzenet illeszkedik erre a szűrőre, a műveletek ebben a sorrendben lesznek futtatva:
+filter-editor-action-order-title = Valódi műveletsorrend
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
