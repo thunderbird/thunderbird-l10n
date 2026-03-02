@@ -80,6 +80,16 @@ filter-editor-context-archive =
     .label = העברה לארכיון
     .accesskey = א
 # Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = עותק של { $name }
+filter-editor-invalid-search-title = מונחי חיפוש לא תקינים
+filter-editor-action-order-title = סדר הפעולות בפועל
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
 #   $value (String) - The value being matched

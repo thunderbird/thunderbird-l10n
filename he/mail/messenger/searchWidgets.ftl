@@ -107,6 +107,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = הסר מסנן זה
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = הוספת פעולה חדשה
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = הסרת פעולה זו
 
 ## Search Term List
 
