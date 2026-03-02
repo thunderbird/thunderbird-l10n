@@ -116,6 +116,16 @@ filter-editor-context-manual =
 filter-editor-context-outgoing =
     .label = Eftir að sent er
     .accesskey = s
+filter-editor-context-archive =
+    .label = Setja í skjalageymslu
+    .accesskey = a
+filter-editor-action-desc =
+    .value = Framkvæma þessar aðgerðir:
+    .accesskey = F
+filter-editor-action-order-warning =
+    .value = Athugaðu: Síu aðgerðir verða keyrðar í annarri röð.
+filter-editor-action-order-link =
+    .value = Sjá keyrsluröð
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Afrit af { $name }
