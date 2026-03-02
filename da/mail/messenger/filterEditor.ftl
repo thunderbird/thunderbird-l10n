@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Spam
 rule-menuitem-not-spam =
@@ -93,3 +96,53 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } af { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Filterregler
+filter-editor-name =
+    .value = Filternavn:
+    .accesskey = i
+filter-editor-context-desc = Kør filter ved:
+filter-editor-context-incoming =
+    .label = Hentning af nye meddelelser:
+    .accesskey = H
+filter-editor-context-manual =
+    .label = Manuel start
+    .accesskey = s
+filter-editor-context-outgoing =
+    .label = Efter afsendelse
+    .accesskey = f
+filter-editor-context-archive =
+    .label = Arkivering
+    .accesskey = r
+filter-editor-action-desc =
+    .value = Udfør disse handlinger:
+    .accesskey = U
+filter-editor-action-order-warning =
+    .value = Bemærk: Filterhandlingerne vil blive udført i en anden rækkefølge.
+filter-editor-action-order-link =
+    .value = Rækkefølge
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopi af { $name }
+filter-editor-invalid-search-title = Ugyldige søgekriterier
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Dette filter kan ikke gemmes, da søgetermen "{ $attribute } { $operator }" er ugyldig i den pågældende sammenhæng.
+filter-editor-action-order-explanation = Når en meddelelse matcher dette filter, vil dets handlinger udføres i denne rækkefølge:
+filter-editor-action-order-title = Rækkefølge
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
