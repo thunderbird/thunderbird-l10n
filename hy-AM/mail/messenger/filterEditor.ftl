@@ -83,6 +83,35 @@ filter-count-visible-of-total = { $visible }՝ { $total }-ից
 
 ## Filter List Dialog
 
+filter-active-column =
+    .label = Միացված
+filter-new-button =
+    .label = Նոր...
+    .accesskey = N
+filter-reorder-up-button =
+    .label = Վեր
+    .accesskey = U
+filter-reorder-down-button =
+    .label = Վար
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = Move to Bottom
+    .accesskey = B
+    .tooltiptext = Վերադասավորել զտիչը, որ այն իրականացվի բոլորից հետո
+filter-header-label =
+    .value = Միացված զտիչները կգործարկվեն միանգամից։
+filter-filters-for-prefix =
+    .value = Զտիչներ՝
+    .accesskey = Զ
+filter-view-log-button =
+    .label = Զտիչի մատյանը
+    .accesskey = մ
+filter-run-filters-button =
+    .label = Բացել
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = Աշխատեցնել ընտրված զտիչները.
+    .accesskey = ր
 
 ## Filter Editor
 
