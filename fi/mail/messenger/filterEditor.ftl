@@ -96,6 +96,10 @@ filter-count-visible-of-total = { $visible } / { $total }
 
 ## Filter Editor
 
+filter-editor-window-title = Suodatusehdot
+filter-editor-name =
+    .value = Suodattimen nimi:
+    .accesskey = S
 filter-editor-context-desc = Suodata viestit, kun:
 filter-editor-context-incoming =
     .label = Haetaan uusia viestejä:
@@ -116,6 +120,9 @@ filter-editor-action-order-warning =
     .value = Huom.: Suodatintoiminnot suoritetaan eri järjestyksessä.
 filter-editor-action-order-link =
     .value = Näytä suoritusjärjestys
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } - kopio
 filter-editor-invalid-search-title = Virheelliset hakutermit
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.

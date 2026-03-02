@@ -172,3 +172,13 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-priority-highest =
+    .label = Korkein
+rule-priority-high =
+    .label = Korkea
+rule-priority-normal =
+    .label = Normaali
+rule-priority-low =
+    .label = Matala
+rule-priority-lowest =
+    .label = Matalin
