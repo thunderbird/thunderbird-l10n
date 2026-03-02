@@ -105,8 +105,15 @@ filter-count-visible-of-total = { $visible } de { $total }
 filter-editor-name =
     .value = Nome do filtro:
     .accesskey = N
+filter-editor-context-incoming =
+    .label = Ao receber novas mensagens:
+    .accesskey = r
+filter-editor-context-outgoing =
+    .label = Após enviar
+    .accesskey = e
 filter-editor-action-order-link =
     .value = Ver ordem de execução
+filter-editor-invalid-search-title = Termos de pesquisa inválidos
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
