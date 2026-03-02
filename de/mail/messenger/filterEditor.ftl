@@ -126,6 +126,11 @@ filter-editor-action-order-warning =
     .value = Hinweis: Die Filter werden in einer anderen Reihenfolge ausgeführt.
 filter-editor-action-order-link =
     .value = Ausführreihenfolge anzeigen
+filter-editor-duplicate-title = Doppelter Filtername
+filter-editor-duplicate-msg = Der Filtername, den Sie eingegeben haben, existiert bereits. Bitte geben Sie einen anderen Namen an.
+filter-editor-no-event-title = Keine Filterbedingung ausgewählt
+filter-editor-no-event-msg = Es muss mindestens eine Bedingung ausgewählt sein, um diesen Filter auszuführen. Bitte deaktivieren Sie den Filter im Filter-Menü, falls dieser Filter vorübergehend nicht angewendet werden soll.
+filter-editor-match-all-name = Alle Nachrichten
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } - Kopie

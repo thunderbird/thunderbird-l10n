@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Neue Bedingung hinzufügen
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Diese Bedingung entfernen
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Diese Bedingung entfernen
@@ -174,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = Kein Spam
 rule-priority-highest =
     .label = Sehr hoch
 rule-priority-high =
