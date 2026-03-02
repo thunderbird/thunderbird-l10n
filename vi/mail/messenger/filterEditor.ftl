@@ -91,6 +91,9 @@ filter-count-visible-of-total = { $visible } của { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Bộ lọc thư
+filter-name-column =
+    .label = Tên bộ lọc
 filter-active-column =
     .label = Đã bật
 filter-new-button =
@@ -109,6 +112,36 @@ filter-reorder-top-button =
     .label = Chuyển lên trên cùng
     .accesskey = o
     .tooltiptext = Sắp xếp lại bộ lọc để nó thực thi trước tất cả các bộ lọc khác
+filter-reorder-up-button =
+    .label = Di chuyển lên
+    .accesskey = U
+filter-reorder-down-button =
+    .label = Di chuyển xuống
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = Chuyển xuống dưới cùng
+    .accesskey = B
+    .tooltiptext = Sắp xếp lại bộ lọc để nó thực thi sau tất cả các bộ lọc khác
+filter-header-label =
+    .value = Các bộ lọc đã kích hoạt sẽ được chạy tự động theo thứ tự bên dưới.
+filter-filters-for-prefix =
+    .value = Bộ lọc cho:
+    .accesskey = F
+filter-view-log-button =
+    .label = Nhật kí bộ lọc
+    .accesskey = L
+filter-run-filters-button =
+    .label = Chạy ngay
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = Chạy các bộ lọc đã chọn cho:
+    .accesskey = c
+filter-search-box =
+    .placeholder = Tìm kiếm bộ lọc theo tên…
+filter-close-key =
+    .key = W
+filter-dont-warn-delete-checkbox = Đừng hỏi lại tôi
+filter-cannot-enable-incompatible = Bộ lọc này có thể được tạo bởi phiên bản mới hơn hoặc không tương thích với { -brand-product-name }. Bạn không thể kích hoạt bộ lọc này vì chúng tôi không biết cách áp dụng nó.
 
 ## Filter Editor
 
