@@ -125,3 +125,17 @@ search-match-any =
 search-match-all-msgs =
     .label = Coincidente com todas as mensagens
     .accesskey = m
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Muito alta
+rule-priority-high =
+    .label = Alta
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Baixa
