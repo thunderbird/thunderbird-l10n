@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Nowe prawidło přidać
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Tute prawidło wotstronić
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Tute prawidło wotstronić
@@ -174,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = Njeje spam
 rule-priority-highest =
     .label = Najwyša
 rule-priority-high =

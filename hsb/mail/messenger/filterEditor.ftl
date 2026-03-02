@@ -130,6 +130,11 @@ filter-editor-action-order-warning =
     .value = Kedźbu: Filtrowe akcije so w rozdźělnym porjedźe wuwjedu.
 filter-editor-action-order-link =
     .value = Hlejće wuwjedźenski porjad
+filter-editor-duplicate-title = Dwójne mjeno filtra
+filter-editor-duplicate-msg = Mjeno filtra, kotrež sće zapodał, hižo eksistuje. Prošu zapodajće druhe.
+filter-editor-no-event-title = Žadyn filtrowy podawk wubrany
+filter-editor-no-event-msg = Dyrbiće znajmjeńša jedyn podawk wubrać, hdyž tutón filter so nałožuje. Jeli nachwilu nochceće filter ze žanym elementom wuwjesć dać, znjemóžńće w dialogu powěsćowych filtrow.
+filter-editor-match-all-name = Wšě powěsće zapřijeć
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } kopěrować
