@@ -148,6 +148,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Wubrane filtry nałožić na:
     .accesskey = u
+filter-dont-warn-delete-checkbox = Hižo so njeprašeć
+filter-cannot-enable-incompatible = Tutón filter je so najskerje přez nowšu abo inkompatibelnu wersiju { -brand-product-name } wutworił. Njemóžeće tutón filter zmóžnić, dokelž njewěmy, kak dyrbi so nałožić.
 
 ## Filter Editor
 
