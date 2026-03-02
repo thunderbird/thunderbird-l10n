@@ -110,6 +110,11 @@ filter-editor-action-order-warning =
     .value = Ch'utitzijol: Ri taq rub'anoj chayuj xkisamajib'ëx rik'in jalajöj rucholajem.
 filter-editor-action-order-link =
     .value = Titz'et rucholajem taqoj
+filter-editor-duplicate-title = Rub'i' Chayub'äl Kamulun
+filter-editor-duplicate-msg = Ri rub'i' chayub'äl xatz'ib'aj k'o chik. Tatz'ib'aj jun chik wi rub'i' chayub'äl.
+filter-editor-no-event-title = Majun rumolojri'ïl chayub'äl cha'on
+filter-editor-no-event-msg = K'o chi nacha' jun molojri'ïl toq nawokisaj re chayub'äl re'. We wakami man nawajo' ta chi ri chayub'äl nisamäj chuwäch xab'achike molojri'ïl, tawelesaj el ri retal ri tzijïl rub'anikil pa ri kitzijonem kitzijol chayub'äl.
+filter-editor-match-all-name = Tikik'ama' ki' Konojel ri taq Rutzijol
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Ruwachib'al ri { $name }

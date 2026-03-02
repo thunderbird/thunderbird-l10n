@@ -104,6 +104,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Titz'aqatisäx jun k'ak'a' b'eyal
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Tiyuj re b'eyal re'
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Tiyuj re b'eyal re'
