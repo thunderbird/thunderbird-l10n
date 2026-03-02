@@ -105,6 +105,7 @@ filter-count-visible-of-total = { $visible } sur { $total }
 filter-editor-name =
     .value = Nom du filtre :
     .accesskey = i
+filter-editor-context-desc = Appliquer le filtre :
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
