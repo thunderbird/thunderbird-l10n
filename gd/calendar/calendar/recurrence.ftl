@@ -3,7 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 recurrence-rule-too-complex = Tha riaghailt an ath-dhèanaimh ro thoinnte dhuinn
-#  $interval is a number, the recurrence interval
+#  Daily repeat rules: like repeats "every day", or "every 4 days"
+# Variables:
+#   $interval is a number, the recurrence interval
 recurrence-daily-every-nth =
     { $interval ->
         [one] a h-uile latha
@@ -12,7 +14,9 @@ recurrence-daily-every-nth =
        *[other] a h-uile { $interval } latha
     }
 recurrence-every-weekday = gach là-obrach
-#  $interval is a number, the recurrence interval
+# Variables:
+#   $interval is a number, the recurrence interval
+#   $weekdays is a list of weekday names
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] a h-uile { $weekdays } { $interval } seachdain
@@ -20,6 +24,7 @@ recurrence-weekly-every-nth-on =
         [few] a h-uile { $interval } seachdainean { $weekdays }
        *[other] a h-uile { $interval } seachdain { $weekdays }
     }
+# Variables:
 #  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth =
     { $interval ->
@@ -28,7 +33,8 @@ recurrence-weekly-every-nth =
         [few] a h-uile { $interval } seachdainean
        *[other] a h-uile { $interval } seachdain
     }
-#  $interval is a number, the recurrence interval
+# Variables:
+#   $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] gach latha de gach mìos
@@ -41,9 +47,19 @@ recurrence-repeat-ordinal-3 = an treas
 recurrence-repeat-ordinal-4 = an ceathramh
 recurrence-repeat-ordinal-5 = an còigeamh
 recurrence-repeat-ordinal--1 = mu dheireadh
-#  $ordinal - ordinal with article
+# Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
+# This string allows to change the order of the elements "ordinal" and
+# "weekday" (or to insert a word between them).
+# Without changing this string, the order is that one required from most
+# languages: ordinal + weekday (e.g. "'the first' 'Monday' of every 2 months").
+# Variables:
+#   $ordinal - ordinal with article
+#   $weekday - weekday name
+# e.g. "'the first' 'Monday'"
 recurrence-ordinal-weekday = { $ordinal } { $weekday }
-#  $interval is a number, the recurrence interval
+# Variables:
+#   $interval is a number, the recurrence interval
+#   $weekdays - weekday name(s)
 recurrence-monthly-every-of-every =
     { $interval ->
         [one] a h-uile { $weekdays } de gach mìos
@@ -51,6 +67,7 @@ recurrence-monthly-every-of-every =
         [few] a h-uile { $weekdays } de gach { $interval } mìosan
        *[other] a h-uile { $weekdays } de gach { $interval } mìos
     }
+#  $weekdays - weekday name(s)
 #  $interval is a number, the recurrence interval
 recurrence-monthly-nth-of-every =
     { $interval ->
@@ -67,7 +84,11 @@ recurrence-monthly-last-day-of-nth =
        *[other] latha mu dheireadh a h-uile { $interval } mìos
     }
 recurrence-monthly-last-day = an latha mu dheireadh
-#  $days - day of month or a sequence of days of month, possibly followed by an ordinal symbol
+# Variables:
+#   $count - number of days listed in days
+#   $days - day of month or a sequence of days of month, possibly followed by an ordinal symbol
+#    separated with commas;
+# e.g. "days 3, 6 and 9" or "days 3rd, 6th and 9th"
 recurrence-monthly-days-of-nth-day =
     { $count ->
         [one] latha { $days }
@@ -78,7 +99,11 @@ recurrence-monthly-days-of-nth-day =
 
 # Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
 
+# Variables:
+#   $monthlyDays - day of month or a sequence of days of month, possibly followed
+#   by an ordinal symbol, separated with commas;
 #  $interval is a number, the recurrence interval
+# e.g. "days 3, 6, 9 and 12 of every 3 months"
 recurrence-monthly-days-of-nth =
     { $interval ->
         [one] { $monthlyDays } de gach { $interval } mhìos
@@ -86,7 +111,13 @@ recurrence-monthly-days-of-nth =
         [few] { $monthlyDays } de gach { $interval } mìosan
        *[other] { $monthlyDays } de gach { $interval } mìos
     }
-#  $interval is a number, the recurrence interval
+# Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
+# Variables:
+#   $month - month name
+#   $monthDay - day of month possibly followed by an ordinal symbol
+#   $interval is a number, the recurrence interval
+# e.g. "every 3 years on December 14"
+#      "every 2 years on December 8th"
 recurrence-yearly-nth-on =
     { $interval ->
         [one] gach { $monthDay } latha dhen { $month }
@@ -94,21 +125,40 @@ recurrence-yearly-nth-on =
         [few] gach { $interval } bliadhna { $monthDay } latha dhen { $month }
        *[other] gach { $interval } bliadhna { $monthDay } latha dhen { $month }
     }
-#  $interval is a number, the recurrence interval
+# Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
+# This string describes part of a yearly rule which includes every day of a month.
+# Variables:
+#   $month - month name
+#   $interval is a number, the recurrence interval
+# e.g. "every day of December"
+# e.g. "every 3 years every day of December"
 recurrence-yearly-every-day-of =
     { $interval ->
         [one] gach latha dhen: { $month }
         [two] gach { $interval } bliadhna gach latha dhen: { $month }
        *[other] gach { $interval } bliadhna gach latha dhen: { $month }
     }
-#  $interval is a number, the recurrence interval
+# Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
+# Variables:
+#   $weekday - weekday
+#   $month - month name
+#   $interval is a number, the recurrence interval
+# e.g. "every Thursday of March"
+# e.g  "every 3 years on every Thursday of March"
 recurrence-yearly-nth-of-nth =
     { $interval ->
         [one] gach { $weekday } dhen { $month }
         [two] gach { $interval } bliadhna { $weekday } dhen { $month }
        *[other] gach { $interval } bliadhna { $weekday } dhen { $month }
     }
-#  $interval is a number, the recurrence interval
+# Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
+# Variables:
+#   $ordinal - ordinal with article
+#   $weekday - weekday
+#   $month - month
+#   $interval is a number, the recurrence interval
+# e.g. "the second Monday of every March"
+# e.g  "every 3 years the second Monday of March"
 recurrence-yearly-nth-on-nth-of =
     { $interval ->
         [one] { $ordinal } { $weekday } de gach { $month }

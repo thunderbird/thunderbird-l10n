@@ -2,7 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-#  $interval is a number, the recurrence interval
+#  Daily repeat rules: like repeats "every day", or "every 4 days"
+# Variables:
+#   $interval is a number, the recurrence interval
 recurrence-daily-every-nth =
     { $interval ->
         [one] штодзень
@@ -10,13 +12,16 @@ recurrence-daily-every-nth =
        *[many] кожны { $interval } дзень
     }
 recurrence-every-weekday = кожны працоўны дзень
-#  $interval is a number, the recurrence interval
+# Variables:
+#   $interval is a number, the recurrence interval
+#   $weekdays is a list of weekday names
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] кожны { $weekdays }
         [few] кожны { $interval } тыдзень у { $weekdays }
        *[many] кожны { $interval } тыдзень у { $weekdays }
     }
+# Variables:
 #  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth =
     { $interval ->
@@ -24,7 +29,8 @@ recurrence-weekly-every-nth =
         [few] кожны { $interval } тыдзень
        *[many] кожны { $interval } тыдзень
     }
-#  $interval is a number, the recurrence interval
+# Variables:
+#   $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] кожны дзень кожнага месяца
@@ -37,15 +43,26 @@ recurrence-repeat-ordinal-3 = трэці
 recurrence-repeat-ordinal-4 = чацвёрты
 recurrence-repeat-ordinal-5 = пяты
 recurrence-repeat-ordinal--1 = апошні
-#  $ordinal - ordinal with article
+# Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
+# This string allows to change the order of the elements "ordinal" and
+# "weekday" (or to insert a word between them).
+# Without changing this string, the order is that one required from most
+# languages: ordinal + weekday (e.g. "'the first' 'Monday' of every 2 months").
+# Variables:
+#   $ordinal - ordinal with article
+#   $weekday - weekday name
+# e.g. "'the first' 'Monday'"
 recurrence-ordinal-weekday = { $ordinal } { $weekday }
-#  $interval is a number, the recurrence interval
+# Variables:
+#   $interval is a number, the recurrence interval
+#   $weekdays - weekday name(s)
 recurrence-monthly-every-of-every =
     { $interval ->
         [one] кожны { $weekdays } кожнага месяца
         [few] кожны { $weekdays } кожнага { $interval } месяца
        *[many] кожны { $weekdays } кожнага { $interval } месяца
     }
+#  $weekdays - weekday name(s)
 #  $interval is a number, the recurrence interval
 recurrence-monthly-nth-of-every =
     { $interval ->
@@ -61,7 +78,11 @@ recurrence-monthly-last-day-of-nth =
        *[many] у апошні дзень кожнага { $interval } месяца
     }
 recurrence-monthly-last-day = ў апошні дзень
-#  $days - day of month or a sequence of days of month, possibly followed by an ordinal symbol
+# Variables:
+#   $count - number of days listed in days
+#   $days - day of month or a sequence of days of month, possibly followed by an ordinal symbol
+#    separated with commas;
+# e.g. "days 3, 6 and 9" or "days 3rd, 6th and 9th"
 recurrence-monthly-days-of-nth-day =
     { $count ->
         [one] дзень { $days }
@@ -71,14 +92,24 @@ recurrence-monthly-days-of-nth-day =
 
 # Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
 
+# Variables:
+#   $monthlyDays - day of month or a sequence of days of month, possibly followed
+#   by an ordinal symbol, separated with commas;
 #  $interval is a number, the recurrence interval
+# e.g. "days 3, 6, 9 and 12 of every 3 months"
 recurrence-monthly-days-of-nth =
     { $interval ->
         [one] { $monthlyDays } кожнага месяца
         [few] { $monthlyDays } кожнага { $interval } месяца
        *[many] { $monthlyDays } кожнага { $interval } месяца
     }
-#  $interval is a number, the recurrence interval
+# Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
+# This string describes part of a yearly rule which includes every day of a month.
+# Variables:
+#   $month - month name
+#   $interval is a number, the recurrence interval
+# e.g. "every day of December"
+# e.g. "every 3 years every day of December"
 recurrence-yearly-every-day-of =
     { $interval ->
         [one] кожны дзень { $month }

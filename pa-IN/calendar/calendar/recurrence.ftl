@@ -3,26 +3,32 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 recurrence-rule-too-complex = Repeat details unknown
-#  $interval is a number, the recurrence interval
+#  Daily repeat rules: like repeats "every day", or "every 4 days"
+# Variables:
+#   $interval is a number, the recurrence interval
 recurrence-daily-every-nth =
     { $interval ->
         [one] every day
        *[other] every { $interval } days
     }
 recurrence-every-weekday = every weekday
-#  $interval is a number, the recurrence interval
+# Variables:
+#   $interval is a number, the recurrence interval
+#   $weekdays is a list of weekday names
 recurrence-weekly-every-nth-on =
     { $interval ->
         [one] every { $weekdays }
        *[other] every { $interval } weeks on { $weekdays }
     }
+# Variables:
 #  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth =
     { $interval ->
         [one] every week
        *[other] every { $interval } weeks
     }
-#  $interval is a number, the recurrence interval
+# Variables:
+#   $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
         [one] every day of every month
@@ -34,14 +40,25 @@ recurrence-repeat-ordinal-3 = ਤੀਜੇ
 recurrence-repeat-ordinal-4 = ਚੌਥੇ
 recurrence-repeat-ordinal-5 = ਪੰਜਵੇਂ
 recurrence-repeat-ordinal--1 = ਆਖਰੀ
-#  $ordinal - ordinal with article
+# Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
+# This string allows to change the order of the elements "ordinal" and
+# "weekday" (or to insert a word between them).
+# Without changing this string, the order is that one required from most
+# languages: ordinal + weekday (e.g. "'the first' 'Monday' of every 2 months").
+# Variables:
+#   $ordinal - ordinal with article
+#   $weekday - weekday name
+# e.g. "'the first' 'Monday'"
 recurrence-ordinal-weekday = { $ordinal } { $weekday }
-#  $interval is a number, the recurrence interval
+# Variables:
+#   $interval is a number, the recurrence interval
+#   $weekdays - weekday name(s)
 recurrence-monthly-every-of-every =
     { $interval ->
         [one] every { $weekdays } of every month
        *[other] every { $weekdays } of every { $interval } months
     }
+#  $weekdays - weekday name(s)
 #  $interval is a number, the recurrence interval
 recurrence-monthly-nth-of-every =
     { $interval ->
@@ -55,7 +72,11 @@ recurrence-monthly-last-day-of-nth =
        *[other] the last day of every { $interval } months
     }
 recurrence-monthly-last-day = ਆਖਰੀ ਦਿਨ
-#  $days - day of month or a sequence of days of month, possibly followed by an ordinal symbol
+# Variables:
+#   $count - number of days listed in days
+#   $days - day of month or a sequence of days of month, possibly followed by an ordinal symbol
+#    separated with commas;
+# e.g. "days 3, 6 and 9" or "days 3rd, 6th and 9th"
 recurrence-monthly-days-of-nth-day =
     { $count ->
         [one] day { $days }
@@ -64,25 +85,48 @@ recurrence-monthly-days-of-nth-day =
 
 # Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
 
+# Variables:
+#   $monthlyDays - day of month or a sequence of days of month, possibly followed
+#   by an ordinal symbol, separated with commas;
 #  $interval is a number, the recurrence interval
+# e.g. "days 3, 6, 9 and 12 of every 3 months"
 recurrence-monthly-days-of-nth =
     { $interval ->
         [one] { $monthlyDays } of every month
        *[other] { $monthlyDays } of every { $interval } months
     }
-#  $interval is a number, the recurrence interval
+# Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
+# Variables:
+#   $month - month name
+#   $monthDay - day of month possibly followed by an ordinal symbol
+#   $interval is a number, the recurrence interval
+# e.g. "every 3 years on December 14"
+#      "every 2 years on December 8th"
 recurrence-yearly-nth-on =
     { $interval ->
         [one] every { $month } { $monthDay }
        *[other] every { $interval } years on { $month } { $monthDay }
     }
-#  $interval is a number, the recurrence interval
+# Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
+# Variables:
+#   $weekday - weekday
+#   $month - month name
+#   $interval is a number, the recurrence interval
+# e.g. "every Thursday of March"
+# e.g  "every 3 years on every Thursday of March"
 recurrence-yearly-nth-of-nth =
     { $interval ->
         [one] every { $weekday } of { $month }
        *[other] every { $interval } years on every { $weekday } of { $month }
     }
-#  $interval is a number, the recurrence interval
+# Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
+# Variables:
+#   $ordinal - ordinal with article
+#   $weekday - weekday
+#   $month - month
+#   $interval is a number, the recurrence interval
+# e.g. "the second Monday of every March"
+# e.g  "every 3 years the second Monday of March"
 recurrence-yearly-nth-on-nth-of =
     { $interval ->
         [one] { $ordinal } { $weekday } of every { $month }
