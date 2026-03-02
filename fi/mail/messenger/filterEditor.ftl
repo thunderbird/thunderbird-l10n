@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Roskaposti
 rule-menuitem-not-spam =
@@ -87,3 +90,46 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } / { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-context-desc = Suodata viestit, kun:
+filter-editor-context-incoming =
+    .label = Haetaan uusia viestejä:
+    .accesskey = H
+filter-editor-context-manual =
+    .label = Suorita käsin
+    .accesskey = k
+filter-editor-context-outgoing =
+    .label = Lähettämisen jälkeen
+    .accesskey = L
+filter-editor-context-archive =
+    .label = Arkistoitaessa
+    .accesskey = A
+filter-editor-action-desc =
+    .value = Suorita nämä toiminnot:
+    .accesskey = o
+filter-editor-action-order-warning =
+    .value = Huom.: Suodatintoiminnot suoritetaan eri järjestyksessä.
+filter-editor-action-order-link =
+    .value = Näytä suoritusjärjestys
+filter-editor-invalid-search-title = Virheelliset hakutermit
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Suodatinta ei voi tallentaa, koska hakutermi ja ehto "{ $attribute } { $operator }" eivät sovi tähän käyttötarkoitukseen.
+filter-editor-action-order-explanation = Kun viesti on suodattimen mukainen, suodattimen toimet suoritetaan seuraavassa järjestyksessä:
+filter-editor-action-order-title = Todellinen toimintajärjestys
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

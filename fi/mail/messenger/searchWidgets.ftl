@@ -114,6 +114,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Poista tämä sääntö
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Lisää uusi tehtävä
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Poista tämä tehtävä
 
 ## Search Term List
 
@@ -139,6 +147,28 @@ rule-action-reply =
     .label = Vastaa mallipohjalla
 rule-action-read =
     .label = Merkitse luetuksi
+rule-action-unread =
+    .label = Merkitse ei luetuksi
+rule-action-star =
+    .label = Lisää tähti
+rule-action-priority =
+    .label = Aseta tärkeysasteeksi
+rule-action-tag =
+    .label = Lisää tunnus
+rule-action-delete =
+    .label = Poista viesti
+rule-action-delete-pop =
+    .label = Poista viesti palvelimelta
+rule-action-fetch-pop =
+    .label = Nouda viestin runko palvelimelta
+rule-action-ignore-thread =
+    .label = Ohita viestiketju
+rule-action-ignore-subthread =
+    .label = Ohita aliketju
+rule-action-watch-thread =
+    .label = Seuraa viestiketjua
+rule-action-stop =
+    .label = Pysäytä suodattaminen
 
 ## Rule Action Targets
 
