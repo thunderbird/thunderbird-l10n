@@ -128,6 +128,11 @@ filter-editor-action-order-warning =
     .value = Poznámka: Akce filtru budou spouštěny v jiném pořadí.
 filter-editor-action-order-link =
     .value = viz pořadí spouštění
+filter-editor-duplicate-title = Duplicitní název filtru
+filter-editor-duplicate-msg = Filtr s tímto názvem už existuje. Zadejte prosím pro filtr jiný název.
+filter-editor-no-event-title = Nebyla vybrána žádná událost
+filter-editor-no-event-msg = U každého filtru je potřeba vybrat alespoň jednu událost, při které je filtr spuštěn. Pokud chcete, aby filtr nebyl spouštěn při žádné události, zrušte výběr jeho stavu v seznamu filtrů v dialogu Filtry zpráv.
+filter-editor-match-all-name = Odpovídá všem zprávám
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } - kopie
