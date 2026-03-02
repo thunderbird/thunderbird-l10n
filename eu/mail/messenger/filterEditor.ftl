@@ -112,6 +112,11 @@ filter-editor-action-order-warning =
     .value = Oharra: iragazte-ekintzak beste ordena batean exekutatuko dira.
 filter-editor-action-order-link =
     .value = Ikusi exekuzio-ordena
+filter-editor-duplicate-title = Iragazkiaren izena bikoiztuta
+filter-editor-duplicate-msg = Sartu duzun iragazkiaren izena badago. Erabili beste izen bat.
+filter-editor-no-event-title = Ez da iragazte-gertaerarik hautatu
+filter-editor-no-event-msg = Iragazkia aplikatuko den gertaera bat hautatu behar duzu gutxienez. Behin-behinean ez baduzu nahi iragazkia exekutatzea edozein gertaerarentzat, kendu bere gaitze-egoeraren marka 'Mezuen iragazkiak' elkarrizketa-koadroan.
+filter-editor-match-all-name = Mezu guztiak
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Kopiatu { $name }tik

@@ -171,6 +171,8 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Spam
 rule-priority-highest =
     .label = Altuena
 rule-priority-high =
