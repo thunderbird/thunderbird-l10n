@@ -126,3 +126,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Съвпадат всички писма
     .accesskey = С
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = По-висок
+rule-priority-high =
+    .label = Висок
+rule-priority-normal =
+    .label = Нормален
+rule-priority-low =
+    .label = Нисък
+rule-priority-lowest =
+    .label = По-нисък
