@@ -140,8 +140,15 @@ filter-search-box =
     .placeholder = Tìm kiếm bộ lọc theo tên…
 filter-close-key =
     .key = W
+filter-delete-confirmation = Bạn có chắc là bạn muốn xóa bộ lọc đã chọn không?
 filter-dont-warn-delete-checkbox = Đừng hỏi lại tôi
 filter-cannot-enable-incompatible = Bộ lọc này có thể được tạo bởi phiên bản mới hơn hoặc không tương thích với { -brand-product-name }. Bạn không thể kích hoạt bộ lọc này vì chúng tôi không biết cách áp dụng nó.
+filter-running-title = Bộ lọc đang chạy
+filter-running-message =
+    Bạn hiện đang trong quá trình lọc thư.
+    Bạn có muốn tiếp tục áp dụng các bộ lọc?
+filter-stop-button = Dừng
+filter-continue-button = Tiếp tục
 
 ## Filter Editor
 
