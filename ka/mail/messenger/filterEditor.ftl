@@ -104,6 +104,28 @@ filter-name-column =
     .label = ფილტრის სახელი
 filter-active-column =
     .label = ჩართვა
+filter-reorder-bottom-button =
+    .label = ბოლოში
+    .accesskey = ბ
+    .tooltiptext = ფილტრის გადაადგილება, რომ ყველა სხვა დანარჩენზე გვიან შესრულდეს
+filter-header-label =
+    .value = ჩართული ფილტრები გაეშვება შემდეგი თანმიმდევრობით.
+filter-filters-for-prefix =
+    .value = ფილტრები:
+    .accesskey = ფ
+filter-view-log-button =
+    .label = ფილტრის ჩანაწერები
+    .accesskey = ჩ
+filter-run-filters-button =
+    .label = გაშვება ახლავე
+    .accesskey = გ
+filter-folder-picker-prefix =
+    .value = არჩეული ფილტრ(ებ)ის გაშვება:
+    .accesskey = რ
+filter-search-box =
+    .placeholder = ფილტრის მოძიება სახელით…
+filter-close-key =
+    .key = W
 
 ## Filter Editor
 
