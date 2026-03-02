@@ -114,6 +114,10 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Elimină această regulă
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Adaugă o secțiune nouă
 
 ## Search Term List
 
@@ -126,3 +130,21 @@ search-match-any =
 search-match-all-msgs =
     .label = Potrivire la toate mesajele
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-stop =
+    .label = Oprește executarea filtrului
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Cea mai mare
+rule-priority-high =
+    .label = Mare
+rule-priority-normal =
+    .label = Normală
+rule-priority-low =
+    .label = Mică
+rule-priority-lowest =
+    .label = Cea mai mică
