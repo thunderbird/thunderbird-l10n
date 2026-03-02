@@ -110,3 +110,8 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = Lưu trữ
     .accesskey = A
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
