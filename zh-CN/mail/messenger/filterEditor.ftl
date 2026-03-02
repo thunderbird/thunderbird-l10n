@@ -118,6 +118,11 @@ filter-editor-action-order-warning =
     .value = 注：过滤器操作将以不同的顺序运行。
 filter-editor-action-order-link =
     .value = 见执行顺序
+filter-editor-duplicate-title = 过滤器名称重复
+filter-editor-duplicate-msg = 您输入的过滤器名称已经存在，请重新输入不同名称。
+filter-editor-no-event-title = 未选择过滤器事件
+filter-editor-no-event-msg = 这个过滤器应用时，你至少要选择一个事件。如果你希望在所有事件中临时停止运行这个过滤器，从消息过滤器对话框中选空他的启用状态即可。
+filter-editor-match-all-name = 匹配所有信息
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } 的副本
