@@ -128,8 +128,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Exequir ils filters tschernids en:
     .accesskey = c
+filter-search-box =
+    .placeholder = Tschertgar filters tenor num…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Es ti segir che ti vuls stizzar ils filters tschernids?
 filter-dont-warn-delete-checkbox = Betg pli dumandar
 filter-cannot-enable-incompatible = Quest filter è probablamain vegnì creà dad ina versiun pli nova u incumpatibla da { -brand-product-name }. Ti na pos betg activar quest filter perquai che questa versiun da l'applicaziun na sa betg co al applitgar.
+filter-running-title = Filters activs
+filter-running-message =
+    Actualmain vegnan messadis filtrads.
+    Duain ils filters vegnir exequids vinavant?
+filter-stop-button = Fermar
+filter-continue-button = Vinavant
 
 ## Filter Editor
 
