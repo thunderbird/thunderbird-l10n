@@ -78,6 +78,13 @@ filter-folder-picker-prefix =
     .accesskey = з
 filter-close-key =
     .key = W
+filter-delete-confirmation = Сигурно сакате да го избришете овој филтер?
+filter-running-title = Извршување на филтрите
+filter-running-message =
+    Во тек е процес на филтрирање на пораки.
+    Дали сакате да продолжите да ги применувате филтрите?
+filter-stop-button = Стоп
+filter-continue-button = Продолжи
 
 ## Filter Editor
 
