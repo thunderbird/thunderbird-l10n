@@ -93,6 +93,21 @@ filter-count-visible-of-total = 在 { $total } 筆當中找到 { $visible } 筆
 
 filter-name-column =
     .label = 篩選條件名稱
+filter-active-column =
+    .label = 啟用
+filter-new-button =
+    .label = 新增…
+    .accesskey = N
+filter-run-filters-button =
+    .label = 立刻執行
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = 執行篩選條件於:
+    .accesskey = c
+filter-search-box =
+    .placeholder = 用名稱搜尋篩選條件…
+filter-close-key =
+    .key = W
 
 ## Filter Editor
 
