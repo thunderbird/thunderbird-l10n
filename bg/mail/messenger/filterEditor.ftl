@@ -111,6 +111,8 @@ filter-reorder-top-button =
     .label = Преместване в началото
     .accesskey = ч
     .tooltiptext = Пренареждане на филтъра така, че да бъде изпълнен първи
+filter-search-box =
+    .placeholder = Търсене на филтри по име…
 
 ## Filter Editor
 
