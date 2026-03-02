@@ -128,8 +128,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Աշխատեցնել ընտրված զտիչները.
     .accesskey = ր
+filter-search-box =
+    .placeholder = Search filters by name…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Ցանկանու՞մ եք ջնջել ընտրված զտիչները։
 filter-dont-warn-delete-checkbox = Այլևս չհարցնես
 filter-cannot-enable-incompatible = Հնարավոր է զտիչը ստեղծվել է նոր կամ անհամատեղելի { -brand-product-name } տարբերակի  կողմից։ Դուք չեք կարող միացնել այս զտիչը, քանզի մենք չգիտենք, թե ինչպես այն կիրառել։
+filter-running-title = Զտիչերի աշխատեցում
+filter-running-message =
+    Ընթանում է նամակների զտում։
+    Շարունակե՞լ զտիչների կիրառումը։
+filter-stop-button = Կանգնեցնել
+filter-continue-button = Շարունակել
 
 ## Filter Editor
 
