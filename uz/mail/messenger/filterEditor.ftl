@@ -61,6 +61,48 @@ filter-count-visible-of-total = { $visible } – { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Xabar filterlari
+filter-name-column =
+    .label = Filtrning nomi
+filter-active-column =
+    .label = Yoqib qo‘yilgan
+filter-new-button =
+    .label = Yangi…
+    .accesskey = Y
+filter-edit-button =
+    .label = Tahrirlash…
+    .accesskey = T
+filter-delete-button =
+    .label = O‘chirish
+    .accesskey = c
+filter-reorder-top-button =
+    .label = Yuqoriga ko‘chirish
+    .accesskey = o
+    .tooltiptext = Boshqa barchasini filterlashdan oldin uni tartiblash
+filter-reorder-up-button =
+    .label = Yuqoriga ko‘chirish
+    .accesskey = Y
+filter-reorder-down-button =
+    .label = Pastga ko‘chirish
+    .accesskey = P
+filter-reorder-bottom-button =
+    .label = Eng pastga ko‘chirish
+    .accesskey = B
+    .tooltiptext = Boshqa barchasini filterlashdan keyin uni tartiblash
+filter-header-label =
+    .value = Yoqib qo‘yilgan filterlar pastga ko‘rsatilgan tartibga ko‘ra avtomatik ishga tushadi.
+filter-filters-for-prefix =
+    .value = Filterlar:
+    .accesskey = F
+filter-view-log-button =
+    .label = Filter jurnali
+    .accesskey = j
+filter-run-filters-button =
+    .label = Hozir ishga tushirish
+    .accesskey = i
+filter-folder-picker-prefix =
+    .value = Tanlangan filterlarni ishga tushirish:
+    .accesskey = T
 
 ## Filter Editor
 
