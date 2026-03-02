@@ -148,8 +148,17 @@ filter-folder-picker-prefix =
     .accesskey = b
 filter-search-box =
     .placeholder = Pretraži filtere prema imenu…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Jeste li sigurni da želite obrisati odabrane filtere?
 filter-dont-warn-delete-checkbox = Ne pitaj me ponovno
 filter-cannot-enable-incompatible = Ovaj filter je vjerojatno stvoren od novije ili nekompatibilne { -brand-product-name } inačice. Ne možete omogućiti ovaj filter iz razloga što ne znamo kako ga primijeniti.
+filter-running-title = Pokrenuti filteri
+filter-running-message =
+    Trenutno ste u postupku filtriranja poruka.
+    Želite li nastaviti primjenjivati filtere?
+filter-stop-button = Stani
+filter-continue-button = Nastavi
 
 ## Filter Editor
 
