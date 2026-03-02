@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -77,3 +80,50 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } da { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Modifitgar il filter
+filter-editor-name =
+    .value = Num dal filter:
+    .accesskey = i
+filter-editor-context-desc = Applitgar il filter cun:
+filter-editor-context-incoming =
+    .label = Retschaiver e-mails:
+    .accesskey = R
+filter-editor-context-manual =
+    .label = Exequir manualmain
+    .accesskey = R
+filter-editor-context-outgoing =
+    .label = Suenter trametter
+    .accesskey = S
+filter-editor-context-archive =
+    .label = Archivar
+    .accesskey = A
+filter-editor-action-order-warning =
+    .value = Avis: Las acziuns da filtrar vegnan exequidas en in'autra successiun.
+filter-editor-action-order-link =
+    .value = Vesair la successiun d'execuziun
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Copia da { $name }
+filter-editor-invalid-search-title = Criteris da tschertgar nunvalids
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Impussibel da memorisar quest filter perquai ch'il term da tschertgar "{ $attribute } { $operator }" è nunvalid en il context actual.
+filter-editor-action-order-explanation = Sch'in messadi correspunda a quest filter vegnan las acziuns exequidas en questa successiun:
+filter-editor-action-order-title = Successiun d'execuziun reala
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
