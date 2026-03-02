@@ -114,6 +114,10 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Deze regel verwijderen
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Deze actie verwijderen
 
 ## Search Term List
 

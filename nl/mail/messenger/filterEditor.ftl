@@ -106,3 +106,23 @@ filter-editor-window-title = Filterregels
 filter-editor-name =
     .value = Filternaam:
     .accesskey = F
+filter-editor-context-desc = Filter toepassen bij het:
+filter-editor-context-manual =
+    .label = Handmatig uitvoeren
+    .accesskey = H
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Dit filter kan niet worden opgeslagen, omdat de zoekterm ‘{ $attribute } { $operator }’ in de huidige context ongeldig is.
+filter-editor-action-order-explanation = Als een bericht met dit filter overeenkomt, worden de acties in deze volgorde uitgevoerd:
+filter-editor-action-order-title = Werkelijke actievolgorde
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
