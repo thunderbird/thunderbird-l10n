@@ -111,3 +111,17 @@ filter-count-visible-of-total = { $visible } o { $total }
 ## Filter Editor
 
 filter-editor-window-title = Rheolau Hidlo
+filter-editor-name =
+    .value = Enw'r hidl:
+    .accesskey = E
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Nid oes modd cadw'r hidl gan fod y term chwilio "{ $attribute } { $operator }" yn annilys yn y cyd-destun cyfredol.
+filter-editor-action-order-explanation = Pan fydd neges yn cydweddu'r hidl bydd gweithredoedd yn cael eu rhedeg yn y drefn yma:
+filter-editor-action-order-title = Trefn gweithredu go iawn
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }

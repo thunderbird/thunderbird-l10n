@@ -126,3 +126,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Cydweddu pob neges
     .accesskey = n
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Uchaf
+rule-priority-high =
+    .label = Uchel
+rule-priority-normal =
+    .label = Arferol
+rule-priority-low =
+    .label = Isel
+rule-priority-lowest =
+    .label = Isaf
