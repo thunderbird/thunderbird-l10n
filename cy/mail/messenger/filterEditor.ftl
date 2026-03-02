@@ -152,6 +152,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Rhedeg yr hidl(au) ar:
     .accesskey = R
+filter-dont-warn-delete-checkbox = Peidio â gofyn eto
+filter-cannot-enable-incompatible = Cafodd yr hidl ei greu gan fersiwn y dyfodol neu anghymarus o { -brand-product-name }. Nid oes modd galluogi'r hidl am nad ydym yn gwybod sut mae ei weithredu.
 
 ## Filter Editor
 
