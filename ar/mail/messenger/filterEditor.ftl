@@ -74,6 +74,22 @@ filter-editor-window-title = قواعد التّرشيح
 filter-editor-name =
     .value = اسم المرشِّح:
     .accesskey = ر
+filter-editor-context-desc = طبّق المُرشّح عند:
+filter-editor-action-order-warning =
+    .value = ملاحظة: ستُنفّذ إجراءات المرشِّح بترتيب مختلف.
+filter-editor-action-order-link =
+    .value = اطّلع على ترتيب التنفيذ
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = تعذر حفظ هذا المرشِّح لأن عبارة البحث "{ $attribute }‏ { $operator }" لا تصلح في السياق الحالي.
+filter-editor-action-order-explanation = عندما تُطابق رسالة هذا المرشِّح، ستُطبّق الإجراءات بهذا الترتيب:
+filter-editor-action-order-title = ترتيب الإجراءات الفعلي
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = ‏{ $number }.‏ { $action } ‏{ $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
