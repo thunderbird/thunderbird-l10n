@@ -107,6 +107,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Desaniciar esta regla
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Amestar una aición nueva
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Desaniciar esta aición
 
 ## Search Term List
 
@@ -119,3 +127,45 @@ search-match-any =
 search-match-all-msgs =
     .label = Incluyir tolos mensaxes
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-reply =
+    .label = Responder con plantía
+rule-action-read =
+    .label = Conseñar como lleíu
+rule-action-unread =
+    .label = Conseñar como non lleíu
+rule-action-star =
+    .label = Amestar estrella
+rule-action-priority =
+    .label = Fixar prioridá a
+rule-action-tag =
+    .label = Etiquetar mensaxe
+rule-action-delete =
+    .label = Desaniciar mensaxe
+rule-action-delete-pop =
+    .label = Desaniciar del sirvidor POP
+rule-action-fetch-pop =
+    .label = Recuperar del sirvidor POP
+rule-action-ignore-thread =
+    .label = Inorar conversación
+rule-action-ignore-subthread =
+    .label = Inorar sub-conversación
+rule-action-watch-thread =
+    .label = Observar conversación
+rule-action-stop =
+    .label = Detener execución de los filtros
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = La más alta
+rule-priority-high =
+    .label = Alta
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Baxa
+rule-priority-lowest =
+    .label = La más baxa
