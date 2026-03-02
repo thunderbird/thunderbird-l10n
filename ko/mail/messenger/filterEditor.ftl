@@ -102,6 +102,11 @@ filter-editor-action-order-warning =
     .value = 참고: 필터는 다른 순서대로 적용됩니다.
 filter-editor-action-order-link =
     .value = 실행 순서를 참고하세요.
+filter-editor-duplicate-title = 필터 이름 복사
+filter-editor-duplicate-msg = 필터 이름이 이미 존재합니다. 다른 이름을 선택하십시오.
+filter-editor-no-event-title = 필터 이벤트 선택되지 않음
+filter-editor-no-event-msg = 이 필터가 적용 될 이벤트를 최소한 하나는 선택해야 합니다. 임시로 모든 이벤트에 대해서 필터가 작동하지 않기를 원한다면 메시지 필터 창에서 사용 가능 상태를 해제하시기 바랍니다.
+filter-editor-match-all-name = 검색된 모든 메시지
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } 복사본
