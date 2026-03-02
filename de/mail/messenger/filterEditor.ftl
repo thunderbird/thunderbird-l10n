@@ -106,3 +106,30 @@ filter-editor-window-title = Filter bearbeiten
 filter-editor-name =
     .value = Filter-Name:
     .accesskey = F
+filter-editor-context-desc = Filter anwenden bei:
+filter-editor-context-incoming =
+    .label = Nachrichtenabruf:
+    .accesskey = N
+filter-editor-context-manual =
+    .label = Manuellem Ausführen
+    .accesskey = u
+filter-editor-action-order-warning =
+    .value = Hinweis: Die Filter werden in einer anderen Reihenfolge ausgeführt.
+filter-editor-action-order-link =
+    .value = Ausführreihenfolge anzeigen
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Dieser Filter kann nicht gespeichert werden, da der Suchbegriff "{ $attribute } { $operator }" im aktuellen Kontext ungültig ist.
+filter-editor-action-order-explanation = Wenn eine Nachricht diesem Filter entspricht, werden die Aktionen in folgender Reihenfolge ausgeführt:
+filter-editor-action-order-title = Tatsächliche Ausführreihenfolge
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
