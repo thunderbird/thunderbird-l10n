@@ -101,6 +101,30 @@ filter-count-visible-of-total = { $visible } od { $total }
 
 ## Filter List Dialog
 
+filter-reorder-up-button =
+    .label = Pomakni gore
+    .accesskey = g
+filter-reorder-down-button =
+    .label = Pomakni dolje
+    .accesskey = d
+filter-reorder-bottom-button =
+    .label = Pomakni na dno
+    .accesskey = m
+    .tooltiptext = Pomakni filter kako bi se izvršavao nakon svih ostalih
+filter-header-label =
+    .value = Omogućeni filteri se izvršavaju automatski prema niže prikazanim redoslijedom.
+filter-filters-for-prefix =
+    .value = Filteri za:
+    .accesskey = F
+filter-view-log-button =
+    .label = Zapisnik filtera
+    .accesskey = l
+filter-run-filters-button =
+    .label = Pokreni
+    .accesskey = r
+filter-folder-picker-prefix =
+    .value = Pokreni odabrane filtere na:
+    .accesskey = b
 
 ## Filter Editor
 
