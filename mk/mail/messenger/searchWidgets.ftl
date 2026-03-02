@@ -59,6 +59,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Додајте ново правило
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Отстранете го ова правило
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Отстранете го ова правило
@@ -77,6 +81,32 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Премести ја пораката во
+rule-action-copy =
+    .label = Копирај ја пораката во
+rule-action-forward =
+    .label = Препрати ја пораката до
+rule-action-reply =
+    .label = Одговори со шаблон
+rule-action-read =
+    .label = Означи ја како прочитана
+rule-action-star =
+    .label = Додај ѕвезда
+rule-action-priority =
+    .label = Постави приоритет на
+rule-action-tag =
+    .label = Етикетирај порака
+rule-action-delete =
+    .label = Избриши ја пораката
+rule-action-delete-pop =
+    .label = Избриши ја од POP серверот
+rule-action-fetch-pop =
+    .label = Преземи ја од POP серверот
+rule-action-ignore-thread =
+    .label = Игнорирај ја нишката
+rule-action-watch-thread =
+    .label = Следи ја нишката
 
 ## Rule Action Targets
 

@@ -52,3 +52,5 @@ filter-editor-name =
 filter-editor-action-desc =
     .value = Изврши ги следниве дејствија:
     .accesskey = р
+filter-editor-duplicate-title = Дупликат име на филтер
+filter-editor-duplicate-msg = Името на филтерот кое го внесовте веќе постои. Изберете друго име.
