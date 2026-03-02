@@ -91,6 +91,14 @@ filter-count-visible-of-total = { $visible } dari { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Filter Pesan
+filter-name-column =
+    .label = Nama Filter
+filter-active-column =
+    .label = Aktifkan
+filter-new-button =
+    .label = Baru…
+    .accesskey = B
 
 ## Filter Editor
 
