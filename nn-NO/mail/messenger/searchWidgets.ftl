@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Legg til ny regel
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Fjern denne regelen
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Fjern denne regelen
@@ -147,6 +151,8 @@ rule-action-priority =
     .label = Sett prioritet til
 rule-action-tag =
     .label = Merk melding
+rule-action-set-spam-status =
+    .label = Set søppelpoststatus til
 rule-action-delete =
     .label = Slett melding
 
