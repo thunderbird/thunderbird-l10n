@@ -102,9 +102,11 @@ filter-count-visible-of-total = { $visible } de { $total }
 
 ## Filter Editor
 
+filter-editor-window-title = Regras de filtragem
 filter-editor-name =
     .value = Nome do filtro:
     .accesskey = N
+filter-editor-context-desc = Aplicar filtro:
 filter-editor-context-incoming =
     .label = Ao receber novas mensagens:
     .accesskey = r
