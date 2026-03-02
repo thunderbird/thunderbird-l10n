@@ -141,6 +141,12 @@ rule-action-move =
     .label = İletiyi taşı
 rule-action-copy =
     .label = İletiyi kopyala
+rule-action-forward =
+    .label = İletiyi ilet
+rule-action-reply =
+    .label = Şablonla yanıtla
+rule-action-read =
+    .label = Okundu olarak işaretle
 rule-action-unread =
     .label = Okunmadı olarak işaretle
 rule-action-star =
@@ -168,6 +174,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = Spam değil
 rule-priority-highest =
     .label = En yüksek
 rule-priority-high =

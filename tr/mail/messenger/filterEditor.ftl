@@ -126,6 +126,11 @@ filter-editor-action-order-warning =
     .value = Not: Süzgeç eylemleri farklı bir sırayla çalıştırılacaktır.
 filter-editor-action-order-link =
     .value = Çalıştırma sırasını gör
+filter-editor-duplicate-title = Çift süzgeç adı
+filter-editor-duplicate-msg = Girmiş olduğunuz süzgeç adı zaten mevcut. Lütfen farklı bir süzgeç adı girin.
+filter-editor-no-event-title = Hiçbir süzgeç olayı seçilmedi
+filter-editor-no-event-msg = Bu süzgeç uygulandığında en az bir olay seçmelisiniz. Süzgecin geçici olarak hiçbir olayda çalışmasını istemiyorsanız, İleti Süzgeçleri penceresinden devre dışı bırakın.
+filter-editor-match-all-name = Tüm iletilerle eşleştir
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } kopyası
