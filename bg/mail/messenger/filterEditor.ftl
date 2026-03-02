@@ -104,6 +104,9 @@ filter-name-column =
     .label = Име на филтър
 filter-active-column =
     .label = Активен
+filter-new-button =
+    .label = Нов…
+    .accesskey = Н
 
 ## Filter Editor
 
