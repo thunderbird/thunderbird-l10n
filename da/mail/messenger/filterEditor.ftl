@@ -126,6 +126,11 @@ filter-editor-action-order-warning =
     .value = Bemærk: Filterhandlingerne vil blive udført i en anden rækkefølge.
 filter-editor-action-order-link =
     .value = Rækkefølge
+filter-editor-duplicate-title = Filternavnet findes i forvejen
+filter-editor-duplicate-msg = Det indtastede filternavn findes i forvejen. Indtast et andet filternavn.
+filter-editor-no-event-title = Der er ikke valgt en filterhandling
+filter-editor-no-event-msg = Du skal angive mindst én handling, der skal udføres af filtret. Hvis du vil slå filtret fra midlertidigt, skal du deaktivere det i vinduet Meddelelsesfiltre.
+filter-editor-match-all-name = Match alle meddelelser
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Kopi af { $name }

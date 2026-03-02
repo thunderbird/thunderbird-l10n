@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Tilføj ny regel
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Fjern denne regel
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Fjern denne regel
@@ -174,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Spam
+rule-menuitem-not-spam =
+    .label = Ikke spam
 rule-priority-highest =
     .label = Højeste
 rule-priority-high =
