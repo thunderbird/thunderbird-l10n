@@ -91,6 +91,12 @@ filter-active-column =
 filter-new-button =
     .label = Novo…
     .accesskey = v
+filter-new-copy-button =
+    .label = Copiar…
+    .accesskey = C
+filter-edit-button =
+    .label = Editar…
+    .accesskey = E
 filter-delete-button =
     .label = Eliminar
     .accesskey = a
@@ -126,6 +132,8 @@ filter-search-box =
     .placeholder = Buscar filtros polo nome…
 filter-close-key =
     .key = W
+filter-dont-warn-delete-checkbox = Non preguntar de novo
+filter-cannot-enable-incompatible = Probabelmente este filtro foi creado por unha versión máis recente ou incompatible de { -brand-product-name }. Non pode activar este filtro porque esta versión non sabe como aplicalo.
 
 ## Filter Editor
 
