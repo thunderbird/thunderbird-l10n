@@ -99,12 +99,25 @@ filter-editor-name =
     .value = Nama filter:
     .accesskey = i
 filter-editor-context-desc = Terapkan filter ketika:
+filter-editor-context-incoming =
+    .label = Mendapatkan Surel Baru:
+    .accesskey = G
+filter-editor-context-manual =
+    .label = Jalankan Secara Manual
+    .accesskey = R
 filter-editor-context-outgoing =
     .label = Setelah Mengirim
     .accesskey = S
 filter-editor-context-archive =
     .label = Mengarsipkan
     .accesskey = A
+filter-editor-action-desc =
+    .value = Lakukan aksi berikut:
+    .accesskey = L
+filter-editor-action-order-warning =
+    .value = Catatan: Tindakan penyaringan akan dijalankan dalam urutan yang berbeda.
+filter-editor-action-order-link =
+    .value = Lihat pesanan eksekusi
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Salinan dari { $name }
