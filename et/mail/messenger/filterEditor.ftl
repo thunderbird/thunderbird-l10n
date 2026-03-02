@@ -128,8 +128,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Rakenda valitud filtrit (filtreid) kaustale:
     .accesskey = i
+filter-search-box =
+    .placeholder = Otsi filtrit nime järgi…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Kas oled kindel, et soovid seda filtrit kustutada?
 filter-dont-warn-delete-checkbox = Rohkem ei küsita
 filter-cannot-enable-incompatible = Võimalik, et filter on loodud mõne { -brand-product-name }i uuema või mitteühilduva versiooniga. Seda filtrit pole võimalik aktiveerida, sest me ei tea, kuidas seda rakendada.
+filter-running-title = Filtrite rakendamine
+filter-running-message =
+    Sul on praegu käsil kirjade filtreerimine.
+    Kas soovid filtrite rakendamist jätkata?
+filter-stop-button = Peata
+filter-continue-button = Jätka
 
 ## Filter Editor
 
