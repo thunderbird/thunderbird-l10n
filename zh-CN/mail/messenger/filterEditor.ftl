@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = 垃圾邮件
 rule-menuitem-not-spam =
@@ -85,3 +88,47 @@ filter-count-items = { $count } 项
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } / { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = 过滤器规则
+filter-editor-name =
+    .value = 过滤器名称:
+    .accesskey = i
+filter-editor-context-desc = 执行过滤器，当：
+filter-editor-context-incoming =
+    .label = 正在获取新邮件：
+    .accesskey = G
+filter-editor-context-manual =
+    .label = 手动运行
+    .accesskey = R
+filter-editor-context-outgoing =
+    .label = 发送后
+    .accesskey = S
+filter-editor-context-archive =
+    .label = 存档
+    .accesskey = A
+filter-editor-action-order-warning =
+    .value = 注：过滤器操作将以不同的顺序运行。
+filter-editor-action-order-link =
+    .value = 见执行顺序
+filter-editor-invalid-search-title = 无效的搜索条件
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = 过滤器无法保存，因为搜索的关键词 "{ $attribute } { $operator }" 在当前上下文环境中是无效的。
+filter-editor-action-order-explanation = 当一个消息匹配此过滤器时，将以下顺序执行操作：
+filter-editor-action-order-title = 实际操作顺序
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }: { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

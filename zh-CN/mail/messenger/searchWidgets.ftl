@@ -114,6 +114,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = 移除此规则
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = 添加新动作
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = 移除此动作
 
 ## Search Term List
 
@@ -126,3 +134,51 @@ search-match-any =
 search-match-all-msgs =
     .label = 匹配所有消息
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = 移动消息至
+rule-action-copy =
+    .label = 复制消息至
+rule-action-forward =
+    .label = 转发消息至
+rule-action-reply =
+    .label = 使用模板回复
+rule-action-read =
+    .label = 标记为已读
+rule-action-unread =
+    .label = 标记为未读
+rule-action-star =
+    .label = 添加星标
+rule-action-priority =
+    .label = 设置优先级为
+rule-action-tag =
+    .label = 为消息添加标签
+rule-action-delete =
+    .label = 删除消息
+rule-action-delete-pop =
+    .label = 从 POP 服务器删除
+rule-action-fetch-pop =
+    .label = 从 POP 服务器下载
+rule-action-ignore-thread =
+    .label = 忽略话题
+rule-action-ignore-subthread =
+    .label = 忽略子话题
+rule-action-watch-thread =
+    .label = 跟踪话题
+rule-action-stop =
+    .label = 停止执行过滤器
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = 最高
+rule-priority-high =
+    .label = 高
+rule-priority-normal =
+    .label = 正常
+rule-priority-low =
+    .label = 低
+rule-priority-lowest =
+    .label = 最低
