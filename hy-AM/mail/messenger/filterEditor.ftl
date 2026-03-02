@@ -103,6 +103,11 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = Արխիվացում
     .accesskey = Ա
+filter-editor-action-desc =
+    .value = Կատարել այս գործողությունը.
+    .accesskey = P
+filter-editor-action-order-warning =
+    .value = Note: Filter actions will be run in a different order.
 filter-editor-action-order-link =
     .value = Դիտել կատարման կարգը
 # Variables:
