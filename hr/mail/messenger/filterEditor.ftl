@@ -137,6 +137,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Pokreni odabrane filtere na:
     .accesskey = b
+filter-search-box =
+    .placeholder = Pretraži filtere prema imenu…
 
 ## Filter Editor
 
