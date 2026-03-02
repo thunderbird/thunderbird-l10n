@@ -126,6 +126,11 @@ filter-editor-action-order-warning =
     .value = შენიშვნა: გამოხშირვის ქმედებები სხვა რიგით შესრულდება.
 filter-editor-action-order-link =
     .value = შესრულების რიგის ჩვენება
+filter-editor-duplicate-title = ფილტრის სახელის დუბლირება
+filter-editor-duplicate-msg = მითითებული ფილტრის სახელი უკვე არსებობს. გთხოვთ მიუთითოთ განსხვავებული სახელი.
+filter-editor-no-event-title = ფილტრის მოვლენა არ შერჩეულა
+filter-editor-no-event-msg = წერილების გასაფილტრად უნდა შეარჩიოთ ერთი მაინც ფილტრის მოვლენა. თუ დროებით არ გსურთ რაიმე მოვლენით გაფილტვრა, უბრალოდ ამორთეთ იგი წერილთა ფილტრების სარკმელში.
+filter-editor-match-all-name = თანხვედრა ყველა წერილისთვის
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name }-ის ასლი

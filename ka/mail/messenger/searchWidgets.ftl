@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = ახალი წესის დამატება
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = წესის გაუქმება
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = წესის გაუქმება
@@ -174,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = ჯართი
+rule-menuitem-not-spam =
+    .label = არაა ჯართი
 rule-priority-highest =
     .label = უმაღლესი
 rule-priority-high =
