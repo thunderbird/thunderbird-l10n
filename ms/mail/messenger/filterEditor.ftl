@@ -84,3 +84,28 @@ filter-editor-action-order-warning =
     .value = Nota: Tindakan tapisan akan dilaksanakan dalam turutan berbeza.
 filter-editor-action-order-link =
     .value = Lihat pelaksanaan perintah
+filter-editor-duplicate-title = Duplikasi Nama Penapis
+filter-editor-duplicate-msg = Nama penapis yang anda masukkan telah wujud. Sila masukkan nama penapis yang berbeza.
+filter-editor-no-event-title = Tiada acara penapis yang dipilih
+filter-editor-no-event-msg = Anda perlu pilih sekurang-kurangnya satu acara apabila penapis ini dilaksanakan. Jika anda tidak mahu penapis melaksanakan acara buat sementara waktu, buang tanda dalam dialog Penapis Mesej.
+filter-editor-match-all-name = Padankan Semua Mesej
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Salinan { $name }
+filter-editor-invalid-search-title = Terma Carian Tidah Sah
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Penapis ini tidak dapat disimpan kerana istilah carian "{ $operator } { $attribute }" tidak sah dalam konteks semasa.
+filter-editor-action-order-explanation = Apabila mesej sepadan dengan penapis ini, tindakan akan dijalankan mengikut susunan ini:
+filter-editor-action-order-title = Susunan tindakan sebenar
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
