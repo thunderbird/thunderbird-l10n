@@ -78,10 +78,22 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = Rith de láimh
     .accesskey = R
+filter-editor-context-outgoing =
+    .label = Tar éis seolta
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Cartlannú
+    .accesskey = C
+filter-editor-action-desc =
+    .value = Déan na gníomhartha seo:
+    .accesskey = g
 filter-editor-action-order-warning =
     .value = Nóta: Cuirfear na scagairí i bhfeidhm in ord difriúil.
 filter-editor-action-order-link =
     .value = Féach ar ord curtha i bhfeidhm
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Cóip de { $name }
 filter-editor-invalid-search-title = Téarmaí cuardaigh neamhbhailí
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
