@@ -104,6 +104,9 @@ filter-name-column =
     .label = Nom
 filter-active-column =
     .label = Actif
+filter-new-button =
+    .label = Nouveau…
+    .accesskey = N
 
 ## Filter Editor
 
