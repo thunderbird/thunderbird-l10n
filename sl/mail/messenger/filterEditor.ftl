@@ -122,6 +122,9 @@ filter-editor-context-archive =
     .accesskey = a
 filter-editor-action-order-link =
     .value = Vrstni red izvajanja
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopija od { $name }
 filter-editor-invalid-search-title = Neveljavni pogoji iskanja
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
