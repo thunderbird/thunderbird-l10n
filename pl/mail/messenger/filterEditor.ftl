@@ -101,6 +101,23 @@ filter-count-visible-of-total = { $visible } z { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Filtry wiadomości
+filter-name-column =
+    .label = Nazwa filtru
+filter-active-column =
+    .label = Włączony
+filter-new-button =
+    .label = Nowy…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Kopiuj…
+    .accesskey = K
+filter-edit-button =
+    .label = Edytuj…
+    .accesskey = E
+filter-delete-button =
+    .label = Usuń
+    .accesskey = U
 filter-reorder-top-button =
     .label = Przenieś na górę
     .accesskey = a
@@ -133,6 +150,8 @@ filter-search-box =
     .placeholder = Nazwa filtru…
 filter-close-key =
     .key = W
+filter-dont-warn-delete-checkbox = Nie pytaj ponownie
+filter-cannot-enable-incompatible = Ten filtr został prawdopodobnie utworzony w nowszej lub niezgodnej wersji programu { -brand-product-name }. Nie można włączyć tego filtru, ponieważ nie wiadomo, jak go zastosować.
 
 ## Filter Editor
 
