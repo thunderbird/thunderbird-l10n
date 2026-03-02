@@ -93,6 +93,23 @@ filter-count-visible-of-total = { $visible } / { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Viestisuodattimet
+filter-name-column =
+    .label = Suodattimen nimi
+filter-active-column =
+    .label = Käytössä
+filter-new-button =
+    .label = Uusi…
+    .accesskey = U
+filter-new-copy-button =
+    .label = Kopioi…
+    .accesskey = K
+filter-edit-button =
+    .label = Muokkaa…
+    .accesskey = M
+filter-delete-button =
+    .label = Poista
+    .accesskey = o
 filter-reorder-top-button =
     .label = Siirrä ylimmäksi
     .accesskey = y
