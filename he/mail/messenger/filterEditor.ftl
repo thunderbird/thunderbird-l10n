@@ -71,6 +71,8 @@ filter-active-column =
 filter-new-button =
     .label = חדש…
     .accesskey = ח
+filter-search-box =
+    .placeholder = חיפוש מסננים לפי שם…
 
 ## Filter Editor
 
