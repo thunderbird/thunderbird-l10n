@@ -68,3 +68,22 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = Ручным запусканні
     .accesskey = Р
+filter-editor-context-outgoing =
+    .label = Пасля адпраўкі
+    .accesskey = П
+filter-editor-context-archive =
+    .label = Архіваванні
+    .accesskey = А
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Копія { $name }
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
