@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = สแปม
 rule-menuitem-not-spam =
@@ -85,3 +88,28 @@ filter-count-items = { $count } รายการ
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } จาก { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = กฎตัวกรอง
+filter-editor-name =
+    .value = ชื่อตัวกรอง:
+    .accesskey = ช
+filter-editor-context-desc = ใช้ตัวกรองเมื่อ:
+filter-editor-context-incoming =
+    .label = เมื่อรับจดหมายใหม่:
+    .accesskey = ร
+filter-editor-context-manual =
+    .label = เรียกใช้ด้วยตนเอง
+    .accesskey = เ
+filter-editor-context-outgoing =
+    .label = หลังจากที่ส่งแล้ว
+    .accesskey = ห
+filter-editor-context-archive =
+    .label = เก็บถาวร
+    .accesskey = ก
+filter-editor-action-order-link =
+    .value = ดูลำดับการทำงาน
