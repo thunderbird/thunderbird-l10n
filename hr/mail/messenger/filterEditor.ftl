@@ -115,10 +115,20 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = Ručnog pokretanja
     .accesskey = u
+filter-editor-context-outgoing =
+    .label = Nakon slanja
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Arhiviranje
+    .accesskey = A
 filter-editor-action-order-warning =
     .value = Napomena: radnje filtera će biti pokrenute drugačijim redoslijedom.
 filter-editor-action-order-link =
     .value = Prikaži redoslijed izvršavanja
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopija { $name }
+filter-editor-invalid-search-title = Neispravni pojmovi pretrage
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
