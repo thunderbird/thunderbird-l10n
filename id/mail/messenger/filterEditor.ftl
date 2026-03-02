@@ -99,6 +99,12 @@ filter-editor-name =
     .value = Nama filter:
     .accesskey = i
 filter-editor-context-desc = Terapkan filter ketika:
+filter-editor-context-outgoing =
+    .label = Setelah Mengirim
+    .accesskey = S
+filter-editor-context-archive =
+    .label = Mengarsipkan
+    .accesskey = A
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Salinan dari { $name }
