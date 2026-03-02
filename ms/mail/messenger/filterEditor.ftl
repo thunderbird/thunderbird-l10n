@@ -104,6 +104,16 @@ filter-folder-picker-prefix =
     .accesskey = l
 filter-search-box =
     .placeholder = Cari penapis mengikut nama…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Adakah anda pasti mahu menghapuskan penapis yang dipilih?
+filter-dont-warn-delete-checkbox = Jangan tanya lagi
+filter-running-title = Penapisan Berlangsung
+filter-running-message =
+    Anda sedang dalam proses menapis mesej.
+    Adakah anda mahu terus menggunakan penapis?
+filter-stop-button = Berhenti
+filter-continue-button = Teruskan
 
 ## Filter Editor
 
