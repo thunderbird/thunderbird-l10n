@@ -99,10 +99,20 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = nurodoma filtruoti laiškus
     .accesskey = n
+filter-editor-context-outgoing =
+    .label = Išsiuntus
+    .accesskey = s
+filter-editor-context-archive =
+    .label = Archyvavimas
+    .accesskey = A
 filter-editor-action-order-warning =
     .value = Pastaba: filtrai bus vykdomi kita tvarka.
 filter-editor-action-order-link =
     .value = Parodyti vykdymo tvarką
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } – kopija
+filter-editor-invalid-search-title = Paieškos kriterijai netinkami
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
