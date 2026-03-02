@@ -71,6 +71,34 @@ filter-edit-button =
 filter-delete-button =
     .label = ਹਟਾਓ
     .accesskey = t
+filter-reorder-top-button =
+    .label = Move to Top
+    .accesskey = o
+    .tooltiptext = Rearrange filter so it executes before all others
+filter-reorder-up-button =
+    .label = Move Up
+    .accesskey = U
+filter-reorder-down-button =
+    .label = Move Down
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = Move to Bottom
+    .accesskey = B
+    .tooltiptext = Rearrange filter so it executes after all others
+filter-header-label =
+    .value = ਹੇਠਾਂ ਦਿੱਤੇ ਕ੍ਰਮ ਵਿੱਚ ਫਿਲਟਰ ਖੁਦ ਹੀ ਚਲਾਉਣੇ ਯੋਗ ਹਨ।
+filter-filters-for-prefix =
+    .value = ਇਸ ਲਈ ਫਿਲਟਰ:
+    .accesskey = F
+filter-view-log-button =
+    .label = ਫਿਲਟਰ ਲਾੱਗ
+    .accesskey = L
+filter-run-filters-button =
+    .label = ਹੁਣੇ ਚਲਾਓ
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = ਚੁਣੇ ਫੋਲਡਰ ਤੇ ਚਲਾਓ:
+    .accesskey = c
 
 ## Filter Editor
 
