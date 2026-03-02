@@ -126,3 +126,39 @@ search-match-any =
 search-match-all-msgs =
     .label = Alle meldingane passar
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Flytt melding til
+rule-action-copy =
+    .label = Kopier melding til
+rule-action-forward =
+    .label = Vidaresend melding til
+rule-action-reply =
+    .label = Svar med mal
+rule-action-read =
+    .label = Marker som lesen
+rule-action-unread =
+    .label = Marker som ulesen
+rule-action-star =
+    .label = Merk med stjerne
+rule-action-priority =
+    .label = Sett prioritet til
+rule-action-tag =
+    .label = Merk melding
+rule-action-delete =
+    .label = Slett melding
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Høgast
+rule-priority-high =
+    .label = Høg
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Låg
+rule-priority-lowest =
+    .label = Lågast
