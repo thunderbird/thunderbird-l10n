@@ -112,6 +112,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Odstrani to pravilo
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Dodaj novo dejanje
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Odstrani to dejanje
 
 ## Search Term List
 
@@ -127,6 +135,28 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-unread =
+    .label = Označi kot neprebrano
+rule-action-star =
+    .label = Dodaj zvezdico
+rule-action-priority =
+    .label = Nastavi prednost na
+rule-action-tag =
+    .label = Označi sporočilo
+rule-action-delete =
+    .label = Izbriši sporočilo
+rule-action-delete-pop =
+    .label = Izbriši s strežnika POP
+rule-action-fetch-pop =
+    .label = Prenesi s strežnika POP
+rule-action-ignore-thread =
+    .label = Prezri nit
+rule-action-ignore-subthread =
+    .label = Prezri podnit
+rule-action-watch-thread =
+    .label = Spremljaj nit
+rule-action-stop =
+    .label = Ustavi izvajanje filtra
 
 ## Rule Action Targets
 
