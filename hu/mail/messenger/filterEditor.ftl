@@ -144,6 +144,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Kijelölt szűrők futtatása ezen a mappán:
     .accesskey = K
+filter-dont-warn-delete-checkbox = Ne kérdezze meg többet
+filter-cannot-enable-incompatible = Ezt a szűrőt valószínűleg a { -brand-product-name } egy későbbi vagy nem kompatibilis változatával készítették. Nem lehet engedélyezni, mert a program nem tudja, hogy kell alkalmazni.
 
 ## Filter Editor
 
