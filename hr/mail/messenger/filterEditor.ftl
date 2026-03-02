@@ -117,10 +117,19 @@ filter-editor-context-manual =
     .accesskey = u
 filter-editor-action-order-warning =
     .value = Napomena: radnje filtera će biti pokrenute drugačijim redoslijedom.
+filter-editor-action-order-link =
+    .value = Prikaži redoslijed izvršavanja
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Ovaj filter ne može biti spremljen jer pojam pretrage "{ $attribute } { $operator }" nije ispravan u trenutnom kontekstu.
+filter-editor-action-order-explanation = Kada poruka odgovara ovom filtru, radnje će se izvršiti ovim redoslijedom:
+filter-editor-action-order-title = Stvaran redoslijed radnji
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")

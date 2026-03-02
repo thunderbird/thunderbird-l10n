@@ -137,6 +137,12 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Premjesti poruku u
+rule-action-copy =
+    .label = Kopiraj poruku u
+rule-action-forward =
+    .label = Proslijedi poruku
 rule-action-reply =
     .label = Odgovori s predloškom
 rule-action-read =
