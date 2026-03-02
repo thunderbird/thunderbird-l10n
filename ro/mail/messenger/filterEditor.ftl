@@ -104,6 +104,7 @@ filter-count-visible-of-total = { $visible } din { $total }
 
 ## Filter Editor
 
+filter-editor-window-title = Reguli pentru filtrare
 filter-editor-name =
     .value = Denumire filtru:
     .accesskey = i
