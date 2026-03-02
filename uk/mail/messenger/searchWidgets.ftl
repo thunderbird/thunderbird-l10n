@@ -109,6 +109,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Вилучити це правило
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Додати нову дію
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Вилучити цю дію
 
 ## Search Term List
 
@@ -124,12 +132,36 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Перемістити повідомлення у
+rule-action-copy =
+    .label = Копіювати повідомлення у
+rule-action-forward =
+    .label = Переслати повідомлення до
+rule-action-reply =
+    .label = Відповісти за шаблоном
 rule-action-unread =
     .label = Позначити як нечитане
 rule-action-star =
     .label = Додати зірочку
 rule-action-priority =
     .label = Змінити важливість на
+rule-action-tag =
+    .label = Позначити повідомлення міткою
+rule-action-delete =
+    .label = Видалити повідомлення
+rule-action-delete-pop =
+    .label = Видалити з POP-сервера
+rule-action-fetch-pop =
+    .label = Завантажити з POP-сервера
+rule-action-ignore-thread =
+    .label = Ігнорувати гілку
+rule-action-ignore-subthread =
+    .label = Ігнорувати підгілку
+rule-action-watch-thread =
+    .label = Відстежувати гілку
+rule-action-stop =
+    .label = Припинити роботу фільтра
 
 ## Rule Action Targets
 

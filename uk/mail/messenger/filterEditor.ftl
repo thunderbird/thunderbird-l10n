@@ -99,6 +99,14 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = Вручну
     .accesskey = р
+filter-editor-action-order-warning =
+    .value = Примітка: Дії фільтру запустяться в іншому порядку.
+filter-editor-action-order-link =
+    .value = див. Порядок виконання
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Копія { $name }
+filter-editor-invalid-search-title = Умови пошуку недійсні
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
