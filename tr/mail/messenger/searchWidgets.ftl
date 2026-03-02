@@ -126,3 +126,13 @@ search-match-any =
 search-match-all-msgs =
     .label = Tüm iletilerle eşleştir
     .accesskey = T
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-low =
+    .label = Düşük
+rule-priority-lowest =
+    .label = En düşük
