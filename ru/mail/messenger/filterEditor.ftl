@@ -101,6 +101,11 @@ filter-count-visible-of-total = { $visible } из { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Фильтры сообщений
+filter-name-column =
+    .label = Имя фильтра
+filter-active-column =
+    .label = Включён
 
 ## Filter Editor
 
