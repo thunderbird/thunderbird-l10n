@@ -114,6 +114,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Remover iste regula
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Adder un nove action
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Remover iste action
 
 ## Search Term List
 
@@ -135,6 +143,8 @@ rule-action-copy =
     .label = Copiar le message a
 rule-action-forward =
     .label = Inviar le message ultra a
+rule-action-reply =
+    .label = Responder con modello
 rule-action-read =
     .label = Marcar como legite
 rule-action-unread =
@@ -157,6 +167,18 @@ rule-action-ignore-subthread =
     .label = Ignorar sub-argumento
 rule-action-watch-thread =
     .label = Surveliar la discussion
+rule-action-stop =
+    .label = Stoppar le execution del filtro
 
 ## Rule Action Targets
 
+rule-priority-highest =
+    .label = Plus alte
+rule-priority-high =
+    .label = Alte
+rule-priority-normal =
+    .label = Normal
+rule-priority-low =
+    .label = Basse
+rule-priority-lowest =
+    .label = Plus basse
