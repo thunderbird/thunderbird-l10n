@@ -16,6 +16,8 @@ calendar-dialog-location-row-icon =
     .alt = Lokasi
 calendar-dialog-description-row-icon =
     .alt = Deskripsi
+calendar-dialog-reminders-row-icon =
+    .alt = Pengingat
 calendar-dialog-description-label = Deskripsi
 calendar-dialog-description-expand-icon =
     .alt = Tampilkan deskripsi lengkap
@@ -24,3 +26,14 @@ calendar-dialog-description-expand-icon =
 #   $categories (String): List of all categories.
 calendar-dialog-more-categories = +{ $additionalCategories } lainnya
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Hapus Pengingat
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count = { $count } Pengingat
+calendar-dialog-accept = Ikut
+    .title = Ikut
+calendar-dialog-accept-tentative = Mungkin
+    .title = Mungkin
+calendar-dialog-decline = Tidak Hadir
+    .title = Tidak Hadir

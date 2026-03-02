@@ -627,6 +627,17 @@ prompt-dont-ask-again = Jangan tanya lagi.
 spam-analysis-percentage = Analisis spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } selesai
 spam-processing-message = Memroses pesan spam
 
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback = Balasan ke { $count } utas yang dipilih tidak akan ditampilkan.
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback = Balasan ke sub-utas { $count } yang dipilih tidak akan ditampilkan.
+
 ## Attachments
 
 # Variables:

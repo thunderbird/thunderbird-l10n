@@ -396,6 +396,12 @@ key-does-not-expire = Kunci tidak kedaluwarsa
 key-expired-date = Kunci kedaluwarsa pada { $keyExpiry }
 key-expired-simple = Kunci sudah kedaluwarsa
 key-revoked-simple = Kunci sudah dicabut
+key-revoked-revocation-code-superseded = Kunci telah dicabut karena kunci telah diganti.
+key-revoked-revocation-code-compromised = Kunci dicabut karena material kunci telah terkompromi.
+key-revoked-revocation-code-retired = Kunci dicabut karena kunci dipensiunkan dan tidak digunakan lagi.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Alasan pencabutan seperti yang dinyatakan oleh pemilik kunci: { $reason }
 key-do-you-accept = Apakah Anda menerima kunci ini untuk memverifikasi tanda tangan digital dan untuk mengenkripsi pesan?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
