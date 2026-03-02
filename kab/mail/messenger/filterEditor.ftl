@@ -128,6 +128,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Selkem imzizdeg (i-en) yettwafernen di:
     .accesskey = w
+filter-dont-warn-delete-checkbox = Ur y-id-sutur ara tikelt nniḍen
+filter-cannot-enable-incompatible = Imsizdig yettwarna ahat sɣur lqem n { -brand-product-name } amaynut neɣ win ur yemṣadan ara. Ur tezmireḍ ara ad tremdeḍ imsizdig-a acku ur neẓri ara amek ara t-nseqdec.
 
 ## Filter Editor
 
