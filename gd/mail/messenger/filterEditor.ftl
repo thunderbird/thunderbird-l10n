@@ -87,6 +87,11 @@ filter-count-visible-of-total = { $visible } à { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Criathragan nan teachdaireachd
+filter-name-column =
+    .label = Ainm na criathraige
+filter-active-column =
+    .label = Air a chur an comas
 
 ## Filter Editor
 
