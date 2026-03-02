@@ -130,6 +130,12 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Mover mensaxe a
+rule-action-copy =
+    .label = Copiar mensaxe a
+rule-action-forward =
+    .label = Reunviar mensaxe a
 rule-action-reply =
     .label = Responder con plantía
 rule-action-read =
