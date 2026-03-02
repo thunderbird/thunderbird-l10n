@@ -91,6 +91,8 @@ filter-count-visible-of-total = 在 { $total } 筆當中找到 { $visible } 筆
 
 ## Filter List Dialog
 
+filter-name-column =
+    .label = 篩選條件名稱
 
 ## Filter Editor
 
