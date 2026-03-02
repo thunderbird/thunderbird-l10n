@@ -122,6 +122,8 @@ filter-editor-context-archive =
 filter-editor-action-desc =
     .value = Bu eylemleri uygula:
     .accesskey = u
+filter-editor-action-order-warning =
+    .value = Not: Süzgeç eylemleri farklı bir sırayla çalıştırılacaktır.
 filter-editor-action-order-link =
     .value = Çalıştırma sırasını gör
 # Variables:
