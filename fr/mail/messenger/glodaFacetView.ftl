@@ -6,6 +6,13 @@
 #   $m - the number M in "M of N" items
 #   $n - the number N in "M of N" items
 items-m-of-n = { $m } sur { $n }{ $m } sur { $n }
+# Variables:
+#   $count - the number items
+facets-mode-to-list-all-label =
+    { $count ->
+        [one] Lister les { $count }
+       *[other] Lister les { $count }
+    }
 # Last item in a a list like A, B, C and "3 others".
 # Variables:
 #   $count - the number items

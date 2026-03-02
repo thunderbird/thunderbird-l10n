@@ -3,6 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $m - the number M in "M of N" items
+#   $n - the number N in "M of N" items
+items-m-of-n =
+    { $m ->
+       *[other] { $m } 轉 { $n } { $m } 轉 { $n }
+    }
+# Variables:
 #   $count - the number items
 facets-mode-to-list-all-label = 列出全部 { $count } 項
 # Last item in a a list like A, B, C and "3 others".

@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = Fermer
     .title = Fermer
+calendar-dialog-menu-button =
+    .aria-label = Ouvrir le menu
+    .title = Ouvrir le menu
 calendar-dialog-back-button =
     .aria-label = Retour
     .title = Retour
@@ -18,9 +21,104 @@ calendar-dialog-description-row-icon =
     .alt = Description
 calendar-dialog-reminders-row-icon =
     .alt = Rappels
+calendar-dialog-attendees-row-icon =
+    .alt = Invités
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } invité
+       *[other] { $count } invités
+    }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary =
+    { $going ->
+        [one]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                               *[other] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                               *[other] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                               *[other] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                               *[other] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                            }
+                    }
+            }
+       *[other]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                               *[other] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                               *[other] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                               *[other] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                               *[other] { $going } participant, { $maybe } peut-être, { $declined } refusé, { $pending } en attente
+                            }
+                    }
+            }
+    }
+calendar-dialog-attendee-organizer = Organisateur
+calendar-dialog-attendee-optional = Optionnel
+calendar-dialog-icon-attending =
+    .alt = Participant
+calendar-dialog-icon-declined =
+    .alt = Refusé
+calendar-dialog-icon-maybe =
+    .alt = Peut-être
+calendar-dialog-attendees-expand-icon =
+    .alt = Afficher tous les invités
+calendar-dialog-attendees-too-many-guests = La liste des invités ne peut pas être affichée, car elle contient plus de 50 invités.
 calendar-dialog-description-label = Description
 calendar-dialog-description-expand-icon =
     .alt = Afficher la description complète
+calendar-dialog-menu-duplicate =
+    .label = Évènement dupliqué
+calendar-dialog-menu-delete =
+    .label = Supprimer l’évènement
+calendar-dialog-menu-print =
+    .label = Imprimer
+calendar-dialog-menu =
+    .aria-label = Menu plus d’actions
+    .title = Menu plus d’actions
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -45,3 +143,20 @@ calendar-dialog-accept-tentative = Peut-être
     .title = Peut-être
 calendar-dialog-decline = Refuser
     .title = Refuser
+calendar-dialog-join-meeting-button = Rejoindre la réunion
+calendar-dialog-join-meeting-row-icon =
+    .alt = Rejoindre la réunion
+calendar-dialog-attachments-row-icon =
+    .alt = Pièces jointes
+calendar-dialog-attachments-label = Pièces jointes
+calendar-dialog-attachment-link-icon =
+    .alt = Pièce jointe
+calendar-dialog-attachments-expand-icon =
+    .alt = Afficher toutes les pièces jointes
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } pièce jointe
+       *[other] { $count } pièces jointes
+    }
