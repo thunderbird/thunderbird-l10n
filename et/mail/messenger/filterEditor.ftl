@@ -110,6 +110,11 @@ filter-editor-action-order-warning =
     .value = Märkus: filtri tegevused käivituvad teistsuguses järjekorras.
 filter-editor-action-order-link =
     .value = Vaata käivitumise järjekorda
+filter-editor-duplicate-title = Korduv filtri nimi
+filter-editor-duplicate-msg = Selle nimega filter on juba olemas. Palun sisesta mõni muu nimi.
+filter-editor-no-event-title = Filtri rakendumise määrang puudub
+filter-editor-no-event-msg = Sa pead määrama vähemalt ühe olukorra, millal seda filtrit rakendatakse. Kui sa ei soovi ajutiselt seda filtrit üldse kasutada, siis eemalda linnuke sellelt filtrilt e-posti filtrite aknas.
+filter-editor-match-all-name = Kõik kirjad sobivad
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } koopia
