@@ -55,6 +55,10 @@ filter-editor-name =
 filter-editor-action-desc =
     .value = Doen hierdie aksies:
     .accesskey = D
+filter-editor-duplicate-title = Duplikaatfilternaam
+filter-editor-duplicate-msg = Die filternaam wat u ingetik het, bestaan reeds. Kies asseblief 'n ander filternaam.
+filter-editor-match-all-name = Pas by alle boodskappe
+filter-editor-invalid-search-title = Soekwoorde ongeldig
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
