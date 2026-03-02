@@ -102,6 +102,7 @@ filter-count-visible-of-total = { $visible } sur { $total }
 
 ## Filter Editor
 
+filter-editor-window-title = Règles de filtrage
 filter-editor-name =
     .value = Nom du filtre :
     .accesskey = i
