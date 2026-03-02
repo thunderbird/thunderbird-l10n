@@ -126,6 +126,11 @@ filter-editor-action-order-warning =
     .value = Noot: filteracties worden in een andere volgorde uitgevoerd.
 filter-editor-action-order-link =
     .value = Uitvoeringsvolgorde bekijken
+filter-editor-duplicate-title = Filternaam bestaat al
+filter-editor-duplicate-msg = Deze filternaam bestaat al. Voer een andere filternaam in.
+filter-editor-no-event-title = Geen filtergebeurtenis geselecteerd
+filter-editor-no-event-msg = U moet ten minste één gebeurtenis selecteren waarbij dit filter wordt toegepast. Als u het filter tijdelijk helemaal niet wilt laten uitvoeren, haal dan het vinkje weg bij de inschakelstatus in het dialoogvenster Berichtenfilters.
+filter-editor-match-all-name = Alle berichten vergelijken
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Kopie van { $name }
