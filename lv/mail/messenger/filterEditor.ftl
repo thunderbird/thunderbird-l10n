@@ -85,6 +85,8 @@ filter-count-visible-of-total = { $visible } no { $total }
 
 ## Filter List Dialog
 
+filter-active-column =
+    .label = Ieslēgts
 
 ## Filter Editor
 
