@@ -74,6 +74,12 @@ filter-editor-context-manual =
 filter-editor-action-desc =
     .value = ਇਹ ਐਕਸ਼ਨ ਕਰੋ:
     .accesskey = P
+filter-editor-duplicate-title = ਡੁਪਲੀਕੇਟ ਫਿਲਟਰ ਨਾਂ
+filter-editor-duplicate-msg = ਫਿਲਟਰ ਨਾਂ, ਜੋ ਤੁਸੀਂ ਦਿੱਤਾ ਹੈ, ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ। ਵੱਖਰਾ ਫਿਲਟਰ ਨਾਂ ਦਿਓ ਜੀ।
+filter-editor-no-event-title = No filter event selected
+filter-editor-no-event-msg = You must select at least one event when this filter is applied. If you temporarily do not wish the filter to run at any event, uncheck its enabled state from the Message Filters dialog.
+filter-editor-match-all-name = ਸਭ ਸੁਨੇਹੇ ਮਿਲਾਓ
+filter-editor-invalid-search-title = ਖੋਜ ਸ਼ਬਦ ਗਲਤ ਹੈ
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
