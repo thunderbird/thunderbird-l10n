@@ -3,6 +3,9 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 
+## Search Attributes
+
+
 ## Search Operators
 
 search-op-contains = содржи
@@ -71,3 +74,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Да се совпаѓа со сите пораки
     .accesskey = с
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Највисок
+rule-priority-high =
+    .label = Високо
+rule-priority-normal =
+    .label = Нормално
+rule-priority-low =
+    .label = Ниско
+rule-priority-lowest =
+    .label = Најнизок
