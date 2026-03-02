@@ -104,9 +104,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Pridėti naują sąlygą
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Pašalinti šią sąlygą
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Pašalinti šią sąlygą
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Pridėti naują veiksmą
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Pašalinti šį veiksmą
 
 ## Search Term List
 
@@ -119,3 +131,41 @@ search-match-any =
 search-match-all-msgs =
     .label = visi laiškai
     .accesskey = a
+
+## Rule Action Types
+
+rule-action-unread =
+    .label = Pažymėti kaip neskaitytą
+rule-action-star =
+    .label = Pažymėti žvaigždute
+rule-action-priority =
+    .label = Nustatyti prioritetą:
+rule-action-tag =
+    .label = Priskirti gairę:
+rule-action-delete =
+    .label = Pašalinti
+rule-action-delete-pop =
+    .label = Pašalinti iš POP serverio
+rule-action-fetch-pop =
+    .label = Atsiųsti laiško tekstą iš POP serverio
+rule-action-ignore-thread =
+    .label = Nepaisyti gijos
+rule-action-ignore-subthread =
+    .label = Nepaisyti gijos atšakos
+rule-action-watch-thread =
+    .label = Stebėti giją
+rule-action-stop =
+    .label = Stabdyti filtrų vykdymą
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = aukščiausią
+rule-priority-high =
+    .label = aukštą
+rule-priority-normal =
+    .label = normalų
+rule-priority-low =
+    .label = žemą
+rule-priority-lowest =
+    .label = žemiausią

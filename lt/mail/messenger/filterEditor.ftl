@@ -92,3 +92,30 @@ filter-editor-window-title = Filtravimo taisyklės
 filter-editor-name =
     .value = Filtro pavadinimas:
     .accesskey = F
+filter-editor-context-desc = Filtrą taikyti, kai:
+filter-editor-context-incoming =
+    .label = tikrinamas paštas:
+    .accesskey = t
+filter-editor-context-manual =
+    .label = nurodoma filtruoti laiškus
+    .accesskey = n
+filter-editor-action-order-warning =
+    .value = Pastaba: filtrai bus vykdomi kita tvarka.
+filter-editor-action-order-link =
+    .value = Parodyti vykdymo tvarką
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Šio filtro įrašyti negalima, nes paieškos kriterijus „{ $attribute } { $operator }“ šiame kontekste yra netinkamas.
+filter-editor-action-order-explanation = Pranešimui atitikus šį filtrą, veiksmai bus vykdomi šia tvarka:
+filter-editor-action-order-title = Tikroji veiksmų tvarka
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
