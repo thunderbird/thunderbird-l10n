@@ -113,3 +113,23 @@ filter-editor-context-archive =
     .accesskey = ก
 filter-editor-action-order-link =
     .value = ดูลำดับการทำงาน
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = สำเนาของ { $name }
+filter-editor-invalid-search-title = คำค้นหาไม่ถูกต้อง
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = ไม่สามารถบันทึกตัวกรองนี้ได้เนื่องจากคำค้นหา "{ $attribute } { $operator }" ไม่ถูกต้องในบริบทปัจจุบัน
+filter-editor-action-order-explanation = เมื่อมีข้อความที่ตรงกับตัวกรองนี้ จะเรียกใช้การกระทำตามลำดับนี้:
+filter-editor-action-order-title = ลำดับการกระทำจริง
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
