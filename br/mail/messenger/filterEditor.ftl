@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
@@ -66,3 +69,40 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } eus { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Reolennoù silañ
+filter-editor-name =
+    .value = Anv ar sil :
+    .accesskey = i
+filter-editor-context-desc = Arloañ ar sil pa vez:
+filter-editor-context-incoming =
+    .label = Kerc'het kemennadennoù nevez :
+    .accesskey = K
+filter-editor-context-manual =
+    .label = Lañset dre zorn
+    .accesskey = r
+filter-editor-action-order-warning =
+    .value = Notenn : Loc'het e vo gwezhioù ar siloù dre un urzh disheñvel.
+filter-editor-action-order-link =
+    .value = Gwelout urzh loc'hañ ar gwezhioù
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Ar sil-mañ n'hall ket bezañ enrollet rak an termen enklask "{ $attribute } { $operator }" zo didalvoudek er c'hemperzh-mañ.
+filter-editor-action-order-explanation = Pa genglot ur gemennadenn gant ar sil-mañ e vez loc'het ar gwezhioù dre an urzh-mañ :
+filter-editor-action-order-title = Urzh loc'hañ ar gwezhioù
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator } : { $value }
