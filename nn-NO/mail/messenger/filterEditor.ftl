@@ -113,10 +113,14 @@ filter-editor-context-incoming =
 filter-editor-context-outgoing =
     .label = Etter sending
     .accesskey = E
+filter-editor-context-archive =
+    .label = Arkivering
+    .accesskey = A
 filter-editor-action-order-warning =
     .value = Merk: Filterhandlingar vert køyrd i ei anna rekkjefølgje
 filter-editor-action-order-link =
     .value = Sjå utføringsrekkjefølgje
+filter-editor-invalid-search-title = Søkjeorda er ugyldige
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
