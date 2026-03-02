@@ -107,6 +107,15 @@ filter-active-column =
 filter-new-button =
     .label = Nuevo…
     .accesskey = N
+filter-new-copy-button =
+    .label = Copiar…
+    .accesskey = C
+filter-edit-button =
+    .label = Editar…
+    .accesskey = E
+filter-delete-button =
+    .label = Borrar
+    .accesskey = B
 filter-reorder-top-button =
     .label = Mover al inicio
     .accesskey = o
@@ -135,6 +144,8 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Ejecutar los filtros seleccionados en:
     .accesskey = c
+filter-dont-warn-delete-checkbox = No preguntarme de nuevo
+filter-cannot-enable-incompatible = Este filtro fue probablemente creado por una versión de { -brand-product-name } nueva o incompatible. No se puede habilitar este filtro porque no sabemos como aplicarlo.
 
 ## Filter Editor
 
