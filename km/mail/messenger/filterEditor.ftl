@@ -65,6 +65,23 @@ filter-editor-name =
     .value = Ֆիլտրի անունը.
     .accesskey = i
 filter-editor-context-desc = Կիրառել ֆիլտրը, երբ՝
+filter-editor-context-incoming =
+    .label = ទទួល​អ៊ីមែល​ថ្មី៖
+    .accesskey = G
+filter-editor-context-manual =
+    .label = ដំណើរការ​ដោយ​ដៃ
+    .accesskey = R
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = តម្រង​នេះ​មិន​អាច​ត្រូវ​បាន​រក្សាទុក​ព្រោះ​ពាក្យ​ស្វែងរក "{ $attribute } { $operator }" មិន​ត្រឹមត្រូវ​ក្នុង​បរិបទ​បច្ចុប្បន្ន។
+filter-editor-action-order-explanation = នៅ​ពេល​សារ​ផ្គូផ្គង​នឹង​តម្រង​នេះ​សកម្មភាព​នឹង​ត្រូវ​បាន​ដំណើរការ​ក្នុង​លំដាប់​នេះ៖
+filter-editor-action-order-title = លំដាប់​សកម្មភាព​ពិតប្រាកដ
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
