@@ -141,10 +141,28 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Berjocht ferpleatse nei
+rule-action-copy =
+    .label = Berjocht kopiearje nei
+rule-action-forward =
+    .label = Berjocht trochstjoere nei
+rule-action-reply =
+    .label = Mei sjabloan antwurdzje
+rule-action-read =
+    .label = Berjocht as lêzen markearje
 rule-action-unread =
     .label = Berjocht as net lêzen markearje
 rule-action-star =
     .label = Stjer tafoegje
+rule-action-priority =
+    .label = Prioriteit wizigje nei
+rule-action-tag =
+    .label = Berjocht labelje
+rule-action-set-spam-status =
+    .label = Net-winske-steat ynstelle op
+rule-action-delete =
+    .label = Berjocht fuortsmite
 rule-action-delete-pop =
     .label = Fan POP-server smite
 rule-action-fetch-pop =

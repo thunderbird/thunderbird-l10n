@@ -119,6 +119,16 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = Argivearje
     .accesskey = r
+filter-editor-action-desc =
+    .value = Dizze aksjes útfiere:
+    .accesskey = f
+filter-editor-action-order-warning =
+    .value = Noat: filteraksjes wurde útfierd yn in oare folchoarder.
+filter-editor-action-order-link =
+    .value = Sjoch útfierfolchoarder
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopy fan { $name }
 filter-editor-invalid-search-title = Syktermen ferkeard
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
