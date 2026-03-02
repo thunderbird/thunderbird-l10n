@@ -99,6 +99,53 @@ filter-count-visible-of-total = { $visible } fan { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Berjochtefilters
+filter-name-column =
+    .label = Filternamme
+filter-active-column =
+    .label = Aktyf
+filter-new-button =
+    .label = Nij…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Kopiearje…
+    .accesskey = K
+filter-edit-button =
+    .label = Bewurkje…
+    .accesskey = B
+filter-delete-button =
+    .label = Fuortsmite
+    .accesskey = F
+filter-reorder-top-button =
+    .label = Boppe-oan pleatse
+    .accesskey = B
+    .tooltiptext = Ferpleats filter sadat it as earste útfierd wurdt
+filter-reorder-up-button =
+    .label = Omheech ferpleatse
+    .accesskey = h
+filter-reorder-down-button =
+    .label = Omleech ferpleatse
+    .accesskey = l
+filter-reorder-bottom-button =
+    .label = Underoan pleatse
+    .accesskey = U
+    .tooltiptext = Ferpleats filter sadat it as lêste útfierd wurdt
+filter-header-label =
+    .value = Aktivearre filters wurkje automatysk yn ûndersteande folchoarder.
+filter-filters-for-prefix =
+    .value = Filters foar:
+    .accesskey = F
+filter-view-log-button =
+    .label = Filterlochboek
+    .accesskey = i
+filter-run-filters-button =
+    .label = No tapasse
+    .accesskey = t
+filter-folder-picker-prefix =
+    .value = Selektearre filter(s) tapasse op:
+    .accesskey = S
+filter-dont-warn-delete-checkbox = My net wer freegje
+filter-cannot-enable-incompatible = Dit filter is nei alle gedachten makke troch in nijere of ynkompatibele ferzje fan { -brand-product-name }. Jo kinne dit filter net aktivearje om't wy net witte hoe’t it tapast wurde moat.
 
 ## Filter Editor
 
