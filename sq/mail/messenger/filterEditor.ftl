@@ -104,6 +104,9 @@ filter-name-column =
     .label = Emër Filtri
 filter-active-column =
     .label = I aktivizuar
+filter-new-button =
+    .label = I ri…
+    .accesskey = i
 filter-new-copy-button =
     .label = Kopjoni…
     .accesskey = K
@@ -145,8 +148,15 @@ filter-search-box =
     .placeholder = Kërkoni sipas emrash te filtrat…
 filter-close-key =
     .key = W
+filter-delete-confirmation = Jeni i sigurt se doni të fshihet ky filtër?
 filter-dont-warn-delete-checkbox = Mos më pyet më
 filter-cannot-enable-incompatible = Sipas gjasash, ky filtër qe krijuar nga një version më i ri ose i papërputhshëm i { -brand-product-name }-it. S’mund ta aktivizoni këtë filtër, ngaqë s’dimë si ta zbatojmë.
+filter-running-title = Filtra Veprues
+filter-running-message =
+    Hëpërhë jeni në filtrim mesazhesh e sipër.
+    Do donit të vazhdohet me zbatim filtrash?
+filter-stop-button = Ndale
+filter-continue-button = Vazhdo
 
 ## Filter Editor
 
