@@ -112,6 +112,14 @@ filter-search-box =
     .placeholder = חיפוש מסננים לפי שם…
 filter-close-key =
     .key = W
+filter-delete-confirmation = האם אתה בטוח שברצונך למחוק מסנן זה?
+filter-dont-warn-delete-checkbox = לא לשאול אותי שוב
+filter-running-title = מסננים פועלים
+filter-running-message =
+    אתה כרגע בתהליך של סינון הודעות.
+    האם ברצונך להמשיך ליישם את המסננים?
+filter-stop-button = עצור
+filter-continue-button = המשך
 
 ## Filter Editor
 
