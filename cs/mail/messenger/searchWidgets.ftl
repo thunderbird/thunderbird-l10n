@@ -126,3 +126,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Odpovídající všem zprávám
     .accesskey = v
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Nejvyšší
+rule-priority-high =
+    .label = Vysoká
+rule-priority-normal =
+    .label = Normální
+rule-priority-low =
+    .label = Nízká
+rule-priority-lowest =
+    .label = Nejnižší

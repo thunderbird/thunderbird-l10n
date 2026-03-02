@@ -105,3 +105,12 @@ filter-count-visible-of-total = { $visible } z { $total }
 ## Filter Editor
 
 filter-editor-window-title = Pravidla filtru
+filter-editor-name =
+    .value = Název filtru:
+    .accesskey = N
+filter-editor-context-desc = Použít filtr při:
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
