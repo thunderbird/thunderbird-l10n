@@ -87,6 +87,16 @@ filter-name-column =
     .label = Nom del filtre
 filter-active-column =
     .label = Habilitat
+filter-new-button =
+    .label = Nou…
+    .accesskey = N
+filter-folder-picker-prefix =
+    .value = Executa manualment els filtres seleccionats a la carpeta:
+    .accesskey = i
+filter-search-box =
+    .placeholder = Cerca els filtres pel nom…
+filter-close-key =
+    .key = W
 
 ## Filter Editor
 
