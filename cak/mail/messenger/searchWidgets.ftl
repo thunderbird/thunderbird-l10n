@@ -107,6 +107,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Tiyuj re b'eyal re'
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Titz'aqatisäx jun k'ak'a' b'anoj
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Tiyuj re b'anoj re'
 
 ## Search Term List
 
@@ -119,3 +127,51 @@ search-match-any =
 search-match-all-msgs =
     .label = Tikik'ama' ki' konojel ri taq rutzijol
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Tisilöx Rutzijol pa
+rule-action-copy =
+    .label = Tiwachib'ëx Rutzijol pa
+rule-action-forward =
+    .label = Ketaq chik Rutzijol pa
+rule-action-reply =
+    .label = Titzolïx tzij rik'in Kaxawäch
+rule-action-read =
+    .label = Tiya' Retal Achi'el Sik'in
+rule-action-unread =
+    .label = Tiya' Retal Achi'el Man Sik'in Ta
+rule-action-star =
+    .label = Titz'aqatisäx Ch'umil
+rule-action-priority =
+    .label = Tiya' Rejqalem chi re
+rule-action-tag =
+    .label = Retal Rutzijol
+rule-action-delete =
+    .label = Tiyuj Tzijol
+rule-action-delete-pop =
+    .label = Tiyuj Pa Ri POP K'uxasamaj
+rule-action-fetch-pop =
+    .label = Tik'am Pe Pa Ri POP K'uxasamaj
+rule-action-ignore-thread =
+    .label = Tirepüx Ch'ab'enïk
+rule-action-ignore-subthread =
+    .label = Tirepüx Achch'ab'enïk
+rule-action-watch-thread =
+    .label = Titzu' jun Ch'ab'enïk
+rule-action-stop =
+    .label = Tiq'at Rusamajixik Chayub'äl
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Yalan nïm
+rule-priority-high =
+    .label = Nïm
+rule-priority-normal =
+    .label = Relik
+rule-priority-low =
+    .label = Ko'öl
+rule-priority-lowest =
+    .label = Ch'utin

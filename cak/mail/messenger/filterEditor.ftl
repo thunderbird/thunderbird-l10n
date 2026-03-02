@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -77,3 +80,33 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } richin { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Ketab'al Chayub'äl
+filter-editor-name =
+    .value = Chayub'äl b'i'aj:
+    .accesskey = a
+filter-editor-context-desc = Tokisäx chayub'äl toq:
+filter-editor-context-incoming =
+    .label = Nik'ul K'ak'a' Taqoya'l:
+    .accesskey = N
+filter-editor-context-manual =
+    .label = Tisamajin chi Q'ab'aj
+    .accesskey = T
+filter-editor-context-outgoing =
+    .label = Chi rij toq Nitaq
+    .accesskey = N
+filter-editor-context-archive =
+    .label = Niyak
+    .accesskey = N
+filter-editor-action-desc =
+    .value = Kesamajib'ëx re taq b'anoj re':
+    .accesskey = K
+filter-editor-action-order-warning =
+    .value = Ch'utitzijol: Ri taq rub'anoj chayuj xkisamajib'ëx rik'in jalajöj rucholajem.
+filter-editor-action-order-link =
+    .value = Titz'et rucholajem taqoj
