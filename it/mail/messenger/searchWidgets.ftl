@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Aggiungi regola
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Elimina questa regola
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Elimina questa regola
