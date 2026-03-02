@@ -67,6 +67,14 @@ filter-count-visible-of-total = ‏{ $visible } من { $total }
 
 ## Filter List Dialog
 
+filter-window-title = مرشِّحات الرسائِل
+filter-name-column =
+    .label = اسم المرشِّح
+filter-active-column =
+    .label = مُفعّل
+filter-new-button =
+    .label = جديد…
+    .accesskey = ج
 
 ## Filter Editor
 
