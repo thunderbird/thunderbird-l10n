@@ -85,8 +85,55 @@ filter-count-visible-of-total = { $visible } no { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Vēstuļu filtri
+filter-name-column =
+    .label = Filtra nosaukums
 filter-active-column =
     .label = Ieslēgts
+filter-new-button =
+    .label = Jauns...
+    .accesskey = J
+filter-new-copy-button =
+    .label = Kopēt…
+    .accesskey = K
+filter-edit-button =
+    .label = Rediģēt...
+    .accesskey = R
+filter-delete-button =
+    .label = Dzēst
+    .accesskey = D
+filter-reorder-top-button =
+    .label = Pārvietot uz augšu
+    .accesskey = a
+    .tooltiptext = Pārkārtot filtru, lai tas darbotos pirms visiem citiem
+filter-reorder-up-button =
+    .label = Pārvietot augšup
+    .accesskey = a
+filter-reorder-down-button =
+    .label = Pārvietot lejup
+    .accesskey = l
+filter-reorder-bottom-button =
+    .label = Pārvietot uz leju
+    .accesskey = l
+    .tooltiptext = Pārkārtot filtru, lai tas darbotos pēc visiem citiem
+filter-header-label =
+    .value = Ieslēgtie filtri tiek palaisti automātiski zemāk redzamā secībā.
+filter-filters-for-prefix =
+    .value = Filtri priekš:
+    .accesskey = F
+filter-view-log-button =
+    .label = Filtru žurnāls
+    .accesskey = u
+filter-run-filters-button =
+    .label = Palaist tagad
+    .accesskey = t
+filter-folder-picker-prefix =
+    .value = Palaist izvēlētos(-os) filtru(-us) uz:
+    .accesskey = i
+filter-search-box =
+    .placeholder = Meklēt filtrus pēc nosaukuma…
+filter-close-key =
+    .key = W
 
 ## Filter Editor
 
