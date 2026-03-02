@@ -99,6 +99,18 @@ filter-count-visible-of-total = { $visible } από { $total }
 
 ## Filter List Dialog
 
+filter-filters-for-prefix =
+    .value = Φίλτρα για:
+    .accesskey = Φ
+filter-view-log-button =
+    .label = Αρχείο καταγραφής φίλτρου
+    .accesskey = χ
+filter-run-filters-button =
+    .label = Εκτέλεση τώρα
+    .accesskey = ρ
+filter-folder-picker-prefix =
+    .value = Εκτέλεση επιλεγμένων φίλτρων στο:
+    .accesskey = λ
 
 ## Filter Editor
 
