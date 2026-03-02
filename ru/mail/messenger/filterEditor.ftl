@@ -146,6 +146,10 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Запустить выбранные фильтры в папке:
     .accesskey = ы
+filter-search-box =
+    .placeholder = Поиск фильтров по имени…
+filter-close-key =
+    .key = W
 filter-dont-warn-delete-checkbox = Не спрашивать в следующий раз
 filter-cannot-enable-incompatible = Возможно, фильтр был создан более поздней или несовместимой версией { -brand-product-name }. Вы не можете использовать этот фильтр, так как мы не знаем, как его применить.
 
