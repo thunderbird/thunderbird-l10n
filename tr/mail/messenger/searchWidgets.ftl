@@ -114,6 +114,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Bu kuralı sil
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Yeni eylem ekle
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Bu eylemi kaldır
 
 ## Search Term List
 
@@ -129,6 +137,10 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = İletiyi taşı
+rule-action-copy =
+    .label = İletiyi kopyala
 rule-action-unread =
     .label = Okunmadı olarak işaretle
 rule-action-star =
@@ -149,6 +161,8 @@ rule-action-ignore-subthread =
     .label = Alt diziyi görmezden gel
 rule-action-watch-thread =
     .label = Diziyi takip et
+rule-action-stop =
+    .label = Süzgeci çalıştırmayı durdur
 
 ## Rule Action Targets
 

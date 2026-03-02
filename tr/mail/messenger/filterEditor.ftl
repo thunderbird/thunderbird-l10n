@@ -103,6 +103,9 @@ filter-count-visible-of-total = { $visible } / { $total }
 ## Filter Editor
 
 filter-editor-window-title = Süzgeç Kuralları
+filter-editor-name =
+    .value = Süzgeç adı:
+    .accesskey = S
 filter-editor-context-desc = Süzgecin uygulanma zamanı:
 filter-editor-context-incoming =
     .label = Yeni posta alırken:
@@ -110,9 +113,18 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = Elle çalıştır
     .accesskey = E
+filter-editor-context-outgoing =
+    .label = Gönderdikten sonra
+    .accesskey = s
 filter-editor-action-desc =
     .value = Bu eylemleri uygula:
     .accesskey = u
+filter-editor-action-order-link =
+    .value = Çalıştırma sırasını gör
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name } kopyası
+filter-editor-invalid-search-title = Arama terimleri geçersiz
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
