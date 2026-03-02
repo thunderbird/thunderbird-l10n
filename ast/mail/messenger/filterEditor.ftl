@@ -107,6 +107,14 @@ filter-search-box =
     .placeholder = Guetar filtros por nome…
 filter-close-key =
     .key = W
+filter-delete-confirmation = ¿De xuru que quies desaniciar los filtros seleicionaos?
+filter-dont-warn-delete-checkbox = Nun entrugame más
+filter-running-title = Filtros n'execución
+filter-running-message =
+    Procesando'l filtráu de mensaxes.
+    ¿Quies siguir aplicando filtros?
+filter-stop-button = Parar
+filter-continue-button = Continuar
 
 ## Filter Editor
 
