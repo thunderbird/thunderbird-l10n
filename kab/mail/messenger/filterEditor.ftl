@@ -128,8 +128,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Selkem imzizdeg (i-en) yettwafernen di:
     .accesskey = w
+filter-search-box =
+    .placeholder = Nadi imzizdigen s yisem...
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Tebɣid ad tekkseḍ imzizdig (i-en) yettwafernen?
 filter-dont-warn-delete-checkbox = Ur y-id-sutur ara tikelt nniḍen
 filter-cannot-enable-incompatible = Imsizdig yettwarna ahat sɣur lqem n { -brand-product-name } amaynut neɣ win ur yemṣadan ara. Ur tezmireḍ ara ad tremdeḍ imsizdig-a acku ur neẓri ara amek ara t-nseqdec.
+filter-running-title = Aselkmen n imzizdigen
+filter-running-message =
+    Aqlak tura deg ukala n uzizdeg n yeznan.
+    Tebɣiḍ ad tkemleḍ asnas n imzizdigen?
+filter-stop-button = Seḥbes
+filter-continue-button = Kemmel
 
 ## Filter Editor
 
