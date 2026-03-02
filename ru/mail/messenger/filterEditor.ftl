@@ -143,3 +143,8 @@ filter-editor-action-order-title = Реальный порядок действ�
 #   $action (String) - The action label
 #   $argument (String) - The folder or value associated with the action
 filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

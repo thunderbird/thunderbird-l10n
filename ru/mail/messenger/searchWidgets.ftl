@@ -143,6 +143,14 @@ search-match-all-msgs =
 
 rule-action-move =
     .label = Переместить сообщение в
+rule-action-copy =
+    .label = Копировать сообщение в
+rule-action-forward =
+    .label = Переслать сообщение на
+rule-action-reply =
+    .label = Ответить по шаблону
+rule-action-read =
+    .label = Отметить как прочитанное
 rule-action-unread =
     .label = Отметить как непрочитанное
 rule-action-star =
