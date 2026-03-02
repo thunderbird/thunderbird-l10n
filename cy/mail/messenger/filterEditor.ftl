@@ -112,6 +112,9 @@ filter-name-column =
     .label = Enw Hidl
 filter-active-column =
     .label = Galluogwyd
+filter-new-button =
+    .label = Newydd…
+    .accesskey = N
 
 ## Filter Editor
 
