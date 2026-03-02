@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = 新規ルールを追加します
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = このルールを削除します
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = このルールを削除します
@@ -129,6 +133,14 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-star =
+    .label = メッセージにスターを付ける
+rule-action-priority =
+    .label = 重要度を設定する
+rule-action-tag =
+    .label = メッセージにタグを付ける
+rule-action-delete =
+    .label = メッセージを削除する
 
 ## Rule Action Targets
 
