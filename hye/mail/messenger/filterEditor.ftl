@@ -83,6 +83,41 @@ filter-count-visible-of-total = { $total }-ից { $visible }
 
 ## Filter List Dialog
 
+filter-window-title = Հաղորդագրութիւնների զտիչներ
+filter-active-column =
+    .label = Միացուել է
+filter-reorder-top-button =
+    .label = Տեղափոխել վերեւ
+    .accesskey = ե
+    .tooltiptext = Վերադասաւորել զտիչը, որ այն գործի բոլորից առաջ
+filter-reorder-up-button =
+    .label = Տեղափոխել վերեւ
+    .accesskey = Վ
+filter-reorder-down-button =
+    .label = Տեղափոխել ներքեւ
+    .accesskey = ն
+filter-reorder-bottom-button =
+    .label = Տեղափոխել դեպի ներքեւ
+    .accesskey = Ն
+    .tooltiptext = Վերադասաւորել զտիչը, որ այն գործի բոլորից յետոյ
+filter-header-label =
+    .value = Միացուած զտիչները կը գործարկուէն միանգամից։
+filter-filters-for-prefix =
+    .value = Զտիչներ՝
+    .accesskey = Զ
+filter-view-log-button =
+    .label = Զտիչի մատեան
+    .accesskey = Մ
+filter-run-filters-button =
+    .label = Գործարկել հիմա
+    .accesskey = Գ
+filter-folder-picker-prefix =
+    .value = Աշխատեցնել ընտրուած զտիչները.
+    .accesskey = ա
+filter-search-box =
+    .placeholder = Որոնել զտիչներ անունով…
+filter-close-key =
+    .key = W
 
 ## Filter Editor
 
