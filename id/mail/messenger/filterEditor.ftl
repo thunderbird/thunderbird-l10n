@@ -118,6 +118,11 @@ filter-editor-action-order-warning =
     .value = Catatan: Tindakan penyaringan akan dijalankan dalam urutan yang berbeda.
 filter-editor-action-order-link =
     .value = Lihat pesanan eksekusi
+filter-editor-duplicate-title = Nama Filter Ganda
+filter-editor-duplicate-msg = Nama filter yang dimasukkan sudah ada. Silakan masukkan nama filter yang berbeda.
+filter-editor-no-event-title = Tidak ada acara filter yang dipilih
+filter-editor-no-event-msg = Anda harus memilih setidaknya satu acara saat filter ini diterapkan. Jika Anda sementara tidak ingin filter berjalan pada acara apa pun, hapus centang status yang diaktifkan dari dialog Filter Pesan.
+filter-editor-match-all-name = Cocok dengan Semua Pesan
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Salinan dari { $name }
