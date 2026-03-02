@@ -113,6 +113,17 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = се стартира ръчно
     .accesskey = р
+filter-editor-context-outgoing =
+    .label = След Изпращане
+    .accesskey = И
+filter-editor-context-archive =
+    .label = Архивиране
+    .accesskey = А
+filter-editor-action-order-warning =
+    .value = Бележка: Филтрите ще бъдат приложени в различна последователност.
+filter-editor-action-order-link =
+    .value = Преглед на заявките за изпълнение
+filter-editor-invalid-search-title = Невалидни термини за търсене
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.

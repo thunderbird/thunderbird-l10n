@@ -118,6 +118,14 @@ search-remove-rule-button-2 =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Премахване на правилото
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Добавяне на ново действие
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Премахване на това действие
 
 ## Search Term List
 
@@ -155,6 +163,16 @@ rule-action-delete =
     .label = Изтриване на писмо
 rule-action-delete-pop =
     .label = Изтриване от POP сървъра
+rule-action-fetch-pop =
+    .label = Извличане от POP сървъра
+rule-action-ignore-thread =
+    .label = Пренебрегване на дискусия
+rule-action-ignore-subthread =
+    .label = Пренебрегване на поддискусия
+rule-action-watch-thread =
+    .label = Наблюдаване на дискусия
+rule-action-stop =
+    .label = Спиране изпълнението на филтър
 
 ## Rule Action Targets
 
