@@ -174,6 +174,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Ruslpóstur
+rule-menuitem-not-spam =
+    .label = Ekki ruslpóstur
 rule-priority-highest =
     .label = Hæst
 rule-priority-high =

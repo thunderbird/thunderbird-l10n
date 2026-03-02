@@ -126,6 +126,11 @@ filter-editor-action-order-warning =
     .value = Athugaðu: Síu aðgerðir verða keyrðar í annarri röð.
 filter-editor-action-order-link =
     .value = Sjá keyrsluröð
+filter-editor-duplicate-title = Endurtekið nafn á síu
+filter-editor-duplicate-msg = Síuheitið sem þú gafst upp er þegar til staðar. Settu inn annað nafn á síuna.
+filter-editor-no-event-title = Ekkert síuatvik valið
+filter-editor-no-event-msg = Þú verður að velja að minnsta kosti einn atburð þegar þessi sía er notuð. Ef þú vilt að sían sé ekki keyrð tímabundið, skaltu taka hakið af í virkjaðri stöðu hennar í skilaboðasíuglugganum.
+filter-editor-match-all-name = Passar við allan póst
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Afrit af { $name }
