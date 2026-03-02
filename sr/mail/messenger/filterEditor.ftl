@@ -134,8 +134,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Изврши одабран(е) филтер(е) над:
     .accesskey = р
+filter-search-box =
+    .placeholder = Претражи филтере по имену…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Да ли сте сигурни да желите обрисати изабран(е) филтер(е)?
 filter-dont-warn-delete-checkbox = Не питај ме поново
 filter-cannot-enable-incompatible = Овај филтер је вероватно направљен од новије или некомпатибилне { -brand-product-name } верзије. Не можете да омогућите овај филтер зато што не знамо како да га применимо.
+filter-running-title = Покренути филтери
+filter-running-message =
+    Тренутно филтрирате поруке.
+    Да ли желите да наставите примену ових филтера?
+filter-stop-button = Заустави
+filter-continue-button = Настави
 
 ## Filter Editor
 
