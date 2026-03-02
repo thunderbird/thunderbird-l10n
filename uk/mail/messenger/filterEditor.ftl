@@ -133,6 +133,8 @@ filter-search-box =
     .placeholder = Шукати фільтр за іменем…
 filter-close-key =
     .key = W
+filter-dont-warn-delete-checkbox = Більше не запитувати
+filter-cannot-enable-incompatible = Можливо, цей фільтр був створений новішою або несумісною версією { -brand-product-name }. Ви не можете ввімкнути цей фільтр, оскільки ми не знаємо, як його застосувати.
 
 ## Filter Editor
 
