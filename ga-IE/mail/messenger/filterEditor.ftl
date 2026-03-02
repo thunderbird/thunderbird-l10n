@@ -64,6 +64,14 @@ filter-count-visible-of-total = { $visible } as { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Scagairí Teachtaireachta
+filter-name-column =
+    .label = Ainm an Scagaire
+filter-active-column =
+    .label = Cumasaithe
+filter-new-button =
+    .label = Nua…
+    .accesskey = N
 
 ## Filter Editor
 
