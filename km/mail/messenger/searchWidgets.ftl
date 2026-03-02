@@ -104,9 +104,21 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Ավելացնել նոր կանոն
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Remove this rule
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Remove this rule
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = បន្ថែម​សកម្មភាព​ថ្មី
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = យក​សកម្មភាព​នេះ​ចេញ
 
 ## Search Term List
 
@@ -122,6 +134,38 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Տեղափոխել նամակը՝
+rule-action-copy =
+    .label = Պատճենել՝
+rule-action-forward =
+    .label = Փոխանցել՝
+rule-action-reply =
+    .label = Պատասխանել Նմուշով
+rule-action-read =
+    .label = Mark As Read
+rule-action-unread =
+    .label = សម្គាល់​ថា​អាន​រួច
+rule-action-star =
+    .label = Add Star
+rule-action-priority =
+    .label = Set Priority to
+rule-action-tag =
+    .label = Tag Message
+rule-action-delete =
+    .label = Delete Message
+rule-action-delete-pop =
+    .label = Ջնջել POP սպասարկիչից
+rule-action-fetch-pop =
+    .label = Ընտրել POP սպասարկիչից
+rule-action-ignore-thread =
+    .label = Ignore Thread
+rule-action-ignore-subthread =
+    .label = Ignore Subthread
+rule-action-watch-thread =
+    .label = Watch Thread
+rule-action-stop =
+    .label = Stop Filter Execution
 
 ## Rule Action Targets
 
