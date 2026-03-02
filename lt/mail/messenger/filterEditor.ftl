@@ -130,8 +130,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Pažymėtus filtrus taikyti aplankui:
     .accesskey = f
+filter-search-box =
+    .placeholder = Ieškoti filtro pavadinimo…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Ar tikrai norite pašalinti šį filtrą?
 filter-dont-warn-delete-checkbox = Šio klausimo ateityje nepateikti
 filter-cannot-enable-incompatible = Panašu, kad šis filtras buvo sukurtas naujesne „{ -brand-product-name }“ laida. Šio filtro negalima įjungti, nes neaišku, kaip jį taikyti.
+filter-running-title = Vykdomi filtrai
+filter-running-message =
+    Šiuo metu filtruojami laiškai.
+    Ar tęsti filtrų vykdymą?
+filter-stop-button = Stabdyti
+filter-continue-button = Tęsti
 
 ## Filter Editor
 
