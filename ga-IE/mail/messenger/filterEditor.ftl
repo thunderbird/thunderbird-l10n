@@ -72,6 +72,34 @@ filter-active-column =
 filter-new-button =
     .label = Nua…
     .accesskey = N
+filter-reorder-top-button =
+    .label = Go dtí an barr
+    .accesskey = o
+    .tooltiptext = Cuir an scagaire seo i bhfeidhm roimh na cinn eile
+filter-reorder-up-button =
+    .label = Bog Suas
+    .accesskey = u
+filter-reorder-down-button =
+    .label = Bog Síos
+    .accesskey = o
+filter-reorder-bottom-button =
+    .label = Go dtí an bun
+    .accesskey = B
+    .tooltiptext = Cuir an scagaire seo i bhfeidhm tar éis na cinn eile
+filter-header-label =
+    .value = Cuirtear scagairí cumasaithe i bhfeidhm san ord thíos go huathoibríoch.
+filter-filters-for-prefix =
+    .value = Scagairí do:
+    .accesskey = g
+filter-view-log-button =
+    .label = Loga na Scagairí
+    .accesskey = L
+filter-run-filters-button =
+    .label = Rith Anois
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = Rith scagairí roghnaithe ar:
+    .accesskey = c
 
 ## Filter Editor
 
