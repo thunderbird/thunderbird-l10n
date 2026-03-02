@@ -126,3 +126,28 @@ filter-editor-action-order-warning =
     .value = Nota: las acciones del filtro se ejecutarán en un orden diferente.
 filter-editor-action-order-link =
     .value = Ver orden de ejecución
+filter-editor-duplicate-title = Nombre de filtro duplicado
+filter-editor-duplicate-msg = El nombre de filtro que ha elegido ya existe. Elija un nombre distinto.
+filter-editor-no-event-title = No se ha seleccionado un evento de filtro.
+filter-editor-no-event-msg = Debe seleccionar al menos un evento para cuando se aplique este filtro. Si temporalmente no necesita que el filtro lleve a cabo ningún evento, desmarque su estado activado en el diálogo Filtros de mensaje.
+filter-editor-match-all-name = Hacer coincidir todos los mensajes
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Copia de { $name }
+filter-editor-invalid-search-title = Términos de búsqueda no válidos
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Este filtro no puede guardarse porque el término de búsqueda "{ $attribute } { $operator }" no es válido en el contexto actual.
+filter-editor-action-order-explanation = Cuando un mensaje cumpla este filtro las acciones se ejecutarán en este orden:
+filter-editor-action-order-title = Orden real de las acciones
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

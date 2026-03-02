@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Añadir una nueva regla
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Eliminar esta regla
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Eliminar esta regla
@@ -137,6 +141,16 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Mover mensaje a
+rule-action-copy =
+    .label = Copiar mensaje a
+rule-action-forward =
+    .label = Reenviar mensaje a
+rule-action-reply =
+    .label = Responder con plantilla
+rule-action-read =
+    .label = Marcar como leído
 rule-action-unread =
     .label = Marcar como no leído
 rule-action-star =
@@ -145,6 +159,8 @@ rule-action-priority =
     .label = Fijar prioridad a
 rule-action-tag =
     .label = Etiquetar mensaje
+rule-action-set-spam-status =
+    .label = Establecer estado de correo no deseado a
 rule-action-delete =
     .label = Eliminar mensaje
 rule-action-delete-pop =
@@ -162,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Mensaje no deseado
+rule-menuitem-not-spam =
+    .label = Mensaje legítimo
 rule-priority-highest =
     .label = La más alta
 rule-priority-high =
