@@ -101,6 +101,8 @@ filter-count-visible-of-total = { $visible } din { $total }
 
 ## Filter List Dialog
 
+filter-active-column =
+    .label = Activat
 filter-new-button =
     .label = Nou…
     .accesskey = N
