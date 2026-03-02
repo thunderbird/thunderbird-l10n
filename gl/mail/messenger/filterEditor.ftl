@@ -103,10 +103,16 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = Ao arquivar
     .accesskey = A
+filter-editor-action-desc =
+    .value = Realizar estas accións:
+    .accesskey = s
 filter-editor-action-order-warning =
     .value = Nota: As accións do filtro executáranse nunha orde diferente.
 filter-editor-action-order-link =
     .value = Ver a orde de execución
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Copiar de { $name }
 filter-editor-invalid-search-title = Os termos de busca son incorrectos
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
