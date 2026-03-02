@@ -152,8 +152,15 @@ filter-search-box =
     .placeholder = Filtry pó mjenju pśepytaś…
 filter-close-key =
     .key = W
+filter-delete-confirmation = Cośo napšawdu wubrane filtry lašowaś?
 filter-dont-warn-delete-checkbox = Wěcej se njepšašaś
 filter-cannot-enable-incompatible = Toś ten filter jo se nejskerjej pśez nowšu abo inkompatibelnu wersiju { -brand-product-name } napórał. Njamóžośo toś ten filter zmóžniś, dokulaž njewěmy, kak dej se jen nałožowaś.
+filter-running-title = Běžne filtry
+filter-running-message =
+    Filtrujośo tuchylu powěsći.
+    Cośo dalej filtry nałožowaś?
+filter-stop-button = Stoj
+filter-continue-button = Pókšacowaś
 
 ## Filter Editor
 
