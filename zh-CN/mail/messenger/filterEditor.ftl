@@ -91,6 +91,42 @@ filter-count-visible-of-total = { $visible } / { $total }
 
 ## Filter List Dialog
 
+filter-window-title = 消息过滤器
+filter-name-column =
+    .label = 描述
+filter-active-column =
+    .label = 启用
+filter-new-button =
+    .label = 新建…
+    .accesskey = N
+filter-reorder-top-button =
+    .label = 移动到顶端
+    .accesskey = o
+    .tooltiptext = 重新排列过滤器以便它可以最先执行
+filter-reorder-up-button =
+    .label = 上移
+    .accesskey = U
+filter-reorder-down-button =
+    .label = 下移
+    .accesskey = D
+filter-reorder-bottom-button =
+    .label = 移动到底部
+    .accesskey = B
+    .tooltiptext = 重新排列过滤器以便它可以最后执行
+filter-header-label =
+    .value = 可用过滤器按如下显示的顺序运行。
+filter-filters-for-prefix =
+    .value = 此过滤器用于:
+    .accesskey = F
+filter-view-log-button =
+    .label = 过滤器日志
+    .accesskey = L
+filter-run-filters-button =
+    .label = 立即执行
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = 执行所选的过滤器，对于:
+    .accesskey = c
 
 ## Filter Editor
 
