@@ -94,6 +94,7 @@ filter-count-visible-of-total = { $visible } của { $total }
 
 ## Filter Editor
 
+filter-editor-window-title = Quy tắc bộ lọc
 filter-editor-name =
     .value = Tên bộ lọc:
     .accesskey = i
@@ -110,6 +111,28 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = Lưu trữ
     .accesskey = A
+filter-editor-action-desc =
+    .value = Thực hiện các hành động này:
+    .accesskey = P
+filter-editor-action-order-warning =
+    .value = Lưu ý: Các hành động lọc sẽ được chạy theo thứ tự khác.
+filter-editor-action-order-link =
+    .value = Xem thứ tự thực hiện
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Bản sao của { $name }
+filter-editor-invalid-search-title = Thuật ngữ tìm kiếm không hợp lệ
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Bộ lọc này không thể được lưu vì thuật ngữ tìm kiếm "{ $attribute } { $operator }" không hợp lệ trong ngữ cảnh hiện tại.
+filter-editor-action-order-explanation = Khi một thông báo khớp với bộ lọc này, các hành động sẽ được chạy theo thứ tự này:
+filter-editor-action-order-title = Lệnh hành động thực sự
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")

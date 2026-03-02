@@ -118,6 +118,14 @@ search-remove-rule-button-2 =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Xóa quy luật này
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Thêm một hành động mới
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Xóa hành động này
 
 ## Search Term List
 
@@ -133,6 +141,40 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Di chuyển thư tới
+rule-action-copy =
+    .label = Sao chép thư đến
+rule-action-forward =
+    .label = Chuyển tiếp thư tới
+rule-action-reply =
+    .label = Trả lời bằng mẫu
+rule-action-read =
+    .label = Đánh dấu là đã đọc
+rule-action-unread =
+    .label = Đánh dấu là chưa đọc
+rule-action-star =
+    .label = Thêm sao
+rule-action-priority =
+    .label = Đặt mức độ ưu tiên thành
+rule-action-tag =
+    .label = Dán nhãn cho thư
+rule-action-set-spam-status =
+    .label = Đặt trạng thái thư rác thành
+rule-action-delete =
+    .label = Xóa thư
+rule-action-delete-pop =
+    .label = Xóa trên máy chủ POP
+rule-action-fetch-pop =
+    .label = Lấy từ máy chủ POP
+rule-action-ignore-thread =
+    .label = Bỏ qua chủ đề
+rule-action-ignore-subthread =
+    .label = Bỏ qua chủ đề con
+rule-action-watch-thread =
+    .label = Theo dõi chủ đề
+rule-action-stop =
+    .label = Dừng thực thi bộ lọc
 
 ## Rule Action Targets
 
