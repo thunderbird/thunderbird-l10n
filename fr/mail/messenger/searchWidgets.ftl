@@ -126,3 +126,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Appliquer à tous les messages
     .accesskey = m
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Maximale
+rule-priority-high =
+    .label = Haute
+rule-priority-normal =
+    .label = Normale
+rule-priority-low =
+    .label = Basse
+rule-priority-lowest =
+    .label = Minimale

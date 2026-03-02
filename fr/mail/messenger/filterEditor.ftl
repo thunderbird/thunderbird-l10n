@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Indésirable
 rule-menuitem-not-spam =
@@ -93,3 +96,12 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } sur { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-name =
+    .value = Nom du filtre :
+    .accesskey = i
