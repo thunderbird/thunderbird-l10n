@@ -150,8 +150,15 @@ filter-search-box =
     .placeholder = Caută filtre după nume…
 filter-close-key =
     .key = w
+filter-delete-confirmation = Sigur vrei să ștergi filtrul(filtrele) selectat(e)?
 filter-dont-warn-delete-checkbox = Nu mă mai întreba
 filter-cannot-enable-incompatible = Acest filtru a fost creat probabil de o versiune mai nouă sau incompatibilă de { -brand-product-name }. Nu poți activa acest filtru deoarece nu știm cum să îl aplicăm.
+filter-running-title = Rulare filtre
+filter-running-message =
+    Acum mesajele sunt filtrate mesaje.
+    Vrei să continui filtrarea?
+filter-stop-button = Oprește
+filter-continue-button = Continuă
 
 ## Filter Editor
 
