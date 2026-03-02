@@ -116,6 +116,9 @@ filter-editor-context-manual =
 filter-editor-context-outgoing =
     .label = Eftir að sent er
     .accesskey = s
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Afrit af { $name }
 filter-editor-invalid-search-title = Leitarskilyrði ógilt
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
