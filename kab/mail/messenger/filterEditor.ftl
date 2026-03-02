@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -77,3 +80,36 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } si { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Ilugan n imzizdeg
+filter-editor-name =
+    .value = Isem n imzizdeg:
+    .accesskey = i
+filter-editor-context-desc = Snes imzideg ticki:
+filter-editor-context-incoming =
+    .label = Aggay n yimaylen imaynuten.
+    .accesskey = g
+filter-editor-context-manual =
+    .label = Selkem s ufus
+    .accesskey = e
+filter-editor-context-outgoing =
+    .label = Seld tuzzna
+    .accesskey = z
+filter-editor-context-archive =
+    .label = Aḥraz
+    .accesskey = ḥ
+filter-editor-action-desc =
+    .value = Selkem tigawin-agi:
+    .accesskey = l
+filter-editor-action-order-warning =
+    .value = Tamawt: Tigawin n uzizdeg ad ttwaselkment s umizzwer nniḍen.
+filter-editor-action-order-link =
+    .value = Wali amizzwer n uselkem
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Anɣel n { $name }
