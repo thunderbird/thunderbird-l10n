@@ -110,3 +110,23 @@ filter-editor-action-order-warning =
     .value = Ch'utitzijol: Ri taq rub'anoj chayuj xkisamajib'ëx rik'in jalajöj rucholajem.
 filter-editor-action-order-link =
     .value = Titz'et rucholajem taqoj
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Ruwachib'al ri { $name }
+filter-editor-invalid-search-title = Kekanöx ri Me'okel taq Ojqanem
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Man tikirel ta niyak re chayub'äl re' ruma chi ri tzij richin nikanöx "{ $attribute } { $operator }" man okel ta pa ri ruk'ojlemal wakami.
+filter-editor-action-order-explanation = Toq jun rutzijol nuk'äm ri' rik'in re chayub'äl re', xkesamajïx ri taq b'anoj pa re rucholajem re':
+filter-editor-action-order-title = Qitzij rucholajem taqoj
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
