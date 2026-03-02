@@ -124,3 +124,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Uporabi za vsa sporočila
     .accesskey = U
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Najvišje
+rule-priority-high =
+    .label = Visoko
+rule-priority-normal =
+    .label = Običajno
+rule-priority-low =
+    .label = Nizko
+rule-priority-lowest =
+    .label = Najnižje
