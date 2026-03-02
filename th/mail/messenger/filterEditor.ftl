@@ -111,6 +111,11 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = เก็บถาวร
     .accesskey = ก
+filter-editor-action-desc =
+    .value = ดำเนินการการกระทำเหล่านี้:
+    .accesskey = ด
+filter-editor-action-order-warning =
+    .value = หมายเหตุ: การกระทำตัวกรองจะทำงานในลำดับที่แตกต่างกัน
 filter-editor-action-order-link =
     .value = ดูลำดับการทำงาน
 # Variables:
