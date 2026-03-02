@@ -104,20 +104,45 @@ filter-count-visible-of-total = { $visible } z { $total }
 
 ## Filter Editor
 
+filter-editor-window-title = Edycja filtru
+filter-editor-name =
+    .value = Nazwa filtru:
+    .accesskey = N
 filter-editor-context-desc = Stosuj filtr podczas:
 filter-editor-context-incoming =
     .label = pobierania poczty
     .accesskey = a
+filter-editor-context-manual =
+    .label = ręcznego uruchamiania
+    .accesskey = r
 filter-editor-context-outgoing =
     .label = Po wysłaniu
     .accesskey = w
 filter-editor-context-archive =
     .label = Archiwizowania
     .accesskey = c
+filter-editor-action-desc =
+    .value = …i wykonuj następujące czynności:
+    .accesskey = k
 filter-editor-action-order-warning =
     .value = Filtrowanie odbędzie się w innej niż wyświetlana kolejności.
 filter-editor-action-order-link =
     .value = Wyświetl kolejność
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Kopia „{ $name }”
+filter-editor-invalid-search-title = Nieprawidłowe atrybuty wyszukiwania
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Filtr nie może zostać zapisany, ponieważ warunek „{ $attribute } { $operator }” jest nieprawidłowy w tym kontekście.
+filter-editor-action-order-explanation = Gdy wiadomość pasuje do filtru, następujące czynności zostaną kolejno wykonane:
+filter-editor-action-order-title = Rzeczywista kolejność czynności
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
