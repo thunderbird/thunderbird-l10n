@@ -85,6 +85,11 @@ filter-count-visible-of-total = { $total } / { $visible }
 
 ## Filter List Dialog
 
+filter-active-column =
+    .label = Gaituta
+filter-new-button =
+    .label = Berria…
+    .accesskey = B
 
 ## Filter Editor
 
