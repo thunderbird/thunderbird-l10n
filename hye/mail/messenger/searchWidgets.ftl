@@ -104,6 +104,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Աւելացնել նոր կանոն
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Հեռացնել այս կանոնը
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Հեռացնել այս կանոնը

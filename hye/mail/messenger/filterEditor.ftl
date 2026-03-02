@@ -110,3 +110,28 @@ filter-editor-action-order-warning =
     .value = Յիշեցում․ զտիչի գործողութիւնները կը կատարուեն տարբեր հրամաններով։
 filter-editor-action-order-link =
     .value = Դիտել կատարման կարգը
+filter-editor-duplicate-title = Կրկնաւրինակել զտիչի անուանումը։
+filter-editor-duplicate-msg = Ձեր մուտքագրած զտիչի անունը արդէն գոյութիւն ունի: Ընտրէք զտիչի այղ անուն:
+filter-editor-no-event-title = Զտիչի իրադարձութիւն ընտրուած չէ
+filter-editor-no-event-msg = Դուք պէտք է ընտրէք առնուազն մեկ իրադարձութիւն, երբ այս զտիչը կիրառուի: Եթե դուք չէք ցանկանում, որ զտիչը ժամանակաւորապես աշխատացնի որեւէ իրադարձութիւն, ապա նշէք դրա միացուած վիճակը հաղորդագրութիւնների զտիչների պատուհանից:
+filter-editor-match-all-name = Համապատասխանեցրէ՛ք բոլոր հաղորդագրութիւններին
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = { $name }֊ի պատճէն
+filter-editor-invalid-search-title = Որոնման եզրերը հասանելի չէն
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Այս զտիչը չի կարող պահպանուել, քանի որ «{ $attribute } { $operator }» որոնման հարցումն անվաւեր է ընթացիկ կոնտեքստում:
+filter-editor-action-order-explanation = Երբ հաղորդագրութիւնը համապատասխանում է տարբերուող գործողութիւններին, պէտք է դասաւորուած լինի հետեւեալ հերթականութեամբ՝
+filter-editor-action-order-title = Գործողութիւնների իրական հերթականութիւնը
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
