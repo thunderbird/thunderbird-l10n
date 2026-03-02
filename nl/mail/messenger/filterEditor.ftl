@@ -99,6 +99,9 @@ filter-count-visible-of-total = { $visible } van { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Berichtenfilters
+filter-name-column =
+    .label = Filternaam
 
 ## Filter Editor
 
