@@ -136,8 +136,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = 执行所选的过滤器，对于:
     .accesskey = c
+filter-search-box =
+    .placeholder = 按名称搜索过滤器…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = 确定要删除选中的过滤器吗？
 filter-dont-warn-delete-checkbox = 不再询问
 filter-cannot-enable-incompatible = 此过滤器很可能是 { -brand-product-name } 的较新版本或不兼容版本创建的。您无法启用此过滤器，因为我们也不知如何应用。
+filter-running-title = 正在执行的过滤器
+filter-running-message =
+    您当前正在对消息过滤。
+    您要继续执行过滤器吗？
+filter-stop-button = 停止
+filter-continue-button = 继续
 
 ## Filter Editor
 
