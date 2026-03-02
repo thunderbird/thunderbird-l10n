@@ -126,3 +126,37 @@ search-match-any =
 search-match-all-msgs =
     .label = Concordar tote le messages
     .accesskey = m
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Mover le message a
+rule-action-copy =
+    .label = Copiar le message a
+rule-action-forward =
+    .label = Inviar le message ultra a
+rule-action-read =
+    .label = Marcar como legite
+rule-action-unread =
+    .label = Marcar como non legite
+rule-action-star =
+    .label = Adder stella
+rule-action-priority =
+    .label = Configurar prioritate a
+rule-action-tag =
+    .label = Message etiquetta
+rule-action-delete =
+    .label = Deler message
+rule-action-delete-pop =
+    .label = Deler ex Servitor POP
+rule-action-fetch-pop =
+    .label = Discargar ex servitor POP
+rule-action-ignore-thread =
+    .label = Ignorar argumento
+rule-action-ignore-subthread =
+    .label = Ignorar sub-argumento
+rule-action-watch-thread =
+    .label = Surveliar la discussion
+
+## Rule Action Targets
+
