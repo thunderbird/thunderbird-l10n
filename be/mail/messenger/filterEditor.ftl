@@ -58,6 +58,14 @@ filter-count-visible-of-total = { $visible } з { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Фільтры паведамленняў
+filter-name-column =
+    .label = Імя фільтру
+filter-active-column =
+    .label = Уключаны
+filter-new-button =
+    .label = Новы…
+    .accesskey = Н
 filter-new-copy-button =
     .label = Капіяваць…
     .accesskey = К
@@ -67,6 +75,15 @@ filter-edit-button =
 filter-delete-button =
     .label = Выдаліць
     .accesskey = д
+filter-filters-for-prefix =
+    .value = Фільтры для:
+    .accesskey = Ф
+filter-view-log-button =
+    .label = Журнал фільтраў
+    .accesskey = Ж
+filter-run-filters-button =
+    .label = Выканаць зараз
+    .accesskey = В
 filter-folder-picker-prefix =
     .value = Выканаць выбраны(я) фільтр(ы) ў папцы:
     .accesskey = ы
@@ -74,6 +91,8 @@ filter-search-box =
     .placeholder = Пошук фільтраў па імях…
 filter-close-key =
     .key = W
+filter-dont-warn-delete-checkbox = Не запытваць мяне зноў.
+filter-cannot-enable-incompatible = Магчыма, гэты фільтр быў створаны ў найноўшай або несумяшчальнай версіі { -brand-product-name }. Вы не можаце ўключыць гэты фільтр, таму што мы не ведаем, як яго ужываць.
 
 ## Filter Editor
 
