@@ -126,3 +126,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Kaikki viestit (ei ehtoja)
     .accesskey = K
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Siirrä kansioon
+rule-action-copy =
+    .label = Kopioi kansioon
+rule-action-forward =
+    .label = Välitä osoitteeseen
+rule-action-reply =
+    .label = Vastaa mallipohjalla
+rule-action-read =
+    .label = Merkitse luetuksi
+
+## Rule Action Targets
+
