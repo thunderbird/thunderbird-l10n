@@ -117,6 +117,18 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Lañsañ ar sil(où) diuzet war :
     .accesskey = i
+filter-search-box =
+    .placeholder = Klask siloù dre o anvioù…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Ha fellout a ra deoc'h dilemel ar sil-mañ ?
+filter-dont-warn-delete-checkbox = Na c'houlenn diganin en-dro
+filter-running-title = Siloù war erounit
+filter-running-message =
+    Emaoc'h o silañ kemennadennoù bremañ.
+    Ha fellout a ra deoc'h kenderc'hel gant arloañ siloù ?
+filter-stop-button = Paouez
+filter-continue-button = Kenderc'hel
 
 ## Filter Editor
 
