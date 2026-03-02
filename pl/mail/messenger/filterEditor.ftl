@@ -128,6 +128,11 @@ filter-editor-action-order-warning =
     .value = Filtrowanie odbędzie się w innej niż wyświetlana kolejności.
 filter-editor-action-order-link =
     .value = Wyświetl kolejność
+filter-editor-duplicate-title = Zduplikowana nazwa filtru
+filter-editor-duplicate-msg = Wprowadzona nazwa filtru już istnieje. Wprowadź inną nazwę filtru.
+filter-editor-no-event-title = Nie wybrano zdarzenia uruchamiającego filtr
+filter-editor-no-event-msg = Przynajmniej jedno zdarzenie uruchamiające ten filtr musi być wybrane. Aby tymczasowo wyłączyć działanie tego filtru, należy odznaczyć go w kolumnie „Włączony” w oknie Filtry wiadomości.
+filter-editor-match-all-name = Wszystkie wiadomości
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Kopia „{ $name }”

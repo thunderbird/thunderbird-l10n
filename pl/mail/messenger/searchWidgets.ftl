@@ -111,6 +111,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Dodaj nowy warunek
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Usuń ten warunek
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Usuń ten warunek
@@ -174,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Niechciana
+rule-menuitem-not-spam =
+    .label = Pożądana
 rule-priority-highest =
     .label = Najwyższy
 rule-priority-high =
