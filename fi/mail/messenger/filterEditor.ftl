@@ -93,6 +93,34 @@ filter-count-visible-of-total = { $visible } / { $total }
 
 ## Filter List Dialog
 
+filter-reorder-top-button =
+    .label = Siirrä ylimmäksi
+    .accesskey = y
+    .tooltiptext = Siirrä suodatin niin, että se suoritetaan ensimmäisenä
+filter-reorder-up-button =
+    .label = Siirrä ylös
+    .accesskey = y
+filter-reorder-down-button =
+    .label = Siirrä alas
+    .accesskey = a
+filter-reorder-bottom-button =
+    .label = Siirrä alimmaiseksi
+    .accesskey = a
+    .tooltiptext = Siirrä suodatin niin, että se suoritetaan viimeisenä
+filter-header-label =
+    .value = Käytössä olevat suodattimet suoritetaan alla näkyvässä järjestyksessä.
+filter-filters-for-prefix =
+    .value = Suodattimet kohteelle:
+    .accesskey = S
+filter-view-log-button =
+    .label = Suodatinloki
+    .accesskey = S
+filter-run-filters-button =
+    .label = Suorita nyt
+    .accesskey = n
+filter-folder-picker-prefix =
+    .value = Suorita valitut suodattimet kansiolle:
+    .accesskey = v
 
 ## Filter Editor
 
