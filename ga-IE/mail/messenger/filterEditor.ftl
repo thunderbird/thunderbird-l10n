@@ -109,6 +109,18 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Rith scagairí roghnaithe ar:
     .accesskey = c
+filter-search-box =
+    .placeholder = Aimsigh scagaire de réir a ainm…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = An bhfuil tú cinnte gur mian leat an scagaire (nó na scagairí) roghnaithe a scriosadh?
+filter-dont-warn-delete-checkbox = Ná fiafraigh díom arís
+filter-running-title = Scagairí á rith
+filter-running-message =
+    Tá tú ag scagadh teachtaireachtaí faoi láthair.
+    An bhfuil fonn ort leanúint le cur i bhfeidhm na scagairí?
+filter-stop-button = Stad
+filter-continue-button = Ar Aghaidh
 
 ## Filter Editor
 
