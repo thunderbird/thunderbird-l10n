@@ -99,6 +99,11 @@ filter-count-visible-of-total = { $visible } от { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Филтриране на писма
+filter-name-column =
+    .label = Име на филтър
+filter-active-column =
+    .label = Активен
 
 ## Filter Editor
 
