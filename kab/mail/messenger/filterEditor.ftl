@@ -83,6 +83,51 @@ filter-count-visible-of-total = { $visible } si { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Imzizdigen n yizen
+filter-name-column =
+    .label = Isem n imzizdig
+filter-active-column =
+    .label = Irmed
+filter-new-button =
+    .label = Amaynut…
+    .accesskey = m
+filter-new-copy-button =
+    .label = Nɣel…
+    .accesskey = N
+filter-edit-button =
+    .label = Ẓreg…
+    .accesskey = g
+filter-delete-button =
+    .label = Kkes
+    .accesskey = k
+filter-reorder-top-button =
+    .label = Senkez s afella
+    .accesskey = o
+    .tooltiptext = Seggem imzizdigen akken ad ttwaselkmen wa deffir wa
+filter-reorder-up-button =
+    .label = Ali
+    .accesskey = A
+filter-reorder-down-button =
+    .label = Ader
+    .accesskey = d
+filter-reorder-bottom-button =
+    .label = Senkez s adda
+    .accesskey = B
+    .tooltiptext = Seggem imzizdigen akken ad ttwaselkmen wa deffir wa
+filter-header-label =
+    .value = Imzizdigen yettwaremden ttwaselkamen s wudem awurman deg umizzwer d-yettwaseknen daw-a.
+filter-filters-for-prefix =
+    .value = Imzizdigen i:
+    .accesskey = I
+filter-view-log-button =
+    .label = Zizdeg aɣmis
+    .accesskey = m
+filter-run-filters-button =
+    .label = Selkem tura
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = Selkem imzizdeg (i-en) yettwafernen di:
+    .accesskey = w
 
 ## Filter Editor
 
