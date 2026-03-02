@@ -116,6 +116,14 @@ filter-editor-context-manual =
 filter-editor-context-outgoing =
     .label = Após enviar
     .accesskey = s
+filter-editor-context-archive =
+    .label = Ao arquivar
+    .accesskey = A
+filter-editor-action-order-link =
+    .value = Veja a ordem de execução
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Copiar de { $name }
 filter-editor-invalid-search-title = Termos da pesquisa inválidos
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.

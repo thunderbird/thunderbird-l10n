@@ -144,6 +144,24 @@ rule-action-unread =
     .label = Marcar como não lida
 rule-action-star =
     .label = Adicionar estrela
+rule-action-priority =
+    .label = Definir prioridade para
+rule-action-tag =
+    .label = Etiquetar mensagem
+rule-action-delete =
+    .label = Apagar mensagem
+rule-action-delete-pop =
+    .label = Apagar do servidor POP
+rule-action-fetch-pop =
+    .label = Obter a partir de servidor POP
+rule-action-ignore-thread =
+    .label = Ignorar tópico
+rule-action-ignore-subthread =
+    .label = Ignorar subtópico
+rule-action-watch-thread =
+    .label = Ver tópico
+rule-action-stop =
+    .label = Parar execução de filtro
 
 ## Rule Action Targets
 
