@@ -58,6 +58,13 @@ filter-count-visible-of-total = { $visible } з { $total }
 
 ## Filter List Dialog
 
+filter-folder-picker-prefix =
+    .value = Выканаць выбраны(я) фільтр(ы) ў папцы:
+    .accesskey = ы
+filter-search-box =
+    .placeholder = Пошук фільтраў па імях…
+filter-close-key =
+    .key = W
 
 ## Filter Editor
 
