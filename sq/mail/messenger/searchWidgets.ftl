@@ -159,6 +159,8 @@ rule-action-priority =
     .label = Vërja Përparësinë
 rule-action-tag =
     .label = Etiketoje Mesazhin Si
+rule-action-set-spam-status =
+    .label = Vërja Gjendjen Për të Padëshiruar si
 rule-action-delete =
     .label = Fshije Mesazhin
 rule-action-delete-pop =
@@ -176,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Mesazh i padëshiruar
+rule-menuitem-not-spam =
+    .label = Jo mesazh i padëshiruar
 rule-priority-highest =
     .label = Më e madhe
 rule-priority-high =
@@ -184,3 +190,5 @@ rule-priority-normal =
     .label = Normale
 rule-priority-low =
     .label = E vogël
+rule-priority-lowest =
+    .label = Më e vogël

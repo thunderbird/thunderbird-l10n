@@ -103,6 +103,9 @@ filter-count-visible-of-total = { $visible } nga { $total }
 ## Filter Editor
 
 filter-editor-window-title = Rregulla Filtrash
+filter-editor-name =
+    .value = Emër filtri:
+    .accesskey = E
 filter-editor-context-desc = Zbatoje filtrin kur:
 filter-editor-context-incoming =
     .label = Merret Postë e Re:
@@ -123,6 +126,11 @@ filter-editor-action-order-warning =
     .value = Shënim: Veprimet e filtrimit do të kryhen sipas një radhe tjetër.
 filter-editor-action-order-link =
     .value = Shihni radhën e përmbushjes
+filter-editor-duplicate-title = Emër Filtri i Përsëdytur
+filter-editor-duplicate-msg = Ka tashmë një emër si ai që dhatë për filtrin. Ju lutemi, jepni një tjetër emër filtri.
+filter-editor-no-event-title = Nuk është përzgjedhur ndonjë filtër aktesh
+filter-editor-no-event-msg = Duhet të përzgjidhni të paktën një akt mbi të cilin të zbatohet ky filtër. Nëse përkohësisht nuk doni që filtri të zbatohet mbi ndonjë akt, hiqeni shenjën nga gjendja e aktivizimit, te dialogu Filtra Mesazhesh.
+filter-editor-match-all-name = Përputhje Në Tërë Mesazhet
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Kopjim i { $name }
@@ -138,3 +146,8 @@ filter-editor-action-order-title = Rendi real i veprimeve
 #   $action (String) - The action label
 #   $argument (String) - The folder or value associated with the action
 filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
