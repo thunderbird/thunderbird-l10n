@@ -52,3 +52,6 @@ filter-editor-window-title = Filterreëls
 filter-editor-name =
     .value = Filternaam:
     .accesskey = l
+filter-editor-action-desc =
+    .value = Doen hierdie aksies:
+    .accesskey = D

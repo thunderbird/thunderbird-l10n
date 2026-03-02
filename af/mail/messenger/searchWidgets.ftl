@@ -116,3 +116,43 @@ search-match-all =
 search-match-any =
     .label = Pas enige van die volgende
     .accesskey = e
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Verskuif boodskap na
+rule-action-copy =
+    .label = Kopieer boodskap na
+rule-action-forward =
+    .label = Stuur boodskap aan na
+rule-action-reply =
+    .label = Antwoord met sjabloon
+rule-action-read =
+    .label = Merk as gelees
+rule-action-star =
+    .label = Voeg vlag by
+rule-action-priority =
+    .label = Stel prioriteit op as
+rule-action-tag =
+    .label = Merk boodskap aan
+rule-action-delete =
+    .label = Skrap boodskap
+rule-action-delete-pop =
+    .label = Skrap van POP-bediener
+rule-action-fetch-pop =
+    .label = Haal van POP-bediener
+rule-action-ignore-thread =
+    .label = Ignoreer draad
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Hoogste
+rule-priority-high =
+    .label = Hoog
+rule-priority-normal =
+    .label = Gewoon
+rule-priority-low =
+    .label = Laag
+rule-priority-lowest =
+    .label = Laagste
