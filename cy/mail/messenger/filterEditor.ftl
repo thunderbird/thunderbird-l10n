@@ -107,6 +107,11 @@ filter-count-visible-of-total = { $visible } o { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Hidlau Negeseuon
+filter-name-column =
+    .label = Enw Hidl
+filter-active-column =
+    .label = Galluogwyd
 
 ## Filter Editor
 
