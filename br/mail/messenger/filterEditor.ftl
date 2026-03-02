@@ -86,10 +86,23 @@ filter-editor-context-incoming =
 filter-editor-context-manual =
     .label = Lañset dre zorn
     .accesskey = r
+filter-editor-context-outgoing =
+    .label = Goude bezañ bet kaset
+    .accesskey = S
+filter-editor-context-archive =
+    .label = Diellerezh
+    .accesskey = D
+filter-editor-action-desc =
+    .value = Lañsañ ar gwezhioù da-heul :
+    .accesskey = o
 filter-editor-action-order-warning =
     .value = Notenn : Loc'het e vo gwezhioù ar siloù dre un urzh disheñvel.
 filter-editor-action-order-link =
     .value = Gwelout urzh loc'hañ ar gwezhioù
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Eilad eus { $name }
+filter-editor-invalid-search-title = Termenoù enklask didalvoudek
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
