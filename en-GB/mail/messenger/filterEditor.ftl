@@ -106,3 +106,15 @@ filter-editor-window-title = Filter Rules
 filter-editor-name =
     .value = Filter name:
     .accesskey = i
+filter-editor-context-desc = Apply filter when:
+filter-editor-context-incoming =
+    .label = Getting New Mail:
+    .accesskey = G
+filter-editor-context-manual =
+    .label = Manually Run
+    .accesskey = R
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
