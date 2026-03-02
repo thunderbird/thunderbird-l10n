@@ -178,6 +178,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Thư rác
+rule-menuitem-not-spam =
+    .label = Không phải thư rác
 rule-priority-highest =
     .label = Cao nhất
 rule-priority-high =

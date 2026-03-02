@@ -118,6 +118,11 @@ filter-editor-action-order-warning =
     .value = Lưu ý: Các hành động lọc sẽ được chạy theo thứ tự khác.
 filter-editor-action-order-link =
     .value = Xem thứ tự thực hiện
+filter-editor-duplicate-title = Trùng lặp tên bộ lọc
+filter-editor-duplicate-msg = Tên bộ lọc đã tồn tại. Vui lòng nhập tên bộ lọc khác.
+filter-editor-no-event-title = Không có sự kiện bộ lọc nào được chọn
+filter-editor-no-event-msg = Bạn phải chọn ít nhất một sự kiện khi bộ lọc này được áp dụng. Nếu bạn tạm thời không muốn bộ lọc chạy ở bất kỳ sự kiện nào, hãy bỏ chọn trạng thái được bật từ hộp thoại bộ lọc thư.
+filter-editor-match-all-name = Khớp tất cả thư
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Bản sao của { $name }
