@@ -146,8 +146,17 @@ filter-folder-picker-prefix =
     .accesskey = а
 filter-search-box =
     .placeholder = Търсене на филтри по име…
+filter-close-key =
+    .key = W
+filter-delete-confirmation = Наистина ли искате да изтриете избрани(я)те филт(ъ)ри?
 filter-dont-warn-delete-checkbox = Спиране на този въпрос
 filter-cannot-enable-incompatible = Филтър вероятно е създаден от по-ново или несъвместимо издание на { -brand-product-name }. Не можете да го включите, защото не знаем как да го приложим.
+filter-running-title = Работещи филтри
+filter-running-message =
+    В момента се филтрират писма.
+    Искате ли да продължи филтрирането?
+filter-stop-button = Стоп
+filter-continue-button = Продължение
 
 ## Filter Editor
 
