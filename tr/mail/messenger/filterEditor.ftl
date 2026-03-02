@@ -99,11 +99,27 @@ filter-count-visible-of-total = { $visible } / { $total }
 
 ## Filter List Dialog
 
+filter-window-title = İleti Süzgeçleri
 filter-active-column =
     .label = Etkin
 filter-new-button =
     .label = Yeni…
     .accesskey = Y
+filter-reorder-up-button =
+    .label = Yukarı taşı
+    .accesskey = Y
+filter-reorder-down-button =
+    .label = Aşağı taşı
+    .accesskey = A
+filter-reorder-bottom-button =
+    .label = Alta taşı
+    .accesskey = A
+    .tooltiptext = Süzgeci diğerlerinden sonra çalışacak şekilde yeniden düzenle
+filter-header-label =
+    .value = Etkin süzgeçler aşağıdaki sıralamaya göre otomatik olarak çalıştırılır.
+filter-filters-for-prefix =
+    .value = Süzülecek hesap:
+    .accesskey = S
 filter-view-log-button =
     .label = Süzgeç günlüğü
     .accesskey = l
