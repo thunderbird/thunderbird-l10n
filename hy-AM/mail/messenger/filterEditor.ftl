@@ -110,6 +110,11 @@ filter-editor-action-order-warning =
     .value = Note: Filter actions will be run in a different order.
 filter-editor-action-order-link =
     .value = Դիտել կատարման կարգը
+filter-editor-duplicate-title = Կրկնօրինակել զտիչի անունը
+filter-editor-duplicate-msg = Այս անունով զտիչ արդեն առկա է։ Նշեք այլ անուն։
+filter-editor-no-event-title = No filter event selected
+filter-editor-no-event-msg = You must select at least one event when this filter is applied. If you temporarily do not wish the filter to run at any event, uncheck its enabled state from the Message Filters dialog.
+filter-editor-match-all-name = Բոլոր նամակներին համպ.
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } ֊ի պատճե
