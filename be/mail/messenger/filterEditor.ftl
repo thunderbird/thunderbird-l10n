@@ -107,8 +107,11 @@ filter-search-box =
     .placeholder = Пошук фільтраў па імях…
 filter-close-key =
     .key = W
+filter-delete-confirmation = Вы ўпэўнены, што жадаеце выдаліць выбраны(я) фільтр(ы)?
 filter-dont-warn-delete-checkbox = Не запытваць мяне зноў.
 filter-cannot-enable-incompatible = Магчыма, гэты фільтр быў створаны ў найноўшай або несумяшчальнай версіі { -brand-product-name }. Вы не можаце ўключыць гэты фільтр, таму што мы не ведаем, як яго ужываць.
+filter-stop-button = Спыніць
+filter-continue-button = Працягнуць
 
 ## Filter Editor
 
