@@ -144,8 +144,19 @@ filter-run-filters-button =
 filter-folder-picker-prefix =
     .value = Таңдалған сүзгі(лер)ді қайда қолдану:
     .accesskey = д
+filter-search-box =
+    .placeholder = Сүзгілерді аты бойынша іздеу…
+filter-close-key =
+    .key = ж
+filter-delete-confirmation = Таңдалған сүзгі(лер) өшіруді шынымен қалайсыз ба?
 filter-dont-warn-delete-checkbox = Мені қайта сұрамау
 filter-cannot-enable-incompatible = Бұл сүзгі { -brand-product-name } болашақ нұсқасымен жасалған сияқты. Бұл сүзгіні іске қоса алмайсыз, өйткені біз оны қалай іске асыру керектігін білмейміз.
+filter-running-title = Сүзгілерді орындау
+filter-running-message =
+    Сіз ағымдағы уақытта хабарламаларды сүзгілеудесіз.
+    Сүзгілерді іске асыруды жалғастыруды қалайсыз ба?
+filter-stop-button = Тоқтату
+filter-continue-button = Жалғастыру
 
 ## Filter Editor
 
