@@ -100,11 +100,22 @@ filter-count-visible-of-total = { $visible } / { $total }
 ## Filter List Dialog
 
 filter-window-title = İleti Süzgeçleri
+filter-name-column =
+    .label = Süzgeç adı
 filter-active-column =
     .label = Etkin
 filter-new-button =
     .label = Yeni…
     .accesskey = Y
+filter-new-copy-button =
+    .label = Kopyala…
+    .accesskey = K
+filter-edit-button =
+    .label = Düzenle…
+    .accesskey = e
+filter-delete-button =
+    .label = Sil
+    .accesskey = S
 filter-reorder-up-button =
     .label = Yukarı taşı
     .accesskey = Y
