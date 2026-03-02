@@ -114,6 +114,23 @@ filter-editor-window-title = Rheolau Hidlo
 filter-editor-name =
     .value = Enw'r hidl:
     .accesskey = E
+filter-editor-context-desc = Gosod yr hidl pan yn:
+filter-editor-context-incoming =
+    .label = Estyn E-bost Newydd:
+    .accesskey = E
+filter-editor-context-manual =
+    .label = Rhedeg â Llaw
+    .accesskey = L
+filter-editor-context-outgoing =
+    .label = Ar ôl Anfon
+    .accesskey = n
+filter-editor-context-archive =
+    .label = Archifo
+    .accesskey = A
+# Variables:
+#   $name (String) - The name of the filter that is being copied.
+filter-editor-copy-name = Copi o { $name }
+filter-editor-invalid-search-title = Termau Chwilio yn Annilys
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
