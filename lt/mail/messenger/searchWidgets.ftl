@@ -134,6 +134,16 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Perkelti pranešimus į;
+rule-action-copy =
+    .label = Nukopijuoti į aplanką:
+rule-action-forward =
+    .label = Persiųsti:
+rule-action-reply =
+    .label = Atsakyti naudojantis šablonu
+rule-action-read =
+    .label = Pažymėti kaip skaitytą
 rule-action-unread =
     .label = Pažymėti kaip neskaitytą
 rule-action-star =
