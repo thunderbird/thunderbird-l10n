@@ -109,6 +109,14 @@ search-add-rule-button =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Ջնջել կանոնը
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Նոր գործողություն
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Հեռացնել գործողությունը
 
 ## Search Term List
 
@@ -124,6 +132,24 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-priority =
+    .label = Առաջնահերթ-ը՝
+rule-action-tag =
+    .label = Պիտակված նամակ
+rule-action-delete =
+    .label = Ջնջել նամակը
+rule-action-delete-pop =
+    .label = Ջնջել POP սպասարկիչից
+rule-action-fetch-pop =
+    .label = Ընտրել POP սպասարկիչից
+rule-action-ignore-thread =
+    .label = Անտեսել շղթան
+rule-action-ignore-subthread =
+    .label = Անտեսել ենթաշղթան
+rule-action-watch-thread =
+    .label = Հետևել շղթային
+rule-action-stop =
+    .label = Կանգնեցնել զտիչը
 
 ## Rule Action Targets
 
