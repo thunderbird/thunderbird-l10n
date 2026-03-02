@@ -99,6 +99,7 @@ filter-count-visible-of-total = { $visible } de { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Filtros de mensagens
 
 ## Filter Editor
 
