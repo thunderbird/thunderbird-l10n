@@ -83,6 +83,51 @@ filter-count-visible-of-total = { $visible } da { $total }
 
 ## Filter List Dialog
 
+filter-window-title = Filters da messadi
+filter-name-column =
+    .label = Num dal filter
+filter-active-column =
+    .label = Activà
+filter-new-button =
+    .label = Nov…
+    .accesskey = N
+filter-new-copy-button =
+    .label = Copiar…
+    .accesskey = C
+filter-edit-button =
+    .label = Modifitgar…
+    .accesskey = M
+filter-delete-button =
+    .label = Stizzar
+    .accesskey = z
+filter-reorder-top-button =
+    .label = Plazzar sisum
+    .accesskey = i
+    .tooltiptext = Spustar il filter uschia ch'el vegn exequì avant tut ils auters
+filter-reorder-up-button =
+    .label = Ensi
+    .accesskey = E
+filter-reorder-down-button =
+    .label = Engiu
+    .accesskey = g
+filter-reorder-bottom-button =
+    .label = Plazzar giusut
+    .accesskey = u
+    .tooltiptext = Spustar il filter uschia ch'el vegn exequì suenter tut ils auters
+filter-header-label =
+    .value = Filters activads vegnan exequids automaticamain en la suandanta successiun.
+filter-filters-for-prefix =
+    .value = Filters per:
+    .accesskey = F
+filter-view-log-button =
+    .label = Protocol da filters
+    .accesskey = L
+filter-run-filters-button =
+    .label = Exequir ussa
+    .accesskey = R
+filter-folder-picker-prefix =
+    .value = Exequir ils filters tschernids en:
+    .accesskey = c
 
 ## Filter Editor
 
