@@ -105,6 +105,12 @@ filter-count-visible-of-total = { $visible } din { $total }
 ## Filter Editor
 
 filter-editor-context-desc = Aplică filtrul:
+filter-editor-context-incoming =
+    .label = La obținerea unui mail nou:
+    .accesskey = m
+filter-editor-context-manual =
+    .label = La rularea manuală
+    .accesskey = R
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")

@@ -118,6 +118,10 @@ search-remove-rule-button =
 rule-add-action-button =
     .label = +
     .tooltiptext = Adaugă o secțiune nouă
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Elimină această acțiune
 
 ## Search Term List
 
@@ -133,6 +137,14 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-unread =
+    .label = Marchează ca necitit
+rule-action-star =
+    .label = Adaugă steluță
+rule-action-priority =
+    .label = Schimbă prioritatea în
+rule-action-tag =
+    .label = Etichetează mesaj
 rule-action-stop =
     .label = Oprește executarea filtrului
 
