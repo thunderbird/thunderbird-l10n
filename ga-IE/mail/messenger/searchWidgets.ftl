@@ -104,6 +104,10 @@ search-add-rule-button =
     .label = +
     .tooltiptext = Cuir riail nua leis
 # Do not translate the label.
+search-remove-rule-button-2 =
+    .label = −
+    .tooltiptext = Bain an riail seo
+# Do not translate the label.
 search-remove-rule-button =
     .label = -
     .tooltiptext = Bain an riail seo

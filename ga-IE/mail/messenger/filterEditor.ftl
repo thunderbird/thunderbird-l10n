@@ -71,3 +71,31 @@ filter-editor-window-title = Rialacha Scagtha
 filter-editor-name =
     .value = Ainm an scagaire:
     .accesskey = i
+filter-editor-context-desc = Cuir an scagaire seo i bhfeidhm agus:
+filter-editor-context-incoming =
+    .label = Ríomhphost Nua á Fháil:
+    .accesskey = F
+filter-editor-context-manual =
+    .label = Rith de láimh
+    .accesskey = R
+filter-editor-action-order-warning =
+    .value = Nóta: Cuirfear na scagairí i bhfeidhm in ord difriúil.
+filter-editor-action-order-link =
+    .value = Féach ar ord curtha i bhfeidhm
+filter-editor-invalid-search-title = Téarmaí cuardaigh neamhbhailí
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Ní féidir an scagaire seo a shábháil toisc go bhfuil an téarma cuardaigh "{ $attribute } { $operator }" neamhbhailí sa chomhthéacs reatha.
+filter-editor-action-order-explanation = Nuair atá teachtaireacht comhoiriúnach leis an scagaire seo, cuirfear na gníomhaíochtaí i bhfeidhm san ord seo:
+filter-editor-action-order-title = Fíor-ord gníomhaíochta
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }
