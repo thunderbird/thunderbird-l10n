@@ -75,6 +75,12 @@ filter-active-column =
 filter-new-button =
     .label = جديد…
     .accesskey = ج
+filter-edit-button =
+    .label = حرّر…
+    .accesskey = ح
+filter-delete-button =
+    .label = احذف
+    .accesskey = ح
 
 ## Filter Editor
 
