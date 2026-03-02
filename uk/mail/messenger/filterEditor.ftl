@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -79,3 +82,36 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } з { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-window-title = Правила фільтрації
+filter-editor-name =
+    .value = Назва фільтру:
+    .accesskey = І
+filter-editor-context-desc = Застосувати фільтр:
+filter-editor-context-incoming =
+    .label = Отримання нової пошти:
+    .accesskey = О
+filter-editor-context-manual =
+    .label = Вручну
+    .accesskey = р
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Цей фільтр не може бути збережений, тому що пошукова умова "{ $attribute } { $operator }" недійсна в поточному контексті.
+filter-editor-action-order-explanation = Якщо повідомлення відповідає цьому фільтру, дії будуть застосовані в такому порядку:
+filter-editor-action-order-title = Реальний порядок дій
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

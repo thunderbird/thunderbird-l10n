@@ -121,3 +121,25 @@ search-match-any =
 search-match-all-msgs =
     .label = Усі повідомлення
     .accesskey = с
+
+## Rule Action Types
+
+rule-action-unread =
+    .label = Позначити як нечитане
+rule-action-star =
+    .label = Додати зірочку
+rule-action-priority =
+    .label = Змінити важливість на
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = найвищу
+rule-priority-high =
+    .label = високу
+rule-priority-normal =
+    .label = звичайну
+rule-priority-low =
+    .label = низьку
+rule-priority-lowest =
+    .label = найнижчу
