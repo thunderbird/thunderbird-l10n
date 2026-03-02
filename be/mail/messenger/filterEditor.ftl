@@ -78,6 +78,17 @@ filter-editor-context-outgoing =
 filter-editor-context-archive =
     .label = Архіваванні
     .accesskey = А
+filter-editor-action-desc =
+    .value = Выканаць гэтыя дзеянні:
+    .accesskey = В
+filter-editor-action-order-warning =
+    .value = Заўвага: дзеянні фільтру будуць выконвацца ў іншым парадку.
+filter-editor-action-order-link =
+    .value = Праглядзець парадак выканання
+filter-editor-duplicate-title = Фільтр з такім імем ужо існуе
+filter-editor-duplicate-msg = Фільтр з такім імем ужо існуе. Калі ласка, увядзіце іншае імя.
+filter-editor-no-event-title = Не выбрана ніводнай падзеі для фільтру
+filter-editor-no-event-msg = Вам трэба выбраць хаця б адну падзею, пры якой ужываецца гэты фільтр. Калі вы жадаеце часова не запускаць фільтр, адключыце яго ў акне «Фільтры паведамленняў».
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Копія { $name }

@@ -126,6 +126,12 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-move =
+    .label = Перамясціць паведамленне ў
+rule-action-copy =
+    .label = Капіяваць паведамленне ў
+rule-action-forward =
+    .label = Перанакіраваць паведамленне ў
 rule-action-reply =
     .label = Адказаць па шаблоне
 rule-action-read =
