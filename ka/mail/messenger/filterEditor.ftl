@@ -99,6 +99,11 @@ filter-count-visible-of-total = { $visible }, სულ { $total }-დან
 
 ## Filter List Dialog
 
+filter-window-title = წერილის ფილტრები
+filter-name-column =
+    .label = ფილტრის სახელი
+filter-active-column =
+    .label = ჩართვა
 
 ## Filter Editor
 
