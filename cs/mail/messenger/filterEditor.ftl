@@ -150,6 +150,8 @@ filter-search-box =
     .placeholder = Hledat filtry podle názvu…
 filter-close-key =
     .key = W
+filter-dont-warn-delete-checkbox = Příště se již neptat
+filter-cannot-enable-incompatible = Tento filtr byl pravděpodobně vytvořen v nesprávné verzi aplikace { -brand-product-name }. Není možné jej povolit, protože ho nelze použít.
 
 ## Filter Editor
 
