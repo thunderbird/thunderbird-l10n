@@ -129,6 +129,8 @@ search-match-all-msgs =
 
 ## Rule Action Types
 
+rule-action-unread =
+    .label = Okunmadı olarak işaretle
 rule-action-star =
     .label = Yıldız ekle
 rule-action-priority =

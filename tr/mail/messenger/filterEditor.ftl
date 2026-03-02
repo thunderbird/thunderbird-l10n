@@ -102,6 +102,21 @@ filter-count-visible-of-total = { $visible } / { $total }
 
 ## Filter Editor
 
+filter-editor-window-title = Süzgeç Kuralları
+filter-editor-context-desc = Süzgecin uygulanma zamanı:
+filter-editor-context-incoming =
+    .label = Yeni posta alırken:
+    .accesskey = Y
+filter-editor-context-manual =
+    .label = Elle çalıştır
+    .accesskey = E
+filter-editor-action-desc =
+    .value = Bu eylemleri uygula:
+    .accesskey = u
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = "{ $attribute } { $operator }" arama terimi bu bağlamda geçersiz olduğu için bu süzgeç kaydedilemez.
 # Variables:
 #   $attribute (String) - Header or item to match (e.g. "From")
 #   $operator (String) - The comparison operator (e.g. "Contains")
