@@ -148,6 +148,15 @@ filter-search-box =
     .placeholder = Cercar filtros por nomine…
 filter-close-key =
     .key = W
+filter-delete-confirmation = Desira tu vermente deler le filtro(s) seligite?
+filter-dont-warn-delete-checkbox = Non plus demandar me isto
+filter-cannot-enable-incompatible = Iste filtro ha probabilemente essite create per un version plus recente o incompatibile de { -brand-product-name }. Tu non pote activar iste filtro perque nos non sape como applicar lo.
+filter-running-title = Application del filtros
+filter-running-message =
+    Tu es actualmente in le processo de filtrar messages.
+    Desira tu continuar le application de filtros?
+filter-stop-button = Stoppar
+filter-continue-button = Continuar
 
 ## Filter Editor
 
