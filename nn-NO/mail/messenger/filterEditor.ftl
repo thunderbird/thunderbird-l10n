@@ -126,6 +126,11 @@ filter-editor-action-order-warning =
     .value = Merk: Filterhandlingar vert køyrd i ei anna rekkjefølgje
 filter-editor-action-order-link =
     .value = Sjå utføringsrekkjefølgje
+filter-editor-duplicate-title = Filternamnet finst frå før
+filter-editor-duplicate-msg = Filternamnet du skreiv inn finst allereie frå før. Skriv inn eit nytt namn.
+filter-editor-no-event-title = Inga filterhending valt
+filter-editor-no-event-msg = Du må velje minst ei hending når dette filteret er valt. Om du mellombels ikkje ønskjer at filteret skal køyre, ta vekk avkryssinga i meldingsfilter-dialogen.
+filter-editor-match-all-name = Vis alle meldingane
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Kopi av { $name }

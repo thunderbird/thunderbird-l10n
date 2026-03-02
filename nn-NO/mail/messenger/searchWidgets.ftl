@@ -118,6 +118,14 @@ search-remove-rule-button-2 =
 search-remove-rule-button =
     .label = -
     .tooltiptext = Fjern denne regelen
+# Do not translate the label.
+rule-add-action-button =
+    .label = +
+    .tooltiptext = Legg til ei ny handling
+# Do not translate the label.
+rule-remove-action-button =
+    .label = −
+    .tooltiptext = Fjern denne handlinga
 
 ## Search Term List
 
@@ -155,9 +163,25 @@ rule-action-set-spam-status =
     .label = Set søppelpoststatus til
 rule-action-delete =
     .label = Slett melding
+rule-action-delete-pop =
+    .label = Slett frå POP-serveren
+rule-action-fetch-pop =
+    .label = Hent frå POP-serveren
+rule-action-ignore-thread =
+    .label = Ignorer tråd
+rule-action-ignore-subthread =
+    .label = Ignorer undertråd
+rule-action-watch-thread =
+    .label = Følg tråd
+rule-action-stop =
+    .label = Stopp filtrering
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Søppelpost
+rule-menuitem-not-spam =
+    .label = Ikkje søppelpost
 rule-priority-highest =
     .label = Høgast
 rule-priority-high =
