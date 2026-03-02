@@ -126,3 +126,41 @@ search-match-any =
 search-match-all-msgs =
     .label = Brak warunków, wszystkie wiadomości
     .accesskey = B
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Przenieś wiadomość do
+rule-action-copy =
+    .label = Kopiuj wiadomość do
+rule-action-forward =
+    .label = Przekaż wiadomość do
+rule-action-reply =
+    .label = Odpowiedz używając szablonu
+rule-action-read =
+    .label = Oznacz jako przeczytaną
+rule-action-unread =
+    .label = Oznacz jako nieprzeczytaną
+rule-action-star =
+    .label = Oznacz gwiazdką
+rule-action-priority =
+    .label = Ustaw priorytet na
+rule-action-tag =
+    .label = Oznacz etykietą
+rule-action-delete =
+    .label = Usuń wiadomość
+rule-action-delete-pop =
+    .label = Usuń z serwera POP
+rule-action-fetch-pop =
+    .label = Pobierz treść z serwera POP
+rule-action-ignore-thread =
+    .label = Ignoruj wątek
+rule-action-ignore-subthread =
+    .label = Ignoruj odpowiedzi
+rule-action-watch-thread =
+    .label = Śledź wątek
+rule-action-stop =
+    .label = Zatrzymaj wykonywanie filtru
+
+## Rule Action Targets
+
