@@ -126,3 +126,19 @@ search-match-any =
 search-match-all-msgs =
     .label = Phù hợp tất cả thư
     .accesskey = P
+
+## Rule Action Types
+
+
+## Rule Action Targets
+
+rule-priority-highest =
+    .label = Cao nhất
+rule-priority-high =
+    .label = Cao
+rule-priority-normal =
+    .label = Bình thường
+rule-priority-low =
+    .label = Thấp
+rule-priority-lowest =
+    .label = Thấp nhất

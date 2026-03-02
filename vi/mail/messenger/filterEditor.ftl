@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Thư rác
 rule-menuitem-not-spam =
@@ -85,3 +88,25 @@ filter-count-items = { $count } mục
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } của { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-name =
+    .value = Tên bộ lọc:
+    .accesskey = i
+filter-editor-context-desc = Áp dụng bộ lọc khi:
+filter-editor-context-incoming =
+    .label = Nhận thư mới:
+    .accesskey = G
+filter-editor-context-manual =
+    .label = Chạy thủ công
+    .accesskey = R
+filter-editor-context-outgoing =
+    .label = Sau khi gửi
+    .accesskey = S
+filter-editor-context-archive =
+    .label = Lưu trữ
+    .accesskey = A
