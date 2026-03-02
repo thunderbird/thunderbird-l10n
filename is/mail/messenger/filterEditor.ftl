@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Filter List Dialog
+
 rule-menuitem-spam =
     .label = Ruslpóstur
 rule-menuitem-not-spam =
@@ -93,3 +96,26 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } af { $total }
+
+## Filter List Dialog
+
+
+## Filter Editor
+
+filter-editor-invalid-search-title = Leitarskilyrði ógilt
+# Variables:
+#   $attribute (String) - The search attribute name from the invalid rule.
+#   $operator (String) - The search operator from the bad rule.
+filter-editor-invalid-search-rule = Ekki er hægt að vista þessa síðu vegna þess að leitarskilyrðið "{ $attribute } { $operator }" er ógilt í núverandi samhengi.
+filter-editor-action-order-explanation = Þegar póstur passar við þessa síu verða aðgerðirnar keyrðar í eftirfarandi röð:
+filter-editor-action-order-title = Raunveruleg aðgerðaröð
+# Variables:
+#   $number (Number) - The sequence number of the action
+#   $action (String) - The action label
+#   $argument (String) - The folder or value associated with the action
+filter-editor-action-item = { $number }. { $action } { $argument }
+# Variables:
+#   $attribute (String) - Header or item to match (e.g. "From")
+#   $operator (String) - The comparison operator (e.g. "Contains")
+#   $value (String) - The value being matched
+filter-editor-auto-name = { $attribute } { $operator }: { $value }

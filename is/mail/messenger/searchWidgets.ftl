@@ -126,3 +126,25 @@ search-match-any =
 search-match-all-msgs =
     .label = Passar við allan póst
     .accesskey = P
+
+## Rule Action Types
+
+rule-action-move =
+    .label = Færa póst í
+rule-action-copy =
+    .label = Afrita póst í
+rule-action-forward =
+    .label = Áframsenda póst á
+rule-action-reply =
+    .label = Svara með sniðmáti
+rule-action-read =
+    .label = Merkja sem lesið
+rule-action-unread =
+    .label = Merkja sem ólesið
+rule-action-star =
+    .label = Stjörnumerkja
+rule-action-priority =
+    .label = Setja mikilvægi sem
+
+## Rule Action Targets
+
