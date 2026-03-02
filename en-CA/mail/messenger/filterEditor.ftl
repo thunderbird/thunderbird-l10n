@@ -126,6 +126,11 @@ filter-editor-action-order-warning =
     .value = Note: Filter actions will be run in a different order.
 filter-editor-action-order-link =
     .value = See execution order
+filter-editor-duplicate-title = Duplicate Filter Name
+filter-editor-duplicate-msg = The filter name you entered already exists. Please enter a different filter name.
+filter-editor-no-event-title = No filter event selected
+filter-editor-no-event-msg = You must select at least one event when this filter is applied. If you temporarily do not wish the filter to run at any event, uncheck its enabled state from the Message Filters dialog.
+filter-editor-match-all-name = Match All Messages
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = Copy of { $name }
