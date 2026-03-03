@@ -157,6 +157,6 @@ calendar-dialog-attachments-expand-icon =
 #   $count (Number): Number of attachments.
 calendar-dialog-attachments-summary-label =
     { $count ->
-        [one] { $count } adjuntos
-       *[other] { $count } archivos adjuntos
+        [one] { $count } adjunto
+       *[other] { $count }  adjuntos
     }
