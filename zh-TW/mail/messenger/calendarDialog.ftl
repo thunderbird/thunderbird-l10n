@@ -22,12 +22,12 @@ calendar-dialog-description-row-icon =
 calendar-dialog-reminders-row-icon =
     .alt = 提醒
 calendar-dialog-attendees-row-icon =
-    .alt = 訪客
+    .alt = 參加者
 # Variables:
 #   $count (Number): Number of guests.
 calendar-dialog-attendee-count =
     { $count ->
-       *[other] { $count } 訪客
+       *[other] { $count } 位參加者
     }
 # Variables:
 #   $going (Number): Number of guests that responded "attending".
@@ -42,22 +42,22 @@ calendar-dialog-attendee-summary =
                     { $declined ->
                        *[other]
                             { $pending ->
-                               *[other] { $going } 參加、{ $maybe } 參加、{ $declined } 拒絕、{ $pending } 參加
+                               *[other] { $going } 位參加、{ $maybe } 位可能參加、{ $declined } 位拒絕、{ $pending } 尚未決定
                             }
                     }
             }
     }
 calendar-dialog-attendee-organizer = 召集人
-calendar-dialog-attendee-optional = 選擇性
+calendar-dialog-attendee-optional = 非必要
 calendar-dialog-icon-attending =
     .alt = 出席
 calendar-dialog-icon-declined =
-    .alt = 已拒絕
+    .alt = 拒絕
 calendar-dialog-icon-maybe =
     .alt = 也許會參加
 calendar-dialog-attendees-expand-icon =
-    .alt = 顯示所有訪客
-calendar-dialog-attendees-too-many-guests = 超過 50 位訪客無法顯示訪客清單。
+    .alt = 顯示所有參加者
+calendar-dialog-attendees-too-many-guests = 由於有超過 50 位參加者，無法顯示參加者清單。
 calendar-dialog-description-label = 描述
 calendar-dialog-description-expand-icon =
     .alt = 顯示完整描述
