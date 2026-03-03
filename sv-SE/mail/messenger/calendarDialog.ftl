@@ -79,3 +79,17 @@ calendar-dialog-decline = Kommer inte
 calendar-dialog-join-meeting-button = Gå med i mötet
 calendar-dialog-join-meeting-row-icon =
     .alt = Gå med i mötet
+calendar-dialog-attachments-row-icon =
+    .alt = Bilagor
+calendar-dialog-attachments-label = Bilagor
+calendar-dialog-attachment-link-icon =
+    .alt = Länkad bilaga
+calendar-dialog-attachments-expand-icon =
+    .alt = Visa alla bilagor
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } bilaga
+       *[other] { $count } bilagor
+    }
