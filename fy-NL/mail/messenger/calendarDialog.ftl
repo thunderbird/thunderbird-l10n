@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = Slute
     .title = Slute
+calendar-dialog-menu-button =
+    .aria-label = Menu iepenje
+    .title = Menu iepenje
 calendar-dialog-back-button =
     .aria-label = Tebek
     .title = Tebek
@@ -18,9 +21,38 @@ calendar-dialog-description-row-icon =
     .alt = Beskriuwing
 calendar-dialog-reminders-row-icon =
     .alt = Omtinkens
+calendar-dialog-attendees-row-icon =
+    .alt = Gasten
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } gast
+       *[other] { $count } gasten
+    }
+calendar-dialog-attendee-organizer = Organisator
+calendar-dialog-attendee-optional = Opsjoneel
+calendar-dialog-icon-attending =
+    .alt = Oanwêzich
+calendar-dialog-icon-declined =
+    .alt = Wegere
+calendar-dialog-icon-maybe =
+    .alt = Miskien
+calendar-dialog-attendees-expand-icon =
+    .alt = Alle gasten toane
+calendar-dialog-attendees-too-many-guests = De gastelist kin net werjûn wurde, omdat dizze mear as 50 gasten befettet.
 calendar-dialog-description-label = Beskriuwing
 calendar-dialog-description-expand-icon =
     .alt = Folsleine beskriuwing toane
+calendar-dialog-menu-duplicate =
+    .label = Barren duplisearje
+calendar-dialog-menu-delete =
+    .label = Barren fuortsmite
+calendar-dialog-menu-print =
+    .label = Ofdrukke
+calendar-dialog-menu =
+    .aria-label = Menu Mear aksjes
+    .title = Menu Mear aksjes
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -45,3 +77,11 @@ calendar-dialog-accept-tentative = Miskien
     .title = Miskien
 calendar-dialog-decline = Net oanwêzich
     .title = Net oanwêzich
+calendar-dialog-join-meeting-button = Dielnimme oan gearkomst
+calendar-dialog-join-meeting-row-icon =
+    .alt = Dielnimme oan gearkomst
+calendar-dialog-attachments-row-icon =
+    .alt = Bylagen
+calendar-dialog-attachments-label = Bylagen
+calendar-dialog-attachment-link-icon =
+    .alt = Keppele bylage

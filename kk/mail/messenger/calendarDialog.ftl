@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = Жабу
     .title = Жабу
+calendar-dialog-menu-button =
+    .aria-label = Мәзірді ашу
+    .title = Мәзірді ашу
 calendar-dialog-back-button =
     .aria-label = Артқа
     .title = Артқа
@@ -18,6 +21,15 @@ calendar-dialog-description-row-icon =
     .alt = Сипаттамасы
 calendar-dialog-reminders-row-icon =
     .alt = Еске салулар
+calendar-dialog-attendees-row-icon =
+    .alt = Қонақтар
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } қонақ
+       *[other] { $count } қонақ
+    }
 calendar-dialog-description-label = Сипаттамасы
 calendar-dialog-description-expand-icon =
     .alt = Толық сипаттаманы көрсету
