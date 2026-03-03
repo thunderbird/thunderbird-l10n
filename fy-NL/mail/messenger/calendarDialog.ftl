@@ -85,3 +85,12 @@ calendar-dialog-attachments-row-icon =
 calendar-dialog-attachments-label = Bylagen
 calendar-dialog-attachment-link-icon =
     .alt = Keppele bylage
+calendar-dialog-attachments-expand-icon =
+    .alt = Alle bylagen toane
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } bylage
+       *[other] { $count } bylagen
+    }
