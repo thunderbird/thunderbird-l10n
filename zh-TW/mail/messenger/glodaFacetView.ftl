@@ -7,7 +7,7 @@
 #   $n - the number N in "M of N" items
 items-m-of-n =
     { $m ->
-       *[other] { $m } 轉 { $n } { $m } 轉 { $n }
+       *[other] 第 { $m } 項，共 { $n } 項
     }
 # Variables:
 #   $count - the number items
