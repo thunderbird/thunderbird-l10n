@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = Clauder
     .title = Clauder
+calendar-dialog-menu-button =
+    .aria-label = Aperir menu
+    .title = Aperir menu
 calendar-dialog-back-button =
     .aria-label = Retro
     .title = Retro
@@ -18,9 +21,20 @@ calendar-dialog-description-row-icon =
     .alt = Description
 calendar-dialog-reminders-row-icon =
     .alt = Mementos
+calendar-dialog-attendee-optional = Optional
+calendar-dialog-icon-attending =
+    .alt = Attendente
+calendar-dialog-icon-declined =
+    .alt = Refusate
+calendar-dialog-icon-maybe =
+    .alt = Forsan
 calendar-dialog-description-label = Description
 calendar-dialog-description-expand-icon =
     .alt = Monstrar le description integre
+calendar-dialog-menu-delete =
+    .label = Deler evento
+calendar-dialog-menu-print =
+    .label = Imprimer
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -44,3 +58,15 @@ calendar-dialog-accept-tentative = Forsan
     .title = Forsan
 calendar-dialog-decline = Non acceptar
     .title = Non acceptar
+calendar-dialog-attachments-row-icon =
+    .alt = Annexos
+calendar-dialog-attachments-label = Annexos
+calendar-dialog-attachments-expand-icon =
+    .alt = Monstrar tote le annexos
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } annexo
+       *[other] { $count } annexos
+    }
