@@ -31,6 +31,12 @@ calendar-dialog-attendee-count =
         [few] { $count } гостя
        *[many] { $count } гостей
     }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary = { $going } принято, { $maybe } возможно, { $declined } отклонено, { $pening } ожидаем
 calendar-dialog-attendee-organizer = Организатор
 calendar-dialog-attendee-optional = Необязательно
 calendar-dialog-icon-attending =
