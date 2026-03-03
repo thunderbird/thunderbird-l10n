@@ -27,7 +27,7 @@ calendar-dialog-attendees-row-icon =
 #   $count (Number): Number of guests.
 calendar-dialog-attendee-count =
     { $count ->
-        [one] { $count } Ospite
+        [one] { $count } ospite
        *[other] { $count } ospiti
     }
 # Variables:
@@ -99,9 +99,9 @@ calendar-dialog-attendee-summary =
 calendar-dialog-attendee-organizer = Organizzatore
 calendar-dialog-attendee-optional = Facoltativo
 calendar-dialog-icon-attending =
-    .alt = Partecipante
+    .alt = Accettato
 calendar-dialog-icon-declined =
-    .alt = Declinato
+    .alt = Rifiutato
 calendar-dialog-icon-maybe =
     .alt = Forse
 calendar-dialog-attendees-expand-icon =
