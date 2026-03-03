@@ -23,6 +23,15 @@ calendar-dialog-reminders-row-icon =
     .alt = Dopomnjeća
 calendar-dialog-attendees-row-icon =
     .alt = Hosći
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } hósć
+        [two] { $count } hosćej
+        [few] { $count } hosćo
+       *[other] { $count } hosći
+    }
 calendar-dialog-description-label = Wopisanje
 calendar-dialog-description-expand-icon =
     .alt = Dospołne wopisanje składować
