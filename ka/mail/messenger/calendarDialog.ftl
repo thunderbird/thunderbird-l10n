@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = დახურვა
     .title = დახურვა
+calendar-dialog-menu-button =
+    .aria-label = მენიუს გახსნა
+    .title = მენიუს გახსნა
 calendar-dialog-back-button =
     .aria-label = უკან
     .title = უკან
@@ -18,6 +21,19 @@ calendar-dialog-description-row-icon =
     .alt = აღწერილობა
 calendar-dialog-reminders-row-icon =
     .alt = შეხსენებები
+calendar-dialog-attendees-row-icon =
+    .alt = სტუმრები
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } სტუმარი
+       *[other] { $count } სტუმარი
+    }
+calendar-dialog-attendee-organizer = დაგეგმვა
+calendar-dialog-attendee-optional = არასავალდებულო
+calendar-dialog-icon-attending =
+    .alt = ესწრება
 calendar-dialog-description-label = აღწერილობა
 calendar-dialog-description-expand-icon =
     .alt = სრული აღწერილობის ჩვენება
