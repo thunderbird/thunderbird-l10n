@@ -31,9 +31,22 @@ calendar-dialog-attendee-count =
         [few] { $count } gości
        *[many] { $count } gości
     }
+calendar-dialog-attendee-organizer = Organizator
+calendar-dialog-attendees-expand-icon =
+    .alt = Pokaż wszystkich gości
+calendar-dialog-attendees-too-many-guests = Nie można wyświetlić listy gości, ponieważ zawiera ona ponad 50 osób.
 calendar-dialog-description-label = Opis
 calendar-dialog-description-expand-icon =
     .alt = Pokaż pełny opis
+calendar-dialog-menu-duplicate =
+    .label = Duplikuj wydarzenie
+calendar-dialog-menu-delete =
+    .label = Usuń wydarzenie
+calendar-dialog-menu-print =
+    .label = Drukuj
+calendar-dialog-menu =
+    .aria-label = Menu innych dostępnych czynności
+    .title = Menu innych dostępnych czynności
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -60,3 +73,21 @@ calendar-dialog-accept-tentative = Może
     .title = Może
 calendar-dialog-decline = Nie zamierzam
     .title = Nie zamierzam
+calendar-dialog-join-meeting-button = Dołącz do spotkania
+calendar-dialog-join-meeting-row-icon =
+    .alt = Dołącz do spotkania
+calendar-dialog-attachments-row-icon =
+    .alt = Załączniki
+calendar-dialog-attachments-label = Załączniki
+calendar-dialog-attachment-link-icon =
+    .alt = Załącznik z odnośnikiem
+calendar-dialog-attachments-expand-icon =
+    .alt = Pokaż wszystkie załączniki
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } załącznik
+        [few] { $count } załączniki
+       *[many] { $count } załączników
+    }
