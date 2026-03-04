@@ -48,6 +48,11 @@ calendar-dialog-menu-duplicate =
     .label = გამეორებული ღონისძიება
 calendar-dialog-menu-delete =
     .label = ღონისძიებების წაშლა
+calendar-dialog-menu-print =
+    .label = ბეჭდვა
+calendar-dialog-menu =
+    .aria-label = დამატებითი მოქმედებები
+    .title = დამატებითი მოქმედებები
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -68,3 +73,4 @@ calendar-dialog-accept-tentative = შესაძლოა
     .title = შესაძლოა
 calendar-dialog-decline = არ აპირებს
     .title = არ აპირებს
+calendar-dialog-join-meeting-button = შეუერთდით შეხვედრას
