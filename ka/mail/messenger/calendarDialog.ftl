@@ -34,9 +34,20 @@ calendar-dialog-attendee-organizer = დაგეგმვა
 calendar-dialog-attendee-optional = არასავალდებულო
 calendar-dialog-icon-attending =
     .alt = ესწრება
+calendar-dialog-icon-declined =
+    .alt = უარს ამბობს
+calendar-dialog-icon-maybe =
+    .alt = ვარაუდობს
+calendar-dialog-attendees-expand-icon =
+    .alt = ყველა სტუმრის ჩვენება
+calendar-dialog-attendees-too-many-guests = სტუმრების სია ვერ გამოჩნდება, რადგან 50-ზე მეტ სტუმარს შეიცავს.
 calendar-dialog-description-label = აღწერილობა
 calendar-dialog-description-expand-icon =
     .alt = სრული აღწერილობის ჩვენება
+calendar-dialog-menu-duplicate =
+    .label = გამეორებული ღონისძიება
+calendar-dialog-menu-delete =
+    .label = ღონისძიებების წაშლა
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
