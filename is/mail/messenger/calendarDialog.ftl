@@ -77,3 +77,20 @@ calendar-dialog-accept-tentative = Kannski
     .title = Kannski
 calendar-dialog-decline = Kem ekki
     .title = Kem ekki
+calendar-dialog-join-meeting-button = Taka þátt í fundi
+calendar-dialog-join-meeting-row-icon =
+    .alt = Taka þátt í fundi
+calendar-dialog-attachments-row-icon =
+    .alt = Viðhengi
+calendar-dialog-attachments-label = Viðhengi
+calendar-dialog-attachment-link-icon =
+    .alt = Tengt viðhengi
+calendar-dialog-attachments-expand-icon =
+    .alt = Sýna öll viðhengi
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } viðhengi
+       *[other] { $count } viðhengi
+    }
