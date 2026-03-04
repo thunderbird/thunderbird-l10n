@@ -117,8 +117,8 @@ calendar-dialog-menu-delete =
 calendar-dialog-menu-print =
     .label = Drucken
 calendar-dialog-menu =
-    .aria-label = Menü „Weitere Aktionen“
-    .title = Menü „Weitere Aktionen“
+    .aria-label = Menü "Weitere Aktionen"
+    .title = Menü "Weitere Aktionen"
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
