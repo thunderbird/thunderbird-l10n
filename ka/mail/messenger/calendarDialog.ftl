@@ -74,3 +74,19 @@ calendar-dialog-accept-tentative = შესაძლოა
 calendar-dialog-decline = არ აპირებს
     .title = არ აპირებს
 calendar-dialog-join-meeting-button = შეუერთდით შეხვედრას
+calendar-dialog-join-meeting-row-icon =
+    .alt = შეუერთდით შეხვედრას
+calendar-dialog-attachments-row-icon =
+    .alt = დანართები
+calendar-dialog-attachments-label = დანართები
+calendar-dialog-attachment-link-icon =
+    .alt = დანართი ბმულით
+calendar-dialog-attachments-expand-icon =
+    .alt = ყველა დანართის ჩვენება
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } დანართი
+       *[other] { $count } დანართი
+    }
