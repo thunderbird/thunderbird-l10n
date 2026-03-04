@@ -30,6 +30,12 @@ calendar-dialog-attendee-count =
         [one] { $count } სტუმარი
        *[other] { $count } სტუმარი
     }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary = { $going } ესწრება, { $maybe } ვარაუდობს, { $declined } უარს ამბობს, { $pending } განიხილავს
 calendar-dialog-attendee-organizer = დაგეგმვა
 calendar-dialog-attendee-optional = არასავალდებულო
 calendar-dialog-icon-attending =
