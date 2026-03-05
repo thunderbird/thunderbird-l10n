@@ -32,6 +32,14 @@ calendar-dialog-attendee-count =
         [few] { $count } hosćo
        *[other] { $count } hosći
     }
+calendar-dialog-attendee-organizer = Organizator
+calendar-dialog-attendee-optional = Na přeće
+calendar-dialog-icon-attending =
+    .alt = Wobdźělnicy
+calendar-dialog-icon-declined =
+    .alt = Wotpokazany
+calendar-dialog-icon-maybe =
+    .alt = Snano
 calendar-dialog-description-label = Wopisanje
 calendar-dialog-description-expand-icon =
     .alt = Dospołne wopisanje składować
