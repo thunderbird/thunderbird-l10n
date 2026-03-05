@@ -40,9 +40,21 @@ calendar-dialog-icon-declined =
     .alt = Wotpokazany
 calendar-dialog-icon-maybe =
     .alt = Snano
+calendar-dialog-attendees-expand-icon =
+    .alt = Wšěch hosći pokazać
+calendar-dialog-attendees-too-many-guests = Lisćina hosći njeda so pokazać, dokelž wjace hač 50 hosći wobsahuje.
 calendar-dialog-description-label = Wopisanje
 calendar-dialog-description-expand-icon =
     .alt = Dospołne wopisanje składować
+calendar-dialog-menu-duplicate =
+    .label = Podawk podwojić
+calendar-dialog-menu-delete =
+    .label = Podawk zhašeć
+calendar-dialog-menu-print =
+    .label = Ćišćeć
+calendar-dialog-menu =
+    .aria-label = Meni Dalše akcije
+    .title = Meni Dalše akcije
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -71,3 +83,22 @@ calendar-dialog-accept-tentative = Snano
     .title = Snano
 calendar-dialog-decline = Njeběži
     .title = Njeběži
+calendar-dialog-join-meeting-button = Zetkanju so přidružić
+calendar-dialog-join-meeting-row-icon =
+    .alt = Zetkanju so přidružić
+calendar-dialog-attachments-row-icon =
+    .alt = Přiwěški
+calendar-dialog-attachments-label = Přiwěški
+calendar-dialog-attachment-link-icon =
+    .alt = Wotkazany přiwěšk
+calendar-dialog-attachments-expand-icon =
+    .alt = Wšě přiwěški pokazać
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } přiwěšk
+        [two] { $count } přiwěškaj
+        [few] { $count } přiwěški
+       *[other] { $count } přiwěškow
+    }
