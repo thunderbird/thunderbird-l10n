@@ -18,6 +18,15 @@ calendar-dialog-description-row-icon =
     .alt = Popis
 calendar-dialog-reminders-row-icon =
     .alt = Připomenutí
+calendar-dialog-attendee-organizer = Organizátor
+calendar-dialog-attendee-optional = Volitelné
+calendar-dialog-icon-declined =
+    .alt = Odmítnuto
+calendar-dialog-icon-maybe =
+    .alt = Možná
+calendar-dialog-attendees-expand-icon =
+    .alt = Zobrazit všechny hosty
+calendar-dialog-attendees-too-many-guests = Seznam hostů nemůže být zobrazen, protože obsahuje více než 50 hostů.
 calendar-dialog-description-label = Popis
 calendar-dialog-description-expand-icon =
     .alt = Zobrazit celý popis
@@ -49,3 +58,17 @@ calendar-dialog-accept-tentative = Možná
     .title = Možná
 calendar-dialog-decline = Nezúčastním se
     .title = Nezúčastním se
+calendar-dialog-attachments-row-icon =
+    .alt = Přílohy
+calendar-dialog-attachments-label = Přílohy
+calendar-dialog-attachments-expand-icon =
+    .alt = Zobrazit všechny přílohy
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } příloha
+        [few] { $count } přílohy
+        [many] { $count } příloh
+       *[other] { $count } příloh
+    }
