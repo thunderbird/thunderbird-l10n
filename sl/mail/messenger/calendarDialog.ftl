@@ -32,9 +32,20 @@ calendar-dialog-attendee-count =
         [few] { $count } gostje
        *[other] { $count } gostov
     }
+calendar-dialog-attendee-organizer = Organizator
+calendar-dialog-attendee-optional = Izbirno
 calendar-dialog-description-label = Opis
 calendar-dialog-description-expand-icon =
     .alt = Prikaži celoten opis
+calendar-dialog-menu-duplicate =
+    .label = Podvoji dogodek
+calendar-dialog-menu-delete =
+    .label = Izbriši dogodek
+calendar-dialog-menu-print =
+    .label = Natisni
+calendar-dialog-menu =
+    .aria-label = Meni z več dejanji
+    .title = Meni z več dejanji
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -60,3 +71,22 @@ calendar-dialog-accept-tentative = Morda
     .title = Morda
 calendar-dialog-decline = Ne pridem
     .title = Ne pridem
+calendar-dialog-join-meeting-button = Pridruži se sestanku
+calendar-dialog-join-meeting-row-icon =
+    .alt = Pridruži se sestanku
+calendar-dialog-attachments-row-icon =
+    .alt = Priponke
+calendar-dialog-attachments-label = Priponke
+calendar-dialog-attachment-link-icon =
+    .alt = Povezana priponka
+calendar-dialog-attachments-expand-icon =
+    .alt = Prikaži vse priponke
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } priponka
+        [two] { $count } priponki
+        [few] { $count } priponke
+       *[other] { $count } priponk
+    }
