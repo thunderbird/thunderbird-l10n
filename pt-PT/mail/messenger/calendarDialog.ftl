@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = Fechar
     .title = Fechar
+calendar-dialog-menu-button =
+    .aria-label = Abrir menu
+    .title = Abrir menu
 calendar-dialog-back-button =
     .aria-label = Voltar
     .title = Voltar
@@ -18,9 +21,36 @@ calendar-dialog-description-row-icon =
     .alt = Descrição
 calendar-dialog-reminders-row-icon =
     .alt = Lembretes
+calendar-dialog-attendees-row-icon =
+    .alt = Convidados
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } convidado
+       *[other] { $count } convidados
+    }
+calendar-dialog-attendee-organizer = Organizador
+calendar-dialog-attendee-optional = Opcional
+calendar-dialog-icon-declined =
+    .alt = Recusado
+calendar-dialog-icon-maybe =
+    .alt = Talvez
+calendar-dialog-attendees-expand-icon =
+    .alt = Mostrar todos os convidados
+calendar-dialog-attendees-too-many-guests = A lista de convidados não pode ser mostrada porque contém mais de 50 convidados.
 calendar-dialog-description-label = Descrição
 calendar-dialog-description-expand-icon =
     .alt = Mostrar descrição completa
+calendar-dialog-menu-duplicate =
+    .label = Evento duplicado
+calendar-dialog-menu-delete =
+    .label = Eliminar evento
+calendar-dialog-menu-print =
+    .label = Imprimir
+calendar-dialog-menu =
+    .aria-label = Mais ações de menu
+    .title = Mais ações de menu
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -44,3 +74,20 @@ calendar-dialog-accept-tentative = Talvez
     .title = Talvez
 calendar-dialog-decline = Não vou
     .title = Não vou
+calendar-dialog-join-meeting-button = Entrar na reunião
+calendar-dialog-join-meeting-row-icon =
+    .alt = Entrar na reunião
+calendar-dialog-attachments-row-icon =
+    .alt = Anexos
+calendar-dialog-attachments-label = Anexos
+calendar-dialog-attachment-link-icon =
+    .alt = Anexo associado
+calendar-dialog-attachments-expand-icon =
+    .alt = Mostrar todos os anexos
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } anexo
+       *[other] { $count } anexos
+    }
