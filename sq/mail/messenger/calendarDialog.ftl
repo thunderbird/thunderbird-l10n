@@ -74,6 +74,8 @@ calendar-dialog-decline = Nuk shkohet
 calendar-dialog-attachments-row-icon =
     .alt = Bashkëngjitje
 calendar-dialog-attachments-label = Bashkëngjitje
+calendar-dialog-attachments-expand-icon =
+    .alt = Shfaqi krejt bashkëngjitjet
 # Variables:
 #   $count (Number): Number of attachments.
 calendar-dialog-attachments-summary-label =

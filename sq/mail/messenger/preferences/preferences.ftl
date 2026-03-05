@@ -450,6 +450,7 @@ account-hub-checkbox-label =
     .label = Krijoni llogari te Qendra e re e Llogarive
     .accesskey = K
 account-hub-checkbox-description = Rrjedhë e re eksperimentale për krijim llogarish email
+new-calendar-checkbox-description = Dialog i ri eksperimental kalendari, për shfaqje veprimtarish
 account-hub-ab-checkbox-label =
     .label = Krijoni libra adresash te Qendra e re e Llogarive
     .accesskey = L
