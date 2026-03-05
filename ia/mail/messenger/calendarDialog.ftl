@@ -21,6 +21,7 @@ calendar-dialog-description-row-icon =
     .alt = Description
 calendar-dialog-reminders-row-icon =
     .alt = Mementos
+calendar-dialog-attendee-organizer = Organisator
 calendar-dialog-attendee-optional = Optional
 calendar-dialog-icon-attending =
     .alt = Attendente
