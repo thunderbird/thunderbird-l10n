@@ -31,6 +31,7 @@ category-sync =
 pane-qr-export-title = Exportar para dispositivo móvel
 category-qr-export =
     .tooltiptext = Exportar para dispositivo móvel
+general-language-and-fonts-header = Idioma e tipos de letra
 general-language-and-appearance-header = Idioma e aspeto
 general-incoming-mail-header = Mensagens a receber
 general-files-and-attachment-header = Ficheiros e anexos

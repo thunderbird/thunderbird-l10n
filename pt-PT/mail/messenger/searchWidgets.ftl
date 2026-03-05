@@ -35,6 +35,7 @@ search-attrib-title = Título
 search-attrib-organization = Organização
 search-attrib-department = Departamento
 search-attrib-from-to-cc-or-bcc = De, Para, Cc ou Bcc
+search-attrib-spam-score-origin = Origem da pontuação de lixo eletrónico
 search-attrib-spam-percent = Percentagem de lixo eletrónico
 search-attrib-attachment-status = Estado do anexo
 search-attrib-spam-status = Estado do lixo eletrónico
