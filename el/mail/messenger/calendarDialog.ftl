@@ -18,9 +18,21 @@ calendar-dialog-description-row-icon =
     .alt = Περιγραφή
 calendar-dialog-reminders-row-icon =
     .alt = Υπενθυμίσεις
+calendar-dialog-attendees-row-icon =
+    .alt = Προσκεκλημένοι
+calendar-dialog-attendee-organizer = Διοργανωτής
+calendar-dialog-attendee-optional = Προαιρετικό
+calendar-dialog-icon-maybe =
+    .alt = Ίσως
+calendar-dialog-attendees-expand-icon =
+    .alt = Εμφάνιση όλων των προσκεκλημένων
 calendar-dialog-description-label = Περιγραφή
 calendar-dialog-description-expand-icon =
     .alt = Εμφάνιση πλήρους περιγραφής
+calendar-dialog-menu-delete =
+    .label = Διαγραφή εκδήλωσης
+calendar-dialog-menu-print =
+    .label = Εκτύπωση
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -44,3 +56,13 @@ calendar-dialog-accept-tentative = Ίσως
     .title = Ίσως
 calendar-dialog-decline = Δεν θα παρευρεθώ
     .title = Δεν θα παρευρεθώ
+calendar-dialog-join-meeting-button = Συμμετοχή σε σύσκεψη
+calendar-dialog-join-meeting-row-icon =
+    .alt = Συμμετοχή σε σύσκεψη
+calendar-dialog-attachments-row-icon =
+    .alt = Συνημμένα
+calendar-dialog-attachments-label = Συνημμένα
+calendar-dialog-attachment-link-icon =
+    .alt = Συνδεδεμένο συνημμένο
+calendar-dialog-attachments-expand-icon =
+    .alt = Εμφάνιση όλων των συνημμένων
