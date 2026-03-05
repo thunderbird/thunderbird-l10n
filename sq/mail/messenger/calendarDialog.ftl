@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = Mbylle
     .title = Mbylle
+calendar-dialog-menu-button =
+    .aria-label = Hapni menunë
+    .title = Hapni Menunë
 calendar-dialog-back-button =
     .aria-label = Mbrapsht
     .title = Mbrapsht
@@ -18,9 +21,33 @@ calendar-dialog-description-row-icon =
     .alt = Përshkrim
 calendar-dialog-reminders-row-icon =
     .alt = Kujtues
+calendar-dialog-attendees-row-icon =
+    .alt = Të ftuar
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } Vizitor
+       *[other] { $count } Vizitorë
+    }
+calendar-dialog-attendee-organizer = Organizues
+calendar-dialog-attendee-optional = Opsionale
+calendar-dialog-icon-declined =
+    .alt = Hedhur poshtë
+calendar-dialog-icon-maybe =
+    .alt = Mundet
+calendar-dialog-attendees-expand-icon =
+    .alt = Shfaq krejt të ftuarit
+calendar-dialog-attendees-too-many-guests = Lista e të ftuarve s’mund të shfaqet ngaqë përmban më tepër se 50 të ftuar.
 calendar-dialog-description-label = Përshkrim
 calendar-dialog-description-expand-icon =
     .alt = Shfaq përshkrimin e plotë
+calendar-dialog-menu-duplicate =
+    .label = Përsëdyte veprimtarinë
+calendar-dialog-menu-delete =
+    .label = Fshije veprimtarinë
+calendar-dialog-menu-print =
+    .label = Shtype
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -44,3 +71,13 @@ calendar-dialog-accept-tentative = Mundet
     .title = Mundet
 calendar-dialog-decline = Nuk shkohet
     .title = Nuk shkohet
+calendar-dialog-attachments-row-icon =
+    .alt = Bashkëngjitje
+calendar-dialog-attachments-label = Bashkëngjitje
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } Bashkëngjitje
+       *[other] { $count } Bashkëngjitje
+    }
