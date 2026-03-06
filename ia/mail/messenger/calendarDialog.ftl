@@ -21,6 +21,13 @@ calendar-dialog-description-row-icon =
     .alt = Description
 calendar-dialog-reminders-row-icon =
     .alt = Mementos
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } Hospite
+       *[other] { $count } Hospites
+    }
 calendar-dialog-attendee-organizer = Organisator
 calendar-dialog-attendee-optional = Optional
 calendar-dialog-icon-attending =
