@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = Κλείσιμο
     .title = Κλείσιμο
+calendar-dialog-menu-button =
+    .aria-label = Άνοιγμα μενού
+    .title = Άνοιγμα μενού
 calendar-dialog-back-button =
     .aria-label = Πίσω
     .title = Πίσω
@@ -20,6 +23,13 @@ calendar-dialog-reminders-row-icon =
     .alt = Υπενθυμίσεις
 calendar-dialog-attendees-row-icon =
     .alt = Προσκεκλημένοι
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } προσκεκλημένος
+       *[other] { $count } προσκεκλημένοι
+    }
 calendar-dialog-attendee-organizer = Διοργανωτής
 calendar-dialog-attendee-optional = Προαιρετικό
 calendar-dialog-icon-maybe =
