@@ -12,6 +12,10 @@ allday-event = Tachartas fad an latha
 recurrent-event =
     .value = Tachartas ath-chùrsach
 # $locationProperty is the location of the event
+calendar-invitation-location =
+    .value = Ionad: { $locationProperty }
+    .tooltiptext = { $locationProperty }
+# $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Ionad: { $locationProperty }
 # $organizerProperty is the organizer of the event

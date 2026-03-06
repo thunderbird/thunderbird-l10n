@@ -44,5 +44,6 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = Fuirich ort fhad ’s a tha sinn a’ faighinn lorg air na mìosachain agad.
 calendar-creation-network-notfound = Cha b’ urrainn dhuinn mìosachan sam bith a lorg aig an ionad seo. Thoir sùil air na roghainnean agad.
 calendar-creation-network-authfail = Chuir thu ainm no facal-faire a-steach a chaidh a dhiùltadh. Thoir sùil air na roghainnean agad.
+calendar-creation-network-certerror = Cha d’fhuair sinn lorg air mìosachan sam bith an-seo air sgàth duilgheadais le teisteanas.
 calendar-creation-network-subscribe-single = Tagh na mìosachain a bu mhath leat fo-sgrìobhadh thuca.
 calendar-creation-network-subscribe-multiple = Tha iomadh mìosachan san ionad seo. Tagh seòrsa a’ mhìosachain is comharraich an fheadhainn a bu toigh leat fo-sgrìobhadh thuca an uairsin.

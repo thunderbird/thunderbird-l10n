@@ -885,6 +885,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Shaothair…
     .accesskey = t
+calendar-task-filter-title2 = Criathraich na saothraichean
 calendar-task-filter-title = Seall
 calendar-task-filter-all =
     .label = A h-uile
@@ -1008,6 +1009,36 @@ calendar-alarm-snooze-for =
     .label = Dèan dùsal fad
 calendar-alarm-snooze-all-for =
     .label = Dèan dùsal airson a h-uile fad
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } mhionaid
+            [two] { $count } mhionaid
+            [few] { $count } mionaidean
+           *[other] { $count } mionaid
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] { $count } uair a thìde
+            [two] { $count } uair a thìde
+            [few] { $count } uairean a thìde
+           *[other] { $count } uair a thìde
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] { $count } latha
+            [two] { $count } latha
+            [few] { $count } làithean
+           *[other] { $count } latha
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
