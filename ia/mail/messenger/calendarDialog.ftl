@@ -30,6 +30,12 @@ calendar-dialog-attendee-count =
         [one] { $count } Hospite
        *[other] { $count } Hospites
     }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary = { $going } participante, { $maybe } possibile, { $declined } refusate, { $pening } indecise
 calendar-dialog-attendee-organizer = Organisator
 calendar-dialog-attendee-optional = Optional
 calendar-dialog-icon-attending =
