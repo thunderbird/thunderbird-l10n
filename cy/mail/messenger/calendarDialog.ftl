@@ -34,6 +34,12 @@ calendar-dialog-attendee-count =
         [many] { $count } Gwestai
        *[other] { $count } Gwestai
     }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary = Mae { $going } yn mynychu, { $maybe } o bosib, { $declined } wedi gwrthod, { $pending } yn disgwyl penderfyniad
 calendar-dialog-attendee-organizer = Trefnydd
 calendar-dialog-attendee-optional = Dewisol
 calendar-dialog-icon-attending =
