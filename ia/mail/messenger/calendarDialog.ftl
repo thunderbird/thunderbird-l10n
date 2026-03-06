@@ -38,13 +38,21 @@ calendar-dialog-icon-declined =
     .alt = Refusate
 calendar-dialog-icon-maybe =
     .alt = Forsan
+calendar-dialog-attendees-expand-icon =
+    .alt = Monstrar tote le hospites
+calendar-dialog-attendees-too-many-guests = Le lista del hospites non pote esser monstrate perque illo contine plus que 50 hospites.
 calendar-dialog-description-label = Description
 calendar-dialog-description-expand-icon =
     .alt = Monstrar le description integre
+calendar-dialog-menu-duplicate =
+    .label = Evento duplicate
 calendar-dialog-menu-delete =
     .label = Deler evento
 calendar-dialog-menu-print =
     .label = Imprimer
+calendar-dialog-menu =
+    .aria-label = Menu altere actiones
+    .title = Menu Altere actiones
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -68,9 +76,14 @@ calendar-dialog-accept-tentative = Forsan
     .title = Forsan
 calendar-dialog-decline = Non acceptar
     .title = Non acceptar
+calendar-dialog-join-meeting-button = Participar al incontro
+calendar-dialog-join-meeting-row-icon =
+    .alt = Participar al incontro
 calendar-dialog-attachments-row-icon =
     .alt = Annexos
 calendar-dialog-attachments-label = Annexos
+calendar-dialog-attachment-link-icon =
+    .alt = Annexo ligate
 calendar-dialog-attachments-expand-icon =
     .alt = Monstrar tote le annexos
 # Variables:
