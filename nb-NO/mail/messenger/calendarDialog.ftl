@@ -84,6 +84,7 @@ calendar-dialog-attendee-summary =
                     }
             }
     }
+calendar-dialog-attendee-organizer = Organisert av
 calendar-dialog-description-label = Beskrivelse
 calendar-dialog-description-expand-icon =
     .alt = Vis fullstendig beskrivelse

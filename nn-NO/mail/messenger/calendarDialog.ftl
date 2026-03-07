@@ -43,26 +43,26 @@ calendar-dialog-attendee-summary =
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
-                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                                [one] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
+                               *[other] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
-                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                                [one] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
+                               *[other] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
                             }
                     }
                *[other]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
-                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                                [one] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
+                               *[other] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
-                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                                [one] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
+                               *[other] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
                             }
                     }
             }
@@ -72,26 +72,26 @@ calendar-dialog-attendee-summary =
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
-                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                                [one] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
+                               *[other] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
-                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                                [one] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
+                               *[other] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
                             }
                     }
                *[other]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
-                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                                [one] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
+                               *[other] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
-                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                                [one] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
+                               *[other] { $going } deltek, { $maybe } kanskje, { $declined } avslått, { $pending } ventar
                             }
                     }
             }
