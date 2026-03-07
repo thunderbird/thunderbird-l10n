@@ -23,6 +23,13 @@ calendar-dialog-reminders-row-icon =
     .alt = Påminningar
 calendar-dialog-attendees-row-icon =
     .alt = Gjestar
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } gjest
+       *[other] { $count } gjestar
+    }
 calendar-dialog-attendee-organizer = Organisert av
 calendar-dialog-attendee-optional = Valfri
 calendar-dialog-icon-attending =
