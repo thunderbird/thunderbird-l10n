@@ -18,6 +18,72 @@ calendar-dialog-description-row-icon =
     .alt = Beskrivelse
 calendar-dialog-reminders-row-icon =
     .alt = Påminnelser
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary =
+    { $going ->
+        [one]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                    }
+            }
+       *[other]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                    }
+            }
+    }
 calendar-dialog-description-label = Beskrivelse
 calendar-dialog-description-expand-icon =
     .alt = Vis fullstendig beskrivelse

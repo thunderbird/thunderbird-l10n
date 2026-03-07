@@ -30,6 +30,72 @@ calendar-dialog-attendee-count =
         [one] { $count } gjest
        *[other] { $count } gjestar
     }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary =
+    { $going ->
+        [one]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                    }
+            }
+       *[other]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                               *[other] { $going } deltar, { $maybe } kanskje, { $declined } avslått, { $pending } avventer
+                            }
+                    }
+            }
+    }
 calendar-dialog-attendee-organizer = Organisert av
 calendar-dialog-attendee-optional = Valfri
 calendar-dialog-icon-attending =
