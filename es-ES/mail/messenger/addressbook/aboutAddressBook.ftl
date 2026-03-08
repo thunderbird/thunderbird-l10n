@@ -177,6 +177,8 @@ about-addressbook-cell-addrbook2 =
     .title = { $title }
 about-addressbook-cards-context-write =
     .label = Escribir
+# A suggested file name (without extension) for when the user exports multiple contacts.
+about-addressbook-export-selected-filename = Contactos
 about-addressbook-confirm-delete-mixed-title = Eliminar contactos y listas
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.

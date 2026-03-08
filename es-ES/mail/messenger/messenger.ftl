@@ -664,6 +664,25 @@ prompt-dont-ask-again = No volver a preguntar.
 spam-analysis-percentage = Análisis de correo no deseado { NUMBER($percentage, maximumSignificantDigits: 2, style: "por ciento") } completado
 spam-processing-message = Procesando mensajes de correo no deseado
 
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Las respuestas al hilo "{ $subject }" no se mostrarán.
+       *[other] Las respuestas a los  { $count } hilos que fueron seleccionados no se mostrarán.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Las respuestas al subhilo "{ $subject }" no se mostrarán.
+       *[other] Las respuestas a los { $count } subhilos  que fueron seleccionados no se mostrarán.
+    }
+
 ## Attachments
 
 # Variables:
