@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = Tutup
     .title = Tutup
+calendar-dialog-menu-button =
+    .aria-label = Buka menu
+    .title = Buka Menu
 calendar-dialog-back-button =
     .aria-label = Kembali
     .title = Kembali
@@ -18,6 +21,11 @@ calendar-dialog-description-row-icon =
     .alt = Deskripsi
 calendar-dialog-reminders-row-icon =
     .alt = Pengingat
+calendar-dialog-attendees-row-icon =
+    .alt = Tamu
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count = { $count } Tamu
 calendar-dialog-description-label = Deskripsi
 calendar-dialog-description-expand-icon =
     .alt = Tampilkan deskripsi lengkap
