@@ -154,8 +154,4 @@ calendar-dialog-attachments-expand-icon =
     .alt = Vis alle vedlegg
 # Variables:
 #   $count (Number): Number of attachments.
-calendar-dialog-attachments-summary-label =
-    { $count ->
-        [one] { $count } vedlegg
-       *[other] { $count } vedlegg
-    }
+calendar-dialog-attachments-summary-label = { $count } vedlegg
