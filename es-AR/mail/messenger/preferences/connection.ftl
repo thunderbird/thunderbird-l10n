@@ -82,5 +82,5 @@ proxy-remote-dns =
     .label = Proxy DNS al usar SOCKS v5
     .accesskey = d
 proxy-enable-doh =
-    .label = Habilitar DNS por sobre HTTPS
+    .label = Habilitar DNS sobre HTTPS
     .accesskey = b
