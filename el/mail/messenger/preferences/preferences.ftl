@@ -446,6 +446,7 @@ account-hub-checkbox-label =
     .label = Δημιουργία λογαριασμών στο νέο κέντρο λογαριασμών
     .accesskey = Δ
 account-hub-checkbox-description = Πειραματική διαδικασία δημιουργίας νέων λογαριασμών email
+new-calendar-checkbox-description = Νέο πειραματικό παράθυρο διαλόγου ημερολογίου για προβολή εκδηλώσεων
 account-hub-ab-checkbox-label =
     .label = Δημιουργία ευρετηρίων στο νέο κέντρο λογαριασμών
     .accesskey = ε
