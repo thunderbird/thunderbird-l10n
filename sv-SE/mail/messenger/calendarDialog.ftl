@@ -30,6 +30,12 @@ calendar-dialog-attendee-count =
         [one] { $count } gäst
        *[other] { $count } gäster
     }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary = { $going } närvarar, { $maybe } kanske, { $declined } avböjt, { $pending } väntande
 calendar-dialog-attendee-organizer = Organisatör
 calendar-dialog-attendee-optional = Valfri
 calendar-dialog-icon-attending =
