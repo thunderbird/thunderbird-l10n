@@ -533,6 +533,7 @@ account-hub-checkbox-label =
     .label = Účty vytvářet v novém centru účtů
     .accesskey = t
 account-hub-checkbox-description = Experimentální vytváření nových poštovních účtů
+new-calendar-checkbox-description = Experimentální nový dialog kalendáře pro prohlížení událostí
 account-hub-ab-checkbox-label =
     .label = Složky kontaktů vytvářet v novém centru účtů
     .accesskey = K
