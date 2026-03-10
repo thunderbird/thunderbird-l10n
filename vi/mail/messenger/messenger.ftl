@@ -630,6 +630,25 @@ prompt-dont-ask-again = Đừng hỏi lại.
 spam-analysis-percentage = Phân tích thư rác { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } đã hoàn tất
 spam-processing-message = Đang xử lý thư rác
 
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Các phản hồi cho chủ đề "{ $subject }" sẽ không hiển thị.
+       *[other] Các phản hồi cho { $count } chủ đề được chọn sẽ không hiển thị.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Các phản hồi cho chủ đề con "{ $subject }" sẽ không hiển thị.
+       *[other] Các phản hồi cho { $count } chủ đề con được chọn sẽ không hiển thị.
+    }
+
 ## Attachments
 
 # Variables:
