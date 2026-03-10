@@ -384,6 +384,12 @@ key-does-not-expire = Khóa không hết hạn
 key-expired-date = Khóa hết hạn vào { $keyExpiry }
 key-expired-simple = Khóa đã hết hạn
 key-revoked-simple = Khóa đã bị thu hồi
+key-revoked-revocation-code-superseded = Khóa đã bị thu hồi vì khóa này đã bị thay thế.
+key-revoked-revocation-code-compromised = Khóa đã bị thu hồi vì dữ liệu khóa đã bị xâm phạm.
+key-revoked-revocation-code-retired = Khóa đã bị thu hồi vì khóa đó đã hết hạn và không còn được sử dụng nữa.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Lý do thu hồi được chủ sở hữu khóa đưa ra: { $reason }
 key-do-you-accept = Bạn có chấp nhận khóa này để xác minh chữ ký số và mã hóa tin nhắn không?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
