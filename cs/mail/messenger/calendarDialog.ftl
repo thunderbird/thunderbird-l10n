@@ -23,6 +23,15 @@ calendar-dialog-reminders-row-icon =
     .alt = Připomenutí
 calendar-dialog-attendees-row-icon =
     .alt = Hosté
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } host
+        [few] { $count } hosté
+        [many] { $count } hostů
+       *[other] { $count } hostů
+    }
 calendar-dialog-attendee-organizer = Organizátor
 calendar-dialog-attendee-optional = Volitelné
 calendar-dialog-icon-declined =
@@ -35,6 +44,12 @@ calendar-dialog-attendees-too-many-guests = Seznam hostů nemůže být zobrazen
 calendar-dialog-description-label = Popis
 calendar-dialog-description-expand-icon =
     .alt = Zobrazit celý popis
+calendar-dialog-menu-duplicate =
+    .label = Duplikovat událost
+calendar-dialog-menu-delete =
+    .label = Smazat událost
+calendar-dialog-menu-print =
+    .label = Tisk
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
