@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Send Format
+
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -107,6 +110,9 @@ default-delete-cmd =
     .label = Pašalinti
     .accesskey = š
 
+## Encryption
+
+
 ## Addressing Area
 
 to-address-row-label =
@@ -137,6 +143,12 @@ attachment-reminder-keywords-msg =
        *[other] Rasta { $count } su priedu susijusių reikšminių žodžių:
     }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
 
 
@@ -165,3 +177,17 @@ cloudfile-uploading-notification =
         [few] Kuriamos nuorodos į failus. Užbaigus, jos bus pridėtos į laiško tekstą.
        *[other] Kuriamos nuorodos į failus. Užbaigus, jos bus pridėtos į laiško tekstą.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Šis failas gan didelis. Galbūt geriau nusiųsti tik saitą į jį?
+        [few] Šie failai gan dideli. Galbūt geriau nusiųsti tik saitą į juos?
+       *[other] Šie failai gan dideli. Galbūt geriau nusiųsti tik saitą į juos?
+    }
+
+## Link Preview
+
+
+## Dictionary selection popup
+
