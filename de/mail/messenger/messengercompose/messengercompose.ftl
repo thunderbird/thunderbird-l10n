@@ -435,6 +435,13 @@ cloudfile-uploading-notification =
         [one] Ihre Datei wird hochgeladen. Sie erscheint im Nachrichtentext, nachdem das Hochladen abgeschlossen ist.
        *[other] Ihre Dateien werden hochgeladen. Sie erscheinen im Nachrichtentext, nachdem das Hochladen abgeschlossen ist.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Dies ist eine große Datei. Es könnte empfehlenswert sein, Filelink für sie zu benutzen.
+       *[other] Dies sind große Dateien. Es könnte empfehlenswert sein, Filelink für sie zu benutzen.
+    }
 
 ## Link Preview
 
