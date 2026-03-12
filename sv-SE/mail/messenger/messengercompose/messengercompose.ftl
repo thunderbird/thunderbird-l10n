@@ -438,6 +438,13 @@ cloudfile-uploading-notification =
         [one] Din fil håller på att länkas. Den kommer att visas i meddelandet när det är gjort.
        *[other] Dina filer håller på att länkas. De kommer att visas i meddelandet när det är gjort.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Det här är en stor fil. Det kan vara bättre att använda Filelink istället.
+       *[other] Det här är stora filer. Det kan vara bättre att använda Filelink istället.
+    }
 
 ## Link Preview
 
