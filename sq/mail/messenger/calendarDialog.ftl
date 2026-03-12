@@ -30,6 +30,72 @@ calendar-dialog-attendee-count =
         [one] { $count } Vizitor
        *[other] { $count } Vizitorë
     }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary =
+    { $going ->
+        [one]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’ka pranuar, { $pending } pezull
+                               *[other] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’kanë pranuar, { $pending } pezull
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’ka pranuar, { $pending } pezull
+                               *[other] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’kanë pranuar, { $pending } pezull
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’ka pranuar, { $pending } pezull
+                               *[other] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’kanë pranuar, { $pending } pezull
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’ka pranuar, { $pending } pezull
+                               *[other] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’kanë pranuar, { $pending } pezull
+                            }
+                    }
+            }
+       *[other]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’ka pranuar, { $pending } pezull
+                               *[other] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’kanë pranuar, { $pending } pezull
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’ka pranuar, { $pending } pezull
+                               *[other] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’kanë pranuar, { $pending } pezull
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’ka pranuar, { $pending } pezull
+                               *[other] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’kanë pranuar, { $pending } pezull
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’ka pranuar, { $pending } pezull
+                               *[other] { $going } pjesëmarrës, { $maybe } ndoshta, { $declined } s’kanë pranuar, { $pending } pezull
+                            }
+                    }
+            }
+    }
 calendar-dialog-attendee-organizer = Organizues
 calendar-dialog-attendee-optional = Opsionale
 calendar-dialog-icon-attending =
