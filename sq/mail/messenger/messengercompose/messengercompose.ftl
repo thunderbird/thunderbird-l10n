@@ -439,6 +439,13 @@ cloudfile-uploading-notification =
         [one] Kartela juaj po lidhet. Sapo të jetë kryer, do të duket te lënda e mesazhit.
        *[other] Kartelat tuaja po lidhen. Sapo të jetë kryer, do të duken te lënda e mesazhit.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Kjo është kartelë e madhe. Mund të ishte më mirë të përdorej Filelink-u.
+       *[other] Këto janë kartela të mëdha. Mund të ishte më mirë të përdorej Filelink-u.
+    }
 
 ## Link Preview
 
