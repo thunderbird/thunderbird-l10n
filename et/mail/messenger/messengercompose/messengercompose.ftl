@@ -439,6 +439,13 @@ cloudfile-uploading-notification =
         [one] Sinu fail lingitakse. Link ilmub kirja sisusse, kui tegevus lõpetatakse.
        *[other] Sinu failid lingitakse. Lingid ilmuvad kirja sisusse, kui tegevus lõpetatakse.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Tegemist on suure failiga. Praktilisem on ehk salvestada fail pilves ja lisada selle link.
+       *[other] Tegemist on suurte failidega. Praktilisem on ehk salvestada need pilves ja lisada nende lingid.
+    }
 
 ## Link Preview
 
