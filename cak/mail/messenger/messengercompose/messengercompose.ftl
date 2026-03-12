@@ -24,6 +24,13 @@ pill-action-move-bcc =
     .label = Tisilöx pa Bcc
     .accesskey = B
 
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 # Variables:
@@ -86,6 +93,12 @@ attachment-reminder-keywords-msg =
        *[other] Xeilitäj { $count } taq tzij chi kij ri taqoj:
     }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
 
 
@@ -117,6 +130,13 @@ cloudfile-uploading-notification =
     { $count ->
         [one] Nixim ri ayakb'al. Xtiwachin pe pa ruchakulal rutzijol toq xtuk'ïs.
        *[other] Yexim ri taq ayakb'al. Xtiwachin pe pa ruchakulal rutzijol toq xkeruk'ïs.
+    }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Nïm re yakb'äl re'. Ütz we nokisäx Filelink.
+       *[other] Nima'q yakb'äl. Ütz we nokisäx Filelink.
     }
 
 ## Link Preview
