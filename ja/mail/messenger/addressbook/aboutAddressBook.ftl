@@ -177,6 +177,9 @@ about-addressbook-cell-addrbook2 =
     .title = { $title }
 about-addressbook-cards-context-write =
     .label = 作成
+# A suggested file name (without extension) for when the user exports multiple contacts.
+# (^m^) ファイル名の候補なので英語のままにする
+about-addressbook-export-selected-filename = Contacts
 about-addressbook-confirm-delete-mixed-title = 連絡先とアドレスリストの削除
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
@@ -304,7 +307,7 @@ ab-search-dialog-search-heading =
     .label = 次の中からカードを検索:
     .accesskey = h
 ab-search-dialog-properties-button =
-    .label = プロパティ
+    .label = 情報を見る
     .accesskey = P
 ab-search-dialog-compose-button =
     .label = 新しいメッセージ
