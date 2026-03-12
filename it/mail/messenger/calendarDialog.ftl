@@ -38,62 +38,14 @@ calendar-dialog-attendee-count =
 calendar-dialog-attendee-summary =
     { $going ->
         [one]
-            { $maybe ->
-                [one]
-                    { $declined ->
-                        [one]
-                            { $pending ->
-                                [one] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                               *[other] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                            }
-                       *[other]
-                            { $pending ->
-                                [one] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                               *[other] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                            }
-                    }
-               *[other]
-                    { $declined ->
-                        [one]
-                            { $pending ->
-                                [one] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                               *[other] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                            }
-                       *[other]
-                            { $pending ->
-                                [one] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                               *[other] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                            }
-                    }
+            { $declined ->
+                [one] { $going } presente, { $maybe } forse, { $declined } rifiutato, { $pending } in attesa
+               *[other] { $going } presente, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
             }
        *[other]
-            { $maybe ->
-                [one]
-                    { $declined ->
-                        [one]
-                            { $pending ->
-                                [one] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                               *[other] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                            }
-                       *[other]
-                            { $pending ->
-                                [one] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                               *[other] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                            }
-                    }
-               *[other]
-                    { $declined ->
-                        [one]
-                            { $pending ->
-                                [one] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                               *[other] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                            }
-                       *[other]
-                            { $pending ->
-                                [one] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                               *[other] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-                            }
-                    }
+            { $declined ->
+                [one] { $going } presenti, { $maybe } forse, { $declined } rifiutato, { $pending } in attesa
+               *[other] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
             }
     }
 calendar-dialog-attendee-organizer = Organizzatore
