@@ -439,6 +439,13 @@ cloudfile-uploading-notification =
         [one] Jo bestân is keppele. Dit wurdt toand yn de kern fan it berjocht as it klear is.
        *[other] Jo bestannen binne keppele. Se wurde toand yn de kern fan it berjocht as it klear is.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Dit is in grut bestân. It is miskien better om Filelink te brûken.
+       *[other] Dit binne grutte bestannen. It is miskien better om Filelink te brûken.
+    }
 
 ## Link Preview
 
