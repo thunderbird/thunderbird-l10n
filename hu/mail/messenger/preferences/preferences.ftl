@@ -445,6 +445,7 @@ dark-message-mode-toggle-label =
     .label = Sötét üzenetmód kapcsolójának megjelenítése
     .accesskey = k
 dark-message-mode-toggle-description = Kapcsológomb megjelenítése az üzenet fejlécében a sötét üzenetmód gyors letiltásához
+general-folder-options-header = Mappakezelési beállítások
 account-hub-legend = Fiókközpont
 account-hub-checkbox-label =
     .label = Fiókok létrehozása az új fiókközpontban

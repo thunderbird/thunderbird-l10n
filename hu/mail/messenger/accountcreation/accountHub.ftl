@@ -161,6 +161,7 @@ account-hub-result-imap-description = Mappák és e-mailek szinkronban tartása 
 account-hub-result-pop-description = Mappák és e-mailek tárolása az Ön számítógépén
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = A Microsoft Exchange webszolgáltatások használata a mappák és e-mailek szinkronban tartásához
+account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-exchange-description = Mappák és levelek szinkronizálása Exchange-dzsel vagy Office 365-tel
 account-hub-result-ews-text = Kiszolgáló
 account-hub-result-recommended-label = Ajánlott
