@@ -496,6 +496,17 @@ cloudfile-uploading-notification =
         [one] Mae eich ffeiliau wedi'u cysylltu. Byddant yn ymddangos yng nghorff y neges ar ôl ei gwblhau.
        *[other] Mae eich ffeiliau wedi'u cysylltu. Byddant yn ymddangos yng nghorff y neges ar ôl ei gwblhau.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [zero] Dim ffeiliau.
+        [one] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
+        [two] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
+        [few] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
+        [many] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
+       *[other] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
+    }
 
 ## Link Preview
 

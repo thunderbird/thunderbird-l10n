@@ -467,6 +467,15 @@ cloudfile-uploading-notification =
         [two] Tha na faidhlichean agad 'ga cheangal an-dràsta fhèin. Nochdaidh iad ann am bodhaig na teachdaireachd nuair a bhios iad deiseil.
        *[other] Tha na faidhlichean agad 'ga cheangal an-dràsta fhèin. Nochdaidh iad ann am bodhaig na teachdaireachd nuair a bhios iad deiseil.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] ’S e faidhle mòr a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
+        [two] ’S e faidhlichean mòra a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
+        [few] ’S e faidhle mòr a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
+       *[other] ’S e faidhlichean mòra a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
+    }
 
 ## Link Preview
 

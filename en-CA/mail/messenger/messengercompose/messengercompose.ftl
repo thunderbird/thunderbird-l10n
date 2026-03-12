@@ -436,6 +436,13 @@ cloudfile-uploading-notification =
         [one] Your file is being linked. It will appear in the body of the message when it’s done.
        *[other] Your files are being linked. They will appear in the body of the message when it’s done.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] This is a large file. It might be better to use Filelink instead.
+       *[other] These are large files. It might be better to use Filelink instead.
+    }
 
 ## Link Preview
 

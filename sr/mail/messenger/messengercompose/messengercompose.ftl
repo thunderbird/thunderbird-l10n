@@ -397,6 +397,14 @@ cloudfile-uploading-notification =
         [few] Ваше датотеке се отпремају на FileLink. Појавиће се у телу поруке када се отпремање заврши.
        *[other] Ваше датотеке се отпремају на FileLink. Појавиће се у телу поруке када се отпремање заврши.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Ово је велика датотека. Можда је боље да искористите Filelink за слање.
+        [few] Ово су велике датотеке. Можда је боље да искористите Filelink за слање.
+       *[other] Ово су велике датотеке. Можда је боље да искористите Filelink за слање.
+    }
 
 ## Link Preview
 

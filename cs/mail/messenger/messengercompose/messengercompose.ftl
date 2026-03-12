@@ -452,6 +452,14 @@ cloudfile-uploading-notification =
         [few] Soubory jsou nahrávány. Po dokončení se objeví v těle zprávy.
        *[other] Soubory jsou nahrávány. Po dokončení se objeví v těle zprávy.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Tento soubor je velký. Bylo by vhodnější použít úložiště a poslat pouze odkaz.
+        [few] Tyto soubory jsou velké. Bylo by vhodnější použít úložiště a poslat pouze odkaz.
+       *[other] Tyto soubory jsou velké. Bylo by vhodnější použít úložiště a poslat pouze odkaz.
+    }
 
 ## Link Preview
 

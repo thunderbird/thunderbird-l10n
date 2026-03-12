@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Send Format
+
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -82,6 +85,9 @@ default-delete-cmd =
     .label = Ջնջել
     .accesskey = D
 
+## Encryption
+
+
 ## Addressing Area
 
 many-public-recipients-prompt-cancel = Չեղարկել ուղարկումը
@@ -102,6 +108,12 @@ attachment-reminder-keywords-msg =
         [one] Գտնվել է կցորդ հիմնաբառը.
        *[other] Գտնվել է { $count } կցորդ հիմնաբառ.
     }
+
+## Editing
+
+
+# Tools
+
 
 ## Filelink
 
@@ -125,3 +137,16 @@ big-file-notification =
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = Ձեր ֆայլը կհղվի։ Այն տեսանելի կլինի նամակում, երբ պատրաստ լինի։ Ձեր ֆայլերը կհղվեն։ Դրանք տեսանելի կլինեն նամակում, երբ պատրաստ լինեն։
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Սա մեծ ֆայլ է։ Լավ կլինի, որ օգտագործեք Ֆայլի հղումը։
+       *[other] Կան մեծ ֆայլեր։ Ավելի լավ է օգտագործեք Ֆայլի հղումը։
+    }
+
+## Link Preview
+
+
+## Dictionary selection popup
+

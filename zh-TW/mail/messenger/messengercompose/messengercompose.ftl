@@ -411,6 +411,9 @@ big-file-notification =
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = 正在上傳您的檔案。上傳完成後將會在訊息當中插入檔案鏈結。
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text = 我們建議您將大檔案傳送到雲端，再透過插入檔案鏈結的方式傳送。
 
 ## Link Preview
 

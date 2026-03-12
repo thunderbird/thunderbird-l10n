@@ -454,6 +454,14 @@ cloudfile-uploading-notification =
         [few] Tworzenie odnośników dla plików. Gdy odnośniki będą gotowe, pojawią się w treści wiadomości.
        *[many] Tworzenie odnośników dla plików. Gdy odnośniki będą gotowe, pojawią się w treści wiadomości.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] To jest duży plik – być może lepiej byłoby użyć serwisu przechowywania plików?
+        [few] To są duże pliki – być może lepiej byłoby użyć serwisu przechowywania plików?
+       *[many] To są duże pliki – być może lepiej byłoby użyć serwisu przechowywania plików?
+    }
 
 ## Link Preview
 

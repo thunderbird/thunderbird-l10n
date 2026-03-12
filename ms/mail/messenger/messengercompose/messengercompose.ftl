@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 # Variables:
@@ -14,6 +27,12 @@ default-delete-cmd =
     .label = Buang
     .accesskey = B
 
+## Encryption
+
+
+## Addressing Area
+
+
 ## Notifications
 
 # Variables:
@@ -22,6 +41,12 @@ blocked-content-message = { -brand-short-name } telah menyekat fail daripada dim
 # Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg = Menemui { $count } kata kunci lampiran:
+
+## Editing
+
+
+# Tools
+
 
 ## Filelink
 
@@ -41,3 +66,12 @@ big-file-notification =
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = Fail anda sedang dihubungkan. Fail akan muncul dalam kandungan mesej apabila selesai.
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text = Saiz fail ini besar. Lebih baik gunakan Filelink.
+
+## Link Preview
+
+
+## Dictionary selection popup
+

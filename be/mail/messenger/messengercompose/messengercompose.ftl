@@ -205,6 +205,12 @@ attachment-reminder-keywords-msg =
        *[many] Знойдзены { $count } ключавых словаў далучэння:
     }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
 
 # A text used in a tooltip of Filelink attachments, whose account has been
@@ -266,6 +272,14 @@ big-file-notification =
             [few] Гэта вялікія файлы. Магчыма, будзе лепш выкарыстаць Filelink замест прымацавання.
            *[many] Гэта вялікія файлы. Магчыма, будзе лепш выкарыстаць Filelink замест прымацавання.
         }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Гэта вялікі файл. Магчыма, будзе лепш выкарыстаць Filelink замест прымацавання.
+        [few] Гэта вялікія файлы. Магчыма, будзе лепш выкарыстаць Filelink замест прымацавання.
+       *[many] Гэта вялікія файлы. Магчыма, будзе лепш выкарыстаць Filelink замест прымацавання.
+    }
 
 ## Link Preview
 

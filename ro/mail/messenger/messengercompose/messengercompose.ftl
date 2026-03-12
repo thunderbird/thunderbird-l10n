@@ -452,6 +452,14 @@ cloudfile-uploading-notification =
         [few] Fișierele sunt adăugate cu linkuri. Vor apărea în conținutul mesajului când sunt gata.
        *[other] Fișierele sunt adăugate cu linkuri. Vor apărea în conținutul mesajului când sunt gata.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Acesta este un fișier mare. Ar putea fi mai bine să folosești în schimb Filelink.
+        [few] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
+       *[other] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
+    }
 
 ## Link Preview
 

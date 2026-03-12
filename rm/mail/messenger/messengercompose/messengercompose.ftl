@@ -438,6 +438,13 @@ cloudfile-uploading-notification =
         [one] Tia datoteca vegn colliada. La colliaziun vegn a cumparair en il corp dal messadi sche la datoteca è chargiada.
        *[other] Tias datotecas vegnan colliadas. La colliaziun vegn a cumparair en il corp dal messadi sche las datotecas èn chargiadas.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Quai è ina gronda datoteca. Forsa fissi pli simpel dad utilisar in servetsch per memorisar datotecas.
+       *[other] Quai èn grondas datotecas. Forsa fissi pli simpel dad utilisar in servetsch per memorisar datotecas.
+    }
 
 ## Link Preview
 

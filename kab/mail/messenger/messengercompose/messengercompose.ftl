@@ -399,6 +399,13 @@ cloudfile-uploading-notification =
         [one] Afaylu amedday yettali yakan. Ad d-iban di tfekka n yizen ticki yuli.
        *[other] Ifuyla imeddayen ttalin yakan. Ad d-banen di tfekka n yizen ticki ulin.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Wagi d afaylu meqqren. Yif-it limer ad tesqedceḍ Filelink deg umḍiq-is
+       *[other] Wigi d ifuylu meqqren. Yif-it limer ad tesqedceḍ Filelink deg umḍiq-nsen.
+    }
 
 ## Link Preview
 

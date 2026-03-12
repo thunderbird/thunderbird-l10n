@@ -439,6 +439,13 @@ cloudfile-uploading-notification =
         [one] Zure fitxategirako lotura egiten ari da. Amaitzean, mezuaren gorputzean agertuko da.
        *[other] Zure fitxategietarako loturak egiten ari dira. Amaitzean, mezuaren gorputzean agertuko dira.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Fitxategi handia da hau. Hobe izan daiteke Filelink erabiltzea.
+       *[other] Fitxategi handiak dira hauek. Hobe izan daiteke Filelink erabiltzea.
+    }
 
 ## Link Preview
 

@@ -469,6 +469,15 @@ cloudfile-uploading-notification =
         [few] Waše dataje se wótkazuju. Budu se w śělesu powěsći pokazowaś, gaž to jo skóńcone.
        *[other] Waše dataje se wótkazuju. Budu se w śělesu powěsći pokazowaś, gaž to jo skóńcone.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] To jo wjelika dataja. Snaź jo lěpjej, až wužywaśo Filelink město togo.
+        [two] To stej wjelikej dataji. Snaź jo lěpjej, až wužywaśo Filelink město togo.
+        [few] To su wjelike dataje. Snaź jo lěpjej, až wužywaśo Filelink město togo.
+       *[other] To su wjelike dataje. Snaź jo lěpjej, až wužywaśo Filelink město togo.
+    }
 
 ## Link Preview
 

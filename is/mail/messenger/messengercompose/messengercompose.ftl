@@ -439,6 +439,13 @@ cloudfile-uploading-notification =
         [one] Verið er að tengja skrárnar. Skrárnar munu birtast í póstinum þegar það er búið.
        *[other] Verið er að tengja skrárnar. Skrárnar munu birtast í póstinum þegar það er búið.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Þetta er stór skrá. Betra væri að nota Filelink-tengil á skrána í staðinn.
+       *[other] Þetta eru stórar skrár. Betra væri að nota Filelink-tengil á skrárnar í staðinn.
+    }
 
 ## Link Preview
 

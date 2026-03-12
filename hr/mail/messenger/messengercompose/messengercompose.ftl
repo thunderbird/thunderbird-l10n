@@ -454,6 +454,14 @@ cloudfile-uploading-notification =
         [few] Vaše datoteke se povezuju. Pojavit će se u tijelu poruke kada povezivanje završi.
        *[other] Vaše datoteke se povezuju. Pojavit će se u tijelu poruke kada povezivanje završi.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Ovo je velika datoteka. Možda je bolje da koristite Filelink.
+        [few] Ovo su velike datoteke. Možda je bolje da koristite Filelink.
+       *[other] Ovo su velike datoteke. Možda je bolje da koristite Filelink.
+    }
 
 ## Link Preview
 

@@ -438,6 +438,13 @@ cloudfile-uploading-notification =
         [one] Está sendo criado um link para seu arquivo. Ele aparecerá no texto da mensagem quando estiver pronto.
        *[other] Estão sendo criados links para seus arquivos. Eles aparecerão no texto da mensagem quando estiverem prontos.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Esse é um arquivo grande. No lugar, seria melhor usar um anexo online.
+       *[other] Esses são arquivos grandes. No lugar, seria melhor usar anexos online.
+    }
 
 ## Link Preview
 

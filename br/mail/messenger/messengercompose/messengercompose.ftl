@@ -3,6 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Send Format
+
+
+## Addressing widget
+
+
 ## Attachment widget
 
 ctrl-cmd-shift-pretty-prefix =
@@ -21,6 +27,10 @@ attachment-bucket-count-value =
        *[other] { $count } kenstagadur
     }
 
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 # Variables:
@@ -38,6 +48,9 @@ remove-attachment-cmd =
 default-delete-cmd =
     .label = Dilemel
     .accesskey = D
+
+## Encryption
+
 
 ## Addressing Area
 
@@ -74,6 +87,12 @@ attachment-reminder-keywords-msg =
        *[other] Kavet ez eus bet { $count } a ger-alc'hwez kenstagadur:
     }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
 
 
@@ -104,7 +123,20 @@ cloudfile-uploading-notification =
         [two] Emañ ho restroù o vezañ ereet. Dont a raint war wel e korf ar gemennadenn pa vo echu.
        *[other] Emañ ho restroù o vezañ ereet. Dont a raint war wel e korf ar gemennadenn pa vo echu.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Ur restr vras eo. Marteze e vefe gwelloc'h arverañ Filelink.
+        [two] Restroù bras eo. Marteze e vefe gwelloc'h arverañ Filelink.
+        [few] Restroù bras eo. Marteze e vefe gwelloc'h arverañ Filelink.
+        [many] Restroù bras eo. Marteze e vefe gwelloc'h arverañ Filelink.
+       *[other] Restroù bras eo. Marteze e vefe gwelloc'h arverañ Filelink.
+    }
 
 ## Link Preview
 
 link-preview-yes-replace = Ya
+
+## Dictionary selection popup
+

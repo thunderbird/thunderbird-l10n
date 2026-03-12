@@ -438,6 +438,13 @@ cloudfile-uploading-notification =
         [one] S'està enllaçant el fitxer. Apareixerà en el cos del missatge en acabar.
        *[other] S'estan enllaçant els fitxers. Apareixeran en el cos del missatge en acabar.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] És un fitxer gran. Podria ser millor utilitzar el Filelink.
+       *[other] Són fitxers grans. Podria ser millor utilitzar el Filelink.
+    }
 
 ## Link Preview
 

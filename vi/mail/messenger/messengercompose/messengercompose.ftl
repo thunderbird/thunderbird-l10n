@@ -393,6 +393,9 @@ big-file-notification =
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = Tập tin của bạn đang được liên kết. Nó sẽ xuất hiện trong phần nội dung thư khi hoàn tất.
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text = Đây là những tập tin lớn. Có thể tốt hơn nếu sử dụng Filelink.
 
 ## Link Preview
 

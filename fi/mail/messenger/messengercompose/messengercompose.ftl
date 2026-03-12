@@ -402,6 +402,13 @@ cloudfile-uploading-notification =
         [one] Tiedostoasi linkitetään. Linkki ilmestyy viestin runkoon kun linkitys on valmis.
        *[other] Tiedostojasi linkitetään. Linkit ilmestyvät viestin runkoon kun linkitykset ovat valmiita.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Tämä on suuri tiedosto. Olisi ehkä parempi käyttää Filelink-palvelua.
+       *[other] Nämä ovat suuria tiedostoja. Olisi ehkä parempi käyttää Filelink-palvelua.
+    }
 
 ## Link Preview
 
