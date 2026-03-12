@@ -447,6 +447,7 @@ dark-message-mode-toggle-label =
 dark-message-mode-toggle-description = Přepinak w powěsćowej hłowje pokazać, zo byšće ćmowy powěsćowy modus znjemóžnił
 general-folder-options-header = Nastajenja rjadowanja rjadowakow
 recent-destinations-legend = Najnowše cile
+recent-destinations-description = Nastajenja za nalistowanje a sortěrowanje rjadowakow, do kotrychž su so powěsće njedawno přesunyli.
 recent-sort-order-label = Sortěrowanski porjad:
     .accesskey = S
 recent-sort-order-mru =
