@@ -3,19 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Send Format
-
-
-## Addressing widget
-
-
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 # Variables:
@@ -27,9 +14,6 @@ default-delete-cmd =
     .label = Ջնջել
     .accesskey = D
 
-## Encryption
-
-
 ## Addressing Area
 
 many-public-recipients-prompt-cancel = បោះបង់ការផ្ញើ
@@ -39,12 +23,6 @@ many-public-recipients-prompt-cancel = បោះបង់ការផ្ញើ
 # Variables:
 #   $count - the number keywords
 attachment-reminder-keywords-msg = បាន​រកឃើញ​ពាក្យ​គន្លឹះ​ឯកសារ​ភ្ជាប់ { $count }
-
-## Editing
-
-
-# Tools
-
 
 ## Filelink
 
@@ -74,6 +52,3 @@ big-file-notification-text = នេះ​ជា​ឯកសារ​ធំ។ �
 ## Link Preview
 
 link-preview-yes-replace = បាទ/ចាស៎
-
-## Dictionary selection popup
-

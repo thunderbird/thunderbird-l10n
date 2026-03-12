@@ -3,12 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Send Format
-
-
-## Addressing widget
-
-
 ## Attachment widget
 
 ctrl-cmd-shift-pretty-prefix =
@@ -27,10 +21,6 @@ attachment-bucket-count-value =
        *[other] { $count } kenstagadur
     }
 
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 # Variables:
@@ -48,9 +38,6 @@ remove-attachment-cmd =
 default-delete-cmd =
     .label = Dilemel
     .accesskey = D
-
-## Encryption
-
 
 ## Addressing Area
 
@@ -86,12 +73,6 @@ attachment-reminder-keywords-msg =
         [many] Kavet ez eus bet { $count } a c'herioù-alc'hwez kenstagadur:
        *[other] Kavet ez eus bet { $count } a ger-alc'hwez kenstagadur:
     }
-
-## Editing
-
-
-# Tools
-
 
 ## Filelink
 
@@ -137,6 +118,3 @@ big-file-notification-text =
 ## Link Preview
 
 link-preview-yes-replace = Ya
-
-## Dictionary selection popup
-

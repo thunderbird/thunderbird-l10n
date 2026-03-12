@@ -3,19 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Send Format
-
-
-## Addressing widget
-
-
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 # Variables:
@@ -31,12 +18,6 @@ default-delete-cmd =
     .label = O‘chirish
     .accesskey = O
 
-## Encryption
-
-
-## Addressing Area
-
-
 ## Notifications
 
 # Variables:
@@ -46,12 +27,6 @@ attachment-reminder-keywords-msg =
         [one] Biriktirish kalit so‘zi topildi:
        *[other] { $count } ta biriktirish kalit so‘zi topildi
     }
-
-## Editing
-
-
-# Tools
-
 
 ## Filelink
 
@@ -86,9 +61,3 @@ big-file-notification-text =
         [one] Bu katta fayl. O‘rniga Filelink xizmatidan foydalanganinlagiz ma’qul.
        *[other] Bular katta fayllar. O‘rniga Filelink xizmatidan foydalanganingiz ma’qul.
     }
-
-## Link Preview
-
-
-## Dictionary selection popup
-

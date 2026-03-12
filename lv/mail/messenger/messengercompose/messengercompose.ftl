@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Send Format
-
-
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -38,13 +35,6 @@ pill-action-move-bcc =
     .label = Pārvietot uz Slēpta kopija
     .accesskey = S
 
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 button-return-receipt =
@@ -64,12 +54,6 @@ default-delete-cmd =
     .label = Dzēst
     .accesskey = D
 
-## Encryption
-
-
-## Addressing Area
-
-
 ## Notifications
 
 # Variables:
@@ -88,12 +72,6 @@ attachment-reminder-keywords-msg =
         [one] Atrasti { $count } pielikuma atslēgvārdi:
        *[other] Atrasti { $count } pielikuma atslēgvārdi:
     }
-
-## Editing
-
-
-# Tools
-
 
 ## Filelink
 
@@ -131,9 +109,3 @@ big-file-notification-text =
         [one] Tie ir lieli faili. To vietā varētu būt labāk izmantot Filelink.
        *[other] Tie ir lieli faili. To vietā varētu būt labāk izmantot Filelink.
     }
-
-## Link Preview
-
-
-## Dictionary selection popup
-

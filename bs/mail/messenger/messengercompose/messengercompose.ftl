@@ -3,19 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Send Format
-
-
-## Addressing widget
-
-
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 # Variables:
@@ -31,12 +18,6 @@ remove-attachment-cmd =
 default-delete-cmd =
     .label = Obriši
     .accesskey = O
-
-## Encryption
-
-
-## Addressing Area
-
 
 ## Notifications
 
@@ -56,12 +37,6 @@ attachment-reminder-keywords-msg =
         [few] Broj pronađenih ključnih riječi { $count }:
        *[other] Broj pronađenih ključnih riječi { $count }:
     }
-
-## Editing
-
-
-# Tools
-
 
 ## Filelink
 
@@ -99,9 +74,3 @@ big-file-notification-text =
         [few] Ovo su velike datoteke. Možda je bolje da koristite Filelink.
        *[other] Ovo su velike datoteke. Možda je bolje da koristite Filelink.
     }
-
-## Link Preview
-
-
-## Dictionary selection popup
-

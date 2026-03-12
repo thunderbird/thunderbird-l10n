@@ -205,12 +205,6 @@ attachment-reminder-keywords-msg =
        *[many] Знойдзены { $count } ключавых словаў далучэння:
     }
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
 
 # A text used in a tooltip of Filelink attachments, whose account has been

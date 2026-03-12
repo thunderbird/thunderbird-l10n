@@ -3,19 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Send Format
-
-
-## Addressing widget
-
-
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 # Variables:
@@ -31,12 +18,6 @@ default-delete-cmd =
     .label = ਹਟਾਓ
     .accesskey = d
 
-## Encryption
-
-
-## Addressing Area
-
-
 ## Notifications
 
 # Variables:
@@ -46,12 +27,6 @@ attachment-reminder-keywords-msg =
         [one] Found an attachment keyword:
        *[other] Found { $count } attachment keywords:
     }
-
-## Editing
-
-
-# Tools
-
 
 ## Filelink
 
@@ -86,9 +61,3 @@ big-file-notification-text =
         [one] This is a large file. It might be better to use Filelink instead.
        *[other] These are large files. It might be better to use Filelink instead.
     }
-
-## Link Preview
-
-
-## Dictionary selection popup
-
