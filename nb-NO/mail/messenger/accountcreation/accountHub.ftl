@@ -161,6 +161,7 @@ account-hub-result-imap-description = Behold mapper og e-poster synkroniserte p�
 account-hub-result-pop-description = Behold mappene og e-postmeldingene dine på datamaskinen din
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Bruk Microsoft Exchange Web Services til å synkronisere mapper og e-poster
+account-hub-result-graph-description = Bruk Microsoft Graph API til å synkronisere mapper og e-poster
 account-hub-result-exchange-description = Synkroniser mapper og e-poster med Exchange eller Office 365
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Anbefalt
