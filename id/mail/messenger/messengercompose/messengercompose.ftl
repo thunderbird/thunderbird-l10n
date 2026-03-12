@@ -387,6 +387,9 @@ big-file-notification =
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = File Anda sedang ditautkan. Ini akan muncul di badan pesan ketika selesai.
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text = Berkas ini berukuran besar. Mungkin lebih baik menggunakan Filelink.
 
 ## Link Preview
 
