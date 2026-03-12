@@ -437,6 +437,13 @@ cloudfile-uploading-notification =
         [one] A fájlra mutató hivatkozás készítése. Ez az üzenet törzsében jelenik meg, amikor a feltöltés kész.
        *[other] A fájljaira mutató hivatkozások készítése. Ezek az üzenet törzsében jelennek meg, amikor a feltöltésük kész.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Ez egy nagy fájl. Jobb volna inkább az óriásfájl-küldést használni.
+       *[other] Ezek nagy fájlok. Jobb volna inkább az óriásfájl-küldést használni.
+    }
 
 ## Link Preview
 
