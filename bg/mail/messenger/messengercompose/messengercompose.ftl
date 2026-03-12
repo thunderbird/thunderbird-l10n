@@ -439,6 +439,13 @@ cloudfile-uploading-notification =
         [one] Вашият файл е свързан. Ще се появи в тялото на съобщението, когато то е готово.
        *[other] Вашите файлове са свързани. Ще се появят в тялото на съобщението, когато то е готово.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Това е голям файл. Може би е по-добре да използвате Filelink вместо това.
+       *[other] Това са големи файлове. Може би е по-добре да използвате Filelink вместо това.
+    }
 
 ## Link Preview
 
