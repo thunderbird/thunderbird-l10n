@@ -457,6 +457,14 @@ cloudfile-uploading-notification =
         [few] Prebieha vytváranie odkazov na súbory. Po ukončení procesu sa odkazy objavia v tele správy.
        *[other] Prebieha vytváranie odkazov na súbory. Po ukončení procesu sa odkazy objavia v tele správy.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Tento súbor je príliš veľký. Zrejme by bolo vhodnejšie využiť úložisko online.
+        [few] Tieto súbory sú príliš veľké. Zrejme by bolo vhodnejšie využiť úložisko online.
+       *[other] Tieto súbory sú príliš veľké. Zrejme by bolo vhodnejšie využiť úložisko online.
+    }
 
 ## Link Preview
 
