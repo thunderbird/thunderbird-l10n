@@ -447,7 +447,6 @@ dark-message-mode-toggle-label =
 dark-message-mode-toggle-description = Mostra un controllo nell’intestazione del messaggio per disattivare rapidamente la modalità scura
 general-folder-options-header = Opzioni di gestione delle cartelle
 recent-destinations-legend = Destinazioni recenti
-recent-destinations-description = Opzioni per elencare e ordinare le cartelle in cui i messaggi sono stati spostati di recente.
 recent-sort-order-label = Ordinamento:
     .accesskey = O
 recent-sort-order-mru =
