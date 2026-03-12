@@ -439,6 +439,13 @@ cloudfile-uploading-notification =
         [one] Dosyanız bağlanıyor. İşlem tamamlandığında ileti gövdesinde görünecek.
        *[other] Dosyalarınız bağlanıyor. İşlem tamamlandığında ileti gövdesinde görünecekler.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Bu büyük bir dosya. Filelink kullanmak daha iyi olabilir.
+       *[other] Bunlar büyük dosyalar. Filelink kullanmak daha iyi olabilir.
+    }
 
 ## Link Preview
 
