@@ -439,6 +439,13 @@ cloudfile-uploading-notification =
         [one] Uw bestand wordt gekoppeld. Het verschijnt in de hoofdtekst van het bericht zodra dit is voltooid.
        *[other] Uw bestanden worden gekoppeld. Ze verschijnen in de hoofdtekst van het bericht zodra dit is voltooid.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Dit is een groot bestand. Het is misschien beter om Filelink te gebruiken.
+       *[other] Dit zijn grote bestanden. Het is misschien beter om Filelink te gebruiken.
+    }
 
 ## Link Preview
 
