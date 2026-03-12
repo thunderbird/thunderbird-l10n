@@ -36,6 +36,7 @@ calendar-dialog-icon-maybe =
     .alt = Ίσως
 calendar-dialog-attendees-expand-icon =
     .alt = Εμφάνιση όλων των προσκεκλημένων
+calendar-dialog-attendees-too-many-guests = Δεν είναι δυνατή η εμφάνιση της λίστας προσκεκλημένων επειδή περιέχει περισσότερα από 50 άτομα.
 calendar-dialog-description-label = Περιγραφή
 calendar-dialog-description-expand-icon =
     .alt = Εμφάνιση πλήρους περιγραφής
@@ -43,6 +44,9 @@ calendar-dialog-menu-delete =
     .label = Διαγραφή εκδήλωσης
 calendar-dialog-menu-print =
     .label = Εκτύπωση
+calendar-dialog-menu =
+    .aria-label = Μενού περισσότερων ενεργειών
+    .title = Μενού περισσότερων ενεργειών
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -76,3 +80,10 @@ calendar-dialog-attachment-link-icon =
     .alt = Συνδεδεμένο συνημμένο
 calendar-dialog-attachments-expand-icon =
     .alt = Εμφάνιση όλων των συνημμένων
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } συνημμένο
+       *[other] { $count } συνημμένα
+    }
