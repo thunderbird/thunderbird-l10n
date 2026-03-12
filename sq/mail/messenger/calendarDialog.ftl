@@ -32,6 +32,8 @@ calendar-dialog-attendee-count =
     }
 calendar-dialog-attendee-organizer = Organizues
 calendar-dialog-attendee-optional = Opsionale
+calendar-dialog-icon-attending =
+    .alt = Pjesëmarrës
 calendar-dialog-icon-declined =
     .alt = Hedhur poshtë
 calendar-dialog-icon-maybe =
@@ -48,6 +50,9 @@ calendar-dialog-menu-delete =
     .label = Fshije veprimtarinë
 calendar-dialog-menu-print =
     .label = Shtype
+calendar-dialog-menu =
+    .aria-label = Menu “Më tepër veprime”
+    .title = Menu “Më tepër veprime”
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -71,9 +76,14 @@ calendar-dialog-accept-tentative = Mundet
     .title = Mundet
 calendar-dialog-decline = Nuk shkohet
     .title = Nuk shkohet
+calendar-dialog-join-meeting-button = Hyni në Mbledhje
+calendar-dialog-join-meeting-row-icon =
+    .alt = Hyni në Mbledhje
 calendar-dialog-attachments-row-icon =
     .alt = Bashkëngjitje
 calendar-dialog-attachments-label = Bashkëngjitje
+calendar-dialog-attachment-link-icon =
+    .alt = Bashkëngjitje e lidhur
 calendar-dialog-attachments-expand-icon =
     .alt = Shfaqi krejt bashkëngjitjet
 # Variables:

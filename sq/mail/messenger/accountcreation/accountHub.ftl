@@ -159,6 +159,7 @@ account-hub-result-imap-description = Mbajini dosjet dhe email-et tuaj të njëk
 account-hub-result-pop-description = Mbajini dosjet dhe email-et në kompjuterin tuaj
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Përdorni Microsoft Exchange Web Services që të njëkohësoni dosjet dhe email-et tuaja
+account-hub-result-graph-description = Përdorni API Microsoft Graph që të njëkohësoni dosjet dhe email-et tuaj
 account-hub-result-exchange-description = Njëkohësoni dosje & email-e me Exchange ose Office 365
 account-hub-result-ews-text = Shërbyes
 account-hub-result-recommended-label = E rekomanduar
