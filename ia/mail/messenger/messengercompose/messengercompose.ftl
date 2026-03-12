@@ -438,6 +438,13 @@ cloudfile-uploading-notification =
         [one] Le ligation de tu file es in curso. Illo apparera in le corpore del message quando es finite.
        *[other] Le ligation de tu files es in curso. Illos apparera in le corpore del message quando es finite.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Isto es un file grande. Il pote esser melio usar in vice Filelink.
+       *[other] Il ha grande files. Il pote esser melio usar in vice Filelink.
+    }
 
 ## Link Preview
 
