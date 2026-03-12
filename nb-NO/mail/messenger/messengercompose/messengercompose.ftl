@@ -437,6 +437,13 @@ cloudfile-uploading-notification =
         [one] Filen din lenkes inn. Den vil bli synlig i meldingskroppen når den er ferdig.
        *[other] Filene dine blir lenket inn. De vil bli synlige i meldingskroppen når de er ferdige.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Dette er en stor fil. Det kan være bedre å bruke FileLink isteden.
+       *[other] Dette er store filer. Det kan være bedre å bruke FileLink isteden.
+    }
 
 ## Link Preview
 
