@@ -393,6 +393,9 @@ big-file-notification =
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = Ձեր նիշը յղուում է: Այն կը յայտնուի հաղորդագրութեան մէջ, երբ գործընթացն աւարտուի: Ձեր նիշերը յղուում են: Դրանք կը յայտնուեն հաղորդագրութեան մէջ, երբ գործընթացն աւարտուի:
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text = Սա մեծ նիշ է: Աւելի լաւ է փոխարէնը աւգտագործել Filelink: Սրանք մեծ նիշեր են: Աւելի լաւ է փոխարէնը աւգտագործել Filelink:
 
 ## Link Preview
 
