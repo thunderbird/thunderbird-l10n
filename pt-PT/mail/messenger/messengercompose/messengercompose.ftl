@@ -439,6 +439,13 @@ cloudfile-uploading-notification =
         [one] O seu ficheiro está a ser ligado. Irá aparecer no corpo da mensagem ao terminar.
        *[other] Os seus ficheiros estão a ser ligados. Irão aparecer no corpo da mensagem ao terminar.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Este ficheiro é muito grande. É capaz de ser melhor usar o Filelink.
+       *[other] Estes ficheiros são muito grandes. É capaz de ser melhor usar o Filelink.
+    }
 
 ## Link Preview
 
