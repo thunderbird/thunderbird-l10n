@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 # Variables:
@@ -21,6 +34,12 @@ remove-attachment-cmd =
 default-delete-cmd =
     .label = احذف
     .accesskey = ذ
+
+## Encryption
+
+
+## Addressing Area
+
 
 ## Notifications
 
@@ -45,6 +64,12 @@ attachment-reminder-keywords-msg =
         [many] وُجدت { $count } كلمة تدل على مُرفق:
        *[other] وُجدت { $count } كلمة تدل على مُرفق:
     }
+
+## Editing
+
+
+# Tools
+
 
 ## Filelink
 
@@ -80,3 +105,20 @@ cloudfile-uploading-notification =
         [many] يجري ربط ملفاتك. ستظهر في متن الرسالة عندما ينتهي ربطها.
        *[other] يجري ربط ملفاتك. ستظهر في متن الرسالة عندما ينتهي ربطها.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [zero] هذا الملف كبير. قد يكون من الأفضل استعمال Filelink.
+        [one] هذا الملف كبير. قد يكون من الأفضل استعمال Filelink.
+        [two] هذين الملفين كبيرين. قد يكون من الأفضل استعمال Filelink.
+        [few] هذه الملفات كبيرة. قد يكون من الأفضل استعمال Filelink.
+        [many] هذه الملفات كبيرة. قد يكون من الأفضل استعمال Filelink.
+       *[other] هذه الملفات كبيرة. قد يكون من الأفضل استعمال Filelink.
+    }
+
+## Link Preview
+
+
+## Dictionary selection popup
+
