@@ -438,6 +438,13 @@ cloudfile-uploading-notification =
         [one] Votre fichier a été lié. Le lien apparaîtra dans le corps du message lorsque le téléchargement sera terminé.
        *[other] Vos fichiers ont été liés. Les liens apparaîtront dans le corps du message lorsque les téléchargements seront terminés.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Ce fichier est volumineux. Il serait préférable d’utiliser un espace de stockage de fichiers.
+       *[other] Ces fichiers sont volumineux. Il serait préférable d’utiliser un espace de stockage de fichiers.
+    }
 
 ## Link Preview
 
