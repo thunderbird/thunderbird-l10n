@@ -402,6 +402,9 @@ big-file-notification =
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = 正在上传您的文件。上传完成后将会在消息体当中插入该文件链接。
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text = 文件有点大。我们建议您将大文件先上传到云端，再使用插入文件链接的形式传送文件。
 
 ## Link Preview
 
