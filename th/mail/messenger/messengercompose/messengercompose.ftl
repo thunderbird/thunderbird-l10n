@@ -392,6 +392,9 @@ big-file-notification =
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = ไฟล์ของคุณกำลังถูกเชื่อมโยง ซึ่งจะปรากฏในเนื้อความของข้อความเมื่อเสร็จสมบูรณ์
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text = ไฟล์เหล่านี้มีขนาดใหญ่ จะดีกว่าหากใช้ Filelink แทน
 
 ## Link Preview
 
