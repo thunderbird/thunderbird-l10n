@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 # Variables:
@@ -18,6 +31,12 @@ default-delete-cmd =
     .label = Desaniciar
     .accesskey = n
 
+## Encryption
+
+
+## Addressing Area
+
+
 ## Notifications
 
 # Variables:
@@ -27,6 +46,12 @@ attachment-reminder-keywords-msg =
         [one] Alcontróse una pallabra clave d'axuntos:
        *[other] Alcontráronse { $count } pallabres clave d'axuntos:
     }
+
+## Editing
+
+
+# Tools
+
 
 ## Filelink
 
@@ -54,3 +79,16 @@ cloudfile-uploading-notification =
         [one] El to ficheru ta enllazándose. Apaecerá nel cuerpu del mensaxe cuando tea completu.
        *[other] Los tos ficheros tán enllazándose. Apaecerán nel cuerpu del mensaxe cuando tean completos.
     }
+# Variables:
+#   $count - the number big attached files
+big-file-notification-text =
+    { $count ->
+        [one] Esti ficheru ye grande. Podría ser meyor usar Filelink.
+       *[other] Estos ficheros son grandes. Podría ser meyor usar Filelink.
+    }
+
+## Link Preview
+
+
+## Dictionary selection popup
+
