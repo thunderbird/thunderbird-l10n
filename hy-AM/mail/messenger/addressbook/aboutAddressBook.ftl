@@ -46,6 +46,9 @@ about-addressbook-confirm-remove-remote-book-title = Հեռացնել Հասցե
 
 ## Cards
 
+about-addressbook-search-all2 =
+    .label = Որոնել բոլոր Հասցեագրքերում
+    .placeholder = Որոնել բոլոր Հասցեագրքերում…
 about-addressbook-name-format-display =
     .label = Ցուցադրվող անունը
 about-addressbook-name-format-firstlast =
@@ -66,6 +69,8 @@ about-addressbook-table-layout =
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-label-addrbook2 =
+    .label = Հասցեագիրք
 about-addressbook-cards-context-write =
     .label = Գրել
 

@@ -5,7 +5,7 @@
 
 ## Window controls
 
-about-rights-notification-text = { -brand-short-name }-ը անվճար և բաց կոդով ծրագրակազմ է, որը կառուցվել է աշխարհի տարբեր երկրների հազարավորների համայնքի կողմից:
+about-rights-notification-text = { -brand-short-name }-ը անվճար և բաց կոդով ծրագրաշար է, որը կառուցվել է աշխարհի տարբեր երկրների հազարավորների համայնքի կողմից:
 
 ## Content tabs
 
@@ -47,6 +47,9 @@ open-tabs-warning-confirmation =
 addons-and-themes-toolbarbutton =
     .label = Հավելումներ և ոճեր
     .tooltiptext = Կառավարել հավելումները
+quick-filter-toolbarbutton =
+    .label = Արագ զտիչ
+    .tooltiptext = Զտել նամակները
 
 ## Folder Toolbar Header Popup
 
@@ -91,7 +94,7 @@ menu-edit-properties =
     .label = Հատկություններ...
     .accesskey = o
 menu-edit-folder-properties =
-    .label = Թղթ. հատկությունները
+    .label = Թղթապանակի հատկությունները
     .accesskey = o
 menu-edit-newsgroup-properties =
     .label = Լուրախմբերի հատկությունը

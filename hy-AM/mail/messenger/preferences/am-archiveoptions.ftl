@@ -8,13 +8,13 @@ archive-flat =
     .label = Թղթապանակում
     .accesskey = s
 archive-yearly =
-    .label = Տարեկան արխիվացված թղթ.
+    .label = Տարեկան արխիվացված թղթապանակ
     .accesskey = Y
 archive-monthly =
-    .label = Ամսեկան արխիվացված թղթ.
+    .label = Ամսեկան արխիվացված թղթապանակ
     .accesskey = M
 keep-folder-structure =
-    .label = Պահել արխիվացված նամակների թղթ. կառուցվածքը
+    .label = Պահել արխիվացված նամակների թղթապանակի կառուցվածքը
     .accesskey = K
 archive-example-label = Օրինակ
 # This should match the default name for the "Archives" folder.

@@ -11,7 +11,7 @@ appmenu-sync-panel-title =
 ## New Account
 
 appmenu-new-account-panel-title =
-    .title = Նոր հաշիվ
+    .title = Նոր փոստարկղ
 appmenu-new-chat-account =
     .label = Զրույց
     .accesskey = h
@@ -20,3 +20,15 @@ appmenu-new-chat-account =
 
 appmenu-create-panel-title =
     .title = Ստեղծել
+
+## Help
+
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = Խափանաշտկման կերպ…
+    .accesskey = M
+appmenu-help-exit-troubleshoot-mode2 =
+    .label = Անջատեք Խափանաշտկման կերպը
+    .accesskey = M
+appmenu-help-troubleshooting-info =
+    .label = Խափանաշտկման տեղեկություններ
+    .accesskey = T

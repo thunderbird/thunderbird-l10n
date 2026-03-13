@@ -7,6 +7,6 @@
 #   $account - name of the account
 new-mail-alert-message =
     { $count ->
-        [one] { $account } ստացավ { $count } նոր հաղորդագրություն
-       *[other] { $account } ստացան { $count } նոր հաղորդագրություններ
+        [one] { $account }-ը ստացավ { $count } նոր նամակ
+       *[other] { $account }-ը ստացավ { $count } նոր նամակներ
     }

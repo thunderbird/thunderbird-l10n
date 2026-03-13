@@ -77,6 +77,7 @@ update-in-progress-ok-button = &Հրաժարվել
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Շարունակել
+account-button = Փոստարկղի կարգավորումներ
 open-addons-sidebar-button = Հավելումներ և ոճեր
 
 ## OS Authentication dialog

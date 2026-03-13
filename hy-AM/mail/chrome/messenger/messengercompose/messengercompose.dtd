@@ -103,7 +103,7 @@
 <!ENTITY viewMenu.accesskey "Տ">
 <!ENTITY viewToolbarsMenuNew.label "Գործիքագոտիներ">
 <!ENTITY viewToolbarsMenuNew.accesskey "Գ">
-<!ENTITY menubarCmd.label "Ցանկագոտի">
+<!ENTITY menubarCmd.label "Ցանկ գոտի">
 <!ENTITY menubarCmd.accesskey "Ց">
 <!ENTITY showCompositionToolbarCmd.label "Ստեղծագործության գործիքաշերտը">
 <!ENTITY showCompositionToolbarCmd.accesskey "o">

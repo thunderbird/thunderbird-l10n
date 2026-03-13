@@ -65,6 +65,7 @@ toolbar-forward-attachment =
 toolbar-mark-as-label = Նշել
 toolbar-mark-as =
     .title = Նշել նամակներ
+toolbar-address-book-label = Հասցեագիրք
 toolbar-address-book =
     .title = Անցնել Հասցեագրքին
 toolbar-chat-label = Զրույց
@@ -82,6 +83,7 @@ toolbar-tasks =
 toolbar-print-label = Տպել
 toolbar-print =
     .title = Տպել այս նամակը
+toolbar-quick-filter-bar-label = Արագ զտիչ
 toolbar-synchronize-label = Համաժամել
 toolbar-synchronize =
     .title = Վերբեռնել օրացույցերը և համաժամեցնել փոփոխությունները
@@ -112,3 +114,15 @@ toolbar-stop =
 toolbar-throbber-label = Ակտիվության ինդիկատոր
 toolbar-throbber =
     .title = Ակտիվության ինդիկատոր
+toolbar-create-address-book-label = Նոր Հասցեագիրք
+toolbar-create-address-book =
+    .title = Ստեղծել նոր հասցեագիրք
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Հավելել տեղային  Հասցեագիրք
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Հավելել CardDAV Հասցեագիրք
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Հավելել LDAP  Հասցեագիրք

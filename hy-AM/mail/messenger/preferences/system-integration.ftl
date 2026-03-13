@@ -4,10 +4,10 @@
 
 system-integration-dialog-title = Համակարգային ինտեգրում
 system-integration-dialog =
-    .buttonlabelaccept = Նշել որպես հիմնական
-    .buttonlabelcancel = Բաց թողնել ինտեգրացիան
+    .buttonlabelaccept = Նշել որպես սկզբնադիր
+    .buttonlabelcancel = Բաց թողնել ինտեգրումը
     .buttonlabelcancel2 = Չեղարկել
-default-client-intro = Օգտ. { -brand-short-name }-ը որպես հիմնական ծրագիր՝
+default-client-intro = Օգտագործել { -brand-short-name }-ը որպես սկզբնադիր ծրագիր՝
 unset-default-tooltip = It is not possible to unset { -brand-short-name } as the default client within { -brand-short-name }. To make another application the default you must use its 'Set as default' dialog.
 checkbox-email-label =
     .label = Էլ. նամակ

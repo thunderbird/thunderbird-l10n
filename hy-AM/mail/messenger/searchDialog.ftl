@@ -48,5 +48,5 @@ open-in-folder =
     .label = Բացել թղթապանակում
     .accesskey = r
 save-as-vf-button =
-    .label = Պահել որպես որոնման թղթ.
+    .label = Պահել որպես որոնման թղթապանակ
     .accesskey = ե

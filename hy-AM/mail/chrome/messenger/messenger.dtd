@@ -103,7 +103,7 @@
 <!ENTITY redoDefaultCmd.label "Կրկնել">
 <!ENTITY redoDefaultCmd.accesskey "R">
 <!-- View Menu -->
-<!ENTITY menubarCmd.label "Ցանկագոտի">
+<!ENTITY menubarCmd.label "Ցանկ գոտի">
 <!ENTITY menubarCmd.accesskey "Ց">
 <!ENTITY showMessengerToolbarCmd.label "Գործիքներ">
 <!ENTITY showMessengerToolbarCmd.accesskey "o">

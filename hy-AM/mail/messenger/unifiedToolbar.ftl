@@ -19,5 +19,7 @@ toolbar-get-all-messages-menuitem =
 
 ## Unified Toolbar customization
 
+customize-space-tab-addressbook = Հասցեագիրք
+    .title = Հասցեագիրք
 customize-restore-default = Վերականգնել սկզբնադիրը
 customize-button-style-icons-beside-text-option = Պատկերակ գրույթի կողքին
