@@ -4,6 +4,7 @@
 
 close-button =
     .aria-label = Փակել
+preferences-doc-title2 = Կարգավորումներ
 pane-general-title = Գլխավոր
 category-general =
     .tooltiptext = { pane-general-title }
@@ -613,3 +614,7 @@ chat-variant-label =
 
 search-results-header = Որոնման արդյունքներ
 search-results-help-link = Օգնությո՞ւն է պետք: Այցելեք { -brand-short-name }-ի աջակցում</a>
+
+## Mobile QR Export Pane
+
+qr-export-scan-step2 = Անցնել Կարգավորումներին

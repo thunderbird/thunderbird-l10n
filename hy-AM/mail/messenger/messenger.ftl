@@ -51,6 +51,14 @@ quick-filter-toolbarbutton =
     .label = Արագ զտիչ
     .tooltiptext = Զտել նամակները
 
+## Folder Pane
+
+folder-pane-toolbar =
+    .toolbarname = Թղթապանակի վահանակի գործիքագոտի
+    .accesskey = F
+folder-pane-toolbar-options-button =
+    .tooltiptext = Թղթապանակի վահանակի ընտրանքներ
+
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
@@ -130,6 +138,8 @@ menu-move-copy-favorites =
 
 ## AppMenu
 
+appmenu-settings =
+    .label = Կարգավորումներ
 appmenu-addons-and-themes =
     .label = Հավելումներ և ոճեր
 
@@ -138,6 +148,15 @@ appmenu-addons-and-themes =
 mail-context-menu-forward-forward =
     .label = Փոխանցել
     .accesskey = F
+
+## Spaces toolbar
+
+spaces-toolbar-button-settings2 =
+    .title = Կարգավորումներ
+settings-context-open-settings-item2 =
+    .label = Կարգավորումներ
+settings-context-open-account-settings-item2 =
+    .label = Փոստարկղի կարգավորումներ
 
 ## Quick Filter Bar
 

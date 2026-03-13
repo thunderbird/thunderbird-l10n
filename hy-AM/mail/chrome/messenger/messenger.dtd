@@ -598,7 +598,7 @@
 <!ENTITY folderContextProperties2.accesskey "Հ">
 <!ENTITY folderContextFavoriteFolder.label "Ընտրյալ թղթապանակ">
 <!ENTITY folderContextFavoriteFolder.accesskey "a">
-<!ENTITY folderContextSettings2.label "Կարգավորել">
+<!ENTITY folderContextSettings2.label "Կարգավորումներ">
 <!ENTITY folderContextSettings2.accesskey "ր">
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label "Անունը կամ նամակի ունի՝">

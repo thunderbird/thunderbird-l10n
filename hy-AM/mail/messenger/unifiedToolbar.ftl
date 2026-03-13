@@ -21,5 +21,7 @@ toolbar-get-all-messages-menuitem =
 
 customize-space-tab-addressbook = Հասցեագիրք
     .title = Հասցեագիրք
+customize-space-tab-settings = Կարգավորումներ
+    .title = Կարգավորումներ
 customize-restore-default = Վերականգնել սկզբնադիրը
 customize-button-style-icons-beside-text-option = Պատկերակ գրույթի կողքին

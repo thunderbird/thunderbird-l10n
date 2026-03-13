@@ -180,7 +180,7 @@
 <!ENTITY calendar.context.unsubscribeserver.accesskey "U">
 <!ENTITY calendar.context.publish.label "Հրապարակել օրացույց…">
 <!ENTITY calendar.context.publish.accesskey "b">
-<!ENTITY calendar.context.export.label "Արտածել օրացույց…">
+<!ENTITY calendar.context.export.label "Արտահանել օրացույց…">
 <!ENTITY calendar.context.export.accesskey "E">
 <!ENTITY calendar.context.properties.label "Հատկություններ">
 <!ENTITY calendar.context.properties.accesskey "P">

@@ -8,6 +8,9 @@ toolbar-context-menu-menu-bar =
 
 ## Tools Menu
 
+menu-tools-settings =
+    .label = Կարգավորումներ
+    .accesskey = e
 menu-addons-and-themes =
     .label = Հավելումներ և ոճեր
     .accesskey = A

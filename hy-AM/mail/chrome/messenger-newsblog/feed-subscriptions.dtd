@@ -40,7 +40,7 @@
 <!ENTITY button.removeFeed.accesskey "R">
 <!ENTITY button.importOPML.label "Ներմուծել">
 <!ENTITY button.importOPML.accesskey "I">
-<!ENTITY button.exportOPML.label "Արտածել">
+<!ENTITY button.exportOPML.label "Արտահանել">
 <!ENTITY button.exportOPML.accesskey "x">
 <!ENTITY button.exportOPML.tooltip "Արտահանել սնումները պանակի կառուցվածքով; ctrl քլիք կամ ; ctrl enter՝ սնումները որպես ցանկ արտահանելու համար">
 <!ENTITY cmd.close.commandKey "w">

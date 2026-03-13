@@ -51,7 +51,7 @@ status-priority-img-normal-priority =
 status-priority-img-low-priority =
     .alt = Ցածր
 import-prompt = Ո՞ր օրացույցում եք ցանկանում ներածել այս տարրերը։
-export-prompt = Ո՞ր օրացույցից եք ցանկանում արտածել։
+export-prompt = Ո՞ր օրացույցից եք ցանկանում արտահանել։
 paste-prompt = Ձեր ներկա գրվող օրացույցերից ո՞ր մեկում ներմուծել։
 publish-prompt = Ո՞ր օրացույցն եք ուզում հրապարակել:
 # LOCALIZATION NOTE (paste-event-also): The users pasting operation includes among
@@ -187,7 +187,7 @@ tooltip-completed = Կատարված՝
 calendar-new = Նոր
 calendar-open = Բացել
 filepicker-title-import = Ներածել
-filepicker-title-export = Արտածել
+filepicker-title-export = Արտահանել
 # Filters for export/import/open file picker.  $wildmat will be replaced with
 # wildmat used to filter files by extension, such as (*.html; *.htm).
 filter-ics = iCalendar ({ $wildmat })
@@ -831,7 +831,7 @@ calendar-context-publish =
     .label = Հրապարակել օրացույց…
     .accesskey = b
 calendar-context-export =
-    .label = Արտածել օրացույց…
+    .label = Արտահանել օրացույց…
     .accesskey = E
 calendar-context-properties =
     .label = Հատկություններ

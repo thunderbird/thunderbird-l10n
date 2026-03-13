@@ -9,7 +9,7 @@
 <!ENTITY event.new.task.accesskey "k">
 <!ENTITY calendar.import.label "Ներածել…">
 <!ENTITY calendar.import.accesskey "I">
-<!ENTITY calendar.export.label "Արտածել…">
+<!ENTITY calendar.export.label "Արտահանել…">
 <!ENTITY calendar.export.accesskey "E">
 <!ENTITY calendar.publish.label "Հրապարակել…">
 <!ENTITY calendar.publish.accesskey "b">
