@@ -14,6 +14,13 @@ connection-dns-over-https-url-custom =
     .accesskey = C
     .tooltiptext = Մուտքագրեք Ձեր նախընտրված URL-ը DNS-ը HTTPS-ի վրա լուծելու համար
 connection-dns-over-https-custom-label = Ընտրովի
+disable-extension-button = Անջատել ընդլայնումը
+# Variables:
+#   $name (String) - The extension that is controlling the proxy settings.
+#
+# The extension-icon is the extension's icon, or a fallback image. It should be
+# purely decoration for the actual extension name, with alt="".
+proxy-settings-controlled-by-extension = <img data-l10n-name="extension-icon" alt="" /> { $name }-ը ընդլայնումը կարգավորում է, թե ինչպես է { -brand-short-name }-ը կապակցվում համացանցին:
 connection-proxy-legend = Կարգավորել պրոքսին
 proxy-type-no =
     .label = Առանց պրոքսի

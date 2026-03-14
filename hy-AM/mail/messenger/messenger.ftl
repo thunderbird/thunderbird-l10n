@@ -149,6 +149,15 @@ mail-context-menu-forward-forward =
     .label = Փոխանցել
     .accesskey = F
 
+## Action Button Context Menu
+
+toolbar-context-menu-manage-extension =
+    .label = Կառավարել ընդլայնումը
+    .accesskey = E
+toolbar-context-menu-remove-extension =
+    .label = Հեռացնել ընդլայնումը
+    .accesskey = v
+
 ## Spaces toolbar
 
 spaces-toolbar-button-settings2 =
