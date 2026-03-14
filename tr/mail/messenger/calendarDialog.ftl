@@ -38,6 +38,7 @@ calendar-dialog-icon-maybe =
     .alt = Belki
 calendar-dialog-attendees-expand-icon =
     .alt = Tüm konukları göster
+calendar-dialog-attendees-too-many-guests = Konuk listesi 50’den fazla konuk içerdiği için görüntülenemiyor.
 calendar-dialog-description-label = Açıklama
 calendar-dialog-description-expand-icon =
     .alt = Tam açıklamayı göster

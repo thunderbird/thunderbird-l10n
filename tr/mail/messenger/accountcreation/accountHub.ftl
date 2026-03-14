@@ -161,6 +161,7 @@ account-hub-result-imap-description = Klasörlerimi ve e-postalarımı sunucuyla
 account-hub-result-pop-description = Klasörlerimi ve e-postalarımı bilgisayarımda tut
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Klasörlerimi ve e-postalarımı eşitlemek için Microsoft Exchange Web Servisleri’ni kullan
+account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-exchange-description = Klasörleri ve e-postaları Exchange veya Office 365 ile eşitle
 account-hub-result-ews-text = Sunucu
 account-hub-result-recommended-label = Önerilen
