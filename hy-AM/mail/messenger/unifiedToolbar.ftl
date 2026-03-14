@@ -25,3 +25,10 @@ customize-space-tab-settings = Կարգավորումներ
     .title = Կարգավորումներ
 customize-restore-default = Վերականգնել սկզբնադիրը
 customize-button-style-icons-beside-text-option = Պատկերակ գրույթի կողքին
+
+## Unified toolbar customization palette context menu
+
+# Variables:
+# $target (String) - Name of the target the item should be added to.
+customize-palette-add-to =
+    .label = Ավելացնել { $target }-ին

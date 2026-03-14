@@ -132,3 +132,9 @@ big-file-notification-text =
         [one] Սա մեծ ֆայլ է։ Լավ կլինի, որ օգտագործեք Ֆայլի հղումը։
        *[other] Կան մեծ ֆայլեր։ Ավելի լավ է օգտագործեք Ֆայլի հղումը։
     }
+
+## Dictionary selection popup
+
+spell-add-dictionaries =
+    .label = Ավելացնել Բառարաններ...
+    .accesskey = A

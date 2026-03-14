@@ -103,6 +103,9 @@ restore-default-label =
     .label = Վերականգնել հիմնականը
     .accesskey = R
 default-search-engine = Հիմնական որոնիչ
+add-web-search-engine =
+    .label = Ավելացնել...
+    .accesskey = A
 remove-search-engine =
     .label = Հեռացնել
     .accesskey = v
@@ -527,6 +530,10 @@ security-devices-button =
     .label = Անվտանգության սարքեր...
     .accesskey = D
 
+## Keyservers
+
+email-e2ee-key-servers-add = Ավելացնել...
+
 ## Chat Tab
 
 startup-label =
@@ -614,6 +621,10 @@ chat-variant-label =
 
 search-results-header = Որոնման արդյունքներ
 search-results-help-link = Օգնությո՞ւն է պետք: Այցելեք { -brand-short-name }-ի աջակցում</a>
+
+## Sync Tab
+
+show-synced-item-address = Հասցեագրքեր
 
 ## Mobile QR Export Pane
 
