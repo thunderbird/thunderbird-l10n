@@ -6,3 +6,8 @@
 ## Header lists
 
 message-header-to-list-name = Ում
+
+##
+
+message-header-address-not-in-address-book-button =
+    .title = Պահել այս հասցեն Հասցեագրքում
