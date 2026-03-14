@@ -8,6 +8,7 @@
 
 ## Conversation names when a room has no user readable name.
 
+room-name-empty = דיון ריק
 # Variables:
 #  $oldName (String) - The previous name the conversation had before it was
 #    removed.

@@ -98,6 +98,19 @@ recurrence-yearly-nth-on =
        *[other] בכל { $interval } שנים ב{ $month } { $monthDay }
     }
 # Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
+# This string describes part of a yearly rule which includes every day of a month.
+# Variables:
+#   $month - month name
+#   $interval is a number, the recurrence interval
+# e.g. "every day of December"
+# e.g. "every 3 years every day of December"
+recurrence-yearly-every-day-of =
+    { $interval ->
+        [one] בכל יום ב{ $month }
+        [two] בכל שנתיים בכל יום ב{ $month }
+       *[other] בכל { $interval } שנים בכל יום ב{ $month }
+    }
+# Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
 # Variables:
 #   $weekday - weekday
 #   $month - month name

@@ -10,6 +10,7 @@
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
 <!ENTITY useGlobal.label "שימוש בהעדפות שרת LDAP הכלליות שלי עבור חשבון זה">
 <!ENTITY useGlobal.accesskey "L">
+<!ENTITY editDirectories.label "עריכת ספריות…">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
 <!ENTITY directories.label "שימוש בשרת LDAP אחר:">
 <!ENTITY directories.accesskey "ש">

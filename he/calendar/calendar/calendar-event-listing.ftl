@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = אירועים מהעבר
 calendar-event-listing-interval-calendar-month =
     .label = אירועים בחודש זה
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,10 @@ calendar-event-listing-interval-next-6-months =
     .label = אירועים ב־6 החודשים הבאים
 calendar-event-listing-interval-next-12-months =
     .label = אירועים ב־12 החודשים הבאים
+calendar-event-listing-interval-future =
+    .label = כל האירועים העתידיים
+calendar-event-listing-interval-all =
+    .label = כל האירועים
 calendar-event-listing-interval-selected-day =
     .label = היום המסומן הנוכחי
 calendar-event-listing-interval-today =
