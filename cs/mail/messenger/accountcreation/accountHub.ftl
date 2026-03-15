@@ -169,6 +169,8 @@ account-hub-result-imap-description = Udržuje vaše složky a e-maily synchroni
 account-hub-result-pop-description = Uchová vaše složky a e-maily na vašem počítači
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Použijte webové služby Microsoft Exchange pro synchronizaci složek a e-mailů
+account-hub-result-graph-shortname = Exchange (Graph)
+account-hub-result-graph-description = Použít Microsoft Graph API pro synchronizaci složek a e-mailů
 account-hub-result-exchange-description = Synchronizace složek a e-mailů s Exchange nebo Office 365
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Doporučeno
@@ -217,6 +219,7 @@ account-hub-oauth-pending = Čekání na autorizaci ve vyskakovacím okně přih
 account-hub-addon-install-button = Instalovat
 account-hub-addon-install-needed = { -brand-short-name } nepodporuje tento server nativně. Chcete-li získat přístup k e-mailu Exchange, <a data-l10n-name="addon-install"> nainstalujte si doplněk třetí strany, například Owl (placený).</a>
 account-hub-addon-error = Instalace doplňku se nezdařila. Zkuste to prosím znovu nebo se obraťte na autora doplňku.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Varování: Zjištěn nezabezpečený poštovní server.</span> Tento server postrádá šifrování, v důsledku čehož může být odhaleno vaše heslo a data. Pro zabezpečení připojení kontaktujte správce nebo pokračujte na vlastní nebezpečí. Další informace najdete v <a data-l10n-name="error-link">často kladených otázkách</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Varování: Zjištěn nezabezpečený poštovní server.</span> Tento server postrádá šifrování, v důsledku toho může být vyzrazeno vaše heslo a data. Pro zabezpečení připojení kontaktujte správce nebo pokračujte na vlastní nebezpečí. Další informace najdete v <a data-l10n-name="faq-link">často kladených otázkách</a>.
 account-hub-account-authentication-error = Chyba autentizace.
 account-hub-add-address-book = Přidat složku kontaktů
