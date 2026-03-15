@@ -8,11 +8,11 @@ connection-dns-over-https-url-resolver = Bruk leverandør
 #   $name (String) - Display name or URL for the DNS over HTTPS provider
 connection-dns-over-https-url-item-default =
     .label = { $name } (standard)
-    .tooltiptext = Bruk standardadressen for DNS-oppslag over HTTPS
+    .tooltiptext = Bruk standardadressen for DNS-over-HTTPS
 connection-dns-over-https-url-custom =
     .label = Tilpasset
     .accesskey = T
-    .tooltiptext = Angi din foretrukne nettadresse for DNS-oppslag over HTTPS
+    .tooltiptext = Angi din foretrukne nettadresse for DNS-over-HTTPS
 connection-dns-over-https-custom-label = Tilpasset
 connection-dialog-title = Tilkoblingsinnstillinger
 disable-extension-button = Slå av utvidelse

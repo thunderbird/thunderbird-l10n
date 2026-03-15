@@ -40,7 +40,7 @@ policy-DisableSecurityBypass = Forhindre brukerens mulighet til å omgå visse s
 policy-DisableSystemAddonUpdate = Forhindre at { -brand-short-name } installerer og oppdaterer system-utvidelser.
 policy-DisableTelemetry = Slå av av telemetri.
 policy-DisplayMenuBar = Vise menylinjen som standard.
-policy-DNSOverHTTPS = Konfigurer DNS-oppslag over HTTPS.
+policy-DNSOverHTTPS = Konfigurer DNS-over-HTTPS.
 policy-DontCheckDefaultClient = Deaktiver sjekk om standard-klient ved oppstart.
 policy-DownloadDirectory = Angi og lås netlastingskatalogen.
 # “lock” means that the user won’t be able to change this setting
