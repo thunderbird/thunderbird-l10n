@@ -200,7 +200,7 @@ error-channel-banned = Вам был запрещён вход на { $name }.
 #    $name is the channel name.
 error-cannot-send-to-channel = Вы не можете отправлять сообщения { $name }.
 #    $name is the channel name.
-error-channel-full = Достигнут лимит подключений к каналу { $name }.
+error-channel-full = Достигнут лимит подключений к каналу «{ $name }».
 #    $name is the channel name.
 error-invite-only = Для присоединения к { $name } вам необходимо приглашение.
 #    $name is the channel name.
