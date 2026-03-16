@@ -141,6 +141,20 @@ calendar-dialog-accept-tentative = Kanskje
     .title = Kanskje
 calendar-dialog-decline = Deltek ikkje
     .title = Deltek ikkje
+calendar-dialog-join-meeting-button = Ver med i møtet
+calendar-dialog-join-meeting-row-icon =
+    .alt = Ver med i møtet
 calendar-dialog-attachments-row-icon =
     .alt = Vedlegg
 calendar-dialog-attachments-label = Vedlegg
+calendar-dialog-attachment-link-icon =
+    .alt = Lenka vedlegg
+calendar-dialog-attachments-expand-icon =
+    .alt = Vis alle vedlegg
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } vedlegg
+       *[other] { $count } vedlegg
+    }
