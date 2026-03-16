@@ -12,3 +12,22 @@ items-m-of-n =
         [few] { $m } od { $n }{ $m } od { $n }
        *[other] { $m } od { $n }{ $m } od { $n }
     }
+# Variables:
+#   $count - the number items
+facets-mode-to-list-all-label =
+    { $count ->
+        [one] Prikaži vse ({ $count })
+        [two] Prikaži vse ({ $count })
+        [few] Prikaži vse { $count }
+       *[other] Prikaži vseh { $count }
+    }
+# Last item in a a list like A, B, C and "3 others".
+# Variables:
+#   $count - the number items
+facet-view-and-others =
+    { $count ->
+        [one] še { $count }
+        [two] še { $count }
+        [few] še { $count }
+       *[other] še { $count }
+    }

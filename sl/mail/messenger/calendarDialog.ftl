@@ -34,6 +34,15 @@ calendar-dialog-attendee-count =
     }
 calendar-dialog-attendee-organizer = Organizator
 calendar-dialog-attendee-optional = Izbirno
+calendar-dialog-icon-attending =
+    .alt = Sprejeli
+calendar-dialog-icon-declined =
+    .alt = Zavrnili
+calendar-dialog-icon-maybe =
+    .alt = Morda
+calendar-dialog-attendees-expand-icon =
+    .alt = Prikaži vse udeležence
+calendar-dialog-attendees-too-many-guests = Seznama udeležencev ni mogoče prikazati, ker vsebuje več kot 50 udeležencev.
 calendar-dialog-description-label = Opis
 calendar-dialog-description-expand-icon =
     .alt = Prikaži celoten opis
