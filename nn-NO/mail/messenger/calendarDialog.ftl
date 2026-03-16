@@ -115,6 +115,9 @@ calendar-dialog-menu-delete =
     .label = Slett hending
 calendar-dialog-menu-print =
     .label = Skriv ut
+calendar-dialog-menu =
+    .aria-label = Fleire handlingar-meny
+    .title = Fleire handlingar-meny
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
