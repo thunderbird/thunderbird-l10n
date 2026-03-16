@@ -463,6 +463,7 @@ account-hub-checkbox-description = Eksperimentell ny prosess for oppretting av e
 new-calendar-legend = Nytt dialogvindauge for kalenderhending
 new-calendar-checkbox-label =
     .label = Vis kalenderhendingar i det nye dialogvindauget
+new-calendar-checkbox-description = Eksperimentelt nytt kalenderdialogvindauge for vising av hendingar
 account-hub-ab-checkbox-label =
     .label = Opprett adressebøker i det nye kontosenteret
     .accesskey = O
