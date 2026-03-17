@@ -103,6 +103,8 @@ about-addressbook-column-label-generatedname2 =
 about-addressbook-cell-generatedname2 =
     .aria-label = Nimi
     .title = { $title }
+about-addressbook-column-header-a11y-emailaddresses2 =
+    .aria-label = E-posti aadressid
 about-addressbook-column-header-emailaddresses2 = E-posti aadressid
     .title = Sordi e-posti aadresside alusel
 about-addressbook-column-label-emailaddresses2 =
@@ -232,6 +234,8 @@ about-addressbook-confirm-delete-contacts-multi =
         [one] Kas oled kindel, et soovid kontakti kustutada?
        *[other] Kas oled kindel, et soovid kustutada { $count } kontakti?
     }
+about-addressbook-column-header-a11y-generatedname2 =
+    .aria-label = Nimi
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
