@@ -416,6 +416,8 @@ threadpane-replies =
         [one] { $count } svar
        *[other] { $count } svar
     }
+threadpane-column-header-a11y-select =
+    .aria-label = Vælg meddelelser
 
 ## Message state variations
 
