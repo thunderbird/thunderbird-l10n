@@ -464,6 +464,8 @@ threadpane-replies =
         [few] { $count } odgovora
        *[other] { $count } odgovora
     }
+threadpane-column-header-a11y-select =
+    .aria-label = Odaberite poruke
 
 ## Message state variations
 
