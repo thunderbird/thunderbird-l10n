@@ -1025,6 +1025,7 @@ qr-export-more-accounts = Eksporter flere kontoer
 ## Appearance Tab
 
 appearance-category-header = Utseende
+accent-color-legend = Aksentfarge
 default-message-list-legend = Meldingsliste
 appearance-view-style =
     .value = Vis stil:

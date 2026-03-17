@@ -1024,6 +1024,24 @@ qr-export-more-accounts = Export more accounts
 ## Appearance Tab
 
 appearance-category-header = Appearance
+accent-color-legend = Accent Colour
+accent-color-label =
+    .value = Define the colour used for primary buttons and highlighted elements:
+accent-color-os =
+    .label = Follow operating system
+accent-color-thunderbird =
+    .label = Thunderbird blue
+accent-color-purple =
+    .label = Purple
+accent-color-orange =
+    .label = Orange
+accent-color-pink =
+    .label = Pink
+accent-color-ink =
+    .label = Ink
+accent-color-teal =
+    .label = Teal
+accent-color-disabled-description = Accent colours are not supported in High Contrast mode.
 default-message-list-legend = Message List
 appearance-view-style =
     .value = View Style:
