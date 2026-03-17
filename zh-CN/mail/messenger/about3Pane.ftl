@@ -213,12 +213,16 @@ threadpane-column-label-select =
     .label = 选择消息
 threadpane-cell-select =
     .aria-label = 选择消息
+threadpane-column-header-a11y-thread =
+    .aria-label = 话题状态
 threadpane-column-header-thread =
     .title = 切换消息主题
 threadpane-column-label-thread =
     .label = 话题
 threadpane-cell-thread =
     .aria-label = 话题状态
+threadpane-column-header-a11y-flagged =
+    .aria-label = 已加星标
 threadpane-column-header-flagged =
     .title = 按星标排序
 threadpane-column-label-flagged =
@@ -250,6 +254,8 @@ threadpane-cell-read-status =
     .aria-label = 阅读状态
 threadpane-read-cell-label = 已读
 threadpane-unread-cell-label = 未读
+threadpane-column-header-a11y-sender =
+    .aria-label = 来自
 threadpane-column-header-sender = 来自
     .title = 按来自排序
 threadpane-column-label-sender =
@@ -259,6 +265,8 @@ threadpane-column-label-sender =
 threadpane-cell-sender-title =
     .aria-label = 发件人
     .title = { $title }
+threadpane-column-header-a11y-recipient =
+    .aria-label = 收件人
 threadpane-column-header-recipient = 收件人
     .title = 按收件人排序
 threadpane-column-label-recipient =
@@ -268,6 +276,8 @@ threadpane-column-label-recipient =
 threadpane-cell-recipient-title =
     .aria-label = 收件人
     .title = { $title }
+threadpane-column-header-a11y-correspondents =
+    .aria-label = 通信者
 threadpane-column-header-correspondents = 通信者
     .title = 按通信者排序
 threadpane-column-label-correspondents =
@@ -394,6 +404,8 @@ threadpane-cell-delete =
 # Variables:
 # $count (Number) - Number of replies in thread.
 threadpane-replies = { $count } 个回复
+threadpane-column-header-a11y-select =
+    .aria-label = 选择消息
 
 ## Message state variations
 
