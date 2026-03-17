@@ -1030,6 +1030,24 @@ qr-export-more-accounts = Dalše konta eksportować
 ## Appearance Tab
 
 appearance-category-header = Napohlad
+accent-color-legend = Akcentowa barba
+accent-color-label =
+    .value = Definujće barbu, kotraž so za primarne tłóčatka a wuzběhnjene elementy wužiwa:
+accent-color-os =
+    .label = Dźěłowemu systemej slědować
+accent-color-thunderbird =
+    .label = Thunderbird modry
+accent-color-purple =
+    .label = Purpurowy
+accent-color-orange =
+    .label = Oranžowy
+accent-color-pink =
+    .label = Pink
+accent-color-ink =
+    .label = Tinta
+accent-color-teal =
+    .label = Módrozeleny
+accent-color-disabled-description = Akcentowe barby so w modusu wysokeho kontrasta njepodpěruja.
 default-message-list-legend = Lisćina powěsćow
 appearance-view-style =
     .value = Napohladny stil:

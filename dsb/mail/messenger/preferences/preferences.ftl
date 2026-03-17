@@ -1030,6 +1030,7 @@ qr-export-more-accounts = Dalšne konta eksportěrowaś
 ## Appearance Tab
 
 appearance-category-header = Naglěd
+accent-color-legend = Akcentowa barwa
 default-message-list-legend = Lisćina powěsćow
 appearance-view-style =
     .value = Naglědowy stil:
