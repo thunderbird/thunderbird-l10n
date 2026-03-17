@@ -139,6 +139,8 @@ about-addressbook-column-label-addresses2 =
 about-addressbook-cell-addresses2 =
     .aria-label = Cyfeiriadau
     .title = { $title }
+about-addressbook-column-header-a11y-title2 =
+    .aria-label = Teitl
 about-addressbook-column-header-title2 = Teitl
     .title = Trefnu yn ôl teitl
 about-addressbook-column-label-title2 =
@@ -148,6 +150,8 @@ about-addressbook-column-label-title2 =
 about-addressbook-cell-title2 =
     .aria-label = Teitl
     .title = { $title }
+about-addressbook-column-header-a11y-department2 =
+    .aria-label = Adran
 about-addressbook-column-header-department2 = Adran
     .title = Trefnu yn ôl adrannau
 about-addressbook-column-label-department2 =
@@ -157,6 +161,8 @@ about-addressbook-column-label-department2 =
 about-addressbook-cell-department2 =
     .aria-label = Adran
     .title = { $title }
+about-addressbook-column-header-a11y-organization2 =
+    .aria-label = Corff
 about-addressbook-column-header-organization2 = Corff
     .title = Trefnu yn ôl cyrff
 about-addressbook-column-label-organization2 =
@@ -166,6 +172,8 @@ about-addressbook-column-label-organization2 =
 about-addressbook-cell-organization2 =
     .aria-label = Corff
     .title = { $title }
+about-addressbook-column-header-a11y-addrbook2 =
+    .aria-label = Llyfr Cyfeiriadau
 about-addressbook-column-header-addrbook2 = Llyfr Cyfeiriadau
     .title = Trefnu yn ôl llyfrau cyfeiriadau
 about-addressbook-column-label-addrbook2 =
@@ -258,6 +266,8 @@ about-addressbook-confirm-delete-contacts-multi =
         [many] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } chysylltiad yma?
        *[other] Ydych chi'n siŵr eich bod chi am ddileu'r { $count } cysylltiad yma?
     }
+about-addressbook-column-header-a11y-generatedname2 =
+    .aria-label = Enw
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
