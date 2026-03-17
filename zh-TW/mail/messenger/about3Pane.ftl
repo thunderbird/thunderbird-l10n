@@ -239,6 +239,8 @@ threadpane-column-label-flagged =
 threadpane-cell-flagged =
     .aria-label = 已標星號
 threadpane-flagged-cell-label = 已標星號
+threadpane-column-header-a11y-attachments =
+    .aria-label = 附件
 threadpane-column-header-attachments =
     .title = 依照附件排序
 threadpane-column-label-attachments =
@@ -246,6 +248,8 @@ threadpane-column-label-attachments =
 threadpane-cell-attachments =
     .aria-label = 附件
 threadpane-attachments-cell-label = 有附件
+threadpane-column-header-a11y-spam =
+    .aria-label = 是垃圾信
 threadpane-column-header-spam =
     .title = 依照垃圾信狀態排序
 threadpane-column-label-spam =
@@ -253,6 +257,8 @@ threadpane-column-label-spam =
 threadpane-cell-spam =
     .aria-label = 垃圾信狀態
 threadpane-spam-cell-label = 是垃圾信
+threadpane-column-header-a11y-unread-button =
+    .aria-label = 閱讀狀態
 threadpane-column-header-unread-button =
     .title = 依照閱讀狀態排序
 threadpane-column-label-unread-button =
@@ -408,6 +414,8 @@ threadpane-replies =
     { $count ->
        *[other] { $count } 筆回覆
     }
+threadpane-column-header-a11y-select =
+    .aria-label = 選擇訊息
 
 ## Message state variations
 

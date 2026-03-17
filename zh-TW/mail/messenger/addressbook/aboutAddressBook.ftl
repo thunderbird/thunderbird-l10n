@@ -229,6 +229,8 @@ about-addressbook-confirm-delete-contacts-multi =
     { $count ->
        *[other] 您確定要刪除下列 { $count } 位聯絡人嗎？
     }
+about-addressbook-column-header-a11y-generatedname2 =
+    .aria-label = 名稱
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
