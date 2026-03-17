@@ -226,6 +226,8 @@ about-addressbook-confirm-delete-contacts-single = Voulez-vous vraiment supprime
 # Variables:
 # $count (Number) - The number of contacts to be deleted.
 about-addressbook-confirm-delete-contacts-multi = Voulez-vous vraiment supprimer ces { $count } contacts ?
+about-addressbook-column-header-a11y-generatedname2 =
+    .aria-label = Nom
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
