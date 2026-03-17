@@ -416,6 +416,8 @@ threadpane-replies =
         [one] { $count } risposta
        *[other] { $count } risposte
     }
+threadpane-column-header-a11y-select =
+    .aria-label = Seleziona messaggi
 
 ## Message state variations
 
