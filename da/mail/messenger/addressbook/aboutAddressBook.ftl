@@ -103,6 +103,8 @@ about-addressbook-column-label-generatedname2 =
 about-addressbook-cell-generatedname2 =
     .aria-label = Navn
     .title = { $title }
+about-addressbook-column-header-a11y-emailaddresses2 =
+    .aria-label = Mailadresser
 about-addressbook-column-header-emailaddresses2 = Mailadresser
     .title = Sorter efter mailadresser
 about-addressbook-column-label-emailaddresses2 =
@@ -112,6 +114,8 @@ about-addressbook-column-label-emailaddresses2 =
 about-addressbook-cell-emailaddresses2 =
     .aria-label = Mailadresser
     .title = { $title }
+about-addressbook-column-header-a11y-nickname2 =
+    .aria-label = Alias
 about-addressbook-column-header-nickname2 = Alias
     .title = Sorter efter alias
 about-addressbook-column-label-nickname2 =
@@ -121,6 +125,8 @@ about-addressbook-column-label-nickname2 =
 about-addressbook-cell-nickname2 =
     .aria-label = Alias
     .title = { $title }
+about-addressbook-column-header-a11y-phonenumbers2 =
+    .aria-label = Telefonnumre
 about-addressbook-column-header-phonenumbers2 = Telefonnumre
     .title = Sorter efter telefonnumre
 about-addressbook-column-label-phonenumbers2 =
@@ -242,6 +248,8 @@ about-addressbook-confirm-delete-contacts-multi =
         [one] Er du sikker på, du ønsker at slette denne kontakt?
        *[other] Er du sikker på, du ønsker at slette disse { $count } kontakter?
     }
+about-addressbook-column-header-a11y-generatedname2 =
+    .aria-label = Navn
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
