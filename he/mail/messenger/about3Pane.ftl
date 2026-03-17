@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Message List Header Bar
-
-
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -227,6 +224,3 @@ apply-current-columns-to-folder-message = להחיל שינויים של עמו�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = להחיל שינויים של עמודות התיקייה הנוכחית אל { $name } ותיקיות המשנה שלה?
-
-## Folder pane context menu
-

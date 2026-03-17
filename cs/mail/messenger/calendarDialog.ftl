@@ -34,6 +34,8 @@ calendar-dialog-attendee-count =
     }
 calendar-dialog-attendee-organizer = Organizátor
 calendar-dialog-attendee-optional = Volitelné
+calendar-dialog-icon-attending =
+    .alt = Zúčastním se
 calendar-dialog-icon-declined =
     .alt = Odmítnuto
 calendar-dialog-icon-maybe =

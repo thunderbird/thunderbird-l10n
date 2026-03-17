@@ -685,6 +685,29 @@ prompt-dont-ask-again = Příště se už neptat.
 spam-analysis-percentage = Analýza nevyžádané pošty dokončena z { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = Zpracovává se nevyžádaná pošta
 
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Odpovědi na vlákno "{ $subject }" se nezobrazí.
+        [few] Odpovědi na { $count } označená vlákna se nezobrazí.
+        [many] Odpovědi na { $count } označených vláken se nezobrazí.
+       *[other] Odpovědi na { $count } označených vláken se nezobrazí.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Odpovědi na podvlákno "{ $subject }" se nezobrazí.
+        [few] Odpovědi na { $count } označená podvlákna se nezobrazí.
+        [many] Odpovědi na { $count } označených podvláken se nezobrazí.
+       *[other] Odpovědi na { $count } označených podvláken se nezobrazí.
+    }
+
 ## Attachments
 
 # Variables:
