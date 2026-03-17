@@ -392,6 +392,8 @@ threadpane-cell-delete =
 # Variables:
 # $count (Number) - Number of replies in thread.
 threadpane-replies = ข้อความตอบกลับ { $count } รายการ
+threadpane-column-header-a11y-select =
+    .aria-label = เลือกข้อความ
 
 ## Message state variations
 
