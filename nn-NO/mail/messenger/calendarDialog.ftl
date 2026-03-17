@@ -106,6 +106,7 @@ calendar-dialog-icon-maybe =
     .alt = Kanskje
 calendar-dialog-attendees-expand-icon =
     .alt = Vis alle gjestar
+calendar-dialog-attendees-too-many-guests = Gjestelista kan ikkje visast fordi ho inneheld meir enn 50 gjestar.
 calendar-dialog-description-label = Skildring
 calendar-dialog-description-expand-icon =
     .alt = Vis fullstendig skildring

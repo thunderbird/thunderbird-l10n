@@ -447,6 +447,7 @@ dark-message-mode-toggle-label =
 dark-message-mode-toggle-description = Vis ein veksleknapp i meldingshovudet for raskt å deaktivere mørk meldingsmodus
 general-folder-options-header = Alternativ for mappehandsaming
 recent-destinations-legend = Nylege destinasjonar
+recent-destinations-description = Alternativ for å liste opp og sortere mapper der meldingar nyleg vart flytta.
 recent-sort-order-label = Sorteringsrekkjefølgje:
     .accesskey = S
 recent-sort-order-mru =
