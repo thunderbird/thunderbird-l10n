@@ -1027,6 +1027,24 @@ qr-export-more-accounts = Eksportuj więcej kont
 ## Appearance Tab
 
 appearance-category-header = Wygląd
+accent-color-legend = Kolor wiodący
+accent-color-label =
+    .value = Określ kolor używany w głównych przyciskach i wyróżnionych elementach:
+accent-color-os =
+    .label = Zgodny z systemem operacyjnym
+accent-color-thunderbird =
+    .label = Niebieski Thunderbird
+accent-color-purple =
+    .label = Purpurowy
+accent-color-orange =
+    .label = Pomarańczowy
+accent-color-pink =
+    .label = Różowy
+accent-color-ink =
+    .label = Atramentowy
+accent-color-teal =
+    .label = Morski
+accent-color-disabled-description = Kolory wiodące nie są obsługiwane w trybie wysokiego kontrastu.
 default-message-list-legend = Lista wiadomości
 appearance-view-style =
     .value = Styl widoku:
