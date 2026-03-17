@@ -1123,6 +1123,24 @@ qr-export-more-accounts = Exportovat více účtů
 ## Appearance Tab
 
 appearance-category-header = Vzhled
+accent-color-legend = Barva zvýraznění
+accent-color-label =
+    .value = Určuje barvu hlavních tlačítek a zvýrazněných prvků:
+accent-color-os =
+    .label = Řídí se operačním systémem
+accent-color-thunderbird =
+    .label = Thunderbird v modré barvě
+accent-color-purple =
+    .label = Fialová
+accent-color-orange =
+    .label = Oranžová
+accent-color-pink =
+    .label = Růžová
+accent-color-ink =
+    .label = Inkoust
+accent-color-teal =
+    .label = Šedozelená
+accent-color-disabled-description = Zvýrazňující barvy nejsou v režimu Vysoký kontrast podporovány.
 default-message-list-legend = Seznam zpráv
 appearance-view-style =
     .value = Styl zobrazení:
