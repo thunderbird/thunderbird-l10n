@@ -244,6 +244,8 @@ threadpane-column-label-flagged =
 threadpane-cell-flagged =
     .aria-label = З зіркою
 threadpane-flagged-cell-label = З зіркою
+threadpane-column-header-a11y-attachments =
+    .aria-label = Вкладення
 threadpane-column-header-attachments =
     .title = Сортувати за вкладеннями
 threadpane-column-label-attachments =
@@ -251,6 +253,8 @@ threadpane-column-label-attachments =
 threadpane-cell-attachments =
     .aria-label = Вкладення
 threadpane-attachments-cell-label = Вкладення
+threadpane-column-header-a11y-spam =
+    .aria-label = Спам
 threadpane-column-header-spam =
     .title = Сортувати за станом спаму
 threadpane-column-label-spam =
@@ -258,6 +262,8 @@ threadpane-column-label-spam =
 threadpane-cell-spam =
     .aria-label = Стан спаму
 threadpane-spam-cell-label = Спам
+threadpane-column-header-a11y-unread-button =
+    .aria-label = Стан прочитання
 threadpane-column-header-unread-button =
     .title = Сортувати за станом прочитання
 threadpane-column-label-unread-button =
@@ -266,6 +272,8 @@ threadpane-cell-read-status =
     .aria-label = Стан прочитання
 threadpane-read-cell-label = Прочитано
 threadpane-unread-cell-label = Непрочитані
+threadpane-column-header-a11y-sender =
+    .aria-label = Від
 threadpane-column-header-sender = Від
     .title = Сортувати за відправником
 threadpane-column-label-sender =
@@ -415,6 +423,8 @@ threadpane-replies =
         [few] { $count } відповіді
        *[many] { $count } відповідей
     }
+threadpane-column-header-a11y-select =
+    .aria-label = Вибрати повідомлення
 
 ## Message state variations
 

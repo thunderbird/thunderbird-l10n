@@ -103,6 +103,8 @@ about-addressbook-column-label-generatedname2 =
 about-addressbook-cell-generatedname2 =
     .aria-label = Назва
     .title = { $title }
+about-addressbook-column-header-a11y-emailaddresses2 =
+    .aria-label = Адреси електронної пошти
 about-addressbook-column-header-emailaddresses2 = Адреси електронної пошти
     .title = Впорядкувати за адресами електронної пошти
 about-addressbook-column-label-emailaddresses2 =
@@ -112,6 +114,8 @@ about-addressbook-column-label-emailaddresses2 =
 about-addressbook-cell-emailaddresses2 =
     .aria-label = Електронна пошта
     .title = { $title }
+about-addressbook-column-header-a11y-nickname2 =
+    .aria-label = Псевдонім
 about-addressbook-column-header-nickname2 = Псевдонім
     .title = Впорядкувати за псевдонімом
 about-addressbook-column-label-nickname2 =
@@ -121,6 +125,8 @@ about-addressbook-column-label-nickname2 =
 about-addressbook-cell-nickname2 =
     .aria-label = Псевдонім
     .title = { $title }
+about-addressbook-column-header-a11y-phonenumbers2 =
+    .aria-label = Номери телефону
 about-addressbook-column-header-phonenumbers2 = Номери телефону
     .title = Впорядкувати за номерами телефону
 about-addressbook-column-label-phonenumbers2 =
@@ -238,6 +244,8 @@ about-addressbook-confirm-delete-contacts-multi =
         [few] Ви впевнені, що хочете видалити ці { $count } контакти?
        *[many] Ви впевнені, що хочете видалити ці { $count } контактів?
     }
+about-addressbook-column-header-a11y-generatedname2 =
+    .aria-label = Ім'я
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
