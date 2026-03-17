@@ -136,10 +136,14 @@ threadpane-column-label-select =
     .label = Diuzañ Kemennadennoù
 threadpane-column-label-thread =
     .label = Neudennad
+threadpane-column-header-a11y-flagged =
+    .aria-label = Steredennet
 threadpane-column-header-flagged =
     .title = Rummañ dre stad "steredennet"
 threadpane-column-label-flagged =
     .label = Steredennet
+threadpane-column-header-a11y-attachments =
+    .aria-label = Kenstagadurioù
 threadpane-column-header-attachments =
     .title = Rummañ dre genstagadurioù
 threadpane-column-label-attachments =
@@ -205,6 +209,8 @@ threadpane-column-header-id = Urzh degemer
     .title = Rummañ dre urzh degemer
 threadpane-column-label-id =
     .label = Urzh degemer
+threadpane-column-header-a11y-select =
+    .aria-label = Diuzañ Kemennadennoù
 
 ## Message state variations
 
@@ -223,3 +229,6 @@ apply-current-columns-to-folder-message = Arloañ bannoù an teuliad bremanel da
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Arloañ bannoù an teuliad bremanel da { $name } ha d'an isteuliadoù?
+
+## Folder pane context menu
+
