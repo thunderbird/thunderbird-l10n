@@ -1024,6 +1024,14 @@ qr-export-more-accounts = Eksporter fleire kontoar
 ## Appearance Tab
 
 appearance-category-header = Utsjånad
+accent-color-os =
+    .label = Følg operativsystemet
+accent-color-purple =
+    .label = Lilla
+accent-color-orange =
+    .label = Oransje
+accent-color-pink =
+    .label = Rosa
 default-message-list-legend = Meldingsliste
 appearance-view-style =
     .value = Vis stil:
