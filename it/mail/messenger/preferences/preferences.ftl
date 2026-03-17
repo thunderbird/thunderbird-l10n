@@ -1014,6 +1014,24 @@ qr-export-more-accounts = Esporta altri account
 ## Appearance Tab
 
 appearance-category-header = Aspetto
+accent-color-legend = Colore accento
+accent-color-label =
+    .value = Definisci il colore utilizzato per i pulsanti principali e gli elementi evidenziati:
+accent-color-os =
+    .label = Segui sistema operativo
+accent-color-thunderbird =
+    .label = Blu di Thunderbird
+accent-color-purple =
+    .label = Viola
+accent-color-orange =
+    .label = Arancio
+accent-color-pink =
+    .label = Rosa
+accent-color-ink =
+    .label = Inchiostro
+accent-color-teal =
+    .label = Verde acqua
+accent-color-disabled-description = I colori accentati non sono supportati in modalità Contrasto elevato.
 default-message-list-legend = Elenco messaggi
 appearance-view-style =
     .value = Stile di visualizzazione:

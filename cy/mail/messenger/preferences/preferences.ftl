@@ -1036,6 +1036,24 @@ qr-export-more-accounts = Allforio rhagor o gyfrifon
 ## Appearance Tab
 
 appearance-category-header = Gwedd
+accent-color-legend = Lliw Acen
+accent-color-label =
+    .value = Diffiniwch y lliw a ddefnyddir ar gyfer botymau cynradd ac elfennau wedi'u hamlygu:
+accent-color-os =
+    .label = Dilynwch y system weithredu
+accent-color-thunderbird =
+    .label = Glas Thunderbird
+accent-color-purple =
+    .label = Porffor
+accent-color-orange =
+    .label = Oren
+accent-color-pink =
+    .label = Pinc
+accent-color-ink =
+    .label = Inc
+accent-color-teal =
+    .label = Corhwyaden
+accent-color-disabled-description = Ni chefnogir lliwiau acen yn y modd Cyferbynnedd Uchel.
 default-message-list-legend = Rhestr Negeseuon
 appearance-view-style =
     .value = Gweld Arddull:

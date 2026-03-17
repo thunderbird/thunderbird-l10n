@@ -52,6 +52,9 @@ calendar-dialog-menu-delete =
     .label = Smazat událost
 calendar-dialog-menu-print =
     .label = Tisk
+calendar-dialog-menu =
+    .aria-label = Nabídka s dalšími akcemi
+    .title = Nabídka s dalšími akcemi
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -80,9 +83,14 @@ calendar-dialog-accept-tentative = Možná
     .title = Možná
 calendar-dialog-decline = Nezúčastním se
     .title = Nezúčastním se
+calendar-dialog-join-meeting-button = Připojit se ke schůzce
+calendar-dialog-join-meeting-row-icon =
+    .alt = Připojit se ke schůzce
 calendar-dialog-attachments-row-icon =
     .alt = Přílohy
 calendar-dialog-attachments-label = Přílohy
+calendar-dialog-attachment-link-icon =
+    .alt = Připojená příloha
 calendar-dialog-attachments-expand-icon =
     .alt = Zobrazit všechny přílohy
 # Variables:

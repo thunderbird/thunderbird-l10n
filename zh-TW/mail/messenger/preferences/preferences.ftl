@@ -1014,6 +1014,24 @@ qr-export-more-accounts = 匯出更多帳號
 ## Appearance Tab
 
 appearance-category-header = 外觀設定
+accent-color-legend = 強調色
+accent-color-label =
+    .value = 定義主要按鈕與強調元素的顏色:
+accent-color-os =
+    .label = 追踪作業系統
+accent-color-thunderbird =
+    .label = Thunderbird 藍色
+accent-color-purple =
+    .label = 紫色
+accent-color-orange =
+    .label = 橘色
+accent-color-pink =
+    .label = 粉紅色
+accent-color-ink =
+    .label = Ink
+accent-color-teal =
+    .label = 藍綠色
+accent-color-disabled-description = 在高對比模式中不支援強調色。
 default-message-list-legend = 郵件清單
 appearance-view-style =
     .value = 檢視樣式：
