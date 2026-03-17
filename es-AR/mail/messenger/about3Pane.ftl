@@ -233,12 +233,16 @@ threadpane-column-label-select =
     .label = Seleccionar mensajes
 threadpane-cell-select =
     .aria-label = Seleccionar mensaje
+threadpane-column-header-a11y-thread =
+    .aria-label = Estado del hilo
 threadpane-column-header-thread =
     .title = Alternar mensajes como conversaciones
 threadpane-column-label-thread =
     .label = Conversación
 threadpane-cell-thread =
     .aria-label = Estado del hilo
+threadpane-column-header-a11y-flagged =
+    .aria-label = Destacados
 threadpane-column-header-flagged =
     .title = Ordenar por destacado
 threadpane-column-label-flagged =
@@ -246,6 +250,8 @@ threadpane-column-label-flagged =
 threadpane-cell-flagged =
     .aria-label = Destacado
 threadpane-flagged-cell-label = Destacado
+threadpane-column-header-a11y-attachments =
+    .aria-label = Adjuntos
 threadpane-column-header-attachments =
     .title = Ordenar por adjuntos
 threadpane-column-label-attachments =
@@ -253,6 +259,8 @@ threadpane-column-label-attachments =
 threadpane-cell-attachments =
     .aria-label = Adjuntos
 threadpane-attachments-cell-label = Adjuntos
+threadpane-column-header-a11y-spam =
+    .aria-label = Spam
 threadpane-column-header-spam =
     .title = Ordenar por estado de spam
 threadpane-column-label-spam =
@@ -260,6 +268,8 @@ threadpane-column-label-spam =
 threadpane-cell-spam =
     .aria-label = Estado de spam
 threadpane-spam-cell-label = Spam
+threadpane-column-header-a11y-unread-button =
+    .aria-label = Estado de lectura
 threadpane-column-header-unread-button =
     .title = Ordenar por estado de lectura
 threadpane-column-label-unread-button =
@@ -403,6 +413,8 @@ threadpane-column-label-id =
 threadpane-cell-id-title =
     .aria-label = Pedido recibido
     .title = { $title }
+threadpane-column-header-a11y-delete =
+    .aria-label = Borrar
 threadpane-column-header-delete =
     .title = Eliminar un mensaje
 threadpane-column-label-delete =
@@ -416,6 +428,8 @@ threadpane-replies =
         [one] { $count } respuesta
        *[other] { $count } respuestas
     }
+threadpane-column-header-a11y-select =
+    .aria-label = Seleccionar mensajes
 
 ## Message state variations
 

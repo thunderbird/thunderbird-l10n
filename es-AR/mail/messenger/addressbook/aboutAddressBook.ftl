@@ -234,6 +234,8 @@ about-addressbook-confirm-delete-contacts-multi =
         [one] ¿Está seguro de querer borrar este contacto?
        *[other] ¿Está seguro de querer borrar estos { $count } contactos?
     }
+about-addressbook-column-header-a11y-generatedname2 =
+    .aria-label = Nombre
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
