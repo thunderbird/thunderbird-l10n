@@ -232,6 +232,8 @@ about-addressbook-confirm-delete-contacts-multi =
     { $count ->
        *[other] Er du sikker på at du vil slette disse { $count } kontaktene?
     }
+about-addressbook-column-header-a11y-generatedname2 =
+    .aria-label = Navn
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
