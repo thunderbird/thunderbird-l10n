@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -119,80 +122,120 @@ threadpane-column-label-select =
     .label = Ticha' Rutzijol
 threadpane-column-label-thread =
     .label = Tzijonem
+threadpane-column-header-a11y-flagged =
+    .aria-label = Ya'on ruq'ij
 threadpane-column-header-flagged =
     .title = Tinuk' chi nimirisan
 threadpane-column-label-flagged =
     .label = Ya'on ruq'ij
+threadpane-column-header-a11y-attachments =
+    .aria-label = Taq taqoj
 threadpane-column-header-attachments =
     .title = Tinuk' chi taqoj
 threadpane-column-label-attachments =
     .label = Taq taqoj
+threadpane-column-header-a11y-spam =
+    .aria-label = Spam
 threadpane-column-label-spam =
     .label = Spam
+threadpane-column-header-a11y-sender =
+    .aria-label = Richin
 threadpane-column-header-sender = Richin
     .title = Kenuk' chi richin
 threadpane-column-label-sender =
     .label = Richin
+threadpane-column-header-a11y-recipient =
+    .aria-label = K'ulunel
 threadpane-column-header-recipient = K'ulunel
     .title = Tinuk' chi k'ulunel
 threadpane-column-label-recipient =
     .label = K'ulunel
+threadpane-column-header-a11y-correspondents =
+    .aria-label = Ajtaqikil
 threadpane-column-header-correspondents = Ajtaqikil
     .title = Tinuk' chi ajtaqikil
 threadpane-column-label-correspondents =
     .label = Ajtaqikil
+threadpane-column-header-a11y-subject =
+    .aria-label = Taqikil
 threadpane-column-header-subject = Taqikil
     .title = Tinuk' chi taqikil
 threadpane-column-label-subject =
     .label = Taqikil
+threadpane-column-header-a11y-date =
+    .aria-label = Q'ijul
 threadpane-column-header-date = Q'ijul
     .title = Kenuk' chi q'ijul
 threadpane-column-label-date =
     .label = Q'ijul
+threadpane-column-header-a11y-received =
+    .aria-label = K'ulun
 threadpane-column-header-received = K'ulun
     .title = Ticholajïx chi ruq'ijul k'ulun
 threadpane-column-label-received =
     .label = K'ulun
+threadpane-column-header-a11y-status =
+    .aria-label = B'anikil
 threadpane-column-header-status = B'anikil
     .title = Tinuk' chi rub'anikil
 threadpane-column-label-status =
     .label = B'anikil
+threadpane-column-header-a11y-size =
+    .aria-label = Nimilem
 threadpane-column-header-size = Nimilem
     .title = Tinuk' chi nimilem
 threadpane-column-label-size =
     .label = Nimilem
+threadpane-column-header-a11y-tags =
+    .aria-label = Etal
 threadpane-column-header-tags = Etal
     .title = Tinuk' chi taq retal
 threadpane-column-label-tags =
     .label = Etal
+threadpane-column-header-a11y-account =
+    .aria-label = Rub'i' taqoya'l
 threadpane-column-header-account = Rub'i' taqoya'l
     .title = Tinuk' chi rub'i' taqoya'l
 threadpane-column-label-account =
     .label = Rub'i' taqoya'l
+threadpane-column-header-a11y-priority =
+    .aria-label = Ya'on ruq'ij
 threadpane-column-header-priority = Ya'on ruq'ij
     .title = Tinuk' chi ya'on ruq'ij
 threadpane-column-label-priority =
     .label = Ya'on ruq'ij
+threadpane-column-header-a11y-unread =
+    .aria-label = Man sik'in ta
 threadpane-column-header-unread = Man sik'in ta
     .title = Kajilab'al taq tzijol man esik'in ta pa tzijonem
 threadpane-column-label-unread =
     .label = Man sik'in ta
+threadpane-column-header-a11y-total =
+    .aria-label = Ronojel
 threadpane-column-header-total = Ronojel
     .title = Ronojel ri kajilab'al rutzijol pa tzijonem
 threadpane-column-label-total =
     .label = Ronojel
+threadpane-column-header-a11y-location =
+    .aria-label = K'ojlib'äl
 threadpane-column-header-location = K'ojlib'äl
     .title = Tinuk' chi k'ojlib'äl
 threadpane-column-label-location =
     .label = K'ojlib'äl
+threadpane-column-header-a11y-id =
+    .aria-label = Kicholajem K'uluj
 threadpane-column-header-id = Kicholajem K'uluj
     .title = Ticholajïx chi k'ulun
 threadpane-column-label-id =
     .label = Kicholajem K'uluj
+threadpane-column-header-a11y-delete =
+    .aria-label = Tiyuj
 threadpane-column-header-delete =
     .title = Tiyuj jun ruzijol
 threadpane-column-label-delete =
     .label = Tiyuj
+threadpane-column-header-a11y-select =
+    .aria-label = Ticha' Rutzijol
 
 ## Message state variations
 
@@ -212,3 +255,6 @@ apply-current-columns-to-folder-message = ¿La ye'okisäx kan ri taq rutem yakwu
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = ¿La ye'okisäx kan ri taq rutem yakwuj wakami pa { $name } chuqa' ri taq ralk'wal?
+
+## Folder pane context menu
+
