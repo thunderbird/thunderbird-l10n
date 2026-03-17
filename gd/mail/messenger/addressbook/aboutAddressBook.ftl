@@ -80,34 +80,50 @@ about-addressbook-column-header-generatedname2 = Ainm
     .title = Seòrsaich a-rèir ainm
 about-addressbook-column-label-generatedname2 =
     .label = An t-ainm
+about-addressbook-column-header-a11y-emailaddresses2 =
+    .aria-label = Seòlaidhean puist-d
 about-addressbook-column-header-emailaddresses2 = Seòlaidhean puist-d
     .title = Seòrsaich a-rèir seòladh puist-d
 about-addressbook-column-label-emailaddresses2 =
     .label = Seòlaidhean puist-d
+about-addressbook-column-header-a11y-nickname2 =
+    .aria-label = Far-ainm
 about-addressbook-column-header-nickname2 = Far-ainm
     .title = Seòrsaich a-rèir far-ainm
 about-addressbook-column-label-nickname2 =
     .label = Far-ainm
+about-addressbook-column-header-a11y-phonenumbers2 =
+    .aria-label = Àireamhan-fòn
 about-addressbook-column-header-phonenumbers2 = Àireamhan-fòn
     .title = Seòrsaich a-rèir àireamh-fòn
 about-addressbook-column-label-phonenumbers2 =
     .label = Àireamhan-fòn
+about-addressbook-column-header-a11y-addresses2 =
+    .aria-label = Seòlaidhean
 about-addressbook-column-header-addresses2 = Seòlaidhean
     .title = Seòrsaich a-rèir seòlaidh
 about-addressbook-column-label-addresses2 =
     .label = Seòlaidhean
+about-addressbook-column-header-a11y-title2 =
+    .aria-label = An tiotal
 about-addressbook-column-header-title2 = An tiotal
     .title = Seòrsaich a-rèir an tiotail
 about-addressbook-column-label-title2 =
     .label = An tiotal
+about-addressbook-column-header-a11y-department2 =
+    .aria-label = An roinn
 about-addressbook-column-header-department2 = An roinn
     .title = Seòrsaich a-rèir na roinne
 about-addressbook-column-label-department2 =
     .label = An roinn
+about-addressbook-column-header-a11y-organization2 =
+    .aria-label = Am buidheann
 about-addressbook-column-header-organization2 = Am buidheann
     .title = Seòrsaich a-rèir a’ bhuidhinn
 about-addressbook-column-label-organization2 =
     .label = Am buidheann
+about-addressbook-column-header-a11y-addrbook2 =
+    .aria-label = Leabhar nan seòladh
 about-addressbook-column-header-addrbook2 = Leabhar nan seòladh
     .title = Seòrsaich a-rèir leabhar nan seòladh
 about-addressbook-column-label-addrbook2 =
@@ -177,6 +193,8 @@ about-addressbook-confirm-delete-contacts-multi =
         [few] A bheil thu cinnteach gu bheil thu airson an luchd-aithne seo, { $count } dhiubh, a sguabadh às?
        *[other] A bheil thu cinnteach gu bheil thu airson an luchd-aithne seo, { $count } dhiubh, a sguabadh às?
     }
+about-addressbook-column-header-a11y-generatedname2 =
+    .aria-label = An t-ainm
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
