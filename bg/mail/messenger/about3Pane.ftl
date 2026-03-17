@@ -233,12 +233,16 @@ threadpane-column-label-select =
     .label = Избиране на съобщения
 threadpane-cell-select =
     .aria-label = Избиране на съобщение
+threadpane-column-header-a11y-thread =
+    .aria-label = Състояние на нишката
 threadpane-column-header-thread =
     .title = Показване на нишките на съобщенията
 threadpane-column-label-thread =
     .label = Дискусия
 threadpane-cell-thread =
     .aria-label = Състояние на нишката
+threadpane-column-header-a11y-flagged =
+    .aria-label = Със звезда
 threadpane-column-header-flagged =
     .title = Сортиране по звезда
 threadpane-column-label-flagged =
@@ -246,6 +250,8 @@ threadpane-column-label-flagged =
 threadpane-cell-flagged =
     .aria-label = Със звезда
 threadpane-flagged-cell-label = Със звезда
+threadpane-column-header-a11y-attachments =
+    .aria-label = Прикачени файлове
 threadpane-column-header-attachments =
     .title = Сортиране по притурки
 threadpane-column-label-attachments =
@@ -253,6 +259,8 @@ threadpane-column-label-attachments =
 threadpane-cell-attachments =
     .aria-label = Прикачени файлове
 threadpane-attachments-cell-label = Прикачени файлове
+threadpane-column-header-a11y-spam =
+    .aria-label = Нежелана поща
 threadpane-column-header-spam =
     .title = Сортиране по състояние на нежелана поща
 threadpane-column-label-spam =
@@ -260,6 +268,8 @@ threadpane-column-label-spam =
 threadpane-cell-spam =
     .aria-label = Състояние на нежеланата поща
 threadpane-spam-cell-label = Нежелана поща
+threadpane-column-header-a11y-unread-button =
+    .aria-label = Състояние на четене
 threadpane-column-header-unread-button =
     .title = Сортиране по състояние на четене
 threadpane-column-label-unread-button =
@@ -268,6 +278,8 @@ threadpane-cell-read-status =
     .aria-label = Състояние на четене
 threadpane-read-cell-label = Прочетени
 threadpane-unread-cell-label = Непрочетени
+threadpane-column-header-a11y-sender =
+    .aria-label = Подател
 threadpane-column-header-sender = Подател
     .title = Сортиране по подател
 threadpane-column-label-sender =
@@ -446,6 +458,8 @@ threadpane-replies =
         [one] един отговор
        *[other] { $count } отговорa
     }
+threadpane-column-header-a11y-select =
+    .aria-label = Избиране на съобщения
 
 ## Message state variations
 
