@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -102,66 +105,98 @@ folder-pane-mode-context-toggle-compact-mode =
 
 threadpane-column-label-thread =
     .label = Thread
+threadpane-column-header-a11y-flagged =
+    .aria-label = Starred
 threadpane-column-header-flagged =
     .title = Sort by star
 threadpane-column-label-flagged =
     .label = Starred
+threadpane-column-header-a11y-attachments =
+    .aria-label = Attachments
 threadpane-column-header-attachments =
     .title = Sort by attachments
 threadpane-column-label-attachments =
     .label = Attachments
+threadpane-column-header-a11y-sender =
+    .aria-label = From
 threadpane-column-header-sender = From
     .title = Sort by from
 threadpane-column-label-sender =
     .label = From
+threadpane-column-header-a11y-recipient =
+    .aria-label = Recipient
 threadpane-column-header-recipient = Recipient
     .title = Sort by recipient
 threadpane-column-label-recipient =
     .label = Recipient
+threadpane-column-header-a11y-subject =
+    .aria-label = Subject
 threadpane-column-header-subject = Subject
     .title = Sort by subject
 threadpane-column-label-subject =
     .label = Subject
+threadpane-column-header-a11y-date =
+    .aria-label = Date
 threadpane-column-header-date = Date
     .title = Sort by date
 threadpane-column-label-date =
     .label = Date
+threadpane-column-header-a11y-received =
+    .aria-label = Received
 threadpane-column-header-received = Received
     .title = Sort by date received
 threadpane-column-label-received =
     .label = Received
+threadpane-column-header-a11y-status =
+    .aria-label = Status
 threadpane-column-header-status = Status
     .title = Sort by status
 threadpane-column-label-status =
     .label = Status
+threadpane-column-header-a11y-size =
+    .aria-label = Size
 threadpane-column-header-size = Size
     .title = Sort by size
 threadpane-column-label-size =
     .label = Size
+threadpane-column-header-a11y-tags =
+    .aria-label = Tag
 threadpane-column-header-tags = Tag
     .title = Sort by tags
 threadpane-column-label-tags =
     .label = Tag
+threadpane-column-header-a11y-account =
+    .aria-label = Account
 threadpane-column-header-account = Account
     .title = Sort by account
 threadpane-column-label-account =
     .label = Account
+threadpane-column-header-a11y-priority =
+    .aria-label = Priority
 threadpane-column-header-priority = Priority
     .title = Sort by priority
 threadpane-column-label-priority =
     .label = Priority
+threadpane-column-header-a11y-unread =
+    .aria-label = Unread
 threadpane-column-header-unread = Unread
     .title = Number of unread messages in thread
 threadpane-column-label-unread =
     .label = Unread
+threadpane-column-header-a11y-total =
+    .aria-label = Total
 threadpane-column-header-total = Total
     .title = Total number of messages in thread
 threadpane-column-label-total =
     .label = Total
+threadpane-column-header-a11y-location =
+    .aria-label = Location
 threadpane-column-header-location = Location
     .title = Sort by location
 threadpane-column-label-location =
     .label = Location
+threadpane-column-header-a11y-id =
+    .aria-label = Order Received
 threadpane-column-header-id = Order Received
     .title = Sort by order received
 threadpane-column-label-id =
@@ -184,3 +219,6 @@ apply-current-columns-to-folder-message = Apply the current folder's columns to 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Apply the current folder's columns to { $name } and its children?
+
+## Folder pane context menu
+
