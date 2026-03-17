@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -109,70 +112,104 @@ folder-pane-mode-context-toggle-compact-mode =
 
 threadpane-column-label-thread =
     .label = Thread
+threadpane-column-header-a11y-flagged =
+    .aria-label = Berbintang
 threadpane-column-header-flagged =
     .title = Susun mengikut bintang
 threadpane-column-label-flagged =
     .label = Berbintang
+threadpane-column-header-a11y-attachments =
+    .aria-label = Lampiran
 threadpane-column-header-attachments =
     .title = Susun mengikut lampiran
 threadpane-column-label-attachments =
     .label = Lampiran
+threadpane-column-header-a11y-sender =
+    .aria-label = Daripada
 threadpane-column-header-sender = Daripada
     .title = Susun mengikut daripada
 threadpane-column-label-sender =
     .label = Daripada
+threadpane-column-header-a11y-recipient =
+    .aria-label = Penerima
 threadpane-column-header-recipient = Penerima
     .title = Susun mengikut penerima
 threadpane-column-label-recipient =
     .label = Penerima
+threadpane-column-header-a11y-correspondents =
+    .aria-label = Koresponden
 threadpane-column-header-correspondents = Koresponden
     .title = Susun mengikut koresponden
 threadpane-column-label-correspondents =
     .label = Koresponden
+threadpane-column-header-a11y-subject =
+    .aria-label = Subjek
 threadpane-column-header-subject = Subjek
     .title = Susun mengikut subjek
 threadpane-column-label-subject =
     .label = Subjek
+threadpane-column-header-a11y-date =
+    .aria-label = Tarikh
 threadpane-column-header-date = Tarikh
     .title = Susun mengikut tarikh
 threadpane-column-label-date =
     .label = Tarikh
+threadpane-column-header-a11y-received =
+    .aria-label = Diterima
 threadpane-column-header-received = Diterima
     .title = Susun mengikut tarikh diterima
 threadpane-column-label-received =
     .label = Diterima
+threadpane-column-header-a11y-status =
+    .aria-label = Status
 threadpane-column-header-status = Status
     .title = Susun mengikut status
 threadpane-column-label-status =
     .label = Status
+threadpane-column-header-a11y-size =
+    .aria-label = Saiz
 threadpane-column-header-size = Saiz
     .title = Susun mengikut saiz
 threadpane-column-label-size =
     .label = Saiz
+threadpane-column-header-a11y-tags =
+    .aria-label = Tag
 threadpane-column-header-tags = Tag
     .title = Susun mengikut tag
 threadpane-column-label-tags =
     .label = Tag
+threadpane-column-header-a11y-account =
+    .aria-label = Akaun
 threadpane-column-header-account = Akaun
     .title = Susun mengikut akaun
 threadpane-column-label-account =
     .label = Akaun
+threadpane-column-header-a11y-priority =
+    .aria-label = Prioriti
 threadpane-column-header-priority = Prioriti
     .title = Susun mengikut prioriti
 threadpane-column-label-priority =
     .label = Prioriti
+threadpane-column-header-a11y-unread =
+    .aria-label = Belum Dibaca
 threadpane-column-header-unread = Belum Dibaca
     .title = Bilangan mesej belum dibaca dalam thread
 threadpane-column-label-unread =
     .label = Belum Dibaca
+threadpane-column-header-a11y-total =
+    .aria-label = Jumlah
 threadpane-column-header-total = Jumlah
     .title = Bilangan mesej dalam thread
 threadpane-column-label-total =
     .label = Jumlah
+threadpane-column-header-a11y-location =
+    .aria-label = Lokasi
 threadpane-column-header-location = Lokasi
     .title = Susun mengikut lokasi
 threadpane-column-label-location =
     .label = Lokasi
+threadpane-column-header-a11y-id =
+    .aria-label = Susunan Diterima
 threadpane-column-header-id = Susunan Diterima
     .title = Susun mengikut susunan diterima
 threadpane-column-label-id =
@@ -195,3 +232,6 @@ apply-current-columns-to-folder-message = Terapkan lajur folder semasa ke { $nam
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Terapkan lajur folder semasa ke { $name } dan folder di dalamnya?
+
+## Folder pane context menu
+
