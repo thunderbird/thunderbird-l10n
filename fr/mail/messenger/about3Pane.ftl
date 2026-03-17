@@ -233,12 +233,16 @@ threadpane-column-label-select =
     .label = Sélectionner des messages
 threadpane-cell-select =
     .aria-label = Sélectionner le message
+threadpane-column-header-a11y-thread =
+    .aria-label = État de la discussion
 threadpane-column-header-thread =
     .title = Grouper ou non par fils de discussion
 threadpane-column-label-thread =
     .label = Discussion
 threadpane-cell-thread =
     .aria-label = État de la discussion
+threadpane-column-header-a11y-flagged =
+    .aria-label = Suivi
 threadpane-column-header-flagged =
     .title = Trier par suivi
 threadpane-column-label-flagged =
@@ -416,6 +420,8 @@ threadpane-replies =
         [one] { $count } réponse
        *[other] { $count } réponses
     }
+threadpane-column-header-a11y-select =
+    .aria-label = Sélectionner des messages
 
 ## Message state variations
 
