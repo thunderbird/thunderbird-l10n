@@ -226,6 +226,8 @@ threadpane-cell-select =
     .aria-label = Ընտրել նամակ
 threadpane-column-label-thread =
     .label = Շղթան
+threadpane-column-header-a11y-flagged =
+    .aria-label = Աստղով
 threadpane-column-header-flagged =
     .title = Տեսակավորել ըստ՝ աստղի
 threadpane-column-label-flagged =
@@ -233,6 +235,8 @@ threadpane-column-label-flagged =
 threadpane-cell-flagged =
     .aria-label = Աստղով
 threadpane-flagged-cell-label = Աստղով
+threadpane-column-header-a11y-attachments =
+    .aria-label = Կցորդներ
 threadpane-column-header-attachments =
     .title = Տեսակավորել ըստ՝ կցորդների
 threadpane-column-label-attachments =
@@ -240,11 +244,15 @@ threadpane-column-label-attachments =
 threadpane-cell-attachments =
     .aria-label = Կցորդներ
 threadpane-attachments-cell-label = Կցորդներ
+threadpane-column-header-a11y-spam =
+    .aria-label = Սպամ
 threadpane-column-label-spam =
     .label = Սպամ
 threadpane-cell-spam =
     .aria-label = Սպամի կարգավիճակ
 threadpane-spam-cell-label = Սպամ
+threadpane-column-header-a11y-unread-button =
+    .aria-label = Կարդալ կարգավիճակը
 threadpane-column-label-unread-button =
     .label = Կարդալ կարգավիճակը
 threadpane-cell-read-status =
@@ -399,6 +407,8 @@ threadpane-replies =
         [one] { $count } պատասխան
        *[other] { $count } պատասխան
     }
+threadpane-column-header-a11y-select =
+    .aria-label = Ընտրել Նամակներ
 
 ## Message state variations
 
@@ -422,3 +432,6 @@ apply-current-columns-to-folder-message = Կիրառե՞լ ընթացիկ թղթ
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Կիրառե՞լ ընթացիկ թղթապանակի սյունները { $name }-ին և մնացածին։
 message-list-placeholder-no-messages = Ոչ մի հաղորդագրություն չի գտնվել
+
+## Folder pane context menu
+
