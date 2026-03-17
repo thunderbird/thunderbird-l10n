@@ -438,6 +438,8 @@ threadpane-column-label-delete =
     .label = Обриши
 threadpane-cell-delete =
     .aria-label = Обриши
+threadpane-column-header-a11y-select =
+    .aria-label = Одаберите поруке
 
 ## Message state variations
 
