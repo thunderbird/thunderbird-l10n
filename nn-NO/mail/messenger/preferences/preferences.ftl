@@ -1024,14 +1024,24 @@ qr-export-more-accounts = Eksporter fleire kontoar
 ## Appearance Tab
 
 appearance-category-header = Utsjånad
+accent-color-legend = Aksentfarge
+accent-color-label =
+    .value = Definer fargen som blir brukt for primærknappar og utheva element:
 accent-color-os =
     .label = Følg operativsystemet
+accent-color-thunderbird =
+    .label = Thunderbird-blå
 accent-color-purple =
     .label = Lilla
 accent-color-orange =
     .label = Oransje
 accent-color-pink =
     .label = Rosa
+accent-color-ink =
+    .label = Blekk
+accent-color-teal =
+    .label = Blågrøn
+accent-color-disabled-description = Aksentfargar blir ikkje støtta i høgkontrastmodus.
 default-message-list-legend = Meldingsliste
 appearance-view-style =
     .value = Vis stil:
