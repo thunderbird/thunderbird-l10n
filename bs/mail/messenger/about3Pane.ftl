@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -114,70 +117,104 @@ folder-pane-mode-context-toggle-compact-mode =
 
 threadpane-column-label-thread =
     .label = Nit
+threadpane-column-header-a11y-flagged =
+    .aria-label = Označeno zvjezdicom
 threadpane-column-header-flagged =
     .title = Poredaj prema zvjezdici
 threadpane-column-label-flagged =
     .label = Označeno zvjezdicom
+threadpane-column-header-a11y-attachments =
+    .aria-label = Prilozi
 threadpane-column-header-attachments =
     .title = Poredaj prema dodacima
 threadpane-column-label-attachments =
     .label = Prilozi
+threadpane-column-header-a11y-sender =
+    .aria-label = Šalje
 threadpane-column-header-sender = Šalje
     .title = Poredaj prema pošiljaocu
 threadpane-column-label-sender =
     .label = Šalje
+threadpane-column-header-a11y-recipient =
+    .aria-label = Primalac
 threadpane-column-header-recipient = Primalac
     .title = Poredaj prema primaocu
 threadpane-column-label-recipient =
     .label = Primalac
+threadpane-column-header-a11y-correspondents =
+    .aria-label = Dopisnici
 threadpane-column-header-correspondents = Dopisnici
     .title = Poredaj prema korespondentima
 threadpane-column-label-correspondents =
     .label = Dopisnici
+threadpane-column-header-a11y-subject =
+    .aria-label = Naslov
 threadpane-column-header-subject = Naslov
     .title = Poredaj prema naslovu
 threadpane-column-label-subject =
     .label = Naslov
+threadpane-column-header-a11y-date =
+    .aria-label = Datum
 threadpane-column-header-date = Datum
     .title = Poredaj po datumu
 threadpane-column-label-date =
     .label = Datum
+threadpane-column-header-a11y-received =
+    .aria-label = Primljeno
 threadpane-column-header-received = Primljeno
     .title = Poredaj prema datumu prijema
 threadpane-column-label-received =
     .label = Primljeno
+threadpane-column-header-a11y-status =
+    .aria-label = Status
 threadpane-column-header-status = Status
     .title = Poredaj prema statusu
 threadpane-column-label-status =
     .label = Status
+threadpane-column-header-a11y-size =
+    .aria-label = Veličina
 threadpane-column-header-size = Veličina
     .title = Poredaj po veličini
 threadpane-column-label-size =
     .label = Veličina
+threadpane-column-header-a11y-tags =
+    .aria-label = Oznaka
 threadpane-column-header-tags = Oznaka
     .title = Poredaj prema oznakama
 threadpane-column-label-tags =
     .label = Oznaka
+threadpane-column-header-a11y-account =
+    .aria-label = Račun
 threadpane-column-header-account = Račun
     .title = Poredaj prema računu
 threadpane-column-label-account =
     .label = Račun
+threadpane-column-header-a11y-priority =
+    .aria-label = Prioritet
 threadpane-column-header-priority = Prioritet
     .title = Poredaj prema prioritetu
 threadpane-column-label-priority =
     .label = Prioritet
+threadpane-column-header-a11y-unread =
+    .aria-label = Nepročitano
 threadpane-column-header-unread = Nepročitano
     .title = Broj nepročitanih poruka u niti
 threadpane-column-label-unread =
     .label = Nepročitano
+threadpane-column-header-a11y-total =
+    .aria-label = Ukupno
 threadpane-column-header-total = Ukupno
     .title = Ukupan broj poruka u niti
 threadpane-column-label-total =
     .label = Ukupno
+threadpane-column-header-a11y-location =
+    .aria-label = Lokacija
 threadpane-column-header-location = Lokacija
     .title = Poredaj prema lokaciji
 threadpane-column-label-location =
     .label = Lokacija
+threadpane-column-header-a11y-id =
+    .aria-label = Redoslijed primanja
 threadpane-column-header-id = Redoslijed primanja
     .title = Poredaj prema redosljedu prijema
 threadpane-column-label-id =
@@ -200,3 +237,6 @@ apply-current-columns-to-folder-message = Primijeni kolone trenutnog direktorija
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Primijeni kolone trenutnog direktorija na { $name } i njegove poddirektorije?
+
+## Folder pane context menu
+
