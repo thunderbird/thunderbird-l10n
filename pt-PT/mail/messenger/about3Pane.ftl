@@ -444,6 +444,8 @@ threadpane-replies =
         [one] { $count } resposta
        *[other] { $count } respostas
     }
+threadpane-column-header-a11y-select =
+    .aria-label = Selecionar mensagens
 
 ## Message state variations
 
