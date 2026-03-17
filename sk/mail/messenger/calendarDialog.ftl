@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = Zavrieť
     .title = Zavrieť
+calendar-dialog-menu-button =
+    .aria-label = Otvoriť ponuku
+    .title = Otvoriť ponuku
 calendar-dialog-back-button =
     .aria-label = Naspäť
     .title = Naspäť
@@ -18,9 +21,40 @@ calendar-dialog-description-row-icon =
     .alt = Popis
 calendar-dialog-reminders-row-icon =
     .alt = Pripomienky
+calendar-dialog-attendees-row-icon =
+    .alt = Hostia
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } hosť
+        [few] { $count } hostia
+        [many] { $count } hostí
+       *[other] { $count } hostí
+    }
+calendar-dialog-attendee-organizer = Organizátor
+calendar-dialog-attendee-optional = Nepovinný účastník
+calendar-dialog-icon-attending =
+    .alt = Zúčastňuje sa
+calendar-dialog-icon-declined =
+    .alt = Odmietol
+calendar-dialog-icon-maybe =
+    .alt = Možno
+calendar-dialog-attendees-expand-icon =
+    .alt = Zobraziť všetkých hostí
+calendar-dialog-attendees-too-many-guests = Zoznam hostí nie je možné zobraziť, pretože obsahuje viac ako 50 hostí.
 calendar-dialog-description-label = Popis
 calendar-dialog-description-expand-icon =
     .alt = Zobraziť celý popis
+calendar-dialog-menu-duplicate =
+    .label = Duplikovať udalosť
+calendar-dialog-menu-delete =
+    .label = Odstrániť udalosť
+calendar-dialog-menu-print =
+    .label = Tlačiť
+calendar-dialog-menu =
+    .aria-label = Ponuka Ďalšie akcie
+    .title = Ponuka Ďalšie akcie
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -49,3 +83,22 @@ calendar-dialog-accept-tentative = Možno
     .title = Možno
 calendar-dialog-decline = Nezúčastním sa
     .title = Nezúčastním sa
+calendar-dialog-join-meeting-button = Pripojiť sa k stretnutiu
+calendar-dialog-join-meeting-row-icon =
+    .alt = Pripojiť sa k stretnutiu
+calendar-dialog-attachments-row-icon =
+    .alt = Prílohy
+calendar-dialog-attachments-label = Prílohy
+calendar-dialog-attachment-link-icon =
+    .alt = Pripojená príloha
+calendar-dialog-attachments-expand-icon =
+    .alt = Zobraziť všetky prílohy
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } príloha
+        [few] { $count } prílohy
+        [many] { $count } príloh
+       *[other] { $count } príloh
+    }

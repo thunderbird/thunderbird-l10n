@@ -1017,6 +1017,23 @@ qr-export-more-accounts = Exportovať ďalšie účty
 ## Appearance Tab
 
 appearance-category-header = Vzhľad
+accent-color-label =
+    .value = Definujte farbu použitú pre hlavné tlačidlá a zvýraznené prvky:
+accent-color-os =
+    .label = Nasledovať operačný systém
+accent-color-thunderbird =
+    .label = Thunderbird modrá
+accent-color-purple =
+    .label = Fialová
+accent-color-orange =
+    .label = Oranžová
+accent-color-pink =
+    .label = Ružová
+accent-color-ink =
+    .label = Atramentová
+accent-color-teal =
+    .label = Tyrkysová
+accent-color-disabled-description = Zvýrazňovacie farby nie sú v režime vysokého kontrastu podporované.
 default-message-list-legend = Zoznam správ
 appearance-view-style =
     .value = Štýl zobrazenia:
