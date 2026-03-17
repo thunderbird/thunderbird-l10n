@@ -233,12 +233,16 @@ threadpane-column-label-select =
     .label = Vel meldingar
 threadpane-cell-select =
     .aria-label = Vel melding
+threadpane-column-header-a11y-thread =
+    .aria-label = Trådstatus
 threadpane-column-header-thread =
     .title = Slå meldingstrådar av eller på
 threadpane-column-label-thread =
     .label = Tråd
 threadpane-cell-thread =
     .aria-label = Trådstatus
+threadpane-column-header-a11y-flagged =
+    .aria-label = Stjernemarkert
 threadpane-column-header-flagged =
     .title = Sorter etter: Stjerne
 threadpane-column-label-flagged =
@@ -255,6 +259,8 @@ threadpane-column-label-attachments =
 threadpane-cell-attachments =
     .aria-label = Vedlegg
 threadpane-attachments-cell-label = Vedlegg
+threadpane-column-header-a11y-spam =
+    .aria-label = Søppelpost
 threadpane-column-header-spam =
     .title = Sorter etter søppelpoststatus
 threadpane-column-label-spam =
@@ -437,6 +443,8 @@ threadpane-column-label-id =
 threadpane-cell-id-title =
     .aria-label = Rekkjefølgje mottatt
     .title = { $title }
+threadpane-column-header-a11y-delete =
+    .aria-label = Slett
 threadpane-column-header-delete =
     .title = Slett ei melding
 threadpane-column-label-delete =
@@ -450,6 +458,8 @@ threadpane-replies =
         [one] { $count } svar
        *[other] { $count } svar
     }
+threadpane-column-header-a11y-select =
+    .aria-label = Vel meldingar
 
 ## Message state variations
 
