@@ -46,24 +46,42 @@ about-addressbook-name-format-lastfirst =
 
 about-addressbook-column-label-generatedname2 =
     .label = B'i'aj
+about-addressbook-column-header-a11y-emailaddresses2 =
+    .aria-label = Kochochib'al Taqoya'l
 about-addressbook-column-label-emailaddresses2 =
     .label = Kochochib'al Taqoya'l
+about-addressbook-column-header-a11y-nickname2 =
+    .aria-label = Tz'ukun b'i'aj
 about-addressbook-column-label-nickname2 =
     .label = Tz'ukun b'i'aj
+about-addressbook-column-header-a11y-phonenumbers2 =
+    .aria-label = Rajilab'al Oyonib'äl
 about-addressbook-column-label-phonenumbers2 =
     .label = Rajilab'al Oyonib'äl
+about-addressbook-column-header-a11y-addresses2 =
+    .aria-label = Taq ochochib'äl
 about-addressbook-column-label-addresses2 =
     .label = Taq ochochib'äl
+about-addressbook-column-header-a11y-title2 =
+    .aria-label = B'i'aj
 about-addressbook-column-label-title2 =
     .label = B'i'aj
+about-addressbook-column-header-a11y-department2 =
+    .aria-label = Tinamital
 about-addressbook-column-label-department2 =
     .label = Tinamital
+about-addressbook-column-header-a11y-organization2 =
+    .aria-label = Moloj
 about-addressbook-column-label-organization2 =
     .label = Moloj
+about-addressbook-column-header-a11y-addrbook2 =
+    .aria-label = Kiwujil Ochochib'äl
 about-addressbook-column-label-addrbook2 =
     .label = Kiwujil Ochochib'äl
 about-addressbook-cards-context-write =
     .label = Titz'ib'äx
+about-addressbook-column-header-a11y-generatedname2 =
+    .aria-label = B'i'aj
 
 ## Card list placeholder
 ## Shown when there are no cards in the list

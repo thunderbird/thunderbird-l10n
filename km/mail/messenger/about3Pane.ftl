@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -109,74 +112,110 @@ folder-pane-mode-context-toggle-compact-mode =
 
 threadpane-column-label-thread =
     .label = Թեմատիկա
+threadpane-column-header-a11y-flagged =
+    .aria-label = Starred
 threadpane-column-header-flagged =
     .title = តម្រៀប​តាម​ផ្កាយ
 threadpane-column-label-flagged =
     .label = Starred
+threadpane-column-header-a11y-attachments =
+    .aria-label = ឯកសារ​ភ្ជាប់
 threadpane-column-header-attachments =
     .title = តម្រៀប​តាម​ឯកសារ​ភ្ជាប់
 threadpane-column-label-attachments =
     .label = ឯកសារ​ភ្ជាប់
+threadpane-column-header-a11y-sender =
+    .aria-label = From
 threadpane-column-header-sender = From
     .title = តម្រៀប​​តាម​ពី
 threadpane-column-label-sender =
     .label = From
+threadpane-column-header-a11y-recipient =
+    .aria-label = Ստացողը
 threadpane-column-header-recipient = Ստացողը
     .title = តម្រៀប​តាម​អ្នក​ទទួល
 threadpane-column-label-recipient =
     .label = Ստացողը
+threadpane-column-header-a11y-correspondents =
+    .aria-label = អ្នក​ឆ្លើយឆ្លង
 threadpane-column-header-correspondents = អ្នក​ឆ្លើយឆ្លង
     .title = តម្រៀប​តាម​ការ​ឆ្លើយតប
 threadpane-column-label-correspondents =
     .label = អ្នក​ឆ្លើយឆ្លង
+threadpane-column-header-a11y-subject =
+    .aria-label = Subject
 threadpane-column-header-subject = Subject
     .title = តម្រៀប​តាម​ប្រធានបទ
 threadpane-column-label-subject =
     .label = Subject
+threadpane-column-header-a11y-date =
+    .aria-label = Date
 threadpane-column-header-date = Date
     .title = តម្រៀប​តាម​កាលបរិច្ឆេទ​
 threadpane-column-label-date =
     .label = Date
+threadpane-column-header-a11y-received =
+    .aria-label = Received
 threadpane-column-header-received = Received
     .title = តម្រៀប​តាម​កាលបរិច្ឆេទ​ដែល​បាន​ទទួល
 threadpane-column-label-received =
     .label = Received
+threadpane-column-header-a11y-status =
+    .aria-label = Վիճակը
 threadpane-column-header-status = Վիճակը
     .title = តម្រៀប​តាម​ស្ថានភាព
 threadpane-column-label-status =
     .label = Վիճակը
+threadpane-column-header-a11y-size =
+    .aria-label = Size
 threadpane-column-header-size = Size
     .title = តម្រៀប​តាម​ទំហំ​
 threadpane-column-label-size =
     .label = Size
+threadpane-column-header-a11y-tags =
+    .aria-label = Tag
 threadpane-column-header-tags = Tag
     .title = តម្រៀប​តាម​ស្លាក
 threadpane-column-label-tags =
     .label = Tag
+threadpane-column-header-a11y-account =
+    .aria-label = Account
 threadpane-column-header-account = Account
     .title = តម្រៀប​តាម​គណនី
 threadpane-column-label-account =
     .label = Account
+threadpane-column-header-a11y-priority =
+    .aria-label = Priority
 threadpane-column-header-priority = Priority
     .title = តម្រៀប​តាម​អាទិភាព
 threadpane-column-label-priority =
     .label = Priority
+threadpane-column-header-a11y-unread =
+    .aria-label = មិនទាន់​អាន
 threadpane-column-header-unread = មិនទាន់​អាន
     .title = Number of unread messages in thread
 threadpane-column-label-unread =
     .label = មិនទាន់​អាន
+threadpane-column-header-a11y-total =
+    .aria-label = សរុប
 threadpane-column-header-total = សរុប
     .title = Total number of messages in thread
 threadpane-column-label-total =
     .label = សរុប
+threadpane-column-header-a11y-location =
+    .aria-label = Location
 threadpane-column-header-location = Location
     .title = តម្រៀប​តាម​ទីតាំង
 threadpane-column-label-location =
     .label = Location
+threadpane-column-header-a11y-id =
+    .aria-label = Order Received
 threadpane-column-header-id = Order Received
     .title = តម្រៀប​តាម​លំដាប់​​បាន​ទទួល
 threadpane-column-label-id =
     .label = Order Received
+threadpane-column-header-a11y-delete =
+    .aria-label = លុប
 threadpane-column-header-delete =
     .title = លុបសារមួយ
 threadpane-column-label-delete =
@@ -201,3 +240,6 @@ apply-current-columns-to-folder-message = អនុវត្ត​ជួរឈ�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = អនុវត្ត​ជួរឈរ​របស់​ថត​​បច្ចុប្បន្ន​ទៅ { $name } និង​ថត​តូចៗ​របស់​វា​ឬ?
+
+## Folder pane context menu
+

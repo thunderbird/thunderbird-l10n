@@ -59,30 +59,44 @@ about-addressbook-column-header-generatedname2 = Vardas
     .title = Rikiuoti pagal vardą
 about-addressbook-column-label-generatedname2 =
     .label = Vardas
+about-addressbook-column-header-a11y-emailaddresses2 =
+    .aria-label = El. pašto adresai
 about-addressbook-column-header-emailaddresses2 = El. pašto adresai
     .title = Rikiuoti pagal el. pašto adresus
 about-addressbook-column-label-emailaddresses2 =
     .label = El. pašto adresai
+about-addressbook-column-header-a11y-nickname2 =
+    .aria-label = Slapyvardis
 about-addressbook-column-header-nickname2 = Slapyvardis
     .title = Rikiuoti pagal slapyvardį
 about-addressbook-column-label-nickname2 =
     .label = Slapyvardis
+about-addressbook-column-header-a11y-phonenumbers2 =
+    .aria-label = Telefonų numeriai
 about-addressbook-column-header-phonenumbers2 = Telefonų numeriai
     .title = Rikiuoti pagal telefonų numerius
 about-addressbook-column-label-phonenumbers2 =
     .label = Telefonų numeriai
+about-addressbook-column-header-a11y-addresses2 =
+    .aria-label = Adresai
 about-addressbook-column-header-addresses2 = Adresai
     .title = Rikiuoti pagal adresus
 about-addressbook-column-label-addresses2 =
     .label = Adresai
+about-addressbook-column-header-a11y-department2 =
+    .aria-label = Padalinys
 about-addressbook-column-header-department2 = Padalinys
     .title = Rikiuoti pagal padalinį
 about-addressbook-column-label-department2 =
     .label = Padalinys
+about-addressbook-column-header-a11y-organization2 =
+    .aria-label = Organizacija
 about-addressbook-column-header-organization2 = Organizacija
     .title = Rikiuoti pagal organizaciją
 about-addressbook-column-label-organization2 =
     .label = Organizacija
+about-addressbook-column-header-a11y-addrbook2 =
+    .aria-label = Adresų knyga
 about-addressbook-column-header-addrbook2 = Adresų knyga
     .title = Rikiuoti pagal adresų knygą
 about-addressbook-column-label-addrbook2 =
@@ -101,6 +115,8 @@ about-addressbook-confirm-delete-contacts-title =
 # Variables:
 # $name (String) - The name of the contact to be deleted.
 about-addressbook-confirm-delete-contacts-single = Ar tikrai norite pašalinti adresatą { $name }?
+about-addressbook-column-header-a11y-generatedname2 =
+    .aria-label = Vardas
 
 ## Card list placeholder
 ## Shown when there are no cards in the list

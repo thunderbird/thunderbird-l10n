@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -110,66 +113,98 @@ folder-pane-mode-context-toggle-compact-mode =
 
 threadpane-column-label-thread =
     .label = נושא דיון
+threadpane-column-header-a11y-flagged =
+    .aria-label = מסומנת בכוכבית
 threadpane-column-header-flagged =
     .title = מיון לפי כוכבית
 threadpane-column-label-flagged =
     .label = מסומנת בכוכבית
+threadpane-column-header-a11y-attachments =
+    .aria-label = נספחים
 threadpane-column-header-attachments =
     .title = מיון לפי קבצים מצורפים
 threadpane-column-label-attachments =
     .label = נספחים
+threadpane-column-header-a11y-sender =
+    .aria-label = מאת
 threadpane-column-header-sender = מאת
     .title = מיון לפי מאת
 threadpane-column-label-sender =
     .label = מאת
+threadpane-column-header-a11y-recipient =
+    .aria-label = נמען
 threadpane-column-header-recipient = נמען
     .title = מיון לפי נמען
 threadpane-column-label-recipient =
     .label = נמען
+threadpane-column-header-a11y-subject =
+    .aria-label = נושא
 threadpane-column-header-subject = נושא
     .title = מיון לפי נושא
 threadpane-column-label-subject =
     .label = נושא
+threadpane-column-header-a11y-date =
+    .aria-label = תאריך
 threadpane-column-header-date = תאריך
     .title = מיון לפי תאריך
 threadpane-column-label-date =
     .label = תאריך
+threadpane-column-header-a11y-received =
+    .aria-label = התקבלה
 threadpane-column-header-received = התקבלה
     .title = מיון לפי תאריך הקבלה
 threadpane-column-label-received =
     .label = התקבלה
+threadpane-column-header-a11y-status =
+    .aria-label = מצב
 threadpane-column-header-status = מצב
     .title = מיון לפי מצב
 threadpane-column-label-status =
     .label = מצב
+threadpane-column-header-a11y-size =
+    .aria-label = גודל
 threadpane-column-header-size = גודל
     .title = מיון לפי גודל
 threadpane-column-label-size =
     .label = גודל
+threadpane-column-header-a11y-tags =
+    .aria-label = תווית
 threadpane-column-header-tags = תווית
     .title = מיון לפי תגיות
 threadpane-column-label-tags =
     .label = תווית
+threadpane-column-header-a11y-account =
+    .aria-label = חשבון
 threadpane-column-header-account = חשבון
     .title = מיון לפי חשבון
 threadpane-column-label-account =
     .label = חשבון
+threadpane-column-header-a11y-priority =
+    .aria-label = עדיפות
 threadpane-column-header-priority = עדיפות
     .title = מיון לפי עדיפות
 threadpane-column-label-priority =
     .label = עדיפות
+threadpane-column-header-a11y-unread =
+    .aria-label = לא נקראה
 threadpane-column-header-unread = לא נקראה
     .title = מספר ההודעות שלא נקראו בנושא דיון
 threadpane-column-label-unread =
     .label = לא נקראה
+threadpane-column-header-a11y-total =
+    .aria-label = סה״כ
 threadpane-column-header-total = סה״כ
     .title = סך כל ההודעות בנושא דיון
 threadpane-column-label-total =
     .label = סה״כ
+threadpane-column-header-a11y-location =
+    .aria-label = מיקום
 threadpane-column-header-location = מיקום
     .title = מיון לפי מיקום
 threadpane-column-label-location =
     .label = מיקום
+threadpane-column-header-a11y-id =
+    .aria-label = סדר הגעה
 threadpane-column-header-id = סדר הגעה
     .title = מיון לפי סדר הקבלה
 threadpane-column-label-id =
@@ -192,3 +227,6 @@ apply-current-columns-to-folder-message = להחיל שינויים של עמו�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = להחיל שינויים של עמודות התיקייה הנוכחית אל { $name } ותיקיות המשנה שלה?
+
+## Folder pane context menu
+

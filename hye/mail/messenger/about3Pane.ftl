@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -117,78 +120,116 @@ threadpane-column-label-select =
     .label = Ընտրել Նամակներ
 threadpane-column-label-thread =
     .label = Քննարկում
+threadpane-column-header-a11y-flagged =
+    .aria-label = Աստղանշուած
 threadpane-column-header-flagged =
     .title = Տեսակաւորել ըստ՝ աստղանշուածների
 threadpane-column-label-flagged =
     .label = Աստղանշուած
+threadpane-column-header-a11y-attachments =
+    .aria-label = Կցորդներ
 threadpane-column-header-attachments =
     .title = Տեսակաւորել ըստ՝ կցորդների
 threadpane-column-label-attachments =
     .label = Կցորդներ
+threadpane-column-header-a11y-sender =
+    .aria-label = Ումից
 threadpane-column-header-sender = Ումից
     .title = Տեսակաւորել ըստ՝ ումից
 threadpane-column-label-sender =
     .label = Ումից
+threadpane-column-header-a11y-recipient =
+    .aria-label = Ստացողը
 threadpane-column-header-recipient = Ստացողը
     .title = Տեսակաւորել ըստ՝ ստացողի
 threadpane-column-label-recipient =
     .label = Ստացողը
+threadpane-column-header-a11y-correspondents =
+    .aria-label = Թղթակիցներ
 threadpane-column-header-correspondents = Թղթակիցներ
     .title = Տեսակաւորել ըստ՝ թղթակիցների
 threadpane-column-label-correspondents =
     .label = Թղթակիցներ
+threadpane-column-header-a11y-subject =
+    .aria-label = Վերնագիր
 threadpane-column-header-subject = Վերնագիր
     .title = Տեսակաւորել ըստ՝ վերնագրի
 threadpane-column-label-subject =
     .label = Վերնագիր
+threadpane-column-header-a11y-date =
+    .aria-label = Ամսաթիւ
 threadpane-column-header-date = Ամսաթիւ
     .title = Տեսակաւորել ըստ՝ ամսաթուի
 threadpane-column-label-date =
     .label = Ամսաթիւ
+threadpane-column-header-a11y-received =
+    .aria-label = Ստացուած
 threadpane-column-header-received = Ստացուած
     .title = Տեսակաւորել ըստ՝ ստացման ամսաթուի
 threadpane-column-label-received =
     .label = Ստացուած
+threadpane-column-header-a11y-status =
+    .aria-label = Կարգավիճակ
 threadpane-column-header-status = Կարգավիճակ
     .title = Տեսակաւորել ըստ՝ կարգավիճակի
 threadpane-column-label-status =
     .label = Կարգավիճակ
+threadpane-column-header-a11y-size =
+    .aria-label = Չափը
 threadpane-column-header-size = Չափը
     .title = Տեսակաւորել ըստ՝ չափի
 threadpane-column-label-size =
     .label = Չափը
+threadpane-column-header-a11y-tags =
+    .aria-label = Պիտակ
 threadpane-column-header-tags = Պիտակ
     .title = Տեսակաւորել ըստ՝ պիտակի
 threadpane-column-label-tags =
     .label = Պիտակ
+threadpane-column-header-a11y-account =
+    .aria-label = Հաշիւ
 threadpane-column-header-account = Հաշիւ
     .title = Տեսակաւորել ըստ՝ հաշուի
 threadpane-column-label-account =
     .label = Հաշիւ
+threadpane-column-header-a11y-priority =
+    .aria-label = Առաջնահերթը
 threadpane-column-header-priority = Առաջնահերթը
     .title = Տեսակաւորել ըստ՝ առաջնահերթութեան
 threadpane-column-label-priority =
     .label = Առաջնահերթը
+threadpane-column-header-a11y-unread =
+    .aria-label = Չընթերցուած
 threadpane-column-header-unread = Չընթերցուած
     .title = Չընթերցուած նամակների քանակը շղթայում
 threadpane-column-label-unread =
     .label = Չընթերցուած
+threadpane-column-header-a11y-total =
+    .aria-label = Ընդամէնը
 threadpane-column-header-total = Ընդամէնը
     .title = Նամակների ընդհանուր քանակը ըստ շղթայի
 threadpane-column-label-total =
     .label = Ընդամէնը
+threadpane-column-header-a11y-location =
+    .aria-label = Տեղադրութիւնը
 threadpane-column-header-location = Տեղադրութիւնը
     .title = Տեսակաւորել ըստ՝ տեղադրութեան
 threadpane-column-label-location =
     .label = Տեղադրութիւնը
+threadpane-column-header-a11y-id =
+    .aria-label = Ինչպէս ստանալ
 threadpane-column-header-id = Ինչպէս ստանալ
     .title = Տեսակաւորել ըստ՝ ստացման կարգի
 threadpane-column-label-id =
     .label = Ինչպէս ստանալ
+threadpane-column-header-a11y-delete =
+    .aria-label = Ջնջել
 threadpane-column-header-delete =
     .title = Ջնջել նամակը
 threadpane-column-label-delete =
     .label = Ջնջել
+threadpane-column-header-a11y-select =
+    .aria-label = Ընտրել Նամակներ
 
 ## Message state variations
 
@@ -207,3 +248,6 @@ apply-current-columns-to-folder-message = Գործադրե՞լ ընթացիկ պ
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Կիրառե՞լ ընթացիկ պանակի սիւները { $name }-ին եւ նրա երեխաներին։
+
+## Folder pane context menu
+

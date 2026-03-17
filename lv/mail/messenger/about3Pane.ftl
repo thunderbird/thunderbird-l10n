@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -118,78 +121,116 @@ threadpane-column-label-select =
     .label = Atlasīt vēstules
 threadpane-column-label-thread =
     .label = Pavediens
+threadpane-column-header-a11y-flagged =
+    .aria-label = Zvaigžņotas
 threadpane-column-header-flagged =
     .title = Kārtot pēc zvaigznītēm
 threadpane-column-label-flagged =
     .label = Zvaigžņotas
+threadpane-column-header-a11y-attachments =
+    .aria-label = Pielikumi
 threadpane-column-header-attachments =
     .title = Kārtot pēc pielikumiem
 threadpane-column-label-attachments =
     .label = Pielikumi
+threadpane-column-header-a11y-sender =
+    .aria-label = No
 threadpane-column-header-sender = No
     .title = Kārtot pēc formas
 threadpane-column-label-sender =
     .label = No
+threadpane-column-header-a11y-recipient =
+    .aria-label = Saņēmējs
 threadpane-column-header-recipient = Saņēmējs
     .title = Kārtot pēc saņēmēja
 threadpane-column-label-recipient =
     .label = Saņēmējs
+threadpane-column-header-a11y-correspondents =
+    .aria-label = Korespondenti
 threadpane-column-header-correspondents = Korespondenti
     .title = Kārtot pēc korespondentiem
 threadpane-column-label-correspondents =
     .label = Korespondenti
+threadpane-column-header-a11y-subject =
+    .aria-label = Temats
 threadpane-column-header-subject = Temats
     .title = Kārtot pēc tēmas
 threadpane-column-label-subject =
     .label = Temats
+threadpane-column-header-a11y-date =
+    .aria-label = Datums
 threadpane-column-header-date = Datums
     .title = Kārtot pēc datuma
 threadpane-column-label-date =
     .label = Datums
+threadpane-column-header-a11y-received =
+    .aria-label = Saņemts
 threadpane-column-header-received = Saņemts
     .title = Kārtot pēc saņemšanas laika
 threadpane-column-label-received =
     .label = Saņemts
+threadpane-column-header-a11y-status =
+    .aria-label = Statuss
 threadpane-column-header-status = Statuss
     .title = Kārtot pēc statusa
 threadpane-column-label-status =
     .label = Statuss
+threadpane-column-header-a11y-size =
+    .aria-label = Izmērs
 threadpane-column-header-size = Izmērs
     .title = Kārtot pēc izmēra
 threadpane-column-label-size =
     .label = Izmērs
+threadpane-column-header-a11y-tags =
+    .aria-label = Birka
 threadpane-column-header-tags = Birka
     .title = Kārtot pēc birkām
 threadpane-column-label-tags =
     .label = Birka
+threadpane-column-header-a11y-account =
+    .aria-label = Konts
 threadpane-column-header-account = Konts
     .title = Kārtot pēc konta
 threadpane-column-label-account =
     .label = Konts
+threadpane-column-header-a11y-priority =
+    .aria-label = Prioritāte
 threadpane-column-header-priority = Prioritāte
     .title = Kārtot pēc prioritātes
 threadpane-column-label-priority =
     .label = Prioritāte
+threadpane-column-header-a11y-unread =
+    .aria-label = Nelasītas
 threadpane-column-header-unread = Nelasītas
     .title = Nelasītu vēstuļu skaits pavedienā
 threadpane-column-label-unread =
     .label = Nelasītas
+threadpane-column-header-a11y-total =
+    .aria-label = Kopā
 threadpane-column-header-total = Kopā
     .title = Kopējais vēstuļu skaits pavedienā
 threadpane-column-label-total =
     .label = Kopā
+threadpane-column-header-a11y-location =
+    .aria-label = Atrašanās vieta
 threadpane-column-header-location = Atrašanās vieta
     .title = Kārtot pēc atrašanās vietas
 threadpane-column-label-location =
     .label = Atrašanās vieta
+threadpane-column-header-a11y-id =
+    .aria-label = Pieprasījums saņemts
 threadpane-column-header-id = Pieprasījums saņemts
     .title = Kārtot pēc pieprasījuma saņemšanas
 threadpane-column-label-id =
     .label = Pieprasījums saņemts
+threadpane-column-header-a11y-delete =
+    .aria-label = Dzēst
 threadpane-column-header-delete =
     .title = Dzēst vēstuli
 threadpane-column-label-delete =
     .label = Dzēst
+threadpane-column-header-a11y-select =
+    .aria-label = Atlasīt vēstules
 
 ## Message state variations
 
@@ -208,3 +249,6 @@ apply-current-columns-to-folder-message = Vai pielietot pašreizējās mapes kol
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Vai pielietot pašreizējās mapes kolonnas { $name } un tās bērniem?
+
+## Folder pane context menu
+
