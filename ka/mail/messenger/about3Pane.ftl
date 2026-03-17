@@ -232,12 +232,16 @@ threadpane-column-label-select =
     .label = წერილების შერჩევა
 threadpane-cell-select =
     .aria-label = წერილის მონიშვნა
+threadpane-column-header-a11y-thread =
+    .aria-label = მიმოწერის მდგომარეობა
 threadpane-column-header-thread =
     .title = მიმოწერების გადართვა
 threadpane-column-label-thread =
     .label = მიმოწერა
 threadpane-cell-thread =
     .aria-label = მიმოწერის მდგომარეობა
+threadpane-column-header-a11y-flagged =
+    .aria-label = ალამი
 threadpane-column-header-flagged =
     .title = ვარსკვლავის მიხედვით
 threadpane-column-label-flagged =
@@ -245,6 +249,8 @@ threadpane-column-label-flagged =
 threadpane-cell-flagged =
     .aria-label = ვარსკვლავიანი
 threadpane-flagged-cell-label = ვარსკვლავიანი
+threadpane-column-header-a11y-attachments =
+    .aria-label = დანართები
 threadpane-column-header-attachments =
     .title = დანართების მიხედვით
 threadpane-column-label-attachments =
@@ -415,6 +421,8 @@ threadpane-replies =
         [one] { $count } პასუხი
        *[other] { $count } პასუხი
     }
+threadpane-column-header-a11y-select =
+    .aria-label = წერილების შერჩევა
 
 ## Message state variations
 
