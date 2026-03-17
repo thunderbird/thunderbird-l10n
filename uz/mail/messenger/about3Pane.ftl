@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -113,70 +116,104 @@ folder-pane-mode-context-toggle-compact-mode =
 
 threadpane-column-label-thread =
     .label = Yozishma
+threadpane-column-header-a11y-flagged =
+    .aria-label = Yulduz qo‘yilgan
 threadpane-column-header-flagged =
     .title = Yulduz bo‘yicha saralash
 threadpane-column-label-flagged =
     .label = Yulduz qo‘yilgan
+threadpane-column-header-a11y-attachments =
+    .aria-label = Ilovalar
 threadpane-column-header-attachments =
     .title = Ilovalar bo‘yicha saralash
 threadpane-column-label-attachments =
     .label = Ilovalar
+threadpane-column-header-a11y-sender =
+    .aria-label = Jo‘natuvchi
 threadpane-column-header-sender = Jo‘natuvchi
     .title = Quyidagicha saralash
 threadpane-column-label-sender =
     .label = Jo‘natuvchi
+threadpane-column-header-a11y-recipient =
+    .aria-label = Qabul qiluvchi
 threadpane-column-header-recipient = Qabul qiluvchi
     .title = Qabul qiluvchi bo‘yicha saralash
 threadpane-column-label-recipient =
     .label = Qabul qiluvchi
+threadpane-column-header-a11y-correspondents =
+    .aria-label = Muxbirlar
 threadpane-column-header-correspondents = Muxbirlar
     .title = Muxbirlar bo‘yicha saralash
 threadpane-column-label-correspondents =
     .label = Muxbirlar
+threadpane-column-header-a11y-subject =
+    .aria-label = Mavzu
 threadpane-column-header-subject = Mavzu
     .title = Mavzusi bo‘yicha saralash
 threadpane-column-label-subject =
     .label = Mavzu
+threadpane-column-header-a11y-date =
+    .aria-label = Sana
 threadpane-column-header-date = Sana
     .title = Sanasi boʻyicha saralash
 threadpane-column-label-date =
     .label = Sana
+threadpane-column-header-a11y-received =
+    .aria-label = Qabul qilingan
 threadpane-column-header-received = Qabul qilingan
     .title = Qabul qilingan sanasi bo‘yicha saralash
 threadpane-column-label-received =
     .label = Qabul qilingan
+threadpane-column-header-a11y-status =
+    .aria-label = Holati
 threadpane-column-header-status = Holati
     .title = Holati bo‘yicha saralash
 threadpane-column-label-status =
     .label = Holati
+threadpane-column-header-a11y-size =
+    .aria-label = Hajmi
 threadpane-column-header-size = Hajmi
     .title = Hajmi bo‘yicha saralash
 threadpane-column-label-size =
     .label = Hajmi
+threadpane-column-header-a11y-tags =
+    .aria-label = Teg
 threadpane-column-header-tags = Teg
     .title = Teglar bo‘yicha saralash
 threadpane-column-label-tags =
     .label = Teg
+threadpane-column-header-a11y-account =
+    .aria-label = Hisob
 threadpane-column-header-account = Hisob
     .title = Hisob bo‘yicha saralash
 threadpane-column-label-account =
     .label = Hisob
+threadpane-column-header-a11y-priority =
+    .aria-label = Muhimlik darajasi
 threadpane-column-header-priority = Muhimlik darajasi
     .title = Muhimligi bo‘yicha saralash
 threadpane-column-label-priority =
     .label = Muhimlik darajasi
+threadpane-column-header-a11y-unread =
+    .aria-label = Oʻqilmagan
 threadpane-column-header-unread = Oʻqilmagan
     .title = Yozishmalardagi o‘qilmagan xabarlar miqdori
 threadpane-column-label-unread =
     .label = Oʻqilmagan
+threadpane-column-header-a11y-total =
+    .aria-label = Jami
 threadpane-column-header-total = Jami
     .title = Yozishmalardagi xabarlarning jami miqdori
 threadpane-column-label-total =
     .label = Jami
+threadpane-column-header-a11y-location =
+    .aria-label = Manzili
 threadpane-column-header-location = Manzili
     .title = Manzil bo‘yicha saralash
 threadpane-column-label-location =
     .label = Manzili
+threadpane-column-header-a11y-id =
+    .aria-label = Qabul qilish tartibi
 threadpane-column-header-id = Qabul qilish tartibi
     .title = Qabul qilingan tartibi bo‘yicha saralash
 threadpane-column-label-id =
@@ -199,3 +236,6 @@ apply-current-columns-to-folder-message = Joriy jildning ustunlari { $name }’g
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Joriy jildning ustunlari { $name } va ichidagilarga qo‘llansinmi?
+
+## Folder pane context menu
+
