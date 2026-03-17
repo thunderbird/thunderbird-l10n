@@ -71,6 +71,8 @@ about-addressbook-table-layout =
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-header-a11y-addrbook2 =
+    .aria-label = Հասցեագիրք
 about-addressbook-column-label-addrbook2 =
     .label = Հասցեագիրք
 about-addressbook-cards-context-write =
