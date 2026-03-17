@@ -66,34 +66,50 @@ about-addressbook-column-header-generatedname2 = Назив
     .title = Поређај по називу
 about-addressbook-column-label-generatedname2 =
     .label = Назив
+about-addressbook-column-header-a11y-emailaddresses2 =
+    .aria-label = Адресе е-поште
 about-addressbook-column-header-emailaddresses2 = Адресе е-поште
     .title = Поређај по адреси е-поште
 about-addressbook-column-label-emailaddresses2 =
     .label = Адресе е-поште
+about-addressbook-column-header-a11y-nickname2 =
+    .aria-label = Надимак
 about-addressbook-column-header-nickname2 = Надимак
     .title = Поређај по надимку
 about-addressbook-column-label-nickname2 =
     .label = Надимак
+about-addressbook-column-header-a11y-phonenumbers2 =
+    .aria-label = Бројеви телефона
 about-addressbook-column-header-phonenumbers2 = Бројеви телефона
     .title = Поређај по бројевима телефона
 about-addressbook-column-label-phonenumbers2 =
     .label = Бројеви телефона
+about-addressbook-column-header-a11y-addresses2 =
+    .aria-label = Адресе
 about-addressbook-column-header-addresses2 = Адресе
     .title = Поређај по адресама
 about-addressbook-column-label-addresses2 =
     .label = Адресе
+about-addressbook-column-header-a11y-title2 =
+    .aria-label = Наслов
 about-addressbook-column-header-title2 = Наслов
     .title = Поређај по наслову
 about-addressbook-column-label-title2 =
     .label = Наслов
+about-addressbook-column-header-a11y-department2 =
+    .aria-label = Одељење
 about-addressbook-column-header-department2 = Одељење
     .title = Поређај по одељењу
 about-addressbook-column-label-department2 =
     .label = Одељење
+about-addressbook-column-header-a11y-organization2 =
+    .aria-label = Организација
 about-addressbook-column-header-organization2 = Организација
     .title = Поређај по организацији
 about-addressbook-column-label-organization2 =
     .label = Организација
+about-addressbook-column-header-a11y-addrbook2 =
+    .aria-label = Именик
 about-addressbook-column-header-addrbook2 = Именик
     .title = Поређај по именику
 about-addressbook-column-label-addrbook2 =
@@ -109,6 +125,8 @@ about-addressbook-confirm-remove-contacts-title =
         [few] Уклони контакте
        *[other] Уклони контакте
     }
+about-addressbook-column-header-a11y-generatedname2 =
+    .aria-label = Назив
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
