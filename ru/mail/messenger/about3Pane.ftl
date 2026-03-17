@@ -238,6 +238,8 @@ threadpane-column-label-select =
     .label = Выберите сообщения
 threadpane-cell-select =
     .aria-label = Выберите сообщение
+threadpane-column-header-a11y-thread =
+    .aria-label = Статус темы
 threadpane-column-header-thread =
     .title = Переключить просмотр сообщений по обсуждениям
 threadpane-column-label-thread =
@@ -251,6 +253,8 @@ threadpane-column-label-flagged =
 threadpane-cell-flagged =
     .aria-label = Звезда
 threadpane-flagged-cell-label = Звёздочка
+threadpane-column-header-a11y-attachments =
+    .aria-label = Вложения
 threadpane-column-header-attachments =
     .title = Упорядочивать по наличию вложений
 threadpane-column-label-attachments =
@@ -258,6 +262,8 @@ threadpane-column-label-attachments =
 threadpane-cell-attachments =
     .aria-label = Вложения
 threadpane-attachments-cell-label = Вложения
+threadpane-column-header-a11y-spam =
+    .aria-label = Спам
 threadpane-column-header-spam =
     .title = Сортировать по статусу спама
 threadpane-column-label-spam =
@@ -265,6 +271,8 @@ threadpane-column-label-spam =
 threadpane-cell-spam =
     .aria-label = Статус спама
 threadpane-spam-cell-label = Спам
+threadpane-column-header-a11y-unread-button =
+    .aria-label = Статус прочтения
 threadpane-column-header-unread-button =
     .title = Сортировать по статусу чтения
 threadpane-column-label-unread-button =
@@ -273,6 +281,8 @@ threadpane-cell-read-status =
     .aria-label = Статус прочтения
 threadpane-read-cell-label = Прочитано
 threadpane-unread-cell-label = Непрочитано
+threadpane-column-header-a11y-sender =
+    .aria-label = От
 threadpane-column-header-sender = От
     .title = Упорядочивать по автору
 threadpane-column-label-sender =
@@ -422,6 +432,8 @@ threadpane-replies =
         [few] { $count } ответа
        *[many] { $count } ответов
     }
+threadpane-column-header-a11y-select =
+    .aria-label = Выберите сообщения
 
 ## Message state variations
 
