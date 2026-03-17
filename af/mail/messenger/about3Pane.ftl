@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -92,32 +95,60 @@ folder-pane-get-all-messages-menuitem =
 
 threadpane-column-label-thread =
     .label = Draad
+threadpane-column-header-a11y-flagged =
+    .aria-label = Gevlag
 threadpane-column-label-flagged =
     .label = Gevlag
+threadpane-column-header-a11y-attachments =
+    .aria-label = Aanhegsels
 threadpane-column-label-attachments =
     .label = Aanhegsels
+threadpane-column-header-a11y-sender =
+    .aria-label = Van
 threadpane-column-label-sender =
     .label = Van
+threadpane-column-header-a11y-recipient =
+    .aria-label = Ontvanger
 threadpane-column-label-recipient =
     .label = Ontvanger
+threadpane-column-header-a11y-subject =
+    .aria-label = Onderwerp
 threadpane-column-label-subject =
     .label = Onderwerp
+threadpane-column-header-a11y-date =
+    .aria-label = Datum
 threadpane-column-label-date =
     .label = Datum
+threadpane-column-header-a11y-received =
+    .aria-label = Ontvang
 threadpane-column-label-received =
     .label = Ontvang
+threadpane-column-header-a11y-status =
+    .aria-label = Status
 threadpane-column-label-status =
     .label = Status
+threadpane-column-header-a11y-size =
+    .aria-label = Grootte
 threadpane-column-label-size =
     .label = Grootte
+threadpane-column-header-a11y-tags =
+    .aria-label = Merker
 threadpane-column-label-tags =
     .label = Merker
+threadpane-column-header-a11y-account =
+    .aria-label = Rekening
 threadpane-column-label-account =
     .label = Rekening
+threadpane-column-header-a11y-priority =
+    .aria-label = Prioriteit
 threadpane-column-label-priority =
     .label = Prioriteit
+threadpane-column-header-a11y-location =
+    .aria-label = Ligging
 threadpane-column-label-location =
     .label = Ligging
+threadpane-column-header-a11y-id =
+    .aria-label = Volgorde ontvang
 threadpane-column-label-id =
     .label = Volgorde ontvang
 
@@ -138,3 +169,6 @@ apply-current-columns-to-folder-message = Pas die huidige vouer se kolomme toe o
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Pas die huidige vouer se kolomme toe op { $name } en sy kinders?
+
+## Folder pane context menu
+
