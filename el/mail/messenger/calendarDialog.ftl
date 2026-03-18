@@ -32,6 +32,10 @@ calendar-dialog-attendee-count =
     }
 calendar-dialog-attendee-organizer = Διοργανωτής
 calendar-dialog-attendee-optional = Προαιρετικό
+calendar-dialog-icon-attending =
+    .alt = Θα παρευρεθούν
+calendar-dialog-icon-declined =
+    .alt = Απέρριψαν
 calendar-dialog-icon-maybe =
     .alt = Ίσως
 calendar-dialog-attendees-expand-icon =
