@@ -1024,6 +1024,24 @@ qr-export-more-accounts = Көбірек тіркелгілерді экспор
 ## Appearance Tab
 
 appearance-category-header = Сыртқы түрі
+accent-color-legend = Акценттік түс
+accent-color-label =
+    .value = Негізгі батырмалар мен ерекшеленген элементтер үшін қолданылатын түсті анықтаңыз:
+accent-color-os =
+    .label = Операциялық жүйеге еліктеу
+accent-color-thunderbird =
+    .label = Thunderbird көк
+accent-color-purple =
+    .label = Күлгін
+accent-color-orange =
+    .label = Қызғылт сары
+accent-color-pink =
+    .label = Қызғылт
+accent-color-ink =
+    .label = Сия
+accent-color-teal =
+    .label = Көкшіл
+accent-color-disabled-description = Жоғары контраст режимінде акценттік түстерге қолдау көрсетілмейді.
 default-message-list-legend = Хабарламалар тізімі
 appearance-view-style =
     .value = Қарау стилі:
