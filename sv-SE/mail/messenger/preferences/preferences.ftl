@@ -1020,6 +1020,24 @@ qr-export-more-accounts = Exportera fler konton
 ## Appearance Tab
 
 appearance-category-header = Utseende
+accent-color-legend = Accentfärg
+accent-color-label =
+    .value = Definiera färgen som används för primära knappar och markerade element:
+accent-color-os =
+    .label = Följ operativsystem
+accent-color-thunderbird =
+    .label = Thunderbird blå
+accent-color-purple =
+    .label = Lila
+accent-color-orange =
+    .label = Orange
+accent-color-pink =
+    .label = Rosa
+accent-color-ink =
+    .label = Bläck
+accent-color-teal =
+    .label = Blågrön
+accent-color-disabled-description = Accentfärger stöds inte i läget hög kontrast.
 default-message-list-legend = Meddelandelista
 appearance-view-style =
     .value = Vystil:
