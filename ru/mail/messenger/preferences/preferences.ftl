@@ -1028,6 +1028,9 @@ qr-export-more-accounts = Экспортировать другие учётны
 ## Appearance Tab
 
 appearance-category-header = Внешний вид
+accent-color-legend = Акцентный цвет
+accent-color-label =
+    .value = Укажите цвет, используемый для основных кнопок и подсвеченных элементов:
 default-message-list-legend = Список сообщений
 appearance-view-style =
     .value = Стиль просмотра:
