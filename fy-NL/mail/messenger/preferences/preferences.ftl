@@ -1024,6 +1024,24 @@ qr-export-more-accounts = Mear accounts eksportearje
 ## Appearance Tab
 
 appearance-category-header = Uterlik
+accent-color-legend = Aksintkleur
+accent-color-label =
+    .value = Definiearje de kleur dy’t brûkt wurdt foar primêre knoppen en markearre eleminten:
+accent-color-os =
+    .label = Bestjoeringssysteem folgje
+accent-color-thunderbird =
+    .label = Thunderbird-blau
+accent-color-purple =
+    .label = Pears
+accent-color-orange =
+    .label = Oranje
+accent-color-pink =
+    .label = Rôze
+accent-color-ink =
+    .label = Inket
+accent-color-teal =
+    .label = Blaugrien
+accent-color-disabled-description = Aksintkleuren wurde net stipe yn de modus Heech kontrast.
 default-message-list-legend = Berjochtelist
 appearance-view-style =
     .value = Werjeftestyl:
