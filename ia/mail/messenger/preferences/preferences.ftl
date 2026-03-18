@@ -1024,6 +1024,12 @@ qr-export-more-accounts = Exportar plus de contos
 ## Appearance Tab
 
 appearance-category-header = Apparentia
+accent-color-purple =
+    .label = Purpuree
+accent-color-orange =
+    .label = Orange
+accent-color-pink =
+    .label = Rosate
 default-message-list-legend = Lista de messages
 appearance-view-style =
     .value = Stilo de vista:
