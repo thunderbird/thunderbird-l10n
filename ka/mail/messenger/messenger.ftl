@@ -407,7 +407,7 @@ addon-removal-confirmation-button = მოცილება
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = მოცილდეს { $name } და გასუფთავდეს { -brand-short-name } მისი პარამეტრებისგან?
 caret-browsing-prompt-title = მაჩვენებლით გადაადგილება
-caret-browsing-prompt-text = F7 ღილაკით ჩაირთვება ტექსტში მაჩვენებლის გამოყენების შესაძლებლობა. შედეგად, სხვადასხვა ტექსტში გამოჩნდება მოციმციმე მაჩვენებელი, რომ შეიძლებოდეს კლავიატურით მონიშვნა. გსურთ, ტექსტებში მაჩვენებლის გამოყენება?
+caret-browsing-prompt-text = ღილაკით F7 ირთვება ნაწერში მაჩვენებლის გამოყენების შესაძლებლობა. შედეგად, გარკვეულ მასალათა წარწერებში შეიძლება განთავსდეს მოციმციმე მაჩვენებელი, თუნდაც კლავიატურით მონიშვნისთვის. გსურთ, ნაწერებში მაჩვენებლის გამოყენება?
 caret-browsing-prompt-check-text = შეკითხვის გარეშე.
 repair-text-encoding-button =
     .label = ტექსტის კოდირების გასწორება
