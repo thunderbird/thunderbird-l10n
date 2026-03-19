@@ -1020,7 +1020,7 @@ qr-export-more-accounts = Exportar más cuentas
 ## Appearance Tab
 
 appearance-category-header = Apariencia
-accent-color-legend = Color de énfasis
+accent-color-legend = Color de resaltado
 accent-color-label =
     .value = Definir el color usado para los botones primarios y elementos resaltados:
 accent-color-os =
@@ -1037,7 +1037,7 @@ accent-color-ink =
     .label = Tinta
 accent-color-teal =
     .label = Verde azulado
-accent-color-disabled-description = Los colores acentuados no son compatibles con el modo de contraste alto.
+accent-color-disabled-description = Los colores de resaltado no son compatibles con el modo de contraste alto.
 default-message-list-legend = Lista de mensajes
 appearance-view-style =
     .value = Estilo de vista:
