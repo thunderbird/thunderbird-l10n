@@ -1024,6 +1024,8 @@ qr-export-more-accounts = Exportar plus de contos
 ## Appearance Tab
 
 appearance-category-header = Apparentia
+accent-color-thunderbird =
+    .label = Thunderbird blau
 accent-color-purple =
     .label = Purpuree
 accent-color-orange =
