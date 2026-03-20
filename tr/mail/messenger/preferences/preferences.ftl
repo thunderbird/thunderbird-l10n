@@ -1023,6 +1023,8 @@ qr-export-more-accounts = Daha fazla hesabı dışa aktar
 
 appearance-category-header = Görünüm
 accent-color-legend = Vurgu rengi
+accent-color-label =
+    .value = Birincil düğmeler ve vurgulanan elemanlar için kullanılacak rengi belirleyin:
 accent-color-os =
     .label = İşletim sistemine uy
 accent-color-thunderbird =
