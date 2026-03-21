@@ -116,8 +116,8 @@ menu-view-folders-toggle-header =
 ## View / Layout
 
 menu-view-toggle-thread-pane-header =
-    .label = Hlavička seznamu zpráv
-    .accesskey = H
+    .label = Záhlaví seznamu zpráv
+    .accesskey = h
 menu-font-size-label =
     .label = Velikost písma
     .accesskey = o

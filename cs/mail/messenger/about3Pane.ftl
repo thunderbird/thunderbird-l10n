@@ -33,7 +33,7 @@ thread-pane-header-context-table-view =
 thread-pane-header-context-cards-view =
     .label = Zobrazení karet
 thread-pane-header-context-hide =
-    .label = Skrýt hlavičku seznamu zpráv
+    .label = Skrýt záhlaví seznamu zpráv
 
 ## Quick Filter Bar
 
