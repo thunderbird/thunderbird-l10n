@@ -75,15 +75,20 @@ items-pane-checkbox-accounts = Налози и подешавања
 items-pane-checkbox-address-books = Именици
 items-pane-checkbox-calendars = Календари
 items-pane-checkbox-mail-messages = Поруке е-поште
+items-pane-override = Постојећи или идентични подаци неће бити преписани.
+items-pane-nothing-to-import = Ништа се не може увести из изабраног извора.
 
 ## Import from address book file steps
 
 import-from-addr-book-file-description = Изаберите формат датотеке који садржи податке из именика.
+addr-book-csv-file = Датотека раздвојена зарезом или табулатором (.csv, .tsv)
 addr-book-ldif-file = LDIF датотека (.ldif)
 addr-book-vcard-file = vCard датотека (.vcf, .vcard)
 addr-book-sqlite-file = Датотека SQLite базе података (.sqlite)
 addr-book-mab-file = Датотека Mork базе података (.mab)
 addr-book-file-picker = Изабери датотеку именика
+addr-book-csv-field-map-title = Подударање назива поља
+addr-book-csv-field-map-desc = Изаберите поља именика која одговарају изворним пољима. Одзначите поља која не желите да увезете.
 addr-book-directories-title = Изаберите где желите да увезете изабране податке
 addr-book-directories-pane-source = Изворна датотека:
 # $addressBookName (string) - name of the new address book that would be created.
@@ -98,11 +103,22 @@ addr-book-summary-description = Направиће се нови именик п
 import-from-calendar-file-desc = Изаберите iCalendar (.ics) датотеку коју желите да увезете.
 calendar-items-title = Изаберите ставке за увоз.
 calendar-items-loading = Учитавање ставки…
+calendar-items-filter-input2 =
+    .label = Филтрирај ставке
+    .placeholder = Филтрирај ставке…
 calendar-select-all-items = Изабери све
 calendar-deselect-all-items = Поништи све
 calendar-target-title = Изаберите где ћете увести изабране ставке.
 # $targetCalendar (string) - name of the new calendar that would be created
 calendar-import-into-new-calendar2 = Направите нови календар под називом <strong>„{ $targetCalendar }”</strong>
+# $itemCount (number) - count of selected items (tasks, events) that will be imported
+# $targetCalendar (string) - name of the calendar the items will be imported into
+calendar-summary-title =
+    { $itemCount ->
+        [one] Увези једну ставку у календар „{ $targetCalendar }“
+        [few] Увези { $itemCount } ставке у календар „{ $targetCalendar }“
+       *[other] Увези { $itemCount } ставки у календар „{ $targetCalendar }“
+    }
 # $targetCalendar (string) - name of the calendar that will be created
 calendar-summary-description = Направиће се нови календар под називом „{ $targetCalendar }”.
 
@@ -115,14 +131,34 @@ progress-pane-exporting2 = Извозим… { $progressPercent }
 progress-pane-finished-desc2 = Завршено.
 error-pane-title = Грешка
 error-message-zip-file-too-big2 = Изабрана ZIP датотека је већа од 2GB. Прво је распакујте, а потом увезите из распаковане фасцикле.
+error-message-extract-zip-file-failed2 = Распакивање ZIP датотеке није успело. Распакујте је ручно, а затим увезите из распаковане фасцикле.
+error-message-failed = Увоз није успео неочекивано, више информација може бити доступно у конзоли грешака.
+error-failed-to-parse-ics-file = У датотеци нису пронађене ставке које се могу увести.
+error-export-failed = Извоз није успео неочекивано, више информација може бити доступно у конзоли грешака.
+error-message-no-profile = Профил није пронађен.
+
+## <csv-field-map> element
+
+csv-first-row-contains-headers = Први ред садржи називе поља
+csv-source-field = Изворно поље
+csv-source-first-record = Први запис
+csv-source-second-record = Други запис
+csv-target-field = Поље именика
 
 ## Export tab
 
+export-profile-title = Извезите налоге, поруке, именике и подешавања у ZIP датотеку.
+export-profile-description = Ако је ваш тренутни профил већи од 2GB, предлажемо да га сами резервно копирате.
+export-open-profile-folder = Отвори фасциклу профила
+export-file-picker2 = Извези у ZIP датотеку
 export-brand-name = { -brand-product-name }
 
 ## Summary pane
 
+summary-pane-title = Подаци за увоз
 summary-pane-start = Покрени увоз
+summary-pane-warning = { -brand-product-name } ће морати поново да се покрене када се увоз заврши.
+summary-pane-start-over = Поново покрени алат за увоз
 
 ## Footer area
 

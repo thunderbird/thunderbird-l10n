@@ -51,6 +51,8 @@ calendar-event-listing-column-title =
 
 ## Interval dropdown options
 
+calendar-event-listing-interval-past =
+    .label = Прошли догађаји
 calendar-event-listing-interval-calendar-month =
     .label = Догађаји у овом календарском месецу
 calendar-event-listing-interval-current-view =
@@ -65,6 +67,10 @@ calendar-event-listing-interval-next-6-months =
     .label = Догађаји у наредних 6 месеци
 calendar-event-listing-interval-next-12-months =
     .label = Догађаји у наредних 12 месеци
+calendar-event-listing-interval-future =
+    .label = Сви будући догађаји
+calendar-event-listing-interval-all =
+    .label = Сви догађаји
 calendar-event-listing-interval-selected-day =
     .label = Тренутно изабрани дан
 calendar-event-listing-interval-today =

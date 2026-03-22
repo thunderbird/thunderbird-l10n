@@ -5,8 +5,28 @@
 
 ## Sync
 
+appmenu-sync-panel-title =
+    .title = Синхронизација
+appmenu-signin-panel =
+    .label = Пријавите се на синхронизацију
+    .accesskey = с
+appmenu-sync-sync =
+    .value = Синхронизација налога
+    .accesskey = а
+appmenu-sync-manage =
+    .value = Управљај налогом
+    .accesskey = У
 appmenu-sync-account =
     .value = example@example.com
+appmenu-sync-now =
+    .label = Синхронизуј сада
+    .accesskey = с
+appmenu-sync-settings =
+    .label = Подешавања синхронизације
+    .accesskey = П
+appmenu-sync-sign-out =
+    .label = Одјави се…
+    .accesskey = О
 
 ## New Account
 
@@ -15,6 +35,9 @@ appmenu-new-account-panel-title =
 appmenu-new-account-panel =
     .label = Нови налог
     .accesskey = Н
+appmenu-new-email-account =
+    .label = Е-пошта
+    .accesskey = Е
 appmenu-new-calendar =
     .label = Календар
     .accesskey = К
@@ -119,6 +142,9 @@ appmenu-tools-import =
 appmenu-tools-export =
     .label = Извези
     .accesskey = з
+appmenu-export-for-mobile =
+    .label = Извези за мобилни уређај
+    .accesskey = и
 appmenu-tools-message-search =
     .label = Претражи поруке
     .accesskey = т
@@ -142,6 +168,9 @@ appmenu-help-panel-title =
 appmenu-help-get-help =
     .label = Потражи помоћ
     .accesskey = м
+appmenu-help-get-release-help =
+    .label = Потражите помоћ за { -brand-short-name }
+    .accesskey = п
 appmenu-help-shortcuts =
     .label = Пречице на тастатури
     .accesskey = ц

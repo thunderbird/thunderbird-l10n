@@ -375,6 +375,7 @@ html-task-completed = { $task } (завршено)
 # Categories
 add-category = Додај категорију
 multiple-categories = Вишеструке категорије
+no-categories = Ништа
 calendar-today = Данас
 calendar-tomorrow = Сутра
 yesterday = Јуче
@@ -490,6 +491,11 @@ single-long-calendar-week = Календарска недеља: { $index }
 #    $index will be replaced with the index of the week
 single-calendar-week = КН: { $index }
     .title = Календарска недеља: { $index }
+# LOCALIZATION NOTE (several-long-calendar-weeks):
+# used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-long-calendar-weeks = Календарске седмице { $startIndex }–{ $endIndex }
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
@@ -602,6 +608,8 @@ unit-minutes =
         [few] { $count } минута
        *[other] { $count } минута
     }
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
 # Variables:
 # $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
@@ -610,6 +618,8 @@ unit-hours =
         [few] { $count } сати
        *[other] { $count } сати
     }
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
 # Variables:
 # $count (Number) - Number of days, also used to determine the correct plural form.
 unit-days =
@@ -618,6 +628,8 @@ unit-days =
         [few] { $count } дана
        *[other] { $count } дана
     }
+event-duration-menuitem-count-days =
+    .label = { unit-days }
 # Variables:
 # $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
@@ -626,6 +638,52 @@ unit-weeks =
         [few] { $count } недеље
        *[other] { $count } недеље
     }
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
+# Variables:
+# $count (Number) - Number of minutes used to determine the correct plural form.
+event-duration-menuitem-minutes =
+    .label =
+        { $count ->
+            [one] минут
+            [few] минута
+           *[other] минута
+        }
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label =
+        { $count ->
+            [one] сат
+            [few] сата
+           *[other] сати
+        }
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label =
+        { $count ->
+            [one] дан
+            [few] дана
+           *[other] дана
+        }
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label =
+        { $count ->
+            [one] седмица
+            [few] седмице
+           *[other] седмица
+        }
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
 # LOCALIZATION NOTE (show-calendar)
 # Used in calendar list context menu
 #    $name will be replaced with the calendar name
@@ -814,6 +872,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Задатак…
     .accesskey = З
+calendar-task-filter-title2 = Филтрирај задатке
 calendar-task-filter-title = Прикажи
 calendar-task-filter-all =
     .label = Све
@@ -937,6 +996,33 @@ calendar-alarm-snooze-for =
     .label = Одложи за
 calendar-alarm-snooze-all-for =
     .label = Одложи све за
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } минут
+            [few] { $count } минута
+           *[other] { $count } минута
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] { $count } сат
+            [few] { $count } сата
+           *[other] { $count } сати
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] { $count } дан
+            [few] { $count } дана
+           *[other] { $count } дана
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
