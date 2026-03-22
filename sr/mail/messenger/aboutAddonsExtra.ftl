@@ -7,3 +7,6 @@ add-on-options-button =
 add-on-search-alternative-button-label = Пронађи алтернативни додатак
 atn-addons-heading-search-input =
     .placeholder = Претражи addons.thunderbird.net
+atn-addons-heading-search-button =
+    .title = Претражи addons.thunderbird.net
+    .aria-label = Претражи addons.thunderbird.net

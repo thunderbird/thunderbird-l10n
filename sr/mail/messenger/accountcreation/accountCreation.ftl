@@ -19,6 +19,7 @@ boolean-error = Није булова вредност
 no-number-error = Није број
 number-too-large-error = Број је сувише велики
 number-too-small-error = Број је сувише мали
+emailaddress-syntax-error = Није исправна адреса е-поште
 
 ## FetchHTTP.sys.mjs
 

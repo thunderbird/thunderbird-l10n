@@ -12,6 +12,10 @@ allday-event = Целодневни догађај
 recurrent-event =
     .value = Поновљајући догађај
 # $locationProperty is the location of the event
+calendar-invitation-location =
+    .value = Место: { $locationProperty }
+    .tooltiptext = { $locationProperty }
+# $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Место: { $locationProperty }
 # $organizerProperty is the organizer of the event

@@ -44,5 +44,6 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = Сачекајте да се заврши откривање ваших календара.
 calendar-creation-network-notfound = Нисам могао да нађем календаре на овом месту. Проверите ваша подешавања.
 calendar-creation-network-authfail = Унети акредитиви нису прихваћени. Проверите ваша подешавања.
+calendar-creation-network-certerror = Није могуће пронаћи календаре на овој локацији због проблема са сертификатом.
 calendar-creation-network-subscribe-single = Изаберите календаре на које се желите претплатити.
 calendar-creation-network-subscribe-multiple = Више врста календара је доступно за ово место. Изаберите врсту календара па онда означите календаре на које се желите претплатити.
