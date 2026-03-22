@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Невини смајли">
 <!ENTITY smiley15Cmd.label "Расплакани смајли">
 <!ENTITY smiley16Cmd.label "Ћутање">
+<!ENTITY smiley17Cmd.label "Љут">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Нема пронађених предлога">
 <!ENTITY spellCheckIgnoreWord.label "Занемари реч">
