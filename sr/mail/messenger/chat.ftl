@@ -2,9 +2,41 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+chat-joining-chat-icon2 =
+    .alt = Придруживање ћаскању
+chat-left-chat-icon2 =
+    .alt = Напуштено ћаскање
+chat-participant-owner-role-icon2 =
+    .alt = Власник
+chat-participant-administrator-role-icon2 =
+    .alt = Администратор
+chat-participant-moderator-role-icon2 =
+    .alt = Модератор
+chat-participant-voiced-role-icon2 =
+    .alt = Учесник може да шаље поруке
+chat-verify-identity =
+    .label = Провери идентитет
+    .accesskey = П
+chat-identity-verified =
+    .label = Идентитет је већ потврђен
+chat-buddy-identity-status = Поверење у шифровање
+chat-buddy-identity-status-verified = Потврђено
+chat-buddy-identity-status-unverified = Непотврђено
 
 ## Conversation invite notification box
 
+# This string appears in a notification bar at the top of the Contacts window
+# when someone invited the user to a multi user chat conversation, to request
+# the user to confirm they want to join the chat.
+# Variables:
+#   $conversation (String) - Name of the conversation the user is invited to.
+chat-conv-invite-label = Позвани сте на ћаскање у { $conversation }
+chat-conv-invite-accept =
+    .label = Прихвати
+    .accesskey = П
+chat-conv-invite-deny =
+    .label = Одбиј
+    .accesskey = О
 # Used when multiple incoming messages from the same sender are bundled
 # into a single notification.
 # Variables:

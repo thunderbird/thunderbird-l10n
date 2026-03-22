@@ -12,7 +12,24 @@ message-header-reply-to-list-name = Одговор за
 message-header-cc-list-name = Коп
 message-header-bcc-list-name = сКоп
 message-header-newsgroups-list-name = Новинска група
+message-header-followup-to-list-name = Надовежи се на
 message-header-tags-list-name = Ознаке
+# List management header - RFC 2369.
+message-header-list-id = ИД списка
+# List management header - RFC 2369.
+message-header-list-help = Помоћ за списак
+# List management header - RFC 2369.
+message-header-list-unsubscribe = Откажи претплату на списак
+# List management header - RFC 2369.
+message-header-list-subscribe = Претплати се на списак
+# List management header - RFC 2369.
+message-header-list-post = Објави на списак
+# List management header - RFC 2369.
+message-header-list-owner = Власник списка
+# List management header - RFC 2369.
+message-header-list-archive = Архива списка
+# Direct link to the archived form of an individual email message - RFC 5064.
+message-header-archived-at = Архивирано у
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -26,6 +43,42 @@ message-header-references-field = Референце<span data-l10n-name="field-
 message-header-message-id-field = ИБ поруке<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Као одговор на<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Вебсајт<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = ИД списка<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = Помоћ за списак<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = Откажи претплату на списак<span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = Претплати се на списак<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = Објави на списак<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = Власник списка<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = Архива списка<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = Архивирано у<span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Потражи помоћ
+    .accesskey = П
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Откажи претплату…
+    .accesskey = О
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Претплати се…
+    .accesskey = П
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Пиши
+    .accesskey = П
+# Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
+list-id-list-owner =
+    .label = Контактирајте администратора…
+    .accesskey = К
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Архиве списка
+    .accesskey = А
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = Стална веза поруке
+    .accesskey = С
 # An additional email header field that the user has chosen to display. Unlike
 # the other headers, the name of this header is not expected to be localised
 # because it is generated from the raw field name found in the email header.
@@ -46,8 +99,19 @@ message-header-field-show-more = Више
     .title = Прикажи све примаоце
 message-ids-field-show-all = Прикажи све
 
+## Dark Message Mode
+
+dark-message-mode-toggle-enabled =
+    .title = Онемогући тамни режим порука
+dark-message-mode-toggle-disabled =
+    .title = Омогући тамни режим порука
+
 ## Spam filter
 
+message-bar-spam = { -brand-short-name } сматра да је ова порука непожељна.
 message-bar-not-spam-button =
     .label = Није непожељно
     .accesskey = е
+message-bar-learn-more-button =
+    .label = Сазнајте више…
+    .accesskey = С

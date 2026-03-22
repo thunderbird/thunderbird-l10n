@@ -9,6 +9,10 @@ rule-menuitem-spam =
     .label = Непожељно
 rule-menuitem-not-spam =
     .label = Није непожељно
+run-filter-before-spam =
+    .label = Филтрирај пре класификације непожељних порука
+run-filter-after-spam =
+    .label = Филтрирај после класификације непожељних порука
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -19,6 +23,13 @@ run-periodically =
            *[other] Периодично, сваки { $minutes } минут
         }
     .accesskey = е
+rule-action-set-spam-status =
+    .label = Постави статус непожељне поруке на
+# Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = Откривена непожељна порука од { $author } - { $subject } у { $date }
 # Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
@@ -54,6 +65,7 @@ filter-action-log-forwarded = прослеђено
 filter-action-log-stop = извршавање заустављено
 filter-action-log-pop3-delete = обрисано са POP3 сервера
 filter-action-log-pop3-leave = остављено на POP3 серверу
+filter-action-log-spam = оцена непожељности
 filter-action-log-pop3-fetch = садржај добављен са POP3 сервера
 filter-action-log-tagged = означено
 filter-action-log-ignore-subthread = поднит занемарена

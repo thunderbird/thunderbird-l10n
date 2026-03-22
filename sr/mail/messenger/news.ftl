@@ -3,6 +3,36 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Newsgroup Status Messages
+
+# Variables:
+# $count (Number) - Number of headers.
+# $newsgroup (String) - The name of the newsgroup.
+new-newsgroup-headers =
+    { $count ->
+        [one] Преузимам { $count } заглавље за { $newsgroup }…
+        [few] Преузимам { $count } заглавља за { $newsgroup }…
+       *[other] Преузимам { $count } заглавља за { $newsgroup }…
+    }
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-new-messages = Нема нових порука у { $newsgroup }.
+# Variables:
+# $count (Number) - Number of articles.
+# $newsgroup (String) - The name of the newsgroup.
+downloading-articles-for-offline =
+    { $count ->
+        [one] Преузимам { $count } чланак за { $newsgroup }…
+        [few] Преузимам { $count } чланка за { $newsgroup }…
+       *[other] Преузимам { $count } чланака за { $newsgroup }…
+    }
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-articles-to-download = Нема чланака за преузимање за { $newsgroup }.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = Новинска група { $newsgroup } није доступна на серверу.
+
 ## Download Headers Dialog
 
 download-headers-dialog-title = Преузми заглавља

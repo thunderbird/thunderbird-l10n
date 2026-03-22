@@ -16,6 +16,9 @@ archive-monthly =
 keep-folder-structure =
     .label = Задржи постојећу структуру фасцикли архивираних порука
     .accesskey = З
+recreate-inbox =
+    .label = Поново направи фасциклу за долазну пошту
+    .accesskey = П
 archive-example-label = Пример
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
@@ -23,3 +26,7 @@ archive-folder-name =
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = Долазно
+child-folder-name =
+    .label = Подфасцикла долазне поште
+sibling-folder-name =
+    .label = На истом нивоу као долазна пошта

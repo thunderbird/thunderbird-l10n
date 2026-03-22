@@ -77,3 +77,10 @@ password-os-auth-dialog-message = Потврдите свој идентитет
 password-os-auth-dialog-message-macosx = откриј сачуване лозинке
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] промените подешавања за лозинке
+       *[other] { -brand-short-name } покушава да промени подешавања за лозинке. Користите пријаву на свој уређај да бисте ово дозволили.
+    }

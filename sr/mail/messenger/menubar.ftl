@@ -14,6 +14,9 @@ menu-tools-settings =
 menu-addons-and-themes =
     .label = Додаци и теме
     .accesskey = Д
+menu-export-for-mobile =
+    .label = Извези за мобилни…
+    .accesskey = м
 
 ## Help Menu
 
@@ -23,6 +26,9 @@ menu-help-help-title =
 menu-help-get-help =
     .label = Потражи помоћ
     .accesskey = { "" }
+menu-help-get-release-help =
+    .label = Потражи помоћ за { -brand-short-name }
+    .accesskey = п
 menu-help-shortcuts =
     .label = Пречице на тастатури
     .accesskey = ц
@@ -142,6 +148,21 @@ menu-spaces-toolbar-button =
 
 ## File
 
+file-new-email-account =
+    .label = Налог е-поште…
+    .accesskey = е
 file-new-newsgroup-account =
     .label = Налог новинске групе…
     .accesskey = у
+file-new-addressbook =
+    .label = Именик
+    .accesskey = И
+file-new-local-addressbook =
+    .label = Локални именик
+    .accesskey = Л
+file-new-carddav-addressbook =
+    .label = CardDAV именик
+    .accesskey = Ц
+file-new-ldap-addressbook =
+    .label = LDAP именик
+    .accesskey = Л

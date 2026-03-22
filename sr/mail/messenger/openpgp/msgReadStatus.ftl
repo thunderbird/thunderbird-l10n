@@ -28,6 +28,10 @@ openpgp-invalid-sig = Неважећи дигитални потпис
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
 openpgp-invalid-sig-with-date = Неважећи дигитални потпис - потписан { $date }
+openpgp-bad-date-sig = Непоклапање датума потписа
+# Variables:
+# $date (String) - Date with time the signature was made in a short format.
+openpgp-bad-date-sig-with-date = Непоклапање датума потписа - потписано: { $date }
 openpgp-good-sig = Добар дигитални потпис
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
@@ -37,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Ова порука садржи дигит
 openpgp-sig-uncertain-not-accepted = Ова порука садржи дигитални потпис али још нисте одлучили да ли вам је кључ потписника прихватљив.
 openpgp-sig-invalid-rejected = Ова порука садржи дигитални потпис али сте претходно одлучили да одбијете кључ потписника.
 openpgp-sig-invalid-technical-problem = Ова порука садржи дигитални потпис али је откривена техничка грешка. Порука је оштећена или је неко други изменио поруку.
+openpgp-sig-invalid-date-mismatch = Ова порука садржи дигитални потпис, али потпис није направљен у исто време када је порука е-поште послата. Ово може бити покушај да вас преваре садржајем из погрешног контекста: нпр. садржајем написаним у другом временском контексту или намењеним некоме другом.
 openpgp-sig-valid-unverified = Ова порука садржи важећи дигитални потпис кључа који сте већ прихватили. Међутим, још увек нисте потврдили да ли кључ заправо припада пошиљаоцу.
 openpgp-sig-valid-verified = Ова порука садржи важећи дигитални потпис потврђеног кључа.
 openpgp-sig-valid-own-key = Ова порука садржи важећи дигитални потпис вашег приватног кључа.

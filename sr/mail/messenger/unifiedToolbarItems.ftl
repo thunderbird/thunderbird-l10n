@@ -55,6 +55,12 @@ toolbar-next-unread =
 toolbar-next-label = Следећа
 toolbar-next =
     .title = Иди на следећу поруку
+toolbar-spam-label = Непожељно
+toolbar-spam =
+    .title = Означи изабране поруке као непожељне
+toolbar-not-spam-label = Није непожељно
+toolbar-not-spam =
+    .title = Означи изабране поруке као пожељне
 toolbar-junk-label = Непожељно
 toolbar-junk =
     .title = Обележи изабране поруке као непожељне
@@ -142,3 +148,24 @@ toolbar-stop =
 toolbar-throbber-label = Показивач активности
 toolbar-throbber =
     .title = Показивач активности
+toolbar-create-contact-label = Нови контакт
+toolbar-create-contact =
+    .title = Направи нови контакт
+toolbar-create-address-book-label = Нови именик
+toolbar-create-address-book =
+    .title = Направи нови именик
+toolbar-create-list-label = Нови списак
+toolbar-create-list =
+    .title = Направи нови дописни списак
+toolbar-import-contacts-label = Увези
+toolbar-import-contacts =
+    .title = Увези контакте из датотеке
+
+## New Address Book popup items
+
+toolbar-new-address-book-popup-add-js-address-book =
+    .label = Додај локални именик
+toolbar-new-address-book-popup-add-carddav-address-book =
+    .label = Додај CardDAV именик
+toolbar-new-address-book-popup-add-ldap-address-book =
+    .label = Додај LDAP именик
