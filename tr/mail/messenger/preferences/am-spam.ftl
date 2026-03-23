@@ -5,6 +5,7 @@
 spam-settings-title = Spam ayarları
 dialog-header-title =
     .value = Spam ayarları
+training-description-spam = Bunu etkinleştirirseniz { -brand-short-name } uygulamasının gereksiz postaları tanıyabilmesi için ilk olarak spam olan ve olmayan iletileri Spam araç çubuğu düğmesiyle işaretleyerek uygulamayı eğitmelisiniz. Hem spam olan hem de olmayan iletileri tanımlamanız gerekir. Ardından { -brand-short-name } spam iletileri otomatik olarak işaretlemeye başlayacaktır.
 spam-level-checkbox =
     .label = Bu hesap için uyarlamalı spam denetimini etkinleştir
     .accesskey = u
