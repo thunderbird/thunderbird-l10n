@@ -41,6 +41,7 @@ openpgp-sig-uncertain-uid-mismatch = Bu ileti bir dijital imza içeriyor ama bir
 openpgp-sig-uncertain-not-accepted = Bu ileti dijital bir imza içeriyor ama imzalayanın anahtarını kabul edip etmeyeceğinize henüz karar vermediniz.
 openpgp-sig-invalid-rejected = Bu ileti bir dijital imza içeriyor ama imzalayan anahtarı daha önce reddettiniz.
 openpgp-sig-invalid-technical-problem = Bu ileti bir dijital imza içeriyor ama teknik bir hata tespit edildi. İleti bozuk veya başka birisi tarafından değiştirilmiş.
+openpgp-sig-invalid-date-mismatch = Bu ileti bir sayısal imza içeriyor ama bu imza e-posta iletisi gönderildiği anda oluşturulmamış. Bu durum, yanlış bağlamdan gelen içerikle sizi kandırma girişimi olabilir. (Örn. başka bir zamanda yazılmış veya başka birisine yazılmış içerik)
 openpgp-sig-valid-unverified = Bu ileti, daha önce kabul ettiğiniz bir anahtara ait geçerli bir dijital imza içeriyor. Ancak anahtarın gerçekten göndericiye ait olup olmadığını henüz doğrulamadınız.
 openpgp-sig-valid-verified = Bu ileti, doğrulanmış bir anahtara ait geçerli bir dijital imza içeriyor.
 openpgp-sig-valid-own-key = Bu ileti, kişisel anahtarınıza ait geçerli bir dijital imza içeriyor.

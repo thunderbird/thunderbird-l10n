@@ -162,6 +162,7 @@ account-hub-result-pop-description = Klasörlerimi ve e-postalarımı bilgisayar
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Klasörlerimi ve e-postalarımı eşitlemek için Microsoft Exchange Web Servisleri’ni kullan
 account-hub-result-graph-shortname = Exchange (Graph)
+account-hub-result-graph-description = Klasörlerinizi ve e-postalarınızı eşitlemek için Microsoft Graph API’yi kullanın
 account-hub-result-exchange-description = Klasörleri ve e-postaları Exchange veya Office 365 ile eşitle
 account-hub-result-ews-text = Sunucu
 account-hub-result-recommended-label = Önerilen
@@ -204,6 +205,7 @@ account-hub-oauth-pending = Giriş penceresinde kimliğinizi doğrulamanız bekl
 account-hub-addon-install-button = Yükle
 account-hub-addon-install-needed = { -brand-short-name } bu sunucuyu kendi başına desteklemiyor. Exchange e-postalarınıza erişmek için <a data-l10n-name="addon-install">Owl (ücretli) gibi bir üçüncü taraf eklentisi yükleyebilirsiniz.</a>
 account-hub-addon-error = Eklenti kurulamadı. Lütfen yeniden deneyin veya yardım için eklentinin geliştiricisiyle iletişime geçin.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Uyarı: Güvensiz posta sunucusu algılandı.</span> Bu sunucuda şifreleme olmadığından parolanız ve verileriniz ele geçirilebilir. Bağlantıyı güvence altına almak için yöneticinizle iletişime geçin veya riski kabul ediyorsanız devam edin. <a data-l10n-name="error-link">Daha fazla bilgi için SSS’ye bakın.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Uyarı: Güvensiz posta sunucusu algılandı.</span> Bu sunucuda şifreleme olmadığından parolanız ve verileriniz ele geçirilebilir. Bağlantıyı güvence altına almak için yöneticinizle iletişime geçin veya riski kabul ediyorsanız devam edin. <a data-l10n-name="faq-link">Daha fazla bilgi için SSS’ye bakın.</a>
 account-hub-account-authentication-error = Kimlik doğrulama hatası.
 account-hub-add-address-book = Adres defteri ekle

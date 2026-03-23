@@ -32,6 +32,8 @@ calendar-dialog-attendee-count =
     }
 calendar-dialog-attendee-organizer = Düzenleyen
 calendar-dialog-attendee-optional = İsteğe bağlı
+calendar-dialog-icon-attending =
+    .alt = Katılıyor
 calendar-dialog-icon-declined =
     .alt = Reddedildi
 calendar-dialog-icon-maybe =
