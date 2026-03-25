@@ -31,6 +31,212 @@ calendar-dialog-attendee-count =
         [few] { $count } oaspeți
        *[other] { $count } de oaspeți
     }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary =
+    { $going ->
+        [one]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                    }
+                [few]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+        [few]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                    }
+                [few]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+       *[other]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                    }
+                [few]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { "" }
+                                [few] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+    }
 calendar-dialog-attendee-organizer = Organizator
 calendar-dialog-attendee-optional = Opțional
 calendar-dialog-icon-attending =
