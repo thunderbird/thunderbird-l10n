@@ -1024,6 +1024,24 @@ qr-export-more-accounts = Eksportoni më tepër llogari
 ## Appearance Tab
 
 appearance-category-header = Dukje
+accent-color-legend = Ngjyrë Theksimi
+accent-color-label =
+    .value = Përcakton ngjyrën e përdorur për butona parësorë dhe elementë të theksuar:
+accent-color-os =
+    .label = Ndiq sistemin operativ
+accent-color-thunderbird =
+    .label = E kaltër Thunderbird-i
+accent-color-purple =
+    .label = E purpur
+accent-color-orange =
+    .label = Portokalli
+accent-color-pink =
+    .label = E trëndafiltë
+accent-color-ink =
+    .label = Bojë
+accent-color-teal =
+    .label = E gjelbër
+accent-color-disabled-description = Nën mënyrën Kontrast i Lartë nuk mbulohen ngjyra theksimi.
 default-message-list-legend = Listë Mesazhesh
 appearance-view-style =
     .value = Stil Parjeje:
