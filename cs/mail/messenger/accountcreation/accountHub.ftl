@@ -222,7 +222,7 @@ account-hub-addon-error = Instalace doplňku se nezdařila. Zkuste to prosím zn
 account-hub-select-security-warning = <span data-l10n-name="error-text">Varování: Zjištěn nezabezpečený poštovní server.</span> Tento server postrádá šifrování, v důsledku čehož může být odhaleno vaše heslo a data. Pro zabezpečení připojení kontaktujte správce nebo pokračujte na vlastní nebezpečí. Další informace najdete v <a data-l10n-name="error-link">často kladených otázkách</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Varování: Zjištěn nezabezpečený poštovní server.</span> Tento server postrádá šifrování, v důsledku toho může být vyzrazeno vaše heslo a data. Pro zabezpečení připojení kontaktujte správce nebo pokračujte na vlastní nebezpečí. Další informace najdete v <a data-l10n-name="faq-link">často kladených otázkách</a>.
 account-hub-account-authentication-error = Chyba autentizace.
-account-hub-add-address-book = Přidat složku kontaktů
+account-hub-add-address-book = Přidání složky kontaktů
 address-book-sync-existing-icon =
     .alt = Synchronizace adresáře z existujícího účtu
 address-book-sync-existing = Synchronizace z existujícího účtu
