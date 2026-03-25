@@ -674,6 +674,27 @@ prompt-dont-ask-again = Nu mai întreba.
 spam-analysis-percentage = Analiză mesaje nedorite realizată { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = Se procesează mesajele nedorite
 
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Răspunsurile la firul de discuție „{ $subject }” nu vor fi afișate.
+        [few] Răspunsurile la { $count } fire de discuție nu vor fi afișate.
+       *[other] Răspunsurile la { $count } de fire de discuție nu vor fi afișate.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Răspunsul la subfirul de discuție „{ $subject }” nu va fi afișat.
+        [few] Răspunsurile la { $count } subfire de discuție care au fost selectate nu vor fi afișate.
+       *[other] Răspunsurile la { $count } de subfire de discuție care au fost selectate nu vor fi afișate.
+    }
+
 ## Attachments
 
 # Variables:

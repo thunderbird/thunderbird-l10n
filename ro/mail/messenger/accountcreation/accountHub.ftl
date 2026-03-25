@@ -161,6 +161,8 @@ account-hub-result-imap-description = Ține-ți dosarele și e-mailurile sincron
 account-hub-result-pop-description = Ține-ți dosarele și e-mailurile pe calculator
 account-hub-result-ews-shortname = Schimb
 account-hub-result-ews-description = Folosește Microsoft Exchange Web Services pentru sincronizarea dosarelor și e-mailurilor
+account-hub-result-graph-shortname = Exchange (Graph)
+account-hub-result-graph-description = Folosește API-ul Microsoft Graph pentru a sincroniza dosarele și e-mailurile
 account-hub-result-exchange-description = Sincronizează dosarele și e-mailurile cu Exchange sau Office 365
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Recomandată
@@ -203,6 +205,7 @@ account-hub-oauth-pending = Se așteaptă autorizarea în fereastra pop-up de au
 account-hub-addon-install-button = Instalează
 account-hub-addon-install-needed = { -brand-short-name } nu oferă suport nativ pentru acest server. Pentru acces la e-mailul Exchange, <a data-l10n-name="addon-install"> instalează un supliment de la terți, cum ar fi Owl (cu plată).</a>
 account-hub-addon-error = Instalarea suplimentului a eșuat. Te rugăm să încerci din nou sau să contactezi autorul suplimentului pentru asistență.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Avertisment: S-a detectat un server de e-mail nesigur.</span> Nu este criptat, deci îți va expune parola și datele. Contactează administratorul pentru securizarea conexiunii sau continuă pe riscul tău. <a data-l10n-name="error-link">Vezi întrebările frecvente pentru mai multe informații</a>.
 account-hub-security-warning = <span data-l10n-name="security-warning">Avertisment: S-a detectat un server de e-mail nesigur.</span> Nu este criptat, deci îți va expune parola și datele. Contactează administratorul pentru securizarea conexiunii sau continuă pe riscul tău. <a data-l10n-name="faq-link">Vezi întrebările frecvente pentru mai multe informații</a>.
 account-hub-account-authentication-error = Eroare la autentificare.
 account-hub-add-address-book = Adaugă o agendă de contacte

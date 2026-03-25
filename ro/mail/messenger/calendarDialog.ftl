@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = Închide
     .title = Închide
+calendar-dialog-menu-button =
+    .aria-label = Deschide meniul
+    .title = Deschide meniul
 calendar-dialog-back-button =
     .aria-label = Înapoi
     .title = Înapoi
@@ -18,9 +21,39 @@ calendar-dialog-description-row-icon =
     .alt = Descriere
 calendar-dialog-reminders-row-icon =
     .alt = Mementouri
+calendar-dialog-attendees-row-icon =
+    .alt = Oaspeți
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } oaspete
+        [few] { $count } oaspeți
+       *[other] { $count } de oaspeți
+    }
+calendar-dialog-attendee-organizer = Organizator
+calendar-dialog-attendee-optional = Opțional
+calendar-dialog-icon-attending =
+    .alt = Acceptat
+calendar-dialog-icon-declined =
+    .alt = Refuzat
+calendar-dialog-icon-maybe =
+    .alt = Poate
+calendar-dialog-attendees-expand-icon =
+    .alt = Afișează toți invitații
+calendar-dialog-attendees-too-many-guests = Lista de invitați nu poate fi afișată pentru că are peste 50 de invitați.
 calendar-dialog-description-label = Descriere
 calendar-dialog-description-expand-icon =
     .alt = Afișează descrierea completă
+calendar-dialog-menu-duplicate =
+    .label = Duplică evenimentul
+calendar-dialog-menu-delete =
+    .label = Șterge evenimentul
+calendar-dialog-menu-print =
+    .label = Printează
+calendar-dialog-menu =
+    .aria-label = Meniu mai multe acțiuni
+    .title = Meniu mai multe acțiuni
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -46,3 +79,21 @@ calendar-dialog-accept-tentative = Poate
     .title = Poate
 calendar-dialog-decline = Nu particip
     .title = Nu particip
+calendar-dialog-join-meeting-button = Participă la întâlnire
+calendar-dialog-join-meeting-row-icon =
+    .alt = Participă la întâlnire
+calendar-dialog-attachments-row-icon =
+    .alt = Atașamente
+calendar-dialog-attachments-label = Atașamente
+calendar-dialog-attachment-link-icon =
+    .alt = Atașament asociat
+calendar-dialog-attachments-expand-icon =
+    .alt = Afișează toate atașamentele
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } atașament
+        [few] { $count } atașamente
+       *[other] { $count } de atașamente
+    }
