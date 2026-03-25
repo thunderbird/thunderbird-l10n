@@ -30,6 +30,12 @@ calendar-dialog-attendee-count =
         [one] { $count } gestur
        *[other] { $count } gestir
     }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary = { $going } mætir, { $maybe } með fyrirvara, { $declined } hafnaði, { $pending } í bið
 calendar-dialog-attendee-organizer = Skipuleggjandi
 calendar-dialog-attendee-optional = Valkvætt
 calendar-dialog-icon-attending =
