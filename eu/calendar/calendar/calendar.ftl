@@ -857,6 +857,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Zeregina…
     .accesskey = Z
+calendar-task-filter-title2 = Iragazi zereginak
 calendar-task-filter-title = Erakutsi
 calendar-task-filter-all =
     .label = Dena

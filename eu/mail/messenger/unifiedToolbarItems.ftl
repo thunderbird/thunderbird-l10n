@@ -55,6 +55,7 @@ toolbar-next-unread =
 toolbar-next-label = Hurrengoa
 toolbar-next =
     .title = Joan hurrengo mezura
+toolbar-spam-label = Spam
 toolbar-junk-label = Zaborra
 toolbar-junk =
     .title = Markatu aukeratutako mezua zabor bezala

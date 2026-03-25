@@ -19,6 +19,7 @@ boolean-error = Ez da boolearra
 no-number-error = Ez da zenbakia
 number-too-large-error = Zenbaki handiegia
 number-too-small-error = Zenbaki txikiegia
+emailaddress-syntax-error = Posta-helbide baliogabea
 
 ## FetchHTTP.sys.mjs
 

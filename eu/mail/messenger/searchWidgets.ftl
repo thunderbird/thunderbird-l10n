@@ -173,6 +173,8 @@ rule-action-stop =
 
 rule-menuitem-spam =
     .label = Spam
+rule-menuitem-not-spam =
+    .label = Ez da spam
 rule-priority-highest =
     .label = Altuena
 rule-priority-high =

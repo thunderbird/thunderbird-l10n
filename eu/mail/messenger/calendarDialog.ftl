@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = Itxi
     .title = Itxi
+calendar-dialog-menu-button =
+    .aria-label = Ireki menua
+    .title = Ireki menua
 calendar-dialog-back-button =
     .aria-label = Atzera
     .title = Atzera
