@@ -161,6 +161,8 @@ account-hub-result-imap-description = Keep your folders and emails synced on you
 account-hub-result-pop-description = Keep your folders and emails on your computer
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Use Microsoft Exchange Web Services to sync your folders and emails
+account-hub-result-graph-shortname = Exchange (Graph)
+account-hub-result-graph-description = Use Microsoft Graph API to sync your folders and emails
 account-hub-result-exchange-description = Sync folders & emails with Exchange or Office 365
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Recommended
@@ -203,6 +205,7 @@ account-hub-oauth-pending = Waiting for authorization in login popup…
 account-hub-addon-install-button = Install
 account-hub-addon-install-needed = { -brand-short-name } doesn’t natively support this server. To access Exchange email, <a data-l10n-name="addon-install"> install a third-party add-on like Owl (paid).</a>
 account-hub-addon-error = Add-on installation failed. Please try again or contact the add-on author for assistance.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Warning: Insecure mail server detected.</span> This server lacks encryption, exposing your password and data. Contact your administrator to secure the connection or proceed at your own risk. <a data-l10n-name="error-link">See FAQ for more.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Warning: Insecure mail server detected.</span> This server lacks encryption, exposing your password and data. Contact your administrator to secure the connection or proceed at your own risk. <a data-l10n-name="faq-link">See FAQ for more.</a>
 account-hub-account-authentication-error = Authentication error.
 account-hub-add-address-book = Add an address book
