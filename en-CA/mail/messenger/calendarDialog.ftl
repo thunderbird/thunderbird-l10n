@@ -21,6 +21,8 @@ calendar-dialog-description-row-icon =
     .alt = Description
 calendar-dialog-reminders-row-icon =
     .alt = Reminders
+calendar-dialog-attendees-row-icon =
+    .alt = Guests
 # Variables:
 #   $count (Number): Number of guests.
 calendar-dialog-attendee-count =
