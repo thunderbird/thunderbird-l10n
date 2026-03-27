@@ -97,7 +97,7 @@ calendar-dialog-attendee-summary =
             }
     }
 calendar-dialog-attendee-organizer = Organisateur
-calendar-dialog-attendee-optional = Optionnel
+calendar-dialog-attendee-optional = Facultatif
 calendar-dialog-icon-attending =
     .alt = Participant
 calendar-dialog-icon-declined =
@@ -150,7 +150,7 @@ calendar-dialog-attachments-row-icon =
     .alt = Pièces jointes
 calendar-dialog-attachments-label = Pièces jointes
 calendar-dialog-attachment-link-icon =
-    .alt = Pièce jointe
+    .alt = Pièce jointe liée
 calendar-dialog-attachments-expand-icon =
     .alt = Afficher toutes les pièces jointes
 # Variables:
