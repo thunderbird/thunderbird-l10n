@@ -1024,6 +1024,24 @@ qr-export-more-accounts = További fiókok exportálása
 ## Appearance Tab
 
 appearance-category-header = Megjelenés
+accent-color-legend = Kiemelő szín
+accent-color-label =
+    .value = Adja meg az elsődleges gombokhoz és a kiemelt elemekhez használandó színt:
+accent-color-os =
+    .label = Az operációs rendszer követése
+accent-color-thunderbird =
+    .label = Thunderbird kék
+accent-color-purple =
+    .label = Lila
+accent-color-orange =
+    .label = Narancssárga
+accent-color-pink =
+    .label = Rózsaszín
+accent-color-ink =
+    .label = Tinta
+accent-color-teal =
+    .label = Kékeszöld
+accent-color-disabled-description = A kiemelő színek nem támogatottak magas kontrasztú mód használata esetén
 default-message-list-legend = Üzenetlista
 appearance-view-style =
     .value = Nézetstílus:
