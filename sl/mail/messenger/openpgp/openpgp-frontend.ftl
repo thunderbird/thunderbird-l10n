@@ -42,7 +42,7 @@ openpgp-cannot-decrypt-because-mdc =
     To je šifrirano sporočilo, ki uporablja star in ranljiv mehanizem.
     Med potovanjem bi lahko bilo spremenjeno z namenom kraje njegove vsebine.
     Za preprečitev tega tveganja vsebina ni prikazana.
-openpgp-cannot-decrypt-because-missing-key = Skrivni ključ, ki je potreben za dešifriranje tega sporočila, ni na voljo.
+openpgp-cannot-decrypt-because-missing-key = Tajni ključ, ki je potreben za dešifriranje tega sporočila, ni na voljo.
 openpgp-partially-signed =
     Samo del tega sporočila je bil digitalno podpisan z uporabo OpenPGP.
     Ob kliku na gumb Preveri bodo nezaščiteni deli skriti in prikazano bo stanje digitalnega podpisa.

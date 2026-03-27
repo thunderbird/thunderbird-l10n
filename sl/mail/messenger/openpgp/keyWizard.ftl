@@ -91,7 +91,7 @@ openpgp-key-confirm = Ustvari javni in tajni ključ za { $identity }?
 openpgp-import-key-title = Uvozi obstoječ osebni ključ OpenPGP
 openpgp-import-key-legend = Izberite datoteko z varnostno kopijo.
 openpgp-import-key-description = Lahko uvozite osebne ključe, ki so bili ustvarjeni z drugo programsko opremo OpenPGP.
-openpgp-import-key-info = Drugi programi lahko osebni ključ imenujejo drugače, na primer lastni ključ, skrivni ključ, zasebni ključ ali par ključev.
+openpgp-import-key-info = Drugi programi lahko osebni ključ imenujejo drugače, na primer lastni ključ, tajni ključ, skrivni ključ, zasebni ključ ali par ključev.
 #   $count (Number) - the number of keys found in the selected files
 openpgp-import-key-list-amount-2 =
     { $count ->
@@ -103,7 +103,7 @@ openpgp-import-key-list-amount-2 =
 openpgp-import-key-list-description = Potrdite, kateri ključi naj se obravnavajo kot vaši osebni ključi. Kot osebne ključe uporabljajte samo ključe, ki ste jih ustvarili sami in ki izkazujejo vašo identiteto. To možnost lahko pozneje spremenite v pogovornem oknu Lastnosti ključa.
 openpgp-import-key-list-caption = Ključi, označeni za obravnavo kot osebni ključi, bodo navedeni v razdelku Šifriranje od konca do konca. Ostali bodo na voljo v upravitelju ključev.
 openpgp-import-keep-passphrases =
-    .label = Obdrži zaščito uvoženih skrivnih ključev z geslom
+    .label = Obdrži zaščito uvoženih tajnih ključev z geslom
 openpgp-passphrase-prompt-title = Zahtevano je geslo
 openpgp-import-key-button =
     .label = Izberi datoteko za uvoz …

@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 e2e-intro-description = Za pošiljanje šifriranih ali digitalno podpisanih sporočil morate nastaviti tehnologijo šifriranja, bodisi OpenPGP bodisi S/MIME.
-e2e-intro-description-more = Izberite si osebni ključ za omogočitev uporabe OpenPGP ali osebno digitalno potrdilo za omogočitev uporabe S/MIME. Za osebni ključ ali digitalno potrdilo imate ustrezen skrivni ključ.
+e2e-intro-description-more = Izberite si osebni ključ za omogočitev uporabe OpenPGP ali osebno digitalno potrdilo za omogočitev uporabe S/MIME. Za osebni ključ ali digitalno potrdilo imate pripadajoč tajni ključ.
 # Do not translate: S/MIME, CSR
 e2e-csr-intro-info = Izberite mapo in ime za datoteko CSR ter odgovorite na naslednja vprašanja za nastavitev algoritma in moči.
 # A title for a dialog. Do not translate "CSR".
@@ -82,7 +82,7 @@ openpgp-key-man-import-public-from-file =
     .label = Uvozi javne ključe iz datoteke
     .accesskey = U
 openpgp-key-man-import-secret-from-file =
-    .label = Uvozi skrivne ključe iz datoteke
+    .label = Uvozi tajne ključe iz datoteke
 openpgp-key-man-import-sig-from-file =
     .label = Uvozi preklice iz datoteke
 openpgp-key-man-import-from-clipbrd =
@@ -98,7 +98,7 @@ openpgp-key-man-send-keys =
     .label = Pošlji javne ključe po e-pošti
     .accesskey = P
 openpgp-key-man-backup-secret-keys =
-    .label = Varnostno kopiraj skrivne ključe v datoteko
+    .label = Varnostno kopiraj tajne ključe v datoteko
     .accesskey = V
 openpgp-key-man-discover-cmd =
     .label = Odkrij ključe na spletu
@@ -121,7 +121,7 @@ openpgp-key-export-key =
     .label = Izvozi javni ključ v datoteko
     .accesskey = I
 openpgp-key-backup-key =
-    .label = Varnostno kopiraj skrivni ključ v datoteko
+    .label = Varnostno kopiraj tajni ključ v datoteko
     .accesskey = V
 openpgp-key-send-key =
     .label = Pošlji javni ključ po e-pošti
@@ -305,7 +305,7 @@ openpgp-acceptance-unverified-label =
 openpgp-acceptance-verified-label =
     .label = Da, osebno sem preveril, da ima ta ključ pravi prstni odtis.
 key-accept-personal =
-    Za ta ključ imate tako javni kot skrivni del. Lahko ga uporabljate kot osebni ključ.
+    Za ta ključ imate tako javni kot tajni del. Lahko ga uporabljate kot osebni ključ.
     Če vam je ta ključ dal nekdo drug, ga ne uporabljajte kot osebni ključ.
 openpgp-personal-no-label =
     .label = Ne, ne uporabljaj ga kot moj osebni ključ.
@@ -502,7 +502,7 @@ delete-pub-key =
     "{ $userId }"?
 delete-selected-pub-key = Ali želite izbrisati javne ključe?
 refresh-all-question = Izbrali niste nobenega ključa. Želite osvežiti vse ključe?
-key-man-button-export-sec-key = Izvozi &skrivne ključe
+key-man-button-export-sec-key = Izvozi &tajne ključe
 key-man-button-export-pub-key = Izvozi samo &javne ključe
 key-man-button-refresh-all = &Osveži vse ključe
 key-man-loading-keys = Nalaganje ključev, počakajte …
@@ -510,12 +510,12 @@ ascii-armor-file = Oklopne datoteke ASCII (*.asc)
 text-file = Besedilne datoteke (*.txt)
 no-key-selected = Za izvedbo izbranega dejanja izberite vsaj en ključ
 export-to-file = Izvozi javni ključ v datoteko
-export-keypair-to-file = Izvozi skrivni in javni ključ v datoteko
-export-secret-key = Ali želite vključiti skrivni ključ v shranjeno datoteko ključa OpenPGP?
+export-keypair-to-file = Izvozi tajni in javni ključ v datoteko
+export-secret-key = Ali želite vključiti tajni ključ v shranjeno datoteko ključa OpenPGP?
 save-keys-ok = Ključi so bili uspešno shranjeni
 save-keys-failed = Shranjevanje ključev ni uspelo
 default-pub-key-filename = Izvozeni_javni_kljuci
-default-pub-sec-key-filename = Varnostna_kopija_skrivnih_kljucev
+default-pub-sec-key-filename = Varnostna_kopija_tajnih_kljucev
 refresh-key-warn = Opozorilo: osvežitev vseh ključev je lahko, odvisno od števila ključev in hitrosti povezave, precej dolgotrajen postopek!
 preview-failed = Datoteke z javnim ključem ni mogoče prebrati.
 # Variables:
@@ -527,8 +527,8 @@ dlg-button-delete = &Izbriši
 
 openpgp-export-public-success = <b>Javni ključ uspešno izvožen!</b>
 openpgp-export-public-fail = <b>Izbranega javnega ključa ni mogoče izvoziti!</b>
-openpgp-export-secret-success = <b>Skrivni ključ uspešno izvožen!</b>
-openpgp-export-secret-fail = <b>Izbranega skrivnega ključa ni mogoče izvoziti!</b>
+openpgp-export-secret-success = <b>Tajni ključ uspešno izvožen!</b>
+openpgp-export-secret-fail = <b>Izbranega tajnega ključa ni mogoče izvoziti!</b>
 
 ## Strings in keyObj.sys.mjs
 ## Variables:
