@@ -117,8 +117,8 @@ calendar-dialog-menu-delete =
 calendar-dialog-menu-print =
     .label = Imprimer
 calendar-dialog-menu =
-    .aria-label = Menu plus d’actions
-    .title = Menu plus d’actions
+    .aria-label = Menu actions supplémentaires
+    .title = Menu actions supplémentaires
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -157,6 +157,6 @@ calendar-dialog-attachments-expand-icon =
 #   $count (Number): Number of attachments.
 calendar-dialog-attachments-summary-label =
     { $count ->
-        [one] { $count } pièce jointe
+        [one] { $count } pièce jointe
        *[other] { $count } pièces jointes
     }
