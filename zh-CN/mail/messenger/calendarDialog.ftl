@@ -18,9 +18,13 @@ calendar-dialog-description-row-icon =
     .alt = 说明
 calendar-dialog-reminders-row-icon =
     .alt = 提醒
+calendar-dialog-icon-declined =
+    .alt = 已拒绝
 calendar-dialog-description-label = 说明
 calendar-dialog-description-expand-icon =
     .alt = 显示完整说明
+calendar-dialog-menu-print =
+    .label = 打印
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -31,3 +35,8 @@ calendar-dialog-delete-reminder-button =
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count = { $count } 个提醒
+calendar-dialog-attachments-row-icon =
+    .alt = 附件
+calendar-dialog-attachments-label = 附件
+calendar-dialog-attachments-expand-icon =
+    .alt = 显示所有附件
