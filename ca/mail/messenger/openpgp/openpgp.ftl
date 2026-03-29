@@ -28,6 +28,10 @@ key-type-primary = clau principal
 
 window-locked = La finestra de redacció està blocada; s'ha cancel·lat l'enviament
 
+## Strings used in enigmailKeyManager.js & windows.sys.mjs
+
+need-online = La funció que has seleccionat no està disponible en mode fora de línia. Connecteu-vos a Internet i torneu-ho a provar.
+
 ## Strings used in commonWorkflows.js
 
 # Variables:
