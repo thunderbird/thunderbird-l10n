@@ -60,7 +60,7 @@ collection-health-report =
 collection-health-report-link = ვრცლად
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.
-collection-health-report-disabled = მოხსენებები გამორთულია ანაწყობის ამ კონფიგურაციისთვის
+collection-health-report-disabled = მონაცემთა მოხსენება გათიშულია ამ გამართვის ანაწყობზე.
 collection-backlogged-crash-reports =
     .label = ნებართვა, რომ { -brand-short-name } თავადვე გაგზავნის უეცარი გათიშვების მოხსენებებს
     .accesskey = უ
