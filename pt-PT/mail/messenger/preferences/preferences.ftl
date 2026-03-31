@@ -133,6 +133,11 @@ remove-search-engine =
     .label = Remover
     .accesskey = v
 add-opensearch-provider-title = Adicionar fornecedor OpenSearch
+add-opensearch-provider-text = Introduza o URL do fornecedor de OpenSearch a adicionar. Utilize o URL direto do ficheiro de descrição OpenSearch ou um URL onde este possa ser detetado automaticamente.
+adding-opensearch-provider-failed-title = Falha ao adicionar fornecedor de OpenSearch
+# Variables:
+# $url (String) - URL an OpenSearch provider was requested for.
+adding-opensearch-provider-failed-text = Não foi possível adicionar o fornecedor de OpenSearch para { $url }.
 minimize-to-tray-label =
     .label = Quando o { -brand-short-name } for minimizado, movê-lo para a bandeja
     .accesskey = m
@@ -155,6 +160,7 @@ change-dock-icon = Alterar as preferências para o ícone da aplicação
 app-icon-options =
     .label = Opções do ícone da aplicação…
     .accesskey = n
+notification-settings2 = Os alertas e o som predefinido podem ser desativados no painel de Notificações das Definições do Sistema.
 animated-alert-label =
     .label = Mostrar um alerta
     .accesskey = M
@@ -439,11 +445,25 @@ dark-message-mode-toggle-label =
     .label = Mostrar alternador do modo de mensagem escura
     .accesskey = t
 dark-message-mode-toggle-description = Mostrar um interruptor no cabeçalho da mensagem para desativar rapidamente o modo escuro das mensagens
+general-folder-options-header = Opções de gestão de pastas
+recent-destinations-legend = Destinos Recentes
+recent-sort-order-label = Ordem de ordenação:
+    .accesskey = O
+recent-sort-order-mru =
+    .label = Mais recentes
+recent-sort-order-alphabetic =
+    .label = Alfabeticamente
+max-recent-label = Número máximo de pastas recentes:
+    .accesskey = m
 account-hub-legend = Centro da conta
 account-hub-checkbox-label =
     .label = Criar contas no novo Centro de contas
     .accesskey = C
 account-hub-checkbox-description = Fluxo experimental da criação de nova conta de e-mail
+new-calendar-legend = Diálogo de novo evento de calendário
+new-calendar-checkbox-label =
+    .label = Ver eventos de calendário no novo diálogo
+new-calendar-checkbox-description = Novo diálogo experimental de calendário para ver eventos
 account-hub-ab-checkbox-label =
     .label = Criar livros de endereços no novo Centro de contas
     .accesskey = A
@@ -622,6 +642,7 @@ primary-password-button =
     .accesskey = l
 forms-primary-pw-fips-title = Atualmente, está no modo FIPS. Este modo requer uma palavra-passe principal não vazia.
 forms-master-pw-fips-desc = Falha ao alterar palavra-passe
+spam-description = Configure as predefinições para o lixo eletrónico. As definições específicas de lixo eletrónico podem ser efetuadas nas definições da conta.
 spam-marked-label =
     .label = Quando as mensagens são marcadas como lixo eletrónico:
     .accesskey = Q
@@ -699,14 +720,21 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Encriptação de e-mail ponto a ponto
 account-settings = Definições da Conta
+email-e2ee-enable-accounts-info = Configure as contas de e-mail e identidades para a encriptação ponta-a-ponta nas <a data-l10n-name="account-settings-url">Definições da conta</a>.
 email-e2ee-enable-info = Configurar contas de e-mail e identidades para a encriptação ponto a ponto nas Definições de conta.
 email-e2ee-automatism = Utilização automática de encriptação
+email-e2ee-automatism-pre =
+    O { -brand-short-name } pode ajudar ativando ou desativando automaticamente a encriptação ao escrever um e-mail.
+    A ativação/desativação automática é baseada na disponibilidade de chaves ou certificados correspondentes válidos e aceites.
 email-e2ee-auto-on =
     .label = Quando possível, ativar automaticamente a encriptação
 email-e2ee-auto-off =
     .label = Desativar automaticamente a encriptação quando os destinatários forem alterados e a encriptação já não for possível
 email-e2ee-auto-off-notify =
     .label = Mostrar uma notificação quando a encriptação é desativada automaticamente
+email-e2ee-automatism-post =
+    Decisões automáticas podem ser substituídas ao ativar ou desativar manualmente a encriptação ao compor uma mensagem.
+    Nota: a encriptação é sempre ativada automaticamente ao responder a uma mensagem encriptada.
 
 ## DoH Section
 
@@ -748,6 +776,7 @@ preferences-doh-enabled-detailed-desc-2 = Utilizar apenas o seu tradutor de DNS 
 preferences-doh-setting-strict =
     .label = Proteção máxima
     .accesskey = m
+preferences-doh-strict-desc = O { -brand-short-name } utilizará sempre o DNS seguro. Irá ver um aviso de risco de segurança antes de utilizarmos o DNS do seu sistema.
 preferences-doh-strict-detailed-desc-1 = Utilizar apenas o fornecedor que você selecionar
 preferences-doh-strict-detailed-desc-2 = Avisar sempre se o DNS seguro não estiver disponível
 preferences-doh-strict-detailed-desc-3 = Se o DNS seguro não estiver disponível, os sites não serão carregados ou não funcionarão corretamente
@@ -934,13 +963,18 @@ sync-disconnected-turn-on-sync = Ativar a sincronização…
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Exportar as contas para o { -brand-product-name } para dispositivos móveis
+qr-export-description = Transfira rapidamente as definições da sua conta do computador para o dispositivo móvel ao gerar um código QR. Selecione as contas a incluir, decida se pretende transferir a sua palavra-passe e digitalize o código com o seu dispositivo móvel. Rápido, seguro e simples.
 qr-export-get-app = Ainda não tem o { -brand-product-name } para dispositivos móveis? <a data-l10n-name="app-link">Obtenha-o no Google Play</a>
 qr-export-create = Crie um código QR para exportar as suas contas
 qr-export-select-accounts = Selecione as contas a exportar:
+qr-export-no-accounts = Não está a ver todas as suas contas? Algumas contas podem estar desativadas por não serem suportadas pela { -brand-product-name } para Android. <a data-l10n-name="account-support-link">Apoio</a>
 qr-export-accounts-legend = Contas de correio eletrónico
 qr-export-select-all-accounts = Selecionar tudo
 qr-export-security-legend = Segurança
 qr-export-include-passwords = Incluir todas as palavras-passe das contas
+qr-export-oauth-warning = Algumas das suas contas utilizam um método de autenticação que pode requerer uma reautenticação no seu dispositivo móvel. Pode necessitar de introduzir novamente as suas palavras-passe durante este processo.
+qr-export-security-hint = Ao digitalizar os seguintes códigos QR, as suas definições de conta — incluindo o seu e-mail e palavra-passe — serão transferidas com segurança. Não recolhemos, armazenamos nem partilhamos nenhum destes dados durante o processo. A transferência ocorre diretamente entre os seus dispositivos.
+qr-export-security-warning = Para a sua segurança, verifique se está num ambiente privado e digitalize apenas códigos QR de fontes fidedignas.
 qr-export-start-export = Exportar
 # Variables:
 # $count (Number) - Total number of QR codes to step through.
@@ -950,7 +984,17 @@ qr-export-scan-progress =
         [one] { $step } de { $count } código QR
        *[other] { $step } de { $count } códigos QR
     }
+# Variables:
+# $count (Number) - Total number of QR codes to step through.
+qr-export-scan-description =
+    { $count ->
+        [one] Digitalize o código QR com o { -brand-product-name } no seu dispositivo móvel
+       *[other] Digitalize os códigos QR com o { -brand-product-name } no seu dispositivo móvel
+    }
+qr-export-scan-step1 = Abre o { -brand-product-name } no teu dispositivo móvel
 qr-export-scan-step2 = Ir para as definições
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = Seleciona <strong>Importar definições</strong>
 qr-export-back = Retroceder
 qr-export-next = Seguinte
 qr-export-done = Concluído

@@ -30,8 +30,76 @@ calendar-dialog-attendee-count =
         [one] { $count } convidado
        *[other] { $count } convidados
     }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary =
+    { $going ->
+        [one]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } presente, { $maybe } talvez, { $declined } recusado, { $pending } pendente
+                               *[other] { $going } presentes, { $maybe } talvez, { $declined } recusados, { $pending } pendentes
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } presente, { $maybe } talvez, { $declined } recusados, { $pending } pendente
+                               *[other] { $going } presentes, { $maybe } talvez, { $declined } recusados, { $pending } pendentes
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } presente, { $maybe } talvez, { $declined } recusado, { $pending } pendente
+                               *[other] { $going } presentes, { $maybe } talvez, { $declined } recusados, { $pending } pendentes
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } presente, { $maybe } talvez, { $declined } recusados, { $pending } pendente
+                               *[other] { $going } presentes, { $maybe } talvez, { $declined } recusados, { $pending } pendentes
+                            }
+                    }
+            }
+       *[other]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } presentes, { $maybe } talvez, { $declined } recusado, { $pending } pendente
+                               *[other] { $going } presentes, { $maybe } talvez, { $declined } recusado, { $pending } pendentes
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } presentes, { $maybe } talvez, { $declined } recusados, { $pending } pendente
+                               *[other] { $going } presentes, { $maybe } talvez, { $declined } recusados, { $pending } pendentes
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } presentes, { $maybe } talvez, { $declined } recusado, { $pending } pendente
+                               *[other] { $going } presentes, { $maybe } talvez, { $declined } recusado, { $pending } pendentes
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } presentes, { $maybe } talvez, { $declined } recusados, { $pending } pendente
+                               *[other] { $going } presentes, { $maybe } talvez, { $declined } recusados, { $pending } pendentes
+                            }
+                    }
+            }
+    }
 calendar-dialog-attendee-organizer = Organizador
 calendar-dialog-attendee-optional = Opcional
+calendar-dialog-icon-attending =
+    .alt = A participar
 calendar-dialog-icon-declined =
     .alt = Recusado
 calendar-dialog-icon-maybe =

@@ -5,6 +5,7 @@
 account-encryption =
     .label = Encriptação ponto a ponto
 account-otr-label = Mensagens fora de registo (OTR)
+account-otr-description2 = O { -brand-short-name } suporta encriptação de ponta a ponta de conversas individuais baseada em OTR. Isto impede que terceiros escutem uma conversa. Este tipo de encriptação de ponta a ponta só pode ser utilizada quando a outra pessoa também utiliza software que suporta OTR.
 otr-encryption-title = Encriptação confirmada
 otr-encryption-caption = Para permitir que outras pessoas confirmem a sua identidade em conversas OTR, partilhe o seu próprio identificador OTR utilizando um canal de comunicação externo (fora da banda).
 otr-fingerprint-label = O seu identificador digital:

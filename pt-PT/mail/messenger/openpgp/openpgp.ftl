@@ -4,6 +4,10 @@
 
 e2e-intro-description = Para enviar mensagens encriptadas ou assinadas digitalmente, tem de configurar uma tecnologia de encriptação, OpenPGP ou S/MIME.
 e2e-intro-description-more = Selecione a sua chave pessoal para ativar a utilização do OpenPGP, ou o seu certificado pessoal para ativar a utilização do S/MIME. Para uma chave ou certificado pessoal, você possui a respetiva chave secreta.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Para obter um novo certificado pessoal S/MIME, crie um Pedido de Assinatura de Certificado (CSR) e envie-o a uma Autoridade Certificadora (CA)
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Selecione um diretório local e um nome de ficheiro para o seu ficheiro CSR e responda às seguintes perguntas para definir o algoritmo e a robustez.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = Gerar CSR
 # A label for a button that proceeds to the next step
@@ -15,6 +19,15 @@ e2e-csr-button =
     .label = Gerar e guardar um ficheiro CSR como…
 # Do not translate: CSR
 e2e-csr-select-title = Algoritmo de CSR
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Escolha entre RSA (recomendado) ou ECC como o seu algoritmo criptográfico para o novo certificado S/MIME.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Escolha a robustez criptográfica pretendida (mais rápida com números inferiores ou melhor segurança com números superiores) para o novo certificado S/MIME, ou mantenha a definição predefinida.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = Será gerada uma nova chave secreta { $type } { $strength } nas definições do { -brand-short-name }. Este processo poderá demorar algum tempo e causar uma falta de responsividade temporária; por favor, aguarde pacientemente durante este passo. O ficheiro de Pedido de Assinatura de Certificado (CSR), guardado como { $file }, será entretanto criado.
 # $email An email address
 # Do not translate: CSR
 e2e-csr-include-email = Incluir o endereço de e-mail ({ $email }) no CSR (recomendado)
@@ -323,8 +336,18 @@ openpgp-copy-cmd-label =
 
 #   $identity (String) - the email address of the currently selected identity
 openpgp-description-no-key = O { -brand-short-name } não tem uma chave OpenPGP pessoal para <b>{ $identity }</b>
+#   $count (Number) - the number of configured keys associated with the current identity
+#   $identity (String) - the email address of the currently selected identity
+openpgp-description-has-keys =
+    { $count ->
+        [one] O { -brand-short-name } encontrou { $count } chave OpenPGP pessoal associada a <b>{ $identity }</b>
+       *[other] O { -brand-short-name } encontrou { $count } chaves OpenPGP pessoais associadas a <b>{ $identity }</b>
+    }
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = A sua configuração atual utiliza a chave com o ID <b>{ $key }</b>
+#   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = A sua configuração atual utiliza a chave <b>{ $key }</b>, que irá expirar { $when }. Para manter a chave válida, considere prolongar agora a data de expiração da chave.
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = A sua configuração atual utiliza a chave <b>{ $key }</b>, que expirou.
 openpgp-add-key-button =
@@ -383,6 +406,12 @@ key-does-not-expire = A chave não expira
 key-expired-date = A chave expirou a { $keyExpiry }
 key-expired-simple = A chave expirou
 key-revoked-simple = A chave foi revogada
+key-revoked-revocation-code-superseded = A chave foi revogada porque a chave foi substituída.
+key-revoked-revocation-code-compromised = A chave foi revogada porque o material da chave foi comprometido.
+key-revoked-revocation-code-retired = A chave foi revogada porque a chave foi retirada e já não é utilizada.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Motivo da revogação indicado pelo proprietário da chave: { $reason }
 key-do-you-accept = Aceita esta chave para validar assinaturas digitais e para encriptar mensagens?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
@@ -599,6 +628,9 @@ confirm-permissive-import = A importação falhou. A chave que está a tentar im
 
 ## Strings used in keyRing.sys.mjs
 
+# Variables:
+# $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
+imported-secret-with-unsupported-features = Algumas das chaves secretas importadas anunciam uma funcionalidade não suportada. Se utilizar uma dessas chaves como a sua chave pessoal, os correspondentes poderão enviar-lhe e-mails ou chaves públicas num formato incompatível. Isto afeta as chaves secretas importadas com as seguintes impressões digitais: { $fingerprints }.
 help-button = Ajuda
 
 ## Strings used in trust.sys.mjs

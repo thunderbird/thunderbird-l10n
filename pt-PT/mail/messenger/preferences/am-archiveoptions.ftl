@@ -28,3 +28,5 @@ inbox-folder-name =
     .label = Caixa de entrada
 child-folder-name =
     .label = Sub-pasta da caixa de entrada
+sibling-folder-name =
+    .label = Ao mesmo nível da Caixa de entrada

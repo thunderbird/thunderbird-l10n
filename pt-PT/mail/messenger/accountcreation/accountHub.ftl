@@ -162,6 +162,7 @@ account-hub-result-pop-description = Mantenha as suas pastas e as mensagens no s
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Utilize os Web Services do Microsoft Exchange para sincronizar as suas pastas e as mensagens
 account-hub-result-graph-shortname = Exchange (Graph)
+account-hub-result-graph-description = Utilizar a API Microsoft Graph para sincronizar as suas pastas e e-mails.
 account-hub-result-exchange-description = Sincronize as pastas e as mensagens com o Exchange ou Office 365
 account-hub-result-ews-text = Servidor
 account-hub-result-recommended-label = Recomendado
@@ -204,6 +205,7 @@ account-hub-oauth-pending = A aguardar por autorização na janela de autentica�
 account-hub-addon-install-button = Instalar
 account-hub-addon-install-needed = O { -brand-short-name } não suporta nativamente este servidor. Para aceder ao e-mail de Exchange, <a data-l10n-name="addon-install">instale um extra de terceiros, como o Owl (pago).</a>
 account-hub-addon-error = A instalação do extra falhou. Por favor, tente novamente ou contacte o autor do extra para assistência.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Aviso: Foi detetado um servidor de correio eletrónico inseguro.</span> Este servidor não tem encriptação, expondo a sua palavra-passe e os seus dados. Contacte o seu administrador para proteger a ligação ou prossiga por sua conta e risco. <a data-l10n-name="error-link">Consulte as FAQ para mais informações.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Aviso: foi detetado um servidor de correio inseguro.</span> Este servidor não tem encriptação, expondo a sua palavra-passe e os dados. Contacte o seu administrador para proteger a ligação ou prossiga por sua conta e risco. <a data-l10n-name="faq-link">Consulte as perguntas frequentes para saber mais.</a>
 account-hub-account-authentication-error = Erro de autenticação.
 account-hub-add-address-book = Adicionar um livro de endereços

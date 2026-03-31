@@ -664,6 +664,25 @@ prompt-dont-ask-again = Não voltar a perguntar.
 spam-analysis-percentage = Análise do lixo eletrónico { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } concluída
 spam-processing-message = A processar as mensagens de lixo eletrónico
 
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] As respostas ao tópico "{ $subject }" não serão mostradas.
+       *[other] As respostas aos { $count } tópicos selecionados não serão mostradas.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] As respostas à sub-tópico "{ $subject }" não serão mostradas.
+       *[other] As respostas aos { $count } sub-tópicos selecionados não serão mostradas.
+    }
+
 ## Attachments
 
 # Variables:
