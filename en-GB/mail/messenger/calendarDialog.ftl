@@ -30,6 +30,72 @@ calendar-dialog-attendee-count =
         [one] { $count } Guest
        *[other] { $count } Guests
     }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary =
+    { $going ->
+        [one]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                               *[other] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                               *[other] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                               *[other] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                               *[other] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                            }
+                    }
+            }
+       *[other]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                               *[other] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                               *[other] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                               *[other] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                               *[other] { $going } attending, { $maybe } maybe, { $declined } declined, { $pending } pending
+                            }
+                    }
+            }
+    }
 calendar-dialog-attendee-organizer = Organiser
 calendar-dialog-attendee-optional = Optional
 calendar-dialog-icon-attending =
