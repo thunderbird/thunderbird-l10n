@@ -991,13 +991,16 @@ qr-export-scan-description =
         [one] Digitalize o código QR com o { -brand-product-name } no seu dispositivo móvel
        *[other] Digitalize os códigos QR com o { -brand-product-name } no seu dispositivo móvel
     }
-qr-export-scan-step1 = Abre o { -brand-product-name } no teu dispositivo móvel
+qr-export-scan-step1 = Abra o { -brand-product-name } no seu dispositivo móvel
 qr-export-scan-step2 = Ir para as definições
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
-qr-export-scan-step3 = Seleciona <strong>Importar definições</strong>
+qr-export-scan-step3 = Selecione <strong>Importar definições</strong>
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
+qr-export-scan-step4-revision = Toque em <strong> Digitalizar código QR </strong> e mantenha o seu telemóvel sobre este código
 qr-export-back = Retroceder
 qr-export-next = Seguinte
 qr-export-done = Concluído
+qr-export-summary-description = Contas exportadas. Continue no seu dispositivo móvel.
 qr-export-summary-title = Resumo da exportação:
 # Variables:
 # $count (Number) - Total number of QR codes shown to the user.
@@ -1020,6 +1023,24 @@ qr-export-more-accounts = Exportar mais contas
 ## Appearance Tab
 
 appearance-category-header = Aspeto
+accent-color-legend = Cor de destaque
+accent-color-label =
+    .value = Definir a cor utilizada para botões primários e elementos destacados:
+accent-color-os =
+    .label = Seguir sistema operativo
+accent-color-thunderbird =
+    .label = Azul Thunderbird
+accent-color-purple =
+    .label = Roxo
+accent-color-orange =
+    .label = Laranja
+accent-color-pink =
+    .label = Rosa
+accent-color-ink =
+    .label = Tinta
+accent-color-teal =
+    .label = Verde-azulado
+accent-color-disabled-description = Cores de destaque não são suportadas no modo de alto contraste.
 default-message-list-legend = Lista de mensagens
 appearance-view-style =
     .value = Estilo de visualização:
@@ -1036,6 +1057,7 @@ appearance-card-style-3 =
 appearance-card-style-2 =
     .label = 2 linhas
 default-message-list-sorting-legend = Ordenação e agrupamento
+default-message-list-description = Definir as opções predefinidas de ordenação e discussões para as novas pastas.
 default-flag-label =
     .value = Agrupamento predefinido:
 default-flag-unthreaded =
@@ -1088,6 +1110,7 @@ default-sort-ascending-description = Novas mensagens no fim
 default-sort-descending =
     .label = Descendente
 default-sort-descending-description = Novas mensagens no topo
+apply-thread-sort-label = Propagar definições de discussões e ordenação a:
 apply-sort-to-all-button =
     .label = Todas as pastas existentes
     .accesskey = a
@@ -1100,3 +1123,11 @@ apply-current-view-to-folder-children =
     .label = Pasta e os seus filhos...
 apply-changes-prompt-title = Aplicar alterações?
 apply-changes-prompt-message = Aplicar as definições de agrupamento e de ordenação atuais a todas as pastas?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-message = Aplicar as definições atuais de discussões e ordenação a “{ $name }”?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-changes-prompt-folder-children-message = Aplicar as definições atuais de discussões e ordenação a “{ $name }” e respetivas sub-pastas?
+apply-current-view-error = Não foi possível aplicar as definições da vista atual
+apply-current-view-success = As definições da vista atual foram aplicadas com sucesso
