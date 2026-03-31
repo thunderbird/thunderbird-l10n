@@ -161,6 +161,7 @@ account-hub-result-imap-description = Mantenha as suas pastas e as mensagens sin
 account-hub-result-pop-description = Mantenha as suas pastas e as mensagens no seu computador
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Utilize os Web Services do Microsoft Exchange para sincronizar as suas pastas e as mensagens
+account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-exchange-description = Sincronize as pastas e as mensagens com o Exchange ou Office 365
 account-hub-result-ews-text = Servidor
 account-hub-result-recommended-label = Recomendado
