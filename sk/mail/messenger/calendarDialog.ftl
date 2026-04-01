@@ -32,6 +32,522 @@ calendar-dialog-attendee-count =
         [many] { $count } hostí
        *[other] { $count } hostí
     }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary =
+    { $going ->
+        [one]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+                [few]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+                [many]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+            }
+        [few]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+                [few]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+                [many]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastnia, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+            }
+        [many]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+                [few]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+                [many]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+            }
+       *[other]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+                [few]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+                [many]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastnia, { $pending } nepotvrdených
+                            }
+                        [many]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdený
+                                [few] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdení
+                                [many] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                               *[other] { $going } sa zúčastní, { $maybe } možno, { $declined } sa nezúčastní, { $pending } nepotvrdených
+                            }
+                    }
+            }
+    }
 calendar-dialog-attendee-organizer = Organizátor
 calendar-dialog-attendee-optional = Nepovinný účastník
 calendar-dialog-icon-attending =
