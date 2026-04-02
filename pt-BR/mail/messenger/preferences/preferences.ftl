@@ -1007,6 +1007,20 @@ qr-export-more-accounts = Exportar mais contas
 ## Appearance Tab
 
 appearance-category-header = Aparência
+accent-color-os =
+    .label = Seguir sistema operacional
+accent-color-thunderbird =
+    .label = Azul Thunderbird
+accent-color-purple =
+    .label = Roxo
+accent-color-orange =
+    .label = Laranja
+accent-color-pink =
+    .label = Rosa
+accent-color-ink =
+    .label = Tinta
+accent-color-teal =
+    .label = Verde-azulado
 default-message-list-legend = Lista de mensagens
 appearance-view-style =
     .value = Estilo de exibição:
