@@ -135,7 +135,7 @@
 <!ENTITY returnReceiptMenu.label "Potvrdenie o prečítaní">
 <!ENTITY returnReceiptMenu.accesskey "d">
 <!ENTITY dsnMenu.label "Doručiť notifikáciu o stave">
-<!ENTITY dsnMenu.accesskey "o">
+<!ENTITY dsnMenu.accesskey "D">
 <!ENTITY priorityMenu.label "Priorita">
 <!ENTITY priorityMenu.accesskey "P">
 <!ENTITY priorityButton.title "Priorita">
@@ -274,7 +274,7 @@
 <!-- Title for the address picker panel -->
 <!ENTITY addressesSidebarTitle.label "Kontakty">
 <!-- Identity popup customize menuitem -->
-<!ENTITY customizeFromAddress.label "Nastavenie adresy odosielateľa…">
+<!ENTITY customizeFromAddress.label "Prispôsobiť adresu odosielateľa…">
 <!ENTITY customizeFromAddress.accesskey "a">
 <!-- Accessibility name for the document -->
 <!ENTITY aria.message.bodyName "Telo správy">
