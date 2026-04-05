@@ -1008,6 +1008,24 @@ qr-export-more-accounts = Xuất tài khoản khác
 ## Appearance Tab
 
 appearance-category-header = Giao diện
+accent-color-legend = Màu nhấn (Accent color)
+accent-color-label =
+    .value = Xác định màu sắc được sử dụng cho các nút chính và các phần tử được làm nổi bật:
+accent-color-os =
+    .label = Theo hệ thống
+accent-color-thunderbird =
+    .label = Thunderbird xanh
+accent-color-purple =
+    .label = Tím
+accent-color-orange =
+    .label = Da cam
+accent-color-pink =
+    .label = Hồng
+accent-color-ink =
+    .label = Mực
+accent-color-teal =
+    .label = Xanh mòng két
+accent-color-disabled-description = Màu nhấn không được hỗ trợ trong chế độ Độ tương phản cao (High Contrast).
 default-message-list-legend = Danh sách thư
 appearance-view-style =
     .value = Kiểu xem:
