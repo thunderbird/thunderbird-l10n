@@ -251,7 +251,7 @@ cal-dav-request-status-code-string-404 = Zdroj nenalezen.
 cal-dav-request-status-code-string-409 = Konflikt zdrojů.
 cal-dav-request-status-code-string-412 = Chyba v předpokladech.
 cal-dav-request-status-code-string-500 = Vnitřní chyba serveru.
-cal-dav-request-status-code-string-502 = Chybná brána (pravděpodobně chybná konfigurace proxy).
+cal-dav-request-status-code-string-502 = Špatná brána (pravděpodobně chybná konfigurace proxy serveru).
 cal-dav-request-status-code-string-503 = Vnitřní chyba serveru (pravděpodobně je server přetížen).
 # $name name of calendar
 cal-dav-redirect-title = Aktualizovat umístění pro kalendář { $name }?
