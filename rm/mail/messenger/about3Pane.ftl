@@ -134,6 +134,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = Tuts
     .title = Tut ils criteris d'etichettas tschernids ston correspunder
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = Mo senza etichetta
+    .title = Sulettamain messadis senza etichetta
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
@@ -188,6 +192,9 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Mussar la grondezza da l'ordinatur
+# Context menu item to toggle display of full folder path in compact mode.
+folder-pane-header-toggle-full-path =
+    .label = Mussar il percurs cumplet
 folder-pane-header-hide-local-folders =
     .label = Zuppentar ils ordinaturs locals
 folder-pane-mode-context-button =
@@ -548,3 +555,17 @@ folder-pane-context-mark-folder-read =
 folder-pane-context-reset-sort =
     .label = Reinizialisar l’urden dals ordinaturs
     .accesskey = R
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+folder-pane-context-compact =
+    .label =
+        { $count ->
+            [1] Cumprimer l’ordinatur
+           *[other] Cumprimer ils ordinaturs
+        }
+    .accesskey = o
+# One or more servers selected for compacting ALL their folders. Only this or
+# folder-pane-context-compact string will appear at a time, not both.
+folder-pane-context-compact-all =
+    .label = Cumprimer tut ils ordinaturs
+    .accesskey = o

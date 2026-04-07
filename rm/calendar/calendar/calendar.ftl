@@ -857,6 +857,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Incumbensa…
     .accesskey = P
+calendar-task-filter-title2 = Filtrar las incumbensas
 calendar-task-filter-title = Mussar
 calendar-task-filter-all =
     .label = Tut
@@ -980,6 +981,30 @@ calendar-alarm-snooze-for =
     .label = Puspè regurdar en
 calendar-alarm-snooze-all-for =
     .label = Spustar tuts per
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } minuta
+           *[other] { $count } minutas
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] { $count } ura
+           *[other] { $count } uras
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] { $count } di
+           *[other] { $count } dis
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.

@@ -19,6 +19,7 @@ boolean-error = Betg ina valur boolean
 no-number-error = Betg in numer
 number-too-large-error = Numer memia grond
 number-too-small-error = Numer memia pitschen
+emailaddress-syntax-error = Betg in’adressa dad e-mail valida
 
 ## FetchHTTP.sys.mjs
 
