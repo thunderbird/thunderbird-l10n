@@ -447,6 +447,7 @@ dark-message-mode-toggle-label =
 dark-message-mode-toggle-description = Mostrar um interruptor no cabeçalho da mensagem para desativar rapidamente o modo escuro das mensagens
 general-folder-options-header = Opções de gestão de pastas
 recent-destinations-legend = Destinos Recentes
+recent-destinations-description = Opções para listar e ordenar as pastas para onde as mensagens foram movidas recentemente.
 recent-sort-order-label = Ordem de ordenação:
     .accesskey = O
 recent-sort-order-mru =
