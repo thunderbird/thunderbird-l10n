@@ -21,11 +21,18 @@ calendar-dialog-description-row-icon =
     .alt = 说明
 calendar-dialog-reminders-row-icon =
     .alt = 提醒
+calendar-dialog-attendee-organizer = 组织者
+calendar-dialog-icon-attending =
+    .alt = 参加
 calendar-dialog-icon-declined =
     .alt = 已拒绝
+calendar-dialog-icon-maybe =
+    .alt = 暂定
 calendar-dialog-description-label = 说明
 calendar-dialog-description-expand-icon =
     .alt = 显示完整说明
+calendar-dialog-menu-delete =
+    .label = 删除事件
 calendar-dialog-menu-print =
     .label = 打印
 # Variables:
@@ -38,8 +45,20 @@ calendar-dialog-delete-reminder-button =
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count = { $count } 个提醒
+calendar-dialog-accept = 参加
+    .title = 参加
+calendar-dialog-accept-tentative = 暂定
+    .title = 暂定
+calendar-dialog-decline = 不参加
+    .title = 不参加
+calendar-dialog-join-meeting-button = 加入会议
+calendar-dialog-join-meeting-row-icon =
+    .alt = 加入会议
 calendar-dialog-attachments-row-icon =
     .alt = 附件
 calendar-dialog-attachments-label = 附件
 calendar-dialog-attachments-expand-icon =
     .alt = 显示所有附件
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label = { $count } 个附件
