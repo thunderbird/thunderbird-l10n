@@ -5,6 +5,9 @@
 calendar-dialog-close-button =
     .aria-label = 关闭
     .title = 关闭
+calendar-dialog-menu-button =
+    .aria-label = 打开菜单
+    .title = 打开菜单
 calendar-dialog-back-button =
     .aria-label = 返回
     .title = 返回
