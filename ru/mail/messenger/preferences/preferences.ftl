@@ -740,7 +740,7 @@ email-e2ee-automatism-post =
 ## DoH Section
 
 preferences-doh-header = DNS через HTTPS
-preferences-doh-description = Система доменных имен (DNS) через HTTPS отправляет ваш запрос на доменное имя через зашифрованное соединение, обеспечивая безопасный DNS и мешая другим увидеть, к какому веб-сайту вы собираетесь получить доступ.
+preferences-doh-description = Система доменных имён (DNS) через HTTPS отправляет ваш запрос на доменное имя через зашифрованное соединение, обеспечивая безопасный DNS и мешая другим увидеть, к какому веб-сайту вы собираетесь получить доступ.
 # Variables:
 #   $status (string) - The status of the DoH connection
 preferences-doh-status = Состояние: { $status }
