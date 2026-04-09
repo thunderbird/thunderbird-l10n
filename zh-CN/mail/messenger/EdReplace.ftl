@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 not-found-alert-title = 查找
+not-found-alert-message = 找不到您输入的文本。

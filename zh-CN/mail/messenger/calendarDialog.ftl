@@ -28,13 +28,21 @@ calendar-dialog-icon-declined =
     .alt = 已拒绝
 calendar-dialog-icon-maybe =
     .alt = 暂定
+calendar-dialog-attendees-expand-icon =
+    .alt = 显示所有来宾
+calendar-dialog-attendees-too-many-guests = 来宾超过 50 位，无法显示来宾列表。
 calendar-dialog-description-label = 说明
 calendar-dialog-description-expand-icon =
     .alt = 显示完整说明
+calendar-dialog-menu-duplicate =
+    .label = 克隆事件
 calendar-dialog-menu-delete =
     .label = 删除事件
 calendar-dialog-menu-print =
     .label = 打印
+calendar-dialog-menu =
+    .aria-label = 更多操作菜单
+    .title = 更多操作菜单
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
