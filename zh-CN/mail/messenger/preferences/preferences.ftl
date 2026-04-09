@@ -1009,8 +1009,12 @@ qr-export-more-accounts = 导出更多账户
 
 appearance-category-header = 外观
 accent-color-legend = 强调色
+accent-color-label =
+    .value = 选择主要按钮和高亮元素使用的颜色
 accent-color-os =
     .label = 跟随操作系统
+accent-color-thunderbird =
+    .label = Thunderbird 蓝
 accent-color-purple =
     .label = 紫色
 accent-color-orange =

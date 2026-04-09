@@ -65,6 +65,8 @@ calendar-dialog-join-meeting-row-icon =
 calendar-dialog-attachments-row-icon =
     .alt = 附件
 calendar-dialog-attachments-label = 附件
+calendar-dialog-attachment-link-icon =
+    .alt = 已链接附件
 calendar-dialog-attachments-expand-icon =
     .alt = 显示所有附件
 # Variables:
