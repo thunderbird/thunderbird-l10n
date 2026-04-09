@@ -445,6 +445,7 @@ dark-message-mode-toggle-label =
     .label = 显示邮件深色模式切换按钮
     .accesskey = t
 dark-message-mode-toggle-description = 在邮件标题栏中显示切换按钮，方便关闭邮件深色模式
+general-folder-options-header = 文件夹管理选项
 recent-destinations-legend = 近期去向
 account-hub-legend = 账户中心
 account-hub-checkbox-label =

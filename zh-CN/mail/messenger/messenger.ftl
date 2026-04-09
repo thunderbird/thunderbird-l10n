@@ -643,6 +643,14 @@ ignored-theads-feedback =
         [one] 将不再显示对话题“{ $subject }”的回复。
        *[other] 将不再显示对 { $count } 个所选话题的回复。
     }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] 将不再显示对子话题“{ $subject }”的回复。
+       *[other] 将不再显示对 { $count } 个所选子话题的回复。
+    }
 
 ## Attachments
 
