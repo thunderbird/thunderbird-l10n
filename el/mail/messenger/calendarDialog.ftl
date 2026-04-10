@@ -30,6 +30,24 @@ calendar-dialog-attendee-count =
         [one] { $count } προσκεκλημένος
        *[other] { $count } προσκεκλημένοι
     }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary =
+    { $going ->
+        [one]
+            { $declined ->
+                [one] { $going } συμμετοχή, { $maybe } ίσως, { $declined } απόρριψη, { $pending } σε εκκρεμότητα
+               *[other] { $going } συμμετοχή, { $maybe } ίσως, { $declined } απορρίψεις, { $pending } σε εκκρεμότητα
+            }
+       *[other]
+            { $declined ->
+                [one] { $going } συμμετοχές, { $maybe } ίσως, { $declined } απόρριψη, { $pending } σε εκκρεμότητα
+               *[other] { $going } συμμετοχές, { $maybe } ίσως, { $declined } απορρίψεις, { $pending } σε εκκρεμότητα
+            }
+    }
 calendar-dialog-attendee-organizer = Διοργανωτής
 calendar-dialog-attendee-optional = Προαιρετικό
 calendar-dialog-icon-attending =
