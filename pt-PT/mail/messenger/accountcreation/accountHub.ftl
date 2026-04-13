@@ -167,12 +167,19 @@ account-hub-email-account-added-title = Conta adicionada com sucesso
 account-hub-find-account-settings-failed = O { -brand-short-name } não conseguiu encontrar as definições para a sua conta de e-mail.
 account-hub-find-settings-failed = O { -brand-full-name } não conseguiu encontrar as definições para a sua conta de e-mail.
 account-hub-exchange-config-unverifiable = Não foi possível verificar a configuração. Se o seu nome de utilizador e palavra-passe estiverem corretos, é provável que o administrador do servidor tenha desativado a configuração selecionada para a sua conta. Tente selecionar outro protocolo.
+account-hub-advanced-setup-button = Configuração avançada
+    .accesskey = a
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+account-hub-exchange-dialog-question = O { -brand-short-name } encontrou as informações de configuração da sua conta em { $domain }. Deseja continuar e enviar as suas credenciais?
 account-hub-creation-error-title = Erro ao criar a conta
 account-hub-error-server-exists = O servidor de receção já existe.
 account-hub-confirm-advanced-title = Confirmar configuração avançada
 account-hub-confirm-advanced-description = Esta janela será fechada e será criada uma conta com as definições atuais, mesmo que a configuração esteja incorreta. Pretende continuar?
 account-hub-addon-install-title = Instalar
 account-hub-encryption-button = Encriptação ponto a ponto
+account-hub-address-books-button = Livros de endereços
+account-hub-calendars-button = Calendários
 account-hub-notification-show-more = Mostrar mais
 account-hub-notification-show-less = Mostrar menos
 account-hub-email-setup-header = Adicionar o seu endereço de e-mail
