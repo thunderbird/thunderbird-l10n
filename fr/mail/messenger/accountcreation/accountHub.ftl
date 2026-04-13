@@ -136,6 +136,17 @@ account-hub-notification-unknown-host = Informations de configuration trouvées 
 account-hub-ssl-noencryption = Aucun
 account-hub-email-skip-button = Ignorer
 account-hub-finding-sync-accounts = Compte créé. Recherche de carnets d’adresses et d’agendas…
+account-hub-name-warning-icon =
+    .title = Veuillez saisir vos nom et prénom
+account-hub-email-label = Adresse e-mail
+    .accesskey = e
+account-hub-email-input =
+    .placeholder = jean.ne.dupont@example.com
+account-hub-email-warning-icon =
+    .title = Adresse e-mail invalide
+account-hub-password-label = Mot de passe
+    .accesskey = p
+    .title = Facultatif, sera uniquement utilisé pour valider le nom d’utilisateur
 account-hub-remember-password = Retenir le mot de passe
     .accesskey = m
 account-hub-exchange-label = Votre identifiant
@@ -161,6 +172,9 @@ account-hub-find-settings-failed = { -brand-full-name } n’a pas trouvé les pa
 account-hub-exchange-config-unverifiable = La configuration n’a pas pu être vérifiée. Si votre nom d’utilisateur et votre mot de passe sont corrects, il est probable que l’administrateur du serveur a désactivé la configuration sélectionnée pour votre compte. Essayez de sélectionner un autre protocole.
 account-hub-advanced-setup-button = Configuration avancée
     .accesskey = a
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+account-hub-exchange-dialog-question = { -brand-short-name } a trouvé les informations de configuration de votre compte sur { $domain }. Voulez-vous continuer et soumettre vos informations d’identification ?
 account-hub-creation-error-title = Erreur lors de la création du compte
 account-hub-error-server-exists = Le serveur de courrier entrant existe déjà.
 account-hub-confirm-advanced-title = Confirmer la configuration avancée
