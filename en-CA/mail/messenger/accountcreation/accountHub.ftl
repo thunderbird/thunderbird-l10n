@@ -164,6 +164,14 @@ account-hub-advanced-setup-button = Advanced config
 # Variables:
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
 account-hub-exchange-dialog-question = { -brand-short-name } found your account setup information on { $domain }. Do you want to proceed and submit your credentials?
+account-hub-creation-error-title = Error Creating Account
+account-hub-error-server-exists = Incoming server already exists.
+account-hub-confirm-advanced-title = Confirm Advanced Configuration
+account-hub-confirm-advanced-description = This dialogue will be closed and an account with the current settings will be created, even if the configuration is incorrect. Do you want to proceed?
+account-hub-addon-install-title = Install
+account-hub-encryption-button = End-to-end encryption
+account-hub-address-books-button = Address Books
+account-hub-calendars-button = Calendars
 account-hub-notification-show-more = Show more
 account-hub-notification-show-less = Show less
 account-hub-email-setup-header = Add your email address
