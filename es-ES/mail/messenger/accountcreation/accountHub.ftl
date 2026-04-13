@@ -170,6 +170,11 @@ account-hub-email-account-added-title = Cuenta añadida correctamente
 account-hub-find-account-settings-failed = { -brand-short-name } no ha podido encontrar la configuración de la cuenta de correo electrónico.
 account-hub-find-settings-failed = { -brand-full-name } no ha podido encontrar la configuración de la cuenta de correo electrónico.
 account-hub-exchange-config-unverifiable = No se ha podido comprobar la configuración. Si su nombre de usuario y contraseña son correctos, es probable que el administrador del servidor haya deshabilitado la configuración seleccionada para su cuenta. Intente seleccionar otro protocolo.
+account-hub-advanced-setup-button = Configuración avanzada
+    .accesskey = a
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+account-hub-exchange-dialog-question = { -brand-short-name } ha encontrado la información de configuración de su cuenta en { $domain }. ¿Desea continuar y enviar sus credenciales?
 account-hub-creation-error-title = Error al crear la cuenta
 account-hub-error-server-exists = El servidor de entrada ya existe.
 account-hub-confirm-advanced-title = Confirmar configuración avanzada
