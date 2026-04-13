@@ -136,6 +136,28 @@ account-hub-notification-unknown-host = Informace o nastavení nalezena na domé
 account-hub-ssl-noencryption = Žádný
 account-hub-email-skip-button = Přeskočit
 account-hub-finding-sync-accounts = Účet byl vytvořen. Vyhledávají se složky kontaktů a kalendáře…
+account-hub-name-warning-icon =
+    .title = Zadejte prosím své jméno
+account-hub-email-label = E-mailová adresa
+    .accesskey = E
+account-hub-email-input =
+    .placeholder = vase-adresa@example.com
+account-hub-email-warning-icon =
+    .title = Neplatná e-mailová adresa
+account-hub-password-label = Heslo
+    .accesskey = H
+    .title = Potřeba pouze pro ověření vašeho uživatelského jména
+account-hub-remember-password = Pamatovat si heslo
+    .accesskey = m
+account-hub-exchange-label = Vaše přihlašovací jméno
+    .accesskey = l
+account-hub-installing-addon = Stahování a instalace doplňku…
+account-hub-success-addon = Doplněk byl úspěšně nainstalován
+account-hub-success-half-manual = Testováním serverů bylo nalezeno následující nastavení:
+account-hub-result-no-encryption = Bez šifrování
+account-hub-result-ssl = SSL/TLS
+account-hub-result-starttls = STARTTLS
+account-hub-credentials-wrong = Ověření se nezdařilo. Zkontrolujte prosím uživatelské jméno a heslo.
 account-hub-result-username-label = Uživatelské jméno
     .title = Uživatelské jméno
 account-hub-name-label = Celé jméno
@@ -155,6 +177,26 @@ account-hub-find-settings-failed =
         [with-cases] { -brand-full-name(case: "gen") } se nepodařilo najít nastavení vašeho poštovního účtu.
        *[no-cases] Aplikaci { -brand-full-name } se nepodařilo najít nastavení vašeho poštovního účtu.
     }
+account-hub-exchange-config-unverifiable = Konfiguraci nelze ověřit. Pokud jsou vaše uživatelské jméno a heslo správně, je pravděpodobné, že správce serveru zvolenou konfiguraci vašeho účtu zakázal. Zkuste vybrat jiný protokol.
+account-hub-advanced-setup-button = Rozšířené nastavení
+    .accesskey = a
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+account-hub-exchange-dialog-question =
+    { -brand-short-name.gender ->
+        [masculine] { -brand-short-name } našel informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+        [feminine] { -brand-short-name } našla informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+        [neuter] { -brand-short-name } našlo informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+       *[other] Aplikace { -brand-short-name } našla informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+    }
+account-hub-creation-error-title = Účet se nepodařilo vytvořit
+account-hub-error-server-exists = Server příchozí pošty už existuje.
+account-hub-confirm-advanced-title = Potvrzení rozšířeného nastavení
+account-hub-confirm-advanced-description = Toto dialogové okno bude zavřeno a bude vytvořen účet s aktuálním nastavením, i když je konfigurace nesprávná. Chcete pokračovat?
+account-hub-addon-install-title = Nainstalovat
+account-hub-encryption-button = Koncové šifrování
+account-hub-address-books-button = Složky kontaktů
+account-hub-calendars-button = Kalendáře
 account-hub-notification-show-more = Zobrazit více
 account-hub-notification-show-less = Zobrazit méně
 account-hub-email-setup-header = Přidat vaši e-mailovou adresu
