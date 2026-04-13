@@ -660,7 +660,7 @@ confirm-permissive-import = Import se nezdařil. Klíč, který se pokoušíte n
 
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
-imported-secret-with-unsupported-features = Některé z importovaných tajných klíčů propagují nepodporovanou funkci. Pokud takový klíč použijete jako svůj osobní klíč, mohou vám korespondenti posílat e-maily nebo veřejné klíče v nekompatibilním formátu. To se týká importovaných tajných klíčů s následujícími otisky prstů: { $fingerprints }.
+imported-secret-with-unsupported-features = Některé z importovaných tajných klíčů obsahují nepodporovanou funkci. Pokud takový klíč použijete jako svůj osobní klíč, mohou vám korespondenti zasílat e-maily nebo veřejné klíče v nekompatibilním formátu. To se týká importovaných tajných klíčů s následujícími otisky: { $fingerprints }.
 help-button = Nápověda
 
 ## Strings used in trust.sys.mjs
