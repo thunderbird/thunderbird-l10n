@@ -150,6 +150,7 @@ account-hub-remember-password = Απομνημόνευση κωδικού πρό
 account-hub-exchange-label = Η σύνδεσή σας
     .accesskey = σ
 account-hub-installing-addon = Λήψη και εγκατάσταση του προσθέτου…
+account-hub-success-addon = Το πρόσθετο εγκαταστάθηκε επιτυχώς
 account-hub-success-half-manual = Κατά τον έλεγχο του διακομιστή εντοπίστηκαν οι παρακάτω ρυθμίσεις:
 account-hub-result-no-encryption = Χωρίς κρυπτογράφηση
 account-hub-result-ssl = SSL/TLS
