@@ -180,6 +180,21 @@ account-hub-find-settings-failed =
 account-hub-exchange-config-unverifiable = Konfiguraci nelze ověřit. Pokud jsou vaše uživatelské jméno a heslo správně, je pravděpodobné, že správce serveru zvolenou konfiguraci vašeho účtu zakázal. Zkuste vybrat jiný protokol.
 account-hub-advanced-setup-button = Rozšířené nastavení
     .accesskey = a
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+account-hub-exchange-dialog-question =
+    { -brand-short-name.gender ->
+        [masculine] { -brand-short-name } našel informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+        [feminine] { -brand-short-name } našla informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+        [neuter] { -brand-short-name } našlo informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+       *[other] Aplikace { -brand-short-name } našla informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+    }
+account-hub-creation-error-title = Účet se nepodařilo vytvořit
+account-hub-error-server-exists = Server příchozí pošty už existuje.
+account-hub-confirm-advanced-title = Potvrzení rozšířeného nastavení
+account-hub-confirm-advanced-description = Toto dialogové okno bude zavřeno a bude vytvořen účet s aktuálním nastavením, i když je konfigurace nesprávná. Chcete pokračovat?
+account-hub-addon-install-title = Nainstalovat
+account-hub-encryption-button = Koncové šifrování
 account-hub-address-books-button = Složky kontaktů
 account-hub-calendars-button = Kalendáře
 account-hub-notification-show-more = Zobrazit více
