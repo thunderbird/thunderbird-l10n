@@ -21,6 +21,11 @@ calendar-dialog-description-row-icon =
     .alt = 说明
 calendar-dialog-reminders-row-icon =
     .alt = 提醒
+calendar-dialog-attendees-row-icon =
+    .alt = 来宾
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count = { $count } 位来宾
 calendar-dialog-attendee-organizer = 组织者
 calendar-dialog-icon-attending =
     .alt = 参加
