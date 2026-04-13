@@ -154,6 +154,10 @@ account-hub-exchange-label = Din inloggning
 account-hub-installing-addon = Hämtar och installerar tillägg…
 account-hub-success-addon = Tillägget har installerats
 account-hub-success-half-manual = Följande inställningar hittades genom att sondera den givna servern:
+account-hub-result-no-encryption = Ingen kryptering
+account-hub-result-ssl = SSL/TLS
+account-hub-result-starttls = STARTTLS
+account-hub-credentials-wrong = Autentisering misslyckades. Kontrollera användarnamnet och lösenordet
 account-hub-result-username-label = Användarnamn
     .title = Användarnamn
 account-hub-name-label = Fullständigt namn
@@ -165,6 +169,9 @@ account-hub-lookup-email-configuration-subheader = Försöker med vanliga server
 account-hub-email-account-added-title = Kontot har lagts till
 account-hub-find-account-settings-failed = { -brand-short-name } kunde inte hitta inställningarna för ditt e-postkonto.
 account-hub-find-settings-failed = { -brand-full-name } kunde inte hitta inställningarna för ditt e-postkonto.
+account-hub-exchange-config-unverifiable = Konfigurationen kunde inte verifieras. Om ditt användarnamn och lösenord är korrekt är det troligt att serveradministratören har inaktiverat den valda konfigurationen för ditt konto. Försök att välja ett annat protokoll.
+account-hub-advanced-setup-button = Avancerad konfiguration
+    .accesskey = A
 # Variables:
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
 account-hub-exchange-dialog-question = { -brand-short-name } hittade din kontoinställningsinformation på { $domain }. Vill du fortsätta och skicka dina uppgifter?
