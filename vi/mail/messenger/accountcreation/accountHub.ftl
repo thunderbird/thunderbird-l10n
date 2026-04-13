@@ -175,6 +175,14 @@ account-hub-advanced-setup-button = Cấu hình nâng cao
 # Variables:
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
 account-hub-exchange-dialog-question = { -brand-short-name } đã tìm thấy thông tin thiết lập tài khoản của bạn trên { $domain }. Bạn có muốn tiếp tục và gửi thông tin đăng nhập của mình không?
+account-hub-creation-error-title = Lỗi khi tạo tài khoản
+account-hub-error-server-exists = Máy chủ nhận thư đã tồn tại.
+account-hub-confirm-advanced-title = Xác nhận cấu hình nâng cao
+account-hub-confirm-advanced-description = Hộp thoại này sẽ bị đóng và một tài khoản với các cài đặt hiện tại sẽ được tạo, ngay cả khi cấu hình không chính xác. Bạn có muốn tiếp tục?
+account-hub-addon-install-title = Cài đặt
+account-hub-encryption-button = Mã hóa đầu cuối
+account-hub-address-books-button = Sổ địa chỉ
+account-hub-calendars-button = Lịch
 account-hub-notification-show-more = Xem thêm
 account-hub-notification-show-less = Hiện ít hơn
 account-hub-email-setup-header = Thêm địa chỉ email của bạn
