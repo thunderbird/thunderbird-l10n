@@ -126,6 +126,7 @@ account-hub-advanced-setup-button = Configuració avançada
 account-hub-exchange-dialog-question = El { -brand-short-name } ha trobat la informació de configuració del vostre compte a { $domain }. Voleu continuar i enviar les vostres credencials?
 account-hub-confirm-advanced-description = Es tancarà aquest diàleg i es crearà un compte amb els paràmetres actuals, encara que la configuració sigui incorrecta. Voleu continuar?
 account-hub-addon-install-title = Instal·la
+account-hub-encryption-button = Xifratge d'extrem a extrem
 account-hub-notification-show-more = Mostra'n més
 account-hub-notification-show-less = Mostra'n menys
 account-hub-email-setup-header = Afegiu la vostra adreça electrònica
