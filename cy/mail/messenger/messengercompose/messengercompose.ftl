@@ -477,18 +477,6 @@ cloud-file-account-error-title = Gwall Cyfrif Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Wedi methu diweddaru'r atodiad Filelink { $filename }, oherwydd bod ei ffeil leol wedi'i symud neu ei dileu.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [zero] Dim ffeiliau.
-            [one] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
-            [two] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
-            [few] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
-            [many] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
-           *[other] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

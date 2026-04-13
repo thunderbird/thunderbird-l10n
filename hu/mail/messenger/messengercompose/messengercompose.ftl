@@ -423,14 +423,6 @@ cloud-file-account-error-title = Filelink fiókhiba
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Nem sikerült frissíteni a(z) { $filename } Filelink mellékletet, mert a Filelink-fiókot törölték.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Ez egy nagy fájl. Jobb volna inkább az óriásfájl-küldést használni.
-           *[other] Ezek nagy fájlok. Jobb volna inkább az óriásfájl-küldést használni.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

@@ -424,14 +424,6 @@ cloud-file-account-error-title = Error de conto Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Impossibile actualisar le annexo de Filelink { $filename }, perque su conto de Filelink ha essite delite.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Isto es un file grande. Il pote esser melio usar in vice Filelink.
-           *[other] Il ha grande files. Il pote esser melio usar in vice Filelink.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

@@ -388,14 +388,6 @@ cloud-file-account-error-title = Filelink-tilivirhe
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink-liitteen { $filename } päivittäminen epäonnistui, koska sen Filelink-tili on poistettu.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Tämä on suuri tiedosto. Olisi ehkä parempi käyttää Filelink-palvelua.
-           *[other] Nämä ovat suuria tiedostoja. Olisi ehkä parempi käyttää Filelink-palvelua.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

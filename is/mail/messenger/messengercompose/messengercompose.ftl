@@ -425,14 +425,6 @@ cloud-file-account-error-title = Villa í Filelink-reikningi
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Mistókst að uppfæra Filelink-viðhengið { $filename } vegna þess að Filelink-reikningi þess hefur verið eytt.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Þetta er stór skrá. Betra væri að nota Filelink-tengil á skrána í staðinn.
-           *[other] Þetta eru stórar skrár. Betra væri að nota Filelink-tengil á skrárnar í staðinn.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

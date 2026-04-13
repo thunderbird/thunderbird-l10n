@@ -425,14 +425,6 @@ cloud-file-account-error-title = Грешка във Filelink профила
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Неуспешно актуализиране на прикачения файл с Filelink { $filename }, тъй като неговият Filelink профил е изтрит.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Това е голям файл. Може би е по-добре да използвате Filelink вместо това.
-           *[other] Това са големи файлове. Може би е по-добре да използвате Filelink вместо това.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

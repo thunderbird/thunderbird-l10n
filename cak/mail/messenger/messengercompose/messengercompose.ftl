@@ -104,14 +104,6 @@ cloud-file-template-link = Ximonel:
 # Messages
 
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Nïm re yakb'äl re'. Ütz we nokisäx Filelink.
-           *[other] Nima'q yakb'äl. Ütz we nokisäx Filelink.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

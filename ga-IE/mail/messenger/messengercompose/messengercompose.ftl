@@ -56,17 +56,6 @@ attachment-reminder-keywords-msg =
 # Messages
 
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Is comhad mór é seo. Ba chóir duit Filelink a úsáid.
-            [two] Is comhaid mhóra iad seo. Ba chóir duit Filelink a úsáid.
-            [few] Is comhaid mhóra iad seo. Ba chóir duit Filelink a úsáid.
-            [many] Is comhaid mhóra iad seo. Ba chóir duit Filelink a úsáid.
-           *[other] Is comhaid mhóra iad seo. Ba chóir duit Filelink a úsáid.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

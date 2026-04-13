@@ -438,15 +438,6 @@ cloud-file-account-error-title = Грешка Filelink налога
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Ажурирање Filelink прилога { $filename } није успело зато што је Filelink налог избрисан.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Ово је велика датотека. Можда је боље да искористите Filelink за слање.
-            [few] Ово су велике датотеке. Можда је боље да искористите Filelink за слање.
-           *[other] Ово су велике датотеке. Можда је боље да искористите Filelink за слање.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

@@ -451,16 +451,6 @@ cloud-file-account-error-title = Kontowa zmólka Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Pśidank { $filename } Filelink njedajo se aktualizěrowaś, dokulaž jogo lokalna dataja jo se wulašowała.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] To jo wjelika dataja. Snaź jo lěpjej, až wužywaśo Filelink město togo.
-            [two] To stej wjelikej dataji. Snaź jo lěpjej, až wužywaśo Filelink město togo.
-            [few] To su wjelike dataje. Snaź jo lěpjej, až wužywaśo Filelink město togo.
-           *[other] To su wjelike dataje. Snaź jo lěpjej, až wužywaśo Filelink město togo.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

@@ -420,14 +420,6 @@ cloud-file-account-error-title = Filelink-ანგარიშის შეც�
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink-დანართი { $filename } ვერ განახლდა, ვინაიდან Filelink-ანგარიში წაშლილია.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] ეს ფაილი დიდი ზომისა. შესაძლოა მის ნაცვლად ფაილის ბმულის გამოყენება სჯობდეს.
-           *[other] ეს ფაილები დიდი ზომისაა. შესაძლოა მათ ნაცვლად ბმულების გამოყენება სჯობდეს.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

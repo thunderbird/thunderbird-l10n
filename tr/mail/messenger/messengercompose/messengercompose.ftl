@@ -425,14 +425,6 @@ cloud-file-account-error-title = Filelink Hesap Hatası
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink hesabı silindiği için Filelink eki { $filename } güncellenemedi.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Bu büyük bir dosya. Filelink kullanmak daha iyi olabilir.
-           *[other] Bunlar büyük dosyalar. Filelink kullanmak daha iyi olabilir.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

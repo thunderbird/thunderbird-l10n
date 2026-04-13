@@ -149,15 +149,6 @@ attachment-reminder-keywords-msg =
 # Messages
 
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Šis failas gan didelis. Galbūt geriau nusiųsti tik saitą į jį?
-            [few] Šie failai gan dideli. Galbūt geriau nusiųsti tik saitą į juos?
-           *[other] Šie failai gan dideli. Galbūt geriau nusiųsti tik saitą į juos?
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

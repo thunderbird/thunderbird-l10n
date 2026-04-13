@@ -450,16 +450,6 @@ cloud-file-account-error-title = Mearachd le cunntas FileLink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Cha b’ urrainn dhuinn an ceanglachan FileLink { $filename } ùrachadh a chionn ’s gun deach an cunntas FileLink aige a sguabadh às.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] ’S e faidhle mòr a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
-            [two] ’S e faidhlichean mòra a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
-            [few] ’S e faidhle mòr a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
-           *[other] ’S e faidhlichean mòra a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

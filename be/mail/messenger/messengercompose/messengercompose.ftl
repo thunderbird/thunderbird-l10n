@@ -259,15 +259,6 @@ cloud-file-attachment-error-title = Памылка прымацавання File
 cloud-file-account-error-title = Памылка ўліковага запісу Filelink
 # Variables:
 #   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Гэта вялікі файл. Магчыма, будзе лепш выкарыстаць Filelink замест прымацавання.
-            [few] Гэта вялікія файлы. Магчыма, будзе лепш выкарыстаць Filelink замест прымацавання.
-           *[many] Гэта вялікія файлы. Магчыма, будзе лепш выкарыстаць Filelink замест прымацавання.
-        }
-# Variables:
-#   $count - the number big attached files
 big-file-notification-text =
     { $count ->
         [one] Гэта вялікі файл. Магчыма, будзе лепш выкарыстаць Filelink замест прымацавання.

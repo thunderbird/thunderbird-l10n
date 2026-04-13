@@ -387,10 +387,6 @@ cloud-file-account-error-title = Նիշի յղմայն հաշուի սխալ
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Ձախողուեց թարմացնել նիշի յղման յաելուածը { $filename }, քանի որ նիշի յղմայն հաշիւը ջնջուել է։
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label = Սա մեծ նիշ է: Աւելի լաւ է փոխարէնը աւգտագործել Filelink: Սրանք մեծ նիշեր են: Աւելի լաւ է փոխարէնը աւգտագործել Filelink:
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = Ձեր նիշը յղուում է: Այն կը յայտնուի հաղորդագրութեան մէջ, երբ գործընթացն աւարտուի: Ձեր նիշերը յղուում են: Դրանք կը յայտնուեն հաղորդագրութեան մէջ, երբ գործընթացն աւարտուի:
 # Variables:

@@ -391,10 +391,6 @@ cloud-file-account-error-title = Filelink 계정 오류
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = { $filename } Filelink 첨부 파일의 Filelink 계정이 삭제되어 업데이트에 실패했습니다.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label = 사이즈 큰 파일 첨부에는 Filelink 기능 사용을 추천합니다.
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = 첨부 파일을 링크하고 있습니다. 업로드가 완료한다고 메시지 본문에 링크를 추가합니다.
 # Variables:

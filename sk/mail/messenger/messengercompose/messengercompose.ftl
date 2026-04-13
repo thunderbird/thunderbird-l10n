@@ -441,15 +441,6 @@ cloud-file-account-error-title = Chyba účtu Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Prílohu Filelink { $filename } sa nepodarilo aktualizovať, pretože jej účet Filelink bol odstránený.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Tento súbor je príliš veľký. Zrejme by bolo vhodnejšie využiť úložisko online.
-            [few] Tieto súbory sú príliš veľké. Zrejme by bolo vhodnejšie využiť úložisko online.
-           *[other] Tieto súbory sú príliš veľké. Zrejme by bolo vhodnejšie využiť úložisko online.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

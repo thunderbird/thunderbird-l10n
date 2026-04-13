@@ -40,14 +40,6 @@ attachment-reminder-keywords-msg =
 # Messages
 
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Esti ficheru ye grande. Podría ser meyor usar Filelink.
-           *[other] Estos ficheros son grandes. Podría ser meyor usar Filelink.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

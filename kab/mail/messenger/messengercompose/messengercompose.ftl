@@ -385,14 +385,6 @@ cloud-file-account-error-title = Tuccḍa n umiḍan Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Yecceḍ uleqqem n umedday n Filelink { $filename }, acku amiḍan n Filelink yettwakkes.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Wagi d afaylu meqqren. Yif-it limer ad tesqedceḍ Filelink deg umḍiq-is
-           *[other] Wigi d ifuylu meqqren. Yif-it limer ad tesqedceḍ Filelink deg umḍiq-nsen.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

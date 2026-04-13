@@ -381,10 +381,6 @@ cloud-file-account-error-title = Kesalahan Akun Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Gagal memperbarui lampiran Filelink { $filename }, karena akun Filelink-nya telah dihapus.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label = Berkas ini berukuran besar. Mungkin lebih baik menggunakan Filelink.
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = File Anda sedang ditautkan. Ini akan muncul di badan pesan ketika selesai.
 # Variables:

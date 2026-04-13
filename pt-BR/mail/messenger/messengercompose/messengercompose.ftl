@@ -424,14 +424,6 @@ cloud-file-account-error-title = Erro de conta de anexo online
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Falha ao atualizar o anexo online { $filename } porque sua conta de anexo online foi excluída.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Esse é um arquivo grande. No lugar, seria melhor usar um anexo online.
-           *[other] Esses são arquivos grandes. No lugar, seria melhor usar anexos online.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

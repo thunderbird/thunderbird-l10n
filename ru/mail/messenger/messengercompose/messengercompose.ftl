@@ -437,15 +437,6 @@ cloud-file-account-error-title = Ошибка учётной записи Fileli
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Не удалось обновить вложение Filelink { $filename }, так как его учётная запись Filelink была удалена.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Это большой файл. Возможно, будет лучше использовать Filelink.
-            [few] Это большие файлы. Возможно, будет лучше использовать Filelink.
-           *[many] Это большие файлы. Возможно, будет лучше использовать Filelink.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

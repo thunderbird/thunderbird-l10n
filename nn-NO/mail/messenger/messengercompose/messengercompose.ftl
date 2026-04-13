@@ -423,14 +423,6 @@ cloud-file-account-error-title = Filelink-kontofeil
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Klarte ikkje å oppdatere Filelink-vedlegget { $filename }, fordi Filelink-kontoen er sletta.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Dette er ei stor fil. Det kan vera betre å bruke FileLink i staden.
-           *[other] Dette er store filer. Det kan vere betre å bruke FileLink i staden.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

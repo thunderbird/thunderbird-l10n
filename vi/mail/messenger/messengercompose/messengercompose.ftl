@@ -387,10 +387,6 @@ cloud-file-account-error-title = Lỗi tài khoản Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Không cập nhật được đính kèm Filelink { $filename } vì tài khoản Filelink của nó đã bị xóa.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label = Đây là những tập tin lớn. Có thể tốt hơn nếu sử dụng Filelink.
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = Tập tin của bạn đang được liên kết. Nó sẽ xuất hiện trong phần nội dung thư khi hoàn tất.
 # Variables:

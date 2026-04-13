@@ -425,14 +425,6 @@ cloud-file-account-error-title = Gabim Llogarie Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = S’u arrit të përditësohej bashkëngjitja Filelink { $filename }, ngaqë llogaria Filelink për të është fshirë.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Kjo është kartelë e madhe. Mund të ishte më mirë të përdorej Filelink-u.
-           *[other] Këto janë kartela të mëdha. Mund të ishte më mirë të përdorej Filelink-u.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

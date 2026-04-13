@@ -424,14 +424,6 @@ cloud-file-account-error-title = Errur da conto Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = I n'è betg reussì dad actualisar l'agiunta Filelink { $filename } perquai ch'il conto da Filelink correspundent è vegnì stizzà.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Quai è ina gronda datoteca. Forsa fissi pli simpel dad utilisar in servetsch per memorisar datotecas.
-           *[other] Quai èn grondas datotecas. Forsa fissi pli simpel dad utilisar in servetsch per memorisar datotecas.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

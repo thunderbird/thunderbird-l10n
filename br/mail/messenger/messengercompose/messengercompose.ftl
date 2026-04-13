@@ -86,17 +86,6 @@ attachment-reminder-keywords-msg =
 # Messages
 
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Ur restr vras eo. Marteze e vefe gwelloc'h arverañ Filelink.
-            [two] Restroù bras eo. Marteze e vefe gwelloc'h arverañ Filelink.
-            [few] Restroù bras eo. Marteze e vefe gwelloc'h arverañ Filelink.
-            [many] Restroù bras eo. Marteze e vefe gwelloc'h arverañ Filelink.
-           *[other] Restroù bras eo. Marteze e vefe gwelloc'h arverañ Filelink.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

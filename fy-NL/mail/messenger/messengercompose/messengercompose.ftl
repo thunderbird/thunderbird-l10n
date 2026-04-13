@@ -425,14 +425,6 @@ cloud-file-account-error-title = Filelink-accountflater
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Kin de Filelink-bylage { $filename } net bywurkje, omdat it de Filelink-account fuortsmiten is.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Dit is in grut bestân. It is miskien better om Filelink te brûken.
-           *[other] Dit binne grutte bestannen. It is miskien better om Filelink te brûken.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

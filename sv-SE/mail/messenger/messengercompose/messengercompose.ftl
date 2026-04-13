@@ -424,14 +424,6 @@ cloud-file-account-error-title = Fillänkskontofel
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Det gick inte att uppdatera fillänksbilagan { $filename }, eftersom dess fillänkskonto har tagits bort.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Det här är en stor fil. Det kan vara bättre att använda Filelink istället.
-           *[other] Det här är stora filer. Det kan vara bättre att använda Filelink istället.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

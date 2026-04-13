@@ -421,14 +421,6 @@ cloud-file-account-error-title = Filelink Account Error
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Failed to update the Filelink attachment { $filename }, because its Filelink account has been deleted.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] This is a large file. It might be better to use Filelink instead.
-           *[other] These are large files. It might be better to use Filelink instead.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

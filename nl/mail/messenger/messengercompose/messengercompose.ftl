@@ -425,14 +425,6 @@ cloud-file-account-error-title = Filelink-accountfout
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Kan de Filelink-bijlage { $filename } niet bijwerken, omdat de Filelink-account is verwijderd.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Dit is een groot bestand. Het is misschien beter om Filelink te gebruiken.
-           *[other] Dit zijn grote bestanden. Het is misschien beter om Filelink te gebruiken.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

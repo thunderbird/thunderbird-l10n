@@ -425,14 +425,6 @@ cloud-file-account-error-title = Filelink kontuan errorea
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Huts egin du eguneratzea { $filename } eranskina Filelinken, Filelink kontua ezabatu delako.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Fitxategi handia da hau. Hobe izan daiteke Filelink erabiltzea.
-           *[other] Fitxategi handiak dira hauek. Hobe izan daiteke Filelink erabiltzea.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

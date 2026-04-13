@@ -436,15 +436,6 @@ cloud-file-account-error-title = Eroare cont Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Atașamentul Filelink { $filename } nu a putut fi actualizat, deoarece contul Filelink aferent a fost șters.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Acesta este un fișier mare. Ar putea fi mai bine să folosești în schimb Filelink.
-            [few] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
-           *[other] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

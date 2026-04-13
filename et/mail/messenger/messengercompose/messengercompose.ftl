@@ -425,14 +425,6 @@ cloud-file-account-error-title = Filelinki konto viga
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelinki lisatud manust { $filename } polnud võimalik uuendada, sest Filelinki konto on kustutatud.
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label =
-        { $count ->
-            [one] Tegemist on suure failiga. Praktilisem on ehk salvestada fail pilves ja lisada selle link.
-           *[other] Tegemist on suurte failidega. Praktilisem on ehk salvestada need pilves ja lisada nende lingid.
-        }
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->

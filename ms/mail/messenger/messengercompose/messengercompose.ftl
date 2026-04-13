@@ -35,10 +35,6 @@ attachment-reminder-keywords-msg = Menemui { $count } kata kunci lampiran:
 # Messages
 
 # Variables:
-#   $count - the number big attached files
-big-file-notification =
-    .label = Saiz fail ini besar. Lebih baik gunakan Filelink.
-# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = Fail anda sedang dihubungkan. Fail akan muncul dalam kandungan mesej apabila selesai.
 # Variables:
