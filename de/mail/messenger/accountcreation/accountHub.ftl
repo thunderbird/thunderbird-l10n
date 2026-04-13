@@ -157,6 +157,7 @@ account-hub-success-half-manual = Folgende Einstellungen wurden durch Untersuche
 account-hub-result-no-encryption = Keine Verschlüsselung
 account-hub-result-ssl = SSL/TLS
 account-hub-result-starttls = STARTTLS
+account-hub-credentials-wrong = Anmeldung fehlgeschlagen. Bitte überprüfen Sie Benutzername und Passwort.
 account-hub-result-username-label = Benutzername
     .title = Benutzername
 account-hub-name-label = Vollständiger Name
@@ -168,6 +169,12 @@ account-hub-lookup-email-configuration-subheader = Gängige Servernamen werden v
 account-hub-email-account-added-title = Konto erfolgreich hinzugefügt
 account-hub-find-account-settings-failed = { -brand-short-name } konnte keine Einstellungen für Ihr E-Mail-Konto finden.
 account-hub-find-settings-failed = { -brand-full-name } konnte keine Einstellungen für Ihr E-Mail-Konto finden.
+account-hub-exchange-config-unverifiable = Konfiguration konnte nicht überprüft werden. Falls der Benutzername und das Passwort korrekt sind, hat der Server-Administrator vermutlich die gewählte Konfiguration für Ihr Konto deaktiviert. Versuchen Sie, ein anderes Protokoll zu verwenden.
+account-hub-advanced-setup-button = Erweiterte Einstellungen
+    .accesskey = w
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+account-hub-exchange-dialog-question = { -brand-short-name } erkannte Informationen zur Konteneinrichtung auf { $domain }. Wollen Sie fortfahren und Ihre Zugangsdaten senden?
 account-hub-creation-error-title = Konteneinrichtung fehlgeschlagen
 account-hub-error-server-exists = Der Posteingangs-Server wird bereits verwendet.
 account-hub-confirm-advanced-title = Bestätigung - Öffnen der Erweiterten Konfiguration
