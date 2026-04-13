@@ -50,5 +50,40 @@ account-hub-email-confirm-button = Dearbh
 
 ## Incoming/Outgoing connection security options
 
+account-hub-name-warning-icon =
+    .title = Cuir a-steach d’ ainm
+account-hub-email-label = Seòladh puist-d
+    .accesskey = e
+account-hub-email-input =
+    .placeholder = calummaccaluim@example.com
+account-hub-email-warning-icon =
+    .title = Seòladh puist-d mì-dhligheach
+account-hub-password-label = Facal-faire
+    .accesskey = F
+    .title = Roghainneil, cha tèid a chleachdadh ach airson an t-ainm-cleachdaiche a dhearbhadh
+account-hub-remember-password = Cuimhnich am facal-faire
+    .accesskey = m
+account-hub-exchange-label = An clàradh a-steach agad
+    .accesskey = l
+account-hub-installing-addon = A’ luchdadh a-nuas is a’ stàladh an tuilleadain…
+account-hub-success-addon = Chaidh an tuilleadan a stàladh
+account-hub-success-half-manual = Chaidh na roghainnean a leanas a lorg le bhith a’ probhadh an fhrithealaiche ann:
+account-hub-result-no-encryption = Gun chrioptachadh
+account-hub-result-ssl = SSL/TLS
+account-hub-result-starttls = STARTTLS
+account-hub-credentials-wrong = Dh’fhàillig an dearbhadh. Thoir sùil air an ainm-chleachdaiche ’s air an fhacal-fhaire
+account-hub-find-settings-failed = Cha b’ urrainn dha { -brand-short-name } na roghainnean airson cunntas a’ phuist-d agad a lorg
+account-hub-exchange-config-unverifiable = Cha b’ urrainn dhuinn an rèiteachadh a dhearbhadh. Ma tha an t-ainm-cleachdaiche ’s am facal-faire agad ceart, ’s mathaid gun do chuir rianaire an fhrithealaiche an rèiteachadh a thagh thu dhan chunntas agad à comas. Feuch pròtacal eile.
 account-hub-advanced-setup-button = Rèiteachadh adhartach
     .accesskey = a
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+account-hub-exchange-dialog-question = Lorg { -brand-short-name } am fiosrachadh airson an cunntas agad a shuidheachadh air { $domain }. A bheil thu airson leantainn air adhart is an teisteas agad a chur?
+account-hub-creation-error-title = Mearachd rè cruthachadh a’ chunntais
+account-hub-error-server-exists = Tha am frithealaiche a-steach ann mu thràth.
+account-hub-confirm-advanced-title = Dearbh an rèiteachadh adhartach
+account-hub-confirm-advanced-description = Thèid an còmhradh seo a dhùnadh agus thèid cunntas leis na roghainnean làithreach a chruthachadh, fiù ma bhios an rèiteachadh ceàrr. A bheil thu airson leantainn air adhart?
+account-hub-addon-install-title = Stàlaich
+account-hub-encryption-button = Crioptachadh ceann ri cheann
+account-hub-address-books-button = Leabhraichean-sheòlaidhean
+account-hub-calendars-button = Mìosachain
