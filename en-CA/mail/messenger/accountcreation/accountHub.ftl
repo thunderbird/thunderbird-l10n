@@ -140,6 +140,13 @@ account-hub-remember-password = Remember password
     .accesskey = m
 account-hub-exchange-label = Your login
     .accesskey = l
+account-hub-installing-addon = Downloading and installing add-on…
+account-hub-success-addon = Successfully installed the add-on
+account-hub-success-half-manual = The following settings were found by probing the given server:
+account-hub-result-no-encryption = No Encryption
+account-hub-result-ssl = SSL/TLS
+account-hub-result-starttls = STARTTLS
+account-hub-credentials-wrong = Authentication failed. Please check the username and password
 account-hub-result-username-label = Username
     .title = Username
 account-hub-name-label = Full name
@@ -151,6 +158,12 @@ account-hub-lookup-email-configuration-subheader = Trying common server names…
 account-hub-email-account-added-title = Account successfully added
 account-hub-find-account-settings-failed = { -brand-short-name } failed to find the settings for your email account.
 account-hub-find-settings-failed = { -brand-full-name } failed to find the settings for your email account.
+account-hub-exchange-config-unverifiable = Configuration could not be verified. If your username and password are correct, it’s likely that the server administrator has disabled the selected configuration for your account. Try selecting another protocol.
+account-hub-advanced-setup-button = Advanced config
+    .accesskey = A
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+account-hub-exchange-dialog-question = { -brand-short-name } found your account setup information on { $domain }. Do you want to proceed and submit your credentials?
 account-hub-notification-show-more = Show more
 account-hub-notification-show-less = Show less
 account-hub-email-setup-header = Add your email address
