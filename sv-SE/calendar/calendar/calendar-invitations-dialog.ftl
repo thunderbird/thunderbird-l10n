@@ -33,4 +33,4 @@ calendar-invitations-status-none = Inga obekräftade inbjudningar hittades.
 calendar-invitations-accept =
     .label = Acceptera
 calendar-invitations-decline =
-    .label = Neka
+    .label = Avböj

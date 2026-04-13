@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Installationsinformation hittades på tr
 account-hub-ssl-noencryption = Ingen
 account-hub-email-skip-button = Hoppa över
 account-hub-finding-sync-accounts = Konto skapat. Upptäcker adressböcker och kalendrar…
+account-hub-privacy-policy = Sekretesspolicy
+account-hub-welcome = Välkommen till
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Välkommen till { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Ange ditt namn
 account-hub-email-label = E-postadress
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Installera
 account-hub-encryption-button = End-to-end kryptering
 account-hub-address-books-button = Adressböcker
 account-hub-calendars-button = Kalendrar
+account-hub-thundermail-button = Logga in med Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = eller
 account-hub-notification-show-more = Visa mer
 account-hub-notification-show-less = Visa mindre
 account-hub-email-setup-header = Lägg till din e-postadress
@@ -260,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = Anslut till en fjärransluten LDAP-adressbok
 address-book-add-ldap = Ny LDAP-adressbok
 address-book-add-ldap-description = Anslut till en fjärransluten LDAP-adressbok
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 adressbok tillgänglig
+       *[other] { $addressBooks } adressböcker tillgängliga
+    }
 account-hub-fetching-sync-accounts = Upptäcker adressböcker och kalendrar...
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

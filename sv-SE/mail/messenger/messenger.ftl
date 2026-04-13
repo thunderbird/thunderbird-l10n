@@ -706,3 +706,8 @@ remote-content-option-allow-all =
             [one] Tillåt innehåll från ursprung { $count } som anges ovan
            *[other] Tillåt fjärrinnehåll från alla ursprung { $count } som anges ovan
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Du kan stänga det här fönstret.
+oauth2-loopback-failure = OAuth-omdirigering misslyckades.

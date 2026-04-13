@@ -8,4 +8,4 @@
 <!ENTITY calendar.invitations.dialog.statusmessage.noinvitations.text "Inga obekräftade inbjudningar hittades.">
 <!-- Calendar Invitations List -->
 <!ENTITY calendar.invitations.list.accept.button.label "Acceptera">
-<!ENTITY calendar.invitations.list.decline.button.label "Neka">
+<!ENTITY calendar.invitations.list.decline.button.label "Avböj">

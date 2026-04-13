@@ -99,7 +99,7 @@
 <!ENTITY calendar.context.attendance.occ.tentative.accesskey "p">
 <!ENTITY calendar.context.attendance.occ.tentative.label "Accepteras preliminärt">
 <!ENTITY calendar.context.attendance.occ.declined.accesskey "v">
-<!ENTITY calendar.context.attendance.occ.declined.label "Avböjd">
+<!ENTITY calendar.context.attendance.occ.declined.label "Avböjt">
 <!ENTITY calendar.context.attendance.occ.delegated.accesskey "g">
 <!ENTITY calendar.context.attendance.occ.delegated.label "Delegerad">
 <!ENTITY calendar.context.attendance.occ.needsaction.accesskey "B">
@@ -113,7 +113,7 @@
 <!ENTITY calendar.context.attendance.all.tentative.accesskey "p">
 <!ENTITY calendar.context.attendance.all.tentative.label "Accepteras preliminärt">
 <!ENTITY calendar.context.attendance.all.declined.accesskey "v">
-<!ENTITY calendar.context.attendance.all.declined.label "Avvisad">
+<!ENTITY calendar.context.attendance.all.declined.label "Avböjt">
 <!ENTITY calendar.context.attendance.all.delegated.accesskey "g">
 <!ENTITY calendar.context.attendance.all.delegated.label "Delegerad">
 <!ENTITY calendar.context.attendance.all.needsaction.accesskey "B">
