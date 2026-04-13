@@ -170,6 +170,16 @@ account-hub-email-account-added-title = Kontoen blev oprettet
 account-hub-find-account-settings-failed = { -brand-short-name } kunne ikke finde indstillingerne for din mailkonto.
 account-hub-find-settings-failed = { -brand-full-name } kunne ikke finde indstillingerne for din mailkonto.
 account-hub-exchange-config-unverifiable = Konfigurationen kunne ikke bekræftes. Hvis brugernavn og adgangskode er indtastet korrekt, skyldes det sandsynligvis, at serveradministratoren har deaktiveret den valgte indstilling for din konto. Prøv at vælge en anden protokol.
+account-hub-advanced-setup-button = Avanceret konfiguration
+    .accesskey = v
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+account-hub-exchange-dialog-question = { -brand-short-name } fandt oplysninger om dine kontoindstillinger på { $domain }. Vil du fortsætte og indsende dine loginoplysninger?
+account-hub-creation-error-title = Kunne ikke oprette konto
+account-hub-error-server-exists = Indgående server er allerede oprettet.
+account-hub-confirm-advanced-title = Bekræft avanceret opsætning
+account-hub-confirm-advanced-description = Denne besked lukkes og en konto med de aktuelle indstillinger bliver oprettet, også selvom de måske er forkerte. Ønsker du at fortsætte?
+account-hub-addon-install-title = Installer
 account-hub-encryption-button = End to end-kryptering
 account-hub-address-books-button = Adressebøger
 account-hub-calendars-button = Kalendere
