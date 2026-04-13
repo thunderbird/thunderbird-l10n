@@ -165,6 +165,17 @@ account-hub-lookup-email-configuration-subheader = Isprobavanje uobičajenih naz
 account-hub-email-account-added-title = Račun je uspješno dodan
 account-hub-find-account-settings-failed = { -brand-short-name } nije uspio pronaći postavke za tvoj račun e-pošte.
 account-hub-find-settings-failed = { -brand-full-name } nije uspio pronaći postavke za vaš račun e-pošte.
+account-hub-advanced-setup-button = Napredno podešavanje
+    .accesskey = a
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+account-hub-exchange-dialog-question = { -brand-short-name } je pronašao podatke za postavljanje vašeg računa na { $domain }. Želite li nastaviti i poslati svoje podatke za prijavu?
+account-hub-creation-error-title = Greška prilikom stvaranja računa
+account-hub-error-server-exists = Dolazni poslužitelj već postoji.
+account-hub-confirm-advanced-title = Potvrdite napredne postavke
+account-hub-confirm-advanced-description = Ovaj dijalog će se zatvoriti i stvorit će se račun s trenutnim postavkama, čak i ako konfiguracija nije ispravna. Želiš li nastaviti?
+account-hub-addon-install-title = Instaliraj
+account-hub-encryption-button = Obostrano šifriranje
 account-hub-address-books-button = Adresari
 account-hub-calendars-button = Kalendari
 account-hub-notification-show-more = Prikaži više
