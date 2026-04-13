@@ -210,7 +210,7 @@ folder-pane-mode-move-down =
 # $count (Number) - Number of unread messages.
 folder-pane-unread-aria-label =
     { $count ->
-        [one] 1 message non lu
+        [one] { $count } message non lu
        *[other] { $count } messages non lus
     }
 # Variables:
