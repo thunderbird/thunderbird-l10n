@@ -172,6 +172,14 @@ account-hub-find-settings-failed = O { -brand-full-name } não conseguiu encontr
 account-hub-exchange-config-unverifiable = A configuração não pôde ser verificada. Se o nome de usuário e a senha estão corretos, é provável que o administrador do servidor tenha desativado a configuração selecionada em sua conta. Experimente selecionando outro protocolo.
 account-hub-advanced-setup-button = Configuração avançada
     .accesskey = v
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+account-hub-exchange-dialog-question = O { -brand-short-name } encontrou informações de configuração da sua conta em { $domain }. Quer continuar e enviar suas credenciais?
+account-hub-creation-error-title = Erro ao criar conta
+account-hub-error-server-exists = O servidor de recebimento já existe.
+account-hub-confirm-advanced-title = Confirmar configuração avançada
+account-hub-confirm-advanced-description = Este diálogo será fechado e será criada uma conta com a configuração atual, mesmo se a configuração estiver incorreta. Quer continuar?
+account-hub-addon-install-title = Instalar
 account-hub-encryption-button = Criptografia de ponta a ponta
 account-hub-address-books-button = Catálogos de endereços
 account-hub-calendars-button = Agendas
