@@ -124,9 +124,14 @@ account-hub-advanced-setup-button = Configuració avançada
 # Variables:
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
 account-hub-exchange-dialog-question = El { -brand-short-name } ha trobat la informació de configuració del vostre compte a { $domain }. Voleu continuar i enviar les vostres credencials?
+account-hub-creation-error-title = Error en crear el compte
+account-hub-error-server-exists = El servidor d'entrada ja existeix.
+account-hub-confirm-advanced-title = Confirmeu la configuració avançada
 account-hub-confirm-advanced-description = Es tancarà aquest diàleg i es crearà un compte amb els paràmetres actuals, encara que la configuració sigui incorrecta. Voleu continuar?
 account-hub-addon-install-title = Instal·la
 account-hub-encryption-button = Xifratge d'extrem a extrem
+account-hub-address-books-button = Llibretes d'adreces
+account-hub-calendars-button = Calendaris
 account-hub-notification-show-more = Mostra'n més
 account-hub-notification-show-less = Mostra'n menys
 account-hub-email-setup-header = Afegiu la vostra adreça electrònica
