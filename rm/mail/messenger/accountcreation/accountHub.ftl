@@ -175,6 +175,12 @@ account-hub-advanced-setup-button = Configuraziun avanzada
 # Variables:
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
 account-hub-exchange-dialog-question = { -brand-short-name } ha chattà las infurmaziuns per configurar tes conto sin { $domain }. Vuls ti cuntinuar e trametter tias infurmaziuns d'annunzia?
+account-hub-creation-error-title = Errur cun crear il conto
+account-hub-error-server-exists = Il server d'entrada exista gia.
+account-hub-confirm-advanced-title = Confermar la configuraziun avanzada
+account-hub-confirm-advanced-description = Quest dialog vegn serrà ed in conto cun la configuraziun actuala vegn creà, era sche la configuraziun è incorrecta. Vuls ti cuntinuar?
+account-hub-addon-install-title = Installar
+account-hub-encryption-button = Criptadi da fin a fin
 account-hub-address-books-button = Cudeschets d'adressas
 account-hub-calendars-button = Chalenders
 account-hub-notification-show-more = Mussar dapli
