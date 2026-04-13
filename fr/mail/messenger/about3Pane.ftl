@@ -217,7 +217,7 @@ folder-pane-unread-aria-label =
 # $count (Number) - Number of total messages.
 folder-pane-total-aria-label =
     { $count ->
-        [one] 1 message au total
+        [one] { $count } message au total
        *[other] { $count } messages au total
     }
 
