@@ -762,3 +762,8 @@ remote-content-option-allow-all =
             [many] Caniatáu cynnwys pell o'r { $count } ffynhonnell uchod
            *[other] Caniatáu cynnwys pell o'r { $count } ffynhonnell uchod
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Gallwch chi gau'r ffenestr hon.
+oauth2-loopback-failure = Methodd ailgyfeirio OAuth.

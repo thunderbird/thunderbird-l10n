@@ -682,3 +682,8 @@ allow-remote-content-resource =
 #    $count - the number of origins to allow
 remote-content-option-allow-all =
     .label = 允許上方列出的 { $count } 個來源的遠端內容
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = 您可以關閉此視窗。
+oauth2-loopback-failure = OAuth 重導失敗。

@@ -136,21 +136,25 @@ account-hub-notification-unknown-host = Se encontró información de configuraci
 account-hub-ssl-noencryption = Ninguno
 account-hub-email-skip-button = Omitir
 account-hub-finding-sync-accounts = Cuenta creada. Descubriendo libretas de direcciones y calendarios…
+account-hub-privacy-policy = Política de privacidad
+account-hub-welcome = Bienvenido a
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Bienvenido a { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Ingrese su nombre
 account-hub-email-label = Dirección de correo electrónico
-    .accesskey = e
+    .accesskey = D
 account-hub-email-input =
     .placeholder = juan.perez@example.com
 account-hub-email-warning-icon =
     .title = Dirección de correo electrónico no válida
 account-hub-password-label = Contraseña
-    .accesskey = o
-    .title = Opcional, solo se usará para validar el nombre de usuario
+    .accesskey = C
+    .title = Opcional, solamente se usará para validar el nombre de usuario
 account-hub-remember-password = Recordar contraseña
-    .accesskey = n
+    .accesskey = R
 account-hub-exchange-label = Nombre de usuario
-    .accesskey = d
+    .accesskey = N
 account-hub-installing-addon = Descargando e instalando complemento…
 account-hub-success-addon = El complemento se instaló correctamente
 account-hub-success-half-manual = Se encontraron las siguientes configuraciones al sondear el servidor dado:
@@ -171,7 +175,7 @@ account-hub-find-account-settings-failed = { -brand-short-name } no pudo encontr
 account-hub-find-settings-failed = { -brand-full-name } no pudo encontrar la configuración para su cuenta de correo electrónico.
 account-hub-exchange-config-unverifiable = No se pudo verificar la configuración. Si su nombre de usuario y contraseña son correctos, es probable que el administrador del servidor haya deshabilitado la configuración seleccionada para su cuenta. Intente seleccionar otro protocolo.
 account-hub-advanced-setup-button = Configuración avanzada
-    .accesskey = a
+    .accesskey = C
 # Variables:
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
 account-hub-exchange-dialog-question = { -brand-short-name } encontró la información de configuración de su cuenta en { $domain }. ¿QUiere continuar y enviar sus credenciales?
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Instalar
 account-hub-encryption-button = Cifrado de extremo a extremo
 account-hub-address-books-button = Libretas de direcciones
 account-hub-calendars-button = Calendarios
+account-hub-thundermail-button = Iniciar sesión con Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = o
 account-hub-notification-show-more = Mostrar más
 account-hub-notification-show-less = Mostrar menos
 account-hub-email-setup-header = Agregar dirección de correo electrónico
@@ -260,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = Conectar a una libreta de direcciones LDAP remota
 address-book-add-ldap = Nueva libreta de direcciones LDAP
 address-book-add-ldap-description = Conectar a una libreta de direcciones LDAP remota
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 libreta de direcciones disponible
+       *[other] { $addressBooks } libretas de direcciones disponibles
+    }
 account-hub-fetching-sync-accounts = Descubriendo libretas de direcciones y calendarios…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

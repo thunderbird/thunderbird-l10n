@@ -120,3 +120,51 @@ calendar-dialog-attachments-summary-label =
         [many] { $count } Atodiad
        *[other] { $count } Atodiad
     }
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
+# Variables:
+#   $count (Number): Number of guests that responded "attending".
+calendar-dialog-attendee-summary-going =
+    { $count ->
+        [one] { $count } yn mynychu
+        [zero] { $count } yn mynychu
+        [two] { $count } yn mynychu
+        [few] { $count } yn mynychu
+        [many] { $count } yn mynychu
+       *[other] { $count } yn mynychu
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe =
+    { $count ->
+        [one] { $count } efallai
+        [zero] { $count } efallai
+        [two] { $count } efallai
+        [few] { $count } efallai
+        [many] { $count } efallai
+       *[other] { $count } efallai
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "declined".
+calendar-dialog-attendee-summary-declined =
+    { $count ->
+        [one] Mae { $count } wedi gwrthod
+        [zero] Mae { $count } wedi gwrthod
+        [two] Mae { $count } wedi gwrthod
+        [few] Mae { $count } wedi gwrthod
+        [many] Mae { $count } wedi gwrthod
+       *[other] Mae { $count } wedi gwrthod
+    }
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending =
+    { $count ->
+        [one] { $count } yn aros penderfyniad
+        [zero] { $count } yn aros penderfyniad
+        [two] { $count } yn aros penderfyniad
+        [few] { $count } yn aros penderfyniad
+        [many] { $count } yn aros penderfyniad
+       *[other] { $count } yn aros penderfyniad
+    }

@@ -28,6 +28,10 @@ ask-save-title-event = Cadw Digwyddiad
 ask-save-title-task = Cadw Tasg
 ask-save-message-event = Nid yw'r digwyddiad wedi'i gadw. Hoffech chi gadw'r digwyddiad?
 ask-save-message-task = Nid yw'r dasg wedi'i chadw. Hoffech chi gadw'r dasg?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Trwy'r dydd
+    .accesskey = T
 # Event Dialog Warnings
 warning-end-before-start = Mae'r dyddiad gorffen yn digwydd ar ôl y dyddiad cychwyn
 warning-until-date-before-start = Mae'r dyddiad tan yn digwydd cyn y dyddiad cychwyn

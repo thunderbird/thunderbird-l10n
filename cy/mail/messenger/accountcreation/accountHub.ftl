@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Manylion gosod oddi ar barth trydydd par
 account-hub-ssl-noencryption = Dim
 account-hub-email-skip-button = Hepgor
 account-hub-finding-sync-accounts = Cyfrif wedi'i greu. Yn darganfod llyfrau cyfeiriadau a chalendrau…
+account-hub-privacy-policy = Polisi Preifatrwydd
+account-hub-welcome = Croeso i
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Croeso i { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Rhowch eich enw
 account-hub-email-label = Cyfeiriad e-bost
@@ -145,13 +149,13 @@ account-hub-email-input =
 account-hub-email-warning-icon =
     .title = Cyfeiriad e-bost annilys
 account-hub-password-label = Cyfrinair
-    .accesskey = y
-    .title = Yn ddewisol, dim ond i'w ddefnyddio i ddilysu'r enw defnyddiwr
+    .accesskey = C
+    .title = Dewisol, fydd ond yn cael ei ddefnyddio i ddilysu'r enw defnyddiwr
 account-hub-remember-password = Cofio'r cyfrinair
-    .accesskey = o
+    .accesskey = C
 account-hub-exchange-label = Eich mewngofnod
-    .accesskey = m
-account-hub-installing-addon = Wrthi'n llwytho i lawr a gosod ychwanegyn…
+    .accesskey = E
+account-hub-installing-addon = Llwytho i lawr a gosod ychwanegyn…
 account-hub-success-addon = Wedi gosod yr ychwanegyn yn llwyddiannus
 account-hub-success-half-manual = Canfuwyd y gosodiadau canlynol trwy archwilio'r gweinydd hwn:
 account-hub-result-no-encryption = Dim Amgryptiad
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Gosod
 account-hub-encryption-button = Amgryptio pen-i-ben
 account-hub-address-books-button = Llyfrau Cyfeiriadau
 account-hub-calendars-button = Calendrau
+account-hub-thundermail-button = Mewngofnodwch gyda Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = neu
 account-hub-notification-show-more = Dangos rhagor
 account-hub-notification-show-less = Dangos llai
 account-hub-email-setup-header = Ychwanegwch eich cyfeiriad e-bost
@@ -264,6 +271,16 @@ address-book-add-ldap-icon =
     .alt = Cysylltwch â llyfr cyfeiriadau LDAP pell
 address-book-add-ldap = Llyfr Cyfeiriadau LDAP newydd
 address-book-add-ldap-description = Cysylltwch â llyfr cyfeiriadau LDAP pell
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 llyfr cyfeiriadau ar gael
+        [zero] { $addressBooks } llyfr cyfeiriadau ar gael
+        [two] { $addressBooks } llyfr cyfeiriadau ar gael
+        [few] { $addressBooks } llyfr cyfeiriadau ar gael
+        [many] { $addressBooks } llyfr cyfeiriadau ar gael
+       *[other] { $addressBooks } llyfr cyfeiriadau ar gael
+    }
 account-hub-fetching-sync-accounts = Wrthi'n darganfod llyfrau cyfeiriadau a chalendrau…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

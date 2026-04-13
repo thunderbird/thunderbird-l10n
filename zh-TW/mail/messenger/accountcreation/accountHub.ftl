@@ -136,21 +136,25 @@ account-hub-notification-unknown-host = 找到第三方網域的設定
 account-hub-ssl-noencryption = 無
 account-hub-email-skip-button = 略過
 account-hub-finding-sync-accounts = 帳號已建立，正在尋找通訊錄與行事曆…
+account-hub-privacy-policy = 隱私權保護政策
+account-hub-welcome = 歡迎來到
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = 歡迎使用 { -brand-short-name }
 account-hub-name-warning-icon =
     .title = 請輸入您的大名
 account-hub-email-label = 電子郵件地址
-    .accesskey = E
+    .accesskey = 電
 account-hub-email-input =
     .placeholder = aming_wang@example.com.tw
 account-hub-email-warning-icon =
-    .title = 電子郵件地址無效
+    .title = 無效的電子郵件地址
 account-hub-password-label = 密碼
-    .accesskey = P
+    .accesskey = 密
     .title = 非必填，只用來驗證使用者名稱是否正確
 account-hub-remember-password = 記住密碼
-    .accesskey = m
+    .accesskey = 記
 account-hub-exchange-label = 您的登入資訊
-    .accesskey = l
+    .accesskey = 您
 account-hub-installing-addon = 正在下載安裝附加元件…
 account-hub-success-addon = 已成功安裝附加元件
 account-hub-success-half-manual = 偵測指定的伺服器後，找到下列設定：
@@ -171,7 +175,7 @@ account-hub-find-account-settings-failed = { -brand-short-name } 找不到您電
 account-hub-find-settings-failed = { -brand-full-name } 找不到適用您郵件帳號的設定資訊。
 account-hub-exchange-config-unverifiable = 無法確認設定方式。若您確定已經輸入正確使用者名稱與密碼的話，可能是伺服器管理員針對您的帳號停用了選擇的設定方式，請試著改用另一種通訊協定。
 account-hub-advanced-setup-button = 進階設定
-    .accesskey = A
+    .accesskey = 進
 # Variables:
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
 account-hub-exchange-dialog-question = { -brand-short-name } 找到您在 { $domain } 的帳號設定資訊。您想要繼續並送出登入資訊嗎？
@@ -183,6 +187,9 @@ account-hub-addon-install-title = 安裝
 account-hub-encryption-button = 端到端加密
 account-hub-address-books-button = 通訊錄
 account-hub-calendars-button = 行事曆
+account-hub-thundermail-button = 使用 Thundermail 登入
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = 或
 account-hub-notification-show-more = 顯示更多
 account-hub-notification-show-less = 顯示更少
 account-hub-email-setup-header = 新增您的電子郵件地址
@@ -259,6 +266,11 @@ address-book-add-ldap-icon =
     .alt = 連線到遠端 LDAP 通訊錄
 address-book-add-ldap = 新增 LDAP 通訊錄
 address-book-add-ldap-description = 連線到遠端 LDAP 通訊錄
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+       *[other] 可使用 { $addressBooks } 通訊錄
+    }
 account-hub-fetching-sync-accounts = 正在尋找通訊錄與行事曆…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

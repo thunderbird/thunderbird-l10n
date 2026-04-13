@@ -20,6 +20,10 @@ ask-save-title-event = 儲存事件
 ask-save-title-task = 儲存工作
 ask-save-message-event = 尚未儲存事件。您想要儲存此事件嗎？
 ask-save-message-task = 尚未儲存工作。您想要儲存此工作嗎？
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = 全天
+    .accesskey = 全
 # Event Dialog Warnings
 warning-end-before-start = 您輸入的「結束日期」早於「開始日期」
 warning-until-date-before-start = 您輸入的「結束日期」早於「開始日期」

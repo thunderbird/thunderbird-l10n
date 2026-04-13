@@ -24,6 +24,10 @@ ask-save-title-event = Salva evento
 ask-save-title-task = Salva attività
 ask-save-message-event = L’evento non è stato salvato. Salvare l’evento?
 ask-save-message-task = L’attività non è stata salvata. Salvare l’attività?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Tutto il giorno
+    .accesskey = T
 # Event Dialog Warnings
 warning-end-before-start = La data di fine inserita è anteriore alla data di inizio
 warning-until-date-before-start = La data di fine è anteriore alla data di inizio

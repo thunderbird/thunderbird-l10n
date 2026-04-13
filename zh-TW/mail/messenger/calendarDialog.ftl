@@ -112,3 +112,31 @@ calendar-dialog-attachments-summary-label =
     { $count ->
        *[other] { $count } 個附件
     }
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
+# Variables:
+#   $count (Number): Number of guests that responded "attending".
+calendar-dialog-attendee-summary-going =
+    { $count ->
+       *[other] { $count } 參加
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe =
+    { $count ->
+       *[other] { $count } 位暫定接受
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "declined".
+calendar-dialog-attendee-summary-declined =
+    { $count ->
+       *[other] 已拒絕 { $count }
+    }
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending =
+    { $count ->
+       *[other] { $count } 位未回覆
+    }

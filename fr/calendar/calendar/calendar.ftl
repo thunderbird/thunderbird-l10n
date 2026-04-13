@@ -24,6 +24,10 @@ ask-save-title-event = Enregistrer l’évènement
 ask-save-title-task = Enregistrer la tâche
 ask-save-message-event = L’évènement n’a pas été enregistré. Voulez-vous enregistrer l’évènement ?
 ask-save-message-task = La tâche n’a pas été enregistrée. Voulez-vous enregistrer la tâche ?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Toute la journée
+    .accesskey = T
 # Event Dialog Warnings
 warning-end-before-start = La date de fin spécifiée se situe avant la date de début
 warning-until-date-before-start = La date de fin de récurrence se situe avant la date de début

@@ -706,3 +706,8 @@ remote-content-option-allow-all =
             [one] Consenti contenuti remoti originati dalla sorgente indicata
            *[other] Consenti contenuti remoti originati dalle { $count } sorgenti indicate
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = È possibile chiudere questa finestra.
+oauth2-loopback-failure = Reindirizzamento OAuth non riuscito.

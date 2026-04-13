@@ -136,25 +136,29 @@ account-hub-notification-unknown-host = Informazioni di configurazione trovate s
 account-hub-ssl-noencryption = Nessuna
 account-hub-email-skip-button = Salta
 account-hub-finding-sync-accounts = Account creato. Ricerca rubriche e calendari…
+account-hub-privacy-policy = Informativa sulla privacy
+account-hub-welcome = Benvenuto in
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Benvenuti in { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Inserisci il tuo nome
 account-hub-email-label = Indirizzo email
-    .accesskey = n
+    .accesskey = I
 account-hub-email-input =
     .placeholder = mario.rossi@example.com
 account-hub-email-warning-icon =
     .title = Indirizzo email non valido
 account-hub-password-label = Password
     .accesskey = P
-    .title = Facoltativo, verrà utilizzato solo per convalidare il nome utente
+    .title = Opzionale, verrà utilizzata solo per validare il nome utente
 account-hub-remember-password = Ricorda password
-    .accesskey = w
+    .accesskey = R
 account-hub-exchange-label = Le tue credenziali
     .accesskey = L
 account-hub-installing-addon = Download e installazione del componente aggiuntivo…
 account-hub-success-addon = Componente aggiuntivo installato con successo
 account-hub-success-half-manual = Sono state trovate le seguenti impostazioni interrogando il server impostato:
-account-hub-result-no-encryption = Nessuna crittografia
+account-hub-result-no-encryption = Nessuna cifratura
 account-hub-result-ssl = SSL/TLS
 account-hub-result-starttls = STARTTLS
 account-hub-credentials-wrong = Autenticazione non riuscita. Assicurati che nome utente e password siano corretti
@@ -171,18 +175,21 @@ account-hub-find-account-settings-failed = { -brand-short-name } non è riuscito
 account-hub-find-settings-failed = { -brand-full-name } non è riuscito a trovare le impostazioni per il tuo account email.
 account-hub-exchange-config-unverifiable = Impossibile verificare la configurazione. Se il nome utente e la password sono corretti, è possibile che l’amministratore del server abbia disattivato la configurazione selezionata per questo account. Provare a selezionare un altro protocollo.
 account-hub-advanced-setup-button = Configurazione avanzata
-    .accesskey = v
+    .accesskey = C
 # Variables:
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
 account-hub-exchange-dialog-question = { -brand-short-name } ha trovato le informazioni per la configurazione dell’account su { $domain }. Procedere comunque e inviare le tue credenziali?
 account-hub-creation-error-title = Errore durante la creazione dell’account
 account-hub-error-server-exists = Il server in entrata è già presente.
 account-hub-confirm-advanced-title = Conferma configurazione avanzata
-account-hub-confirm-advanced-description = Questa finestra verrà chiusa e sarà creato un account con la configurazione corrente, anche se non corretta. Procedere?
+account-hub-confirm-advanced-description = Questa finestra verrà chiusa e sarà creato un account con la configurazione corrente, anche se non corretta. Vuoi procedere?
 account-hub-addon-install-title = Installa
 account-hub-encryption-button = Crittografia end-to-end
 account-hub-address-books-button = Rubriche
 account-hub-calendars-button = Calendari
+account-hub-thundermail-button = Accedi con Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = o
 account-hub-notification-show-more = Mostra dettagli
 account-hub-notification-show-less = Nascondi dettagli
 account-hub-email-setup-header = Aggiungi il tuo indirizzo email
@@ -260,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = Connetti a una rubrica LDAP remota
 address-book-add-ldap = Nuova rubrica LDAP
 address-book-add-ldap-description = Connetti a una rubrica LDAP remota
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 rubrica disponibile
+       *[other] { $addressBooks } rubriche disponibili
+    }
 account-hub-fetching-sync-accounts = Ricerca rubriche e calendari…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
