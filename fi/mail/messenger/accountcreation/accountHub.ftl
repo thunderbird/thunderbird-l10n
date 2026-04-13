@@ -169,6 +169,9 @@ account-hub-find-settings-failed = { -brand-full-name } ei löytänyt asetuksia 
 account-hub-exchange-config-unverifiable = Kokoonpanoa ei voitu vahvistaa. Jos käyttäjätunnuksesi ja salasanasi ovat oikein, palvelimen järjestelmänvalvoja on todennäköisesti estänyt tilillesi valitsemasi kokoonpanon. Yritä uudelleen valitsemalla toinen yhteyskäytäntö.
 account-hub-advanced-setup-button = Lisäasetukset
     .accesskey = L
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+account-hub-exchange-dialog-question = { -brand-short-name } löysi tilisi asetustiedot toimialueesta { $domain }. Haluatko jatkaa ja lähettää kirjautumistietosi?
 account-hub-creation-error-title = Virhe luotaessa tiliä
 account-hub-error-server-exists = Saapuvan postin palvelin on jo olemassa.
 account-hub-confirm-advanced-title = Vahvista edistynyt määritys
