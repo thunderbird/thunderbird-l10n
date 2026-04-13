@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Setup information found on 3rd party dom
 account-hub-ssl-noencryption = None
 account-hub-email-skip-button = Skip
 account-hub-finding-sync-accounts = Account created. Discovering address books and calendars…
+account-hub-privacy-policy = Privacy Policy
+account-hub-welcome = Welcome to
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Welcome to { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Please enter your name
 account-hub-email-label = Email address
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Install
 account-hub-encryption-button = End-to-end encryption
 account-hub-address-books-button = Address Books
 account-hub-calendars-button = Calendars
+account-hub-thundermail-button = Sign in with Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = or
 account-hub-notification-show-more = Show more
 account-hub-notification-show-less = Show less
 account-hub-email-setup-header = Add your email address
@@ -260,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = Connect to a remote LDAP address book
 address-book-add-ldap = New LDAP Address Book
 address-book-add-ldap-description = Connect to a remote LDAP address book
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 address book available
+       *[other] { $addressBooks } address books available
+    }
 account-hub-fetching-sync-accounts = Discovering address books and calendars…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
