@@ -39,9 +39,15 @@ account-hub-remember-password = Յիշել գաղտնաբառը
     .accesskey = շ
 account-hub-exchange-label = Ձեր մուտքանունը
     .accesskey = Մ
+account-hub-installing-addon = Յաւելասարքի ներբեռնում եւ տեղադրում…
+account-hub-success-addon = Յաւելասարքը յաջողութեամբ տեղադրուել է
+account-hub-success-half-manual = Յետեւեալ կարգաւորումները յայտնաբերուել են տուեալ սպասարկչի զոնդաւորման միջոցով.
 account-hub-result-no-encryption = Ծածկագրում չկայ
 account-hub-result-ssl = SSL/TLS
 account-hub-result-starttls = STARTTLS
+account-hub-credentials-wrong = Վաւերացումը ձախողուեց։ Խնդրում ենք ստուգել աւգտանունը եւ գաղտնաբառը
+account-hub-find-settings-failed = { -brand-short-name }֊ը ձախողեց գտնել կարգաւորումները Ձեր եղ․հասցէի համար
+account-hub-exchange-config-unverifiable = Կազմաձեւը չյաջողուեց ստուգել: Եթե ​​Ձեր աւգտանունը եւ գաղտնաբառը ճիշտ են, հաւանական է, որ սպասարկիչի համակարգավարն անջատել է Ձեր հաշուի ընտրուած կազմաձեւը: Փորձէք ընտրել մեկ այղ արձանագրութիւն:
 # Variables:
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
 account-hub-exchange-dialog-question = { -brand-short-name }-ը գտել է Ձեր հաշուի կարգաւորումների մասին տեղեկութիւնները { $domain }-ում: Ցանկանու՞մ էք առաջ անցնել եւ ներկայացնել Ձեր հաւատարմագրերը:
