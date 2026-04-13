@@ -152,6 +152,8 @@ account-hub-remember-password = 記住密碼
 account-hub-exchange-label = 您的登入資訊
     .accesskey = l
 account-hub-installing-addon = 正在下載安裝附加元件…
+account-hub-success-addon = 已成功安裝附加元件
+account-hub-success-half-manual = 偵測指定的伺服器後，找到下列設定：
 account-hub-result-no-encryption = 無加密
 account-hub-result-ssl = SSL/TLS
 account-hub-result-starttls = STARTTLS
@@ -168,6 +170,8 @@ account-hub-email-account-added-title = 成功新增帳號！
 account-hub-find-account-settings-failed = { -brand-short-name } 找不到您電子郵件帳號適用的設定資訊。
 account-hub-find-settings-failed = { -brand-full-name } 找不到適用您郵件帳號的設定資訊。
 account-hub-exchange-config-unverifiable = 無法確認設定方式。若您確定已經輸入正確使用者名稱與密碼的話，可能是伺服器管理員針對您的帳號停用了選擇的設定方式，請試著改用另一種通訊協定。
+account-hub-advanced-setup-button = 進階設定
+    .accesskey = A
 # Variables:
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
 account-hub-exchange-dialog-question = { -brand-short-name } 找到您在 { $domain } 的帳號設定資訊。您想要繼續並送出登入資訊嗎？
@@ -176,6 +180,7 @@ account-hub-error-server-exists = 收件伺服器已存在。
 account-hub-confirm-advanced-title = 確認進階設定
 account-hub-confirm-advanced-description = 此對話框將關閉，就算設定內容不正確也會使用目前設定來建立帳號。您確定要繼續嗎？
 account-hub-addon-install-title = 安裝
+account-hub-encryption-button = 端到端加密
 account-hub-address-books-button = 通訊錄
 account-hub-calendars-button = 行事曆
 account-hub-notification-show-more = 顯示更多
