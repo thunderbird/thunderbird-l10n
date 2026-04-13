@@ -178,6 +178,7 @@ account-hub-error-server-exists = Hartzeko zerbitzaria dagoeneko badago.
 account-hub-confirm-advanced-title = Konfigurazio aurreratua berretsi
 account-hub-confirm-advanced-description = Elkarrizketa koadro hau itxiko da eta kontua sortuko da oraingo ezarpenekin, akastun konfigurazioa bada ere. Aurrera jo nahi duzu?
 account-hub-addon-install-title = Instalatu
+account-hub-encryption-button = Muturretik muturrerako zifratzea
 account-hub-address-books-button = Helbide-liburuak
 account-hub-calendars-button = Egutegiak
 account-hub-notification-show-more = Gehiago erakutsi
