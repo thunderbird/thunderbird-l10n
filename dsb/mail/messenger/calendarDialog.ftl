@@ -119,3 +119,30 @@ calendar-dialog-attendee-summary-going =
         [few] { $count } se wobźěliju
        *[other] { $count } se wobźělijo
     }
+# Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe =
+    { $count ->
+        [one] { $count } snaź pśiźo
+        [two] { $count } snaź pśiźotej
+        [few] { $count } snaź pśidu
+       *[other] { $count } snaź pśiźo
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "declined".
+calendar-dialog-attendee-summary-declined =
+    { $count ->
+        [one] { $count } jo wótpokazał
+        [two] { $count } jo wótpokazałej
+        [few] { $count } jo wótpokazali
+       *[other] { $count } jo wótpokazało
+    }
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending =
+    { $count ->
+        [one] { $count } bźez wótegrona
+        [two] { $count } bźez wótegrona
+        [few] { $count } bźez wótegrona
+       *[other] { $count } bźez wótegrona
+    }

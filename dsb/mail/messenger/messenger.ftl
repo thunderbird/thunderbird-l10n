@@ -739,3 +739,8 @@ remote-content-option-allow-all =
             [few] Daloke wopśimjeśe górjejce naspomnjetych póchadow { $count } zmóžniś
            *[other] Daloke wopśimjeśe górjejce naspomnjetych póchadow { $count } zmóžniś
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Móžośo toś to wokno zacyniś.
+oauth2-loopback-failure = Dalejspósrědnjenje OAuth njejo se raźiło.
