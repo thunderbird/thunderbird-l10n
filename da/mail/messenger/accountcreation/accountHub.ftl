@@ -197,6 +197,7 @@ account-hub-result-imap-description = Hold dine mapper og meddelelser synkronise
 account-hub-result-pop-description = Hold dine mapper og meddelelser på din computer
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Brug Microsoft Exchange Web Services til at synkronisere dine mapper og meddelelser
+account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-exchange-description = Synkroniser mapper og mails med Exchange eller Office 365
 account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Anbefalet

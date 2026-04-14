@@ -664,6 +664,25 @@ prompt-dont-ask-again = Spørg ikke igen.
 spam-analysis-percentage = Spam-analyse { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } fuldført
 spam-processing-message = Behandler spam-meddelelser
 
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Svar på tråden  "{ $subject }" vil ikke blive vist.
+       *[other] Svar på de { $count } markerede tråde vil ikke blive vist.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Svar på undertråden  "{ $subject }" vil ikke blive vist.
+       *[other] Svar på de { $count } valgte undertråde vil ikke blive vist.
+    }
+
 ## Attachments
 
 # Variables:
