@@ -734,3 +734,7 @@ remote-content-option-allow-all =
             [few] Povolit vzdálený obsah ze všech { $count } zdrojů uvedených výše
            *[other] Povolit vzdálený obsah ze všech { $count } zdrojů uvedených výše
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Toto okno můžete zavřít.
