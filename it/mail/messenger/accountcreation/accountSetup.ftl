@@ -78,11 +78,11 @@ account-setup-looking-up-mx = Ricerca configurazione: dominio della posta in arr
 account-setup-looking-up-exchange = Ricerca configurazione: server Exchange...
 account-setup-checking-password = Controllo password…
 account-setup-installing-addon = Download e installazione del componente aggiuntivo…
-account-setup-success-half-manual = Sono state trovate le seguenti impostazioni interrogando il server impostato:
+account-setup-success-half-manual = Sono state rilevate le seguenti impostazioni dal server indicato:
 account-setup-success-guess = Configurazione rilevata cercando tra i nomi dei server più comuni.
 account-setup-success-guess-offline = La connessione non è attiva. Abbiamo cercato di indovinare alcune impostazioni ma sarà necessario inserire le impostazioni corrette.
 account-setup-success-password = La password è corretta
-account-setup-success-addon = Componente aggiuntivo installato con successo
+account-setup-success-addon = Componente aggiuntivo installato correttamente
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-success-settings-db = Configurazione rilevata nell’archivio provider di Mozilla.
 account-setup-success-settings-disk = Configurazione rilevata durante l’installazione di { -brand-short-name }.

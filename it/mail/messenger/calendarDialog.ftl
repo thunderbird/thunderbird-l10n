@@ -120,27 +120,19 @@ calendar-dialog-attachments-summary-label =
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
     { $count ->
-        [one] { $count } presenti
+        [one] { $count } presente
        *[other] { $count } presenti
     }
 # Variables:
 #   $count (Number): Number of guests that responded "maybe".
-calendar-dialog-attendee-summary-maybe =
-    { $count ->
-        [one] { $count } forse
-       *[other] { $count } forse
-    }
+calendar-dialog-attendee-summary-maybe = { $count } forse
 # Variables:
 #   $count (Number): Number of guests that responded "declined".
 calendar-dialog-attendee-summary-declined =
     { $count ->
-        [one] { $count } rifiutati
+        [one] { $count } rifiutato
        *[other] { $count } rifiutati
     }
 # Variables:
 #   $count (Number): Number of guests whose response is pending (didn't reply yet).
-calendar-dialog-attendee-summary-pending =
-    { $count ->
-        [one] { $count } in sospeso
-       *[other] { $count } in sospeso
-    }
+calendar-dialog-attendee-summary-pending = { $count } in sospeso
