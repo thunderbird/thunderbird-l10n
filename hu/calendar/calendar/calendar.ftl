@@ -24,6 +24,10 @@ ask-save-title-event = Esemény mentése
 ask-save-title-task = Feladat mentése
 ask-save-message-event = Az esemény nincs mentve. Menti az eseményt?
 ask-save-message-task = A feladat nincs mentve. Menti a feladatot?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Egész nap
+    .accesskey = E
 # Event Dialog Warnings
 warning-end-before-start = A beírt befejezési dátum előbb van, mint a kezdő dátum.
 warning-until-date-before-start = A befejezési dátum előbb van, mint a kezdő dátum

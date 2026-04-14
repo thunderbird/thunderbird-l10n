@@ -707,3 +707,8 @@ remote-content-option-allow-all =
             [one] Távoli tartalom engedélyezése a fent felsorolt { $count } eredettől
            *[other] Távoli tartalom engedélyezése a fent felsorolt { $count } eredettől
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Bezárhatja ezt az ablakot.
+oauth2-loopback-failure = Nem sikerült az OAuth átirányítás.

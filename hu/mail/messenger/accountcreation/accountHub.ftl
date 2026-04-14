@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Telepítési információ találva egy h
 account-hub-ssl-noencryption = Nincs
 account-hub-email-skip-button = Kihagyás
 account-hub-finding-sync-accounts = Fiók létrehozva. Címjegyzékek és naptárak felfedezése…
+account-hub-privacy-policy = Adatvédelmi irányelvek
+account-hub-welcome = Üdvözli a
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Üdvözli a { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Adja meg a nevét
 account-hub-email-label = E-mail cím
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Telepítés
 account-hub-encryption-button = Végpontok közötti titkosítás
 account-hub-address-books-button = Címjegyzékek
 account-hub-calendars-button = Naptárak
+account-hub-thundermail-button = Bejelentkezés a Thundermaillel
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = vagy
 account-hub-notification-show-more = Több megjelenítése
 account-hub-notification-show-less = Kevesebb megjelenítése
 account-hub-email-setup-header = E-mail-cím hozzáadása
@@ -260,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = Kapcsolódás egy távoli LDAP-címjegyzékhez
 address-book-add-ldap = Új LDAP-címjegyzék
 address-book-add-ldap-description = Kapcsolódás egy távoli LDAP-címjegyzékhez
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 címjegyzék érhető el
+       *[other] { $addressBooks } címjegyzék érhető el
+    }
 account-hub-fetching-sync-accounts = Címjegyzékek és naptárak felfedezése…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
