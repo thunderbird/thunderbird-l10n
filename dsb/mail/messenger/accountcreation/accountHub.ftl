@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Informacije konfiguracije na domenje tś
 account-hub-ssl-noencryption = Žeden
 account-hub-email-skip-button = Pśeskócyś
 account-hub-finding-sync-accounts = Konto jo se załožyło. Adresniki a kalendarje se namakaju…
+account-hub-privacy-policy = Pšawidła priwatnosći
+account-hub-welcome = Witajśo k
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Witajśo k { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Pšosym zapódajśo swójo mě
 account-hub-email-label = E-mailowa adresa
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Instalěrowaś
 account-hub-encryption-button = Koděrowanje wót kóńca do kóńca
 account-hub-address-books-button = Adresniki
 account-hub-calendars-button = Kalendarje
+account-hub-thundermail-button = Z Thundermail pśizjawiś
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = abo
 account-hub-notification-show-more = Wěcej pokazaś
 account-hub-notification-show-less = Mjenjej pokazaś
 account-hub-email-setup-header = Pśidajśo swóju e-mailowu adresu
@@ -262,6 +269,14 @@ address-book-add-ldap-icon =
     .alt = Ze zdalonym LDAP-adresnikom zwězaś
 address-book-add-ldap = Nowy LDAP-adresnik
 address-book-add-ldap-description = Ze zdalonym LDAP-adresnikom zwězaś
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] { $addressBooks } adresnik k dispoziciji
+        [two] { $addressBooks } adresnika k dispoziciji
+        [few] { $addressBooks } adresniki k dispoziciji
+       *[other] { $addressBooks } adresnikow k dispoziciji
+    }
 account-hub-fetching-sync-accounts = Adresniki a kalendarje namakaś…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

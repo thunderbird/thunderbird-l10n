@@ -26,6 +26,10 @@ ask-save-title-event = Tšojenje składowaś
 ask-save-title-task = Nadawk składowaś
 ask-save-message-event = Tšojenje njejo se składował. Cośo tšojenje składowaś?
 ask-save-message-task = Nadawk njejo se składował. Cośo nadawk składowaś?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Ceły źeń
+    .accesskey = C
 # Event Dialog Warnings
 warning-end-before-start = Zapódany kóńcny datum jo pśed zachopnym datumom
 warning-until-date-before-start = Zapódany termin jo pśed zachopnym datumom
