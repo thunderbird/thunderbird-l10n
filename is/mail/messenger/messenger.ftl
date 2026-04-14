@@ -707,3 +707,8 @@ remote-content-option-allow-all =
             [one] Leyfa fjarlæg gögn frá { $count } hér fyrir ofan
            *[other] Leyfa fjarlæg gögn frá { $count } hér fyrir ofan
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Þú getur lokað þessum glugga.
+oauth2-loopback-failure = OAuth-endurbeining mistókst.
