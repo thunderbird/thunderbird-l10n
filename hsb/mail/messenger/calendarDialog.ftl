@@ -137,3 +137,12 @@ calendar-dialog-attendee-summary-declined =
         [few] { $count } su wotpokazani
        *[other] { $count } je wotpokazanych
     }
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending =
+    { $count ->
+        [one] { $count } bjez wotmołwy
+        [two] { $count } bjez wotmołwy
+        [few] { $count } bjez wotmołwy
+       *[other] { $count } bjez wotmołwy
+    }
