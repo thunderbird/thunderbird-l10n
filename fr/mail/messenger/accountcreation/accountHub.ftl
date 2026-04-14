@@ -139,18 +139,18 @@ account-hub-finding-sync-accounts = Compte créé. Recherche de carnets d’adre
 account-hub-privacy-policy = Politique de confidentialité
 account-hub-welcome = Bienvenue sur
 account-hub-welcome-brand = { -brand-short-name }
-account-hub-welcome-text = Bienvenue dans { -brand-short-name }
+account-hub-welcome-text = Bienvenue sur { -brand-short-name }
 account-hub-name-warning-icon =
-    .title = Veuillez saisir votre nom
-account-hub-email-label = Adresse électronique
+    .title = Veuillez saisir vos nom et prénom
+account-hub-email-label = Adresse e-mail
     .accesskey = A
 account-hub-email-input =
     .placeholder = jean.ne.dupont@example.com
 account-hub-email-warning-icon =
-    .title = Adresse électronique invalide
+    .title = Adresse e-mail invalide
 account-hub-password-label = Mot de passe
     .accesskey = M
-    .title = Optionnel, ne sera utilisé que pour valider l’identifiant
+    .title = Facultatif, ne sera utilisé que pour valider l’identifiant
 account-hub-remember-password = Retenir le mot de passe
     .accesskey = R
 account-hub-exchange-label = Votre identifiant
@@ -270,7 +270,7 @@ address-book-add-ldap-description = Se connecter à un carnet d’adresses LDAP 
 # $addressBooks (Number) - The number of address books that can be synced from existing accounts.
 account-hub-address-book-sync-books-data =
     { $addressBooks ->
-        [one] 1 carnet d’adresses disponible
+        [one] { $addressBooks } carnet d’adresses disponible
        *[other] { $addressBooks } carnets d’adresses disponibles
     }
 account-hub-fetching-sync-accounts = Recherche des carnets d’adresses et des agendas…
