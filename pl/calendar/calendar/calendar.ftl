@@ -25,6 +25,10 @@ ask-save-title-event = Zapisz wydarzenie
 ask-save-title-task = Zapisz zadanie
 ask-save-message-event = Wydarzenie nie zostało zapisane. Czy je zapisać?
 ask-save-message-task = Zadanie nie zostało zapisane. Czy je zapisać?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Cały dzień
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = Wprowadzona data zakończenia jest wcześniejsza niż data rozpoczęcia
 warning-until-date-before-start = Data zakończenia jest wcześniejsza niż data rozpoczęcia

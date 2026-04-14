@@ -48,63 +48,63 @@ calendar-dialog-attendee-summary =
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                        *[many]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                     }
                 [few]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                        *[many]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                     }
                *[many]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                        *[many]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                     }
             }
@@ -114,63 +114,63 @@ calendar-dialog-attendee-summary =
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                        *[many]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                     }
                 [few]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                        *[many]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                     }
                *[many]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                        *[many]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                     }
             }
@@ -180,63 +180,63 @@ calendar-dialog-attendee-summary =
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                        *[many]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                     }
                 [few]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                        *[many]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                     }
                *[many]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                        *[many]
                             { $pending ->
-                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } oczekuje
-                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
-                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } oczekuje
+                                [one] { $going } uczestniczy, { $maybe } może, { $declined } odrzucił, { $pending } brak odpowiedzi
+                                [few] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
+                               *[many] { $going } uczestniczy, { $maybe } może, { $declined } odrzuciło, { $pending } brak odpowiedzi
                             }
                     }
             }
@@ -307,4 +307,40 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } załącznik
         [few] { $count } załączniki
        *[many] { $count } załączników
+    }
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
+# Variables:
+#   $count (Number): Number of guests that responded "attending".
+calendar-dialog-attendee-summary-going =
+    { $count ->
+        [one] { $count } uczestniczy
+        [few] { $count } uczestniczy
+       *[many] { $count } uczestniczy
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe =
+    { $count ->
+        [one] { $count } może
+        [few] { $count } może
+       *[many] { $count } może
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "declined".
+calendar-dialog-attendee-summary-declined =
+    { $count ->
+        [one] { $count } odzrzucił
+        [few] { $count } odzrzuciło
+       *[many] { $count } odzrzuciło
+    }
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending =
+    { $count ->
+        [one] { $count } brak odpowiedzi
+        [few] { $count } brak odpowiedzi
+       *[many] { $count } brak odpowiedzi
     }

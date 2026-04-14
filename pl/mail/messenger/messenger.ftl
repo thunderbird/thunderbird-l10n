@@ -718,3 +718,7 @@ remote-content-option-allow-all =
             [few] Zezwalaj na zdalną zawartość z { $count } źródeł wymienionych powyżej
            *[many] Zezwalaj na zdalną zawartość z { $count } źródeł wymienionych powyżej
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Możesz zamknąć to okno.

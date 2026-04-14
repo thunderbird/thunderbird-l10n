@@ -136,6 +136,9 @@ account-hub-notification-unknown-host = Znaleziono informacje o konfiguracji w�
 account-hub-ssl-noencryption = Brak
 account-hub-email-skip-button = Pomiń
 account-hub-finding-sync-accounts = Utworzono konto. Wykrywanie książek adresowych i kalendarzy…
+account-hub-privacy-policy = Zasady ochrony prywatności
+account-hub-welcome = Witamy w
+account-hub-welcome-text = Witamy w przeglądarce { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Proszę podać imię i nazwisko lub pseudonim
 account-hub-email-label = Adres e-mail
@@ -183,6 +186,9 @@ account-hub-addon-install-title = Zainstaluj
 account-hub-encryption-button = Szyfrowanie „end-to-end”
 account-hub-address-books-button = Książki adresowe
 account-hub-calendars-button = Kalendarze
+account-hub-thundermail-button = Zaloguj się za pomocą usługi Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = lub
 account-hub-notification-show-more = Więcej
 account-hub-notification-show-less = Mniej
 account-hub-email-setup-header = Dodaj adres e-mail
@@ -261,6 +267,13 @@ address-book-add-ldap-icon =
     .alt = Połącz ze zdalną książką adresową LDAP
 address-book-add-ldap = Nowa książka adresowa LDAP
 address-book-add-ldap-description = Połącz ze zdalną książką adresową LDAP
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 dostępna książka adresowa
+        [few] { $addressBooks } dostępne książki adresowe
+       *[many] { $addressBooks } dostępnych książek adresowych
+    }
 account-hub-fetching-sync-accounts = Wykrywanie książek adresowych i kalendarzy…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
