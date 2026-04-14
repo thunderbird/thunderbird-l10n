@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Einrichtungs-Informationen auf Drittanbi
 account-hub-ssl-noencryption = Keine
 account-hub-email-skip-button = Überspringen
 account-hub-finding-sync-accounts = Konto erstellt. Adressbücher und Kalender werden erkannt…
+account-hub-privacy-policy = Datenschutzerklärung
+account-hub-welcome = Willkommen bei
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Willkommen bei { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Bitte geben Sie Ihren Namen ein.
 account-hub-email-label = E-Mail-Adresse
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Installieren
 account-hub-encryption-button = Ende-zu-Ende-Verschlüsselung
 account-hub-address-books-button = Adressbücher
 account-hub-calendars-button = Kalender
+account-hub-thundermail-button = Mit Thundermail anmelden
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = oder
 account-hub-notification-show-more = Mehr anzeigen
 account-hub-notification-show-less = Weniger anzeigen
 account-hub-email-setup-header = Fügen Sie Ihre E-Mail-Adresse hinzu
@@ -260,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = Mit einem externen LDAP-Adressbuch verbinden
 address-book-add-ldap = Neues LDAP-Adressbuch
 address-book-add-ldap-description = Mit einem externen LDAP-Adressbuch verbinden
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 Adressbuch verfügbar
+       *[other] { $addressBooks } Adressbücher verfügbar
+    }
 account-hub-fetching-sync-accounts = Adressbücher und Kalender werden erkannt…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

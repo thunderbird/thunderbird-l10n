@@ -24,6 +24,10 @@ ask-save-title-event = Termin speichern
 ask-save-title-task = Aufgabe speichern
 ask-save-message-event = Der Termin wurde noch nicht gespeichert. Möchten Sie ihn speichern?
 ask-save-message-task = Die Aufgabe wurde noch nicht gespeichert. Möchten Sie sie speichern?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Ganztags
+    .accesskey = t
 # Event Dialog Warnings
 warning-end-before-start = Das eingegebene Enddatum liegt vor dem Startdatum.
 warning-until-date-before-start = Das eingegebene Enddatum dieser Serie liegt vor dem Startdatum.

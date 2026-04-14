@@ -707,3 +707,8 @@ remote-content-option-allow-all =
             [one] Externe Inhalte erlauben von { $count } oben aufgeführter Quelle
            *[other] Externe Inhalte erlauben von { $count } oben aufgeführten Quellen
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Sie können dieses Fenster schließen.
+oauth2-loopback-failure = OAuth-Weiterleitung fehlgeschlagen.
