@@ -725,3 +725,8 @@ remote-content-option-allow-all =
             [few] Разрешить содержимое из Интернета с { $count } перечисленных выше источников
            *[many] Разрешить содержимое из Интернета с { $count } перечисленных выше источников
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Вы можете закрыть это окно.
+oauth2-loopback-failure = OAuth-перенаправление не удалось.

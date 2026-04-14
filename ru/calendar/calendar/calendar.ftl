@@ -25,6 +25,10 @@ ask-save-title-event = Сохранить событие
 ask-save-title-task = Сохранить задачу
 ask-save-message-event = Событие не было сохранено. Вы хотите сохранить событие?
 ask-save-message-task = Задача не была сохранена. Вы хотите сохранить задачу?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Весь день
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = Введённая вами дата окончания события раньше даты его начала
 warning-until-date-before-start = Дата конца раньше даты начала

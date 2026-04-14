@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Найдена информация по
 account-hub-ssl-noencryption = Нет
 account-hub-email-skip-button = Пропустить
 account-hub-finding-sync-accounts = Учётная запись создана. Обнаружение адресных книг и календарей…
+account-hub-privacy-policy = Политика конфиденциальности
+account-hub-welcome = Добро пожаловать в
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Добро пожаловать в { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Пожалуйста, введите своё имя
 account-hub-email-label = Адрес электронной почты
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Установка
 account-hub-encryption-button = Сквозное шифрование
 account-hub-address-books-button = Адресные книги
 account-hub-calendars-button = Календари
+account-hub-thundermail-button = Войти через Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = или
 account-hub-notification-show-more = Показать больше
 account-hub-notification-show-less = Показать меньше
 account-hub-email-setup-header = Добавьте свой адрес эл. почты
@@ -261,6 +268,13 @@ address-book-add-ldap-icon =
     .alt = Подключиться к удалённой адресной книге LDAP
 address-book-add-ldap = Новая адресная книга LDAP
 address-book-add-ldap-description = Подключиться к удалённой адресной книге LDAP
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] Доступна 1 адресная книга
+        [few] Доступно { $addressBooks } адресных книги
+       *[many] Доступно { $addressBooks } адресных книг
+    }
 account-hub-fetching-sync-accounts = Обнаружение адресных книг и календарей…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
