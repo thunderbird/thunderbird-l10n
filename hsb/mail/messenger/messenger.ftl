@@ -739,3 +739,8 @@ remote-content-option-allow-all =
             [few] Zdaleny wobsah horjeka naspomnjenych pochadow { $count } zmóžnić
            *[other] Zdaleny wobsah horjeka naspomnjenych pochadow { $count } zmóžnić
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Móžeće tute wokno začinić.
+oauth2-loopback-failure = Dalesposrědkowanje OAuth njeje so poradźiło.

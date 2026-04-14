@@ -269,6 +269,14 @@ address-book-add-ldap-icon =
     .alt = Ze zdalenym LDAP-adresnikom zwjazać
 address-book-add-ldap = Nowy LDAP-adresnik
 address-book-add-ldap-description = Ze zdalenym LDAP-adresnikom zwjazać
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] { $addressBooks } adresnik k dispoziciji
+        [two] { $addressBooks } adresnikaj k dispoziciji
+        [few] { $addressBooks } adresniki k dispoziciji
+       *[other] { $addressBooks } adresnikow k dispoziciji
+    }
 account-hub-fetching-sync-accounts = Adresniki a protyki namakać…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
