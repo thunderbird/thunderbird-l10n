@@ -24,6 +24,10 @@ ask-save-title-event = Vista atburð
 ask-save-title-task = Vista verkefni
 ask-save-message-event = Ekki er búið að vista atburð. Viltu vista atburðinn?
 ask-save-message-task = Ekki er búið að vista verkefni. Viltu vista verkefnið?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Allan daginn
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = Enda dagsetningin er áður en byrjunardagsetningin
 warning-until-date-before-start = Eftir dagsetning er á undan upphafsdagsetningu

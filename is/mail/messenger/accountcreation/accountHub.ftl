@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Upplýsingar um uppsetningu fundust á l
 account-hub-ssl-noencryption = Ekkert
 account-hub-email-skip-button = Sleppa
 account-hub-finding-sync-accounts = Reikningur útbúinn. Finn nafnaskrár og dagatöl…
+account-hub-privacy-policy = Meðferð persónuupplýsinga
+account-hub-welcome = Velkomin í
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Velkomin í { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Settu inn nafnið þitt
 account-hub-email-label = Tölvupóstfang
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Setja inn
 account-hub-encryption-button = Enda-í-enda dulritun
 account-hub-address-books-button = Nafnaskrár
 account-hub-calendars-button = Dagatöl
+account-hub-thundermail-button = Innskráning með Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = eða
 account-hub-notification-show-more = Sýna meira
 account-hub-notification-show-less = Sýna minna
 account-hub-email-setup-header = Bættu við tölvupóstfanginu þínu
@@ -260,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = Tengjast við fjartengda LDAP-nafnaskrá
 address-book-add-ldap = Ný LDAP-nafnaskrá
 address-book-add-ldap-description = Tengjast við fjartengda LDAP-nafnaskrá
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 nafnaskrá í boði
+       *[other] { $addressBooks } nafnaskrár í boði
+    }
 account-hub-fetching-sync-accounts = Finn nafnaskrár og dagatöl…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
