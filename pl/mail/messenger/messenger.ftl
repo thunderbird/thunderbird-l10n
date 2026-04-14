@@ -722,3 +722,4 @@ remote-content-option-allow-all =
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Możesz zamknąć to okno.
+oauth2-loopback-failure = Przekierowanie OAuth się nie powiodło.
