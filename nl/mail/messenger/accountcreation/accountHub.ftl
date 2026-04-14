@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Instelgegevens gevonden op domein van de
 account-hub-ssl-noencryption = Geen
 account-hub-email-skip-button = Overslaan
 account-hub-finding-sync-accounts = Account aangemaakt. Adresboeken en agenda’s ontdekken…
+account-hub-privacy-policy = Privacybeleid
+account-hub-welcome = Welkom bij
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Welkom bij { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Voer uw naam in
 account-hub-email-label = E-mailadres
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Installeren
 account-hub-encryption-button = End-to-end-versleuteling
 account-hub-address-books-button = Adresboeken
 account-hub-calendars-button = Agenda’s
+account-hub-thundermail-button = Aanmelden met Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = of
 account-hub-notification-show-more = Meer tonen
 account-hub-notification-show-less = Minder tonen
 account-hub-email-setup-header = Uw e-mailadres toevoegen
@@ -260,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = Verbinding maken met een extern LDAP-adresboek
 address-book-add-ldap = Nieuw LDAP-adresboek
 address-book-add-ldap-description = Verbinding maken met een extern LDAP-adresboek
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 adresboek beschikbaar
+       *[other] { $addressBooks } adresboeken beschikbaar
+    }
 account-hub-fetching-sync-accounts = Adresboeken en agenda’s ontdekken…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

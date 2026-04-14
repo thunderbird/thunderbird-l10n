@@ -24,6 +24,10 @@ ask-save-title-event = Gebeurtenis opslaan
 ask-save-title-task = Taak opslaan
 ask-save-message-event = Gebeurtenis is niet opgeslagen. Wilt u de gebeurtenis opslaan?
 ask-save-message-task = Taak is niet opgeslagen. Wilt u de taak opslaan?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = De hele dag
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = De einddatum die u hebt ingevoerd ligt voor de begindatum
 warning-until-date-before-start = De tot-datum ligt voor de begindatum

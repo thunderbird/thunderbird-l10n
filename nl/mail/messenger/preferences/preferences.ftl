@@ -473,6 +473,7 @@ account-hub-checkbox-label =
     .label = Maak accounts aan in de nieuwe Accounthub
     .accesskey = M
 account-hub-checkbox-description = Experimentele accountcreatieflow voor nieuwe e-mailadressen
+account-hub-manual-config-checkbox-description = Handmatige-configuratiestroom nieuwe accounthub
 new-calendar-legend = Dialoogvenster Nieuwe agenda-gebeurtenis
 new-calendar-checkbox-label =
     .label = Agenda-gebeurtenissen in het nieuwe dialoogvenster bekijken
