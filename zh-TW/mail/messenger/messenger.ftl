@@ -686,4 +686,4 @@ remote-content-option-allow-all =
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = 您可以關閉此視窗。
-oauth2-loopback-failure = OAuth 重導失敗。
+oauth2-loopback-failure = OAuth 跳轉失敗。
