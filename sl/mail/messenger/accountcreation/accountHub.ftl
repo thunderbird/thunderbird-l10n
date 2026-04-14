@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Podatki za nastavitev najdeni na domeni 
 account-hub-ssl-noencryption = Brez
 account-hub-email-skip-button = Preskoči
 account-hub-finding-sync-accounts = Račun ustvarjen. Odkrivanje imenikov in koledarjev …
+account-hub-privacy-policy = Pravilnik o zasebnosti
+account-hub-welcome = Dobrodošli v
+account-hub-welcome-brand = { -brand-short-name(sklon: "mestnik") }
+account-hub-welcome-text = Dobrodošli v { -brand-short-name(sklon: "mestnik") }
 account-hub-name-warning-icon =
     .title = Vnesite svoje ime
 account-hub-email-label = E-poštni naslov
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Namesti
 account-hub-encryption-button = Šifriranje od konca do konca
 account-hub-address-books-button = Imeniki
 account-hub-calendars-button = Koledarji
+account-hub-thundermail-button = Prijava s Thundermailom
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = ali
 account-hub-notification-show-more = Prikaži več
 account-hub-notification-show-less = Prikaži manj
 account-hub-email-setup-header = Dodajte e-poštni naslov
@@ -197,6 +204,8 @@ account-hub-result-imap-description = E-pošta in mape naj se sinhronizirajo s s
 account-hub-result-pop-description = E-pošta in mape naj bodo shranjene na računalniku
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Sinhroniziraj mape in e-pošto z uporabo spletnih storitev Microsoft Exchange
+account-hub-result-graph-shortname = Exchange (Graph)
+account-hub-result-graph-description = Uporabi API Microsoft Graph za sinhronizacijo map in e-pošte
 account-hub-result-exchange-description = Sinhroniziraj e-poštne mape in sporočila s storitvijo Exchange ali Office 365
 account-hub-result-ews-text = Strežnik
 account-hub-result-recommended-label = Priporočeno
@@ -260,6 +269,14 @@ address-book-add-ldap-icon =
     .alt = Poveži z oddaljenim imenikom LDAP
 address-book-add-ldap = Nov imenik LDAP
 address-book-add-ldap-description = Poveži z oddaljenim imenikom LDAP
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] Na voljo je { $addressBooks } imenik
+        [two] Na voljo sta { $addressBooks } imenika
+        [few] Na voljo so { $addressBooks } imeniki
+       *[other] Na voljo je { $addressBooks } imenikov
+    }
 account-hub-fetching-sync-accounts = Odkrivanje imenikov in koledarjev …
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
