@@ -707,3 +707,8 @@ remote-content-option-allow-all =
             [one] Externe inhoud van de bovenvermelde { $count } bron toestaan
            *[other] Externe inhoud van alle bovenvermelde { $count } bronnen toestaan
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = U kunt dit venster sluiten.
+oauth2-loopback-failure = OAuth-omleiding mislukt.
