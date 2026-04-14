@@ -713,3 +713,8 @@ remote-content-option-allow-all =
             [few] Dovoli oddaljeno vsebino zgoraj navedenih { $count } virov
            *[other] Dovoli oddaljeno vsebino zgoraj navedenih { $count } virov
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = To okno lahko zaprete.
+oauth2-loopback-failure = Preusmeritev OAuth ni uspela.
