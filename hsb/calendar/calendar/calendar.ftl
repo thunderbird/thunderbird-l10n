@@ -26,6 +26,10 @@ ask-save-title-event = Podawk składować
 ask-save-title-task = Nadawk składować
 ask-save-message-event = Podawk njeje so składował. Chceće podawk składować?
 ask-save-message-task = Nadawk njeje so składował. Chceće nadawk składować?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Cyły dźeń
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = Zapodaty kónčny datum je před spočatnym datumom
 warning-until-date-before-start = Zapodaty termin je před spočatnym datumom
