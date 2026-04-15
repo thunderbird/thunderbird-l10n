@@ -24,6 +24,10 @@ ask-save-title-event = Оқиғаны сақтау
 ask-save-title-task = Тапсырманы сақтау
 ask-save-message-event = Оқиға сақталмаған. Оқиғаны сақтауды қалайсыз ба?
 ask-save-message-task = Тапсырма сақталмаған. Тапсырманы сақтауды қалайсыз ба?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Күн бойы
+    .accesskey = к
 # Event Dialog Warnings
 warning-end-before-start = Сіз енгізген аяқталу уақыты басталу уақытынан бұрын болады
 warning-until-date-before-start = Дейін уақыты басталу уақытынан бұрын болады
