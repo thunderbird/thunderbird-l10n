@@ -103,3 +103,21 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } салыным
        *[other] { $count } салыным
     }
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
+# Variables:
+#   $count (Number): Number of guests that responded "attending".
+calendar-dialog-attendee-summary-going =
+    { $count ->
+        [one] { $count } қатысады
+       *[other] { $count } қатысады
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe =
+    { $count ->
+        [one] { $count } мүмкін
+       *[other] { $count } мүмкін
+    }
