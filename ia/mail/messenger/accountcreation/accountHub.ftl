@@ -187,6 +187,7 @@ account-hub-addon-install-title = Installar
 account-hub-encryption-button = Cryptation end-to-end
 account-hub-address-books-button = Libros de adresses
 account-hub-calendars-button = Agendas
+account-hub-thundermail-button = Acceder con Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = o
 account-hub-notification-show-more = Monstrar plus
@@ -266,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = Connecter se a un libro de adresses LDAP remote
 address-book-add-ldap = Nove libro del adresses LDAP
 address-book-add-ldap-description = Connecter se a un libro de adresses LDAP remote
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 libro de adresses disponibile
+       *[other] { $addressBooks } libros de adresses disponibile
+    }
 account-hub-fetching-sync-accounts = Discoperiente libros de adresses e agendas…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

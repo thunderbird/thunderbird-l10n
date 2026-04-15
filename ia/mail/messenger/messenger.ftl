@@ -706,3 +706,8 @@ remote-content-option-allow-all =
             [one] Consentir contento remote del { $count } fonte in le lista supra
            *[other] Consentir contento remote de tote le { $count } fontes in le lista supra
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Tu pote clauder iste fenestra.
+oauth2-loopback-failure = Redirection de OAuth fallite.
