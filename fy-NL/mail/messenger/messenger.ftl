@@ -707,3 +707,8 @@ remote-content-option-allow-all =
             [one] Eksterne ynhâld fan de boppe fermelde { $count } boarne tastean
            *[other] Eksterne ynhâld fan alle boppe fermelde { $count } boarnen tastean
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Jo kinne dit finster slute.
+oauth2-loopback-failure = OAuth-omlieding mislearre.

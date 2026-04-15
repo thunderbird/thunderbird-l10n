@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Ynstelgegevens fûn op domein fan tredde
 account-hub-ssl-noencryption = Gjin
 account-hub-email-skip-button = Oerslaan
 account-hub-finding-sync-accounts = Account oanmakke. Adresboeken en aginda’s ûntdekke…
+account-hub-privacy-policy = Privacybelied
+account-hub-welcome = Wolkom by
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Wolkom by { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Fier jo namme yn
 account-hub-email-label = E-mailadres
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Ynstallearje
 account-hub-encryption-button = End-to-end-fersifering
 account-hub-address-books-button = Adresboeken
 account-hub-calendars-button = Aginda's
+account-hub-thundermail-button = Oanmelde mei Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = of
 account-hub-notification-show-more = Mear toane
 account-hub-notification-show-less = Minder toane
 account-hub-email-setup-header = Jo e-mailadres tafoegje
@@ -260,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = Ferbining meitsje mei in ekstern LDAP-adresboek
 address-book-add-ldap = Nij LDAP-adresboek
 address-book-add-ldap-description = Ferbining meitsje mei in ekstern LDAP-adresboek
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 adresboek beskikber
+       *[other] { $addressBooks } adresboeken beskikber
+    }
 account-hub-fetching-sync-accounts = Adresboeken en aginda’s ûntdekke…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

@@ -24,6 +24,10 @@ ask-save-title-event = Barren bewarje
 ask-save-title-task = Taak bewarje
 ask-save-message-event = Barren is net bewarre. Wolle jo it barren bewarje?
 ask-save-message-task = Taak is net bewarre. Wolle jo de taak bewarje?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = De hiele dei
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = De eindatum dy’t jo ynfierd hawwe leit foar de startdatum
 warning-until-date-before-start = De oant-datum leit foar de startdatum
