@@ -267,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = Қашықтағы LDAP адрестік кітапшасына қосылу
 address-book-add-ldap = Жаңа LDAP адрестік кітапшасы
 address-book-add-ldap-description = Қашықтағы LDAP адрестік кітапшасына қосылу
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 адрестік кітапша қолжетімді
+       *[other] { $addressBooks } адрестік кітапша қолжетімді
+    }
 account-hub-fetching-sync-accounts = Адрестік кітапшалар мен күнтізбелер табылуда…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
