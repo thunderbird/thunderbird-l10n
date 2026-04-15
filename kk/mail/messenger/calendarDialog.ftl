@@ -121,3 +121,17 @@ calendar-dialog-attendee-summary-maybe =
         [one] { $count } мүмкін
        *[other] { $count } мүмкін
     }
+# Variables:
+#   $count (Number): Number of guests that responded "declined".
+calendar-dialog-attendee-summary-declined =
+    { $count ->
+        [one] { $count } бас тартты
+       *[other] { $count } бас тартты
+    }
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending =
+    { $count ->
+        [one] { $count } күтуде
+       *[other] { $count } күтуде
+    }

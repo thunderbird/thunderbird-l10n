@@ -706,3 +706,8 @@ remote-content-option-allow-all =
             [one] Жоғарыда тізілген { $count } көзден қашықтағы құраманы рұқсат ету
            *[other] Жоғарыда тізілген барлық { $count } көзден қашықтағы құраманы рұқсат ету
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Бұл терезені жаба аласыз.
+oauth2-loopback-failure = OAuth қайта бағыттауы сәтсіз аяқталды.
