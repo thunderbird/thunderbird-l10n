@@ -665,3 +665,8 @@ allow-remote-content-resource =
 #    $count - the number of origins to allow
 remote-content-option-allow-all =
     .label = Cho phép nội dung từ xa từ tất cả { $count } nguồn gốc được liệt kê ở trên
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Bạn có thể đóng cửa sổ này.
+oauth2-loopback-failure = Chuyển hướng OAuth không thành công.

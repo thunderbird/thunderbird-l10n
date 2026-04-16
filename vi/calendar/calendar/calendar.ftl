@@ -20,6 +20,10 @@ ask-save-title-event = Lưu sự kiện
 ask-save-title-task = Lưu tác vụ
 ask-save-message-event = Sự kiện chưa được lưu. Bạn có muốn lưu sự kiện không?
 ask-save-message-task = Tác vụ chưa được lưu. Bạn có muốn lưu tác vụ không?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Cả ngày
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = Ngày kết thúc bạn nhập đã xảy ra trước ngày bắt đầu
 warning-until-date-before-start = Ngày kết thúc đã đến trước ngày bắt đầu

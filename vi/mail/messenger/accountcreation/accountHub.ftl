@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Thông tin thiết lập được tìm t
 account-hub-ssl-noencryption = Không có
 account-hub-email-skip-button = Bỏ qua
 account-hub-finding-sync-accounts = Đã tạo tài khoản. Đang khám phá sổ địa chỉ và lịch…
+account-hub-privacy-policy = Chính sách riêng tư
+account-hub-welcome = Chào mừng đến với
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Chào mừng đến với { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Vui lòng nhập tên của bạn
 account-hub-email-label = Địa chỉ email
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Cài đặt
 account-hub-encryption-button = Mã hóa đầu cuối
 account-hub-address-books-button = Sổ địa chỉ
 account-hub-calendars-button = Lịch
+account-hub-thundermail-button = Đăng nhập vào Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = hoặc
 account-hub-notification-show-more = Xem thêm
 account-hub-notification-show-less = Hiện ít hơn
 account-hub-email-setup-header = Thêm địa chỉ email của bạn
@@ -256,6 +263,8 @@ address-book-add-ldap-icon =
     .alt = Kết nối với sổ địa chỉ LDAP từ xa
 address-book-add-ldap = Sổ địa chỉ LDAP mới
 address-book-add-ldap-description = Kết nối với sổ địa chỉ LDAP từ xa
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data = { $addressBooks } sổ địa chỉ có sẵn
 account-hub-fetching-sync-accounts = Đang khám phá sổ địa chỉ và lịch…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
