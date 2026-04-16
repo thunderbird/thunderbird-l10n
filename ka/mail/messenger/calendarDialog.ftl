@@ -39,15 +39,15 @@ calendar-dialog-attendee-count =
 #   $maybe (Number): Number of guests that responded "maybe".
 #   $declined (Number): Number of guests that responded "declined".
 #   $pending (Number): Number of guests that response "pending".
-calendar-dialog-attendee-summary = { $going } ესწრება, { $maybe } ვარაუდობს, { $declined } უარს ამბობს, { $pending } განიხილავს
+calendar-dialog-attendee-summary = { $going } ესწრება, { $maybe } შესაძლოა, { $declined } უარზეა, { $pending } განიხილავს
 calendar-dialog-attendee-organizer = დაგეგმვა
 calendar-dialog-attendee-optional = არასავალდებულო
 calendar-dialog-icon-attending =
     .alt = ესწრება
 calendar-dialog-icon-declined =
-    .alt = უარს ამბობს
+    .alt = უარყოფილია
 calendar-dialog-icon-maybe =
-    .alt = ვარაუდობს
+    .alt = შესაძლოა
 calendar-dialog-attendees-expand-icon =
     .alt = ყველა სტუმრის ჩვენება
 calendar-dialog-attendees-too-many-guests = სტუმრების სია ვერ გამოჩნდება, რადგან 50-ზე მეტ სტუმარს შეიცავს.
@@ -115,8 +115,8 @@ calendar-dialog-attendee-summary-going =
 #   $count (Number): Number of guests that responded "maybe".
 calendar-dialog-attendee-summary-maybe =
     { $count ->
-        [one] { $count } სავარაუდოდ
-       *[other] { $count } სავარაუდოდ
+        [one] { $count } შესაძლოა
+       *[other] { $count } შესაძლოა
     }
 # Variables:
 #   $count (Number): Number of guests that responded "declined".
