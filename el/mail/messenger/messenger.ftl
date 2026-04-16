@@ -706,3 +706,7 @@ remote-content-option-allow-all =
             [one] Αποδοχή απομακρυσμένου περιεχομένου από την παραπάνω πηγή
            *[other] Αποδοχή απομακρυσμένου περιεχομένου και από τις { $count } παραπάνω πηγές
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Μπορείτε να κλείσετε αυτό το παράθυρο.

@@ -24,6 +24,10 @@ ask-save-title-event = Αποθήκευση εκδήλωσης
 ask-save-title-task = Αποθήκευση εργασίας
 ask-save-message-event = Η εκδήλωση δεν έχει αποθηκευτεί. Θέλετε να την αποθηκεύσετε;
 ask-save-message-task = Η εργασία δεν έχει αποθηκευτεί. Θέλετε να αποθηκεύσετε την εργασία;
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Όλη μέρα
+    .accesskey = η
 # Event Dialog Warnings
 warning-end-before-start = Η ημερομηνία λήξης που ορίσατε προηγείται της ημερομηνίας έναρξης
 warning-until-date-before-start = Η ημερομηνία λήξης δεν μπορεί να είναι πριν από την ημερομηνία έναρξης
