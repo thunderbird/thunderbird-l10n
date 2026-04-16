@@ -694,3 +694,8 @@ remote-content-option-allow-all =
             [one] ვებშიგთავსის დაშვება ზემოთ აღნიშნული { $count } წყაროდან
            *[other] ვებშიგთავსის დაშვება ზემოთ აღნიშნული { $count } წყაროდან
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = შეგიძლიათ დახუროთ ეს ფანჯარა.
+oauth2-loopback-failure = OAuth ვერ გადამისამართდა.

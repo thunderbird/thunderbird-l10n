@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = გამართვის მონა
 account-hub-ssl-noencryption = არცერთი
 account-hub-email-skip-button = გამოტოვება
 account-hub-finding-sync-accounts = ანგარიში შეიქმნა. მისამართების წიგნაკებისა და კალენდრების მოძიება…
+account-hub-privacy-policy = პირადულობის დებულება
+account-hub-welcome = მოგესალმებათ
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = მოგესალმებათ { -brand-short-name }
 account-hub-name-warning-icon =
     .title = გთხოვთ მიუთითოთ თქვენი სახელი
 account-hub-email-label = ელფოსტის მისამართი
@@ -183,6 +187,9 @@ account-hub-addon-install-title = ჩადგმა
 account-hub-encryption-button = გამჭოლი დაშიფვრა
 account-hub-address-books-button = წიგნაკები
 account-hub-calendars-button = კალენდრები
+account-hub-thundermail-button = შესვლისთვის გამოიყენეთ Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = ან
 account-hub-notification-show-more = ვრცლად
 account-hub-notification-show-less = შემოკლებულად
 account-hub-email-setup-header = ელფოსტის მისამართის დამატება
@@ -260,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = დაკავშირება დაშორებულ LDAP-წიგნაკთან
 address-book-add-ldap = ახალი LDAP-წიგნაკი
 address-book-add-ldap-description = დაკავშირება დაშორებულ LDAP-წიგნაკთან
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 წიგნაკია ხელმისაწვდომი
+       *[other] { $addressBooks } წიგნაკია ხელმისაწვდომი
+    }
 account-hub-fetching-sync-accounts = მისამართების წიგნაკებისა და კალენდრების მოძიება…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

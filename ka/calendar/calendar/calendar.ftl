@@ -24,6 +24,10 @@ ask-save-title-event = ღონისძიების შენახვა
 ask-save-title-task = დავალების შენახვა
 ask-save-message-event = ღონისძიება არ შენახულა. გნებავთ მისი შენახვა?
 ask-save-message-task = დავალება არ შენახულა. გნებავთ მისი შენახვა?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = მთელი დღე
+    .accesskey = დ
 # Event Dialog Warnings
 warning-end-before-start = თქვენი მითითებული დასრულების თარიღი დაწყების თარიღზე ადრეულია
 warning-until-date-before-start = დასრულების თარიღი დაწყების თარიღზე ადრეულია

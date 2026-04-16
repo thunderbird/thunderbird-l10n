@@ -100,3 +100,35 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } დანართი
        *[other] { $count } დანართი
     }
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
+# Variables:
+#   $count (Number): Number of guests that responded "attending".
+calendar-dialog-attendee-summary-going =
+    { $count ->
+        [one] { $count } ესწრება
+       *[other] { $count } ესწრება
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe =
+    { $count ->
+        [one] { $count } სავარაუდოდ
+       *[other] { $count } სავარაუდოდ
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "declined".
+calendar-dialog-attendee-summary-declined =
+    { $count ->
+        [one] { $count } უარზეა
+       *[other] { $count } უარზეა
+    }
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending =
+    { $count ->
+        [one] { $count } განიხილავს
+       *[other] { $count } განიხილავს
+    }
