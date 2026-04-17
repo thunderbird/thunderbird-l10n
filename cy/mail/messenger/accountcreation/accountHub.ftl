@@ -187,7 +187,7 @@ account-hub-addon-install-title = Gosod
 account-hub-encryption-button = Amgryptio pen-i-ben
 account-hub-address-books-button = Llyfrau Cyfeiriadau
 account-hub-calendars-button = Calendrau
-account-hub-thundermail-button = Mewngofnodwch gyda Thundermail
+account-hub-thundermail-button = Mewngofnodi gyda Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = neu
 account-hub-notification-show-more = Dangos rhagor
@@ -275,8 +275,8 @@ address-book-add-ldap-description = Cysylltwch â llyfr cyfeiriadau LDAP pell
 account-hub-address-book-sync-books-data =
     { $addressBooks ->
         [one] 1 llyfr cyfeiriadau ar gael
-        [zero] { $addressBooks } llyfr cyfeiriadau ar gael
-        [two] { $addressBooks } llyfr cyfeiriadau ar gael
+        [zero] { $addressBooks } llyfrau cyfeiriadau ar gael
+        [two] { $addressBooks } lyfr cyfeiriadau ar gael
         [few] { $addressBooks } llyfr cyfeiriadau ar gael
         [many] { $addressBooks } llyfr cyfeiriadau ar gael
        *[other] { $addressBooks } llyfr cyfeiriadau ar gael
