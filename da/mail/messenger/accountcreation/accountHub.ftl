@@ -246,6 +246,7 @@ account-hub-oauth-pending = Venter på godkendelse i login-vindue…
 account-hub-addon-install-button = Installer
 account-hub-addon-install-needed = { -brand-short-name } understøtter ikke denne server som standard. For at få adgang til Exchange-mail, skal du <a data-l10n-name="addon-install">installere en tredjeparts-tilføjelse som fx Owl (kræver betaling).</a>
 account-hub-addon-error = Installation af tilføjelsen mislykkedes. Prøv igen, eller kontakt udvikleren for at få hjælp.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Advarsel: Usikker mailserver registreret.</span> Denne server benytter ikke kryptering, hvilket eksponerer din adgangskode og data. Kontakt din administrator for at sikre forbindelsen eller accepter risikoen og fortsæt. <a data-l10n-name="error-link">Se mere i FAQ.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Advarsel: Usikker mailserver registreret.</span> Denne server mangler kryptering, hvilket eksponerer din adgangskode og dine data. Kontakt din administrator for at sikre forbindelsen eller fortsæt på egen risiko. <a data-l10n-name="faq-link">Se Ofte Stillede Spørgsmål for flere detaljer.</a>
 account-hub-account-authentication-error = Godkendelsesfejl.
 account-hub-add-address-book = Tilføj en adressebog

@@ -458,6 +458,7 @@ account-hub-checkbox-label =
     .label = Opret konti i det nye Kontocenter
     .accesskey = O
 account-hub-checkbox-description = Ny, eksperimentel procedure til oprettelse af mailkonti
+new-calendar-legend = Ny dialog for kalenderbegivenhed
 new-calendar-checkbox-label =
     .label = Se kalenderbegivenheder i den nye dialog
 new-calendar-checkbox-description = Ny, eksperimenterende kalenderdialog til visning af begivenheder

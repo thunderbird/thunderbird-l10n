@@ -86,3 +86,14 @@ calendar-dialog-join-meeting-row-icon =
 calendar-dialog-attachments-row-icon =
     .alt = Vedhæftede filer
 calendar-dialog-attachments-label = Vedhæftede filer
+calendar-dialog-attachment-link-icon =
+    .alt = Linket vedhæftning
+calendar-dialog-attachments-expand-icon =
+    .alt = Vis alle vedhæftede filer
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] { $count } vedhæftede fil
+       *[other] { $count } vedhæftede filer
+    }
