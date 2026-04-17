@@ -21,6 +21,12 @@ recreate-inbox =
     .accesskey = Z
 archive-example-label = Pśikład
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Archiwy
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Dochad posta
+child-folder-name-label = Pódzarědnik postowego dochada
+sibling-folder-name-label = Pśiswójźbny postowego dochada
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Archiwy
 # This should match the default name for the "Inbox" folder.

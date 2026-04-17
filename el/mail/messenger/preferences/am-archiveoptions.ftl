@@ -21,6 +21,12 @@ recreate-inbox =
     .accesskey = Ε
 archive-example-label = Παράδειγμα
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Αρχειοθήκες
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Εισερχόμενα
+child-folder-name-label = Υποφάκελος εισερχομένων
+sibling-folder-name-label = Συγγενικός φάκελος εισερχομένων
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Αρχειοθήκες
 # This should match the default name for the "Inbox" folder.
