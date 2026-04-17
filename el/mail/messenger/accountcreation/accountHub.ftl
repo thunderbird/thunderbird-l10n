@@ -267,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = Σύνδεση σε απομακρυσμένο ευρετήριο LDAP
 address-book-add-ldap = Νέο ευρετήριο LDAP
 address-book-add-ldap-description = Σύνδεση σε απομακρυσμένο ευρετήριο LDAP
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 διαθέσιμο βιβλίο διευθύνσεων
+       *[other] { $addressBooks } διαθέσιμα βιβλία διευθύνσεων
+    }
 account-hub-fetching-sync-accounts = Ανακάλυψη ευρετηρίων και ημερολογίων…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

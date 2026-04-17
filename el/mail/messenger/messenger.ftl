@@ -710,3 +710,4 @@ remote-content-option-allow-all =
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Μπορείτε να κλείσετε αυτό το παράθυρο.
+oauth2-loopback-failure = Η ανακατεύθυνση OAuth απέτυχε.
