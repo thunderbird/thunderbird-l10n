@@ -31,7 +31,7 @@ ask-save-message-task = Nid yw'r dasg wedi'i chadw. Hoffech chi gadw'r dasg?
 # All day checkbox label, used both for events and tasks
 calendar-item-all-day =
     .label = Trwy'r dydd
-    .accesskey = T
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = Mae'r dyddiad gorffen yn digwydd ar ôl y dyddiad cychwyn
 warning-until-date-before-start = Mae'r dyddiad tan yn digwydd cyn y dyddiad cychwyn
