@@ -21,6 +21,12 @@ recreate-inbox =
     .accesskey = O
 archive-example-label = Przykład
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Archiwum
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Odebrane
+child-folder-name-label = Podfolder folderu Odebrane
+sibling-folder-name-label = Folder Odebrane tego samego poziomu
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Archiwum
 # This should match the default name for the "Inbox" folder.
