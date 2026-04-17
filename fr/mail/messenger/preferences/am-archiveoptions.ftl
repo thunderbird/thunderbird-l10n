@@ -21,6 +21,12 @@ recreate-inbox =
     .accesskey = R
 archive-example-label = Exemple
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Archives
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Courrier entrant
+child-folder-name-label = Sous-dossier de la boîte de réception
+sibling-folder-name-label = Sœur de la boîte de réception
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Archives
 # This should match the default name for the "Inbox" folder.
