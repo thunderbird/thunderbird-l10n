@@ -265,6 +265,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Fawority
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = (Žedne nejnowše cele)
+menu-move-copy-no-favorites =
+    .label = (Žedne fawority)
 
 ## AppMenu
 

@@ -61,6 +61,8 @@ about-addressbook-confirm-remove-remote-book-title = Adresnik wotstronić
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Chceće woprawdźe { $name } wotstronić?
+address-book-list =
+    .aria-label = Lisćina adresnikow
 
 ## Cards
 
