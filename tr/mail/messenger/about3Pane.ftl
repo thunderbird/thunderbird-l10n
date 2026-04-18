@@ -202,6 +202,7 @@ folder-pane-mode-header-unread = Okunmamış klasörler
 folder-pane-mode-header-favorite = Favori klasörler
 folder-pane-mode-header-recent = Son kullanılan klasörler
 folder-pane-mode-header-smart = Birleşik klasörler
+folder-pane-mode-header-tags = Etiketler
 folder-pane-mode-context-button =
     .title = Klasör modu seçenekleri
 folder-pane-mode-context-toggle-compact-mode =
