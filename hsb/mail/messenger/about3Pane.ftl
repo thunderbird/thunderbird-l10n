@@ -208,6 +208,7 @@ folder-pane-mode-header-unread = Njepřečitane rjadowaki
 folder-pane-mode-header-favorite = Rjadowaki zapołožkow
 folder-pane-mode-header-recent = Najnowše rjadowaki
 folder-pane-mode-header-smart = Zjednoćene rjadowaki
+folder-pane-mode-header-tags = Znački
 folder-pane-mode-context-button =
     .title = Nastajenja rjadowakoweho modusa
 folder-pane-mode-context-toggle-compact-mode =
