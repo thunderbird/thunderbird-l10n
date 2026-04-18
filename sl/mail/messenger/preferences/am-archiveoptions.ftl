@@ -21,6 +21,12 @@ recreate-inbox =
     .accesskey = r
 archive-example-label = Primer
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Arhivi
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Prejeto
+child-folder-name-label = Podmapa mape Prejeto
+sibling-folder-name-label = Sestrska mapa mape Prejeto
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Arhivi
 # This should match the default name for the "Inbox" folder.
