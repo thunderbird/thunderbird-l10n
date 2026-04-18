@@ -202,6 +202,7 @@ folder-pane-mode-header-unread = Kansiot, joissa lukematta
 folder-pane-mode-header-favorite = Suosikkikansiot
 folder-pane-mode-header-recent = Kansiot, joissa tuoreita
 folder-pane-mode-header-smart = Yhdistetyt kansiot
+folder-pane-mode-header-tags = Tunnukset
 folder-pane-mode-context-button =
     .title = Kansiotilan asetukset
 folder-pane-mode-context-toggle-compact-mode =
