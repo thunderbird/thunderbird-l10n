@@ -207,6 +207,7 @@ folder-pane-mode-header-unread = Nepřečtené složky
 folder-pane-mode-header-favorite = Oblíbené složky
 folder-pane-mode-header-recent = Nedávné složky
 folder-pane-mode-header-smart = Jednotné složky
+folder-pane-mode-header-tags = Štítky
 folder-pane-mode-context-button =
     .title = Možnosti režimu zobrazení složek
 folder-pane-mode-context-toggle-compact-mode =
