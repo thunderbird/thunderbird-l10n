@@ -117,6 +117,7 @@ folder-pane-mode-header-unread = المجلدات غير المقروءة
 folder-pane-mode-header-favorite = المجلدات المفضلة
 folder-pane-mode-header-recent = المجلدات الحديثة
 folder-pane-mode-header-smart = المجلدات الموحّدة
+folder-pane-mode-header-tags = وسوم
 folder-pane-mode-context-toggle-compact-mode =
     .label = منظور متضام
     .accesskey = م
