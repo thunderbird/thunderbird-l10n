@@ -114,6 +114,7 @@ folder-pane-mode-header-unread = Nelasītās mapes
 folder-pane-mode-header-favorite = Izlases mapes
 folder-pane-mode-header-recent = Nesenākās mapes
 folder-pane-mode-header-smart = Vienotās mapes
+folder-pane-mode-header-tags = Birkas
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompakts skats
     .accesskey = K
