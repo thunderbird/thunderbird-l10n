@@ -202,6 +202,7 @@ folder-pane-mode-header-unread = Carpetas no leídas
 folder-pane-mode-header-favorite = Carpetas favoritas
 folder-pane-mode-header-recent = Carpetas recientes
 folder-pane-mode-header-smart = Carpetas unificadas
+folder-pane-mode-header-tags = Etiquetas
 folder-pane-mode-context-button =
     .title = Opciones del modo de carpeta
 folder-pane-mode-context-toggle-compact-mode =
