@@ -18,6 +18,10 @@ keep-folder-structure =
     .accesskey = K
 archive-example-label = Աւրինակ
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Արխիւներ
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Մուտքարկղ
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Արխիւներ
 # This should match the default name for the "Inbox" folder.
