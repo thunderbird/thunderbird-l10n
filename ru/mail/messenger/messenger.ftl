@@ -261,7 +261,7 @@ menu-move-copy-favorites =
     .label = Избранное
     .accesskey = о
 menu-move-copy-no-recent =
-    .label = (Нет недавних адресов)
+    .label = (Нет недавних направлений)
 menu-move-copy-no-favorites =
     .label = (Нет избранных)
 

@@ -24,6 +24,8 @@ archive-example-label = Пример
 archive-folder-name-label = Архивы
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name-label = Входящие
+child-folder-name-label = Вложенная папка «Входящие»
+sibling-folder-name-label = Дочерняя от «Входящие»
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Архивы
