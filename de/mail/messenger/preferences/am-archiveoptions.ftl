@@ -21,6 +21,12 @@ recreate-inbox =
     .accesskey = P
 archive-example-label = Beispiel
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Archiv
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Posteingang
+child-folder-name-label = Unterordner des Posteingangs
+sibling-folder-name-label = Geschwister des Posteingangs
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Archiv
 # This should match the default name for the "Inbox" folder.
