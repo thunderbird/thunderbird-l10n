@@ -202,6 +202,7 @@ folder-pane-mode-header-unread = Ólesnar möppur
 folder-pane-mode-header-favorite = Eftirlætismöppur
 folder-pane-mode-header-recent = Nýlegar möppur
 folder-pane-mode-header-smart = Sameinaðar möppur
+folder-pane-mode-header-tags = Merki
 folder-pane-mode-context-button =
     .title = Valkostir möppuhams
 folder-pane-mode-context-toggle-compact-mode =
