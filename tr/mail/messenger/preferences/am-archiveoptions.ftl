@@ -20,6 +20,8 @@ recreate-inbox =
     .label = Gelen kutusu klasörünü yeniden oluştur
     .accesskey = G
 archive-example-label = Örnek
+# This should match the default name for the "Archives" folder.
+archive-folder-name-label = Arşivler
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name-label = Gelen Kutusu
 child-folder-name-label = Gelen Kutusu Alt Klasörü
