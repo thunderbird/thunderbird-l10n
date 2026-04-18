@@ -214,6 +214,7 @@ folder-pane-mode-header-unread = Ffolderi Heb eu Darllen
 folder-pane-mode-header-favorite = Hoff Ffolderi
 folder-pane-mode-header-recent = Ffolderi Diweddar
 folder-pane-mode-header-smart = Ffolderi a Unwyd
+folder-pane-mode-header-tags = Tagiau
 folder-pane-mode-context-button =
     .title = Dewisiadau modd ffolder
 folder-pane-mode-context-toggle-compact-mode =
