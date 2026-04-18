@@ -188,6 +188,12 @@ folder-pane-header-toggle-folder-size =
     .label = Ցույց տալ թղթապանակի չափը
 folder-pane-header-hide-local-folders =
     .label = Տեղային թղթապանակներ
+folder-pane-mode-header-all = Բոլոր թղթապանակները
+folder-pane-mode-header-unread = Չընթերցված թղթպ.
+folder-pane-mode-header-favorite = Ընտրյալ թղթպ.
+folder-pane-mode-header-recent = Վերջին պանակը
+folder-pane-mode-header-smart = Անորոշ թղթպ.
+folder-pane-mode-header-tags = Պիտակներ
 folder-pane-mode-context-button =
     .title = Պանակի կերպի ընտրանքներ
 folder-pane-mode-context-toggle-compact-mode =
@@ -464,3 +470,6 @@ apply-current-columns-to-folder-message = Կիրառե՞լ ընթացիկ թղթ
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Կիրառե՞լ ընթացիկ թղթապանակի սյունները { $name }-ին և մնացածին։
 message-list-placeholder-no-messages = Ոչ մի հաղորդագրություն չի գտնվել
+
+## Folder pane context menu
+

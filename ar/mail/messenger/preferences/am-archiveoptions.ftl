@@ -18,6 +18,10 @@ keep-folder-structure =
     .accesskey = ظ
 archive-example-label = مثال
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = الأرشيف
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = صندوق الوارد
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = الأرشيف
 # This should match the default name for the "Inbox" folder.

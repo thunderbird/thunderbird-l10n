@@ -21,6 +21,12 @@ recreate-inbox =
     .accesskey = ส
 archive-example-label = ตัวอย่าง
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = การเก็บถาวร
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = กล่องขาเข้า
+child-folder-name-label = โฟลเดอร์ย่อยในกล่องขาเข้า
+sibling-folder-name-label = โฟลเดอร์ระดับเดียวกับกล่องขาเข้า
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = การเก็บถาวร
 # This should match the default name for the "Inbox" folder.

@@ -18,6 +18,10 @@ keep-folder-structure =
     .accesskey = s
 archive-example-label = Masalan
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Arxivlar
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Kiruvchi
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Arxivlar
 # This should match the default name for the "Inbox" folder.

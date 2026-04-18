@@ -18,6 +18,10 @@ keep-folder-structure =
     .accesskey = נ
 archive-example-label = דוגמה
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = ארכיון
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = תיבת דואר נכנס
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = ארכיון
 # This should match the default name for the "Inbox" folder.

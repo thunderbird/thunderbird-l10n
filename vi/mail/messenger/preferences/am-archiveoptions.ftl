@@ -21,6 +21,11 @@ recreate-inbox =
     .accesskey = R
 archive-example-label = Ví dụ
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Lưu trữ
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Hộp thư
+child-folder-name-label = Thư mục con của hộp thư đến
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Lưu trữ
 # This should match the default name for the "Inbox" folder.

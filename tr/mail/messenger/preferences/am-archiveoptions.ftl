@@ -21,6 +21,12 @@ recreate-inbox =
     .accesskey = G
 archive-example-label = Örnek
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Arşivler
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Gelen Kutusu
+child-folder-name-label = Gelen Kutusu Alt Klasörü
+sibling-folder-name-label = Gelen Kutusu Kardeşi
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Arşivler
 # This should match the default name for the "Inbox" folder.

@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -101,6 +104,12 @@ quick-filter-bar-gloda-upsell-line2 = Press ‘Enter’ again to continue your s
 folder-pane-get-all-messages-menuitem =
     .label = Ստանալ բոլոր նոր նամակները
     .accesskey = G
+folder-pane-mode-header-all = ថត​ទាំងអស់
+folder-pane-mode-header-unread = ថត​ដែល​មិន​ទាន់​អាន
+folder-pane-mode-header-favorite = ថត​សំណព្វ​
+folder-pane-mode-header-recent = ថត​បច្ចុប្បន្ន
+folder-pane-mode-header-smart = ថត​ដែល​បាន​បង្រួម
+folder-pane-mode-header-tags = ស្លាក
 folder-pane-mode-context-toggle-compact-mode =
     .label = បង្រួម​ទិដ្ឋភាព
     .accesskey = C
@@ -237,3 +246,6 @@ apply-current-columns-to-folder-message = អនុវត្ត​ជួរឈ�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = អនុវត្ត​ជួរឈរ​របស់​ថត​​បច្ចុប្បន្ន​ទៅ { $name } និង​ថត​តូចៗ​របស់​វា​ឬ?
+
+## Folder pane context menu
+

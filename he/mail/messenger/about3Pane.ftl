@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -102,6 +105,12 @@ quick-filter-bar-gloda-upsell-line2 = לחץ ‘Enter’ שוב כדי להמש�
 folder-pane-get-all-messages-menuitem =
     .label = קבל את כל ההודעות החדשות
     .accesskey = G
+folder-pane-mode-header-all = כל התיקיות
+folder-pane-mode-header-unread = תיקיות שלא נקראו
+folder-pane-mode-header-favorite = תיקיות מועדפות
+folder-pane-mode-header-recent = תיקיות אחרונות
+folder-pane-mode-header-smart = תיקיות מאוחדות
+folder-pane-mode-header-tags = תגיות
 folder-pane-mode-context-toggle-compact-mode =
     .label = תצוגה חסכונית
     .accesskey = ח
@@ -224,3 +233,6 @@ apply-current-columns-to-folder-message = להחיל שינויים של עמו�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = להחיל שינויים של עמודות התיקייה הנוכחית אל { $name } ותיקיות המשנה שלה?
+
+## Folder pane context menu
+
