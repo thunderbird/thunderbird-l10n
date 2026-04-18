@@ -144,6 +144,11 @@ folder-pane-header-context-toggle-get-messages =
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
     .label = Rodyti „Naujas laiškas“
+folder-pane-mode-header-all = Visi aplankai
+folder-pane-mode-header-unread = Turintys neskaitytų laiškų
+folder-pane-mode-header-favorite = Parankiniai aplankai
+folder-pane-mode-header-recent = Naujausi aplankai
+folder-pane-mode-header-smart = Suvestiniai aplankai
 folder-pane-mode-context-toggle-compact-mode =
     .label = Rodyti glaustai
     .accesskey = R
