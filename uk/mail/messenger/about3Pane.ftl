@@ -198,6 +198,7 @@ folder-pane-mode-header-unread = Непрочитані теки
 folder-pane-mode-header-favorite = Улюблені теки
 folder-pane-mode-header-recent = Недавні теки
 folder-pane-mode-header-smart = Об'єднані теки
+folder-pane-mode-header-tags = Мітки
 folder-pane-mode-context-button =
     .title = Параметри режиму тек
 folder-pane-mode-context-toggle-compact-mode =
