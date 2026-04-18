@@ -237,6 +237,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = 我的最愛
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = (無近期目的地)
+menu-move-copy-no-favorites =
+    .label = 無最愛
 
 ## AppMenu
 

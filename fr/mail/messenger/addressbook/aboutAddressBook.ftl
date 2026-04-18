@@ -61,6 +61,8 @@ about-addressbook-confirm-remove-remote-book-title = Supprimer le carnet d’adr
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Voulez-vous vraiment supprimer { $name } ?
+address-book-list =
+    .aria-label = Liste des carnets d’adresses
 
 ## Cards
 

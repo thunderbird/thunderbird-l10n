@@ -61,6 +61,8 @@ about-addressbook-confirm-remove-remote-book-title = Dileu Llyfr Cyfeiriadau
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Ydych chi'n siŵr eich bod chi am dynnu { $name }?
+address-book-list =
+    .aria-label = Rhestr o lyfrau cyfeiriadau
 
 ## Cards
 
