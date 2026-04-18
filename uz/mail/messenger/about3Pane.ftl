@@ -113,6 +113,7 @@ folder-pane-mode-header-unread = O‘qilmagan jildlar
 folder-pane-mode-header-favorite = Sevimli jildlar
 folder-pane-mode-header-recent = So‘nggi jildlar
 folder-pane-mode-header-smart = Birlashtirilmagan jildlar
+folder-pane-mode-header-tags = Teglar
 folder-pane-mode-context-toggle-compact-mode =
     .label = Ixcham ko‘rinish
     .accesskey = I
