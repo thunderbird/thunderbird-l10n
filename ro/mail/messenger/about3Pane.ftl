@@ -203,6 +203,7 @@ folder-pane-mode-header-unread = Dosare necitite
 folder-pane-mode-header-favorite = Dosare favorite
 folder-pane-mode-header-recent = Dosare recente
 folder-pane-mode-header-smart = Dosare unificate
+folder-pane-mode-header-tags = Etichete
 folder-pane-mode-context-button =
     .title = Opțiuni mod dosare
 folder-pane-mode-context-toggle-compact-mode =
