@@ -190,6 +190,7 @@ folder-pane-mode-header-unread = Непрачытаныя папкі
 folder-pane-mode-header-favorite = Улюбёныя папкі
 folder-pane-mode-header-recent = Нядаўнія папкі
 folder-pane-mode-header-smart = Аб'яднаныя папкі
+folder-pane-mode-header-tags = Меткі
 folder-pane-mode-context-button =
     .title = Параметры рэжымаў папак
 folder-pane-mode-context-toggle-compact-mode =
