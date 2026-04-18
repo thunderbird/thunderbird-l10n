@@ -193,6 +193,7 @@ folder-pane-mode-header-unread = Ikaramen ur nettwaɣri ara
 folder-pane-mode-header-favorite = Ikaramen inurifen
 folder-pane-mode-header-recent = Ikaramen ineggura
 folder-pane-mode-header-smart = Ikaramen yedduklen
+folder-pane-mode-header-tags = Tibzimin
 folder-pane-mode-context-button =
     .title = Tixtiṛiyin n uskar n yifuyla
 folder-pane-mode-context-toggle-compact-mode =
