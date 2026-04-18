@@ -202,6 +202,7 @@ folder-pane-mode-header-unread = Net-lêzen mappen
 folder-pane-mode-header-favorite = Favorite mappen
 folder-pane-mode-header-recent = Resinte mappen
 folder-pane-mode-header-smart = Gearfoege mappen
+folder-pane-mode-header-tags = Labels
 folder-pane-mode-context-button =
     .title = Opsjes foar mapmodus
 folder-pane-mode-context-toggle-compact-mode =
