@@ -202,6 +202,7 @@ folder-pane-mode-header-unread = Ordinaturs nunlegids
 folder-pane-mode-header-favorite = Ordinaturs preferids
 folder-pane-mode-header-recent = Ultims ordinaturs
 folder-pane-mode-header-smart = Ordinaturs gruppads
+folder-pane-mode-header-tags = Etichettas
 folder-pane-mode-context-button =
     .title = Opziuns dal modus ordinaturs
 folder-pane-mode-context-toggle-compact-mode =
