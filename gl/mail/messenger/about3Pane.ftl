@@ -195,6 +195,7 @@ folder-pane-mode-header-unread = Cartafoles non lidos
 folder-pane-mode-header-favorite = Cartafoles favoritos
 folder-pane-mode-header-recent = Cartafoles recentes
 folder-pane-mode-header-smart = Cartafoles unificados
+folder-pane-mode-header-tags = Etiquetas
 folder-pane-mode-context-button =
     .title = Opcións do modo de cartafol
 folder-pane-mode-context-toggle-compact-mode =
