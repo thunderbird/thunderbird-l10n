@@ -182,6 +182,7 @@ folder-pane-mode-header-unread = Pasgain gun leughadh
 folder-pane-mode-header-favorite = Na pasgain as fhearr leat
 folder-pane-mode-header-recent = Pasgain a chleachd thu o chionn goirid
 folder-pane-mode-header-smart = Pasgain aonaichte
+folder-pane-mode-header-tags = Tagaichean
 folder-pane-mode-context-button =
     .title = Roghainnean modh nam pasgan
 folder-pane-mode-context-toggle-compact-mode =
