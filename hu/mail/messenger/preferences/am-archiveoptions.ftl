@@ -21,6 +21,12 @@ recreate-inbox =
     .accesskey = r
 archive-example-label = Példa
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Archívum
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Beérkezett üzenetek
+child-folder-name-label = Beérkezett üzenetek mappa almappája
+sibling-folder-name-label = Beérkezett üzenetek mappa testvére
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Archívum
 # This should match the default name for the "Inbox" folder.
