@@ -18,6 +18,10 @@ keep-folder-structure =
     .accesskey = Z
 archive-example-label = Primjer
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Arhive
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Primljena pošta
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Arhive
 # This should match the default name for the "Inbox" folder.
