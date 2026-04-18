@@ -21,6 +21,11 @@ recreate-inbox =
     .accesskey = R
 archive-example-label = Shembull
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Arkiva
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Të marrë
+child-folder-name-label = Nëndosje Të Marrësh
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Arkiva
 # This should match the default name for the "Inbox" folder.
