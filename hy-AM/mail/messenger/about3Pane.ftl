@@ -193,6 +193,7 @@ folder-pane-mode-header-unread = Չընթերցված թղթպ.
 folder-pane-mode-header-favorite = Ընտրյալ թղթպ.
 folder-pane-mode-header-recent = Վերջին պանակը
 folder-pane-mode-header-smart = Անորոշ թղթպ.
+folder-pane-mode-header-tags = Պիտակներ
 folder-pane-mode-context-button =
     .title = Պանակի կերպի ընտրանքներ
 folder-pane-mode-context-toggle-compact-mode =
