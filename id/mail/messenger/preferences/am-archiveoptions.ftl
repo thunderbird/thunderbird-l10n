@@ -25,6 +25,7 @@ archive-folder-name-label = Arsip
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name-label = Kotak Masuk
 child-folder-name-label = Sub Folder Kotak Masuk
+sibling-folder-name-label = Sejajar Kotak Masuk
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Arsip
