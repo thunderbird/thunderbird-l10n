@@ -179,6 +179,11 @@ folder-pane-get-all-messages-menuitem =
     .accesskey = g
 folder-pane-write-message-button = Teachtaireacht Nua
     .title = Cum teachtaireacht nua
+folder-pane-mode-header-all = Gach Fillteán
+folder-pane-mode-header-unread = Fillteáin Gan Léamh
+folder-pane-mode-header-favorite = Mo Rogha Fillteán
+folder-pane-mode-header-recent = Fillteáin Dheireanacha
+folder-pane-mode-header-smart = Fillteáin Aontaithe
 folder-pane-mode-context-toggle-compact-mode =
     .label = Dlúthamharc
     .accesskey = D
@@ -338,3 +343,6 @@ apply-current-columns-to-folder-message = An bhfuil fonn ort colúin an fhillte�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = An bhfuil fonn ort colúin an fhillteáin reatha a chur i bhfeidhm ar { $name } agus an t-ábhar atá ann?
+
+## Folder pane context menu
+
