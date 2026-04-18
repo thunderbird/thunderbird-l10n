@@ -177,6 +177,11 @@ folder-pane-header-toggle-folder-size =
     .label = Seall meud a’ phasgain
 folder-pane-header-hide-local-folders =
     .label = Falaich na pasganan ionadail
+folder-pane-mode-header-all = A h-uile pasgan
+folder-pane-mode-header-unread = Pasgain gun leughadh
+folder-pane-mode-header-favorite = Na pasgain as fhearr leat
+folder-pane-mode-header-recent = Pasgain a chleachd thu o chionn goirid
+folder-pane-mode-header-smart = Pasgain aonaichte
 folder-pane-mode-context-button =
     .title = Roghainnean modh nam pasgan
 folder-pane-mode-context-toggle-compact-mode =
@@ -393,3 +398,6 @@ apply-current-view-to-folder-message = A bheil thu airson sealladh a’ phasgain
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = A bheil thu airson sealladh a’ phasgain làithrich a chur an sàs airson { $name } agus a’ chlann aige?
+
+## Folder pane context menu
+
