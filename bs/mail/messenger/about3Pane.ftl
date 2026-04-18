@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -106,6 +109,11 @@ quick-filter-bar-gloda-upsell-line2 = Pritisnite ‘Enter’ ponovo da nastavite
 folder-pane-get-all-messages-menuitem =
     .label = Dohvati sve nove poruke
     .accesskey = G
+folder-pane-mode-header-all = Svi direktoriji
+folder-pane-mode-header-unread = Nepročitani direktoriji
+folder-pane-mode-header-favorite = Omiljeni direktoriji
+folder-pane-mode-header-recent = Nedavni direktoriji
+folder-pane-mode-header-smart = Ujedinjeni direktoriji
 folder-pane-mode-context-toggle-compact-mode =
     .label = Zbijeni prikaz
     .accesskey = C
@@ -234,3 +242,6 @@ apply-current-columns-to-folder-message = Primijeni kolone trenutnog direktorija
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Primijeni kolone trenutnog direktorija na { $name } i njegove poddirektorije?
+
+## Folder pane context menu
+
