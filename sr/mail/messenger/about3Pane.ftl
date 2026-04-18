@@ -205,6 +205,7 @@ folder-pane-mode-header-unread = Непрочитане фасцикле
 folder-pane-mode-header-favorite = Омиљене фасцикле
 folder-pane-mode-header-recent = Скорашње фасцикле
 folder-pane-mode-header-smart = Сједињене фасцикле
+folder-pane-mode-header-tags = Ознаке
 folder-pane-mode-context-button =
     .title = Опције режима фасцикле
 folder-pane-mode-context-toggle-compact-mode =
