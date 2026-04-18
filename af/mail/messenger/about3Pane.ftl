@@ -95,6 +95,7 @@ folder-pane-mode-header-unread = Ongelese vouers
 folder-pane-mode-header-favorite = Gunstling-vouers
 folder-pane-mode-header-recent = Onlangse vouers
 folder-pane-mode-header-smart = Verenigde gidse
+folder-pane-mode-header-tags = Merkers
 
 ## Message thread pane
 
