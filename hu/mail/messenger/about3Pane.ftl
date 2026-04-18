@@ -202,6 +202,7 @@ folder-pane-mode-header-unread = Olvasatlan mappák
 folder-pane-mode-header-favorite = Kedvenc mappák
 folder-pane-mode-header-recent = Legutóbbi mappák
 folder-pane-mode-header-smart = Egyesített mappák
+folder-pane-mode-header-tags = Címkék
 folder-pane-mode-context-button =
     .title = Mappamód beállításai
 folder-pane-mode-context-toggle-compact-mode =
