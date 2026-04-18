@@ -183,6 +183,7 @@ folder-pane-mode-header-unread = 읽지 않은 폴더
 folder-pane-mode-header-favorite = 즐겨찾기 폴더
 folder-pane-mode-header-recent = 최근 폴더
 folder-pane-mode-header-smart = 통합 폴더
+folder-pane-mode-header-tags = 태그
 folder-pane-mode-context-button =
     .title = 폴더 모드 옵션
 folder-pane-mode-context-toggle-compact-mode =
