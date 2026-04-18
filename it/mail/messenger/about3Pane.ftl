@@ -202,6 +202,7 @@ folder-pane-mode-header-unread = Cartelle non lette
 folder-pane-mode-header-favorite = Cartelle preferite
 folder-pane-mode-header-recent = Cartelle recenti
 folder-pane-mode-header-smart = Cartelle unificate
+folder-pane-mode-header-tags = Etichette
 folder-pane-mode-context-button =
     .title = Opzioni modalità cartella
 folder-pane-mode-context-toggle-compact-mode =
