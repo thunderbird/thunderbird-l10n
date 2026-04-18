@@ -25,6 +25,7 @@ archive-folder-name-label = Arkiv
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name-label = Innboks
 child-folder-name-label = Undermappe av innboksen
+sibling-folder-name-label = Sysken av innboksen
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Arkiv
