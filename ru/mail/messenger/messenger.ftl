@@ -260,6 +260,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Избранное
     .accesskey = о
+menu-move-copy-no-recent =
+    .label = (Нет недавних адресов)
+menu-move-copy-no-favorites =
+    .label = (Нет избранных)
 
 ## AppMenu
 
