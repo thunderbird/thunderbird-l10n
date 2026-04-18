@@ -149,6 +149,7 @@ folder-pane-mode-header-unread = Turintys neskaitytų laiškų
 folder-pane-mode-header-favorite = Parankiniai aplankai
 folder-pane-mode-header-recent = Naujausi aplankai
 folder-pane-mode-header-smart = Suvestiniai aplankai
+folder-pane-mode-header-tags = Gairės
 folder-pane-mode-context-toggle-compact-mode =
     .label = Rodyti glaustai
     .accesskey = R
