@@ -110,6 +110,7 @@ folder-pane-mode-header-unread = תיקיות שלא נקראו
 folder-pane-mode-header-favorite = תיקיות מועדפות
 folder-pane-mode-header-recent = תיקיות אחרונות
 folder-pane-mode-header-smart = תיקיות מאוחדות
+folder-pane-mode-header-tags = תגיות
 folder-pane-mode-context-toggle-compact-mode =
     .label = תצוגה חסכונית
     .accesskey = ח
