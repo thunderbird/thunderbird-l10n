@@ -18,6 +18,8 @@ keep-folder-structure =
     .accesskey = і
 archive-example-label = Прыклад
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Архівы
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Архівы
 # This should match the default name for the "Inbox" folder.
