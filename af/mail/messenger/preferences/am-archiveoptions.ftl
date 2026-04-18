@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Argief
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Inkassie
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Argief
 # This should match the default name for the "Inbox" folder.
