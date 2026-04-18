@@ -114,6 +114,7 @@ folder-pane-mode-header-unread = Nepročitani direktoriji
 folder-pane-mode-header-favorite = Omiljeni direktoriji
 folder-pane-mode-header-recent = Nedavni direktoriji
 folder-pane-mode-header-smart = Ujedinjeni direktoriji
+folder-pane-mode-header-tags = Oznake
 folder-pane-mode-context-toggle-compact-mode =
     .label = Zbijeni prikaz
     .accesskey = C
