@@ -202,6 +202,7 @@ folder-pane-mode-header-unread = Pastas não lidas
 folder-pane-mode-header-favorite = Pastas favoritas
 folder-pane-mode-header-recent = Pastas recentes
 folder-pane-mode-header-smart = Pastas unificadas
+folder-pane-mode-header-tags = Etiquetas
 folder-pane-mode-context-button =
     .title = Opções do modo de pasta
 folder-pane-mode-context-toggle-compact-mode =
