@@ -18,6 +18,10 @@ keep-folder-structure =
     .accesskey = K
 archive-example-label = K'utub'äl
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Taq yakb'äl
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Molb'äl
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Taq yakb'äl
 # This should match the default name for the "Inbox" folder.
