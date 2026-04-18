@@ -102,6 +102,7 @@ folder-pane-mode-header-unread = Unread Folders
 folder-pane-mode-header-favorite = Favorite Folders
 folder-pane-mode-header-recent = Recent Folders
 folder-pane-mode-header-smart = Unified Folders
+folder-pane-mode-header-tags = Tags
 folder-pane-mode-context-toggle-compact-mode =
     .label = Compact View
     .accesskey = C
