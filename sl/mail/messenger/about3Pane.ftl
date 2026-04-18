@@ -208,6 +208,7 @@ folder-pane-mode-header-unread = Neprebrane mape
 folder-pane-mode-header-favorite = Priljubljene mape
 folder-pane-mode-header-recent = Nedavne mape
 folder-pane-mode-header-smart = Poenotene mape
+folder-pane-mode-header-tags = Oznake
 folder-pane-mode-context-button =
     .title = Možnosti načina mape
 folder-pane-mode-context-toggle-compact-mode =
