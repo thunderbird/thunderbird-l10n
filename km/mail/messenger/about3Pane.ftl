@@ -109,6 +109,7 @@ folder-pane-mode-header-unread = ថត​ដែល​មិន​ទាន់�
 folder-pane-mode-header-favorite = ថត​សំណព្វ​
 folder-pane-mode-header-recent = ថត​បច្ចុប្បន្ន
 folder-pane-mode-header-smart = ថត​ដែល​បាន​បង្រួម
+folder-pane-mode-header-tags = ស្លាក
 folder-pane-mode-context-toggle-compact-mode =
     .label = បង្រួម​ទិដ្ឋភាព
     .accesskey = C
