@@ -27,7 +27,7 @@ ask-save-message-task = La tarea no ha sido guardada. ¿Desea guardar la tarea?
 # All day checkbox label, used both for events and tasks
 calendar-item-all-day =
     .label = Todo el día
-    .accesskey = T
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = El día final que marcó es anterior al día inicial
 warning-until-date-before-start = El día de cierre es anterior al día inicial
