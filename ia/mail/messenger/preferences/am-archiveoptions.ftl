@@ -20,6 +20,11 @@ recreate-inbox =
     .label = Recrear le dossier del cassa de entrata
     .accesskey = R
 archive-example-label = Exemplo
+# This should match the default name for the "Archives" folder.
+archive-folder-name-label = Archivos
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Cassa de entrata
+child-folder-name-label = Subdossier del cassa de entrata
 sibling-folder-name-label = Cassa de entrata fratre
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
