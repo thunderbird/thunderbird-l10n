@@ -21,6 +21,12 @@ recreate-inbox =
     .accesskey = D
 archive-example-label = Príklad
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Archívy
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Doručená pošta
+child-folder-name-label = Podpriečinok v Doručenej pošte
+sibling-folder-name-label = Súrodenec Doručenej pošty
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Archívy
 # This should match the default name for the "Inbox" folder.
