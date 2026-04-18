@@ -202,6 +202,7 @@ folder-pane-mode-header-unread = Dossiers non lus
 folder-pane-mode-header-favorite = Dossiers préférés
 folder-pane-mode-header-recent = Dossiers récents
 folder-pane-mode-header-smart = Dossiers unifiés
+folder-pane-mode-header-tags = Étiquettes
 folder-pane-mode-context-button =
     .title = Options du mode dossier
 folder-pane-mode-context-toggle-compact-mode =
