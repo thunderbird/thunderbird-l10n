@@ -201,6 +201,7 @@ folder-pane-mode-header-unread = Uleste mapper
 folder-pane-mode-header-favorite = Favorittmapper
 folder-pane-mode-header-recent = Sist brukte mapper
 folder-pane-mode-header-smart = Samlemapper
+folder-pane-mode-header-tags = Etiketter
 folder-pane-mode-context-button =
     .title = Innstillinger for mappemodus
 folder-pane-mode-context-toggle-compact-mode =
