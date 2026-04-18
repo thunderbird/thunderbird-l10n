@@ -115,10 +115,6 @@ search-remove-rule-button-2 =
     .label = −
     .tooltiptext = Szabály eltávolítása
 # Do not translate the label.
-search-remove-rule-button =
-    .label = -
-    .tooltiptext = Szabály eltávolítása
-# Do not translate the label.
 rule-add-action-button =
     .label = +
     .tooltiptext = Új művelet hozzáadása

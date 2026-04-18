@@ -115,10 +115,6 @@ search-remove-rule-button-2 =
     .label = −
     .tooltiptext = Dizze rigel fuortsmite
 # Do not translate the label.
-search-remove-rule-button =
-    .label = -
-    .tooltiptext = Dizze rigel fuortsmite
-# Do not translate the label.
 rule-add-action-button =
     .label = +
     .tooltiptext = Nije aksje tafoegje

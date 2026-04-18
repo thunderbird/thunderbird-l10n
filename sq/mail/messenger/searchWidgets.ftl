@@ -115,10 +115,6 @@ search-remove-rule-button-2 =
     .label = −
     .tooltiptext = Hiqeni këtë rregull
 # Do not translate the label.
-search-remove-rule-button =
-    .label = -
-    .tooltiptext = Hiqeni këtë rregull
-# Do not translate the label.
 rule-add-action-button =
     .label = +
     .tooltiptext = Shtoni një veprim të ri

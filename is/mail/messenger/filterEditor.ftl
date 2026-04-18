@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Ruslpóstur
-rule-menuitem-not-spam =
-    .label = Ekki ruslpóstur
 run-filter-before-spam =
     .label = Sía áður en flokkun ruslpósts fer fram
 run-filter-after-spam =
@@ -22,8 +18,6 @@ run-periodically =
            *[other] Reglulega, á { $minutes } mínútna fresti
         }
     .accesskey = e
-rule-action-set-spam-status =
-    .label = Setja ruslpóstsstöðu sem
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

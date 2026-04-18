@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Mesaje nedorite
-rule-menuitem-not-spam =
-    .label = Nu este nedorit
 run-filter-before-spam =
     .label = Filtrează înainte de clasificarea ca nedorite
 run-filter-after-spam =
@@ -23,8 +19,6 @@ run-periodically =
            *[other] Periodic, la fiecare { $minutes } de minute
         }
     .accesskey = e
-rule-action-set-spam-status =
-    .label = Setează starea de nedorit la
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

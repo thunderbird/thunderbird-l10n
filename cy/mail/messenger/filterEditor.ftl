@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Sbam
-rule-menuitem-not-spam =
-    .label = Nid Sbam
 run-filter-before-spam =
     .label = Hidlo cyn Dosbarthu'r Sbam
 run-filter-after-spam =
@@ -26,8 +22,6 @@ run-periodically =
            *[other] O bryd i'w gilydd, bob { $minutes } munud
         }
     .accesskey = e
-rule-action-set-spam-status =
-    .label = Gosod Statws Sbam i
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

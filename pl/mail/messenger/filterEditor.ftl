@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Niechciana
-rule-menuitem-not-spam =
-    .label = Pożądana
 run-filter-before-spam =
     .label = (przed filtrowaniem niechcianych)
 run-filter-after-spam =
@@ -23,8 +19,6 @@ run-periodically =
            *[many] Co { $minutes } minut
         }
     .accesskey = o
-rule-action-set-spam-status =
-    .label = Ustaw stan niechcianej poczty na
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

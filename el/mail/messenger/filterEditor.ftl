@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Ανεπιθύμητα
-rule-menuitem-not-spam =
-    .label = Επιθυμητό
 run-filter-before-spam =
     .label = Φιλτράρισμα πριν από την ταξινόμηση ανεπιθύμητων
 run-filter-after-spam =
@@ -22,8 +18,6 @@ run-periodically =
            *[other] Περιοδικά, κάθε { $minutes } λεπτά
         }
     .accesskey = ε
-rule-action-set-spam-status =
-    .label = Ορισμός κατάστασης ανεπιθύμητου σε
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

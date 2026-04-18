@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = ჯართი
-rule-menuitem-not-spam =
-    .label = არაა ჯართი
 run-filter-before-spam =
     .label = გაფილტვრა ჯართის დახარისხებამდე
 run-filter-after-spam =
@@ -22,8 +18,6 @@ run-periodically =
            *[other] დროგამოშვებით, ყოველ { $minutes } წუთში
         }
     .accesskey = ე
-rule-action-set-spam-status =
-    .label = ჯართის აღნიშვნის მითითება
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

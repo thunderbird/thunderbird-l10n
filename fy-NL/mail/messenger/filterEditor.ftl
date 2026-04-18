@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Net winske
-rule-menuitem-not-spam =
-    .label = Gjin net-winske e-mail
 run-filter-before-spam =
     .label = Filterje foar net-winskeklassifikaasje
 run-filter-after-spam =
@@ -22,8 +18,6 @@ run-periodically =
            *[other] Periodyk, elke { $minutes } minuten
         }
     .accesskey = e
-rule-action-set-spam-status =
-    .label = Net-winske-steat ynstelle op
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

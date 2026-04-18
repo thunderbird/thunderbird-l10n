@@ -115,10 +115,6 @@ search-remove-rule-button-2 =
     .label = −
     .tooltiptext = Elimină această regulă
 # Do not translate the label.
-search-remove-rule-button =
-    .label = -
-    .tooltiptext = Elimină această regulă
-# Do not translate the label.
 rule-add-action-button =
     .label = +
     .tooltiptext = Adaugă o secțiune nouă

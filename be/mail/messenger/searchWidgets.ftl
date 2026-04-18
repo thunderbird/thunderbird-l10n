@@ -104,10 +104,6 @@ search-remove-rule-button-2 =
     .label = −
     .tooltiptext = Выдаліць гэтае правіла
 # Do not translate the label.
-search-remove-rule-button =
-    .label = -
-    .tooltiptext = Выдаліць гэтае правіла
-# Do not translate the label.
 rule-add-action-button =
     .label = +
     .tooltiptext = Дадаць новае дзеянне

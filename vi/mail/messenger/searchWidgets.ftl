@@ -115,10 +115,6 @@ search-remove-rule-button-2 =
     .label = −
     .tooltiptext = Xóa quy luật này
 # Do not translate the label.
-search-remove-rule-button =
-    .label = -
-    .tooltiptext = Xóa quy luật này
-# Do not translate the label.
 rule-add-action-button =
     .label = +
     .tooltiptext = Thêm một hành động mới

@@ -108,10 +108,6 @@ search-remove-rule-button-2 =
     .label = −
     .tooltiptext = Remove this rule
 # Do not translate the label.
-search-remove-rule-button =
-    .label = -
-    .tooltiptext = Remove this rule
-# Do not translate the label.
 rule-add-action-button =
     .label = +
     .tooltiptext = បន្ថែម​សកម្មភាព​ថ្មី
