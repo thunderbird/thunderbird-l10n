@@ -196,6 +196,7 @@ folder-pane-mode-header-unread = 未讀信件匣
 folder-pane-mode-header-favorite = 最愛信件匣
 folder-pane-mode-header-recent = 最近開啟的信件匣
 folder-pane-mode-header-smart = 整合信件匣
+folder-pane-mode-header-tags = 標籤
 folder-pane-mode-context-button =
     .title = 信件匣模式選項
 folder-pane-mode-context-toggle-compact-mode =
