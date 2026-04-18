@@ -202,6 +202,7 @@ folder-pane-mode-header-unread = Olästa mappar
 folder-pane-mode-header-favorite = Favoritmappar
 folder-pane-mode-header-recent = Tidigare mappar
 folder-pane-mode-header-smart = Sammanförda mappar
+folder-pane-mode-header-tags = Etiketter
 folder-pane-mode-context-button =
     .title = Alternativ för mappläge
 folder-pane-mode-context-toggle-compact-mode =
