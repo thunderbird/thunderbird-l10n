@@ -131,6 +131,7 @@ folder-pane-mode-header-unread = Teuliadoù anlennet
 folder-pane-mode-header-favorite = Teuliadoù gwell ganin
 folder-pane-mode-header-recent = Teuliadoù nevesañ
 folder-pane-mode-header-smart = Teuliadoù unvanet
+folder-pane-mode-header-tags = Merkoù
 folder-pane-mode-context-toggle-compact-mode =
     .label = Gwel fetis
     .accesskey = f
