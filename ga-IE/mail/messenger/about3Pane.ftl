@@ -184,6 +184,7 @@ folder-pane-mode-header-unread = Fillteáin Gan Léamh
 folder-pane-mode-header-favorite = Mo Rogha Fillteán
 folder-pane-mode-header-recent = Fillteáin Dheireanacha
 folder-pane-mode-header-smart = Fillteáin Aontaithe
+folder-pane-mode-header-tags = Clibeanna
 folder-pane-mode-context-toggle-compact-mode =
     .label = Dlúthamharc
     .accesskey = D
