@@ -201,6 +201,7 @@ folder-pane-mode-header-unread = Оқылмаған бумалар
 folder-pane-mode-header-favorite = Таңдамалы бумалар
 folder-pane-mode-header-recent = Жуырдағы бумалар
 folder-pane-mode-header-smart = Біріктірілген бумалар
+folder-pane-mode-header-tags = Белгілер
 folder-pane-mode-context-button =
     .title = Бума режимінің баптаулары
 folder-pane-mode-context-toggle-compact-mode =
