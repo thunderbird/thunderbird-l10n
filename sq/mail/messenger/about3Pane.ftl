@@ -201,6 +201,7 @@ folder-pane-mode-header-unread = Dosje për Të palexuarit
 folder-pane-mode-header-favorite = Dosje për Të parapëlqyerit
 folder-pane-mode-header-recent = Dosje për Të fundit
 folder-pane-mode-header-smart = Dosje të Njësuara
+folder-pane-mode-header-tags = Etiketa
 folder-pane-mode-context-button =
     .title = Mundësi mënyrash dosjesh
 folder-pane-mode-context-toggle-compact-mode =
