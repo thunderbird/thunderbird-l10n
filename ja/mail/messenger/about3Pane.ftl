@@ -190,6 +190,7 @@ folder-pane-mode-header-unread = 未読フォルダー
 folder-pane-mode-header-favorite = お気に入りフォルダー
 folder-pane-mode-header-recent = 最近使用したフォルダー
 folder-pane-mode-header-smart = 統合フォルダー
+folder-pane-mode-header-tags = タグ
 folder-pane-mode-context-button =
     .title = フォルダーモードのオプション
 folder-pane-mode-context-toggle-compact-mode =
