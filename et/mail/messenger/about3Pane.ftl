@@ -195,6 +195,7 @@ folder-pane-mode-header-unread = Lugemata kaustad
 folder-pane-mode-header-favorite = Lemmikkaustad
 folder-pane-mode-header-recent = Hiljutised kaustad
 folder-pane-mode-header-smart = Ühendatud kaustad
+folder-pane-mode-header-tags = Sildid
 folder-pane-mode-context-button =
     .title = Kaustarežiimi sätted
 folder-pane-mode-context-toggle-compact-mode =
