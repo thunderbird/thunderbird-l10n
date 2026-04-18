@@ -202,6 +202,7 @@ folder-pane-mode-header-unread = Непрочетени папки
 folder-pane-mode-header-favorite = Любими папки
 folder-pane-mode-header-recent = Последни папки
 folder-pane-mode-header-smart = Обединени папки
+folder-pane-mode-header-tags = Етикети
 folder-pane-mode-context-button =
     .title = Опции за режим на папка
 folder-pane-mode-context-toggle-compact-mode =
