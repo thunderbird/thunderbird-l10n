@@ -21,6 +21,12 @@ recreate-inbox =
     .accesskey = щ
 archive-example-label = Пример
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Архиви
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Входяща кутия
+child-folder-name-label = Подпапка на входяща кутия
+sibling-folder-name-label = Дъщерна папка на входящата кутия
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Архиви
 # This should match the default name for the "Inbox" folder.
