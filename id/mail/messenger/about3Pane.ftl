@@ -190,6 +190,7 @@ folder-pane-mode-header-unread = Folder Belum Dibaca
 folder-pane-mode-header-favorite = Folder Favorit
 folder-pane-mode-header-recent = Folder Terbaru
 folder-pane-mode-header-smart = Folder Gabungan
+folder-pane-mode-header-tags = Tag
 folder-pane-mode-context-button =
     .title = Opsi mode folder
 folder-pane-mode-context-toggle-compact-mode =
