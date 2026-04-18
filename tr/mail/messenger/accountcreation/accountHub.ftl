@@ -183,6 +183,7 @@ account-hub-addon-install-title = Yükle
 account-hub-encryption-button = Uçtan uca şifreleme
 account-hub-address-books-button = Adres defterleri
 account-hub-calendars-button = Takvimler
+account-hub-thundermail-button = Thundermail ile giriş yap
 account-hub-notification-show-more = Daha fazla göster
 account-hub-notification-show-less = Daha az göster
 account-hub-email-setup-header = E-posta adresinizi ekleyin
