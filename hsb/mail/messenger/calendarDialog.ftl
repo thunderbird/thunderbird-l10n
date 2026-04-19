@@ -49,124 +49,124 @@ calendar-dialog-attendee-summary =
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
                 [two]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
                 [few]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
                *[other]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
             }
@@ -176,124 +176,124 @@ calendar-dialog-attendee-summary =
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
                 [two]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
                 [few]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
                *[other]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
             }
@@ -303,124 +303,124 @@ calendar-dialog-attendee-summary =
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
                 [two]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
                 [few]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
                *[other]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
             }
@@ -430,124 +430,124 @@ calendar-dialog-attendee-summary =
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
                 [two]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
                 [few]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
                *[other]
                     { $declined ->
                         [one]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [two]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                         [few]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                        *[other]
                             { $pending ->
-                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
-                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } wustejitej
-                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } wusteja
-                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } wusteji
+                                [one] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
+                                [two] { $going } so wobdźělitej, { $maybe } so snano wobdźělitej, { $declined } so njewobdźělitej, { $pending } žana wotmołwa
+                                [few] { $going } so wobdźěla, { $maybe } so snano wobdźěla, { $declined } so njewobdźěla, { $pending } žana wotmołwa
+                               *[other] { $going } so wobdźěli, { $maybe } so snano wobdźěli, { $declined } so njewobdźěli, { $pending } žana wotmołwa
                             }
                     }
             }
