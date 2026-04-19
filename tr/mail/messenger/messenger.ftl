@@ -247,6 +247,8 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Sık kullanılanlar
     .accesskey = S
+menu-move-copy-no-favorites =
+    .label = (Favori yok)
 
 ## AppMenu
 
@@ -684,3 +686,8 @@ remote-content-option-allow-all =
             [one] Yukarıdaki { $count } kökenli uzak içeriğe izin ver
            *[other] Yukarıdaki { $count } kökenden gelen uzak içeriğe izin ver
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Bu pencereyi kapatabilirsiniz.
+oauth2-loopback-failure = OAuth yönlendirmesi başarısız oldu.

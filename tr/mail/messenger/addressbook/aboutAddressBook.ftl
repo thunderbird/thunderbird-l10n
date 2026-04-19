@@ -61,6 +61,8 @@ about-addressbook-confirm-remove-remote-book-title = Adres defterini kaldır
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = { $name } adres defterini kaldırmak istediğinizden emin misiniz?
+address-book-list =
+    .aria-label = Adres defterlerinin listesi
 
 ## Cards
 
