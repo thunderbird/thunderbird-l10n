@@ -21,6 +21,12 @@ recreate-inbox =
     .accesskey = n
 archive-example-label = Foarbyld
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Argiven
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Postfek YN
+child-folder-name-label = Submap fan Postfek YN
+sibling-folder-name-label = Map op itselde nivo as Postfek YN
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Argiven
 # This should match the default name for the "Inbox" folder.
@@ -29,4 +35,4 @@ inbox-folder-name =
 child-folder-name =
     .label = Submap fan Postfek YN
 sibling-folder-name =
-    .label = Map op gelike nivo as Postfek YN
+    .label = Map op itselde nivo as Postfek YN
