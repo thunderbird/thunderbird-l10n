@@ -265,6 +265,12 @@ address-book-add-ldap-icon =
     .alt = Koble til en ekstern LDAP-adressebok
 address-book-add-ldap = Ny LDAP-adressebok
 address-book-add-ldap-description = Koble til en ekstern LDAP-adressebok
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 adressebok tilgjengelig
+       *[other] { $addressBooks } adressebøker tilgjengelige
+    }
 account-hub-fetching-sync-accounts = Oppdager adressebøker og kalendere …
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
