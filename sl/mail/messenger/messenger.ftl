@@ -264,6 +264,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Priljubljene
     .accesskey = P
+menu-move-copy-no-recent =
+    .label = (ni nedavnih ciljev)
+menu-move-copy-no-favorites =
+    .label = (ni priljubljenih)
 
 ## AppMenu
 

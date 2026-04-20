@@ -61,6 +61,8 @@ about-addressbook-confirm-remove-remote-book-title = Odstrani imenik
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Ali res želite odstraniti imenik { $name }?
+address-book-list =
+    .aria-label = Seznam imenikov
 
 ## Cards
 
