@@ -18,6 +18,10 @@ keep-folder-structure =
     .accesskey = S
 archive-example-label = Piemērs
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Arhīvi
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Iesūtne
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Arhīvi
 # This should match the default name for the "Inbox" folder.

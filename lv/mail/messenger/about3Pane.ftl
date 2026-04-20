@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -106,6 +109,12 @@ quick-filter-bar-gloda-upsell-line2 = Vēlreiz nospiediet ievades taustiņu, lai
 folder-pane-get-all-messages-menuitem =
     .label = Saņemt visas vēstules
     .accesskey = S
+folder-pane-mode-header-all = Visas mapes
+folder-pane-mode-header-unread = Nelasītās mapes
+folder-pane-mode-header-favorite = Izlases mapes
+folder-pane-mode-header-recent = Nesenākās mapes
+folder-pane-mode-header-smart = Vienotās mapes
+folder-pane-mode-header-tags = Birkas
 folder-pane-mode-context-toggle-compact-mode =
     .label = Kompakts skats
     .accesskey = K
@@ -246,3 +255,6 @@ apply-current-columns-to-folder-message = Vai pielietot pašreizējās mapes kol
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Vai pielietot pašreizējās mapes kolonnas { $name } un tās bērniem?
+
+## Folder pane context menu
+

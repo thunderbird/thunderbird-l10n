@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -105,6 +108,12 @@ quick-filter-bar-gloda-upsell-line2 = Calca ‘Enter’ de nueves pa siguir cola
 folder-pane-get-all-messages-menuitem =
     .label = Recibir tolos mensaxes nuevos
     .accesskey = R
+folder-pane-mode-header-all = Toles carpetes
+folder-pane-mode-header-unread = Carpetes non lleíes
+folder-pane-mode-header-favorite = Carpetes favorites
+folder-pane-mode-header-recent = Carpetes de recién
+folder-pane-mode-header-smart = Carpetes unificaes
+folder-pane-mode-header-tags = Etiquetes
 folder-pane-mode-context-toggle-compact-mode =
     .label = Vista compauta
     .accesskey = C
@@ -233,3 +242,6 @@ apply-current-columns-to-folder-message = ¿Aplicar les columnes de la carpeta a
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = ¿Aplicar les columnes de la carpeta actual a { $name } y les sos subcarpetes?
+
+## Folder pane context menu
+

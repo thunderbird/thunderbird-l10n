@@ -21,6 +21,12 @@ recreate-inbox =
     .accesskey = R
 archive-example-label = Exemplo
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Arquivamento
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Entrada
+child-folder-name-label = Subpasta da caixa de entrada
+sibling-folder-name-label = No mesmo nível da caixa de entrada
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Arquivamento
 # This should match the default name for the "Inbox" folder.

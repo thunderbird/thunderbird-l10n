@@ -18,6 +18,10 @@ keep-folder-structure =
     .accesskey = M
 archive-example-label = Skouer
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Dielloù
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Boest degemer
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Dielloù
 # This should match the default name for the "Inbox" folder.

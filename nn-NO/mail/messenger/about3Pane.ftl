@@ -197,6 +197,7 @@ folder-pane-header-toggle-full-path =
     .label = Vis full sti
 folder-pane-header-hide-local-folders =
     .label = Skjul lokale mapper
+folder-pane-mode-header-all = Alle mapper
 folder-pane-mode-header-unread = Ulesne mapper
 folder-pane-mode-header-favorite = Favorittmapper
 folder-pane-mode-header-recent = Siste brukte mapper

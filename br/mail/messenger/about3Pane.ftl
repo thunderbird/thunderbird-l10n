@@ -126,6 +126,12 @@ folder-pane-get-all-messages-menuitem =
     .accesskey = e
 folder-pane-write-message-button = Kemennadenn nevez
     .title = Skrivañ ur gemennadenn nevez
+folder-pane-mode-header-all = An holl deuliadoù
+folder-pane-mode-header-unread = Teuliadoù anlennet
+folder-pane-mode-header-favorite = Teuliadoù gwell ganin
+folder-pane-mode-header-recent = Teuliadoù nevesañ
+folder-pane-mode-header-smart = Teuliadoù unvanet
+folder-pane-mode-header-tags = Merkoù
 folder-pane-mode-context-toggle-compact-mode =
     .label = Gwel fetis
     .accesskey = f
@@ -259,3 +265,6 @@ apply-current-columns-to-folder-message = Arloañ bannoù an teuliad bremanel da
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Arloañ bannoù an teuliad bremanel da { $name } ha d'an isteuliadoù?
+
+## Folder pane context menu
+

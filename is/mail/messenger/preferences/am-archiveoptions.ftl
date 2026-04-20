@@ -21,6 +21,12 @@ recreate-inbox =
     .accesskey = r
 archive-example-label = Dæmi
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Skjalageymslur
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Innhólf
+child-folder-name-label = Undirmappa í innhólfi
+sibling-folder-name-label = Hliðarmappa við innhólf
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Skjalageymslur
 # This should match the default name for the "Inbox" folder.

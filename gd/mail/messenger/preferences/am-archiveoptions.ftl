@@ -18,6 +18,10 @@ keep-folder-structure =
     .accesskey = G
 archive-example-label = Ball-eisimpleir
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Tasg-lannan
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Am bogsa a-steach
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Tasg-lannan
 # This should match the default name for the "Inbox" folder.

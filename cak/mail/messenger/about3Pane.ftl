@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -107,6 +110,12 @@ folder-pane-get-messages-button =
 folder-pane-get-all-messages-menuitem =
     .label = Kek'ul Ronojel K'ak'a' taq Tzijol
     .accesskey = K
+folder-pane-mode-header-all = Ronojel taq Yakwuj
+folder-pane-mode-header-unread = Yakwuj man Esik'in ta
+folder-pane-mode-header-favorite = Ajowanel taq Yakwuj
+folder-pane-mode-header-recent = K'ak'a' taq Yakwuj
+folder-pane-mode-header-smart = Yakwuj Etunun
+folder-pane-mode-header-tags = Taq etal
 folder-pane-mode-context-toggle-compact-mode =
     .label = Molk'ïy Tz'etoj
     .accesskey = M
@@ -252,3 +261,6 @@ apply-current-columns-to-folder-message = ¿La ye'okisäx kan ri taq rutem yakwu
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = ¿La ye'okisäx kan ri taq rutem yakwuj wakami pa { $name } chuqa' ri taq ralk'wal?
+
+## Folder pane context menu
+

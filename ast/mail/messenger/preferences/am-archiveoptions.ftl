@@ -18,6 +18,10 @@ keep-folder-structure =
     .accesskey = e
 archive-example-label = Exemplu
 # This should match the default name for the "Archives" folder.
+archive-folder-name-label = Archivos
+# This should match the default name for the "Inbox" folder.
+inbox-folder-name-label = Bandexa d'entrada
+# This should match the default name for the "Archives" folder.
 archive-folder-name =
     .label = Archivos
 # This should match the default name for the "Inbox" folder.
