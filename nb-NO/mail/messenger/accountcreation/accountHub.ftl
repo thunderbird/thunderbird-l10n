@@ -11,7 +11,7 @@
 
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = Velkommen til <span data-l10n-name="brand-name">{ -brand-full-name }</span>
-account-hub-title = Konto-hub
+account-hub-title = Kontosenter
 
 ## Footer
 
@@ -130,12 +130,14 @@ account-hub-close-button =
 account-hub-minimize-button =
     .title = Minimer
 account-hub-maximize-button =
-    .title = Maksimer kontohub
+    .title = Maksimer kontosenter
 account-hub-email-manual-configuration = Manuelt oppsett
 account-hub-notification-unknown-host = Oppsettinformasjon funnet på tredjepartsdomene
 account-hub-ssl-noencryption = Ingen
 account-hub-email-skip-button = Hopp over
 account-hub-finding-sync-accounts = Konto opprettet. Oppdager adressebøker og kalendere …
+account-hub-privacy-policy = Personvernbestemmelser
+account-hub-welcome = Velkommen til
 account-hub-welcome-brand = { -brand-short-name }
 account-hub-welcome-text = Velkommen til { -brand-short-name }
 account-hub-name-warning-icon =
