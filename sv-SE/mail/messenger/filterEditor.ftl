@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Skräppost
-rule-menuitem-not-spam =
-    .label = Inte skräppost
 run-filter-before-spam =
     .label = Filtrera innan skräppostklassificering
 run-filter-after-spam =
@@ -22,8 +18,6 @@ run-periodically =
            *[other] Periodiskt, var { $minutes } minut
         }
     .accesskey = e
-rule-action-set-spam-status =
-    .label = Sätt skräppoststatus till
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

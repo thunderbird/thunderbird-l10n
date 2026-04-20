@@ -250,6 +250,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Таңдамалы
     .accesskey = Т
+menu-move-copy-no-recent =
+    .label = (Жуырдағы мақсаттар жоқ)
+menu-move-copy-no-favorites =
+    .label = (Таңдамалылар жоқ)
 
 ## AppMenu
 

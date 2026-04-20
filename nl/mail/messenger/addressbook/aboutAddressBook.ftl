@@ -61,6 +61,8 @@ about-addressbook-confirm-remove-remote-book-title = Adresboek verwijderen
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Weet u zeker dat u { $name } wilt verwijderen?
+address-book-list =
+    .aria-label = Lijst van adresboeken
 
 ## Cards
 

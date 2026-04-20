@@ -61,6 +61,8 @@ about-addressbook-confirm-remove-remote-book-title = Αφαίρεση ευρετ
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Θέλετε σίγουρα να αφαιρέσετε το { $name };
+address-book-list =
+    .aria-label = Λίστα ευρετηρίων διευθύνσεων
 
 ## Cards
 

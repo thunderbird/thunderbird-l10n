@@ -36,6 +36,522 @@ calendar-dialog-attendee-count =
         [few] { $count } gósći
        *[other] { $count } gósći
     }
+# Variables:
+#   $going (Number): Number of guests that responded "attending".
+#   $maybe (Number): Number of guests that responded "maybe".
+#   $declined (Number): Number of guests that responded "declined".
+#   $pending (Number): Number of guests that response "pending".
+calendar-dialog-attendee-summary =
+    { $going ->
+        [one]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+                [two]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+                [few]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+            }
+        [two]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+                [two]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+                [few]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+            }
+        [few]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+                [two]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+                [few]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+            }
+       *[other]
+            { $maybe ->
+                [one]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+                [two]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+                [few]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+               *[other]
+                    { $declined ->
+                        [one]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [two]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                        [few]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                       *[other]
+                            { $pending ->
+                                [one] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                                [two] { $going } se wobźělijotej, { $maybe } se snaź wobźělijotej, { $declined } se njewobźělijotej, { $pending } žedno wótegrono
+                                [few] { $going } se wobźěliju, { $maybe } se snaź wobźěliju, { $declined } se njewobźěliju, { $pending } žedno wótegrono
+                               *[other] { $going } se wobźělijo, { $maybe } se snaź wobźělijo, { $declined } se njewobźělijo, { $pending } žedno wótegrono
+                            }
+                    }
+            }
+    }
 calendar-dialog-attendee-organizer = Organizator
 calendar-dialog-attendee-optional = Na žycenje
 calendar-dialog-icon-attending =

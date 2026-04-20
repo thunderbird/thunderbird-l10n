@@ -107,10 +107,6 @@ search-add-rule-button =
 search-remove-rule-button-2 =
     .label = −
     .tooltiptext = Verwyder hierdie reël
-# Do not translate the label.
-search-remove-rule-button =
-    .label = -
-    .tooltiptext = Verwyder hierdie reël
 
 ## Search Term List
 

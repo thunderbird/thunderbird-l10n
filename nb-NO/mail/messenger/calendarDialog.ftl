@@ -159,3 +159,35 @@ calendar-dialog-attachments-expand-icon =
 # Variables:
 #   $count (Number): Number of attachments.
 calendar-dialog-attachments-summary-label = { $count } vedlegg
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
+# Variables:
+#   $count (Number): Number of guests that responded "attending".
+calendar-dialog-attendee-summary-going =
+    { $count ->
+        [one] { $count } deltar
+       *[other] { $count } deltar
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe =
+    { $count ->
+        [one] { $count } kanskje
+       *[other] { $count } kanskje
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "declined".
+calendar-dialog-attendee-summary-declined =
+    { $count ->
+        [one] { $count } avslått
+       *[other] { $count } avslått
+    }
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending =
+    { $count ->
+        [one] { $count } venter
+       *[other] { $count } venter
+    }

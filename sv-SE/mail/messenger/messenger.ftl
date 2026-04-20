@@ -250,6 +250,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Favoriter
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = (Inga senaste destinationer)
+menu-move-copy-no-favorites =
+    .label = (Inga favoriter)
 
 ## AppMenu
 

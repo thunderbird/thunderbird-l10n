@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Spam
-rule-menuitem-not-spam =
-    .label = Spam değil
 run-filter-before-spam =
     .label = Spam sınıflandırmasından önce süz
 run-filter-after-spam =
@@ -22,8 +18,6 @@ run-periodically =
            *[other] Düzenli olarak, { $minutes } dakikada bir
         }
     .accesskey = e
-rule-action-set-spam-status =
-    .label = Spam durumunu ayarla
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = สแปม
-rule-menuitem-not-spam =
-    .label = ไม่ใช่สแปม
 run-filter-before-spam =
     .label = กรองก่อนจำแนกสแปม
 run-filter-after-spam =
@@ -18,8 +14,6 @@ run-filter-after-spam =
 run-periodically =
     .label = เป็นระยะทุกๆ นาที
     .accesskey = e
-rule-action-set-spam-status =
-    .label = ตั้งค่าสถานะสแปมเป็น
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Roskaposti
-rule-menuitem-not-spam =
-    .label = Ei roskapostia
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =

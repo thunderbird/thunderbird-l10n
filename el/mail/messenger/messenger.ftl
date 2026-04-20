@@ -250,6 +250,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Αγαπημένα
     .accesskey = Α
+menu-move-copy-no-recent =
+    .label = (Κανένας πρόσφατος προορισμός)
+menu-move-copy-no-favorites =
+    .label = (Κανένα αγαπημένο)
 
 ## AppMenu
 

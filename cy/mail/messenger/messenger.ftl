@@ -270,6 +270,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Ffefrynnau
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = (Dim cyrchfannau diweddar)
+menu-move-copy-no-favorites =
+    .label = (Dim ffefrynnau)
 
 ## AppMenu
 

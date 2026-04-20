@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Spam
-rule-menuitem-not-spam =
-    .label = Njejo spam
 run-filter-before-spam =
     .label = Pśed spamoweju klasifikaciju filtrowaś
 run-filter-after-spam =
@@ -24,8 +20,6 @@ run-periodically =
            *[other] Periodiski, kužde { $minutes } minutow
         }
     .accesskey = e
-rule-action-set-spam-status =
-    .label = Spamowy status stajiś na
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

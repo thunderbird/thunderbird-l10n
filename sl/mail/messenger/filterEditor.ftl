@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Neželeno
-rule-menuitem-not-spam =
-    .label = Ni neželeno
 run-filter-before-spam =
     .label = Filtriraj pred razvrščanjem neželene pošte
 run-filter-after-spam =
@@ -24,8 +20,6 @@ run-periodically =
            *[other] redno, vsakih { $minutes } minut
         }
     .accesskey = e
-rule-action-set-spam-status =
-    .label = Nastavi stanje Neželeno na
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

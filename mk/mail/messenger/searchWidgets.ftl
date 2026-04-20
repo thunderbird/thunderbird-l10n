@@ -59,10 +59,6 @@ search-add-rule-button =
 search-remove-rule-button-2 =
     .label = −
     .tooltiptext = Отстранете го ова правило
-# Do not translate the label.
-search-remove-rule-button =
-    .label = -
-    .tooltiptext = Отстранете го ова правило
 
 ## Search Term List
 

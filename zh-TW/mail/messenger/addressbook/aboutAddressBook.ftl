@@ -61,6 +61,8 @@ about-addressbook-confirm-remove-remote-book-title = 移除通訊錄
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = 您確定要刪除 { $name } 嗎？
+address-book-list =
+    .aria-label = 通訊錄清單
 
 ## Cards
 

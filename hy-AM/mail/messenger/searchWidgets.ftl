@@ -110,10 +110,6 @@ search-remove-rule-button-2 =
     .label = −
     .tooltiptext = Ջնջել կանոնը
 # Do not translate the label.
-search-remove-rule-button =
-    .label = -
-    .tooltiptext = Ջնջել կանոնը
-# Do not translate the label.
 rule-add-action-button =
     .label = +
     .tooltiptext = Նոր գործողություն

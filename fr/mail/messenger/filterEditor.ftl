@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Indésirable
-rule-menuitem-not-spam =
-    .label = Acceptable
 run-filter-before-spam =
     .label = Filtrer avant la vérification des indésirables
 run-filter-after-spam =
@@ -22,8 +18,6 @@ run-periodically =
            *[other] Périodiquement, toutes les { $minutes } minutes
         }
     .accesskey = e
-rule-action-set-spam-status =
-    .label = Définir le statut indésirable à
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

@@ -238,6 +238,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = რჩეულები
     .accesskey = ჩ
+menu-move-copy-no-recent =
+    .label = (ბოლოდროინდელი დანიშნულების ადგილები არ)აა
+menu-move-copy-no-favorites =
+    .label = (რჩეულები არაა)
 
 ## AppMenu
 

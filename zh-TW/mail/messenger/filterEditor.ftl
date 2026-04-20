@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = 是垃圾信
-rule-menuitem-not-spam =
-    .label = 非垃圾信
 run-filter-before-spam =
     .label = 在偵測垃圾信前篩選
 run-filter-after-spam =
@@ -18,8 +14,6 @@ run-filter-after-spam =
 run-periodically =
     .label = 定期，每 { $minutes } 分鐘
     .accesskey = e
-rule-action-set-spam-status =
-    .label = 設定垃圾信狀態為
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

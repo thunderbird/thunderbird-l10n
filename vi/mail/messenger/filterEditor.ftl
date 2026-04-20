@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Thư rác
-rule-menuitem-not-spam =
-    .label = Không phải thư rác
 run-filter-before-spam =
     .label = Lọc trước khi phân loại thư rác
 run-filter-after-spam =
@@ -18,8 +14,6 @@ run-filter-after-spam =
 run-periodically =
     .label = Định kỳ, sau { $minutes } phút
     .accesskey = e
-rule-action-set-spam-status =
-    .label = Đặt trạng thái thư rác thành
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

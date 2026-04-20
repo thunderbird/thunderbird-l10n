@@ -61,6 +61,8 @@ about-addressbook-confirm-remove-remote-book-title = Eliminar libreta de direcci
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = ¿Está seguro de querer eliminar { $name }?
+address-book-list =
+    .aria-label = Lista de libretas de direcciones
 
 ## Cards
 

@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Levélszemét
-rule-menuitem-not-spam =
-    .label = Nem levélszemét
 run-filter-before-spam =
     .label = Szűrés a levélszemét-osztályozás előtt
 run-filter-after-spam =
@@ -22,8 +18,6 @@ run-periodically =
            *[other] Időszakonként, { $minutes } percenként
         }
     .accesskey = p
-rule-action-set-spam-status =
-    .label = Levélszemét-állapot beállítása erre:
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

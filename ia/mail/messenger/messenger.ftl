@@ -250,6 +250,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Favoritos
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = (Necun destination recente)
+menu-move-copy-no-favorites =
+    .label = (Necun favorito)
 
 ## AppMenu
 

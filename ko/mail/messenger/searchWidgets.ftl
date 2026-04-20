@@ -115,10 +115,6 @@ search-remove-rule-button-2 =
     .label = −
     .tooltiptext = 규칙 제거
 # Do not translate the label.
-search-remove-rule-button =
-    .label = -
-    .tooltiptext = 규칙 제거
-# Do not translate the label.
 rule-add-action-button =
     .label = +
     .tooltiptext = 새로운 동작 추가

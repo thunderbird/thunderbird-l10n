@@ -115,10 +115,6 @@ search-remove-rule-button-2 =
     .label = −
     .tooltiptext = წესის გაუქმება
 # Do not translate the label.
-search-remove-rule-button =
-    .label = -
-    .tooltiptext = წესის გაუქმება
-# Do not translate the label.
 rule-add-action-button =
     .label = +
     .tooltiptext = ახალი მოქმედების დამატება

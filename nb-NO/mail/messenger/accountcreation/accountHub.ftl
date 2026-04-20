@@ -11,7 +11,7 @@
 
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = Velkommen til <span data-l10n-name="brand-name">{ -brand-full-name }</span>
-account-hub-title = Konto-hub
+account-hub-title = Kontosenter
 
 ## Footer
 
@@ -130,12 +130,16 @@ account-hub-close-button =
 account-hub-minimize-button =
     .title = Minimer
 account-hub-maximize-button =
-    .title = Maksimer kontohub
+    .title = Maksimer kontosenter
 account-hub-email-manual-configuration = Manuelt oppsett
 account-hub-notification-unknown-host = Oppsettinformasjon funnet på tredjepartsdomene
 account-hub-ssl-noencryption = Ingen
 account-hub-email-skip-button = Hopp over
 account-hub-finding-sync-accounts = Konto opprettet. Oppdager adressebøker og kalendere …
+account-hub-privacy-policy = Personvernbestemmelser
+account-hub-welcome = Velkommen til
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Velkommen til { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Skriv inn navnet ditt
 account-hub-email-label = E-postadresse
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Installer
 account-hub-encryption-button = Ende-til-ende-kryptering
 account-hub-address-books-button = Adressebøker
 account-hub-calendars-button = Kalendere
+account-hub-thundermail-button = Logg inn med Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = eller
 account-hub-notification-show-more = Vis mer
 account-hub-notification-show-less = Vis mindre
 account-hub-email-setup-header = Legg til e-postadressen din
@@ -260,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = Koble til en ekstern LDAP-adressebok
 address-book-add-ldap = Ny LDAP-adressebok
 address-book-add-ldap-description = Koble til en ekstern LDAP-adressebok
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 adressebok tilgjengelig
+       *[other] { $addressBooks } adressebøker tilgjengelige
+    }
 account-hub-fetching-sync-accounts = Oppdager adressebøker og kalendere …
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

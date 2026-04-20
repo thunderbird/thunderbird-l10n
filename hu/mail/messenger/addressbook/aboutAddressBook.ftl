@@ -61,6 +61,8 @@ about-addressbook-confirm-remove-remote-book-title = Címjegyzék eltávolítás
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Biztos, hogy törli a(z) { $name } címjegyzéket?
+address-book-list =
+    .aria-label = Címjegyzékek listája
 
 ## Cards
 

@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Mesazh i padëshiruar
-rule-menuitem-not-spam =
-    .label = Jo mesazh i padëshiruar
 run-filter-before-spam =
     .label = Filtroji përpara Klasifikimit Si të Padëshiruar
 run-filter-after-spam =
@@ -22,8 +18,6 @@ run-periodically =
            *[other] Periodikisht, çdo { $minutes } minutë
         }
     .accesskey = e
-rule-action-set-spam-status =
-    .label = Vërja Gjendjen Për të Padëshiruar si
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.

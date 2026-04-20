@@ -251,6 +251,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Favoriten
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = (Gjin resinte bestimmingen)
+menu-move-copy-no-favorites =
+    .label = (Gjin favoriten)
 
 ## AppMenu
 

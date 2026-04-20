@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Spam
-rule-menuitem-not-spam =
-    .label = No es spam
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =

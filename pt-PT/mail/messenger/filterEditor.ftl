@@ -5,10 +5,6 @@
 
 ## Filter List Dialog
 
-rule-menuitem-spam =
-    .label = Lixo eletrónico
-rule-menuitem-not-spam =
-    .label = Não é lixo eletrónico
 run-filter-before-spam =
     .label = Filtrar antes da classificação de lixo eletrónico
 run-filter-after-spam =
@@ -22,8 +18,6 @@ run-periodically =
            *[other] Periodicamente, a cada { $minutes } minutos
         }
     .accesskey = o
-rule-action-set-spam-status =
-    .label = Definir estado de lixo eletrónico para
 # Variables:
 # $author (String) - The author of the message.
 # $subject (String) - The subject of the message.
