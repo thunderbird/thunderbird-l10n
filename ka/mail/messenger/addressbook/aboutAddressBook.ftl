@@ -61,6 +61,8 @@ about-addressbook-confirm-remove-remote-book-title = მისამართე
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = ნამდვილად გსურთ მოცილდეს { $name }?
+address-book-list =
+    .aria-label = მისამართების წიგნაკების სია
 
 ## Cards
 
