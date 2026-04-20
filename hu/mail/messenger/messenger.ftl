@@ -251,6 +251,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Kedvencek
     .accesskey = K
+menu-move-copy-no-recent =
+    .label = (Nincs közelmúltbeli cél)
+menu-move-copy-no-favorites =
+    .label = (Nincs kedvenc)
 
 ## AppMenu
 
