@@ -12,7 +12,7 @@
 <!ENTITY removeDataChat.label "Társalgásadatok eltávolítása">
 <!ENTITY removeDataChat.accesskey "d">
 <!ENTITY removeDataLocalAccount.desc "Eltávolít minden, a fiókhoz tartozó üzenetet, mappát és szűrőt a helyi lemezről. Ez nem befolyásol bizonyos üzeneteket, amelyek továbbra is megmaradhatnak a kiszolgálón. Ne válassza ezt, ha a helyi adatok archiválását vagy a &brandShortName;ben való későbbi felhasználását tervezi.">
-<!ENTITY removeDataServerAccount.desc "Eltávolít minden, a fiókhoz tartozó üzenetet, mappát és szűrőt a helyi lemezről. Üzeneti és mappái továbbra is megmaradnak a kiszolgálón.">
+<!ENTITY removeDataServerAccount.desc "Eltávolítja a fiókhoz tartozó összes üzenetet, mappát és szűrőt a helyi lemezről. Üzenetei és mappái továbbra is megmaradnak a kiszolgálón.">
 <!ENTITY removeDataChatAccount.desc "A fiókhoz a helyi lemezen tárolt összes társalgásnapló eltávolítása.">
 <!ENTITY showData.label "Adatok helyének megjelenítése">
 <!ENTITY showData.accesskey "A">
