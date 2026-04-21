@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Informácie o nastavení nájdené na do
 account-hub-ssl-noencryption = Žiadne
 account-hub-email-skip-button = Preskočiť
 account-hub-finding-sync-accounts = Účet vytvorený. Vyhľadávajú sa adresáre a kalendáre…
+account-hub-privacy-policy = Zásady ochrany osobných údajov
+account-hub-welcome = Víta vás
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Víta vás { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Prosím, zadajte svoje meno
 account-hub-email-label = E‑mailová adresa
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Nainštalovať
 account-hub-encryption-button = Obojstranné šifrovanie
 account-hub-address-books-button = Adresáre
 account-hub-calendars-button = Kalendáre
+account-hub-thundermail-button = Prihlásiť sa pomocou Thundermailu
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = alebo
 account-hub-notification-show-more = Zobraziť viac
 account-hub-notification-show-less = Zobraziť menej
 account-hub-email-setup-header = Pridajte svoju e‑mailovú adresu
@@ -262,6 +269,14 @@ address-book-add-ldap-icon =
     .alt = Pripojenie k vzdialenému adresáru LDAP
 address-book-add-ldap = Nový adresár typu LDAP
 address-book-add-ldap-description = Pripojenie k vzdialenému adresáru LDAP
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 dostupný adresár
+        [few] { $addressBooks } dostupné adresáre
+        [many] { $addressBooks } dostupných adresárov
+       *[other] { $addressBooks } dostupných adresárov
+    }
 account-hub-fetching-sync-accounts = Vyhľadávajú sa adresáre a kalendáre…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

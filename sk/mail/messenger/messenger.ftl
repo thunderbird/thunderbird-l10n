@@ -259,6 +259,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Obľúbené položky
     .accesskey = O
+menu-move-copy-no-recent =
+    .label = (Žiadne nedávne umiestnenia)
+menu-move-copy-no-favorites =
+    .label = (Žiadne obľúbené)
 
 ## AppMenu
 
@@ -730,3 +734,8 @@ remote-content-option-allow-all =
             [few] Povoliť vzdialený obsah z { $count } zdrojov uvedených vyššie
            *[other] Povoliť vzdialený obsah z { $count } zdrojov uvedených vyššie
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Toto okno môžete zavrieť.
+oauth2-loopback-failure = Presmerovanie OAuth zlyhalo.
