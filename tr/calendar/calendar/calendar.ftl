@@ -24,6 +24,10 @@ ask-save-title-event = Etkinliği kaydet
 ask-save-title-task = Görevi kaydet
 ask-save-message-event = Etkinlik kaydedilmedi. Şimdi kaydetmek ister misiniz?
 ask-save-message-task = Görev kaydedilmedi. Şimdi kaydetmek ister misiniz?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Tüm gün
+    .accesskey = T
 # Event Dialog Warnings
 warning-end-before-start = Girdiğiniz bitiş tarihi başlangıç tarihinden erkendir
 warning-until-date-before-start = Bitiş tarihi başlangıç tarihinden erken
