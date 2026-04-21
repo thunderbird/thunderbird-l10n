@@ -627,6 +627,15 @@ calendar-dialog-attachments-summary-label =
 ## resulting for example in "1 attending, 2 maybe, etc.".
 
 # Variables:
+#   $count (Number): Number of guests that responded "attending".
+calendar-dialog-attendee-summary-going =
+    { $count ->
+        [one] { $count } sa zúčastní
+        [few] { $count } sa zúčastnia
+        [many] { $count } sa zúčastní
+       *[other] { $count } sa zúčastní
+    }
+# Variables:
 #   $count (Number): Number of guests that responded "maybe".
 calendar-dialog-attendee-summary-maybe =
     { $count ->
@@ -650,6 +659,6 @@ calendar-dialog-attendee-summary-pending =
     { $count ->
         [one] { $count } nepotvrdený
         [few] { $count } nepotvrdení
-        [many] { $count } nepotvrdení
-       *[other] { $count } nepotvrdení
+        [many] { $count } nepotvrdených
+       *[other] { $count } nepotvrdených
     }
