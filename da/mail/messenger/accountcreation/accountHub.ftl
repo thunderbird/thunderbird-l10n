@@ -136,6 +136,8 @@ account-hub-notification-unknown-host = Konfigurationsoplysninger fundet på tre
 account-hub-ssl-noencryption = Ingen
 account-hub-email-skip-button = Spring over
 account-hub-finding-sync-accounts = Konto oprettet. Søger efter adressebøger og kalendere...
+account-hub-privacy-policy = Privatlivspolitik
+account-hub-welcome = Velkommen til
 account-hub-welcome-brand = { -brand-short-name }
 account-hub-welcome-text = Velkommen til { -brand-short-name }
 account-hub-name-warning-icon =
@@ -265,6 +267,12 @@ address-book-add-ldap-icon =
     .alt = Opret forbindelse til en ekstern LDAP-adressebog
 address-book-add-ldap = Ny LDAP-adressebog
 address-book-add-ldap-description = Opret forbindelse til en ekstern LDAP-adressebog
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 adressebog tilgængelig
+       *[other] { $addressBooks } adressebøger tilgængelige
+    }
 account-hub-fetching-sync-accounts = Finder adressebøger og kalendere…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
