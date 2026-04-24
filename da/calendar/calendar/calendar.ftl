@@ -24,6 +24,10 @@ ask-save-title-event = Gem begivenhed
 ask-save-title-task = Gem opgave
 ask-save-message-event = Begivenheden er ikke gemt, vil du gemme den?
 ask-save-message-task = Opgaven er ikke gemt, vil du gemme den?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Hele dagen
+    .accesskey = H
 # Event Dialog Warnings
 warning-end-before-start = Den indtastede slutdato er tidligere end startdatoen
 warning-until-date-before-start = Den indtastede dato for indtil er tidligere end startdatoen
