@@ -19,6 +19,7 @@ retention-dialog-title = 保管ポリシー
 
 ## Common strings
 
+retention-description = 古いメッセージを完全に削除してディスク領域を開放できます。
 retention-description-imap = ローカルのコピーとリモートサーバー上の古いメッセージを完全に削除してディスク領域を開放できます。
 retention-description-pop = このコンピューターとリモートサーバー上の古いメッセージを完全に削除してディスク領域を開放できます。
 retention-retain-all =
