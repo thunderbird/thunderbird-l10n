@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Tasertit n tuṭṭfa
+retention-use-default =
+    .label = Seqdec iɣewwaṛen n imiḍan inu
+    .accesskey = S
 
 ## Account Settings
 
+retention-button =
+    .label = Tasertit n tuṭṭfa
+retention-dialog-title = Tasertit n tuṭṭfa
 
 ## Common strings
 
