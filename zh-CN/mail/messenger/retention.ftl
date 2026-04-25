@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = 保留策略
+retention-use-default =
+    .label = 使用我的账户设置
+    .accesskey = U
 
 ## Account Settings
 
+retention-button =
+    .label = 保留策略
+retention-dialog-title = 保留策略
 
 ## Common strings
 
@@ -25,4 +33,7 @@ retention-retain-by-age =
     .label = 删除
     .accesskey = t
 retention-days-old = 天前的消息
+retention-always-keep-starred =
+    .label = 一律保留星标邮件
+    .accesskey = k
 retention-removal-warning = 此设置将永久删除旧邮件，包括远程服务器和您的本地存储。您确定要继续？
