@@ -11,6 +11,7 @@
 
 ## Common strings
 
+retention-description = For å spara diskplass kan gamle meldingar verta permanent sletta
 retention-retain-all =
     .label = Ikkje slett meldingar
     .accesskey = I
@@ -22,3 +23,4 @@ retention-retain-by-age =
     .label = Slett meldingar eldre enn
     .accesskey = e
 retention-days-old = dagar gamle
+retention-removal-warning = Denne innstillinga vil permanent slettA gamle meldingAr frå den eksterne tenaren OG frå lokal lagring. Er du sikker på at du vil halde fram?
