@@ -11,7 +11,19 @@
 
 ## Common strings
 
+retention-description = Per recuperar espai de disc, es poden suprimir permanentment els missatges antics.
+retention-description-imap = Per recuperar espai de disc, es poden suprimir permanentment els missatges antics, tant les còpies locals com els originals del servidor remot.
+retention-description-pop = Per recuperar espai de disc, es poden suprimir permanentment els missatges antics, inclosos els originals del servidor remot.
+retention-retain-all =
+    .label = No suprimeixis cap missatge
+    .accesskey = a
+retention-retain-by-num-headers =
+    .label = Suprimeix-ho tot excepte els últims
+    .accesskey = x
 retention-messages = missatges
+retention-retain-by-age =
+    .label = Suprimeix els missatges de més de
+    .accesskey = m
 retention-days-old = dies
 retention-always-keep-starred =
     .label = Conserva sempre els missatges destacats
