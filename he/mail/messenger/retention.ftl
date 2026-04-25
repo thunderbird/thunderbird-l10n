@@ -19,3 +19,14 @@ retention-dialog-title = מדיניות שמירה
 
 ## Common strings
 
+retention-description = כדי להשיג שטח דיסק, הודעות ישנות יכולות להימחק לצמיתות.
+retention-description-imap = כדי לשמר שטח דיסק, הודעות ישנות יכולות להימחק לצמיתות, גם העותק המקומי וגם המקור על השרת המרוחק.
+retention-description-pop = כדי לשמר שטח דיסק, הודעות ישנות יכולות להימחק לצמיתות, כולל הודעות המקור בשרת המרוחק.
+retention-messages = ההודעות האחרונות
+retention-retain-by-age =
+    .label = למחוק הודעות מלפני
+    .accesskey = ל
+retention-days-old = ימים
+retention-always-keep-starred =
+    .label = לשמור תמיד הודעות מסומנות בכוכבית
+    .accesskey = ס
