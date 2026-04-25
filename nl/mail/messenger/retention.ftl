@@ -28,3 +28,4 @@ retention-days-old = dagen
 retention-always-keep-starred =
     .label = Berichten met ster altijd bewaren
     .accesskey = e
+retention-removal-warning = Deze instelling verwijdert oude berichten voorgoed van de externe server én uit uw lokale opslag. Weet u zeker dat u wilt doorgaan?
