@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Am poileasaidh glèidhidh
+retention-use-default =
+    .label = Cleachd roghainnean a' chunntais agam
+    .accesskey = u
 
 ## Account Settings
 
+retention-button =
+    .label = Am poileasaidh glèidhidh
+retention-dialog-title = Am poileasaidh glèidhidh
 
 ## Common strings
 
