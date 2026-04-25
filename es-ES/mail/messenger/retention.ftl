@@ -7,6 +7,9 @@
 
 retention-tab =
     .label = Política de retención
+retention-use-default =
+    .label = Usar los datos de mi cuenta
+    .accesskey = i
 
 ## Account Settings
 
@@ -16,3 +19,20 @@ retention-dialog-title = Política de retención
 
 ## Common strings
 
+retention-description = Para recuperar espacio en disco, los mensajes antiguos se pueden eliminar permanentemente.
+retention-description-imap = Para recuperar espacio en disco, los mensajes antiguos pueden eliminarse permanentemente, tanto las copias locales como los originales en el servidor remoto.
+retention-description-pop = Para recuperar espacio en disco, los mensajes antiguos pueden eliminarse permanentemente, incluyendo los originales en el servidor remoto.
+retention-retain-all =
+    .label = No eliminar ningún mensaje
+    .accesskey = N
+retention-retain-by-num-headers =
+    .label = Eliminar todos excepto los
+    .accesskey = a
+retention-messages = mensajes más recientes
+retention-retain-by-age =
+    .label = Eliminar mensajes con más de
+    .accesskey = r
+retention-days-old = días de antigüedad
+retention-always-keep-starred =
+    .label = Conservar siempre los mensajes con estrella
+    .accesskey = i
