@@ -1,0 +1,15 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## Folder Properties
+
+
+## Account Settings
+
+
+## Common strings
+
+retention-description-pop = 要回收磁盘空间，可以永久删除旧消息，包括远程服务器上的原文。
+retention-removal-warning = 此设置将永久删除旧邮件，包括远程服务器和您的本地存储。您确定要继续？
