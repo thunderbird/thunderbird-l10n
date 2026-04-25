@@ -19,6 +19,8 @@ retention-dialog-title = Reguły przechowywania wiadomości
 
 ## Common strings
 
+retention-description = W celu zaoszczędzenia miejsca na dysku, stare wiadomości mogą być nieodwracalnie usuwane.
+retention-description-imap = W celu zaoszczędzenia miejsca na dysku, stare wiadomości – zarówno lokalne kopie, jak i oryginały na zdalnym serwerze – mogą być nieodwracalnie usuwane.
 retention-description-pop = W celu zaoszczędzenia miejsca na dysku, stare wiadomości – łącznie z oryginałami na zdalnym serwerze – mogą być nieodwracalnie usuwane.
 retention-retain-all =
     .label = Nie usuwaj żadnych wiadomości
@@ -26,6 +28,7 @@ retention-retain-all =
 retention-retain-by-num-headers =
     .label = Usuwaj wszystko, pomijając ostatnie
     .accesskey = k
+retention-messages = wiadomości
 retention-retain-by-age =
     .label = Usuwaj wiadomości starsze niż
     .accesskey = m
