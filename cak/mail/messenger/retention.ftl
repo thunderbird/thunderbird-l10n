@@ -36,3 +36,4 @@ retention-days-old = ojer taq q'ij
 retention-always-keep-starred =
     .label = Junelïk keyake' ri nimaläj taq rutzijol
     .accesskey = k
+retention-removal-warning = Re runuk'ulem re' jumul xkeruyuj el ri ojer taq rutzijol pa ri näq k'uxasamaj AND chupam yakoj. ¿La at jikïl chi nasamajij qa?
