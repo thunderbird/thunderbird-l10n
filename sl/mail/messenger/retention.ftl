@@ -19,6 +19,7 @@ retention-dialog-title = Pravila zadrževanja
 
 ## Common strings
 
+retention-description = Prostor na disku lahko prihranite, če trajno izbrišete stara sporočila.
 retention-description-imap = Prostor na disku lahko prihranite, če trajno izbrišete stara sporočila, krajevno in na oddaljenem strežniku.
 retention-description-pop = Prostor na disku lahko prihranite, če trajno izbrišete stara sporočila, vključno z izvirniki na oddaljenem strežniku.
 retention-retain-all =
@@ -32,3 +33,6 @@ retention-retain-by-age =
     .label = Izbriši sporočila, starejša od
     .accesskey = č
 retention-days-old = dni
+retention-always-keep-starred =
+    .label = Vedno obdrži sporočila z zvezdico
+    .accesskey = V
