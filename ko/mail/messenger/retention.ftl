@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = 메시지 보관 정책
+retention-use-default =
+    .label = 내 계정 설정으로 사용
+    .accesskey = U
 
 ## Account Settings
 
+retention-button =
+    .label = 메시지 보관 정책
+retention-dialog-title = 메시지 보관 정책
 
 ## Common strings
 
@@ -28,3 +36,4 @@ retention-days-old = 일 전
 retention-always-keep-starred =
     .label = 별표한 메시지는 항상 남기기
     .accesskey = k
+retention-removal-warning = 이 설정은 옛 메시지를 서버와 로컬 저장소에서 완전히 삭제합니다. 정말 삭제하시겠습니까?
