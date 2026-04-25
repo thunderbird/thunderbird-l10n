@@ -13,3 +13,6 @@
 
 retention-messages = missatges
 retention-days-old = dies
+retention-always-keep-starred =
+    .label = Conserva sempre els missatges destacats
+    .accesskey = e
