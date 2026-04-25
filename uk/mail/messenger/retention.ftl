@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Зберігання
+retention-use-default =
+    .label = Використовувати налаштування мого облікового запису
+    .accesskey = м
 
 ## Account Settings
 
+retention-button =
+    .label = Зберігання
+retention-dialog-title = Зберігання
 
 ## Common strings
 
