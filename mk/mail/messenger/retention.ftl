@@ -5,9 +5,14 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Бришење на ѓубрето
 
 ## Account Settings
 
+retention-button =
+    .label = Бришење на ѓубрето
+retention-dialog-title = Бришење на ѓубрето
 
 ## Common strings
 
