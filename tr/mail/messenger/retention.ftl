@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Kayıt ilkeleri
+retention-use-default =
+    .label = Hesap ayarlarımı kullan
+    .accesskey = H
 
 ## Account Settings
 
+retention-button =
+    .label = Kayıt ilkeleri
+retention-dialog-title = Kayıt ilkeleri
 
 ## Common strings
 
@@ -28,3 +36,4 @@ retention-days-old = günden eskiyse sil
 retention-always-keep-starred =
     .label = Yıldızlı iletileri hiçbir zaman silme
     .accesskey = Y
+retention-removal-warning = Bu ayar uzak sunucudaki VE yerel depodaki eski iletileri kalıcı olarak silecek. Devam etmek istediğinizden emin misiniz?
