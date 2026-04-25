@@ -26,3 +26,4 @@ retention-retain-by-age =
 retention-always-keep-starred =
     .label = Behåll alltid märkta meddelanden
     .accesskey = h
+retention-removal-warning = Denna inställning kommer att permanent ta bort gamla meddelanden från fjärrservern och din lokala lagringsplats. Är du säker på att du vill fortsätta?
