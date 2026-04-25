@@ -25,3 +25,4 @@ retention-retain-by-num-headers =
 retention-always-keep-starred =
     .label = Selalu simpan pesan berbintang
     .accesskey = e
+retention-removal-warning = Pengaturan ini akan secara permanen menghapus pesan lawas dari server jarak jauh DAN penyimpanan lokal Anda. Apakah Anda yakin ingin melanjutkan?
