@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Pšawidła zachowanja
+retention-use-default =
+    .label = Móje kontowe nastajenja wužywaś
+    .accesskey = M
 
 ## Account Settings
 
+retention-button =
+    .label = Pšawidła zachowanja
+retention-dialog-title = Pšawidła zachowanja
 
 ## Common strings
 
@@ -24,6 +32,7 @@ retention-messages = powěsćow wulašowaś
 retention-retain-by-age =
     .label = Powěsći lašowaś, kótarež su wěcej ako
     .accesskey = l
+retention-days-old = dnjow stare
 retention-always-keep-starred =
     .label = Powěsći z gwězdku pśecej wobchowaś
     .accesskey = c
