@@ -36,3 +36,4 @@ retention-days-old = dni
 retention-always-keep-starred =
     .label = Zawsze przechowuj wiadomości oznaczone gwiazdką
     .accesskey = e
+retention-removal-warning = To ustawienie spowoduje trwałe usuwanie starych wiadomości ze zdalnego serwera, jak i z lokalnej pamięci. Czy na pewno kontynuować?
