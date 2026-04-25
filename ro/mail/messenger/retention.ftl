@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Politica de păstrare
+retention-use-default =
+    .label = Folosește setările contului meu
+    .accesskey = U
 
 ## Account Settings
 
+retention-button =
+    .label = Politica de păstrare
+retention-dialog-title = Politica de păstrare
 
 ## Common strings
 
