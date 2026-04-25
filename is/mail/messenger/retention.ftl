@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Varðveislureglur
+retention-use-default =
+    .label = Nota sömu stillingar og eru á mínum reikningi
+    .accesskey = N
 
 ## Account Settings
 
+retention-button =
+    .label = Varðveislureglur
+retention-dialog-title = Varðveislureglur
 
 ## Common strings
 
