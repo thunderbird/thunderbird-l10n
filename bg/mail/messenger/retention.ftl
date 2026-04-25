@@ -36,3 +36,4 @@ retention-days-old = дни
 retention-always-keep-starred =
     .label = Писмата със звезда винаги се запазват
     .accesskey = д
+retention-removal-warning = Тази настройка ще изтрие необратимо старите писма от отдалечения сървър И от вашия компютър. Сигурни ли сте, че искате да продължите?
