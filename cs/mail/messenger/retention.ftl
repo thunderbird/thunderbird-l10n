@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Pravidla uchovávání zpráv
+retention-use-default =
+    .label = Použít nastavení účtu
+    .accesskey = n
 
 ## Account Settings
 
+retention-button =
+    .label = Pravidla uchovávání zpráv
+retention-dialog-title = Pravidla uchovávání zpráv
 
 ## Common strings
 
