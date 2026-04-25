@@ -19,3 +19,4 @@ retention-retain-by-num-headers =
 retention-always-keep-starred =
     .label = Vždy ukládat zprávy s hvězdičkou
     .accesskey = u
+retention-removal-warning = Toto nastavení trvale smaže staré zprávy ze vzdáleného server i vašeho místního úložiště. Opravdu chcete pokračovat?
