@@ -7,6 +7,9 @@
 
 retention-tab =
     .label = Πολιτική διατήρησης
+retention-use-default =
+    .label = Χρήση ρυθμίσεων λογαριασμού
+    .accesskey = ρ
 
 ## Account Settings
 
