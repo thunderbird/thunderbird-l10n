@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Laiškų šalinimas
+retention-use-default =
+    .label = Laikytis paskyros nuostatų
+    .accesskey = p
 
 ## Account Settings
 
+retention-button =
+    .label = Laiškų šalinimas
+retention-dialog-title = Laiškų šalinimas
 
 ## Common strings
 
@@ -28,3 +36,4 @@ retention-days-old = d.
 retention-always-keep-starred =
     .label = Visada palikti žvaigždute pažymėtus laiškus
     .accesskey = ž
+retention-removal-warning = Šis parinkimas nesugrąžinamai pašalins laiškus tiek iš serverio, tiek saugomus šiame kompiuteryje. Ar tikrai to norite?
