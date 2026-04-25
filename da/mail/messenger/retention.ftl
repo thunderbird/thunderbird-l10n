@@ -36,3 +36,4 @@ retention-days-old = dage gamle
 retention-always-keep-starred =
     .label = Behold altid stjernemarkerede meddelelser
     .accesskey = o
+retention-removal-warning = Denne indstilling vil slette gamle meddelelser permanent fra serveren OG fra dit lokale lager. Er du sikker på, at du vil fortsætte?
