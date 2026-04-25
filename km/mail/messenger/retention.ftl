@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Retention Policy
+retention-use-default =
+    .label = Օգտ. իմ փոստարկղի կարգավորումները
+    .accesskey = U
 
 ## Account Settings
 
+retention-button =
+    .label = Retention Policy
+retention-dialog-title = Retention Policy
 
 ## Common strings
 
