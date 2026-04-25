@@ -24,6 +24,10 @@ ask-save-title-event = Tallenna tapahtuma
 ask-save-title-task = Tallenna tehtävä
 ask-save-message-event = Tapahtumaa ei ole tallennettu. Haluatko tallentaa sen?
 ask-save-message-task = Tehtävää ei ole tallennettu. Haluatko tallentaa sen?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Koko päivä
+    .accesskey = p
 # Event Dialog Warnings
 warning-end-before-start = Antamasi päättymispäivämäärä on ennen aloituspäivämäärää
 warning-until-date-before-start = Päättymispäivä on aikaisempi kuin aloituspäivä

@@ -278,6 +278,7 @@ many-public-recipients-prompt-send = Lähetä silti
 compose-missing-identity-warning = Lähettäjä-osoitetta vastaavaa yksilöllistä identiteettiä ei löytynyt. Viesti lähetetään käyttämällä nykyistä lähettäjä-kenttää ja identiteetin { $identity } asetuksia.
 encrypted-bcc-warning = Kun lähetät salattua viestiä, piilokopion vastaanottajat eivät ole täysin piilossa. Kaikki vastaanottajat voivat tunnistaa ne.
 encrypted-bcc-ignore-button = Ymmärretty
+auto-disable-e2ee-warning = Tämän viestin päästä päähän -salaus poistettiin automaattisesti käytöstä.
 # Variables:
 #   $count - the number of files that will be unblocked
 blocked-content-message =

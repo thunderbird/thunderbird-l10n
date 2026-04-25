@@ -133,6 +133,10 @@ account-hub-email-manual-configuration = Manuaalinen määritys
 account-hub-ssl-noencryption = Ei mitään
 account-hub-email-skip-button = Ohita
 account-hub-finding-sync-accounts = Tili luotu. Etsitään osoitekirjoja ja kalentereita…
+account-hub-privacy-policy = Tietosuojakäytäntö
+account-hub-welcome = Tervetuloa
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Tässä { -brand-short-name }, tervetuloa
 account-hub-name-warning-icon =
     .title = Kirjoita nimesi
 account-hub-email-label = Sähköpostiosoite
@@ -180,6 +184,9 @@ account-hub-addon-install-title = Asenna
 account-hub-encryption-button = Päästä päähän -salaus
 account-hub-address-books-button = Osoitekirjat
 account-hub-calendars-button = Kalenterit
+account-hub-thundermail-button = Kirjaudu sisään Thundermaililla
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = tai
 account-hub-notification-show-more = Näytä lisää
 account-hub-notification-show-less = Näytä vähemmän
 account-hub-email-setup-header = Lisää sähköpostiosoitteesi
@@ -194,6 +201,8 @@ account-hub-result-imap-description = Pidä kansiot ja sähköpostit synkronoitu
 account-hub-result-pop-description = Säilytä kansiot ja sähköpostit tietokoneellasi
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Käytä Microsoft Exchange Web Services -palvelua kansioiden ja sähköpostien synkronoimiseen
+account-hub-result-graph-shortname = Exchange (Graph)
+account-hub-result-graph-description = Synkronoi kansiot ja sähköpostit Microsoft Graph API:n avulla
 account-hub-result-exchange-description = Synkronoi kansiot ja sähköpostit Exchangen tai Office 365:n kanssa
 account-hub-result-ews-text = Palvelin
 account-hub-result-recommended-label = Suositeltu
@@ -201,6 +210,7 @@ account-hub-result-addon-label = Vaatii lisäosan
 account-hub-edit-configuration = Muokkaa asetuksia
 account-hub-config-success = Kokoonpanon määritys löytyi Mozillan ISP-tietokannasta
 account-hub-config-success-exchange = Kokoonpanon määritykset löydettiin Microsoft Exchange -palvelimelle
+account-hub-config-success-disk = Kokoonpanon määritys löytyi { -brand-short-name }-asennuksesta
 account-hub-config-success-unknown = Kokoonpanon määritys löytyi
 account-hub-password-info = Kirjautumistietosi tallennetaan vain paikallisesti tietokoneellesi
 account-hub-creating-account = Luodaan tiliä…
@@ -233,6 +243,7 @@ account-hub-oauth-pending = Odotetaan valtuutusta kirjautumisikkunassa…
 account-hub-addon-install-button = Asenna
 account-hub-addon-install-needed = { -brand-short-name } ei tue  oletusarvoisesti tätä palvelinta. Voit käyttää Exchange-sähköpostia <a data-l10n-name="addon-install"> asentamalla kolmannen osapuolen lisäosan, kuten Owl (maksullinen).</a>
 account-hub-addon-error = Lisäosan asennus epäonnistui. Yritä uudelleen tai ota yhteyttä lisäosan tekijään saadaksesi apua.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Varoitus: Suojaamaton sähköpostipalvelin havaittu.</span> Palvelimella ei ole salausta, joten salasanasi ja tietosi paljastuvat. Ota yhteyttä järjestelmänvalvojaan yhteyden suojaamiseksi tai jatka omalla vastuullasi. <a data-l10n-name="error-link">Lisätietoja on usein kysytyissä kysymyksissä.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Varoitus: Suojaamaton sähköpostipalvelin havaittu.</span> Palvelimelta puuttuu salaus, minkä vuoksi salasanasi ja tietosi paljastuvat. Ota yhteys järjestelmänvalvojaan turvataksesi yhteyden tai jatka omalla vastuullasi. <a data-l10n-name="faq-link">Lisätietoja on usein kysytyissä kysymyksissä.</a>
 account-hub-account-authentication-error = Todennusvirhe.
 account-hub-add-address-book = Lisää osoitekirja
@@ -251,6 +262,12 @@ address-book-add-ldap-icon =
     .alt = Yhdistä LDAP-etäosoitekirjaan
 address-book-add-ldap = Uusi LDAP-osoitekirja
 address-book-add-ldap-description = Yhdistä LDAP-etäosoitekirjaan
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 osoitekirja saatavilla
+       *[other] { $addressBooks } osoitekirjaa saatavilla
+    }
 account-hub-fetching-sync-accounts = Havaitaan osoitekirjoja ja kalentereita…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
