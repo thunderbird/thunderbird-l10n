@@ -36,3 +36,4 @@ retention-days-old = dni
 retention-always-keep-starred =
     .label = Vedno obdrži sporočila z zvezdico
     .accesskey = V
+retention-removal-warning = Ta nastavitev bo trajno izbrisala stara sporočila iz oddaljenega strežnika IN vaše krajevne shrambe. Ali res želite nadaljevati?
