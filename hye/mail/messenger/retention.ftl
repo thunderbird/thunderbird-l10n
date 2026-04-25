@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Պահպանման քաղաքականութիւն
+retention-use-default =
+    .label = Աւգտագործել իմ հաշուի կարգաւորումները
+    .accesskey = U
 
 ## Account Settings
 
+retention-button =
+    .label = Պահպանման քաղաքականութիւն
+retention-dialog-title = Պահպանման քաղաքականութիւն
 
 ## Common strings
 
