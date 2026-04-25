@@ -16,3 +16,4 @@ retention-days-old = dies
 retention-always-keep-starred =
     .label = Conserva sempre els missatges destacats
     .accesskey = e
+retention-removal-warning = Aquest paràmetre suprimirà permanentment els missatges antics tant del servidor remot com de l'emmagatzematge local. Esteu segur que voleu continuar?
