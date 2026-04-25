@@ -36,3 +36,4 @@ retention-days-old = дана старо
 retention-always-keep-starred =
     .label = Увек чувај поруке са звездицом
     .accesskey = к
+retention-removal-warning = Ово подешавање ће трајно брисати старе поруке са удаљеног сервера И унутар локалног складишта. Да ли сте сигурни да желите да наставите?
