@@ -23,4 +23,7 @@ retention-retain-by-age =
     .label = Slett meldingar eldre enn
     .accesskey = e
 retention-days-old = dagar gamle
+retention-always-keep-starred =
+    .label = Ta alltid vare på stjernemarkerte meldingar
+    .accesskey = d
 retention-removal-warning = Denne innstillinga vil permanent slettA gamle meldingAr frå den eksterne tenaren OG frå lokal lagring. Er du sikker på at du vil halde fram?
