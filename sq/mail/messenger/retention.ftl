@@ -7,6 +7,9 @@
 
 retention-tab =
     .label = Rregulla Mbajtjeje
+retention-use-default =
+    .label = Përdor rregullimet e llogarisë sime
+    .accesskey = P
 
 ## Account Settings
 
@@ -25,6 +28,7 @@ retention-retain-all =
 retention-retain-by-num-headers =
     .label = Fshiji krejt, përveç më të fundit
     .accesskey = t
+retention-messages = mesazheve të fundit
 retention-retain-by-age =
     .label = Fshi mesazhe më të vjetër se
     .accesskey = f
