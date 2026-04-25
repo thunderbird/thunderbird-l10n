@@ -19,4 +19,21 @@ retention-dialog-title = Πολιτική διατήρησης
 
 ## Common strings
 
+retention-description = Για να ανακτήσετε χώρο στον δίσκο, μπορείτε να διαγράψετε οριστικά τα παλιά μηνύματα.
+retention-description-imap = Για ανάκτηση χώρου, μπορείτε να διαγράψετε οριστικά τα παλιά σας μηνύματα (τοπικά αντίγραφα και πρωτότυπα απομακρυσμένου διακομιστή).
+retention-description-pop = Για ανάκτηση χώρου, μπορείτε να διαγράψετε οριστικά τα παλιά σας μηνύματα, μαζί με τα αρχικά μηνύματα στον απομακρυσμένο διακομιστή.
+retention-retain-all =
+    .label = Να μην γίνεται διαγραφή μηνυμάτων
+    .accesskey = η
+retention-retain-by-num-headers =
+    .label = Διαγραφή όλων, εκτός των τελευταίων
+    .accesskey = κ
+retention-messages = μηνυμάτων
+retention-retain-by-age =
+    .label = Διαγραφή μηνυμάτων, παλαιότερων από
+    .accesskey = μ
+retention-days-old = ημερών
+retention-always-keep-starred =
+    .label = Διατήρηση μηνυμάτων με αστέρι
+    .accesskey = σ
 retention-removal-warning = Αυτή η ρύθμιση θα διαγράψει οριστικά τα παλιά μηνύματα από τον απομακρυσμένο διακομιστή ΚΑΙ τον τοπικό σας χώρο. Θέλετε σίγουρα να συνεχίσετε;
