@@ -5,13 +5,23 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Ivaretaking av meldingar
+retention-use-default =
+    .label = Bruk innstillingane for kontoen
+    .accesskey = r
 
 ## Account Settings
 
+retention-button =
+    .label = Ivaretaking av meldingar
+retention-dialog-title = Ivaretaking av meldingar
 
 ## Common strings
 
 retention-description = For å spara diskplass kan gamle meldingar verta permanent sletta
+retention-description-imap = For å spare diskplass, kan gamle meldingar verte permanent sletta, både lokale kopiar og originalar på ekstern server.
+retention-description-pop = For å byggje opp diskplass, kan gamle meldingar verte permanent sletta, både lokale kopiar og originalar på ekstern server.
 retention-retain-all =
     .label = Ikkje slett meldingar
     .accesskey = I
