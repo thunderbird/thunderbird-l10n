@@ -36,3 +36,4 @@ retention-days-old = hari lepas
 retention-always-keep-starred =
     .label = Sentiasa simpan mesej bertanda bintang
     .accesskey = s
+retention-removal-warning = Tetapan ini akan menghapuskan mesej lama secara kekal daripada pelayan jauh DAN storan lokal anda. Adakah anda pasti mahu meneruskan?
