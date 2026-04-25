@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Behåll meddelanden
+retention-use-default =
+    .label = Använd kontoinställningarna
+    .accesskey = v
 
 ## Account Settings
 
+retention-button =
+    .label = Behåll meddelanden
+retention-dialog-title = Behåll meddelanden
 
 ## Common strings
 
