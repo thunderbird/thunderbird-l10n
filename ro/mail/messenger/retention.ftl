@@ -17,3 +17,4 @@ retention-retain-by-num-headers =
 retention-always-keep-starred =
     .label = Păstrează întotdeauna mesajele cu steluță
     .accesskey = e
+retention-removal-warning = Aceste setări vor șterge definitiv mesajele vechi de pe serverul la distanță ȘI din spațiul de stocare local. Sigur vrei să continui?
