@@ -36,3 +36,4 @@ retention-days-old = dies
 retention-always-keep-starred =
     .label = Mantene sempre messages stellate
     .accesskey = M
+retention-removal-warning = Iste parametro delera permanentemente vetere messages del servitor remote E tu local immagazinage. Desira tu vermente continuar?
