@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Megőrzési házirend
+retention-use-default =
+    .label = A postafiók beállításainak megfelelően
+    .accesskey = p
 
 ## Account Settings
 
+retention-button =
+    .label = Megőrzési házirend
+retention-dialog-title = Megőrzési házirend
 
 ## Common strings
 
