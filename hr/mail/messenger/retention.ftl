@@ -19,4 +19,21 @@ retention-dialog-title = Politika čuvanja
 
 ## Common strings
 
+retention-description = Kako bi oslobodili diskovni prostor, stare poruke se mogu trajno obrisati.
+retention-description-imap = Kako bi oslobodili diskovni prostor, stare poruke se mogu trajno obrisati, uključujući lokalne kopije i izvorne poruke na poslužitelju.
+retention-description-pop = Kako bi oslobodili diskovni prostor, stare poruke se mogu trajno obrisati, uključujući i izvorne poruke na poslužitelju.
+retention-retain-all =
+    .label = Ne briši poruke
+    .accesskey = N
+retention-retain-by-num-headers =
+    .label = Obriši sve osim
+    .accesskey = b
+retention-messages = najnovijih poruka
+retention-retain-by-age =
+    .label = Obriši poruke starije od
+    .accesskey = t
+retention-days-old = dana
+retention-always-keep-starred =
+    .label = Uvijek zadrži poruke sa zvjezdicom
+    .accesskey = k
 retention-removal-warning = Ova postavka će trajno obrisati stare poruke s udaljenog poslužitelja i lokalnog diska. Jeste li sigurni da želite nastaviti?
