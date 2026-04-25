@@ -26,3 +26,4 @@ retention-days-old = díes d'antigüedá
 retention-always-keep-starred =
     .label = Caltener siempre los mensaxes con estrella
     .accesskey = i
+retention-removal-warning = Esti axuste desaniciará dafechu los mensaxes vieyos del sirvidor remotu Y almacenamientu llocal. ¿De xuru que quies siguir?
