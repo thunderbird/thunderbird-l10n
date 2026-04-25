@@ -33,3 +33,7 @@ retention-retain-by-age =
     .label = Ջնջել նամակները, որոնք՝
     .accesskey = t
 retention-days-old = օրվա են
+retention-always-keep-starred =
+    .label = Միշտ պահել աստղով նամակները
+    .accesskey = պ
+retention-removal-warning = Այս կարգավորումը մշտապես կջնջի հին նամակները հեռակա սպասարկիչից և տեղային պահեստից: Շարունակե՞լ:
