@@ -259,6 +259,8 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Oblíbené
     .accesskey = O
+menu-move-copy-no-favorites =
+    .label = (Žádné oblíbené)
 
 ## AppMenu
 
@@ -738,3 +740,4 @@ remote-content-option-allow-all =
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Toto okno můžete zavřít.
+oauth2-loopback-failure = Přesměrování QAuth se nezdařilo.
