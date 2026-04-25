@@ -36,3 +36,4 @@ retention-days-old = Tage
 retention-always-keep-starred =
     .label = Gekennzeichnete Nachrichten immer behalten
     .accesskey = z
+retention-removal-warning = Diese Einstellung wird alte Nachrichten dauerhaft vom Server und Ihrem lokalen Speicher löschen. Wollen Sie wirklich fortsetzen?
