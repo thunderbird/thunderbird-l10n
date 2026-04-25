@@ -14,3 +14,4 @@
 retention-description = Para recuperar espaço em disco, mensagens antigas podem ser excluídas permanentemente.
 retention-messages = mensagens
 retention-days-old = dias
+retention-removal-warning = Esta configuração exclui permanentemente mensagens antigas do servidor remoto E TAMBÉM de seu armazenamento local. Tem certeza que quer prosseguir?
