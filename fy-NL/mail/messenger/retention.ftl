@@ -1,0 +1,24 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## Folder Properties
+
+retention-tab =
+    .label = Behâldbelied
+retention-use-default =
+    .label = Brûk myn accountynstellingen
+    .accesskey = r
+
+## Account Settings
+
+retention-button =
+    .label = Behâldbelied
+retention-dialog-title = Behâldbelied
+
+## Common strings
+
+retention-description = Om skiifromte frij te meitsjen, kinne âlde berjochten permanint fuortsmiten wurde
+retention-messages = { "" }
+retention-days-old = dagen
