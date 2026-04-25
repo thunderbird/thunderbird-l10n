@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Política de retención
+retention-use-default =
+    .label = Usar as configuracións da miña conta
+    .accesskey = U
 
 ## Account Settings
 
+retention-button =
+    .label = Política de retención
+retention-dialog-title = Política de retención
 
 ## Common strings
 
