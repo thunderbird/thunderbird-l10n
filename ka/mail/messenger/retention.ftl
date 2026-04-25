@@ -28,3 +28,4 @@ retention-days-old = დღეს
 retention-always-keep-starred =
     .label = ვარსკვლავიანი წერილების ყოველთვის შენარჩუნება
     .accesskey = ვ
+retention-removal-warning = შედეგად, ძველი წერილები სამუდამოდ წაიშლება სერვერიდან და ამავე დროს, კომპიუტერის დისკიდანაც. ნამდვილად გსურთ, განაგრძოთ?
