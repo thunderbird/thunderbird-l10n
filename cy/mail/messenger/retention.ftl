@@ -12,4 +12,7 @@
 ## Common strings
 
 retention-days-old = diwrnod oed
+retention-always-keep-starred =
+    .label = Cadw negeseuon serennog bob tro
+    .accesskey = s
 retention-removal-warning = Bydd y gosodiad hwn yn dileu yn barhaol hen negeseuon o weinydd pell A'CH storfa leol. Ydych chi'n siŵr eich bod am barhau?
