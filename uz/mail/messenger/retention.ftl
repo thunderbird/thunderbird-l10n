@@ -36,3 +36,4 @@ retention-days-old = kun oldin
 retention-always-keep-starred =
     .label = Yulduzcha qo‘yilgan xabarlar doimo saqlansin
     .accesskey = s
+retention-removal-warning = Bu parametrni tanlasangiz, masofadagi server va kompyuterdagi barcha eski xabarlar o‘chirib tashlanadi. Davom ettirishni xohlaysizmi?
