@@ -36,3 +36,4 @@ retention-days-old = días de antigüedad
 retention-always-keep-starred =
     .label = Siempre mantener mensajes destacados
     .accesskey = k
+retention-removal-warning = Esta configuración borrará permanentemente los mensajes viejos del servidor remoto y del almacenamiento local. ¿Estás seguro que deseas continuar?
