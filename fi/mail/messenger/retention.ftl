@@ -20,6 +20,7 @@ retention-dialog-title = Viestien säilytyskäytäntö
 ## Common strings
 
 retention-description = Kiintolevytilaa voi vapauttaa poistamalla vanhoja viestejä pysyvästi.
+retention-description-imap = Kiintolevytilaa voidaan vapauttaa poistamalla lopullisesti vanhat viestit sekä omalta koneelta että palvelimelta.
 retention-description-pop = Kiintolevytilaa voidaan vapauttaa poistamalla vanhat viestit lopullisesti, myös sähköpostipalvelimelta.
 retention-retain-all =
     .label = Älä poista mitään viestejä
