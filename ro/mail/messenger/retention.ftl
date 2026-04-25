@@ -11,9 +11,20 @@
 
 ## Common strings
 
+retention-description = Pentru a economisi spațiu pe disc, mesajele vechi pot fi șterse definitiv.
+retention-description-imap = Pentru a economisi spațiu pe disc, mesajele vechi pot fi șterse definitiv, atât copiile locale cât și cele originale de pe serverul la distanță.
+retention-description-pop = Pentru a economisi spațiu pe disc, mesajele vechi pot fi șterse definitiv, inclusiv originale de pe serverul la distanță.
+retention-retain-all =
+    .label = Nu șterge niciun mesaj
+    .accesskey = N
 retention-retain-by-num-headers =
     .label = Șterge tot cu excepția celor mai recente
     .accesskey = t
+retention-messages = mesaje
+retention-retain-by-age =
+    .label = Șterge mesajele mai vechi de
+    .accesskey = g
+retention-days-old = zile
 retention-always-keep-starred =
     .label = Păstrează întotdeauna mesajele cu steluță
     .accesskey = e
