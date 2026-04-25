@@ -36,3 +36,4 @@ retention-days-old = días de antigüedad
 retention-always-keep-starred =
     .label = Conservar siempre los mensajes con estrella
     .accesskey = i
+retention-removal-warning = Este ajuste eliminará permanentemente los mensajes antiguos del servidor Y de su almacenamiento local. ¿Está seguro de que desea continuar?
