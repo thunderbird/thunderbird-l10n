@@ -5,9 +5,17 @@
 
 ## Folder Properties
 
+retention-tab =
+    .label = Chính sách Sử dụng
+retention-use-default =
+    .label = Sử dụng thiết lập tài khoản của tôi
+    .accesskey = S
 
 ## Account Settings
 
+retention-button =
+    .label = Chính sách Sử dụng
+retention-dialog-title = Chính sách Sử dụng
 
 ## Common strings
 
