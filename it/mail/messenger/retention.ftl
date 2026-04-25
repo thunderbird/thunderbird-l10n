@@ -36,3 +36,4 @@ retention-days-old = giorni
 retention-always-keep-starred =
     .label = Conserva sempre i messaggi speciali
     .accesskey = r
+retention-removal-warning = Questa impostazione eliminerà definitivamente i vecchi messaggi dal server remoto e le copie sul computer. Procedere?
