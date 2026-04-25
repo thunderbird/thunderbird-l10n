@@ -25,3 +25,4 @@ retention-retain-by-age =
     .label = Lemel kuit kemennadennoù koshoc'h eget
     .accesskey = L
 retention-days-old = a zeizioù zo
+retention-removal-warning = An arventenn-mañ a zilamo ar c'hemennadennoù kozh da viken eus an dafariad a-bell HAG eus ho kadaviñ lec'hel. Sur oc'h e fell deoc'h kenderc'hel ?
