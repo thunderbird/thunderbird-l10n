@@ -11,6 +11,20 @@
 
 ## Common strings
 
+retention-description = Om skyfspasie te herwin, kan ou boodskappe permanent geskrap word.
+retention-description-imap = Om skyfspasie te herwin, kan ou boodskappe permanent geskrap word (beide die plaaslike kopie en die oorspronklike op die afgeleë bediener).
+retention-description-pop = Om skyfspasie te herwin, kan ou boodskappe permanent geskrap word, insluitend die oorspronklike op die afgeleë bediener.
+retention-retain-all =
+    .label = Moenie enige boodskappe skrap nie
+    .accesskey = M
+retention-retain-by-num-headers =
+    .label = Skrap alles behalwe die mees onlangse
+    .accesskey = b
+retention-messages = boodskappe
+retention-retain-by-age =
+    .label = Skrap boodskappe ouer as
+    .accesskey = r
+retention-days-old = dae
 retention-always-keep-starred =
     .label = Hou altyd gevlagde boodskappe
     .accesskey = H
