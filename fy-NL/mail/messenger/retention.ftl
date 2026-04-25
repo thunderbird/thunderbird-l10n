@@ -36,3 +36,4 @@ retention-days-old = dagen
 retention-always-keep-starred =
     .label = Berjochten mei stjerke altyd bewarje
     .accesskey = e
+retention-removal-warning = Mei dizze ynstelling sille âlde berjochten permanint fan de server én út jo lokale ûnthâld fuortsmiten wurde. Binne jo wis dat jo trochgean wolle?
