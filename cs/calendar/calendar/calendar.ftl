@@ -25,6 +25,10 @@ ask-save-title-event = Uložení události
 ask-save-title-task = Uložení úkolu
 ask-save-message-event = Událost nebyla uložena. Chcete ji uložit?
 ask-save-message-task = Úkol nebyl uložen. Chcete ho uložit?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Celý den
+    .accesskey = C
 # Event Dialog Warnings
 warning-end-before-start = Vložené datum konce se nachází před datem začátku
 warning-until-date-before-start = Koncové datum se nachází před datem začátku
