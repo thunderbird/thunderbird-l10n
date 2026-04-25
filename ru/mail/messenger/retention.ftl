@@ -7,6 +7,9 @@
 
 retention-tab =
     .label = Настройки хранения сообщений
+retention-use-default =
+    .label = Использовать параметры моей учётной записи
+    .accesskey = п
 
 ## Account Settings
 
@@ -22,6 +25,14 @@ retention-description-pop = Для высвобождения места на д
 retention-retain-all =
     .label = Не удалять сообщения
     .accesskey = е
+retention-retain-by-num-headers =
+    .label = Удалять все, кроме последних
+    .accesskey = я
+retention-messages = сообщений
 retention-retain-by-age =
     .label = Удалять сообщения старше
     .accesskey = л
+retention-days-old = дней
+retention-always-keep-starred =
+    .label = Всегда хранить сообщения, отмеченные звёздочкой
+    .accesskey = с
