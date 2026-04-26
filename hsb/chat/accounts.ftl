@@ -18,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Hišće žane konto konfigurowane njeje
+account-manager-no-accounts-description = Klikńće na tłóčatko { add-account-label }, zo by móhł { -brand-short-name } was přez proces konfigurowanja konta wjesć.
 account-manager-no-account-description = Klikńće na tłóčatko { new-account-label }, zo by móhł { -brand-short-name } was přez proces konfigurowanja konta wjesć.
 account-auto-sign-on =
     .label = Za start přizjewić
@@ -43,3 +44,4 @@ account-disconnecting =
     .value = Zwisk so dźěli…
 account-disconnected =
     .value = Njezwjazany
+add-account-label = Konto přidać
