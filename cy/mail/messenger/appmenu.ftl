@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Grŵp Newyddion
     .accesskey = N
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Ychwanegu Cyfrif
+appmenu-add-account-panel =
+    .label = Ychwanegu Cyfrif
+    .accesskey = Y
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = Llyfr Cyfeiriadau LDAP
     .accesskey = D
+appmenu-add-address-book-panel-title =
+    .title = Ychwanegu Llyfr Cyfeiriadau
+appmenu-add-address-book =
+    .label = Llyfr Cyfeiriadau
+    .accesskey = L
 
 ## Create
 

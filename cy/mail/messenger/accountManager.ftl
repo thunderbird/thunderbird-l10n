@@ -4,6 +4,7 @@
 
 open-preferences-sidebar-button2 = Gosodiadau { -brand-short-name }
 open-addons-sidebar-button = Ychwanegion a Themâu
+account-tree-add-account-button = Ychwanegu Cyfrif
 account-action-add-newsgroup-account =
     .label = Ychwanegu Cyfrif Grŵp Newyddion…
     .accesskey = G

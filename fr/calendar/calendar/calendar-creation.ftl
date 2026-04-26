@@ -4,6 +4,7 @@
 
 select-all-calendars = Tout sélectionner
 select-none-calendars = Ne rien sélectionner
+calendar-creation-dialog-title = Ajouter un agenda
 calendar-creation-wizard-title = Créer un nouvel agenda
 calendar-creation-initial-description = Votre agenda peut être stocké sur votre ordinateur ou sur un serveur afin d’y accéder à distance ou de le partager avec vos amis ou vos collègues de travail.
 calendar-creation-initial-computer =

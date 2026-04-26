@@ -5,6 +5,9 @@
 new-account-label = Nouveau compte
 # Instant messaging account status window for Thunderbird
 accounts-window-title = État de la messagerie instantanée
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = A
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = N
@@ -15,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Aucun compte configuré
+account-manager-no-accounts-description = Cliquez sur le bouton { add-account-label } pour laisser { -brand-short-name } vous guider dans le processus de configuration.
 account-manager-no-account-description = Cliquer sur le bouton « { new-account-label } » pour laisser { -brand-short-name } vous guider dans le processus de configuration.
 account-auto-sign-on =
     .label = S’identifier au démarrage
@@ -40,3 +44,4 @@ account-disconnecting =
     .value = Déconnexion en cours…
 account-disconnected =
     .value = Non connecté
+add-account-label = Ajouter un compte

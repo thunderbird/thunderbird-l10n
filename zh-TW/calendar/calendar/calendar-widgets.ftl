@@ -20,6 +20,8 @@ calendar-enable-button = 啟用
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = { $calendarName } 行事曆選項
+calendar-add-calendar = 新增行事歷…
+    .title = 建立或訂閱行事歷
 calendar-import-new-calendar = 開新行事曆…
     .title = 建立或訂閱新行事曆
 calendar-refresh-calendars =

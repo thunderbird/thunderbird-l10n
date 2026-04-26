@@ -4,6 +4,7 @@
 
 select-all-calendars = Dewis y cyfan
 select-none-calendars = Dewis dim
+calendar-creation-dialog-title = Ychwanegu calendr
 calendar-creation-wizard-title = Creu Calendr Newydd
 calendar-creation-initial-description = Mae modd gosod eich calendr ar eich cyfrifiadur neu ar weinydd fel bod modd i chi gael mynediad o bell neu ei rannu gyda'ch ffrindiau a'ch cydweithwyr.
 calendar-creation-initial-computer =

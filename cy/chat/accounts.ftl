@@ -5,6 +5,9 @@
 new-account-label = Cyfrif Newydd
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Statws negesu chwim
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = A
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = N
@@ -15,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Dim cyfrif wedi'i ffurfweddu eto
+account-manager-no-accounts-description = Cliciwch ar y botwm { add-account-label } i adael i { -brand-short-name } eich arwain drwy'r broses o ffurfweddu un.
 account-manager-no-account-description = Cliciwch ar fotwm { new-account-label } i { -brand-short-name } eich arwain drwy'r broses o'i ffurfweddu.
 account-auto-sign-on =
     .label = Mewngofnodi wrth gychwyn
@@ -40,3 +44,4 @@ account-disconnecting =
     .value = Dad-gysylltu…
 account-disconnected =
     .value = Heb Gysylltu
+add-account-label = Ychwanegu Cyfrif

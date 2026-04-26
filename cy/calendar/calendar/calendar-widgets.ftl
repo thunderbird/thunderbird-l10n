@@ -20,6 +20,8 @@ calendar-enable-button = Galluogi
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Dewisiadau calendr { $calendarName }
+calendar-add-calendar = Ychwanegu Calendr…
+    .title = Creu neu danysgrifio i galendr
 calendar-import-new-calendar = Calendr Newydd…
     .title = Crëwch neu danysgrifio i galendr newydd
 calendar-refresh-calendars =
