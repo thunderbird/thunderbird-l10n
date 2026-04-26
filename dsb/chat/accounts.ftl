@@ -5,6 +5,9 @@
 new-account-label = Nowe konto
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Status za słanje powěsćow ned
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = K
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = N
@@ -15,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Hyšći njejo žedno konto konfigurěrowane
+account-manager-no-accounts-description = Klikniśo na tłocašk { add-account-label }, aby mógał { -brand-short-name } was pśez proces konfigurěrowanja konta wjasć.
 account-manager-no-account-description = Klikniśo na tłocašk { new-account-label }, aby mógał { -brand-short-name } was pśez proces konfigurěrowanja konta wjasć.
 account-auto-sign-on =
     .label = Za start pśizjawiś
@@ -40,3 +44,4 @@ account-disconnecting =
     .value = Zwisk se źěli…
 account-disconnected =
     .value = Njezwězany
+add-account-label = Konto pśidaś

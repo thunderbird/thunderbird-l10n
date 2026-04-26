@@ -4,6 +4,7 @@
 
 select-all-calendars = Wšykne wubraś
 select-none-calendars = Žeden njewubraś
+calendar-creation-dialog-title = Kalendaŕ pśidaś
 calendar-creation-wizard-title = Nowy kalender napóraś
 calendar-creation-initial-description = Waš kalender dajo se na wašom licadle abo na serweru składowaś, aby na njen zdaloka pśistup měł abo jen z wašymi pśijaśelami abo sobuźěłaśerjami źělił.
 calendar-creation-initial-computer =
