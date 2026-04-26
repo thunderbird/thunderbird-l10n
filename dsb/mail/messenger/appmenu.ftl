@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Wótzjawiś…
     .accesskey = W
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Nowe konto

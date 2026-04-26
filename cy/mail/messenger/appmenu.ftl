@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Allgofnodi…
     .accesskey = A
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Cyfrif Newydd

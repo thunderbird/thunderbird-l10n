@@ -11,7 +11,7 @@ appmenu-sync-sign-out =
     .label = Sínigh Amach…
     .accesskey = A
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Cuntas Nua

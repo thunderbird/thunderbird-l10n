@@ -25,7 +25,7 @@ appmenu-sync-sign-out =
     .label = Ffeɣ…
     .accesskey = F
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Amiḍan amaynut

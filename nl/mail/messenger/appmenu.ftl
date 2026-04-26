@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Afmelden…
     .accesskey = A
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Nieuwe account

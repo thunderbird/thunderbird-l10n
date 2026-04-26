@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Sortir…
     .accesskey = o
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Nov conto

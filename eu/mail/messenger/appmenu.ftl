@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Amaitu saioa…
     .accesskey = A
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Kontu berria

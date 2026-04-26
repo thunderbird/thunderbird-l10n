@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = გამოსვლა…
     .accesskey = ო
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = ახალი ანგარიში

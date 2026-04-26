@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Ieși din cont…
     .accesskey = O
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Cont nou

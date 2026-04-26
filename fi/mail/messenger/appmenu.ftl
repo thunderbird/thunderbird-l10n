@@ -26,7 +26,7 @@ appmenu-sync-sign-out =
     .label = Kirjaudu ulos…
     .accesskey = o
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Uusi tili

@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Вийти…
     .accesskey = В
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Новий обліковий запис

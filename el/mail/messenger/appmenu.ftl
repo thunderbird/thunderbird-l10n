@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Αποσύνδεση…
     .accesskey = ν
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Νέος λογαριασμός

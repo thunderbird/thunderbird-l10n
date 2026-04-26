@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Odjavi se…
     .accesskey = O
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Novi račun

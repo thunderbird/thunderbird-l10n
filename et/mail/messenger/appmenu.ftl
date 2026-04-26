@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Logi välja...
     .accesskey = v
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Uus konto

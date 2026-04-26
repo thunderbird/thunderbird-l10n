@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Ofmelde…
     .accesskey = O
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Nije account

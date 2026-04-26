@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Clauder session…
     .accesskey = C
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Nove conto

@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Tanca la sessió…
     .accesskey = T
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Compte nou

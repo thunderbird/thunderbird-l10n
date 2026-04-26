@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = 登出…
     .accesskey = O
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = 新增帳號

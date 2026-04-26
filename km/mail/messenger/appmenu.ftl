@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = គណនី​ថ្មី

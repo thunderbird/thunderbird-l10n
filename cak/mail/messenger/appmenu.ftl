@@ -10,7 +10,7 @@ appmenu-sync-panel-title =
 appmenu-sync-account =
     .value = example@example.com
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = K'ak'a' Rub'i' Taqoya'l

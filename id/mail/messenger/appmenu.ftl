@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Keluar…
     .accesskey = K
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Akun Baru

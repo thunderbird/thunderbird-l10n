@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Dilni…
     .accesskey = D
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Llogari e Re

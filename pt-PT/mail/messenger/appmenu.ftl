@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Terminar sessão…
     .accesskey = T
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Nova conta

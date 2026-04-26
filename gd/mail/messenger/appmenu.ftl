@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Clàraich a-mach…
     .accesskey = a
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Cunntas ùr

@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Útskráning…
     .accesskey = k
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Nýr reikningur

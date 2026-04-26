@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Шығу…
     .accesskey = ы
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Жаңа тіркелгі

@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = Đăng xuất…
     .accesskey = O
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Tài khoản mới

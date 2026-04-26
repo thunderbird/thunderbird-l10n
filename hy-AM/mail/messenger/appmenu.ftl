@@ -8,7 +8,7 @@
 appmenu-sync-panel-title =
     .title = Համաժամեցում
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = Նոր փոստարկղ

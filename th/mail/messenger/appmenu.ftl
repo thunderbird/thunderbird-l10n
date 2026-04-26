@@ -28,7 +28,7 @@ appmenu-sync-sign-out =
     .label = ลงชื่อออก…
     .accesskey = อ
 
-## New Account
+## Add Account
 
 appmenu-new-account-panel-title =
     .title = บัญชีใหม่
