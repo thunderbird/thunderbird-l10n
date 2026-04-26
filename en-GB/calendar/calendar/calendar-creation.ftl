@@ -4,6 +4,7 @@
 
 select-all-calendars = Select all
 select-none-calendars = Select none
+calendar-creation-dialog-title = Add calendar
 calendar-creation-wizard-title = Create New Calendar
 calendar-creation-initial-description = Your calendar can be stored on your computer or be stored on a server in order to access it remotely or share it with your friends or co-workers.
 calendar-creation-initial-computer =
