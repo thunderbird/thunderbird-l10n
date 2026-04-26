@@ -4,6 +4,7 @@
 
 open-preferences-sidebar-button2 = Nastajenja { -brand-short-name }
 open-addons-sidebar-button = Dodanki a drastwy
+account-tree-add-account-button = Konto pśidaś
 account-action-add-newsgroup-account =
     .label = Konto za diskusijnu kupku pśidaś…
     .accesskey = d

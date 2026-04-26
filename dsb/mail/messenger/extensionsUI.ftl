@@ -4,6 +4,8 @@
 
 webext-experiment-warning = Złosne dodanki mógu waše priwatne daty kšadnuś abo wašomu licadłoju škóźiś. Instalěrujśo toś ten dodank jano, gaž žrědłoju dowěriśo.
 webext-perms-learn-more = Dalšne informacije
+webext-install-suppressed-message = Dodank <> njedajo se instalěrowaś, dokulaž eksperimentowe API wužywa, kótarež se pśez toś tu wersiju Thunderbird njepódpěraju.
+webext-install-suppressed-details = Dodanki z eksperimentowymi API se jano na { -brand-product-name } ESR pódpěraju.
 # Variables:
 #   $addonName (String): localized named of the extension that was just installed.
 addon-post-install-message = { $addonName } jo se pśidał.
