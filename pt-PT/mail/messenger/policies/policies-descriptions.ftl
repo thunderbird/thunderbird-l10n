@@ -16,7 +16,7 @@ policy-AppUpdatePin = Impedir que o { -brand-short-name } seja atualizado além 
 policy-AppUpdateURL = Definir um endereço personalizado para a atualização da aplicação.
 policy-Authentication = Configurar autenticação integrada para sites que a suportem.
 policy-BackgroundAppUpdate2 = Ativar ou desativar o serviço de atualização em segundo plano.
-policy-BlockAboutAddons = Bloquear o acesso ao Gestor de extras (about:addons).
+policy-BlockAboutAddons = Bloquear o acesso ao Gestor de complementos (about:addons).
 policy-BlockAboutConfig = Bloquear o acesso à página about:config.
 policy-BlockAboutProfiles = Bloquear o acesso à página about:profiles.
 policy-BlockAboutSupport = Bloquear o acesso à página about:support.
@@ -37,7 +37,7 @@ policy-DisablePasswordReveal = Impedir que as palavras-passe sejam reveladas nas
 policy-DisableProfileImport = Desativar o comando do menu para importar dados de outra aplicação.
 policy-DisableSafeMode = Desativar a funcionalidade de reiniciar no Modo de segurança. Nota: o botão Shift para entrar no Modo de segurança apenas pode ser desativado no Windows com recurso a uma Política de grupo.
 policy-DisableSecurityBypass = Impedir o utilizador de contornar certos avisos de segurança.
-policy-DisableSystemAddonUpdate = Impedir o { -brand-short-name } de instalar e atualizar extras de sistema.
+policy-DisableSystemAddonUpdate = Impedir o { -brand-short-name } de instalar e atualizar complementos de sistema.
 policy-DisableTelemetry = Desativar a Telemetria.
 policy-DisplayMenuBar = Mostrar a Barra de menu por predefinição.
 policy-DNSOverHTTPS = Configurar DNS por HTTPS.
@@ -56,7 +56,7 @@ policy-ExtensionUpdate = Ativar ou desativar atualizações automáticas de exte
 policy-Handlers = Configurar as aplicações operadoras predefinidas.
 policy-HardwareAcceleration = Se falso, desligar aceleração por hardware.
 policy-InAppNotification = Ativar ou desativar tipos de notificação.
-policy-InstallAddonsPermission = Permitir a instalação de extras a determinados sites.
+policy-InstallAddonsPermission = Permitir que determinados sites instalem complementos.
 policy-LegacyProfiles = Desativar a funcionalidade de forçar um perfil separado para cada instalação.
 
 ## Do not translate "SameSite", it's the name of a cookie attribute.

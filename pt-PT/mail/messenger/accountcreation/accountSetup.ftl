@@ -77,12 +77,12 @@ account-setup-looking-up-db = A localizar configuração: base de dados de ISP d
 account-setup-looking-up-mx = A localizar configuração: domínio de correio a receber...
 account-setup-looking-up-exchange = A localizar configuração: servidor Exchange…
 account-setup-checking-password = A verificar a palavra-passe…
-account-setup-installing-addon = A transferir e a instalar o extra…
+account-setup-installing-addon = A transferir e a instalar o complemento…
 account-setup-success-half-manual = Foram encontradas as seguintes definições ao sondar o servidor indicado:
 account-setup-success-guess = Configuração encontrada ao tentar os nomes comuns de servidor
 account-setup-success-guess-offline = Está no modo desligado. Foram inseridas algumas definições mas terá de especificar as definições corretas.
 account-setup-success-password = Palavra-passe OK
-account-setup-success-addon = Extra instalado com sucesso
+account-setup-success-addon = Complemento instalado com sucesso
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-success-settings-db = Configuração encontrada na base de dados de ISP da Mozilla.
 account-setup-success-settings-disk = Configuração encontrada na instalação do { -brand-short-name }.
@@ -218,7 +218,7 @@ account-setup-confirm-advanced-description = Esta janela será fechada e será c
 ## Addon installation section
 
 account-setup-addon-install-title = Instalar
-account-setup-addon-install-intro = Um extra de terceiros pode permitir-lhe aceder à sua conta de correio eletrónico neste servidor:
+account-setup-addon-install-intro = Um complemento de terceiros pode permitir-lhe aceder à sua conta de correio eletrónico neste servidor:
 account-setup-addon-no-protocol = Este servidor de correio eletrónico infelizmente não suporta os protocolos abertos. { account-setup-addon-install-intro }
 
 ## Success view

@@ -100,8 +100,8 @@ open-tabs-warning-confirmation =
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
-    .label = Extras e Temas
-    .tooltiptext = Gerir os seus extras
+    .label = Complementos e temas
+    .tooltiptext = Gerir os seus complementos
 quick-filter-toolbarbutton =
     .label = Filtro Rápido
     .tooltiptext = Filtrar mensagens
@@ -259,7 +259,7 @@ appmenu-save-as-file =
 appmenu-settings =
     .label = Definições
 appmenu-addons-and-themes =
-    .label = Extras e temas
+    .label = Complementos e temas
 
 ## Context menu
 
@@ -482,7 +482,7 @@ settings-context-open-settings-item2 =
 settings-context-open-account-settings-item2 =
     .label = Definições de Conta
 settings-context-open-addons-item2 =
-    .label = Extras e Temas
+    .label = Complementos e temas
 
 ## Spaces toolbar pinned tab menupopup
 

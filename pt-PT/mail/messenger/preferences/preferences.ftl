@@ -95,7 +95,7 @@ update-in-progress-ok-button = &Descartar
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Continuar
 account-button = Definições de conta
-open-addons-sidebar-button = Extras e temas
+open-addons-sidebar-button = Complementos e temas
 
 ## OS Authentication dialog
 
@@ -891,7 +891,7 @@ style-simple =
     .label = Simples
 preview-label = Pré-visualização:
 no-preview-label = Sem pré-visualização disponível
-no-preview-description = Este tema não é válido ou está atualmente indisponível (extra desativado, modo de segurança, …).
+no-preview-description = Este tema não é válido ou está atualmente indisponível (complemento desativado, modo de segurança, …).
 chat-variant-label =
     .value = Variante:
     .accesskey = V
@@ -922,7 +922,7 @@ search-results-help-link = Precisa de ajuda? Visite o <a data-l10n-name="url">Ap
 ## Sync Tab
 
 sync-signedout-caption = Leve a sua Web consigo
-sync-signedout-description = Sincronize as suas contas, livros de endereço, calendários, extras e definições entre todos os seus dispositivos.
+sync-signedout-description = Sincronize as suas contas, livros de endereço, calendários, complementos e definições, entre todos os seus dispositivos.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Iniciar a sessão para sincronizar…
 sync-pane-header = Sincronização
