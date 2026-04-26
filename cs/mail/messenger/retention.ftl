@@ -1,0 +1,39 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## Folder Properties
+
+retention-tab =
+    .label = Pravidla uchovávání zpráv
+retention-use-default =
+    .label = Použít nastavení účtu
+    .accesskey = n
+
+## Account Settings
+
+retention-button =
+    .label = Pravidla uchovávání zpráv
+retention-dialog-title = Pravidla uchovávání zpráv
+
+## Common strings
+
+retention-description = Pro ušetření místa na disku lze automaticky mazat staré zprávy.
+retention-description-imap = Pro ušetření místa na disku lze automaticky mazat staré zprávy, jak místní kopie, tak originály na vzdáleném serveru.
+retention-description-pop = Pro ušetření místa na disku lze automaticky mazat staré zprávy, včetně originálů na vzdáleném serveru.
+retention-retain-all =
+    .label = Nemazat žádné zprávy
+    .accesskey = e
+retention-retain-by-num-headers =
+    .label = Smazat vše mimo posledních
+    .accesskey = S
+retention-messages = zpráv
+retention-retain-by-age =
+    .label = Smazat zprávy starší než
+    .accesskey = m
+retention-days-old = dny(ů)
+retention-always-keep-starred =
+    .label = Vždy ukládat zprávy s hvězdičkou
+    .accesskey = u
+retention-removal-warning = Toto nastavení trvale smaže staré zprávy ze vzdáleného server i vašeho místního úložiště. Opravdu chcete pokračovat?

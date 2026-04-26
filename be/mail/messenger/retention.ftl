@@ -1,0 +1,39 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## Folder Properties
+
+retention-tab =
+    .label = Палітыка ўтрымання
+retention-use-default =
+    .label = Выкарыстоўваць налады майго ўліковага запісу
+    .accesskey = У
+
+## Account Settings
+
+retention-button =
+    .label = Палітыка ўтрымання
+retention-dialog-title = Палітыка ўтрымання
+
+## Common strings
+
+retention-description = Каб вызваліць месца на дыску, старыя паведамленні можна выдаліць цалкам.
+retention-description-imap = Каб вызваліць месца на дыску, старыя паведамленні можна выдаліць цалкам, уключаючы як лакальныя копіі, так і арыгіналы на аддаленым серверы.
+retention-description-pop = Каб вызваліць месца на дыску, старыя паведамленні можна выдаліць цалкам, уключаючы арыгіналы на аддаленым серверы.
+retention-retain-all =
+    .label = Не выдаляць ніякіх паведамленняў
+    .accesskey = е
+retention-retain-by-num-headers =
+    .label = Выдаляць усе, акрамя нядаўніх
+    .accesskey = ы
+retention-messages = паведамленняў
+retention-retain-by-age =
+    .label = Выдаляць паведамленні старэй за
+    .accesskey = В
+retention-days-old = дзён
+retention-always-keep-starred =
+    .label = Не выдаляць пазначаныя паведамленні
+    .accesskey = д
+retention-removal-warning = Гэта налада выдаліць старыя паведамленні з аддаленага сервера І ТАКСАМА з вашага лакальнага сховішча. Вы ўпэўнены, што жадаеце працягнуць?
