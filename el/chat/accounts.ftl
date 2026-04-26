@@ -5,6 +5,9 @@
 new-account-label = Νέος λογαριασμός
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Κατάσταση άμεσων μηνυμάτων
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = Π
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = N
@@ -40,3 +43,4 @@ account-disconnecting =
     .value = Αποσύνδεση…
 account-disconnected =
     .value = Εκτός σύνδεσης
+add-account-label = Προσθήκη λογαριασμού

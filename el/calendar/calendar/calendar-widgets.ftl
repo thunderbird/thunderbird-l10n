@@ -20,6 +20,8 @@ calendar-enable-button = Ενεργοποίηση
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Επιλογές ημερολογίου «{ $calendarName }»
+calendar-add-calendar = Προσθήκη ημερολογίου…
+    .title = Δημιουργία ή εγγραφή σε ημερολόγιο
 calendar-import-new-calendar = Νέο ημερολόγιο…
     .title = Δημιουργήστε ή εγγραφείτε σε ένα νέο ημερολόγιο
 calendar-refresh-calendars =

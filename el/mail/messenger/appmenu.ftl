@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Ομάδες συζητήσεων
     .accesskey = Ο
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Προσθήκη λογαριασμού
+appmenu-add-account-panel =
+    .label = Προσθήκη λογαριασμού
+    .accesskey = γ
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = Ευρετήριο LDAP
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Προσθήκη ευρετηρίου
+appmenu-add-address-book =
+    .label = Ευρετήριο διευθύνσεων
+    .accesskey = υ
 
 ## Create
 
