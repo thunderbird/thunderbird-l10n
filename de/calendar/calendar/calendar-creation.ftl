@@ -4,6 +4,7 @@
 
 select-all-calendars = Alles auswählen
 select-none-calendars = Nichts auswählen
+calendar-creation-dialog-title = Kalender hinzufügen
 calendar-creation-wizard-title = Neuen Kalender erstellen
 calendar-creation-initial-description = Ihr Kalender kann auf Ihrem Computer oder auf einem Server gespeichert werden, sodass Sie von anderen Orten darauf zugreifen bzw. ihn mit Freunden oder Arbeitskollegen gemeinsam verwenden können.
 calendar-creation-initial-computer =
