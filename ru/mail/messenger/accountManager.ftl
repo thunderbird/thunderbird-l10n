@@ -4,6 +4,7 @@
 
 open-preferences-sidebar-button2 = Настройки { -brand-short-name }
 open-addons-sidebar-button = Дополнения и темы
+account-tree-add-account-button = Добавить учётную запись
 account-action-add-newsgroup-account =
     .label = Добавить учётную запись новостей…
     .accesskey = н

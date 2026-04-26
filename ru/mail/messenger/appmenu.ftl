@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Группа новостей
     .accesskey = п
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Добавить учётную запись
+appmenu-add-account-panel =
+    .label = Добавить учётную запись
+    .accesskey = Т
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =

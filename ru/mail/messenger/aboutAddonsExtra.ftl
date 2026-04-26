@@ -11,3 +11,5 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = Поиск на addons.thunderbird.net
     .aria-label = Поиск на addons.thunderbird.net
+details-notification-suppressed-esr =
+    .message = Дополнение было отключено, так как оно использует экспериментальные API. Эти API ограничены для { -brand-product-name } ESR и не поддерживаются в этой версии { -brand-product-name }.
