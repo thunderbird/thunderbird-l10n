@@ -5,6 +5,7 @@
 add-on-options-button =
     .title = Настройки дополнений
 add-on-search-alternative-button-label = Найти альтернативное дополнение
+add-on-learn-more-and-search-alternative-button-label = Узнайте больше и найдите альтернативное дополнение
 atn-addons-heading-search-input =
     .placeholder = Поиск на addons.thunderbird.net
 atn-addons-heading-search-button =

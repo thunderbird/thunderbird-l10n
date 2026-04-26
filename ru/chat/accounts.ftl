@@ -5,6 +5,9 @@
 new-account-label = Создать учётную запись
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Статус мгновенных сообщений
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = Ф
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = а
@@ -15,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Учётные записи отсутствуют
+account-manager-no-accounts-description = Щёлкните по кнопке { add-account-label }, чтобы { -brand-short-name } провел вас через процесс её настройки.
 account-manager-no-account-description = Щёлкните по кнопке «{ new-account-label }», чтобы { -brand-short-name } провел вас через процесс её создания.
 account-auto-sign-on =
     .label = Входить при запуске
@@ -40,3 +44,4 @@ account-disconnecting =
     .value = Отключение…
 account-disconnected =
     .value = Не подключена
+add-account-label = Добавить учётную запись

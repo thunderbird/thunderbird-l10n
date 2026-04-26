@@ -4,6 +4,7 @@
 
 select-all-calendars = Wybierz wszystkie
 select-none-calendars = Nie wybieraj żadnych
+calendar-creation-dialog-title = Dodaj kalendarz
 calendar-creation-wizard-title = Nowy kalendarz
 calendar-creation-initial-description =
     Kalendarz może być przechowywany na komputerze lokalnym albo
