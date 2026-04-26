@@ -57,7 +57,7 @@ appmenu-add-account-panel-title =
     .title = 新增帳號
 appmenu-add-account-panel =
     .label = 新增帳號
-    .accesskey = 新
+    .accesskey = N
 
 ## New Account / Address Book
 

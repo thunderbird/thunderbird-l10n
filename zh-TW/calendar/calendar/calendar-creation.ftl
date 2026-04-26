@@ -4,7 +4,7 @@
 
 select-all-calendars = 選擇全部
 select-none-calendars = 全部不選
-calendar-creation-dialog-title = 新增行事歷
+calendar-creation-dialog-title = 新增行事曆
 calendar-creation-wizard-title = 建立新的行事曆
 calendar-creation-initial-description = 您的行事曆可以存放在電腦或伺服器上，便於從遠端存取或與親朋好友分享。
 calendar-creation-initial-computer =
