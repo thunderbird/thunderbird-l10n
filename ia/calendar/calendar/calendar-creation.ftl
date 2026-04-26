@@ -4,6 +4,7 @@
 
 select-all-calendars = Seliger toto
 select-none-calendars = Seliger nihil
+calendar-creation-dialog-title = Adder agenda
 calendar-creation-wizard-title = Crear nove agenda
 calendar-creation-initial-description = Tu pote salvar tu agenda sur le computator o sur un servitor, pro acceder lo ab remote o compartir lo con amicos e collaboratores.
 calendar-creation-initial-computer =
