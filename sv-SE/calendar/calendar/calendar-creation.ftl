@@ -4,6 +4,7 @@
 
 select-all-calendars = Markera alla
 select-none-calendars = Markera ingen
+calendar-creation-dialog-title = Lägg till kalender
 calendar-creation-wizard-title = Skapa ny kalender
 calendar-creation-initial-description = Din kalender kan lagras på din dator eller på en server för att du ska kunna komma åt den på distans eller dela den med dina vänner eller kollegor.
 calendar-creation-initial-computer =

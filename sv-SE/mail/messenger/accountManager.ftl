@@ -4,6 +4,7 @@
 
 open-preferences-sidebar-button2 = Inställningar för { -brand-short-name }
 open-addons-sidebar-button = Tillägg och teman
+account-tree-add-account-button = Lägg till konto
 account-action-add-newsgroup-account =
     .label = Lägg diskussionsgruppskonto…
     .accesskey = d
