@@ -4,7 +4,7 @@
 <!ENTITY providerUninstall.title "Remover um fornecedor">
 <!ENTITY providerUninstall.accept.label "Remover subscrição selecionada">
 <!ENTITY providerUninstall.accept.accesskey "u">
-<!ENTITY providerUninstall.cancel.label "Manter extra">
+<!ENTITY providerUninstall.cancel.label "Manter complemento">
 <!ENTITY providerUninstall.cancel.accesskey "M">
 <!ENTITY providerUninstall.preName.label "Pediu para desinstalar ou desativar:">
 <!ENTITY providerUninstall.postName.label "Isto fará com que os calendários abaixo sejam desativados.">
