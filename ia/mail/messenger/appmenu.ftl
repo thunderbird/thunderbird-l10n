@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Gruppo de discussion
     .accesskey = G
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Adder conto
+appmenu-add-account-panel =
+    .label = Adder conto
+    .accesskey = N
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =

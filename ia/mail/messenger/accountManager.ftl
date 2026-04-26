@@ -4,6 +4,7 @@
 
 open-preferences-sidebar-button2 = Parametros de { -brand-short-name }
 open-addons-sidebar-button = Additivos e themas
+account-tree-add-account-button = Adder conto
 account-action-add-newsgroup-account =
     .label = Adder conto de discussion…
     .accesskey = d
