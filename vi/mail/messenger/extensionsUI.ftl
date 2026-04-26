@@ -4,6 +4,8 @@
 
 webext-experiment-warning = Những tiện ích độc hại có thể lấy cắp thông tin cá nhân hoặc làm tổn hại đến máy tính của bạn. Chỉ cài đặt tiện ích này nếu bạn tin tưởng nguồn cài đặt.
 webext-perms-learn-more = Tìm hiểu thêm
+webext-install-suppressed-message = Tiện ích <> không thể cài đặt vì nó sử dụng API thử nghiệm, vốn không được phiên bản Thunderbird này hỗ trợ.
+webext-install-suppressed-details = Các tiện ích với API thử nghiệm chỉ được hỗ trợ trên { -brand-product-name } ESR.
 # Variables:
 #   $addonName (String): localized named of the extension that was just installed.
 addon-post-install-message = Đã thêm { $addonName }.

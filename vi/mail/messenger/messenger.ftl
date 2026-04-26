@@ -237,6 +237,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Ưa thích
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = (không có mục gần đây)
+menu-move-copy-no-favorites =
+    .label = (không có ưa thích nào)
 
 ## AppMenu
 

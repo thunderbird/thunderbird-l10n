@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Nhóm tin
     .accesskey = N
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Thêm tài khoản
+appmenu-add-account-panel =
+    .label = Thêm tài khoản
+    .accesskey = N
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = Sổ địa chỉ LDAP
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Thêm sổ địa chỉ
+appmenu-add-address-book =
+    .label = Sổ địa chỉ
+    .accesskey = A
 
 ## Create
 

@@ -4,6 +4,7 @@
 
 select-all-calendars = Chọn tất cả
 select-none-calendars = Bỏ chọn tất cả
+calendar-creation-dialog-title = Thêm lịch
 calendar-creation-wizard-title = Tạo lịch mới
 calendar-creation-initial-description = Bộ lịch của bạn có thể được lưu trữ trên máy tính hoặc trên một máy chủ để có thể truy cập nó từ xa hoặc chia sẻ nó với bạn bè hoặc đồng nghiệp.
 calendar-creation-initial-computer =

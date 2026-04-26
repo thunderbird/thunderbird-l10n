@@ -20,6 +20,8 @@ calendar-enable-button = Bật
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Tùy chọn lịch { $calendarName }
+calendar-add-calendar = Thêm lịch…
+    .title = Tạo hoặc đăng ký theo dõi lịch
 calendar-import-new-calendar = Lịch mới…
     .title = Tạo hoặc đăng ký lịch mới
 calendar-refresh-calendars =

@@ -16,6 +16,8 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Thêm sổ địa chỉ LDAP
 books-pane-create-contact-button = Liên hệ mới
     .title = Tạo một liên hệ mới
+books-pane-add-book-button =
+    .title = Thêm sổ địa chỉ
 books-pane-create-book-button =
     .title = Tạo một sổ địa chỉ mới
 books-pane-create-list-button =
@@ -61,6 +63,8 @@ about-addressbook-confirm-remove-remote-book-title = Xóa sổ địa chỉ
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Bạn có chắc chắn muốn xóa { $name } không?
+address-book-list =
+    .aria-label = Danh sách sổ địa chỉ
 
 ## Cards
 

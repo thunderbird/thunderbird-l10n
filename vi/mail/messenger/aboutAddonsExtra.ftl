@@ -5,8 +5,11 @@
 add-on-options-button =
     .title = Tùy chọn tiện ích
 add-on-search-alternative-button-label = Tìm một tiện ích mở rộng thay thế
+add-on-learn-more-and-search-alternative-button-label = Tìm hiểu thêm và tìm tiện ích thay thế
 atn-addons-heading-search-input =
     .placeholder = Tìm kiếm addons.thunderbird.net
 atn-addons-heading-search-button =
     .title = Tìm kiếm addons.thunderbird.net
     .aria-label = Tìm kiếm addons.thunderbird.net
+details-notification-suppressed-esr =
+    .message = Tiện ích đã bị vô hiệu hoá vì nó sử dụng API thử nghiệm. Các API này bị giới hạn ở { -brand-product-name } ESR và không được hỗ trợ trong phiên bản này của { -brand-product-name }.
