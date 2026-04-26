@@ -4,6 +4,8 @@
 
 webext-experiment-warning = Böswillige Add-ons können private Informationen stehlen oder Ihren Computer übernehmen. Installieren Sie dieses Add-on nur, wenn Sie der Quelle vertrauen.
 webext-perms-learn-more = Weitere Informationen
+webext-install-suppressed-message = Das Add-on <> konnte nicht installiert werden, weil es Experimentelle-APIs verwendet, die von dieser Thunderbird-Version nicht unterstützt werden.
+webext-install-suppressed-details = Add-ons mit Experiment-APIs werden nur auf { -brand-product-name } ESR unterstützt.
 # Variables:
 #   $addonName (String): localized named of the extension that was just installed.
 addon-post-install-message = { $addonName } wurde hinzugefügt.
