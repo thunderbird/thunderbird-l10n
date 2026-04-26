@@ -4,6 +4,7 @@
 
 select-all-calendars = Wšě wubrać
 select-none-calendars = Žadyn njewubrać
+calendar-creation-dialog-title = Protyku přidać
 calendar-creation-wizard-title = Nowu protyku wutworić
 calendar-creation-initial-description = Waša protyka da so na wašim ličaku abo na serwerje składować, zo by na nju zdaloka přistup měł abo ju z wašimi přećelemi abo sobudźěłaćerjemi dźělił.
 calendar-creation-initial-computer =

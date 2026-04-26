@@ -5,6 +5,9 @@
 new-account-label = Nowe konto
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Status za słanje hnydomnych powěsćow
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = K
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = N

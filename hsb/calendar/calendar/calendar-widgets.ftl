@@ -20,6 +20,8 @@ calendar-enable-button = Zmóžnić
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Nastajenja protyki { $calendarName }
+calendar-add-calendar = Protyku přidać…
+    .title = Wutworće abo abonujće protyku
 calendar-import-new-calendar = Nowa protyka…
     .title = Nowu protyku wutworić abo abonować
 calendar-refresh-calendars =
