@@ -12,4 +12,4 @@ atn-addons-heading-search-button =
     .title = Cerca in addons.thunderbird.net
     .aria-label = Cerca in addons.thunderbird.net
 details-notification-suppressed-esr =
-    .message = Il componente aggiuntivo è stato disattivato in quanto utilizza le API Experiment. Queste API sono limitate a { -brand-product-name } ESR e non sono supportate in questa versione di { -brand-product-name }.
+    .message = Il componente aggiuntivo è stato disattivato perché utilizza le API Experiment, disponibili solo su { -brand-product-name } ESR e non supportate in questa versione di { -brand-product-name }.

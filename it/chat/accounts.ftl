@@ -18,7 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Nessun account configurato
-account-manager-no-accounts-description = Fai clic sul pulsante { add-account-label } per consentire a { -brand-short-name } di guidare l’utente nel processo di configurazione.
+account-manager-no-accounts-description = Fai clic sul pulsante { add-account-label } per consentire a { -brand-short-name } di guidarti nel processo di configurazione.
 account-manager-no-account-description = Fare clic sul pulsante { new-account-label } per utilizzare la procedura guidata di { -brand-short-name } per la configurazione di un nuovo account.
 account-auto-sign-on =
     .label = Autenticazione all'avvio
