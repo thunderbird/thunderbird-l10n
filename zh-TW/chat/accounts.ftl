@@ -18,7 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = 未設定帳號
-account-manager-no-accounts-description = 點擊 { add-account-label } 按鈕讓 { -brand-short-name } 帶領您進行設定。
+account-manager-no-accounts-description = 請點擊 { add-account-label } 按鈕讓 { -brand-short-name } 帶您進行設定帳號。
 account-manager-no-account-description = 請點擊 { new-account-label } 按鈕讓 { -brand-short-name } 帶您進行設定帳號。
 account-auto-sign-on =
     .label = 啟動時登入

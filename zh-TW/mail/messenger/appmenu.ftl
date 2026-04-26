@@ -79,7 +79,7 @@ appmenu-add-address-book-panel-title =
     .title = 新增通訊錄
 appmenu-add-address-book =
     .label = 通訊錄
-    .accesskey = 通
+    .accesskey = A
 
 ## Create
 
