@@ -75,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = Адресная книга LDAP
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Добавить адресную книгу
+appmenu-add-address-book =
+    .label = Адресная книга
+    .accesskey = Ф
 
 ## Create
 

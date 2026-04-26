@@ -77,6 +77,9 @@ appmenu-new-ldap =
     .accesskey = P
 appmenu-add-address-book-panel-title =
     .title = Dodaj książkę adresową
+appmenu-add-address-book =
+    .label = Książka adresowa
+    .accesskey = K
 
 ## Create
 
