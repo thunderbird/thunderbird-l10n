@@ -18,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Nulle conto ancora configurate
+account-manager-no-accounts-description = Clicca sur le button { add-account-label } proque { -brand-short-name } te guidar per le procedura de configuration.
 account-manager-no-account-description = Clicca sur le button { new-account-label } pro lassar { -brand-short-name } guidar te per le procedura de configuration.
 account-auto-sign-on =
     .label = Authentication al initio
@@ -43,3 +44,4 @@ account-disconnecting =
     .value = Disconnexion…
 account-disconnected =
     .value = Non connectite
+add-account-label = Adder conto

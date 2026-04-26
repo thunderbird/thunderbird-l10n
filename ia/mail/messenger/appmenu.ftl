@@ -75,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = Libro del adresses LDAP
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Adder libro de adresses
+appmenu-add-address-book =
+    .label = Libro del adresses
+    .accesskey = a
 
 ## Create
 
