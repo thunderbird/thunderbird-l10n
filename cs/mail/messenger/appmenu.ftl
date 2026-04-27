@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Diskusní skupina
     .accesskey = D
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Přidat účet
+appmenu-add-account-panel =
+    .label = Přidat účet
+    .accesskey = e
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = Složka kontaktů LDAP
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Přidat složku kontaktů
+appmenu-add-address-book =
+    .label = Složka kontaktů
+    .accesskey = S
 
 ## Create
 

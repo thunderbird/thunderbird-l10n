@@ -5,8 +5,11 @@
 add-on-options-button =
     .title = Nastavení doplňku
 add-on-search-alternative-button-label = Najít alternativní doplněk
+add-on-learn-more-and-search-alternative-button-label = Zjistěte více a najděte alternativní doplněk
 atn-addons-heading-search-input =
     .placeholder = Vyhledat na addons.thunderbird.net
 atn-addons-heading-search-button =
     .title = Vyhledat na addons.thunderbird.net
     .aria-label = Vyhledat na addons.thunderbird.net
+details-notification-suppressed-esr =
+    .message = Doplněk byl deaktivován, protože využívá experimentální API. Tato API jsou omezena na { -brand-product-name } ESR a v této verzi { -brand-product-name } nejsou podporována.

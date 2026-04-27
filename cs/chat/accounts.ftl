@@ -40,3 +40,4 @@ account-disconnecting =
     .value = Odpojování…
 account-disconnected =
     .value = Nepřipojeno
+add-account-label = Přidat účet

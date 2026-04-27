@@ -8,6 +8,7 @@ open-preferences-sidebar-button2 =
        *[no-cases] Nastavení aplikace
     }
 open-addons-sidebar-button = Doplňky a vzhledy
+account-tree-add-account-button = Přidat účet
 account-action-add-newsgroup-account =
     .label = Přidat účet pro diskusní skupiny…
     .accesskey = d

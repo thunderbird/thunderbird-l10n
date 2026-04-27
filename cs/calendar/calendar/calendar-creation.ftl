@@ -4,6 +4,7 @@
 
 select-all-calendars = Vybrat vše
 select-none-calendars = Nic nevybrat
+calendar-creation-dialog-title = Přidat kalendář
 calendar-creation-wizard-title = Vytváření nového kalendáře
 calendar-creation-initial-description = Kalendář může být vytvořen na tomto počítači nebo na serveru v síti, odkud k němu můžete přistupovat nebo ho sdílet se svými přáteli či spolupracovníky.
 calendar-creation-initial-computer =

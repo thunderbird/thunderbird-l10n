@@ -16,6 +16,8 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Přidat složku kontaktů LDAP
 books-pane-create-contact-button = Nový kontakt
     .title = Vytvoří nový kontakt
+books-pane-add-book-button =
+    .title = Přidat složku kontaktů
 books-pane-create-book-button =
     .title = Vytvoření nové složky kontaktů
 books-pane-create-list-button =
@@ -61,6 +63,8 @@ about-addressbook-confirm-remove-remote-book-title = Odebrat složku kontaktů
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Opravdu chcete odebrat složku kontaktů { $name }?
+address-book-list =
+    .aria-label = Seznam složek kontaktů
 
 ## Cards
 
