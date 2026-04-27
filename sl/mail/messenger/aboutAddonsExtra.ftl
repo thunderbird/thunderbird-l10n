@@ -5,8 +5,11 @@
 add-on-options-button =
     .title = Možnosti dodatka
 add-on-search-alternative-button-label = Poišči nadomestni dodatek
+add-on-learn-more-and-search-alternative-button-label = Preberi več o tem in poišči nadomestni dodatek
 atn-addons-heading-search-input =
     .placeholder = Iskanje po addons.thunderbird.net
 atn-addons-heading-search-button =
     .title = Iskanje po addons.thunderbird.net
     .aria-label = Iskanje po addons.thunderbird.net
+details-notification-suppressed-esr =
+    .message = Dodatek je bil onemogočen, ker uporablja API-je Experiment. Ti API-ji so omejeni na { -brand-product-name } ESR in niso podprti v tej različici { -brand-product-name(sklon: "rodilnik") }.

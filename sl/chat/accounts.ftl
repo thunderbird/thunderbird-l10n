@@ -5,6 +5,9 @@
 new-account-label = Nov račun
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Stanje neposrednega sporočanja
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = a
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = N
@@ -15,6 +18,7 @@ account-manager-close-command =
     .key = R
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Ni še nastavljenih računov
+account-manager-no-accounts-description = Kliknite na gumb { add-account-label }, da vam { -brand-short-name } pomaga nastaviti račun.
 account-manager-no-account-description = Kliknite na gumb { new-account-label }, da vam { -brand-short-name } pomaga odpreti račun.
 account-auto-sign-on =
     .label = Prijava ob zagonu
@@ -40,3 +44,4 @@ account-disconnecting =
     .value = Prekinjanje ...
 account-disconnected =
     .value = Brez povezave
+add-account-label = Dodaj račun

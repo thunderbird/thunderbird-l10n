@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Novičarska skupina
     .accesskey = N
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Dodaj račun
+appmenu-add-account-panel =
+    .label = Dodaj račun
+    .accesskey = n
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = Imenik LDAP
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Dodaj imenik
+appmenu-add-address-book =
+    .label = Imenik
+    .accesskey = I
 
 ## Create
 

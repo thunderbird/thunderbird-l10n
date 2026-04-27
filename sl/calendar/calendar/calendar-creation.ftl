@@ -4,6 +4,7 @@
 
 select-all-calendars = Izberi vse
 select-none-calendars = Ne izberi ničesar
+calendar-creation-dialog-title = Dodaj koledar
 calendar-creation-wizard-title = Ustvari nov koledar
 calendar-creation-initial-description = Koledar je lahko shranjen na vašem računalniku ali na strežniku, kar omogoča oddaljen dostop in deljenje s prijatelji ali sodelavci.
 calendar-creation-initial-computer =
