@@ -5,6 +5,7 @@
 add-on-options-button =
     .title = Valkostir viðbótar
 add-on-search-alternative-button-label = Finna aðra mögulega viðbót
+add-on-learn-more-and-search-alternative-button-label = Fáðu frekari upplýsingar og finndu einhverja aðra viðbót
 atn-addons-heading-search-input =
     .placeholder = Leita á addons.thunderbird.net
 atn-addons-heading-search-button =
