@@ -4,6 +4,7 @@
 
 select-all-calendars = Összes kijelölése
 select-none-calendars = Kijelölés megszüntetése
+calendar-creation-dialog-title = Naptár hozzáadása
 calendar-creation-wizard-title = Új naptár létrehozása
 calendar-creation-initial-description = A naptár tárolható a saját számítógépén vagy egy kiszolgálón, hogy távolról is elérhető legyen, illetve megosztható legyen az ismerősökkel vagy munkatársakkal.
 calendar-creation-initial-computer =

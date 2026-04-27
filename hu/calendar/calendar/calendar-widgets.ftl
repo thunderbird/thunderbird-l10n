@@ -20,6 +20,8 @@ calendar-enable-button = Engedélyezés
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = A(z) „{ $calendarName }” naptár beállításai
+calendar-add-calendar = Naptár hozzáadása…
+    .title = Naptár létrehozása vagy feliratkozás
 calendar-import-new-calendar = Új naptár…
     .title = Új naptár létrehozása vagy feliratkozás
 calendar-refresh-calendars =

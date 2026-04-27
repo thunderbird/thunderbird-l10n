@@ -5,6 +5,9 @@
 new-account-label = Új fiók
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Azonnali üzenetküldés állapota
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = a
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = f
@@ -15,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Még nincs beállítva fiók
+account-manager-no-accounts-description = Kattintson a { add-account-label } gombra, és a { -brand-short-name } végigvezeti a fiók beállításán.
 account-manager-no-account-description = Kattintson az { new-account-label } gombra, és a { -brand-short-name } végigvezeti a fiók beállításán.
 account-auto-sign-on =
     .label = Bejelentkezés indításkor
