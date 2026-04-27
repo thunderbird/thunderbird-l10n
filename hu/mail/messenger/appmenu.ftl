@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Hírcsoport
     .accesskey = r
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Fiók hozzáadása
+appmenu-add-account-panel =
+    .label = Fiók hozzáadása
+    .accesskey = k
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = LDAP-címjegyzék
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Címjegyzék hozzáadása
+appmenu-add-address-book =
+    .label = Címjegyzék
+    .accesskey = C
 
 ## Create
 

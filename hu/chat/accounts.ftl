@@ -44,3 +44,4 @@ account-disconnecting =
     .value = Szétkapcsolás…
 account-disconnected =
     .value = Nincs kapcsolódva
+add-account-label = Fiók hozzáadása
