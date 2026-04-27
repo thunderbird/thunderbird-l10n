@@ -15,9 +15,9 @@ searching-message =
 matches-found =
     .value =
         { $count ->
-            [one] найдено { $count } совпадение
-            [few] найдено { $count } совпадения
-           *[many] найдено { $count } совпадений
+            [one] Найдено { $count } совпадение
+            [few] Найдено { $count } совпадения
+           *[many] Найдено { $count } совпадений
         }
 no-matches-found =
     .value = Совпадений нет
