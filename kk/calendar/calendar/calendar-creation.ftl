@@ -4,6 +4,7 @@
 
 select-all-calendars = Барлығын таңдау
 select-none-calendars = Ешнәрсе таңдамау
+calendar-creation-dialog-title = Күнтізбені қосу
 calendar-creation-wizard-title = Жаңа күнтізбені жасау
 calendar-creation-initial-description = Сіздің күнтізбеңіз компьютеріңізде сақтала алады, немесе оған қашықтан қатынау немесе онымен достар және жұмыстастармен бөлісу үшін серверде сақтала алады.
 calendar-creation-initial-computer =

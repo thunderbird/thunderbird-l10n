@@ -20,6 +20,8 @@ calendar-enable-button = Іске қосу
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = { $calendarName } күнтізбесі баптаулары
+calendar-add-calendar = Күнтізбені қосу…
+    .title = Күнтізбені жасау немесе оған жазылу
 calendar-import-new-calendar = Жаңа күнтізбе…
     .title = Жаңа күнтізбені жасау немесе жазылу
 calendar-refresh-calendars =

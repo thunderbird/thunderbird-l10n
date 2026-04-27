@@ -4,6 +4,7 @@
 
 open-preferences-sidebar-button2 = { -brand-short-name } баптаулары
 open-addons-sidebar-button = Қосымшалар және темалар
+account-tree-add-account-button = Тіркелгіні қосу
 account-action-add-newsgroup-account =
     .label = Жаңалықтар топтары тіркелгісін қосу…
     .accesskey = л
