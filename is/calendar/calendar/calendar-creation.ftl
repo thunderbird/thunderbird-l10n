@@ -4,6 +4,7 @@
 
 select-all-calendars = Velja allt
 select-none-calendars = Velja ekkert
+calendar-creation-dialog-title = Bæta við dagatali
 calendar-creation-wizard-title = Búa til nýtt dagatal
 calendar-creation-initial-description = Hægt er að geyma dagatalið þitt á tölvunni þinni eða geyma það á miðli svo hægt sé að deila því með vinum og vinnufélögum.
 calendar-creation-initial-computer =

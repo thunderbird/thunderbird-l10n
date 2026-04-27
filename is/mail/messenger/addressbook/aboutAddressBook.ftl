@@ -16,6 +16,8 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Bæta við LDAP-nafnaskrá
 books-pane-create-contact-button = Nýr tengiliður
     .title = Búa til nýjan tengilið
+books-pane-add-book-button =
+    .title = Bæta við nafnaskrá
 books-pane-create-book-button =
     .title = Búa til nýja nafnaskrá
 books-pane-create-list-button =
@@ -61,6 +63,8 @@ about-addressbook-confirm-remove-remote-book-title = Fjarlægja nafnaskrá
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Ertu viss um að þú viljir fjarlægja { $name }?
+address-book-list =
+    .aria-label = Listi yfir nafnaskrár
 
 ## Cards
 

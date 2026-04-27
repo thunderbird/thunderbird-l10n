@@ -4,6 +4,7 @@
 
 open-preferences-sidebar-button2 = { -brand-short-name } stillingar
 open-addons-sidebar-button = Viðbætur og þemu
+account-tree-add-account-button = Bæta við reikningi
 account-action-add-newsgroup-account =
     .label = Bæta við reikningi fyrir fréttahóp…
     .accesskey = f

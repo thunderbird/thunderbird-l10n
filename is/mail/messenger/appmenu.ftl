@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Fréttahópur
     .accesskey = h
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Bæta við reikningi
+appmenu-add-account-panel =
+    .label = Bæta við reikningi
+    .accesskey = n
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = LDAP-nafnaskrá
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Bæta við nafnaskrá
+appmenu-add-address-book =
+    .label = Nafnaskrá
+    .accesskey = a
 
 ## Create
 

@@ -20,6 +20,8 @@ calendar-enable-button = Virkja
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Valkostir { $calendarName } dagatals
+calendar-add-calendar = Bæta við dagatali…
+    .title = Útbúðu dagatal eða gerstu áskrifandi að dagatali
 calendar-import-new-calendar = Nýtt dagatal…
     .title = Búa til eða gerast áskrifandi að nýju dagatali
 calendar-refresh-calendars =

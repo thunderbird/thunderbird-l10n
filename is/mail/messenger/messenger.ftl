@@ -251,6 +251,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Eftirlæti
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = (Engir nýlegir áfangastaðir)
+menu-move-copy-no-favorites =
+    .label = (Engin eftirlæti)
 
 ## AppMenu
 
