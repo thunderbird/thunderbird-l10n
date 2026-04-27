@@ -4,8 +4,8 @@
 
 webext-experiment-warning = Los complementos maliciosos pueden robar su información privada o comprometer su computadora. Solo instale este complemento si confía en la fuente.
 webext-perms-learn-more = Conocer más
-webext-install-suppressed-message = El complemento <> no pudo instalarse porque usa APIs de experimento, que no son compatibles con esta versión de Thunderbird.
-webext-install-suppressed-details = Los complementos con APIs de experimento solo son compatibles con { -brand-product-name } ESR.
+webext-install-suppressed-message = El complemento <> no pudo instalarse porque usa APIs experimentales, que no son compatibles con esta versión de Thunderbird.
+webext-install-suppressed-details = Los complementos con APIs experimentales solo son compatibles con { -brand-product-name } ESR.
 # Variables:
 #   $addonName (String): localized named of the extension that was just installed.
 addon-post-install-message = { $addonName } fue agregada.
