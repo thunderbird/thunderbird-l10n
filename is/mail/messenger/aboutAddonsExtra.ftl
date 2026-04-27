@@ -11,3 +11,5 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = Leita á addons.thunderbird.net
     .aria-label = Leita á addons.thunderbird.net
+details-notification-suppressed-esr =
+    .message = Viðbótin var gerð óvirk því hún notar tilrauna-API kerfisviðmót. Þessi API kerfisviðmót eru takmörkuð við { -brand-product-name } ESR og eru ekki studd í þessari útgáfu af { -brand-product-name }.
