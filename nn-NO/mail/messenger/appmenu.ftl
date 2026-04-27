@@ -67,6 +67,9 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = LDAP-adressebok
     .accesskey = L
+appmenu-add-address-book =
+    .label = Adressebok
+    .accesskey = A
 
 ## Create
 

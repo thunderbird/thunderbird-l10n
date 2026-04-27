@@ -24,6 +24,10 @@ ask-save-title-event = Lagra hendinga
 ask-save-title-task = Lagre oppgåve
 ask-save-message-event = Hendinga er ikkje lagra. Vil du lagra hendinga?
 ask-save-message-task = Oppgåva er ikkje lagra. Vil du lagre oppgåva?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Hele dagen
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = Sluttdatoen du skreiv inn er før start-datoen
 warning-until-date-before-start = Til-datoen er før startdatoen
