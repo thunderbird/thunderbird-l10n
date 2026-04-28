@@ -5,6 +5,9 @@
 new-account-label = Nový účet
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Stav okamžitých správ
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = a
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = N
@@ -15,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Zatiaľ nie je nastavený žiadny účet
+account-manager-no-accounts-description = Po kliknutí na tlačidlo { add-account-label } vás { -brand-short-name } prevedie procesom nastavenia účtu.
 account-manager-no-account-description = Po kliknutí na tlačidlo { new-account-label } vás { -brand-short-name } prevedie procesom konfigurácie účtu.
 account-auto-sign-on =
     .label = Pripojiť pri spustení
@@ -40,3 +44,4 @@ account-disconnecting =
     .value = Prebieha odpájanie…
 account-disconnected =
     .value = Nepripojené
+add-account-label = Pridať účet

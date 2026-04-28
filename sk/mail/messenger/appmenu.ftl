@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Diskusná skupina
     .accesskey = D
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Pridať účet
+appmenu-add-account-panel =
+    .label = Pridať účet
+    .accesskey = e
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = Adresár LDAP
     .accesskey = d
+appmenu-add-address-book-panel-title =
+    .title = Pridať adresár
+appmenu-add-address-book =
+    .label = Adresár
+    .accesskey = A
 
 ## Create
 

@@ -4,6 +4,7 @@
 
 open-preferences-sidebar-button2 = Nastavenia { -brand-short-name(case: "gen") }
 open-addons-sidebar-button = Doplnky a témy
+account-tree-add-account-button = Pridať účet
 account-action-add-newsgroup-account =
     .label = Pridať účet diskusnej skupiny…
     .accesskey = d
