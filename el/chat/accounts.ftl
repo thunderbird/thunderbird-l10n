@@ -18,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Δεν έχει ρυθμιστεί ακόμα λογαριασμός
+account-manager-no-accounts-description = Κάντε κλικ στο κουμπί «{ add-account-label }» και το { -brand-short-name } θα σας βοηθήσει να ρυθμίσετε έναν νέο.
 account-manager-no-account-description = Κάντε κλικ στο κουμπί «{ new-account-label }» και το { -brand-short-name } θα σας βοηθήσει να ρυθμίσετε έναν νέο.
 account-auto-sign-on =
     .label = Σύνδεση κατά την εκκίνηση
