@@ -19,7 +19,7 @@ account-manager-close-command =
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Zatiaľ nie je nastavený žiadny účet
 account-manager-no-accounts-description = Po kliknutí na tlačidlo { add-account-label } vás { -brand-short-name } prevedie procesom nastavenia účtu.
-account-manager-no-account-description = Po kliknutí na tlačidlo { new-account-label } vás { -brand-short-name } prevedie procesom konfigurácie účtu.
+account-manager-no-account-description = Po kliknutí na tlačidlo { new-account-label } vás { -brand-short-name } prevedie procesom nastavenia účtu.
 account-auto-sign-on =
     .label = Pripojiť pri spustení
     .accesskey = u
