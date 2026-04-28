@@ -20,6 +20,8 @@ calendar-enable-button = Povoliť
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Nastavenia kalendára { $calendarName }
+calendar-add-calendar = Pridať kalendár…
+    .title = Vytvorenie alebo prihlásenie sa na odber kalendára
 calendar-import-new-calendar = Nový kalendár…
     .title = Vytvorte alebo sa prihláste na odber nového kalendára
 calendar-refresh-calendars =

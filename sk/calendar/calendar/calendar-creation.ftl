@@ -4,6 +4,7 @@
 
 select-all-calendars = Vybrať všetky
 select-none-calendars = Vybrať žiadne
+calendar-creation-dialog-title = Pridať kalendár
 calendar-creation-wizard-title = Vytvoriť nový kalendár
 calendar-creation-initial-description = Váš kalendár môže byť uložený na vašom počítači alebo na vzdialenom serveri, kde k nemu môžete pristupovať vzdialene a je prístupný aj vašim spolupracovníkom alebo priateľom.
 calendar-creation-initial-computer =
