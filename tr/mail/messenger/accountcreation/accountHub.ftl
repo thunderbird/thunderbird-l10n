@@ -186,6 +186,8 @@ account-hub-encryption-button = Uçtan uca şifreleme
 account-hub-address-books-button = Adres defterleri
 account-hub-calendars-button = Takvimler
 account-hub-thundermail-button = Thundermail ile giriş yap
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = veya
 account-hub-notification-show-more = Daha fazla göster
 account-hub-notification-show-less = Daha az göster
 account-hub-email-setup-header = E-posta adresinizi ekleyin

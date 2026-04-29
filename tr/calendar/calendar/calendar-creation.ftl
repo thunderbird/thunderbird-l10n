@@ -4,6 +4,7 @@
 
 select-all-calendars = Tümünü seç
 select-none-calendars = Hiçbirini seçme
+calendar-creation-dialog-title = Takvim ekle
 calendar-creation-wizard-title = Yeni Takvim Oluştur
 calendar-creation-initial-description = Takviminiz bilgisayarınızda yerel olarak depolanabilir veya bir sunucuya kaydedilebilir. Böylece ona uzaktan erişebilir ve onu arkadaşlarınızla paylaşabilirsiniz.
 calendar-creation-initial-computer =

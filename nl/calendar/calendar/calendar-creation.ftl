@@ -4,6 +4,7 @@
 
 select-all-calendars = Alles selecteren
 select-none-calendars = Niets selecteren
+calendar-creation-dialog-title = Agenda toevoegen
 calendar-creation-wizard-title = Nieuwe agenda maken
 calendar-creation-initial-description = Uw agenda kan op uw computer of op een server worden opgeslagen, zodat deze op afstand is te benaderen door vrienden of collega’s.
 calendar-creation-initial-computer =

@@ -5,6 +5,9 @@
 new-account-label = Yeni hesap
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Anlık mesajlaşma durumu
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = H
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = Y
@@ -15,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Henüz hiç hesap yapılandırılmamış
+account-manager-no-accounts-description = Yapılandırma sürecinde { -brand-short-name } tarafından yönlendirilmek istiyorsanız { add-account-label } düğmesine tıklayın.
 account-manager-no-account-description = Yapılandırma sürecinde { -brand-short-name } tarafından yönlendirilmek için { new-account-label } düğmesine tıklayın.
 account-auto-sign-on =
     .label = Başlangıçta oturum aç
@@ -40,3 +44,4 @@ account-disconnecting =
     .value = Bağlantı kesiliyor…
 account-disconnected =
     .value = Bağlı değil
+add-account-label = Hesap ekle

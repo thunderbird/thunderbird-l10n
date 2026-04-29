@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Haber grubu
     .accesskey = u
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Hesap ekle
+appmenu-add-account-panel =
+    .label = Hesap ekle
+    .accesskey = H
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = LDAP adres defteri
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Adres defteri ekle
+appmenu-add-address-book =
+    .label = Adres defteri
+    .accesskey = A
 
 ## Create
 

@@ -20,6 +20,8 @@ calendar-enable-button = Etkinleştir
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = { $calendarName } takvim seçenekleri
+calendar-add-calendar = Takvim ekle…
+    .title = Takvim oluştur veya takvime abone ol
 calendar-import-new-calendar = Yeni takvim…
     .title = Yeni bir takvim oluştur veya takvime abone ol
 calendar-refresh-calendars =
