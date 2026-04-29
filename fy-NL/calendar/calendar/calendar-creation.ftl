@@ -4,6 +4,7 @@
 
 select-all-calendars = Alles selektearje
 select-none-calendars = Neat selektearje
+calendar-creation-dialog-title = Aginda tafoegje
 calendar-creation-wizard-title = Nije aginda meitsje
 calendar-creation-initial-description = Jo aginda kin op jo kompjûter of op in server bewarre wurde, sadat dizze op ôfstân berikber is foar bygelyks freonen of kollega’s.
 calendar-creation-initial-computer =

@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Nijsgroep
     .accesskey = N
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Account tafoegje
+appmenu-add-account-panel =
+    .label = Account tafoegje
+    .accesskey = c
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = LDAP-adresboek
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Adresboek tafoegje
+appmenu-add-address-book =
+    .label = Adresboek
+    .accesskey = A
 
 ## Create
 

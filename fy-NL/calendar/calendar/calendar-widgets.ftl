@@ -20,6 +20,8 @@ calendar-enable-button = Ynskeakelje
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = { $calendarName }-agendaopsjes
+calendar-add-calendar = Aginda tafoegje…
+    .title = Meitsje of abonnearje jo op in aginda
 calendar-import-new-calendar = Nije aginda…
     .title = In nije aginda oanmeitsje of derop abonnearje
 calendar-refresh-calendars =
