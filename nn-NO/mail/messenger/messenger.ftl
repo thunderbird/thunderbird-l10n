@@ -250,6 +250,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Favorittar
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = (Ingen nylege destinasjonar)
+menu-move-copy-no-favorites =
+    .label = (Ingen favorittar)
 
 ## AppMenu
 
@@ -706,3 +710,8 @@ remote-content-option-allow-all =
             [one] Tillat eksternt innhald frå { $count } kjelde spesifisert ovanfor
            *[other] Tillat eksternt innhald frå alle { $count } kjeldene spesifiserte ovanfor
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Du kan late att dette vindauget.
+oauth2-loopback-failure = OAuth-omdirigering feila.

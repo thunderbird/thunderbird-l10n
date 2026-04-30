@@ -4,6 +4,7 @@
 
 select-all-calendars = Merk alle
 select-none-calendars = Marker ingen
+calendar-creation-dialog-title = Legg til kalender
 calendar-creation-wizard-title = Lag ny kalender
 calendar-creation-initial-description = Kalenderen kan anten lagrast lokalt, eller på ein server slik at han er tilgjengeleg for andre.
 calendar-creation-initial-computer =
