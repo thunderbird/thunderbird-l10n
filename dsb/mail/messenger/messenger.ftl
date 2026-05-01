@@ -118,7 +118,7 @@ redirect-msg-button =
 ## Folder Pane
 
 folder-pane-toolbar =
-    .toolbarname = Symbolowa rědka zarědnikowego wobcerka
+    .toolbarname = Symbolowa rědka wobceŕka zarědnika
     .accesskey = z
 folder-pane-toolbar-options-button =
     .tooltiptext = Nastajenja wobceŕka zarědnikow

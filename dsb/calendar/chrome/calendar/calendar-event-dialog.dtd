@@ -321,7 +321,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month2.10.label "oktober">
 <!ENTITY event.recurrence.pattern.yearly.month2.11.label "nowember">
 <!ENTITY event.recurrence.pattern.yearly.month2.12.label "december">
-<!ENTITY event.recurrence.range.label "Wobcerk wóspjetowanja">
+<!ENTITY event.recurrence.range.label "Wobceŕk wóspjetowanja">
 <!ENTITY event.recurrence.forever.label "Žeden kóńcny datum">
 <!ENTITY event.recurrence.repeat.for.label "Napóraś">
 <!ENTITY event.recurrence.appointments.label "Terminy">
