@@ -5,6 +5,7 @@
 add-on-options-button =
     .title = Eklenti seçenekleri
 add-on-search-alternative-button-label = Alternatif bir eklenti bul
+add-on-learn-more-and-search-alternative-button-label = Daha fazla bilgi al ve alternatif bir eklenti bul
 atn-addons-heading-search-input =
     .placeholder = addons.thunderbird.net’te ara
 atn-addons-heading-search-button =
