@@ -258,6 +258,8 @@ menu-move-copy-favorites =
     .accesskey = F
 menu-move-copy-no-recent =
     .label = (Nu există destinații recente)
+menu-move-copy-no-favorites =
+    .label = (Nu există favorite)
 
 ## AppMenu
 
@@ -723,3 +725,8 @@ remote-content-option-allow-all =
             [few] Permite conținut aflat la distanță de la cele { $count } surse de mai sus
            *[other] Permite conținut aflat la distanță de la cele { $count } de surse de mai sus
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Poți închide fereastra.
+oauth2-loopback-failure = Redirecționarea OAuth a eșuat.
