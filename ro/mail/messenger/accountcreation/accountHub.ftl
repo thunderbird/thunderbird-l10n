@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Informații de configurare găsite pe un
 account-hub-ssl-noencryption = Niciuna
 account-hub-email-skip-button = Omite
 account-hub-finding-sync-accounts = Cont creat. Se descoperă agende și calendare…
+account-hub-privacy-policy = Politică de confidențialitate
+account-hub-welcome = Bine ai venit la
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Bun venit în { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Te rugăm să îți introduci numele
 account-hub-email-label = Adresă de e-mail
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Instalează
 account-hub-encryption-button = Criptare end-to-end
 account-hub-address-books-button = Agende de contacte
 account-hub-calendars-button = Calendare
+account-hub-thundermail-button = Intră în cont cu Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = sau
 account-hub-notification-show-more = Afișează mai multe
 account-hub-notification-show-less = Arată mai puțin
 account-hub-email-setup-header = Adaugă adresa de e-mail
@@ -260,6 +267,13 @@ address-book-add-ldap-icon =
     .alt = Conectează-te la o agendă de contacte LDAP de la distanță
 address-book-add-ldap = Agendă de contacte LDAP nouă
 address-book-add-ldap-description = Conectează-te la o agendă de contacte LDAP de la distanță
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 agendă de contacte disponibilă
+        [few] { $addressBooks } agende de contacte disponibile
+       *[other] { $addressBooks } de agende de contacte disponibile
+    }
 account-hub-fetching-sync-accounts = Se descoperă agende și calendare…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

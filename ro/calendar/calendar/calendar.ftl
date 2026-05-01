@@ -25,6 +25,10 @@ ask-save-title-event = Salvează evenimentul
 ask-save-title-task = Salvează sarcina
 ask-save-message-event = Evenimentul nu a fost salvat. Vrei să salvezi evenimentul?
 ask-save-message-task = Sarcina nu a fost salvată. Vrei să salvezi sarcina?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Toată ziua
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = Data de sfârșit introdusă este înaintea datei de început
 warning-until-date-before-start = Data de sfârșit este înainte de data de început

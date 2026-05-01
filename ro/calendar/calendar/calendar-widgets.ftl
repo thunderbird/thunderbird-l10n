@@ -20,6 +20,8 @@ calendar-enable-button = Activează
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Opțiuni de calendar { $calendarName }
+calendar-add-calendar = Adaugă un calendar…
+    .title = Creează sau abonează-te la un calendar
 calendar-import-new-calendar = Calendar nou...
     .title = Creează sau abonează-te la un calendar nou
 calendar-refresh-calendars =

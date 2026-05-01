@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Grup de discuții
     .accesskey = N
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Adaugă un cont
+appmenu-add-account-panel =
+    .label = Adaugă un cont
+    .accesskey = N
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = Agendă de contacte LDAP
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Adaugă o agendă de contacte
+appmenu-add-address-book =
+    .label = Agendă de contacte
+    .accesskey = A
 
 ## Create
 

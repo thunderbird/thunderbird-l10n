@@ -4,6 +4,7 @@
 
 select-all-calendars = Selectează tot
 select-none-calendars = Nu selecta nimic
+calendar-creation-dialog-title = Adaugă un calendar
 calendar-creation-wizard-title = Creează calendar nou
 calendar-creation-initial-description = Calendarul poate fi stocat local, pe calculator sau pe un server pentru acces de la distanță sau partajarea cu prietenii sau colegii.
 calendar-creation-initial-computer =

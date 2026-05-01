@@ -16,6 +16,8 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Adaugă o agendă LDAP de contacte
 books-pane-create-contact-button = Contact nou
     .title = Creează un contact nou
+books-pane-add-book-button =
+    .title = Adaugă o agendă de contacte
 books-pane-create-book-button =
     .title = Creează o agendă de contacte nouă
 books-pane-create-list-button =
@@ -61,6 +63,8 @@ about-addressbook-confirm-remove-remote-book-title = Elimină agenda de contacte
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Sigur vrei să elimini { $name }?
+address-book-list =
+    .aria-label = Listă de agende de contacte
 
 ## Cards
 

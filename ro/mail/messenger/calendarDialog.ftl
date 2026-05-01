@@ -307,3 +307,39 @@ calendar-dialog-attachments-summary-label =
         [few] { $count } atașamente
        *[other] { $count } de atașamente
     }
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
+# Variables:
+#   $count (Number): Number of guests that responded "attending".
+calendar-dialog-attendee-summary-going =
+    { $count ->
+        [one] { $count } participant
+        [few] { $count } participanți
+       *[other] { $count } de participanți
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe =
+    { $count ->
+        [one] { $count } posibil
+        [few] { $count } posibili
+       *[other] { $count } de posibili
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "declined".
+calendar-dialog-attendee-summary-declined =
+    { $count ->
+        [one] { $count } care a refuzat
+        [few] { $count } care au refuzat
+       *[other] { $count } care au refuzat
+    }
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending =
+    { $count ->
+        [one] { $count } în așteptare
+        [few] { $count } în așteptare
+       *[other] { $count } în așteptare
+    }
