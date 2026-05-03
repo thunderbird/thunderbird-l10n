@@ -16,6 +16,8 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Añadir libreta de direcciones LDAP
 books-pane-create-contact-button = Nuevo contacto
     .title = Crear un nuevo contacto
+books-pane-add-book-button =
+    .title = Añadir libreta de direcciones
 books-pane-create-book-button =
     .title = Crear una nueva libreta de direcciones
 books-pane-create-list-button =
@@ -61,6 +63,8 @@ about-addressbook-confirm-remove-remote-book-title = Eliminar libreta de direcci
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = ¿Está seguro de que desea eliminar { $name }?
+address-book-list =
+    .aria-label = Lista de libretas de direcciones
 
 ## Cards
 

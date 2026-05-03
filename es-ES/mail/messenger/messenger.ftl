@@ -251,6 +251,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Favoritos
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = (No hay destinos recientes)
+menu-move-copy-no-favorites =
+    .label = (No hay favoritos)
 
 ## AppMenu
 
@@ -707,3 +711,8 @@ remote-content-option-allow-all =
             [one] Permitir contenido remoto del origen listado arriba
            *[other] Permitir contenido remoto de los { $count } orígenes listados arriba
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Puede cerrar esta ventana.
+oauth2-loopback-failure = Falló la redirección de OAuth.

@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Grupo de noticias
     .accesskey = G
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Añadir cuenta
+appmenu-add-account-panel =
+    .label = Añadir cuenta
+    .accesskey = n
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = Libreta de direcciones LDAP
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Añadir libreta de direcciones
+appmenu-add-address-book =
+    .label = Libreta de direcciones
+    .accesskey = d
 
 ## Create
 
