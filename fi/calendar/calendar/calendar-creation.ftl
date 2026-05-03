@@ -4,6 +4,7 @@
 
 select-all-calendars = Valitse kaikki
 select-none-calendars = Älä valitse mitään
+calendar-creation-dialog-title = Lisää kalenteri
 calendar-creation-wizard-title = Luo uusi kalenteri
 calendar-creation-initial-description = Kalenterin voi tallentaa joko tälle tietokoneelle tai palvelimelle, jolloin sitä voi käyttää verkossa. Voit myös jakaa jonkin kalenterin ystäviesi tai työtovereidesi kanssa.
 calendar-creation-initial-computer =

@@ -16,6 +16,8 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Lisää LDAP-osoitekirja
 books-pane-create-contact-button = Uusi yhteyshenkilö
     .title = Luo uusi yhteyshenkilö
+books-pane-add-book-button =
+    .title = Lisää osoitekirja
 books-pane-create-book-button =
     .title = Luo uusi osoitekirja
 books-pane-create-list-button =
@@ -61,6 +63,8 @@ about-addressbook-confirm-remove-remote-book-title = Poista osoitekirja
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Haluatko varmasti poistaa osoitekirjan { $name }?
+address-book-list =
+    .aria-label = Osoitekirjojen luettelo
 
 ## Cards
 
@@ -193,6 +197,8 @@ about-addressbook-cell-addrbook2 =
     .title = { $title }
 about-addressbook-cards-context-write =
     .label = Kirjoita viesti
+# A suggested file name (without extension) for when the user exports multiple contacts.
+about-addressbook-export-selected-filename = Yhteystiedot
 about-addressbook-confirm-delete-mixed-title = Poista yhteyshenkilöt ja listat
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.

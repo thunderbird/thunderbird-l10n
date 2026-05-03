@@ -5,6 +5,9 @@
 new-account-label = Uusi tili
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Pikaviestinnän tila
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = L
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = U
@@ -15,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Yhtään tiliä ei ole vielä määritelty
+account-manager-no-accounts-description = Napsauttamalla { add-account-label } -painiketta voit määrittää { -brand-short-name }in avulla uuden tilin.
 account-manager-no-account-description = Napsauttamalla { new-account-label } -painiketta voit määritellä { -brand-short-name }in avulla uuden tilin.
 account-auto-sign-on =
     .label = Kirjaudu käynnistettäessä
@@ -40,3 +44,4 @@ account-disconnecting =
     .value = Katkaistaan yhteyttä…
 account-disconnected =
     .value = Ei yhdistetty
+add-account-label = Lisää tili

@@ -602,6 +602,9 @@ primary-password-button =
     .accesskey = V
 forms-primary-pw-fips-title = Olet parhaillaan FIPS-tilassa. FIPS edellyttää, että pääsalasana ei ole tyhjä.
 forms-master-pw-fips-desc = Salasanan vaihto epäonnistui
+spam-log-button =
+    .label = Näytä loki
+    .accesskey = N
 junk-description = Muokkaa alta roskapostisuodattimen oletusasetuksia. Tilikohtaisia asetuksia voi muokata Tilien asetuksista.
 junk-marked-label =
     .label = Kun viestit merkitään roskapostiksi:
@@ -668,6 +671,27 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Automaattiset päätökset voidaan ohittaa ottamalla salaus manuaalisesti käyttöön tai poistamalla se käytöstä viestiä kirjoitettaessa.
     Huomautus: salaus on aina automaattisesti käytössä, kun vastaat salattuun viestiin.
+
+## DoH Section
+
+preferences-doh-header = DNS HTTPS:n kautta
+preferences-doh-select-resolver = Valitse palveluntarjoaja:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (oletus)
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP-avainpalvelimet
+email-e2ee-key-servers-intro =
+    Avainpalvelin vastaanottaa ja toimittaa sitten olemassa olevia julkisia avaimia käyttäjille.
+    Sen avulla voit julkaista oman julkisen avaimesi ja löytää sekä päivittää muiden avaimia.
+email-e2ee-key-servers-use-following = Käytä seuraavia avainpalvelimia:
+email-e2ee-key-servers-add = Lisää…
+email-e2ee-key-servers-add-title = Lisää avainpalvelin
+email-e2ee-key-servers-add-text = Anna lisättävän avainpalvelimen verkko-osoite.
+email-e2ee-key-servers-add-failed-title = Avainpalvelimen lisääminen epäonnistui
 
 ## Chat Tab
 
@@ -880,6 +904,8 @@ qr-export-more-accounts = Vie lisää tilejä
 ## Appearance Tab
 
 appearance-category-header = Ulkoasu
+accent-color-legend = Korostusväri
+accent-color-disabled-description = Korostusvärejä ei tueta suuren kontrastin tilassa.
 default-message-list-legend = Viestiluettelo
 appearance-card-rows =
     .value = Rivien määrä:
