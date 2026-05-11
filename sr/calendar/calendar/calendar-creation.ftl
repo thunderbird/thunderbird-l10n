@@ -4,6 +4,7 @@
 
 select-all-calendars = Изабери све
 select-none-calendars = Поништи избор
+calendar-creation-dialog-title = Додај календар
 calendar-creation-wizard-title = Направи нови календар
 calendar-creation-initial-description = Ваш календар се може чувати на вашем рачунару или се може чувати на серверу да бисте могли да му приступите удаљено или да бисте га делили са пријатељима или сарадницима.
 calendar-creation-initial-computer =
