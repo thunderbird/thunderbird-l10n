@@ -18,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Ниједан налог није подешен за сада
+account-manager-no-accounts-description = Кликните на дугме { add-account-label } да бисте дозволили да вас { -brand-short-name } води кроз поступак подешавања једног.
 account-manager-no-account-description = Кликните на { new-account-label } дугме да би вас { -brand-short-name } спровео кроз поступак подешавања новог налога.
 account-auto-sign-on =
     .label = Пријави ме при покретању
@@ -43,3 +44,4 @@ account-disconnecting =
     .value = Прекидам везу…
 account-disconnected =
     .value = Није повезано
+add-account-label = Додај налог

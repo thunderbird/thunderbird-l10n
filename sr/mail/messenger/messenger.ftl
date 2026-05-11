@@ -257,6 +257,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Омиљено
     .accesskey = О
+menu-move-copy-no-recent =
+    .label = (Нема недавних одредишта)
+menu-move-copy-no-favorites =
+    .label = (Нема омиљених)
 
 ## AppMenu
 
@@ -722,3 +726,8 @@ remote-content-option-allow-all =
             [few] Дозволи удаљени садржај са { $count } места излистана изнад
            *[other] Дозволи удаљени садржај са { $count } места излистаних изнад
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Можете затворити овај прозор.
+oauth2-loopback-failure = OAuth преусмеравање није успело.

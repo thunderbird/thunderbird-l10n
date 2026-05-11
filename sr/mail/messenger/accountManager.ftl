@@ -4,6 +4,7 @@
 
 open-preferences-sidebar-button2 = { -brand-short-name } подешавања
 open-addons-sidebar-button = Додаци и теме
+account-tree-add-account-button = Додај налог
 account-action-add-newsgroup-account =
     .label = Додај налог за новинску групу…
     .accesskey = н

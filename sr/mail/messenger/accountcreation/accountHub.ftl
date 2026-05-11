@@ -136,6 +136,10 @@ account-hub-notification-unknown-host = Подаци о подешавању с�
 account-hub-ssl-noencryption = Ништа
 account-hub-email-skip-button = Прескочи
 account-hub-finding-sync-accounts = Налог је направљен. Проналажење именика и календара…
+account-hub-privacy-policy = Политика приватности
+account-hub-welcome = Добродошли у
+account-hub-welcome-brand = { -brand-short-name }
+account-hub-welcome-text = Добро дошли у { -brand-short-name }
 account-hub-name-warning-icon =
     .title = Унесите ваше име
 account-hub-email-label = Адреса е-поште
@@ -183,6 +187,9 @@ account-hub-addon-install-title = Инсталирај
 account-hub-encryption-button = Шифровање с краја на крај
 account-hub-address-books-button = Именици
 account-hub-calendars-button = Календари
+account-hub-thundermail-button = Пријавите се уз Thundermail
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = или
 account-hub-notification-show-more = Прикажи више
 account-hub-notification-show-less = Прикажи мање
 account-hub-email-setup-header = Додајте вашу адресу е-поште
@@ -261,6 +268,13 @@ address-book-add-ldap-icon =
     .alt = Повежите се на удаљени LDAP именик
 address-book-add-ldap = Нови LDAP именик
 address-book-add-ldap-description = Повежите се на удаљени LDAP именик
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 именик доступан
+        [few] { $addressBooks } доступна именика
+       *[other] { $addressBooks } доступних именика
+    }
 account-hub-fetching-sync-accounts = Откривање именика и календара…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.

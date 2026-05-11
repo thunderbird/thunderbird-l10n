@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Новинска група
     .accesskey = г
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Додај налог
+appmenu-add-account-panel =
+    .label = Додај налог
+    .accesskey = г
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = LDAP именик
     .accesskey = A
+appmenu-add-address-book-panel-title =
+    .title = Додај именик
+appmenu-add-address-book =
+    .label = Именик
+    .accesskey = И
 
 ## Create
 
