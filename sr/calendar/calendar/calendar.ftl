@@ -25,6 +25,10 @@ ask-save-title-event = Сачувај догађај
 ask-save-title-task = Сачувај догађај
 ask-save-message-event = Догађај није сачуван. Да ли желите да га сачувате?
 ask-save-message-task = Задатак није сачуван. Да ли желите да га сачувате?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Целодневно
+    .accesskey = Ц
 # Event Dialog Warnings
 warning-end-before-start = Унети завршни датум се догађа пре почетног датума
 warning-until-date-before-start = Крајњи рок се догађа пре почетног датума
