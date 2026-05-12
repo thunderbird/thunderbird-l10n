@@ -11,6 +11,7 @@ info-does-not-expire = Esta clave está configurada para nunca expirar.
 info-explanation-1 = <b>Después de que una clave expira</b>, ya no es posible usarla para cifrado o firma digital.
 info-explanation-2 = Para usar esta clave durante un periodo de tiempo más largo, cambia su fecha de expiración y luego vuelva a compartir la clave pública con tus compañeros de conversación de nuevo.
 algorithm-label = Algoritmo:
+created-label = Creado:
 expire-no-change-label = No cambiar la fecha de expiración
 expire-in-time-label = La clave expirará en:
 expire-never-expire-label = La clave nunca expirará
