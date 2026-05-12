@@ -287,6 +287,14 @@ address-book-add-ldap-icon =
     .alt = Připojení ke vzdálené složce s kontakty LDAP
 address-book-add-ldap = Nová složka kontaktů LDAP
 address-book-add-ldap-description = Připojení ke vzdálené složce s kontakty LDAP
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] Dostupná 1 složka s kontakty
+        [few] Dostupné { $addressBooks } složky s kontakty
+        [many] Dostupných { $addressBooks } složek s kontakty
+       *[other] Dostupných { $addressBooks } složek s kontakty
+    }
 account-hub-fetching-sync-accounts = Vyhledávají se složky s kontakty a kalendáře…
 # $addressBooks (Number) - The number of address books that can be synced.
 # $accounts (Number) - The number of accounts.
