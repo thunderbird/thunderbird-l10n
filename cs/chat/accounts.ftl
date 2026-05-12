@@ -18,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Zatím není vytvořen žádný účet
+account-manager-no-accounts-description = Klepněte na tlačítko { add-account-label } a { -brand-short-name } vás provede procesem konfigurace účtu.
 account-manager-no-account-description = Klepněte na tlačítko { new-account-label } a { -brand-short-name } vám pomůže vytvořit nový účet.
 account-auto-sign-on =
     .label = Připojit při startu
