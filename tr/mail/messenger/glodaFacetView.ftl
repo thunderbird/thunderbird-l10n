@@ -3,6 +3,21 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
+#   $count - the number items
+facets-mode-to-list-all-label =
+    { $count ->
+        [one] { $count } sonucun hepsini göster
+       *[other] { $count } sonucun hepsini göster
+    }
+# Last item in a a list like A, B, C and "3 others".
+# Variables:
+#   $count - the number items
+facet-view-and-others =
+    { $count ->
+        [one] { $count } sonuç daha
+       *[other] { $count } sonuç daha
+    }
+# Variables:
 #   $m - the number M in "M of N" items
 #   $n - the number N in "M of N" items
 item-count-m-of-n = { $m }/{ $n }
