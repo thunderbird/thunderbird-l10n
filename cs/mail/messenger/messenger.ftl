@@ -742,4 +742,4 @@ remote-content-option-allow-all =
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Toto okno můžete zavřít.
-oauth2-loopback-failure = Přesměrování QAuth se nezdařilo.
+oauth2-loopback-failure = Přesměrování OAuth se nezdařilo.

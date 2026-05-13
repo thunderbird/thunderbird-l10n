@@ -9,9 +9,9 @@
 
 ## Sanitizer.sys.mjs
 
-hostname-syntax-error = Název serveru je prázdný, nebo obsahuje zakázané znaky. Jsou povoleny pouze písmena, číslice a znaky '-' a '.'.
-alphanumdash-error = Řetězec obsahuje nepodporované znaky. Jsou povoleny pouze písmena, číslice a znaky '-' a '_'.
-allowed-value-error = Zadané hodnota není mezi povolenými
+hostname-syntax-error = Název serveru je prázdný, nebo obsahuje zakázané znaky. Jsou povolena pouze písmena, číslice a znaky '-' a '.'.
+alphanumdash-error = Řetězec obsahuje nepodporované znaky. Jsou povolena pouze písmena, číslice a znaky '-' a '_'.
+allowed-value-error = Zadaná hodnota není mezi povolenými
 url-scheme-error = Schéma URL není povolené
 url-parsing-error = Adresa URL není rozpoznána
 string-empty-error = Pro tento řetězec je nutné zadat hodnotu

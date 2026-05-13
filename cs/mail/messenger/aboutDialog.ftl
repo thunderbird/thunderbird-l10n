@@ -9,7 +9,7 @@ about-dialog-title =
        *[no-cases] O aplikaci { -brand-full-name }
     }
 release-notes-link = Poznámky k vydání
-update-internal-error = Aktualizace se nepodařilo zkontrolovat kvůli vnitřní chybě. Aktualizace nejdete na adrese <a data-l10n-name="manual-link"/>
+update-internal-error = Aktualizace se nepodařilo zkontrolovat kvůli vnitřní chybě. Aktualizace najdete na adrese <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Zkontrolovat aktualizace
     .accesskey = Z
 update-update-button = Restartovat a aktualizovat aplikaci { -brand-shorter-name }

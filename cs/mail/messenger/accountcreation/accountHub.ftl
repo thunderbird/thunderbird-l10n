@@ -188,10 +188,10 @@ account-hub-advanced-setup-button = Rozšířené nastavení
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
 account-hub-exchange-dialog-question =
     { -brand-short-name.gender ->
-        [masculine] { -brand-short-name } našel informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
-        [feminine] { -brand-short-name } našla informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
-        [neuter] { -brand-short-name } našlo informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
-       *[other] Aplikace { -brand-short-name } našla informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+        [masculine] { -brand-short-name } našel informace pro nastavení vašeho účtu na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+        [feminine] { -brand-short-name } našla informace pro nastavení vašeho účtu na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+        [neuter] { -brand-short-name } našlo informace pro nastavení vašeho účtu na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+       *[other] Aplikace { -brand-short-name } našla informace pro nastavení vašeho účtu na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
     }
 account-hub-creation-error-title = Účet se nepodařilo vytvořit
 account-hub-error-server-exists = Server příchozí pošty už existuje.

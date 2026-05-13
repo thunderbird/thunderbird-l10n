@@ -195,11 +195,11 @@ account-setup-advanced-setup-button = Rozšířené nastavení
 
 account-setup-insecure-title = Upozornění!
 account-setup-insecure-incoming-title = Nastavení příchozí pošty:
-account-setup-insecure-outgoing-title = Nastavené odchozí pošty:
+account-setup-insecure-outgoing-title = Nastavení odchozí pošty:
 # Variables:
 #  $server (String): The name of the hostname of the server the user was trying to connect to.
 account-setup-warning-cleartext = <b>{ $server }</b> nepoužívá žádné šifrování.
-account-setup-warning-cleartext-details = Nezabezpečený server nechrání vaše heslo ani osobních informace pomocí šifrovaného spojení. Připojením k tomuto serveru můžete ohrozit své heslo a osobní informace.
+account-setup-warning-cleartext-details = Nezabezpečený server nechrání vaše heslo ani osobní informace pomocí šifrovaného spojení. Připojením k tomuto serveru můžete ohrozit své heslo a osobní informace.
 account-setup-insecure-server-checkbox = Uvědomuji si rizika
     .accesskey = U
 account-setup-insecure-description = { -brand-short-name } vám umožní pracovat s poštou dle zadaného nastavení, ale je vhodné kontaktovat správce nebo poskytovatele vaší e-mailové schránky ohledně řádného připojení. Pro více informací si přečtěte <a data-l10n-name="thunderbird-faq-link">často kladené dotazy k Thunderbirdu</a>.
@@ -214,10 +214,10 @@ insecure-dialog-confirm-button = Potvrdit
 #  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
 exchange-dialog-question =
     { -brand-short-name.gender ->
-        [masculine] { -brand-short-name } našel informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
-        [feminine] { -brand-short-name } našla informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
-        [neuter] { -brand-short-name } našlo informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
-       *[other] Aplikace { -brand-short-name } našla informace pro nastavení vašeho účtu v na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+        [masculine] { -brand-short-name } našel informace pro nastavení vašeho účtu na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+        [feminine] { -brand-short-name } našla informace pro nastavení vašeho účtu na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+        [neuter] { -brand-short-name } našlo informace pro nastavení vašeho účtu na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
+       *[other] Aplikace { -brand-short-name } našla informace pro nastavení vašeho účtu na doméně { $domain }. Chcete pokračovat a odeslat své přihlašovací údaje?
     }
 exchange-dialog-confirm-button = Přihlašovací údaje
 exchange-dialog-cancel-button = Zrušit

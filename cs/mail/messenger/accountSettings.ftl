@@ -34,5 +34,5 @@ ews-endpointhost-label =
     .value = Endpoint Host:
     .accesskey = E
 ews-oauthscopes-label =
-    .value = Rozsahy QAuth:
+    .value = Rozsahy OAuth:
     .accesskey = R
