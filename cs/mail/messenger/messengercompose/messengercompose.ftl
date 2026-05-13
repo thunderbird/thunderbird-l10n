@@ -44,7 +44,7 @@ pill-aria-label =
        *[other] Adresa { $email }, jedna z { $count }: pro její úpravu stiskněte Enter, pro odebrání Delete.
     }
 #   $email (String) - the email address
-pill-tooltip-invalid-address = { $email } není platné e-mailová adresa
+pill-tooltip-invalid-address = { $email } není platná e-mailová adresa
 #   $email (String) - the email address
 pill-tooltip-not-in-address-book = { $email } není ve vašem seznamu kontaktů
 pill-action-edit =

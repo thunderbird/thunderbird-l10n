@@ -106,8 +106,8 @@ addon-confirm-install-some-unsigned-message =
     { $addonCount ->
         [one]
             { -brand-short-name.case-status ->
-                [with-cases] Upozornění: Tato stránka chce do { -brand-short-name(case: "gen") } nainstalovat nověřený doplněk. Pokračujte na vlastní riziko.
-               *[no-cases] Upozornění: Tato stránka chce do aplikace { -brand-short-name } nainstalovat nověřený doplněk. Pokračujte na vlastní riziko.
+                [with-cases] Upozornění: Tato stránka chce do { -brand-short-name(case: "gen") } nainstalovat neověřený doplněk. Pokračujte na vlastní riziko.
+               *[no-cases] Upozornění: Tato stránka chce do aplikace { -brand-short-name } nainstalovat neověřený doplněk. Pokračujte na vlastní riziko.
             }
         [few]
             { -brand-short-name.case-status ->

@@ -16,7 +16,7 @@ openpgp-key-assistant-recipients-issue-description =
         [few] Pro šifrování musíte získat a přijmout použitelné klíče pro { $count } příjemce. <a data-l10n-name="openpgp-link">Zjistit více…</a>name="openpgp-link">Další informace…</a>
        *[other] Pro šifrování musíte získat a přijmout použitelné klíče pro { $count } příjemců. <a data-l10n-name="openpgp-link">Zjistit více…</a>name="openpgp-link">Další informace…</a>
     }
-openpgp-key-assistant-info-alias = { -brand-short-name } obvykle vyžaduje, aby veřejný klíč příjemce obsahovat ID uživatele, které odpovídá jeho e-mailové adrese. To můžete obejít pomocí pravidel OpenPGP pro aliasy příjemců. <a data-l10n-name="openpgp-link">Zjistit více…</a>
+openpgp-key-assistant-info-alias = { -brand-short-name } obvykle vyžaduje, aby veřejný klíč příjemce obsahoval ID uživatele, které odpovídá jeho e-mailové adrese. To můžete obejít pomocí pravidel OpenPGP pro aliasy příjemců. <a data-l10n-name="openpgp-link">Zjistit více…</a>
 # Variables:
 # $count (Number) - The number of recipients that need attention.
 openpgp-key-assistant-recipients-description =
