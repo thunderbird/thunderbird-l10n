@@ -96,7 +96,7 @@ paste-items-only = Vkládáte schůzky a přidělené úkoly
 # LOCALIZATION NOTE (paste-notify-about): Text displayed if pasting an invitation
 # or assigned task
 # $pasteItem - pasteEvent* or pasteTask*
-paste-notify-about = { $pasteItem }. Chcete poslat informaci o změně každému, kde je zapojený?
+paste-notify-about = { $pasteItem }. Chcete poslat informaci o změně každému, kde je zapojen?
 # LOCALIZATION NOTE (paste-and-notify-label): button label used in calendar prompt
 # of the pasted item has attendees
 paste-and-notify-label = Vložit a poslat
