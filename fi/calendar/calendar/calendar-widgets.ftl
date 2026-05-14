@@ -20,6 +20,8 @@ calendar-enable-button = Ota käyttöön
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Kalenterin { $calendarName } asetukset
+calendar-add-calendar = Lisää kalenteri…
+    .title = Luo tai tilaa kalenteri
 calendar-import-new-calendar = Uusi kalenteri…
     .title = Luo tai tilaa uusi kalenteri
 calendar-refresh-calendars =
