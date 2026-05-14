@@ -163,6 +163,21 @@ menu-file-get-next-n-news-msgs =
         [one] Nouda seuraava keskusteluryhmäviesti
        *[other] Nouda seuraava { $count } keskusteluryhmäviestiä
     }
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [1] Tiivistä kansio
+            [one] Tiivistä kansio
+           *[other] Tiivistä kansiot
+        }
+    .accesskey = T
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = Tiivistä kaikki kansiot
+    .accesskey = T
 
 ## Edit Menu
 
@@ -589,3 +604,8 @@ remote-content-option-allow-all =
             [one] Salli etäsisältö edellämainitusta lähteestä
            *[other] Salli etäsisältö { $count } edellämainitusta lähteestä
         }
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = Voit sulkea tämän ikkunan.
+oauth2-loopback-failure = OAuth-uudelleenohjaus epäonnistui.

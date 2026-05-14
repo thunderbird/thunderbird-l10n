@@ -49,6 +49,14 @@ appmenu-new-newsgroup =
     .label = Keskusteluryhmä
     .accesskey = r
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Lisää tili
+appmenu-add-account-panel =
+    .label = Lisää tili
+    .accesskey = L
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -65,6 +73,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = LDAP-osoitekirja
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Lisää osoitekirja
+appmenu-add-address-book =
+    .label = Osoitekirja
+    .accesskey = O
 
 ## Create
 
