@@ -116,13 +116,6 @@ calendar-dialog-attendee-summary-maybe =
        *[other] { $count } måske
     }
 # Variables:
-#   $count (Number): Number of guests that responded "declined".
-calendar-dialog-attendee-summary-declined =
-    { $count ->
-        [one] { $count } afvist
-       *[other] { $count } afvist
-    }
-# Variables:
 #   $count (Number): Number of guests whose response is pending (didn't reply yet).
 calendar-dialog-attendee-summary-pending =
     { $count ->
