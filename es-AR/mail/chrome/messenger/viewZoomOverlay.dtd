@@ -22,7 +22,7 @@
 <!ENTITY fullZoomResetCmd.accesskey "N">
 <!ENTITY fullZoomResetCmd.commandkey "0">
 <!ENTITY fullZoomResetCmd.commandkey2 "">
-<!ENTITY fullZoomToggleCmd.label "Sólo el texto">
+<!ENTITY fullZoomToggleCmd.label "Zoom solo en texto">
 <!ENTITY fullZoomToggleCmd.accesskey "T">
 <!ENTITY fullZoom.label "Zoom">
 <!ENTITY fullZoom.accesskey "Z">
