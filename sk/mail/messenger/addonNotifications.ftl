@@ -57,7 +57,7 @@ addon-install-full-screen-blocked = V režime celej obrazovky alebo tesne pred j
 webext-perms-sideload-menu-item = Doplnok { $addonName } bol pridaný do aplikácie { -brand-short-name }
 # Variables:
 #   $addonName (String): the localized name of the extension which has been updated.
-webext-perms-update-menu-item = Doplnok { $addonName } vyžaduje nové povolenia
+webext-perms-update-menu-item = Doplnok { $addonName } vyžaduje nové oprávnenia
 
 ## Add-on removal warning
 

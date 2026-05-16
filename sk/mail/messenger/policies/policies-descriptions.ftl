@@ -76,7 +76,7 @@ policy-OverridePostUpdatePage = Nastaví vlastnú stránku po aktualizácii apli
 policy-PasswordManagerEnabled = Povolí ukladanie hesiel do správcu hesiel.
 # PDF.js and PDF should not be translated
 policy-PDFjs = Zablokuje alebo nakonfiguruje PDF prehliadač PDF.js zabudovaný v aplikácii { -brand-short-name }.
-policy-Permissions2 = Nastaví povolenia pre kameru, mikrofón, polohu, upozornenia a automatické prehrávanie.
+policy-Permissions2 = Nastaví oprávnenia pre kameru, mikrofón, polohu, upozornenia a automatické prehrávanie.
 policy-Preferences = Nastaví a uzamkne hodnotu pre podmnožinu predvolieb.
 policy-PrimaryPassword = Vyžadovanie alebo zabránenie používania hlavného hesla.
 policy-PromptForDownloadLocation = Spýta sa na umiestnenie súboru pred jeho stiahnutím.

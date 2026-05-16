@@ -92,7 +92,7 @@ power-level-history = Zmeniť viditeľnosť histórie: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-room-name = Zmeniť názov miestnosti: { $powerLevelName }
 #    $powerLevelName is the power level name
-power-level-change-permissions = Zmeniť povolenia: { $powerLevelName }
+power-level-change-permissions = Zmeniť oprávnenia: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-server-acl = Odosielať udalosti m.room.server_acl: { $powerLevelName }
 #    $powerLevelName is the power level name
@@ -142,7 +142,7 @@ command-nick = { $commandName } &lt;zobrazované_meno&gt;: zmení zobrazované m
 # $commandName is the command name
 command-op = { $commandName } &lt;ID_používateľa&gt; [&lt;úroveň_oprávnení&gt;]: definuje úroveň oprávnení používateľa. Zadajte celočíselnú hodnotu, Používateľ: 0, Moderátor: 50 a Správca: 100. Ak nie je uvedená žiadna hodnota, predvolenou hodnotou je 50. Vyžaduje oprávnenie na zmenu úrovní oprávnení používateľa. Nefunguje na iných správcoch okrem vás.
 # $commandName is the command name
-command-deop = { $commandName } &lt;ID_používateľa&gt;: obnoví oprávnenia používateľa na úroveň 0 (Používateľ). Vyžaduje povolenie na zmenu úrovne oprávnení člena. Nefunguje na iných správcoch okrem vás.
+command-deop = { $commandName } &lt;ID_používateľa&gt;: obnoví oprávnenia používateľa na úroveň 0 (Používateľ). Vyžaduje oprávnenie na zmenu úrovne oprávnení člena. Nefunguje na iných správcoch okrem vás.
 # $commandName is the command name
 command-leave = { $commandName }: opustí aktuálnu miestnosť.
 # $commandName is the command name

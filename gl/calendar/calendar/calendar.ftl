@@ -864,6 +864,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Tarefa…
     .accesskey = T
+calendar-task-filter-title2 = Filtrar tarefas
 calendar-task-filter-all =
     .label = Todas
     .accesskey = a
@@ -986,6 +987,30 @@ calendar-alarm-snooze-for =
     .label = Aprazar por
 calendar-alarm-snooze-all-for =
     .label = Aprazar todo por
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } Minuto
+           *[other] { $count } Minutos
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] Hora
+           *[other] Horas
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] { $count } Día
+           *[other] { $count } Días
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
