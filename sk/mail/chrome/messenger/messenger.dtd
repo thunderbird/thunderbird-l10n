@@ -155,7 +155,7 @@
 <!ENTITY sortByTagsCmd.label "Štítky">
 <!ENTITY sortByTagsCmd.accesskey "t">
 <!ENTITY sortByJunkStatusCmd.label "Stav nevyžiadanej pošty">
-<!ENTITY sortByJunkStatusCmd.accesskey "N">
+<!ENTITY sortByJunkStatusCmd.accesskey "n">
 <!ENTITY sortBySubjectCmd.label "Predmet">
 <!ENTITY sortBySubjectCmd.accesskey "m">
 <!ENTITY sortByFromCmd.label "Od">
