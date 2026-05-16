@@ -145,6 +145,10 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista compacta
     .accesskey = c
 
+## Folder names
+
+folder-name-spam = Mensaxe non desexada
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -538,6 +542,12 @@ mark-as-junk-key =
 mark-not-junk-key =
     .key = j
 
+## Message header.
+
+header-spam-button =
+    .label = Mensaxe non desexada
+    .tooltiptext = Marcar a mensaxe como non desexada
+
 ## Actions for the New Mail Notification
 
 mark-as-read-action = Marcar como lido
@@ -548,6 +558,10 @@ archive-action = Arquivar
 
 ## Message list.
 
+menuitem-label-spam-percentage =
+    .label = Porcentaxe de correo non desexado
+menuitem-label-spam-status =
+    .label = Estado da mensaxe non desexada
 message-priority-lowest = Moi baixa
 message-priority-low = Baixa
 # Normal priority is often blank, depending on the consumers of these strings.
@@ -578,6 +592,10 @@ message-group-starred = Con estrela
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = e outros.
+
+## Prompts
+
+prompt-dont-ask-again = Non preguntar de novo.
 
 ## Attachments
 

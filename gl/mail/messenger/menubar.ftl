@@ -94,6 +94,9 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Restaurar
     .tooltiptext = Restaura as mensaxes seleccionadas
+toolbar-not-spam-button =
+    .label = Confirmar lexitimidade
+    .tooltiptext = Marcar as mensaxes seleccionadas como lexítimas
 
 ## View
 

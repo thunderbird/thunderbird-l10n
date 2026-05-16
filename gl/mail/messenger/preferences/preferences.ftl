@@ -47,6 +47,7 @@ compose-html-style-title = Estilo HTML
 composition-addressing-header = Enderezos
 privacy-main-header = Privacidade
 privacy-passwords-header = Contrasinais
+privacy-spam-header = Mensaxe non desexada
 privacy-junk-header = Correo lixo
 collection-header = Recolección e uso de datos do { -brand-short-name }
 collection-description = Esforzámonos para darlle opcións e recoller só aquilo que precisamos para prover e perfeccionar o { -brand-short-name } para todo o mundo. Sempre lle solicitaremos permiso antes de recoller información persoal.
@@ -444,11 +445,15 @@ dark-message-mode-toggle-label =
     .label = Amosar o interruptor do modo de mensaxe escura
     .accesskey = i
 dark-message-mode-toggle-description = Mostrar un interruptor na cabeceira da mensaxe para desactivar rapidamente o modo de mensaxe escura
+recent-destinations-legend = Destinos recentes
+recent-sort-order-alphabetic =
+    .label = Alfabético
 account-hub-legend = Centro de contas
 account-hub-checkbox-label =
     .label = Crear contas no novo Centro de contas
     .accesskey = C
 account-hub-checkbox-description = Procedemento experimental para crear unha nova conta de correo electrónico
+new-calendar-legend = Novo diálogo de evento de calendario
 account-hub-ab-checkbox-label =
     .label = Crear axendas de enderezos no novo Centro de contas
     .accesskey = e
@@ -627,6 +632,13 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = Actualmente está en modo FIPS. O modo FIPS require un contrasinal principal non baleiro.
 forms-master-pw-fips-desc = Produciuse un erro ao mudar o contrasinal
+spam-delete-label =
+    .label = Eliminalas
+    .accesskey = E
+spam-read-description = Marcar mensaxes como lidas
+spam-log-button =
+    .label = Mostrar o rexistro
+    .accesskey = s
 junk-description = Defina a configuración predeterminada para o correo lixo. As configuracións específicas de cada conta poden configurarse en Configuracións da conta.
 junk-marked-label =
     .label = Cando as mensaxes se marcan como lixo:
@@ -693,6 +705,26 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     As decisións automáticas pódense anular activando ou desactivando manualmente a cifraxe ao redactar unha mensaxe.
     Nota: a cifraxe sempre se activa automaticamente cando se responde a unha mensaxe cifrada.
+
+## DoH Section
+
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Estado: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Provedor: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = URL non válido
+preferences-doh-url-custom =
+    .label = Personalizado
+    .accesskey = P
+
+## Keyservers
+
+email-e2ee-key-servers-add = Engadir…
+email-e2ee-key-servers-reset = Restablecer Lista de Servidores
 
 ## Chat Tab
 
@@ -907,6 +939,14 @@ qr-export-more-accounts = Exportar máis contas
 ## Appearance Tab
 
 appearance-category-header = Aparencia
+accent-color-thunderbird =
+    .label = Azul de Thunderbird
+accent-color-purple =
+    .label = Morado
+accent-color-orange =
+    .label = Laranxa
+accent-color-pink =
+    .label = Rosa
 default-message-list-legend = Lista de mensaxes
 appearance-view-style =
     .value = Estilo de vista:

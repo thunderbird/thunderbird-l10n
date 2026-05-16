@@ -122,6 +122,18 @@ address-book-ldap-duplicate-error = O nome do directorio LDAP xa existe. Introdu
 address-book-ldap-creation-error = Non se puido crear o directorio LDAP.
 account-hub-email-setup-ews = Axustes do Servidor
 account-hub-email-credentials-confirmation = Axustes de Conta
+account-hub-result-unknown-hostname = Nome de  servidor descoñecido
+account-hub-result-unknown-cert = Certificado sen verificar
+account-hub-close-button =
+    .title = Pechar
+account-hub-minimize-button =
+    .title = Minimizar
+account-hub-maximize-button =
+    .title = Maximizar Centro de Contas
+account-hub-email-manual-configuration = Configuración manual
+account-hub-ssl-noencryption = Ningunha
+account-hub-email-skip-button = Saltar
+account-hub-finding-sync-accounts = Conta creada. Buscando cadernos de enderezos e calendarios…
 account-hub-name-warning-icon =
     .title = Introduza o seu nome
 account-hub-email-label = Correo electrónico
@@ -217,6 +229,7 @@ account-hub-port-error-text = O porto debe estar entre 1 e 65535
 account-hub-username-error-text = O nome de usuario é necesario
     .title = O nome de usuario é necesario
 account-hub-oauth-pending = Agardando a autorización na ventá emerxente de inicio de sesión...
+account-hub-addon-install-button = Instalar
 account-hub-addon-install-needed = { -brand-short-name } non admite este servidor de forma nativa. Para acceder ao correo electrónico de Exchange, <a data-l10n-name="addon-install"> instala un complemento de terceiros como Owl (de pago).</a>
 account-hub-addon-error = Fallou a instalación do complemento. Téntao de novo ou contacta co autor do complemento para obter axuda.
 account-hub-security-warning = <span data-l10n-name="security-warning">Aviso: detectouse un servidor de correo inseguro.</span> Este servidor carece de cifrado, polo que expón o teu contrasinal e os teus datos. Ponte en contacto co teu administrador para asegurar a conexión ou procede pola túa conta e risco. <a data-l10n-name="faq-link">Consulta as preguntas frecuentes para obter máis información.</a>
