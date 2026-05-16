@@ -717,6 +717,34 @@ preferences-doh-resolver = Provedor: { $name }
 # This is displayed instead of $name in preferences-doh-resolver
 # when the DoH URL is not a valid URL
 preferences-doh-bad-url = URL non válido
+preferences-doh-steering-status = Usando un provedor local
+preferences-doh-status-active = Activo
+preferences-doh-status-disabled = Desactivado
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Desactivado ({ $reason })
+preferences-doh-group-message = Activar DNS sobre HTTPS usando:
+preferences-doh-expand-section =
+    .tooltiptext = Máis información
+preferences-doh-setting-default =
+    .label = Protección por defecto
+    .accesskey = D
+preferences-doh-default-desc = { -brand-short-name } decide cando usar DNS seguro para protexer a túa privacidade.
+preferences-doh-default-detailed-desc-1 = Usar DNS seguro nas rexións onde estea dispoñible
+preferences-doh-default-detailed-desc-2 = Usa a túa resolución de DNS predeterminado se hai un problema co provedor de DNS seguro
+preferences-doh-default-detailed-desc-3 = Usar un provedor local, se é posible
+preferences-doh-setting-enabled =
+    .label = Protección adicional
+    .accesskey = I
+preferences-doh-setting-strict =
+    .label = Máxima protección
+    .accesskey = M
+preferences-doh-strict-detailed-desc-1 = Usar só o provedor que escollas
+preferences-doh-setting-off =
+    .label = Desactivado
+    .accesskey = D
+preferences-doh-off-desc = Usar resolución de DNS predeterminada
+preferences-doh-select-resolver = Escoller provedor:
 preferences-doh-url-custom =
     .label = Personalizado
     .accesskey = P
