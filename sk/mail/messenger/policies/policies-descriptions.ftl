@@ -83,7 +83,7 @@ policy-PromptForDownloadLocation = Spýta sa na umiestnenie súboru pred jeho st
 policy-Proxy = Nakonfiguruje nastavenia proxy.
 policy-RequestedLocales = Nastaví zoznam požadovaných jazykov aplikácie, v poradí podľa nastavenej priority.
 policy-SanitizeOnShutdown2 = Vymaže všetky údaje o prehliadaní v priebehu vypnutia.
-policy-SearchEngines = Nakonfiguruje nastavenie vyhľadávacích modulov. Toto pravidlo je dostupné len vo verzii s rozšírenou podporou (ESR).
+policy-SearchEngines = Nakonfiguruje nastavenie vyhľadávačov. Toto pravidlo je dostupné len vo verzii s rozšírenou podporou (ESR).
 policy-SearchSuggestEnabled = Povolí alebo zakáže návrhy vyhľadávania.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = Nainštaluje moduly PKCS #11.

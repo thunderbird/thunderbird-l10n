@@ -85,7 +85,7 @@ update-setting-write-failure-title = Chyba pri ukladaní nastavení aktualizáci
 # The newlines between the main text and the line containing the path is
 # intentional so the path is easier to identify.
 update-setting-write-failure-message =
-    Aplikácia { -brand-short-name } sa stretla s chybou a túto zmenu neuložila. Berte na vedomie, že upravenie tejto možnosti vyžaduje povolenie na zápis do tohto súboru. Vy alebo váš správca systému môžete túto chybu vyriešiť udelením správnych povolení.
+    Aplikácia { -brand-short-name } sa stretla s chybou a túto zmenu neuložila. Berte na vedomie, že upravenie tejto možnosti vyžaduje oprávnenie na zápis do tohto súboru. Vy alebo váš správca systému môžete túto chybu vyriešiť udelením správnych oprávnení.
     
     Nebolo možné zapísať do súboru: { $path }
 update-in-progress-title = Prebieha aktualizácia
@@ -125,7 +125,7 @@ location-label =
 restore-default-label =
     .label = Obnoviť predvolenú
     .accesskey = d
-default-search-engine = Predvolený vyhľadávací modul
+default-search-engine = Predvolený vyhľadávač
 add-web-search-engine =
     .label = Pridať…
     .accesskey = P
