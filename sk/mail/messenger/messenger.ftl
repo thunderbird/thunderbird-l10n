@@ -246,7 +246,7 @@ menu-move-to-folder-again =
 # Note: The access key should be a letter that occurs before $folderName in the translated string.
 menu-copy-to-folder-again =
     .label = Znova kopírovať do priečinka "{ $folderName }"
-    .accesskey = u
+    .accesskey = Z
 menu-move-to =
     .label = Presunúť do
     .accesskey = P

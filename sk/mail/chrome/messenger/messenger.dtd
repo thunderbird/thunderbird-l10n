@@ -155,7 +155,7 @@
 <!ENTITY sortByTagsCmd.label "Štítky">
 <!ENTITY sortByTagsCmd.accesskey "t">
 <!ENTITY sortByJunkStatusCmd.label "Stav nevyžiadanej pošty">
-<!ENTITY sortByJunkStatusCmd.accesskey "c">
+<!ENTITY sortByJunkStatusCmd.accesskey "N">
 <!ENTITY sortBySubjectCmd.label "Predmet">
 <!ENTITY sortBySubjectCmd.accesskey "m">
 <!ENTITY sortByFromCmd.label "Od">
@@ -583,7 +583,7 @@
 <!ENTITY folderContextEmptyTrash.label "Vyprázdniť kôš">
 <!ENTITY folderContextEmptyTrash.accesskey "k">
 <!ENTITY folderContextEmptyJunk.label "Vyprázdniť priečinok Nevyžiadaná pošta">
-<!ENTITY folderContextEmptyJunk.accesskey "S">
+<!ENTITY folderContextEmptyJunk.accesskey "N">
 <!ENTITY folderContextSendUnsentMessages.label "Odoslať všetky neodoslané správy…">
 <!ENTITY folderContextSendUnsentMessages.accesskey "e">
 <!ENTITY folderContextUnsubscribe.label "Odhlásiť sa z diskusnej skupiny…">
