@@ -4,6 +4,7 @@
 
 select-all-calendars = すべてを選択
 select-none-calendars = 選択なし
+calendar-creation-dialog-title = カレンダーの追加
 calendar-creation-wizard-title = 新規カレンダー
 calendar-creation-initial-description = カレンダーをこのコンピューターに保存するか、サーバーに保存することができます。サーバーに保存したカレンダーは、リモートからアクセスしたり友人や同僚と共有したりできます。
 calendar-creation-initial-computer =
