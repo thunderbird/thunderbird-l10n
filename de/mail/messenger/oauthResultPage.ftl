@@ -9,3 +9,15 @@
 ## Always included in the page
 
 oauth-result-wordmark-alt = { -brand-full-name }
+oauth-result-footer-text = Brauchen Sie Hilfe? Kontaktieren Sie die Unterstützer.
+
+## Successful authentication
+
+oauth-success-title = Sie sind startbereit
+oauth-success-subtitle = Ihr Konto ist sicher mit { -brand-short-name } verbunden.
+oauth-success-body = Sie können dieses Fenster schließen.
+
+## Authentication error
+
+oauth-error-title = Anmeldung konnte nicht abgeschlossen werden
+oauth-error-subtitle = { -brand-short-name } konnte die Anmeldung mit diesen Einstellungen nicht abschließen.
