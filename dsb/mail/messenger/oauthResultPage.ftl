@@ -9,22 +9,22 @@
 ## Always included in the page
 
 oauth-result-wordmark-alt = { -brand-full-name }
-oauth-result-footer-text = Trjebaće pomoc? Stajće so z teamom pomocy do zwiska.
+oauth-result-footer-text = Trjebaśo pomoc? Stajśo se z teamom pomocy do zwiska.
 
 ## Successful authentication
 
-oauth-success-title = Sće wšitko dočinił
-oauth-success-subtitle = Waše konto je so wěsće z { -brand-short-name } zwjazało.
-oauth-success-body = Móžeće tute wokno začinić.
+oauth-success-title = Sćo wšykno docynił
+oauth-success-subtitle = Wašo konto jo se wěsćej zwězało z { -brand-short-name }.
+oauth-success-body = Móžośo toś to wokno zacyniś.
 
 ## Authentication error
 
-oauth-error-title = Přizjewjenje njeda so dokónčić
-oauth-error-subtitle = { -brand-short-name } njemóžeše přizjewjenje z tutymi nastajenjemi dokónčić.
+oauth-error-title = Pśizjawjenje njedajo se dokóńcyś
+oauth-error-subtitle = { -brand-short-name } njejo mógł pśizjawjenje z toś tymi nastajenjami dokóńcyś.
 # New lines in the string will be converted into new lines in the output.
 # $linkStart (String) - Link prefix. Has to always be before $linkEnd. Has no visible content.
 # $linkEnd (String) - Link suffix. Has to always be after $linkStart. Has no visible content.
 oauth-error-body =
-    Wróćće so k { -brand-short-name }, přepruwujće nastajenja swojeje kontoweje konfiguracije a spytajće hišće raz.
+    Wrośćo se k { -brand-short-name }, pśeglědujśo nastajenja swójeje kontoweje konfiguracije a wopytajśo hyšći raz.
     
-    Jeli problem dale eksistuje, hlejće { $linkStart }Problemy z kontowym přizjewjenjom rozrisać{ $linkEnd } za pomoc.
+    Jolic problem dalej eksistěrujo, lejśo { $linkStart }Problemy z kontowym pśizjawjenim rozwězaś{ $linkEnd } za pomoc.
