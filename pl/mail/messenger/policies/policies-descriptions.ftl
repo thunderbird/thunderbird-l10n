@@ -85,6 +85,7 @@ policy-RequestedLocales = Ustawienie listy żądanych języków dla programu w 
 policy-SanitizeOnShutdown2 = Usuwanie danych nawigacji podczas wyłączania.
 policy-SearchEngines = Konfiguracja ustawień wyszukiwarki. Ta zasada jest dostępna tylko w wersji ESR (Extended Support Release).
 policy-SearchSuggestEnabled = Włączenie lub wyłączenie podpowiedzi wyszukiwania.
+policy-SecurityDevices2 = Dodawanie i usuwanie modułów PKCS #11.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = Instalacja modułów PKCS #11.
 policy-SSLVersionMax = Ustawienie maksymalnej wersji SSL.
